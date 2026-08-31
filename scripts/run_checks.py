@@ -27,6 +27,10 @@ CHECKS = (
         "Mobius threshold Hodge structure",
         [sys.executable, "test_mobius_hodge.py"],
     ),
+    (
+        "Selberg--Volterra cross-fiber transport",
+        [sys.executable, "test_selberg_volterra.py"],
+    ),
 )
 
 

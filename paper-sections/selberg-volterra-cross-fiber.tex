@@ -1,0 +1,104 @@
+\section{Selberg--Volterra cross-fiber transport}
+
+profinite polarization控制 coefficient diagonal，却不能自动产生不同 products
+之间的 maps。对 prime--continuum measure
+\[
+ dA(u)=d[\psi(u)-u]
+\]
+定义 logarithmic prefix field
+\[
+ B_y(s)=\psi(e^{y+s})-\psi(e^y)-e^y(e^s-1),
+\]
+以及
+\[
+ f_y(s)=e^{-(\sigma+i\tau)(y+s)}e^{-e^{y+s}/Y}.
+\]
+实际长度 $h$ 的 modulated current为
+\[
+ S_y(h)=\int_{e^y}^{e^{y+h}}u^{-\sigma-i\tau}e^{-u/Y}\,dA(u).
+\]
+
+\begin{theorem}[\statusU{} exact Selberg--Volterra transport]
+Stieltjes意义下，
+\[
+ S_y(h)=f_y(h)B_y(h)-\int_0^hB_y(s)f_y'(s)\,ds, \tag{SV}
+\]
+其中
+\[
+ f_y'(s)=-\left(\sigma+i\tau+\frac{e^{y+s}}Y\right)f_y(s).
+\]
+\end{theorem}
+
+\begin{proof}
+把 $B_y$ 视为 $dA$ 在 $u=e^{y+s}$ 下的 prefix distribution function；因
+$B_y(0)=0$，Stieltjes integration by parts立即给式 (SV)。
+\end{proof}
+
+这给出真正的 cross-fiber correspondence：所有 terminal windows先嵌入共同的
+prefix fiber $0\leq s\leq h$，再由
+\[
+ \nabla_{\tau,Y}=\frac d{ds}+\sigma+i\tau+\frac{e^{y+s}}Y
+\]
+transport。modulation没有被 ordinary short-interval energy删除。
+
+固定 arithmetic dyadic scale $N$，记
+\[
+ \mathcal J_N(s)=\int_{\log N}^{\log 2N}|B_y(s)|^2\,dy,
+ \qquad
+ \mathcal G_N(\tau,h)=\int_{\log N}^{\log 2N}|S_y(h)|^2\,dy.
+\]
+
+\begin{theorem}[\statusU{} Selberg--Hardy cross-energy bound]
+若 $0<h\leq\log(3/2)$，则
+\[
+ \mathcal G_N(\tau,h)
+ \leq2N^{-2\sigma}\mathcal J_N(h)
+ +2hN^{-2\sigma}
+  \left(\sigma+|\tau|+\frac{3N}{Y}\right)^2
+  \int_0^h\mathcal J_N(s)\,ds.                 \tag{SH}
+\]
+\end{theorem}
+
+\begin{proof}
+对式 (SV)使用二项平方估计，并对 Volterra integral应用 Cauchy--Schwarz。
+在给定范围内 $e^{y+s}\leq3N$、$|f_y(s)|\leq N^{-\sigma}$；对 $y$积分并用
+Tonelli即得。
+\end{proof}
+
+单一 terminal Selberg integral不够；式 (SH)精确说明还需要全部中间 prefixes
+的 Hardy cost。它也给一个可直接接回中心线定理的条件接口。
+
+\begin{corollary}[\statusC{} multiscale near-product evacuation]
+取 $\tau_T\asymp B_T\asymp T$、$h_T\asymp T^{-1}$、
+$\beta_T\gg\log(e+T)$。若对某个 fixed $p\geq0$，所有相关 arithmetic dyadic
+scales及 $0<s\leq h_T$ 满足
+\[
+ \mathcal J_N(s)\ll Ns\log^p(2N),               \tag{SP}
+\]
+则对任意 fixed $K>p+1$，
+\[
+ \sum_{T\geq\log^K(2Y)}
+ \frac{\mathcal G_{Y,\delta}(\tau_T,B_T)}{\beta_T}
+ \ll\frac{\log^{p+1-K}(2Y)}{\log\log(3Y)}=o(1). \tag{NE}
+\]
+这里求和为 dyadic heights，并已对 $O(\log Y)$ 个 Abel-relevant arithmetic
+scales求和。
+\end{corollary}
+
+\begin{proof}
+式 (SP)代入 (SH)，并用 $N^{1-2\sigma}\leq1$、
+$\sigma+|\tau_T|+3N/Y\ll T$，得每个 arithmetic scale
+$\mathcal G_N\ll\log^p(2N)/T$。对 $N$ 求和多一个 $\log Y$，再除以 barrier
+并对 dyadic $T\geq\log^K(2Y)$ 求和。
+\end{proof}
+
+式 (SP)仍未无条件证明；它是真正的 arithmetic prefix-cancellation input，而非
+RH的改名。尤其 scalar coefficient mass不能推出它：取长度 $H$ 的
+$a_j=1$，则 $\sum|a_j|^2=H$，但 terminal prefix square为 $H^2$。因此
+profinite gcd Gram与 Selberg--Volterra profile是两个独立结构层。
+
+已发表的 Guth--Maynard theorem控制 bounded-coefficient Dirichlet polynomials在
+$1$-separated points上的 large-value cardinality；它可能进入 layer-cake路线，
+但不直接给 continuous $L^2$ profile (SP)。另一个曾声称 log-power intervals
+almost-all estimate的预印本 \texttt{arXiv:1009.6121} 已因其所依赖的关键引理
+错误而撤回，本文不把该 claim作为输入。

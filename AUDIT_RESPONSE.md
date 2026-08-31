@@ -32,13 +32,14 @@
 2. 把关键浮点证书迁移为 interval arithmetic / exact rational enclosure：列为下一阶段的严格认证任务。
 3. 对论文中的内部新定理进行独立同行复核，并逐条补齐可公开引用的外部文献证据。
 4. 把文档 163 的 Mellin-coherent dual 机制推广到其他有共同 Dirichlet-series realization 的 carriers；对仅有 additive actual-energy approximation 的 sampled/moment Gram，不虚构全空间 FPW4b。
-5. 文档 164 已把四分量压成 canonical 二通道并无条件消去 `n<=T/log^A T`。文档 165 的 Hadamard 正规形进一步证明：把“完整 hard cross Gram 加 primitive energy”列为独立较弱目标是循环的；文档 166 转而把 truncated Möbius defect 构造成 zeros-independent 的 threshold-complex Hodge heat supertrace。文档 167 又以 profinite divisibility Haar Gram 将 second moment转移到全部单调权，并无条件消去 `T>=log^K Y`、`K>6` 的 hard coefficient diagonals。仍需证明剩余 off-diagonal near-products与 continuum/Gamma cross terms的统一 finite-index compatibility。
+5. 文档 164 已把四分量压成 canonical 二通道并无条件消去 `n<=T/log^A T`。文档 165 的 Hadamard 正规形进一步证明：把“完整 hard cross Gram 加 primitive energy”列为独立较弱目标是循环的；文档 166 转而把 truncated Möbius defect 构造成 zeros-independent 的 threshold-complex Hodge heat supertrace。文档 167 又以 profinite divisibility Haar Gram 将 second moment转移到全部单调权，并无条件消去 `T>=log^K Y`、`K>6` 的 hard coefficient diagonals。文档 168 已构造 ordinary prefix field 到 modulated current 的 exact Selberg--Volterra cross-fiber transport，并把 full near-product bound化为 multiscale Selberg--Hardy profile；该 profile 的 Selberg-order估计及 continuum/Gamma gluing仍未证。
+6. 外部输入复核：Guth--Maynard 已发表 theorem 是 bounded-coefficient、1-separated points上的 large-value estimate，不能直接冒充 continuous balanced `L2` profile；`arXiv:1009.6121` 已由作者因关键引理错误撤回，不作为证据。
 
 ## 研究方向调整
 
 暂停继续堆叠等价 kernel、basis tuning 和未经认证的浮点搜索。近期优先级为：
 
-1. 为文档 167 剩余的 `|log(mq/m'q')|<h` near-products构造跨 divisor fibers 的 restriction/correspondence maps，并证明其调制 finite-index预算；
+1. 对文档 168 的 prefix field证明 `J_N(s)<<Ns polylog(N)` 型 multiscale Selberg profile，或改走 continuous balanced large-value layer-cake预算；
 2. 把可行的有限证书升级为 interval-certified enclosure；
 3. 仅在有共同 Mellin realization 时推广 quantitative dual separation；
 4. 独立复核后再扩大“已证明”范围。
