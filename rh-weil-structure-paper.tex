@@ -1,0 +1,805 @@
+% !TeX program = xelatex
+% Overleaf: Menu -> Compiler -> XeLaTeX
+\documentclass[UTF8,11pt,a4paper]{ctexart}
+
+\usepackage[a4paper,margin=2.45cm]{geometry}
+\usepackage{amsmath,amssymb,amsthm,mathtools}
+\usepackage{bm}
+\usepackage{booktabs,longtable,tabularx,array}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{microtype}
+\usepackage{hyperref}
+
+\hypersetup{
+  colorlinks=true,
+  linkcolor=blue!55!black,
+  citecolor=green!45!black,
+  urlcolor=blue!65!black,
+  pdftitle={从 Weil 猜想到数域中心线：极化、过滤 Hodge 结构与黎曼猜想的存在性审计},
+  pdfauthor={研究笔记整理稿}
+}
+
+\setlist{nosep,leftmargin=2em}
+\renewcommand{\arraystretch}{1.16}
+\setlength{\emergencystretch}{2em}
+
+\newtheorem{theorem}{定理}[section]
+\newtheorem{proposition}[theorem]{命题}
+\newtheorem{lemma}[theorem]{引理}
+\newtheorem{corollary}[theorem]{推论}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{定义}
+\newtheorem{problem}[theorem]{问题}
+\theoremstyle{remark}
+\newtheorem{remark}[theorem]{注}
+
+\newcommand{\C}{\mathbb C}
+\newcommand{\R}{\mathbb R}
+\newcommand{\N}{\mathbb N}
+\newcommand{\Tr}{\operatorname{Tr}}
+\newcommand{\Spec}{\operatorname{Spec}}
+\newcommand{\Ran}{\operatorname{Ran}}
+\newcommand{\diag}{\operatorname{diag}}
+\newcommand{\dist}{\operatorname{dist}}
+\newcommand{\ord}{\operatorname{ord}}
+\newcommand{\dd}{\,\mathrm d}
+\newcommand{\1}{\mathbf 1}
+\newcommand{\cH}{\mathcal H}
+\newcommand{\cM}{\mathcal M}
+\newcommand{\cE}{\mathcal E}
+\newcommand{\cQ}{\mathcal Q}
+\newcommand{\cZ}{\mathcal Z}
+\newcommand{\cC}{\mathcal C}
+
+\title{\bfseries 从 Weil 猜想到数域中心线\\
+\large 极化、过滤 Hodge 结构与黎曼猜想的存在性审计}
+\author{研究笔记整理稿（第 001--162 篇）}
+\date{2026 年 8 月 31 日}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+本文从有限域上 Weil 猜想的黎曼猜想部分抽离出一个可复用的证明机制：全局迹或行列式公式把算术数据变成谱，函数方程给中心对称，正极化或有限 Hodge 负指标阻止谱向中心线外漂移。我们给出四个层次的广义结构定理：有限维极化 Lefschetz--Frobenius（PLF）定理、双向 tempered 动力学定理、filtered primitive Weil（FPW）增长定理，以及适用于有限 von Neumann 代数的 bounded finite-trace Hodge--Weil 定理。前三者分别抽象 Deligne/Weil 证明中的纯性、酉化和渐近权重机制；第四者把数域所需的正性弱化为负谱质量的一致有界性。
+
+对经典 Riemann zeta 函数，本文逐项审计这些结构的存在性。显式公式、Euler--Gamma 数据、正 Gram 载体、primitive/Tate 消元、Poisson 与 Mellin 兼容、有限迹代数、Cauchy effect cone、Vaughan Type I/II 分解以及有限矩阵通道均可无条件构造。尚未得到的是一个不借用零点位置的统一算术 Hodge 估计：等价地，需控制实际算术向量的 subpower Hodge 范数，或控制 Abel Hodge current 的 Cauchy 加权负谱迹。本文进一步把后一问题无条件局部化到平方根高度核心，并给出调制 Gallagher--Fejér、矩阵 Bessel、Feshbach--Loewner 和冻结二维 incidence 通道的精确接口。最后证明一个 compression no-free-lunch：小尾部、小耦合和稳定低秩通道本身不能控制物理能量，任何真正成功的数域 Weil 理论都必须含有独立、非循环的 core Hodge--Riemann 输入。
+
+因此，本文没有证明 RH 或 GRH；它给出的是一组严格的结构定理、存在性边界、失败机制，以及一个已经缩窄到明确算术不等式的下一阶段研究议程。
+\end{abstract}
+
+\noindent\textbf{关键词：}Weil 猜想；黎曼猜想；Hodge--Riemann 正性；显式公式；有限迹负指标；Vaughan 恒等式；Hilbert--Pólya
+
+\tableofcontents
+
+\section{引言：问题、方法与结论边界}
+
+有限域上光滑射影簇的 zeta 函数之所以具有“正确的零点绝对值”，并非只因为函数方程。函数方程至多把一个谱点与其倒数或中心反射配对；真正把谱压到圆周上的，是 Poincar\'e 对偶、Hard Lefschetz 与 Hodge--Riemann 正性共同给出的极化。对于曲线，Weil 的 correspondence 论证也具有相同结构：迹公式负责识别 Frobenius 幂迹，Hodge 指数定理负责给出所有幂的一致平方根界。这里的历史和形式基准分别是 Deligne 的纯性定理、standard conjectures 的极化纲领以及 Kleiman 的结构整理\cite{Deligne1974,GrothendieckStandard,KleimanWeil}。
+
+数域问题的基本困难是：每个素数处的局部 Frobenius 纯性并不控制全局 Euler 乘积解析延拓后的零点。数域对应的原始全局接口是 Weil 显式公式\cite{WeilExplicit}。即使
+\[
+  \zeta(s)=\prod_p(1-p^{-s})^{-1}
+\]
+的每个局部参数都最简单，经典 RH 仍然是开放问题。因此所需对象必须是一个\emph{全局}结构：它要同时看见所有素数幂、Gamma 因子、极点和零点，并带有不以 RH 为前提的正性或有限负指标。
+
+本文把 162 篇研究笔记重组为如下成果链：
+\begin{enumerate}
+  \item 证明有限维 PLF、幂迹、无限维 adjoint、tempered 与 tracial determinant 等结构定理；
+  \item 构造 filtered primitive Weil package，把“纯权”改写为算术向量随尺度的 subpower 增长；
+  \item 对 zeta 无条件实现该 package 的解析、Euler、positive-carrier 与有限化部分，并证明最后的 arithmetic tightness 与 RH 等强；
+  \item 从 Nyman--Beurling、prime graph、wavelet、Green kernel、passivity 等多条路线提取等价或充分判据，同时记录不能闭合的 no-go；
+  \item 把最新路线压缩为有限迹负指标，再局部化到平方根核心和冻结的二维 Vaughan 通道；
+  \item 证明仅靠正 Gram 的低秩压缩不可能“免费”产生 Hodge--Riemann 约束，因而明确下一步必须构造何种新结构。
+\end{enumerate}
+
+本文所有“结构定理”都是严格蕴含；所有关于 zeta 的最终中心线结论均明确标为条件命题。有限浮点实验只用于发现结构、排除错误目标，不构成 RH 证据。
+
+\section{有限域原型：极化 Lefschetz--Frobenius 结构}
+
+\subsection{最小谱论机制}
+
+\begin{theorem}[正 similitude 强制纯性]
+设 $H$ 是有限维复向量空间，$F\in\mathrm{GL}(H)$，$Q>0$。若存在正定 Hermite 内积 $h$ 使
+\[
+  h(Fx,Fy)=Qh(x,y),
+\]
+则 $Q^{-1/2}F$ 为酉算子；因而 $F$ 可对角化，且每个特征值 $\alpha$ 满足 $|\alpha|=Q^{1/2}$。
+\end{theorem}
+
+\begin{proof}
+令 $U=Q^{-1/2}F$，则 $h(Ux,Uy)=h(x,y)$。有限维酉谱定理给出结论。
+\end{proof}
+
+这个定理本身过于抽象：若已经知道谱在圆周上，常可反向制造内积。有效性来自极化必须由独立的代数与几何结构产生。
+
+\subsection{PLF 代数与广义有限维 Weil 定理}
+
+\begin{definition}[PLF 代数]
+固定 $q>1$ 与整数 $d\geq0$。一个极化 Lefschetz--Frobenius 代数由下列数据组成：
+\begin{enumerate}
+  \item 有限维分次复交换代数 $H=\bigoplus_{n=0}^{2d}H^n$，带反线性对合 $x\mapsto\bar x$；
+  \item 顶次迹 $\tau:H^{2d}\to\C$，使乘法配对 $H^n\times H^{2d-n}\to\C$ 非退化；
+  \item 实 Lefschetz 元 $L\in H^2$，且 $L^{d-n}:H^n\to H^{2d-n}$ 在 $n\leq d$ 时为同构；
+  \item 分次代数自同构 $F$，满足 $FL=qLF$、$F\bar x=\overline{Fx}$ 和 $\tau(Fz)=q^d\tau(z)$；
+  \item primitive 分解及 Hodge 星型算子 $S_n$，使
+  \[
+    h_n(x,y)=\varepsilon_n\tau\bigl(xS_n(\bar y)\bigr)
+  \]
+  是 $H^n$ 上的正定 Hermite 内积。
+\end{enumerate}
+\end{definition}
+
+\begin{theorem}[有限维广义 Weil 结构定理]\label{thm:plf}
+对任意 PLF 代数，$F|_{H^n}$ 可对角化，且
+\[
+  \Spec(F|_{H^n})\subset\{\alpha\in\C:|\alpha|=q^{n/2}\}.
+\]
+\end{theorem}
+
+\begin{proof}
+若 $x=L^ru$、$u$ primitive 且 $n=a+2r$，由 $FL=qLF$ 得到
+\[
+  S_nF=q^{n-d}FS_n.
+\]
+再用 $F$ 保乘法、与共轭交换以及 $\tau(Fz)=q^d\tau(z)$，可得
+\[
+  h_n(Fx,Fy)=q^nh_n(x,y).
+\]
+应用上一最小谱论定理，取 $Q=q^n$ 即得。
+\end{proof}
+
+\begin{theorem}[迹公式到权重线]
+若另有点数恒等式
+\[
+  N_m=\sum_n(-1)^n\Tr(F^m|H^n),\qquad
+  Z(T)=\exp\!\left(\sum_{m\geq1}\frac{N_mT^m}{m}\right),
+\]
+则
+\[
+  Z(T)=\prod_n\det(1-TF|H^n)^{(-1)^{n+1}}.
+\]
+第 $n$ 次上同调贡献的 reciprocal 零点或极点满足 $|\alpha|=q^{n/2}$；令 $T=q^{-s}$，其 divisor 位于 $\Re s=n/2$。
+\end{theorem}
+
+\begin{proof}
+逐次使用 $-\log\det(1-TF)=\sum_{m\geq1}\Tr(F^m)T^m/m$，再应用定理~\ref{thm:plf}。
+\end{proof}
+
+\subsection{correspondence 版本}
+
+\begin{theorem}[reciprocal pairing 与幂迹界]
+设非零复数多重集 $\{\alpha_j\}_{j=1}^N$ 在 $\alpha\mapsto Q/\alpha$ 下不变，并且
+\[
+  \left|\sum_j\alpha_j^m\right|\leq C Q^{m/2}\qquad(m\geq1).
+\]
+则每个 $|\alpha_j|=Q^{1/2}$。
+\end{theorem}
+
+\begin{proof}
+令 $\beta_j=\alpha_j/Q^{1/2}$。幂迹界说明 $\sum_{m\geq1}(\sum_j\beta_j^m)z^m$ 的收敛半径至少为 $1$；而该级数等于 $\sum_j\beta_jz/(1-\beta_jz)$，其最近极点给 $\max|\beta_j|\leq1$。倒数配对再给 $\min|\beta_j|\geq1$。
+\end{proof}
+
+这正抽象了 Weil 对曲线的原始论证：Hodge 指数或 Rosati 正性不必先成为整个复上同调的内积，只要它能对全部 Frobenius 幂产生统一平方根界。
+
+\section{无限维、tempered 与 tracial 推广}
+
+\subsection{Hilbert--Pólya 型 adjoint 关系}
+
+\begin{theorem}[极化生成元定理]\label{thm:adjoint}
+令 $\Theta$ 是 Hilbert 空间上的稠密定义闭算子。若
+\[
+  D(\Theta)=D(\Theta^*),\qquad \Theta^*=cI-\Theta,
+\]
+则 $A=\Theta-cI/2$ 反自伴，且 $\Spec(\Theta)\subset c/2+i\R$。若一个不借用零点位置构造的正规化行列式满足
+\[
+  \Lambda(s)=E(s)\det_\infty(s-\Theta)
+\]
+且 $E$ 的 divisor 已知，则 $\Lambda$ 的相应零点位于中心线。
+\end{theorem}
+
+\begin{proof}
+$A^*=-A$。反自伴算子的谱位于虚轴；对特征向量也可直接由
+$2\Re\rho\|v\|^2=\langle(\Theta+\Theta^*)v,v\rangle=c\|v\|^2$ 得到。
+\end{proof}
+
+\begin{remark}[循环性]
+以已知零点为正交基并令 $\Theta e_\rho=\rho e_\rho$，会把 RH 偷放进结构中。数域存在性定理必须同时说明：对象由算术数据构造；正性不使用 RH；迹/行列式恢复完整 Gamma--Euler divisor；无限维定义域和正规化可控。
+\end{remark}
+
+\subsection{双向 tempered 动力学}
+
+\begin{theorem}[tempered 纯性与酉化]\label{thm:tempered}
+令 $U=q^{-w/2}F$。若对每个 $\epsilon>0$ 有
+\[
+  \|U^n\|\leq C_\epsilon e^{\epsilon|n|}\qquad(n\in\mathbb Z),
+\]
+则 $\Spec(F)$ 位于 $|\alpha|=q^{w/2}$。若进一步 $\sup_{n\in\mathbb Z}\|U^n\|\leq M$，则存在与原内积等价的正内积使 $U$ 精确酉。
+\end{theorem}
+
+\begin{proof}
+谱半径公式分别作用于 $U$ 与 $U^{-1}$，给每个谱值同时满足 $|\lambda|\leq1$ 与 $|\lambda|\geq1$。在一致有界情形，Ces\`aro 度量
+\[
+  H_N=\frac1{2N+1}\sum_{n=-N}^N(U^n)^*U^n
+\]
+满足 $M^{-2}I\leq H_N\leq M^2I$。取收敛子列，边界项为 $O(N^{-1})$，极限 $H_\infty$ 满足 $U^*H_\infty U=H_\infty$。
+\end{proof}
+
+同一论证适用于强连续群 $G_t$：双向 subexponential 增长迫使生成元谱位于 $i\R$；一致有界时对 $G_t^*G_t$ 作时间平均即可重建精确极化。所得 tempered Weil 对象对直和、张量积、对偶、子商、Schur 函子和 Tate twist 封闭。这里的张量结论只适用于已经具有\emph{全局}谱包的对象，不能从局部 Satake 参数的张量积直接推出 Rankin--Selberg 全局零点空间。
+
+\subsection{迹维数与零点重数}
+
+令 $\Gamma$ 为离散谱集，$m_\gamma\in\N$。在 $\ell^\infty(\Gamma)$ 上定义
+\[
+  \tau(a)=\sum_{\gamma\in\Gamma}m_\gamma a(\gamma),\qquad a\geq0.
+\]
+这是 faithful normal semifinite trace，且坐标投影满足 $\tau(P_\gamma)=m_\gamma$。
+
+\begin{theorem}[tracial polarized Weil determinant]
+设 $(\cM,\tau)$ 是 semifinite tracial von Neumann 代数，$\Theta$ 是 affiliated normal 算子，离散谱投影具有有限整数迹维数，并满足
+\[
+  \Theta^*=c-\Theta,qquad
+  \Lambda(s)=E(s)\det_\tau(s-\Theta).
+\]
+则非平凡 divisor 位于 $\Re s=c/2$，且 $\det_\tau$ 以 $\tau(P_\rho)$ 恢复零点的代数重数。
+\end{theorem}
+
+\begin{proof}
+中心线结论来自定理~\ref{thm:adjoint}。局部地，
+\[
+  \frac{\dd}{\dd s}\log\det_\tau(s-\Theta)
+  =\tau\bigl((s-\Theta)^{-1}\bigr),
+\]
+故 $\rho$ 处的 order 为 $\tau(P_\rho)$；Weierstrass 正规化只改变无零因子和多项式 counterterm，不改变局部 divisor。
+\end{proof}
+
+这说明普通 Hilbert 空间本征子空间维数不是恢复重数的唯一方式。标量最小 GNS fiber 可以是一维，而 trace dimension 仍精确携带重数。
+
+\section{Filtered primitive Weil 总定理}
+
+精确酉性对数域过强。尺度 $X$ 上的过滤模型只需辨认每个固定 divisor mode 的增长指数，并证明实际算术向量的 Hodge 范数没有幂次增长。
+
+\begin{definition}[FPW package]
+中心为 $c/2$ 的 filtered primitive Weil package 包含：
+\begin{enumerate}
+  \item 由有限 Euler 数据构造的 arithmetic vector $v_X$，先减去 continuum/Tate 主模态；
+  \item 正半定 Gram/Hodge form $\cQ_X$，其 kernel、sampling、moment 或 Sobolev 实现彼此以 $X^{o(1)}$ 双侧等价；
+  \item primitive dilation polynomial $P_X(U)$，在每个固定临界谱紧集上以 $X^{o(1)}$ 双侧可逆；
+  \item 与显式公式相容的 divisor mode
+  \[
+    X^{\rho-c/2}m_X(\rho),\qquad |m_X(\rho)|=X^{o(1)},
+  \]
+  并能分离每个 off-center divisor；
+  \item 高频、边界、Taylor、sampling 与 finite-completion tails 的总范数为 $X^{o(1)}$；
+  \item arithmetic tightness：$\cQ_X(v_X)=X^{o(1)}$。
+\end{enumerate}
+前五项是载体、兼容性和可见性；第六项是数域 Hodge--Riemann 内容。
+\end{definition}
+
+\begin{theorem}[filtered primitive Weil 中心线定理]\label{thm:fpw}
+若中心对称的有限阶 divisor data 具有 FPW package，令
+\[
+  \Theta_+=\sup_\rho\Re\rho.
+\]
+则
+\[
+  \limsup_{X\to\infty}
+  \frac{\log\max(1,\cQ_X(v_X))}{\log X}
+  =\max(0,2\Theta_+-c).
+\]
+特别地，arithmetic tightness 推出全部 divisor 位于 $\Re\rho=c/2$。
+\end{theorem}
+
+\begin{proof}
+有限阶显式公式与 tempered tails 给右端的上界。固定 $\rho$，可见性和 Mellin 唯一性阻止 $X^{\rho-c/2}$ 模态被其他指数对所有尺度完全消去；正 Gram 及 $m_X(\rho)=X^{o(1)}$ 给
+\[
+  \cQ_X(v_X)\geq X^{2\Re\rho-c-o(1)}
+\]
+沿某子列成立。对所有 $\rho$ 取上确界得到反向不等式。tightness 迫使 $\Theta_+\leq c/2$；中心反射对称排除左侧零点。
+\end{proof}
+
+若 Gram family 对平移协变且一致 tight，则可作 GNS completion，得到强连续酉群和 $\Theta=c/2+iA$；因此 strong FPW 会恢复真正的 Hilbert--P\'olya 型算子。filtered FPW 只控制 distinguished arithmetic cyclic vector，足以推出 divisor purity，却不自动给整个算子上的半单性。
+
+\section{数域主定理：有限迹 Hodge 负指标}
+
+\subsection{effect cone 上的精确对偶}
+
+\begin{theorem}[有限迹 Hodge 指数对偶]\label{thm:trace-duality}
+令 $(\cM,\tau)$ 是有限 von Neumann 代数，$\tau(1)=1$，$H=H^*$ 可积。写 $H=H_+-H_-$。则
+\[
+  \inf_{0\leq E\leq1}\tau(HE)=-\tau(H_-),
+\]
+且极小值由负谱投影 $E=\1_{(-\infty,0)}(H)$ 达到。
+\end{theorem}
+
+\begin{proof}
+对任意 effect，
+\[
+ \tau(HE)=\tau(H_+^{1/2}EH_+^{1/2})-
+ \tau(H_-^{1/2}EH_-^{1/2})\geq-\tau(H_-).
+\]
+取 $H_-$ 的支撑投影即取等。
+\end{proof}
+
+这一定理说明正确的数域“负指标”不是最小特征值，而是所有负方向按 ambient spectral capacity 加权后的总质量。很深但很窄的 resonance 井可以破坏 operator-norm 下界，却仍具有有界迹负指标。
+
+\subsection{bounded-defect normality}
+
+记右半平面为 $\C_+=\{z:\Re z>0\}$。设 $F_n$ 在 $\C_+$ 全纯，$\delta_n\downarrow0$，并令
+\[
+ J_n=\int_\R\frac{[-\Re F_n(\delta_n+it)]_+}{1+t^2}\dd t.
+\]
+假设 $F_n$ 满足由边界负部给出的 Poisson 下界，并在一个非空 Euler 开集上局部一致收敛到 arithmetic germ $F_{\rm ar}$。
+
+\begin{lemma}[单点 Carath\'eodory 正规族]
+若全纯函数族在每个紧集上实部有统一下界，且在一个点取值有界，则该族局部有界，因而为正规族。
+\end{lemma}
+
+\begin{proof}
+在圆盘上对 $f+A$ 使用 positive-real Carath\'eodory 估计；再由重叠圆盘链把基点界传播到任意紧集，最后用 Montel 定理。
+\end{proof}
+
+\begin{theorem}[bounded finite-trace Hodge--Weil 主定理]\label{thm:main}
+设 $\Phi$ 是 real-type、关于中心轴自对偶、阶至多一的 entire divisor。设 $F_n$ 如上，并在 Euler 开集收敛到 $\Phi'/\Phi$。进一步，存在有限迹代数 $(\cM_n,\tau_n)$、可积自伴 Hodge current $H_n$ 和误差 $\eta_n\geq0$，使 capped arithmetic tests 与 effects $0\leq E\leq1$ 相容，且
+\[
+  \frac{J_n}{\pi}\leq\tau_n((H_n)_-)+\eta_n.
+\]
+若
+\[
+  \sup_n\left\{\tau_n((H_n)_-)+\eta_n\right\}<\infty,
+\]
+则 $\Phi$ 的全部非零零点位于中心轴。
+\end{theorem}
+
+\begin{proof}
+定理~\ref{thm:trace-duality} 把 effect cone 上的最坏 Hodge 深度精确识别为 $\tau_n((H_n)_-)$，所以 $\sup_nJ_n<\infty$。Poisson kernel在任一右半平面紧集上由 $C_K/(1+t^2)$ 控制，故 $\Re F_n$ 有统一下界。Euler 开集提供一个有界基点，正规族引理给全右半平面的局部有界性。任意子列极限在 Euler 开集等于 $\Phi'/\Phi$，由恒等定理唯一，故得到其全右半平面全纯延拓。若 $\Phi$ 在右半平面有零，则 $\Phi'/\Phi$ 在那里有不可去极点，矛盾。自对偶把左侧零点反射到右侧，于是零点全在中心轴。
+\end{proof}
+
+定理~\ref{thm:main} 是本文最宽的“广义结构定理”。它允许非交换代数、无限秩负谱、趋于 $-\infty$ 的最小特征值；只要负谱的规范迹质量不发散，中心线仍成立。有限域 Hodge--Riemann 正性对应更强的 $H_n\geq0$。
+
+\section{经典 zeta 的规范有限迹实现}
+
+取 Cauchy 概率测度
+\[
+  \dd\mu(t)=\frac{\dd t}{\pi(1+t^2)},\qquad
+  \cM=L^\infty(\R,\mu),\qquad \tau(f)=\int f\dd\mu.
+\]
+令 $P_{Y,\delta}(t)=\Re F_Y(\delta+it)$ 为由有限 Euler--Gamma 数据构造的 Abel symbol，$H_{Y,\delta}$ 为乘法算子。effects 正是 $0\leq\theta\leq1$ 的乘法算子，故
+\[
+ \inf_{0\leq\theta\leq1}\int P_{Y,\delta}\theta\dd\mu
+ =-\int[P_{Y,\delta}]_-\dd\mu=-\frac{J_{Y,\delta}}\pi.
+\]
+此外，prime、continuum 与 Gamma 项可写成 signed unitary orbit Laplacians
+\[
+  H_{Y,\delta}=aI+L_- -L_+,
+\]
+其中每个 $L_\pm$ 都由长度半群的 edge squares 生成。因此“有限迹代数 + effect cone + signed Hodge squares”对 zeta 已无条件、显式存在。
+
+\begin{theorem}[zeta 的精确存在性边界]
+沿任一共尾日程 $Y\to\infty$、$\delta\downarrow0$，若
+\[
+  \sup\int_\R[P_{Y,\delta}(t)]_-\frac{\dd t}{1+t^2}<\infty,
+\]
+则 RH 成立。反之若 RH 假，则这一负指标沿 directed/cofinal 意义必发散。
+\end{theorem}
+
+第一部分是定理~\ref{thm:main} 的交换特例。反向若不成立，就能抽取一条有界负指标的共尾子列，再次推出 RH，矛盾。注意这不是 RH 的改写游戏：左侧的每个有限对象只用有限素数、Gamma 数据和显式正 kernel 构造；开放问题是证明其统一界。
+
+\subsection{exact passive realization}
+
+对完成函数 $\Phi$，乘法 current
+\[
+  H_x=M_{\Re(\Phi'/\Phi)(x+it)},\qquad x>0,
+\]
+对每个 $x$ 都非负，当且仅当 $\Phi'/\Phi$ 是右半平面的 positive-real 函数；这又等价于全部零点在中心线上及 Pick resolvent 的正实现。故\emph{精确正}结构的存在性与 RH/GRH 等价，不能作为无条件输入。本文的 bounded-index 定理有意把目标降为近似 current 的有限负深度。
+
+\section{无条件有限化与等价判据族}
+
+笔记 004--143 从不同坐标系反复检验同一 Hodge 内容。它们的共同成果不是许多个彼此独立的“RH 证明”，而是以下可交换的有限化字典。
+
+\subsection{prolate 与有限自伴截断}
+
+有限 Weil 矩阵、prolate near-radical、residual 证书、谱隙和 Feshbach 消元给出一条严格桥：若有限自伴行列式在临界带内局部一致收敛到 $\Xi(z)=\xi(1/2+iz)$，则 Hurwitz/Rouch\'e 保持零点实性，因而推出 RH。相关 prolate 与 zeta spectral-triple 构造见\cite{CC2021,CCMProlate,CCM2025}。仅有有限低零点的高精度逼近、$L^2$ 向量接近或极小 residual 都不够；需要 simple-even 最低态、统一谱隙以及足以控制 Mellin 变换的指数加权 $L^1$ 收敛。
+
+\subsection{prime graph、Green kernel 与 wavelet}
+
+prime translations 可写成正 graph squares；Sturm--Liouville、Bessel、Riesz、biharmonic、Sobolev、wavelet 与 annular frames 给出大量正 Gram。Tate/continuum 主模态可由 primitive dilation polynomial 消去。经过 Poisson sampling 和 Taylor 压缩，每个尺度的有效 rank 可降到
+\[
+  O\!\left(\frac{\log X}{\log\log X}\right),
+\]
+甚至对 off-center detection 可用 rank-one annular coordinate。所有这些有限 forms 对任意 coefficient vector 都正；仍未知的是实际 $\Lambda-1$ 向量的 Hodge 范数是否为 $X^{o(1)}$。
+
+\subsection{Nyman--Beurling 与容量分支}
+
+divisibility incidence、M\"obius Green form、Nyman--Beurling finite distance、Farey 边界、cotangent/Kloosterman 接口和 response capacity 形成另一条有限 Hodge 链；其解析基准见\cite{NymanBeurling,BaezDuarte,Burnol}。它精确恢复若干 RH 等价距离，并产生可计算的 Schur-short、cell-wedge 与 Vandermonde coercivity。但 positivity-only、sparse local frames、acyclic completion 和 response-zero 压缩均出现严格 no-go：若缺少 collective arithmetic cancellation，就不能从局部强制性推出中心线。
+
+\subsection{passivity 与 capped cone}
+
+positive-real 阻抗、Cayley inner semigroup、Bochner cone、capped Loewner SDP 和 stationary quadrature 最终汇入第 5 节的 Cauchy finite-trace current。这个分支的重要修正是：所需结论不是逐 character 的 Loewner 下界，而是负井的“深度乘容量”总和有界。
+
+\section{平方根核心与调制 Type I/II Hodge 结构}
+
+\subsection{layer cake 与无条件 localization}
+
+对可测自伴 symbol $H$，
+\[
+  \int H_-\dd\mu=\int_0^\infty\mu\{H<-u\}\dd u.
+\]
+若在频率块 $I$ 上
+$H=A+R+\Re Q$，$A\geq b>0$、$|R|\leq r<b$，令 $\beta=b-r$，则对 $p>1$，
+\[
+  \int_IH_-\dd t
+  \leq \frac{(p-1)^{p-1}}{p^p}\frac{\int_I|Q|^p\dd t}{\beta^{p-1}}.
+\]
+结合 Montgomery--Vaughan weighted Hilbert inequality\cite{MontgomeryVaughan} 与 vertical Stirling barrier\cite{DLMF}，可得：若
+\[
+ \delta_Y=(\log Y)^{-\alpha},\quad 0<\alpha<\frac13,\qquad
+ T_0(Y)=Y^{1/2}\delta_Y^{-3/2}\log Y,
+\]
+则 zeta Abel candidate 满足
+\[
+ \int_{|t|\geq T_0(Y)}[-\Re F_Y(\delta_Y+it)]_+
+ \frac{\dd t}{1+t^2}=o(1).
+\]
+因此 RH 只剩 $|t|<T_0(Y)$ 内负指标的一致有界性。相比先前的 $Y\operatorname{polylog}Y$ 核心，这无条件缩短了近一个平方根。
+
+\subsection{调制 Gallagher--Fej\'er 恒等式}
+
+对 lag measure $\nu$，记
+\[
+  D(t)=\int e^{-it\lambda}\dd\nu(\lambda),\qquad
+  \dd\nu_\tau=e^{-i\tau\lambda}\dd\nu(\lambda),\qquad
+  g_{\tau,h}(x)=\nu_\tau([x,x+h]).
+\]
+则有精确 Plancherel 恒等式
+\[
+ \int_\R|g_{\tau,h}(x)|^2\dd x
+ =\frac1{2\pi}\int_\R|D(\tau+s)|^2
+ \frac{4\sin^2(sh/2)}{s^2}\dd s.
+\]
+原点附近的频率平移必须同时在 lag measure 上产生相位 $e^{-i\tau\lambda}$；这是 Gallagher 大筛引理\cite{Gallagher}在移动频率块中的正确形式。删除该 modulation 的普通 Selberg energy 无法统一控制所有高度块。
+
+取 $\cH_h=L^2(\R)$、$e_\lambda=\1_{[\lambda-h,\lambda]}$，则
+\[
+ \langle e_\lambda,e_\mu\rangle=(h-|\lambda-\mu|)_+,
+ \qquad e_{\log(dm)}=U_{\log d}e_{\log m}.
+\]
+于是 Dirichlet convolution 精确变成 logarithmic translation tensor synthesis；Vaughan/Heath--Brown Type I/II 分解因此成为 Hodge 结构的一部分，而非外加估计技巧。
+
+\section{Vaughan 分解、矩阵通道与冻结 incidence 结构}
+
+\subsection{精确 centered Vaughan 恒等式}
+
+令 $\mu_1=\mu\1_{n\leq U}$、$\mu_2=\mu-\mu_1$，$\Lambda_1=\Lambda\1_{n\leq V}$、$\Lambda_2=\Lambda-\Lambda_1$。在 Vaughan 恒等式的原始 Type I/II 语境\cite{Vaughan}下，本文使用的 centered 版本由 $\log=\Lambda*1$ 与 $\mu*1=\varepsilon$ 逐行推出；它逐整数精确满足
+\[
+\boxed{
+\Lambda-1=(\mu_1*\log-1)-(\mu_1*\Lambda_1*1)
+ +(\mu_2*\Lambda_2*1)+\Lambda_1.}
+\]
+连续背景可在四个 component 间作 affine gauge 分配；有限组 cutoffs 还可在 simplex 上联合优化。完整 physical vector 与 gauge 无关，component-diagonal majorant 随 gauge 改变。有限实验显示优化收益只有几个百分点，说明仅调 cutoff 不会产生数量级突破。
+
+\subsection{矩阵 Bessel 与 Feshbach--Loewner}
+
+令四个 component vectors 的 Gram 为 $G\geq0$，physical direction 为 $e=(1,1,1,1)^T$，则真实能量是 $e^*Ge$。若 $G\leq M$ 且
+\[
+  \sup_Y\sum_k\frac{e^*M_{Y,k}e}{\beta_{Y,k}}<\infty,
+\]
+则由调制能量判据和平方根核心 localization 推出 RH。
+
+对一个固定 rank-$q$ 投影 $P$，写
+\[
+  G=\begin{pmatrix}A&B\\B^*&C\end{pmatrix}.
+\]
+任取 $\epsilon>\|C\|$，有严格 Loewner majorant
+\[
+ G\leq
+ \begin{pmatrix}
+ A+B(\epsilon I-C)^{-1}B^*&0\\0&\epsilon I
+ \end{pmatrix}.
+\]
+这是 upper Feshbach completion；它允许公共通道不逐块对角化，并把 core--tail coupling 的代价保留为正 resolvent correction。
+
+\subsection{Laurent 审计与 incidence 基}
+
+四个未中心化 Vaughan Dirichlet series在 $s=1$ 的双极点与单极点向量为
+\[
+ d=m_0(1,0,-1,0),
+\quad
+ r=(m_1,-m_0\ell_0,1+m_0\ell_0-m_1,0).
+\]
+平衡 continuum residue 后，两条 singular directions 都落在 $e^\perp$。因此完整 Laurent singular plane 不可能同时是包含 physical direction 的二维 core；这是严格的维数障碍，而非数值不稳定。
+
+使用正交 incidence 基
+\[
+ e_0=\frac{(1,1,1,1)}2,\quad
+ u=\frac{(1,-1,0,0)}{\sqrt2},\quad
+ v=\frac{(0,0,-1,1)}{\sqrt2},\quad
+ c_0=\frac{(1,1,-1,-1)}2,
+\]
+可选冻结 tilted core
+\[
+ \cC=\operatorname{span}\{e_0+\tfrac1{20}c_0,\ 3u+v\}.
+\]
+其整数 core seeds 和 tail seeds 可取
+\[
+ (21,21,19,19),\ (3,-3,-1,1);qquad
+ (19,19,-21,-21),\ (-1,1,-3,3).
+\]
+physical vector 在 core/tail 的质量比例精确为 $400/401$ 与 $1/401$。这一基由 component labels 固定，不依赖零点和高度。
+
+\subsection{冻结通道的精确 Type I/II 公式}
+
+记
+\[
+ a_U=\mu_{\leq U}*1,quad X=a_U*\Lambda_{>V},quad
+ Y=a_U*\Lambda_{\leq V},\quad V_0=\Lambda_{\leq V},\quad L=\Lambda.
+\]
+冻结正交变换后的四个通道满足
+\begin{align*}
+ Z_0&=\frac{2X+19L}{2\sqrt{401}},&
+ Z_1&=\frac{4X+6Y-L+2V_0}{2\sqrt5},\\
+ Z_2&=\frac{40X-21L}{2\sqrt{401}},&
+ Z_3&=\frac{2X-2Y-3L+6V_0}{2\sqrt5},
+\end{align*}
+并且
+\[
+  L=\frac{40}{\sqrt{401}}Z_0-\frac2{\sqrt{401}}Z_2.
+\]
+这把 tail 明确化为两个可供 Type I/II large sieve 处理的 residual $Z_2,Z_3$。但 $Z_0,Z_1$ 仍显式含 $L$，故“证明 tail 很小”不能自动控制目标。
+
+\begin{theorem}[component compression no-free-lunch]\label{thm:nofree}
+令 $P$ 为 component label space 上任意投影，$Q=I-P$，$e$ 为 physical vector。若 $Pe\neq0$，则对每个 $M>0$ 存在 rank-one $G_M\geq0$，使
+\[
+  PG_MQ=0,qquad QG_MQ=0,qquad
+  \langle G_Me,e\rangle=M\|Pe\|^2.
+\]
+若 $Pe=0$，则可把任意大物理能量完全放入 tail，同时令 core 与 coupling 为零。
+\end{theorem}
+
+\begin{proof}
+当 $Pe\neq0$ 时取 $u=Pe/\|Pe\|$、$G_M=M|u\rangle\langle u|$。第二种情形取 $u=e/\|e\|$。
+\end{proof}
+
+定理~\ref{thm:nofree} 是当前最重要的反面结论。低秩、稳定 principal angles、小 Feshbach correction 和小 tail edge 都不能替代 core 估计。具体 zeta Grams 当然未必允许任意 rank-one amplification；真正的证明必须利用它们来自 primes、Gamma、continuum 和 convolution identities 的事实，构造一个禁止这种放大的数域 Hodge--Riemann 关系。
+
+\section{存在性审计：已经构造了什么，尚缺什么}
+
+\begingroup\small
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{0.16\textwidth}p{0.16\textwidth}p{0.14\textwidth}p{0.42\textwidth}@{}}
+\toprule
+结构环节 & 有限域 & 经典 zeta & 当前状态与缺口\\
+\midrule
+\endfirsthead
+\toprule
+结构环节 & 有限域 & 经典 zeta & 当前状态与缺口\\
+\midrule
+\endhead
+全局谱/上同调载体 & \(\ell\)-adic/晶体上同调 & 多种 finite Gram、GNS、Abel 与 tracial carriers & finite carriers 无条件；canonical global cohomology 未构造\\
+迹/行列式公式 & Lefschetz 迹公式 & Weil 显式公式、Hadamard/正规化 determinant & 解析 divisor 接口存在；需与最终极限结构严格相容\\
+中心对称 & Poincar\'e 对偶 & 完成函数的函数方程 & 无条件\\
+primitive/Tate 分解 & Hard Lefschetz primitive decomposition & continuum subtraction 与 dilation polynomial & finite/filtered 形式无条件\\
+正极化 & Hodge--Riemann/Rosati & positive Green、wavelet、triangular、moment Grams & 载体正性无条件，但不等于实际算术 tightness\\
+精确纯性 & Deligne/Weil & exact passive/adjoin realization & 对 zeta 与 RH 等价，未证\\
+filtered 纯性 & 自动由精确极化 & FPW1--FPW5 & 无条件构造\\
+算术 tightness & Hodge--Riemann 已给 & FPW6：实际向量 subpower norm & 与 RH 等强，未证\\
+有限迹 Hodge 指数 & 负指标为零 & Cauchy effect cone 与 signed orbit current & 代数和 current 无条件；统一负迹界未证\\
+平方根核心 & 不需要 & exterior defect 为 \(o(1)\) & 无条件；core bound 未证\\
+Type I/II tensor & correspondence calculus & centered Vaughan + Fej\'er incidence & 精确、无条件\\
+低秩通道 & 权重分解 & frozen tilted rank two & finite construction无条件；cofinal matrix Hodge bound 未证\\
+core Hodge relation & Hodge 指数定理 & 尚无对应物 & 当前决定性缺口\\
+\bottomrule
+\end{longtable}
+\endgroup
+
+对 primitive Dirichlet $L$ 函数，可将非自对偶对象与其对偶成对，局部相位进入 twisted orbit edges；Gamma 因子和 ramified 项成为有限或 regularized corrections。对固定次数 automorphic 数据，还需逐例验证 Rankin--Selberg diagonal、local coefficient growth 和 conductor-uniform 误差。若 local temperedness 本身是 Ramanujan 型猜想，就不能把它伪装成无条件输入。
+
+Deninger 的叶状动力系统纲领与 Connes 的 adele 类空间迹公式\cite{Deninger1998,ConnesTrace}已经提供了严肃的全局几何候选，但现有结果尚未同时给出本文所需的 determinant、全局 trace 和非循环极化。它们应被视为可能产生 core Hodge relation 的来源，而不是已完成的 G1--G4 包。
+
+\section{主要 no-go 与逻辑防线}
+
+研究过程中得到的反面结论与正面定理同样重要：
+\begin{enumerate}
+  \item \textbf{函数方程不够。}它只给四元组对称，不能给中心线。
+  \item \textbf{逐素数纯性不够。}全局零点是跨所有素数解析耦合后的对象。
+  \item \textbf{抽象 Hilbert--P\'olya 存在性会循环。}若谱被预先指定为零点，则 adjoint 关系本身已经含 RH。
+  \item \textbf{有限数值零点不够。}需要临界带内局部一致的整函数极限。
+  \item \textbf{有限正 Gram 不够。}正性对所有 coefficient vectors 成立，但实际算术向量的临界大小仍未知。
+  \item \textbf{ordinary short-interval energy 不够。}高度平移后必须保留 $e^{-i\tau\lambda}$ modulation。
+  \item \textbf{pointwise Loewner 下界过强。}bounded negative trace 允许深而窄的负井。
+  \item \textbf{稀疏/local coercivity 不够。}Nyman/Farey 分支需要 collective frame 或外部周期信息。
+  \item \textbf{Laurent singular plane 不等于 physical core。}前者位于 $e^\perp$，两维不可能同时容纳全部 singular directions 和 $e$。
+  \item \textbf{tail/coupling-only 压缩不够。}定理~\ref{thm:nofree} 要求独立 core Hodge 输入。
+\end{enumerate}
+
+这些 no-go 共同保证：本文的“广义结构定理”没有通过重新命名 RH 来制造证明。每条充分条件都清楚标出仍需证明的算术量。
+
+\section{有限实验：能说明什么，不能说明什么}
+
+实验在方法选择上提供了三项稳定信息：
+\begin{enumerate}
+  \item Cauchy 最深负井可随参数加深，而 sampled negative capacity 反而下降，支持 finite-trace 而非 operator-norm 目标；
+  \item 四 component Vaughan Grams 的 physical energy 在小样本中几乎由两个通道承载，公共二维 Feshbach upper excess 曾低于 $0.74\%$，冻结整数基的若干 held-out blocks excess 低于 $0.03\%$；
+  \item exact incidence/tilted 基把物理质量按 $400/401$ 与 $1/401$ 分到 core/tail，并导出显式 Type I/II residual。
+\end{enumerate}
+
+这些数字全部是 finite、floating-point、midpoint/truncated diagnostics；尚未同时包含 interval arithmetic、无限 continuum tail、prime tail、全部 dyadic heights 和共尾极限。因此它们不能证明 bounded $J_Y$，更不能作为 RH 的统计证据。它们的合法用途是发现 invariants、选择 proof norm、构造反例和优先排序下一步估计。
+
+\section{下一步研究议程}
+
+当前不应继续增加新的等价核或只优化有限 cutoffs；决定性任务是构造数域的 core Hodge--Riemann 约束。建议按以下顺序推进。
+
+\subsection{第一阶段：component-matrix finite-trace current}
+
+在冻结 incidence 基中构造自伴矩阵值 current $\mathbb H_{Y,\delta}(t)$，要求：
+\begin{enumerate}
+  \item scalar Abel zero obstruction 由其负谱迹控制；
+  \item effect cone 与 Cauchy trace保持 exact 或具有可求和误差；
+  \item 负方向分解为 $Z_2,Z_3$ tail residual、core--tail cross 项和一个有限 signature core，而不是完整 $\|L\|^2$；
+  \item 结构由 prime/Gamma orbit correspondences 构造，不引用零点位置。
+\end{enumerate}
+
+\subsection{第二阶段：非循环 core 不等式}
+
+需要证明一种排除 rank-one core amplification 的算术关系。可接受的候选形式包括：
+\begin{enumerate}
+  \item indefinite intersection form 加有限 Hodge index；
+  \item prime/Gamma-built positive current 对负谱部的直接 majorization；
+  \item 利用 M\"obius 与 Type I/II 结构的 signed orbit comparison；
+  \item 一个由 arithmetic dynamics 推出的双向 tempered 或 adjoint/similitude 关系。
+\end{enumerate}
+任何只估计 $\|Z_0\|$ 而不利用额外 signature 的方案都可能把 $L$ 原样放回右端，从而循环。
+
+\subsection{第三阶段：tail 与 coupling 的解析预算}
+
+对
+\[
+  40(a_U*\Lambda_{>V})-21\Lambda,
+\]
+及
+\[
+  2(a_U*\Lambda_{>V})-2(a_U*\Lambda_{\leq V})
+  -3\Lambda+6\Lambda_{\leq V}
+\]
+在 dyadic multiplicative rectangles 上建立调制 bilinear large-sieve bounds，并把 continuum/Gamma/vector errors经 Loewner enclosure 加入。最终目标是对平方根核心证明按 barrier $\beta_k$ 加权的负 trace 可和。
+
+Guth--Maynard 的 Dirichlet polynomial large-value bounds\cite{GuthMaynard}是潜在输入之一，但其已发表的短区间素数推论并不自动给出这里带 Abel 权、全 dyadic centers 和 Cauchy 可和性的调制预算；这一转换必须单独证明。
+
+\subsection{第四阶段：严格有限证书与广义化}
+
+用 interval arithmetic 和 exact Cauchy cell masses替代浮点 midpoint 审计，给出共尾 schedule 上的可验证上下界。若 zeta 路线闭合，再把同一结构迁移到 paired Dirichlet 和固定次数 Gamma--Euler 数据，明确记录 degree、conductor、ramification 与 Rankin--Selberg 输入的统一性。
+
+\section{结论}
+
+从 Weil 猜想中真正可抽离的，不是“存在一个神秘上同调”这句话，而是一组可审计的机制：全局 trace compatibility、中心对偶、正极化或有限负指标，以及实际算术 cycle 的统一 Hodge 控制。本文已在有限维、tempered、filtered 和有限迹四个层次证明相应结构定理；对 zeta 已无条件构造除最后统一算术估计之外的全部主要载体，并把缺口从抽象 Hilbert--P\'olya 存在性缩到平方根核心中一个具体的 matrix-valued Hodge 问题。
+
+最新的 compression no-free-lunch 也修正了研究方向：稳定二维通道是有价值的坐标选择，却不是 Hodge 正性的替代品。下一次真正的突破应当是一条禁止 core amplification 的独立算术 signature relation。若能同时证明其 Cauchy 负指标一致有界，定理~\ref{thm:main} 将直接给出 RH；在一般 Gamma--Euler 数据上，同一结构将给出相应 GRH。
+
+\appendix
+\section{162 篇笔记的主题映射}
+
+下表给出原始笔记到本文论证链的完整范围映射。编号 003 为文献与证据审计；其余 161 篇为研究笔记。
+
+\begingroup\small
+\begin{longtable}{@{}p{0.09\textwidth}p{0.28\textwidth}p{0.51\textwidth}@{}}
+\toprule
+编号 & 主题 & 在本文中的角色\\
+\midrule
+\endfirsthead
+\toprule
+编号 & 主题 & 在本文中的角色\\
+\midrule
+\endhead
+001--003 & PLF 主定理、数域存在性审计、文献边界 & 第 2--3 节与参考文献的逻辑基线\\
+004--014 & prolate 最低态、有限 Weil 矩阵、residual、谱簇与 Ritz/Feshbach & 第 7 节的有限自伴截断桥及其收敛缺口\\
+015--030 & filtered near-radical、prime graph、resonance、紧 Hodge 算子与 trace-class defect & FPW 的早期有限化和负谱/共振结构\\
+031--043 & Mellin 边界、Besicovitch/Abel/Chebyshev、Green--Bessel、dyadic/windowed cores & 正 kernel、边界能量与低频核心\\
+044--058 & Riesz、dilation/de Rham、wavelet、primitive、moment/Sobolev/sampling 与 FPW 总定理 & 第 4 节的 filtered primitive Weil package\\
+059--077 & annular detector/frame、Abel GNS、RKHS、prefix/dual Laplacian、tempered category、multiplicity 与 trace determinant & strong GNS、tempered 酉化和 tracial multiplicity\\
+078--087 & Ihara、Schatten no-go、divisibility、Nyman--Beurling、M\"obius/Farey、zero jets 与 capacity & 第 7 节的图 zeta和 Nyman 有限 Hodge 路线\\
+088--105 & parabolic Farey、cotangent/Kloosterman、response leverage、Schur/cell/Vandermonde 与 sparse recovery & collective-frame 必要性和局部 coercivity 边界\\
+106--130 & susceptibility、unit-cell、rank update、Pad\'e、polyhedral certificates，以及 Mertens、cycles、purity、completion、anomaly & response-capacity 与 positive-only/no-free-purity 审计\\
+131--143 & positive-real/passivity、Abel resonance、inner/Bochner cone、capped SDP、quadrature、cofinal discretization & 第 5--6 节的 Cauchy effect cone 和 fully finite 接口\\
+144--150 & zero-wave obstruction、bounded-defect normality、quadratic no-go、signed orbit Laplacian、finite trace、layer cake & 定理~\ref{thm:main} 及平方根核心 localization\\
+151--158 & modulated Gallagher、Fej\'er、Vaughan、background/cutoff gauge、matrix Bessel、Feshbach、frozen out-of-sample & 第 8--9 节的 Type I/II 矩阵通道\\
+159--162 & Laurent obstruction、incidence cone、tilted frozen basis、精确通道与 compression no-free-lunch & 当前边界与第 11 节研究议程\\
+\bottomrule
+\end{longtable}
+\endgroup
+
+\section{核心定理的依赖关系}
+
+\begin{center}
+\begin{tabular}{c}
+有限域：Hard Lefschetz + Hodge--Riemann $\Longrightarrow$ PLF similitude $\Longrightarrow$ pure weights\\[4pt]
+$\Downarrow$ 抽象化\\[4pt]
+双向 tempered dynamics $\Longrightarrow$ spectral radius purity\\[4pt]
+$\Downarrow$ cyclic/filtered 化\\[4pt]
+explicit formula + visible divisor modes + FPW tightness $\Longrightarrow$ center line\\[4pt]
+$\Downarrow$ 数域弱化\\[4pt]
+Cauchy effect realization + bounded finite-trace negative index\\
+$\Longrightarrow$ normal family $\Longrightarrow$ logarithmic derivative 无右半平面极点\\
+$\Longrightarrow$ self-duality $\Longrightarrow$ center line.
+\end{tabular}
+\end{center}
+
+在 zeta 上，前述箭头左侧的解析载体均已构造；最后未闭合的输入是
+\[
+ \sup_{Y,\delta}\tau\bigl((H_{Y,\delta})_-\bigr)<\infty,
+\]
+或任何经本文定理严格推出它的非循环 core Hodge 估计。
+
+\begin{thebibliography}{99}
+
+\bibitem{Deligne1974}
+P. Deligne, \emph{La conjecture de Weil I}, Publ. Math. IH\'ES \textbf{43} (1974), 273--307.
+\url{https://publications.ias.edu/node/368}
+
+\bibitem{GrothendieckStandard}
+A. Grothendieck, \emph{Standard Conjectures on Algebraic Cycles}, Bombay Colloquium (1968/1969).
+\url{https://webusers.imj-prg.fr/~leila.schneps/grothendieckcircle/StandardConjs.pdf}
+
+\bibitem{KleimanWeil}
+S. L. Kleiman, \emph{Algebraic Cycles and the Weil Conjectures}.
+\url{https://agrothendieck.github.io/divers/kleimanweil.pdf}
+
+\bibitem{WeilExplicit}
+A. Weil, \emph{Sur les ``formules explicites'' de la th\'eorie des nombres premiers} (1952).
+\url{https://cds.cern.ch/record/471308}
+
+\bibitem{Deninger1998}
+C. Deninger, \emph{Some analogies between number theory and dynamical systems on foliated spaces}, ICM 1998.
+\url{https://ems.press/books/dms/246/4682}
+
+\bibitem{ConnesTrace}
+A. Connes, \emph{Trace formula in noncommutative geometry and the zeros of the Riemann zeta function}.
+\url{https://arxiv.org/abs/math/9811068}
+
+\bibitem{CCM2025}
+A. Connes, C. Consani and H. Moscovici, \emph{Zeta Spectral Triples} (2025 preprint).
+\url{https://arxiv.org/abs/2511.22755}
+
+\bibitem{CC2021}
+A. Connes and C. Consani, \emph{Spectral Triples and Zeta-Cycles}.
+\url{https://arxiv.org/abs/2106.01715}
+
+\bibitem{CCMProlate}
+A. Connes, C. Consani and H. Moscovici, \emph{Zeta Zeros and Prolate Wave Operators}.
+\url{https://arxiv.org/abs/2310.18423}
+
+\bibitem{Titchmarsh}
+E. C. Titchmarsh, revised by D. R. Heath-Brown, \emph{The Theory of the Riemann Zeta-Function}, 2nd ed., Oxford University Press, 1986.
+
+\bibitem{NymanBeurling}
+M. Balazard and E. Saias, \emph{The Nyman--Beurling Equivalent Form for the Riemann Hypothesis} (1998).
+\url{https://www.esi.ac.at/preprints/esi623.pdf}
+
+\bibitem{BaezDuarte}
+L. B\'aez-Duarte, \emph{A Strengthening of the Nyman--Beurling Criterion for the Riemann Hypothesis}, Rend. Lincei \textbf{14} (2003), 5--11.
+
+\bibitem{Burnol}
+J.-F. Burnol, \emph{A Lower Bound in an Approximation Problem Involving the Zeros of the Riemann Zeta Function}, Adv. Math. \textbf{170} (2002), 56--70.
+
+\bibitem{MontgomeryVaughan}
+H. L. Montgomery and R. C. Vaughan, \emph{Hilbert's Inequality}, J. London Math. Soc. (2) \textbf{8} (1974), 73--82.
+
+\bibitem{Gallagher}
+P. X. Gallagher, \emph{A Large Sieve Density Estimate Near $\sigma=1$}, Invent. Math. \textbf{11} (1970), 329--339.
+
+\bibitem{Vaughan}
+R. C. Vaughan, \emph{Sommes trigonom\'etriques sur les nombres premiers}, C. R. Acad. Sci. Paris S\'er. A \textbf{285} (1977), 981--983.
+
+\bibitem{GuthMaynard}
+L. Guth and J. Maynard, \emph{New Large Value Estimates for Dirichlet Polynomials}, Ann. of Math. \textbf{203} (2026), 623--675.
+
+\bibitem{Bass}
+H. Bass, \emph{The Ihara--Selberg Zeta Function of a Tree Lattice}, Int. J. Math. \textbf{3} (1992), 717--797.
+
+\bibitem{Simon}
+B. Simon, \emph{Trace Ideals and Their Applications}, 2nd ed., AMS, 2005.
+
+\bibitem{DLMF}
+NIST Digital Library of Mathematical Functions, §§5.9, 5.11.
+\url{https://dlmf.nist.gov/}
+
+\end{thebibliography}
+
+\end{document}
