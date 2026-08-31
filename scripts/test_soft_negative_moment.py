@@ -1,0 +1,120 @@
+"""Regression checks for soft negative effects and Cauchy lag moments."""
+
+from __future__ import annotations
+
+import numpy as np
+
+from soft_negative_moment import (
+    cauchy_stationary_moments,
+    cauchy_orbit_square_response,
+    chebyshev_orbit_coefficients,
+    chebyshev_soft_ledger,
+    chebyshev_soft_polynomial,
+    chebyshev_soft_series,
+    negative_polynomial_hankel_response,
+    polynomial_soft_ledger,
+    soft_negative_ledger,
+    spectral_moments,
+)
+
+
+def main() -> None:
+    rng = np.random.default_rng(187)
+    values = rng.normal(size=17)
+    weights = rng.random(17)
+    weights /= weights.sum()
+    rho = 0.35
+
+    soft = soft_negative_ledger(values, weights, rho)
+    assert soft["soft_response"] <= soft["negative_mass"] + 1.0e-14
+    assert soft["negative_mass"] <= soft["upper_bound"] + 1.0e-14
+    assert 0.0 <= soft["deficit"] <= 2.0 * rho + 1.0e-14
+
+    spectral_bound = float(np.max(np.abs(values)) + 0.1)
+    series_coefficients = chebyshev_soft_series(
+        spectral_bound=spectral_bound, rho=rho, degree=48
+    )
+    chebyshev = chebyshev_soft_ledger(
+        values, weights, spectral_bound, rho, series_coefficients
+    )
+    assert np.max(np.abs(chebyshev["contraction_values"])) <= 1.0 + 1.0e-12
+    assert chebyshev["negative_mass"] <= chebyshev["upper_bound"] + 1.0e-12
+
+    # A modest power degree verifies the exact Hankel identity.  At high
+    # degree, converting the well-conditioned Chebyshev series to monomials
+    # is deliberately avoided because of catastrophic cancellation.
+    coefficients = chebyshev_soft_polynomial(
+        spectral_bound=spectral_bound, rho=rho, degree=12
+    )
+    polynomial = polynomial_soft_ledger(
+        values, weights, rho, coefficients
+    )
+    assert np.max(np.abs(polynomial["contraction_values"])) <= 1.0 + 1.0e-12
+    assert polynomial["negative_mass"] <= polynomial["upper_bound"] + 1.0e-12
+
+    scaled_coefficients = coefficients / (
+        1.0 + polynomial["uniform_spectral_error"]
+    )
+    moments = spectral_moments(
+        values, weights, 2 * (len(scaled_coefficients) - 1) + 1
+    )
+    hankel_response = negative_polynomial_hankel_response(
+        moments, scaled_coefficients
+    )
+    assert abs(hankel_response - polynomial["polynomial_response"]) <= 1.0e-8
+
+    # P(t)=a+2c cos(lambda t).  The first two moments have closed forms.
+    constant = 0.4
+    cosine = -0.3
+    lag = 0.7
+    frequencies = np.array([0.0, lag, -lag])
+    orbit_coefficients = np.array([constant, cosine, cosine], dtype=complex)
+    cauchy_moments = cauchy_stationary_moments(
+        frequencies, orbit_coefficients, 4
+    )
+    expected_first = constant + 2.0 * cosine * np.exp(-lag)
+    expected_second = (
+        constant**2
+        + 4.0 * constant * cosine * np.exp(-lag)
+        + 2.0 * cosine**2 * (1.0 + np.exp(-2.0 * lag))
+    )
+    assert abs(cauchy_moments[0] - 1.0) <= 1.0e-14
+    assert abs(cauchy_moments[1] - expected_first) <= 1.0e-14
+    assert abs(cauchy_moments[2] - expected_second) <= 1.0e-14
+    assert np.max(np.abs(cauchy_moments.imag)) <= 1.0e-13
+
+    # Verify the Chebyshev three-term frequency convolution against the
+    # shifted Hankel response for a stable low-degree instance.
+    orbit_bound = 1.5
+    orbit_series = chebyshev_soft_series(orbit_bound, rho=0.4, degree=5)
+    effect_frequencies, effect_coefficients = chebyshev_orbit_coefficients(
+        frequencies,
+        orbit_coefficients,
+        orbit_bound,
+        orbit_series,
+    )
+    orbit_response = cauchy_orbit_square_response(
+        frequencies,
+        orbit_coefficients,
+        effect_frequencies,
+        effect_coefficients,
+    )
+    power_in_scaled_variable = np.polynomial.Chebyshev(
+        orbit_series
+    ).convert(kind=np.polynomial.Polynomial).coef
+    power_coefficients = power_in_scaled_variable / (
+        orbit_bound ** np.arange(len(power_in_scaled_variable))
+    )
+    orbit_moments = cauchy_stationary_moments(
+        frequencies, orbit_coefficients, 2 * len(power_coefficients) - 1
+    )
+    hankel_orbit_response = negative_polynomial_hankel_response(
+        orbit_moments, power_coefficients
+    )
+    assert abs(orbit_response - hankel_orbit_response) <= 1.0e-10
+
+    print("soft negative-effect and Cauchy moment checks passed")
+
+
+if __name__ == "__main__":
+    main()

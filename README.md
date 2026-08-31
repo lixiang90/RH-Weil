@@ -429,6 +429,7 @@ xelatex rh-weil-structure-paper.tex
 - [Selberg--Volterra support connectivity and its conditioning barrier](notes/184-selberg-volterra-support-connectivity.md)
 - [Finite-word moment structure theorem and the arithmetic walk-SOS interface](notes/185-finite-word-moment-structure-theorem.md)
 - [Degree-one moment blindness and short-word point-effect leverage](notes/186-degree-one-moment-blindness-short-word-leverage.md)
+- [Soft negative effects, Chebyshev orbit moments, and finite Cauchy certificates](notes/187-soft-negative-effect-cauchy-moment-certificate.md)
 - [研究分支看板](RESEARCH_BRANCHES.md)
 - [文献与证据边界](notes/003-sources.md)
 

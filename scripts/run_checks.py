@@ -55,6 +55,10 @@ CHECKS = (
         "finite arithmetic cone and Hodge transgression",
         [sys.executable, "test_nonconstructive_routes.py"],
     ),
+    (
+        "soft negative effect and Cauchy moments",
+        [sys.executable, "test_soft_negative_moment.py"],
+    ),
 )
 
 
