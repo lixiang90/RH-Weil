@@ -621,6 +621,70 @@ def test_graded_threshold_word_moment_inertia() -> None:
     ) <= 1.0e-9
 
 
+def test_degree_one_bipartite_moment_blindness() -> None:
+    physical_count = 8
+    prefix_count = 8
+    total_dimension = physical_count + prefix_count
+    cumulative = np.tril(np.ones((prefix_count, physical_count)))
+    transport = np.block(
+        [
+            [
+                np.zeros((physical_count, physical_count)),
+                np.conjugate(cumulative.T),
+            ],
+            [cumulative, np.zeros((prefix_count, prefix_count))],
+        ]
+    )
+    physical_labels = np.log(np.arange(2, 2 + physical_count, dtype=float))
+    prefix_labels = 10.0 + np.arange(prefix_count, dtype=float)
+    label = np.diag(np.concatenate([physical_labels, prefix_labels]))
+    column_energy = np.sum(np.abs(cumulative) ** 2, axis=0)
+    features = np.vstack(
+        [
+            np.ones(physical_count),
+            physical_labels,
+            physical_labels**2,
+            column_energy,
+        ]
+    )
+    _, _, right_vectors = np.linalg.svd(features)
+    invisible_values = right_vectors[-1]
+    assert np.linalg.norm(features @ invisible_values) <= 1.0e-12
+    assert invisible_values.min() < 0.0 < invisible_values.max()
+
+    current = np.diag(
+        np.concatenate([invisible_values, np.zeros(prefix_count)])
+    )
+    degree_one = [np.eye(total_dimension), label, transport]
+    moment = word_moment_matrix(current, degree_one)
+    assert np.linalg.norm(moment) <= 1.0e-10
+    assert negative_trace(current) > 0.1
+
+    # Directly verify the point-effect formula Tr(X a*a)=sum x_p||a e_p||^2.
+    rng = np.random.default_rng(186)
+    test_operator = rng.normal(size=(total_dimension, total_dimension)) + 1.0j * rng.normal(
+        size=(total_dimension, total_dimension)
+    )
+    response = np.trace(current @ np.conjugate(test_operator.T) @ test_operator).real
+    point_effects = np.sum(np.abs(test_operator[:, :physical_count]) ** 2, axis=0)
+    assert abs(response - invisible_values @ point_effects) <= 1.0e-10
+
+
+def test_lagrange_point_effect_generation() -> None:
+    dimension = 6
+    spectral_labels = np.arange(dimension, dtype=float)
+    label = np.diag(spectral_labels)
+    for target in range(dimension):
+        roots = np.delete(spectral_labels, target)
+        coefficients = np.poly(roots) / np.prod(spectral_labels[target] - roots)
+        projection = np.zeros_like(label)
+        for coefficient in coefficients:
+            projection = projection @ label + coefficient * np.eye(dimension)
+        expected = np.zeros((dimension, dimension))
+        expected[target, target] = 1.0
+        assert np.linalg.norm(projection - expected) <= 1.0e-10
+
+
 def main() -> None:
     test_atomic_kkt_certificate()
     test_rank_one_gram_separator()
@@ -641,6 +705,8 @@ def main() -> None:
     test_labelled_incidence_bicommutant()
     test_finite_word_moment_structure()
     test_graded_threshold_word_moment_inertia()
+    test_degree_one_bipartite_moment_blindness()
+    test_lagrange_point_effect_generation()
     print("finite cone and Hodge-transgression checks passed")
 
 
