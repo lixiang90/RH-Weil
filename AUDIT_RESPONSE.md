@@ -1,6 +1,6 @@
 # 审计整改说明
 
-日期：2026-08-31
+日期：2026-09-01
 对象：`AUDIT_REPORT.md` 对原 001--162 篇研究笔记、正式论文及计算脚本的审计；后续整改结果见新增文档 163
 
 本文件记录已经落地的修改、仍属开放的数学输入，以及暂缓的工程事项。它不是对审计意见的反驳，也不是 RH/GRH 证明声明。
@@ -34,12 +34,13 @@
 4. 把文档 163 的 Mellin-coherent dual 机制推广到其他有共同 Dirichlet-series realization 的 carriers；对仅有 additive actual-energy approximation 的 sampled/moment Gram，不虚构全空间 FPW4b。
 5. 文档 164 已把四分量压成 canonical 二通道并无条件消去 `n<=T/log^A T`。文档 165 的 Hadamard 正规形进一步证明：把“完整 hard cross Gram 加 primitive energy”列为独立较弱目标是循环的；文档 166 转而把 truncated Möbius defect 构造成 zeros-independent 的 threshold-complex Hodge heat supertrace。文档 167 又以 profinite divisibility Haar Gram 将 second moment转移到全部单调权，并无条件消去 `T>=log^K Y`、`K>6` 的 hard coefficient diagonals。文档 168 已构造 ordinary prefix field 到 modulated current 的 exact Selberg--Volterra cross-fiber transport。文档 169 进一步证明 elementary profile 无条件消去 `N<=T^(2-eta)` 的二参数楔，同时证明 polylogarithmic Selberg-order profile 本身与 RH 等价；因此不能再把它列作可能由经典无条件 Selberg theorem直接补齐的普通输入。未决部分是 `N>T^(2-eta)` 的平方根共振楔及 continuum/Gamma joint gluing。
 6. 外部输入复核：Guth--Maynard 已发表 theorem 是 bounded-coefficient、1-separated points上的 large-value estimate，不能直接冒充 continuous balanced `L2` profile；`arXiv:1009.6121` 已由作者因关键引理错误撤回，不作为证据。
+7. 文档 170 已把 effect cone 精确改写为长度侧 capped correspondence kernels，证明负指标对偶、block additivity与 joint-current subadditivity；这解决了“应在何种 cone 上 gluing”的结构接口，但没有证明统一 index界。
 
 ## 研究方向调整
 
 暂停继续堆叠等价 kernel、basis tuning 和未经认证的浮点搜索。近期优先级为：
 
-1. 不再把 full `J_N(s)<<Ns polylog(N)` profile 当作较弱中间引理；文档 169 已证明它与 RH 等价。优先在 `N>T^(2-eta)` 的平方根共振楔构造只读取 barrier 负方向的 signed layer-cake、prime/Gamma joint Loewner inequality 或 threshold-complex harmonic current；
+1. 不再把 full `J_N(s)<<Ns polylog(N)` profile 当作较弱中间引理；文档 169 已证明它与 RH 等价。使用文档 170 的 `r,kappa-r` 双正定 cone，在 `N>T^(2-eta)` 的平方根共振楔直接构造只读取 barrier 负方向的 threshold-complex harmonic correspondence current，并在取 negative part之前 joint gluing prime、continuum 与 Gamma；
 2. 把可行的有限证书升级为 interval-certified enclosure；
 3. 仅在有共同 Mellin realization 时推广 quantitative dual separation；
 4. 独立复核后再扩大“已证明”范围。

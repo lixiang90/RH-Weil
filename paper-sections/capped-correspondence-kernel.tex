@@ -1,0 +1,129 @@
+\section{有上界 correspondence kernel 与 joint-orbit gluing}
+
+前述 effect cone 可完全搬到长度侧，而不保留未知的频谱乘子。令 $G$ 为局部紧
+Abel 群，$\widehat G$ 为其 Pontryagin dual，$\mu$ 为 $\widehat G$ 上有限正
+Radon measure，并置
+\[
+ \kappa(\lambda)=\int_{\widehat G}\chi(\lambda)\,\dd\mu(\chi),\qquad
+ \mathcal C_\kappa=\{r:r,\ \kappa-r\text{ 均连续正定}\}.
+\]
+把 $\mathcal C_\kappa$ 称为 ambient kernel $\kappa$ 的 capped
+correspondence cone。
+
+\begin{theorem}[\statusU{} dominated correspondence/Bochner 定理]
+\label{thm:capped-correspondence}
+对连续函数 $r:G\to\C$，下列条件等价：
+\begin{enumerate}
+ \item $r\in\mathcal C_\kappa$；
+ \item 存在唯一正测度 $0\leq\nu\leq\mu$，使
+ \[
+   r(\lambda)=\int_{\widehat G}\chi(\lambda)\,\dd\nu(\chi);
+ \]
+ \item 存在 $q\in L^\infty(\mu)$、$0\leq q\leq1$，使
+ \[
+   r(\lambda)=\int_{\widehat G}\chi(\lambda)q(\chi)\,\dd\mu(\chi).
+ \]
+\end{enumerate}
+等价地，对每个有限点集 $\lambda_1,\ldots,\lambda_m$，两个矩阵
+\[
+ [r(\lambda_j-\lambda_k)]_{j,k},\qquad
+ [\kappa(\lambda_j-\lambda_k)-r(\lambda_j-\lambda_k)]_{j,k}
+ \tag{CK}
+\]
+都半正定。
+\end{theorem}
+
+\begin{proof}
+Bochner 定理分别把 $r$ 与 $\kappa-r$ 表成正测度 $\nu,\omega$ 的 Fourier
+transform。Fourier transform唯一性给 $\nu+\omega=\mu$，故 $\nu\leq\mu$；
+Radon--Nikodym 定理给 $\nu=q\mu$。反向显然，而 (CK) 正是两个函数正定的定义。
+\end{proof}
+
+因此双正 Gram 不是 relaxation，而是 $0\leq q\leq1$ 的纯长度侧等价物。现在令
+$\eta$ 是 $G$ 上有限复测度、$a\in\R$，并令
+\[
+ H(\chi)=a+\Re\int_G\chi(\lambda)\,\dd\eta(\lambda),\qquad
+ \mathcal L_H(r)=ar(0)+\Re\int_G r(\lambda)\,\dd\eta(\lambda).
+\]
+
+\begin{theorem}[\statusU{} 精确 correspondence index 与 gluing]
+\label{thm:correspondence-index}
+若 $H\in L^1(\mu)$，则
+\[
+ \operatorname{Ind}_\kappa(H)
+ :=\sup_{r\in\mathcal C_\kappa}[-\mathcal L_H(r)]
+ =\int_{\widehat G}H_-\,\dd\mu.                 \tag{CI}
+\]
+极值由 $\1_{\{H<0\}}\mu$ 的 Fourier transform达到。若
+$\mu=\sum_j\mu_j$ 且各 $\mu_j$ 支撑不交，则
+\[
+ \operatorname{Ind}_\kappa(H)=
+ \sum_j\operatorname{Ind}_{\kappa_j}(H).        \tag{BG}
+\]
+此外
+\[
+ \operatorname{Ind}_\kappa(H_1+H_2)
+ \leq\operatorname{Ind}_\kappa(H_1)+
+      \operatorname{Ind}_\kappa(H_2),           \tag{JC}
+\]
+且不等式可以严格。
+\end{theorem}
+
+\begin{proof}
+由定理~\ref{thm:capped-correspondence} 写 $\dd\nu=q\dd\mu$。Fubini 给
+$\mathcal L_H(r)=\int Hq\,\dd\mu$；在 $0\leq q\leq1$ 上逐点极小化即得
+(CI)。式 (BG) 是积分可加性，(JC) 来自
+$(H_1+H_2)_-\leq(H_1)_-+(H_2)_-$。
+\end{proof}
+
+这说明 prime、continuum 与 Gamma 必须先形成同一个 signed symbol 再取负部；
+逐项优化只会失去 cancellation。反之，互不相交的 dyadic height blocks 可按 (BG)
+无损 gluing。该 index 也严格弱于 full $L^2$ profile：在圆周 Haar measure上，
+$H_M(t)=M(1+\cos t)\geq0$ 满足
+$\operatorname{Ind}(H_M)=0$，而
+$\int|H_M|^2\dd\mu=3M^2/2$。所以定理~\ref{thm:profile-rh} 的 fixed-dilation
+Mellin 反推不能从 capped index自动恢复。
+
+\begin{theorem}[\statusC{} capped-correspondence Hodge--Weil 定理]
+\label{thm:correspondence-weil}
+在定理~\ref{thm:main} 的 Poisson admissibility、Euler germ收敛和自对偶 divisor
+假设下，设每个 candidate带 capped correspondence system
+$(G_n,\mu_n,\kappa_n)$、由 Euler--Gamma--pole/continuum 数据构造的 signed
+orbit symbol $H_n$，并已验证
+\[
+ \frac{J_n}{\pi}\leq
+ \operatorname{Ind}_{\kappa_n}(H_n)+\eta_n,\qquad \eta_n\geq0.
+\]
+若
+\[
+ \sup_n\{\operatorname{Ind}_{\kappa_n}(H_n)+\eta_n\}<\infty,
+ \tag{CW}
+\]
+则对应 entire divisor的全部非零零点位于中心轴。
+\end{theorem}
+
+\begin{proof}
+由 (CI)，(CW) 正是交换有限迹代数
+$L^\infty(\widehat G_n,\mu_n)$ 中的一致 bounded negative Hodge index。应用
+定理~\ref{thm:main}。
+\end{proof}
+
+对经典 zeta，取 $G=\R$、$\chi_t(\lambda)=e^{-it\lambda}$。在 dyadic height
+block $I_T$ 上置
+\[
+ \dd\mu_T(t)=\1_{I_T}(t)\frac{\dd t}{\pi(1+t^2)},\qquad
+ \kappa_T(\lambda)=\int_{I_T}e^{-it\lambda}\,\dd\mu(t).
+\]
+定理~\ref{thm:capped-correspondence} 给全部 capped subcorrespondences及有限双
+Gram 证书；前述 shared-lag orbit公式已经无条件把 prime atoms、continuum、pole
+与 Gamma residual置于同一 $P_{Y,\delta}(t)=\Re F_Y(\delta+it)$ 中。故 ambient
+kernel、orbit data 和 block gluing均已存在。尚未证明的是共尾日程上的
+\[
+ \sum_T\operatorname{Ind}_{\kappa_T}(P_{Y,\delta})=O(1). \tag{ZI}
+\]
+由 (BG)，左侧恰是 global Cauchy negative mass；由定理
+~\ref{thm:correspondence-weil}，证明 (ZI) 将推出 RH。结合定理
+~\ref{thm:wedge-evacuation}，新的非循环目标是只在
+$N>T^{2-\eta}$ 的 square-root resonance wedge 与低 polylog heights内，直接
+控制 joint prime/continuum/Gamma correspondence functional，而不先证明与 RH
+等价的 full Selberg profile。

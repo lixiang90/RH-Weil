@@ -35,6 +35,10 @@ CHECKS = (
         "Selberg profile equivalence bookkeeping",
         [sys.executable, "test_selberg_profile.py"],
     ),
+    (
+        "capped correspondence kernel",
+        [sys.executable, "test_capped_correspondence.py"],
+    ),
 )
 
 
