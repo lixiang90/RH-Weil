@@ -4,6 +4,12 @@ from __future__ import annotations
 
 import numpy as np
 
+from formal_lag_response import (
+    degree_two_parity_exact_ledger,
+    exact_formal_moment,
+    two_sided_prime_continuum_symbol,
+)
+
 from soft_negative_moment import (
     cauchy_stationary_moments,
     cauchy_orbit_square_response,
@@ -112,6 +118,42 @@ def main() -> None:
         orbit_moments, power_coefficients
     )
     assert abs(orbit_response - hankel_orbit_response) <= 1.0e-10
+
+    # Odd formal support has no odd exact moments.  Adding an even prime
+    # power creates a parity breaker controlled by the perturbative ledger.
+    odd_formal = two_sided_prime_continuum_symbol(
+        prime_atoms=[(2, 0.4), (8, -0.15)],
+        continuum_atoms=[(0.6, -0.2)],
+    )["combined_map"]
+    assert abs(exact_formal_moment(odd_formal, 3)) <= 1.0e-14
+    assert abs(exact_formal_moment(odd_formal, 5)) <= 1.0e-14
+    broken_formal = two_sided_prime_continuum_symbol(
+        prime_atoms=[(2, 0.4), (4, 0.08), (8, -0.15)],
+        continuum_atoms=[(0.0, -0.03), (0.6, -0.2)],
+    )["combined_map"]
+    bound = sum(abs(value) for value in broken_formal.values())
+    parity = degree_two_parity_exact_ledger(
+        broken_formal, spectral_bound=bound, rho=bound / 3.0
+    )
+    assert parity["breaker_l1_mass"] > 0.0
+    assert abs(exact_formal_moment(broken_formal, 3)) <= (
+        parity["odd_third_moment_bound"] + 1.0e-12
+    )
+    assert abs(exact_formal_moment(broken_formal, 5)) <= (
+        parity["odd_fifth_moment_bound"] + 1.0e-12
+    )
+    assert abs(exact_formal_moment(broken_formal, 3)) <= (
+        parity["odd_third_moment_l2_bound"] + 1.0e-12
+    )
+    assert abs(exact_formal_moment(broken_formal, 5)) <= (
+        parity["odd_fifth_moment_l2_bound"] + 1.0e-12
+    )
+    assert abs(exact_formal_moment(broken_formal, 3)) <= (
+        parity["odd_third_moment_norm_bound"] + 1.0e-12
+    )
+    assert abs(exact_formal_moment(broken_formal, 5)) <= (
+        parity["odd_fifth_moment_norm_bound"] + 1.0e-12
+    )
 
     print("soft negative-effect and Cauchy moment checks passed")
 

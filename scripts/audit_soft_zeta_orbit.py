@@ -11,6 +11,7 @@ import numpy as np
 
 from formal_lag_response import (
     chebyshev_formal_orbit_coefficients,
+    degree_two_parity_exact_ledger,
     formal_arbitrary_direction_audit,
     formal_cauchy_response_ledger,
     two_sided_prime_continuum_symbol,
@@ -77,6 +78,11 @@ def soft_zeta_orbit_audit(
     direction = formal_arbitrary_direction_audit(
         symbol, effect, formal["continuum_nodes"]
     )
+    parity = (
+        degree_two_parity_exact_ledger(symbol, spectral_bound, rho)
+        if degree == 2
+        else None
+    )
     prime_continuum_mass = sum(
         complex(coefficient)
         for coefficient in data["prime_continuum_discrepancy_coefficients"]
@@ -97,6 +103,7 @@ def soft_zeta_orbit_audit(
         "effect_support_size": len(effect),
         "response_ledger": ledger,
         "direction_audit": direction,
+        "parity_exact_ledger": parity,
         "provenance_mass_residual": separated_mass - prime_continuum_mass,
     }
 
@@ -132,6 +139,18 @@ def main() -> None:
         direction["arbitrary_negative_depth"] + 1.0e-9
     )
     assert 0.0 <= direction["canonical_to_arbitrary_depth_ratio"] <= 1.0 + 1.0e-8
+    assert audit["parity_exact_ledger"] is not None
+    assert ledger["signed"]["exact"].real <= (
+        audit["parity_exact_ledger"]["exact_response_upper_bound"] + 1.0e-10
+    )
+    assert ledger["signed"]["exact"].real <= (
+        audit["parity_exact_ledger"]["exact_response_l2_upper_bound"]
+        + 1.0e-10
+    )
+    assert ledger["signed"]["exact"].real <= (
+        audit["parity_exact_ledger"]["exact_response_norm_upper_bound"]
+        + 1.0e-10
+    )
     print(
         "soft zeta orbit audit passed: "
         f"support={direction['support_size']}, "
@@ -139,7 +158,9 @@ def main() -> None:
         f"near={ledger['signed']['near'].real:.6g}, "
         f"far={ledger['signed']['far'].real:.6g}, "
         "canonical/arbitrary="
-        f"{direction['canonical_to_arbitrary_depth_ratio']:.6g}"
+        f"{direction['canonical_to_arbitrary_depth_ratio']:.6g}, "
+        "breaker="
+        f"{audit['parity_exact_ledger']['breaker_fraction']:.6g}"
     )
 
 

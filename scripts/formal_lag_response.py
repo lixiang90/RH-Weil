@@ -74,6 +74,45 @@ class FormalLag:
 FrequencyMap = dict[FormalLag, complex]
 
 
+def _big_omega(integer: int) -> int:
+    """Return the number of prime factors with multiplicity."""
+    if integer < 1:
+        raise ValueError("integer must be positive")
+    remaining = integer
+    factors = 0
+    divisor = 2
+    while divisor * divisor <= remaining:
+        while remaining % divisor == 0:
+            remaining //= divisor
+            factors += 1
+        divisor = 3 if divisor == 2 else divisor + 2
+    if remaining > 1:
+        factors += 1
+    return factors
+
+
+def formal_lag_parity(lag: FormalLag) -> int:
+    """The product/continuum character chi:G->{-1,+1}."""
+    exponent = (
+        _big_omega(lag.ratio.numerator)
+        + _big_omega(lag.ratio.denominator)
+        + sum(lag.continuum)
+    )
+    return -1 if exponent % 2 else 1
+
+
+def split_frequency_map_by_parity(
+    source: FrequencyMap,
+) -> tuple[FrequencyMap, FrequencyMap]:
+    """Return chi=-1 odd support and chi=+1 parity breakers."""
+    odd: FrequencyMap = {}
+    breakers: FrequencyMap = {}
+    for lag, coefficient in source.items():
+        target = odd if formal_lag_parity(lag) == -1 else breakers
+        target[lag] = coefficient
+    return odd, breakers
+
+
 def add_frequency_term(
     target: FrequencyMap, lag: FormalLag, coefficient: complex, tolerance: float = 1.0e-14
 ) -> None:
@@ -110,6 +149,133 @@ def convolve_frequency_maps(left: FrequencyMap, right: FrequencyMap) -> Frequenc
                 left_coefficient * right_coefficient,
             )
     return result
+
+
+def convolution_power(source: FrequencyMap, power: int) -> FrequencyMap:
+    """Return a finite formal convolution power."""
+    if power < 0:
+        raise ValueError("power must be nonnegative")
+    if not source:
+        return {} if power else {FormalLag.zero(0): 1.0 + 0.0j}
+    dimension = len(next(iter(source)).continuum)
+    result: FrequencyMap = {FormalLag.zero(dimension): 1.0 + 0.0j}
+    for _ in range(power):
+        result = convolve_frequency_maps(result, source)
+    return result
+
+
+def exact_formal_moment(source: FrequencyMap, power: int) -> complex:
+    """Return the identity coefficient of a formal convolution power."""
+    if not source:
+        return 1.0 + 0.0j if power == 0 else 0.0 + 0.0j
+    dimension = len(next(iter(source)).continuum)
+    return convolution_power(source, power).get(
+        FormalLag.zero(dimension), 0.0 + 0.0j
+    )
+
+
+def frequency_l2_norm(source: FrequencyMap) -> float:
+    return math.sqrt(sum(abs(value) ** 2 for value in source.values()))
+
+
+def parity_breaker_odd_moment_l2_bound(
+    source: FrequencyMap, power: int
+) -> float:
+    """Telescoping convolution-L2 bound for an odd exact moment."""
+    if power < 1 or power % 2 == 0:
+        raise ValueError("power must be a positive odd integer")
+    odd, breakers = split_frequency_map_by_parity(source)
+    if not source:
+        return 0.0
+    dimension = len(next(iter(source)).continuum)
+    identity = {FormalLag.zero(dimension): 1.0 + 0.0j}
+    source_powers = [identity]
+    odd_powers = [identity]
+    for _ in range(power - 1):
+        source_powers.append(
+            convolve_frequency_maps(source_powers[-1], source)
+        )
+        odd_powers.append(
+            convolve_frequency_maps(odd_powers[-1], odd)
+        )
+    bound = 0.0
+    for left_power in range(power):
+        right = convolve_frequency_maps(
+            breakers, odd_powers[power - 1 - left_power]
+        )
+        bound += (
+            frequency_l2_norm(source_powers[left_power])
+            * frequency_l2_norm(right)
+        )
+    return bound
+
+
+def degree_two_parity_exact_ledger(
+    symbol: FrequencyMap, spectral_bound: float, rho: float
+) -> dict[str, float]:
+    """Bound the degree-two exact response by parity-breaker mass."""
+    if spectral_bound <= 0.0 or rho <= 0.0:
+        raise ValueError("spectral bound and rho must be positive")
+    odd, breakers = split_frequency_map_by_parity(symbol)
+    odd_mass = sum(abs(value) for value in odd.values())
+    breaker_mass = sum(abs(value) for value in breakers.values())
+    symbol_l2_mass = frequency_l2_norm(symbol)
+    breaker_l2_mass = frequency_l2_norm(breakers)
+    total_mass = odd_mass + breaker_mass
+    second_convolution = convolve_frequency_maps(symbol, symbol)
+    exact_fourth_moment = sum(
+        abs(value) ** 2 for value in second_convolution.values()
+    )
+    odd_third_bound = total_mass**3 - odd_mass**3
+    odd_fifth_bound = total_mass**5 - odd_mass**5
+    odd_third_l2_bound = parity_breaker_odd_moment_l2_bound(symbol, 3)
+    odd_fifth_l2_bound = parity_breaker_odd_moment_l2_bound(symbol, 5)
+    node = math.sqrt(3.0) / 2.0
+    amplitude = node * spectral_bound / (node * spectral_bound + rho)
+    polynomial_factor = 2.0 * amplitude / (3.0 * spectral_bound**2)
+    exact_response_upper_bound = polynomial_factor**2 * (
+        2.0 * node * spectral_bound * exact_fourth_moment
+        + odd_fifth_bound
+        + node**2 * spectral_bound**2 * odd_third_bound
+    )
+    exact_response_l2_upper_bound = polynomial_factor**2 * (
+        2.0 * node * spectral_bound * exact_fourth_moment
+        + odd_fifth_l2_bound
+        + node**2 * spectral_bound**2 * odd_third_l2_bound
+    )
+    odd_third_norm_bound = (
+        3.0 * breaker_l2_mass * symbol_l2_mass * total_mass
+    )
+    odd_fifth_norm_bound = (
+        5.0 * breaker_l2_mass * symbol_l2_mass * total_mass**3
+    )
+    exact_response_norm_upper_bound = polynomial_factor**2 * (
+        2.0
+        * node
+        * spectral_bound
+        * total_mass**2
+        * symbol_l2_mass**2
+        + odd_fifth_norm_bound
+        + node**2 * spectral_bound**2 * odd_third_norm_bound
+    )
+    return {
+        "odd_l1_mass": odd_mass,
+        "breaker_l1_mass": breaker_mass,
+        "breaker_fraction": breaker_mass / total_mass if total_mass else 0.0,
+        "symbol_l2_mass": symbol_l2_mass,
+        "breaker_l2_mass": breaker_l2_mass,
+        "exact_fourth_moment": exact_fourth_moment,
+        "odd_third_moment_bound": odd_third_bound,
+        "odd_fifth_moment_bound": odd_fifth_bound,
+        "odd_third_moment_l2_bound": odd_third_l2_bound,
+        "odd_fifth_moment_l2_bound": odd_fifth_l2_bound,
+        "odd_third_moment_norm_bound": odd_third_norm_bound,
+        "odd_fifth_moment_norm_bound": odd_fifth_norm_bound,
+        "degree_two_polynomial_factor": polynomial_factor,
+        "exact_response_upper_bound": exact_response_upper_bound,
+        "exact_response_l2_upper_bound": exact_response_l2_upper_bound,
+        "exact_response_norm_upper_bound": exact_response_norm_upper_bound,
+    }
 
 
 def two_sided_prime_continuum_symbol(
