@@ -4,7 +4,7 @@
 
 ## 正式论文整理稿
 
-现有 001--173 篇笔记已经整理为中文论文：
+现有 001--173 篇笔记已经整理为中文论文；第 174 篇是下一轮研究路线图，暂不并入论文正文：
 
 - [`rh-weil-structure-paper.tex`](rh-weil-structure-paper.tex)：《从 Weil 猜想到数域中心线：极化、过滤 Hodge 结构与黎曼猜想的存在性审计》；
 - 使用 `ctexart`，在 Overleaf 中选择 XeLaTeX 即可编译；
@@ -19,6 +19,8 @@
 文档 172 用 sharp square completion 移除了这一 pointwise amplitude 前提：对任意 predictor `C`，`B_0+C+C^2/[4(1-epsilon)B_0]` 自动保持正性。由此负指标仅由 Schur residual 的加权二阶矩和 predictor 的加权四阶矩控制；后者又是一个显式 positive-definite fourth-order correspondence Gram。zeta 的下一输入因此从 `L-infinity` leverage 改为 square-root blocks 上的 integrated fourth-moment budget。
 
 文档 173 首先证明 quartic-capacity 下界 `P_4 int B_0 dmu>=D^2`；在 zeta shell 上它迫使 unscaled fourth price 至少为 `T D_T^2/logT`，所以完整四阶预算未必是较弱目标。随后把 reciprocal-barrier upper bound提升到不要求对易的 finite von Neumann algebra，并用 relative continuous functional calculus构造 lattice-clipped predictor。所得正背景只支付 one-sided quadratic clipped residual，不再需要 pointwise leverage或 fourth moment。
+
+文档 174 审计“非构造存在性”路线：裸的完整类 Weil 结构存在性仍与 RH 循环，但正算术锥上的 Hilbert 投影可以无须显式公式地产生最优安全 predictor；Moreau 对偶又把剩余输入精确化为 polar separator bound。[`RESEARCH_BRANCHES.md`](RESEARCH_BRANCHES.md) 将各路线按最小引理、晋级和停止条件分层。
 
 审计材料：[`AUDIT_REPORT.md`](AUDIT_REPORT.md) 是审计快照，[`AUDIT_RESPONSE.md`](AUDIT_RESPONSE.md) 记录本轮已落地修改、延期事项和仍属开放的数学输入。
 
@@ -223,6 +225,8 @@ xelatex rh-weil-structure-paper.tex
 
 178. 已证明 tracial lattice-clipped Hodge background。定理 AED 给 sharp quartic-capacity 下界，并指出 zeta shell 的 unscaled fourth budget须满足 `P_(4,T)>=T D_T^2/logT`。定理 AEE 在任意 finite von Neumann algebra中证明 `tau(H_-)<=tau((H-B)B^(-1)(H-B))/4`，不要求 `H,B` 对易。定理 AEF 对 `U=B_0^(-1/2)CB_0^(-1/2)` 作 fixed clipping，得到 `B^[epsilon]>=epsilon B_0` 及纯二阶 residual bound。定理 AEG 给 tracial lattice Hodge--Weil theorem。zeta 的新充分输入是 one-sided clipped residual `sum_T K_T(epsilon)<infinity`；它仍未证，但绕开了 amplitude与quartic-capacity两个瓶颈。
 
+179. 已完成数域类 Weil 结构的非构造存在性审计。定理 AEH 说明同时携带完整 divisor、迹公式和正极化的裸存在性仍与 RH 循环；定理 AEI 在固定长度侧 arithmetic cone 上用 Hilbert projection 非构造地产生最优安全 predictor，并用 Moreau 对偶把 clipped residual 精确化为 polar-separator supremum。推论 AEJ 给出 dual-separator 中心线判据。下一轮优先计算 finite Type II rectangle 的 polar cone/extreme rays，并探索 threshold Hilbert complex 的小谱密度控制；未证 separator bound 仍是 RH-strength 算术输入。
+
 主要文档：
 
 - [抽象结构定理与完整证明](notes/001-polarized-weil-structure.md)
@@ -397,6 +401,8 @@ xelatex rh-weil-structure-paper.tex
 - [Reciprocal-barrier correspondence kernels and harmonic Schur shorting](notes/171-reciprocal-barrier-harmonic-schur.md)
 - [Square-completed positive backgrounds and amplitude-free Schur--L4 shorting](notes/172-square-completed-background-schur-l4.md)
 - [Tracial lattice clipping and fourth-moment-free Hodge backgrounds](notes/173-tracial-lattice-clipped-hodge-background.md)
+- [Nonconstructive existence and the research branch map](notes/174-nonconstructive-existence-and-branch-map.md)
+- [研究分支看板](RESEARCH_BRANCHES.md)
 - [文献与证据边界](notes/003-sources.md)
 
 计算与回归脚本：
