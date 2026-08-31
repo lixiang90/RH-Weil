@@ -209,6 +209,90 @@ def mobius_defect_second_moment(cutoff: int, length: int) -> dict[str, object]:
     }
 
 
+def divisibility_cylinder_gram(cutoff: int) -> list[list[Fraction]]:
+    """Exact Haar Gram <1_{d|x},1_{e|x}>=1/lcm(d,e)."""
+    if cutoff < 1:
+        raise ValueError("cutoff must be positive")
+    return [
+        [
+            Fraction(1, d * e // math.gcd(d, e))
+            for e in range(1, cutoff + 1)
+        ]
+        for d in range(1, cutoff + 1)
+    ]
+
+
+def weighted_partial_summation_ledger(
+    values: list[int | float], weights: list[int | float]
+) -> dict[str, object]:
+    """Verify the exact discrete Abel identity for decreasing weights."""
+    if not values or len(values) != len(weights):
+        raise ValueError("values and weights must have the same positive length")
+    if any(value < 0 for value in values):
+        raise ValueError("values must be nonnegative")
+    if any(weights[index] < weights[index + 1] for index in range(len(weights) - 1)):
+        raise ValueError("weights must be nonincreasing")
+    partial: list[int | float] = []
+    running = 0
+    for value in values:
+        running += value
+        partial.append(running)
+    left = sum(value * weight for value, weight in zip(values, weights))
+    right = partial[-1] * weights[-1] + sum(
+        partial[index] * (weights[index] - weights[index + 1])
+        for index in range(len(weights) - 1)
+    )
+    return {"left": left, "right": right, "partial_sums": partial}
+
+
+def hard_channel_diagonal_energy_ledger(
+    limit: int,
+    cutoff_u: int,
+    cutoff_v: int,
+    scale_y: float,
+    sigma: float,
+) -> dict[str, object]:
+    """Finite coefficient-diagonal ledger behind the polylogarithmic bound."""
+    if scale_y <= 0 or sigma < 0.5:
+        raise ValueError("require scale_y>0 and sigma>=1/2")
+    hard = canonical_vaughan_hard_coefficients(limit, cutoff_u, cutoff_v)
+    type_ii_energy = mp.mpf("0")
+    type_ii_cauchy_majorant = mp.mpf("0")
+    target_energy = mp.mpf("0")
+    type_i_energy = mp.mpf("0")
+    pointwise: list[dict[str, mp.mpf | int]] = []
+    for n in range(2, limit + 1):
+        weight = mp.power(n, -2 * sigma) * mp.exp(-2 * n / scale_y)
+        type_ii_value = hard["hard_ii"][n]
+        type_i_value = hard["hard_i"][n]
+        target_value = hard["target"][n]
+        inner = mp.mpf("0")
+        for m in range(cutoff_v + 1, n + 1):
+            mangoldt = von_mangoldt(m)
+            if n % m == 0 and mangoldt:
+                quotient = n // m
+                inner += mangoldt * hard["b"][quotient] ** 2
+        cauchy_bound = mp.log(n) * inner
+        type_ii_energy += abs(type_ii_value) ** 2 * weight
+        type_ii_cauchy_majorant += cauchy_bound * weight
+        target_energy += abs(target_value) ** 2 * weight
+        type_i_energy += abs(type_i_value) ** 2 * weight
+        pointwise.append(
+            {
+                "n": n,
+                "type_ii_square": abs(type_ii_value) ** 2,
+                "cauchy_bound": cauchy_bound,
+            }
+        )
+    return {
+        "type_ii_energy": type_ii_energy,
+        "type_ii_cauchy_majorant": type_ii_cauchy_majorant,
+        "target_energy": target_energy,
+        "type_i_energy": type_i_energy,
+        "pointwise": pointwise,
+    }
+
+
 def canonical_vaughan_hard_coefficients(
     limit: int, cutoff_u: int, cutoff_v: int
 ) -> dict[str, list[mp.mpf] | list[int]]:

@@ -9,10 +9,14 @@ import numpy as np
 
 from mobius_hodge import (
     canonical_vaughan_hard_coefficients,
+    divisibility_cylinder_gram,
     factorization_fiber_bessel_lower_bound,
+    hard_channel_diagonal_energy_ledger,
     mobius_defect_second_moment,
     mobius_threshold_complex_data,
+    truncated_mobius_divisor_sum,
     two_channel_hadamard_gram,
+    weighted_partial_summation_ledger,
 )
 
 
@@ -37,6 +41,25 @@ def main() -> None:
         assert abs(moment["floor_remainder"]) <= cutoff**2
         assert moment["exact_moment"] <= moment["absolute_majorant"]
 
+    # The lcm kernel is the exact Haar Gram of divisibility cylinders and is
+    # positive for arbitrary complex (including twisted) coefficients.
+    cylinder = divisibility_cylinder_gram(12)
+    cylinder_float = np.array(
+        [[float(value) for value in row] for row in cylinder]
+    )
+    assert np.linalg.eigvalsh(cylinder_float)[0] > -1e-12
+    twisted = np.array(
+        [complex(np.cos(index), np.sin(index)) for index in range(12)]
+    )
+    assert np.vdot(twisted, cylinder_float @ twisted).real >= -1e-12
+
+    # Discrete Abel summation transfers the prefix second moment to every
+    # decreasing weight without a hidden remainder.
+    values = [truncated_mobius_divisor_sum(q, 7) ** 2 for q in range(1, 81)]
+    weights = [Fraction(1, q + 2) for q in range(1, 81)]
+    weighted = weighted_partial_summation_ledger(values, weights)
+    assert weighted["left"] == weighted["right"]
+
     # For V>=U, the hard Type-I and Type-II coefficients sum to Lambda_{>U}
     # for every coefficient, independently of V.
     mp.mp.dps = 60
@@ -49,6 +72,21 @@ def main() -> None:
                 rel_eps=mp.mpf("1e-55"),
                 abs_eps=mp.mpf("1e-55"),
             )
+
+    # Weighted coefficient diagonals obey the exact divisor Cauchy majorant;
+    # Type I is controlled by the target tail plus Type II coefficient energy.
+    for parameters in ((100, 4, 7, 40.0, 0.5), (140, 6, 11, 70.0, 0.63)):
+        diagonal = hard_channel_diagonal_energy_ledger(*parameters)
+        assert all(
+            row["type_ii_square"] <= row["cauchy_bound"] + mp.mpf("1e-55")
+            for row in diagonal["pointwise"]
+        )
+        assert diagonal["type_ii_energy"] <= (
+            diagonal["type_ii_cauchy_majorant"] + mp.mpf("1e-55")
+        )
+        assert diagonal["type_i_energy"] <= 2 * (
+            diagonal["target_energy"] + diagonal["type_ii_energy"]
+        ) + mp.mpf("1e-55")
 
     # Hadamard rotation isolates the physical sum and primitive difference;
     # the real cross entry is exactly one quarter of their energy difference.

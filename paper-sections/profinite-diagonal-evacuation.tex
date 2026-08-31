@@ -1,0 +1,118 @@
+\section{Profinite gcd polarization 与 hard diagonal evacuation}
+
+threshold-complex heat supertrace与 logarithmic feature在每个 fiber 上精确相容：
+若 $C_j$ 是有限 reduced Hilbert complexes，$\Delta_j$ 是其 Hodge Laplacian，
+$\xi_j$ 是外部 Hilbert space 中的 vectors，则
+\[
+ \sum_j\operatorname{Str}_{\cH}
+   (\xi_j\otimes e^{-t\Delta_j})
+ =\sum_j\widetilde\chi(C_j)\xi_j
+ =\sum_j\operatorname{Str}_{\cH}
+   (\xi_j\otimes P_j^{\rm harm}).                \tag{LS}
+\]
+这里 external feature在 $C_j$ 上按 scalar identity作用，故与 Hodge Dirac
+对易。然而，local complexes的 direct sum只给 block-diagonal operators；真实
+physical norm中的 $j\neq k$ entries需要额外 correspondences
+$T_{j,k}:C_k\to C_j$。因此式 (LS) 是 exact lift，但本身不是 cross-energy
+inequality。
+
+一个真正的 global positive form来自 profinite divisibility。令
+$\widehat{\mathbb Z}$ 带 normalized Haar measure，$E_d=d\widehat{\mathbb Z}$。
+则
+\[
+ m(E_d)=\frac1d,\qquad E_d\cap E_e=E_{[d,e]}.
+\]
+
+\begin{theorem}[\statusU{} profinite divisibility polarization]
+对任意有限复系数 $c_d$，
+\[
+ \sum_{d,e}\frac{c_d\overline{c_e}}{[d,e]}
+ =\left\|\sum_dc_d\mathbf1_{E_d}\right\|_{L^2(\widehat{\mathbb Z})}^2
+ \geq0.                                           \tag{PG}
+\]
+取 $c_d=\mu(d)\mathbf1_{d\leq U}$ 得 $Q_U$；取
+$c_d=\mu(d)\chi(d)\mathbf1_{d\leq U}$ 仍给 positive Hermitian Gram。
+对数域整数环 $\mathcal O_K$，同一证明以 ideal cylinders
+$\mathfrak a\widehat{\mathcal O}_K$ 给 kernel
+\[
+ K(\mathfrak a,\mathfrak b)
+ =\frac1{N(\mathfrak a\cap\mathfrak b)}\geq0.
+\]
+\end{theorem}
+
+\begin{proof}
+展开 indicator combination 的 $L^2$ norm。ideal版本使用
+$m(\mathfrak a\widehat{\mathcal O}_K)=N(\mathfrak a)^{-1}$ 及 cylinder
+intersection恒等式。
+\end{proof}
+
+该 Gram 把文档 166 的 prefix bound转成任意单调权。若
+$S_U(X)=\sum_{q\leq X}|a_U(q)|^2\ll X\log^3(2U)$，则离散 Abel summation给，
+对每个非负单调不增的 $w_q$，
+\[
+ \sum_{q\geq2}|b_U(q)|^2w_q
+ \ll\log^3(2U)\sum_{q\geq2}w_q.                 \tag{MW}
+\]
+
+令 $V\geq U$，并记
+\[
+ R_{II}=b_U*\Lambda_{>V},\qquad
+ R_I=\Lambda_{>U}-R_{II}.
+\]
+
+\begin{theorem}[\statusU{} polylogarithmic hard-channel diagonals]
+对 $Y\geq2$ 及 $1/2\leq\sigma\leq3/4$，
+\begin{align*}
+ D_{II}&=\sum_n|R_{II}(n)|^2n^{-2\sigma}e^{-2n/Y}
+ \ll\log^3(2U)\log^3(2Y),\\
+ D_I&=\sum_n|R_I(n)|^2n^{-2\sigma}e^{-2n/Y}
+ \ll\log^2(2Y)+\log^3(2U)\log^3(2Y).
+\end{align*}
+\end{theorem}
+
+\begin{proof}
+由 $\Lambda*1=\log$ 与 weighted Cauchy--Schwarz，
+\[
+ |R_{II}(n)|^2\leq \log n
+ \sum_{mq=n,\,m>V}\Lambda(m)|b_U(q)|^2.          \tag{CD}
+\]
+因 $2\sigma\geq1$，在加权求和后，对每个 $m$ 应用 (MW)，其单调权为
+\[
+ w_m(q)=\frac{\log(mq)}q e^{-2mq/Y},\qquad q\geq2.
+\]
+它确实递减，因为 $mq\geq4$。交换 $m,q$ 求和并再次使用
+$\sum_{m\mid n}\Lambda(m)=\log n$，得到
+\[
+ D_{II}\ll\log^3(2U)
+ \sum_{n\geq2}\frac{(\log n)^2}{n}e^{-2n/Y}
+ \ll\log^3(2U)\log^3(2Y).
+\]
+又 $R_I=\Lambda_{>U}-R_{II}$，而
+$\Lambda(n)^2\leq\Lambda(n)\log n$；Chebyshev bound及 partial summation给
+$\sum\Lambda(n)^2n^{-1}e^{-2n/Y}\ll\log^2(2Y)$。
+\end{proof}
+
+在 interval-incidence Gram 中，coefficient diagonal恰多因子
+$h\asymp T^{-1}$。因此得到新的高度 localization。
+
+\begin{corollary}[\statusU{} polylog-height diagonal evacuation]
+取 dyadic heights $T_k$、$\beta_k\gg\log(e+T_k)$，以及
+$U_k=T_k/\log^A(e+T_k)\leq Y$。对任意固定 $K>6$，
+\[
+ \sum_{T_k\geq\log^K(2Y)}
+ \frac{\operatorname{Diag}_{I,k}+\operatorname{Diag}_{II,k}}{\beta_k}
+ \ll\frac{\log^{6-K}(2Y)}{\log\log(3Y)}=o(1).   \tag{DE}
+\]
+\end{corollary}
+
+\begin{proof}
+每块由上一 theorem 至多为 $C\log^6(2Y)/T_k$；除以 barrier 后对 dyadic
+$T_k\geq\log^K(2Y)$ 求和，几何级数由首块支配。
+\end{proof}
+
+式 (DE) 是 threshold Hodge 的第一个非循环定量后果。它没有控制低
+polylog-height core、triangular kernel 的 $n\neq n'$ near-products，以及 hard
+channels同 continuum/Gamma 的 cross terms。off-diagonal entries不能由 diagonal
+bound自动控制；下一目标是从 profinite cylinder intersections与 threshold-complex
+restriction maps构造跨 fibers correspondences，并证明其 modulated negative-index
+cost可和。
