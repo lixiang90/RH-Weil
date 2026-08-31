@@ -9,9 +9,11 @@ filtration 与 logarithmic-moment Hodge core。本笔记把这些结果合并成
 2. 经典 zeta 对该结构已经无条件存在到哪一步？
 3. 尚缺的条件是否比 RH 弱，还是恰与 RH 等价？
 
-结论是：finite Euler--Tate complex、正 polarizations、trace compatibility、
-divisor visibility 和全部 tail control 都已无条件存在；唯一未证公理是
-actual arithmetic cycle 的 critical subpower Hodge norm，而它与 RH 等价。
+审计修订后的结论是：finite Euler--Tate complex、正 polarizations、定性
+trace/divisor visibility 和全部 tail control 都有无条件模型；但从定性可见性
+推出 Hodge norm 的幂次下界还需要一个定量 dual/Riesz separation 公理。对一般
+Gram realization，该公理与 actual arithmetic cycle 的 critical subpower
+Hodge norm 都尚未建立。rank-one annular 模型因有独立 exponent theorem 而是特例。
 
 ## 1. Filtered primitive Weil package
 
@@ -42,10 +44,10 @@ centering operator `Pi_X`。这些对象的定义不能使用 divisor 的实部�
 
 uniform bounded invertibility 是 strong FPW；式 (2) 是 tempered FPW。
 
-### FPW4：trace/divisor compatibility
+### FPW4：trace/divisor compatibility 与定量分离
 
-Euler realization 与完成 zeta/L 函数的显式公式相容。对每个 fixed divisor
-point `rho`，其 normalized mode 为
+**FPW4a（定性兼容）**：Euler realization 与完成 zeta/L 函数的显式公式相容。
+对每个 fixed divisor point `rho`，其 normalized formal mode 为
 
 `X^(rho-c/2)m_X(rho)`，                            (3)
 
@@ -53,9 +55,24 @@ point `rho`，其 normalized mode 为
 
 `|m_X(rho)|=X^(o(1))` 双侧成立。                   (4)
 
-filtered center-line 版本只要求 **off-center separating**：没有
-`Re rho!=c/2` 的 divisor point 对全部 fibers 不可见。strong spectral/GNS
-版本若要恢复完整 divisor，则要求所有 divisor points separating。
+并且没有 `Re rho!=c/2` 的 divisor point 对全部 fibers 恒不可见。这个条件只
+排除恒等消失；它本身不能给 Hodge norm 的幂次下界。
+
+**FPW4b（quantitative dual separation）**：在 `V_X/ker Q_X` 上，对每个 fixed
+`rho` 存在 dual functional `ell_(X,rho)` 和一条 cofinal subsequence，使
+
+`||ell_(X,rho)||_(Q_X^*)=X^(o(1))`,                (4a)
+
+`|ell_(X,rho)(v_X)|=X^(Re rho-c/2+o(1))`.          (4b)
+
+这里 dual norm 为
+
+`sup_(Q_X(v)>0)|ell(v)|/sqrt(Q_X(v))`，            (4c)
+
+并要求 `ell` 消灭 `ker Q_X`。这是一个 Riesz/frame lower-bound 公理；不能由
+Mellin 唯一性或“非恒为零”自动推出。strong spectral/GNS realization若已有
+bounded spectral projections，可由投影坐标产生 FPW4b；一般 filtered Gram 尚需
+单独证明。
 
 ### FPW5：tempered tails and finite-order upper bound
 
@@ -78,15 +95,15 @@ strong 版本要求一个固定/covariant Sobolev family 上
 
 `sup_X Q_X(v_X)<infinity`.                         (8)
 
-FPW1–FPW5 是结构与兼容性；FPW6 是数域 Hodge--Riemann positivity 对实际
-arithmetic cycle 的内容。
+FPW1–FPW3、FPW4a 与 FPW5 是载体、定性兼容和 tail control；FPW4b 是定量模式
+分离；FPW6 是数域 Hodge--Riemann positivity 对实际 arithmetic cycle 的内容。
 
 ## 2. 中心线主定理
 
-### 定理 JO（filtered primitive Weil center-line theorem）
+### 定理 JO（quantitative filtered primitive Weil center-line theorem）[C]
 
-设中心对称 divisor data 拥有满足 FPW1–FPW6 的 filtered primitive Weil
-package，则全部 divisor points 满足
+设非空中心对称 divisor data 满足 FPW1–FPW6，特别是 FPW4b 的定量对偶分离，
+并设 `Theta=sup_(rho)Re rho<infinity`。则全部 divisor points 满足
 
 `Re rho=c/2`.                                      (9)
 
@@ -98,16 +115,24 @@ package，则全部 divisor points 满足
 
 #### 证明
 
-式 (6) 给式 (10) 的上界。固定任意 divisor point `rho`。FPW4 在一个 fixed
-compact spectral channel 中给 mode (3)，其 polarization weight 由式 (2)、
-(4) 最多改变 `X^(o(1))`。Mellin singularity/finite-order uniqueness 防止
-该 fixed pole 被其他指数完全消去，故沿某子列
+式 (6) 给式 (10) 的上界。固定任意 divisor point `rho`。由 dual
+Cauchy--Schwarz 与 FPW4b，沿相应 cofinal subsequence 有
 
-`Q_X(v_X)>=X^(2Re(rho)-c-o(1))`.                  (11)
+`|ell_(X,rho)(v_X)|^2`
 
-对所有 `rho` 取 supremum 得式 (10) 的下界。FPW6 使左侧为 `0`，所以
-`Theta<=c/2`。divisor 在 `rho->c-conjugate(rho)` 下中心对称；若有
-`Re rho<c/2`，其对偶点实部大于 `c/2`，矛盾。因此式 (9) 成立。`□`
+` <=||ell_(X,rho)||_(Q_X^*)^2 Q_X(v_X)`，          (11)
+
+所以
+
+`Q_X(v_X)>=X^(2Re(rho)-c-o(1))`.                  (12)
+
+给定 `epsilon>0`，选择 `Re rho>Theta-epsilon`，再令 `epsilon->0`，得到式 (10)
+的下界。FPW6 使左侧为 `0`，所以 `Theta<=c/2`。中心对称和 divisor 非空给
+`Theta>=c/2`，并排除左侧零点。因此式 (9) 成立。`□`
+
+**审计边界。** 删除 FPW4b 后，上述证明在式 (11) 处中断。定性 Mellin
+uniqueness 只说明一个 mode 不对所有 `X` 恒为零，不能排除随 `X` 变化的
+subpower 相消。因此弱 FPW 应视为研究框架 [R]，不是已证明的 exponent theorem。
 
 这与有限域证明的逻辑完全平行：trace compatibility 给 Frobenius/divisor
 modes，正 polarization 把它们变成平方范数，而 Hodge tightness 排除错误
@@ -160,9 +185,9 @@ filtered 定理 JO 比 JP 弱但更灵活：subpower filtration 已足以证明�
 
 #### 证明
 
-五种操作都把每个 fixed divisor mode 的 squared norm乘以
-`X^(o(1))`，并只加入 subpower remainder。因此不改变式 (10) 的 power
-`limsup`。`□`
+五种操作都把每个 fixed divisor mode 的 squared norm乘以 `X^(o(1))`，并只加入
+subpower remainder；同时将 FPW4b 的 dual functional 与相应同构逆向复合，其
+对偶 norm 也只改变 `X^(o(1))`。因此不改变式 (10) 的 power `limsup`。`□`
 
 JQ 是 filtered Weil category 的同构概念：对象不按逐项公式相等，而按
 critical spectral weights 的 tempered equivalence 分类。
@@ -188,51 +213,52 @@ exponent；应用定理 JO。`□`
 
 ## 5. 经典 zeta 的逐项存在性
 
-### 定理 JS（unconditional finite zeta FPW structure）
+### 命题 JS（finite zeta FPW carrier audit）[U/R]
 
-经典 zeta 无条件满足 FPW1–FPW5：
+经典 zeta 无条件满足 FPW1–FPW3、FPW4a 与 FPW5；FPW4b 必须按具体 realization
+单独审计：
 
 | 公理 | zeta 中的实现 | 状态 |
 |---|---|---|
-| FPW1 | `chi=phi-2phi(2·)`，`u(L)=sum Lambda(n)chi(n/L)`，再以 `Lambda-1` finite completion | 无条件精确 |
-| FPW2 | pure-prime Gram、biharmonic/Sobolev Green Gram、sampled/moment 矩阵或 annular-width frame | 无条件正半定 |
-| FPW3 | `I-sqrt2 U_(-log2)`，unit-circle gap `sqrt2-1`；adaptive order `r=o(logX)` | 无条件 tempered 可逆 |
-| FPW4 | zeta 显式公式；primitive multiplier off-center 无零，连续 annular widths 对完整 critical spectrum 有 frame gap | 无条件 separating |
-| FPW5 | BV boundary bound、Hilbert large-sieve tail、Poisson alias、Taylor remainder | 无条件 subpower |
+| FPW1 | `chi=phi-2phi(2·)`，`u(L)=sum Lambda(n)chi(n/L)`，再以 `Lambda-1` finite completion | [U] 精确 |
+| FPW2 | pure-prime Gram、biharmonic/Sobolev Green Gram、sampled/moment 矩阵或 annular-width frame | [U] 正半定 |
+| FPW3 | `I-sqrt2 U_(-log2)`，unit-circle gap `sqrt2-1`；adaptive order `r=o(logX)` | [U] tempered 可逆 |
+| FPW4a | zeta 显式公式；primitive multiplier off-center 无零 | [U] 定性 separating |
+| FPW4b | 对偶泛函的 `X^(o(1))` norm 与单 mode 下界 | [R] 一般 Gram 未证；rank-one annular 模型由定理 JX 独立给出 |
+| FPW5 | BV boundary bound、Hilbert large-sieve tail、Poisson alias、Taylor remainder | [U] subpower |
 
-而 FPW6 的下列实现彼此等价，并各自等价于 RH：
+下列 actual-cycle tightness 判据分别由其原始定理直接证明与 RH 等价；不能再把它们
+统称为“由弱 FPW + 定性 visibility 自动推出”：
 
 1. primitive block `C_prim(X)=X^(o(1))`；
 2. centered full homogeneous Gram `mathcal E_4(X)=X^(o(1))`；
 3. two-moment biharmonic norm `mathcal H_2(X)=X^(o(1))`；
 4. adaptive Sobolev norm `mathcal H_(r_X)(X)=X^(o(1))`；
 5. polylog sampled Euler core 为 subpower；
-6. `O(logX/loglogX)` logarithmic-moment Hodge form 为 subpower。
-7. rank-one annular coordinate `|B_A(X)|^2=X^(o(1))`。
+6. `O(logX/loglogX)` logarithmic-moment Hodge form为 subpower；
+7. rank-one annular coordinate `|B_A(X)|^2=X^(o(1))`；
 8. continuous annular-width mean Gram uniformly tight。
 
-#### 证明
+#### 证明边界
 
-FPW1–FPW5 分别是命题 IE、定理 IH/IT/IY、定理 IF/JB、定理 IG、命题
-HY 与定理 IW/JG/JK。前六个 FPW6 版本的等价性依次由定理 IG、IP、IV、
-JB、JI、JM；第七个由定理 JX，第八个由定理 KC。`□`
+载体结论分别来自命题 IE、定理 IH/IT/IY、定理 IF/JB、定理 IG、命题 HY 与
+定理 IW/JG/JK。八个 tightness 判据的等价性依次依赖定理 IG、IP、IV、JB、JI、
+JM、JX、KC 各自的显式公式证明。只有在另行验证 FPW4b 后，才可统一调用修订后的
+定理 JO。`□`
 
-### 推论 JT（exact zeta existence boundary）
+### 推论 JT（revised zeta existence boundary）
 
 对 zeta：
 
-- finite filtered Weil structure 已无条件存在，且仅作 off-center detection 时
-  可压到 rank `1`；
-- strong/critical arithmetic polarization 的存在性等价于 RH；
-- continuous annular-width frame 已无条件解决 full-spectrum alias 与 uniform
-  reconstruction，故 strong package 的剩余缺口也仅是 arithmetic tightness；
-- 因而本仓库没有证明 RH，也没有把 RH 隐藏在 finite positivity 中；
-- 唯一开放项是 distinguished arithmetic cycle 在已构造正 polarizations
-  中的 uniform/subpower norm，而不是空间、kernel、dilation 或 trace formula
-  的存在。
+- finite filtered carrier、定性 explicit-formula visibility 与 positive Grams 已无条件存在；
+- rank-one annular detector 因定理 JX 的独立 exponent 计算具备定量 separation；
+- 对一般 sampled/moment/Sobolev Gram，FPW4b 的受控对偶泛函尚未统一构造；
+- strong/critical arithmetic polarization 的 tightness 仍等价于 RH；
+- 因而本仓库没有证明 RH，也没有把 RH 隐藏在 finite positivity 中。
 
-这是非循环存在性审计：所有 finite forms 对任意 coefficient vector 都正，
-但只有实际 `Lambda-1` vector 的临界大小仍未知。
+一般 FPW 现在有两个需区分的接口：`(i)` divisor mode 到 Gram norm 的定量分离，
+`(ii)` actual `Lambda-1` vector 的 uniform/subpower tightness。某些标量模型已独立
+解决 `(i)`，但 `(ii)` 仍有 RH 强度；不能再笼统称“唯一开放项只有 FPW6”。
 
 ## 6. Gamma--Euler 数据的广义存在性定理
 
@@ -248,20 +274,22 @@ JB、JI、JM；第七个由定理 JX，第八个由定理 KC。`□`
    对 divisor separating；
 4. Rankin--Selberg diagonal 为 `X^(o(1))`；
 5. normalized Euler frequencies 在 fixed compact annuli，coefficient mass
-   为 `X^(mu+o(1))`。
+   为 `X^(mu+o(1))`；
+6. 对所选 finite fibers 存在 FPW4b 的受控对偶泛函。
 
-则 FPW1–FPW5 存在，并可选成 rank
+前五项给 FPW1–FPW3、FPW4a、FPW5，并可选成 rank
 
 `O_mu(logX/loglogX)`                               (17)
 
-的 finite logarithmic-moment fibers。若这些 fibers 上的 actual arithmetic
-cycle 满足 FPW6，则全部 paired divisor 位于 `Re rho=c/2`。
+的 finite logarithmic-moment carriers。若再有第 6 项及 actual arithmetic
+cycle 的 FPW6 tightness，则全部 paired divisor 位于 `Re rho=c/2`。
 
 #### 证明
 
 Tate centering与 primitive multiplier 用定理 II；piecewise Mellin finite
 Gram 用 IQ；adaptive polarization/tail 用 JE；Poisson 与 Taylor finite-rank
-reduction 用 JJ/JN。定理 JO 给中心线。`□`
+reduction 用 JJ/JN。这些结果给定性 carrier；第 6 项不是它们的自动推论。加入
+第 6 项和 FPW6 后，修订定理 JO 给中心线。`□`
 
 它覆盖 primitive Dirichlet L 函数；对 fixed-degree automorphic L 函数还需
 逐例验证 local coefficient/Rankin--Selberg 输入。若 local temperedness 本身
@@ -287,8 +315,12 @@ reduction 用 JJ/JN。定理 JO 给中心线。`□`
 
 ## 8. 证据边界与下一步
 
-主结构问题现已闭合到一条公理：对 zeta 证明任一 FPW6 版本。最小 finite
-版本是定理 JM 的 moment form
+主结构问题不再表述为“只剩一条公理”。对一般 finite Gram 需分别完成：
+
+1. 构造 FPW4b 的 subpower-norm dual extractor；
+2. 证明任一 FPW6 actual-cycle tightness。
+
+最小 finite tightness 候选是定理 JM 的 moment form
 
 `M(X)^*H_XM(X)=X^(o(1))`,                          (18)
 
@@ -302,8 +334,9 @@ reduction 用 JJ/JN。定理 JO 给中心线。`□`
 3. 利用 residue/character dispersion 控制 actual `Lambda-1` vector；
 4. 或构造独立几何，使式 (18) 成为显然的 intersection-norm bound。
 
-任何成功的 subpower bound 都会证明 RH。当前结果是结构定理、完整有限化和
-非循环存在性审计，而不是该最终算术估计。
+在已有独立 exponent theorem 的 realization 中，成功的 subpower bound 会证明
+RH；对一般 Gram 还必须先验证 FPW4b。当前结果是条件结构定理、有限化工具和
+非循环存在性审计，而不是最终算术估计。
 
 文档 073 给 FPW 一个 operator-theoretic 解释：FPW6 是 normalized arithmetic
 orbit 的 cyclic temperedness；strong covariant tightness 则通过 Cesaro

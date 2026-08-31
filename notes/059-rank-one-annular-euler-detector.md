@@ -141,7 +141,9 @@ endpoint 无问题。对任意 compact subset of `Re z>0`，取更小
 ### 推论 JY（rank-one filtered zeta FPW）
 
 式 (15) 连同 annular Euler trace、Mellin transform (3) 与 functional
-equation 构成 rank-one filtered primitive Weil package。其 norm exponent 为
+equation 构成 rank-one quantitative filtered primitive Weil package。在一维
+空间取 `ell_X(v)=v`，则 dual norm恒为 `1`；定理 JX 的独立 residue/exponent
+证明给修订后 FPW4b 的 mode 下界。其 norm exponent 为
 
 `max(0,2Theta-1)`.                                 (16)
 
@@ -150,7 +152,7 @@ FPW6 `Q_X(v_X)=X^(o(1))` 当且仅当 RH。
 #### 证明
 
 positivity 显然；Euler origin 来自式 (1)，off-center divisor visibility 来自
-定理 JV/命题 JW，exponent 与 tightness 来自定理 JX。应用定理 JO。`□`
+定理 JV/命题 JW，quantitative separation、exponent 与 tightness 来自定理 JX。因而可应用修订后的定理 JO；这里不以定性 visibility 代替下界。`□`
 
 这个 rank-one package 只用于 filtered center-line detection。它一般不能恢复
 全部 critical divisor、translation group 或正规化行列式，所以不能替代定理

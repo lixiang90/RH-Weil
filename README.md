@@ -10,7 +10,20 @@
 - 使用 `ctexart`，在 Overleaf 中选择 XeLaTeX 即可编译；
 - 仓库保存 LaTeX 源文件和最终生成的论文 PDF；不保存本地 `.aux`、`.log`、`.toc` 等中间构建产物。
 
-论文统一陈述有限维 PLF、tempered、filtered primitive Weil 和 bounded finite-trace Hodge--Weil 四层结构定理，并明确区分已经证明的形式蕴含、无条件构造的有限结构、条件性中心线判据以及尚缺的 noncircular core Hodge--Riemann 输入。
+论文统一陈述有限维 PLF、tempered 和 bounded finite-trace Hodge--Weil 的严格蕴含，并把 filtered primitive Weil 降级为需要定量 divisor-mode separation 的条件框架；所有结论按 `[U]/[C]/[E]/[N]/[R]` 状态审计。
+
+审计材料：[`AUDIT_REPORT.md`](AUDIT_REPORT.md) 是审计快照，[`AUDIT_RESPONSE.md`](AUDIT_RESPONSE.md) 记录本轮已落地修改、延期事项和仍属开放的数学输入。
+
+### 本地复现
+
+```powershell
+python -m pip install -r requirements.txt
+python scripts/run_checks.py
+xelatex rh-weil-structure-paper.tex
+xelatex rh-weil-structure-paper.tex
+```
+
+统一脚本只做恒等式与数值回归检查，不是 interval-certified 证明，也不构成 RH 证据。Overleaf 中请选择 XeLaTeX；最终 PDF 可纳入版本控制。
 
 当前结论（2026-08-31）：
 
@@ -75,7 +88,7 @@
 59. 已把 biharmonic polarization 提升为可变阶 Sobolev--Hodge filtration。定理 IY 给任意 order `r` 的精确 Green kernel `P_(r-1)(|log(m/n)|)/max(m,n)`，定理 IZ 把 double Gram 化成 `r` 个 logarithmic prefix moments。定理 JA 证明每个固定 `r` 仍精确检测 `max(0,2Theta-1)`；定理 JB 进一步证明只要 `r_X=o(logX)`，自适应 order 仍不丢任何 fixed divisor mode。定理 JC 的 tail bound 把剩余频宽降到 `X^(1/(2r))`；取 `r~logX/loglogX` 后只剩 `sqrt(logX)` core，并可推广到任意慢增长窗口。定理 JE 抽象出 tempered adaptive-polarization Weil 结构：polarization 只需在每个固定谱紧集上以 `X^o(1)` 双侧等价，高频 tail 可控且 divisor trace 相容，就仍能迫使中心线。
 60. 已用 Poisson summation 把慢增长连续频率 core 严格离散化。命题 JF 给 order-`r` Sobolev weight 的指数 Green transform 及 adaptive polynomial bound；定理 JG 证明 mesh `2pi/(C logX)` 的无限采样 Gram 与连续 Gram 只差 `X^(1-C/2+o(1))` alias。定理 JH 再截去频宽 `T=X^(1/(2r))` 外的离散尾，只留下 `O(TlogX)` 个正 rank-one twisted Euler squares。取 `r~logX/loglogX` 后，推论 JI 将 RH 等价化为最多 `O(log(X)^(3/2+o(1)))` 个 weighted coordinates 的最大值为 `X^o(1)`。定理 JJ 抽象出 sampled filtered Weil 结构：fixed exponential type、dual exponential decay 和 `X^(1/2+o(1))` coefficient mass 足以把连续 Hodge positivity 化成 `X^o(1)` 个 Euler periods。
 61. 已利用 fixed exponential type 把 sampled core 继续压缩为 logarithmic moments。命题 JK 对 `F_X(t)=X^(it)D_X(t)` 给 uniform Taylor remainder；在 `T=sqrt(logX)` 上取 `R=kappa logX/loglogX,kappa>2` 后误差为 fixed negative power。定理 JL 构造显式 `R x R` 正 moment Hodge matrix，其 quadratic form 与完整 adaptive Gram 只差 subpower。定理 JM 因而证明 RH 等价于前 `O(logX/loglogX)` 个 centered moments `sum (Lambda(n)-1)n^(-1/2)log(n/X)^j` 的联合正矩阵 bound，也等价于任一 Gram factorization 后最大坐标为 `X^o(1)`。定理 JN 推广到 fixed normalized frequency support、coefficient mass `X^(mu+o(1))` 的 Gamma–Euler data，给出 finite logarithmic-moment Weil 结构。
-62. 已把全部结果合并为 filtered primitive Weil package（FPW）主结构。FPW1–FPW5 分别要求 Euler–Tate finite fibers、正 Hodge Gram、primitive dilation、显式公式/divisor visibility 与 tempered tails；FPW6 是 actual arithmetic cycle 的 critical subpower/strong tightness。定理 JO 证明 FPW exponent 恒为 `max(0,2Theta-c)`，故 FPW6 迫使中心线；定理 JP 在 strong 情形经 GNS/Stone 产生 `Theta*=c-Theta` 的真正 Hilbert–Pólya 算子。定理 JQ/JR 证明 Laurent、adaptive、sampling、moment 等 polarization 的 tempered 等价性。定理 JS/JT 逐项审计 zeta：FPW1–FPW5 及 rank `O(logX/loglogX)` finite fibers 均无条件存在，唯一未证的 FPW6 与 RH 等价。定理 JU 给 Gamma–Euler FPW 存在性定理，并明确 local temperedness/Rankin–Selberg 输入边界。
+62. 已把全部结果合并为 filtered primitive Weil package（FPW），并在审计后修订：FPW4 现在分为定性 trace/divisor compatibility（FPW4a）与定量 dual/Riesz separation（FPW4b）。修订后的条件定理 JO 用受控对偶泛函和 Cauchy--Schwarz 严格推出 exponent 下界；仅有 Mellin 唯一性不再被视为充分。zeta 的 finite carriers、正 Grams、dilation、定性 visibility 与 tails 无条件存在；一般 Gram 的 FPW4b 及 actual-cycle tightness 分别列为开放接口。rank-one annular 模型因定理 JX 的独立 exponent 证明满足 FPW4b。
 63. 已发现 rank-one annular detector。对任意 fixed `A>1`，定理 JV 给 `B_A(X)=sum_(X/A<n<=AX)(Lambda(n)-1)/sqrt(n)` 的 Mellin transform `[(A^z-A^(-z))/z][-zeta'/zeta(1/2+z)-zeta(1/2+z)]`；命题 JW 证明 multiplier 的全部非零 zeros 都在 `Re z=0`。定理 JX 因而证明 `B_A(X)=X^o(1)`、某个 polylog bound 与 RH 等价，且其精确 exponent 为 `max(0,Theta-1/2)`。推论 JY 构造一维正 FPW fiber `Q_X=|B_A(X)|^2`；它足以检测所有 off-center divisor，但不恢复完整 critical spectrum/GNS。定理 JZ 推广到 centered paired Gamma–Euler Dirichlet series。无条件 PNT 对该 scalar 仍只给 power exponent `1/2`，所以没有由降秩自动证明 RH。
 64. 已用连续 annulus-width family 把 rank-one detectors 提升为 strong frame。命题 KA 给精确 de Rham identity `b_h=(partial+1/2)int_(t-h)^(t+h)f`；定理 KB 证明 width interval `[h_0,h_1]` 的平均 spectral multiplier 在整条实轴有严格双侧 gap，因此稳定重构 normalized Chebyshev current并消除全部 critical aliases。定理 KC 将 width-averaged finite prime Grams 的 critical tightness经 GNS/Stone 变成 `Theta*=1-Theta` 的完整 Hilbert–Pólya 候选。定理 KD 证明任意固定有限个 widths 因 simultaneous Diophantine near-resonance 都不可能有 uniform frame lower bound，解释了 continuum/growing family 的必要性。定理 KE 推广到中心 `c/2` 的 Gamma–Euler currents。所有 finite Grams 和 frame gap 无条件存在；strong tightness 仍与 RH 等价。
 65. 已把 strong annular tightness接到乘法短区间 Selberg variance。命题 KF 证明 shrinking width band `[eta,2eta]` 对 fixed spectral mode 的 weight 为 `(28/3)(t^2+1/4)eta^3+O(eta^5)`；命题 KG 给完全有限的 centered prime-pair Gram。定理 KH 证明若 `eta=X^(-theta)` 且 variance 为 `X^(-2theta+delta+o(1))`，则零点条带为 `Re rho<=1/2+(theta+delta)/2`；自然尺度 `delta=0` 给 `1/2+theta/2`。推论 KI 说明任意 `eta=X^(-o(1))` 上的 `eta^2X^o(1)` bound 足以证明 RH；这只是严格充分条件，RH 是否反推每个 fixed log-block 的同一 local mean bound 仍需额外统一性。定理 KJ 给 Gamma–Euler 版本。

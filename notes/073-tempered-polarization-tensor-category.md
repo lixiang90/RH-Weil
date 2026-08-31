@@ -218,8 +218,9 @@ centerline theorem。它严格弱化文档 001 定理 E 的先验 exact adjoint 
    group，定理 NF 重建 exact polarization 与 `Theta^*=c-Theta`；
 3. filtered FPW6 在 scale `X=e^t` 上给 distinguished arithmetic cyclic
    orbit 的 forward subexponential Hodge growth；functional equation/dual
-   package 提供 backward direction，FPW4 visibility 排除任何 fixed
-   off-center exponential mode；这正是定理 NB 的 cyclic/divisor 版本。
+   package 提供 backward direction，而修订后的 FPW4b quantitative dual
+   separation 把每个 fixed off-center mode 转成范数下界；这才是定理 NB 的
+   cyclic/divisor 版本。定性 visibility 本身不够。
 
 所以 filtered FPW 不是形式上模仿 PLF：它把 exact Frobenius similitude放宽为
 two-sided tempered polarization，同时保留相同的 weight conclusion。
@@ -232,9 +233,11 @@ two-sided tempered polarization，同时保留相同的 weight conclusion。
 
 `exp[(rho-c/2)t]m_t(rho)`, `m_t(rho)=exp(o(t))`.    (22)
 
-若 `Re rho>c/2`，visibility 使该 exponential growth 不能在 positive norm
-中被全部消去，与 FPW6 的 `exp(o(t))` bound 矛盾；dual symmetry 排除左侧。
-这就是文档 058 定理 JO，也正对应定理 NB 的 spectral-radius proof。`□`
+若 `Re rho>c/2`，FPW4b 给 dual functional `ell_t`，其 norm 为 `exp(o(t))`，
+而 `|ell_t(v_t)|=exp[(Re rho-c/2)t+o(t)]`。dual Cauchy--Schwarz 因而迫使
+`||v_t||` 有同一 exponential lower growth，与 FPW6 的 `exp(o(t))` bound
+矛盾；dual symmetry 排除左侧。这是修订后的文档 058 定理 JO。若只有定性
+visibility，上述范数下界并不成立。`□`
 
 注意 FPW6 只控制 actual cyclic vector 时，得到的是 divisor purity，不自动
 得到 operator-wide uniform boundedness或 semisimplicity；只有 strong
@@ -246,7 +249,7 @@ covariant frame hypotheses 才允许定理 NF 构造完整 Hilbert--Pólya opera
 
 - finite fields：Weil cohomology、Hard Lefschetz 与 Hodge--Riemann positivity
   给 exact/strong objects，定理 NE 无条件恢复各 weight line；
-- classical zeta：文档 058 的 FPW1–FPW5、文档 071–072 的 local
+- classical zeta：文档 058 的 finite carriers（FPW1–FPW3、FPW4a、FPW5）、文档 071–072 的 local
   scalar/bridge positive fibers 与 normalized dilation correspondences 均
   无条件存在；
 - primitive Dirichlet L-functions：paired Gamma factors、finite unitary Euler
