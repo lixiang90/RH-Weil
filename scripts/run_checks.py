@@ -23,6 +23,10 @@ CHECKS = (
         "frozen Vaughan/Laurent channels",
         [sys.executable, "audit_vaughan_laurent_channels.py", "--frozen-test"],
     ),
+    (
+        "Mobius threshold Hodge structure",
+        [sys.executable, "test_mobius_hodge.py"],
+    ),
 )
 
 

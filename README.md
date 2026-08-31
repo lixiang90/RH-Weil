@@ -4,13 +4,13 @@
 
 ## 正式论文整理稿
 
-现有 001--164 篇笔记已经整理为单文件中文论文：
+现有 001--166 篇笔记已经整理为中文论文：
 
 - [`rh-weil-structure-paper.tex`](rh-weil-structure-paper.tex)：《从 Weil 猜想到数域中心线：极化、过滤 Hodge 结构与黎曼猜想的存在性审计》；
 - 使用 `ctexart`，在 Overleaf 中选择 XeLaTeX 即可编译；
 - 仓库保存 LaTeX 源文件和最终生成的论文 PDF；不保存本地 `.aux`、`.log`、`.toc` 等中间构建产物。
 
-论文统一陈述有限维 PLF、tempered 和 bounded finite-trace Hodge--Weil 的严格蕴含，并把 filtered primitive Weil 表述为需要定量 divisor-mode separation 的条件框架。文档 163 已在 Mellin-coherent adaptive Sobolev carrier 上显式构造该 separation；文档 164 又把 actual-cycle 难点精确商化为 canonical 二通道 Type I/II Gram，并无条件删除每个高度块中 `n<=T/log^A T` 的低算术长度。任意 Gram 的 separation 与剩余 hard-channel tightness 仍不自动满足。所有结论按 `[U]/[C]/[E]/[N]/[R]` 状态审计。
+论文统一陈述有限维 PLF、tempered 和 bounded finite-trace Hodge--Weil 的严格蕴含，并把 filtered primitive Weil 表述为需要定量 divisor-mode separation 的条件框架。文档 163 已在 Mellin-coherent adaptive Sobolev carrier 上显式构造该 separation；文档 164 把 actual-cycle 难点商化为 canonical 二通道并无条件删除每个高度块中 `n<=T/log^A T` 的低算术长度。文档 165 证明 hard channels 的和与 `V` 无关，并以 Hadamard 正规形识别 full cross-Gram target 的循环性；文档 166 则把截断 Möbius defect 实现为乘法 threshold complex 的 Hodge heat supertrace，并给 boundary-shell 与 positive gcd-Gram 公式。该 signed complex 与 interval incidence 的全局 finite-index compatibility 仍未证。所有结论按 `[U]/[C]/[E]/[N]/[R]` 状态审计。
 
 审计材料：[`AUDIT_REPORT.md`](AUDIT_REPORT.md) 是审计快照，[`AUDIT_RESPONSE.md`](AUDIT_RESPONSE.md) 记录本轮已落地修改、延期事项和仍属开放的数学输入。
 
@@ -197,6 +197,10 @@ xelatex rh-weil-structure-paper.tex
 168. 已修复审计指出的 FPW quantitative-separation 缺口在一个关键具体 carrier 上的存在性。引理 ACK 证明真正 Mellin pole 强迫点值或 fixed-window `L2` energy 的幂次 lower limsup。定理 ACL 对 fixed-annulus Sobolev Gram 构造 compact-frequency dual extractor，dual norm至多 `exp(O(r_X))`；定理 ACM 用精确 Mellin identity 与 dual Cauchy--Schwarz 得 `Q_X>=X^(2Re(rho)-c-o(1))`。对 zeta，centered series `-zeta'/zeta-zeta` 在 `s=1` 的 poles相消、在每个 nontrivial zero仍有 residue `-m_rho`，故推论 ACN 无条件建立所有 `r_X=o(logX)` adaptive Sobolev carriers 的 FPW4b。命题 ACO又把 dual norm精确写成 `d^*G^(-1)d` 与 augmented Gram Schur margin。一般 scale-varying Gram仍不自动有 FPW4b；sampled/moment判据只通过 actual-energy additive comparison继承中心线蕴含。真正未证量现在是 actual arithmetic tightness/Type I--II Hodge budget，仍与 RH 同强。
 169. 已从四分量 Vaughan label Gram 抽取 data-independent 的 canonical 二通道 quotient。定理 ACP 逐系数证明 `Lambda=I_(U,V)+II_(U,V)`，其中 `I=(mu_<=U*1)*Lambda_>V+Lambda_<=V`、`II=mu_>U*Lambda_>V*1`；定理 ACQ给 exact `G_2=SG_4S^*` 与 physical energy守恒。定理 ACR证明 Type II 在 `n<(U+1)(V+1)` 严格消失，而 Type I 在同一区间逐项等于 `Lambda`，给出 cutoff support-product no-free-lunch。定理 ACS把 continuum gauge安全因子从四分量的 `4`降为二分量的 `2`。引理 ACT用 Chebyshev bound证明在 dyadic height `T` 取 `U=T/log^A T` 后，`n<=U` 的 low-prime Hodge energy除以 barrier全局可和；定理 ACU遂把 RH-strength输入严格局部化到 `n>U` 的 signed truncated-Mobius Type I residual、support `n>(U+1)(V+1)` 的 Type II residual及其 exact cross Gram。该二通道结构与低长度消去均无条件；hard Gram预算仍未证且与RH同强。
 
+170. 已证明 hard-channel cutoff gauge 与 Hadamard no-go。对 `V>=U`，`R_I=Lambda_(U<n<=V)+a_U*Lambda_>V`、`R_II=b_U*Lambda_>V` 且 `R_I+R_II=Lambda_>U`；改变 `V` 只在两通道间转移 `b_U*Delta`。Hadamard rotation 给 `||W||^2=||D||^2+4Re<u,v>`，所以所需 full cross cancellation加 primitive energy逐字等于原 physical energy，不能冒充较弱输入。raw Type II triples 的 exact-product fiber multiplicity 至少可达 `k(2^(k-1)-1)`，排除 Möbius fiber collapse 前的 uniform arbitrary-coefficient Bessel bound。
+
+171. 已把 `b_U(q)=(mu_>U*1)(q)` 实现为乘法 threshold simplicial complex `K_U(q)` 的 reduced Euler characteristic、harmonic supertrace与全部 heat times上的 McKean--Singer supertrace。沿任意 vertex `p|q`，bulk faces成对相消，只余 `U/p<d<=U` 的 boundary shell。二阶矩的 limiting form精确为 positive gcd Gram `Q_U=sum_r phi(r)(sum_(r|d<=U)mu(d)/d)^2>=0`，并有 `sum_(q<=X)|a_U(q)|^2<<Xlog^3(2U)`。这些结构不引用零点；尚缺的是与 modulated logarithmic incidence 组合后的 finite-index/adjoint bound。
+
 主要文档：
 
 - [抽象结构定理与完整证明](notes/001-polarized-weil-structure.md)
@@ -362,6 +366,8 @@ xelatex rh-weil-structure-paper.tex
 - [Exact frozen Type I/II channels and the compression no-free-lunch theorem](notes/162-frozen-channel-factorization-no-free-lunch.md)
 - [Mellin abscissa and compact-frequency quantitative dual separation](notes/163-quantitative-mellin-dual-separation.md)
 - [Canonical two-channel Vaughan quotient and arithmetic-length localization](notes/164-canonical-two-channel-vaughan-localization.md)
+- [Hard Vaughan cutoff gauge and cross-Gram circularity](notes/165-mobius-threshold-hodge-hard-channel.md)
+- [Möbius threshold complex, Hodge heat supertrace, and gcd Gram](notes/166-mobius-threshold-complex-hodge-supertrace.md)
 - [文献与证据边界](notes/003-sources.md)
 
 计算与回归脚本：

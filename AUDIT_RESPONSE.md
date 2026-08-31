@@ -32,13 +32,13 @@
 2. 把关键浮点证书迁移为 interval arithmetic / exact rational enclosure：列为下一阶段的严格认证任务。
 3. 对论文中的内部新定理进行独立同行复核，并逐条补齐可公开引用的外部文献证据。
 4. 把文档 163 的 Mellin-coherent dual 机制推广到其他有共同 Dirichlet-series realization 的 carriers；对仅有 additive actual-energy approximation 的 sampled/moment Gram，不虚构全空间 FPW4b。
-5. 文档 164 已把四分量压成 canonical 二通道并无条件消去 `n<=T/log^A T`；仍需证明其 hard Type I/II cross Gram 的统一有限迹预算。
+5. 文档 164 已把四分量压成 canonical 二通道并无条件消去 `n<=T/log^A T`。文档 165 的 Hadamard 正规形进一步证明：把“完整 hard cross Gram 加 primitive energy”列为独立较弱目标是循环的；文档 166 转而把 truncated Möbius defect 构造成 zeros-independent 的 threshold-complex Hodge heat supertrace，并给出 boundary shell 与 positive gcd-Gram 二阶矩。仍需证明该 signed complex 与 modulated interval incidence 的统一 finite-index compatibility。
 
 ## 研究方向调整
 
 暂停继续堆叠等价 kernel、basis tuning 和未经认证的浮点搜索。近期优先级为：
 
-1. 对文档 164 的 `r_I,p_II,continuum` hard 二通道 Gram证明保留 Möbius signs 的调制矩阵 Bessel/finite-trace预算；
+1. 把文档 166 的 reduced divisor complexes、Hodge Laplacians 与 logarithmic translations组成 matrix-valued superconnection current，并证明 harmonic boundary classes 的调制 finite-trace预算；
 2. 把可行的有限证书升级为 interval-certified enclosure；
 3. 仅在有共同 Mellin realization 时推广 quantitative dual separation；
 4. 独立复核后再扩大“已证明”范围。

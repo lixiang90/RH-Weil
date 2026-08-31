@@ -1,0 +1,164 @@
+\section{Hard-channel gauge 与 M\"obius threshold Hodge}
+
+canonical 二通道仍可进一步精化。令
+\[
+ a_U=\mu_{\leq U}*1,\qquad
+ b_U=\mu_{>U}*1=\varepsilon-a_U,
+\]
+并假设 $V\geq U$。从 Type I 中删去已经无条件控制的低长度向量，记
+\[
+ R_I=I_{U,V}-\Lambda_{\leq U},\qquad R_{II}=II_{U,V}.
+\]
+
+\begin{theorem}[\statusU{} hard-channel cutoff gauge]\label{thm:hard-gauge}
+逐系数精确成立
+\begin{align}
+ R_I&=\Lambda_{U<n\leq V}+a_U*\Lambda_{>V},\label{eq:hard-i}\\
+ R_{II}&=b_U*\Lambda_{>V},\label{eq:hard-ii}\\
+ R_I+R_{II}&=\Lambda_{>U}.\label{eq:hard-sum}
+\end{align}
+若 $V'\geq V$ 且
+$\Delta_{V,V'}=\Lambda\mathbf1_{V<n\leq V'}$，则
+\[
+ R_I(U,V')-R_I(U,V)=b_U*\Delta_{V,V'},\qquad
+ R_{II}(U,V')-R_{II}(U,V)=-b_U*\Delta_{V,V'}.
+\]
+因此 $V$ 只是在两个 hard channels 间作 exact gauge transfer；它不改变
+physical hard tail。
+\end{theorem}
+
+\begin{proof}
+由定理~\ref{thm:two-vaughan}，
+$I_{U,V}=a_U*\Lambda_{>V}+\Lambda_{\leq V}$，给
+\eqref{eq:hard-i}；结合性给
+$II_{U,V}=\mu_{>U}*\Lambda_{>V}*1=b_U*\Lambda_{>V}$。
+再用 $a_U+b_U=\varepsilon$ 得 \eqref{eq:hard-sum}。改变 $V$ 时把
+$\Lambda_{>V}$ 中的 $\Delta_{V,V'}$ 移到 low slice，所得差正是
+$(\varepsilon-a_U)*\Delta_{V,V'}$ 及其相反数。
+\end{proof}
+
+这个 gauge identity 还揭示了一个此前路线中的循环。令 $T$ 为任意共同线性
+synthesis，$c$ 为 continuum vector，并以任意实数 $\alpha$ 分配背景：
+\[
+ u=T(R_I)-\alpha c,\qquad
+ v=T(R_{II})-(1-\alpha)c,\qquad
+ W=u+v,\quad D=u-v.
+\]
+
+\begin{theorem}[\statusU{} two-channel Hadamard normal form]
+若 $G$ 是 $(u,v)$ 的 Gram，且
+$H=2^{-1/2}\begin{psmallmatrix}1&1\\1&-1\end{psmallmatrix}$，则
+\[
+ HGH^*=\frac12
+ \begin{pmatrix}
+  \|W\|^2&\langle W,D\rangle\\
+  \langle D,W\rangle&\|D\|^2
+ \end{pmatrix}.
+\]
+特别地，
+\[
+ \|W\|^2=\|D\|^2+4\Re\langle u,v\rangle.        \tag{HG}
+\]
+故对任意正 barrier $\beta_k$，
+\[
+ \sum_k\frac{\Re\langle u_k,v_k\rangle+\|D_k\|^2/4}{\beta_k}
+ =\frac14\sum_k\frac{\|W_k\|^2}{\beta_k}.       \tag{HC}
+\]
+\end{theorem}
+
+\begin{proof}
+Hadamard 变换把 $(u,v)$ 送到 $(W/\sqrt2,D/\sqrt2)$；对 Gram 作同一
+congruence 即得结论。
+\end{proof}
+
+式 (HC) 是 hard cross-Gram no-go：若没有来自 positive Gram 外部的 signed
+relation，则“cross cancellation 加 primitive energy”的所需估计逐字等于原
+physical-energy bound 的四分之一。仅控制 primitive diagonal 也无效，因为在
+Hadamard coordinates 中任意
+$\operatorname{diag}(E/2,F/2)\geq0$ 都是合法 Gram，而 $E$ 可任意大。
+
+还有一个 raw-factorization 障碍。对三因子 labels $j=(d,m,r)$，normalized
+interval columns 只依赖 product $\pi(j)=dmr$。若一个 product 有 $R(n)$ 个
+representations，则 synthesis operator norm 的平方至少为 $R(n)$。取 $k$ 个均大于
+$\max(U,V)$ 的互异素数之积，仅令 $m$ 为其中一个素数、$d$ 为其余素数的任意
+非空子集，便有
+\[
+ R(n)\geq k(2^{k-1}-1).
+\]
+所以 uniform Bessel estimate 不可能在 M\"obius signs 沿 exact-product fibers
+求和之前成立。求和后留下的正是 $a_U,b_U$。
+
+\subsection{Multiplicative threshold complex}
+
+对 $q>1$，令 $\mathcal P(q)$ 为其不同素因子集合，并定义
+\[
+ K_U(q)=\left\{S\subseteq\mathcal P(q):\prod_{p\in S}p\leq U\right\}.
+\]
+这是有限 simplicial complex。令 $\widetilde C_*(K_U(q);\C)$ 为 reduced chain
+complex，$\partial$ 为边界，
+\[
+ \Delta_j=\partial_{j+1}\partial_{j+1}^*
+          +\partial_j^*\partial_j
+\]
+为组合 Hodge Laplacian。
+
+\begin{theorem}[\statusU{} M\"obius--Hodge heat supertrace]\label{thm:mobius-hodge}
+对每个 $q>1$ 与 $t\geq0$，
+\begin{align*}
+ a_U(q)&=\sum_{d\mid q,\ d\leq U}\mu(d)
+       =-\widetilde\chi(K_U(q)),\\
+ b_U(q)&=\widetilde\chi(K_U(q))
+       =\sum_{j\geq-1}(-1)^j\Tr\mathbf1_{\{0\}}(\Delta_j)\\
+       &=\sum_{j\geq-1}(-1)^j\Tr e^{-t\Delta_j}.
+\end{align*}
+因此
+\[
+ R_{II}(n)=\sum_{\substack{m\mid n\\m>V}}\Lambda(m)\,
+ \operatorname{Str}e^{-t\Delta(K_U(n/m))},
+\]
+其中 $n/m=1$ 的项为零。
+\end{theorem}
+
+\begin{proof}
+squarefree divisors 与 $\mathcal P(q)$ 的 faces 对应，且
+$\mu(d)=(-1)^{|S|}$，故 face Euler sum 给第一行。simplicial Hodge theorem
+与 Euler--Poincar\'e 给 harmonic supertrace。对总 Dirac operator
+$\partial+\partial^*$，每个非零谱子空间在 even/odd degrees 间成对，故 heat
+supertrace只留下 harmonic subspaces。
+\end{proof}
+
+该表示由 divisor combinatorics 构造，不使用零点。它还具有严格 boundary
+localization：对任意素数 $p\mid q$，把不含 $p$ 的 face $d$ 与含 $p$ 的 face
+$pd$ 配对，得到
+\[
+ a_U(q)=\sum_{\substack{d\mid\operatorname{rad}(q)/p\\U/p<d\leq U}}\mu(d),
+ \qquad b_U(q)=-a_U(q).                            \tag{BS}
+\]
+所以 bulk faces 完全相消，只余乘法 shell $(U/p,U]$。
+
+最后，记 $S_U(X)=\sum_{q\leq X}|a_U(q)|^2$。有限展开给
+\[
+ S_U(X)=\sum_{d,e\leq U}\mu(d)\mu(e)
+          \left\lfloor\frac{X}{[d,e]}\right\rfloor
+       =XQ_U+O(U^2),
+\]
+其中
+\begin{align*}
+ Q_U&=\sum_{d,e\leq U}\frac{\mu(d)\mu(e)}{[d,e]}\\
+ &=\sum_{r\leq U}\varphi(r)
+   \left(\sum_{\substack{d\leq U\\r\mid d}}\frac{\mu(d)}d\right)^2\geq0.
+\end{align*}
+并且取绝对值及 harmonic-sum 估计给
+\[
+ S_U(X)\leq X\sum_{d,e\leq U}\frac1{[d,e]}
+ \ll X\log^3(2U).                                \tag{GM}
+\]
+式 (GM) 尚不足以控制 $\Lambda_{>V}*b_U$ 的全部 modulated near-product
+correlations，但它把 raw factorization 的无界 multiplicity 降成一个
+polylogarithmic averaged gcd Gram。
+
+这给出了新的三层账本：positive interval Gram、纯 gauge 的二通道 primitive
+coordinate，以及独立的 arithmetic signed Hodge complex。下一步应把
+定理~\ref{thm:mobius-hodge} 的 harmonic projections 与 logarithmic translations
+组成 matrix-valued superconnection current，并证明其 negative spectral capacity，
+而不是再次把式 (HC)当作独立较弱的假设。
