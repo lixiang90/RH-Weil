@@ -43,6 +43,10 @@ CHECKS = (
         "reciprocal barrier and harmonic Schur",
         [sys.executable, "test_reciprocal_barrier.py"],
     ),
+    (
+        "square-completed background and Schur--L4",
+        [sys.executable, "test_square_completed_background.py"],
+    ),
 )
 
 

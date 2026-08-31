@@ -4,7 +4,7 @@
 
 ## 正式论文整理稿
 
-现有 001--171 篇笔记已经整理为中文论文：
+现有 001--172 篇笔记已经整理为中文论文：
 
 - [`rh-weil-structure-paper.tex`](rh-weil-structure-paper.tex)：《从 Weil 猜想到数域中心线：极化、过滤 Hodge 结构与黎曼猜想的存在性审计》；
 - 使用 `ctexart`，在 Overleaf 中选择 XeLaTeX 即可编译；
@@ -15,6 +15,8 @@
 文档 170 进一步把 Cauchy effect cone 精确搬到长度侧的 capped positive-definite correspondences：`r` 与 ambient complement `kappa-r` 双正定当且仅当其谱测度为 `0<=nu<=mu`；signed orbit current 的最坏深度恰为负部积分，互异高度 blocks 无损可加，而 prime/continuum/Gamma 必须先合并再优化。
 
 文档 171 又证明 exact reciprocal-barrier identity：任意正背景 `B` 都把负指标控制为 `1/4 int(H-B)^2/B dmu`，而 `dmu/B` 自动产生新的正定 correspondence kernel。threshold-complex predictors在该 kernel下的最优 gain是 Schur complement；pointwise amplitude证书防止 predictor把背景推成负数。
+
+文档 172 用 sharp square completion 移除了这一 pointwise amplitude 前提：对任意 predictor `C`，`B_0+C+C^2/[4(1-epsilon)B_0]` 自动保持正性。由此负指标仅由 Schur residual 的加权二阶矩和 predictor 的加权四阶矩控制；后者又是一个显式 positive-definite fourth-order correspondence Gram。zeta 的下一输入因此从 `L-infinity` leverage 改为 square-root blocks 上的 integrated fourth-moment budget。
 
 审计材料：[`AUDIT_REPORT.md`](AUDIT_REPORT.md) 是审计快照，[`AUDIT_RESPONSE.md`](AUDIT_RESPONSE.md) 记录本轮已落地修改、延期事项和仍属开放的数学输入。
 
@@ -213,7 +215,9 @@ xelatex rh-weil-structure-paper.tex
 
 175. 已把 capped effect cone 完全移到长度/correspondence侧。定理 ADQ 对任意局部紧 Abel 长度群证明 `r,kappa-r` 双正定等价于唯一谱测度 `0<=nu<=mu`；定理 ADR 把 signed orbit current 的 correspondence index精确识别为 `int H_-dmu`。定理 ADS给不交高度 blocks的 exact additivity及 joint-current subadditivity，严格说明 prime、continuum、Gamma 分别优化会丢失 cancellation。定理 ADT由此给纯长度侧 bounded capped-correspondence Weil theorem。对 zeta，Cauchy ambient kernels、shared-lag orbit data和 finite double-Gram interfaces均已无条件存在；尚缺的是 square-root resonance wedge与低 polylog heights上的统一 joint index界，该界仍足以推出 RH。
 
-176. 已证明 reciprocal-barrier/Hodge shorting 定理。定理 ADU给 `int H_-dmu=inf_(B>0) 1/4 int(H-B)^2/B dmu`；定理 ADV证明 reciprocal measure `dmu/B` 的 Fourier transform仍是正定 correspondence kernel，并给 orbit currents的 exact weighted Gram。定理 ADW把 finite harmonic predictor的最优 projection gain写成 `d^T G^dagger d`，同时用 leverage `M=esssup|C_*|/B_0`缩放以确保背景正性；删除该 amplitude条件会有 Schur residual为零而真实负指标任意大的反例。定理 ADX由此给 shorted-background Hodge--Weil criterion。zeta的下一输入被具体化为 square-root blocks上 `G_T,d_T,M_T` 的联合估计，而非 full Selberg profile。
+176. 已证明 reciprocal-barrier/Hodge shorting 定理。定理 ADU给 `int H_-dmu=inf_(B>0) 1/4 int(H-B)^2/B dmu`；定理 ADV证明 reciprocal measure `dmu/B` 的 Fourier transform仍是正定 correspondence kernel，并给 orbit currents的 exact weighted Gram。定理 ADW把 finite harmonic predictor的最优 projection gain写成 `d^T G^dagger d`，同时用 leverage `M=esssup|C_*|/B_0`缩放以确保背景正性；删除该 amplitude条件会有 Schur residual为零而真实负指标任意大的反例。定理 ADX由此给 shorted-background Hodge--Weil criterion。当时的 zeta 输入被具体化为 square-root blocks上 `G_T,d_T,M_T` 的联合估计；第 177 项再以 quadratic lift替代 `M_T`。
+
+177. 已证明 sharp square-completed background 与 amplitude-free Schur--\(L^4\) 定理。对 `0<epsilon<1`，二次修正系数 `1/[4(1-epsilon)]` 是保证 `B_0+C+aC^2/B_0>=epsilon B_0` 的最小常数；取 `epsilon=1/3` 得 `int H_-<=3A_2/2+27P_4/128`。对 harmonic Schur predictor，`A_2=E-d^TG^dagger d`；而 `P_4=int C^4/B_0^3 dmu` 由 squared orbit measure 和 reciprocal-cubic positive kernel 精确表示为 fourth-order correspondence Gram。由此删除 pointwise leverage，剩余开放输入改为 square-root blocks 上 Schur residual 与 weighted fourth moment 的可和性。
 
 主要文档：
 
@@ -387,6 +391,7 @@ xelatex rh-weil-structure-paper.tex
 - [Selberg profile RH equivalence and the square-root resonance wedge](notes/169-selberg-profile-rh-equivalence-resonance-wedge.md)
 - [Capped correspondence kernels and the joint-orbit Weil theorem](notes/170-capped-correspondence-kernel-weil-theorem.md)
 - [Reciprocal-barrier correspondence kernels and harmonic Schur shorting](notes/171-reciprocal-barrier-harmonic-schur.md)
+- [Square-completed positive backgrounds and amplitude-free Schur--L4 shorting](notes/172-square-completed-background-schur-l4.md)
 - [文献与证据边界](notes/003-sources.md)
 
 计算与回归脚本：
