@@ -59,7 +59,7 @@
 
 \title{\bfseries 从 Weil 猜想到数域中心线\\
 \large 极化、过滤 Hodge 结构与黎曼猜想的存在性审计}
-\author{研究笔记整理稿（第 001--163 篇）}
+\author{研究笔记整理稿（第 001--164 篇）}
 \date{2026 年 8 月 31 日}
 
 \begin{document}
@@ -68,7 +68,7 @@
 \begin{abstract}
 本文从有限域上 Weil 猜想的黎曼猜想部分抽离出一个可复用的证明机制：全局迹或行列式公式把算术数据变成谱，函数方程给中心对称，正极化或有限 Hodge 负指标阻止谱向中心线外漂移。本文严格证明有限维极化 Lefschetz--Frobenius（PLF）定理、双向 tempered 动力学定理和 bounded finite-trace Hodge--Weil 蕴含；filtered primitive Weil（FPW）则被表述为带\emph{定量 divisor-mode separation} 的条件框架。本文进一步证明，在 Mellin-coherent fixed-annulus adaptive Sobolev 子类中，该 separation 可由 compact-frequency dual 自动构造；任意随尺度变化的 Gram 则仍需把它作为独立输入。
 
-对经典 Riemann zeta 函数，本文逐项审计这些结构的存在性。显式公式、Euler--Gamma 数据、正 Gram 载体、primitive/Tate 消元、Poisson 与 Mellin 兼容、有限迹代数、Cauchy effect cone、Vaughan Type I/II 分解以及有限矩阵通道均可无条件构造。尚未得到的是一个不借用零点位置的统一算术 Hodge 估计：等价地，需控制实际算术向量的 subpower Hodge 范数，或控制 Abel Hodge current 的 Cauchy 加权负谱迹。本文进一步把后一问题无条件局部化到平方根高度核心，并给出调制 Gallagher--Fejér、矩阵 Bessel、Feshbach--Loewner 和冻结二维 incidence 通道的精确接口。最后证明一个 compression no-free-lunch：小尾部、小耦合和稳定低秩通道本身不能控制物理能量，任何真正成功的数域 Weil 理论都必须含有独立、非循环的 core Hodge--Riemann 输入。
+对经典 Riemann zeta 函数，本文逐项审计这些结构的存在性。显式公式、Euler--Gamma 数据、正 Gram 载体、primitive/Tate 消元、Poisson 与 Mellin 兼容、有限迹代数、Cauchy effect cone、Vaughan Type I/II 分解以及有限矩阵通道均可无条件构造。尚未得到的是一个不借用零点位置的统一算术 Hodge 估计：等价地，需控制实际算术向量的 subpower Hodge 范数，或控制 Abel Hodge current 的 Cauchy 加权负谱迹。本文进一步把后一问题无条件局部化到平方根高度核心；四分量 Vaughan Gram 又可精确商化为 canonical $2\times2$ Type I/II Gram，并可无条件删除每个高度块中 $n\leq T/\log^A T$ 的低算术长度。最后证明一个 compression no-free-lunch：小尾部、小耦合和稳定低秩通道本身不能控制物理能量，任何真正成功的数域 Weil 理论都必须含有独立、非循环的 hard-channel Hodge 输入。
 
 因此，本文没有证明 RH 或 GRH；它给出的是若干已证明的结构蕴含、明确标注的条件框架、存在性边界、失败机制，以及一个缩窄到具体算术不等式的下一阶段研究议程。所有内部新结果仍有待独立同行核验。
 \end{abstract}
@@ -96,13 +96,13 @@
 \]
 的每个局部参数都最简单，经典 RH 仍然是开放问题。因此所需对象必须是一个\emph{全局}结构：它要同时看见所有素数幂、Gamma 因子、极点和零点，并带有不以 RH 为前提的正性或有限负指标。
 
-本文把 163 篇文档重组为如下成果链：
+本文把 164 篇文档重组为如下成果链：
 \begin{enumerate}
   \item 证明有限维 PLF、幂迹、无限维 adjoint、tempered 与 tracial determinant 等结构定理；
   \item 构造带定量对偶分离公理的 filtered primitive Weil package，把“纯权”条件化为算术向量随尺度的 subpower 增长；
   \item 对 zeta 无条件实现解析、Euler、positive-carrier 与有限化部分，并在 adaptive Sobolev carrier 上建立定量分离；最后的 arithmetic tightness 仍与 RH 等强；
   \item 从 Nyman--Beurling、prime graph、wavelet、Green kernel、passivity 等多条路线提取等价或充分判据，同时记录不能闭合的 no-go；
-  \item 把最新路线压缩为有限迹负指标，再局部化到平方根核心和冻结的二维 Vaughan 通道；
+  \item 把最新路线压缩为有限迹负指标，再局部化到平方根核心、canonical 二通道 Vaughan quotient 与 $n>T/\log^A T$ 的 hard arithmetic lengths；
   \item 证明仅靠正 Gram 的低秩压缩不可能“免费”产生 Hodge--Riemann 约束，因而明确下一步必须构造何种新结构。
 \end{enumerate}
 
@@ -654,7 +654,7 @@ $O(\delta_Y^{-3}/(T_1\log T_1))=o(1)$。合并即得。
 \]
 于是 Dirichlet convolution 精确变成 logarithmic translation tensor synthesis；Vaughan/Heath--Brown Type I/II 分解因此成为 Hodge 结构的一部分，而非外加估计技巧。
 
-\section{Vaughan 分解、矩阵通道与冻结 incidence 结构}
+\section{Vaughan 分解、canonical quotient 与矩阵通道}
 
 \subsection{精确 centered Vaughan 恒等式}
 
@@ -666,6 +666,85 @@ $O(\delta_Y^{-3}/(T_1\log T_1))=o(1)$。合并即得。
 \]
 连续背景可在四个 component 间作 affine gauge 分配；有限组 cutoffs 还可在 simplex 上联合优化。完整 physical vector 与 gauge 无关，component-diagonal majorant 随 gauge 改变。有限实验显示优化收益只有几个百分点，说明仅调 cutoff 不会产生数量级突破。
 
+\subsection{Canonical 二通道 quotient 与算术长度局部化}
+
+令
+\[
+ a_U=\mu_{\leq U}*1,\qquad X=a_U*\Lambda_{>V}.
+\]
+四个未中心化分量在 physical synthesis 下有一个不依赖数据拟合的精确商：
+\[
+ I_{U,V}=P_1+P_2+P_4=X+\Lambda_{\leq V},\qquad
+ II_{U,V}=P_3=\mu_{>U}*\Lambda_{>V}*1.
+\]
+
+\begin{theorem}[\statusU{} canonical two-channel Vaughan quotient]\label{thm:two-vaughan}
+逐整数有
+\[
+ \Lambda=I_{U,V}+II_{U,V}.
+\]
+而且
+\[
+ II_{U,V}(n)=0,\qquad
+ I_{U,V}(n)=\Lambda(n)
+ \quad\bigl(n<(U+1)(V+1)\bigr).
+\]
+若四分量 Hilbert Gram 为 $G_4$，置
+\[
+ S=\begin{pmatrix}1&1&0&1\\0&0&1&0\end{pmatrix},
+ \qquad G_2=SG_4S^*,
+\]
+则 $G_2\geq0$ 且
+\[
+ (1,1)G_2(1,1)^*=\1_4^*G_4\1_4.
+\]
+因此 physical energy 可无误差地写成 canonical $2\times2$ Type I/II Gram；这里没有 principal-angle、tail 或 Feshbach approximation。
+\end{theorem}
+
+\begin{proof}
+由 $\log=\Lambda*1$，$P_1+P_2=\mu_{\leq U}*\Lambda_{>V}*1=X$。再由 $\mu*1=\varepsilon$，
+\[
+ P_3=(\mu-\mu_{\leq U})*\Lambda_{>V}*1
+    =\Lambda-\Lambda_{\leq V}-X.
+\]
+这给分解。$P_3$ 的每个非零三因子项满足 $n=dmr$、$d>U$、$m>V$、$r\geq1$，故有 support gap；Type I agreement 随即来自总和恒等式。Gram 结论由 $S^*(1,1)^*=\1_4$。
+\end{proof}
+
+support gap 同时是一条 cutoff 守恒律：把 Type II 推到更大的 $UV$，会让 Type I 在完全相同的初始区间逐项复制 $\Lambda$，所以 ``small Type II'' 不能自动控制目标。不过这一区间的低算术长度部分可以无条件删除。令
+\[
+ L_U=\sum_{n\leq U}\Lambda(n)n^{-\sigma}e^{-n/Y}n^{-i\tau}e_{\log n},
+ \qquad \tfrac12\leq\sigma\leq\tfrac34.
+\]
+在所用 cofinal schedule 中 $\sigma=1/2+\delta_Y\to1/2$，故该范围最终自动满足；有限个初始尺度吸收到常数。
+由 $\psi(x)\ll x$、partial summation 与 $\|e_{\log n}\|=\sqrt h$，
+\[
+ \|L_U\|^2\ll hU^{2(1-\sigma)}\leq hU.           \tag{*}
+\]
+
+\begin{corollary}[\statusU{} arithmetic-length localization]\label{cor:length-local}
+在 dyadic height block $T_k=2^k$ 上有 $h_k\asymp T_k^{-1}$、barrier $\beta_k\gg\log(e+T_k)$。对任意固定 $A>0$ 取
+\[
+ U_k=\max\!\left(1,\left\lfloor
+ \frac{T_k}{\log^A(e+T_k)}\right\rfloor\right).
+\]
+则一致于 Abel scale、水平偏移和 modulation center，
+\[
+ \sum_k\frac{\|L_{U_k}\|^2}{\beta_k}<\infty.
+\]
+写 $p_{I,k}=L_{U_k}+r_{I,k}$，则 $r_{I,k}$ 的系数支撑于 $n>U_k$，$p_{II,k}$ 支撑于 $n\geq(U_k+1)(V_k+1)$。因此若
+\[
+ \sup_Y\sum_{k\in\mathrm{core}}
+ \frac{\|r_{I,k}+p_{II,k}-c_k\|^2}{\beta_k}<\infty,              \tag{**}
+\]
+其中 $c_k$ 是同一 block 的 continuum vector，则 RH 成立。
+\end{corollary}
+
+\begin{proof}
+由 (*)，第一个级数至多常数乘
+$\sum_k\log^{-(A+1)}(e+2^k)<\infty$。定理~\ref{thm:two-vaughan} 给两个 support assertions。完整 block vector 为 $L_{U_k}+r_{I,k}+p_{II,k}-c_k$；二向量 Cauchy--Schwarz、(**) 与外部平方根核心的无条件估计给调制 Gallagher budget，故 bounded finite-trace Hodge--Weil 定理推出 RH。
+\end{proof}
+
+该推论把尚未证明的量从整个 prime current 缩到 $n>T/\log^A T$ 的 signed truncated-M\"obius Type I residual、support 更晚的 Type II residual及其精确 cross Gram。它仍是 RH 强度输入，但不再含每块的低算术长度。
 \subsection{矩阵 Bessel 与 Feshbach--Loewner}
 
 令四个 component vectors 的 Gram 为 $G\geq0$，physical direction 为 $e=(1,1,1,1)^T$，则真实能量是 $e^*Ge$。若 $G\leq M$ 且
@@ -773,7 +852,8 @@ filtered carrier & 自动由精确极化 & Euler、Gram、dilation、定性 visi
 有限迹 Hodge 指数 & 负指标为零 & Cauchy effect cone 与 signed orbit current & 代数和 current 无条件；统一负迹界未证\\
 平方根核心 & 不需要 & exterior defect 为 \(o(1)\) & 无条件；core bound 未证\\
 Type I/II tensor & correspondence calculus & centered Vaughan + Fej\'er incidence & 精确、无条件\\
-低秩通道 & 权重分解 & frozen tilted rank two & finite construction无条件；cofinal matrix Hodge bound 未证\\
+canonical 二通道 & physical quotient & exact $G_2=SG_4S^*$ 与 support-product gap & quotient及 $n\leq T/\log^A T$ 消去无条件；hard cross Gram 未证\\
+经验低秩通道 & 权重分解 & frozen tilted rank two & 仅作 finite diagnostic；不再是必要 proof input\\
 core Hodge relation & Hodge 指数定理 & 尚无对应物 & 当前决定性缺口\\
 \bottomrule
 \end{longtable}
@@ -810,19 +890,21 @@ Deninger 的叶状动力系统纲领与 Connes 的 adele 类空间迹公式\cite
   \item exact incidence/tilted 基把物理质量按 $400/401$ 与 $1/401$ 分到 core/tail，并导出显式 Type I/II residual。
 \end{enumerate}
 
+定理~\ref{thm:two-vaughan} 的二通道 quotient 是逐系数代数恒等式，不依赖这些实验；它使上述经验 bases 降为诊断坐标，而非下一证明的必要结构。
+
 这些数字全部是 finite、floating-point、midpoint/truncated diagnostics；尚未同时包含 interval arithmetic、无限 continuum tail、prime tail、全部 dyadic heights 和共尾极限。因此它们不能证明 bounded $J_Y$，更不能作为 RH 的统计证据。它们的合法用途是发现 invariants、选择 proof norm、构造反例和优先排序下一步估计。
 
 \section{下一步研究议程}
 
 当前不应继续增加新的等价核或只优化有限 cutoffs；决定性任务是构造数域的 core Hodge--Riemann 约束。建议按以下顺序推进。
 
-\subsection{第一阶段：component-matrix finite-trace current}
+\subsection{第一阶段：hard two-channel finite-trace current}
 
-在冻结 incidence 基中构造自伴矩阵值 current $\mathbb H_{Y,\delta}(t)$，要求：
+固定推论~\ref{cor:length-local} 的 $U_T=T/\log^A T$，对 canonical Type I residual $r_I$ 与 Type II residual $p_{II}$ 构造自伴矩阵值 current $\mathbb H_{Y,\delta}(t)$，要求：
 \begin{enumerate}
   \item scalar Abel zero obstruction 由其负谱迹控制；
   \item effect cone 与 Cauchy trace保持 exact 或具有可求和误差；
-  \item 负方向分解为 $Z_2,Z_3$ tail residual、core--tail cross 项和一个有限 signature core，而不是完整 $\|L\|^2$；
+  \item 负方向分解为 $r_I$、$p_{II}$、continuum 与其 exact cross 项，而不是完整 $\|\Lambda\|^2$；
   \item 结构由 prime/Gamma orbit correspondences 构造，不引用零点位置。
 \end{enumerate}
 
@@ -835,20 +917,11 @@ Deninger 的叶状动力系统纲领与 Connes 的 adele 类空间迹公式\cite
   \item 利用 M\"obius 与 Type I/II 结构的 signed orbit comparison；
   \item 一个由 arithmetic dynamics 推出的双向 tempered 或 adjoint/similitude 关系。
 \end{enumerate}
-任何只估计 $\|Z_0\|$ 而不利用额外 signature 的方案都可能把 $L$ 原样放回右端，从而循环。
+任何只估计完整 $\|I_{U,V}\|$ 而不利用 continuum cancellation或 signed M\"obius structure 的方案，都必须面对定理~\ref{thm:two-vaughan} 的 target-agreement range，可能把 $\Lambda$ 原样放回右端。
 
 \subsection{第三阶段：tail 与 coupling 的解析预算}
 
-对
-\[
-  40(a_U*\Lambda_{>V})-21\Lambda,
-\]
-及
-\[
-  2(a_U*\Lambda_{>V})-2(a_U*\Lambda_{\leq V})
-  -3\Lambda+6\Lambda_{\leq V}
-\]
-在 dyadic multiplicative rectangles 上建立调制 bilinear large-sieve bounds，并把 continuum/Gamma/vector errors经 Loewner enclosure 加入。最终目标是对平方根核心证明按 barrier $\beta_k$ 加权的负 trace 可和。
+对 $r_I=I_{U,V}-\Lambda_{\leq U}$ 与 $p_{II}=\mu_{>U}*\Lambda_{>V}*1$ 在 dyadic multiplicative rectangles 上建立调制 bilinear large-sieve bounds，保留二者与 continuum 的 exact cross Gram，并把 Gamma/vector errors经 Loewner enclosure 加入。最终目标是对平方根核心证明按 barrier $\beta_k$ 加权的负 trace 可和。
 
 Guth--Maynard 的 Dirichlet polynomial large-value bounds\cite{GuthMaynard}是潜在输入之一，但其已发表的短区间素数推论并不自动给出这里带 Abel 权、全 dyadic centers 和 Cauchy 可和性的调制预算；这一转换必须单独证明。
 
@@ -860,12 +933,12 @@ Guth--Maynard 的 Dirichlet polynomial large-value bounds\cite{GuthMaynard}是�
 
 从 Weil 猜想中真正可抽离的，不是“存在一个神秘上同调”这句话，而是一组可审计的机制：全局 trace compatibility、中心对偶、正极化或有限负指标，以及实际算术 cycle 的统一 Hodge 控制。本文在有限维、tempered 和有限迹层次给出严格结构蕴含，并把 filtered 层次修订为含定量 dual/Riesz separation 的条件框架。对 zeta，Mellin-coherent adaptive Sobolev carrier 的 separation 已由定理~\ref{thm:mellin-dual} 无条件建立；任意 Gram 的全空间 separation 仍非自动。真正保持 RH 强度的开放输入是实际算术 cycle 的统一 subpower Hodge 估计，平方根核心 localization 只缩小了该估计的范围，并未证明它。
 
-最新的 compression no-free-lunch 也修正了研究方向：稳定二维通道是有价值的坐标选择，却不是 Hodge 正性的替代品。下一次真正的突破应当是一条禁止 core amplification 的独立算术 signature relation。若能同时证明其 Cauchy 负指标一致有界，定理~\ref{thm:main} 将直接给出 RH；在一般 Gamma--Euler 数据上，同一结构将给出相应 GRH。
+最新的 canonical quotient 又把经验通道降为一个精确 Type I/II 对象，并无条件删除了 $n\leq T/\log^A T$ 的低算术长度；冻结 basis 现在只保留为诊断工具。compression no-free-lunch 仍说明：下一次真正的突破必须是对 hard $2\times2$ cross Gram 的 signed M\"obius/Type I--II 不等式或独立 arithmetic signature relation。若能证明其 Cauchy 负指标一致有界，定理~\ref{thm:main} 将直接给出 RH；在一般 Gamma--Euler 数据上，同一结构将给出相应 GRH。
 
 \appendix
-\section{163 篇笔记的主题映射}
+\section{164 篇笔记的主题映射}
 
-下表给出原始笔记到本文论证链的完整范围映射。编号 003 为文献与证据审计；其余 162 篇为研究笔记。
+下表给出原始笔记到本文论证链的完整范围映射。编号 003 为文献与证据审计；其余 163 篇为研究笔记。
 
 \begingroup\small
 \begin{longtable}{@{}p{0.09\textwidth}p{0.28\textwidth}p{0.51\textwidth}@{}}
@@ -891,6 +964,7 @@ Guth--Maynard 的 Dirichlet polynomial large-value bounds\cite{GuthMaynard}是�
 151--158 & modulated Gallagher、Fej\'er、Vaughan、background/cutoff gauge、matrix Bessel、Feshbach、frozen out-of-sample & 第 8--9 节的 Type I/II 矩阵通道\\
 159--162 & Laurent obstruction、incidence cone、tilted frozen basis、精确通道与 compression no-free-lunch & 当前边界与第 11 节研究议程\\
 163 & Mellin 横坐标、compact-frequency dual 与 Schur margin & 第 4 节定理~\ref{thm:mellin-dual} 的定量分离机制\\
+164 & canonical 二通道 Vaughan quotient、support-product 守恒与 arithmetic-length localization & 定理~\ref{thm:two-vaughan} 与推论~\ref{cor:length-local}\\
 \bottomrule
 \end{longtable}
 \endgroup

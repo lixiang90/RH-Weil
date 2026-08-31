@@ -106,6 +106,8 @@ from qw_matrix import (
     stationary_modulated_interval_energy,
     gallagher_fejer_band_constant,
     balanced_vaughan_coefficients,
+    canonical_vaughan_two_channel_coefficients,
+    canonical_vaughan_two_channel_gram,
     vaughan_laurent_channel_data,
     balanced_vaughan_modulated_gram_audit,
     modulated_atomic_component_gram,
@@ -873,6 +875,23 @@ def main() -> None:
         < mp.mpf("1e-50")
         for integer in range(1, type_ii_lower)
     )
+    two_channel_coefficients = canonical_vaughan_two_channel_coefficients(
+        80, 4, 5
+    )
+    assert two_channel_coefficients["maximum_reconstruction_residual"] < (
+        mp.mpf("1e-48")
+    )
+    assert two_channel_coefficients["type_i_target_agreement_residual"] < (
+        mp.mpf("1e-48")
+    )
+    assert two_channel_coefficients["type_ii_support_lower_bound"] == 30
+    for integer in range(1, 81):
+        assert mp.almosteq(
+            two_channel_coefficients["reconstruction"][integer],
+            von_mangoldt(integer),
+            rel_eps=mp.mpf("1e-48"),
+            abs_eps=mp.mpf("1e-48"),
+        )
     single_laurent = vaughan_laurent_channel_data(
         [(2, 3)], [mp.mpf(1)],
         [mp.mpf("0.1"), mp.mpf("0.2"), mp.mpf("0.3"), mp.mpf("0.4")],
@@ -985,6 +1004,14 @@ def main() -> None:
         abs_eps=mp.mpf("1e-47"),
     )
     assert not vaughan_gram["continuum_cell_component_included"]
+    two_channel_gram = canonical_vaughan_two_channel_gram(
+        vaughan_gram["component_gram"]
+    )
+    assert abs(two_channel_gram["physical_energy_residual"]) < (
+        mp.mpf("1e-47")
+    )
+    assert two_channel_gram["physical_pullback_residual"] < mp.mpf("1e-49")
+    assert two_channel_gram["hermitian_residual"] < mp.mpf("1e-48")
     synthetic_component_gram = mp.matrix([[4, 0], [0, 1]])
     synthetic_split = optimal_real_rank_one_background_split(
         synthetic_component_gram,

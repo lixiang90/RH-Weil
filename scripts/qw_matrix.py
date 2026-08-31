@@ -4216,6 +4216,107 @@ def balanced_vaughan_coefficients(
     }
 
 
+def canonical_vaughan_two_channel_coefficients(
+    cutoff: int, mobius_cutoff: int, mangoldt_cutoff: int
+) -> dict[str, object]:
+    """Collapse the four uncentered Vaughan terms to physical Type I/II.
+
+    If ``P_1,...,P_4`` are the uncentered components returned by
+    :func:`balanced_vaughan_coefficients`, the physical quotient is
+
+        I  = P_1 + P_2 + P_4,
+        II = P_3.
+
+    Thus ``Lambda=I+II`` exactly.  Moreover ``II`` is supported on
+    ``n >= (U+1)(V+1)``, so ``I(n)=Lambda(n)`` below that threshold.
+    """
+    decomposition = balanced_vaughan_coefficients(
+        cutoff, mobius_cutoff, mangoldt_cutoff
+    )
+    four = decomposition["uncentered_components"]
+    first = four["type_i_log"]
+    correction = four["type_i_correction"]
+    type_ii = four["type_ii"]
+    low = four["low_prime_power"]
+    type_i = [mp.mpc(0) for _ in range(cutoff + 1)]
+    target = [mp.mpc(0) for _ in range(cutoff + 1)]
+    reconstruction = [mp.mpc(0) for _ in range(cutoff + 1)]
+    for integer in range(1, cutoff + 1):
+        type_i[integer] = first[integer] + correction[integer] + low[integer]
+        target[integer] = von_mangoldt(integer)
+        reconstruction[integer] = type_i[integer] + type_ii[integer]
+    residuals = [
+        reconstruction[integer] - target[integer]
+        for integer in range(cutoff + 1)
+    ]
+    support_lower_bound = decomposition["type_ii_support_lower_bound"]
+    agreement_residuals = [
+        type_i[integer] - target[integer]
+        for integer in range(1, min(cutoff + 1, support_lower_bound))
+    ]
+    return {
+        "cutoff": cutoff,
+        "mobius_cutoff": mobius_cutoff,
+        "mangoldt_cutoff": mangoldt_cutoff,
+        "components": {"type_i": type_i, "type_ii": type_ii},
+        "target": target,
+        "reconstruction": reconstruction,
+        "reconstruction_residuals": residuals,
+        "maximum_reconstruction_residual": max(
+            abs(value) for value in residuals
+        ),
+        "type_ii_support_lower_bound": support_lower_bound,
+        "type_i_target_agreement_residual": max(
+            [abs(value) for value in agreement_residuals] + [mp.mpf(0)]
+        ),
+        "physical_quotient_matrix": mp.matrix([
+            [1, 1, 0, 1],
+            [0, 0, 1, 0],
+        ]),
+        "identity": (
+            "Lambda=[(mu_<=U*1)*Lambda_>V+Lambda_<=V]"
+            "+[mu_>U*Lambda_>V*1]"
+        ),
+    }
+
+
+def canonical_vaughan_two_channel_gram(
+    four_component_gram: mp.matrix,
+) -> dict[str, object]:
+    """Push a four-component Vaughan Gram to its physical two-channel quotient."""
+    if four_component_gram.rows != 4 or four_component_gram.cols != 4:
+        raise ValueError("Vaughan component Gram must be four by four")
+    hermitian = (
+        four_component_gram + four_component_gram.transpose_conj()
+    ) / 2
+    quotient = mp.matrix([
+        [1, 1, 0, 1],
+        [0, 0, 1, 0],
+    ])
+    two_channel = quotient * hermitian * quotient.transpose_conj()
+    physical_four = mp.matrix([1, 1, 1, 1])
+    physical_two = mp.matrix([1, 1])
+    energy_four = mp.re(
+        (physical_four.transpose_conj() * hermitian * physical_four)[0, 0]
+    )
+    energy_two = mp.re(
+        (physical_two.transpose_conj() * two_channel * physical_two)[0, 0]
+    )
+    return {
+        "quotient_matrix": quotient,
+        "two_channel_gram": two_channel,
+        "four_channel_physical_energy": energy_four,
+        "two_channel_physical_energy": energy_two,
+        "physical_energy_residual": energy_two - energy_four,
+        "physical_pullback_residual": mp.norm(
+            quotient.transpose_conj() * physical_two - physical_four
+        ),
+        "hermitian_residual": mp.norm(
+            two_channel - two_channel.transpose_conj()
+        ),
+    }
+
+
 def vaughan_laurent_channel_data(
     cutoff_pairs: list[tuple[int, int]],
     scale_weights: list[mp.mpf],

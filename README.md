@@ -4,13 +4,13 @@
 
 ## 正式论文整理稿
 
-现有 001--163 篇笔记已经整理为单文件中文论文：
+现有 001--164 篇笔记已经整理为单文件中文论文：
 
 - [`rh-weil-structure-paper.tex`](rh-weil-structure-paper.tex)：《从 Weil 猜想到数域中心线：极化、过滤 Hodge 结构与黎曼猜想的存在性审计》；
 - 使用 `ctexart`，在 Overleaf 中选择 XeLaTeX 即可编译；
 - 仓库保存 LaTeX 源文件和最终生成的论文 PDF；不保存本地 `.aux`、`.log`、`.toc` 等中间构建产物。
 
-论文统一陈述有限维 PLF、tempered 和 bounded finite-trace Hodge--Weil 的严格蕴含，并把 filtered primitive Weil 表述为需要定量 divisor-mode separation 的条件框架。文档 163 已在 Mellin-coherent adaptive Sobolev carrier 上显式构造该 separation；任意 Gram 仍不自动满足。所有结论按 `[U]/[C]/[E]/[N]/[R]` 状态审计。
+论文统一陈述有限维 PLF、tempered 和 bounded finite-trace Hodge--Weil 的严格蕴含，并把 filtered primitive Weil 表述为需要定量 divisor-mode separation 的条件框架。文档 163 已在 Mellin-coherent adaptive Sobolev carrier 上显式构造该 separation；文档 164 又把 actual-cycle 难点精确商化为 canonical 二通道 Type I/II Gram，并无条件删除每个高度块中 `n<=T/log^A T` 的低算术长度。任意 Gram 的 separation 与剩余 hard-channel tightness 仍不自动满足。所有结论按 `[U]/[C]/[E]/[N]/[R]` 状态审计。
 
 审计材料：[`AUDIT_REPORT.md`](AUDIT_REPORT.md) 是审计快照，[`AUDIT_RESPONSE.md`](AUDIT_RESPONSE.md) 记录本轮已落地修改、延期事项和仍属开放的数学输入。
 
@@ -195,6 +195,7 @@ xelatex rh-weil-structure-paper.tex
 166. 已构造一个避开 exact-physical Feshbach退化的显式 tilted incidence structure。定理 ACD在固定正交分裂 `span{e,c} direct-sum span{u,v}` 中证明：每个 sector各取 leading eigenline即为所有 separated rank-two planes的全局 trace optimum。定理 ACE给任意两参数 planes `C(tau,q)` 的精确 projector angle，是 physical/coarse与 paired两条 projective-line sines的最大值。冻结 `tau=1/20,q=3` 后，定理 ACF得到整数 core seeds `(21,21,19,19),(3,-3,-1,1)` 与正交 tail `(19,19,-21,-21),(-1,1,-3,3)`；物理向量的 core/tail平方质量精确为 `400/401,1/401`，故近 physical但不包含它。定理 ACG把该固定 basis、Feshbach completion、ABJ vector errors与 barrier summability组成非退化 Gamma--Euler center-line criterion。九个选参 blocks上的 fixed sine为 `.0339--.1660`；参数冻结后两个真正 held-out `N=320` blocks上的 sine为 `.0421,.0353`，tail/`lambda_1`为 `.0743,.0695`。所有 finite algebra与Loewner majorants无条件存在；尚缺的是 explicit core/coupling/tail capacities的全 dyadic bound，不能用有限稳定性替代。
 167. 已把 frozen tilted basis逐系数展开成真正的 Type I/II proof targets。令 `a_U=mu_<=U*1,X=a_U*Lambda_>V,Y=a_U*Lambda_<=V`；定理 ACH证明四个 normalized channels精确为 `(2X+19Lambda)/(2sqrt401)`, `(4X+6Y-Lambda+2Lambda_<=V)/(2sqrt5)`, `(40X-21Lambda)/(2sqrt401)`, `(2X-2Y-3Lambda+6Lambda_<=V)/(2sqrt5)`，并由第一、三通道无损重构 `Lambda`。所以两个 frozen tail residuals已完全具体化。定理 ACI随后给 rank-one no-free-lunch：只要 fixed core对 physical vector投影非零，就能构造任意大的 positive core Gram而令 tail与coupling严格为零。定理 ACJ据此证明，仅依赖 tail/coupling/angle与label algebra的 compression criterion不可能控制 physical energy；成功的 generalized Weil structure必须额外含一个禁止 core rank-one amplification的非循环 Hodge input。对 tilted basis，`400/401` physical mass在core，故小tail不是RH证据。有限域 Hodge--Riemann signature正承担该角色；数域下一目标应是 negative Hodge index/indefinite correspondence或真正利用Möbius算术性的core inequality，而不是继续优化basis。
 168. 已修复审计指出的 FPW quantitative-separation 缺口在一个关键具体 carrier 上的存在性。引理 ACK 证明真正 Mellin pole 强迫点值或 fixed-window `L2` energy 的幂次 lower limsup。定理 ACL 对 fixed-annulus Sobolev Gram 构造 compact-frequency dual extractor，dual norm至多 `exp(O(r_X))`；定理 ACM 用精确 Mellin identity 与 dual Cauchy--Schwarz 得 `Q_X>=X^(2Re(rho)-c-o(1))`。对 zeta，centered series `-zeta'/zeta-zeta` 在 `s=1` 的 poles相消、在每个 nontrivial zero仍有 residue `-m_rho`，故推论 ACN 无条件建立所有 `r_X=o(logX)` adaptive Sobolev carriers 的 FPW4b。命题 ACO又把 dual norm精确写成 `d^*G^(-1)d` 与 augmented Gram Schur margin。一般 scale-varying Gram仍不自动有 FPW4b；sampled/moment判据只通过 actual-energy additive comparison继承中心线蕴含。真正未证量现在是 actual arithmetic tightness/Type I--II Hodge budget，仍与 RH 同强。
+169. 已从四分量 Vaughan label Gram 抽取 data-independent 的 canonical 二通道 quotient。定理 ACP 逐系数证明 `Lambda=I_(U,V)+II_(U,V)`，其中 `I=(mu_<=U*1)*Lambda_>V+Lambda_<=V`、`II=mu_>U*Lambda_>V*1`；定理 ACQ给 exact `G_2=SG_4S^*` 与 physical energy守恒。定理 ACR证明 Type II 在 `n<(U+1)(V+1)` 严格消失，而 Type I 在同一区间逐项等于 `Lambda`，给出 cutoff support-product no-free-lunch。定理 ACS把 continuum gauge安全因子从四分量的 `4`降为二分量的 `2`。引理 ACT用 Chebyshev bound证明在 dyadic height `T` 取 `U=T/log^A T` 后，`n<=U` 的 low-prime Hodge energy除以 barrier全局可和；定理 ACU遂把 RH-strength输入严格局部化到 `n>U` 的 signed truncated-Mobius Type I residual、support `n>(U+1)(V+1)` 的 Type II residual及其 exact cross Gram。该二通道结构与低长度消去均无条件；hard Gram预算仍未证且与RH同强。
 
 主要文档：
 
@@ -360,6 +361,7 @@ xelatex rh-weil-structure-paper.tex
 - [Frozen tilted incidence sectors and a nondegenerate integer Weil channel](notes/161-frozen-tilted-incidence-weil-channel.md)
 - [Exact frozen Type I/II channels and the compression no-free-lunch theorem](notes/162-frozen-channel-factorization-no-free-lunch.md)
 - [Mellin abscissa and compact-frequency quantitative dual separation](notes/163-quantitative-mellin-dual-separation.md)
+- [Canonical two-channel Vaughan quotient and arithmetic-length localization](notes/164-canonical-two-channel-vaughan-localization.md)
 - [文献与证据边界](notes/003-sources.md)
 
 计算与回归脚本：
