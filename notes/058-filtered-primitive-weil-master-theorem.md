@@ -63,16 +63,19 @@ uniform bounded invertibility 是 strong FPW；式 (2) 是 tempered FPW。
 
 `||ell_(X,rho)||_(Q_X^*)=X^(o(1))`,                (4a)
 
-`|ell_(X,rho)(v_X)|=X^(Re rho-c/2+o(1))`.          (4b)
+`|ell_(X,rho)(v_X)|>=X^(Re rho-c/2-o(1))`.         (4b)
 
 这里 dual norm 为
 
 `sup_(Q_X(v)>0)|ell(v)|/sqrt(Q_X(v))`，            (4c)
 
-并要求 `ell` 消灭 `ker Q_X`。这是一个 Riesz/frame lower-bound 公理；不能由
+并要求 `ell` 消灭 `ker Q_X`。式 (4b) 只要求证明所需的 lower bound，不要求
+抽取器排除所有更右侧模态。它是一个 Riesz/frame lower-bound 公理；不能由
 Mellin 唯一性或“非恒为零”自动推出。strong spectral/GNS realization若已有
 bounded spectral projections，可由投影坐标产生 FPW4b；一般 filtered Gram 尚需
-单独证明。
+单独证明。文档 163 证明：若 fibers 来自同一个 centered Dirichlet series 的
+fixed-annulus Sobolev realization，则 Mellin pole 与 compact-frequency dual
+自动给出 FPW4b；这一结论依赖跨尺度 coherence，不适用于任意 Gram。
 
 ### FPW5：tempered tails and finite-order upper bound
 
@@ -171,26 +174,28 @@ filtered 定理 JO 比 JP 弱但更灵活：subpower filtration 已足以证明�
 
 ## 4. 稳定性与有限化
 
-### 定理 JQ（equivalent-polarization invariance）
+### 定理 JQ（dual transfer 与 actual-energy transfer）[U]
 
-以下操作保持定理 JO 的全部假设与结论：
+必须区分两种稳定性。
 
-1. 乘以在 critical unitary spectrum 上 uniform nonvanishing 的 Laurent
-   correspondence；
-2. 以 `X^(o(1))` 双侧改变每个 fixed spectral compact 上的 polarization；
-3. 删除总 norm 为 subpower 的高频或 boundary tail；
-4. 用 alias 为 subpower 的 sampled Gram 替换 continuous Gram；
-5. 用 uniform energy error 为 subpower 的 finite moment Gram 替换 sampled
-   或 continuous core。
+1. 若两个 quotient Gram spaces 之间存在 `X^(o(1))`-conditioned 双侧线性同构，
+   则 FPW4b 的 dual functional 可与同构逆向复合，dual norm 只改变
+   `X^(o(1))`。uniform nonvanishing Laurent correspondence 和真正的双侧
+   polarization equivalence 属于此类。
+2. 若只知道两个 actual arithmetic energies 相差 `X^(o(1))`，则它们的
+   subpower tightness 和 power `limsup` 可转移；但这本身不构造近似 Gram
+   全空间上的 FPW4b。Poisson alias、Taylor truncation 和 finite moment
+   approximation 在现有证明中属于此类。
 
 #### 证明
 
-五种操作都把每个 fixed divisor mode 的 squared norm乘以 `X^(o(1))`，并只加入
-subpower remainder；同时将 FPW4b 的 dual functional 与相应同构逆向复合，其
-对偶 norm 也只改变 `X^(o(1))`。因此不改变式 (10) 的 power `limsup`。`□`
+第一项是 dual norm 在有条件数控制的同构下的标准变换公式。第二项直接由
+`Q'_X(v'_X)=Q_X(v_X)+X^(o(1))`（或相应双侧 additive enclosure）比较
+`max(1,Q)` 的 power `limsup`。additive actual-vector identity 没有定义任意
+方向上的逆映射，所以不能据此声称 dual 已转移。`□`
 
-JQ 是 filtered Weil category 的同构概念：对象不按逐项公式相等，而按
-critical spectral weights 的 tempered equivalence 分类。
+因此 sampled/moment 判据可以从已经验证 separation 的 coherent Sobolev
+energy 继承中心线蕴含；除非另有全空间同构证书，不应说它们自动继承 FPW4b。
 
 ### 推论 JR（finite-rank FPW suffices）
 
@@ -224,7 +229,7 @@ exponent；应用定理 JO。`□`
 | FPW2 | pure-prime Gram、biharmonic/Sobolev Green Gram、sampled/moment 矩阵或 annular-width frame | [U] 正半定 |
 | FPW3 | `I-sqrt2 U_(-log2)`，unit-circle gap `sqrt2-1`；adaptive order `r=o(logX)` | [U] tempered 可逆 |
 | FPW4a | zeta 显式公式；primitive multiplier off-center 无零 | [U] 定性 separating |
-| FPW4b | 对偶泛函的 `X^(o(1))` norm 与单 mode 下界 | [R] 一般 Gram 未证；rank-one annular 模型由定理 JX 独立给出 |
+| FPW4b | 对偶泛函的 `X^(o(1))` norm 与 mode 下界 | [U] adaptive Sobolev/annular coherent carrier 由文档 163；[U] rank-one annular 由 JX；[R] 任意 Gram 未证 |
 | FPW5 | BV boundary bound、Hilbert large-sieve tail、Poisson alias、Taylor remainder | [U] subpower |
 
 下列 actual-cycle tightness 判据分别由其原始定理直接证明与 RH 等价；不能再把它们
@@ -242,9 +247,10 @@ exponent；应用定理 JO。`□`
 #### 证明边界
 
 载体结论分别来自命题 IE、定理 IH/IT/IY、定理 IF/JB、定理 IG、命题 HY 与
-定理 IW/JG/JK。八个 tightness 判据的等价性依次依赖定理 IG、IP、IV、JB、JI、
-JM、JX、KC 各自的显式公式证明。只有在另行验证 FPW4b 后，才可统一调用修订后的
-定理 JO。`□`
+定理 IW/JG/JK。文档 163 现在为 adaptive Sobolev carrier 严格验证 FPW4b；
+sampled/moment 判据再按定理 JQ 的 actual-energy transfer 继承其中心线蕴含。
+rank-one annular 仍由 JX 独立处理，strong width frame 由 KC 处理。对除此之外的
+任意 Gram，仍必须另行验证 FPW4b。`□`
 
 ### 推论 JT（revised zeta existence boundary）
 
@@ -252,12 +258,13 @@ JM、JX、KC 各自的显式公式证明。只有在另行验证 FPW4b 后，才
 
 - finite filtered carrier、定性 explicit-formula visibility 与 positive Grams 已无条件存在；
 - rank-one annular detector 因定理 JX 的独立 exponent 计算具备定量 separation；
-- 对一般 sampled/moment/Sobolev Gram，FPW4b 的受控对偶泛函尚未统一构造；
+- adaptive Sobolev carrier 因文档 163 的 compact-frequency Mellin dual 具备 FPW4b；
+- sampled/moment actual energies 可由 subpower approximation 转移中心线蕴含，但任意 Gram 的全空间 FPW4b 仍未自动建立；
 - strong/critical arithmetic polarization 的 tightness 仍等价于 RH；
 - 因而本仓库没有证明 RH，也没有把 RH 隐藏在 finite positivity 中。
 
 一般 FPW 现在有两个需区分的接口：`(i)` divisor mode 到 Gram norm 的定量分离，
-`(ii)` actual `Lambda-1` vector 的 uniform/subpower tightness。某些标量模型已独立
+`(ii)` actual `Lambda-1` vector 的 uniform/subpower tightness。某些 Mellin-coherent carriers 已独立
 解决 `(i)`，但 `(ii)` 仍有 RH 强度；不能再笼统称“唯一开放项只有 FPW6”。
 
 ## 6. Gamma--Euler 数据的广义存在性定理
@@ -275,7 +282,9 @@ JM、JX、KC 各自的显式公式证明。只有在另行验证 FPW4b 后，才
 4. Rankin--Selberg diagonal 为 `X^(o(1))`；
 5. normalized Euler frequencies 在 fixed compact annuli，coefficient mass
    为 `X^(mu+o(1))`；
-6. 对所选 finite fibers 存在 FPW4b 的受控对偶泛函。
+6. 对所选 finite fibers 存在 FPW4b 的受控对偶泛函；或者所选 fibers 是
+   文档 163 的 Mellin-coherent fixed-annulus Sobolev carrier，此时 FPW4b
+   由定理 ACM 自动给出。
 
 前五项给 FPW1–FPW3、FPW4a、FPW5，并可选成 rank
 
@@ -288,8 +297,9 @@ cycle 的 FPW6 tightness，则全部 paired divisor 位于 `Re rho=c/2`。
 
 Tate centering与 primitive multiplier 用定理 II；piecewise Mellin finite
 Gram 用 IQ；adaptive polarization/tail 用 JE；Poisson 与 Taylor finite-rank
-reduction 用 JJ/JN。这些结果给定性 carrier；第 6 项不是它们的自动推论。加入
-第 6 项和 FPW6 后，修订定理 JO 给中心线。`□`
+reduction 用 JJ/JN。这些结果给定性 carrier；一般情形仍需把第 6 项作为独立
+输入，但 fixed-annulus Sobolev realization 可调用文档 163 的定理 ACM。加入
+FPW4b 和 FPW6 后，修订定理 JO 给中心线。`□`
 
 它覆盖 primitive Dirichlet L 函数；对 fixed-degree automorphic L 函数还需
 逐例验证 local coefficient/Rankin--Selberg 输入。若 local temperedness 本身
@@ -315,10 +325,11 @@ reduction 用 JJ/JN。这些结果给定性 carrier；第 6 项不是它们的�
 
 ## 8. 证据边界与下一步
 
-主结构问题不再表述为“只剩一条公理”。对一般 finite Gram 需分别完成：
+主结构问题不再表述为“只剩一条公理”。文档 163 已对 Mellin-coherent
+adaptive Sobolev carrier 完成第一项；对任意其他 finite Gram 仍需分别检查：
 
-1. 构造 FPW4b 的 subpower-norm dual extractor；
-2. 证明任一 FPW6 actual-cycle tightness。
+1. 是否有全空间 FPW4b，或是否仅能通过 actual-energy approximation 转移结论；
+2. 是否能证明 FPW6 actual-cycle tightness。
 
 最小 finite tightness 候选是定理 JM 的 moment form
 

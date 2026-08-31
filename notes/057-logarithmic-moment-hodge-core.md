@@ -161,9 +161,9 @@ moment vector
 - powers of `log(n/X)` 是 infinitesimal dilation descendants；
 - `H^(r,T)` 是正 Hodge--Riemann polarization；
 - order/cutoff filtration 随 `X` 增长但 rank 仅为 subpower；
-- 定理 JB 保证每个 fixed divisor eigenmode 在 filtration 中最终可见。
+- 文档 163 的 Mellin dual 为 Sobolev carrier 定量分离每个 fixed divisor；定理 JB 再把该下界保留在 filtration 中。
 
-### 定理 JN（finite logarithmic-moment Weil structure）
+### 定理 JN（finite logarithmic-moment Weil structure）[U]
 
 设中心为 `c/2` 的 Gamma--Euler data 满足定理 JE，并且每个 scale 的
 normalized Euler frequencies 落在 fixed compact interval，coefficient
@@ -181,11 +181,13 @@ matrix form 只差 subpower。若该 finite form 为 subpower，则全部 diviso
 命题 JK 的 `sqrt(X)` 替换为 `X^mu`；控制 energy cross term 要求 Taylor
 余项小于 `X^(-mu-eta)`，即
 `R(log[R/(eBT)])>2mu logX`，式 (18) 留出严格余量。定理 JL 完成
-continuous-to-moment reduction，定理 JE 给中心线。`□`
+continuous-to-moment reduction；文档 163 先在 coherent Sobolev energy 上给
+quantitative separation，修订后的定理 JE 与 actual-energy transfer 再给
+中心线。`□`
 
 JN 是本研究所求“广义结构定理”的一种有限 filtered 版本：其对象不必来自
 代数簇，只需有 Euler trace coordinates、dilation descendants、正有限
-polarization、tempered filtration 与 divisor visibility。
+polarization、tempered filtration、Mellin-coherent divisor trace 与 compact-frequency dual control。
 
 ## 5. 数值审计与证据边界
 

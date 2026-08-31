@@ -202,9 +202,11 @@ biharmonic polarization 有界等价，故中心线结论不依赖 massive facto
 式 (12) 说明 `mathcal H_2` 与定理 IP 的 `mathcal E_4` 只差固定双侧常数，
 故四个等价条件和式 (21) 立即得到。对于式 (23)，一方面若
 `A(t)=psi(t)-t=O_epsilon(t^(Theta+epsilon))`，Abel summation 与式 (14)
-给上界 `X^(max(0,2Theta-1)+epsilon)`；另一方面文档 053 的式 (24) 将
-primitive block 嵌入 finite Gram，而定理 IG 的非消失给相同下
-`limsup`。`□`
+给上界 `X^(max(0,2Theta-1)+epsilon)`；另一方面文档 163 推论 ACN 对
+order `r=2` 显式构造 compact-frequency dual，并由 centered Dirichlet
+series 在每个 `rho` 的真正 pole 给
+`mathcal H_2(X_j)>=X_j^(2Re rho-1-o(1))`。对 `Re rho->Theta` 取上确界，
+得到相同下 `limsup`。`□`
 
 这说明两矩 criterion 没有削弱问题：每个固定 power improvement 仍精确
 对应一个更窄的全局零点条带。
@@ -312,9 +314,10 @@ correspondence 只改变 polarization 的等价范数，不改变 weights。
 
 式 (25) 表明普通 mean-value/large-sieve 已经足够处理高频。剩余低频中，
 特别是每个固定 `tau` 邻域，weight 有严格正下界。若存在零点
-`rho=beta+igamma`、`beta>1/2`，则 `tau` 接近 `gamma` 的 centered block
-产生 `X^(2beta-1)` 能量；定理 IV 保证它不能被 massive 因子或高频尾
-消除。
+`rho=beta+igamma`、`beta>1/2`，文档 163 的 extractor 取 compact-frequency
+`q_rho`，其 dual norm 为常数，并由真正 Mellin pole 得到
+`X^(2beta-1-o(1))` 的 Gram 下界。这里不再把 formal mode 当成自动正交的
+能量分量；定理 IV 的下界来自明确的 dual Cauchy--Schwarz。
 
 Selberg symmetry formula 可以继续把式 (17) 的 `P_0,P_1` 写成 von
 Mangoldt convolution，但若只使用由初等 PNT 得到的

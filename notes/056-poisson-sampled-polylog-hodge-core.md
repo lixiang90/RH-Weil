@@ -183,7 +183,7 @@ core rank 满足
 
 ## 5. 广义 polylog-core Weil 结构
 
-### 定理 JJ（sampled filtered Weil structure theorem）
+### 定理 JJ（sampled filtered Weil structure theorem）[U]
 
 设定理 JE 的 Gamma--Euler filtered Gram 还满足：
 
@@ -199,8 +199,11 @@ core rank 满足
 
 #### 证明
 
-命题 JF–定理 JH 的 Poisson argument 只使用列出的三项；定理 JE 将 finite
-sampled core bound 转成中心线结论。`□`
+命题 JF–定理 JH 的 Poisson argument 只使用列出的三项，并给 sampled actual
+energy 与 coherent Sobolev energy 的 subpower additive comparison。修订后的
+定理 JE 与文档 058 定理 JQ 的 actual-energy transfer 将 finite sampled core
+bound 转成中心线结论。这里不声称 additive alias estimate 自动构造 sampled
+Gram 全空间上的 FPW4b。`□`
 
 JJ 把广义 Weil 结构进一步有限化：Hodge--Riemann positivity 的开放部分不再
 是一个无限维 operator inequality，而是每个 scale 上 `X^(o(1))` 个显式

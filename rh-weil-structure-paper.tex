@@ -59,14 +59,14 @@
 
 \title{\bfseries 从 Weil 猜想到数域中心线\\
 \large 极化、过滤 Hodge 结构与黎曼猜想的存在性审计}
-\author{研究笔记整理稿（第 001--162 篇）}
+\author{研究笔记整理稿（第 001--163 篇）}
 \date{2026 年 8 月 31 日}
 
 \begin{document}
 \maketitle
 
 \begin{abstract}
-本文从有限域上 Weil 猜想的黎曼猜想部分抽离出一个可复用的证明机制：全局迹或行列式公式把算术数据变成谱，函数方程给中心对称，正极化或有限 Hodge 负指标阻止谱向中心线外漂移。本文严格证明有限维极化 Lefschetz--Frobenius（PLF）定理、双向 tempered 动力学定理和 bounded finite-trace Hodge--Weil 蕴含；filtered primitive Weil（FPW）则被表述为带\emph{定量 divisor-mode separation} 的条件框架。该新增条件修复了仅由定性可见性推导范数幂次下界的缺口。
+本文从有限域上 Weil 猜想的黎曼猜想部分抽离出一个可复用的证明机制：全局迹或行列式公式把算术数据变成谱，函数方程给中心对称，正极化或有限 Hodge 负指标阻止谱向中心线外漂移。本文严格证明有限维极化 Lefschetz--Frobenius（PLF）定理、双向 tempered 动力学定理和 bounded finite-trace Hodge--Weil 蕴含；filtered primitive Weil（FPW）则被表述为带\emph{定量 divisor-mode separation} 的条件框架。本文进一步证明，在 Mellin-coherent fixed-annulus adaptive Sobolev 子类中，该 separation 可由 compact-frequency dual 自动构造；任意随尺度变化的 Gram 则仍需把它作为独立输入。
 
 对经典 Riemann zeta 函数，本文逐项审计这些结构的存在性。显式公式、Euler--Gamma 数据、正 Gram 载体、primitive/Tate 消元、Poisson 与 Mellin 兼容、有限迹代数、Cauchy effect cone、Vaughan Type I/II 分解以及有限矩阵通道均可无条件构造。尚未得到的是一个不借用零点位置的统一算术 Hodge 估计：等价地，需控制实际算术向量的 subpower Hodge 范数，或控制 Abel Hodge current 的 Cauchy 加权负谱迹。本文进一步把后一问题无条件局部化到平方根高度核心，并给出调制 Gallagher--Fejér、矩阵 Bessel、Feshbach--Loewner 和冻结二维 incidence 通道的精确接口。最后证明一个 compression no-free-lunch：小尾部、小耦合和稳定低秩通道本身不能控制物理能量，任何真正成功的数域 Weil 理论都必须含有独立、非循环的 core Hodge--Riemann 输入。
 
@@ -96,11 +96,11 @@
 \]
 的每个局部参数都最简单，经典 RH 仍然是开放问题。因此所需对象必须是一个\emph{全局}结构：它要同时看见所有素数幂、Gamma 因子、极点和零点，并带有不以 RH 为前提的正性或有限负指标。
 
-本文把 162 篇研究笔记重组为如下成果链：
+本文把 163 篇文档重组为如下成果链：
 \begin{enumerate}
   \item 证明有限维 PLF、幂迹、无限维 adjoint、tempered 与 tracial determinant 等结构定理；
   \item 构造带定量对偶分离公理的 filtered primitive Weil package，把“纯权”条件化为算术向量随尺度的 subpower 增长；
-  \item 对 zeta 无条件实现该 package 的解析、Euler、positive-carrier 与有限化部分，并证明最后的 arithmetic tightness 与 RH 等强；
+  \item 对 zeta 无条件实现解析、Euler、positive-carrier 与有限化部分，并在 adaptive Sobolev carrier 上建立定量分离；最后的 arithmetic tightness 仍与 RH 等强；
   \item 从 Nyman--Beurling、prime graph、wavelet、Green kernel、passivity 等多条路线提取等价或充分判据，同时记录不能闭合的 no-go；
   \item 把最新路线压缩为有限迹负指标，再局部化到平方根核心和冻结的二维 Vaughan 通道；
   \item 证明仅靠正 Gram 的低秩压缩不可能“免费”产生 Hodge--Riemann 约束，因而明确下一步必须构造何种新结构。
@@ -306,7 +306,7 @@ $\sum_{\rho\ne0}|\nu_\rho||\rho|^{-g-1}<\infty$。固定次数不超过 $g$ 的�
 中心为 $c/2$ 的 quantitative filtered primitive Weil package 包含：
 \begin{enumerate}
   \item 由有限 Euler 数据构造的 arithmetic vector $v_X$，先减去 continuum/Tate 主模态；
-  \item 正半定 Gram/Hodge form $\cQ_X$，其 kernel、sampling、moment 或 Sobolev 实现彼此以 $X^{o(1)}$ 双侧等价；
+  \item 正半定 Gram/Hodge form $\cQ_X$；任何替换必须区分 $X^{o(1)}$-conditioned quotient 同构与仅对 actual vector 成立的 additive $X^{o(1)}$ enclosure，后者可转移 tightness 结论但不自动转移全空间 dual；
   \item primitive dilation polynomial $P_X(U)$，在每个固定临界谱紧集上以 $X^{o(1)}$ 双侧可逆；
   \item 与显式公式相容的定性 divisor expansion：每个固定 $\rho$ 的形式模态为
   \[
@@ -317,7 +317,7 @@ $\sum_{\rho\ne0}|\nu_\rho||\rho|^{-g-1}<\infty$。固定次数不超过 $g$ 的�
   \[
    \|\ell_{X,\rho}\|_{\cQ_X^*}=X^{o(1)},\qquad
    |\ell_{X,\rho}(v_X)|
-      =X^{\Re\rho-c/2+o(1)}.
+      \geq X^{\Re\rho-c/2-o(1)}.
   \]
   这里
   $\|\ell\|_{\cQ_X^*}=\sup_{\cQ_X(v)>0}|\ell(v)|/\cQ_X(v)^{1/2}$；特别要求 $\ell$ 在 $\ker\cQ_X$ 上消失；
@@ -327,7 +327,7 @@ $\sum_{\rho\ne0}|\nu_\rho||\rho|^{-g-1}<\infty$。固定次数不超过 $g$ 的�
   \]
   \item arithmetic tightness：$\cQ_X(v_X)=X^{o(1)}$。
 \end{enumerate}
-第 5 项严格强于“模态不恒为零”的定性 Mellin 唯一性；它是把 divisor coefficient 转成 Hodge 范数下界所必需的 Riesz/frame 型输入。对一般 zeta Gram realization，本文尚未无条件建立该项。第 7 项则是数域 Hodge--Riemann 对实际 arithmetic cycle 的内容。
+第 5 项严格强于“模态不恒为零”的定性 Mellin 唯一性；它是把 divisor coefficient 转成 Hodge 范数下界所必需的 Riesz/frame 型输入。对一般 zeta Gram realization，该项仍需单独建立；但下述定理会在 Mellin-coherent adaptive Sobolev carrier 上无条件构造它。第 7 项则是数域 Hodge--Riemann 对实际 arithmetic cycle 的内容。
 \end{definition}
 
 \begin{theorem}[\statusC{} quantitative filtered primitive Weil 中心线定理]\label{thm:fpw}
@@ -355,8 +355,96 @@ $\Theta_+=\sup_\rho\Re\rho<\infty$，则
 \end{proof}
 
 \begin{remark}[审计后的降级]
-若删除第 5 项，现有公理只给定性可见性，不能排除不同 divisor modes 在随 $X$ 变化的 Gram 几何中发生 subpower 精度的相消，因而不足以证明上述 exponent identity。弱版本应视为 \statusR{} 研究框架，而不是已闭合定理。
+若删除第 5 项，任意 scale-varying Gram 的定性可见性不能排除 subpower 精度的相消，因而不足以证明上述 exponent identity。弱版本应视为 \statusR{} 研究框架。下面的正面结果依赖 fixed-annulus fibers 来自同一个 Dirichlet series 的跨尺度 Mellin coherence，不能反推任意 Gram 自动满足第 5 项。
 \end{remark}
+
+\begin{theorem}[\statusU{} Mellin-coherent Sobolev 定量分离]\label{thm:mellin-dual}
+固定 $A_0>1$、$\kappa>0$，令 $B=\log A_0$。设
+\[
+ L_a(s)=\sum_{n\geq1}a(n)n^{-s}
+\]
+在某个右半平面绝对收敛，并亚纯延拓到目标 divisor point $\rho$，且在 $\rho$ 有真正极点。对支撑于 $X/A_0<n\leq A_0X$ 的有限向量 $x$ 定义
+\[
+ F_{X,x}(\tau)=\sum_nx_n n^{-c/2}e^{-i\tau\log(n/X)},\qquad
+ Q_{X,r}(x)=\frac1{2\pi}\int_\R
+ \frac{|F_{X,x}(\tau)|^2}{(\tau^2+\kappa^2)^r}\,\dd\tau .
+\]
+取实际向量 $x_{X,n}=a(n)\1_{(X/A_0,A_0X]}(n)$。若 $r_X=o(\log X)$，则对每个固定 $\rho$ 存在 compact-frequency 对偶泛函 $\ell_{X,\rho}$ 和 $X_j\to\infty$，使
+\[
+ \|\ell_{X_j,\rho}\|_{Q_{X_j,r_{X_j}}^*}=X_j^{o(1)},\qquad
+ |\ell_{X_j,\rho}(x_{X_j})|
+ \geq X_j^{\Re\rho-c/2-o(1)}.
+\]
+从而
+\[
+ Q_{X_j,r_{X_j}}(x_{X_j})
+ \geq X_j^{2\Re\rho-c-o(1)}.
+\]
+\end{theorem}
+
+\begin{proof}
+置 $z_\rho=\rho-c/2$。取有界 $\chi_0\geq0$，支撑于固定紧集且 $\int\chi_0>0$，并令
+\[
+ h_\rho(\tau)=\int_{-B}^{B}e^{(z_\rho-i\tau)u}\,\dd u,
+ \qquad q_\rho(\tau)=\chi_0(\tau)h_\rho(\tau),
+\]
+\[
+ \ell_{X,\rho}(x)=\frac1{2\pi}\int_\R
+ F_{X,x}(\tau)\overline{q_\rho(\tau)}\,\dd\tau .
+\]
+若 $\operatorname{supp}q_\rho\subset[-T,T]$，带权 Cauchy--Schwarz 给
+\[
+ \|\ell_{X,\rho}\|_{Q_{X,r}^*}^2
+ \leq \frac1{2\pi}\int |q_\rho(\tau)|^2
+       (\tau^2+\kappa^2)^r\,\dd\tau
+ \leq C_\rho R_\rho^{2r}.
+\]
+所以 $r_X=o(\log X)$ 时 dual norm 为 $X^{o(1)}$。
+
+写
+\[
+ k_\rho(u)=\frac1{2\pi}\int
+ \overline{q_\rho(\tau)}e^{-i\tau u}\,\dd\tau,\qquad
+ K_\rho(z)=\int_{-B}^{B}k_\rho(u)e^{zu}\,\dd u .
+\]
+逐项令 $u=\log(n/X)$，在初始收敛半平面得到
+\[
+ \int_0^\infty \ell_{X,\rho}(x_X)X^{-z-1}\,\dd X
+   =K_\rho(z)L_a(c/2+z).
+\]
+而 Fubini 给
+\[
+ K_\rho(z_\rho)=\frac1{2\pi}\int
+ \chi_0(\tau)|h_\rho(\tau)|^2\,\dd\tau>0.
+\]
+故右端在 $z_\rho$ 保留真正极点。若左端取值的 limsup 指数小于 $\Re z_\rho$，其 Mellin 积分会在包含 $z_\rho$ 的更大右半平面绝对收敛并全纯，和该极点矛盾。因此取值沿某子列满足所写下界；再用前述 dual Cauchy--Schwarz 即得 Hodge 下界。
+\end{proof}
+
+\begin{corollary}[\statusU{} zeta adaptive Sobolev FPW4b]\label{cor:zeta-fpw4b}
+对经典 zeta 取 $c=1$、$A_0=4$、$\kappa=1/2$ 和 $a(n)=\Lambda(n)-1$。此时
+\[
+ L_a(s)=-\frac{\zeta'}{\zeta}(s)-\zeta(s).
+\]
+$s=1$ 的两个主极点相消，而每个非平凡零点 $\rho$ 仍给 residue $-m_\rho\ne0$。因此任意 $r_X=o(\log X)$ 的 adaptive Sobolev carrier 无条件满足 FPW4b。sampled 与 logarithmic-moment actual energies 可由已证的 subpower additive approximation 继承中心线蕴含；该事实本身不声称它们各自已有全空间 Riesz lower bound。
+\end{corollary}
+
+\begin{proposition}[\statusU{} finite Schur dual certificate]
+若有限 fiber 上 $Q(x)=x^*Gx$、$G>0$，且 $\ell(x)=d^*x$，则
+\[
+ \|\ell\|_{Q^*}^2=d^*G^{-1}d,
+\]
+并且
+\[
+ \begin{pmatrix}G&d\\d^*&\eta\end{pmatrix}\geq0
+ \quad\Longleftrightarrow\quad
+ \eta\geq d^*G^{-1}d.
+\]
+定理~\ref{thm:mellin-dual} 中的 weighted Cauchy--Schwarz 给出显式选择 $\eta=C_\rho R_\rho^{2r}$。
+\end{proposition}
+
+\begin{proof}
+第一式是有限维 Riesz representation；第二式是对正定块 $G$ 的 Schur complement。
+\end{proof}
 
 若 Gram family 对平移协变且一致 tight，则可作 GNS completion，得到强连续酉群和 $\Theta=c/2+iA$；因此 strong FPW 会恢复真正的 Hilbert--P\'olya 型算子。filtered FPW 只控制 distinguished arithmetic cyclic vector，足以推出 divisor purity，却不自动给整个算子上的半单性。
 
@@ -680,7 +768,7 @@ physical vector 在 core/tail 的质量比例精确为 $400/401$ 与 $1/401$。�
 primitive/Tate 分解 & Hard Lefschetz primitive decomposition & continuum subtraction 与 dilation polynomial & finite/filtered 形式无条件\\
 正极化 & Hodge--Riemann/Rosati & positive Green、wavelet、triangular、moment Grams & 载体正性无条件，但不等于实际算术 tightness\\
 精确纯性 & Deligne/Weil & exact passive/adjoint realization & 对 zeta 与 RH 等价，未证\\
-filtered carrier & 自动由精确极化 & Euler、Gram、dilation、定性 visibility 与 tails & 有限载体无条件；定量对偶分离尚未对一般 realization 建立\\
+filtered carrier & 自动由精确极化 & Euler、Gram、dilation、定性 visibility 与 tails & adaptive Sobolev 对偶分离无条件；任意 realization 仍需另证\\
 算术 tightness & Hodge--Riemann 已给 & 实际向量 subpower norm & 与 RH 等强，未证\\
 有限迹 Hodge 指数 & 负指标为零 & Cauchy effect cone 与 signed orbit current & 代数和 current 无条件；统一负迹界未证\\
 平方根核心 & 不需要 & exterior defect 为 \(o(1)\) & 无条件；core bound 未证\\
@@ -770,14 +858,14 @@ Guth--Maynard 的 Dirichlet polynomial large-value bounds\cite{GuthMaynard}是�
 
 \section{结论}
 
-从 Weil 猜想中真正可抽离的，不是“存在一个神秘上同调”这句话，而是一组可审计的机制：全局 trace compatibility、中心对偶、正极化或有限负指标，以及实际算术 cycle 的统一 Hodge 控制。本文在有限维、tempered 和有限迹层次给出严格结构蕴含，并把 filtered 层次修订为含定量 dual/Riesz separation 的条件框架；对 zeta 已无条件构造主要载体，但一般 Gram 的定量模式分离与实际算术 cycle 的统一 Hodge 估计仍是彼此独立的开放接口。平方根核心 localization 只缩小了后一个接口的估计范围，并未解决这两个 RH 强度的输入。
+从 Weil 猜想中真正可抽离的，不是“存在一个神秘上同调”这句话，而是一组可审计的机制：全局 trace compatibility、中心对偶、正极化或有限负指标，以及实际算术 cycle 的统一 Hodge 控制。本文在有限维、tempered 和有限迹层次给出严格结构蕴含，并把 filtered 层次修订为含定量 dual/Riesz separation 的条件框架。对 zeta，Mellin-coherent adaptive Sobolev carrier 的 separation 已由定理~\ref{thm:mellin-dual} 无条件建立；任意 Gram 的全空间 separation 仍非自动。真正保持 RH 强度的开放输入是实际算术 cycle 的统一 subpower Hodge 估计，平方根核心 localization 只缩小了该估计的范围，并未证明它。
 
 最新的 compression no-free-lunch 也修正了研究方向：稳定二维通道是有价值的坐标选择，却不是 Hodge 正性的替代品。下一次真正的突破应当是一条禁止 core amplification 的独立算术 signature relation。若能同时证明其 Cauchy 负指标一致有界，定理~\ref{thm:main} 将直接给出 RH；在一般 Gamma--Euler 数据上，同一结构将给出相应 GRH。
 
 \appendix
-\section{162 篇笔记的主题映射}
+\section{163 篇笔记的主题映射}
 
-下表给出原始笔记到本文论证链的完整范围映射。编号 003 为文献与证据审计；其余 161 篇为研究笔记。
+下表给出原始笔记到本文论证链的完整范围映射。编号 003 为文献与证据审计；其余 162 篇为研究笔记。
 
 \begingroup\small
 \begin{longtable}{@{}p{0.09\textwidth}p{0.28\textwidth}p{0.51\textwidth}@{}}
@@ -802,6 +890,7 @@ Guth--Maynard 的 Dirichlet polynomial large-value bounds\cite{GuthMaynard}是�
 144--150 & zero-wave obstruction、bounded-defect normality、quadratic no-go、signed orbit Laplacian、finite trace、layer cake & 定理~\ref{thm:main} 及平方根核心 localization\\
 151--158 & modulated Gallagher、Fej\'er、Vaughan、background/cutoff gauge、matrix Bessel、Feshbach、frozen out-of-sample & 第 8--9 节的 Type I/II 矩阵通道\\
 159--162 & Laurent obstruction、incidence cone、tilted frozen basis、精确通道与 compression no-free-lunch & 当前边界与第 11 节研究议程\\
+163 & Mellin 横坐标、compact-frequency dual 与 Schur margin & 第 4 节定理~\ref{thm:mellin-dual} 的定量分离机制\\
 \bottomrule
 \end{longtable}
 \endgroup

@@ -186,16 +186,27 @@ saturation，只要求 actual Rayleigh quotient 不出现固定幂增长。
 
 #### 证明
 
-零点 `rho` 对 normalized wavelet `y(logL)=L^(-1/2)z(L)` 的 mode 为
+零点 `rho` 对 normalized wavelet `y(logL)=L^(-1/2)z(L)` 的 formal mode 为
 
 `-W(rho)L^(rho-1/2)/rho`,                           (23)
 
-其中定理 HI 已证明 `W(rho)` 在开临界条带无零。固定 log-length block 的
-平方积分于是把 real exponent `Re rho-1/2` 变成
-`X^(2Re rho-1)`。标准 finite-order explicit formula、Riesz smoothing 与
-Mellin singularity argument 给上界及不可消去的下 `limsup`；对趋近 supremum
-的 zeros 取极限，得到式 (22)。若 `Theta=1/2`，RH 下绝对收敛展开给 bounded
-blocks，外面的 `max(0,.)` 处理该情形。`□`
+其中定理 HI 已证明 `W(rho)` 在开临界条带无零。这里不能仅说该 mode“贡献
+正能量”。严格下界使用文档 163 引理 ACK 的 fixed-window `L^2` 版本：`y(t)`
+的 Laplace--Mellin transform在 `lambda=rho-1/2` 保留真正 pole，而
+
+`C(e^T)=int_T^(T+log2)|y(t)|^2dt`.                 (23a)
+
+所以
+
+`limsup_(T->infinity)log max(1,C(e^T))/T`
+
+` >=2Re(rho)-1`.                                   (23b)
+
+这一步自动处理同高度模态相消和无限 divisor family，因为只对每个固定 pole
+应用解析延拓矛盾。相反方向由标准 finite-order explicit formula 与 Riesz
+smoothing 给出 power upper bound。最后对 `Re rho->Theta` 取上确界，得到
+式 (22)。若 `Theta=1/2`，RH 下绝对收敛展开给 bounded blocks，外面的
+`max(0,.)` 处理该情形。`□`
 
 经典定量 PNT 只给 `C(X)<=X exp(-c sqrt(logX))`，其 power exponent 仍为
 `1`；任何固定 power saving 都会立即给一个新的全局零自由条带。

@@ -13,6 +13,10 @@ from pathlib import Path
 
 SCRIPTS = Path(__file__).resolve().parent
 CHECKS = (
+    (
+        "Mellin dual separator",
+        [sys.executable, "test_mellin_dual_separator.py"],
+    ),
     ("prolate boundary correction", [sys.executable, "test_prolate_candidate.py"]),
     ("QW formulas and tails", [sys.executable, "test_qw_bounds.py"]),
     (
