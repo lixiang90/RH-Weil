@@ -5,8 +5,13 @@ from __future__ import annotations
 import numpy as np
 
 from formal_lag_response import (
+    cauchy_gaussian_mixture_band_ledger,
+    cauchy_gaussian_mixture_cdf,
+    degree_two_gaussian_response_upper_bound,
     degree_two_parity_exact_ledger,
+    degree_two_response_frequency_map,
     exact_formal_moment,
+    stationary_response_from_frequency_map,
     two_sided_prime_continuum_symbol,
 )
 
@@ -153,6 +158,44 @@ def main() -> None:
     )
     assert abs(exact_formal_moment(broken_formal, 5)) <= (
         parity["odd_fifth_moment_norm_bound"] + 1.0e-12
+    )
+
+    # The Cauchy state is exactly a Gamma(1/2,1) mixture of normalized
+    # Gaussian states.  The direct degree-two response map must reconstruct
+    # both the original Cauchy response and every finite mixture band.
+    response_map = degree_two_response_frequency_map(
+        broken_formal, spectral_bound=bound, rho=bound / 3.0
+    )
+    continuum_nodes = (0.6,)
+    direct_cauchy = stationary_response_from_frequency_map(
+        response_map, continuum_nodes, lambda value: np.exp(-abs(value))
+    )
+    mixture = cauchy_gaussian_mixture_band_ledger(
+        response_map,
+        continuum_nodes,
+        (0.0, 0.05, 0.4, 2.0, np.inf),
+    )
+    assert abs(mixture["total_response"] - direct_cauchy) <= 1.0e-12
+    assert abs(
+        cauchy_gaussian_mixture_cdf(0.7, np.inf) - np.exp(-0.7)
+    ) <= 1.0e-14
+    assert 0.0 < cauchy_gaussian_mixture_cdf(0.7, 0.4) < np.exp(-0.7)
+
+    gaussian_scale = 0.7
+    direct_gaussian = stationary_response_from_frequency_map(
+        response_map,
+        continuum_nodes,
+        lambda value: np.exp(-(value**2) / (4.0 * gaussian_scale)),
+    )
+    gaussian_bound = degree_two_gaussian_response_upper_bound(
+        broken_formal,
+        continuum_nodes,
+        spectral_bound=bound,
+        rho=bound / 3.0,
+        gaussian_scale=gaussian_scale,
+    )
+    assert abs(direct_gaussian) <= (
+        gaussian_bound["response_upper_bound"] + 1.0e-12
     )
 
     print("soft negative-effect and Cauchy moment checks passed")

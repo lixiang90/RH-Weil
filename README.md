@@ -432,6 +432,7 @@ xelatex rh-weil-structure-paper.tex
 - [Soft negative effects, Chebyshev orbit moments, and finite Cauchy certificates](notes/187-soft-negative-effect-cauchy-moment-certificate.md)
 - [Formal lag resonance decomposition and the canonical soft-direction audit](notes/188-formal-lag-resonance-soft-direction-audit.md)
 - [Parity-breaker convolution and degree-two exact-sector evacuation](notes/189-parity-breaker-exact-sector-evacuation.md)
+- [Cauchy--Gaussian scale mixture and the high-order vanishing route](notes/190-cauchy-gaussian-mixture-high-order-route.md)
 - [研究分支看板](RESEARCH_BRANCHES.md)
 - [文献与证据边界](notes/003-sources.md)
 

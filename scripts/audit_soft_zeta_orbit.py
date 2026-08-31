@@ -6,14 +6,20 @@ an interval certificate, a cofinal estimate, or evidence for RH.
 
 from __future__ import annotations
 
+import math
+
 import mpmath as mp
 import numpy as np
 
 from formal_lag_response import (
+    cauchy_gaussian_mixture_band_ledger,
     chebyshev_formal_orbit_coefficients,
+    degree_two_gaussian_response_upper_bound,
     degree_two_parity_exact_ledger,
+    degree_two_response_frequency_map,
     formal_arbitrary_direction_audit,
     formal_cauchy_response_ledger,
+    stationary_response_from_frequency_map,
     two_sided_prime_continuum_symbol,
 )
 from qw_matrix import zeta_abel_shared_lag_loewner_quadrature
@@ -83,6 +89,51 @@ def soft_zeta_orbit_audit(
         if degree == 2
         else None
     )
+    response_map = (
+        degree_two_response_frequency_map(symbol, spectral_bound, rho)
+        if degree == 2
+        else None
+    )
+    gaussian_mixture = (
+        cauchy_gaussian_mixture_band_ledger(
+            response_map,
+            formal["continuum_nodes"],
+            (0.0, 0.01, 0.04, 0.16, 0.64, 2.56, math.inf),
+        )
+        if response_map is not None
+        else None
+    )
+    gaussian_scale_audit = []
+    if response_map is not None:
+        for gaussian_scale in (0.16, 0.64, 2.56, 10.24):
+            actual_response = stationary_response_from_frequency_map(
+                response_map,
+                formal["continuum_nodes"],
+                lambda value, scale=gaussian_scale: math.exp(
+                    -(value**2) / (4.0 * scale)
+                ),
+            )
+            upper = degree_two_gaussian_response_upper_bound(
+                symbol,
+                formal["continuum_nodes"],
+                spectral_bound,
+                rho,
+                gaussian_scale,
+            )
+            gaussian_scale_audit.append(
+                {
+                    "scale": gaussian_scale,
+                    "actual_response": actual_response,
+                    "upper_bound": upper["response_upper_bound"],
+                    "upper_to_actual_ratio": (
+                        upper["response_upper_bound"] / abs(actual_response)
+                        if abs(actual_response) > 0.0
+                        else math.inf
+                    ),
+                    "total_mass": upper["total_mass"],
+                    "primitive_l1": upper["primitive_l1"],
+                }
+            )
     prime_continuum_mass = sum(
         complex(coefficient)
         for coefficient in data["prime_continuum_discrepancy_coefficients"]
@@ -104,6 +155,9 @@ def soft_zeta_orbit_audit(
         "response_ledger": ledger,
         "direction_audit": direction,
         "parity_exact_ledger": parity,
+        "degree_two_response_map": response_map,
+        "gaussian_mixture_ledger": gaussian_mixture,
+        "gaussian_scale_audit": gaussian_scale_audit,
         "provenance_mass_residual": separated_mass - prime_continuum_mass,
     }
 
@@ -140,6 +194,15 @@ def main() -> None:
     )
     assert 0.0 <= direction["canonical_to_arbitrary_depth_ratio"] <= 1.0 + 1.0e-8
     assert audit["parity_exact_ledger"] is not None
+    assert audit["gaussian_mixture_ledger"] is not None
+    assert abs(
+        audit["gaussian_mixture_ledger"]["total_response"]
+        - ledger["total_response"]
+    ) <= 2.0e-10
+    assert all(
+        abs(item["actual_response"]) <= item["upper_bound"] + 1.0e-10
+        for item in audit["gaussian_scale_audit"]
+    )
     assert ledger["signed"]["exact"].real <= (
         audit["parity_exact_ledger"]["exact_response_upper_bound"] + 1.0e-10
     )
@@ -160,7 +223,9 @@ def main() -> None:
         "canonical/arbitrary="
         f"{direction['canonical_to_arbitrary_depth_ratio']:.6g}, "
         "breaker="
-        f"{audit['parity_exact_ledger']['breaker_fraction']:.6g}"
+        f"{audit['parity_exact_ledger']['breaker_fraction']:.6g}, "
+        "small-mixture="
+        f"{audit['gaussian_mixture_ledger']['signed'][0].real:.6g}"
     )
 
 

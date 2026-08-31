@@ -278,6 +278,253 @@ def degree_two_parity_exact_ledger(
     }
 
 
+def degree_two_response_frequency_map(
+    symbol: FrequencyMap, spectral_bound: float, rho: float
+) -> FrequencyMap:
+    """Return the signed frequency map of -P*p_2(P)^2.
+
+    The degree-two interpolant is p_2(x)=c*x*(x-a*B), with
+    a=sqrt(3)/2. Combining the response before applying a stationary kernel
+    exposes its single shifted-moment factorization and avoids the much
+    larger outer/effect/effect triple ledger.
+    """
+    if spectral_bound <= 0.0 or rho <= 0.0:
+        raise ValueError("spectral bound and rho must be positive")
+    if not symbol:
+        raise ValueError("symbol must be nonempty")
+    node = math.sqrt(3.0) / 2.0
+    amplitude = node * spectral_bound / (node * spectral_bound + rho)
+    polynomial_factor = 2.0 * amplitude / (3.0 * spectral_bound**2)
+    dimension = len(next(iter(symbol)).continuum)
+    third = convolution_power(symbol, 3)
+    shifted = add_frequency_maps(
+        symbol,
+        {FormalLag.zero(dimension): -node * spectral_bound},
+    )
+    return scale_frequency_map(
+        convolve_frequency_maps(
+            third, convolve_frequency_maps(shifted, shifted)
+        ),
+        -(polynomial_factor**2),
+    )
+
+
+def stationary_response_from_frequency_map(
+    response: FrequencyMap,
+    continuum_nodes: tuple[float, ...],
+    kernel,
+) -> complex:
+    """Evaluate a signed response map against a numerical lag kernel."""
+    return sum(
+        coefficient * kernel(lag.numerical_value(continuum_nodes))
+        for lag, coefficient in response.items()
+    )
+
+
+def cauchy_gaussian_mixture_cdf(lag: float, upper_scale: float) -> float:
+    """Cauchy Gaussian-mixture mass below upper_scale at one lag.
+
+    For u>0 let mu_u be the normalized Gaussian with density
+    sqrt(u/pi)*exp(-u*t^2). The normalized Cauchy state is the exact
+    Gamma(1/2,1) mixture of these states. This function returns
+
+        int_0^U exp(-u-lag^2/(4u)) du/sqrt(pi*u).
+
+    Its limit as U tends to infinity is exp(-abs(lag)).
+    """
+    if upper_scale < 0.0:
+        raise ValueError("upper scale must be nonnegative")
+    absolute_lag = abs(float(lag))
+    if upper_scale == 0.0:
+        return 0.0
+    if math.isinf(upper_scale):
+        return math.exp(-absolute_lag)
+    root = math.sqrt(upper_scale)
+    first_argument = absolute_lag / (2.0 * root) - root
+    second_argument = absolute_lag / (2.0 * root) + root
+    return 0.5 * (
+        math.exp(-absolute_lag) * math.erfc(first_argument)
+        - math.exp(absolute_lag) * math.erfc(second_argument)
+    )
+
+
+def cauchy_gaussian_mixture_band_ledger(
+    response: FrequencyMap,
+    continuum_nodes: tuple[float, ...],
+    scale_edges: tuple[float, ...],
+) -> dict[str, object]:
+    """Split a Cauchy response into exact Gaussian-mixture scale bands."""
+    if len(scale_edges) < 2:
+        raise ValueError("at least two scale edges are required")
+    if scale_edges[0] != 0.0 or not math.isinf(scale_edges[-1]):
+        raise ValueError("scale edges must start at zero and end at infinity")
+    if any(
+        right <= left
+        for left, right in zip(scale_edges, scale_edges[1:])
+    ):
+        raise ValueError("scale edges must be strictly increasing")
+    signed: list[complex] = []
+    variation: list[float] = []
+    exact: list[complex] = []
+    for left, right in zip(scale_edges, scale_edges[1:]):
+        band_signed = 0.0 + 0.0j
+        band_variation = 0.0
+        band_exact = 0.0 + 0.0j
+        for lag, coefficient in response.items():
+            numerical_lag = lag.numerical_value(continuum_nodes)
+            weight = (
+                cauchy_gaussian_mixture_cdf(numerical_lag, right)
+                - cauchy_gaussian_mixture_cdf(numerical_lag, left)
+            )
+            term = coefficient * weight
+            band_signed += term
+            band_variation += abs(coefficient) * weight
+            if lag.is_zero():
+                band_exact += term
+        signed.append(band_signed)
+        variation.append(band_variation)
+        exact.append(band_exact)
+    return {
+        "scale_edges": scale_edges,
+        "signed": signed,
+        "variation": variation,
+        "exact": exact,
+        "nonexact": [
+            value - diagonal for value, diagonal in zip(signed, exact)
+        ],
+        "total_response": sum(signed),
+        "total_variation": sum(variation),
+    }
+
+
+def centered_cumulative_l1(
+    source: FrequencyMap,
+    continuum_nodes: tuple[float, ...],
+    reality_tolerance: float = 1.0e-10,
+) -> dict[str, object]:
+    """Center a real lag measure at zero and compute its primitive L1 norm."""
+    if not source:
+        return {
+            "total_mass": 0.0,
+            "centered_atoms": (),
+            "primitive_l1": 0.0,
+            "centered_mass_residual": 0.0,
+        }
+    numerical_atoms: dict[float, complex] = {}
+    for lag, coefficient in source.items():
+        numerical_lag = lag.numerical_value(continuum_nodes)
+        numerical_atoms[numerical_lag] = (
+            numerical_atoms.get(numerical_lag, 0.0 + 0.0j) + coefficient
+        )
+    total = sum(numerical_atoms.values())
+    numerical_atoms[0.0] = numerical_atoms.get(0.0, 0.0 + 0.0j) - total
+    atoms = sorted(
+        (lag, coefficient)
+        for lag, coefficient in numerical_atoms.items()
+        if abs(coefficient) > 1.0e-14
+    )
+    if any(abs(coefficient.imag) > reality_tolerance for _, coefficient in atoms):
+        raise ValueError("cumulative discrepancy requires a real signed measure")
+    cumulative = 0.0
+    primitive_l1 = 0.0
+    for index, (lag, coefficient) in enumerate(atoms):
+        cumulative += coefficient.real
+        if index + 1 < len(atoms):
+            primitive_l1 += abs(cumulative) * (atoms[index + 1][0] - lag)
+    return {
+        "total_mass": float(np.real_if_close(total)),
+        "centered_atoms": tuple(
+            (lag, coefficient.real) for lag, coefficient in atoms
+        ),
+        "primitive_l1": primitive_l1,
+        "centered_mass_residual": cumulative,
+    }
+
+
+def gaussian_centered_moment_upper_bound(
+    source: FrequencyMap,
+    continuum_nodes: tuple[float, ...],
+    power: int,
+    gaussian_scale: float,
+) -> dict[str, float]:
+    """Repeated-primitive bound for one Gaussian stationary moment.
+
+    If d=M*delta_0+d_0 and A is the cumulative primitive of the zero-mass
+    measure d_0, then
+
+        |<exp(-x^2/(4u)), d_0^{*j}>|
+          <= Gamma((j+1)/2)/(sqrt(pi)*u^(j/2)) * ||A||_1^j.
+
+    Expanding d^{*power} gives the returned upper bound.
+    """
+    if power < 0:
+        raise ValueError("power must be nonnegative")
+    if gaussian_scale <= 0.0:
+        raise ValueError("Gaussian scale must be positive")
+    cumulative = centered_cumulative_l1(source, continuum_nodes)
+    total_mass = abs(float(cumulative["total_mass"]))
+    primitive_l1 = float(cumulative["primitive_l1"])
+    terms = []
+    for centered_power in range(power + 1):
+        derivative_bound = (
+            math.gamma((centered_power + 1.0) / 2.0)
+            / math.sqrt(math.pi)
+            / gaussian_scale ** (centered_power / 2.0)
+        )
+        terms.append(
+            math.comb(power, centered_power)
+            * total_mass ** (power - centered_power)
+            * derivative_bound
+            * primitive_l1**centered_power
+        )
+    return {
+        "total_mass": total_mass,
+        "primitive_l1": primitive_l1,
+        "upper_bound": sum(terms),
+        "largest_binomial_term": max(terms, default=0.0),
+    }
+
+
+def degree_two_gaussian_response_upper_bound(
+    symbol: FrequencyMap,
+    continuum_nodes: tuple[float, ...],
+    spectral_bound: float,
+    rho: float,
+    gaussian_scale: float,
+) -> dict[str, float]:
+    """Bound the degree-two response in one normalized Gaussian state."""
+    if spectral_bound <= 0.0 or rho <= 0.0:
+        raise ValueError("spectral bound and rho must be positive")
+    node = math.sqrt(3.0) / 2.0
+    amplitude = node * spectral_bound / (node * spectral_bound + rho)
+    polynomial_factor = 2.0 * amplitude / (3.0 * spectral_bound**2)
+    moment_bounds = {
+        power: gaussian_centered_moment_upper_bound(
+            symbol, continuum_nodes, power, gaussian_scale
+        )
+        for power in (3, 4, 5)
+    }
+    upper_bound = polynomial_factor**2 * (
+        moment_bounds[5]["upper_bound"]
+        + 2.0
+        * node
+        * spectral_bound
+        * moment_bounds[4]["upper_bound"]
+        + node**2
+        * spectral_bound**2
+        * moment_bounds[3]["upper_bound"]
+    )
+    return {
+        "gaussian_scale": gaussian_scale,
+        "total_mass": moment_bounds[3]["total_mass"],
+        "primitive_l1": moment_bounds[3]["primitive_l1"],
+        "third_moment_upper_bound": moment_bounds[3]["upper_bound"],
+        "fourth_moment_upper_bound": moment_bounds[4]["upper_bound"],
+        "fifth_moment_upper_bound": moment_bounds[5]["upper_bound"],
+        "response_upper_bound": upper_bound,
+    }
+
+
 def two_sided_prime_continuum_symbol(
     prime_atoms: list[tuple[int, complex]],
     continuum_atoms: list[tuple[float, complex]],
