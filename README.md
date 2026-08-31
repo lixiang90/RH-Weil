@@ -423,6 +423,9 @@ xelatex rh-weil-structure-paper.tex
 - [Harmonic synthesis capacity and the logarithmic occupancy barrier](notes/178-harmonic-synthesis-occupancy-barrier.md)
 - [One-sided atomic packet Hodge criterion](notes/179-one-sided-atomic-packet-hodge-criterion.md)
 - [Cell-cone capture no-go and operator-system compression](notes/180-cell-cone-capture-no-go-operator-system-repair.md)
+- [Modulated packet compression and the complement ledger](notes/181-modulated-packet-complement-ledger.md)
+- [Kaplansky arithmetic order-density and nonconstructive Hodge positivity](notes/182-kaplansky-arithmetic-order-density.md)
+- [Labelled incidence bicommutant and the threshold-complex generator theorem](notes/183-labelled-incidence-bicommutant.md)
 - [研究分支看板](RESEARCH_BRANCHES.md)
 - [文献与证据边界](notes/003-sources.md)
 

@@ -338,6 +338,178 @@ def test_negative_index_compression() -> None:
         ) <= 1.0e-12
 
 
+def test_packet_complement_negative_ledger() -> None:
+    rng = np.random.default_rng(181)
+    for dimension, packet_rank in ((5, 2), (8, 3), (11, 5)):
+        raw = rng.normal(size=(dimension, dimension)) + 1.0j * rng.normal(
+            size=(dimension, dimension)
+        )
+        current = 0.5 * (raw + np.conjugate(raw.T))
+        packet_raw = rng.normal(size=(dimension, packet_rank)) + 1.0j * rng.normal(
+            size=(dimension, packet_rank)
+        )
+        packet_basis, _ = np.linalg.qr(packet_raw)
+        packet_projection = packet_basis @ np.conjugate(packet_basis.T)
+        complement_projection = np.eye(dimension) - packet_projection
+        packet_block = np.conjugate(packet_basis.T) @ current @ packet_basis
+
+        complement_values, complement_vectors = np.linalg.eigh(
+            complement_projection
+        )
+        complement_basis = complement_vectors[:, complement_values > 0.5]
+        complement_block = (
+            np.conjugate(complement_basis.T) @ current @ complement_basis
+        )
+        coupling = packet_projection @ current @ complement_projection
+        coupling_trace_norm = float(
+            np.linalg.svd(coupling, compute_uv=False).sum()
+        )
+
+        assert negative_trace(packet_block) <= negative_trace(current) + 1.0e-11
+        assert negative_trace(current) <= (
+            negative_trace(packet_block)
+            + negative_trace(complement_block)
+            + 2.0 * coupling_trace_norm
+            + 1.0e-10
+        )
+
+
+def test_modulated_cell_phase_blindness_and_codimension() -> None:
+    values = np.array([-1.1, 0.3, -0.4, 1.7, -0.2, -0.9])
+    weights = np.array([0.05, 0.1, 0.2, 0.25, 0.15, 0.25])
+    weights /= weights.sum()
+    current = np.diag(values)
+    expected_mean = float(weights @ values)
+    expected_variance = float(weights @ values**2 - expected_mean**2)
+
+    for modulation in (0.0, 0.7, 4.3, 19.0):
+        phases = np.exp(1.0j * modulation * np.log(np.arange(2, 8)))
+        packet = np.sqrt(weights) * phases
+        projection = np.outer(packet, np.conjugate(packet))
+        complement = np.eye(len(values)) - projection
+        response = float(np.real(np.conjugate(packet) @ current @ packet))
+        coupling = projection @ current @ complement
+        coupling_trace_norm = float(
+            np.linalg.svd(coupling, compute_uv=False).sum()
+        )
+        assert abs(response - expected_mean) <= 1.0e-12
+        assert abs(coupling_trace_norm - np.sqrt(expected_variance)) <= 1.0e-12
+
+    dimension = 12
+    packet_rank = 3
+    amplitude = 2.5
+    constant_negative = -amplitude * np.eye(dimension)
+    packet_basis = np.eye(dimension, packet_rank, dtype=complex)
+    packet_projection = packet_basis @ np.conjugate(packet_basis.T)
+    complement = np.eye(dimension) - packet_projection
+    assert abs(
+        negative_trace(np.conjugate(packet_basis.T) @ constant_negative @ packet_basis)
+        - amplitude * packet_rank
+    ) <= 1.0e-12
+    assert abs(
+        negative_trace(complement @ constant_negative @ complement)
+        - amplitude * (dimension - packet_rank)
+    ) <= 1.0e-12
+    assert np.linalg.norm(packet_projection @ constant_negative @ complement) <= (
+        1.0e-12
+    )
+
+
+def test_arithmetic_square_density_finite_model() -> None:
+    dimension = 4
+    root = np.exp(2.0j * np.pi / dimension)
+    diagonal = np.diag(root ** np.arange(dimension))
+    shift = np.roll(np.eye(dimension, dtype=complex), 1, axis=0)
+    words = [
+        np.linalg.matrix_power(diagonal, power_d)
+        @ np.linalg.matrix_power(shift, power_s)
+        for power_d in range(dimension)
+        for power_s in range(dimension)
+    ]
+    synthesis = np.column_stack([word.reshape(-1) for word in words])
+    assert np.linalg.matrix_rank(synthesis, tol=1.0e-10) == dimension**2
+
+    current = np.array(
+        [
+            [0.2, -0.7j, 0.1, 0.0],
+            [0.7j, -0.4, 0.2, -0.1],
+            [0.1, 0.2, 0.8, 0.3j],
+            [0.0, -0.1, -0.3j, -0.2],
+        ],
+        dtype=complex,
+    )
+    eigenvalues, eigenvectors = np.linalg.eigh(current)
+    negative_vectors = eigenvectors[:, eigenvalues < 0.0]
+    negative_projection = negative_vectors @ np.conjugate(negative_vectors.T)
+    coefficients = np.linalg.solve(synthesis, negative_projection.reshape(-1))
+    reconstructed = sum(
+        coefficient * word for coefficient, word in zip(coefficients, words)
+    )
+    assert np.linalg.norm(reconstructed - negative_projection) <= 1.0e-11
+    assert abs(
+        -np.trace(current @ np.conjugate(reconstructed.T) @ reconstructed).real
+        - negative_trace(current)
+    ) <= 1.0e-11
+
+    invisible = np.array([[0.0, -1.0], [-1.0, 0.0]])
+    assert negative_trace(invisible) == 1.0
+    for effect in (np.diag([0.2, 0.8]), np.diag([1.0, 0.0])):
+        assert abs(np.trace(invisible @ effect)) <= 1.0e-14
+
+
+def commutant_nullity(generators: list[np.ndarray], tolerance: float = 1.0e-10) -> int:
+    dimension = generators[0].shape[0]
+    equations = []
+    for generator in generators:
+        columns = []
+        for row in range(dimension):
+            for column in range(dimension):
+                matrix_unit = np.zeros((dimension, dimension), dtype=complex)
+                matrix_unit[row, column] = 1.0
+                commutator = matrix_unit @ generator - generator @ matrix_unit
+                columns.append(commutator.reshape(-1))
+        equations.append(np.column_stack(columns))
+    system = np.vstack(equations)
+    return dimension**2 - np.linalg.matrix_rank(system, tol=tolerance)
+
+
+def test_labelled_incidence_bicommutant() -> None:
+    # Reduced threshold complex for primes 2,3,5 at U=6.
+    faces = [(), (2,), (3,), (5,), (2, 3)]
+    face_index = {face: index for index, face in enumerate(faces)}
+    labels = np.diag(
+        [0.0 if not face else np.log(np.prod(face)) for face in faces]
+    )
+    boundary = np.zeros((len(faces), len(faces)))
+    for face in faces:
+        if not face:
+            continue
+        source = face_index[face]
+        if len(face) == 1:
+            boundary[face_index[()], source] = 1.0
+        else:
+            for removed in range(len(face)):
+                target = face[:removed] + face[removed + 1 :]
+                boundary[face_index[target], source] = (-1.0) ** removed
+    dirac = boundary + boundary.T
+    assert commutant_nullity([labels, dirac]) == 1
+
+    # A direct sum of two fibers retains at least the two central block scalars.
+    doubled_labels = np.block(
+        [[labels, np.zeros_like(labels)], [np.zeros_like(labels), labels + 10.0]]
+    )
+    doubled_dirac = np.block(
+        [[dirac, np.zeros_like(dirac)], [np.zeros_like(dirac), dirac]]
+    )
+    assert commutant_nullity([doubled_labels, doubled_dirac]) == 2
+
+    # One cross-fiber edge connects the support graph and kills the extra center.
+    transport = doubled_dirac.copy()
+    transport[0, len(faces)] = 0.7
+    transport[len(faces), 0] = 0.7
+    assert commutant_nullity([doubled_labels, transport]) == 1
+
+
 def main() -> None:
     test_atomic_kkt_certificate()
     test_rank_one_gram_separator()
@@ -352,6 +524,10 @@ def main() -> None:
     test_orthogonal_one_sided_certificate()
     test_cell_cone_capture_no_go()
     test_negative_index_compression()
+    test_packet_complement_negative_ledger()
+    test_modulated_cell_phase_blindness_and_codimension()
+    test_arithmetic_square_density_finite_model()
+    test_labelled_incidence_bicommutant()
     print("finite cone and Hodge-transgression checks passed")
 
 
