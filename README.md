@@ -4,7 +4,7 @@
 
 ## 正式论文整理稿
 
-现有 001--173 篇笔记已经整理为中文论文；第 174 篇是下一轮研究路线图，暂不并入论文正文：
+现有 001--173 篇笔记已经整理为中文论文；第 174--177 篇是下一轮研究路线及独立分支成果，暂不并入论文正文：
 
 - [`rh-weil-structure-paper.tex`](rh-weil-structure-paper.tex)：《从 Weil 猜想到数域中心线：极化、过滤 Hodge 结构与黎曼猜想的存在性审计》；
 - 使用 `ctexart`，在 Overleaf 中选择 XeLaTeX 即可编译；
@@ -21,6 +21,8 @@
 文档 173 首先证明 quartic-capacity 下界 `P_4 int B_0 dmu>=D^2`；在 zeta shell 上它迫使 unscaled fourth price 至少为 `T D_T^2/logT`，所以完整四阶预算未必是较弱目标。随后把 reciprocal-barrier upper bound提升到不要求对易的 finite von Neumann algebra，并用 relative continuous functional calculus构造 lattice-clipped predictor。所得正背景只支付 one-sided quadratic clipped residual，不再需要 pointwise leverage或 fourth moment。
 
 文档 174 审计“非构造存在性”路线：裸的完整类 Weil 结构存在性仍与 RH 循环，但正算术锥上的 Hilbert 投影可以无须显式公式地产生最优安全 predictor；Moreau 对偶又把剩余输入精确化为 polar separator bound。[`RESEARCH_BRANCHES.md`](RESEARCH_BRANCHES.md) 将各路线按最小引理、晋级和停止条件分层。
+
+文档 175 完成构造性 NCE-1 的有限层：有限 evaluation cone 的 polar 在商去 arithmetic annihilator 后由 evaluation normals生成；finite correspondence Gram 的 dual obstruction由至多 `dim V` 个 rank-one near-product packets生成，并具有显式 KKT complementarity。文档 176 修正非构造 NCE-2：小 Laplacian 谱密度单独不能控制正锥距离；真正的兼容量是 incidence insertion 与 Hodge--Dirac 的交换子，inserted McKean--Singer transgression把误差精确分成 harmonic boundary 与 commutator propagation。文档 177 则证明随机平移 log-grid 的平均 cell Gram恰为 triangular/Fejér Gram，同时证明同一凸锥内随机 predictors不可能优于其 barycenter；概率法的潜在收益只剩 boundary-shell sparsification。
 
 审计材料：[`AUDIT_REPORT.md`](AUDIT_REPORT.md) 是审计快照，[`AUDIT_RESPONSE.md`](AUDIT_RESPONSE.md) 记录本轮已落地修改、延期事项和仍属开放的数学输入。
 
@@ -227,6 +229,10 @@ xelatex rh-weil-structure-paper.tex
 
 179. 已完成数域类 Weil 结构的非构造存在性审计。定理 AEH 说明同时携带完整 divisor、迹公式和正极化的裸存在性仍与 RH 循环；定理 AEI 在固定长度侧 arithmetic cone 上用 Hilbert projection 非构造地产生最优安全 predictor，并用 Moreau 对偶把 clipped residual 精确化为 polar-separator supremum。推论 AEJ 给出 dual-separator 中心线判据。下一轮优先计算 finite Type II rectangle 的 polar cone/extreme rays，并探索 threshold Hilbert complex 的小谱密度控制；未证 separator bound 仍是 RH-strength 算术输入。
 
+180. 已完成 NCE-1 的 finite arithmetic-cone Farkas/KKT theorem。定理 AEK 将 finite positive cone 的 polar商精确生成为 projected evaluation normals，并以 conic Carathéodory把任意证人约化为至多 `dim A` 个原子；定理 AEM 将 finite correspondence obstruction约化为 rank-one near-product packets。剩余目标是证明这些 packets具有 rectangle-uniform threshold boundary factorization。
+181. 已证明 NCE-2 的 spectral-density-only no-go，并给出 inserted Hodge transgression。定理 AEO 以 `[D,A]` 精确度量 incidence insertion破坏 supersymmetric cancellation的程度；定理 AEP 将 diagonal face insertion的交换子 Hilbert--Schmidt norm识别为 boundary gradient平方和。小谱密度只控制传播因子，新的算术输入是 harmonic capacity与 commutator shell capacity。
+182. 已完成 NCE-3 的概率法审计。定理 AER 证明 random shifted logarithmic grids的平均 cell Gram精确等于 triangular/Fejér Gram；定理 AET 的 bias--variance分解排除同一 convex arithmetic cone内的随机化增益。概率路线只有在随机 partition降低 threshold commutator boundary capacity时才可能晋级。
+
 主要文档：
 
 - [抽象结构定理与完整证明](notes/001-polarized-weil-structure.md)
@@ -402,6 +408,9 @@ xelatex rh-weil-structure-paper.tex
 - [Square-completed positive backgrounds and amplitude-free Schur--L4 shorting](notes/172-square-completed-background-schur-l4.md)
 - [Tracial lattice clipping and fourth-moment-free Hodge backgrounds](notes/173-tracial-lattice-clipped-hodge-background.md)
 - [Nonconstructive existence and the research branch map](notes/174-nonconstructive-existence-and-branch-map.md)
+- [Finite arithmetic cones and rank-one separators](notes/175-finite-arithmetic-cone-rank-one-separators.md)
+- [Threshold Hodge transgression and the incidence commutator](notes/176-threshold-hodge-transgression-commutator.md)
+- [Random logarithmic grids and Fejér no-free-lunch](notes/177-random-log-grid-fejer-no-free-lunch.md)
 - [研究分支看板](RESEARCH_BRANCHES.md)
 - [文献与证据边界](notes/003-sources.md)
 

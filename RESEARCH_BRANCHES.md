@@ -6,9 +6,9 @@
 
 | ID | 角色 | 下一最小引理 | 晋级条件 | 状态 |
 |---|---|---|---|---|
-| NCE-1 | 主线 | finite Type II rectangle 的 polar cone 与 extreme rays | 得到零点无关且弱于 full Weil positivity 的 separator bound | 下一轮首选 |
-| NCE-2 | 概念线 | threshold complex 的 weighted Betti/spectral-density inequality | 得到对高度可求和的小谱界 | 下一轮次选 |
-| NCE-3 | 工具线 | shifted multiplicative grid 的 expected residual bound | 不随机算术系数且保留 joint cancellation | 候选工具 |
+| NCE-1 | 主线 | rank-one packets 的 uniform boundary-shell factorization | 得到零点无关且弱于 full Weil positivity 的 separator bound | finite polar/KKT theorem 已完成 |
+| NCE-2 | 概念线 | incidence--Dirac commutator 的 uniform shell capacity | harmonic 与 transgression budgets 除以 barrier 后可和 | transgression theorem 已完成 |
+| NCE-3 | 工具线 | random grid 的 expected commutator-shell bound | 不随机算术系数且保留 joint cancellation | Fejér/no-gain theorem 已完成 |
 | NCE-4 | 备用线 | moment positivity 与 determinant visibility 的 dilation lemma | 前提只含有限算术 moments | 观察 |
 | NCE-5 | 备用线 | one-prime/one-block extension，预算增量可和 | extension 不调用完整 Weil positivity | 观察 |
 | NCE-6 | 备用线 | bounded-resolvent/negative-trace 的 ultraproduct 稳定性 | 先独立得到统一预算 `C` | 观察 |
@@ -36,3 +36,9 @@
 - 同一轮只保留一个主线，其余路线独立探索，不把未经证明的假设互相引用成结论；
 - 每轮结束更新本表的“下一最小引理”和状态；
 - Git branch 仍按交付任务管理；这里的 ID 表示数学思路分支，不强制创建长期 Git branch。
+
+## 本轮分支成果
+
+- [`NCE-1 finite cone`](notes/175-finite-arithmetic-cone-rank-one-separators.md)：finite polar cone、active-set KKT 与 rank-one correspondence separators；
+- [`NCE-2 Hodge transgression`](notes/176-threshold-hodge-transgression-commutator.md)：small-spectrum-only no-go、inserted McKean--Singer transgression 与 shell-gradient commutator；
+- [`NCE-3 random grids`](notes/177-random-log-grid-fejer-no-free-lunch.md)：random-shift Fejér identity、good-grid selection 与 convex randomization no-gain。

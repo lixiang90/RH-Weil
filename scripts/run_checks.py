@@ -51,6 +51,10 @@ CHECKS = (
         "tracial lattice-clipped background",
         [sys.executable, "test_lattice_clipped_background.py"],
     ),
+    (
+        "finite arithmetic cone and Hodge transgression",
+        [sys.executable, "test_nonconstructive_routes.py"],
+    ),
 )
 
 
