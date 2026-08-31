@@ -59,6 +59,10 @@ CHECKS = (
         "soft negative effect and Cauchy moments",
         [sys.executable, "test_soft_negative_moment.py"],
     ),
+    (
+        "formal soft zeta orbit response",
+        [sys.executable, "audit_soft_zeta_orbit.py"],
+    ),
 )
 
 

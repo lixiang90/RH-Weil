@@ -2948,6 +2948,8 @@ def zeta_abel_shared_lag_loewner_quadrature(
         ) / 2
     }
     prime_continuum_by_node: dict[mp.mpf, mp.mpc] = {}
+    prime_atoms_by_node: dict[mp.mpf, mp.mpc] = {}
+    continuum_background_by_node: dict[mp.mpf, mp.mpc] = {}
 
     def add_coefficient(node: mp.mpf, coefficient: mp.mpc) -> None:
         node = mp.mpf(node)
@@ -2956,12 +2958,19 @@ def zeta_abel_shared_lag_loewner_quadrature(
         )
 
     def add_prime_continuum_coefficient(
-        node: mp.mpf, coefficient: mp.mpc
+        node: mp.mpf, coefficient: mp.mpc, component: str
     ) -> None:
         node = mp.mpf(node)
         prime_continuum_by_node[node] = (
             prime_continuum_by_node.get(node, mp.mpc(0)) + coefficient
         )
+        if component == "prime":
+            target = prime_atoms_by_node
+        elif component == "continuum":
+            target = continuum_background_by_node
+        else:
+            raise ValueError("unknown prime--continuum component")
+        target[node] = target.get(node, mp.mpc(0)) + coefficient
 
     def continuum_mass(left: mp.mpf, right: mp.mpf) -> mp.mpf:
         return continuum_scale_factor * mp.gammainc(
@@ -2989,7 +2998,7 @@ def zeta_abel_shared_lag_loewner_quadrature(
     ) / sigma
     continuum_small_mass = continuum_mass(mp.mpf("0"), lag_start)
     add_prime_continuum_coefficient(
-        mp.mpf("0"), -continuum_small_mass
+        mp.mpf("0"), -continuum_small_mass, "continuum"
     )
     zero_lag_coefficient += pole_small_mass + continuum_small_mass
     gamma_positive_mass = (
@@ -3032,7 +3041,9 @@ def zeta_abel_shared_lag_loewner_quadrature(
             [left, right],
         )
         add_coefficient(midpoint, signed_cell_mass)
-        add_prime_continuum_coefficient(midpoint, -continuum_cell_mass)
+        add_prime_continuum_coefficient(
+            midpoint, -continuum_cell_mass, "continuum"
+        )
         cell_modulus = cauchy_capped_correlation_modulus_bound(
             (right - left) / 2
         )["combined_modulus_bound"]
@@ -3063,7 +3074,9 @@ def zeta_abel_shared_lag_loewner_quadrature(
                 mp.log(integer),
                 -prime_atom,
             )
-            add_prime_continuum_coefficient(mp.log(integer), prime_atom)
+            add_prime_continuum_coefficient(
+                mp.log(integer), prime_atom, "prime"
+            )
     cutoff = mp.mpf(integer_cutoff)
     monotonicity_margin = sigma + cutoff / scale - 1 / mp.log(cutoff)
     if monotonicity_margin <= 0:
@@ -3084,6 +3097,15 @@ def zeta_abel_shared_lag_loewner_quadrature(
     prime_continuum_nodes = sorted(prime_continuum_by_node)
     prime_continuum_coefficients = [
         prime_continuum_by_node[node] for node in prime_continuum_nodes
+    ]
+    prime_atom_nodes = sorted(prime_atoms_by_node)
+    prime_atom_coefficients = [
+        prime_atoms_by_node[node] for node in prime_atom_nodes
+    ]
+    continuum_background_nodes = sorted(continuum_background_by_node)
+    continuum_background_coefficients = [
+        continuum_background_by_node[node]
+        for node in continuum_background_nodes
     ]
     cap_gram = None
     objective_gram = None
@@ -3135,6 +3157,10 @@ def zeta_abel_shared_lag_loewner_quadrature(
         "prime_continuum_discrepancy_coefficients": (
             prime_continuum_coefficients
         ),
+        "prime_atom_lag_nodes": prime_atom_nodes,
+        "prime_atom_coefficients": prime_atom_coefficients,
+        "continuum_background_lag_nodes": continuum_background_nodes,
+        "continuum_background_coefficients": continuum_background_coefficients,
         "cell_variation_masses": cell_variation_masses,
         "cap_gram": cap_gram,
         "objective_gram": objective_gram,
