@@ -184,6 +184,63 @@ def test_convex_randomization_no_gain() -> None:
     assert expected_loss >= bias
 
 
+def local_occupancy(points: np.ndarray, width: float) -> int:
+    ordered = np.sort(points)
+    best = 0
+    right = 0
+    for left in range(len(ordered)):
+        right = max(right, left)
+        while right < len(ordered) and ordered[right] - ordered[left] < width:
+            right += 1
+        best = max(best, right - left)
+    return best
+
+
+def test_fejer_occupancy_capacity() -> None:
+    positions = np.array([-0.2, 0.0, 0.08, 0.22, 0.9, 1.02, 1.08])
+    width = 0.5
+    difference = positions[:, None] - positions[None, :]
+    gram = np.maximum(1.0 - np.abs(difference) / width, 0.0)
+    largest = np.linalg.eigvalsh(gram).max()
+    occupancy = local_occupancy(positions, width)
+    half_occupancy = local_occupancy(positions, width / 2.0)
+
+    assert largest <= occupancy + 1.0e-12
+    assert largest + 1.0e-12 >= half_occupancy / 2.0
+
+    # The normalized constant packet on a densest half-width interval
+    # realizes the lower-bound mechanism.
+    ordered = np.sort(positions)
+    for left in range(len(ordered)):
+        selected = np.flatnonzero(
+            (positions >= ordered[left])
+            & (positions < ordered[left] + width / 2.0)
+        )
+        if len(selected) == half_occupancy:
+            packet = np.zeros(len(positions))
+            packet[selected] = 1.0 / np.sqrt(half_occupancy)
+            assert packet @ gram @ packet >= half_occupancy / 2.0 - 1.0e-12
+            break
+    else:
+        raise AssertionError("failed to locate a densest half-width interval")
+
+
+def test_dyadic_logarithmic_occupancy() -> None:
+    size = 200
+    width = 0.12
+    positions = np.log(np.arange(size, 2 * size, dtype=float))
+    occupancy = local_occupancy(positions, width)
+    half_occupancy = local_occupancy(positions, width / 2.0)
+    difference = positions[:, None] - positions[None, :]
+    gram = np.maximum(1.0 - np.abs(difference) / width, 0.0)
+    largest = np.linalg.eigvalsh(gram).max()
+
+    assert occupancy <= 1.0 + 4.0 * size * width
+    assert half_occupancy >= max(1.0, size * width / 2.0 - 1.0)
+    assert largest <= 1.0 + 4.0 * size * width + 1.0e-10
+    assert largest >= max(0.5, size * width / 4.0 - 0.5) - 1.0e-10
+
+
 def main() -> None:
     test_atomic_kkt_certificate()
     test_rank_one_gram_separator()
@@ -192,6 +249,8 @@ def main() -> None:
     test_spectral_density_only_no_go()
     test_random_grid_fejer_identity()
     test_convex_randomization_no_gain()
+    test_fejer_occupancy_capacity()
+    test_dyadic_logarithmic_occupancy()
     print("finite cone and Hodge-transgression checks passed")
 
 

@@ -13,6 +13,12 @@ diagonal face weights的 boundary-gradient恒等式。由此，NCE-2 的开放�
 1. harmonic boundary capacity；
 2. incidence--Dirac commutator capacity。
 
+**后续接口修正（文档 178）：** 对文档 167 的 canonical Type II lift，external
+feature在每个 `K_U(q)` fiber上为 scalar identity，故交换子严格为零，内部
+harmonic reduction已经精确。交换子定理只用于 face-dependent refinement；真实
+未决量是不同 fibers经 logarithmic interval synthesis后的 external Bessel
+capacity。文档 178证明其 universal尺度为 `Theta(1+Nh)`。
+
 ## 1. 小谱密度单独不足
 
 ### 命题 AEN（spectral-density-only no-go）[U]
