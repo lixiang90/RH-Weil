@@ -241,6 +241,103 @@ def test_dyadic_logarithmic_occupancy() -> None:
     assert largest >= max(0.5, size * width / 4.0 - 0.5) - 1.0e-10
 
 
+def projection_onto_two_ray_negative_cone(
+    point: np.ndarray, packets: np.ndarray
+) -> np.ndarray:
+    candidates = [np.zeros_like(point)]
+    for index in range(2):
+        packet = packets[:, index]
+        coefficient = max(0.0, -point @ packet / (packet @ packet))
+        candidates.append(-coefficient * packet)
+    coefficients = -np.linalg.solve(packets, point)
+    if np.all(coefficients >= 0.0):
+        candidates.append(-packets @ coefficients)
+    return min(candidates, key=lambda value: np.linalg.norm(point - value))
+
+
+def test_one_sided_atomic_packet_bound() -> None:
+    packets = np.array([[1.0, 0.5], [0.0, np.sqrt(0.75)]])
+    gram = packets.T @ packets
+    gamma = np.linalg.eigvalsh(gram).min()
+    rng = np.random.default_rng(179)
+
+    for _ in range(100):
+        point = rng.normal(size=2)
+        polar_projection = projection_onto_two_ray_negative_cone(
+            point, packets
+        )
+        distance_squared = np.linalg.norm(polar_projection) ** 2
+        responses = np.maximum(-(packets.T @ point), 0.0)
+        packet_norms_squared = np.diag(gram)
+        lower = np.max(responses**2 / packet_norms_squared)
+        upper = np.sum(responses**2) / gamma
+        assert lower <= distance_squared + 1.0e-12
+        assert distance_squared <= upper + 1.0e-12
+
+
+def test_orthogonal_one_sided_certificate() -> None:
+    point = np.array([-1.2, 0.7, -0.4, 0.1])
+    responses = np.maximum(-point, 0.0)
+    polar_projection = -responses
+    assert abs(
+        np.linalg.norm(polar_projection) ** 2 - np.sum(responses**2)
+    ) <= 1.0e-14
+
+    # Rank-one Hermitian packets read phase-safe real quadratic responses.
+    current = np.array([[0.3, 0.4 - 0.2j], [0.4 + 0.2j, -0.8]])
+    unitary_packets = np.eye(2, dtype=complex)
+    quadratic = np.array(
+        [
+            np.real(np.conjugate(unitary_packets[:, index]) @ current @ unitary_packets[:, index])
+            for index in range(2)
+        ]
+    )
+    assert np.allclose(quadratic, np.diag(current).real)
+    assert np.allclose(np.maximum(-quadratic, 0.0), [0.0, 0.8])
+
+
+def negative_trace(matrix: np.ndarray) -> float:
+    eigenvalues = np.linalg.eigvalsh(matrix)
+    return float(np.maximum(-eigenvalues, 0.0).sum())
+
+
+def test_cell_cone_capture_no_go() -> None:
+    dimension = 8
+    vector = np.ones(dimension, dtype=complex) / np.sqrt(dimension)
+    rank_one = np.outer(vector, np.conjugate(vector))
+    diagonal_projection = np.diag(np.diag(rank_one))
+    distance_squared = np.linalg.norm(
+        rank_one - diagonal_projection, "fro"
+    ) ** 2
+    assert abs(distance_squared - (1.0 - 1.0 / dimension)) <= 1.0e-14
+
+    phase_vector = np.array([1.0, 1.0j]) / np.sqrt(2.0)
+    phase_projection = np.outer(phase_vector, np.conjugate(phase_vector))
+    imaginary_part = 0.5 * (phase_projection - np.conjugate(phase_projection))
+    assert abs(np.linalg.norm(imaginary_part, "fro") - 1.0 / np.sqrt(2.0)) <= (
+        1.0e-14
+    )
+
+
+def test_negative_index_compression() -> None:
+    rng = np.random.default_rng(180)
+    for dimension in (3, 5, 8):
+        raw = rng.normal(size=(dimension, dimension)) + 1.0j * rng.normal(
+            size=(dimension, dimension)
+        )
+        current = 0.5 * (raw + np.conjugate(raw.T))
+        pinched = np.diag(np.diag(current))
+        remainder = current - pinched
+        trace_norm = float(np.linalg.svd(remainder, compute_uv=False).sum())
+        assert negative_trace(current) <= (
+            negative_trace(pinched) + trace_norm + 1.0e-11
+        )
+        assert abs(
+            negative_trace(pinched)
+            - np.maximum(-np.diag(current).real, 0.0).sum()
+        ) <= 1.0e-12
+
+
 def main() -> None:
     test_atomic_kkt_certificate()
     test_rank_one_gram_separator()
@@ -251,6 +348,10 @@ def main() -> None:
     test_convex_randomization_no_gain()
     test_fejer_occupancy_capacity()
     test_dyadic_logarithmic_occupancy()
+    test_one_sided_atomic_packet_bound()
+    test_orthogonal_one_sided_certificate()
+    test_cell_cone_capture_no_go()
+    test_negative_index_compression()
     print("finite cone and Hodge-transgression checks passed")
 
 
