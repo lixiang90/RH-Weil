@@ -1,0 +1,103 @@
+\section{Selberg profile 的 RH 等价壁垒与平方根共振楔}
+
+上一节的 (SP) 是 primes-only 条件，但必须进一步审计其逻辑强度。先给一个完全
+初等的 unconditional bound。
+
+\begin{theorem}[\statusU{} microscopic prefix bound]
+\label{thm:micro-prefix}
+对 $N\geq2$ 与 $0<s\leq\log(3/2)$，
+\[
+ \mathcal J_N(s)\ll Ns(Ns+1)\log(3N).          \tag{MP}
+\]
+\end{theorem}
+
+\begin{proof}
+记 $P_y(s)=\psi(e^{y+s})-\psi(e^y)\geq0$。每个 von Mangoldt atom在
+$y$ 变量中出现的长度至多为 $s$，故由 Chebyshev bound
+$\int P_y(s)\,dy\ll Ns$。每个窗口至多含 $3Ns+1$ 个整数，所以
+$\sup_yP_y(s)\leq(3Ns+1)\log(3N)$。于是
+$\int P_y(s)^2dy\leq(\sup P_y)\int P_y$；continuum 项的平方积分为
+$O(N^2s^2)$，从而得到 (MP)。
+\end{proof}
+
+把 (MP) 代入 (SH) 可无条件删除平方根线以下的全部二参数区域。
+
+\begin{theorem}[\statusU{} sub-square-root wedge evacuation]
+\label{thm:wedge-evacuation}
+固定 $0<\eta<1$，取 $\tau_T\asymp T$、$h_T\asymp T^{-1}$、
+$\beta_T\gg\log(e+T)$。对 Abel-relevant dyadic $N$，
+\[
+ \sum_{T\geq T_*}\frac1{\beta_T}
+ \sum_{N\leq T^{2-\eta}}\mathcal G_N(\tau_T,h_T)
+ \ll T_*^{-\eta}+\frac{\log(2T_*)}{T_*}.       \tag{RW}
+\]
+特别地，$T_*=\log^K(2Y)$ 时右端为 $o(1)$。
+\end{theorem}
+
+\begin{proof}
+在相关范围 $\sigma+|\tau_T|+3N/Y\ll T$。由 (MP)、(SH) 及
+$\int_0^hNs(Ns+1)ds=N^2h^3/3+Nh^2/2$，
+\[
+ \mathcal G_N(\tau_T,h_T)
+ \ll\log(3N)\left(\frac N{T^2}+\frac1T\right).
+\]
+先对 $N\leq T^{2-\eta}$ 的 dyadic scales 求和，再除以 barrier并对 dyadic
+$T\geq T_*$ 求和即得。
+\end{proof}
+
+剩余区域是 $N>T^{2-\eta}$，即真正的 square-root resonance wedge。更重要的
+是，试图在该区域证明 full (SP) 已经等价于 RH。
+
+\begin{theorem}[\statusE{} polylogarithmic Selberg-profile criterion]
+\label{thm:profile-rh}
+RH 等价于下述命题：存在 fixed $K>0,p\geq0,C$，使全部充分大的 $N$ 与
+$0<s\leq\log^{-K}(4N)$ 满足
+\[
+ \mathcal J_N(s)\leq CNs\log^p(2N).             \tag{PE}
+\]
+RH 蕴含方向可取 $p=2$。
+\end{theorem}
+
+\begin{proof}
+先假设 (PE)。令 $E(x)=\psi(x)-x$，取
+$M=\lceil(\log2)\log^K(8N)\rceil$、$r=(\log2)/M$。此时 $r$ 同时落在
+scales $N$ 与 $2N$ 的允许范围；望远镜恒等式
+\[
+ E(2x)-E(x)=\sum_{j=0}^{M-1}
+ \{E(e^{(j+1)r}x)-E(e^{jr}x)\}
+\]
+与 Cauchy--Schwarz 给
+\[
+ \int_N^{2N}|E(2x)-E(x)|^2\frac{dx}{x}
+ \ll N\log^{K+p}(4N).                           \tag{FD}
+\]
+因此
+\[
+ I(z)=\int_1^\infty [E(2x)-E(x)]x^{-z-1}\,dx
+\]
+在 $\Re z>1/2$ 全纯。另一方面在 $\Re z>1$，
+\[
+ I(z)=(2^z-1)\left[-\frac1z\frac{\zeta'(z)}{\zeta(z)}
+                  -\frac1{z-1}\right]
+      -2^z\int_1^2E(u)u^{-z-1}\,du.             \tag{ME}
+\]
+最后一项 entire，而 $2^\rho-1\neq0$ 对 $\Re\rho>1/2$ 成立；故右半临界条带
+不能有 zeta 零点。函数方程给 RH。
+
+反之假设 RH。Saffari--Vaughan 的 conditional Selberg estimate
+\cite{SaffariVaughan} 给
+\[
+ \int_N^{2N}|\vartheta(x+\delta x)-\vartheta(x)-\delta x|^2dx
+ \ll\delta N^2\log^2(2/\delta),                 \tag{SVR}
+\]
+uniformly for $0<\delta\leq1$。取 $\delta=e^s-1$ 并除以 $x\asymp N$。
+当 $s\geq N^{-1}$ 时得到 $Ns\log^2(2N)$；prime powers的增量由同一 incidence
+argument贡献 $O(Ns\log^2(3N))$。当 $s<N^{-1}$ 时直接使用 (MP)。故 (PE)
+可取 $p=2$。
+\end{proof}
+
+定理~\ref{thm:profile-rh} 修正上一节的状态：full (SP) 虽不在定义中引用 zeros，
+却是一个 \statusE{} 的 arithmetic reformulation，而不是可从经典无条件
+Selberg theorem调入的 input。今后的非循环路线应保留 prime/continuum/Gamma
+joint sign 或只估计 barrier layer-cake读取的负方向；若先把 $\psi-x$ 单独平方，
+就已到达 RH 等价壁垒。

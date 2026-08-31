@@ -31,6 +31,10 @@ CHECKS = (
         "Selberg--Volterra cross-fiber transport",
         [sys.executable, "test_selberg_volterra.py"],
     ),
+    (
+        "Selberg profile equivalence bookkeeping",
+        [sys.executable, "test_selberg_profile.py"],
+    ),
 )
 
 

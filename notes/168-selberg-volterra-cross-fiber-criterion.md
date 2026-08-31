@@ -5,6 +5,12 @@ coefficient diagonals，但 triangular interval Gram 的 `n ne n'` entries 仍�
 本笔记不再把这些 entries 当作一个待猜测的矩阵不等式，而是把它们重新写成一个
 精确的 prefix-field transport。
 
+**后续状态修订（文档 169）：** 本文的 exact transport 与 conditional implication
+保持不变；但式 (14) 在 polylogarithmic lengths 上并非一个低于 RH 的普通
+Selberg input。文档 169 证明该 profile 与 RH 等价，并无条件消去
+`N<=T^(2-eta)` 的 sub-square-root wedge。故式 (14)应标记为 `[E]`，而不只是
+来源未知的 `[C]`。
+
 主要结论是：
 
 1. modulated prime--continuum window current 是 ordinary prefix discrepancy field

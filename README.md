@@ -4,13 +4,13 @@
 
 ## 正式论文整理稿
 
-现有 001--168 篇笔记已经整理为中文论文：
+现有 001--169 篇笔记已经整理为中文论文：
 
 - [`rh-weil-structure-paper.tex`](rh-weil-structure-paper.tex)：《从 Weil 猜想到数域中心线：极化、过滤 Hodge 结构与黎曼猜想的存在性审计》；
 - 使用 `ctexart`，在 Overleaf 中选择 XeLaTeX 即可编译；
 - 仓库保存 LaTeX 源文件和最终生成的论文 PDF；不保存本地 `.aux`、`.log`、`.toc` 等中间构建产物。
 
-论文统一陈述有限维 PLF、tempered 和 bounded finite-trace Hodge--Weil 的严格蕴含，并把 filtered primitive Weil 表述为需要定量 divisor-mode separation 的条件框架。文档 163 已在 Mellin-coherent adaptive Sobolev carrier 上显式构造该 separation；文档 164 把 actual-cycle 难点商化为 canonical 二通道并无条件删除每个高度块中 `n<=T/log^A T` 的低算术长度。文档 165 证明 hard channels 的和与 `V` 无关，并以 Hadamard 正规形识别 full cross-Gram target 的循环性；文档 166 把截断 Möbius defect 实现为乘法 threshold complex 的 Hodge heat supertrace。文档 167 构造 profinite divisibility polarization，将 second moment转移到任意单调权，并无条件消去 `T>=log^K Y`、`K>6` 的 hard arithmetic coefficient diagonals。文档 168 又把 modulated near-product current 精确表示为 ordinary prefix discrepancy field 的 Selberg--Volterra transport，并证明 multiscale Selberg profile 的 Hardy majorant；该 profile 的 Selberg-order bound 仍是未证的算术输入。所有结论按 `[U]/[C]/[E]/[N]/[R]` 状态审计。
+论文统一陈述有限维 PLF、tempered 和 bounded finite-trace Hodge--Weil 的严格蕴含，并把 filtered primitive Weil 表述为需要定量 divisor-mode separation 的条件框架。文档 163 已在 Mellin-coherent adaptive Sobolev carrier 上显式构造该 separation；文档 164 把 actual-cycle 难点商化为 canonical 二通道并无条件删除每个高度块中 `n<=T/log^A T` 的低算术长度。文档 165 证明 hard channels 的和与 `V` 无关，并以 Hadamard 正规形识别 full cross-Gram target 的循环性；文档 166 把截断 Möbius defect 实现为乘法 threshold complex 的 Hodge heat supertrace。文档 167 构造 profinite divisibility polarization，将 second moment转移到任意单调权，并无条件消去 `T>=log^K Y`、`K>6` 的 hard arithmetic coefficient diagonals。文档 168 又把 modulated near-product current 精确表示为 ordinary prefix discrepancy field 的 Selberg--Volterra transport。文档 169 证明 elementary incidence 已足以无条件消去 `N<=T^(2-eta)` 的二参数楔，并证明 polylogarithmic Selberg profile 虽然不在定义中引用 zeros，却逻辑上与 RH 等价；未决部分因而是平方根共振楔中的 joint prime/continuum/Gamma Hodge 控制，而不是一个可直接调用的经典无条件 Selberg estimate。所有结论按 `[U]/[C]/[E]/[N]/[R]` 状态审计。
 
 审计材料：[`AUDIT_REPORT.md`](AUDIT_REPORT.md) 是审计快照，[`AUDIT_RESPONSE.md`](AUDIT_RESPONSE.md) 记录本轮已落地修改、延期事项和仍属开放的数学输入。
 
@@ -205,6 +205,8 @@ xelatex rh-weil-structure-paper.tex
 
 173. 已构造真正的 cross-fiber map：对 prefix discrepancy `B_y(s)=psi(e^(y+s))-psi(e^y)-e^y(e^s-1)`，modulated Abel current 精确等于 terminal prefix 加 Volterra integral。由此证明 `G_N<=2N^(-2sigma)J_N(h)+2hN^(-2sigma)(sigma+|tau|+3N/Y)^2 int_0^hJ_N(s)ds`。若 multiscale Selberg profile 满足 `J_N(s)<<Nslog^pN`，则所有 `T>=log^K Y`、`K>p+1` 的 full arithmetic near-products 对 barrier 的总贡献为 `o(1)`。该 profile 尚未无条件证明；scalar/profinite coefficient second moment 不能自动推出它。
 
+174. 已证明 `J_N(s)<<Ns(Ns+1)log(3N)` 的 elementary microscopic profile，并由 Selberg--Hardy majorant 无条件消去全部 `N<=T^(2-eta)` 的高高度 near-products。更关键地，若任意 fixed `K,p` 下对 `s<=log^(-K)N` 有 `J_N(s)<<Nslog^pN`，则微增量望远镜化给 fixed-dilation mean square，Mellin continuation随即排除 `Re(rho)>1/2`；反向由 RH 下 Saffari--Vaughan multiplicative variance成立。因此 full polylog profile 是 `[E]` 而非普通未证短区间引理，真正剩余区域是 `N>T^(2-eta)` 的 square-root resonance wedge。
+
 主要文档：
 
 - [抽象结构定理与完整证明](notes/001-polarized-weil-structure.md)
@@ -374,6 +376,7 @@ xelatex rh-weil-structure-paper.tex
 - [Möbius threshold complex, Hodge heat supertrace, and gcd Gram](notes/166-mobius-threshold-complex-hodge-supertrace.md)
 - [Profinite Möbius--Hodge polarization and hard diagonal evacuation](notes/167-profinite-mobius-hodge-diagonal-evacuation.md)
 - [Selberg--Volterra cross-fiber transport and multiscale near-product criterion](notes/168-selberg-volterra-cross-fiber-criterion.md)
+- [Selberg profile RH equivalence and the square-root resonance wedge](notes/169-selberg-profile-rh-equivalence-resonance-wedge.md)
 - [文献与证据边界](notes/003-sources.md)
 
 计算与回归脚本：

@@ -105,10 +105,14 @@
 34. R. C. Vaughan, *Sommes trigonométriques sur les nombres premiers*, C. R. Acad. Sci. Paris, Série A 285 (1977), 981--983；以及 *On the distribution of alpha p modulo 1*, Mathematika 24 (1977), 135--141。Vaughan identity及其把 prime sums分解为 Type I/II sums的原始语境。文档 153所用的 centered全整数形式不依赖引用，而由 `log=Lambda*1` 与 `mu*1=epsilon` 逐行重证。  
    https://www.cambridge.org/core/journals/mathematika/article/abs/on-the-distribution-of-p-modulo-1/98751083E04CE57F16D94FCF4D3B94E2
 
+35. B. Saffari, R. C. Vaughan, *On the fractional parts of x/n and related sequences. II*, Annales de l'Institut Fourier 27 no. 2 (1977), 1--30，尤其 Lemma 5。其式 (6.4) 在 RH 假设下给 uniform multiplicative Selberg variance；同一引理另列基于 zero-density hypothesis 的 unconditional long-interval版本。文档 169 使用前者证明 RH `=>` polylogarithmic profile，并明确禁止把 conditional estimate冒充无条件输入。
+   https://doi.org/10.5802/aif.649
+
 ## 使用这些来源时的边界
 
 - Deligne 已无条件证明有限域结论，但不是通过证明全部 standard conjectures；不能把 standard conjectures 的一般成立当成已知事实。
 - Deninger/Connes 提供的是严肃且部分已实现的研究纲领；截至核对日期，没有上述来源声称完成经典 RH 的证明。
 - 2025–2026 的有限截断数值逼近即使极高精度，也不替代局部一致收敛或等价强度的严格极限定理。
 - `arXiv:1009.6121` 曾声称 von Mangoldt symmetry/Selberg integral 的 log-power interval估计，但已由作者撤回；其撤稿说明指向 `arXiv:1103.4451v2`，后者明确记录 Lemma 2 所用 Lemma A 有关键错误。该 claim 不作为本文证据。
+- Saffari--Vaughan Lemma 5 的 Selberg-order estimate (6.4) 明确以 RH 为假设；文档 169 又从 Mellin continuation证明所需 polylog profile反向蕴含 RH。因此该 profile 标为 `[E]`，不能列作已知无条件 short-interval input。
 - 本仓库的定理/引理 A–ACJ 的形式蕴含均给出证明；使用的外部 Weil/prolate/Ihara/trace-ideal/Perron/Nyman--Beurling/large-sieve/Kloosterman-fraction/totient/Hardy outer-factorization/Paley--Wiener/Bochner/Gamma-integral/Stirling/Carathéodory/Montel/Gallagher/Vaughan 定理与渐近输入在相应笔记中明确标注。开放性在于把这些假设无循环、以所需统一速率实现到经典 zeta/一般 L 函数上。文档 136--162 的数值 Cauchy-defect/variance表、finite correlation Grams、Loewner spectra、quadrature values、zero-wave samples、quadratic energies、sampled Laplacian margins、finite-trace、block、modulated-energy、Vaughan-component、background-gauge、multiscale-cutoff、matrix-channel、common-basis Feshbach、out-of-sample、Laurent-channel、incidence-cone、tilted-channel与 compression-obstruction diagnostics只用于区分可行与失配的估计结构；scalar integrals、eigenvalues、stationarity groups与 sampled moments尚非 interval/symbolic enclosures，不作为 bounded `J_Y` 或 RH 的证据。文档 149--157逐步把 Cauchy negative index定位到公共二维 Vaughan channels；文档 158--161依次冻结经验与algebraic tilted channels；文档 162给出其exact Type I/II formulas并证明tail/coupling-only compression的rank-one no-free-lunch。尚未证明的是禁止core amplification的数域Hodge--Riemann relation，以及定理 ACG的 noncircular core/coupling/tail uniform dyadic bound。

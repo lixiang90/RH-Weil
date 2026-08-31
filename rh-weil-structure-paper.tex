@@ -59,7 +59,7 @@
 
 \title{\bfseries 从 Weil 猜想到数域中心线\\
 \large 极化、过滤 Hodge 结构与黎曼猜想的存在性审计}
-\author{研究笔记整理稿（第 001--168 篇）}
+\author{研究笔记整理稿（第 001--169 篇）}
 \date{2026 年 8 月 31 日}
 
 \begin{document}
@@ -68,7 +68,7 @@
 \begin{abstract}
 本文从有限域上 Weil 猜想的黎曼猜想部分抽离出一个可复用的证明机制：全局迹或行列式公式把算术数据变成谱，函数方程给中心对称，正极化或有限 Hodge 负指标阻止谱向中心线外漂移。本文严格证明有限维极化 Lefschetz--Frobenius（PLF）定理、双向 tempered 动力学定理和 bounded finite-trace Hodge--Weil 蕴含；filtered primitive Weil（FPW）则被表述为带\emph{定量 divisor-mode separation} 的条件框架。本文进一步证明，在 Mellin-coherent fixed-annulus adaptive Sobolev 子类中，该 separation 可由 compact-frequency dual 自动构造；任意随尺度变化的 Gram 则仍需把它作为独立输入。
 
-对经典 Riemann zeta 函数，本文逐项审计这些结构的存在性。显式公式、Euler--Gamma 数据、正 Gram 载体、primitive/Tate 消元、Poisson 与 Mellin 兼容、有限迹代数、Cauchy effect cone、Vaughan Type I/II 分解以及有限矩阵通道均可无条件构造。尚未得到的是一个不借用零点位置的统一算术 Hodge 估计：等价地，需控制实际算术向量的 subpower Hodge 范数，或控制 Abel Hodge current 的 Cauchy 加权负谱迹。本文进一步把后一问题无条件局部化到平方根高度核心；四分量 Vaughan Gram 又可精确商化为 canonical $2\times2$ Type I/II Gram，并可无条件删除每个高度块中 $n\leq T/\log^A T$ 的低算术长度。hard-channel Hadamard 正规形说明完整 cross-Gram 预算仍逐字等价于原 physical energy；另一方面，截断 M\"obius defect 可无条件实现为乘法 threshold complex 的有限 Hodge heat supertrace。profinite divisibility cylinders又给一个适用于 twists与 ideals的 global positive gcd polarization，由此证明在 $T\geq\log^K Y$、$K>6$ 的全部 hard arithmetic coefficient diagonals对 barrier总贡献为 $o(1)$。本文再构造 ordinary prefix discrepancy field 到 modulated current 的 exact Selberg--Volterra transport，并证明 multiscale Selberg profile 的 Hardy majorant；若 $\mathcal J_N(s)\ll Ns\log^pN$，则 $T\geq\log^K Y$、$K>p+1$ 的 full arithmetic near-products 对 barrier 总贡献为 $o(1)$。该 profile、低 polylog height 与 continuum/Gamma gluing 仍未证。最后证明的诸 no-free-lunch 说明：小尾部、小耦合、稳定低秩通道或 raw factorization Bessel bound 本身都不能控制物理能量，真正成功的数域 Weil 理论必须含有独立、非循环的 arithmetic Hodge 输入。
+对经典 Riemann zeta 函数，本文逐项审计这些结构的存在性。显式公式、Euler--Gamma 数据、正 Gram 载体、primitive/Tate 消元、Poisson 与 Mellin 兼容、有限迹代数、Cauchy effect cone、Vaughan Type I/II 分解以及有限矩阵通道均可无条件构造。尚未得到的是一个不借用零点位置的统一算术 Hodge 估计：等价地，需控制实际算术向量的 subpower Hodge 范数，或控制 Abel Hodge current 的 Cauchy 加权负谱迹。本文进一步把后一问题无条件局部化到平方根高度核心；四分量 Vaughan Gram 又可精确商化为 canonical $2\times2$ Type I/II Gram，并可无条件删除每个高度块中 $n\leq T/\log^A T$ 的低算术长度。hard-channel Hadamard 正规形说明完整 cross-Gram 预算仍逐字等价于原 physical energy；另一方面，截断 M\"obius defect 可无条件实现为乘法 threshold complex 的有限 Hodge heat supertrace。profinite divisibility cylinders又给一个适用于 twists与 ideals的 global positive gcd polarization，由此证明在 $T\geq\log^K Y$、$K>6$ 的全部 hard arithmetic coefficient diagonals对 barrier总贡献为 $o(1)$。本文再构造 ordinary prefix discrepancy field 到 modulated current 的 exact Selberg--Volterra transport，并证明 multiscale Selberg profile 的 Hardy majorant。elementary incidence 进一步无条件消去 $N\leq T^{2-\eta}$ 的二参数楔；而在 $s\leq\log^{-K}N$ 上的 full Selberg-order profile 与 RH 等价，不是可直接调用的较弱无条件输入。未决部分因此被精确限制到 square-root resonance wedge、低 polylog height 与 continuum/Gamma joint gluing。最后证明的诸 no-free-lunch 说明：小尾部、小耦合、稳定低秩通道或 raw factorization Bessel bound 本身都不能控制物理能量，真正成功的数域 Weil 理论必须含有独立、非循环的 arithmetic Hodge 输入。
 
 因此，本文没有证明 RH 或 GRH；它给出的是若干已证明的结构蕴含、明确标注的条件框架、存在性边界、失败机制，以及一个缩窄到具体算术不等式的下一阶段研究议程。所有内部新结果仍有待独立同行核验。
 \end{abstract}
@@ -96,7 +96,7 @@
 \]
 的每个局部参数都最简单，经典 RH 仍然是开放问题。因此所需对象必须是一个\emph{全局}结构：它要同时看见所有素数幂、Gamma 因子、极点和零点，并带有不以 RH 为前提的正性或有限负指标。
 
-本文把 168 篇文档重组为如下成果链：
+本文把 169 篇文档重组为如下成果链：
 \begin{enumerate}
   \item 证明有限维 PLF、幂迹、无限维 adjoint、tempered 与 tracial determinant 等结构定理；
   \item 构造带定量对偶分离公理的 filtered primitive Weil package，把“纯权”条件化为算术向量随尺度的 subpower 增长；
@@ -106,6 +106,7 @@
   \item 证明 hard cross-Gram 目标的 Hadamard 循环性与 raw factorization multiplicity 障碍，并把截断 M\"obius defect 实现为 threshold-complex Hodge heat supertrace；
   \item 构造 profinite divisibility polarization，将 M\"obius second moment转成任意单调权，并无条件消去高于 polylog height 的 hard coefficient diagonals；
   \item 构造 Selberg--Volterra cross-fiber transport，把 modulated near-products严格归约为 ordinary multiscale prefix profile 的 Hardy cost；
+  \item 证明 elementary prefix incidence 无条件消去 $N\leq T^{2-\eta}$ 的 sub-square-root wedge，并以 telescoping--Mellin argument证明 polylogarithmic full profile 与 RH 等价；
   \item 证明仅靠正 Gram 的低秩压缩不可能“免费”产生 Hodge--Riemann 约束，因而明确下一步必须构造何种新结构。
 \end{enumerate}
 
@@ -835,6 +836,7 @@ physical vector 在 core/tail 的质量比例精确为 $400/401$ 与 $1/401$。�
 \input{paper-sections/mobius-threshold-hodge}
 \input{paper-sections/profinite-diagonal-evacuation}
 \input{paper-sections/selberg-volterra-cross-fiber}
+\input{paper-sections/selberg-profile-equivalence}
 
 \section{存在性审计：已经构造了什么，尚缺什么}
 
@@ -862,7 +864,7 @@ Type I/II tensor & correspondence calculus & centered Vaughan + Fej\'er incidenc
 canonical 二通道 & physical quotient & exact $G_2=SG_4S^*$ 与 support-product gap & quotient及 $n\leq T/\log^A T$ 消去无条件；$V$ 仅为 hard-channel gauge\\
 M\"obius threshold Hodge & divisor threshold complex & harmonic/heat supertrace、boundary shell 与 gcd Gram & 有限结构无条件；与 interval incidence 的全局 finite-index compatibility 未证\\
 profinite gcd polarization & divisibility cylinders/ideal lattice & twists与 ideals上的 positive Gram；单调加权 second moment & hard diagonals在 $T\geq\log^K Y$ 无条件消去；off-diagonal 未证\\
-Selberg--Volterra transport & 前缀场 & modulated current的 exact Abel transport与 Hardy majorant & cross map无条件；Selberg-order profile未证\\
+Selberg--Volterra/profile wall & 前缀场 & exact Abel transport、microscopic incidence与 fixed-dilation Mellin transform & transport及 $N\leq T^{2-\eta}$ 消去无条件；polylog full profile与 RH 等价\\
 经验低秩通道 & 权重分解 & frozen tilted rank two & 仅作 finite diagnostic；不再是必要 proof input\\
 core Hodge relation & Hodge 指数定理 & 尚无对应物 & 当前决定性缺口\\
 \bottomrule
@@ -919,7 +921,7 @@ Deninger 的叶状动力系统纲领与 Connes 的 adele 类空间迹公式\cite
   \item scalar Abel zero obstruction 由其负谱迹控制；
   \item effect cone 与 Cauchy trace保持 exact 或具有可求和误差；
   \item non-harmonic divisor faces由 $\partial+\partial^*$ supersymmetry配对消去，负方向只读取 harmonic boundary classes；
-  \item 证明 prefix field 的 $\mathcal J_N(s)\ll Ns\,\operatorname{polylog}N$ 型 bound，或一个同样使 Selberg--Hardy cost可和的 signed版本；
+  \item 不把与 RH 等价的 full $\mathcal J_N(s)\ll Ns\,\operatorname{polylog}N$ 当作较弱输入；改为在 square-root resonance wedge构造只读取 barrier 负方向的 signed prefix/layer-cake版本；
   \item 结构由 prime/Gamma orbit correspondences 与 divisor incidence构造，不引用零点位置。
 \end{enumerate}
 
@@ -936,7 +938,7 @@ Deninger 的叶状动力系统纲领与 Connes 的 adele 类空间迹公式\cite
 
 \subsection{第三阶段：tail 与 coupling 的解析预算}
 
-以 boundary-shell 公式 (BS) 压缩 $b_U$ 后，对 prefix discrepancy field在 dyadic multiplicative rectangles 上建立 multiscale Selberg bound。diagonal 已由 profinite gcd Gram处理，cross entries已由式 (SH) 归约为 terminal profile与 Hardy integral；新的解析目标是证明 (SP)，或在 layer-cake层次建立 continuous balanced large-value bound。低 polylog-height core及 Gamma/continuum cross terms再经 superconnection/Loewner enclosure加入，最终对平方根核心证明按 barrier $\beta_k$ 加权的负 trace 可和。
+以 boundary-shell 公式 (BS) 压缩 $b_U$ 后，只需处理定理~\ref{thm:wedge-evacuation} 留下的 $N>T^{2-\eta}$ square-root resonance wedge。diagonal 已由 profinite gcd Gram处理，cross entries已由式 (SH) 归约；但定理~\ref{thm:profile-rh} 表明不能再以证明 full (SP) 作为“较弱中间目标”。新的解析目标是在 layer-cake层次建立只读取 barrier 负方向的 continuous balanced bound，或让 prime、continuum 与 Gamma 在平方前进入同一 Loewner/superconnection inequality。低 polylog-height core再单独加入，最终证明按 barrier $\beta_k$ 加权的负 trace 可和。
 
 Guth--Maynard 的 Dirichlet polynomial large-value bounds\cite{GuthMaynard}是 layer-cake路线的潜在输入之一，但其 theorem控制 bounded coefficients在 $1$-separated points上的 superlevel cardinality，并不自动给出 continuous balanced $L^2$ profile (SP)；coefficient normalization、maximal transfer、prime--continuum balancing与 threshold integration必须单独证明。曾声称 log-power intervals almost-all estimate的 \texttt{arXiv:1009.6121} 已由作者因关键引理错误撤回，本文不把该 claim作为输入。
 
@@ -948,12 +950,12 @@ Guth--Maynard 的 Dirichlet polynomial large-value bounds\cite{GuthMaynard}是 l
 
 从 Weil 猜想中真正可抽离的，不是“存在一个神秘上同调”这句话，而是一组可审计的机制：全局 trace compatibility、中心对偶、正极化或有限负指标，以及实际算术 cycle 的统一 Hodge 控制。本文在有限维、tempered 和有限迹层次给出严格结构蕴含，并把 filtered 层次修订为含定量 dual/Riesz separation 的条件框架。对 zeta，Mellin-coherent adaptive Sobolev carrier 的 separation 已由定理~\ref{thm:mellin-dual} 无条件建立；任意 Gram 的全空间 separation 仍非自动。真正保持 RH 强度的开放输入是实际算术 cycle 的统一 subpower Hodge 估计，平方根核心 localization 只缩小了该估计的范围，并未证明它。
 
-最新的 canonical quotient 又把经验通道降为一个精确 Type I/II 对象，并无条件删除了 $n\leq T/\log^A T$ 的低算术长度；冻结 basis 现在只保留为诊断工具。hard-channel gauge 与 Hadamard no-go 进一步表明：完整 cross Gram 并不是较弱的新目标。截断 M\"obius defect 已被实现为 zeros-independent 的 threshold-complex Hodge heat supertrace；profinite divisibility polarization又把其 second moment转移到全部单调权，并无条件消去 $T\geq\log^K Y$ 的 hard coefficient diagonals。Selberg--Volterra identity现在提供了真正的 cross-fiber transport，并把 full near-product输入压缩为 multiscale prefix profile (SP)。下一次真正的突破是无条件证明该 profile或其 layer-cake替代，并完成 continuum/Gamma gluing。若由此得到 Cauchy 负指标一致有界，定理~\ref{thm:main} 将直接给出 RH；对一般 Gamma--Euler 数据，还必须验证相应 ideal/local-system counting inputs。
+最新的 canonical quotient 又把经验通道降为一个精确 Type I/II 对象，并无条件删除了 $n\leq T/\log^A T$ 的低算术长度；冻结 basis 现在只保留为诊断工具。hard-channel gauge 与 Hadamard no-go 进一步表明：完整 cross Gram 并不是较弱的新目标。截断 M\"obius defect 已被实现为 zeros-independent 的 threshold-complex Hodge heat supertrace；profinite divisibility polarization又把其 second moment转移到全部单调权，并无条件消去 $T\geq\log^K Y$ 的 hard coefficient diagonals。Selberg--Volterra identity提供真正的 cross-fiber transport；microscopic incidence又无条件删除 $N\leq T^{2-\eta}$ 的 wedge。与此同时，telescoping--Mellin theorem证明 polylogarithmic full profile本身与 RH 等价。下一次真正的突破不应再表述为“证明 (SP)”，而应在剩余 square-root resonance wedge内控制 barrier只读取的 signed negative direction，并完成 continuum/Gamma joint gluing。若由此得到 Cauchy 负指标一致有界，定理~\ref{thm:main} 将直接给出 RH；对一般 Gamma--Euler 数据，还必须验证相应 ideal/local-system counting inputs。
 
 \appendix
-\section{168 篇笔记的主题映射}
+\section{169 篇笔记的主题映射}
 
-下表给出原始笔记到本文论证链的完整范围映射。编号 003 为文献与证据审计；其余 167 篇为研究笔记。
+下表给出原始笔记到本文论证链的完整范围映射。编号 003 为文献与证据审计；其余 168 篇为研究笔记。
 
 \begingroup\small
 \begin{longtable}{@{}p{0.09\textwidth}p{0.28\textwidth}p{0.51\textwidth}@{}}
@@ -984,6 +986,7 @@ Guth--Maynard 的 Dirichlet polynomial large-value bounds\cite{GuthMaynard}是 l
 166 & M\"obius threshold complex、Hodge heat supertrace、boundary shell 与 positive gcd Gram & 定理~\ref{thm:mobius-hodge} 及下一阶段 signed superconnection 接口\\
 167 & length-scalar supertrace、profinite divisibility polarization 与 hard diagonal evacuation & twists/ideals的 global gcd Gram及 high-core diagonal localization\\
 168 & Selberg--Volterra cross-fiber transport、multiscale prefix profile 与来源审计 & full near-product 的 Hardy--Selberg 条件接口\\
+169 & microscopic prefix bound、平方根共振楔与 Selberg profile 的 RH 等价性 & 无条件 wedge localization及 full profile 的逻辑强度审计\\
 \bottomrule
 \end{longtable}
 \endgroup
@@ -1069,6 +1072,9 @@ P. X. Gallagher, \emph{A Large Sieve Density Estimate Near $\sigma=1$}, Invent. 
 
 \bibitem{Vaughan}
 R. C. Vaughan, \emph{Sommes trigonom\'etriques sur les nombres premiers}, C. R. Acad. Sci. Paris S\'er. A \textbf{285} (1977), 981--983.
+
+\bibitem{SaffariVaughan}
+B. Saffari and R. C. Vaughan, \emph{On the Fractional Parts of $x/n$ and Related Sequences. II}, Ann. Inst. Fourier \textbf{27} no. 2 (1977), 1--30.
 
 \bibitem{GuthMaynard}
 L. Guth and J. Maynard, \emph{New Large Value Estimates for Dirichlet Polynomials}, Ann. of Math. \textbf{203} (2026), 623--675.
