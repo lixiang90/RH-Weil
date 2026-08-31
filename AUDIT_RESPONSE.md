@@ -37,12 +37,13 @@
 7. 文档 170 已把 effect cone 精确改写为长度侧 capped correspondence kernels，证明负指标对偶、block additivity与 joint-current subadditivity；这解决了“应在何种 cone 上 gluing”的结构接口，但没有证明统一 index界。
 8. 文档 171 已证明 exact reciprocal-barrier identity，并把正背景下的 residual energy写成 `dmu/B` correspondence Gram。finite harmonic predictor的 gain为 Schur complement，但必须另证 pointwise amplitude；文档同时给出删除该条件的反例。未决输入由此具体化为 square-root blocks上的 Gram、cross map与 leverage三项联合估计。
 9. 文档 172 以 sharp square completion 修复上述 amplitude 瓶颈：加入最小二次 Hodge lift `C^2/[4(1-epsilon)B_0]` 后背景自动保持正性，负指标由 Schur residual 的 reciprocal二阶矩和 predictor 的 reciprocal-cubic四阶矩控制。该四阶量仍是显式 positive correspondence Gram，因此 pointwise leverage不再是输入；尚未证明的是 square-root blocks上的 weighted fourth-moment budget。
+10. 文档 173 对该四阶路线作必要性审计：`P_4 int B_0dmu>=D^2`，故 zeta shell上的 unscaled fourth price至少为 `T D_T^2/logT`。为避免把过强四阶预算当作默认下一步，文档把 operator reciprocal barrier推广到 noncommuting finite von Neumann algebras，并用 relative functional calculus作 fixed lattice clipping。新的条件只控制 one-sided quadratic clipped residual；clipping作用于 explicit predictor而非未知 `H_-`，不会把 RH 偷放进背景定义。
 
 ## 研究方向调整
 
 暂停继续堆叠等价 kernel、basis tuning 和未经认证的浮点搜索。近期优先级为：
 
-1. 不再把 full `J_N(s)<<Ns polylog(N)` profile 当作较弱中间引理；文档 169 已证明它与 RH 等价。使用文档 170--172 的 capped cone、reciprocal-barrier kernel 与 square-completed Hodge lift，在 `N>T^(2-eta)` 的平方根共振楔计算 threshold-complex predictor的 `G_T,d_T` 与 `P_{4,T}`，并证明 Schur residual及 weighted fourth moment按 blocks可和；
+1. 不再把 full `J_N(s)<<Ns polylog(N)` profile 或 unscaled fourth budget当作默认较弱中间引理。使用文档 170--173 的 capped cone、operator reciprocal barrier 与 lattice clipping，在 `N>T^(2-eta)` 的平方根共振楔构造 explicit joint predictor `C_T`，并证明 bad set `{C_T<-(1-epsilon)B_(0,T)}` 上的 one-sided clipped residual `K_T(epsilon)` 按 blocks可和；四阶 Gram保留为可选比较证书；
 2. 把可行的有限证书升级为 interval-certified enclosure；
 3. 仅在有共同 Mellin realization 时推广 quantitative dual separation；
 4. 独立复核后再扩大“已证明”范围。

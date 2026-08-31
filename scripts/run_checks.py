@@ -47,6 +47,10 @@ CHECKS = (
         "square-completed background and Schur--L4",
         [sys.executable, "test_square_completed_background.py"],
     ),
+    (
+        "tracial lattice-clipped background",
+        [sys.executable, "test_lattice_clipped_background.py"],
+    ),
 )
 
 

@@ -1,0 +1,104 @@
+\section{有限迹 lattice clipping 与 one-sided Hodge background}
+
+第 16 节的 fourth price有一个必要 capacity下界。若
+\[
+ D(C)=\int\frac{C^2}{B_0}\dd\mu,\quad
+ P_4(C)=\int\frac{C^4}{B_0^3}\dd\mu,\quad
+ M_0=\int B_0\dd\mu ,
+\]
+则 Cauchy--Schwarz 给
+\[
+ P_4(C)M_0\geq D(C)^2.                            \tag{QC}
+\]
+在 zeta shell 上 $M_{0,T}\asymp\log T/T$，故 full Schur predictor 必须支付
+$P_{4,T}\gtrsim TD_T^2/\log T$。这说明 unscaled quartic budget并非自动较弱。
+
+\begin{theorem}[\statusU{} tracial operator reciprocal barrier]
+\label{thm:operator-barrier}
+令 $(\mathcal M,\tau)$ 为 finite von Neumann algebra，$H=H^*$，且 $B>0$
+invertible。则
+\[
+ \tau(H_-)\leq\frac14\tau\!\left((H-B)B^{-1}(H-B)\right). \tag{OB}
+\]
+不要求 $H$ 与 $B$ 对易。
+\end{theorem}
+
+\begin{proof}
+由 $\tau(H_-)=\sup_{0\leq E\leq1}-\tau(HE)$。置 $X=H-B$、
+$q=\tau(XB^{-1}X)$、$y=\tau(BE)$。tracial Cauchy--Schwarz 与
+$E^2\leq E$ 给
+\[
+ |\tau(XE)|\leq q^{1/2}\tau(BE^2)^{1/2}\leq\sqrt{qy}.
+\]
+故 $-\tau(HE)\leq\sqrt{qy}-y\leq q/4$；对 effects 取 supremum。
+\end{proof}
+
+写 $H=B_0+R$，其中 $B_0>0$ invertible。对 self-adjoint predictor $C$ 与
+$0<\varepsilon<1$，令
+\[
+ U=B_0^{-1/2}CB_0^{-1/2},\qquad
+ C^{[\varepsilon]}=
+ B_0^{1/2}\max\{U,-(1-\varepsilon)I\}B_0^{1/2}. \tag{CL}
+\]
+
+\begin{theorem}[\statusU{} relative lattice-clipped background]
+\label{thm:lattice-clip}
+有
+\[
+ B^{[\varepsilon]}:=B_0+C^{[\varepsilon]}
+ \geq\varepsilon B_0>0
+\]
+以及
+\[
+ \tau(H_-)\leq\frac{1}{4\varepsilon}
+ \tau\!\left((R-C^{[\varepsilon]})B_0^{-1}
+                 (R-C^{[\varepsilon]})\right).   \tag{CR}
+\]
+\end{theorem}
+
+\begin{proof}
+式 (CL) 的 continuous functional calculus 给
+$I+\max\{U,-(1-\varepsilon)I\}\geq\varepsilon I$。因而
+$(B^{[\varepsilon]})^{-1}\leq\varepsilon^{-1}B_0^{-1}$。
+在定理~\ref{thm:operator-barrier} 中取该背景，并注意
+$H-B^{[\varepsilon]}=R-C^{[\varepsilon]}$。
+\end{proof}
+
+在可交换模型中，(CL) 就是
+\[
+ C^{[\varepsilon]}(\chi)
+ =\max\{C(\chi),-(1-\varepsilon)B_0(\chi)\}.      \tag{SC}
+\]
+安全区域仍支付 ordinary residual $R-C$；只有负越界区域被截到 barrier，且
+巨大正 predictor 不产生 fourth price。若 $B_0,C$ 属于 unital
+$C^*$-algebra，square root、inverse 与 fixed continuous clipping 均仍在该代数；
+在 compact orbit block 上又可由 convolution polynomials一致逼近。因此这一步
+不读取未知 divisor 的正负谱投影。
+
+\begin{theorem}[\statusC{} tracial lattice Hodge--Weil 定理]
+\label{thm:clipped-weil}
+在定理~\ref{thm:main} 的解析、Poisson、Euler-germ 与 approximation 假设下，
+将 current 分成不交 finite-trace blocks
+$H_{n,j}=B_{0,n,j}+R_{n,j}$。若存在 fixed $0<\varepsilon<1$ 与由 arithmetic
+correspondences 生成的 predictors $C_{n,j}$，使
+\[
+ \sup_n\sum_j\tau_{n,j}\!\left[
+ (R_{n,j}-C_{n,j}^{[\varepsilon]})B_{0,n,j}^{-1}
+ (R_{n,j}-C_{n,j}^{[\varepsilon]})\right]<\infty, \tag{CW}
+\]
+则相应 divisor 的全部非零零点位于中心轴。
+\end{theorem}
+
+\begin{proof}
+逐 block 应用 (CR)，再用负指标的 block additivity 与定理~\ref{thm:main}。
+\end{proof}
+
+对 zeta，新的 square-root target 是
+\[
+ \sum_TK_T(\varepsilon)<\infty,\qquad
+ K_T(\varepsilon)=\int_{I_T}
+ \frac{(R_T-C_T^{[\varepsilon]})^2}{B_{0,T}}\dd\mu. \tag{CT}
+\]
+它不需要 pointwise leverage或 weighted fourth moment，但仍须从
+prime/Gamma/threshold data 无循环证明。下一解析对象因而是 bad set
+$\{C_T<-(1-\varepsilon)B_{0,T}\}$ 的 one-sided sublevel capacity。

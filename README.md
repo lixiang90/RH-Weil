@@ -4,7 +4,7 @@
 
 ## 正式论文整理稿
 
-现有 001--172 篇笔记已经整理为中文论文：
+现有 001--173 篇笔记已经整理为中文论文：
 
 - [`rh-weil-structure-paper.tex`](rh-weil-structure-paper.tex)：《从 Weil 猜想到数域中心线：极化、过滤 Hodge 结构与黎曼猜想的存在性审计》；
 - 使用 `ctexart`，在 Overleaf 中选择 XeLaTeX 即可编译；
@@ -17,6 +17,8 @@
 文档 171 又证明 exact reciprocal-barrier identity：任意正背景 `B` 都把负指标控制为 `1/4 int(H-B)^2/B dmu`，而 `dmu/B` 自动产生新的正定 correspondence kernel。threshold-complex predictors在该 kernel下的最优 gain是 Schur complement；pointwise amplitude证书防止 predictor把背景推成负数。
 
 文档 172 用 sharp square completion 移除了这一 pointwise amplitude 前提：对任意 predictor `C`，`B_0+C+C^2/[4(1-epsilon)B_0]` 自动保持正性。由此负指标仅由 Schur residual 的加权二阶矩和 predictor 的加权四阶矩控制；后者又是一个显式 positive-definite fourth-order correspondence Gram。zeta 的下一输入因此从 `L-infinity` leverage 改为 square-root blocks 上的 integrated fourth-moment budget。
+
+文档 173 首先证明 quartic-capacity 下界 `P_4 int B_0 dmu>=D^2`；在 zeta shell 上它迫使 unscaled fourth price 至少为 `T D_T^2/logT`，所以完整四阶预算未必是较弱目标。随后把 reciprocal-barrier upper bound提升到不要求对易的 finite von Neumann algebra，并用 relative continuous functional calculus构造 lattice-clipped predictor。所得正背景只支付 one-sided quadratic clipped residual，不再需要 pointwise leverage或 fourth moment。
 
 审计材料：[`AUDIT_REPORT.md`](AUDIT_REPORT.md) 是审计快照，[`AUDIT_RESPONSE.md`](AUDIT_RESPONSE.md) 记录本轮已落地修改、延期事项和仍属开放的数学输入。
 
@@ -219,6 +221,8 @@ xelatex rh-weil-structure-paper.tex
 
 177. 已证明 sharp square-completed background 与 amplitude-free Schur--\(L^4\) 定理。对 `0<epsilon<1`，二次修正系数 `1/[4(1-epsilon)]` 是保证 `B_0+C+aC^2/B_0>=epsilon B_0` 的最小常数；取 `epsilon=1/3` 得 `int H_-<=3A_2/2+27P_4/128`。对 harmonic Schur predictor，`A_2=E-d^TG^dagger d`；而 `P_4=int C^4/B_0^3 dmu` 由 squared orbit measure 和 reciprocal-cubic positive kernel 精确表示为 fourth-order correspondence Gram。由此删除 pointwise leverage，剩余开放输入改为 square-root blocks 上 Schur residual 与 weighted fourth moment 的可和性。
 
+178. 已证明 tracial lattice-clipped Hodge background。定理 AED 给 sharp quartic-capacity 下界，并指出 zeta shell 的 unscaled fourth budget须满足 `P_(4,T)>=T D_T^2/logT`。定理 AEE 在任意 finite von Neumann algebra中证明 `tau(H_-)<=tau((H-B)B^(-1)(H-B))/4`，不要求 `H,B` 对易。定理 AEF 对 `U=B_0^(-1/2)CB_0^(-1/2)` 作 fixed clipping，得到 `B^[epsilon]>=epsilon B_0` 及纯二阶 residual bound。定理 AEG 给 tracial lattice Hodge--Weil theorem。zeta 的新充分输入是 one-sided clipped residual `sum_T K_T(epsilon)<infinity`；它仍未证，但绕开了 amplitude与quartic-capacity两个瓶颈。
+
 主要文档：
 
 - [抽象结构定理与完整证明](notes/001-polarized-weil-structure.md)
@@ -392,6 +396,7 @@ xelatex rh-weil-structure-paper.tex
 - [Capped correspondence kernels and the joint-orbit Weil theorem](notes/170-capped-correspondence-kernel-weil-theorem.md)
 - [Reciprocal-barrier correspondence kernels and harmonic Schur shorting](notes/171-reciprocal-barrier-harmonic-schur.md)
 - [Square-completed positive backgrounds and amplitude-free Schur--L4 shorting](notes/172-square-completed-background-schur-l4.md)
+- [Tracial lattice clipping and fourth-moment-free Hodge backgrounds](notes/173-tracial-lattice-clipped-hodge-background.md)
 - [文献与证据边界](notes/003-sources.md)
 
 计算与回归脚本：
