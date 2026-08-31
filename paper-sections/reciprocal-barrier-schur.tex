@@ -1,0 +1,131 @@
+\section{Reciprocal barrier 与 harmonic Schur shorting}
+
+固定下界 barrier仍会把所有正方向计入 full quadratic energy。这里允许正背景
+随谱点变化。令 $(X,\mu)$ 为有限测度空间、$H\in L^1(\mu)$ 为实函数，并对
+$B>0$ 定义
+\[
+ \mathcal Q_B(H)=\frac14\int_X\frac{(H-B)^2}{B}\,\dd\mu.
+\]
+
+\begin{theorem}[\statusU{} exact reciprocal-barrier duality]
+\label{thm:reciprocal-barrier}
+有
+\[
+ \int_XH_-\,\dd\mu=\inf_{B>0}\mathcal Q_B(H).    \tag{RB}
+\]
+对每个 $0\leq q\leq1$ 与 $B>0$，逐点有
+\[
+ \frac{(H-B)^2}{4B}+Hq
+ =\frac{[H+B(2q-1)]^2}{4B}+Bq(1-q)\geq0.        \tag{QC}
+\]
+\end{theorem}
+
+\begin{proof}
+(QC) 给 $\int H_-\dd\mu\leq\mathcal Q_B(H)$。反向取
+$B_\varepsilon=(H^2+\varepsilon^2)^{1/2}$；integrand逐点趋于 $H_-$，并被
+$|H|+\varepsilon/4$ 控制，故 dominated convergence给 (RB)。
+\end{proof}
+
+任取谱 block $I\subset\widehat G$ 与正背景 $B$，若
+$B^{-1}\in L^1(I,\mu)$，则
+\[
+ \kappa_B(\lambda)=\int_I\chi(\lambda)B(\chi)^{-1}\,\dd\mu(\chi) \tag{BK}
+\]
+仍是 positive-definite correspondence kernel。若
+$Q_\xi(\chi)=\int_G\chi(\lambda)\dd\xi(\lambda)$、$R_\xi=\Re Q_\xi$，则
+\begin{align*}
+ \int_I\frac{R_\xi^2}{B}\dd\mu
+ &=\frac12\iint\kappa_B(\lambda-\rho)
+       \dd\xi(\lambda)\dd\overline\xi(\rho)\\
+ &\quad+\frac12\Re\iint\kappa_B(\lambda+\rho)
+       \dd\xi(\lambda)\dd\xi(\rho).           \tag{WG}
+\end{align*}
+这是 $d\mu/B$ 的 Bochner Gram，故自动保留全部 joint cross terms。
+
+现在在一个 block上写 $H=B_0+R$。取 real predictor space
+$V=\operatorname{span}\{v_1,\ldots,v_m\}$，内积均在
+$L^2(I,\dd\mu/B_0)$ 中计算：
+\[
+ E=\langle R,R\rangle,\qquad
+ G_{jk}=\langle v_j,v_k\rangle,\qquad
+ d_j=\langle R,v_j\rangle.
+\]
+令 $\alpha_*=G^\dagger d$、$C_*=\sum_j\alpha_{*,j}v_j$、
+$D=d^TG^\dagger d$。
+
+\begin{theorem}[\statusU{} amplitude-certified harmonic Schur bound]
+\label{thm:harmonic-schur}
+固定 $0<\theta<1$，令
+\[
+ M=\operatorname*{ess\,sup}_I\frac{|C_*|}{B_0},\qquad
+ s=\min\{1,\theta/M\},
+\]
+并按 $M=0$ 时 $s=1$、$M=\infty$ 时 $s=0$ 解释。则
+\[
+ \int_IH_-\dd\mu\leq
+ \frac{E-(2s-s^2)D}{4(1-\theta)}.               \tag{HS}
+\]
+若 $M\leq\theta$，分子就是 Schur complement
+$E-d^TG^\dagger d$。
+\end{theorem}
+
+\begin{proof}
+$B_s=B_0+sC_*\geq(1-\theta)B_0$。对定理
+~\ref{thm:reciprocal-barrier}取背景 $B_s$，再用正交投影恒等式
+$\langle R,C_*\rangle=\|C_*\|^2=D$，得到
+\[
+ \mathcal Q_{B_s}(H)\leq\frac{\|R-sC_*\|^2_{L^2(\mu/B_0)}}{4(1-\theta)}
+ =\frac{E-(2s-s^2)D}{4(1-\theta)}.
+\]
+\end{proof}
+
+amplitude条件不可删除：取 $B_0=1$、$H=-L$，并令 predictor space包含
+$R=-L-1$，则 unconstrained Schur residual为零，但候选背景 $B_0+R=H<0$，
+而真实 negative mass为 $L$。
+
+\begin{theorem}[\statusC{} shorted-background Hodge--Weil 定理]
+\label{thm:shorted-background-weil}
+在定理~\ref{thm:correspondence-weil} 的解析假设下，把每个 ambient spectrum分成
+不交 blocks并给出上述数据。若 approximation errors一致有界，且某个固定
+$\theta<1$ 满足
+\[
+ \sup_n\sum_j\frac{E_{n,j}-(2s_{n,j}-s_{n,j}^2)D_{n,j}}
+                         {4(1-\theta)}<\infty,   \tag{SW}
+\]
+则对应 divisor的全部非零零点位于中心轴。
+\end{theorem}
+
+\begin{proof}
+逐 block应用 (HS)，再用定理~\ref{thm:correspondence-index} 的 exact block
+additivity，得到 bounded correspondence index；应用定理
+~\ref{thm:correspondence-weil}。
+\end{proof}
+
+对 zeta 的 dyadic shell $I_T$，取 joint pole/continuum/Gamma background
+$B_{0,T}\gg\log(e+T)$，则 (BK) 使用
+\[
+ \dd\nu_T(t)=\1_{I_T}(t)
+ \frac{\dd t}{\pi(1+t^2)B_{0,T}(t)}.
+\]
+predictor space可由 canonical Type I rectangles、shared-lag archimedean modes及
+\[
+ R_{II}(n)=\sum_{mq=n,\,m>V}\Lambda(m)
+ \operatorname{Str}P^{\rm harm}(K_{U_T}(q))
+\]
+生成；这些对象均不引用 zeros。文档 167 已控制 coefficient diagonals，文档 169
+已删除 $N\leq T^{2-\eta}$。故新的精确输入是在剩余 square-root wedge证明
+\[
+ \sum_T\{E_T-(2s_T-s_T^2)D_T\}=O(1),            \tag{ZT}
+\]
+并认证 $M_T$。若改用 Lebesgue block energies，权重账本为
+$[T^2\log T]^{-1}$。这里 $D_T$ 是 harmonic predictor与 joint residual之间的
+cross-correspondence gain；它允许 bad positive energy被背景吸收，而无需先证明
+与 RH 等价的 full Selberg profile。
+
+在 finite spectral grid上，epigraph还有 LMI形式
+\[
+ z_i\geq\frac{(h_i-b_i)^2}{4b_i}
+ \quad\Longleftrightarrow\quad
+ \begin{pmatrix}4z_i&h_i-b_i\\h_i-b_i&b_i\end{pmatrix}\geq0,
+\]
+可用于 interval/tail ledger完善后的严格证书；单独 sampled grid仍只是诊断。

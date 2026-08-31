@@ -39,6 +39,10 @@ CHECKS = (
         "capped correspondence kernel",
         [sys.executable, "test_capped_correspondence.py"],
     ),
+    (
+        "reciprocal barrier and harmonic Schur",
+        [sys.executable, "test_reciprocal_barrier.py"],
+    ),
 )
 
 
