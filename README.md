@@ -426,6 +426,8 @@ xelatex rh-weil-structure-paper.tex
 - [Modulated packet compression and the complement ledger](notes/181-modulated-packet-complement-ledger.md)
 - [Kaplansky arithmetic order-density and nonconstructive Hodge positivity](notes/182-kaplansky-arithmetic-order-density.md)
 - [Labelled incidence bicommutant and the threshold-complex generator theorem](notes/183-labelled-incidence-bicommutant.md)
+- [Selberg--Volterra support connectivity and its conditioning barrier](notes/184-selberg-volterra-support-connectivity.md)
+- [Finite-word moment structure theorem and the arithmetic walk-SOS interface](notes/185-finite-word-moment-structure-theorem.md)
 - [研究分支看板](RESEARCH_BRANCHES.md)
 - [文献与证据边界](notes/003-sources.md)
 

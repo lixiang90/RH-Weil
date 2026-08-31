@@ -510,6 +510,117 @@ def test_labelled_incidence_bicommutant() -> None:
     assert commutant_nullity([doubled_labels, transport]) == 1
 
 
+def generated_word_basis(
+    generators: list[np.ndarray], tolerance: float = 1.0e-11
+) -> tuple[list[np.ndarray], list[int]]:
+    dimension = generators[0].shape[0]
+    identity = np.eye(dimension, dtype=complex) / np.sqrt(dimension)
+    basis = [identity]
+    degrees = [0]
+    for degree in range(1, dimension**2):
+        previous = list(basis)
+        added = 0
+        for generator in generators:
+            for word in previous:
+                residual = generator @ word
+                for vector in basis:
+                    residual -= np.vdot(vector, residual) * vector
+                norm = np.linalg.norm(residual, "fro")
+                if norm > tolerance:
+                    basis.append(residual / norm)
+                    degrees.append(degree)
+                    added += 1
+        if len(basis) == dimension**2 or added == 0:
+            break
+    return basis, degrees
+
+
+def word_moment_matrix(current: np.ndarray, words: list[np.ndarray]) -> np.ndarray:
+    return np.array(
+        [
+            [
+                np.trace(current @ np.conjugate(left.T) @ right)
+                for right in words
+            ]
+            for left in words
+        ],
+        dtype=complex,
+    )
+
+
+def test_finite_word_moment_structure() -> None:
+    dimension = 4
+    labels = np.diag([0.0, 0.7, 1.9, 3.2])
+    adjacency = np.diag(np.ones(dimension - 1), 1)
+    adjacency = adjacency + adjacency.T
+    words, degrees = generated_word_basis([labels, adjacency])
+    assert len(words) == dimension**2
+    assert max(degrees) <= dimension**2 - 1
+
+    raw = np.array(
+        [
+            [1.0, 0.2j, -0.1, 0.0],
+            [-0.2j, 0.8, 0.15, 0.0],
+            [-0.1, 0.15, 0.7, -0.1j],
+            [0.0, 0.0, 0.1j, 0.6],
+        ],
+        dtype=complex,
+    )
+    positive_current = np.conjugate(raw.T) @ raw
+    positive_moment = word_moment_matrix(positive_current, words)
+    assert np.linalg.eigvalsh(positive_moment).min() >= -1.0e-10
+
+    invisible = np.zeros((dimension, dimension), dtype=complex)
+    invisible[0, 1] = invisible[1, 0] = -1.0
+    full_moment = word_moment_matrix(invisible, words)
+    assert negative_trace(invisible) == 1.0
+    assert np.linalg.eigvalsh(full_moment).min() < -1.0e-4
+    assert abs(
+        negative_trace(full_moment)
+        - dimension * negative_trace(invisible)
+    ) <= 1.0e-10
+
+    # The commuting label algebra sees only diagonal squares and misses this
+    # off-diagonal negative direction.
+    diagonal_words, _ = generated_word_basis([labels])
+    assert len(diagonal_words) == dimension
+    diagonal_moment = word_moment_matrix(invisible, diagonal_words)
+    assert np.linalg.norm(diagonal_moment) <= 1.0e-11
+
+
+def test_graded_threshold_word_moment_inertia() -> None:
+    faces = [(), (2,), (3,), (5,), (2, 3)]
+    degrees = np.array([-1, 0, 0, 0, 1])
+    face_index = {face: index for index, face in enumerate(faces)}
+    boundary = np.zeros((len(faces), len(faces)))
+    for face in faces:
+        if not face:
+            continue
+        source = face_index[face]
+        if len(face) == 1:
+            boundary[face_index[()], source] = 1.0
+        else:
+            for removed in range(len(face)):
+                target = face[:removed] + face[removed + 1 :]
+                boundary[face_index[target], source] = (-1.0) ** removed
+    dirac = boundary + boundary.T
+    laplacian = dirac @ dirac
+    grading = np.diag((-1.0) ** degrees)
+    heat = matrix_function(laplacian, lambda value: np.exp(-0.4 * value))
+    graded_current = grading @ heat
+    labels = np.diag(
+        [0.0 if not face else np.log(np.prod(face)) for face in faces]
+    )
+    words, _ = generated_word_basis([labels, dirac])
+    assert len(words) == len(faces) ** 2
+    moment = word_moment_matrix(graded_current, words)
+    assert negative_trace(graded_current) > 0.0
+    assert abs(
+        negative_trace(moment)
+        - len(faces) * negative_trace(graded_current)
+    ) <= 1.0e-9
+
+
 def main() -> None:
     test_atomic_kkt_certificate()
     test_rank_one_gram_separator()
@@ -528,6 +639,8 @@ def main() -> None:
     test_modulated_cell_phase_blindness_and_codimension()
     test_arithmetic_square_density_finite_model()
     test_labelled_incidence_bicommutant()
+    test_finite_word_moment_structure()
+    test_graded_threshold_word_moment_inertia()
     print("finite cone and Hodge-transgression checks passed")
 
 
