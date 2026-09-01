@@ -6,9 +6,16 @@
 
 状态：alternating Toeplitz--Hankel 公式、von Mangoldt ratio-cluster 分类、
 非中心同素数链消失、ratio direct-sum finite transfer、sub-square-root primitive
-family 渐近对角化与 odd determinant parity gap 为 [T]；square-root determinant
+family 渐近对角化与 odd determinant parity gap 为 [T]；global cross-box determinant
 layer response estimate 和 dyadic exceptional family aggregate 为 [O]；有限分类与
 矩阵检查为 [E]。
+
+> **后续修正（笔记 210）**：定理 209-A--F 的已证陈述保持成立，但本笔记把
+> 单个 dyadic box 的 symbol energy 粗估为全区间 `O(L^4)`，因而误把
+> `Y asymp sqrt(X)` 解释为 within-box hard threshold。笔记 210 恢复局部
+> von Mangoldt 能量后，把闭合范围推进到 `Y <= sqrt(X)L^(1-delta)`，并闭合
+> `h=+/-2` within-box layer。当前开放核心是跨 radial boxes 的 coherence 及
+> `AB` 接近或超过 `XL^2` 的局部区域。
 
 ## 1. 本轮结论
 
@@ -63,8 +70,9 @@ layer response estimate 和 dyadic exceptional family aggregate 为 [O]；有限
    \tag{4}
    \]
 
-6. 在临界 \(Y\asymp\sqrt X\) box 中，ordinary
-   Montgomery--Vaughan error 变成主尺度。若排除 base \(2\)，任意两个不同
+6. 在临界 \(Y\asymp\sqrt X\) box 中，若把局部 symbol energy 粗估成全区间
+   预算，则 ordinary Montgomery--Vaughan error 看似变成主尺度；笔记 210 证明该判断
+   不 sharp。若排除 base \(2\)，任意两个不同
    primitive prime-power ratios 的 determinant
 
    \[
@@ -77,10 +85,10 @@ layer response estimate 和 dyadic exceptional family aggregate 为 [O]；有限
 因此 alternating/Farey 的开放输入不再是“全部长度 \(X^2\) 的任意 ratio
 coefficients”，而被严格缩成：
 
-- square-root 及 super-square-root primitive determinant layers；
+- 跨越不同 radial boxes 的 primitive ratio coherence；
 - 中心 block 与 primitive hard core 的 cross response；
 - 至少一个 base 为 \(2\) 的稀疏 exceptional family；
-- actual Vaughan/continuum/Gamma 方向上的 Schur cancellation。
+- \(AB\gtrsim XL^2\) 局部区域及 actual Vaughan/continuum/Gamma 方向的 Schur cancellation。
 
 ## 2. Exact alternating Toeplitz--Hankel response
 
@@ -439,8 +447,8 @@ primitive clusters 为 singleton，Parseval 与 \(|q_xq_y^{(s)}|\le1\) 给
 式 (16)--(17) 也给 finite/bulk diagonal sums 相差 \(o(N)\)。结合式
 (27)--(28) 得式 (4)。\(\square\)
 
-因此普通 Farey large sieve 只在 \(Y\asymp\sqrt X\) 首次达到主尺度；
-sub-square-root boxes 已无条件关闭。
+本节使用全区间 symbol budget，因此只得到较弱阈值；笔记 210 用局部预算证明普通 Farey large sieve 在 \(Y\asymp\sqrt X\) 仍为 little-oh。
+本定理的 sub-square-root 结论仍正确，但不是 sharp boundary。
 
 ## 7. Odd primitive determinant parity
 
@@ -468,8 +476,8 @@ sub-square-root boxes 已无条件关闭。
 故绝对值至少 \(2\)。\(\square\)
 
 在 square-root box 中，式 (29) 把 ordinary Farey determinant lower bound
-从 \(1\) 提高到 \(2\)。但式 (27) 在 \(Y^2\asymp X\) 仍为 \(O(N)\)，所以
-parity alone 不闭合通道。
+从 \(1\) 提高到 \(2\)。parity alone 只能改进常数；真正使单-box remainder
+成为 little-oh 的是笔记 210 的 local von Mangoldt energy。
 
 若至少一个 prime base 为 \(2\)，parity argument 失效。该 dyadic exceptional
 family 的 **diagonal square mass** 比全 family 少 \(L^{-2}\) 量级，因为
@@ -482,9 +490,9 @@ family 的 **diagonal square mass** 比全 family 少 \(L^{-2}\) 量级，因为
 但在获得 family-frame bound 前，不能把较小 diagonal mass 自动升级为 aggregate
 negligibility；它保留为单独 [O]。
 
-## 8. 修正后的 square-root hard input
+## 8. Global/cross-box hard input（由笔记 210 修正）
 
-对 \(Y\asymp\sqrt X\)，primitive ratios 的近碰撞由 determinant layers
+对同一或跨 radial boxes 的 primitive ratios，近碰撞由 determinant layers
 
 \[
  h=ad-bc\in\mathbb Z\setminus\{0\}
@@ -497,9 +505,9 @@ negligibility；它保留为单独 [O]。
  h\in2\mathbb Z\setminus\{0\}.
 \]
 
-### 开放引理 209-G（response-specific determinant-layer Schur bound）[O]
+### 开放引理 209-G（global cross-box determinant-layer Schur bound）[O]
 
-在 square-root prime-power boxes 中，对实际 Toeplitz fibres
+在跨越多个 radial prime-power boxes 或 \(AB\gtrsim XL^2\) 的局部区域中，对实际 Toeplitz fibres
 \(\widehat Q_{a/b}(r)\) 和 Vaughan channel vector，证明一个一侧预算
 
 \[
@@ -516,9 +524,9 @@ negligibility；它保留为单独 [O]。
 4. 单独处理 ratio \(1\) 和 dyadic exceptional family；
 5. 使用 Fejer/Gram-positive localization，不能硬截断 off-diagonal 后声称 PSD。
 
-一个更小的第一步是只对 \(h=\pm2\) layer 写出 exact response Gram，并证明其
+笔记 210-G 已闭合同一 dyadic box 内的 \(h=\pm2\) layer。新的第一步是对相隔至少两个 dyadic radial scales 的一对 boxes 写出 exact cross response Gram，并证明其
 Schur contribution 严格小于 ordinary absolute-value bound。该引理是有限、可证伪
-的 square-root 下一目标。
+的 cross-box 下一目标。
 
 ## 9. 公理作用、删除审计与适用范围
 
@@ -528,8 +536,8 @@ Schur contribution 严格小于 ordinary absolute-value bound。该引理是有�
    sieve 不能逐 matrix diagonal 应用。
 3. **uniform Hankel regularity**：只负责式 (16) 的 finite transfer，不控制
    ratio family aggregate。
-4. **sub-square-root denominator scale**：负责式 (27) 的 little-oh。删除式
-   (24) 后，Montgomery--Vaughan remainder 在 \(Y\asymp\sqrt X\) 达到主尺度。
+4. **全区间 symbol budget 与 sub-square-root scale**：负责本笔记式 (27) 的较弱 little-oh。删除式
+   (24) 后，本笔记的粗预算失效；但笔记 210 表明局部预算仍可闭合到 \(Y\le\sqrt X L^{1-\delta}\)。
 5. **odd prime bases**：只负责 determinant parity factor \(2\)。删除后仍有
    ordinary determinant lower bound \(1\)，但 dyadic family 必须分开。
 6. **response-specific Schur input**：当前 [O]，没有被伪装成 Weil positivity
@@ -548,10 +556,10 @@ Schur contribution 严格小于 ordinary absolute-value bound。该引理是有�
 
 ## 10. RH/GRH 循环性与结论边界
 
-- 本轮没有证明 square-root hard Schur bound，没有闭合 alternating 四矩。
+- 本笔记原先没有证明 square-root hard Schur bound；其 within-box 版本后由笔记 210 闭合，但 global alternating 四矩仍未闭合。
 - 没有改善简单零点或不同零点比例。
-- 定理 209-E 只关闭 sub-square-root primitive boxes；不能把它外推到
-  \(Y\asymp\sqrt X\)。
+- 定理 209-E 本身只陈述 sub-square-root primitive boxes；更强的局部外推见笔记 210，但仍不能把单-box 结论外推为
+  跨 radial boxes 的整体结论。
 - parity factor \(2\) 是精确整数事实，不是渐近 cancellation。
 - 中心 ratio \(1\) 和 dyadic exceptional aggregate 仍开放；较小 diagonal
   mass 不等于较小 family aggregate。

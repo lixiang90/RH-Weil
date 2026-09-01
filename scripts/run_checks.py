@@ -92,6 +92,10 @@ CHECKS = (
         [sys.executable, "alternating_ratio_cluster_audit.py"],
     ),
     (
+        "alternating local weights and determinant layers",
+        [sys.executable, "alternating_local_box_audit.py"],
+    ),
+    (
         "adjacent Montgomery--Vaughan and boundary no-go",
         [sys.executable, "adjacent_mv_boundary_no_go_audit.py"],
     ),
