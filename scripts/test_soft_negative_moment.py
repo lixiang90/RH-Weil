@@ -6,13 +6,16 @@ import numpy as np
 
 from formal_lag_response import (
     add_frequency_maps,
+    brownian_primitive_component_gram,
     cauchy_gaussian_mixture_band_ledger,
     cauchy_gaussian_mixture_cdf,
     cauchy_profile_brownian_energy_ledger,
     cauchy_signed_layer_cake_ledger,
+    cauchy_translate_compactness_ledger,
     centered_degree_two_volterra_coefficients,
     degree_two_gaussian_response_upper_bound,
     degree_two_centered_response_decomposition,
+    degree_two_centered_response_channel_maps,
     degree_two_parity_exact_ledger,
     degree_two_response_frequency_map,
     exact_formal_moment,
@@ -141,10 +144,11 @@ def main() -> None:
     )["combined_map"]
     assert abs(exact_formal_moment(odd_formal, 3)) <= 1.0e-14
     assert abs(exact_formal_moment(odd_formal, 5)) <= 1.0e-14
-    broken_formal = two_sided_prime_continuum_symbol(
+    broken_formal_split = two_sided_prime_continuum_symbol(
         prime_atoms=[(2, 0.4), (4, 0.08), (8, -0.15)],
         continuum_atoms=[(0.0, -0.03), (0.6, -0.2)],
-    )["combined_map"]
+    )
+    broken_formal = broken_formal_split["combined_map"]
     bound = sum(abs(value) for value in broken_formal.values())
     parity = degree_two_parity_exact_ledger(
         broken_formal, spectral_bound=bound, rho=bound / 3.0
@@ -232,6 +236,48 @@ def main() -> None:
         brownian_gram_energy.real
         - brownian_profile["primitive_l2_energy"]
     ) <= 1.0e-11
+    channel_factorization = degree_two_centered_response_channel_maps(
+        {
+            "prime": broken_formal_split["prime_map"],
+            "continuum": broken_formal_split["continuum_map"],
+        },
+        spectral_bound=bound,
+        rho=bound / 3.0,
+    )
+    assert channel_factorization["maximum_reconstruction_residual"] <= 1.0e-12
+    assert all(
+        abs(sum(component.values())) <= 1.0e-12
+        for component in channel_factorization["response_components"].values()
+    )
+    component_gram = brownian_primitive_component_gram(
+        channel_factorization["response_components"], continuum_nodes
+    )
+    assert component_gram["minimum_eigenvalue"] >= -1.0e-12
+    assert max(
+        abs(value) for value in component_gram["centered_mass_residuals"]
+    ) <= 1.0e-12
+    assert abs(
+        component_gram["total_energy"]
+        - brownian_profile["primitive_l2_energy"]
+    ) <= 1.0e-11
+    compactness = cauchy_translate_compactness_ledger(
+        response_map,
+        continuum_nodes,
+        (-1.0, -0.25, 0.0, 0.25, 1.0),
+    )
+    compactness_single = cauchy_translate_compactness_ledger(
+        response_map, continuum_nodes, (0.0,)
+    )
+    assert compactness["minimum_test_gram_eigenvalue"] >= -1.0e-12
+    assert compactness["range_residual"] <= 1.0e-12
+    assert compactness["least_norm_squared"] <= (
+        compactness["actual_package_norm_squared"] + 1.0e-11
+    )
+    assert compactness["minimum_budget_block_eigenvalue"] >= -1.0e-11
+    assert 0.0 <= compactness["captured_norm_ratio"] <= 1.0 + 1.0e-11
+    assert compactness_single["least_norm_squared"] <= (
+        compactness["least_norm_squared"] + 1.0e-11
+    )
     total_mass = 0.3
     volterra_bound = 2.0
     volterra_coefficients = centered_degree_two_volterra_coefficients(

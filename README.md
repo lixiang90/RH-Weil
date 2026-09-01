@@ -437,6 +437,8 @@ xelatex rh-weil-structure-paper.tex
 - [Cauchy cumulative capacity and centered Volterra factorization](notes/192-cauchy-cumulative-capacity-centered-volterra.md)
 - [Balanced square core and the mass-correction separation no-go](notes/193-balanced-square-mass-correction-no-go.md)
 - [Brownian primitive energy and the direct Cauchy certificate](notes/194-brownian-primitive-energy-cauchy-certificate.md)
+- [Response-specific Vaughan--Brownian channel Gram](notes/195-response-specific-vaughan-brownian-gram.md)
+- [Nonconstructive Brownian response compactness and finite satisfiability](notes/196-nonconstructive-brownian-response-compactness.md)
 - [研究分支看板](RESEARCH_BRANCHES.md)
 - [文献与证据边界](notes/003-sources.md)
 

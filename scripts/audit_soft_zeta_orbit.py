@@ -12,12 +12,15 @@ import mpmath as mp
 import numpy as np
 
 from formal_lag_response import (
+    brownian_primitive_component_gram,
     cauchy_gaussian_mixture_band_ledger,
     cauchy_profile_brownian_energy_ledger,
     cauchy_signed_layer_cake_ledger,
+    cauchy_translate_compactness_ledger,
     chebyshev_formal_orbit_coefficients,
     degree_two_gaussian_response_upper_bound,
     degree_two_centered_response_decomposition,
+    degree_two_centered_response_channel_maps,
     degree_two_parity_exact_ledger,
     degree_two_response_frequency_map,
     formal_arbitrary_direction_audit,
@@ -27,7 +30,10 @@ from formal_lag_response import (
     stationary_response_from_frequency_map,
     two_sided_prime_continuum_symbol,
 )
-from qw_matrix import zeta_abel_shared_lag_loewner_quadrature
+from qw_matrix import (
+    canonical_vaughan_two_channel_coefficients,
+    zeta_abel_shared_lag_loewner_quadrature,
+)
 from soft_negative_moment import chebyshev_soft_series
 
 
@@ -170,6 +176,97 @@ def soft_zeta_orbit_audit(
         if response_map is not None
         else None
     )
+    compactness_audit = (
+        cauchy_translate_compactness_ledger(
+            response_map,
+            formal["continuum_nodes"],
+            (-2.0, -1.0, -0.5, 0.0, 0.5, 1.0, 2.0),
+        )
+        if response_map is not None
+        else None
+    )
+    vaughan_brownian_audit = None
+    if response_map is not None:
+        vaughan_cutoff = max(1, int(math.isqrt(integer_cutoff)))
+        vaughan = canonical_vaughan_two_channel_coefficients(
+            integer_cutoff, vaughan_cutoff, vaughan_cutoff
+        )
+        type_i_atoms = []
+        type_ii_atoms = []
+        for integer, coefficient in prime_atoms:
+            target = complex(vaughan["target"][integer])
+            if abs(target) <= 1.0e-15:
+                if abs(coefficient) > 1.0e-12:
+                    raise ArithmeticError(
+                        "prime quadrature atom has zero Mangoldt target"
+                    )
+                continue
+            common_weight = coefficient / target
+            type_i_atoms.append(
+                (
+                    integer,
+                    common_weight
+                    * complex(vaughan["components"]["type_i"][integer]),
+                )
+            )
+            type_ii_atoms.append(
+                (
+                    integer,
+                    common_weight
+                    * complex(vaughan["components"]["type_ii"][integer]),
+                )
+            )
+        type_i_formal = two_sided_prime_continuum_symbol(
+            type_i_atoms, continuum_atoms
+        )
+        type_ii_formal = two_sided_prime_continuum_symbol(
+            type_ii_atoms, continuum_atoms
+        )
+        channel_factorization = degree_two_centered_response_channel_maps(
+            {
+                "type_i": type_i_formal["prime_map"],
+                "type_ii": type_ii_formal["prime_map"],
+                "continuum": formal["continuum_map"],
+            },
+            spectral_bound,
+            rho,
+        )
+        channel_gram = brownian_primitive_component_gram(
+            channel_factorization["response_components"],
+            formal["continuum_nodes"],
+        )
+        vaughan_brownian_audit = {
+            "mobius_cutoff": vaughan_cutoff,
+            "mangoldt_cutoff": vaughan_cutoff,
+            "type_ii_support_lower_bound": vaughan[
+                "type_ii_support_lower_bound"
+            ],
+            "symbol_reconstruction_residual": max(
+                [
+                    abs(value)
+                    for value in (
+                        channel_factorization["symbol"].get(lag, 0.0 + 0.0j)
+                        - coefficient
+                        for lag, coefficient in symbol.items()
+                    )
+                ]
+                + [
+                    abs(value)
+                    for lag, value in channel_factorization["symbol"].items()
+                    if lag not in symbol
+                ]
+                + [0.0]
+            ),
+            "response_reconstruction_residual": channel_factorization[
+                "maximum_reconstruction_residual"
+            ],
+            "channel_gram": channel_gram,
+            "diagonal_to_full_ratio": (
+                channel_gram["diagonal_sum"] / channel_gram["total_energy"]
+                if channel_gram["total_energy"] > 0.0
+                else 0.0
+            ),
+        }
     centered_response_audit = None
     if response_map is not None:
         decomposition = degree_two_centered_response_decomposition(
@@ -217,6 +314,8 @@ def soft_zeta_orbit_audit(
         "signed_profile_audit": signed_profile_audit,
         "cauchy_profile_audit": cauchy_profile_audit,
         "brownian_energy_audit": brownian_energy_audit,
+        "compactness_audit": compactness_audit,
+        "vaughan_brownian_audit": vaughan_brownian_audit,
         "centered_response_audit": centered_response_audit,
         "provenance_mass_residual": separated_mass - prime_continuum_mass,
     }
@@ -286,6 +385,35 @@ def main() -> None:
         audit["brownian_energy_audit"]["signed_response_upper_bound"]
         + 1.0e-10
     )
+    assert audit["compactness_audit"] is not None
+    assert audit["compactness_audit"]["minimum_test_gram_eigenvalue"] >= (
+        -1.0e-10
+    )
+    assert audit["compactness_audit"]["range_residual"] <= 1.0e-10
+    assert audit["compactness_audit"]["least_norm_squared"] <= (
+        audit["compactness_audit"]["actual_package_norm_squared"] + 1.0e-10
+    )
+    assert audit["compactness_audit"]["minimum_budget_block_eigenvalue"] >= (
+        -1.0e-10
+    )
+    assert audit["vaughan_brownian_audit"] is not None
+    assert (
+        audit["vaughan_brownian_audit"]["symbol_reconstruction_residual"]
+        <= 1.0e-10
+    )
+    assert (
+        audit["vaughan_brownian_audit"]["response_reconstruction_residual"]
+        <= 1.0e-10
+    )
+    channel_gram = audit["vaughan_brownian_audit"]["channel_gram"]
+    assert channel_gram["minimum_eigenvalue"] >= -1.0e-10
+    assert max(
+        abs(value) for value in channel_gram["centered_mass_residuals"]
+    ) <= 1.0e-10
+    assert abs(
+        channel_gram["total_energy"]
+        - audit["brownian_energy_audit"]["primitive_l2_energy"]
+    ) <= 1.0e-10
     assert audit["centered_response_audit"] is not None
     assert abs(
         audit["centered_response_audit"]["balanced_profile"]["total_response"]
@@ -324,7 +452,11 @@ def main() -> None:
         "M/B="
         f"{audit['centered_response_audit']['relative_total_mass'].real:.6g}, "
         "Brownian-bound/actual="
-        f"{audit['brownian_energy_audit']['signed_upper_to_actual_ratio']:.6g}"
+        f"{audit['brownian_energy_audit']['signed_upper_to_actual_ratio']:.6g}, "
+        "Vaughan-diagonal/full="
+        f"{audit['vaughan_brownian_audit']['diagonal_to_full_ratio']:.6g}, "
+        "compactness-capture="
+        f"{audit['compactness_audit']['captured_norm_ratio']:.6g}"
     )
 
 

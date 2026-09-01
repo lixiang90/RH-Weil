@@ -13,7 +13,8 @@
 | NCE-5 | 备用线 | one-prime/one-block extension，预算增量可和 | extension 不调用完整 Weil positivity | 观察 |
 | NCE-6 | 备用线 | bounded-resolvent/negative-trace 的 ultraproduct 稳定性 | 先独立得到统一预算 `C` | 观察 |
 | NCE-7 | 非构造主线 | short-word effects 对实际 negative level sets 的 response-weighted capture | capture error共尾可和且不调用 Selberg/RH 等价输入 | degree-one universal moment route 已 sharp no-go |
-| NCE-8 | 构造/非构造汇合 | canonical nonlinear response 的 Brownian prefix energy作 Type I/II factorization | constant mode与 Brownian primitive energy一致有界且不先假设 M=O(1) 或 full Selberg profile | direct Cauchy response已由 positive Brownian Gram控制；有限上界只松约3--5倍 |
+| NCE-8 | 构造主线 | 在 square-root Vaughan rectangle 上控制 exact Type I/II/continuum response Gram | all-ones Gram budget一致有界，且不退回 diagonal Selberg energies | exact divided-difference channelization已完成；有限 cross cancellation使 diagonal/full为1.95--3.36 |
+| NCE-9 | 非构造补全 | 把 finite Cauchy-translate Schur block写成 joint signed Type I/II large-sieve form | uniform finite-block budget只用 length-side数据且弱于完整 RH criterion | finite satisfiability compactness与Gram/Schur判据已完成；33 translates捕获约23% package norm |
 | OBS-1 | 文献线 | canonical Hamiltonian 的局部质量一致界与 noncollapse | 从 Euler/Gamma 方程而非 zeros 证明 | 文献审计 |
 | OBS-2 | 系统线 | tracial negative-square realization theorem | 与 Cauchy Hodge index 精确对应 | 文献审计 |
 | LONG-1 | 长期线 | threshold complex 的 dualizability 与 categorical supertrace | 获得非循环 positive categorical trace | 暂存 |
@@ -40,6 +41,10 @@
 - Git branch 仍按交付任务管理；这里的 ID 表示数学思路分支，不强制创建长期 Git branch。
 
 ## 本轮分支成果
+
+- [Nonconstructive Brownian response compactness](notes/196-nonconstructive-brownian-response-compactness.md)：统一 finite Sobolev budget经弱紧致性自动补全为 global response distribution；存在性等价于显式 finite Gram/Schur PSD 条件，但 compactness不制造统一算术常数。
+
+- [Response-specific Vaughan--Brownian Gram](notes/195-response-specific-vaughan-brownian-gram.md)：公共 polynomial divided difference把 centered degree-two response精确分成 Type I/II/continuum primitive channels；完整 Brownian energy是其 PSD Gram 的 all-ones quadratic form，普通 Young bound被证明尺度中性。
 
 - [Brownian primitive-energy certificate](notes/194-brownian-primitive-energy-cauchy-certificate.md)：direct Cauchy response由 global constant mode加一个 positive Brownian prefix-square Gram控制；degree-two情形得到单一 nonlinear response energy，而非三个独立 moments。
 

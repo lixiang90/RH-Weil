@@ -718,6 +718,248 @@ def cauchy_profile_brownian_energy_ledger(
     }
 
 
+def brownian_primitive_component_gram(
+    response_components: dict[str, FrequencyMap],
+    continuum_nodes: tuple[float, ...],
+) -> dict[str, object]:
+    """Return the exact Gram of centered primitives for response channels.
+
+    Every channel is centered at numerical lag zero before the common prefix
+    scan.  The resulting matrix has entries integral A_i conj(A_j) and is
+    therefore positive semidefinite up to floating-point roundoff.  Keeping
+    the full matrix records cross-channel cancellation that would be lost by
+    bounding the channel norms separately.
+    """
+    labels = tuple(response_components)
+    if not labels:
+        return {
+            "labels": (),
+            "component_totals": (),
+            "gram": np.zeros((0, 0), dtype=complex),
+            "diagonal_sum": 0.0,
+            "cross_sum": 0.0,
+            "total_energy": 0.0,
+            "minimum_eigenvalue": 0.0,
+            "centered_mass_residuals": (),
+        }
+    numerical_components: list[dict[float, complex]] = []
+    totals: list[complex] = []
+    positions: set[float] = set()
+    for label in labels:
+        numerical: dict[float, complex] = {}
+        for lag, coefficient in response_components[label].items():
+            value = lag.numerical_value(continuum_nodes)
+            numerical[value] = numerical.get(value, 0.0 + 0.0j) + coefficient
+        total = sum(numerical.values())
+        numerical[0.0] = numerical.get(0.0, 0.0 + 0.0j) - total
+        numerical = {
+            value: coefficient
+            for value, coefficient in numerical.items()
+            if abs(coefficient) > 1.0e-14
+        }
+        numerical_components.append(numerical)
+        totals.append(total)
+        positions.update(numerical)
+    ordered_positions = sorted(positions)
+    cumulative = np.zeros(len(labels), dtype=complex)
+    gram = np.zeros((len(labels), len(labels)), dtype=complex)
+    for index, position in enumerate(ordered_positions):
+        for channel, numerical in enumerate(numerical_components):
+            cumulative[channel] += numerical.get(position, 0.0 + 0.0j)
+        if index + 1 < len(ordered_positions):
+            width = ordered_positions[index + 1] - position
+            gram += width * np.outer(cumulative, np.conjugate(cumulative))
+    diagonal_sum = float(np.trace(gram).real)
+    total_energy = float(np.sum(gram).real)
+    cross_sum = total_energy - diagonal_sum
+    hermitian_gram = (gram + np.conjugate(gram.T)) / 2.0
+    minimum_eigenvalue = float(
+        np.min(np.linalg.eigvalsh(hermitian_gram)).real
+    )
+    return {
+        "labels": labels,
+        "component_totals": tuple(totals),
+        "gram": gram,
+        "diagonal_sum": diagonal_sum,
+        "cross_sum": cross_sum,
+        "total_energy": total_energy,
+        "minimum_eigenvalue": minimum_eigenvalue,
+        "centered_mass_residuals": tuple(cumulative),
+    }
+
+
+def degree_two_centered_response_channel_maps(
+    symbol_components: dict[str, FrequencyMap],
+    spectral_bound: float,
+    rho: float,
+) -> dict[str, object]:
+    """Factor the centered degree-two response through arbitrary channels.
+
+    For F(z)=z^3(z-L)^2 and total symbol mass M, this uses
+
+        F(d)-F(M) delta_0 = (d-M delta_0) * R_(M,L)(d),
+
+    where R is the exact divided difference.  Splitting d into components
+    therefore gives one zero-mass response channel per component without
+    expanding all five polynomial factors among the channels.
+    """
+    if spectral_bound <= 0.0 or rho <= 0.0:
+        raise ValueError("spectral bound and rho must be positive")
+    if not symbol_components:
+        raise ValueError("symbol components must be nonempty")
+    symbol = add_frequency_maps(*symbol_components.values())
+    if not symbol:
+        raise ValueError("combined symbol must be nonempty")
+    dimension = len(next(iter(symbol)).continuum)
+    zero = FormalLag.zero(dimension)
+    identity = {zero: 1.0 + 0.0j}
+    total_mass = sum(symbol.values())
+    node = math.sqrt(3.0) / 2.0
+    level = node * spectral_bound
+    amplitude = node * spectral_bound / (node * spectral_bound + rho)
+    polynomial_factor = 2.0 * amplitude / (3.0 * spectral_bound**2)
+    powers = {0: identity}
+    for power in range(1, 5):
+        powers[power] = convolve_frequency_maps(powers[power - 1], symbol)
+    divided_difference = add_frequency_maps(
+        powers[4],
+        scale_frequency_map(powers[3], total_mass - 2.0 * level),
+        scale_frequency_map(powers[2], (total_mass - level) ** 2),
+        scale_frequency_map(
+            powers[1], total_mass * (total_mass - level) ** 2
+        ),
+        scale_frequency_map(
+            identity, total_mass**2 * (total_mass - level) ** 2
+        ),
+    )
+    response_components: dict[str, FrequencyMap] = {}
+    component_masses: dict[str, complex] = {}
+    for label, component in symbol_components.items():
+        component_mass = sum(component.values())
+        centered_component = add_frequency_maps(
+            component, {zero: -component_mass}
+        )
+        response_components[label] = scale_frequency_map(
+            convolve_frequency_maps(centered_component, divided_difference),
+            -(polynomial_factor**2),
+        )
+        component_masses[label] = component_mass
+    full_response = degree_two_response_frequency_map(
+        symbol, spectral_bound, rho
+    )
+    total_response_coefficient = sum(full_response.values())
+    centered_full_response = add_frequency_maps(
+        full_response, {zero: -total_response_coefficient}
+    )
+    reconstructed_centered_response = add_frequency_maps(
+        *response_components.values()
+    )
+    reconstruction_residual = add_frequency_maps(
+        centered_full_response,
+        scale_frequency_map(reconstructed_centered_response, -1.0),
+    )
+    return {
+        "symbol": symbol,
+        "total_mass": total_mass,
+        "component_masses": component_masses,
+        "level": level,
+        "polynomial_factor": polynomial_factor,
+        "divided_difference": divided_difference,
+        "full_response": full_response,
+        "total_response_coefficient": total_response_coefficient,
+        "centered_full_response": centered_full_response,
+        "response_components": response_components,
+        "reconstructed_centered_response": reconstructed_centered_response,
+        "maximum_reconstruction_residual": max(
+            [abs(value) for value in reconstruction_residual.values()] + [0.0]
+        ),
+    }
+
+
+def cauchy_translate_compactness_ledger(
+    response: FrequencyMap,
+    continuum_nodes: tuple[float, ...],
+    translates: tuple[float, ...],
+) -> dict[str, object]:
+    """Audit the finite Gram criterion for translated Cauchy tests.
+
+    For phi_t(x)=exp(-abs(x-t)), the Sobolev-response kernel on
+    C plus L2 is
+
+        K(t,s)=phi_t(0) phi_s(0)
+               + integral phi_t'(x) phi_s'(x) dx
+              =exp(-abs(t)-abs(s))
+               +(1-abs(t-s))*exp(-abs(t-s)).
+
+    The pseudoinverse quotient is the least package norm squared needed to
+    interpolate the selected responses.  It cannot exceed the norm of the
+    actual constant-mode/primitive package.
+    """
+    if not translates:
+        raise ValueError("at least one translate is required")
+    points = np.asarray(translates, dtype=float)
+    difference = np.abs(points[:, None] - points[None, :])
+    test_gram = (
+        np.exp(-np.abs(points))[:, None]
+        * np.exp(-np.abs(points))[None, :]
+        + (1.0 - difference) * np.exp(-difference)
+    )
+    responses = np.asarray(
+        [
+            stationary_response_from_frequency_map(
+                response,
+                continuum_nodes,
+                lambda value, center=center: math.exp(-abs(value - center)),
+            )
+            for center in points
+        ],
+        dtype=complex,
+    )
+    pseudoinverse = np.linalg.pinv(test_gram, hermitian=True)
+    least_norm_squared = float(
+        np.real(np.conjugate(responses) @ pseudoinverse @ responses)
+    )
+    range_residual = float(
+        np.linalg.norm(test_gram @ pseudoinverse @ responses - responses)
+    )
+    brownian = cauchy_profile_brownian_energy_ledger(
+        response, continuum_nodes
+    )
+    actual_norm_squared = (
+        abs(brownian["global_total_coefficient"]) ** 2
+        + brownian["primitive_l2_energy"]
+    )
+    block = np.block(
+        [
+            [test_gram, responses[:, None]],
+            [
+                np.conjugate(responses)[None, :],
+                np.asarray([[actual_norm_squared]], dtype=complex),
+            ],
+        ]
+    )
+    minimum_block_eigenvalue = float(
+        np.min(np.linalg.eigvalsh((block + np.conjugate(block.T)) / 2.0)).real
+    )
+    return {
+        "translates": tuple(float(point) for point in points),
+        "test_gram": test_gram,
+        "responses": responses,
+        "minimum_test_gram_eigenvalue": float(
+            np.min(np.linalg.eigvalsh(test_gram)).real
+        ),
+        "range_residual": range_residual,
+        "least_norm_squared": least_norm_squared,
+        "actual_package_norm_squared": actual_norm_squared,
+        "captured_norm_ratio": (
+            least_norm_squared / actual_norm_squared
+            if actual_norm_squared > 0.0
+            else 0.0
+        ),
+        "minimum_budget_block_eigenvalue": minimum_block_eigenvalue,
+    }
+
+
 def centered_cumulative_l1(
     source: FrequencyMap,
     continuum_nodes: tuple[float, ...],
