@@ -851,11 +851,60 @@ $v_c+cx$ 与 $v_c+c(\ell-x)$，另两个因子不超过一；积分即得
 \eqref{eq:cosine-edge}。
 \end{proof}
 
-命题 \ref{prop:path-support} 把新的算术硬核精确缩到 alternating ratio Gram。
-对任意固定 $\delta>0$，$m\le X^{1-\delta}$ 的 adjacent 部分已有普通
-vector-valued large sieve 的 $O(T^{-\delta})$ 相对误差；只要再证明边缘
-$X^{1-\delta}<m\le X$ 的 Gram mass 随 $\delta\downarrow0$ 消失，即可闭合
-adjacent family。alternating family 则需要在真实 Vaughan response 子空间上
+\begin{theorem}[adjacent bulk edge tightness]\label{thm:adjacent-edge}
+把 $\psi$ 以零延拓到全线。假设 $\|\psi\|_\infty\le M$，且对某个
+$\kappa\ge0$ 与 $C<\infty$，
+\[
+ |\psi(-1/2+x)|,|\psi(1/2-x)|\le Cx^\kappa\qquad(0\le x\le1).
+\]
+令 $K=C^2M^2\mathrm B(\kappa+1,\kappa+1)$，并定义
+\[
+ \mathfrak E_{L,\delta}^{\rm adj}(\psi):=L^{-4}
+ \sum_{\substack{ab=cd\\X^{1-\delta}<ab\le X}}
+ \frac{\Lambda(a)\Lambda(b)\Lambda(c)\Lambda(d)}{ab}
+ \left|\mathcal W_\psi(0,r_a,r_{ab},r_d)\right|.
+\]
+则无条件地
+\[
+ \limsup_{L\to\infty}\mathfrak E_{L,\delta}^{\rm adj}(\psi)
+ \le \frac K3\int_0^\delta t^{2\kappa+1}(1-t)^3dt
+ \le \frac{K}{6(\kappa+1)}\delta^{2\kappa+2}.
+ \label{eq:adjacent-edge-rate}
+\]
+平窗的右侧为 $\delta^2/6$；端点余弦窗
+$\cos(\pi u)\mathbf1_{|u|\le1/2}$ 的右侧为
+$\pi^2\delta^4/72$。
+\end{theorem}
+
+\begin{proof}
+若 $0\le s_1,s_3\le s_2\le1$、$\ell=1-s_2$，公共支撑区间长度为
+$\ell$。写 $u=-1/2+x$，两个极端因子由端点条件控制，故
+$|\mathcal W_\psi(0,s_1,s_2,s_3)|\le K\ell^{2\kappa+1}$。
+由于 $\Lambda$ 只支撑在素数幂上，若 $ab=cd$ 含两个不同素数底，ordered
+factorization 只有两种；单素数底 $ab=p^k$ 的总贡献在除以 $L^4$ 前为
+$O(1)$。于是主项至多为
+\[
+ 2K L^{-4}\sum_{X^{1-\delta}<ab\le X}
+ \frac{\Lambda(a)^2}{a}\frac{\Lambda(b)^2}{b}
+ (1-r_a-r_b)^{2\kappa+1}+o(1).
+\]
+无条件渐近
+$\sum_{n\le x}\Lambda(n)^2/n=\frac12(\log x)^2+O(\log x)$ 表明
+$L^{-2}\sum_{n\le X}\Lambda(n)^2n^{-1}\delta_{r_n}\Rightarrow r\,dr$。
+乘积测度极限把上式化为
+\[
+ 2K\int_{1-\delta<r+s\le1}rs(1-r-s)^{2\kappa+1}drds
+ =\frac K3\int_0^\delta t^{2\kappa+1}(1-t)^3dt,
+\]
+即得结论。
+\end{proof}
+
+定理 \ref{thm:adjacent-edge} 完成理想 bulk 的 exact-product edge
+tightness，但不自动完成真实有限 Gabor 矩阵的对应命题。对任意固定
+$\delta>0$，$m\le X^{1-\delta}$ 的 adjacent 部分已有普通 vector-valued
+large sieve 的 $O(T^{-\delta})$ 相对误差；剩余桥梁是证明 finite edge 与
+bulk edge 之差在先 $T\to\infty$、再 $\delta\downarrow0$ 时为 $o(N)$。
+alternating family 则需要在真实 Vaughan response 子空间上
 证明 Farey Gram 的一侧 Schur bound，不能使用 all-direction large sieve。
 
 端点窗的 $O(\ell^3)$ 不代表逐点占优：所有 shifts 重合时，其正规化 overlap

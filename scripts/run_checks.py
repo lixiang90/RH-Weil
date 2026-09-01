@@ -79,6 +79,10 @@ CHECKS = (
         "operator fourth words and localizer completion",
         [sys.executable, "operator_fourth_localizer_audit.py"],
     ),
+    (
+        "adjacent-product bulk edge tightness",
+        [sys.executable, "adjacent_bulk_edge_audit.py", "--limits", "20000", "100000"],
+    ),
 )
 
 
