@@ -15,7 +15,7 @@
 | NCE-7 | 非构造主线 | short-word effects 对实际 negative level sets 的 response-weighted capture | capture error共尾可和且不调用 Selberg/RH 等价输入 | degree-one universal moment route 已 sharp no-go |
 | NCE-8 | 构造主线 | 在 square-root Vaughan rectangle 上控制 exact Type I/II/continuum response Gram | all-ones Gram budget一致有界，且不退回 diagonal Selberg energies | exact divided-difference channelization已完成；有限 cross cancellation使 diagonal/full为1.95--3.36 |
 | NCE-9 | 非构造补全 | 把 finite Cauchy-translate Schur block写成 joint signed Type I/II large-sieve form | uniform finite-block budget只用 length-side数据且弱于完整 RH criterion | finite satisfiability compactness与Gram/Schur判据已完成；33 translates捕获约23% package norm |
-| MOM-1 | 四矩备用主线 | 固定光滑窗的 cyclic word ledger 与 2+2 diagonal 上界 | 其余有符号通道净预算严格小于 0.0608832407 | quadratic-channel Gram--Schur 分解与 2+2/3+1/4+0 账本已完成 |
+| MOM-1 | 四矩备用主线 | weighted Gabor kernels 的 S4 finite-to-bulk bound 与未配对近共振 Gram | MT 窗 remainder 小于 0.0829099143，或优化窗总预算闭合 | exact cycle/word ledger、S4 gate 与一般 paired-diagonal window functional 已完成 |
 | OBS-1 | 文献线 | canonical Hamiltonian 的局部质量一致界与 noncollapse | 从 Euler/Gamma 方程而非 zeros 证明 | 文献审计 |
 | OBS-2 | 系统线 | tracial negative-square realization theorem | 与 Cauchy Hodge index 精确对应 | 文献审计 |
 | LONG-1 | 长期线 | threshold complex 的 dualizability 与 categorical supertrace | 获得非循环 positive categorical trace | 暂存 |
@@ -42,6 +42,8 @@
 - Git branch 仍按交付任务管理；这里的 ID 表示数学思路分支，不强制创建长期 Git branch。
 
 ## 本轮分支成果
+
+- [光滑窗四循环与配对对角泛函](notes/199-smooth-window-cyclic-fourth-diagonal.md)：精确推导 finite Gabor 四循环、非交换 word ledger 与任意偶窗的 \(D_{22}(\psi)\)。修正平窗 family 计数；得到 MT 窗 \(D_{22}=0.2445893820\ldots\) 和 remainder 预算 \(0.0829099143\ldots\)。余弦窗扫描显示四矩目标窗可能不同于二矩最优窗；新的硬点是 finite-to-bulk 边界及未配对近共振。
 
 - [四矩二次通道与 Vaughan 接口](notes/198-quadratic-fourth-moment-vaughan-channel.md)：中心四矩精确分解为背景、线性素数项、二次素数项的三通道 PSD Gram；Schur residual 是正确的 response target。素数符号账本分离 2+2、3+1、4+0，并把改善 0.6725007... 的最小任务压成对角之外净预算小于 0.0608832407...。有限无权实验只验证恒等式与相消存在，不作为 zeta 渐近证据。
 

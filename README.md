@@ -446,6 +446,7 @@ xelatex rh-weil-structure-paper.tex
 - [Nonconstructive Brownian response compactness and finite satisfiability](notes/196-nonconstructive-brownian-response-compactness.md)
 - [部分 Weil 配置：比例、四矩与非零区域](notes/197-partial-weil-proportions-regions-four-moments.md)
 - [四矩二次通道、素数共振账本与 Vaughan 接口](notes/198-quadratic-fourth-moment-vaughan-channel.md)
+- [光滑窗四循环、配对对角泛函与窗口再优化](notes/199-smooth-window-cyclic-fourth-diagonal.md)
 - [研究分支看板](RESEARCH_BRANCHES.md)
 - [文献与证据边界](notes/003-sources.md)
 

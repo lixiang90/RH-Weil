@@ -186,8 +186,8 @@ b_4<\frac4{9\kappa}-\frac13
 \tag{10}
 \]
 
-在形式平窗 word ledger 中，两个 alternating 2+2 words 各给 \(1/5\)，
-四个 adjacent words 各给 \(1/15\)，合计
+在形式平窗 word ledger 中，两个 alternating 2+2 words 合计 \(1/5\)，
+四个 adjacent words 合计 \(1/15\)，故
 
 \[
 D_{22}^{\rm formal}=\frac4{15}=0.266666666667\ldots.

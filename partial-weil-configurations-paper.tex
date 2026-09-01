@@ -43,8 +43,11 @@
 本文再给出两种升级机制。精确四矩 rank--trace--inertia 证书把 sine-kernel
 矩数据对应的简单零点比例从 Christoffel 层级的 $13/18$ 提高到 $16/21$；
 quadratic-channel Gram--Schur 分解则把所需四矩改写成背景、线性素数项和
-二次素数项的有符号三通道账本。离线深度可见性把负谱迹转化为远离中心线的
-零点密度，并在负谱预算小于单个离线对的可见深度时给出真正的非零区域。
+二次素数项的有符号三通道账本。进一步，本文推导真实 Gabor 核的精确四循环
+恒等式以及任意偶窗的配对对角泛函 $D_{22}(\psi)$；Montgomery--Taylor 窗给
+$D_{22}=0.244589\ldots$，显示四矩目标窗不应由二矩优化单独决定。
+离线深度可见性把负谱迹转化为远离中心线的零点密度，并在负谱预算小于单个
+离线对的可见深度时给出真正的非零区域。
 这解释了为什么二阶矩足以证明正比例、却不能单独排除稀疏的离线零点。
 
 Weil 显式公式和函数方程已经构造数域上的矩阵及符号块；当前素数侧二阶矩给出
@@ -523,6 +526,195 @@ $C_2(m)$ 含 $(\Lambda*\Lambda)(m)m^{-1/2}$。这说明长度约 $T^2$
 Vaughan 分解应作用于该系数映射，同时保留三通道的完整矩阵，而不是分别估计
 $2+2,3+1,4+0$ 后相加绝对值。
 
+\subsection{真实 Gabor 核的四循环与配对对角泛函}
+
+二矩证明中的 Poisson--Gabor 恒等式可以无损地提升到四次迹，但把有限核替换为
+平移不变核时，四矩需要新的边界估计。以下先把精确部分与尚待估计的部分分开。
+
+\begin{theorem}[有限 Gabor 四循环恒等式]\label{thm:gabor-four-cycle}
+沿用 Alpöge--Furman \cite[\S2]{AF26} 的记号，令
+\[
+ f_k(\tau)=\widehat\phi(\tau-\alpha_k),\qquad
+ K(\tau,\tau')=\sum_{0\le k<d}f_k(\tau)f_k(\tau'),
+\]
+并令 $\mathcal B=\widetilde G+\widetilde E$ 为式 \cite[(2.11)]{AF26}
+给出的全显式公式矩阵。则精确地
+\[
+ \tr\mathcal B^4
+ =\frac1{a^4L^8}\int_{\mathbb R^4}
+ \prod_{j=1}^4K(\tau_j,\tau_{j+1})
+ \prod_{j=1}^4\nu_X(\tau_j)\,d\tau_1\cdots d\tau_4,
+ \qquad \tau_5=\tau_1.
+ \label{eq:finite-four-cycle}
+\]
+把每个 $K$ 形式替换为
+$K_\infty(\tau,\tau')=L\Phi(\tau-\tau')$ 并把积分限制到
+$I^4$，所得 bulk 泛函为
+\[
+ \mathcal C_4(\nu_X)
+ =\frac1{a^4L^4}\int_{I^4}
+ \prod_{j=1}^4\Phi(\tau_j-\tau_{j+1})
+ \prod_{j=1}^4\nu_X(\tau_j)\,d\tau_1\cdots d\tau_4.
+ \label{eq:bulk-four-cycle}
+\]
+\end{theorem}
+
+\begin{proof}
+将
+$\mathcal B_{kk'}=(aL^2)^{-1}\int f_k(\tau)f_{k'}(\tau)\nu_X(\tau)d\tau$
+代入
+$\tr\mathcal B^4=\sum_{k_1,\ldots,k_4}
+\mathcal B_{k_1k_2}\mathcal B_{k_2k_3}
+\mathcal B_{k_3k_4}\mathcal B_{k_4k_1}$。
+四个指标和分别组成四个 $K$，即得 \eqref{eq:finite-four-cycle}。
+第二式只是代入 $K_\infty=L\Phi$ 后的正规化。
+\end{proof}
+
+\begin{proposition}[四循环的 Schatten--$4$ 稳定门]\label{prop:s4-gate}
+令 $\mathcal A_T,\mathcal A_{\infty,T}$ 分别为
+\eqref{eq:finite-four-cycle} 与 \eqref{eq:bulk-four-cycle}
+对应的归一化 signed weighted kernel operators，使
+\[
+ \tr\mathcal A_T^4=\tr\mathcal B^4,\qquad
+ \tr\mathcal A_{\infty,T}^4=\mathcal C_4(\nu_X).
+\]
+若
+\[
+ \|\mathcal A_T\|_{\mathcal S_4}
+ +\|\mathcal A_{\infty,T}\|_{\mathcal S_4}=O(N^{1/4}),
+\qquad
+ \|\mathcal A_T-\mathcal A_{\infty,T}\|_{\mathcal S_4}
+ =o(N^{1/4}),
+ \label{eq:s4-gate}
+\]
+则
+\[
+ \tr\mathcal B^4-\mathcal C_4(\nu_X)=o(N).
+\]
+\end{proposition}
+
+\begin{proof}
+对任意有限秩 $A,B$，迹的循环性与 Schatten Hölder 不等式给
+\[
+ |\tr A^4-\tr B^4|
+ \le\|A-B\|_{\mathcal S_4}
+ \bigl(\|A\|_{\mathcal S_4}^3
+ +\|B\|_{\mathcal S_4}\|A\|_{\mathcal S_4}^2
+ +\|B\|_{\mathcal S_4}^2\|A\|_{\mathcal S_4}
+ +\|B\|_{\mathcal S_4}^3\bigr).
+\]
+取 $A=\mathcal A_T,B=\mathcal A_{\infty,T}$ 即得。
+\end{proof}
+
+命题 \ref{prop:s4-gate} 把 finite-to-bulk 问题定位为一个四次可和的核逼近，
+而不是要求不必要的统一算子范数。二矩的 trace-tail 估计本身仍不足以推出
+\eqref{eq:s4-gate}；必须利用四个 Gabor kernels 的共同定位。
+
+若在算子层写 $\nu_X=A+P$，循环迹的十六个 words 精确合并为
+\[
+ \tr(A+P)^4
+ =\tr A^4+4\tr(A^3P)+4\tr(A^2P^2)
+ +2\tr(APAP)+4\tr(AP^3)+\tr P^4.
+ \label{eq:cyclic-words}
+\]
+其中两个 $P$ 的六个 words 分成四个 adjacent words 与两个 alternating words；
+这一区分在非交换 Gram 中不能抹去。
+
+\begin{theorem}[偶窗口的配对 $2+2$ 对角泛函]
+\label{thm:paired-window}
+设 $\psi\ge0$ 为支撑在 $[-1/2,1/2]$ 的偶函数，以零延拓到全线，并令
+$a=\int\psi>0$。对 $0\le r,s\le1$ 定义
+\begin{align*}
+ A_+(r,s)&=\int_{\mathbb R}\psi(u)^2\psi(u+r)\psi(u+s)\,du,\\
+ A_-(r,s)&=\int_{\mathbb R}\psi(u)^2\psi(u+r)\psi(u-s)\,du,\\
+ B(r,s)&=\int_{\mathbb R}\psi(u)\psi(u+r)\psi(u+s)\psi(u+r+s)\,du.
+\end{align*}
+则 bulk 泛函 \eqref{eq:bulk-four-cycle} 的纯素数 $P_X^4$ 项中，
+由两两相等的乘法频率产生的对角贡献，除以 $N(T,2T)$ 后趋于
+\[
+ D_{22}(\psi)
+ =\frac4{a^4}\int_0^1\!\!\int_0^1
+ rs\bigl(A_+(r,s)+A_-(r,s)+B(r,s)\bigr)\,dr\,ds.
+ \label{eq:paired-window-functional}
+\]
+更细地，两个 alternating sign words 的总贡献为
+\[
+ D_{\rm alt}(\psi)=\frac4{a^4}\iint rsA_+(r,s)\,dr\,ds,
+\]
+四个 adjacent sign words 的总贡献为
+\[
+ D_{\rm adj}(\psi)=\frac4{a^4}\iint
+ rs\bigl(A_-(r,s)+B(r,s)\bigr)\,dr\,ds.
+\]
+\end{theorem}
+
+\begin{proof}
+写
+$P_X(\tau)=-(2\pi)^{-1}\sum_{n\le X}a_n
+\bigl(n^{i\tau}+n^{-i\tau}\bigr)$，$a_n=\Lambda(n)n^{-1/2}$。
+四个符号中只有两个正号、两个负号能产生两两配对主项。对满足
+$\lambda_1+\cdots+\lambda_4=0$ 的频率，令
+$q=\phi^2$，对三个差变量作 Fourier 反演，得到
+\[
+ (2\pi)^3T\int_{\mathbb R}
+ q(u)q(u+\lambda_1)q(u+\lambda_1+\lambda_2)
+ q(u+\lambda_1+\lambda_2+\lambda_3)\,du
++\text{边界项}.
+\]
+再用 $q(u)=\psi(u/L)+o(1)$ 及弱极限
+\[
+ L^{-2}\sum_{n\le e^L}\frac{\Lambda(n)^2}{n}
+ \delta_{\log n/L}\ \Longrightarrow\ r\,dr
+\]
+即可。三种 pair partitions 与四种 orientations 合并后分别产生
+$A_+,A_-,B$。不同 pairings 的交集只含单素数幂退化项，其正规化为
+$o(1)$。
+\end{proof}
+
+对指标窗，三个加权 overlap 积分依次为
+$1/20,1/120,1/120$，所以
+\[
+ D_{\rm alt}(\psi_0)=\frac15,\qquad
+ D_{\rm adj}(\psi_0)=\frac1{15},\qquad
+ D_{22}(\psi_0)=\frac4{15}.
+\]
+这里 $1/5$ 与 $1/15$ 是两个 word families 的\emph{总和}，不是每个 word
+各自的贡献。
+
+对 Montgomery--Taylor 窗
+$\psi_{\rm MT}(u)=\cos(\sqrt2u)\mathbf1_{|u|\le1/2}$，
+\eqref{eq:paired-window-functional} 的收敛 Gauss 积分给
+\[
+ D_{22}(\psi_{\rm MT})\approx0.244589382034,
+\quad
+ D_{\rm alt}\approx0.178157229928,\quad
+ D_{\rm adj}\approx0.066432152107.
+\]
+因此若同一窗口的真实中心四矩写成
+$b_4=D_{22}(\psi_{\rm MT})+\mathcal R_{\rm net}$，
+则在定理 \ref{thm:quartic} 的其他条件成立时，
+\[
+ \mathcal R_{\rm net}
+ <b_2(\psi_{\rm MT})-D_{22}(\psi_{\rm MT})
+ \approx0.082909914286
+ \label{eq:mt-fourth-budget}
+\]
+已经足以严格改善该窗口自己的二矩比例。数值只评估显式窗口泛函；
+它不是对 $\mathcal R_{\rm net}$ 的估计。
+
+更一般地，记当前纪录为 $\kappa$。给定窗口的二阶中心矩 $b_2$ 时，
+四矩证书超过 $\kappa$ 的一侧阈值是
+\[
+ b_4<B_\kappa(b_2)
+ :=\frac{(1-b_2)^2}{\kappa}-1+2b_2,
+ \label{eq:general-window-threshold}
+\]
+并仍须核对定理 \ref{thm:quartic} 的分母与 $\sigma_*$ 条件。
+这说明窗口优化的正确目标不是只最小化二矩 $R(\psi)$，而是最大化
+$B_\kappa(b_2(\psi))-D_{22}(\psi)$，同时控制未配对共振。
+在余弦族 $\cos(cu)$ 中，有限扫描显示该预算向 $c\uparrow\pi$ 显著增大；
+端点 $c=\pi$ 的形式值约为 $0.19827$，但这仍是选择下一候选窗的数值线索。
+
 \begin{proposition}[严格改善当前比例的一侧账本]\label{prop:fourth-ledger}
 设 $b_2=1/3+o(1)$，并把真实 tapered 压缩的中心四矩写成
 \[
@@ -549,9 +741,10 @@ $R(b_2,b_4)=4/[9(b_4+1/3)]>\kappa$，再应用定理
 \ref{thm:quartic}。
 \end{proof}
 
-在平窗的形式 sine 账本中，六个 $2+2$ 符号词的对角贡献为
-$2\cdot(1/5)+4\cdot(1/15)=4/15$；预测的总四矩 $1/4$ 相当于净非对角修正
-$-1/60$。这些数只标定命题 \ref{prop:fourth-ledger} 的预算：
+在平窗的形式 sine 账本中，两个 alternating words 合计 $1/5$，
+四个 adjacent words 合计 $1/15$，故对角总贡献为 $4/15$；
+预测的总四矩 $1/4$ 相当于净非对角修正 $-1/60$。
+这些数只标定命题 \ref{prop:fourth-ledger} 的预算：
 尚未证明真实 Gabor/tapered 压缩具有同一对角常数，也尚未把
 $3+1,4+0$、Archimedean 背景、窗口边界和截断尾统一压入该预算。
 有限无权 Dirichlet 多项式实验显示三族之间确有显著相消，但不构成 zeta
@@ -782,9 +975,9 @@ prime/Gamma/continuum 数据及独立能量预算，而不能引用未知零点�
 & 所需估计等价于未解 pair correlation 且无额外结构收益\\
 \addlinespace
 高阶矩或 RMT
-& quadratic-channel Schur residual 与四矩净预算
+& finite-to-bulk 四循环误差与未配对共振净预算
 & 改善简单与互异比例
-& 四矩净预算不能低于 $0.3275499\ldots$\\
+& 优化窗的 remainder budget 仍不能闭合\\
 \addlinespace
 深度可见性
 & 商空间 lower frame bound $v_T(\eta)>0$
@@ -808,8 +1001,8 @@ Brownian 响应
 \item 把 Alpöge--Furman 压缩矩阵写入本项目的
 prime/continuum/Gamma response 记号，计算响应前后 $R$ 的精确 Schur 公式；
 \item 在冻结有限模型上同时优化窗 $\psi$ 与 Brownian response，而不是只优化窗；
-\item 对固定光滑窗推导 $\tr(G-I)^4$ 的完整循环 word 账本，将
-$P^4$ 映射到 $2+2,3+1,4+0$，并严格证明 $2+2$ diagonal 上界；
+\item 证明有限 Gabor 四循环到 bulk 泛函的误差为 $o(N)$，并把
+$P_X^4$ 的未配对近共振写成保留符号的 response Gram；
 \item 对离线测试零点 $\rho=\tfrac12+\eta+i\gamma$ 计算其 Gabor feature
 在正背景商空间中的最小奇异值，建立 $v_T(\eta)$ 的模型尺度；
 \item 将有限 response feasibility 写成 block PSD 与二阶锥问题，记录最优半径随
@@ -826,6 +1019,7 @@ $P^4$ 映射到 $2+2,3+1,4+0$，并严格证明 $2+2$ diagonal 上界；
 \]
 一阶迹和二阶矩已经无条件给出 $67.250\ldots$；精确四矩证书与
 quadratic-channel Gram 把比例改进压成 $2+2,3+1,4+0$ 共振族的一个净预算；
+一般窗口的配对对角泛函又表明二矩最优窗未必是四矩最优窗。
 负谱深度可见性则是非零区域所缺的结构。备选方向因而不是改做经典零点比例，
 而是研究 Weil 配置的不完全正性如何量化地控制 divisor。
 

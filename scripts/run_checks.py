@@ -71,6 +71,10 @@ CHECKS = (
         "quadratic fourth-moment channels",
         [sys.executable, "fourth_moment_channel_audit.py"],
     ),
+    (
+        "smooth fourth-window cycle",
+        [sys.executable, "smooth_fourth_window_audit.py"],
+    ),
 )
 
 
