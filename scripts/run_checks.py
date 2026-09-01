@@ -88,6 +88,10 @@ CHECKS = (
         [sys.executable, "toeplitz_hankel_adjacent_audit.py"],
     ),
     (
+        "alternating ratio multiplicity and square-root core",
+        [sys.executable, "alternating_ratio_cluster_audit.py"],
+    ),
+    (
         "adjacent Montgomery--Vaughan and boundary no-go",
         [sys.executable, "adjacent_mv_boundary_no_go_audit.py"],
     ),

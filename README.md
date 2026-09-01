@@ -456,6 +456,7 @@ xelatex rh-weil-structure-paper.tex
 - [Supercritical boundary 伪协方差归约与 covariance-blind no-go](notes/206-supercritical-boundary-pseudocovariance.md)
 - [Boundary quarter-turn 最优化、operator-smallness 与局部化障碍](notes/207-quarter-turn-optimization-locality-obstruction.md)
 - [Boundary entry 正均方障碍与 exceptional good-height 桥梁](notes/208-boundary-entry-mean-square-good-height.md)
+- [Alternating ratio multiplicity collapse 与 square-root determinant core](notes/209-alternating-ratio-cluster-square-root-core.md)
 - [研究分支看板](RESEARCH_BRANCHES.md)
 - [文献与证据边界](notes/003-sources.md)
 
