@@ -86,8 +86,8 @@ quarter-turn gain；对真实 smooth window，两个 Gabor edges 的交叉 overl
 第四，实际 von Mangoldt 权和固定宽度光滑窗的有限实验与式 (7) 一致：自然
 pairing 的 normalized HS defect 在三个尺度均为 \(1+O(10^{-6})\)；甚至事后
 最优 \(J\) 仍保留 \(0.37\)--\(0.50\) 的 defect。自然 \(J_0\) 的 operator
-defect 也比 \(\|B_X\|_{\mathrm{op}}\) 大约 \(1.66\)--\(1.80\) 倍。因此当前
-证据支持优先研究式 (5)，而不是继续给 \(J_0\) 增加自由参数。
+defect 也比 \(\|B_X\|_{\mathrm{op}}\) 大约 \(1.66\)--\(1.80\) 倍。该数据曾提示
+检验式 (5)；笔记 208 随后证明其 uniform-in-height 版本具有正均方障碍。
 
 ## 2. 最优 finite quarter-turn 公式
 
@@ -451,31 +451,24 @@ X&d&\beta\|B\|_{op}&\beta\|BJ_0-iB\|_{op}
 \]
 
 有限数据没有显示 natural circularity；natural quarter-turn 反而比直接
-operator block 更差。\(\beta\|B\|_{op}\) 在这些尺度下降，值得继续检验
-式 (5)，但三个有限点不能升级为 little-oh。
+operator block 更差。\(\beta\|B\|_{op}\) 在这些尺度下降，但笔记 208
+证明首个 boundary entry 的 normalized height mean square 趋于正值；因此该有限
+下降不能支持 uniform little-oh。
 
 ## 7. 下一最小引理与止损条件
 
 路线 A1c 现在分成有严格先后次序的两个目标。
 
-### A1c-op（优先）[O]
+### A1c-op（uniform version）[N]
 
-对 actual boundary synthesis 证明
+笔记 208 证明首个 lower-boundary entry 的 normalized height mean square 趋于
+\(1/(4\pi^2)\)，所以式 (32) 不可能 uniform in height；该版本停止。
 
-\[
- \boxed{
- \|P_d\mathcal A_X(I-P_d)\|_{op}=o(L).}
-\tag{32}
-\]
+### A1c-good/phase [O]
 
-这应从式 (18) 的 prime fibres 出发，使用 response-specific Vaughan Type I/II
-operator Gram；不得把 \(b_n\) 换成任意系数的 all-direction Bessel family。
-
-### A1c-phase（仅在 A1c-op 失败后）[O]
-
-若存在无条件 lower bound 证明 \(\beta\|B_X\|_{op}\not\to0\)，再直接估计
-\(B_XB_X^{\mathsf T}\) 的无共轭 phase cancellation，或寻找一个不是简单
-lower/upper pairing 的 arithmetic \(J\)。
+下一目标改为：在 relative gaps 为 \(o(T)\) 的共同 good heights 上证明
+operator-smallness，或直接估计 \(B_XB_X^{\mathsf T}\) 的无共轭 phase
+cancellation。笔记 208 的 good-height transfer 保留其零点比例接口。
 
 ### 止损
 

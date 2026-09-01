@@ -99,6 +99,10 @@ CHECKS = (
         "boundary quarter-turn and locality obstruction",
         [sys.executable, "boundary_quarter_turn_audit.py"],
     ),
+    (
+        "first boundary-entry positive mean square",
+        [sys.executable, "boundary_entry_mean_square_audit.py"],
+    ),
 
 )
 
