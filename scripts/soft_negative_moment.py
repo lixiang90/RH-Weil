@@ -83,6 +83,78 @@ def chebyshev_soft_series(
     return interpolant.coef
 
 
+def soft_transition_degree_lower_bound(
+    spectral_bound: float, rho: float, uniform_error: float
+) -> float:
+    """Bernstein lower bound for uniformly approximating the soft effect.
+
+    The estimate compares the target at zero and at -rho, after scaling the
+    spectral interval to [-1,1].  It applies to every real polynomial, not
+    only to a particular interpolation scheme.
+    """
+    if spectral_bound <= 0.0 or rho <= 0.0:
+        raise ValueError("spectral bound and rho must be positive")
+    if rho > spectral_bound:
+        raise ValueError("rho must not exceed the spectral bound")
+    if not 0.0 <= uniform_error < 0.25:
+        raise ValueError("uniform error must lie in [0,1/4)")
+    transition = rho / spectral_bound
+    slope_floor = (0.5 - 2.0 * uniform_error) / transition
+    bernstein_factor = np.sqrt(1.0 - transition**2)
+    return float(
+        bernstein_factor * slope_floor / (1.0 + uniform_error)
+    )
+
+
+def high_order_vanishing_coefficient_tax(
+    spectral_bound: float,
+    rho: float,
+    uniform_error: float,
+    vanishing_order: int,
+    relative_moment_scale: float,
+) -> dict[str, float]:
+    """Lower bound an absolute monomial response ledger.
+
+    Suppose p(B*y)=y^r*s(y) uniformly approximates the soft effect and an
+    absolute moment argument bounds normalized moments by theta^k.  When
+    theta is at least lambda=rho/B, the coefficientwise ledger for
+    -B*y*p(B*y)^2 is necessarily at least
+
+        B*(1/2-epsilon)^2*theta*(theta/lambda)^(2r).
+
+    This is a lower bound on that proof strategy, not on the signed response.
+    """
+    if spectral_bound <= 0.0 or rho <= 0.0:
+        raise ValueError("spectral bound and rho must be positive")
+    if rho > spectral_bound:
+        raise ValueError("rho must not exceed the spectral bound")
+    if not 0.0 <= uniform_error < 0.5:
+        raise ValueError("uniform error must lie in [0,1/2)")
+    if vanishing_order < 0:
+        raise ValueError("vanishing order must be nonnegative")
+    if relative_moment_scale <= 0.0:
+        raise ValueError("relative moment scale must be positive")
+    transition = rho / spectral_bound
+    applicable = relative_moment_scale >= transition
+    tax = (
+        spectral_bound
+        * (0.5 - uniform_error) ** 2
+        * relative_moment_scale
+        * (relative_moment_scale / transition) ** (2 * vanishing_order)
+        if applicable
+        else 0.0
+    )
+    return {
+        "transition_scale": transition,
+        "relative_moment_scale": relative_moment_scale,
+        "absolute_discrepancy_scale": (
+            spectral_bound * relative_moment_scale
+        ),
+        "applicable": float(applicable),
+        "coefficient_ledger_lower_bound": tax,
+    }
+
+
 def chebyshev_soft_ledger(
     values: np.ndarray,
     weights: np.ndarray,

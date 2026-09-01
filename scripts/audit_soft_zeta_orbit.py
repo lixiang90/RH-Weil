@@ -19,6 +19,8 @@ from formal_lag_response import (
     degree_two_response_frequency_map,
     formal_arbitrary_direction_audit,
     formal_cauchy_response_ledger,
+    gaussian_heat_shell_ledger,
+    gaussian_signed_layer_cake_ledger,
     stationary_response_from_frequency_map,
     two_sided_prime_continuum_symbol,
 )
@@ -134,6 +136,23 @@ def soft_zeta_orbit_audit(
                     "primitive_l1": upper["primitive_l1"],
                 }
             )
+    heat_shell_audit = (
+        gaussian_heat_shell_ledger(
+            response_map, formal["continuum_nodes"], 0.01
+        )
+        if response_map is not None
+        else None
+    )
+    signed_profile_audit = (
+        [
+            gaussian_signed_layer_cake_ledger(
+                response_map, formal["continuum_nodes"], gaussian_scale
+            )
+            for gaussian_scale in (0.01, 0.16, 2.56)
+        ]
+        if response_map is not None
+        else []
+    )
     prime_continuum_mass = sum(
         complex(coefficient)
         for coefficient in data["prime_continuum_discrepancy_coefficients"]
@@ -158,6 +177,8 @@ def soft_zeta_orbit_audit(
         "degree_two_response_map": response_map,
         "gaussian_mixture_ledger": gaussian_mixture,
         "gaussian_scale_audit": gaussian_scale_audit,
+        "heat_shell_audit": heat_shell_audit,
+        "signed_profile_audit": signed_profile_audit,
         "provenance_mass_residual": separated_mass - prime_continuum_mass,
     }
 
@@ -203,6 +224,19 @@ def main() -> None:
         abs(item["actual_response"]) <= item["upper_bound"] + 1.0e-10
         for item in audit["gaussian_scale_audit"]
     )
+    assert audit["heat_shell_audit"] is not None
+    assert abs(
+        audit["heat_shell_audit"]["total_response"]
+        - stationary_response_from_frequency_map(
+            audit["degree_two_response_map"],
+            audit["formal_symbol"]["continuum_nodes"],
+            lambda value: math.exp(-(value**2) / 0.04),
+        )
+    ) <= 1.0e-10
+    assert all(
+        item["profile_capacity"] <= item["coefficient_variation"] + 1.0e-10
+        for item in audit["signed_profile_audit"]
+    )
     assert ledger["signed"]["exact"].real <= (
         audit["parity_exact_ledger"]["exact_response_upper_bound"] + 1.0e-10
     )
@@ -225,7 +259,11 @@ def main() -> None:
         "breaker="
         f"{audit['parity_exact_ledger']['breaker_fraction']:.6g}, "
         "small-mixture="
-        f"{audit['gaussian_mixture_ledger']['signed'][0].real:.6g}"
+        f"{audit['gaussian_mixture_ledger']['signed'][0].real:.6g}, "
+        "inner-heat="
+        f"{audit['heat_shell_audit']['signed_weighted'][0].real:.6g}, "
+        "profile/variation="
+        f"{audit['signed_profile_audit'][0]['capacity_to_variation_ratio']:.6g}"
     )
 
 

@@ -11,6 +11,8 @@ from formal_lag_response import (
     degree_two_parity_exact_ledger,
     degree_two_response_frequency_map,
     exact_formal_moment,
+    gaussian_heat_shell_ledger,
+    gaussian_signed_layer_cake_ledger,
     stationary_response_from_frequency_map,
     two_sided_prime_continuum_symbol,
 )
@@ -24,7 +26,9 @@ from soft_negative_moment import (
     chebyshev_soft_series,
     negative_polynomial_hankel_response,
     polynomial_soft_ledger,
+    high_order_vanishing_coefficient_tax,
     soft_negative_ledger,
+    soft_transition_degree_lower_bound,
     spectral_moments,
 )
 
@@ -196,6 +200,49 @@ def main() -> None:
     )
     assert abs(direct_gaussian) <= (
         gaussian_bound["response_upper_bound"] + 1.0e-12
+    )
+    heat_shells = gaussian_heat_shell_ledger(
+        response_map, continuum_nodes, gaussian_scale
+    )
+    assert abs(heat_shells["total_response"] - direct_gaussian) <= 1.0e-12
+    assert sum(heat_shells["counts"]) == (
+        len(response_map)
+        - sum(1 for lag in response_map if lag.is_zero())
+    )
+    layer_cake = gaussian_signed_layer_cake_ledger(
+        response_map, continuum_nodes, gaussian_scale
+    )
+    assert abs(layer_cake["total_response"] - direct_gaussian) <= 1.0e-12
+    assert abs(layer_cake["nonexact_response"]) <= (
+        layer_cake["profile_capacity"] + 1.0e-12
+    )
+    assert layer_cake["profile_capacity"] <= (
+        layer_cake["coefficient_variation"] + 1.0e-12
+    )
+
+    # A bounded additive soft error forces rho=O(1) while the spectral
+    # interval may grow. Bernstein inequality then imposes a degree floor.
+    degree_floor = soft_transition_degree_lower_bound(
+        spectral_bound=100.0, rho=1.0, uniform_error=0.1
+    )
+    assert degree_floor > 27.0
+    tax_order_one = high_order_vanishing_coefficient_tax(
+        spectral_bound=100.0,
+        rho=1.0,
+        uniform_error=0.1,
+        vanishing_order=1,
+        relative_moment_scale=0.04,
+    )
+    tax_order_three = high_order_vanishing_coefficient_tax(
+        spectral_bound=100.0,
+        rho=1.0,
+        uniform_error=0.1,
+        vanishing_order=3,
+        relative_moment_scale=0.04,
+    )
+    assert tax_order_one["applicable"] == 1.0
+    assert tax_order_three["coefficient_ledger_lower_bound"] > (
+        tax_order_one["coefficient_ledger_lower_bound"]
     )
 
     print("soft negative-effect and Cauchy moment checks passed")

@@ -397,6 +397,142 @@ def cauchy_gaussian_mixture_band_ledger(
     }
 
 
+def gaussian_heat_shell_ledger(
+    response: FrequencyMap,
+    continuum_nodes: tuple[float, ...],
+    gaussian_scale: float,
+    heat_edges: tuple[float, ...] = (
+        0.0,
+        0.25,
+        1.0,
+        4.0,
+        16.0,
+        math.inf,
+    ),
+) -> dict[str, object]:
+    """Split a Gaussian response by dimensionless heat distance.
+
+    A nonzero lag ell is assigned the coordinate z=ell^2/(4u).  Both the
+    signed unweighted shell mass and its exp(-z)-weighted response are kept,
+    so cancellation is visible rather than replaced by a variation bound.
+    """
+    if gaussian_scale <= 0.0:
+        raise ValueError("Gaussian scale must be positive")
+    if len(heat_edges) < 2:
+        raise ValueError("at least two heat edges are required")
+    if heat_edges[0] != 0.0 or not math.isinf(heat_edges[-1]):
+        raise ValueError("heat edges must start at zero and end at infinity")
+    if any(
+        right <= left for left, right in zip(heat_edges, heat_edges[1:])
+    ):
+        raise ValueError("heat edges must be strictly increasing")
+    shell_count = len(heat_edges) - 1
+    signed_unweighted = [0.0 + 0.0j] * shell_count
+    signed_weighted = [0.0 + 0.0j] * shell_count
+    weighted_variation = [0.0] * shell_count
+    counts = [0] * shell_count
+    exact_response = 0.0 + 0.0j
+    for lag, coefficient in response.items():
+        if lag.is_zero():
+            exact_response += coefficient
+            continue
+        numerical_lag = lag.numerical_value(continuum_nodes)
+        heat_distance = numerical_lag**2 / (4.0 * gaussian_scale)
+        shell = next(
+            index
+            for index, (left, right) in enumerate(
+                zip(heat_edges, heat_edges[1:])
+            )
+            if left <= heat_distance < right
+        )
+        weight = math.exp(-heat_distance)
+        signed_unweighted[shell] += coefficient
+        signed_weighted[shell] += coefficient * weight
+        weighted_variation[shell] += abs(coefficient) * weight
+        counts[shell] += 1
+    total_response = exact_response + sum(signed_weighted)
+    return {
+        "gaussian_scale": gaussian_scale,
+        "heat_edges": heat_edges,
+        "exact_response": exact_response,
+        "signed_unweighted": signed_unweighted,
+        "signed_weighted": signed_weighted,
+        "weighted_variation": weighted_variation,
+        "counts": counts,
+        "nonexact_response": sum(signed_weighted),
+        "total_response": total_response,
+    }
+
+
+def gaussian_signed_layer_cake_ledger(
+    response: FrequencyMap,
+    continuum_nodes: tuple[float, ...],
+    gaussian_scale: float,
+) -> dict[str, object]:
+    """Exact signed cumulative-profile formula for a Gaussian response.
+
+    If Q(h) is the sum of all nonexact response coefficients with numerical
+    lag in (-h,h), then the nonexact Gaussian response equals
+
+        integral_0^infinity exp(-z) Q(2*sqrt(u*z)) dz.
+
+    The profile capacity integrates abs(Q) instead and is an upper bound that
+    preserves all cancellation accumulated before each heat radius.
+    """
+    if gaussian_scale <= 0.0:
+        raise ValueError("Gaussian scale must be positive")
+    exact_response = 0.0 + 0.0j
+    grouped: dict[float, complex] = {}
+    coefficient_variation = 0.0
+    for lag, coefficient in response.items():
+        if lag.is_zero():
+            exact_response += coefficient
+            continue
+        numerical_lag = lag.numerical_value(continuum_nodes)
+        heat_distance = numerical_lag**2 / (4.0 * gaussian_scale)
+        grouped[heat_distance] = (
+            grouped.get(heat_distance, 0.0 + 0.0j) + coefficient
+        )
+        coefficient_variation += abs(coefficient) * math.exp(-heat_distance)
+    distances = sorted(grouped)
+    cumulative = 0.0 + 0.0j
+    signed_integral = 0.0 + 0.0j
+    profile_capacity = 0.0
+    maximum_cumulative = 0.0
+    segment_count = 0
+    for index, distance in enumerate(distances):
+        cumulative += grouped[distance]
+        next_distance = (
+            distances[index + 1]
+            if index + 1 < len(distances)
+            else math.inf
+        )
+        exponential_mass = math.exp(-distance) - (
+            math.exp(-next_distance)
+            if not math.isinf(next_distance)
+            else 0.0
+        )
+        signed_integral += cumulative * exponential_mass
+        profile_capacity += abs(cumulative) * exponential_mass
+        maximum_cumulative = max(maximum_cumulative, abs(cumulative))
+        segment_count += 1
+    return {
+        "gaussian_scale": gaussian_scale,
+        "exact_response": exact_response,
+        "nonexact_response": signed_integral,
+        "total_response": exact_response + signed_integral,
+        "profile_capacity": profile_capacity,
+        "coefficient_variation": coefficient_variation,
+        "capacity_to_variation_ratio": (
+            profile_capacity / coefficient_variation
+            if coefficient_variation > 0.0
+            else 0.0
+        ),
+        "maximum_cumulative_profile": maximum_cumulative,
+        "segment_count": segment_count,
+    }
+
+
 def centered_cumulative_l1(
     source: FrequencyMap,
     continuum_nodes: tuple[float, ...],
