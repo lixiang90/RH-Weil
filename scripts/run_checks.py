@@ -87,6 +87,10 @@ CHECKS = (
         "Toeplitz--Hankel adjacent transfer",
         [sys.executable, "toeplitz_hankel_adjacent_audit.py"],
     ),
+    (
+        "adjacent Montgomery--Vaughan and boundary no-go",
+        [sys.executable, "adjacent_mv_boundary_no_go_audit.py"],
+    ),
 )
 
 

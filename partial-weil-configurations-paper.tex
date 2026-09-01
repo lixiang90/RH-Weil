@@ -50,8 +50,11 @@ signed-kernel 实现无条件消去 zero-side tail；纯素数 $2+2$ 又精确�
 $X$ 的 adjacent product Gram 与仍具 Farey $X^2$ 障碍的 alternating ratio Gram。
 一个精确 Toeplitz--Hankel 表示进一步证明：finite Gabor adjacent clusters
 到 bulk surrogate 的总边界缺陷只有 $O(\log L)$ 平方能量；因此真实 adjacent
-endpoint tightness 已闭合，而不同乘积 near-resonance 与 alternating family
-仍分别保留为开放算术输入。
+endpoint tightness 已闭合。沿 Toeplitz diagonals 的离散
+Montgomery--Vaughan 分解又使整个 $m\le X$ adjacent family 渐近对角化；
+唯一剩余的 adjacent 边界输入是 $m>X$ 的 supercritical Hankel aggregate。
+一个 rank-one Hankel 反例证明 direct-sum 边界预算本身不能控制该 aggregate；
+alternating family 仍是独立的 Farey 硬通道。
 离线深度可见性把负谱迹转化为远离中心线的零点密度，并在负谱预算小于单个
 离线对的可见深度时给出真正的非零区域。
 这解释了为什么二阶矩足以证明正比例、却不能单独排除稀疏的离线零点。
@@ -1006,11 +1009,115 @@ $|\|u\|^2-\|v\|^2|\le\|u-v\|(\|u\|+\|v\|)$，得到
 端点相交，bulk symbol 为零；其余结论随即得到。
 \end{proof}
 
-定理 \ref{thm:toeplitz-adjacent} 闭合的是 adjacent exact-product
-diagonal edge。对 $m\le X^{1-\delta}$ 的不同乘积 near-resonance 仍需
-与 Toeplitz diagonal 相容的 vector-valued Montgomery--Vaughan 分解；
-alternating family 则仍需真实 Vaughan response 子空间上的 Farey Gram
-一侧 Schur bound，不能使用 all-direction large sieve。
+下面把 adjacent 的不同乘积 near-resonance 也闭合。对乘积集合
+$\mathcal M\subset[4,M]$ 定义
+\[
+ \mathcal S_0(\mathcal M)
+ =\sum_{m\in\mathcal M}\sum_{r\in\mathbb Z}|\widehat Q_m(r)|^2
+ =\frac1L\sum_{m\in\mathcal M}\int|Q_m(u)|^2\,du.
+\]
+
+\begin{theorem}[Adjacent Montgomery--Vaughan diagonalization {[T]}]
+\label{thm:adjacent-mv}
+若 $M\le X$，则
+\[
+ \left|
+ \left\|\sum_{m\in\mathcal M}F_m^{\rm bulk}\right\|_{\rm HS}^2
+ -\sum_{m\in\mathcal M}\|F_m^{\rm bulk}\|_{\rm HS}^2
+ \right|
+ \ll \beta_L^4LM\,\mathcal S_0(\mathcal M).
+ \label{eq:adjacent-mv}
+\]
+若 $\phi_L(Lu)^2$ 具有一致 endpoint envelope，则
+\[
+ \left\|\sum_{m\le X}F_m^{\rm fin}\right\|_{\rm HS}^2
+ =
+ \sum_{m\le X}\|F_m^{\rm fin}\|_{\rm HS}^2+o(N).
+ \label{eq:subcritical-adjacent}
+\]
+\end{theorem}
+
+\begin{proof}
+逐元素有
+\[
+ (F_m^{\rm bulk})_{jk}
+ =\beta_L^2\widehat Q_m(j-k)e^{i(T+kh)\log m}.
+\]
+固定 $r=j-k$，合法列指标形成长度 $d-|r|$ 的连续整数区间，故
+\[
+ \left\|\sum_{m\in\mathcal M}F_m^{\rm bulk}\right\|_{\rm HS}^2
+ =
+ \beta_L^4\sum_{|r|<d}\sum_{k\in I_r}
+ \left|\sum_{m\in\mathcal M}
+ \widehat Q_m(r)e^{i(T+kh)\log m}\right|^2.
+\]
+$\log m/L\pmod1$ 的圆周间距为 $\gg(LM)^{-1}$。对每个 $r$ 应用
+Montgomery--Vaughan 圆周 Hilbert 不等式 \cite{MV74}，再求和即得
+\eqref{eq:adjacent-mv}。
+
+Parseval、素数幂支撑和
+$\sum_{n\le X}\Lambda(n)^2/n\ll L^2$ 给
+$\mathcal S_0([4,X])\ll L^4$。定理 \ref{thm:adjacent-edge} 的同一
+path-overlap 证明还给
+\[
+ \mathcal S_0((X^{1-\delta},X])
+ \ll L^4\delta^{2\kappa+2}+o(L^4).
+\]
+在 $m\le X^{1-\delta}$ 上，\eqref{eq:adjacent-mv} 的误差为
+$O(LX^{1-\delta})=o(N)$；edge 的对角、large-sieve remainder 与其
+aggregate 均为 $O(N\delta^{2\kappa+2})+o(N)$，interior--edge 交叉项为
+$O(N\delta^{\kappa+1})+o(N)$。先令 $T\to\infty$，再令
+$\delta\downarrow0$，bulk family 渐近对角化。
+
+最后令 $E_m=F_m^{\rm fin}-F_m^{\rm bulk}$。由
+\eqref{eq:cluster-transfer}，
+\[
+ \left\|\sum_{m\le X}E_m\right\|_{\rm HS}^2
+ \le X\sum_m\|E_m\|_{\rm HS}^2
+ \ll X\log L=o(N).
+\]
+再用 \eqref{eq:subset-transfer} 比较 diagonal sums，得到
+\eqref{eq:subcritical-adjacent}。
+\end{proof}
+
+\begin{proposition}[Hankel direct-sum 的 sharp no-go {[N]}]
+\label{prop:hankel-family-nogo}
+精确 Hankel defect 形式、一致 $W^{2,1}$ 正则性、互异调制频率和
+$\sum_{j\le K}\|E_j\|_{\rm HS}^2=B$ 不能推出优于 Cauchy 的 family
+bound；存在这样的数据使
+\[
+ \left\|\sum_{j\le K}E_j\right\|_{\rm HS}^2=KB.
+\]
+\end{proposition}
+
+\begin{proof}
+在长度 $L$ 的圆上取 $f(u)=e^{-ihu}$、$g(u)=e^{ihu}$。则
+\[
+ P_d\mathcal L(f)(I-P_d)\mathcal L(g)P_d
+ =|e_0\rangle\langle e_0|,
+\]
+而 $\|f'\|_1=2\pi$、$\|f'\|_2=2\pi/\sqrt L$、
+$\|f''\|_1=4\pi^2/L$，$g$ 同理。取互异
+$x_j=2\pi n_j/T$ 并令
+\[
+ E_j=\sqrt{B/K}\,e^{iTx_j}
+ |e_0\rangle\langle e_0|D_d(x_j).
+\]
+所有 $E_j$ 都等于 $\sqrt{B/K}|e_0\rangle\langle e_0|$，结论达到
+Cauchy 上界。
+\end{proof}
+
+命题 \ref{prop:hankel-family-nogo} 的 symbols 不是 zeta 的非负
+compact-support responses，故它不反驳真实估计；它排除的是从抽象
+direct-sum $O(\log L)$ 直接推出 family-frame 的证明模板。adjacent 的唯一
+剩余边界输入现为
+\[
+ \left\|\sum_{m>X}F_m^{\rm fin}\right\|_{\rm HS}^2=o(N).
+ \label{eq:supercritical-hankel}
+\]
+这必须利用 actual factorized prime response。alternating family 则仍需真实
+Vaughan response 子空间上的 Farey Gram 一侧 Schur bound，不能使用
+all-direction large sieve。
 
 端点窗的 $O(\ell^3)$ 不代表逐点占优：所有 shifts 重合时，其正规化 overlap
 为 $3\pi^4/128>1$。因此窗口筛选必须联合测量 bulk diagonal、边缘 path 和
@@ -1049,8 +1156,10 @@ $R(b_2,b_4)=4/[9(b_4+1/3)]>\kappa$，再应用定理
 尚未把 alternating Farey Gram、$3+1,4+0$、Archimedean 背景和完整窗口
 边界统一压入该预算；但命题 \ref{prop:zero-tail-fourth} 已消去 zero-side
 tail，定理 \ref{thm:toeplitz-adjacent} 又闭合了 adjacent exact-product
-diagonal 的 finite-to-bulk edge。adjacent 的不同乘积 near-resonance 仍须
-单独使用长度 $X$ 的 vector-valued Montgomery--Vaughan 分解。
+diagonal 的 finite-to-bulk edge；定理 \ref{thm:adjacent-mv} 进一步闭合
+$m\le X$ 的整个 adjacent family。该通道只剩
+\eqref{eq:supercritical-hankel} 的 supercritical boundary coherence；
+alternating Farey Gram 仍完全独立。
 有限无权 Dirichlet 多项式实验显示三族之间确有显著相消，但不构成 zeta
 四矩估计。相应可执行账本见
 \texttt{scripts/fourth\_moment\_channel\_audit.py}。
@@ -1307,9 +1416,9 @@ prime/continuum/Gamma response 记号，计算响应前后 $R$ 的精确 Schur �
 \item 在冻结有限模型上同时优化窗 $\psi$ 与 Brownian response，而不是只优化窗；
 \item 证明 weighted boundary estimate
 $\|J_T-J_{\infty,T}\|_{\rm HS}^2=o(L^3/(1+\log L)^2)$；
-\item 将已完成的 adjacent edge transfer 与 vector-valued
-Montgomery--Vaughan interior disintegration 对接，并对 alternating Farey Gram
-构造 Vaughan response-specific Schur 证书；
+\item 对已隔离的 supercritical Hankel aggregate
+\eqref{eq:supercritical-hankel} 建立 factorized response Schatten 界，并对
+alternating Farey Gram 构造 Vaughan response-specific Schur 证书；
 \item 对离线测试零点 $\rho=\tfrac12+\eta+i\gamma$ 计算其 Gabor feature
 在正背景商空间中的最小奇异值，建立 $v_T(\eta)$ 的模型尺度；
 \item 将有限 response feasibility 写成 block PSD 与二阶锥问题，记录最优半径随
@@ -1381,6 +1490,11 @@ Adv. Math. \textbf{13} (1974), 383--436.
 H. L. Montgomery,
 \emph{The pair correlation of zeros of the zeta function},
 Proc. Sympos. Pure Math. \textbf{24} (1973), 181--193.
+
+\bibitem{MV74}
+H. L. Montgomery and R. C. Vaughan,
+\emph{Hilbert's inequality},
+J. London Math. Soc. (2) \textbf{8} (1974), 73--82.
 
 \bibitem{Weil52}
 A. Weil,
