@@ -108,6 +108,10 @@ CHECKS = (
         [sys.executable, "alias_seam_overlap_audit.py"],
     ),
     (
+        "ordinary seam and semiprime harmonic correlation",
+        [sys.executable, "ordinary_seam_kernel_audit.py"],
+    ),
+    (
         "adjacent Montgomery--Vaughan and boundary no-go",
         [sys.executable, "adjacent_mv_boundary_no_go_audit.py"],
     ),

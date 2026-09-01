@@ -509,3 +509,10 @@ ordinary edge 的 overlap kernel
 
 这些有限检查只审计恒等式、符号方向、索引和 sharp endpoint geometry；解析结论
 来自上面的证明，而不是由有限样本外推。
+## 13. 后续更新
+
+笔记 214 已把 ordinary translated overlap 按 \(m=ad\)、\(n=bc\) 压成
+\((\Lambda*\Lambda)\) 的谐和 additive-shift correlation，并利用已发表的
+almost-all \(E_2\)-shift theorem 证明该相关为 \(o(XL^4)\)。因此开放引理
+213-G 已闭合；与笔记 212--213 合并后，整个 \(ab\le X\) primitive
+hyperbolic ratio family 已 atomic diagonalize。下一输入移到 \(ab>X\) sector。

@@ -117,9 +117,11 @@
 38. Bernard Mourrain, Konrad Schmüdgen, *Flat extensions in star-algebras*（论文原题使用星号；arXiv:1406.4975；Proc. Amer. Math. Soc. 144 (2016), 4873--4885）。提供一般 star-algebra 中正泛函 flat extension 的背景。文档 202 的 65 维 no-go 说明固定 degree-four scalar data 并无所需 flatness，故必须增长 localizer 层次。
    https://arxiv.org/abs/1406.4975
 
-37. Esther Notik, *A sharp four-moment inertia bound for the zeros of the Riemann zeta function* (working paper, August 2026)。该稿提出在相同四矩数据下保留 rank--trace--inertia 账本可得 16/21 与 37/42。这是尚未同行评议的近期 working paper；文档 197 与独立论文逐式重证其有限维 quartic dual、闭式比例和匹配极端谱测度，但不据此认定 zeta 的四矩算术假设已成立。
+39. Esther Notik, *A sharp four-moment inertia bound for the zeros of the Riemann zeta function* (working paper, August 2026)。该稿提出在相同四矩数据下保留 rank--trace--inertia 账本可得 16/21 与 37/42。这是尚未同行评议的近期 working paper；文档 197 与独立论文逐式重证其有限维 quartic dual、闭式比例和匹配极端谱测度，但不据此认定 zeta 的四矩算术假设已成立。
    https://www.academia.edu/171780663/
 
+40. Natalie Evans, *Correlations of almost primes*, Mathematical Proceedings of the Cambridge Philosophical Society 174 (2023), 301--344. Theorem 1.3 对一般 \(E_2\) numbers 给出 \(\exp((\log X)^{1-\varepsilon})\le H\le X\log^{-A}X\) 范围内除 \(O(H\log^{-B}X)\) 个 shifts 外的 Hardy--Littlewood 型渐近；Lemma 2.1 记录 singular series 的平均上界。文档 214 只使用其 almost-all upper-bound 后果，并用独立 Cauchy budget 处理 exceptional shifts；不调用逐 fixed-shift 猜想。
+   https://doi.org/10.1017/S0305004122000251
 ## 使用这些来源时的边界
 
 - Deligne 已无条件证明有限域结论，但不是通过证明全部 standard conjectures；不能把 standard conjectures 的一般成立当成已知事实。
