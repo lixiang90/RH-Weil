@@ -112,6 +112,10 @@ CHECKS = (
         [sys.executable, "ordinary_seam_kernel_audit.py"],
     ),
     (
+        "supercritical logarithmic collar coordinates",
+        [sys.executable, "supercritical_collar_coordinate_audit.py"],
+    ),
+    (
         "adjacent Montgomery--Vaughan and boundary no-go",
         [sys.executable, "adjacent_mv_boundary_no_go_audit.py"],
     ),

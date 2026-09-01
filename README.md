@@ -462,6 +462,7 @@ xelatex rh-weil-structure-paper.tex
 - [Hyperbolic radial-chain closure 与 aperture seam compression](notes/212-hyperbolic-radial-chain-aperture-seam.md)
 - [Radial alias seam 的精确支撑间隙与迹类闭合](notes/213-radial-alias-seam-support-gap.md)
 - [二素数谐和相关闭合 ordinary ratio seam](notes/214-semiprime-harmonic-correlation-ordinary-seam.md)
+- [定量 E2 saving 与 supercritical logarithmic collar](notes/215-quantitative-e2-supercritical-collar.md)
 - [研究分支看板](RESEARCH_BRANCHES.md)
 - [文献与证据边界](notes/003-sources.md)
 

@@ -676,3 +676,13 @@ Hardy--Littlewood asymptotic。因此本轮不是把 RH 或完整四矩换名为
 \(\mathfrak H(X)/(XL^4)\) 从约 \(0.0642\) 降至 \(0.0532\)。这些数值只验证
 索引、normalization 与理论 majorant 的方向；式 (28) 的证明来自定理 214-E
 与三段解析预算，而不是有限外推。
+
+## 13. 后续更新（笔记 215）
+
+笔记 215 将本笔记的 little-oh 加强为：对任意 fixed \(\vartheta>0\)，有
+\(o_\vartheta(Y(\log Y)^{3+\vartheta})\)，并引入 product excess
+\(e=\log(ab/X)\) 与 ratio \(s=\log(a/b)\) 的精确坐标。determinant
+scale 为 \(Y=X\exp((e+e')/2)\)，卷积阶仍是 \(\Lambda*\Lambda\)；由此
+任意 fixed \(\kappa<1\) 的 supercritical collar
+\(ab\le X(\log X)^\kappa\) 也已 atomic diagonalize。新的最小输入位于
+\(ab\asymp X\log X\) 的 transition layer。
