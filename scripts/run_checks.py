@@ -63,6 +63,10 @@ CHECKS = (
         "formal soft zeta orbit response",
         [sys.executable, "audit_soft_zeta_orbit.py"],
     ),
+    (
+        "partial Weil proportions and depth visibility",
+        [sys.executable, "partial_weil_audit.py"],
+    ),
 )
 
 

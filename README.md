@@ -4,6 +4,11 @@
 
 ## 正式论文整理稿
 
+另有独立备选方向论文
+[partial-weil-configurations-paper.tex](partial-weil-configurations-paper.tex)：
+《部分 Weil 配置、中心线零点比例与非零区域》，整理二阶/四阶矩、随机矩阵、
+非零区域及 Connes 非交换几何载体路线。
+
 现有 001--173 篇笔记已经整理为中文论文；第 174--180 篇是下一轮研究路线及独立分支成果，暂不并入论文正文：
 
 - [`rh-weil-structure-paper.tex`](rh-weil-structure-paper.tex)：《从 Weil 猜想到数域中心线：极化、过滤 Hodge 结构与黎曼猜想的存在性审计》；

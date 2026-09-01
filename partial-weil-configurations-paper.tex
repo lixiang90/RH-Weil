@@ -1,0 +1,752 @@
+\documentclass[UTF8,11pt,a4paper]{ctexart}
+\usepackage[margin=2.45cm]{geometry}
+\usepackage{amsmath,amssymb,amsthm,mathtools}
+\usepackage{bm,booktabs,array,longtable}
+\usepackage[colorlinks=true,linkcolor=blue,citecolor=blue,urlcolor=blue]{hyperref}
+\usepackage{enumitem}
+
+\newtheorem{theorem}{定理}[section]
+\newtheorem{proposition}[theorem]{命题}
+\newtheorem{lemma}[theorem]{引理}
+\newtheorem{corollary}[theorem]{推论}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{定义}
+\newtheorem{problem}[theorem]{问题}
+\theoremstyle{remark}
+\newtheorem{remark}[theorem]{注}
+
+\newcommand{\tr}{\operatorname{tr}}
+\newcommand{\rank}{\operatorname{rank}}
+\newcommand{\HS}{\mathrm{HS}}
+\newcommand{\Id}{\mathrm{Id}}
+\newcommand{\eps}{\varepsilon}
+\newcommand{\cW}{\mathfrak W}
+\newcommand{\spec}{\operatorname{spec}}
+\newcommand{\Rea}{\operatorname{Re}}
+
+\title{部分 Weil 配置、中心线零点比例与非零区域\\
+\large 惯性、矩证书及数域实现的结构性框架}
+\author{RH--Weil 结构研究项目}
+\date{2026 年 9 月 1 日}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+完整 Weil 正性迫使全部零点位于中心线，但对数域 zeta 函数而言，直接构造这种正性
+几乎就是原问题本身。本文研究较弱而仍保留 Weil 几何的目标：有限压缩只需具有
+函数方程给出的符号块、正确的一阶迹以及可控的二阶或高阶谱矩。我们定义
+\emph{部分 Weil 配置}，从有限维 rank--trace 不等式推出稳健的抽象比例定理：
+若归一化迹至少为 $\tau$，Hilbert--Schmidt 二阶矩至多为 $R$，则中心线上简单对象
+的比例至少为 $4\tau-2-R$，互异对象的比例至少为 $(4\tau-R-1)/2$。
+
+本文再给出两种升级机制。高阶矩的多项式谱证书把随机矩阵或素数侧混合矩信息
+转化为正惯性下界；离线深度可见性则把负谱迹转化为远离中心线的零点密度，并在
+负谱预算小于单个离线对的可见深度时给出真正的非零区域。这解释了为什么二阶矩
+足以证明正比例、却不能单独排除稀疏的离线零点。
+
+Weil 显式公式和函数方程已经构造数域上的矩阵及符号块；当前素数侧二阶矩给出
+Riemann zeta 与本原 Dirichlet $L$ 函数的 $0.67250\ldots$ 简单中心线比例。
+进一步改进需要降低二阶矩常数、建立高阶矩证书，或证明深度可见性与负谱预算。
+弱紧致性和凸分离可把“所有有限问题一致可解”提升为非构造的全局响应，但不能
+凭空产生所需的一致算术预算。
+\end{abstract}
+
+\paragraph{结论状态。}
+本文中的有限维线性代数定理均为无条件结论；应用到 zeta 的
+$0.67250\ldots$ 数值是对 Alpöge--Furman 最新结果的结构化重述，而不是新的纪录。
+高阶矩、深度可见性及 Brownian--Vaughan 响应与 zeta 的统一估计被标为待证输入。
+
+\section{问题的放宽仍应保留 Weil 结构}
+
+经典 Weil 判据把 Riemann 假设等价地写成一个 Hermitian 形式在全部测试函数上
+半正定。有限域情形中，正极化、Hard Lefschetz 与函数方程共同把 Frobenius 谱压到
+正确绝对值。数域中若直接假设同样的完整正性，所得“存在性定理”往往与 RH 循环。
+因此更可操作的问题是：
+\begin{quote}
+有限压缩还保留哪些 Weil 型结构时，能够推出非零区域、中心线零点比例或互异性
+比例？数域 zeta 的显式公式能否构造这些较弱配置，或者至少非构造地证明其存在？
+\end{quote}
+
+2026 年 Alpöge--Furman 的工作 \cite{AF26} 给出了决定性的例子：将 Weil
+Hermitian 形式限制到约 $N(T,2T)$ 个调制测试函数上。中心线零点贡献半正定
+rank-one 块；离线函数方程对贡献一个惯性为 $(1,1)$ 的块。素数侧则无条件给出
+一阶迹与 Hilbert--Schmidt 二阶矩。rank--trace 不等式取代此前零点侧的逐项正性，
+得到至少 $2/3$、经 Montgomery--Taylor 窗优化后至少 $0.67250\ldots$
+的零点简单且在中心线上。
+
+这说明，放宽目标并不要求回到与 Weil 路线无关的经典 mollifier 技术。零点比例
+本身可由一个\emph{不完全正、但符号受函数方程控制}的 Weil 配置推出。本文抽离
+该机制，并标出向更强结论升级时必需的新结构。
+
+\section{部分 Weil 配置}
+
+所有矩阵均为有限维复 Hermitian 矩阵。记 $n_+(A)$ 为 $A$ 的严格正特征值个数，
+$n_-(A)$ 为严格负特征值个数，并令
+\[
+ \|A\|_{\HS}^2=\tr(A^2),\qquad
+ A_-=\frac{|A|-A}{2},\qquad \mathcal{D}_-(A)=\tr A_-.
+\]
+
+\begin{definition}[有限部分 Weil 配置]
+给定非负实数 $N,s,b,D,E_0,E_1$，一个
+\[
+ \cW=(G,P,Q;N,s,b,D;E_0,E_1)
+\]
+称为有限部分 Weil 配置，如果
+\begin{align}
+ &G=P+Q,\quad P\succeq0,\quad \rank P\le s,\quad \tr P\le s, \label{eq:pw1}\\
+ &n_+(Q)\le b, \label{eq:pw2}\\
+ &\tr P+2b\le N+E_0,\quad s+2b\le N+E_1, \label{eq:pw3}\\
+ &D\ge s+b. \label{eq:pw4}
+\end{align}
+$N$ 是按重数计的总对象数；$s$ 是中心线上简单对象的容许上界；
+$b$ 汇总中心线多重点和离线对的正惯性预算；$D$ 是互异对象数的下界账本。
+$E_0,E_1$ 允许窗口边界、远尾或归一化误差。
+\end{definition}
+
+在 zeta 应用中，$P$ 只收集简单中心线零点。中心线多重点被放入 $Q$ 的正部分，
+每个离线函数方程对给 $Q$ 至多一个正方向和一个负方向。因此
+$b=s_2+p$，其中 $s_2$ 为中心线多重点数、$p$ 为离线对数；
+$D\ge s_1+s_2+p$ 且 $N\ge s_1+2s_2+2p$。定义有意不引用 zeta，
+因而同样适用于自对偶 $L$ 函数、相对行列式或任何带对称 divisor 的显式公式。
+
+\section{rank--trace 引理与比例结构定理}
+
+\begin{lemma}[rank--trace 不等式 {\cite[Lemma 3.2]{AF26}}]\label{lem:rt}
+若 $P,Q$ 为 Hermitian 矩阵，$P\succeq0$、$\rank P\le r$ 且
+$n_+(Q)\le b$，则
+\begin{equation}\label{eq:rt}
+ r\ge 2\tr P+4\tr Q-4b-\|P+Q\|_{\HS}^2.
+\end{equation}
+当 $P=\Pi_1$、$Q=2\Pi_2$，且 $\Pi_1,\Pi_2$ 是秩分别为 $r,b$
+的正交投影时取等号。
+\end{lemma}
+
+\begin{proof}
+写 $Q=Q_+-Q_-$，其中 $Q_\pm\succeq0$、$Q_+Q_-=0$ 且
+$\rank Q_+\le b$。设 $p_i,n_i$ 分别为 $P,Q_-$ 的降序特征值。
+von Neumann 迹不等式给出 $\tr(PQ_-)\le\sum_i p_i n_i$。
+于是由 $x^2\ge2x-1$，
+\[
+ \|P\|_{\HS}^2-2\tr(PQ_-)+\|Q_-\|_{\HS}^2
+ \ge \sum_i(p_i-n_i)^2
+ \ge 2\tr P-r-4\tr Q_-.
+\]
+另一方面，对 $Q_+$ 的至多 $b$ 个正特征值使用 $x^2\ge4x-4$，得到
+$\|Q_+\|_{\HS}^2\ge4\tr Q_+-4b$。再用 $\tr(PQ_+)\ge0$ 并相加，
+即得 \eqref{eq:rt}。
+\end{proof}
+
+\begin{theorem}[部分 Weil 配置的比例定理]\label{thm:partial}
+对任意有限部分 Weil 配置，
+\begin{align}
+ s&\ge4\tr G-\|G\|_{\HS}^2-2N-2E_0, \label{eq:sbound}\\
+ D&\ge\frac{4\tr G-\|G\|_{\HS}^2-N-E_1}{2}. \label{eq:dbound}
+\end{align}
+右侧为负时只保留平凡下界 $0$。
+\end{theorem}
+
+\begin{proof}
+在引理 \ref{lem:rt} 中取 $r=s$。由 $G=P+Q$，
+\[
+ s\ge4\tr G-2\tr P-4b-\|G\|_{\HS}^2.
+\]
+利用 $\tr P+2b\le N+E_0$ 即得 \eqref{eq:sbound}。
+又因为 $\tr P\le s$，有 $3s+4b\ge4\tr G-\|G\|_{\HS}^2$。
+而 $2D\ge2(s+b)=(3s+4b)-(s+2b)$，再用
+$s+2b\le N+E_1$ 得 \eqref{eq:dbound}。
+\end{proof}
+
+\begin{corollary}[归一化缺陷账本]\label{cor:defect}
+设一列配置满足 $N\to\infty$，
+\[
+ \tr G\ge\tau N,\qquad \|G\|_{\HS}^2\le RN,\qquad E_j\le\eps_jN.
+\]
+则
+\begin{align}
+ \frac{s}{N}&\ge\max\{0,\,4\tau-2-R-2\eps_0\}, \label{eq:norms}\\
+ \frac{D}{N}&\ge\max\{0,\,\tfrac12(4\tau-R-1-\eps_1)\}. \label{eq:normd}
+\end{align}
+特别地，若 $\tau=1-\delta_{\rm tr}$、$R=1+\delta_2$ 且
+$\eps_j=o(1)$，则
+\[
+ \frac{s}{N}\ge1-4\delta_{\rm tr}-\delta_2-o(1),\qquad
+ \frac{D}{N}\ge1-2\delta_{\rm tr}-\frac{\delta_2}{2}-o(1).
+\]
+\end{corollary}
+
+迹误差在简单中心线比例中被放大四倍，而二阶矩超额只支付一次。因此候选构造应
+先确保临界密度框架的迹归一化，再优化 prime/Gamma/continuum 合并后的二阶矩。
+
+\begin{corollary}[尖锐模型]\label{cor:sharp}
+只使用 $\tr G$、$\|G\|_{\HS}^2$ 与块账本时，定理
+\ref{thm:partial} 是尖锐的。令 $P=\Pi_1$、$Q=2\Pi_2$，
+$\Pi_1\perp\Pi_2$，取 $\rank\Pi_1=2N/3$、$\rank\Pi_2=N/6$，则
+\[
+ \tr G=N,\quad \|G\|_{\HS}^2=\frac43N,\quad
+ \frac{s}{N}=\frac23,\quad \frac{D}{N}=\frac56.
+\]
+\end{corollary}
+
+所以要在相同信息层级上越过 $2-R$，不能仅改进线性代数常数；必须降低 $R$，
+扩大测试函数 Fourier 支撑并获得新的 prime correlation 输入，或加入高阶谱信息。
+
+\section{当前 zeta 实现与 0.67250\ldots}
+
+Alpöge--Furman \cite{AF26} 的矩阵 $\widetilde G_T$ 是 Weil 形式在
+$d\sim N(T,2T)$ 个临界密度 Gabor 测试函数上的压缩。其零点侧给出：
+\begin{enumerate}[label=(Z\arabic*)]
+\item 中心线简单零点产生半正 rank-one 项；
+\item 离线函数方程对 $\{\rho,1-\bar\rho\}$ 的实矩阵项可写为
+$2(aa^{\mathsf T}-bb^{\mathsf T})$，故正惯性至多为一；
+\item 窗口远尾是迹范数 $o(1)$，且
+$\tr\widetilde G_T=(1+o(1))N(T,2T)$。
+\end{enumerate}
+这些是 Weil 型部分：显式公式负责同一个 Hermitian form，函数方程负责符号块，
+而不需要先知道零点在中心线上。
+
+素数侧无条件计算
+\[
+ \|\widetilde G_T\|_{\HS}^2=(R(\psi)+o(1))N(T,2T).
+\]
+对指标窗 $R=4/3$，定理 \ref{thm:partial} 给 $2/3$ 和 $5/6$。
+Montgomery--Taylor 窗给
+\[
+ R=c_{\rm MT}^{-1}
+ =\frac12+\frac1{\sqrt2}\cot\frac1{\sqrt2},
+\]
+从而
+\[
+ 2-R=0.67250\ldots,\qquad
+ \frac{3-R}{2}=0.83625\ldots.
+\]
+该构造已无条件覆盖 Riemann zeta 和每个固定的本原 Dirichlet
+$L(s,\chi)$ \cite{AF26}，且不用 mollifier、零密度估计或现成非零区域。
+
+\begin{remark}
+这项结果并没有说明剩余约 $32.75\%$ 的零点离开中心线；它们只是未被二阶矩证书
+识别。$o(N)$ 个离线零点对迹和二阶矩可以不可见。因此比例定理本身不能通过取极限
+自动变成 RH。
+\end{remark}
+
+\section{高阶矩与随机矩阵型谱证书}
+
+二阶矩方法把全部谱压缩成两个数。若能从素数侧、随机矩阵模型或 Brownian 响应
+得到更多混合矩，应直接逼近正半轴的谱指标函数，而不是把信息再次粗化为二阶矩。
+
+\begin{theorem}[多项式正惯性证书]\label{thm:poly}
+设 $\spec(G)\subset[-B,B]$。若实多项式
+$p(x)=\sum_{k=0}^m a_kx^k$ 满足
+\[
+ p(x)\le0\quad(-B\le x\le0),\qquad
+ p(x)\le1\quad(0<x\le B),
+\]
+则
+\begin{equation}\label{eq:polyindex}
+ n_+(G)\ge\tr p(G)=\sum_{k=0}^m a_k\tr(G^k).
+\end{equation}
+对部分 Weil 配置还有
+\begin{align}
+ s&\ge2\tr p(G)-N-E_1, \label{eq:polys}\\
+ D&\ge\tr p(G). \label{eq:polyd}
+\end{align}
+\end{theorem}
+
+\begin{proof}
+对每个特征值 $\lambda$，有 $p(\lambda)\le\mathbf1_{\lambda>0}$，求和给
+\eqref{eq:polyindex}。惯性次可加性给
+$n_+(P+Q)\le\rank P+n_+(Q)\le s+b$。
+于是 $D\ge s+b\ge n_+(G)$，且
+$2n_+(G)\le2(s+b)\le N+E_1+s$。代入即可。
+\end{proof}
+
+\begin{corollary}[极限谱版本]
+设经验谱测度 $\mu_T=d_T^{-1}\sum_j\delta_{\lambda_j(G_T)}$
+弱收敛到支撑在 $[-B,B]$ 的概率测度 $\mu$，且所有 $G_T$ 的谱统一落在该区间。
+则对每个满足定理 \ref{thm:poly} 条件的 $p$，
+\[
+ \liminf\frac{s_T}{N_T}
+ \ge2\frac{d_T}{N_T}\int p\,d\mu-1-\limsup\frac{E_{1,T}}{N_T},
+\quad
+ \liminf\frac{D_T}{N_T}\ge\frac{d_T}{N_T}\int p\,d\mu.
+\]
+\end{corollary}
+
+\subsection{四矩层级：13/18 与完整 rank--trace--inertia 改进}
+
+Alpöge--Furman \cite[\S7.2(d)--(f)]{AF26} 指出：若归一化矩
+\[
+ m_k=N^{-1}\tr G^k\quad(0\le k\le4)
+\]
+取 sine-kernel Gram 极限值
+\[
+ (m_0,m_1,m_2,m_3,m_4)
+ =\left(1,1,\frac43,2,\frac{13}{4}\right),
+\]
+则正惯性的 Christoffel 函数界
+$n_+(G)/N\ge1-\Lambda_2(0)$、$\Lambda_2(0)=5/36$，
+结合 $s/N\ge2n_+(G)/N-1$，给出
+\[
+ \frac{s}{N}\ge1-2\Lambda_2(0)=\frac{13}{18}=0.7222\ldots.
+\]
+这是\emph{四矩 Christoffel 层级}，不是随机矩阵路线的最终边界：
+同一论文指出，若全部矩均满足相应假设，则该机制的比例上限为 $1$。
+
+近期 working paper \cite{Notik26} 进一步保留 rank、trace 与 inertia 的完整账本，
+而不先把它们粗化为单个正惯性，得到更强的四矩结论。下面把其核心有限维证书
+纳入本框架；该线性代数部分可独立核验，但 zeta 的四矩算术假设仍是条件性的。
+
+\begin{lemma}[谱删除账本]\label{lem:deletion}
+设 $A$ 的特征值为 $\lambda_1\ge\cdots\ge\lambda_d$。存在
+$P\succeq0$ 使
+\[
+ \rank P\le r,\qquad \tr P\le t,\qquad n_+(A-P)\le b
+\]
+当且仅当
+\[
+ \#\{i>b:\lambda_i>0\}\le r,\qquad
+ \sum_{\substack{i>b\\\lambda_i>0}}\lambda_i\le t.
+\]
+\end{lemma}
+
+\begin{proof}
+必要性来自 Weyl 不等式
+$\lambda_{i+b}(A)\le\lambda_i(P)+\lambda_{b+1}(A-P)\le\lambda_i(P)$，
+再对正的左侧求和。反之，在 $A$ 的特征基中令
+$P=\sum_{i>b,\,\lambda_i>0}\lambda_i v_iv_i^*$ 即可。
+\end{proof}
+
+引理说明归一化谱测度可分成三部分：至多质量 $b/N$ 的删除正谱
+$\nu_d$；质量及一阶矩均至多 $s/N$ 的可覆盖正谱 $\nu_c$；
+以及支撑在 $(-\infty,0]$ 的余项。
+
+\begin{theorem}[精确四矩 rank--inertia 证书 {\cite{Notik26}}]
+\label{thm:quartic}
+假设 $m_0=m_1=1+o(1)$，令中心矩
+\[
+ b_2=m_2-1,\qquad b_4=m_4-4m_3+6m_2-3.
+\]
+若
+\[
+ 1-2b_2+b_4>0,\qquad
+ \sigma_*=\frac{b_2-b_4}{1-b_2}<\frac34,
+\]
+则部分 Weil 配置满足
+\[
+ \liminf\frac{s}{N}\ge
+ R(b_2,b_4):=\frac{(1-b_2)^2}{1-2b_2+b_4},
+\qquad
+ \liminf\frac{D}{N}\ge\frac{1+R(b_2,b_4)}2.
+\]
+\end{theorem}
+
+\begin{proof}[证书要点]
+对 $\theta>0,\sigma<3/4$ 令
+\[
+ P_{\theta,\sigma}(x)
+ =\theta(1-\sigma)^2+4\theta(1-\sigma)x
+ -\theta\big((x-1)^2-\sigma\big)^2.
+\]
+写 $u=\theta(1-\sigma)$。直接求导和配方给
+\[
+ P_{\theta,\sigma}(x)\le
+ \begin{cases}
+ 0,&x\le0,\\
+ u(1-\sigma)+4ux,&x\in\mathbb R,
+ \end{cases}
+ \qquad
+ P_{\theta,\sigma}(x)\le8u.
+\]
+将其分别积分于余项、$\nu_c$ 与 $\nu_d$，得到
+\[
+ \int P_{\theta,\sigma}\,d\nu
+ \le u(5-\sigma)\frac{s}{N}+8u\frac{b}{N}.
+\]
+另一方面展开四次式，并用 $m_0=m_1=1$，
+\[
+ \int P_{\theta,\sigma}\,d\nu
+ =u(5-\sigma)-\theta(\sigma^2-2b_2\sigma+b_4).
+\]
+再用 $s+2b\le N+o(N)$，可得
+\[
+ (1-\sigma)^2\left(1-\frac{s}{N}\right)
+ \le\sigma^2-2b_2\sigma+b_4+o(1).
+\]
+在 $\sigma=\sigma_*$ 处优化即得第一个结论。对
+$1-s/N-b/N$ 作同一估计并使用 $b/N\le1-s/N-b/N$，得到第二个结论。
+\end{proof}
+
+\begin{corollary}[同一四矩数据的更强条件比例]
+若
+$(m_1,m_2,m_3,m_4)=(1,\frac43,2,\frac{13}{4})+o(1)$，则
+$b_2=1/3,b_4=1/4$，故
+\[
+ \frac{s}{N}\ge\frac{16}{21}=0.761904\ldots,\qquad
+ \frac{D}{N}\ge\frac{37}{42}=0.880952\ldots.
+\]
+一个匹配的极端谱测度在
+$1\pm1/(2\sqrt2)$ 各放质量 $8/21$，在 $2$ 和 $0$ 各放质量
+$5/42$；它具有上述前四矩。因此在这些矩与账本内，$16/21$ 是尖锐值。
+\end{corollary}
+
+这使最值得优先尝试的算术目标发生变化。对平窗 $b_2=1/3$，若只想严格改善
+当前无条件常数
+\[
+ \kappa=2-\left(\frac12+\frac1{\sqrt2}\cot\frac1{\sqrt2}\right),
+\]
+不必证明完整 Hardy--Littlewood 四矩渐近；只需一侧估计
+\[
+ b_4<\frac4{9\kappa}-\frac13
+ =0.3275499074\ldots.
+\]
+预计值 $b_4=1/4$ 留有约 $31\%$ 的相对裕量。不过该 $b_4$ 是有效长度约
+$T^2$、系数含 $(\Lambda*\Lambda)(m)m^{-1/2}$ 的正半定 Dirichlet 多项式均值；
+普通 Montgomery--Vaughan 误差会比对角项大约多一个 $T$ 因子，仍需保留真实
+算术相消。
+
+随机矩阵型路线由三步组成：
+\begin{enumerate}
+\item 选择仍带零点侧函数方程块解释的 Weil 压缩 $G_T$；
+\item 在素数侧证明 $\tr(G_T^k)$ 的极限或严格界，而不预设 RH；
+\item 解单变量多项式 minorant 问题，将矩转为正惯性。
+\end{enumerate}
+随机矩阵启发可以建议极限谱和最优多项式，但真正的数论输入仍是第二步。通常的
+GUE 零点间距猜想也不直接够用，因为这里需要的是压缩 Weil 矩阵的矩，而不是先
+假定所有零点实后得到的 ordinate 点过程。
+
+\begin{remark}[有理证书]
+若没有统一算子范数界，可用有界有理函数替代多项式，例如由 resolvent
+$(G-z)^{-1}$ 的矩阵元或 Stieltjes 变换构造
+$r(x)\le\mathbf1_{x>0}$。这与本项目此前的 Cauchy/被动系统路线自然兼容，
+也避免高次多项式在远谱处爆炸。
+\end{remark}
+
+\section{Connes 非交换几何迹公式作为另一种配置载体}
+
+Connes 的 1998 年论文 \cite{Connes98} 在 adele 类空间
+$X=\mathbb A/k^*$ 上研究 idele 类群的作用，把临界零点解释为 absorption
+spectrum，把可能的非临界零点解释为相对于中心线的 resonances。其有限地方集
+$S$ 的迹公式得到证明；全局公式则通过 cutoff 投影 $Q_\Lambda$ 写成
+\[
+ \tr(Q_\Lambda U(h))
+ =2h(1)\log''\Lambda+
+ \sum_v\int_{k_v^*}''\frac{h(u^{-1})}{|1-u|}\,d^*u+o(1).
+\]
+在正特征全局域上，Connes 的 Theorem 5 证明此全局迹公式与所有
+Grössencharakter $L$ 函数的 RH 等价；数域部分使用
+Landau--Pollak--Slepian 的 prolate 投影几何处理 Archimedean cutoff。
+
+这篇论文提供的是一个非常自然的\emph{非交换几何载体}，并不包含
+$13/18$ 或其他零点比例常数。对本项目而言，正确的新问题不是再次假设其完整全局
+迹公式，因为那会回到 RH 等价命题；而是建立一个较弱的“部分 Connes--Weil 迹
+公式”：
+\begin{enumerate}
+\item 只对有限 Gabor/prolate family 控制 $\tr(Q_\Lambda U(h))$；
+\item 证明函数方程共振在该压缩中具有所需惯性块；
+\item 从局部或 $S$-local 几何估计前二矩、四矩的一侧上界或深度 frame 常数。
+\end{enumerate}
+若这三步可在不证明完整全局迹公式的情况下完成，Connes carrier 就可直接接入
+定理 \ref{thm:partial}、\ref{thm:quartic} 或 \ref{thm:region}。这是一条与
+显式公式 Gabor 压缩不同、但结构兼容的构造路线。
+
+\section{从比例到非零区域：深度可见性}
+
+离线块具有一个负方向，只是一个惯性陈述；它不保证有限测试族以统一强度看见
+该方向。若零点贡献向量几乎落入压缩的核中，负特征值可以任意接近零。因此非零
+区域需要比比例定理严格更强的输入。
+
+\begin{definition}[深度可见性]\label{def:visibility}
+记 $B_\eta$ 为给定高度窗内满足
+$|\Rea\rho-\tfrac12|\ge\eta$ 的函数方程零点对数。
+称 Hermitian 压缩 $G$ 对深离线零点具有 $(\eta,v,E_\eta)$-可见性，如果存在
+子空间 $U_\eta$，满足
+\[
+ \dim U_\eta\ge B_\eta-E_\eta,\qquad
+ \langle Gx,x\rangle\le-v(\eta)\|x\|^2
+ \quad(x\in U_\eta),
+\]
+其中 $v(\eta)>0$。
+\end{definition}
+
+\begin{theorem}[负谱预算推出密度与非零区域]\label{thm:region}
+若 $G$ 具有 $(\eta,v,E_\eta)$-可见性，则
+\begin{equation}\label{eq:deepcount}
+ B_\eta\le E_\eta+\frac{\mathcal{D}_-(G)}{v(\eta)}.
+\end{equation}
+因此：
+\begin{enumerate}
+\item 若 $E_\eta=o(N)$ 且
+$\mathcal{D}_-(G)=o(v(\eta)N)$，则深离线零点对的相对密度趋于零；
+\item 若 $E_\eta=0$ 且 $\mathcal{D}_-(G)<v(\eta)$，则 $B_\eta=0$；
+\item 对变化的 $\eta=\eta(T)$，若第二条最终成立，则全部零点落在
+$|\Rea s-\tfrac12|<\eta(T)$ 中。取
+$\eta(T)=\tfrac12-c/\log T$ 时，这包含经典靠近 $\Rea s=1$
+的非零区域表述。
+\end{enumerate}
+\end{theorem}
+
+\begin{proof}
+由 Courant--Fischer 极小极大原理，$G$ 至少有
+$B_\eta-E_\eta$ 个特征值不大于 $-v(\eta)$。因此
+$\mathcal{D}_-(G)\ge v(\eta)(B_\eta-E_\eta)$。
+\end{proof}
+
+\begin{proposition}[正负 synthesis 的可检验充分条件]\label{prop:synthesis}
+设
+\[
+ G=CC^*-BB^*
+\]
+且存在 $r$ 维子空间 $U$ 与 $\alpha>\beta\ge0$，使得
+\[
+ \langle BB^*x,x\rangle\ge\alpha^2\|x\|^2,\qquad
+ \langle CC^*x,x\rangle\le\beta^2\|x\|^2\quad(x\in U).
+\]
+则 $G|_U\preceq-(\alpha^2-\beta^2)\Id$。因而若
+$r\ge B_\eta-E_\eta$，定义 \ref{def:visibility} 成立且
+$v(\eta)=\alpha^2-\beta^2$。
+\end{proposition}
+
+命题 \ref{prop:synthesis} 把新输入分成两个量：负离线特征的下 frame bound
+$\alpha$，以及正背景泄漏 $\beta$。最理想的情形是 $U\subset\ker C^*$，
+此时只需控制负特征在商空间中的最小奇异值。更一般地可用 Schur/Feshbach 补
+计算 $\alpha^2-\beta^2$。这正是 divisor-mode separation 的定量版本。
+
+\begin{remark}[为什么二阶矩不够]
+定理 \ref{thm:partial} 只使用 $n_+(Q)\le b$，而定理
+\ref{thm:region} 要求负特征值远离零。有限个或 $o(N)$ 个极浅负方向可以同时满足
+正确迹、正确二阶矩和任何固定正比例结论。因此从 $67.25\%$ 直接外推非零区域
+在逻辑上不成立；必须证明可见性或等价的负谱分离。
+\end{remark}
+
+\section{构造性实现：数域上已经有什么、还缺什么}
+
+\subsection{无条件可构造的三层}
+
+对 Riemann zeta 与本原 Dirichlet $L$ 函数，以下结构已经可由经典数据构造：
+\begin{enumerate}
+\item \textbf{Hermitian 核：}Weil 显式公式把零点侧与
+prime/Gamma/pole 侧写成同一个 sesquilinear form；
+\item \textbf{符号块：}函数方程把离线零点配成
+$\{\rho,1-\bar\rho\}$，其有限实压缩为 $(1,1)$ 型 pull-back；
+\item \textbf{一、二阶矩：}临界密度测试族给正确迹；长度不超过 $T$ 的
+Dirichlet 多项式均值给可计算的 Hilbert--Schmidt 矩。
+\end{enumerate}
+这三层已经足够实现定理 \ref{thm:partial}，并产生当前比例。
+
+\subsection{三类真正开放的升级输入}
+
+\begin{description}[leftmargin=3.7cm,style=nextline]
+\item[更小的二阶矩常数]
+在保持零点侧块账本和迹归一化的同时，使
+$R=\|G\|_{\HS}^2/N$ 下降。带宽 $1$ 的现有窗类有自身天花板；
+越过它需要支撑 $>1$ 的 prime pair-correlation 信息或新的预条件化压缩。
+
+\item[高阶混合矩]
+证明足够多的 $\tr G^k$ 或 resolvent 迹，使定理
+\ref{thm:poly} 的证书优于二阶 rank--trace。随机矩阵模型在这里是设计工具，
+而素数侧严格矩估计是证明输入。
+
+\item[深度可见性与负谱预算]
+证明深离线零点向量在测试族商空间中有统一 lower frame bound，并从算术侧控制
+$\mathcal{D}_-(G)$。这是改善非零区域乃至最终排除离线零点所需的额外结构。
+\end{description}
+
+\subsection{响应预条件化与 Brownian--Vaughan 路线}
+
+本项目此前把显式公式的算术 current 分成 Vaughan Type I、Type II 与连续通道，
+并对 degree-two probe 构造了精确的 Brownian primitive response Gram。形式上，
+若用可控响应 $R_T$ 对 Weil 压缩作预条件化，
+\[
+ G_T^{\rm corr}=G_T-\mathcal A_T R_T,
+\]
+理想目标是保持零点侧块账本与主迹，同时降低
+$\|G_T^{\rm corr}\|_{\HS}^2$，或者在深离线商空间中增加负谱可见度。
+这给出两个接口：
+\begin{align}
+ \Delta_2(R_T)
+ &=\|G_T-\mathcal A_TR_T\|_{\HS}^2-\|G_T\|_{\HS}^2,\\
+ v_T(\eta;R_T)
+ &=\inf_{\substack{x\in U_{\eta,T}\\\|x\|=1}}
+  -\langle(G_T-\mathcal A_TR_T)x,x\rangle.
+\end{align}
+前者直接改善比例，后者服务于非零区域。
+
+已有笔记 195 的 exact channel Gram 表明 Type I、Type II 与 continuum 的交叉项
+不能丢弃；对角能量可比完整能量大约高 $1.95$ 到 $3.36$ 倍。笔记 196 的
+Cauchy translate 审计目前只捕获约 $2.1\%$ 到 $22.9\%$ 的响应能量。
+这些数字只是有限诊断，尚未给出上述任一统一估计。特别是，Young/总变差界在自然
+缩放下是 scale-neutral 的，不能单独使 $R$ 下降。
+
+\section{非构造存在性：能做什么，不能做什么}
+
+非构造方法的正确用途不是宣称某个完整 Weil 结构必存在；后者若不含独立的算术
+约束，通常与 RH 等价。它们可以把无限个兼容约束降为有限可满足性，并把失败
+转化为显式对偶证书。
+
+\begin{theorem}[一致有限可满足性推出全局响应]\label{thm:compact}
+设 $H$ 为 Hilbert 空间，$\{C_i\}_{i\in I}$ 是闭球
+$\overline B_H(0,M)$ 中的弱闭集合。若任意有限 $J\subset I$ 都有
+\[
+ \bigcap_{i\in J}C_i\ne\varnothing,
+\]
+则 $\bigcap_{i\in I}C_i\ne\varnothing$。
+特别地，若每个 $C_i$ 是范数闭凸集，则结论成立。
+\end{theorem}
+
+\begin{proof}
+Hilbert 空间反射，故闭球在弱拓扑下紧。弱闭子集族具有有限交性质时，其总交非空。
+闭凸集由 Hahn--Banach 分离定理知为弱闭。
+\end{proof}
+
+应用时，$H$ 可取 Brownian primitive response 空间，$C_i$ 编码有限组
+prime/Gamma/continuum 通道的 affine 匹配、PSD block、Hilbert--Schmidt 球或
+Schur complement 约束。定理 \ref{thm:compact} 说明：若所有有限通道问题都能
+在同一个能量半径 $M$ 内完成，则存在一个同时完成全部约束的全局响应，即使没有
+闭式公式。关键字是同一个 $M$；有限问题各自可解而最优范数趋于无穷时不能应用。
+
+\begin{proposition}[凸锥的对偶存在性判据]\label{prop:dual}
+设 $V$ 为有限维实 Hilbert 空间，$K\subset V$ 为闭凸锥。则
+\[
+ \operatorname{dist}(x,K)
+ =\max_{\substack{y\in K^\circ\\\|y\|\le1}}\langle y,x\rangle,
+ \qquad
+ K^\circ=\{y:\langle y,k\rangle\le0\ \forall k\in K\}.
+\]
+因此 $\operatorname{dist}(x,K)\le\eps$ 当且仅当全部单位 polar separator
+的响应不超过 $\eps$。
+\end{proposition}
+
+这允许把“存在一个正 Hodge 背景或低能响应”改写为对所有有限 rank-one packets
+的统一不等式。它与本项目的一侧 atomic Hodge 定理兼容，也给计算机辅助搜索一个
+清晰分工：数值 SDP 寻找最坏 separator，解析数论负责对该类 separator 给统一界。
+
+\begin{remark}[非构造路线的边界]
+紧致性和凸分离只传递已经证明的 uniform bounds，不制造它们；也不会自动给
+深度可见性的 lower frame bound。若约束直接写成完整 Weil 形式半正，则其
+有限可满足性本身可能已是 RH 强度。避免循环的标准是：约束必须只引用
+prime/Gamma/continuum 数据及独立能量预算，而不能引用未知零点的位置。
+\end{remark}
+
+\section{可执行研究路线与停止条件}
+
+\begin{longtable}{p{0.15\textwidth}p{0.25\textwidth}p{0.25\textwidth}p{0.17\textwidth}}
+\toprule
+路线 & 最小新引理 & 可改善的结论 & 停止或转向条件\\
+\midrule
+\endhead
+二阶矩窗优化
+& 在保迹、保块账本下证明 $R<R_{\rm MT}$
+& 立即由 \eqref{eq:norms} 改善 $67.250\%$
+& 证明目标窗类的对偶下界达到现常数\\
+\addlinespace
+支撑 $>1$
+& 对更长 prime frequencies 的非对角均值给严格界
+& 越过带宽一证书天花板
+& 所需估计等价于未解 pair correlation 且无额外结构收益\\
+\addlinespace
+高阶矩或 RMT
+& 至少一个使 $\tr p(G)/N$ 改善的严格 moment ledger
+& 改善简单与互异比例
+& 最优 minorant 不优于二阶 rank--trace\\
+\addlinespace
+深度可见性
+& 商空间 lower frame bound $v_T(\eta)>0$
+& 零密度、经典非零区域、最终可能排除
+& $v_T(\eta)$ 因压缩核必然趋零且无可修复 frame\\
+\addlinespace
+Brownian 响应
+& Type I/II/continuum 完整交叉 Gram 的 uniform Schur gain
+& 降低 $R$ 或负谱预算
+& gain 被尺度中性的能量下界完全抵消\\
+\addlinespace
+非构造紧致性
+& 所有有限通道共同的能量半径
+& 产生全局响应存在性
+& 有限最优半径随通道数发散\\
+\bottomrule
+\end{longtable}
+
+下一轮最值得推进的具体任务是：
+\begin{enumerate}
+\item 把 Alpöge--Furman 压缩矩阵写入本项目的
+prime/continuum/Gamma response 记号，计算响应前后 $R$ 的精确 Schur 公式；
+\item 在冻结有限模型上同时优化窗 $\psi$ 与 Brownian response，而不是只优化窗；
+\item 计算 $\tr G^3,\tr G^4$ 的 diagonal/off-diagonal 分解，先判断高阶多项式
+证书是否有数值裕量，再决定需要证明哪一种 prime correlation；
+\item 对离线测试零点 $\rho=\tfrac12+\eta+i\gamma$ 计算其 Gabor feature
+在正背景商空间中的最小奇异值，建立 $v_T(\eta)$ 的模型尺度；
+\item 将有限 response feasibility 写成 block PSD 与二阶锥问题，记录最优半径随
+窗口和通道数的增长，以检验定理 \ref{thm:compact} 的 uniformity 前提。
+\end{enumerate}
+
+\section{结论}
+
+部分 Weil 配置提供了一个位于完整 RH 与传统比例问题之间的中间结构：
+\[
+\boxed{\text{显式公式 Hermitian 核}
+\ +\ \text{函数方程惯性块}
+\ +\ \text{prime-side 谱矩}}
+\]
+一阶迹和二阶矩已经无条件给出 $67.250\ldots$；高阶矩给出随机矩阵型升级接口；
+负谱深度可见性则是非零区域所缺的结构。备选方向因而不是改做经典零点比例，而是
+研究 Weil 配置的不完全正性如何量化地控制 divisor。
+
+对数域存在性而言，显式公式已经构造配置的载体。真正要证明存在的不是任意
+Hilbert 空间或形式极化，而是具有统一矩预算、响应能量和深度 frame 常数的算术
+实现。弱紧致性可以完成最后的非构造拼接；最困难的部分仍是在
+prime/Gamma/continuum 三者合并后证明这些 uniform constants。
+
+\begin{thebibliography}{99}
+
+\bibitem{AF26}
+L. Alpöge and R. Furman,
+\emph{More than two thirds of the zeros of the Riemann zeta function are
+simple and on the critical line},
+arXiv:2608.13637v2, 2026.
+\url{https://arxiv.org/abs/2608.13637}.
+
+\bibitem{Bombieri00}
+E. Bombieri,
+\emph{Remarks on Weil''s quadratic functional in the theory of prime numbers I},
+Rend. Mat. Acc. Lincei \textbf{11} (2000), 183--233.
+
+\bibitem{Connes98}
+A. Connes,
+\emph{Trace formula in noncommutative geometry and the zeros of the
+Riemann zeta function},
+Selecta Math. (N.S.) \textbf{5} (1999), 29--106;
+arXiv:math/9811068.
+
+\bibitem{Notik26}
+E. Notik,
+\emph{A sharp four-moment inertia bound for the zeros of the Riemann
+zeta function},
+working paper, August 2026.
+\url{https://www.academia.edu/171780663/}.
+
+\bibitem{Conrey89}
+J. B. Conrey,
+\emph{More than two fifths of the zeros of the Riemann zeta function are on
+the critical line},
+J. Reine Angew. Math. \textbf{399} (1989), 1--26.
+
+\bibitem{Levinson74}
+N. Levinson,
+\emph{More than one third of zeros of Riemann''s zeta-function are on
+$\sigma=1/2$},
+Adv. Math. \textbf{13} (1974), 383--436.
+
+\bibitem{Montgomery73}
+H. L. Montgomery,
+\emph{The pair correlation of zeros of the zeta function},
+Proc. Sympos. Pure Math. \textbf{24} (1973), 181--193.
+
+\bibitem{Weil52}
+A. Weil,
+\emph{Sur les formules explicites de la théorie des nombres premiers},
+Comm. Sém. Math. Univ. Lund (1952), 252--265.
+
+\end{thebibliography}
+
+\end{document}
