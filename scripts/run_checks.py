@@ -96,6 +96,10 @@ CHECKS = (
         [sys.executable, "alternating_local_box_audit.py"],
     ),
     (
+        "radial cross-box coherence obstruction",
+        [sys.executable, "radial_cross_box_obstruction_audit.py"],
+    ),
+    (
         "adjacent Montgomery--Vaughan and boundary no-go",
         [sys.executable, "adjacent_mv_boundary_no_go_audit.py"],
     ),

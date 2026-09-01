@@ -458,6 +458,7 @@ xelatex rh-weil-structure-paper.tex
 - [Boundary entry 正均方障碍与 exceptional good-height 桥梁](notes/208-boundary-entry-mean-square-good-height.md)
 - [Alternating ratio multiplicity collapse 与 square-root determinant core](notes/209-alternating-ratio-cluster-square-root-core.md)
 - [Local prime-power energy closes square-root alternating boxes](notes/210-local-prime-energy-square-root-box-closure.md)
+- [Radial cross-box coherence：pairwise no-go 与窗口局部性障碍](notes/211-radial-cross-box-coherence-obstruction.md)
 - [研究分支看板](RESEARCH_BRANCHES.md)
 - [文献与证据边界](notes/003-sources.md)
 

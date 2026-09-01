@@ -9,6 +9,12 @@ Montgomery--Vaughan 闭合、固定 determinant layer 的 degree-two Schur 结�
 [T]；有限审计为 [E]；跨越无界多个 radial boxes 的 coherence、中心 ratio 与
 base-2 exceptional aggregate 为 [O]。
 
+> **后续修正（笔记 211）**：本笔记 210-H 的单-pair `o(N)` 目标由
+> 定理 210-D 的单-box 范数和 Cauchy 自动推出，不能作为路线晋级条件。
+> `J asymp L` 个 radial boxes 即使每一对都是 `o(N)`，总体仍可达到主尺度。
+> 正确的下一输入是 actual normalized multibox Gram 的 radial row sum 为
+> `o(L)`；窗口正则性与 fixed-determinant maximum degree 均不足以验证它。
+
 ## 1. 修正与主要结论
 
 笔记 209-E 在单个 box 中使用了全区间粗界
@@ -466,12 +472,12 @@ sub-square-root 结论也仍正确。需要修正的是对其 sharpness 的解�
 4. 这不是对完整 Farey family 的闭合，因为把每个 dyadic box 分别对角化并不
    控制不同 boxes 之间的 cross terms。
 
-## 7. 新的最小开放输入 [O]
+## 7. 原单-pair 输入与 multibox 修正
 
-### 开放引理 210-H（radial cross-box almost orthogonality）[O]
+### 推论 210-H（fixed-pair radial cross term；由 211-B 闭合）[T]
 
 固定 ratio aperture \(A/B\asymp C/D\)，对相隔多个 dyadic radial scales 的
-两个 primitive boxes \(\mathcal R_{A,B}\)、\(\mathcal R_{C,D}\)，证明
+两个 primitive boxes \(\mathcal R_{A,B}\)、\(\mathcal R_{C,D}\)，有
 
 \[
  2\operatorname{Re}
@@ -483,18 +489,13 @@ sub-square-root 结论也仍正确。需要修正的是对其 sharpness 的解�
 \tag{27}
 \]
 
-在可覆盖所需 scale pairs 的可和预算下成立。第一步只需处理
-\(C/A\asymp D/B\ge4\) 且 \(AB,CD\ll XL^{2-\varepsilon}\) 的一对 boxes。
+成立。这由笔记 211-A--B 的定量单-box 范数与 Cauchy--Schwarz 自动得到。
+但逐 pair 结论不能对 \(J\asymp L\) 个 boxes 无损求和；真正所需的 multibox
+row-sum criterion 与 sharp no-go 见笔记 211-H--I。
 
-估计必须保留：
-
-1. determinant equation \(ad-bc=h\) 的双尺度 incidence；
-2. 两个 boxes 的实际 \(W_2\) 权重；
-3. Toeplitz diagonal fibres 与 Type I/II/continuum cross phases；
-4. 对 radial scale ratio 的可和衰减。
-
-若不存在这种衰减，应构造保持全部局部预算但 cross-box coherence 为主尺度的
-反例，并把它升级为 [N]。
+笔记 211-C 已构造保持全部 local norm 与 pairwise little-oh、但 multibox aggregate
+达到主尺度的 sharp [N]；笔记 211-E、211-G 又分别排除 window-only 与
+maximum-degree-only 的径向衰减。
 
 ## 8. 公理作用、删除审计与适用范围
 
@@ -507,8 +508,8 @@ sub-square-root 结论也仍正确。需要修正的是对其 sharpness 的解�
    删除后不能应用圆周 Montgomery--Vaughan。
 4. **uniform Hankel regularity**：只用于式 (20)--(21) 的 finite transfer。
 5. **dyadic localization**：保证 log-ratio compactness 与 determinant graph
-   的 bounded degree。删除后不同 radial scales 的 cross coherence 正是
-   开放引理 210-H。
+   的 bounded degree。删除后不同 radial scales 的 cross coherence 无法由单-box
+   定理控制；该 multibox 缺口由笔记 211 的 row-sum criterion 精确表述。
 
 模型范围：
 
