@@ -15,7 +15,7 @@
 | NCE-7 | 非构造主线 | short-word effects 对实际 negative level sets 的 response-weighted capture | capture error共尾可和且不调用 Selberg/RH 等价输入 | degree-one universal moment route 已 sharp no-go |
 | NCE-8 | 构造主线 | 在 square-root Vaughan rectangle 上控制 exact Type I/II/continuum response Gram | all-ones Gram budget一致有界，且不退回 diagonal Selberg energies | exact divided-difference channelization已完成；有限 cross cancellation使 diagonal/full为1.95--3.36 |
 | NCE-9 | 非构造补全 | 把 finite Cauchy-translate Schur block写成 joint signed Type I/II large-sieve form | uniform finite-block budget只用 length-side数据且弱于完整 RH criterion | finite satisfiability compactness与Gram/Schur判据已完成；33 translates捕获约23% package norm |
-| MOM-1 | 四矩备用主线 | supercritical Hankel aggregate 与 alternating Farey response Gram | MT 窗 remainder 小于 0.0829099143，或优化窗总预算闭合 | 整个 m<=X adjacent family 已渐近对角化；硬核是 m>X boundary coherence 与 alternating ratio Gram |
+| MOM-1 | 四矩备用主线 | boundary pseudocovariance 的无共轭 Vaughan 估计与 alternating Farey response Gram | MT 窗 remainder 小于 0.0829099143，或优化窗总预算闭合 | m<=X adjacent 已闭合；m>X 已等价归约为实际 prime boundary 的 BB^T circularity，covariance-only 路线已 no-go |
 | NCE-10 | 非构造补全 | 增长的 arithmetic mixed localizers 与 divisor-visible resolvent closure | 每个有限 word level 近正且 Archimedean 有界，闭包恢复 divisor | scalar fourth moments 有 65 维严格 no-go；finite-satisfiability completion 已证明 |
 | OBS-1 | 文献线 | canonical Hamiltonian 的局部质量一致界与 noncollapse | 从 Euler/Gamma 方程而非 zeros 证明 | 文献审计 |
 | OBS-2 | 系统线 | tracial negative-square realization theorem | 与 Cauchy Hodge index 精确对应 | 文献审计 |
@@ -42,8 +42,8 @@
 ### 路线 A / MOM-1：四阶矩增量（近期主线）
 
 - **目标**：控制中心化四阶矩，严格改进当前约 `0.6725007` 的简单临界线零点比例。
-- **当前基础**：零点侧尾项已经隔离；相邻乘积通道的有效 bulk 长度已由表观的 X^2 缩短为 X。endpoint tightness、Toeplitz--Hankel direct-sum transfer 与 diagonal-fibre Montgomery--Vaughan 分解合并后，真实 m<=X adjacent family 已满足渐近对角化。rank-one Hankel 反例证明 direct-sum O(log L) 不能自动控制 family aggregate；唯一剩余 adjacent 输入是 m>X 的 actual factorized boundary coherence。
-- **最小引理 A1c**：证明 ||sum_(m>X) F_m^fin||_HS^2=o(N)；优先保留两个 prime variables 与 exterior Gabor index 的 factorized response Schatten 估计，不把 ab 当作长度 X^2 的任意 Dirichlet coefficients。
+- **当前基础**：零点侧尾项已经隔离；相邻乘积通道的有效 bulk 长度已由表观的 X^2 缩短为 X。endpoint tightness、Toeplitz--Hankel transfer 与 diagonal-fibre Montgomery--Vaughan 分解合并后，真实 m<=X adjacent family 已满足渐近对角化。m>X aggregate 又已等价归约为 complex-symmetric boundary block 的 pseudocovariance BB^T；其 one-factor covariance 能量无条件为 O(N)，但 same-covariance 反例证明任何只读取 BB*、奇异值或 Schatten norms 的方法都无法推出所需 little-oh。
+- **最小引理 A1c**：对实际 centered prime fibres P_r(t) 证明 note 206 式 (32) 的无共轭 Vaughan boundary estimate；必须联合保留两个长度 X 的 prime responses 与 exterior Gabor index，不能先分别平方均值。一个可证伪的充分版本是从 arithmetic/Gabor correspondence 独立构造 exterior quarter-turn J，并证明 beta_L ||B_X J-iB_X||_op=o(1)。
 - **最小引理 A2**：对实际出现的 alternating/Farey ratio Gram 证明 response-specific 谱界或 Schur 界。
 - **晋级条件**：经严格归一化和区间认证得到
   \[
@@ -149,6 +149,7 @@
 ## 本轮分支成果
 
 - [Adjacent Montgomery--Vaughan 闭合与 Hankel family no-go](notes/205-adjacent-mv-boundary-no-go.md)：沿 Toeplitz diagonals 精确分解 finite bulk Gram，并用圆周 Montgomery--Vaughan 不等式证明整个 m<=X 真实 adjacent family 渐近对角化；同时构造一致正则的 rank-one Toeplitz--Hankel defects，使 direct-sum 能量为 B 而 aggregate 达到 KB。因此 near-resonance 已闭合，下一输入唯一化为 m>X 的 actual factorized supercritical boundary coherence；alternating/Farey 通道仍独立开放。
+- [Supercritical boundary 伪协方差与 covariance-blind no-go](notes/206-supercritical-boundary-pseudocovariance.md)：证明实际无限 prime response 为 complex symmetric，并把 m>X aggregate 渐近等价地写成 boundary block 的无共轭 pseudocovariance BB^T；无条件闭合 beta_L^2||B||_HS^2=O(N)，同时以相同 BB*、相同全部奇异值而 BB^T 分别为 0/最大值的矩阵对排除全部 covariance-only 证明。剩余输入精确落在 actual prime fibres 的无共轭 Vaughan cross phase，另给 canonical quarter-turn 的定量充分证书。
 
 - [有限 Gabor 相邻通道的 Toeplitz--Hankel 转移](notes/204-toeplitz-hankel-adjacent-transfer.md)：建立精确有限 Toeplitz 乘积公式，证明 crossing Hankel 能量为 `O(log L)`；结合素数幂退化的可和预算，把 bulk exact-product edge tightness 无损传到真实有限 adjacent 压缩，并证明 `m>X` 无周期折返泄漏。该结果只控制乘积簇的 direct-sum 平方和；不同簇的 near-resonance Gram 与 alternating/Farey ratio Gram 仍开放。
 

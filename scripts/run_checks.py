@@ -91,6 +91,10 @@ CHECKS = (
         "adjacent Montgomery--Vaughan and boundary no-go",
         [sys.executable, "adjacent_mv_boundary_no_go_audit.py"],
     ),
+    (
+        "supercritical boundary pseudocovariance",
+        [sys.executable, "supercritical_pseudocovariance_audit.py"],
+    ),
 )
 
 

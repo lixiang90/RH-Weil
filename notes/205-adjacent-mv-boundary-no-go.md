@@ -562,7 +562,9 @@ exact-product path overlap，其中窗口为
 输入。它应通过实际 factorized response 估计，而不是把 \(ab\) 当成长度
 \(X^2\) 的任意 Dirichlet coefficients。
 
-一个更强但仍非循环的充分目标如下。令
+一个仍非循环的 one-factor boundary 目标如下。笔记 206 进一步证明：在本文
+已经得到的 subcritical defect aggregate 为 \(o(\sqrt N)\) 的前提下，该目标
+与式 (31) 渐近等价，而不只是更强的充分条件。令
 
 \[
  \mathcal A_X

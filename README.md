@@ -453,6 +453,7 @@ xelatex rh-weil-structure-paper.tex
 - [相邻乘积 bulk 端点紧性](notes/203-adjacent-bulk-edge-tightness.md)
 - [有限 Gabor 相邻通道的 Toeplitz--Hankel 转移](notes/204-toeplitz-hankel-adjacent-transfer.md)
 - [Adjacent Montgomery--Vaughan 闭合与 Hankel family no-go](notes/205-adjacent-mv-boundary-no-go.md)
+- [Supercritical boundary 伪协方差归约与 covariance-blind no-go](notes/206-supercritical-boundary-pseudocovariance.md)
 - [研究分支看板](RESEARCH_BRANCHES.md)
 - [文献与证据边界](notes/003-sources.md)
 
