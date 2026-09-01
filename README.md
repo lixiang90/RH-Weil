@@ -450,6 +450,8 @@ xelatex rh-weil-structure-paper.tex
 - [Gabor 边界的本征 Schatten 门与二矩提升 no-go](notes/200-gabor-boundary-schatten-gate.md)
 - [相邻乘积 Gram、交替比值 Gram 与窗口边缘抑制](notes/201-adjacent-product-alternating-ratio-gram.md)
 - [Archimedean localizer 非构造补全与标量四矩 no-go](notes/202-archimedean-localizing-weil-completion.md)
+- [相邻乘积 bulk 端点紧性](notes/203-adjacent-bulk-edge-tightness.md)
+- [有限 Gabor 相邻通道的 Toeplitz--Hankel 转移](notes/204-toeplitz-hankel-adjacent-transfer.md)
 - [研究分支看板](RESEARCH_BRANCHES.md)
 - [文献与证据边界](notes/003-sources.md)
 

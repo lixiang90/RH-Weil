@@ -15,7 +15,7 @@
 | NCE-7 | 非构造主线 | short-word effects 对实际 negative level sets 的 response-weighted capture | capture error共尾可和且不调用 Selberg/RH 等价输入 | degree-one universal moment route 已 sharp no-go |
 | NCE-8 | 构造主线 | 在 square-root Vaughan rectangle 上控制 exact Type I/II/continuum response Gram | all-ones Gram budget一致有界，且不退回 diagonal Selberg energies | exact divided-difference channelization已完成；有限 cross cancellation使 diagonal/full为1.95--3.36 |
 | NCE-9 | 非构造补全 | 把 finite Cauchy-translate Schur block写成 joint signed Type I/II large-sieve form | uniform finite-block budget只用 length-side数据且弱于完整 RH criterion | finite satisfiability compactness与Gram/Schur判据已完成；33 translates捕获约23% package norm |
-| MOM-1 | 四矩备用主线 | edge-localized finite-to-bulk transfer 与 alternating Farey response Gram | MT 窗 remainder 小于 0.0829099143，或优化窗总预算闭合 | zero-tail 已闭合；adjacent bulk edge 以 O(delta^2)/O(delta^4) 闭合；硬核只剩 finite transfer 与 alternating ratio Gram |
+| MOM-1 | 四矩备用主线 | adjacent interior Montgomery--Vaughan 分解与 alternating Farey response Gram | MT 窗 remainder 小于 0.0829099143，或优化窗总预算闭合 | zero-tail 与 finite adjacent edge transfer 已闭合；硬核是 near-resonance family frame 与 alternating ratio Gram |
 | NCE-10 | 非构造补全 | 增长的 arithmetic mixed localizers 与 divisor-visible resolvent closure | 每个有限 word level 近正且 Archimedean 有界，闭包恢复 divisor | scalar fourth moments 有 65 维严格 no-go；finite-satisfiability completion 已证明 |
 | OBS-1 | 文献线 | canonical Hamiltonian 的局部质量一致界与 noncollapse | 从 Euler/Gamma 方程而非 zeros 证明 | 文献审计 |
 | OBS-2 | 系统线 | tracial negative-square realization theorem | 与 Cauchy Hodge index 精确对应 | 文献审计 |
@@ -42,8 +42,8 @@
 ### 路线 A / MOM-1：四阶矩增量（近期主线）
 
 - **目标**：控制中心化四阶矩，严格改进当前约 `0.6725007` 的简单临界线零点比例。
-- **当前基础**：零点侧尾项已经隔离；相邻乘积通道的有效长度已由表观的 `X^2` 缩短为 `X`；理想 bulk 的 exact-product endpoint mass 已无条件证明为平窗 `O(delta^2)`、端点余弦窗 `O(delta^4)`。剩余硬核是把该 tightness 从真实有限 Gabor 压缩传到 bulk，以及 alternating/Farey ratio Gram。
-- **最小引理 A1**：证明 edge-localized finite-to-bulk transfer，使有限 adjacent edge 与 bulk edge 之差在先 `T -> infinity`、再 `delta -> 0` 时为 `o(N)`；等价的更强充分目标是相应 weighted boundary Hilbert--Schmidt 紧性。
+- **当前基础**：零点侧尾项已经隔离；相邻乘积通道的有效长度已由表观的 `X^2` 缩短为 `X`；理想 bulk 的 exact-product endpoint mass 已无条件证明为平窗 `O(delta^2)`、端点余弦窗 `O(delta^4)`。Toeplitz--Hankel 恒等式又把真实有限 Gabor 压缩与 bulk 的平方和差控制为 `O(sqrt(N log L)+log L)=o(N)`，且 `m>X` 的有限泄漏为 `O(log L)`；因此 edge-localized finite-to-bulk transfer 已闭合。
+- **辅助引理 A1b**：把相邻通道的 interior Toeplitz diagonals 接到实际系数的 vector-valued Montgomery--Vaughan 分解；必须控制不同乘积簇之间的 near-resonance Gram，不能把本轮 direct-sum edge tightness 误作整个 adjacent family 的 frame bound。
 - **最小引理 A2**：对实际出现的 alternating/Farey ratio Gram 证明 response-specific 谱界或 Schur 界。
 - **晋级条件**：经严格归一化和区间认证得到
   \[
@@ -109,8 +109,8 @@
    - 建立“结论--引理--算术输入”依赖表。
 
 2. **第 3--6 周：集中路线 A。**
-   - 完成 adjacent channel 的 boundary 紧性；
-   - 成功后进入 alternating ratio Gram；
+   - adjacent channel 的 diagonal boundary 紧性已完成；
+   - 继续 adjacent interior Montgomery--Vaughan 分解与 alternating ratio Gram；
    - 失败时形成明确反例、下界或尺度障碍。
 
 3. **第 7--10 周：A/B 决策。**
@@ -147,6 +147,8 @@
 - Git branch 仍按交付任务管理；这里的 ID 表示数学思路分支，不强制创建长期 Git branch。
 
 ## 本轮分支成果
+
+- [有限 Gabor 相邻通道的 Toeplitz--Hankel 转移](notes/204-toeplitz-hankel-adjacent-transfer.md)：建立精确有限 Toeplitz 乘积公式，证明 crossing Hankel 能量为 `O(log L)`；结合素数幂退化的可和预算，把 bulk exact-product edge tightness 无损传到真实有限 adjacent 压缩，并证明 `m>X` 无周期折返泄漏。该结果只控制乘积簇的 direct-sum 平方和；不同簇的 near-resonance Gram 与 alternating/Farey ratio Gram 仍开放。
 
 - [Adjacent product bulk edge tightness](notes/203-adjacent-bulk-edge-tightness.md)：仅用无条件 Mertens 型 `sum Lambda(n)^2/n` 渐近，证明理想 bulk 的 exact-product adjacent endpoint mass 对一般端点消失阶 `kappa` 为 `O(delta^(2 kappa+2))`；平窗为 `O(delta^2)`，端点余弦窗为 `O(delta^4)`。因此下一开放桥梁严格缩成 edge-localized finite-to-bulk transfer，而非重新估计整个 adjacent arithmetic mass。
 

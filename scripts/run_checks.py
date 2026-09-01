@@ -83,6 +83,10 @@ CHECKS = (
         "adjacent-product bulk edge tightness",
         [sys.executable, "adjacent_bulk_edge_audit.py", "--limits", "20000", "100000"],
     ),
+    (
+        "Toeplitz--Hankel adjacent transfer",
+        [sys.executable, "toeplitz_hankel_adjacent_audit.py"],
+    ),
 )
 
 
