@@ -434,6 +434,7 @@ xelatex rh-weil-structure-paper.tex
 - [Parity-breaker convolution and degree-two exact-sector evacuation](notes/189-parity-breaker-exact-sector-evacuation.md)
 - [Cauchy--Gaussian scale mixture and the high-order vanishing route](notes/190-cauchy-gaussian-mixture-high-order-route.md)
 - [Vanishing-order coefficient tax and the signed Gaussian heat profile](notes/191-vanishing-order-tax-signed-heat-profile.md)
+- [Cauchy cumulative capacity and centered Volterra factorization](notes/192-cauchy-cumulative-capacity-centered-volterra.md)
 - [研究分支看板](RESEARCH_BRANCHES.md)
 - [文献与证据边界](notes/003-sources.md)
 

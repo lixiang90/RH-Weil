@@ -7,6 +7,8 @@ import numpy as np
 from formal_lag_response import (
     cauchy_gaussian_mixture_band_ledger,
     cauchy_gaussian_mixture_cdf,
+    cauchy_signed_layer_cake_ledger,
+    centered_degree_two_volterra_coefficients,
     degree_two_gaussian_response_upper_bound,
     degree_two_parity_exact_ledger,
     degree_two_response_frequency_map,
@@ -174,6 +176,30 @@ def main() -> None:
     direct_cauchy = stationary_response_from_frequency_map(
         response_map, continuum_nodes, lambda value: np.exp(-abs(value))
     )
+    cauchy_layer_cake = cauchy_signed_layer_cake_ledger(
+        response_map, continuum_nodes
+    )
+    assert abs(cauchy_layer_cake["total_response"] - direct_cauchy) <= 1.0e-12
+    assert abs(cauchy_layer_cake["nonexact_response"]) <= (
+        cauchy_layer_cake["profile_capacity"] + 1.0e-12
+    )
+    assert cauchy_layer_cake["profile_capacity"] <= (
+        cauchy_layer_cake["coefficient_variation"] + 1.0e-12
+    )
+    total_mass = 0.3
+    volterra_bound = 2.0
+    volterra_coefficients = centered_degree_two_volterra_coefficients(
+        total_mass, volterra_bound
+    )
+    shifted_mass = total_mass - np.sqrt(3.0) * volterra_bound / 2.0
+    for variable in (-0.4, 0.0, 0.7):
+        expanded = np.polynomial.polynomial.polyval(
+            variable, volterra_coefficients
+        )
+        factored = (total_mass + variable) ** 3 * (
+            shifted_mass + variable
+        ) ** 2
+        assert abs(expanded - factored) <= 1.0e-12
     mixture = cauchy_gaussian_mixture_band_ledger(
         response_map,
         continuum_nodes,

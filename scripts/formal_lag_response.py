@@ -309,6 +309,29 @@ def degree_two_response_frequency_map(
     )
 
 
+def centered_degree_two_volterra_coefficients(
+    total_mass: complex, spectral_bound: float
+) -> tuple[complex, ...]:
+    """Coefficients of (M+z)^3*(M-a*B+z)^2 in ascending order."""
+    if spectral_bound <= 0.0:
+        raise ValueError("spectral bound must be positive")
+    total_mass = complex(total_mass)
+    shifted_mass = total_mass - math.sqrt(3.0) * spectral_bound / 2.0
+    return (
+        total_mass**3 * shifted_mass**2,
+        2.0 * total_mass**3 * shifted_mass
+        + 3.0 * total_mass**2 * shifted_mass**2,
+        total_mass**3
+        + 6.0 * total_mass**2 * shifted_mass
+        + 3.0 * total_mass * shifted_mass**2,
+        3.0 * total_mass**2
+        + 6.0 * total_mass * shifted_mass
+        + shifted_mass**2,
+        3.0 * total_mass + 2.0 * shifted_mass,
+        1.0 + 0.0j,
+    )
+
+
 def stationary_response_from_frequency_map(
     response: FrequencyMap,
     continuum_nodes: tuple[float, ...],
@@ -530,6 +553,61 @@ def gaussian_signed_layer_cake_ledger(
         ),
         "maximum_cumulative_profile": maximum_cumulative,
         "segment_count": segment_count,
+    }
+
+
+def cauchy_signed_layer_cake_ledger(
+    response: FrequencyMap,
+    continuum_nodes: tuple[float, ...],
+) -> dict[str, object]:
+    """Exact signed cumulative-profile formula for the Cauchy response.
+
+    With Q(h) the cumulative nonexact coefficient mass inside lag radius h,
+
+        <exp(-abs(x)),q> = q({0}) + integral exp(-h) Q(h) dh.
+
+    Integrating abs(Q) gives a cancellation-preserving capacity bounded by
+    the ordinary coefficient variation.
+    """
+    exact_response = 0.0 + 0.0j
+    grouped: dict[float, complex] = {}
+    coefficient_variation = 0.0
+    for lag, coefficient in response.items():
+        if lag.is_zero():
+            exact_response += coefficient
+            continue
+        numerical_lag = abs(lag.numerical_value(continuum_nodes))
+        grouped[numerical_lag] = (
+            grouped.get(numerical_lag, 0.0 + 0.0j) + coefficient
+        )
+        coefficient_variation += abs(coefficient) * math.exp(-numerical_lag)
+    radii = sorted(grouped)
+    cumulative = 0.0 + 0.0j
+    signed_integral = 0.0 + 0.0j
+    profile_capacity = 0.0
+    maximum_cumulative = 0.0
+    for index, radius in enumerate(radii):
+        cumulative += grouped[radius]
+        next_radius = radii[index + 1] if index + 1 < len(radii) else math.inf
+        exponential_mass = math.exp(-radius) - (
+            math.exp(-next_radius) if not math.isinf(next_radius) else 0.0
+        )
+        signed_integral += cumulative * exponential_mass
+        profile_capacity += abs(cumulative) * exponential_mass
+        maximum_cumulative = max(maximum_cumulative, abs(cumulative))
+    return {
+        "exact_response": exact_response,
+        "nonexact_response": signed_integral,
+        "total_response": exact_response + signed_integral,
+        "profile_capacity": profile_capacity,
+        "coefficient_variation": coefficient_variation,
+        "capacity_to_variation_ratio": (
+            profile_capacity / coefficient_variation
+            if coefficient_variation > 0.0
+            else 0.0
+        ),
+        "maximum_cumulative_profile": maximum_cumulative,
+        "segment_count": len(radii),
     }
 
 

@@ -13,6 +13,7 @@ import numpy as np
 
 from formal_lag_response import (
     cauchy_gaussian_mixture_band_ledger,
+    cauchy_signed_layer_cake_ledger,
     chebyshev_formal_orbit_coefficients,
     degree_two_gaussian_response_upper_bound,
     degree_two_parity_exact_ledger,
@@ -153,6 +154,13 @@ def soft_zeta_orbit_audit(
         if response_map is not None
         else []
     )
+    cauchy_profile_audit = (
+        cauchy_signed_layer_cake_ledger(
+            response_map, formal["continuum_nodes"]
+        )
+        if response_map is not None
+        else None
+    )
     prime_continuum_mass = sum(
         complex(coefficient)
         for coefficient in data["prime_continuum_discrepancy_coefficients"]
@@ -179,6 +187,7 @@ def soft_zeta_orbit_audit(
         "gaussian_scale_audit": gaussian_scale_audit,
         "heat_shell_audit": heat_shell_audit,
         "signed_profile_audit": signed_profile_audit,
+        "cauchy_profile_audit": cauchy_profile_audit,
         "provenance_mass_residual": separated_mass - prime_continuum_mass,
     }
 
@@ -237,6 +246,11 @@ def main() -> None:
         item["profile_capacity"] <= item["coefficient_variation"] + 1.0e-10
         for item in audit["signed_profile_audit"]
     )
+    assert audit["cauchy_profile_audit"] is not None
+    assert abs(
+        audit["cauchy_profile_audit"]["total_response"]
+        - ledger["total_response"]
+    ) <= 1.0e-10
     assert ledger["signed"]["exact"].real <= (
         audit["parity_exact_ledger"]["exact_response_upper_bound"] + 1.0e-10
     )
@@ -263,7 +277,9 @@ def main() -> None:
         "inner-heat="
         f"{audit['heat_shell_audit']['signed_weighted'][0].real:.6g}, "
         "profile/variation="
-        f"{audit['signed_profile_audit'][0]['capacity_to_variation_ratio']:.6g}"
+        f"{audit['signed_profile_audit'][0]['capacity_to_variation_ratio']:.6g}, "
+        "Cauchy-profile/variation="
+        f"{audit['cauchy_profile_audit']['capacity_to_variation_ratio']:.6g}"
     )
 
 

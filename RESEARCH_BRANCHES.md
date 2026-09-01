@@ -13,7 +13,7 @@
 | NCE-5 | 备用线 | one-prime/one-block extension，预算增量可和 | extension 不调用完整 Weil positivity | 观察 |
 | NCE-6 | 备用线 | bounded-resolvent/negative-trace 的 ultraproduct 稳定性 | 先独立得到统一预算 `C` | 观察 |
 | NCE-7 | 非构造主线 | short-word effects 对实际 negative level sets 的 response-weighted capture | capture error共尾可和且不调用 Selberg/RH 等价输入 | degree-one universal moment route 已 sharp no-go |
-| NCE-8 | 构造/非构造汇合 | common Volterra bound for the signed cumulative combination Q5-2aB Q4+a^2B^2 Q3 | mixture-integrated signed profile capacity与 soft/Gamma误差一致有界且不调用 full Selberg profile | high-order absolute-moment route被 coefficient tax停止；signed heat profile晋级 |
+| NCE-8 | 构造/非构造汇合 | centered Volterra polynomial (M+D A)^3(M-aB+D A)^2 的 common energy estimate | direct Cauchy cumulative capacity与 soft/Gamma误差一致有界且不调用 full Selberg profile | Gaussian mixture capacity已塌缩为单一 Cauchy profile；三至五阶项已有共同 primitive factorization |
 | OBS-1 | 文献线 | canonical Hamiltonian 的局部质量一致界与 noncollapse | 从 Euler/Gamma 方程而非 zeros 证明 | 文献审计 |
 | OBS-2 | 系统线 | tracial negative-square realization theorem | 与 Cauchy Hodge index 精确对应 | 文献审计 |
 | LONG-1 | 长期线 | threshold complex 的 dualizability 与 categorical supertrace | 获得非循环 positive categorical trace | 暂存 |
@@ -40,6 +40,8 @@
 - Git branch 仍按交付任务管理；这里的 ID 表示数学思路分支，不强制创建长期 Git branch。
 
 ## 本轮分支成果
+
+- [Cauchy cumulative capacity / centered Volterra](notes/192-cauchy-cumulative-capacity-centered-volterra.md)：Gaussian profile capacities的 Gamma mixture精确塌缩为原 Cauchy signed cumulative capacity；degree-two response在 centered discrepancy primitive上由一个共同五次 Volterra polynomial生成。
 
 - [Vanishing-order tax / signed heat profile](notes/191-vanishing-order-tax-signed-heat-profile.md)：Bernstein transition floor与 coefficient-ledger lower bound排除 high-order zero 加 absolute moments 的组合；Gaussian response改写成 signed cumulative Abel--Volterra profile，并精确落到 balanced multiplicative short intervals。
 
