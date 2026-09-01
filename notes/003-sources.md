@@ -111,6 +111,12 @@
 36. Levent Alpöge, Raphael Furman, *More than two thirds of the zeros of the Riemann zeta function are simple and on the critical line* (arXiv:2608.13637v2, 2026)。其主结果无条件给 zeta 及固定本原 Dirichlet L 函数至少 0.6725007... 的简单中心线零点比例；第 7 节说明四矩 sine-kernel 假设给 Christoffel 层级 13/18，而全部矩假设在该机制中给比例 1。文档 197 把其二矩证明抽象为 partial Weil configuration，文档 198 只把四矩讨论作为条件性算术目标。
    https://arxiv.org/abs/2608.13637
 
+37. Sabine Burgdorf, Igor Klep, *The truncated tracial moment problem*（arXiv:1001.3679；J. Operator Theory 68 (2012), 141--163）。给出非交换 tracial moment matrices、有限秩表示与 flat extension 的标准框架。文档 202 的 Archimedean finite-satisfiability completion 使用更直接的乘积紧致性证明，不把 flatness 当作 zeta 的已知输入。
+   https://arxiv.org/abs/1001.3679
+
+38. Bernard Mourrain, Konrad Schmüdgen, *Flat extensions in star-algebras*（论文原题使用星号；arXiv:1406.4975；Proc. Amer. Math. Soc. 144 (2016), 4873--4885）。提供一般 star-algebra 中正泛函 flat extension 的背景。文档 202 的 65 维 no-go 说明固定 degree-four scalar data 并无所需 flatness，故必须增长 localizer 层次。
+   https://arxiv.org/abs/1406.4975
+
 37. Esther Notik, *A sharp four-moment inertia bound for the zeros of the Riemann zeta function* (working paper, August 2026)。该稿提出在相同四矩数据下保留 rank--trace--inertia 账本可得 16/21 与 37/42。这是尚未同行评议的近期 working paper；文档 197 与独立论文逐式重证其有限维 quartic dual、闭式比例和匹配极端谱测度，但不据此认定 zeta 的四矩算术假设已成立。
    https://www.academia.edu/171780663/
 

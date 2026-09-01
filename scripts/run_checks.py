@@ -75,6 +75,10 @@ CHECKS = (
         "smooth fourth-window cycle",
         [sys.executable, "smooth_fourth_window_audit.py"],
     ),
+    (
+        "operator fourth words and localizer completion",
+        [sys.executable, "operator_fourth_localizer_audit.py"],
+    ),
 )
 
 

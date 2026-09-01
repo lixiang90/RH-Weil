@@ -15,7 +15,8 @@
 | NCE-7 | 非构造主线 | short-word effects 对实际 negative level sets 的 response-weighted capture | capture error共尾可和且不调用 Selberg/RH 等价输入 | degree-one universal moment route 已 sharp no-go |
 | NCE-8 | 构造主线 | 在 square-root Vaughan rectangle 上控制 exact Type I/II/continuum response Gram | all-ones Gram budget一致有界，且不退回 diagonal Selberg energies | exact divided-difference channelization已完成；有限 cross cancellation使 diagonal/full为1.95--3.36 |
 | NCE-9 | 非构造补全 | 把 finite Cauchy-translate Schur block写成 joint signed Type I/II large-sieve form | uniform finite-block budget只用 length-side数据且弱于完整 RH criterion | finite satisfiability compactness与Gram/Schur判据已完成；33 translates捕获约23% package norm |
-| MOM-1 | 四矩备用主线 | weighted Gabor kernels 的 S4 finite-to-bulk bound 与未配对近共振 Gram | MT 窗 remainder 小于 0.0829099143，或优化窗总预算闭合 | exact cycle/word ledger、S4 gate 与一般 paired-diagonal window functional 已完成 |
+| MOM-1 | 四矩备用主线 | weighted boundary HS/Carleson bound 与 alternating Farey response Gram | MT 窗 remainder 小于 0.0829099143，或优化窗总预算闭合 | zero-tail 已闭合；adjacent 缩到长度 X；硬核只剩 boundary 与 alternating ratio Gram |
+| NCE-10 | 非构造补全 | 增长的 arithmetic mixed localizers 与 divisor-visible resolvent closure | 每个有限 word level 近正且 Archimedean 有界，闭包恢复 divisor | scalar fourth moments 有 65 维严格 no-go；finite-satisfiability completion 已证明 |
 | OBS-1 | 文献线 | canonical Hamiltonian 的局部质量一致界与 noncollapse | 从 Euler/Gamma 方程而非 zeros 证明 | 文献审计 |
 | OBS-2 | 系统线 | tracial negative-square realization theorem | 与 Cauchy Hodge index 精确对应 | 文献审计 |
 | LONG-1 | 长期线 | threshold complex 的 dualizability 与 categorical supertrace | 获得非循环 positive categorical trace | 暂存 |
@@ -42,6 +43,12 @@
 - Git branch 仍按交付任务管理；这里的 ID 表示数学思路分支，不强制创建长期 Git branch。
 
 ## 本轮分支成果
+
+- [Archimedean localizer 非构造补全](notes/202-archimedean-localizing-weil-completion.md)：构造两个同维、同范数且前四矩完全相同的 65 维矩阵，一个正定、一个保留 (1/65) 负谱，严格排除 scalar-four-moment completion；同时证明增长 mixed localizers 的 finite-satisfiability compactness 定理。
+
+- [相邻乘积与交替比值 Gram](notes/201-adjacent-product-alternating-ratio-gram.md)：六个 (2+2) words 精确分解为 (4\|Z^2\|_2^2+2\|ZZ^*\|_2^2)，差由换位子能量控制。compact-support path 强制 adjacent 的 (ab\le X)，故真正 (X^2) 障碍只在 alternating/Farey ratio Gram；端点余弦窗把边缘 overlap 从 (O(\ell)) 压到 (O(\ell^3))。
+
+- [Gabor 边界 Schatten 审计](notes/200-gabor-boundary-schatten-gate.md)：无条件证明 zero-side tail 对四次迹为 (o(N))，把 finite-to-bulk 缩成 signed-kernel 的 intrinsic Schatten gate，并给具体 HS 充分目标 (o(L^3/(1+\log L)^2))。秩一反例证明二矩误差不能自动提升。
 
 - [光滑窗四循环与配对对角泛函](notes/199-smooth-window-cyclic-fourth-diagonal.md)：精确推导 finite Gabor 四循环、非交换 word ledger 与任意偶窗的 \(D_{22}(\psi)\)。修正平窗 family 计数；得到 MT 窗 \(D_{22}=0.2445893820\ldots\) 和 remainder 预算 \(0.0829099143\ldots\)。余弦窗扫描显示四矩目标窗可能不同于二矩最优窗；新的硬点是 finite-to-bulk 边界及未配对近共振。
 

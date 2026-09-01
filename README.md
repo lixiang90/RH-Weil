@@ -447,6 +447,9 @@ xelatex rh-weil-structure-paper.tex
 - [部分 Weil 配置：比例、四矩与非零区域](notes/197-partial-weil-proportions-regions-four-moments.md)
 - [四矩二次通道、素数共振账本与 Vaughan 接口](notes/198-quadratic-fourth-moment-vaughan-channel.md)
 - [光滑窗四循环、配对对角泛函与窗口再优化](notes/199-smooth-window-cyclic-fourth-diagonal.md)
+- [Gabor 边界的本征 Schatten 门与二矩提升 no-go](notes/200-gabor-boundary-schatten-gate.md)
+- [相邻乘积 Gram、交替比值 Gram 与窗口边缘抑制](notes/201-adjacent-product-alternating-ratio-gram.md)
+- [Archimedean localizer 非构造补全与标量四矩 no-go](notes/202-archimedean-localizing-weil-completion.md)
 - [研究分支看板](RESEARCH_BRANCHES.md)
 - [文献与证据边界](notes/003-sources.md)
 

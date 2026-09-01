@@ -45,7 +45,9 @@
 quadratic-channel Gram--Schur 分解则把所需四矩改写成背景、线性素数项和
 二次素数项的有符号三通道账本。进一步，本文推导真实 Gabor 核的精确四循环
 恒等式以及任意偶窗的配对对角泛函 $D_{22}(\psi)$；Montgomery--Taylor 窗给
-$D_{22}=0.244589\ldots$，显示四矩目标窗不应由二矩优化单独决定。
+$D_{22}=0.244589\ldots$，显示四矩目标窗不应由二矩优化单独决定。新的
+signed-kernel 实现无条件消去 zero-side tail；纯素数 $2+2$ 又精确分裂为长度
+$X$ 的 adjacent product Gram 与仍具 Farey $X^2$ 障碍的 alternating ratio Gram。
 离线深度可见性把负谱迹转化为远离中心线的零点密度，并在负谱预算小于单个
 离线对的可见深度时给出真正的非零区域。
 这解释了为什么二阶矩足以证明正比例、却不能单独排除稀疏的离线零点。
@@ -430,8 +432,8 @@ $r(x)\le\mathbf1_{x>0}$。这与本项目此前的 Cauchy/被动系统路线自�
 
 \section{四矩的 quadratic-channel 因子化}
 
-四矩算术困难不应被粗化成单个绝对值误差。下面的恒等式把它改写成三个
-Hilbert--Schmidt 通道的正半定 Gram 问题，并精确保留背景与素数项之间的交叉相消。
+四矩算术困难不应被粗化成单个绝对值误差。下面的恒等式把它改写为三个
+HS 通道的正半定 Gram，并保留背景与素数项的交叉相消。
 
 \begin{theorem}[二次通道 Gram--Schur 分解]\label{thm:quadratic-channel}
 设中心化压缩
@@ -570,21 +572,25 @@ $\tr\mathcal B^4=\sum_{k_1,\ldots,k_4}
 第二式只是代入 $K_\infty=L\Phi$ 后的正规化。
 \end{proof}
 
-\begin{proposition}[四循环的 Schatten--$4$ 稳定门]\label{prop:s4-gate}
-令 $\mathcal A_T,\mathcal A_{\infty,T}$ 分别为
-\eqref{eq:finite-four-cycle} 与 \eqref{eq:bulk-four-cycle}
-对应的归一化 signed weighted kernel operators，使
+\begin{proposition}[四循环的本征 Schatten--$4$ 稳定门]\label{prop:s4-gate}
+在 $L^2(\mathbb R,d\tau)$ 上令 $S=M_{\operatorname{sgn}\nu_X}$，并令 $C_T\succeq0$
+具有核
 \[
- \tr\mathcal A_T^4=\tr\mathcal B^4,\qquad
- \tr\mathcal A_{\infty,T}^4=\mathcal C_4(\nu_X).
+ \frac{|\nu_X(\tau)|^{1/2}K(\tau,\tau')
+ |\nu_X(\tau')|^{1/2}}{aL^2},
+ \qquad J_T=C_T^{1/2}SC_T^{1/2}.
+\]
+把 $K$ 换成 $L\Phi$ 并乘
+$\mathbf1_I(\tau)\mathbf1_I(\tau')$，同样定义
+$C_{\infty,T},J_{\infty,T}$。则
+\[
+ \tr J_T^4=\tr\mathcal B^4,\qquad
+ \tr J_{\infty,T}^4=\mathcal C_4(\nu_X).
 \]
 若
 \[
- \|\mathcal A_T\|_{\mathcal S_4}
- +\|\mathcal A_{\infty,T}\|_{\mathcal S_4}=O(N^{1/4}),
-\qquad
- \|\mathcal A_T-\mathcal A_{\infty,T}\|_{\mathcal S_4}
- =o(N^{1/4}),
+ \mathcal C_4(\nu_X)=O(N),\qquad
+ \|J_T-J_{\infty,T}\|_{\mathcal S_4}=o(N^{1/4}),
  \label{eq:s4-gate}
 \]
 则
@@ -603,12 +609,72 @@ $\tr\mathcal B^4=\sum_{k_1,\ldots,k_4}
  +\|B\|_{\mathcal S_4}^2\|A\|_{\mathcal S_4}
  +\|B\|_{\mathcal S_4}^3\bigr).
 \]
-取 $A=\mathcal A_T,B=\mathcal A_{\infty,T}$ 即得。
+令
+$U_Tx=(\sqrt{a}\,L)^{-1}|\nu_X|^{1/2}\sum_kx_kf_k$，则
+$\mathcal B=U_T^*SU_T$、$C_T=U_TU_T^*$。两次使用 $AB,BA$ 的非零谱
+一致，得到 $\mathcal B,C_TS,J_T$ 的非零谱一致；bulk 同理。再取
+$A=J_T,B=J_{\infty,T}$ 即得。
 \end{proof}
 
 命题 \ref{prop:s4-gate} 把 finite-to-bulk 问题定位为一个四次可和的核逼近，
-而不是要求不必要的统一算子范数。二矩的 trace-tail 估计本身仍不足以推出
-\eqref{eq:s4-gate}；必须利用四个 Gabor kernels 的共同定位。
+并且只比较真正编码有符号谱的 Hermitian operators，而不要求更强的正包络差。
+
+\begin{proposition}[zero-side tail 的四矩消去]\label{prop:zero-tail-fourth}
+对固定 $\psi,\chi$，令 $m_L=1+\log L$。则
+\[
+ \|\widetilde G+\widetilde E\|
+ \ll_{\psi,\chi}\frac{\sqrt Tm_L}{L},
+\]
+并且
+\[
+ \left|\tr(\widetilde G+\widetilde E)^4-\tr\widetilde G^4\right|
+ \ll_{\psi,\chi}\frac{Tm_L^3}{L^3}=o(N).
+ \label{eq:zero-tail-fourth}
+\]
+进一步，已有算子范数界下，一个可量化的 finite-to-bulk 充分条件是
+\[
+ \boxed{\quad
+ \|J_T-J_{\infty,T}\|_{\rm HS}^2
+ =o\!\left(\frac{L^3}{m_L^2}\right).
+ \quad}
+ \label{eq:boundary-hs-target}
+\]
+\end{proposition}
+
+\begin{proof}
+对 $g_x(\tau)=\sum_kx_k\widehat\phi(\tau-\alpha_k)$，Plancherel 与
+$e^{2\pi iku/L}$ 在长度 $L$ 区间上的正交性给
+$\int|g_x|^2\le2\pi L\|x\|^2$。在 $I$ 内用
+$|\nu_X|\ll L+\sqrt X$；在 $I$ 外用 \cite[(5.3)--(5.4)]{AF26} 的
+$\vartheta$ 包络及 $\int\vartheta^2=O(L)$、
+$\int |r|\vartheta(r)^2dr=O(m_L)$，得到算子范数界。
+再结合 \cite[Prop.~4.3]{AF26} 的
+$\|\widetilde E\|_1\ll T^{-1/2}$ 和 trace-norm telescoping，得到
+\eqref{eq:zero-tail-fourth}。
+
+最后 $\|J_T-J_{\infty,T}\|=O(\sqrt Tm_L/L)$，而
+$\|A\|_4^4\le\|A\|^2\|A\|_{\rm HS}^2$；式
+\eqref{eq:boundary-hs-target} 因 $N\asymp TL$ 推出
+$\|J_T-J_{\infty,T}\|_4^4=o(N)$，再应用命题 \ref{prop:s4-gate}。
+\end{proof}
+
+因此真正未闭合的边界只剩 $K_{\rm out}$ 与 $\tau$-domain 截断，而不是
+zero-side tail。二矩的标量误差仍不能推出
+\eqref{eq:boundary-hs-target}：取秩一 $A_T=(\sqrt Tm_L/L)P$、$B_T=0$，
+其二矩差远小于现有保守误差尺度，但
+$N^{-1}|\tr(A_T^4-B_T^4)|\asymp Tm_L^4/L^5\to\infty$。
+
+这里还记录一个证据边界：按 \cite[\S5.2]{AF26} v2 当前展示的
+$\mathcal E_2$ 末行直接正规化，只读出
+\[
+ O\!\left(\frac{N\log L}{L}\right),
+\]
+而命题 5.2 陈述的误差为
+\[
+ O\!\left(\frac{N\log L}{L^2}\right).
+\]
+这可能是展示证明省略了一步改进或排印差异；本文不据此断言原结论错误。
+较弱界已足够其 $o(N)$ 二矩渐近，但不能把较强 rate 当作四矩 Schatten 输入。
 
 若在算子层写 $\nu_X=A+P$，循环迹的十六个 words 精确合并为
 \[
@@ -619,6 +685,45 @@ $\tr\mathcal B^4=\sum_{k_1,\ldots,k_4}
 \]
 其中两个 $P$ 的六个 words 分成四个 adjacent words 与两个 alternating words；
 这一区分在非交换 Gram 中不能抹去。
+
+\begin{theorem}[纯素数 $2+2$ 的乘积/比值 Gram]\label{thm:product-ratio-gram}
+定义
+\[
+ R_T(x)=\frac1{aL^2}\int_{\mathbb R}
+ \mathbf f(\tau)\mathbf f(\tau)^*e^{ix\tau}\,d\tau,
+ \qquad
+ Z_T=-\frac1{2\pi}\sum_{n\le X}\frac{\Lambda(n)}{\sqrt n}R_T(\log n).
+\]
+则纯素数矩阵 $P_T=Z_T+Z_T^*$，且
+\[
+ [\tr P_T^4]_{2+2}
+ =4\|Z_T^2\|_{\rm HS}^2+2\|Z_TZ_T^*\|_{\rm HS}^2.
+ \label{eq:two-family-gram}
+\]
+若 $A=\|Z_T^2\|_{\rm HS}^2$、$B=\|Z_TZ_T^*\|_{\rm HS}^2$，则
+\[
+ B-A=\frac12\|[Z_T,Z_T^*]\|_{\rm HS}^2,
+\]
+故式 \eqref{eq:two-family-gram} 也等于
+$6A+\|[Z_T,Z_T^*]\|_{\rm HS}^2$。
+
+更细地，$Z_T^2$ 的 summands 可按乘积 $m=ab$ 聚成 PSD Gram，
+$Z_TZ_T^*$ 的 summands 可按既约比值 $\rho=a/b$ 聚成 PSD Gram。
+\end{theorem}
+
+\begin{proof}
+六个词在循环迹下分成四个 $ZZZ^*Z^*$ 和两个 $ZZ^*ZZ^*$；前者
+等于 $\|Z^2\|_{\rm HS}^2$，后者等于 $\|ZZ^*\|_{\rm HS}^2$。
+展开 $\|[Z,Z^*]\|_{\rm HS}^2$ 给 $2(B-A)$。最后分别写
+\[
+ Z_T^2=\sum_m\sum_{ab=m}b_ab_bR_aR_b,
+\]
+\[
+ Z_TZ_T^*=\sum_{(p,q)=1}\sum_k
+ b_{kp}\overline{b_{kq}}R_{kp}R_{kq}^*,
+\]
+即得两个 Gram 聚类。
+\end{proof}
 
 \begin{theorem}[偶窗口的配对 $2+2$ 对角泛函]
 \label{thm:paired-window}
@@ -715,6 +820,48 @@ $B_\kappa(b_2(\psi))-D_{22}(\psi)$，同时控制未配对共振。
 在余弦族 $\cos(cu)$ 中，有限扫描显示该预算向 $c\uparrow\pi$ 显著增大；
 端点 $c=\pi$ 的形式值约为 $0.19827$，但这仍是选择下一候选窗的数值线索。
 
+\begin{proposition}[adjacent 支撑缩减与端点窗边缘抑制]
+\label{prop:path-support}
+在 translation-invariant one-cut bulk 中，令
+$r_n=\log n/L$。对 adjacent 次序 $+,+,-,-$，窗口 overlap 非零蕴含
+\[
+ r_a+r_b\le1,qquad ab\le X.
+ \label{eq:adjacent-length}
+\]
+所以 adjacent product Gram 只具有长度 $X$；alternating 次序并无相应
+乘积限制，其既约比值的 Farey 间距仍可达 $X^{-2}$。
+
+更一般地，若四个 path shifts 的 span 为 $R\le1$，置 $\ell=1-R$，则
+对 $\psi_c(u)=\cos(cu)\mathbf1_{|u|\le1/2}$、$0<c\le\pi$，
+\[
+ 0\le\mathcal W_c
+ \le v_c^2\ell+v_cc\ell^2+\frac{c^2}{6}\ell^3,
+ \qquad v_c=\cos(c/2).
+ \label{eq:cosine-edge}
+\]
+特别地，$\mathcal W_\pi\le\pi^2\ell^3/6$，而平窗只有
+$\mathcal W_0=\ell$。
+\end{proposition}
+
+\begin{proof}
+adjacent 部分和同时含 $0$ 与 $r_a+r_b$；长度一支撑要求全部部分和的
+span 不超过一，即得 \eqref{eq:adjacent-length}。对第二式，把 overlap
+交集写成 $u=-1/2+x$、$0\le x\le\ell$。达到两个极端 shift 的因子分别不超过
+$v_c+cx$ 与 $v_c+c(\ell-x)$，另两个因子不超过一；积分即得
+\eqref{eq:cosine-edge}。
+\end{proof}
+
+命题 \ref{prop:path-support} 把新的算术硬核精确缩到 alternating ratio Gram。
+对任意固定 $\delta>0$，$m\le X^{1-\delta}$ 的 adjacent 部分已有普通
+vector-valued large sieve 的 $O(T^{-\delta})$ 相对误差；只要再证明边缘
+$X^{1-\delta}<m\le X$ 的 Gram mass 随 $\delta\downarrow0$ 消失，即可闭合
+adjacent family。alternating family 则需要在真实 Vaughan response 子空间上
+证明 Farey Gram 的一侧 Schur bound，不能使用 all-direction large sieve。
+
+端点窗的 $O(\ell^3)$ 不代表逐点占优：所有 shifts 重合时，其正规化 overlap
+为 $3\pi^4/128>1$。因此窗口筛选必须联合测量 bulk diagonal、边缘 path 和
+alternating response norm。
+
 \begin{proposition}[严格改善当前比例的一侧账本]\label{prop:fourth-ledger}
 设 $b_2=1/3+o(1)$，并把真实 tapered 压缩的中心四矩写成
 \[
@@ -745,8 +892,9 @@ $R(b_2,b_4)=4/[9(b_4+1/3)]>\kappa$，再应用定理
 四个 adjacent words 合计 $1/15$，故对角总贡献为 $4/15$；
 预测的总四矩 $1/4$ 相当于净非对角修正 $-1/60$。
 这些数只标定命题 \ref{prop:fourth-ledger} 的预算：
-尚未证明真实 Gabor/tapered 压缩具有同一对角常数，也尚未把
-$3+1,4+0$、Archimedean 背景、窗口边界和截断尾统一压入该预算。
+尚未把 alternating Farey Gram、$3+1,4+0$、Archimedean 背景、窗口边界
+和截断尾统一压入该预算；但命题 \ref{prop:zero-tail-fourth} 已消去
+zero-side tail，命题 \ref{prop:path-support} 又把 adjacent family 缩到长度 $X$。
 有限无权 Dirichlet 多项式实验显示三族之间确有显著相消，但不构成 zeta
 四矩估计。相应可执行账本见
 \texttt{scripts/fourth\_moment\_channel\_audit.py}。
@@ -1001,8 +1149,10 @@ Brownian 响应
 \item 把 Alpöge--Furman 压缩矩阵写入本项目的
 prime/continuum/Gamma response 记号，计算响应前后 $R$ 的精确 Schur 公式；
 \item 在冻结有限模型上同时优化窗 $\psi$ 与 Brownian response，而不是只优化窗；
-\item 证明有限 Gabor 四循环到 bulk 泛函的误差为 $o(N)$，并把
-$P_X^4$ 的未配对近共振写成保留符号的 response Gram；
+\item 证明 weighted boundary estimate
+$\|J_T-J_{\infty,T}\|_{\rm HS}^2=o(L^3/(1+\log L)^2)$；
+\item 证明 adjacent product Gram 的 edge tightness，并对 alternating Farey
+Gram 构造 Vaughan response-specific Schur 证书；
 \item 对离线测试零点 $\rho=\tfrac12+\eta+i\gamma$ 计算其 Gabor feature
 在正背景商空间中的最小奇异值，建立 $v_T(\eta)$ 的模型尺度；
 \item 将有限 response feasibility 写成 block PSD 与二阶锥问题，记录最优半径随
@@ -1020,6 +1170,8 @@ $P_X^4$ 的未配对近共振写成保留符号的 response Gram；
 一阶迹和二阶矩已经无条件给出 $67.250\ldots$；精确四矩证书与
 quadratic-channel Gram 把比例改进压成 $2+2,3+1,4+0$ 共振族的一个净预算；
 一般窗口的配对对角泛函又表明二矩最优窗未必是四矩最优窗。
+进一步的 product/ratio 分解已把 $2+2$ 的普通长度通道与真正 Farey 硬核分开，
+并把 finite-to-bulk 边界量化为一个 weighted Hilbert--Schmidt 目标。
 负谱深度可见性则是非零区域所缺的结构。备选方向因而不是改做经典零点比例，
 而是研究 Weil 配置的不完全正性如何量化地控制 divisor。
 

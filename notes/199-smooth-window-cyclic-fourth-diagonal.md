@@ -427,3 +427,18 @@ R(\psi_c)=\frac{I_{2,c}+J_c}{a_c^2}
 - 余弦端点窗的二矩闭式、配对对角与阈值裕量。
 
 这些检查不估计真实 zeta remainder。
+
+## 10. 后续推进（笔记 200--201）
+
+笔记 200 已无条件证明 zero-side tail 对四次迹为 (o(N))，并把真正边界缩成
+signed-kernel 的本征目标
+
+\[
+\|J_T-J_{\infty,T}\|_{\rm HS}^2
+=o\!\left(\frac{L^3}{(1+\log L)^2}\right).
+\]
+
+笔记 201 又把完整 (2+2) family 精确分成 adjacent product Gram 与
+alternating ratio Gram；compact-support path 强制前者 (ab\le X)，真正的
+(X^2) Farey 障碍只剩后者。因此本笔记第 9 节的第 1--2 项已被进一步量化，
+但 weighted boundary estimate 与 alternating response Schur bound 仍开放。

@@ -46,6 +46,7 @@
 \newcommand{\dd}{\,\mathrm d}
 \newcommand{\1}{\mathbf 1}
 \newcommand{\cH}{\mathcal H}
+\newcommand{\cA}{\mathcal A}
 \newcommand{\cM}{\mathcal M}
 \newcommand{\cE}{\mathcal E}
 \newcommand{\cQ}{\mathcal Q}
@@ -59,7 +60,7 @@
 
 \title{\bfseries 从 Weil 猜想到数域中心线\\
 \large 极化、过滤 Hodge 结构与黎曼猜想的存在性审计}
-\author{研究笔记整理稿（第 001--173 篇）}
+\author{研究笔记整理稿（第 001--202 篇）}
 \date{2026 年 9 月 1 日}
 
 \begin{document}
@@ -77,6 +78,8 @@
 本文再以 sharp square completion 删除该 pointwise amplitude 前提：加入最小二次 Hodge lift 后，背景自动保持正性，负指标由 Schur residual的 reciprocal二阶矩与 predictor的 reciprocal-cubic四阶矩控制；后者仍是显式 positive-definite correspondence Gram。平方根楔中的下一输入因而成为一条 integrated fourth-moment budget，而非 $L^\infty$ leverage。
 
 进一步的 quartic-capacity下界表明，上述 unscaled fourth price在 zeta shell上至少为 $TD_T^2/\log T$，故它未必是较弱输入。本文于是把 reciprocal-barrier upper bound提升到不要求对易的 finite von Neumann algebra，并用 relative continuous functional calculus对 explicit predictor作 lattice clipping。所得严格正背景仅支付 one-sided quadratic clipped residual；它既不需要 pointwise leverage，也不需要 fourth moment。
+
+非构造存在性方面，本文证明一个 Archimedean localizing completion：若每个有限 arithmetic word level 都有一致有界、渐近满足 mixed Hodge localizers 的 tracial moment functional，则 finite-intersection compactness 与 GNS 自动产生全局正表示，无需预先选择相容有限模型。与此同时，一个精确的 65 维反例表明，维数、算子范数与前四个标量迹矩即使完全相同，也不能区分正定矩阵与具有固定正比例负谱的矩阵；所以一次性的 scalar fourth-moment completion 原理上不可能推出完整 Weil 正性。
 
 因此，本文没有证明 RH 或 GRH；它给出的是若干已证明的结构蕴含、明确标注的条件框架、存在性边界、失败机制，以及一个缩窄到具体算术不等式的下一阶段研究议程。所有内部新结果仍有待独立同行核验。
 \end{abstract}
@@ -120,6 +123,7 @@
   \item 以最优二次 square completion 自动保持背景正性，把 amplitude 证书替换为 Schur residual 与显式四阶 correspondence Gram；
   \item 证明四阶代价的 capacity必要下界，并以 finite-trace relative lattice clipping进一步把它替换为 one-sided quadratic residual；
   \item 证明仅靠正 Gram 的低秩压缩不可能“免费”产生 Hodge--Riemann 约束，因而明确下一步必须构造何种新结构。
+  \item 证明 scalar fourth-moment completion 的 65 维严格 no-go，并给出增长 mixed localizers 的 Archimedean 非构造补全定理。
 \end{enumerate}
 
 本文区分已证明蕴含与条件框架：PLF、tempered、有限迹 effect 对偶、bounded-defect normality 和 no-free-lunch 属于 \statusU{}；FPW 中心线定理在定量模式分离公理下属于 \statusC{}；实际 zeta tightness 或 bounded negative trace 属于 \statusE{}。有限浮点实验统一标为 \statusN{}，只用于发现结构、排除错误目标，不构成 RH 证据。
@@ -313,6 +317,113 @@ $\sum_{\rho\ne0}|\nu_\rho||\rho|^{-g-1}<\infty$。固定次数不超过 $g$ 的�
 \end{proof}
 
 这说明普通 Hilbert 空间本征子空间维数不是恢复重数的唯一方式。标量最小 GNS fiber 可以是一维，而 trace dimension 仍精确携带重数；但必须把这种全纯谱乘积与正实值的 Fuglede--Kadison determinant 明确区分。
+
+\subsection{非构造 localizer 补全与低阶矩边界}
+
+下面回答一个自然的存在性问题：是否可以不显式构造数域 Hilbert 空间，而由
+所有有限 arithmetic configurations 的可满足性非构造地产生全局 Weil 型正表示？
+答案是肯定的，但必须使用随 word degree 增长的 matrix localizers；固定的前四个
+标量矩严格不够。
+
+\begin{theorem}[\statusU{} scalar fourth-moment completion no-go]
+\label{thm:four-moment-nogo}
+存在两个 $65\times65$ Hermitian 矩阵 $H_+,H_-$，满足
+\[
+ \|H_+\|=\|H_-\|=1,qquad
+ \frac1{65}\Tr H_+^k=\frac1{65}\Tr H_-^k
+ \quad(0\le k\le4),
+\]
+但 $H_+\succ0$，而 $H_-$ 有一个负特征值。共同的矩依次为
+\[
+ 1,\quad \frac7{13},\quad \frac{109}{325},\quad
+ \frac{371}{1625},\quad \frac{1357}{8125}.
+\]
+任取多个直和后，负谱比例仍为 $1/65$。因此任何只依赖维数、统一算子范数和
+$m_0,\ldots,m_4$ 的抽象补全原则，都不能推出 Hodge current 的完整正性。
+\end{theorem}
+
+\begin{proof}
+取归一化谱测度
+\[
+ \mu_+=\frac3{13}\delta_{1/5}
+ +\frac9{13}\delta_{3/5}+\frac1{13}\delta_1,
+\]
+\[
+ \mu_-=\frac1{65}\delta_{-1/5}
+ +\frac8{13}\delta_{2/5}+\frac{24}{65}\delta_{4/5}.
+\]
+相应重数是 $(15,45,5)$ 与 $(1,40,24)$。对 $0\le k\le4$，恒等式
+\[
+ -\left(-\frac15\right)^k+15\left(\frac15\right)^k
+ -40\left(\frac25\right)^k+45\left(\frac35\right)^k
+ -24\left(\frac45\right)^k+5=0
+\]
+给出矩相等。正负谱结论从支撑直接可见。
+\end{proof}
+
+甚至一阶 localizer
+\[
+ \begin{pmatrix}m_1&m_2\\m_2&m_3\end{pmatrix}
+\]
+对二者相同且行列式为 $1104/105625>0$。但增长一级已经可以检测负方向：
+对 $p(x)=(x-2/5)(x-4/5)$，
+\[
+ \int xp(x)^2\,d\mu_-(x)=-\frac9{8125}<0.
+\]
+这说明需要增长的 localizing word spaces，或额外的 flatness/递推关系。
+
+\begin{theorem}[\statusU{} Archimedean finite-satisfiability completion]
+\label{thm:localizer-completion}
+令 $\cA_0$ 为可数幺正 $*$-代数，$Q\subset(\cA_0)_h$ 为
+Archimedean quadratic module：对每个 $a\in\cA_0$，存在 $R_a<\infty$ 使
+\[
+ R_a^2-a^*a\in Q.
+\]
+令 $h=h^*\in\cA_0$，并在一个可数 arithmetic word family $E$ 上预定
+length-side moments $\lambda(e)$。
+
+假设对每个有限约束集 $F$ 和每个 $n\ge1$，存在定义在包含 $F$ 所涉 words
+的有限维 $*$-空间上的线性泛函 $L_{F,n}$，满足：
+\begin{enumerate}
+ \item $L_{F,n}(1)=1$，所选 $*$-关系与迹关系的误差不超过 $1/n$；
+ \item 所选 Gram 与 $Q$-localizing matrices 半正定到误差 $1/n$；
+ \item 对所选 words $u_1,\ldots,u_r$，
+ \[
+ [L_{F,n}(u_i^*hu_j)]_{i,j}
+ \succeq-\frac1n[L_{F,n}(u_i^*u_j)]_{i,j};
+ \]
+ \item $|L_{F,n}(e)-\lambda(e)|\le1/n$ 对所选 $e\in E$ 成立。
+\end{enumerate}
+则存在全局 tracial state $L$ 与其 GNS 表示 $(\pi,\cH,\Omega)$，使
+\[
+ L(e)=\lambda(e)\quad(e\in E),qquad \pi(h)\succeq0.
+\]
+\end{theorem}
+
+\begin{proof}
+Archimedean 关系与 Cauchy--Schwarz 给每个 moment coordinate 一致界
+$|L(a)|\le R_a$。把全部 coordinates 放入紧圆盘的乘积；有限近似可满足性
+给全部闭约束的 finite-intersection property。取 cluster point 后，$*$-关系、
+迹关系、prescribed moments 以及全部 Gram/localizer 正性均由闭性保留，得到
+全局 tracial positive functional $L$。GNS 构造中
+\[
+ \langle\pi(h)\pi(p)\Omega,\pi(p)\Omega\rangle=L(p^*hp)\ge0.
+\]
+Archimedean 关系使 $\pi(h)$ 有界，故 $\pi(h)\succeq0$。
+\end{proof}
+
+定理~\ref{thm:localizer-completion} 与 truncated tracial moment 和
+flat-extension 理论的方向一致\cite{BurgdorfKlep,MourrainSchmudgen}，但不假设
+低阶 flatness。它的价值是消除“如何相容地选择所有有限模型”这一选择问题；
+它不免费证明局部正性。若全局交为空，紧致性的反面给某个有限 word level 已
+不可满足，有限维凸分离再产生 SDP/SOS dual separator。
+
+对 zeta 的非循环应用还必须验证：$\cA_0,Q,h$ 完全由 length side 定义；
+bounded resolvent 或 Cayley-transform moments 在极限中恢复 divisor visibility；
+并且相应 tracial Weierstrass product 确实恢复 Gamma--Euler divisor。若把全部
+Weil tests 的正性直接列入有限约束，前提仍与 RH 等价。真正可能较弱的目标是
+找到一个小而代数闭合的 arithmetic operator system，使其 mixed localizers
+可由 Type I/II、Gamma 与 continuum identities 控制，而闭包自动看见所有负方向。
 
 \section{Filtered primitive Weil 条件框架}
 
@@ -979,10 +1090,18 @@ Guth--Maynard 的 Dirichlet polynomial large-value bounds\cite{GuthMaynard}是 l
 
 最新的 canonical quotient 又把经验通道降为一个精确 Type I/II 对象，并无条件删除了 $n\leq T/\log^A T$ 的低算术长度；冻结 basis 现在只保留为诊断工具。hard-channel gauge 与 Hadamard no-go 进一步表明：完整 cross Gram 并不是较弱的新目标。截断 M\"obius defect 已被实现为 zeros-independent 的 threshold-complex Hodge heat supertrace；profinite divisibility polarization又把其 second moment转移到全部单调权，并无条件消去 $T\geq\log^K Y$ 的 hard coefficient diagonals。Selberg--Volterra identity提供真正的 cross-fiber transport；microscopic incidence又无条件删除 $N\leq T^{2-\eta}$ 的 wedge。与此同时，telescoping--Mellin theorem证明 polylogarithmic full profile本身与 RH 等价。capped-correspondence theorem把频谱 effects翻译成 $r$ 与 $\kappa-r$ 的双正定性；reciprocal-barrier theorem再把 joint index化为 harmonic predictor后的 Schur residual。square completion删除了 pointwise amplitude，但 quartic-capacity下界又揭示 unscaled fourth budget可能过强。finite-trace lattice clipping最终把这两个代价统一替换为 one-sided quadratic residual，而且允许 background与 current不对易。下一次真正的突破应在剩余 square-root resonance wedge内证明该 clipped residual可和。若由此得到 Cauchy 负指标一致有界，定理~\ref{thm:main} 将直接给出 RH；对一般 Gamma--Euler 数据，还必须验证相应 ideal/local-system counting inputs。
 
-\appendix
-\section{173 篇笔记的主题映射}
+非构造路线现在也有了严格边界：定理~\ref{thm:four-moment-nogo} 排除任何只用
+四个标量矩的“自动正性”，而定理~\ref{thm:localizer-completion} 证明增长的 mixed
+arithmetic localizers 足以非构造地产生全局 tracial positive representation。
+因此下一次结构性突破可以采取两种等价可审计形式：直接证明 clipped residual
+可和，或证明一个 divisor-visible operator system 的有限 localizers 一致近正；
+二者都不能由低阶标量矩或裸紧致性免费得到。
 
-下表给出原始笔记到本文论证链的完整范围映射。编号 003 为文献与证据审计；其余 172 篇为研究笔记。
+\appendix
+\section{202 篇笔记的主题映射}
+
+下表给出原始笔记到本文论证链的完整范围映射。编号 003 为文献与证据审计；
+其余 201 篇为研究笔记。
 
 \begingroup\small
 \begin{longtable}{@{}p{0.09\textwidth}p{0.28\textwidth}p{0.51\textwidth}@{}}
@@ -1018,6 +1137,9 @@ Guth--Maynard 的 Dirichlet polynomial large-value bounds\cite{GuthMaynard}是 l
 171 & reciprocal-barrier kernel、harmonic Schur shorting与 amplitude证书 & one-sided square-root target及 finite LMI接口\\
 172 & square-completed positive background、Schur--$L^4$ shorting与 fourth correspondence Gram & amplitude-free bounded-index criterion及新 square-root moment target\\
 173 & quartic-capacity审计、operator reciprocal barrier与 relative lattice clipping & noncommuting finite-trace structure及 one-sided zeta target\\
+174--180 & 非构造存在性、finite cone separators、Hodge transgression、随机 Fej\'er、packet criterion与 operator-system repair & 增长 localizer 路线的有限凸几何、换位子与 capture 边界\\
+181--196 & modulated complement、bicommutant、finite-word moments、soft Cauchy effects、Brownian primitive 与 response-specific Vaughan Gram & mixed arithmetic word systems、非构造 response compactness及其 no-go\\
+197--202 & 部分 Weil 比例与深度、quadratic fourth channels、smooth-window cycle、Schatten boundary、product/ratio Gram 与 localizer completion & 独立比例论文及本节的 scalar-four-moment no-go、finite-satisfiability completion\\
 \bottomrule
 \end{longtable}
 \endgroup
@@ -1031,6 +1153,8 @@ $\Downarrow$ 抽象化\\[4pt]
 双向 tempered dynamics $\Longrightarrow$ spectral radius purity\\[4pt]
 $\Downarrow$ cyclic/filtered 化\\[4pt]
 explicit formula + visible divisor modes + FPW tightness $\Longrightarrow$ center line\\[4pt]
+$\Downarrow$ 非构造补全\\[4pt]
+finite mixed localizers + Archimedean bounds $\Longrightarrow$ tracial positive representation\\[4pt]
 $\Downarrow$ 数域弱化\\[4pt]
 Cauchy effect realization + bounded finite-trace negative index\\
 $\Longrightarrow$ normal family $\Longrightarrow$ logarithmic derivative 无右半平面极点\\
@@ -1115,6 +1239,18 @@ H. Bass, \emph{The Ihara--Selberg Zeta Function of a Tree Lattice}, Int. J. Math
 
 \bibitem{Simon}
 B. Simon, \emph{Trace Ideals and Their Applications}, 2nd ed., AMS, 2005.
+
+\bibitem{BurgdorfKlep}
+S. Burgdorf and I. Klep,
+\emph{The truncated tracial moment problem},
+J. Operator Theory \textbf{68} (2012), 141--163.
+\url{https://arxiv.org/abs/1001.3679}
+
+\bibitem{MourrainSchmudgen}
+B. Mourrain and K. Schm\"udgen,
+\emph{Flat extensions in $*$-algebras},
+Proc. Amer. Math. Soc. \textbf{144} (2016), 4873--4885.
+\url{https://arxiv.org/abs/1406.4975}
 
 \bibitem{DLMF}
 NIST Digital Library of Mathematical Functions, §§5.9, 5.11.
