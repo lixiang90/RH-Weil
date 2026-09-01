@@ -454,6 +454,7 @@ xelatex rh-weil-structure-paper.tex
 - [有限 Gabor 相邻通道的 Toeplitz--Hankel 转移](notes/204-toeplitz-hankel-adjacent-transfer.md)
 - [Adjacent Montgomery--Vaughan 闭合与 Hankel family no-go](notes/205-adjacent-mv-boundary-no-go.md)
 - [Supercritical boundary 伪协方差归约与 covariance-blind no-go](notes/206-supercritical-boundary-pseudocovariance.md)
+- [Boundary quarter-turn 最优化、operator-smallness 与局部化障碍](notes/207-quarter-turn-optimization-locality-obstruction.md)
 - [研究分支看板](RESEARCH_BRANCHES.md)
 - [文献与证据边界](notes/003-sources.md)
 

@@ -75,8 +75,10 @@ self-adjoint。令
 满足 \(BB^{\mathsf T}=0\)，另一族达到最大 coherent
 \(BB^{\mathsf T}\)。因此：
 
-> 任何只使用 one-factor covariance、Bessel energy 或 singular-value
-> information 的证明模板，都不能闭合 supercritical boundary。
+> 若 one-factor block 保持自然非消失尺度，则只读取 covariance、Bessel
+> energy 或固定 singular data 不能产生所需 phase cancellation。该 no-go
+> 不排除直接证明 \(\beta_L\|B_X\|_{\mathrm{op}}=o(1)\)；笔记 207 证明后者
+> 与已知 HS energy bound 合并后足以闭合 supercritical boundary。
 
 缺失输入必须读取无共轭 phase。式 (6) 的 entries 可精确写成两个实际 prime
 Dirichlet responses 的乘积，而不是任意长度 \(X^2\) 的 product coefficients；
@@ -465,10 +467,12 @@ Type I--Type I、Type I--Type II 和 Type II--Type II 项。不得先对两个
 
 连续遍历从零到最大 coherence 的全部尺度。\(\square\)
 
-所以即使把式 (7) 提升为 exact covariance identity、最优 Bessel 常数或完整
-singular-value distribution，也仍不能推出式 (6)。这比笔记 205 的任意
+所以在同一个固定 nonvanishing singular scale 上，即使把式 (7) 提升为
+exact covariance identity 或完整 singular-value distribution，也不能从中
+读取式 (6) 所需的额外 circular phase cancellation。这比笔记 205 的任意
 Hankel-family rank-one 反例更精确：它直接作用于已经 factorized 的
-one-boundary block，并指出缺失信息是 phase circularity。
+one-boundary block。另一方面，若能证明整个 block 的 operator norm 满足
+\(\beta_L\|B_X\|_{\mathrm{op}}=o(1)\)，则笔记 207 的次乘性证书仍可闭合目标。
 
 ## 7. 一个非循环但仍开放的 quarter-turn 充分证书
 
@@ -588,8 +592,9 @@ complex structure：
 - 定理 206-C 只把一个 prime-side finite boundary input 改写成结构更强的实际
   response statement；它不等价于 RH 或完整 Weil positivity。
 - 定理 206-D 是无条件大 \(O\) 能量界；不能把 \(O(N)\) 升级为 \(o(N)\)。
-- 定理 206-G 排除 covariance-only 证明路线，但不排除 Type I/II phase
-  cancellation。
+- 定理 206-G 排除 natural-scale covariance 自动制造 phase cancellation，
+  但不排除 Type I/II phase cancellation，也不排除直接证明 vanishing
+  one-factor operator norm。
 - 式 (40) 是充分条件而非已知事实；在构造 canonical \(J\) 前，它不进入任何
   零点结论链。
 - alternating/Farey、\(3+1\)、\(4+0\)、Gamma/continuum cross terms 仍独立

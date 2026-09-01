@@ -95,8 +95,12 @@ CHECKS = (
         "supercritical boundary pseudocovariance",
         [sys.executable, "supercritical_pseudocovariance_audit.py"],
     ),
-)
+    (
+        "boundary quarter-turn and locality obstruction",
+        [sys.executable, "boundary_quarter_turn_audit.py"],
+    ),
 
+)
 
 def main() -> None:
     for label, command in CHECKS:
