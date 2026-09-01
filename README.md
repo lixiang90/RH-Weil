@@ -460,6 +460,7 @@ xelatex rh-weil-structure-paper.tex
 - [Local prime-power energy closes square-root alternating boxes](notes/210-local-prime-energy-square-root-box-closure.md)
 - [Radial cross-box coherence：pairwise no-go 与窗口局部性障碍](notes/211-radial-cross-box-coherence-obstruction.md)
 - [Hyperbolic radial-chain closure 与 aperture seam compression](notes/212-hyperbolic-radial-chain-aperture-seam.md)
+- [Radial alias seam 的精确支撑间隙与迹类闭合](notes/213-radial-alias-seam-support-gap.md)
 - [研究分支看板](RESEARCH_BRANCHES.md)
 - [文献与证据边界](notes/003-sources.md)
 

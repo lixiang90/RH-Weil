@@ -512,3 +512,10 @@ energy 为 \(o(N)\)，利用式 211-(9) 的 endpoint factor，而不是假设圆
 4. tridiagonal PSD seam Gram 保留约 \(N/2\) off-diagonal excess。
 
 有限实验只审计索引、尺度和反例，不证明开放式 (22)。
+
+## 12. 后续更新
+
+笔记 213 已证明：足够窄 aperture 下，\(\pm L\) alias 的 translated-symbol
+主项逐原子严格为零，finite Hankel 余项总和为 \(o(N)\)；\(\pm2L\) seams
+由 ratio diameter 直接排空。因此本笔记的开放引理 212-H 已缩小为 ordinary
+neighboring aperture seam budget 213-G。

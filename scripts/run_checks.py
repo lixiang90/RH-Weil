@@ -104,6 +104,10 @@ CHECKS = (
         [sys.executable, "aperture_radial_chain_audit.py"],
     ),
     (
+        "radial alias-seam translated support gap",
+        [sys.executable, "alias_seam_overlap_audit.py"],
+    ),
+    (
         "adjacent Montgomery--Vaughan and boundary no-go",
         [sys.executable, "adjacent_mv_boundary_no_go_audit.py"],
     ),
