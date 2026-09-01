@@ -435,6 +435,7 @@ xelatex rh-weil-structure-paper.tex
 - [Cauchy--Gaussian scale mixture and the high-order vanishing route](notes/190-cauchy-gaussian-mixture-high-order-route.md)
 - [Vanishing-order coefficient tax and the signed Gaussian heat profile](notes/191-vanishing-order-tax-signed-heat-profile.md)
 - [Cauchy cumulative capacity and centered Volterra factorization](notes/192-cauchy-cumulative-capacity-centered-volterra.md)
+- [Balanced square core and the mass-correction separation no-go](notes/193-balanced-square-mass-correction-no-go.md)
 - [研究分支看板](RESEARCH_BRANCHES.md)
 - [文献与证据边界](notes/003-sources.md)
 

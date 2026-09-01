@@ -16,6 +16,7 @@ from formal_lag_response import (
     cauchy_signed_layer_cake_ledger,
     chebyshev_formal_orbit_coefficients,
     degree_two_gaussian_response_upper_bound,
+    degree_two_centered_response_decomposition,
     degree_two_parity_exact_ledger,
     degree_two_response_frequency_map,
     formal_arbitrary_direction_audit,
@@ -161,6 +162,25 @@ def soft_zeta_orbit_audit(
         if response_map is not None
         else None
     )
+    centered_response_audit = None
+    if response_map is not None:
+        decomposition = degree_two_centered_response_decomposition(
+            symbol, spectral_bound, rho
+        )
+        centered_response_audit = {
+            "total_mass": decomposition["total_mass"],
+            "relative_total_mass": (
+                decomposition["total_mass"] / spectral_bound
+            ),
+            "balanced_profile": cauchy_signed_layer_cake_ledger(
+                decomposition["balanced_square_response"],
+                formal["continuum_nodes"],
+            ),
+            "mass_correction_profile": cauchy_signed_layer_cake_ledger(
+                decomposition["mass_correction_response"],
+                formal["continuum_nodes"],
+            ),
+        }
     prime_continuum_mass = sum(
         complex(coefficient)
         for coefficient in data["prime_continuum_discrepancy_coefficients"]
@@ -188,6 +208,7 @@ def soft_zeta_orbit_audit(
         "heat_shell_audit": heat_shell_audit,
         "signed_profile_audit": signed_profile_audit,
         "cauchy_profile_audit": cauchy_profile_audit,
+        "centered_response_audit": centered_response_audit,
         "provenance_mass_residual": separated_mass - prime_continuum_mass,
     }
 
@@ -251,6 +272,12 @@ def main() -> None:
         audit["cauchy_profile_audit"]["total_response"]
         - ledger["total_response"]
     ) <= 1.0e-10
+    assert audit["centered_response_audit"] is not None
+    assert abs(
+        audit["centered_response_audit"]["balanced_profile"]["total_response"]
+        + audit["centered_response_audit"]["mass_correction_profile"]["total_response"]
+        - ledger["total_response"]
+    ) <= 1.0e-10
     assert ledger["signed"]["exact"].real <= (
         audit["parity_exact_ledger"]["exact_response_upper_bound"] + 1.0e-10
     )
@@ -279,7 +306,9 @@ def main() -> None:
         "profile/variation="
         f"{audit['signed_profile_audit'][0]['capacity_to_variation_ratio']:.6g}, "
         "Cauchy-profile/variation="
-        f"{audit['cauchy_profile_audit']['capacity_to_variation_ratio']:.6g}"
+        f"{audit['cauchy_profile_audit']['capacity_to_variation_ratio']:.6g}, "
+        "M/B="
+        f"{audit['centered_response_audit']['relative_total_mass'].real:.6g}"
     )
 
 

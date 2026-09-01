@@ -332,6 +332,40 @@ def centered_degree_two_volterra_coefficients(
     )
 
 
+def degree_two_centered_response_decomposition(
+    symbol: FrequencyMap, spectral_bound: float, rho: float
+) -> dict[str, object]:
+    """Split the degree-two response into a zero-mass square core and M terms."""
+    if not symbol:
+        raise ValueError("symbol must be nonempty")
+    dimension = len(next(iter(symbol)).continuum)
+    total_mass = sum(symbol.values())
+    centered_symbol = add_frequency_maps(
+        symbol, {FormalLag.zero(dimension): -total_mass}
+    )
+    total_response = degree_two_response_frequency_map(
+        symbol, spectral_bound, rho
+    )
+    balanced_square_response = degree_two_response_frequency_map(
+        centered_symbol, spectral_bound, rho
+    )
+    mass_correction_response = add_frequency_maps(
+        total_response,
+        scale_frequency_map(balanced_square_response, -1.0),
+    )
+    return {
+        "total_mass": total_mass,
+        "centered_symbol": centered_symbol,
+        "centered_mass_residual": sum(centered_symbol.values()),
+        "volterra_coefficients": centered_degree_two_volterra_coefficients(
+            total_mass, spectral_bound
+        ),
+        "total_response": total_response,
+        "balanced_square_response": balanced_square_response,
+        "mass_correction_response": mass_correction_response,
+    }
+
+
 def stationary_response_from_frequency_map(
     response: FrequencyMap,
     continuum_nodes: tuple[float, ...],

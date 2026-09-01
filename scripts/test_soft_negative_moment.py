@@ -5,11 +5,13 @@ from __future__ import annotations
 import numpy as np
 
 from formal_lag_response import (
+    add_frequency_maps,
     cauchy_gaussian_mixture_band_ledger,
     cauchy_gaussian_mixture_cdf,
     cauchy_signed_layer_cake_ledger,
     centered_degree_two_volterra_coefficients,
     degree_two_gaussian_response_upper_bound,
+    degree_two_centered_response_decomposition,
     degree_two_parity_exact_ledger,
     degree_two_response_frequency_map,
     exact_formal_moment,
@@ -171,6 +173,19 @@ def main() -> None:
     # both the original Cauchy response and every finite mixture band.
     response_map = degree_two_response_frequency_map(
         broken_formal, spectral_bound=bound, rho=bound / 3.0
+    )
+    centered_decomposition = degree_two_centered_response_decomposition(
+        broken_formal, spectral_bound=bound, rho=bound / 3.0
+    )
+    assert abs(centered_decomposition["centered_mass_residual"]) <= 1.0e-12
+    reconstructed_response = add_frequency_maps(
+        centered_decomposition["balanced_square_response"],
+        centered_decomposition["mass_correction_response"],
+    )
+    assert set(reconstructed_response) == set(response_map)
+    assert all(
+        abs(reconstructed_response[lag] - response_map[lag]) <= 1.0e-12
+        for lag in response_map
     )
     continuum_nodes = (0.6,)
     direct_cauchy = stationary_response_from_frequency_map(
