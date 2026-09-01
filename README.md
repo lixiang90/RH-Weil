@@ -444,6 +444,8 @@ xelatex rh-weil-structure-paper.tex
 - [Brownian primitive energy and the direct Cauchy certificate](notes/194-brownian-primitive-energy-cauchy-certificate.md)
 - [Response-specific Vaughan--Brownian channel Gram](notes/195-response-specific-vaughan-brownian-gram.md)
 - [Nonconstructive Brownian response compactness and finite satisfiability](notes/196-nonconstructive-brownian-response-compactness.md)
+- [部分 Weil 配置：比例、四矩与非零区域](notes/197-partial-weil-proportions-regions-four-moments.md)
+- [四矩二次通道、素数共振账本与 Vaughan 接口](notes/198-quadratic-fourth-moment-vaughan-channel.md)
 - [研究分支看板](RESEARCH_BRANCHES.md)
 - [文献与证据边界](notes/003-sources.md)
 

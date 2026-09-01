@@ -40,16 +40,19 @@
 若归一化迹至少为 $\tau$，Hilbert--Schmidt 二阶矩至多为 $R$，则中心线上简单对象
 的比例至少为 $4\tau-2-R$，互异对象的比例至少为 $(4\tau-R-1)/2$。
 
-本文再给出两种升级机制。高阶矩的多项式谱证书把随机矩阵或素数侧混合矩信息
-转化为正惯性下界；离线深度可见性则把负谱迹转化为远离中心线的零点密度，并在
-负谱预算小于单个离线对的可见深度时给出真正的非零区域。这解释了为什么二阶矩
-足以证明正比例、却不能单独排除稀疏的离线零点。
+本文再给出两种升级机制。精确四矩 rank--trace--inertia 证书把 sine-kernel
+矩数据对应的简单零点比例从 Christoffel 层级的 $13/18$ 提高到 $16/21$；
+quadratic-channel Gram--Schur 分解则把所需四矩改写成背景、线性素数项和
+二次素数项的有符号三通道账本。离线深度可见性把负谱迹转化为远离中心线的
+零点密度，并在负谱预算小于单个离线对的可见深度时给出真正的非零区域。
+这解释了为什么二阶矩足以证明正比例、却不能单独排除稀疏的离线零点。
 
 Weil 显式公式和函数方程已经构造数域上的矩阵及符号块；当前素数侧二阶矩给出
 Riemann zeta 与本原 Dirichlet $L$ 函数的 $0.67250\ldots$ 简单中心线比例。
-进一步改进需要降低二阶矩常数、建立高阶矩证书，或证明深度可见性与负谱预算。
-弱紧致性和凸分离可把“所有有限问题一致可解”提升为非构造的全局响应，但不能
-凭空产生所需的一致算术预算。
+进一步改进不必先证明完整四矩渐近：在平窗二矩下，只需把中心四矩一侧压到
+$0.3275499\ldots$ 以下。本文把这一目标进一步分成 $2+2,3+1,4+0$ 素数共振族
+和背景/taper/Gamma 余项的净预算。弱紧致性和凸分离可把“所有有限问题一致可解”
+提升为非构造的全局响应，但不能凭空产生所需的一致算术预算。
 \end{abstract}
 
 \paragraph{结论状态。}
@@ -422,6 +425,139 @@ $r(x)\le\mathbf1_{x>0}$。这与本项目此前的 Cauchy/被动系统路线自�
 也避免高次多项式在远谱处爆炸。
 \end{remark}
 
+\section{四矩的 quadratic-channel 因子化}
+
+四矩算术困难不应被粗化成单个绝对值误差。下面的恒等式把它改写成三个
+Hilbert--Schmidt 通道的正半定 Gram 问题，并精确保留背景与素数项之间的交叉相消。
+
+\begin{theorem}[二次通道 Gram--Schur 分解]\label{thm:quadratic-channel}
+设中心化压缩
+\[
+ H=G-I=A+V
+\]
+为有限维 Hermitian 算子，其中 $A$ 是不含素数振荡的背景，$V$ 是素数通道。
+定义
+\[
+ C_0=A^2,\qquad C_1=AV+VA,\qquad C_2=V^2,
+\quad
+ K_{ij}=\tr(C_i^*C_j)\quad(0\le i,j\le2).
+\]
+则 $K\succeq0$，且
+\begin{align}
+ \tr H^4
+ &=\|H^2\|_{\rm HS}^2
+ =\|C_0+C_1+C_2\|_{\rm HS}^2 \notag\\
+ &=K_{00}+2\Re K_{01}
+   +(K_{11}+2\Re K_{02})+2\Re K_{12}+K_{22}.
+ \label{eq:quadratic-channel-ledger}
+\end{align}
+令 $K_{<2}=(K_{ij})_{0\le i,j\le1}$、
+$k=(K_{02},K_{12})^{\mathsf T}$，则
+\[
+ r_2:=K_{22}-k^*K_{<2}^{\dagger}k\ge0.
+\]
+若 $\mathcal P$ 是 Hilbert--Schmidt 空间到
+$\operatorname{span}\{C_0,C_1\}$ 的正交投影，则
+\[
+ r_2=\|(I-\mathcal P)C_2\|_{\rm HS}^2,\qquad
+ \tr H^4=\|C_0+C_1+\mathcal PC_2\|_{\rm HS}^2+r_2.
+\]
+\end{theorem}
+
+\begin{proof}
+$K$ 是三个向量 $C_0,C_1,C_2$ 的 Gram 矩阵，故为正半定。
+又 $H^2=C_0+C_1+C_2$；展开其 Hilbert--Schmidt 范数即得
+\eqref{eq:quadratic-channel-ledger}。Gram 矩阵的短接
+$K_{22}-k^*K_{<2}^{\dagger}k$ 正是 $C_2$ 到前两个通道正交补的平方距离。
+最后由勾股恒等式得到所述分解。
+\end{proof}
+
+式 \eqref{eq:quadratic-channel-ledger} 按 $V$ 的次数依次给出
+\[
+\begin{array}{c|ccccc}
+\text{$V$-次数}&0&1&2&3&4\\ \hline
+\text{贡献}&K_{00}&2\Re K_{01}&K_{11}+2\Re K_{02}
+&2\Re K_{12}&K_{22}.
+\end{array}
+\]
+因此不应单独上界 $\|V^2\|_{\rm HS}^2=K_{22}$；真正的 response-specific
+目标是控制 Schur residual $r_2$ 及投影系数
+$K_{<2}^{\dagger}k$。这与二矩路线中的 Vaughan--Brownian
+公共通道相同：若先取各项绝对值，决定性的负交叉项会被人为删除。
+
+\begin{lemma}[素数符号共振账本]\label{lem:prime-sign-ledger}
+令
+\[
+ Q_T(t)=\sum_n c_n n^{it},\qquad V_T(t)=Q_T(t)+\overline{Q_T(t)},
+\]
+并令 $C_r(m)$ 为 $Q_T^r$ 的 Dirichlet 系数，$C_0(1)=1$。写
+\[
+ M_{r,s}=\frac1T\int_T^{2T}Q_T(t)^r\overline{Q_T(t)}^{\,s}\,dt.
+\]
+则
+\[
+ \frac1T\int_T^{2T}V_T(t)^4\,dt
+ =6M_{2,2}+8\Re M_{3,1}+2\Re M_{4,0}.
+\]
+此外
+\[
+ M_{2,2}
+ =\sum_{m,n}C_2(m)\overline{C_2(n)}
+ K_T\!\left(\log\frac mn\right)\ge0,
+\quad
+ K_T(\omega)=\frac1T\int_T^{2T}e^{it\omega}\,dt.
+\]
+其对角项为 $\sum_m|C_2(m)|^2$；$2+2$ 非对角项以及
+$3+1,4+0$ 两族均无固定符号。
+\end{lemma}
+
+\begin{proof}
+展开 $(Q_T+\overline Q_T)^4$，并使用
+$M_{s,r}=\overline{M_{r,s}}$。第二式是
+$M_{2,2}=T^{-1}\int|Q_T^2|^2$ 的 Dirichlet 系数展开，非负性直接来自积分。
+\end{proof}
+
+对 zeta 的素数项，$c_n$ 的主尺度为 $\Lambda(n)n^{-1/2}$，所以
+$C_2(m)$ 含 $(\Lambda*\Lambda)(m)m^{-1/2}$。这说明长度约 $T^2$
+的困难不是一个任意双和，而是 quadratic coefficient map 的 Gram；
+Vaughan 分解应作用于该系数映射，同时保留三通道的完整矩阵，而不是分别估计
+$2+2,3+1,4+0$ 后相加绝对值。
+
+\begin{proposition}[严格改善当前比例的一侧账本]\label{prop:fourth-ledger}
+设 $b_2=1/3+o(1)$，并把真实 tapered 压缩的中心四矩写成
+\[
+ b_4=D_{22}+O_{22}+R_{31}+R_{40}+R_{\rm bg}+o(1),
+\]
+其中各符号分别表示 $2+2$ 对角、$2+2$ 非对角、$3+1$、
+$4+0$ 与背景/taper/Gamma 余项。若存在 $\epsilon>0$ 和 $\delta_D$ 使
+\[
+ D_{22}\le\frac4{15}+\delta_D+o(1)
+\]
+及
+\[
+ O_{22}+R_{31}+R_{40}+R_{\rm bg}
+ \le0.0608832407\ldots-\delta_D-\epsilon+o(1),
+\]
+则定理 \ref{thm:quartic} 给出严格大于当前
+$0.6725007\ldots$ 的简单中心线零点比例。
+\end{proposition}
+
+\begin{proof}
+两式给
+$b_4<4/(9\kappa)-1/3$。在 $b_2=1/3$ 时，
+$R(b_2,b_4)=4/[9(b_4+1/3)]>\kappa$，再应用定理
+\ref{thm:quartic}。
+\end{proof}
+
+在平窗的形式 sine 账本中，六个 $2+2$ 符号词的对角贡献为
+$2\cdot(1/5)+4\cdot(1/15)=4/15$；预测的总四矩 $1/4$ 相当于净非对角修正
+$-1/60$。这些数只标定命题 \ref{prop:fourth-ledger} 的预算：
+尚未证明真实 Gabor/tapered 压缩具有同一对角常数，也尚未把
+$3+1,4+0$、Archimedean 背景、窗口边界和截断尾统一压入该预算。
+有限无权 Dirichlet 多项式实验显示三族之间确有显著相消，但不构成 zeta
+四矩估计。相应可执行账本见
+\texttt{scripts/fourth\_moment\_channel\_audit.py}。
+
 \section{Connes 非交换几何迹公式作为另一种配置载体}
 
 Connes 的 1998 年论文 \cite{Connes98} 在 adele 类空间
@@ -430,8 +566,8 @@ spectrum，把可能的非临界零点解释为相对于中心线的 resonances�
 $S$ 的迹公式得到证明；全局公式则通过 cutoff 投影 $Q_\Lambda$ 写成
 \[
  \tr(Q_\Lambda U(h))
- =2h(1)\log''\Lambda+
- \sum_v\int_{k_v^*}''\frac{h(u^{-1})}{|1-u|}\,d^*u+o(1).
+ =2h(1)\log'\Lambda+
+ \sum_v\int_{k_v^*}'\frac{h(u^{-1})}{|1-u|}\,d^*u+o(1).
 \]
 在正特征全局域上，Connes 的 Theorem 5 证明此全局迹公式与所有
 Grössencharakter $L$ 函数的 RH 等价；数域部分使用
@@ -646,9 +782,9 @@ prime/Gamma/continuum 数据及独立能量预算，而不能引用未知零点�
 & 所需估计等价于未解 pair correlation 且无额外结构收益\\
 \addlinespace
 高阶矩或 RMT
-& 至少一个使 $\tr p(G)/N$ 改善的严格 moment ledger
+& quadratic-channel Schur residual 与四矩净预算
 & 改善简单与互异比例
-& 最优 minorant 不优于二阶 rank--trace\\
+& 四矩净预算不能低于 $0.3275499\ldots$\\
 \addlinespace
 深度可见性
 & 商空间 lower frame bound $v_T(\eta)>0$
@@ -672,8 +808,8 @@ Brownian 响应
 \item 把 Alpöge--Furman 压缩矩阵写入本项目的
 prime/continuum/Gamma response 记号，计算响应前后 $R$ 的精确 Schur 公式；
 \item 在冻结有限模型上同时优化窗 $\psi$ 与 Brownian response，而不是只优化窗；
-\item 计算 $\tr G^3,\tr G^4$ 的 diagonal/off-diagonal 分解，先判断高阶多项式
-证书是否有数值裕量，再决定需要证明哪一种 prime correlation；
+\item 对固定光滑窗推导 $\tr(G-I)^4$ 的完整循环 word 账本，将
+$P^4$ 映射到 $2+2,3+1,4+0$，并严格证明 $2+2$ diagonal 上界；
 \item 对离线测试零点 $\rho=\tfrac12+\eta+i\gamma$ 计算其 Gabor feature
 在正背景商空间中的最小奇异值，建立 $v_T(\eta)$ 的模型尺度；
 \item 将有限 response feasibility 写成 block PSD 与二阶锥问题，记录最优半径随
@@ -688,9 +824,10 @@ prime/continuum/Gamma response 记号，计算响应前后 $R$ 的精确 Schur �
 \ +\ \text{函数方程惯性块}
 \ +\ \text{prime-side 谱矩}}
 \]
-一阶迹和二阶矩已经无条件给出 $67.250\ldots$；高阶矩给出随机矩阵型升级接口；
-负谱深度可见性则是非零区域所缺的结构。备选方向因而不是改做经典零点比例，而是
-研究 Weil 配置的不完全正性如何量化地控制 divisor。
+一阶迹和二阶矩已经无条件给出 $67.250\ldots$；精确四矩证书与
+quadratic-channel Gram 把比例改进压成 $2+2,3+1,4+0$ 共振族的一个净预算；
+负谱深度可见性则是非零区域所缺的结构。备选方向因而不是改做经典零点比例，
+而是研究 Weil 配置的不完全正性如何量化地控制 divisor。
 
 对数域存在性而言，显式公式已经构造配置的载体。真正要证明存在的不是任意
 Hilbert 空间或形式极化，而是具有统一矩预算、响应能量和深度 frame 常数的算术
@@ -708,7 +845,7 @@ arXiv:2608.13637v2, 2026.
 
 \bibitem{Bombieri00}
 E. Bombieri,
-\emph{Remarks on Weil''s quadratic functional in the theory of prime numbers I},
+\emph{Remarks on Weil's quadratic functional in the theory of prime numbers I},
 Rend. Mat. Acc. Lincei \textbf{11} (2000), 183--233.
 
 \bibitem{Connes98}
@@ -733,7 +870,7 @@ J. Reine Angew. Math. \textbf{399} (1989), 1--26.
 
 \bibitem{Levinson74}
 N. Levinson,
-\emph{More than one third of zeros of Riemann''s zeta-function are on
+\emph{More than one third of zeros of Riemann's zeta-function are on
 $\sigma=1/2$},
 Adv. Math. \textbf{13} (1974), 383--436.
 

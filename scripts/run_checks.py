@@ -67,6 +67,10 @@ CHECKS = (
         "partial Weil proportions and depth visibility",
         [sys.executable, "partial_weil_audit.py"],
     ),
+    (
+        "quadratic fourth-moment channels",
+        [sys.executable, "fourth_moment_channel_audit.py"],
+    ),
 )
 
 
