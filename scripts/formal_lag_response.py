@@ -645,6 +645,79 @@ def cauchy_signed_layer_cake_ledger(
     }
 
 
+def cauchy_profile_brownian_energy_ledger(
+    response: FrequencyMap,
+    continuum_nodes: tuple[float, ...],
+) -> dict[str, object]:
+    """Bound Cauchy profile capacity by a centered Brownian primitive energy.
+
+    The formal exact coefficient is removed first.  If S is the total
+    remaining coefficient mass and A is the primitive after centering that
+    mass at numerical lag zero, then
+
+        profile_capacity <= abs(S) + ||A||_2.
+
+    The squared primitive norm is the Brownian variogram Gram energy.
+    """
+    numerical_atoms: dict[float, complex] = {}
+    formal_exact = 0.0 + 0.0j
+    for lag, coefficient in response.items():
+        if lag.is_zero():
+            formal_exact += coefficient
+            continue
+        numerical_lag = lag.numerical_value(continuum_nodes)
+        numerical_atoms[numerical_lag] = (
+            numerical_atoms.get(numerical_lag, 0.0 + 0.0j) + coefficient
+        )
+    nonexact_total = sum(numerical_atoms.values())
+    numerical_atoms[0.0] = (
+        numerical_atoms.get(0.0, 0.0 + 0.0j) - nonexact_total
+    )
+    atoms = sorted(
+        (lag, coefficient)
+        for lag, coefficient in numerical_atoms.items()
+        if abs(coefficient) > 1.0e-14
+    )
+    cumulative = 0.0 + 0.0j
+    primitive_l2_energy = 0.0
+    maximum_primitive = 0.0
+    for index, (lag, coefficient) in enumerate(atoms):
+        cumulative += coefficient
+        maximum_primitive = max(maximum_primitive, abs(cumulative))
+        if index + 1 < len(atoms):
+            width = atoms[index + 1][0] - lag
+            primitive_l2_energy += abs(cumulative) ** 2 * width
+    profile = cauchy_signed_layer_cake_ledger(response, continuum_nodes)
+    upper_bound = abs(nonexact_total) + math.sqrt(primitive_l2_energy)
+    global_total_coefficient = formal_exact + nonexact_total
+    signed_response_upper_bound = (
+        abs(global_total_coefficient) + math.sqrt(primitive_l2_energy)
+    )
+    return {
+        "formal_exact_response": formal_exact,
+        "nonexact_total_coefficient": nonexact_total,
+        "global_total_coefficient": global_total_coefficient,
+        "centered_mass_residual": cumulative,
+        "primitive_l2_energy": primitive_l2_energy,
+        "primitive_l2_norm": math.sqrt(primitive_l2_energy),
+        "maximum_primitive": maximum_primitive,
+        "profile_capacity": profile["profile_capacity"],
+        "capacity_upper_bound": upper_bound,
+        "upper_to_capacity_ratio": (
+            upper_bound / profile["profile_capacity"]
+            if profile["profile_capacity"] > 0.0
+            else 0.0
+        ),
+        "signed_cauchy_response": profile["total_response"],
+        "signed_response_upper_bound": signed_response_upper_bound,
+        "signed_upper_to_actual_ratio": (
+            signed_response_upper_bound / abs(profile["total_response"])
+            if abs(profile["total_response"]) > 0.0
+            else 0.0
+        ),
+    }
+
+
 def centered_cumulative_l1(
     source: FrequencyMap,
     continuum_nodes: tuple[float, ...],

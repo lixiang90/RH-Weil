@@ -8,6 +8,7 @@ from formal_lag_response import (
     add_frequency_maps,
     cauchy_gaussian_mixture_band_ledger,
     cauchy_gaussian_mixture_cdf,
+    cauchy_profile_brownian_energy_ledger,
     cauchy_signed_layer_cake_ledger,
     centered_degree_two_volterra_coefficients,
     degree_two_gaussian_response_upper_bound,
@@ -201,6 +202,36 @@ def main() -> None:
     assert cauchy_layer_cake["profile_capacity"] <= (
         cauchy_layer_cake["coefficient_variation"] + 1.0e-12
     )
+    brownian_profile = cauchy_profile_brownian_energy_ledger(
+        response_map, continuum_nodes
+    )
+    assert abs(brownian_profile["centered_mass_residual"]) <= 1.0e-12
+    assert brownian_profile["profile_capacity"] <= (
+        brownian_profile["capacity_upper_bound"] + 1.0e-12
+    )
+    assert abs(brownian_profile["signed_cauchy_response"]) <= (
+        brownian_profile["signed_response_upper_bound"] + 1.0e-12
+    )
+    brownian_gram_energy = 0.0 + 0.0j
+    for left_lag, left_coefficient in response_map.items():
+        left_frequency = left_lag.numerical_value(continuum_nodes)
+        for right_lag, right_coefficient in response_map.items():
+            right_frequency = right_lag.numerical_value(continuum_nodes)
+            brownian_kernel = 0.5 * (
+                abs(left_frequency)
+                + abs(right_frequency)
+                - abs(left_frequency - right_frequency)
+            )
+            brownian_gram_energy += (
+                left_coefficient
+                * np.conjugate(right_coefficient)
+                * brownian_kernel
+            )
+    assert abs(brownian_gram_energy.imag) <= 1.0e-12
+    assert abs(
+        brownian_gram_energy.real
+        - brownian_profile["primitive_l2_energy"]
+    ) <= 1.0e-11
     total_mass = 0.3
     volterra_bound = 2.0
     volterra_coefficients = centered_degree_two_volterra_coefficients(
