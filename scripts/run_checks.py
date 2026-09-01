@@ -100,6 +100,10 @@ CHECKS = (
         [sys.executable, "radial_cross_box_obstruction_audit.py"],
     ),
     (
+        "aperture radial-chain and seam compression",
+        [sys.executable, "aperture_radial_chain_audit.py"],
+    ),
+    (
         "adjacent Montgomery--Vaughan and boundary no-go",
         [sys.executable, "adjacent_mv_boundary_no_go_audit.py"],
     ),

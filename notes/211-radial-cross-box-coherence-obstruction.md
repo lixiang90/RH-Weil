@@ -8,6 +8,11 @@
 alternating symbol 的径向因子化、admissible plateau window 的径向不衰减、
 cross-scale determinant degree 基线与 multibox Schur 充分条件为 [T]/[N]；有限
 审计为 [E]；actual prime-power radial Gram 的算术行和衰减为 [O]。
+> **后续修正（笔记 212）**：绝对 row-sum 条件 211-I 是充分但过强的。
+> 在 `ab<=X` 的双曲区域，fixed real aperture 把 symbol energy 降为 `O(L^3)`，
+> signed Montgomery--Vaughan bound 已直接给整条 radial chain `O(N/L)`。
+> 当前缺口进一步压缩为普通 aperture 邻接与 `+/-L,+/-2L` circular alias
+> seams 上的 `O(L)`-edge actual response Gram。
 
 ## 1. 本轮结论
 
@@ -387,9 +392,9 @@ oscillatory phases，而不能只重复 maximum-degree Schur test。
 aggregate estimate；它不是 RH 或 Weil positivity 的改写。障碍定理 211-E
 说明窗口 alone 不能验证它。
 
-## 8. 修正后的下一最小引理 [O]
+## 8. 原 far-radial 充分条件（由笔记 212 绕过）
 
-### 开放引理 211-I（far-radial arithmetic decorrelation）[O]
+### 开放性质 211-I（absolute far-radial decorrelation）[O]
 
 取同一 aperture 的 dyadic radial chain
 
@@ -411,7 +416,8 @@ aggregate estimate；它不是 RH 或 Weil positivity 的改写。障碍定理 2
 
 近端 \(|k-j|<\sqrt L\) 由 \(\gamma_{jk}\le1\) 自动贡献
 \(O(\sqrt L)=o(L)\)，所以式 (20) 与定理 211-H 合并足以闭合该 aperture 的
-radial union。
+radial union。笔记 212-C 已用更弱的 signed Montgomery--Vaughan estimate 直接
+闭合该 union；因此式 (20) 不再是路线的必要开放输入。
 
 证明式 (20) 时必须至少利用下列一个独立算术输入：
 
@@ -431,13 +437,13 @@ radial union。
    radial decorrelation。
 3. **determinant congruence**：给式 (15)--(16)；定理 211-G 证明 degree-only
    使用已经 sharp，不能继续迭代同一路线。
-4. **actual arithmetic response**：开放引理 211-I 的唯一可能增益来源，没有被
+4. **actual arithmetic response**：若坚持证明绝对性质 211-I，它是唯一可能增益来源；该性质已被笔记 212 的 signed route 绕过，没有被
    替换成 arbitrary-coefficient Bessel bound。
 
 循环性审计：
 
 - 式 (20) 完全位于 prime-side finite matrices，可独立于 zeros 检验。
-- 本轮没有证明式 (20)、完整 alternating 四矩或任何零点比例改进。
+- 本笔记没有证明式 (20)；笔记 212 证明它并非闭合 radial chain 所必需。完整 alternating 四矩和零点比例改进仍未得到。
 - pairwise \(o(N)\) 不得再记录为分支晋级，因为它由 Cauchy 自动成立。
 - 不能把 plateau no-go 外推为 actual zeta cross-box no-go；它只排除 window-only
   proofs。

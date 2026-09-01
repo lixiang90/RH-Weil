@@ -459,6 +459,7 @@ xelatex rh-weil-structure-paper.tex
 - [Alternating ratio multiplicity collapse 与 square-root determinant core](notes/209-alternating-ratio-cluster-square-root-core.md)
 - [Local prime-power energy closes square-root alternating boxes](notes/210-local-prime-energy-square-root-box-closure.md)
 - [Radial cross-box coherence：pairwise no-go 与窗口局部性障碍](notes/211-radial-cross-box-coherence-obstruction.md)
+- [Hyperbolic radial-chain closure 与 aperture seam compression](notes/212-hyperbolic-radial-chain-aperture-seam.md)
 - [研究分支看板](RESEARCH_BRANCHES.md)
 - [文献与证据边界](notes/003-sources.md)
 
