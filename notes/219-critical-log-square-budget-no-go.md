@@ -336,3 +336,20 @@ windows，证明
 
 若下一轮再次只得到式 (9)--(13) 类型的 scalar bounds，则按定理 219-A 停止该
 尝试，不把符号重排当作进展。
+
+## 7. 后续更新（笔记 220）
+
+笔记 220 将 actual critical local energy 进一步分成 ratio-compatible dyadic
+factor-box determinant incidences `D(H)`。已证明 elementary baseline
+`D(H)<<RH L^2`，并证明任意 fixed `sigma<1` 的
+`D(H)<<RH L^sigma(log L)^C` 足以闭合完整 box ledger；`sigma=1` 仍停在主尺度。
+因此下一输入不再是未定量的“利用 factorization”，而是从两个 target
+von Mangoldt conditions 中联合取得严格超过一个 logarithm 的 saving。
+
+## 8. 后续更新（笔记 221）
+
+笔记 221 在单个 balanced critical factor box 中实现了本笔记要求的
+factor-preserving 输入：二维 Selberg 上界筛与 Bettin--Chandee fixed-determinant
+公式合并后给 `D(H)<<RH`，即笔记 220 的 `sigma=0`。这不反驳 scalar no-go；新证明
+恰恰保留了四因子 divisibility data 与 exact gcd density。完整 critical shell 仍需
+unbalanced aspect-uniform extension。

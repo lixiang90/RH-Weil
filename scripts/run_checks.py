@@ -132,6 +132,10 @@ CHECKS = (
         [sys.executable, "critical_local_box_audit.py"],
     ),
     (
+        "balanced Selberg--Kloosterman local density",
+        [sys.executable, "balanced_sieve_density_audit.py"],
+    ),
+    (
         "adjacent Montgomery--Vaughan and boundary no-go",
         [sys.executable, "adjacent_mv_boundary_no_go_audit.py"],
     ),

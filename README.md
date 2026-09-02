@@ -467,6 +467,8 @@ xelatex rh-weil-structure-paper.tex
 - [Discriminant-uniform sieve 闭合 transition resolution core](notes/217-discriminant-uniform-sieve-core-closure.md)
 - [Clustered Fejér 大筛闭合 transition tail 与 logarithmic-square union](notes/218-clustered-fejer-transition-closure.md)
 - [Critical logarithmic-square local energy 的 scalar-budget no-go](notes/219-critical-log-square-budget-no-go.md)
+- [Critical factor-bin determinant sieve 的精确对数阈值](notes/220-factor-bin-determinant-sieve-threshold.md)
+- [Balanced critical determinant box 的 Selberg--Kloosterman 闭合](notes/221-balanced-critical-selberg-kloosterman-closure.md)
 - [研究分支看板](RESEARCH_BRANCHES.md)
 - [文献与证据边界](notes/003-sources.md)
 

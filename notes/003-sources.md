@@ -77,7 +77,7 @@
 25. W. Duke, J. Friedlander, H. Iwaniec, *Bilinear Forms with Kloosterman Fractions*, Inventiones Mathematicae 128 (1997), 23--43. 给 arbitrary coefficients 的 bilinear modular-inverse exponential sums 的无条件 bounds，并讨论 incomplete Kloosterman completion；文档 092 精确引用其 Theorems 1--2。  
    https://doi.org/10.1007/s002220050135
 
-26. Sandro Bettin, Vorrapan Chandee, *Trilinear Forms with Kloosterman Fractions*, Advances in Mathematics 328 (2018), 1234--1262. 给 arbitrary coefficients 的 trilinear modular-inverse bounds，并应用于 determinant equations；文档 092 引用其 Theorem 1，同时审计其与 paired cotangent kernel 之间尚需完成的 dyadic bookkeeping。  
+26. Sandro Bettin, Vorrapan Chandee, *Trilinear Forms with Kloosterman Fractions*, Advances in Mathematics 328 (2018), 1234--1262. 给 arbitrary coefficients 的 trilinear modular-inverse bounds，并应用于 determinant equations；文档 092 引用其 Theorem 1，同时审计其与 paired cotangent kernel 之间尚需完成的 dyadic bookkeeping；文档 220 审计 Corollary 1 的 fixed-determinant hypotheses，明确其两个 smooth weights 不能直接替换为 von Mangoldt weights；文档 221 改用二维 Selberg 外筛，并逐式推出 divisibility main term 的 exact gcd density 与 level error。
    https://arxiv.org/abs/1502.00769
 
 27. J. Barkley Rosser, Lowell Schoenfeld, *Approximate Formulas for Some Functions of Prime Numbers*, Illinois Journal of Mathematics 6 (1962), 64--94. 给 `n/phi(n)` 等经典显式估计；文档 093 只使用其推论 `max_(n<=N)n/phi(n)<<loglog(3N)`。  
@@ -132,6 +132,9 @@
 
 43. Hugh L. Montgomery, Robert C. Vaughan, *The Large Sieve*, Mathematika 20 (1973), 119--134。给 classical analytic large-sieve 与 Hilbert-inequality方法的一手背景；文档 218 的 cone-valued clustered Fejér版本在笔记内完整重证，不从 separated-frequency theorem 外推聚类结论。
    https://doi.org/10.1112/S0025579300004708
+
+44. Gérald Tenenbaum, *Introduction to Analytic and Probabilistic Number Theory*, 3rd ed., Graduate Studies in Mathematics 163, American Mathematical Society (2015), Chapter I.4。给出 Selberg upper-bound sieve 及其 remainder-form 基础；文档 221 只调用固定二维 sieve dimension、fixed positive level 下的上界筛，不调用 lower sieve 或 prime-tuple asymptotic。
+   https://www.ams.org/bookstore/pspdf/gsm-163-prev.pdf
 
 ## 使用这些来源时的边界
 
