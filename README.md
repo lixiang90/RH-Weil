@@ -470,6 +470,7 @@ xelatex rh-weil-structure-paper.tex
 - [Critical factor-bin determinant sieve 的精确对数阈值](notes/220-factor-bin-determinant-sieve-threshold.md)
 - [Balanced critical determinant box 的 Selberg--Kloosterman 闭合](notes/221-balanced-critical-selberg-kloosterman-closure.md)
 - [Unbalanced critical determinant shell 的双机制闭合](notes/222-unbalanced-critical-determinant-shell-closure.md)
+- [短高度 Hilbert--Montgomery--Vaughan 闭合 adjacent boundary](notes/223-short-height-hilbert-mv-adjacent-closure.md)
 - [研究分支看板](RESEARCH_BRANCHES.md)
 - [文献与证据边界](notes/003-sources.md)
 

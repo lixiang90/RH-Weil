@@ -155,6 +155,10 @@ CHECKS = (
         "first boundary-entry positive mean square",
         [sys.executable, "boundary_entry_mean_square_audit.py"],
     ),
+    (
+        "short-height Hilbert adjacent closure",
+        [sys.executable, "adjacent_short_height_audit.py"],
+    ),
 
 )
 

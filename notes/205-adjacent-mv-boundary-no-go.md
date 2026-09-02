@@ -661,3 +661,14 @@ scripts/adjacent_mv_boundary_no_go_audit.py
 
 有限实验只核对代数、索引和尺度，不证明式 (20)、式 (31) 或任何 zeta
 渐近。
+
+## 11. 后续更新（笔记 223）
+
+笔记 223 已关闭本笔记式 (6) 的 relative-dense good-height 版本。关键不是对任意 Hankel family 建立被定理 205-G 排除的 frame bound，而是保留实际 product phase，写成 Hilbert--Schmidt 值 Dirichlet 多项式
+
+\[
+ \sum_{X<m\le X^2}m^{it}C_m,
+ \qquad \sum_{m>X}\|C_m\|_{HS}^2\ll1+\log L.
+\]
+
+Montgomery--Vaughan 高度均值在每个长度 \(X/\sqrt L=o(X)\) 的 interval 中产生一点，使 aggregate 平方为 \(o(N)\)。因此本笔记的 abstract Hankel-family no-go 仍然成立，但 actual zeta family 通过其高度相位绕过该障碍。完整四矩仍需其余通道共享同一 good-height ledger。

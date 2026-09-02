@@ -616,3 +616,14 @@ complex structure：
 
 有限实验只核对代数、索引与反例，不证明式 (32)、式 (40) 或任何 zeta
 渐近。
+
+## 11. 后续更新（笔记 223）
+
+笔记 223 已在 relative gaps 为 \(o(T)\) 的高度集上证明本笔记式 (1)，故由定理 206-C 同时证明
+
+\[
+ \beta_L^4\|B_XB_X^{\mathsf T}\|_{HS}^2=o(N)
+\]
+
+沿该高度集成立。证明使用 product-cluster 的精确 \(m^{it}\) 相位和 Hilbert 值 Montgomery--Vaughan 均值，不要求 \(BB^*\)、奇异值或
+\(\beta_L\|B_X\|_{op}\) 消失；所以 covariance-blindness 障碍保持有效而不再阻塞 adjacent 通道。其余四矩通道的共同高度闭合仍开放。

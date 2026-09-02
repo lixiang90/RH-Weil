@@ -477,3 +477,13 @@ good heights。
 - 自然 quarter-turn 已由笔记 207 在 HS 层面停止；本轮又停止 uniform
   operator-smallness。下一轮必须研究 exceptional-height joint response 或直接
   pseudocovariance，不能继续扩写同一个 uniform norm criterion。
+
+## 11. 后续更新（笔记 223）
+
+笔记 223 构造了本笔记所需的 relative-dense good heights，但针对的是直接 pseudocovariance/aggregate 目标式 (28)，不是已被本笔记排除的 uniform operator-smallness。每个长度
+
+\[
+ H_X=X/\sqrt{\log X}=o(X)
+\]
+
+的 interval 都含有一点，使 adjacent supercritical aggregate 为 \(o(N)\)。这与单 entry 的正均方相容，因为所平均的是不同 product clusters 的无共轭相位总和。定理 208-E 的传递接口因而已对 adjacent 通道实现；尚需把 alternating、\(3+1\)、\(4+0\) 与背景 remainder 放进同一非负短高度预算，才能用于零点比例。
