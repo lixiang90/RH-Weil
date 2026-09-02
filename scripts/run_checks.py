@@ -163,6 +163,10 @@ CHECKS = (
         "short-height signed 3+1 and 4+0 bulk closure",
         [sys.executable, "short_height_31_40_audit.py"],
     ),
+    (
+        "fourfold signed Toeplitz boundary closure",
+        [sys.executable, "fourfold_toeplitz_boundary_audit.py"],
+    ),
 
 )
 

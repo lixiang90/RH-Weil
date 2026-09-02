@@ -11,6 +11,12 @@ discriminant-uniform Nair--Tenenbaum upper bound 为 [R]；完整有限
 Gabor 四循环的 signed boundary 与 Gamma/continuum 混合词为 [O]；有限
 组合与指数账本检查为 [E]。
 
+> **后续修正（笔记 225）**：本笔记的 bulk 结论保持成立。笔记 225 已把
+> finite `3+1,4+0` 与相应 bulk words 的差精确分解为三个 Toeplitz crossing
+> traces，并在同一短高度尺度闭合其 signed first mean。因此本笔记式 (44)
+> 中把绝对值放在积分内部的目标过强；共同一侧选择只需绝对值放在积分外。
+> 完整 finite pure-prime 四词现已闭合，下一输入改为 Gamma/continuum mixed words。
+
 ## 1. 结论
 
 笔记 223 已在每个长度
@@ -673,3 +679,7 @@ Toeplitz--Hankel direct-sum energy，则应形成严格 boundary obstruction，
 5. \((\log L)^4/\sqrt L\to0\) 的指数账本。
 
 脚本不实现 Henriot 定理，不证明 prime asymptotics，也不是 RH 数值证据。
+
+## 12. 后续推进（笔记 225）
+
+笔记 225 证明 finite four-Toeplitz product 减去 bulk product 精确等于三个 crossing-Hankel 项，且每项的 scalar trace 为 `O(1+log L)` 而不带 Gabor 维数。把本笔记的 shifted `E_3` bound 重新用于 comparable `3+1` ranges，并对其余频率用短高度核，得到 finite `3+1,4+0` boundary 的 signed first means 为 `o(N)`。因此 pure-prime finite ledger 已完成 single-selection；下一最小引理只剩 Gamma/continuum mixed-word Schur ledger与最终正规化。

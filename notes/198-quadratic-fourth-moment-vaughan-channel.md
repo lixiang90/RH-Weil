@@ -163,7 +163,7 @@ C_2(m)=\frac{(\Lambda*\Lambda)(m)}{\sqrt m}.
 
 因此“2+2 是正均值”并不允许把 3+1、4+0 或 2+2 off-diagonal 删除。
 
-## 4. 改善当前无条件比例的预算 [T/F/O]
+## 4. 改善当前无条件比例的预算 [T/O]
 
 文档 197 的精确四矩 rank--trace--inertia 证书在
 \(b_2=1/3\) 时给
@@ -290,3 +290,6 @@ Montgomery--Vaughan 长多项式误差在有效长度 \(T^2\) 上不闭合。
 ## 8. 后续推进（笔记 199--224）
 
 笔记 199--223 已依次修正四词常数账本、闭合 alternating primitive support，并在相对稠密高度上闭合 adjacent boundary。笔记 224 又对 translation-invariant pure-prime bulk 证明：`3+1` 与 `4+0` 的 signed first means 为 `o(N)`，而它们按式 (2) 的真实系数与 adjacent defect 合并后，可在每个长度 `X/sqrt(log X)` 的 interval 内只选择一次共同高度。尚未闭合 finite-to-bulk signed fourth-cycle boundary、Gamma/continuum mixed words 与最终 `b_4` 正规化，因此式 (12) 的比例阈值没有被宣称达到。
+## 9. 后续推进（笔记 225）
+
+笔记 225 已闭合本笔记式 (5) 中 pure-prime `P^4` 的完整 finite 一侧账本：`2+2` 的 paired main term与 off-diagonal finite transfer由笔记 203--223 给出，`3+1,4+0` 的 bulk 与 finite crossing boundary 由笔记 224--225 在同一相对稠密高度闭合。当前式 (1) 的开放项已缩为 `A` 至少出现一次的 Gamma/continuum mixed words及最终中心化正规化；不能再把 pure-prime finite-to-bulk boundary列为未决输入。

@@ -272,7 +272,7 @@ D_{22}=\frac4{15}.
 
 这也解释了先前文字错误：\(1/5,1/15\) 是两个 families 的总量。
 
-## 7. Montgomery--Taylor 窗 [N]
+## 7. Montgomery--Taylor 窗 [E]
 
 对
 
@@ -446,3 +446,7 @@ alternating ratio Gram；compact-support path 强制前者 (ab\le X)，真正的
 ## 11. 后续推进（笔记 202--224）
 
 笔记 209--222 已闭合 alternating/Farey primitive support，笔记 223 闭合 adjacent supercritical boundary 的相对稠密 good heights。笔记 224 使用 shifted `E_3` sieve 与固定频率间隙，进一步闭合 pure-prime bulk `3+1,4+0` 的共同一侧账本。这里仍不能把式 (6)--(7) 的 finite-to-bulk Schatten 边界视为已证：当前开放输入已精确缩为 signed fourth-cycle boundary、Gamma/continuum mixed words 和最终正规化。
+
+## 12. 后续推进（笔记 225）
+
+笔记 225 没有证明本笔记定理 AED 的全局 Schatten--4 gate；它证明了对 pure-prime 四词更弱但足够的 response-specific 结论：四个 finite Toeplitz factors 与 bulk symbol 的 scalar trace 差由三个 crossing-Hankel nuclear norms 控制，再由真实 prime phases 作 signed height averaging。由此 pure-prime `P^4` 的 finite-to-bulk 边界已闭合；全局 gate 仍只在需要一次控制所有 signed kernels 时开放，当前四矩主线转向 Gamma/continuum mixed words。
