@@ -118,9 +118,18 @@ CHECKS = (
     (
         "transition-scale signed ratio kernel",
         [sys.executable, "transition_ratio_kernel_audit.py"],
-    ),    (
+    ),
+    (
         "balanced transition-core frame and affine fibers",
         [sys.executable, "transition_core_frame_audit.py"],
+    ),
+    (
+        "clustered Fejer transition closure",
+        [sys.executable, "clustered_fejer_transition_audit.py"],
+    ),
+    (
+        "critical logarithmic-square local boxes",
+        [sys.executable, "critical_local_box_audit.py"],
     ),
     (
         "adjacent Montgomery--Vaughan and boundary no-go",

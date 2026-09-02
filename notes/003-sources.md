@@ -130,6 +130,9 @@
 42. Roman Holowinsky, *A sieve method for shifted convolution sums*, Duke Mathematical Journal 146 (2009), 401--448。建立 shifted multiplicative correlations 的 upper-bound sieve；文档 217 使用 Henriot 所记录的 discriminant-uniform general formulation，不从该论文外推任何 asymptotic。
    https://doi.org/10.1215/00127094-2009-002
 
+43. Hugh L. Montgomery, Robert C. Vaughan, *The Large Sieve*, Mathematika 20 (1973), 119--134。给 classical analytic large-sieve 与 Hilbert-inequality方法的一手背景；文档 218 的 cone-valued clustered Fejér版本在笔记内完整重证，不从 separated-frequency theorem 外推聚类结论。
+   https://doi.org/10.1112/S0025579300004708
+
 ## 使用这些来源时的边界
 
 - Deligne 已无条件证明有限域结论，但不是通过证明全部 standard conjectures；不能把 standard conjectures 的一般成立当成已知事实。

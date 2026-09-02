@@ -560,3 +560,13 @@ Hardy--Littlewood conjecture。
 在部分 Weil 配置中，定理 217-D 把 prime-side negative/excess budget 的
 nonoscillatory transition component严格降为 \(o(N)\)。剩余障碍已经唯一化到
 actual response 的 oscillatory tail，而不是抽象 positivity。
+
+## 11. 后续更新（笔记 218）
+
+笔记 218 证明 translated six-window overlap 是非负 Hilbert-cone Gram，并建立
+clustered vector-valued Fejér large-sieve inequality：完整 consecutive Gabor
+height energy 由圆周宽 `O(1/d_G)` 的同箱正 Gram 控制。同箱普通 pairs 正是本
+笔记已经绝对闭合的 `O(1/X)` determinant core，而同箱 `+/-L` aliases 的
+translated overlap严格为零。因此 fixed `0<delta<1` 的整个 transition
+aggregate（包括 oscillatory tail）已为 `o(N)`。下一算术门槛移到
+`ab asymp X(log X)^2` 的 critical local-box energy。
