@@ -203,6 +203,18 @@ CHECKS = (
         "power-high Gabor band-pass and core-tail cancellation",
         [sys.executable, "power_high_bandpass_audit.py"],
     ),
+    (
+        "exact finite dyadic band-discrepancy scales",
+        [sys.executable, "exact_dyadic_band_audit.py"],
+    ),
+    (
+        "power-high prime response-measure diagnostics",
+        [sys.executable, "power_high_prime_measure_audit.py"],
+    ),
+    (
+        "power-high elementary mass-ledger exponents",
+        [sys.executable, "power_high_mass_scale_audit.py"],
+    ),
 )
 
 def main() -> None:

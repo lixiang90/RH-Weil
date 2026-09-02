@@ -406,3 +406,19 @@ Weil 正性或负迹 lower bound。
 3. `theta=3/4` determinant mesh、式 (27) 与平坦 lattice core/tail 模型。
 
 脚本只审计 response geometry 和模型 discrepancy，不计算真实四素数渐近。
+
+## 11. 后续归一化修正（笔记 235）
+
+本笔记式 (25) 只推出单 packet 的 signed response 为 `o(B_X)`；在
+fixed-power 区这不足以闭合四矩，因为 positive mass `B_X` 可比目标大一个
+`X` 的正幂。笔记 235 直接对 exact finite kernel建立 dyadic discrepancy bridge，
+并由
+
+\[
+ \beta_L^4D\asymp X/L^3,\qquad N=XL
+\]
+
+证明正确的 global raw gate 是所有 boxes 的 response-measure integral 总和为
+`o(L^4)`。修正后的下一输入不是定性 `o(B_X)`，而是 central 与 dyadic
+cumulative discrepancies 加 mass/edge 项的绝对 `o(L^4)` 账本。带通零质量、
+core--tail no-go 与 exact scalarization保持不变。
