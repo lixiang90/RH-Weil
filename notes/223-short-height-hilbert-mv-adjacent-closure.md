@@ -379,3 +379,7 @@
 4. 递归短区间产生 relative gaps \(o(T)\)。
 
 脚本不实现 Montgomery--Vaughan 外部定理，不证明式 (12)，也不包含零点或 RH 证据。
+
+## 12. 后续推进（笔记 224）
+
+笔记 224 已执行本节要求的 single-selection 原则，但只针对 pure-prime bulk ledger：Henriot 型 shifted sieve 给 `3+1` 的 signed first mean，固定频率间隙给 `4+0`，二者按真实四词系数与本笔记的 adjacent defect 先相加再选一个高度；alternating primitive support 在同一点 uniform 为 `o(N)`。因此下一最小引理不再是“汇合 pure-prime bulk 通道”，而是 finite-to-bulk signed fourth-cycle boundary 与 Gamma/continuum mixed-word Schur defect。

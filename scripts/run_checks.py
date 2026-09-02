@@ -159,6 +159,10 @@ CHECKS = (
         "short-height Hilbert adjacent closure",
         [sys.executable, "adjacent_short_height_audit.py"],
     ),
+    (
+        "short-height signed 3+1 and 4+0 bulk closure",
+        [sys.executable, "short_height_31_40_audit.py"],
+    ),
 
 )
 

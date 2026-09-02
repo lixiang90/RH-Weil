@@ -447,3 +447,6 @@ triangular/Fej\'er 正定 mask，或
 审计脚本 scripts/operator_fourth_localizer_audit.py 验证式 (3)--(15) 的有限矩阵
 恒等式与乘积/比值聚类，并数值审计式 (20)--(23)。它不证明式 (28)--(30)。
 
+## 12. 后续推进（笔记 202--224）
+
+式 (28) 的 adjacent 路线已由笔记 203--223 闭合；式 (29)--(30) 所针对的 alternating primitive support 已由笔记 209--222 闭合。笔记 224 进一步证明 bulk `3+1,4+0` 与 adjacent defect 可在同一短 interval 上作一次带符号的一侧选择。当前真正未决的不再是 primitive product/ratio Gram，而是完整 finite Gabor 四循环到这些 bulk words 的 signed boundary，以及 Gamma/continuum mixed-word Schur defect。

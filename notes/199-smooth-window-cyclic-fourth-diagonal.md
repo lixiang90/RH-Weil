@@ -3,7 +3,7 @@
 日期：2026-09-01
 
 状态：有限 Gabor 四循环与非交换 word ledger 为 [T]；理想 bulk 的配对
-2+2 对角泛函为 [T]；Montgomery--Taylor 与余弦窗数值为 [N]；把真实有限
+2+2 对角泛函为 [T]；Montgomery--Taylor 与余弦窗数值为 [E]；把真实有限
 压缩归约到 bulk 以及未配对共振估计为 [O]。
 
 ## 1. 本轮修正与新结论
@@ -442,3 +442,7 @@ signed-kernel 的本征目标
 alternating ratio Gram；compact-support path 强制前者 (ab\le X)，真正的
 (X^2) Farey 障碍只剩后者。因此本笔记第 9 节的第 1--2 项已被进一步量化，
 但 weighted boundary estimate 与 alternating response Schur bound 仍开放。
+
+## 11. 后续推进（笔记 202--224）
+
+笔记 209--222 已闭合 alternating/Farey primitive support，笔记 223 闭合 adjacent supercritical boundary 的相对稠密 good heights。笔记 224 使用 shifted `E_3` sieve 与固定频率间隙，进一步闭合 pure-prime bulk `3+1,4+0` 的共同一侧账本。这里仍不能把式 (6)--(7) 的 finite-to-bulk Schatten 边界视为已证：当前开放输入已精确缩为 signed fourth-cycle boundary、Gamma/continuum mixed words 和最终正规化。

@@ -2,8 +2,8 @@
 
 日期：2026-09-01
 
-状态：矩阵恒等式与有限 Dirichlet 多项式恒等式为 [T]；平窗常数账本为 [F]；
-有限数值实验为 [N]；真实 tapered zeta 四矩估计为 [O]。
+状态：矩阵恒等式与有限 Dirichlet 多项式恒等式为 [T]；平窗常数账本为 [T]；
+有限数值实验为 [E]；真实 tapered zeta 四矩估计为 [O]。
 
 ## 1. 本轮结论
 
@@ -220,7 +220,7 @@ b_4-D_{22}^{\rm formal}=-\frac1{60}.
 
 这是一侧估计，不要求得到 \(b_4=1/4+o(1)\) 的完整渐近。
 
-## 5. 有限无权实验 [N]
+## 5. 有限无权实验 [E]
 
 脚本 scripts/fourth_moment_channel_audit.py 做两类检查：
 
@@ -286,3 +286,7 @@ Montgomery--Vaughan 长多项式误差在有效长度 \(T^2\) 上不闭合。
 
 下一步最小可验证目标是：先对一个固定光滑窗推导完全正规的 cyclic word ledger，
 证明 2+2 diagonal 上界，再将剩余项压成一个明确的 finite response Gram。
+
+## 8. 后续推进（笔记 199--224）
+
+笔记 199--223 已依次修正四词常数账本、闭合 alternating primitive support，并在相对稠密高度上闭合 adjacent boundary。笔记 224 又对 translation-invariant pure-prime bulk 证明：`3+1` 与 `4+0` 的 signed first means 为 `o(N)`，而它们按式 (2) 的真实系数与 adjacent defect 合并后，可在每个长度 `X/sqrt(log X)` 的 interval 内只选择一次共同高度。尚未闭合 finite-to-bulk signed fourth-cycle boundary、Gamma/continuum mixed words 与最终 `b_4` 正规化，因此式 (12) 的比例阈值没有被宣称达到。
