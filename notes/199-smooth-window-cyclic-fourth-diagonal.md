@@ -450,3 +450,7 @@ alternating ratio Gram；compact-support path 强制前者 (ab\le X)，真正的
 ## 12. 后续推进（笔记 225）
 
 笔记 225 没有证明本笔记定理 AED 的全局 Schatten--4 gate；它证明了对 pure-prime 四词更弱但足够的 response-specific 结论：四个 finite Toeplitz factors 与 bulk symbol 的 scalar trace 差由三个 crossing-Hankel nuclear norms 控制，再由真实 prime phases 作 signed height averaging。由此 pure-prime `P^4` 的 finite-to-bulk 边界已闭合；全局 gate 仍只在需要一次控制所有 signed kernels 时开放，当前四矩主线转向 Gamma/continuum mixed words。
+
+## 13. 后续推进（笔记 226）
+
+笔记 226 将本笔记式 (9) 的背景 `A` 化为 `S_L+E_ar`，其中 `S_L=T_d(phi^2/a-1)` 为确定性零频 Toeplitz 主部，`||E_ar||=O(1/L)`，且 `E_ar` 对第四迹只有 `o(N)`。它还提取 `tr S_L^4` 与 balanced two-prime mixed diagonal 的显式 window functionals；对 Montgomery--Taylor 窗，条件候选总常数为 `0.2525089687...`。该数值是 `[E]/[C]`，不是无条件 `b_4`：所有非零 mixed prime frequencies 的共同短高度账本仍待证明。

@@ -549,3 +549,7 @@ measures，并证明其 finite/bulk boundary 与 bulk mixed remainder 的真实�
 5. signed mean 与 mean absolute value 的单频分离。
 
 脚本不实现 Henriot 定理、不证明 prime asymptotics，也不包含 RH 数值证据。
+
+## 12. 后续推进（笔记 226）
+
+笔记 226 完成了本笔记第 10 节所要求的第一步，但结果比“三张正包络账本”更强：显式公式的 Gamma/pole-absorption 背景可直接写为确定性零频 Toeplitz 主部 `S_L=T_d(phi^2/a-1)` 加 `O(1/L)` 算子余项；后者利用本笔记已证的 `tr P^4=O(N)` 在第四迹中为 `O(N/L)=o(N)`。因此新的最小引理不再包含 continuum/Gamma boundary，而是 `tr(S_L+P)^4` 中 one-prime、two-prime off-diagonal 与 three-prime signed frequencies 的共同短高度 evacuation。

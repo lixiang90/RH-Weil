@@ -167,6 +167,10 @@ CHECKS = (
         "fourfold signed Toeplitz boundary closure",
         [sys.executable, "fourfold_toeplitz_boundary_audit.py"],
     ),
+    (
+        "Archimedean zero-frequency background reduction",
+        [sys.executable, "archimedean_background_audit.py"],
+    ),
 
 )
 

@@ -293,3 +293,7 @@ Montgomery--Vaughan 长多项式误差在有效长度 \(T^2\) 上不闭合。
 ## 9. 后续推进（笔记 225）
 
 笔记 225 已闭合本笔记式 (5) 中 pure-prime `P^4` 的完整 finite 一侧账本：`2+2` 的 paired main term与 off-diagonal finite transfer由笔记 203--223 给出，`3+1,4+0` 的 bulk 与 finite crossing boundary 由笔记 224--225 在同一相对稠密高度闭合。当前式 (1) 的开放项已缩为 `A` 至少出现一次的 Gamma/continuum mixed words及最终中心化正规化；不能再把 pure-prime finite-to-bulk boundary列为未决输入。
+
+## 10. 后续推进（笔记 226）
+
+笔记 226 证明中心化背景 `A` 的 Gamma/pole-absorption 部分等于确定性零频 Toeplitz 矩阵 `S_L=T_d(phi^2/a-1)` 加算子范数 `O(1/L)` 的余项；结合笔记 225 的 pure-prime 四阶预算，该余项对完整四迹为 `O(N/L)=o(N)`。因此本笔记原先宽泛的 continuum response Gram 已严格缩成 `S_L` 与 prime responses 的 mixed-frequency ledger。balanced two-prime diagonal 已有显式 window functional，但 one-prime、two-prime off-diagonal 与 three-prime signed remainder 仍是 `[O]`，故比例阈值仍未无条件达到。

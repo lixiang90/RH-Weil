@@ -108,7 +108,7 @@
 35. B. Saffari, R. C. Vaughan, *On the fractional parts of x/n and related sequences. II*, Annales de l'Institut Fourier 27 no. 2 (1977), 1--30，尤其 Lemma 5。其式 (6.4) 在 RH 假设下给 uniform multiplicative Selberg variance；同一引理另列基于 zero-density hypothesis 的 unconditional long-interval版本。文档 169 使用前者证明 RH `=>` polylogarithmic profile，并明确禁止把 conditional estimate冒充无条件输入。
    https://doi.org/10.5802/aif.649
 
-36. Levent Alpöge, Raphael Furman, *More than two thirds of the zeros of the Riemann zeta function are simple and on the critical line* (arXiv:2608.13637v2, 2026)。其主结果无条件给 zeta 及固定本原 Dirichlet L 函数至少 0.6725007... 的简单中心线零点比例；第 7 节说明四矩 sine-kernel 假设给 Christoffel 层级 13/18，而全部矩假设在该机制中给比例 1。文档 197 把其二矩证明抽象为 partial Weil configuration，文档 198 只把四矩讨论作为条件性算术目标。
+36. Levent Alpöge, Raphael Furman, *More than two thirds of the zeros of the Riemann zeta function are simple and on the critical line* (arXiv:2608.13637v2, 2026)。其主结果无条件给 zeta 及固定本原 Dirichlet L 函数至少 0.6725007... 的简单中心线零点比例；第 7 节说明四矩 sine-kernel 假设给 Christoffel 层级 13/18，而全部矩假设在该机制中给比例 1。文档 197 把其二矩证明抽象为 partial Weil configuration，文档 198 只把四矩讨论作为条件性算术目标；文档 226 逐式使用其显式公式中的 `mu`、pole-absorption 项与临界 Gabor 矩阵定义，并另用 Stirling 和窗口衰减证明 Archimedean 背景的零频归约，不从原文外推未证明的四矩估计。
    https://arxiv.org/abs/2608.13637
 
 37. Sabine Burgdorf, Igor Klep, *The truncated tracial moment problem*（arXiv:1001.3679；J. Operator Theory 68 (2012), 141--163）。给出非交换 tracial moment matrices、有限秩表示与 flat extension 的标准框架。文档 202 的 Archimedean finite-satisfiability completion 使用更直接的乘积紧致性证明，不把 flatness 当作 zeta 的已知输入。

@@ -302,3 +302,7 @@ discrepancy：可能是展示证明省略了一步改进，也可能是陈述或
 ## 10. 后续推进（笔记 225）
 
 笔记 225 绕开而非证明了式 (1)：对 pure-prime 四词，left-associated Toeplitz telescoping 只产生三个具体 crossing-Hankel traces，每个 nuclear norm 为 `O(1+log L)`；结合 prime-side高度相位即可闭合 signed boundary。因此本笔记的 intrinsic Schatten gate 仍是 all-word 充分条件和二矩提升 no-go，但不再是 pure-prime `P^4` 的必要中间目标。Gamma/continuum mixed symbols 是否也允许这种 response-specific 绕行仍开放。
+
+## 11. 后续推进（笔记 226）
+
+笔记 226 对 Archimedean/pole-absorption 背景给出比本笔记全局正包络更精确的 response-specific 绕行：在正高度 Gabor centers 上，背景是零频 Toeplitz 主部加 `O(1/L)` 算子余项，后者经 Schatten--4 telescoping 只产生 `O(N/L)`。因此 all-word intrinsic gate 仍是一般充分条件和 no-go 基准，但 zeta 四矩主线无需再用它控制 Gamma 余项；剩余困难是确定性 `S_L` 与 prime responses 的非零 mixed frequencies。
