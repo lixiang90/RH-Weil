@@ -195,6 +195,10 @@ CHECKS = (
         "alternating high-product support obstruction",
         [sys.executable, "alternating_high_product_tail_audit.py"],
     ),
+    (
+        "alternating aperture-depth and power-high ceiling",
+        [sys.executable, "alternating_aperture_depth_audit.py"],
+    ),
 )
 
 def main() -> None:

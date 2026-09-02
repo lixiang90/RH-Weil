@@ -600,3 +600,11 @@ actual factorization restrictions、six-window support、joint local law 或真�
 定理 218-A 与推论 218-B 保持 [T]；它们的集合范围始终是
 `ab<=XL^(2-eta)`。笔记 232 证明“尚未覆盖的只有 critical 顶层”这一文字摘要不
 完整：critical 顶层之外还有 `ab>XL^2` 高乘积区，且其 atomic diagonal 为主尺度。
+
+## 12. 后续 polylog cutoff 推进（笔记 233）
+
+笔记 233 证明笔记 222 的 natural determinant incidence 对任意 fixed polylog
+product band一致，并把本笔记的 Fejer local-energy、atomic diagonal及式
+(36)--(37) finite transfer重新求和。结果是 primitive cutoff 从 `XL^2` 推进到
+任意 `XL^K,K<3`。`K=3` 同时是 main box ledger 与 absolute finite transfer 的
+当前 endpoint；这不影响本笔记原 transition theorem。

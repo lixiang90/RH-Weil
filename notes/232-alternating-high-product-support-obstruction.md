@@ -313,3 +313,11 @@ Fejer arcs、factor boxes 与 crossing-Hankel transfer 在前三段都使用同�
 2. 对 Montgomery--Taylor 窗独立计算完整与高乘积 alternating diagonal；
 3. 检查 moving threshold `1+2 log L/L` 的积分收敛方向；
 4. 只审计窗口积分与支撑几何，不证明高乘积 off-diagonal 估计。
+
+## 8. 后续 aperture--depth 推进（笔记 233）
+
+笔记 233 将本笔记的 high region精确写成 aperture--depth 坐标，并证明
+fixed-aperture high support 嵌套于 low support；所以 high--low 不能靠支撑排空。
+另一方面，原 critical determinant theorem 可一致延伸，使任意
+`ab<=XL^K,K<3` 无条件闭合。剩余主质量仍在 fixed-power high-product 区；任何
+fixed log saving 对 positive local-energy ledger都不足。

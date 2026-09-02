@@ -648,3 +648,10 @@ primitive--primitive 的 uniform closure。
 alternating support 和受限 paired diagonal 证明，`ab<=XL^2` 不是完整 physical
 support；其外 atomic diagonal 有正主质量。因此推论 222-B 必须读作
 “entire critical shell closure”，不能读作完整 primitive alternating closure。
+
+## 11. 后续 fixed-polylog 推广（笔记 233）
+
+笔记 233 逐项复核 moderate/extreme proof，证明式 (5) 对任意 fixed polylog
+product band `XL^K_-<=AB,CD<=XL^K_+` 一致成立；原文的上端 `XL^2` 不是
+determinant theorem 本身的极限。与全局 Fejer/finite ledger结合后可闭合所有
+`ab<=XL^K,K<3`，但不能据此进入 fixed-power high-product 区。
