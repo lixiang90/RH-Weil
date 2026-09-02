@@ -535,6 +535,15 @@ signed arithmetic discrepancy 缺口。
  \ll (H/M)L\ll L=o(L^4).
 \]
 
-所以 fixed balanced cell 的下一输入只剩式 (34) 第二组 cumulative
-discrepancy。对 `theta=3/4` 的证明尺度应取 `M=X^(1/2)`；笔记 235 的 finite
+所以沿定理 235-H 的充分路线，fixed balanced cell 只剩式 (34) 第二组
+cumulative discrepancy。对 `theta=3/4` 的证明尺度应取 `M=X^(1/2)`；笔记 235 的 finite
 experiment 使用 `M=X^(1/4)` 只为控制计算量，不能替代该渐近尺度。
+
+## 13. 笔记 237 的 necessity 修正
+
+笔记 237 构造 even positive slow-modulation measures，使 central cumulative
+discrepancy 恰按 `sqrt(M)` 增长，而 exact consecutive-band response 仍为
+`O(M^(-1))`。因此定理 235-H 与式 (34) 保持为完全有效的 sufficient
+certificate，但 cumulative discrepancy 不是 band response 的必要或唯一
+算术输入。主看板已改为 actual band-energy Gram / physical-response
+Type-I--II estimate；本笔记中较早出现的“唯一缺口”均应按此限定理解。

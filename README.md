@@ -484,6 +484,7 @@ xelatex rh-weil-structure-paper.tex
 - [幂级高乘积 Gabor 带通核与 core--tail 分割障碍](notes/234-power-high-gabor-bandpass-and-core-tail-no-go.md)
 - [Exact finite dyadic band discrepancy 与幂级高乘积的 L^4 门槛](notes/235-exact-dyadic-band-discrepancy-and-L4-gate.md)
 - [幂级高乘积 dyadic mass ledger 的初等闭合](notes/236-elementary-power-high-mass-ledger-closure.md)
+- [累计差异并非带响应的必要输入：慢调制障碍](notes/237-cumulative-discrepancy-band-no-go.md)
 - [研究分支看板](RESEARCH_BRANCHES.md)
 - [文献与证据边界](notes/003-sources.md)
 

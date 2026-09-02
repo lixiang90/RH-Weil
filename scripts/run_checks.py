@@ -215,6 +215,10 @@ CHECKS = (
         "power-high elementary mass-ledger exponents",
         [sys.executable, "power_high_mass_scale_audit.py"],
     ),
+    (
+        "cumulative discrepancy versus exact band response no-go",
+        [sys.executable, "cumulative_discrepancy_band_no_go_audit.py"],
+    ),
 )
 
 def main() -> None:

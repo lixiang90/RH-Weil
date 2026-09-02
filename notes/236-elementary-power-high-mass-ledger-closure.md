@@ -6,8 +6,10 @@
 
 状态：balanced fixed-power boxes 的 elementary large-shift incidence、最优 central
 scale `M=max(H,Y/H)` 与全部 mass-over-radius-squared ledger 为 [T]；实际
-cumulative discrepancies 为 [O]。本笔记把笔记 235-H 的非振荡 mass 项无条件
-降到 `O(L)=o(L^4)`，不更新 PDF，也不改变比例常数的 [C] 状态。
+cumulative discrepancies 作为一个充分证书为 [O]。本笔记把笔记 235-H 的
+非振荡 mass 项无条件降到 `O(L)=o(L^4)`，不更新 PDF，也不改变比例常数的
+[C] 状态。笔记 237 已证明 cumulative certificate 并非 band response 的必要
+输入。
 
 ## 1. 本轮结论
 
@@ -44,7 +46,8 @@ discrepancies。要闭合四矩，全部 boxes 的式 (1) 总和须为 `o(L^4)`�
  \boxed{O(L).}
 \tag{4}
 
-所以固定 balanced cell 的唯一剩余输入严格缩成
+所以沿笔记 235-H 的 cumulative-discrepancy 充分路线，fixed balanced cell
+只剩输入
 
 \[
  \boxed{E_0\log(2+M)+\sum_{j\ge1}E_j=o(L^4).}
@@ -211,7 +214,7 @@ Chebyshev mass `O(Y^4)` 除以 `R` 更直接；否则引理 236-A 与式 (15) �
 \[
  \boxed{
  \frac{b_0}{M^2}+
- \sum_{j\ge1}\frac{b_j}{R_j^2}ll L=o(L^4).}
+ \sum_{j\ge1}\frac{b_j}{R_j^2}\ll L=o(L^4).}
 \tag{20}
 
 #### 证明
@@ -304,9 +307,10 @@ Mangoldt bound、Chebyshev sums与既有 exact Gabor normalization；不调用 R
 GRH、Hardy--Littlewood、Bettin--Chandee、Selberg sieve、Weil positivity、谱酉性
 或 bounded negative index。
 
-## 7. 修正后的下一最小引理 236-E [O]
+## 7. 被笔记 237 取代的 cumulative 分支 236-E [O]
 
-先固定 `theta=3/4` 与一个 balanced factor/aperture cell，取证明尺度
+若继续 cumulative sufficient-certificate 分支，先固定 `theta=3/4` 与一个
+balanced factor/aperture cell，取证明尺度
 `M=X^(1/2)`。对实际四-von-Mangoldt、six-window response measure证明
 
 \[
@@ -318,9 +322,11 @@ GRH、Hardy--Littlewood、Bettin--Chandee、Selberg sieve、Weil positivity、�
 内部的 cumulative discrepancy与 exact response weights。若只得到
 `E_j=o(b_j)`，仍须检查绝对总量是否达到式 (25)。
 
-若式 (25) 在无权整数模型中已失败，应构造完整 band lower bound；若无权模型
-成立而 von Mangoldt模型失败，则缺口被进一步定位为 balanced four-prime
-determinant discrepancy，而不是 Gabor/window geometry。
+笔记 237 构造 positive slow-modulation family，严格证明式 (25) 可以远大于
+`L^4` 而 exact band response 已是 `o(L^4)`。所以式 (25) 仍可作为充分攻击点，
+但不再是主看板的必要或“唯一”输入。主线下一引理改为笔记 237-F：估计 actual
+band-energy Gram，或保留完整 physical response 给出更具体的 determinant
+correlation 输入。
 
 ## 8. 可复现指数审计 [E]
 
