@@ -454,3 +454,6 @@ alternating ratio Gram；compact-support path 强制前者 (ab\le X)，真正的
 ## 13. 后续推进（笔记 226）
 
 笔记 226 将本笔记式 (9) 的背景 `A` 化为 `S_L+E_ar`，其中 `S_L=T_d(phi^2/a-1)` 为确定性零频 Toeplitz 主部，`||E_ar||=O(1/L)`，且 `E_ar` 对第四迹只有 `o(N)`。它还提取 `tr S_L^4` 与 balanced two-prime mixed diagonal 的显式 window functionals；对 Montgomery--Taylor 窗，条件候选总常数为 `0.2525089687...`。该数值是 `[E]/[C]`，不是无条件 `b_4`：所有非零 mixed prime frequencies 的共同短高度账本仍待证明。
+## 14. 后续推进（笔记 227）
+
+笔记 227 闭合了 S_L 与 prime responses 的全部非零 mixed frequencies，并把 zero-prime、balanced two-prime 与 pure-prime paired diagonals合并为 centered fourth constant 0.2525089687。其共同高度选择先作用于整个非负四迹，避免 pure 与 mixed signed good sets 的交集漏洞。该结果仍未自动成为 13/18 或 16/21 比例：下一步必须逐式审计 relative-dense height 对 finite zero blocks 和全局计数的量词要求。

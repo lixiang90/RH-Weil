@@ -124,6 +124,7 @@
    https://doi.org/10.1017/S0305004122000251
 
 41. Kevin Henriot, *Nair--Tenenbaum bounds uniform with respect to the discriminant*, Mathematical Proceedings of the Cambridge Philosophical Society 152 (2012), 405--424；及 *Erratum*, ibid. 157 (2014), 375--377。原论文 Introduction, Theorem 2 记录对受 divisor-function 控制的两个 multiplicative functions 的 uniform shifted upper bound；Theorem 3/5 给出精细 discriminant factor。勘误明确说明 upper bounds 仍有效，主要修正 Theorem 6 的 lower bound 与 sharpness。文档 217 让 `f_z(n)=z^{Omega(n)}` 的参数在统一函数类内变化；文档 224 以分别匹配 `Omega=1,3` 的两个参数得到 one-prime/three-prime support correlation，并只使用 discriminant factor 的 bounded mean，不把 upper bound 外推为渐近式；文档 225 仅复用该已审计相关上界处理 finite `3+1` boundary 的 comparable ranges，其新增输入是仓库内证明的 Toeplitz crossing trace estimate。
+文档 227 在同一统一参数类中取 `Omega=1,2`，重证 one-prime/two-prime 与 prime-pair upper bounds，并只使用 discriminant factor 的 bounded mean；不把 upper bound 称为 Hardy--Littlewood 渐近。
    https://doi.org/10.1017/S0305004111000752
    https://doi.org/10.1017/S0305004114000280
 

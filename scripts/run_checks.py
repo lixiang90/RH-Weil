@@ -171,7 +171,10 @@ CHECKS = (
         "Archimedean zero-frequency background reduction",
         [sys.executable, "archimedean_background_audit.py"],
     ),
-
+    (
+        "deterministic-background mixed-frequency closure",
+        [sys.executable, "mixed_background_evacuation_audit.py"],
+    ),
 )
 
 def main() -> None:

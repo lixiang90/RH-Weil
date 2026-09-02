@@ -114,7 +114,7 @@ def main() -> None:
     audit_orientation_coefficients()
     audit_window_constants()
     print("Archimedean background audits passed")
-    print("[scope] deterministic normalization only; mixed evacuation remains open")
+    print("[scope] deterministic normalization only; mixed evacuation is audited separately")
 
 
 if __name__ == "__main__":

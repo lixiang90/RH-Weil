@@ -474,6 +474,7 @@ xelatex rh-weil-structure-paper.tex
 - [Shifted E3 sieve 与纯素数四阶词的共同短高度闭合](notes/224-shifted-e3-short-height-pure-prime-closure.md)
 - [四因子 Toeplitz telescoping 与纯素数 finite signed boundary 闭合](notes/225-fourfold-toeplitz-signed-boundary-closure.md)
 - [Archimedean 背景的零频 Toeplitz 主部与四迹稳定归约](notes/226-archimedean-zero-frequency-background-reduction.md)
+- [确定性背景 mixed-frequency evacuation 与非循环共同高度选择](notes/227-deterministic-background-mixed-frequency-closure.md)
 - [研究分支看板](RESEARCH_BRANCHES.md)
 - [文献与证据边界](notes/003-sources.md)
 

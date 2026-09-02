@@ -93,7 +93,7 @@ Toeplitz window symbol**。若 \(P(t)\) 是 pure-prime Hermitian response，
 并定义
 
 \[
- \(B_{\rm ar}(t)\) 的矩阵元
+ (B_{\rm ar}(t))_{jk}
  =\frac1{aL^2}\int_{\mathbb R}
  f_j(\tau)f_k(\tau)
  [\mu(\tau)+\Pi_X(\tau)]\,d\tau.
@@ -216,7 +216,7 @@ Stirling 与式 (2) 还给
 \tag{18}
 \]
 
-由于 \\(d\asymp XL\)，式 (16)--(18) 的总和除以 \(aL^2\) 为
+由于 \(d\asymp XL\)，式 (16)--(18) 的总和除以 \(aL^2\) 为
 \(O(X^{-2})\|z\|^2\)。与式 (14) 合并，
 
 \[
@@ -440,3 +440,6 @@ Frobenius、极化或 Hard Lefschetz，也没有建立上同调型与显式公�
 5. 条件候选常数只标记为 [E]/[C]。
 
 脚本不证明式 (18)、mixed-frequency evacuation 或任何零点比例。
+## 11. 后续推进（笔记 227）
+
+笔记 227 已用 Omega=1,2 的 Henriot shifted sieve 闭合本笔记第 9 节留下的 one-prime、two-prime off-diagonal 与 three-prime mixed frequencies，并证明 finite Toeplitz crossing 总量同样为 o(N)。共同高度选择不能先固定 pure-prime good point；正确做法是先平均整个非负 tr(S_L+P)^4，只选一次高度，再从选中的 whole trace 反推 Schatten--4 控制并消去 E_ar。MT centered fourth constant 因而成为 0.2525089687，但到全局零点比例的 relative-dense 量词接口仍为开放审计。

@@ -27,7 +27,7 @@
 \title{部分 Weil 配置、中心线零点比例与非零区域\\
 \large 惯性、矩证书及数域实现的结构性框架}
 \author{RH--Weil 结构研究项目}
-\date{2026 年 9 月 1 日}
+\date{2026 年 9 月 2 日}
 
 \begin{document}
 \maketitle
@@ -65,6 +65,12 @@ Riemann zeta 与本原 Dirichlet $L$ 函数的 $0.67250\ldots$ 简单中心线�
 $0.3275499\ldots$ 以下。本文把这一目标进一步分成 $2+2,3+1,4+0$ 素数共振族
 和背景/taper/Gamma 余项的净预算。弱紧致性和凸分离可把“所有有限问题一致可解”
 提升为非构造的全局响应，但不能凭空产生所需的一致算术预算。
+本文进一步把 Archimedean 背景约化为零频 Toeplitz 主部，并用判别式一致的
+shifted-sieve 上界排空全部非零 mixed frequencies。因而每个长度
+$X/\sqrt{\log X}$ 的高度窗都含有一个 centered fourth trace 受确定性对角常数
+控制的点；Montgomery--Taylor 窗对应常数为 $0.2525089687\ldots$。从这些相对
+稠密的好高度推出全局简单零点比例仍需独立的 zero-block coverage 量词审计，
+本文不把该有限压缩结论升级为新的无条件比例。
 \end{abstract}
 
 \paragraph{结论状态。}
@@ -953,7 +959,6 @@ $\beta_L=2\pi/(aL)$。
  =\beta_L^2e^{iTx_m}T_d(Q_m)D_d(x_m).
 \]
 则
-则
 \[
  \sum_m\|F_m^{\rm fin}-F_m^{\rm bulk}\|_{\rm HS}^2
  \ll1+\log L.
@@ -1109,20 +1114,237 @@ Cauchy 上界。
 
 命题 \ref{prop:hankel-family-nogo} 的 symbols 不是 zeta 的非负
 compact-support responses，故它不反驳真实估计；它排除的是从抽象
-direct-sum $O(\log L)$ 直接推出 family-frame 的证明模板。adjacent 的唯一
-剩余边界输入现为
-\[
- \left\|\sum_{m>X}F_m^{\rm fin}\right\|_{\rm HS}^2=o(N).
- \label{eq:supercritical-hankel}
-\]
-这必须利用 actual factorized prime response。alternating family 则仍需真实
-Vaughan response 子空间上的 Farey Gram 一侧 Schur bound，不能使用
-all-direction large sieve。
+direct-sum $O(\log L)$ 直接推出 family-frame 的证明模板。后续的
+response-specific 分解已经分别闭合 adjacent supercritical boundary、
+alternating primitive support、pure-prime $3+1,4+0$ 与四因子 finite
+Toeplitz crossing。下面把这些结果与确定性背景 mixed words 汇总。完整算术
+分箱证明保留在笔记 209--227；本文记录其精确接口与最后两步证明，不把尚未审计
+的 zero-counting 量词混入结论。
 
 端点窗的 $O(\ell^3)$ 不代表逐点占优：所有 shifts 重合时，其正规化 overlap
 为 $3\pi^4/128>1$。因此窗口筛选必须联合测量 bulk diagonal、边缘 path 和
 alternating response norm。
 
+\subsection{确定性背景 mixed-frequency 闭合与共同高度选择}
+
+令 $L=\log X$、$H=X/\sqrt L$、$d\asymp N\asymp XL$。显式公式中的
+Archimedean 与 pole-absorption 背景记为 $B_{\rm ar}(t)$，pure-prime
+response 记为 $P(t)$。置
+\[
+ S_L=T_d\left(\frac{\phi^2}{a}-1\right).
+\]
+
+\begin{theorem}[Archimedean 零频归约与四迹稳定 {[T]}]
+\label{thm:arch-background}
+对正高度 Gabor 格点，一致地
+\[
+ B_{\rm ar}(t)
+ =\frac1aT_d(\phi^2)+E_{\rm ar}(t),
+ \qquad \|E_{\rm ar}(t)\|\ll L^{-1}.
+ \label{eq:arch-background}
+\]
+若 $H_0=S_L+P(t)$ 满足 $\operatorname{tr}H_0^4=O(N)$，则
+\[
+ \operatorname{tr}(H_0+E_{\rm ar}(t))^4
+ =\operatorname{tr}H_0^4+O(N/L).
+ \label{eq:arch-fourth-stability}
+\]
+\end{theorem}
+
+\begin{proof}
+显式公式中的 Archimedean 密度为
+\[
+ \mu(\tau)=\frac1{2\pi}\Re\frac{\Gamma'}{\Gamma}
+ \left(\frac14+\frac{i\tau}{2}\right)-\frac{\log\pi}{2\pi},
+\]
+pole-absorption 项为
+\[
+ \Pi_X(\tau)=\frac1\pi\Re\frac{X^{1/2+i\tau}}{1/2+i\tau}.
+\]
+若 $\alpha_k\asymp X$，Stirling 公式在包含全部 centers 的固定扩大区间上给
+$\mu(\tau)=L/(2\pi)+O(1)$、$\Pi_X(\tau)=O(X^{-1/2})$。临界 Gabor
+Plancherel 恒等式
+\[
+ \int_{\mathbb R}\left|\sum_kz_k\widehat\phi(\tau-\alpha_k)\right|^2d\tau
+ \le2\pi L\|z\|^2
+\]
+说明该区间内正规化余项为 $O(L^{-1})$。区间外使用
+$|\widehat\phi(u)|\ll\min(L,|u|^{-1},|u|^{-2})$；$\Pi_X$ 在原点的
+$O(\sqrt X)$ 峰与 centers 相距 $\asymp X$，逐 center 尾积分为
+$O(LX^{-3})$。求和 $d\asymp XL$ 后更小。零频响应
+$R_t(0)=(2\pi/(aL))T_d(\phi^2)$，乘 $L/(2\pi)$ 即得
+\eqref{eq:arch-background}。
+
+又 $\|E_{\rm ar}\|_4\le d^{1/4}\|E_{\rm ar}\|=O(N^{1/4}/L)$。
+对四次幂作非交换 telescoping 并用 Schatten H\"older，即得
+\eqref{eq:arch-fourth-stability}。
+\end{proof}
+
+令 $\mathcal A_2=\Lambda*\Lambda$。下一算术输入来自 Henriot 的
+discriminant-uniform Nair--Tenenbaum upper bound \cite{Henriot}。
+
+\begin{theorem}[mixed shifted correlations {[T/R]}]
+\label{thm:mixed-shifted}
+存在非负 $\Delta(h)$，满足
+\[
+ \sum_{h\le U}\Delta(h)\ll U,\qquad
+ \sum_{h\le U}\frac{\Delta(h)}h\ll\log(2U),
+\]
+使对 $1\le|h|\le R$，
+\[
+ \sum_{R<n\le2R}\Lambda(n)\mathcal A_2(n+h)
+ \ll
+ \Delta(h)R\log R(\log\log R)^3+R\log R,
+ \label{eq:e2-prime-shift}
+\]
+\[
+ \sum_{R<n\le2R}\Lambda(n)\Lambda(n+h)
+ \ll
+ \Delta(h)R(\log\log R)^2+R.
+ \label{eq:prime-pair-shift}
+\]
+\end{theorem}
+
+\begin{proof}
+记 $\mathbf e_j(n)=\mathbf1_{\Omega(n)=j}$。Henriot 定理对
+$z_1^{\Omega(n)}z_2^{\Omega(n+h)}$ 给
+\[
+ \sum_{R<n\le2R}z_1^{\Omega(n)}z_2^{\Omega(n+h)}
+ \ll
+ \Delta(h)\frac R{(\log R)^2}
+ \prod_{p\le3R}\left(1+\frac{z_1}p\right)
+ \left(1+\frac{z_2}p\right).
+\]
+取 $z_1=1/\log\log R$、$z_2=2/\log\log R$，得到
+\[
+ \sum_{R<n\le2R}\mathbf e_1(n)\mathbf e_2(n+h)
+ \ll
+ \Delta(h)\frac{R(\log\log R)^3}{(\log R)^2}.
+\]
+两个参数都取 $1/\log\log R$，同理得到
+$\mathbf e_1$--$\mathbf e_1$ 上界。
+
+写 $\Lambda=\Lambda_1+\mathcal E_1$，其中 $\Lambda_1$ 只支撑在 primes。
+若 $\mathcal A_{2,0}=\Lambda_1*\Lambda_1$、
+$\mathcal E_2=\mathcal A_2-\mathcal A_{2,0}$，则
+\[
+ \sum_{n\le R}\mathcal E_2(n)\ll R,\qquad
+ \mathcal A_2(n)\ll(\log(2n))^4,\qquad
+ \mathcal A_{2,0}(n)\le2(\log(2n))^2\mathbf e_2(n).
+\]
+乘回 von Mangoldt weights即给
+\eqref{eq:e2-prime-shift}--\eqref{eq:prime-pair-shift}；
+proper prime powers 分别支付 $O(R\log R)$ 与 $O(R)$。
+\end{proof}
+
+定义 scaled window
+\[
+ s(v)=\frac{\psi(v)}a-1,\qquad
+ Q_r(v)=\psi(v)\psi(r-v),
+\]
+\[
+ D_0(\psi)=\int_{-1/2}^{1/2}s(v)^4\,dv,
+\]
+\[
+ D_{\rm mix}(\psi)
+ =\frac1{a^2}\int_0^1r
+ \left[
+ 8\int_{\mathbb R}s(v)^2Q_r(v)\,dv
+ +4\int_{\mathbb R}s(v)s(v-r)Q_r(v)\,dv
+ \right]dr.
+ \label{eq:deterministic-mixed}
+\]
+
+\begin{theorem}[确定性背景 mixed-frequency evacuation {[T]}]
+\label{thm:mixed-closure}
+假设此前的 pure-prime finite closure，即
+\[
+ \frac1H\int_I\operatorname{tr}P(t)^4dt
+ \le D_{22}(\psi)N+o(N)
+\]
+在每个 $I=[Y,Y+H]$、$Y\asymp X$ 上成立。则
+\[
+ \frac1H\int_I\operatorname{tr}(S_L+P(t))^4dt
+ \le
+ \{D_0(\psi)+D_{\rm mix}(\psi)+D_{22}(\psi)\}N+o(N).
+ \label{eq:centered-fourth-average}
+\]
+因此每个 $I$ 中存在 $t_I$ 使
+\[
+ \operatorname{tr}(S_L+P(t_I)+E_{\rm ar}(t_I))^4
+ \le
+ \{D_0+D_{\rm mix}+D_{22}\}N+o(N).
+ \label{eq:centered-fourth-height}
+\]
+\end{theorem}
+
+\begin{proof}
+展开 mixed part：
+\[
+ 4\operatorname{tr}(S_L^3P)
+ +4\operatorname{tr}(S_L^2P^2)
+ +2\operatorname{tr}(S_LPS_LP)
+ +4\operatorname{tr}(S_LP^3).
+\]
+含 $j$ 个 prime responses 的有限 word 精确写成
+\[
+ \beta_L^je^{itu}
+ \operatorname{tr}\{T(f_1)T(f_2)T(f_3)T(f_4)D_d(u)\}.
+\]
+四因子 Toeplitz telescoping 把它分成
+$O(d\beta_L^j)$ 的 bulk 与
+$O((1+\log L)\beta_L^j)$ 的 crossing。bulk path 非零要求 signed
+prime walk 的跨度不超过 $L$；三个同号 factors 满足 product $\le X$，
+$++-$ 可循环旋转为两个正号 product $\le X$。
+
+高度核满足 $|K_I(u)|\le\min(1,2/(H|u|))$。一个 prime、两个同号
+primes、三个同号 primes 的 bulk means 分别为
+$O(\sqrt{XL})$、$O(X/\sqrt L)$、$O(\sqrt{XL})$。
+两个异号 primes 的非对角由 \eqref{eq:prime-pair-shift} 给
+\[
+ O\left(X\sqrt L(\log L)^2+X/\sqrt L\right)=o(N).
+\]
+$++-$ 通道按 $m=n_1n_2$、$n=n_3$ 聚类，
+\eqref{eq:e2-prime-shift} 给
+\[
+ O\left(X\sqrt L(\log L)^3+X/\sqrt L\right)=o(N).
+\]
+crossing 只把 $d$ 换成 $O(1+\log L)$；无 path support 的最坏三素数
+全盒经非零高度核后仍为 $o(N)$。
+
+零素数主项是 $D_0N+o(N)$。两个 opposite signs 的 exact diagonal 来自
+\[
+ 4\operatorname{tr}(S_L^2P^2)
+ +2\operatorname{tr}(S_LPS_LP).
+\]
+两类 cyclic orientations 分别产生 \eqref{eq:deterministic-mixed} 的系数
+$8$ 与 $4$，故主项为 $D_{\rm mix}N+o(N)$。这证明
+\eqref{eq:centered-fourth-average}。
+
+令 $F_0(t)=\operatorname{tr}(S_L+P(t))^4\ge0$。只对整个 $F_0$
+使用一次“最小值不超过平均值”，选得 $F_0(t_I)=O(N)$。这直接给
+$\|S_L+P(t_I)\|_4=O(N^{1/4})$；再用定理
+\ref{thm:arch-background} 消去 $E_{\rm ar}$，得到
+\eqref{eq:centered-fourth-height}。该顺序避免分别选择 pure 与 mixed
+good sets 后错误地假设其交非空。
+\end{proof}
+
+对 Montgomery--Taylor 窗，数值积分给
+\[
+ D_0=0.000078787511\ldots,\qquad
+ D_{\rm mix}=0.007840799168\ldots,
+\]
+所以
+\[
+ D_0+D_{\rm mix}+D_{22}
+ =0.252508968714\ldots.
+ \label{eq:mt-centered-fourth}
+\]
+这是定理 \ref{thm:mixed-closure} 的 finite fourth-trace constant，不在本文
+中直接宣称为新的简单零点比例。下一开放接口是核对：相对稠密 good heights
+是否满足 zero-block coverage 的量词，以及定理 \ref{thm:quartic} 的
+Christoffel 证书与 $16/21$ inertia 证书需要 pointwise、averaged 还是
+cofinal control。完成该审计前，$13/18$ 与 $16/21$ 均保持条件性。
 \begin{proposition}[严格改善当前比例的一侧账本]\label{prop:fourth-ledger}
 设 $b_2=1/3+o(1)$，并把真实 tapered 压缩的中心四矩写成
 \[
@@ -1151,18 +1373,13 @@ $R(b_2,b_4)=4/[9(b_4+1/3)]>\kappa$，再应用定理
 
 在平窗的形式 sine 账本中，两个 alternating words 合计 $1/5$，
 四个 adjacent words 合计 $1/15$，故对角总贡献为 $4/15$；
-预测的总四矩 $1/4$ 相当于净非对角修正 $-1/60$。
-这些数只标定命题 \ref{prop:fourth-ledger} 的预算：
-尚未把 alternating Farey Gram、$3+1,4+0$、Archimedean 背景和完整窗口
-边界统一压入该预算；但命题 \ref{prop:zero-tail-fourth} 已消去 zero-side
-tail，定理 \ref{thm:toeplitz-adjacent} 又闭合了 adjacent exact-product
-diagonal 的 finite-to-bulk edge；定理 \ref{thm:adjacent-mv} 进一步闭合
-$m\le X$ 的整个 adjacent family。该通道只剩
-\eqref{eq:supercritical-hankel} 的 supercritical boundary coherence；
-alternating Farey Gram 仍完全独立。
-有限无权 Dirichlet 多项式实验显示三族之间确有显著相消，但不构成 zeta
-四矩估计。相应可执行账本见
-\texttt{scripts/fourth\_moment\_channel\_audit.py}。
+预测的总四矩 $1/4$ 相当于净非对角修正 $-1/60$。定理
+\ref{thm:mixed-closure} 已把此前分列的 alternating、adjacent、
+$3+1,4+0$、Archimedean background 与 finite crossing 归入同一个
+relative-dense centered fourth-trace certificate。现在不能继续把这些通道列为
+算术开放项；唯一尚未完成的是该 certificate 到全局 zero counting 的量词接口。
+相应可执行账本见
+\texttt{scripts/mixed\_background\_evacuation\_audit.py}。
 
 \section{Connes 非交换几何迹公式作为另一种配置载体}
 
@@ -1416,9 +1633,8 @@ prime/continuum/Gamma response 记号，计算响应前后 $R$ 的精确 Schur �
 \item 在冻结有限模型上同时优化窗 $\psi$ 与 Brownian response，而不是只优化窗；
 \item 证明 weighted boundary estimate
 $\|J_T-J_{\infty,T}\|_{\rm HS}^2=o(L^3/(1+\log L)^2)$；
-\item 对已隔离的 supercritical Hankel aggregate
-\eqref{eq:supercritical-hankel} 建立 factorized response Schatten 界，并对
-alternating Farey Gram 构造 Vaughan response-specific Schur 证书；
+\item 逐式核对 finite matrix counting 中 relative-dense heights 的
+zero-block coverage；分别审计 $13/18$ 与 $16/21$ 证书的量词；
 \item 对离线测试零点 $\rho=\tfrac12+\eta+i\gamma$ 计算其 Gabor feature
 在正背景商空间中的最小奇异值，建立 $v_T(\eta)$ 的模型尺度；
 \item 将有限 response feasibility 写成 block PSD 与二阶锥问题，记录最优半径随
@@ -1433,18 +1649,19 @@ alternating Farey Gram 构造 Vaughan response-specific Schur 证书；
 \ +\ \text{函数方程惯性块}
 \ +\ \text{prime-side 谱矩}}
 \]
-一阶迹和二阶矩已经无条件给出 $67.250\ldots$；精确四矩证书与
-quadratic-channel Gram 把比例改进压成 $2+2,3+1,4+0$ 共振族的一个净预算；
-一般窗口的配对对角泛函又表明二矩最优窗未必是四矩最优窗。
-进一步的 product/ratio 分解已把 $2+2$ 的普通长度通道与真正 Farey 硬核分开，
-并把 finite-to-bulk 边界量化为一个 weighted Hilbert--Schmidt 目标。
-负谱深度可见性则是非零区域所缺的结构。备选方向因而不是改做经典零点比例，
+一阶迹和二阶矩已经无条件给出 $67.250\ldots$。精确四矩证书、product/ratio
+分解、shifted upper-bound sieve 与 response-specific Toeplitz crossing
+现已把 finite centered fourth trace 压到相对稠密高度上的显式常数；对
+Montgomery--Taylor 窗该常数为 $0.252508968714\ldots$。这不是本文已经宣布的
+新零点比例：剩余问题是 relative-dense selection 与全局 zero-block counting
+之间的量词，而不是再次估计 $2+2,3+1,4+0$ 算术通道。
+
+负谱深度可见性仍是非零区域所缺的结构。备选方向不是简单重写经典比例问题，
 而是研究 Weil 配置的不完全正性如何量化地控制 divisor。
 
 对数域存在性而言，显式公式已经构造配置的载体。真正要证明存在的不是任意
 Hilbert 空间或形式极化，而是具有统一矩预算、响应能量和深度 frame 常数的算术
-实现。弱紧致性可以完成最后的非构造拼接；最困难的部分仍是在
-prime/Gamma/continuum 三者合并后证明这些 uniform constants。
+实现。弱紧致性只能完成最后拼接；缺失的正性或 counting 量词必须先独立证明。
 
 \begin{thebibliography}{99}
 
@@ -1480,6 +1697,11 @@ J. B. Conrey,
 the critical line},
 J. Reine Angew. Math. \textbf{399} (1989), 1--26.
 
+\bibitem{Henriot}
+K. Henriot,
+\emph{Nair--Tenenbaum bounds uniform with respect to the discriminant},
+Math. Proc. Cambridge Philos. Soc. \textbf{152} (2012), 405--424;
+Erratum, \textbf{157} (2014), 375--377.
 \bibitem{Levinson74}
 N. Levinson,
 \emph{More than one third of zeros of Riemann's zeta-function are on
