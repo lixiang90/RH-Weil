@@ -485,6 +485,7 @@ xelatex rh-weil-structure-paper.tex
 - [Exact finite dyadic band discrepancy 与幂级高乘积的 L^4 门槛](notes/235-exact-dyadic-band-discrepancy-and-L4-gate.md)
 - [幂级高乘积 dyadic mass ledger 的初等闭合](notes/236-elementary-power-high-mass-ledger-closure.md)
 - [累计差异并非带响应的必要输入：慢调制障碍](notes/237-cumulative-discrepancy-band-no-go.md)
+- [Band-energy Bessel 障碍与 exact physical-response Gram](notes/238-band-energy-bessel-no-go-and-physical-gram.md)
 - [研究分支看板](RESEARCH_BRANCHES.md)
 - [文献与证据边界](notes/003-sources.md)
 

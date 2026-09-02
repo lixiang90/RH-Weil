@@ -545,5 +545,6 @@ experiment 使用 `M=X^(1/4)` 只为控制计算量，不能替代该渐近尺�
 discrepancy 恰按 `sqrt(M)` 增长，而 exact consecutive-band response 仍为
 `O(M^(-1))`。因此定理 235-H 与式 (34) 保持为完全有效的 sufficient
 certificate，但 cumulative discrepancy 不是 band response 的必要或唯一
-算术输入。主看板已改为 actual band-energy Gram / physical-response
-Type-I--II estimate；本笔记中较早出现的“唯一缺口”均应按此限定理解。
+算术输入。笔记 238 又证明 full band-energy Gram 也可能支付 $\sqrt M$ 的
+Bessel tax；主看板现改为 actual physical-response Type-I--II estimate。
+本笔记中较早出现的“唯一缺口”均应按此限定理解。

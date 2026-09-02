@@ -219,6 +219,14 @@ CHECKS = (
         "cumulative discrepancy versus exact band response no-go",
         [sys.executable, "cumulative_discrepancy_band_no_go_audit.py"],
     ),
+    (
+        "band energy versus physical response direction no-go",
+        [sys.executable, "band_energy_physical_direction_no_go_audit.py"],
+    ),
+    (
+        "power-high physical one-factor Vaughan channels",
+        [sys.executable, "power_high_physical_vaughan_channel_audit.py"],
+    ),
 )
 
 def main() -> None:

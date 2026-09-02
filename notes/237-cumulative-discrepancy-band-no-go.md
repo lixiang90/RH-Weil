@@ -421,3 +421,12 @@ Hardy--Littlewood、Weil positivity、谱酉性或 bounded negative index。
 本轮的严格结论是一个结构性障碍：累计差异是可用但过强的实空间证书，不能被
 提升为 fixed-power Weil response 的必要或“唯一”算术输入。下一步应在 actual
 factorized response 的非零频带内寻找算术估计。
+
+## 11. 笔记 238 的 band-energy 后续审计
+
+笔记 238 进一步构造 band 内部的 positive modulation：其 exact all-ones
+physical response 保持 $O(1)$，而式 (25) 的 band energy 为
+$\gg\sqrt M$。因此命题 237-E 仍是正确的充分 certificate，但它也不是必要
+输入；本笔记 237-F 的 band-energy 选项已由笔记 238-E 降级为止损旁路。
+主看板改为保留实际 coefficient vector 的 Hilbert-valued Type I/II physical
+Gram factorization 与 response-specific Schur estimate。
