@@ -457,3 +457,12 @@ alternating ratio Gram；compact-support path 强制前者 (ab\le X)，真正的
 ## 14. 后续推进（笔记 227）
 
 笔记 227 闭合了 S_L 与 prime responses 的全部非零 mixed frequencies，并把 zero-prime、balanced two-prime 与 pure-prime paired diagonals合并为 centered fourth constant 0.2525089687。其共同高度选择先作用于整个非负四迹，避免 pure 与 mixed signed good sets 的交集漏洞。该结果仍未自动成为 13/18 或 16/21 比例：下一步必须逐式审计 relative-dense height 对 finite zero blocks 和全局计数的量词要求。
+
+## 15. 后续逆审计（笔记 230）
+
+笔记 230 没有调用本笔记式 (13) 的预分组，而是从六个 `2+2` sign words 与每个
+word 的两个 pairing 直接枚举十二条闭合累计路径。按积分平移、偶窗反射和交换两个
+变量分类后，`A_+,A_-,B` 各恰有四条；逐 raw path 积分重新得到 MT
+`D_22=0.244589382034...` 与平窗 `4/15`。因此本笔记的 paired-diagonal cyclic
+重数和 `a^(-4)` normalization 已通过独立复核；未配对 analytic remainder 仍需
+继续逆审计。

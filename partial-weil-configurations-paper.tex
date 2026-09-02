@@ -68,15 +68,20 @@ $0.3275499\ldots$ 以下。本文把这一目标进一步分成 $2+2,3+1,4+0$ �
 本文进一步把 Archimedean 背景约化为零频 Toeplitz 主部，并用判别式一致的
 shifted-sieve 上界排空全部非零 mixed frequencies。因而每个长度
 $X/\sqrt{\log X}$ 的高度窗都含有一个 centered fourth trace 受确定性对角常数
-控制的点；Montgomery--Taylor 窗对应常数为 $0.2525089687\ldots$。从这些相对
-稠密的好高度推出全局简单零点比例仍需独立的 zero-block coverage 量词审计，
-本文不把该有限压缩结论升级为新的无条件比例。
+控制的点；Montgomery--Taylor 窗对应常数为 $0.2525089687\ldots$。本文证明
+moving-start zero-block transfer：起点偏移 $T/\sqrt{\log T}$ 只改变 $o(N)$
+个零点，故相对稠密的好高度足以传回固定 dyadic 与累计计数。形式代入四矩惯性
+证书给简单/互异比例 $0.7569027\ldots/0.8784513\ldots$；这两个记录级数值仍
+标为条件性，因为 prime-side 全链的独立逆向审计尚未结束。当前已通过的逆审计
+包括 Bettin--Chandee/Henriot 外部输入及十二条 cyclic paired paths 的常数重建。
 \end{abstract}
 
 \paragraph{结论状态。}
 本文中的有限维线性代数定理均为无条件结论；应用到 zeta 的
 $0.67250\ldots$ 数值是对 Alpöge--Furman 最新结果的结构化重述，而不是新的纪录。
 高阶矩、深度可见性及 Brownian--Vaughan 响应与 zeta 的统一估计被标为待证输入。
+本文给出的 $0.7569027\ldots$ 与 $0.8784513\ldots$ 仅是已证结构蕴含在尚待
+完整逆审计的 fourth-trace 前件下的条件实例，不作为新的无条件纪录。
 
 \section{问题的放宽仍应保留 Weil 结构}
 
@@ -1340,11 +1345,65 @@ good sets 后错误地假设其交非空。
  =0.252508968714\ldots.
  \label{eq:mt-centered-fourth}
 \]
-这是定理 \ref{thm:mixed-closure} 的 finite fourth-trace constant，不在本文
-中直接宣称为新的简单零点比例。下一开放接口是核对：相对稠密 good heights
-是否满足 zero-block coverage 的量词，以及定理 \ref{thm:quartic} 的
-Christoffel 证书与 $16/21$ inertia 证书需要 pointwise、averaged 还是
-cofinal control。完成该审计前，$13/18$ 与 $16/21$ 均保持条件性。
+这是定理 \ref{thm:mixed-closure} 的 finite fourth-trace constant。下面先闭合
+relative-dense good heights 到固定零点块的量词接口，再明确记录级实例仍依赖的
+prime-side 逆向审计。
+
+\begin{theorem}[相对稠密起点的零点块传递]\label{thm:moving-block}
+令 $H_T=o(T)$、$B_T=T+O(1/\log T)$，并令
+$J_u=[u,u+B_T)$。若每个充分大的 $T$ 都存在
+$u_T\in[T,T+H_T]$ 使
+\[
+ S(J_{u_T})\ge(c-o(1))N(J_{u_T}),
+\]
+则
+\[
+ S(T,2T)\ge(c-o(1))N(T,2T).
+\]
+同一结论对不同零点计数 $D$ 成立；对 dyadic blocks 求和后也传到累计计数。
+\end{theorem}
+
+\begin{proof}
+两区间对称差的总长度至多 $2H_T+O(1/\log T)$。标准局部计数
+$N(y,y+1)\ll\log(y+2)$ 因而给
+\[
+ N\bigl(J_{u_T}\mathbin\triangle[T,2T]\bigr)
+ \ll(H_T+1)\log T=o(T\log T)=o(N(T,2T)).
+\]
+$S,D,N$ 在两区间上的差均由该边界零点数控制，故结论成立。累计版本对高端
+dyadic blocks 使用同一 $c-o(1)$，低端有限部分为总零点数的 $o(1)$。
+\end{proof}
+
+对 AF Gabor grid，$H_T=T/\sqrt{\log T}$ 且
+$B_T=2\pi\lfloor LT/(2\pi)\rfloor/L=T+O(1/L)$，故定理适用。若定理
+\ref{thm:mixed-closure} 的前件经完整逆审计成立，则 AF 的无条件中心二矩
+\[
+ v_{\rm MT}=-\frac12+\frac1{\sqrt2}\cot\frac1{\sqrt2}
+ =0.327499296320588\ldots
+\]
+与 \eqref{eq:mt-centered-fourth} 代入定理 \ref{thm:quartic}，给出条件性推论
+\[
+ \frac{S}{N}\ge0.756902665727919\ldots,
+ \qquad
+ \frac{D}{N}\ge0.878451332863959\ldots.
+ \label{eq:conditional-mt-quartic}
+\]
+这里不使用 $13/18$ Christoffel 数值：中心二、四矩并不决定缺失的三阶矩，
+因而不足以确定 degree-two Christoffel function。
+
+逆向审计目前通过两组关节。第一，Bettin--Chandee \cite[Corollary~1]{BettinChandee} 的 fixed-determinant
+公式 给出 $Y^{39/20+\eps}$ 误差；对单序列 $n=ac$ 的 Selberg 平方权
+只有一对 divisors，level cost 为 $D^{39/10+\eps}$，故任意
+$D=Y^\kappa$、$\kappa<1/78$ 可用。第二，Henriot \cite{Henriot} 的 2014 勘误要求把
+$\widehat\rho_R$ 换为 $\check\rho_R$ 并加入 leading-coefficient factor；对
+primitive monic 的 $X,X+h$ 有 $a^*=1$ 且
+$\check\rho_R\le\widehat\rho_R$，所需上界保持一致。另从六个 $2+2$ sign
+words 与两种 pairings 枚举十二条 raw cyclic paths，独立恢复
+$4A_++4A_-+4B$；mixed placements 独立恢复 $8C_1+4C_2$，并重算
+\eqref{eq:mt-centered-fourth}。这些检查验证外部输入、orientation 与
+normalization，但尚未替代 local Fejer energy、factor-box 跨层求和及 finite
+crossing 使用同一 frozen grid 的内部组合审计。因此
+\eqref{eq:conditional-mt-quartic} 保持条件性。
 \begin{proposition}[严格改善当前比例的一侧账本]\label{prop:fourth-ledger}
 设 $b_2=1/3+o(1)$，并把真实 tapered 压缩的中心四矩写成
 \[
@@ -1376,10 +1435,14 @@ $R(b_2,b_4)=4/[9(b_4+1/3)]>\kappa$，再应用定理
 预测的总四矩 $1/4$ 相当于净非对角修正 $-1/60$。定理
 \ref{thm:mixed-closure} 已把此前分列的 alternating、adjacent、
 $3+1,4+0$、Archimedean background 与 finite crossing 归入同一个
-relative-dense centered fourth-trace certificate。现在不能继续把这些通道列为
-算术开放项；唯一尚未完成的是该 certificate 到全局 zero counting 的量词接口。
-相应可执行账本见
-\texttt{scripts/mixed\_background\_evacuation\_audit.py}。
+relative-dense centered fourth-trace certificate。定理 \ref{thm:moving-block} 已
+闭合其到全局 zero counting 的量词接口；当前唯一剩余的晋级门槛是从最终常数
+反向复核 prime-side 内部组合，特别是 Fejer cone、factor boxes、finite
+crossing 与 frozen grid 的共同原子账本。相应可执行账本分列于
+\url{scripts/mixed_background_evacuation_audit.py}、
+\url{scripts/relative_dense_zero_block_audit.py}、
+\url{scripts/external_input_reverse_audit.py} 与
+\url{scripts/cyclic_fourth_constant_reconstruction.py}。
 
 \section{Connes 非交换几何迹公式作为另一种配置载体}
 
@@ -1631,10 +1694,12 @@ Brownian 响应
 \item 把 Alpöge--Furman 压缩矩阵写入本项目的
 prime/continuum/Gamma response 记号，计算响应前后 $R$ 的精确 Schur 公式；
 \item 在冻结有限模型上同时优化窗 $\psi$ 与 Brownian response，而不是只优化窗；
-\item 证明 weighted boundary estimate
-$\|J_T-J_{\infty,T}\|_{\rm HS}^2=o(L^3/(1+\log L)^2)$；
-\item 逐式核对 finite matrix counting 中 relative-dense heights 的
-zero-block coverage；分别审计 $13/18$ 与 $16/21$ 证书的量词；
+\item 独立重建 local positive energy 到 whole pure-prime one-sided fourth
+trace 的组合，核对 Fejer cone、factor-box 跨层求和与 finite crossing 是否
+使用同一原子集合和 frozen grid；
+\item 完成 Archimedean $O(1/L)$ 余项、zero-side Schatten tail 与已证
+moving-block transfer 的最后拼接；在此之前保持
+\eqref{eq:conditional-mt-quartic} 为条件性；
 \item 对离线测试零点 $\rho=\tfrac12+\eta+i\gamma$ 计算其 Gabor feature
 在正背景商空间中的最小奇异值，建立 $v_T(\eta)$ 的模型尺度；
 \item 将有限 response feasibility 写成 block PSD 与二阶锥问题，记录最优半径随
@@ -1652,9 +1717,11 @@ zero-block coverage；分别审计 $13/18$ 与 $16/21$ 证书的量词；
 一阶迹和二阶矩已经无条件给出 $67.250\ldots$。精确四矩证书、product/ratio
 分解、shifted upper-bound sieve 与 response-specific Toeplitz crossing
 现已把 finite centered fourth trace 压到相对稠密高度上的显式常数；对
-Montgomery--Taylor 窗该常数为 $0.252508968714\ldots$。这不是本文已经宣布的
-新零点比例：剩余问题是 relative-dense selection 与全局 zero-block counting
-之间的量词，而不是再次估计 $2+2,3+1,4+0$ 算术通道。
+Montgomery--Taylor 窗该常数为 $0.252508968714\ldots$。相对稠密起点到固定
+dyadic 与累计零点计数的量词现已由定理 \ref{thm:moving-block} 闭合，并形式给出
+\eqref{eq:conditional-mt-quartic} 的条件比例。本文仍不宣布新纪录：剩余问题是
+prime-side 全链的独立逆向审计，尤其是 local Fejer energy 到 whole fourth
+trace 的共同 box/frozen-grid 组合，而不是 zero-block coverage。
 
 负谱深度可见性仍是非零区域所缺的结构。备选方向不是简单重写经典比例问题，
 而是研究 Weil 配置的不完全正性如何量化地控制 divisor。
@@ -1702,6 +1769,14 @@ K. Henriot,
 \emph{Nair--Tenenbaum bounds uniform with respect to the discriminant},
 Math. Proc. Cambridge Philos. Soc. \textbf{152} (2012), 405--424;
 Erratum, \textbf{157} (2014), 375--377.
+\url{https://arxiv.org/abs/1102.1643};
+\url{https://doi.org/10.1017/S0305004114000280}.
+
+\bibitem{BettinChandee}
+S. Bettin and V. Chandee,
+\emph{Trilinear forms with Kloosterman fractions},
+Adv. Math. \textbf{328} (2018), 1234--1262;
+\url{https://arxiv.org/abs/1502.00769}.
 \bibitem{Levinson74}
 N. Levinson,
 \emph{More than one third of zeros of Riemann's zeta-function are on

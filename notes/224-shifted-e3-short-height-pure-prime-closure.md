@@ -147,8 +147,11 @@ interval 内存在一个共同高度，使纯素数 bulk 四阶词的全部非�
 
 的 specialization。原论文在介绍中明确指出：相对于 Holowinsky 的
 \(\tau(h)(\log R)^\varepsilon\) 版本，精化项 \(\Delta(h)\) 具有平均值
-一，并删除 \(\varepsilon\) 损失。Henriot 的 2014 erratum 不改变这里使用的
-upper bound。
+一，并删除 \(\varepsilon\) 损失。Henriot 的 2014 erratum 保留 upper bound，
+但正式应用必须把 \(\widehat\rho_R\) 换成修正的 \(\check\rho_R\)，并在一般
+多项式中把坏素数因子写成 \(a^*D^*\)。这里的 \(X,X+h\) primitive 且 monic，
+所以 \(a^*=1\)，而 \(\check\rho_R\le\widehat\rho_R\)；笔记 229 已独立核验
+本 specialization 及 \(z_j\to0\) 时隐常数的统一性。
 
 由 Theorem 3 的显式 local discriminant factor，在
 \(z_1,z_3\le1\) 时可用

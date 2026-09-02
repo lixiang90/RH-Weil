@@ -175,6 +175,18 @@ CHECKS = (
         "deterministic-background mixed-frequency closure",
         [sys.executable, "mixed_background_evacuation_audit.py"],
     ),
+    (
+        "relative-dense moving zero-block transfer",
+        [sys.executable, "relative_dense_zero_block_audit.py"],
+    ),
+    (
+        "external-input reverse-audit identities",
+        [sys.executable, "external_input_reverse_audit.py"],
+    ),
+    (
+        "cyclic fourth-constant reconstruction",
+        [sys.executable, "cyclic_fourth_constant_reconstruction.py"],
+    ),
 )
 
 def main() -> None:

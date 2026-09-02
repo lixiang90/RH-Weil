@@ -487,3 +487,11 @@ good heights。
 \]
 
 的 interval 都含有一点，使 adjacent supercritical aggregate 为 \(o(N)\)。这与单 entry 的正均方相容，因为所平均的是不同 product clusters 的无共轭相位总和。定理 208-E 的传递接口因而已对 adjacent 通道实现；尚需把 alternating、\(3+1\)、\(4+0\) 与背景 remainder 放进同一非负短高度预算，才能用于零点比例。
+## 12. 后续更新（笔记 228）
+
+笔记 228 把本笔记的 cumulative endpoint transfer 改写为与 AF 构造精确匹配的
+moving-block transfer。good height 是 Gabor grid 的起点；起点移动
+`o(T)` 使长度约 `T` 的零点块只改变 `o(N(T,2T))` 个零点。因此笔记 223--227
+构造的每个 `T/sqrt(log T)` interval 内的共同 good point 已足够服务固定 dyadic
+zero counting。剩余风险不再是 endpoint coverage，而是 prime-side fourth-trace
+整条证明链的独立逆向复核。

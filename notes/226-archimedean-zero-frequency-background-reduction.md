@@ -443,3 +443,11 @@ Frobenius、极化或 Hard Lefschetz，也没有建立上同调型与显式公�
 ## 11. 后续推进（笔记 227）
 
 笔记 227 已用 Omega=1,2 的 Henriot shifted sieve 闭合本笔记第 9 节留下的 one-prime、two-prime off-diagonal 与 three-prime mixed frequencies，并证明 finite Toeplitz crossing 总量同样为 o(N)。共同高度选择不能先固定 pure-prime good point；正确做法是先平均整个非负 tr(S_L+P)^4，只选一次高度，再从选中的 whole trace 反推 Schatten--4 控制并消去 E_ar。MT centered fourth constant 因而成为 0.2525089687，但到全局零点比例的 relative-dense 量词接口仍为开放审计。
+
+## 12. 后续逆审计（笔记 230）
+
+笔记 230 从四个 cyclic slots 中直接选择两个 prime positions：四个 adjacent
+placements 与两个 alternating placements，各乘两种 opposite-sign orientation，
+独立恢复本笔记式 (25) 的 `8C_1+4C_2`。其独立 quadrature 同时重算
+`D_0=0.000078787511...`、`D_mix=0.007840799168...`；未发现 mixed-diagonal
+orientation 或 normalization 错误。

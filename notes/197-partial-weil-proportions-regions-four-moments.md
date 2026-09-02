@@ -212,3 +212,12 @@ Archimedean cutoff 使用 prolate spheroidal 投影几何。
 审计脚本 scripts/partial_weil_audit.py 已覆盖二阶尖锐模型、Montgomery--Taylor
 常数、\(13/18\)、\(16/21\)、\(37/42\)、匹配四点谱测度、\(b_4\) 阈值与深度
 可见性账本。它只验证有限维恒等式，不构成 zeta 四矩估计或 RH 证据。
+## 9. 后续更新（笔记 228）
+
+当前 prime-side 路线控制的是中心二矩与中心四矩，而不是完整 raw moments 到四阶。
+笔记 228 证明：relative-dense moving blocks 足以应用本笔记的 quartic
+rank--trace--inertia 证书；若中心二矩为 `v`、中心四矩上界为 `B4`，则 simple
+比例为 `(1-v)^2/(1-2v+B4)`。MT 数值形式上给 `0.7569026657...`。另一方面，
+笔记 228 构造两组均值一、同中心二/四矩但不同三阶矩的显式谱测度，严格说明
+当前数据不能代入需要完整 `m0,...,m4` 的 `13/18` Christoffel 数值。记录级实例
+在笔记 203--227 的 prime-side 链独立复核完成前保持 `[C]`。

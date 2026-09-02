@@ -685,3 +685,26 @@ obstruction，不能把 relative-dense good heights 偷换成全局渐近。
 
 脚本不实现 Henriot 定理、不证明 prime asymptotics，也不执行 zero-counting
 接口，因此不能单独作为零点比例证据。
+
+## 13. 后续更新（笔记 228）
+
+笔记 228 已闭合本笔记留下的 zero-block coverage 量词。若把 Gabor grid 起点从
+`T` 平移到本笔记选出的 `u in [T,T+T/sqrt(log T)]`，对应 AF 零点块从
+`[T,2T]` 平移为 `[u,u+T+O(1/log T)]`；两块对称差中的零点只有 `o(N)`。
+因此 relative-dense good heights 足以传回固定 dyadic 与累计计数。
+
+当前中心二矩 `v_MT=0.3274992963...` 与本笔记中心四矩前件
+`B_MT=0.2525089687...` 通过 quartic rank--trace--inertia certificate 形式上给
+simple/distinct 常数 `0.7569026657...`、`0.8784513329...`。该逻辑蕴含已证明，
+但由于它会构成记录级改进，项目把无条件实例保持为 `[C]`，下一步改为对笔记
+203--227 的 prime-side 链作逆向独立复核。当前数据没有第三矩，不能直接调用
+AF 的 `13/18` Christoffel 数值；笔记 228 给出了严格的数据不足反例。
+
+## 14. 后续逆审计（笔记 229--230）
+
+笔记 229 已按 Henriot 2014 勘误把 shifted-sieve 外部输入改用 corrected
+`rho-check_R`，并证明对 primitive monic `X,X+h` 的上界及 `z_j->0` 统一性不变；
+Bettin--Chandee/单序列 Selberg level 也通过核验。笔记 230 又从十二条 raw paired
+paths 和六个 mixed placements 独立恢复 `D_22`、`D_0`、`D_mix` 的全部重数与
+MT 总常数 `0.252508968714...`。这些通过项仍不替代笔记 218--225 内部
+Fejer/box/frozen-grid 拼装的剩余逆审计，故记录级比例保持 `[C]`。

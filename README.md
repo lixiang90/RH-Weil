@@ -475,6 +475,9 @@ xelatex rh-weil-structure-paper.tex
 - [四因子 Toeplitz telescoping 与纯素数 finite signed boundary 闭合](notes/225-fourfold-toeplitz-signed-boundary-closure.md)
 - [Archimedean 背景的零频 Toeplitz 主部与四迹稳定归约](notes/226-archimedean-zero-frequency-background-reduction.md)
 - [确定性背景 mixed-frequency evacuation 与非循环共同高度选择](notes/227-deterministic-background-mixed-frequency-closure.md)
+- [相对稠密高度到 AF 零点块的移动端点传递](notes/228-relative-dense-zero-block-transfer.md)
+- [四阶素数侧外部输入的逆向审计](notes/229-external-input-reverse-audit.md)
+- [中心四迹常数的十二路径独立重建](notes/230-cyclic-fourth-constant-reconstruction.md)
 - [研究分支看板](RESEARCH_BRANCHES.md)
 - [文献与证据边界](notes/003-sources.md)
 
