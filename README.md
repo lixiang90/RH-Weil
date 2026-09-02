@@ -469,6 +469,7 @@ xelatex rh-weil-structure-paper.tex
 - [Critical logarithmic-square local energy 的 scalar-budget no-go](notes/219-critical-log-square-budget-no-go.md)
 - [Critical factor-bin determinant sieve 的精确对数阈值](notes/220-factor-bin-determinant-sieve-threshold.md)
 - [Balanced critical determinant box 的 Selberg--Kloosterman 闭合](notes/221-balanced-critical-selberg-kloosterman-closure.md)
+- [Unbalanced critical determinant shell 的双机制闭合](notes/222-unbalanced-critical-determinant-shell-closure.md)
 - [研究分支看板](RESEARCH_BRANCHES.md)
 - [文献与证据边界](notes/003-sources.md)
 

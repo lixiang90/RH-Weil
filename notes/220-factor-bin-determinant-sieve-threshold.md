@@ -7,7 +7,7 @@
 状态：四变量 factor-bin determinant incidence 的 `L^2` elementary baseline、
 `sigma<1` closure theorem 与 `sigma=1` bookkeeping ceiling 为 [T]；
 Bettin--Chandee fixed-determinant corollary 的直接适用缺口为 [N]；超过一个对数的
-joint target-prime saving 在本笔记中为 [O]；后续笔记 221 已用间接二维 Selberg 接口闭合 balanced case，完整 unbalanced range 仍为 [O]。本笔记不更新 PDF。
+joint target-prime saving 在本笔记中为 [O]；后续笔记 221 用间接二维 Selberg 接口闭合 balanced case，笔记 222 又以双机制闭合完整 unbalanced range。本笔记不更新 PDF。
 
 ## 1. 本轮结论
 
@@ -414,3 +414,9 @@ Lambda 直接塞入 Bettin--Chandee 的 smooth slots，而是对这两个坐标�
 fixed positive sieve level。因此本笔记 220-D 的 direct-substitution no-go 仍成立，
 但由它推测必须先作 Vaughan decomposition 已被修正。下一输入改为 unbalanced
 aspect layers 的统一 level ledger。
+## 9. 后续更新（笔记 222）
+
+笔记 222 将笔记 221 的 balanced `sigma=0` 推广到所有 unbalanced aspect layers。
+moderate 区由 Bettin--Chandee 外筛控制，extreme 区由 fixed-short-factor 两线性形式筛
+控制，且显式保留 `(b,d)>1` 的 same-base pairs。因而式 (8) 已对全部 critical boxes
+以 `sigma=0`、至多 `log log X` powers 成立；定理 220-B 随即闭合整个 critical shell。

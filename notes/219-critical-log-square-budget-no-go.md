@@ -353,3 +353,10 @@ factor-preserving 输入：二维 Selberg 上界筛与 Bettin--Chandee fixed-det
 公式合并后给 `D(H)<<RH`，即笔记 220 的 `sigma=0`。这不反驳 scalar no-go；新证明
 恰恰保留了四因子 divisibility data 与 exact gcd density。完整 critical shell 仍需
 unbalanced aspect-uniform extension。
+## 9. 后续更新（笔记 222）
+
+笔记 222 已把 balanced 结果推广到完整 unbalanced aspect range，并由笔记 220-B
+闭合整个 critical shell。新证明仍不落入本笔记的 scalar-budget no-go：moderate 区
+使用 factor-level exact gcd density，extreme 区使用 fixed-short-factor affine
+fibers及 `(b,d)` 的长度/shift 抵消。故本障碍定理的作用是正确迫使后续证明保留
+factorization，而不是断言 critical shell 本身不可闭合。

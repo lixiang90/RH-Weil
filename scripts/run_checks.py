@@ -136,6 +136,10 @@ CHECKS = (
         [sys.executable, "balanced_sieve_density_audit.py"],
     ),
     (
+        "unbalanced critical two-regime sieve",
+        [sys.executable, "unbalanced_critical_sieve_audit.py"],
+    ),
+    (
         "adjacent Montgomery--Vaughan and boundary no-go",
         [sys.executable, "adjacent_mv_boundary_no_go_audit.py"],
     ),

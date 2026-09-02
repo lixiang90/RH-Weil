@@ -527,3 +527,10 @@ smooth sieve coordinates，重新计算 Bettin--Chandee error，并证明某个�
 `kappa>0` 仍满足 Selberg level ledger；或者严格识别首先失效的 aspect threshold。
 只有得到对全部 relevant factor boxes 一致的 `sigma<1`，才能由笔记 220-B 宣称
 整个 critical shell closure。
+## 10. 后续更新（笔记 222）
+
+笔记 222 已完成本笔记 221-G：以 `V>=U^delta` / `V<U^delta` 分区，前者继续使用
+Bettin--Chandee 外筛，后者把 determinant fiber 参数化为两条长 affine prime forms
+并直接 Selberg 筛。短 factors 的 `g=(b,d)` 使参数长度乘 `g`、可用 shifts 数除
+`g`，二者精确抵消，因此 same-base short prime powers也被统一保留。所得 bound 对全部
+critical factor boxes 为 `D(H)<<RH(log L)^C`，由笔记 220-B 闭合完整 critical shell。
