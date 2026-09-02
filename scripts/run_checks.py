@@ -118,6 +118,9 @@ CHECKS = (
     (
         "transition-scale signed ratio kernel",
         [sys.executable, "transition_ratio_kernel_audit.py"],
+    ),    (
+        "balanced transition-core frame and affine fibers",
+        [sys.executable, "transition_core_frame_audit.py"],
     ),
     (
         "adjacent Montgomery--Vaughan and boundary no-go",

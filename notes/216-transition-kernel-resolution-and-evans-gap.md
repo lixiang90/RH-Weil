@@ -210,7 +210,7 @@ bulk cross Gram 的 translated-symbol main part 精确等于
  e^{iT\Delta}\mathcal D_{d_G}(\Delta)
  =
  e^{i\alpha_*\Delta}
- \frac{\sin(dh_0\Delta/2)}{\sin(h_0\Delta/2)},
+ \frac{\sin(d_Gh_0\Delta/2)}{\sin(h_0\Delta/2)},
 \qquad
  \alpha_*=T+\frac{d_G-1}{2}h_0.
 \tag{15}
@@ -674,3 +674,17 @@ transition factor cells 的 determinant core/tail。
 在部分 Weil 配置中，定理 216-D 提供一个新的 prime-side small diagonal
 budget；障碍定理 216-H 明确说明缺失的是 balanced short-shift arithmetic，
 而不是抽象 compactness 或隐藏的 full positivity。
+## 11. 后续更新（笔记 217）
+
+笔记 217 使用 erratum-corrected discriminant-uniform multiplicative
+upper-bound sieve，已无条件证明 fixed `0<delta<1` 的整个 transition
+resolution core absolute contribution 为
+
+\[
+ O_\delta\!\left(NL^{-(1-\delta)/2}(\log L)^5\right)=o(N).
+\]
+
+因此本笔记 216-J 的 uniform constant frame/Schur assignment 不再是必要的
+下一引理；它只是一个过强的充分条件。实际 prime-power core 已出现 affine
+five-clique，进一步说明 maximum-degree 路线不自然。修正后的唯一 A2 输入是
+保留 centered phase 与 sinc 的 oscillatory tail estimate。
