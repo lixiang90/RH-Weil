@@ -116,6 +116,10 @@ CHECKS = (
         [sys.executable, "supercritical_collar_coordinate_audit.py"],
     ),
     (
+        "transition-scale signed ratio kernel",
+        [sys.executable, "transition_ratio_kernel_audit.py"],
+    ),
+    (
         "adjacent Montgomery--Vaughan and boundary no-go",
         [sys.executable, "adjacent_mv_boundary_no_go_audit.py"],
     ),

@@ -120,7 +120,7 @@
 39. Esther Notik, *A sharp four-moment inertia bound for the zeros of the Riemann zeta function* (working paper, August 2026)。该稿提出在相同四矩数据下保留 rank--trace--inertia 账本可得 16/21 与 37/42。这是尚未同行评议的近期 working paper；文档 197 与独立论文逐式重证其有限维 quartic dual、闭式比例和匹配极端谱测度，但不据此认定 zeta 的四矩算术假设已成立。
    https://www.academia.edu/171780663/
 
-40. Natalie Evans, *Correlations of almost primes*, Mathematical Proceedings of the Cambridge Philosophical Society 174 (2023), 301--344. Theorem 1.3 对一般 \(E_2\) numbers 给出 \(\exp((\log X)^{1-\varepsilon})\le H\le X\log^{-A}X\) 范围内除 \(O(H\log^{-B}X)\) 个 shifts 外的 Hardy--Littlewood 型渐近；Lemma 2.1 记录 singular series 的平均上界。文档 214 只使用其 almost-all upper-bound 后果，并用独立 Cauchy budget 处理 exceptional shifts；不调用逐 fixed-shift 猜想。
+40. Natalie Evans, *Correlations of almost primes*, Mathematical Proceedings of the Cambridge Philosophical Society 174 (2023), 301--344. Theorem 1.1 对受限类 \(E_2'(P)\)（一个素因子位于 \((P,P^{1+\delta}]\)）在 \(H\ge (\log X)^{19+\varepsilon}\) 时给出 almost-all shift 渐近，例外数为 \(O(H\log^{-\eta}X)\)，其中 \(P\) 由 \(H\) 所处区间指定；Theorem 1.3 对一般 \(E_2\) numbers 给出 \(\exp((\log X)^{1-\varepsilon})\le H\le X\log^{-A}X\) 范围内除 \(O(H\log^{-B}X)\) 个 shifts 外的 Hardy--Littlewood 型渐近；Lemma 2.1 记录 singular series 的平均上界。文档 214 只使用 Theorem 1.3 的 almost-all upper-bound 后果，并用独立 Cauchy budget 处理 exceptional shifts；文档 216 同时审计 Theorems 1.1、1.3 的精确范围，证明它们均不覆盖 polylog shift 下的 balanced-factor transition core，不作范围外外推，也不调用逐 fixed-shift 猜想。
    https://doi.org/10.1017/S0305004122000251
 ## 使用这些来源时的边界
 

@@ -686,3 +686,13 @@ Gram 的一个 sector，不推出新的零点比例。
 在部分 Weil 配置中，定理 215-I 提供更大的 prime-side finite Gram
 diagonalization 区域；障碍定理 215-J 则把尚缺输入定位为 transition-scale 的
 response-weighted additive correlation，而不是“假设完整 Weil 正性”。
+
+## 12. 后续更新（笔记 216）
+
+笔记 216 已把 \(ab\asymp XL\) transition Gram 精确 scalarize 为保留
+six-window weight、Gabor index 与 \(e^{i(T+kh_0)\log(ad/bc)}\) 的 restricted
+determinant correlation。其 resolution threshold 为 \(H_{res}=Y/X\asymp L\)，
+而整层 atomic diagonal 仅为 \(O(N\log L/L)=o(N)\)。因此下一目标已降低为
+constant frame bound。Evans Theorem 1.1 的 small-factor window 与 Theorem
+1.3 的 subexponential shift threshold 均不覆盖 balanced polylog core；新的
+最小引理只处理该 core 的全图 Schur charge assignment。

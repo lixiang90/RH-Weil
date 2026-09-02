@@ -463,6 +463,7 @@ xelatex rh-weil-structure-paper.tex
 - [Radial alias seam 的精确支撑间隙与迹类闭合](notes/213-radial-alias-seam-support-gap.md)
 - [二素数谐和相关闭合 ordinary ratio seam](notes/214-semiprime-harmonic-correlation-ordinary-seam.md)
 - [定量 E2 saving 与 supercritical logarithmic collar](notes/215-quantitative-e2-supercritical-collar.md)
+- [Transition kernel resolution 与 Evans factor-bin 覆盖障碍](notes/216-transition-kernel-resolution-and-evans-gap.md)
 - [研究分支看板](RESEARCH_BRANCHES.md)
 - [文献与证据边界](notes/003-sources.md)
 
