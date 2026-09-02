@@ -466,3 +466,10 @@ word 的两个 pairing 直接枚举十二条闭合累计路径。按积分平移
 `D_22=0.244589382034...` 与平窗 `4/15`。因此本笔记的 paired-diagonal cyclic
 重数和 `a^(-4)` normalization 已通过独立复核；未配对 analytic remainder 仍需
 继续逆审计。
+
+## 16. 后续高乘积支撑修正（笔记 232）
+
+本笔记式 (13)--(14) 的完整 paired diagonal 常数保持不变。笔记 232 指出，
+`ab>XL^2` 的 alternating atomic diagonal 极限仍为严格正；平窗中精确占
+alternating 对角的 `5/8`。因此第 11 节“笔记 209--222 已闭合 primitive
+support”的后续摘要应改成：只闭合 `ab<=XL^2`，高乘积 off-diagonal 仍开放。

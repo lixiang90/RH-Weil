@@ -553,3 +553,19 @@ measures，并证明其 finite/bulk boundary 与 bulk mixed remainder 的真实�
 ## 12. 后续推进（笔记 226）
 
 笔记 226 完成了本笔记第 10 节所要求的第一步，但结果比“三张正包络账本”更强：显式公式的 Gamma/pole-absorption 背景可直接写为确定性零频 Toeplitz 主部 `S_L=T_d(phi^2/a-1)` 加 `O(1/L)` 算子余项；后者利用本笔记已证的 `tr P^4=O(N)` 在第四迹中为 `O(N/L)=o(N)`。因此新的最小引理不再包含 continuum/Gamma boundary，而是 `tr(S_L+P)^4` 中 one-prime、two-prime off-diagonal 与 three-prime signed frequencies 的共同短高度 evacuation。
+
+## 13. 后续逆审计修复（笔记 231）
+
+本笔记推论 225-F 在引用“笔记 203--223 已闭合 finite `2+2`”时漏列了
+alternating ratio `rho=1` central block 与非中心 primitive/chains 的 cross。
+笔记 231 证明该项的短区间 signed first mean为
+`O(X sqrt(L)(log L)^2)=o(N)`。把它与 adjacent defect、`3+1,4+0` boundary
+在平均前相加，仍只作一次最小值选点，故修复后的推论 225-F 成立；paired
+constant `D_22` 不变。
+
+## 14. 后续高乘积漏区修正（笔记 232）
+
+本笔记的 four-Toeplitz telescoping 与 signed finite/bulk boundary estimates 保持
+[T]。但其“完整 finite pure-prime”拼接调用了笔记 222 对 primitive support 的
+过强摘要。笔记 232 证明 `ab>XL^2` alternating primitive off-diagonal 尚未闭合；
+故完整一侧账本必须显式加入该项。

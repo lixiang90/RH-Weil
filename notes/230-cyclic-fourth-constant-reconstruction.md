@@ -179,3 +179,16 @@ cyclic fourth-constant reconstruction: PASS
 ```
 
 脚本只审计有限组合、窗口积分和正规化，不证明任何素数相关渐近或 RH 结论。
+
+## 7. 后续逆审计（笔记 231）
+
+十二路径常数重建本身通过，但常数正确不保证未配对 remainder 已穷尽。笔记 231
+从 ratio-cluster Gram 发现旧链漏列 central--primitive cross；该项不改变 paired
+常数，并已由 shifted prime-pair short-height bound 修复。下一任务 A1k 转为
+全局 atom-ID 与 half-open box coverage 审计。
+
+## 8. 后续高乘积漏区修正（笔记 232）
+
+十二路径分类和 `D_22` 常数保持不变。笔记 232 证明其中 alternating paired
+diagonal 的正比例来自 `ab>XL^2`；旧的 analytic closure 并未控制该区域的
+off-diagonal。因此常数重建通过不等于完整 zeta remainder 已闭合。

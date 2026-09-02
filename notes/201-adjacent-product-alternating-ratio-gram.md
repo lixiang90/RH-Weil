@@ -450,3 +450,10 @@ triangular/Fej\'er 正定 mask，或
 ## 12. 后续推进（笔记 202--224）
 
 式 (28) 的 adjacent 路线已由笔记 203--223 闭合；式 (29)--(30) 所针对的 alternating primitive support 已由笔记 209--222 闭合。笔记 224 进一步证明 bulk `3+1,4+0` 与 adjacent defect 可在同一短 interval 上作一次带符号的一侧选择。当前真正未决的不再是 primitive product/ratio Gram，而是完整 finite Gabor 四循环到这些 bulk words 的 signed boundary，以及 Gamma/continuum mixed-word Schur defect。
+
+## 13. 后续高乘积支撑修正（笔记 232）
+
+本笔记第 7 节关于 alternating path 不产生 product cutoff 的结论是正确的。
+笔记 232 据此发现后续笔记把 `ab<=XL^2` 误称为完整 physical support；该 cutoff
+之外的 atomic diagonal 有正主质量。所以第 12 节的“primitive support 已闭合”
+只适用于 `ab<=XL^2`，完整 alternating family 仍缺 high-product off-diagonal。

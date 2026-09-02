@@ -187,6 +187,14 @@ CHECKS = (
         "cyclic fourth-constant reconstruction",
         [sys.executable, "cyclic_fourth_constant_reconstruction.py"],
     ),
+    (
+        "alternating central/noncentral cross repair",
+        [sys.executable, "alternating_central_cross_audit.py"],
+    ),
+    (
+        "alternating high-product support obstruction",
+        [sys.executable, "alternating_high_product_tail_audit.py"],
+    ),
 )
 
 def main() -> None:

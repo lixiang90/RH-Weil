@@ -594,3 +594,9 @@ nonnegative sparse model：它同时满足正确的一阶质量、二阶矩、po
 及所有 `h<=L^2` 的 natural-size shifted upper bounds，但 critical proxy 仍为
 `asymp N`。因此式 (43) 不能仅由这些 scalar budgets 推出；下一轮必须使用
 actual factorization restrictions、six-window support、joint local law 或真实跨通道 Gram。
+
+## 11. 后续全局覆盖修正（笔记 232）
+
+定理 218-A 与推论 218-B 保持 [T]；它们的集合范围始终是
+`ab<=XL^(2-eta)`。笔记 232 证明“尚未覆盖的只有 critical 顶层”这一文字摘要不
+完整：critical 顶层之外还有 `ab>XL^2` 高乘积区，且其 atomic diagonal 为主尺度。

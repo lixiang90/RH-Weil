@@ -708,3 +708,18 @@ Bettin--Chandee/单序列 Selberg level 也通过核验。笔记 230 又从十�
 paths 和六个 mixed placements 独立恢复 `D_22`、`D_0`、`D_mix` 的全部重数与
 MT 总常数 `0.252508968714...`。这些通过项仍不替代笔记 218--225 内部
 Fejer/box/frozen-grid 拼装的剩余逆审计，故记录级比例保持 `[C]`。
+
+## 15. 后续逆审计修复（笔记 231）
+
+笔记 231 发现笔记 225 的 pure-prime 输入漏列 central--primitive alternating
+cross，并用已在本笔记定理 227-E 审计的 shifted prime-pair bound 将其短高度
+signed mean压到 `o(N)`。该项加入 whole-fourth-trace average 后不改变
+`D_0,D_mix,D_22`，也不需要第二次 good-height selection。因此定理 227-I 的
+pure-prime 前件经此局部修复恢复；记录级比例仍等待其余 box/frozen-grid 全链复核。
+
+## 16. 后续高乘积漏区修正（笔记 232）
+
+本笔记的 mixed-frequency evacuation、共同高度选择与候选常数重建保持 [T]/[E]。
+笔记 232 发现纯素数 alternating family 的 `ab>XL^2` primitive off-diagonal 尚未
+进入该共同账本。因此 `0.2525089687...` 继续只能作为 [C] 实例，不能升级为
+Riemann zeta 的无条件第四矩常数。

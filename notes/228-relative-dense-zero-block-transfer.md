@@ -451,3 +451,9 @@ support points，存在 degree-two polynomial 在 support 上为零而在 \(0\) 
 6. 两个 moment sequences 的 Christoffel 数据确实不同。
 
 脚本不证明笔记 227-I，也不执行零点计算；它只审计本轮的量词桥梁和有限代数。
+
+## 13. 后续 prime-side 漏区修正（笔记 232）
+
+moving-block transfer 与 quartic inertia implication 保持 [T]。笔记 232 证明其
+prime-side 输入链仍缺 `ab>XL^2` alternating primitive off-diagonal；所以本笔记
+给出的 simple/distinct 数值仍严格标为 [C]，不能据当前链宣称无条件纪录。

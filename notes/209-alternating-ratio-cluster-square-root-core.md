@@ -584,3 +584,12 @@ Schur contribution 严格小于 ordinary absolute-value bound。该引理是有�
 
 增量递减；odd ratio boxes 的最小 determinant 均为 \(2\)。这些数据只审计
 分类、索引和有限收敛，不证明式 (31) 或任何零点结论。
+
+## 13. 后续修复（笔记 231）
+
+本笔记第 1 节列出的 central block 与 primitive hard core cross response 没有被
+笔记 210--222 的 primitive--primitive closure 自动控制。笔记 231 先以同
+separate budgets、不同 cross 的二维 Hilbert 模型证明这一拼接缺口为严格 [N]，
+再利用中心 carrier phase 消失与 shifted prime-pair short-height upper bound
+证明完整 central--noncentral cross 的 signed mean 为 `o(N)`。因此该开放项现已
+修复，但必须把新估计显式加入笔记 225 的 one-sided common-height ledger。

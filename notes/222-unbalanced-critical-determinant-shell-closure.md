@@ -633,3 +633,18 @@ pseudocovariance。
 或构造保留 prime phases 与 physical windows 的主尺度 lower bound。不得用
 `B_XB_X^*` covariance、任意系数 Bessel bound 或 natural lower/upper pairing 代替
 无共轭 pseudocovariance。
+
+## 9. 后续逆审计修正（笔记 231）
+
+定理 222-A 与 primitive critical-shell 推论保持不变；原第 1、5 节把 central
+block 说成由笔记 209 的独立预算处理，不能单独推出 central--primitive cross
+为 `o(N)`。笔记 231 已证明该 cross 在每个标准短高度区间上的 signed first mean
+为 `o(N)`。所以“完整 alternating ledger”必须引用笔记 231；本笔记自身只给
+primitive--primitive 的 uniform closure。
+
+## 10. 后续全局覆盖修正（笔记 232）
+
+定理 222-A 与式 (6) 的 critical-shell closure 保持 [T]。笔记 232 由 exact
+alternating support 和受限 paired diagonal 证明，`ab<=XL^2` 不是完整 physical
+support；其外 atomic diagonal 有正主质量。因此推论 222-B 必须读作
+“entire critical shell closure”，不能读作完整 primitive alternating closure。
