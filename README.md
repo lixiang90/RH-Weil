@@ -481,6 +481,7 @@ xelatex rh-weil-structure-paper.tex
 - [Alternating 中心块交叉缺口与短高度修复](notes/231-alternating-central-primitive-cross-repair.md)
 - [Alternating 高乘积尾的支撑障碍与全局 atom ledger 修正](notes/232-alternating-high-product-support-obstruction.md)
 - [Aperture--depth 坐标、三次对数 collar 与幂级高乘积障碍](notes/233-aperture-depth-third-log-collar-and-power-high-no-go.md)
+- [幂级高乘积 Gabor 带通核与 core--tail 分割障碍](notes/234-power-high-gabor-bandpass-and-core-tail-no-go.md)
 - [研究分支看板](RESEARCH_BRANCHES.md)
 - [文献与证据边界](notes/003-sources.md)
 

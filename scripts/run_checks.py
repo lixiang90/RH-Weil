@@ -199,6 +199,10 @@ CHECKS = (
         "alternating aperture-depth and power-high ceiling",
         [sys.executable, "alternating_aperture_depth_audit.py"],
     ),
+    (
+        "power-high Gabor band-pass and core-tail cancellation",
+        [sys.executable, "power_high_bandpass_audit.py"],
+    ),
 )
 
 def main() -> None:

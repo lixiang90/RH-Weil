@@ -302,7 +302,7 @@ determinant-2 pairs，也不构成 fourth-moment lower bound。
 令 `P_K(X)` 为全部 distinct-base primitive ordered pairs `(a,b)`，满足
 
 \[
- 2\le a,b\le X,qquad ab\le XL^K.
+ 2\le a,b\le X,\qquad ab\le XL^K.
 \tag{18}
 \]
 
@@ -539,3 +539,22 @@ support bound替代 actual response。第一轮只取例如 `theta=3/4`，并把
 
 脚本不实现 Bettin--Chandee/Selberg sieve，也不把有限 prime samples升级为渐近
 定理。
+
+## 12. 后续修正（笔记 234）
+
+笔记 234 对 actual carrier 作逆向审计，证明在自然变量
+`t=X log(ad/bc)` 中，normalized consecutive-Gabor response 的极限是带通核
+
+\[
+ K(t)=\frac{\sin(\pi t)}{\pi t}\cos(3\pi t),
+ \qquad
+ \operatorname{supp}\widehat K=[1,2]\cup[-2,-1].
+\]
+
+其全积分为零，但 `|t|<=1` core 积分为严格正常数
+`0.023558003094...`，外层 tail 精确给相反质量。因此本笔记 233-G 中“若
+core 已产生不可消正 lower bound 就停止”的表述必须加强为：只有在同时保留
+core 与 tail 的完整频带 response 后得到 `gg N` lower bound，才能形成障碍。
+修正后的下一输入是实际 response measure 的 mesoscopic determinant
+discrepancy，或完整 band lower bound；support-only 与 positive ledger 的
+no-go 结论不受影响。
