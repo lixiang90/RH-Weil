@@ -68,6 +68,10 @@ CHECKS = (
         [sys.executable, "vaughan_brownian_schur_audit.py"],
     ),
     (
+        "Brownian common-convolution sign obstruction",
+        [sys.executable, "brownian_convolution_sign_obstruction_audit.py"],
+    ),
+    (
         "partial Weil proportions and depth visibility",
         [sys.executable, "partial_weil_audit.py"],
     ),

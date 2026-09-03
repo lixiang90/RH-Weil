@@ -417,3 +417,8 @@ bounded negative index。式 (25) 必须从 prime/continuum arithmetic独立证�
 本轮把 NCE-8 的 finite evidence从 vacuous Type-II解释中纠正出来，并把 B1 从
 decomposition-dependent `diagonal/full` 比严格替换为 cutoff-invariant physical
 prime--continuum correlation (25)。
+
+后续审计：笔记 243 证明 base prime/continuum primitives 的逐点反号不能穿过
+一般 common signed divided-difference multiplier，甚至整体内积也可翻转 [N]；
+因此 B1a 不得仅由 base atom signs 推导。新的最小步骤是 actual response 下的
+positive cross-leakage budget B1b。

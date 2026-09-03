@@ -788,6 +788,106 @@ def brownian_primitive_component_gram(
     }
 
 
+def brownian_component_cross_sign_ledger(
+    response_components: dict[str, FrequencyMap],
+    continuum_nodes: tuple[float, ...],
+    left_labels: tuple[str, ...],
+    right_label: str,
+) -> dict[str, float]:
+    """Split one physical Brownian cross integral by its pointwise sign.
+
+    The left primitive is the sum of the requested response components; the
+    right primitive is one fixed component.  Each measure is centered at lag
+    zero exactly as in :func:`brownian_primitive_component_gram`.
+    """
+    if not left_labels:
+        raise ValueError("at least one left component is required")
+    missing = [
+        label
+        for label in (*left_labels, right_label)
+        if label not in response_components
+    ]
+    if missing:
+        raise ValueError(f"unknown response components: {missing}")
+
+    def numerical_centered(labels: tuple[str, ...]) -> dict[float, complex]:
+        numerical: dict[float, complex] = {}
+        for label in labels:
+            for lag, coefficient in response_components[label].items():
+                value = lag.numerical_value(continuum_nodes)
+                numerical[value] = (
+                    numerical.get(value, 0.0 + 0.0j) + coefficient
+                )
+        total = sum(numerical.values())
+        numerical[0.0] = numerical.get(0.0, 0.0 + 0.0j) - total
+        return {
+            value: coefficient
+            for value, coefficient in numerical.items()
+            if abs(coefficient) > 1.0e-14
+        }
+
+    left = numerical_centered(left_labels)
+    right = numerical_centered((right_label,))
+    positions = sorted(set(left) | set(right))
+    left_cumulative = 0.0 + 0.0j
+    right_cumulative = 0.0 + 0.0j
+    positive_cross = 0.0
+    negative_cross = 0.0
+    left_energy = 0.0
+    right_energy = 0.0
+    positive_width = 0.0
+    negative_width = 0.0
+    zero_width = 0.0
+    maximum_positive_density = 0.0
+    minimum_cross_density = 0.0
+    for index, position in enumerate(positions):
+        left_cumulative += left.get(position, 0.0 + 0.0j)
+        right_cumulative += right.get(position, 0.0 + 0.0j)
+        if index + 1 >= len(positions):
+            continue
+        width = positions[index + 1] - position
+        cross_density = float(
+            np.real(left_cumulative * np.conjugate(right_cumulative))
+        )
+        left_energy += abs(left_cumulative) ** 2 * width
+        right_energy += abs(right_cumulative) ** 2 * width
+        maximum_positive_density = max(
+            maximum_positive_density, cross_density
+        )
+        minimum_cross_density = min(minimum_cross_density, cross_density)
+        if cross_density > 0.0:
+            positive_cross += cross_density * width
+            positive_width += width
+        elif cross_density < 0.0:
+            negative_cross += -cross_density * width
+            negative_width += width
+        else:
+            zero_width += width
+    total_variation = positive_cross + negative_cross
+    return {
+        "positive_cross": positive_cross,
+        "negative_cross": negative_cross,
+        "signed_cross": positive_cross - negative_cross,
+        "cross_variation": total_variation,
+        "positive_cross_fraction": (
+            positive_cross / total_variation if total_variation else 0.0
+        ),
+        "left_energy": left_energy,
+        "right_energy": right_energy,
+        "coherence": (
+            (positive_cross - negative_cross)
+            / math.sqrt(left_energy * right_energy)
+            if left_energy > 0.0 and right_energy > 0.0
+            else 0.0
+        ),
+        "positive_width": positive_width,
+        "negative_width": negative_width,
+        "zero_width": zero_width,
+        "maximum_positive_density": maximum_positive_density,
+        "minimum_cross_density": minimum_cross_density,
+    }
+
+
 def degree_two_centered_response_channel_maps(
     symbol_components: dict[str, FrequencyMap],
     spectral_bound: float,

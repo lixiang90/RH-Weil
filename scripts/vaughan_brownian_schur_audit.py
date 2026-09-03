@@ -36,6 +36,8 @@ def audit_schur(scale: float, integer_cutoff: int) -> None:
     if channel is None:
         raise AssertionError("degree-two Vaughan channel audit is missing")
     data = channel["channel_gram"]
+    cross_sign = channel["physical_cross_sign"]
+    base_cross_sign = channel["base_cross_sign"]
     labels = tuple(data["labels"])
     expected = ("type_i", "type_ii", "continuum")
     if labels != expected:
@@ -96,6 +98,16 @@ def audit_schur(scale: float, integer_cutoff: int) -> None:
     tolerance = 1.0e-10 * max(1.0, abs(direct_total))
     if abs(direct_total - data["total_energy"]) > tolerance:
         raise AssertionError("three-channel physical energy mismatch")
+    if abs(cross_sign["signed_cross"] - continuum_linear.real) > tolerance:
+        raise AssertionError("pointwise cross ledger does not reconstruct Gram")
+    if abs(cross_sign["left_energy"] - prime_energy) > tolerance:
+        raise AssertionError("pointwise prime energy does not reconstruct Gram")
+    if abs(cross_sign["right_energy"] - continuum_energy) > tolerance:
+        raise AssertionError("pointwise continuum energy does not reconstruct Gram")
+    if base_cross_sign["positive_cross"] > tolerance:
+        raise AssertionError("base prime/continuum primitives lost opposite sign")
+    if cross_sign["positive_cross"] <= tolerance:
+        raise AssertionError("response multiplier did not expose positive leakage")
     if abs(reconstructed_total - direct_total) > tolerance:
         raise AssertionError("continuum Schur completion failed")
     if shorted_residual < -tolerance or mismatch < -tolerance:
@@ -115,6 +127,10 @@ def audit_schur(scale: float, integer_cutoff: int) -> None:
         f"pcross/(P+C)={prime_continuum_cross/(prime_energy+continuum_energy):+.3f}, "
         f"rho_p,c={prime_continuum_coherence:+.3f}, "
         f"balance_p,c={prime_continuum_balance:.3f}, "
+        f"base-positive-frac={base_cross_sign['positive_cross_fraction']:.1e}, "
+        f"positive-cross-frac={cross_sign['positive_cross_fraction']:.3e}, "
+        f"cross-variation/(P+C)="
+        f"{cross_sign['cross_variation']/(prime_energy+continuum_energy):.3f}, "
         f"short/E={shorted_residual/direct_total:.3f}, "
         f"mismatch/E={mismatch/direct_total:.3f}, "
         f"alpha_opt={optimal_continuum_coefficient.real:+.3f}"

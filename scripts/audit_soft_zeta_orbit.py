@@ -12,6 +12,7 @@ import mpmath as mp
 import numpy as np
 
 from formal_lag_response import (
+    brownian_component_cross_sign_ledger,
     brownian_primitive_component_gram,
     cauchy_gaussian_mixture_band_ledger,
     cauchy_profile_brownian_energy_ledger,
@@ -246,6 +247,21 @@ def soft_zeta_orbit_audit(
             channel_factorization["response_components"],
             formal["continuum_nodes"],
         )
+        base_cross_sign = brownian_component_cross_sign_ledger(
+            {
+                "prime": formal["prime_map"],
+                "continuum": formal["continuum_map"],
+            },
+            formal["continuum_nodes"],
+            ("prime",),
+            "continuum",
+        )
+        physical_cross_sign = brownian_component_cross_sign_ledger(
+            channel_factorization["response_components"],
+            formal["continuum_nodes"],
+            ("type_i", "type_ii"),
+            "continuum",
+        )
         vaughan_brownian_audit = {
             "mobius_cutoff": vaughan_cutoff,
             "mangoldt_cutoff": vaughan_cutoff,
@@ -272,6 +288,8 @@ def soft_zeta_orbit_audit(
                 "maximum_reconstruction_residual"
             ],
             "channel_gram": channel_gram,
+            "base_cross_sign": base_cross_sign,
+            "physical_cross_sign": physical_cross_sign,
             "diagonal_to_full_ratio": (
                 channel_gram["diagonal_sum"] / channel_gram["total_energy"]
                 if channel_gram["total_energy"] > 0.0
