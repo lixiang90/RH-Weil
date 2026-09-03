@@ -92,6 +92,14 @@ CHECKS = (
         [sys.executable, "b1f_base_coefficient_interval_audit.py"],
     ),
     (
+        "B1g fixed-point trigonometric ledger",
+        [sys.executable, "test_b1g_fixed_intervals.py"],
+    ),
+    (
+        "B1g directed finite numerator certificate",
+        [sys.executable, "b1g_directed_numerator_interval_audit.py"],
+    ),
+    (
         "Vaughan scalarized spectral ratio capture",
         [sys.executable, "vaughan_spectral_ratio_capture_audit.py"],
     ),

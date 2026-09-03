@@ -496,6 +496,7 @@ xelatex rh-weil-structure-paper.tex
 - [Lipschitz good-cell 收敛定理与 coefficient rationalization gate](notes/246-lipschitz-good-cell-convergence-and-rationalization-gate.md)
 - [Exact lag quotient、cluster-safe Brownian 分母与 TV 稳定性](notes/247-exact-lag-quotient-and-brownian-denominator-stability.md)
 - [Rational base coefficients 与 intended Brownian 分母证书](notes/248-rational-base-coefficients-and-intended-denominator-certificate.md)
+- [Directed trigonometric numerator 与 finite overlap 证书](notes/249-directed-trigonometric-numerator-and-finite-overlap-certificate.md)
 - [研究分支看板](RESEARCH_BRANCHES.md)
 - [文献与证据边界](notes/003-sources.md)
 

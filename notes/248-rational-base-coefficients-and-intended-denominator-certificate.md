@@ -422,3 +422,7 @@ finite continuum integrals。
 本轮把 B1f 中的 denominator与 base coefficient rationalization完全闭合；唯一紧邻
 缺口已缩成 B1g 的 finite directed trigonometric numerator。scale-uniform physical
 overlap仍是其后的独立算术定理，不由本轮有限证书产生。
+
+后续：笔记 249 已以 directed trigonometric/fixed-point intervals 闭合 B1g，得到
+该固定实例的 `N_lower/D_upper>0.19` 与 physical overlap gain [T]；当前进入第二
+尺度 B1h，uniform B1a 仍为 [O]。

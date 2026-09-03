@@ -420,4 +420,5 @@ intervals；剩余输入是 base prime/continuum coefficients的统一 rational 
 good-cell trigonometric numerator。scale-uniform B1a 仍是其后的独立算术问题。
 
 后续：笔记 248 已完成 base coefficient intervals、production forward-error ledger及
-intended finite `D_upper` [T]；当前只剩 B1g directed good-cell numerator [O]。
+intended finite `D_upper` [T]；笔记 249 又完成 B1g directed good-cell numerator与
+finite overlap gain [T]。当前进入第二尺度 B1h，uniform B1a 仍为 [O]。
