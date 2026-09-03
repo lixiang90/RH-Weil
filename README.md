@@ -493,6 +493,7 @@ xelatex rh-weil-structure-paper.tex
 - [Common-convolution 符号障碍与 physical cross-variation 分解](notes/243-common-convolution-sign-obstruction-and-cross-variation.md)
 - [Symmetric Fourier 符号定理与 spectral-overlap gap 障碍](notes/244-symmetric-fourier-sign-and-spectral-overlap-no-go.md)
 - [Scalarized response spectrum、宽 ratio band 与 one-sided arc certificate](notes/245-scalarized-response-spectrum-and-one-sided-arc-certificate.md)
+- [Lipschitz good-cell 收敛定理与 coefficient rationalization gate](notes/246-lipschitz-good-cell-convergence-and-rationalization-gate.md)
 - [研究分支看板](RESEARCH_BRANCHES.md)
 - [文献与证据边界](notes/003-sources.md)
 

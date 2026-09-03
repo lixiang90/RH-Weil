@@ -372,3 +372,9 @@ bounded negative index。
 
 本轮将 B1c 从“证明整个频谱上的 uniform comparability”缩成了更弱且可独立认证的
 有限好弧 lower-bound问题。绝对 tail不够小并不阻止这条 one-sided路线。
+
+后续进展：笔记 246 从 atom first moments导出 `W_p,W_c,d-hat,Q(d-hat)` 的显式
+Lipschitz constants，证明 midpoint verified-cell lower sums在 mesh趋零时恢复全部
+strict-good energy [T]。浮点网格从 `0.01` 加密到 `0.005` 后，宽 band lower/exact
+由 `0.0988/0.0252` 增至 `0.1999/0.1645` [E]。下一 gate是把 coefficients、lags、
+trigonometric values与 exact denominator全部 rational interval化。

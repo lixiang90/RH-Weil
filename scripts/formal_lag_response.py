@@ -968,6 +968,26 @@ def symmetric_spectral_ratio_capture_quadrature(
         * (prime_nonzero_mass**2 + continuum_nonzero_mass**2)
         / (math.pi * frequency_cutoff)
     )
+    prime_lipschitz = float(
+        np.sum(np.abs(prime_coefficients) * np.abs(prime_positions))
+    )
+    continuum_lipschitz = float(
+        np.sum(
+            np.abs(continuum_coefficients) * np.abs(continuum_positions)
+        )
+    )
+    symbol_lipschitz = float(
+        np.sum(np.abs(symbol_coefficients) * np.abs(symbol_positions))
+    )
+    divided_difference_derivative_supremum = (
+        4.0 * symbol_variation**3
+        + 3.0 * abs(total_mass - 2.0 * level) * symbol_variation**2
+        + 2.0 * abs(total_mass - level) ** 2 * symbol_variation
+        + abs(total_mass) * abs(total_mass - level) ** 2
+    )
+    divided_difference_lipschitz = (
+        divided_difference_derivative_supremum * symbol_lipschitz
+    )
 
     sample_count = int(math.ceil(frequency_cutoff / frequency_step))
     prime_energy = 0.0
@@ -975,6 +995,8 @@ def symmetric_spectral_ratio_capture_quadrature(
     cross = 0.0
     total_energy = 0.0
     band_energies = np.zeros(len(ratio_bands), dtype=float)
+    lipschitz_band_lower_energies = np.zeros(len(ratio_bands), dtype=float)
+    lipschitz_verified_widths = np.zeros(len(ratio_bands), dtype=float)
     maximum_prime_imaginary = 0.0
     maximum_continuum_imaginary = 0.0
     minimum_prime_symbol = math.inf
@@ -1027,10 +1049,44 @@ def symmetric_spectral_ratio_capture_quadrature(
         continuum_energy += float(np.sum(continuum_density)) * frequency_step
         cross -= float(np.sum(cross_density)) * frequency_step
         total_energy += float(np.sum(energy_density)) * frequency_step
+        radius = 0.5 * frequency_step
+        wp_error = prime_lipschitz * radius + 1.0e-12 * max(
+            1.0, prime_nonzero_mass
+        )
+        wc_error = continuum_lipschitz * radius + 1.0e-12 * max(
+            1.0, continuum_nonzero_mass
+        )
+        q_error = divided_difference_lipschitz * radius + 1.0e-12 * max(
+            1.0, divided_difference_supremum
+        )
+        wp_lower = np.maximum(0.0, wp - wp_error)
+        wp_upper = wp + wp_error
+        wc_lower = np.maximum(0.0, wc - wc_error)
+        wc_upper = wc + wc_error
+        q_lower = np.maximum(0.0, np.abs(divided_difference_hat) - q_error)
+        lower_weight = (
+            response_weight
+            * q_lower**2
+            / (math.pi * (frequencies + radius) ** 2)
+        )
+        lower_density = (wp_lower**2 + wc_lower**2) * lower_weight
         for index, (lower, upper) in enumerate(ratio_bands):
             mask = (wp >= lower * wc) & (wp <= upper * wc)
             band_energies[index] += (
                 float(np.sum(energy_density[mask])) * frequency_step
+            )
+            verified = (
+                (wp_lower >= lower * wc_upper)
+                & (wp_upper <= upper * wc_lower)
+                & (wp_lower > 0.0)
+                & (wc_lower > 0.0)
+                & (q_lower > 0.0)
+            )
+            lipschitz_band_lower_energies[index] += (
+                float(np.sum(lower_density[verified])) * frequency_step
+            )
+            lipschitz_verified_widths[index] += (
+                float(np.count_nonzero(verified)) * frequency_step
             )
 
     return {
@@ -1047,6 +1103,12 @@ def symmetric_spectral_ratio_capture_quadrature(
             float(value / total_energy) if total_energy else 0.0
             for value in band_energies
         ),
+        "lipschitz_band_lower_energies": tuple(
+            float(value) for value in lipschitz_band_lower_energies
+        ),
+        "lipschitz_verified_widths": tuple(
+            float(value) for value in lipschitz_verified_widths
+        ),
         "maximum_prime_imaginary": maximum_prime_imaginary,
         "maximum_continuum_imaginary": maximum_continuum_imaginary,
         "minimum_prime_symbol": minimum_prime_symbol,
@@ -1056,6 +1118,9 @@ def symmetric_spectral_ratio_capture_quadrature(
         "symbol_variation": symbol_variation,
         "divided_difference_supremum_bound": divided_difference_supremum,
         "absolute_diagonal_tail_bound": absolute_diagonal_tail_bound,
+        "prime_lipschitz": prime_lipschitz,
+        "continuum_lipschitz": continuum_lipschitz,
+        "divided_difference_lipschitz": divided_difference_lipschitz,
     }
 
 

@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import argparse
 import numpy as np
 
 from audit_soft_zeta_orbit import soft_zeta_orbit_audit
@@ -11,7 +12,12 @@ from formal_lag_response import symmetric_spectral_ratio_capture_quadrature
 RATIO_BANDS = ((0.25, 4.0), (0.5, 2.0), (0.75, 4.0 / 3.0))
 
 
-def audit_capture(scale: float, integer_cutoff: int, lag_cells: int) -> None:
+def audit_capture(
+    scale: float,
+    integer_cutoff: int,
+    lag_cells: int,
+    frequency_step: float,
+) -> None:
     audit = soft_zeta_orbit_audit(
         scale=scale,
         integer_cutoff=integer_cutoff,
@@ -26,7 +32,7 @@ def audit_capture(scale: float, integer_cutoff: int, lag_cells: int) -> None:
         **spectral,
         ratio_bands=RATIO_BANDS,
         frequency_cutoff=256.0,
-        frequency_step=0.01,
+        frequency_step=frequency_step,
     )
     gram = np.asarray(channel["channel_gram"]["gram"], dtype=complex)
     physical_prime = np.ones(2, dtype=complex)
@@ -57,13 +63,20 @@ def audit_capture(scale: float, integer_cutoff: int, lag_cells: int) -> None:
     exact_captures = tuple(
         energy / exact_diagonal for energy in quadrature["band_energies"]
     )
+    lower_captures = tuple(
+        energy / exact_diagonal
+        for energy in quadrature["lipschitz_band_lower_energies"]
+    )
     print(
-        f"scale={scale:>4.0f}, cutoff={integer_cutoff:>2d}, cells={lag_cells:>2d}: "
+        f"scale={scale:>4.0f}, cutoff={integer_cutoff:>2d}, "
+        f"cells={lag_cells:>2d}, step={frequency_step:.4f}: "
         f"spectral/exact={coverage:.5f}, cross-coverage={cross_coverage:.5f}, "
         f"capture[1/4,4]/exact={exact_captures[0]:.5f}, "
         f"capture[1/2,2]/exact={exact_captures[1]:.5f}, "
         f"capture[3/4,4/3]/exact={exact_captures[2]:.5f}, "
         f"truncated-wide={captures[0]:.5f}, "
+        f"Lipschitz-lower-wide={lower_captures[0]:.5f}, "
+        f"verified-width={quadrature['lipschitz_verified_widths'][0]:.2f}, "
         f"crude-tail/exact="
         f"{quadrature['absolute_diagonal_tail_bound']/exact_diagonal:.3e}",
         flush=True,
@@ -71,11 +84,16 @@ def audit_capture(scale: float, integer_cutoff: int, lag_cells: int) -> None:
 
 
 def main() -> None:
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--step", type=float, default=0.005)
+    arguments = parser.parse_args()
+    if arguments.step <= 0.0:
+        raise ValueError("step must be positive")
     for scale, integer_cutoff, lag_cells in (
         (8.0, 10, 4),
         (16.0, 15, 4),
     ):
-        audit_capture(scale, integer_cutoff, lag_cells)
+        audit_capture(scale, integer_cutoff, lag_cells, arguments.step)
     print("Vaughan spectral ratio-capture audits passed")
     print("[scope] finite quadrature evidence only; no uniform asymptotic")
 
