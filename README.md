@@ -492,6 +492,7 @@ xelatex rh-weil-structure-paper.tex
 - [Vaughan cutoff vacuity、physical quotient invariance 与 continuum Schur](notes/242-vaughan-cutoff-vacuity-and-physical-schur.md)
 - [Common-convolution 符号障碍与 physical cross-variation 分解](notes/243-common-convolution-sign-obstruction-and-cross-variation.md)
 - [Symmetric Fourier 符号定理与 spectral-overlap gap 障碍](notes/244-symmetric-fourier-sign-and-spectral-overlap-no-go.md)
+- [Scalarized response spectrum、宽 ratio band 与 one-sided arc certificate](notes/245-scalarized-response-spectrum-and-one-sided-arc-certificate.md)
 - [研究分支看板](RESEARCH_BRANCHES.md)
 - [文献与证据边界](notes/003-sources.md)
 

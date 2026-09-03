@@ -409,3 +409,9 @@ bounded negative index。
 本轮把 B1 的“统一负 correlation”分成两层：其**符号**由 two-sided explicit
 formula结构无条件给出；其**强度**完全等于 actual common multiplier权下的 spectral
 overlap。定理 244-C 证明两层之间没有抽象捷径。
+
+后续进展：笔记 245 将 degree-two multiplier逐 Fourier character精确标量化为
+`Q(d-hat)`，并证明只需在有限个 verified good arcs上取得相对于 exact Brownian
+diagonal的 one-sided lower bound，无需控制整个高频尾 [T]。finite 数据支持宽
+`[1/4,4]` ratio band，而 ratio 1附近的窄 band已停止 [E]；下一引理为 interval
+good-arc certificate B1d。

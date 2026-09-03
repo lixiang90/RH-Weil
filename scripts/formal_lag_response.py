@@ -888,6 +888,177 @@ def brownian_component_cross_sign_ledger(
     }
 
 
+def symmetric_spectral_ratio_capture_quadrature(
+    prime_component: FrequencyMap,
+    continuum_component: FrequencyMap,
+    common_symbol: FrequencyMap,
+    continuum_nodes: tuple[float, ...],
+    total_mass: complex,
+    level: float,
+    response_scalar: complex,
+    ratio_bands: tuple[tuple[float, float], ...],
+    frequency_cutoff: float = 256.0,
+    frequency_step: float = 0.01,
+) -> dict[str, object]:
+    """Quadrature the symmetric spectral-overlap ledger on positive frequency.
+
+    The centered prime and continuum transforms are expected to be real with
+    opposite signs.  For the degree-two divided difference Q, this integrates
+
+        W_p^2, W_c^2, -W_p W_c
+
+    against |response_scalar Q(d_hat)|^2 dxi/(pi xi^2).  The factor 1/pi
+    includes the equal negative-frequency half.  This is finite numerical
+    evidence; exact Brownian energies should be supplied by the caller for an
+    independent tail/normalization check.
+    """
+    if frequency_cutoff <= 0.0 or frequency_step <= 0.0:
+        raise ValueError("frequency cutoff and step must be positive")
+    if not ratio_bands:
+        raise ValueError("at least one ratio band is required")
+    for lower, upper in ratio_bands:
+        if not 0.0 < lower <= upper:
+            raise ValueError("ratio bands must lie in (0,infinity)")
+
+    def numerical_atoms(source: FrequencyMap) -> tuple[np.ndarray, np.ndarray]:
+        grouped: dict[float, complex] = {}
+        for lag, coefficient in source.items():
+            position = lag.numerical_value(continuum_nodes)
+            grouped[position] = grouped.get(position, 0.0 + 0.0j) + coefficient
+        positions = np.asarray(tuple(grouped), dtype=float)
+        coefficients = np.asarray(tuple(grouped.values()), dtype=complex)
+        return positions, coefficients
+
+    prime_positions, prime_coefficients = numerical_atoms(prime_component)
+    continuum_positions, continuum_coefficients = numerical_atoms(
+        continuum_component
+    )
+    symbol_positions, symbol_coefficients = numerical_atoms(common_symbol)
+    prime_mass = np.sum(prime_coefficients)
+    continuum_mass = np.sum(continuum_coefficients)
+    total_mass = complex(total_mass)
+    level = float(level)
+    response_weight = abs(complex(response_scalar)) ** 2
+    prime_nonzero_mass = float(
+        np.sum(np.abs(prime_coefficients[np.abs(prime_positions) > 1.0e-15]))
+    )
+    continuum_nonzero_mass = float(
+        np.sum(
+            np.abs(
+                continuum_coefficients[
+                    np.abs(continuum_positions) > 1.0e-15
+                ]
+            )
+        )
+    )
+    symbol_variation = float(np.sum(np.abs(symbol_coefficients)))
+    divided_difference_supremum = (
+        symbol_variation**4
+        + abs(total_mass - 2.0 * level) * symbol_variation**3
+        + abs(total_mass - level) ** 2 * symbol_variation**2
+        + abs(total_mass)
+        * abs(total_mass - level) ** 2
+        * symbol_variation
+        + abs(total_mass) ** 2 * abs(total_mass - level) ** 2
+    )
+    absolute_diagonal_tail_bound = (
+        response_weight
+        * divided_difference_supremum**2
+        * 4.0
+        * (prime_nonzero_mass**2 + continuum_nonzero_mass**2)
+        / (math.pi * frequency_cutoff)
+    )
+
+    sample_count = int(math.ceil(frequency_cutoff / frequency_step))
+    prime_energy = 0.0
+    continuum_energy = 0.0
+    cross = 0.0
+    total_energy = 0.0
+    band_energies = np.zeros(len(ratio_bands), dtype=float)
+    maximum_prime_imaginary = 0.0
+    maximum_continuum_imaginary = 0.0
+    minimum_prime_symbol = math.inf
+    minimum_continuum_symbol = math.inf
+    chunk_size = 4096
+    for start in range(0, sample_count, chunk_size):
+        stop = min(sample_count, start + chunk_size)
+        frequencies = (np.arange(start, stop, dtype=float) + 0.5) * frequency_step
+
+        def evaluate(positions: np.ndarray, coefficients: np.ndarray) -> np.ndarray:
+            phases = np.exp(-1j * frequencies[:, None] * positions[None, :])
+            return phases @ coefficients
+
+        prime_hat = evaluate(prime_positions, prime_coefficients) - prime_mass
+        continuum_hat = (
+            evaluate(continuum_positions, continuum_coefficients)
+            - continuum_mass
+        )
+        symbol_hat = evaluate(symbol_positions, symbol_coefficients)
+        divided_difference_hat = (
+            symbol_hat**4
+            + (total_mass - 2.0 * level) * symbol_hat**3
+            + (total_mass - level) ** 2 * symbol_hat**2
+            + total_mass * (total_mass - level) ** 2 * symbol_hat
+            + total_mass**2 * (total_mass - level) ** 2
+        )
+        maximum_prime_imaginary = max(
+            maximum_prime_imaginary, float(np.max(np.abs(prime_hat.imag)))
+        )
+        maximum_continuum_imaginary = max(
+            maximum_continuum_imaginary,
+            float(np.max(np.abs(continuum_hat.imag))),
+        )
+        wp = -prime_hat.real
+        wc = continuum_hat.real
+        minimum_prime_symbol = min(minimum_prime_symbol, float(np.min(wp)))
+        minimum_continuum_symbol = min(
+            minimum_continuum_symbol, float(np.min(wc))
+        )
+        weight = (
+            response_weight
+            * np.abs(divided_difference_hat) ** 2
+            / (math.pi * frequencies**2)
+        )
+        prime_density = wp**2 * weight
+        continuum_density = wc**2 * weight
+        cross_density = wp * wc * weight
+        energy_density = prime_density + continuum_density
+        prime_energy += float(np.sum(prime_density)) * frequency_step
+        continuum_energy += float(np.sum(continuum_density)) * frequency_step
+        cross -= float(np.sum(cross_density)) * frequency_step
+        total_energy += float(np.sum(energy_density)) * frequency_step
+        for index, (lower, upper) in enumerate(ratio_bands):
+            mask = (wp >= lower * wc) & (wp <= upper * wc)
+            band_energies[index] += (
+                float(np.sum(energy_density[mask])) * frequency_step
+            )
+
+    return {
+        "frequency_cutoff": frequency_cutoff,
+        "frequency_step": frequency_step,
+        "sample_count": sample_count,
+        "prime_energy": prime_energy,
+        "continuum_energy": continuum_energy,
+        "cross": cross,
+        "diagonal_energy": total_energy,
+        "ratio_bands": ratio_bands,
+        "band_energies": tuple(float(value) for value in band_energies),
+        "band_capture_fractions": tuple(
+            float(value / total_energy) if total_energy else 0.0
+            for value in band_energies
+        ),
+        "maximum_prime_imaginary": maximum_prime_imaginary,
+        "maximum_continuum_imaginary": maximum_continuum_imaginary,
+        "minimum_prime_symbol": minimum_prime_symbol,
+        "minimum_continuum_symbol": minimum_continuum_symbol,
+        "prime_nonzero_mass": prime_nonzero_mass,
+        "continuum_nonzero_mass": continuum_nonzero_mass,
+        "symbol_variation": symbol_variation,
+        "divided_difference_supremum_bound": divided_difference_supremum,
+        "absolute_diagonal_tail_bound": absolute_diagonal_tail_bound,
+    }
+
+
 def degree_two_centered_response_channel_maps(
     symbol_components: dict[str, FrequencyMap],
     spectral_bound: float,

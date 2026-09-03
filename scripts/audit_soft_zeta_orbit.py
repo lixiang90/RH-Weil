@@ -290,6 +290,17 @@ def soft_zeta_orbit_audit(
             "channel_gram": channel_gram,
             "base_cross_sign": base_cross_sign,
             "physical_cross_sign": physical_cross_sign,
+            "spectral_overlap_data": {
+                "prime_component": formal["prime_map"],
+                "continuum_component": formal["continuum_map"],
+                "common_symbol": channel_factorization["symbol"],
+                "continuum_nodes": formal["continuum_nodes"],
+                "total_mass": channel_factorization["total_mass"],
+                "level": channel_factorization["level"],
+                "response_scalar": -(
+                    channel_factorization["polynomial_factor"] ** 2
+                ),
+            },
             "diagonal_to_full_ratio": (
                 channel_gram["diagonal_sum"] / channel_gram["total_energy"]
                 if channel_gram["total_energy"] > 0.0

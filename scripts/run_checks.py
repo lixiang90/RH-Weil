@@ -76,6 +76,10 @@ CHECKS = (
         [sys.executable, "symmetric_spectral_overlap_no_go_audit.py"],
     ),
     (
+        "Vaughan scalarized spectral ratio capture",
+        [sys.executable, "vaughan_spectral_ratio_capture_audit.py"],
+    ),
+    (
         "partial Weil proportions and depth visibility",
         [sys.executable, "partial_weil_audit.py"],
     ),
