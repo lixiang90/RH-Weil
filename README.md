@@ -494,6 +494,7 @@ xelatex rh-weil-structure-paper.tex
 - [Symmetric Fourier 符号定理与 spectral-overlap gap 障碍](notes/244-symmetric-fourier-sign-and-spectral-overlap-no-go.md)
 - [Scalarized response spectrum、宽 ratio band 与 one-sided arc certificate](notes/245-scalarized-response-spectrum-and-one-sided-arc-certificate.md)
 - [Lipschitz good-cell 收敛定理与 coefficient rationalization gate](notes/246-lipschitz-good-cell-convergence-and-rationalization-gate.md)
+- [Exact lag quotient、cluster-safe Brownian 分母与 TV 稳定性](notes/247-exact-lag-quotient-and-brownian-denominator-stability.md)
 - [研究分支看板](RESEARCH_BRANCHES.md)
 - [文献与证据边界](notes/003-sources.md)
 

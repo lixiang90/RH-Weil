@@ -76,6 +76,10 @@ CHECKS = (
         [sys.executable, "symmetric_spectral_overlap_no_go_audit.py"],
     ),
     (
+        "Brownian interval denominator and TV perturbation",
+        [sys.executable, "test_brownian_interval_certificate.py"],
+    ),
+    (
         "Vaughan scalarized spectral ratio capture",
         [sys.executable, "vaughan_spectral_ratio_capture_audit.py"],
     ),

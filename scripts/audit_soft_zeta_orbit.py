@@ -38,6 +38,11 @@ from qw_matrix import (
 from soft_negative_moment import chebyshev_soft_series
 
 
+def _mp_parameter(value: float | mp.mpf) -> mp.mpf:
+    """Preserve the decimal intent of public floating-point parameters."""
+    return mp.mpf(repr(value)) if isinstance(value, float) else mp.mpf(value)
+
+
 def soft_zeta_orbit_audit(
     *,
     scale: float,
@@ -51,11 +56,11 @@ def soft_zeta_orbit_audit(
     near_cutoff: float = 0.5,
 ) -> dict[str, object]:
     data = zeta_abel_shared_lag_loewner_quadrature(
-        horizontal_offset=mp.mpf(horizontal_offset),
-        scale=mp.mpf(scale),
+        horizontal_offset=_mp_parameter(horizontal_offset),
+        scale=_mp_parameter(scale),
         integer_cutoff=integer_cutoff,
-        lag_start=mp.mpf(lag_start),
-        lag_end=mp.mpf(lag_end),
+        lag_start=_mp_parameter(lag_start),
+        lag_end=_mp_parameter(lag_end),
         lag_cells=lag_cells,
         geometric_mesh=False,
         compute_loewner_relaxation=False,
