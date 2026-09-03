@@ -251,6 +251,24 @@ def audit_pullback(limit: int, cutoff_exponent: float = 0.25) -> None:
         sum(value * value for block in dyadic_blocks for value in block)
     )
     dyadic_cauchy_bound = block_count * dyadic_l2
+    near_signed = 0.0
+    separated_signed = 0.0
+    near_l1 = 0.0
+    separated_l1 = 0.0
+    separated_l2_squared = 0.0
+    for row, block in enumerate(dyadic_blocks):
+        for column, value in enumerate(block):
+            if abs(row - column) <= 1:
+                near_signed += value
+                near_l1 += abs(value)
+            else:
+                separated_signed += value
+                separated_l1 += abs(value)
+                separated_l2_squared += value * value
+    if abs(near_signed + separated_signed - direct_response) > (
+        1.0e-9 * max(1.0, abs(direct_response))
+    ):
+        raise AssertionError("near/separated dyadic split failed")
     if dyadic_l1 + 1.0e-14 < abs(direct_response):
         raise AssertionError("dyadic signed-block majorant failed")
     if dyadic_cauchy_bound + 1.0e-14 < abs(direct_response):
@@ -274,6 +292,10 @@ def audit_pullback(limit: int, cutoff_exponent: float = 0.25) -> None:
         f"retention={relative_retention:.3e}, "
         f"dyadic-l1/L^4={dyadic_l1/length**4:.3e}, "
         f"dyadic-Cauchy/L^4={dyadic_cauchy_bound/length**4:.3e}, "
+        f"far-signed/L^4={separated_signed/length**4:+.3e}, "
+        f"far-l1/L^4={separated_l1/length**4:.3e}, "
+        f"far-l2^2/L^6={separated_l2_squared/length**6:.3e}, "
+        f"far-l2-share={separated_l2_squared/(dyadic_l2**2):.3e}, "
         f"crude/Abel-abs={crude_variation_bound/weighted_variation:.3e}"
     )
 

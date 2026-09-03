@@ -448,3 +448,13 @@ Hardy--Littlewood 四素数渐近、Weil positivity、谱酉性或 bounded negat
 本轮把 A1t 的风险点严格定性：quotient 后的 Möbius kernel不是新的 positivity，
 而是 original response 的 pullback。可继续的非循环输入只剩 actual
 adjacent-divisor dyadic dispersion，而非普通 Mertens bound或 full operator norm。
+
+## 11. 后续 separated-block 止损（笔记 241）
+
+笔记 241 证明任意相隔很远的 divisor columns仍可通过 common multiple共享同一
+numerator row；positive rank-one row test因而排除仅由 divisor distance与 synthesis
+推出 off-block Schur decay。actual finite block matrix中 separated signed part在四个
+尺度均大于最终 physical response，并与 near blocks发生反号抵消。因此本笔记
+式 (28)--(29) 保持为有效充分条件，但不再作为优先 arithmetic lemma；A1u 独立
+远块路线停止，后续必须在每个 physical determinant/frequency fiber 内先合并全部
+divisor blocks。
