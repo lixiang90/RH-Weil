@@ -43,6 +43,7 @@ def soft_zeta_orbit_audit(
     integer_cutoff: int,
     lag_cells: int,
     degree: int,
+    vaughan_cutoff: int | None = None,
     horizontal_offset: float = 0.1,
     lag_start: float = 0.03,
     lag_end: float = 2.0,
@@ -187,7 +188,17 @@ def soft_zeta_orbit_audit(
     )
     vaughan_brownian_audit = None
     if response_map is not None:
-        vaughan_cutoff = max(1, int(math.isqrt(integer_cutoff)))
+        if vaughan_cutoff is None:
+            # A simultaneous square-root cutoff makes Type II vacuous:
+            # (U+1)(V+1)>N.  The balanced cube-root choice leaves a genuine
+            # Type-II range and is the relevant finite channel audit.
+            vaughan_cutoff = max(1, int(integer_cutoff ** (1.0 / 3.0)))
+            while (vaughan_cutoff + 1) ** 3 <= integer_cutoff:
+                vaughan_cutoff += 1
+            while vaughan_cutoff**3 > integer_cutoff:
+                vaughan_cutoff -= 1
+        if not 1 <= vaughan_cutoff <= integer_cutoff:
+            raise ValueError("Vaughan cutoff must lie in [1, integer_cutoff]")
         vaughan = canonical_vaughan_two_channel_coefficients(
             integer_cutoff, vaughan_cutoff, vaughan_cutoff
         )

@@ -489,6 +489,7 @@ xelatex rh-weil-structure-paper.tex
 - [Vaughan quotient-first centering 与 Möbius divisor response kernel](notes/239-vaughan-quotient-first-centering-and-divisor-kernel.md)
 - [Möbius pullback、相邻 divisor columns 与带符号 dyadic dispersion](notes/240-mobius-pullback-adjacent-divisor-dispersion.md)
 - [Divisor-scale separation no-go 与 physical-fiber-first 原则](notes/241-divisor-scale-separation-no-go.md)
+- [Vaughan cutoff vacuity、physical quotient invariance 与 continuum Schur](notes/242-vaughan-cutoff-vacuity-and-physical-schur.md)
 - [研究分支看板](RESEARCH_BRANCHES.md)
 - [文献与证据边界](notes/003-sources.md)
 

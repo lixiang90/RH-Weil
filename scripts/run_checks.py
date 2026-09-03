@@ -64,6 +64,10 @@ CHECKS = (
         [sys.executable, "audit_soft_zeta_orbit.py"],
     ),
     (
+        "nonvacuous Vaughan--Brownian physical Schur completion",
+        [sys.executable, "vaughan_brownian_schur_audit.py"],
+    ),
+    (
         "partial Weil proportions and depth visibility",
         [sys.executable, "partial_weil_audit.py"],
     ),

@@ -1,5 +1,13 @@
 # NCE-8：response-specific Vaughan--Brownian channel Gram
 
+> **2026-09-03 审计修正（笔记 242）**：本笔记有限表采用
+> `U=V=floor(sqrt N)`；由 Type-II exact support floor
+> `(U+1)(V+1)>N`，这些实验中的 Type-II channel恒为零。因此表中
+> `diagonal/full=1.95--3.36` 只验证 prime--continuum cancellation，不能作为
+> Type-I--Type-II cross evidence。AHE--AHG 的有限代数恒等式保持正确。笔记 242
+> 已用 `U=V=floor(N^(1/3))` 重算非空 Type-II Gram，并把目标改为 cutoff-invariant
+> physical prime--continuum correlation。
+
 文档 194 把 degree-two canonical response 的 direct Cauchy 控制压缩为一个
 constant mode 与一个 Brownian primitive energy。本笔记完成下一步代数分解：
 对任意 exact Type I/II（以及 continuum）分通道，不展开五个多项式因子的所有
@@ -289,3 +297,16 @@ degree-two Brownian certificate 已获得一个 exact Vaughan channelization。
 估计在 Chebyshev normalization 下尺度中性；突破必须来自算术 cross-channel
 geometry，而不是更粗的 coefficient norm。
 
+## 8. 后续 cutoff 与 quotient 修正（笔记 242）
+
+笔记 242 证明 simultaneous square-root cutoff使 `II_(U,V)(n)` 在全部 `n<=N`
+恒为零，故本笔记第 4 节的旧有限表不能支持 Type-I/II cancellation。修正后的
+cube-root cutoff给非零 Type-II energy，且 finite Type-I/II coherence约为
+`-0.91` 到 `-0.94`；仅记 [E]。
+
+更重要的是，common divided-difference map的线性性给
+`u_I+u_II=u_p`，所以 physical prime energy、prime--continuum cross与 full energy
+均与 cutoff无关，而三通道 diagonal sum可由 split gauge任意放大 [T/N]。因此
+本笔记原先以 diagonal/full 描述的“改善”降为 decomposition diagnostic；新的
+intrinsic [O] 是在 physical quotient 上证明 uniform negative
+prime--continuum correlation，详见笔记 242-(25)。

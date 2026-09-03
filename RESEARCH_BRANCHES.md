@@ -13,7 +13,7 @@
 | NCE-5 | 备用线 | one-prime/one-block extension，预算增量可和 | extension 不调用完整 Weil positivity | 观察 |
 | NCE-6 | 备用线 | bounded-resolvent/negative-trace 的 ultraproduct 稳定性 | 先独立得到统一预算 `C` | 观察 |
 | NCE-7 | 非构造主线 | short-word effects 对实际 negative level sets 的 response-weighted capture | capture error共尾可和且不调用 Selberg/RH 等价输入 | degree-one universal moment route 已 sharp no-go |
-| NCE-8 | 当前主线 | 在一个 fixed square-root Vaughan rectangle 上，对 actual Type-I/II/continuum all-ones response证明 response-specific Schur improvement | improvement有 uniform analytic proof，且不退回 diagonal Selberg energies或 arbitrary coefficients | exact divided-difference channelization已完成；有限 cross cancellation使 diagonal/full为1.95--3.36；MOM-1 divisor-separation 子路线已止损后转入本线 |
+| NCE-8 | 当前主线 | 在一个 fixed response rectangle 上，以非空 Vaughan cutoff证明 cutoff-invariant physical inequality `Re<u_p,u_c><=-delta(||u_p||^2+||u_c||^2)` | `delta>0` 有 uniform analytic proof，保留 actual prime/continuum multiplier且不退回 arbitrary coefficients | 旧 square-root cutoff的 Type II严格为空；修正 cube-root audit中 `rho_(I,II)=-0.91...-0.94`，总体 gain主要来自 prime--continuum；diagonal/full 已判定非内禀 |
 | NCE-9 | 非构造补全 | 把 finite Cauchy-translate Schur block写成 joint signed Type I/II large-sieve form | uniform finite-block budget只用 length-side数据且弱于完整 RH criterion | finite satisfiability compactness与Gram/Schur判据已完成；33 translates捕获约23% package norm |
 | MOM-1 | 四矩观察线 | 只在出现新的 actual determinant-correlation input 时恢复；不得继续增加 Möbius/divisor kernel 表示 | 新输入必须在 physical fiber 内先合并全部 divisor blocks，并直接给 `o(L^4)` global ledger | exact band/mass已闭合；cumulative、band energy、channel mass、raw pullback与 divisor separation五条候选证书均已 theorem/no-go；条件比例仍为 0.7569027 / 0.8784513 |
 | NCE-10 | 非构造补全 | 增长的 arithmetic mixed localizers 与 divisor-visible resolvent closure | 每个有限 word level 近正且 Archimedean 有界，闭包恢复 divisor | scalar fourth moments 有 65 维严格 no-go；finite-satisfiability completion 已证明 |
@@ -58,8 +58,8 @@
 ### 路线 B / NCE-8：Vaughan--Brownian 响应预条件（长期主线）
 
 - **目标**：利用 Type I、Type II 与 continuum/Gamma 通道之间的真实交叉抵消，证明 square-root Vaughan rectangle 上的统一增益。
-- **当前基础**：已有精确响应分解和有限矩阵实验；full Gram 相对于 diagonal budget 显示出显著改善，但尚未证明该改善在尺度增长时保持。
-- **最小引理 B1**：固定一个平方根矩形和一个物理响应方向，写出完整 Type I/II/continuum Gram，并证明严格小于 `1`、与尺度无关的 response-specific Schur 因子。
+- **当前基础**：exact divided-difference response与 Brownian Gram保持成立。笔记 242 发现旧 `U=V=floor(sqrt N)` 实验的 Type II严格为空；修正为 cube-root cutoff后 Type-II非零并与 Type-I强负相关，但三通道 diagonal/full 比依 decomposition改变。cutoff-invariant quantities 是合并 prime vector `u_p`、continuum vector `u_c` 及其 physical energy。
+- **最小引理 B1a**：固定一个 response rectangle与非空 Vaughan cutoff，直接从 prime/continuum coefficients证明 `Re<u_p,u_c><=-delta(||u_p||^2+||u_c||^2)`，其中 `delta>0` 与尺度无关。Type-I/II 只作为估计 `u_p` 的内部坐标，不能分别取绝对值。
 - **算术边界**：不得用任意系数 Bessel 界替代实际响应估计；必须保留交叉项，并单独控制 continuum 和 Gamma 通道。
 - **晋级条件**：解析证明有限实验中的增益不会随尺度消失，并将其转化为第二矩、负迹或截断 Weil 二次型的严格改善。
 - **止损条件**：若尺度中性的下界迫使 Schur 因子趋于 `1`，或者 continuum 项必然抵消全部收益，则停止该参数族，不再增加新的核表示。
@@ -149,6 +149,8 @@
 - Git branch 仍按交付任务管理；这里的 ID 表示数学思路分支，不强制创建长期 Git branch。
 
 ## 本轮分支成果
+
+- [Vaughan cutoff vacuity、physical quotient invariance 与 continuum Schur](notes/242-vaughan-cutoff-vacuity-and-physical-schur.md)：证明 exact Type-II support下界为 `(U+1)(V+1)`，所以旧 simultaneous square-root cutoff在 `n<=N` 上严格 vacuous [T]，撤销笔记 195 旧表的 Type-I/II evidence解释。common divided-difference response的线性性给 `u_I+u_II=u_p`，故 physical prime/continuum二通道 Gram与 cutoff无关；三通道 diagonal可由 split gauge任意放大 [T/N]。对 physical vector作 continuum Schur completion，把能量精确分成 shorted residual与 actual-coefficient mismatch，并证明只控其中一项不足 [T/N]。cube-root cutoff重算得到非零 Type-II、`rho_(I,II)=-0.91...-0.94`，总体负 cross仍主要来自 prime--continuum [E]。下一引理改为 cutoff-invariant uniform negative physical correlation。
 
 - [Divisor-scale separation no-go 与 physical-fiber-first 原则](notes/241-divisor-scale-separation-no-go.md)：对任意 `r,s` 与 prime power `p>V`，取 `a=lcm(r,s)p`，则 Vaughan synthesis columns `T_r,T_s` 在同一 numerator row 上均至少含 `Lambda(p)`；以该 row 的 positive rank-one form得到不随 divisor distance衰减的 cross response [T/N]。对每个 actual determinant/frequency fiber，全部 dyadic blocks先求和精确恢复 `Lambda^*B_qLambda` [T]，而 decomposition-preserving gauge可令 blockwise absolute Gram budget二次发散 [N]。finite centered data中 separated block平方能量占 `9%--44%`，其 signed part在所有尺度都大于最终 response并与 near blocks反号抵消 [E]。因此 A1u 远块路线停止，234--241 周期结束；主力切换到 NCE-8 actual Vaughan--Brownian physical Gram。
 

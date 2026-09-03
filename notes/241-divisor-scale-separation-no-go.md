@@ -64,7 +64,7 @@ MOM-1 保留，但不再通过增加 divisor-coordinate 分解推进。本笔记
 在 `T_(a,r)` 中取
 
 \[
- v=p,qquad w=\ell/r;
+ v=p,\qquad w=\ell/r;
 \]
 
 在 `T_(a,s)` 中取 `v=p,w=ell/s`。两组都是式 (2) 的 admissible tuples，且
@@ -188,7 +188,7 @@ determinant/Gabor/window structure，不能来自 divisor block geometry本身�
 若存在 `h` 使 `h^*Bh ne0`，则保持式 (12) 不变的替换
 
 \[
- Z_1^{(R)}=Z_1+Rh,qquad
+ Z_1^{(R)}=Z_1+Rh,\qquad
  Z_2^{(R)}=Z_2-Rh
 \tag{13}
 \]
