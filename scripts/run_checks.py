@@ -227,6 +227,10 @@ CHECKS = (
         "power-high physical one-factor Vaughan channels",
         [sys.executable, "power_high_physical_vaughan_channel_audit.py"],
     ),
+    (
+        "centered Mobius divisor pullback and dyadic Abel blocks",
+        [sys.executable, "mobius_divisor_pullback_audit.py"],
+    ),
 )
 
 def main() -> None:

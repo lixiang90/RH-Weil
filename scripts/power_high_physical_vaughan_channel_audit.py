@@ -193,7 +193,9 @@ def audit_physical_channels(limit: int, cutoff_exponent: float) -> None:
     radius = limit**0.25
     ratio_radius = radius / limit
     response_matrix = [[0.0, 0.0], [0.0, 0.0]]
+    mass_matrix = [[0.0, 0.0], [0.0, 0.0]]
     direct_response = 0.0
+    direct_mass = 0.0
     pair_count = 0
 
     for left_index, left in enumerate(records):
@@ -216,16 +218,22 @@ def audit_physical_channels(limit: int, cutoff_exponent: float) -> None:
             direct_response += (
                 2.0 * left.weight * right.weight * overlap * response
             )
+            direct_mass += 2.0 * left.weight * right.weight * overlap
             right_channels = channel_weights[right_index]
             for row in range(2):
                 for column in range(2):
-                    response_matrix[row][column] += overlap * response * (
+                    channel_product = (
                         left_channels[row] * right_channels[column]
                         + right_channels[row] * left_channels[column]
                     )
+                    response_matrix[row][column] += (
+                        overlap * response * channel_product
+                    )
+                    mass_matrix[row][column] += overlap * channel_product
             pair_count += 1
 
     reconstructed = sum(sum(row) for row in response_matrix)
+    reconstructed_mass = sum(sum(row) for row in mass_matrix)
     component_budget = sum(
         abs(value) for row in response_matrix for value in row
     )
@@ -235,10 +243,27 @@ def audit_physical_channels(limit: int, cutoff_exponent: float) -> None:
         raise AssertionError("physical two-channel reconstruction failed")
     if abs(response_matrix[0][1] - response_matrix[1][0]) > 1.0e-12:
         raise AssertionError("physical response matrix is not symmetric")
+    if abs(reconstructed_mass - direct_mass) > 1.0e-11 * max(
+        1.0, abs(direct_mass)
+    ):
+        raise AssertionError("physical mass two-channel reconstruction failed")
+    if abs(mass_matrix[0][1] - mass_matrix[1][0]) > 1.0e-12:
+        raise AssertionError("physical mass matrix is not symmetric")
+    if direct_mass <= 0.0 or reconstructed_mass <= 0.0:
+        raise AssertionError("physical off-diagonal mass is not positive")
 
     cancellation_ratio = (
         abs(reconstructed) / component_budget if component_budget else 0.0
     )
+    mass_component_budget = sum(
+        abs(value) for row in mass_matrix for value in row
+    )
+    mass_cancellation_ratio = (
+        reconstructed_mass / mass_component_budget
+        if mass_component_budget
+        else 0.0
+    )
+    assert 0.0 < mass_cancellation_ratio <= 1.0 + 1.0e-12
     print(
         f"X={limit:>5d}: kappa={cutoff_exponent:.3f}, "
         f"U=V={cutoff:>2d}, pairs={pair_count:>7d}, "
@@ -248,6 +273,7 @@ def audit_physical_channels(limit: int, cutoff_exponent: float) -> None:
         f"Delta_II,II={response_matrix[1][1]:+.6e}, "
         f"physical={reconstructed:+.6e}, "
         f"|physical|/entry-l1={cancellation_ratio:.6e}, "
+        f"mass/entry-l1={mass_cancellation_ratio:.6e}, "
         f"physical/L^4={reconstructed/length**4:+.6e}"
     )
 

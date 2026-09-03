@@ -486,6 +486,8 @@ xelatex rh-weil-structure-paper.tex
 - [幂级高乘积 dyadic mass ledger 的初等闭合](notes/236-elementary-power-high-mass-ledger-closure.md)
 - [累计差异并非带响应的必要输入：慢调制障碍](notes/237-cumulative-discrepancy-band-no-go.md)
 - [Band-energy Bessel 障碍与 exact physical-response Gram](notes/238-band-energy-bessel-no-go-and-physical-gram.md)
+- [Vaughan quotient-first centering 与 Möbius divisor response kernel](notes/239-vaughan-quotient-first-centering-and-divisor-kernel.md)
+- [Möbius pullback、相邻 divisor columns 与带符号 dyadic dispersion](notes/240-mobius-pullback-adjacent-divisor-dispersion.md)
 - [研究分支看板](RESEARCH_BRANCHES.md)
 - [文献与证据边界](notes/003-sources.md)
 

@@ -748,3 +748,17 @@ Hardy--Littlewood、Weil positivity、谱酉性或 bounded negative index。
 ordinary Bessel/Parseval certificate 会产生幂级 overstrength。MOM-1 与
 Vaughan--Brownian 接口必须估计式 (34) 的实际物理方向及其 Type I/II cross
 cancellation。
+
+## 11. 笔记 239 对 A1s 的闭合
+
+笔记 239 已把式 (46) 展开为 exact Möbius-divisor determinant sums，并证明：
+
+1. channel raw masses在 physical vector上精确重构 strictly positive original
+   mass，不会代数消成零；
+2. quotient-first linear shell centering 与 physical sum交换；
+3. 共同 constant-density response由笔记 235-G / 236-C 无条件为 $O(L)$；
+4. channelwise absolute centering受 ghost gauge影响，不能作为 intrinsic
+   budget。
+
+因此本笔记 238-I 已完成并修正目标。下一输入是笔记 239-(23)--(25) 的共同
+centered Möbius divisor kernel；只允许估计 actual $\mu\otimes\mu$ direction。
