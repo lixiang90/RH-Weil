@@ -9,9 +9,16 @@ from __future__ import annotations
 
 from dataclasses import dataclass
 from fractions import Fraction
+from math import isqrt
 from typing import Iterable
 
 from formal_lag_response import FormalLag
+
+
+FROZEN_B1E_SURROGATE_ENERGY_UPPERS = {
+    "prime": Fraction("0.00055130411625587258"),
+    "continuum": Fraction("0.00015289136767059444"),
+}
 
 
 @dataclass(frozen=True)
@@ -36,6 +43,46 @@ class RationalInterval:
         return RationalInterval(
             integer * self.upper, integer * self.lower
         )
+
+    def negate(self) -> "RationalInterval":
+        return RationalInterval(-self.upper, -self.lower)
+
+    def subtract(self, other: "RationalInterval") -> "RationalInterval":
+        return self.add(other.negate())
+
+    def multiply(self, other: "RationalInterval") -> "RationalInterval":
+        products = (
+            self.lower * other.lower,
+            self.lower * other.upper,
+            self.upper * other.lower,
+            self.upper * other.upper,
+        )
+        return RationalInterval(min(products), max(products))
+
+    def reciprocal(self) -> "RationalInterval":
+        if self.lower <= 0 <= self.upper:
+            raise ZeroDivisionError("interval contains zero")
+        endpoints = (1 / self.lower, 1 / self.upper)
+        return RationalInterval(min(endpoints), max(endpoints))
+
+    def divide(self, other: "RationalInterval") -> "RationalInterval":
+        return self.multiply(other.reciprocal())
+
+    def square(self) -> "RationalInterval":
+        upper = max(self.lower * self.lower, self.upper * self.upper)
+        lower = (
+            Fraction(0)
+            if self.lower <= 0 <= self.upper
+            else min(self.lower * self.lower, self.upper * self.upper)
+        )
+        return RationalInterval(lower, upper)
+
+    def abs_upper(self) -> Fraction:
+        return max(abs(self.lower), abs(self.upper))
+
+    def distance_upper(self, point: Fraction) -> Fraction:
+        point = Fraction(point)
+        return max(abs(self.lower - point), abs(self.upper - point))
 
 
 def _format_scaled_integer(integer: int, decimal_places: int) -> str:
@@ -64,6 +111,53 @@ def rational_decimal_upper(value: Fraction, decimal_places: int) -> str:
     scale = 10**decimal_places
     scaled_ceiling = -((-value.numerator * scale) // value.denominator)
     return _format_scaled_integer(scaled_ceiling, decimal_places)
+
+
+def rational_square_root_interval(
+    value: Fraction, decimal_places: int = 80
+) -> RationalInterval:
+    """Enclose a nonnegative rational square root by integer arithmetic."""
+    value = Fraction(value)
+    if value < 0 or decimal_places < 0:
+        raise ValueError("value and decimal_places must be nonnegative")
+    scale = 10**decimal_places
+    scaled_square_floor = value.numerator * scale**2 // value.denominator
+    lower_integer = isqrt(scaled_square_floor)
+    lower = Fraction(lower_integer, scale)
+    if lower * lower == value:
+        return RationalInterval(lower, lower)
+    return RationalInterval(lower, Fraction(lower_integer + 1, scale))
+
+
+def rational_exp_point_interval(
+    value: Fraction, terms: int = 24
+) -> RationalInterval:
+    """Enclose exp(value) by a rational Taylor sum and geometric tail."""
+    value = Fraction(value)
+    if terms < 1:
+        raise ValueError("terms must be positive")
+    if value < 0:
+        positive = rational_exp_point_interval(-value, terms)
+        return positive.reciprocal()
+    if value >= terms + 2:
+        raise ValueError("increase terms so the geometric tail converges")
+    term = Fraction(1)
+    partial = Fraction(1)
+    for degree in range(1, terms + 1):
+        term = term * value / degree
+        partial += term
+    next_term = term * value / (terms + 1)
+    remainder = next_term / (1 - value / (terms + 2))
+    return RationalInterval(partial, partial + remainder)
+
+
+def rational_exp_interval(
+    interval: RationalInterval, terms: int = 24
+) -> RationalInterval:
+    """Enclose exp on a rational interval using monotonicity."""
+    lower = rational_exp_point_interval(interval.lower, terms).lower
+    upper = rational_exp_point_interval(interval.upper, terms).upper
+    return RationalInterval(lower, upper)
 
 
 def _atanh_log_unit_interval(

@@ -1,7 +1,7 @@
-"""Run all reproducible finite sanity checks.
+"""Run all reproducible finite checks and named interval certificates.
 
-These checks validate implementation identities only. They are not interval
-certificates and are not evidence for RH.
+These checks prove only their stated finite identities or interval bounds.
+They are not asymptotic estimates and are not evidence for RH.
 """
 
 from __future__ import annotations
@@ -78,6 +78,18 @@ CHECKS = (
     (
         "Brownian interval denominator and TV perturbation",
         [sys.executable, "test_brownian_interval_certificate.py"],
+    ),
+    (
+        "B1f floating forward-error ledger",
+        [sys.executable, "test_b1f_forward_error.py"],
+    ),
+    (
+        "B1e exact surrogate support and denominator",
+        [sys.executable, "inspect_b1e_response_support.py"],
+    ),
+    (
+        "B1f intended finite denominator certificate",
+        [sys.executable, "b1f_base_coefficient_interval_audit.py"],
     ),
     (
         "Vaughan scalarized spectral ratio capture",

@@ -6,6 +6,7 @@ from fractions import Fraction
 
 from audit_soft_zeta_orbit import soft_zeta_orbit_audit
 from brownian_interval_certificate import (
+    FROZEN_B1E_SURROGATE_ENERGY_UPPERS,
     brownian_cluster_energy_upper_bound,
     canonical_position_interval,
     canonical_rational_grid_key,
@@ -79,6 +80,10 @@ def main() -> None:
             )
             for interval, coefficient, _ in atoms
         )
+        if certificate["energy_upper"] > (
+            FROZEN_B1E_SURROGATE_ENERGY_UPPERS[label]
+        ):
+            raise AssertionError("frozen surrogate energy upper is too small")
         print(
             f"{label}: formal={len(component)}, canonical={len(grouped)}, "
             f"atoms={len(atoms)}, certified_min_gap_lower="

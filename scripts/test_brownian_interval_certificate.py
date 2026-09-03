@@ -13,17 +13,45 @@ from brownian_interval_certificate import (
     polynomial_convolution_tv_error_upper_bound,
     rational_decimal_lower,
     rational_decimal_upper,
+    rational_exp_interval,
+    rational_exp_point_interval,
     rational_log_interval,
+    rational_square_root_interval,
     smooth_rational_log_interval,
 )
 from formal_lag_response import FormalLag
 
 
 def main() -> None:
+    interval = type(rational_log_interval(Fraction(1)))(
+        Fraction(-1, 10), Fraction(1, 5)
+    )
+    assert interval.add(interval.negate()).lower <= 0 <= (
+        interval.add(interval.negate()).upper
+    )
+    assert interval.square().lower == 0
+    assert interval.square().upper == Fraction(1, 25)
+    positive = type(interval)(Fraction(2), Fraction(3))
+    assert positive.multiply(positive.reciprocal()).lower <= 1 <= (
+        positive.multiply(positive.reciprocal()).upper
+    )
+
     assert rational_decimal_lower(Fraction(1, 3), 3) == "0.333"
     assert rational_decimal_upper(Fraction(1, 3), 3) == "0.334"
     assert rational_decimal_lower(Fraction(-1, 3), 3) == "-0.334"
     assert rational_decimal_upper(Fraction(-1, 3), 3) == "-0.333"
+    square_root = rational_square_root_interval(Fraction(3), 60)
+    assert square_root.lower**2 <= 3 <= square_root.upper**2
+    exp_zero = rational_exp_point_interval(Fraction(0))
+    assert exp_zero.lower == exp_zero.upper == 1
+    exp_positive = rational_exp_point_interval(Fraction(4, 5))
+    exp_negative = rational_exp_point_interval(Fraction(-4, 5))
+    assert exp_positive.lower * exp_negative.lower <= 1
+    assert exp_positive.upper * exp_negative.upper >= 1
+    exp_range = rational_exp_interval(
+        type(interval)(Fraction(-1, 10), Fraction(1, 5))
+    )
+    assert exp_range.lower < 1 < exp_range.upper
     for value in (
         Fraction(1, 17),
         Fraction(2),

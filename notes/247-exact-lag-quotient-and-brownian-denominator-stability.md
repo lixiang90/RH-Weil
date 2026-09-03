@@ -418,3 +418,6 @@ index。唯一外部深结果 Hermite--Lindemann只用于一般 algebraic-grid e
 本轮严格缩小了 B1e：Brownian denominator不再需要 4 万个 transcendental response
 intervals；剩余输入是 base prime/continuum coefficients的统一 rational enclosure与
 good-cell trigonometric numerator。scale-uniform B1a 仍是其后的独立算术问题。
+
+后续：笔记 248 已完成 base coefficient intervals、production forward-error ledger及
+intended finite `D_upper` [T]；当前只剩 B1g directed good-cell numerator [O]。
