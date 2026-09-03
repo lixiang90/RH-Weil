@@ -104,6 +104,8 @@ def audit_schur(scale: float, integer_cutoff: int) -> None:
         raise AssertionError("pointwise prime energy does not reconstruct Gram")
     if abs(cross_sign["right_energy"] - continuum_energy) > tolerance:
         raise AssertionError("pointwise continuum energy does not reconstruct Gram")
+    if continuum_linear.real > tolerance:
+        raise AssertionError("symmetric prime/continuum spectral sign failed")
     if base_cross_sign["positive_cross"] > tolerance:
         raise AssertionError("base prime/continuum primitives lost opposite sign")
     if cross_sign["positive_cross"] <= tolerance:

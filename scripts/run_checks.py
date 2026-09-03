@@ -72,6 +72,10 @@ CHECKS = (
         [sys.executable, "brownian_convolution_sign_obstruction_audit.py"],
     ),
     (
+        "symmetric spectral sign and overlap degeneration",
+        [sys.executable, "symmetric_spectral_overlap_no_go_audit.py"],
+    ),
+    (
         "partial Weil proportions and depth visibility",
         [sys.executable, "partial_weil_audit.py"],
     ),

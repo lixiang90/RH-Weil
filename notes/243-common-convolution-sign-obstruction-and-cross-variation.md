@@ -368,3 +368,9 @@ summable budgets。
 把原子侧的正负顺序传递到 Weil/Brownian Gram。对 zeta，下一最小输入已从模糊的
 “prime--continuum cancellation”缩成 actual multiplier 下的 positive-leakage
 budget (20)，随后才是 visibility (21)。
+
+后续进展：笔记 244 证明 zeta 的 two-sided even、sign-pure centered symbols具有
+更强的 frequencywise opposite sign；因此任意 common multiplier 后的**整体**
+prime--continuum cross必非正 [T]。这不与 243-C矛盾，因为该反例不满足 evenness。
+笔记 244-C 进一步证明上述强结构仍不给 uniform gap；下一输入改为 actual
+response-weighted spectral ratio capture。
