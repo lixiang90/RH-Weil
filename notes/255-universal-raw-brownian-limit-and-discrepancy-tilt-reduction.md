@@ -449,3 +449,10 @@ dominated convergence及显式 polynomial identity；不使用 zeros、RH/GRH、
 `L^2(nu_m)` denominator 与 growing-`t` tail；仅有 pointwise PNT不够。若 tightness
 成立，再选择式 (14) 下质量正且避开 resonances的 fixed core应用笔记 253 的
 Schur factor；若 escape成立，则停止 fixed-core路线并形成 actual response no-go。
+
+后续：笔记 256 已用真实 source 可行域上的 global polynomial envelope 与 local
+positive jet，把上述 tail问题充分归约为 positive quartic energy [T]；并隔离出
+`int Delta_m^4dnu_m=O(mu_m^4)` 这一 explicit arithmetic input [O]。该输入若成立即给
+fixed-core actual capture 与 sign-pure uniform Schur gain [C]。因此 B1n 已完成为严格
+归约，下一最小引理改为 B1o：从 prime--continuum 六阶 Brownian integral证明或反驳
+该 mass-relative quartic budget。
