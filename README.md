@@ -497,6 +497,7 @@ xelatex rh-weil-structure-paper.tex
 - [Exact lag quotient、cluster-safe Brownian 分母与 TV 稳定性](notes/247-exact-lag-quotient-and-brownian-denominator-stability.md)
 - [Rational base coefficients 与 intended Brownian 分母证书](notes/248-rational-base-coefficients-and-intended-denominator-certificate.md)
 - [Directed trigonometric numerator 与 finite overlap 证书](notes/249-directed-trigonometric-numerator-and-finite-overlap-certificate.md)
+- [第二尺度 directed overlap 与 uniformity gap](notes/250-second-scale-directed-overlap-and-uniformity-gap.md)
 - [研究分支看板](RESEARCH_BRANCHES.md)
 - [文献与证据边界](notes/003-sources.md)
 
@@ -507,5 +508,7 @@ xelatex rh-weil-structure-paper.tex
 - [Weil 界回归测试](scripts/test_qw_bounds.py)
 - [Prolate 修正回归测试](scripts/test_prolate_candidate.py)
 - [Mellin dual 与 Schur margin 回归测试](scripts/test_mellin_dual_separator.py)
+- [B1h 第二尺度 directed interval 证书](scripts/b1h_second_scale_interval_audit.py)
+- [B1h 第二尺度独立小测试](scripts/test_b1h_second_scale_intervals.py)
 
 这里的“结构定理”是对已知 Weil/Grothendieck/Hilbert–Pólya 机制的一次公理化整理，不宣称其定义本身具有文献上的原创优先权。研究的开放部分是为数域 zeta / L 函数无循环地构造这些结构。

@@ -100,6 +100,14 @@ CHECKS = (
         [sys.executable, "b1g_directed_numerator_interval_audit.py"],
     ),
     (
+        "B1h second-scale interval helpers",
+        [sys.executable, "test_b1h_second_scale_intervals.py"],
+    ),
+    (
+        "B1h second-scale directed finite certificate",
+        [sys.executable, "b1h_second_scale_interval_audit.py"],
+    ),
+    (
         "Vaughan scalarized spectral ratio capture",
         [sys.executable, "vaughan_spectral_ratio_capture_audit.py"],
     ),

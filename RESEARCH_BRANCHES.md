@@ -13,7 +13,7 @@
 | NCE-5 | 备用线 | one-prime/one-block extension，预算增量可和 | extension 不调用完整 Weil positivity | 观察 |
 | NCE-6 | 备用线 | bounded-resolvent/negative-trace 的 ultraproduct 稳定性 | 先独立得到统一预算 `C` | 观察 |
 | NCE-7 | 非构造主线 | short-word effects 对实际 negative level sets 的 response-weighted capture | capture error共尾可和且不调用 Selberg/RH 等价输入 | degree-one universal moment route 已 sharp no-go |
-| NCE-8 | 当前主线 | B1h：对预注册第二尺度 `(Y,N,J,h)=(16,15,4,0.005)` 完成同型 denominator/numerator certificate，并比较归一化 verified arcs | 第二尺度仍给固定正 capture 后，才抽取尺度一致的 actual prime/continuum overlap estimate；若失败则停止该参数族 | 第一尺度已由全部 51,199 个 cells 的 directed certificate给 `N_lower/D_upper>0.191234900905432370` [T]，并推出 finite overlap `-z>(19/425)(P+C)` [T] |
+| NCE-8 | 当前主线 | B1i：在 `theta=xi log Y` 下比较两组 rational verified arcs，证明正长度共同 whole-cell core或严格障碍 | 共同 core还必须携带尺度中性的 response-density lower，才允许提出第三尺度；否则归约到 prime first-moment/discrepancy input | 第二尺度给 `N_lower/D_upper>0.159849154333328712` 及 `-z>(3/85)(P+C)` [T]；两点仍不构成 uniform B1a |
 | NCE-9 | 非构造补全 | 把 finite Cauchy-translate Schur block写成 joint signed Type I/II large-sieve form | uniform finite-block budget只用 length-side数据且弱于完整 RH criterion | finite satisfiability compactness与Gram/Schur判据已完成；33 translates捕获约23% package norm |
 | MOM-1 | 四矩观察线 | 只在出现新的 actual determinant-correlation input 时恢复；不得继续增加 Möbius/divisor kernel 表示 | 新输入必须在 physical fiber 内先合并全部 divisor blocks，并直接给 `o(L^4)` global ledger | exact band/mass已闭合；cumulative、band energy、channel mass、raw pullback与 divisor separation五条候选证书均已 theorem/no-go；条件比例仍为 0.7569027 / 0.8784513 |
 | NCE-10 | 非构造补全 | 增长的 arithmetic mixed localizers 与 divisor-visible resolvent closure | 每个有限 word level 近正且 Archimedean 有界，闭包恢复 divisor | scalar fourth moments 有 65 维严格 no-go；finite-satisfiability completion 已证明 |
@@ -60,7 +60,7 @@
 - **目标**：利用 Type I、Type II 与 continuum/Gamma 通道之间的真实交叉抵消，证明 square-root Vaughan rectangle 上的统一增益。
 - **当前基础**：exact divided-difference response与 Brownian Gram保持成立。笔记 242 发现旧 `U=V=floor(sqrt N)` 实验的 Type II严格为空；修正为 cube-root cutoff后 Type-II非零并与 Type-I强负相关，但三通道 diagonal/full 比依 decomposition改变。cutoff-invariant quantities 是合并 prime vector `u_p`、continuum vector `u_c` 及其 physical energy。
 - **最小引理 B1a**：固定一个 response rectangle与非空 Vaughan cutoff，直接从 prime/continuum coefficients证明 `Re<u_p,u_c><=-delta(||u_p||^2+||u_c||^2)`，其中 `delta>0` 与尺度无关。Type-I/II 只作为估计 `u_p` 的内部坐标，不能分别取绝对值。
-- **当前有限子任务 B1h**：对预注册第二尺度 `(Y,N,J,h)=(16,15,4,0.005)` 完成同型 denominator/numerator certificate，并比较第一、第二尺度的 verified arcs 在自然频率归一化下是否保留稳定 core。第一尺度的 `>0.19` 只验证单一 finite配置；两个 finite点仍不构成 scale-uniform B1a。
+- **当前有限子任务 B1i**：B1h 已对预注册第二尺度 `(Y,N,J,h)=(16,15,4,0.005)` 证明 `N_lower/D_upper>0.159849154333328712` 与 physical overlap `-z>(3/85)(P+C)` [T]。现固定自然相位坐标 `theta=xi log Y`，比较第一、第二尺度的 rational verified arcs是否保留正长度且携带 response energy的共同 core。两个 finite点仍不构成 scale-uniform B1a。
 - **算术边界**：不得用任意系数 Bessel 界替代实际响应估计；必须保留交叉项，并单独控制 continuum 和 Gamma 通道。
 - **晋级条件**：解析证明有限实验中的增益不会随尺度消失，并将其转化为第二矩、负迹或截断 Weil 二次型的严格改善。
 - **止损条件**：若尺度中性的下界迫使 Schur 因子趋于 `1`，或者 continuum 项必然抵消全部收益，则停止该参数族，不再增加新的核表示。
@@ -150,6 +150,8 @@
 - Git branch 仍按交付任务管理；这里的 ID 表示数学思路分支，不强制创建长期 Git branch。
 
 ## 本轮分支成果
+
+- [第二尺度 directed overlap 与 uniformity gap](notes/250-second-scale-directed-overlap-and-uniformity-gap.md)：对预注册 `(Y,N,J,h)=(16,15,4,1/200)`，以 rational canonical atom ordering、production binary64逐系数 replay、TV transfer及全部 51,199 个 frequency cells 的 outward certificate证明 `D_upper=0.001025620093083457466797381202`、`N_lower=0.000163944504546660552689839988` 与 `N_lower/D_upper>0.159849154333328712>3/20` [T]；推出 fixed physical overlap `-z>(3/85)(P+C)`、diagonal/full `>85/79` [T]。第二尺度 raw band fraction上升而 rigorous capture下降，uniformity gap缩到归一化共同 core及 density lower [O]。
 
 - [Directed trigonometric numerator 与 finite overlap 证书](notes/249-directed-trigonometric-numerator-and-finite-overlap-certificate.md)：以 Machin `pi` enclosure、degree-44 cosine Taylor remainder和 `10^-60` outward fixed-point arithmetic逐一审计 `1<=i<51200` 的全部 frequency cells [T]。12,785 个 positive cells通过 whole-cell ratio/Lipschitz判定，给 `N_lower=0.000140734590642330727559468708` 及 `N_lower/D_upper>=0.191234900905432370>0.19` [T]；结合 ratio factor `4/17` 推出该 fixed physical direction满足 `-z>(19/425)(P+C)`、diagonal/full `>425/387` [T]。scale-uniform overlap仍为 [O]，下一最小引理为第二尺度 B1h。
 

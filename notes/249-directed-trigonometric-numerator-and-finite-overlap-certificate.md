@@ -326,3 +326,8 @@ arcs 在 `xi/log Y` 或其他自然归一化下是否有稳定 core。若第二�
 capture，立即停止该参数族；若保持，则下一步才尝试把 prime--continuum ratio failure
 归约为独立的 smoothed prime discrepancy estimate。两个 finite points 本身仍不构成
 uniform B1a。
+
+后续：笔记 250 已对该预注册第二尺度证明
+`N_lower/D_upper>0.159849154333328712>3/20` 及
+`-z>(3/85)(P+C)` [T]。两个 finite points仍不构成 uniform B1a；当前下一最小
+引理为在 `theta=xi log Y` 下审计两组 verified arcs 的共同 whole-cell core。
