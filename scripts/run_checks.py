@@ -124,6 +124,10 @@ CHECKS = (
         [sys.executable, "b1l_multiplier_degeneracy_audit.py"],
     ),
     (
+        "B1m universal raw Brownian limit",
+        [sys.executable, "b1m_raw_brownian_limit_audit.py"],
+    ),
+    (
         "Vaughan scalarized spectral ratio capture",
         [sys.executable, "vaughan_spectral_ratio_capture_audit.py"],
     ),

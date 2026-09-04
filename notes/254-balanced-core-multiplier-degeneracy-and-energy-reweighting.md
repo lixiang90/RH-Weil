@@ -496,7 +496,7 @@ bounded negative index、四矩猜想或紧性完备化。PNT只证明 normalize
 - 论文归属：与笔记 242--253 同属 Vaughan--Brownian response论文，且应作为阻止
   finite good-arc certificate直接 cofinalize 的核心障碍节。
 
-## 9. 下一最小引理 B1m [O]
+## 9. B1m target 与后续闭合 [T/N]
 
 正确的 cofinal capture不再是 unweighted ratio-core tightness，而是 actual
 discrepancy-weighted问题：对某个 fixed nonresonant `K`，证明或反驳
@@ -517,3 +517,9 @@ discrepancy-weighted问题：对某个 fixed nonresonant `K`，证明或反驳
 频率主导并使式 (36)趋零，则形成 actual-symbol energy-escape no-go；若 core与 total
 同阶，则式 (33)恢复 uniform Schur gain。Gamma residual必须作为独立第三 channel
 加入，不能用当前 sign-pure deletion原则暗中吸收。
+
+后续：笔记 255 已证明 raw Brownian energy在 `t=mxi` 上收敛到显式 universal
+probability，并把式 (39) 精确改写为该 probability 下的 `q_kappa^2` tilt [T]；同时
+证明 raw tightness 与 local multiplier extinction本身既允许 tight tilt也允许 complete
+escape [N]。因此 B1m 已闭合为 exact reduction；B1n 只剩 normalized actual tilt 的
+global `L^2` tail或增长频带 escape。Gamma residual仍未加入。

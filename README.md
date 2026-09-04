@@ -502,6 +502,7 @@ xelatex rh-weil-structure-paper.tex
 - [Stieltjes transfer 与 fixed-lag cofinal obstruction](notes/252-stieltjes-transfer-and-fixed-lag-cofinal-obstruction.md)
 - [Matched-endpoint PNT transfer 与 Schur ratio closure](notes/253-matched-endpoint-pnt-transfer-and-schur-ratio-closure.md)
 - [Balanced-core multiplier degeneracy 与 energy reweighting obstruction](notes/254-balanced-core-multiplier-degeneracy-and-energy-reweighting.md)
+- [Universal raw Brownian limit 与 discrepancy-tilt reduction](notes/255-universal-raw-brownian-limit-and-discrepancy-tilt-reduction.md)
 - [研究分支看板](RESEARCH_BRANCHES.md)
 - [文献与证据边界](notes/003-sources.md)
 
@@ -518,5 +519,6 @@ xelatex rh-weil-structure-paper.tex
 - [B1i exact common-core 小网格测试](scripts/test_b1i_normalized_common_core.py)
 - [B1j Stieltjes transfer 与 fixed-lag diagnostics](scripts/b1j_stieltjes_fixed_lag_audit.py)
 - [B1l multiplier degeneracy 回归](scripts/b1l_multiplier_degeneracy_audit.py)
+- [B1m raw Brownian limit diagnostics](scripts/b1m_raw_brownian_limit_audit.py)
 
 这里的“结构定理”是对已知 Weil/Grothendieck/Hilbert–Pólya 机制的一次公理化整理，不宣称其定义本身具有文献上的原创优先权。研究的开放部分是为数域 zeta / L 函数无循环地构造这些结构。
