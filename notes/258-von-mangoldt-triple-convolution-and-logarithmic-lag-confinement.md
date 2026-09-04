@@ -464,8 +464,10 @@ positivity、谱酉性、bounded negative index、四矩猜想或紧性完备化
 - 论文归属：与笔记 242--257 同属 Vaughan--Brownian response论文，作为 actual
   arithmetic coefficients 与 soft no-go 之间的第一道 bridge。
 
-B1p 已完成 coefficient expansion并闭合 far-lag part。下一最小引理 **B1q** 是在
-central window `|lambda-L_m|<=C logL_m` 内，把式 (13) 化成 short multiplicative
-interval中的 weighted von Mangoldt discrepancy Gram，并证明 response-specific
-signed bound；或者证明该 central Gram仍可产生 `t>=m/logL_m` 的 actual escape。
+B1p 已完成 coefficient expansion并闭合 far-lag part。后续笔记 259 完成 **B1q**：
+在 central window \(|\lambda-L_m|\le C\log L_m\) 内把 six-lag kernel精确拆成
+finite-rank carrier main与 equal-carrier collision，并推出
+\(J_4=O(\mu^4+\log L_m/L_m)=o(1)\) [T]。新的最小引理 **B1r** 是把 collision按
+\(q=-3,\ldots,3\) 化成至多七个 short multiplicative-interval weighted von Mangoldt
+Grams，并证明 response-specific signed bound；或者构造 matching lower/no-go。
 不得退回全 TV、任意系数 Bessel bound或仅 fixed-frequency PNT。

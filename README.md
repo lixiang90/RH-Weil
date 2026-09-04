@@ -506,6 +506,7 @@ xelatex rh-weil-structure-paper.tex
 - [Quartic discrepancy capture 与 conditional Schur gain](notes/256-quartic-discrepancy-capture-and-conditional-schur-gain.md)
 - [Source-realizable mesoscopic tilt escape 与 triple-convolution ledger](notes/257-source-realizable-mesoscopic-tilt-escape.md)
 - [Von Mangoldt triple convolution 与 logarithmic lag confinement](notes/258-von-mangoldt-triple-convolution-and-logarithmic-lag-confinement.md)
+- [Carrier--collision decomposition 与 quantitative quartic decay](notes/259-carrier-collision-decomposition-and-quantitative-quartic-decay.md)
 - [研究分支看板](RESEARCH_BRANCHES.md)
 - [文献与证据边界](notes/003-sources.md)
 
