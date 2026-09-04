@@ -438,3 +438,10 @@ B1o 的 soft route 至此应停止。下一最小引理 **B1p** 必须使用真�
 coefficients，并在 mesoscopic lag separations `d=o(logY)` 上证明足以排除 257-F 机制的
 response estimate；或者从真实 coefficients 构造相同 escape，从而终止 fixed-core
 路线。仅重复 qualitative PNT、fixed-window matching或 raw tightness不再满足晋级条件。
+
+后续：笔记 258 已完成 actual centered-kernel coefficient expansion与 six-lag Brownian
+Gram [T]。更重要地，`Lambda<=log`、exponential Abel cutoff及 continuum bulk lower
+已把两个 discrepancy factors 以任意 polynomial accuracy截到
+`|lambda-logY|<=C loglogY` [T]，无需 PNT；因此本笔记的 `sqrt(logY)` shifted packet
+确被真实 source envelope 排除 [T/N]。B1p 的 far-lag 部分已闭合，B1q 只剩 central
+logarithmic lag window 内的 von Mangoldt signed Gram。
