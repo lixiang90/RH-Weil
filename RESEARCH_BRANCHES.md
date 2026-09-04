@@ -13,7 +13,7 @@
 | NCE-5 | 备用线 | one-prime/one-block extension，预算增量可和 | extension 不调用完整 Weil positivity | 观察 |
 | NCE-6 | 备用线 | bounded-resolvent/negative-trace 的 ultraproduct 稳定性 | 先独立得到统一预算 `C` | 观察 |
 | NCE-7 | 非构造主线 | short-word effects 对实际 negative level sets 的 response-weighted capture | capture error共尾可和且不调用 Selberg/RH 等价输入 | degree-one universal moment route 已 sharp no-go |
-| NCE-8 | 当前主线 | B1l：写出 actual Brownian/Gamma diagonal energy measure，并在 fixed nonresonant compact core 上证明 uniform positive capture，或证明 energy-escape obstruction | capture 必须针对实际物理 multiplier，且不得由两个 finite scales 外推；若不 tight 则转为严格 no-go | exact Stieltjes ledger 已闭合；fixed lag 被排除 [T/N]；matched endpoint 下 qualitative PNT 已给 `P/C->1` 与 Schur factor `->1/2` uniformly off resonance [T] |
+| NCE-8 | 当前主线 | B1m：比较 exact `q_kappa(mu,Delta)^2` discrepancy-weighted core/total energy，先在增长频带给 denominator 独立 lower；随后才单列 Gamma residual bridge | 必须保留 actual endogenous multiplier；若 escaping bands主导则形成 energy-escape no-go，不得改用 raw energy | matched ratio `P/C->1` [T]，但 actual multiplier在每个 fixed physical-frequency window 都一致消失 [T/N]；任何非平凡 denominator 必须检查 `T_m->infinity` |
 | NCE-9 | 非构造补全 | 把 finite Cauchy-translate Schur block写成 joint signed Type I/II large-sieve form | uniform finite-block budget只用 length-side数据且弱于完整 RH criterion | finite satisfiability compactness与Gram/Schur判据已完成；33 translates捕获约23% package norm |
 | MOM-1 | 四矩观察线 | 只在出现新的 actual determinant-correlation input 时恢复；不得继续增加 Möbius/divisor kernel 表示 | 新输入必须在 physical fiber 内先合并全部 divisor blocks，并直接给 `o(L^4)` global ledger | exact band/mass已闭合；cumulative、band energy、channel mass、raw pullback与 divisor separation五条候选证书均已 theorem/no-go；条件比例仍为 0.7569027 / 0.8784513 |
 | NCE-10 | 非构造补全 | 增长的 arithmetic mixed localizers 与 divisor-visible resolvent closure | 每个有限 word level 近正且 Archimedean 有界，闭包恢复 divisor | scalar fourth moments 有 65 维严格 no-go；finite-satisfiability completion 已证明 |
@@ -60,7 +60,7 @@
 - **目标**：利用 Type I、Type II 与 continuum/Gamma 通道之间的真实交叉抵消，证明 square-root Vaughan rectangle 上的统一增益。
 - **当前基础**：exact divided-difference response与 Brownian Gram保持成立。笔记 242 发现旧 `U=V=floor(sqrt N)` 实验的 Type II严格为空；修正为 cube-root cutoff后 Type-II非零并与 Type-I强负相关，但三通道 diagonal/full 比依 decomposition改变。cutoff-invariant quantities 是合并 prime vector `u_p`、continuum vector `u_c` 及其 physical energy。
 - **最小引理 B1a**：固定一个 response rectangle与非空 Vaughan cutoff，直接从 prime/continuum coefficients证明 `Re<u_p,u_c><=-delta(||u_p||^2+||u_c||^2)`，其中 `delta>0` 与尺度无关。Type-I/II 只作为估计 `u_p` 的内部坐标，不能分别取绝对值。
-- **当前有限子任务 B1l**：B1j 已给 exact ledger `P-C^J=R_(psi-x)+endpoint mismatch+quadrature error`，并证明任何 uniform fixed ratio interval 都迫使 `liminf L_m/logY_m>=1` [T/N]。B1k 在 matched `L_m=logN_m` 上进一步只用 qualitative PNT，证明任意 fixed nonresonant compact core 上 `P/C->1` 且 scalar Schur factor `->1/2` uniformly [T]；不要求 `N_m/Y_m` 有上界。现在唯一 cofinal 缺口是 actual Brownian/Gamma response-energy measure 在某个这种 fixed core 上的 positive tight capture，或相反的 energy-escape no-go；不得直接增加第三 finite point。
+- **当前有限子任务 B1m**：B1j 已给 exact Stieltjes ledger并排除 fixed lag [T/N]；B1k 只用 qualitative PNT闭合 matched nonresonant scalar ratio [T]。B1l 进一步把 actual two-channel degree-two multiplier精确写成 normalized polynomial `q_kappa(mu,Delta)`，证明其在 balanced point具有正定二次 leading form，并以显式常数给 `|gamma Q| asymp mu^2+Delta^2` [T/N]。因此 fixed ratio core 的 raw energy 被额外四次 discrepancy 权压低，scale-neutral multiplier lower 不可能成立。现须对式 254-(39) 给 denominator lower并判定 core/escaping-band dominance；Gamma residual 作为独立第三 channel，不能混入 sign-pure二通道 measure。
 - **算术边界**：不得用任意系数 Bessel 界替代实际响应估计；必须保留交叉项，并单独控制 continuum 和 Gamma 通道。
 - **晋级条件**：解析证明有限实验中的增益不会随尺度消失，并将其转化为第二矩、负迹或截断 Weil 二次型的严格改善。
 - **止损条件**：若尺度中性的下界迫使 Schur 因子趋于 `1`，或者 continuum 项必然抵消全部收益，则停止该参数族，不再增加新的核表示。
@@ -150,6 +150,8 @@
 - Git branch 仍按交付任务管理；这里的 ID 表示数学思路分支，不强制创建长期 Git branch。
 
 ## 本轮分支成果
+
+- [Balanced-core multiplier degeneracy 与 energy reweighting obstruction](notes/254-balanced-core-multiplier-degeneracy-and-energy-reweighting.md)：把 actual degree-two divided difference与 response scalar按 `S=A+B` 完全无量纲化，得到 exact normal form `gamma Q=-(4alpha^2/9)q_kappa(mu,Delta)` [T]。其 quadratic jet 为 positive definite `kappa^2(Delta^2-3muDelta+3mu^2)`；在 `|mu|+|Delta|<=10^-3` 上显式证明 `0.09589(mu^2+Delta^2)<=q<=2.905(mu^2+Delta^2)` [T/N]。matched PNT core 上 `mu,Delta->0`，故 actual multiplier一致趋零，response/raw energy density ratio按 `(mu^2+Delta^2)^2` 消失；同一 PNT argument更证明每个 fixed physical-frequency window 上 multiplier都一致消失 [T/N]。这严格阻止把 B1i 的 finite `Q` lower 或 B1k 的 ratio core直接 cofinalize；尚未证明 normalized total capture趋零，下一输入必须在 `T_m->infinity` 的增长频带给 discrepancy-weighted denominator lower。
 
 - [Matched-endpoint PNT transfer 与 Schur ratio closure](notes/253-matched-endpoint-pnt-transfer-and-schur-ratio-closure.md)：在 `Y_m=2^m,N_m>=Y_m,L_m=logN_m,xi=t/m` 下，以 exact Stieltjes identity 和 qualitative PNT `psi=x+o(x)` 证明任意 fixed nonresonant compact `K` 上 `sup_K |P-C|/C->0` [T]，不需 PNT rate 或 cutoff-ratio upper。于是 prime/continuum ratio一致趋于 `1`，scalar Schur factor一致趋于 `1/2` [T]。又证明 18-component finite common core 可删除任意小的 resonant 邻域，同时保留两个尺度各 `>1/20` 的 certified lower [T]。ratio leg 已闭合；下一输入严格缩为 actual response-energy tight capture，或其 energy-escape obstruction。
 

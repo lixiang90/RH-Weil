@@ -309,7 +309,7 @@ nonresonant phase lower；反过来式 (10) 只测试这一核族，不推出 fu
 - 函数域：连续 Gamma integral应换成 degree sum；本定理不自动提供该离散 bridge；
 - 结果属于显式公式型 Weil response，不建立上同调型 polarization bridge。
 
-## 8. 下一最小引理 B1l [O]
+## 8. B1l target 及后续障碍 [T/N]
 
 B1j 已排除 fixed-lag cofinalization；B1k 又证明 matched scalar ratio在 nonresonant
 compact core上由普通 PNT自动闭合。剩余缺口现在严格缩为 response-density capture：
@@ -327,3 +327,9 @@ compact core上由普通 PNT自动闭合。剩余缺口现在严格缩为 respon
 直接外推。若式 (24) 成立，则式 (22) 与已证 symmetric response sign把它转成
 scale-uniform physical Schur gain；若失败，应证明 energy escape/tightness obstruction，
 而不是继续增加 finite scales。
+
+后续：笔记 254 已证明 actual degree-two multiplier在同一 matched core 上按
+`mu_m^2+Delta_m^2` 二次消失，故 raw ratio-core energy不能以 scale-neutral multiplier
+直接转成 response energy [T/N]。B1l 因此以 multiplier-degeneracy obstruction 结束；
+新的 B1m 必须比较带 `q_kappa(mu,Delta)^2` 权的 core 与 total energy，并为 denominator
+另证 lower。Gamma residual 仍是独立第三通道，未被此二通道结论吸收。

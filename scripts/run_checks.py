@@ -120,6 +120,10 @@ CHECKS = (
         [sys.executable, "b1j_stieltjes_fixed_lag_audit.py"],
     ),
     (
+        "B1l balanced-core multiplier degeneracy",
+        [sys.executable, "b1l_multiplier_degeneracy_audit.py"],
+    ),
+    (
         "Vaughan scalarized spectral ratio capture",
         [sys.executable, "vaughan_spectral_ratio_capture_audit.py"],
     ),
