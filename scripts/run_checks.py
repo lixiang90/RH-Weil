@@ -108,6 +108,14 @@ CHECKS = (
         [sys.executable, "b1h_second_scale_interval_audit.py"],
     ),
     (
+        "B1i normalized common-core exact helpers",
+        [sys.executable, "test_b1i_normalized_common_core.py"],
+    ),
+    (
+        "B1i normalized two-scale common-core certificate",
+        [sys.executable, "b1i_normalized_common_core_certificate.py"],
+    ),
+    (
         "Vaughan scalarized spectral ratio capture",
         [sys.executable, "vaughan_spectral_ratio_capture_audit.py"],
     ),

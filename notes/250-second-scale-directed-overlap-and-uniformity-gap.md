@@ -315,3 +315,8 @@ B1h 的第二有限证书已闭合。下一最小引理 B1i 是预注册自然�
 energy的严格障碍。只有在共同 core同时获得尺度中性的 density lower后，才允许提出
 第三尺度；否则停止继续堆叠 finite实例，转向把 loss归约为 smoothed prime
 first-moment/discrepancy estimate。
+
+后续：笔记 251 已在 `t=theta/log2` 上闭合 B1i。两尺度 verified ledgers具有
+18-component、总宽 `29.655` 的 exact common core；它分别携带 `>5.329%` 与
+`>11.327%` 的完整 diagonal，并给共享 finite gain `-z>D/85` [T]。当前进入 B1j
+cofinal schedule与 dyadic normalized-symbol transfer；不得从两个尺度外推 uniformity。

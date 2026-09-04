@@ -225,7 +225,7 @@ def decimal_lower_from_fixed(value: int, places: int = 30) -> str:
     return rational_decimal_lower(Fraction(value, FIXED_SCALE), places)
 
 
-def main() -> None:
+def directed_numerator_certificate() -> dict[str, object]:
     if not (
         Fraction(333, 106)
         < PI_RATIONAL.lower
@@ -454,6 +454,18 @@ def main() -> None:
     )
     print("B1g directed numerator interval audit passed")
     print("[scope] one finite ratio only; scale-uniform overlap and RH remain open")
+    return {
+        "verified_indices": tuple(verified_indices),
+        "verified_bounds": tuple(verified_bounds),
+        "index_hash": index_hash,
+        "bound_hash": bound_hash,
+        "numerator_lower": numerator_fraction,
+        "ratio_lower": ratio_lower,
+    }
+
+
+def main() -> None:
+    directed_numerator_certificate()
 
 
 if __name__ == "__main__":

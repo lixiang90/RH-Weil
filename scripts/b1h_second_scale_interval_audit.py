@@ -607,6 +607,7 @@ def directed_numerator_lower(data: dict[str, object]) -> dict[str, object]:
     return {
         "numerator_lower": Fraction(numerator_lower, FIXED_SCALE),
         "verified_indices": tuple(verified_indices),
+        "verified_bounds": tuple(verified_bounds),
         "verified_cell_count": len(verified_indices),
         "index_hash": sha256(index_payload).hexdigest(),
         "bound_hash": sha256(bound_payload).hexdigest(),
