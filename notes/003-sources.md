@@ -1,4 +1,4 @@
-# 文献与证据边界（核对日期：2026-09-01）
+# 文献与证据边界（核对日期：2026-09-04）
 
 ## 一手与权威来源
 
@@ -136,6 +136,9 @@
 
 44. Gérald Tenenbaum, *Introduction to Analytic and Probabilistic Number Theory*, 3rd ed., Graduate Studies in Mathematics 163, American Mathematical Society (2015), Chapter I.4。给出 Selberg upper-bound sieve 及其 remainder-form 基础；文档 221--222 只调用固定二维 sieve dimension、fixed positive level 下的上界筛；文档 222 另逐行验证两线性形式的 residue counts，不调用 lower sieve 或 prime-tuple asymptotic。
    https://www.ams.org/bookstore/pspdf/gsm-163-prev.pdf
+
+45. Harold Davenport, revised by Hugh L. Montgomery, *Multiplicative Number Theory*, 3rd ed., Graduate Texts in Mathematics 74, Springer (2000)。作为素数定理 `psi(x)=x+o(x)` 的权威参考；文档 252--253 只使用这一无条件渐近来控制 Mangoldt interval mass 与 matched Stieltjes discrepancy，不使用 RH 级误差项。
+   https://link.springer.com/book/9780387950976
 
 ## 使用这些来源时的边界
 

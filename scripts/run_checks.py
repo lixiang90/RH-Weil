@@ -116,6 +116,10 @@ CHECKS = (
         [sys.executable, "b1i_normalized_common_core_certificate.py"],
     ),
     (
+        "B1j Stieltjes transfer and fixed-lag diagnostics",
+        [sys.executable, "b1j_stieltjes_fixed_lag_audit.py"],
+    ),
+    (
         "Vaughan scalarized spectral ratio capture",
         [sys.executable, "vaughan_spectral_ratio_capture_audit.py"],
     ),

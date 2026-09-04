@@ -499,6 +499,8 @@ xelatex rh-weil-structure-paper.tex
 - [Directed trigonometric numerator 与 finite overlap 证书](notes/249-directed-trigonometric-numerator-and-finite-overlap-certificate.md)
 - [第二尺度 directed overlap 与 uniformity gap](notes/250-second-scale-directed-overlap-and-uniformity-gap.md)
 - [Exact dyadic phase common core 与 cofinal gate](notes/251-exact-dyadic-phase-common-core-and-cofinal-gate.md)
+- [Stieltjes transfer 与 fixed-lag cofinal obstruction](notes/252-stieltjes-transfer-and-fixed-lag-cofinal-obstruction.md)
+- [Matched-endpoint PNT transfer 与 Schur ratio closure](notes/253-matched-endpoint-pnt-transfer-and-schur-ratio-closure.md)
 - [研究分支看板](RESEARCH_BRANCHES.md)
 - [文献与证据边界](notes/003-sources.md)
 
@@ -513,5 +515,6 @@ xelatex rh-weil-structure-paper.tex
 - [B1h 第二尺度独立小测试](scripts/test_b1h_second_scale_intervals.py)
 - [B1i dyadic normalized common-core 证书](scripts/b1i_normalized_common_core_certificate.py)
 - [B1i exact common-core 小网格测试](scripts/test_b1i_normalized_common_core.py)
+- [B1j Stieltjes transfer 与 fixed-lag diagnostics](scripts/b1j_stieltjes_fixed_lag_audit.py)
 
 这里的“结构定理”是对已知 Weil/Grothendieck/Hilbert–Pólya 机制的一次公理化整理，不宣称其定义本身具有文献上的原创优先权。研究的开放部分是为数域 zeta / L 函数无循环地构造这些结构。

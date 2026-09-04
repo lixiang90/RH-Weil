@@ -13,7 +13,7 @@
 | NCE-5 | 备用线 | one-prime/one-block extension，预算增量可和 | extension 不调用完整 Weil positivity | 观察 |
 | NCE-6 | 备用线 | bounded-resolvent/negative-trace 的 ultraproduct 稳定性 | 先独立得到统一预算 `C` | 观察 |
 | NCE-7 | 非构造主线 | short-word effects 对实际 negative level sets 的 response-weighted capture | capture error共尾可和且不调用 Selberg/RH 等价输入 | degree-one universal moment route 已 sharp no-go |
-| NCE-8 | 当前主线 | B1j：先定义 cofinal `(Y_m,N_m,J_m,h_m,Xi_m)`，再证明 dyadic normalized-symbol transfer identity并隔离 `dpsi-dx` 输入 | transfer error须小于 strict ratio/response-density margins；在此之前禁止堆叠第三 finite point | `t=theta/log2` 上有宽 `29.655` 的 exact two-scale common core，分别捕获 `>5.329%`、`>11.327%` diagonal并共享 `-z>D/85` [T]；仍非 uniform B1a |
+| NCE-8 | 当前主线 | B1l：写出 actual Brownian/Gamma diagonal energy measure，并在 fixed nonresonant compact core 上证明 uniform positive capture，或证明 energy-escape obstruction | capture 必须针对实际物理 multiplier，且不得由两个 finite scales 外推；若不 tight 则转为严格 no-go | exact Stieltjes ledger 已闭合；fixed lag 被排除 [T/N]；matched endpoint 下 qualitative PNT 已给 `P/C->1` 与 Schur factor `->1/2` uniformly off resonance [T] |
 | NCE-9 | 非构造补全 | 把 finite Cauchy-translate Schur block写成 joint signed Type I/II large-sieve form | uniform finite-block budget只用 length-side数据且弱于完整 RH criterion | finite satisfiability compactness与Gram/Schur判据已完成；33 translates捕获约23% package norm |
 | MOM-1 | 四矩观察线 | 只在出现新的 actual determinant-correlation input 时恢复；不得继续增加 Möbius/divisor kernel 表示 | 新输入必须在 physical fiber 内先合并全部 divisor blocks，并直接给 `o(L^4)` global ledger | exact band/mass已闭合；cumulative、band energy、channel mass、raw pullback与 divisor separation五条候选证书均已 theorem/no-go；条件比例仍为 0.7569027 / 0.8784513 |
 | NCE-10 | 非构造补全 | 增长的 arithmetic mixed localizers 与 divisor-visible resolvent closure | 每个有限 word level 近正且 Archimedean 有界，闭包恢复 divisor | scalar fourth moments 有 65 维严格 no-go；finite-satisfiability completion 已证明 |
@@ -35,7 +35,7 @@
 
 只有在证明了一个不等价于 RH 的新引理，或把开放输入严格缩小后，分支才进入正式论文。若前提等价于完整 Weil positivity、uniform negative-index bound 或中心线本身，立即标记为“等价重述”并停止扩写。
 
-## 近期主要路线 A--E（2026-09-01 阶段审计）
+## 近期主要路线 A--E（2026-09-04 阶段审计）
 
 本节将当前技术分支压缩为五条主要路线，作为资源分配、晋级与止损的决策入口：A 为近期主线，B 为长期主线，C 为桥梁路线，D 为受限探索，E 为低风险验证路线。
 
@@ -60,7 +60,7 @@
 - **目标**：利用 Type I、Type II 与 continuum/Gamma 通道之间的真实交叉抵消，证明 square-root Vaughan rectangle 上的统一增益。
 - **当前基础**：exact divided-difference response与 Brownian Gram保持成立。笔记 242 发现旧 `U=V=floor(sqrt N)` 实验的 Type II严格为空；修正为 cube-root cutoff后 Type-II非零并与 Type-I强负相关，但三通道 diagonal/full 比依 decomposition改变。cutoff-invariant quantities 是合并 prime vector `u_p`、continuum vector `u_c` 及其 physical energy。
 - **最小引理 B1a**：固定一个 response rectangle与非空 Vaughan cutoff，直接从 prime/continuum coefficients证明 `Re<u_p,u_c><=-delta(||u_p||^2+||u_c||^2)`，其中 `delta>0` 与尺度无关。Type-I/II 只作为估计 `u_p` 的内部坐标，不能分别取绝对值。
-- **当前有限子任务 B1j**：B1i 已在 `t=theta/log2` 上证明 18-component、总宽 `29.655` 的 exact common core，并证明其在 `Y=8,16` 分别捕获 `>0.0532943571`、`>0.1132755926` 的完整 diagonal，故共享 `-z>D/85` [T]。现须先定义 cofinal `(Y_m,N_m,J_m,h_m,Xi_m)` 并证明 dyadic normalized-symbol transfer identity，把 persistence缺口严格归约到 `dpsi-dx`、prime tail、continuum mesh/tail与 phase remainder；不得直接增加第三 finite point。
+- **当前有限子任务 B1l**：B1j 已给 exact ledger `P-C^J=R_(psi-x)+endpoint mismatch+quadrature error`，并证明任何 uniform fixed ratio interval 都迫使 `liminf L_m/logY_m>=1` [T/N]。B1k 在 matched `L_m=logN_m` 上进一步只用 qualitative PNT，证明任意 fixed nonresonant compact core 上 `P/C->1` 且 scalar Schur factor `->1/2` uniformly [T]；不要求 `N_m/Y_m` 有上界。现在唯一 cofinal 缺口是 actual Brownian/Gamma response-energy measure 在某个这种 fixed core 上的 positive tight capture，或相反的 energy-escape no-go；不得直接增加第三 finite point。
 - **算术边界**：不得用任意系数 Bessel 界替代实际响应估计；必须保留交叉项，并单独控制 continuum 和 Gamma 通道。
 - **晋级条件**：解析证明有限实验中的增益不会随尺度消失，并将其转化为第二矩、负迹或截断 Weil 二次型的严格改善。
 - **止损条件**：若尺度中性的下界迫使 Schur 因子趋于 `1`，或者 continuum 项必然抵消全部收益，则停止该参数族，不再增加新的核表示。
@@ -151,7 +151,11 @@
 
 ## 本轮分支成果
 
-- [Exact dyadic phase common core 与 cofinal gate](notes/251-exact-dyadic-phase-common-core-and-cofinal-gate.md)：利用 `8=2^3,16=2^4` 把 `theta=xi log Y` 精确化为 `t=3xi,4xi`，无需 transcendental endpoint近似；两个 frozen whole-cell ledgers的整数网格交给 5,931 个 base cells、18 个 connected components、总 normalized width `29.655` [T]。parent pointwise lowers按 `1/3,1/4` exact splitting后，common core分别捕获 scale 8 的 `>0.0532943571` 与 scale 16 的 `>0.1132755926` diagonal，故两个 finite physical responses共享 `-z>D/85`、diagonal/full `>85/83` [T]。下一缺口不是第三有限点，而是 cofinal schedule与 dyadic `dpsi-dx` transfer [O]。
+- [Matched-endpoint PNT transfer 与 Schur ratio closure](notes/253-matched-endpoint-pnt-transfer-and-schur-ratio-closure.md)：在 `Y_m=2^m,N_m>=Y_m,L_m=logN_m,xi=t/m` 下，以 exact Stieltjes identity 和 qualitative PNT `psi=x+o(x)` 证明任意 fixed nonresonant compact `K` 上 `sup_K |P-C|/C->0` [T]，不需 PNT rate 或 cutoff-ratio upper。于是 prime/continuum ratio一致趋于 `1`，scalar Schur factor一致趋于 `1/2` [T]。又证明 18-component finite common core 可删除任意小的 resonant 邻域，同时保留两个尺度各 `>1/20` 的 certified lower [T]。ratio leg 已闭合；下一输入严格缩为 actual response-energy tight capture，或其 energy-escape obstruction。
+
+- [Stieltjes transfer 与 fixed-lag cofinal obstruction](notes/252-stieltjes-transfer-and-fixed-lag-cofinal-obstruction.md)：以 `x=e^lambda` 精确证明 `P_(Y,N)-C^J_(Y,L)=R_(psi-x)+int_(e^L)^N F+Q_J` [T]，把 arithmetic discrepancy、endpoint mismatch 与 quadrature error 完全分账。由无条件 PNT [R] 证明：若 `Y_m=2^m,N_m>=Y_m` 而 continuum second lag moment有界，则任一固定非零 normalized phase的 prime/continuum ratio逃逸 [T/N]；若某 fixed 正长度 interval 保留统一 ratio upper，则 `M_(2,m)>=c m^2Y_m^(1-sigma)`，标准 continuum 因而必须满足 `liminf L_m/logY_m>=1` [T/N]。这排除 fixed `L=2` 的 cofinalization。
+
+- [Exact dyadic phase common core 与 cofinal gate](notes/251-exact-dyadic-phase-common-core-and-cofinal-gate.md)：利用 `8=2^3,16=2^4` 把 `theta=xi log Y` 精确化为 `t=3xi,4xi`，无需 transcendental endpoint近似；两个 frozen whole-cell ledgers的整数网格交给 5,931 个 base cells、18 个 connected components、总 normalized width `29.655` [T]。parent pointwise lowers按 `1/3,1/4` exact splitting后，common core分别捕获 scale 8 的 `>0.0532943571` 与 scale 16 的 `>0.1132755926` diagonal，故两个 finite physical responses共享 `-z>D/85`、diagonal/full `>85/83` [T]。其 cofinal schedule 与 scalar `dpsi-dx` transfer 已由笔记 252--253 闭合；剩余缺口是 actual response-energy capture [O]。
 
 - [第二尺度 directed overlap 与 uniformity gap](notes/250-second-scale-directed-overlap-and-uniformity-gap.md)：对预注册 `(Y,N,J,h)=(16,15,4,1/200)`，以 rational canonical atom ordering、production binary64逐系数 replay、TV transfer及全部 51,199 个 frequency cells 的 outward certificate证明 `D_upper=0.001025620093083457466797381202`、`N_lower=0.000163944504546660552689839988` 与 `N_lower/D_upper>0.159849154333328712>3/20` [T]；推出 fixed physical overlap `-z>(3/85)(P+C)`、diagonal/full `>85/79` [T]。第二尺度 raw band fraction上升而 rigorous capture下降，uniformity gap缩到归一化共同 core及 density lower [O]。
 

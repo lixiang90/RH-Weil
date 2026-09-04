@@ -291,7 +291,7 @@ prime/continuum ledgers及整数网格交。
 被截断的 Abel prime tail消失。因此继续计算 `Y=32` 之前，必须先写出 cofinal coupling
 
 \[
- Y_m=2^m,\quad N_m,\quad J_m,\quad h_m,\quad \Xi_m
+ Y_m=2^m,\quad N_m,\quad L_m,\quad J_m,\quad h_m,\quad \Xi_m
 \tag{20}
 \]
 
@@ -316,3 +316,8 @@ prime/continuum ledgers及整数网格交。
 response-density margins，则 common capture从 `m` 传到 `m+1`。这将 uniform B1a 的
 缺口缩成具体 smoothed prime discrepancy估计；在该 identity及 cofinal schedule闭合前，
 禁止用更多 finite points冒充渐近证据。
+
+后续：笔记 252 已完成上述 exact Stieltjes transfer，并证明遗漏的 continuum endpoint
+`L_m` 不能保持固定；在 `N_m>=Y_m` 的 cofinal schedule 中，任何固定正长度 ratio
+interval 的 uniform upper 都迫使 `liminf L_m/log Y_m>=1` [T/N]。因此下一步改为
+matched `L_m=log N_m`，不再把 fixed `L=2` 外推到增长尺度。
