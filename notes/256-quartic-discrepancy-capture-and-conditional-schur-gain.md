@@ -360,3 +360,10 @@ PNT平方根误差、Weil positivity、谱酉性或 bounded negative index；但
 minimum kernel下的有限 prime--continuum 六重 signed sum，寻找 exact diagonal与
 off-diagonal cancellation；若只能得到 `J_4=o(1)` 而不能相对 `mu_m^4` 控制，则不足以
 应用推论 256-C。并行但独立的后续是 Gamma block bridge，不得混入 (19)。
+
+后续：笔记 257 已把 `J_4` 精确写成两个 centered triple convolutions 的 Brownian
+primitive energy [T]，并构造满足全部现有 soft inputs 的 positive-source family，使
+`J_4/mu^4->infinity` 且 actual `q_kappa^2` tilt 沿 `t asymp sqrt(m)` 完全逃逸 [N]。
+因此 B1o 的 soft route 已止损；B1p 必须利用真实 von Mangoldt coefficients 在
+mesoscopic lag separations 上的算术结构，不能继续从 qualitative PNT或 raw
+tightness推导式 (19)。

@@ -504,6 +504,7 @@ xelatex rh-weil-structure-paper.tex
 - [Balanced-core multiplier degeneracy 与 energy reweighting obstruction](notes/254-balanced-core-multiplier-degeneracy-and-energy-reweighting.md)
 - [Universal raw Brownian limit 与 discrepancy-tilt reduction](notes/255-universal-raw-brownian-limit-and-discrepancy-tilt-reduction.md)
 - [Quartic discrepancy capture 与 conditional Schur gain](notes/256-quartic-discrepancy-capture-and-conditional-schur-gain.md)
+- [Source-realizable mesoscopic tilt escape 与 triple-convolution ledger](notes/257-source-realizable-mesoscopic-tilt-escape.md)
 - [研究分支看板](RESEARCH_BRANCHES.md)
 - [文献与证据边界](notes/003-sources.md)
 
