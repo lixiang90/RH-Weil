@@ -19,6 +19,31 @@ Actions 将原检查清单分为 core、B1h、B1i 三组并行，全部成功才
 ## 正式论文整理稿
 
 最新研究进展（2026-09-06）：
+[283：固定整数对角 Abel 质量的强双向振荡](notes/283-fixed-cutoff-abel-mass-oscillation.md)，
+[284：因果 Abel 逆核与对角记录选择](notes/284-causal-abel-inverse-and-diagonal-record-selection.md)。
+对实际 von Mangoldt 源，无条件证明
+\(M(Y,Y)=\Omega_\pm(Y^{1/2-\sigma}\ell(Y))\)，其中可取整数 \(Y=N\)、
+\(\ell(Y)=\max(1,\log\log\log Y)\) [T/R]。
+证明核验硬截断的不完全 Gamma 乘子不消去右半平面极点；
+RH 成立与不成立两种分支合成的是无条件振荡，不是预设 RH。
+另独立构造指数可积的因果逆核，得到一条新的整数对角记录序列，
+同时有 \(|M|\gg Y^{1/2-\sigma}\ell(Y)\) 和全历史误差相对控制 [T/R]。
+它不是275原 dyadic 算法，也未给可认证记录高度或双符号记录。
+
+新序列保留已证增长低频与算术前缀删除；将更强质量接入274的统一高频定理后，
+完整预算严格归约到
+\[
+ \sqrt{\log Y}<|\xi|\le
+ T_{\rm diag}(Y)=\frac{Y}{\ell(Y)^2}
+           \sqrt{\frac{\log(2\log Y)}{\log Y}} .
+\]
+上端较原 \(T_*\) 缩小 \(\ell^2\) 因子，带外仅断言 \(O(\mu^4)\) [T]；
+**带内四阶预算仍开放**，不是 RH、GRH 或新零点比例结论。
+两篇已完成内部独立证明复核；全整数扫描至 \(2^{18}\) 及有限 Mellin 复算通过，
+数值只作[E]，不认证渐近振荡或理论记录。下一轮优先研究同一新序列
+\(\sqrt L<|\xi|\le L\) 的实际尾部双误差预算。本轮不更新 PDF，DL-AUDIT 未启动。
+
+同日上一轮：
 [281：全尺度、全部cutoff的固定正源障碍](notes/281-all-cutoff-chirp-obstruction.md)，
 [282：保留真实端点的RH条件响应基准](notes/282-rh-conditional-endpoint-preserving-response-bound.md)。
 281将278的“存在坏序列”提升为：同一固定正整数源在所有充分大尺度、
@@ -110,7 +135,7 @@ cutoff 选择，使 \(|M|>Y^{1/2-\sigma}\sqrt{\ell(Y)}\)，
 在 \(\sigma<1/2\) 时，四次预算在连续规则
 \(N=\lfloor cY\log Y\rfloor,\ c\ge3/4\) 上失败；
 所选自由dyadic预算仍开放，不是RH或新的零点比例结论。
-269--270已同步到下列独立障碍论文及PDF；271--282暂不并入。
+269--270已同步到下列独立障碍论文及PDF；271--284暂不并入。
 
 新增独立研究稿
 [abel-mass-obstruction-paper.tex](papers/abel-mass-obstruction-paper.tex)

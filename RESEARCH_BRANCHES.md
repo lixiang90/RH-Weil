@@ -4,7 +4,7 @@
 
 ## 当前队列
 
-维护验收与恢复（2026-09-06）：David--Lapidus 限额观察线、论文目录及 GitHub Actions 三项维护均已完成，[完整三组远程检查成功](https://github.com/lixiang90/RH-Weil/actions/runs/33982592142)。按用户“继续研究”恢复 B / NCE-8；恢复后已完成275--282四轮周期，`DL-AUDIT`仍未启动。观察线的启动与资源分配仍须按下述门槛执行。
+维护验收与恢复（2026-09-06）：David--Lapidus 限额观察线、论文目录及 GitHub Actions 三项维护均已完成，[完整三组远程检查成功](https://github.com/lixiang90/RH-Weil/actions/runs/33982592142)。按用户“继续研究”恢复 B / NCE-8；275--282四轮周期已结束，283--284完成下一周期第1轮：实际固定对角强振荡、稳定逆与新记录选择，并缩小高频阈值。`DL-AUDIT`仍未启动；观察线资源门槛不变。
 
 | ID | 角色 | 下一最小引理 | 晋级条件 | 状态 |
 |---|---|---|---|---|
@@ -15,7 +15,7 @@
 | NCE-5 | 备用线 | one-prime/one-block extension，预算增量可和 | extension 不调用完整 Weil positivity | 观察 |
 | NCE-6 | 备用线 | bounded-resolvent/negative-trace 的 ultraproduct 稳定性 | 先独立得到统一预算 `C` | 观察 |
 | NCE-7 | 非构造主线 | short-word effects 对实际 negative level sets 的 response-weighted capture | capture error共尾可和且不调用 Selberg/RH 等价输入 | degree-one universal moment route 已 sharp no-go |
-| NCE-8 | 当前主线 | B1z / 279：利用实际解析或乘法结构，估计同一新序列 \(n>N/L^h\)、\(\sqrt L<\lvert\xi\rvert\le L\) 的双误差预算；不再只靠选cutoff | 无条件的实际交叉估计、严格适用类障碍或进一步误差削减；不把282的RH前提隐藏 | 281全尺度全cutoff正源障碍 [N]及非亚纯适用排除 [T/N]；282 RH条件full预算 [C]；实际无条件中频与完整Weil桥梁 [O] |
+| NCE-8 | 当前主线 | B1z / 284-(45)：在新的整数对角记录 \(Y=N\) 上，固定 \(\sigma=1/4,\beta=3/8,h>2\)，估计 \(n>N/L^h\)、\(\sqrt L<\lvert\xi\rvert\le L\) 的实际双误差预算 | 无条件真实交叉估计、严格适用类障碍或进一步误差削减；不隐藏282的RH前提 | 283强双向质量与284因果逆/联合记录 [T/R]；剩余上端缩为 \(T_*/\ell^2\) [T]；实际中频及完整Weil桥梁 [O] |
 | NCE-9 | 非构造补全 | 把 finite Cauchy-translate Schur block写成 joint signed Type I/II large-sieve form | uniform finite-block budget只用 length-side数据且弱于完整 RH criterion | finite satisfiability compactness与Gram/Schur判据已完成；33 translates捕获约23% package norm |
 | MOM-1 | 四矩观察线 | 只在出现新的 actual determinant-correlation input 时恢复；不得继续增加 Möbius/divisor kernel 表示 | 新输入必须在 physical fiber 内先合并全部 divisor blocks，并直接给 `o(L^4)` global ledger | exact band/mass已闭合；cumulative、band energy、channel mass、raw pullback与 divisor separation五条候选证书均已 theorem/no-go；条件比例仍为 0.7569027 / 0.8784513 |
 | NCE-10 | 非构造补全 | 增长的 arithmetic mixed localizers 与 divisor-visible resolvent closure | 每个有限 word level 近正且 Archimedean 有界，闭包恢复 divisor | scalar fourth moments 有 65 维严格 no-go；finite-satisfiability completion 已证明 |
@@ -124,6 +124,12 @@
 - **B1z 主要反例的解析适用边界**：同一281模型的系数Dirichlet级数满足 \(\mathcal D_\lambda(1/2+q)\sim3\log\log(1/q)/(8q)\)，所以在 \(1/2\) 附近不可能亚纯。实际 \(-\zeta'/\zeta\) 的已知非循环解析性质已经排除此模型；不能因此把模型叫作Euler/函数方程反例，更不能说亚纯性已经产生实际中频上界。下一估计须说明怎样定量使用这个或其他真实算术区别。
 - **B1z RH条件基准与循环性 [T/C]**：[282](notes/282-rh-conditional-endpoint-preserving-response-bound.md)在普通积分内使用显式公式并保留原端点 \(w_Y(N)R(N)\)。单位高度计数与积分后的 \(1/\rho\) 及BV衰减使零点和绝对可和；在明确假设 \(\Re\rho\le\vartheta\) 下得 \(|\widehat r|\ll|M|+Y^{\vartheta-\sigma}\log^2(2+|\xi|)\)。RH时同一275序列有 \(Q_{\ge1}\ll M^4\)、\(J_{4,\ge1}\ll\mu^4/L\) 及full \(J_4\ll\mu^4\)。仅[C]，不能倒用作RH证明；一般 \(\vartheta>1/2\) 仍有未被质量阈值吸收的振幅。
 - **B1z 四轮决策、证据与论文归属**：275--282结束一个四轮周期。晋级的是新记录/低频、实际前缀删除以及全选择障碍；停止软范数与自由选择自动闭合路线。279尾部实际预算保持[O]，下一轮只在能具体使用真实亚纯性、有符号有限高度相关或素数乘法结构时推进，不重复等价换表示。实际早/晚段12配置与MP50端点复算通过但全部未达理论门槛，均[E]。完整证明经内部独立复核，材料归独立response论文；外部审查、新颖性、Gamma与Weil桥梁仍[O]。本轮不更新PDF，不启动DL-AUDIT。
+- **B1z 新周期第1轮：实际解析输入 [T/R]**：[283](notes/283-fixed-cutoff-abel-mass-oscillation.md)精确计算固定比例 Abel 质量的 Mellin 乘子 \(\gamma(s,c)\)，独立证明 \(c\le1,\Re s>0\) 无零，并重建带留数幅值的 Landau 双向振荡。RH分支用端点保留的 \(A_\sigma(Y)=e^{-1}Y^{-\sigma}R(Y)+O(Y^{1/2-\sigma})\) 与 Littlewood；非RH分支用未被消去的离线零点极点。两种分支无条件给 \(A_\sigma(Y)=\Omega_\pm(Y^{1/2-\sigma}\ell(Y))\)，整数化不跨原子。此处具体使用真实 zeta 的已知解析结构，不是继续假设模型正性。
+- **B1z 新周期联合记录与接口 [T/R]**：[284](notes/284-causal-abel-inverse-and-diagonal-record-selection.md)证明 \(F_\beta(z)=(z+\beta)\gamma(z+\beta-\sigma,1)\) 在所需半平面无零，并用减去首项后的可积 Bromwich 反演构造因果指数可积逆核。于是历史 \(R(n)/n^\beta\) 受过去 \(n^{-(\beta-\sigma)}A_\sigma(n)\) 控制；取后者的整数绝对值记录，得到 \(Y=N\)、\(|M|\gg Y^{1/2-\sigma}\ell\) 与新固定 guard。仅存在性，不称275算法、dyadic序列、双符号记录或已实现认证高度。
+- **B1z 新周期实际误差削减 [T]**：将新 \(M^4\gg Y^{2-4\sigma}\ell^4\) 接入274-A的全部实Y统一算术高频定理，得到 \(T_{\rm diag}=Y\sqrt{\log(2L)/L}/\ell^2\) 外 \(J_4=O(\mu^4)\)；阈值再乘任意固定正幂 \(\ell^\varepsilon\) 则为 \(o(\mu^4)\)。完整预算等价于 \(\sqrt L<|\xi|\le T_{\rm diag}\) 的实际裸四阶预算，仍[O]。279前缀证明单独核对后适用于新guard，首带 \(T=L\) 的一般门槛是 \(h>1/(4(\beta-\sigma))\)，指定参数才是 \(h>2\)。
+- **B1z 本轮独立输入、反例与循环性**：独立算术输入为无条件 Littlewood、zeta亚纯性/函数方程、标准显式公式和273--274真实乘积预算；因果逆本身只用权核分析，不产生振荡或正性。281仍排除仅历史包络/正源自动中频闭合；其最终正的对角质量不符合283的实际双向结论，但这不说明双向振荡足以闭合四阶。完整Weil与Gamma接口仍需256之外的独立输入，RH分支不从条件性命题单独倒推。
+- **B1z 本轮辅助与证据**：主线限于实际固定cutoff解析结构，辅助一为因果逆/量词逆向审计，辅助二为一份有限复算脚本；未启动其它路线。全整数扫描 \(2\le N\le2^{18}\) 得正/负75,494/186,649样本、2,736相邻反号对，非连续根证书；九点直接复算差小于 \(5.20\cdot10^{-11}\)，有限Mellin恒等式MP50差小于 \(3.65\cdot10^{-42}\)，全部[E]。283由主代理与carrier_audit独立复核，284由主代理、gap_exception_audit、midband_compute独立复核；新高频/前缀推论另审通过。
+- **B1z 新周期决策与止损**：联合记录桥梁和更小高频上端晋级为内部[T]，不再重复扩写因果逆表示；下一最小输入固定为284-(45)，成功后仍须处理 \(L<|\xi|\le T_{\rm diag}\)。若不能给真实交叉节省或严格缩小输入，则停止单纯改选record/改写零点和。283--284归独立Vaughan--Brownian response材料，先存Markdown与脚本，不更新PDF；论文新颖性、外部复核、有效高度及Goal阶段验收均未完成。
 - **晋级条件**：解析证明有限实验中的增益不会随尺度消失，并将其转化为第二矩、负迹或截断 Weil 二次型的严格改善。
 - **止损条件**：若尺度中性的下界迫使 Schur 因子趋于 `1`，或者 continuum 项必然抵消全部收益，则停止该参数族，不再增加新的核表示。
 - **预期产物**：可独立陈述的 response Gram 定理，以及它对部分 Weil 比例或平方根共振楔的定量影响。
