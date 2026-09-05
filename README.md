@@ -19,6 +19,19 @@ Actions 将原检查清单分为 core、B1h、B1i 三组并行，全部成功才
 ## 正式论文整理稿
 
 最新研究进展（2026-09-06）：
+[277：连续响应通道强制性与双误差接口](notes/277-continuum-channel-coercivity-and-double-discrepancy-interface.md)，
+[278：固定正整数源的中频障碍](notes/278-fixed-positive-integer-source-record-envelope-obstruction.md)。
+277证明实际连续响应在固定阈值以上有一致正下界，因此275剩余中频的无通道四阶预算
+不仅充分，也必要 [T]。278构造一个固定全局正整数权序列，满足平方根级累计误差、
+双向强振荡、大质量及275指定的严格历史 guard，但在频率 \(\asymp\log Y\)
+的真实四阶响应与 \(\mu^4\) 之比仍 \(\asymp\log Y\to\infty\) [N]。
+它直接排除只靠这些已列大小估计、正源和尺度一致性来自动闭合中频，
+不是实际 \(\Lambda\)、Euler乘积或RH的反例，也没有证明所有其他cutoff选择都失败。
+最高固定倍数频壳已被274覆盖，下一步应针对真正未控的内部增长频带，
+使用这个模型没有保留的素数算术结构。内部独立证明复核与四个窗口的实际复算通过，
+有限数值仍仅[E]；本轮未获得新的真实素数中频saving，未更新PDF。
+
+同日上一轮：
 [275：记录包络与增长低频闭合](notes/275-record-envelope-and-growing-low-frequency-closure.md)，
 [276：实际短增量障碍与平方根输入审计](notes/276-short-increment-and-square-root-input-obstructions.md)。
 固定 \(0<\sigma<\beta<1/2\)，由独立 Littlewood 振荡构造一条**新的**
@@ -68,7 +81,7 @@ cutoff 选择，使 \(|M|>Y^{1/2-\sigma}\sqrt{\ell(Y)}\)，
 在 \(\sigma<1/2\) 时，四次预算在连续规则
 \(N=\lfloor cY\log Y\rfloor,\ c\ge3/4\) 上失败；
 所选自由dyadic预算仍开放，不是RH或新的零点比例结论。
-269--270已同步到下列独立障碍论文及PDF；271--276暂不并入。
+269--270已同步到下列独立障碍论文及PDF；271--278暂不并入。
 
 新增独立研究稿
 [abel-mass-obstruction-paper.tex](papers/abel-mass-obstruction-paper.tex)

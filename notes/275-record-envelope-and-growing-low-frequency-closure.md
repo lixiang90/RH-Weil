@@ -8,6 +8,12 @@
 [E] 有限路径复算；[O] 中间频带、完整 Gamma/显式公式及上同调桥梁。
 本轮仅 Markdown。没有证明 RH/GRH、新的零点比例或文献新颖性。
 
+后续审计：[277](277-continuum-channel-coercivity-and-double-discrepancy-interface.md)
+补出增长中频的连续正通道下界，故本篇(30)的无通道版本在该频带同样必要；
+[278](278-fixed-positive-integer-source-record-envelope-obstruction.md)给出满足指定历史guard的固定
+正整数替代源反例。两者不改变本篇真实 \(\Lambda\) 新序列的低频证明，
+也没有证明其剩余中频预算失败。
+
 ## 1. 结论及与旧序列的区别
 
 固定可计算的 \(0<\sigma<\beta<1/2\)，令
