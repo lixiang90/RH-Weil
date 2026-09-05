@@ -4,7 +4,7 @@
 
 ## 当前队列
 
-维护验收与恢复（2026-09-06）：David--Lapidus 限额观察线、论文目录及 GitHub Actions 三项维护均已完成，[完整三组远程检查成功](https://github.com/lixiang90/RH-Weil/actions/runs/33982592142)。按用户“继续研究”恢复 B / NCE-8；恢复后已完成275--278，`DL-AUDIT`仍未启动。观察线的启动与资源分配仍须按下述门槛执行。
+维护验收与恢复（2026-09-06）：David--Lapidus 限额观察线、论文目录及 GitHub Actions 三项维护均已完成，[完整三组远程检查成功](https://github.com/lixiang90/RH-Weil/actions/runs/33982592142)。按用户“继续研究”恢复 B / NCE-8；恢复后已完成275--280，`DL-AUDIT`仍未启动。观察线的启动与资源分配仍须按下述门槛执行。
 
 | ID | 角色 | 下一最小引理 | 晋级条件 | 状态 |
 |---|---|---|---|---|
@@ -15,7 +15,7 @@
 | NCE-5 | 备用线 | one-prime/one-block extension，预算增量可和 | extension 不调用完整 Weil positivity | 观察 |
 | NCE-6 | 备用线 | bounded-resolvent/negative-trace 的 ultraproduct 稳定性 | 先独立得到统一预算 `C` | 观察 |
 | NCE-7 | 非构造主线 | short-word effects 对实际 negative level sets 的 response-weighted capture | capture error共尾可和且不调用 Selberg/RH 等价输入 | degree-one universal moment route 已 sharp no-go |
-| NCE-8 | 当前主线 | B1z：275新序列上真正未控的内部增长频带（先检验 \(\lvert\xi\rvert\asymp L\)）的双误差预算；最高固定倍数壳已闭合 | 新的实际素数中频估计，或能明确排除已列结构推理的严格障碍；不能只重写277等价判据 | 275低频与274高频保持；277真实通道双边比较 [T]，278固定全局正整数源反例 [N]；实际 \(\Lambda\) 的内部中频及完整 Weil 桥梁 [O] |
+| NCE-8 | 当前主线 | B1z / 279：先在 \(\sigma=1/4,\beta=3/8,h>2\) 上估计同一新序列的尾部 \(n>N/L^h\)、\(\sqrt L<\lvert\xi\rvert\le L\) 双误差预算 | 获得尾部实际算术交叉估计、严格反例或进一步已证误差削减；不只重写有限零点和 | 279实际前缀相对删除 [T]；280有限高度接口及固定有限模式删除 [T/R]；剩余尾部、全中频与完整 Weil 桥梁 [O] |
 | NCE-9 | 非构造补全 | 把 finite Cauchy-translate Schur block写成 joint signed Type I/II large-sieve form | uniform finite-block budget只用 length-side数据且弱于完整 RH criterion | finite satisfiability compactness与Gram/Schur判据已完成；33 translates捕获约23% package norm |
 | MOM-1 | 四矩观察线 | 只在出现新的 actual determinant-correlation input 时恢复；不得继续增加 Möbius/divisor kernel 表示 | 新输入必须在 physical fiber 内先合并全部 divisor blocks，并直接给 `o(L^4)` global ledger | exact band/mass已闭合；cumulative、band energy、channel mass、raw pullback与 divisor separation五条候选证书均已 theorem/no-go；条件比例仍为 0.7569027 / 0.8784513 |
 | NCE-10 | 非构造补全 | 增长的 arithmetic mixed localizers 与 divisor-visible resolvent closure | 每个有限 word level 近正且 Archimedean 有界，闭包恢复 divisor | scalar fourth moments 有 65 维严格 no-go；finite-satisfiability completion 已证明 |
@@ -108,13 +108,17 @@
 - **B1y 论文归属与未完成项**：273--274归独立Vaughan--Brownian response论文，先存完整Markdown和复现计算，不与Weil结构、四矩比例或连续cutoff障碍强行合篇。新颖性、有效常数/高度、一般L模型适用及外部同行评审仍[O]；本轮不更新PDF，后续集中同步。
 - **B1z 本周期主线晋级 [T/R]**：275固定 \(0<\sigma<\beta<1/2\)，以历史记录 \(P_\beta(N)=\max_{n\le N}|R(n)|/n^\beta\) 构造新的可认证共尾序列，同时有 \(|M|>Y^{1/2-\sigma}\sqrt\ell\) 与 \(P_\beta(N)N^{\beta-\sigma}\ll_{\sigma,\beta}|M|\)。记录点保留 Littlewood 强振幅，cutoff不越过记录点；Stieltjes路径因而满足 \(\|H\|_1\ll|M|,\ \|H\|_2^2\ll M^2\)。精确端点及卷积估计给 \(J_{4,\le T}/\mu^4\ll1+T^2/L\)，无条件闭合 \(T=\sqrt L\)，低频只声称 O 而非 o。
 - **B1z 独立算术输入与 Weil 接口**：Littlewood 无条件振荡 [R]、271正单调Stieltjes振幅、有限整数记录、严格不等式的交错认证；274统一高频定理和268真实正通道分母继续适用。选择不制造正性，275的全历史条件已由实际算术证明，不是任意新增公理。仍仅通过256-C条件性接入prime--continuum capture/Schur；Gamma、完整显式公式、上同调及其桥梁独立开放。
-- **B1z 下一最小引理 [O，277修正]**：沿275-B新序列，控制275-(30)的实际 \(\sqrt L<|\xi|\le T_*\) 联合四阶响应。最高壳 \(T_*/2<|\xi|\le T_*\) 已由274固定倍数尾界覆盖，不应重列开放。先针对 \(|\xi|\asymp L\) 的真正内部增长频率寻找实际双误差估计，逐壳预算最终须可和；只闭合一壳不升级为全频带。277证明该中频无通道预算同样必要；但单误差Young上界失败仍不能反用为真实双误差下界。
+- **B1z 下一最小引理 [O，279缩小]**：沿275-B同一新序列，先固定 \(\sigma=1/4,\beta=3/8,h>2\)，估计279-(24)的 \(Q_{\sqrt L<|\xi|\le L}(r_l)\ll M^4L\)，其中只保留 \(K<n\le N,\ K=\lfloor N/L^h\rfloor\) 与匹配连续尾部。279已把早段联合差异压成相对little-oh，不能再将它当作未知误差。完整剩余仍为275-(30)的 \(\sqrt L<|\xi|\ll T_*\)；最高固定倍数壳已由274覆盖，只闭合此第一子区间不升级为全频带。277保证中频无通道预算同样必要；280的有限零点换表示不能自动证明它。
 - **B1z 两条辅助线及证据 [E/T/N]**：辅助一是实际历史路径的有限复算，五个 \(Y=16,64,256,1024,4096\) 及50位独立最小例通过，全部仍未达到理论质量阈值。辅助二276保留真实素数正对角和连续负交叉，证明 \(V_Y(h)\gg hY^{1-2\sigma}L\) 对 \(0<h\le c_\sigma L/Y\) 一致成立；在 \(h=1/T_*\) 处排除任何固定对数损失的 \(V_Y(h)\ll M^2h^2L^A\)。不新增其他研究线。
 - **B1z 主要反例与循环性审计**：275正源运输反例排除“端点大质量/窗口最大性自动控制全历史”，不是实际Lambda反例。276实际单误差障碍不否定双误差卷积；其独立Mellin重建又证明一个固定比例的全尺度平方根二阶矩输入已蕴含RH，不能暗作软假设。稀疏共尾条件与全尺度条件严格区分，未声称剩余中频输入已知弱于RH。
 - **B1z 晋级、止损及论文归属**：只有进一步闭合非空增长频段、获得真实双误差saving或响应下界才晋级；停止单误差Lipschitz与只重写恒等式的路线。充分证书失败仅停止证书，实际响应强迫新序列比值无界才停止该序列。275--276先保留完整Markdown及一份可选SciPy复算脚本，归独立Vaughan--Brownian response材料；不更新PDF。内部独立审计通过，外部复核、新颖性、有效高度与论文级晋级仍[O]。DL-AUDIT仍未启动。
 - **B1z 本轮结构审计 [T/N]**：277以连续 Abel 密度的单峰BV和保留的中心质量 \(+B\)，证明固定频率阈值以上 \(|\widehat p|^2+|\widehat c|^2\asymp S^2\)。所以275新序列的完整预算等价于 \(Q_{\mathbb R}=O(M^4L)\)，亦等价于 \(\|(G*G)'\|_2^2=O(M^4L)\)，这里 \(G\) 为真实累计误差的奇延拓。等价改写本身不算算术saving；其作用是严证第三正通道不能隐藏剩余中频。
 - **B1z 固定全局模型障碍 [N]**：278构造同一 \(\lambda(n)\in[1/2,3/2]\)，沿 \(Y_j=2^{2^j},N_j=2Y_j\) 保留全局 \(R_\lambda=O(\sqrt x\,\ell)\)、\(\Omega_\pm\)、大质量、275指定严格guard及指数历史包络，却在固定宽度的 \(|\xi|\asymp L_j\) 带上有 \(J_{4,I_j}/\mu_j^4\asymp L_j\to\infty\)。同时同源双误差增量至少为 \(h_*^2M_j^4L_j^2\)，只排除 \(A<2\) 的对数损失，不排除任意 \(A\)。这是正整数替代源的真实响应反例，不是实际素数幂源，更未排除同模型另选cutoff成功。
 - **B1z 本轮独立输入、辅助证据与止损**：277仅新增连续通道的解析比较；278为完全显式、所有尺度一致的光滑拼接和整数离散化，无外部未证假设。辅助一：四个实际窗口、三个频壳及MP50独立小例复算，均未达到理论质量阈值，只[E]。辅助二：定量guard、旧块误差、Fourier相位平均和自由选择量词的独立逆向审计。现在停止仅重复已由278满足的大小/正性/一致性条件来闭合中频，也停止把第三通道当额外saving来源；保留真正两份误差的素数算术任务。277--278属独立response论文材料，先存Markdown；Gamma和Weil桥梁、新颖性与外部论文审查仍[O]。
+- **B1z 本轮实际算术晋级 [T]**：[279](notes/279-record-controlled-arithmetic-prefix-deletion.md)由已证历史包络得到 \(Q_{\le T}(r_e)\ll M^4(K/N)^{4\delta}(L+T^2)\)，\(\delta=\beta-\sigma\)；同时核对实际 \(M_l/M,S_l/S,D_l/D\to1\) 与连续尾部通道强制性。多对数频带 \(T=L^A,K=\lfloor N/L^h\rfloor\) 的阈值为 \(h\ge(2A-1)/(4\delta)\)，严格大于给little-oh；幂级 \(K=\lfloor Y^\kappa\rfloor,T=Y^\theta\) 在 \(\theta\le2\delta(1-\kappa)\)（包括等号）已给little-oh。只控制前缀，不证明尾部预算。
+- **B1z 本轮独立算术输入与Weil接口**：279使用275独立振荡与历史记录、实际Chebyshev、匹配Stieltjes端点及正连续bulk；相对误差不是RH等价输入。仍仅经256-C接入prime--continuum capture/Schur，Gamma及上同调桥梁另列[O]。[280](notes/280-finite-zero-interface-and-fixed-mode-audit.md)的有限高度公式使用Kedlaya9.9已核验余项，保留全部实际 \(\Re\rho\)；\(V=\sqrt YL^{A+2}\) 与物理 \(T=L^A\) 不混淆，换表示不算新saving。
+- **B1z 本轮辅助证据与反例审计 [T/E]**：280证明固定有限、共轭封闭且 \(\Re\rho\le1/2\) 的所选模式有 \(Q=O(Y^{2-4\sigma}L)=o(M^4L)\)，不扩展至增长集合。12个实际配置与MP50固定模板复算均通过、均未达到275质量门槛，仅[E]；有限中频首零点形状不能升级为渐近主导，较大比值也须检查小质量分母。278坏块位于 \(x\asymp Y\)，前缀删除不消除它，所以一般正源自动闭合路线仍被排除。
+- **B1z 本轮晋级、止损与论文归属**：真正新增的是279已证的实际相对前缀误差；下一轮须有尾部实际估计、新反例或进一步误差削减，只扩展280等价表示就停止该动作。“多数尺度好”与275稀疏记录集的交叉选择必须另证；硬截断不能冒用完整Gamma指数衰减。279--280先存独立response论文Markdown材料与可选复算脚本，暂不更新PDF；内部独立审计不代替外部同行评审或新颖性证明。DL-AUDIT仍未启动。
 - **算术边界**：不得用任意系数 Bessel 界替代实际响应估计；必须保留交叉项，并单独控制 continuum 和 Gamma 通道。
 - **晋级条件**：解析证明有限实验中的增益不会随尺度消失，并将其转化为第二矩、负迹或截断 Weil 二次型的严格改善。
 - **止损条件**：若尺度中性的下界迫使 Schur 因子趋于 `1`，或者 continuum 项必然抵消全部收益，则停止该参数族，不再增加新的核表示。
