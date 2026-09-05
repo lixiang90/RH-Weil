@@ -408,6 +408,15 @@ sixfold moment，而是式 (20) 的 equal-carrier signed Gram。要恢复
 若另有 \(|\mu|\ge c_0L^{-r}\)，可选固定 \(Q+3\ge2r\) 闭合此条件；
 当前未证明这种质量差下界。
 
+后续263已在实际matched Abel系数上证明更强的停止结论：
+定量PNT给 \(\mu=O_K(L^{-K})\) 对每个固定 \(K\) 成立，而
+任意 \(H=O(\log L)\) 窗口的正连续尾迫使
+\(\mu^2/(t+\ell)\to0\)，一致覆盖所有 \(N\ge Y\)。
+因此上述对数幂质量下界在实际族中不成立，固定 \(Q\) 的
+\(t+\ell=O(\mu^2)\) 证书不能闭合。
+原relative upper bound及absolute decay定理保持有效；
+下一输入改为带符号响应差本身，不能从证书失败推断实际响应转移失败。
+
 严格逻辑反例：取 \(L>6H>0,\ \epsilon=e^{-L}\)，
 \[
  \alpha=\delta_L+\epsilon\delta_{L-2H},\qquad

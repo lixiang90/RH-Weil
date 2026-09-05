@@ -520,6 +520,8 @@ xelatex rh-weil-structure-paper.tex
 - [七扇区 sharp coercivity 与平衡 discrepancy 归约](notes/260-sharp-carrier-coercivity-and-balanced-discrepancy-reduction.md)
 - [实际 Abel质量振荡与孤立素数原子障碍](notes/261-abel-mass-oscillation-and-prime-atom-obstruction.md)
 - [统一截断响应下界与截断类 mass-only障碍](notes/262-uniform-cutoff-floor-and-mass-budget-obstruction.md)
+- [实际小窗口正源相对尾证书障碍](notes/263-positive-tail-certificate-obstruction.md)
+- [最优能量平方强制性与局部单一预算判据](notes/264-sharp-energy-square-coercivity-and-local-budget.md)
 - [研究分支看板](RESEARCH_BRANCHES.md)
 - [文献与证据边界](notes/003-sources.md)
 
@@ -527,6 +529,8 @@ xelatex rh-weil-structure-paper.tex
 
 - [实际素数原子与整数间距精确审计](scripts/abel_prime_atom_audit.py)
 - [实际 Abel质量有限数值探针](scripts/abel_mass_discrepancy_probe.py)
+- [冻结dyadic平衡一阶矩与二阶能量探针](scripts/dyadic_balanced_moment_probe.py)
+- [最优能量平方不等式的有理数交叉审计](scripts/brownian_energy_square_audit.py)
 - [七扇区有理数交叉审计](scripts/carrier_sector_coercivity_audit.py)
 - [半局部 Weil 矩阵与 residual 证书](scripts/qw_matrix.py)
 - [Legendre prolate 候选与端点修正](scripts/prolate_candidate.py)

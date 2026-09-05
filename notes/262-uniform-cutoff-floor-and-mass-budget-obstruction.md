@@ -220,6 +220,11 @@ prime/continuum二通道，Gamma-complete与上同调结构的桥梁仍为 [O]�
 只停止那个schedule；完整能量预算及相对误差同时闭合才晋级。
 停止继续寻求262-B这类连续族上的软 mass-only公理。
 
+后续263--264：小窗口的正源绝对相对tail证书已被定量PNT无条件排除，
+包括任意dyadic/free-cutoff族；这不是full-source mass-only预算的no-go。
+局部预算经最优能量平方不等式缩为单一 \(E_{2,H}=O(LM_H^4)\)。
+B1u剩余接口为实际signed响应差、\(|M_H|=O(|M|)\) 与该局部能量预算。
+
 ## 6. 审计、复算与文献边界
 
 独立复核确认了 (1) 中 \(N\)-一致常数、实数 \(Y\) 的Bertrand选取、
