@@ -154,6 +154,13 @@
 48. Alexander Weiße, Gerhard Wellein, Andreas Alvermann, Holger Fehske, *The Kernel Polynomial Method*, Reviews of Modern Physics 78 (2006), 275--306；作者预印本 arXiv:cond-mat/0504627v2，§II.3.2--II.3.3。[R] 作为正核保正、Chebyshev展开和经典Jackson分辨率的文献定位。本轮已阅读相应正文；式(71)的优化KPM核不是291采用的正弦四次卷积核，不能混用系数。291的具体加权平方迹误差、常数及次数下界均独立重证，不归为该文的新结果，也不据此声称本项目论文新颖性。
    https://arxiv.org/html/cond-mat/0504627v2
 
+49. NIST Digital Library of Mathematical Functions，§5.7(ii)，公式5.7.6。[R] 292仅使用digamma部分分式展开，并自行按 \(n\asymp |t|\) 分段证明固定 \(\sigma>0\) 的 \(\psi((\sigma+it)/2)=O_\sigma(\log(2+|t|))\) 及Cauchy可积性。不把固定Gamma估计外推到变化参数或未截断Abel尾。
+   https://dlmf.nist.gov/5.7.E6
+
+50. Kiran S. Kedlaya，*Notes on analytic number theory*，第5章§5.1的完成函数方程及第9章Remark9.7的临界带零点计数。[R] 292的全尺度定性障碍只需要“有一个非平凡零点”和中心线反射，不使用计数速率、RH、离线零点假设或数值零点。292定量记录部分仍使用283--284中已独立核验的输入，不能用此弱零点存在性取代强质量记录。
+   https://kskedlaya.org/ant/chap-funceq.html
+   https://kskedlaya.org/ant/chap-von-mangoldt.html
+
 ## 使用这些来源时的边界
 
 - Deligne 已无条件证明有限域结论，但不是通过证明全部 standard conjectures；不能把 standard conjectures 的一般成立当成已知事实。

@@ -4,7 +4,7 @@
 
 ## 当前队列
 
-维护验收与恢复（2026-09-06）：David--Lapidus 限额观察线、论文目录及 GitHub Actions 三项维护均已完成，[完整三组远程检查成功](https://github.com/lixiang90/RH-Weil/actions/runs/33982592142)。按用户“继续研究”恢复 B / NCE-8；275--282与283--290各完成一个四轮周期。新周期第1轮291改善通用平方负迹证书到最优阶 \(S/d\)，并证明实际有限素数符号的宽谱区间；289的短历史滤波尝试未获新算术节省，已停止扩写。主线最小输入仍是289-(53)实际有限谱包预算，完整Weil接口和新高阶response亦独立开放。`DL-AUDIT`仍未启动；观察线资源门槛不变。
+维护验收与恢复（2026-09-06）：David--Lapidus 限额观察线、论文目录及 GitHub Actions 三项维护均已完成，[完整三组远程检查成功](https://github.com/lixiang90/RH-Weil/actions/runs/33982592142)。按用户“继续研究”恢复 B / NCE-8；275--282与283--290各完成一个四轮周期。新周期第1轮291给最优阶平方证书；第2轮292证明固定 \(\sigma<1/2\) 原始素数—连续符号的实际负迹沿284记录为 \(\Theta(|M|)\)，全整数尺度亦定性发散。**修改目标**：停止该原始符号的绝对有界负迹路线，以及逼近误差已为 \(O(1)\) 时的有界平方响应目标；优先审计完整Weil参数与截断迁移，289-(53)门槛式保留为独立响应问题，不再标作RH存在性的直接推进。`DL-AUDIT`仍未启动；观察线资源门槛不变。
 
 | ID | 角色 | 下一最小引理 | 晋级条件 | 状态 |
 |---|---|---|---|---|
@@ -15,7 +15,7 @@
 | NCE-5 | 备用线 | one-prime/one-block extension，预算增量可和 | extension 不调用完整 Weil positivity | 观察 |
 | NCE-6 | 备用线 | bounded-resolvent/negative-trace 的 ultraproduct 稳定性 | 先独立得到统一预算 `C` | 观察 |
 | NCE-7 | 非构造主线 | short-word effects 对实际 negative level sets 的 response-weighted capture | capture error共尾可和且不调用 Selberg/RH 等价输入 | degree-one universal moment route 已 sharp no-go |
-| NCE-8 | 当前主线 | B1z / 289-(53)：沿284同一记录，在首带 \(\sqrt L<\lvert\xi\rvert\le L\) 估计 \(\Re\rho>1/2+\log L/(4L),\ \lvert\Im\rho\rvert\le4\lceil L\rceil L\) 的新 resolvent 余项核实际有符号四阶预算 | 真实交叉节省或新的独立算术缩减；限额审计低代价一侧证书，不把相对矩界当完整Weil正性 | 新核谱高度无条件降至多对数级 [T/R]；正Euler/对偶/所有相对偶矩仍不识别中心线 [N]；实际预算及绝对Weil账本 [O] |
+| NCE-8 | 当前主线：修改目标 | B1z / 292后：选定右侧参数日程 \(\delta_Y>0\to0\) 与完整Abel迁移方案，核验原迹下的实际差值和负井补偿；289-(53)仅作独立响应问题门槛式保留 | 独立控制此前未控的迁移误差/有符号抵消，或得到新严格障碍；不以相对矩和等价重写晋级 | 固定左侧raw的有界负迹及小逼近误差下的有界平方响应 [N/停止]；中心化四阶及完整Weil接口 [O] |
 | NCE-9 | 非构造补全 | 把 finite Cauchy-translate Schur block写成 joint signed Type I/II large-sieve form | uniform finite-block budget只用 length-side数据且弱于完整 RH criterion | finite satisfiability compactness与Gram/Schur判据已完成；33 translates捕获约23% package norm |
 | MOM-1 | 四矩观察线 | 只在出现新的 actual determinant-correlation input 时恢复；不得继续增加 Möbius/divisor kernel 表示 | 新输入必须在 physical fiber 内先合并全部 divisor blocks，并直接给 `o(L^4)` global ledger | exact band/mass已闭合；cumulative、band energy、channel mass、raw pullback与 divisor separation五条候选证书均已 theorem/no-go；条件比例仍为 0.7569027 / 0.8784513 |
 | NCE-10 | 非构造补全 | 增长的 arithmetic mixed localizers 与 divisor-visible resolvent closure | 每个有限 word level 近正且 Archimedean 有界，闭包恢复 divisor | scalar fourth moments 有 65 维严格 no-go；finite-satisfiability completion 已证明 |
@@ -170,8 +170,18 @@
 - **与广义Weil配置的接口**：新 \(F(z)=-zb_{m,S}(z)^2\) 通过同一完整current的Chebyshev lag递推及共同差商 \([F(z)-F(M)]/(z-M)\)，精确进入194/195的Cauchy/Gram证书；完整 \(F(M)\)、全部signed通道和真实谱界均保留。充分误差账本为 \(|F(M)|+\sqrt{\mathbf1^*G\mathbf1}+3\pi S/m+\eta\)。只有独立算术控制和完整divisor识别后才可推出负迹结论；旧degree-two乘子、\(\mu^4\)预算和256增益不能直接挪用。
 - **主要反例、循环性与范围**：通用下界可由一维谱点检验，但不能冒称每个实际谱分布的积分缺口都大。真实大频率相位可能有极小Cauchy质量，加入Gamma/有限维压缩/复Dirichlet源后双侧谱结论须另证。正核产生的是可计算effect而非算术正性；选择 \(m\asymp S\) 只控制近似误差，不控制高阶实际response。经典Jackson机制已从正式论文作者v2核验，不声明新方法或文献新颖性。
 - **证据 [T/E]**：291核心全文经主代理与三名代理独立交叉核对；实际谱区间证明两路复核。新脚本的整数kernel卷积、MP60阶跃积分/Chebyshev及完整periodizedCauchy/lag response全部通过，最大后者误差约 \(1.41\cdot10^{-60}\)。样本符号是合成的，有限网格不是sup或渐近证书；主线没有把有限真实零点计算外推为(53)。
-- **下一最小引理与晋级条件 [O]**：主线仍只接受289-(53)的实际交叉节省或新的独立算术输入。辅助的通用逼近阶已封口；只有独立得到实际谱分布的加权误差预算，或新指定高阶signed response的绝对估计，才继续接近Weil负迹目标。证明两者之一必须保留原尺度和完整通道；不以更小统一谱界、更多一般矩或再调rho代替。
+- **当时的下一最小引理；292后修订**：291的通用逼近阶已封口。292进一步证明固定左侧raw \(P_Y\) 在逼近误差 \(O(1)\) 时的signed平方响应也必发散，该绝对有界目标由[O]改为[N/停止]。只有正确右侧参数、完整通道及规范迹的实际估计仍可指向Weil；289-(53)中心化四阶预算本身仍[O]，须遵守下节的迁移门槛。
 - **止损与论文归属**：本轮晋级的是证书误差改善及范围明确的次数障碍，不是RH算术正性的突破。停止固定次数的通用 \(O(1)\) 误差路线和Erlang“平滑自动节省”路线。291归独立有限迹证书/结构障碍材料；289只追加失败审计。仅Markdown及一份可复现脚本，不更新PDF、不启动DL-AUDIT；正式论文整合、外部审查和Goal阶段验收未完成。
+
+#### B1z 新周期第2轮：实际负迹障碍与目标修订（2026-09-06）
+
+- **已解最小引理 [T/R/N]**：[292](notes/292-record-carrier-negative-trace-obstruction.md)从原未中心化 \(P_Y=M\cos(Lt)+t\int H_Y\sin(tu)du\) 出发，用固定低频负井和全轴Plancherel/Cauchy上界证明284同一记录上正负迹均为 \(\Theta(|M|)\)。记录质量无需同时有两种符号；292-(14)核验Cauchy均值仍为 \(O_\sigma(1)\)，不能与 \(M=P_Y(0)\) 混同。
+- **独立算术输入**：定量记录结论使用283无条件振荡及284因果历史转移；一般载波定理只用有限实源和相对历史 \(L^1,L^2\)。全整数尺度定性发散另用已知非平凡零点、函数方程、Euler开集及145正规族分析部分，不预设RH或离线零点。
+- **配置接口与循环性**：仍是固定 \(0<\sigma<1/2\)、有限 \(N=Y\) raw符号；完整Weil使用 \(s=1/2+\delta_Y+it,\delta_Y>0\to0\) 及完整Abel尾。两者不默认等同。任何欲在原迹中补成有界负迹的修正，须在实际负井上贡献至少 \(c|M|-O(1)\) 的正质量；这只是必要条件，不把缺失补偿当公理。
+- **主要障碍与停止 [N]**：固定Gamma项已严格核验为Cauchy-\(L^1\)的 \(O_\sigma(1)\)，不能修复原始符号；\(o(|M|)\) 修正同样失败。291若令 \(S/m=O(1)\)，其signed平方响应本身发散。停止追加固定Gamma、小常数、提高次数或质量归一化来制造同一raw负迹的 \(O(1)\) 目标；全Y定性结论也排除仅换共尾序列。
+- **当前证据**：292包含全证明与删项反例；定量carrier平均误差为 \(O_I(|M|/L)\)，不把固定窗外推为全轴渐近。配套合成BV模型脚本只检验有限恒等式和误差账本，不认证任何实际记录或渐近定理。
+- **下一最小任务 [O]**：明确一条右侧参数日程 \(\delta_Y>0,\delta_Y\to0\) 和完整Abel截断方案，先重建实际差值及原迹下的负井补偿，保持divisor germ和Poisson条件。只有出现独立误差削减或真实有符号抵消，才恢复289向完整目标的桥梁；仅重加权恒等式不算进展。
+- **决策与论文归属**：修改主线目标；289-(53)中心化四阶问题门槛式保留观察，未宣布失败。292归独立response论文的适用边界，不扩写为RH证明。Markdown、有限复算、内部独立审计后提交；不更新PDF，DL-AUDIT未启动。新颖性、外部同行评审及Goal阶段验收仍[O]。
 
 ### 路线 C / VIS-1：离线零点深度可见性（桥梁路线）
 
