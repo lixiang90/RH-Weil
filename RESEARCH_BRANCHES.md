@@ -4,7 +4,7 @@
 
 ## 当前队列
 
-维护验收与恢复（2026-09-06）：David--Lapidus 限额观察线、论文目录及 GitHub Actions 三项维护均已完成，[完整三组远程检查成功](https://github.com/lixiang90/RH-Weil/actions/runs/33982592142)。按用户“继续研究”恢复 B / NCE-8；恢复后已完成275--280，`DL-AUDIT`仍未启动。观察线的启动与资源分配仍须按下述门槛执行。
+维护验收与恢复（2026-09-06）：David--Lapidus 限额观察线、论文目录及 GitHub Actions 三项维护均已完成，[完整三组远程检查成功](https://github.com/lixiang90/RH-Weil/actions/runs/33982592142)。按用户“继续研究”恢复 B / NCE-8；恢复后已完成275--282四轮周期，`DL-AUDIT`仍未启动。观察线的启动与资源分配仍须按下述门槛执行。
 
 | ID | 角色 | 下一最小引理 | 晋级条件 | 状态 |
 |---|---|---|---|---|
@@ -15,7 +15,7 @@
 | NCE-5 | 备用线 | one-prime/one-block extension，预算增量可和 | extension 不调用完整 Weil positivity | 观察 |
 | NCE-6 | 备用线 | bounded-resolvent/negative-trace 的 ultraproduct 稳定性 | 先独立得到统一预算 `C` | 观察 |
 | NCE-7 | 非构造主线 | short-word effects 对实际 negative level sets 的 response-weighted capture | capture error共尾可和且不调用 Selberg/RH 等价输入 | degree-one universal moment route 已 sharp no-go |
-| NCE-8 | 当前主线 | B1z / 279：先在 \(\sigma=1/4,\beta=3/8,h>2\) 上估计同一新序列的尾部 \(n>N/L^h\)、\(\sqrt L<\lvert\xi\rvert\le L\) 双误差预算 | 获得尾部实际算术交叉估计、严格反例或进一步已证误差削减；不只重写有限零点和 | 279实际前缀相对删除 [T]；280有限高度接口及固定有限模式删除 [T/R]；剩余尾部、全中频与完整 Weil 桥梁 [O] |
+| NCE-8 | 当前主线 | B1z / 279：利用实际解析或乘法结构，估计同一新序列 \(n>N/L^h\)、\(\sqrt L<\lvert\xi\rvert\le L\) 的双误差预算；不再只靠选cutoff | 无条件的实际交叉估计、严格适用类障碍或进一步误差削减；不把282的RH前提隐藏 | 281全尺度全cutoff正源障碍 [N]及非亚纯适用排除 [T/N]；282 RH条件full预算 [C]；实际无条件中频与完整Weil桥梁 [O] |
 | NCE-9 | 非构造补全 | 把 finite Cauchy-translate Schur block写成 joint signed Type I/II large-sieve form | uniform finite-block budget只用 length-side数据且弱于完整 RH criterion | finite satisfiability compactness与Gram/Schur判据已完成；33 translates捕获约23% package norm |
 | MOM-1 | 四矩观察线 | 只在出现新的 actual determinant-correlation input 时恢复；不得继续增加 Möbius/divisor kernel 表示 | 新输入必须在 physical fiber 内先合并全部 divisor blocks，并直接给 `o(L^4)` global ledger | exact band/mass已闭合；cumulative、band energy、channel mass、raw pullback与 divisor separation五条候选证书均已 theorem/no-go；条件比例仍为 0.7569027 / 0.8784513 |
 | NCE-10 | 非构造补全 | 增长的 arithmetic mixed localizers 与 divisor-visible resolvent closure | 每个有限 word level 近正且 Archimedean 有界，闭包恢复 divisor | scalar fourth moments 有 65 维严格 no-go；finite-satisfiability completion 已证明 |
@@ -120,6 +120,10 @@
 - **B1z 本轮辅助证据与反例审计 [T/E]**：280证明固定有限、共轭封闭且 \(\Re\rho\le1/2\) 的所选模式有 \(Q=O(Y^{2-4\sigma}L)=o(M^4L)\)，不扩展至增长集合。12个实际配置与MP50固定模板复算均通过、均未达到275质量门槛，仅[E]；有限中频首零点形状不能升级为渐近主导，较大比值也须检查小质量分母。278坏块位于 \(x\asymp Y\)，前缀删除不消除它，所以一般正源自动闭合路线仍被排除。
 - **B1z 本轮晋级、止损与论文归属**：真正新增的是279已证的实际相对前缀误差；下一轮须有尾部实际估计、新反例或进一步误差削减，只扩展280等价表示就停止该动作。“多数尺度好”与275稀疏记录集的交叉选择必须另证；硬截断不能冒用完整Gamma指数衰减。279--280先存独立response论文Markdown材料与可选复算脚本，暂不更新PDF；内部独立审计不代替外部同行评审或新颖性证明。DL-AUDIT仍未启动。
 - **算术边界**：不得用任意系数 Bessel 界替代实际响应估计；必须保留交叉项，并单独控制 continuum 和 Gamma 通道。
+- **B1z 第四轮量词障碍 [T/N]**：[281](notes/281-all-cutoff-chirp-obstruction.md)取单一光滑误差 \(\mathcal R(x)=\sqrt x\,\ell(x)[3/4+\cos((\log x)^2/2)]\) 并固定离散化。它在所有充分大实 \(Y\)、所有整数 \(N\in[Y,2Y]\) 上均有 \(M\asymp Y^{1/2-\sigma}\ell>0\)、275指定严格guard及历史路径范数，却在 \(I=[L-2,L-1]\) 上满足 \(J_{4,I}/\mu^4\asymp L\)。因此仅凭已列软条件，连自由跳过尺度的共尾选择也不能保证成功；这次不再只是一条可跳过的坏序列。
+- **B1z 主要反例的解析适用边界**：同一281模型的系数Dirichlet级数满足 \(\mathcal D_\lambda(1/2+q)\sim3\log\log(1/q)/(8q)\)，所以在 \(1/2\) 附近不可能亚纯。实际 \(-\zeta'/\zeta\) 的已知非循环解析性质已经排除此模型；不能因此把模型叫作Euler/函数方程反例，更不能说亚纯性已经产生实际中频上界。下一估计须说明怎样定量使用这个或其他真实算术区别。
+- **B1z RH条件基准与循环性 [T/C]**：[282](notes/282-rh-conditional-endpoint-preserving-response-bound.md)在普通积分内使用显式公式并保留原端点 \(w_Y(N)R(N)\)。单位高度计数与积分后的 \(1/\rho\) 及BV衰减使零点和绝对可和；在明确假设 \(\Re\rho\le\vartheta\) 下得 \(|\widehat r|\ll|M|+Y^{\vartheta-\sigma}\log^2(2+|\xi|)\)。RH时同一275序列有 \(Q_{\ge1}\ll M^4\)、\(J_{4,\ge1}\ll\mu^4/L\) 及full \(J_4\ll\mu^4\)。仅[C]，不能倒用作RH证明；一般 \(\vartheta>1/2\) 仍有未被质量阈值吸收的振幅。
+- **B1z 四轮决策、证据与论文归属**：275--282结束一个四轮周期。晋级的是新记录/低频、实际前缀删除以及全选择障碍；停止软范数与自由选择自动闭合路线。279尾部实际预算保持[O]，下一轮只在能具体使用真实亚纯性、有符号有限高度相关或素数乘法结构时推进，不重复等价换表示。实际早/晚段12配置与MP50端点复算通过但全部未达理论门槛，均[E]。完整证明经内部独立复核，材料归独立response论文；外部审查、新颖性、Gamma与Weil桥梁仍[O]。本轮不更新PDF，不启动DL-AUDIT。
 - **晋级条件**：解析证明有限实验中的增益不会随尺度消失，并将其转化为第二矩、负迹或截断 Weil 二次型的严格改善。
 - **止损条件**：若尺度中性的下界迫使 Schur 因子趋于 `1`，或者 continuum 项必然抵消全部收益，则停止该参数族，不再增加新的核表示。
 - **预期产物**：可独立陈述的 response Gram 定理，以及它对部分 Weil 比例或平方根共振楔的定量影响。

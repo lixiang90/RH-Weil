@@ -19,6 +19,21 @@ Actions 将原检查清单分为 core、B1h、B1i 三组并行，全部成功才
 ## 正式论文整理稿
 
 最新研究进展（2026-09-06）：
+[281：全尺度、全部cutoff的固定正源障碍](notes/281-all-cutoff-chirp-obstruction.md)，
+[282：保留真实端点的RH条件响应基准](notes/282-rh-conditional-endpoint-preserving-response-bound.md)。
+281将278的“存在坏序列”提升为：同一固定正整数源在所有充分大尺度、
+所有 \(N\in[Y,2Y]\) 都满足大质量及指定历史guard，却有
+\(J_{4,[L-2,L-1]}/\mu^4\asymp L\) [N]，跳过尺度也不能修复。
+同时证明其系数Dirichlet级数在 \(s=1/2\) 不能亚纯延拓，明确指出
+实际 \(-\zeta'/\zeta\) 的一个已知解析性质已排除此模型；不扩大为实际素数反例。
+282只在普通积分内使用显式公式、保留原子端点，证明RH条件下
+同一275序列的完整 \(J_4=O(\mu^4)\)，且 \(|\xi|\ge1\) 部分为 \(O(\mu^4/L)\) [C]。
+不能把这个条件基准倒用成RH证明。12个实际早/晚段复算通过但全部未达理论门槛，
+仅[E]；无条件尾部中频、Gamma与完整Weil桥梁仍[O]。
+内部独立复核完成，本轮不更新PDF；275--282四轮周期停止纯历史包络的选择路线，
+下一步仍须使用实际解析或乘法结构控制279的尾部预算。
+
+同日上一轮：
 [279：历史包络控制的实际算术前缀删除](notes/279-record-controlled-arithmetic-prefix-deletion.md)，
 [280：有限零点接口与固定模式删除审计](notes/280-finite-zero-interface-and-fixed-mode-audit.md)。
 沿275同一新记录序列，证明实际早段（素数与连续背景联合）
@@ -32,7 +47,7 @@ Actions 将原检查清单分为 core、B1h、B1i 三组并行，全部成功才
 12个实际有限配置及MP50复算通过，但没有一个达到理论质量阈值，均仅[E]。
 本轮已完成内部独立证明复核，不声称RH、新零点比例或文献新颖性；不更新PDF。
 
-同日上一轮：
+同日前序：
 [277：连续响应通道强制性与双误差接口](notes/277-continuum-channel-coercivity-and-double-discrepancy-interface.md)，
 [278：固定正整数源的中频障碍](notes/278-fixed-positive-integer-source-record-envelope-obstruction.md)。
 277证明实际连续响应在固定阈值以上有一致正下界，因此275剩余中频的无通道四阶预算
@@ -95,7 +110,7 @@ cutoff 选择，使 \(|M|>Y^{1/2-\sigma}\sqrt{\ell(Y)}\)，
 在 \(\sigma<1/2\) 时，四次预算在连续规则
 \(N=\lfloor cY\log Y\rfloor,\ c\ge3/4\) 上失败；
 所选自由dyadic预算仍开放，不是RH或新的零点比例结论。
-269--270已同步到下列独立障碍论文及PDF；271--280暂不并入。
+269--270已同步到下列独立障碍论文及PDF；271--282暂不并入。
 
 新增独立研究稿
 [abel-mass-obstruction-paper.tex](papers/abel-mass-obstruction-paper.tex)
