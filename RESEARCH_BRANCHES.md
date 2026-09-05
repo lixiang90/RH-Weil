@@ -13,7 +13,7 @@
 | NCE-5 | 备用线 | one-prime/one-block extension，预算增量可和 | extension 不调用完整 Weil positivity | 观察 |
 | NCE-6 | 备用线 | bounded-resolvent/negative-trace 的 ultraproduct 稳定性 | 先独立得到统一预算 `C` | 观察 |
 | NCE-7 | 非构造主线 | short-word effects 对实际 negative level sets 的 response-weighted capture | capture error共尾可和且不调用 Selberg/RH 等价输入 | degree-one universal moment route 已 sharp no-go |
-| NCE-8 | 当前主线 | B1u：冻结同一 dyadic/cutoff/window，测试实际带符号响应差与质量匹配；局部预算只需 \(E_{2,H}=O(LM_H^4)\) | 264-(22)三项须在同一schedule由独立算术估计闭合，或给指定schedule的实际响应障碍；仅改写条件不晋级 | 263无条件排除全部free-cutoff小窗口正尾证书 [N]；264最优能量不等式与局部单预算判据 [T]；实际Schur/capture仍 [O] |
+| NCE-8 | 当前主线 | B1v：固定 \(Y_m=2^m,N_m=\lfloor Y_mL_m^2\rfloor,H_m=\min(\log L_m,L_m/8)\)，估计265-(24)中保留两份差异的实际四阶卷积 | 四阶signed transfer、局部预算及质量匹配须同时成立；或由实际下界停止指定schedule | 265无条件 \(J_4=O(e^{-2d\sqrt L})\) 及signed截断改进 [T]；266实际局部gap下界 [T]、仅二阶预算的光滑正源no-go [N]；相对质量与Schur仍 [O] |
 | NCE-9 | 非构造补全 | 把 finite Cauchy-translate Schur block写成 joint signed Type I/II large-sieve form | uniform finite-block budget只用 length-side数据且弱于完整 RH criterion | finite satisfiability compactness与Gram/Schur判据已完成；33 translates捕获约23% package norm |
 | MOM-1 | 四矩观察线 | 只在出现新的 actual determinant-correlation input 时恢复；不得继续增加 Möbius/divisor kernel 表示 | 新输入必须在 physical fiber 内先合并全部 divisor blocks，并直接给 `o(L^4)` global ledger | exact band/mass已闭合；cumulative、band energy、channel mass、raw pullback与 divisor separation五条候选证书均已 theorem/no-go；条件比例仍为 0.7569027 / 0.8784513 |
 | NCE-10 | 非构造补全 | 增长的 arithmetic mixed localizers 与 divisor-visible resolvent closure | 每个有限 word level 近正且 Archimedean 有界，闭包恢复 divisor | scalar fourth moments 有 65 维严格 no-go；finite-satisfiability completion 已证明 |
@@ -65,9 +65,12 @@
 - **B1u 当前周期（主线一条、辅助两条）**：主线为同一实际schedule的带符号截断：直接估计 \(\|\mathbf P-\mathbf P_H\|/(M^2\sqrt D)\) 并核对 \(|M_H|/|M|\)，禁止先用正源TV替换响应差。辅助一由264证明最优 \(E_2\ge E_1^2/H\)，故局部 \(J_{\rm loc}=O((M_H/S_H)^4)\) 当且仅当 \(E_{2,H}=O(LM_H^4)\)，原二阶输入自动缩为 \(E_{1,H}=O(M_H^2\sqrt{LH})\)。辅助二为固定 \(\sigma=1/4,Y=2^m,N=\lfloor Y\log^2Y\rfloor,\ 3\le m\le18\) 的有界能量/矩复算 [E]；全源数据不得套用局部响应判据。
 - **B1u 独立输入与接口**：263障碍只用已发表的Fiori--Kadiri--Swidinsky定量PNT、精确Stieltjes边界项及正源几何；264基础引理只用有限零质量测度、支撑长度、Hermitian自相关与Cauchy。真正未决算术输入为264-(22)的局部 \(E_{2,H}\) 预算、质量匹配及实际signed response差，通过256的capture/Schur归约接入部分Weil配置。没有从紧性或选择原理制造正性；Gamma-complete及上同调桥梁仍独立开放。
 - **B1u 当前证据与主要反例**：两份证明独立逆向复核通过所有cutoff量词、最优常数、非零/零质量分支及局部/full归一化。104个有理测度精确检查及1024个独立自相关斜率区间支持恒等式；双端点例取等，9个零一阶矩例仍有非零能量。实际全源 \(E_1/(LM^2)\) 在已算点从约0.387升至4.898，但只能记[E]；不能从有限趋势推出能量逃逸。260固定宽度正源反例、261--262实际连续质量振荡与263正尾下界分别阻止不同的推理，不能混写其量词。
-- **B1u 下一最小引理、晋级和止损**：冻结一个具体schedule，先独立估计其带符号截断差；若该差及质量匹配可控，再证明同一局部 \(E_{2,H}=O(LM_H^4)\)，三项同时闭合才晋级。264的二阶下界可以作为该局部schedule的障碍测试，但小二阶预算不推出四阶预算。若抽取 \(m_j\)，仍保留物理频率 \(t=m_j\xi\)。停止重试固定Q的绝对正尾证书；仅改用更大的固定Q、只证质量分离或引用fixed-frequency PNT均不算闭合。262-(14)仍是其cutoff窗口中预算成立的必要条件，不是充分条件。
+- **相对闭合门槛与止损**：265已得到实际signed截断的绝对改进，但还不能相对full \(M^2\) 控制；仍须同时证明264-(22)的三项。若抽取 \(m_j\)，保留物理频率 \(t=m_j\xi\)。停止重试固定Q正尾证书；只证质量分离、只证二阶预算或只引用fixed-frequency PNT不晋级。262-(14)与266-(11)分别是full/local预算的必要条件，不是充分条件。
 - **B1u 循环性审计**：264局部等价判据是已证明的分析归约，但实际能量估计没有随之得到。在局部预算和质量匹配已成立后，signed transfer与full预算由三角不等式互相推出；因此264-(22)是分开的开放输入账本，不能宣称它本身给出此前未知、更弱的算术定理。原256的自由cofinal存在性仍[O]；中心参数连续mass-only预算至少蕴含RH，不得当作软公理。
-- **论文归属**：261--262已经整理为独立 `abel-mass-obstruction-paper.tex`；263--264暂以Markdown保存，归Vaughan--Brownian response论文后续审计材料。当前轮不重排PDF；每几轮按数学成熟度再同步。不混入广义Weil结构或四矩比例论文；内部证明及复算不等于文献新颖性或外部同行评审已经完成。
+- **B1u 实际算术推进 [T]**：265保留signed weighted-PNT primitive，证明所有有限 \(N\ge Y\) 一致的 \(\|F_r\|\ll S\sqrt L E\)、\(J_4\ll E^2\)，其中 \(E=e^{-d\sqrt L},d<0.8476836\)。对任意固定 \(k\) 及 \(0\le H\le k\sqrt L\)，实际response差除以 \(S^2\sqrt D\) 至多 \(Ce^{-(1-\sigma)H}E\)，质量截断差至多 \(CSe^{-(1-\sigma)H}E\)。这是独立PNT产生的一份signed saving，不是两份saving；仍没有实际质量下界足以闭合相对预算。
+- **B1v 下一最小引理 [O]**：固定队列所列的同一schedule，研究 \(A_4=\|F_{(r-r_H)*(r+r_H)}\|\) 与 \(B_4=\|F_{r_H*r_H}\|\) 的实际联合四阶系数，目标为 \(A_4+e^{-(1-\sigma)H}B_4=O(M^2\sqrt L)\)。265-(21)只对第三正通道取Young，已严格证明此输入充分闭合signed transfer；它不是把六阶full响应误差改名，也不宣称必要或已知弱于RH。优先寻找两份真实discrepancy之间的算术抵消，禁止把其中一个因子取TV后再声称获得了双saving。
+- **本轮辅助证据与反例 [T/N/E]**：266给实际 \(E_{1,H}\ge c_\sigma Y^{-2\sigma}L^2\)（\(\log2\le H<L/6\)）及局部预算必要尺度 \(|M_H|\gg Y^{-\sigma}L^{3/4}H^{-1/4}\)。另有光滑严格正源满足更强二阶预算却使 \(E_2/(LM_H^4)\to\infty\)，包括 \(L\to\infty\) 版本；它排除纯二阶闭合，但不是von Mangoldt反例。四个实际局部窗的归一化二阶比不单调，没有触发实际schedule止损。30例Fraction截断恒等式、104例能量回归及独立50位小例均复算通过；全部计算仅[E]。
+- **论文归属**：261--262已经整理为独立 `abel-mass-obstruction-paper.tex`；263--266暂以Markdown保存，归Vaughan--Brownian response论文后续审计材料。当前轮不重排PDF；每几轮按数学成熟度再同步。不混入广义Weil结构或四矩比例论文；内部证明及复算不等于文献新颖性或外部同行评审已经完成。
 - **算术边界**：不得用任意系数 Bessel 界替代实际响应估计；必须保留交叉项，并单独控制 continuum 和 Gamma 通道。
 - **晋级条件**：解析证明有限实验中的增益不会随尺度消失，并将其转化为第二矩、负迹或截断 Weil 二次型的严格改善。
 - **止损条件**：若尺度中性的下界迫使 Schur 因子趋于 `1`，或者 continuum 项必然抵消全部收益，则停止该参数族，不再增加新的核表示。

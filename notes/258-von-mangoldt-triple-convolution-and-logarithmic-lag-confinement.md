@@ -227,6 +227,11 @@ center atom再减去相应总质量；因此 centered cumulative等于负的一�
 是足以推出 B1o-q4 的明确 weighted-PNT tail-square input；它比 B1o-q4 本身更强，
 当前保持 [O]，不能从 `psi(x)=x+o(x)` 推出。
 
+后续265用独立定量PNT证明全cutoff一致的
+\(\int|R_m|^2\ll S_m^2L_m e^{-2d\sqrt{L_m}}\)，每个固定 \(d<0.8476836\) 适用。
+这把full \(J_4\) 的绝对界压到 \(O(e^{-2d\sqrt L})\)，
+但没有闭合本节(18)所需的相对 \(\mu^4\) 预算；不能把两种分母混淆。
+
 ## 4. Actual Abel source 的 exponential lag tails
 
 令 source tail mass

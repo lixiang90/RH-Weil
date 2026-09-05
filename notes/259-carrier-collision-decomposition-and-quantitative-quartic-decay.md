@@ -11,6 +11,10 @@ carrier finite-rank main term、equal-carrier collision remainder及无条件定
 local collision kernel；但该 absolute \(o(1)\) bound 不给 \(J_4=O(\mu^4)\)，也不证明
 normalized actual tilt tightness。Gamma residual未并入，不声称 RH/GRH。
 
+后续265的实际signed-PNT估计将这里的绝对ceiling加强为
+\(J_4=O(e^{-2d\sqrt L})\)，对每个固定 \(d<0.8476836\) 和全部 \(N\ge Y\) 一致成立。
+本笔记的carrier恒等式保持有效；新界仍不是相对 \(\mu^4\) 控制。
+
 ## 1. 从 discrepancy-only 到全部六个 lag variables
 
 沿用笔记 258 的 one-sided measures \(\alpha_m,\beta_m\)，置
