@@ -9,16 +9,35 @@
 - `output/pdf/`：统一保存最终 PDF；`tmp/pdfs/` 仅放临时检查产物。
 - `notes/`：研究笔记；[研究看板](RESEARCH_BRANCHES.md) 记录路线、开放输入和止损条件。
 
-2026-09-06 按用户要求进行维护：加入限额 David--Lapidus 结构审计线、
-整理论文目录并修复远程 Actions。三项验收完成前不启动新的数学研究周期。
-加入看板不代表该路线已通过证明审计或已启动试审。
+2026-09-06 三项维护已完成：加入限额 David--Lapidus 结构审计线、
+整理论文目录并修复远程 Actions。[完整三组远程检查已成功](https://github.com/lixiang90/RH-Weil/actions/runs/33982592142)。
+按用户“继续研究”恢复 B 主线；David--Lapidus 仍仅登记、未启动试审。
 目录迁移与 CI 故障的证据见 [维护记录](notes/maintenance-2026-09-06.md)。
 Actions 将原检查清单分为 core、B1h、B1i 三组并行，全部成功才通过总验收；
 本地无参数运行 `python scripts/run_checks.py` 仍执行完整清单。
 
 ## 正式论文整理稿
 
-最新研究进展（2026-09-05）：
+最新研究进展（2026-09-06）：
+[275：记录包络与增长低频闭合](notes/275-record-envelope-and-growing-low-frequency-closure.md)，
+[276：实际短增量障碍与平方根输入审计](notes/276-short-increment-and-square-root-input-obstructions.md)。
+固定 \(0<\sigma<\beta<1/2\)，由独立 Littlewood 振荡构造一条**新的**
+可认证共尾 cutoff 序列，同时满足大 Abel 质量与全历史记录包络 [T/R]。
+沿它证明 \(J_{4,\le T}/\mu^4\ll_{\sigma,\beta}1+T^2/\log Y\)，
+无条件闭合 \(|\xi|\le\sqrt{\log Y}\)。结合274已有高频尾，完整四阶预算
+严格归约到两端都增长的中间频带
+\[
+ \sqrt{\log Y}<|\xi|\le Y\sqrt{\log(2\log Y)/\log Y}.
+\]
+此结论不能回填给271原选择程序的任意输出。276另证明：在中频顶端对应短尺度，
+单误差的质量相对 \(L^2\)-Lipschitz 预算即使允许任意固定对数损失也一致失败 [N]；
+但不否定双误差卷积或真正响应中的抵消。一个固定比例的全尺度平方根二阶矩输入
+已蕴含 RH，不能当作未解释的常规估计。
+完整证明经内部独立复核；五个有限路径复算及50位最小例通过，但全部窗口
+尚未达到理论大质量阈值，数值仅[E]。剩余中频、Gamma、完整 Weil 桥梁仍[O]；
+没有证明 RH、新零点比例或文献新颖性。本轮只更新 Markdown 与可选复算脚本，不更新 PDF。
+
+前一轮进展（2026-09-05）：
 [273：实际乘积逆最近间距预算](notes/273-prime-product-nearest-gap-budget-via-determinant-sieve.md)，
 [274：次线性频带之外的完整响应闭合](notes/274-sublinear-frequency-tail-and-remaining-joint-response.md)。
 在固定 \(0<\sigma<1/2\)、全部有限 \(N\in[Y,2Y]\) 上，无条件证明
@@ -49,7 +68,7 @@ cutoff 选择，使 \(|M|>Y^{1/2-\sigma}\sqrt{\ell(Y)}\)，
 在 \(\sigma<1/2\) 时，四次预算在连续规则
 \(N=\lfloor cY\log Y\rfloor,\ c\ge3/4\) 上失败；
 所选自由dyadic预算仍开放，不是RH或新的零点比例结论。
-269--270已同步到下列独立障碍论文及PDF；271--274暂不并入。
+269--270已同步到下列独立障碍论文及PDF；271--276暂不并入。
 
 新增独立研究稿
 [abel-mass-obstruction-paper.tex](papers/abel-mass-obstruction-paper.tex)
