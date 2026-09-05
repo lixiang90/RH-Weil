@@ -5,6 +5,18 @@
 ## 正式论文整理稿
 
 最新研究进展（2026-09-05）：
+[273：实际乘积逆最近间距预算](notes/273-prime-product-nearest-gap-budget-via-determinant-sieve.md)，
+[274：次线性频带之外的完整响应闭合](notes/274-sublinear-frequency-tail-and-remaining-joint-response.md)。
+在固定 \(0<\sigma<1/2\)、全部有限 \(N\in[Y,2Y]\) 上，无条件证明
+\(\mathcal G(Y,N)\ll_\sigma Y^{4-4\sigma}\log(2\log Y)\) [T/R]，
+闭合272原开放的(G)。证明重建固定行列式筛，并同时控制高素数幂自身及其邻点污染。
+在271的同一共尾大质量序列上，剩余完整响应预算进一步缩到
+\(|\xi|\le T_*=Y\sqrt{\log(2\log Y)/\log Y}=o(Y)\)；
+带外为 \(O_\sigma(\ell^{-2}\mu^4)=o(\mu^4)\)，带内仍开放。
+两份独立代理内部证明审计通过；十个完整支撑实验及两个独立50位小例复算通过，
+但数值仍仅[E]。本轮仅Markdown与脚本，不声称RH、新零点比例或文献新颖性已获确认。
+
+前序基础：
 [271：局部振幅与共尾大质量选择](notes/271-dyadic-oscillation-and-cofinal-large-mass-selection.md)，
 [272：缩小频带的完整响应归约](notes/272-large-mass-selection-and-reduced-response-frequency-band.md)。
 由经典 Littlewood 振荡及新的 Stieltjes/dyadic 桥梁，证明存在可认证的自由共尾
@@ -13,9 +25,9 @@ cutoff 选择，使 \(|M|>Y^{1/2-\sigma}\sqrt{\ell(Y)}\)，
 在 \(0<\sigma<1/2\) 上，将该新序列的完整四阶预算严格归约到
 \(|\xi|\le Y\sqrt{\log Y}/\ell(Y)\)；剩余预算仍开放，不是 RH 证明。
 这不是268首素数规则在每个 dyadic 尺度上的改进。
-本轮仅更新 Markdown 和可复现计算；八个已算窗口尚未达到理论筛选阈值。
+该轮仅更新 Markdown 和可复现计算；八个已算窗口尚未达到理论筛选阈值。
 
-上一轮已完成：
+已有障碍结果：
 [269：全部有限cutoff一致的中尺度响应下界](notes/269-mesoscopic-discreteness-floor-for-full-response.md)，
 [270：对数cutoff类的质量预算障碍](notes/270-logarithmic-cutoff-mass-budget-obstruction.md)。
 对固定 \(0<\sigma<1\)，无条件证明全部有限 \(N\ge Y\) 上
@@ -23,7 +35,7 @@ cutoff 选择，使 \(|M|>Y^{1/2-\sigma}\sqrt{\ell(Y)}\)，
 在 \(\sigma<1/2\) 时，四次预算在连续规则
 \(N=\lfloor cY\log Y\rfloor,\ c\ge3/4\) 上失败；
 所选自由dyadic预算仍开放，不是RH或新的零点比例结论。
-269--270已同步到下列独立障碍论文及PDF；271--272暂不并入。
+269--270已同步到下列独立障碍论文及PDF；271--274暂不并入。
 
 新增独立研究稿
 [abel-mass-obstruction-paper.tex](abel-mass-obstruction-paper.tex)

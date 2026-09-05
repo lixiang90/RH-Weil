@@ -199,7 +199,7 @@ lower sieve。
 
 \[
  X_h=
- \sum_{b,d\asymp Y}
+ \sum_{\substack{b,d\asymp Y\\b\ne d}}
  \frac{\Lambda(b)\Lambda(d)\mathbf 1_{b,d\ \mathrm{prime}}}{bd}
  \int_{\mathbb R}
  w\!\left(\frac{x+h}{dY}\right)
@@ -207,6 +207,10 @@ lower sieve。
  \qquad X_h\ll Y^2,
 \tag{15}
 \]
+
+后续273逆向复核修订：这里显式去除 \(b=d\)，使共同主密度与BC的
+gcd条件精确一致。旧式遗漏的对角项至多 \(O(YL)\)，可并入(16)误差；
+修订不改变本篇最终 incidence 上界，但不再称含此对角的主量为精确密度。
 
 并且
 

@@ -1,8 +1,9 @@
 # 256. Quartic discrepancy capture 与 conditional Schur gain
 
-后续271--272：Littlewood实际误差振荡保证一条新的自由共尾大质量选择，
-并将该选择的full四阶预算严格归约到
-\(|\xi|\le Y\sqrt{\log Y}/\max(1,\log\log\log Y)\)。
+后续271--274：Littlewood实际误差振荡保证一条新的自由共尾大质量选择；
+273独立证明真实乘积逆最近间距预算，274进一步将同一选择的full四阶预算
+严格归约到次线性增长频带
+\(|\xi|\le Y\sqrt{\log(2\log Y)/\log Y}=o(Y)\)。
 这不是本篇预算已经成立，也不是268每dyadic首素数schedule的同序列改进。
 
 日期：2026-09-04
