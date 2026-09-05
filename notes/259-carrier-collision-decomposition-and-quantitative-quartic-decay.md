@@ -92,8 +92,12 @@ normalized actual tilt tightness。Gamma residual未并入，不声称 RH/GRH。
 \tag{8}
 \]
 
-（这里使用 qualitative PNT 使 \(A_m/B_m\to1\)），故实际得到比式 (5)更强的幂次；
-式 (5)成立。 \(\square\)
+这里还须控制 kernel中落在非 tail variable上的 lag。由式 (6)，
+\(\int\lambda\,d(\alpha+\beta)\le(L+H)S+
+L\int_{I^c}(1+\lambda/L)d(\alpha+\beta)=O(LS)\)，其中 \(I=[L-H,L+H]\)。
+因此上述每一项的 first-moment积分也被控制，不能只引用 total variation。
+（式 (8)使用 qualitative PNT 使 \(A_m/B_m\to1\)。）
+实际得到 \(|J_4-J_4^H|=O(L^{-Q-3})\)，故式 (5)成立。 \(\square\)
 
 该引理截断 \(\alpha,\beta\) 的全部六个 copies，而不只截断笔记 258-E 的两个
 discrepancy factors；因此下面每个 lag都可写成 \(L+\) small offset。
@@ -306,7 +310,7 @@ shape information只存在于式 (20)。
 \]
 
 式 (14) 给式 (22)。又由 tail bound，
-\(M_H/S=\mu_m+O(L^{-Q})\)，并且
+\(M_H/S=\mu_m+O(L^{-Q-3})\)，并且
 
 \[
  |a_1|\le HA_m,\qquad |b_1|\le HB_m,\qquad |d_1|\le HS.
@@ -317,7 +321,7 @@ shape information只存在于式 (20)。
 
 \[
  J_{4,m}=O\left(
- \mu_m^4+|\mu_m|^3\frac HL+\frac HL+L^{-Q}\right).
+ \mu_m^4+|\mu_m|^3\frac HL+\frac HL+L^{-Q-3}\right).
 \]
 
 因为 \(|\mu_m|\le1\)、\(H\asymp\log L\)，得到式 (23)--(24)。 \(\square\)
@@ -353,7 +357,7 @@ even-centering factor。
 
 因此它不闭合笔记 256 的 mass-relative criterion。真正剩余的对象不是 arbitrary
 sixfold moment，而是式 (20) 的 equal-carrier signed Gram。要恢复
-\(J_4=O(\mu^4)\)，一个充分的 response-specific input 是
+\(J_4=O(\mu^4)\)，截断模型的一个充分 response-specific input 是
 
 \[
 \boxed{
@@ -364,8 +368,57 @@ sixfold moment，而是式 (20) 的 equal-carrier signed Gram。要恢复
 \tag{27}
 \]
 
-该条件为 [O]，且必须在完整 signed combination中估计；逐项 absolute bound只重现
-式 (22) 的 \(H/L\) ceiling。
+该条件为 [O]，只控制 \(J_4^H\) 与 \((M_H/S)^4\)。要推出 full-source
+\(J_4=O(\mu^4)\)，还须下述质量相对 tail条件；任意固定幂次 absolute tail
+估计本身不够。逐项 absolute bound只重现式 (22) 的 \(H/L\) ceiling。
+
+### 2026-09-05 独立审计修正：relative tail transfer [T/N]
+
+令 \(\tau=\alpha+\beta\)，并记
+\[
+ t=\frac{\tau(I^c)}S,\qquad
+ \ell=\frac{\int_{I^c}\lambda\,d\tau}{LS}.
+\]
+若 \(D\ge cLS^2\)，则
+\[
+ \left|\sqrt{J_4}-\sqrt{J_4^H}\right|
+ \le8t+4\sqrt{\frac{t\ell}{2c}}\le C_c(t+\ell).
+\]
+证明：两通道组成 Hilbert空间中的向量。在各通道中写
+\[
+ r*r*p-r^H*r^H*p^H
+ =(r-r^H)*(r+r^H)*p+r^H*r^H*(p-p^H).
+\]
+第一项用 Young不等式及
+\(\|r-r^H\|_{\rm TV}\le2St,\ \|r+r^H\|_{\rm TV}\le4S\)，
+归一化后贡献至多 \(8t\)。第二项贡献至多
+\(4\sqrt{D_{\rm tail}/D}\)，这里
+\(D_{\rm tail}=\|F_{p-p^H}\|_2^2+\|F_{c-c^H}\|_2^2\)。
+由正源的 minimum-of-two identity，
+\[
+ D_{\rm tail}\le\frac12
+ \sum_{\gamma=\alpha,\beta}\gamma(I^c)
+               \int_{I^c}\lambda\,d\gamma
+ \le\frac12 LS^2t\ell.
+\]
+两通道求和及三角不等式给结论。
+
+因此 (27) 加上 \(t+\ell=O(\mu^2)\) 是 full-source充分条件。
+它同时给 \(|M_H/S-\mu|\le t=O(\mu^2)\)。
+若另有 \(|\mu|\ge c_0L^{-r}\)，可选固定 \(Q+3\ge2r\) 闭合此条件；
+当前未证明这种质量差下界。
+
+严格逻辑反例：取 \(L>6H>0,\ \epsilon=e^{-L}\)，
+\[
+ \alpha=\delta_L+\epsilon\delta_{L-2H},\qquad
+ \beta=\delta_L+\epsilon\delta_{L-3H}.
+\]
+此时 \(\mu=M_H=0\)，central sources完全相同，所以 (27)成立；
+tails小于任意固定负幂。然而
+\(r=\epsilon(k_{L-2H}-k_{L-3H})\ne0\)，且 \(p\ne0\)。
+其 Fourier transforms为非零解析函数，乘积 \(\widehat r^{\,2}\widehat p\)
+不恒为零，故 \(J_4>0\)。这否定了旧版未附 relative tail条件的推论。
+反例属于一般正源模型，不是 actual von Mangoldt源反例。
 
 另一方面，如果 \(\mathcal Q_{\rm coll}\) 有远大于 carrier main 的 positive lower，
 并且其 physical 频率集中于 \(|t|\ge m/\log L\)，则应转向 actual escape theorem，
@@ -416,7 +469,7 @@ absolute-value Brownian kernel与 elementary TV bounds；不使用 zeros、RH/GR
   sixfold integral到唯一 local arithmetic Gram 的核心结构节。
 
 B1q 已把 central six-lag kernel精确拆成 finite-rank carrier main 与 local collision。
-下一最小引理 B1r 是把式 (20) 按 carrier \(q=-3,\ldots,3\) 分成至多七个 short
-multiplicative-interval Grams，利用两个 actual \(\alpha-\beta\) factors研究 signed
-cancellation；若 ordinary large-sieve/TV 仍只给 \(H/L\)，应构造 matching lower/no-go，
-不得把式 (27)作为未经证明的 positivity axiom。
+后续笔记260已完成 B1r：式 (20) 的七扇区全部展开，精确平衡时得到
+与四阶 discrepancy卷积能量之间的双边最优常数 \(3/8,11/16\)，并给非平衡扰动界。
+下一最小引理 B1s 是实际二阶/四阶 discrepancy能量与质量差的统一比较，
+同时控制本笔记修正后的相对tails。不得把式 (27)作为未经证明的 positivity axiom。

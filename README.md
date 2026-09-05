@@ -507,11 +507,13 @@ xelatex rh-weil-structure-paper.tex
 - [Source-realizable mesoscopic tilt escape 与 triple-convolution ledger](notes/257-source-realizable-mesoscopic-tilt-escape.md)
 - [Von Mangoldt triple convolution 与 logarithmic lag confinement](notes/258-von-mangoldt-triple-convolution-and-logarithmic-lag-confinement.md)
 - [Carrier--collision decomposition 与 quantitative quartic decay](notes/259-carrier-collision-decomposition-and-quantitative-quartic-decay.md)
+- [七扇区 sharp coercivity 与平衡 discrepancy 归约](notes/260-sharp-carrier-coercivity-and-balanced-discrepancy-reduction.md)
 - [研究分支看板](RESEARCH_BRANCHES.md)
 - [文献与证据边界](notes/003-sources.md)
 
 计算与回归脚本：
 
+- [七扇区有理数交叉审计](scripts/carrier_sector_coercivity_audit.py)
 - [半局部 Weil 矩阵与 residual 证书](scripts/qw_matrix.py)
 - [Legendre prolate 候选与端点修正](scripts/prolate_candidate.py)
 - [Weil 界回归测试](scripts/test_qw_bounds.py)
