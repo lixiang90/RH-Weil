@@ -587,3 +587,54 @@ python -B scripts/polylog_spectral_localization_probe.py
 \(2^m\) 损失；先分离振荡因子再作Cauchy估计；全部下端初值与阶乘；
 全谱端点先合并；浅层原核与浅层端点相减；全高谱尾；原物理通道的四次方根转移。
 内部通过不是外部同行评议、新颖性确认、完整中频预算或Goal阶段验收。
+
+## 10. 下一周期试探：短历史滤波不提供额外节省
+
+2026-09-06 新周期第1轮，主代理、gap_exception_audit 和 midband_compute
+独立核查以下尝试。它只记录停止原因，**不晋级为新的实际算术削减**。
+令 \(g(u)=e^{-\sigma u}[R(e^u)+C_\zeta-T_0(e^u)]1_{[u_0,Z]}\)，
+\[
+ \Gamma_{m,h}(t)=\frac{h^m t^{m-1}e^{-ht}}{(m-1)!}1_{t\ge0},
+ \qquad A_m=(1-D_u/h)^m\mathcal A_\xi .
+\]
+由(19)，在 \(u_0\le u\le Z\) 上精确有
+\[
+ h^m C_{m-1,h}(e^u)=B_m(u)-(\Gamma_{m,h}*g)(u),\qquad
+ B_m(u)=h^m e^{-h(u-u_0)}
+       \sum_{k=0}^{m-1}\frac{(u-u_0)^k}{k!}C_{m-1-k,h}(2),
+\]
+因此全部余核之和为
+\[
+ \sum_\rho\mathcal R_\rho^{(m,h)}(\xi)
+       =\int_{u_0}^{Z} A_m(u)[B_m(u)-(\Gamma_{m,h}*g)(u)]\,du.
+\]
+式(24)逐项积分给
+\(\int_{u_0}^Z|B_m|\ll(m/h)\log^2(2h)e^{O(m/h)}\)。
+历史 guard 给 \(|g(u)|\ll |M|e^{-\delta(Z-u)}\)；Erlang 核的均值
+为 \(m/h=1/T\)，所以
+\(\int_Z^\infty|\Gamma_{m,h}*g|\ll |M|/T\)。
+(29)--(31)的窄复带证明可扩展到全实轴：当 \(|\Im z|<1/4\) 时
+\(\Re(e^{u+z}/Y)\ge\cos(1/4)|e^{u+z}/Y|\)，
+因而 \(B_0,B_1\) 仍一致有界，得到
+\(|A_m|\ll|\xi|\)。全部初值及有限上端延伸误差因此至多
+\(O((|\xi|/T)(|M|+\log^2(2h)))\)。
+
+但全线 pairing 中，先进卷积满足精确恒等式
+\[
+ \Gamma_{m,h}^{\vee}*(1-D/h)^m\mathcal A_\xi=\mathcal A_\xi .
+\]
+对有界解析振幅逐次积分分部即可验证，指数核使无穷远边界消失。
+于是上述表示又回到
+\(-\int_{u_0}^Zg\mathcal A_\xi\)，加上已知端点代价。
+单独看滤波器也没有首带节省：
+\[
+ \widehat\Gamma_{m,h}(\omega)=\left(\frac h{h+i\omega}\right)^m,\qquad
+ e^{-2/m}\le|\widehat\Gamma_{m,h}(\omega)|^4\le1
+       \quad(|\omega|\le T).
+\]
+其短历史长度是 \(1/T\)，不意味着在首带获得衰减；配套微分正好撤销平滑。
+这个逆是高阶分布微分，不是284的稳定 \(L^1\) 因果逆。
+只用历史 \(L^1/L^2\) 包络和 Young/Plancherel，仍回到284-(38)的
+\(Q\ll M^4(L+T^2)\)，在 \(T=L\) 留下一个 \(L\) 损失。
+硬截深谱后也不能继承完整 \(g\) 的历史界。
+因此停止继续扩写此滤波解释；实际(53)仍[O]，没有获得新的 signed saving。

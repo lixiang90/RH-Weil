@@ -151,6 +151,9 @@
 47. Kiran S. Kedlaya, *Notes on analytic number theory*, Chapter 9, Lemma 9.4 与 Theorem 9.9（作者公开书稿，本轮2026-09-06再次核验）。[R] 使用经典单位高度零点计数及半权截断 von Mangoldt 显式公式；282、285、289只在普通积分内取截断高度极限，实际整数端点另完整保留。289的增长阶 resolvent 系数、统一Cauchy估计及多对数谱局部化均由本项目自行证明，不归因于书稿。原文9.1的 \(\psi\) 是半权约定，与仓库右连续 \(\psi\) 在非原子处一致；采用Theorem9.9所列的正确常数 \(-\zeta'(0)/\zeta(0)\)，不照抄Lemma9.2个别显示中的分母笔误。
    https://kskedlaya.org/ant/chap-von-mangoldt.html
 
+48. Alexander Weiße, Gerhard Wellein, Andreas Alvermann, Holger Fehske, *The Kernel Polynomial Method*, Reviews of Modern Physics 78 (2006), 275--306；作者预印本 arXiv:cond-mat/0504627v2，§II.3.2--II.3.3。[R] 作为正核保正、Chebyshev展开和经典Jackson分辨率的文献定位。本轮已阅读相应正文；式(71)的优化KPM核不是291采用的正弦四次卷积核，不能混用系数。291的具体加权平方迹误差、常数及次数下界均独立重证，不归为该文的新结果，也不据此声称本项目论文新颖性。
+   https://arxiv.org/html/cond-mat/0504627v2
+
 ## 使用这些来源时的边界
 
 - Deligne 已无条件证明有限域结论，但不是通过证明全部 standard conjectures；不能把 standard conjectures 的一般成立当成已知事实。

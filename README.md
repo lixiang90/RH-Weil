@@ -19,6 +19,26 @@ Actions 将原检查清单分为 core、B1h、B1i 三组并行，全部成功才
 ## 正式论文整理稿
 
 最新研究进展（2026-09-06）：
+[291：最优阶多项式平方负迹证书](notes/291-sharp-polynomial-square-negative-trace-certificates.md)。
+对已验证谱界 \(\|X\|\le S\)，构造不读取负谱的显式正多项式 \(b\)，得到
+\[
+ \tau(X_-)\le-\tau[Xb(X)^2]+3\pi S/m,\qquad
+ \deg b\le2m-2,\quad \tau(1)=1 .
+\]
+与187已展示的误差账本相比，通用次数代价从 \(S/\sqrt d\) 改进到
+\(S/d\)；并对所有区间上 contraction 多项式证明下界 \(S/(216d)\) [T/N]。
+原有限素数—连续背景符号的本质谱还包含与总源质量同阶的正负区间，
+因此固定次数障碍不只是粗谱界造成的假象；这是**一致证书**的障碍，
+不是实际积分负迹的下界。新高阶有符号响应仍须独立算术估计。
+
+本轮主线试探没有新的四阶节省：289的短历史 Erlang 滤波在首带近似保持模长，
+配套微分又撤销平滑，详见[289第10节](notes/289-growing-resolvent-jets-and-polylog-spectral-localization.md)。
+因此停止扩写这一滤波表示，289-(53)仍是实际开放输入。
+291使用经典正核机制，不声称新的 Jackson 方法或已确认的文献新颖性。
+完整证明与MP60有限复算经内部独立交叉审核；本轮只更新Markdown，不更新PDF，
+不启动DL-AUDIT，也未证明RH/GRH、新零点比例或新零密度定理。
+
+同日上一轮：
 [289：增长阶 resolvent 余项与多对数谱局部化](notes/289-growing-resolvent-jets-and-polylog-spectral-localization.md)，
 [290：正 Euler/对偶/全阶质量相对矩的联合非识别模型](notes/290-positive-euler-duality-model-and-mass-moment-nonidentification.md)。
 沿284同一实际整数记录，在首带 \(\sqrt L<|\xi|\le L\)，令
@@ -203,7 +223,7 @@ cutoff 选择，使 \(|M|>Y^{1/2-\sigma}\sqrt{\ell(Y)}\)，
 在 \(\sigma<1/2\) 时，四次预算在连续规则
 \(N=\lfloor cY\log Y\rfloor,\ c\ge3/4\) 上失败；
 所选自由dyadic预算仍开放，不是RH或新的零点比例结论。
-269--270已同步到下列独立障碍论文及PDF；271--290暂不并入。
+269--270已同步到下列独立障碍论文及PDF；271--291暂不并入。
 
 新增独立研究稿
 [abel-mass-obstruction-paper.tex](papers/abel-mass-obstruction-paper.tex)
