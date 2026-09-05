@@ -4,7 +4,7 @@
 
 ## 当前队列
 
-维护验收与恢复（2026-09-06）：David--Lapidus 限额观察线、论文目录及 GitHub Actions 三项维护均已完成，[完整三组远程检查成功](https://github.com/lixiang90/RH-Weil/actions/runs/33982592142)。按用户“继续研究”恢复 B / NCE-8；275--282与283--290各完成一个四轮周期。新周期第1轮291给最优阶平方证书；第2轮292证明固定 \(\sigma<1/2\) 原始素数—连续符号的实际负迹沿284记录为 \(\Theta(|M|)\)，全整数尺度亦定性发散。**修改目标**：停止该原始符号的绝对有界负迹路线，以及逼近误差已为 \(O(1)\) 时的有界平方响应目标；优先审计完整Weil参数与截断迁移，289-(53)门槛式保留为独立响应问题，不再标作RH存在性的直接推进。`DL-AUDIT`仍未启动；观察线资源门槛不变。
+维护验收与恢复（2026-09-06）：David--Lapidus观察线、论文目录及GitHub Actions三项维护均已完成，[完整三组远程检查成功](https://github.com/lixiang90/RH-Weil/actions/runs/33982592142)。新周期第1轮291给平方证书，第2轮292停止固定左侧raw的绝对有界负迹目标。第3轮293证明真正右移后实际范数为 \(o(|M|)\)，参数修正与正负混合取消量为 \(\Theta(|M|)\)，并单独核验有限完成候选接口；这关闭了“如何支付非微扰补偿”的相对尺度问题，但未控制绝对剩余量。主线只接受正确右侧原迹下新的算术节省；289-(53)仍门槛式保留，不回填成完整Weil正性。`DL-AUDIT`未启动，资源门槛不变。
 
 | ID | 角色 | 下一最小引理 | 晋级条件 | 状态 |
 |---|---|---|---|---|
@@ -15,7 +15,7 @@
 | NCE-5 | 备用线 | one-prime/one-block extension，预算增量可和 | extension 不调用完整 Weil positivity | 观察 |
 | NCE-6 | 备用线 | bounded-resolvent/negative-trace 的 ultraproduct 稳定性 | 先独立得到统一预算 `C` | 观察 |
 | NCE-7 | 非构造主线 | short-word effects 对实际 negative level sets 的 response-weighted capture | capture error共尾可和且不调用 Selberg/RH 等价输入 | degree-one universal moment route 已 sharp no-go |
-| NCE-8 | 当前主线：修改目标 | B1z / 292后：选定右侧参数日程 \(\delta_Y>0\to0\) 与完整Abel迁移方案，核验原迹下的实际差值和负井补偿；289-(53)仅作独立响应问题门槛式保留 | 独立控制此前未控的迁移误差/有符号抵消，或得到新严格障碍；不以相对矩和等价重写晋级 | 固定左侧raw的有界负迹及小逼近误差下的有界平方响应 [N/停止]；中心化四阶及完整Weil接口 [O] |
+| NCE-8 | 当前主线：右侧实际预算 | B1z / 293后：固定正确日程与 \(N=Y\) 有限完成候选，对 \(\kappa_Y^\sharp\) 独立改进已证 \(O(1+B^{\theta_Y})\) 的绝对剩余量；289-(53)仅作独立响应问题门槛式保留 | 真实算术抵消或更小的剩余误差；仅重写RH等价预算、Poisson式或Gamma删项不再晋级 | 实际 \(o(|M|)\) 右移与有限接口 [T]；左侧原目标 [N/停止]；右侧绝对有界仍[O]且有RH强度 |
 | NCE-9 | 非构造补全 | 把 finite Cauchy-translate Schur block写成 joint signed Type I/II large-sieve form | uniform finite-block budget只用 length-side数据且弱于完整 RH criterion | finite satisfiability compactness与Gram/Schur判据已完成；33 translates捕获约23% package norm |
 | MOM-1 | 四矩观察线 | 只在出现新的 actual determinant-correlation input 时恢复；不得继续增加 Möbius/divisor kernel 表示 | 新输入必须在 physical fiber 内先合并全部 divisor blocks，并直接给 `o(L^4)` global ledger | exact band/mass已闭合；cumulative、band energy、channel mass、raw pullback与 divisor separation五条候选证书均已 theorem/no-go；条件比例仍为 0.7569027 / 0.8784513 |
 | NCE-10 | 非构造补全 | 增长的 arithmetic mixed localizers 与 divisor-visible resolvent closure | 每个有限 word level 近正且 Archimedean 有界，闭包恢复 divisor | scalar fourth moments 有 65 维严格 no-go；finite-satisfiability completion 已证明 |
@@ -182,6 +182,17 @@
 - **当前证据**：292包含全证明与删项反例；定量carrier平均误差为 \(O_I(|M|/L)\)，不把固定窗外推为全轴渐近。配套合成BV模型脚本只检验有限恒等式和误差账本，不认证任何实际记录或渐近定理。
 - **下一最小任务 [O]**：明确一条右侧参数日程 \(\delta_Y>0,\delta_Y\to0\) 和完整Abel截断方案，先重建实际差值及原迹下的负井补偿，保持divisor germ和Poisson条件。只有出现独立误差削减或真实有符号抵消，才恢复289向完整目标的桥梁；仅重加权恒等式不算进展。
 - **决策与论文归属**：修改主线目标；289-(53)中心化四阶问题门槛式保留观察，未宣布失败。292归独立response论文的适用边界，不扩写为RH证明。Markdown、有限复算、内部独立审计后提交；不更新PDF，DL-AUDIT未启动。新颖性、外部同行评审及Goal阶段验收仍[O]。
+
+#### B1z 新周期第3轮：实际右移与独立有限接口（2026-09-06）
+
+- **已解最小引理 [T]**：[293](notes/293-poisson-transport-and-right-shifted-record-currents.md)对同一284记录保留权与端点，令 \(W_a=e^{-au}H\)，证明 \(\tau_C|P_a|\le |M|e^{-aL}+a\|W_a\|_1+\|W_a\|_2/\sqrt2\)。在 \(\sigma'_Y=1/2+\delta_Y\) 上得到 \(O(|M|Y^{-(\beta-\sigma_0)})=o(|M|)\)。真实Chebyshev前缀进一步给 \(O(B^{(1-\sigma'_Y)/(1-\beta)})\)，而非只写半群收缩的 \(O(|M|)\)。
+- **独立算术输入**：284强记录/指数历史和实际Chebyshev上界；Jensen缺口、正反三角不等式本身仅为分析工具。RH只用于独立条件基准，不参与上述实际相对缩减。
+- **与Weil配置接口 [T/C]**：同一有限 \(N=Y\) 的 \(F_Y^\sharp\) 单独满足全纯性、Poisson admissibility与正确Euler开集，故可直接用145；不是声称与132完整Abel族相近。Gamma在 \(\sigma'\in[1/2,3/4]\) 的Cauchy-\(L^1\) 范数一致有界，实际均值也一致有界，所以 \(\kappa_Y^\sharp=\tfrac12\tau_C|P_a|+O(1)\)。此删项只适用于标量有界负迹，不适用于非线性Gram。
+- **障碍如何被处理**：293证明右移修正和Poisson正负混合取消量均为 \(\Theta(|M|)\)，满足292要求的非微扰规模；中间迹与原迹双边可比，没有藏掉负质量。因此不能继续把“未付同阶补偿”列作已选右移的障碍，但绝对 \(O(1)\) 剩余量仍未证明。
+- **循环性与条件基准 [C]**：RH下另证明全轴实部误差 \(O(Y^{-\delta}L^2/\sqrt\delta)\)，取 \(\delta_Y=(5/2)\log L/L\) 可趋零；只是安全日程，不称最优速率。逆向有界 \(\kappa^\sharp\) 仍推出RH，因此该预算不是独立弱公理，也不能把RH条件下的比较对象当成无条件正背景。
+- **当前证据 [E]**：一份MP50合成混合原子脚本验证全周期Poisson/倾斜、完整加权端点公式和全轴Cauchy迹；不认证实际记录或渐近。既有143已经处理完整Abel的有限化，本轮不重新宣布解决该问题；新内容是已选记录的实际相对缩减及准确接口。
+- **下一最小任务与止损 [O]**：固定上述日程、原规范迹与有限候选，在已证 \(1+B^{\theta_Y}\) 之外取得一个明确有符号算术节省，或证明所选估计机制的严格障碍。只扩写半群、重命名右侧 \(L^1\)、再调一般次数或调用全quadratic energy不晋级；147已排除后者。289只有证明能转移至此具体预算才恢复RH接口地位。
+- **论文归属/决策**：实际右移定量界晋级为内部[T]，绝对存在性仍[O]；保留独立response论文材料与条件核验，不另建同义RH框架论文。不更新PDF，不启动DL-AUDIT；新颖性、外部同行评审、完整Goal验收均未完成。
 
 ### 路线 C / VIS-1：离线零点深度可见性（桥梁路线）
 

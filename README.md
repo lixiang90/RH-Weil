@@ -19,6 +19,26 @@ Actions 将原检查清单分为 core、B1h、B1i 三组并行，全部成功才
 ## 正式论文整理稿
 
 最新研究进展（2026-09-06）：
+[293：Poisson右移、实际记录缩减与独立有限完成接口](notes/293-poisson-transport-and-right-shifted-record-currents.md)。
+沿284同一实际记录，令 \(d=\beta-\sigma_0>0\)，真正右移到
+\(\sigma'_Y=1/2+\delta_Y\)、\(\delta_Y>0\to0\)，已证明
+\[
+ \tau_C|P_{\sigma'_Y,Y,Y}|\ll |M|Y^{-d}=o(|M|).
+\]
+再用实际Chebyshev前缀界，上界增强为
+\(O(B^{(1-\sigma'_Y)/(1-\beta)})\)，\(B=\max(1,|M|Y^{-d})\) [T]。
+右移差及Poisson正负混合的取消量均为 \(\Theta(|M|)\)：
+因此292要求的非微扰补偿**确实发生**，并非改变迹归一化。
+这些仍是相对缩减，不是绝对 \(O(1)\) 正性预算。
+
+同一有限 \(N=Y\) 的Gamma完成候选已单独核验Poisson与Euler-germ接口，
+无需假称它与完整Abel族的尾差很小。Gamma在正确参数区间的Cauchy-\(L^1\)
+一致有界，故标量有界负迹目标可以单独去掉它；非线性Gram不能照搬这一删项。
+另给RH条件下的全轴实部误差和明确日程作为[C]基准。
+正确右侧绝对预算仍有RH等价强度，不能当作软公理或新的无条件输入。
+289中心化四阶线仍门槛式保留；本轮仅Markdown和有限复算，不更新PDF。
+
+同日上一轮：
 [292：实际记录的同阶负迹与非微扰补偿障碍](notes/292-record-carrier-negative-trace-obstruction.md)。
 对固定 \(0<\sigma<1/2\)、匹配有限截断 \(Y=N\)，沿284同一实际整数记录，
 \[
