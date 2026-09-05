@@ -13,7 +13,7 @@
 | NCE-5 | 备用线 | one-prime/one-block extension，预算增量可和 | extension 不调用完整 Weil positivity | 观察 |
 | NCE-6 | 备用线 | bounded-resolvent/negative-trace 的 ultraproduct 稳定性 | 先独立得到统一预算 `C` | 观察 |
 | NCE-7 | 非构造主线 | short-word effects 对实际 negative level sets 的 response-weighted capture | capture error共尾可和且不调用 Selberg/RH 等价输入 | degree-one universal moment route 已 sharp no-go |
-| NCE-8 | 当前主线 | B1s：实际平衡 discrepancy 的 \(E_2\) 与 \(M_H^2E_1+LM_H^4\) 的统一比较，并核验 full-source相对尾项 | 在真实系数上证明 bounded \(x,y\) 或 matching lower；尾误差须按 \(\mu^2\) 控制 | 七扇区公式与双边最优 \(3/8,11/16\) 已证 [T]；非平衡六阶响应归约为二、四阶 discrepancy能量 [T]；固定宽度 mass-only障碍 [N]；实际算术比较仍 [O] |
+| NCE-8 | 当前主线 | B1t：冻结一个 dyadic cutoff，研究实际 \(E_1,E_2\) 与相对尾项，并检验262-(14)的必要质量分离界 | 必须闭合实际能量预算；质量分离单独不足；或证明该指定schedule的matching lower/no-go | 实际 \(Y\le N\le Y^2/8\) 统一响应下界 [T]；一类连续尺度mass-only预算在 \(\sigma<1/2\) 失败 [N]，在中心参数至少蕴含RH [T]；原所选dyadic存在性仍 [O] |
 | NCE-9 | 非构造补全 | 把 finite Cauchy-translate Schur block写成 joint signed Type I/II large-sieve form | uniform finite-block budget只用 length-side数据且弱于完整 RH criterion | finite satisfiability compactness与Gram/Schur判据已完成；33 translates捕获约23% package norm |
 | MOM-1 | 四矩观察线 | 只在出现新的 actual determinant-correlation input 时恢复；不得继续增加 Möbius/divisor kernel 表示 | 新输入必须在 physical fiber 内先合并全部 divisor blocks，并直接给 `o(L^4)` global ledger | exact band/mass已闭合；cumulative、band energy、channel mass、raw pullback与 divisor separation五条候选证书均已 theorem/no-go；条件比例仍为 0.7569027 / 0.8784513 |
 | NCE-10 | 非构造补全 | 增长的 arithmetic mixed localizers 与 divisor-visible resolvent closure | 每个有限 word level 近正且 Archimedean 有界，闭包恢复 divisor | scalar fourth moments 有 65 维严格 no-go；finite-satisfiability completion 已证明 |
@@ -60,9 +60,12 @@
 - **目标**：利用 Type I、Type II 与 continuum/Gamma 通道之间的真实交叉抵消，证明 square-root Vaughan rectangle 上的统一增益。
 - **当前基础**：exact divided-difference response与 Brownian Gram保持成立。笔记 242 发现旧 `U=V=floor(sqrt N)` 实验的 Type II严格为空；修正为 cube-root cutoff后 Type-II非零并与 Type-I强负相关，但三通道 diagonal/full 比依 decomposition改变。cutoff-invariant quantities 是合并 prime vector `u_p`、continuum vector `u_c` 及其 physical energy。
 - **最小引理 B1a**：固定一个 response rectangle与非空 Vaughan cutoff，直接从 prime/continuum coefficients证明 `Re<u_p,u_c><=-delta(||u_p||^2+||u_c||^2)`，其中 `delta>0` 与尺度无关。Type-I/II 只作为估计 `u_p` 的内部坐标，不能分别取绝对值。
-- **当前有限子任务 B1s**：笔记260完成 B1r的七扇区展开。精确平衡时，六阶响应被夹在 \(3K E_2/8\) 与 \(11K E_2/16\) 之间，两常数最优 [T]；故跨sector抵消不能闭合该平衡子模型。对于非平衡源，令 \(\zeta=\alpha-(A/B)\beta\)，\(E_1=\mathcal E(\zeta), E_2=\mathcal E(\zeta*\zeta)\)，已证显式扰动界 [T]。当前唯一算术任务是在实际局部 von Mangoldt源上比较 \(E_2\) 与 \(M_H^2E_1+LM_H^4\)，以及按 full \(\mu^2\) 控制 tails [O]。259的 absolute quartic decay仍成立；旧 (27) 的 full-source应用已补上相对尾项条件，且记录严格反例。
-- **B1s 输入/接口/审计**：独立输入是260-(18),(22) 的加权素数差二阶、四阶能量；通过260-(21)、259的相对截断、256的 capture/Schur条件接口连接部分 Weil配置。未调用 RH、完整 Weil正性或谱酉性。Gamma bridge与实际系数的 estimates仍开放。
-- **B1s 证据/反例/晋级/止损**：七扇区、最优性及非平衡扰动已独立证明复核，并用精确有理数脚本交叉计算。固定宽度原子例给 \(J_4=5h/(16L)>0,\mu=0\) [N]；它只否定普遍 mass-only推理。实际 \(x,y\) 有界且相对tails闭合才晋级；若实际 \(E_2/(M_H^2E_1+LM_H^4)\to\infty\) 且转移误差足够小，停止该 mass-relative方案。只重写七扇区或引用 fixed-frequency PNT不算进展。论文归属为独立 Vaughan--Brownian response论文。
+- **B1s 收束 [T/N]**：260的七扇区双边最优常数 \(3/8,11/16\) 与非平衡扰动界保持成立。261在实际系数上用 Mellin/Landau质量振荡及孤立素数原子证明连续尺度障碍；262将下界扩为 \(J_4(Y,N)\ge c_\sigma Y^{-6}N^{-3}/\log Y\)，同时覆盖全部整数 \(Y\le N\le Y^2/8\)。若 \(N=\lfloor\Phi(Y)\rfloor\)、\(\Phi\) 连续非减且 \(N/(Y\log Y)\to\infty\)，则在 \(\sigma<1/2\) 任何正幂 mass-only连续预算都失败。中心参数的这种预算至少蕴含 RH；未证逆命题。
+- **当前有限子任务 B1t [O]**：冻结一个具体 dyadic cutoff，比较实际 \(E_2\) 与 \(M_H^2E_1+LM_H^4\)，同时核验按 full \(\mu^2\) 控制的相对tail。对在262窗口中的所选非零质量点，还需满足 \(|\mu_m|\ge cY_m^{-6/\kappa}N_m^{-3/\kappa}L_m^{-1/\kappa}\)。这只是必要条件。若抽取 \(m_j\)，物理归一化保留 \(t=m_j\xi\)，不改为 \(j\xi\)。
+- **B1t 独立输入与接口**：未决输入仍是260-(18),(22) 的实际加权素数差二、四阶能量及相对误差；通过260-(21)、259的相对截断、256的 capture/Schur条件连接部分 Weil配置。新下界仅用prime-power支撑、Bertrand与初等正源界；振荡用经典Mellin/Landau机制。没有从紧性或正性公理制造算术估计；Gamma及上同调桥梁仍开放。
+- **B1t 当前证据与主要障碍**：独立复核通过261--262的极点、原子、尾项与尺度量词；精确脚本通过24案例、126系数及567180间距检查 [E]。48个浮点Abel样本均负，不构成最终符号或零点位置证据。固定宽正源例及实际连续质量根均阻止普遍mass-only推理；目前没有dyadic质量接近序列。256零质量点处的文字量词已修复。
+- **B1t 循环性、晋级和止损**：禁止把中心参数的连续mass-only预算当作显然弱于RH的软输入。原256允许选择cofinal matched schedule、自由 \(N_m\ge Y_m\)，因此261--262没有排除该存在性目标。只有实际能量预算与相对tail同时闭合才晋级；若指定schedule的非零质量沿子序列小于262-(14)尺度，只停止那个schedule。停止继续寻找262-B所覆盖连续族上的mass-only预算。只证明质量分离、重写核或引用fixed-frequency PNT不算闭合。
+- **论文归属**：261--262整理为独立 `abel-mass-obstruction-paper.tex`；不混入广义Weil结构或四矩比例论文。完成内部证明及复算不等于已证明新颖性或完成外部同行评审。
 - **算术边界**：不得用任意系数 Bessel 界替代实际响应估计；必须保留交叉项，并单独控制 continuum 和 Gamma 通道。
 - **晋级条件**：解析证明有限实验中的增益不会随尺度消失，并将其转化为第二矩、负迹或截断 Weil 二次型的严格改善。
 - **止损条件**：若尺度中性的下界迫使 Schur 因子趋于 `1`，或者 continuum 项必然抵消全部收益，则停止该参数族，不再增加新的核表示。

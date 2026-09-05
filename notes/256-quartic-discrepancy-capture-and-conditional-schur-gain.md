@@ -263,8 +263,10 @@ eventually。则
 `nu(partial K)=0`，有 `nu_m(K)->nu(K)`，得到式 (21)。`square`
 
 `nu` 具有连续密度，因此任意有限个闭区间的并只要端点有限，就是 continuity set。
-条件 `mu_m!=0` 不能静默删除：若 `mu_m=0`，式 (19) 强迫 `Delta_m=0`
-`nu_m`-a.e.，从而 actual response diagonal为零，式 (5) 本身不再定义。
+条件 `mu_m!=0` 不能静默删除。式 (19) 本身不约束零质量点；若额外要求
+同一不等式也在 `mu_m=0` 处成立，则它强迫 `Delta_m=0`，`nu_m`-a.e.，
+从而 actual response diagonal为零，式 (5) 本身不再定义。
+此处量词由笔记261的非零质量扰动审计修正。
 
 ## 5. 与 physical Schur gain 的接口
 

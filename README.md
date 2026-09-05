@@ -4,6 +4,16 @@
 
 ## 正式论文整理稿
 
+新增独立研究稿
+[abel-mass-obstruction-paper.tex](abel-mass-obstruction-paper.tex)
+及 [PDF](output/pdf/abel-mass-obstruction-paper.pdf)：
+《Mass-only obstructions for Abel-weighted Brownian responses》。
+笔记261--262在实际 von Mangoldt/连续 Abel源上证明统一响应下界及
+一类连续尺度 mass-only预算障碍 [T/N]；固定 dyadic/cofinal预算仍开放，
+不声称 RH、新零点比例或已完成文献新颖性审查。
+本稿用 `pdflatex -output-directory=output/pdf abel-mass-obstruction-paper.tex`
+连续编译两次；相关 Markdown仍保留完整证明与研究看板。
+
 另有独立备选方向论文
 [partial-weil-configurations-paper.tex](partial-weil-configurations-paper.tex)：
 《部分 Weil 配置、中心线零点比例与非零区域》，整理二阶/四阶矩、随机矩阵、
@@ -508,11 +518,15 @@ xelatex rh-weil-structure-paper.tex
 - [Von Mangoldt triple convolution 与 logarithmic lag confinement](notes/258-von-mangoldt-triple-convolution-and-logarithmic-lag-confinement.md)
 - [Carrier--collision decomposition 与 quantitative quartic decay](notes/259-carrier-collision-decomposition-and-quantitative-quartic-decay.md)
 - [七扇区 sharp coercivity 与平衡 discrepancy 归约](notes/260-sharp-carrier-coercivity-and-balanced-discrepancy-reduction.md)
+- [实际 Abel质量振荡与孤立素数原子障碍](notes/261-abel-mass-oscillation-and-prime-atom-obstruction.md)
+- [统一截断响应下界与截断类 mass-only障碍](notes/262-uniform-cutoff-floor-and-mass-budget-obstruction.md)
 - [研究分支看板](RESEARCH_BRANCHES.md)
 - [文献与证据边界](notes/003-sources.md)
 
 计算与回归脚本：
 
+- [实际素数原子与整数间距精确审计](scripts/abel_prime_atom_audit.py)
+- [实际 Abel质量有限数值探针](scripts/abel_mass_discrepancy_probe.py)
 - [七扇区有理数交叉审计](scripts/carrier_sector_coercivity_audit.py)
 - [半局部 Weil 矩阵与 residual 证书](scripts/qw_matrix.py)
 - [Legendre prolate 候选与端点修正](scripts/prolate_candidate.py)

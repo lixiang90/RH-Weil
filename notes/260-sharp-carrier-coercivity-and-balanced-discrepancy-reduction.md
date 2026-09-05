@@ -301,6 +301,12 @@ B1r 晋级：七个 sectors与双边最优常数已经闭合，跨 sector抵消�
 可以先证明明确尺度或子族上的 lower以停止 mass-only方案，
 也可以通过独立算术界控制 \(x,y\)。只有 fixed-frequency PNT或正源TV界不算晋级。
 
+后续261--262在真实 von Mangoldt系数上证明了连续尺度 mass-only障碍：
+统一下界 \(J_4(Y,N)\ge c_\sigma Y^{-6}N^{-3}/\log Y\) 与
+Mellin质量振荡排除一类快速cutoff的连续预算（\(\sigma<1/2\)）。
+这不否定原来存在性选取的 dyadic/cofinal方案；
+B1t保留该离散方案的实际能量比较及必要质量分离界。
+
 ## 6. 最小假设、删除审计与模型范围
 
 最小输入及作用：

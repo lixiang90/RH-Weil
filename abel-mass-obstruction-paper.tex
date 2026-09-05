@@ -1,0 +1,563 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[margin=27mm]{geometry}
+\usepackage{amsmath,amssymb,amsthm,mathtools}
+\usepackage{lmodern,microtype,booktabs}
+\usepackage[colorlinks=true,linkcolor=blue,citecolor=blue,urlcolor=blue]{hyperref}
+\hypersetup{pdftitle={Mass-only obstructions for Abel-weighted Brownian responses},
+pdfauthor={RH--Weil research project}}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\theoremstyle{remark}
+\newtheorem{remark}[theorem]{Remark}
+\newcommand{\TV}{\mathrm{TV}}
+\newcommand{\ev}{\mathrm{ev}}
+\newcommand{\RR}{\mathbb R}
+\newcommand{\dd}{\,d}
+\DeclareMathOperator{\supp}{supp}
+\title{Mass-only obstructions for Abel-weighted Brownian responses}
+\author{RH--Weil research project}
+\date{September 5, 2026\\[3pt]\small Research draft; literature-priority audit pending}
+\begin{document}
+\maketitle
+\begin{abstract}
+We study a two-channel Brownian response built from the actual
+von Mangoldt coefficients and a matched continuous Abel source.
+For the common cutoff \(N=\lfloor Y(\log Y)^2\rfloor\), an isolated
+prime atom gives the unconditional lower bound
+\(J_4(Y,N)\gg_\sigma Y^{-9}(\log Y)^{-7}\).
+The Mellin transform of the uncut mass discrepancy, together with
+a self-contained Landau argument, supplies arbitrarily large mass
+zeros whenever the Riemann zeta function has a zero to the right
+of \(\Re s=\sigma\). Truncating at those scales leaves a
+superpolynomially small mass discrepancy but a polynomially large
+response. More generally, a uniform two-parameter lower bound holds
+throughout \(Y\le N\le Y^2/8\), extending the obstruction to a class
+of regular cutoffs with \(N/(Y\log Y)\to\infty\).
+Consequently no positive power of the mass discrepancy
+uniformly bounds the response over all sufficiently large real
+Abel scales when \(0<\sigma<1/2\). At \(\sigma=1/2\), the proposed
+uniform budget would imply RH; no converse is asserted.
+The result does not exclude an estimate along a prescribed dyadic
+schedule or a selected cofinal subsequence.
+\end{abstract}
+
+\section{The response and the main result}
+
+\noindent\textbf{Status convention.}
+The theorems and lemmas below are internally proved statements [T];
+their no-go consequences are [N]. External classical inputs are [R],
+finite computations are [E], and the remaining arithmetic and
+literature-priority questions are [O].
+
+Fix \(0<\sigma<1\). Put \(a=1-\sigma\). For \(Y>0\) and
+\(1<N\le\infty\), define positive measures on the nonnegative lag axis by
+\begin{align}
+ \alpha_{Y,N}
+ &=\sum_{2\le n\le N}\Lambda(n)n^{-\sigma}e^{-n/Y}\delta_{\log n},
+ \label{eq:sources}\\
+ d\beta_{Y,N}(\lambda)
+ &=\mathbf1_{[0,\log N]}(\lambda)e^{a\lambda-e^\lambda/Y}\dd\lambda.
+ \nonumber
+\end{align}
+The upper endpoint is omitted when \(N=\infty\). Write
+\[
+ A=\alpha_{Y,N}(\RR),\quad B=\beta_{Y,N}(\RR),\quad
+ S=A+B,\quad M=A-B,\quad \mu=M/S.
+\]
+For a measure on the nonnegative axis let \(\eta^\ev\) denote its even
+symmetrization, with half the mass reflected to each side, and set
+\[
+ p=\alpha_{Y,N}^\ev-A\delta_0,\qquad
+ c=B\delta_0-\beta_{Y,N}^\ev,\qquad r=p+c.
+\]
+For a real signed measure \(\eta\) of total mass zero, let
+\(F_\eta(t)=\eta((-\infty,t])\). Our normalization is
+\begin{equation}
+ \begin{split}
+ D&=\|F_p\|_2^2+\|F_c\|_2^2,\\
+ P^2&=\|F_{r*r*p}\|_2^2+\|F_{r*r*c}\|_2^2,\qquad
+ J_4(Y,N)=\frac{P^2}{S^4D}.
+ \end{split}
+ \label{eq:response}
+\end{equation}
+All these quantities are finite for the sources above, and \(S,D>0\).
+
+\begin{theorem}\label{thm:main}
+Put \(L=\log Y\) and \(N(Y)=\lfloor YL^2\rfloor\).
+\begin{enumerate}
+ \item For every fixed \(0<\sigma<1\), uniformly for sufficiently large
+ real \(Y\),
+ \begin{equation}
+ J_4(Y,N(Y))\ge c_\sigma Y^{-9}L^{-7}
+ \label{eq:floor}
+ \end{equation}
+ with \(c_\sigma>0\).
+ \item If \(\zeta\) has a nonreal zero \(\rho\) with \(\Re\rho>\sigma\),
+ then for every \(\kappa>0\) and every sufficiently large \(Y_0\),
+ \begin{equation}
+ \sup_{\substack{Y\ge Y_0\\ \mu(Y,N(Y))\ne0}}
+ \frac{J_4(Y,N(Y))}{|\mu(Y,N(Y))|^\kappa}=\infty.
+ \label{eq:nogo}
+ \end{equation}
+\end{enumerate}
+\end{theorem}
+
+\begin{corollary}\label{cor:rh}
+Conclusion \eqref{eq:nogo} holds unconditionally for \(0<\sigma<1/2\).
+For any \(0<\sigma<1\), an eventual bound
+\(J_4(Y,N(Y))\le C|\mu(Y,N(Y))|^4\) on all real scales with nonzero
+mass discrepancy implies that \(\zeta\) has no zero in \(\Re s>\sigma\).
+In particular, at \(\sigma=1/2\) it implies RH.
+\end{corollary}
+
+Only the existence of a critical-line zero is needed for the first
+assertion of the corollary; this is a classical theorem
+\cite{DLMF}. The no-go concerns the mass-only budget in
+\eqref{eq:response}. It is neither a disproof of RH nor an obstruction
+to every realization of a Weil-type configuration.
+
+\section{Brownian energy and a positive actual response}
+
+We use the Fourier convention
+\(\widehat\eta(\xi)=\int_{\RR}e^{-i\xi x}\dd\eta(x)\).
+
+\begin{lemma}\label{lem:energy}
+For a real signed measure \(\eta\) of mass zero and finite first
+absolute moment,
+\begin{equation}
+ \|F_\eta\|_2^2
+ =-\frac12\iint |x-y|\dd\eta(x)\dd\eta(y)
+ =\frac1{2\pi}\int_\RR\frac{|\widehat\eta(\xi)|^2}{\xi^2}\dd\xi.
+ \label{eq:energy}
+\end{equation}
+For \(k_\lambda=(\delta_\lambda+\delta_{-\lambda})/2-\delta_0\),
+\[
+ \langle F_{k_\lambda},F_{k_\gamma}\rangle
+ =\tfrac12\min(\lambda,\gamma)\qquad(\lambda,\gamma\ge0).
+\]
+\end{lemma}
+\begin{proof}
+The squared difference of two half-line indicators has integral
+\(|x-y|\). Expanding its integral against \(\eta\otimes\eta\), the two
+single-variable terms vanish because \(\eta(\RR)=0\).
+The Fourier formula follows from \(F_\eta'=\eta\) and Plancherel.
+Finite first absolute moment justifies the distance integral.
+For the final identity, each primitive is constant with magnitude
+\(1/2\) on each half of \([-\lambda,\lambda]\), with opposite signs
+on the two halves. Their overlap has length \(2\min(\lambda,\gamma)\).
+\end{proof}
+
+\begin{lemma}\label{lem:positive}
+For every \(Y>0\), the uncut response \(J_4(Y,\infty)\) is strictly
+positive and continuous in \(Y\).
+\end{lemma}
+\begin{proof}
+The measure \(r\) has a nonzero atom at \(\log2\). The continuous
+source has no atom there, so \(r\ne0\).
+Fourier uniqueness gives some \(\xi\ne0\) with \(\widehat r(\xi)\ne0\).
+For every real \(\xi\ne0\),
+\[
+ \widehat c(\xi)=\int_1^\infty x^{-\sigma}e^{-x/Y}
+                    (1-\cos(\xi\log x))\dd x>0.
+\]
+Thus \(\widehat{r*r*c}=\widehat r^{\,2}\widehat c\) is not identically
+zero, and Lemma~\ref{lem:energy} gives strictly positive energy.
+On any compact \(Y\)-interval the source coefficients and their
+first absolute logarithmic moments admit a common integrable
+majorant. They vary continuously in the corresponding weighted
+total-variation norm. Convolution and the distance integral preserve
+this continuity, proving the assertion.
+\end{proof}
+
+\section{Mellin poles force mass cancellation}
+
+Write
+\[
+ M_\infty(Y)=
+ \sum_{n\ge2}\Lambda(n)n^{-\sigma}e^{-n/Y}
+ -\int_1^\infty x^{-\sigma}e^{-x/Y}\dd x.
+\]
+\begin{lemma}\label{lem:mellin}
+For \(\Re s>1-\sigma\),
+\begin{equation}
+ \int_0^\infty M_\infty(Y)Y^{-s-1}\dd Y
+ =\Gamma(s)\left(-\frac{\zeta'}{\zeta}(\sigma+s)
+                       -\frac1{\sigma+s-1}\right).
+ \label{eq:mellin}
+\end{equation}
+The meromorphic function on the right is holomorphic near every
+positive real point. At \(s=\rho-\sigma\), for a nonreal zero \(\rho\)
+of multiplicity \(m_\rho\), its residue is
+\(-m_\rho\Gamma(\rho-\sigma)\ne0\) whenever \(\Re\rho>\sigma\).
+\end{lemma}
+\begin{proof}
+The bound \(\Lambda(n)\le\log n\) gives
+\(A_\infty+B_\infty\ll_\sigma Y^{1-\sigma}(1+\log Y)\) for \(Y\ge2\);
+at zero both masses decay exponentially in \(1/Y\).
+Absolute convergence therefore permits interchange of integrals and
+sums. The substitution \(t=x/Y\) gives
+\(\int_0^\infty e^{-x/Y}Y^{-s-1}\dd Y=\Gamma(s)x^{-s}\).
+The Euler logarithmic derivative and the continuous integral yield
+\eqref{eq:mellin}.
+
+There are no positive real zeros of \(\zeta\): for \(w>1\) use its
+Euler product, and for \(0<w<1\) use
+\[
+ \zeta(w)=\frac{\sum_{n\ge1}(-1)^{n-1}n^{-w}}{1-2^{1-w}}<0.
+\]
+At \(w=1\) the two displayed pole parts cancel. The Gamma function
+is holomorphic on the positive real axis. At a nonreal zero,
+the negative logarithmic derivative has residue \(-m_\rho\), and Gamma has
+no zero, establishing the last assertion.
+\end{proof}
+
+We include the classical positivity argument to specify the analytic
+continuation required in the proof. A modern statement of this
+Landau mechanism appears in \cite[Theorem 3.1]{MM}; we make no
+novelty claim for the mechanism.
+\begin{lemma}[Landau mechanism]\label{lem:landau}
+Suppose \(f(Y)\ge0\) for \(Y\ge Y_0\ge1\), and the Mellin integral
+\(G(s)=\int_{Y_0}^\infty f(Y)Y^{-s-1}\dd Y\) has finite convergence
+abscissa \(c\). Then \(G\) cannot continue holomorphically across
+the real point \(c\).
+\end{lemma}
+\begin{proof}
+If it could, choose a small \(\varepsilon>0\) such that the Taylor
+radius at \(b=c+\varepsilon\) exceeds \(\varepsilon\).
+For every integer \(k\ge0\),
+\[
+ (-1)^kG^{(k)}(b)
+ =\int_{Y_0}^\infty f(Y)(\log Y)^kY^{-b-1}\dd Y\ge0.
+\]
+Choose \(h>\varepsilon\) within that Taylor radius. Taylor convergence
+and Tonelli imply
+\[
+ \int_{Y_0}^\infty f(Y)Y^{-(b-h)-1}\dd Y
+ =\sum_{k\ge0}\frac{h^k}{k!}(-1)^kG^{(k)}(b)<\infty,
+\]
+contrary to \(b-h<c\).
+\end{proof}
+
+\begin{theorem}\label{thm:oscillation}
+If \(\zeta\) has a nonreal zero \(\rho\) with \(\Re\rho>\sigma\),
+then \(M_\infty\) takes both strictly positive and strictly negative
+values arbitrarily far out. In particular, it has a sequence of
+zeros \(Y_j\to\infty\).
+\end{theorem}
+\begin{proof}
+Assume first that \(M_\infty\) is eventually nonnegative.
+Its nonnegative tail Mellin transform has convergence abscissa
+\(c\le1-\sigma\). Removing a bounded initial \(Y\)-interval from
+\eqref{eq:mellin} subtracts an entire function, because of the
+exponential decay at zero. If \(c<\Re\rho-\sigma\), the tail
+integral would be holomorphic at \(\rho-\sigma\), contradicting
+the pole there and uniqueness of meromorphic continuation.
+Hence \(c\ge\Re\rho-\sigma>0\).
+Lemma~\ref{lem:landau} now contradicts holomorphy at the positive
+real point \(c\). Apply the same argument to \(-M_\infty\) to
+exclude eventual nonpositivity.
+The mass is real analytic for \(Y>0\), by locally dominated
+differentiation of its defining sums and integrals. The intermediate
+value theorem supplies the stated zeros.
+\end{proof}
+
+By Lemma~\ref{lem:positive}, even omitting all exact mass zeros cannot
+rescue a uniform uncut mass-only bound: the response stays positive
+while the mass tends to zero near each root.
+The next section proves a quantitative version that survives a
+finite arithmetic cutoff.
+
+\section{An isolated prime atom survives the continuous background}
+
+\begin{proof}[Proof of Theorem~\ref{thm:main}(1)]
+Take \(L=\log Y\), \(N=\lfloor YL^2\rfloor\).
+Bertrand's theorem \cite{Erdos} provides a prime \(q\in(Y,2Y)\);
+apply its integer form at \(\lfloor Y\rfloor\).
+For sufficiently large \(Y\), we have \(q\le N<q^2\).
+Put \(d=\alpha^\ev-M\delta_0\) and \(b=\beta^\ev\), so \(r=d-b\).
+The atomic part of \(\eta=r*r*p\) is \(d*d*p\). Its remaining part
+\[
+ g(x)\dd x=-2d*b*p+b*b*p
+\]
+is absolutely continuous.
+
+At \(x_0=3\log q\) the atomic coefficient is exactly
+\begin{equation}
+ w=\frac18\bigl((\log q)q^{-\sigma}e^{-q/Y}\bigr)^3
+ \gg_\sigma L^3Y^{-3\sigma}.
+ \label{eq:jump}
+\end{equation}
+Indeed every atomic term uses at most three signed prime-power
+lags. Since \(q^2>N\), each lag contributes at most one to the
+\(q\)-adic valuation. A total valuation of three requires three
+positive lags divisible by \(q\); their product is \(q^3\), forcing
+each factor to equal \(q\). Neither a center term nor a negative
+lag can participate. An absolutely continuous term cannot alter
+this atomic coefficient.
+
+Every other atomic location is \(\log(u/v)\) for positive integers
+\(u,v\le N^3\). If \(u/v\ne q^3\), the distinct integers \(u,vq^3\)
+have smaller member at most \(N^3\), and therefore
+\begin{equation}
+ |\log(u/v)-3\log q|
+ \ge\log(1+N^{-3})\ge(2N^3)^{-1}.
+ \label{eq:spacing}
+\end{equation}
+Set \(\delta=(8N^3)^{-1}\), which isolates the atom on both sides.
+
+Elementary summation and maximization of the continuous density give
+\[
+ S\ll_\sigma Y^{1-\sigma}L,\qquad
+ \left\|\frac{db}{dx}\right\|_\infty\ll_\sigma Y^{1-\sigma}.
+\]
+Here \(x\) denotes the additive lag coordinate. Since
+\(\|d\|_\TV\le2S\), \(\|p\|_\TV\le2A\), and \(\|b\|_\TV=B\),
+\begin{equation}
+ \|g\|_\infty
+ \le10S^2\left\|\frac{db}{dx}\right\|_\infty
+ \ll_\sigma Y^{3(1-\sigma)}L^2.
+ \label{eq:density}
+\end{equation}
+Equations \eqref{eq:jump}--\eqref{eq:density} imply
+\(\delta\|g\|_\infty/w\ll_\sigma L^{-7}\), eventually at most \(1/4\).
+
+The two one-sided limits of \(F_\eta\) at \(x_0\) differ by \(w\);
+one therefore has absolute value at least \(w/2\).
+On the corresponding adjacent interval of length \(\delta\) there
+are no other atoms, and the continuous change is at most \(w/4\).
+Consequently
+\[
+ P^2\ge\|F_\eta\|_2^2\ge\delta w^2/16
+ \gg_\sigma Y^{-6\sigma-3}.
+\]
+Lemma~\ref{lem:energy} also gives
+\[
+ D\le\tfrac12(\log N)(A^2+B^2),\qquad
+ S^4D\ll_\sigma Y^{6(1-\sigma)}L^7.
+\]
+Dividing yields \eqref{eq:floor}. This proof permits the jumps of
+the integer-valued cutoff \(N(Y)\).
+\end{proof}
+
+\section{Finite-cutoff mass cancellation and the obstruction}
+
+\begin{proof}[Proof of Theorem~\ref{thm:main}(2)]
+Choose the uncut mass zeros \(Y_j\) from
+Theorem~\ref{thm:oscillation}, and set \(L_j=\log Y_j\),
+\(N_j=\lfloor Y_jL_j^2\rfloor\).
+At each such point the finite mass is the negative of a difference
+of omitted tails, so
+\begin{equation}
+ |M(Y_j,N_j)|\ll_\sigma
+ Y_j^{1-\sigma}L_j^2e^{-L_j^2/2}.
+ \label{eq:tail}
+\end{equation}
+For completeness, bound the prime tail by the integral of
+\((\log x)x^{-\sigma}e^{-x/Y}\) from \(N\), which is decreasing
+there. After \(x=Yu\), use \(u^{-\sigma}\le1\) and \(\log u\le u\)
+for \(u\ge1\). The resulting upper bound is
+\[
+ C_\sigma Y^{1-\sigma}(L+N/Y+1)e^{-N/Y}.
+\]
+The continuous tail is smaller. This proves \eqref{eq:tail};
+the floor error in \(N/Y\) is harmless.
+The finite continuous mass on \([Y/2,Y]\) is
+\(\gg_\sigma Y^{1-\sigma}\). Hence
+\[
+ |\mu(Y_j,N_j)|\ll_\sigma L_j^2e^{-L_j^2/2}.
+\]
+
+To ensure nonzero finite mass, perturb \(Y_j\) slightly to the right.
+The cutoff is constant on a right neighborhood, even when \(Y_j\)
+is a cutoff threshold. For fixed \(N_j\), the function
+\(M(Y,N_j)\) is real analytic and not identically zero: at small
+\(Y\) its integral beginning at \(1\) dominates the prime terms
+beginning at \(2\). Its zeros are therefore isolated.
+Choose \(0<Y'_j-Y_j<Y_j^{-1}\) within the same cutoff cell, with
+\(M(Y'_j,N_j)\ne0\), and small enough to retain
+\eqref{eq:tail} up to a constant.
+
+Theorem~\ref{thm:main}(1) applies directly to these finite sources;
+no response-tail transfer is required. For \(\kappa=4\),
+\[
+ \frac{J_4(Y'_j,N_j)}{|\mu(Y'_j,N_j)|^4}
+ \gg_\sigma e^{2L_j^2-9L_j}L_j^{-15}\longrightarrow\infty.
+\]
+For general \(\kappa>0\), the exponential factor is
+\(e^{\kappa L_j^2/2-9L_j}\), which still dominates all logarithmic
+factors. This proves \eqref{eq:nogo}.
+\end{proof}
+
+\begin{proof}[Proof of Corollary~\ref{cor:rh}]
+For \(0<\sigma<1/2\), a classical nonreal critical-line zero has
+real part exceeding \(\sigma\), so apply Theorem~\ref{thm:main}(2).
+In general, any zero to the right of \(\sigma\) contradicts the
+proposed uniform budget. At \(\sigma=1/2\), the symmetry of the
+nontrivial zeros about the critical line then gives RH.
+\end{proof}
+
+\section{Uniformity across a class of cutoff rules}
+
+\begin{theorem}\label{thm:uniformcutoff}
+For every fixed \(0<\sigma<1\), there are \(c_\sigma>0,Y_\sigma\)
+such that, simultaneously for every real \(Y\ge Y_\sigma\) and
+every integer \(Y\le N\le Y^2/8\),
+\begin{equation}
+ J_4(Y,N)\ge c_\sigma Y^{-6}N^{-3}(\log Y)^{-1}.
+ \label{eq:uniformfloor}
+\end{equation}
+The constant and the threshold are independent of \(N\).
+\end{theorem}
+\begin{proof}
+This time apply Bertrand's theorem at \(\lfloor Y/2\rfloor\) to
+choose \(Y/2<q<Y\). Then \(q\le N<q^2\). The valuation argument
+and integer separation from Section 4 apply without change:
+the atom at \(3\log q\) has coefficient
+\(w\gg_\sigma L^3Y^{-3\sigma}\) and can be isolated with
+\(\delta=(8N^3)^{-1}\).
+The uncut source bounds give, uniformly in the allowed \(N\),
+\[
+ S\ll_\sigma Y^{1-\sigma}L,\qquad
+ \|g\|_\infty\ll_\sigma Y^{3(1-\sigma)}L^2,\qquad
+ \frac{\delta\|g\|_\infty}{w}
+ \ll_\sigma\frac{Y^3}{N^3L}\le \frac{C_\sigma}{L}.
+\]
+For a threshold independent of \(N\), the jump argument therefore
+gives
+\[
+ P^2\ge\delta w^2/16
+ \gg_\sigma N^{-3}L^6Y^{-6\sigma}.
+\]
+Since \(\log N\le2L\), the denominator satisfies
+\(S^4D\ll_\sigma Y^{6(1-\sigma)}L^7\).
+Dividing proves \eqref{eq:uniformfloor}.
+Only \(\log N\asymp\log Y\), not asymptotic equality, is used.
+\end{proof}
+
+\begin{theorem}\label{thm:cutoffclass}
+Let \(\Phi\) be continuous and nondecreasing on a final real
+interval, and put \(N(Y)=\lfloor\Phi(Y)\rfloor\).
+Assume eventually that
+\[
+ Y\le N(Y)\le Y^2/8,\qquad
+ \frac{N(Y)}{Y\log Y}\longrightarrow\infty.
+\]
+If zeta has a nonreal zero to the right of \(\sigma\), then
+\eqref{eq:nogo} holds for this cutoff rule, for every fixed
+\(\kappa>0\) and every sufficiently large \(Y_0\).
+\end{theorem}
+\begin{proof}
+Take the uncut mass roots \(Y_j\) from
+Theorem~\ref{thm:oscillation}, and put \(h_j=N(Y_j)/Y_j\).
+The same decreasing-integral estimate used in
+\eqref{eq:tail}, now with lower limit \(h_j\), gives
+\[
+ |M(Y_j,N_j)|\ll_\sigma
+ Y_j^{1-\sigma}(L_j+h_j+1)e^{-h_j}.
+\]
+The continuum mass on \([Y_j/2,Y_j]\) bounds \(S\) below.
+Since \(h_j/L_j\to\infty\), this yields
+\[
+ |\mu(Y_j,N_j)|\ll_\sigma
+ (L_j+h_j+1)e^{-h_j}\le e^{-h_j/2}
+\]
+eventually.
+Continuity and monotonicity of \(\Phi\) imply that
+\(N(Y)=N_j\) in a right neighborhood of \(Y_j\): continuity
+keeps \(\Phi(Y)<N_j+1\), and monotonicity keeps
+\(\Phi(Y)\ge N_j\).
+This includes the case of an integer value \(\Phi(Y_j)\).
+The fixed-\(N_j\) analytic perturbation from Section 5 therefore
+provides nonzero mass points \(Y'_j\), with
+\(0<Y'_j-Y_j<Y_j^{-1}\), retaining the bound up to a factor of two.
+
+Theorem~\ref{thm:uniformcutoff} and \(N_j\le(Y'_j)^2/8\) give
+\(J_4(Y'_j,N_j)\gg_\sigma(Y'_j)^{-12}(\log Y'_j)^{-1}\).
+Consequently
+\[
+ \frac{J_4(Y'_j,N_j)}{|\mu(Y'_j,N_j)|^\kappa}
+ \gg_{\sigma,\kappa}
+ L_j^{-1}\exp(\kappa h_j/2-12L_j)\longrightarrow\infty.
+\]
+\end{proof}
+
+This includes each fixed cutoff
+\(N=\lfloor Y(\log Y)^b\rfloor\) with \(b>1\), and
+\(N=\lfloor Y^{1+\varepsilon}\rfloor\) with \(0<\varepsilon<1\).
+For any selected discrete schedule within \(Y\le N\le Y^2/8\),
+the budget \(J_4\le C|\mu|^\kappa\) at nonzero mass points
+necessarily requires
+\[
+ |\mu|\ge(c_\sigma/C)^{1/\kappa}
+ Y^{-6/\kappa}N^{-3/\kappa}(\log Y)^{-1/\kappa}.
+\]
+This is not sufficient for the budget, and no violation of this
+necessary condition on a prescribed dyadic schedule is proved.
+
+\section{Scope, the Weil interface, and reproducibility}
+
+The continuous-scale quantifier in the no-go theorems is essential.
+A bound for \(Y=\theta2^m\), simultaneously with the same constant
+and starting index for all \(1\le\theta<2\), would cover all large
+real scales and is subject to the theorem.
+A prescribed \(\theta\), constants depending on \(\theta\), or an
+existentially chosen cofinal schedule are not covered.
+In particular, a mass-relative estimate on a selected dyadic
+schedule remains an open arithmetic question.
+
+The response \eqref{eq:response} is the two-channel prime/continuous
+subsystem used in a conditional capture and Schur-gain criterion.
+It is not the complete Weil quadratic form. Incorporating the Gamma
+response, or constructing a cohomological realization, requires a
+separate bridge. The theorem only prevents treating a uniform
+continuous-scale mass-only budget as automatic positivity.
+The implication to RH at the central parameter is necessary, not
+an equivalence established here.
+
+The argument uses the classical Euler identity, analytic continuation
+of zeta, existence of a critical-line zero, and Bertrand's theorem.
+It uses no PNT error estimate or assumption about unknown zeros.
+For other \(L\)-functions, positive real zeros or complex coefficients
+can invalidate the real-axis or positivity steps; no unrestricted
+GRH extension is claimed.
+
+The accompanying exact script
+\path{scripts/abel_prime_atom_audit.py} checks multiplicative
+convolution coefficients and integer separation using rational
+arithmetic. The numerical script
+\path{scripts/abel_mass_discrepancy_probe.py} checks bounded actual
+Abel samples using numpy and mpmath. All samples at
+\(\sigma=1/4,1/2,3/4\), \(Y=2^3,\ldots,2^{18}\) were negative.
+This neither contradicts eventual oscillation nor estimates its first
+occurrence. The computations are not inputs to the asymptotic proofs.
+On the Windows test platform, numpy longdouble has the same
+52 explicit mantissa bits as binary64. The printed tail majorants
+do not include floating-point coefficient or summation errors and
+are not certified total-error bounds.
+Independent internal audits checked the Mellin singularities,
+prime-atom lower bound, cutoff transfer, and scale quantifiers.
+The literature priority of their combination remains to be assessed.
+
+\begin{thebibliography}{9}
+\bibitem{DLMF}
+F.~W.~J. Olver et al., eds.,
+\emph{NIST Digital Library of Mathematical Functions},
+Section 25.10, Zeros of the Riemann zeta function.
+\url{https://dlmf.nist.gov/25.10}.
+
+\bibitem{Erdos}
+P.~Erd\H{o}s,
+Beweis eines Satzes von Tschebyschef,
+\emph{Acta Litt. Sci. Szeged} \textbf{5} (1932), 194--198.
+\url{https://users.renyi.hu/~p_erdos/1932-01.pdf}.
+
+\bibitem{MM}
+K.~Mahatab and A.~Mukhopadhyay,
+\emph{Measure Theoretic Aspects of Oscillations of Error Terms},
+arXiv:1512.03144v4 (2018), Theorem 3.1.
+\url{https://arxiv.org/abs/1512.03144}.
+\end{thebibliography}
+\end{document}
