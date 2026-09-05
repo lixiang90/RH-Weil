@@ -13,7 +13,7 @@
 | NCE-5 | 备用线 | one-prime/one-block extension，预算增量可和 | extension 不调用完整 Weil positivity | 观察 |
 | NCE-6 | 备用线 | bounded-resolvent/negative-trace 的 ultraproduct 稳定性 | 先独立得到统一预算 `C` | 观察 |
 | NCE-7 | 非构造主线 | short-word effects 对实际 negative level sets 的 response-weighted capture | capture error共尾可和且不调用 Selberg/RH 等价输入 | degree-one universal moment route 已 sharp no-go |
-| NCE-8 | 当前主线 | B1w反向检查：在268所选dyadic cutoff上估计实际质量与响应；先核对269必要尺度 \(|M|\gg Y^{1/4-\sigma}L^{1/4}\)，再研究 \(J_{4,\le Y^2}/\mu^4\) | 新的实际质量/响应算术引理；仅验证必要条件不算full预算晋级，实际渐近反例则停止该schedule | 269全部有限 \(N\ge Y\) 的 \(J_4\gg L/Y^3\) [T]；270对数连续cutoff障碍 [N]；268高频相对尾保留，dyadic full预算仍 [O] |
+| NCE-8 | 当前主线 | B1x：271共尾大质量选择后，检查272-(G)的实际乘积逆最近间距预算，目标省一个对数因子；最终仍须控制 \(|\xi|\le Y\sqrt L/\ell\) 的联合响应 | 证明新的实际间距/交叉算术界，或严格缩小开放频带；必要质量条件及浮点趋势单独不晋级 | 271共尾 \(|M|>Y^{1/2-\sigma}\sqrt\ell\) [T/R]；272高频已独立闭合 [T]；(G)与剩余full预算 [O]；旧连续no-go保留 |
 | NCE-9 | 非构造补全 | 把 finite Cauchy-translate Schur block写成 joint signed Type I/II large-sieve form | uniform finite-block budget只用 length-side数据且弱于完整 RH criterion | finite satisfiability compactness与Gram/Schur判据已完成；33 translates捕获约23% package norm |
 | MOM-1 | 四矩观察线 | 只在出现新的 actual determinant-correlation input 时恢复；不得继续增加 Möbius/divisor kernel 表示 | 新输入必须在 physical fiber 内先合并全部 divisor blocks，并直接给 `o(L^4)` global ledger | exact band/mass已闭合；cumulative、band energy、channel mass、raw pullback与 divisor separation五条候选证书均已 theorem/no-go；条件比例仍为 0.7569027 / 0.8784513 |
 | NCE-10 | 非构造补全 | 增长的 arithmetic mixed localizers 与 divisor-visible resolvent closure | 每个有限 word level 近正且 Archimedean 有界，闭包恢复 divisor | scalar fourth moments 有 65 维严格 no-go；finite-satisfiability completion 已证明 |
@@ -57,8 +57,8 @@
 
 ### 路线 B / NCE-8：Vaughan--Brownian 响应预条件（长期主线）
 
-当前周期为下列 **B1w**；B1u--B1v段落保留为前周期的输入、失败与证据记录，
-其中“下一最小引理”“尚无质量下界”等均指当时的固定schedule，不覆盖268的新选择。
+当前周期为下列 **B1x**；B1u--B1w段落保留为前周期的输入、失败与证据记录，
+其中“下一最小引理”“尚无质量下界”等均指当时的schedule，不覆盖271的新共尾选择。
 
 - **目标**：利用 Type I、Type II 与 continuum/Gamma 通道之间的真实交叉抵消，证明 square-root Vaughan rectangle 上的统一增益。
 - **当前基础**：exact divided-difference response与 Brownian Gram保持成立。笔记 242 发现旧 `U=V=floor(sqrt N)` 实验的 Type II严格为空；修正为 cube-root cutoff后 Type-II非零并与 Type-I强负相关，但三通道 diagonal/full 比依 decomposition改变。cutoff-invariant quantities 是合并 prime vector `u_p`、continuum vector `u_c` 及其 physical energy。
@@ -83,6 +83,15 @@
 - **B1w 当前证据与审计**：269/270两份独立只读证明审计均通过，修补了非零质量分支及零点前提的显式措辞。新增actual full脚本独立计算Brownian分母，\(m=4,6,8,10,12\)、\(T=128\) 的 \(J_{4,\le T}/\mu^4\) 为约0.697、1.601、6.742、27.816、24429.067；这些数值不推渐近无界。主代理重跑通过，30个连续项抽样及50位最小完整积分复核；全部仍[E]。
 - **B1w 下一最小引理与止损纪律**：在同一268选择上，先判断 \(M^4/(Y^{1-4\sigma}L)\) 是否有一致正下界，或存在趋零的非零质量子序列；后者由269严格停止该schedule。前者只是必要检查，不能据此宣布full预算成立；要继续晋级仍须实际prime/continuum交叉控制或更强的响应下界。连续cutoff根序列和有限m的大比值都不能替代dyadic算术结论；不得继续扩写已闭合高频或普通乘子框架。
 - **论文归属**：261--262及269--270已同步独立 `abel-mass-obstruction-paper.tex` 与10页PDF，第7--8节给新增完整证明；263--268仍以Markdown为主，归Vaughan--Brownian response后续材料。本轮按PDF技能完成两次编译和逐页渲染核验，无最终溢出或引用警告。不混入广义Weil结构或四矩比例论文；内部证明及复算不等于文献新颖性或外部同行评审已经完成。
+- **B1x 本周期主线 [T/R]**：271证明正单调Stieltjes变换的双边振幅界，并以单位区间漂移把实cutoff振幅转移到整数最大质量。Littlewood经典无条件振荡与dyadic望远镜独立保证无穷多个窗口的 \(Z_m\gg_\sigma Y^{1/2-\sigma}\ell(Y)\)。认证严格阈值、对窗口交错搜索给可计算共尾序列 \(|M|>Y^{1/2-\sigma}\sqrt\ell\)。不保证每个dyadic成功，也不保证268首素数规则。
+- **B1x 已缩小输入 [T/O]**：272结合267的实际prime-power高频界，在该新序列上证明 \(J_{4,>T_0}=O(\mu^4)\)，\(T_0=Y\sqrt L/\ell(Y)\)，因此full预算等价于 \(J_{4,\le T_0}=O(\mu^4)\)。更大频带 \(T_1=Y\sqrt{L/\ell}\) 之外是 \(O(\ell^{-1}\mu^4)\)。这里 \(\ell(Y)=\max(1,\log\log\log Y)\)，固定 \(0<\sigma<1/2\)。不是原首素数schedule的同序列改进。
+- **B1x 独立算术输入与Weil接口**：Littlewood振荡 [R]、Stieltjes分部积分、dyadic几何求和、实际素数幂与267的加权均值；非构造/交错搜索不制造质量或正性。通过256-C仍仅条件性接入prime--continuum capture/Schur；Gamma、完整显式公式及上同调桥梁独立开放。没有预设响应正性或RH级负指数预算。
+- **B1x 下一最小引理 [O]**：对实际聚合乘积系数 \(b_k=\sum_{uv=k}a_ua_v\)，令 \(\delta_k\) 为不同乘积的最近log间距，证明 \(\mathcal G=\sum b_k^2/\delta_k\ll Y^{4-4\sigma}L\)，一致于 \(N\in[Y,2Y]\)。现有粗界损失 \(L^2\)。272-B严格证明该一个对数saving足以使 \(J_{4,>Y}=o(\mu^4)\)，但(G)本身未证；exact fibers不控制近碰撞。
+- **B1x 两条辅助线及当前证据**：辅助一为有限实际最大质量和逆最近间距实验；271的八个窗口 \(m=4,6,8,10,12,16,18,20\) 已50位抽查及主代理复算，全部尚未达到理论筛选阈值，不能称已找到共尾算法输出。辅助二为振荡文献量词审计：已核查的Schlage-Puchta及Révész结果给幂长区间，未直接提供每个dyadic窗口的结论；不声称穷尽文献。
+- **B1x 复现与逆向复核**：两份独立只读审计通过271全部证明和272归一化、四项尾预算、cofinal量词、256接口及(G)条件性。主代理重跑两份新脚本：八个最大质量窗口及八个最近间距实例；后者两个独立MP50小例的最大相对差约 \(1.61\cdot10^{-16}\)。全部数值仅[E]；已修正“单个有限点可证伪未知常数渐近O界”的不当措辞。
+- **B1x 主要反例与循环性**：271光滑分离bump反例证明全局 \(\Omega_\pm\) 本身不能推出每窗口下界；不是实际prime反例。269必要质量条件在新选择上被超过，但不推出联合response上界；270连续大cutoff障碍也未覆盖此序列。剩余频带预算可能仍有RH强度，尚未证明更弱；本篇特定选择不穷尽原自由存在性。
+- **B1x 晋级与止损条件**：只有独立证明(G)、进一步缩小频带或给真实响应新上/下界才晋级。若(G)失败，停止此充分证书，不直接否定actual交叉抵消；若实际响应迫使本篇所选 \(J_{4,\le T_0}/\mu^4\) 无界，则停止该schedule。不得把八个有限窗口或平均支持稀疏度升为统一渐近结论。
+- **B1x 论文归属与维护**：271--272归Vaughan--Brownian response，先保存完整Markdown证明和复现脚本，降低PDF同步频率。下一次更新障碍论文时补显式“大实数Y”到旧 `lem:uniformmoments`、`lem:signedtail`；对应269--270笔记已有限定。新颖性、有效高度与外部同行复核仍[O]。
 - **算术边界**：不得用任意系数 Bessel 界替代实际响应估计；必须保留交叉项，并单独控制 continuum 和 Gamma 通道。
 - **晋级条件**：解析证明有限实验中的增益不会随尺度消失，并将其转化为第二矩、负迹或截断 Weil 二次型的严格改善。
 - **止损条件**：若尺度中性的下界迫使 Schur 因子趋于 `1`，或者 continuum 项必然抵消全部收益，则停止该参数族，不再增加新的核表示。
