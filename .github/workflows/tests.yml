@@ -8,9 +8,13 @@ permissions:
   contents: read
 
 jobs:
-  test:
+  checks:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 60
+    strategy:
+      fail-fast: false
+      matrix:
+        group: [core, b1h, b1i]
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -19,6 +23,8 @@ jobs:
           cache: pip
       - name: Validate paper layout
         run: python scripts/check_repo_layout.py
+      - name: Validate complete check partition
+        run: python scripts/test_check_groups.py
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
@@ -26,4 +32,16 @@ jobs:
       - name: Report numerical runtime
         run: python -c "import sys, numpy, mpmath; print(sys.version); print('numpy', numpy.__version__, 'mpmath', mpmath.__version__)"
       - name: Run registered finite checks
-        run: python -u scripts/run_checks.py
+        run: python -u scripts/run_checks.py --group ${{ matrix.group }}
+
+  # Preserve the original "test" check name for any branch-protection rule.
+  test:
+    needs: checks
+    if: always()
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Require every check group to pass
+        env:
+          CHECK_GROUP_RESULT: ${{ needs.checks.result }}
+        run: test "$CHECK_GROUP_RESULT" = "success"

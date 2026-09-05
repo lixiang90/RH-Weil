@@ -6,6 +6,7 @@ They are not asymptotic estimates and are not evidence for RH.
 
 from __future__ import annotations
 
+import argparse
 import subprocess
 import sys
 from pathlib import Path
@@ -13,6 +14,7 @@ from pathlib import Path
 
 SCRIPTS = Path(__file__).resolve().parent
 CHECKS = (
+    ("finite-check group coverage", [sys.executable, "test_check_groups.py"]),
     ("paper layout", [sys.executable, "check_repo_layout.py"]),
     ("paper layout regression", [sys.executable, "test_repo_layout.py"]),
     (
@@ -307,11 +309,65 @@ CHECKS = (
     ),
 )
 
-def main() -> None:
-    for label, command in CHECKS:
+GROUPS = ("all", "core", "b1h", "b1i")
+HEAVY_CHECK_SCRIPTS = {
+    "b1h": "b1h_second_scale_interval_audit.py",
+    "b1i": "b1i_normalized_common_core_certificate.py",
+}
+
+
+def checks_for_group(group: str = "all", checks=None):
+    """Partition the registry without changing any check or its arguments.
+
+    New ordinary checks belong to core automatically.  The two heavy checks
+    must each exist exactly once, so renaming or duplicating one cannot
+    silently produce an empty job or remove work from the parallel suite.
+    """
+    if group not in GROUPS:
+        raise ValueError(f"unknown check group: {group!r}")
+    registered = tuple(CHECKS if checks is None else checks)
+    heavy = {
+        name: tuple(
+            check for check in registered
+            if Path(check[1][1]).name == script
+        )
+        for name, script in HEAVY_CHECK_SCRIPTS.items()
+    }
+    for name, selected in heavy.items():
+        if len(selected) != 1:
+            raise ValueError(
+                f"group {name!r} requires exactly one registered "
+                f"{HEAVY_CHECK_SCRIPTS[name]}; found {len(selected)}"
+            )
+    if group == "all":
+        selected = registered
+    elif group == "core":
+        selected = tuple(
+            check for check in registered
+            if Path(check[1][1]).name not in HEAVY_CHECK_SCRIPTS.values()
+        )
+    else:
+        selected = heavy[group]
+    if not selected:
+        raise ValueError(f"check group {group!r} is empty")
+    return selected
+
+
+def main(argv: list[str] | None = None) -> None:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument(
+        "--group", choices=GROUPS, default="all",
+        help="all checks (default), ordinary core checks, or one heavy certificate",
+    )
+    args = parser.parse_args(argv)
+    selected = checks_for_group(args.group)
+    for label, command in selected:
         print(f"==> {label}", flush=True)
         subprocess.run(command, cwd=SCRIPTS, check=True)
-    print("All finite sanity checks passed.")
+    if args.group == "all":
+        print("All finite sanity checks passed.")
+    else:
+        print(f"Finite sanity checks passed (group={args.group}, checks={len(selected)}).")
 
 
 if __name__ == "__main__":
