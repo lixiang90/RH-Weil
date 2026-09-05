@@ -1,4 +1,4 @@
-# 文献与证据边界（核对日期：2026-09-04）
+# 文献与证据边界（本轮增补核对日期：2026-09-06；历史条目保留各自核验范围）
 
 ## 一手与权威来源
 
@@ -139,6 +139,14 @@
 
 45. Harold Davenport, revised by Hugh L. Montgomery, *Multiplicative Number Theory*, 3rd ed., Graduate Texts in Mathematics 74, Springer (2000)。作为素数定理 `psi(x)=x+o(x)` 的权威参考；文档 252--253 只使用这一无条件渐近来控制 Mangoldt interval mass 与 matched Stieltjes discrepancy，不使用 RH 级误差项。
    https://link.springer.com/book/9780387950976
+
+46. Shashi Chourasiya, Aleksander Simonič, *An explicit form of Ingham's zero density estimate*, arXiv:2507.15184v2（2025-09-30），Corollary 1 与 Table 1。[R] 正式预印本，非本项目新零密度定理。对全部 \(1/2\le b\le1\)、\(H\ge3\cdot10^{12}\)，16个闭区间覆盖给统一常数的
+   \(N(b,H)\ll H^{3(1-b)/(2-b)}(\log H)^{(7-5b)/(2-b)}+\log^2H\)。
+   本轮直接核对 v2 的完整表；三个系数的最大值分别为 \(46.06,9.461,167.8\)。
+   对数指数在 \([2,3]\)，因而可弱化为统一 \(H^{3(1-b)}\log^3(2H)\)；
+   文档287另保留靠近 \(b=1\) 时的对数指数，通过自行证明的加权 layer-cake 和 dyadic 求和压缩响应的高谱尾。
+   只用有限区间零点总数补足小 \(H\)，不从有限高度 RH 验证推断全体零点，也不把零密度计数冒充剩余带符号四阶预算。
+   https://arxiv.org/html/2507.15184v2
 
 ## 使用这些来源时的边界
 

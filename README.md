@@ -19,6 +19,27 @@ Actions 将原检查清单分为 core、B1h、B1i 三组并行，全部成功才
 ## 正式论文整理稿
 
 最新研究进展（2026-09-06）：
+[287：零密度驱动的深右响应压缩](notes/287-zero-density-compression-of-deep-response.md)，
+[288：有限 Euler 变形的正性障碍](notes/288-finite-euler-deformation-positivity-obstruction.md)。
+沿284同一实际记录，在首带 \(\sqrt L<|\xi|\le L\)，
+需保留的零点高度由285的 \(\sqrt YL^{3/2}\) 无条件降为
+\(Y^{1/4}L^{5/4}\)，深右门槛仍为 \(1/2+a\log L/L\)、\(0<a<3/8\) [T/R]。
+这里 \(L=\log Y\)。证明接入已核验的统一零密度估计，保留
+\(Y^{\Re\rho-\sigma}\) 权重并求和所有更高谱壳；不是把计数直接当作四阶矩。
+原物理通道、完整端点和归一化不变，加权四次方根误差仍为 \(O(1/\ell)\)。
+剩余有限深右零点的实际带符号四阶预算、Gamma及完整 Weil 桥梁仍 [O]。
+
+288证明：对 \(\zeta(s)^m\) 的有限素数、多项式 Euler 变形，
+全部对数导数系数非负迫使每个新增参数模长不超过1；
+因此该类变形不能新增右半平面零点，非恒等 weight-1 reciprocal 局部因子也不相容 [T/N]。
+另给具有完成函数方程、素数幂支撑及正 Dirichlet 系数的显式离线零点模型，
+但其对数导数在同一素数的全部偶次幂上为负。
+这区分两种正性，不把有限多项式障碍推广到一般 Euler 乘积或实际 RH。
+
+本轮仅 Markdown、轻量复算及内部交叉审计；未更新 PDF，未启动 DL-AUDIT，
+也未证明新的零密度定理、零点比例或 RH/GRH。文献新颖性及外部独立审查尚待完成。
+
+同日上一轮：
 [285：浅层无限零点删除与有限深右响应](notes/285-shallow-zero-deletion-and-finite-deep-response.md)，
 [286：最右实部条件基准与亚纯模型障碍](notes/286-attained-spectral-edge-and-response-nonidentification.md)。
 沿284同一实际记录序列，固定 \(0<a<3/8\)，无条件从首带
@@ -156,7 +177,7 @@ cutoff 选择，使 \(|M|>Y^{1/2-\sigma}\sqrt{\ell(Y)}\)，
 在 \(\sigma<1/2\) 时，四次预算在连续规则
 \(N=\lfloor cY\log Y\rfloor,\ c\ge3/4\) 上失败；
 所选自由dyadic预算仍开放，不是RH或新的零点比例结论。
-269--270已同步到下列独立障碍论文及PDF；271--286暂不并入。
+269--270已同步到下列独立障碍论文及PDF；271--288暂不并入。
 
 新增独立研究稿
 [abel-mass-obstruction-paper.tex](papers/abel-mass-obstruction-paper.tex)

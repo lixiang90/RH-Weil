@@ -4,7 +4,7 @@
 
 ## 当前队列
 
-维护验收与恢复（2026-09-06）：David--Lapidus 限额观察线、论文目录及 GitHub Actions 三项维护均已完成，[完整三组远程检查成功](https://github.com/lixiang90/RH-Weil/actions/runs/33982592142)。按用户“继续研究”恢复 B / NCE-8；275--282四轮周期已结束，283--286完成下一周期前2轮：固定对角强记录、较小高频阈值、无限浅层零点删除与亚纯反例模型。`DL-AUDIT`仍未启动；观察线资源门槛不变。
+维护验收与恢复（2026-09-06）：David--Lapidus 限额观察线、论文目录及 GitHub Actions 三项维护均已完成，[完整三组远程检查成功](https://github.com/lixiang90/RH-Weil/actions/runs/33982592142)。按用户“继续研究”恢复 B / NCE-8；275--282四轮周期已结束，283--288完成下一周期前3轮：固定对角强记录、无限浅层删除、零密度驱动的四分之一次方谱高度压缩，以及亚纯/有限Euler模型边界。`DL-AUDIT`仍未启动；观察线资源门槛不变。
 
 | ID | 角色 | 下一最小引理 | 晋级条件 | 状态 |
 |---|---|---|---|---|
@@ -15,7 +15,7 @@
 | NCE-5 | 备用线 | one-prime/one-block extension，预算增量可和 | extension 不调用完整 Weil positivity | 观察 |
 | NCE-6 | 备用线 | bounded-resolvent/negative-trace 的 ultraproduct 稳定性 | 先独立得到统一预算 `C` | 观察 |
 | NCE-7 | 非构造主线 | short-word effects 对实际 negative level sets 的 response-weighted capture | capture error共尾可和且不调用 Selberg/RH 等价输入 | degree-one universal moment route 已 sharp no-go |
-| NCE-8 | 当前主线 | B1z / 285-(35)：沿284同一记录，在首带 \(\sqrt L<\lvert\xi\rvert\le L\) 估计有限集合 \(\Re\rho>1/2+a\log L/L,\ |\Im\rho|\le\sqrt YL^{3/2}\) 的实际有符号响应，先固定 \(a=1/4\) | 真实交叉节省、继续缩小输入或明确中心线识别障碍；不把有限零点表示或两通道预算当RH证明 | 浅层无限和/高谱尾已独立删除 [T/R]；达到最右实部时full预算 [C]；正Dirichlet亚纯模型有离线零点却通过预算 [N]；剩余算术及完整Weil桥梁 [O] |
+| NCE-8 | 当前主线 | B1z / 287：沿284同一记录，在首带 \(\sqrt L<\lvert\xi\rvert\le L\) 估计有限集合 \(\Re\rho>1/2+a\log L/L,\ \lvert\Im\rho\rvert\le Y^{1/4}L^{5/4}\) 的实际有符号响应，先固定 \(a=1/4\) | 真实交叉节省或继续缩小算术输入；不把有限零点表示、已知密度或两通道预算当RH证明 | 零密度已将谱尾阈值从平方根级降至四分之一次方级 [T/R]；有限Euler多项式正性障碍 [N]；剩余算术及完整Weil桥梁 [O] |
 | NCE-9 | 非构造补全 | 把 finite Cauchy-translate Schur block写成 joint signed Type I/II large-sieve form | uniform finite-block budget只用 length-side数据且弱于完整 RH criterion | finite satisfiability compactness与Gram/Schur判据已完成；33 translates捕获约23% package norm |
 | MOM-1 | 四矩观察线 | 只在出现新的 actual determinant-correlation input 时恢复；不得继续增加 Möbius/divisor kernel 表示 | 新输入必须在 physical fiber 内先合并全部 divisor blocks，并直接给 `o(L^4)` global ledger | exact band/mass已闭合；cumulative、band energy、channel mass、raw pullback与 divisor separation五条候选证书均已 theorem/no-go；条件比例仍为 0.7569027 / 0.8784513 |
 | NCE-10 | 非构造补全 | 增长的 arithmetic mixed localizers 与 divisor-visible resolvent closure | 每个有限 word level 近正且 Archimedean 有界，闭包恢复 divisor | scalar fourth moments 有 65 维严格 no-go；finite-satisfiability completion 已证明 |
@@ -138,6 +138,17 @@
 - **晋级条件**：解析证明有限实验中的增益不会随尺度消失，并将其转化为第二矩、负迹或截断 Weil 二次型的严格改善。
 - **止损条件**：若尺度中性的下界迫使 Schur 因子趋于 `1`，或者 continuum 项必然抵消全部收益，则停止该参数族，不再增加新的核表示。
 - **预期产物**：可独立陈述的 response Gram 定理，以及它对部分 Weil 比例或平方根共振楔的定量影响。
+
+#### B1z 第3轮：独立密度输入的实际谱压缩（2026-09-06）
+
+- **主线与最小引理**：287估计 \(\sum_{\Re\rho\ge1/2,\ |\Im\rho|>V}Y^{\Re\rho-\sigma}/|\Im\rho|^2\)，保留真实实部权重，而非只把响应换成有限零点和。辅助线限于288的有限Euler正性障碍；轻量脚本只做模型复算。
+- **独立算术输入**：[R] Chourasiya--Simonič arXiv:2507.15184v2 的 Corollary 1/Table 1，全实部范围常数已核验；加上282积分后显式公式与284强记录。无RH假设、无紧性制造正性。
+- **已证削减 [T/R]**：对 \(A>1/2\)，同一物理带 \(\sqrt L<|\xi|\le L^A\) 可把285高度改为 \(V=Y^{1/4}L^{(7+3A)/8}\)。高谱尾的质量相对四阶能量为 \(O(\ell^{-4})\)，连同已证浅层和端点删除，归一化四次方根误差为 \(O(\ell^{-1})\)。求和覆盖全部更高 dyadic 壳，物理频率与零点高度严格区分。
+- **配置接口与循环性**：沿同一284实际记录，只替换待估计的频率函数，原 \(p,c,S,D,M\) 不变；277两通道预算转移仍适用。得到的是已知零密度的响应后果，不是新零密度定理，也不是已证明首带预算，更不覆盖全部 \(\sqrt L<|\xi|\le T_{\rm diag}\)。Gamma/完整Weil桥梁独立开放。
+- **主要反例 [N]**：288证明有限Euler多项式若新增右半平面零点，必在同一素数的无穷多个幂次出现负对数导数系数。其显式模型虽有完成FE、素数幂支持与正Dirichlet系数，仍不满足正算术源；不能与286模型拼合成具备全部条件的反例。有限幂次非负检查也不足以替代全幂次公理。障碍不外推至有理因子、一般无限Euler乘积或真实RH。
+- **当前证据**：主代理复核原文v2表格、全高度dyadic账本与物理归一化；独立代理交叉审计287/288。脚本用有理数核验两套独立递推至64阶；MP60完成FE样本误差 \(6.38\cdot10^{-62}\)，仅[E]。目录检查、11项目录回归及77项注册/模拟分发检查通过，未重跑77项重型计算。
+- **下一最小输入 [O]**：固定 \(A=1,a=1/4\)，控制 \(\Re\rho>1/2+\log L/(4L)\)、\(|\Im\rho|\le Y^{1/4}L^{5/4}\) 内实际带符号和的四阶预算；优先检测中等谱高度的真实交叉，不用绝对计数顶替。已知估计尚不能把保留集合只缩到物理共振高度 \(|\Im\rho|\asymp L\)。
+- **晋级/止损/论文归属**：本轮因真实谱尾有幂次削减而晋级；下轮仅在严格减少开放输入、证明交叉saving或明确相应障碍时继续。停止单纯改写有限表示及扩写同类有限Euler例子。287归独立response论文，288为配套结构边界；本轮不更新PDF，DL-AUDIT未启动，文献新颖性、外部审查及Goal阶段验收仍未完成。
 
 ### 路线 C / VIS-1：离线零点深度可见性（桥梁路线）
 
