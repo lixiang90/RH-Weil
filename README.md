@@ -19,6 +19,27 @@ Actions 将原检查清单分为 core、B1h、B1i 三组并行，全部成功才
 ## 正式论文整理稿
 
 最新研究进展（2026-09-06）：
+[285：浅层无限零点删除与有限深右响应](notes/285-shallow-zero-deletion-and-finite-deep-response.md)，
+[286：最右实部条件基准与亚纯模型障碍](notes/286-attained-spectral-edge-and-response-nonidentification.md)。
+沿284同一实际记录序列，固定 \(0<a<3/8\)，无条件从首带
+\(\sqrt L<|\xi|\le L\) 的响应中删除全部
+\(\Re\rho\le1/2+a\log L/L\) 的无限零点和、\(|\Im\rho|>\sqrt YL^{3/2}\) 的尾、
+以及完整保留后估计的端点 [T/R]。归一化加权四次方根误差为 \(O(1/\ell)\)；
+只剩有限深右零点的实际带符号四阶预算 [O]，原物理通道和分母不变。
+
+286证明：若实际最右零点实部上确界在 \(1\) 以下且被达到，则可选共尾对角序列
+闭合完整质量相对预算，即使该条件假设的边缘实部大于 \(1/2\) [C]。
+另独立构造固定 \(\lambda(n)\in[1/2,3/2]\)，对应具有正 Dirichlet 系数、
+单值亚纯延拓和两个简单离线零点的函数，其完整整数响应也通过该预算 [N]。
+数值参数还允许 dyadic 好子序列；因此该模型不能仅靠要求 dyadic 尺度排除。
+但模型没有本篇证明的素数 Euler 乘积、完成函数方程或 Gamma 结构，
+**不是 RH 反例，也不排除使用这些附加算术结构的路线**。
+
+本轮完成内部交叉证明审计与三窗口复算；有限实验没有认证记录或无限频率尾。
+当前下一最小输入为285-(35)，而两通道预算通向完整 Weil 正性的桥梁仍须独立证明。
+仅新增 Markdown 和复算脚本，不更新 PDF，未启动 DL-AUDIT。
+
+同日上一轮：
 [283：固定整数对角 Abel 质量的强双向振荡](notes/283-fixed-cutoff-abel-mass-oscillation.md)，
 [284：因果 Abel 逆核与对角记录选择](notes/284-causal-abel-inverse-and-diagonal-record-selection.md)。
 对实际 von Mangoldt 源，无条件证明
@@ -135,7 +156,7 @@ cutoff 选择，使 \(|M|>Y^{1/2-\sigma}\sqrt{\ell(Y)}\)，
 在 \(\sigma<1/2\) 时，四次预算在连续规则
 \(N=\lfloor cY\log Y\rfloor,\ c\ge3/4\) 上失败；
 所选自由dyadic预算仍开放，不是RH或新的零点比例结论。
-269--270已同步到下列独立障碍论文及PDF；271--284暂不并入。
+269--270已同步到下列独立障碍论文及PDF；271--286暂不并入。
 
 新增独立研究稿
 [abel-mass-obstruction-paper.tex](papers/abel-mass-obstruction-paper.tex)
