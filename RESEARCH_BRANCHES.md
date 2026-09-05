@@ -4,7 +4,7 @@
 
 ## 当前队列
 
-维护验收与恢复（2026-09-06）：David--Lapidus 限额观察线、论文目录及 GitHub Actions 三项维护均已完成，[完整三组远程检查成功](https://github.com/lixiang90/RH-Weil/actions/runs/33982592142)。按用户“继续研究”恢复 B / NCE-8；275--282四轮周期已结束，283--288完成下一周期前3轮：固定对角强记录、无限浅层删除、零密度驱动的四分之一次方谱高度压缩，以及亚纯/有限Euler模型边界。`DL-AUDIT`仍未启动；观察线资源门槛不变。
+维护验收与恢复（2026-09-06）：David--Lapidus 限额观察线、论文目录及 GitHub Actions 三项维护均已完成，[完整三组远程检查成功](https://github.com/lixiang90/RH-Weil/actions/runs/33982592142)。按用户“继续研究”恢复 B / NCE-8；275--282与283--290各完成一个四轮周期。最新结果为289的多对数高度新余项核归约，以及290的正Euler/对偶/全阶质量相对矩联合非识别模型与固定软证书障碍。下一最小输入是289-(53)的实际有限谱包预算，而非继续扩写有限表示；完整Weil接口仍独立开放。`DL-AUDIT`仍未启动；观察线资源门槛不变。
 
 | ID | 角色 | 下一最小引理 | 晋级条件 | 状态 |
 |---|---|---|---|---|
@@ -15,7 +15,7 @@
 | NCE-5 | 备用线 | one-prime/one-block extension，预算增量可和 | extension 不调用完整 Weil positivity | 观察 |
 | NCE-6 | 备用线 | bounded-resolvent/negative-trace 的 ultraproduct 稳定性 | 先独立得到统一预算 `C` | 观察 |
 | NCE-7 | 非构造主线 | short-word effects 对实际 negative level sets 的 response-weighted capture | capture error共尾可和且不调用 Selberg/RH 等价输入 | degree-one universal moment route 已 sharp no-go |
-| NCE-8 | 当前主线 | B1z / 287：沿284同一记录，在首带 \(\sqrt L<\lvert\xi\rvert\le L\) 估计有限集合 \(\Re\rho>1/2+a\log L/L,\ \lvert\Im\rho\rvert\le Y^{1/4}L^{5/4}\) 的实际有符号响应，先固定 \(a=1/4\) | 真实交叉节省或继续缩小算术输入；不把有限零点表示、已知密度或两通道预算当RH证明 | 零密度已将谱尾阈值从平方根级降至四分之一次方级 [T/R]；有限Euler多项式正性障碍 [N]；剩余算术及完整Weil桥梁 [O] |
+| NCE-8 | 当前主线 | B1z / 289-(53)：沿284同一记录，在首带 \(\sqrt L<\lvert\xi\rvert\le L\) 估计 \(\Re\rho>1/2+\log L/(4L),\ \lvert\Im\rho\rvert\le4\lceil L\rceil L\) 的新 resolvent 余项核实际有符号四阶预算 | 真实交叉节省或新的独立算术缩减；限额审计低代价一侧证书，不把相对矩界当完整Weil正性 | 新核谱高度无条件降至多对数级 [T/R]；正Euler/对偶/所有相对偶矩仍不识别中心线 [N]；实际预算及绝对Weil账本 [O] |
 | NCE-9 | 非构造补全 | 把 finite Cauchy-translate Schur block写成 joint signed Type I/II large-sieve form | uniform finite-block budget只用 length-side数据且弱于完整 RH criterion | finite satisfiability compactness与Gram/Schur判据已完成；33 translates捕获约23% package norm |
 | MOM-1 | 四矩观察线 | 只在出现新的 actual determinant-correlation input 时恢复；不得继续增加 Möbius/divisor kernel 表示 | 新输入必须在 physical fiber 内先合并全部 divisor blocks，并直接给 `o(L^4)` global ledger | exact band/mass已闭合；cumulative、band energy、channel mass、raw pullback与 divisor separation五条候选证书均已 theorem/no-go；条件比例仍为 0.7569027 / 0.8784513 |
 | NCE-10 | 非构造补全 | 增长的 arithmetic mixed localizers 与 divisor-visible resolvent closure | 每个有限 word level 近正且 Archimedean 有界，闭包恢复 divisor | scalar fourth moments 有 65 维严格 no-go；finite-satisfiability completion 已证明 |
@@ -149,6 +149,18 @@
 - **当前证据**：主代理复核原文v2表格、全高度dyadic账本与物理归一化；独立代理交叉审计287/288。脚本用有理数核验两套独立递推至64阶；MP60完成FE样本误差 \(6.38\cdot10^{-62}\)，仅[E]。目录检查、11项目录回归及77项注册/模拟分发检查通过，未重跑77项重型计算。
 - **下一最小输入 [O]**：固定 \(A=1,a=1/4\)，控制 \(\Re\rho>1/2+\log L/(4L)\)、\(|\Im\rho|\le Y^{1/4}L^{5/4}\) 内实际带符号和的四阶预算；优先检测中等谱高度的真实交叉，不用绝对计数顶替。已知估计尚不能把保留集合只缩到物理共振高度 \(|\Im\rho|\asymp L\)。
 - **晋级/止损/论文归属**：本轮因真实谱尾有幂次削减而晋级；下轮仅在严格减少开放输入、证明交叉saving或明确相应障碍时继续。停止单纯改写有限表示及扩写同类有限Euler例子。287归独立response论文，288为配套结构边界；本轮不更新PDF，DL-AUDIT未启动，文献新颖性、外部审查及Goal阶段验收仍未完成。
+
+#### B1z 第4轮与周期收束：增长阶局部化及联合模型障碍（2026-09-06）
+
+- **主线与已解最小引理 [T]**：[289](notes/289-growing-resolvent-jets-and-polylog-spectral-localization.md)固定 \(A>1/2,0<a<3/8\)，取 \(m=\lceil L\rceil,h=mL^A,V=4h\)。对原积分核作 \(m\) 次移位分部积分，全部谱的端点系数先求和，以284实际历史记录控制；统一 Cauchy jet 界、稳定因果 primitive 和 \((h-\sigma)^{-j}\) 账本防止增长次数带来隐藏指数损失。在 \(\sqrt L<|\xi|\le L^A\) 上，全部浅层、全部 \(|\gamma|>V\) 新余项及完整端点误差满足 \(Q/(M^4L)=O(\ell^{-4})\)。首带保留高度成为 \(4\lceil L\rceil L\)，不是旧 \(I_\rho\) 的硬截断。
+- **独立算术输入与配置接口 [T/R/O]**：仅用284已证实际共尾强记录、标准显式公式及单位高度 \(O(\log T)\) 计数；本步不再依赖287密度估计。先固定参数再令显式公式高度趋于无穷，随后证明对增长 \(m,h\) 一致的界。原物理 \(p,c,S,D,M\) 保持，277将裸预算转成原两通道加权预算；四次方根误差为 \(O(\ell^{-1})\)，不冒充能量的加性误差。上同调正极化、完整Weil current及Gamma不能从此自动产生。
+- **辅助一：明确范围的联合反例 [T/N]**：[290](notes/290-positive-euler-duality-model-and-mass-moment-nonidentification.md)取固定 \(q\ge5\)，\(Z(t)=(1-qt+qt^2)/((1-t)(1-qt))\)。证明所有闭点数为正整数、Euler乘积真收敛，外代数/对偶/代数HL/超迹/行列式/FE严格相容，而分子仍有离线根。用它自己的离散极点背景，还对所有cutoff、所有正概率频率权证明全部质量相对偶矩界，并证明任意合法共同乘子的统一Schur增益。模型不是实际有限类型曲线、数域连续背景或Riemann zeta反例；缺失相容正极化。078已含companion失纯性，不将该组成机制再登记为新颖成果。
+- **辅助二：既有桥梁的停止点 [T/N/O]**：回查194/195的条件response-to-negative-trace证书，确有公式而非“没有桥梁”。但256只给乘子后两通道相对改善；254固定二阶参数的非负软化代价为 \(2\rho=2S/3\to\infty\)，且没有原diagonal绝对控制。由此只否定该充分证书在原参数下的直接闭合，不推出负迹实际发散。固定 \(\sigma<1/2\) 的选定整数记录到完整current的参数/尺度/constant-mode/Gamma识别亦未完成，不能仅在末尾附加Gamma。
+- **证据和循环性审计**：289由主代理、gap_exception_audit、midband_compute全文复核；290由主代理、carrier_audit、gap_exception_audit全文复核。新移位核6个合成零点参数的MP70精确恒等式探针通过，最大归一化差约 \(3.57\cdot10^{-71}\)，不认证实际零点或增长阶极限。Euler模型脚本以整数/Fraction核验闭点、对偶和全频primitive矩；几何权有理分支与真实Abel权浮点分支分开，后者 \(K=4,\ldots,24\) 的完整 \(J_4/\mu^4\) 为约3.16至7.10，均仅有限[E]。所有无穷量词来自证明，不来自实验、紧性或RH假设。
+- **复现与仓库验收**：两份新脚本最终复跑通过；目录/TeX引用检查、11项目录回归、77项注册覆盖及模拟分发检查通过，未重跑77项重型数学计算或本轮完整远程CI。289与290另经独立交叉检查，实际zeta归约与离散模型的适用范围不冲突。
+- **下一最小输入 [O]**：主线固定289-(53)：\(A=1,a=1/4\)，在同一284记录上证明保留的新有限深右谱包有 \(Q=O(M^4L)\)。即使闭合首带，\(L<|\xi|\le T_{\rm diag}\) 仍另需控制。辅助仅审计一个能替代发散软化项的低代价一侧证书，必须先给独立可检验的误差界；不暗设一致负指数或完整正性。
+- **四轮决策、晋级与止损**：283--290周期完结，强记录与统一多对数谱局部化晋级为内部[T]，实际谱包相关估计保留主线；正Euler联合反例及特定软证书障碍保留为结构边界。下一周期仅继续这些已经缩小开放输入的任务；若只有更多换核/表示、一般计数、相对Schur改善或重复模型，就停止该动作，不把它登记为RH实质推进。
+- **论文归属和未完成项**：289归独立Vaughan--Brownian响应论文材料；290归独立配置障碍/接口审计材料，不混入数域存在性或零点比例论文。本轮仅Markdown与两份轻量脚本，不更新PDF，DL-AUDIT未启动。文献新颖性、外部同行审查、正式论文级整合和Goal阶段验收仍[O]；未证明新零点比例、零密度或RH/GRH。
 
 ### 路线 C / VIS-1：离线零点深度可见性（桥梁路线）
 

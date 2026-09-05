@@ -19,6 +19,32 @@ Actions 将原检查清单分为 core、B1h、B1i 三组并行，全部成功才
 ## 正式论文整理稿
 
 最新研究进展（2026-09-06）：
+[289：增长阶 resolvent 余项与多对数谱局部化](notes/289-growing-resolvent-jets-and-polylog-spectral-localization.md)，
+[290：正 Euler/对偶/全阶质量相对矩的联合非识别模型](notes/290-positive-euler-duality-model-and-mass-moment-nonidentification.md)。
+沿284同一实际整数记录，在首带 \(\sqrt L<|\xi|\le L\)，令
+\(m=\lceil L\rceil,\ h=mL,\ L=\log Y\)。把全部端点先合并并估计后，
+仅需保留高度 \(V=4\lceil L\rceil L\asymp(\log Y)^2\) 以下的深右零点，
+门槛为 \(\Re\rho>1/2+a\log L/L,\ 0<a<3/8\) [T/R]。
+这里保留的是经过 \(m\) 次移位分部积分的**新余项核**，不能将287旧核直接硬截到此高度。
+增长阶常数、全部高谱尾和浅层余项已统一控制；原 \(p,c,S,D,M\) 不变，
+归一化四次方根误差仍为 \(O(1/\ell)\)。独立外部输入仅为标准显式公式/计数，
+本步不需要新增零密度估计。新核的实际有符号四阶预算289-(53)仍 [O]。
+
+290给一个固定有理模型：正整数闭点 Euler 乘积、曲线型分次对偶/代数
+Hard Lefschetz、函数方程和迹公式，以及所有质量相对偶矩界和统一两通道
+Schur 增益，能够与离线零点共存 [T/N]。背景是模型自己的离散极点迹，
+不是数域连续背景；缺失的是 Frobenius 相容正极化，不是真实曲线或 RH 反例。
+同时回查194/195的既有条件桥梁：254固定二阶方案的软化代价
+\(2\rho=2S/3\to\infty\)，故单有相对 Schur 改善不能闭合该充分证书，
+还需新的绝对响应/软化控制；这不证明实际负迹发散。
+
+283--290四轮周期收束：下一周期只继续已缩小的实际有限谱包预算，
+并限额核验低代价的一侧证书；停止把两通道相对矩改善直接当作 RH 进展。
+两篇完整证明经内部独立交叉复核，两份轻量脚本通过 [E]；
+本轮只更新 Markdown，不更新 PDF、不启动 DL-AUDIT。
+没有证明 RH/GRH、新零点比例或新零密度定理；文献新颖性和外部审查仍 [O]。
+
+同日上一轮：
 [287：零密度驱动的深右响应压缩](notes/287-zero-density-compression-of-deep-response.md)，
 [288：有限 Euler 变形的正性障碍](notes/288-finite-euler-deformation-positivity-obstruction.md)。
 沿284同一实际记录，在首带 \(\sqrt L<|\xi|\le L\)，
@@ -177,7 +203,7 @@ cutoff 选择，使 \(|M|>Y^{1/2-\sigma}\sqrt{\ell(Y)}\)，
 在 \(\sigma<1/2\) 时，四次预算在连续规则
 \(N=\lfloor cY\log Y\rfloor,\ c\ge3/4\) 上失败；
 所选自由dyadic预算仍开放，不是RH或新的零点比例结论。
-269--270已同步到下列独立障碍论文及PDF；271--288暂不并入。
+269--270已同步到下列独立障碍论文及PDF；271--290暂不并入。
 
 新增独立研究稿
 [abel-mass-obstruction-paper.tex](papers/abel-mass-obstruction-paper.tex)
