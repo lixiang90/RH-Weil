@@ -4,6 +4,14 @@
 
 ## 正式论文整理稿
 
+最新研究进展（2026-09-05）暂以Markdown保存：
+[267：实际四阶高频尾与全频乘子障碍](notes/267-prime-power-collisions-and-quartic-high-frequency-tail.md)，
+[268：素数跳跃cutoff与质量相对频带归约](notes/268-prime-jump-cutoffs-and-mass-relative-frequency-reduction.md)。
+对固定 \(0<\sigma<1/2\)，在一条明确的dyadic自由cutoff选择上，无条件证明
+\(J_{4,>Y^2}=O((\log Y)^{-3}\mu^4)\)；
+剩余 \(J_{4,\le Y^2}=O(\mu^4)\) 仍是开放算术输入，不是RH或新的零点比例结论。
+本轮不重排PDF。
+
 新增独立研究稿
 [abel-mass-obstruction-paper.tex](abel-mass-obstruction-paper.tex)
 及 [PDF](output/pdf/abel-mass-obstruction-paper.pdf)：
@@ -524,6 +532,8 @@ xelatex rh-weil-structure-paper.tex
 - [最优能量平方强制性与局部单一预算判据](notes/264-sharp-energy-square-coercivity-and-local-budget.md)
 - [实际带符号PNT能量与四阶截断桥梁](notes/265-signed-pnt-energy-and-quartic-truncation-bridge.md)
 - [实际局部素数间隙能量下界与二阶预算障碍](notes/266-local-prime-gap-floor-and-second-energy-obstruction.md)
+- [素数幂碰撞、加权四阶高频尾与全频乘子障碍](notes/267-prime-power-collisions-and-quartic-high-frequency-tail.md)
+- [素数跳跃cutoff与质量相对高频闭合](notes/268-prime-jump-cutoffs-and-mass-relative-frequency-reduction.md)
 - [研究分支看板](RESEARCH_BRANCHES.md)
 - [文献与证据边界](notes/003-sources.md)
 
@@ -535,6 +545,9 @@ xelatex rh-weil-structure-paper.tex
 - [最优能量平方不等式的有理数交叉审计](scripts/brownian_energy_square_audit.py)
 - [实际局部窗口能量与独立小例复算](scripts/local_balanced_energy_probe.py)
 - [两份带符号差异截断桥梁的有理数审计](scripts/signed_truncation_bridge_audit.py)
+- [prime-power乘积/比值纤维的精确碰撞审计](scripts/prime_power_product_fiber_audit.py)
+- [实际带符号四阶响应的有限频带探针](scripts/quartic_signed_frequency_probe.py)
+- [素数跳跃cutoff与实际质量的有界探针](scripts/prime_jump_cutoff_probe.py)
 - [七扇区有理数交叉审计](scripts/carrier_sector_coercivity_audit.py)
 - [半局部 Weil 矩阵与 residual 证书](scripts/qw_matrix.py)
 - [Legendre prolate 候选与端点修正](scripts/prolate_candidate.py)

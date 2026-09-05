@@ -369,3 +369,12 @@ primitive energy [T]，并构造满足全部现有 soft inputs 的 positive-sour
 因此 B1o 的 soft route 已止损；B1p 必须利用真实 von Mangoldt coefficients 在
 mesoscopic lag separations 上的算术结构，不能继续从 qualitative PNT或 raw
 tightness推导式 (19)。
+
+2026-09-05后续：对固定 \(0<\sigma<1/2\)，268在实际dyadic整数尺度，以首个素数处两个相邻共同cutoff
+选择非零质量，证明 \(|M|\gg Y^{-\sigma}\log Y\)。
+结合267的独立加权均值高频界，所选schedule满足
+\(J_{4,>Y^2}=O((\log Y)^{-3}\mu^4)\)。
+因此本篇(19)沿该schedule严格归约为
+\(J_{4,\le Y^2}=O(\mu^4)\)，该增长频带预算仍[O]。
+这条选择在255允许的 \(N_m\ge Y_m\) 范围内，但不覆盖原固定
+\(N=\lfloor Y\log^2Y\rfloor\) 或无cutoff源；也未补入Gamma。

@@ -13,7 +13,7 @@
 | NCE-5 | 备用线 | one-prime/one-block extension，预算增量可和 | extension 不调用完整 Weil positivity | 观察 |
 | NCE-6 | 备用线 | bounded-resolvent/negative-trace 的 ultraproduct 稳定性 | 先独立得到统一预算 `C` | 观察 |
 | NCE-7 | 非构造主线 | short-word effects 对实际 negative level sets 的 response-weighted capture | capture error共尾可和且不调用 Selberg/RH 等价输入 | degree-one universal moment route 已 sharp no-go |
-| NCE-8 | 当前主线 | B1v：固定 \(Y_m=2^m,N_m=\lfloor Y_mL_m^2\rfloor,H_m=\min(\log L_m,L_m/8)\)，估计265-(24)中保留两份差异的实际四阶卷积 | 四阶signed transfer、局部预算及质量匹配须同时成立；或由实际下界停止指定schedule | 265无条件 \(J_4=O(e^{-2d\sqrt L})\) 及signed截断改进 [T]；266实际局部gap下界 [T]、仅二阶预算的光滑正源no-go [N]；相对质量与Schur仍 [O] |
+| NCE-8 | 当前主线 | B1w：取 \(Y_m=2^m\)，在首个 \(q\in(Y_m,2Y_m)\) 的 \(q-1,q\) 中按268认证质量下界选cutoff，估计实际 \(J_{4,\le Y_m^2}/\mu_m^4\) | 给该增长频带的一致算术预算，或用实际下界否定所选schedule；不再只改写积分 | 267实际prime-power系数预算及全频乘子no-go [T/N]；268 \(|M|\gg Y^{-\sigma}\log Y\) 与 \(J_{4,>Y^2}=O((\log Y)^{-3}\mu^4)\) [T]；有限增长频带及Schur仍 [O] |
 | NCE-9 | 非构造补全 | 把 finite Cauchy-translate Schur block写成 joint signed Type I/II large-sieve form | uniform finite-block budget只用 length-side数据且弱于完整 RH criterion | finite satisfiability compactness与Gram/Schur判据已完成；33 translates捕获约23% package norm |
 | MOM-1 | 四矩观察线 | 只在出现新的 actual determinant-correlation input 时恢复；不得继续增加 Möbius/divisor kernel 表示 | 新输入必须在 physical fiber 内先合并全部 divisor blocks，并直接给 `o(L^4)` global ledger | exact band/mass已闭合；cumulative、band energy、channel mass、raw pullback与 divisor separation五条候选证书均已 theorem/no-go；条件比例仍为 0.7569027 / 0.8784513 |
 | NCE-10 | 非构造补全 | 增长的 arithmetic mixed localizers 与 divisor-visible resolvent closure | 每个有限 word level 近正且 Archimedean 有界，闭包恢复 divisor | scalar fourth moments 有 65 维严格 no-go；finite-satisfiability completion 已证明 |
@@ -57,6 +57,9 @@
 
 ### 路线 B / NCE-8：Vaughan--Brownian 响应预条件（长期主线）
 
+当前周期为下列 **B1w**；B1u--B1v段落保留为前周期的输入、失败与证据记录，
+其中“下一最小引理”“尚无质量下界”等均指当时的固定schedule，不覆盖268的新选择。
+
 - **目标**：利用 Type I、Type II 与 continuum/Gamma 通道之间的真实交叉抵消，证明 square-root Vaughan rectangle 上的统一增益。
 - **当前基础**：exact divided-difference response与 Brownian Gram保持成立。笔记 242 发现旧 `U=V=floor(sqrt N)` 实验的 Type II严格为空；修正为 cube-root cutoff后 Type-II非零并与 Type-I强负相关，但三通道 diagonal/full 比依 decomposition改变。cutoff-invariant quantities 是合并 prime vector `u_p`、continuum vector `u_c` 及其 physical energy。
 - **最小引理 B1a**：固定一个 response rectangle与非空 Vaughan cutoff，直接从 prime/continuum coefficients证明 `Re<u_p,u_c><=-delta(||u_p||^2+||u_c||^2)`，其中 `delta>0` 与尺度无关。Type-I/II 只作为估计 `u_p` 的内部坐标，不能分别取绝对值。
@@ -70,7 +73,12 @@
 - **B1u 实际算术推进 [T]**：265保留signed weighted-PNT primitive，证明所有有限 \(N\ge Y\) 一致的 \(\|F_r\|\ll S\sqrt L E\)、\(J_4\ll E^2\)，其中 \(E=e^{-d\sqrt L},d<0.8476836\)。对任意固定 \(k\) 及 \(0\le H\le k\sqrt L\)，实际response差除以 \(S^2\sqrt D\) 至多 \(Ce^{-(1-\sigma)H}E\)，质量截断差至多 \(CSe^{-(1-\sigma)H}E\)。这是独立PNT产生的一份signed saving，不是两份saving；仍没有实际质量下界足以闭合相对预算。
 - **B1v 下一最小引理 [O]**：固定队列所列的同一schedule，研究 \(A_4=\|F_{(r-r_H)*(r+r_H)}\|\) 与 \(B_4=\|F_{r_H*r_H}\|\) 的实际联合四阶系数，目标为 \(A_4+e^{-(1-\sigma)H}B_4=O(M^2\sqrt L)\)。265-(21)只对第三正通道取Young，已严格证明此输入充分闭合signed transfer；它不是把六阶full响应误差改名，也不宣称必要或已知弱于RH。优先寻找两份真实discrepancy之间的算术抵消，禁止把其中一个因子取TV后再声称获得了双saving。
 - **本轮辅助证据与反例 [T/N/E]**：266给实际 \(E_{1,H}\ge c_\sigma Y^{-2\sigma}L^2\)（\(\log2\le H<L/6\)）及局部预算必要尺度 \(|M_H|\gg Y^{-\sigma}L^{3/4}H^{-1/4}\)。另有光滑严格正源满足更强二阶预算却使 \(E_2/(LM_H^4)\to\infty\)，包括 \(L\to\infty\) 版本；它排除纯二阶闭合，但不是von Mangoldt反例。四个实际局部窗的归一化二阶比不单调，没有触发实际schedule止损。30例Fraction截断恒等式、104例能量回归及独立50位小例均复算通过；全部计算仅[E]。
-- **论文归属**：261--262已经整理为独立 `abel-mass-obstruction-paper.tex`；263--266暂以Markdown保存，归Vaughan--Brownian response论文后续审计材料。当前轮不重排PDF；每几轮按数学成熟度再同步。不混入广义Weil结构或四矩比例论文；内部证明及复算不等于文献新颖性或外部同行评审已经完成。
+- **B1w 当前周期主线 [T/O]**：267证明实际prime-power卷积系数 \(B_0\ll Y^{2-4\sigma}L^2,\ B_1\ll Y^{4-4\sigma}L^2\)，常数不依有限cutoff。268在两个相邻cutoff中选择，得到 \(|M|\gg_\sigma Y^{-\sigma}L\)，并独立闭合完整响应的 \(J_{4,>Y^2}=O_\sigma(L^{-3}\mu^4)\)，\(0<\sigma<1/2\)。所以所选schedule的full预算严格归约为增长频带 \(J_{4,\le Y^2}=O(\mu^4)\)，不再把高频相对尾列作假设。
+- **B1w 独立输入与Weil接口**：实际素数跳跃、共同端点、Chebyshev规模、prime-power唯一分解、Abel链几何，以及Montgomery--Vaughan加权均值；素数存在只需已核验PNT的定性部分。通过256-C接入条件性prime--continuum capture/Schur，不自动处理Gamma或上同调桥梁。既没有用紧性制造正性，也没有预设full预算。
+- **B1w 下一最小引理及晋级条件 [O]**：在268同一可认证选择规则下，证明增长频带内的真实signed prime/continuum联合能量 \(J_{4,\le Y^2}\le C\mu^4\)，或严格缩小其中尚未控制的频率范围。仅用fixed-frequency PNT、变换成大矩阵、换partition或重复已闭合高频公式不晋级。这里规范频率是 \(|t|\le mY^2\)，不是fixed core。
+- **B1w 辅助线与当前证据 [T/N/E]**：辅助一为原 \(N=\lfloor YL^2\rfloor\) schedule的有限频带探针，\(m=4,6,8,10\) 数据不推渐近。辅助二为267实际有限源的 \(\|\widehat r\|_\infty\ge B\) no-go，停止全频 \(o(S)\) 乘子路线，但不否定积分response-specific抵消。精确额外碰撞项 \(\mathcal C=O_\sigma(1)\) 在 \(\sigma>1/8\) 成立，不控制近碰撞。44个Fraction纤维恒等式、16个混合链界、48个连续项特殊函数抽样及6个素数跳跃cutoff探针已独立重跑；后两类仍为浮点[E]。
+- **B1w 主要反例、循环性与止损**：新 \(N\in\{q-1,q\}\subset[Y,2Y)\) 不属261--262所排除的连续大cutoff类；不表示固定旧schedule或无cutoff源已解决。268的高频输入独立闭合，剩余低/中频预算仍可能具有RH强度，未声称更弱。若实际下界迫使所选 \(J_{4,\le Y^2}/\mu^4\) 无界，则停止此选择规则；不以外生正源或少量数值趋势代替实际反例。
+- **论文归属**：261--262已经整理为独立 `abel-mass-obstruction-paper.tex`；263--268暂以Markdown保存，归Vaughan--Brownian response论文后续审计材料。当前轮不重排PDF；每几轮按数学成熟度再同步。不混入广义Weil结构或四矩比例论文；内部证明及复算不等于文献新颖性或外部同行评审已经完成。
 - **算术边界**：不得用任意系数 Bessel 界替代实际响应估计；必须保留交叉项，并单独控制 continuum 和 Gamma 通道。
 - **晋级条件**：解析证明有限实验中的增益不会随尺度消失，并将其转化为第二矩、负迹或截断 Weil 二次型的严格改善。
 - **止损条件**：若尺度中性的下界迫使 Schur 因子趋于 `1`，或者 continuum 项必然抵消全部收益，则停止该参数族，不再增加新的核表示。
