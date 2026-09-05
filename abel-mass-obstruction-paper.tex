@@ -25,20 +25,30 @@ pdfauthor={RH--Weil research project}}
 \begin{abstract}
 We study a two-channel Brownian response built from the actual
 von Mangoldt coefficients and a matched continuous Abel source.
-For the common cutoff \(N=\lfloor Y(\log Y)^2\rfloor\), an isolated
-prime atom gives the unconditional lower bound
-\(J_4(Y,N)\gg_\sigma Y^{-9}(\log Y)^{-7}\).
+For every fixed \(0<\sigma<1\), every sufficiently large real \(Y\),
+and every finite common cutoff \(N\ge Y\), we prove
+\(J_4(Y,N)\gg_\sigma Y^{-3}\log Y\).
+The contribution of a single frequency band of size comparable to
+\(Y\) already gives this bound. The proof retains the mass-centering
+term, applies a local-gap mean-value theorem to the actual prime
+coefficients, and controls the continuous response by bounded variation.
+An elementary isolated-prime proof is retained as a weaker baseline
+requiring fewer external inputs.
 The Mellin transform of the uncut mass discrepancy, together with
 a self-contained Landau argument, supplies arbitrarily large mass
 zeros whenever the Riemann zeta function has a zero to the right
 of \(\Re s=\sigma\). Truncating at those scales leaves a
-superpolynomially small mass discrepancy but a polynomially large
-response. More generally, a uniform two-parameter lower bound holds
-throughout \(Y\le N\le Y^2/8\), extending the obstruction to a class
-of regular cutoffs with \(N/(Y\log Y)\to\infty\).
-Consequently no positive power of the mass discrepancy
+small mass discrepancy but a polynomially large response.
+Under this zero hypothesis, for continuous nondecreasing cutoff
+functions a signed PNT tail
+estimate excludes \(J_4=O(|\mu|^\kappa)\) whenever
+\(N/Y\ge(3/\kappa)\log Y-b\sqrt{\log Y}\), where
+\(0\le b<0.8476836\). In particular, the quartic budget fails for
+\(N=\lfloor cY\log Y\rfloor\), \(c\ge3/4\).
+For the regular superlogarithmic cutoff class
+\(N/(Y\log Y)\to\infty\), no positive power of the mass discrepancy
 uniformly bounds the response over all sufficiently large real
-Abel scales when \(0<\sigma<1/2\). At \(\sigma=1/2\), the proposed
+Abel scales when \(0<\sigma<1/2\). At \(\sigma=1/2\), the corresponding
 uniform budget would imply RH; no converse is asserted.
 The result does not exclude an estimate along a prescribed dyadic
 schedule or a selected cofinal subsequence.
@@ -84,6 +94,12 @@ For a real signed measure \(\eta\) of total mass zero, let
  \label{eq:response}
 \end{equation}
 All these quantities are finite for the sources above, and \(S,D>0\).
+
+The strongest bounds are proved in
+Theorems~\ref{thm:mesoscopicfloor} and \ref{thm:logcutoff} below.
+They use classical mean-value and PNT inputs. We first give the
+elementary baseline, which exposes the mass-root mechanism without
+these additional estimates.
 
 \begin{theorem}\label{thm:main}
 Put \(L=\log Y\) and \(N(Y)=\lfloor YL^2\rfloor\).
@@ -497,6 +513,234 @@ necessarily requires
 This is not sufficient for the budget, and no violation of this
 necessary condition on a prescribed dyadic schedule is proved.
 
+\section{A cutoff-uniform mesoscopic response floor}
+
+All cutoffs in this section are finite, but no upper bound on \(N/Y\)
+is imposed. The constants may depend on fixed \(0<\sigma<1\).
+Set \(L=\log Y\), \(a=1-\sigma\), and
+\begin{gather*}
+ a_n=\mathbf1_{n\le N}\Lambda(n)n^{-\sigma}e^{-n/Y},
+ \qquad F(\xi)=\sum_n a_n n^{-i\xi},\\
+ C(\xi)=\int_1^N x^{-\sigma-i\xi}e^{-x/Y}\dd x,\qquad
+ Q=\sum_n a_n^2,\qquad Q_1=\sum_n n a_n^2.
+\end{gather*}
+The exact centered symbols are
+\[
+ \widehat p=\Re F-A,\qquad
+ \widehat c=B-\Re C,\qquad
+ \widehat r=\Re F-M-\Re C.
+\]
+In particular the term \(-M\) cannot be discarded at large frequencies.
+
+\begin{lemma}\label{lem:uniformmoments}
+Uniformly for finite \(N\ge Y\),
+\[
+ S\asymp_\sigma Y^a,\quad D\asymp_\sigma LS^2,\quad
+ Q_1\ll_\sigma Y^{2-2\sigma}L,\quad
+ Q\gg_\sigma Y^{1-2\sigma}L,\quad Q_1\ll_\sigma YQ.
+\]
+\end{lemma}
+\begin{proof}
+Chebyshev's upper bound, split into dyadic blocks with the Abel
+weight, gives
+\[
+ A\ll_\sigma Y^a,\quad B\asymp_\sigma Y^a,\quad
+ \int\lambda\dd\alpha+\int\lambda\dd\beta\ll_\sigma Y^aL.
+\]
+The sums below \(Y\) converge geometrically since \(a>0\); those
+above \(Y\) converge exponentially. Positive terms permit a bound
+by the uncut sums, independently of \(\log N\).
+Since \(\Lambda(n)^2\le\Lambda(n)\log n\), the same argument gives
+the asserted \(Q_1\) bound; its required exponent is \(2-2\sigma>0\).
+Qualitative PNT on primes \(p\in(Y/2,Y]\) gives the lower bound for
+\(Q\), using \((\log p)^2\ge\log(Y/2)\log p\).
+The minimum-kernel identity and \(\min(\lambda,\nu)\le\lambda\)
+give \(D\ll_\sigma LY^{2a}\). The continuous mass on \([Y/2,Y]\)
+alone gives the reverse inequality.
+\end{proof}
+
+\begin{theorem}\label{thm:mesoscopicfloor}
+There are \(K_\sigma,c_\sigma,Y_\sigma>0\) such that for every real
+\(Y\ge Y_\sigma\) and finite integer \(N\ge Y\), with
+\(U=K_\sigma Y\) and \(I=[U,2U]\), the contribution from the single
+positive-frequency band \(I\) satisfies
+\begin{equation}
+ J_{4,I}\ge
+ c_\sigma\frac{(Q+M^2)^2}{YLS^4}
+ \ge c_\sigma\frac{\log Y}{Y^3}.
+ \label{eq:mesofloor}
+\end{equation}
+In particular \(J_4\ge J_{4,I}\).
+\end{theorem}
+\begin{proof}
+For finite distinct real frequencies \(\lambda_j\), put
+\(\delta_j=\min_{k\ne j}|\lambda_j-\lambda_k|\).
+The local-gap mean-value formula of Montgomery and Vaughan
+\cite[Corollary 2, (1.9)]{MV} gives
+\[
+ \int_V^{V+U}\left|\sum_j d_j e^{i\lambda_j t}\right|^2\dd t
+ =U\sum_j|d_j|^2+
+ O\left(\sum_j\delta_j^{-1}|d_j|^2\right).
+\]
+The constant is absolute, and translation changes only coefficient
+phases. Apply this to
+\[
+ f(\xi)=\Re F(\xi)-M
+ =-M+\tfrac12\sum_n a_n
+       (e^{i\xi\log n}+e^{-i\xi\log n}).
+\]
+The frequency set \(\{0,\pm\log n:a_n>0\}\) satisfies
+\(\delta_0=\log2\) and
+\(\delta_{\pm\log n}\ge1/(n+1)\ge1/(2n)\).
+Thus, retaining the zero-frequency mass coefficient,
+\[
+ \int_U^{2U} f(\xi)^2\dd\xi
+ =U(M^2+Q/2)+O(Q_1+M^2).
+\]
+Lemma~\ref{lem:uniformmoments} allows a fixed \(K_\sigma\) to absorb
+this error, so the integral is at least \(cU(Q+M^2)\).
+
+The continuous lag density is unimodal and has maximum
+\(O_\sigma(Y^a)\). After restriction to its interval and zero
+extension, its total variation is at most twice this maximum.
+Integration by parts, including both endpoint jumps, gives
+\[
+ |C(\xi)|\ll_\sigma Y^a/|\xi|,\qquad
+ \int_I|C(\xi)|^2\dd\xi\ll_\sigma Y^{2a}/U.
+\]
+The latter is \(o(UQ)\), since its ratio to \(UQ\) is
+\(O_\sigma((Y\log Y)^{-1})\). The reverse triangle inequality in
+\(L^2(I)\) therefore gives
+\[
+ \int_I|\widehat r|^2\dd\xi\gg_\sigma U(Q+M^2).
+\]
+Also \(\widehat c=B-\Re C\ge B/2\) throughout \(I\), eventually.
+Cauchy's inequality now implies
+\(\int_I|\widehat r|^4\dd\xi\gg_\sigma U(Q+M^2)^2\).
+Retaining the final continuous physical direction, we obtain
+\[
+ J_{4,I}
+ =\frac1{2\pi S^4D}\int_I
+   \frac{|\widehat r|^4(|\widehat p|^2+|\widehat c|^2)}{\xi^2}\dd\xi
+ \ge\frac{B^2}{32\pi U^2S^4D}\int_I|\widehat r|^4\dd\xi .
+\]
+Use the scale bounds in Lemma~\ref{lem:uniformmoments} to finish.
+No limiting assertion for infinite \(N\) is needed.
+\end{proof}
+
+\begin{corollary}\label{cor:massfloor}
+On any actual schedule with \(M\ne0\), the budget \(J_4\le C\mu^4\)
+requires
+\[
+ |M|\ge c_{\sigma,C}Y^{1/4-\sigma}(\log Y)^{1/4}.
+\]
+If \(M=o(Y^{1/4-\sigma}(\log Y)^{1/4})\) along a cofinal sequence
+of nonzero masses, then \(J_4/\mu^4\to\infty\).
+\end{corollary}
+\begin{proof}
+Divide \eqref{eq:mesofloor} by \(\mu^4=M^4/S^4\) and use the
+lower bound for \(Q\).
+\end{proof}
+
+This is a necessary condition, not a proof of failure on a dyadic
+sequence. In particular, a separate two-endpoint prime-jump
+selection guarantees only \(|M|\gg Y^{-\sigma}\log Y\);
+this weaker guaranteed scale does not upper-bound the actual
+selected mass.
+
+\section{Signed tails and logarithmic cutoff rules}
+
+Write \(c_*=0.8476836\). We use the published quantitative PNT of
+Fiori, Kadiri and Swidinsky \cite[Corollary 1.4]{FKS} only through
+\[
+ |\psi(x)-x|\ll_d x e^{-d\sqrt{\log x}}
+ \qquad(0<d<c_*,\ x\ge2).
+\]
+The logarithmic prefactor in the cited bound is absorbed by the
+strict inequality \(d<c_*\). No claim of optimality for \(c_*\)
+is made here.
+
+\begin{lemma}\label{lem:signedtail}
+For fixed \(0<\sigma<1\), \(0<d<c_*\), and \(h=N/Y\ge1\),
+\[
+ |M_\infty(Y)-M(Y,N)|
+ \ll_{\sigma,d}Y^{1-\sigma}h^{1-\sigma}
+                   e^{-h-d\sqrt{\log Y}},
+\]
+uniformly for all finite integer \(N\ge Y\).
+\end{lemma}
+\begin{proof}
+Put \(R(x)=\psi(x)-x\) and \(w(x)=x^{-\sigma}e^{-x/Y}\).
+Matched right endpoints give the exact identity
+\[
+ M_\infty-M(Y,N)
+ =-w(N)R(N)-\int_N^\infty R(x)w'(x)\dd x.
+\]
+The value \(R(N)\) is right-continuous, and the prime tail is
+strictly \(n>N\). The boundary term at infinity vanishes.
+On \(x\ge N\ge Y\), the PNT bound is at most
+\(C_dx e^{-d\sqrt{\log Y}}\). Substitution \(x=Yu\) bounds the
+absolute value by \(C_dY^a e^{-d\sqrt{\log Y}}\) times
+\[
+ h^ae^{-h}+\sigma\int_h^\infty u^{-\sigma}e^{-u}\dd u
+                 +\int_h^\infty u^ae^{-u}\dd u.
+\]
+For \(h\ge1\), write \(u=h+v\) and bound
+\((h+v)^a\le h^a(1+v)^a\). Both integrals are
+\(O_\sigma(h^ae^{-h})\), as required.
+\end{proof}
+
+\begin{theorem}\label{thm:logcutoff}
+Fix \(0<\sigma<1\), \(\kappa>0\), and \(0\le b<c_*\).
+Let \(\Phi\) be continuous and nondecreasing on a final real
+interval, and put \(N(Y)=\lfloor\Phi(Y)\rfloor<\infty\).
+Suppose eventually \(N(Y)\ge Y\) and
+\begin{equation}
+ \frac{N(Y)}Y\ge \frac3\kappa\log Y-b\sqrt{\log Y}.
+ \label{eq:logcutoff}
+\end{equation}
+If zeta has a nonreal zero with real part greater than \(\sigma\),
+then \eqref{eq:nogo} holds for this \(\kappa\) and cutoff rule.
+There is no upper bound required on \(N/Y\).
+\end{theorem}
+\begin{proof}
+Choose \(b<d<c_*\), and take the mass roots \(Y_j\) from
+Theorem~\ref{thm:oscillation}. Put \(L_j=\log Y_j\) and
+\(h_j=N(Y_j)/Y_j\).
+Lemma~\ref{lem:signedtail} and \(S\asymp_\sigma Y^a\) imply
+\[
+ |\mu(Y_j,N_j)|\ll_{\sigma,d}h_j^ae^{-h_j-d\sqrt{L_j}}
+ \ll_{\sigma,d,\kappa}
+ L_j^a e^{-3L_j/\kappa-(d-b)\sqrt{L_j}}.
+\]
+For the second inequality use the monotonicity of \(h^ae^{-h}\)
+on \(h\ge1\); no upper bound on \(h_j\) is being assumed.
+As in the preceding cutoff theorem, continuity and monotonicity
+provide a right-hand cell with fixed \(N_j\). Nonconstant
+real analyticity then permits \(Y'_j\) in that cell with
+\(0<Y'_j-Y_j<Y_j^{-1}\), nonzero mass, and the same upper bound
+up to a fixed factor. Since \(N_j/Y_j\to\infty\), also \(N_j\ge Y'_j\).
+Theorem~\ref{thm:mesoscopicfloor} gives
+\[
+ \frac{J_4(Y'_j,N_j)}{|\mu(Y'_j,N_j)|^\kappa}
+ \gg_{\sigma,d,\kappa}
+ L_j^{1-a\kappa}
+ e^{\kappa(d-b)\sqrt{L_j}}\longrightarrow\infty .
+\]
+\end{proof}
+
+For \(\kappa=4\), every rule \(N=\lfloor cY\log Y\rfloor\),
+\(c\ge3/4\), is covered. At \(c=3/4\), choose any fixed \(b>0\)
+to absorb rounding; one must not silently apply \(b=0\).
+The theorem is unconditional for \(\sigma<1/2\). At
+\(\sigma=1/2\), the corresponding continuous budget implies RH,
+without a converse. A fixed logarithmic cutoff need not exclude
+every positive exponent \(\kappa\); the condition
+\eqref{eq:logcutoff} must be checked for that exponent.
+The boundary \(3/\kappa\) is sufficient for this method, not claimed
+to be optimal. Dyadic selections with \(N\asymp Y\) remain outside
+this obstruction.
+
 \section{Scope, the Weil interface, and reproducibility}
 
 The continuous-scale quantifier in the no-go theorems is essential.
@@ -517,9 +761,12 @@ continuous-scale mass-only budget as automatic positivity.
 The implication to RH at the central parameter is necessary, not
 an equivalence established here.
 
-The argument uses the classical Euler identity, analytic continuation
-of zeta, existence of a critical-line zero, and Bertrand's theorem.
-It uses no PNT error estimate or assumption about unknown zeros.
+The elementary baseline uses the classical Euler identity, analytic
+continuation of zeta, existence of a critical-line zero, and Bertrand's
+theorem, but no PNT error estimate. The stronger mesoscopic floor
+additionally uses qualitative PNT and the local-gap mean-value theorem;
+the logarithmic cutoff extension uses the quantitative PNT stated above.
+None of these inputs assumes the location of unknown zeros.
 For other \(L\)-functions, positive real zeros or complex coefficients
 can invalidate the real-axis or positivity steps; no unrestricted
 GRH extension is claimed.
@@ -538,7 +785,14 @@ On the Windows test platform, numpy longdouble has the same
 do not include floating-point coefficient or summation errors and
 are not certified total-error bounds.
 Independent internal audits checked the Mellin singularities,
-prime-atom lower bound, cutoff transfer, and scale quantifiers.
+prime-atom lower bound, the cutoff-uniform local-gap mean value,
+continuous endpoint terms, cutoff transfer, and scale quantifiers.
+The additional script
+\path{scripts/prime_jump_full_response_probe.py} retains both actual
+channels, computes the full Brownian denominator independently, and
+checks finite frequency bands at selected dyadic cutoffs.
+These floating-point checks, including a separate 50-digit small
+case, establish no asymptotic budget or dyadic counterexample.
 The literature priority of their combination remains to be assessed.
 
 \begin{thebibliography}{9}
@@ -559,5 +813,21 @@ K.~Mahatab and A.~Mukhopadhyay,
 \emph{Measure Theoretic Aspects of Oscillations of Error Terms},
 arXiv:1512.03144v4 (2018), Theorem 3.1.
 \url{https://arxiv.org/abs/1512.03144}.
+
+\bibitem{MV}
+H.~L. Montgomery and R.~C. Vaughan,
+Hilbert's inequality,
+\emph{J. London Math. Soc.} (2) \textbf{8} (1974), 73--82.
+\url{https://doi.org/10.1112/jlms/s2-8.1.73}.
+Author archive:
+\url{https://personal.science.psu.edu/rcv4/personal/Publications/s2-8-1-73.pdf}.
+
+\bibitem{FKS}
+A. Fiori, H. Kadiri and J. Swidinsky,
+Sharper bounds for the Chebyshev function \(\psi(x)\),
+\emph{J. Math. Anal. Appl.} \textbf{527}(2) (2023), article 127426.
+\url{https://doi.org/10.1016/j.jmaa.2023.127426}.
+Verified preprint version:
+\url{https://arxiv.org/pdf/2204.02588v3}.
 \end{thebibliography}
 \end{document}

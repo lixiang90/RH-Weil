@@ -13,7 +13,7 @@
 | NCE-5 | 备用线 | one-prime/one-block extension，预算增量可和 | extension 不调用完整 Weil positivity | 观察 |
 | NCE-6 | 备用线 | bounded-resolvent/negative-trace 的 ultraproduct 稳定性 | 先独立得到统一预算 `C` | 观察 |
 | NCE-7 | 非构造主线 | short-word effects 对实际 negative level sets 的 response-weighted capture | capture error共尾可和且不调用 Selberg/RH 等价输入 | degree-one universal moment route 已 sharp no-go |
-| NCE-8 | 当前主线 | B1w：取 \(Y_m=2^m\)，在首个 \(q\in(Y_m,2Y_m)\) 的 \(q-1,q\) 中按268认证质量下界选cutoff，估计实际 \(J_{4,\le Y_m^2}/\mu_m^4\) | 给该增长频带的一致算术预算，或用实际下界否定所选schedule；不再只改写积分 | 267实际prime-power系数预算及全频乘子no-go [T/N]；268 \(|M|\gg Y^{-\sigma}\log Y\) 与 \(J_{4,>Y^2}=O((\log Y)^{-3}\mu^4)\) [T]；有限增长频带及Schur仍 [O] |
+| NCE-8 | 当前主线 | B1w反向检查：在268所选dyadic cutoff上估计实际质量与响应；先核对269必要尺度 \(|M|\gg Y^{1/4-\sigma}L^{1/4}\)，再研究 \(J_{4,\le Y^2}/\mu^4\) | 新的实际质量/响应算术引理；仅验证必要条件不算full预算晋级，实际渐近反例则停止该schedule | 269全部有限 \(N\ge Y\) 的 \(J_4\gg L/Y^3\) [T]；270对数连续cutoff障碍 [N]；268高频相对尾保留，dyadic full预算仍 [O] |
 | NCE-9 | 非构造补全 | 把 finite Cauchy-translate Schur block写成 joint signed Type I/II large-sieve form | uniform finite-block budget只用 length-side数据且弱于完整 RH criterion | finite satisfiability compactness与Gram/Schur判据已完成；33 translates捕获约23% package norm |
 | MOM-1 | 四矩观察线 | 只在出现新的 actual determinant-correlation input 时恢复；不得继续增加 Möbius/divisor kernel 表示 | 新输入必须在 physical fiber 内先合并全部 divisor blocks，并直接给 `o(L^4)` global ledger | exact band/mass已闭合；cumulative、band energy、channel mass、raw pullback与 divisor separation五条候选证书均已 theorem/no-go；条件比例仍为 0.7569027 / 0.8784513 |
 | NCE-10 | 非构造补全 | 增长的 arithmetic mixed localizers 与 divisor-visible resolvent closure | 每个有限 word level 近正且 Archimedean 有界，闭包恢复 divisor | scalar fourth moments 有 65 维严格 no-go；finite-satisfiability completion 已证明 |
@@ -78,7 +78,11 @@
 - **B1w 下一最小引理及晋级条件 [O]**：在268同一可认证选择规则下，证明增长频带内的真实signed prime/continuum联合能量 \(J_{4,\le Y^2}\le C\mu^4\)，或严格缩小其中尚未控制的频率范围。仅用fixed-frequency PNT、变换成大矩阵、换partition或重复已闭合高频公式不晋级。这里规范频率是 \(|t|\le mY^2\)，不是fixed core。
 - **B1w 辅助线与当前证据 [T/N/E]**：辅助一为原 \(N=\lfloor YL^2\rfloor\) schedule的有限频带探针，\(m=4,6,8,10\) 数据不推渐近。辅助二为267实际有限源的 \(\|\widehat r\|_\infty\ge B\) no-go，停止全频 \(o(S)\) 乘子路线，但不否定积分response-specific抵消。精确额外碰撞项 \(\mathcal C=O_\sigma(1)\) 在 \(\sigma>1/8\) 成立，不控制近碰撞。44个Fraction纤维恒等式、16个混合链界、48个连续项特殊函数抽样及6个素数跳跃cutoff探针已独立重跑；后两类仍为浮点[E]。
 - **B1w 主要反例、循环性与止损**：新 \(N\in\{q-1,q\}\subset[Y,2Y)\) 不属261--262所排除的连续大cutoff类；不表示固定旧schedule或无cutoff源已解决。268的高频输入独立闭合，剩余低/中频预算仍可能具有RH强度，未声称更弱。若实际下界迫使所选 \(J_{4,\le Y^2}/\mu^4\) 无界，则停止此选择规则；不以外生正源或少量数值趋势代替实际反例。
-- **论文归属**：261--262已经整理为独立 `abel-mass-obstruction-paper.tex`；263--268暂以Markdown保存，归Vaughan--Brownian response论文后续审计材料。当前轮不重排PDF；每几轮按数学成熟度再同步。不混入广义Weil结构或四矩比例论文；内部证明及复算不等于文献新颖性或外部同行评审已经完成。
+- **B1w 本周期反向推进 [T/N]**：269在 \(0<\sigma<1\)、所有有限 \(N\ge Y\) 上证明同一中尺度带 \(I=[K_\sigma Y,2K_\sigma Y]\) 的实际响应至少为 \(c_\sigma L/Y^3\)，并得到 \(J_4/\mu^4\gg Y^{1-4\sigma}L/M^4\)。它使用保留0频率质量项的局部间距均值、真实prime bulk、BV连续端点及全cutoff lag矩，不把任意Bessel上界当作物理saving。268的非零质量保证比必要尺度低 \(Y^{1/4}/L^{3/4}\) 因子，但没有所选质量的同阶上界，故尚未否定该dyadic选择。
+- **B1w 本周期两条辅助线**：辅助一由270保留signed Abel尾的 \(h^ae^{-h-d\sqrt L}\)，在261零点前提下将连续非减cutoff障碍推进到 \(h\ge(3/\kappa)L-b\sqrt L,\ 0\le b<0.8476836\)，删除cutoff上限；\(\sigma<1/2\) 无条件，中心参数预算仅蕴含RH。四次情形覆盖 \(N=\lfloor cY\log Y\rfloor,\ c\ge3/4\)，不声称边界最优。辅助二计算268所选源的full有限频带，旧冻结schedule探针本轮仅保留为历史记录。
+- **B1w 当前证据与审计**：269/270两份独立只读证明审计均通过，修补了非零质量分支及零点前提的显式措辞。新增actual full脚本独立计算Brownian分母，\(m=4,6,8,10,12\)、\(T=128\) 的 \(J_{4,\le T}/\mu^4\) 为约0.697、1.601、6.742、27.816、24429.067；这些数值不推渐近无界。主代理重跑通过，30个连续项抽样及50位最小完整积分复核；全部仍[E]。
+- **B1w 下一最小引理与止损纪律**：在同一268选择上，先判断 \(M^4/(Y^{1-4\sigma}L)\) 是否有一致正下界，或存在趋零的非零质量子序列；后者由269严格停止该schedule。前者只是必要检查，不能据此宣布full预算成立；要继续晋级仍须实际prime/continuum交叉控制或更强的响应下界。连续cutoff根序列和有限m的大比值都不能替代dyadic算术结论；不得继续扩写已闭合高频或普通乘子框架。
+- **论文归属**：261--262及269--270已同步独立 `abel-mass-obstruction-paper.tex` 与10页PDF，第7--8节给新增完整证明；263--268仍以Markdown为主，归Vaughan--Brownian response后续材料。本轮按PDF技能完成两次编译和逐页渲染核验，无最终溢出或引用警告。不混入广义Weil结构或四矩比例论文；内部证明及复算不等于文献新颖性或外部同行评审已经完成。
 - **算术边界**：不得用任意系数 Bessel 界替代实际响应估计；必须保留交叉项，并单独控制 continuum 和 Gamma 通道。
 - **晋级条件**：解析证明有限实验中的增益不会随尺度消失，并将其转化为第二矩、负迹或截断 Weil 二次型的严格改善。
 - **止损条件**：若尺度中性的下界迫使 Schur 因子趋于 `1`，或者 continuum 项必然抵消全部收益，则停止该参数族，不再增加新的核表示。

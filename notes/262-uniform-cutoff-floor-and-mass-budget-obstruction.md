@@ -6,6 +6,12 @@
 mass-only预算障碍；[O] 原来的所选 dyadic/cofinal schedule。
 本笔记将261的特殊截断推广成一个统一窗口，不宣称得到 RH 或新零密度估计。
 
+后续改进（269--270）：引入局部间距均值、prime bulk及signed PNT尾后，
+已将实际下界提高为 \(J_4\gg_\sigma Y^{-3}\log Y\)，一致于全部有限 \(N\ge Y\)，
+并把四次预算的连续cutoff障碍推进到 \(N=\lfloor cY\log Y\rfloor,\ c\ge3/4\)
+（在同一零点前提下；\(\sigma<1/2\) 时无条件）。
+本文保留为外部输入更少的旧证明；不将新结果扩为dyadic反例。
+
 ## 1. 对象、量词和结果
 
 沿用261-(1)--(3)的实际 von Mangoldt/连续 Abel正源，
