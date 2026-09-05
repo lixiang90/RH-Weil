@@ -2,6 +2,18 @@
 
 本目录研究一个明确的问题：能否把有限域上 Weil 猜想中迫使 Frobenius 特征值具有正确绝对值的结构抽离出来，并在数域的 zeta / L 函数上构造同类结构？
 
+## 目录与维护
+
+- `papers/`：三篇论文的主 TeX 源文件；编译说明见 [papers/README.md](papers/README.md)。
+- `paper-sections/`：结构论文引用的分节 TeX，保留原目录。
+- `output/pdf/`：统一保存最终 PDF；`tmp/pdfs/` 仅放临时检查产物。
+- `notes/`：研究笔记；[研究看板](RESEARCH_BRANCHES.md) 记录路线、开放输入和止损条件。
+
+2026-09-06 按用户要求进行维护：加入限额 David--Lapidus 结构审计线、
+整理论文目录并修复远程 Actions。三项验收完成前不启动新的数学研究周期。
+加入看板不代表该路线已通过证明审计或已启动试审。
+目录迁移与 CI 故障的证据见 [维护记录](notes/maintenance-2026-09-06.md)。
+
 ## 正式论文整理稿
 
 最新研究进展（2026-09-05）：
@@ -38,23 +50,24 @@ cutoff 选择，使 \(|M|>Y^{1/2-\sigma}\sqrt{\ell(Y)}\)，
 269--270已同步到下列独立障碍论文及PDF；271--274暂不并入。
 
 新增独立研究稿
-[abel-mass-obstruction-paper.tex](abel-mass-obstruction-paper.tex)
+[abel-mass-obstruction-paper.tex](papers/abel-mass-obstruction-paper.tex)
 及 [PDF](output/pdf/abel-mass-obstruction-paper.pdf)：
 《Mass-only obstructions for Abel-weighted Brownian responses》。
 笔记261--262的原子基线及269--270的加强结果，在实际 von Mangoldt/连续 Abel源上
 证明统一响应下界及连续尺度 mass-only预算障碍 [T/N]；固定 dyadic/cofinal预算仍开放，
 不声称 RH、新零点比例或已完成文献新颖性审查。
-本稿用 `pdflatex -output-directory=output/pdf abel-mass-obstruction-paper.tex`
+本稿从仓库根目录用 `pdflatex -output-directory=output/pdf papers/abel-mass-obstruction-paper.tex`
 连续编译两次；相关 Markdown仍保留完整证明与研究看板。
 
 另有独立备选方向论文
-[partial-weil-configurations-paper.tex](partial-weil-configurations-paper.tex)：
+[partial-weil-configurations-paper.tex](papers/partial-weil-configurations-paper.tex)
+及 [PDF](output/pdf/partial-weil-configurations-paper.pdf)：
 《部分 Weil 配置、中心线零点比例与非零区域》，整理二阶/四阶矩、随机矩阵、
 非零区域及 Connes 非交换几何载体路线。
 
 现有 001--173 篇笔记已经整理为中文论文；第 174--180 篇是下一轮研究路线及独立分支成果，暂不并入论文正文：
 
-- [`rh-weil-structure-paper.tex`](rh-weil-structure-paper.tex)：《从 Weil 猜想到数域中心线：极化、过滤 Hodge 结构与黎曼猜想的存在性审计》；
+- [`rh-weil-structure-paper.tex`](papers/rh-weil-structure-paper.tex) / [PDF](output/pdf/rh-weil-structure-paper.pdf)：《从 Weil 猜想到数域中心线：极化、过滤 Hodge 结构与黎曼猜想的存在性审计》；
 - 使用 `ctexart`，在 Overleaf 中选择 XeLaTeX 即可编译；
 - 仓库保存 LaTeX 源文件和最终生成的论文 PDF；不保存本地 `.aux`、`.log`、`.toc` 等中间构建产物。
 
@@ -84,12 +97,17 @@ cutoff 选择，使 \(|M|>Y^{1/2-\sigma}\sqrt{\ell(Y)}\)，
 
 ```powershell
 python -m pip install -r requirements.txt
+python scripts/check_repo_layout.py
 python scripts/run_checks.py
-xelatex rh-weil-structure-paper.tex
-xelatex rh-weil-structure-paper.tex
+xelatex -output-directory=output/pdf papers/rh-weil-structure-paper.tex
+xelatex -output-directory=output/pdf papers/rh-weil-structure-paper.tex
 ```
 
-统一脚本只做恒等式与数值回归检查，不是 interval-certified 证明，也不构成 RH 证据。Overleaf 中请选择 XeLaTeX；最终 PDF 可纳入版本控制。
+以上命令均从仓库根目录运行，以便正确找到 `paper-sections/`。
+统一脚本运行其中显式登记的有限检查，不自动执行所有探索脚本，也不构成 RH 证据；
+各检查是否为精确/区间认证，以自身说明为准。Overleaf 中请选择 XeLaTeX，
+并把 `papers/rh-weil-structure-paper.tex` 设置为主文档；上传时保留仓库目录结构。
+最终 PDF 可纳入版本控制，完整编译命令见 [论文目录说明](papers/README.md)。
 
 当前结论（2026-09-01）：
 

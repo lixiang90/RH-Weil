@@ -11,8 +11,24 @@ from __future__ import annotations
 from dataclasses import dataclass
 from fractions import Fraction
 import math
+from typing import Iterable
 
 import numpy as np
+
+
+def complex_fsum(values: Iterable[complex]) -> complex:
+    """Reduce binary64 components explicitly, independent of builtin sum.
+
+    CPython 3.14 changed complex sum to compensated summation.  Frozen
+    Brownian certificates must not silently select a different surrogate
+    on CPython 3.11, so use the same explicit real/imaginary fsum everywhere
+    the degree-two certificate forms or centers a component mass.
+    """
+    entries = tuple(complex(value) for value in values)
+    return complex(
+        math.fsum(value.real for value in entries),
+        math.fsum(value.imag for value in entries),
+    )
 
 
 @dataclass(frozen=True)
@@ -1149,7 +1165,7 @@ def degree_two_centered_response_channel_maps(
     dimension = len(next(iter(symbol)).continuum)
     zero = FormalLag.zero(dimension)
     identity = {zero: 1.0 + 0.0j}
-    total_mass = sum(symbol.values())
+    total_mass = complex_fsum(symbol.values())
     node = math.sqrt(3.0) / 2.0
     level = node * spectral_bound
     amplitude = node * spectral_bound / (node * spectral_bound + rho)
@@ -1171,7 +1187,7 @@ def degree_two_centered_response_channel_maps(
     response_components: dict[str, FrequencyMap] = {}
     component_masses: dict[str, complex] = {}
     for label, component in symbol_components.items():
-        component_mass = sum(component.values())
+        component_mass = complex_fsum(component.values())
         centered_component = add_frequency_maps(
             component, {zero: -component_mass}
         )

@@ -4,6 +4,8 @@
 
 ## 当前队列
 
+维护暂停登记（2026-09-06）：本轮仅执行三项维护：登记 David--Lapidus 限额观察线、统一论文源文件与 PDF 目录、修复并核验 GitHub Actions。三项全部核验完成前暂停数学研究推进；本次加入 `DL-AUDIT` 不表示启动试审。维护完成后再恢复原主线，观察线的启动与资源分配仍须按下述门槛执行。
+
 | ID | 角色 | 下一最小引理 | 晋级条件 | 状态 |
 |---|---|---|---|---|
 | NCE-1 | 主线 | finite SDP 的 cell-packet capture ratio、coercivity 与实际负响应 | capture remainder一致消失，one-sided packet budget可和 | one-sided atomic theorem 已完成 |
@@ -19,6 +21,7 @@
 | NCE-10 | 非构造补全 | 增长的 arithmetic mixed localizers 与 divisor-visible resolvent closure | 每个有限 word level 近正且 Archimedean 有界，闭包恢复 divisor | scalar fourth moments 有 65 维严格 no-go；finite-satisfiability completion 已证明 |
 | OBS-1 | 文献线 | canonical Hamiltonian 的局部质量一致界与 noncollapse | 从 Euler/Gamma 方程而非 zeros 证明 | 文献审计 |
 | OBS-2 | 系统线 | tracial negative-square realization theorem | 与 Cauchy Hodge index 精确对应 | 文献审计 |
+| DL-AUDIT | 限额结构审计 / 模型验证观察线 | 选定一个 David--Lapidus Weierstrass 模型，独立复核一条几何极化正性与 Frobenius 相容性命题及其谱识别依赖 | 一个非循环、可独立复核的模型命题，或严格定位通向算术 zeta 的缺失输入 | [R/O] 仅登记，未启动；最多一个 4--6 轮试审周期、资源不超过 10%，不替换 B 主线 |
 | LONG-1 | 长期线 | threshold complex 的 dualizability 与 categorical supertrace | 获得非循环 positive categorical trace | 暂存 |
 | LONG-2 | 长期线 | fixed-support function-field explicit-formula convergence | normalization 可随窗口统一审计 | 暂存 |
 
@@ -83,7 +86,7 @@
 - **B1w 本周期两条辅助线**：辅助一由270保留signed Abel尾的 \(h^ae^{-h-d\sqrt L}\)，在261零点前提下将连续非减cutoff障碍推进到 \(h\ge(3/\kappa)L-b\sqrt L,\ 0\le b<0.8476836\)，删除cutoff上限；\(\sigma<1/2\) 无条件，中心参数预算仅蕴含RH。四次情形覆盖 \(N=\lfloor cY\log Y\rfloor,\ c\ge3/4\)，不声称边界最优。辅助二计算268所选源的full有限频带，旧冻结schedule探针本轮仅保留为历史记录。
 - **B1w 当前证据与审计**：269/270两份独立只读证明审计均通过，修补了非零质量分支及零点前提的显式措辞。新增actual full脚本独立计算Brownian分母，\(m=4,6,8,10,12\)、\(T=128\) 的 \(J_{4,\le T}/\mu^4\) 为约0.697、1.601、6.742、27.816、24429.067；这些数值不推渐近无界。主代理重跑通过，30个连续项抽样及50位最小完整积分复核；全部仍[E]。
 - **B1w 下一最小引理与止损纪律**：在同一268选择上，先判断 \(M^4/(Y^{1-4\sigma}L)\) 是否有一致正下界，或存在趋零的非零质量子序列；后者由269严格停止该schedule。前者只是必要检查，不能据此宣布full预算成立；要继续晋级仍须实际prime/continuum交叉控制或更强的响应下界。连续cutoff根序列和有限m的大比值都不能替代dyadic算术结论；不得继续扩写已闭合高频或普通乘子框架。
-- **论文归属**：261--262及269--270已同步独立 `abel-mass-obstruction-paper.tex` 与10页PDF，第7--8节给新增完整证明；263--268仍以Markdown为主，归Vaughan--Brownian response后续材料。本轮按PDF技能完成两次编译和逐页渲染核验，无最终溢出或引用警告。不混入广义Weil结构或四矩比例论文；内部证明及复算不等于文献新颖性或外部同行评审已经完成。
+- **论文归属**：261--262及269--270已同步独立 `papers/abel-mass-obstruction-paper.tex` 与 `output/pdf/abel-mass-obstruction-paper.pdf`（10页），第7--8节给新增完整证明；263--268仍以Markdown为主，归Vaughan--Brownian response后续材料。该次论文同步按PDF技能完成两次编译和逐页渲染核验，无最终溢出或引用警告；2026-09-06仅迁移目录，不重新排版。不混入广义Weil结构或四矩比例论文；内部证明及复算不等于文献新颖性或外部同行评审已经完成。
 - **B1x 本周期主线 [T/R]**：271证明正单调Stieltjes变换的双边振幅界，并以单位区间漂移把实cutoff振幅转移到整数最大质量。Littlewood经典无条件振荡与dyadic望远镜独立保证无穷多个窗口的 \(Z_m\gg_\sigma Y^{1/2-\sigma}\ell(Y)\)。认证严格阈值、对窗口交错搜索给可计算共尾序列 \(|M|>Y^{1/2-\sigma}\sqrt\ell\)。不保证每个dyadic成功，也不保证268首素数规则。
 - **B1x 已缩小输入 [T/O]**：272结合267的实际prime-power高频界，在该新序列上证明 \(J_{4,>T_0}=O(\mu^4)\)，\(T_0=Y\sqrt L/\ell(Y)\)，因此full预算等价于 \(J_{4,\le T_0}=O(\mu^4)\)。更大频带 \(T_1=Y\sqrt{L/\ell}\) 之外是 \(O(\ell^{-1}\mu^4)\)。这里 \(\ell(Y)=\max(1,\log\log\log Y)\)，固定 \(0<\sigma<1/2\)。不是原首素数schedule的同序列改进。
 - **B1x 独立算术输入与Weil接口**：Littlewood振荡 [R]、Stieltjes分部积分、dyadic几何求和、实际素数幂与267的加权均值；非构造/交错搜索不制造质量或正性。通过256-C仍仅条件性接入prime--continuum capture/Schur；Gamma、完整显式公式及上同调桥梁独立开放。没有预设响应正性或RH级负指数预算。
@@ -144,6 +147,23 @@
 - **止损条件**：若模型中的正性仅由已知 RH、有限域纯性或现成谱定理自动给出，因而无法测试本项目机制，则更换模型，不将该结果作为经典 RH 路线的证据。
 - **路线价值**：承担架构验证、归一化核对和反例搜索，而不是宣称直接推进经典 RH。
 
+### DL-AUDIT：David--Lapidus 限额结构审计与模型验证（观察，未启动）
+
+- **角色、限额与当前状态 [O]**：作为原 Weil 目标的模型验证接口，不另立 RH 主线，也不替换 B / NCE-8。维护三项完成前不启动；若随后启动，只安排一个 4--6 轮试审周期，累计研究资源不超过同期总资源的 10%，从观察/辅助份额内协调，不追加总预算或削减 B 主线份额。每轮只记录 Markdown 审计证据，不要求更新 PDF。期满必须作晋级、保留观察或停止决定，未经复核不自动续期。
+- **独立输入 [O]**：需要选定 Weierstrass 模型的几何定义、上同调及定义域、配对/极化、Frobenius 类算子和 zeta 表示的可验证数据；若转向数域，另须给出不从零点反向定义的独立算术来源。分形模型中的几何输入不自动等同于数域算术输入，目前没有据此获得新的数域正性估计。
+- **与广义 Weil 配置的接口 [O]**：先核对上同调分次、对偶/极化、Hodge 型正性、算子相容性、谱与 zeta 零极点的精确对应。显式公式型 Weil 二次型、素数/Gamma 项与迹公式的桥梁必须另列开放命题；不默认两类结构等价，不以该模型取代 256 的实际 prime--continuum 接口。
+- **下一最小引理 [O]**：先固定 2024 文稿中的一个明确模型和一个几何极化正性与 Frobenius 相容性命题，逐项重建其定义、最小假设和证明，并核验谱识别依赖。有限、可证伪的审计问题是：正性及相容性是否由该模型的几何数据独立导出，还是使用了预设的复余维位置、纯性或待证谱结论？本次只登记此问题，不执行证明复核，也不同时审计整篇约 90 页文稿。
+- **当前证据 [R/O]**：下列只记录此前已经核验的一手来源及其适用边界，不登记新的内部定理。
+
+  - [R] Lapidus 2008 年《In Search of the Riemann Zeros》的作者公开序言区分分形膜的严格构造与关键模流的猜想性质；模流存在、吸引性质和通向 RH 的动力学图景不能当作已证输入。[作者序言与导论](https://math.ucr.edu/~lapidus/confidential/ISRZintro.pdf)
+  - [R] 2015 年《Towards Quantized Number Theory: Spectral Operators and an Asymmetric Criterion for the Riemann Hypothesis》给出谱算子的非对称 RH 等价判据；等价判据本身不是独立可逆性证明。[作者预印本](https://arxiv.org/abs/1501.05362)，[正式论文](https://doi.org/10.1098/rsta.2014.0240)
+  - [R] Cobler--Lapidus 2017 年文稿的行列式实现允许从零点/极点构造谱数据；作者明确指出直接用于 RH 仍需独立几何来源。此类实现不自动提供正性。[作者预印本](https://arxiv.org/abs/1705.06222)
+  - [R] David--Lapidus 2024 年文稿《From Weierstrass to Riemann: The Frobenius Pass》在 Weierstrass 模型中提出并给出若干上同调、Hodge 型结构、Frobenius 类谱识别和双对象 zeta 函数方程的结果；已核验范围是作者摘要/引言及可检索原文，作用对象是该曲线的复余维，而非已识别的经典 Riemann 零点。[作者全文](https://hal.sorbonne-universite.fr/hal-04614665v3/file/Functional.pdf)，[作者出版目录](https://sites.google.com/view/clairedavid/accueil/articles-publications) [O] 全文独立证明审计、精确成立范围与最终出版版本核对尚未完成；以上文献记录不是对全部证明的背书。
+- **主要反例与负向测试 [O]**：纳入具有函数方程但 RH 类比失败的模型作为测试；另对“从零点构造算子”“由对称性直接推出中心线”“有限模型成立便宣称极限成立”逐项检查。测试对象及出处须在试审时明确列出，目前不宣称已证明针对 David--Lapidus 模型的反例或障碍。
+- **RH/GRH 循环性审计 [O]**：不得把归一化酉性、完整 Weil 正性、统一负指数界、RH 等价的可逆性、零点向中心线收敛或依赖零点构造的自伴性用作未解释的公理。模型函数方程不等于纯性；模型谱识别不等于算术谱识别；任何有限到整体、模流收敛及数域桥梁必须单独陈述并审计。
+- **晋级与止损条件 [O]**：只有完整复核一个由独立几何数据推出的非循环模型命题，或把数域桥梁严格缩为一个明确且此前未解决的输入，才考虑晋级；不以术语相似、行列式重写或新的 RH 等价表述晋级。若一个试审周期内不能缩小输入、关键全文不可取得、依赖无法定位，或核心正性/吸引性质仍只是假设，则回到观察状态；若确认循环性，则停止该推理方向。不得因框架可持续扩写而续期。
+- **预期论文归属 [O]**：先形成独立的 `DL-AUDIT` 文献/结构审计与模型验证笔记。只有达到论文级证明、依赖审计和独立复核后，才考虑单独模型论文或结构主稿中明确隔离的验证实例；不混入数域 RH 存在性证明、四阶矩比例论文或当前 Brownian 响应主定理链，不预先声称新颖性。
+
 ### 路线组合与季度决策门
 
 1. **第 1--2 周：冻结基线。**
@@ -182,6 +202,8 @@
 | E / BENCH-1 | 5% | 验证与基准 |
 
 每条路线只有在证明一个不等价于 RH 的新引理，或者严格缩小现有开放算术输入后，才能进入正式论文的主定理链。
+
+`DL-AUDIT` 尚未启动，故不改变上表现有分配；若启动，其不超过 10% 的限额从观察/辅助份额中协调，并保持 B 为当前主线。该限额不是在上表之外追加的并行预算。
 
 ## 文件约定
 

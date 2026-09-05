@@ -1,5 +1,9 @@
 # 黎曼猜想结构研究项目审计报告
 
+> 文件位置说明（2026-09-06）：本报告是历史审计快照，以下旧文件名和行号不改写。
+> 论文现位于 [papers/rh-weil-structure-paper.tex](papers/rh-weil-structure-paper.tex)，
+> 成品位于 [output/pdf/rh-weil-structure-paper.pdf](output/pdf/rh-weil-structure-paper.pdf)。
+
 > 审计日期：2026-08-31
 > 审计对象：162 篇研究笔记、正式论文 `rh-weil-structure-paper.tex/.pdf`、数值与验证脚本
 > 审计性质：数学逻辑、研究方向、证据边界与可复现性审计

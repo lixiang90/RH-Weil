@@ -27,6 +27,7 @@ from brownian_interval_certificate import (
 from formal_lag_response import (
     FormalLag,
     add_frequency_maps,
+    complex_fsum,
     convolve_frequency_maps,
     degree_two_centered_response_channel_maps,
     scale_frequency_map,
@@ -214,7 +215,7 @@ def audited_float_sum(
 def audited_centered_component(
     component: dict[FormalLag, complex], zero: FormalLag
 ) -> tuple[dict[FormalLag, complex], Fraction]:
-    float_mass = sum(component.values())
+    float_mass = complex_fsum(component.values())
     if float_mass.imag != 0.0:
         raise AssertionError("fixed component mass must be real")
     exact_mass = sum(

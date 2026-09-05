@@ -5,7 +5,7 @@
 状态：有限维结论为 [T]；近期外部结果重述为 [R]；依赖未证矩渐近的结论为 [C]；
 有限数值审计为 [N]；zeta 算术输入为 [O]。
 
-独立论文：partial-weil-configurations-paper.tex。
+独立论文：[partial-weil-configurations-paper.tex](../papers/partial-weil-configurations-paper.tex)。
 
 ## 1. 二阶部分 Weil 配置 [T]
 

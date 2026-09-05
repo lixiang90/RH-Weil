@@ -1,4 +1,4 @@
-"""Run all reproducible finite checks and named interval certificates.
+"""Run the registered finite checks and named interval certificates.
 
 These checks prove only their stated finite identities or interval bounds.
 They are not asymptotic estimates and are not evidence for RH.
@@ -13,6 +13,12 @@ from pathlib import Path
 
 SCRIPTS = Path(__file__).resolve().parent
 CHECKS = (
+    ("paper layout", [sys.executable, "check_repo_layout.py"]),
+    ("paper layout regression", [sys.executable, "test_repo_layout.py"]),
+    (
+        "portable Brownian component reduction",
+        [sys.executable, "test_brownian_portable_reduction.py"],
+    ),
     (
         "Mellin dual separator",
         [sys.executable, "test_mellin_dual_separator.py"],

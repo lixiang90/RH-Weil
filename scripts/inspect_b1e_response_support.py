@@ -83,7 +83,11 @@ def main() -> None:
         if certificate["energy_upper"] > (
             FROZEN_B1E_SURROGATE_ENERGY_UPPERS[label]
         ):
-            raise AssertionError("frozen surrogate energy upper is too small")
+            raise AssertionError(
+                f"frozen surrogate energy upper is too small for {label}: "
+                f"certified={rational_decimal_upper(certificate['energy_upper'], 30)}, "
+                f"frozen={rational_decimal_upper(FROZEN_B1E_SURROGATE_ENERGY_UPPERS[label], 30)}"
+            )
         print(
             f"{label}: formal={len(component)}, canonical={len(grouped)}, "
             f"atoms={len(atoms)}, certified_min_gap_lower="
