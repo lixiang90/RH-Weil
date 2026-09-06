@@ -2,9 +2,20 @@
 
 本文件记录尚未进入正式论文的探索路线。严格推导见 [`notes/174-nonconstructive-existence-and-branch-map.md`](notes/174-nonconstructive-existence-and-branch-map.md)。
 
-## 唯一队列（GOAL.20260906 phase 3 周期结算）
+## 唯一当前队列（持续GOAL，周期4）
 
-[第三版目标](goals/GOAL.20260906.md)已完成317–320四轮数学推导及独立复核；[验收](goals/ACCEPTANCE.phase3.md)记录最终保存状态。
+| 任务 | 当前动作 | 完成层级 |
+|---|---|---|
+| VIS-NEAR-GRAM | 未选中近深点的原始权重预算、实际可验证性及质量成本 | 当前周期任务；条件性引理不能单独结束GOAL |
+| 实际后果审计 | 同一sharp算子的负迹上界与零密度界比较；只读辅助 | 识别真正算术瓶颈 |
+| MOM-1／NCE-8／GNS | 根据本周期净价值和新机制选择后续主线 | 以第十节B/C为较远期标准 |
+| David–Lapidus | 尚未启动的限额观察 | 10%资源上限保持 |
+
+当前GOAL为active，未达较远期显著进展。详细状态见[账本](goals/PROGRESS.md)。
+
+## phase 3 队列快照（历史）
+
+[当时目标](goals/archive/GOAL.20260906.phase3.md)已完成317–320四轮数学推导及独立复核；[验收](goals/ACCEPTANCE.phase3.md)记录最终保存状态。
 
 | 任务 | 角色与动作 | 边界 |
 |---|---|---|

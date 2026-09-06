@@ -2,7 +2,14 @@
 
 本目录研究一个明确的问题：能否把有限域上 Weil 猜想中迫使 Frobenius 特征值具有正确绝对值的结构抽离出来，并在数域的 zeta / L 函数上构造同类结构？
 
-## 当前研究状态：phase 3（2026-09-06）
+## 当前研究状态：持续GOAL，周期4（2026-09-06）
+
+[第四版GOAL](goals/GOAL.20260906.md)已将当前周期验收与较远期显著进展分开。
+本GOAL保持active：当前研究未选中近深点的混合Gram及实际零点后果，
+完成一个有限周期不结束GOAL。RH、零点比例／非零区域改进及实质算术Weil结构仍为较远期目标。
+[执行账本](goals/PROGRESS.md)记录实际进度与切换依据。
+
+## phase 3 已完成结果（2026-09-06）
 
 已再次修订[GOAL.20260906](goals/GOAL.20260906.md)，进入多簇共同效应与同一正则化算子的多轮研究。
 317–320四轮研究已完成内部独立复核。
@@ -10,7 +17,7 @@
 [320](notes/320-common-regularizer-for-growing-separated-clusters.md)以最大簇质量控制共同日程，
 在明确几何前提下允许簇数增长，保留同一个R下的总簇质量响应。
 实际簇存在、外部分离与RH仍开放，不宣称新比例或世界优先权。
-[执行账本](goals/PROGRESS.md)、[阶段验收](goals/ACCEPTANCE.phase3.md)及[下一任务](goals/NEXT.phase3.md)记录复核、保存和继续范围。
+[历史账本](goals/archive/PROGRESS.phase3.md)、[阶段验收](goals/ACCEPTANCE.phase3.md)及[下一任务](goals/NEXT.phase3.md)记录复核、保存和继续范围。
 
 ## phase 2 已完成结果（2026-09-06）
 
