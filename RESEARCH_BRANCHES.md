@@ -4,6 +4,8 @@
 
 ## 当前队列
 
+文献基线更新（2026-09-06）：[305](notes/305-post-6725-literature-baseline-audit.md)核实公开后续已超过67.3%：ainta 67.3008527928%、Shi 67.3316977142%，另有Devine v3声称67.3399%。各自证明/证书核查范围及原始PDF见[文献索引](literature/README.md)。这些待审主张单列，不自动导入项目证明链；旧67.25%不再标作全部公开前沿。304的三点机制已有直接公开对应，且ainta三点值67.2519767114%更强。
+
 维护验收与恢复（2026-09-06）：David--Lapidus观察线、论文目录及GitHub Actions三项维护均已完成，[完整三组远程检查成功](https://github.com/lixiang90/RH-Weil/actions/runs/33982592142)。291--295及296--301两个周期已收束；300的真实全谱RH条件结果与301的相位/同germ障碍保留。**301之后的一轮289-(53)准入审计现已完成，未获得匹配的新算术输入**，详见289第11节。已核验文献存在明确参数、筛选或矩阶差距；不把这种直接适用失败升级为一般不可能性。NCE-8与MOM-1继续观察，不自动重启同类周期；下一周期须从看板重选真正独立的有限任务。Lamzouri新短证与197旧二阶结构的接口已单独复核，但不减少四阶输入。`DL-AUDIT`仍未启动，资源门槛不变。
 
 VIS-1 已连续闭合两个不同的有限问题：[302](notes/302-positive-background-quotient-collapse.md)证明实际前缀的窄窗硬商负秩保留、负迹塌缩；[303](notes/303-critical-window-counting-and-visibility-nonidentification.md)在同一 sharp MT 临界窗构造两套固定全局除子，共同满足 RVM 级计数误差、单位高度界及模型比例下界，却有相反可见性。模型不具备 Euler/算术显式公式，不转写为实际 zeta 结论。304§6核对实际显式计数界能排除303的具体高系数簇，但仍不给商后下框架；该动作已停止，不追加模型变体。
@@ -12,7 +14,7 @@ VIS-1 已连续闭合两个不同的有限问题：[302](notes/302-positive-back
 
 | ID | 角色 | 下一最小引理 | 晋级条件 | 状态 |
 |---|---|---|---|---|
-| MOM-STAB | 限额二阶稳定性审计，不替代MOM-1 | 对照公开同类工作，判断304直接Hilbert/固定平滑/三点证书是否有未被覆盖的具体命题 | 有独立贡献且证明/小证书可复核；不得将工作稿中的较低数字当作全部前沿 | 304全链及精确证书[T/R]通过；新颖性与外部审查[O]，非世界纪录声明 |
+| MOM-STAB | 复核基准；核心三点机制已有先行工作 | 只核对直接Hilbert/固定平滑/纯有理小证书是否有独立接口或简化价值；不重复宣称三点机制新颖 | 具体未覆盖命题或重要模型应用，并对照305的后续主张 | 304内部证明保留；三点机制和数值已有更强公开对应；完整外部认证另列 |
 | NCE-1 | 主线 | finite SDP 的 cell-packet capture ratio、coercivity 与实际负响应 | capture remainder一致消失，one-sided packet budget可和 | one-sided atomic theorem 已完成 |
 | NCE-2 | 概念线 | fiberwise harmonic scalars 的 external synthesis correspondence | 给出跨 `q` fibers 且限制 rank-one amplification 的 arithmetic map | canonical fiber 内交换子为零 |
 | NCE-3 | 工具线 | random cells 是否降低 arithmetic-specific packet response | 保留 joint cancellation并优于 `Theta(1+Nh)` universal capacity | universal random-grid route 已到 sharp no-go |
@@ -55,24 +57,20 @@ VIS-1 已连续闭合两个不同的有限问题：[302](notes/302-positive-back
 - **已完成最小引理/证据**：304-B的谱移位余项、304-C不交三点pinching、304-D无先验比例闭合、304-E纯解析正下界及304-F精确有理 \(\mathcal M(4,10^{-4})\) 全域证书均[T]；实际比例后果使用上述[R]。两份全文只读逆审与主代理复跑PASS。
 - **主要反例/失效点**：平窗sinc核在0,1,2形成正交三点；任意简单Gram的HS偏差可被其余零点抵消，必须使用凸谱余项；重叠块与其他稳定性余项不能重复相加。
 - **循环性审计**：未假设完整Weil正性、酉性或统一负惯性；全谱二阶公式包括非实点，逐项不必非负。固定平滑后先 \(T\to\infty\) 再 \(\delta\to0\)，未隐含变化函数一致误差。
-- **下一最小任务**：限额比对已公开的Schur--Jensen和多点稳定性工作，精确列出已覆盖命题及可能未覆盖接口，不追逐未经认证的小数。
+- **下一最小任务**：305已确认ainta覆盖凸谱余项、三点根加法障碍和相同比例公式；只继续核对直接Hilbert/固定平滑/纯有理证书的独立价值。公开比较包括67.3008528%、67.3316977%及待审67.3399%，不再仅与旧C0比较。
 - **晋级条件**：除了内部正确性，还须识别可独立发表的具体贡献，或新的重要模型应用；再集中整理论文。
 - **止损条件**：若304仅为现有机制的较弱重建，保留为小型复核基准；不靠增加块数、重叠相加或反复排版维持路线。
 - **论文归属**：独立二阶稳定性附注，暂仅Markdown；不并入MOM-1四矩比例稿，也不称为已确认的新纪录。本轮分类为严格证明与认证进展，新颖性仍[O]。
 
 ### 路线 A / MOM-1：四阶矩增量（近期主线）
 
-- **目标**：控制中心化四阶矩，严格改进当前约 `0.6725007` 的简单临界线零点比例。
+- **目标**：证明实际中心四阶矩的新算术预算，并与305所列后续结果逐项比较。`0.6725007`为历史基线；`0.673399`暂作待审比较标尺，其引用不代表已被本项目认证。
 - **当前基础**：零点侧尾项已经隔离；真实 m<=X adjacent family 已渐近对角化，m>X aggregate 已等价归约为 complex-symmetric boundary block 的 pseudocovariance BB^T。one-factor HS energy 为 O(N)；natural-scale covariance 不制造 phase cancellation；自然 lower/upper HS polarization 受 two-edge locality 阻断。首个 lower-boundary prime entry 的 normalized height mean square 又无条件趋于 1/(4 pi^2)，因此 uniform beta_L||B_X(T)||op=o(1) 路线严格失败。alternating ratio clusters 在 von Mangoldt 支撑下已分类：不同素数底 clusters 为 singleton，非中心同素数 chains 整体为 o(N)。恢复 dyadic local energy 后，任意单个 primitive box 在 AB<=XL^(2-epsilon) 均渐近对角化，且 fixed determinant graph 有 degree-two Schur bound；在 primitive 双曲区域 ab<=X 内，fixed aperture 的整条 radial chain 已由 signed Montgomery--Vaughan 压到 O(N/L)，所有 non-seam aperture crosses 绝对可和为 o(N)。其中 +/-L aliases 已由 translated-symbol support gap 与 trace-class remainder 闭合，+/-2L seams 已由双曲 ratio diameter 排空；ordinary pairs 又经 determinant lift 化为 (Lambda*Lambda) harmonic correlation，并由 Evans 的 almost-all E2-shift theorem 无条件闭合。整个 ab<=X primitive hyperbolic family 已 atomic diagonalize；定量化 Evans saving 后又闭合任意 fixed `kappa<1` 的 logarithmic supercritical collar `ab<=X L^kappa`。product/ratio 坐标证明卷积阶仍为 `Lambda*Lambda`，在 `ab asymp X L` transition layer，exact scalar kernel 的 resolution core 为 `|ad-bc| lesssim L`，而整层 atomic diagonal 已是 `O(N log L/L)=o(N)`；discriminant-uniform multiplicative upper-bound sieve 又把整个 fixed-`delta<1` transition resolution core 的 absolute main term压到 `O_delta(N L^{-(1-delta)/2}(log L)^5)=o(N)`。clustered vector-valued Fejér 大筛又把完整 transition aggregate（包括 oscillatory tail）压到 `o(N)`，并与 collar 拼接得到整个 primitive union 在任意 fixed `eta>0` 下对 `ab<=XL^(2-eta)` 的 atomic diagonalization。critical `ab asymp XL^2` 又被精确归约为四变量 factor-bin determinant incidence：elementary baseline 为 `D(H)<<RH L^2`，而任意 fixed `sigma<1` 的 `D(H)<<RH L^sigma(log L)^C` 已足够闭合全部 box ledger；`sigma=1` 仍停在主尺度。balanced critical box 已由二维 Selberg 上界筛与 Bettin--Chandee exact determinant main term 达到 natural scale；进一步以 moderate-aspect Kloosterman 外筛和 extreme-aspect 两线性形式直接筛无条件得到全部 factor boxes 的 `D(H)<<RH(log L)^C`，故 logarithmic-square critical shell 已闭合；笔记 232 证明 `ab>XL^2` 外仍有正主质量。笔记 233 再把 determinant incidence、Fejer ledger 与 finite transfer 一致延伸，闭合任意 `ab<=XL^(3-epsilon)`，同时证明 fixed-log saving 不能进入 `ab asymp X^(1+kappa)` 的幂级高乘积区。笔记 223 又以短高度 Hilbert 值 Montgomery--Vaughan 均值在 relative-dense heights 上闭合 adjacent `m>X` boundary pseudocovariance。笔记 224 进一步用 Henriot discriminant-uniform shifted sieve 闭合 bulk `3+1`，用频率间隙闭合 bulk `4+0`，并把它们与 adjacent defect 合成一次一侧均值选择；已覆盖的 `ab<=XL^(3-epsilon)` alternating primitive support 在同一点 uniform 为 `o(N)`。笔记 225 将每个有限四因子 Toeplitz word 减 bulk 精确分成三个 crossing-Hankel 项，其 scalar trace 只有 `O(log L)`；结合同一 shifted sieve 与短高度核，闭合 finite `3+1,4+0` signed boundary。至此 finite pure-prime 各 signed boundary 机制已闭合，但 fixed-power high-product alternating primitive off-diagonal 仍须补入一侧账本。笔记 226 又把 Gamma/pole-absorption 背景精确化为确定性零频 Toeplitz 主部 `S_L=T_d(phi^2/a-1)` 与算子范数 `O(1/L)` 的余项；Schatten telescoping 使该余项对四迹只有 `O(N/L)=o(N)`。笔记 227 用 `Omega=1,2` 的 discriminant-uniform shifted sieve 排空全部非零 mixed frequencies，并通过先平均完整非负四阶迹、再一次选点修复 good-set 交集缺口。笔记 228 已证明 relative-dense starting heights 足以覆盖 AF moving zero blocks，并把中心二、四矩接入 quartic rank--trace--inertia certificate；形式上得到 simple/distinct 常数 `0.7569027/0.8784513`。该记录级实例仍为 `[C]`；逆向审计已把当前算术缺口缩到 fixed-power high-product 的 actual signed determinant response；polylog cutoff `K<3` 已闭合。
 
 - **A1u 止损 [N/E]**：笔记 241 证明 arbitrarily separated divisor columns仍通过 common multiples共享 exact numerator rows，故 divisor distance与 synthesis positivity不推出 off-block Schur decay。finite actual matrices中 separated signed part在四个尺度均大于最终 response，并与 near blocks反号抵消。式 `sum|C_ij|^2=o(L^6)` 仍是正确充分条件，但不再作为优先输入。
 - **A1v 恢复条件 [O]**：只有出现一条新的 determinant/frequency correlation estimate，能在每个 physical fiber 内先保留 `sum_(i,j)C_ij^(q)` 并给 global `o(L^4)`，MOM-1 才恢复。仅改变 divisor partition、取 block absolute values或使用 full operator norm不算进展。
 - **A2 状态 [T/C]**：笔记 228 闭合 moving-block zero-counting 量词，并证明当前中心偶矩不能直接调用 13/18 Christoffel 数值；quartic inertia implication 为 [T]，实例化的新比例在完整 prime-side 逆向复核前保持 [C]。
-- **晋级条件**：经严格归一化和区间认证得到
-  \[
-  b_4<0.3275499074,
-  \]
-  或者严格缩小交替比值通道所需的开放算术输入。
+- **晋级条件**：严格缩小实际有符号响应的开放算术输入；若以比例改进晋级，则对指定比较值p验证228的完整条件及 `B4<(1-v)^2/p-1+2v`。以待审p=0.673399比较时，平窗v=1/3阈值为0.326668306770742...，实际MT窗v=1-C0阈值为0.326602198303353...。旧0.3275499074只对应平窗超过历史C0，不再作为最新数值门槛；来源与有理常数复核见305。
 - **止损条件**：若匹配下界证明所选窗口或响应无法达到上述阈值，则停止继续调窗；将结果整理为四阶矩方法极限/no-go 定理，并把研究主力转向路线 B。
 - **预期产物**：边界紧性引理、交替比值分块公式、完整四阶矩预算表，以及有理数或区间算术证书。
 

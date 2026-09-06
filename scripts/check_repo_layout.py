@@ -48,15 +48,15 @@ def check_layout(root: Path) -> list[str]:
             path = document.parent / unquote(target.split("#", 1)[0])
             if not path.is_file():
                 errors.append(f"Broken paper link in {relative}: {target}")
-    # Ignore untracked scratch artifacts, but require all versioned PDFs to be final outputs.
+    # Versioned PDFs are project outputs or archived external literature.
     tracked = subprocess.run(
         ["git", "ls-files", "-z", "--", "*.pdf"],
         cwd=root, check=True, capture_output=True,
     ).stdout.decode("utf-8").split("\0")
     for relative in filter(None, tracked):
         # Before staging a migration, Git still lists old paths which no longer exist.
-        if (root / relative).is_file() and not relative.startswith("output/pdf/"):
-            errors.append(f"Versioned PDF outside output/pdf: {relative}")
+        if (root / relative).is_file() and not relative.startswith(("output/pdf/", "literature/")):
+            errors.append(f"Versioned PDF outside output/pdf or literature: {relative}")
     return errors
 
 

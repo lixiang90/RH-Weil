@@ -1,0 +1,3 @@
+# Preserve exact historical goal and downloaded supplement bytes.
+goals/archive/GOAL.old.md -text whitespace=cr-at-eol,-blank-at-eof
+literature/supplements/* -text whitespace=-blank-at-eof

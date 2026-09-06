@@ -1,0 +1,171 @@
+# RH-Weil 文献索引
+
+更新与抓取日期：2026-09-06。本批归档聚焦67.25%之后的零点比例进展及直接依赖，共15份外部原始PDF、220页；以后可继续扩展。研究判断见 [305文献审计](../notes/305-post-6725-literature-baseline-audit.md)。
+
+PDF按来源原样保存，未重排或改写；arXiv固定版本，GitHub固定提交，Zenodo固定记录。下载、全页PDF解析和校验值核验不等于数学证明认证。manifest中的SHA-256标识本次取得的精确字节，原站同一文件名后续变化时仍可区分。
+
+## 快速定位
+
+- 基础证明：AF-2026；直接Hilbert短证：Lamzouri-2026。
+- 67.3%的直接出处：ainta-2026（67.3008527928%）。
+- 后续候选：Shi-2026（67.3316977142%）；Devine-2026-v3（声称67.3399%）。
+- trmdy归档PDF仍是67.3200117013%七点稿；最新67.3312742272%保存在[九点补充文档](supplements/trmdy-nine-point-1610b97.md)。不要把仓库README最新数值误标成PDF正文的主定理。
+- 条件性67.92%：Devine-2026-box；高矩待审主张：Yang-2026-7962。
+
+## 论文列表
+
+### 基础比例证明
+
+**AF-2026 — More than two thirds of the zeta zeros are simple and on the critical line**
+
+- 作者：Alpöge; Furman。
+- 版本：arXiv:2608.13637v2; 2026-08-19。
+- [本地PDF](baseline/2026-alpoge-furman-6725-v2.pdf)（21页，478,663字节）；[来源页面](https://arxiv.org/abs/2608.13637v2)；[原始PDF链接](https://arxiv.org/pdf/2608.13637v2)。
+- 状态与用途：外部预印本基线；约67.25%。
+
+**Claude-2026 — More than two thirds of the zeros of the Riemann zeta function lie on the critical line**
+
+- 作者：Claude / Anthropic。
+- 版本：Anthropic 固定内容 URL；抓取日2026-09-06。
+- [本地PDF](baseline/2026-claude-anthropic-zeta-23.pdf)（35页，631,785字节）；[来源页面](https://www.anthropic.com/research/riemann-zeta)；[原始PDF链接](https://www-cdn.anthropic.com/564f962e60643842f5fcb4a17c9dbc8f608f1c37.pdf)。
+- 状态与用途：原始研究稿及证明框架；另见AF修订预印本。
+
+**Lamzouri-2026 — A new proof that more than 2/3 of the zeros of the Riemann zeta function are simple and on the critical line**
+
+- 作者：Youness Lamzouri。
+- 版本：arXiv:2609.02882v1; 2026-09-02。
+- [本地PDF](baseline/2026-lamzouri-6725-hilbert-v1.pdf)（14页，505,955字节）；[来源页面](https://arxiv.org/abs/2609.02882v1)；[原始PDF链接](https://arxiv.org/pdf/2609.02882v1)。
+- 状态与用途：新的Hilbert空间短证；仍为67.25%。
+
+### 配对相关与方法背景
+
+**BGST-2023 — An unconditional Montgomery Theorem for Pair Correlation of Zeros of the Riemann Zeta Function**
+
+- 作者：Baluyot; Goldston; Suriajaya; Turnage-Butterbaugh。
+- 版本：arXiv:2306.04799v1; 2023-06-07; Acta Arith. 214 (2024),357-376。
+- [本地PDF](background/2023-bgst-unconditional-montgomery-v1.pdf)（13页，210,602字节）；[来源页面](https://arxiv.org/abs/2306.04799v1)；[原始PDF链接](https://arxiv.org/pdf/2306.04799v1)。
+- 状态与用途：全零点相关输入；勘误须结合BGST-2025v3。
+
+**BGST-2025 — Pair Correlation of Zeros of the Riemann Zeta Function I: Proportions of Simple Zeros and Critical Zeros**
+
+- 作者：Baluyot; Goldston; Suriajaya; Turnage-Butterbaugh。
+- 版本：arXiv:2501.14545v3; 2026-09-01。
+- [本地PDF](background/2025-bgst-pair-correlation-I-v3.pdf)（16页，376,884字节）；[来源页面](https://arxiv.org/abs/2501.14545v3)；[原始PDF链接](https://arxiv.org/pdf/2501.14545v3)。
+- 状态与用途：窄箱条件比例及相关公式修订；不能把条件比例当无条件。
+
+**GS-2025 — Zeta Zeros on the Critical Line**
+
+- 作者：Daniel A. Goldston; Ade Irma Suriajaya。
+- 版本：arXiv:2511.20059v2; 2026-02-05。
+- [本地PDF](background/2025-goldston-suriajaya-critical-line-v2.pdf)（9页，345,194字节）；[来源页面](https://arxiv.org/abs/2511.20059v2)；[原始PDF链接](https://arxiv.org/pdf/2511.20059v2)。
+- 状态与用途：解释移除RH假设与简单临界线计数的关系。
+
+**CGdL-2019 — Pair Correlation Estimates for the Zeros of the Zeta Function via Semidefinite Programming**
+
+- 作者：Andrés Chirre; Felipe Gonçalves; David de Laat。
+- 版本：arXiv:1810.08843v2; 2019-11-18。
+- [本地PDF](background/2019-chirre-goncalves-delaat-sdp-v2.pdf)（16页，264,978字节）；[来源页面](https://arxiv.org/abs/1810.08843v2)；[原始PDF链接](https://arxiv.org/pdf/1810.08843v2)。
+- 状态与用途：SDP配对相关背景；适用假设须逐项保留。
+
+### 后续研究稿：须核对证明与认证范围
+
+**ainta-2026 — More than 67.3% of the zeros of the Riemann zeta function are simple and lie on the critical line**
+
+- 作者：ainta；仓库披露由GPT-5.6 Sol生成。
+- 版本：commit 040c5e899e658aed7b56a2a87f501798fe10761d; 2026-08-11。
+- [本地PDF](candidates/2026-ainta-6730085-040c5e8.pdf)（7页，86,065字节）；[来源页面](https://github.com/ainta/zeta-simple-zeros/tree/040c5e899e658aed7b56a2a87f501798fe10761d)；[原始PDF链接](https://raw.githubusercontent.com/ainta/zeta-simple-zeros/040c5e899e658aed7b56a2a87f501798fe10761d/paper/riemann.pdf)。
+- 状态与用途：67.3008527928%研究草稿；正文推导与常数核查，未重跑七点证书。
+
+**trmdy-2026 — A certified 67.32001% lower-bound candidate for simple zeros of the Riemann zeta function on the critical line**
+
+- 作者：Vivaswat Ojha（归档PDF作者）；trmdy仓库维护者Tormod Haugland。
+- 版本：commit 1610b97b7895ff34982260f8dcaf04a0f7b82cf7; 2026-08-12。
+- [本地PDF](candidates/2026-trmdy-stability-1610b97.pdf)（6页，274,200字节）；[来源页面](https://github.com/trmdy/zeta-simple-zeros-673137/tree/1610b97b7895ff34982260f8dcaf04a0f7b82cf7)；[原始PDF链接](https://raw.githubusercontent.com/trmdy/zeta-simple-zeros-673137/1610b97b7895ff34982260f8dcaf04a0f7b82cf7/paper/main.pdf)。
+- 状态与用途：本PDF为67.3200117013%七点稿（2026-08-11）；仓库最新67.3312742272%在另存九点补充文档中；两者均未获本项目完整认证。
+
+**Shi-2026 — A two-certificate trace-energy deduction for simple zeros of the Riemann zeta function**
+
+- 作者：Yuhang Shi。
+- 版本：稿件2026-08-14; commit 7cfd0ce9a9ef1615889b5c1191fac5de41f13960 (2026-08-28)。
+- [本地PDF](candidates/2026-shi-673316977-7cfd0ce.pdf)（7页，101,992字节）；[来源页面](https://github.com/yuhangshi888/zeta-simple-zeros-673316977/tree/7cfd0ce9a9ef1615889b5c1191fac5de41f13960)；[原始PDF链接](https://raw.githubusercontent.com/yuhangshi888/zeta-simple-zeros-673316977/7cfd0ce9a9ef1615889b5c1191fac5de41f13960/main.pdf)。
+- 状态与用途：67.3316977142%候选；仅新增推导局部Lean化，上游接口与证书仍导入。
+
+**Tawan-2026 — Certified unconditional 67.3192911473% lower bound for simple zeros of the Riemann zeta function**
+
+- 作者：tawanerguo-cn。
+- 版本：commit 45149f6d403059a71be73c5e3f884cee7cd62b20; 2026-08-11; PDF日期2026-08-12。
+- [本地PDF](candidates/2026-tawan-bellman-6731929-45149f6.pdf)（6页，80,852字节）；[来源页面](https://github.com/tawanerguo-cn/zeta-simple-zeros/tree/45149f6d403059a71be73c5e3f884cee7cd62b20)；[原始PDF链接](https://raw.githubusercontent.com/tawanerguo-cn/zeta-simple-zeros/45149f6d403059a71be73c5e3f884cee7cd62b20/paper/riemann.pdf)。
+- 状态与用途：Bellman修正候选；仓库自述外部同行评审未完成。
+
+**npip-2026 — More than 67.3195% of the zeros of the Riemann zeta function are simple and lie on the critical line**
+
+- 作者：Nicholas Pipitone。
+- 版本：commit 72a01ac5ea3837f2a4c4583d831f885d005f8af1; 2026-08-12。
+- [本地PDF](candidates/2026-npip-673195-72a01ac.pdf)（7页，106,135字节）；[来源页面](https://github.com/npip99/zeta-zeros/tree/72a01ac5ea3837f2a4c4583d831f885d005f8af1)；[原始PDF链接](https://raw.githubusercontent.com/npip99/zeta-zeros/72a01ac5ea3837f2a4c4583d831f885d005f8af1/paper/main.pdf)。
+- 状态与用途：67.3195198901%；Lean结论仍有局部七点搜索证书前提。
+
+**Devine-2026-v3 — An Unconditional 67.3399% Bound and Conditional Advances Beyond 67.92% for Simple Critical Zeros of the Riemann Zeta Function**
+
+- 作者：Michael Devine。
+- 版本：Zenodo 22066689; version1.0.3; 2026-08-23。
+- [本地PDF](candidates/2026-devine-673399-v1.0.3.pdf)（18页，455,218字节）；[来源页面](https://zenodo.org/records/22066689)；[原始PDF链接](https://zenodo.org/records/22066689/files/zeros-v3.pdf?download=1)。
+- 状态与用途：作者声称无条件67.3399%；PDF第1、7页说明完整形式化可重放数值包仍在准备；本项目未复核全部解析链和243域证书。
+
+### 明确附加数学假设的结果
+
+**Devine-2026-box — A 67.92% Bound for Simple Critical Zeros in a Vanishing Vertical Box**
+
+- 作者：Michael Devine。
+- 版本：Zenodo 21879591; version1.0.0; 2026-08-10。
+- [本地PDF](conditional/2026-devine-6792-conditional-box-v1.pdf)（7页，250,094字节）；[来源页面](https://zenodo.org/records/21879591)；[原始PDF链接](https://zenodo.org/records/21879591/files/vanishing_box_simple_zeros.pdf?download=1)。
+- 状态与用途：67.92%明确依赖消失窄箱假设；非无条件纪录。
+
+### 尚未核查解析链的高比例主张
+
+**Yang-2026-7962 — More than 79.62% of the zeros of the Riemann zeta function are simple and on the critical line**
+
+- 作者：Yang Hongyi; Yang Shihua。
+- 版本：Zenodo21975237; version1.0; 2026-08-17。
+- [本地PDF](unreviewed/2026-yang-7962-unreviewed-v1.pdf)（38页，598,532字节）；[来源页面](https://zenodo.org/records/21975237)；[原始PDF链接](https://zenodo.org/records/21975237/files/More%20than%200.7962%20on%20the%20critical%20line-EN.pdf?download=1)。
+- 状态与用途：仅归档待审声明；解析高矩链未核查，不导入MOM-1。
+
+## 补充材料与只登记链接的文献
+
+补充文件按固定提交原样归档，其中原有相对链接按上游仓库目录解释；需要跳转时使用下列“固定版本原文”链接。
+
+- [trmdy-nine-point-1610b97.md](supplements/trmdy-nine-point-1610b97.md) — [固定版本原文](https://github.com/trmdy/zeta-simple-zeros-673137/blob/1610b97b7895ff34982260f8dcaf04a0f7b82cf7/docs/nine-point.md)。
+- [trmdy-seven-point-1610b97.json](supplements/trmdy-seven-point-1610b97.json) — [固定版本原文](https://github.com/trmdy/zeta-simple-zeros-673137/blob/1610b97b7895ff34982260f8dcaf04a0f7b82cf7/data/candidate-retuned-p2736.json)。
+- [trmdy-nine-point-final-1610b97.json](supplements/trmdy-nine-point-final-1610b97.json) — [固定版本原文](https://github.com/trmdy/zeta-simple-zeros-673137/blob/1610b97b7895ff34982260f8dcaf04a0f7b82cf7/data/candidate-nine-point-final.json)。
+- [trmdy-nine-point-log-1610b97.txt](supplements/trmdy-nine-point-log-1610b97.txt) — [固定版本原文](https://github.com/trmdy/zeta-simple-zeros-673137/blob/1610b97b7895ff34982260f8dcaf04a0f7b82cf7/certificates/nine-point-final-grid4000.txt)。
+- [shi-claim-ledger-7cfd0ce.md](supplements/shi-claim-ledger-7cfd0ce.md) — [固定版本原文](https://github.com/yuhangshi888/zeta-simple-zeros-673316977/blob/7cfd0ce9a9ef1615889b5c1191fac5de41f13960/CLAIM_LEDGER.md)。
+
+- [Shi v0.1.0正式存档（Zenodo）](https://doi.org/10.5281/zenodo.21926962)：本目录PDF采用上述较新固定Git提交；发布存档与后续Lean材料的版本不要混用。
+- [Yang–Yang 密度1稿件](https://zenodo.org/records/22065921)：记录处于封存状态，作者注明“版本内容有错误，需要重新修订”。仅保存链接与状态，不取得被封存附件，也不纳入数学基线。此状态不自动判定其较早79.62%稿件的对错。
+- [Hydra Dynamix带宽一方法上限](https://github.com/hydra-dynamix/zeta23-verification/tree/3c1d0ef81bf3af689d699ceefa9dc984a1dedb93)：[作者说明](https://www.hydradynamix.com/blog/a-tighter-ceiling)。0.681810782为特定方法类的上限证人，不是实际零点比例的新下界；本轮未独立复算。
+- [Lamzouri 2026-09-03 MPIM报告](https://math-events.uni-bonn.de/event/1560/)：新短证的学术报告来源，内容仍为67.25%。
+
+## 文件校验
+
+完整元数据、解析状态、抓取时间与重定向后的地址见 [manifest.json](manifest.json)。以下为PDF的SHA-256：
+
+| ID | SHA-256 |
+|---|---|
+| AF-2026 | `6de3b156342e7b4a802c34f8ef40432567e9dabe006938da04233f19fc4ef444` |
+| Claude-2026 | `6792988e6cd0e17690621ce898abd5d534f98407741bc7cb14bbe7d07c77d72f` |
+| Lamzouri-2026 | `fa33485f517b3c94d2f6e4d4366f3ab14a1e413a738db512e1862f4a0944f5f9` |
+| BGST-2023 | `133071c4d85c875fe9b1a7d4001f22d7174270ab8f1fa8e6cee6178d20276ee9` |
+| BGST-2025 | `0a16b0b0f19b06490111e048a6841f4fe68717c546fae4cb7a44555dc0f96cb3` |
+| GS-2025 | `7b4f638cbd0438123b7a54869fc998fc3d4dee9b74572c04cef9da0463ed4c6f` |
+| CGdL-2019 | `1f39a719a01801939740fb3647f2a7aa848fc7ee1587f3b40e9236caf304a035` |
+| ainta-2026 | `d846f3a73cf3ab012d7c16be78c5bab35fcd5d2b1d99db5bf036bd638a277afc` |
+| trmdy-2026 | `7b45f2f8336816aeae4bd4c74bfc6d32c12181f5a3149c03d61c5efa8d2ff825` |
+| Shi-2026 | `d463edc46466f101963c918e9e14001097de810ed791f5944ee6105989e020bd` |
+| Tawan-2026 | `bbe10cfaa3e8bb3a654acb4cc6a072f1066e2639501b7e83b5f9a6b3ea046c08` |
+| npip-2026 | `0132ffc9a65d5b4caecc1e7ae45aa505bd51955cd0b24ab3f86375878be59e2e` |
+| Devine-2026-v3 | `4abe6b7281697833d1e207d587ac0346a080eade7585691da6897e01283d8cbd` |
+| Devine-2026-box | `afbef3b6c8d61c6e0345a19ab8b6906b4e65d8bd1a0fcd0b728b7b78eb486c2e` |
+| Yang-2026-7962 | `0abaa78e0eb4421fdbae647a0b3b6b0299a4dde5d49b0e56ca6f33831c5e3ea0` |
+
+## 后续维护
+
+新增论文时保留作者、准确标题、发布日期、版本/提交、来源页、直链、本地文件与核查边界。不同版本使用不同文件名；源文件发生修订时更新清单和哈希，保留历史对照。引用补充文档中的新结果时，不用较早PDF代替该证明来源。原始论文版权与许可归原作者/来源方，项目自己的论文仍放在 papers/ 与 output/pdf/。

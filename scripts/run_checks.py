@@ -17,6 +17,7 @@ CHECKS = (
     ("finite-check group coverage", [sys.executable, "test_check_groups.py"]),
     ("paper layout", [sys.executable, "check_repo_layout.py"]),
     ("paper layout regression", [sys.executable, "test_repo_layout.py"]),
+    ("post-67.25 literature constants", [sys.executable, "post_6725_constant_audit.py"]),
     (
         "portable Brownian component reduction",
         [sys.executable, "test_brownian_portable_reduction.py"],

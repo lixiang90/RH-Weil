@@ -3,6 +3,9 @@
 主 TeX 源文件统一放在本目录；最终 PDF 统一放在 `output/pdf/`。
 2026-09-06 的目录迁移不改变论文内容，现有 PDF 按字节原样保留。
 
+外部文献原始 PDF 统一归档于 [`../literature/`](../literature/README.md)，不与本项目论文混放。
+2026-09-06 的 [305 文献更新](../notes/305-post-6725-literature-baseline-audit.md)已记录67.3%以上后续草稿及审核边界；下列项目论文PDF仍为既有快照，本次未重编译。
+
 | 论文 | 主源文件 | 最终 PDF | 编译器 |
 |---|---|---|---|
 | Weil 结构与存在性审计 | [rh-weil-structure-paper.tex](rh-weil-structure-paper.tex) | [PDF](../output/pdf/rh-weil-structure-paper.pdf) | XeLaTeX |
@@ -38,3 +41,4 @@ python scripts/check_repo_layout.py
 ```
 
 该检查只验证目录、论文文件及相对引用，不验证数学定理或 PDF 版面。
+版本管理中的PDF允许放在本项目的 output/pdf/ 或外部文献 literature/，其他散落路径仍会报错。

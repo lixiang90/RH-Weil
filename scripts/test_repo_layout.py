@@ -146,7 +146,12 @@ class LayoutTests(unittest.TestCase):
     def test_existing_versioned_pdf_outside_output_is_rejected(self) -> None:
         self.write("archive/misplaced.pdf", "%PDF-fixture\n")
         self.tracked.append("archive/misplaced.pdf")
-        self.assertIn("Versioned PDF outside output/pdf: archive/misplaced.pdf", self.check())
+        self.assertIn("Versioned PDF outside output/pdf or literature: archive/misplaced.pdf", self.check())
+
+    def test_versioned_external_literature_is_allowed(self) -> None:
+        self.write("literature/baseline/reference.pdf", "%PDF-fixture\n")
+        self.tracked.append("literature/baseline/reference.pdf")
+        self.assertEqual(self.check(), [])
 
     def test_deleted_tracked_paths_and_untracked_scratch_are_ignored(self) -> None:
         self.tracked.extend(["old-paper.pdf", "archive/deleted.pdf"])
