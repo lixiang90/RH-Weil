@@ -19,6 +19,32 @@ Actions 将原检查清单分为 core、B1h、B1i 三组并行，全部成功才
 ## 正式论文整理稿
 
 最新研究进展（2026-09-06）：
+[301：临界簇的相位抵消与同 germ 非一致性](notes/301-cluster-phase-cancellation-and-nonuniform-divisor-families.md)。
+本轮证明：固定有限正权簇的高度为 \(\gamma+h_j/L\) 时，
+负迹的 \(e^{-q}\log L\) 主系数取决于
+\(\left|\sum_jm_je^{-ih_j}\right|\)，不是总重数 [T]。
+特别是两个等权包相隔 \(\pi/L\) 时，
+\[
+ \kappa_-(R_\gamma+R_{\gamma+\pi/L})
+       \le e^{-q}\left(\frac{2\pi}{q}+\frac4{1-\delta}\right),
+       \qquad q=\delta L\ge1,\quad0<\delta\le1/4 .
+\]
+因此300的近碰撞问题已闭合；分别估计单包会漏掉完整交叉抵消。
+
+进一步构造两族具有相同中心轴极限除子、相同解析 germ、
+定量局部一致收敛和精确 Poisson 相容性的有限候选：
+沿同一 \(q=\tfrac12\log\log L\)，一族负迹趋零，另一族发散 [T/N]。
+这只排除上述定性结构自动提供靠边界统一预算的推论；
+模型没有素数 Euler 数据，不反驳300的固定真实 zeta 条件渐近。
+
+296--301的四轮周期至此收束，停止扩写固定候选的RH等价日程。
+下一准入检查回到289已缩小的实际带符号四阶相关输入；
+没有匹配的独立算术估计就不启动同类框架扩写。
+本轮仅Markdown与六组有限核复算，不更新PDF。
+相位抵消属于经典窗口机制，具体结果的新颖性和外部同行审查仍待核验；
+未证明RH/GRH、新零点比例或新零密度。
+
+同日上一轮：
 [300：端点分离的全轴误差与真实全谱临界渐近](notes/300-endpoint-separated-global-error-and-critical-schedule.md)。
 本轮闭合了298提出的RH条件误差问题。令 \(L=\log Y,\ q=\delta L\)，
 把实际有限候选修正为

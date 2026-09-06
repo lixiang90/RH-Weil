@@ -174,6 +174,10 @@
    https://arxiv.org/abs/2107.06506v1
    https://arxiv.org/pdf/2107.06506
 
+53. Fredric J. Harris, *On the Use of Windows for Harmonic Analysis with the Discrete Fourier Transform*, Proceedings of the IEEE 66(1) (1978), 51--83。[R] 本轮阅读原文§III p.52、§V.C p.60及pp.60--62的端点平滑、cosine-lobe窗与移位谱核相消讨论，定位301的经典机制，不采用旁瓣最优数值。301的正Poisson背景分离、Cauchy负部上界、相位主项和同解析germ非一致性均独立重建；有限上端尾的改进不等于整个单边复变换均有二次衰减。本文具体结果的优先权仍[O]，不能从检索未命中推断新颖性。
+   https://doi.org/10.1109/PROC.1978.10837
+   https://web.mit.edu/xiphmont/Public/windows.pdf
+
 ## 使用这些来源时的边界
 
 - Deligne 已无条件证明有限域结论，但不是通过证明全部 standard conjectures；不能把 standard conjectures 的一般成立当成已知事实。

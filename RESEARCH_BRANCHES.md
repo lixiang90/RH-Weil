@@ -4,7 +4,7 @@
 
 ## 当前队列
 
-维护验收与恢复（2026-09-06）：David--Lapidus观察线、论文目录及GitHub Actions三项维护均已完成，[完整三组远程检查成功](https://github.com/lixiang90/RH-Weil/actions/runs/33982592142)。291--295四轮周期与纯PNT包络路线已收束。当前亚纯接口周期：296--297给模型边界层，298--299将过快日程障碍传给真实候选并审计局部强输入；第3轮300闭合端点分离的全轴RH误差，并得到端点修正族的真实全谱临界常数。**本固定候选的条件日程校准到此闭合，不继续扩写RH等价预算**。下一轮只检验固定包到近碰撞包的一致性边界，再进行周期收束；不自动外推到增长谱包或L函数族。289仍观察；`DL-AUDIT`未启动，资源门槛不变。
+维护验收与恢复（2026-09-06）：David--Lapidus观察线、论文目录及GitHub Actions三项维护均已完成，[完整三组远程检查成功](https://github.com/lixiang90/RH-Weil/actions/runs/33982592142)。291--295四轮周期与纯PNT包络路线已收束。296--301的亚纯接口四轮周期也已收束：300给出真实全谱RH条件临界渐近；301证明近碰撞相位抵消及同解析germ的边界预算非一致性。**停止扩写固定候选的RH等价日程，不自动外推增长谱包或L函数族**。下一准入任务限一轮回查289-(53)的实际带符号相关输入与参数匹配；没有独立新输入或实质削减则继续保留观察，不能靠重写表示重启同类周期。`DL-AUDIT`未启动，资源门槛不变。
 
 | ID | 角色 | 下一最小引理 | 晋级条件 | 状态 |
 |---|---|---|---|---|
@@ -15,7 +15,7 @@
 | NCE-5 | 备用线 | one-prime/one-block extension，预算增量可和 | extension 不调用完整 Weil positivity | 观察 |
 | NCE-6 | 备用线 | bounded-resolvent/negative-trace 的 ultraproduct 稳定性 | 先独立得到统一预算 `C` | 观察 |
 | NCE-7 | 非构造主线 | short-word effects 对实际 negative level sets 的 response-weighted capture | capture error共尾可和且不调用 Selberg/RH 等价输入 | degree-one universal moment route 已 sharp no-go |
-| NCE-8 | 当前主线：有限到整体的一致性边界 | 300-(50)：固定γ>0，两个临界共轭包高度差π/L，核验其联合负迹是否为o(e^-q log L)，统一1≤q≤A loglog L；先只检验这一变化模型族 | 证明或反驳固定包系数的非一致性，并明确今后族推广所缺的簇控制；不将模型结论假称实际零点间距 | 300全轴误差与真实全谱临界渐近已[C/RH]；无条件端点修正/小端点序列已[T]；停止重写日程等价预算 |
+| NCE-8 | 主线周期已收束；实际输入准入审计 | 限一轮回查289-(53)，固定A=1,a=1/4：是否有可核验的实际带符号相关估计覆盖剩余四阶预算及全部参数；先匹配范围，不换核扩写 | 得到新的独立算术输入、严格缩小剩余预算或定位具体适用障碍；否则保留观察 | 301已[T/N]闭合300-(50)，并给同germ两族相反边界行为；300真实ζ条件结果保留，禁止无簇控制的一致外推 |
 | NCE-9 | 非构造补全 | 把 finite Cauchy-translate Schur block写成 joint signed Type I/II large-sieve form | uniform finite-block budget只用 length-side数据且弱于完整 RH criterion | finite satisfiability compactness与Gram/Schur判据已完成；33 translates捕获约23% package norm |
 | MOM-1 | 四矩观察线 | 只在出现新的 actual determinant-correlation input 时恢复；不得继续增加 Möbius/divisor kernel 表示 | 新输入必须在 physical fiber 内先合并全部 divisor blocks，并直接给 `o(L^4)` global ledger | exact band/mass已闭合；cumulative、band energy、channel mass、raw pullback与 divisor separation五条候选证书均已 theorem/no-go；条件比例仍为 0.7569027 / 0.8784513 |
 | NCE-10 | 非构造补全 | 增长的 arithmetic mixed localizers 与 divisor-visible resolvent closure | 每个有限 word level 近正且 Archimedean 有界，闭包恢复 divisor | scalar fourth moments 有 65 维严格 no-go；finite-satisfiability completion 已证明 |
@@ -247,6 +247,17 @@
 - **辅助二、证据与审计 [E/T]**：六组合成核、48次MP50比较，原lag积分加解析尾对32阶展开的最大差 \(2.783\cdot10^{-39}\)，不超过显式阶乘尾；未计算实际零点或全轴Cauchy范数。脚本作者与主代理各自运行通过。全文逆向审计及仓库检查在300第11节登记；所有数值只[E]。
 - **下一最小引理与晋级条件 [O]**：只检查300-(50)的高度差π/L双包碰撞模型；必须保留两对模式、Abel权和参数一致误差。若联合负迹的对数主项消失，即给固定包渐近不能无簇条件向族外推的精确障碍；若否，记录反例并停止该猜测。此模型随L变化，不能当作固定zeta或实际L函数的零点构造。
 - **周期决策与论文归属**：本固定候选的条件日程校准闭合，停止继续改写等价预算；第4轮只做上项有限一致性测试并收束周期。300暂归独立response论文的有限化/亚纯接口部分，本轮仅Markdown、不更新PDF；外部文献定位和独立同行审查完成前不确认新颖性或Goal阶段验收。不并入四矩比例论文，不启动DL-AUDIT，无新RH/GRH、零点比例、零密度或零自由区。
+
+#### B1z 亚纯接口周期第4轮及收束：临界簇相位障碍（2026-09-06）
+
+- **主线最小引理已解 [T/N]**：[301](notes/301-cluster-phase-cancellation-and-nonuniform-divisor-families.md)验证300-(50)。两个等权共轭包间距π/L时，完整负迹至多 `e^-q(2π/q+4/(1-δ))`，统一q≥1、0<δ≤1/4；证明先合并振荡尾并保留非负Poisson背景。一般固定有限正权簇的主系数为 `4|Σm_j e^-ih_j|/[π²(1+γ²)]`，统一1≤q≤A loglogL；不把单包负部相加成等式。
+- **独立输入与Weil接口**：仅指定完整sharp--Abel核、正权、Cauchy迹、精确resolvent和周期平均，无新增素数算术输入。有限实lag候选独立满足精确Poisson等式；整数权给中心轴整多项式除子。它是显式公式型有限迹接口的模型检验，没有构造上同调/极化，亦没有证明两类配置的桥梁或数域存在性。
+- **辅助一与严格反例 [T/N]**：相干簇(0,0)和抵消簇(0,π)有相同极限除子(z²+γ²)²及同一解析germ，内部紧集误差为O_K(1/L+e^-aL)。沿q=(1/2)loglogL，前者负迹发散、后者趋零。这里不是Euler germ，也不是实际ζ反例；只排除这些定性收敛/Poisson结构决定靠界统一预算。负权与γ=0各另有明确删项反例。
+- **辅助二、文献与循环性**：六组合成核MP50复算通过，分别检查原lag、合尾、Abel误差及完整非振荡尾范数，不计算full负迹或actualζ。Harris1978原文的窗口/移位核机制已核验，不能声称相位抵消是新方法；Cauchy负迹及同germ结果的具体文献优先权未核验。证明未假设RH或所求正性；内部模型定理不升级为无条件实际零点定理。
+- **当前审计证据**：301由主代理、gap_exception_audit、midband_compute最终全文复核通过；carrier_audit独立重建双包界并审查同germ、删项反例及文献边界，均无必须修改项。目录/TeX链接检查、11项目录回归、77项注册覆盖及模拟分发检查通过；未重跑77项重型数学计算，也未将本轮新提交的远程CI声称为已通过。无数值到渐近、固定包到增长包或解析germ到Euler源的未经证明升级。
+- **四轮决策**：296--297模型边界层、298--299真实过快日程障碍与强输入审计、300真实条件校准、301族非一致性，完成一个四轮周期。晋级内部[T/N]及[C/RH]的明确结论，停止扩写同一候选的RH等价预算；不新开增长簇模型调窗线，不自动推广L函数族。
+- **下一有限任务与止损 [O]**：只对已缩小的289-(53)实际首带深右谱包预算做一轮准入审计，固定A=1,a=1/4，寻找实际带符号相关定理并逐项匹配源、物理频带、谱高度、权及四阶归一化。能给独立saving或严格缩小开放输入才启动下一周期；若只有一般计数、已有guard、合成相位或等价换表示，则保留观察并重选主线。首带闭合也不自动覆盖更高中频。
+- **论文归属和未完成项**：301属独立有限迹/配置接口障碍材料，仅Markdown，不更新PDF。DL-AUDIT未启动。真实正性、RH/GRH、记录比例、新零密度、文献新颖性、外部审查及Goal阶段验收均未由本轮解决。
 
 ### 路线 C / VIS-1：离线零点深度可见性（桥梁路线）
 
