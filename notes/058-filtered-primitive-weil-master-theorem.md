@@ -1,6 +1,7 @@
 # Filtered primitive Weil package：统一结构定理与 zeta 存在性审计
 
-文档 001 的 PLF 代数抽象了有限域 Weil 证明；文档 045–057 则从素数侧
+文档 001 的 PLF 代数给出带额外相容极化的形式纯性蕴含；
+2026-09-06 已修正其奇次星算子，有限域模型须另行验证，不能自动视为一般 Weil 证明的实例；文档 045–057 则从素数侧
 逐步构造了数域的 finite Gram、primitive Tate 消元、酉 dilation、Sobolev
 filtration 与 logarithmic-moment Hodge core。本笔记把这些结果合并成一个
 单一结构定义和主定理，并逐项回答：

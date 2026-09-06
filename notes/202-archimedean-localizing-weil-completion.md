@@ -63,8 +63,16 @@ operator system 的统一近正性与 divisor visibility 为 [O]。
 \tag{4}
 \]
 
-两矩阵维数相同、算子范数同为 \(1\)，但第一矩阵正定，第二矩阵有一个
-负特征值。任取多个直和后，负谱比例仍为 \(1/65\)。
+两矩阵维数相同，算子范数分别为 \(1\) 与 \(4/5\)，共同上界为 \(1\)；
+第一矩阵正定，第二矩阵有一个负特征值。任取多个直和后，负谱比例仍为 \(1/65\)。
+2026-09-06 勘误：旧版“范数同为 1”不成立。
+
+若要求实际范数完全相同，取
+\(\widehat H_\pm=H_\pm\oplus[1]\)。这是两个 66 维、范数同为 1 的矩阵，
+共同归一化矩为 \(\widehat m_k=(65m_k+1)/66\)，负谱比例为 \(1/66\)。
+65 维局部化证书仍针对原测度；66 维中同一多项式仍给严格负值，
+但须重新计算归一化积分，不能照搬旧常数。精确验证及影响范围见
+[306](306-quartic-boundary-and-equal-norm-corrections.md)。
 
 证明只需检查六点有理恒等式
 
@@ -116,7 +124,7 @@ operator system 的统一近正性与 divisor visibility 为 [O]。
 
 ## 3. Archimedean localizing completion [T]
 
-令 \(\mathcal A_0\) 是可数幺正 \(*\)-代数，完全由 primes、Gamma、
+令 \(\mathcal A_0\) 是具有可数 word 张成集的幺正复 \(*\)-代数，完全由 primes、Gamma、
 continuum、shift/window projection 或其他零点无关 correspondences 生成。
 令 \(Q\subset\mathcal A_{0,h}\) 为 Archimedean quadratic module：对每个
 \(a\in\mathcal A_0\)，存在 \(R_a<\infty\) 使
@@ -159,10 +167,19 @@ moments。
 
 ### 证明
 
-Archimedean 关系与 Cauchy--Schwarz 给每个 moment coordinate 一致界
-\(|L(a)|\le R_a\)。把全部 coordinates 放入紧圆盘的可数乘积。
-有限近似可满足性意味着任意有限组闭约束具有非空交；令 \(n\to\infty\)
-后，finite-intersection compactness 给一个同时满足全部精确约束的极限 \(L\)。
+2026-09-06 独立审查修正：有限近似泛函不能直接使用精确界。
+取递增约束集，逐个加入坐标 \(a\)、\(\{1,a\}\) Gram 及
+\(R_a^2-a^*a\in Q\) 的标量约束与所涉 words。矩阵不等式取 Hermitian part；
+先将泛函换为 \(\widetilde L(x)=(L(x)+\overline{L(x^*)})/2\)，不改变趋零误差。
+对 \(\epsilon=1/n\le1\)，有
+\[
+|\widetilde L(a)|^2\le(1+\epsilon)(\widetilde L(a^*a)+\epsilon)
+\le(1+\epsilon)(R_a^2+2\epsilon)\le2(R_a^2+2).
+\]
+把各坐标放入这些固定紧圆盘。第 \(j\) 步纳入前 \(j\) 组约束、误差趋零，
+未涉及坐标补为 0；可数乘积紧致性给逐坐标极限。
+每条固定线性、迹、Gram、localizer、\(h\) 和指定矩约束最终被包含，
+故极限满足全部精确约束。此时才恢复精确界 \(|L(a)|\le R_a\)。
 
 Gram 与 \(Q\)-localizer 的正性在极限下保持，所以 \(L\) 是 tracial positive
 functional。GNS 构造给
@@ -172,7 +189,7 @@ functional。GNS 构造给
  =L(p^*hp)\ge0
 \]
 
-对所有 \(p\in\mathcal A_0\) 成立。式 (7) 保证 \(\pi(h)\) 有界，故
+对所有 \(p\in\mathcal A_0\) 成立。由 quadratic module 对 \(p^*(\cdot)p\) 封闭，式 (7) 给 \(L(p^*a^*ap)\le R_a^2L(p^*p)\)，保证各 \(\pi(a)\) 有界，故
 \(\pi(h)\succeq0\)。预定 arithmetic moments 也由闭性保留。
 
 该结论与 truncated tracial moment/flat-extension 理论方向一致；参见
@@ -183,7 +200,7 @@ flat extension。
 ## 4. 失败时的有限证书 [T]
 
 若全局交为空，紧致性反面说明已有某个有限 word level 不可满足。该层是有限维
-凸可行性问题；分离定理给一个 SDP/SOS dual separator。因此该路线具有二分性：
+带坐标界的凸可行性问题；分离定理给有限分离证据。若要求可计算的 SDP/SOS 证书，仍须给该层编码、对偶性和精度条件，不能仅由紧致性声称已有可运行证书。因此该路线具有二分性：
 
 - 可满足：非构造地产生全局 tracial representation；
 - 不可满足：在有限层产生明确的 arithmetic obstruction。
@@ -237,4 +254,3 @@ operator system，使其 mixed localizer 正性可由 Type I/II、Gamma 与 cont
 
 审计脚本 scripts/operator_fourth_localizer_audit.py 用精确有理数验证
 式 (3)--(6)。
-

@@ -8,9 +8,11 @@ Mellin coherence 允许为每个假设的 divisor point 显式构造一个
 compact-frequency dual functional；其 dual norm 只有 `exp(O(r_X))`，而其
 算术取值的 Mellin transform 在该 divisor point 有真正的 pole。
 
-因此当 `r_X=o(logX)` 时，zeta adaptive Sobolev Gram 的 FPW4b 可无条件
+因此当正整数列 `r_X>=1` 满足 `r_X=o(logX)` 时，zeta adaptive Sobolev Gram 的 FPW4b 可无条件
 建立。仍未证明的是 actual arithmetic tightness；所以这里修复的是结构
 定理的 separation 步骤，不是 RH。
+
+2026-09-06 有限性补充：以下所有 Sobolev 阶数均为正整数，变化阶数也保持 `r_X>=1`。仅有 `r_X=o(logX)` 会容许 `r_X=0`，此时非零有限指数和的全轴平方积分发散；原先的 dual 估计不能把该无穷量称为有限 Gram 能量。
 
 ## 1. Mellin pole 强迫点值幂次增长
 
@@ -73,7 +75,7 @@ Cauchy--Schwarz，就有
 
 `                         *exp[-itau log(n/X)]`,   (5)
 
-以及 order-`r` 正 Hodge form
+以及 order-`r` 正 Hodge form，其中统一要求整数 `r>=1`
 
 `Q_(X,r)(x)=(1/(2pi))int_R |F_(X,x)(tau)|^2`
 
@@ -199,7 +201,7 @@ pole。式 (6) 正是文档 055 的 `mathcal H_(r_X)(X)`（global phase 不改�
 
 ### 推论 ACN（adaptive Sobolev FPW4b for zeta）[U]
 
-对任意整数列 `r_X=o(logX)` 和任意非平凡零点 `rho=beta+igamma`，存在
+对任意正整数列 `r_X>=1` 且 `r_X=o(logX)` 和任意非平凡零点 `rho=beta+igamma`，存在
 显式 compact-frequency dual functionals 满足式 (19)--(21)，特别是
 
 `limsup_(X->infinity)`

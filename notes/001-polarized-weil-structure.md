@@ -32,7 +32,7 @@
 
 固定实数 `q>1` 和整数 `d>=0`。一个 **PLF 代数**（本笔记的术语）由以下数据组成：
 
-- 有限维分次复交换代数 `H = direct_sum H^n`，只在 `0<=n<=2d` 非零；
+- 有限维分次交换复代数 `H = direct_sum H^n`，齐次元素满足 `xy=(-1)^(deg x deg y)yx`，只在 `0<=n<=2d` 非零；
 - 反线性代数对合 `x -> bar(x)`；
 - 顶次迹 `tau: H^(2d) -> C`，乘法配对 `H^n x H^(2d-n) -> C` 非退化；
 - 一个实的 Lefschetz 元 `L in H^2`，对 `n<=d`，`L^(d-n):H^n -> H^(2d-n)` 是同构；
@@ -43,16 +43,16 @@
   
   `P^a = ker(L^(d-a+1):H^a -> H^(2d-a+2))`,
   
-  则每个齐次元素是若干 `L^r u`（`u in P^a`）之和。选择非零实常数 `c_(a,r)`，定义
+  则每个齐次元素是若干 `L^r u`（`u in P^a`）之和。另给可逆复线性 primitive 极化算子 `J_a:P^a->P^a`，要求与实结构和 `F` 交换。选择非零实常数 `c_(a,r)`，定义
   
-  `S_n(L^r u)=c_(a,r)L^(d-a-r)u`, 其中 `n=a+2r`；
+  `S_n(L^r u)=c_(a,r)L^(d-a-r)J_a(u)`, 其中 `n=a+2r`；
 - 对每个 `n`，存在模为 `1` 的常数 `epsilon_n`，使
   
   `h_n(x,y)=epsilon_n tau(x S_n(bar(y)))`
   
   是 `H^n` 上的正定 Hermite 内积。
 
-最后一条是抽象的 Hodge–Riemann 正性。常数和相位吸收通常的 Koszul 符号、阶乘与 Hodge 星号约定；下面的谱论只用到它的正定性以及 `S_n` 对 primitive 分解的形式。
+最后一条是抽象的 Hodge–Riemann 正性。常数和相位不能代替奇次的极化算子。2026-09-06 修正：旧版等价于令 `J_a=I`，对非零奇次 primitive 实类 `u` 有 `u^2=0`，于是 `h_a(u,u)=0`，正亏格曲线不能实例化旧定义。`J_a` 的正性与 Frobenius 相容性现在是额外且必须独立验证的输入。函数域 degree/Rosati 基准见 [307](307-odd-polarization-and-elliptic-degree-benchmark.md)。
 
 ### 定理 B（广义 Weil 结构定理，有限维版）
 
@@ -68,11 +68,11 @@
 
 `L^(d-a+1)F(u)=q^(-(d-a+1))F(L^(d-a+1)u)=0`。
 
-取 `x=L^r u in H^n`，其中 `u in P^a` 且 `n=a+2r`。直接计算：
+取 `x=L^r u in H^n`，其中 `u in P^a` 且 `n=a+2r`。使用 `J_a F=F J_a` 直接计算：
 
-`S_n F(x)=q^r c_(a,r)L^(d-a-r)F(u)`，
+`S_n F(x)=q^r c_(a,r)L^(d-a-r)J_a(F(u))`，
 
-`F S_n(x)=q^(d-a-r)c_(a,r)L^(d-a-r)F(u)`。
+`F S_n(x)=q^(d-a-r)c_(a,r)L^(d-a-r)J_a(F(u))`。
 
 因为 `a+2r=n`，得到关键交换式
 
@@ -92,7 +92,7 @@ h_n(Fx,Fy)
 ### 哪条公理真正做了工作？
 
 - 迹公式把 zeta 函数变成 `F` 的特征行列式；
-- Poincare 对偶和 Hard Lefschetz 构造 `S_n`；
+- Poincare 对偶、Hard Lefschetz 与额外的 primitive 极化算子共同构造 `S_n`；
 - `F(L)=qL` 算出缩放指数恰好是 `n`；
 - **Hodge–Riemann 正性**把形式变成 Hilbert 空间内积，从而把“谱关于圆周对称”加强为“谱就在圆周上”。
 

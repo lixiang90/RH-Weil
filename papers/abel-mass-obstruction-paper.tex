@@ -19,14 +19,14 @@ pdfauthor={RH--Weil research project}}
 \DeclareMathOperator{\supp}{supp}
 \title{Mass-only obstructions for Abel-weighted Brownian responses}
 \author{RH--Weil research project}
-\date{September 5, 2026\\[3pt]\small Research draft; literature-priority audit pending}
+\date{September 6, 2026\\[3pt]\small Internally audited reconstruction; no priority claim}
 \begin{document}
 \maketitle
 \begin{abstract}
 We study a two-channel Brownian response built from the actual
 von Mangoldt coefficients and a matched continuous Abel source.
 For every fixed \(0<\sigma<1\), every sufficiently large real \(Y\),
-and every finite common cutoff \(N\ge Y\), we prove
+and every finite common integer cutoff \(N\ge Y\), we prove
 \(J_4(Y,N)\gg_\sigma Y^{-3}\log Y\).
 The contribution of a single frequency band of size comparable to
 \(Y\) already gives this bound. The proof retains the mass-centering
@@ -39,8 +39,8 @@ a self-contained Landau argument, supplies arbitrarily large mass
 zeros whenever the Riemann zeta function has a zero to the right
 of \(\Re s=\sigma\). Truncating at those scales leaves a
 small mass discrepancy but a polynomially large response.
-Under this zero hypothesis, for continuous nondecreasing cutoff
-functions a signed PNT tail
+Under this zero hypothesis, for cutoff rules \(N=\lfloor\Phi(Y)\rfloor\)
+with \(\Phi\) eventually continuous and nondecreasing, a signed PNT tail
 estimate excludes \(J_4=O(|\mu|^\kappa)\) whenever
 \(N/Y\ge(3/\kappa)\log Y-b\sqrt{\log Y}\), where
 \(0\le b<0.8476836\). In particular, the quartic budget fails for
@@ -275,8 +275,11 @@ Hence \(c\ge\Re\rho-\sigma>0\).
 Lemma~\ref{lem:landau} now contradicts holomorphy at the positive
 real point \(c\). Apply the same argument to \(-M_\infty\) to
 exclude eventual nonpositivity.
-The mass is real analytic for \(Y>0\), by locally dominated
-differentiation of its defining sums and integrals. The intermediate
+Set \(z=1/Y\). On each compact subset of \(\Re z>0\), the defining
+sum and integral are locally uniformly dominated by exponential
+decay in their respective variables. They therefore define a
+holomorphic function of \(z\); its restriction gives real analyticity
+in \(Y>0\). The intermediate
 value theorem supplies the stated zeros.
 \end{proof}
 
@@ -629,7 +632,9 @@ No limiting assertion for infinite \(N\) is needed.
 \end{proof}
 
 \begin{corollary}\label{cor:massfloor}
-On any actual schedule with \(M\ne0\), the budget \(J_4\le C\mu^4\)
+Fix \(0<\sigma<1\). On any sequence \(Y_j\to\infty\) with finite
+integer cutoffs \(N_j\ge Y_j\) and \(M(Y_j,N_j)\ne0\),
+the budget \(J_4\le C\mu^4\) with a fixed \(C\) eventually
 requires
 \[
  |M|\ge c_{\sigma,C}Y^{1/4-\sigma}(\log Y)^{1/4}.
@@ -762,9 +767,11 @@ The implication to RH at the central parameter is necessary, not
 an equivalence established here.
 
 The elementary baseline uses the classical Euler identity, analytic
-continuation of zeta, existence of a critical-line zero, and Bertrand's
+continuation of zeta, existence of a critical-line zero
+\cite{Hardy,DLMF}, and Bertrand's
 theorem, but no PNT error estimate. The stronger mesoscopic floor
-additionally uses qualitative PNT and the local-gap mean-value theorem;
+additionally uses qualitative PNT (also a consequence of \cite{FKS})
+and the local-gap mean-value theorem;
 the logarithmic cutoff extension uses the quantitative PNT stated above.
 None of these inputs assumes the location of unknown zeros.
 For other \(L\)-functions, positive real zeros or complex coefficients
@@ -776,10 +783,16 @@ The accompanying exact script
 convolution coefficients and integer separation using rational
 arithmetic. The numerical script
 \path{scripts/abel_mass_discrepancy_probe.py} checks bounded actual
-Abel samples using numpy and mpmath. All samples at
+Abel samples using numpy and mpmath. The command
+\begin{quote}\ttfamily\small
+python scripts/abel\_mass\_discrepancy\_probe.py --tail-factor 40 --skip-e1
+\end{quote}
+uses \(N=40Y\), not the script's default \(25Y\) or the main
+\(\lfloor Y(\log Y)^2\rfloor\) schedule. All 48 samples at
 \(\sigma=1/4,1/2,3/4\), \(Y=2^3,\ldots,2^{18}\) were negative.
 This neither contradicts eventual oscillation nor estimates its first
 occurrence. The computations are not inputs to the asymptotic proofs.
+The recorded environment is Python 3.14, numpy 2.5.2, mpmath 1.3.0.
 On the Windows test platform, numpy longdouble has the same
 52 explicit mantissa bits as binary64. The printed tail majorants
 do not include floating-point coefficient or summation errors and
@@ -793,9 +806,22 @@ channels, computes the full Brownian denominator independently, and
 checks finite frequency bands at selected dyadic cutoffs.
 These floating-point checks, including a separate 50-digit small
 case, establish no asymptotic budget or dyadic counterexample.
-The literature priority of their combination remains to be assessed.
+The independent review, objection resolutions, source comparison and
+exact reproduction commands are archived in research note 308 and
+\path{reviews/2026-09-06/}. We classify this manuscript as an internally
+audited technical reconstruction of a specific response obstruction.
+The analytic ingredients are classical; the literature search did not
+establish priority for their combination, and no originality or
+new zero-proportion record is claimed.
 
 \begin{thebibliography}{9}
+\bibitem{Hardy}
+G.~H. Hardy,
+Sur les z\'eros de la fonction \(\zeta(s)\) de Riemann,
+\emph{C. R. Acad. Sci. Paris} \textbf{158} (1914), 1012--1014.
+Original volume, printed pp.~1012--1014:
+\url{https://gallica.bnf.fr/ark:/12148/bpt6k3111d/f1014}.
+
 \bibitem{DLMF}
 F.~W.~J. Olver et al., eds.,
 \emph{NIST Digital Library of Mathematical Functions},
@@ -812,7 +838,7 @@ Beweis eines Satzes von Tschebyschef,
 K.~Mahatab and A.~Mukhopadhyay,
 \emph{Measure Theoretic Aspects of Oscillations of Error Terms},
 arXiv:1512.03144v4 (2018), Theorem 3.1.
-\url{https://arxiv.org/abs/1512.03144}.
+\url{https://arxiv.org/abs/1512.03144v4}.
 
 \bibitem{MV}
 H.~L. Montgomery and R.~C. Vaughan,

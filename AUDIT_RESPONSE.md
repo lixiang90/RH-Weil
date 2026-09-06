@@ -5,6 +5,8 @@
 
 本文件记录已经落地的修改、仍属开放的数学输入，以及暂缓的工程事项。它不是对审计意见的反驳，也不是 RH/GRH 证明声明。
 
+2026-09-06 后续修订：下表是 9 月 1 日的历史记录。当前论文采用 GOAL 的 [T/R/C/E/N/O]；旧 [U] 对应已证蕴含，旧 [E] 的 RH 强度现单列，旧 [N] 浮点诊断现标 [E]，旧 [R] 开放框架现标 [O]。PLF 已进一步补入相容 primitive 极化算子，四矩边界与同范数例子见 [306](notes/306-quartic-boundary-and-equal-norm-corrections.md)，函数域基准及 Sobolev 修正见 [307](notes/307-odd-polarization-and-elliptic-degree-benchmark.md)。历史表不再作为这些问题已完全处理的当前依据。
+
 ## 已完成的数学整改
 
 | 审计项 | 调整 | 当前边界 |

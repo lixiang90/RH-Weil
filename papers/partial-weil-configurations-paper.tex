@@ -37,11 +37,12 @@
 几乎就是原问题本身。本文研究较弱而仍保留 Weil 几何的目标：有限压缩只需具有
 函数方程给出的符号块、正确的一阶迹以及可控的二阶或高阶谱矩。我们定义
 \emph{部分 Weil 配置}，从有限维 rank--trace 不等式推出稳健的抽象比例定理：
-若归一化迹至少为 $\tau$，Hilbert--Schmidt 二阶矩至多为 $R$，则中心线上简单对象
+在相应边界误差为 $o(N)$ 时，若归一化迹至少为 $\tau$，Hilbert--Schmidt 二阶矩至多为 $R$，则中心线上简单对象
 的比例至少为 $4\tau-2-R$，互异对象的比例至少为 $(4\tau-R-1)/2$。
 
 本文再给出两种升级机制。精确四矩 rank--trace--inertia 证书把 sine-kernel
-矩数据对应的简单零点比例从 Christoffel 层级的 $13/18$ 提高到 $16/21$；
+矩数据对应的条件简单零点比例从 Christoffel 层级的 $13/18$ 提高到 $16/21$，
+前提包括维数与迹归一化、中心矩极限和 $E_1=o(N)$；
 quadratic-channel Gram--Schur 分解则把所需四矩改写成背景、线性素数项和
 二次素数项的有符号三通道账本。进一步，本文推导真实 Gabor 核的精确四循环
 恒等式以及任意偶窗的配对对角泛函 $D_{22}(\psi)$；Montgomery--Taylor 窗给
@@ -60,28 +61,33 @@ alternating family 仍是独立的 Farey 硬通道。
 这解释了为什么二阶矩足以证明正比例、却不能单独排除稀疏的离线零点。
 
 Weil 显式公式和函数方程已经构造数域上的矩阵及符号块；当前素数侧二阶矩给出
-Riemann zeta 与本原 Dirichlet $L$ 函数的 $0.67250\ldots$ 简单中心线比例。
+Riemann zeta 与本原 Dirichlet $L$ 函数的历史 $0.67250\ldots$ 简单中心线比例。
 进一步改进不必先证明完整四矩渐近：在平窗二矩下，只需把中心四矩一侧压到
-$0.3275499\ldots$ 以下。本文把这一目标进一步分成 $2+2,3+1,4+0$ 素数共振族
+$0.3275499\ldots$ 以下即可超过该历史基线；更高公开候选须另作比较。
+本文把这一目标进一步分成 $2+2,3+1,4+0$ 素数共振族
 和背景/taper/Gamma 余项的净预算。弱紧致性和凸分离可把“所有有限问题一致可解”
 提升为非构造的全局响应，但不能凭空产生所需的一致算术预算。
 本文进一步把 Archimedean 背景约化为零频 Toeplitz 主部，并用判别式一致的
-shifted-sieve 上界排空全部非零 mixed frequencies。因而每个长度
+shifted-sieve 上界排空全部非零 mixed frequencies。在额外的 pure-prime
+全范围有符号四阶预算成立这一未证前件下，每个长度
 $X/\sqrt{\log X}$ 的高度窗都含有一个 centered fourth trace 受确定性对角常数
 控制的点；Montgomery--Taylor 窗对应常数为 $0.2525089687\ldots$。本文证明
 moving-start zero-block transfer：起点偏移 $T/\sqrt{\log T}$ 只改变 $o(N)$
 个零点，故相对稠密的好高度足以传回固定 dyadic 与累计计数。形式代入四矩惯性
 证书给简单/互异比例 $0.7569027\ldots/0.8784513\ldots$；这两个记录级数值仍
-标为条件性，因为 prime-side 全链的独立逆向审计尚未结束。当前已通过的逆审计
+标为条件性：fixed-power high-product 的实际合并有符号四阶预算仍未证明，
+其他 prime-side 依赖也须按范围继续复核。当前已通过的逆审计
 包括 Bettin--Chandee/Henriot 外部输入及十二条 cyclic paired paths 的常数重建。
 \end{abstract}
 
 \paragraph{结论状态。}
 本文中的有限维线性代数定理均为无条件结论；应用到 zeta 的
-$0.67250\ldots$ 数值是对 Alpöge--Furman 最新结果的结构化重述，而不是新的纪录。
+$0.67250\ldots$ 数值是对 Alpöge--Furman 基线的结构化重述，而不是新的纪录。
 高阶矩、深度可见性及 Brownian--Vaughan 响应与 zeta 的统一估计被标为待证输入。
-本文给出的 $0.7569027\ldots$ 与 $0.8784513\ldots$ 仅是已证结构蕴含在尚待
-完整逆审计的 fourth-trace 前件下的条件实例，不作为新的无条件纪录。
+本文给出的 $0.7569027\ldots$ 与 $0.8784513\ldots$ 仅是已证结构蕴含在尚未
+证明的全范围 fourth-trace 前件下的条件实例，不作为新的无条件纪录。
+2026-09-06 的公开后续候选、版本与核查边界见笔记 305 及文献库；
+本文的旧阈值不表示全部公开前沿。
 
 \section{问题的放宽仍应保留 Weil 结构}
 
@@ -288,14 +294,14 @@ $2n_+(G)\le2(s+b)\le N+E_1+s$。代入即可。
 \end{proof}
 
 \begin{corollary}[极限谱版本]
-设经验谱测度 $\mu_T=d_T^{-1}\sum_j\delta_{\lambda_j(G_T)}$
+设 $N_T\to\infty$、$d_T/N_T\to\alpha<\infty$，经验谱测度 $\mu_T=d_T^{-1}\sum_j\delta_{\lambda_j(G_T)}$
 弱收敛到支撑在 $[-B,B]$ 的概率测度 $\mu$，且所有 $G_T$ 的谱统一落在该区间。
 则对每个满足定理 \ref{thm:poly} 条件的 $p$，
 \[
  \liminf\frac{s_T}{N_T}
- \ge2\frac{d_T}{N_T}\int p\,d\mu-1-\limsup\frac{E_{1,T}}{N_T},
+ \ge2\alpha\int p\,d\mu-1-\limsup\frac{E_{1,T}}{N_T},
 \quad
- \liminf\frac{D_T}{N_T}\ge\frac{d_T}{N_T}\int p\,d\mu.
+ \liminf\frac{D_T}{N_T}\ge\alpha\int p\,d\mu.
 \]
 \end{corollary}
 
@@ -324,92 +330,154 @@ $n_+(G)/N\ge1-\Lambda_2(0)$、$\Lambda_2(0)=5/36$，
 纳入本框架；该线性代数部分可独立核验，但 zeta 的四矩算术假设仍是条件性的。
 
 \begin{lemma}[谱删除账本]\label{lem:deletion}
-设 $A$ 的特征值为 $\lambda_1\ge\cdots\ge\lambda_d$。存在
+设 $A$ 的特征值为 $\lambda_1\ge\cdots\ge\lambda_d$，$r,t,b\ge0$，记整数预算 $b_0=\min(d,\lfloor b\rfloor)$。存在
 $P\succeq0$ 使
 \[
  \rank P\le r,\qquad \tr P\le t,\qquad n_+(A-P)\le b
 \]
 当且仅当
 \[
- \#\{i>b:\lambda_i>0\}\le r,\qquad
- \sum_{\substack{i>b\\\lambda_i>0}}\lambda_i\le t.
+ \#\{i>b_0:\lambda_i>0\}\le r,\qquad
+ \sum_{\substack{i>b_0\\\lambda_i>0}}\lambda_i\le t.
 \]
 \end{lemma}
 
 \begin{proof}
-必要性来自 Weyl 不等式
-$\lambda_{i+b}(A)\le\lambda_i(P)+\lambda_{b+1}(A-P)\le\lambda_i(P)$，
+当 $b_0=d$ 时两边均平凡，取 $P=0$ 即可。其余情形的必要性来自 Weyl 不等式
+$\lambda_{i+b_0}(A)\le\lambda_i(P)+\lambda_{b_0+1}(A-P)\le\lambda_i(P)$，
 再对正的左侧求和。反之，在 $A$ 的特征基中令
-$P=\sum_{i>b,\,\lambda_i>0}\lambda_i v_iv_i^*$ 即可。
+$P=\sum_{i>b_0,\,\lambda_i>0}\lambda_i v_iv_i^*$ 即可。
 \end{proof}
 
 引理说明归一化谱测度可分成三部分：至多质量 $b/N$ 的删除正谱
 $\nu_d$；质量及一阶矩均至多 $s/N$ 的可覆盖正谱 $\nu_c$；
 以及支撑在 $(-\infty,0]$ 的余项。
 
-\begin{theorem}[精确四矩 rank--inertia 证书 {\cite{Notik26}}]
+\begin{lemma}[保留边界与归一化误差的四次证书]\label{lem:quartic-finite}
+对任意 $N>0$ 的有限部分 Weil 配置，记
+\[
+ m_k=N^{-1}\tr G^k,\quad
+ v=N^{-1}\tr(G-I)^2,\quad w=N^{-1}\tr(G-I)^4,\quad
+ e=E_1/N .
+\]
+固定 $-3\le\sigma<3/4$，令 $a=1-\sigma$，并设
+\[
+ r_\sigma=1-\frac{\sigma^2-2v\sigma+w}{a^2},\qquad
+ \Delta_\sigma=(1-2\sigma)(m_0-1)+4a(m_1-1).
+\]
+则有精确有限维不等式
+\begin{align}
+ \frac{s}{N}&\ge r_\sigma+\frac{\Delta_\sigma-4ae}{a^2},
+ \label{eq:quartic-finite-s}\\
+ \frac{D}{N}&\ge\frac{1+r_\sigma}{2}
+ +\frac{\Delta_\sigma-(3+\sigma)ae}{2a^2}.
+ \label{eq:quartic-finite-d}
+\end{align}
+负的右端可用 $0$ 替代。这里不要求 $E_0=o(N)$。
+\end{lemma}
+
+\begin{proof}
+取
+\[
+ p_\sigma(x)=a^2+4ax-\big((x-1)^2-\sigma\big)^2.
+\]
+其三条全实轴证书为
+\[
+ p_\sigma(x)=-x^4+4x^3-(6-2\sigma)x^2+8ax\le0
+ \quad(x\le0),
+\]
+\[
+ p_\sigma(x)\le a^2+4ax,\qquad
+ 8a-p_\sigma(x)=(x-2)^2(x^2+2a)\ge0.
+\]
+谱删除引理（非整数 $b$ 时先用 $\lfloor b\rfloor$）把正谱分成至多
+$b$ 个可删除特征值和质量、一阶矩均至多 $s$ 的其余正谱。
+因而 $L=N^{-1}\tr p_\sigma(G)$ 满足
+\[
+ L\le a(5-\sigma)S+8aB,\qquad S=s/N,\quad B=b/N.
+\]
+由 $S+2B\le1+e$ 得
+\[
+ L\le a^2S+4a(1+e).
+\]
+另一方面，写 $t=S+B$，有 $B\le1+e-t$。因 $3+\sigma\ge0$，
+\[
+ L\le a(5-\sigma)t+a(3+\sigma)B
+ \le2a^2t+a(3+\sigma)(1+e).
+\]
+最后
+\[
+ L=a(5-\sigma)-(\sigma^2-2v\sigma+w)+\Delta_\sigma.
+\]
+分别整理前两式，再用 $D/N\ge t$ 即得结论。互异比例由完整账本直接推出，
+不使用一般不成立的 $D\ge(N+s)/2$。
+\end{proof}
+
+\begin{theorem}[四矩渐近 rank--inertia 证书 {\cite{Notik26}}]
 \label{thm:quartic}
-假设 $m_0=m_1=1+o(1)$，令中心矩
+设一列有限部分 Weil 配置满足
 \[
- b_2=m_2-1,\qquad b_4=m_4-4m_3+6m_2-3.
+ N_T\to\infty,\quad E_{1,T}/N_T\to0,\quad m_{0,T}\to1,\quad m_{1,T}\to1,
 \]
-若
+且真正的中心矩具有有限极限
 \[
- 1-2b_2+b_4>0,\qquad
- \sigma_*=\frac{b_2-b_4}{1-b_2}<\frac34,
+ N_T^{-1}\tr(G_T-I)^2\to b_2,\qquad
+ N_T^{-1}\tr(G_T-I)^4\to b_4.
 \]
-则部分 Weil 配置满足
+要求
 \[
- \liminf\frac{s}{N}\ge
- R(b_2,b_4):=\frac{(1-b_2)^2}{1-2b_2+b_4},
-\qquad
- \liminf\frac{D}{N}\ge\frac{1+R(b_2,b_4)}2.
+ 0\le b_2<1,\quad 1-2b_2+b_4>0,\qquad
+ \sigma_*=\frac{b_2-b_4}{1-b_2}<\frac34 .
 \]
+则
+\[
+ \liminf_T\frac{s_T}{N_T}\ge
+ R(b_2,b_4):=\frac{(1-b_2)^2}{1-2b_2+b_4},\qquad
+ \liminf_T\frac{D_T}{N_T}\ge\frac{1+R(b_2,b_4)}2.
+\]
+若原始矩均收敛，可等价计算 $b_2=\lim(m_2-1)$、
+$b_4=\lim(m_4-4m_3+6m_2-3)$；定理本身不要求单独知道三阶矩。
 \end{theorem}
 
-\begin{proof}[证书要点]
-对 $\theta>0,\sigma<3/4$ 令
+\begin{proof}
+若 $b_4\le b_2$，则 $0\le\sigma_*<3/4$。在有限证书中固定取
+$\sigma=\sigma_*$ 并令 $T\to\infty$，两项归一化误差及边界误差均消失，
+且 $r_{\sigma_*}=R(b_2,b_4)$。
+若 $b_4>b_2$，则 $R(b_2,b_4)<1-b_2$。rank--trace 引理与
+$\tr P\le s$ 给 $3s+4b\ge4\tr G-\tr G^2$。联立边界账本直接得到
 \[
- P_{\theta,\sigma}(x)
- =\theta(1-\sigma)^2+4\theta(1-\sigma)x
- -\theta\big((x-1)^2-\sigma\big)^2.
+ s\ge4\tr G-\tr G^2-2N-2E_1,\qquad
+ D\ge\frac{4\tr G-\tr G^2-N-E_1}{2}.
 \]
-写 $u=\theta(1-\sigma)$。直接求导和配方给
-\[
- P_{\theta,\sigma}(x)\le
- \begin{cases}
- 0,&x\le0,\\
- u(1-\sigma)+4ux,&x\in\mathbb R,
- \end{cases}
- \qquad
- P_{\theta,\sigma}(x)\le8u.
-\]
-将其分别积分于余项、$\nu_c$ 与 $\nu_d$，得到
-\[
- \int P_{\theta,\sigma}\,d\nu
- \le u(5-\sigma)\frac{s}{N}+8u\frac{b}{N}.
-\]
-另一方面展开四次式，并用 $m_0=m_1=1$，
-\[
- \int P_{\theta,\sigma}\,d\nu
- =u(5-\sigma)-\theta(\sigma^2-2b_2\sigma+b_4).
-\]
-再用 $s+2b\le N+o(N)$，可得
-\[
- (1-\sigma)^2\left(1-\frac{s}{N}\right)
- \le\sigma^2-2b_2\sigma+b_4+o(1).
-\]
-在 $\sigma=\sigma_*$ 处优化即得第一个结论。对
-$1-s/N-b/N$ 作同一估计并使用 $b/N\le1-s/N-b/N$，得到第二个结论。
+取极限给更强的 $1-b_2$、$1-b_2/2$。此分情况避免在
+$\sigma_*<-3$ 时错误地反向使用 $B\le1+e-t$。
+\end{proof}
+
+\begin{remark}[2026-09-06 勘误边界]
+旧陈述漏写 $E_1=o(N)$。取 $G=Q=I_d,P=0,N=b=D=d,s=0,E_0=E_1=d$，
+所有原始矩均为 $1$，旧式误给 $s/N\ge1$，实际为 $0$。
+有限证书保留 $e=1$ 后不产生矛盾；零点应用必须独立证明小边界误差。
+\end{remark}
+
+\begin{corollary}[中心四矩的一侧版本]\label{cor:quartic-upper}
+保留定理 \ref{thm:quartic} 的配置、归一化和小边界条件，设中心二矩趋于
+$v$，而中心四矩仅满足 $\limsup N_T^{-1}\tr(G_T-I)^4\le B_4$。
+若 $0\le v<1$、$1-2v+B_4>0$ 和 $(v-B_4)/(1-v)<3/4$，
+则该定理的两个下界仍成立，只需用 $R(v,B_4)$ 替代 $R(b_2,b_4)$。
+\end{corollary}
+
+\begin{proof}
+若 $B_4\le v$，在有限证书中固定取 $\sigma=(v-B_4)/(1-v)$，
+第四矩的系数为负，故一侧上界已足够。若 $B_4>v$，使用证明中的二阶账本。
 \end{proof}
 
 \begin{corollary}[同一四矩数据的更强条件比例]
-若
+在定理 \ref{thm:quartic} 的配置、归一化和小边界误差条件下，若
 $(m_1,m_2,m_3,m_4)=(1,\frac43,2,\frac{13}{4})+o(1)$，则
 $b_2=1/3,b_4=1/4$，故
 \[
- \frac{s}{N}\ge\frac{16}{21}=0.761904\ldots,\qquad
- \frac{D}{N}\ge\frac{37}{42}=0.880952\ldots.
+ \liminf_T\frac{s_T}{N_T}\ge\frac{16}{21}=0.761904\ldots,\qquad
+ \liminf_T\frac{D_T}{N_T}\ge\frac{37}{42}=0.880952\ldots.
 \]
 一个匹配的极端谱测度在
 $1\pm1/(2\sqrt2)$ 各放质量 $8/21$，在 $2$ 和 $0$ 各放质量
@@ -417,7 +485,7 @@ $5/42$；它具有上述前四矩。因此在这些矩与账本内，$16/21$ 是
 \end{corollary}
 
 这使最值得优先尝试的算术目标发生变化。对平窗 $b_2=1/3$，若只想严格改善
-当前无条件常数
+历史 MT 无条件常数
 \[
  \kappa=2-\left(\frac12+\frac1{\sqrt2}\cot\frac1{\sqrt2}\right),
 \]
@@ -825,7 +893,7 @@ $b_4=D_{22}(\psi_{\rm MT})+\mathcal R_{\rm net}$，
 已经足以严格改善该窗口自己的二矩比例。数值只评估显式窗口泛函；
 它不是对 $\mathcal R_{\rm net}$ 的估计。
 
-更一般地，记当前纪录为 $\kappa$。给定窗口的二阶中心矩 $b_2$ 时，
+更一般地，记已明确来源和核查状态的比较目标为 $\kappa$。给定窗口的二阶中心矩 $b_2$ 时，
 四矩证书超过 $\kappa$ 的一侧阈值是
 \[
  b_4<B_\kappa(b_2)
@@ -1347,7 +1415,7 @@ good sets 后错误地假设其交非空。
 \]
 这是定理 \ref{thm:mixed-closure} 的 finite fourth-trace constant。下面先闭合
 relative-dense good heights 到固定零点块的量词接口，再明确记录级实例仍依赖的
-prime-side 逆向审计。
+尚未证明的全范围 prime-side 有符号预算及其依赖复核。
 
 \begin{theorem}[相对稠密起点的零点块传递]\label{thm:moving-block}
 令 $H_T=o(T)$、$B_T=T+O(1/\log T)$，并令
@@ -1376,16 +1444,16 @@ dyadic blocks 使用同一 $c-o(1)$，低端有限部分为总零点数的 $o(1)
 
 对 AF Gabor grid，$H_T=T/\sqrt{\log T}$ 且
 $B_T=2\pi\lfloor LT/(2\pi)\rfloor/L=T+O(1/L)$，故定理适用。若定理
-\ref{thm:mixed-closure} 的前件经完整逆审计成立，则 AF 的无条件中心二矩
+\ref{thm:mixed-closure} 所需的全范围 pure-prime 有符号预算得到证明，则 AF 的无条件中心二矩
 \[
  v_{\rm MT}=-\frac12+\frac1{\sqrt2}\cot\frac1{\sqrt2}
  =0.327499296320588\ldots
 \]
-与 \eqref{eq:mt-centered-fourth} 代入定理 \ref{thm:quartic}，给出条件性推论
+与 \eqref{eq:mt-centered-fourth} 代入一侧推论 \ref{cor:quartic-upper}，并使用同一 padded 配置的 $m_0,m_1\to1$、$E_1/N\to0$，给出条件性渐近推论
 \[
- \frac{S}{N}\ge0.756902665727919\ldots,
+ \liminf_{T\to\infty}\frac{S(T,2T)}{N(T,2T)}\ge0.756902665727919\ldots,
  \qquad
- \frac{D}{N}\ge0.878451332863959\ldots.
+ \liminf_{T\to\infty}\frac{D(T,2T)}{N(T,2T)}\ge0.878451332863959\ldots.
  \label{eq:conditional-mt-quartic}
 \]
 这里不使用 $13/18$ Christoffel 数值：中心二、四矩并不决定缺失的三阶矩，
@@ -1402,10 +1470,11 @@ words 与两种 pairings 枚举十二条 raw cyclic paths，独立恢复
 $4A_++4A_-+4B$；mixed placements 独立恢复 $8C_1+4C_2$，并重算
 \eqref{eq:mt-centered-fourth}。这些检查验证外部输入、orientation 与
 normalization，但尚未替代 local Fejer energy、factor-box 跨层求和及 finite
-crossing 使用同一 frozen grid 的内部组合审计。因此
+crossing 使用同一 frozen grid 的内部组合审计。更关键的是，fixed-power high-product
+的实际合并有符号四阶响应仍缺少算术估计；已核查其他通道不填补此缺口。因此
 \eqref{eq:conditional-mt-quartic} 保持条件性。
-\begin{proposition}[严格改善当前比例的一侧账本]\label{prop:fourth-ledger}
-设 $b_2=1/3+o(1)$，并把真实 tapered 压缩的中心四矩写成
+\begin{proposition}[严格改善历史 MT 比例的一侧账本]\label{prop:fourth-ledger}
+设同一有限配置序列满足 $N\to\infty$、$m_0,m_1\to1$、$E_1/N\to0$，且 $b_2=1/3+o(1)$，并把真实 tapered 压缩的中心四矩写成
 \[
  b_4=D_{22}+O_{22}+R_{31}+R_{40}+R_{\rm bg}+o(1),
 \]
@@ -1419,15 +1488,15 @@ $4+0$ 与背景/taper/Gamma 余项。若存在 $\epsilon>0$ 和 $\delta_D$ 使
  O_{22}+R_{31}+R_{40}+R_{\rm bg}
  \le0.0608832407\ldots-\delta_D-\epsilon+o(1),
 \]
-则定理 \ref{thm:quartic} 给出严格大于当前
-$0.6725007\ldots$ 的简单中心线零点比例。
+则一侧推论 \ref{cor:quartic-upper} 给出严格大于历史
+$0.6725007\ldots$ 的简单中心线零点比例的 liminf 下界。
 \end{proposition}
 
 \begin{proof}
 两式给
 $b_4<4/(9\kappa)-1/3$。在 $b_2=1/3$ 时，
-$R(b_2,b_4)=4/[9(b_4+1/3)]>\kappa$，再应用定理
-\ref{thm:quartic}。
+$R(b_2,b_4)=4/[9(b_4+1/3)]>\kappa$，再应用一侧推论
+\ref{cor:quartic-upper}。
 \end{proof}
 
 在平窗的形式 sine 账本中，两个 alternating words 合计 $1/5$，
@@ -1436,9 +1505,7 @@ $R(b_2,b_4)=4/[9(b_4+1/3)]>\kappa$，再应用定理
 \ref{thm:mixed-closure} 已把此前分列的 alternating、adjacent、
 $3+1,4+0$、Archimedean background 与 finite crossing 归入同一个
 relative-dense centered fourth-trace certificate。定理 \ref{thm:moving-block} 已
-闭合其到全局 zero counting 的量词接口；当前唯一剩余的晋级门槛是从最终常数
-反向复核 prime-side 内部组合，特别是 Fejer cone、factor boxes、finite
-crossing 与 frozen grid 的共同原子账本。相应可执行账本分列于
+闭合其到全局 zero counting 的量词接口；实际全范围预算仍缺 fixed-power high-product 的合并有符号响应估计。其他 Fejer cone、factor boxes、finite crossing 与 frozen grid 的共同原子账本按范围继续复核。相应可执行账本分列于
 \url{scripts/mixed_background_evacuation_audit.py}、
 \url{scripts/relative_dense_zero_block_audit.py}、
 \url{scripts/external_input_reverse_audit.py} 与

@@ -3,7 +3,7 @@
 上一节的 (SP) 是 primes-only 条件，但必须进一步审计其逻辑强度。先给一个完全
 初等的 unconditional bound。
 
-\begin{theorem}[\statusU{} microscopic prefix bound]
+\begin{theorem}[\statusT{} microscopic prefix bound]
 \label{thm:micro-prefix}
 对 $N\geq2$ 与 $0<s\leq\log(3/2)$，
 \[
@@ -22,7 +22,7 @@ $O(N^2s^2)$，从而得到 (MP)。
 
 把 (MP) 代入 (SH) 可无条件删除平方根线以下的全部二参数区域。
 
-\begin{theorem}[\statusU{} sub-square-root wedge evacuation]
+\begin{theorem}[\statusT{} sub-square-root wedge evacuation]
 \label{thm:wedge-evacuation}
 固定 $0<\eta<1$，取 $\tau_T\asymp T$、$h_T\asymp T^{-1}$、
 $\beta_T\gg\log(e+T)$。对 Abel-relevant dyadic $N$，
@@ -48,7 +48,7 @@ $T\geq T_*$ 求和即得。
 剩余区域是 $N>T^{2-\eta}$，即真正的 square-root resonance wedge。更重要的
 是，试图在该区域证明 full (SP) 已经等价于 RH。
 
-\begin{theorem}[\statusE{} polylogarithmic Selberg-profile criterion]
+\begin{theorem}[\statusT{} polylogarithmic Selberg-profile criterion；与 RH 等价]
 \label{thm:profile-rh}
 RH 等价于下述命题：存在 fixed $K>0,p\geq0,C$，使全部充分大的 $N$ 与
 $0<s\leq\log^{-K}(4N)$ 满足
@@ -97,7 +97,7 @@ argument贡献 $O(Ns\log^2(3N))$。当 $s<N^{-1}$ 时直接使用 (MP)。故 (PE
 \end{proof}
 
 定理~\ref{thm:profile-rh} 修正上一节的状态：full (SP) 虽不在定义中引用 zeros，
-却是一个 \statusE{} 的 arithmetic reformulation，而不是可从经典无条件
+却是一个与 RH 等价的 arithmetic reformulation（等价性证明为 \statusT{}，实际预算为 \statusO{}），而不是可从经典无条件
 Selberg theorem调入的 input。今后的非循环路线应保留 prime/continuum/Gamma
 joint sign 或只估计 barrier layer-cake读取的负方向；若先把 $\psi-x$ 单独平方，
 就已到达 RH 等价壁垒。

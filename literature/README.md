@@ -1,6 +1,6 @@
 # RH-Weil 文献索引
 
-更新与抓取日期：2026-09-06。本批归档聚焦67.25%之后的零点比例进展及直接依赖，共15份外部原始PDF、220页；以后可继续扩展。研究判断见 [305文献审计](../notes/305-post-6725-literature-baseline-audit.md)。
+更新与抓取日期：2026-09-06。首批归档聚焦67.25%之后的零点比例进展及直接依赖（15份、220页）；GOAL 首周期补入两份 Milne 函数域背景，当前共17份外部原始PDF、510页。研究判断见 [305文献审计](../notes/305-post-6725-literature-baseline-audit.md)。
 
 PDF按来源原样保存，未重排或改写；arXiv固定版本，GitHub固定提交，Zenodo固定记录。下载、全页PDF解析和校验值核验不等于数学证明认证。manifest中的SHA-256标识本次取得的精确字节，原站同一文件名后续变化时仍可区分。
 
@@ -169,3 +169,30 @@ PDF按来源原样保存，未重排或改写；arXiv固定版本，GitHub固定
 ## 后续维护
 
 新增论文时保留作者、准确标题、发布日期、版本/提交、来源页、直链、本地文件与核查边界。不同版本使用不同文件名；源文件发生修订时更新清单和哈希，保留历史对照。引用补充文档中的新结果时，不用较早PDF代替该证明来源。原始论文版权与许可归原作者/来源方，项目自己的论文仍放在 papers/ 与 output/pdf/。
+
+### 函数域模型与极化背景（GOAL 首周期）
+
+**Milne-EC-2021 — Elliptic Curves**
+
+- 作者：J. S. Milne；版本：Second edition, World Scientific, 2021; author-hosted PDF captured 2026-09-06。
+- [本地PDF](background/milne-elliptic-curves-second-edition.pdf)（241页）；[作者来源与PDF](https://www.jmilne.org/math/Books/EC2.pdf)。
+- 状态与用途：核读 II.6.1–6.2、IV.9.1、9.4 的次数与可分核接口；经典椭圆曲线基准。对应[307 模型基准](../notes/307-odd-polarization-and-elliptic-degree-benchmark.md)。
+
+**Milne-AV-2022 — Abelian Varieties**
+
+- 作者：J. S. Milne；版本：Author revised file dated January 2, 2022; original chapter 1986; captured 2026-09-06。
+- [本地PDF](background/milne-abelian-varieties.pdf)（49页）；[作者来源与PDF](https://www.jmilne.org/math/xnotes/AVs.pdf)。
+- 状态与用途：核读 §17 正性与 §19 Frobenius 接口；一般 Rosati 背景，不认证全文。对应[307 模型基准](../notes/307-odd-polarization-and-elliptic-degree-benchmark.md)。
+
+## Abel 障碍稿直接文献（2026-09-06）
+
+| 文献／版本 | 本地 PDF | 原始来源 | 核查范围 |
+|---|---|---|---|
+| Erdős，1932，Beweis eines Satzes von Tschebyschef | [PDF](background/erdos-1932-bertrand.pdf) | [作者档案](https://users.renyi.hu/~p_erdos/1932-01.pdf) | Bertrand 定理；5 页扫描可读 |
+| Mahatab–Mukhopadhyay，1512.03144v4，2018-07-26 | [PDF](background/mahatab-mukhopadhyay-oscillations-v4.pdf) | [arXiv 固定版](https://arxiv.org/abs/1512.03144v4) | Theorem 3.1 与 Landau 方法；19 页 |
+| Montgomery–Vaughan，Hilbert’s inequality，1974 | [PDF](background/montgomery-vaughan-hilbert-1974.pdf) | [作者档案](https://personal.science.psu.edu/rcv4/personal/Publications/s2-8-1-73.pdf) | 局部间距不等式与均值应用；10 页 |
+| Fiori–Kadiri–Swidinsky，2204.02588v3，2023-05-17 | [PDF](background/fiori-kadiri-swidinsky-psi-v3.pdf) | [arXiv 固定版](https://arxiv.org/abs/2204.02588v3) | Corollary 1.4 无条件 PNT 及常数 0.8476836；26 页 |
+| Hardy，Sur les zéros de la fonction ζ(s) de Riemann，1914，158:1012–1014 | 全文 PDF 获取未成功 | [BnF 原刊页](https://gallica.bnf.fr/ark:/12148/bpt6k3111d/f1014)；[原卷档案](https://archive.org/details/ComptesRendusAcademieDesSciences0158) | 2026-09-06 BnF 网页／三页 PDF 均返回 403；保留来源，不能记为已下载 |
+
+四份新增 PDF 共 60 页，均已逐页解析；哈希、字节数、抓取时间及标题见 manifest.json。
+现共保存 21 份 PDF、570 页。下载与解析不等于完整证明认证。

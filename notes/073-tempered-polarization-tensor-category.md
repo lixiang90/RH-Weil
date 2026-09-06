@@ -241,7 +241,7 @@ visibility，上述范数下界并不成立。`□`
 
 文档 163 进一步证明：对 Mellin-coherent fixed-annulus adaptive Sobolev
 carrier，compact-frequency extractor 的 dual norm 为 `exp[O(r_X)]`；当
-`r_X=o(logX)` 时即为 `exp(o(t))`。所以 zeta 的这一具体 carrier 已严格满足
+正整数列 `r_X>=1` 满足 `r_X=o(logX)` 时即为 `exp(o(t))`。所以 zeta 的这一具体 carrier 已严格满足
 第 3 项所需的 FPW4b，而任意 filtered Gram 仍不能由定性 visibility 自动推出。
 
 注意 FPW6 只控制 actual cyclic vector 时，得到的是 divisor purity，不自动

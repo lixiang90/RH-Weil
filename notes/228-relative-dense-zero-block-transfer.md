@@ -7,8 +7,9 @@
 状态：移动 Gabor 起点对应的零点块、相对稠密端点传递、中心矩到
 rank--trace--inertia 证书的量词桥梁为 [T]；Alpöge--Furman 的零点侧
 分解、tail、trace 与二矩定理为 [R]；以笔记 227 的 fourth-trace 上界为
-前件得到的比例公式为 [T]；将其晋级为新的无条件纪录仍为 [C]，必须先对
-笔记 203--227 的 prime-side 链作独立逆向审计。当前中心矩数据不能唯一确定
+前件得到的比例公式为 [T]；实际新比例仍为 [C]：后续审查已定位
+fixed-power high-product 的合并有符号四阶算术预算尚未证明，不只是等待逆向审计。
+笔记 203--227 的其他依赖仍需按具体覆盖范围复核。当前中心矩数据不能唯一确定
 Christoffel 四矩证书为 [N]。
 
 ## 1. 审计结论
@@ -228,7 +229,19 @@ https://arxiv.org/html/2608.13637v2
 \tag{18}
 \]
 
-置 \(v=b_2(\psi)\)。笔记 197 的 quartic rank--trace--inertia 证书直接给
+2026-09-06 补齐前提：采用 [306](306-quartic-boundary-and-equal-norm-corrections.md)
+与论文中的含误差证书。除式 (15) 的维数和迹归一化外，必须有同一配置的
+\(E_{1,u}=o(N(J_u))\)，并且对选点范围一致。AF padded block 的重数账本
+在 padded count 下给 \(s+2b\le N(J_u')\)；换回 \(J_u\) 所付
+\(N(J_u'\setminus J_u)=O(\sqrt T\log T)=o(N)\) 正是这项边界误差。
+须先把证书应用于 padded 配置的 \(s=S(J_u')\)、\(D=D(J_u')\)，再用
+\[
+|S(J_u')-S(J_u)|,\ |D(J_u')-D(J_u)|\le N(J_u'\setminus J_u)=o(N).
+\]
+有限层的分子损失也必须支付，不能只调整 \(E_1\) 就把 padded 计数改名为主块计数。
+若另行修改配置或截断规则，必须重新核查，不能仅凭四矩数据删除该项。
+
+置 \(v=b_2(\psi)\)，要求 \(0\le v<1\)。笔记 197 的一侧 quartic 证书给
 
 \[
  \boxed{
@@ -322,9 +335,10 @@ https://arxiv.org/html/2608.13637v2
 1. “若笔记 227-I 的 uniform relative-dense fourth-trace bound 成立，则
    式 (27)--(28) 的 local 与 cumulative 比例成立”是本轮完整证明的 [T]；
 2. 把式 (27) 宣布为新的无条件 zeta 纪录仍标 [C]。原因不是 zero-block
-   coverage；本轮已经闭合该接口。原因是如此强的结果必须对笔记 203--227 的
-   pure-prime fourth-trace 链、Henriot specialization、finite-to-bulk
-   telescoping 和所有尺度求和作独立逆向复核。
+   coverage；本轮已经闭合该接口。2026-09-06 修订：实际合并有符号的
+   fixed-power high-product fourth-trace 预算仍是未证数学输入；
+   pure-prime、Henriot specialization、finite-to-bulk 和尺度求和的
+   其他已核查部分不能填补它。
 
 在该复核完成前，不在摘要、README 或论文标题中写“改进纪录”。
 

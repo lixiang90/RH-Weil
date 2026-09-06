@@ -37,7 +37,7 @@ def audit_degree_four_indistinguishability() -> None:
     def moments(measure: tuple[tuple[Fraction, int], ...], degree: int):
         return tuple(
             sum(weight * point**power for point, weight in measure)
-            / 65
+            / sum(weight for _, weight in measure)
             for power in range(degree + 1)
         )
 
@@ -50,6 +50,22 @@ def audit_degree_four_indistinguishability() -> None:
     )
     assert moments(positive, 4) == expected
     assert moments(indefinite, 4) == expected
+    assert max(abs(point) for point, _ in positive) == 1
+    assert max(abs(point) for point, _ in indefinite) == Fraction(4, 5)
+    assert sum(weight for point, weight in indefinite if point < 0) == 1
+
+    equal_norm_positive = positive + ((Fraction(1), 1),)
+    equal_norm_indefinite = indefinite + ((Fraction(1), 1),)
+    expected_66 = tuple((65 * value + 1) / 66 for value in expected)
+    assert expected_66 == (
+        Fraction(1), Fraction(6, 11), Fraction(19, 55),
+        Fraction(6, 25), Fraction(247, 1375),
+    )
+    for measure in (equal_norm_positive, equal_norm_indefinite):
+        assert sum(weight for _, weight in measure) == 66
+        assert max(abs(point) for point, _ in measure) == 1
+        assert moments(measure, 4) == expected_66
+    assert sum(weight for point, weight in equal_norm_indefinite if point < 0) == 1
     first_localizer_determinant = expected[1] * expected[3] - expected[2] ** 2
     assert first_localizer_determinant == Fraction(1104, 105625)
 
@@ -61,6 +77,12 @@ def audit_degree_four_indistinguishability() -> None:
         for point, weight in indefinite
     ) / 65
     assert witness == Fraction(-9, 8125)
+    witness_66 = sum(
+        weight * point * polynomial(point) ** 2
+        for point, weight in equal_norm_indefinite
+    ) / 66
+    assert witness_66 == Fraction(-6, 6875)
+    print(f"equal-norm 66-dimensional repair: moments={expected_66}, witness={witness_66}")
     print(
         "degree-four localizer no-go passed: "
         f"moments={expected}, degree-two witness={witness}"

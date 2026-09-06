@@ -52,11 +52,13 @@
 \newcommand{\cQ}{\mathcal Q}
 \newcommand{\cZ}{\mathcal Z}
 \newcommand{\cC}{\mathcal C}
-\newcommand{\statusU}{\textnormal{[U]}}
+\newcommand{\statusT}{\textnormal{[T]}}
+\newcommand{\statusU}{\statusT} % legacy TeX command name; rendered status is [T]
 \newcommand{\statusC}{\textnormal{[C]}}
 \newcommand{\statusE}{\textnormal{[E]}}
 \newcommand{\statusN}{\textnormal{[N]}}
 \newcommand{\statusR}{\textnormal{[R]}}
+\newcommand{\statusO}{\textnormal{[O]}}
 
 \title{\bfseries 从 Weil 猜想到数域中心线\\
 \large 极化、过滤 Hodge 结构与黎曼猜想的存在性审计}
@@ -79,7 +81,7 @@
 
 进一步的 quartic-capacity下界表明，上述 unscaled fourth price在 zeta shell上至少为 $TD_T^2/\log T$，故它未必是较弱输入。本文于是把 reciprocal-barrier upper bound提升到不要求对易的 finite von Neumann algebra，并用 relative continuous functional calculus对 explicit predictor作 lattice clipping。所得严格正背景仅支付 one-sided quadratic clipped residual；它既不需要 pointwise leverage，也不需要 fourth moment。
 
-非构造存在性方面，本文证明一个 Archimedean localizing completion：若每个有限 arithmetic word level 都有一致有界、渐近满足 mixed Hodge localizers 的 tracial moment functional，则 finite-intersection compactness 与 GNS 自动产生全局正表示，无需预先选择相容有限模型。与此同时，一个精确的 65 维反例表明，维数、算子范数与前四个标量迹矩即使完全相同，也不能区分正定矩阵与具有固定正比例负谱的矩阵；所以一次性的 scalar fourth-moment completion 原理上不可能推出完整 Weil 正性。
+非构造存在性方面，本文证明一个 Archimedean localizing completion：若每个有限 arithmetic word level 都有一致有界、渐近满足 mixed Hodge localizers 的 tracial moment functional，则 finite-intersection compactness 与 GNS 自动产生全局正表示，无需预先选择相容有限模型。与此同时，一个精确的 65 维同矩、共同范数上界反例及其 66 维同实际范数扩张表明，维数、算子范数与前四个标量迹矩即使完全相同，也不能区分正定矩阵与具有固定正比例负谱的矩阵；所以一次性的 scalar fourth-moment completion 原理上不可能推出完整 Weil 正性。
 
 因此，本文没有证明 RH 或 GRH；它给出的是若干已证明的结构蕴含、明确标注的条件框架、存在性边界、失败机制，以及一个缩窄到具体算术不等式的下一阶段研究议程。所有内部新结果仍有待独立同行核验。
 \end{abstract}
@@ -88,18 +90,24 @@
 
 \medskip
 \noindent\textbf{状态标签。}
-\statusU{} 表示在本文假设下无条件证明的数学蕴含；
-\statusC{} 表示需要额外、尚未对 zeta 建立的条件；
-\statusE{} 表示与 RH/GRH 等价或具有其全部强度；
-\statusN{} 表示有限浮点诊断；
-\statusR{} 表示研究框架、猜想或开放任务。
+\statusT{} 表示在列明假设下已有完整内部证明；
+\statusR{} 表示引用的外部定理；
+\statusC{} 表示实际应用依赖未证条件；
+\statusE{} 表示有限数值或符号实验；
+\statusN{} 表示严格反例或障碍；
+\statusO{} 表示开放输入或待完成审查。
+RH/GRH 等价或等强性另行写明，不用证据等级字母代替。
 “无条件”只指不使用 RH 的推导，不等于已通过外部同行审查。
 
 \tableofcontents
 
 \section{引言：问题、方法与结论边界}
 
-有限域上光滑射影簇的 zeta 函数之所以具有“正确的零点绝对值”，并非只因为函数方程。函数方程至多把一个谱点与其倒数或中心反射配对；真正把谱压到圆周上的，是 Poincar\'e 对偶、Hard Lefschetz 与 Hodge--Riemann 正性共同给出的极化。对于曲线，Weil 的 correspondence 论证也具有相同结构：迹公式负责识别 Frobenius 幂迹，Hodge 指数定理负责给出所有幂的一致平方根界。这里的历史和形式基准分别是 Deligne 的纯性定理、standard conjectures 的极化纲领以及 Kleiman 的结构整理\cite{Deligne1974,GrothendieckStandard,KleimanWeil}。
+函数方程至多把一个谱点与其倒数或中心反射配对，单靠它不能推出纯性。
+对于曲线，Weil 的 correspondence 论证由几何正性和 Frobenius 幂迹接口给出平方根界。
+对于一般光滑射影簇，标准猜想的极化纲领是一条充分结构路线；
+Deligne 的一般纯性定理不能表述为已经由本文写出的复 Hodge 内积直接证明。
+这两种理论路径须分开\cite{Deligne1974,GrothendieckStandard,KleimanWeil}。
 
 数域问题的基本困难是：每个素数处的局部 Frobenius 纯性并不控制全局 Euler 乘积解析延拓后的零点。数域对应的原始全局接口是 Weil 显式公式\cite{WeilExplicit}。即使
 \[
@@ -126,13 +134,13 @@
   \item 证明 scalar fourth-moment completion 的 65 维严格 no-go，并给出增长 mixed localizers 的 Archimedean 非构造补全定理。
 \end{enumerate}
 
-本文区分已证明蕴含与条件框架：PLF、tempered、有限迹 effect 对偶、bounded-defect normality 和 no-free-lunch 属于 \statusU{}；FPW 中心线定理在定量模式分离公理下属于 \statusC{}；实际 zeta tightness 或 bounded negative trace 属于 \statusE{}。有限浮点实验统一标为 \statusN{}，只用于发现结构、排除错误目标，不构成 RH 证据。
+本文区分已证明蕴含与条件框架：PLF、tempered、有限迹 effect 对偶、bounded-defect normality 和 no-free-lunch 属于 \statusT{}；FPW 中心线定理在定量模式分离公理下属于 \statusC{}；实际 zeta tightness 或 bounded negative trace 属于 \statusO{}，其 RH 强度须另行审计。有限浮点实验统一标为 \statusE{}，只用于发现结构、排除错误目标，不构成 RH 证据。
 
 \section{有限域原型：极化 Lefschetz--Frobenius 结构}
 
 \subsection{最小谱论机制}
 
-\begin{theorem}[\statusU{} 正 similitude 强制纯性]
+\begin{theorem}[\statusT{} 正 similitude 强制纯性]
 设 $H$ 是有限维复向量空间，$F\in\mathrm{GL}(H)$，$Q>0$。若存在正定 Hermite 内积 $h$ 使
 \[
   h(Fx,Fy)=Qh(x,y),
@@ -151,7 +159,8 @@
 \begin{definition}[PLF 代数]
 固定 $q>1$ 与整数 $d\geq0$。一个极化 Lefschetz--Frobenius 代数由下列数据组成：
 \begin{enumerate}
-  \item 有限维分次复交换代数 $H=\bigoplus_{n=0}^{2d}H^n$，带反线性对合 $x\mapsto\bar x$；
+  \item 有限维分次交换复代数 $H=\bigoplus_{n=0}^{2d}H^n$，
+  对齐次元素满足 $xy=(-1)^{\deg x\deg y}yx$，带保分次的反线性代数对合 $x\mapsto\bar x$；
   \item 顶次迹 $\tau:H^{2d}\to\C$，使乘法配对 $H^n\times H^{2d-n}\to\C$ 非退化；
   \item 实 Lefschetz 元 $L\in H^2$，且 $L^{d-n}:H^n\to H^{2d-n}$ 在 $n\leq d$ 时为同构；
   \item 分次代数自同构 $F$，满足 $FL=qLF$、$F\bar x=\overline{Fx}$ 和 $\tau(Fz)=q^d\tau(z)$；
@@ -159,10 +168,13 @@
   \[
     P^a=\ker\!\left(L^{d-a+1}:H^a\longrightarrow H^{2d-a+2}\right),
   \]
-  并要求 Lefschetz 直和分解 $H^n=\bigoplus_{a+2r=n}L^rP^a$；
-  \item 对每个允许的 $(a,r)$ 选取非零实常数 $c_{a,r}$，逐 primitive 分量定义
+  并要求 Lefschetz 直和分解 $H^n=\bigoplus_{a+2r=n}L^rP^a$，
+  其中 $0\leq a\leq d$、$0\leq r\leq d-a$，范围外分次约定为零；
+  \item 对每个 $a$ 另给一个可逆复线性 primitive 极化算子
+  $J_a:P^a\to P^a$，与实结构及 $F|_{P^a}$ 交换。
+  对每个允许的 $(a,r)$ 选取非零实常数 $c_{a,r}$，逐 primitive 分量定义
   \[
-    S_n(L^ru)=c_{a,r}L^{d-a-r}u,
+    S_n(L^ru)=c_{a,r}L^{d-a-r}J_au,
     \qquad u\in P^a,\quad n=a+2r;
   \]
   再选取 $|\varepsilon_n|=1$，并把
@@ -173,7 +185,17 @@
 \end{enumerate}
 \end{definition}
 
-\begin{theorem}[\statusU{} 有限维广义 Weil 结构定理]\label{thm:plf}
+\begin{remark}[奇次极化是额外输入]\label{rem:odd-polarization}
+旧定义相当于所有 $J_a=I$。若存在非零奇次 primitive 实类 $u$，
+则分次交换性给 $u^2=0$，从而
+$h_a(u,u)=\varepsilon_ac_{a,0}\tau(L^{d-a}u^2)=0$，与正定性矛盾。
+尤其通常的正亏格曲线 $H^1$ 不能实例化旧定义；统一复相位不能修复它。
+修订后必须独立构造 $J_a$ 并证明正性和 Frobenius 相容性，
+不能从已知纯谱反造后声称得到几何证明。曲线的 degree/Rosati 对应正性
+基准是另一种结构，不能自动称为这个 PLF 定义的实例。
+\end{remark}
+
+\begin{theorem}[\statusT{} 有限维广义 Weil 结构定理]\label{thm:plf}
 对任意 PLF 代数，$F|_{H^n}$ 可对角化，且
 \[
   \Spec(F|_{H^n})\subset\{\alpha\in\C:|\alpha|=q^{n/2}\}.
@@ -181,7 +203,7 @@
 \end{theorem}
 
 \begin{proof}
-若 $x=L^ru$、$u$ primitive 且 $n=a+2r$，由 $FL=qLF$ 得到
+若 $x=L^ru$、$u$ primitive 且 $n=a+2r$，由 $FL=qLF$ 及 $J_aF=FJ_a$ 得到
 \[
   S_nF=q^{n-d}FS_n.
 \]
@@ -192,7 +214,7 @@
 应用上一最小谱论定理，取 $Q=q^n$ 即得。
 \end{proof}
 
-\begin{theorem}[\statusU{} 迹公式到权重线]
+\begin{theorem}[\statusT{} 迹公式到权重线]
 若另有点数恒等式
 \[
   N_m=\sum_n(-1)^n\Tr(F^m|H^n),\qquad
@@ -211,7 +233,7 @@
 
 \subsection{correspondence 版本}
 
-\begin{theorem}[\statusU{} reciprocal pairing 与幂迹界]
+\begin{theorem}[\statusT{} reciprocal pairing 与幂迹界]
 设非零复数多重集 $\{\alpha_j\}_{j=1}^N$ 在 $\alpha\mapsto Q/\alpha$ 下不变，并且
 \[
   \left|\sum_j\alpha_j^m\right|\leq C Q^{m/2}\qquad(m\geq1).
@@ -252,7 +274,7 @@ $2\Re\rho\|v\|^2=\langle(\Theta+\Theta^*)v,v\rangle=c\|v\|^2$ 得到。
 
 \subsection{双向 tempered 动力学}
 
-\begin{theorem}[\statusU{} 有限维 tempered 纯性与酉化]\label{thm:tempered}
+\begin{theorem}[\statusT{} 有限维 tempered 纯性与酉化]\label{thm:tempered}
 令 $F$ 是有限维 Hermite 空间上的可逆算子，并置 $U=q^{-w/2}F$。若对每个 $\epsilon>0$ 有
 \[
   \|U^n\|\leq C_\epsilon e^{\epsilon|n|}\qquad(n\in\mathbb Z),
@@ -325,11 +347,11 @@ $\sum_{\rho\ne0}|\nu_\rho||\rho|^{-g-1}<\infty$。固定次数不超过 $g$ 的�
 答案是肯定的，但必须使用随 word degree 增长的 matrix localizers；固定的前四个
 标量矩严格不够。
 
-\begin{theorem}[\statusU{} scalar fourth-moment completion no-go]
+\begin{theorem}[\statusN{} scalar fourth-moment completion no-go]
 \label{thm:four-moment-nogo}
 存在两个 $65\times65$ Hermitian 矩阵 $H_+,H_-$，满足
 \[
- \|H_+\|=\|H_-\|=1,qquad
+ \|H_+\|=1,\quad\|H_-\|=4/5,\quad
  \frac1{65}\Tr H_+^k=\frac1{65}\Tr H_-^k
  \quad(0\le k\le4),
 \]
@@ -338,7 +360,11 @@ $\sum_{\rho\ne0}|\nu_\rho||\rho|^{-g-1}<\infty$。固定次数不超过 $g$ 的�
  1,\quad \frac7{13},\quad \frac{109}{325},\quad
  \frac{371}{1625},\quad \frac{1357}{8125}.
 \]
-任取多个直和后，负谱比例仍为 $1/65$。因此任何只依赖维数、统一算子范数和
+任取多个直和后，负谱比例仍为 $1/65$。两者具有共同范数上界 $1$。
+若要求实际范数完全相同，令 $\widehat H_\pm=H_\pm\oplus[1]$：
+它们维数为 $66$、范数同为 $1$、前四矩仍相同，
+归一化矩变为 $(65m_k+1)/66$，负谱比例为 $1/66$。
+因此任何只依赖维数、统一算子范数和
 $m_0,\ldots,m_4$ 的抽象补全原则，都不能推出 Hodge current 的完整正性。
 \end{theorem}
 
@@ -372,9 +398,9 @@ $m_0,\ldots,m_4$ 的抽象补全原则，都不能推出 Hodge current 的完整
 \]
 这说明需要增长的 localizing word spaces，或额外的 flatness/递推关系。
 
-\begin{theorem}[\statusU{} Archimedean finite-satisfiability completion]
+\begin{theorem}[\statusT{} Archimedean finite-satisfiability completion]
 \label{thm:localizer-completion}
-令 $\cA_0$ 为可数幺正 $*$-代数，$Q\subset(\cA_0)_h$ 为
+令 $\cA_0$ 为具有可数 word 张成集的幺正复 $*$-代数，$Q\subset(\cA_0)_h$ 为
 Archimedean quadratic module：对每个 $a\in\cA_0$，存在 $R_a<\infty$ 使
 \[
  R_a^2-a^*a\in Q.
@@ -401,15 +427,23 @@ length-side moments $\lambda(e)$。
 \end{theorem}
 
 \begin{proof}
-Archimedean 关系与 Cauchy--Schwarz 给每个 moment coordinate 一致界
-$|L(a)|\le R_a$。把全部 coordinates 放入紧圆盘的乘积；有限近似可满足性
-给全部闭约束的 finite-intersection property。取 cluster point 后，$*$-关系、
-迹关系、prescribed moments 以及全部 Gram/localizer 正性均由闭性保留，得到
-全局 tracial positive functional $L$。GNS 构造中
+取递增约束集，逐个加入坐标 $a$ 的 $\{1,a\}$ Gram、
+Archimedean 元 $R_a^2-a^*a$ 的标量约束及所涉 words。
+矩阵不等式均取 Hermitian part；先将有限泛函 Hermitian 化为
+$\widetilde L(x)=(L(x)+\overline{L(x^*)})/2$。对 $\epsilon=1/n\le1$，
+\[
+|\widetilde L(a)|^2\le(1+\epsilon)(\widetilde L(a^*a)+\epsilon)
+\le(1+\epsilon)(R_a^2+2\epsilon)\le2(R_a^2+2).
+\]
+各坐标因而落在固定紧圆盘中。所选约束递增穷尽且误差趋零，
+未涉及坐标补为 $0$；乘积紧致性给逐坐标极限。
+每条固定约束最终均被包含，极限是满足全部精确约束的 tracial state $L$。
+精确界 $|L(a)|\le R_a$ 只在此时使用。
+GNS 构造中
 \[
  \langle\pi(h)\pi(p)\Omega,\pi(p)\Omega\rangle=L(p^*hp)\ge0.
 \]
-Archimedean 关系使 $\pi(h)$ 有界，故 $\pi(h)\succeq0$。
+由 $p^*(R_a^2-a^*a)p\in Q$ 得 $L(p^*a^*ap)\le R_a^2L(p^*p)$，故各 $\pi(a)$ 有界，故 $\pi(h)\succeq0$。
 \end{proof}
 
 定理~\ref{thm:localizer-completion} 与 truncated tracial moment 和
@@ -482,10 +516,10 @@ $\Theta_+=\sup_\rho\Re\rho<\infty$，则
 \end{proof}
 
 \begin{remark}[审计后的降级]
-若删除第 5 项，任意 scale-varying Gram 的定性可见性不能排除 subpower 精度的相消，因而不足以证明上述 exponent identity。弱版本应视为 \statusR{} 研究框架。下面的正面结果依赖 fixed-annulus fibers 来自同一个 Dirichlet series 的跨尺度 Mellin coherence，不能反推任意 Gram 自动满足第 5 项。
+若删除第 5 项，任意 scale-varying Gram 的定性可见性不能排除 subpower 精度的相消，因而不足以证明上述 exponent identity。弱版本应视为 \statusO{} 研究框架。下面的正面结果依赖 fixed-annulus fibers 来自同一个 Dirichlet series 的跨尺度 Mellin coherence，不能反推任意 Gram 自动满足第 5 项。
 \end{remark}
 
-\begin{theorem}[\statusU{} Mellin-coherent Sobolev 定量分离]\label{thm:mellin-dual}
+\begin{theorem}[\statusT{} Mellin-coherent Sobolev 定量分离]\label{thm:mellin-dual}
 固定 $A_0>1$、$\kappa>0$，令 $B=\log A_0$。设
 \[
  L_a(s)=\sum_{n\geq1}a(n)n^{-s}
@@ -496,7 +530,9 @@ $\Theta_+=\sup_\rho\Re\rho<\infty$，则
  Q_{X,r}(x)=\frac1{2\pi}\int_\R
  \frac{|F_{X,x}(\tau)|^2}{(\tau^2+\kappa^2)^r}\,\dd\tau .
 \]
-取实际向量 $x_{X,n}=a(n)\1_{(X/A_0,A_0X]}(n)$。若 $r_X=o(\log X)$，则对每个固定 $\rho$ 存在 compact-frequency 对偶泛函 $\ell_{X,\rho}$ 和 $X_j\to\infty$，使
+这里 $r\in\mathbb N_{\ge1}$，有限指数和有界且 $(\tau^2+\kappa^2)^{-r}$ 可积，
+故 $Q_{X,r}$ 有限。取实际向量 $x_{X,n}=a(n)\1_{(X/A_0,A_0X]}(n)$。
+若 $r_X\in\mathbb N_{\ge1}$ 且 $r_X=o(\log X)$，则对每个固定 $\rho$ 存在 compact-frequency 对偶泛函 $\ell_{X,\rho}$ 和 $X_j\to\infty$，使
 \[
  \|\ell_{X_j,\rho}\|_{Q_{X_j,r_{X_j}}^*}=X_j^{o(1)},\qquad
  |\ell_{X_j,\rho}(x_{X_j})|
@@ -547,15 +583,16 @@ $\Theta_+=\sup_\rho\Re\rho<\infty$，则
 故右端在 $z_\rho$ 保留真正极点。若左端取值的 limsup 指数小于 $\Re z_\rho$，其 Mellin 积分会在包含 $z_\rho$ 的更大右半平面绝对收敛并全纯，和该极点矛盾。因此取值沿某子列满足所写下界；再用前述 dual Cauchy--Schwarz 即得 Hodge 下界。
 \end{proof}
 
-\begin{corollary}[\statusU{} zeta adaptive Sobolev FPW4b]\label{cor:zeta-fpw4b}
+\begin{corollary}[\statusT{} zeta adaptive Sobolev FPW4b]\label{cor:zeta-fpw4b}
 对经典 zeta 取 $c=1$、$A_0=4$、$\kappa=1/2$ 和 $a(n)=\Lambda(n)-1$。此时
 \[
  L_a(s)=-\frac{\zeta'}{\zeta}(s)-\zeta(s).
 \]
-$s=1$ 的两个主极点相消，而每个非平凡零点 $\rho$ 仍给 residue $-m_\rho\ne0$。因此任意 $r_X=o(\log X)$ 的 adaptive Sobolev carrier 无条件满足 FPW4b。sampled 与 logarithmic-moment actual energies 可由已证的 subpower additive approximation 继承中心线蕴含；该事实本身不声称它们各自已有全空间 Riesz lower bound。
+$s=1$ 的两个主极点相消，而每个非平凡零点 $\rho$ 仍给 residue $-m_\rho\ne0$。因此任意满足 $r_X\in\mathbb N_{\ge1}$、
+$r_X=o(\log X)$ 的 adaptive Sobolev carrier 无条件满足 FPW4b。sampled 与 logarithmic-moment actual energies 可由已证的 subpower additive approximation 继承中心线蕴含；该事实本身不声称它们各自已有全空间 Riesz lower bound。
 \end{corollary}
 
-\begin{proposition}[\statusU{} finite Schur dual certificate]
+\begin{proposition}[\statusT{} finite Schur dual certificate]
 若有限 fiber 上 $Q(x)=x^*Gx$、$G>0$，且 $\ell(x)=d^*x$，则
 \[
  \|\ell\|_{Q^*}^2=d^*G^{-1}d,
@@ -579,7 +616,7 @@ $s=1$ 的两个主极点相消，而每个非平凡零点 $\rho$ 仍给 residue 
 
 \subsection{effect cone 上的精确对偶}
 
-\begin{theorem}[\statusU{} 有限迹 Hodge 指数对偶]\label{thm:trace-duality}
+\begin{theorem}[\statusT{} 有限迹 Hodge 指数对偶]\label{thm:trace-duality}
 令 $(\cM,\tau)$ 是有限 von Neumann 代数，$\tau(1)=1$，$H=H^*$ 可积。写 $H=H_+-H_-$。则
 \[
   \inf_{0\leq E\leq1}\tau(HE)=-\tau(H_-),
@@ -613,7 +650,7 @@ $s=1$ 的两个主极点相消，而每个非平凡零点 $\rho$ 仍给 residue 
 \]
 这一定义同时固定了符号、归一化和边界可积条件。
 
-\begin{lemma}[\statusU{} 单点 Carath\'eodory 正规族]
+\begin{lemma}[\statusT{} 单点 Carath\'eodory 正规族]
 若全纯函数族在每个紧集上实部有统一下界，且在一个点取值有界，则该族局部有界，因而为正规族。
 \end{lemma}
 
@@ -668,7 +705,7 @@ $s=1$ 的两个主极点相消，而每个非平凡零点 $\rho$ 仍给 residue 
 \]
 其中每个 $L_\pm$ 都由长度半群的 edge squares 生成。因此“有限迹代数 + effect cone + signed Hodge squares”对 zeta 已无条件、显式存在。
 
-\begin{theorem}[\statusE{} zeta 的精确存在性边界]
+\begin{theorem}[\statusT{} zeta 的精确存在性边界；预算蕴含 RH]
 沿任一共尾日程 $Y\to\infty$、$\delta\downarrow0$，若
 \[
   \sup\int_\R[P_{Y,\delta}(t)]_-\frac{\dd t}{1+t^2}<\infty,
@@ -724,7 +761,7 @@ $H=A+R+\Re Q$，$A\geq b>0$、$|R|\leq r<b$，令 $\beta=b-r$，则对 $p>1$，
   \int_IH_-\dd t
   \leq \frac{(p-1)^{p-1}}{p^p}\frac{\int_I|Q|^p\dd t}{\beta^{p-1}}.
 \]
-\begin{theorem}[\statusU{} square-root Cauchy-core localization]\label{thm:sqrtcore}
+\begin{theorem}[\statusT{} square-root Cauchy-core localization]\label{thm:sqrtcore}
 固定 $0<\alpha<1/3$，令
 \[
  \delta_Y=(\log Y)^{-\alpha},\qquad
@@ -805,7 +842,7 @@ $O(\delta_Y^{-3}/(T_1\log T_1))=o(1)$。合并即得。
  II_{U,V}=P_3=\mu_{>U}*\Lambda_{>V}*1.
 \]
 
-\begin{theorem}[\statusU{} canonical two-channel Vaughan quotient]\label{thm:two-vaughan}
+\begin{theorem}[\statusT{} canonical two-channel Vaughan quotient]\label{thm:two-vaughan}
 逐整数有
 \[
  \Lambda=I_{U,V}+II_{U,V}.
@@ -848,7 +885,7 @@ support gap 同时是一条 cutoff 守恒律：把 Type II 推到更大的 $UV$�
  \|L_U\|^2\ll hU^{2(1-\sigma)}\leq hU.           \tag{*}
 \]
 
-\begin{corollary}[\statusU{} arithmetic-length localization]\label{cor:length-local}
+\begin{corollary}[\statusT{} arithmetic-length localization]\label{cor:length-local}
 在 dyadic height block $T_k=2^k$ 上有 $h_k\asymp T_k^{-1}$、barrier $\beta_k\gg\log(e+T_k)$。对任意固定 $A>0$ 取
 \[
  U_k=\max\!\left(1,\left\lfloor
@@ -941,7 +978,7 @@ physical vector 在 core/tail 的质量比例精确为 $400/401$ 与 $1/401$。�
 \]
 这把 tail 明确化为两个可供 Type I/II large sieve 处理的 residual $Z_2,Z_3$。但 $Z_0,Z_1$ 仍显式含 $L$，故“证明 tail 很小”不能自动控制目标。
 
-\begin{theorem}[\statusU{} component compression no-free-lunch]\label{thm:nofree}
+\begin{theorem}[\statusT{} component compression no-free-lunch]\label{thm:nofree}
 令 $P$ 为 component label space 上任意投影，$Q=I-P$，$e$ 为 physical vector。若 $Pe\neq0$，则对每个 $M>0$ 存在 rank-one $G_M\geq0$，使
 \[
   PG_MQ=0,\qquad QG_MQ=0,\qquad
@@ -1148,7 +1185,7 @@ arithmetic localizers 足以非构造地产生全局 tracial positive representa
 
 \begin{center}
 \begin{tabular}{c}
-有限域：Hard Lefschetz + Hodge--Riemann $\Longrightarrow$ PLF similitude $\Longrightarrow$ pure weights\\[4pt]
+形式结构：Lefschetz + 相容 primitive 极化 $\Longrightarrow$ PLF similitude $\Longrightarrow$ pure weights\\[4pt]
 $\Downarrow$ 抽象化\\[4pt]
 双向 tempered dynamics $\Longrightarrow$ spectral radius purity\\[4pt]
 $\Downarrow$ cyclic/filtered 化\\[4pt]

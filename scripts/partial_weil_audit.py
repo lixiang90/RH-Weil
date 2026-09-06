@@ -34,9 +34,11 @@ def partial_weil_bounds(tau: float, second_moment: float) -> tuple[float, float]
 
 
 def four_moment_rank_inertia_bound(b2: float, b4: float) -> tuple[float, float]:
-    """Exact quartic bound from the centred second and fourth moments."""
+    """Limiting quartic bound; requires normalized moments and E1/N -> 0."""
+    assert 0.0 <= b2 < 1.0
     denominator = 1.0 - 2.0 * b2 + b4
     assert denominator > 0.0
+    assert (b2 - b4) / (1.0 - b2) < 0.75
     line = (1.0 - b2) ** 2 / denominator
     return line, 0.5 * (1.0 + line)
 

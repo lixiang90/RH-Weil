@@ -3,7 +3,7 @@
 日期：2026-09-01
 
 状态：有限维结论为 [T]；近期外部结果重述为 [R]；依赖未证矩渐近的结论为 [C]；
-有限数值审计为 [N]；zeta 算术输入为 [O]。
+有限数值审计为 [E]；zeta 算术输入为 [O]。
 
 独立论文：[partial-weil-configurations-paper.tex](../papers/partial-weil-configurations-paper.tex)。
 
@@ -98,8 +98,19 @@ R(b_2,b_4)=\frac{(1-b_2)^2}{1-2b_2+b_4},
 \frac{D}{N}\ge\frac{1+R(b_2,b_4)}2,
 \]
 
-前提是分母为正且
+以上是渐近的 liminf 下界。完整前提为一列有限部分配置满足
+\(N_T\to\infty,\ E_{1,T}/N_T\to0,\ m_{0,T}\to1,\ m_{1,T}\to1\)，
+真正中心矩 \(N_T^{-1}\operatorname{tr}(G_T-I)^2\to b_2\)、
+\(N_T^{-1}\operatorname{tr}(G_T-I)^4\to b_4\)，以及
+\(0\le b_2<1\)、分母为正、
 \(\sigma_*=(b_2-b_4)/(1-b_2)<3/4\)。
+原始矩均收敛时可用上面的展开式计算；不要求单独知道三阶矩极限。
+
+2026-09-06 修正：旧版漏写小边界误差。令
+\(G=Q=I_d,P=0,N=b=D=d,s=0,E_0=E_1=d\)，旧式会错误地推出 \(s/N\ge1\)。
+论文现已给出含全部有限误差的证书，见
+[306](306-quartic-boundary-and-equal-norm-corrections.md)。
+当 \(\sigma_*<0\) 时由较强的二阶账本完成结论，不在负系数上误用预算方向。
 
 对 \(b_2=1/3,b_4=1/4\)，
 
