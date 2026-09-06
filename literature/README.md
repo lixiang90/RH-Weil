@@ -1,6 +1,6 @@
 # RH-Weil 文献索引
 
-更新与抓取日期：2026-09-06。首批归档聚焦67.25%之后的零点比例进展及直接依赖（15份、220页）；GOAL 首周期补入两份 Milne 函数域背景及四篇 Abel 直接文献，当前共21份外部原始PDF、570页；Hardy 1914 的获取失败单列。研究判断见 [305文献审计](../notes/305-post-6725-literature-baseline-audit.md)。
+更新与抓取日期：2026-09-06。首批归档聚焦67.25%之后的零点比例进展及直接依赖（15份、220页）；GOAL 首周期补入两份 Milne 函数域背景及四篇 Abel 直接文献，phase1共21份外部原始PDF、570页；phase2新增清单及获取状态见文末，当前共27份外部原始PDF、728页；获取失败单列。研究判断见 [305文献审计](../notes/305-post-6725-literature-baseline-audit.md)。
 
 PDF按来源原样保存，未重排或改写；arXiv固定版本，GitHub固定提交，Zenodo固定记录。下载、全页PDF解析和校验值核验不等于数学证明认证。manifest中的SHA-256标识本次取得的精确字节，原站同一文件名后续变化时仍可区分。
 
@@ -196,3 +196,70 @@ PDF按来源原样保存，未重排或改写；arXiv固定版本，GitHub固定
 
 四份新增 PDF 共 60 页，均已逐页解析；哈希、字节数、抓取时间及标题见 manifest.json。
 现共保存 21 份 PDF、570 页。下载与解析不等于完整证明认证。
+
+## phase 2：正则化、插值及密度原始文献
+
+2026-09-06当前轮补存6份原始PDF、158页；Landau和Anderson–Trapp获取失败，来源照常索引。
+
+**deBoor-2005 — Divided Differences**
+
+- 作者：Carl de Boor。
+- 版本：Surveys in Approximation Theory 1 (2005), 46–69; manuscript dated 2004-12-21。
+- [本地PDF](background/deboor-divided-differences-2005.pdf)（24页）；[来源页](https://pages.cs.wisc.edu/~deboor/sat/papers/2/2.pdf)；[原始PDF入口](https://pages.cs.wisc.edu/~deboor/sat/papers/2/2.pdf)。
+- 获取：downloaded。
+- 核读范围：302/303 插值余项直接背景；核读 §9 Genocchi–Hermite 公式。
+
+**Douglas-1966 — On majorization, factorization, and range inclusion of operators on Hilbert space**
+
+- 作者：R. G. Douglas。
+- 版本：Proc. AMS 17 (1966), 413–415; DOI 10.1090/S0002-9939-1966-0203464-1。
+- [本地PDF](background/douglas-factorization-1966.pdf)（3页）；[来源页](https://doi.org/10.1090/S0002-9939-1966-0203464-1)；[原始PDF入口](https://home.agh.edu.pl/~rudol/Operat/DouglasFactorizationLemma.pdf)。
+- 获取：downloaded。
+- 核读范围：核读 Theorem 1 及不同定义域推广；310 收缩因子条件的经典背景。
+
+**Tikhonov-1963 — On the solution of ill-posed problems and the method of regularization**
+
+- 作者：A. N. Tikhonov。
+- 版本：Dokl. AN SSSR 151(3) (1963), 501–504; Russian original。
+- [本地PDF](background/tikhonov-regularization-1963.pdf)（4页）；[来源页](https://www.mathnet.ru/eng/dan28329)；[原始PDF入口](https://www.mathnet.ru/php/getFT.phtml?jrnid=dan&option_lang=eng&paperid=28329&what=fullt)。
+- 获取：downloaded。
+- 核读范围：独立复核者核读 p.502 式(2)；310 有限矩阵恒等式另行自含推导。
+
+**Birman-1961 — On the spectrum of singular boundary-value problems**
+
+- 作者：M. Sh. Birman。
+- 版本：Mat. Sb. 55(97)(2) (1961), 125–174; Russian original。
+- [本地PDF](background/birman-singular-spectrum-1961.pdf)（50页）；[来源页](https://www.mathnet.ru/eng/sm4754)；[原始PDF入口](https://www.mathnet.ru/php/getFT.phtml?jrnid=sm&option_lang=eng&paperid=4754&what=fullt)。
+- 获取：downloaded。
+- 核读范围：独立复核者核读 §1.5 p.132 Lemma 1.1；只作负谱阈值计数背景。
+
+**BTEG-2020 — The Generalized Birman-Schwinger Principle**
+
+- 作者：J. Behrndt; A. F. M. ter Elst; F. Gesztesy。
+- 版本：arXiv:2005.01195v4; 2020-08-11。
+- [本地PDF](background/behrndt-terelst-gesztesy-birman-schwinger-v4.pdf)（45页）；[来源页](https://arxiv.org/abs/2005.01195v4)；[原始PDF入口](https://arxiv.org/pdf/2005.01195v4)。
+- 获取：downloaded。
+- 核读范围：补充背景；本轮未审查广义非自伴定理，310 不依赖其全部推广。
+
+**Landau-1967 — Necessary density conditions for sampling and interpolation of certain entire functions**
+
+- 作者：H. J. Landau。
+- 版本：Acta Math. 117 (1967), 37–52; DOI 10.1007/BF02395039。
+- [来源页](https://doi.org/10.1007/BF02395039)；[原始PDF入口](https://archive.ymsc.tsinghua.edu.cn/pacm_download/117/6020-11511_2006_Article_BF02395039.pdf)。
+- 获取：unavailable: HTTP Error 500: Internal Server Error。
+- 核读范围：303 密度定理适用范围比较；固定频带的必要条件不等于增长窗残余控制。
+
+**Anderson-Trapp-1975 — Shorted Operators. II**
+
+- 作者：W. N. Anderson Jr.; G. E. Trapp。
+- 版本：SIAM J. Appl. Math. 28(1) (1975), 60–71; DOI 10.1137/0128007。
+- [来源页](https://epubs.siam.org/doi/10.1137/0128007)；[原始PDF入口](https://epubs.siam.org/doi/pdf/10.1137/0128007?download=true)。
+- 获取：unavailable: HTTP Error 403: Forbidden。
+- 核读范围：已核对出版社书目和摘要；尚未核读全文；正算子 shorting 的适用范围比较。
+
+**Bellotti-Wong-2025 — Improved estimates for the argument and zero-counting function of the Riemann zeta-function**
+
+- 作者：Chiara Bellotti; Peng-Jie Wong。
+- 版本：arXiv:2412.15470v2; 2025-07-07。
+- [本地PDF](background/bellotti-wong-zero-counting-v2.pdf)（32页）；[来源页](https://arxiv.org/abs/2412.15470v2)；[原始PDF链接](https://arxiv.org/pdf/2412.15470v2)。
+- 核读范围：独立复核者核读Theorem 1.1陈述；303/304短区间系数比较，不声称全文及数值常数认证已复跑。

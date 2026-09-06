@@ -105,4 +105,4 @@ n_-(A+\lambda I)=n_+\big(U^*(P+\lambda I)^{-1}U-I\big),
 
 以上是有限线性代数的明确账本 [T]，主证明不以实验替代；新颖性不宣称。
 它排除了几种错误解释，但本身不满足 phase 2 的“新增实质成果”验收。
-独立旧命题重叠审计、原始文献归档及后续实际算术范围分析继续进行。
+[独立重叠及符号审查](../reviews/2026-09-06/310-overlap-and-sign-review.md)已完成；原始文献已按获取状态归档。下一轮见[311日程与系数成本](311-regularization-schedules-and-coefficient-cost.md)。
