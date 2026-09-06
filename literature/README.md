@@ -1,6 +1,6 @@
 # RH-Weil 文献索引
 
-更新与抓取日期：2026-09-06。首批归档聚焦67.25%之后的零点比例进展及直接依赖（15份、220页）；GOAL 首周期补入两份 Milne 函数域背景及四篇 Abel 直接文献，phase1共21份外部原始PDF、570页；phase2新增清单及获取状态见文末，当前共27份外部原始PDF、728页；获取失败单列。研究判断见 [305文献审计](../notes/305-post-6725-literature-baseline-audit.md)。
+更新与抓取日期：2026-09-06。首批归档聚焦67.25%之后的零点比例进展及直接依赖（15份、220页）；GOAL 首周期补入两份 Milne 函数域背景及四篇 Abel 直接文献，phase1共21份外部原始PDF、570页；phase2新增清单及获取状态见文末，当前共28份外部原始PDF、761页；获取失败单列。研究判断见 [305文献审计](../notes/305-post-6725-literature-baseline-audit.md)。
 
 PDF按来源原样保存，未重排或改写；arXiv固定版本，GitHub固定提交，Zenodo固定记录。下载、全页PDF解析和校验值核验不等于数学证明认证。manifest中的SHA-256标识本次取得的精确字节，原站同一文件名后续变化时仍可区分。
 
@@ -263,3 +263,12 @@ PDF按来源原样保存，未重排或改写；arXiv固定版本，GitHub固定
 - 版本：arXiv:2412.15470v2; 2025-07-07。
 - [本地PDF](background/bellotti-wong-zero-counting-v2.pdf)（32页）；[来源页](https://arxiv.org/abs/2412.15470v2)；[原始PDF链接](https://arxiv.org/pdf/2412.15470v2)。
 - 核读范围：独立复核者核读Theorem 1.1陈述；303/304短区间系数比较，不声称全文及数值常数认证已复跑。
+
+## phase 2 第5轮：实际零密度输入
+
+**Chourasiya-Simonic-2025 — An explicit form of Ingham's zero density estimate**
+
+- 作者：Shashi Chourasiya; Aleksander Simonič。
+- 版本：arXiv:2507.15184v2; 2025-09-30。
+- [本地PDF](background/chourasiya-simonic-ingham-v2.pdf)（33页）；[来源页](https://arxiv.org/abs/2507.15184v2)；[原始PDF链接](https://arxiv.org/pdf/2507.15184v2)。
+- 核读范围：287及314的统一实际零密度输入；本轮Corollary 1、Table 1及计数定义的独立核查进行中，不声称全文数值证书已复跑。

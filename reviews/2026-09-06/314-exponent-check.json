@@ -1,0 +1,11 @@
+{
+  "gap_power": "1/5",
+  "crossover_depth": "3/7",
+  "tail_alpha_power": "8/35",
+  "lambda_power": "51/140",
+  "alpha_power_saving": "1/14",
+  "beta_power_saving": "1/28",
+  "global_inverse_cost_power_lower_bound": "1/14",
+  "symbolic_crossing_and_derivative": "PASS",
+  "scope": "Exact algebra only; density theorem, uniform operator bounds, and actual isolation require separate proofs"
+}
