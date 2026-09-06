@@ -300,3 +300,11 @@ BGST-2025的既有v3原件第7–8页3.3–3.5已重新核对：第7页主声明
 
 三份下载均全页解析，哈希、大小及时间见manifest。网页检索摘要的旧页数／日期不覆盖原始PDF事实。
 Bourgain 2000的原始DOI https://doi.org/10.1155/S107379280000009X 本次web未取得全文；不把数据库转述称为核读该原件。
+
+## 持续研究的反向大值输入核查（2026-09-07）
+
+- **Matomäki–Teräväinen (2024)**，*A note on zero density results implying large value estimates for Dirichlet polynomials*。arXiv:2403.13157v1（2024-03-19），16页。[本地PDF](background/matomaki-teravainen-density-to-large-values-2403.13157v1.pdf)；[固定版本](https://arxiv.org/abs/2403.13157v1)；[下载](https://arxiv.org/pdf/2403.13157v1)。2026-09-07检索的arXiv历史仅列v1；全文已归档并全页解析，Theorem1.2与ANTEDB11.6的量词正在核读，尚未导入新的算术结果。SHA、字节数与取得时间见manifest。
+
+本次原始范围审计见[反向大值来源记录](../reviews/2026-09-07/reverse-large-values-source-audit.md)：
+主线程已核读新原件第1–9页；提出ANTEDB11.6全tau陈述的反例候选，
+保留原Theorem1.2的短长度范围。Gibbs正在独立复核，未将候选记为已审结论。

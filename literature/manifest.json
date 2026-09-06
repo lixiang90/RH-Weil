@@ -677,7 +677,26 @@
       "pages": 190,
       "pdf_parse_status": "all pages parsed",
       "text_characters": 302886,
-      "status": "2026-09-05作者蓝图完整PDF固定快照；核读11.15–11.22，PDF91–94页与TTY证明对照仍有部分相同代数问题。不是独立证明认证；未认证整个数据库。；其Thm11.22对应的局部代数修补已按328内部核查，不认证其他蓝图内容。"
+      "status": "2026-09-05作者蓝图完整PDF固定快照；核读11.15–11.22，PDF91–94页与TTY证明对照仍有部分相同代数问题。不是独立证明认证；未认证整个数据库。；其Thm11.22对应的局部代数修补已按328内部核查，不认证其他蓝图内容。 2026-09-07另核PDF38、45–47、83–84、104页；Lemma11.6全tau范围存在明确反例候选，独立复核中，未导入该全范围命题。"
+    },
+    {
+      "id": "Matomaki-Teravainen-2024",
+      "category": "background",
+      "authors": "Kaisa Matomäki; Joni Teräväinen",
+      "title": "A note on zero density results implying large value estimates for Dirichlet polynomials",
+      "version": "arXiv:2403.13157v1; 2024-03-19",
+      "file": "background/matomaki-teravainen-density-to-large-values-2403.13157v1.pdf",
+      "source_url": "https://arxiv.org/abs/2403.13157v1",
+      "pdf_url": "https://arxiv.org/pdf/2403.13157v1",
+      "resolved_pdf_url": "https://arxiv.org/pdf/2403.13157v1",
+      "download_status": "downloaded",
+      "bytes": 410756,
+      "sha256": "43b9a4dfe32437909ac948d2146ac4b3aa787a3155a5cba1c77abeddb1453d49",
+      "retrieved_at_utc": "2026-09-06T16:37:53.759367+00:00",
+      "pages": 16,
+      "pdf_parse_status": "all pages parsed",
+      "text_characters": 30993,
+      "status": "主线程核读第1–9页，重点Theorem1.2的测度、长度与阈值量词；原分析全证未审。tau>=2的一分离桥梁与ANTEDB全tau陈述的反例候选见reviews/2026-09-07/reverse-large-values-source-audit.md，独立复核中。"
     }
   ],
   "supplement_provenance": [

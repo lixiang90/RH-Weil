@@ -38,12 +38,12 @@ Euler的[算术审计](../reviews/2026-09-06/cycle4-arithmetic-interface-audit.m
 [330](../notes/330-exact-sublevels-and-arbitrary-window-concentration.md)已有完整证明候选，正在独立逆审。
 
 - Franklin 01a0766f-fe7c-7e22-a2b2-b9ffda58619d：已恢复，当前只读审查330；329报告已保存。
-- Gibbs已完成326与TTY修补证据并关闭；[328](../notes/328-tty-thm51-proof-repair-and-scope.md)记录所列原始条款、全域端点逻辑及130项精确复跑。
+- Gibbs已恢复，当前只读审查反向大值来源的范围、桥梁和反例候选；已完成的[328](../notes/328-tty-thm51-proof-repair-and-scope.md)记录所列原始条款、全域端点逻辑及130项精确复跑。
 - Euler已关闭，324–325及321–323报告均已保存。
 
 下一动作：主线程检验单对精确零点构造向共同窗口的接口，须有不同信息才继续；
-Franklin审查330的一致导数、所有阈值与增长C量词。单对条件性成本不满足第十节C。
+[331](../notes/331-three-node-phase-compatibility-and-circle-defect.md)已从三条高度差导出窗口无关的圆条件，属于预留第5、6动作；候选待审。Franklin先审330，再顺序审331。单对条件性成本不满足第十节C。
 TTY局部补证通过所列代数审查，上游分析仍按R引用；不是新密度值，也不认证整个ANTEDB。
-当前32份外部原始PDF1076页；31份1047页进入Git，Schur保持原本地限制。
-b97a4d9fe9407da61496e520813cf65d6f63cabe已推送核验；之后的329修订、第六版GOAL及330本轮待保存。
+当前33份外部原始PDF1092页；32份1063页进入Git，Schur保持原本地限制。Matomäki–Teräväinen v1新16页原件、索引和范围审计已保存，独立复核中。
+38391ed8a674ebcbfce4364514ba59ce155b17cb已推送至origin/main并以ls-remote核验，含329修订、第六版GOAL、周期5结算及330候选。331及反向大值文献审计本轮待保存。
 整个GOAL保持active，未满足较远期标准。
