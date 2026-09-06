@@ -7,7 +7,7 @@
 已再次修订 [GOAL.20260906](goals/GOAL.20260906.md)并正式启动后续 GOAL。
 首周期为VIS-REG正则化可见性探索；303全构造内部复核已完成。
 [312](notes/312-critical-line-background-and-directional-filter-cost.md)给实际临界线子背景上界，
-[313](notes/313-depth-gap-tail-bound-and-directional-regularization.md)提出保留全部正项的深度分离尾界与日程候选，尚待独立逆审。
+[313](notes/313-depth-gap-tail-bound-and-directional-regularization.md)给出保留全部正项的深度分离尾界与日程，条件性证明已通过独立内部复核。
 完整实际可见性和几何分离条件仍开放；进度和切换见[执行账本](goals/PROGRESS.md)。
 
 ## phase 1 完成记录（2026-09-06）

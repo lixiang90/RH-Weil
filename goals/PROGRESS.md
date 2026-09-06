@@ -7,21 +7,26 @@
 
 第一周期：VIS-REG 的正则化可见性与完整符号成本；辅助 AUD-303 全构造只读复核。
 探索不要求提前证明新输入；晋级与验收仍要求超出现有基线的实质数学结果。
-303全链已通过独立内部复核；VIS-REG第3轮已得临界线Bessel及受限系数下界，第4轮已写完整深度分离尾界与日程，独立逆审进行中。
+303全链已通过独立内部复核；VIS-REG第3轮已得临界线Bessel及受限系数下界，第4轮已写完整深度分离尾界与日程，独立逆审已通过，三项澄清已采纳。
 
 ## 第十节验收
 
 | 项目 | 状态与证据 |
 |---|---|
 | 目标／历史同步与303完整复核 | 目标和历史已同步；[303完整报告](../reviews/2026-09-06/303-full-construction-review.md)已闭合 |
-| 首个4–6轮探索 | 第1–2轮：[310](../notes/310-regularized-visibility-admission-and-signed-ledger.md)符号与重叠；[311](../notes/311-regularization-schedules-and-coefficient-cost.md)日程及系数预算；第3–4轮：[312](../notes/312-critical-line-background-and-directional-filter-cost.md)方向代价和[313](../notes/313-depth-gap-tail-bound-and-directional-regularization.md)深度分离尾界，待复核 |
-| 非重复实际改进／实质归约／严格新障碍 | [O]，313为具体几何条件下的新候选范围，未验证实际分离条件及完整文献对应，不提前验收 |
-| 证明、文献、证书及独立闭环 | [O] |
-| 下一有限问题与队列 | 第5轮：313证明闭环、原始文献比较及实际深度分离条件的可验证性；无实质削减则切换 |
-| 提交／远程核验 | 首轮befa389及第二轮74eaa24c791686b06cc815c3f09db06a272dd948均已推送并核验远程main SHA；第3–4轮55506fd8fd88b4ff9cf40c428438103fef8f948a已推送并核验远程SHA；独立复核进行中 |
+| 首个4–6轮探索 | 第1–2轮：[310](../notes/310-regularized-visibility-admission-and-signed-ledger.md)符号与重叠；[311](../notes/311-regularization-schedules-and-coefficient-cost.md)日程及系数预算；第3–4轮：[312](../notes/312-critical-line-background-and-directional-filter-cost.md)方向代价和[313](../notes/313-depth-gap-tail-bound-and-directional-regularization.md)深度分离尾界，内部证明和复核已闭环 |
+| 非重复实际改进／实质归约／严格新障碍 | [O]，313为完成内部复核的具体条件性归约；仍需第5轮检查实际分离条件及其输入削减范围，不提前完成阶段 |
+| 证明、文献、证书及独立闭环 | [313复核闭环](../reviews/2026-09-06/312-313-background-and-depth-gap-review.md)；6篇本轮PDF、原始依赖比较及精确指数核算已保存；优先权不宣称 |
+| 下一有限问题与队列 | 第5轮：审计实际零密度／局部聚簇信息是否能验证313-(2)或严格削减其局部缺口；不能仅靠计数模型变体维持研究 |
+| 提交／远程核验 | 首轮befa389及第二轮74eaa24c791686b06cc815c3f09db06a272dd948均已推送并核验远程main SHA；第3–4轮55506fd8fd88b4ff9cf40c428438103fef8f948a已推送并核验远程SHA；复核报告与三项澄清已完成，准备保存 |
 
 ## 持续规则
 
 若VIS-REG只得到旧等价式或没有净预算改善，保存精确停止理由后切换候选，GOAL保持进行中。
 前三位旧审查者的阶段一授权与报告继续有效；本阶段新审查按实际范围独立归档。
 文献及时保存；通常不超过两个实质变更轮次而不commit，周期末push并核对SHA。
+
+## 当前继续点
+
+第5轮审计313-(2)的实际几何输入。总体零密度上界不能自动保证深点孤立，须保留聚簇及目标选择量词。
+若只能重复已知计数缺口且没有实质削减，按GOAL第五节切换候选；本阶段保持active。
