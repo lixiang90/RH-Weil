@@ -2,21 +2,22 @@
 
 本目录研究一个明确的问题：能否把有限域上 Weil 猜想中迫使 Frobenius 特征值具有正确绝对值的结构抽离出来，并在数域的 zeta / L 函数上构造同类结构？
 
-## 当前研究状态：持续GOAL，周期8（2026-09-07）
+## 当前研究状态：持续GOAL，周期9（2026-09-07）
 
-[第八版GOAL](goals/GOAL.20260906.md)保持当前周期验收与较远期显著进展的区分。
+[第九版GOAL](goals/GOAL.20260906.md)保持当前周期验收与较远期显著进展的区分。
 321–326已给近点预算、实际sharp二阶公式及条件性计数比较；
 327、329变窗平均已独立复核并[结算](goals/ACCEPTANCE.cycle5.md)。
 [330](notes/330-exact-sublevels-and-arbitrary-window-concentration.md)任意增长集中度与[331](notes/331-three-node-phase-compatibility-and-circle-defect.md)三点必要条件均已通过独立逆审并[结算](goals/ACCEPTANCE.cycle6.md)。
 [332](notes/332-complete-signed-packets-and-cauchy-duals.md)完整正负节点组的Cauchy Gram与精确对偶已通过独立逆审；
 [333](notes/333-joint-packet-duals-and-conditional-density.md)多组计数与[334](notes/334-growing-packet-cost-and-collision-scope.md)增长／碰撞成本已独立复核并[结算](goals/ACCEPTANCE.cycle7.md)，实际覆盖仍开放。
-当前[335](notes/335-fixed-physical-cell-and-determinant-fibres.md)已独立复核并修正有限核实现和去对角措辞；
+[335](notes/335-fixed-physical-cell-and-determinant-fibres.md)已独立复核并修正有限核实现和去对角措辞；
 [336](notes/336-finite-field-completion-of-physical-determinants.md)给完整Kloosterman核的精确展开，
 [337](notes/337-zero-fourier-mode-with-physical-shell-centering.md)的固定扩展零频项O(log X)已独立复核。
 [338](notes/338-common-denominator-layer-in-the-actual-cell.md)重复分母／分子层及
 [339](notes/339-dual-determinant-zero-mode-and-exact-inversion.md)双频零层均已复核；
-[340](notes/340-prime-weight-energy-outside-the-poisson-band.md)真实素数权短频能量候选正在复核。
-剩余非零频相关尚未接合文献中的双线性节省。
+[340](notes/340-prime-weight-energy-outside-the-poisson-band.md)真实素数权短频能量也已复核。
+[周期8已结算](goals/ACCEPTANCE.cycle8.md)，剩余相关尚未接合双线性节省。
+当前[341](notes/341-vaughan-free-variable-and-shell-length.md)开始核查Vaughan自由整数变量的真实shell长度和求和接口。
 RH、零点比例／非零区域改进及实质算术Weil结构仍未实现，整个GOAL保持active。
 [执行账本](goals/PROGRESS.md)记录当前动作和保存状态。
 

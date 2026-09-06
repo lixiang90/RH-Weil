@@ -1,7 +1,7 @@
-# 持续GOAL执行账本：当前周期8
+# 持续GOAL执行账本：当前周期9
 
 2026-09-07。起点main 17c0774e0652f72ffaf9192f1f760c4294226caf。
-[第八版目标](GOAL.20260906.md)已正式启动持续GOAL；[phase3历史](archive/PROGRESS.phase3.md)保留。
+[第九版目标](GOAL.20260906.md)继续同一个持续GOAL；[phase3历史](archive/PROGRESS.phase3.md)保留。
 
 ## 整个GOAL的状态
 
@@ -27,10 +27,10 @@ Euler的[算术审计](../reviews/2026-09-06/cycle4-arithmetic-interface-audit.m
 
 ## 保存
 
-第八版目标及cycle7原始字节快照已保存，11份目标镜像纳入同步；当前修订保持第十节B/C强度。
+第九版目标及cycle8最终原始字节快照已保存，12份目标镜像纳入同步；第十节B/C与第八版逐字一致。
 文献、只读子代理复核及定期commit/push的既有授权持续有效。第四版目标及原始历史已随14bb2c77be62ec3ddf2d5e0668e675e0612020f6推送核验。321–323草稿已随6ec8a8e00ee5f5b1195db822d0366062fc2cba6b推送并核验；323空坏集合边界与精确核算随后保存。324–325及近点纠错随80418b5edf57896a93688667a40b100ce08c9ca4推送核验。未达较远期显著进展。
 
-## 周期5、6、7已结算，周期8进行中
+## 周期5、6、7、8已结算
 
 [周期5结算](ACCEPTANCE.cycle5.md)：327、329六个数学动作和独立复核完成。
 [周期6结算](ACCEPTANCE.cycle6.md)：330、331六个动作及完整报告完成。
@@ -39,7 +39,7 @@ Euler的[算术审计](../reviews/2026-09-06/cycle4-arithmetic-interface-audit.m
 对偶消正、增长组Q_T²成本均成立于明确几何前提；实际含重数覆盖未被证明。
 周期7的Franklin、Gibbs报告已保存并曾关闭代理；周期8按既有授权恢复使用。
 Franklin的335、338报告及Gibbs外部条款、336–337报告已保存。
-Franklin现审340实际Fourier能量；Gibbs的339报告已保存并关闭，Euler保持关闭。
+Franklin的340报告及Gibbs的339报告已保存，两代理关闭；Euler保持关闭。
 
 [周期8任务单](NEXT.cycle7.md)：以新外部算术输入核查真实MOM determinant的Kloosterman映射。
 [335](../notes/335-fixed-physical-cell-and-determinant-fibres.md)已恢复240–241脚本的同一平窗cell、
@@ -67,12 +67,11 @@ p=3,5另作3368项整系数cyclotomic检查通过；这只是有限代数证据�
 
 第5动作：[340](../notes/340-prime-weight-energy-outside-the-poisson-band.md)
 使用已归档定量PNT，证明实际单权的p/Y乘固定log幂短带仅捕获约1/log Y的l2能量，
-独立审查中；三个有限尺度的原权FFT只作证据，不拟合渐近。
+已[独立复核](../reviews/2026-09-07/340-independent-review.md)；三个有限尺度的原权FFT只作证据，不拟合渐近。
 它阻止免费短频截断，不推断四变量有符号响应大或全部频率局部化无用。
 
-下一动作：闭合340复核，记录完整完成加平滑短频截断的确切失配。
-若没有额外算术尾项控制，按任务单结算本映射并选择不同的合法变换，
-不继续将同一全频数组换名为所需预算。
+[周期8已结算](ACCEPTANCE.cycle8.md)：完整完成的直接双线性代入和免费短频截断不成立；
+保留额外算术控制长尾、不同变换和耦合求和的可能，不将局部障碍升级为全部方法不可能。
 不能以取q=bd的字面替换或固定分母O(1)长度纤维冒充平方根双线性和。
 [新输入筛查](../reviews/2026-09-07/kloosterman-next-input-screen.md)已完成独立条款复核，
 修正初始／平移区间、特殊模数节省基准、联合互素条件和完整字符族。
@@ -90,6 +89,19 @@ Clark17页只核读开头范围；Pascadi1–5页、MQW1–4页、Choi–Kumchev
 上述保存记录已随c17faa6c6ef169dee61fcdf52b7ffd16d19eb9ff推送核验；
 336–337当时的候选、335纠错及两份新文献已随
 68ac158c958f7295830382c00228e93a4441c2a0推送origin/main并核验同一完整远程SHA。
-随后的336–339复核、340候选及大别名点数值修正正在形成下一提交。
-根目标第八版补充了执行状态，保持当前／较远期目标与周期标准不变。
+336–339复核、340当时的候选及大别名点修正已随
+bc8ebcb1832ce9bae547ad49c7c459e0fc21d5e5推送origin/main并核验同一完整SHA。
+340最终报告、周期8结算、第九版目标与341草稿随下一提交保存。
+
+## 周期9已开始
+
+[当前任务单](NEXT.cycle8.md)：对既有Vaughan恒等式中真正无算术权的自由整数变量求和，
+保留全部通道、原mask、其他Lambda权及共同shell；不重开240–241的混合变差预算。
+[341](../notes/341-vaughan-free-variable-and-shell-length.md)已完成第1动作候选：
+准确通道表、窄cell的mask等价指定整数点删除，以及固定外层时shell自由长度
+O(X^(1/4)/(rv))。当前Type II的这条纤维至多1点，Type I长纤维只在小rv角落可能出现。
+尚待独立复核，不否定多外层变量共同求和。
+
+下一动作：对Type I小rv角落实施实际求和并核算外层成本；
+同时检查Type II必须保留的共同变量和能否生成可用的核，不把代数completion范围当真实自由长度。
 整个GOAL保持active，未满足较远期标准。
