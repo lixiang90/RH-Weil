@@ -1,6 +1,6 @@
 {
   "retrieved_on": "2026-09-06",
-  "scope": "零点比例进展、非循环函数域基准与 Abel 障碍直接文献；归档不等于数学认证；phase 2 插值、密度与正则化算子背景",
+  "scope": "零点比例进展、非循环函数域基准与 Abel 障碍直接文献；归档不等于数学认证；phase 2 插值、密度与正则化算子背景；持续GOAL周期4：实际零密度原始比较及ANTEDB固定快照",
   "entries": [
     {
       "id": "AF-2026",
@@ -621,6 +621,63 @@
         "https://gdz.sub.uni-goettingen.de/gdzocr/PPN243919689_0140/00000010.xml",
         "https://gdz.sub.uni-goettingen.de/gdzocr/PPN243919689_0140/00000011.xml"
       ]
+    },
+    {
+      "id": "Guth-Maynard-2026",
+      "category": "background",
+      "authors": "Larry Guth; James Maynard",
+      "title": "New large value estimates for Dirichlet polynomials",
+      "version": "arXiv:2405.20552v2; 2026-04-07",
+      "file": "background/guth-maynard-large-values-2405.20552v2.pdf",
+      "source_url": "https://arxiv.org/abs/2405.20552v2",
+      "pdf_url": "https://arxiv.org/pdf/2405.20552v2",
+      "resolved_pdf_url": "https://arxiv.org/pdf/2405.20552v2",
+      "download_status": "downloaded",
+      "bytes": 656298,
+      "sha256": "915392cf7d0ecd108479814a9a1481e23423ef63415776471cec3975ae482cae",
+      "retrieved_at_utc": "2026-09-06T11:47:30.256907+00:00",
+      "pages": 52,
+      "pdf_parse_status": "all pages parsed",
+      "text_characters": 92909,
+      "status": "核读实际PDF1–2页Thm1.1/1.2及(1.2)/(1.3)，Gibbs另核48–50页计数／分离桥接；含重数指数可恢复，固定sigma和epsilon。实际52页，未复审全文。"
+    },
+    {
+      "id": "Tao-Trudgian-Yang-2025",
+      "category": "background",
+      "authors": "Terence Tao; Tim Trudgian; Andrew Yang",
+      "title": "New exponent pairs, zero density estimates, and zero additive energy estimates: a systematic approach",
+      "version": "arXiv:2501.16779v1; 2025-01-28; PDF dated 2025-01-29",
+      "file": "background/tao-trudgian-yang-exponents-2501.16779v1.pdf",
+      "source_url": "https://arxiv.org/abs/2501.16779v1",
+      "pdf_url": "https://arxiv.org/pdf/2501.16779v1",
+      "resolved_pdf_url": "https://arxiv.org/pdf/2501.16779v1",
+      "download_status": "downloaded",
+      "bytes": 850856,
+      "sha256": "2038f74e7753487760c095f518a6bfa856a929a8a9c01912af49f7e043636c8b",
+      "retrieved_at_utc": "2026-09-06T11:47:30.256907+00:00",
+      "pages": 44,
+      "pdf_parse_status": "all pages parsed",
+      "text_characters": 104768,
+      "status": "已核读Definition37、Thm51及必要上游条款；Gibbs发现印刷证明(40)->(42)步骤反例，主线程已精确复算。k=4初筛修补待完整证据／交叉审查，未认证整个定理证明或全部优化。详见326-density-source-review。"
+    },
+    {
+      "id": "ANTEDB-20260905",
+      "category": "background",
+      "authors": "Terence Tao; Timothy Trudgian; Andrew Yang",
+      "title": "Database of known results on analytic number theory exponents",
+      "version": "PDF dated September 5, 2026; retrieved 2026-09-06; exact content fixed by SHA-256",
+      "file": "background/antedb-blueprint-20260906.pdf",
+      "source_url": "https://teorth.github.io/expdb/blueprint/",
+      "pdf_url": "https://teorth.github.io/expdb/blueprint.pdf",
+      "resolved_pdf_url": "https://teorth.github.io/expdb/blueprint.pdf",
+      "download_status": "downloaded",
+      "bytes": 1310085,
+      "sha256": "f9f41819540cb0300bd7cf181c47e957a271cf7604187b62008af9385dbbbc27",
+      "retrieved_at_utc": "2026-09-06T11:47:30.311103+00:00",
+      "pages": 190,
+      "pdf_parse_status": "all pages parsed",
+      "text_characters": 302886,
+      "status": "2026-09-05作者蓝图完整PDF固定快照；核读11.15–11.22，PDF91–94页与TTY证明对照仍有部分相同代数问题。不是独立证明认证；未认证整个数据库。"
     }
   ],
   "supplement_provenance": [

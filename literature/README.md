@@ -1,6 +1,6 @@
 # RH-Weil 文献索引
 
-更新与抓取日期：2026-09-06。首批归档聚焦67.25%之后的零点比例进展及直接依赖（15份、220页）；GOAL 首周期补入两份 Milne 函数域背景及四篇 Abel 直接文献，phase1共21份外部原始PDF、570页；phase2新增清单及获取状态见文末，phase3新增Schur原文扫描29页，当前本地共29份外部原始PDF、790页，其中Git保存28份、761页；Schur扫描按来源封面要求仅本地保存，出处和哈希同步。获取失败单列。研究判断见 [305文献审计](../notes/305-post-6725-literature-baseline-audit.md)。
+更新与抓取日期：2026-09-06。首批归档聚焦67.25%之后的零点比例进展及直接依赖（15份、220页）；GOAL 首周期补入两份 Milne 函数域背景及四篇 Abel 直接文献，phase1共21份外部原始PDF、570页；phase2新增清单及获取状态见文末，phase3新增Schur原文扫描29页，持续GOAL周期4新增GM、TTY和ANTEDB共286页，当前本地共32份外部原始PDF、1076页，其中Git保存31份、1047页；Schur扫描按来源封面要求仅本地保存，出处和哈希同步。获取失败单列。研究判断见 [305文献审计](../notes/305-post-6725-literature-baseline-audit.md)。
 
 PDF按来源原样保存，未重排或改写；arXiv固定版本，GitHub固定提交，Zenodo固定记录。下载、全页PDF解析和校验值核验不等于数学证明认证。manifest中的SHA-256标识本次取得的精确字节，原站同一文件名后续变化时仍可区分。
 
@@ -291,3 +291,12 @@ Schur出版社PDF入口返回202空正文；GDZ文章PDF入口成功。所有29�
 ## 持续GOAL周期4核读更新（2026-09-06）
 
 BGST-2025的既有v3原件第7–8页3.3–3.5已重新核对：第7页主声明是移动区间，实际前缀公式在第8页3.5。用于[324候选sharp去权](../notes/324-sharp-mt-second-moment-by-measure-deweighting.md)，其新证明另待交叉复核。没有新增或覆盖PDF版本。
+
+## 持续GOAL周期4：全体零密度比较（2026-09-06）
+
+- **Guth-Maynard-2026**，Larry Guth、James Maynard，*New large value estimates for Dirichlet polynomials*。arXiv:2405.20552v2，2026-04-07。[原始PDF](background/guth-maynard-large-values-2405.20552v2.pdf)，实际52页；[版本页](https://arxiv.org/abs/2405.20552v2)、[下载](https://arxiv.org/pdf/2405.20552v2)。核读第1–2页Thm1.1/1.2及(1.2)/(1.3)；没有重审全文。来源摘要页说48页，与取得PDF实际52页分别记录。
+- **Tao-Trudgian-Yang-2025**，Terence Tao、Tim Trudgian、Andrew Yang，*New exponent pairs, zero density estimates, and zero additive energy estimates: a systematic approach*。arXiv:2501.16779v1，上传2025-01-28，PDF标2025-01-29。[原始PDF](background/tao-trudgian-yang-exponents-2501.16779v1.pdf)，44页；[版本页](https://arxiv.org/abs/2501.16779v1)、[下载](https://arxiv.org/pdf/2501.16779v1)。核读Definition37、Thm51及必要条款，发现印刷证明步骤(40)到(42)失败；候选k=4修补待完整证据与交叉审查。详见[复核记录](../reviews/2026-09-06/326-density-source-review.md)，不声称定理结论错误。
+- **ANTEDB-20260905**，Terence Tao、Timothy Trudgian、Andrew Yang，*Database of known results on analytic number theory exponents*。PDF封面日期2026-09-05，本次抓取2026-09-06。[固定原始PDF](background/antedb-blueprint-20260906.pdf)，190页；[作者证明蓝图](https://teorth.github.io/expdb/blueprint/)、[下载](https://teorth.github.io/expdb/blueprint.pdf)。来源站会更新，用manifest完整SHA固定字节；核读第11章相关条款，部分TTY代数问题仍见于蓝图；不视为独立认证，也未认证整个数据库。
+
+三份下载均全页解析，哈希、大小及时间见manifest。网页检索摘要的旧页数／日期不覆盖原始PDF事实。
+Bourgain 2000的原始DOI https://doi.org/10.1155/S107379280000009X 本次web未取得全文；不把数据库转述称为核读该原件。

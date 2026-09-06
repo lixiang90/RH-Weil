@@ -1,0 +1,43 @@
+{
+  "scope": "60-digit finite integral checks only; no actual zero data or asymptotic certification.",
+  "independent_integral_cases": [
+    {
+      "A": "8.0",
+      "e": "0.27",
+      "d": "0.15",
+      "Delta": "0.73",
+      "absolute_error": "1.555753819e-61"
+    },
+    {
+      "A": "20.0",
+      "e": "0.15",
+      "d": "0.27",
+      "Delta": "-0.4",
+      "absolute_error": "7.778769097e-62"
+    },
+    {
+      "A": "12.0",
+      "e": "0.2",
+      "d": "0.2",
+      "Delta": "0.3",
+      "absolute_error": "1.750223047e-61"
+    },
+    {
+      "A": "9.0",
+      "e": "0.4",
+      "d": "0.15",
+      "Delta": "0.0",
+      "absolute_error": "0.0"
+    }
+  ],
+  "average_example": {
+    "L": "2000.0",
+    "H": "60.0",
+    "e": "0.27",
+    "d": "0.15",
+    "Delta": "0.73",
+    "exact_kernel_numeric_average": "0.11437150343572077429",
+    "leading_average": "0.11419709572818271535",
+    "difference": "0.000174407707538059"
+  }
+}
