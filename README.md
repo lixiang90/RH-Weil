@@ -19,6 +19,25 @@ Actions 将原检查清单分为 core、B1h、B1i 三组并行，全部成功才
 ## 正式论文整理稿
 
 最新研究进展（2026-09-06）：
+[294：PNT／记录交点节省](notes/294-pnt-envelope-gain-and-fixed-source-saturation.md)与
+[295：固定正源的同阶饱和及解析边界](notes/295-fixed-positive-source-right-trace-saturation.md)。
+在293同一实际记录上，经典有符号PNT误差将右移范数上界进一步改进为
+\[
+ \tau_C|P_a|\ll
+ B^\theta\exp\!\left(-\frac{(\sigma'-\beta)c}{(1-\beta)^{3/2}}
+                         \sqrt{\log B}\right)
+ =o(B^\theta).
+\]
+这是正确原迹下的无条件剩余量节省，不是新的PNT，也尚未达到绝对 \(O(1)\)。
+
+另构造一个固定正整数源，在真正归一化Abel前缀记录上达到一般光滑次幂
+PNT／历史交点上界的同阶正负迹 [T/N]。因此只改进此类前缀包络不能普遍闭合目标。
+该模型的极限germ在 \(s=1\) **非亚纯**，已被真实zeta的已知解析性质排除；
+它不是完整Weil配置、实际 \(\Lambda\) 或RH的反例。不能把不同旧模型的公理拼到它上面。
+本四轮周期结束：停止纯包络的继续扩写，保留实际亚纯结构与有符号响应接口。
+本轮仅Markdown与45组有限包络复算，不更新PDF。
+
+同日上一轮：
 [293：Poisson右移、实际记录缩减与独立有限完成接口](notes/293-poisson-transport-and-right-shifted-record-currents.md)。
 沿284同一实际记录，令 \(d=\beta-\sigma_0>0\)，真正右移到
 \(\sigma'_Y=1/2+\delta_Y\)、\(\delta_Y>0\to0\)，已证明

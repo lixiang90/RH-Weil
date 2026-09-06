@@ -4,7 +4,7 @@
 
 ## 当前队列
 
-维护验收与恢复（2026-09-06）：David--Lapidus观察线、论文目录及GitHub Actions三项维护均已完成，[完整三组远程检查成功](https://github.com/lixiang90/RH-Weil/actions/runs/33982592142)。新周期第1轮291给平方证书，第2轮292停止固定左侧raw的绝对有界负迹目标。第3轮293证明真正右移后实际范数为 \(o(|M|)\)，参数修正与正负混合取消量为 \(\Theta(|M|)\)，并单独核验有限完成候选接口；这关闭了“如何支付非微扰补偿”的相对尺度问题，但未控制绝对剩余量。主线只接受正确右侧原迹下新的算术节省；289-(53)仍门槛式保留，不回填成完整Weil正性。`DL-AUDIT`未启动，资源门槛不变。
+维护验收与恢复（2026-09-06）：David--Lapidus观察线、论文目录及GitHub Actions三项维护均已完成，[完整三组远程检查成功](https://github.com/lixiang90/RH-Weil/actions/runs/33982592142)。291--295组成的四轮周期已完成：平方证书、左侧raw负迹障碍、真实右移补偿和PNT交点节省逐项核验。294把实际右移上界改进到 \(o(B^\theta)\)；295用单一固定正整数源和真正前缀记录达到一般次幂包络上界，同时证明其germ在 \(s=1\) 非亚纯。**停止仅改变PNT包络的普遍改进路线**，不把模型边界扩大为完整Weil no-go。主线只保留真实亚纯结构或有符号算术相关能提供的独立新估计；289仍观察。`DL-AUDIT`未启动，资源门槛不变。
 
 | ID | 角色 | 下一最小引理 | 晋级条件 | 状态 |
 |---|---|---|---|---|
@@ -15,7 +15,7 @@
 | NCE-5 | 备用线 | one-prime/one-block extension，预算增量可和 | extension 不调用完整 Weil positivity | 观察 |
 | NCE-6 | 备用线 | bounded-resolvent/negative-trace 的 ultraproduct 稳定性 | 先独立得到统一预算 `C` | 观察 |
 | NCE-7 | 非构造主线 | short-word effects 对实际 negative level sets 的 response-weighted capture | capture error共尾可和且不调用 Selberg/RH 等价输入 | degree-one universal moment route 已 sharp no-go |
-| NCE-8 | 当前主线：右侧实际预算 | B1z / 293后：固定正确日程与 \(N=Y\) 有限完成候选，对 \(\kappa_Y^\sharp\) 独立改进已证 \(O(1+B^{\theta_Y})\) 的绝对剩余量；289-(53)仅作独立响应问题门槛式保留 | 真实算术抵消或更小的剩余误差；仅重写RH等价预算、Poisson式或Gamma删项不再晋级 | 实际 \(o(|M|)\) 右移与有限接口 [T]；左侧原目标 [N/停止]；右侧绝对有界仍[O]且有RH强度 |
+| NCE-8 | 当前主线：包络机制止损，保留亚纯接口 | B1z / 294--295后：先核对285/287/289，再对固定有限非实Mellin极点包证明正确右侧交点尺度的严格缺口，并明确极点数量/高度增长时失去一致性的项 | 必须产出实际原迹的新估计或保留亚纯除数的更强障碍；只重复Landau、有限零点展开、PNT交点或等价预算则停止 | 实际PNT交点节省 [T]；一般固定源饱和 [N]但模型非亚纯；绝对有界仍[O]且有RH强度 |
 | NCE-9 | 非构造补全 | 把 finite Cauchy-translate Schur block写成 joint signed Type I/II large-sieve form | uniform finite-block budget只用 length-side数据且弱于完整 RH criterion | finite satisfiability compactness与Gram/Schur判据已完成；33 translates捕获约23% package norm |
 | MOM-1 | 四矩观察线 | 只在出现新的 actual determinant-correlation input 时恢复；不得继续增加 Möbius/divisor kernel 表示 | 新输入必须在 physical fiber 内先合并全部 divisor blocks，并直接给 `o(L^4)` global ledger | exact band/mass已闭合；cumulative、band energy、channel mass、raw pullback与 divisor separation五条候选证书均已 theorem/no-go；条件比例仍为 0.7569027 / 0.8784513 |
 | NCE-10 | 非构造补全 | 增长的 arithmetic mixed localizers 与 divisor-visible resolvent closure | 每个有限 word level 近正且 Archimedean 有界，闭包恢复 divisor | scalar fourth moments 有 65 维严格 no-go；finite-satisfiability completion 已证明 |
@@ -193,6 +193,17 @@
 - **当前证据 [E]**：一份MP50合成混合原子脚本验证全周期Poisson/倾斜、完整加权端点公式和全轴Cauchy迹；不认证实际记录或渐近。既有143已经处理完整Abel的有限化，本轮不重新宣布解决该问题；新内容是已选记录的实际相对缩减及准确接口。
 - **下一最小任务与止损 [O]**：固定上述日程、原规范迹与有限候选，在已证 \(1+B^{\theta_Y}\) 之外取得一个明确有符号算术节省，或证明所选估计机制的严格障碍。只扩写半群、重命名右侧 \(L^1\)、再调一般次数或调用全quadratic energy不晋级；147已排除后者。289只有证明能转移至此具体预算才恢复RH接口地位。
 - **论文归属/决策**：实际右移定量界晋级为内部[T]，绝对存在性仍[O]；保留独立response论文材料与条件核验，不另建同义RH框架论文。不更新PDF，不启动DL-AUDIT；新颖性、外部同行评审、完整Goal验收均未完成。
+
+#### B1z 新周期第4轮及周期决策：PNT节省与固定源饱和（2026-09-06）
+
+- **已解最小引理 [T/R]**：[294](notes/294-pnt-envelope-gain-and-fixed-source-saturation.md)在同一实际记录上将293-C改进为 \(\tau_C|P_a|\ll T\asymp B^\theta e^{-bc\sqrt{\log B}/(1-\beta)^{3/2}}\)。外部输入仅为经典有符号PNT误差；265已有前缀界，新增的是正确右移原迹中的记录交点节省。定性PNT也已足够给统一 \(o(B^\theta)\)，但没有明确速率。
+- **一般接口与独立输入**：若 \(|E(x)|\ll x e^{-\omega(\log x)}\)、\(\omega\to\infty,\omega'\to0\)，且独立有历史guard，则294-E给 \(\tau_C|P_a|\ll T_\omega=B e^{-bU}\)，\((1-\beta)U-\omega(U)=\log B\)。保留固定源界常数、完整端点及紧参数统一性，不把PNT当作记录选择的来源。
+- **严格机制障碍 [N]**：[295](notes/295-fixed-positive-source-right-trace-saturation.md)构造一个固定 \(\lambda(n)\in[1/2,3/2]\)、\(\lambda(n)\to1\)，保留同一 \(\omega\)、匹配连续背景、完整截断、真正整数归一化Abel前缀记录及强质量，且对全部 \(\sigma'\in[1/2,3/4]\) 有 \(\tau_C(P_\pm)\asymp T_\omega\to\infty\)。负迹下界来自固定小频窗；全轴上界没有积分不合法的 \(O(1+|t|)\) 离散化余项。
+- **主要反例的限制**：295的有限Poisson／Euler开集germ一致，但该germ在 \(s=1\) 非亚纯。真实zeta的已知亚纯延拓排除此模型；它没有素数幂支撑、Euler乘积、整函数整数除数或函数方程。不能将288/290保留的其他性质拼接给它，也没有证明所有模型子序列都失败。
+- **Weil接口与循环性**：实际 \(\kappa_Y^\sharp=\tfrac12\tau_C|P_a|+O(1)\ll1+T\) 仍由293合法接入145。294只有无条件上界节省，295只有指定模型类的普遍估计障碍；均未证明RH或新的零点比例。真实绝对预算仍有RH等价强度，非构造方法不产生缺失输入。
+- **当前证据 [E]**：45组MP50包络检查与主代理独立复跑通过；包括完整半轴范数、交点、积分常数和安全sup因子。只认证有限浮点公式一致性，不认证实际PNT常数、记录或渐近；295全尺度结论完全来自证明。
+- **晋级／止损／下一最小任务**：本周期将定量右移与PNT剩余量节省保留为内部[T]，停止继续只换光滑次幂PNT包络、固定源一致性或历史soft norm。下一周期首先核对旧有限零点/深尾结果，尝试对固定有限非实Mellin极点包证明正确右侧交点尺度的严格缺口，并追踪高度与数量增长时的统一性损失；只出现等价重写或既有有限展开则不晋级。只有引入模型未保留的已知解析或真实算术限制，并得到独立量化结论，才继续。
+- **论文归属与完成边界**：归独立response论文的“适用范围与估计障碍”材料，不另扩写同义RH框架。先保留Markdown，未更新PDF；文献新颖性、外部同行审查与Goal阶段验收仍[O]。David--Lapidus观察线未启动。
 
 ### 路线 C / VIS-1：离线零点深度可见性（桥梁路线）
 

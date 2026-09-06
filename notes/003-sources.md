@@ -161,6 +161,10 @@
    https://kskedlaya.org/ant/chap-funceq.html
    https://kskedlaya.org/ant/chap-von-mangoldt.html
 
+51. Andrew Fiori, Habiba Kadiri, Joshua Swidinsky, *Sharper bounds for the Chebyshev function \(\psi(x)\)*，arXiv:2204.02588v3（2023-05-17）。[R] 263/265已经调用该文的Corollary1.4；本轮再次核验作者预印本摘要所列的无条件全 \(x>2\) 误差界，并补入统一文献表。294只使用其弱后果：存在固定 \(c>0\)，\(|\psi(x)-x+1|\ll x e^{-c\sqrt{\log x}}\)。不优化或认证数值常数，不宣称本轮重新审读其完整证明或出版版本。相同弱输入亦由Kedlaya书稿第7章Theorem7.7给出；从半权到完整原子的 \(O(\log x)\) 差可吸收。294的匹配Abel前缀、记录交点及295的固定正源饱和构造均独立重证，不归因于上述来源。
+   https://arxiv.org/abs/2204.02588v3
+   https://kskedlaya.org/ant/part-2-4.html
+
 ## 使用这些来源时的边界
 
 - Deligne 已无条件证明有限域结论，但不是通过证明全部 standard conjectures；不能把 standard conjectures 的一般成立当成已知事实。
