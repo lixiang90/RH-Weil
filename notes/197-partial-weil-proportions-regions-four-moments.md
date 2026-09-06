@@ -300,3 +300,13 @@ Riemann zeta function are simple and on the critical line*，
 主代理与carrier_audit独立重建上述接口；gap_exception_audit和
 midband_compute对本节最终全文只读复核通过。这里的[T]仅表示完整内部证明，
 不表示新颖性、外部同行评审或Lean验证已经完成。
+
+### 10.1 后续：二阶谱余项而非四阶预算
+
+[304](304-mt-triple-geometry-and-second-moment-stability.md)在同一实际算子内
+保留 \(\operatorname{tr}j(G_{\rm simple})\)，以不交三点几何给严格余量。
+配合已知的固定平滑全谱二阶渐近和完整有理证书，
+内部证明得到简单/不同零点下界约0.672509329/0.836254665 [T/R]。
+这不推翻本节关于缺失四阶输入的判断：该增益根本不使用四阶矩。
+同类Schur--Jensen机制已见公开工作稿，304明确不声称首次发现或世界纪录，
+也不将新余项与其他未证明可加的稳定性预算相加。

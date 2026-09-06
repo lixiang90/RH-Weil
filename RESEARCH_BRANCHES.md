@@ -6,10 +6,13 @@
 
 维护验收与恢复（2026-09-06）：David--Lapidus观察线、论文目录及GitHub Actions三项维护均已完成，[完整三组远程检查成功](https://github.com/lixiang90/RH-Weil/actions/runs/33982592142)。291--295及296--301两个周期已收束；300的真实全谱RH条件结果与301的相位/同germ障碍保留。**301之后的一轮289-(53)准入审计现已完成，未获得匹配的新算术输入**，详见289第11节。已核验文献存在明确参数、筛选或矩阶差距；不把这种直接适用失败升级为一般不可能性。NCE-8与MOM-1继续观察，不自动重启同类周期；下一周期须从看板重选真正独立的有限任务。Lamzouri新短证与197旧二阶结构的接口已单独复核，但不减少四阶输入。`DL-AUDIT`仍未启动，资源门槛不变。
 
-VIS-1 已连续闭合两个不同的有限问题：[302](notes/302-positive-background-quotient-collapse.md)证明实际前缀的窄窗硬商负秩保留、负迹塌缩；本轮[303](notes/303-critical-window-counting-and-visibility-nonidentification.md)在同一 sharp MT 临界窗构造两套固定全局除子，共同满足 RVM 级计数误差、单位高度界及模型比例下界，却有相反可见性。仅计数的临界窗判据停止；实际节点几何/相关输入仍待准入。模型不具备 Euler/算术显式公式，不转写为实际 zeta 结论。NCE-8/MOM-1仍观察，DL-AUDIT未启动。
+VIS-1 已连续闭合两个不同的有限问题：[302](notes/302-positive-background-quotient-collapse.md)证明实际前缀的窄窗硬商负秩保留、负迹塌缩；[303](notes/303-critical-window-counting-and-visibility-nonidentification.md)在同一 sharp MT 临界窗构造两套固定全局除子，共同满足 RVM 级计数误差、单位高度界及模型比例下界，却有相反可见性。模型不具备 Euler/算术显式公式，不转写为实际 zeta 结论。304§6核对实际显式计数界能排除303的具体高系数簇，但仍不给商后下框架；该动作已停止，不追加模型变体。
+
+本轮完成 [304](notes/304-mt-triple-geometry-and-second-moment-stability.md) 的 **MOM-STAB二阶稳定性审计**：独立重建 Schur--Jensen 谱余项，经三点几何和固定平滑全谱预算，给简单/不同零点下界约0.672509329/0.836254665 [T/R]。4252叶箱的精确有理全域证书及两份全文逆审通过。同类机制已有公开工作稿且有更高待审候选，故不作世界纪录或首次发现声明。下一步先核验可独立发表的贡献，不自动增加块数；MOM-1四矩、NCE-8继续观察，DL-AUDIT仍未启动。
 
 | ID | 角色 | 下一最小引理 | 晋级条件 | 状态 |
 |---|---|---|---|---|
+| MOM-STAB | 限额二阶稳定性审计，不替代MOM-1 | 对照公开同类工作，判断304直接Hilbert/固定平滑/三点证书是否有未被覆盖的具体命题 | 有独立贡献且证明/小证书可复核；不得将工作稿中的较低数字当作全部前沿 | 304全链及精确证书[T/R]通过；新颖性与外部审查[O]，非世界纪录声明 |
 | NCE-1 | 主线 | finite SDP 的 cell-packet capture ratio、coercivity 与实际负响应 | capture remainder一致消失，one-sided packet budget可和 | one-sided atomic theorem 已完成 |
 | NCE-2 | 概念线 | fiberwise harmonic scalars 的 external synthesis correspondence | 给出跨 `q` fibers 且限制 rank-one amplification 的 arithmetic map | canonical fiber 内交换子为零 |
 | NCE-3 | 工具线 | random cells 是否降低 arithmetic-specific packet response | 保留 joint cancellation并优于 `Theta(1+Nh)` universal capacity | universal random-grid route 已到 sharp no-go |
@@ -18,7 +21,7 @@ VIS-1 已连续闭合两个不同的有限问题：[302](notes/302-positive-back
 | NCE-6 | 备用线 | bounded-resolvent/negative-trace 的 ultraproduct 稳定性 | 先独立得到统一预算 `C` | 观察 |
 | NCE-7 | 非构造主线 | short-word effects 对实际 negative level sets 的 response-weighted capture | capture error共尾可和且不调用 Selberg/RH 等价输入 | degree-one universal moment route 已 sharp no-go |
 | NCE-8 | 周期及一轮准入审计已收束；观察 | 仅在出现覆盖289-(53)实际权、末端相位、物理首带和记录选择的独立带符号估计时恢复；不再仅查一般计数或换核表示 | 新输入直接给saving或严格缩小剩余预算，并保留全部范围与好集合交集量词 | 289§11已定位二点相关支撑失配、深右筛选与矩阶差距；未获得新输入，不宣布预算不可能；300--301结果保留 |
-| VIS-1 | 深度可见性；窄窗及计数型临界窗判据已定位障碍 | 固定实际目标族、sharp MT窗、背景和系数预算，找与303簇模型不相容的独立局部节点几何/相关估计，并证其残余Gram接口；无新输入不续开 | 改善实际可见性或严格缩小具体算术输入；不追加同级计数、一般完备性或模型变体 | 302实际窄窗负迹塌缩；303[T/N]同一临界窗的两套固定除子满足共同计数条件而有相反可见性，非实际zeta |
+| VIS-1 | 深度可见性；窄窗及计数型临界窗判据已定位障碍 | 必须给实际sharp MT窗的残余Gram下界或严格缩小其算术输入；仅排除303的一个具体簇不够 | 改善实际可见性或严格缩小具体算术输入；不追加同级计数、一般完备性或模型变体 | 302--303障碍保留；304-(42)只排除具体高系数簇，未给商后下框架；停止该计数动作 |
 | NCE-9 | 非构造补全 | 把 finite Cauchy-translate Schur block写成 joint signed Type I/II large-sieve form | uniform finite-block budget只用 length-side数据且弱于完整 RH criterion | finite satisfiability compactness与Gram/Schur判据已完成；33 translates捕获约23% package norm |
 | MOM-1 | 四矩观察线 | 只在出现新的 actual determinant-correlation input 时恢复；不得继续增加 Möbius/divisor kernel 表示 | 新输入必须在 physical fiber 内先合并全部 divisor blocks，并直接给 `o(L^4)` global ledger | exact band/mass已闭合；cumulative、band energy、channel mass、raw pullback与 divisor separation五条候选证书均已 theorem/no-go；条件比例仍为 0.7569027 / 0.8784513 |
 | NCE-10 | 非构造补全 | 增长的 arithmetic mixed localizers 与 divisor-visible resolvent closure | 每个有限 word level 近正且 Archimedean 有界，闭包恢复 divisor | scalar fourth moments 有 65 维严格 no-go；finite-satisfiability completion 已证明 |
@@ -44,6 +47,18 @@ VIS-1 已连续闭合两个不同的有限问题：[302](notes/302-positive-back
 ## 近期主要路线 A--E（2026-09-04 阶段审计）
 
 本节将当前技术分支压缩为五条主要路线，作为资源分配、晋级与止损的决策入口：A 为近期主线，B 为长期主线，C 为桥梁路线，D 为受限探索，E 为低风险验证路线。
+
+### MOM-STAB：二阶谱稳定性附注（2026-09-06）
+
+- **独立算术输入**：BGST全零点相关公式与RVM计数；固定平滑的去权步骤按Lamzouri独立重建。没有四矩、RH、简单零点短间距或商后可见性假设。
+- **部分Weil接口**：同一实际自伴算子 \(A=P+Q\)，保留单位简单特征Gram的 \(\operatorname{tr}j(G)\)，以 \(n_+(Q)\le b\) 承受其余零点抵消。只属显式公式型；不借上同调或非构造完备化。
+- **已完成最小引理/证据**：304-B的谱移位余项、304-C不交三点pinching、304-D无先验比例闭合、304-E纯解析正下界及304-F精确有理 \(\mathcal M(4,10^{-4})\) 全域证书均[T]；实际比例后果使用上述[R]。两份全文只读逆审与主代理复跑PASS。
+- **主要反例/失效点**：平窗sinc核在0,1,2形成正交三点；任意简单Gram的HS偏差可被其余零点抵消，必须使用凸谱余项；重叠块与其他稳定性余项不能重复相加。
+- **循环性审计**：未假设完整Weil正性、酉性或统一负惯性；全谱二阶公式包括非实点，逐项不必非负。固定平滑后先 \(T\to\infty\) 再 \(\delta\to0\)，未隐含变化函数一致误差。
+- **下一最小任务**：限额比对已公开的Schur--Jensen和多点稳定性工作，精确列出已覆盖命题及可能未覆盖接口，不追逐未经认证的小数。
+- **晋级条件**：除了内部正确性，还须识别可独立发表的具体贡献，或新的重要模型应用；再集中整理论文。
+- **止损条件**：若304仅为现有机制的较弱重建，保留为小型复核基准；不靠增加块数、重叠相加或反复排版维持路线。
+- **论文归属**：独立二阶稳定性附注，暂仅Markdown；不并入MOM-1四矩比例稿，也不称为已确认的新纪录。本轮分类为严格证明与认证进展，新颖性仍[O]。
 
 ### 路线 A / MOM-1：四阶矩增量（近期主线）
 

@@ -152,6 +152,10 @@ CHECKS = (
         [sys.executable, "critical_window_visibility_audit.py"],
     ),
     (
+        "MT triple exact rational certificate and spectral slack",
+        [sys.executable, "mt_triple_slack_audit.py"],
+    ),
+    (
         "quadratic fourth-moment channels",
         [sys.executable, "fourth_moment_channel_audit.py"],
     ),

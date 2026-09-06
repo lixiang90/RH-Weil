@@ -203,6 +203,22 @@
    本篇不代入平滑端点窗口，也不交换平滑/高度极限；纯模型结果未验证
    Lamzouri所需的算术相关输入，不升级为实际zeta结论。
 
+59. Siegfred Alan C. Baluyot, Daniel Alan Goldston, Ade Irma Suriajaya, Caroline L. Turnage-Butterbaugh, *An unconditional Montgomery theorem for pair correlation of zeros of the Riemann zeta-function*, Acta Arithmetica 214 (2024), 357--376；作者预印本 arXiv:2306.04799。[R] 304直接阅读原稿§3 Lemma5及证明；其固定实偶L1、支撑[-1,1]、在0 Lipschitz的条件允许带符号测试函数。另核对第54项§3的勘误及prefix式(3.5)：原Theorem1误差须放大，但原Lemma5仍有效，304又独立积分验证相同 \(O_q((\log T)^{-1/2})\)。304只用该全谱二阶算术预算和RVM；三点稳定性与有理证书另行重建，不归因于本文，也不借窄零点盒假设。
+   https://doi.org/10.4064/aa230612-20-3
+   https://arxiv.org/pdf/2306.04799
+   https://arxiv.org/html/2501.14545v3#S3
+
+   304同时重新核读第56项Lamzouri§3：对每个固定平滑窗口分别用 \(Q\) 和 \(Q''\) 去权，先高度后平滑极限。该既有接口并不自行提供本轮保留的谱稳定性余量。
+
+60. Chiara Bellotti, Peng-Jie Wong, *Improved estimates for the argument and zero-counting function of the Riemann zeta-function*（附Andrew Fiori的附录）, arXiv:2412.15470v2，Theorem1.1。[R] 304核读其显式计数常数0.10076、0.24460、8.08344，仅由两个端点差分得到固定半径1/4的上界 \((1/(4\pi)+0.20152+o(1))\log t\)。该经典后果排除303的一个具体高系数簇，不排除所有O(log t)簇，也不提供残余Gram下界；它不进入304主比例证明链。本轮引用的是已核读作者稿，不声称重建其全部显式估计证明。
+   https://arxiv.org/html/2412.15470v2
+
+61. Yuhang Shi, *A Schur--Jensen Gain in the Critical-Line Zero Problem*，作者公开工作稿，文内日期2026-08-12；作者上传页给DOI 10.5281/zenodo.21903013。第四层材料，不能凭上传平台或DOI认证其全部结论。主代理核读§2 Lemmas2.1--2.2和相关间距机制；304第2节独立重建相同凸谱余项并承认该先行工作，不主张首次发现。304不采用该稿Gabor边界或直接导入其数值结论，而使用第56/59项接口及本地完整三点有理证书。
+   https://www.researchgate.net/publication/412210529_A_SCHUR-JENSEN_GAIN_IN_THE_CRITICAL-LINE_ZERO_PROBLEM
+
+   作者后续公开仓库自标 research-draft candidate pending independent review，主张更高比例。主代理只阅读其状态及依赖说明，未重跑外部七点/九点大证书，不据此认证更高比例或宣称本项目较小数值为世界纪录；该候选不进入证明链。
+   https://github.com/yuhangshi888/zeta-simple-zeros-673316977
+
 ## 使用这些来源时的边界
 
 - Deligne 已无条件证明有限域结论，但不是通过证明全部 standard conjectures；不能把 standard conjectures 的一般成立当成已知事实。
