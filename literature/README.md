@@ -287,3 +287,7 @@ PDF按来源原样保存，未重排或改写；arXiv固定版本，GitHub固定
 
 完整核读及内部287／314重叠边界见[来源报告](../reviews/2026-09-06/phase3-primary-literature-review.md)。
 Schur出版社PDF入口返回202空正文；GDZ文章PDF入口成功。所有29页对象解析通过，扫描正文需要视觉核读。
+
+## 持续GOAL周期4核读更新（2026-09-06）
+
+BGST-2025的既有v3原件第7–8页3.3–3.5已重新核对：第7页主声明是移动区间，实际前缀公式在第8页3.5。用于[324候选sharp去权](../notes/324-sharp-mt-second-moment-by-measure-deweighting.md)，其新证明另待交叉复核。没有新增或覆盖PDF版本。
