@@ -677,7 +677,7 @@
       "pages": 190,
       "pdf_parse_status": "all pages parsed",
       "text_characters": 302886,
-      "status": "2026-09-05作者蓝图完整PDF固定快照；核读11.15–11.22，PDF91–94页与TTY证明对照仍有部分相同代数问题。不是独立证明认证；未认证整个数据库。；其Thm11.22对应的局部代数修补已按328内部核查，不认证其他蓝图内容。 2026-09-07另核PDF38、45–47、83–84、104页；Lemma11.6全tau范围存在明确反例候选，独立复核中，未导入该全范围命题。"
+      "status": "2026-09-05作者蓝图完整PDF固定快照；核读11.15–11.22，PDF91–94页与TTY证明对照仍有部分相同代数问题。不是独立证明认证；未认证整个数据库。；其Thm11.22对应的局部代数修补已按328内部核查，不认证其他蓝图内容。 2026-09-07主线程及Gibbs另核定义、反射、Lemma11.6及Huxley条款；全tau转述的反例与tau>=2修复已通过所列独立复核，详见reverse-large-values-independent-review.md；不认证整个数据库。"
     },
     {
       "id": "Matomaki-Teravainen-2024",
@@ -696,7 +696,26 @@
       "pages": 16,
       "pdf_parse_status": "all pages parsed",
       "text_characters": 30993,
-      "status": "主线程核读第1–9页，重点Theorem1.2的测度、长度与阈值量词；原分析全证未审。tau>=2的一分离桥梁与ANTEDB全tau陈述的反例候选见reviews/2026-09-07/reverse-large-values-source-audit.md，独立复核中。"
+      "status": "主线程及Gibbs核读第1–9页；原分析全证未审。tau>=2的一分离桥梁与ANTEDB全tau转述反例已通过独立复核，采用端点、量词及引用修订；详见reviews/2026-09-07/reverse-large-values-independent-review.md。不构成新零密度界。"
+    },
+    {
+      "id": "Clark-1968",
+      "category": "background",
+      "authors": "Douglas N. Clark",
+      "title": "On matrices associated with generalized interpolation problems",
+      "version": "Pacific Journal of Mathematics 27(2), 1968, pp.241–253; publisher PDF retrieved 2026-09-07",
+      "file": "background/clark-generalized-interpolation-1968.pdf",
+      "source_url": "https://msp.org/pjm/1968/27-2/pjm-v27-n2-p04-p.pdf",
+      "pdf_url": "https://msp.org/pjm/1968/27-2/pjm-v27-n2-p04-p.pdf",
+      "resolved_pdf_url": "https://msp.org/pjm/1968/27-2/pjm-v27-n2-p04-p.pdf",
+      "download_status": "downloaded",
+      "bytes": 1454264,
+      "sha256": "20af9e2a2d808de0618ba705ed31e5da730a36c1253c85ce4b2a45299445615a",
+      "retrieved_at_utc": "2026-09-06T17:07:05.450908+00:00",
+      "pages": 17,
+      "pdf_parse_status": "all pages parsed",
+      "text_characters": 29485,
+      "status": "经典插值背景归档；只核读PDF第1–3页标题、摘要和范围介绍，未审查全证，也未将其定理用于332。完整带符号列的Cauchy有限矩阵推导另行自证；不宣称经典插值机制原创。"
     }
   ],
   "supplement_provenance": [

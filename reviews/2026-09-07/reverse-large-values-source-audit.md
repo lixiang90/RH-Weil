@@ -1,6 +1,6 @@
 # 反向大值定理的原始范围与下一路线准入
 
-2026-09-07。主线程原始条款核查及自含推导候选，独立审查待完成。
+2026-09-07。主线程原始条款核查及自含推导，所列范围已通过[Gibbs独立复核](reverse-large-values-independent-review.md)，修订已采用。
 本记录不认证整个ANTEDB，也不修改外部原件。
 
 ## 来源与实际核读
@@ -36,14 +36,17 @@ Remark1.3对prime/Möbius多项式的讨论还引入T^(2nu+2epsilon)项，
 ## 2. 一分离点到测度的无幂损失桥梁
 
 固定1/2<sigma<1、tau>=2。取zeta大值pattern：
-T=N^(tau+o(1))，I subset [N,2N]为一个固定区间，
+T=N^(tau+o(1))，I=I_N subset [N,2N]在每个pattern内对所有t_r共用，但可随N变化，
 W subset [T,2T]一分离，且每个t_r in W有
 |sum_{n in I}n^-it_r|>=N^(sigma-o(1))。
 
 将端点单位项吸收后，写I=(M,M']，M asymp N、M'<=2M。
 分部求和给某端点u<=M'满足
 |sum_{M<n<=u}n^(-1-it_r)|>=N^(sigma-1-o(1))。
-若|h|<=1/4，再对n^-ih作分部求和，有
+写A0(v)=sum_{M<n<=v}n^(-1-it_r)，则原和=M'A0(M')-integral_M^M' A0(v)dv，
+其绝对值<=3M max|A0|。若|h|<=1/4，写Ah(v)=sum_{M<n<=v}n^(-1-i(t_r+h))，
+再对n^(ih)作分部求和，有精确式
+A0(u)=u^(ih)Ah(u)-ih integral_M^u v^(ih-1)Ah(v)dv。因此
 \[
  \left|\sum_{M<n\le u}n^{-1-it_r}\right|
  \le(1+|h|\log2)
@@ -58,7 +61,7 @@ M<=sqrt(T')/2；对充分小固定epsilon，M>=(T')^epsilon。
 因此(1)适用于T'。先N趋无穷，再令delta、epsilon趋零，不损失T的固定幂。
 这证明短多项式事件到一分离pattern的桥梁，未把任意系数偷偷改成1。
 
-例如，若一个固定连续函数f在[sigma-delta_0,1]上为实际零计数提供
+例如，若一个固定、有限实值连续函数f在[sigma-delta_0,1]上，为每个固定alpha和任意固定epsilon>0提供实际零计数界
 N(alpha,T)<<_{alpha,epsilon}T^(f(alpha)+epsilon)，
 则有限网格加N对alpha单调性与f的一致连续性给
 \[
@@ -68,7 +71,7 @@ N(alpha,T)<<_{alpha,epsilon}T^(f(alpha)+epsilon)，
             \{f(\alpha)+(\alpha-\sigma)/2\}\right),
  \qquad \tau\ge2.                                      \tag{3}
 \]
-网格常数有限，所有端点都固定在T极限前；不假定逐alpha渐近自动一致。
+取delta+epsilon<min(delta_0,sigma-1/2)。对每个固定精度eta先选有限网格，使f每格振幅<eta，再以左侧网格点控制N。网格常数有限，所有端点和损失参数都固定在T极限前；不假定逐alpha渐近自动一致。
 (3)只是原定理的明确推论，不宣称新大值原理。
 
 ## 3. ANTEDB的“所有tau>0”不能按字面使用
@@ -92,6 +95,10 @@ Definition7.1和8.1确实允许全部tau>=0，没有隐藏tau>=2。
 得到合法zeta大值pattern，|W| asymp T。
 结合平凡上界，LV_zeta(7/8,1/8)=1/8，其与tau之比为1。
 
+Definition11.1只在alpha<1定义A(alpha)。上述涉及A的上确界应按到1左侧理解；
+比较时使用f连续延拓至f(1)=0，不能把未定义的A(1)(1-1)作为有限算式。
+这个端点补准不改变下面反例。
+
 另一方面，用已采用的Huxley实际密度界
 f(alpha)=3(1-alpha)/(3alpha-1)，alpha>=7/8。
 f(alpha)+(alpha-7/8)/2严格递减，因为导数
@@ -101,7 +108,7 @@ f(alpha)+(alpha-7/8)/2严格递减，因为导数
 因此**Lemma11.6的全tau范围按所列定义不成立**。
 这不是对Matomäki–Teräväinen Theorem1.2的反例：这里N远大于sqrt(T)，
 正好违反其长度范围。也不否定tau>=2的合法推论。
-1<tau<2若要使用反射，须保留Definition8.3(iv)中的sup和阈值损失；
+1<tau<2若要使用反射，须保留Lemma8.3(iv)中的sup和阈值损失；
 不能直接把脚注所称“morally”简式当作精确定理。
 
 ## 4. 两项不应继续寻优的直接拼接
@@ -123,7 +130,9 @@ f(alpha)+(alpha-7/8)/2严格递减，因为导数
 这不限制改用其他大值定理、不同检测器或非此端点的归约。
 
 **仅将同一零密度界反向反馈。** (3)的sup包含alpha=sigma，
-所以其右端>=f(sigma)。单靠f -> (3) -> 常规大值上界拼接不会自动产生
+所以其右端>=f(sigma)。本判定只指同一sigma直接使用式(3)数值作为zeta大值输入的拼接。
+式(3)只控制LV_zeta；由LV_zeta<=LV不能反向推出一般LV的上界，
+而常规正向零密度关系还需要一般LV控制。单靠这一步没有形成有效闭环，也不会自动产生
 比f(sigma)更小的数；需要另外的独立信息。
 这是此直接代入账本的判定，不排除与其他有效不等式组合产生改进。
 

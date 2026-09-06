@@ -303,8 +303,13 @@ Bourgain 2000的原始DOI https://doi.org/10.1155/S107379280000009X 本次web未
 
 ## 持续研究的反向大值输入核查（2026-09-07）
 
-- **Matomäki–Teräväinen (2024)**，*A note on zero density results implying large value estimates for Dirichlet polynomials*。arXiv:2403.13157v1（2024-03-19），16页。[本地PDF](background/matomaki-teravainen-density-to-large-values-2403.13157v1.pdf)；[固定版本](https://arxiv.org/abs/2403.13157v1)；[下载](https://arxiv.org/pdf/2403.13157v1)。2026-09-07检索的arXiv历史仅列v1；全文已归档并全页解析，Theorem1.2与ANTEDB11.6的量词正在核读，尚未导入新的算术结果。SHA、字节数与取得时间见manifest。
+- **Matomäki–Teräväinen (2024)**，*A note on zero density results implying large value estimates for Dirichlet polynomials*。arXiv:2403.13157v1（2024-03-19），16页。[本地PDF](background/matomaki-teravainen-density-to-large-values-2403.13157v1.pdf)；[固定版本](https://arxiv.org/abs/2403.13157v1)；[下载](https://arxiv.org/pdf/2403.13157v1)。2026-09-07检索的arXiv历史仅列v1；全文已归档并全页解析，Theorem1.2与ANTEDB11.6的所列量词及反例已经独立核查，未导入新的算术结果。SHA、字节数与取得时间见manifest。
 
 本次原始范围审计见[反向大值来源记录](../reviews/2026-09-07/reverse-large-values-source-audit.md)：
-主线程已核读新原件第1–9页；提出ANTEDB11.6全tau陈述的反例候选，
-保留原Theorem1.2的短长度范围。Gibbs正在独立复核，未将候选记为已审结论。
+主线程及Gibbs已核读新原件第1–9页；ANTEDB11.6全tau转述的反例与tau>=2的测度桥梁已通过[独立复核](../reviews/2026-09-07/reverse-large-values-independent-review.md)。
+原Theorem1.2的短长度范围保持；未认证原文完整解析证明、其他数据库条款或新的零密度结果。
+
+## 完整节点组与经典插值背景（2026-09-07）
+
+- **Douglas N. Clark (1968)**，*On matrices associated with generalized interpolation problems*，Pacific Journal of Mathematics 27(2), 241–253。[原始PDF](background/clark-generalized-interpolation-1968.pdf)；[出版者下载](https://msp.org/pjm/1968/27-2/pjm-v27-n2-p04-p.pdf)。实际PDF17页，全页可解析。仅核读PDF第1–3页标题与范围介绍，未导入其全定理；332有限Cauchy公式自证。SHA、字节数与取得时间见manifest。
+- Tom Alberts的[Cauchy determinant讲义](https://math.utah.edu/~alberts/notes/cauchy-determinant-formula/c_det_formula/)已检索，正文读取返回502，未取得PDF；只保留检索入口，不称为核读原件。
