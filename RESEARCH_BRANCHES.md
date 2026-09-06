@@ -2,9 +2,20 @@
 
 本文件记录尚未进入正式论文的探索路线。严格推导见 [`notes/174-nonconstructive-existence-and-branch-map.md`](notes/174-nonconstructive-existence-and-branch-map.md)。
 
-## 唯一后续队列（GOAL.20260906 phase 2 周期结算）
+## 唯一当前队列（GOAL.20260906 phase 3）
 
-[本阶段目标](goals/GOAL.20260906.md)的303审查与310–316七轮探索已闭合数学审查；
+[第三版目标](goals/GOAL.20260906.md)已开始执行多轮研究；[账本](goals/PROGRESS.md)为当前状态。
+
+| 任务 | 角色与动作 | 边界 |
+|---|---|---|
+| VIS-CL-GRAM | 唯一主线：原始Gram、增长列数、同一R及集体预算 | 不直接相加316，不假定实际簇存在 |
+| 原始文献／独立逆审 | 只读辅助，按既有授权使用子代理 | 不冒充外部评审 |
+| MOM-1／NCE-8／GNS | 后续备选，按有限准入切换 | 不重复旧等价表示 |
+| David–Lapidus | 未启动限额观察 | 原10%资源上限保留 |
+
+## phase 2 队列快照（历史）
+
+[当时目标](goals/archive/GOAL.20260906.phase2.md)的303审查与310–316七轮探索已闭合数学审查；
 [阶段验收](goals/ACCEPTANCE.phase2.md)记录最终版本保存。下方旧队列全部为历史。
 
 | 任务 | 状态 | 下一动作及边界 |

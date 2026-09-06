@@ -2,14 +2,20 @@
 
 本目录研究一个明确的问题：能否把有限域上 Weil 猜想中迫使 Frobenius 特征值具有正确绝对值的结构抽离出来，并在数域的 zeta / L 函数上构造同类结构？
 
-## 当前研究状态：phase 2 结果与验收（2026-09-06）
+## 当前研究状态：phase 3（2026-09-06）
+
+已再次修订[GOAL.20260906](goals/GOAL.20260906.md)，进入多簇共同效应与同一正则化算子的多轮研究。
+原始Gram、增长簇数成本及共同日程依次审计；当前尚无本阶段新定理或实际几何验证。
+[执行账本](goals/PROGRESS.md)记录本周期推导、复核及保存状态。
+
+## phase 2 已完成结果（2026-09-06）
 
 [GOAL.20260906](goals/GOAL.20260906.md)的303完整复核和7轮VIS-REG探索已形成闭环成果。
 [314](notes/314-hybrid-density-tail-and-shorter-depth-gap.md)给实际正背景尾的幂级改进；
 [316](notes/316-coherent-cluster-negative-mass-and-logarithmic-aperture.md)在保留全部正项及簇内负项后，
 允许o(1/log T)的簇宽，条件性证明已通过独立内部复核。
 实际簇存在、外部分离、全局正性及RH仍开放，没有新比例或世界优先权声明。
-[逐项验收](goals/ACCEPTANCE.phase2.md)、[执行账本](goals/PROGRESS.md)和[下一有限任务](goals/NEXT.phase2.md)记录保存及继续范围。
+[逐项验收](goals/ACCEPTANCE.phase2.md)、[历史执行账本](goals/archive/PROGRESS.phase2.md)和[下一有限任务](goals/NEXT.phase2.md)记录保存及继续范围。
 
 ## phase 1 完成记录（2026-09-06）
 

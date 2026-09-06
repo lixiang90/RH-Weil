@@ -1,0 +1,27 @@
+{
+  "scope": "Exact algebra only; no proof of operator estimates or actual clusters.",
+  "rank_one_example": {
+    "dimension": 16,
+    "per_column_error_squared": "1/4",
+    "common_gram_eigenvalues": {
+      "1": 15,
+      "9": 1
+    },
+    "general_per_column_error": "1/n",
+    "general_common_gram_norm": "(1+n)^2"
+  },
+  "example_parameters": {
+    "s": "7/20",
+    "d0": "2/5",
+    "theta": "1/5",
+    "crossing": "3/7",
+    "phi": "8/35",
+    "psi": "3/7",
+    "common_base_power": "51/140",
+    "cheap_base_margin": "1/28",
+    "illustrative_cluster_count_power": "1/10",
+    "HS_base_power": "29/70",
+    "HS_base_excess_over_d0": "1/70",
+    "external_density_count_power": "3/11"
+  }
+}

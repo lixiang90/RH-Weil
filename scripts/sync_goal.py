@@ -20,6 +20,7 @@ FILES = (
     "archive/GOAL.old.md",
     "archive/GOAL.proposed.md",
     "archive/GOAL.20260906.phase1.md",
+    "archive/GOAL.20260906.phase2.md",
     "archive/README.md",
 )
 
@@ -30,7 +31,7 @@ def mirror_bytes(relative: str, raw: bytes) -> bytes:
     source = raw.decode("utf-8")
     def rebase(match: re.Match[str]) -> str:
         target = match[1]
-        if relative == "archive/GOAL.20260906.phase1.md":
+        if relative in {"archive/GOAL.20260906.phase1.md", "archive/GOAL.20260906.phase2.md"}:
             # This exact snapshot retains the link context of the former root goal.
             if target.startswith("RH-Weil/"):
                 target = "../../" + target[len("RH-Weil/"):]
