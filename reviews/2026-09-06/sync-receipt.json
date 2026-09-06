@@ -1,0 +1,10 @@
+{
+  "branch": "main",
+  "remote": "https://github.com/lixiang90/RH-Weil",
+  "artifact_commit": "1c005c03ec01a612604d3957e54a79a8efe8ab65",
+  "observed_remote_sha": "1c005c03ec01a612604d3957e54a79a8efe8ab65",
+  "remote_check": "git ls-remote origin refs/heads/main; success after git push",
+  "recorded_at_utc": "2026-09-06T07:18:53.017492+00:00",
+  "committed_artifact_hash_check": "3 PDF and 11 TeX source hashes match paper-build-manifest.json",
+  "scope": "This receipt records the complete artifact commit; the following documentation-only commit records stage acceptance."
+}

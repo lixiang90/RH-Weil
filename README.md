@@ -7,7 +7,7 @@
 正式执行 [GOAL.20260906](goals/GOAL.20260906.md)，进度见 [验收账本](goals/PROGRESS.md) 和 [唯一当前队列](RESEARCH_BRANCHES.md)。
 本轮已完成 [306 基础纠错](notes/306-quartic-boundary-and-equal-norm-corrections.md)、
 [307 非循环椭圆曲线模型](notes/307-odd-polarization-and-elliptic-degree-benchmark.md) 及 [308 Abel 稿独立复核](notes/308-abel-obstruction-proof-literature-and-reproduction.md)。
-[309 准入决定](notes/309-explicit-formula-benchmark-and-route-admission.md)为暂不恢复算术主线；三份论文 PDF 已同步纠错，完整材料正在完成最终版本验收。
+[309 准入决定](notes/309-explicit-formula-benchmark-and-route-admission.md)为暂不恢复算术主线；三份论文 PDF 已同步纠错，第十节本阶段验收已完成，完整成果已推送 GitHub。
 实际四矩高乘积有符号预算仍未证明；没有新无条件比例或数域 RH 结论。
 以下旧阶段研究记录保留历史语境，不作为当前启动算术主线的授权。
 
