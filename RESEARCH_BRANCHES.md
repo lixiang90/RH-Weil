@@ -4,7 +4,7 @@
 
 ## 当前队列
 
-维护验收与恢复（2026-09-06）：David--Lapidus观察线、论文目录及GitHub Actions三项维护均已完成，[完整三组远程检查成功](https://github.com/lixiang90/RH-Weil/actions/runs/33982592142)。291--295组成的四轮周期已完成；停止只改变PNT包络的普遍改进路线，不把295模型边界扩大为完整Weil no-go。亚纯接口周期第1轮296--297给硬截断模型日程和双端点审计；第2轮298--299已将过快日程障碍传递至真实有限zeta候选，并证明全尺度局部一侧polylog预算仍具RH全强度。**停止该候选的亚临界日程及固定有限中心模式修补**；下一步只核验临界或更慢日程的端点分离全轴误差，不继续将局部预算重命名为弱输入。289仍观察；`DL-AUDIT`未启动，资源门槛不变。
+维护验收与恢复（2026-09-06）：David--Lapidus观察线、论文目录及GitHub Actions三项维护均已完成，[完整三组远程检查成功](https://github.com/lixiang90/RH-Weil/actions/runs/33982592142)。291--295四轮周期与纯PNT包络路线已收束。当前亚纯接口周期：296--297给模型边界层，298--299将过快日程障碍传给真实候选并审计局部强输入；第3轮300闭合端点分离的全轴RH误差，并得到端点修正族的真实全谱临界常数。**本固定候选的条件日程校准到此闭合，不继续扩写RH等价预算**。下一轮只检验固定包到近碰撞包的一致性边界，再进行周期收束；不自动外推到增长谱包或L函数族。289仍观察；`DL-AUDIT`未启动，资源门槛不变。
 
 | ID | 角色 | 下一最小引理 | 晋级条件 | 状态 |
 |---|---|---|---|---|
@@ -15,7 +15,7 @@
 | NCE-5 | 备用线 | one-prime/one-block extension，预算增量可和 | extension 不调用完整 Weil positivity | 观察 |
 | NCE-6 | 备用线 | bounded-resolvent/negative-trace 的 ultraproduct 稳定性 | 先独立得到统一预算 `C` | 观察 |
 | NCE-7 | 非构造主线 | short-word effects 对实际 negative level sets 的 response-weighted capture | capture error共尾可和且不调用 Selberg/RH 等价输入 | degree-one universal moment route 已 sharp no-go |
-| NCE-8 | 当前主线：截断日程及实际亚纯接口 | 298--299后：核验RH条件下端点分离的全轴误差候选，追踪共同端点与全部谱尾，再检查临界日程是否存在小端点整数截断；不假设局部统一预算 | 得到改善293的统一误差并严格缩小日程缺口，或给出明确反例；条件校准与无条件算术输入分开登记 | 298真实过快日程及固定有限中心减法已[T/N]；299全尺度局部一侧polylog预算是RH等价强输入；临界充分性[O] |
+| NCE-8 | 当前主线：有限到整体的一致性边界 | 300-(50)：固定γ>0，两个临界共轭包高度差π/L，核验其联合负迹是否为o(e^-q log L)，统一1≤q≤A loglog L；先只检验这一变化模型族 | 证明或反驳固定包系数的非一致性，并明确今后族推广所缺的簇控制；不将模型结论假称实际零点间距 | 300全轴误差与真实全谱临界渐近已[C/RH]；无条件端点修正/小端点序列已[T]；停止重写日程等价预算 |
 | NCE-9 | 非构造补全 | 把 finite Cauchy-translate Schur block写成 joint signed Type I/II large-sieve form | uniform finite-block budget只用 length-side数据且弱于完整 RH criterion | finite satisfiability compactness与Gram/Schur判据已完成；33 translates捕获约23% package norm |
 | MOM-1 | 四矩观察线 | 只在出现新的 actual determinant-correlation input 时恢复；不得继续增加 Möbius/divisor kernel 表示 | 新输入必须在 physical fiber 内先合并全部 divisor blocks，并直接给 `o(L^4)` global ledger | exact band/mass已闭合；cumulative、band energy、channel mass、raw pullback与 divisor separation五条候选证书均已 theorem/no-go；条件比例仍为 0.7569027 / 0.8784513 |
 | NCE-10 | 非构造补全 | 增长的 arithmetic mixed localizers 与 divisor-visible resolvent closure | 每个有限 word level 近正且 Archimedean 有界，闭包恢复 divisor | scalar fourth moments 有 65 维严格 no-go；finite-satisfiability completion 已证明 |
@@ -235,6 +235,18 @@
   \]
   必须证明全轴与参数一致性，不能把固定窗口的 \(O(1)\) 延伸到全轴；再单独审计小端点整数截断与临界日程。这里仍为[O]，即使证明也先属RH条件校准，不产生缺失的无条件正性。
 - **晋级、止损与论文归属**：真实过快日程障碍晋级为内部[T/N]，局部预算仅登记为隐藏RH输入的审计，不因等价表达而继续扩写。停止亚临界日程、固定有限模式修复及未经算术证明的全尺度局部背景界；下一轮若只有恒等式或旧误差因子，停止同类改写。材料归独立response论文的有限化/亚纯接口障碍部分，先用Markdown、不更新PDF，不混入四矩比例或上同调存在性论文。DL-AUDIT未启动；本轮无新零点比例、零密度、零自由区或RH/GRH证明，新颖性、外部同行审查与Goal阶段验收仍[O]。
+
+#### B1z 亚纯接口周期第3轮：全轴误差与真实临界常数（2026-09-06）
+
+- **主线已解最小输入 [C/RH]**：[300-A](notes/300-endpoint-separated-global-error-and-critical-schedule.md)证明全部 \(Y\ge4,\ 0<\delta\le1/4\) 的全轴复模误差至多 \(C\{e^{-q}|E(Y)|/\sqrt Y+e^{-q}\log(2+1/\delta)+Y^{-1/2-\delta}\}\)。相比293的实部粗界，保留实际共同端点并将其余谱损失降至对数级。300-B在 \(1\le q\le L/4\) 给 \(1+\kappa\asymp1+e^{-q}(|E(Y)|/\sqrt Y+\log L)\)；不删除加1或扩至q<1。
+- **配置接口与独立算术构造 [T]**：显式修正 \(\widehat F_Y=F_Y^\sharp+e^{-1}Y^{-s}E(Y)\) 不读取零点；等价于同一有限权在上端锚定为零，完整连续项/Gamma不变。通过有限实lag源、Gamma大半圆与Chebyshev重新核验Poisson/Euler-germ，未相减两个Poisson下界；整数截断跳跃精确抵消，修正族对实Y连续。它只校准显式公式型接口，不构造上同调或无条件正性。
+- **真实全谱临界渐近 [C/RH]**：300-C对固定 \(A>0\)，统一 \(1\le q\le A\log\log L\)，给 \(\widehat\kappa_Y/(e^{-q}\log L)\to C_\zeta=2(\xi'/\xi)(3/2)/\pi^2>0\)。先固定有限对称谱包，负部上界用次可加性和正余谱，下界用隔离窗；以补偿差的两条可和尾预算控制遗漏谱，先Y趋无穷、再谱包增大。没有假设包间间距或固定包常数对族一致。
+- **辅助一：无条件小端点整数 [T]**：300-D的 \(\mathcal C=\{n:E(n-1)>0\ge E(n)\}\) 共尾且 \(-1<E(n)\le0\)。用实际Mellin变换在正实轴解析、已知非实极点和非负Laplace的Landau性质证明弱双向无界，再保留完整整数差 \(\Lambda(n)-1\ge-1\)。不需RH、Littlewood强幅值或记录选择。原候选沿此序列有同一RH条件渐近，但这些点不继承284的强质量/历史账本。
+- **RH循环性与停止边界**：在修正族全尺度或原族的小端点序列上，临界 \(q=\log\log L+c+o(1)\) 的RH条件极限是 \(C_\zeta e^{-c}>0\)，不是趋零。一般靠线序列的“有界 iff RH且偏移有下界”“趋零 iff RH且偏移趋正无穷”只作强度审计，不能登记为独立算术输入。原候选任意尺度仍需端点预算；298过快日程障碍也适用于修正族，未得到无条件速率。
+- **独立外部输入与删除测试**：经典显式公式、单位高度计数、函数方程、非实零点存在性与Hadamard展开；主代理本轮再读Kedlaya第9章的相关条目。Euler开集识别不需要RH点态PNT率；差核TV包含所有跳跃，全轴估计不删s因子。若删RH，谱振幅与正余谱同时失效；若删隔离窗，局部下界不能从粗全轴尾恢复首项；若先取增长包，固定间隔常数失去依据。
+- **辅助二、证据与审计 [E/T]**：六组合成核、48次MP50比较，原lag积分加解析尾对32阶展开的最大差 \(2.783\cdot10^{-39}\)，不超过显式阶乘尾；未计算实际零点或全轴Cauchy范数。脚本作者与主代理各自运行通过。全文逆向审计及仓库检查在300第11节登记；所有数值只[E]。
+- **下一最小引理与晋级条件 [O]**：只检查300-(50)的高度差π/L双包碰撞模型；必须保留两对模式、Abel权和参数一致误差。若联合负迹的对数主项消失，即给固定包渐近不能无簇条件向族外推的精确障碍；若否，记录反例并停止该猜测。此模型随L变化，不能当作固定zeta或实际L函数的零点构造。
+- **周期决策与论文归属**：本固定候选的条件日程校准闭合，停止继续改写等价预算；第4轮只做上项有限一致性测试并收束周期。300暂归独立response论文的有限化/亚纯接口部分，本轮仅Markdown、不更新PDF；外部文献定位和独立同行审查完成前不确认新颖性或Goal阶段验收。不并入四矩比例论文，不启动DL-AUDIT，无新RH/GRH、零点比例、零密度或零自由区。
 
 ### 路线 C / VIS-1：离线零点深度可见性（桥梁路线）
 

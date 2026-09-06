@@ -19,6 +19,34 @@ Actions 将原检查清单分为 core、B1h、B1i 三组并行，全部成功才
 ## 正式论文整理稿
 
 最新研究进展（2026-09-06）：
+[300：端点分离的全轴误差与真实全谱临界渐近](notes/300-endpoint-separated-global-error-and-critical-schedule.md)。
+本轮闭合了298提出的RH条件误差问题。令 \(L=\log Y,\ q=\delta L\)，
+把实际有限候选修正为
+\(\widehat F_Y=F_Y^\sharp+e^{-1}Y^{-s}(\psi(Y)-Y+1)\)。
+修正不读取零点，独立保留Poisson及Euler-germ接口，并取消整数截断跳跃 [T]。
+
+**在RH下**，对固定 \(A>0\)，统一于 \(1\le q\le A\log\log L\)，
+\[
+ \widehat\kappa_Y(q/L)\sim C_\zeta e^{-q}\log L,\qquad
+ C_\zeta=\frac2{\pi^2}\frac{\xi'}{\xi}(3/2)>0 .
+\]
+证明先固定有限谱包，用隔离窗和正余谱分别控制下界与上界，再以完整补偿差
+控制无限尾；没有把负部直接相加，也没有假设增长包常数一致。
+所以 \(q=\log\log L+c+o(1)\) 时负迹趋于 \(C_\zeta e^{-c}>0\)：
+临界有界不等于趋零 [C/RH]。
+
+另无条件证明整数下降交点
+\(\psi(N-1)-(N-1)+1>0\ge\psi(N)-N+1\) 共尾，
+且其端点误差在 \((-1,0]\)；沿这些截断，原候选有同一RH条件渐近。
+此构造不调用RH或Littlewood强幅值，也不继承284的强质量记录。
+一般原候选仍须保留端点预算，不能把修正族的全尺度结论移植过去。
+
+本固定候选的条件日程校准告一段落；不再扩写等价预算。
+下一有限问题仅检查近碰撞双谱包的一致性边界，尚未作为定理。
+本轮仅Markdown与有限核复算，不更新PDF；
+未证明RH/GRH或新零点比例、零密度，文献新颖性与外部审查仍待完成。
+
+同日上一轮：
 [298：真实临界窗口与过快右移障碍](notes/298-actual-critical-window-and-fast-shift-obstruction.md)，
 辅助审计为[299：局部一侧预算的 Mellin 强度](notes/299-local-one-sided-budget-mellin-strength-audit.md)。
 本轮将296的模型障碍传递到了293的**真实 zeta 有限 sharp--Abel 完成候选**。

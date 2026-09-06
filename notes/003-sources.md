@@ -161,6 +161,11 @@
    https://kskedlaya.org/ant/chap-funceq.html
    https://kskedlaya.org/ant/chap-von-mangoldt.html
 
+   300继续只取上述经典输入：非实极点用于弱Landau反证，RH分支的计数用于全谱尾。
+   本轮再次阅读第9章Lemma9.4、Remark9.7和Theorem9.9；补偿差的一致复模界、
+   有限包到全谱的临界常数及小端点整数选择均在300独立重建，不归因于书稿。
+   300的小端点共尾性不调用Littlewood强振荡幅度；其临界渐近明确以RH为条件。
+
 51. Andrew Fiori, Habiba Kadiri, Joshua Swidinsky, *Sharper bounds for the Chebyshev function \(\psi(x)\)*，arXiv:2204.02588v3（2023-05-17）。[R] 263/265已经调用该文的Corollary1.4；本轮再次核验作者预印本摘要所列的无条件全 \(x>2\) 误差界，并补入统一文献表。294只使用其弱后果：存在固定 \(c>0\)，\(|\psi(x)-x+1|\ll x e^{-c\sqrt{\log x}}\)。不优化或认证数值常数，不宣称本轮重新审读其完整证明或出版版本。相同弱输入亦由Kedlaya书稿第7章Theorem7.7给出；从半权到完整原子的 \(O(\log x)\) 差可吸收。294的匹配Abel前缀、记录交点及295的固定正源饱和构造均独立重证，不归因于上述来源。
    https://arxiv.org/abs/2204.02588v3
    https://kskedlaya.org/ant/part-2-4.html
