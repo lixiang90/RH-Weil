@@ -2,13 +2,14 @@
 
 本目录研究一个明确的问题：能否把有限域上 Weil 猜想中迫使 Frobenius 特征值具有正确绝对值的结构抽离出来，并在数域的 zeta / L 函数上构造同类结构？
 
-## 当前研究状态：持续GOAL，周期5（2026-09-06）
+## 当前研究状态：持续GOAL，周期6（2026-09-07）
 
-[第五版GOAL](goals/GOAL.20260906.md)已将当前周期验收与较远期显著进展分开。
-本GOAL保持active：321–326已给近点预算、sharp二阶公式及条件性计数与实际比较；
-当前[327](notes/327-window-family-and-exact-mixed-phase-average.md)检验窄范围变窗的混合相位，证明候选独立逆审中，
-完成一个有限周期不结束GOAL。RH、零点比例／非零区域改进及实质算术Weil结构仍为较远期目标。
-[执行账本](goals/PROGRESS.md)记录实际进度与切换依据。
+[第六版GOAL](goals/GOAL.20260906.md)保持当前周期验收与较远期显著进展的区分。
+321–326已给近点预算、实际sharp二阶公式及条件性计数比较；
+327、329变窗平均已独立复核并[结算](goals/ACCEPTANCE.cycle5.md)。
+当前[330](notes/330-exact-sublevels-and-arbitrary-window-concentration.md)研究任意增长集中度的精确核成本，独立逆审中。
+RH、零点比例／非零区域改进及实质算术Weil结构仍未实现，整个GOAL保持active。
+[执行账本](goals/PROGRESS.md)记录当前动作和保存状态。
 
 ## phase 3 已完成结果（2026-09-06）
 

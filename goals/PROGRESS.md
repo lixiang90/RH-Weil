@@ -1,7 +1,7 @@
-# 持续GOAL执行账本：当前周期5
+# 持续GOAL执行账本：当前周期6
 
-2026-09-06。起点main 17c0774e0652f72ffaf9192f1f760c4294226caf。
-[第五版目标](GOAL.20260906.md)已正式启动持续GOAL；[phase3历史](archive/PROGRESS.phase3.md)保留。
+2026-09-07。起点main 17c0774e0652f72ffaf9192f1f760c4294226caf。
+[第六版目标](GOAL.20260906.md)已正式启动持续GOAL；[phase3历史](archive/PROGRESS.phase3.md)保留。
 
 ## 整个GOAL的状态
 
@@ -27,22 +27,23 @@ Euler的[算术审计](../reviews/2026-09-06/cycle4-arithmetic-interface-audit.m
 
 ## 保存
 
-第五版目标及cycle4原始字节快照已保存，8份目标镜像已同步；当前修订保持第十节B/C强度。
+第六版目标及cycle5原始字节快照已保存，9份目标镜像纳入同步；当前修订保持第十节B/C强度。
 文献、只读子代理复核及定期commit/push的既有授权持续有效。第四版目标及原始历史已随14bb2c77be62ec3ddf2d5e0668e675e0612020f6推送核验。321–323草稿已随6ec8a8e00ee5f5b1195db822d0366062fc2cba6b推送并核验；323空坏集合边界与精确核算随后保存。324–325及近点纠错随80418b5edf57896a93688667a40b100ce08c9ca4推送核验。未达较远期显著进展。
 
-## 周期5当前动作与复核
+## 周期5已结算，周期6进行中
 
-[任务单](NEXT.cycle4.md)和[327候选](../notes/327-window-family-and-exact-mixed-phase-average.md)已落盘：
-统一变窗二阶接口、原始混合核、两尺度平方平均及实际权重成本已完成推导和独立逆审。
-327已通过Franklin独立复核，符号及平均量词已修订。
-[329候选](../notes/329-mass-weighted-window-average-and-density-cap.md)作为第5、6动作，计算分别积分再相除的平均和w<=C/H相位选择的最优下界；Franklin正在独立核查。
-没有实际覆盖，本周期结算不结束整个GOAL。
+[周期5结算](ACCEPTANCE.cycle5.md)：327、329六个数学动作和独立复核完成。
+329积分延长顺序、末尾周期质量账本及固定C量词均已修正。
+[周期6任务单](NEXT.cycle5.md)以精确C¹核次水平集处理任意增长集中度，
+[330](../notes/330-exact-sublevels-and-arbitrary-window-concentration.md)已有完整证明候选，正在独立逆审。
 
-- Franklin 01a0766f-fe7c-7e22-a2b2-b9ffda58619d：327已完成，正在核查329，活跃。
-- Gibbs已完成326与TTY修补证据并关闭；[328](../notes/328-tty-thm51-proof-repair-and-scope.md)记录主线程原始条款、全域端点逻辑及130项精确复跑。
+- Franklin 01a0766f-fe7c-7e22-a2b2-b9ffda58619d：已恢复，当前只读审查330；329报告已保存。
+- Gibbs已完成326与TTY修补证据并关闭；[328](../notes/328-tty-thm51-proof-repair-and-scope.md)记录所列原始条款、全域端点逻辑及130项精确复跑。
 - Euler已关闭，324–325及321–323报告均已保存。
 
-下一步整合329审查、结算变窗周期并选择有实际新算术输入的不同机制。
-TTY局部补证已通过所列代数审查，上游分析仍按R引用；不是新密度值，也不认证整个ANTEDB。
-新PDF三份共286页已本地保存，当前32份外部原始PDF1076页；31份1047页进入Git，Schur保持原本地限制。
-28bb722535f5b48039c302f91c38bc1c2e41a507已推送核验。整个GOAL保持active，未满足较远期标准。
+下一动作：主线程检验单对精确零点构造向共同窗口的接口，须有不同信息才继续；
+Franklin审查330的一致导数、所有阈值与增长C量词。单对条件性成本不满足第十节C。
+TTY局部补证通过所列代数审查，上游分析仍按R引用；不是新密度值，也不认证整个ANTEDB。
+当前32份外部原始PDF1076页；31份1047页进入Git，Schur保持原本地限制。
+b97a4d9fe9407da61496e520813cf65d6f63cabe已推送核验；之后的329修订、第六版GOAL及330本轮待保存。
+整个GOAL保持active，未满足较远期标准。
