@@ -187,6 +187,13 @@
 56. Youness Lamzouri, *A new proof that more than 2/3 of the zeros of the Riemann zeta function are simple and on the critical line*，arXiv:2609.02882v1（2026-09-02）。[R] 本轮阅读§§2--3主要证明，包括Proposition2.1、固定测试函数去除相关权及先固定epsilon取高度极限的次序。197§10独立重建其有限Hilbert不等式与本项目原二阶部分配置的精确算子接口；这不是新纪录、四阶算术节省或Gabor四迹同一性。未运行附录Lean工程，不把作者形式证书声明当成本地复核。
    https://arxiv.org/html/2609.02882v1
 
+   302另直接使用Theorem1.1的累计简单临界线比例，弱化为2/3；
+   不把累计比例当作同常数的dyadic比例。实际硬商负迹估计在302独立推导，
+   不归因于Lamzouri，也不说原算子负迹趋零。
+
+57. Carl de Boor, *Divided Differences*, Surveys in Approximation Theory 1 (2005), 46--69，§9 pp.63--64。[R] 本轮阅读式(52)的Genocchi--Hermite积分与其后复节点Lagrange余项。302针对指数特征在笔记中重建阶乘距离界，明确其经典性；该工具不提供插值系数稳定性、零点间距或下框架。实际zeta前缀的正项硬商实例化及其范围由302另证，新颖性仍待核验。
+   https://pages.cs.wisc.edu/~deboor/sat/papers/2/2.pdf
+
 ## 使用这些来源时的边界
 
 - Deligne 已无条件证明有限域结论，但不是通过证明全部 standard conjectures；不能把 standard conjectures 的一般成立当成已知事实。

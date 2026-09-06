@@ -175,6 +175,12 @@ BB^*\succeq\alpha^2I,\qquad CC^*\preceq\beta^2I,\qquad \alpha>\beta,
 
 则 \(v=\alpha^2-\beta^2\)。这就是定量 divisor-mode separation。
 
+2026-09-06补充：[302](302-positive-background-quotient-collapse.md)证明一种
+明确硬商不能免费给出该可见性：在窄的原始高度窗口中，商掉有限指数分解
+的全部正秩一项张成后，实际zeta前缀的负秩仍精确保留，
+但压缩负迹无条件指数趋零。该压缩不保原迹，也不是Schur补；
+不反驳上面的条件性结构蕴含，只表明其下框架必须另证。
+
 ## 6. Connes 附件提供的结构 [R]
 
 附件 9811068.pdf 是 Alain Connes 的

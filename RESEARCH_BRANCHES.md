@@ -6,6 +6,8 @@
 
 维护验收与恢复（2026-09-06）：David--Lapidus观察线、论文目录及GitHub Actions三项维护均已完成，[完整三组远程检查成功](https://github.com/lixiang90/RH-Weil/actions/runs/33982592142)。291--295及296--301两个周期已收束；300的真实全谱RH条件结果与301的相位/同germ障碍保留。**301之后的一轮289-(53)准入审计现已完成，未获得匹配的新算术输入**，详见289第11节。已核验文献存在明确参数、筛选或矩阶差距；不把这种直接适用失败升级为一般不可能性。NCE-8与MOM-1继续观察，不自动重启同类周期；下一周期须从看板重选真正独立的有限任务。Lamzouri新短证与197旧二阶结构的接口已单独复核，但不减少四阶输入。`DL-AUDIT`仍未启动，资源门槛不变。
 
+本轮改选VIS-1并闭合一个独立有限问题：[302](notes/302-positive-background-quotient-collapse.md)将经典插值实例化到实际零点前缀，证明窄窗正项硬商保留负秩但负迹指数塌缩。停止以此硬商近正性推断深度排除；不把它推广到原算子或完整MT窗。NCE-8/MOM-1仍观察，DL-AUDIT未启动。
+
 | ID | 角色 | 下一最小引理 | 晋级条件 | 状态 |
 |---|---|---|---|---|
 | NCE-1 | 主线 | finite SDP 的 cell-packet capture ratio、coercivity 与实际负响应 | capture remainder一致消失，one-sided packet budget可和 | one-sided atomic theorem 已完成 |
@@ -16,6 +18,7 @@
 | NCE-6 | 备用线 | bounded-resolvent/negative-trace 的 ultraproduct 稳定性 | 先独立得到统一预算 `C` | 观察 |
 | NCE-7 | 非构造主线 | short-word effects 对实际 negative level sets 的 response-weighted capture | capture error共尾可和且不调用 Selberg/RH 等价输入 | degree-one universal moment route 已 sharp no-go |
 | NCE-8 | 周期及一轮准入审计已收束；观察 | 仅在出现覆盖289-(53)实际权、末端相位、物理首带和记录选择的独立带符号估计时恢复；不再仅查一般计数或换核表示 | 新输入直接给saving或严格缩小剩余预算，并保留全部范围与好集合交集量词 | 289§11已定位二点相关支撑失配、深右筛选与矩阶差距；未获得新输入，不宣布预算不可能；300--301结果保留 |
+| VIS-1 | 深度可见性；窄窗硬商已定位障碍 | 如继续，须固定MT临界窗及实际背景子集/系数预算，给残余Gram下界或匹配反例；无新的节点分布输入不自动续开周期 | 改善真实可见性或排除一个精确定义的配置类，不重证一般插值 | 302[T/N]：实际前缀在A≤αlogT、α<1/(3πe)时负秩保留、硬商负迹指数趋零；不控制原负迹 |
 | NCE-9 | 非构造补全 | 把 finite Cauchy-translate Schur block写成 joint signed Type I/II large-sieve form | uniform finite-block budget只用 length-side数据且弱于完整 RH criterion | finite satisfiability compactness与Gram/Schur判据已完成；33 translates捕获约23% package norm |
 | MOM-1 | 四矩观察线 | 只在出现新的 actual determinant-correlation input 时恢复；不得继续增加 Möbius/divisor kernel 表示 | 新输入必须在 physical fiber 内先合并全部 divisor blocks，并直接给 `o(L^4)` global ledger | exact band/mass已闭合；cumulative、band energy、channel mass、raw pullback与 divisor separation五条候选证书均已 theorem/no-go；条件比例仍为 0.7569027 / 0.8784513 |
 | NCE-10 | 非构造补全 | 增长的 arithmetic mixed localizers 与 divisor-visible resolvent closure | 每个有限 word level 近正且 Archimedean 有界，闭包恢复 divisor | scalar fourth moments 有 65 维严格 no-go；finite-satisfiability completion 已证明 |
@@ -279,6 +282,16 @@
 - **晋级条件**：将 `v_T(eta)` 与已有负迹预算结合，得到新的零密度估计、平均零自由区域，或者有限高度上的定量排除结论。
 - **止损条件**：若解析估计和有限模型都表明最小奇异值以不可补偿的速度趋于零，则停止追求统一深度界，只保留固定高度或族平均版本。
 - **路线定位**：这是从“零点比例”通向“零点位置控制”的桥梁，不应表述为 RH 的直接证明路线。
+
+#### VIS-1 窄窗硬商审计与实际实例化（2026-09-06）
+
+- **主线最小问题已解 [T/R]**：[302](notes/302-positive-background-quotient-collapse.md)固定原始高度f_z=ηe^-izu。n个互异实背景点给距离上界e^(A|Imz|) A^n∏|z−λ_j|/n!，无需间距下界；这是经典插值直接推论，不作工具新颖性晋级。实际0<γ≤T前缀的简单实点数≳TlogT，将它实例化为硬商负迹≤exp(−cαTlogT)，统一所有实偶单位窗口与1≤A≤αlogT、α<1/(3πe)。
+- **独立算术输入与Weil接口**：Lamzouri Theorem1.1的累计简单临界线比例弱化为2/3，以及Riemann--von Mangoldt计数；未使用RH、零点间距或短区间比例。算子沿用197有限显式公式型分解，商的是正秩一项张成，不是算子正谱子空间；上同调/极化桥梁仍未构造。
+- **精确惯性与主要反例 [T/N]**：有限指数独立性使原算子和硬商负秩都恰为不同非实对数。向真实简单实点背景加入一对固定深度的合成非实点，硬商一直有负秩1但绝对负迹趋零。模型无Euler数据；若实际离线点存在，则它在前缀持续出现时也满足该条件性对照，不声称实际离线点存在。原算子迹=N、压缩迹≤0，故不能把压缩近正性升级为原近正性。
+- **辅助线与证据**：de Boor §9 pp.63--64的复节点余项已阅读；与020、135、196、197去重。主代理给完整证明，gap_exception_audit与carrier_audit最终全文复核均PASS；midband_compute独立重建插值并编写脚本。五组合成Gram的MP80/120检查由作者和主代理分别运行，最大相对差2.64e−58以内；只是[E]，不认证实际零点或渐近。
+- **循环性、晋级与止损**：实际压缩结果晋级内部[T]，统一深度下框架的直接结构推论被明确有限反例排除[N]。不把“对实际离线点成立”的下框架要求本身否定；它仍需独立算术证明。停止窄窗硬商的定性近正性路线及多项式范数预条件补救，不宣称Schur补、软相減或全部可见性方法失败。
+- **维护验收**：目录/TeX链接检查及11项目录回归通过；新脚本加入core，78项注册覆盖/mock分发通过。只独立重跑本轮5组有限Gram，未重跑其余重型数学计算，也未声称本提交的远程CI已通过。
+- **下一门槛与论文归属 [O]**：当前α阈值不覆盖A≈(1/2)logT的MT窗。下一候选必须固定该临界尺度、实际背景子集和允许的系数/度量预算，证明残余Gram的实际下界或匹配退化；一般完备性/重复插值不够。材料暂归独立可见性/配置障碍附注，不并入四矩比例论文；仅Markdown，无PDF更新。外部新颖性、同行评审与Goal阶段验收未完成。
 
 ### 路线 D / NCE-10：混合词局部化与紧性完备化（受限探索）
 

@@ -144,6 +144,10 @@ CHECKS = (
         [sys.executable, "partial_weil_audit.py"],
     ),
     (
+        "positive-background quotient rank and trace",
+        [sys.executable, "positive_background_quotient_audit.py"],
+    ),
+    (
         "quadratic fourth-moment channels",
         [sys.executable, "fourth_moment_channel_audit.py"],
     ),
