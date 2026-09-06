@@ -91,7 +91,8 @@ Clark17页只核读开头范围；Pascadi1–5页、MQW1–4页、Choi–Kumchev
 68ac158c958f7295830382c00228e93a4441c2a0推送origin/main并核验同一完整远程SHA。
 336–339复核、340当时的候选及大别名点修正已随
 bc8ebcb1832ce9bae547ad49c7c459e0fc21d5e5推送origin/main并核验同一完整SHA。
-340最终报告、周期8结算、第九版目标与341草稿随下一提交保存。
+340最终报告、周期8结算、第九版目标与341草稿已随
+a3204b303cb9bb87f4dc1f7950f8abd09c0c65da推送origin/main并以ls-remote核验。
 
 ## 周期9已开始
 
@@ -100,7 +101,7 @@ bc8ebcb1832ce9bae547ad49c7c459e0fc21d5e5推送origin/main并核验同一完整SH
 [341](../notes/341-vaughan-free-variable-and-shell-length.md)已完成第1动作候选：
 准确通道表、窄cell的mask等价指定整数点删除，以及固定外层时shell自由长度
 O(X^(1/4)/(rv))。当前Type II的这条纤维至多1点，Type I长纤维只在小rv角落可能出现。
-尚待独立复核，不否定多外层变量共同求和。
+Franklin已按持续授权恢复并独立复核341中；不否定多外层变量共同求和。
 
 下一动作：对Type I小rv角落实施实际求和并核算外层成本；
 同时检查Type II必须保留的共同变量和能否生成可用的核，不把代数completion范围当真实自由长度。
