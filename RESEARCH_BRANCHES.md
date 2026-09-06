@@ -4,7 +4,7 @@
 
 ## 当前队列
 
-维护验收与恢复（2026-09-06）：David--Lapidus观察线、论文目录及GitHub Actions三项维护均已完成，[完整三组远程检查成功](https://github.com/lixiang90/RH-Weil/actions/runs/33982592142)。291--295组成的四轮周期已完成：平方证书、左侧raw负迹障碍、真实右移补偿和PNT交点节省逐项核验。294把实际右移上界改进到 \(o(B^\theta)\)；295用单一固定正整数源和真正前缀记录达到一般次幂包络上界，同时证明其germ在 \(s=1\) 非亚纯。**停止仅改变PNT包络的普遍改进路线**，不把模型边界扩大为完整Weil no-go。296--297是新周期第1轮：保留整函数中心线除数的模型已显示硬截断日程障碍，三角权又给明确的适用边界；原始复极点的双端点拆分亦已审计。下一步只检查真实联合余项能否传递该局部结构，不把单包重新表示视为算术进展；289仍观察。`DL-AUDIT`未启动，资源门槛不变。
+维护验收与恢复（2026-09-06）：David--Lapidus观察线、论文目录及GitHub Actions三项维护均已完成，[完整三组远程检查成功](https://github.com/lixiang90/RH-Weil/actions/runs/33982592142)。291--295组成的四轮周期已完成；停止只改变PNT包络的普遍改进路线，不把295模型边界扩大为完整Weil no-go。亚纯接口周期第1轮296--297给硬截断模型日程和双端点审计；第2轮298--299已将过快日程障碍传递至真实有限zeta候选，并证明全尺度局部一侧polylog预算仍具RH全强度。**停止该候选的亚临界日程及固定有限中心模式修补**；下一步只核验临界或更慢日程的端点分离全轴误差，不继续将局部预算重命名为弱输入。289仍观察；`DL-AUDIT`未启动，资源门槛不变。
 
 | ID | 角色 | 下一最小引理 | 晋级条件 | 状态 |
 |---|---|---|---|---|
@@ -15,7 +15,7 @@
 | NCE-5 | 备用线 | one-prime/one-block extension，预算增量可和 | extension 不调用完整 Weil positivity | 观察 |
 | NCE-6 | 备用线 | bounded-resolvent/negative-trace 的 ultraproduct 稳定性 | 先独立得到统一预算 `C` | 观察 |
 | NCE-7 | 非构造主线 | short-word effects 对实际 negative level sets 的 response-weighted capture | capture error共尾可和且不调用 Selberg/RH 等价输入 | degree-one universal moment route 已 sharp no-go |
-| NCE-8 | 当前主线：截断日程及实际亚纯接口 | 296--297后：固定一个孤立临界零点窗，保留双端点，估计真实 completed current 减去显式单包后的局部联合余项；先审计其能否独立达到296背景引理的统一界 | 必须获得实际有符号余项的新统一估计或其明确障碍；仅换核、有限展开或等价预算不晋级 | 296给保留整函数除数的硬截断日程障碍 [T/N]，三角权可消除模型障碍；实际全谱传递[O] |
+| NCE-8 | 当前主线：截断日程及实际亚纯接口 | 298--299后：核验RH条件下端点分离的全轴误差候选，追踪共同端点与全部谱尾，再检查临界日程是否存在小端点整数截断；不假设局部统一预算 | 得到改善293的统一误差并严格缩小日程缺口，或给出明确反例；条件校准与无条件算术输入分开登记 | 298真实过快日程及固定有限中心减法已[T/N]；299全尺度局部一侧polylog预算是RH等价强输入；临界充分性[O] |
 | NCE-9 | 非构造补全 | 把 finite Cauchy-translate Schur block写成 joint signed Type I/II large-sieve form | uniform finite-block budget只用 length-side数据且弱于完整 RH criterion | finite satisfiability compactness与Gram/Schur判据已完成；33 translates捕获约23% package norm |
 | MOM-1 | 四矩观察线 | 只在出现新的 actual determinant-correlation input 时恢复；不得继续增加 Möbius/divisor kernel 表示 | 新输入必须在 physical fiber 内先合并全部 divisor blocks，并直接给 `o(L^4)` global ledger | exact band/mass已闭合；cumulative、band energy、channel mass、raw pullback与 divisor separation五条候选证书均已 theorem/no-go；条件比例仍为 0.7569027 / 0.8784513 |
 | NCE-10 | 非构造补全 | 增长的 arithmetic mixed localizers 与 divisor-visible resolvent closure | 每个有限 word level 近正且 Archimedean 有界，闭包恢复 divisor | scalar fourth moments 有 65 维严格 no-go；finite-satisfiability completion 已证明 |
@@ -216,6 +216,25 @@
 - **当前证据 [E/T]**：296全文由主代理与carrier_audit分别逆向复核；297全文由主代理与gap_exception_audit分别复核。9组MP50脚本由作者与主代理各自运行通过，另含6个原积分点检，代码的根分割和全部预算另经独立只读审计。所算局部primary负部不是全轴负迹，临界规则下有限比值仍远离1，不以实验认证渐近。布局及11项回归、77项注册/mock核验通过，未重跑77项重型计算。
 - **下一最小引理 [O]**：对一个孤立的固定临界零点窗，将真实有限完成候选减去296单包后的余项先写成保留完整双端点的联合算术量，检验能否得到随 \(Y,\delta\) 一致的局部界，或足以传递负迹的局部 \(L^1\) 界。必须追踪其他零点、全谱尾和Gamma，不能用逐个复核绝对和替代。仅完成恒等式不晋级；若旧界仍差一个增长因子，应明确记录因子并停止同类改写。
 - **晋级、止损与论文归属**：本轮晋级为内部可审计的日程校准和端点障碍，不登记为真实zeta的新算术节省。下一轮只继续上项单一余项问题；不扩写任意有限包，也不以Fejér模型的正性代替算术证明。材料暂归独立response论文的有限化审计附录；先用Markdown，不更新PDF。DL-AUDIT未启动；文献新颖性、外部同行审查与Goal阶段验收仍[O]。
+
+#### B1z 亚纯接口周期第2轮：真实载波消去与局部预算强度（2026-09-06）
+
+- **主线与已解最小引理 [T/N]**：[298](notes/298-actual-critical-window-and-fast-shift-obstruction.md)对293的真实有限 sharp--Abel 完成候选证明：任意 \(Y_j\to\infty,\delta_j>0\) 若 \(\delta_j\log Y_j-\log\log\log Y_j\to-\infty\)，则原 Cauchy 负迹趋于无穷。任何 \(\delta_j\to0\) 的有界负迹序列必须有 \(\delta_j\log Y_j\ge\log\log\log Y_j-O(1)\)。不再只停留于296的单包模型。
+- **独立输入与精确配置接口**：保留真实 prime--continuum 源、完整整数端点、Gamma与补偿零点核；经典显式公式、单位高度计数、函数方程和零点存在性沿用282/285/293，主代理本轮再次核验Kedlaya书稿。固定频窗中，在RH下其余通道等于共同端点 \(-e^{-1-q}E(Y)\cos(t\log Y)/\sqrt Y\) 加统一 \(O(1)\)。非负测试由完整负半周期构成，先用Cauchy密度的固定下界，再精确消去任意大小的端点载波。接口仅为145/293显式公式型正规族，不构造上同调，也不默认两类Weil结构等价。
+- **RH/GRH循环性审计**：局部下界 \(c e^{-q}\log[L/(1+q)]-C\)、\(0\le q\le\log\log L\)，明确为[C/RH]。无条件发散先假设有界子序列，通过已独立核验的293/145接口推出RH，再在同一子序列使用条件下界得矛盾；不能输出无条件增长率。主定理要求严格 \(\delta>0\)，不偷用未证明的边界Poisson版本，不需Littlewood记录或Mellin反演。
+- **主要反例与适用边界**：固定数目、固定高度和固定实系数的同核中心模式减法仍满足障碍；需重新证明Poisson而非相减两个下界，再选择一个未删实际零点。更换三角权的296模型不受本定理排除；增长模式包、任意尺度相关修正、其他zeta/L模型及临界充分性都未覆盖。删除完整半周期的对称测试就不能无代价忽略共同载波。
+- **辅助线一：强输入审计 [T/N]**：[299](notes/299-local-one-sided-budget-mellin-strength-audit.md)证明，对于固定 \(q\)、固定正宽紧频窗和一个指定符号，全部充分大整数 \(Y\) 的局部一侧 \(O((1+\log Y)^k)\) 预算与RH等价；允许减去固定有限实际临界包。证明独立重建Mellin--Volterra恒等式、复乘子无零、固定频率的正轴解析及Landau正性奇点论证，极点与对数级修正不会抵消。不将双解析余弦分支写成复变量函数的实部。此预算在RH下可取 \(k=3\)，并非被无条件排除；固定 \(q\)、全尺度及正宽窗口是本证明必要量词，稀疏共尾子序列不被覆盖。
+- **辅助线二与证据 [E/T]**：九组MP50合成核复算由作者和主代理分别运行；载波消去残差 \(<2.51\cdot10^{-52}\)，矩形原函数与独立Fubini积分缩放差 \(<2.71\cdot10^{-50}\)，Abel误差/阶乘尾上界 \(<7.99\cdot10^{-4}\)。输出是非负测试的线性下界泛函，可能为负，不冒充完整负迹或实际零点实验。298经主代理、gap_exception_audit、midband_compute分别全文复核；299经主代理和midband_compute全文复核，并修正Taylor求和点必须严格位于解析圆盘内的措辞。布局、11项回归与77项注册/mock调度检查通过；未重跑重型计算。
+- **下一最小引理 [O]**：仅核验RH下
+  \[
+   \tau_C\left|F_Y^\sharp(\delta+it)-\frac{\xi'}{\xi}(1/2+\delta+it)\right|
+   \stackrel{?}{\ll}
+   e^{-q}\frac{|E(Y)|}{\sqrt Y}
+   +e^{-q}\log(2+1/\delta)+Y^{-1/2-\delta},
+   \qquad q=\delta\log Y .
+  \]
+  必须证明全轴与参数一致性，不能把固定窗口的 \(O(1)\) 延伸到全轴；再单独审计小端点整数截断与临界日程。这里仍为[O]，即使证明也先属RH条件校准，不产生缺失的无条件正性。
+- **晋级、止损与论文归属**：真实过快日程障碍晋级为内部[T/N]，局部预算仅登记为隐藏RH输入的审计，不因等价表达而继续扩写。停止亚临界日程、固定有限模式修复及未经算术证明的全尺度局部背景界；下一轮若只有恒等式或旧误差因子，停止同类改写。材料归独立response论文的有限化/亚纯接口障碍部分，先用Markdown、不更新PDF，不混入四矩比例或上同调存在性论文。DL-AUDIT未启动；本轮无新零点比例、零密度、零自由区或RH/GRH证明，新颖性、外部同行审查与Goal阶段验收仍[O]。
 
 ### 路线 C / VIS-1：离线零点深度可见性（桥梁路线）
 

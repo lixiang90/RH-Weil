@@ -19,6 +19,33 @@ Actions 将原检查清单分为 core、B1h、B1i 三组并行，全部成功才
 ## 正式论文整理稿
 
 最新研究进展（2026-09-06）：
+[298：真实临界窗口与过快右移障碍](notes/298-actual-critical-window-and-fast-shift-obstruction.md)，
+辅助审计为[299：局部一侧预算的 Mellin 强度](notes/299-local-one-sided-budget-mellin-strength-audit.md)。
+本轮将296的模型障碍传递到了293的**真实 zeta 有限 sharp--Abel 完成候选**。
+令 \(L=\log Y,\ q=\delta L\)。对任意 \(Y_j\to\infty,\delta_j>0\)，
+\[
+ q_j-\log\log\log Y_j\longrightarrow-\infty
+ \quad\Longrightarrow\quad
+ \kappa_{Y_j}(\delta_j)\longrightarrow\infty .
+\]
+因此，任何 \(\delta_j\to0\) 的有界负迹序列都必须满足
+\(\delta_j\log Y_j\ge\log\log\log Y_j-O(1)\) [T/N]。
+固定有限个中心模式的同核减法也不能修复这一过快日程。
+
+关键是保留真实共同端点载波，再用非负局部测试将其精确消去。
+RH下的定量下界是[C]；无条件结论通过“有界子序列先推出RH”的反证得到，
+**不能继承为无条件增长率**。这不排除临界或更慢日程、增长模式包及其他有限权，
+也不证明RH。临界门槛是否充分仍[O]。
+
+299另证明：固定 \(q\)、固定正宽频窗和一个指定符号后，
+全部充分大整数尺度上的局部一侧多对数预算与RH等价 [T/N]，
+即使预先减去固定有限实际临界包也如此。这是隐藏强输入的审计，
+不是新的独立算术估计；不覆盖稀疏共尾子序列。
+两篇全文经内部独立交叉复核，九组有限计算和轻量仓库检查通过。
+本轮仅Markdown，不更新PDF；未得到新零点比例、零密度或RH/GRH证明，
+文献新颖性与外部同行审查仍待完成。
+
+同日上一轮：
 [296：临界极点的截断边界层与右移日程](notes/296-critical-pole-boundary-layer-and-shift-schedule.md)，
 辅助审计为[297：原始极点核的双端点拆分障碍](notes/297-raw-pole-endpoint-splitting-obstruction.md)。
 在全部零点已位于中心轴的显式模型 \(\Phi(w)=w^2+\gamma^2\) 中，

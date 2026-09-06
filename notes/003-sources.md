@@ -157,7 +157,7 @@
 49. NIST Digital Library of Mathematical Functions，§5.7(ii)，公式5.7.6。[R] 292仅使用digamma部分分式展开，并自行按 \(n\asymp |t|\) 分段证明固定 \(\sigma>0\) 的 \(\psi((\sigma+it)/2)=O_\sigma(\log(2+|t|))\) 及Cauchy可积性。不把固定Gamma估计外推到变化参数或未截断Abel尾。
    https://dlmf.nist.gov/5.7.E6
 
-50. Kiran S. Kedlaya，*Notes on analytic number theory*，第5章§5.1的完成函数方程及第9章Remark9.7的临界带零点计数。[R] 292的全尺度定性障碍只需要“有一个非平凡零点”和中心线反射，不使用计数速率、RH、离线零点假设或数值零点。292定量记录部分仍使用283--284中已独立核验的输入，不能用此弱零点存在性取代强质量记录。
+50. Kiran S. Kedlaya，*Notes on analytic number theory*，第5章§5.1的完成函数方程及第9章Remark9.7的临界带零点计数。[R] 292的全尺度定性障碍只需要“有一个非平凡零点”和中心线反射，不使用计数速率、RH、离线零点假设或数值零点。292定量记录部分仍使用283--284中已独立核验的输入，不能用此弱零点存在性取代强质量记录。298另在RH分支中以此选取孤立的实际临界零点；固定有限模式减法的扩展使用零点高度无穷多。298的共同载波消去及299的Mellin--Volterra/一侧Landau链条均由本项目独立重建，不归因于书稿；298主要障碍不需要强质量记录。
    https://kskedlaya.org/ant/chap-funceq.html
    https://kskedlaya.org/ant/chap-von-mangoldt.html
 
