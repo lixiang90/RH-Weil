@@ -15,9 +15,9 @@
 |---|---|
 | 目标／历史同步与303完整复核 | 目标和历史已同步；[303完整报告](../reviews/2026-09-06/303-full-construction-review.md)已闭合 |
 | 首个4–6轮探索 | 第1–2轮：[310](../notes/310-regularized-visibility-admission-and-signed-ledger.md)符号与重叠；[311](../notes/311-regularization-schedules-and-coefficient-cost.md)日程及系数预算；第3–4轮：[312](../notes/312-critical-line-background-and-directional-filter-cost.md)方向代价和[313](../notes/313-depth-gap-tail-bound-and-directional-regularization.md)深度分离尾界，内部证明和复核已闭环 |
-| 非重复实际改进／实质归约／严格新障碍 | [O]，313为完成内部复核的具体条件性归约；仍需第5轮检查实际分离条件及其输入削减范围，不提前完成阶段 |
+| 非重复实际改进／实质归约／严格新障碍 | [O]，314实际子背景尾界已通过证明复核，改善指数1/14与1/28；315/316为几何条件削减候选，待独立闭环后验收 |
 | 证明、文献、证书及独立闭环 | [313复核闭环](../reviews/2026-09-06/312-313-background-and-depth-gap-review.md)；6篇本轮PDF、原始依赖比较及精确指数核算已保存；优先权不宣称 |
-| 下一有限问题与队列 | 第5轮：审计实际零密度／局部聚簇信息是否能验证313-(2)或严格削减其局部缺口；不能仅靠计数模型变体维持研究 |
+| 下一有限问题与队列 | 第5轮314给真实密度尾的幂级改进；第6轮315核算近簇；第7轮316保留簇内负项、放宽簇宽。315/316审查进行中 |
 | 提交／远程核验 | 首轮befa389及第二轮74eaa24c791686b06cc815c3f09db06a272dd948均已推送并核验远程main SHA；第3–4轮55506fd8fd88b4ff9cf40c428438103fef8f948a已推送并核验远程SHA；复核闭环f6a3e71a3f37581e62299c5e9ddccefd80958cbe已推送并核验远程SHA |
 
 ## 持续规则
@@ -28,7 +28,10 @@
 
 ## 当前继续点
 
-第5轮已形成[314](../notes/314-hybrid-density-tail-and-shorter-depth-gap.md)：统一实际Ingham密度与单位高度计数取较小者，给移动目标正背景尾的幂级改进；证明及原始条款复核进行中。总体零密度上界仍不能自动保证深点孤立。
+第5轮已形成[314](../notes/314-hybrid-density-tail-and-shorter-depth-gap.md)：统一实际Ingham密度与单位高度计数取较小者，给移动目标正背景尾的幂级改进；证明已通过独立核查；原始条款单独回报待保存。总体零密度上界仍不能自动保证深点孤立。
 若只能重复已知计数缺口且没有实质削减，按GOAL第五节切换候选；本阶段保持active。
 
 第6轮的紧邻有限问题：把313/314的单点隔离放宽为直径很小的深点簇，选择簇内最深点，利用正负特征的相位关系核算近簇正项；不能删掉近簇或逐目标相加。
+
+第7轮（在GOAL最多8轮上限内）：[316](../notes/316-coherent-cluster-negative-mass-and-logarithmic-aperture.md)利用簇内全部负列与正相位泄漏的区别，候选簇宽从315示例L^-4放宽到o(1/L)。两份新稿已分别交独立核查，不将候选提前验收。
+第5轮45d5f7c514cc0918d7f18643cdbc061da7b6eede已推送并核验远程SHA。
