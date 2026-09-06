@@ -19,6 +19,21 @@ Actions 将原检查清单分为 core、B1h、B1i 三组并行，全部成功才
 ## 正式论文整理稿
 
 最新研究进展（2026-09-06）：
+[303：临界窗下计数不决定可见性](notes/303-critical-window-counting-and-visibility-nonidentification.md)。
+在同一 sharp Montgomery--Taylor 窗 \(A=\frac12\log T\) 下，
+构造两套固定全局谱除子：都满足 Riemann--von Mangoldt 型计数误差、
+单位高度上界及更强的模型简单/不同点比例下界，却有相反的深度可见性。
+一套的移动离线目标归一化商距离趋零；另一套的固定离线目标距离平方
+下极限至少为 \(\cos(1/\sqrt2)/2\) [T/N]。
+两者均可实现为具有中心反射、实型对称的至多一阶整函数，
+但没有 Euler 乘积或算术显式公式，不能冒充实际 zeta。
+
+这排除了仅从所列计数不等式推出临界窗统一可见性的方案，
+也禁止将上一轮窄窗塌缩直接推广到全部临界窗模型。
+具体组合的新颖性与实际 zeta 的残余 Gram 估计仍开放。
+本轮仅 Markdown 和有限多精度复算，不更新 PDF。
+
+同日上一轮进展：
 [302：实际零点前缀的正项背景硬商](notes/302-positive-background-quotient-collapse.md)。
 在原始高度指数特征中，若窗口半宽
 \(1\le A_T\le\alpha\log T,\ \alpha<1/(3\pi e)\)，
@@ -32,7 +47,7 @@ Actions 将原检查清单分为 core、B1h、B1i 三组并行，全部成功才
 结论不控制原算子负迹、不声称离线零点存在，
 且不覆盖Montgomery--Taylor的全部临界窗宽。
 完整证明及两份独立全文复核通过，五组合成Gram的MP80/120复算通过。
-本轮仅Markdown和有限复算，不更新PDF；新颖性与外部审查仍待核验。
+该轮仅Markdown和有限复算，未更新PDF；新颖性与外部审查仍待核验。
 
 同日上一轮准入与文献接口审计：
 [289第11节](notes/289-growing-resolvent-jets-and-polylog-spectral-localization.md)

@@ -194,6 +194,15 @@
 57. Carl de Boor, *Divided Differences*, Surveys in Approximation Theory 1 (2005), 46--69，§9 pp.63--64。[R] 本轮阅读式(52)的Genocchi--Hermite积分与其后复节点Lagrange余项。302针对指数特征在笔记中重建阶乘距离界，明确其经典性；该工具不提供插值系数稳定性、零点间距或下框架。实际zeta前缀的正项硬商实例化及其范围由302另证，新颖性仍待核验。
    https://pages.cs.wisc.edu/~deboor/sat/papers/2/2.pdf
 
+58. H. J. Landau, *Necessary density conditions for sampling and interpolation of certain entire functions*, Acta Mathematica 117 (1967), 37--52。[R] 303本轮核验原文定义、Theorems 1--2的陈述与证明及相邻有限维计数引理。该文处理固定频带和uniformly discrete无限节点的必要密度条件；不直接给303增长窗与有限前缀的误差率。303的周期纤维残差、嵌套整数重数模型及实点簇对照均在笔记中另证，不把经典采样机制宣称为新原理，也不声称两模型的BM密度不同。
+   https://archive.ymsc.tsinghua.edu.cn/pacm_download/117/6020-11511_2006_Article_BF02395039.pdf
+
+   303另继续使用第57项的经典插值界，并重新核对第56项§3 Lemma3.2的
+   sharp MT 密度和原始高度正规化：\(A=\frac12\log T\)，
+   \(\eta_A^2(u)=\cos(u/(\sqrt2A))/(2A\sinc(1/\sqrt2))\) 于 \([-A,A]\)。
+   本篇不代入平滑端点窗口，也不交换平滑/高度极限；纯模型结果未验证
+   Lamzouri所需的算术相关输入，不升级为实际zeta结论。
+
 ## 使用这些来源时的边界
 
 - Deligne 已无条件证明有限域结论，但不是通过证明全部 standard conjectures；不能把 standard conjectures 的一般成立当成已知事实。

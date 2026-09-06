@@ -6,7 +6,7 @@
 
 维护验收与恢复（2026-09-06）：David--Lapidus观察线、论文目录及GitHub Actions三项维护均已完成，[完整三组远程检查成功](https://github.com/lixiang90/RH-Weil/actions/runs/33982592142)。291--295及296--301两个周期已收束；300的真实全谱RH条件结果与301的相位/同germ障碍保留。**301之后的一轮289-(53)准入审计现已完成，未获得匹配的新算术输入**，详见289第11节。已核验文献存在明确参数、筛选或矩阶差距；不把这种直接适用失败升级为一般不可能性。NCE-8与MOM-1继续观察，不自动重启同类周期；下一周期须从看板重选真正独立的有限任务。Lamzouri新短证与197旧二阶结构的接口已单独复核，但不减少四阶输入。`DL-AUDIT`仍未启动，资源门槛不变。
 
-本轮改选VIS-1并闭合一个独立有限问题：[302](notes/302-positive-background-quotient-collapse.md)将经典插值实例化到实际零点前缀，证明窄窗正项硬商保留负秩但负迹指数塌缩。停止以此硬商近正性推断深度排除；不把它推广到原算子或完整MT窗。NCE-8/MOM-1仍观察，DL-AUDIT未启动。
+VIS-1 已连续闭合两个不同的有限问题：[302](notes/302-positive-background-quotient-collapse.md)证明实际前缀的窄窗硬商负秩保留、负迹塌缩；本轮[303](notes/303-critical-window-counting-and-visibility-nonidentification.md)在同一 sharp MT 临界窗构造两套固定全局除子，共同满足 RVM 级计数误差、单位高度界及模型比例下界，却有相反可见性。仅计数的临界窗判据停止；实际节点几何/相关输入仍待准入。模型不具备 Euler/算术显式公式，不转写为实际 zeta 结论。NCE-8/MOM-1仍观察，DL-AUDIT未启动。
 
 | ID | 角色 | 下一最小引理 | 晋级条件 | 状态 |
 |---|---|---|---|---|
@@ -18,7 +18,7 @@
 | NCE-6 | 备用线 | bounded-resolvent/negative-trace 的 ultraproduct 稳定性 | 先独立得到统一预算 `C` | 观察 |
 | NCE-7 | 非构造主线 | short-word effects 对实际 negative level sets 的 response-weighted capture | capture error共尾可和且不调用 Selberg/RH 等价输入 | degree-one universal moment route 已 sharp no-go |
 | NCE-8 | 周期及一轮准入审计已收束；观察 | 仅在出现覆盖289-(53)实际权、末端相位、物理首带和记录选择的独立带符号估计时恢复；不再仅查一般计数或换核表示 | 新输入直接给saving或严格缩小剩余预算，并保留全部范围与好集合交集量词 | 289§11已定位二点相关支撑失配、深右筛选与矩阶差距；未获得新输入，不宣布预算不可能；300--301结果保留 |
-| VIS-1 | 深度可见性；窄窗硬商已定位障碍 | 如继续，须固定MT临界窗及实际背景子集/系数预算，给残余Gram下界或匹配反例；无新的节点分布输入不自动续开周期 | 改善真实可见性或排除一个精确定义的配置类，不重证一般插值 | 302[T/N]：实际前缀在A≤αlogT、α<1/(3πe)时负秩保留、硬商负迹指数趋零；不控制原负迹 |
+| VIS-1 | 深度可见性；窄窗及计数型临界窗判据已定位障碍 | 固定实际目标族、sharp MT窗、背景和系数预算，找与303簇模型不相容的独立局部节点几何/相关估计，并证其残余Gram接口；无新输入不续开 | 改善实际可见性或严格缩小具体算术输入；不追加同级计数、一般完备性或模型变体 | 302实际窄窗负迹塌缩；303[T/N]同一临界窗的两套固定除子满足共同计数条件而有相反可见性，非实际zeta |
 | NCE-9 | 非构造补全 | 把 finite Cauchy-translate Schur block写成 joint signed Type I/II large-sieve form | uniform finite-block budget只用 length-side数据且弱于完整 RH criterion | finite satisfiability compactness与Gram/Schur判据已完成；33 translates捕获约23% package norm |
 | MOM-1 | 四矩观察线 | 只在出现新的 actual determinant-correlation input 时恢复；不得继续增加 Möbius/divisor kernel 表示 | 新输入必须在 physical fiber 内先合并全部 divisor blocks，并直接给 `o(L^4)` global ledger | exact band/mass已闭合；cumulative、band energy、channel mass、raw pullback与 divisor separation五条候选证书均已 theorem/no-go；条件比例仍为 0.7569027 / 0.8784513 |
 | NCE-10 | 非构造补全 | 增长的 arithmetic mixed localizers 与 divisor-visible resolvent closure | 每个有限 word level 近正且 Archimedean 有界，闭包恢复 divisor | scalar fourth moments 有 65 维严格 no-go；finite-satisfiability completion 已证明 |
@@ -292,6 +292,16 @@
 - **循环性、晋级与止损**：实际压缩结果晋级内部[T]，统一深度下框架的直接结构推论被明确有限反例排除[N]。不把“对实际离线点成立”的下框架要求本身否定；它仍需独立算术证明。停止窄窗硬商的定性近正性路线及多项式范数预条件补救，不宣称Schur补、软相減或全部可见性方法失败。
 - **维护验收**：目录/TeX链接检查及11项目录回归通过；新脚本加入core，78项注册覆盖/mock分发通过。只独立重跑本轮5组有限Gram，未重跑其余重型数学计算，也未声称本提交的远程CI已通过。
 - **下一门槛与论文归属 [O]**：当前α阈值不覆盖A≈(1/2)logT的MT窗。下一候选必须固定该临界尺度、实际背景子集和允许的系数/度量预算，证明残余Gram的实际下界或匹配退化；一般完备性/重复插值不够。材料暂归独立可见性/配置障碍附注，不并入四矩比例论文；仅Markdown，无PDF更新。外部新颖性、同行评审与Goal阶段验收未完成。
+
+#### VIS-1 临界窗的固定全局对照（2026-09-06，本轮）
+
+- **主线最小问题已解 [T/N]**：[303](notes/303-critical-window-counting-and-visibility-nonidentification.md)固定 \(A=\frac12\log T\) 与 sharp MT 平方窗。两套固定共轭除子同时满足 \(N=M+O(\log t)\)、单位高度 \(O(\log t)\)、simple比例下限3/4及distinct比例下限7/8；这些是模型不等式，不是对zeta的新纪录。一套沿移动深度1/4目标有 \(V\ll\sqrt{\log T}T^{1-(5/2)\log2}\to0\)，另一套沿固定深度1/4目标有 \(\liminf V^2\ge\cos(1/\sqrt2)/2\)。
+- **独立输入与Weil接口**：逆计数节点、稀疏实点簇、嵌套格点的floor差整数重数、经典参数插值与完整周期纤维最小二乘，均在303给证明；不调用未知算术正性。沿用302的有限正项硬商，负迹仍为 \(2\sum m_z\|\Pi h_z\|^2\)，不保原算子迹。sharp MT形状核对Lamzouri原文；没有构造算术显式公式、上同调或极化桥梁。
+- **主要反例及量词**：两模型同属所列计数误差/下界类，不具有相同精确计数或全部相关函数。不可见模型的目标随高度移动，可见模型只有一个固定非实对；不混写这两个量词，也不由单个当前残量推出整个商负迹趋零。二者均有至多一阶整函数对称实现，但无Euler/Gamma/素数迹公式；不是实际zeta反例。
+- **辅助线与证据 [T/R/E]**：辅助一独立逆审固定全局构造、系数预算和实/复Hilbert桥梁；不可见见证具有 \(e^2T^{1+\frac12\log2}\) 的明确l1预算，不声称任意更小预算也足够。辅助二用MP120/180复算四组有限MT簇Gram与四组完整周期积分，作者和主代理均运行PASS，最大相对差6.701e−81以内；全部只[E]。Landau固定频带密度定理的量词已核验，不拿来代替增长窗误差率，也不声称两模型BM密度不同。
+- **循环性、晋级与止损**：内部对照结果晋级[T/N]；停止“共同计数条件自动决定可见性”和“窄窗塌缩自动覆盖全部临界窗”的方案。下框架本身仍是开放目标，不被当作软结构公理。只添同级计数、一般完备性或外生模型不再晋级；剩余实际估计可能有RH强度，未证更弱。
+- **下一最小引理与论文归属 [O]**：找实际zeta的一条指定局部节点几何/相关估计，明确目标高度/深度、背景子集和允许系数预算，再证明它对增长窗残余Gram的作用；首先排除303簇模型或直接缩小算术输入。此结果归独立可见性/配置障碍附注，暂不另开论文或更新PDF；新颖性、外部同行复核及Goal阶段验收未完成。
+- **最终审计及维护验收**：carrier_audit和midband_compute独立全文复核PASS；gap_exception_audit指出整函数乘积的多重集索引歧义，改为不同点/对后计重一次并获其最终确认PASS。主代理审读及复跑新脚本PASS；目录/TeX链接、11项目录回归、79项注册覆盖/mock分发PASS（core77+B1h1+B1i1），未重跑其余重型计算或宣称本提交远程CI通过。
 
 ### 路线 D / NCE-10：混合词局部化与紧性完备化（受限探索）
 
