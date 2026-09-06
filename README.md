@@ -5,12 +5,14 @@
 ## 当前研究状态：phase 2（2026-09-06）
 
 已再次修订 [GOAL.20260906](goals/GOAL.20260906.md)并正式启动后续 GOAL。
-首周期为 VIS-REG 正则化可见性与完整符号成本探索，辅助为 303 全构造独立复核。
-当前没有宣布新的实际算术输入；进度和切换见 [执行账本](goals/PROGRESS.md)。
+首周期为VIS-REG正则化可见性探索；303全构造内部复核已完成。
+[312](notes/312-critical-line-background-and-directional-filter-cost.md)给实际临界线子背景上界，
+[313](notes/313-depth-gap-tail-bound-and-directional-regularization.md)提出保留全部正项的深度分离尾界与日程候选，尚待独立逆审。
+完整实际可见性和几何分离条件仍开放；进度和切换见[执行账本](goals/PROGRESS.md)。
 
 ## phase 1 完成记录（2026-09-06）
 
-正式执行 [GOAL.20260906](goals/GOAL.20260906.md)，进度见 [验收账本](goals/PROGRESS.md) 和 [唯一当前队列](RESEARCH_BRANCHES.md)。
+阶段一依据[历史目标](goals/archive/GOAL.20260906.phase1.md)执行，验收见[历史账本](goals/archive/PROGRESS.phase1.md)；[当前队列](RESEARCH_BRANCHES.md)已进入阶段二。
 本轮已完成 [306 基础纠错](notes/306-quartic-boundary-and-equal-norm-corrections.md)、
 [307 非循环椭圆曲线模型](notes/307-odd-polarization-and-elliptic-degree-benchmark.md) 及 [308 Abel 稿独立复核](notes/308-abel-obstruction-proof-literature-and-reproduction.md)。
 [309 准入决定](notes/309-explicit-formula-benchmark-and-route-admission.md)为暂不恢复算术主线；三份论文 PDF 已同步纠错，第十节本阶段验收已完成，完整成果已推送 GitHub。

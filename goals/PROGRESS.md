@@ -7,18 +7,18 @@
 
 第一周期：VIS-REG 的正则化可见性与完整符号成本；辅助 AUD-303 全构造只读复核。
 探索不要求提前证明新输入；晋级与验收仍要求超出现有基线的实质数学结果。
-303全链已通过独立内部复核；VIS-REG重叠及符号审查完成，实际临界线背景的Bessel侧项审查运行中。
+303全链已通过独立内部复核；VIS-REG第3轮已得临界线Bessel及受限系数下界，第4轮已写完整深度分离尾界与日程，独立逆审进行中。
 
 ## 第十节验收
 
 | 项目 | 状态与证据 |
 |---|---|
 | 目标／历史同步与303完整复核 | 目标和历史已同步；[303完整报告](../reviews/2026-09-06/303-full-construction-review.md)已闭合 |
-| 首个4–6轮探索 | 第1–2轮：[310](../notes/310-regularized-visibility-admission-and-signed-ledger.md)符号与重叠；[311](../notes/311-regularization-schedules-and-coefficient-cost.md)日程及系数预算；第3轮进行中 |
-| 非重复实际改进／实质归约／严格新障碍 | [O]，不以基础resolvent恒等式验收 |
+| 首个4–6轮探索 | 第1–2轮：[310](../notes/310-regularized-visibility-admission-and-signed-ledger.md)符号与重叠；[311](../notes/311-regularization-schedules-and-coefficient-cost.md)日程及系数预算；第3–4轮：[312](../notes/312-critical-line-background-and-directional-filter-cost.md)方向代价和[313](../notes/313-depth-gap-tail-bound-and-directional-regularization.md)深度分离尾界，待复核 |
+| 非重复实际改进／实质归约／严格新障碍 | [O]，313为具体几何条件下的新候选范围，未验证实际分离条件及完整文献对应，不提前验收 |
 | 证明、文献、证书及独立闭环 | [O] |
-| 下一有限问题与队列 | 唯一队列已改为phase 2；周期末更新 |
-| 提交／远程核验 | 首轮 befa389ea6032665be7fb07561c2d2a5378cc35b 已推送，远程main SHA一致；本轮待提交 |
+| 下一有限问题与队列 | 第5轮：313证明闭环、原始文献比较及实际深度分离条件的可验证性；无实质削减则切换 |
+| 提交／远程核验 | 首轮befa389及第二轮74eaa24c791686b06cc815c3f09db06a272dd948均已推送并核验远程main SHA；第3–4轮待保存 |
 
 ## 持续规则
 
