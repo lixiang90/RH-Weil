@@ -1,0 +1,84 @@
+{
+  "date": "2026-09-06",
+  "base_commit": "31c2161c69c6b20af8b3779a4b0f76adab5a2ce9",
+  "source_version": "base commit plus corrections fixed by the following LF-normalized SHA-256 values; PDF bytes are hashed without normalization",
+  "papers": [
+    {
+      "name": "rh-weil-structure-paper",
+      "engine": "XeLaTeX / TeX Live 2022",
+      "pdf_file": "output/pdf/rh-weil-structure-paper.pdf",
+      "pdf_sha256": "2a0049fc4df0e997a7e1dfefb395cdfc688bd568f4cc97d18b6e357f29bf0b33",
+      "pages": 45,
+      "sources": [
+        {
+          "file": "paper-sections/capped-correspondence-kernel.tex",
+          "sha256_lf": "38556755bed0fb71508e9b761518924a3d97a5a2170560a873dbf19baf30cc45"
+        },
+        {
+          "file": "paper-sections/mobius-threshold-hodge.tex",
+          "sha256_lf": "130edfe57aa719888b2fdca61c0712facb5851dfda5de4794dc74c5caf252b86"
+        },
+        {
+          "file": "paper-sections/profinite-diagonal-evacuation.tex",
+          "sha256_lf": "c15029ed35e9cf033fd8f854bc21c826036e99654d341b7c946f6210836d4624"
+        },
+        {
+          "file": "paper-sections/reciprocal-barrier-schur.tex",
+          "sha256_lf": "1f061bedf50ec6df4976e07425c27aed50b1516f35c3bd2fc73c14d33333d302"
+        },
+        {
+          "file": "paper-sections/selberg-profile-equivalence.tex",
+          "sha256_lf": "80aa0b6ce04d490f3ad82317e8a4d4ff6d1dc2bedc75560d1ceedd4b6e34a7ef"
+        },
+        {
+          "file": "paper-sections/selberg-volterra-cross-fiber.tex",
+          "sha256_lf": "f8a252ddc8618b057ea60487ec602ef2210e5f85b554151ff8cac7fc54dedee7"
+        },
+        {
+          "file": "paper-sections/square-completed-schur-l4.tex",
+          "sha256_lf": "85eed16028c2922ab57190b00979318c52a5428e7333fe347bc6ab3877b29e06"
+        },
+        {
+          "file": "paper-sections/tracial-lattice-clipping.tex",
+          "sha256_lf": "87e056bd3197be601d722d28ae62020c46589b6772e6e438025d6a96ddd724ac"
+        },
+        {
+          "file": "papers/rh-weil-structure-paper.tex",
+          "sha256_lf": "d7095b64dc382bc7ab924161e9e784fc46b48e93a7959b56c195ff7115f554fe"
+        }
+      ],
+      "final_log_warnings": [],
+      "visual_review": "all pages rendered at 85 dpi and inspected in contact sheets; PLF/AEJ/quartic proof pages inspected individually; final cover and Abel bibliography changes re-rendered at 110 dpi"
+    },
+    {
+      "name": "partial-weil-configurations-paper",
+      "engine": "XeLaTeX / TeX Live 2022",
+      "pdf_file": "output/pdf/partial-weil-configurations-paper.pdf",
+      "pdf_sha256": "517e5bd0132f05e35afc0dc07c2e587795b9858a5a1edfd9fc00a10d827947cf",
+      "pages": 26,
+      "sources": [
+        {
+          "file": "papers/partial-weil-configurations-paper.tex",
+          "sha256_lf": "182506cdf9035bd3e9efbc9071775af06063e911c71e5fe425ff6239bde5ef5e"
+        }
+      ],
+      "final_log_warnings": [],
+      "visual_review": "all pages rendered at 85 dpi and inspected in contact sheets; PLF/AEJ/quartic proof pages inspected individually; final cover and Abel bibliography changes re-rendered at 110 dpi"
+    },
+    {
+      "name": "abel-mass-obstruction-paper",
+      "engine": "pdfLaTeX / TeX Live 2022",
+      "pdf_file": "output/pdf/abel-mass-obstruction-paper.pdf",
+      "pdf_sha256": "f1c460a6d01aec1cb5208a931dbcf23768406f547619734dc4df4bddc3df5274",
+      "pages": 11,
+      "sources": [
+        {
+          "file": "papers/abel-mass-obstruction-paper.tex",
+          "sha256_lf": "1b922d096130f85f26d1298df3b66d9021c5e58b1d66be5701e5717f2242a071"
+        }
+      ],
+      "final_log_warnings": [],
+      "visual_review": "all pages rendered at 85 dpi and inspected in contact sheets; PLF/AEJ/quartic proof pages inspected individually; final cover and Abel bibliography changes re-rendered at 110 dpi"
+    }
+  ]
+}

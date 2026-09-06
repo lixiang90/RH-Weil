@@ -197,3 +197,12 @@ GNS/紧性只解决相容选择和完成问题。将全部逐级正性列为有�
 另用 `fractions.Fraction` 直接检查：原 65 维谱的范数分别为 1、4/5；66 维修复具有相同矩和相同范数；问题 B 的配置满足全部书面条件却违反结论。
 
 **当前可交付结论：** 304 主链可保留；Abel 与 302 的限定障碍有实质依据；结构与四矩论文须先修正上述问题。真正未解决的部分仍是与完整显式公式相容的独立统一算术估计，而非紧性、改名或有限浮点认证。
+
+## GOAL 启动后的实施记录（2026-09-06）
+
+本审查上文保留初始状态；后续已实际执行纠错与独立复核。
+[306](notes/306-quartic-boundary-and-equal-norm-corrections.md)修复四矩、同范数及复核新增的 AEJ 问题；
+[307](notes/307-odd-polarization-and-elliptic-degree-benchmark.md)给出奇次极化修正和非循环椭圆曲线基准；
+[308](notes/308-abel-obstruction-proof-literature-and-reproduction.md)收敛 Abel 完整证明、异议闭环和文献比较；
+[309](notes/309-explicit-formula-benchmark-and-route-admission.md)核对显式公式模型并决定暂不恢复算术主线。
+实施不表示所有旧笔记已重审，不把 303、数域正性或四阶实际预算从开放状态中移除。

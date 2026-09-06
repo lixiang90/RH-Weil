@@ -63,7 +63,7 @@
 \title{\bfseries 从 Weil 猜想到数域中心线\\
 \large 极化、过滤 Hodge 结构与黎曼猜想的存在性审计}
 \author{研究笔记整理稿（第 001--202 篇）}
-\date{2026 年 9 月 1 日}
+\date{2026 年 9 月 6 日修订（原稿：2026 年 9 月 1 日）}
 
 \begin{document}
 \maketitle
@@ -422,12 +422,12 @@ length-side moments $\lambda(e)$。
 \end{enumerate}
 则存在全局 tracial state $L$ 与其 GNS 表示 $(\pi,\cH,\Omega)$，使
 \[
- L(e)=\lambda(e)\quad(e\in E),qquad \pi(h)\succeq0.
+ L(e)=\lambda(e)\quad(e\in E),\qquad \pi(h)\succeq0.
 \]
 \end{theorem}
 
 \begin{proof}
-取递增约束集，逐个加入坐标 $a$ 的 $\{1,a\}$ Gram、
+固定一个可数线性基。对任意有限基坐标集 $K$，加入每个坐标 $a$ 的 $\{1,a\}$ Gram、
 Archimedean 元 $R_a^2-a^*a$ 的标量约束及所涉 words。
 矩阵不等式均取 Hermitian part；先将有限泛函 Hermitian 化为
 $\widetilde L(x)=(L(x)+\overline{L(x^*)})/2$。对 $\epsilon=1/n\le1$，
@@ -435,9 +435,12 @@ $\widetilde L(x)=(L(x)+\overline{L(x^*)})/2$。对 $\epsilon=1/n\le1$，
 |\widetilde L(a)|^2\le(1+\epsilon)(\widetilde L(a^*a)+\epsilon)
 \le(1+\epsilon)(R_a^2+2\epsilon)\le2(R_a^2+2).
 \]
-各坐标因而落在固定紧圆盘中。所选约束递增穷尽且误差趋零，
-未涉及坐标补为 $0$；乘积紧致性给逐坐标极限。
-每条固定约束最终均被包含，极限是满足全部精确约束的 tracial state $L$。
+$Q$ 未必可数，故不使用可数约束穷尽。按 $(K,F,n)$ 构成有向网：
+$F$ 是任意有限约束集，$K$ 包含其全部基坐标，按包含关系及 $n$ 的大小排序。
+有限可满足性另纳入 $K$ 的上述坐标界及辅助 words；只记录 $K$ 的坐标，
+其他坐标补 $0$。这些点在固定紧圆盘乘积中，紧致性给收敛子网。
+每条固定约束最终均被包含、误差趋零，且只依赖有限坐标并闭，
+故极限是满足全部精确约束的 tracial state $L$。
 精确界 $|L(a)|\le R_a$ 只在此时使用。
 GNS 构造中
 \[
@@ -450,7 +453,7 @@ GNS 构造中
 flat-extension 理论的方向一致\cite{BurgdorfKlep,MourrainSchmudgen}，但不假设
 低阶 flatness。它的价值是消除“如何相容地选择所有有限模型”这一选择问题；
 它不免费证明局部正性。若全局交为空，紧致性的反面给某个有限 word level 已
-不可满足，有限维凸分离再产生 SDP/SOS dual separator。
+不可满足；有限维凸分离给分离证据。可计算的 SDP/SOS 对偶证书仍需独立的编码、对偶性及精度条件。
 
 对 zeta 的非循环应用还必须验证：$\cA_0,Q,h$ 完全由 length side 定义；
 bounded resolvent 或 Cayley-transform moments 在极限中恢复 divisor visibility；

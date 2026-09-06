@@ -9,12 +9,14 @@
 
 | 任务 | 当前角色 | 产物与状态 | 下一动作／停止条件 |
 |---|---|---|---|
-| 基础纠错 | 本周期主任务 | [306](notes/306-quartic-boundary-and-equal-norm-corrections.md)：四矩边界、一侧矩、65/66 维及 AEJ 紧性修订；复核异议闭环中 | 关闭独立异议并同步论文；不将条件四矩常数升格 |
-| 正亏格模型 | 模型辅助，已完成主体 | [307](notes/307-odd-polarization-and-elliptic-degree-benchmark.md)：E/F5 次数正性到纯性、全部点数及修订 PLF；独立核验通过，措辞复查中 | 经典模型基准，不扩写数域存在性声明 |
-| Abel 障碍稿收敛 | 成果辅助 | 主证明独立审查通过；截断量词、复现及文献比较修订中 | 收敛为可审读复核成果，集中重编 PDF |
+| 基础纠错 | 纠错任务已闭合 | [306](notes/306-quartic-boundary-and-equal-norm-corrections.md)：四矩边界、一侧矩、65/66 维及 AEJ 紧性修订；独立异议全部闭环 | 论文已同步；不将条件四矩常数升格 |
+| 正亏格模型 | 模型基准已完成 | [307](notes/307-odd-polarization-and-elliptic-degree-benchmark.md)：E/F5 次数正性到纯性、全部点数及修订 PLF；独立核验与措辞闭环均通过 | 经典模型基准，不扩写数域存在性声明 |
+| Abel 障碍稿收敛 | 成果收敛已完成 | [308](notes/308-abel-obstruction-proof-literature-and-reproduction.md)：全文复核、截断量词、复现及文献比较均闭合 | 技术重建归类，PDF 已重编 |
 | MOM-1 / NCE-8 / VIS-1 | 均为准入观察；当前没有算术主线 | 未获得匹配的新算术输入；旧条件结论及范围内障碍保留 | 只有满足 GOAL 第五节且写明唯一新输入才恢复一条 |
 | 混合局部化/GNS | 观察 | AEJ 修复只提供有前提的补全 | 先独立证明实际局部正性及统一有界性 |
 | David–Lapidus | 未启动 | 仍限额观察 | 独立 4–6 轮模型任务及不超过 10% 资源条件不变 |
+
+最终决定见 [309](notes/309-explicit-formula-benchmark-and-route-admission.md)：本阶段没有匹配新输入，暂不恢复任何算术主线；保存基准与障碍，停止同级模型／等价表示扩写。
 
 状态用 [T/R/C/E/N/O]，RH 强性与新颖性另列。旧笔记旧标签不视为本轮逐篇认证。
 
