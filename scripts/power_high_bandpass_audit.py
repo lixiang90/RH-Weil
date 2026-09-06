@@ -16,7 +16,8 @@ def finite_kernel(limit: int, t: float) -> float:
     dimension = round(limit * length)
     # Reduce the frequency increment modulo one before the geometric sum.
     # A small denominator alone does not make the full response equal to one.
-    half_angle = math.pi * math.remainder(t / (limit * length), 1.0)
+    scale = limit * length
+    half_angle = math.pi * (math.remainder(t, scale) / scale)
 
     def sinc0(value: float) -> float:
         return 1.0 if value == 0.0 else math.sin(value) / value

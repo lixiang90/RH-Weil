@@ -28,7 +28,8 @@ def main() -> None:
     limit = 10**14
     scale = limit * math.log(limit)
     dimension = round(scale)
-    for t in (0.0, .5, -1.25, 100.125, math.sqrt(limit)):
+    for t in (0.0, .5, -1.25, 100.125, math.sqrt(limit),
+              scale + .5, scale - .5, 2 * scale + 1):
         # Exact high-precision finite sum formula with the same floating scale
         # and integer dimension as the audited implementation.
         x = mp.pi * mp.mpf(t) / mp.mpf(scale)

@@ -335,5 +335,13 @@ Choi–Kumchev PDF首页另标draft 2018-09-26，与arXiv上传2004-12-12及期�
 
 ## 有限域determinant Fourier的经典背景（2026-09-07）
 
-- **Yeşim Demiroğlu Karabulut**，*Cayley Digraphs of Matrix Rings over Finite Fields*，arXiv:1710.08872v1，2017-10-24。[本地PDF](background/karabulut-matrix-digraphs-1710.08872v1.pdf)；[固定版本](https://arxiv.org/abs/1710.08872v1)；[下载](https://arxiv.org/pdf/1710.08872v1)。19页，全文解析，具体条款待核读。[机构期刊记录](https://authors.library.caltech.edu/records/mhw8q-yd829)对应后来题名 *Unit-graphs and special unit-digraphs on matrix rings*，Forum Mathematicum 30(6),2018,1397–1412；不把预印本当成期刊排版版。
+- **Yeşim Demiroğlu Karabulut**，*Cayley Digraphs of Matrix Rings over Finite Fields*，arXiv:1710.08872v1，2017-10-24。[本地PDF](background/karabulut-matrix-digraphs-1710.08872v1.pdf)；[固定版本](https://arxiv.org/abs/1710.08872v1)；[下载](https://arxiv.org/pdf/1710.08872v1)。19页，全文解析；主线程核读第14–16页Thm3.12的逐字符谱公式及Cor3.13，与336的h=1有限域公式对应。未认证全篇图论／sum-product结论或谱值碰撞后的合并重数。[机构期刊记录](https://authors.library.caltech.edu/records/mhw8q-yd829)对应后来题名 *Unit-graphs and special unit-digraphs on matrix rings*，Forum Mathematicum 30(6),2018,1397–1412；不把预印本当成期刊排版版。
 - 检索到AIMS DOI 10.3934/math.2025168的相关determinant Fourier论文，[原始页面](https://aimspress.com/article/doi/10.3934/math.2025168)读取失败，未取得PDF或核读定理；暂只保留入口，不作为证明依赖。
+
+## 实际prime权短频带的PNT输入复读（2026-09-07）
+
+既有Fiori–Kadiri–Swidinsky arXiv:2204.02588v3的26页原件未变；
+主线程重读第1–4页，特别第2页Corollary1.4的psi误差与x>2量词，
+为340仅使用经典exp(-c sqrt(log x))弱化。
+第3页区分计算验证高度、全RH与已修正的上游常数；
+本次没有重跑全篇显式常数／数值依赖，也不声称更新PNT纪录。

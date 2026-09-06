@@ -411,7 +411,7 @@
       "file": "background/fiori-kadiri-swidinsky-psi-v3.pdf",
       "source_url": "https://arxiv.org/pdf/2204.02588v3",
       "pdf_url": "https://arxiv.org/pdf/2204.02588v3",
-      "status": "核读 Corollary 1.4 及显式无条件 PNT 适用范围",
+      "status": "核读 Corollary 1.4 及显式无条件 PNT 适用范围 2026-09-07重读第1–4页及Cor1.4用于340的经典定量PNT弱化；未重跑全篇显式常数／数值依赖。",
       "resolved_pdf_url": "https://arxiv.org/pdf/2204.02588v3",
       "download_status": "downloaded",
       "bytes": 379817,
@@ -810,7 +810,7 @@
       "pages": 19,
       "pdf_parse_status": "all pages parsed",
       "text_characters": 43090,
-      "status": "336有限域determinant Fourier的经典背景；全页归档解析，具体条款核读待完成。不把经典Kloosterman谱公式宣称原创；336自含推导，不调用本篇全证。"
+      "status": "336经典背景；主线程核读第14–16页Thm3.12逐字符谱公式及Cor3.13，与h=1有限域determinant Fourier对应；未审全篇图论、sum-product或不同det谱值碰撞后的合并重数。336自含证明，不宣称经典公式原创。"
     }
   ],
   "supplement_provenance": [

@@ -38,7 +38,8 @@ Euler的[算术审计](../reviews/2026-09-06/cycle4-arithmetic-interface-audit.m
 采用正性门槛、U*坐标、左右计数、远预算及B增长范围修订。
 对偶消正、增长组Q_T²成本均成立于明确几何前提；实际含重数覆盖未被证明。
 周期7的Franklin、Gibbs报告已保存并曾关闭代理；周期8按既有授权恢复使用。
-Franklin的335报告已收到并保存；Gibbs外部条款报告已保存，现审336–337；Euler保持关闭。
+Franklin的335、338报告及Gibbs外部条款、336–337报告已保存。
+Franklin现审340实际Fourier能量；Gibbs的339报告已保存并关闭，Euler保持关闭。
 
 [周期8任务单](NEXT.cycle7.md)：以新外部算术输入核查真实MOM determinant的Kloosterman映射。
 [335](../notes/335-fixed-physical-cell-and-determinant-fibres.md)已恢复240–241脚本的同一平窗cell、
@@ -52,17 +53,32 @@ Franklin的335报告已收到并保存；Gibbs外部条款报告已保存，现�
 T_h(xi)=p³ 1_(xi=0)+p S(h,det xi;p)。4个小素模数全h全频率核对，
 p=3,5另作3368项整系数cyclotomic检查通过；这只是有限代数证据。
 第3动作：[337](../notes/337-zero-fourier-mode-with-physical-shell-centering.md)
-保留原shell平均、BV离散误差及Jacobian，给同一扩展零频项O(log X)候选。
-336–337由Gibbs独立审查中。非零频项只有粗界O(X^(13/4)log² X)，不能宣称有净节省。
+保留原shell平均、BV离散误差及Jacobian，给同一扩展零频项O(log X)。
+336–337已由Gibbs[独立复核](../reviews/2026-09-07/336-337-independent-review.md)通过；
+采用shell范围和逐点BV说明。非零频项粗界O(X^(13/4)log² X)不能用作净节省。
 
-下一动作：核算真实非零频系数的结构、支撑、分离成本及特殊分母层，
-在同一cell误差账本中检查是否能用双线性原始估计。
+第4动作：[338](../notes/338-common-denominator-layer-in-the-actual-cell.md)
+在原四Lambda物理和内证明重复分母／分子层逐项绝对总量O(X^(-1/4)L³)，
+已经[独立复核](../reviews/2026-09-07/338-independent-review.md)。
+[339](../notes/339-dual-determinant-zero-mode-and-exact-inversion.md)给
+固定延拓的退化双频层O(L³/p)及完整Kloosterman变换逆式已[独立复核](../reviews/2026-09-07/339-independent-review.md)，
+补入目标r=0时的额外C_h/p²项和完整修正数组的逆式。
+完整正交化回到原determinant纤维，不提供新相关估计。
+
+第5动作：[340](../notes/340-prime-weight-energy-outside-the-poisson-band.md)
+使用已归档定量PNT，证明实际单权的p/Y乘固定log幂短带仅捕获约1/log Y的l2能量，
+独立审查中；三个有限尺度的原权FFT只作证据，不拟合渐近。
+它阻止免费短频截断，不推断四变量有符号响应大或全部频率局部化无用。
+
+下一动作：闭合340复核，记录完整完成加平滑短频截断的确切失配。
+若没有额外算术尾项控制，按任务单结算本映射并选择不同的合法变换，
+不继续将同一全频数组换名为所需预算。
 不能以取q=bd的字面替换或固定分母O(1)长度纤维冒充平方根双线性和。
 [新输入筛查](../reviews/2026-09-07/kloosterman-next-input-screen.md)已完成独立条款复核，
 修正初始／平移区间、特殊模数节省基准、联合互素条件和完整字符族。
 Pascadi v2、MQW v1和Choi–Kumchev v1的实际MOM映射及完整解析依赖仍待核查。
 
-当前39份外部原始PDF1309页；38份1280页拟进入Git，Schur保持原本地限制。
+当前39份外部原始PDF1309页；38份1280页已进入Git，Schur保持原本地限制。
 Clark17页只核读开头范围；Pascadi1–5页、MQW1–4页、Choi–Kumchev1–2页已初核。
 后者PDF的draft 2018日期与arXiv上传2004、期刊2006分别保留。
 另存Pascadi 2026-08-21的GAFA正式70页PDF和Karabulut19页有限域矩阵背景，
@@ -72,5 +88,8 @@ Clark17页只核读开头范围；Pascadi1–5页、MQW1–4页、Choi–Kumchev
 3a11600aacdf046662c58b7e9befb087c29863ed推送origin/main，并以ls-remote核验同一完整SHA。
 本条保存状态随后单独写入账本；不改变数学状态。
 上述保存记录已随c17faa6c6ef169dee61fcdf52b7ffd16d19eb9ff推送核验；
-本次336–337候选、335纠错及新文献正在形成下一提交。
+336–337当时的候选、335纠错及两份新文献已随
+68ac158c958f7295830382c00228e93a4441c2a0推送origin/main并核验同一完整远程SHA。
+随后的336–339复核、340候选及大别名点数值修正正在形成下一提交。
+根目标第八版补充了执行状态，保持当前／较远期目标与周期标准不变。
 整个GOAL保持active，未满足较远期标准。

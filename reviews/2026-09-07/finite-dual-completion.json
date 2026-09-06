@@ -1,0 +1,46 @@
+{
+  "status": "PASS",
+  "scope": "finite algebra; no prime estimate",
+  "cases": [
+    {
+      "prime": 3,
+      "errors": {
+        "square": 1.9860273225978185e-15,
+        "row_sum": 6.280369834735101e-16,
+        "coefficient_transform": 3.623071274882353e-14,
+        "zero_layer": 1.9860273225978185e-14,
+        "inverse_response": 1.9860273225978185e-15
+      }
+    },
+    {
+      "prime": 5,
+      "errors": {
+        "square": 5.476594306779868e-15,
+        "row_sum": 7.108895957933346e-16,
+        "coefficient_transform": 2.608766145426361e-13,
+        "zero_layer": 1.9895196601282805e-13,
+        "inverse_response": 5.3316719684500096e-15
+      }
+    },
+    {
+      "prime": 7,
+      "errors": {
+        "square": 1.0321016877504819e-14,
+        "row_sum": 1.897149936107019e-15,
+        "coefficient_transform": 1.0372950550217101e-12,
+        "zero_layer": 7.626344918775623e-13,
+        "inverse_response": 1.0695084443661336e-14
+      }
+    },
+    {
+      "prime": 11,
+      "errors": {
+        "square": 1.5050358335696762e-14,
+        "row_sum": 8.154094962414249e-15,
+        "coefficient_transform": 7.53084130414172e-12,
+        "zero_layer": 5.109587858497487e-12,
+        "inverse_response": 2.864289338439558e-14
+      }
+    }
+  ]
+}

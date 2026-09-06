@@ -12,8 +12,11 @@
 [333](notes/333-joint-packet-duals-and-conditional-density.md)多组计数与[334](notes/334-growing-packet-cost-and-collision-scope.md)增长／碰撞成本已独立复核并[结算](goals/ACCEPTANCE.cycle7.md)，实际覆盖仍开放。
 当前[335](notes/335-fixed-physical-cell-and-determinant-fibres.md)已独立复核并修正有限核实现和去对角措辞；
 [336](notes/336-finite-field-completion-of-physical-determinants.md)给完整Kloosterman核的精确展开，
-[337](notes/337-zero-fourier-mode-with-physical-shell-centering.md)给固定扩展零频项O(log X)候选，独立复核进行中。
-非零频项的真实系数和长度尚未接合文献中的双线性节省。
+[337](notes/337-zero-fourier-mode-with-physical-shell-centering.md)的固定扩展零频项O(log X)已独立复核。
+[338](notes/338-common-denominator-layer-in-the-actual-cell.md)重复分母／分子层及
+[339](notes/339-dual-determinant-zero-mode-and-exact-inversion.md)双频零层均已复核；
+[340](notes/340-prime-weight-energy-outside-the-poisson-band.md)真实素数权短频能量候选正在复核。
+剩余非零频相关尚未接合文献中的双线性节省。
 RH、零点比例／非零区域改进及实质算术Weil结构仍未实现，整个GOAL保持active。
 [执行账本](goals/PROGRESS.md)记录当前动作和保存状态。
 
