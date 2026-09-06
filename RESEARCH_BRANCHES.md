@@ -4,7 +4,7 @@
 
 ## 当前队列
 
-维护验收与恢复（2026-09-06）：David--Lapidus观察线、论文目录及GitHub Actions三项维护均已完成，[完整三组远程检查成功](https://github.com/lixiang90/RH-Weil/actions/runs/33982592142)。291--295组成的四轮周期已完成：平方证书、左侧raw负迹障碍、真实右移补偿和PNT交点节省逐项核验。294把实际右移上界改进到 \(o(B^\theta)\)；295用单一固定正整数源和真正前缀记录达到一般次幂包络上界，同时证明其germ在 \(s=1\) 非亚纯。**停止仅改变PNT包络的普遍改进路线**，不把模型边界扩大为完整Weil no-go。主线只保留真实亚纯结构或有符号算术相关能提供的独立新估计；289仍观察。`DL-AUDIT`未启动，资源门槛不变。
+维护验收与恢复（2026-09-06）：David--Lapidus观察线、论文目录及GitHub Actions三项维护均已完成，[完整三组远程检查成功](https://github.com/lixiang90/RH-Weil/actions/runs/33982592142)。291--295组成的四轮周期已完成：平方证书、左侧raw负迹障碍、真实右移补偿和PNT交点节省逐项核验。294把实际右移上界改进到 \(o(B^\theta)\)；295用单一固定正整数源和真正前缀记录达到一般次幂包络上界，同时证明其germ在 \(s=1\) 非亚纯。**停止仅改变PNT包络的普遍改进路线**，不把模型边界扩大为完整Weil no-go。296--297是新周期第1轮：保留整函数中心线除数的模型已显示硬截断日程障碍，三角权又给明确的适用边界；原始复极点的双端点拆分亦已审计。下一步只检查真实联合余项能否传递该局部结构，不把单包重新表示视为算术进展；289仍观察。`DL-AUDIT`未启动，资源门槛不变。
 
 | ID | 角色 | 下一最小引理 | 晋级条件 | 状态 |
 |---|---|---|---|---|
@@ -15,7 +15,7 @@
 | NCE-5 | 备用线 | one-prime/one-block extension，预算增量可和 | extension 不调用完整 Weil positivity | 观察 |
 | NCE-6 | 备用线 | bounded-resolvent/negative-trace 的 ultraproduct 稳定性 | 先独立得到统一预算 `C` | 观察 |
 | NCE-7 | 非构造主线 | short-word effects 对实际 negative level sets 的 response-weighted capture | capture error共尾可和且不调用 Selberg/RH 等价输入 | degree-one universal moment route 已 sharp no-go |
-| NCE-8 | 当前主线：包络机制止损，保留亚纯接口 | B1z / 294--295后：先核对285/287/289，再对固定有限非实Mellin极点包证明正确右侧交点尺度的严格缺口，并明确极点数量/高度增长时失去一致性的项 | 必须产出实际原迹的新估计或保留亚纯除数的更强障碍；只重复Landau、有限零点展开、PNT交点或等价预算则停止 | 实际PNT交点节省 [T]；一般固定源饱和 [N]但模型非亚纯；绝对有界仍[O]且有RH强度 |
+| NCE-8 | 当前主线：截断日程及实际亚纯接口 | 296--297后：固定一个孤立临界零点窗，保留双端点，估计真实 completed current 减去显式单包后的局部联合余项；先审计其能否独立达到296背景引理的统一界 | 必须获得实际有符号余项的新统一估计或其明确障碍；仅换核、有限展开或等价预算不晋级 | 296给保留整函数除数的硬截断日程障碍 [T/N]，三角权可消除模型障碍；实际全谱传递[O] |
 | NCE-9 | 非构造补全 | 把 finite Cauchy-translate Schur block写成 joint signed Type I/II large-sieve form | uniform finite-block budget只用 length-side数据且弱于完整 RH criterion | finite satisfiability compactness与Gram/Schur判据已完成；33 translates捕获约23% package norm |
 | MOM-1 | 四矩观察线 | 只在出现新的 actual determinant-correlation input 时恢复；不得继续增加 Möbius/divisor kernel 表示 | 新输入必须在 physical fiber 内先合并全部 divisor blocks，并直接给 `o(L^4)` global ledger | exact band/mass已闭合；cumulative、band energy、channel mass、raw pullback与 divisor separation五条候选证书均已 theorem/no-go；条件比例仍为 0.7569027 / 0.8784513 |
 | NCE-10 | 非构造补全 | 增长的 arithmetic mixed localizers 与 divisor-visible resolvent closure | 每个有限 word level 近正且 Archimedean 有界，闭包恢复 divisor | scalar fourth moments 有 65 维严格 no-go；finite-satisfiability completion 已证明 |
@@ -204,6 +204,18 @@
 - **当前证据 [E]**：45组MP50包络检查与主代理独立复跑通过；包括完整半轴范数、交点、积分常数和安全sup因子。只认证有限浮点公式一致性，不认证实际PNT常数、记录或渐近；295全尺度结论完全来自证明。
 - **晋级／止损／下一最小任务**：本周期将定量右移与PNT剩余量节省保留为内部[T]，停止继续只换光滑次幂PNT包络、固定源一致性或历史soft norm。下一周期首先核对旧有限零点/深尾结果，尝试对固定有限非实Mellin极点包证明正确右侧交点尺度的严格缺口，并追踪高度与数量增长时的统一性损失；只出现等价重写或既有有限展开则不晋级。只有引入模型未保留的已知解析或真实算术限制，并得到独立量化结论，才继续。
 - **论文归属与完成边界**：归独立response论文的“适用范围与估计障碍”材料，不另扩写同义RH框架。先保留Markdown，未更新PDF；文献新颖性、外部同行审查与Goal阶段验收仍[O]。David--Lapidus观察线未启动。
+
+#### B1z 亚纯接口周期第1轮：临界边界层与端点审计（2026-09-06）
+
+- **主线与已解最小引理 [T/N]**：[296](notes/296-critical-pole-boundary-layer-and-shift-schedule.md)对固定临界共轭极点包给出统一负迹渐近。令 \(L=\log Y,\ q=\delta L,\ E=e^{-q}\)，在 \(0\le q\le A\log\log L\) 中，主项为 \(4E\log L/[\pi^2(1+\gamma^2)]\)，误差为 \(O_{\gamma,A}(E[1+q+\log(1+q)])\)，即使主项趋零仍有相对渐近。正迹另有趋于 \(2/(1+\gamma^2)\) 的质量，不能与负迹混同。
+- **独立输入与配置接口**：主线只用显式有限积分、Poisson恒等式及有界周期函数的调和积分估计，不用RH。模型 \(\Phi(w)=w^2+\gamma^2\) 是真整函数整数除数，有限候选满足Poisson与右半平面局部一致germ；因此相比295保留了亚纯除数结构。它只校验145/293的显式公式型接口，不构造数域上同调或实际素数源。
+- **主要反例及删除假设**：即使极限对数导数正实，硬截断在 \(q-\log\log L\to-\infty\) 时仍有负迹发散；任意共尾日程不能由极限正性自动推出。改用三角形log权后，纯指数模型为Fejér正核，保留Abel因子也有 \(\kappa_-\le8e^{-q}/L\)；故不排除其他正则化、完整Weil配置或真实RH。任意有符号背景必须保留自身负迹。
+- **辅助线与去重 [T/R/N]**：[297](notes/297-raw-pole-endpoint-splitting-obstruction.md)证明每个固定 \(Y>2\) 的原始复核满足 \(\tau_C|K_\rho|\ge c_Y/|\gamma|\)，经典Riemann--von Mangoldt计数遂使逐项绝对和发散；双端点补偿 \(I_\rho\) 则有跨实部共振的一致参数界。固定 \(Y\) 的定性可和性已隐含于282，只明确其量化范围，不重复登记为突破；实际配对实部的发散并未证明。
+- **本轮停止的尝试**：固定有限谱边缘的幂次缺口大部分由旧280/282/286或更强幂次包络直接推出；不另写“有限包改写”长篇。297的粗尾 \(Y^{1-\sigma'}\log^2(2V)/V\) 尚不能在多对数高度给294所需小量，289的不同余核与中频四阶范数不得直接移植。
+- **RH/GRH循环性审计**：已知模型的中心线除数只用于反例和核归一化，不能当作真实 \(\xi\) 的谱输入。296不改293明确安全日程下的RH等价性，也没有证明有界负迹是更弱的算术假设。有限计算不升级为一致极限或真实零点结论。
+- **当前证据 [E/T]**：296全文由主代理与carrier_audit分别逆向复核；297全文由主代理与gap_exception_audit分别复核。9组MP50脚本由作者与主代理各自运行通过，另含6个原积分点检，代码的根分割和全部预算另经独立只读审计。所算局部primary负部不是全轴负迹，临界规则下有限比值仍远离1，不以实验认证渐近。布局及11项回归、77项注册/mock核验通过，未重跑77项重型计算。
+- **下一最小引理 [O]**：对一个孤立的固定临界零点窗，将真实有限完成候选减去296单包后的余项先写成保留完整双端点的联合算术量，检验能否得到随 \(Y,\delta\) 一致的局部界，或足以传递负迹的局部 \(L^1\) 界。必须追踪其他零点、全谱尾和Gamma，不能用逐个复核绝对和替代。仅完成恒等式不晋级；若旧界仍差一个增长因子，应明确记录因子并停止同类改写。
+- **晋级、止损与论文归属**：本轮晋级为内部可审计的日程校准和端点障碍，不登记为真实zeta的新算术节省。下一轮只继续上项单一余项问题；不扩写任意有限包，也不以Fejér模型的正性代替算术证明。材料暂归独立response论文的有限化审计附录；先用Markdown，不更新PDF。DL-AUDIT未启动；文献新颖性、外部同行审查与Goal阶段验收仍[O]。
 
 ### 路线 C / VIS-1：离线零点深度可见性（桥梁路线）
 

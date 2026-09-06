@@ -165,6 +165,10 @@
    https://arxiv.org/abs/2204.02588v3
    https://kskedlaya.org/ant/part-2-4.html
 
+52. Elchin Hasanalizade, Quanli Shen, Peng-Jie Wong, *Counting zeros of the Riemann zeta function*, arXiv:2107.06506v1（2021-07-14），Corollary 1.2。[R] 本轮核对作者预印本第2页的计数陈述；297只使用其蕴含的经典 \(N(T)=\frac{T}{2\pi}\log\frac{T}{2\pi e}+O(\log T)\) 和单位高度 \(O(\log T)\) 上界，不使用数值常数，不声称当前前沿纪录，也未重建该文完整证明。原始复核的端点下界、Cauchy参数界及其求和后果在297内独立证明；不能把复模结论改为实际共轭配对实部的发散。
+   https://arxiv.org/abs/2107.06506v1
+   https://arxiv.org/pdf/2107.06506
+
 ## 使用这些来源时的边界
 
 - Deligne 已无条件证明有限域结论，但不是通过证明全部 standard conjectures；不能把 standard conjectures 的一般成立当成已知事实。

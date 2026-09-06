@@ -19,6 +19,29 @@ Actions 将原检查清单分为 core、B1h、B1i 三组并行，全部成功才
 ## 正式论文整理稿
 
 最新研究进展（2026-09-06）：
+[296：临界极点的截断边界层与右移日程](notes/296-critical-pole-boundary-layer-and-shift-schedule.md)，
+辅助审计为[297：原始极点核的双端点拆分障碍](notes/297-raw-pole-endpoint-splitting-obstruction.md)。
+在全部零点已位于中心轴的显式模型 \(\Phi(w)=w^2+\gamma^2\) 中，
+有限 Abel 硬截断仍可能产生发散负迹。令 \(L=\log Y,\ q=\delta L\)，
+固定 \(\gamma>0,A>0\)，一致于 \(0\le q\le A\log\log L\)，有
+\[
+ \kappa_-=
+ \frac{4e^{-q}\log L}{\pi^2(1+\gamma^2)}
+ +O_{\gamma,A}\!\left(e^{-q}[1+q+\log(1+q)]\right).
+\]
+因此该模型负迹有界的下阈值为 \(q\ge\log\log L-O(1)\)，
+临界窗是 \(q=\log\log L+O(1)\) [T/N]。
+这否定“正实极限 germ 加任意靠线日程就足够”，不否定145的充分判据。
+三角形对数权在同一模型中将负迹压至 \(O(e^{-q}/L)\)，
+所以障碍只针对指定硬截断，不是所有有限 Weil 配置的 no-go。
+
+297另证明实际零点的原始**复模式**逐项 Cauchy 绝对和发散；
+保留双端点的补偿核仍可绝对求和，后者的定性结论已隐含于282，不重复晋级。
+没有据此证明实际共轭配对实部发散，也没有把有限模型的日程移植给真实 \(\zeta\)。
+本轮仅Markdown、合成模型的有限核验与内部独立复核，不更新PDF。
+RH/GRH、实际绝对预算、新零点比例及文献新颖性均未由本轮解决。
+
+同日上一轮：
 [294：PNT／记录交点节省](notes/294-pnt-envelope-gain-and-fixed-source-saturation.md)与
 [295：固定正源的同阶饱和及解析边界](notes/295-fixed-positive-source-right-trace-saturation.md)。
 在293同一实际记录上，经典有符号PNT误差将右移范数上界进一步改进为
