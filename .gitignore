@@ -56,3 +56,6 @@ desktop.ini
 *.key
 credentials.json
 secrets.json
+
+# GDZ scan retained locally; source notice and exact hash in literature/manifest.json
+/literature/background/schur-bilinear-1911.pdf

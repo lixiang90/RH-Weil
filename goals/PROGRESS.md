@@ -1,23 +1,37 @@
 # GOAL.20260906 phase 3 执行账本
 
 2026-09-06；起点main 1d89615c90f615874a421cbe2523aa6a7d6d4fec。
-[前阶段账本](archive/PROGRESS.phase2.md)与[验收](ACCEPTANCE.phase2.md)已保留。
-新版[GOAL](GOAL.20260906.md)于本阶段研究前确定4–6轮、最多8轮和六项验收，不以完成整理替代研究。
+[phase2历史账本](archive/PROGRESS.phase2.md)和[验收](ACCEPTANCE.phase2.md)完整保留。
+第三版[GOAL](GOAL.20260906.md)在本周期前确定4–6轮、最多8轮及六项验收。
 
-## 当前动作
+## 四轮数学动作及结算
 
-VIS-CL-GRAM为唯一主线：317已给分离深目标的共同Gram及合法求和效应，318给同一正算子下逐列误差失效的精确反例。319给整个远深矩阵界；320以最大簇质量闭合近簇块和同一R的共同预算。候选证明已提交独立逆审。
-只读原始文献比较已启动；前两轮属于经典重建和推理风险定位，不单独作新成果验收。
-
-| 轮次 | 数学问题 | 状态 |
+| 轮次 | 结果 | 分类与边界 |
 |---|---|---|
-| 1 | 原始测试列Gram与合法求和效应 | [317](../notes/317-separated-deep-test-gram-and-collective-effect.md)：证明草稿，待逆审 |
-| 2 | 逐列误差反例及共同预算 | [318](../notes/318-columnwise-small-error-does-not-control-common-gram.md)：精确反例，待逆审 |
-| 3 | 全部实际正项、同一lambda与R | [319](../notes/319-collective-far-background-via-weighted-schur.md)：共同远尾完整草稿，待逆审 |
-| 4 | 增长簇数参数、净收益及边界 | [320](../notes/320-common-regularizer-for-growing-separated-clusters.md)：共同日程及增长参数，待逆审 |
+| 1：317 | 分离深目标共同Gram为I+O(L/D)，构造原算子共同效应 | 经典工具重建，不单独算新算术成果 |
+| 2：318 | 同一正算子逐列1/n小误差、共同Gram(1+n)^2的精确反例 | 排除错误一般推理；不反驳实际分离簇 |
+| 3：319 | 第一逆幂密度尾与两侧加权Schur给||PF Q||<=C L^(5/2)T^(1/4+Phi/2) | 实际筛选子背景共同界，不付sqrt(M) |
+| 4：320 | 最大簇质量Wmax控制正簇块，同一lambda/R保留Wtotal响应，共同Gram趋I，lambda/||P||趋零 | 明确实际簇几何下的统一条件性定理；允许M增长 |
 
-实际簇存在、外部分离、Gamma、全局正性、零点比例与RH仍开放。
-第三版目标及317–318已随6bf029b4fe43aea73273b1aa1fd08bcf1c354fc7推送origin/main并核验。319–320候选当前待提交推送。
+完整证明已通过[Popper独立逆审](../reviews/2026-09-06/317-320-collective-proof-review.md)，
+原始条款及内部比较见[Euclid来源报告](../reviews/2026-09-06/phase3-primary-literature-review.md)。
+参数范围、Schur权后行和和逐方向完整远背景三项澄清全部采纳，Gw统一措辞亦已补明。
+317–318不单独满足新成果要求；319–320补上316未有的共同矩阵与同一R预算。
 
-只读辅助：Euclid核对原始文献与内部重叠，Popper独立审查317–320完整证明。
-仅在新成果证明及原始比较闭环、下一任务明确并完成最终远程核验后，才按第十节验收。
+## 净收益和边界
+
+取s=7/20、d0=2/5、theta=1/5，k=51/140，廉价基础幂余量为1/28。
+条件性M=floor(T^(1/10))不违反已用必要计数上界；旧sqrt(M)粗证书的基础幂超过d0达1/70，
+新共同界不付该簇数代价。必要上界不能证明实际簇存在，也不能证明全部必要条件充分。
+实际外部分离、选中簇总质量占比、Gamma、全局正性、零点比例及RH均开放。
+
+## 文献与保存
+
+本地新存Schur1911原始扫描29页，封面及原文完整；本地全库29 PDF、790页。
+来源封面限制向其他仓库复制，故该PDF仅本地，Git保存出处、版本及哈希；其他28 PDF、761页和5件补充附件继续版本化。
+MV及CS既有原件重新核读所需条款，不把本轮核读范围扩大为外部全文认证。
+
+6bf029b4fe43aea73273b1aa1fd08bcf1c354fc7及daccf6147a1a852e6ab3b06798721eded84f801d已推送origin/main并核验。
+本周期数学验收已满足；最终闭环提交和本账本仍待远程核验。
+下一有限问题：[未选中近深点的混合Gram预算](NEXT.phase3.md)，尚未启动新阶段。
+逐项验收见[ACCEPTANCE.phase3.md](ACCEPTANCE.phase3.md)。

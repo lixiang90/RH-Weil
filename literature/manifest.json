@@ -391,7 +391,7 @@
       "file": "background/montgomery-vaughan-hilbert-1974.pdf",
       "source_url": "https://personal.science.psu.edu/rcv4/personal/Publications/s2-8-1-73.pdf",
       "pdf_url": "https://personal.science.psu.edu/rcv4/personal/Publications/s2-8-1-73.pdf",
-      "status": "局部间距 Hilbert 不等式及均值应用",
+      "status": "局部间距 Hilbert 不等式及均值应用；phase3 Euclid核读原刊74–75、82页，Theorem2及Corollary2。常振幅实频率结论不直接代入变深度h_j。",
       "resolved_pdf_url": "https://personal.science.psu.edu/rcv4/personal/Publications/s2-8-1-73.pdf",
       "download_status": "downloaded",
       "bytes": 538953,
@@ -594,6 +594,33 @@
       "pdf_parse_status": "all pages parsed",
       "text_characters": 81168,
       "status": "已核读v2第1–2、4–5页：计数含重数、Corollary 1、Table 1覆盖、推论调用及统一弱化C=224；未复证全篇、表格优化或有限高度验证"
+    },
+    {
+      "id": "Schur-1911",
+      "category": "background",
+      "authors": "J. (Issai) Schur",
+      "title": "Bemerkungen zur Theorie der beschränkten Bilinearformen mit unendlich vielen Veränderlichen.",
+      "version": "J. reine angew. Math. 140 (1911), 1–28; GDZ LOG_0004 scan, cover plus article",
+      "file": "background/schur-bilinear-1911.pdf",
+      "source_url": "https://doi.org/10.1515/crll.1911.140.1",
+      "catalog_url": "https://gdz.sub.uni-goettingen.de/id/PPN243919689_0140",
+      "pdf_url": "https://gdz.sub.uni-goettingen.de/download/pdf/PPN243919689_0140/LOG_0004.pdf",
+      "resolved_pdf_url": "https://gdz.sub.uni-goettingen.de/download/pdf/PPN243919689_0140/LOG_0004.pdf",
+      "download_status": "downloaded",
+      "version_control": "local-only",
+      "storage_reason": "GDZ cover notice restricts copying to other repositories; preserve complete original locally, synchronize metadata and source links only.",
+      "bytes": 40185885,
+      "sha256": "e225ba5eecd84d57d603449f00f1e8fbf74d399c82f30c0d4ce1b2342bea490d",
+      "retrieved_at_utc": "2026-09-06T10:49:10.375673+00:00",
+      "pages": 29,
+      "article_pages": 28,
+      "pdf_parse_status": "all 29 pages parsed; cover text only, article is scanned",
+      "text_characters": 1698,
+      "status": "主线程视觉核对原刊1、6、7、28页；Euclid核读原刊1–10页馆藏OCR，重点§2 Satz I。319现代两权版本自证，不称为原文逐字定理。",
+      "ocr_sources": [
+        "https://gdz.sub.uni-goettingen.de/gdzocr/PPN243919689_0140/00000010.xml",
+        "https://gdz.sub.uni-goettingen.de/gdzocr/PPN243919689_0140/00000011.xml"
+      ]
     }
   ],
   "supplement_provenance": [

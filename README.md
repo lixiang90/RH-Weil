@@ -5,8 +5,12 @@
 ## 当前研究状态：phase 3（2026-09-06）
 
 已再次修订[GOAL.20260906](goals/GOAL.20260906.md)，进入多簇共同效应与同一正则化算子的多轮研究。
-原始Gram、增长簇数成本及共同日程依次审计；当前尚无本阶段新定理或实际几何验证。
-[执行账本](goals/PROGRESS.md)记录本周期推导、复核及保存状态。
+317–320四轮研究已完成内部独立复核。
+[319](notes/319-collective-far-background-via-weighted-schur.md)得到共同远深背景的矩阵界，
+[320](notes/320-common-regularizer-for-growing-separated-clusters.md)以最大簇质量控制共同日程，
+在明确几何前提下允许簇数增长，保留同一个R下的总簇质量响应。
+实际簇存在、外部分离与RH仍开放，不宣称新比例或世界优先权。
+[执行账本](goals/PROGRESS.md)、[阶段验收](goals/ACCEPTANCE.phase3.md)及[下一任务](goals/NEXT.phase3.md)记录复核、保存和继续范围。
 
 ## phase 2 已完成结果（2026-09-06）
 

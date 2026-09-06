@@ -2,14 +2,15 @@
 
 本文件记录尚未进入正式论文的探索路线。严格推导见 [`notes/174-nonconstructive-existence-and-branch-map.md`](notes/174-nonconstructive-existence-and-branch-map.md)。
 
-## 唯一当前队列（GOAL.20260906 phase 3）
+## 唯一队列（GOAL.20260906 phase 3 周期结算）
 
-[第三版目标](goals/GOAL.20260906.md)已开始执行多轮研究；[账本](goals/PROGRESS.md)为当前状态。
+[第三版目标](goals/GOAL.20260906.md)已完成317–320四轮数学推导及独立复核；[验收](goals/ACCEPTANCE.phase3.md)记录最终保存状态。
 
 | 任务 | 角色与动作 | 边界 |
 |---|---|---|
-| VIS-CL-GRAM | 唯一主线：原始Gram、增长列数、同一R及集体预算 | 不直接相加316，不假定实际簇存在 |
-| 原始文献／独立逆审 | 只读辅助，按既有授权使用子代理 | 不冒充外部评审 |
+| VIS-CL-GRAM | 本周期数学验收已满足：319共同远尾、320同一R和Wtotal响应 | 实际簇存在及外部分离未证 |
+| VIS-NEAR-GRAM | 唯一下一候选，未启动新阶段；[任务单](goals/NEXT.phase3.md)核算未选中近深点 | 不把未证算子预算换名为输入 |
+| 原始文献／独立逆审 | 两条只读复核已完成，异议采纳，报告保存 | 不冒充外部评审 |
 | MOM-1／NCE-8／GNS | 后续备选，按有限准入切换 | 不重复旧等价表示 |
 | David–Lapidus | 未启动限额观察 | 原10%资源上限保留 |
 

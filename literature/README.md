@@ -1,6 +1,6 @@
 # RH-Weil 文献索引
 
-更新与抓取日期：2026-09-06。首批归档聚焦67.25%之后的零点比例进展及直接依赖（15份、220页）；GOAL 首周期补入两份 Milne 函数域背景及四篇 Abel 直接文献，phase1共21份外部原始PDF、570页；phase2新增清单及获取状态见文末，当前共28份外部原始PDF、761页；获取失败单列。研究判断见 [305文献审计](../notes/305-post-6725-literature-baseline-audit.md)。
+更新与抓取日期：2026-09-06。首批归档聚焦67.25%之后的零点比例进展及直接依赖（15份、220页）；GOAL 首周期补入两份 Milne 函数域背景及四篇 Abel 直接文献，phase1共21份外部原始PDF、570页；phase2新增清单及获取状态见文末，phase3新增Schur原文扫描29页，当前本地共29份外部原始PDF、790页，其中Git保存28份、761页；Schur扫描按来源封面要求仅本地保存，出处和哈希同步。获取失败单列。研究判断见 [305文献审计](../notes/305-post-6725-literature-baseline-audit.md)。
 
 PDF按来源原样保存，未重排或改写；arXiv固定版本，GitHub固定提交，Zenodo固定记录。下载、全页PDF解析和校验值核验不等于数学证明认证。manifest中的SHA-256标识本次取得的精确字节，原站同一文件名后续变化时仍可区分。
 
@@ -272,3 +272,18 @@ PDF按来源原样保存，未重排或改写；arXiv固定版本，GitHub固定
 - 版本：arXiv:2507.15184v2; 2025-09-30。
 - [本地PDF](background/chourasiya-simonic-ingham-v2.pdf)（33页）；[来源页](https://arxiv.org/abs/2507.15184v2)；[原始PDF链接](https://arxiv.org/pdf/2507.15184v2)。
 - 核读范围：已核读v2第1–2、4–5页：计数含重数、Corollary 1、Table 1覆盖、推论调用及统一弱化C=224；未复证全篇、表格优化或有限高度验证。
+
+## phase 3：共同Gram与原始来源复核（2026-09-06）
+
+- **Schur-1911**：J. (Issai) Schur，*Bemerkungen zur Theorie der beschränkten Bilinearformen mit unendlich vielen Veränderlichen.*，J. reine angew. Math. 140 (1911), 1–28。
+  [原始来源](https://doi.org/10.1515/crll.1911.140.1)；[GDZ馆藏](https://gdz.sub.uni-goettingen.de/id/PPN243919689_0140)；[原始PDF下载](https://gdz.sub.uni-goettingen.de/download/pdf/PPN243919689_0140/LOG_0004.pdf)。
+  本地文件为 `background/schur-bilinear-1911.pdf`，29页（馆藏封面1页＋原刊1–28页），完整原件未改写。
+  馆藏封面注明限制向其他仓库复制，因此PDF仅本地保存，Git同步来源、版本、SHA-256和本说明。
+  主线程视觉核对原刊1、6、7、28页；只读复核者读取1–10页馆藏OCR，重点§2 Satz I。
+  319的现代两权Schur检验另有自含证明，不称为原文逐字定理。
+- **MV-1974**：既有10页PDF重新核读原刊74–75、82页，Theorem2及Corollary2；常振幅、实频率范围没有被误用于变深度列。
+- **Chourasiya-Simonic-2025**：既有v2 PDF重新核读1–2、4–5页，统一计数含重数，使用Corollary1／Table1而非只用有限sigma范围的Theorem1。
+- **Bellotti–Wong v2**：本轮承继314已核读的单位高度计数弱化，不扩大为本轮重新全审。
+
+完整核读及内部287／314重叠边界见[来源报告](../reviews/2026-09-06/phase3-primary-literature-review.md)。
+Schur出版社PDF入口返回202空正文；GDZ文章PDF入口成功。所有29页对象解析通过，扫描正文需要视觉核读。
