@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "scope": "finite algebra only; no asymptotic prime bound",
+  "cases": [
+    {
+      "prime": 3,
+      "all_h_all_frequencies": 243,
+      "maximum_float_error": 7.105427357601002e-15,
+      "exact_cyclotomic_checks": 243
+    },
+    {
+      "prime": 5,
+      "all_h_all_frequencies": 3125,
+      "maximum_float_error": 2.842170943040401e-14,
+      "exact_cyclotomic_checks": 3125
+    },
+    {
+      "prime": 7,
+      "all_h_all_frequencies": 16807,
+      "maximum_float_error": 1.1369746240643762e-13,
+      "exact_cyclotomic_checks": 0
+    },
+    {
+      "prime": 11,
+      "all_h_all_frequencies": 161051,
+      "maximum_float_error": 4.547473508864641e-13,
+      "exact_cyclotomic_checks": 0
+    }
+  ]
+}

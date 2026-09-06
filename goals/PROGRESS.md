@@ -37,24 +37,40 @@ Euler的[算术审计](../reviews/2026-09-06/cycle4-arithmetic-interface-audit.m
 [周期7结算](ACCEPTANCE.cycle7.md)：332–334四个数学动作和三份独立报告完成，
 采用正性门槛、U*坐标、左右计数、远预算及B增长范围修订。
 对偶消正、增长组Q_T²成本均成立于明确几何前提；实际含重数覆盖未被证明。
-Franklin、Gibbs的所有报告已保存，代理已关闭；Euler保持关闭。
+周期7的Franklin、Gibbs报告已保存并曾关闭代理；周期8按既有授权恢复使用。
+Franklin的335报告已收到并保存；Gibbs外部条款报告已保存，现审336–337；Euler保持关闭。
 
 [周期8任务单](NEXT.cycle7.md)：以新外部算术输入核查真实MOM determinant的Kloosterman映射。
 [335](../notes/335-fixed-physical-cell-and-determinant-fibres.md)已恢复240–241脚本的同一平窗cell、
-共同shell中心与完整四Lambda权，给全部gcd分层及固定分母纤维，证明候选待独立复核。
+共同shell中心与完整四Lambda权，给全部gcd分层及固定分母纤维，已完成独立复核。
+采用核数值分支修正、当前h=0等价原子对角的措辞及互素纤维至多1点的强化；
+见[335报告](../reviews/2026-09-07/335-independent-review.md)。
 整个中心shell的|h|范围O(X)，单个振荡尺度才是O(X^1/2)，二者分别记录。
 
-下一动作：从h、分母或Vaughan后自由变量的合法求和次序寻找真正完整Kloosterman核，
-明确长度、互素性、系数范数、六窗和尾项后再应用原始估计。
+周期8第2动作：[336](../notes/336-finite-field-completion-of-physical-determinants.md)
+以p约X^(3/2)无混叠模数给精确四变量有限域展开，
+T_h(xi)=p³ 1_(xi=0)+p S(h,det xi;p)。4个小素模数全h全频率核对，
+p=3,5另作3368项整系数cyclotomic检查通过；这只是有限代数证据。
+第3动作：[337](../notes/337-zero-fourier-mode-with-physical-shell-centering.md)
+保留原shell平均、BV离散误差及Jacobian，给同一扩展零频项O(log X)候选。
+336–337由Gibbs独立审查中。非零频项只有粗界O(X^(13/4)log² X)，不能宣称有净节省。
+
+下一动作：核算真实非零频系数的结构、支撑、分离成本及特殊分母层，
+在同一cell误差账本中检查是否能用双线性原始估计。
 不能以取q=bd的字面替换或固定分母O(1)长度纤维冒充平方根双线性和。
-[新输入筛查](../reviews/2026-09-07/kloosterman-next-input-screen.md)已固定原始条款，
+[新输入筛查](../reviews/2026-09-07/kloosterman-next-input-screen.md)已完成独立条款复核，
+修正初始／平移区间、特殊模数节省基准、联合互素条件和完整字符族。
 Pascadi v2、MQW v1和Choi–Kumchev v1的实际MOM映射及完整解析依赖仍待核查。
 
-当前37份外部原始PDF1220页；36份1191页进入Git，Schur保持原本地限制。
+当前39份外部原始PDF1309页；38份1280页拟进入Git，Schur保持原本地限制。
 Clark17页只核读开头范围；Pascadi1–5页、MQW1–4页、Choi–Kumchev1–2页已初核。
 后者PDF的draft 2018日期与arXiv上传2004、期刊2006分别保留。
+另存Pascadi 2026-08-21的GAFA正式70页PDF和Karabulut19页有限域矩阵背景，
+保留各版本及准确核读范围；前者未纳入Gibbs针对arXiv v2的独立报告。
 9e03a86a969ff01357744786f723f0ebfd900bf1已推送origin/main并以ls-remote核验。
 332–334报告、周期7结算、第八版目标、新三篇原件及335候选已随
 3a11600aacdf046662c58b7e9befb087c29863ed推送origin/main，并以ls-remote核验同一完整SHA。
 本条保存状态随后单独写入账本；不改变数学状态。
+上述保存记录已随c17faa6c6ef169dee61fcdf52b7ffd16d19eb9ff推送核验；
+本次336–337候选、335纠错及新文献正在形成下一提交。
 整个GOAL保持active，未满足较远期标准。

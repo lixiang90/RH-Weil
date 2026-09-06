@@ -14,14 +14,18 @@ def finite_kernel(limit: int, t: float) -> float:
 
     length = math.log(limit)
     dimension = round(limit * length)
-    angle = 2.0 * math.pi * t / (limit * length)
-    denominator = math.sin(angle / 2.0)
-    if abs(denominator) < 1.0e-14:
-        return 1.0
-    amplitude = math.sin(dimension * angle / 2.0) / (
-        dimension * denominator
+    # Reduce the frequency increment modulo one before the geometric sum.
+    # A small denominator alone does not make the full response equal to one.
+    half_angle = math.pi * math.remainder(t / (limit * length), 1.0)
+
+    def sinc0(value: float) -> float:
+        return 1.0 if value == 0.0 else math.sin(value) / value
+
+    amplitude = sinc0(dimension * half_angle) / sinc0(half_angle)
+    phase = (
+        2.0 * math.pi * math.remainder(t, 1.0)
+        + (dimension - 1) * half_angle
     )
-    phase = 2.0 * math.pi * t + (dimension - 1) * angle / 2.0
     return amplitude * math.cos(phase)
 
 

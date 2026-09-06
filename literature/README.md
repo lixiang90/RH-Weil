@@ -322,4 +322,18 @@ Bourgain 2000的原始DOI https://doi.org/10.1155/S107379280000009X 本次web未
 
 三篇SHA、字节数和取得时间见manifest。Pascadi当前v2含作者标明的修订与小纠正；MQW及Choi–Kumchev版本历史当前仅v1。旧MOM-1的240–241停止条件保持；只核查这些外部估计是否提供真正不同的输入。
 
-原始条款初核见[新输入筛查](../reviews/2026-09-07/kloosterman-next-input-screen.md)：Pascadi第1–5页、MQW第1–4页、Choi–Kumchev第1–2页；尚未独立复核或建立MOM映射。Choi–Kumchev PDF首页另标draft 2018-09-26，与arXiv上传2004-12-12及期刊2006分别保留。
+原始条款及[独立复核](../reviews/2026-09-07/kloosterman-source-independent-review.md)
+已写入[新输入筛查](../reviews/2026-09-07/kloosterman-next-input-screen.md)：
+Pascadi第1–5页（另定位Thm7.1/7.8陈述）、MQW第1–4页、Choi–Kumchev第1–2页。
+初始／平移区间、互素条件和完整字符族已修订；全证和MOM双线性映射未认证。
+Choi–Kumchev PDF首页另标draft 2018-09-26，与arXiv上传2004-12-12及期刊2006分别保留，
+不据此声称2018有实质修订。
+
+## Pascadi发表版本补充（2026-09-07）
+
+- **Pascadi, GAFA (2026)**：期刊页确认2026-08-21在线发表，DOI 10.1007/s00039-026-00746-0。[期刊页](https://link.springer.com/article/10.1007/s00039-026-00746-0)；[本地70页PDF](background/pascadi-kloosterman-gafa-2026.pdf)；[原件下载](https://link.springer.com/content/pdf/10.1007/s00039-026-00746-0.pdf)。保留54页arXiv v2独立版本；期刊网页主条款已初核，PDF逐条比较与全证认证未完成。
+
+## 有限域determinant Fourier的经典背景（2026-09-07）
+
+- **Yeşim Demiroğlu Karabulut**，*Cayley Digraphs of Matrix Rings over Finite Fields*，arXiv:1710.08872v1，2017-10-24。[本地PDF](background/karabulut-matrix-digraphs-1710.08872v1.pdf)；[固定版本](https://arxiv.org/abs/1710.08872v1)；[下载](https://arxiv.org/pdf/1710.08872v1)。19页，全文解析，具体条款待核读。[机构期刊记录](https://authors.library.caltech.edu/records/mhw8q-yd829)对应后来题名 *Unit-graphs and special unit-digraphs on matrix rings*，Forum Mathematicum 30(6),2018,1397–1412；不把预印本当成期刊排版版。
+- 检索到AIMS DOI 10.3934/math.2025168的相关determinant Fourier论文，[原始页面](https://aimspress.com/article/doi/10.3934/math.2025168)读取失败，未取得PDF或核读定理；暂只保留入口，不作为证明依赖。

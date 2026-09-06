@@ -1,0 +1,137 @@
+{
+  "status": "PASS",
+  "scope": "finite numeric regression only",
+  "cases": [
+    {
+      "X": 10,
+      "t": 0.0,
+      "reference": "direct sum",
+      "absolute_error": 0.0
+    },
+    {
+      "X": 10,
+      "t": 1e-15,
+      "reference": "direct sum",
+      "absolute_error": 0.0
+    },
+    {
+      "X": 10,
+      "t": 0.5,
+      "reference": "direct sum",
+      "absolute_error": 3.5388358909926865e-16
+    },
+    {
+      "X": 10,
+      "t": -2.75,
+      "reference": "direct sum",
+      "absolute_error": 1.249000902703301e-16
+    },
+    {
+      "X": 10,
+      "t": 3.1622776601683795,
+      "reference": "direct sum",
+      "absolute_error": 1.7694179454963432e-16
+    },
+    {
+      "X": 10,
+      "t": 23.02585092994046,
+      "reference": "direct sum",
+      "absolute_error": 1.4432899320127035e-15
+    },
+    {
+      "X": 10,
+      "t": 23.025851029940462,
+      "reference": "direct sum",
+      "absolute_error": 1.7763568394002505e-15
+    },
+    {
+      "X": 10,
+      "t": 45.92670185988092,
+      "reference": "direct sum",
+      "absolute_error": 1.6986412276764895e-14
+    },
+    {
+      "X": 400,
+      "t": 0.0,
+      "reference": "direct sum",
+      "absolute_error": 0.0
+    },
+    {
+      "X": 400,
+      "t": 1e-15,
+      "reference": "direct sum",
+      "absolute_error": 0.0
+    },
+    {
+      "X": 400,
+      "t": 0.5,
+      "reference": "direct sum",
+      "absolute_error": 2.198762005800603e-16
+    },
+    {
+      "X": 400,
+      "t": -2.75,
+      "reference": "direct sum",
+      "absolute_error": 1.8735013540549517e-16
+    },
+    {
+      "X": 400,
+      "t": 20.0,
+      "reference": "direct sum",
+      "absolute_error": 1.3162214373974024e-16
+    },
+    {
+      "X": 400,
+      "t": 2396.5858188431926,
+      "reference": "direct sum",
+      "absolute_error": 4.5341508325691393e-13
+    },
+    {
+      "X": 400,
+      "t": 2396.5858189431924,
+      "reference": "direct sum",
+      "absolute_error": 4.225508831723346e-13
+    },
+    {
+      "X": 400,
+      "t": 4793.046637686385,
+      "reference": "direct sum",
+      "absolute_error": 3.843592111252292e-13
+    },
+    {
+      "X": 100000000000000,
+      "t": 0.0,
+      "value": 1.0,
+      "reference": "1.0",
+      "absolute_error": 0.0
+    },
+    {
+      "X": 100000000000000,
+      "t": 0.5,
+      "value": -1.1694515497558127e-16,
+      "reference": "-0.00000000000000031021034421660844424448739362777158112587785383786630743254684434862330079335746",
+      "absolute_error": 1.932651892410272e-16
+    },
+    {
+      "X": 100000000000000,
+      "t": -1.25,
+      "value": -0.12732395447351613,
+      "reference": "-0.1273239544735161135099349023937263846966140159863658083156716384125303225118787",
+      "absolute_error": 2.7755575615628914e-17
+    },
+    {
+      "X": 100000000000000,
+      "t": 100.125,
+      "value": 0.00046557207063437675,
+      "reference": "0.00046557207063438759925965770343629145133409682428350025201337517601919251534176922",
+      "absolute_error": 1.0842021724855044e-17
+    },
+    {
+      "X": 100000000000000,
+      "t": 10000000.0,
+      "value": -1.0068888951474427e-16,
+      "reference": "-2.1008270945617121653098353885476831427475802182115980484226395853294323586335387e-82",
+      "absolute_error": 1.0068888951474427e-16
+    }
+  ]
+}

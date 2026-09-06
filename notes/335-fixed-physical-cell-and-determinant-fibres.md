@@ -1,6 +1,6 @@
 # 335. 固定物理cell及determinant的精确整数纤维
 
-2026-09-07。周期8第1动作及第2动作的初步分层。[T候选，独立复核待完成]。
+2026-09-07。周期8第1动作及第2动作的初步分层。[T，内部独立复核后修正实现和范围措辞]。
 先恢复旧MOM实验的同一实际算术对象；本篇没有获得相关和的新估计。
 
 ## 1. 固定对象，不改变中心化或窗口
@@ -32,7 +32,7 @@ q_ab=Lambda(a)Lambda(b)/(4pi²sqrt(ab))，s_ab=log(a/b)。
              \cos(2\pi(1+k/(XL))t),\qquad
  \bar K_X(M)={1\over M}\int_0^M K_X(t)\,dt.              \tag{2}
 \]
-于是同一脚本的直接中心响应精确为有序和
+于是同一脚本所实现的数学有限和，其规范化直接中心响应精确为有序和
 \[
  {\cal R}_X=\sum_{\substack{a,b,c,d\in I_X\\
    a,b,c,d\ {\rm prime\ powers}\\
@@ -43,7 +43,12 @@ q_ab=Lambda(a)Lambda(b)/(4pi²sqrt(ab))，s_ab=log(a/b)。
 \]
 脚本对ratio排序后只取无序对再乘2，与(3)一致，因为K为偶函数及W对称。
 中心项先前已固定为同一shell平均，不能为方便Kloosterman变换另行选择。
-去掉的是全部determinant=0项，不仅仅是(a,b)=(c,d)的原子对角。
+去对角统一按h=ad-bc=0执行。在当前cell支持上，两对均互素，故这与
+(a,b)=(c,d)的原子对角等价；后续改变整数域仍须保留并重新核对完整h=0判据。
+
+复核发现旧finite_kernel的小分母返回1分支不正确，例如X=10^14、t=1/2。
+实现现已改用sinc比值及模1的频率增量；数学式(2)保持不变。
+本文响应没有ordinary脚本完整cross_main_term另置的beta^4 D因子。
 
 式(3)仍有全部四个Lambda权。若继续Vaughan展开，沿用脚本固定的整数mask：
 在Lambda(a)=0时保留原已选的extension；不能因新通道而改mask或遗漏ghost。
@@ -83,8 +88,10 @@ X|Delta|=O(1)才对应|h|=O(Y²/X)=O(X^1/2)；
  \le {(.60Y+1)g\over .70Y}=O(g).                        \tag{6}
 \]
 所以每个固定b,d,h的整数t只有O(g+1)个。
-当b,d是不同素数底的prime powers，g=1，这条纤维只有O(1)个点；
-若b,d同底，g可能很大，该分层不能舍掉。
+当b,d是不同素数底的prime powers，g=1，实际区间长度至多.60Y，
+故t区间长至多6/7<1，这条纤维至多一个点。
+若b,d同底，当前端点比13/7<2迫使b=d，g=b约为Y；
+这个分母对角仍可能有非零h=b(a-c)，不能当作完整原子对角舍掉。
 式(3)的pairwise distinct-base mask不要求base(b)与base(d)不同。
 
 这说明：仅固定b,d,h并使用(4)，尚未得到Pascadi/MQW的

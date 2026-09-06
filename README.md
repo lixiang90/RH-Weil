@@ -10,7 +10,10 @@
 [330](notes/330-exact-sublevels-and-arbitrary-window-concentration.md)任意增长集中度与[331](notes/331-three-node-phase-compatibility-and-circle-defect.md)三点必要条件均已通过独立逆审并[结算](goals/ACCEPTANCE.cycle6.md)。
 [332](notes/332-complete-signed-packets-and-cauchy-duals.md)完整正负节点组的Cauchy Gram与精确对偶已通过独立逆审；
 [333](notes/333-joint-packet-duals-and-conditional-density.md)多组计数与[334](notes/334-growing-packet-cost-and-collision-scope.md)增长／碰撞成本已独立复核并[结算](goals/ACCEPTANCE.cycle7.md)，实际覆盖仍开放。
-当前[335](notes/335-fixed-physical-cell-and-determinant-fibres.md)恢复同一实际cell及精确determinant分层，核查新Kloosterman文献能否接合四阶响应。
+当前[335](notes/335-fixed-physical-cell-and-determinant-fibres.md)已独立复核并修正有限核实现和去对角措辞；
+[336](notes/336-finite-field-completion-of-physical-determinants.md)给完整Kloosterman核的精确展开，
+[337](notes/337-zero-fourier-mode-with-physical-shell-centering.md)给固定扩展零频项O(log X)候选，独立复核进行中。
+非零频项的真实系数和长度尚未接合文献中的双线性节省。
 RH、零点比例／非零区域改进及实质算术Weil结构仍未实现，整个GOAL保持active。
 [执行账本](goals/PROGRESS.md)记录当前动作和保存状态。
 
