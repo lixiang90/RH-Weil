@@ -1,0 +1,12 @@
+{
+  "target_min_depth": "2/5",
+  "shallow_max_depth": "7/20",
+  "height_gap_power": "3/10",
+  "lambda_power": "7/20",
+  "alpha_shallow_relative_power": "-1/20",
+  "alpha_far_relative_power": "-1/5",
+  "beta_shallow_over_lambda_power": "0",
+  "beta_far_over_lambda_power": "0",
+  "global_inverse_cost_power_lower_bound": "1/10",
+  "scope": "Exact rational exponent audit only; does not certify operator inequalities, uniformity or actual zeta separation"
+}

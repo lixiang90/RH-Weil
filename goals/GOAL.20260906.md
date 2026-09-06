@@ -103,7 +103,7 @@ Alpöge–Furman 的预印本核对至 arXiv:2608.13637v2（2026-08-19），Lamz
 R_{T,\lambda}=\lambda(P_T+\lambda I)^{-1}.
 \]
 先固定归一化与 λ(T) 的允许依赖，研究完整压缩 R A R 或严格等价的广义特征问题。
-\(\langle h,Rh\rangle\) 是 Tikhonov 逼近残余而不等于已证负迹；\(RPR\) 不为零，必须保留。
+\(\langle h,Rh\rangle\) 是Tikhonov最小化的“残差平方＋系数惩罚”值，不等于纯残差平方或已证负迹；\(RPR\) 不为零，必须保留。
 
 首个 4–6 轮周期必须回答：
 
