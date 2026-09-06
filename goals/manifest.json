@@ -2,8 +2,8 @@
   {
     "workspace_path": "GOAL.20260906.md",
     "repository_path": "goals/GOAL.20260906.md",
-    "source_sha256": "c9db2b9617bef26bc8b8a255de2dc91f4292785ca1013159ea05805401e49547",
-    "mirror_sha256": "632361e7f916ad2c0d89d425cc4ff8c9c4be85bef835bbd78f3dad5c6ed62ab0",
+    "source_sha256": "c08332a109457466562e2c1bcd2404ab9243e57343d28caf9e1883336139a31b",
+    "mirror_sha256": "ecbd67bc752e0093a54296a6f732fe73b443dd71e19435ac02f6642ba9b13405",
     "transformation": "local Markdown link rebasing only"
   },
   {
@@ -21,10 +21,17 @@
     "transformation": "local Markdown link rebasing only"
   },
   {
+    "workspace_path": "archive/GOAL.20260906.phase1.md",
+    "repository_path": "goals/archive/GOAL.20260906.phase1.md",
+    "source_sha256": "c9db2b9617bef26bc8b8a255de2dc91f4292785ca1013159ea05805401e49547",
+    "mirror_sha256": "923bd1e90084a3a851a03ed0c73e9d169a54eb7a7df56e710d8a3c10b7d4ffae",
+    "transformation": "local Markdown link rebasing only"
+  },
+  {
     "workspace_path": "archive/README.md",
     "repository_path": "goals/archive/README.md",
-    "source_sha256": "8d5d16485be068d939c98baf24eaf40756b330a00e3ab7ceadda4ae2df018074",
-    "mirror_sha256": "8d5d16485be068d939c98baf24eaf40756b330a00e3ab7ceadda4ae2df018074",
+    "source_sha256": "2e44db8649016887997d2beb583ee0d68bec7db7a1ff73a70a23fe38cc2d1b9f",
+    "mirror_sha256": "2e44db8649016887997d2beb583ee0d68bec7db7a1ff73a70a23fe38cc2d1b9f",
     "transformation": "none"
   }
 ]

@@ -2,7 +2,13 @@
 
 本目录研究一个明确的问题：能否把有限域上 Weil 猜想中迫使 Frobenius 特征值具有正确绝对值的结构抽离出来，并在数域的 zeta / L 函数上构造同类结构？
 
-## 当前研究状态（2026-09-06）
+## 当前研究状态：phase 2（2026-09-06）
+
+已再次修订 [GOAL.20260906](goals/GOAL.20260906.md)并正式启动后续 GOAL。
+首周期为 VIS-REG 正则化可见性与完整符号成本探索，辅助为 303 全构造独立复核。
+当前没有宣布新的实际算术输入；进度和切换见 [执行账本](goals/PROGRESS.md)。
+
+## phase 1 完成记录（2026-09-06）
 
 正式执行 [GOAL.20260906](goals/GOAL.20260906.md)，进度见 [验收账本](goals/PROGRESS.md) 和 [唯一当前队列](RESEARCH_BRANCHES.md)。
 本轮已完成 [306 基础纠错](notes/306-quartic-boundary-and-equal-norm-corrections.md)、
