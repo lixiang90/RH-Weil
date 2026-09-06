@@ -39,5 +39,25 @@
     "exact_kernel_numeric_average": "0.11437150343572077429",
     "leading_average": "0.11419709572818271535",
     "difference": "0.000174407707538059"
-  }
+  },
+  "ratio_of_integrals_example": {
+    "normalization": "Divide by exp((e-d)*L); both multiplicities equal one.",
+    "exact_kernel_numeric_ratio": "0.028668992846913376265",
+    "leading_ratio": "0.028773560637387243001",
+    "difference": "-0.000104567790473867"
+  },
+  "density_cap_integral_checks": [
+    {
+      "C": "1.0",
+      "J_C": "0.5"
+    },
+    {
+      "C": "2.0",
+      "J_C": "0.18169011381620932846"
+    },
+    {
+      "C": "3.0",
+      "J_C": "0.086503328433655962867"
+    }
+  ]
 }

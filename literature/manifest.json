@@ -91,7 +91,7 @@
       "file": "background/2025-bgst-pair-correlation-I-v3.pdf",
       "source_url": "https://arxiv.org/abs/2501.14545v3",
       "pdf_url": "https://arxiv.org/pdf/2501.14545v3",
-      "status": "窄箱条件比例及相关公式修订；不能把条件比例当无条件；持续GOAL周期4回看第7–8页3.3–3.5的修正版前缀一致公式，用于324候选measure去权；新sharp证明另行交叉复核。",
+      "status": "窄箱条件比例不作为无条件结果；核读修正版第7–8页(3.3)–(3.5)前缀一致公式。324有限测度去权及327变窗一致接口已独立审查；未重审全部BGST上游引理。",
       "resolved_pdf_url": "https://arxiv.org/pdf/2501.14545v3",
       "download_status": "downloaded",
       "bytes": 376884,
@@ -658,7 +658,7 @@
       "pages": 44,
       "pdf_parse_status": "all pages parsed",
       "text_characters": 104768,
-      "status": "已核读Definition37、Thm51及必要上游条款；Gibbs发现印刷证明(40)->(42)步骤反例，主线程已精确复算。k=4初筛修补待完整证据／交叉审查，未认证整个定理证明或全部优化。详见326-density-source-review。"
+      "status": "已核读Definition37、Thm51及17/18/22/27页上游条款；发现印刷(40)->(42)步骤失败并精确复算。Gibbs用k=4初筛补证，主线程独立核查完整端点逻辑并复跑130项精确连续参数检查，见328。上游分析仍按R引用，未认证全部论文或作者勘误。"
     },
     {
       "id": "ANTEDB-20260905",
@@ -677,7 +677,7 @@
       "pages": 190,
       "pdf_parse_status": "all pages parsed",
       "text_characters": 302886,
-      "status": "2026-09-05作者蓝图完整PDF固定快照；核读11.15–11.22，PDF91–94页与TTY证明对照仍有部分相同代数问题。不是独立证明认证；未认证整个数据库。"
+      "status": "2026-09-05作者蓝图完整PDF固定快照；核读11.15–11.22，PDF91–94页与TTY证明对照仍有部分相同代数问题。不是独立证明认证；未认证整个数据库。；其Thm11.22对应的局部代数修补已按328内部核查，不认证其他蓝图内容。"
     }
   ],
   "supplement_provenance": [

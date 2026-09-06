@@ -44,6 +44,28 @@ L, width, e, d, delta = map(mp.mpf, ("2000", "60", ".27", ".15", ".73"))
 average = mp.quad(lambda y: theta((L - y) / 2, e, d, delta) ** 2,
                   list(mp.linspace(0, width, 25))) / width
 limit = 2 * e * d / ((e + d) ** 2 + delta ** 2)
+raw_numerator = mp.quad(
+    lambda y: (laplace((L-y)/2, 2*e)+1)/2
+    * theta((L-y)/2, e, d, delta)**2,
+    list(mp.linspace(0, width, 25)),
+)
+raw_denominator = mp.quad(
+    lambda y: (laplace((L-y)/2, 2*d)-1)/2,
+    list(mp.linspace(0, width, 25)),
+)
+raw_normalized = raw_numerator / raw_denominator / mp.exp((e-d)*L)
+phase = delta*L/2-mp.atan(delta/(e+d))
+raw_leading = (d/e)**2 * limit * (
+    1-mp.re(mp.exp(2j*phase)*e/(e+1j*delta))
+)
+cap_examples = []
+for cap in map(mp.mpf, (1, 2, 3)):
+    aperture = mp.pi/(2*cap)
+    optimum_integral = cap/mp.pi*mp.quad(lambda t: mp.sin(t)**2,
+                                        [-aperture, 0, aperture])
+    optimum_formula = mp.mpf(".5")-cap/(2*mp.pi)*mp.sin(mp.pi/cap)
+    assert abs(optimum_integral-optimum_formula) < mp.mpf("1e-50")
+    cap_examples.append({"C": str(cap), "J_C": mp.nstr(optimum_formula, 20)})
 result = {
     "scope": "60-digit finite integral checks only; no actual zero data or asymptotic certification.",
     "independent_integral_cases": cases,
@@ -53,6 +75,13 @@ result = {
         "leading_average": mp.nstr(limit, 20),
         "difference": mp.nstr(average - limit, 15),
     },
+    "ratio_of_integrals_example": {
+        "normalization": "Divide by exp((e-d)*L); both multiplicities equal one.",
+        "exact_kernel_numeric_ratio": mp.nstr(raw_normalized, 20),
+        "leading_ratio": mp.nstr(raw_leading, 20),
+        "difference": mp.nstr(raw_normalized-raw_leading, 15),
+    },
+    "density_cap_integral_checks": cap_examples,
 }
 target = ROOT / "reviews/2026-09-06/window-phase-integral-check.json"
 target.write_text(json.dumps(result, indent=2) + "\n", encoding="utf-8", newline="\n")

@@ -9,7 +9,9 @@
 320是已完成的条件性基线，不重新算作本GOAL的较远期成果。
 当前周期即使结算，也继续运行或切换，不调用complete。
 
-## 周期4已完成的数学动作
+## 周期4已结算的数学动作
+
+[周期结算](ACCEPTANCE.cycle4.md)只满足第十节A，不触发整个GOAL完成。
 
 1. [321](../notes/321-near-deep-node-budgets-and-common-mixed-gram.md)：真实混合核的近节点矩阵预算。
 2. [322](../notes/322-complete-regularization-with-near-deep-leakage.md)：全部正泄漏与同一R的条件性拼接。
@@ -31,13 +33,16 @@ Euler的[算术审计](../reviews/2026-09-06/cycle4-arithmetic-interface-audit.m
 ## 周期5当前动作与复核
 
 [任务单](NEXT.cycle4.md)和[327候选](../notes/327-window-family-and-exact-mixed-phase-average.md)已落盘：
-统一变窗二阶接口、原始混合核、两尺度平方平均及实际权重成本已推导，Franklin独立逆审中。
-平方平均有正主项，不能自动得到覆盖；这一有限动作的停止范围等待审查，不结束整个GOAL。
+统一变窗二阶接口、原始混合核、两尺度平方平均及实际权重成本已完成推导和独立逆审。
+327已通过Franklin独立复核，符号及平均量词已修订。
+[329候选](../notes/329-mass-weighted-window-average-and-density-cap.md)作为第5、6动作，计算分别积分再相除的平均和w<=C/H相位选择的最优下界；Franklin正在独立核查。
+没有实际覆盖，本周期结算不结束整个GOAL。
 
-- Franklin 01a0766f-fe7c-7e22-a2b2-b9ffda58619d：仅327独立证明复核，活跃。
-- Gibbs 01a0768d-8270-7400-a136-0e99610539be：326主审完成，正补交既有TTY k=4修补的可复跑细节；不重复启动大范围源审。
+- Franklin 01a0766f-fe7c-7e22-a2b2-b9ffda58619d：327已完成，正在核查329，活跃。
+- Gibbs已完成326与TTY修补证据并关闭；[328](../notes/328-tty-thm51-proof-repair-and-scope.md)记录主线程原始条款、全域端点逻辑及130项精确复跑。
 - Euler已关闭，324–325及321–323报告均已保存。
 
-下一步整合327异议，评估下一不同数学机制；TTY候选在完整证据／交叉审查前不认证。
+下一步整合329审查、结算变窗周期并选择有实际新算术输入的不同机制。
+TTY局部补证已通过所列代数审查，上游分析仍按R引用；不是新密度值，也不认证整个ANTEDB。
 新PDF三份共286页已本地保存，当前32份外部原始PDF1076页；31份1047页进入Git，Schur保持原本地限制。
-整个GOAL保持active，未满足较远期标准。
+28bb722535f5b48039c302f91c38bc1c2e41a507已推送核验。整个GOAL保持active，未满足较远期标准。
