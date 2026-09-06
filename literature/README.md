@@ -271,4 +271,4 @@ PDF按来源原样保存，未重排或改写；arXiv固定版本，GitHub固定
 - 作者：Shashi Chourasiya; Aleksander Simonič。
 - 版本：arXiv:2507.15184v2; 2025-09-30。
 - [本地PDF](background/chourasiya-simonic-ingham-v2.pdf)（33页）；[来源页](https://arxiv.org/abs/2507.15184v2)；[原始PDF链接](https://arxiv.org/pdf/2507.15184v2)。
-- 核读范围：287及314的统一实际零密度输入；本轮Corollary 1、Table 1及计数定义的独立核查进行中，不声称全文数值证书已复跑。
+- 核读范围：已核读v2第1–2、4–5页：计数含重数、Corollary 1、Table 1覆盖、推论调用及统一弱化C=224；未复证全篇、表格优化或有限高度验证。
