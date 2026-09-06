@@ -18,7 +18,22 @@ Actions 将原检查清单分为 core、B1h、B1i 三组并行，全部成功才
 
 ## 正式论文整理稿
 
-最新研究进展（2026-09-06）：
+最新准入与文献接口审计（2026-09-06）：
+[289第11节](notes/289-growing-resolvent-jets-and-polylog-spectral-localization.md)
+核对了无条件二点相关、全零点指数和、密度与旧算术均值账本。
+实际谱高度只有 \(O((\log Y)^2)\)，但末端算术相位仍有
+\(\log x\asymp\log Y\)；已核验的二点相关公式要求 \(x\le H\)，
+不能直接覆盖。深右子集、增长权和四阶平均还各有独立缺口。
+这是一轮未获新输入的准入审计，不是证明该预算不可能成立。
+NCE-8与MOM-1继续观察，不以等价换表示重启周期。
+
+[197第10节](notes/197-partial-weil-proportions-regions-four-moments.md)
+独立重建了Lamzouri新短证与已有二阶部分Weil配置的精确有限算子接口。
+有限Hilbert不等式属于已有结构的兼容性核验，不作为新定理优先权；
+它不提供缺失的四阶算术估计，也没有改进零点比例。
+本轮仅Markdown、原文与证明复核及轻量仓库验收，无新实验或PDF。
+
+同日上一轮研究进展：
 [301：临界簇的相位抵消与同 germ 非一致性](notes/301-cluster-phase-cancellation-and-nonuniform-divisor-families.md)。
 本轮证明：固定有限正权簇的高度为 \(\gamma+h_j/L\) 时，
 负迹的 \(e^{-q}\log L\) 主系数取决于

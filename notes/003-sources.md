@@ -178,6 +178,15 @@
    https://doi.org/10.1109/PROC.1978.10837
    https://web.mit.edu/xiphmont/Public/windows.pdf
 
+54. Siegfred Alan C. Baluyot, Daniel Alan Goldston, Ade Irma Suriajaya, Caroline L. Turnage-Butterbaugh, *Pair Correlation of Zeros of the Riemann Zeta Function I: Proportions of Simple Zeros and Critical Zeros*，arXiv:2501.14545v3（2026-09-01），§3。[R] 本轮核验无条件MT的修正版、全谱resolvent范数和适用范围1≤x≤H；误差含O(H sqrt(log H))，不沿用原始较小误差。初读v2链接后，收尾明确复核v3并固定引用。289§11只代入当前参数，证明现成公式不直接覆盖x约Y、H约log²Y；不把全谱正性移植为深右子集或增长权的四阶估计。
+   https://arxiv.org/html/2501.14545v3
+
+55. Kevin Ford, Alexandru Zaharescu, *On the Distribution of Imaginary Parts of Zeros of the Riemann Zeta Function*，作者公开PDF，§3 Lemma1及相邻Selberg密度陈述。[R] 主代理已阅读Landau--Gonek型公式与最近素数幂主项的处理；289只使用其全零点和余项上界核验保证尺度，没有审读或声称重证Gonek原证明。该全谱公式不能直接代替实际深右加权子和；密度代入只说明当前上界未提供所需节省，不构造实际离线零点。
+   https://www.ford126.web.illinois.edu/wwwpapers/fz.pdf
+
+56. Youness Lamzouri, *A new proof that more than 2/3 of the zeros of the Riemann zeta function are simple and on the critical line*，arXiv:2609.02882v1（2026-09-02）。[R] 本轮阅读§§2--3主要证明，包括Proposition2.1、固定测试函数去除相关权及先固定epsilon取高度极限的次序。197§10独立重建其有限Hilbert不等式与本项目原二阶部分配置的精确算子接口；这不是新纪录、四阶算术节省或Gabor四迹同一性。未运行附录Lean工程，不把作者形式证书声明当成本地复核。
+   https://arxiv.org/html/2609.02882v1
+
 ## 使用这些来源时的边界
 
 - Deligne 已无条件证明有限域结论，但不是通过证明全部 standard conjectures；不能把 standard conjectures 的一般成立当成已知事实。

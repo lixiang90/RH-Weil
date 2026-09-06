@@ -221,3 +221,76 @@ rank--trace--inertia 证书；若中心二矩为 `v`、中心四矩上界为 `B4
 笔记 228 构造两组均值一、同中心二/四矩但不同三阶矩的显式谱测度，严格说明
 当前数据不能代入需要完整 `m0,...,m4` 的 `13/18` Christoffel 数值。记录级实例
 在笔记 203--227 的 prime-side 链独立复核完成前保持 `[C]`。
+
+## 10. Lamzouri新短证的有限算子接口审计（2026-09-06）
+
+[R] Youness Lamzouri，*A new proof that more than 2/3 of the zeros of the
+Riemann zeta function are simple and on the critical line*，
+[arXiv:2609.02882v1](https://arxiv.org/html/2609.02882v1)，2026-09-02。
+主代理已阅读§§2--3的主要证明：Proposition2.1的Hilbert空间不等式、
+两项固定测试函数去除相关权的步骤，以及Theorem1.1的极限次序。
+所得约0.6725007与0.8362503仍是原二阶基线，不是本项目的新纪录。
+未运行附录链接的Lean工程，不能把作者关于形式证书的说明当作本地验证。
+
+下面给出与本篇第1节的精确有限维接口 [T，外部结果的兼容性核验，
+不作新颖性晋级]。采用其固定实偶函数 \(\eta\)，满足
+\(\int\eta^2=1\)，紧支撑；\(K=\widehat{\eta^2}\)。
+令 \(\mathcal Z\) 为有限共轭封闭多重集，\(N\) 为总重数。
+不同实点中简单的有 \(s\) 个，重复的有 \(r\) 个；
+不同非实共轭对有 \(k\) 对，每对两点的共同重数记为 \(m_z\)。记
+\[
+ f_z(u)=\eta(u)e^{-2\pi izu},\quad
+ g_z=(f_z+f_{\bar z})/2,\quad h_z=(f_z-f_{\bar z})/(2i).
+\]
+实点的 \(f_x\)、各 \(g_z,h_z\) 都属于实Hilbert空间
+\[
+ \mathcal H_{\mathbb R}
+   =\{v\in L^2:\overline{v(u)}=v(-u)\},
+\]
+其中通常复内积限制为实数。其范数恒等式为
+\(\|f_x\|^2=1,\ \|g_z\|^2-\|h_z\|^2=1\)。
+在这些向量的有限实线性张成上，令 \(v\otimes v\) 表示
+\(w\mapsto\langle w,v\rangle v\)，并定义自伴算子
+\[
+ A=\sum_{\text{实 }x}m_xf_x\otimes f_x
+     +2\sum_{\text{非实对 }z,\bar z}
+                  m_z(g_z\otimes g_z-h_z\otimes h_z).
+\]
+直接取迹得到 \(\operatorname{tr}A=N\)。在实正交基上作张量展开，
+复化后的同一有限实矩阵具有相同特征值，且
+\[
+ \|A\|_{\rm HS}^2
+ =\left\|\sum_{z\in\mathcal Z}f_z(u)f_z(v)\right\|_{L^2(du\,dv)}^2
+ =\sum_{z,w\in\mathcal Z}K(z-w)^2 .
+\]
+最后一步展开积分并用 \(w\mapsto\bar w\) 重排多重集。
+右侧并非逐项非负；是总和等于Hilbert--Schmidt范数平方。
+
+取 \(P=\sum_{\text{简单实 }x}f_x\otimes f_x,\ Q=A-P\)，则
+\[
+ P\succeq0,\quad\operatorname{rank}P\le s,\quad
+ \operatorname{tr}P=s,\quad n_+(Q)\le r+k=:b .
+\]
+最后一项因为 \(Q\) 的非负部分来自至多 \(r+k\) 个秩一算子，
+减去半正定项不会增加正惯性。又
+\[
+ s+2b\le N,\qquad
+ D_{\rm distinct}=s+r+2k\ge s+b .
+\]
+第1节以 \(G=A,E_0=E_1=0\) 直接给
+\[
+ s\ge2N-\|A\|_{\rm HS}^2,\qquad
+ D_{\rm distinct}\ge(3N-\|A\|_{\rm HS}^2)/2,
+\]
+恰为Lamzouri的Proposition2.1。没有额外设谱酉性或完整Weil正性。
+
+**审计结论。** 该正式预印本提供清晰的证明路径，
+有限不等式确实落在本项目已有二阶部分配置内；不是未知的新结构公理。
+这不证明其 \(A\) 与本项目任一Gabor离散化矩阵具有相同四阶迹。
+从二阶记录到MOM-1所需一侧四阶预算，仍须独立证明实际四点相关和
+有限到整体误差；本接口同定本身不减少这些算术输入。
+因此不以改写该短证为由启动新的四矩估计周期。
+
+主代理与carrier_audit独立重建上述接口；gap_exception_audit和
+midband_compute对本节最终全文只读复核通过。这里的[T]仅表示完整内部证明，
+不表示新颖性、外部同行评审或Lean验证已经完成。
