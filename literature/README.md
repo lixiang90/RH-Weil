@@ -313,3 +313,13 @@ Bourgain 2000的原始DOI https://doi.org/10.1155/S107379280000009X 本次web未
 
 - **Douglas N. Clark (1968)**，*On matrices associated with generalized interpolation problems*，Pacific Journal of Mathematics 27(2), 241–253。[原始PDF](background/clark-generalized-interpolation-1968.pdf)；[出版者下载](https://msp.org/pjm/1968/27-2/pjm-v27-n2-p04-p.pdf)。实际PDF17页，全页可解析。仅核读PDF第1–3页标题与范围介绍，未导入其全定理；332有限Cauchy公式自证。SHA、字节数与取得时间见manifest。
 - Tom Alberts的[Cauchy determinant讲义](https://math.utah.edu/~alberts/notes/cauchy-determinant-formula/c_det_formula/)已检索，正文读取返回502，未取得PDF；只保留检索入口，不称为核读原件。
+
+## 下一算术输入筛查：双线性Kloosterman与素数多项式（2026-09-07）
+
+- **Alexandru Pascadi**，*Non-abelian amplification and bilinear forms with Kloosterman sums*，arXiv:2511.08445v2; 2026-06-21。54页。[本地PDF](background/pascadi-kloosterman-2511.08445v2.pdf)；[固定版本](https://arxiv.org/abs/2511.08445v2)；[原件下载](https://arxiv.org/pdf/2511.08445v2)。全文已归档并解析，主定理已初核（范围见下），实际映射未证；不从摘要直接导入幂节省。
+- **Djordje Milicevic; Xinhua Qin; Xiaosheng Wu**，*Bilinear forms with Kloosterman sums and moments of twisted L-functions*，arXiv:2511.07550v1; 2025-11-10。37页。[本地PDF](background/milicevic-qin-wu-kloosterman-2511.07550v1.pdf)；[固定版本](https://arxiv.org/abs/2511.07550v1)；[原件下载](https://arxiv.org/pdf/2511.07550v1)。全文已归档并解析，主定理已初核（范围见下），实际映射未证；不从摘要直接导入幂节省。
+- **S. K. K. Choi; A. V. Kumchev**，*Mean values of Dirichlet polynomials and applications to linear equations with prime variables*，arXiv:math/0412227v1; 2004-12-12。20页。[本地PDF](background/choi-kumchev-prime-mean-values-0412227v1.pdf)；[固定版本](https://arxiv.org/abs/math/0412227v1)；[原件下载](https://arxiv.org/pdf/math/0412227v1)。全文已归档并解析，主定理已初核（范围见下），实际映射未证；不从摘要直接导入幂节省。
+
+三篇SHA、字节数和取得时间见manifest。Pascadi当前v2含作者标明的修订与小纠正；MQW及Choi–Kumchev版本历史当前仅v1。旧MOM-1的240–241停止条件保持；只核查这些外部估计是否提供真正不同的输入。
+
+原始条款初核见[新输入筛查](../reviews/2026-09-07/kloosterman-next-input-screen.md)：Pascadi第1–5页、MQW第1–4页、Choi–Kumchev第1–2页；尚未独立复核或建立MOM映射。Choi–Kumchev PDF首页另标draft 2018-09-26，与arXiv上传2004-12-12及期刊2006分别保留。

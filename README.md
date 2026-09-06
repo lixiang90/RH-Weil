@@ -2,13 +2,15 @@
 
 本目录研究一个明确的问题：能否把有限域上 Weil 猜想中迫使 Frobenius 特征值具有正确绝对值的结构抽离出来，并在数域的 zeta / L 函数上构造同类结构？
 
-## 当前研究状态：持续GOAL，周期7（2026-09-07）
+## 当前研究状态：持续GOAL，周期8（2026-09-07）
 
-[第七版GOAL](goals/GOAL.20260906.md)保持当前周期验收与较远期显著进展的区分。
+[第八版GOAL](goals/GOAL.20260906.md)保持当前周期验收与较远期显著进展的区分。
 321–326已给近点预算、实际sharp二阶公式及条件性计数比较；
 327、329变窗平均已独立复核并[结算](goals/ACCEPTANCE.cycle5.md)。
 [330](notes/330-exact-sublevels-and-arbitrary-window-concentration.md)任意增长集中度与[331](notes/331-three-node-phase-compatibility-and-circle-defect.md)三点必要条件均已通过独立逆审并[结算](goals/ACCEPTANCE.cycle6.md)。
-当前[332](notes/332-complete-signed-packets-and-cauchy-duals.md)检验完整正负节点组的Cauchy Gram与精确对偶，正在独立逆审；实际覆盖仍开放。
+[332](notes/332-complete-signed-packets-and-cauchy-duals.md)完整正负节点组的Cauchy Gram与精确对偶已通过独立逆审；
+[333](notes/333-joint-packet-duals-and-conditional-density.md)多组计数与[334](notes/334-growing-packet-cost-and-collision-scope.md)增长／碰撞成本已独立复核并[结算](goals/ACCEPTANCE.cycle7.md)，实际覆盖仍开放。
+当前[335](notes/335-fixed-physical-cell-and-determinant-fibres.md)恢复同一实际cell及精确determinant分层，核查新Kloosterman文献能否接合四阶响应。
 RH、零点比例／非零区域改进及实质算术Weil结构仍未实现，整个GOAL保持active。
 [执行账本](goals/PROGRESS.md)记录当前动作和保存状态。
 

@@ -1,7 +1,7 @@
-# 持续GOAL执行账本：当前周期7
+# 持续GOAL执行账本：当前周期8
 
 2026-09-07。起点main 17c0774e0652f72ffaf9192f1f760c4294226caf。
-[第七版目标](GOAL.20260906.md)已正式启动持续GOAL；[phase3历史](archive/PROGRESS.phase3.md)保留。
+[第八版目标](GOAL.20260906.md)已正式启动持续GOAL；[phase3历史](archive/PROGRESS.phase3.md)保留。
 
 ## 整个GOAL的状态
 
@@ -27,27 +27,32 @@ Euler的[算术审计](../reviews/2026-09-06/cycle4-arithmetic-interface-audit.m
 
 ## 保存
 
-第七版目标及cycle6原始字节快照已保存，10份目标镜像纳入同步；当前修订保持第十节B/C强度。
+第八版目标及cycle7原始字节快照已保存，11份目标镜像纳入同步；当前修订保持第十节B/C强度。
 文献、只读子代理复核及定期commit/push的既有授权持续有效。第四版目标及原始历史已随14bb2c77be62ec3ddf2d5e0668e675e0612020f6推送核验。321–323草稿已随6ec8a8e00ee5f5b1195db822d0366062fc2cba6b推送并核验；323空坏集合边界与精确核算随后保存。324–325及近点纠错随80418b5edf57896a93688667a40b100ce08c9ca4推送核验。未达较远期显著进展。
 
-## 周期5、6已结算，周期7进行中
+## 周期5、6、7已结算，周期8进行中
 
 [周期5结算](ACCEPTANCE.cycle5.md)：327、329六个数学动作和独立复核完成。
-[周期6结算](ACCEPTANCE.cycle6.md)：330、331六个动作与两份独立报告完成；
-330已补系数导数与根邻域常数，331保留反向主项和预算范围说明。
-反向大值来源审计及Gibbs报告完成，采用端点、量词、分部求和和引用修正。
-它澄清ANTEDB全tau转述的范围，不否定MT原短长度定理，不产生新零密度值。
+[周期6结算](ACCEPTANCE.cycle6.md)：330、331六个动作及完整报告完成。
+[周期7结算](ACCEPTANCE.cycle7.md)：332–334四个数学动作和三份独立报告完成，
+采用正性门槛、U*坐标、左右计数、远预算及B增长范围修订。
+对偶消正、增长组Q_T²成本均成立于明确几何前提；实际含重数覆盖未被证明。
+Franklin、Gibbs的所有报告已保存，代理已关闭；Euler保持关闭。
 
-[周期7任务单](NEXT.cycle6.md)：完整带符号节点组，不再重复逐个压低gh的相位分析。
-[332](../notes/332-complete-signed-packets-and-cauchy-duals.md)第1、2动作已形成完整证明候选：
-精确端点正权比较、Cauchy退化乘积、消去全部选中正列的对偶效应。
+[周期8任务单](NEXT.cycle7.md)：以新外部算术输入核查真实MOM determinant的Kloosterman映射。
+[335](../notes/335-fixed-physical-cell-and-determinant-fibres.md)已恢复240–241脚本的同一平窗cell、
+共同shell中心与完整四Lambda权，给全部gcd分层及固定分母纤维，证明候选待独立复核。
+整个中心shell的|h|范围O(X)，单个振荡尺度才是O(X^1/2)，二者分别记录。
 
-- Franklin正在只读审查332；330/331报告已保存，不重新启动它们。
-- Gibbs的反向大值报告已保存，代理已关闭；Euler保持关闭。
-- 主线程下一动作：多组共同效应与实际外部背景、增长大小／碰撞／覆盖成本。
+下一动作：从h、分母或Vaughan后自由变量的合法求和次序寻找真正完整Kloosterman核，
+明确长度、互素性、系数范数、六窗和尾项后再应用原始估计。
+不能以取q=bd的字面替换或固定分母O(1)长度纤维冒充平方根双线性和。
+[新输入筛查](../reviews/2026-09-07/kloosterman-next-input-screen.md)已固定原始条款，
+Pascadi v2、MQW v1和Choi–Kumchev v1的实际MOM映射及完整解析依赖仍待核查。
 
-当前34份外部原始PDF1109页；33份1080页进入Git，Schur保持原本地限制。
-新Clark原件17页（正文241–253页）已全页解析，仅核读范围介绍；不将经典插值当作新算术输入。
-d66b7371b80890a1b2d36dff4084040a9f9202c4已推送origin/main并以ls-remote核验。
-本轮330完整报告、辅助修订、周期6结算、第七版目标、332候选及文献待保存。
+当前37份外部原始PDF1220页；36份1191页进入Git，Schur保持原本地限制。
+Clark17页只核读开头范围；Pascadi1–5页、MQW1–4页、Choi–Kumchev1–2页已初核。
+后者PDF的draft 2018日期与arXiv上传2004、期刊2006分别保留。
+9e03a86a969ff01357744786f723f0ebfd900bf1已推送origin/main并以ls-remote核验。
+本轮332–334报告、周期7结算、第八版目标、新三篇原件及335候选待保存。
 整个GOAL保持active，未满足较远期标准。
