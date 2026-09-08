@@ -1,0 +1,1127 @@
+{
+  "status": "E only; necessary constraints on selected periodic chains",
+  "scope": "No proof of stationary subaction, no certification outside sampled gaps, no actual zero proportion",
+  "constant_grid": {
+    "min": 0,
+    "max": 100,
+    "count": 12001
+  },
+  "search_box": [
+    0,
+    24
+  ],
+  "rows": [
+    {
+      "radius": 2,
+      "profiles": [
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "baseline": 0.6725007036794116,
+      "target": 0.673399,
+      "fits": [
+        {
+          "alpha": 0.0025906031802418934,
+          "eta": 0.0012396706489829087,
+          "target_slack": -0.00039345737859955237,
+          "relaxed_output": 0.6730045206820248,
+          "min_sample_residual": 0.0
+        },
+        {
+          "alpha": 0.0025906031802418934,
+          "eta": 0.0012396706489829087,
+          "target_slack": -0.00039345737859955237,
+          "relaxed_output": 0.6730045206820248,
+          "min_sample_residual": 0.0
+        },
+        {
+          "alpha": 0.0029301322669454378,
+          "eta": 0.0015666168817700067,
+          "target_slack": -0.0004917650639295703,
+          "relaxed_output": 0.672905789764846,
+          "min_sample_residual": 0.0
+        }
+      ],
+      "periodic_candidates": [
+        {
+          "iteration": 0,
+          "period": 2,
+          "gaps": [
+            18.773896622983834,
+            6.622415686554496
+          ],
+          "z": 2.020974320184287,
+          "value": 0.00015103041771021534,
+          "residual": 6.576978454896944e-05,
+          "search_success": true,
+          "meaning": "finite floating point witness; DE success is not global minimality"
+        },
+        {
+          "iteration": 0,
+          "period": 3,
+          "gaps": [
+            12.69352894619998,
+            18.889120727817726,
+            12.693525424850414
+          ],
+          "z": 2.34892404272905,
+          "value": 5.8676487491457865e-05,
+          "residual": 0.0003799654997110433,
+          "search_success": true,
+          "meaning": "finite floating point witness; DE success is not global minimality"
+        },
+        {
+          "iteration": 0,
+          "period": 4,
+          "gaps": [
+            6.622415447585837,
+            18.773898385236997,
+            6.6224149591259,
+            18.773894099468087
+          ],
+          "z": 2.0209742514428863,
+          "value": 0.00015103050295985396,
+          "residual": 6.57697845819114e-05,
+          "search_success": true,
+          "meaning": "finite floating point witness; DE success is not global minimality"
+        },
+        {
+          "iteration": 0,
+          "period": 6,
+          "gaps": [
+            18.884195536500677,
+            12.705689514480397,
+            12.623398091671604,
+            6.59548281517301,
+            12.623398549924072,
+            12.70568967998474
+          ],
+          "z": 2.019619308397985,
+          "value": 0.00016689459692258572,
+          "residual": 7.99541954208359e-05,
+          "search_success": true,
+          "meaning": "finite floating point witness; DE success is not global minimality"
+        },
+        {
+          "iteration": 0,
+          "period": 8,
+          "gaps": [
+            18.902454798916786,
+            12.692265247920965,
+            12.692446782365057,
+            18.90109356119005,
+            12.635855898627991,
+            6.593779075304109,
+            12.634301784451148,
+            18.917274149346923
+          ],
+          "z": 2.267350589833271,
+          "value": 0.00013297084534259746,
+          "residual": 0.0003531356422710962,
+          "search_success": true,
+          "meaning": "finite floating point witness; DE success is not global minimality"
+        },
+        {
+          "iteration": 1,
+          "period": 2,
+          "gaps": [
+            6.622415716154072,
+            18.77389672781867
+          ],
+          "z": 2.020974330882238,
+          "value": 0.00015103040444739685,
+          "residual": 6.57697845480869e-05,
+          "search_success": true,
+          "meaning": "finite floating point witness; DE success is not global minimality"
+        },
+        {
+          "iteration": 1,
+          "period": 3,
+          "gaps": [
+            12.633938427316934,
+            12.633939079611789,
+            6.593946132674305
+          ],
+          "z": 1.690322242721675,
+          "value": 0.0002820449058663229,
+          "residual": -0.00021311540275054585,
+          "search_success": true,
+          "meaning": "finite floating point witness; DE success is not global minimality"
+        },
+        {
+          "iteration": 1,
+          "period": 4,
+          "gaps": [
+            12.624340333738356,
+            6.595346239534019,
+            12.624339156875628,
+            12.699232828027409
+          ],
+          "z": 1.7723199452384968,
+          "value": 0.00022987404065996024,
+          "residual": -0.00016363612286277246,
+          "search_success": true,
+          "meaning": "finite floating point witness; DE success is not global minimality"
+        },
+        {
+          "iteration": 1,
+          "period": 6,
+          "gaps": [
+            12.692324491188366,
+            18.902146810238953,
+            18.919224322821616,
+            18.919210504636787,
+            18.902146844980454,
+            12.692321813420158
+          ],
+          "z": 2.6798343474990234,
+          "value": 3.917398524153948e-05,
+          "residual": 0.0007706827897304498,
+          "search_success": true,
+          "meaning": "finite floating point witness; DE success is not global minimality"
+        },
+        {
+          "iteration": 1,
+          "period": 8,
+          "gaps": [
+            6.6063357446992,
+            18.827052794636074,
+            12.712471520215296,
+            12.619930919430656,
+            6.6063381123523754,
+            18.82704705246889,
+            12.712470653152176,
+            12.619929002477221
+          ],
+          "z": 2.01990652104863,
+          "value": 0.00016973982612688865,
+          "residual": 8.315547371815987e-05,
+          "search_success": true,
+          "meaning": "finite floating point witness; DE success is not global minimality"
+        },
+        {
+          "iteration": 2,
+          "period": 2,
+          "gaps": [
+            18.770893558940323,
+            6.622107065645707
+          ],
+          "z": 2.0207107846692263,
+          "value": 0.00015140020957357165,
+          "residual": 0.00038694757106566037,
+          "search_success": true,
+          "meaning": "finite floating point witness; DE success is not global minimality"
+        },
+        {
+          "iteration": 2,
+          "period": 3,
+          "gaps": [
+            6.554157238194079,
+            12.598454483022897,
+            6.554158852335257
+          ],
+          "z": 1.3637865359033718,
+          "value": 0.0007142569438435145,
+          "residual": -7.934431282506345e-05,
+          "search_success": true,
+          "meaning": "finite floating point witness; DE success is not global minimality"
+        },
+        {
+          "iteration": 2,
+          "period": 4,
+          "gaps": [
+            6.601649975328303,
+            12.578059412650038,
+            6.601650212329115,
+            12.578061385891525
+          ],
+          "z": 1.5262728660241387,
+          "value": 0.0003357207024746621,
+          "residual": -0.00020332672636986853,
+          "search_success": true,
+          "meaning": "finite floating point witness; DE success is not global minimality"
+        },
+        {
+          "iteration": 2,
+          "period": 6,
+          "gaps": [
+            12.693474719779374,
+            12.675635272580465,
+            12.69348160154873,
+            18.89781465840015,
+            18.918972562215597,
+            18.897816773234776
+          ],
+          "z": 2.5140431950298723,
+          "value": 5.1165066380810695e-05,
+          "residual": 0.0010595753102681754,
+          "search_success": true,
+          "meaning": "finite floating point witness; DE success is not global minimality"
+        },
+        {
+          "iteration": 2,
+          "period": 8,
+          "gaps": [
+            6.621893711500457,
+            18.774636730925597,
+            6.607480247501994,
+            12.62836260734311,
+            18.925442928757523,
+            18.830305070230843,
+            6.619309450530833,
+            18.771649028021503
+          ],
+          "z": 2.144196663507129,
+          "value": 0.0001567865759690496,
+          "residual": 0.0005857889999088023,
+          "search_success": true,
+          "meaning": "finite floating point witness; DE success is not global minimality"
+        }
+      ],
+      "final_fit": {
+        "alpha": 0.0033630097710484223,
+        "eta": 0.001983452065461722,
+        "target_slack": -0.0006171009692358398,
+        "relaxed_output": 0.6727798167113143,
+        "min_sample_residual": 0.0
+      }
+    },
+    {
+      "radius": 3,
+      "profiles": [
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "baseline": 0.6725007036794116,
+      "target": 0.673399,
+      "fits": [
+        {
+          "alpha": 0.004399754992379083,
+          "eta": 0.002113063380346147,
+          "target_slack": -4.8569088821419446e-05,
+          "relaxed_output": 0.6733502162747398,
+          "min_sample_residual": 0.0
+        },
+        {
+          "alpha": 0.00560429910994251,
+          "eta": 0.0032834304784890526,
+          "target_slack": -0.00040779738274123074,
+          "relaxed_output": 0.6729889043183954,
+          "min_sample_residual": -4.336808689942018e-19
+        },
+        {
+          "alpha": 0.004634144094461749,
+          "eta": 0.0026447993637715365,
+          "target_slack": -0.0004224676852934437,
+          "relaxed_output": 0.6729745654237214,
+          "min_sample_residual": 0.0
+        }
+      ],
+      "periodic_candidates": [
+        {
+          "iteration": 0,
+          "period": 2,
+          "gaps": [
+            6.5706635838248015,
+            12.51911641116206
+          ],
+          "z": 1.5191164243694681,
+          "value": 0.0006163859417944886,
+          "residual": -0.0005733797637670944,
+          "search_success": true,
+          "meaning": "finite floating point witness; DE success is not global minimality"
+        },
+        {
+          "iteration": 0,
+          "period": 3,
+          "gaps": [
+            6.596459990295886,
+            18.764837261570865,
+            12.603881096105379
+          ],
+          "z": 2.0141152664817206,
+          "value": 0.0002807629439037281,
+          "residual": 0.00013696116492328998,
+          "search_success": true,
+          "meaning": "finite floating point witness; DE success is not global minimality"
+        },
+        {
+          "iteration": 0,
+          "period": 4,
+          "gaps": [
+            18.775567265290196,
+            6.590738423361589,
+            12.584703509339644,
+            12.663895263377805
+          ],
+          "z": 2.0139030597877348,
+          "value": 0.00026855419047944705,
+          "residual": 0.0001243040053048837,
+          "search_success": true,
+          "meaning": "finite floating point witness; DE success is not global minimality"
+        },
+        {
+          "iteration": 0,
+          "period": 6,
+          "gaps": [
+            12.645127438856107,
+            12.6502182016953,
+            12.669597964450649,
+            18.846539683744993,
+            12.669591677188425,
+            12.650215370915076
+          ],
+          "z": 2.178600139937564,
+          "value": 0.00011971220349526557,
+          "residual": 0.00032347738723524123,
+          "search_success": true,
+          "meaning": "finite floating point witness; DE success is not global minimality"
+        },
+        {
+          "iteration": 0,
+          "period": 8,
+          "gaps": [
+            18.84485755208317,
+            12.69600859012822,
+            18.8468000268837,
+            12.59452531249904,
+            6.579327777076633,
+            12.5732158807765,
+            12.648327756190383,
+            12.673590974779113
+          ],
+          "z": 2.137782203948959,
+          "value": 0.0002094417380112983,
+          "residual": 0.0003269560359524387,
+          "search_success": true,
+          "meaning": "finite floating point witness; DE success is not global minimality"
+        },
+        {
+          "iteration": 1,
+          "period": 2,
+          "gaps": [
+            12.515773733692672,
+            6.5698521454853225
+          ],
+          "z": 1.5187858503368896,
+          "value": 0.0006172778996837115,
+          "residual": -1.934589647428417e-07,
+          "search_success": true,
+          "meaning": "finite floating point witness; DE success is not global minimality"
+        },
+        {
+          "iteration": 1,
+          "period": 3,
+          "gaps": [
+            12.489145891126578,
+            6.526809946208769,
+            6.526809286726339
+          ],
+          "z": 1.3550857765765625,
+          "value": 0.0010502140947161985,
+          "residual": -0.00010475507544781965,
+          "search_success": true,
+          "meaning": "finite floating point witness; DE success is not global minimality"
+        },
+        {
+          "iteration": 1,
+          "period": 4,
+          "gaps": [
+            12.667544554715763,
+            18.860582357976504,
+            18.86058625376671,
+            12.66754351959509
+          ],
+          "z": 2.50892873611422,
+          "value": 7.951681239872044e-05,
+          "residual": 0.0027131107829706583,
+          "search_success": true,
+          "meaning": "finite floating point witness; DE success is not global minimality"
+        },
+        {
+          "iteration": 1,
+          "period": 6,
+          "gaps": [
+            18.880132940815983,
+            18.76388979382903,
+            6.538529971295283,
+            6.527097289453045,
+            12.555456475579614,
+            12.67305938657545
+          ],
+          "z": 2.0143224109268374,
+          "value": 0.0005188565817484405,
+          "residual": 0.0015284450693466584,
+          "search_success": true,
+          "meaning": "finite floating point witness; DE success is not global minimality"
+        },
+        {
+          "iteration": 1,
+          "period": 8,
+          "gaps": [
+            6.573722435488007,
+            12.5055256593255,
+            6.573724403338582,
+            12.579059965656686,
+            12.640456969693295,
+            12.65445294715908,
+            12.64045110575912,
+            12.579060780234538
+          ],
+          "z": 1.7655546098021173,
+          "value": 0.00036946699789659147,
+          "residual": 0.0005622437052152001,
+          "search_success": true,
+          "meaning": "finite floating point witness; DE success is not global minimality"
+        },
+        {
+          "iteration": 2,
+          "period": 2,
+          "gaps": [
+            6.570294518482067,
+            12.517597753635723
+          ],
+          "z": 1.518966204156568,
+          "value": 0.0006167433110002957,
+          "residual": -3.993311769624752e-08,
+          "search_success": true,
+          "meaning": "finite floating point witness; DE success is not global minimality"
+        },
+        {
+          "iteration": 2,
+          "period": 3,
+          "gaps": [
+            12.575175049106267,
+            6.580365696662781,
+            12.575173732853393
+          ],
+          "z": 1.6833666857034446,
+          "value": 0.0004150386326022574,
+          "residual": 0.00023306167748317862,
+          "search_success": true,
+          "meaning": "finite floating point witness; DE success is not global minimality"
+        },
+        {
+          "iteration": 2,
+          "period": 4,
+          "gaps": [
+            12.685194672991774,
+            18.774904555427224,
+            6.605264812723561,
+            18.774906713000657
+          ],
+          "z": 2.261602514300897,
+          "value": 0.00017844670468486452,
+          "residual": 0.0015257875011502348,
+          "search_success": true,
+          "meaning": "finite floating point witness; DE success is not global minimality"
+        },
+        {
+          "iteration": 2,
+          "period": 6,
+          "gaps": [
+            12.59097867486362,
+            6.580709344046204,
+            12.590977423277794,
+            18.842548599129508,
+            12.698468134937135,
+            18.8425476365406
+          ],
+          "z": 2.178996421844854,
+          "value": 0.00022740183634796832,
+          "residual": 0.0013562660920419436,
+          "search_success": true,
+          "meaning": "finite floating point witness; DE success is not global minimality"
+        },
+        {
+          "iteration": 2,
+          "period": 8,
+          "gaps": [
+            12.666857417953555,
+            12.648678474242598,
+            12.666688126987843,
+            18.867639886114848,
+            18.863997828235714,
+            12.670707297909217,
+            12.668942502515488,
+            18.84136770793973
+          ],
+          "z": 2.3852328353442624,
+          "value": 9.2733723815885e-05,
+          "residual": 0.0017670519147196199,
+          "search_success": true,
+          "meaning": "finite floating point witness; DE success is not global minimality"
+        }
+      ],
+      "final_fit": {
+        "alpha": 0.004634144094461749,
+        "eta": 0.0026447993637715365,
+        "target_slack": -0.0004224676852934437,
+        "relaxed_output": 0.6729745654237214,
+        "min_sample_residual": -3.993311769624752e-08
+      }
+    },
+    {
+      "radius": 4,
+      "profiles": [
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "baseline": 0.6725007036794116,
+      "target": 0.673399,
+      "fits": [
+        {
+          "alpha": 0.005654185429052868,
+          "eta": 0.002721125611249348,
+          "target_slack": 0.0001881008819010696,
+          "relaxed_output": 0.6735881704869117,
+          "min_sample_residual": 0.0
+        },
+        {
+          "alpha": 0.007282545405169462,
+          "eta": 0.004313543895566093,
+          "target_slack": -0.00030778142285873677,
+          "relaxed_output": 0.6730889607018753,
+          "min_sample_residual": 0.0
+        },
+        {
+          "alpha": 0.006451752449244779,
+          "eta": 0.0037651277510777426,
+          "target_slack": -0.00031882042409711164,
+          "relaxed_output": 0.6730781092683389,
+          "min_sample_residual": -8.360257612409494e-08
+        }
+      ],
+      "periodic_candidates": [
+        {
+          "iteration": 0,
+          "period": 2,
+          "gaps": [
+            12.47641395240007,
+            6.560319909052302
+          ],
+          "z": 1.5148951471875047,
+          "value": 0.0007479786905961031,
+          "residual": -0.0007839867550874955,
+          "search_success": true,
+          "meaning": "finite floating point witness; DE success is not global minimality"
+        },
+        {
+          "iteration": 0,
+          "period": 3,
+          "gaps": [
+            12.583601308738828,
+            18.73162494165011,
+            6.587014868461155
+          ],
+          "z": 2.010776342775294,
+          "value": 0.0003513720399450575,
+          "residual": 0.00016876161571233953,
+          "search_success": true,
+          "meaning": "finite floating point witness; DE success is not global minimality"
+        },
+        {
+          "iteration": 0,
+          "period": 4,
+          "gaps": [
+            12.616144300121796,
+            12.553092869763702,
+            6.5701781923209985,
+            12.553092774693567
+          ],
+          "z": 1.7623429029814104,
+          "value": 0.00043055601678163887,
+          "residual": -0.0004280730031649884,
+          "search_success": true,
+          "meaning": "finite floating point witness; DE success is not global minimality"
+        },
+        {
+          "iteration": 0,
+          "period": 6,
+          "gaps": [
+            12.482566493030188,
+            6.5788430702298655,
+            18.65782923236706,
+            6.5788416789378505,
+            12.48257453682809,
+            6.560875329621876
+          ],
+          "z": 1.6801862761296322,
+          "value": 0.0006130468753920473,
+          "residual": -0.0004691406460148092,
+          "search_success": true,
+          "meaning": "finite floating point witness; DE success is not global minimality"
+        },
+        {
+          "iteration": 0,
+          "period": 8,
+          "gaps": [
+            12.654926848065267,
+            18.81884568438687,
+            12.654914633591734,
+            12.638393278862925,
+            12.654923787202133,
+            18.81883671714847,
+            12.654917585891614,
+            12.638385438199425
+          ],
+          "z": 2.258690027883165,
+          "value": 0.00013141189716354978,
+          "residual": 0.0006234057508570671,
+          "search_success": true,
+          "meaning": "finite floating point witness; DE success is not global minimality"
+        },
+        {
+          "iteration": 1,
+          "period": 2,
+          "gaps": [
+            12.473002124519097,
+            6.559493936220126
+          ],
+          "z": 1.5145579137218368,
+          "value": 0.0007491648151001587,
+          "residual": -2.685468531568244e-07,
+          "search_success": true,
+          "meaning": "finite floating point witness; DE success is not global minimality"
+        },
+        {
+          "iteration": 1,
+          "period": 3,
+          "gaps": [
+            6.603179484343038,
+            18.764200067889796,
+            18.764197113764787
+          ],
+          "z": 2.3412528576108222,
+          "value": 0.00022437442135786893,
+          "residual": 0.0030409259881122395,
+          "search_success": true,
+          "meaning": "finite floating point witness; DE success is not global minimality"
+        },
+        {
+          "iteration": 1,
+          "period": 4,
+          "gaps": [
+            6.494933938803093,
+            6.45631177759644,
+            6.494931079550106,
+            12.433427195688745
+          ],
+          "z": 1.2684491397703417,
+          "value": 0.0016758793922647748,
+          "residual": -0.0001351549692122679,
+          "search_success": true,
+          "meaning": "finite floating point witness; DE success is not global minimality"
+        },
+        {
+          "iteration": 1,
+          "period": 6,
+          "gaps": [
+            6.5785706947401055,
+            18.65672094955879,
+            6.597059395048051,
+            18.656724419539437,
+            6.5785737480677735,
+            12.487019253256975
+          ],
+          "z": 1.8449948834267584,
+          "value": 0.00048355561910295937,
+          "residual": 0.0011594766306896667,
+          "search_success": true,
+          "meaning": "finite floating point witness; DE success is not global minimality"
+        },
+        {
+          "iteration": 1,
+          "period": 8,
+          "gaps": [
+            6.522474446982388,
+            12.548838972611172,
+            18.701943235887427,
+            6.536418347255681,
+            6.537390876690589,
+            18.736158853042433,
+            18.72833006758356,
+            6.531708170631534
+          ],
+          "z": 1.8868467650936251,
+          "value": 0.0007473344464013179,
+          "residual": 0.0016037853866700917,
+          "search_success": true,
+          "meaning": "finite floating point witness; DE success is not global minimality"
+        },
+        {
+          "iteration": 2,
+          "period": 2,
+          "gaps": [
+            12.627563799215201,
+            12.627560664944287
+          ],
+          "z": 2.0097389484360186,
+          "value": 0.0001852296379280457,
+          "residual": 0.0013004010758615207,
+          "search_success": true,
+          "meaning": "finite floating point witness; DE success is not global minimality"
+        },
+        {
+          "iteration": 2,
+          "period": 3,
+          "gaps": [
+            6.531875270497388,
+            18.613911871162703,
+            6.53187430173357
+          ],
+          "z": 1.6805521347692152,
+          "value": 0.0009597162246052299,
+          "residual": 0.000835457255112965,
+          "search_success": true,
+          "meaning": "finite floating point witness; DE success is not global minimality"
+        },
+        {
+          "iteration": 2,
+          "period": 4,
+          "gaps": [
+            12.652586313521715,
+            12.636027970775556,
+            12.652586567328914,
+            18.813662462009116
+          ],
+          "z": 2.258204260217481,
+          "value": 0.00013298733656665692,
+          "residual": 0.0021836624150687,
+          "search_success": true,
+          "meaning": "finite floating point witness; DE success is not global minimality"
+        },
+        {
+          "iteration": 2,
+          "period": 6,
+          "gaps": [
+            12.45782800629134,
+            6.494000520423475,
+            6.452386377651971,
+            6.494000826756327,
+            12.457830842439552,
+            6.560081270617641
+          ],
+          "z": 1.3505922382500308,
+          "value": 0.0013825765935196067,
+          "residual": 1.5976460900220778e-05,
+          "search_success": true,
+          "meaning": "finite floating point witness; DE success is not global minimality"
+        },
+        {
+          "iteration": 2,
+          "period": 8,
+          "gaps": [
+            6.567782832248691,
+            12.549057266463617,
+            12.620063639479508,
+            12.62792079256312,
+            12.633354414873367,
+            12.627924575118017,
+            12.620068504636283,
+            12.549046153432787
+          ],
+          "z": 1.8858909443291458,
+          "value": 0.00031165291815679174,
+          "residual": 0.0009605207989118901,
+          "search_success": true,
+          "meaning": "finite floating point witness; DE success is not global minimality"
+        }
+      ],
+      "final_fit": {
+        "alpha": 0.006451752449244779,
+        "eta": 0.0037651277510777426,
+        "target_slack": -0.00031882042409711164,
+        "relaxed_output": 0.6730781092683389,
+        "min_sample_residual": -8.360257612409494e-08
+      }
+    },
+    {
+      "radius": 5,
+      "profiles": [
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "baseline": 0.6725007036794116,
+      "target": 0.673399,
+      "fits": [
+        {
+          "alpha": 0.006555925493724427,
+          "eta": 0.0031595564907348425,
+          "target_slack": 0.0003569008602253383,
+          "relaxed_output": 0.6737582561165586,
+          "min_sample_residual": -8.673617379884035e-19
+        },
+        {
+          "alpha": 0.007086956149624506,
+          "eta": 0.00368021667510103,
+          "target_slack": 0.00019383618851160841,
+          "relaxed_output": 0.6735942197019791,
+          "min_sample_residual": 0.0
+        },
+        {
+          "alpha": 0.008437873818895053,
+          "eta": 0.005004752339720535,
+          "target_slack": -0.00022099286853877968,
+          "relaxed_output": 0.6731761265534415,
+          "min_sample_residual": -2.4741840520814407e-13
+        }
+      ],
+      "periodic_candidates": [
+        {
+          "iteration": 0,
+          "period": 2,
+          "gaps": [
+            6.59142065193609,
+            18.65183993562077
+          ],
+          "z": 2.0087948511332483,
+          "value": 0.00041686891630264604,
+          "residual": 0.00020784423303100551,
+          "search_success": true,
+          "meaning": "finite floating point witness; DE success is not global minimality"
+        },
+        {
+          "iteration": 0,
+          "period": 3,
+          "gaps": [
+            6.522872474991716,
+            18.587166962729036,
+            6.522871976642407
+          ],
+          "z": 1.6781780719946449,
+          "value": 0.0010777757092226316,
+          "residual": -0.00017585136452223128,
+          "search_success": true,
+          "meaning": "finite floating point witness; DE success is not global minimality"
+        },
+        {
+          "iteration": 0,
+          "period": 4,
+          "gaps": [
+            6.524104893380869,
+            18.67531760026926,
+            12.536478592774387,
+            6.516263577932407
+          ],
+          "z": 1.7607376872122271,
+          "value": 0.0008895545802194615,
+          "residual": -0.00010322072539211812,
+          "search_success": true,
+          "meaning": "finite floating point witness; DE success is not global minimality"
+        },
+        {
+          "iteration": 0,
+          "period": 6,
+          "gaps": [
+            6.5179166986515575,
+            18.685511936343648,
+            12.554924606863878,
+            6.556424923190525,
+            12.438161046516003,
+            6.5050947580642
+          ],
+          "z": 1.677971466090269,
+          "value": 0.0009116575797753756,
+          "residual": -0.0003426222769956815,
+          "search_success": true,
+          "meaning": "finite floating point witness; DE success is not global minimality"
+        },
+        {
+          "iteration": 0,
+          "period": 8,
+          "gaps": [
+            18.843088039297676,
+            12.678491584661469,
+            18.84310056338508,
+            18.841964884906268,
+            12.675171208236971,
+            18.81870572143478,
+            12.675173611788624,
+            18.841966127850895
+          ],
+          "z": 2.630386803777716,
+          "value": 8.241669584396183e-05,
+          "residual": 0.001837346901138695,
+          "search_success": true,
+          "meaning": "finite floating point witness; DE success is not global minimality"
+        },
+        {
+          "iteration": 1,
+          "period": 2,
+          "gaps": [
+            6.548985624752502,
+            12.453354190066065
+          ],
+          "z": 1.5121581559201531,
+          "value": 0.0008698967500261774,
+          "residual": -0.0006519897387909576,
+          "search_success": true,
+          "meaning": "finite floating point witness; DE success is not global minimality"
+        },
+        {
+          "iteration": 1,
+          "period": 3,
+          "gaps": [
+            6.522663019748123,
+            6.522664895538604,
+            18.58540344002235
+          ],
+          "z": 1.6780624162697486,
+          "value": 0.0010781712185741537,
+          "residual": 0.0001668483551659026,
+          "search_success": true,
+          "meaning": "finite floating point witness; DE success is not global minimality"
+        },
+        {
+          "iteration": 1,
+          "period": 4,
+          "gaps": [
+            6.548985146708078,
+            12.453354305624657,
+            6.548985462531392,
+            12.453354710443332
+          ],
+          "z": 1.5121581557478807,
+          "value": 0.0008698967506409394,
+          "residual": -0.0006519897388101957,
+          "search_success": true,
+          "meaning": "finite floating point witness; DE success is not global minimality"
+        },
+        {
+          "iteration": 1,
+          "period": 6,
+          "gaps": [
+            6.577743410523177,
+            18.639918190792155,
+            6.592700006050578,
+            18.727048810833868,
+            12.63177679777116,
+            12.550096627046138
+          ],
+          "z": 2.0085163851657426,
+          "value": 0.0003793203685116419,
+          "residual": 0.0006841397117877453,
+          "search_success": true,
+          "meaning": "finite floating point witness; DE success is not global minimality"
+        },
+        {
+          "iteration": 1,
+          "period": 8,
+          "gaps": [
+            18.745425403981855,
+            6.582999050492169,
+            12.554397458808317,
+            12.62843460995208,
+            18.714776917549756,
+            6.584215281980654,
+            12.579032278735342,
+            18.81730738755866
+          ],
+          "z": 2.1328073092671134,
+          "value": 0.000319681695697202,
+          "residual": 0.0010819185704148866,
+          "search_success": true,
+          "meaning": "finite floating point witness; DE success is not global minimality"
+        },
+        {
+          "iteration": 2,
+          "period": 2,
+          "gaps": [
+            6.54842694808217,
+            12.45108628334366
+          ],
+          "z": 1.5119332235606453,
+          "value": 0.0008708735041664072,
+          "residual": -1.489766122946684e-07,
+          "search_success": true,
+          "meaning": "finite floating point witness; DE success is not global minimality"
+        },
+        {
+          "iteration": 2,
+          "period": 3,
+          "gaps": [
+            6.492652335723065,
+            12.41161848129111,
+            6.492653937866057
+          ],
+          "z": 1.3473487046907038,
+          "value": 0.001506102095660319,
+          "residual": -0.00018862514101450172,
+          "search_success": true,
+          "meaning": "finite floating point witness; DE success is not global minimality"
+        },
+        {
+          "iteration": 2,
+          "period": 4,
+          "gaps": [
+            12.498566909560793,
+            6.503968252578322,
+            6.503967217179989,
+            12.498565966305538
+          ],
+          "z": 1.5121736224378706,
+          "value": 0.0010934996454627008,
+          "residual": 0.0002236803015272567,
+          "search_success": true,
+          "meaning": "finite floating point witness; DE success is not global minimality"
+        },
+        {
+          "iteration": 2,
+          "period": 6,
+          "gaps": [
+            6.447307749905052,
+            6.49026173023686,
+            12.524733348505315,
+            18.783204680429684,
+            12.524735659634455,
+            6.490263418446666
+          ],
+          "z": 1.6780370543072676,
+          "value": 0.0012236777217802931,
+          "residual": 0.0011839637765672928,
+          "search_success": true,
+          "meaning": "finite floating point witness; DE success is not global minimality"
+        },
+        {
+          "iteration": 2,
+          "period": 8,
+          "gaps": [
+            18.74295332554528,
+            6.574330910512736,
+            12.459850895827314,
+            6.5500528092914845,
+            12.448877337268506,
+            6.558949781799612,
+            12.561952510239076,
+            18.815865679033045
+          ],
+          "z": 1.8842519482373823,
+          "value": 0.0005783472442210801,
+          "residual": 0.0015706877718900426,
+          "search_success": true,
+          "meaning": "finite floating point witness; DE success is not global minimality"
+        }
+      ],
+      "final_fit": {
+        "alpha": 0.006707202165850303,
+        "eta": 0.003860247946268627,
+        "target_slack": -0.00024192103557555333,
+        "relaxed_output": 0.6731554453944466,
+        "min_sample_residual": -5.0252337013834136e-14
+      }
+    }
+  ]
+}

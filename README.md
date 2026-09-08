@@ -25,6 +25,9 @@
 全部剩余非零频率的有符号净估计仍未证明。周期9现已结算。
 当前[周期10](goals/NEXT.cycle9.md)研究多窗非线性谱传递；
 [347](notes/347-degree-normalized-dual-and-four-point-spectral-potential.md)的四点势及条件接口已独立复核，实际增益仍待验证。
+[348](notes/348-universal-nearest-edge-multiwindow-ceiling.md)已独立复核：
+任意有限偶窗口集合的相邻边证书无法超过MT基线；
+[349](notes/349-finite-range-dual-potential-and-periodic-tests.md)继续检查更远邻点，周期预筛仅属数值证据。
 RH、零点比例／非零区域改进及实质算术Weil结构仍未实现，整个GOAL保持active。
 [执行账本](goals/PROGRESS.md)记录当前动作和保存状态。
 
