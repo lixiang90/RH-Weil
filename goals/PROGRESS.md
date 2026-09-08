@@ -1,7 +1,7 @@
-# 持续GOAL执行账本：当前周期10
+# 持续GOAL执行账本：当前周期11
 
 2026-09-08更新。起点main 17c0774e0652f72ffaf9192f1f760c4294226caf。
-[第十版目标](GOAL.20260906.md)继续同一个持续GOAL；[phase3历史](archive/PROGRESS.phase3.md)保留。
+[第十一次目标修订](GOAL.20260906.md)继续同一个持续GOAL；[phase3历史](archive/PROGRESS.phase3.md)保留。
 
 ## 整个GOAL的状态
 
@@ -27,7 +27,9 @@ Euler的[算术审计](../reviews/2026-09-06/cycle4-arithmetic-interface-audit.m
 
 ## 保存
 
-第十版目标及cycle9最终原始字节快照已保存，13份目标镜像纳入同步；第十节B/C与第九版逐字一致。
+第十一次目标修订及cycle10最终原始字节快照已保存，14份目标镜像纳入同步；
+第十节B/C与第十版的原始文本字节一致。初次比较混用了read_text与原始解码的换行，
+造成检查断言失败；统一按原始解码比较后验证完全一致，无标准变更。
 文献、只读子代理复核及定期commit/push的既有授权持续有效。第四版目标及原始历史已随14bb2c77be62ec3ddf2d5e0668e675e0612020f6推送核验。321–323草稿已随6ec8a8e00ee5f5b1195db822d0366062fc2cba6b推送并核验；323空坏集合边界与精确核算随后保存。324–325及近点纠错随80418b5edf57896a93688667a40b100ce08c9ca4推送核验。未达较远期显著进展。
 
 ## 周期5、6、7、8已结算
@@ -145,7 +147,7 @@ b90f1b328d3ebb59cf710f254f0e11df6c8522fc推送origin/main，并核验同一完�
 整个GOAL保持active，未满足较远期标准。
 
 
-## 周期10当前工作
+## 周期10已结算
 
 [当前任务单](NEXT.cycle9.md)：多窗非线性谱余项的有限传递。
 [347](../notes/347-degree-normalized-dual-and-four-point-spectral-potential.md)给自含候选：
@@ -189,9 +191,33 @@ e8e8b9d2c3acfcdb9d62274961fc90502c45b765推送origin/main并核验完整SHA。
 [352](../notes/352-radius-five-riesz-candidate-and-binary-period-cuts.md)进一步测试第五邻点：
 完整Riesz响应窗口的表面正余量被71个原始二元周期类中的五周期候选消去。
 该实验仅属[E]，下一动作是多个周期与同一完整窗口二次型的联合约束。
-整个GOAL仍active，350–351最终报告与352实验待下一次保存。
+350–351最终报告与352实验已随91607a0391ed79515eaadc02375c749e4e5f3af4
+推送origin/main并核验完整SHA，整个GOAL仍active。
+[353](../notes/353-joint-periodic-laws-and-global-certificate-gap.md)完成联合周期／窗口预筛，
+保留尚有全域缺口的第五邻点候选。
+352–353的[独立报告](../reviews/2026-09-08/352-353-independent-review.md)已保存；
+补明原始符号word不是实数gap周期的无损去重，第三轮下一候选律尚未拟合。
+[周期10结算](ACCEPTANCE.cycle10.md)仅满足第十节A，未触发较远期完成。
 
 后续来源准备已保存：Devine原18页PDF重读1–8页，公开数值包两入口HTTP403，
 未取得包不阻止独立研究。Hydra固定提交归档6个附件，本轮只复跑给定整数区间的行检查；
 未重建完整见证或编译Lean。文献总量仍42份PDF1354页，另有11份已归档补充文本／代码，
 准确边界见[来源筛查](../reviews/2026-09-08/next-input-source-screen.md)。
+
+## 周期11当前工作
+
+[任务单](NEXT.cycle10.md)聚焦精确窗口的全域谱证书。
+[354](../notes/354-exact-radius-five-profile-and-conditional-ratio.md)
+固定90项精确Riesz窗口、alpha=.007535、eta=.00377855；
+已运行整数区间检查p>3/4、质量1、条件商>0.673415，Franklin正在独立复核。
+数字仍为[C]，全域有界势未证。
+
+[355](../notes/355-short-cluster-payment-and-separated-five-gap-reduction.md)
+已运行2715个实轴单元及无穷尾证书；
+候选地用小gap簇不交配对支付α节点成本，将其余单点作为一个分离大Gram块。
+分离链行和<.99使度归一化恒为1，将剩余任务降为五个gap>=5.7及有界四gap状态。
+Gibbs正在独立复核核界、有限拼接；Franklin另审实际平滑传递。
+两代理均按持续授权恢复，无外部同行评审声明。
+
+353及独立报告、周期10结算、第十一次目标、354–355候选和新证书待当前批次保存。
+下一动作是完成354–355异议闭环并构造分离域的有界势，GOAL持续active。
