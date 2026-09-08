@@ -166,11 +166,22 @@ Franklin[独立复核通过](../reviews/2026-09-08/348-independent-review.md)，
 补明可去奇点、alpha>=0接口及自含的有理C0包络，代理已关闭。
 [349](../notes/349-finite-range-dual-potential-and-periodic-tests.md)
 把完整有限邻点图写成3R+1点势并保留端点3R alpha；
-Gibbs已恢复核查其推导和实验实现。
+Gibbs的[349报告](../reviews/2026-09-08/349-independent-review.md)已保存，结论PASS；
+采用搜索盒、LP参数域及线性余量不是比例最大化的限定。
 加入非等间距短周期后，R=4、5原有常间距表面增益消失；
 两模单窗局部寻优亦未给出净目标余量。全部读数只属[E]。
-下一步以固定周期对偶权和窗口二次型检查能否严格覆盖任意偶窗口集合，
-不将局部浮点寻优失败当作整个家族的反例。
+[350](../notes/350-periodic-law-and-full-window-quadratic-ceiling.md)
+以两个有理周期、完整L² Riesz逆算子和13维矩阵得到候选统一上限：
+R<=4的指定谱势对任意有限偶窗口集合均输出<0.673332。
+整数区间验证已通过，Franklin正在独立审查证明与实现。
+[351](../notes/351-fixed-radius-stability-and-actual-zero-transfer.md)
+给固定R的逐边稳定性误差(4R+2R²)epsilon s；
+据此候选地完成全链增长Gram的实际传递，Gibbs正在独立复核。
+有限全域h证书仍未证明，因此尚无新实际比例。
+
+348已审上限、当时349待审稿及两份周期实验已随
+3784e21d0ad997fa3254b0e42ac36106a869d2b0推送origin/main并核验完整SHA。
+349报告、350–351候选与完整二次型证书待下一次保存；整个GOAL仍active。
 
 后续来源准备已保存：Devine原18页PDF重读1–8页，公开数值包两入口HTTP403，
 未取得包不阻止独立研究。Hydra固定提交归档6个附件，本轮只复跑给定整数区间的行检查；

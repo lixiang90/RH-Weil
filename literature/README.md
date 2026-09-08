@@ -46,6 +46,11 @@ PDF按来源原样保存，未重排或改写；arXiv固定版本，GitHub固定
 - [本地PDF](background/2023-bgst-unconditional-montgomery-v1.pdf)（13页，210,602字节）；[来源页面](https://arxiv.org/abs/2306.04799v1)；[原始PDF链接](https://arxiv.org/pdf/2306.04799v1)。
 - 状态与用途：全零点相关输入；勘误须结合BGST-2025v3。
 
+2026-09-08为[351实际传递候选](../notes/351-fixed-radius-stability-and-actual-zero-transfer.md)
+再次核对Lamzouri固定v1的§3去权步骤及BGST固定v3的保留旧Lemma5脚注、前缀式(3.5)。
+见[准确核读范围](../reviews/2026-09-08/fixed-radius-analytic-source-check.md)；
+现有PDF原件及哈希不变，未重审全文或新增版本。
+
 **BGST-2025 — Pair Correlation of Zeros of the Riemann Zeta Function I: Proportions of Simple Zeros and Critical Zeros**
 
 - 作者：Baluyot; Goldston; Suriajaya; Turnage-Butterbaugh。
