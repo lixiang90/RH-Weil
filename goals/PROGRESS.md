@@ -102,22 +102,38 @@ a3204b303cb9bb87f4dc1f7950f8abd09c0c65da推送origin/main并以ls-remote核验�
 准确通道表、窄cell的mask等价指定整数点删除，以及固定外层时shell自由长度
 O(X^(1/4)/(rv))。当前Type II的这条纤维至多1点，Type I长纤维只在小rv角落可能出现。
 Franklin的[341独立报告](../reviews/2026-09-08/341-independent-review.md)已交付保存，
-结论PASS，并已关闭该代理；不否定多外层变量共同求和。
+结论PASS；其后按持续授权复用Franklin审查344、345。不否定多外层变量共同求和。
 
 [342](../notes/342-continuous-band-replacement-in-the-actual-cell.md)证明合并实际响应的
 连续频带替换总误差O(1)，已经Gibbs[独立复核](../reviews/2026-09-08/342-independent-review.md)。
 先合并再替换，所有Vaughan通道仍须保留；不含外部beta^4 D因子。
-[343](../notes/343-free-variable-poisson-and-total-zero-frequency.md)为第2–3动作候选：
+[343](../notes/343-free-variable-poisson-and-total-zero-frequency.md)完成第2–3动作：
 实际自由变量的分段BV Poisson、明确端点与删点修正、准确对数驻点范围，
-以及全部外层零频率O(L³)。Gibbs正在只读独立复核，尚不将其登记为已审结果。
+以及全部外层零频率O(L³)，已经Gibbs[独立复核](../reviews/2026-09-08/343-independent-review.md)；
+补明G(0)连续延拓与大频率尾的范围。Gibbs本次已关闭。
 
-下一动作：验证Poisson公式的有限端点例证，合计点修正，再核算全部非零频率及外层成本。
+[344](../notes/344-total-point-correction-after-vaughan-recombination.md)
+完成第4动作的点修正：完整I+II恢复Lambda(a)，合计E_pt=O(L²)，
+已经Franklin[独立复核](../reviews/2026-09-08/344-independent-review.md)，
+采用支持外零延拓和正整数记号。原硬shell端点仅使用经典指数无理性。
+[345](../notes/345-thin-shell-taper-and-effective-poisson-truncation.md)为第4动作频率尾候选：
+先在合并响应上用除数界支付O(X^-1/8 L²)的极薄端帽平滑，
+再以有理cell跳跃与导数TV给全外层尾O(X^(5/2)L²/R)，R=ceil(X³)可有效截断。
+零频平滑变化及点修正仍计费。Franklin正在只读独立复核，未登记已审。
+若成立，同一目标化为有明确误差的有限非零频率和；尚未估计其净有符号总量。
+
+[硬端点有限例证](../reviews/2026-09-08/free-variable-poisson-evidence.md)及
+[平滑有限例证](../reviews/2026-09-08/thin-shell-taper-evidence.md)已运行并保存；
+首轮R=512的预设精度失败与提高到2048后的结果均记录，不以有限收敛冒充渐近。
+下一动作：闭环345复核，核算剩余非零频率的实际求和机制及全外层净成本。
 Type II必须保留共同变量，不把代数completion范围当真实自由长度。
 本轮已新增Sutherland6页、Miller–Schmid22页、Popescu17页公开原件，
-当前本地42份PDF1354页，预定Git保存41份1325页，Schur原限制不变。
+当前本地42份PDF1354页，Git已保存41份1325页，Schur原限制不变。
 三份原件全页解析，来源、版本、SHA及准确核读范围见文献索引；
 前两篇只作为Poisson背景，第三篇只用于经典指数无理性边界条款，不导入新的算术估计。
 
 中断前最后保存记录cddab874665393048c34fbc817beb02de79f9bf1已核实。
-本轮341–342报告、343待审稿与三篇新原件尚待本次commit/push；数学状态与远程保存分开。
+341–342报告、当时343待审稿与三篇新原件已随
+b90f1b328d3ebb59cf710f254f0e11df6c8522fc推送origin/main，并核验同一完整远程SHA。
+343–344最终报告、345待审稿与本次数值证据待本次commit/push；数学状态与远程保存分开。
 整个GOAL保持active，未满足较远期标准。

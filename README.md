@@ -19,8 +19,10 @@
 [周期8已结算](goals/ACCEPTANCE.cycle8.md)，剩余相关尚未接合双线性节省。
 当前[341](notes/341-vaughan-free-variable-and-shell-length.md)的真实shell长度及
 [342](notes/342-continuous-band-replacement-in-the-actual-cell.md)的合并核替换O(1)已完成独立复核。
-[343](notes/343-free-variable-poisson-and-total-zero-frequency.md)的实际Poisson及零频总量O(L³)为待审候选，
-端点总修正与全部非零频率仍须处理。
+[343](notes/343-free-variable-poisson-and-total-zero-frequency.md)的实际Poisson及零频O(L³)、
+[344](notes/344-total-point-correction-after-vaughan-recombination.md)的合并点修正O(L²)均已独立复核。
+[345](notes/345-thin-shell-taper-and-effective-poisson-truncation.md)的极薄端帽平滑与有效有限截断待审，
+全部剩余非零频率的有符号净估计仍未证明。
 RH、零点比例／非零区域改进及实质算术Weil结构仍未实现，整个GOAL保持active。
 [执行账本](goals/PROGRESS.md)记录当前动作和保存状态。
 

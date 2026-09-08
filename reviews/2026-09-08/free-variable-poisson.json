@@ -1,0 +1,378 @@
+{
+  "scope": "E only; original normalization excludes external beta^4 D",
+  "physical_cells": [
+    {
+      "X": 100,
+      "M": 10.0,
+      "atom_count": 8,
+      "ratio_records": 56,
+      "ordered_shell_terms": 594,
+      "shell_mass": 0.0031119870735413888,
+      "finite_response": 2.103197318954475e-05,
+      "continuous_response": 2.1622716570265663e-05,
+      "response_difference": -5.907433807209118e-07,
+      "exact_triangle_bound": 4.152411318131396e-06,
+      "finite_center": 0.00012591649818317758,
+      "continuous_center": 0.00012653957034326025,
+      "sampled_kernel_sup_error": 0.0013550017834560446,
+      "sampled_Q_times_error": 0.6240013815132469,
+      "scope": "fixed finite cells and 5001 samples; no uniform or asymptotic proof"
+    },
+    {
+      "X": 400,
+      "M": 20.0,
+      "atom_count": 14,
+      "ratio_records": 182,
+      "ordered_shell_terms": 3150,
+      "shell_mass": 0.014626541244898058,
+      "finite_response": 7.008755430103839e-05,
+      "continuous_response": 7.010703308194179e-05,
+      "response_difference": -1.9478780903406465e-08,
+      "exact_triangle_bound": 3.978352123802094e-06,
+      "finite_center": 3.1632574704136526e-05,
+      "continuous_center": 3.165585801971393e-05,
+      "sampled_kernel_sup_error": 0.00027226468727775677,
+      "sampled_Q_times_error": 0.6525056885016485,
+      "scope": "fixed finite cells and 5001 samples; no uniform or asymptotic proof"
+    },
+    {
+      "X": 1600,
+      "M": 40.0,
+      "atom_count": 29,
+      "ratio_records": 812,
+      "ordered_shell_terms": 36380,
+      "shell_mass": 0.05841046781998954,
+      "finite_response": -4.203974524430034e-05,
+      "continuous_response": -4.215669505243719e-05,
+      "response_difference": 1.1694980813684827e-07,
+      "exact_triangle_bound": 7.09682897310828e-06,
+      "finite_center": 7.9163088438506e-06,
+      "continuous_center": 7.915278954184934e-06,
+      "sampled_kernel_sup_error": 0.00012139401607490219,
+      "sampled_Q_times_error": 1.4329852536034675,
+      "scope": "fixed finite cells and 5001 samples; no uniform or asymptotic proof"
+    }
+  ],
+  "poisson_cases": [
+    {
+      "label": "no_integer_endpoint_or_deletion",
+      "taper": false,
+      "X": 400,
+      "r": 1,
+      "v": 5,
+      "m": 5,
+      "b": 67,
+      "c": 71,
+      "d": 73,
+      "interval": [
+        12.6,
+        13.701086590303415
+      ],
+      "integers": [
+        13
+      ],
+      "allowed": [
+        13
+      ],
+      "direct_sum": 0.00035662073402175834,
+      "point_correction": 0.0,
+      "events": [],
+      "poisson_zero": -3.6390143632420455e-06,
+      "quadrature_orders": [
+        4096,
+        8192
+      ],
+      "quadrature_discrepancy": 3.1270125377957925e-14,
+      "convergence": [
+        {
+          "R": 32,
+          "symmetric_sum": 0.001959148477524361,
+          "corrected": 0.001959148477524361,
+          "difference": 0.0016025277435026029
+        },
+        {
+          "R": 64,
+          "symmetric_sum": 0.0003334847408511325,
+          "corrected": 0.0003334847408511325,
+          "difference": -2.3135993170625847e-05
+        },
+        {
+          "R": 128,
+          "symmetric_sum": 0.0003571085125556983,
+          "corrected": 0.0003571085125556983,
+          "difference": 4.877785339399768e-07
+        },
+        {
+          "R": 256,
+          "symmetric_sum": 0.00035658549816709745,
+          "corrected": 0.00035658549816709745,
+          "difference": -3.523585466089739e-08
+        },
+        {
+          "R": 512,
+          "symmetric_sum": 0.00035659691169290036,
+          "corrected": 0.00035659691169290036,
+          "difference": -2.382232885798528e-08
+        },
+        {
+          "R": 1024,
+          "symmetric_sum": 0.00035661166017704373,
+          "corrected": 0.00035661166017704373,
+          "difference": -9.073844714610393e-09
+        },
+        {
+          "R": 2048,
+          "symmetric_sum": 0.0003566279068874123,
+          "corrected": 0.0003566279068874123,
+          "difference": 7.172865653976186e-09
+        }
+      ],
+      "scope": "fixed actual outer variables; finite R convergence evidence only"
+    },
+    {
+      "label": "included_integer_cell_endpoint",
+      "taper": false,
+      "X": 400,
+      "r": 1,
+      "v": 7,
+      "m": 7,
+      "b": 67,
+      "c": 71,
+      "d": 73,
+      "interval": [
+        9.0,
+        9.786490421645297
+      ],
+      "integers": [
+        9
+      ],
+      "allowed": [
+        9
+      ],
+      "direct_sum": 8.863413291876969e-05,
+      "point_correction": 4.4317066459384846e-05,
+      "events": [
+        {
+          "n": 9,
+          "a": 63,
+          "correction": 4.4317066459384846e-05,
+          "endpoint": true,
+          "deleted": false
+        }
+      ],
+      "poisson_zero": -2.5992959737750474e-06,
+      "quadrature_orders": [
+        4096,
+        8192
+      ],
+      "quadrature_discrepancy": 1.4645423274724928e-14,
+      "convergence": [
+        {
+          "R": 32,
+          "symmetric_sum": -0.0001773051634835075,
+          "corrected": -0.00013298809702412263,
+          "difference": -0.00022162222994289232
+        },
+        {
+          "R": 64,
+          "symmetric_sum": -0.0003904894399381094,
+          "corrected": -0.0003461723734787245,
+          "difference": -0.0004348065063974942
+        },
+        {
+          "R": 128,
+          "symmetric_sum": -0.00011660235532946948,
+          "corrected": -7.228528887008463e-05,
+          "difference": -0.0001609194217888543
+        },
+        {
+          "R": 256,
+          "symmetric_sum": -2.707939694697763e-05,
+          "corrected": 1.7237669512407216e-05,
+          "difference": -7.139646340636248e-05
+        },
+        {
+          "R": 512,
+          "symmetric_sum": 9.461222762838533e-06,
+          "corrected": 5.377828922222338e-05,
+          "difference": -3.485584369654631e-05
+        },
+        {
+          "R": 1024,
+          "symmetric_sum": 2.6974400561491243e-05,
+          "corrected": 7.129146702087609e-05,
+          "difference": -1.73426658978936e-05
+        },
+        {
+          "R": 2048,
+          "symmetric_sum": 3.565777253582412e-05,
+          "corrected": 7.997483899520896e-05,
+          "difference": -8.659293923560729e-06
+        }
+      ],
+      "scope": "fixed actual outer variables; finite R convergence evidence only"
+    },
+    {
+      "label": "deleted_ratio_diagonal",
+      "taper": false,
+      "X": 400,
+      "r": 1,
+      "v": 9,
+      "m": 9,
+      "b": 73,
+      "c": 81,
+      "d": 73,
+      "interval": [
+        8.561064820506425,
+        9.461439867384216
+      ],
+      "integers": [
+        9
+      ],
+      "allowed": [],
+      "direct_sum": 0,
+      "point_correction": -0.029615553277441847,
+      "events": [
+        {
+          "n": 9,
+          "a": 81,
+          "correction": -0.029615553277441847,
+          "endpoint": false,
+          "deleted": true
+        }
+      ],
+      "poisson_zero": 6.556881236913675e-09,
+      "quadrature_orders": [
+        4096,
+        8192
+      ],
+      "quadrature_discrepancy": 1.2461406906361105e-11,
+      "convergence": [
+        {
+          "R": 32,
+          "symmetric_sum": 1.5150978443671222e-06,
+          "corrected": -0.029614038179597478,
+          "difference": -0.029614038179597478
+        },
+        {
+          "R": 64,
+          "symmetric_sum": 0.013363367170621577,
+          "corrected": -0.01625218610682027,
+          "difference": -0.01625218610682027
+        },
+        {
+          "R": 128,
+          "symmetric_sum": 0.029614811999794516,
+          "corrected": -7.41277647330757e-07,
+          "difference": -7.41277647330757e-07
+        },
+        {
+          "R": 256,
+          "symmetric_sum": 0.02961511784318918,
+          "corrected": -4.354342526650956e-07,
+          "difference": -4.354342526650956e-07
+        },
+        {
+          "R": 512,
+          "symmetric_sum": 0.02961534432904412,
+          "corrected": -2.0894839772647722e-07,
+          "difference": -2.0894839772647722e-07
+        },
+        {
+          "R": 1024,
+          "symmetric_sum": 0.029615447785044748,
+          "corrected": -1.0549239709903291e-07,
+          "difference": -1.0549239709903291e-07
+        },
+        {
+          "R": 2048,
+          "symmetric_sum": 0.02961550303515629,
+          "corrected": -5.024228555763899e-08,
+          "difference": -5.024228555763899e-08
+        }
+      ],
+      "scope": "fixed actual outer variables; finite R convergence evidence only"
+    },
+    {
+      "label": "deleted_equal_numerator_denominator",
+      "taper": false,
+      "X": 400,
+      "r": 1,
+      "v": 9,
+      "m": 9,
+      "b": 81,
+      "c": 71,
+      "d": 73,
+      "interval": [
+        8.32651509939666,
+        9.202222336770951
+      ],
+      "integers": [
+        9
+      ],
+      "allowed": [],
+      "direct_sum": 0,
+      "point_correction": -0.000143335042282534,
+      "events": [
+        {
+          "n": 9,
+          "a": 81,
+          "correction": -0.000143335042282534,
+          "endpoint": false,
+          "deleted": true
+        }
+      ],
+      "poisson_zero": -4.594145229995668e-09,
+      "quadrature_orders": [
+        4096,
+        8192
+      ],
+      "quadrature_discrepancy": 3.340147711368424e-14,
+      "convergence": [
+        {
+          "R": 32,
+          "symmetric_sum": -2.9752695784291777e-06,
+          "corrected": -0.0001463103118609632,
+          "difference": -0.0001463103118609632
+        },
+        {
+          "R": 64,
+          "symmetric_sum": -0.000542709304938662,
+          "corrected": -0.000686044347221196,
+          "difference": -0.000686044347221196
+        },
+        {
+          "R": 128,
+          "symmetric_sum": 0.00014315079935610467,
+          "corrected": -1.8424292642932197e-07,
+          "difference": -1.8424292642932197e-07
+        },
+        {
+          "R": 256,
+          "symmetric_sum": 0.00014325325256162743,
+          "corrected": -8.178972090656304e-08,
+          "difference": -8.178972090656304e-08
+        },
+        {
+          "R": 512,
+          "symmetric_sum": 0.00014333319002436375,
+          "corrected": -1.8522581702478703e-09,
+          "difference": -1.8522581702478703e-09
+        },
+        {
+          "R": 1024,
+          "symmetric_sum": 0.00014333694083688565,
+          "corrected": 1.8985543516546015e-09,
+          "difference": 1.8985543516546015e-09
+        },
+        {
+          "R": 2048,
+          "symmetric_sum": 0.0001433349836251399,
+          "corrected": -5.865739410035667e-11,
+          "difference": -5.865739410035667e-11
+        }
+      ],
+      "scope": "fixed actual outer variables; finite R convergence evidence only"
+    }
+  ]
+}
