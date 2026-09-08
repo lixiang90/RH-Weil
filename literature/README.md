@@ -373,3 +373,22 @@ SHA、大小、页数及获取时间见manifest和[下载记录](../reviews/2026
   非零实代数数的指数无理。这里只引用经典Lindemann推论[R]，
   用于排除整数X时有理ad/bc恰等于exp(±1/sqrt X)；未核审该文完整新证明或历史优先权。
   相关PDF未改写，SHA和获取信息见manifest及[下载记录](../reviews/2026-09-08/popescu-source-download.json)。
+
+## 多窗与方法上限的后续来源准备（2026-09-08）
+
+- **Devine v1.0.3**：既有18页PDF重读第1–8页，重点Proposition1的平稳二次能量到非线性谱余项传递；完整定量分支链未认证。
+  [原公开包入口](https://zenodo.org/records/22066689/files/consecutive_triple_simple_zeros_v3_public.tar.zst?download=1)
+  及API内容入口本轮均HTTP403；[随包哈希来源](https://zenodo.org/records/22066689/files/consecutive_triple_simple_zeros_v3_public.tar.zst.sha256?download=1)可读。
+  未取得压缩包，不将其算入本地附件。
+- **Bryan Carson / Hydra Dynamix**：固定提交3c1d0ef81bf3af689d699ceefa9dc984a1dedb93。
+  [来源仓库](https://github.com/hydra-dynamix/zeta23-verification/tree/3c1d0ef81bf3af689d699ceefa9dc984a1dedb93)；
+  [技术说明原件](supplements/hydra-3c1d0ef/NOTE.md)、
+  [README](supplements/hydra-3c1d0ef/README.md)、
+  [law原件](supplements/hydra-3c1d0ef/witness/law_certified.txt)、
+  [Python检查器](supplements/hydra-3c1d0ef/witness/verify_law.py)；
+  [LICENSE](supplements/hydra-3c1d0ef/LICENSE)及[NOTICE](supplements/hydra-3c1d0ef/NOTICE)同时保留。
+  六份原件的固定下载链接、时间、大小、SHA均记入manifest。
+  本轮只运行给定整数区间的行检查，不称为从支持重建完整见证，未编译Lean。
+
+完整核读和运行边界见[来源筛查](../reviews/2026-09-08/next-input-source-screen.md)。
+PDF仍为42份1354页；新增六份文本／代码附件不计入PDF页数。

@@ -1,0 +1,97 @@
+{
+  "commit": "3c1d0ef81bf3af689d699ceefa9dc984a1dedb93",
+  "entries": [
+    {
+      "file": "supplements/hydra-3c1d0ef/NOTE.md",
+      "url": "https://raw.githubusercontent.com/hydra-dynamix/zeta23-verification/3c1d0ef81bf3af689d699ceefa9dc984a1dedb93/NOTE.md",
+      "source_url": "https://github.com/hydra-dynamix/zeta23-verification/tree/3c1d0ef81bf3af689d699ceefa9dc984a1dedb93",
+      "commit": "3c1d0ef81bf3af689d699ceefa9dc984a1dedb93",
+      "sha256": "13b8bf10bc1ac316bebd7c6283f65f64218bd1cfd8837be039fb098fa131fa51",
+      "bytes": 16838,
+      "retrieved_at_utc": "2026-09-08T05:25:04.280165+00:00",
+      "status": "固定公开来源附件原样归档；本轮未执行验证器或Lean，正文核读范围另记。"
+    },
+    {
+      "file": "supplements/hydra-3c1d0ef/README.md",
+      "url": "https://raw.githubusercontent.com/hydra-dynamix/zeta23-verification/3c1d0ef81bf3af689d699ceefa9dc984a1dedb93/README.md",
+      "source_url": "https://github.com/hydra-dynamix/zeta23-verification/tree/3c1d0ef81bf3af689d699ceefa9dc984a1dedb93",
+      "commit": "3c1d0ef81bf3af689d699ceefa9dc984a1dedb93",
+      "sha256": "faa9b46de43c43e06e0cb780a250cfcd350343240bb4bc4aec2a34c229ff9e66",
+      "bytes": 11225,
+      "retrieved_at_utc": "2026-09-08T05:25:05.236156+00:00",
+      "status": "固定公开来源附件原样归档；本轮未执行验证器或Lean，正文核读范围另记。"
+    },
+    {
+      "file": "supplements/hydra-3c1d0ef/LICENSE",
+      "url": "https://raw.githubusercontent.com/hydra-dynamix/zeta23-verification/3c1d0ef81bf3af689d699ceefa9dc984a1dedb93/LICENSE",
+      "source_url": "https://github.com/hydra-dynamix/zeta23-verification/tree/3c1d0ef81bf3af689d699ceefa9dc984a1dedb93",
+      "commit": "3c1d0ef81bf3af689d699ceefa9dc984a1dedb93",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "bytes": 11358,
+      "retrieved_at_utc": "2026-09-08T05:25:06.216367+00:00",
+      "status": "固定公开来源附件原样归档；本轮未执行验证器或Lean，正文核读范围另记。"
+    },
+    {
+      "file": "supplements/hydra-3c1d0ef/NOTICE",
+      "url": "https://raw.githubusercontent.com/hydra-dynamix/zeta23-verification/3c1d0ef81bf3af689d699ceefa9dc984a1dedb93/NOTICE",
+      "source_url": "https://github.com/hydra-dynamix/zeta23-verification/tree/3c1d0ef81bf3af689d699ceefa9dc984a1dedb93",
+      "commit": "3c1d0ef81bf3af689d699ceefa9dc984a1dedb93",
+      "sha256": "78741bd7e711181877fc28b6d29685150758e408799e4a87a00aaafa0b8d38af",
+      "bytes": 561,
+      "retrieved_at_utc": "2026-09-08T05:25:07.155712+00:00",
+      "status": "固定公开来源附件原样归档；本轮未执行验证器或Lean，正文核读范围另记。"
+    },
+    {
+      "file": "supplements/hydra-3c1d0ef/witness/law_certified.txt",
+      "url": "https://raw.githubusercontent.com/hydra-dynamix/zeta23-verification/3c1d0ef81bf3af689d699ceefa9dc984a1dedb93/witness/law_certified.txt",
+      "source_url": "https://github.com/hydra-dynamix/zeta23-verification/tree/3c1d0ef81bf3af689d699ceefa9dc984a1dedb93",
+      "commit": "3c1d0ef81bf3af689d699ceefa9dc984a1dedb93",
+      "sha256": "aea4ac730c52e60236b1831b1bd054fab7b6bb726d94c1311db7c07fb462fd30",
+      "bytes": 1055517,
+      "retrieved_at_utc": "2026-09-08T05:25:09.650778+00:00",
+      "status": "固定公开来源附件原样归档；本轮未执行验证器或Lean，正文核读范围另记。"
+    },
+    {
+      "file": "supplements/hydra-3c1d0ef/witness/verify_law.py",
+      "url": "https://raw.githubusercontent.com/hydra-dynamix/zeta23-verification/3c1d0ef81bf3af689d699ceefa9dc984a1dedb93/witness/verify_law.py",
+      "source_url": "https://github.com/hydra-dynamix/zeta23-verification/tree/3c1d0ef81bf3af689d699ceefa9dc984a1dedb93",
+      "commit": "3c1d0ef81bf3af689d699ceefa9dc984a1dedb93",
+      "sha256": "397b8bca94282e1559bcecf8d5b9add44d5fc1548af26395ade41a36aabc437a",
+      "bytes": 4045,
+      "retrieved_at_utc": "2026-09-08T05:25:10.615838+00:00",
+      "status": "固定公开来源附件原样归档；本轮未执行验证器或Lean，正文核读范围另记。"
+    }
+  ],
+  "attempts": [
+    {
+      "name": "NOTE.md",
+      "result": "downloaded",
+      "bytes": 16838
+    },
+    {
+      "name": "README.md",
+      "result": "downloaded",
+      "bytes": 11225
+    },
+    {
+      "name": "LICENSE",
+      "result": "downloaded",
+      "bytes": 11358
+    },
+    {
+      "name": "NOTICE",
+      "result": "downloaded",
+      "bytes": 561
+    },
+    {
+      "name": "witness/law_certified.txt",
+      "result": "downloaded",
+      "bytes": 1055517
+    },
+    {
+      "name": "witness/verify_law.py",
+      "result": "downloaded",
+      "bytes": 4045
+    }
+  ]
+}

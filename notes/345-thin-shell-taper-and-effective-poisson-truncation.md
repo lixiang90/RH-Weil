@@ -1,6 +1,7 @@
 # 345. 极薄shell平滑与有效的Poisson有限截断
 
-2026-09-08。周期9第4动作的频率尾部分。[T候选，独立复核待完成]。
+2026-09-08。周期9第4动作的频率尾部分。[T]。
+Franklin只读[独立复核通过](../reviews/2026-09-08/345-independent-review.md)。
 沿用335–344。本文控制一次有实际算术成本的平滑及远尾；
 剩余有限非零频率和仍未估计，不把有限化算作关键高矩突破。
 
@@ -146,7 +147,9 @@ C sqrt(Y) delta/(m X M)，因为只有总长度O(delta)的t端帽且|H|<<1/M。
 \]
 因此若343零频结论成立，平滑版本的总零频仍O(L³)。
 
-点修正按344-(1)–(3)在完整I+II合并后恢复Lambda(a)。
+点修正准确满足P_delta(a)=chi_delta(X log(a/a0))P(a)，
+因为乘子连续且不依赖a=rvw的分解；没有点值Jacobian。
+因此按344-(1)–(3)在完整I+II合并后恢复Lambda(a)。
 两cell端及两种删除点的界只用|H chi_delta|<=|H|，
 故344的O(L²)照常；平滑后的shell端函数值为0，本版本不再需要其指数无理性条款。
 这只是平滑版本的依赖缩减，未否定344对原硬端点的处理。
@@ -159,7 +162,7 @@ C sqrt(Y) delta/(m X M)，因为只有总长度O(delta)的t端帽且|H|<<1/M。
                        \over16\pi^4\sqrt{bcd}}
  \sum_{0<|k|\le R}\widehat g_{\delta,rv,b,c,d}(k).
 \]
-若343–345全部候选通过审查，则对R=ceil(X³)
+343–345现已分别通过独立审查。对R=ceil(X³)
 \[
  \boxed{R_X=\mathcal N_{X,R}^{\delta}+O(L^3),\qquad
  R_X=o(L^4)\ \Longleftrightarrow\

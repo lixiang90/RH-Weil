@@ -1,0 +1,16 @@
+file:            literature/supplements/hydra-3c1d0ef/witness/law_certified.txt
+enclosures:      256 (expect 256)
+scale K:         2^60
+declared tau:    1/10000000 = 1.0e-07
+rows checked:    255 (both endpoints, exact rational arithmetic)
+band failures:   0
+worst deviation: 9.005e-08  (file states 9.0051e-08)
+certified p:     0.681810782  = 412129329181963620513241/604462909807282866662336
+paper p0:        0.681828687
+gap to p0:       -0.000017906  (BELOW p0 - a strictly STRONGER ceiling than the published one)
+
+D(1):            0.823950881  (bound 0.823953170, margin 2.289e-06)
+edge bound:      OK
+RESULT: PASS - valid public witness at the declared tolerance
+Interpretation: no bandwidth-one certificate can prove a simple-and-on-critical-line
+proportion above 0.681811 (+ the O(1/N^2 + tau/N) stability term of the paper's Theorem 1').

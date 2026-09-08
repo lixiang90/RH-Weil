@@ -251,7 +251,7 @@
       "file": "candidates/2026-devine-673399-v1.0.3.pdf",
       "source_url": "https://zenodo.org/records/22066689",
       "pdf_url": "https://zenodo.org/records/22066689/files/zeros-v3.pdf?download=1",
-      "status": "作者声称无条件67.3399%；PDF第1、7页说明完整形式化可重放数值包仍在准备；本项目未复核全部解析链和243域证书",
+      "status": "作者声称无条件67.3399%；2026-09-08重读原PDF第1–8页，Proposition1的分支/续接定量传递待独立重建。公开包下载页及API本轮均HTTP403，未取得包或复跑其证书。",
       "resolved_pdf_url": "https://zenodo.org/records/22066689/files/zeros-v3.pdf?download=1",
       "download_status": "downloaded",
       "bytes": 455218,
@@ -895,6 +895,66 @@
       "file": "supplements/shi-claim-ledger-7cfd0ce.md",
       "url": "https://github.com/yuhangshi888/zeta-simple-zeros-673316977/blob/7cfd0ce9a9ef1615889b5c1191fac5de41f13960/CLAIM_LEDGER.md",
       "sha256": "5c3b4a27964cd9f3e3aa5225717319b8d0e6f03ee50ce391a4d2c64ff44b2392"
+    },
+    {
+      "file": "supplements/hydra-3c1d0ef/NOTE.md",
+      "url": "https://raw.githubusercontent.com/hydra-dynamix/zeta23-verification/3c1d0ef81bf3af689d699ceefa9dc984a1dedb93/NOTE.md",
+      "source_url": "https://github.com/hydra-dynamix/zeta23-verification/tree/3c1d0ef81bf3af689d699ceefa9dc984a1dedb93",
+      "commit": "3c1d0ef81bf3af689d699ceefa9dc984a1dedb93",
+      "sha256": "13b8bf10bc1ac316bebd7c6283f65f64218bd1cfd8837be039fb098fa131fa51",
+      "bytes": 16838,
+      "retrieved_at_utc": "2026-09-08T05:25:04.280165+00:00",
+      "status": "固定公开原件归档；主线程核读NOTE的1–4节及5节开头、完整Python检查器并复跑给定整数区间行检查。未从支持重建Fourier区间、未验证完整权表到p的关系、未编译Lean。各文件具体用途见2026-09-08来源筛查。"
+    },
+    {
+      "file": "supplements/hydra-3c1d0ef/README.md",
+      "url": "https://raw.githubusercontent.com/hydra-dynamix/zeta23-verification/3c1d0ef81bf3af689d699ceefa9dc984a1dedb93/README.md",
+      "source_url": "https://github.com/hydra-dynamix/zeta23-verification/tree/3c1d0ef81bf3af689d699ceefa9dc984a1dedb93",
+      "commit": "3c1d0ef81bf3af689d699ceefa9dc984a1dedb93",
+      "sha256": "faa9b46de43c43e06e0cb780a250cfcd350343240bb4bc4aec2a34c229ff9e66",
+      "bytes": 11225,
+      "retrieved_at_utc": "2026-09-08T05:25:05.236156+00:00",
+      "status": "固定公开原件归档；主线程核读NOTE的1–4节及5节开头、完整Python检查器并复跑给定整数区间行检查。未从支持重建Fourier区间、未验证完整权表到p的关系、未编译Lean。各文件具体用途见2026-09-08来源筛查。"
+    },
+    {
+      "file": "supplements/hydra-3c1d0ef/LICENSE",
+      "url": "https://raw.githubusercontent.com/hydra-dynamix/zeta23-verification/3c1d0ef81bf3af689d699ceefa9dc984a1dedb93/LICENSE",
+      "source_url": "https://github.com/hydra-dynamix/zeta23-verification/tree/3c1d0ef81bf3af689d699ceefa9dc984a1dedb93",
+      "commit": "3c1d0ef81bf3af689d699ceefa9dc984a1dedb93",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "bytes": 11358,
+      "retrieved_at_utc": "2026-09-08T05:25:06.216367+00:00",
+      "status": "固定公开原件归档；主线程核读NOTE的1–4节及5节开头、完整Python检查器并复跑给定整数区间行检查。未从支持重建Fourier区间、未验证完整权表到p的关系、未编译Lean。各文件具体用途见2026-09-08来源筛查。"
+    },
+    {
+      "file": "supplements/hydra-3c1d0ef/NOTICE",
+      "url": "https://raw.githubusercontent.com/hydra-dynamix/zeta23-verification/3c1d0ef81bf3af689d699ceefa9dc984a1dedb93/NOTICE",
+      "source_url": "https://github.com/hydra-dynamix/zeta23-verification/tree/3c1d0ef81bf3af689d699ceefa9dc984a1dedb93",
+      "commit": "3c1d0ef81bf3af689d699ceefa9dc984a1dedb93",
+      "sha256": "78741bd7e711181877fc28b6d29685150758e408799e4a87a00aaafa0b8d38af",
+      "bytes": 561,
+      "retrieved_at_utc": "2026-09-08T05:25:07.155712+00:00",
+      "status": "固定公开原件归档；主线程核读NOTE的1–4节及5节开头、完整Python检查器并复跑给定整数区间行检查。未从支持重建Fourier区间、未验证完整权表到p的关系、未编译Lean。各文件具体用途见2026-09-08来源筛查。"
+    },
+    {
+      "file": "supplements/hydra-3c1d0ef/witness/law_certified.txt",
+      "url": "https://raw.githubusercontent.com/hydra-dynamix/zeta23-verification/3c1d0ef81bf3af689d699ceefa9dc984a1dedb93/witness/law_certified.txt",
+      "source_url": "https://github.com/hydra-dynamix/zeta23-verification/tree/3c1d0ef81bf3af689d699ceefa9dc984a1dedb93",
+      "commit": "3c1d0ef81bf3af689d699ceefa9dc984a1dedb93",
+      "sha256": "aea4ac730c52e60236b1831b1bd054fab7b6bb726d94c1311db7c07fb462fd30",
+      "bytes": 1055517,
+      "retrieved_at_utc": "2026-09-08T05:25:09.650778+00:00",
+      "status": "固定公开原件归档；主线程核读NOTE的1–4节及5节开头、完整Python检查器并复跑给定整数区间行检查。未从支持重建Fourier区间、未验证完整权表到p的关系、未编译Lean。各文件具体用途见2026-09-08来源筛查。"
+    },
+    {
+      "file": "supplements/hydra-3c1d0ef/witness/verify_law.py",
+      "url": "https://raw.githubusercontent.com/hydra-dynamix/zeta23-verification/3c1d0ef81bf3af689d699ceefa9dc984a1dedb93/witness/verify_law.py",
+      "source_url": "https://github.com/hydra-dynamix/zeta23-verification/tree/3c1d0ef81bf3af689d699ceefa9dc984a1dedb93",
+      "commit": "3c1d0ef81bf3af689d699ceefa9dc984a1dedb93",
+      "sha256": "397b8bca94282e1559bcecf8d5b9add44d5fc1548af26395ade41a36aabc437a",
+      "bytes": 4045,
+      "retrieved_at_utc": "2026-09-08T05:25:10.615838+00:00",
+      "status": "固定公开原件归档；主线程核读NOTE的1–4节及5节开头、完整Python检查器并复跑给定整数区间行检查。未从支持重建Fourier区间、未验证完整权表到p的关系、未编译Lean。各文件具体用途见2026-09-08来源筛查。"
     }
   ]
 }

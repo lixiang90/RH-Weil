@@ -1,0 +1,15 @@
+{
+  "source_record": "https://zenodo.org/records/22066689",
+  "original_pdf": "literature/candidates/2026-devine-673399-v1.0.3.pdf",
+  "attempts": [
+    {
+      "url": "https://zenodo.org/records/22066689/files/consecutive_triple_simple_zeros_v3_public.tar.zst?download=1",
+      "result": "HTTP 403 via urllib proxy Mozilla UA"
+    },
+    {
+      "url": "https://zenodo.org/api/records/22066689/files/consecutive_triple_simple_zeros_v3_public.tar.zst/content",
+      "result": "HTTP Error 403: Forbidden"
+    }
+  ],
+  "recorded_at_utc": "2026-09-08T05:20:17.542737+00:00"
+}

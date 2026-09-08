@@ -1,7 +1,7 @@
-# 持续GOAL执行账本：当前周期9
+# 持续GOAL执行账本：当前周期10
 
 2026-09-08更新。起点main 17c0774e0652f72ffaf9192f1f760c4294226caf。
-[第九版目标](GOAL.20260906.md)继续同一个持续GOAL；[phase3历史](archive/PROGRESS.phase3.md)保留。
+[第十版目标](GOAL.20260906.md)继续同一个持续GOAL；[phase3历史](archive/PROGRESS.phase3.md)保留。
 
 ## 整个GOAL的状态
 
@@ -27,7 +27,7 @@ Euler的[算术审计](../reviews/2026-09-06/cycle4-arithmetic-interface-audit.m
 
 ## 保存
 
-第九版目标及cycle8最终原始字节快照已保存，12份目标镜像纳入同步；第十节B/C与第八版逐字一致。
+第十版目标及cycle9最终原始字节快照已保存，13份目标镜像纳入同步；第十节B/C与第九版逐字一致。
 文献、只读子代理复核及定期commit/push的既有授权持续有效。第四版目标及原始历史已随14bb2c77be62ec3ddf2d5e0668e675e0612020f6推送核验。321–323草稿已随6ec8a8e00ee5f5b1195db822d0366062fc2cba6b推送并核验；323空坏集合边界与精确核算随后保存。324–325及近点纠错随80418b5edf57896a93688667a40b100ce08c9ca4推送核验。未达较远期显著进展。
 
 ## 周期5、6、7、8已结算
@@ -94,7 +94,7 @@ bc8ebcb1832ce9bae547ad49c7c459e0fc21d5e5推送origin/main并核验同一完整SH
 340最终报告、周期8结算、第九版目标与341草稿已随
 a3204b303cb9bb87f4dc1f7950f8abd09c0c65da推送origin/main并以ls-remote核验。
 
-## 周期9已开始
+## 周期9已结算
 
 [当前任务单](NEXT.cycle8.md)：对既有Vaughan恒等式中真正无算术权的自由整数变量求和，
 保留全部通道、原mask、其他Lambda权及共同shell；不重开240–241的混合变差预算。
@@ -116,16 +116,18 @@ Franklin的[341独立报告](../reviews/2026-09-08/341-independent-review.md)已
 完成第4动作的点修正：完整I+II恢复Lambda(a)，合计E_pt=O(L²)，
 已经Franklin[独立复核](../reviews/2026-09-08/344-independent-review.md)，
 采用支持外零延拓和正整数记号。原硬shell端点仅使用经典指数无理性。
-[345](../notes/345-thin-shell-taper-and-effective-poisson-truncation.md)为第4动作频率尾候选：
+[345](../notes/345-thin-shell-taper-and-effective-poisson-truncation.md)为第4动作频率尾结果：
 先在合并响应上用除数界支付O(X^-1/8 L²)的极薄端帽平滑，
 再以有理cell跳跃与导数TV给全外层尾O(X^(5/2)L²/R)，R=ceil(X³)可有效截断。
-零频平滑变化及点修正仍计费。Franklin正在只读独立复核，未登记已审。
-若成立，同一目标化为有明确误差的有限非零频率和；尚未估计其净有符号总量。
+零频平滑变化及点修正仍计费，已经Franklin独立复核；其后代理已关闭。
+同一目标化为有明确误差的有限非零频率和；尚未估计其净有符号总量。
 
 [硬端点有限例证](../reviews/2026-09-08/free-variable-poisson-evidence.md)及
 [平滑有限例证](../reviews/2026-09-08/thin-shell-taper-evidence.md)已运行并保存；
 首轮R=512的预设精度失败与提高到2048后的结果均记录，不以有限收敛冒充渐近。
-下一动作：闭环345复核，核算剩余非零频率的实际求和机制及全外层净成本。
+[346](../notes/346-nonzero-poisson-frequency-cost-and-fixed-band-geometry.md)完成第5动作，
+逐频率现有预算O(X^(3/2)L²)及固定(sigma,xi)驻点几何已独立复核，
+两处量词／范围修订已经采用。整个周期9按第十节A结算，不触发GOAL完成。
 Type II必须保留共同变量，不把代数completion范围当真实自由长度。
 本轮已新增Sutherland6页、Miller–Schmid22页、Popescu17页公开原件，
 当前本地42份PDF1354页，Git已保存41份1325页，Schur原限制不变。
@@ -135,5 +137,29 @@ Type II必须保留共同变量，不把代数completion范围当真实自由长
 中断前最后保存记录cddab874665393048c34fbc817beb02de79f9bf1已核实。
 341–342报告、当时343待审稿与三篇新原件已随
 b90f1b328d3ebb59cf710f254f0e11df6c8522fc推送origin/main，并核验同一完整远程SHA。
-343–344最终报告、345待审稿与本次数值证据待本次commit/push；数学状态与远程保存分开。
+343–344最终报告、当时345待审稿与数值证据已随
+2b31091c8d9f79439eb707c025b3d6ef40a182eb推送origin/main并核验完整远程SHA。
+345–346报告、周期9结算、第十版目标与下一周期首稿待本次保存；数学状态与远程保存分开。
 整个GOAL保持active，未满足较远期标准。
+
+
+## 周期10当前工作
+
+[当前任务单](NEXT.cycle9.md)：多窗非线性谱余项的有限传递。
+[347](../notes/347-degree-normalized-dual-and-four-point-spectral-potential.md)给自含候选：
+通过度归一化的有界试探矩阵，直接获得对全部谱分支合法的非负四点势，
+以及有界平稳势证书的准确计数方向，已经Gibbs独立复核；
+采用固定块端点C*ceil(s/b)及先N后b的极限补充，代理已关闭。
+尚未证明非平凡平稳下界或其实际零点Gram接口。
+
+首个明确试探族为MT密度加减epsilon*cos(2pi u)的等权组合。
+[scripts/spectral_four_point_prefilter.py](../scripts/spectral_four_point_prefilter.py)
+已计算常间距必要条件的浮点LP；8个epsilon、两个比较值均无正的目标余量。
+输出见[预筛JSON](../reviews/2026-09-08/spectral-four-point-prefilter.json)，仅为[E]，
+不能把浮点负余量当作整个连续参数族或方法的严格排除。
+下一步核对这种常间距约束能否给窗口族的解析边界，再决定保留何种更强局部结构。
+
+后续来源准备已保存：Devine原18页PDF重读1–8页，公开数值包两入口HTTP403，
+未取得包不阻止独立研究。Hydra固定提交归档6个附件，本轮只复跑给定整数区间的行检查；
+未重建完整见证或编译Lean。文献总量仍42份PDF1354页，另有11份已归档补充文本／代码，
+准确边界见[来源筛查](../reviews/2026-09-08/next-input-source-screen.md)。

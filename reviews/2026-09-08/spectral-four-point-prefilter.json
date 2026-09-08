@@ -1,0 +1,294 @@
+{
+  "scope": "E: selected finite profile family and constant-gap grid; no rigorous exclusion or zero bound",
+  "C0": 0.6725007036794116,
+  "perturbation_cost": 0.47466970408941556,
+  "mt_roots": [
+    6.643075423666783,
+    12.755290477883328,
+    18.976746392523975,
+    25.228469370997647,
+    31.492634480131276,
+    37.76309219580936,
+    44.03716703019805,
+    50.313510429566634,
+    56.59136956229266,
+    62.87029130460694,
+    69.14998667898816,
+    75.43026273315893
+  ],
+  "constraint_count": 8013,
+  "records": [
+    {
+      "epsilon": 0,
+      "mixed_baseline": 0.6725007036794116,
+      "target": 0.6725007036794116,
+      "density_lower_bound": 0.8274992963205884,
+      "alpha": -0.0,
+      "eta": 0.0,
+      "best_sampled_target_slack": -0.0,
+      "minimum_constraint_residual": 2.8521941196977935e-35,
+      "near_tight_gaps": [
+        31.492634480131276,
+        44.03716703019805,
+        69.14998667898816,
+        62.87029130460694
+      ],
+      "interpretation": "floating necessary-condition LP only; not feasibility of a subaction"
+    },
+    {
+      "epsilon": 0,
+      "mixed_baseline": 0.6725007036794116,
+      "target": 0.673399,
+      "density_lower_bound": 0.8274992963205884,
+      "alpha": -0.0,
+      "eta": 0.0,
+      "best_sampled_target_slack": -0.0008982963205883543,
+      "minimum_constraint_residual": 2.8521941196977935e-35,
+      "near_tight_gaps": [
+        31.492634480131276,
+        44.03716703019805,
+        69.14998667898816,
+        62.87029130460694
+      ],
+      "interpretation": "floating necessary-condition LP only; not feasibility of a subaction"
+    },
+    {
+      "epsilon": 0.01,
+      "mixed_baseline": 0.6724532367090027,
+      "target": 0.6725007036794116,
+      "density_lower_bound": 0.8174992963205884,
+      "alpha": 0.00010896611034130136,
+      "eta": 5.363853415423571e-05,
+      "best_sampled_target_slack": -2.7825718681418033e-05,
+      "minimum_constraint_residual": 6.776263578034403e-21,
+      "near_tight_gaps": [
+        6.643075423666783,
+        12.755290477883328,
+        12.75,
+        12.76
+      ],
+      "interpretation": "floating necessary-condition LP only; not feasibility of a subaction"
+    },
+    {
+      "epsilon": 0.01,
+      "mixed_baseline": 0.6724532367090027,
+      "target": 0.673399,
+      "density_lower_bound": 0.8174992963205884,
+      "alpha": 0.00010896611034130136,
+      "eta": 5.363853415423571e-05,
+      "best_sampled_target_slack": -0.000926024155413784,
+      "minimum_constraint_residual": 6.776263578034403e-21,
+      "near_tight_gaps": [
+        6.643075423666783,
+        12.755290477883328,
+        12.75,
+        12.76
+      ],
+      "interpretation": "floating necessary-condition LP only; not feasibility of a subaction"
+    },
+    {
+      "epsilon": 0.03,
+      "mixed_baseline": 0.6720735009457312,
+      "target": 0.6725007036794116,
+      "density_lower_bound": 0.7974992963205884,
+      "alpha": 0.0009809041490879908,
+      "eta": 0.00048294463232982047,
+      "best_sampled_target_slack": -0.0002504886355065573,
+      "minimum_constraint_residual": 0.0,
+      "near_tight_gaps": [
+        6.643075423666783,
+        12.75,
+        6.640000000000001,
+        12.755290477883328
+      ],
+      "interpretation": "floating necessary-condition LP only; not feasibility of a subaction"
+    },
+    {
+      "epsilon": 0.03,
+      "mixed_baseline": 0.6720735009457312,
+      "target": 0.673399,
+      "density_lower_bound": 0.7974992963205884,
+      "alpha": 0.0009809041490879908,
+      "eta": 0.00048294463232982047,
+      "best_sampled_target_slack": -0.0011479038135069359,
+      "minimum_constraint_residual": 0.0,
+      "near_tight_gaps": [
+        6.643075423666783,
+        12.75,
+        6.640000000000001,
+        12.755290477883328
+      ],
+      "interpretation": "floating necessary-condition LP only; not feasibility of a subaction"
+    },
+    {
+      "epsilon": 0.1,
+      "mixed_baseline": 0.6677540066385175,
+      "target": 0.6725007036794116,
+      "density_lower_bound": 0.7274992963205884,
+      "alpha": 0.010900219356144953,
+      "eta": 0.005377167869726083,
+      "best_sampled_target_slack": -0.002793459723352803,
+      "minimum_constraint_residual": 0.0,
+      "near_tight_gaps": [
+        6.63,
+        12.700000000000001,
+        12.71,
+        6.62
+      ],
+      "interpretation": "floating necessary-condition LP only; not feasibility of a subaction"
+    },
+    {
+      "epsilon": 0.1,
+      "mixed_baseline": 0.6677540066385175,
+      "target": 0.673399,
+      "density_lower_bound": 0.7274992963205884,
+      "alpha": 0.010900219356144953,
+      "eta": 0.005377167869726083,
+      "best_sampled_target_slack": -0.003681964416999926,
+      "minimum_constraint_residual": 0.0,
+      "near_tight_gaps": [
+        6.63,
+        12.700000000000001,
+        12.71,
+        6.62
+      ],
+      "interpretation": "floating necessary-condition LP only; not feasibility of a subaction"
+    },
+    {
+      "epsilon": 0.2,
+      "mixed_baseline": 0.653513915515835,
+      "target": 0.6725007036794116,
+      "density_lower_bound": 0.6274992963205883,
+      "alpha": 0.04359262412625562,
+      "eta": 0.021631849910537418,
+      "best_sampled_target_slack": -0.01130256767397499,
+      "minimum_constraint_residual": -6.5052130349130266e-18,
+      "near_tight_gaps": [
+        12.57,
+        6.57,
+        6.58,
+        12.58
+      ],
+      "interpretation": "floating necessary-condition LP only; not feasibility of a subaction"
+    },
+    {
+      "epsilon": 0.2,
+      "mixed_baseline": 0.653513915515835,
+      "target": 0.673399,
+      "density_lower_bound": 0.6274992963205883,
+      "alpha": 0.04359262412625562,
+      "eta": 0.021631849910537418,
+      "best_sampled_target_slack": -0.01216170490070594,
+      "minimum_constraint_residual": -6.5052130349130266e-18,
+      "near_tight_gaps": [
+        12.57,
+        6.57,
+        6.58,
+        12.58
+      ],
+      "interpretation": "floating necessary-condition LP only; not feasibility of a subaction"
+    },
+    {
+      "epsilon": 0.4,
+      "mixed_baseline": 0.5965535510251051,
+      "target": 0.6725007036794116,
+      "density_lower_bound": 0.42749929632058836,
+      "alpha": 0.1724668882554117,
+      "eta": 0.08702880277055115,
+      "best_sampled_target_slack": -0.04699185171169484,
+      "minimum_constraint_residual": 0.0,
+      "near_tight_gaps": [
+        6.36,
+        12.200000000000001,
+        12.21,
+        12.19
+      ],
+      "interpretation": "floating necessary-condition LP only; not feasibility of a subaction"
+    },
+    {
+      "epsilon": 0.4,
+      "mixed_baseline": 0.5965535510251051,
+      "target": 0.673399,
+      "density_lower_bound": 0.42749929632058836,
+      "alpha": 0.1724668882554117,
+      "eta": 0.08702880277055115,
+      "best_sampled_target_slack": -0.04773522166114004,
+      "minimum_constraint_residual": 0.0,
+      "near_tight_gaps": [
+        6.36,
+        12.200000000000001,
+        12.21,
+        12.19
+      ],
+      "interpretation": "floating necessary-condition LP only; not feasibility of a subaction"
+    },
+    {
+      "epsilon": 0.6,
+      "mixed_baseline": 0.501619610207222,
+      "target": 0.6725007036794116,
+      "density_lower_bound": 0.2274992963205884,
+      "alpha": 0.3725949443165361,
+      "eta": 0.1907609787351207,
+      "best_sampled_target_slack": -0.11107170996704857,
+      "minimum_constraint_residual": 0.0,
+      "near_tight_gaps": [
+        6.0,
+        11.9,
+        11.89,
+        5.99
+      ],
+      "interpretation": "floating necessary-condition LP only; not feasibility of a subaction"
+    },
+    {
+      "epsilon": 0.6,
+      "mixed_baseline": 0.501619610207222,
+      "target": 0.673399,
+      "density_lower_bound": 0.2274992963205884,
+      "alpha": 0.3725949443165361,
+      "eta": 0.1907609787351207,
+      "best_sampled_target_slack": -0.11163530562008755,
+      "minimum_constraint_residual": 0.0,
+      "near_tight_gaps": [
+        6.0,
+        11.9,
+        11.89,
+        5.99
+      ],
+      "interpretation": "floating necessary-condition LP only; not feasibility of a subaction"
+    },
+    {
+      "epsilon": 0.8,
+      "mixed_baseline": 0.3687120930621856,
+      "target": 0.6725007036794116,
+      "density_lower_bound": 0.02749929632058834,
+      "alpha": 0.6068450908805263,
+      "eta": 0.31310170447023267,
+      "best_sampled_target_slack": -0.20878656444590826,
+      "minimum_constraint_residual": -7.28583859910259e-17,
+      "near_tight_gaps": [
+        11.75,
+        5.41,
+        11.74,
+        5.42
+      ],
+      "interpretation": "floating necessary-condition LP only; not feasibility of a subaction"
+    },
+    {
+      "epsilon": 0.8,
+      "mixed_baseline": 0.3687120930621856,
+      "target": 0.673399,
+      "density_lower_bound": 0.02749929632058834,
+      "alpha": 0.6068450908805263,
+      "eta": 0.31310170447023267,
+      "best_sampled_target_slack": -0.2091397340541915,
+      "minimum_constraint_residual": -7.28583859910259e-17,
+      "near_tight_gaps": [
+        11.75,
+        5.41,
+        11.74,
+        5.42
+      ],
+      "interpretation": "floating necessary-condition LP only; not feasibility of a subaction"
+    }
+  ]
+}

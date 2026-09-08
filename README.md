@@ -2,9 +2,9 @@
 
 本目录研究一个明确的问题：能否把有限域上 Weil 猜想中迫使 Frobenius 特征值具有正确绝对值的结构抽离出来，并在数域的 zeta / L 函数上构造同类结构？
 
-## 当前研究状态：持续GOAL，周期9（2026-09-08）
+## 当前研究状态：持续GOAL，周期10（2026-09-08）
 
-[第九版GOAL](goals/GOAL.20260906.md)保持当前周期验收与较远期显著进展的区分。
+[第十版GOAL](goals/GOAL.20260906.md)保持当前周期验收与较远期显著进展的区分。
 321–326已给近点预算、实际sharp二阶公式及条件性计数比较；
 327、329变窗平均已独立复核并[结算](goals/ACCEPTANCE.cycle5.md)。
 [330](notes/330-exact-sublevels-and-arbitrary-window-concentration.md)任意增长集中度与[331](notes/331-three-node-phase-compatibility-and-circle-defect.md)三点必要条件均已通过独立逆审并[结算](goals/ACCEPTANCE.cycle6.md)。
@@ -21,8 +21,10 @@
 [342](notes/342-continuous-band-replacement-in-the-actual-cell.md)的合并核替换O(1)已完成独立复核。
 [343](notes/343-free-variable-poisson-and-total-zero-frequency.md)的实际Poisson及零频O(L³)、
 [344](notes/344-total-point-correction-after-vaughan-recombination.md)的合并点修正O(L²)均已独立复核。
-[345](notes/345-thin-shell-taper-and-effective-poisson-truncation.md)的极薄端帽平滑与有效有限截断待审，
-全部剩余非零频率的有符号净估计仍未证明。
+[345](notes/345-thin-shell-taper-and-effective-poisson-truncation.md)的极薄端帽平滑与有效有限截断也已复核，
+全部剩余非零频率的有符号净估计仍未证明。周期9现已结算。
+当前[周期10](goals/NEXT.cycle9.md)研究多窗非线性谱传递；
+[347](notes/347-degree-normalized-dual-and-four-point-spectral-potential.md)的四点势及条件接口已独立复核，实际增益仍待验证。
 RH、零点比例／非零区域改进及实质算术Weil结构仍未实现，整个GOAL保持active。
 [执行账本](goals/PROGRESS.md)记录当前动作和保存状态。
 
