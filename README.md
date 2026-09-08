@@ -2,7 +2,7 @@
 
 本目录研究一个明确的问题：能否把有限域上 Weil 猜想中迫使 Frobenius 特征值具有正确绝对值的结构抽离出来，并在数域的 zeta / L 函数上构造同类结构？
 
-## 当前研究状态：持续GOAL，周期9（2026-09-07）
+## 当前研究状态：持续GOAL，周期9（2026-09-08）
 
 [第九版GOAL](goals/GOAL.20260906.md)保持当前周期验收与较远期显著进展的区分。
 321–326已给近点预算、实际sharp二阶公式及条件性计数比较；
@@ -17,7 +17,10 @@
 [339](notes/339-dual-determinant-zero-mode-and-exact-inversion.md)双频零层均已复核；
 [340](notes/340-prime-weight-energy-outside-the-poisson-band.md)真实素数权短频能量也已复核。
 [周期8已结算](goals/ACCEPTANCE.cycle8.md)，剩余相关尚未接合双线性节省。
-当前[341](notes/341-vaughan-free-variable-and-shell-length.md)开始核查Vaughan自由整数变量的真实shell长度和求和接口。
+当前[341](notes/341-vaughan-free-variable-and-shell-length.md)的真实shell长度及
+[342](notes/342-continuous-band-replacement-in-the-actual-cell.md)的合并核替换O(1)已完成独立复核。
+[343](notes/343-free-variable-poisson-and-total-zero-frequency.md)的实际Poisson及零频总量O(L³)为待审候选，
+端点总修正与全部非零频率仍须处理。
 RH、零点比例／非零区域改进及实质算术Weil结构仍未实现，整个GOAL保持active。
 [执行账本](goals/PROGRESS.md)记录当前动作和保存状态。
 

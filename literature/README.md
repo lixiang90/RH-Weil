@@ -1,6 +1,6 @@
 # RH-Weil 文献索引
 
-更新与抓取日期：2026-09-06。首批归档聚焦67.25%之后的零点比例进展及直接依赖（15份、220页）；GOAL 首周期补入两份 Milne 函数域背景及四篇 Abel 直接文献，phase1共21份外部原始PDF、570页；phase2新增清单及获取状态见文末，phase3新增Schur原文扫描29页，持续GOAL周期4新增GM、TTY和ANTEDB共286页，当前本地共32份外部原始PDF、1076页，其中Git保存31份、1047页；Schur扫描按来源封面要求仅本地保存，出处和哈希同步。获取失败单列。研究判断见 [305文献审计](../notes/305-post-6725-literature-baseline-audit.md)。
+更新至2026-09-08。首批归档聚焦67.25%之后的零点比例进展及直接依赖（15份、220页）；后续原始版本与核读范围按轮次列在文末。当前本地共42份外部原始PDF、1354页，其中41份、1325页纳入Git保存；Schur扫描29页按来源封面要求仅本地保存，出处和哈希同步。获取失败单列。研究判断见 [305文献审计](../notes/305-post-6725-literature-baseline-audit.md)。
 
 PDF按来源原样保存，未重排或改写；arXiv固定版本，GitHub固定提交，Zenodo固定记录。下载、全页PDF解析和校验值核验不等于数学证明认证。manifest中的SHA-256标识本次取得的精确字节，原站同一文件名后续变化时仍可区分。
 
@@ -345,3 +345,31 @@ Choi–Kumchev PDF首页另标draft 2018-09-26，与arXiv上传2004-12-12及期�
 为340仅使用经典exp(-c sqrt(log x))弱化。
 第3页区分计算验证高度、全RH与已修正的上游常数；
 本次没有重跑全篇显式常数／数值依赖，也不声称更新PNT纪录。
+
+## 自由整数变量Poisson背景（2026-09-08）
+
+- **Andrew Sutherland (2015)**，*18.785 Number Theory I, Lecture 16: The functional equation*，MIT讲义，封面日期2015-11-05。
+  [本地6页PDF](background/sutherland-poisson-lecture16-20151105.pdf)；
+  [原始来源及下载](https://math.mit.edu/classes/18.785/2015fa/LectureNotes16.pdf)。
+  主线程经web核读第1–2页Definition16.1/16.2、Theorem16.3及周期化证明；
+  其Schwartz假设不直接覆盖343的硬端点核。初次下载403，携带普通浏览器UA和MIT来源头重试成功，原件全页解析通过。
+- **Stephen D. Miller; Wilfried Schmid (2003)**，*Summation Formulas, from Poisson and Voronoi to the Present*，arXiv:math/0304187v1，2003-04-15。
+  [本地22页PDF](background/miller-schmid-summation-0304187v1.pdf)；
+  [固定版本页](https://arxiv.org/abs/math/0304187v1)；
+  [原件下载](https://arxiv.org/pdf/math/0304187v1)。
+  全页解析通过；主线程核读第1页(1.1)–(1.2)及跳跃点（含端点）的左右极限平均，
+  第2–3页只作范围比较。343补出孤立删点修正；未导入GL3公式或认证全篇证明。
+
+SHA、大小、页数及获取时间见manifest和[下载记录](../reviews/2026-09-08/poisson-source-downloads.json)。
+两份均保留公开原件，未以整理文字替换PDF。
+
+## shell端点的经典无理性条款（2026-09-08）
+
+- **Sever Angel Popescu**，*A simple and self-contained proof for the Lindemann-Weierstrass theorem*，arXiv:2306.14352v2，上传2023-09-17，PDF首页另标2023-07-29。
+  [本地17页PDF](background/popescu-lindemann-weierstrass-2306.14352v2.pdf)；
+  [固定版本](https://arxiv.org/abs/2306.14352v2)；
+  [原件下载](https://arxiv.org/pdf/2306.14352v2)。
+  全页解析；主线程定位第11页Theorem3.1的有理系数线性无关陈述及第14页Corollary3.1和短证明：
+  非零实代数数的指数无理。这里只引用经典Lindemann推论[R]，
+  用于排除整数X时有理ad/bc恰等于exp(±1/sqrt X)；未核审该文完整新证明或历史优先权。
+  相关PDF未改写，SHA和获取信息见manifest及[下载记录](../reviews/2026-09-08/popescu-source-download.json)。

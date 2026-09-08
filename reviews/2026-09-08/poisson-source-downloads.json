@@ -1,0 +1,40 @@
+[
+  {
+    "id": "Sutherland-2015-L16",
+    "authors": "Andrew Sutherland",
+    "title": "18.785 Number Theory I, Lecture 16: The functional equation",
+    "version": "MIT Fall 2015; lecture dated 2015-11-05",
+    "file": "background/sutherland-poisson-lecture16-20151105.pdf",
+    "source_url": "https://math.mit.edu/classes/18.785/2015fa/LectureNotes16.pdf",
+    "pdf_url": "https://math.mit.edu/classes/18.785/2015fa/LectureNotes16.pdf",
+    "status": "web工具已核读PDF第1–2页Definition16.1/16.2、Theorem16.3及周期化证明。仅Schwartz函数；343实际分段核端点版本另证。",
+    "category": "background",
+    "resolved_pdf_url": "https://math.mit.edu/classes/18.785/2015fa/LectureNotes16.pdf",
+    "download_status": "downloaded",
+    "bytes": 224056,
+    "sha256": "f5093cf6a6aca88adb861f466f7ce8a468c9092fec51afe331251d8cca946d70",
+    "retrieved_at_utc": "2026-09-08T04:32:28.512825+00:00",
+    "pages": 6,
+    "pdf_parse_status": "all pages parsed",
+    "text_characters": 10955
+  },
+  {
+    "id": "Miller-Schmid-2003",
+    "authors": "Stephen D. Miller; Wilfried Schmid",
+    "title": "Summation Formulas, from Poisson and Voronoi to the Present",
+    "version": "arXiv:math/0304187v1; 2003-04-15",
+    "file": "background/miller-schmid-summation-0304187v1.pdf",
+    "source_url": "https://arxiv.org/abs/math/0304187v1",
+    "pdf_url": "https://arxiv.org/pdf/math/0304187v1",
+    "status": "求和公式背景；已下载，原文具体条款尚待核读，不导入GL3算术输入。",
+    "category": "background",
+    "resolved_pdf_url": "https://arxiv.org/pdf/math/0304187v1",
+    "download_status": "downloaded",
+    "bytes": 299891,
+    "sha256": "20a929c58390cefb3664f58f81ac704c99b1c665da17c8a6996ad31647b102af",
+    "retrieved_at_utc": "2026-09-08T04:31:17.599249+00:00",
+    "pages": 22,
+    "pdf_parse_status": "all pages parsed",
+    "text_characters": 47761
+  }
+]

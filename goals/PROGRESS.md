@@ -1,6 +1,6 @@
 # 持续GOAL执行账本：当前周期9
 
-2026-09-07。起点main 17c0774e0652f72ffaf9192f1f760c4294226caf。
+2026-09-08更新。起点main 17c0774e0652f72ffaf9192f1f760c4294226caf。
 [第九版目标](GOAL.20260906.md)继续同一个持续GOAL；[phase3历史](archive/PROGRESS.phase3.md)保留。
 
 ## 整个GOAL的状态
@@ -77,7 +77,7 @@ p=3,5另作3368项整系数cyclotomic检查通过；这只是有限代数证据�
 修正初始／平移区间、特殊模数节省基准、联合互素条件和完整字符族。
 Pascadi v2、MQW v1和Choi–Kumchev v1的实际MOM映射及完整解析依赖仍待核查。
 
-当前39份外部原始PDF1309页；38份1280页已进入Git，Schur保持原本地限制。
+截至周期8的39份外部原始PDF1309页；38份1280页进入Git，Schur保持原本地限制。
 Clark17页只核读开头范围；Pascadi1–5页、MQW1–4页、Choi–Kumchev1–2页已初核。
 后者PDF的draft 2018日期与arXiv上传2004、期刊2006分别保留。
 另存Pascadi 2026-08-21的GAFA正式70页PDF和Karabulut19页有限域矩阵背景，
@@ -98,11 +98,26 @@ a3204b303cb9bb87f4dc1f7950f8abd09c0c65da推送origin/main并以ls-remote核验�
 
 [当前任务单](NEXT.cycle8.md)：对既有Vaughan恒等式中真正无算术权的自由整数变量求和，
 保留全部通道、原mask、其他Lambda权及共同shell；不重开240–241的混合变差预算。
-[341](../notes/341-vaughan-free-variable-and-shell-length.md)已完成第1动作候选：
+[341](../notes/341-vaughan-free-variable-and-shell-length.md)已完成第1动作：
 准确通道表、窄cell的mask等价指定整数点删除，以及固定外层时shell自由长度
 O(X^(1/4)/(rv))。当前Type II的这条纤维至多1点，Type I长纤维只在小rv角落可能出现。
-Franklin已按持续授权恢复并独立复核341中；不否定多外层变量共同求和。
+Franklin的[341独立报告](../reviews/2026-09-08/341-independent-review.md)已交付保存，
+结论PASS，并已关闭该代理；不否定多外层变量共同求和。
 
-下一动作：对Type I小rv角落实施实际求和并核算外层成本；
-同时检查Type II必须保留的共同变量和能否生成可用的核，不把代数completion范围当真实自由长度。
+[342](../notes/342-continuous-band-replacement-in-the-actual-cell.md)证明合并实际响应的
+连续频带替换总误差O(1)，已经Gibbs[独立复核](../reviews/2026-09-08/342-independent-review.md)。
+先合并再替换，所有Vaughan通道仍须保留；不含外部beta^4 D因子。
+[343](../notes/343-free-variable-poisson-and-total-zero-frequency.md)为第2–3动作候选：
+实际自由变量的分段BV Poisson、明确端点与删点修正、准确对数驻点范围，
+以及全部外层零频率O(L³)。Gibbs正在只读独立复核，尚不将其登记为已审结果。
+
+下一动作：验证Poisson公式的有限端点例证，合计点修正，再核算全部非零频率及外层成本。
+Type II必须保留共同变量，不把代数completion范围当真实自由长度。
+本轮已新增Sutherland6页、Miller–Schmid22页、Popescu17页公开原件，
+当前本地42份PDF1354页，预定Git保存41份1325页，Schur原限制不变。
+三份原件全页解析，来源、版本、SHA及准确核读范围见文献索引；
+前两篇只作为Poisson背景，第三篇只用于经典指数无理性边界条款，不导入新的算术估计。
+
+中断前最后保存记录cddab874665393048c34fbc817beb02de79f9bf1已核实。
+本轮341–342报告、343待审稿与三篇新原件尚待本次commit/push；数学状态与远程保存分开。
 整个GOAL保持active，未满足较远期标准。
