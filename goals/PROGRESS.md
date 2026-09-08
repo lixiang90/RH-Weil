@@ -173,15 +173,23 @@ Gibbs的[349报告](../reviews/2026-09-08/349-independent-review.md)已保存，
 [350](../notes/350-periodic-law-and-full-window-quadratic-ceiling.md)
 以两个有理周期、完整L² Riesz逆算子和13维矩阵得到候选统一上限：
 R<=4的指定谱势对任意有限偶窗口集合均输出<0.673332。
-整数区间验证已通过，Franklin正在独立审查证明与实现。
+整数区间验证及Franklin[独立复核](../reviews/2026-09-08/350-independent-review.md)均已通过；
+采用非严格中间链、sumW=8P*及JSON实际记录范围修订。
 [351](../notes/351-fixed-radius-stability-and-actual-zero-transfer.md)
 给固定R的逐边稳定性误差(4R+2R²)epsilon s；
-据此候选地完成全链增长Gram的实际传递，Gibbs正在独立复核。
+据此完成全链增长Gram的实际传递，已经Gibbs
+[独立复核](../reviews/2026-09-08/351-independent-review.md)；
+补明变换后共轭对对应原零点rho与1-conjugate(rho)。两代理本次已关闭。
 有限全域h证书仍未证明，因此尚无新实际比例。
 
 348已审上限、当时349待审稿及两份周期实验已随
 3784e21d0ad997fa3254b0e42ac36106a869d2b0推送origin/main并核验完整SHA。
-349报告、350–351候选与完整二次型证书待下一次保存；整个GOAL仍active。
+349报告、当时350–351候选与完整二次型证书已随
+e8e8b9d2c3acfcdb9d62274961fc90502c45b765推送origin/main并核验完整SHA。
+[352](../notes/352-radius-five-riesz-candidate-and-binary-period-cuts.md)进一步测试第五邻点：
+完整Riesz响应窗口的表面正余量被71个原始二元周期类中的五周期候选消去。
+该实验仅属[E]，下一动作是多个周期与同一完整窗口二次型的联合约束。
+整个GOAL仍active，350–351最终报告与352实验待下一次保存。
 
 后续来源准备已保存：Devine原18页PDF重读1–8页，公开数值包两入口HTTP403，
 未取得包不阻止独立研究。Hydra固定提交归档6个附件，本轮只复跑给定整数区间的行检查；

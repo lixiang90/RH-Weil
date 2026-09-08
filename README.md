@@ -28,6 +28,9 @@
 [348](notes/348-universal-nearest-edge-multiwindow-ceiling.md)已独立复核：
 任意有限偶窗口集合的相邻边证书无法超过MT基线；
 [349](notes/349-finite-range-dual-potential-and-periodic-tests.md)继续检查更远邻点，周期预筛仅属数值证据。
+[350](notes/350-periodic-law-and-full-window-quadratic-ceiling.md)的完整偶窗口方法上限及
+[351](notes/351-fixed-radius-stability-and-actual-zero-transfer.md)的固定半径实际传递均已独立复核。
+有限全域谱势仍未建立；[352](notes/352-radius-five-riesz-candidate-and-binary-period-cuts.md)继续核查第五邻点联合问题。
 RH、零点比例／非零区域改进及实质算术Weil结构仍未实现，整个GOAL保持active。
 [执行账本](goals/PROGRESS.md)记录当前动作和保存状态。
 
