@@ -105,7 +105,7 @@ def main():
     source = json.loads((ROOT / "reviews/2026-09-08/radius-five-subaction-grid.json").read_text())
     kernel, alpha, eta = exact_profile_as_float()
     ext = Extension(kernel, np.array(source["grid"]), alpha, eta)
-    # Agreement with the exact finite graph at selected states.
+    # Agreement with stored floating-point finite-graph values at selected states.
     rng = np.random.default_rng(906)
     states = np.array(list(product(ext.grid, repeat=4)))
     sample = rng.choice(len(states), 300, replace=False)

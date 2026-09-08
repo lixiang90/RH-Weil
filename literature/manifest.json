@@ -211,7 +211,7 @@
       "file": "candidates/2026-tawan-bellman-6731929-45149f6.pdf",
       "source_url": "https://github.com/tawanerguo-cn/zeta-simple-zeros/tree/45149f6d403059a71be73c5e3f884cee7cd62b20",
       "pdf_url": "https://raw.githubusercontent.com/tawanerguo-cn/zeta-simple-zeros/45149f6d403059a71be73c5e3f884cee7cd62b20/paper/riemann.pdf",
-      "status": "Bellman修正候选；仓库自述外部同行评审未完成",
+      "status": "Bellman修正候选；仓库自述外部同行评审未完成 2026-09-08重读PDF第3–6页的六gap显式coboundary、MPFR/LDL整盒验证与全域谱对偶未来方向；未复跑全部证书或重新认证比例。",
       "resolved_pdf_url": "https://raw.githubusercontent.com/tawanerguo-cn/zeta-simple-zeros/45149f6d403059a71be73c5e3f884cee7cd62b20/paper/riemann.pdf",
       "download_status": "downloaded",
       "bytes": 80852,
@@ -955,6 +955,86 @@
       "bytes": 4045,
       "retrieved_at_utc": "2026-09-08T05:25:10.615838+00:00",
       "status": "固定公开原件归档；主线程核读NOTE的1–4节及5节开头、完整Python检查器并复跑给定整数区间行检查。未从支持重建Fourier区间、未验证完整权表到p的关系、未编译Lean。各文件具体用途见2026-09-08来源筛查。"
+    },
+    {
+      "file": "supplements/tawan-45149f6/LICENSE",
+      "url": "https://raw.githubusercontent.com/tawanerguo-cn/zeta-simple-zeros/45149f6d403059a71be73c5e3f884cee7cd62b20/LICENSE",
+      "source_url": "https://github.com/tawanerguo-cn/zeta-simple-zeros/tree/45149f6d403059a71be73c5e3f884cee7cd62b20",
+      "commit": "45149f6d403059a71be73c5e3f884cee7cd62b20",
+      "retrieved_at_utc": "2026-09-08T08:10:13.118121+00:00",
+      "bytes": 1093,
+      "sha256": "894e5f64c954afa0b675d3e8ab7ef254b5dd590ef2eb9ffd82e8e8facaeb9e08",
+      "status": "固定版本公开原件归档，正在核读整盒下界及证书接口；未编译运行完整外部证书。"
+    },
+    {
+      "file": "supplements/tawan-45149f6/BELLMAN_COBBOUNDARY_PROOF.md",
+      "url": "https://raw.githubusercontent.com/tawanerguo-cn/zeta-simple-zeros/45149f6d403059a71be73c5e3f884cee7cd62b20/BELLMAN_COBBOUNDARY_PROOF.md",
+      "source_url": "https://github.com/tawanerguo-cn/zeta-simple-zeros/tree/45149f6d403059a71be73c5e3f884cee7cd62b20",
+      "commit": "45149f6d403059a71be73c5e3f884cee7cd62b20",
+      "retrieved_at_utc": "2026-09-08T08:10:13.118846+00:00",
+      "bytes": 2845,
+      "sha256": "fb2a7711019841712e399a3d0710b67c42d5b8672ec83d5bad6297469b4dffc2",
+      "status": "固定版本公开原件归档，正在核读整盒下界及证书接口；未编译运行完整外部证书。"
+    },
+    {
+      "file": "supplements/tawan-45149f6/NEXT_FRONTIER.md",
+      "url": "https://raw.githubusercontent.com/tawanerguo-cn/zeta-simple-zeros/45149f6d403059a71be73c5e3f884cee7cd62b20/NEXT_FRONTIER.md",
+      "source_url": "https://github.com/tawanerguo-cn/zeta-simple-zeros/tree/45149f6d403059a71be73c5e3f884cee7cd62b20",
+      "commit": "45149f6d403059a71be73c5e3f884cee7cd62b20",
+      "retrieved_at_utc": "2026-09-08T08:10:13.119454+00:00",
+      "bytes": 698,
+      "sha256": "3e752e508ce7c14111d30902611a3e2c3d15456d4e283d7e125bdb6d1332d893",
+      "status": "固定版本公开原件归档，正在核读整盒下界及证书接口；未编译运行完整外部证书。"
+    },
+    {
+      "file": "supplements/tawan-45149f6/tools/verify_coboundary.cpp",
+      "url": "https://raw.githubusercontent.com/tawanerguo-cn/zeta-simple-zeros/45149f6d403059a71be73c5e3f884cee7cd62b20/tools/verify_coboundary.cpp",
+      "source_url": "https://github.com/tawanerguo-cn/zeta-simple-zeros/tree/45149f6d403059a71be73c5e3f884cee7cd62b20",
+      "commit": "45149f6d403059a71be73c5e3f884cee7cd62b20",
+      "retrieved_at_utc": "2026-09-08T08:10:13.119952+00:00",
+      "bytes": 25463,
+      "sha256": "b5d7ef0887a41ad109f2bbb14c902793cb0772d78a01d6be855a20b66c52200a",
+      "status": "固定版本公开原件归档，正在核读整盒下界及证书接口；未编译运行完整外部证书。"
+    },
+    {
+      "file": "supplements/tawan-45149f6/tools/generate_coboundary_derivative_table.py",
+      "url": "https://raw.githubusercontent.com/tawanerguo-cn/zeta-simple-zeros/45149f6d403059a71be73c5e3f884cee7cd62b20/tools/generate_coboundary_derivative_table.py",
+      "source_url": "https://github.com/tawanerguo-cn/zeta-simple-zeros/tree/45149f6d403059a71be73c5e3f884cee7cd62b20",
+      "commit": "45149f6d403059a71be73c5e3f884cee7cd62b20",
+      "retrieved_at_utc": "2026-09-08T08:10:14.241550+00:00",
+      "bytes": 8994,
+      "sha256": "d10ea538f0a05333b6aed3dc0921048a75f4aaac9cd532a48053e0cf2e61b391",
+      "status": "固定版本公开原件归档，正在核读整盒下界及证书接口；未编译运行完整外部证书。"
+    },
+    {
+      "file": "supplements/ainta-040c5e8/LICENSE",
+      "url": "https://raw.githubusercontent.com/ainta/zeta-simple-zeros/040c5e899e658aed7b56a2a87f501798fe10761d/LICENSE",
+      "source_url": "https://github.com/ainta/zeta-simple-zeros/tree/040c5e899e658aed7b56a2a87f501798fe10761d",
+      "commit": "040c5e899e658aed7b56a2a87f501798fe10761d",
+      "retrieved_at_utc": "2026-09-08T08:10:14.270993+00:00",
+      "bytes": 1062,
+      "sha256": "5b620cb5c067656c1174c376850723806951c00bf6e4bfccdcc348b86c367d90",
+      "status": "固定版本公开原件归档，正在核读整盒下界及证书接口；未编译运行完整外部证书。"
+    },
+    {
+      "file": "supplements/ainta-040c5e8/docs/verifier.md",
+      "url": "https://raw.githubusercontent.com/ainta/zeta-simple-zeros/040c5e899e658aed7b56a2a87f501798fe10761d/docs/verifier.md",
+      "source_url": "https://github.com/ainta/zeta-simple-zeros/tree/040c5e899e658aed7b56a2a87f501798fe10761d",
+      "commit": "040c5e899e658aed7b56a2a87f501798fe10761d",
+      "retrieved_at_utc": "2026-09-08T08:10:14.271335+00:00",
+      "bytes": 2234,
+      "sha256": "9a9e94cffef66969e62a8b0bce59bb2d14eaaa7ecff3c97223065e2fbc67e46b",
+      "status": "固定版本公开原件归档，正在核读整盒下界及证书接口；未编译运行完整外部证书。"
+    },
+    {
+      "file": "supplements/tawan-45149f6/tools/generate_joint_kernel_table.py",
+      "url": "https://raw.githubusercontent.com/tawanerguo-cn/zeta-simple-zeros/45149f6d403059a71be73c5e3f884cee7cd62b20/tools/generate_joint_kernel_table.py",
+      "source_url": "https://github.com/tawanerguo-cn/zeta-simple-zeros/tree/45149f6d403059a71be73c5e3f884cee7cd62b20",
+      "commit": "45149f6d403059a71be73c5e3f884cee7cd62b20",
+      "bytes": 10738,
+      "sha256": "ff0a05c618b9cdfbe444b5ef849c28c23bb2223509d53d81dc4852c202ff7320",
+      "retrieved_at_utc": "2026-09-08T08:13:57.726755+00:00",
+      "status": "导数生成器依赖的固定原件；归档，尚未完整核读或运行。"
     }
   ]
 }

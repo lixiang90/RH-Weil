@@ -2,6 +2,8 @@
 
 from __future__ import annotations
 
+import argparse
+import hashlib
 import json
 from pathlib import Path
 
@@ -92,29 +94,58 @@ class Plans:
 
 
 def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--resume", action="store_true")
+    parser.add_argument("--iterations", type=int, default=8)
+    args = parser.parse_args()
+    assert args.iterations > 0
     source = json.loads((ROOT / "reviews/2026-09-08/radius-five-subaction-grid.json").read_text())
     kernel, alpha, eta = exact_profile_as_float()
+    profile_hash = hashlib.sha256((ROOT / "reviews/2026-09-08/radius-five-rational-profile-candidate.json").read_bytes()).hexdigest()
     grid = np.array(source["grid"])
-    ext = Extension(kernel, grid, alpha, eta)
-    rng = np.random.default_rng(570128)
-    states = np.r_[rng.choice(grid, (1000, 4)),
-                   np.clip(rng.choice(grid[:-1], (1000, 4))
-                           +rng.normal(0, .35, (1000, 4)), 5.7, 80),
-                   rng.uniform(5.7, 80, (1000, 4))]
-    _, winners = ext.value(states, return_paths=True)
-    plans = Plans(kernel, alpha, eta, ext.margin)
-    for path in winners:
-        if not path:
-            continue
-        offset = 0.
-        if len(path) == 4:
-            digits = [int(np.where(grid == v)[0][0]) for v in path]
-            offset = float(ext.h[np.array(digits) @ len(grid)**np.arange(3, -1, -1)])
-        plans.add(path, offset)
-    initial_count = len(plans.items)
+    output_path = ROOT / "reviews/2026-09-08/radius-five-continuation-plan-search.json"
+    if args.resume:
+        prior = json.loads(output_path.read_text())
+        assert prior["alpha"] == alpha and prior["eta"] == eta
+        # The legacy 8+24 batch was independently bound to this exact profile.
+        legacy_hash = "3a89799a5705cc8c30c629643f32d72ee000c34bf67798510d6bfdd8575bdca0"
+        assert profile_hash == prior.get("profile_sha256", legacy_hash), "Profile changed"
+        margin = prior["margin"]
+        plans = Plans(kernel, alpha, eta, margin)
+        for item in prior["plans"][1:]:
+            plans.add(item["gaps"], item["offset"])
+        assert plans.items == prior["plans"]
+        history, initial_count = prior["history"], prior["initial_count"]
+        batches = prior.get("search_batches", [dict(start=0, iterations=len(history),
+                                                   seed=570128, initial_sampling=True)])
+        seed = 570128+1000*len(history)
+        rng = np.random.default_rng(seed)
+    else:
+        ext = Extension(kernel, grid, alpha, eta)
+        margin = ext.margin
+        seed = 570128
+        rng = np.random.default_rng(seed)
+        states = np.r_[rng.choice(grid, (1000, 4)),
+                       np.clip(rng.choice(grid[:-1], (1000, 4))
+                               +rng.normal(0, .35, (1000, 4)), 5.7, 80),
+                       rng.uniform(5.7, 80, (1000, 4))]
+        _, winners = ext.value(states, return_paths=True)
+        plans = Plans(kernel, alpha, eta, margin)
+        for path in winners:
+            if not path:
+                continue
+            offset = 0.
+            if len(path) == 4:
+                digits = [int(np.where(grid == v)[0][0]) for v in path]
+                offset = float(ext.h[np.array(digits) @ len(grid)**np.arange(3, -1, -1)])
+            plans.add(path, offset)
+        initial_count, history, batches = len(plans.items), [], []
+    start = len(history)
+    batches.append(dict(start=start, iterations_requested=args.iterations,
+                        iterations_completed=0, seed=seed,
+                        initial_sampling=not args.resume))
     print("Initial selected plans", initial_count, flush=True)
-    history = []
-    for iteration in range(8):
+    for iteration in range(start, start+args.iterations):
         core = np.clip(rng.choice(grid[:-1], (3000, 5))
                        +rng.normal(0, .5, (3000, 5)), 5.7, 128)
         broad = rng.uniform(5.7, 128, (1000, 5))
@@ -142,7 +173,7 @@ def main():
                              search_success=bool(found.success)))
             if found.fun < 0:
                 bad_words.append(found.x.copy())
-        D = alpha+ext.margin-eta*5.7/(2*np.pi)
+        D = alpha+margin-eta*5.7/(2*np.pi)
         lower = min(p["offset"]-len(p["gaps"])*D for p in plans.items)
         entry = dict(iteration=iteration, plans_before_update=len(plans.items),
                      sample_min=float(values.min()), cuts=cuts,
@@ -158,13 +189,16 @@ def main():
             for g, tail_id in zip(bad, tail_ids):
                 additions.append(plans.extend(g, tail_id))
         entry["added_or_existing_plan_ids"] = additions
+        batches[-1]["iterations_completed"] = iteration-start+1
         output = dict(status="E only: finite analytic plan candidates; no global subaction",
-                      alpha=alpha, eta=eta, margin=ext.margin, initial_count=initial_count,
+                      alpha=alpha, eta=eta, margin=margin, initial_count=initial_count,
+                      profile_sha256=profile_hash,
+                      search_batches=batches,
                       domain=[5.7, 128], spline_step=.002, spline_domain=[0, 640],
                       history=history, plans=plans.items,
                       indexing="history candidate uses plans[:plans_before_update]",
                       scope="Updates use true-kernel floating costs; global verification and rigorous rounding remain open")
-        (ROOT / "reviews/2026-09-08/radius-five-continuation-plan-search.json").write_text(
+        output_path.write_text(
             json.dumps(output, indent=2)+"\n", encoding="utf-8")
 
 

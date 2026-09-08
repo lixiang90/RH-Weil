@@ -101,6 +101,8 @@ PDF按来源原样保存，未重排或改写；arXiv固定版本，GitHub固定
 - 版本：commit 45149f6d403059a71be73c5e3f884cee7cd62b20; 2026-08-11; PDF日期2026-08-12。
 - [本地PDF](candidates/2026-tawan-bellman-6731929-45149f6.pdf)（6页，80,852字节）；[来源页面](https://github.com/tawanerguo-cn/zeta-simple-zeros/tree/45149f6d403059a71be73c5e3f884cee7cd62b20)；[原始PDF链接](https://raw.githubusercontent.com/tawanerguo-cn/zeta-simple-zeros/45149f6d403059a71be73c5e3f884cee7cd62b20/paper/riemann.pdf)。
 - 状态与用途：Bellman修正候选；仓库自述外部同行评审未完成。
+  2026-09-08重读PDF第3–6页，并固定归档其证明说明和验证器源文件；
+  仅核读Hessian／LDL／切线接口，未复跑完整认证。见[来源回查](../reviews/2026-09-08/subaction-verifier-source-check.md)。
 
 **npip-2026 — More than 67.3195% of the zeros of the Riemann zeta function are simple and lie on the critical line**
 
@@ -397,3 +399,18 @@ SHA、大小、页数及获取时间见manifest和[下载记录](../reviews/2026
 
 完整核读和运行边界见[来源筛查](../reviews/2026-09-08/next-input-source-screen.md)。
 PDF仍为42份1354页；新增六份文本／代码附件不计入PDF页数。
+
+## 2026-09-08：势证书验证器附件
+
+固定Tawan提交45149f6d403059a71be73c5e3f884cee7cd62b20和ainta提交040c5e899e658aed7b56a2a87f501798fe10761d。原文件及许可完整保留；源码核读范围见[回查记录](../reviews/2026-09-08/subaction-verifier-source-check.md)。
+
+- [tawan-45149f6/LICENSE](supplements/tawan-45149f6/LICENSE) — [固定原文](https://github.com/tawanerguo-cn/zeta-simple-zeros/blob/45149f6d403059a71be73c5e3f884cee7cd62b20/LICENSE)。
+- [tawan-45149f6/BELLMAN_COBBOUNDARY_PROOF.md](supplements/tawan-45149f6/BELLMAN_COBBOUNDARY_PROOF.md) — [固定原文](https://github.com/tawanerguo-cn/zeta-simple-zeros/blob/45149f6d403059a71be73c5e3f884cee7cd62b20/BELLMAN_COBBOUNDARY_PROOF.md)。
+- [tawan-45149f6/NEXT_FRONTIER.md](supplements/tawan-45149f6/NEXT_FRONTIER.md) — [固定原文](https://github.com/tawanerguo-cn/zeta-simple-zeros/blob/45149f6d403059a71be73c5e3f884cee7cd62b20/NEXT_FRONTIER.md)。
+- [tawan-45149f6/tools/verify_coboundary.cpp](supplements/tawan-45149f6/tools/verify_coboundary.cpp) — [固定原文](https://github.com/tawanerguo-cn/zeta-simple-zeros/blob/45149f6d403059a71be73c5e3f884cee7cd62b20/tools/verify_coboundary.cpp)。
+- [tawan-45149f6/tools/generate_coboundary_derivative_table.py](supplements/tawan-45149f6/tools/generate_coboundary_derivative_table.py) — [固定原文](https://github.com/tawanerguo-cn/zeta-simple-zeros/blob/45149f6d403059a71be73c5e3f884cee7cd62b20/tools/generate_coboundary_derivative_table.py)。
+- [tawan-45149f6/tools/generate_joint_kernel_table.py](supplements/tawan-45149f6/tools/generate_joint_kernel_table.py) — [固定原文](https://github.com/tawanerguo-cn/zeta-simple-zeros/blob/45149f6d403059a71be73c5e3f884cee7cd62b20/tools/generate_joint_kernel_table.py)。
+- [ainta-040c5e8/LICENSE](supplements/ainta-040c5e8/LICENSE) — [固定原文](https://github.com/ainta/zeta-simple-zeros/blob/040c5e899e658aed7b56a2a87f501798fe10761d/LICENSE)。
+- [ainta-040c5e8/docs/verifier.md](supplements/ainta-040c5e8/docs/verifier.md) — [固定原文](https://github.com/ainta/zeta-simple-zeros/blob/040c5e899e658aed7b56a2a87f501798fe10761d/docs/verifier.md)。
+
+现在仍为42份PDF、1354页（其中Schur扫描原件仅本地）；另有19份补充原件。

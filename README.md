@@ -2,9 +2,9 @@
 
 本目录研究一个明确的问题：能否把有限域上 Weil 猜想中迫使 Frobenius 特征值具有正确绝对值的结构抽离出来，并在数域的 zeta / L 函数上构造同类结构？
 
-## 当前研究状态：持续GOAL，周期11（2026-09-08）
+## 当前研究状态：持续GOAL，周期12（2026-09-08）
 
-[第十一次修订GOAL](goals/GOAL.20260906.md)保持当前周期验收与较远期显著进展的区分。
+[第十二次修订GOAL](goals/GOAL.20260906.md)保持当前周期验收与较远期显著进展的区分。
 321–326已给近点预算、实际sharp二阶公式及条件性计数比较；
 327、329变窗平均已独立复核并[结算](goals/ACCEPTANCE.cycle5.md)。
 [330](notes/330-exact-sublevels-and-arbitrary-window-concentration.md)任意增长集中度与[331](notes/331-three-node-phase-compatibility-and-circle-defect.md)三点必要条件均已通过独立逆审并[结算](goals/ACCEPTANCE.cycle6.md)。
@@ -31,11 +31,14 @@
 [350](notes/350-periodic-law-and-full-window-quadratic-ceiling.md)的完整偶窗口方法上限及
 [351](notes/351-fixed-radius-stability-and-actual-zero-transfer.md)的固定半径实际传递均已独立复核。
 有限全域谱势仍未建立；[352](notes/352-radius-five-riesz-candidate-and-binary-period-cuts.md)继续核查第五邻点联合问题。
-当前[周期11](goals/NEXT.cycle10.md)从[353](notes/353-joint-periodic-laws-and-global-certificate-gap.md)候选继续，
+[周期11已结算](goals/ACCEPTANCE.cycle11.md)，从[353](notes/353-joint-periodic-laws-and-global-certificate-gap.md)候选继续的
 [354精确窗口](notes/354-exact-radius-five-profile-and-conditional-ratio.md)及
 [355小簇／分离归约](notes/355-short-cluster-payment-and-separated-five-gap-reduction.md)已独立复核。
 [356紧域切分支付](notes/356-compact-subaction-with-paid-large-gap-resets.md)也已复核，
-当前寻找并认证全域有界势。>0.673415仅为尚缺该证书的条件后果。
+当前[周期12](goals/NEXT.cycle11.md)从
+[357有限续接势](notes/357-subaction-search-failures-and-continuation-plans.md)继续，
+取得可用余量并认证全部实数gap。248方案只在指定图上样条浮点为正。
+>0.673415仅为尚缺全域证书的条件后果。
 RH、零点比例／非零区域改进及实质算术Weil结构仍未实现，整个GOAL保持active。
 [执行账本](goals/PROGRESS.md)记录当前动作和保存状态。
 

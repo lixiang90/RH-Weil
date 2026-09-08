@@ -204,7 +204,7 @@ e8e8b9d2c3acfcdb9d62274961fc90502c45b765推送origin/main并核验完整SHA。
 未重建完整见证或编译Lean。文献总量仍42份PDF1354页，另有11份已归档补充文本／代码，
 准确边界见[来源筛查](../reviews/2026-09-08/next-input-source-screen.md)。
 
-## 周期11当前工作
+## 周期11已结算
 
 [任务单](NEXT.cycle10.md)聚焦精确窗口的全域谱证书。
 [354](../notes/354-exact-radius-five-profile-and-conditional-ratio.md)
@@ -242,6 +242,29 @@ Franklin另审实际平滑传递。采用L²成本收敛、epsilon<alpha/20及�
 多线性cut仅完成两轮，拟第三LP超时；第0轮固定h已由Franklin及主代理复跑
 [严格负点证书](../reviews/2026-09-08/subaction-interpolant-counterexample.json)排除。
 完整[复核报告](../reviews/2026-09-08/subaction-grid-independent-review.md)和超时事实已保存。
-粗网格续接扩展也找到负点，继续试可随负过渡增加的实数续接方案。
+粗网格续接扩展也找到负残差候选，尚未严格认证其失败；
+继续试可随负过渡增加的实数续接方案。
 八次内部数值更新从103方案增至176；末轮仍有约-1.44e-5负过渡，尚未通过。
-§3封闭公式及初始续接实现由Gibbs只读复核中，整个GOAL仍active。
+§3封闭公式及初始续接实现由Gibbs[复核通过](../reviews/2026-09-08/357-independent-review.md)。
+此批早期实验及首份报告已随768479e1f205df08f302a20b52acbbdfd239f6dd
+推送并核验origin/main。
+
+续跑至32轮，冻结214方案、H<.023及B128支付已
+[独立复核](../reviews/2026-09-08/continuation-plans-independent-review.md)。
+完整原图仍发现624负边；六批新增34方案后，248方案的原图样条余量正，
+最小约3.2111e-7，阈值0；不是delta=1e-5或连续域通过。
+全部前驱与随机范围见[独立报告](../reviews/2026-09-08/backward-plan-independent-review.md)。
+两名代理已关闭，未宣称外部同行评审。
+
+[周期11结算](ACCEPTANCE.cycle11.md)记录八个数学动作；较远期未实现。
+新归档Tawan/ainta固定版本附件8份，文献仍42PDF1354页、补充19份。
+核读了局部Hessian／LDL／切线方法，没有运行外部全套证书或重复计算公开比例。
+
+## 周期12当前工作
+
+[任务单](NEXT.cycle11.md)集中于有余量的有限续接势及连续域认证。
+第十二版GOAL保留第十节B/C原文，旧版原始字节已存archive/cycle11，
+SHA256为09035cad11e0eebbbcd835197f31e61aa9094cb38a82cbfb68464ef73e3a36aa。
+先为候选补足舍入和整盒误差所需余量，再核查至640的核导数区间、
+min方案差、闭域边界及最终B,H费用。214的高度不能自动转授248。
+整个GOAL保持active；此批后半报告、文献和周期切换待当前提交。
