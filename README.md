@@ -2,9 +2,9 @@
 
 本目录研究一个明确的问题：能否把有限域上 Weil 猜想中迫使 Frobenius 特征值具有正确绝对值的结构抽离出来，并在数域的 zeta / L 函数上构造同类结构？
 
-## 当前研究状态：持续GOAL，周期12（2026-09-08）
+## 当前研究状态：持续GOAL，周期13（2026-09-08）
 
-[第十二次修订GOAL](goals/GOAL.20260906.md)保持当前周期验收与较远期显著进展的区分。
+[第十三次修订GOAL](goals/GOAL.20260906.md)保持当前周期验收与较远期显著进展的区分。
 321–326已给近点预算、实际sharp二阶公式及条件性计数比较；
 327、329变窗平均已独立复核并[结算](goals/ACCEPTANCE.cycle5.md)。
 [330](notes/330-exact-sublevels-and-arbitrary-window-concentration.md)任意增长集中度与[331](notes/331-three-node-phase-compatibility-and-circle-defect.md)三点必要条件均已通过独立逆审并[结算](goals/ACCEPTANCE.cycle6.md)。
@@ -42,7 +42,10 @@
 [359](notes/359-exact-finite-graph-and-continuous-counterexamples.md)
 严格证明266方案全部十万图边为正，同时以连续严格负点排除该候选。
 [360](notes/360-stopped-costs-and-partial-future-closure.md)
-继续停止与部分未来续接的公式和候选，连续不等式仍开放。
+的停止／部分续接公式和[361](notes/361-finite-control-closure-with-curvature-payment.md)
+的有限控制曲率准则已复核，313控制节点的整射线算术表也已复核。
+[周期12已结算](goals/ACCEPTANCE.cycle12.md)；
+[周期13](goals/NEXT.cycle12.md)继续稀疏整数控制闭合，实际连续不等式仍开放。
 >0.673415仅为尚缺全域证书的条件后果。
 RH、零点比例／非零区域改进及实质算术Weil结构仍未实现，整个GOAL保持active。
 [执行账本](goals/PROGRESS.md)记录当前动作和保存状态。

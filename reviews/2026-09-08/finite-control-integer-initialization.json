@@ -1,0 +1,177 @@
+{
+  "status": "Integer short-word initialization only; length-four closure remains open",
+  "table_sha256": "ba5f33bb96fc38ae2d6990031016fde66735ab9af7c24caab7cec493bfbc4486",
+  "profile_sha256": "3a89799a5705cc8c30c629643f32d72ee000c34bf67798510d6bfdd8575bdca0",
+  "control_count": 313,
+  "control_denominator": 80,
+  "scale": 1000000000000,
+  "alpha": "1507/200000",
+  "eta": "75571/20000000",
+  "delta": "1/100000",
+  "endpoint_loss": "1/200000",
+  "offset_floor": "-7/1000",
+  "kernel_arrays": {
+    "units": {
+      "path": "tmp/control-closure/control-units.npy",
+      "shape": [
+        313
+      ],
+      "dtype": "int64",
+      "data_sha256": "24688058919d1d75118f9ee1b6057df3e1325a61ac2a7c94449faf92b42d052f",
+      "bytes": 2504
+    },
+    "energy_lower": {
+      "path": "tmp/control-closure/energy-lower.npy",
+      "shape": [
+        8001
+      ],
+      "dtype": "int64",
+      "data_sha256": "fe06ae7dbe086dc2197e69da7a43ec66f425ad165501abafffa74c97a1f07a89",
+      "bytes": 64008
+    },
+    "fees_lower": {
+      "path": "tmp/control-closure/fees-lower.npy",
+      "shape": [
+        313
+      ],
+      "dtype": "int64",
+      "data_sha256": "5f3a30a8c86c5e360735a432b8c1cebcb374e5cdf614886b072bc1522ccfb1a8",
+      "bytes": 2504
+    }
+  },
+  "records": [
+    {
+      "depth": 1,
+      "parent_count": 1,
+      "extensions": 313,
+      "negative_extensions": 49,
+      "retained_count": 49,
+      "minimum_offset_integer": "-3517799308",
+      "codes": {
+        "path": "tmp/control-closure/level-1-codes.npy",
+        "shape": [
+          49
+        ],
+        "dtype": "int64",
+        "data_sha256": "d8bbb247749f4cad0546f74378bee80f5b4bd17ac4546b26176305d412022264",
+        "bytes": 392
+      },
+      "offsets": {
+        "path": "tmp/control-closure/level-1-offsets.npy",
+        "shape": [
+          49
+        ],
+        "dtype": "int64",
+        "data_sha256": "0f324fa78126460145d0da225d313388a99e639daaf4e54edea963210de57784",
+        "bytes": 392
+      },
+      "prefix_best": {
+        "path": "tmp/control-closure/prefix-best-1.npy",
+        "shape": [
+          313
+        ],
+        "dtype": "int64",
+        "data_sha256": "5e83c80a98b5d22c70feef7e27e86a3348f3a350b49fdf2119cea570c99982c3",
+        "bytes": 2504
+      }
+    },
+    {
+      "depth": 2,
+      "parent_count": 49,
+      "extensions": 15337,
+      "negative_extensions": 4772,
+      "retained_count": 4234,
+      "minimum_offset_integer": "-5833397837",
+      "codes": {
+        "path": "tmp/control-closure/level-2-codes.npy",
+        "shape": [
+          4234
+        ],
+        "dtype": "int64",
+        "data_sha256": "c69f32419acb01446e22894fbe997a01551e3c44b2225b32b76bdc86ced0be40",
+        "bytes": 33872
+      },
+      "offsets": {
+        "path": "tmp/control-closure/level-2-offsets.npy",
+        "shape": [
+          4234
+        ],
+        "dtype": "int64",
+        "data_sha256": "41338e9b261d2beac7496d72541f0fdfec33efa47e0d02ea83d85e647456e9f8",
+        "bytes": 33872
+      },
+      "prefix_best": {
+        "path": "tmp/control-closure/prefix-best-2.npy",
+        "shape": [
+          97969
+        ],
+        "dtype": "int64",
+        "data_sha256": "18d5786934219c173853dd2e84885a377d1a7b549b23886a5e49ef027cace3ec",
+        "bytes": 783752
+      }
+    },
+    {
+      "depth": 3,
+      "parent_count": 4234,
+      "extensions": 1325242,
+      "negative_extensions": 317521,
+      "retained_count": 194270,
+      "minimum_offset_integer": "-6600529097",
+      "codes": {
+        "path": "tmp/control-closure/level-3-codes.npy",
+        "shape": [
+          194270
+        ],
+        "dtype": "int64",
+        "data_sha256": "2749c2053e950d5a1e238002de866d82f9c4e45e0acf568799709e9e26c7c829",
+        "bytes": 1554160
+      },
+      "offsets": {
+        "path": "tmp/control-closure/level-3-offsets.npy",
+        "shape": [
+          194270
+        ],
+        "dtype": "int64",
+        "data_sha256": "e46d2d516d43fdd86a91ce1b66f62be55cce70f8a438155875416fa4ee4665e8",
+        "bytes": 1554160
+      },
+      "prefix_best": {
+        "path": "tmp/control-closure/prefix-best-3.npy",
+        "shape": [
+          30664297
+        ],
+        "dtype": "int64",
+        "data_sha256": "6f1fabfac4dcd360408dd7c2dac144fb7badb34370827ac3f69c6426dbf7b4a8",
+        "bytes": 245314376
+      }
+    },
+    {
+      "depth": 4,
+      "parent_count": 194270,
+      "extensions": 60806510,
+      "negative_extensions": 12491153,
+      "retained_count": 4697239,
+      "minimum_offset_integer": "-5629305804",
+      "codes": {
+        "path": "tmp/control-closure/level-4-codes.npy",
+        "shape": [
+          4697239
+        ],
+        "dtype": "int64",
+        "data_sha256": "512f5208dc03b1d4b370d05a87a0c88a0c422bd78e9db56934fdd9db36290988",
+        "bytes": 37577912
+      },
+      "offsets": {
+        "path": "tmp/control-closure/level-4-offsets.npy",
+        "shape": [
+          4697239
+        ],
+        "dtype": "int64",
+        "data_sha256": "7840cd1ca640152667d219ebe10ccdc09895885bc773b5d39a53c68daf1c640b",
+        "bytes": 37577912
+      }
+    }
+  ],
+  "elapsed_seconds": 5.158036299995729,
+  "scope": "All stored offsets are exact integers chosen using lower energy/fee bounds. No final fixed point or endpoint scan is claimed."
+}

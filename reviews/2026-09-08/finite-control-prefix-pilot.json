@@ -1,0 +1,63 @@
+{
+  "status": "E only: negative short-path branching pilot",
+  "table_sha256": "ba5f33bb96fc38ae2d6990031016fde66735ab9af7c24caab7cec493bfbc4486",
+  "profile_sha256": "3a89799a5705cc8c30c629643f32d72ee000c34bf67798510d6bfdd8575bdca0",
+  "control_count": 313,
+  "delta": 1e-05,
+  "endpoint_loss": 5e-06,
+  "records": [
+    {
+      "depth": 1,
+      "parent_count": 1,
+      "evaluated_extensions": 313,
+      "negative_branch_count": 49,
+      "retained_branch_count": 49,
+      "minimum_offset": -0.0035177993078663026,
+      "minimizing_word": [
+        6.6875
+      ]
+    },
+    {
+      "depth": 2,
+      "parent_count": 49,
+      "evaluated_extensions": 15337,
+      "negative_branch_count": 4772,
+      "retained_branch_count": 4234,
+      "minimum_offset": -0.005833397835356513,
+      "minimizing_word": [
+        6.625,
+        6.625
+      ]
+    },
+    {
+      "depth": 3,
+      "parent_count": 4234,
+      "evaluated_extensions": 1325242,
+      "negative_branch_count": 317521,
+      "retained_branch_count": 194270,
+      "minimum_offset": -0.006600529093076402,
+      "minimizing_word": [
+        6.5875,
+        6.55,
+        6.5875
+      ]
+    },
+    {
+      "depth": 4,
+      "parent_count": 194270,
+      "evaluated_extensions": 60806510,
+      "negative_branch_count": 12491153,
+      "retained_branch_count": 4697239,
+      "minimum_offset": -0.005712221811078278,
+      "minimizing_word": [
+        6.5625,
+        6.5125,
+        6.5125,
+        6.5625
+      ]
+    }
+  ],
+  "prefix_pruning": true,
+  "elapsed_seconds": 6.9292711000016425,
+  "scope": "Parents with nonnegative offsets are dominated and omitted. No length-four graph closure, rounding proof or eventual offset floor is certified."
+}

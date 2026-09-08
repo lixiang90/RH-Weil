@@ -68,7 +68,7 @@ class PartialPlans:
         return np.array(all_best), np.array(all_ids)
 
     def cost(self, words, exact=False):
-        """Works also for shorter words: omitted future energies are zero."""
+        """Short costs sum existing prefixes; unspecified terms are not defined."""
         words = np.atleast_2d(words)
         kernel = self.kernel if exact else self.fast
         return (2*np.sum(kernel(np.cumsum(words, axis=1))**2, axis=1)
