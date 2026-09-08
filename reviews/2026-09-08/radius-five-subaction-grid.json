@@ -10030,5 +10030,6 @@
     0.01,
     0.01
   ],
-  "open_input": "bounded h on all real gaps in the compact domain"
+  "open_input": "bounded h on all real gaps in the compact domain",
+  "margin_meaning": "floating solver output, not a rigorous optimum"
 }

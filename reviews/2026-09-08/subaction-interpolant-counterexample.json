@@ -1,0 +1,24 @@
+{
+  "status": "PASS: this fixed interpolant has a strictly negative point",
+  "snapshot_sha256": "e6107a874f97aeedd3ae77101e9cf1d957555b2faf7d8d8e4d9cb1ecdeb71418",
+  "candidate_iteration": 0,
+  "exact_decimal_cut": [
+    "3412595128365491/500000000000000",
+    "5754883045455583/1000000000000000",
+    "35625000002643/6250000000000",
+    "964521090807457/50000000000000",
+    "6345022338998697/500000000000000"
+  ],
+  "residual": {
+    "lo_numerator": "-478754637664040735518134259697275050081004357867626292523739206959365353389517",
+    "hi_numerator": "-478754637664040735518134259697275050081004357867626292523737250448780428171639",
+    "denominator": "100000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  "strict_enclosure": [
+    "-.004787546377",
+    "-.004787546376"
+  ],
+  "all_snapshot_node_heights_in_0_to_001": true,
+  "first_gap_payment_margin": "39781/2200000000",
+  "scope": "Excludes one saved h only; no method-wide impossibility or actual zero conclusion"
+}

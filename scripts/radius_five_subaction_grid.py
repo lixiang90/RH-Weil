@@ -76,6 +76,7 @@ def main():
                   grid=list(map(float, grid)), states=q**4, edges=q**5,
                   alpha=alpha, eta=eta, height_bound=.01,
                   optimum_margin=float(margin),
+                  margin_meaning="floating solver output, not a rigorous optimum",
                   min_recomputed_residual=float(residual[worst]),
                   worst_word=list(map(float, words[worst])),
                   oscillation=float(np.ptp(h)),

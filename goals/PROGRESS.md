@@ -235,3 +235,13 @@ Franklin另审实际平滑传递。采用L²成本收敛、epsilon<alpha/20及�
 [浮点LP输出](../reviews/2026-09-08/radius-five-subaction-grid.json)正余量约1.7752883e-5；
 这是[E]，全部实数gap、插值误差及严格势证书仍未覆盖。
 下一动作是利用候选状态值构造可认证势并检验连续域，GOAL持续active。
+
+354–356报告及有限图已随7bc1c3c3077b8853c9cf4f0c3a3ae0e59b6cb6cd
+推送origin/main并核验远程完整SHA。
+[357](../notes/357-subaction-search-failures-and-continuation-plans.md)记录后续：
+多线性cut仅完成两轮，拟第三LP超时；第0轮固定h已由Franklin及主代理复跑
+[严格负点证书](../reviews/2026-09-08/subaction-interpolant-counterexample.json)排除。
+完整[复核报告](../reviews/2026-09-08/subaction-grid-independent-review.md)和超时事实已保存。
+粗网格续接扩展也找到负点，继续试可随负过渡增加的实数续接方案。
+八次内部数值更新从103方案增至176；末轮仍有约-1.44e-5负过渡，尚未通过。
+§3封闭公式及初始续接实现由Gibbs只读复核中，整个GOAL仍active。
