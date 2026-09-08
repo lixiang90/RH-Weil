@@ -32,9 +32,10 @@
 [351](notes/351-fixed-radius-stability-and-actual-zero-transfer.md)的固定半径实际传递均已独立复核。
 有限全域谱势仍未建立；[352](notes/352-radius-five-riesz-candidate-and-binary-period-cuts.md)继续核查第五邻点联合问题。
 当前[周期11](goals/NEXT.cycle10.md)从[353](notes/353-joint-periodic-laws-and-global-certificate-gap.md)候选继续，
-核查[354精确窗口](notes/354-exact-radius-five-profile-and-conditional-ratio.md)及
-[355小簇／分离归约](notes/355-short-cluster-payment-and-separated-five-gap-reduction.md)，
-集中证明全域有界势。>0.673415仅为尚缺该证书的条件后果。
+[354精确窗口](notes/354-exact-radius-five-profile-and-conditional-ratio.md)及
+[355小簇／分离归约](notes/355-short-cluster-payment-and-separated-five-gap-reduction.md)已独立复核。
+[356紧域切分支付](notes/356-compact-subaction-with-paid-large-gap-resets.md)也已复核，
+当前寻找并认证全域有界势。>0.673415仅为尚缺该证书的条件后果。
 RH、零点比例／非零区域改进及实质算术Weil结构仍未实现，整个GOAL保持active。
 [执行账本](goals/PROGRESS.md)记录当前动作和保存状态。
 

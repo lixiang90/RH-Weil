@@ -209,15 +209,29 @@ e8e8b9d2c3acfcdb9d62274961fc90502c45b765推送origin/main并核验完整SHA。
 [任务单](NEXT.cycle10.md)聚焦精确窗口的全域谱证书。
 [354](../notes/354-exact-radius-five-profile-and-conditional-ratio.md)
 固定90项精确Riesz窗口、alpha=.007535、eta=.00377855；
-已运行整数区间检查p>3/4、质量1、条件商>0.673415，Franklin正在独立复核。
+整数区间认证p>3/4及条件商>0.673415，质量1由Riesz零均值解析保证；
+Franklin[独立复核通过](../reviews/2026-09-08/354-independent-review.md)。
 数字仍为[C]，全域有界势未证。
 
 [355](../notes/355-short-cluster-payment-and-separated-five-gap-reduction.md)
 已运行2715个实轴单元及无穷尾证书；
-候选地用小gap簇不交配对支付α节点成本，将其余单点作为一个分离大Gram块。
+用小gap簇不交配对支付α节点成本，将其余单点作为一个分离大Gram块。
 分离链行和<.99使度归一化恒为1，将剩余任务降为五个gap>=5.7及有界四gap状态。
-Gibbs正在独立复核核界、有限拼接；Franklin另审实际平滑传递。
-两代理均按持续授权恢复，无外部同行评审声明。
+Gibbs[已复核核界和有限拼接](../reviews/2026-09-08/355-independent-review.md)；
+Franklin另审实际平滑传递。采用L²成本收敛、epsilon<alpha/20及全算子账本只用一次的说明。
+两代理均按持续授权调用，已关闭，无外部同行评审声明。
 
-353及独立报告、周期10结算、第十一次目标、354–355候选和新证书待当前批次保存。
-下一动作是完成354–355异议闭环并构造分离域的有界势，GOAL持续active。
+353及独立报告、周期10结算、第十一次目标、当时354–355候选和新证书已随
+5df992d807686126f773df073a03a487d355579f推送origin/main并核验完整SHA。
+
+[356](../notes/356-compact-subaction-with-paid-large-gap-resets.md)已由Gibbs
+[独立复核](../reviews/2026-09-08/356-independent-review.md)：
+若紧域[5.7,80]^5有振幅<=.01的四gap势，gap>80切分可支付所有新增C，
+没有非紧延拓或逐块未支付费用。势存在仍未证明。
+主代理用既有pi整数区间和Fraction核验支付余量1143/2750000>0。
+
+[有限图实验](../scripts/radius_five_subaction_grid.py)包含10个gap值、
+全部10000个四状态与100000条五状态边，未删重复符号。
+[浮点LP输出](../reviews/2026-09-08/radius-five-subaction-grid.json)正余量约1.7752883e-5；
+这是[E]，全部实数gap、插值误差及严格势证书仍未覆盖。
+下一动作是利用候选状态值构造可认证势并检验连续域，GOAL持续active。
