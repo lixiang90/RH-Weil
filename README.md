@@ -37,7 +37,12 @@
 [356紧域切分支付](notes/356-compact-subaction-with-paid-large-gap-resets.md)也已复核，
 当前[周期12](goals/NEXT.cycle11.md)从
 [357有限续接势](notes/357-subaction-search-failures-and-continuation-plans.md)继续，
-取得可用余量并认证全部实数gap。248方案只在指定图上样条浮点为正。
+取得可用余量并认证全部实数gap。
+[358核算术](notes/358-kernel-derivative-balls-for-continuation-certificates.md)已审；
+[359](notes/359-exact-finite-graph-and-continuous-counterexamples.md)
+严格证明266方案全部十万图边为正，同时以连续严格负点排除该候选。
+[360](notes/360-stopped-costs-and-partial-future-closure.md)
+继续停止与部分未来续接的公式和候选，连续不等式仍开放。
 >0.673415仅为尚缺全域证书的条件后果。
 RH、零点比例／非零区域改进及实质算术Weil结构仍未实现，整个GOAL保持active。
 [执行账本](goals/PROGRESS.md)记录当前动作和保存状态。

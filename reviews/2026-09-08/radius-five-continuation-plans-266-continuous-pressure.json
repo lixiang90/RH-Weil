@@ -1,0 +1,211 @@
+{
+  "status": "E only: adversarial floating search of an unchanged candidate",
+  "candidate": "radius-five-continuation-plans-266.json",
+  "candidate_sha256": "759afd6ed104b6b35886daaf9aece5700a6a2f780f48658892a2b638d516b4a4",
+  "profile_sha256": "3a89799a5705cc8c30c629643f32d72ee000c34bf67798510d6bfdd8575bdca0",
+  "plan_count": 266,
+  "iterations_per_DE": 220,
+  "searches": [
+    {
+      "bounds": [
+        [
+          5.7,
+          13.5
+        ],
+        [
+          5.7,
+          13.5
+        ],
+        [
+          5.7,
+          13.5
+        ],
+        [
+          5.7,
+          13.5
+        ],
+        [
+          5.7,
+          13.5
+        ]
+      ],
+      "seed": 826600,
+      "word": [
+        "6.518506756330801",
+        "6.869395289876973",
+        "12.194847729039099",
+        "11.151515868806214",
+        "13.499999976398357"
+      ],
+      "spline_residual": -1.9935527469122414e-05,
+      "all_plan_original_kernel_residual": -1.993552746912e-05,
+      "head_plan": 210,
+      "tail_plan": 35,
+      "head_value": -2.760207644298539e-09,
+      "tail_value": -0.0004990713973005289,
+      "differential_evolution_success": false,
+      "local_success": true
+    },
+    {
+      "bounds": [
+        [
+          5.7,
+          21.0
+        ],
+        [
+          5.7,
+          21.0
+        ],
+        [
+          5.7,
+          21.0
+        ],
+        [
+          5.7,
+          21.0
+        ],
+        [
+          5.7,
+          21.0
+        ]
+      ],
+      "seed": 826601,
+      "word": [
+        "6.819598720669475",
+        "18.07140978929345",
+        "12.544661752450867",
+        "16.472139228874447",
+        "15.25433451358273"
+      ],
+      "spline_residual": 1.610556565919091e-06,
+      "all_plan_original_kernel_residual": 1.610556565919091e-06,
+      "head_plan": 116,
+      "tail_plan": 0,
+      "head_value": -0.0007270172789439095,
+      "tail_value": 0.0,
+      "differential_evolution_success": false,
+      "local_success": true
+    },
+    {
+      "bounds": [
+        [
+          5.7,
+          52.0
+        ],
+        [
+          5.7,
+          128.0
+        ],
+        [
+          5.7,
+          128.0
+        ],
+        [
+          5.7,
+          128.0
+        ],
+        [
+          5.7,
+          128.0
+        ]
+      ],
+      "seed": 826602,
+      "word": [
+        "6.521506714103011",
+        "42.50729976880437",
+        "20.877672932840177",
+        "26.354018687128224",
+        "117.38333778885978"
+      ],
+      "spline_residual": 5.658643991431978e-06,
+      "all_plan_original_kernel_residual": 5.658643991432845e-06,
+      "head_plan": 5,
+      "tail_plan": 0,
+      "head_value": -0.0009907989302668518,
+      "tail_value": 0.0,
+      "differential_evolution_success": false,
+      "local_success": true
+    },
+    {
+      "bounds": [
+        [
+          6.3,
+          6.8
+        ],
+        [
+          12.1,
+          12.8
+        ],
+        [
+          6.3,
+          6.8
+        ],
+        [
+          5.7,
+          128.0
+        ],
+        [
+          5.7,
+          128.0
+        ]
+      ],
+      "seed": 826603,
+      "word": [
+        "6.449485537775692",
+        "12.643448370771672",
+        "6.654853028704888",
+        "97.05552440494898",
+        "109.80349444123578"
+      ],
+      "spline_residual": -0.001648664737473961,
+      "all_plan_original_kernel_residual": -0.0016486647374739666,
+      "head_plan": 190,
+      "tail_plan": 22,
+      "head_value": -7.951465537761084e-09,
+      "tail_value": -0.001658264463102168,
+      "differential_evolution_success": false,
+      "local_success": true
+    },
+    {
+      "bounds": [
+        [
+          12.1,
+          12.8
+        ],
+        [
+          6.3,
+          6.8
+        ],
+        [
+          5.7,
+          128.0
+        ],
+        [
+          5.7,
+          128.0
+        ],
+        [
+          5.7,
+          128.0
+        ]
+      ],
+      "seed": 826604,
+      "word": [
+        "12.794899620723879",
+        "6.719864542438387",
+        "50.14017498338868",
+        "8.607392787306786",
+        "72.66539245908577"
+      ],
+      "spline_residual": -0.00012175571974015612,
+      "all_plan_original_kernel_residual": -0.00012175571974015515,
+      "head_plan": 45,
+      "tail_plan": 3,
+      "head_value": -1.371955985098169e-13,
+      "tail_value": -0.002203077841761175,
+      "differential_evolution_success": false,
+      "local_success": true
+    }
+  ],
+  "scope": "All-plan direct double evaluation at saved points; no domain coverage or strict sign proof"
+}

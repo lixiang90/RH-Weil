@@ -1,0 +1,11 @@
+{
+  "package": "python-flint",
+  "version": "0.9.0",
+  "wheel": "python_flint-0.9.0-cp314-cp314-win_amd64.whl",
+  "sha256": "1c32c16bb7119ae200a138558cd5d41e61efab8a94b2a967e7168c9e04797ec6",
+  "python": "3.14.5 (tags/v3.14.5:5607950, May 10 2026, 10:43:50) [MSC v.1944 64 bit (AMD64)]",
+  "install_target": "tmp/interval-runtime/site",
+  "source": "https://pypi.org/project/python-flint/0.9.0/",
+  "documentation": "https://python-flint.readthedocs.io/en/latest/arb.html",
+  "scope": "Local isolated arithmetic dependency; installation and smoke values do not certify new mathematics."
+}

@@ -267,4 +267,28 @@ Franklin另审实际平滑传递。采用L²成本收敛、epsilon<alpha/20及�
 SHA256为09035cad11e0eebbbcd835197f31e61aa9094cb38a82cbfb68464ef73e3a36aa。
 先为候选补足舍入和整盒误差所需余量，再核查至640的核导数区间、
 min方案差、闭域边界及最终B,H费用。214的高度不能自动转授248。
-整个GOAL保持active；此批后半报告、文献和周期切换待当前提交。
+上述后半报告、文献和周期切换已随
+6af024022450e23ceb58afe29f5b6f92e383b385推送origin/main并核验SHA。
+整个GOAL保持active。
+
+第12周期第一批新动作：
+
+1. 将有限图更新门槛改为5e-6，52次更新后冻结266方案。
+   按同一精确输入重新证明H<.023、B128支付为正。
+   [严格图证书](../reviews/2026-09-08/continuation-finite-graph-certificate.json)
+   新算77750个Arb核值，全部十万有序边R下界>=5042241722/10^15。
+   Gibbs独立全量复现及1596次逐锚点对照通过。
+2. [358](../notes/358-kernel-derivative-balls-for-continuation-certificates.md)
+   的核导数公式、Taylor32余项及向外球算术由Franklin复核；
+   同一raw读取／哈希／解析绑定已修正。11点检查不是全域表。
+3. [359](../notes/359-exact-finite-graph-and-continuous-counterexamples.md)
+   找到并严格核验同一266候选的3个连续负点，约-1.99e-5、-.00165、-.000122。
+   Franklin另用320位独立前缀差公式复算全部1596项，结论通过。
+   该候选已排除，有限图通过仍有效，实际比例没有改变。
+4. [360](../notes/360-stopped-costs-and-partial-future-closure.md)
+   加入停止成本并构造部分未来word的一步闭合公式，正在独立审查。
+   仅加四个停止分支仍有浮点负边；四轮联合图／局部更新从76个显式负偏置
+   分支到243个，最终图仍有约-1.60e-5负残差，尚未通过。
+   继续该新表示的压力检查，不继承原266证书，不把计算轮数当作突破。
+
+本批待保存；GOAL第十节B/C逐字保持，较远期目标仍未实现。

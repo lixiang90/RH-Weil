@@ -1,6 +1,7 @@
 """Exact height and reset payment only; does not verify a subaction."""
 
 from fractions import Fraction as F
+import argparse
 import hashlib
 import json
 from pathlib import Path
@@ -11,7 +12,11 @@ ROOT = Path(__file__).resolve().parents[1]
 
 
 def main():
-    path = ROOT / "reviews/2026-09-08/radius-five-continuation-plans-32.json"
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--candidate", default="radius-five-continuation-plans-32.json")
+    args = parser.parse_args()
+    assert Path(args.candidate).name == args.candidate
+    path = ROOT / "reviews/2026-09-08" / args.candidate
     raw = path.read_bytes()
     candidate = json.loads(raw)
     alpha, eta, delta = [F(candidate[k]) for k in ("alpha", "eta", "delta")]
@@ -41,7 +46,9 @@ def main():
                   endpoint_cost=str(C), strict_payment_lower=str(payment),
                   proof="Each L>=-(alpha+delta-eta*a/(2*pi)); each m-step plan>=b-mD; h is the minimum with zero.",
                   open_input="The five-gap subaction inequality on [5.7,128]^5 is not proved.")
-    (path.parent / "continuation-plan-height-certificate.json").write_text(
+    filename = ("continuation-plan-height-certificate.json" if args.candidate == "radius-five-continuation-plans-32.json"
+                else path.stem+"-height.json")
+    (path.parent / filename).write_text(
         json.dumps(output, indent=2)+"\n", encoding="utf-8")
     print(f"PASS: {len(plans)} plans, height < {H}, reset payment > {payment}.")
     print("OPEN: global subaction inequality.")

@@ -1,0 +1,13 @@
+{
+  "status": "PASS: finite candidate height and large-gap payment only",
+  "candidate_sha256": "759afd6ed104b6b35886daaf9aece5700a6a2f780f48658892a2b638d516b4a4",
+  "plans": 266,
+  "upper_D": "36243171/8800000000",
+  "certified_height_upper": "124401796939229229/5500000000000000000",
+  "strict_height_bound": "23/1000",
+  "reset_threshold": "128",
+  "endpoint_cost": "2427/40000",
+  "strict_payment_lower": "894851/55000000",
+  "proof": "Each L>=-(alpha+delta-eta*a/(2*pi)); each m-step plan>=b-mD; h is the minimum with zero.",
+  "open_input": "The five-gap subaction inequality on [5.7,128]^5 is not proved."
+}

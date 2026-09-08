@@ -1,0 +1,40 @@
+{
+  "status": "PASS: every edge of the exact ten-symbol graph has R > 0.000005",
+  "scope": "Finite alphabet only. No all-real-gap subaction or actual zero bound is certified.",
+  "candidate_sha256": "759afd6ed104b6b35886daaf9aece5700a6a2f780f48658892a2b638d516b4a4",
+  "profile_sha256": "3a89799a5705cc8c30c629643f32d72ee000c34bf67798510d6bfdd8575bdca0",
+  "arithmetic_script_sha256": "d5fbe4cba8ccbf47aed6562b46d18a7fb53f409462f5874850312da978648d05",
+  "certificate_script_sha256": "3bf61f789f813f45d303334d273d0a5843084e3c680fc5f0df6d2c9591b9edad",
+  "plans": 266,
+  "alphabet": [
+    "57/10",
+    "643/100",
+    "163/25",
+    "164/25",
+    "33/5",
+    "617/50",
+    "1243/100",
+    "313/25",
+    "1841/100",
+    "80"
+  ],
+  "states": 10000,
+  "edges": 100000,
+  "scalar_queries": 77750,
+  "scalar_bounds_sha256": "b9a1986401fc4be9059d38d5267f02e8b70a621369878974823671c3b1092156",
+  "arb_precision_bits": 192,
+  "integer_denominator": "1000000000000000",
+  "strict_threshold": "1/200000",
+  "minimum_lower_numerator": "5042241722",
+  "corresponding_upper_numerator": "5042241778",
+  "worst_word": [
+    "643/100",
+    "1243/100",
+    "33/5",
+    "1243/100",
+    "164/25"
+  ],
+  "max_state_interval_width_numerator": "25",
+  "elapsed_seconds": 23.92428470001323,
+  "overflow_guard": "100*SCALE < int64 maximum; all scalar, fee, offset and summand bounds checked"
+}
