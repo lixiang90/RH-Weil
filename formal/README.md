@@ -3,8 +3,13 @@
 2026-09-09。当前工作按用户新指令暂停原持续研究，先建立可检查的形式化框架。
 数学起点为[笔记363](../notes/363-f1-arithmetic-geometry-and-existence-audit.md)。
 这是允许 `sorry` 的研究蓝图；不是 RH 证明，也没有证明全局算术几何对象存在。
-本轮已通过完整构建及 20 项传递公理检查，十个经典 `sorry` 精确登记；
+初版已通过完整构建及 20 项传递公理检查，十个经典 `sorry` 精确登记；
 见[验收记录](checks/README.md)。原持续研究保持暂停。
+
+2026-09-10：新增 [G0–G8 几何实现条件包](blueprint/geometric-realization.md) 和
+`F1/Geometry/GeometricRealization.lean`。源相对的局部层、有效性、全局比较与截面
+条件已编码；六个新增条件推论不增加 `sorry`。完整算术来源及相对迹实现仍开放。
+本次完整构建 3472 个任务及全部 26 项传递公理检查通过，结果见 `checks/verification.json`。
 
 ## 目录与入口
 
@@ -13,6 +18,7 @@
 - `F1/Analysis`：圆平均、有限 Jensen 提升、弱二阶导数、固定算术 Weil 型及经典桥梁。
 - `F1/Geometry`：有理对应点集模型、Newton reduced-square 表示、带显式假设的存在性推理。
 - [blueprint/README.md](blueprint/README.md)：依赖图、缺口分类、推进顺序和原文定位。
+- [几何实现规范](blueprint/geometric-realization.md)：G0–G8 的量词、公式及 Lean 覆盖边界。
 - `vendor/`：mathlib 之外的八个依赖的完整版本化源码与原许可证；见[说明](vendor/README.md)。
 - `scripts/`：复制来源、可选缓存复用及验证工具。`checks/` 保存本轮实际验证记录。
 

@@ -1,5 +1,10 @@
 # 数学蓝图与缺口账本
 
+2026-09-10 新增 [G0–G8 几何实现精确条件包](geometric-realization.md)。
+`GeometricRealization.lean` 将实际 site、除子层、自然主除子映射、局部有效锥、
+全局线性比较与截面 sheaf 接入原存在性推理。它是源相对接口；参考算术平方、
+结构半环、对应积分、相对迹及线丛比较尚未形式化，不能宣称完整几何实现已完成。
+
 状态含义：`proved` 是已有 Lean 证明且完整构建通过，关键声明另经 axiom 输出核查；`classical_sorry`
 是明确陈述而尚未在 Lean 证明的经典命题；`depends_on_sorry` 是证明正文完整但传递依赖含
 `sorryAx`；`open_research_input` 是没有提供见证的研究条件；`planned` 尚未成为 Lean 声明。
@@ -48,6 +53,10 @@ flowchart TD
 | EXIST-02 | `nonpositive_of_existence` | proved 条件推理；未证明存在性前提 |
 | EXIST-03 | `rh_of_existence` | depends_on_sorry，且仍含未验证的几何假设 |
 | EXIST-04 | `BareExistenceProblem` | open_research_input，无见证；单独定义此命题不是存在性证明 |
+| GEOM-01 | `DivisorSite`, `LocalDivisorTheory`, `globalPrincipal` | open_research_input：真实 site/sheaf 类型、自然变换、覆盖筛局部有效性；无算术实例 |
+| GEOM-02 | `SourceRealization`, `GeometricSections`, `GeometricRR` | open_research_input：固定来源的全局比较与真实截面量词；完整 G0–G8 比较见新规范 |
+| GEOM-03 | `intersection_eq_of_equivalent`, `nonzero_of_positive_representative`, `sectionExistence_of_effectiveRepresentative` | proved：在双侧主根空间假设下，自交不变量及正自交代表非零 |
+| GEOM-04 | `effectiveRepresentative_of_geometricRR`, `sectionExistence_of_geometricRR`, `nonpositive_of_geometricRR` | proved：从源相对截面假设到原接口和 Weil 非正性；并未证明几何假设 |
 
 ## 关键约定
 
@@ -61,6 +70,8 @@ Lean 的 `open scoped ContDiff` 在本版本必需：`∞` 表示光滑阶，不
 Lean 在零点处将运算全定义化，需证明这些有限角度不改变积分；圆可积命题单列。
 将有限除子消去成零有效除子，不能满足 `SectionExistence` 的 `E≠0`。
 有效除子的非零性也不能由“存在非零截面”自动推出。
+新 GEOM-03 表明：若再有主除子对交叉配对的双侧根空间条件，则正自交与非零缩放
+会排除零有效代表。这是有额外前提的推论，不是撤销上述提醒。
 
 `SquareModel` 用实向量空间作为条件接口，并未给它虚构 Banach 结构以作除子值积分。
 构造 `arithmeticDivisor`、双线性交叉、主除子子空间和 trace identification 均属未完成的几何输入。
@@ -71,6 +82,8 @@ Lean 在零点处将运算全定义化，需证明这些有限角度不改变积
 数学上，在已知 Weil 非正时可取测试函数集上的自由实向量空间、基向量的对角配对为
 `weilSelf`、主除子为零、有效集为 `{0}`，使存在性条件真空成立。
 因此必须另加与实际算术平方的比较，才能排除这种无几何内容的模型；本轮不宣称已形式化该反向构造。
+新的 `SourceRelativeExistence S L` 将来源作为外部参数，并编码部分比较；仍须完成
+G0–G8 中标为 planned 的实际来源识别。普通 site/sheaf 本身不足以排除伪实例。
 
 ## 文献定位与推进顺序
 

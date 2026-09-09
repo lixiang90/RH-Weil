@@ -2,6 +2,15 @@
 
 本文件记录尚未进入正式论文的探索路线。严格推导见 [`notes/174-nonconstructive-existence-and-branch-map.md`](notes/174-nonconstructive-existence-and-branch-map.md)。
 
+## 几何实现条件补强（2026-09-10）
+
+新增 [G0–G8 精确条件包](formal/blueprint/geometric-realization.md)，将固定算术来源、
+局部除子／有效性、对应与连续叠加、交叉／相对迹、实际截面及 RR 输入分层。
+Lean 已加入源相对的 site/sheaf、自然主除子映射、覆盖局部有效性、全局比较和
+截面接口。新增推论：双侧主根空间条件下，正自交对象的非零倍数的等价代表自动非零。
+实际算术平方的比较、对应积分及相对迹仍开放；不把接口补强登记为 RH 数学突破。
+下一有限动作优先验证实际主除子下降／边界项或 2、3、6 对应的几何比较；原持续 GOAL 保持暂停。
+
 ## 本轮已验收：F₁ 形式化蓝图（2026-09-09）
 
 按用户最新指令，暂停原周期13持续研究，先建立 [Lean + mathlib 框架](formal/README.md)。

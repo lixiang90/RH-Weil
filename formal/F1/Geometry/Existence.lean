@@ -74,4 +74,51 @@ Deliberately no theorem inhabits this type. -/
 def BareExistenceProblem : Prop :=
   ∃ M : SquareModel, DegreeDescent M ∧ EffectiveRigidity M ∧ SectionExistence M
 
+/-- A geometric intersection pairing must descend through principal relations.
+Both slots are explicit; symmetry is not assumed by the old minimal interface. -/
+def PrincipalRadical (M : SquareModel) : Prop :=
+  ∀ P ∈ M.principal, ∀ D, M.intersection P D = 0 ∧ M.intersection D P = 0
+
+theorem intersection_eq_of_equivalent (M : SquareModel) (hP : PrincipalRadical M)
+    {D E : M.Divisor} (h : LinearlyEquivalent M D E) :
+    M.intersection D D = M.intersection E E := by
+  have hl := (hP (D - E) h D).1
+  have hr := (hP (D - E) h E).2
+  have hl' : M.intersection D D = M.intersection E D := by
+    simpa only [map_sub, LinearMap.sub_apply, sub_eq_zero] using hl
+  have hr' : M.intersection E D = M.intersection E E := by
+    simpa only [map_sub, sub_eq_zero] using hr
+  exact hl'.trans hr'
+
+theorem nonzero_of_positive_representative (M : SquareModel) (hP : PrincipalRadical M)
+    {D E : M.Divisor} {c : ℝ} (hc : c ≠ 0)
+    (hself : 0 < M.intersection D D) (hlin : LinearlyEquivalent M E (c • D)) :
+    E ≠ 0 := by
+  intro hz
+  have heq := intersection_eq_of_equivalent M hP hlin
+  rw [hz] at heq
+  have hp : 0 < c * c * M.intersection D D :=
+    mul_pos (mul_self_pos.mpr hc) hself
+  simp only [map_zero, map_smul, LinearMap.smul_apply,
+    smul_eq_mul] at heq
+  apply ne_of_gt hp
+  calc
+    c * c * M.intersection D D = c * (c * M.intersection D D) := mul_assoc _ _ _
+    _ = 0 := heq.symm
+
+/-- Weaker RR input: effectivity only. Nonzero representatives follow from descent
+of the pairing and strictly positive self-intersection. No geometric witness supplied. -/
+def EffectiveRepresentativeExistence (M : SquareModel) : Prop :=
+  ∀ f : TestFunction, ZeroMoments f →
+    0 < M.intersection (M.arithmeticDivisor f) (M.arithmeticDivisor f) →
+    ∃ (c : ℝ) (E : M.Divisor), c ≠ 0 ∧ E ∈ M.effective ∧
+      LinearlyEquivalent M E (c • M.arithmeticDivisor f)
+
+theorem sectionExistence_of_effectiveRepresentative (M : SquareModel)
+    (hP : PrincipalRadical M) (hex : EffectiveRepresentativeExistence M) :
+    SectionExistence M := by
+  intro f hf hp
+  obtain ⟨c, E, hc, he, hl⟩ := hex f hf hp
+  exact ⟨c, E, hc, he, nonzero_of_positive_representative M hP hc hp hl, hl⟩
+
 end RHWeil.F1

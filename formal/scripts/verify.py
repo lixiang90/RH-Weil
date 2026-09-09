@@ -51,7 +51,10 @@ dependencies = {name: set(re.findall(r"[A-Za-z_][A-Za-z0-9_.]*", values or ""))
         axioms)}
 pure = ["prime_scaling_surjective", "restrict_restrict", "two_three_six",
         "graphParam_injective", "graphParam_surjective", "graphEquiv",
-        "jensen_const_two", "nonpositive_of_existence"]
+        "jensen_const_two", "nonpositive_of_existence",
+        "intersection_eq_of_equivalent", "nonzero_of_positive_representative",
+        "sectionExistence_of_effectiveRepresentative", "effectiveRepresentative_of_geometricRR",
+        "sectionExistence_of_geometricRR", "nonpositive_of_geometricRR"]
 admitted = ["jensen_not_max_additive", "exponentPresheaf_isSheaf",
             "exponent_stalk_at_prime", "mem_primeLocalization_iff",
             "newtonEquivalent_iff_hull", "finiteLift_circleIntegrable",

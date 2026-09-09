@@ -24,5 +24,12 @@ The printed lists expose transitive sorryAx dependencies, not merely source sorr
 #print axioms RHWeil.F1.weilCriterion
 #print axioms RHWeil.F1.nonpositive_of_existence
 #print axioms RHWeil.F1.rh_of_existence
+#print axioms RHWeil.F1.intersection_eq_of_equivalent
+#print axioms RHWeil.F1.nonzero_of_positive_representative
+#print axioms RHWeil.F1.sectionExistence_of_effectiveRepresentative
+#print axioms RHWeil.F1.effectiveRepresentative_of_geometricRR
+#print axioms RHWeil.F1.sectionExistence_of_geometricRR
+#print axioms RHWeil.F1.nonpositive_of_geometricRR
 #check RHWeil.F1.BareExistenceProblem
+#check RHWeil.F1.SourceRelativeExistence
 #print RiemannHypothesis

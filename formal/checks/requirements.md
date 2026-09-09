@@ -1,5 +1,14 @@
 # 本轮目标验收范围
 
+2026-09-10 扩展要求：将底层几何实现条件融入精确条件包。
+已形成 `blueprint/geometric-realization.md` 的 G0–G8 规范，并以
+`GeometricRealization.lean` 编码其源相对的局部层、自然主除子映射、覆盖有效性、
+全局比较及可容许截面条件。六个新增条件推论不新增 admission；当前审计为
+26 项、11 个 Lean 源文件。未形式化的实际算术来源及分析比较逐项标为 planned，
+没有声称本轮实现完整几何结构。最新验收状态见 `verification.json`。
+
+以下保留 2026-09-09 初版验收范围与当时数字。
+
 本轮用户要求是暂停原 GOAL，建立有组织的 F₁ Lean + mathlib 形式化框架，允许中间
 `sorry`，并复制 mathlib 之外引用的开源代码。不是要求本轮证明 RH。
 

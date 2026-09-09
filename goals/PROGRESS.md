@@ -1,5 +1,10 @@
 # 持续GOAL执行账本：当前周期11
 
+> 2026-09-10：按用户指令补强 [G0–G8 几何实现条件包](../formal/blueprint/geometric-realization.md)。
+> 新增源相对的实际 site/sheaf、自然主除子映射、局部有效性、全局线性比较及截面条件。
+> 六个新增条件推论包括“主除子根空间 + 正自交 ⇒ 等价代表非零”；没有新增 `sorry`。
+> 参考算术平方、结构层、对应积分与相对迹仍须独立实现。原持续 GOAL 保持暂停。
+
 > 2026-09-09 最新指令覆盖：暂停下述原持续研究，先完成
 > [F₁ Lean + mathlib 形式化蓝图](../formal/README.md)。允许中间 `sorry`，
 > mathlib 之外的外部依赖源码保存于 `formal/vendor`。

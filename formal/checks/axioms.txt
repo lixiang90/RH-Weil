@@ -18,6 +18,13 @@
 'RHWeil.F1.weilCriterion' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
 'RHWeil.F1.nonpositive_of_existence' depends on axioms: [propext, Classical.choice, Quot.sound]
 'RHWeil.F1.rh_of_existence' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+'RHWeil.F1.intersection_eq_of_equivalent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RHWeil.F1.nonzero_of_positive_representative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RHWeil.F1.sectionExistence_of_effectiveRepresentative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RHWeil.F1.effectiveRepresentative_of_geometricRR' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RHWeil.F1.sectionExistence_of_geometricRR' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RHWeil.F1.nonpositive_of_geometricRR' depends on axioms: [propext, Classical.choice, Quot.sound]
 RHWeil.F1.BareExistenceProblem : Prop
+RHWeil.F1.SourceRelativeExistence (S : RHWeil.F1.DivisorSite) (L : RHWeil.F1.LocalDivisorTheory S) : Prop
 def RiemannHypothesis : Prop :=
 ∀ (s : ℂ), riemannZeta s = 0 → (¬∃ n, s = -2 * (↑n + 1)) → s ≠ 1 → s.re = 1 / 2

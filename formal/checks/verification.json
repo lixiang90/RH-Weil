@@ -157,6 +157,36 @@
       "Quot.sound",
       "propext",
       "sorryAx"
+    ],
+    "RHWeil.F1.intersection_eq_of_equivalent": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "RHWeil.F1.nonzero_of_positive_representative": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "RHWeil.F1.sectionExistence_of_effectiveRepresentative": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "RHWeil.F1.effectiveRepresentative_of_geometricRR": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "RHWeil.F1.sectionExistence_of_geometricRR": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "RHWeil.F1.nonpositive_of_geometricRR": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
     ]
   },
   "scope": "Entire F1 library built; listed transitive axiom boundaries verified. Classical admissions and geometric existence hypotheses remain unproved."

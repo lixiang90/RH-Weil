@@ -1,6 +1,24 @@
 # 验证记录
 
+## 2026-09-10 几何实现条件包
+
+新增源相对 `GeometricRealization.lean`、G0–G8 规范和六个条件推论。
+最新运行记录为本目录的 `verification.json`、`lake-build.txt`、`axioms.txt`、
+`source-audit.json`；本轮已通过 3472 个构建任务、26 个声明（14 个无 `sorryAx`，
+12 个保留原有传递 admission 依赖）、十个经典 `sorry` 和 11 个本项目 Lean 文件。
+机器报告状态为 `passed_with_explicit_admissions`。八个外部依赖及 806 个源码文件保持原版本。
+发布前 Git 字节检查也同步到 11 个 Lean 文件。
+
+新增推论均为带前提的证明：正自交代表非零需要主除子根空间；从可容许截面到
+Weil 非正性仍需要未实现的几何 RR、有效刚性与算术识别。
+参考算术对象、线丛／正则性、对应积分和相对迹的缺失比较在规范末表明确列出。
+独立只读复核见 [geometric-realization-review.md](geometric-realization-review.md)。
+
+## 2026-09-09 初版历史
+
 2026-09-09：完整框架验收通过，状态为 `passed_with_explicit_admissions`。
+
+下列数字记述初版；同名机器日志已由上面的最新运行更新。
 
 - [完整构建](lake-build.txt)：`lake build` 成功，3459 个构建任务。
 - [公理输出](axioms.txt)：20 个声明完成传递依赖核查；其中 8 个无 `sorryAx`，
