@@ -1,0 +1,82 @@
+{
+  "checked_at_utc": "2026-09-09T09:11:22.901395+00:00",
+  "scope": "F1 task archival integrity and Markdown file targets; README check limited to new F1 entry because old mathematical notation matches naive link regex; not RH or a full external theorem certification",
+  "independent_review": {
+    "agent": "01a0768d-8270-7400-a136-0e99610539be",
+    "status": "PASS after all five corrections",
+    "note_sha256_raw": "be7d7668a14ba28cdb0c021651ccf019fd284ee67b1d90278bc8557a6b64b18c"
+  },
+  "checks": {
+    "paper_layout": "passed",
+    "goal_mirrors": 16,
+    "literature_artifacts": 69,
+    "project_pdfs": 3,
+    "tex_sources": 11,
+    "markdown_file_targets": "passed in stated scope; anchors not automatically checked",
+    "git_diff_check": "passed"
+  },
+  "pdf_total": {
+    "local_count": 50,
+    "local_pages": 1676,
+    "git_count_after_staging": 49,
+    "git_pages_after_staging": 1647,
+    "new_count": 8,
+    "new_pages": 322
+  },
+  "files": [
+    {
+      "file": "README.md",
+      "sha256_raw": "e82a8c05776bb6534c22a82473b8cbf896c79b8a06868b452bfdf42dfa412f35",
+      "sha256_lf": "9a45180289911f09e62f6b94ec88bc35a35e441f36975f972415efeae6af667e",
+      "bytes": 224797
+    },
+    {
+      "file": "RESEARCH_BRANCHES.md",
+      "sha256_raw": "baa7121f328f2447b15dd80fef7cb517def971ab89c35569dd9d3b4b3c15e078",
+      "sha256_lf": "7ef72b8d0f31511b99e94c6b07b20b1202f4731d1ed996ced4905d39494657c4",
+      "bytes": 158299
+    },
+    {
+      "file": "goals/PROGRESS.md",
+      "sha256_raw": "2a95816cf26f4e4b3f16ecf6d752796d43ac18123691e54701b929dae079075c",
+      "sha256_lf": "ec7095a69a0d345e6dcf9bd436a03287ece04e39bf6bdc850eb504dcc74103a0",
+      "bytes": 25721
+    },
+    {
+      "file": "notes/363-f1-arithmetic-geometry-and-existence-audit.md",
+      "sha256_raw": "be7d7668a14ba28cdb0c021651ccf019fd284ee67b1d90278bc8557a6b64b18c",
+      "sha256_lf": "be7d7668a14ba28cdb0c021651ccf019fd284ee67b1d90278bc8557a6b64b18c",
+      "bytes": 15561
+    },
+    {
+      "file": "literature/README.md",
+      "sha256_raw": "c8cf601ebd743e37f84955c1b2c1a4c5cb93f39c982672d390c9caddb68579c2",
+      "sha256_lf": "5fee0ec8a34b05da1e65cbf5a6667243ac3daf0205bc5a7fc233dbc94af3abba",
+      "bytes": 43758
+    },
+    {
+      "file": "literature/manifest.json",
+      "sha256_raw": "3df838306cce94512988b2b586d3d746146fca531defe64d0ae51db5ebff5d6b",
+      "sha256_lf": "e2dd55a28f9d42be48761f39282517906100cc21b73127618b09eeaa79f32069",
+      "bytes": 72168
+    },
+    {
+      "file": "reviews/2026-09-09/f1-source-download.json",
+      "sha256_raw": "18e68274208151684cfdd3a4dac872c5481f7e82c71c4f02867c91cf60e4d05e",
+      "sha256_lf": "779f7ebf2c007f7cde73f9fa75ad2bba2ff18bd63c791e593d90a3d8b0eac801",
+      "bytes": 6980
+    },
+    {
+      "file": "reviews/2026-09-09/collect_f1_sources.py",
+      "sha256_raw": "dbecd906d05b05ede9356ff81b1bde050dca4c35646ed844de0c7e173603a2ba",
+      "sha256_lf": "dbecd906d05b05ede9356ff81b1bde050dca4c35646ed844de0c7e173603a2ba",
+      "bytes": 3780
+    },
+    {
+      "file": "reviews/2026-09-09/f1-existence-independent-review.md",
+      "sha256_raw": "19c0e000527187d9244e9fbef1d0957b379381a1604cbaab5cb1a0f5844b8e25",
+      "sha256_lf": "19c0e000527187d9244e9fbef1d0957b379381a1604cbaab5cb1a0f5844b8e25",
+      "bytes": 4114
+    }
+  ]
+}

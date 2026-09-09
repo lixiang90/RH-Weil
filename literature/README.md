@@ -1,6 +1,6 @@
 # RH-Weil 文献索引
 
-更新至2026-09-08。首批归档聚焦67.25%之后的零点比例进展及直接依赖（15份、220页）；后续原始版本与核读范围按轮次列在文末。当前本地共42份外部原始PDF、1354页，其中41份、1325页纳入Git保存；Schur扫描29页按来源封面要求仅本地保存，出处和哈希同步。获取失败单列。研究判断见 [305文献审计](../notes/305-post-6725-literature-baseline-audit.md)。
+更新至2026-09-09。首批归档聚焦67.25%之后的零点比例进展及直接依赖（15份、220页）；后续原始版本与核读范围按轮次列在文末。当前本地共50份外部原始PDF、1676页，其中49份、1647页纳入Git保存；Schur扫描29页按来源封面要求仅本地保存，出处和哈希同步。获取失败单列。研究判断见 [305文献审计](../notes/305-post-6725-literature-baseline-audit.md)。
 
 PDF按来源原样保存，未重排或改写；arXiv固定版本，GitHub固定提交，Zenodo固定记录。下载、全页PDF解析和校验值核验不等于数学证明认证。manifest中的SHA-256标识本次取得的精确字节，原站同一文件名后续变化时仍可区分。
 
@@ -413,4 +413,65 @@ PDF仍为42份1354页；新增六份文本／代码附件不计入PDF页数。
 - [ainta-040c5e8/LICENSE](supplements/ainta-040c5e8/LICENSE) — [固定原文](https://github.com/ainta/zeta-simple-zeros/blob/040c5e899e658aed7b56a2a87f501798fe10761d/LICENSE)。
 - [ainta-040c5e8/docs/verifier.md](supplements/ainta-040c5e8/docs/verifier.md) — [固定原文](https://github.com/ainta/zeta-simple-zeros/blob/040c5e899e658aed7b56a2a87f501798fe10761d/docs/verifier.md)。
 
-现在仍为42份PDF、1354页（其中Schur扫描原件仅本地）；另有19份补充原件。
+截至2026-09-08该批归档为42份PDF、1354页（其中Schur扫描原件仅本地）；另有19份补充原件。
+
+<a id="f1-20260909"></a>
+
+## F₁构造与存在性原始文献（2026-09-09）
+
+八份新增PDF共322页，按原字节保存于f1目录。归档及全页解析不等于完整数学复核；
+研究判断与局部构造见[363](../notes/363-f1-arithmetic-geometry-and-existence-audit.md)。
+本轮还核查了[Connes作者出版目录](https://alainconnes.org/publications/)；
+目录列出2026年Jacobian论文为Journal of Noncommutative Geometry forthcoming，本地保存的是固定arXiv v1。
+未将网页出现日期或抓取时间当作论文首次发布日期。
+
+**Borger-2009-F1 — Lambda-rings and the field with one element**
+
+- 作者：James Borger；版本：arXiv:0906.3146v1。
+- [本地PDF](f1/borger-lambda-rings-0906.3146v1.pdf)（31页）；[固定来源](https://arxiv.org/abs/0906.3146v1)；[原件下载](https://arxiv.org/pdf/0906.3146v1)。
+- 核读范围：PDF1–3页：Lambda下降、标准整数初对象、伴随函子；未复核全篇分类定理。PDF首页打印日期2024-11-26，与v1上传日期2009-06-17区分。
+
+**Lorscheid-2012-blueprints — The geometry of blueprints. Part I: Algebraic background and scheme theory**
+
+- 作者：Oliver Lorscheid；版本：arXiv:1103.1745v2。
+- [本地PDF](f1/lorscheid-blueprints-1103.1745v2.pdf)（51页）；[固定来源](https://arxiv.org/abs/1103.1745v2)；[原件下载](https://arxiv.org/pdf/1103.1745v2)。
+- 核读范围：PDF21–22页Proposition1.12及证明：blueprint张量积和不同子范畴；未审全部scheme理论。
+
+**CC-2015-arithmetic-site — Geometry of the arithmetic site**
+
+- 作者：Alain Connes; Caterina Consani；版本：arXiv:1502.05580v1。
+- [本地PDF](f1/cc-arithmetic-site-1502.05580v1.pdf)（43页）；[固定来源](https://arxiv.org/abs/1502.05580v1)；[原件下载](https://arxiv.org/pdf/1502.05580v1)。
+- 核读范围：PDF1–3、18–20、23–32、38页：算术几何态射、平方定义、Proposition6.21与Theorem7.7；重点读定义和所列证明段，未逐篇复核全部结果。
+
+**CC-2016-scaling-site — Geometry of the scaling site**
+
+- 作者：Alain Connes; Caterina Consani；版本：arXiv:1603.03191v1。
+- [本地PDF](f1/cc-scaling-site-1603.03191v1.pdf)（43页）；[固定来源](https://arxiv.org/abs/1603.03191v1)；[原件下载](https://arxiv.org/pdf/1603.03191v1)。
+- 核读范围：PDF32页Theorem5.17与连续维数定义：周期轨道RR；未独立复跑完整证明。
+
+**CC-2018-complex-lift — The Riemann-Roch strategy, Complex lift of the Scaling Site**
+
+- 作者：Alain Connes; Caterina Consani；版本：arXiv:1805.10501v1。
+- [本地PDF](f1/cc-complex-lift-1805.10501v1.pdf)（67页）；[固定来源](https://arxiv.org/abs/1805.10501v1)；[原件下载](https://arxiv.org/pdf/1805.10501v1)。
+- 核读范围：PDF1–5、17–22页：路线、Jensen下降、五步存在性策略；第7节仅按引言与第3节定位，不宣称已核审全部Frobenius复提升证明。
+
+**CC-2023-RR-Z — Riemann-Roch for the ring Z**
+
+- 作者：Alain Connes; Caterina Consani；版本：arXiv:2306.00456v1。
+- [本地PDF](f1/cc-riemann-roch-z-2306.00456v1.pdf)（9页）；[固定来源](https://arxiv.org/abs/2306.00456v1)；[原件下载](https://arxiv.org/pdf/2306.00456v1)。
+- 核读范围：PDF1、8页Theorems1.1/5.1：保留右连续取整函数；未完整重审S模维数理论。
+
+**CC-2026-Jacobian — On the Jacobian of $\overline{\operatorname{Spec}\mathbb Z}$**
+
+- 作者：Alain Connes; Caterina Consani；版本：arXiv:2602.15941v1。
+- [本地PDF](f1/cc-jacobian-2602.15941v1.pdf)（48页）；[固定来源](https://arxiv.org/abs/2602.15941v1)；[原件下载](https://arxiv.org/pdf/2602.15941v1)。
+- 核读范围：PDF3–5页Theorems1.1/1.2及广义除子；PDF18页定位Theorem3.4，未完整重审全adelic分类。
+
+**CC-2026-absolute-geometry — On the Absolute Geometry of Spec Z**
+
+- 作者：Alain Connes; Caterina Consani；版本：arXiv:2606.06604v1。
+- [本地PDF](f1/cc-absolute-geometry-2606.06604v1.pdf)（30页）；[固定来源](https://arxiv.org/abs/2606.06604v1)；[原件下载](https://arxiv.org/pdf/2606.06604v1)。
+- 核读范围：PDF1–7页：定义、Proposition2.2/2.3及引言Theorems1–4；未重审全部perfectoid/untilt定理。摘要页标题未含PDF副标题and the Fargues-Fontaine curve。
+
+全部SHA-256、字节数和获取时间见[manifest](manifest.json)及[原始下载记录](../reviews/2026-09-09/f1-source-download.json)。
+Deitmar／Soulé／其他绝对几何本轮未逐项独立审计，不把本小节称为全部F₁文献的穷尽综述。

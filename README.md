@@ -84,6 +84,7 @@ RH、零点比例／非零区域改进及实质算术Weil结构仍未实现，�
 - `paper-sections/`：结构论文引用的分节 TeX，保留原目录。
 - `output/pdf/`：统一保存最终 PDF；`tmp/pdfs/` 仅放临时检查产物。
 - `notes/`：研究笔记；[研究看板](RESEARCH_BRANCHES.md) 记录路线、开放输入和止损条件。
+- F₁构造／存在性新增入口（2026-09-09）：[363：已有构造与平方空间缺口](notes/363-f1-arithmetic-geometry-and-existence-audit.md)；[八份原始文献](literature/README.md#f1-20260909)。按看板独立结构辅助推进。
 - `literature/`：外部原始论文 PDF 与[文献索引](literature/README.md)，记录版本、来源、校验值和核查状态。
 
 2026-09-06 三项维护已完成：加入限额 David--Lapidus 结构审计线、
