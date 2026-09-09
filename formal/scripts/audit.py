@@ -2,13 +2,27 @@
 import hashlib
 import json
 import re
+import subprocess
+import sys
 from pathlib import Path
-from bootstrap_from_cache import strip_comments
+from bootstrap_from_cache import strip_comments, REVISION
 
 ROOT = Path(__file__).resolve().parents[1]
 
 def main():
     sources = json.loads((ROOT / "vendor/manifest.json").read_text(encoding="utf-8"))
+    manifest = json.loads((ROOT / "lake-manifest.json").read_text(encoding="utf-8"))
+    packages = {p["name"]: p for p in manifest["packages"]}
+    assert packages["mathlib"]["rev"] == REVISION
+    for package in sources:
+        entry = packages[package["name"]]
+        assert entry["type"] == "path"
+        assert entry["dir"].replace("\\", "/") == "vendor/" + package["name"]
+    tracked = None
+    if "--tracked" in sys.argv:
+        tracked = set(subprocess.check_output(
+            ["git", "ls-files", "-z", "formal/vendor"], cwd=ROOT.parent)
+            .decode("utf-8").split("\0"))
     checked = 0
     for package in sources:
         for item in package["files"]:
@@ -16,6 +30,8 @@ def main():
             raw = path.read_bytes()
             assert len(raw) == item["bytes"], path
             assert hashlib.sha256(raw).hexdigest() == item["sha256"], path
+            if tracked is not None:
+                assert path.relative_to(ROOT.parent).as_posix() in tracked, path
             checked += 1
     admissions = []
     own_hashes = {}
@@ -31,6 +47,7 @@ def main():
                                "declaration": declarations[-1],
                                "status": "classical_sorry"})
     report = {"vendor_packages": len(sources), "vendor_files_verified": checked,
+              "vendor_git_tracking_verified": tracked is not None,
               "own_lean_files": len(own), "explicit_sorry_count": len(admissions),
               "admissions": admissions,
               "own_source_sha256": own_hashes,

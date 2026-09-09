@@ -96,7 +96,9 @@ def main():
             base = source / ".lake/build/lib/lean" / relative
             if not base.with_suffix(".olean").exists():
                 missing.append(module)
-            for suffix in (".olean", ".olean.private", ".olean.server", ".ilean", ".trace"):
+            for suffix in (".olean", ".olean.private", ".olean.server", ".ilean", ".ir",
+                           ".olean.hash", ".olean.private.hash", ".olean.server.hash",
+                           ".ilean.hash", ".ir.hash", ".trace"):
                 artifact = Path(str(base) + suffix)
                 if artifact.exists():
                     output = target / ".lake/build/lib/lean" / relative.parent / artifact.name

@@ -17,21 +17,29 @@
 ## 构建
 
 固定 Lean `v4.32.2`，mathlib `905b95818eb32af7874a58b427f50c1711a5e96c`。
-在本目录、已安装 elan 的环境执行：
+在本目录、已安装 elan 与 Python 3.10+ 的 PowerShell 环境执行：
 
-```text
+```powershell
+$env:MATHLIB_NO_CACHE_ON_UPDATE='1'
 lake update
-lake exe cache get F1
-lake build
-lake env lean F1/Audit.lean
-python scripts/audit.py
+lake build cache
+lake env python scripts/get_cache.py
+python scripts/verify.py
 ```
+
+其他 shell 同样先将环境变量 `MATHLIB_NO_CACHE_ON_UPDATE` 设为 `1`，再运行其余命令。
+该变量关闭上游 post-update 自动缓存步骤；后面的脚本在源码校验后完成对应工作。
+`verify.py` 实际运行 `lake build`、`lake env lean F1/Audit.lean` 和源码／Git 跟踪校验，
+输出保存于 `checks/`。只整理过部分缓存时可用 `get_cache.py --repair` 重建本项目生成的
+缓存标记并重新解压匹配的官方归档；该选项不修改 Lean 源码。
 
 `lake build` 允许明确列出的 `sorry`，因此构建成功不表示所有定理完成。
 `F1/Audit.lean` 的 `#print axioms` 检查传递依赖；仅搜索证明正文不足以识别
 `rh_of_existence` 等间接依赖 `sorryAx` 的结论。审核时应同时阅读蓝图和这些输出。
 
 mathlib 由固定提交获取，其余依赖通过根 `lake-manifest.json` 使用本地 `vendor/`。
+缓存工具会将 path 与 git 依赖视为不同版本，因此使用 `get_cache.py`：先核验副本字节与
+上游版本一致，再从未改动的 mathlib 目录运行官方缓存工具，保留 Lake 提供的本地源码路径。
 不需要访问其他研究项目。`scripts/bootstrap_from_cache.py PACKAGES` 是可选加速途径，
 只读取与锁定版本一致的既有官方包缓存，不复制其他用户项目的研究代码，也不替代正式构建。
 首次下载若需本机代理，可在 PowerShell 设置
