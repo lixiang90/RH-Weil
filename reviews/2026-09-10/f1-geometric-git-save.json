@@ -1,0 +1,13 @@
+{
+  "math_commit": "46e27c1a81b6c4702984698835e48ac9b02ae1ab",
+  "branch": "main",
+  "remote": "origin",
+  "verified_remote_sha": "46e27c1a81b6c4702984698835e48ac9b02ae1ab",
+  "status": "PUSHED_AND_REMOTE_SHA_VERIFIED",
+  "recorded_at_utc": "2026-09-09T20:55:20.194354+00:00",
+  "verification_method": "git push origin main succeeded; subsequent git ls-remote matched local HEAD",
+  "batch_validation_at_math_commit": "reviews/2026-09-10/f1-geometric-round-validation.json",
+  "scope": "374–375 reviewed; general-F source binding audited in stated scope. 829 links, 18 goal mirrors, 15 staged blobs. No RH/full RR or long-term completion claim.",
+  "goal_status": "active",
+  "next_task": "reviews/2026-09-10/f1-real-scale-next-proof-plan.md"
+}
