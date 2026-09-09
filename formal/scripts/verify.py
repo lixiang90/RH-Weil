@@ -9,6 +9,9 @@ import re
 import subprocess
 import sys
 
+sys.stdout.reconfigure(encoding="utf-8")
+sys.stderr.reconfigure(encoding="utf-8")
+
 ROOT = Path(__file__).resolve().parents[1]
 CHECKS = ROOT / "checks"
 CHECKS.mkdir(exist_ok=True)
@@ -17,17 +20,23 @@ results = []
     '{"status": "verification_incomplete"}\n', encoding="utf-8")
 
 def run(name, command):
-    result = subprocess.run(command, cwd=ROOT, capture_output=True, text=True,
-                            encoding="utf-8", errors="replace")
-    output = result.stdout + result.stderr
-    (CHECKS / (name + ".txt")).write_text(output, encoding="utf-8", newline="\n")
-    results.append({"name": name, "command": command, "exit_code": result.returncode})
-    print(name, "exit", result.returncode, flush=True)
-    if result.returncode:
+    lines = []
+    with (CHECKS / (name + ".txt")).open("w", encoding="utf-8", newline="\n") as log:
+        result = subprocess.Popen(command, cwd=ROOT, stdout=subprocess.PIPE,
+            stderr=subprocess.STDOUT, text=True, encoding="utf-8", errors="replace")
+        for line in result.stdout:
+            lines.append(line)
+            log.write(line)
+            log.flush()
+            print(line, end="", flush=True)
+        exit_code = result.wait()
+    output = "".join(lines)
+    results.append({"name": name, "command": command, "exit_code": exit_code})
+    print(name, "exit", exit_code, flush=True)
+    if exit_code:
         (CHECKS / "verification.json").write_text(json.dumps(
             {"status": "failed", "checks": results}, indent=2) + "\n", encoding="utf-8")
-        print(output[-8000:], flush=True)
-        raise SystemExit(result.returncode)
+        raise SystemExit(exit_code)
     return output
 
 version = run("lean-version", ["lean", "--version"])
@@ -41,6 +50,7 @@ dependencies = {name: set(re.findall(r"[A-Za-z_][A-Za-z0-9_.]*", values or ""))
         r"'([A-Za-z0-9_.]+)' (?:depends on axioms: \[([\s\S]*?)\]|does not depend on any axioms)",
         axioms)}
 pure = ["prime_scaling_surjective", "restrict_restrict", "two_three_six",
+        "graphParam_injective", "graphParam_surjective", "graphEquiv",
         "jensen_const_two", "nonpositive_of_existence"]
 admitted = ["jensen_not_max_additive", "exponentPresheaf_isSheaf",
             "exponent_stalk_at_prime", "mem_primeLocalization_iff",

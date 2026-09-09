@@ -1,16 +1,15 @@
-"""Optional offline bootstrap from a read-only, exact-version mathlib package cache.
+"""Optional cache reuse AFTER lake update, from read-only exact-version packages.
 
-Exports mathlib's pinned source and copies only imported Lean object closures.
+Requires the target mathlib Git checkout; never initializes or overwrites sources.
+Copies imported artifact closures using the pinned Cache.IO.mkBuildPaths layout.
 Never edits the supplied package directory. Normal setup uses Lake instead.
 """
 import argparse
-import io
 import json
 from pathlib import Path
 import re
 import shutil
 import subprocess
-import tarfile
 
 ROOT = Path(__file__).resolve().parents[1]
 REVISION = "905b95818eb32af7874a58b427f50c1711a5e96c"
@@ -37,6 +36,7 @@ def strip_comments(text):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("packages", type=Path)
+    parser.add_argument("--check-only", action="store_true")
     args = parser.parse_args()
     packages = args.packages.resolve()
     mathlib = packages / "mathlib"
@@ -44,22 +44,12 @@ def main():
                                       text=True).strip()
     assert revision == REVISION
     destination = ROOT / ".lake/packages/mathlib"
-    destination.mkdir(parents=True, exist_ok=True)
-    raw = subprocess.check_output(["git", "-C", str(mathlib), "archive", "--format=tar", revision])
-    with tarfile.open(fileobj=io.BytesIO(raw), mode="r:") as archive:
-        for item in archive.getmembers():
-            assert (destination / item.name).resolve().is_relative_to(destination.resolve())
-            assert not item.islnk(), item.name
-        archive.extractall(destination, members=[
-            m for m in archive.getmembers() if not m.issym()], filter="data")
-        # Same representation as a Windows Git checkout with core.symlinks=false.
-        # Benchmark-only links are text blobs; never follow or execute them here.
-        for item in archive.getmembers():
-            if item.issym():
-                output = destination / item.name
-                output.parent.mkdir(parents=True, exist_ok=True)
-                output.write_text(item.linkname, encoding="utf-8")
-    print("Exported exact mathlib source", revision, flush=True)
+    assert (destination / ".git").exists(), "Run lake update before optional cache reuse"
+    target_revision = subprocess.check_output(
+        ["git", "-C", str(destination), "rev-parse", "HEAD"], text=True).strip()
+    assert target_revision == REVISION
+    assert subprocess.run(["git", "-C", str(destination), "diff", "--quiet", "HEAD"]).returncode == 0, \
+        "Target mathlib has source changes; refusing cache reuse"
     records = json.loads((ROOT / "vendor/manifest.json").read_text(encoding="utf-8"))
     locations = [(ROOT, ROOT)]
     locations.append((mathlib, destination))
@@ -69,6 +59,9 @@ def main():
                                        text=True).strip()
         assert head == entry["revision"]
         locations.append((origin, ROOT / "vendor" / entry["name"]))
+    if args.check_only:
+        print("Source and target package revisions verified; no artifacts copied.")
+        return
     visited = set()
     missing = []
     copied = 0
@@ -93,19 +86,32 @@ def main():
                     visit(dependency)
             if source == ROOT:
                 return
-            base = source / ".lake/build/lib/lean" / relative
-            if not base.with_suffix(".olean").exists():
+            assert code.read_bytes() == (target / relative.with_suffix(".lean")).read_bytes(), code
+            lib = Path(".lake/build/lib/lean") / relative
+            ir = Path(".lake/build/ir") / relative
+            required = [Path(str(lib) + ext) for ext in (".olean", ".olean.hash", ".ilean", ".ilean.hash")]
+            required += [Path(str(ir) + ext) for ext in (".c", ".c.hash")]
+            trace = Path(str(lib) + ".trace")
+            complete = all((source / p).exists() for p in required + [trace])
+            if not complete:
                 missing.append(module)
-            for suffix in (".olean", ".olean.private", ".olean.server", ".ilean", ".ir",
-                           ".olean.hash", ".olean.private.hash", ".olean.server.hash",
-                           ".ilean.hash", ".ir.hash", ".trace"):
-                artifact = Path(str(base) + suffix)
+            artifacts = required + [Path(str(lib) + ext) for ext in (
+                ".olean.private", ".olean.server", ".ir", ".olean.private.hash",
+                ".olean.server.hash", ".ir.hash", ".extra")]
+            # Invalidate the marker before copying; only install it after all
+            # required and available optional outputs have been copied successfully.
+            marker = target / trace
+            artifact_root = (target / ".lake/build").resolve()
+            assert marker.resolve().is_relative_to(artifact_root)
+            marker.unlink(missing_ok=True)
+            for artifact_path in artifacts + ([trace] if complete else []):
+                artifact = source / artifact_path
                 if artifact.exists():
-                    output = target / ".lake/build/lib/lean" / relative.parent / artifact.name
+                    output = target / artifact_path
+                    assert output.resolve().is_relative_to(artifact_root)
                     output.parent.mkdir(parents=True, exist_ok=True)
-                    if not output.exists() or output.stat().st_size != artifact.stat().st_size:
-                        shutil.copy2(artifact, output)
-                        copied += 1
+                    shutil.copy2(artifact, output)
+                    copied += 1
             return
         # Lean/Std/Lake modules are supplied by the pinned toolchain.
         assert module.split(".")[0] in ("Lean", "Std", "Init", "Lake"), module

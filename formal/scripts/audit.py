@@ -34,18 +34,26 @@ def main():
                 assert path.relative_to(ROOT.parent).as_posix() in tracked, path
             checked += 1
     admissions = []
+    registry = json.loads((ROOT / "blueprint/admissions.json").read_text(encoding="utf-8"))
+    allowed = {(item["file"], item["declaration"]): item for item in registry}
+    assert len(allowed) == len(registry), "Duplicate admission entry"
     own_hashes = {}
     own = sorted((ROOT / "F1").rglob("*.lean")) + [ROOT / "F1.lean"]
     for path in own:
         own_hashes[path.relative_to(ROOT).as_posix()] = hashlib.sha256(path.read_bytes()).hexdigest()
         text = strip_comments(path.read_text(encoding="utf-8"))
-        assert not re.search(r"\b(?:axiom|admit)\b", text), path
+        assert not re.search(r"\b(?:axiom|admit|sorryAx)\b", text), path
         for match in re.finditer(r"\bsorry\b", text):
             declarations = re.findall(r"\b(?:theorem|lemma|def)\s+([\w.]+)", text[:match.start()])
+            key = (path.relative_to(ROOT).as_posix(), declarations[-1])
+            assert key in allowed, ("Unregistered admission", key)
             admissions.append({"file": path.relative_to(ROOT).as_posix(),
                                "line": text[:match.start()].count("\n") + 1,
                                "declaration": declarations[-1],
-                               "status": "classical_sorry"})
+                               "status": allowed[key]["status"], "id": allowed[key]["id"]})
+    assert {(item["file"], item["declaration"]) for item in admissions} == set(allowed), \
+        "Admission registry and source differ"
+    assert len(admissions) == len(registry), "Each registered declaration must contain exactly one sorry"
     report = {"vendor_packages": len(sources), "vendor_files_verified": checked,
               "vendor_git_tracking_verified": tracked is not None,
               "own_lean_files": len(own), "explicit_sorry_count": len(admissions),

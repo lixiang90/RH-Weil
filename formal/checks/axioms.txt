@@ -1,0 +1,23 @@
+'RHWeil.F1.prime_scaling_surjective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RHWeil.F1.restrict_restrict' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RHWeil.F1.two_three_six' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RHWeil.F1.graphParam_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RHWeil.F1.graphParam_surjective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RHWeil.F1.graphEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RHWeil.F1.jensen_const_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RHWeil.F1.jensen_not_max_additive' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+'RHWeil.F1.exponentPresheaf_isSheaf' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+'RHWeil.F1.exponent_stalk_at_prime' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+'RHWeil.F1.mem_primeLocalization_iff' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+'RHWeil.F1.newtonEquivalent_iff_hull' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+'RHWeil.F1.finiteLift_circleIntegrable' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+'RHWeil.F1.jensen_finite_lift' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+'RHWeil.F1.finiteProfile_weakSecond' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+'RHWeil.F1.jensen_one_add_and_sub' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+'RHWeil.F1.weil_convergence' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+'RHWeil.F1.weilCriterion' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+'RHWeil.F1.nonpositive_of_existence' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RHWeil.F1.rh_of_existence' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+RHWeil.F1.BareExistenceProblem : Prop
+def RiemannHypothesis : Prop :=
+∀ (s : ℂ), riemannZeta s = 0 → (¬∃ n, s = -2 * (↑n + 1)) → s ≠ 1 → s.re = 1 / 2

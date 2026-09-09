@@ -1,7 +1,13 @@
+Current branch: HEAD
+Using cache from origin: (some leanprover-community/mathlib4)
+Decompressing 3434 already-cached file(s)
+No files to download
+Decompressed 3434 already-cached file(s)
+Completed successfully in 72709 ms!
 {
   "vendor_packages": 8,
   "vendor_files_verified": 806,
-  "vendor_git_tracking_verified": true,
+  "vendor_git_tracking_verified": false,
   "own_lean_files": 10,
   "explicit_sorry_count": 10,
   "admissions": [
@@ -82,11 +88,12 @@
     "F1/Arithmetic/FiniteSupport.lean": "33ab336dee414b2ba01ad44dd471b20fef2937aa0426bda5caa7585c7cf11515",
     "F1/Arithmetic/PrimeLocalization.lean": "8820f3f1ac9142ab1d7a6a025764f8c00840d4c00d100f6860df150dd2dd9872",
     "F1/Arithmetic/Sheaf.lean": "0f9578df461426adbae28511cde365fd9eb84625b5a353ea762cb30e12868313",
-    "F1/Audit.lean": "3f96d2c3a8a070598f765f22155e1c05bc5126902408a115e229761b6ad95e20",
+    "F1/Audit.lean": "d6068ff83d58341a6f4ca75a97d20a18f62ad65fdf25a8b83a15344fb61fc849",
     "F1/Geometry/Existence.lean": "5821a341993c3ecde29353f6571288a95dbe52714e771fff9e70af8af5f698b9",
-    "F1/Geometry/RationalCorrespondence.lean": "377c91b00ca276b97c0614704e60029183d4dab6e9d75b1097ed856eda10c68e",
+    "F1/Geometry/RationalCorrespondence.lean": "b49c2acb826358c62fca055e80ad80f519da74e5ef5c0f7c736d88a217111cc9",
     "F1/Geometry/ReducedSquare.lean": "e82658066e1938b8f374db6ca9b77e0d8d8ea96f4b7d40995e0279411b5f4316",
     "F1.lean": "a1a47eb2c7d9d727c58cdc7caef5b56cff5bdeb6422ce4375502ba043ef58d83"
   },
   "scope": "Source inventory only; see Lean build and axiom logs for kernel checks."
 }
+Installed official artifact sets for 7 vendored packages.

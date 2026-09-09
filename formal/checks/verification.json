@@ -1,0 +1,163 @@
+{
+  "status": "passed_with_explicit_admissions",
+  "checks": [
+    {
+      "name": "lean-version",
+      "command": [
+        "lean",
+        "--version"
+      ],
+      "exit_code": 0
+    },
+    {
+      "name": "lake-version",
+      "command": [
+        "lake",
+        "--version"
+      ],
+      "exit_code": 0
+    },
+    {
+      "name": "lake-build",
+      "command": [
+        "lake",
+        "build"
+      ],
+      "exit_code": 0
+    },
+    {
+      "name": "axioms",
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "F1/Audit.lean"
+      ],
+      "exit_code": 0
+    },
+    {
+      "name": "source-audit",
+      "command": [
+        "C:\\Python314\\python.exe",
+        "scripts/audit.py",
+        "--tracked"
+      ],
+      "exit_code": 0
+    }
+  ],
+  "axioms": {
+    "RHWeil.F1.prime_scaling_surjective": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "RHWeil.F1.restrict_restrict": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "RHWeil.F1.two_three_six": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "RHWeil.F1.graphParam_injective": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "RHWeil.F1.graphParam_surjective": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "RHWeil.F1.graphEquiv": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "RHWeil.F1.jensen_const_two": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "RHWeil.F1.jensen_not_max_additive": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext",
+      "sorryAx"
+    ],
+    "RHWeil.F1.exponentPresheaf_isSheaf": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext",
+      "sorryAx"
+    ],
+    "RHWeil.F1.exponent_stalk_at_prime": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext",
+      "sorryAx"
+    ],
+    "RHWeil.F1.mem_primeLocalization_iff": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext",
+      "sorryAx"
+    ],
+    "RHWeil.F1.newtonEquivalent_iff_hull": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext",
+      "sorryAx"
+    ],
+    "RHWeil.F1.finiteLift_circleIntegrable": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext",
+      "sorryAx"
+    ],
+    "RHWeil.F1.jensen_finite_lift": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext",
+      "sorryAx"
+    ],
+    "RHWeil.F1.finiteProfile_weakSecond": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext",
+      "sorryAx"
+    ],
+    "RHWeil.F1.jensen_one_add_and_sub": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext",
+      "sorryAx"
+    ],
+    "RHWeil.F1.weil_convergence": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext",
+      "sorryAx"
+    ],
+    "RHWeil.F1.weilCriterion": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext",
+      "sorryAx"
+    ],
+    "RHWeil.F1.nonpositive_of_existence": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "RHWeil.F1.rh_of_existence": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext",
+      "sorryAx"
+    ]
+  },
+  "scope": "Entire F1 library built; listed transitive axiom boundaries verified. Classical admissions and geometric existence hypotheses remain unproved."
+}

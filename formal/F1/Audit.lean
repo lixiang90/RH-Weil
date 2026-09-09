@@ -7,6 +7,9 @@ The printed lists expose transitive sorryAx dependencies, not merely source sorr
 #print axioms RHWeil.F1.prime_scaling_surjective
 #print axioms RHWeil.F1.restrict_restrict
 #print axioms RHWeil.F1.two_three_six
+#print axioms RHWeil.F1.graphParam_injective
+#print axioms RHWeil.F1.graphParam_surjective
+#print axioms RHWeil.F1.graphEquiv
 #print axioms RHWeil.F1.jensen_const_two
 #print axioms RHWeil.F1.jensen_not_max_additive
 #print axioms RHWeil.F1.exponentPresheaf_isSheaf

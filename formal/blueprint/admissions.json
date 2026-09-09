@@ -1,0 +1,12 @@
+[
+  {"id":"BP-ARITH-02","file":"F1/Arithmetic/PrimeLocalization.lean","declaration":"mem_primeLocalization_iff","status":"classical_sorry"},
+  {"id":"BP-SHEAF-01","file":"F1/Arithmetic/Sheaf.lean","declaration":"exponentPresheaf_isSheaf","status":"classical_sorry"},
+  {"id":"BP-SHEAF-02","file":"F1/Arithmetic/Sheaf.lean","declaration":"exponent_stalk_at_prime","status":"classical_sorry"},
+  {"id":"BP-SQUARE-01","file":"F1/Geometry/ReducedSquare.lean","declaration":"newtonEquivalent_iff_hull","status":"classical_sorry"},
+  {"id":"BP-JENSEN-00","file":"F1/Analysis/Jensen.lean","declaration":"finiteLift_circleIntegrable","status":"classical_sorry"},
+  {"id":"BP-JENSEN-01","file":"F1/Analysis/Jensen.lean","declaration":"jensen_finite_lift","status":"classical_sorry"},
+  {"id":"BP-JENSEN-02","file":"F1/Analysis/Jensen.lean","declaration":"jensen_one_add_and_sub","status":"classical_sorry"},
+  {"id":"BP-JENSEN-04","file":"F1/Analysis/Jensen.lean","declaration":"finiteProfile_weakSecond","status":"classical_sorry"},
+  {"id":"BP-WEIL-00","file":"F1/Analysis/Weil.lean","declaration":"weil_convergence","status":"classical_sorry"},
+  {"id":"BP-WEIL-01","file":"F1/Analysis/Weil.lean","declaration":"weilCriterion","status":"classical_sorry"}
+]

@@ -7,6 +7,8 @@
 按最新指令暂停原持续研究，先搭建 [Lean + mathlib 框架](formal/README.md)，
 以[蓝图与缺口账本](formal/blueprint/README.md)区分经典待证明命题和全局几何研究输入。
 允许显式 `sorry`；mathlib 外部依赖已复制到 `formal/vendor`。
+本轮[完整验收](formal/checks/README.md)已通过：3459 个构建任务、20 项传递公理检查，
+保留十个明确的经典 `sorry`；全局算术几何输入仍开放。
 以下保留原周期13状态，不表示已经完成较远期数学目标。
 
 ## 暂停前状态：持续GOAL，周期13（2026-09-08）

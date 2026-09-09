@@ -3,6 +3,8 @@
 2026-09-09。当前工作按用户新指令暂停原持续研究，先建立可检查的形式化框架。
 数学起点为[笔记363](../notes/363-f1-arithmetic-geometry-and-existence-audit.md)。
 这是允许 `sorry` 的研究蓝图；不是 RH 证明，也没有证明全局算术几何对象存在。
+本轮已通过完整构建及 20 项传递公理检查，十个经典 `sorry` 精确登记；
+见[验收记录](checks/README.md)。原持续研究保持暂停。
 
 ## 目录与入口
 
@@ -40,8 +42,12 @@ python scripts/verify.py
 mathlib 由固定提交获取，其余依赖通过根 `lake-manifest.json` 使用本地 `vendor/`。
 缓存工具会将 path 与 git 依赖视为不同版本，因此使用 `get_cache.py`：先核验副本字节与
 上游版本一致，再从未改动的 mathlib 目录运行官方缓存工具，保留 Lake 提供的本地源码路径。
-不需要访问其他研究项目。`scripts/bootstrap_from_cache.py PACKAGES` 是可选加速途径，
-只读取与锁定版本一致的既有官方包缓存，不复制其他用户项目的研究代码，也不替代正式构建。
+官方依赖归档的内部路径仍是 `.lake/packages/NAME`，脚本在成功解压后将生成产物复制到
+相应的 `vendor/NAME/.lake/build`，并最后安装 trace；仅改变运行目录不足以完成这一映射。
+不需要访问其他研究项目。`scripts/bootstrap_from_cache.py PACKAGES` 是可选缓存复用途径，
+**必须先运行 `lake update`**，它不初始化 Git 或复制源树。它只读取与锁定版本一致的
+既有官方包缓存，按官方清单复制完整产物后才安装 trace；缺失项仍需正常获取／构建。
+可先加 `--check-only` 检查版本前提。此途径不复制其他用户项目的研究代码，也不替代正式构建。
 首次下载若需本机代理，可在 PowerShell 设置
 `$env:https_proxy='http://127.0.0.1:10808'` 和同值 `http_proxy`；端口仅为本机提示。
 
@@ -54,4 +60,5 @@ mathlib 由固定提交获取，其余依赖通过根 `lake-manifest.json` 使�
 与 Connes–Consani 算术平方的自然比较。这样的比较必须另证。
 
 局部幺半群、有限 Jensen 提升和 `2 → 3 → 6` 方程复合是可独立检查的基准。
+互素参数且分母为正时的复单位点集参数化双射已无 `sorry` 地形式证明，逆用经典选择。
 它们没有自动连到上述存在性假设。蓝图保留这一断点，并将真实研究输入与经典证明待补分开。

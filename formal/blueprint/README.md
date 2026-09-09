@@ -1,9 +1,11 @@
 # 数学蓝图与缺口账本
 
-状态含义：`proved` 是已写证明、待以构建和 axiom 输出共同验收；`classical_sorry`
+状态含义：`proved` 是已有 Lean 证明且完整构建通过，关键声明另经 axiom 输出核查；`classical_sorry`
 是明确陈述而尚未在 Lean 证明的经典命题；`depends_on_sorry` 是证明正文完整但传递依赖含
 `sorryAx`；`open_research_input` 是没有提供见证的研究条件；`planned` 尚未成为 Lean 声明。
 任何 `sorry` 都不是可用于宣布数学突破的证据。
+逐声明的机器可读清单见 [admissions.json](admissions.json)；源码审计拒绝未登记的
+`sorry`、自定义 `axiom` 与直接调用 `sorryAx`。新增或完成缺口时须同步清单、本文和公理审计。
 
 ```mermaid
 flowchart TD
@@ -31,7 +33,8 @@ flowchart TD
 | BP-SHEAF-02 | `exponent_stalk_at_prime` | classical_sorry：真实余极限 stalk 与局部指数锥的等价 |
 | SHEAF-03 | 泛点 stalk、吸收元与球面代数比较 | planned：先作实际 pointed-monoid 层，再给自然比较，不能只匹配 stalk |
 | RATIONAL-01 | `RationalCorrespondence.lean`: `parametrization_mem`, `two_three_six` | proved：单位复数点上的方程及复合；不是 scheme 同构 |
-| RATIONAL-02 | Bézout 逆、覆盖次数、双圆平均 | planned：对正互素 m,n 证明逆与次数 n,m，再比较实际 Ψ(m/n) |
+| RATIONAL-02 | `graphParam_injective`, `graphParam_surjective`, `graphEquiv` | proved：m,n 互素且 n>0 时复单位点集参数化为双射，逆用经典选择 |
+| RATIONAL-03 | 正则逆、覆盖次数、双圆平均 | planned：把点集等价提升为合适的几何态射，证明次数 n,m，再比较实际 Ψ(m/n) |
 | BP-SQUARE-01 | `newtonEquivalent_iff_hull` | classical_sorry：有限整点集上 Newton 凸包的分离刻画，含空集 |
 | SQUARE-02 | reduced Newton quotient 的运算及 site 比较 | planned：不是已完成的半环化 topos |
 | BP-JENSEN-00 | `finiteLift_circleIntegrable` | classical_sorry：有限个零点／极点的对数局部可积 |
@@ -77,7 +80,7 @@ Lean 在零点处将运算全定义化，需证明这些有限角度不改变积
 1. 先补素数局部化正规形、sheaf gluing 与 stalk；再正式构造吸收元和自然比较。
 2. 用 mathlib 的 `Real.circleAverage`、`circleAverage_log_norm_sub_const_eq_log_radius_add_posLog`
    证明有限 Jensen 引理，随后证明弱导数恒等式。对闭圆盘使用亚纯 Jensen 定理时须核实定义域假设。
-3. 完成有理图的 Bézout 逆与次数，核对 Connes–Consani 2015 arXiv:1502.05580v1 的实际对应。
+3. 已形式证明有理图的点集参数化双射；继续把其逆识别为正则态射并证明次数，核对 Connes–Consani 2015 arXiv:1502.05580v1 的实际对应。
    Theorem 7.7 在两参数无理而乘积有理时有切向恒等变形，不能形式化成无例外的 Ψ 乘法律。
 4. 2018 arXiv:1805.10501v1 §3 (12)–(14) 对应固定 Weil 型；把 log 坐标变换、收敛和经典判据补全。
 5. 2023 arXiv:2306.00456v1 的环 ℤ RR、2026 arXiv:2602.15941v1 的 Picard 幺半群及

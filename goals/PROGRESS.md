@@ -4,6 +4,9 @@
 > [F₁ Lean + mathlib 形式化蓝图](../formal/README.md)。允许中间 `sorry`，
 > mathlib 之外的外部依赖源码保存于 `formal/vendor`。
 > 本次框架验收不等于原较远期目标完成；以下 active 等状态为暂停前历史记录。
+>
+> 本轮框架现已通过[完整验收](../formal/checks/README.md)：3459 个构建任务、20 项传递
+> 公理核查、十个登记的经典 `sorry`、806 个依赖源码文件校验。原持续研究保持暂停。
 
 2026-09-08更新。起点main 17c0774e0652f72ffaf9192f1f760c4294226caf。
 [第十一次目标修订](GOAL.20260906.md)继续同一个持续GOAL；[phase3历史](archive/PROGRESS.phase3.md)保留。

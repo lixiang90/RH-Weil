@@ -20,7 +20,7 @@
 
 具体接口意见：
 
-1. **[Weil.lean:23](/F:/codex-build/RH/RH-Weil/formal/F1/Analysis/Weil.lean:23)：积分正确，但degree／codegree与原文命名互换。**
+1. **[Weil.lean:23](F:/codex-build/RH/RH-Weil/formal/F1/Analysis/Weil.lean:23)：积分正确，但degree／codegree与原文命名互换。**
 
    令原变量函数为 \(f(u)=F(\log u)\)。当前两矩分别是
    \[
@@ -33,7 +33,7 @@
 
    其余归一化正确：反演因子是`exp (-x)`；卷积使用`dt`；无穷处原来的 \(du/u\) 换成`dx`，**不应再乘`exp x`**。自然数求和多出的0、1项因von Mangoldt值为零而消失。
 
-2. **[Sheaf.lean:49](/F:/codex-build/RH/RH-Weil/formal/F1/Arithmetic/Sheaf.lean:49)：是真stalk，但完成层级须准确。**
+2. **[Sheaf.lean:49](F:/codex-build/RH/RH-Weil/formal/F1/Arithmetic/Sheaf.lean:49)：是真stalk，但完成层级须准确。**
 
    当前`Nonempty (... ≃ primeCone p.val)`没有给出：
    - 茎同构对germ的求值公式；
@@ -43,7 +43,7 @@
 
    因此文档应写“指数集合层及其闭点stalk等价的形式化蓝图”。这些缺项不使现有两个`sorry`错误，也无需本轮全部完成。
 
-3. **[Existence.lean:43](/F:/codex-build/RH/RH-Weil/formal/F1/Geometry/Existence.lean:43)：条件推理正确，但目前绕过自交识别。**
+3. **[Existence.lean:43](F:/codex-build/RH/RH-Weil/formal/F1/Geometry/Existence.lean:43)：条件推理正确，但目前绕过自交识别。**
 
    `nonpositive_of_existence`确实没有使用`trace_identification`，因为`SectionExistence`直接以`0 < weilSelf f`为前提。
 
@@ -55,7 +55,7 @@
 
    `c ≠ 0`允许正倍数或负倍数，数学上没有漏符号；`E ≠ 0`也已正确保留。
 
-4. **[BareExistenceProblem](/F:/codex-build/RH/RH-Weil/formal/F1/Geometry/Existence.lean:70)须明确是RH强度的抽象包，不是裸F₁框架存在性。**
+4. **[BareExistenceProblem](F:/codex-build/RH/RH-Weil/formal/F1/Geometry/Existence.lean:70)须明确是RH强度的抽象包，不是裸F₁框架存在性。**
 
    可以独立看出其与`WeilNonpositive`等价：反向取自由实向量空间
    \[

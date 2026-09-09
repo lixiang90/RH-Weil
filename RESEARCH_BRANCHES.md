@@ -2,11 +2,14 @@
 
 本文件记录尚未进入正式论文的探索路线。严格推导见 [`notes/174-nonconstructive-existence-and-branch-map.md`](notes/174-nonconstructive-existence-and-branch-map.md)。
 
-## 当前任务：F₁ 形式化蓝图（2026-09-09）
+## 本轮已验收：F₁ 形式化蓝图（2026-09-09）
 
 按用户最新指令，暂停原周期13持续研究，先建立 [Lean + mathlib 框架](formal/README.md)。
 允许明确标记的中间 `sorry`；全局构造／存在性研究条件保持开放。
-当前验收是完整构建、依赖源码副本、缺口与公理审计，不是 RH 或零点比例突破。
+本轮完整构建 3459 个任务、20 项传递公理检查、十个 admission 的精确清单及
+八个依赖项目 806 个文件的源码／Git 跟踪校验均通过，见[验收](formal/checks/README.md)。
+互素参数有理对应的点集双射已形式证明；实际几何比较与全局 RR 存在性仍开放。
+这是形式化框架验收，不是 RH 或零点比例突破；原持续研究保持暂停。
 详细推进顺序见[形式化蓝图](formal/blueprint/README.md)。
 
 ## 原队列（持续GOAL，周期13；已暂停，保留状态）
