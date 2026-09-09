@@ -1,5 +1,8 @@
 # F₁ 路线的 Lean + mathlib 形式化蓝图
 
+首次阅读可先看[本科背景讲义](../docs/f1-route-from-undergraduate-math.md)：
+解释实际对象、精确条件与条件证明；技术细节再查本目录。
+
 2026-09-09。当前工作按用户新指令暂停原持续研究，先建立可检查的形式化框架。
 数学起点为[笔记363](../notes/363-f1-arithmetic-geometry-and-existence-audit.md)。
 这是允许 `sorry` 的研究蓝图；不是 RH 证明，也没有证明全局算术几何对象存在。

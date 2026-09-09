@@ -1,6 +1,6 @@
 {
   "retrieved_on": "2026-09-06",
-  "scope": "零点比例进展、非循环函数域基准与 Abel 障碍直接文献；归档不等于数学认证；phase 2 插值、密度与正则化算子背景；持续GOAL周期4：实际零密度原始比较及ANTEDB固定快照；2026-09-09：F1算术几何与构造／存在性原始文献",
+  "scope": "零点比例进展、非循环函数域基准与 Abel 障碍直接文献；归档不等于数学认证；phase 2 插值、密度与正则化算子背景；持续GOAL周期4：实际零密度原始比较及ANTEDB固定快照；2026-09-09：F1算术几何与构造／存在性原始文献；2026-09-10：F1本科背景讲义的Weil猜想教学来源",
   "entries": [
     {
       "id": "AF-2026",
@@ -1045,6 +1045,28 @@
       "read_scope": "PDF1–7页：定义、Proposition2.2/2.3及引言Theorems1–4；未重审全部perfectoid/untilt定理。摘要页标题未含PDF副标题and the Fargues-Fontaine curve。",
       "review_note": "../notes/363-f1-arithmetic-geometry-and-existence-audit.md",
       "pdf_printed_title": "On the Absolute Geometry of Spec Z and the Fargues-Fontaine curve"
+    },
+    {
+      "id": "Milne-LEC-2013",
+      "category": "background",
+      "authors": "James S. Milne",
+      "title": "Lectures on Etale Cohomology",
+      "version": "v2.21; 2013-03-22",
+      "file": "background/milne-etale-cohomology-v2.21.pdf",
+      "source_url": "https://www.jmilne.org/math/CourseNotes/lec.html",
+      "pdf_url": "https://www.jmilne.org/math/CourseNotes/LEC.pdf",
+      "resolved_pdf_url": "https://www.jmilne.org/math/CourseNotes/LEC.pdf",
+      "download_status": "downloaded",
+      "bytes": 1514442,
+      "sha256": "ac4f122f371d38a44c58c296b7dbf88081d89d2de2334070bff3606771c01077",
+      "retrieved_at_utc": "2026-09-09T17:34:36.357909+00:00",
+      "pages": 202,
+      "pdf_parse_status": "all pages parsed; one page without extractable text at zero-based index 149",
+      "pages_without_text_zero_based": [
+        149
+      ],
+      "text_characters": 413600,
+      "status": "教学背景；核读第25–27节相关固定点、Weil猜想与Frobenius说明；未复核全书证明"
     }
   ],
   "supplement_provenance": [
@@ -1214,5 +1236,5 @@
       "status": "导数生成器依赖的固定原件；归档，尚未完整核读或运行。"
     }
   ],
-  "last_updated_on": "2026-09-09"
+  "last_updated_on": "2026-09-10"
 }

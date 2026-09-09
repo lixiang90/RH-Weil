@@ -475,3 +475,17 @@ PDF仍为42份1354页；新增六份文本／代码附件不计入PDF页数。
 
 全部SHA-256、字节数和获取时间见[manifest](manifest.json)及[原始下载记录](../reviews/2026-09-09/f1-source-download.json)。
 Deitmar／Soulé／其他绝对几何本轮未逐项独立审计，不把本小节称为全部F₁文献的穷尽综述。
+
+## F₁ 本科背景讲义的补充来源（2026-09-10）
+
+**Milne-LEC-2013 — Lectures on Étale Cohomology**
+
+- 作者：James S. Milne；作者版本 v2.21，2013-03-22，202 页。
+- [本地 PDF](background/milne-etale-cohomology-v2.21.pdf)；
+  [作者 PDF](https://www.jmilne.org/math/CourseNotes/LEC.pdf)；
+  [作者目录](https://www.jmilne.org/math/CourseNotes/lec.html)。
+- 用途：为[本科背景讲义](../docs/f1-route-from-undergraduate-math.md)提供有限域曲线、
+  Frobenius、不动点及 Weil 猜想背景；核读第 25–27 节相关陈述，不宣称复核全书证明。
+- 全部 202 页解析通过；PDF 第 150 页（索引 149）无可提取文字，单列记录。
+  原始 SHA256、字节数和抓取时间见[下载记录](../reviews/2026-09-10/f1-primer-source-download.json)
+  及 `manifest.json`。本文献已保存原始字节，不只保留网站链接。

@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "primer": "docs/f1-route-from-undergraduate-math.md",
+  "primer_sha256": "cdb34dc92a4cc9015b26037374dc1090e1e2b89411a87c4abb6a95f718a18b64",
+  "primer_characters": 20566,
+  "primer_han_characters": 10084,
+  "main_numbered_sections": 16,
+  "local_file_links_checked": 15,
+  "display_math_groups_checked": 72,
+  "unchanged_compiled_lean_sources": 11,
+  "new_reference_pdf_sha256": "ac4f122f371d38a44c58c296b7dbf88081d89d2de2334070bff3606771c01077",
+  "independent_review": "PASS after all listed corrections",
+  "scope": "Local file targets, delimiters, control characters, reviewed bytes and archived hashes; not URL-anchor validation, mathematical theorem verification or LaTeX rendering."
+}

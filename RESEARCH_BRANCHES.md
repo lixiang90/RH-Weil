@@ -2,6 +2,11 @@
 
 本文件记录尚未进入正式论文的探索路线。严格推导见 [`notes/174-nonconstructive-existence-and-branch-map.md`](notes/174-nonconstructive-existence-and-branch-map.md)。
 
+2026-09-10 教学说明：[F₁ 本科背景讲义](docs/f1-route-from-undergraduate-math.md)。
+G0–G8 规范升为 v1.1：保留指定参考几何路线，同时允许在明确候选类别中同时证明
+几何、结构及直接算术比较存在；固定的是 ζ 数据与验收条件，不是必须预选一个 Q。
+本次为说明文档及量词范围修订，没有新增 RH 数学结论。
+
 ## 几何实现条件补强（2026-09-10）
 
 新增 [G0–G8 精确条件包](formal/blueprint/geometric-realization.md)，将固定算术来源、
