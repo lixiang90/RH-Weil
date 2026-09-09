@@ -1,0 +1,19 @@
+name: Build
+
+on:
+  pull_request:
+  merge_group:
+
+jobs:
+  build:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-latest]
+    steps:
+      - uses: actions/checkout@v6
+
+      - uses: leanprover/lean-action@v1
+        with:
+          check-reservoir-eligibility: true
+          build-args: "--wfail"

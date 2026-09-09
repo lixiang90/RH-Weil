@@ -1,0 +1,295 @@
+/-
+Copyright (c) 2022 Henrik Böving. All rights reserved.
+Released under Apache 2.0 license as described in the file LICENSE.
+Authors: Henrik Böving, Simon Hudon
+-/
+module
+
+public meta import Lean.Elab.Command
+public meta import Lean.Meta.Eval
+public import Plausible.Arbitrary
+public import Plausible.Shrinkable
+
+public section
+
+/-!
+# `SampleableExt` Class
+
+This class permits the creation samples of a given type
+controlling the size of those values using the `Gen` monad.
+
+# `Shrinkable` Class
+
+This class helps minimize examples by creating smaller versions of
+given values.
+
+When testing a proposition like `∀ n : Nat, Prime n → n ≤ 100`,
+`Plausible` requires that `Nat` have an instance of `SampleableExt` and for
+`Prime n` to be decidable.  `Plausible` will then use the instance of
+`SampleableExt` to generate small examples of Nat and progressively increase
+in size. For each example `n`, `Prime n` is tested. If it is false,
+the example will be rejected (not a test success nor a failure) and
+`Plausible` will move on to other examples. If `Prime n` is true,
+`n ≤ 100` will be tested. If it is false, `n` is a counter-example of
+`∀ n : Nat, Prime n → n ≤ 100` and the test fails. If `n ≤ 100` is true,
+the test passes and `Plausible` moves on to trying more examples.
+
+## Main definitions
+
+* `SampleableExt` class
+* `Shrinkable` class
+
+### `SampleableExt`
+
+`SampleableExt` can be used in two ways. The first (and most common)
+is to simply generate values of a type directly using the `Gen` monad;
+if this is what you want to do then the way to go is to declare an `Arbitrary`
+instance, and rely on the default `selfContained` instance.
+
+Furthermore it makes it possible to express generators for types that
+do not lend themselves to introspection, such as `Nat → Nat`.
+If we test a quantification over functions the
+counter-examples cannot be shrunken or printed meaningfully.
+For that purpose, `SampleableExt` provides a proxy representation
+`proxy` that can be printed and shrunken as well
+as interpreted (using `interp`) as an object of the right type. If you
+are using it in the first way, this proxy type will simply be the type
+itself and the `interp` function will be `id`.
+
+### `Shrinkable`
+
+Given an example `x : α`, `Shrinkable α` gives us a way to shrink it
+and suggest simpler examples.
+
+## Shrinking
+
+Shrinking happens when `Plausible` finds a counter-example to a
+property.  It is likely that the example will be more complicated than
+necessary so `Plausible` proceeds to shrink it as much as
+possible. Although equally valid, a smaller counter-example is easier
+for a user to understand and use.
+
+The `Shrinkable` class, , has a `shrink` function so that we can use
+specialized knowledge while shrinking a value. It is not responsible
+for the whole shrinking process however. It only has to take one step
+in the shrinking process. `Plausible` will repeatedly call `shrink`
+until no more steps can be taken. Because `shrink` guarantees that the
+size of the candidates it produces is strictly smaller than the
+argument, we know that `Plausible` is guaranteed to terminate.
+
+## Tags
+
+random testing
+
+## References
+
+* https://hackage.haskell.org/package/QuickCheck
+
+-/
+
+namespace Plausible
+
+open Random Gen
+
+universe u v
+variable {α β : Type _}
+
+/-- `SampleableExt` can be used in two ways. The first (and most common)
+is to simply generate values of a type directly using the `Gen` monad;
+if this is what you want to do then declaring an `Arbitrary` instance is the
+way to go.
+
+Furthermore it makes it possible to express generators for types that
+do not lend themselves to introspection, such as `Nat → Nat`.
+If we test a quantification over functions the
+counter-examples cannot be shrunken or printed meaningfully.
+For that purpose, `SampleableExt` provides a proxy representation
+`proxy` that can be printed and shrunken as well
+as interpreted (using `interp`) as an object of the right type. -/
+class SampleableExt (α : Sort u) where
+  proxy : Type v
+  [proxyRepr : Repr proxy]
+  [shrink : Shrinkable proxy]
+  [sample : Arbitrary proxy]
+  interp : proxy → α
+
+attribute [instance_reducible, instance] SampleableExt.proxyRepr
+attribute [instance_reducible, instance] SampleableExt.shrink
+
+namespace SampleableExt
+
+/-- Default instance whose purpose is to simply generate values
+of a type directly using the `Arbitrary` instance -/
+@[default_instance]
+instance selfContained [Repr α] [Shrinkable α] [Arbitrary α] : SampleableExt α where
+  proxy := α
+  proxyRepr := inferInstance
+  shrink := inferInstance
+  sample := inferInstance
+  interp := id
+
+/-- This is kept for backwards compatibility -/
+@[implicit_reducible, deprecated "Define an `Arbitrary` instance instead and use the default `SampleableExt` instance provided" (since := "22-10-2025")]
+def mkSelfContained [Repr α] [Shrinkable α] (g : Gen α) : SampleableExt α :=
+  let : Arbitrary α := ⟨g⟩
+  inferInstance
+
+/-- First samples a proxy value and interprets it. Especially useful if
+the proxy and target type are the same. -/
+def interpSample (α : Type u) [SampleableExt α] : Gen α :=
+  SampleableExt.interp <$> SampleableExt.sample.arbitrary
+
+end SampleableExt
+
+section Samplers
+
+open SampleableExt
+open Arbitrary
+
+instance arbitraryProxy [SampleableExt α] : Arbitrary (proxy α) := sample
+
+instance Sum.SampleableExt [SampleableExt α] [SampleableExt β] : SampleableExt (Sum α β) where
+  proxy := Sum (proxy α) (proxy β)
+  sample := inferInstance
+  interp s :=
+    match s with
+    | .inl l => .inl (interp l)
+    | .inr r => .inr (interp r)
+
+instance [SampleableExt α] [SampleableExt β] : SampleableExt ((_ : α) × β) where
+  proxy := (_ : proxy α) × proxy β
+  sample := inferInstance
+  interp s := ⟨interp s.fst, interp s.snd⟩
+
+instance Option.sampleableExt [SampleableExt α] : SampleableExt (Option α) where
+  proxy := Option (proxy α)
+  sample := inferInstance
+  interp o := o.map interp
+
+instance Prod.sampleableExt {α : Type u} {β : Type v} [SampleableExt α] [SampleableExt β] :
+    SampleableExt (α × β) where
+  proxy := Prod (proxy α) (proxy β)
+  proxyRepr := inferInstance
+  shrink := inferInstance
+  sample := inferInstance
+  interp := Prod.map interp interp
+
+instance Prop.sampleableExt : SampleableExt Prop where
+  proxy := Bool
+  proxyRepr := inferInstance
+  sample := inferInstance
+  shrink := inferInstance
+  interp := Coe.coe
+
+instance List.sampleableExt [SampleableExt α] : SampleableExt (List α) where
+  proxy := List (proxy α)
+  sample := inferInstance
+  interp := List.map interp
+
+instance ULift.sampleableExt [SampleableExt α] : SampleableExt (ULift α) where
+  proxy := proxy α
+  sample := sample
+  interp a := ⟨interp a⟩
+
+instance Array.sampleableExt [SampleableExt α] : SampleableExt (Array α) where
+  proxy := Array (proxy α)
+  sample := inferInstance
+  interp := Array.map interp
+
+end Samplers
+
+/-- An annotation for values that should never get shrunk. -/
+@[expose] def NoShrink (α : Type u) := α
+
+namespace NoShrink
+
+open SampleableExt
+
+def mk (x : α) : NoShrink α := x
+def get (x : NoShrink α) : α := x
+
+instance inhabited [inst : Inhabited α] : Inhabited (NoShrink α) := inst
+instance repr [inst : Repr α] : Repr (NoShrink α) := inst
+
+instance shrinkable : Shrinkable (NoShrink α) where
+  shrink := fun _ => []
+
+instance arbitrary [arb : Arbitrary α] : Arbitrary (NoShrink α) := arb
+
+instance sampleableExt [SampleableExt α] [Repr α] : SampleableExt (NoShrink α) where
+  proxy := NoShrink (proxy α)
+  interp := interp
+
+end NoShrink
+
+open Lean Meta Elab
+
+/--
+`e` is a type to sample from, this can either be a type that implements `SampleableExt` or `Gen α`
+directly. For this return:
+- the universe level of the `Type u` that the relevant type to sample lives in.
+- the actual type `α` to sample from
+- a `Repr α` instance
+- a `Gen α` generator to run in order to sample
+-/
+private meta def mkGenerator (e : Expr) : MetaM (Level × Expr × Expr × Expr) := do
+  let exprTyp ← inferType e
+  let .sort u ← whnf (← inferType exprTyp) | throwError m!"{exprTyp} is not a type"
+  let .succ u := u | throwError m!"{exprTyp} is not a type with computational content"
+  match_expr exprTyp with
+  | Gen α =>
+    let reprInst ← synthInstance (mkApp (mkConst ``Repr [u]) α)
+    return ⟨u, α, reprInst, e⟩
+  | _ =>
+    let v ← mkFreshLevelMVar
+    let sampleableExtInst ← synthInstance (mkApp (mkConst ``SampleableExt [u, v]) e)
+    let v ← instantiateLevelMVars v
+    let reprInst := mkApp2 (mkConst ``SampleableExt.proxyRepr [u, v]) e sampleableExtInst
+    let arb := mkApp2 (mkConst ``SampleableExt.sample [u, v]) e sampleableExtInst
+    let gen := mkApp2 (mkConst ``Arbitrary.arbitrary [v]) e arb
+    let typ := mkApp2 (mkConst ``SampleableExt.proxy [u, v]) e sampleableExtInst
+    return ⟨v, typ, reprInst, gen⟩
+
+/--
+`#sample type`, where `type` has an instance of `SampleableExt`, prints ten random
+values of type `type` using an increasing size parameter.
+
+```lean
+#sample Nat
+-- prints
+-- 0
+-- 0
+-- 2
+-- 24
+-- 64
+-- 76
+-- 5
+-- 132
+-- 8
+-- 449
+-- or some other sequence of numbers
+
+#sample List Int
+-- prints
+-- []
+-- [1, 1]
+-- [-7, 9, -6]
+-- [36]
+-- [-500, 105, 260]
+-- [-290]
+-- [17, 156]
+-- [-2364, -7599, 661, -2411, -3576, 5517, -3823, -968]
+-- [-643]
+-- [11892, 16329, -15095, -15461]
+-- or whatever
+```
+-/
+elab "#sample " e:term : command =>
+  Command.runTermElabM fun _ => do
+    let e ← Elab.Term.elabTermAndSynthesize e none
+    let ⟨_, α, repr, gen⟩ ← mkGenerator e
+    let printSamples := mkApp3 (mkConst ``Gen.printSamples []) α repr gen
+    let code ← unsafe evalExpr (IO PUnit) (mkApp (mkConst ``IO) (mkConst ``PUnit [1])) printSamples
+    _ ← code
+
+end Plausible

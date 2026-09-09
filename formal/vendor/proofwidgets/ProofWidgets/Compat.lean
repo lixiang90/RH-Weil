@@ -1,0 +1,33 @@
+module
+
+public meta import Lean.Elab.InfoTree.Main
+
+public meta section
+
+namespace ProofWidgets
+open Lean Server Elab
+
+/-- See `RpcEncodable`. -/
+abbrev LazyEncodable α := StateM RpcObjectStore α
+
+-- back from exile
+structure ExprWithCtx where
+  ci : Elab.ContextInfo
+  lctx : LocalContext
+  linsts : LocalInstances
+  expr : Expr
+  deriving TypeName
+
+def ExprWithCtx.runMetaM (e : ExprWithCtx) (x : Expr → MetaM α) : IO α :=
+  e.ci.runMetaM {} $
+    Meta.withLCtx e.lctx e.linsts (x e.expr)
+
+def ExprWithCtx.save (e : Expr) : MetaM ExprWithCtx :=
+  return {
+    ci := { ← CommandContextInfo.save with }
+    lctx := ← getLCtx
+    linsts := ← Meta.getLocalInstances
+    expr := e
+  }
+
+end ProofWidgets

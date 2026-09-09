@@ -1,0 +1,110 @@
+module
+
+public import Lean.Meta.ReduceEval
+
+public section
+open Lean Meta
+
+namespace Lean.Meta
+
+def throwFailedToEval (e : Expr) : MetaM α :=
+  throwError "reduceEval: failed to evaluate argument{indentExpr e}"
+
+partial def evalList [ReduceEval α] (e : Expr) : MetaM (List α) := do
+  let e ← whnf e
+  let .const c _ := e.getAppFn | throwFailedToEval e
+  let nargs := e.getAppNumArgs
+  match c, nargs with
+    | ``List.nil, 1 => pure []
+    | ``List.cons, 3 => return (← reduceEval (e.getArg! 1)) :: (← evalList (e.getArg! 2))
+    | _, _ => throwFailedToEval e
+
+instance [ReduceEval α] : ReduceEval (List α) := ⟨evalList⟩
+
+instance [NeZero n] : ReduceEval (Fin n) where
+  reduceEval := fun e => do
+    let e ← whnf e
+    if e.isAppOfArity ``Fin.mk 3 then
+      return Fin.ofNat _ (← reduceEval (e.getArg! 1))
+    else
+      throwFailedToEval e
+
+instance {n : Nat} : ReduceEval (BitVec n) where
+  reduceEval := fun e => do
+    let e ← whnf e
+    if e.isAppOfArity ``BitVec.ofFin 2 then
+      have : 2^n - 1 + 1 = 2^n := Nat.sub_one_add_one_eq_of_pos (Nat.two_pow_pos n)
+      let _ : ReduceEval (Fin (2^n)) := this ▸ (inferInstanceAs <| ReduceEval (Fin (2^n - 1 + 1)))
+      pure ⟨(← reduceEval (e.getArg! 1))⟩
+    else
+      throwFailedToEval e
+
+instance : ReduceEval UInt64 where
+  reduceEval := fun e => do
+    let e ← whnf e
+    if e.isAppOfArity ``UInt64.ofBitVec 1 then
+      pure ⟨(← reduceEval (e.getArg! 0))⟩
+    else
+      throwFailedToEval e
+
+instance : ReduceEval USize where
+  reduceEval := fun e => do
+    let e ← whnf e
+    if e.isAppOfArity ``USize.ofBitVec 1 then
+      let a ← whnf (e.getArg! 0)
+      if a.isAppOfArity ``Fin.mk 3 then
+        return USize.ofNat (← reduceEval (a.getArg! 1))
+    throwFailedToEval e
+
+instance : ReduceEval Bool where
+  reduceEval := fun e => do
+    let e ← whnf e
+    if e.isAppOf ``true then
+      pure true
+    else if e.isAppOf ``false then
+      pure false
+    else
+      throwFailedToEval e
+
+instance : ReduceEval BinderInfo where
+  reduceEval := fun e => do
+    match (← whnf e).constName? with
+    | some ``BinderInfo.default => pure .default
+    | some ``BinderInfo.implicit => pure .implicit
+    | some ``BinderInfo.strictImplicit => pure .strictImplicit
+    | some ``BinderInfo.instImplicit => pure .instImplicit
+    | _ => throwFailedToEval e
+
+instance : ReduceEval Literal where
+  reduceEval := fun e => do
+    let e ← whnf e
+    if e.isAppOfArity ``Literal.natVal 1 then
+      return .natVal (← reduceEval (e.getArg! 0))
+    else if e.isAppOfArity ``Literal.strVal 1 then
+      return .strVal (← reduceEval (e.getArg! 0))
+    else
+      throwFailedToEval e
+
+instance : ReduceEval MVarId where
+  reduceEval e := do
+    let e ← whnf e
+    if e.isAppOfArity ``MVarId.mk 1 then
+      return ⟨← reduceEval (e.getArg! 0)⟩
+    else
+      throwFailedToEval e
+
+instance : ReduceEval LevelMVarId where
+  reduceEval e := do
+    let e ← whnf e
+    if e.isAppOfArity ``LevelMVarId.mk 1 then
+      return ⟨← reduceEval (e.getArg! 0)⟩
+    else
+      throwFailedToEval e
+
+instance : ReduceEval FVarId where
+  reduceEval e := do
+    let e ← whnf e
+    if e.isAppOfArity ``FVarId.mk 1 then
+      return ⟨← reduceEval (e.getArg! 0)⟩
+    else
+      throwFailedToEval e

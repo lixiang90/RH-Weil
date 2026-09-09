@@ -1,0 +1,49 @@
+# F₁ 路线的 Lean + mathlib 形式化蓝图
+
+2026-09-09。当前工作按用户新指令暂停原持续研究，先建立可检查的形式化框架。
+数学起点为[笔记363](../notes/363-f1-arithmetic-geometry-and-existence-audit.md)。
+这是允许 `sorry` 的研究蓝图；不是 RH 证明，也没有证明全局算术几何对象存在。
+
+## 目录与入口
+
+- `F1.lean`：完整导入入口；`Target` 是 mathlib 的 `RiemannHypothesis`。
+- `F1/Arithmetic`：素数局部化、有限支集截面、实际 `Spec ℤ` 上的预层与 stalk 命题。
+- `F1/Analysis`：圆平均、有限 Jensen 提升、弱二阶导数、固定算术 Weil 型及经典桥梁。
+- `F1/Geometry`：有理对应点集模型、Newton reduced-square 表示、带显式假设的存在性推理。
+- [blueprint/README.md](blueprint/README.md)：依赖图、缺口分类、推进顺序和原文定位。
+- `vendor/`：mathlib 之外的八个依赖的完整版本化源码与原许可证；见[说明](vendor/README.md)。
+- `scripts/`：复制来源、可选缓存复用及验证工具。`checks/` 保存本轮实际验证记录。
+
+## 构建
+
+固定 Lean `v4.32.2`，mathlib `905b95818eb32af7874a58b427f50c1711a5e96c`。
+在本目录、已安装 elan 的环境执行：
+
+```text
+lake update
+lake exe cache get F1
+lake build
+lake env lean F1/Audit.lean
+python scripts/audit.py
+```
+
+`lake build` 允许明确列出的 `sorry`，因此构建成功不表示所有定理完成。
+`F1/Audit.lean` 的 `#print axioms` 检查传递依赖；仅搜索证明正文不足以识别
+`rh_of_existence` 等间接依赖 `sorryAx` 的结论。审核时应同时阅读蓝图和这些输出。
+
+mathlib 由固定提交获取，其余依赖通过根 `lake-manifest.json` 使用本地 `vendor/`。
+不需要访问其他研究项目。`scripts/bootstrap_from_cache.py PACKAGES` 是可选加速途径，
+只读取与锁定版本一致的既有官方包缓存，不复制其他用户项目的研究代码，也不替代正式构建。
+首次下载若需本机代理，可在 PowerShell 设置
+`$env:https_proxy='http://127.0.0.1:10808'` 和同值 `http_proxy`；端口仅为本机提示。
+
+## 如何理解完成程度
+
+`nonpositive_of_existence` 检查的是：双次数下降、零双次数有效刚性、以及
+**非零有效除子**存在性共同推出固定 Weil 型非正。其假设尚未在实际算术平方上构造。
+`rh_of_existence` 另依赖尚未形式证明的经典 Weil 判据。
+`BareExistenceProblem` 只是抽象接口的存在量词，没有提供见证；其本身并不编码
+与 Connes–Consani 算术平方的自然比较。这样的比较必须另证。
+
+局部幺半群、有限 Jensen 提升和 `2 → 3 → 6` 方程复合是可独立检查的基准。
+它们没有自动连到上述存在性假设。蓝图保留这一断点，并将真实研究输入与经典证明待补分开。

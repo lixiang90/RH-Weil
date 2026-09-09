@@ -1,5 +1,10 @@
 # 持续GOAL执行账本：当前周期11
 
+> 2026-09-09 最新指令覆盖：暂停下述原持续研究，先完成
+> [F₁ Lean + mathlib 形式化蓝图](../formal/README.md)。允许中间 `sorry`，
+> mathlib 之外的外部依赖源码保存于 `formal/vendor`。
+> 本次框架验收不等于原较远期目标完成；以下 active 等状态为暂停前历史记录。
+
 2026-09-08更新。起点main 17c0774e0652f72ffaf9192f1f760c4294226caf。
 [第十一次目标修订](GOAL.20260906.md)继续同一个持续GOAL；[phase3历史](archive/PROGRESS.phase3.md)保留。
 

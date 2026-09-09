@@ -1,0 +1,125 @@
+import Qq
+open Qq Lean
+
+partial def summands {α : Q(Type $u)} (inst : Q(Add $α)) :
+    Q($α) → MetaM (List Q($α))
+  | ~q($x + $y) => return (← summands inst x) ++ (← summands inst y)
+  | n => return [n]
+
+opaque k : Nat
+opaque m : Nat
+
+abbrev double (a : Nat) := a + a
+
+/-- info: [Expr.const `k [], Expr.const `k [], Expr.const `m []] -/
+#guard_msgs in
+#eval summands q(inferInstance) q(double k + m)
+
+/--
+info: false
+---
+trace: x : Q(Nat) := q(k + m)
+a b : Q(Nat)
+match_eq✝ : (k + m) =Q «$a».add «$b»
+⊢ Bool
+-/
+#guard_msgs in
+#eval show MetaM Bool from do
+  let x : Q(Nat) := q(k + m)
+  match x with
+  | ~q(Nat.add $a $b) => return by trace_state; exact true
+  | _ => return false
+
+abbrev square (a : Nat) :=
+  have : Add Nat := ⟨(· * ·)⟩
+  a + a
+
+/-- info: 100 -/
+#guard_msgs in
+#eval square 10
+/--
+info: [Expr.const `k [], (Expr.const `square []).app ((Expr.const `square []).app (Expr.const `k []))]
+-/
+#guard_msgs in
+#eval summands q(inferInstance) q(k + square (square k))
+/--
+info: [((((((Expr.const `HMul.hMul [Level.zero, Level.zero, Level.zero]).app (Expr.const `Nat [])).app
+                    (Expr.const `Nat [])).app
+                (Expr.const `Nat [])).app
+            (((Expr.const `instHMul [Level.zero]).app (Expr.const `Nat [])).app (Expr.const `instMulNat []))).app
+        (Expr.const `k [])).app
+    ((Expr.const `square []).app ((Expr.const `square []).app (Expr.const `k [])))]
+-/
+#guard_msgs in
+#eval summands q(⟨(· * ·)⟩) q(k * square (square k))
+
+def matchProd (e : Nat × Q(Nat)) : MetaM Bool := do
+  let (2, ~q(1)) := e | return false
+  return true
+
+#eval do guard <| (←matchProd (2, q(1))) == true
+#eval do guard <| (←matchProd (1, q(1))) == false
+#eval do guard <| (←matchProd (2, q(2))) == false
+
+def matchNatSigma (e : (n : Q(Type)) × Q($n)) : MetaM (Option Q(Nat)) := do
+  let ⟨~q(Nat), ~q($n)⟩ := e | return none
+  return some n
+
+#eval do guard <| (← matchNatSigma ⟨q(Nat), q(1)⟩) == some q(1)
+#eval do guard <| (← matchNatSigma ⟨q(Nat), q(2)⟩) == some q(2)
+#eval do guard <| (← matchNatSigma ⟨q(Int), q(2)⟩) == none
+
+
+/-- Given `x + y` of Nat, returns `(x, y)`. Otherwise fail. -/
+def getNatAdd (e : Expr) : MetaM (Option (Q(Nat) × Q(Nat))) := do
+  let ⟨Level.succ Level.zero, ~q(Nat), ~q($a + $b)⟩ ← inferTypeQ e | return none
+  return some (a, b)
+
+#eval do guard <| (← getNatAdd q(1 + 2)) == some (q(1), q(2))
+#eval do guard <| (← getNatAdd q((1 + 2 : Int))) == none
+
+def pairLit (u : Lean.Level) (α : Q(Type u)) (a : Q($α)) : MetaM Q($α × $α) := do
+  match u, α, a with
+  | 0, ~q(Nat), n => return q(($n, $n))
+  | 0, ~q(Int), z => return q(($z, $z))
+  | _, _, _ => failure
+
+#eval show MetaM Unit from do guard <| (←pairLit _ _ q(2)) == q((2, 2))
+
+-- `generalizing := true` is a no-op
+def pairLit' (u : Lean.Level) (α : Q(Type u)) (a : Q($α)) : MetaM Q($α × $α) := do
+  match (generalizing := true) u, α, a with
+  | 0, ~q(Nat), n => return q(($n, $n))
+  | 0, ~q(Int), z => return q(($z, $z))
+  | _, _, _ => failure
+
+#eval show MetaM Unit from do guard <| (←pairLit' _ _ q(2)) == q((2, 2))
+
+section RegressionLetMVar
+
+inductive Result' : Type | isInst (inst : Expr) | other
+deriving Inhabited
+
+def Result {α : Q(Type u)} (_x : Q($α)) : Type := Result'
+
+@[match_pattern, inline] def Result.isInst {α : Q(Type u)} {x : Q($α)} :
+    ∀ (_inst : Q(Inhabited $α) := by assumption), Result x :=
+  Result'.isInst
+
+def derive {α : Q(Type u)} (_e : Q($α)) : MetaM (Result _e) := pure .other
+
+def DummyP (_α : Type) (_x : Int) : Prop := True
+
+-- IsSquare-style `match ← derive a with | .ctor _ => use | _ => …` inside a
+-- whole-pattern `~q(...)` outer match.
+def regressionLetMVar {u : Level} {αP : Q(Type u)} (e : Q($αP)) : MetaM Unit := do
+  match u, αP, e with
+  | 0, ~q(Prop), ~q(@DummyP Int $a) => do
+    match ← derive a with
+    | .isInst sa =>
+      let _ : Q(Inhabited Int) := q(($sa : Inhabited Int))
+      pure ()
+    | _ => failure
+  | _ => failure
+
+end RegressionLetMVar

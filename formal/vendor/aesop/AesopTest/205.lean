@@ -1,0 +1,32 @@
+/-
+Copyright (c) 2025 Jannis Limperg. All rights reserved.
+Released under Apache 2.0 license as described in the file LICENSE.
+Authors: Jannis Limperg
+-/
+
+-- Thanks to Bruno Dutertre for reporting this bug.
+
+import Aesop
+
+axiom R {α} : α → α → Prop
+
+@[aesop safe forward] axiom sym : R x y → R y x
+@[aesop safe forward] axiom tran : R x y → R y z → R x z
+
+/--
+info: Try this:
+
+  [apply]     have fwd : R a x := sym h₂
+    have fwd_1 : R b y := sym h₃
+    have fwd_2 : R a a := tran fwd h₂
+    have fwd_3 : R y y := tran h₃ fwd_1
+    have fwd_4 : R b b := tran fwd_1 h₃
+    have fwd_5 : R x x := tran h₂ fwd
+    sorry
+---
+warning: declaration uses `sorry`
+-/
+#guard_msgs in
+example (α : Type u_1) (x y a b : α) (h₂ : R x a) (h₃ : R y b) : False := by
+  aesop? (rule_sets := [-builtin]) (config := { warnOnNonterminal := false })
+  sorry

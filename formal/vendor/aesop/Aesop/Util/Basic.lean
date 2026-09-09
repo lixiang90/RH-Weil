@@ -1,0 +1,541 @@
+/-
+Copyright (c) 2021 Jannis Limperg. All rights reserved.
+Released under Apache 2.0 license as described in the file LICENSE.
+Authors: Jannis Limperg, Asta Halkjær From
+-/
+module
+
+public import Aesop.Nanos
+public import Aesop.Util.UnorderedArraySet
+public import Lean.Meta.DiscrTree.Util
+public import Lean.Meta.Tactic.Simp.SimpTheorems
+public import Lean.Util.ForEachExpr
+public import Lean.Elab.Tactic.Basic
+public import Aesop.Index.DiscrTreeConfig
+import Lean.Meta.Tactic.TryThis
+
+public section
+
+open Lean Lean.Meta Lean.Elab Lean.Elab.Term Lean.Elab.Tactic
+
+namespace Aesop
+
+@[inline]
+def time [Monad m] [MonadLiftT BaseIO m] (x : m α) : m (α × Aesop.Nanos) := do
+  let start ← IO.monoNanosNow
+  let a ← x
+  let stop ← IO.monoNanosNow
+  return (a, ⟨stop - start⟩)
+
+@[inline]
+def time' [Monad m] [MonadLiftT BaseIO m] (x : m Unit) : m Aesop.Nanos := do
+  let start ← IO.monoNanosNow
+  x
+  let stop ← IO.monoNanosNow
+  return ⟨stop - start⟩
+
+namespace PersistentHashSet
+
+variable [BEq α] [Hashable α]
+
+-- Elements are returned in unspecified order.
+@[inline]
+def toList (s : PersistentHashSet α) : List α :=
+  s.fold (init := []) λ as a => a :: as
+
+-- Elements are returned in unspecified order. (In fact, they are currently
+-- returned in reverse order of `toList`.)
+@[inline]
+def toArray (s : PersistentHashSet α) : Array α :=
+  s.fold (init := #[]) λ as a => as.push a
+
+def toHashSet (s : PHashSet α) : Std.HashSet α :=
+  s.fold (init := ∅) fun result a ↦ result.insert a
+
+def filter (p : α → Bool) (s : PHashSet α) : PHashSet α :=
+  s.fold (init := s) λ s a => if p a then s else s.erase a
+
+end PersistentHashSet
+
+section DiscrTree
+
+open DiscrTree
+
+/-
+For `type = ∀ (x₁, ..., xₙ), T`, returns keys that match `T * ... *` (with
+`n` stars).
+-/
+def getConclusionDiscrTreeKeys (type : Expr) : MetaM (Array Key) :=
+  withoutModifyingState do
+    let (_, _, conclusion) ← forallMetaTelescope type
+    mkDiscrTreePath conclusion
+    -- We use a meta telescope because `DiscrTree.mkPath` ignores metas (they
+    -- turn into `Key.star`) but not fvars.
+
+def isEmptyTrie : Trie α → Bool
+  | .node vs children => vs.isEmpty && children.isEmpty
+
+@[specialize]
+private partial def filterTrieM [Monad m] [Inhabited σ] (f : σ → α → m σ)
+    (p : α → m (ULift Bool)) (init : σ) : Trie α → m (Trie α × σ)
+  | .node vs children => do
+    let (vs, acc) ← vs.foldlM (init := (#[], init)) λ (vs, acc) v => do
+      if (← p v).down then
+        return (vs.push v, acc)
+      else
+        return (vs, ← f acc v)
+    let (children, acc) ← go acc 0 children
+    let children := children.filter λ (_, c) => ! isEmptyTrie c
+    return (.node vs children, acc)
+  where
+    go (acc : σ) (i : Nat) (children : Array (Key × Trie α)) :
+        m (Array (Key × Trie α) × σ) := do
+      if h : i < children.size then
+        let (key, t) := children[i]'h
+        let (t, acc) ← filterTrieM f p acc t
+        go acc (i + 1) (children.set i (key, t))
+      else
+        return (children, acc)
+
+/--
+Remove elements for which `p` returns `false` from the given `DiscrTree`.
+The removed elements are monadically folded over using `f` and `init`, so `f`
+is called once for each removed element and the final state of type `σ` is
+returned.
+-/
+@[specialize]
+def filterDiscrTreeM [Monad m] [Inhabited σ] (p : α → m (ULift Bool))
+    (f : σ → α → m σ) (init : σ) (t : DiscrTree α) :
+    m (DiscrTree α × σ) := do
+  let (root, acc) ←
+    t.root.foldlM (init := (.empty, init)) λ (root, acc) key t => do
+      let (t, acc) ← filterTrieM f p acc t
+      let root := if isEmptyTrie t then root else root.insert key t
+      return (root, acc)
+  return (⟨root⟩, acc)
+
+/--
+Remove elements for which `p` returns `false` from the given `DiscrTree`.
+The removed elements are folded over using `f` and `init`, so `f` is called
+once for each removed element and the final state of type `σ` is returned.
+-/
+def filterDiscrTree [Inhabited σ] (p : α → Bool) (f : σ → α → σ) (init : σ)
+    (t : DiscrTree α) : DiscrTree α × σ := Id.run $
+  filterDiscrTreeM (λ a => pure ⟨p a⟩) (λ s a => pure (f s a)) init t
+
+end DiscrTree
+
+namespace SimpTheorems
+
+def addSimpEntry (s : SimpTheorems) : SimpEntry → SimpTheorems
+  | SimpEntry.thm l =>
+    { s.addSimpTheorem l with erased := s.erased.erase l.origin }
+  | SimpEntry.toUnfold d =>
+    { s with toUnfold := s.toUnfold.insert d }
+  | SimpEntry.toUnfoldThms n thms => s.registerDeclToUnfoldThms n thms
+
+def foldSimpEntriesM [Monad m] (f : σ → SimpEntry → m σ) (init : σ)
+    (thms : SimpTheorems) : m σ := do
+  let s ← thms.pre.foldValuesM  (init := init) processTheorem
+  let s ← thms.post.foldValuesM (init := s)    processTheorem
+  let s ← thms.toUnfold.foldM (init := s) λ s n => f s (SimpEntry.toUnfold n)
+  thms.toUnfoldThms.foldlM (init := s) λ s n thms =>
+    f s (SimpEntry.toUnfoldThms n thms)
+  where
+    @[inline]
+    processTheorem (s : σ) (thm : SimpTheorem) : m σ :=
+      if thms.erased.contains thm.origin then
+        return s
+      else
+        f s (SimpEntry.thm thm)
+
+def foldSimpEntries (f : σ → SimpEntry → σ) (init : σ) (thms : SimpTheorems) :
+    σ :=
+  Id.run $ foldSimpEntriesM f init thms
+
+def simpEntries (thms : SimpTheorems) : Array SimpEntry :=
+  foldSimpEntries (thms := thms) (init := #[]) λ s thm => s.push thm
+
+def containsDecl (thms : SimpTheorems) (decl : Name) : Bool :=
+  thms.isLemma (.decl decl) ||
+  thms.isDeclToUnfold decl ||
+  thms.toUnfoldThms.contains decl
+
+end SimpTheorems
+
+
+section ForEachExpr
+
+variable {ω : Type} {m : Type → Type} [STWorld ω m] [MonadLiftT (ST ω) m]
+    [Monad m] [MonadControlT MetaM m] [MonadLiftT MetaM m]
+
+def forEachExprInLDeclCore (ldecl : LocalDecl) (g : Expr → m Bool) :
+    MonadCacheT Expr Unit m Unit := do
+  if ! ldecl.isImplementationDetail then
+    ForEachExpr.visit g ldecl.toExpr
+    ForEachExpr.visit g ldecl.type
+    if let some value := ldecl.value? then
+      ForEachExpr.visit g value
+
+@[inline, always_inline]
+def forEachExprInLDecl' (ldecl : LocalDecl) (g : Expr → m Bool) :
+    m Unit :=
+  forEachExprInLDeclCore ldecl g |>.run
+
+@[inline, always_inline]
+def forEachExprInLDecl (ldecl : LocalDecl) (g : Expr → m Unit) :
+    m Unit :=
+  forEachExprInLDeclCore ldecl (λ e => do g e; return true) |>.run
+
+@[inline, always_inline]
+def forEachExprInLCtxCore (lctx : LocalContext) (g : Expr → m Bool) :
+    MonadCacheT Expr Unit m Unit :=
+  for ldecl in lctx do
+    forEachExprInLDeclCore ldecl g
+
+@[inline, always_inline]
+def forEachExprInLCtx' (mvarId : MVarId) (g : Expr → m Bool) : m Unit :=
+  mvarId.withContext do
+    forEachExprInLCtxCore (← mvarId.getDecl).lctx g |>.run
+
+@[inline, always_inline]
+def forEachExprInLCtx (mvarId : MVarId) (g : Expr → m Unit) : m Unit :=
+  forEachExprInLCtx' mvarId (λ e => do g e; return true)
+
+@[inline, always_inline]
+def forEachExprInGoalCore (mvarId : MVarId) (g : Expr → m Bool) :
+    MonadCacheT Expr Unit m Unit :=
+  mvarId.withContext do
+    forEachExprInLCtxCore (← mvarId.getDecl).lctx g
+    ForEachExpr.visit g (← mvarId.getType)
+
+@[inline, always_inline]
+def forEachExprInGoal' (mvarId : MVarId) (g : Expr → m Bool) : m Unit :=
+  forEachExprInGoalCore mvarId g |>.run
+
+@[inline, always_inline]
+def forEachExprInGoal (mvarId : MVarId) (g : Expr → m Unit) : m Unit :=
+  forEachExprInGoal' mvarId λ e => do g e; return true
+
+end ForEachExpr
+
+
+@[inline]
+def setThe (σ) {m} [MonadStateOf σ m] (s : σ) : m PUnit :=
+  MonadStateOf.set s
+
+@[inline]
+def runMetaMAsCoreM (x : MetaM α) : CoreM α :=
+  Prod.fst <$> x.run {} {}
+
+@[inline]
+def runTermElabMAsCoreM (x : Elab.TermElabM α) : CoreM α :=
+  runMetaMAsCoreM x.run'
+
+def runTacticMAsMetaM (x : TacticM α) (goals : List MVarId) :
+    MetaM (α × List MVarId) := do
+  let (a, s) ← x |>.run { elaborator := .anonymous } |>.run { goals } |>.run'
+  return (a, s.goals)
+
+def runTacticSyntaxAsMetaM (stx : Syntax) (goals : List MVarId) :
+    MetaM (List MVarId) :=
+  return (← runTacticMAsMetaM (evalTactic stx) goals).snd
+
+def updateSimpEntryPriority (priority : Nat) (e : SimpEntry) : SimpEntry :=
+  match e with
+  | .thm t => .thm { t with priority }
+  | .toUnfoldThms .. | .toUnfold .. => e
+
+partial def hasSorry [Monad m] [MonadMCtx m] (e : Expr) : m Bool :=
+  return go (← getMCtx) e
+where
+  go (mctx : MetavarContext) (e : Expr) : Bool :=
+    Option.isSome $ e.find? λ e =>
+      if e.isSorry then
+        true
+      else if let .mvar mvarId := e then
+        if let some ass := mctx.getExprAssignmentCore? mvarId then
+          go mctx ass
+        else if let some ass := mctx.dAssignment.find? mvarId then
+          go mctx $ .mvar ass.mvarIdPending
+        else
+          false
+      else
+        false
+
+def isAppOfUpToDefeq (f : Expr) (e : Expr) : MetaM Bool :=
+  withoutModifyingState do
+    let type ← inferType f
+    let (mvars, _, _) ← forallMetaTelescope type
+    let app := mkAppN f mvars
+    if ← isDefEq app e then
+      return true
+    else
+      return false
+
+/--
+If the input expression `e` reduces to `f x₁ ... xₙ` via repeated `whnf`, this
+function returns `f` and `[x₁, ⋯, xₙ]`. Otherwise it returns `e` (unchanged, not
+in WHNF!) and `[]`.
+-/
+partial def getAppUpToDefeq (e : Expr) : MetaM (Expr × Array Expr) :=
+  go #[] e
+where
+  go (args : Array Expr) (e : Expr) : MetaM (Expr × Array Expr) := do
+    match ← whnf e with
+    | .app f e => go (args.push e) f
+    | _ => return (e, args.reverse)
+
+/--
+Partition an array of structures containing `MVarId`s into 'goals' and
+'proper mvars'. An `MVarId` from the input array `goals` is classified as a
+proper mvar if any of the `MVarId`s depend on it, and as a goal otherwise.
+Additionally, for each goal, we report the set of mvars that the goal depends
+on.
+-/
+def partitionGoalsAndMVars (mvarId : α → MVarId) (goals : Array α) :
+    MetaM (Array (α × UnorderedArraySet MVarId) × UnorderedArraySet MVarId) := do
+  let mut goalsAndMVars := #[]
+  let mut mvars : UnorderedArraySet MVarId := {}
+  for g in goals do
+    let gMVars ← .ofHashSet <$> (mvarId g).getMVarDependencies
+    mvars := mvars.merge gMVars
+    goalsAndMVars := goalsAndMVars.push (g, gMVars)
+  let goals :=
+    if mvars.isEmpty then
+      goalsAndMVars
+    else
+      goalsAndMVars.filter λ (g, _) => ! mvars.contains (mvarId g)
+  return (goals, mvars)
+
+section RunTactic
+
+open Lean.Elab.Tactic
+
+def runTacticMCapturingPostState (t : TacticM Unit) (preState : Meta.SavedState)
+    (preGoals : List MVarId) : MetaM (Meta.SavedState × List MVarId) :=
+  withoutModifyingState do
+    let go : TacticM (Meta.SavedState × List MVarId) := do
+      preState.restore
+      t
+      pruneSolvedGoals
+      let postState ← show MetaM _ from saveState
+      let postGoals ← getGoals
+      pure (postState, postGoals)
+    go |>.run { elaborator := .anonymous, recover := false }
+       |>.run' { goals := preGoals }
+       |>.run'
+
+def runTacticCapturingPostState (t : Syntax.Tactic) (preState : Meta.SavedState)
+    (preGoals : List MVarId) : MetaM (Meta.SavedState × List MVarId) := do
+  runTacticMCapturingPostState (evalTactic t) preState preGoals
+
+def runTacticSeqCapturingPostState (t : TSyntax ``Lean.Parser.Tactic.tacticSeq)
+    (preState : Meta.SavedState) (preGoals : List MVarId) :
+    MetaM (Meta.SavedState × List MVarId) := do
+  runTacticMCapturingPostState (evalTactic t) preState preGoals
+
+def runTacticsCapturingPostState (ts : Array Syntax.Tactic)
+    (preState : Meta.SavedState) (preGoals : List MVarId) :
+    MetaM (Meta.SavedState × List MVarId) := do
+  let t ← `(Lean.Parser.Tactic.tacticSeq| $ts*)
+  runTacticSeqCapturingPostState t preState preGoals
+
+end RunTactic
+
+section TransparencySyntax
+
+variable [Monad m] [MonadQuotation m]
+
+open Parser.Tactic
+
+def withAllTransparencySeqSyntax (md : TransparencyMode)
+    (k : TSyntax ``tacticSeq) : TSyntax ``tacticSeq :=
+  match md with
+  | .all => Unhygienic.run `(tacticSeq| with_unfolding_all $k)
+  | _ => k
+
+def withAllTransparencySyntax (md : TransparencyMode) (k : TSyntax `tactic) :
+    TSyntax `tactic :=
+  match md with
+  | .all  => Unhygienic.run `(tactic| with_unfolding_all $k:tactic)
+  | _     => k
+
+end TransparencySyntax
+
+/--
+Register a "Try this" suggestion for a tactic sequence.
+
+It works when the tactic to replace appears on its own line:
+
+```lean
+by
+  aesop?
+```
+
+It doesn't work (i.e., the suggestion will appear but in the wrong place) when
+the tactic to replace is preceded by other text on the same line:
+
+```lean
+have x := by aesop?
+```
+
+The `Try this:` suggestion in the infoview is not correctly formatted, but
+there's nothing we can do about this at the moment.
+-/
+def addTryThisTacticSeqSuggestion (ref : Syntax)
+    (suggestion : TSyntax ``Lean.Parser.Tactic.tacticSeq)
+    (origSpan? : Option Syntax := none) : MetaM Unit := do
+  let fmt ← PrettyPrinter.ppCategory ``Lean.Parser.Tactic.tacticSeq suggestion
+  let msgText := fmt.pretty (indent := 0) (column := 0)
+  if let some range := (origSpan?.getD ref).getRange? then
+    let map ← getFileMap
+    let (indent, column) := Lean.Meta.Tactic.TryThis.getIndentAndColumn map range
+    let text := fmt.pretty (indent := indent) (column := column)
+    let suggestion := {
+      -- HACK: The `tacticSeq` syntax category is pretty-printed with each line
+      -- indented by two spaces (for some reason), so we remove this
+      -- indentation.
+      suggestion := .string $ dedent text
+      toCodeActionTitle? := some λ _ => "Replace aesop with the proof it found"
+      messageData? := some msgText
+      preInfo? := "  "
+    }
+    Lean.Meta.Tactic.TryThis.addSuggestion ref suggestion (origSpan? := origSpan?)
+      (header := "Try this:\n")
+where
+  dedent (s : String) : String :=
+    s.splitOn "\n"
+    |>.map (λ line => line.dropPrefix? "  " |>.map (·.toString) |>.getD line)
+    |> String.intercalate "\n"
+
+open Lean.Elab Lean.Elab.Term in
+def elabPattern (stx : Syntax) : TermElabM Expr :=
+  withRef stx $ withReader adjustCtx $ withSynthesize $ elabTerm stx none
+  where
+    adjustCtx (old : Term.Context) : Term.Context := {
+      old with
+      mayPostpone := false
+      errToSorry := false
+      autoBoundImplicitContext := none
+      sectionVars := {}
+      sectionFVars := {}
+      isNoncomputableSection := false
+      ignoreTCFailures := true
+      inPattern := true
+      saveRecAppSyntax := false
+      holesAsSyntheticOpaque := false
+    }
+
+register_option aesop.smallErrorMessages : Bool := {
+    defValue := false
+    descr := "(aesop) Print smaller error messages. Used for testing."
+  }
+
+def tacticsToMessageData (ts : Array Syntax.Tactic) : MessageData :=
+  MessageData.joinSep (ts.map toMessageData |>.toList) "\n"
+
+/--
+Note: the returned local context contains invalid `LocalDecl`s.
+-/
+def getUnusedNames (lctx : LocalContext) (suggestions : Array Name) : Array Name × LocalContext :=
+  go 0 (Array.mkEmpty suggestions.size) lctx
+where
+  go (i : Nat) (acc : Array Name) (lctx : LocalContext) : Array Name × LocalContext :=
+    if h : i < suggestions.size then
+      let name := lctx.getUnusedName suggestions[i]
+      let lctx := lctx.addDecl $ dummyLDecl name
+      go (i + 1) (acc.push name) lctx
+    else
+      (acc, lctx)
+
+  dummyLDecl (name : Name) : LocalDecl :=
+    .cdecl 0 ⟨`_⟩ name (.sort .zero) .default .default
+
+def Name.ofComponents (cs : List Name) : Name :=
+  cs.foldl (init := .anonymous) λ
+    | result, .str _ s => .str result s
+    | result, .num _ n => .num result n
+    | result, .anonymous => result
+
+@[macro_inline, expose]
+def withExceptionTransform [Monad m] [MonadError m]
+    (f : MessageData → MessageData) (x : m α) : m α := do
+  try
+    x
+  catch e =>
+    match e with
+    | .internal _ _ => throw e
+    | .error ref msg => throw $ .error ref (f msg)
+
+@[macro_inline, expose]
+def withExceptionPrefix [Monad m] [MonadError m] (pre : MessageData) :
+    m α → m α :=
+  withExceptionTransform (λ msg => pre ++ msg)
+
+def withPPAnalyze [Monad m] [MonadWithOptions m] (x : m α) : m α :=
+  withOptions (·.setBool `pp.analyze true |>.setBool `pp.proofs true) x
+  -- `pp.proofs` works around lean4#6216
+
+-- TODO upstream
+scoped instance [MonadCache α β m] : MonadCache α β (StateRefT' ω σ m) where
+  findCached? a := MonadCache.findCached? (m := m) a
+  cache a b := MonadCache.cache (m := m) a b
+
+/-- A generalized variant of `Meta.SavedState.runMetaM` -/
+def runInMetaState [Monad m] [MonadLiftT MetaM m] [MonadFinally m]
+    (s : Meta.SavedState) (x : m α) : m α := do
+  let initialState ← show MetaM _ from saveState
+  try
+    s.restore
+    x
+  finally
+    initialState.restore
+
+def lBoolOr : (x y : LBool) → LBool
+  | .true, _ => .true
+  | .false, y => y
+  | .undef, .true => .true
+  | .undef, _ => .undef
+
+-- Core's `arrayOrd` goes through lists. -.-
+def compareArrayLex (cmp : α → α → Ordering) (xs ys : Array α) :
+    Ordering := Id.run do
+  let s := max xs.size ys.size
+  for i in [:s] do
+    if let some x := xs[i]? then
+      if let some y := ys[i]? then
+        let c := cmp x y
+        if c.isNe then
+          return c
+      else
+        return .gt
+    else
+      return .lt
+  return .eq
+
+def compareArraySizeThenLex (cmp : α → α → Ordering) (xs ys : Array α) :
+    Ordering :=
+  compare xs.size ys.size |>.then $
+  compareArrayLex cmp xs ys
+
+scoped instance [MonadParentDecl m] : MonadParentDecl (ReaderT ρ m) where
+  getParentDeclName? := liftM (m := m) getParentDeclName?
+
+scoped instance [MonadParentDecl m] : MonadParentDecl (StateRefT' ω σ m) where
+  getParentDeclName? := liftM (m := m) getParentDeclName?
+
+def isDefEqReducibleRigid (s t : Expr) : MetaM Bool :=
+  withTraceNodeBefore `aesop.forward.debug (fun _ => return m!"{s} ≟ {t}") do
+  withNewMCtxDepth do
+  withReducible do
+    isDefEq s t
+
+def isHypRedundantReducibleRigid (type : Expr) : MetaM Bool := do
+  withNewMCtxDepth do
+  withReducible do
+    (← getLCtx).anyM fun ldecl =>
+      pure (! ldecl.isImplementationDetail) <&&>
+      isDefEq type ldecl.type
+
+end Aesop

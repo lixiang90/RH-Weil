@@ -1,0 +1,18 @@
+on:
+  pull_request:
+  push:
+
+name: ci
+
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5.0.0
+
+      - id: lean-action
+        name: build, and test quote
+        uses: leanprover/lean-action@f807b338d95de7813c5c50d018f1c23c9b93b4ec # v1.2.0
+        with:
+          build-args: '--wfail'

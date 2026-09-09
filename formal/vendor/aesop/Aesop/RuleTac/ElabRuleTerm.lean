@@ -1,0 +1,120 @@
+/-
+Copyright (c) 2024 Jannis Limperg. All rights reserved.
+Released under Apache 2.0 license as described in the file LICENSE.
+Authors: Jannis Limperg
+-/
+module
+
+public import Lean.Elab.Tactic.Basic
+public import Lean.Meta.Tactic.Simp.Simproc
+public import Aesop.ElabM
+import Lean.Elab.Tactic.Simp
+
+public section
+
+open Lean Lean.Meta Lean.Elab.Term Lean.Elab.Tactic
+
+namespace Aesop
+
+def elabGlobalRuleIdent? (stx : Term) : TermElabM (Option Name) :=
+  try
+    if ! stx.raw.isIdent then
+      return none
+    let some (.const n _) ← resolveId? stx
+      | return none
+    return some n
+  catch _ =>
+    return none
+
+def matchInductiveTypeSynonym? (decl : Name) : MetaM (Option InductiveVal) :=
+  withoutModifyingState do
+    let decl ← mkConstWithFreshMVarLevels decl
+    let type ← inferType decl
+    forallTelescope type λ args _ => do
+      let app ← whnf <| mkAppN decl args
+      let .const redDecl _ := app.getAppFn'
+        | return none
+      try
+        getConstInfoInduct redDecl
+      catch _ =>
+        return none
+
+/-- Elaborate an identifier for a rule that applies to inductive types, e.g.
+`cases`. The identifier must unambiguously refer to a global constant that is
+either an inductive type or reduces to one. For the reduction test, we use
+the larger transparency among `default` and `md`. -/
+def elabInductiveRuleIdent? (stx : Term) (md : TransparencyMode) :
+    TermElabM (Option (Name × InductiveVal)) := do
+  let some decl ← elabGlobalRuleIdent? stx
+    | return none
+  let indVal? ←
+    try
+      some <$> getConstInfoInduct decl
+    catch _ =>
+      withAtLeastTransparency md do
+        matchInductiveTypeSynonym? decl
+  return indVal?.map ((decl, ·))
+
+-- HACK: We ignore the output goals, so this is only likely to work for
+-- functions that might as well be in `TermElabM`.
+def runTacticMAsTermElabM (goal : MVarId) (x : TacticM α) : TermElabM α := do
+  x.run { elaborator := .anonymous } |>.run' { goals := [goal] }
+
+-- HACK: We ignore the output goals, so this is only likely to work for
+-- functions that might as well be in `TermElabM`.
+def runTacticMAsElabM (x : TacticM α) : ElabM α := do
+  runTacticMAsTermElabM (← read).goal x
+
+def withFullElaboration (x : TermElabM α) : TermElabM α :=
+  withSynthesize $ withoutErrToSorry $ withoutAutoBoundImplicit x
+
+def elabRuleTermForApplyLikeCore (goal : MVarId) (stx : Term): TermElabM Expr :=
+  withFullElaboration $ runTacticMAsTermElabM goal do
+    elabTermForApply stx (mayPostpone := false)
+
+def elabRuleTermForApplyLikeMetaM (goal : MVarId) (stx : Term) : MetaM Expr :=
+  elabRuleTermForApplyLikeCore goal stx |>.run'
+
+def elabRuleTermForApplyLike (stx : Term) : ElabM Expr := do
+  elabRuleTermForApplyLikeCore (← read).goal stx
+
+-- `stx` is of the form `"[" simpTheorem,* "]"`
+def elabSimpTheorems (stx : Syntax) (ctx : Simp.Context)
+    (simprocs : Simp.SimprocsArray) (isSimpAll : Bool) :
+    TacticM (Simp.Context × Simp.SimprocsArray) :=
+  withoutRecover do
+    let kind : SimpKind := if isSimpAll then .simpAll else .simp
+    let result ←
+      elabSimpArgs stx ctx simprocs (eraseLocal := true) (kind := kind)
+    if result.simpArgs.any fun | (_, .star) => true | _ => false then
+      throwError "aesop: simp builder currently does not support wildcard '*'"
+    return (result.ctx, result.simprocs)
+
+-- HACK: This produces the syntax "[" lemmas,* "]" which is parsed by
+-- `elabSimpArgs`. This syntax doesn't have an associated parser, so I don't
+-- know how to ensure that the produced syntax is valid.
+def mkSimpArgs (simpTheorem : Term) : Syntax :=
+  mkNullNode #[
+    mkAtom "[",
+    mkNullNode
+      #[Unhygienic.run `(Lean.Parser.Tactic.simpLemma| $simpTheorem:term)],
+    mkAtom "]"
+  ]
+
+def elabRuleTermForSimpCore (goal : MVarId) (term : Term) (ctx : Simp.Context)
+    (simprocs : Simp.SimprocsArray) (isSimpAll : Bool) :
+    TermElabM (Simp.Context × Simp.SimprocsArray) := do
+  withFullElaboration $ runTacticMAsTermElabM goal do
+    elabSimpTheorems (mkSimpArgs term) ctx simprocs isSimpAll
+
+def checkElabRuleTermForSimp (term : Term) (isSimpAll : Bool) : ElabM Unit := do
+  let ctx ← Simp.mkContext (simpTheorems := #[{}] )
+  let simprocs := #[{}]
+  discard $ elabRuleTermForSimpCore (← read).goal term ctx simprocs isSimpAll
+
+def elabRuleTermForSimpMetaM (goal : MVarId) (term : Term) (ctx : Simp.Context)
+    (simprocs : Simp.SimprocsArray) (isSimpAll : Bool) :
+    MetaM (Simp.Context × Simp.SimprocsArray) :=
+  elabRuleTermForSimpCore goal term ctx simprocs isSimpAll |>.run'
+
+end Aesop

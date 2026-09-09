@@ -1,0 +1,81 @@
+{
+  "vendor_packages": 8,
+  "vendor_files_verified": 806,
+  "own_lean_files": 10,
+  "explicit_sorry_count": 10,
+  "admissions": [
+    {
+      "file": "F1/Analysis/Jensen.lean",
+      "line": 41,
+      "declaration": "finiteLift_circleIntegrable",
+      "status": "classical_sorry"
+    },
+    {
+      "file": "F1/Analysis/Jensen.lean",
+      "line": 48,
+      "declaration": "jensen_finite_lift",
+      "status": "classical_sorry"
+    },
+    {
+      "file": "F1/Analysis/Jensen.lean",
+      "line": 57,
+      "declaration": "finiteProfile_weakSecond",
+      "status": "classical_sorry"
+    },
+    {
+      "file": "F1/Analysis/Jensen.lean",
+      "line": 63,
+      "declaration": "jensen_one_add_and_sub",
+      "status": "classical_sorry"
+    },
+    {
+      "file": "F1/Analysis/Weil.lean",
+      "line": 58,
+      "declaration": "weil_convergence",
+      "status": "classical_sorry"
+    },
+    {
+      "file": "F1/Analysis/Weil.lean",
+      "line": 68,
+      "declaration": "weilCriterion",
+      "status": "classical_sorry"
+    },
+    {
+      "file": "F1/Arithmetic/PrimeLocalization.lean",
+      "line": 47,
+      "declaration": "mem_primeLocalization_iff",
+      "status": "classical_sorry"
+    },
+    {
+      "file": "F1/Arithmetic/Sheaf.lean",
+      "line": 48,
+      "declaration": "exponentPresheaf_isSheaf",
+      "status": "classical_sorry"
+    },
+    {
+      "file": "F1/Arithmetic/Sheaf.lean",
+      "line": 53,
+      "declaration": "exponent_stalk_at_prime",
+      "status": "classical_sorry"
+    },
+    {
+      "file": "F1/Geometry/ReducedSquare.lean",
+      "line": 37,
+      "declaration": "newtonEquivalent_iff_hull",
+      "status": "classical_sorry"
+    }
+  ],
+  "own_source_sha256": {
+    "F1/Analysis/Jensen.lean": "660d7a745bc88efa80153943207cfd8687191691129bdfcee51c2ab185134e99",
+    "F1/Analysis/Weil.lean": "e09f7542893a9a6a9d2285e9abdb1197fd3e803d88d67f449e512e09408ecfc0",
+    "F1/Arithmetic/FiniteSupport.lean": "33ab336dee414b2ba01ad44dd471b20fef2937aa0426bda5caa7585c7cf11515",
+    "F1/Arithmetic/PrimeLocalization.lean": "8820f3f1ac9142ab1d7a6a025764f8c00840d4c00d100f6860df150dd2dd9872",
+    "F1/Arithmetic/Sheaf.lean": "0f9578df461426adbae28511cde365fd9eb84625b5a353ea762cb30e12868313",
+    "F1/Audit.lean": "d6068ff83d58341a6f4ca75a97d20a18f62ad65fdf25a8b83a15344fb61fc849",
+    "F1/Geometry/Existence.lean": "5821a341993c3ecde29353f6571288a95dbe52714e771fff9e70af8af5f698b9",
+    "F1/Geometry/RationalCorrespondence.lean": "b49c2acb826358c62fca055e80ad80f519da74e5ef5c0f7c736d88a217111cc9",
+    "F1/Geometry/ReducedSquare.lean": "e82658066e1938b8f374db6ca9b77e0d8d8ea96f4b7d40995e0279411b5f4316",
+    "F1.lean": "a1a47eb2c7d9d727c58cdc7caef5b56cff5bdeb6422ce4375502ba043ef58d83"
+  },
+  "scope": "Source inventory only; see Lean build and axiom logs for kernel checks."
+}

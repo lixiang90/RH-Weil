@@ -1,0 +1,44 @@
+import { RpcSessionAtPos } from '@leanprover/infoview'
+
+// This file is DEPRECATED since v0.0.93
+// TODO: Remove this file when removing `ProofWidgets.Cancellable`
+
+type RequestId = string
+type CheckRequestResponse<S> =
+  'running' | { done: { result: S } }
+
+/** Stores a function by reference. */
+export type Fn = {
+  fn: () => void
+}
+
+/** Returns a promise of a response to this request
+ * as well as a function you can call to cancel the request.
+ * The output of a cancelled RPC request is determined by its handler implementation:
+ * it could ignore the cancellation altogether,
+ * return a `null` result,
+ * or throw an error. */
+export function callCancellable<T, S>(rs: RpcSessionAtPos, name: string, params: T):
+    [Promise<S>, Fn] {
+  const cancelFn = {
+    fn: () => {}
+  }
+  const promise = new Promise<S>(async (resolve, reject) => {
+    const id: RequestId = await rs.call(name, params)
+    const i = window.setInterval(async () => {
+      try {
+        const response : CheckRequestResponse<S> = await rs.call('ProofWidgets.checkRequest', id)
+        if (response === 'running') return
+        window.clearInterval(i)
+        resolve(response.done.result)
+      } catch (e) {
+        window.clearInterval(i)
+        reject(e)
+      }
+    }, 100)
+    cancelFn.fn = () => {
+      void rs.call('ProofWidgets.cancelRequest', id)
+    }
+  })
+  return [promise, cancelFn]
+}

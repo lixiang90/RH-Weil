@@ -1,0 +1,13 @@
+name = "Cli"
+defaultTargets = ["Cli"]
+testDriver = "CliTest"
+
+[leanOptions]
+experimental.module = true
+
+[[lean_lib]]
+name = "Cli"
+
+[[lean_lib]]
+name = "CliTest"
+globs = ["CliTest.+"]

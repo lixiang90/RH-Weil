@@ -1,0 +1,43 @@
+name = "rhWeilF1"
+version = "0.1.0"
+defaultTargets = ["F1"]
+
+[[require]]
+name = "batteries"
+path = "vendor/batteries"
+
+[[require]]
+name = "Qq"
+path = "vendor/Qq"
+
+[[require]]
+name = "aesop"
+path = "vendor/aesop"
+
+[[require]]
+name = "proofwidgets"
+path = "vendor/proofwidgets"
+
+[[require]]
+name = "importGraph"
+path = "vendor/importGraph"
+
+[[require]]
+name = "LeanSearchClient"
+path = "vendor/LeanSearchClient"
+
+[[require]]
+name = "plausible"
+path = "vendor/plausible"
+
+[[require]]
+name = "Cli"
+path = "vendor/Cli"
+
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4"
+rev = "905b95818eb32af7874a58b427f50c1711a5e96c"
+
+[[lean_lib]]
+name = "F1"
