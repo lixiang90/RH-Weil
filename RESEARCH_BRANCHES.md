@@ -7,7 +7,7 @@
 | 顺序 | 任务 | 验收与切换 |
 |---|---|---|
 | 已结算 | 旧周期13的iteration-10冻结候选：[364完整验收](notes/364-frozen-integer-candidate-verification.md) | 6237815186边全扫描，13755190失败；最坏边320位真实标量缺口仍严格为正。只排除该表的同word／前缀充分条件 |
-| 当前主线 | F1-EX1：[365](notes/365-f1-rational-comparison-and-witt-coefficients.md)比较正系数Newton层与Witt系数提升；下一步主除子／截面下降 | 允许指定来源及自由存在性；固定ζ及比较要求，保留移动字符／半线性数据，不能将普通复幂映射直接当作算术Frobenius |
+| 当前主线 | F1-EX1：366–368的整族主除子、实际p周期线丛及[theta／系数障碍](notes/368-f1-tropical-theta-and-coefficient-obstruction.md)已独立复核；[369](notes/369-f1-hp-solenoid-unit-slope.md)推进H_p子层及单位斜率，当前未审 | 固定ζ及比较要求；周期对象不等于完整算术平方，全Q频率不能直接接入原文H_p结构层／RR |
 | 必要辅助 | 经典Lean缺口、原始文献及只读独立复核 | 26项既有检查与十个sorry为当前基线；形式化通过不替代实际算术存在性 |
 
 [任务单](goals/NEXT.20260909.md)与[账本](goals/PROGRESS.md)维护当前状态。

@@ -498,3 +498,22 @@ Witt系数、字符族与(93)–(96)，公式页另经渲染核对。
 [365比较记录](../notes/365-f1-rational-comparison-and-witt-coefficients.md)区分
 正系数Newton层的交换方块、全复截面的相消、固定标量化失配及可用的半线性模型。
 未重审所有完备化、全部对应张量积证明或全局RR；下载身份不变，新增核读范围记录于manifest。
+
+## 2026-09-10：字符族主除子、周期线丛与热带theta
+
+2018原件新增核读PDF18–22页Jensen、23–27页Jessen陈述，31–38、42–44及62–65页
+指定轨道／字符命题；相关公式另经渲染核对，见[来源审查](../reviews/2026-09-10/f1-classical-orbit-source-audit.md)。
+2016原件新增核读PDF21–29页的H_p系数、次数、torsion、theta和仿射余循环；
+PDF23页定义及定理经渲染核查。[368](../notes/368-f1-tropical-theta-and-coefficient-obstruction.md)
+记录比较的准确范围，未将热带RR认证为所选复结构层的RR。
+
+**Stacks-Divisors-ed88ff78 — Divisors**
+
+- 作者：The Stacks Project Authors；版本ed88ff78，2026-07-14编译，94页。
+- [本地PDF](background/stacks-divisors-ed88ff78-20260714.pdf)；
+  [原始下载](https://stacks.math.columbia.edu/download/divisors.pdf)；
+  [稳定标签Tag01X1](https://stacks.math.columbia.edu/tag/01X1)。
+- 使用PDF57页的局部环空间正则截面与亚纯层定义，及茎未必等于全商环的警告；
+  该页已渲染核查，全部94页解析通过。未移植scheme专属的维数、平坦性等结论。
+- 原件SHA256为`0527740ac9877baff00aaad784e66aae83ff541dad40d4939028059f9f28a493`；
+  861390字节，获取时间和解析信息见[下载记录](../reviews/2026-09-10/f1-cartier-source-download.json)。

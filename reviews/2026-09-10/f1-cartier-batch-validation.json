@@ -1,0 +1,64 @@
+{
+  "status": "PASS_SAVED_F1_CARTIER_BATCH",
+  "checked_document_links": 790,
+  "unchanged_lean_sources": 11,
+  "original_goal_archive_unchanged": true,
+  "legacy_scan_unchanged": true,
+  "exhaustive_edges_repeated": 0,
+  "git_index_checked_blobs": 18,
+  "document_sha256_raw": {
+    "notes/366-f1-character-family-principal-divisors.md": "f612b7844df294e6329506fbcb39fadc1c630a826f6876db39ed01a89edc3bd4",
+    "notes/367-f1-periodic-cartier-sections.md": "aaade8365ffe5212cfe3eaf895fa4374c48a65e3e097d6e4868b8249ee7ae824",
+    "notes/368-f1-tropical-theta-and-coefficient-obstruction.md": "869f50662360d1aa80d60d01b8559c146b110bddc41e1a6b37dc4e94daa9f6ff",
+    "notes/369-f1-hp-solenoid-unit-slope.md": "0910d785b0a6e981652e4bc874b4f1f9a9f22068c03c3a3a7f9c3ecc826d93b0",
+    "reviews/2026-09-10/f1-character-principal-independent-review.md": "4ea3dea538ee654a1ec7b1e7a8a71a13ce2bc52d5f96b9d5b386467295eab583",
+    "reviews/2026-09-10/f1-classical-orbit-source-audit.md": "b042d6e6ee69db9d47da4b8f8ad0a3242d1d00f8cea1db862aee4f3f130e57a7",
+    "reviews/2026-09-10/f1-periodic-cartier-independent-review.md": "6f9322897a8fa524e2995a2d3fa2a25cd9c3ccbaeb99258b1839374c05a16550",
+    "reviews/2026-09-10/f1-tropical-coefficient-independent-review.md": "0c7faed092b0f7d51c8d8ff7c2d2fbcba07661afe678e31d03b843f0b76e1a36",
+    "reviews/2026-09-10/f1-hp-next-proof-plan.md": "b9ae6df6d9920ec69373044ef0a303642e1b0239126f26ac7562f3778699450e",
+    "README.md": "6c4566c71785f91f37e9600735f1922eae0e4d6bebd711b061639a91a96f6751",
+    "RESEARCH_BRANCHES.md": "d37bba6d854227dc4a402ceb3ce63e850db24e47c619e3f59336140d560716f4",
+    "goals/GOAL.20260909.md": "229699595b13be7855f6700690338b29cafa63fa7acd18cd6b0f00586123d95e",
+    "goals/NEXT.20260909.md": "13780c3a38a352c1b3f055706c5bb1a81b41a1af8219f963c6fcb02deac8947a",
+    "goals/PROGRESS.md": "628bfc0d7954ffb3e814641830ff49a5aec68f9e92eb737e9fc0f3094e547e04",
+    "literature/README.md": "15741f18282b221307b07e7d644b7577624ea4f01fbf623118a7bd102e46d34a"
+  },
+  "document_sha256_lf": {
+    "notes/366-f1-character-family-principal-divisors.md": "f612b7844df294e6329506fbcb39fadc1c630a826f6876db39ed01a89edc3bd4",
+    "notes/367-f1-periodic-cartier-sections.md": "aaade8365ffe5212cfe3eaf895fa4374c48a65e3e097d6e4868b8249ee7ae824",
+    "notes/368-f1-tropical-theta-and-coefficient-obstruction.md": "869f50662360d1aa80d60d01b8559c146b110bddc41e1a6b37dc4e94daa9f6ff",
+    "notes/369-f1-hp-solenoid-unit-slope.md": "0910d785b0a6e981652e4bc874b4f1f9a9f22068c03c3a3a7f9c3ecc826d93b0",
+    "reviews/2026-09-10/f1-character-principal-independent-review.md": "4ea3dea538ee654a1ec7b1e7a8a71a13ce2bc52d5f96b9d5b386467295eab583",
+    "reviews/2026-09-10/f1-classical-orbit-source-audit.md": "b042d6e6ee69db9d47da4b8f8ad0a3242d1d00f8cea1db862aee4f3f130e57a7",
+    "reviews/2026-09-10/f1-periodic-cartier-independent-review.md": "6f9322897a8fa524e2995a2d3fa2a25cd9c3ccbaeb99258b1839374c05a16550",
+    "reviews/2026-09-10/f1-tropical-coefficient-independent-review.md": "0c7faed092b0f7d51c8d8ff7c2d2fbcba07661afe678e31d03b843f0b76e1a36",
+    "reviews/2026-09-10/f1-hp-next-proof-plan.md": "b9ae6df6d9920ec69373044ef0a303642e1b0239126f26ac7562f3778699450e",
+    "README.md": "6c4566c71785f91f37e9600735f1922eae0e4d6bebd711b061639a91a96f6751",
+    "RESEARCH_BRANCHES.md": "d37bba6d854227dc4a402ceb3ce63e850db24e47c619e3f59336140d560716f4",
+    "goals/GOAL.20260909.md": "229699595b13be7855f6700690338b29cafa63fa7acd18cd6b0f00586123d95e",
+    "goals/NEXT.20260909.md": "13780c3a38a352c1b3f055706c5bb1a81b41a1af8219f963c6fcb02deac8947a",
+    "goals/PROGRESS.md": "628bfc0d7954ffb3e814641830ff49a5aec68f9e92eb737e9fc0f3094e547e04",
+    "literature/README.md": "15741f18282b221307b07e7d644b7577624ea4f01fbf623118a7bd102e46d34a"
+  },
+  "sources": [
+    {
+      "file": "f1/cc-scaling-site-1603.03191v1.pdf",
+      "sha256": "47bd7ed3c39fa7837a2f65f826b4957b65a3e9ecfffd02a9ed04c3683d2908b1",
+      "pages": 43
+    },
+    {
+      "file": "f1/cc-complex-lift-1805.10501v1.pdf",
+      "sha256": "0a0b054780b059b2da9183f2cd02f2c77f13d2acf3fae54565a92aef273324d9",
+      "pages": 67
+    },
+    {
+      "file": "background/stacks-divisors-ed88ff78-20260714.pdf",
+      "sha256": "0527740ac9877baff00aaad784e66aae83ff541dad40d4939028059f9f28a493",
+      "pages": 94
+    }
+  ],
+  "scope": "File/link/source preservation only. Mathematical internal review is recorded separately; no RH or global RR certification.",
+  "unreviewed_drafts": [
+    "notes/369-f1-hp-solenoid-unit-slope.md"
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "retrieved_on": "2026-09-06",
-  "scope": "零点比例进展、非循环函数域基准与 Abel 障碍直接文献；归档不等于数学认证；phase 2 插值、密度与正则化算子背景；持续GOAL周期4：实际零密度原始比较及ANTEDB固定快照；2026-09-09：F1算术几何与构造／存在性原始文献；2026-09-10：F1本科背景讲义的Weil猜想教学来源",
+  "scope": "零点比例进展、非循环函数域基准与 Abel 障碍直接文献；归档不等于数学认证；phase 2 插值、密度与正则化算子背景；持续GOAL周期4：实际零密度原始比较及ANTEDB固定快照；2026-09-09：F1算术几何与构造／存在性原始文献；2026-09-10：F1本科背景讲义的Weil猜想教学来源; 2026-09-10：周期Cartier/字符族与热带theta比较来源",
   "entries": [
     {
       "id": "AF-2026",
@@ -962,7 +962,14 @@
       "pdf_metadata_title": "",
       "status": "已有外部构造／背景；选择性核读，非本项目新定理",
       "read_scope": "PDF32页Theorem5.17与连续维数定义：周期轨道RR；未独立复跑完整证明。",
-      "review_note": "../notes/363-f1-arithmetic-geometry-and-existence-audit.md"
+      "review_note": "../notes/363-f1-arithmetic-geometry-and-existence-audit.md",
+      "reading_updates": [
+        {
+          "date": "2026-09-10",
+          "scope": "PDF21–29页§5.1–5.3：Hp系数、阶数、deg/chi主除子条件、theta及仿射余循环；23页定义与定理经渲染。本文重建指定除子的有限斜率方程，不宣称全文RR或全部Pic满性重审。",
+          "note": "notes/368-f1-tropical-theta-and-coefficient-obstruction.md"
+        }
+      ]
     },
     {
       "id": "CC-2018-complex-lift",
@@ -990,6 +997,11 @@
           "date": "2026-09-10",
           "scope": "PDF62–65页§7，尤其(93)–(96)、Propositions7.1–7.2；63–64页渲染核对。核读实际右作用、Witt系数、移动字符及代数近似；不认证所有完备化或全局截面下降。",
           "note": "notes/365-f1-rational-comparison-and-witt-coefficients.md"
+        },
+        {
+          "date": "2026-09-10",
+          "scope": "PDF18–22页Jensen、23–27页Jessen陈述；31–38、42–44、62–65页指定轨道、字符及右作用命题。Jensen公式页20及关键字符公式经渲染；全局算术平方、全部完备化和RR未认证。",
+          "note": "reviews/2026-09-10/f1-classical-orbit-source-audit.md"
         }
       ]
     },
@@ -1081,6 +1093,26 @@
       ],
       "text_characters": 413600,
       "status": "教学背景；核读第25–27节相关固定点、Weil猜想与Frobenius说明；未复核全书证明"
+    },
+    {
+      "id": "Stacks-Divisors-ed88ff78",
+      "category": "background",
+      "authors": "The Stacks Project Authors",
+      "title": "Divisors",
+      "version": "ed88ff78; compiled 2026-07-14",
+      "file": "background/stacks-divisors-ed88ff78-20260714.pdf",
+      "source_url": "https://stacks.math.columbia.edu/tag/01X1",
+      "pdf_url": "https://stacks.math.columbia.edu/download/divisors.pdf",
+      "resolved_pdf_url": "https://stacks.math.columbia.edu/download/divisors.pdf",
+      "download_status": "downloaded",
+      "status": "定义来源；采用局部环空间上的正则截面／亚纯层，不移植scheme专属结论",
+      "sha256": "0527740ac9877baff00aaad784e66aae83ff541dad40d4939028059f9f28a493",
+      "bytes": 861390,
+      "pages": 94,
+      "retrieved_at_utc": "2026-09-09T19:03:36.999902+00:00",
+      "pdf_parse_status": "all pages parsed",
+      "text_characters": 243398,
+      "reading_scope": "PDF57页Tag01X1定义、茎与全商环警告，已渲染核对；全部94页文字解析通过。"
     }
   ],
   "supplement_provenance": [

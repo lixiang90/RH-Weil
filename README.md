@@ -11,7 +11,12 @@
 原第十三版已按原始字节归档。十轮整数候选的[完整独立验收](notes/364-frozen-integer-candidate-verification.md)
 已完成：约62.38亿条控制边全扫，当前候选的同word／前缀充分条件严格失败。
 现以F₁实际几何构造／存在性为主线；[365](notes/365-f1-rational-comparison-and-witt-coefficients.md)
-核对正系数Newton层与Witt系数提升，下一步为主除子／截面下降。
+核对正系数Newton层与Witt系数提升；[366](notes/366-f1-character-family-principal-divisors.md)
+已独立核验整族字符的有限主除子、缩放因子及边界账本。
+[367](notes/367-f1-periodic-cartier-sections.md)构造实际p周期轨道上带截面的线丛，
+[368](notes/368-f1-tropical-theta-and-coefficient-obstruction.md)核对热带theta并定位全Q频率与H_p系数的失配；
+以上三项已完成独立内部复核；[369](notes/369-f1-hp-solenoid-unit-slope.md)为下一子层修复的未审草案。
+所选字符族结构层与完整算术平方／RR的比较仍开放。
 [任务单](goals/NEXT.20260909.md)给出顺序。
 尚无新的RH或无条件比例结论；完整验收与较远期显著进展分开。
 

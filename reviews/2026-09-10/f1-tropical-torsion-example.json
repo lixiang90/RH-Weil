@@ -1,0 +1,23 @@
+{
+  "scope": "Exact rational checks of the explicit p=3 tropical counterexample; no complex meromorphic lift asserted.",
+  "p": 3,
+  "heights": [
+    "1",
+    "2"
+  ],
+  "slopes": [
+    "1/2",
+    "-1/2"
+  ],
+  "orders": [
+    "2",
+    "-2"
+  ],
+  "degree": "0",
+  "Hp_torsion_mod_2": 1,
+  "endpoint_values": [
+    "0",
+    "0"
+  ],
+  "status": "PASS_EXACT_EXAMPLE"
+}

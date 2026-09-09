@@ -132,6 +132,14 @@ Alpöge–Furman 的预印本核对至 arXiv:2608.13637v2（2026-08-19），Lamz
 当前首轮比较见[365](../notes/365-f1-rational-comparison-and-witt-coefficients.md)：
 正系数Newton层可与实际F(n)求值比较，普通复幂映射不能直接识别为2018算术右作用。
 后续保留Witt系数、移动字符和原文半线性提升，推进可容许截面／主除子下降。
+2026-09-10执行续记：[366](../notes/366-f1-character-family-principal-divisors.md)
+完成整族有限主除子及内部模型的范围内障碍，独立复核闭环。
+[367](../notes/367-f1-periodic-cartier-sections.md)构造实际p周期线丛和截面，
+[368](../notes/368-f1-tropical-theta-and-coefficient-obstruction.md)定位全Q频率与H_p热带系数的失配，
+两项已独立复核；368增加任意单位换生成元会破坏H_p比较的精确反例。
+下一具体输入是H_p结构子层、单位Jensen及主除子／线性系统比较，
+[369草案](../notes/369-f1-hp-solenoid-unit-slope.md)尚未独立审核，不计入已审基线。
+整个算术平方、交叉及RR仍开放；字符族层不预设等同原文Witt完备化层。
 这些局部比较和已知机制重建不触发第十节C。
 
 1. 在实际算术来源中检验有理对应的提升／下降、转置归一化与复合重数；先核对
