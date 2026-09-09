@@ -1,0 +1,36 @@
+{
+  "status": "PASS_SAVED_EVIDENCE",
+  "archive_byte_identity": true,
+  "full_scan_status": "FAIL_FROZEN_INTEGER_SUFFICIENT_CERTIFICATE",
+  "scan_sha256": "39f10f8bcb3d68012f74dac7839ebb9d6afad1892428366b11b5236103f5f875",
+  "witness_sha256": "e051d72620765ae8add7af85ca221f8369ec0f75e20d7df3c9cc947bf6f94bc5",
+  "witness_script_sha256": "b2191c8f91617bb511e19f4f5924f12e4243ef0d74c9468bdb1c89c4a9df6501",
+  "edges_previously_scanned": 6237815186,
+  "edges_repeated_by_this_check": 0,
+  "unchanged_lean_sources": 11,
+  "checked_document_links": 580,
+  "git_index_blobs_equal_to_verified_working_bytes": 28,
+  "document_sha256": {
+    "README.md": "cc67b532fc1a737fd6f9f99d7b2a01a36ecf513b72587a0e4a8c9a764f696bad",
+    "RESEARCH_BRANCHES.md": "888e24e7b5f95d8bfde679410fa533c773b8004f2116a85ab1f50a92706c4d64",
+    "goals/GOAL.20260909.md": "7a9295fa0e070216f65f5122b552dadda8f951402865cceecd339fb42dbc6192",
+    "goals/NEXT.20260909.md": "a72a44c550eb5a063092cf8c8d7a42afe86b5ecc8c6216ca7facc685f110c26c",
+    "goals/ACCEPTANCE.cycle13.md": "901212a6e01aff17de62b0896dd982f787b7a58e3caa17b86443a1395ba616b6",
+    "formal/blueprint/README.md": "ccb73d1977330e4c4cb601e212f3d2cbf7533766820504debbc6e09a61b7c166",
+    "notes/364-frozen-integer-candidate-verification.md": "17c7c3a9cddf5f2ea1874e1c9cb7fceac27d6e3153539135f4cda9d44ad120a4",
+    "notes/365-f1-rational-comparison-and-witt-coefficients.md": "dd9b99a92cec80df3a6fd3395ecb5d283e6c0e04e679771c81339b5b7a793fe9",
+    "reviews/2026-09-10/frozen-control-independent-review.md": "a36a6278f708595db463ad6d01b4dd43a40aaebddacedef3a7fc0ce34a14618a",
+    "reviews/2026-09-10/f1-rational-witt-independent-review.md": "e0f07382eb1cddb9bd4b2b68fa09e2c3a0496d8042f6a0321c1d41887d8692e9"
+  },
+  "source_pdfs": [
+    {
+      "path": "f1/cc-arithmetic-site-1502.05580v1.pdf",
+      "sha256": "ea7817c760c0eef921ce8026ed8a2a53342c0717e365a1afe3932d25f542ebb3"
+    },
+    {
+      "path": "f1/cc-complex-lift-1805.10501v1.pdf",
+      "sha256": "0a0b054780b059b2da9183f2cd02f2c77f13d2acf3fae54565a92aef273324d9"
+    }
+  ],
+  "scope": "Saved evidence, source binding and documentation integrity. Not an additional exhaustive scan or a new RH theorem."
+}

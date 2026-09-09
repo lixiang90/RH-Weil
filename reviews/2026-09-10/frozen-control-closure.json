@@ -1,0 +1,425 @@
+{
+  "status": "FAIL_FROZEN_INTEGER_SUFFICIENT_CERTIFICATE",
+  "complete": true,
+  "all_inputs_unchanged": true,
+  "initialization_sha256": "8e208735c75b740b6f4c56e326227fb09daa47d523a11d5c1151cbc58e69d04b",
+  "checkpoint_path": "reviews/2026-09-08/finite-control-integer-iteration.json",
+  "checkpoint_sha256": "941b73ab702001a1d66bde75b0440ba9e1d80e7e7047aaec41b2f7800138c694",
+  "verifier_sha256": "77287d18687dd55a9032fa20396714ba2cca37d94560d98d0130ec22a203f60c",
+  "control_count": 313,
+  "scale": 1000000000000,
+  "endpoint_loss_integer": 5000000,
+  "offset_floor_integer": -7000000000,
+  "array_records": [
+    {
+      "path": "tmp/control-closure/control-units.npy",
+      "shape": [
+        313
+      ],
+      "dtype": "int64",
+      "data_sha256": "24688058919d1d75118f9ee1b6057df3e1325a61ac2a7c94449faf92b42d052f",
+      "bytes": 2504
+    },
+    {
+      "path": "tmp/control-closure/energy-lower.npy",
+      "shape": [
+        8001
+      ],
+      "dtype": "int64",
+      "data_sha256": "fe06ae7dbe086dc2197e69da7a43ec66f425ad165501abafffa74c97a1f07a89",
+      "bytes": 64008
+    },
+    {
+      "path": "tmp/control-closure/fees-lower.npy",
+      "shape": [
+        313
+      ],
+      "dtype": "int64",
+      "data_sha256": "5f3a30a8c86c5e360735a432b8c1cebcb374e5cdf614886b072bc1522ccfb1a8",
+      "bytes": 2504
+    },
+    {
+      "path": "tmp/control-closure/level-1-codes.npy",
+      "shape": [
+        49
+      ],
+      "dtype": "int64",
+      "data_sha256": "d8bbb247749f4cad0546f74378bee80f5b4bd17ac4546b26176305d412022264",
+      "bytes": 392
+    },
+    {
+      "path": "tmp/control-closure/level-1-offsets.npy",
+      "shape": [
+        49
+      ],
+      "dtype": "int64",
+      "data_sha256": "0f324fa78126460145d0da225d313388a99e639daaf4e54edea963210de57784",
+      "bytes": 392
+    },
+    {
+      "path": "tmp/control-closure/level-2-codes.npy",
+      "shape": [
+        4234
+      ],
+      "dtype": "int64",
+      "data_sha256": "c69f32419acb01446e22894fbe997a01551e3c44b2225b32b76bdc86ced0be40",
+      "bytes": 33872
+    },
+    {
+      "path": "tmp/control-closure/level-2-offsets.npy",
+      "shape": [
+        4234
+      ],
+      "dtype": "int64",
+      "data_sha256": "41338e9b261d2beac7496d72541f0fdfec33efa47e0d02ea83d85e647456e9f8",
+      "bytes": 33872
+    },
+    {
+      "path": "tmp/control-closure/level-3-codes.npy",
+      "shape": [
+        194270
+      ],
+      "dtype": "int64",
+      "data_sha256": "2749c2053e950d5a1e238002de866d82f9c4e45e0acf568799709e9e26c7c829",
+      "bytes": 1554160
+    },
+    {
+      "path": "tmp/control-closure/level-3-offsets.npy",
+      "shape": [
+        194270
+      ],
+      "dtype": "int64",
+      "data_sha256": "e46d2d516d43fdd86a91ce1b66f62be55cce70f8a438155875416fa4ee4665e8",
+      "bytes": 1554160
+    },
+    {
+      "path": "tmp/control-closure/iteration-10-codes.npy",
+      "shape": [
+        19730568
+      ],
+      "dtype": "int64",
+      "data_sha256": "4212c3a1f7a5db7e38d86ec02f5da900f31daa2968304a9fdb88552d2585f2f1",
+      "bytes": 157844544
+    },
+    {
+      "path": "tmp/control-closure/iteration-10-offsets.npy",
+      "shape": [
+        19730568
+      ],
+      "dtype": "int64",
+      "data_sha256": "2b255adaa05ad9b415253565389c44615c24678f681d2b2e0d895ec2a7ca212f",
+      "bytes": 157844544
+    }
+  ],
+  "rebuilt_prefix_tables": [
+    {
+      "depth": 1,
+      "data_sha256": "5e83c80a98b5d22c70feef7e27e86a3348f3a350b49fdf2119cea570c99982c3",
+      "matches_initialized_prefix_table": true
+    },
+    {
+      "depth": 2,
+      "data_sha256": "18d5786934219c173853dd2e84885a377d1a7b549b23886a5e49ef027cace3ec",
+      "matches_initialized_prefix_table": true
+    },
+    {
+      "depth": 3,
+      "data_sha256": "6f1fabfac4dcd360408dd7c2dac144fb7badb34370827ac3f69c6426dbf7b4a8",
+      "matches_initialized_prefix_table": true
+    }
+  ],
+  "levels": [
+    {
+      "depth": 0,
+      "tail_count": 1,
+      "edges": 313,
+      "failed_edges": 0,
+      "maximum_deficit_integer": 0,
+      "witness": {
+        "tail_code": 0,
+        "tail_digits": [],
+        "tail_units": [],
+        "tail_offset_integer": 0,
+        "control_index": 20,
+        "control_units": 512,
+        "child_digits": [
+          20
+        ],
+        "retained_child_prefixes": [
+          {
+            "depth": 0,
+            "code": 0,
+            "offset_integer": 0
+          },
+          {
+            "depth": 1,
+            "code": 20,
+            "offset_integer": -137684660
+          }
+        ],
+        "energy_argument_units": [
+          512
+        ],
+        "energy_lower_integers": [
+          3553515915
+        ],
+        "fee_lower_integer": -3696200575,
+        "endpoint_loss_integer": 5000000,
+        "effective_label_integer": -137684660,
+        "candidate_integer": -137684660,
+        "deficit_integer": 0
+      },
+      "minimum_offset_integer": 0,
+      "elapsed_seconds": 0.0017690000004222384
+    },
+    {
+      "depth": 1,
+      "tail_count": 49,
+      "edges": 15337,
+      "failed_edges": 0,
+      "maximum_deficit_integer": 0,
+      "witness": {
+        "tail_code": 20,
+        "tail_digits": [
+          20
+        ],
+        "tail_units": [
+          512
+        ],
+        "tail_offset_integer": -137684660,
+        "control_index": 20,
+        "control_units": 512,
+        "child_digits": [
+          20,
+          20
+        ],
+        "retained_child_prefixes": [
+          {
+            "depth": 0,
+            "code": 0,
+            "offset_integer": 0
+          },
+          {
+            "depth": 1,
+            "code": 20,
+            "offset_integer": -137684660
+          },
+          {
+            "depth": 2,
+            "code": 6280,
+            "offset_integer": -202856435
+          }
+        ],
+        "energy_argument_units": [
+          512,
+          1024
+        ],
+        "energy_lower_integers": [
+          3553515915,
+          72512885
+        ],
+        "fee_lower_integer": -3696200575,
+        "endpoint_loss_integer": 5000000,
+        "effective_label_integer": -202856435,
+        "candidate_integer": -202856435,
+        "deficit_integer": 0
+      },
+      "minimum_offset_integer": -3517799308,
+      "elapsed_seconds": 0.004217499999867869
+    },
+    {
+      "depth": 2,
+      "tail_count": 4234,
+      "edges": 1325242,
+      "failed_edges": 0,
+      "maximum_deficit_integer": 0,
+      "witness": {
+        "tail_code": 4103,
+        "tail_digits": [
+          13,
+          34
+        ],
+        "tail_units": [
+          505,
+          526
+        ],
+        "tail_offset_integer": -616485805,
+        "control_index": 20,
+        "control_units": 512,
+        "child_digits": [
+          20,
+          13,
+          34
+        ],
+        "retained_child_prefixes": [
+          {
+            "depth": 0,
+            "code": 0,
+            "offset_integer": 0
+          },
+          {
+            "depth": 1,
+            "code": 20,
+            "offset_integer": -137684660
+          },
+          {
+            "depth": 3,
+            "code": 1963483,
+            "offset_integer": -179149772
+          }
+        ],
+        "energy_argument_units": [
+          512,
+          1017,
+          1543
+        ],
+        "energy_lower_integers": [
+          3553515915,
+          273318340,
+          301702353
+        ],
+        "fee_lower_integer": -3696200575,
+        "endpoint_loss_integer": 5000000,
+        "effective_label_integer": -179149772,
+        "candidate_integer": -179149772,
+        "deficit_integer": 0
+      },
+      "minimum_offset_integer": -5833397837,
+      "elapsed_seconds": 0.12371560000065074
+    },
+    {
+      "depth": 3,
+      "tail_count": 194270,
+      "edges": 60806510,
+      "failed_edges": 0,
+      "maximum_deficit_integer": 0,
+      "witness": {
+        "tail_code": 1087395,
+        "tail_digits": [
+          11,
+          31,
+          33
+        ],
+        "tail_units": [
+          503,
+          523,
+          525
+        ],
+        "tail_offset_integer": -1396822826,
+        "control_index": 149,
+        "control_units": 1012,
+        "child_digits": [
+          149,
+          11,
+          31,
+          33
+        ],
+        "retained_child_prefixes": [
+          {
+            "depth": 0,
+            "code": 0,
+            "offset_integer": 0
+          },
+          {
+            "depth": 4,
+            "code": 4570067648,
+            "offset_integer": -3289425
+          }
+        ],
+        "energy_argument_units": [
+          1012,
+          1515,
+          2038,
+          2563
+        ],
+        "energy_lower_integers": [
+          498246899,
+          5740223,
+          322493441,
+          499660224
+        ],
+        "fee_lower_integer": 62392614,
+        "endpoint_loss_integer": 5000000,
+        "effective_label_integer": -3289425,
+        "candidate_integer": -3289425,
+        "deficit_integer": 0
+      },
+      "minimum_offset_integer": -6600529097,
+      "elapsed_seconds": 25.6969820000013
+    },
+    {
+      "depth": 4,
+      "tail_count": 19730568,
+      "edges": 6175667784,
+      "failed_edges": 13755190,
+      "maximum_deficit_integer": 126501794,
+      "witness": {
+        "tail_code": 3560956900,
+        "tail_digits": [
+          116,
+          39,
+          248,
+          33
+        ],
+        "tail_units": [
+          979,
+          531,
+          1472,
+          525
+        ],
+        "tail_offset_integer": -518821661,
+        "control_index": 28,
+        "control_units": 520,
+        "child_digits": [
+          28,
+          116,
+          39,
+          248
+        ],
+        "retained_child_prefixes": [
+          {
+            "depth": 0,
+            "code": 0,
+            "offset_integer": 0
+          },
+          {
+            "depth": 1,
+            "code": 28,
+            "offset_integer": -2148678159
+          },
+          {
+            "depth": 4,
+            "code": 869977175,
+            "offset_integer": -2152957262
+          }
+        ],
+        "energy_argument_units": [
+          520,
+          1499,
+          2030,
+          3502,
+          4027
+        ],
+        "energy_lower_integers": [
+          1482384925,
+          197401425,
+          187564529,
+          369972,
+          2704838
+        ],
+        "fee_lower_integer": -3636063084,
+        "endpoint_loss_integer": 5000000,
+        "effective_label_integer": -2152957262,
+        "candidate_integer": -2279459056,
+        "deficit_integer": 126501794
+      },
+      "minimum_offset_integer": -5971318589,
+      "elapsed_seconds": 416.54303699999946
+    }
+  ],
+  "total_words": 19929122,
+  "total_edges": 6237815186,
+  "failed_edges": 13755190,
+  "elapsed_seconds": 448.02601890000005,
+  "scope": "Exhaustive integer endpoint test using previously certified lower costs. Failure does not itself imply a negative real continuous residual or exclude other certificates. Continuous transfer requires all endpoints and the existing curvature/amplitude hypotheses."
+}

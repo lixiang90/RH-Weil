@@ -933,7 +933,14 @@
       "pdf_metadata_title": "",
       "status": "已有外部构造／背景；选择性核读，非本项目新定理",
       "read_scope": "PDF1–3、18–20、23–32、38页：算术几何态射、平方定义、Proposition6.21与Theorem7.7；重点读定义和所列证明段，未逐篇复核全部结果。",
-      "review_note": "../notes/363-f1-arithmetic-geometry-and-existence-audit.md"
+      "review_note": "../notes/363-f1-arithmetic-geometry-and-existence-audit.md",
+      "reading_updates": [
+        {
+          "date": "2026-09-10",
+          "scope": "PDF26–28页F(n)求值与坐标方向；33–38页对应定义及Theorem7.7有理分支的选择性核读。28页渲染核对。不将正系数求值方块说成整个site同构。",
+          "note": "notes/365-f1-rational-comparison-and-witt-coefficients.md"
+        }
+      ]
     },
     {
       "id": "CC-2016-scaling-site",
@@ -977,7 +984,14 @@
       "pdf_metadata_title": "",
       "status": "已有外部构造／背景；选择性核读，非本项目新定理",
       "read_scope": "PDF1–5、17–22页：路线、Jensen下降、五步存在性策略；第7节仅按引言与第3节定位，不宣称已核审全部Frobenius复提升证明。",
-      "review_note": "../notes/363-f1-arithmetic-geometry-and-existence-audit.md"
+      "review_note": "../notes/363-f1-arithmetic-geometry-and-existence-audit.md",
+      "reading_updates": [
+        {
+          "date": "2026-09-10",
+          "scope": "PDF62–65页§7，尤其(93)–(96)、Propositions7.1–7.2；63–64页渲染核对。核读实际右作用、Witt系数、移动字符及代数近似；不认证所有完备化或全局截面下降。",
+          "note": "notes/365-f1-rational-comparison-and-witt-coefficients.md"
+        }
+      ]
     },
     {
       "id": "CC-2023-RR-Z",

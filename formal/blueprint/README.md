@@ -87,6 +87,12 @@ G0–G8 中标为 planned 的实际来源识别。普通 site/sheaf 本身不足
 
 ## 文献定位与推进顺序
 
+2026-09-10重启后的实际比较见[365](../../notes/365-f1-rational-comparison-and-witt-coefficients.md)。
+正系数Newton层有明确F(n)求值方块；一般复截面的相消必须另处理。
+2018§7的可用提升保留Witt系数、移动字符与半线性作用，不能直接用普通复幂映射替代。
+下一数学动作先验证其主除子／可容许截面下降；以下经典形式化缺口作为必要辅助。
+本次没有更改Lean源码或十个admission的状态。
+
 原件全部在 [literature/f1](../../literature/f1/)，版本与下载链接见
 [文献索引](../../literature/README.md#f1-20260909)。推导和页码核读见[363](../../notes/363-f1-arithmetic-geometry-and-existence-audit.md)。
 

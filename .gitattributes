@@ -5,3 +5,19 @@ literature/supplements/* -text whitespace=-blank-at-eof
 
 # PDFs are byte-preserved artifacts, including ASCII-heavy original scans.
 *.pdf binary
+
+# Goal mirror hashes describe bytes, including historical mixed line endings.
+goals/GOAL.*.md -text whitespace=cr-at-eol,-blank-at-eof
+goals/archive/GOAL.*.md -text whitespace=cr-at-eol,-blank-at-eof
+goals/archive/README.md -text whitespace=cr-at-eol,-blank-at-eof
+goals/manifest.json -text whitespace=cr-at-eol
+
+# Frozen certificate inputs and audited source hashes must survive Git checkout.
+reviews/2026-09-08/radius-five-rational-profile-candidate.json -text whitespace=cr-at-eol
+reviews/2026-09-08/kernel-curvature-tail-table.json -text whitespace=cr-at-eol
+reviews/2026-09-08/finite-control-integer*.json -text whitespace=cr-at-eol
+reviews/2026-09-10/frozen-control-* -text whitespace=cr-at-eol
+reviews/2026-09-10/goal-restart-validation.json -text whitespace=cr-at-eol
+scripts/radius_five_arb_kernel.py -text whitespace=cr-at-eol
+scripts/finite_control_integer_*.py -text whitespace=cr-at-eol
+scripts/verify_frozen_control_*.py -text whitespace=cr-at-eol
