@@ -1,6 +1,6 @@
 {
   "retrieved_on": "2026-09-06",
-  "scope": "零点比例进展、非循环函数域基准与 Abel 障碍直接文献；归档不等于数学认证；phase 2 插值、密度与正则化算子背景；持续GOAL周期4：实际零密度原始比较及ANTEDB固定快照；2026-09-09：F1算术几何与构造／存在性原始文献；2026-09-10：F1本科背景讲义的Weil猜想教学来源; 2026-09-10：周期Cartier/字符族与热带theta比较来源",
+  "scope": "零点比例进展、非循环函数域基准与 Abel 障碍直接文献；归档不等于数学认证；phase 2 插值、密度与正则化算子背景；持续GOAL周期4：实际零密度原始比较及ANTEDB固定快照；2026-09-09：F1算术几何与构造／存在性原始文献；2026-09-10：F1本科背景讲义的Weil猜想教学来源; 2026-09-10：周期Cartier/字符族与热带theta比较来源; 2026-09-10：实际period ring、FF几何前提及Jessen归一化来源",
   "entries": [
     {
       "id": "AF-2026",
@@ -1002,6 +1002,11 @@
           "date": "2026-09-10",
           "scope": "PDF18–22页Jensen、23–27页Jessen陈述；31–38、42–44、62–65页指定轨道、字符及右作用命题。Jensen公式页20及关键字符公式经渲染；全局算术平方、全部完备化和RR未认证。",
           "note": "reviews/2026-09-10/f1-classical-orbit-source-audit.md"
+        },
+        {
+          "date": "2026-09-10",
+          "scope": "新增PDF23–31页核读；24、29页渲染。核查(22)/(23)/(29)的2π归一化，保留p周期下降与RR缺口。",
+          "review_note": "../reviews/2026-09-10/f1-jessen-normalization-source-audit.md"
         }
       ]
     },
@@ -1070,7 +1075,14 @@
       "status": "已有外部构造／背景；选择性核读，非本项目新定理",
       "read_scope": "PDF1–7页：定义、Proposition2.2/2.3及引言Theorems1–4；未重审全部perfectoid/untilt定理。摘要页标题未含PDF副标题and the Fargues-Fontaine curve。",
       "review_note": "../notes/363-f1-arithmetic-geometry-and-existence-audit.md",
-      "pdf_printed_title": "On the Absolute Geometry of Spec Z and the Fargues-Fontaine curve"
+      "pdf_printed_title": "On the Absolute Geometry of Spec Z and the Fargues-Fontaine curve",
+      "reading_updates": [
+        {
+          "date": "2026-09-10",
+          "scope": "Singer核读§§3–5(PDF11–30)，区分点集／拓扑分类、复Tate曲线及展望中的B^{φ=p}下降；未重审全部FF理论。",
+          "review_note": "../reviews/2026-09-10/f1-2026-period-ring-source-audit.md"
+        }
+      ]
     },
     {
       "id": "Milne-LEC-2013",
@@ -1113,6 +1125,99 @@
       "pdf_parse_status": "all pages parsed",
       "text_characters": 243398,
       "reading_scope": "PDF57页Tag01X1定义、茎与全商环警告，已渲染核对；全部94页文字解析通过。"
+    },
+    {
+      "id": "Lurie-FF-2018-L06",
+      "category": "f1",
+      "authors": "Jacob Lurie",
+      "title": "Lecture 6: Definition of the Fargues-Fontaine Curve",
+      "version": "Math 205 Fall 2018; PDF dated 2018-10-29; IAS author copy archived 2026-09-10",
+      "file": "f1/lurie-2018-lecture06.pdf",
+      "source_url": "https://www.math.ias.edu/~lurie/205.html",
+      "pdf_url": "https://www.math.ias.edu/~lurie/205notes/Lecture6-Curve.pdf",
+      "resolved_pdf_url": "https://www.math.ias.edu/~lurie/205notes/Lecture6-Curve.pdf",
+      "download_status": "downloaded",
+      "bytes": 183287,
+      "sha256": "544339140dae1984e2df3f9787156bd3147d937fdae5e521db67910d9590d181",
+      "retrieved_at_utc": "2026-09-09T19:49:08.402035+00:00",
+      "pages": 4,
+      "pdf_parse_status": "all pages parsed",
+      "text_characters": 8963,
+      "status": "外部背景；全讲4页核读；环、全族Gauss范数完成及Frobenius定义。未由此宣称完整曲线理论认证。 Gibbs另核读全文及视觉核对2–3页；372权一级数明确归属Example13。",
+      "review_note": "../notes/372-f1-period-ring-tropical-principal-comparison.md"
+    },
+    {
+      "id": "Lurie-FF-2018-L08",
+      "category": "f1",
+      "authors": "Jacob Lurie",
+      "title": "Lecture 8: The Field BdR",
+      "version": "Math 205 Fall 2018; PDF dated 2018-10-29; IAS author copy archived 2026-09-10",
+      "file": "f1/lurie-2018-lecture08.pdf",
+      "source_url": "https://www.math.ias.edu/~lurie/205.html",
+      "pdf_url": "https://www.math.ias.edu/~lurie/205notes/Lecture8-BdR.pdf",
+      "resolved_pdf_url": "https://www.math.ias.edu/~lurie/205notes/Lecture8-BdR.pdf",
+      "download_status": "downloaded",
+      "bytes": 214322,
+      "sha256": "82b19edd39cdb4356ea83a4ef5c1122563d0a5427c33b613bc8e759764c48eda",
+      "retrieved_at_utc": "2026-09-09T19:49:08.269561+00:00",
+      "pages": 5,
+      "pdf_parse_status": "all pages parsed",
+      "text_characters": 11880,
+      "status": "外部背景；Singer完整核读5页；一般F的untilt/DVR输入、Remark7才追加代数闭，尚无完整零点重数比较。",
+      "review_note": "../reviews/2026-09-10/f1-lurie-geometric-binding-source-audit.md"
+    },
+    {
+      "id": "Lurie-FF-2018-L11",
+      "category": "f1",
+      "authors": "Jacob Lurie",
+      "title": "Lecture 11: Trivial Eigenspaces of the Frobenius",
+      "version": "Math 205 Fall 2018; PDF dated 2018-10-31; IAS author copy archived 2026-09-10",
+      "file": "f1/lurie-2018-lecture11.pdf",
+      "source_url": "https://www.math.ias.edu/~lurie/205.html",
+      "pdf_url": "https://www.math.ias.edu/~lurie/205notes/Lecture11-TrivialEigenspaces.pdf",
+      "resolved_pdf_url": "https://www.math.ias.edu/~lurie/205notes/Lecture11-TrivialEigenspaces.pdf",
+      "download_status": "downloaded",
+      "bytes": 176283,
+      "sha256": "d629844439d6823f25b927718c196451f6b3218190110b5d6f00932425374e40",
+      "retrieved_at_utc": "2026-09-09T19:49:08.387107+00:00",
+      "pages": 4,
+      "pdf_parse_status": "all pages parsed",
+      "text_characters": 8181,
+      "status": "外部背景；全讲4页核读；P5、P8、C9、C10、C12（11为Remark）的完成Gauss轮廓稳定性及φ关系；PDF3页渲染核对。",
+      "review_note": "../notes/372-f1-period-ring-tropical-principal-comparison.md"
+    },
+    {
+      "id": "Lurie-FF-2018-L19",
+      "category": "f1",
+      "authors": "Jacob Lurie",
+      "title": "Lecture 19: Line Bundles on the Fargues-Fontaine Curve and Their Cohomology",
+      "version": "Math 205 Fall 2018; PDF dated 2018-11-18; IAS author copy archived 2026-09-10",
+      "file": "f1/lurie-2018-lecture19.pdf",
+      "source_url": "https://www.math.ias.edu/~lurie/205.html",
+      "pdf_url": "https://www.math.ias.edu/~lurie/205notes/Lecture19-LineBundles.pdf",
+      "resolved_pdf_url": "https://www.math.ias.edu/~lurie/205notes/Lecture19-LineBundles.pdf",
+      "download_status": "downloaded",
+      "bytes": 181836,
+      "sha256": "569edb08218447296501a97f03b69a2bd4115e6a20e89f114700de0185831ee7",
+      "retrieved_at_utc": "2026-09-09T19:49:08.171511+00:00",
+      "pages": 4,
+      "pdf_parse_status": "all pages parsed",
+      "text_characters": 7160,
+      "status": "外部背景；Singer完整核读4页；全讲代数闭前提、Construction1、Theorem5的截面同构及其限制。",
+      "review_note": "../reviews/2026-09-10/f1-lurie-geometric-binding-source-audit.md"
+    },
+    {
+      "id": "Jessen-Tornehave-1945",
+      "category": "f1-background",
+      "authors": "Børge Jessen; Hans Tornehave",
+      "title": "Mean motions and zeros of almost periodic functions",
+      "version": "Acta Mathematica 77 (1945), 137–279",
+      "source_url": "https://archive.ymsc.tsinghua.edu.cn/pacm_paperurl/20170108203121071731656",
+      "pdf_url": "https://archive.ymsc.tsinghua.edu.cn/pacm_download/117/5656-11511_2006_Article_BF02392225.pdf",
+      "doi": "10.1007/BF02392225",
+      "download_status": "failed",
+      "attempted_on": "2026-09-10",
+      "status": "原PDF经代理与直接连接HTTP500；出版方返回订阅HTML。无本地PDF；未核读原始全文。"
     }
   ],
   "supplement_provenance": [

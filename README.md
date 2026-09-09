@@ -15,8 +15,11 @@
 已独立核验整族字符的有限主除子、缩放因子及边界账本。
 [367](notes/367-f1-periodic-cartier-sections.md)构造实际p周期轨道上带截面的线丛，
 [368](notes/368-f1-tropical-theta-and-coefficient-obstruction.md)核对热带theta并定位全Q频率与H_p系数的失配；
-以上三项已完成独立内部复核；[369](notes/369-f1-hp-solenoid-unit-slope.md)为下一子层修复的未审草案。
-所选字符族结构层与完整算术平方／RR的比较仍开放。
+366–369均已独立内部复核。[370](notes/370-f1-finite-level-periodic-meromorphic-rigidity.md)
+证明所选有限层复函数周期商的亚纯刚性；[371](notes/371-f1-tate-curve-frobenius-weight.md)
+核查复Tate模型与Frobenius权重，两项复核闭环。
+当前[372](notes/372-f1-period-ring-tropical-principal-comparison.md)从实际完备period ring
+构造同权分式及非零热带主除子，已完成独立复核；完整算术平方／RR及固定ζ接口仍开放。
 [任务单](goals/NEXT.20260909.md)给出顺序。
 尚无新的RH或无条件比例结论；完整验收与较远期显著进展分开。
 

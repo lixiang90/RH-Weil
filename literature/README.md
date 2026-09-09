@@ -517,3 +517,30 @@ PDF23页定义及定理经渲染核查。[368](../notes/368-f1-tropical-theta-an
   该页已渲染核查，全部94页解析通过。未移植scheme专属的维数、平坦性等结论。
 - 原件SHA256为`0527740ac9877baff00aaad784e66aae83ff541dad40d4939028059f9f28a493`；
   861390字节，获取时间和解析信息见[下载记录](../reviews/2026-09-10/f1-cartier-source-download.json)。
+
+
+## 2026-09-10：period ring、FF几何与Jessen归一化
+
+2026固定原件新增核读§§3–5，见[来源审查](../reviews/2026-09-10/f1-2026-period-ring-source-audit.md)。
+2018固定原件新增核读PDF23–31页；(22)/(23)/(29)之间的2π归一化用显式函数核对，
+见[Jessen审查](../reviews/2026-09-10/f1-jessen-normalization-source-audit.md)。这些不扩大为全文数学认证。
+
+以下均为Jacob Lurie的Math 205（Fall 2018）讲义，由[作者IAS目录](https://www.math.ias.edu/~lurie/205.html)
+下载原件；四份共17页，全页解析通过，SHA256和获取时刻见manifest及
+[下载记录](../reviews/2026-09-10/f1-lurie-source-download.json)。作者讲义不是本项目的新理论。
+
+| 原件 | 日期／页数 | 本轮使用及范围 |
+|---|---|---|
+| [Lecture 6: Definition of the Fargues-Fontaine Curve](f1/lurie-2018-lecture06.pdf)／[下载](https://www.math.ias.edu/~lurie/205notes/Lecture6-Curve.pdf) | 2018-10-29／4 | B及Gauss范数完成、Frobenius；全讲核读 |
+| [Lecture 8: The Field BdR](f1/lurie-2018-lecture08.pdf)／[下载](https://www.math.ias.edu/~lurie/205notes/Lecture8-BdR.pdf) | 2018-10-29／5 | 一般F的untilt、局部DVR及代数闭前提边界；Singer全讲核读 |
+| [Lecture 11: Trivial Eigenspaces of the Frobenius](f1/lurie-2018-lecture11.pdf)／[下载](https://www.math.ias.edu/~lurie/205notes/Lecture11-TrivialEigenspaces.pdf) | 2018-10-31／4 | P8及C9–12的完成轮廓稳定性；全讲核读，PDF3页渲染 |
+| [Lecture 19: Line Bundles on the Fargues-Fontaine Curve and Their Cohomology](f1/lurie-2018-lecture19.pdf)／[下载](https://www.math.ias.edu/~lurie/205notes/Lecture19-LineBundles.pdf) | 2018-11-18／4 | 全讲假定F代数闭；Theorem5不可直接搬到372的F，Singer全讲核读 |
+
+[几何接口审查](../reviews/2026-09-10/f1-lurie-geometric-binding-source-audit.md)区分实际Proj有理函数、
+完整截面同构与尚缺的除子重数比较；[372](../notes/372-f1-period-ring-tropical-principal-comparison.md)
+的热带比较另有本项目证明，已通过内部独立复核。
+
+**Jessen–Tornehave（1945）**，*Mean motions and zeros of almost periodic functions*，
+Acta Math.77,137–279；[DOI](https://doi.org/10.1007/BF02392225)／
+[YMSC目录](https://archive.ymsc.tsinghua.edu.cn/pacm_paperurl/20170108203121071731656)。
+本轮PDF获取HTTP500，未保存有效原件，也未核读原始全文；失败状态已列manifest。

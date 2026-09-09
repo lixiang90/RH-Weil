@@ -1,0 +1,87 @@
+{
+  "status": "PASS_SAVED_PERIOD_RING_BATCH",
+  "checked_document_links": 817,
+  "unchanged_lean_sources": 11,
+  "goal_mirrors": 18,
+  "long_term_goal_bytes_unchanged": true,
+  "legacy_scan_unchanged": true,
+  "exhaustive_edges_repeated": 0,
+  "git_index_checked_blobs": 42,
+  "document_sha256_raw": {
+    "notes/369-f1-hp-solenoid-unit-slope.md": "16270f0229112af45b313848d6d13b4facf69951410df14551ef176a725cc5f6",
+    "notes/370-f1-finite-level-periodic-meromorphic-rigidity.md": "f7ebb244f707d39719a283d9b69c7b6b4ba0f0c16a52e9c35799534749332042",
+    "notes/371-f1-tate-curve-frobenius-weight.md": "e863141b5cb90b3efb6312fdf7be02b63f7d32f30413db170fd588f3be6bdca0",
+    "notes/372-f1-period-ring-tropical-principal-comparison.md": "cf2c55cf2c823610d60a237ff762b161935026cb7c9a1dbc564a64564dac46ab",
+    "reviews/2026-09-10/f1-hp-unit-independent-review.md": "da4a655c9c1d05100220a1d42c8c0269a59a1d5d5296512aa5f5eae3ebb1ce3d",
+    "reviews/2026-09-10/f1-finite-level-rigidity-independent-review.md": "fa4f5b25c810a1e984b8fd9ee1556ec8493e922d4c6ee74a2c10e19fe870e2f6",
+    "reviews/2026-09-10/f1-tate-weight-independent-review.md": "607176f047d0f0f08ea526d7e37855c90838bc39d9716e9f1dbd79d4a2fbb628",
+    "reviews/2026-09-10/f1-2026-period-ring-source-audit.md": "4694141d53a2c6cadbe8ad7bd4d5601cf2abdcd33636b824c57ed8c99ace5745",
+    "reviews/2026-09-10/f1-lurie-geometric-binding-source-audit.md": "21b527a65b2f59ac2c2329143c7465f88830191ea87a84ce18abef1e76c8886d",
+    "reviews/2026-09-10/f1-jessen-normalization-source-audit.md": "1b1cca9e0f7b625b912452e4da49d00150a8ae0ab75c99bee5846ad57e672c98",
+    "reviews/2026-09-10/f1-period-ring-independent-review.md": "5351b5a6744d204cc652519a0b5e67428a5204e231f574f65ae1fb98ffe59601",
+    "README.md": "61358c319aad0ed71a7526a57c374d63603a004270015a776cb6ff3c13fb611a",
+    "RESEARCH_BRANCHES.md": "f4d4f7b87958b089379dddfd5f165af0c87f93295ab9443997cd6df58f8c5584",
+    "goals/GOAL.20260909.md": "36176f5ca9ed75451ff4ec8f5b7623c289f4ca785302498a299deefafcb1b19b",
+    "goals/NEXT.20260909.md": "e05987ad73a20d52b51fd26b9c8898704cff3efa24ffb09768f2c0c7bad53066",
+    "goals/PROGRESS.md": "97f76619b8ba12c44affe425d54b56c8b881b17aaff70afdb0202b2aa145400a",
+    "literature/README.md": "ba40ebd04e9f5341fa0b90eb5c20af45b0b4ad33910d87c2d14cdd75a7b6ce71"
+  },
+  "document_sha256_lf": {
+    "notes/369-f1-hp-solenoid-unit-slope.md": "16270f0229112af45b313848d6d13b4facf69951410df14551ef176a725cc5f6",
+    "notes/370-f1-finite-level-periodic-meromorphic-rigidity.md": "f7ebb244f707d39719a283d9b69c7b6b4ba0f0c16a52e9c35799534749332042",
+    "notes/371-f1-tate-curve-frobenius-weight.md": "e863141b5cb90b3efb6312fdf7be02b63f7d32f30413db170fd588f3be6bdca0",
+    "notes/372-f1-period-ring-tropical-principal-comparison.md": "cf2c55cf2c823610d60a237ff762b161935026cb7c9a1dbc564a64564dac46ab",
+    "reviews/2026-09-10/f1-hp-unit-independent-review.md": "da4a655c9c1d05100220a1d42c8c0269a59a1d5d5296512aa5f5eae3ebb1ce3d",
+    "reviews/2026-09-10/f1-finite-level-rigidity-independent-review.md": "fa4f5b25c810a1e984b8fd9ee1556ec8493e922d4c6ee74a2c10e19fe870e2f6",
+    "reviews/2026-09-10/f1-tate-weight-independent-review.md": "607176f047d0f0f08ea526d7e37855c90838bc39d9716e9f1dbd79d4a2fbb628",
+    "reviews/2026-09-10/f1-2026-period-ring-source-audit.md": "4694141d53a2c6cadbe8ad7bd4d5601cf2abdcd33636b824c57ed8c99ace5745",
+    "reviews/2026-09-10/f1-lurie-geometric-binding-source-audit.md": "21b527a65b2f59ac2c2329143c7465f88830191ea87a84ce18abef1e76c8886d",
+    "reviews/2026-09-10/f1-jessen-normalization-source-audit.md": "1b1cca9e0f7b625b912452e4da49d00150a8ae0ab75c99bee5846ad57e672c98",
+    "reviews/2026-09-10/f1-period-ring-independent-review.md": "5351b5a6744d204cc652519a0b5e67428a5204e231f574f65ae1fb98ffe59601",
+    "README.md": "61358c319aad0ed71a7526a57c374d63603a004270015a776cb6ff3c13fb611a",
+    "RESEARCH_BRANCHES.md": "f4d4f7b87958b089379dddfd5f165af0c87f93295ab9443997cd6df58f8c5584",
+    "goals/GOAL.20260909.md": "36176f5ca9ed75451ff4ec8f5b7623c289f4ca785302498a299deefafcb1b19b",
+    "goals/NEXT.20260909.md": "da9bb28e31cdee19eaedf8430a9594f6796fe6ca07cb79f3656d28b7d990b9dc",
+    "goals/PROGRESS.md": "97f76619b8ba12c44affe425d54b56c8b881b17aaff70afdb0202b2aa145400a",
+    "literature/README.md": "ba40ebd04e9f5341fa0b90eb5c20af45b0b4ad33910d87c2d14cdd75a7b6ce71"
+  },
+  "sources": [
+    {
+      "file": "f1/cc-scaling-site-1603.03191v1.pdf",
+      "sha256": "47bd7ed3c39fa7837a2f65f826b4957b65a3e9ecfffd02a9ed04c3683d2908b1",
+      "pages": 43
+    },
+    {
+      "file": "f1/cc-complex-lift-1805.10501v1.pdf",
+      "sha256": "0a0b054780b059b2da9183f2cd02f2c77f13d2acf3fae54565a92aef273324d9",
+      "pages": 67
+    },
+    {
+      "file": "f1/cc-absolute-geometry-2606.06604v1.pdf",
+      "sha256": "0a9c63f97dbf6888c6a9cb4a9283087e71f716b26249fe17f3af0e9a9af7cd7d",
+      "pages": 30
+    },
+    {
+      "file": "f1/lurie-2018-lecture06.pdf",
+      "sha256": "544339140dae1984e2df3f9787156bd3147d937fdae5e521db67910d9590d181",
+      "pages": 4
+    },
+    {
+      "file": "f1/lurie-2018-lecture08.pdf",
+      "sha256": "82b19edd39cdb4356ea83a4ef5c1122563d0a5427c33b613bc8e759764c48eda",
+      "pages": 5
+    },
+    {
+      "file": "f1/lurie-2018-lecture11.pdf",
+      "sha256": "d629844439d6823f25b927718c196451f6b3218190110b5d6f00932425374e40",
+      "pages": 4
+    },
+    {
+      "file": "f1/lurie-2018-lecture19.pdf",
+      "sha256": "569edb08218447296501a97f03b69a2bd4115e6a20e89f114700de0185831ee7",
+      "pages": 4
+    }
+  ],
+  "unreviewed_drafts": [],
+  "scope": "Saved files, links and source identities. Internal mathematics/source reviews remain separately scoped; no RH or complete RR certification."
+}

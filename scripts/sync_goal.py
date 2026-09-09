@@ -17,6 +17,7 @@ ROOT = Path(__file__).resolve().parents[1]
 WORKSPACE = ROOT.parent
 FILES = (
     "GOAL.20260909.md",
+    "archive/GOAL.20260909.f1-periodic.md",
     "archive/GOAL.20260906.md",
     "archive/GOAL.old.md",
     "archive/GOAL.proposed.md",
@@ -44,7 +45,7 @@ def mirror_bytes(relative: str, raw: bytes) -> bytes:
         target = match[1]
         if relative == "archive/GOAL.proposed.md" and target == "../GOAL.20260906.md":
             return "](GOAL.20260906.md)"
-        if relative.startswith("archive/GOAL.20260906"):
+        if relative.startswith(("archive/GOAL.20260906", "archive/GOAL.20260909")):
             # This exact snapshot retains the link context of the former root goal.
             if target.startswith("RH-Weil/"):
                 target = "../../" + target[len("RH-Weil/"):]
