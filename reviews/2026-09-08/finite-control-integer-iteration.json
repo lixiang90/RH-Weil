@@ -1,0 +1,135 @@
+{
+  "status": "Integer labels updated; endpoint closure remains open",
+  "initialization_sha256": "8e208735c75b740b6f4c56e326227fb09daa47d523a11d5c1151cbc58e69d04b",
+  "current_codes": {
+    "path": "tmp/control-closure/iteration-10-codes.npy",
+    "shape": [
+      19730568
+    ],
+    "dtype": "int64",
+    "data_sha256": "4212c3a1f7a5db7e38d86ec02f5da900f31daa2968304a9fdb88552d2585f2f1",
+    "bytes": 157844544
+  },
+  "current_offsets": {
+    "path": "tmp/control-closure/iteration-10-offsets.npy",
+    "shape": [
+      19730568
+    ],
+    "dtype": "int64",
+    "data_sha256": "2b255adaa05ad9b415253565389c44615c24678f681d2b2e0d895ec2a7ca212f",
+    "bytes": 157844544
+  },
+  "history": [
+    {
+      "round": 0,
+      "previous_tail_count": 4697239,
+      "evaluated_edges": 1470235807,
+      "groups": 289438,
+      "updated_head_count": 4999799,
+      "maximum_deficit_integer": "1763962629",
+      "resulting_tail_count": 8641497,
+      "minimum_offset_integer": "-5662297312",
+      "elapsed_seconds": 33.68193029999384
+    },
+    {
+      "round": 1,
+      "previous_tail_count": 8641497,
+      "evaluated_edges": 2704788561,
+      "groups": 439401,
+      "updated_head_count": 7383057,
+      "maximum_deficit_integer": "1333707259",
+      "resulting_tail_count": 14063842,
+      "minimum_offset_integer": "-5737758473",
+      "elapsed_seconds": 64.34640290000243
+    },
+    {
+      "round": 2,
+      "previous_tail_count": 14063842,
+      "evaluated_edges": 4401982546,
+      "groups": 476856,
+      "updated_head_count": 7554248,
+      "maximum_deficit_integer": "624058653",
+      "resulting_tail_count": 16473176,
+      "minimum_offset_integer": "-5874381162",
+      "elapsed_seconds": 74.24907649999659
+    },
+    {
+      "round": 3,
+      "previous_tail_count": 16473176,
+      "evaluated_edges": 5156104088,
+      "groups": 511632,
+      "updated_head_count": 5968678,
+      "maximum_deficit_integer": "513012206",
+      "resulting_tail_count": 17628439,
+      "minimum_offset_integer": "-5874381162",
+      "elapsed_seconds": 90.27052960000583
+    },
+    {
+      "round": 4,
+      "previous_tail_count": 17628439,
+      "evaluated_edges": 5517701407,
+      "groups": 527474,
+      "updated_head_count": 3592418,
+      "maximum_deficit_integer": "325986279",
+      "resulting_tail_count": 18067337,
+      "minimum_offset_integer": "-5874381162",
+      "elapsed_seconds": 94.4003548000037
+    },
+    {
+      "round": 5,
+      "previous_tail_count": 18067337,
+      "evaluated_edges": 5655076481,
+      "groups": 535285,
+      "updated_head_count": 4109285,
+      "maximum_deficit_integer": "201030754",
+      "resulting_tail_count": 18496130,
+      "minimum_offset_integer": "-5874381162",
+      "elapsed_seconds": 94.60089570000127
+    },
+    {
+      "round": 6,
+      "previous_tail_count": 18496130,
+      "evaluated_edges": 5789288690,
+      "groups": 535989,
+      "updated_head_count": 3632529,
+      "maximum_deficit_integer": "136185810",
+      "resulting_tail_count": 18722235,
+      "minimum_offset_integer": "-5971318589",
+      "elapsed_seconds": 99.40998329999275
+    },
+    {
+      "round": 7,
+      "previous_tail_count": 18722235,
+      "evaluated_edges": 5860059555,
+      "groups": 544242,
+      "updated_head_count": 3758681,
+      "maximum_deficit_integer": "134923321",
+      "resulting_tail_count": 19051073,
+      "minimum_offset_integer": "-5971318589",
+      "elapsed_seconds": 96.43541540000297
+    },
+    {
+      "round": 8,
+      "previous_tail_count": 19051073,
+      "evaluated_edges": 5962985849,
+      "groups": 548331,
+      "updated_head_count": 4001671,
+      "maximum_deficit_integer": "132138731",
+      "resulting_tail_count": 19430853,
+      "minimum_offset_integer": "-5971318589",
+      "elapsed_seconds": 94.48091840000416
+    },
+    {
+      "round": 9,
+      "previous_tail_count": 19430853,
+      "evaluated_edges": 6081856989,
+      "groups": 555346,
+      "updated_head_count": 3062495,
+      "maximum_deficit_integer": "130742879",
+      "resulting_tail_count": 19730568,
+      "minimum_offset_integer": "-5971318589",
+      "elapsed_seconds": 104.73766800000158
+    }
+  ],
+  "scope": "Exact integer arithmetic using certified lower scalar costs. This search is not a final certificate."
+}

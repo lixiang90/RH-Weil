@@ -5,9 +5,16 @@
 面向具有大学二年级数学基础的读者：[F₁ 路线究竟要找什么，以及为什么足以推出 RH](docs/f1-route-from-undergraduate-math.md)。
 讲义从具体例子出发，给出精确条件与完整条件证明，并区分指定来源和自由存在性路线。
 
-## 当前研究状态：F₁ 形式化蓝图与几何条件包（2026-09-10）
+## 当前研究状态：GOAL已重启，先验收旧候选，再侧重F₁（2026-09-10）
 
-按最新指令暂停原持续研究，先搭建 [Lean + mathlib 框架](formal/README.md)，
+[GOAL.20260909.md](goals/GOAL.20260909.md)已按用户要求修订并启动，
+原第十三版已按原始字节归档。当前先完成十轮整数候选的完整独立扫描，
+随后以F₁实际几何构造／存在性为主线；[任务单](goals/NEXT.20260909.md)给出顺序。
+尚无新的RH或无条件比例结论；完整验收与较远期显著进展分开。
+
+### 重启前已完成的F₁基线
+
+此前按用户阶段指令暂停原持续研究并搭建 [Lean + mathlib 框架](formal/README.md)，
 以[蓝图与缺口账本](formal/blueprint/README.md)区分经典待证明命题和全局几何研究输入。
 允许显式 `sorry`；mathlib 外部依赖已复制到 `formal/vendor`。
 初版[完整验收](formal/checks/README.md)已通过：3459 个构建任务、20 项传递公理检查，
@@ -20,7 +27,7 @@
 
 ## 暂停前状态：持续GOAL，周期13（2026-09-08）
 
-[第十三次修订GOAL](goals/GOAL.20260906.md)保持当前周期验收与较远期显著进展的区分。
+[原第十三次修订GOAL](goals/archive/GOAL.20260906.md)保持当前周期验收与较远期显著进展的区分。
 321–326已给近点预算、实际sharp二阶公式及条件性计数比较；
 327、329变窗平均已独立复核并[结算](goals/ACCEPTANCE.cycle5.md)。
 [330](notes/330-exact-sublevels-and-arbitrary-window-concentration.md)任意增长集中度与[331](notes/331-three-node-phase-compatibility-and-circle-defect.md)三点必要条件均已通过独立逆审并[结算](goals/ACCEPTANCE.cycle6.md)。
@@ -68,7 +75,7 @@ RH、零点比例／非零区域改进及实质算术Weil结构仍未实现，�
 
 ## phase 3 已完成结果（2026-09-06）
 
-已再次修订[GOAL.20260906](goals/GOAL.20260906.md)，进入多簇共同效应与同一正则化算子的多轮研究。
+已再次修订[GOAL.20260906](goals/archive/GOAL.20260906.md)，进入多簇共同效应与同一正则化算子的多轮研究。
 317–320四轮研究已完成内部独立复核。
 [319](notes/319-collective-far-background-via-weighted-schur.md)得到共同远深背景的矩阵界，
 [320](notes/320-common-regularizer-for-growing-separated-clusters.md)以最大簇质量控制共同日程，
@@ -78,7 +85,7 @@ RH、零点比例／非零区域改进及实质算术Weil结构仍未实现，�
 
 ## phase 2 已完成结果（2026-09-06）
 
-[GOAL.20260906](goals/GOAL.20260906.md)的303完整复核和7轮VIS-REG探索已形成闭环成果。
+[GOAL.20260906](goals/archive/GOAL.20260906.md)的303完整复核和7轮VIS-REG探索已形成闭环成果。
 [314](notes/314-hybrid-density-tail-and-shorter-depth-gap.md)给实际正背景尾的幂级改进；
 [316](notes/316-coherent-cluster-negative-mass-and-logarithmic-aperture.md)在保留全部正项及簇内负项后，
 允许o(1/log T)的簇宽，条件性证明已通过独立内部复核。

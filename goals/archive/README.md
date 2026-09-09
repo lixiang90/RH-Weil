@@ -2,7 +2,7 @@
 
 - [GOAL.old.md](GOAL.old.md)：2026-09-06 本次目标重写前的 GOAL.md，按原始字节移入本目录。
 - [GOAL.proposed.md](GOAL.proposed.md)：2026-09-06 审查形成的历史提案，已由当前目标整合替代；归档时修正了相对链接，研究内容保留。
-- 当前执行目标：[GOAL.20260906.md](../GOAL.20260906.md)。
+- 当前执行目标：[GOAL.20260909.md](../GOAL.20260909.md)。
 - 旧版 SHA-256：`2ef693cc3f1ec6e396c5bada04ba93230c8a956511e923500cdf966f3d216a2c`；移动前后校验一致。
 
 GOAL.old.md 保留原始历史内容，其相对路径仍按原工作目录解释；GOAL.proposed.md 的链接已按归档位置调整。此目录名为用户指定的 archive/，与已有 archived/ 分开维护。
@@ -36,3 +36,5 @@ SHA256：6012c718862223c992fff4a77e2eb455728765c06c005740a6d3beeb59c2fb4c。
 [GOAL.20260906.cycle11.md](GOAL.20260906.cycle11.md)保存第十一版最终原始字节；第十二次修订进入有限续接势的连续域认证。SHA256：09035cad11e0eebbbcd835197f31e61aa9094cb38a82cbfb68464ef73e3a36aa。第十节B/C逐字保持；原始链接语境不改写。
 
 [GOAL.20260906.cycle12.md](GOAL.20260906.cycle12.md)保存第十二版修订前原始字节；第十三次修订转入313控制值的稀疏整数闭合。SHA256：b69aff3916b616c1b8ca6d6a9efcbe186eb31e9667cbc0b7a2c67f6e3a71813b。第十节B/C逐字保持。
+
+- [GOAL.20260906.md](GOAL.20260906.md)：2026-09-10重启前第十三版原始字节，链接保留原根目录语境。SHA-256：`213a099265b8a88d5eb5ef6a9f0d5af0d595a8e52c6d1cb0e0f658929366e568`。

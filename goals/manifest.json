@@ -1,9 +1,16 @@
 [
   {
-    "workspace_path": "GOAL.20260906.md",
-    "repository_path": "goals/GOAL.20260906.md",
+    "workspace_path": "GOAL.20260909.md",
+    "repository_path": "goals/GOAL.20260909.md",
+    "source_sha256": "8adcc460cfe5a8b8d6dbd0c64f333dcedac615ca9c2f226af627bca7324f2c8a",
+    "mirror_sha256": "038c6515488cab421bb25fdb087c462e3a676607e2d5577937b75ded0952fc83",
+    "transformation": "local Markdown link rebasing only"
+  },
+  {
+    "workspace_path": "archive/GOAL.20260906.md",
+    "repository_path": "goals/archive/GOAL.20260906.md",
     "source_sha256": "213a099265b8a88d5eb5ef6a9f0d5af0d595a8e52c6d1cb0e0f658929366e568",
-    "mirror_sha256": "68fed0448c3f39702b4967fa35d359364301b2a8cfd25ad68d74df004082e14b",
+    "mirror_sha256": "23a7ff2dc7bf262c4d2d7916aad89ffeb3284425bd70b1706d4e62538d8983ee",
     "transformation": "local Markdown link rebasing only"
   },
   {
@@ -17,7 +24,7 @@
     "workspace_path": "archive/GOAL.proposed.md",
     "repository_path": "goals/archive/GOAL.proposed.md",
     "source_sha256": "a5bcbc69e765f8be51020745393bf6fa6c58d114674729eabc0e565219782c76",
-    "mirror_sha256": "3a23e0e97ea854474b9669570110b9fbd9e641c3bfbe59df2ff1f8c0b130dd4a",
+    "mirror_sha256": "59e2b80e6ffbb900e01ec2bd4204dd18f0210cf10c245158701ea2d29ecae38a",
     "transformation": "local Markdown link rebasing only"
   },
   {
@@ -107,8 +114,8 @@
   {
     "workspace_path": "archive/README.md",
     "repository_path": "goals/archive/README.md",
-    "source_sha256": "5a446070f534086ac23f602824bef55b3604303cd3731fd59896c4758b99b35a",
-    "mirror_sha256": "5a446070f534086ac23f602824bef55b3604303cd3731fd59896c4758b99b35a",
+    "source_sha256": "e50181c98a37a823e1a3a656ab5b37007b3e96bad42ed5275481223a575c7a39",
+    "mirror_sha256": "e50181c98a37a823e1a3a656ab5b37007b3e96bad42ed5275481223a575c7a39",
     "transformation": "none"
   }
 ]
