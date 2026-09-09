@@ -1140,5 +1140,7 @@ xelatex -output-directory=output/pdf papers/rh-weil-structure-paper.tex
 
 2026-09-10续记：[373的轮廓满性](notes/373-f1-period-ring-profile-surjectivity.md)
 把372的单点例子扩为整数截距、H_p斜率周期函数的存在性命题，已独立复核；
-[374](notes/374-f1-twisted-frobenius-modules-and-torsion.md)正审核实际扭曲Frobenius模块的torsion及截面构造；
+[374](notes/374-f1-twisted-frobenius-modules-and-torsion.md)已审核实际扭曲Frobenius模块的torsion及截面构造；
+[375](notes/375-f1-geometric-divisor-and-picard-comparison.md)已复核实际FF几何主除子、有效锥和整数次数Picard商的比较；
+下一步检验[实尺度族的跨支集主关系](reviews/2026-09-10/f1-real-scale-next-proof-plan.md)；
 适用范围与完整RR、实系数及固定ζ接口分开。

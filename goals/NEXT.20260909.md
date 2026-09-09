@@ -60,7 +60,9 @@
 
 当前执行续记：[373](../notes/373-f1-period-ring-profile-surjectivity.md)以至多n个系数轨道
 实现权n凸轮廓，再以负部的χ修正把周期PL函数写成同权分式；已完成独立复核。
-[374候选](../notes/374-f1-twisted-frobenius-modules-and-torsion.md)以真实秩一φ模块补入torsion，
-尝试提升全部整数阶数有效除子，当前正在独立复核。
-同一问题的来源辅助核读Fargues–Fontaine作者完整稿第7章，以补一般F的几何前提。
-后续重点是几何除子重数及扩大系数／支集范围，不用更多单点例子替代这一接口。
+[374](../notes/374-f1-twisted-frobenius-modules-and-torsion.md)以真实秩一φ模块补入torsion，
+提升全部整数阶数有效除子，已完成独立复核。一般F的曲线及GAGA／截面来源已经核读。
+[375](../notes/375-f1-geometric-divisor-and-picard-comparison.md)已完成实际几何除子
+按闭点次数推到C_p的比较，包含主除子、有效截面及整数次数Picard商；双重内部复核通过。
+当前按[实尺度任务单](../reviews/2026-09-10/f1-real-scale-next-proof-plan.md)验证norm重标度及
+跨有理公度类主关系；保持完整实系数／固定ζ要求，不以单点覆盖代替全局比较。

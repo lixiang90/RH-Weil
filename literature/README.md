@@ -563,3 +563,11 @@ Acta Math.77,137–279；[DOI](https://doi.org/10.1007/BF02392225)／
 两份均全页解析通过；空白／无可提取文字页、字节、SHA256及获取时间见
 [下载记录](../reviews/2026-09-10/f1-general-ff-source-download.json)。
 解析通过不等于证明审核，后续来源复核另记。
+
+
+上述一般F来源已完成[指定范围审核](../reviews/2026-09-10/f1-general-ff-geometric-source-audit.md)：
+FF 7.3.3、11.2.2、11.3.1及§11.4可用于实际曲线、线丛与截面；
+3.4.4的Newton零点贡献为degree×ord，同半径须相加。主线程另渲染PDF155页核对。
+未独立重证几乎纯性、Sen–Tate及Kedlaya–Liu等原始依赖；
+[375](../notes/375-f1-geometric-divisor-and-picard-comparison.md)的具体C_p比较已通过独立数学与来源复核，
+见[对应记录](../reviews/2026-09-10/f1-geometric-comparison-independent-review.md)；仍非完整RR或ζ结论。

@@ -1248,7 +1248,19 @@
         400
       ],
       "retrieved_at_utc": "2026-09-09T20:20:51.273221+00:00",
-      "status": "原始版本归档、全页解析；当前仅定位一般F章节／开篇警告，未核审全文。"
+      "status": "已按一般F来源报告核读指定定理、局部证明和关键公式；375来源绑定再次核查。未独立重证整书、几乎纯性、Sen–Tate与Kedlaya–Liu等依赖。",
+      "reading_updates": [
+        {
+          "date": "2026-09-10",
+          "scope": "Singer核读§1.1、定义1.6.2、§3.3–3.5关键公式、§7.3–7.4/7.8、11.2.2/11.3.1/11.4；主线程另核读PDF73–74/153–156/277–278并渲染155页。一般F曲线、线丛与截面及带degree权重明确；未独立重证全书依赖。",
+          "review_note": "../reviews/2026-09-10/f1-general-ff-geometric-source-audit.md"
+        },
+        {
+          "date": "2026-09-10",
+          "scope": "375来源绑定再次核对自然对数/Gauss规范、理想Frobenius方向、带degree×ord的Newton公式及局部标架完成；Gibbs另视觉核对PDF153–155。",
+          "review_note": "../reviews/2026-09-10/f1-geometric-comparison-independent-review.md"
+        }
+      ]
     },
     {
       "id": "Lurie-FF-overview-author-20260910",
@@ -1269,7 +1281,14 @@
       "text_characters": 30252,
       "empty_text_pages": [],
       "retrieved_at_utc": "2026-09-09T20:20:53.406873+00:00",
-      "status": "原始版本归档、全页解析；当前仅定位一般F章节／开篇警告，未核审全文。"
+      "status": "原始版本归档、全页解析；当前仅定位一般F章节／开篇警告，未核审全文。",
+      "reading_updates": [
+        {
+          "date": "2026-09-10",
+          "scope": "Singer核对PDF13 Warning31与FF一般F的有限扩张untilt闭点陈述。未核审全文。",
+          "review_note": "../reviews/2026-09-10/f1-general-ff-geometric-source-audit.md"
+        }
+      ]
     }
   ],
   "supplement_provenance": [

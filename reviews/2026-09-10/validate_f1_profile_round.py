@@ -9,15 +9,19 @@ import subprocess
 ROOT=Path(__file__).resolve().parents[2]
 parser=argparse.ArgumentParser(description=__doc__)
 parser.add_argument('--git-index', action='store_true')
+parser.add_argument('--geometric', action='store_true', help='Write a separate 374–375 audit; preserve the 8d52d6a profile snapshot.')
 args=parser.parse_args()
 digest=lambda b:hashlib.sha256(b).hexdigest()
-notes=[next(ROOT.glob(f'notes/{n}-*.md')).relative_to(ROOT).as_posix() for n in (373,374)]
+notes=[next(ROOT.glob(f'notes/{n}-*.md')).relative_to(ROOT).as_posix() for n in ((374,375) if args.geometric else (373,374))]
 docs=notes+['reviews/2026-09-10/f1-profile-surjectivity-independent-review.md',
     'README.md','RESEARCH_BRANCHES.md','goals/GOAL.20260909.md',
     'goals/NEXT.20260909.md','goals/PROGRESS.md','literature/README.md']
 for optional in ('f1-twisted-module-independent-review.md','f1-general-ff-geometric-source-audit.md'):
     p='reviews/2026-09-10/'+optional
     if (ROOT/p).exists(): docs.append(p)
+if args.geometric:
+    docs += ['reviews/2026-09-10/f1-geometric-comparison-independent-review.md',
+             'reviews/2026-09-10/f1-real-scale-next-proof-plan.md']
 links=0
 for rel in docs:
     path=ROOT/rel
@@ -59,12 +63,12 @@ if args.git_index:
         staged=subprocess.check_output(['git','show',':literature/'+e['file']],cwd=ROOT)
         assert digest(staged)==e['sha256']
         indexed+=1
-report=dict(status='PASS_SAVED_PROFILE_ROUND',checked_document_links=links,goal_mirrors=18,
+report=dict(status='PASS_SAVED_GEOMETRIC_ROUND' if args.geometric else 'PASS_SAVED_PROFILE_ROUND',checked_document_links=links,goal_mirrors=18,
     long_term_goal_bytes_unchanged=True,unchanged_lean_sources=len(aud['own_source_sha256']),
     git_index_checked_blobs=indexed,source_files=[{k:e[k] for k in ('file','sha256','pages')} for e in sources],
     document_sha256_raw={r:digest((ROOT/r).read_bytes()) for r in docs},
     document_sha256_lf={r:digest((ROOT/r).read_bytes().replace(b'\r\n',b'\n')) for r in docs},
     unreviewed_drafts=[r for r in notes if '[O]' in (ROOT/r).read_text(encoding='utf-8')[:180]],
     scope='Saved identities and links only. Mathematical review and source-reading scope are in their separate reports; no full FF, RR or RH certification.')
-Path(__file__).with_name('f1-profile-round-validation.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n',encoding='utf-8',newline='\n')
+Path(__file__).with_name('f1-geometric-round-validation.json' if args.geometric else 'f1-profile-round-validation.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n',encoding='utf-8',newline='\n')
 print(json.dumps({k:report[k] for k in ('status','checked_document_links','git_index_checked_blobs','unreviewed_drafts')}))

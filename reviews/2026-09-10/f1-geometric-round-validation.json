@@ -1,0 +1,52 @@
+{
+  "status": "PASS_SAVED_GEOMETRIC_ROUND",
+  "checked_document_links": 829,
+  "goal_mirrors": 18,
+  "long_term_goal_bytes_unchanged": true,
+  "unchanged_lean_sources": 11,
+  "git_index_checked_blobs": 15,
+  "source_files": [
+    {
+      "file": "f1/ff-courbe-author-20260910.pdf",
+      "sha256": "8c020573d3dce341088ea7e83fe1063b410686c08e3a144fa3c0de634667cc79",
+      "pages": 404
+    },
+    {
+      "file": "f1/lurie-ffcurve-overview-20260910.pdf",
+      "sha256": "23cd3b58690217d910c08d5eef593ae0e07cc84c21d93822cac2edc77f9edf41",
+      "pages": 14
+    }
+  ],
+  "document_sha256_raw": {
+    "notes/374-f1-twisted-frobenius-modules-and-torsion.md": "eef9485a42af74347208934c8143c1048596c1b845b05505efecedbcedbb594a",
+    "notes/375-f1-geometric-divisor-and-picard-comparison.md": "ea97aae47bab8e530760ff67f33d13ba18036f4985f18544cdcc154ba85fadf9",
+    "reviews/2026-09-10/f1-profile-surjectivity-independent-review.md": "b437fa3c3d7a86ba9ab8500633c7f97b4db199ad9996cd44f734e99069c97261",
+    "README.md": "0d365ed4cc1ff610fa58d8c6bd350f5252cd95252abb033d631b97fdebf1bf53",
+    "RESEARCH_BRANCHES.md": "1a7296e1bed1b484bdf177bfb37f4dfe97a68ef84d84b7a7c86eb3234d22f20e",
+    "goals/GOAL.20260909.md": "45d11f712546ab0c027cc00087b5fc3b33b039f810b3b8259eaa38c9d00cfa62",
+    "goals/NEXT.20260909.md": "2781e5dfd094922f6a73764dfd2d78235ed653776f24911d3f3f1d10e3b3a2f1",
+    "goals/PROGRESS.md": "35e9d389c6fd150864d34216798b4292f08685babaf1c7c309933e509518619d",
+    "literature/README.md": "fccabd57482ad13ed86c6f529af19de0274ac84f5ad9eb115a653756ce286307",
+    "reviews/2026-09-10/f1-twisted-module-independent-review.md": "53bb009114bc83dd2cf369168241450dd571d96f8477996b5cfecd80eab46e6e",
+    "reviews/2026-09-10/f1-general-ff-geometric-source-audit.md": "a3151dd1495f3e61f218d6e748cfe8fae907535774187ac0936027c4dc38f9ba",
+    "reviews/2026-09-10/f1-geometric-comparison-independent-review.md": "fdbc972857a010c61c4db3d63191332fe4f6fa9b7a32e71639a8af8e5646c982",
+    "reviews/2026-09-10/f1-real-scale-next-proof-plan.md": "ac40b9945e424517fc4b904c48f931b0c7f327f0ce85f2e2f66b15cbbbcc4ce9"
+  },
+  "document_sha256_lf": {
+    "notes/374-f1-twisted-frobenius-modules-and-torsion.md": "eef9485a42af74347208934c8143c1048596c1b845b05505efecedbcedbb594a",
+    "notes/375-f1-geometric-divisor-and-picard-comparison.md": "ea97aae47bab8e530760ff67f33d13ba18036f4985f18544cdcc154ba85fadf9",
+    "reviews/2026-09-10/f1-profile-surjectivity-independent-review.md": "b437fa3c3d7a86ba9ab8500633c7f97b4db199ad9996cd44f734e99069c97261",
+    "README.md": "0d365ed4cc1ff610fa58d8c6bd350f5252cd95252abb033d631b97fdebf1bf53",
+    "RESEARCH_BRANCHES.md": "1a7296e1bed1b484bdf177bfb37f4dfe97a68ef84d84b7a7c86eb3234d22f20e",
+    "goals/GOAL.20260909.md": "45d11f712546ab0c027cc00087b5fc3b33b039f810b3b8259eaa38c9d00cfa62",
+    "goals/NEXT.20260909.md": "7ede08b6f81f6ce9442f446aafe49d554074645fec5b0e1c9853d279c162b56f",
+    "goals/PROGRESS.md": "35e9d389c6fd150864d34216798b4292f08685babaf1c7c309933e509518619d",
+    "literature/README.md": "fccabd57482ad13ed86c6f529af19de0274ac84f5ad9eb115a653756ce286307",
+    "reviews/2026-09-10/f1-twisted-module-independent-review.md": "53bb009114bc83dd2cf369168241450dd571d96f8477996b5cfecd80eab46e6e",
+    "reviews/2026-09-10/f1-general-ff-geometric-source-audit.md": "a3151dd1495f3e61f218d6e748cfe8fae907535774187ac0936027c4dc38f9ba",
+    "reviews/2026-09-10/f1-geometric-comparison-independent-review.md": "fdbc972857a010c61c4db3d63191332fe4f6fa9b7a32e71639a8af8e5646c982",
+    "reviews/2026-09-10/f1-real-scale-next-proof-plan.md": "ac40b9945e424517fc4b904c48f931b0c7f327f0ce85f2e2f66b15cbbbcc4ce9"
+  },
+  "unreviewed_drafts": [],
+  "scope": "Saved identities and links only. Mathematical review and source-reading scope are in their separate reports; no full FF, RR or RH certification."
+}

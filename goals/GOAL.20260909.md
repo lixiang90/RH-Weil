@@ -145,8 +145,12 @@ Alpöge–Furman 的预印本核对至 arXiv:2608.13637v2（2026-08-19），Lamz
 当前主问题转到[372](../notes/372-f1-period-ring-tropical-principal-comparison.md)：
 使用实际完备period ring、权一元素及同权分式构造热带主除子，并核查其Proj几何身份。
 该稿已完成独立复核；[373](../notes/373-f1-period-ring-profile-surjectivity.md)
-已独立证明整数截距H_p周期PL函数的完整像。当前[374候选](../notes/374-f1-twisted-frobenius-modules-and-torsion.md)
-构造带torsion的实际Frobenius模块及有效除子截面，待独立复核；并行核读一般非代数闭底域的几何接口，
+已独立证明整数截距H_p周期PL函数的完整像。[374](../notes/374-f1-twisted-frobenius-modules-and-torsion.md)
+的实际扭曲模块及截面已复核；一般F的FF曲线、线丛和截面等价已核对原始来源。
+[375](../notes/375-f1-geometric-divisor-and-picard-comparison.md)已完成带次数权的
+几何主除子下降、有效锥及整数次数Picard商比较，数学与来源复核均闭环。
+下一有限问题是[实尺度族与跨支集主关系](../reviews/2026-09-10/f1-real-scale-next-proof-plan.md)，
+先验证规范重标度，再检验分组件模型能否提升跨有理公度类的主除子；
 优先给实际可容许线性系统的新输入。不得把所选域的H_p值群结果与代数闭域定理混用。
 路线修订前原始字节已存[周期比较快照](archive/GOAL.20260909.f1-periodic.md)。
 整个算术平方、交叉、固定ζ相对迹及RR仍开放；不由已知FF理论自动导入。
