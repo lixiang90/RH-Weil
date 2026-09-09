@@ -1,0 +1,46 @@
+{
+  "status": "PASS_SAVED_PROFILE_ROUND",
+  "checked_document_links": 810,
+  "goal_mirrors": 18,
+  "long_term_goal_bytes_unchanged": true,
+  "unchanged_lean_sources": 11,
+  "git_index_checked_blobs": 11,
+  "source_files": [
+    {
+      "file": "f1/ff-courbe-author-20260910.pdf",
+      "sha256": "8c020573d3dce341088ea7e83fe1063b410686c08e3a144fa3c0de634667cc79",
+      "pages": 404
+    },
+    {
+      "file": "f1/lurie-ffcurve-overview-20260910.pdf",
+      "sha256": "23cd3b58690217d910c08d5eef593ae0e07cc84c21d93822cac2edc77f9edf41",
+      "pages": 14
+    }
+  ],
+  "document_sha256_raw": {
+    "notes/373-f1-period-ring-profile-surjectivity.md": "a6740ec13a27f6f76e9cc714cf6493c2afc0e22b88b8b7abf0bbedcbaba2ef7f",
+    "notes/374-f1-twisted-frobenius-modules-and-torsion.md": "8d446cd70d23bc2a9b41d4de661b29a0979166ba98d3ea531de6656c19c9952b",
+    "reviews/2026-09-10/f1-profile-surjectivity-independent-review.md": "b437fa3c3d7a86ba9ab8500633c7f97b4db199ad9996cd44f734e99069c97261",
+    "README.md": "4ad576aa075cb91f4c09cdab742bc7b70d998b419f8da971e7835ddfa3b42a09",
+    "RESEARCH_BRANCHES.md": "faaadefa933592ee99eba3845eadb250442f426aa20cbe085fbf8f7fee6d2eb4",
+    "goals/GOAL.20260909.md": "822fb57c285e45486075ea6cc6ba0059ce96909edde95e327ec20f47a76387b1",
+    "goals/NEXT.20260909.md": "3133835f2f62626cd08ed2e1c6e5e06741a9e10d5d8671c4f633cc5df6094cd6",
+    "goals/PROGRESS.md": "3bd044d26a0a90cfc13bff0ae01cdf476947a0be2706ef5114a5c84285b40122",
+    "literature/README.md": "d99f1bab7fbca1079fab3a940c4068392f2daa0cbd5fa7d2ea9d4c8cae4d5cf7"
+  },
+  "document_sha256_lf": {
+    "notes/373-f1-period-ring-profile-surjectivity.md": "a6740ec13a27f6f76e9cc714cf6493c2afc0e22b88b8b7abf0bbedcbaba2ef7f",
+    "notes/374-f1-twisted-frobenius-modules-and-torsion.md": "8d446cd70d23bc2a9b41d4de661b29a0979166ba98d3ea531de6656c19c9952b",
+    "reviews/2026-09-10/f1-profile-surjectivity-independent-review.md": "b437fa3c3d7a86ba9ab8500633c7f97b4db199ad9996cd44f734e99069c97261",
+    "README.md": "4ad576aa075cb91f4c09cdab742bc7b70d998b419f8da971e7835ddfa3b42a09",
+    "RESEARCH_BRANCHES.md": "faaadefa933592ee99eba3845eadb250442f426aa20cbe085fbf8f7fee6d2eb4",
+    "goals/GOAL.20260909.md": "822fb57c285e45486075ea6cc6ba0059ce96909edde95e327ec20f47a76387b1",
+    "goals/NEXT.20260909.md": "a14043770a8ffef691df1794a510c41bf46b090088692ced60a4badf99f2d8a8",
+    "goals/PROGRESS.md": "3bd044d26a0a90cfc13bff0ae01cdf476947a0be2706ef5114a5c84285b40122",
+    "literature/README.md": "d99f1bab7fbca1079fab3a940c4068392f2daa0cbd5fa7d2ea9d4c8cae4d5cf7"
+  },
+  "unreviewed_drafts": [
+    "notes/374-f1-twisted-frobenius-modules-and-torsion.md"
+  ],
+  "scope": "Saved identities and links only. Mathematical review and source-reading scope are in their separate reports; no full FF, RR or RH certification."
+}

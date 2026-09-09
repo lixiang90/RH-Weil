@@ -544,3 +544,22 @@ PDF23页定义及定理经渲染核查。[368](../notes/368-f1-tropical-theta-an
 Acta Math.77,137–279；[DOI](https://doi.org/10.1007/BF02392225)／
 [YMSC目录](https://archive.ymsc.tsinghua.edu.cn/pacm_paperurl/20170108203121071731656)。
 本轮PDF获取HTTP500，未保存有效原件，也未核读原始全文；失败状态已列manifest。
+
+
+## 2026-09-10：一般perfectoid底域的几何接口来源
+
+- **Fargues–Fontaine，Courbes et fibrés vectoriels en théorie de Hodge p-adique**：
+  [作者完整稿](f1/ff-courbe-author-20260910.pdf)，404页；
+  [作者出版目录](https://webusers.imj-prg.fr/~laurent.fargues/Publications.html)，
+  [原件下载](https://webusers.imj-prg.fr/~laurent.fargues/Courbe_fichier_principal.pdf)。
+  此处按2026-09-10抓取的作者版本保存，不声称与Astérisque406出版字节相同。
+  已定位第3、7章的一般完美域情形，当前正在核读准确前提／曲线与截面定理，未核审全书。
+- **Lurie，Lecture 1: Overview**：
+  [本地原件](f1/lurie-ffcurve-overview-20260910.pdf)，14页；
+  [作者下载](https://www.math.ias.edu/~lurie/ffcurve/Lecture1-Overview.pdf)。
+  来源路径ffcurve/与已存205notes/分开。当前核读PDF13页Remark30、Warning31：
+  非代数闭F的闭点描述涉及有限扩张的untilt，不能照搬代数闭情形。
+
+两份均全页解析通过；空白／无可提取文字页、字节、SHA256及获取时间见
+[下载记录](../reviews/2026-09-10/f1-general-ff-source-download.json)。
+解析通过不等于证明审核，后续来源复核另记。

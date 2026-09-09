@@ -1136,3 +1136,9 @@ xelatex -output-directory=output/pdf papers/rh-weil-structure-paper.tex
 - [B1m raw Brownian limit diagnostics](scripts/b1m_raw_brownian_limit_audit.py)
 
 这里的“结构定理”是对已知 Weil/Grothendieck/Hilbert–Pólya 机制的一次公理化整理，不宣称其定义本身具有文献上的原创优先权。研究的开放部分是为数域 zeta / L 函数无循环地构造这些结构。
+
+
+2026-09-10续记：[373的轮廓满性](notes/373-f1-period-ring-profile-surjectivity.md)
+把372的单点例子扩为整数截距、H_p斜率周期函数的存在性命题，已独立复核；
+[374](notes/374-f1-twisted-frobenius-modules-and-torsion.md)正审核实际扭曲Frobenius模块的torsion及截面构造；
+适用范围与完整RR、实系数及固定ζ接口分开。
