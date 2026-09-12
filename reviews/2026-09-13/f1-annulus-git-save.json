@@ -1,0 +1,25 @@
+{
+  "mathematical_commit": "6511a372ed3b0bdd883610e437a6b45763fef3fb",
+  "remote": "origin",
+  "remote_url": "https://github.com/lixiang90/RH-Weil",
+  "branch": "main",
+  "observed_remote_sha": "6511a372ed3b0bdd883610e437a6b45763fef3fb",
+  "verified_at_utc": "2026-09-12T17:57:57.547791+00:00",
+  "validation_file": "reviews/2026-09-13/f1-annulus-round-validation.json",
+  "validation_sha256_raw": "07a3b5d4067289d39876f4a77e3346530a2da3b8c0aca578b448fc9b5989584b",
+  "validation_sha256_lf": "07a3b5d4067289d39876f4a77e3346530a2da3b8c0aca578b448fc9b5989584b",
+  "checked_document_links": 875,
+  "git_index_checked_blobs": 17,
+  "goal_mirrors": 19,
+  "literature_artifacts_verified": 83,
+  "new_math_notes": [
+    380,
+    381,
+    382,
+    383
+  ],
+  "unreviewed_drafts": [],
+  "long_term_goal_bytes_unchanged": true,
+  "goal_status": "active",
+  "scope": "Binds the mathematical commit and its saved validation snapshot. This ledger and the later PROGRESS save annotation are subsequent records; no claim that their later bytes match the mathematical-commit document hashes. Internal reviews do not certify RH, RR or priority."
+}
