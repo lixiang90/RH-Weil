@@ -1,13 +1,13 @@
 # 研究分支看板
 
-## 唯一当前队列（2026-09-10重启）
+## 唯一当前队列（2026-09-10重启，2026-09-13续研）
 
 执行[GOAL.20260909.md](goals/GOAL.20260909.md)，Goal模式active。
 
 | 顺序 | 任务 | 验收与切换 |
 |---|---|---|
 | 已结算 | 旧周期13的iteration-10冻结候选：[364完整验收](notes/364-frozen-integer-candidate-verification.md) | 6237815186边全扫描，13755190失败；最坏边320位真实标量缺口仍严格为正。只排除该表的同word／前缀充分条件 |
-| 当前主线 | F1-EX1：[369](notes/369-f1-hp-solenoid-unit-slope.md)单位斜率、[370](notes/370-f1-finite-level-periodic-meromorphic-rigidity.md)有限层周期亚纯刚性、[371](notes/371-f1-tate-curve-frobenius-weight.md)权重边界均已复核；[372](notes/372-f1-period-ring-tropical-principal-comparison.md)构造实际period ring同权分式及热带主除子，已完成独立复核 | 停止所选有限层复模型直接RR候选；[373](notes/373-f1-period-ring-profile-surjectivity.md)已复核整数截距周期PL像满性；[374](notes/374-f1-twisted-frobenius-modules-and-torsion.md)扭曲模块已复核，一般F几何来源已核读；[375](notes/375-f1-geometric-divisor-and-picard-comparison.md)带权几何主除子、有效截面及Picard比较已复核；当前验证[实尺度族与跨支集主关系](reviews/2026-09-10/f1-real-scale-next-proof-plan.md)。固定ζ接口仍缺 |
+| 当前主线 | F1-EX1：372–375实际period ring、扭曲模块与几何除子比较已审；[376](notes/376-f1-real-scales-principal-relations-and-density.md)实尺度主关系范围及稠密性已独立复核；[377](notes/377-f1-ramified-tower-and-gauss-completion-barrier.md)相容分歧塔／Gauss完成障碍待独立复核 | 下一有限构造为[实赋值源环](reviews/2026-09-13/f1-real-value-ring-next-proof-plan.md)：先证实际环、Gauss乘法性和φ级数，再接局部除子。全实算术作用、RR及固定ζ接口仍缺 |
 | 必要辅助 | 经典Lean缺口、原始文献及只读独立复核 | 26项既有检查与十个sorry为当前基线；形式化通过不替代实际算术存在性 |
 
 [任务单](goals/NEXT.20260909.md)与[账本](goals/PROGRESS.md)维护当前状态。

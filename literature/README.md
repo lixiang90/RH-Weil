@@ -571,3 +571,17 @@ FF 7.3.3、11.2.2、11.3.1及§11.4可用于实际曲线、线丛与截面；
 未独立重证几乎纯性、Sen–Tate及Kedlaya–Liu等原始依赖；
 [375](../notes/375-f1-geometric-divisor-and-picard-comparison.md)的具体C_p比较已通过独立数学与来源复核，
 见[对应记录](../reviews/2026-09-10/f1-geometric-comparison-independent-review.md)；仍非完整RR或ζ结论。
+
+## 2026-09-13：相容系数扩张与实值群
+
+| 作者与标题 | 固定原件／来源 | 本轮阅读边界 |
+|---|---|---|
+| Bjorn Poonen，Maximally complete fields | [本地PDF](f1/poonen-maximally-complete-author-20260913.pdf)／[作者原件](https://math.mit.edu/~poonen/papers/amsval.pdf)，19页；作者副本日期1992-03-04，出版1993 | PDF5–9构造及最大完成初段；一般G和完美剩余域，不自动给双参数Gauss环 |
+| Kiran S. Kedlaya，Power series and p-adic algebraic closures | [本地PDF](f1/kedlaya-power-series-math-9906030v2.pdf)／[arXiv v2](https://arxiv.org/abs/math/9906030v2)，12页；1999-12-16 | PDF1及§2末；主要Theorem1尚未审。PDF排版日期2018-03-13与固定arXiv版本日期分开 |
+| Alexander I. Efimov，On the Hahn-Witt series and their generalizations | [本地PDF](f1/efimov-hahn-witt-2406.19163v1.pdf)／[arXiv v1](https://arxiv.org/abs/2406.19163v1)，19页；2024-06-27 | PDF1、5–8定义与Theorem1.4；Q指数与一般G范围，未核审根单位／类域论主定理 |
+
+三份原件全页解析通过；SHA256、字节及UTC获取时刻见manifest和
+[下载记录](../reviews/2026-09-13/f1-hahn-witt-source-download.json)。
+另新增FF §7.5/PDF279原页及2018 §7.1的独立核读，见
+[来源范围报告](../reviews/2026-09-13/f1-real-coefficients-source-audit.md)。
+2018共同实系数代数已存在，但单p周期主关系接口不由该事实自动提供。

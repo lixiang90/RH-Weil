@@ -5,7 +5,7 @@
 面向具有大学二年级数学基础的读者：[F₁ 路线究竟要找什么，以及为什么足以推出 RH](docs/f1-route-from-undergraduate-math.md)。
 讲义从具体例子出发，给出精确条件与完整条件证明，并区分指定来源和自由存在性路线。
 
-## 当前研究状态：GOAL已重启，先验收旧候选，再侧重F₁（2026-09-10）
+## 当前研究状态：旧验证已结算，持续推进F₁（2026-09-13）
 
 [GOAL.20260909.md](goals/GOAL.20260909.md)已按用户要求修订并启动，
 原第十三版已按原始字节归档。十轮整数候选的[完整独立验收](notes/364-frozen-integer-candidate-verification.md)
@@ -20,6 +20,12 @@
 核查复Tate模型与Frobenius权重，两项复核闭环。
 当前[372](notes/372-f1-period-ring-tropical-principal-comparison.md)从实际完备period ring
 构造同权分式及非零热带主除子，已完成独立复核；完整算术平方／RR及固定ζ接口仍开放。
+[373](notes/373-f1-period-ring-profile-surjectivity.md)–[375](notes/375-f1-geometric-divisor-and-picard-comparison.md)
+已复核整数轮廓、扭曲模块及实际几何除子比较。
+[376](notes/376-f1-real-scales-principal-relations-and-density.md)已独立复核：实尺度有限组件的主关系
+必须在每个有理公度类分别消去次数与χ，尽管其轮廓像稠密。
+[377](notes/377-f1-ramified-tower-and-gauss-completion-barrier.md)的实际相容分歧塔及完成障碍正在复核；
+下一步检验[源头实赋值环](reviews/2026-09-13/f1-real-value-ring-next-proof-plan.md)。
 [任务单](goals/NEXT.20260909.md)给出顺序。
 尚无新的RH或无条件比例结论；完整验收与较远期显著进展分开。
 
@@ -1142,5 +1148,6 @@ xelatex -output-directory=output/pdf papers/rh-weil-structure-paper.tex
 把372的单点例子扩为整数截距、H_p斜率周期函数的存在性命题，已独立复核；
 [374](notes/374-f1-twisted-frobenius-modules-and-torsion.md)已审核实际扭曲Frobenius模块的torsion及截面构造；
 [375](notes/375-f1-geometric-divisor-and-picard-comparison.md)已复核实际FF几何主除子、有效锥和整数次数Picard商的比较；
-下一步检验[实尺度族的跨支集主关系](reviews/2026-09-10/f1-real-scale-next-proof-plan.md)；
+该任务已由[376](notes/376-f1-real-scales-principal-relations-and-density.md)结算，
+后续相容扩张与实赋值源环见页首当前队列；
 适用范围与完整RR、实系数及固定ζ接口分开。

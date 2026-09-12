@@ -64,5 +64,11 @@
 提升全部整数阶数有效除子，已完成独立复核。一般F的曲线及GAGA／截面来源已经核读。
 [375](../notes/375-f1-geometric-divisor-and-picard-comparison.md)已完成实际几何除子
 按闭点次数推到C_p的比较，包含主除子、有效截面及整数次数Picard商；双重内部复核通过。
-当前按[实尺度任务单](../reviews/2026-09-10/f1-real-scale-next-proof-plan.md)验证norm重标度及
-跨有理公度类主关系；保持完整实系数／固定ζ要求，不以单点覆盖代替全局比较。
+2026-09-13：[376](../notes/376-f1-real-scales-principal-relations-and-density.md)已复核规范重标度、
+逐有理公度类主关系充要条件及热带轮廓稠密性。
+[377](../notes/377-f1-ramified-tower-and-gauss-completion-barrier.md)给实际相容分歧塔与
+Gauss完成的有理赋值障碍，完整候选正在独立复核。
+2018原文已有共同实参数代数，但指定范围未交付所需单p周期主关系；来源审查已结算。
+当前按[实赋值源环任务单](../reviews/2026-09-13/f1-real-value-ring-next-proof-plan.md)推进
+有限支集超越系数、Gauss完成和φ级数，不把源完成定义为轮廓完成。
+保持完整实系数／固定ζ要求，不以单点覆盖代替全局比较。

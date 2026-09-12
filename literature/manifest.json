@@ -1,6 +1,6 @@
 {
   "retrieved_on": "2026-09-06",
-  "scope": "零点比例进展、非循环函数域基准与 Abel 障碍直接文献；归档不等于数学认证；phase 2 插值、密度与正则化算子背景；持续GOAL周期4：实际零密度原始比较及ANTEDB固定快照；2026-09-09：F1算术几何与构造／存在性原始文献；2026-09-10：F1本科背景讲义的Weil猜想教学来源; 2026-09-10：周期Cartier/字符族与热带theta比较来源; 2026-09-10：实际period ring、FF几何前提及Jessen归一化来源",
+  "scope": "零点比例进展、非循环函数域基准与 Abel 障碍直接文献；归档不等于数学认证；phase 2 插值、密度与正则化算子背景；持续GOAL周期4：实际零密度原始比较及ANTEDB固定快照；2026-09-09：F1算术几何与构造／存在性原始文献；2026-09-10：F1本科背景讲义的Weil猜想教学来源; 2026-09-10：周期Cartier/字符族与热带theta比较来源; 2026-09-10：实际period ring、FF几何前提及Jessen归一化来源; 2026-09-13：实尺度主关系、相容分歧扩张与Hahn–Witt一般值群来源",
   "entries": [
     {
       "id": "AF-2026",
@@ -1007,6 +1007,11 @@
           "date": "2026-09-10",
           "scope": "新增PDF23–31页核读；24、29页渲染。核查(22)/(23)/(29)的2π归一化，保留p周期下降与RR缺口。",
           "review_note": "../reviews/2026-09-10/f1-jessen-normalization-source-audit.md"
+        },
+        {
+          "date": "2026-09-13",
+          "scope": "Singer独立核读PDF58–65及19–25、31–43必要前文；共同实系数代数与单p周期主函数下降的区别。",
+          "report": "../reviews/2026-09-13/f1-real-coefficients-source-audit.md"
         }
       ]
     },
@@ -1259,6 +1264,11 @@
           "date": "2026-09-10",
           "scope": "375来源绑定再次核对自然对数/Gauss规范、理想Frobenius方向、带degree×ord的Newton公式及局部标架完成；Gibbs另视觉核对PDF153–155。",
           "review_note": "../reviews/2026-09-10/f1-geometric-comparison-independent-review.md"
+        },
+        {
+          "date": "2026-09-13",
+          "scope": "新增§7.5/PDF279有限E基变换；整页渲染核对。",
+          "report": "../reviews/2026-09-13/f1-real-coefficients-source-audit.md"
         }
       ]
     },
@@ -1287,6 +1297,90 @@
           "date": "2026-09-10",
           "scope": "Singer核对PDF13 Warning31与FF一般F的有限扩张untilt闭点陈述。未核审全文。",
           "review_note": "../reviews/2026-09-10/f1-general-ff-geometric-source-audit.md"
+        }
+      ]
+    },
+    {
+      "id": "Poonen-maximally-complete-author-20260913",
+      "authors": "Bjorn Poonen",
+      "title": "Maximally complete fields",
+      "version": "Author copy retrieved 2026-09-13; dated March 4, 1992; published L'Enseignement Mathématique 39 (1993), 87–106",
+      "file": "f1/poonen-maximally-complete-author-20260913.pdf",
+      "source_url": "https://math.mit.edu/~poonen/",
+      "pdf_url": "https://math.mit.edu/~poonen/papers/amsval.pdf",
+      "category": "f1",
+      "attempted_on": "2026-09-13",
+      "resolved_pdf_url": "https://math.mit.edu/~poonen/papers/amsval.pdf",
+      "download_status": "downloaded",
+      "bytes": 338644,
+      "sha256": "4e6c0d968c3d10fab6cdf120fb4fea1e1541734b012397af735f5eee58de369c",
+      "pages": 19,
+      "pdf_parse_status": "all pages parsed",
+      "text_characters": 40740,
+      "empty_text_pages": [],
+      "retrieved_at_utc": "2026-09-12T16:38:29.845195+00:00",
+      "status": "核读PDF5–9的§4构造及§5初段；PDF5渲染。一般完美剩余域与含Z的G的单赋值域；不声称双参数Gauss乘法性。",
+      "reading_updates": [
+        {
+          "date": "2026-09-13",
+          "scope": "核读PDF5–9的§4构造及§5初段；PDF5渲染。一般完美剩余域与含Z的G的单赋值域；不声称双参数Gauss乘法性。",
+          "report": "../reviews/2026-09-13/f1-real-coefficients-source-audit.md"
+        }
+      ]
+    },
+    {
+      "id": "Kedlaya-power-series-math-9906030v2",
+      "authors": "Kiran S. Kedlaya",
+      "title": "Power series and p-adic algebraic closures",
+      "version": "arXiv:math/9906030v2, 1999-12-16; replaces v1 with corrected proof of Theorem 1",
+      "file": "f1/kedlaya-power-series-math-9906030v2.pdf",
+      "source_url": "https://arxiv.org/abs/math/9906030v2",
+      "pdf_url": "https://arxiv.org/pdf/math/9906030v2",
+      "category": "f1",
+      "attempted_on": "2026-09-13",
+      "resolved_pdf_url": "https://arxiv.org/pdf/math/9906030v2",
+      "download_status": "downloaded",
+      "bytes": 158118,
+      "sha256": "51bd92eba1c867bc3b70c5514d70f56424e9145d8241f71e7b7575dcaf6c9b22",
+      "pages": 12,
+      "pdf_parse_status": "all pages parsed",
+      "text_characters": 29576,
+      "empty_text_pages": [],
+      "retrieved_at_utc": "2026-09-12T16:38:32.560538+00:00",
+      "status": "核读PDF1及§2末/PDF4的一般G构造背景，未审主要Theorem1。PDF标题排版日期March13,2018，与arXiv v2日期分开登记。",
+      "reading_updates": [
+        {
+          "date": "2026-09-13",
+          "scope": "核读PDF1及§2末/PDF4的一般G构造背景，未审主要Theorem1。PDF标题排版日期March13,2018，与arXiv v2日期分开登记。",
+          "report": "../reviews/2026-09-13/f1-real-coefficients-source-audit.md"
+        }
+      ]
+    },
+    {
+      "id": "Efimov-hahn-witt-2406.19163v1",
+      "authors": "Alexander I. Efimov",
+      "title": "On the Hahn-Witt series and their generalizations",
+      "version": "arXiv:2406.19163v1, 2024-06-27",
+      "file": "f1/efimov-hahn-witt-2406.19163v1.pdf",
+      "source_url": "https://arxiv.org/abs/2406.19163v1",
+      "pdf_url": "https://arxiv.org/pdf/2406.19163v1",
+      "category": "f1",
+      "attempted_on": "2026-09-13",
+      "resolved_pdf_url": "https://arxiv.org/pdf/2406.19163v1",
+      "download_status": "downloaded",
+      "bytes": 241732,
+      "sha256": "6554d9f9b38ced6a39fb7fa8fc4e3e554279314f1444475972c053f1e104cf27",
+      "pages": 19,
+      "pdf_parse_status": "all pages parsed",
+      "text_characters": 37950,
+      "empty_text_pages": [],
+      "retrieved_at_utc": "2026-09-12T16:38:35.189425+00:00",
+      "status": "核读PDF1、5–8的§1定义与Theorem1.4；主要Q指数及一般G推广边界。未审根单位／类域论主定理；剩余域措辞边界见来源报告。",
+      "reading_updates": [
+        {
+          "date": "2026-09-13",
+          "scope": "核读PDF1、5–8的§1定义与Theorem1.4；主要Q指数及一般G推广边界。未审根单位／类域论主定理；剩余域措辞边界见来源报告。",
+          "report": "../reviews/2026-09-13/f1-real-coefficients-source-audit.md"
         }
       ]
     }
@@ -1458,5 +1552,5 @@
       "status": "导数生成器依赖的固定原件；归档，尚未完整核读或运行。"
     }
   ],
-  "last_updated_on": "2026-09-10"
+  "last_updated_on": "2026-09-13"
 }

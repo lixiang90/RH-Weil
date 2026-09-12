@@ -1,0 +1,56 @@
+{
+  "status": "PASS_SAVED_REAL_SCALE_ROUND",
+  "date": "2026-09-13",
+  "checked_document_links": 840,
+  "goal_mirrors": 19,
+  "long_term_goal_bytes_unchanged": true,
+  "unchanged_lean_sources": 11,
+  "git_index_checked_blobs": 14,
+  "source_files": [
+    {
+      "file": "f1/poonen-maximally-complete-author-20260913.pdf",
+      "sha256": "4e6c0d968c3d10fab6cdf120fb4fea1e1541734b012397af735f5eee58de369c",
+      "pages": 19
+    },
+    {
+      "file": "f1/kedlaya-power-series-math-9906030v2.pdf",
+      "sha256": "51bd92eba1c867bc3b70c5514d70f56424e9145d8241f71e7b7575dcaf6c9b22",
+      "pages": 12
+    },
+    {
+      "file": "f1/efimov-hahn-witt-2406.19163v1.pdf",
+      "sha256": "6554d9f9b38ced6a39fb7fa8fc4e3e554279314f1444475972c053f1e104cf27",
+      "pages": 19
+    }
+  ],
+  "document_sha256_raw": {
+    "notes/376-f1-real-scales-principal-relations-and-density.md": "eb55ea24ef92523ad1ee25c22abf6b44d99d37cdfa63ffc3eecfbdae601e4d84",
+    "notes/377-f1-ramified-tower-and-gauss-completion-barrier.md": "184f89a272af951e4645a818844267589706c9c88ceb41c800a401af3000bf66",
+    "README.md": "fc41c34ba2a6833ff52913dfafdc9c965aeccf9682755eeec576f537da056afd",
+    "RESEARCH_BRANCHES.md": "5ee118f9dee797c1ff7fab99c234c15847232bd28f542f1356699328eca74d8a",
+    "goals/GOAL.20260909.md": "2f622363f8c46576caaade3ecb7a36944e42fe7f304f49a221b66e75e5d4c304",
+    "goals/NEXT.20260909.md": "e8beea023c93935666e0b93eee6b77164d0907b809411e9b5c9c23f6a098a8fd",
+    "goals/PROGRESS.md": "5076458a0c408b97be42904a31cba3fd7af51b2d97eb6db0c4fbe4dc2b0ff0bd",
+    "literature/README.md": "d5cf27fb88f0cb7ecec4afb94d5f6060c516f335e2def4d7e5227e5ee45ae3c8",
+    "reviews/2026-09-13/f1-real-coefficients-source-audit.md": "d78b7ee3c7a82b317daff051f68b934e3d2fec5c8a85bed035952a7187d4296e",
+    "reviews/2026-09-13/f1-real-scale-independent-review.md": "421e3bf09880b8ed1229e48881ea57ed7d0584c194e2d3f87186154c64eda9d3",
+    "reviews/2026-09-13/f1-real-value-ring-next-proof-plan.md": "55ca0efaf7decb1fd0ba47ce154312f93b9b8ee50be8d3f639772fdb7dd3a828"
+  },
+  "document_sha256_lf": {
+    "notes/376-f1-real-scales-principal-relations-and-density.md": "eb55ea24ef92523ad1ee25c22abf6b44d99d37cdfa63ffc3eecfbdae601e4d84",
+    "notes/377-f1-ramified-tower-and-gauss-completion-barrier.md": "184f89a272af951e4645a818844267589706c9c88ceb41c800a401af3000bf66",
+    "README.md": "fc41c34ba2a6833ff52913dfafdc9c965aeccf9682755eeec576f537da056afd",
+    "RESEARCH_BRANCHES.md": "5ee118f9dee797c1ff7fab99c234c15847232bd28f542f1356699328eca74d8a",
+    "goals/GOAL.20260909.md": "2f622363f8c46576caaade3ecb7a36944e42fe7f304f49a221b66e75e5d4c304",
+    "goals/NEXT.20260909.md": "e01d89e23391f1882a2f4dede7ea43564f31b1f12547658412390c59572679ad",
+    "goals/PROGRESS.md": "5076458a0c408b97be42904a31cba3fd7af51b2d97eb6db0c4fbe4dc2b0ff0bd",
+    "literature/README.md": "d5cf27fb88f0cb7ecec4afb94d5f6060c516f335e2def4d7e5227e5ee45ae3c8",
+    "reviews/2026-09-13/f1-real-coefficients-source-audit.md": "d78b7ee3c7a82b317daff051f68b934e3d2fec5c8a85bed035952a7187d4296e",
+    "reviews/2026-09-13/f1-real-scale-independent-review.md": "421e3bf09880b8ed1229e48881ea57ed7d0584c194e2d3f87186154c64eda9d3",
+    "reviews/2026-09-13/f1-real-value-ring-next-proof-plan.md": "55ca0efaf7decb1fd0ba47ce154312f93b9b8ee50be8d3f639772fdb7dd3a828"
+  },
+  "unreviewed_drafts": [
+    "notes/377-f1-ramified-tower-and-gauss-completion-barrier.md"
+  ],
+  "scope": "Saved identities and links only. Independent mathematical and source reviews have their own scope; no full FF, RR, RH, or priority certification."
+}

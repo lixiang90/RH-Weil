@@ -1,8 +1,8 @@
 # GOAL.20260909：先完成中断验证，再以 F₁ 构造与存在性为主线
 
 版本名按用户要求为 20260909；实际修订及重新启动日期：2026-09-10。
-本版替代此前第十三版。工作目录为本文件所在目录；研究仓库：[RH-Weil](../README.md)。
-原 [GOAL.20260906.md](archive/GOAL.20260906.md) 已按原始字节归档；更早历史仍保留。
+本版替代此前第十三版。工作目录为本文件所在目录；研究仓库：[RH-Weil](../../README.md)。
+原 [GOAL.20260906.md](GOAL.20260906.md) 已按原始字节归档；更早历史仍保留。
 
 修订原因：旧周期13的整数迭代已完成10轮，最终冻结候选有19730568条长度四分支，
 此前账本只登记五轮；中断的是最终完整独立验收。随后已完成F₁调查、形式化蓝图、
@@ -20,7 +20,7 @@ G0–G8 v1.1与本科背景讲义。按用户新指令重新启动持续GOAL：�
 但仍依赖实际簇几何，尚未证明新的零点比例、非零区域或算术正性。
 这些是当前基线，不能重新计算为本持续GOAL的“较远期显著进展”。
 
-当前顺序固定为两个阶段，执行[重启任务单](../goals/NEXT.20260909.md)：
+当前顺序固定为两个阶段，执行[重启任务单](../../goals/NEXT.20260909.md)：
 
 1. 完成旧周期13最终冻结候选的完整独立验证。保持354精确窗口、alpha=.007535、
    eta=.00377855、313控制值、e=5e-6和b>=-.007；355实际传递及361曲率表是已审输入。
@@ -28,9 +28,9 @@ G0–G8 v1.1与本科背景讲义。按用户新指令重新启动持续GOAL：�
    完成本次“中断验证”，不能以再次寻优代替验收，也不要求为了转入F₁先得到比例突破。
 2. 验证结算后，以F₁实际几何构造／存在性为主线。允许指定来源和自由存在性两种路线；
    固定通常zeta、测试类、显式公式W及验收结论，空间、结构和比较映射可一起量化。
-   以[精确几何包v1.1](../formal/blueprint/geometric-realization.md)、
-   [本科背景讲义](../docs/f1-route-from-undergraduate-math.md)及
-   [缺口账本](../formal/blueprint/README.md)为已完成基线。
+   以[精确几何包v1.1](../../formal/blueprint/geometric-realization.md)、
+   [本科背景讲义](../../docs/f1-route-from-undergraduate-math.md)及
+   [缺口账本](../../formal/blueprint/README.md)为已完成基线。
 
 实际算术平方的交叉积、主除子根空间、可容许截面／RR及精确算术比较仍开放。
 Lean框架的26项传递公理检查和十个经典sorry不构成这些对象的存在性证明。
@@ -74,7 +74,7 @@ Alpöge–Furman 的预印本核对至 arXiv:2608.13637v2（2026-08-19），Lamz
 
 所有比例均须明确分母是否计重数、分子是否要求简单且在临界线、采用移动区间还是累计计数。条件性 67.92%、方法能力上限、数值寻优候选和实际比例下界不得混写。已因错误封存的密度 1 稿件不进入结果基线；其他高比例稿件也须核查实际解析链，不能由有限常数或局部 Lean 证书直接导入。
 
-每次拟宣布新纪录、恢复数值优化或评价新颖性前，更新[文献索引](../literature/README.md)，固定版本并核查勘误。不能仅因超过旧 67.25% 就宣称前沿进展，也不机械地把未核查的最大声明设为必须超过的门槛。
+每次拟宣布新纪录、恢复数值优化或评价新颖性前，更新[文献索引](../../literature/README.md)，固定版本并核查勘误。不能仅因超过旧 67.25% 就宣称前沿进展，也不机械地把未核查的最大声明设为必须超过的门槛。
 
 ### 3. 四矩路线仍有实际算术缺口
 
@@ -109,12 +109,12 @@ Alpöge–Furman 的预印本核对至 arXiv:2608.13637v2（2026-08-19），Lamz
 
 ### A. 冻结候选的完整验收
 
-2026-09-10执行更新：本项已按[周期13结算](../goals/ACCEPTANCE.cycle13.md)完成。
+2026-09-10执行更新：本项已按[周期13结算](../../goals/ACCEPTANCE.cycle13.md)完成。
 6237815186条边全部扫描；13755190条失败。320位区间算术及独立见证复核确认
 同word／前缀充分条件严格失败，偏置下界通过。没有实际比例结论；当前主线已转F₁。
 以下保留验收规范，防止把这一有限失败审计误报为整个GOAL完成。
 
-冻结 [十轮整数迭代记录](../reviews/2026-09-08/finite-control-integer-iteration.json)
+冻结 [十轮整数迭代记录](../../reviews/2026-09-08/finite-control-integer-iteration.json)
 及其中指向的iteration-10数组，核对初始化、核费用、全部分支偏置的哈希与字节。
 大数组仍保留本地忽略目录，Git保存生成器、固定输入、生成命令与数据哈希。
 
@@ -129,39 +129,30 @@ Alpöge–Furman 的预印本核对至 arXiv:2608.13637v2（2026-08-19），Lamz
 
 ### B. F₁后续研究的第一组有限问题
 
-当前首轮比较见[365](../notes/365-f1-rational-comparison-and-witt-coefficients.md)：
+当前首轮比较见[365](../../notes/365-f1-rational-comparison-and-witt-coefficients.md)：
 正系数Newton层可与实际F(n)求值比较，普通复幂映射不能直接识别为2018算术右作用。
 后续保留Witt系数、移动字符和原文半线性提升，推进可容许截面／主除子下降。
-2026-09-10执行续记：[366](../notes/366-f1-character-family-principal-divisors.md)
+2026-09-10执行续记：[366](../../notes/366-f1-character-family-principal-divisors.md)
 完成整族有限主除子及内部模型的范围内障碍，独立复核闭环。
-[367](../notes/367-f1-periodic-cartier-sections.md)构造实际p周期线丛和截面，
-[368](../notes/368-f1-tropical-theta-and-coefficient-obstruction.md)定位全Q频率与H_p热带系数的失配，
+[367](../../notes/367-f1-periodic-cartier-sections.md)构造实际p周期线丛和截面，
+[368](../../notes/368-f1-tropical-theta-and-coefficient-obstruction.md)定位全Q频率与H_p热带系数的失配，
 两项已独立复核；368增加任意单位换生成元会破坏H_p比较的精确反例。
-[369](../notes/369-f1-hp-solenoid-unit-slope.md)已完成H_p子层及完整纤维带上单位斜率的独立复核。
-[370](../notes/370-f1-finite-level-periodic-meromorphic-rigidity.md)证明所选局部有限层复函数类别
+[369](../../notes/369-f1-hp-solenoid-unit-slope.md)已完成H_p子层及完整纤维带上单位斜率的独立复核。
+[370](../../notes/370-f1-finite-level-periodic-meromorphic-rigidity.md)证明所选局部有限层复函数类别
 的周期商全局亚纯函数只有常数，其直接承担周期RR的候选停止。
-[371](../notes/371-f1-tate-curve-frobenius-weight.md)区分复Tate平移、算术权重与Witt Frobenius；
+[371](../../notes/371-f1-tate-curve-frobenius-weight.md)区分复Tate平移、算术权重与Witt Frobenius；
 370–371均已独立复核，排除范围不外推到全部F₁几何。
-当前主问题转到[372](../notes/372-f1-period-ring-tropical-principal-comparison.md)：
+当前主问题转到[372](../../notes/372-f1-period-ring-tropical-principal-comparison.md)：
 使用实际完备period ring、权一元素及同权分式构造热带主除子，并核查其Proj几何身份。
-该稿已完成独立复核；[373](../notes/373-f1-period-ring-profile-surjectivity.md)
-已独立证明整数截距H_p周期PL函数的完整像。[374](../notes/374-f1-twisted-frobenius-modules-and-torsion.md)
+该稿已完成独立复核；[373](../../notes/373-f1-period-ring-profile-surjectivity.md)
+已独立证明整数截距H_p周期PL函数的完整像。[374](../../notes/374-f1-twisted-frobenius-modules-and-torsion.md)
 的实际扭曲模块及截面已复核；一般F的FF曲线、线丛和截面等价已核对原始来源。
-[375](../notes/375-f1-geometric-divisor-and-picard-comparison.md)已完成带次数权的
+[375](../../notes/375-f1-geometric-divisor-and-picard-comparison.md)已完成带次数权的
 几何主除子下降、有效锥及整数次数Picard商比较，数学与来源复核均闭环。
-2026-09-13执行续记：[376](../notes/376-f1-real-scales-principal-relations-and-density.md)
-已独立复核规范重标度、逐公度类主关系的充要条件及轮廓稠密性。
-[377](../notes/377-f1-ramified-tower-and-gauss-completion-barrier.md)给实际相容分歧塔、
-有理轮廓满性及Gauss完成的有理赋值障碍，完整候选正在独立复核。
-2018共同实系数代数确实存在，但原文指定范围没有交付所需的单p周期主关系；
-不能把它误归为仅独立组件。准确范围见[来源报告](../reviews/2026-09-13/f1-real-coefficients-source-audit.md)。
-下一有限问题是[实赋值源环构造](../reviews/2026-09-13/f1-real-value-ring-next-proof-plan.md)：
-在实际B的相容系数塔上加入有限支集超越参数，先证明Gauss乘法性、完成整性及φ级数，
-再验证主函数与局部几何除子；不以按轮廓定义完成来预设目标关系。
-Poonen、Kedlaya与Efimov原PDF已归档；单赋值Hahn–Witt域不是完整双参数Gauss几何。
-本次执行路线修订前原件存[实尺度快照](archive/GOAL.20260909.f1-real-scales.md)。
+下一有限问题是[实尺度族与跨支集主关系](../../reviews/2026-09-10/f1-real-scale-next-proof-plan.md)，
+先验证规范重标度，再检验分组件模型能否提升跨有理公度类的主除子；
 优先给实际可容许线性系统的新输入。不得把所选域的H_p值群结果与代数闭域定理混用。
-路线修订前原始字节已存[周期比较快照](archive/GOAL.20260909.f1-periodic.md)。
+路线修订前原始字节已存[周期比较快照](GOAL.20260909.f1-periodic.md)。
 整个算术平方、交叉、固定ζ相对迹及RR仍开放；不由已知FF理论自动导入。
 本批局部比较与机制重建尚不触发第十节C；第十节B/C保持原文。
 
@@ -236,7 +227,7 @@ Poonen、Kedlaya与Efimov原PDF已归档；单赋值Hahn–Witt域不是完整�
 
 **研究中一旦发现相关文献、修订版本、勘误或关键证明附件，就在当前研究轮次及时保存，不等到论文整理或周期结束。**
 
-统一使用 [RH-Weil/literature/](../literature/README.md)：
+统一使用 [RH-Weil/literature/](../../literature/README.md)：
 
 1. 保存公开可获取的原始 PDF；重要结论若只在补充文档、TeX、权表、验证器或证书中出现，同时保存必要附件或固定版本链接。保留原文件，不改写原文的结论和状态。
 2. 即时更新 literature/README.md 和 manifest.json，记录作者、准确标题、日期、版本或完整 Git 提交、来源页、下载直链、本地路径、获取时间、SHA-256、页数及可读性状态。
