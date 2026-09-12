@@ -28,7 +28,11 @@
 [378](notes/378-f1-real-value-period-ring-and-principal-lifts.md)给实赋值环与全部周期主函数提升的完整候选，
 环／范数与级数／Proj两部分独立复核均通过。
 [379](notes/379-f1-perfectoid-real-coefficient-field.md)的perfectoid实系数域及完成张量积身份也已独立复核。
-下一步核对紧环域的局部函数层、几何除子与既有相对period-ring理论的接口。
+[380](notes/380-f1-perfectoid-annuli-and-periodic-line-bundles.md)已实现实际解析环域、周期商及线丛，独立复核通过。
+[381](notes/381-f1-real-height-points-and-newton-breaks.md)的真实高度点与零点必要条件也已复核。
+[382](notes/382-f1-binomial-quotient-and-nonuniformity.md)的非一致商和
+[383](notes/383-f1-geometric-zero-existence-at-every-break.md)的每个折点几何零点存在性均已复核；
+下一步为Cartier局部正则性及规范重数比较。
 [任务单](goals/NEXT.20260909.md)给出顺序。
 尚无新的RH或无条件比例结论；完整验收与较远期显著进展分开。
 

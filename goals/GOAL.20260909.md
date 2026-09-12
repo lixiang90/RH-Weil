@@ -161,7 +161,14 @@ Alpöge–Furman 的预印本核对至 arXiv:2608.13637v2（2026-08-19），Lamz
 [378](../notes/378-f1-real-value-period-ring-and-principal-lifts.md)已给完整候选：
 实际完成环、φ级数和固定整数Proj的全部周期主函数提升，分段独立复核均通过；
 [379](../notes/379-f1-perfectoid-real-coefficient-field.md)进一步检验实系数域的perfectoid性
-及完成张量积身份，已独立复核。当前核对紧环域的局部化、层性与几何除子接口。
+及完成张量积身份，已独立复核。
+[380](../notes/380-f1-perfectoid-annuli-and-periodic-line-bundles.md)的完美化环域、
+实际周期解析商、线丛与截面已独立复核；[381](../notes/381-f1-real-height-points-and-newton-breaks.md)
+给真实高度点及“几何零点高度必为折点”，也已复核。
+[382](../notes/382-f1-binomial-quotient-and-nonuniformity.md)证明最简单闭主理想的实际商非uniform，
+[383](../notes/383-f1-geometric-zero-existence-at-every-break.md)用谱非空证明每个折点的几何零点存在，
+两项独立复核通过，得到零点高度支集的充要比较。下一步直接检验Cartier局部正则性及规范重数／测度；
+一般有理局部化的pseudoflat性不能省略稳定伪相干条件，零点存在性也不能代替重数比较。
 Poonen、Kedlaya与Efimov原PDF已归档；单赋值Hahn–Witt域不是完整双参数Gauss几何。
 本次执行路线修订前原件存[实尺度快照](archive/GOAL.20260909.f1-real-scales.md)。
 优先给实际可容许线性系统的新输入。不得把所选域的H_p值群结果与代数闭域定理混用。

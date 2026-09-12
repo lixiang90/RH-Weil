@@ -1,0 +1,57 @@
+{
+  "status": "PASS_SAVED_ANNULUS_ROUND",
+  "date": "2026-09-13",
+  "checked_document_links": 875,
+  "goal_mirrors": 19,
+  "long_term_goal_bytes_unchanged": true,
+  "unchanged_lean_sources": 11,
+  "git_index_checked_blobs": 17,
+  "source_files": [
+    {
+      "file": "f1/kl-foundations-1301.0792v5.pdf",
+      "sha256": "a6a117423db62aec072442bb15b70e3175bcc3b631bdcd6d74f740e3c6cfd942",
+      "pages": 210
+    },
+    {
+      "file": "f1/kl-imperfect-1602.06899v3.pdf",
+      "sha256": "97383900492daf1c6778959c37e993f67dd5ad379ac03c31049b870382e5d42c",
+      "pages": 199
+    }
+  ],
+  "document_sha256_raw": {
+    "notes/380-f1-perfectoid-annuli-and-periodic-line-bundles.md": "f0863e4a9520930b44ecc6607e44eb50b876fb6aaa48ad15079a3a6490911f06",
+    "notes/381-f1-real-height-points-and-newton-breaks.md": "366b7e4d7453359ab982b2667f0d5b9c796fe40a6391f29c993eee7c58ba665a",
+    "notes/382-f1-binomial-quotient-and-nonuniformity.md": "653eda4dd5752537e39c308b550140957c66f68e9bb06f20cd2c667b5f5ccfa0",
+    "notes/383-f1-geometric-zero-existence-at-every-break.md": "8782918419fa3618209476e198f5d187e8d8c79345889b256d8065ae84605cac",
+    "README.md": "915a567bdb3f096c2e0946a7bb45b66cc9c26495d0b71e153be6846f4fb739a3",
+    "RESEARCH_BRANCHES.md": "b8bd739899ce355b81abf3bd13e66d570c9d839964b0a23077c309f051b9c232",
+    "goals/GOAL.20260909.md": "0eade84d16f8a6a6ea2c3650a1223acecc6fea75aa450b9ca91fe7809986bdfe",
+    "goals/NEXT.20260909.md": "fdf9712c033fd73a55dae0150f3e915d9148f84c259f131c9b1a376026deeb14",
+    "goals/PROGRESS.md": "7778175445ee30bf9747ce0896621093d90a459e920e2dda93556ebe4d7eee0e",
+    "literature/README.md": "1342afdedc989d414085b23d23e857389a5979795b1e9aeadc645811a7aa7520",
+    "reviews/2026-09-13/f1-perfectoid-annulus-source-audit.md": "605d75aa3149f72c4d0b8c9ba96ed6567d89a9d21eeae3a4619752ae6581db67",
+    "reviews/2026-09-13/f1-perfectoid-annulus-independent-review.md": "d2c91556a8869608c20c9e057d3cfec48e399a9ae7eeb4029428ab616022b6ef",
+    "reviews/2026-09-13/f1-height-points-independent-review.md": "3965db868d881eb2ff8262b52a95c65fe578e835fe092456989053fdd4f66fc1",
+    "reviews/2026-09-13/f1-binomial-quotient-independent-review.md": "d088bfce27f0169f13f8602073d372fbd13d7733901772bd57fab2e4fc985d00",
+    "reviews/2026-09-13/f1-zero-existence-independent-review.md": "1640b21c4194b280fc6db21731541815466a4b3e62c41ffb384c24971e903393"
+  },
+  "document_sha256_lf": {
+    "notes/380-f1-perfectoid-annuli-and-periodic-line-bundles.md": "f0863e4a9520930b44ecc6607e44eb50b876fb6aaa48ad15079a3a6490911f06",
+    "notes/381-f1-real-height-points-and-newton-breaks.md": "366b7e4d7453359ab982b2667f0d5b9c796fe40a6391f29c993eee7c58ba665a",
+    "notes/382-f1-binomial-quotient-and-nonuniformity.md": "653eda4dd5752537e39c308b550140957c66f68e9bb06f20cd2c667b5f5ccfa0",
+    "notes/383-f1-geometric-zero-existence-at-every-break.md": "8782918419fa3618209476e198f5d187e8d8c79345889b256d8065ae84605cac",
+    "README.md": "915a567bdb3f096c2e0946a7bb45b66cc9c26495d0b71e153be6846f4fb739a3",
+    "RESEARCH_BRANCHES.md": "b8bd739899ce355b81abf3bd13e66d570c9d839964b0a23077c309f051b9c232",
+    "goals/GOAL.20260909.md": "4274e3c72fa5684be72a2cb19044acbe33fc1f6c34c6978f445bdafaa4dbb78c",
+    "goals/NEXT.20260909.md": "fdf9712c033fd73a55dae0150f3e915d9148f84c259f131c9b1a376026deeb14",
+    "goals/PROGRESS.md": "7778175445ee30bf9747ce0896621093d90a459e920e2dda93556ebe4d7eee0e",
+    "literature/README.md": "1342afdedc989d414085b23d23e857389a5979795b1e9aeadc645811a7aa7520",
+    "reviews/2026-09-13/f1-perfectoid-annulus-source-audit.md": "605d75aa3149f72c4d0b8c9ba96ed6567d89a9d21eeae3a4619752ae6581db67",
+    "reviews/2026-09-13/f1-perfectoid-annulus-independent-review.md": "d2c91556a8869608c20c9e057d3cfec48e399a9ae7eeb4029428ab616022b6ef",
+    "reviews/2026-09-13/f1-height-points-independent-review.md": "3965db868d881eb2ff8262b52a95c65fe578e835fe092456989053fdd4f66fc1",
+    "reviews/2026-09-13/f1-binomial-quotient-independent-review.md": "d088bfce27f0169f13f8602073d372fbd13d7733901772bd57fab2e4fc985d00",
+    "reviews/2026-09-13/f1-zero-existence-independent-review.md": "1640b21c4194b280fc6db21731541815466a4b3e62c41ffb384c24971e903393"
+  },
+  "unreviewed_drafts": [],
+  "scope": "Saved bytes, reference targets and preserved boundaries only; mathematical and source reviews have separately stated scope. No RH/RR/priority certification."
+}

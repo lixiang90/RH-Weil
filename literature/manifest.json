@@ -1408,7 +1408,19 @@
       "pdf_parse_status": "all pages parsed",
       "text_characters": 542818,
       "empty_text_pages": [],
-      "status": "原始固定版本已归档、全页解析，PDF首页标题／作者已核对；尚未核审主定理或与378–379的环／范数接口。"
+      "status": "原件固定归档；限定后续核读见reading_updates，未认证完整主定理。",
+      "reading_updates": [
+        {
+          "date": "2026-09-13",
+          "report": "../reviews/2026-09-13/f1-perfectoid-annulus-source-audit.md",
+          "scope": "主线程核读PDF82、89、92–94相关定义和定理，PDF89/94原图核对。Example3.6.6、Theorems3.6.14(c)/3.6.15用于标准完美化环域及层性；与B_R的身份另由380独立复核。未认证全书或GAGA/RR。"
+        },
+        {
+          "date": "2026-09-13",
+          "report": "../reviews/2026-09-13/f1-perfectoid-annulus-source-audit.md",
+          "scope": "McClintock另核PDF25–27、34、38、40相关定义和Theorem2.3.4、Corollary2.3.7、Definition2.3.8；任意非零Banach环谱非空，无uniform/Noetherian假设，支持383的几何零点存在接口。关键页原图核对，未替代383直接证明审核。"
+        }
+      ]
     },
     {
       "id": "KL-imperfect-1602.06899v3",
@@ -1429,7 +1441,14 @@
       "pdf_parse_status": "all pages parsed",
       "text_characters": 499735,
       "empty_text_pages": [],
-      "status": "原始固定版本已归档、全页解析，PDF首页标题／作者已核对；尚未核审主定理或与378–379的环／范数接口。"
+      "status": "原件固定归档；限定后续核读见reading_updates，未认证完整主定理。",
+      "reading_updates": [
+        {
+          "date": "2026-09-13",
+          "report": "../reviews/2026-09-13/f1-perfectoid-annulus-source-audit.md",
+          "scope": "McClintock独立核读§2.4全文、Theorem2.5.1及Example3.3.12、Theorem3.3.18、Corollaries3.3.19–20，关键前提原图核对。标准环域层性通过；pseudoflat仅对稳定伪相干模块，Cartier未导入。未认证全书。"
+        }
+      ]
     },
     {
       "id": "Tong-big-coefficients-2012.07338v1",
