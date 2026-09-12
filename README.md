@@ -35,7 +35,8 @@
 [384](notes/384-f1-finite-level-cartier-regularity.md)与[385](notes/385-f1-finite-polynomial-zero-measures.md)
 进一步给有限层Cartier正则性及规范Haar零测度的热带重数比较；
 [386](notes/386-f1-one-parameter-atomic-theta-reduction.md)的原子θ族及有限乘积相容性归约已独立复核；原子几何输入仍待证。
-下一主问题转向无限层原子θ的正则性与规范重数。
+[387](notes/387-f1-analytic-continuation-and-cartier-regularity.md)已进一步证明全部非零全局函数的Cartier正则性，
+包含所有实参数原子θ与既有特征截面，独立复核通过。当前主问题为无限层规范重数及其相容性。
 [任务单](goals/NEXT.20260909.md)给出顺序。
 尚无新的RH或无条件比例结论；完整验收与较远期显著进展分开。
 

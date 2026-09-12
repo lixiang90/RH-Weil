@@ -1,6 +1,6 @@
 # 380. 实period环的perfectoid环域与周期线丛实现
 
-2026-09-13。**[P] 下述构造经内部独立复核通过；[R]外部输入按限定来源采用。**
+2026-09-13。**[T] 下述构造经内部独立复核通过；[R]外部输入按限定来源采用。**
 使用[378](378-f1-real-value-period-ring-and-principal-lifts.md)–
 [379](379-f1-perfectoid-real-coefficient-field.md)的实际环B_R及实值perfectoid系数域C。
 本稿把该环实现为具体解析空间的函数环；Cartier正则性及局部重数比较仍须另审。

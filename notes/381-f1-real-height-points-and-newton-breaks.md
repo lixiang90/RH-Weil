@@ -1,6 +1,6 @@
 # 381. 实高度上的真实解析点与Newton折点的必要性
 
-2026-09-13。**[P] 依赖380已审环域身份，内部独立复核通过。**
+2026-09-13。**[T] 依赖380已审环域身份，内部独立复核通过。**
 本稿使用[379](379-f1-perfectoid-real-coefficient-field.md)的域C、相容元素t^r，
 以及[380](380-f1-perfectoid-annuli-and-periodic-line-bundles.md)的解析空间Y_R与Z_R。
 目标是区分“Gauss范数给出的高度”“真实点上取值”“零点的几何重数”三个接口。

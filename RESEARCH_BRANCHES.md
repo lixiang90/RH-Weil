@@ -7,7 +7,7 @@
 | 顺序 | 任务 | 验收与切换 |
 |---|---|---|
 | 已结算 | 旧周期13的iteration-10冻结候选：[364完整验收](notes/364-frozen-integer-candidate-verification.md) | 6237815186边全扫描，13755190失败；最坏边320位真实标量缺口仍严格为正。只排除该表的同word／前缀充分条件 |
-| 当前主线 | F1-EX1：372–383已审；[384](notes/384-f1-finite-level-cartier-regularity.md)有限层Cartier及[385](notes/385-f1-finite-polynomial-zero-measures.md)规范几何零测度已审；[386](notes/386-f1-one-parameter-atomic-theta-reduction.md)原子θ及乘积相容性条件归约已审 | 下一步集中无限层A_w的正则性和规范测度，保留全部w>0；所选见证不代替一般线性系统／RR，固定ζ接口仍缺 |
+| 当前主线 | F1-EX1：372–386已审；[387](notes/387-f1-analytic-continuation-and-cartier-regularity.md)由解析延拓证明全部非零全局函数的Cartier正则性，数学与来源均已审 | 当前主攻无限层规范零测度、乘积／局部单位相容、幂对应与φ下降；一般商闭性、RR、交叉及固定ζ接口仍缺 |
 | 必要辅助 | 经典Lean缺口、原始文献及只读独立复核 | 26项既有检查与十个sorry为当前基线；形式化通过不替代实际算术存在性 |
 
 [任务单](goals/NEXT.20260909.md)与[账本](goals/PROGRESS.md)维护当前状态。

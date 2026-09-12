@@ -1,6 +1,6 @@
 # 385. 有限Laurent方程的规范几何零测度与热带重数
 
-2026-09-13。**[P] 内部独立复核通过；Cartier表述依赖已审384。**
+2026-09-13。**[T] 内部独立复核通过；Cartier表述依赖已审384。**
 使用[380](380-f1-perfectoid-annuli-and-periodic-line-bundles.md)的解析环域、
 [382](382-f1-binomial-quotient-and-nonuniformity.md)的有限层归一化提示，
 以及[384](384-f1-finite-level-cartier-regularity.md)的有限层正则性。

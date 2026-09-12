@@ -1,6 +1,6 @@
 # 383. 每个Newton折点都有真实几何零点：一个非构造存在性证明
 
-2026-09-13。**[P] 直接证明和[R]来源分别完成内部独立复核。**
+2026-09-13。**[T] 直接证明和[R]来源分别完成内部独立复核。**
 依赖[380](380-f1-perfectoid-annuli-and-periodic-line-bundles.md)的实际环域和
 [381](381-f1-real-height-points-and-newton-breaks.md)的零点必要条件。
 本稿只证明零点的存在及高度，不证明Cartier性或重数公式。

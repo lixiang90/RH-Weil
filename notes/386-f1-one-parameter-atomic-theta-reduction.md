@@ -1,6 +1,6 @@
 # 386. 把所需几何提升归约到一个实参数的原子θ族
 
-2026-09-13。**[P] 所选乘积见证的条件归约已独立复核；原子几何输入仍待证。**
+2026-09-13。**[T] 所选乘积见证的条件归约已独立复核；原子几何输入仍待证。**
 接续[378](378-f1-real-value-period-ring-and-principal-lifts.md)的实轮廓提升、
 [384](384-f1-finite-level-cartier-regularity.md)–[385](385-f1-finite-polynomial-zero-measures.md)
 的有限层几何输入。本稿为每个目标轮廓选择新的乘积见证，
