@@ -1419,6 +1419,11 @@
           "date": "2026-09-13",
           "report": "../reviews/2026-09-13/f1-perfectoid-annulus-source-audit.md",
           "scope": "McClintock另核PDF25–27、34、38、40相关定义和Theorem2.3.4、Corollary2.3.7、Definition2.3.8；任意非零Banach环谱非空，无uniform/Noetherian假设，支持383的几何零点存在接口。关键页原图核对，未替代383直接证明审核。"
+        },
+        {
+          "date": "2026-09-13",
+          "report": "../reviews/2026-09-13/f1-finite-level-cartier-source-audit.md",
+          "scope": "384来源：McClintock核PDF31–33、39–42、48–49、51及52–53相关段，主线程另读40–42/48/51并渲染40。Remark2.4.7印出的误差<c范围有C×C反例；本项目加固定冗余λ收紧证明。采用Lemmas2.5.2/2.5.9/2.5.17的有限affinoid严格性和局部化平坦性，未扩大为perfectoid平坦。"
         }
       ]
     },
@@ -1447,6 +1452,11 @@
           "date": "2026-09-13",
           "report": "../reviews/2026-09-13/f1-perfectoid-annulus-source-audit.md",
           "scope": "McClintock独立核读§2.4全文、Theorem2.5.1及Example3.3.12、Theorem3.3.18、Corollaries3.3.19–20，关键前提原图核对。标准环域层性通过；pseudoflat仅对稳定伪相干模块，Cartier未导入。未认证全书。"
+        },
+        {
+          "date": "2026-09-13",
+          "report": "../reviews/2026-09-13/f1-finite-level-cartier-source-audit.md",
+          "scope": "384来源：McClintock核PDF16、30–32、63，有限模正合及strongly noetherian范围；Theorem3.3.16证明仅采用充分小扰动。主线用固定λ和c0系数下界直接证明有限层Cartier，未偷用一般pseudoflat。"
         }
       ]
     },

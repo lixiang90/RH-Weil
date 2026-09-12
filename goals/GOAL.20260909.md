@@ -169,6 +169,12 @@ Alpöge–Furman 的预印本核对至 arXiv:2608.13637v2（2026-08-19），Lamz
 [383](../notes/383-f1-geometric-zero-existence-at-every-break.md)用谱非空证明每个折点的几何零点存在，
 两项独立复核通过，得到零点高度支集的充要比较。下一步直接检验Cartier局部正则性及规范重数／测度；
 一般有理局部化的pseudoflat性不能省略稳定伪相干条件，零点存在性也不能代替重数比较。
+[384](../notes/384-f1-finite-level-cartier-regularity.md)进一步证明有限层方程在全部有理局部化上正则，
+[385](../notes/385-f1-finite-polynomial-zero-measures.md)给有限Laurent方程的规范Haar零测度及完整热带重数比较。
+直接证明与来源修订均已复核，384用固定冗余分子修正有理域扰动界。
+[386](../notes/386-f1-one-parameter-atomic-theta-reduction.md)将所选轮廓提升归约到单实参数原子θ族及其有限乘积相容性，条件归约已复核。
+下一主探索集中于该无限层原子族的正则性及规范零测度，而非重复有限多项式基准；
+一般线性系统、RR、全实算术作用与固定ζ接口仍开放。
 Poonen、Kedlaya与Efimov原PDF已归档；单赋值Hahn–Witt域不是完整双参数Gauss几何。
 本次执行路线修订前原件存[实尺度快照](archive/GOAL.20260909.f1-real-scales.md)。
 优先给实际可容许线性系统的新输入。不得把所选域的H_p值群结果与代数闭域定理混用。

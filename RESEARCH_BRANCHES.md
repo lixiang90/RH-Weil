@@ -7,7 +7,7 @@
 | 顺序 | 任务 | 验收与切换 |
 |---|---|---|
 | 已结算 | 旧周期13的iteration-10冻结候选：[364完整验收](notes/364-frozen-integer-candidate-verification.md) | 6237815186边全扫描，13755190失败；最坏边320位真实标量缺口仍严格为正。只排除该表的同word／前缀充分条件 |
-| 当前主线 | F1-EX1：372–379已审；[380](notes/380-f1-perfectoid-annuli-and-periodic-line-bundles.md)实际解析环域／周期线丛与[381](notes/381-f1-real-height-points-and-newton-breaks.md)真实高度点已审；[382](notes/382-f1-binomial-quotient-and-nonuniformity.md)非一致商及[383](notes/383-f1-geometric-zero-existence-at-every-break.md)零点存在性已审 | 接着检验指定截面的Cartier局部正则性和规范重数；不得跳过稳定伪相干，RR及固定ζ接口仍缺 |
+| 当前主线 | F1-EX1：372–383已审；[384](notes/384-f1-finite-level-cartier-regularity.md)有限层Cartier及[385](notes/385-f1-finite-polynomial-zero-measures.md)规范几何零测度已审；[386](notes/386-f1-one-parameter-atomic-theta-reduction.md)原子θ及乘积相容性条件归约已审 | 下一步集中无限层A_w的正则性和规范测度，保留全部w>0；所选见证不代替一般线性系统／RR，固定ζ接口仍缺 |
 | 必要辅助 | 经典Lean缺口、原始文献及只读独立复核 | 26项既有检查与十个sorry为当前基线；形式化通过不替代实际算术存在性 |
 
 [任务单](goals/NEXT.20260909.md)与[账本](goals/PROGRESS.md)维护当前状态。

@@ -32,7 +32,10 @@
 [381](notes/381-f1-real-height-points-and-newton-breaks.md)的真实高度点与零点必要条件也已复核。
 [382](notes/382-f1-binomial-quotient-and-nonuniformity.md)的非一致商和
 [383](notes/383-f1-geometric-zero-existence-at-every-break.md)的每个折点几何零点存在性均已复核；
-下一步为Cartier局部正则性及规范重数比较。
+[384](notes/384-f1-finite-level-cartier-regularity.md)与[385](notes/385-f1-finite-polynomial-zero-measures.md)
+进一步给有限层Cartier正则性及规范Haar零测度的热带重数比较；
+[386](notes/386-f1-one-parameter-atomic-theta-reduction.md)的原子θ族及有限乘积相容性归约已独立复核；原子几何输入仍待证。
+下一主问题转向无限层原子θ的正则性与规范重数。
 [任务单](goals/NEXT.20260909.md)给出顺序。
 尚无新的RH或无条件比例结论；完整验收与较远期显著进展分开。
 
