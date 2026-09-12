@@ -1,0 +1,31 @@
+{
+  "mathematical_commit": "52ae88904c77db7f4a256b164c8bbd35028da085",
+  "remote": "origin",
+  "remote_url": "https://github.com/lixiang90/RH-Weil",
+  "branch": "main",
+  "observed_remote_sha": "52ae88904c77db7f4a256b164c8bbd35028da085",
+  "verified_at_utc": "2026-09-12T18:50:08.188652+00:00",
+  "validation_file": "reviews/2026-09-13/f1-global-cartier-round-validation.json",
+  "validation_sha256_raw": "1b95ac1cff56b4bf1b5e4a27588f89accada3938cd07e195c0af05a76c514bf5",
+  "validation_sha256_lf": "1b95ac1cff56b4bf1b5e4a27588f89accada3938cd07e195c0af05a76c514bf5",
+  "checked_document_links": 903,
+  "git_index_checked_blobs": 18,
+  "goal_mirrors": 19,
+  "literature_artifacts_verified": 83,
+  "new_math_notes": [
+    387
+  ],
+  "retagged_notes_only": [
+    380,
+    381,
+    382,
+    383,
+    384,
+    385,
+    386
+  ],
+  "unreviewed_drafts": [],
+  "long_term_goal_bytes_unchanged": true,
+  "goal_status": "active",
+  "scope": "Binds the mathematical commit and its saved validation snapshot. Subsequent PROGRESS/ledger bytes are later records. Proven internal scope is analytic continuation and Cartier regularity for nonzero global functions in the specified perfected-annulus model. General ideal closedness, compatible infinite-level multiplicity measures, RR and usual-zeta arithmetic comparison remain open."
+}
