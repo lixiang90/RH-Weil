@@ -1,0 +1,77 @@
+{
+  "status": "PASS_SAVED_REAL_RING_ROUND",
+  "date": "2026-09-13",
+  "checked_document_links": 853,
+  "goal_mirrors": 19,
+  "long_term_goal_bytes_unchanged": true,
+  "unchanged_lean_sources": 11,
+  "git_index_checked_blobs": 21,
+  "source_files": [
+    {
+      "file": "f1/poonen-maximally-complete-author-20260913.pdf",
+      "sha256": "4e6c0d968c3d10fab6cdf120fb4fea1e1541734b012397af735f5eee58de369c",
+      "pages": 19
+    },
+    {
+      "file": "f1/kedlaya-power-series-math-9906030v2.pdf",
+      "sha256": "51bd92eba1c867bc3b70c5514d70f56424e9145d8241f71e7b7575dcaf6c9b22",
+      "pages": 12
+    },
+    {
+      "file": "f1/efimov-hahn-witt-2406.19163v1.pdf",
+      "sha256": "6554d9f9b38ced6a39fb7fa8fc4e3e554279314f1444475972c053f1e104cf27",
+      "pages": 19
+    },
+    {
+      "file": "f1/kl-foundations-1301.0792v5.pdf",
+      "sha256": "a6a117423db62aec072442bb15b70e3175bcc3b631bdcd6d74f740e3c6cfd942",
+      "pages": 210
+    },
+    {
+      "file": "f1/kl-imperfect-1602.06899v3.pdf",
+      "sha256": "97383900492daf1c6778959c37e993f67dd5ad379ac03c31049b870382e5d42c",
+      "pages": 199
+    },
+    {
+      "file": "f1/tong-big-coefficients-2012.07338v1.pdf",
+      "sha256": "7f8d050b201c52bf5197fd739c76f447c04fcab7dc6ccad5ffa5642c377a0a8f",
+      "pages": 42
+    }
+  ],
+  "document_sha256_raw": {
+    "notes/377-f1-ramified-tower-and-gauss-completion-barrier.md": "f96074c2d5d734830e953f5d6afb81b13e0870d99cd4e42daf5f0e0547a6a24c",
+    "notes/378-f1-real-value-period-ring-and-principal-lifts.md": "27ff5ac5d71ed67d8fa799ec49ecc69479aec341a9abf017f20dd604ff7295d9",
+    "notes/379-f1-perfectoid-real-coefficient-field.md": "59f3b011c28e39156da01d7a256dfbadb61f806934532470e3c8f76c8224138e",
+    "README.md": "10b3a028406a32066372135a683cc980bd2e8b578cef6350cac1ee850f412708",
+    "RESEARCH_BRANCHES.md": "9544788f1ec930a0765910b68d3bdebde686251ae4d1a33747f61552002480be",
+    "goals/GOAL.20260909.md": "1e3eb56bb80eb1689c378a368bcd9d3683effb9bbbe01d8fbb3483360384e828",
+    "goals/NEXT.20260909.md": "e8c1dd75ec4be5c12b6d5883aa01237e2f4eac051fd6aaef6938659307b755e1",
+    "goals/PROGRESS.md": "78a13bfe07ff2b2c4d82d97f88ef1fe7771d59abe3aa9f6feb51662dc1bd7bb7",
+    "literature/README.md": "ddbba79de926554a4edd0af749352c9618889b6832ba68ad3dc02510e61b5330",
+    "reviews/2026-09-13/f1-ramified-tower-independent-review.md": "8d444856db65acb259fac2d2e3679d2e8cc0c9bd4e9716518f4f0bf1b0a2dfcd",
+    "reviews/2026-09-13/f1-real-coefficient-field-independent-review.md": "86a083f56991df51961e5b0de9e20ac8cf7a3ca78ebb8b1e209c912623f52f9c",
+    "reviews/2026-09-13/f1-real-coefficients-source-audit.md": "d78b7ee3c7a82b317daff051f68b934e3d2fec5c8a85bed035952a7187d4296e",
+    "reviews/2026-09-13/f1-real-ring-independent-review.md": "bf60671c573ce6df7d23752881d4d019b8211b170c3fdb3134f7bc5d8b7fca92",
+    "reviews/2026-09-13/f1-real-scale-independent-review.md": "421e3bf09880b8ed1229e48881ea57ed7d0584c194e2d3f87186154c64eda9d3",
+    "reviews/2026-09-13/f1-real-value-ring-next-proof-plan.md": "55ca0efaf7decb1fd0ba47ce154312f93b9b8ee50be8d3f639772fdb7dd3a828"
+  },
+  "document_sha256_lf": {
+    "notes/377-f1-ramified-tower-and-gauss-completion-barrier.md": "f96074c2d5d734830e953f5d6afb81b13e0870d99cd4e42daf5f0e0547a6a24c",
+    "notes/378-f1-real-value-period-ring-and-principal-lifts.md": "27ff5ac5d71ed67d8fa799ec49ecc69479aec341a9abf017f20dd604ff7295d9",
+    "notes/379-f1-perfectoid-real-coefficient-field.md": "59f3b011c28e39156da01d7a256dfbadb61f806934532470e3c8f76c8224138e",
+    "README.md": "10b3a028406a32066372135a683cc980bd2e8b578cef6350cac1ee850f412708",
+    "RESEARCH_BRANCHES.md": "9544788f1ec930a0765910b68d3bdebde686251ae4d1a33747f61552002480be",
+    "goals/GOAL.20260909.md": "1e3eb56bb80eb1689c378a368bcd9d3683effb9bbbe01d8fbb3483360384e828",
+    "goals/NEXT.20260909.md": "945f49d27fea36e4be8eea191172c4b6e73199e6e73f8529c892cd8b863153db",
+    "goals/PROGRESS.md": "78a13bfe07ff2b2c4d82d97f88ef1fe7771d59abe3aa9f6feb51662dc1bd7bb7",
+    "literature/README.md": "ddbba79de926554a4edd0af749352c9618889b6832ba68ad3dc02510e61b5330",
+    "reviews/2026-09-13/f1-ramified-tower-independent-review.md": "8d444856db65acb259fac2d2e3679d2e8cc0c9bd4e9716518f4f0bf1b0a2dfcd",
+    "reviews/2026-09-13/f1-real-coefficient-field-independent-review.md": "86a083f56991df51961e5b0de9e20ac8cf7a3ca78ebb8b1e209c912623f52f9c",
+    "reviews/2026-09-13/f1-real-coefficients-source-audit.md": "d78b7ee3c7a82b317daff051f68b934e3d2fec5c8a85bed035952a7187d4296e",
+    "reviews/2026-09-13/f1-real-ring-independent-review.md": "bf60671c573ce6df7d23752881d4d019b8211b170c3fdb3134f7bc5d8b7fca92",
+    "reviews/2026-09-13/f1-real-scale-independent-review.md": "421e3bf09880b8ed1229e48881ea57ed7d0584c194e2d3f87186154c64eda9d3",
+    "reviews/2026-09-13/f1-real-value-ring-next-proof-plan.md": "55ca0efaf7decb1fd0ba47ce154312f93b9b8ee50be8d3f639772fdb7dd3a828"
+  },
+  "unreviewed_drafts": [],
+  "scope": "Saved identities and links only. Independent mathematical and source reviews have their own scope; no full FF, RR, RH, or priority certification."
+}

@@ -585,3 +585,17 @@ FF 7.3.3、11.2.2、11.3.1及§11.4可用于实际曲线、线丛与截面；
 另新增FF §7.5/PDF279原页及2018 §7.1的独立核读，见
 [来源范围报告](../reviews/2026-09-13/f1-real-coefficients-source-audit.md)。
 2018共同实系数代数已存在，但单p周期主关系接口不由该事实自动提供。
+
+## 2026-09-13：实系数环的相对几何接口候选来源
+
+以下三份固定原件共451页，下载及全页解析通过，首页作者／标题已核对。
+**当前只归档待查；未核审其主要证明，也未证明378–379的环满足原文前提。**
+
+| 作者／标题 | 原件与固定版本 |
+|---|---|
+| Kedlaya–Liu，Relative p-adic Hodge theory: Foundations | [本地PDF](f1/kl-foundations-1301.0792v5.pdf)／[arXiv v5](https://arxiv.org/abs/1301.0792v5)，2015-05-09，210页；标题排版日期2015-05-02 |
+| Kedlaya–Liu，Relative p-adic Hodge theory, II: Imperfect period rings | [本地PDF](f1/kl-imperfect-1602.06899v3.pdf)／[arXiv v3](https://arxiv.org/abs/1602.06899v3)，2019-10-21，199页 |
+| Xin Tong，Period Rings with Big Coefficients and Applications I | [本地PDF](f1/tong-big-coefficients-2012.07338v1.pdf)／[arXiv v1](https://arxiv.org/abs/2012.07338v1)，2020-12-14，42页 |
+
+SHA256、字节、获取时刻及解析状态见[下载记录](../reviews/2026-09-13/f1-relative-period-source-download.json)
+与manifest。下一核查按系数域、范数、局部化及层性逐项绑定，不由标题“相对”自动推断适用。

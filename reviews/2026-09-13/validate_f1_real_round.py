@@ -9,9 +9,12 @@ import subprocess
 ROOT=Path(__file__).resolve().parents[2]
 parser=argparse.ArgumentParser(description=__doc__)
 parser.add_argument('--git-index',action='store_true')
+parser.add_argument('--ring',action='store_true',help='Write a separate 377–379 preservation snapshot; retain the 87bc91c audit.')
 args=parser.parse_args()
 digest=lambda b:hashlib.sha256(b).hexdigest()
-docs=[next(ROOT.glob(f'notes/{n}-*.md')).relative_to(ROOT).as_posix() for n in (376,377)]
+numbers=(377,378,379) if args.ring else (376,377)
+notes=[next(ROOT.glob(f'notes/{n}-*.md')).relative_to(ROOT).as_posix() for n in numbers]
+docs=list(notes)
 docs += ['README.md','RESEARCH_BRANCHES.md','goals/GOAL.20260909.md','goals/NEXT.20260909.md',
          'goals/PROGRESS.md','literature/README.md']
 docs += [p.relative_to(ROOT).as_posix() for p in sorted(Path(__file__).parent.glob('*.md'))]
@@ -39,6 +42,9 @@ for e in goals:
     assert digest((ROOT/e['repository_path']).read_bytes())==e['mirror_sha256']
 sources=json.loads((Path(__file__).parent/'f1-hahn-witt-source-download.json').read_bytes())
 assert len(sources)==3
+if args.ring:
+    sources+=json.loads((Path(__file__).parent/'f1-relative-period-source-download.json').read_bytes())
+    assert len(sources)==6
 for e in sources:
     assert digest((ROOT/'literature'/e['file']).read_bytes())==e['sha256']
 aud=json.loads((ROOT/'formal/checks/source-audit.json').read_bytes())
@@ -59,12 +65,12 @@ if args.git_index:
         staged=subprocess.check_output(['git','show',':literature/'+e['file']],cwd=ROOT)
         assert digest(staged)==e['sha256']
         indexed+=1
-report=dict(status='PASS_SAVED_REAL_SCALE_ROUND',date='2026-09-13',checked_document_links=links,
+report=dict(status='PASS_SAVED_REAL_RING_ROUND' if args.ring else 'PASS_SAVED_REAL_SCALE_ROUND',date='2026-09-13',checked_document_links=links,
     goal_mirrors=19,long_term_goal_bytes_unchanged=True,unchanged_lean_sources=len(aud['own_source_sha256']),
     git_index_checked_blobs=indexed,source_files=[{k:e[k] for k in ('file','sha256','pages')} for e in sources],
     document_sha256_raw={r:digest((ROOT/r).read_bytes()) for r in docs},
     document_sha256_lf={r:digest((ROOT/r).read_bytes().replace(b'\r\n',b'\n')) for r in docs},
-    unreviewed_drafts=[r for r in docs[:2] if '[O]' in (ROOT/r).read_text(encoding='utf-8')[:180]],
+    unreviewed_drafts=[r for r in notes if '[O]' in (ROOT/r).read_text(encoding='utf-8')[:180]],
     scope='Saved identities and links only. Independent mathematical and source reviews have their own scope; no full FF, RR, RH, or priority certification.')
-Path(__file__).with_name('f1-real-round-validation.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n',encoding='utf-8',newline='\n')
+Path(__file__).with_name('f1-real-ring-round-validation.json' if args.ring else 'f1-real-round-validation.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n',encoding='utf-8',newline='\n')
 print(json.dumps({k:report[k] for k in ('status','checked_document_links','git_index_checked_blobs','unreviewed_drafts')}))

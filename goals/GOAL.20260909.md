@@ -152,12 +152,16 @@ Alpöge–Furman 的预印本核对至 arXiv:2608.13637v2（2026-08-19），Lamz
 2026-09-13执行续记：[376](../notes/376-f1-real-scales-principal-relations-and-density.md)
 已独立复核规范重标度、逐公度类主关系的充要条件及轮廓稠密性。
 [377](../notes/377-f1-ramified-tower-and-gauss-completion-barrier.md)给实际相容分歧塔、
-有理轮廓满性及Gauss完成的有理赋值障碍，完整候选正在独立复核。
+有理轮廓满性及Gauss完成的有理赋值障碍，已独立复核并修正多赋值反复完成的范围。
 2018共同实系数代数确实存在，但原文指定范围没有交付所需的单p周期主关系；
 不能把它误归为仅独立组件。准确范围见[来源报告](../reviews/2026-09-13/f1-real-coefficients-source-audit.md)。
 下一有限问题是[实赋值源环构造](../reviews/2026-09-13/f1-real-value-ring-next-proof-plan.md)：
 在实际B的相容系数塔上加入有限支集超越参数，先证明Gauss乘法性、完成整性及φ级数，
 再验证主函数与局部几何除子；不以按轮廓定义完成来预设目标关系。
+[378](../notes/378-f1-real-value-period-ring-and-principal-lifts.md)已给完整候选：
+实际完成环、φ级数和固定整数Proj的全部周期主函数提升，分段独立复核均通过；
+[379](../notes/379-f1-perfectoid-real-coefficient-field.md)进一步检验实系数域的perfectoid性
+及完成张量积身份，已独立复核。当前核对紧环域的局部化、层性与几何除子接口。
 Poonen、Kedlaya与Efimov原PDF已归档；单赋值Hahn–Witt域不是完整双参数Gauss几何。
 本次执行路线修订前原件存[实尺度快照](archive/GOAL.20260909.f1-real-scales.md)。
 优先给实际可容许线性系统的新输入。不得把所选域的H_p值群结果与代数闭域定理混用。

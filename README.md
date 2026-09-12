@@ -24,8 +24,11 @@
 已复核整数轮廓、扭曲模块及实际几何除子比较。
 [376](notes/376-f1-real-scales-principal-relations-and-density.md)已独立复核：实尺度有限组件的主关系
 必须在每个有理公度类分别消去次数与χ，尽管其轮廓像稠密。
-[377](notes/377-f1-ramified-tower-and-gauss-completion-barrier.md)的实际相容分歧塔及完成障碍正在复核；
-下一步检验[源头实赋值环](reviews/2026-09-13/f1-real-value-ring-next-proof-plan.md)。
+[377](notes/377-f1-ramified-tower-and-gauss-completion-barrier.md)的实际相容分歧塔及完成障碍已复核；
+[378](notes/378-f1-real-value-period-ring-and-principal-lifts.md)给实赋值环与全部周期主函数提升的完整候选，
+环／范数与级数／Proj两部分独立复核均通过。
+[379](notes/379-f1-perfectoid-real-coefficient-field.md)的perfectoid实系数域及完成张量积身份也已独立复核。
+下一步核对紧环域的局部函数层、几何除子与既有相对period-ring理论的接口。
 [任务单](goals/NEXT.20260909.md)给出顺序。
 尚无新的RH或无条件比例结论；完整验收与较远期显著进展分开。
 

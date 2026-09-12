@@ -1,0 +1,13 @@
+{
+  "math_commit": "87bc91c5048183ff78baaee4e10cfc705b33671c",
+  "branch": "main",
+  "remote": "origin",
+  "verified_remote_sha": "87bc91c5048183ff78baaee4e10cfc705b33671c",
+  "status": "PUSHED_AND_REMOTE_SHA_VERIFIED",
+  "recorded_at_utc": "2026-09-12T17:10:49.765646+00:00",
+  "verification_method": "git push origin main succeeded; subsequent git ls-remote matched local HEAD",
+  "batch_validation_at_math_commit": "reviews/2026-09-13/f1-real-round-validation.json",
+  "scope": "376 reviewed, 377 saved as an unreviewed draft at this commit. 840 links, 19 goal mirrors, 14 staged document/PDF blobs. Subsequent review status is not backfilled into this snapshot.",
+  "goal_status": "active",
+  "next_task": "reviews/2026-09-13/f1-real-value-ring-next-proof-plan.md"
+}
