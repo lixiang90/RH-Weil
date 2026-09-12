@@ -1,0 +1,24 @@
+{
+  "mathematical_commit": "6e5eec234ebce854f429d06fdc7ecd7e35113de2",
+  "remote": "origin",
+  "remote_url": "https://github.com/lixiang90/RH-Weil",
+  "branch": "main",
+  "observed_remote_sha": "6e5eec234ebce854f429d06fdc7ecd7e35113de2",
+  "verified_at_utc": "2026-09-12T18:29:51.999365+00:00",
+  "validation_file": "reviews/2026-09-13/f1-cartier-round-validation.json",
+  "validation_sha256_raw": "c045297f3d7fbfface6221c1b806340af8237fd8044d09cb3d3900a42b8fd9e6",
+  "validation_sha256_lf": "c045297f3d7fbfface6221c1b806340af8237fd8044d09cb3d3900a42b8fd9e6",
+  "checked_document_links": 881,
+  "git_index_checked_blobs": 15,
+  "goal_mirrors": 19,
+  "literature_artifacts_verified": 83,
+  "new_math_notes": [
+    384,
+    385,
+    386
+  ],
+  "unreviewed_drafts": [],
+  "long_term_goal_bytes_unchanged": true,
+  "goal_status": "active",
+  "scope": "Binds this mathematical commit and its validation snapshot. This ledger and subsequent PROGRESS annotation are later records. Internal verification covers finite-level Cartier, finite Laurent geometric zero measures and a conditional atomic-theta reduction, not the still-open atomic regularity, measure compatibility, RR or RH."
+}
