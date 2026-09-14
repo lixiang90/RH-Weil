@@ -1,0 +1,17 @@
+{
+  "research_commit": "acf00d66eddcff6b944eaf63956e51c820cac1fc",
+  "remote": "origin",
+  "remote_url": "https://github.com/lixiang90/RH-Weil",
+  "branch": "main",
+  "observed_remote_sha": "acf00d66eddcff6b944eaf63956e51c820cac1fc",
+  "verified_on": "2026-09-15",
+  "recorded_at_utc": "2026-09-14T22:32:42.757539+00:00",
+  "validation_file": "reviews/2026-09-15/f1-candidate-space-second-validation.json",
+  "validation_sha256_raw": "ef0f0575ea5f3c845bf9735aef408f02e1599322eec7bc42d1c86b9006e8f622",
+  "checked_document_links": 967,
+  "git_input_blobs_verified_in_commit": 19,
+  "goal_mirrors": 19,
+  "literature_artifacts_verified": 89,
+  "goal_status": "paused",
+  "scope": "Second independent candidate-space review, precise v1.3 boundary corrections and alternative constructions. This is not an arithmetic target existence or RH result."
+}
