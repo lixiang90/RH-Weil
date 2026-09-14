@@ -639,3 +639,22 @@ SHA256为`88ce9f3a1e05a34d23092b4e6158203a85c4aeffef38344e258ec1309b00883f`。
 以及§29的呈现说明，未核审全部115页证明。
 [保存与核读记录](../reviews/2026-09-15/f1-candidate-space-source.json)区分完整性和数学阅读。
 390的有界候选类与G0类型修正由本项目另作直接论证，不是原文的F₁模空间定理。
+
+<a id="f1-candidate-alternatives-20260915"></a>
+## 2026-09-15：候选空间第二次独立审查与替代构造
+
+新增四份公开原始PDF，共317页；文献原件及补充材料合计89份。
+[下载与核读记录](../reviews/2026-09-15/f1-candidate-space-second-sources.json)固定SHA256、字节数与版本。
+以下均为限定范围核查，未认证全部原文；研究建议见[391](../notes/391-f1-candidate-space-review-and-alternatives.md)。
+
+| 文献 | 本地原件与来源 | 核读定位及用途 |
+|---|---|---|
+| Stacks，Categories；ed88ff78，2026-07-14编译，103页 | [本地PDF](f1/stacks-categories-ed88ff78-20260915.pdf)；[原件](https://stacks.math.columbia.edu/download/categories.pdf) | PDF31的Lemma21.7：有限非空逆系统；PDF59–61的§31及Example31.3：2纤维；PDF74的Definition35.1：群胚纤维化。相关网页tag086J／003O／003T另核 |
+| Stacks，Modules on Sites；ed88ff78，2026-07-14编译，81页 | [本地PDF](f1/stacks-sites-modules-ed88ff78-20260915.pdf)；[原件](https://stacks.math.columbia.edu/download/sites-modules.pdf) | PDF51–53的§32，尤其Lemma32.5／Definition32.6的Picard集合与群；不混同任意ringed site的可逆性与局部自由秩一 |
+| Olivia Caramello，An invitation to topos-theoretic model theory；Tehran IPM，2020-05，108页 | [本地PDF](f1/caramello-topos-model-theory-20260915.pdf)；[作者原件](https://www.oliviacaramello.com/Talks/InvitationToposTheoreticModelTheory.pdf) | PDF69、71–73：分类topos、语法site、Morita等价；不作为G0–G8在通常算术中有实例的证明 |
+| David Marker，Model Theory for Algebra and Algebraic Geometry，part1；Spring2010–Orsay，25页 | [本地PDF](f1/marker-orsay-model-theory-part1-20260915.pdf)；[作者原件](https://homepages.math.uic.edu/~marker/orsay/orsay1.pdf) | PDF17–18，Theorem2.4紧致性及Proposition2.6非标准模型；固定通常R的额外限制由本项目另说明 |
+
+既有原件的增量阅读：Lorscheid v2的PDF8、13–14及21–22（blueprint、monoid／半环化及张量积）；
+Borger v1的PDF2（平坦Z情形的交换Frobenius提升）；CC2018 v1的PDF19–20、§3.2.2（Jensen比较）。
+这些PDF字节均保持既有版本。J(1+1)=log2违反max加法不等式，是对原定义的直接检查，
+不表示原文曾把Jensen映射断言为非阿基米德赋值。

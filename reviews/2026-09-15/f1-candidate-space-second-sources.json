@@ -1,0 +1,153 @@
+{
+  "status": "PDF_BYTES_PARSED_AND_TARGETED_SOURCE_REVIEW",
+  "sources": [
+    {
+      "file": "f1/stacks-categories-ed88ff78-20260915.pdf",
+      "bytes": 887964,
+      "sha256": "0c5b215939e22e807d605dd1e35149aa3972d5443da8bbabb33d9f43a3db4a51",
+      "pages": 103,
+      "text_characters": 227623,
+      "empty_text_pages": [],
+      "extracted_review_pages": [
+        30,
+        31,
+        59,
+        60,
+        61,
+        74
+      ],
+      "pdf_metadata": {
+        "/Producer": "pdfTeX-1.40.25",
+        "/Author": "",
+        "/Title": "",
+        "/Subject": "",
+        "/Creator": "LaTeX with hyperref",
+        "/Keywords": "",
+        "/CreationDate": "D:20260714132724-04'00'",
+        "/ModDate": "D:20260714132724-04'00'",
+        "/Trapped": "/False",
+        "/PTEX.Fullbanner": "This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) kpathsea version 6.3.5"
+      },
+      "retrieved_at_utc": "2026-09-14T22:21:57.841991+00:00",
+      "id": "Stacks-Categories-ed88ff78-20260915",
+      "authors": "The Stacks Project Authors",
+      "title": "Categories",
+      "version": "ed88ff78; compiled 2026-07-14",
+      "source_url": "https://stacks.math.columbia.edu/download/categories.pdf",
+      "pdf_url": "https://stacks.math.columbia.edu/download/categories.pdf",
+      "read_scope": "PDF31的Lemma21.7，PDF59–61的2纤维定义及Example31.3，PDF74的Definition35.1；网页tag086J、003O、003T对应核查。PDF30渲染为相邻上下文；未复核整章。",
+      "rendered_inspected_pages": [
+        30
+      ]
+    },
+    {
+      "file": "f1/stacks-sites-modules-ed88ff78-20260915.pdf",
+      "bytes": 716994,
+      "sha256": "4da0acd5e1558e66e5198ea933353819c9818e7f249900f32a4339965cab7bee",
+      "pages": 81,
+      "text_characters": 178296,
+      "empty_text_pages": [],
+      "extracted_review_pages": [
+        1,
+        51,
+        52,
+        53
+      ],
+      "pdf_metadata": {
+        "/Producer": "pdfTeX-1.40.25",
+        "/Author": "",
+        "/Title": "",
+        "/Subject": "",
+        "/Creator": "LaTeX with hyperref",
+        "/Keywords": "",
+        "/CreationDate": "D:20260714132741-04'00'",
+        "/ModDate": "D:20260714132741-04'00'",
+        "/Trapped": "/False",
+        "/PTEX.Fullbanner": "This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) kpathsea version 6.3.5"
+      },
+      "retrieved_at_utc": "2026-09-14T22:22:00.451268+00:00",
+      "id": "Stacks-Modules-on-Sites-ed88ff78-20260915",
+      "authors": "The Stacks Project Authors",
+      "title": "Modules on Sites",
+      "version": "ed88ff78; compiled 2026-07-14",
+      "source_url": "https://stacks.math.columbia.edu/download/sites-modules.pdf",
+      "pdf_url": "https://stacks.math.columbia.edu/download/sites-modules.pdf",
+      "read_scope": "PDF51–53的§32，重点Lemma32.5与Definition32.6；网页0408复核，PDF52渲染；未复核整章。",
+      "rendered_inspected_pages": [
+        52
+      ]
+    },
+    {
+      "file": "f1/caramello-topos-model-theory-20260915.pdf",
+      "bytes": 1170694,
+      "sha256": "388d20da6734925961c372648485a0d11c1a39a812e3a915dab2f028b0958f2e",
+      "pages": 108,
+      "text_characters": 116072,
+      "empty_text_pages": [],
+      "extracted_review_pages": [
+        1,
+        69,
+        71,
+        72,
+        73
+      ],
+      "pdf_metadata": {
+        "/Author": "Olivia Caramello",
+        "/Title": "An invitation to  topos-theoretic model theory",
+        "/Subject": "",
+        "/Creator": "LaTeX with Beamer class version 3.36",
+        "/Producer": "pdfTeX-1.40.17",
+        "/Keywords": "",
+        "/CreationDate": "D:20200527164947+02'00'",
+        "/ModDate": "D:20200527164947+02'00'",
+        "/Trapped": "/False",
+        "/PTEX.Fullbanner": "This is MiKTeX-pdfTeX 2.9.6211 (1.40.17)"
+      },
+      "retrieved_at_utc": "2026-09-14T22:22:01.720348+00:00",
+      "id": "Caramello-Topos-Model-Theory-202005",
+      "authors": "Olivia Caramello",
+      "title": "An invitation to topos-theoretic model theory",
+      "version": "Tehran IPM lectures, May 2020; author PDF retrieved 2026-09-15",
+      "source_url": "https://www.oliviacaramello.com/Talks/InvitationToposTheoreticModelTheory.pdf",
+      "pdf_url": "https://www.oliviacaramello.com/Talks/InvitationToposTheoreticModelTheory.pdf",
+      "read_scope": "PDF69、71–73的分类topos表示性质、语法site及Morita等价；PDF69渲染；未完整审查讲义。",
+      "rendered_inspected_pages": [
+        69
+      ]
+    },
+    {
+      "file": "f1/marker-orsay-model-theory-part1-20260915.pdf",
+      "bytes": 233643,
+      "sha256": "b70dba475056dcd4855ec45cd4b36052653b82f8238af80fd6879e9f6b7e93dd",
+      "pages": 25,
+      "text_characters": 45685,
+      "empty_text_pages": [],
+      "extracted_review_pages": [
+        1,
+        17,
+        18
+      ],
+      "pdf_metadata": {
+        "/Producer": "pdfTeX-1.40.9",
+        "/Creator": "TeX",
+        "/CreationDate": "D:20100516145828+02'00'",
+        "/ModDate": "D:20100516145828+02'00'",
+        "/Trapped": "/False",
+        "/PTEX.Fullbanner": "This is pdfTeX, Version 3.1415926-1.40.9-2.2 (Web2C 7.5.7) kpathsea version 3.5.7"
+      },
+      "retrieved_at_utc": "2026-09-14T22:22:02.238432+00:00",
+      "id": "Marker-Orsay-Model-Theory-Part1-2010",
+      "authors": "David Marker",
+      "title": "Model Theory for Algebra and Algebraic Geometry, part 1",
+      "version": "Spring 2010–Orsay; author PDF retrieved 2026-09-15",
+      "source_url": "https://homepages.math.uic.edu/~marker/orsay/orsay1.pdf",
+      "pdf_url": "https://homepages.math.uic.edu/~marker/orsay/orsay1.pdf",
+      "read_scope": "PDF17–18：Theorem2.4紧致性、Proposition2.6非标准自然数模型；PDF17渲染。向固定标准实数的限制为本项目另作逻辑说明，非原文RH定理。",
+      "rendered_inspected_pages": [
+        17
+      ]
+    }
+  ],
+  "total_new_pdf_pages": 317,
+  "scope": "四份公开作者/Stacks原始PDF，全部页文本解析及指定条款核查；非全文数学认证。"
+}
