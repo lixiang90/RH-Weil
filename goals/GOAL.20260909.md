@@ -180,6 +180,12 @@ Alpöge–Furman 的预印本核对至 arXiv:2608.13637v2（2026-08-19），Lamz
 全部实参数A_w和既有f_H的Cartier正则性现已解决；仍未证明一般fS闭或稳定伪相干。
 当前主攻规范几何零测度、有限乘积可加性、局部单位相容性、幂对应及φ切片下降，
 继而处理RR和固定通常ζ的算术接口；不把这一局部几何输入单独结算为长期完成。
+2026-09-15保存续记：[388](../notes/388-f1-truncated-potentials-and-faithful-disk-boundaries.md)与
+[389](../notes/389-f1-canonical-zero-measures-for-completed-functions.md)在中断前已完成全文独立复核：
+规范零测度的唯一极限、完整支集、局部单位／乘积／正H_p幂相容及φ切片下降均已建立。
+本轮补齐审查保存状态；一般商闭性、RR、算术平方和固定ζ比较仍开放。
+用户现要求继续前先明确全体候选参考几何的对象类、大小、态射与存在性机制；此项优先。
+现场Goal工具状态paused，不由本次澄清工作自动恢复持续运行。
 Poonen、Kedlaya与Efimov原PDF已归档；单赋值Hahn–Witt域不是完整双参数Gauss几何。
 本次执行路线修订前原件存[实尺度快照](archive/GOAL.20260909.f1-real-scales.md)。
 优先给实际可容许线性系统的新输入。不得把所选域的H_p值群结果与代数闭域定理混用。

@@ -1,6 +1,6 @@
 {
   "retrieved_on": "2026-09-06",
-  "scope": "零点比例进展、非循环函数域基准与 Abel 障碍直接文献；归档不等于数学认证；phase 2 插值、密度与正则化算子背景；持续GOAL周期4：实际零密度原始比较及ANTEDB固定快照；2026-09-09：F1算术几何与构造／存在性原始文献；2026-09-10：F1本科背景讲义的Weil猜想教学来源; 2026-09-10：周期Cartier/字符族与热带theta比较来源; 2026-09-10：实际period ring、FF几何前提及Jessen归一化来源; 2026-09-13：实尺度主关系、相容分歧扩张与Hahn–Witt一般值群来源; 2026-09-13：实际实系数环的相对period-ring接口待审来源",
+  "scope": "零点比例进展、非循环函数域基准与 Abel 障碍直接文献；归档不等于数学认证；phase 2 插值、密度与正则化算子背景；持续GOAL周期4：实际零密度原始比较及ANTEDB固定快照；2026-09-09：F1算术几何与构造／存在性原始文献；2026-09-10：F1本科背景讲义的Weil猜想教学来源; 2026-09-10：周期Cartier/字符族与热带theta比较来源; 2026-09-10：实际period ring、FF几何前提及Jessen归一化来源; 2026-09-13：实尺度主关系、相容分歧扩张与Hahn–Witt一般值群来源; 2026-09-13：实际实系数环的相对period-ring接口待审来源; 2026-09-13：无限层零测度所需的经典Berkovich圆盘分类来源",
   "entries": [
     {
       "id": "AF-2026",
@@ -1490,6 +1490,39 @@
       "text_characters": 82404,
       "empty_text_pages": [],
       "status": "原始固定版本已归档、全页解析，PDF首页标题／作者已核对；尚未核审主定理或与378–379的环／范数接口。"
+    },
+    {
+      "id": "Baker-Rumely-2006-draft-archive20070417",
+      "category": "f1-background",
+      "authors": "Matthew Baker; Robert Rumely",
+      "title": "Potential Theory on the Berkovich Projective Line",
+      "version": "DRAFT 10/26/06; author PDF archived 2007-04-17 16:48:09 UTC",
+      "file": "f1/baker-rumely-potential-20061026-archive20070417.pdf",
+      "source_url": "https://web.archive.org/web/20070417164809/http://www.math.gatech.edu/~mbaker/pdf/BerkBook.pdf",
+      "pdf_url": "https://web.archive.org/web/20070417164809id_/http://www.math.gatech.edu/~mbaker/pdf/BerkBook.pdf",
+      "resolved_pdf_url": "https://web.archive.org/web/20070417164809id_/http://www.math.gatech.edu/~mbaker/pdf/BerkBook.pdf",
+      "download_status": "downloaded",
+      "bytes": 1326163,
+      "sha256": "fc92a4ccd5d63f4207c3b6a8901e862769c8e2c7f554848a8ca38788115672c2",
+      "retrieved_at_utc": "2026-09-12T19:18:56.471650+00:00",
+      "pages": 272,
+      "pdf_parse_status": "all pages parsed; 11 blank pages retained",
+      "text_characters": 492075,
+      "empty_text_pages": [
+        2,
+        6,
+        10,
+        28,
+        132,
+        170,
+        182,
+        224,
+        234,
+        246,
+        268
+      ],
+      "pdf_metadata_title": "Potential Theory on the Berkovich Projective Line (DRAFT 10/26/06)",
+      "status": "原作者早期稿固定存档，非最终出版版。主线程核读PDF32–38及51的点分类与圆盘拓扑，PDF37渲染核对；另读PDF174–176仅为限定不采用的一般度数来源。388的p幂圆盘边界、Rouche和无限塔由直接证明承担；不采用Cor7.8、Prop2.8及本书一般Laplacian理论。未核审全书。"
     }
   ],
   "supplement_provenance": [

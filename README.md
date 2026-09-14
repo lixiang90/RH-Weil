@@ -5,7 +5,7 @@
 面向具有大学二年级数学基础的读者：[F₁ 路线究竟要找什么，以及为什么足以推出 RH](docs/f1-route-from-undergraduate-math.md)。
 讲义从具体例子出发，给出精确条件与完整条件证明，并区分指定来源和自由存在性路线。
 
-## 当前研究状态：旧验证已结算，持续推进F₁（2026-09-13）
+## 当前研究状态：旧验证已结算，F₁候选类澄清（2026-09-15）
 
 [GOAL.20260909.md](goals/GOAL.20260909.md)已按用户要求修订并启动，
 原第十三版已按原始字节归档。十轮整数候选的[完整独立验收](notes/364-frozen-integer-candidate-verification.md)
@@ -34,9 +34,13 @@
 [383](notes/383-f1-geometric-zero-existence-at-every-break.md)的每个折点几何零点存在性均已复核；
 [384](notes/384-f1-finite-level-cartier-regularity.md)与[385](notes/385-f1-finite-polynomial-zero-measures.md)
 进一步给有限层Cartier正则性及规范Haar零测度的热带重数比较；
-[386](notes/386-f1-one-parameter-atomic-theta-reduction.md)的原子θ族及有限乘积相容性归约已独立复核；原子几何输入仍待证。
+[386](notes/386-f1-one-parameter-atomic-theta-reduction.md)的原子θ族及有限乘积相容性归约已独立复核；对应几何输入见后续387–389。
 [387](notes/387-f1-analytic-continuation-and-cartier-regularity.md)已进一步证明全部非零全局函数的Cartier正则性，
-包含所有实参数原子θ与既有特征截面，独立复核通过。当前主问题为无限层规范重数及其相容性。
+包含所有实参数原子θ与既有特征截面，独立复核通过。
+[388](notes/388-f1-truncated-potentials-and-faithful-disk-boundaries.md)与
+[389](notes/389-f1-canonical-zero-measures-for-completed-functions.md)随后完成无限层规范零测度、
+局部单位／乘积／幂对应相容及φ切片下降，全文独立复核通过。
+2026-09-15按用户指示先补明“全体候选参考几何”的对象类；随后才继续截面／RR研究。
 [任务单](goals/NEXT.20260909.md)给出顺序。
 尚无新的RH或无条件比例结论；完整验收与较远期显著进展分开。
 

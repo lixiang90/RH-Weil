@@ -615,3 +615,16 @@ SHA256、字节、获取时刻及解析状态见[下载记录](../reviews/2026-0
 绑定有理子域复合、uniform的非零谱检测及KL2 Appendix A的公开勘误。
 本轮采用KL1 Definition2.8.1(a)–(c)，没有误用一般(d)的充分性。
 KL2 Example2.4.2来自一维模曲线无限层，说明非零因子与局部主理想闭性仍须分开。
+
+## 2026-09-13：无限层零测度的经典圆盘来源
+
+Matthew Baker、Robert Rumely，*Potential Theory on the Berkovich Projective Line*，
+**DRAFT 10/26/06**，272页：[本地PDF](f1/baker-rumely-potential-20061026-archive20070417.pdf)／
+[作者原件的2007-04-17固定存档](https://web.archive.org/web/20070417164809id_/http://www.math.gatech.edu/~mbaker/pdf/BerkBook.pdf)。
+不是后来的正式出版版；272页全页解析通过，11个原空白页保留，PDF37已渲染核对。
+SHA256、字节及获取时刻见manifest和[下载记录](../reviews/2026-09-13/f1-berkovich-source-download.json)。
+
+本轮仅采用Theorem1.2、Lemma1.3、§1.3／Lemma1.5／Proposition1.6及Theorem2.2的
+点分类、圆盘分解和拓扑；[来源报告](../reviews/2026-09-13/f1-berkovich-disk-source-audit.md)
+记录页码及推论边界。早期稿Corollary7.8的过强范围和Prop2.8的待补证明条目不采用。
+特殊p幂边界、Rouché、perfectoid无限塔和规范测度均由388–389直接证明，未核审全书。
