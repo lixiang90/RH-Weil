@@ -1,0 +1,19 @@
+{
+  "mathematical_commit": "e83ffdb70604b735ca11d4b36fdf4438606aa186",
+  "remote": "origin",
+  "remote_url": "https://github.com/lixiang90/RH-Weil",
+  "branch": "main",
+  "observed_remote_sha": "e83ffdb70604b735ca11d4b36fdf4438606aa186",
+  "verified_on": "2026-09-15",
+  "recorded_at_utc": "2026-09-14T21:46:33.420971+00:00",
+  "validation_file": "reviews/2026-09-15/f1-candidate-space-validation.json",
+  "validation_sha256_raw": "391f0d18edc367e9022ad8adb3672e7a0bb664ac9b95dde0e8033d553067bd56",
+  "checked_document_links": 931,
+  "git_index_checked_blobs": 16,
+  "goal_mirrors": 19,
+  "literature_artifacts_verified": 85,
+  "goal_status": "paused",
+  "g1_g8_body_unchanged": true,
+  "owned_lean_sources_unchanged": 11,
+  "scope": "Binds note390 candidate definitions, typed G0 revision and source archive. No target-locus nonemptiness, compact moduli space, RR or RH proof is claimed."
+}

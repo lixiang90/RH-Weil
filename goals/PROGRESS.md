@@ -183,6 +183,9 @@ Baker–Rumely早期原稿已保存，限定来源审核通过；不采用其过
 Singer的直接复核闭环，四项修订及范围见[报告](../reviews/2026-09-15/f1-candidate-space-independent-review.md)。
 新增Stacks原PDF115页，文献原件计数变为85；Lean源码没有修改。
 本轮响应用户“继续之前”的澄清要求，Goal仍paused，不自动启动下一截面周期。
+390、G0 v1.2与新来源已随e83ffdb70604b735ca11d4b36fdf4438606aa186推送并核验origin/main同SHA；
+[保存记录](../reviews/2026-09-15/f1-candidate-space-git-save.json)绑定931个文件／目录链接、16个暂存输入blob和85份文献原件的验证。
+本段是数学提交后的保存补记，不回填该提交的文档字节快照。
 
 ## 以下为先前阶段记录
 
