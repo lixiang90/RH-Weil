@@ -1,0 +1,31 @@
+{
+  "status": "PASS_ARCHIVED_AND_SELECTED_PAGES_READ",
+  "source": {
+    "id": "Stacks-Sites-ed88ff78-20260915",
+    "category": "f1-background",
+    "authors": "The Stacks Project Authors",
+    "title": "Sites and Sheaves",
+    "version": "ed88ff78; compiled 2026-07-14; retrieved 2026-09-15",
+    "file": "f1/stacks-sites-20260915.pdf",
+    "source_url": "https://stacks.math.columbia.edu/tag/00UZ",
+    "pdf_url": "https://stacks.math.columbia.edu/download/sites.pdf",
+    "resolved_pdf_url": "https://stacks.math.columbia.edu/download/sites.pdf",
+    "download_status": "downloaded",
+    "bytes": 931481,
+    "sha256": "88ce9f3a1e05a34d23092b4e6158203a85c4aeffef38344e258ec1309b00883f",
+    "retrieved_at_utc": "2026-09-14T21:40:36.861998+00:00",
+    "pages": 115,
+    "pdf_parse_status": "all pages parsed; no empty text pages",
+    "text_characters": 270251,
+    "status": "390候选类的经典来源；核读PDF7的site大小约定、PDF27–28的topoi与Remark15.4集合编码、PDF63的呈现定理开头；PDF28渲染。未重证整章，未核查§29所有证明或将其记为F1模空间存在定理。"
+  },
+  "web_tags_read": [
+    "00VG",
+    "00X9",
+    "039Z"
+  ],
+  "rendered_pages": [
+    28
+  ],
+  "scope": "Source definitions and coding interface only; no whole-chapter proof audit or moduli/existence theorem."
+}

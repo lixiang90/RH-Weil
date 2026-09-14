@@ -1,6 +1,6 @@
 {
   "retrieved_on": "2026-09-06",
-  "scope": "零点比例进展、非循环函数域基准与 Abel 障碍直接文献；归档不等于数学认证；phase 2 插值、密度与正则化算子背景；持续GOAL周期4：实际零密度原始比较及ANTEDB固定快照；2026-09-09：F1算术几何与构造／存在性原始文献；2026-09-10：F1本科背景讲义的Weil猜想教学来源; 2026-09-10：周期Cartier/字符族与热带theta比较来源; 2026-09-10：实际period ring、FF几何前提及Jessen归一化来源; 2026-09-13：实尺度主关系、相容分歧扩张与Hahn–Witt一般值群来源; 2026-09-13：实际实系数环的相对period-ring接口待审来源; 2026-09-13：无限层零测度所需的经典Berkovich圆盘分类来源",
+  "scope": "零点比例进展、非循环函数域基准与 Abel 障碍直接文献；归档不等于数学认证；phase 2 插值、密度与正则化算子背景；持续GOAL周期4：实际零密度原始比较及ANTEDB固定快照；2026-09-09：F1算术几何与构造／存在性原始文献；2026-09-10：F1本科背景讲义的Weil猜想教学来源; 2026-09-10：周期Cartier/字符族与热带theta比较来源; 2026-09-10：实际period ring、FF几何前提及Jessen归一化来源; 2026-09-13：实尺度主关系、相容分歧扩张与Hahn–Witt一般值群来源; 2026-09-13：实际实系数环的相对period-ring接口待审来源; 2026-09-13：无限层零测度所需的经典Berkovich圆盘分类来源; 2026-09-15：候选参考几何的site大小与topos态射呈现来源",
   "entries": [
     {
       "id": "AF-2026",
@@ -1523,6 +1523,25 @@
       ],
       "pdf_metadata_title": "Potential Theory on the Berkovich Projective Line (DRAFT 10/26/06)",
       "status": "原作者早期稿固定存档，非最终出版版。主线程核读PDF32–38及51的点分类与圆盘拓扑，PDF37渲染核对；另读PDF174–176仅为限定不采用的一般度数来源。388的p幂圆盘边界、Rouche和无限塔由直接证明承担；不采用Cor7.8、Prop2.8及本书一般Laplacian理论。未核审全书。"
+    },
+    {
+      "id": "Stacks-Sites-ed88ff78-20260915",
+      "category": "f1-background",
+      "authors": "The Stacks Project Authors",
+      "title": "Sites and Sheaves",
+      "version": "ed88ff78; compiled 2026-07-14; retrieved 2026-09-15",
+      "file": "f1/stacks-sites-20260915.pdf",
+      "source_url": "https://stacks.math.columbia.edu/tag/00UZ",
+      "pdf_url": "https://stacks.math.columbia.edu/download/sites.pdf",
+      "resolved_pdf_url": "https://stacks.math.columbia.edu/download/sites.pdf",
+      "download_status": "downloaded",
+      "bytes": 931481,
+      "sha256": "88ce9f3a1e05a34d23092b4e6158203a85c4aeffef38344e258ec1309b00883f",
+      "retrieved_at_utc": "2026-09-14T21:40:36.861998+00:00",
+      "pages": 115,
+      "pdf_parse_status": "all pages parsed; no empty text pages",
+      "text_characters": 270251,
+      "status": "390候选类的经典来源；核读PDF7的site大小约定、PDF27–28的topoi与Remark15.4集合编码、PDF63的呈现定理开头；PDF28渲染。未重证整章，未核查§29所有证明或将其记为F1模空间存在定理。"
     }
   ],
   "supplement_provenance": [
@@ -1692,5 +1711,5 @@
       "status": "导数生成器依赖的固定原件；归档，尚未完整核读或运行。"
     }
   ],
-  "last_updated_on": "2026-09-13"
+  "last_updated_on": "2026-09-15"
 }

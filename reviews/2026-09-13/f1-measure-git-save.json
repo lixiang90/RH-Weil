@@ -1,0 +1,21 @@
+{
+  "mathematical_commit": "72e9215d66688cdc3a7d3729ff0fe7b716927dab",
+  "remote": "origin",
+  "remote_url": "https://github.com/lixiang90/RH-Weil",
+  "branch": "main",
+  "observed_remote_sha": "72e9215d66688cdc3a7d3729ff0fe7b716927dab",
+  "verified_on": "2026-09-15",
+  "recorded_at_utc": "2026-09-14T21:43:07.330435+00:00",
+  "validation_file": "reviews/2026-09-13/f1-measure-round-validation.json",
+  "validation_sha256_raw": "64b674a1722f4629c515677cf160f379bfdb6c4ded8560aff3fefca9646621b1",
+  "checked_document_links": 987,
+  "git_index_checked_blobs": 16,
+  "goal_mirrors": 19,
+  "literature_artifacts_verified": 84,
+  "new_math_notes": [
+    388,
+    389
+  ],
+  "goal_status": "paused",
+  "scope": "Binds only the completed infinite-measure mathematical commit and its saved validation snapshot. Later candidate-space work and source additions are separate."
+}

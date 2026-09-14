@@ -628,3 +628,14 @@ SHA256、字节及获取时刻见manifest和[下载记录](../reviews/2026-09-13
 点分类、圆盘分解和拓扑；[来源报告](../reviews/2026-09-13/f1-berkovich-disk-source-audit.md)
 记录页码及推论边界。早期稿Corollary7.8的过强范围和Prop2.8的待补证明条目不采用。
 特殊p幂边界、Rouché、perfectoid无限塔和规范测度均由388–389直接证明，未核审全书。
+
+## 2026-09-15：候选几何空间、site大小与态射编码
+
+The Stacks Project Authors，*Sites and Sheaves*，版本**ed88ff78，2026-07-14编译**：
+[本地PDF](f1/stacks-sites-20260915.pdf)／[官方原件](https://stacks.math.columbia.edu/download/sites.pdf)。
+本文件名记录获取日；不是声称内容版本为2026-09-15。115页全页解析通过，931,481字节，
+SHA256为`88ce9f3a1e05a34d23092b4e6158203a85c4aeffef38344e258ec1309b00883f`。
+核读PDF7、27–28、63，PDF28渲染；主要用tag00VG、00X9特别是Remark15.4的集合编码，
+以及§29的呈现说明，未核审全部115页证明。
+[保存与核读记录](../reviews/2026-09-15/f1-candidate-space-source.json)区分完整性和数学阅读。
+390的有界候选类与G0类型修正由本项目另作直接论证，不是原文的F₁模空间定理。

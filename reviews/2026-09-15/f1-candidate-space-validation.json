@@ -1,0 +1,39 @@
+{
+  "status": "PASS_CANDIDATE_SPACE_SAVED_VERSION",
+  "date": "2026-09-15",
+  "base_commit": "72e9215d66688cdc3a7d3729ff0fe7b716927dab",
+  "checks": [
+    "sync_goal.py --check",
+    "check_repo_layout.py",
+    "verify_artifacts.py",
+    "git diff --cached --check",
+    "staged blob hashes with gitattributes",
+    "G1-G8 body unchanged after CRLF normalization",
+    "long-term GOAL B/C raw bytes unchanged",
+    "owned Lean sources unchanged",
+    "local file and directory links resolve"
+  ],
+  "goal_mirrors": 19,
+  "checked_document_links": 931,
+  "git_index_checked_blobs": 16,
+  "unchanged_owned_lean_sources": 11,
+  "g1_g8_body_sha256_lf": "1d18ad720fe53e72402cf0188f5677fe8757e284286a703ed87ac7c5a18d67d1",
+  "literature_artifacts_verified": 85,
+  "document_sha256_raw": {
+    "README.md": "2c16530c25336c195b4f30dd3c96d6455dfb5e5591da794eb311fe98664ccff8",
+    "RESEARCH_BRANCHES.md": "6cc35919ad68b589bd76afab91329e8e665fd4788a3a75e76cb778dee72092a6",
+    "docs/f1-route-from-undergraduate-math.md": "0a4407205ead713ff824cfa2e543c8cdc0c0a993ec6a5855ef68ae89260c5684",
+    "formal/blueprint/README.md": "1fb0887c5c32853ad11bce7aaa23d20079f30271c2314421f549a4c050bc82e7",
+    "formal/blueprint/geometric-realization.md": "6d4bca89a438ddb2e1e5c48b4396ef3c40a787b2b7db29a2ad8e5dd8f4c2fed4",
+    "goals/GOAL.20260909.md": "b50572cf7cfcfbd0526580b051052bd07d41f8d0f5530c949d097bfc9073d746",
+    "goals/NEXT.20260909.md": "9326f740687a35f07f9d90a7d9f15d507b84262b6c01c9a35b4e311c6607cf8f",
+    "goals/PROGRESS.md": "dd7c17f3a77960d39e636955536231850b064400d5ee76f08026ff26c9da07b0",
+    "literature/README.md": "bb76cc35c28b55e79a5d8370f07c65bf9ebd73beeffaa2d4e340f976ad617440",
+    "notes/390-f1-candidate-geometry-space.md": "195726d11890d0eda9e8927641e955dca55878ff16053f8d17126c48abb3133b",
+    "reviews/2026-09-15/f1-candidate-space-independent-review.md": "3cb59b03ba90c48facce580aa7534008d0b6cdb77867bea3d84c612a193afc0f"
+  },
+  "proof_status": "390 direct statements independently reviewed; target nonemptiness and compactness open",
+  "goal_status": "paused",
+  "scope": "Source and saved version integrity; not RH/RR or a moduli-space existence certificate",
+  "v1_2_g0_consistency_review": "PASS; strict/valuation/free match 390; no unresolved revisions"
+}

@@ -40,7 +40,9 @@
 [388](notes/388-f1-truncated-potentials-and-faithful-disk-boundaries.md)与
 [389](notes/389-f1-canonical-zero-measures-for-completed-functions.md)随后完成无限层规范零测度、
 局部单位／乘积／幂对应相容及φ切片下降，全文独立复核通过。
-2026-09-15按用户指示先补明“全体候选参考几何”的对象类；随后才继续截面／RR研究。
+2026-09-15按用户指示先补明“全体候选参考几何”的对象类：
+[390](notes/390-f1-candidate-geometry-space.md)给有界呈现集合、态射／等价、比较约定β及紧致性边界；
+G0跨类型接口据此修订，随后才继续截面／RR研究。
 [任务单](goals/NEXT.20260909.md)给出顺序。
 尚无新的RH或无条件比例结论；完整验收与较远期显著进展分开。
 

@@ -8,7 +8,7 @@
 | 顺序 | 任务 | 验收与切换 |
 |---|---|---|
 | 已结算 | 旧周期13的iteration-10冻结候选：[364完整验收](notes/364-frozen-integer-candidate-verification.md) | 6237815186边全扫描，13755190失败；最坏边320位真实标量缺口仍严格为正。只排除该表的同word／前缀充分条件 |
-| 当前主线 | F1-EX1：[387](notes/387-f1-analytic-continuation-and-cartier-regularity.md)的Cartier正则性及[389](notes/389-f1-canonical-zero-measures-for-completed-functions.md)的规范零测度／相容性已完成独立复核 | 2026-09-15先按用户指示明确候选参考几何的对象类，再继续截面／RR；一般商闭性、算术平方、交叉及固定ζ接口仍缺 |
+| 当前主线 | F1-EX1：[389](notes/389-f1-canonical-zero-measures-for-completed-functions.md)规范零测度已审；[390](notes/390-f1-candidate-geometry-space.md)明确候选类与G0比较约定 | 当前先结算候选类、κ大小界与跨类型接口；再继续截面／RR。候选容器非空不等于固定ζ目标子集非空，尚无紧致性定理 |
 | 必要辅助 | 经典Lean缺口、原始文献及只读独立复核 | 26项既有检查与十个sorry为当前基线；形式化通过不替代实际算术存在性 |
 
 [任务单](goals/NEXT.20260909.md)与[账本](goals/PROGRESS.md)维护当前状态。
