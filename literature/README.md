@@ -1,6 +1,6 @@
 # RH-Weil 文献索引
 
-更新至2026-09-09。首批归档聚焦67.25%之后的零点比例进展及直接依赖（15份、220页）；后续原始版本与核读范围按轮次列在文末。当前本地共50份外部原始PDF、1676页，其中49份、1647页纳入Git保存；Schur扫描29页按来源封面要求仅本地保存，出处和哈希同步。获取失败单列。研究判断见 [305文献审计](../notes/305-post-6725-literature-baseline-audit.md)。
+索引续记更新至2026-09-20；最新批次、范围和保存状态见文末。以下2026-09-09统计为历史快照。首批归档聚焦67.25%之后的零点比例进展及直接依赖（15份、220页）；后续原始版本与核读范围按轮次列在文末。当前本地共50份外部原始PDF、1676页，其中49份、1647页纳入Git保存；Schur扫描29页按来源封面要求仅本地保存，出处和哈希同步。获取失败单列。研究判断见 [305文献审计](../notes/305-post-6725-literature-baseline-audit.md)。
 
 PDF按来源原样保存，未重排或改写；arXiv固定版本，GitHub固定提交，Zenodo固定记录。下载、全页PDF解析和校验值核验不等于数学证明认证。manifest中的SHA-256标识本次取得的精确字节，原站同一文件名后续变化时仍可区分。
 
@@ -670,3 +670,21 @@ Borger v1的PDF2（平坦Z情形的交换Frobenius提升）；CC2018 v1的PDF19�
 
 [393独立复核](../reviews/2026-09-20/f1-profile-dimension-independent-review.md)和[第三次空间审查](../reviews/2026-09-20/f1-candidate-space-third-review.md)保留适用边界。
 文献原件数由89增至90，其中新增一份为本地保留；不把复用旧PDF或选择性核读记作全文认证。
+
+
+## 2026-09-20续记：完整几何主商与双侧对应
+
+The Stacks Project Authors，*Commutative Algebra*，版本 **ed88ff78，2026-07-14编译**：
+[归档PDF](f1/stacks-algebra-ed88ff78-20260920.pdf)／[官方原件](https://stacks.math.columbia.edu/download/algebra.pdf)／
+[所用Lemma 10.153.7，tag04GK](https://stacks.math.columbia.edu/tag/04GK)。
+469页，2,828,052字节，SHA-256为 `b035a1f02104906a1820636cd332a0d7962fef3318d207a056634cb14dc86947`。
+仅核读标题、版本及PDF415页的Lemma153.7；用于[395](../notes/395-f1-geometric-measure-principal-quotient.md)
+的Hensel剩余扩张论证，没有认证整章。PDF已随[276f674](https://github.com/lixiang90/RH-Weil/commit/276f6741555999891413ec4cf1f14be3a04d2f75)
+保存GitHub；已校验C盘临时副本，H盘设备未就绪，向H盘同步尚待核验。
+文献原件及补充材料的历史累计数由90增至91（包含此前仅本地保存的原件），不等于91份全部都在Git中。
+
+CC2015 *Geometry of the arithmetic site* 的既有
+[1502.05580v1原件](f1/cc-arithmetic-site-1502.05580v1.pdf)本轮复用：
+核对Proposition6.13、Definition6.22、Definition7.1、式(41)–(42)及Theorem7.7。
+双侧作用、约化对应及复合的切向例外作为[下一任务](../reviews/2026-09-20/f1-marked-correspondence-next-proof-plan.md)
+的来源基线；重述这些既有定义不算本项目的新几何构造。
