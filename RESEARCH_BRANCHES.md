@@ -1,14 +1,14 @@
 # 研究分支看板
 
-## 唯一当前队列（2026-09-10重启，2026-09-13续研）
+## 唯一当前队列（2026-09-20续研与第三次空间审查）
 
 执行[GOAL.20260909.md](goals/GOAL.20260909.md)的研究目标。
-2026-09-15现场Goal状态paused；按用户新指示，先明确候选参考几何的对象类，并另请独立agent审查合理性与替代构造，不自动重启。
+2026-09-20重新读取Goal工具为active。新增独立agent Dalton已完成整体空间审查；本轮[394](notes/394-f1-real-principal-relations-and-parameter-topologies.md)记录具体接口障碍与三种替代参数化。下方9月15日的paused叙述是历史状态。
 
 | 顺序 | 任务 | 验收与切换 |
 |---|---|---|
 | 已结算 | 旧周期13的iteration-10冻结候选：[364完整验收](notes/364-frozen-integer-candidate-verification.md) | 6237815186边全扫描，13755190失败；最坏边320位真实标量缺口仍严格为正。只排除该表的同word／前缀充分条件 |
-| 当前主线 | F1-EX1：[389](notes/389-f1-canonical-zero-measures-for-completed-functions.md)规范零测度已审；[390](notes/390-f1-candidate-geometry-space.md)定义候选类；[391](notes/391-f1-candidate-space-review-and-alternatives.md)整理第二次独立审查及替代构造 | 先比较可操作子族及其准入缺口，再继续截面／RR；现有解析模型只完成单节点。候选容器非空不等于固定ζ目标子集非空，尚无紧致性定理 |
+| 当前主线 | F1-EX1：[392](notes/392-f1-eigensections-and-weighted-banach-space.md)全部截面／紧族和[393](notes/393-f1-profile-surjectivity-and-filtered-dimension.md)轮廓满射／CC过滤维数均已审；[394](notes/394-f1-real-principal-relations-and-parameter-topologies.md)完成新增独立空间审查 | 先固定完整几何点空间、扩域及紧Hausdorff性质，再检验同线丛零测度差的连续湮灭子是否只有常数。保留torsion提升；不采用已排除的纯径向弱测度双次数接法；完整τ及固定ζ接口仍开放 |
 | 必要辅助 | 经典Lean缺口、原始文献及只读独立复核 | 26项既有检查与十个sorry为当前基线；形式化通过不替代实际算术存在性 |
 
 [任务单](goals/NEXT.20260909.md)与[账本](goals/PROGRESS.md)维护当前状态。
