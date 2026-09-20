@@ -1,14 +1,14 @@
 # 研究分支看板
 
-## 唯一当前队列（2026-09-20续研与第三次空间审查）
+## 唯一当前队列（2026-09-20第四次空间审查）
 
 执行[GOAL.20260909.md](goals/GOAL.20260909.md)的研究目标。
-2026-09-20重新读取Goal工具为active。新增独立agent Dalton已完成整体空间审查；本轮[394](notes/394-f1-real-principal-relations-and-parameter-topologies.md)记录具体接口障碍与三种替代参数化。下方9月15日的paused叙述是历史状态。
+2026-09-20重新读取Goal工具为active。新增独立agent Harvey已完成第四次整体空间审查，见403与完整报告；此前Dalton的第三次审查已结算；本轮[394](notes/394-f1-real-principal-relations-and-parameter-topologies.md)记录具体接口障碍与三种替代参数化。下方9月15日的paused叙述是历史状态。
 
 | 顺序 | 任务 | 验收与切换 |
 |---|---|---|
 | 已结算 | 旧周期13的iteration-10冻结候选：[364完整验收](notes/364-frozen-integer-candidate-verification.md) | 6237815186边全扫描，13755190失败；最坏边320位真实标量缺口仍严格为正。只排除该表的同word／前缀充分条件 |
-| 当前主线 | F1-EX1：[400](notes/400-f1-cartier-tower-limit-and-stalk-defect.md)已证普通逆极限退化、pro非本质常值及未层化下降障碍；[401](notes/401-f1-dual-cartier-ideal-and-reflexive-collapse.md)给真正下降的非闭理想层，但不局部有限生成 | 按[内在FF对角任务](reviews/2026-09-20/f1-intrinsic-ff-diagonal-next-proof-plan.md)核对untilt点剩余域、普通Q_p平方和代数余法模，不从一维正则曲线直接导入光滑曲面交叉。完整τ／RR／ζ仍开放 |
+| 当前主线 | F1-EX1：[400](notes/400-f1-cartier-tower-limit-and-stalk-defect.md)已证普通逆极限退化、pro非本质常值及未层化下降障碍；[401](notes/401-f1-dual-cartier-ideal-and-reflexive-collapse.md)给真正下降的非闭理想层，但不局部有限生成 | [402](notes/402-f1-intrinsic-ff-diagonal-conormal-obstruction.md)已审：普通Q_p平方对角理想不有限生成。[403](notes/403-f1-support-locality-and-nonperfect-quotients.md)与[第四次独立审查](reviews/2026-09-20/f1-candidate-space-fourth-review.md)比较替代空间并给混合配对限制；下一步检验实际非局部相对迹来源。完整τ／RR／ζ仍开放 |
 | 必要辅助 | 经典Lean缺口、原始文献及只读独立复核 | 26项既有检查与十个sorry为当前基线；形式化通过不替代实际算术存在性 |
 
 [任务单](goals/NEXT.20260909.md)与[账本](goals/PROGRESS.md)维护当前状态。

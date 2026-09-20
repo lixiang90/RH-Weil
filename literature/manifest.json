@@ -1294,6 +1294,11 @@
           "date": "2026-09-20",
           "scope": "402草稿：增量核读一般F的θ满射与次数一核（3.1.9/PDF148–149）、3.1.11/PDF149–150、3.3.1/PDF153、§3.4.1/PDF154及7.3.3/PDF277–278；核对§1.1/PDF64前提。PDF148、149、153、154、278已整页渲染并视觉检查。采用原文[R]输入，未重新证明全书依赖。",
           "review_note": "../notes/402-f1-intrinsic-ff-diagonal-conormal-obstruction.md"
+        },
+        {
+          "date": "2026-09-20",
+          "scope": "402独立审查通过后主代理另核读Definition5.1.1/PDF212，确认曲线定义包含Noetherian、正则、连通、一维及分离性；没有新增PDF或重新认证全部FF定理。",
+          "review_note": "../reviews/2026-09-20/f1-intrinsic-ff-diagonal-independent-review.md"
         }
       ]
     },
@@ -1754,6 +1759,23 @@
       "empty_text_pages": [],
       "read_scope": "Title/course version; Theorem4 on PDF3 and Theorem6 and uniqueness proof on PDF4, algebraic-extension consequences on PDF5. Theorem6 existence statement is adopted as a standard external input; this handout defers its existence proof to the Newton-polygons unit, not independently reviewed here. Supports 399 finite scalar-extension norm/completeness only.",
       "status": "Original PDF saved unchanged; full course and forward-referenced existence proof not audited."
+    },
+    {
+      "id": "Stacks-Cohomology-ed88ff78-20260920",
+      "category": "f1",
+      "authors": "The Stacks Project Authors",
+      "title": "Cohomology of Sheaves",
+      "version": "ed88ff78; compiled 2026-07-14",
+      "file": "f1/stacks-cohomology-ed88ff78-20260920.pdf",
+      "source_url": "https://stacks.math.columbia.edu/tag/08DN",
+      "pdf_url": "https://stacks.math.columbia.edu/download/cohomology.pdf",
+      "retrieved_on": "2026-09-20",
+      "download_status": "downloaded",
+      "bytes": 1054846,
+      "sha256": "23fbd6af99fe8f0b36a010c0b69ebb0f0f54761f53b530c685b1375001bb5893",
+      "pages": 137,
+      "read_scope": "仅PDF114、117–118文字及整页渲染视觉核查：08DN及08CL/08CQ的有限呈现、伪凝聚和完美性；未核审整章。",
+      "review_note": "../notes/403-f1-support-locality-and-nonperfect-quotients.md"
     }
   ],
   "supplement_provenance": [

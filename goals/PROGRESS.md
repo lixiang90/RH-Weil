@@ -1,6 +1,22 @@
 # 持续GOAL执行账本：20260909版重启
 
-## 当前执行：Cartier塔已审，转向内在FF对角准入（2026-09-20）
+
+## 当前执行：第四次空间审查与402–403结算（2026-09-20）
+
+Harvey已完成用户要求的[新增独立审查](../reviews/2026-09-20/f1-candidate-space-fourth-review.md)：
+390有界容器保留，三种替代定义与实现函子的可容许态射条件已整理；不把容器当成已实现的算术模空间。
+[403](../notes/403-f1-support-locality-and-nonperfect-quotients.md)的支集混合配对反例、非完美理想商及主商必要条件已由主代理验算。
+[402](../notes/402-f1-intrinsic-ff-diagonal-conormal-obstruction.md)经Lagrange独立复核：
+实际untilt点剩余域为C，普通Q_p平方的对角理想不有限生成；两项措辞修订已纳入。
+仅停止明确载体与接口，不排除所有F₁路线。
+
+下一项按[非局部混合配对准入](../reviews/2026-09-20/f1-nonlocal-mixed-pairing-next-proof-plan.md)，
+先找实际相对迹来源，再计算相隔log2的测试函数；不能按W的数值定义几何配对。
+新归档Stacks Cohomology原件及三页核读范围；没有本轮Lean构建或旧数值重跑。
+402草稿及恢复证据已随[69495e4](https://github.com/lixiang90/RH-Weil/commit/69495e4716af1595cc5dd50a99e09d30f4493907)精确保存远端。
+本批最终修订的提交状态以实际保存核验为准。Goal保持active，长期完成标准不变。
+
+## 400–401结算与402草稿时的执行快照（2026-09-20）
 
 [400](../notes/400-f1-cartier-tower-limit-and-stalk-defect.md)在全部有理局部模型证明
 lim←(S,×Q_N)={(F_N f)_N:f∈S}；通常层极限带截面为(O,1)。

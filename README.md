@@ -68,9 +68,12 @@ G0跨类型接口据此修订。[391](notes/391-f1-candidate-space-review-and-al
 pro塔却非本质常值，原未层化Čech下降又缺统一源层；独立复核通过。
 [401](notes/401-f1-dual-cartier-ideal-and-reflexive-collapse.md)从对偶直接极限构造可实际下降的非闭理想层，
 但它在图点不局部有限生成，仍不能充当通常Cartier除子。
-下一项是[内在FF曲线的普通平方与对角准入](reviews/2026-09-20/f1-intrinsic-ff-diagonal-next-proof-plan.md)，
-[402草稿](notes/402-f1-intrinsic-ff-diagonal-conormal-obstruction.md)已核对untilt点的实际剩余域，
-并给普通Q_p平方对角理想非有限生成的证明，独立复核待完成；完整τ、交叉及固定ζ比较仍开放。
+[内在FF曲线的普通平方与对角准入](reviews/2026-09-20/f1-intrinsic-ff-diagonal-next-proof-plan.md)，
+[402](notes/402-f1-intrinsic-ff-diagonal-conormal-obstruction.md)已核对untilt点的实际剩余域，
+并证明普通Q_p平方对角理想非有限生成，独立复核通过。
+[第四次独立空间审查](reviews/2026-09-20/f1-candidate-space-fourth-review.md)保留有界容器并比较三种替代定义；
+[403](notes/403-f1-support-locality-and-nonperfect-quotients.md)新增支集局部配对与固定Weil型的不相容、有限Tor维数不保证完美的限制。
+下一步先检验实际非局部相对迹及log2混合配对；完整τ、交叉及固定ζ比较仍开放。
 候选容器非空仍不意味着全部算术条件有实例。
 [任务单](goals/NEXT.20260909.md)给出顺序。
 尚无新的RH或无条件比例结论；完整验收与较远期显著进展分开。

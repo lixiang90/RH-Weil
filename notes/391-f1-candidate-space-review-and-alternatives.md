@@ -174,3 +174,13 @@ Geom(E,Set[T])≃T-Mod(E)；见Caramello讲义第69、71–73页，
 下载身份、版本及阅读定位见[来源记录](../reviews/2026-09-15/f1-candidate-space-second-sources.json)与
 [文献目录](../literature/README.md#f1-candidate-alternatives-20260915)。
 保存原件、核查指定条款与全文认证是不同工作；本轮没有认证这些文献的全部定理。
+
+
+## 2026-09-20更新：第四次独立审查
+
+本稿第2节等准入表保留2026-09-15的历史范围。398已构造实际平方，400–401定位极限和非有限呈现障碍；
+这不等于全部G0比较或G3–G8已完成。
+[Harvey完整审查](../reviews/2026-09-20/f1-candidate-space-fourth-review.md)比较三种替代定义：
+固定算术输出的实现纤维、固定基底的实际几何族模问题、固定平方上的嵌入理想—余截面空间。
+[403](403-f1-support-locality-and-nonperfect-quotients.md)给新增Weil混合配对和非完美性准入限制；
+后续应先检验交叉／迹能否产生非局部算术贡献，再推进RR。

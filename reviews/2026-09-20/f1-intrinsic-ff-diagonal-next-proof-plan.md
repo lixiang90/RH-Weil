@@ -42,3 +42,6 @@
 新机制是保留内在Witt／untilt几何，改变了载体和基底；
 不是把400的pro塔换名。证明／停止结论需给准确范围，
 仍不单独触发GOAL第十节B/C。一次只推进这一个主要来源／对角问题。
+
+
+2026-09-20结算：[402](../../notes/402-f1-intrinsic-ff-diagonal-conormal-obstruction.md)及[独立复核](f1-intrinsic-ff-diagonal-independent-review.md)已完成；指定普通平方的对角理想非有限生成。下一任务见[非局部混合配对](f1-nonlocal-mixed-pairing-next-proof-plan.md)。

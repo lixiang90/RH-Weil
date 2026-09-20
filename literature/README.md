@@ -742,3 +742,15 @@ PDF4页Theorem6与唯一性证明、PDF5页代数扩张说明，3–4页另渲�
 新增核读PDF331–333的微分商正合列及对角余法模（00RU、00RW），视觉核对331与333。
 两份PDF的SHA256与既有manifest一致，没有新下载。
 数学应用见[402草稿](../notes/402-f1-intrinsic-ff-diagonal-conormal-obstruction.md)，独立复核尚待完成。
+
+
+## 2026-09-20续记：独立空间审查的完美性来源
+
+新增[Stacks Cohomology of Sheaves原PDF](f1/stacks-cohomology-ed88ff78-20260920.pdf)，
+[原始下载](https://stacks.math.columbia.edu/download/cohomology.pdf)，ed88ff78，137页，1,054,846字节。
+SHA256：23fbd6af99fe8f0b36a010c0b69ebb0f0f54761f53b530c685b1375001bb5893。
+本轮仅核读并视觉核对PDF114、117–118的08DN、08CL/08CQ；不把归档等同全文认证。
+用途见[403](../notes/403-f1-support-locality-and-nonperfect-quotients.md)。
+
+
+402后续已通过独立复核；主代理补核FF Definition5.1.1/PDF212。数学结论及范围见402和其独立报告。
