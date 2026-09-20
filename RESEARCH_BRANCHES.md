@@ -1,6 +1,6 @@
 # 研究分支看板
 
-## 唯一当前队列（2026-09-21 两个有限位的共同边界）
+## 唯一当前队列（2026-09-21 实际边界酉元与相对读出）
 
 执行[GOAL.20260909.md](goals/GOAL.20260909.md)，Goal保持active。
 旧整数验证及此前空间审查已归档，下方历史状态不决定当前次序。
@@ -8,8 +8,8 @@
 | 顺序 | 任务 | 验收与切换 |
 |---|---|---|
 | 已结算 | 旧周期13冻结候选：[364完整验收](notes/364-frozen-integer-candidate-verification.md) | 6237815186边全扫描，13755190失败；只排除指定充分条件 |
-| 当前主线 | F1-EX1：[412](notes/412-f1-transverse-compression-and-periodic-traces.md)的真实横向压缩与完整有限位周期迹已审查 | 下一项[共同来源与边界粘合](reviews/2026-09-21/f1-two-place-boundary-gluing-next-proof-plan.md)：构造同一有限S的层理想扩张与连接映射，检验两个周期对象同时提升及真实关系。局部迹匹配不代替主除子或RR |
-| 必要辅助 | 原始文献、即时Lean和只读独立审查 | TransverseTrace新增七项无sorryAx；历史报告及十处admission保持。未重建全F1 |
+| 当前主线 | F1-EX1：[413](notes/413-f1-two-place-boundaries-and-virtual-class-collapse.md)共同两位边界的连接、提升及忘却已复核 | 下一项[实际边界酉元](reviews/2026-09-21/f1-deep-boundary-unitary-next-proof-plan.md)：构造真实源对象和提升，按固定Fourier截止核准相对读出。普通K消失不保证主关系；双矩、完整B和RR仍开放 |
+| 必要辅助 | 原始文献、即时Lean和只读独立审查 | BoundaryGluing新增七项无sorryAx；历史报告及十处admission保持。未重建全F1 |
 
 [任务单](goals/NEXT.20260909.md)与[账本](goals/PROGRESS.md)给当前动作。
 较早的当前／暂停／结构辅助表述均为历史记录。

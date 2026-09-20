@@ -1,5 +1,16 @@
 # 20260909版重启任务单
 
+## 唯一当前任务（2026-09-21，413结算）
+
+执行[双零边界的实际酉对象与相对读出](../reviews/2026-09-21/f1-deep-boundary-unitary-next-proof-plan.md)。
+[413](../notes/413-f1-two-place-boundaries-and-virtual-class-collapse.md)已构造共同两位边界扩张，
+连接映射为秩的负和；等秩之差提升为虚类，完整径向代数中的普通／参数忘却像为0。
+正合性仅给出双零K₁原像存在，未给真实源酉元，更未给几何主关系。
+下一步构造实际旋转代数比较、酉元和提升，再按固定截止核算相对读出及必要补偿。
+不同p的局部迹不能因普通K消失而直接宣布抵消。
+七项BoundaryGluing Lean检查无sorryAx；原十处admission及旧报告保持。
+下方任务是历史快照；Goal继续active，第十节强度不变。
+
 ## 唯一当前任务（2026-09-21，412结算）
 
 执行[两个有限位的共同来源与边界粘合](../reviews/2026-09-21/f1-two-place-boundary-gluing-next-proof-plan.md)。

@@ -2073,7 +2073,7 @@
       "version": "Author-hosted book6.pdf; exact snapshot retrieved 2026-09-21 local date",
       "download_status": "downloaded",
       "status": "Specified theorem-source audit for note410 completed; not full-paper/book certification.",
-      "read_scope": "Laplace read PDF76–78,81–83; located nuclearity clauses PDF143–144. Definition8.3.1 and §8.3.2 printed62–63, Theorem9.3.1 printed67–68. No whole-book certification. Main verified title/version metadata and parsed every PDF page. Note411 increment: §§5.2.2,5.2.4,5.5 (printed29,31/PDF43,45); §8.1.5 (printed61/PDF75); §10.1 (printed71/PDF85); Theorem10.2.1 (printed73/PDF87); Proposition5.5.5 (printed31/PDF45). No whole-book certification.",
+      "read_scope": "Laplace read PDF76–78,81–83; located nuclearity clauses PDF143–144. Definition8.3.1 and §8.3.2 printed62–63, Theorem9.3.1 printed67–68. No whole-book certification. Main verified title/version metadata and parsed every PDF page. Note411 increment: §§5.2.2,5.2.4,5.5 (printed29,31/PDF43,45); §8.1.5 (printed61/PDF75); §10.1 (printed71/PDF85); Theorem10.2.1 (printed73/PDF87); Proposition5.5.5 (printed31/PDF45). No whole-book certification. Note413 increment: PDF42–43,45,62,73–82,87,126–127,143–144,203,205,231–234; visual78,82. Exponential boundary 9.3.1–9.3.2, suspension/Bott/circle splitting, zero-dimensional AF and K continuity, PV and naturality. No whole-book certification.",
       "file": "f1/blackadar-k-theory-author-book6.pdf",
       "source_url": "https://bruceblackadar.com/Mathematics/book6.pdf",
       "pdf_url": "https://bruceblackadar.com/Mathematics/book6.pdf",
@@ -2085,7 +2085,8 @@
       "review_note": "../reviews/2026-09-21/f1-boundary-k-class-source-review.md",
       "review_notes": [
         "../reviews/2026-09-21/f1-boundary-k-class-source-review.md",
-        "../reviews/2026-09-21/f1-full-rational-source-review.md"
+        "../reviews/2026-09-21/f1-full-rational-source-review.md",
+        "../reviews/2026-09-21/f1-two-place-source-review.md"
       ]
     },
     {
@@ -2106,6 +2107,25 @@
       "pages": 26,
       "retrieved_at_utc": "2026-09-20T16:47:57.433618+00:00",
       "review_note": "../reviews/2026-09-21/f1-full-rational-source-review.md"
+    },
+    {
+      "id": "BGR-1977-stable-morita",
+      "category": "f1-background",
+      "authors": "Lawrence G. Brown; Philip Green; Marc A. Rieffel",
+      "title": "Stable isomorphism and strong Morita equivalence of C*-algebras",
+      "version": "Pacific Journal of Mathematics 71(2) (1977), 349–363; publisher PDF includes cover and journal back matter",
+      "download_status": "downloaded",
+      "status": "Specified theorem-source audit for note413; no full-paper certification.",
+      "read_scope": "Laplace read printed349–352/PDF2–5; Theorem1.1 printed350–351/PDF3–4 and Theorem1.2 printed351–352/PDF4–5. Main parsed all19 pages, read metadata and visually checked PDF3. Paper itself is printed349–363/PDF2–16; remaining pages include cover, blank and journal back matter.",
+      "file": "f1/brown-green-rieffel-morita-1977.pdf",
+      "source_url": "https://msp.org/pjm/1977/71-2/pjm-v71-n2-p06-s.pdf",
+      "pdf_url": "https://msp.org/pjm/1977/71-2/pjm-v71-n2-p06-s.pdf",
+      "resolved_pdf_url": "https://msp.org/pjm/1977/71-2/pjm-v71-n2-p06-s.pdf",
+      "bytes": 1901330,
+      "sha256": "d2b64846c0dd59668f261782ae832df1bb7dad15479d5bb5c2e7aeec37fd19c8",
+      "pages": 19,
+      "retrieved_at_utc": "2026-09-20T17:37:35.040533+00:00",
+      "review_note": "../reviews/2026-09-21/f1-two-place-source-review.md"
     }
   ],
   "supplement_provenance": [

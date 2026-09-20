@@ -118,3 +118,10 @@ vendor八包806文件校验。历史报告保持。Hilbert正交／收敛、C*�
 [编译日志](transverse-trace-build.txt)及[独立源码清单](transverse-trace-source-audit.json)保存。
 几何尾部及加性K读出障碍代数无sorryAx；真实Hilbert悬挂和算子迹尚非Lean形式证明。
 21份项目源码、十处旧admission、八个vendor项目806份源码核准，所有历史报告保持。
+
+## 2026-09-21：BoundaryGluing
+
+[七项检查](boundary-gluing-verification.json)、[公理日志](boundary-gluing-axioms.txt)、
+[编译日志](boundary-gluing-build.txt)及[源码清单](boundary-gluing-source-audit.json)保存。
+有限支平移与秩边界代数没有sorryAx依赖；C*／拓扑／K理论尚非这些形式化的内容。
+22份项目源码，十处旧admission和八个vendor项目806份源码已核准，历史报告保持。

@@ -1,0 +1,59 @@
+{
+  "status": "passed_no_sorry_dependencies",
+  "checked_at_utc": "2026-09-20T17:30:11.754928+00:00",
+  "lean_version": "Lean (version 4.32.2, x86_64-w64-windows-gnu, commit f3b06c705e6c85f5314019d5d3baab0fec5b580c, Release)",
+  "mathlib_revision": "905b95818eb32af7874a58b427f50c1711a5e96c",
+  "cache_backup": ".lake\\hdd-backup-05156b5b",
+  "runtime_dir": "C:\\Users\\A\\AppData\\Local\\Temp\\rh-weil-local-trace-20260920",
+  "scope": "Seven finite-support shift, rank-boundary and scalar-residual results. No quotient topology, C*-extension, Morita, PV, Bott, K-theory or full F1 build.",
+  "commands": [
+    {
+      "source": "F1/Analysis/BoundaryGluing.lean",
+      "exit_code": 0
+    },
+    {
+      "source": "checks/BoundaryGluingAudit.lean",
+      "exit_code": 0
+    }
+  ],
+  "source_sha256": {
+    "F1/Analysis/BoundaryGluing.lean": "1fae26e4d7e9fb017f624a22cb9edec741236b886c73e285bdfc9b0e195e2109",
+    "checks/BoundaryGluingAudit.lean": "1a4a85ab72e5ebfc23f99d252764d2fcf662abcea5d81a3954d5dbfb011f988c"
+  },
+  "axioms": {
+    "RHWeil.F1.finiteShiftInvariant_zero": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "RHWeil.F1.boundaryRank_kernel": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "RHWeil.F1.boundaryRank_surjective": [
+      "propext"
+    ],
+    "RHWeil.F1.boundaryRank_positive_zero": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "RHWeil.F1.boundaryRank_signed_iff": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "RHWeil.F1.unequalLength_residual": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "RHWeil.F1.cyclicDegrees_determinant": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "existing_admissions": "The existing Weil convergence and criterion admissions are not imported by these checked results."
+}

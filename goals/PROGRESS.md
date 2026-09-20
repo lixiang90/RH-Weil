@@ -1,5 +1,30 @@
 # 持续GOAL执行账本：20260909版重启
 
+## 当前执行：共同两位边界与虚类忘却已结算（2026-09-21）
+
+[413](../notes/413-f1-two-place-boundaries-and-virtual-class-collapse.md)从真实半局部空间的紧单位不变系数出发，
+构造四层及J⊂I⊂A的实际不变扩张。每个单边片自由proper，
+其螺旋商把秩一边界的指数连接像算成同一方向的−1，因此δ(r_p,r_q)=−(r_p+r_q)。
+全O本身并不proper，未假称为Hausdorff商的函数代数。
+
+K₀(I)由等秩之差生成，K₁(I)为Z²；实际矩阵投影全部为零，
+所以非零提升是单位化中的虚类，不是正投影。
+带参数核丛差提升当且仅当两秩相等，混合参数方向通过自然圆分裂处理。
+412的Hilbert悬挂还显式酉展开为共同bulk坐标上的L²(R)平移，
+但未把各p特有的截止或非proper的完整I表示混同。
+
+紧开上尾矩形基与两次PV给K₀(A)=0、K₁(A)=Z；
+完整六项序列证明K₀、K₁及参数化K₀的忘却映射均为零。
+范围只含两有限位、实非零的明定径向代数。
+若把可提升差直接当作主关系，真实局部迹仍有非零检验；
+普通K消失没有解决固定双矩、完整B或几何主除子。
+
+[七项Lean检查](../formal/checks/boundary-gluing-verification.json)通过4.32.2，无sorryAx；
+22份项目源码、十处旧admission和历史报告保持，未重建全F1。
+必要来源与全文逆审完整保存。下一项为[实际边界酉元与相对读出](../reviews/2026-09-21/f1-deep-boundary-unitary-next-proof-plan.md)。
+根GOAL按旧字节归档，第十节全部保持。上一批已精确推送[a927d63](https://github.com/lixiang90/RH-Weil/commit/a927d63890764e8701e8365846f1d3475f470772)；
+本批以实际远端核验为准。Goal保持active，未达长期完成标准。
+
 ## 当前执行：横向压缩与完整有限位周期迹已结算（2026-09-21）
 
 [412](../notes/412-f1-transverse-compression-and-periodic-traces.md)从Q_p加法Haar空间、实际酉缩放与紧单位平均，

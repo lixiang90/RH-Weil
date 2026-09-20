@@ -1,5 +1,7 @@
 # 412后的有限任务：两个有限位的共同来源与边界粘合
 
+**结算更新（2026-09-21）**：[413](../../notes/413-f1-two-place-boundaries-and-virtual-class-collapse.md)已完成此任务的共同边界、连接及提升／忘却检验，独立复核闭环。实际主关系仍未构造，转入[双零边界酉元与相对读出](f1-deep-boundary-unitary-next-proof-plan.md)。下文保留原始任务及当时未证状态。
+
 2026-09-21。[O] 未证明候选，执行412之后的唯一主问题。
 [412](../../notes/412-f1-transverse-compression-and-periodic-traces.md)已经给实际单p横向Hilbert悬挂，
 有限秩压缩与原Fourier截止的完整有限部分相等。

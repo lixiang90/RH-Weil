@@ -197,3 +197,12 @@ Banach交叉积、谱半径、整数访问计数、边界表示及导出范畴�
 [运行报告](checks/transverse-trace-verification.json)与[源码清单](checks/transverse-trace-source-audit.json)记录范围；
 p进空间、Hilbert悬挂、trace-class、来源比较及K理论另由纸面审查，不在这些形式化内。
 当前21份项目Lean源码，原十处admission保持，未重建完整F1。
+
+## 413：两位连接映射的代数检查（2026-09-21）
+
+[BoundaryGluing.lean](F1/Analysis/BoundaryGluing.lean)的七项结果通过Lean4.32.2，无sorryAx。
+覆盖有限支平移不变必零、秩边界的核／满射／非负秩障碍、带符号等秩条件、
+不同长度残差及循环群两个加性次数的行列式为零。
+[报告](checks/boundary-gluing-verification.json)与[源码清单](checks/boundary-gluing-source-audit.json)保存实际范围；
+商拓扑、Morita、PV、Bott及完整K计算为纸面证明，不在这些形式化内。
+项目22份Lean源码，原十处admission及历史报告保持，未重建完整F1。

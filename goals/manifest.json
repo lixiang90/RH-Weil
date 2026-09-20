@@ -2,8 +2,15 @@
   {
     "workspace_path": "GOAL.20260909.md",
     "repository_path": "goals/GOAL.20260909.md",
+    "source_sha256": "9a84107bf2af044e751ccae182fe04a8e864144601080095510639794da73474",
+    "mirror_sha256": "354ed939de92e85892ea44f6d700d968ffd6a20e0a87687230ebcf82be0fbbe5",
+    "transformation": "local Markdown link rebasing only"
+  },
+  {
+    "workspace_path": "archive/GOAL.20260909.f1-before-two-place-gluing.md",
+    "repository_path": "goals/archive/GOAL.20260909.f1-before-two-place-gluing.md",
     "source_sha256": "c2d3f00cc41d545c21e85592bc95e45effc7ea35783d50c41e903b9eafe5159d",
-    "mirror_sha256": "76084554911702a14fdb74ebd9a2dd70826f2af24049a19c6b679e7183b2622a",
+    "mirror_sha256": "fb1b11a36f88e895b4b6fa37abdb893461c31fb424a53c0e714578fa08d659f6",
     "transformation": "local Markdown link rebasing only"
   },
   {
@@ -226,8 +233,8 @@
   {
     "workspace_path": "archive/README.md",
     "repository_path": "goals/archive/README.md",
-    "source_sha256": "86dbd248756702b0088778565db803cd876a97ec36d4f665c8ebb7aa3c38d14c",
-    "mirror_sha256": "86dbd248756702b0088778565db803cd876a97ec36d4f665c8ebb7aa3c38d14c",
+    "source_sha256": "aca196f4eeada6fc306ab4d0ad22119987e52cc60a5f1e241c5b6fcf757d334d",
+    "mirror_sha256": "aca196f4eeada6fc306ab4d0ad22119987e52cc60a5f1e241c5b6fcf757d334d",
     "transformation": "none"
   }
 ]

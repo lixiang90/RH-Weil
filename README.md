@@ -5,6 +5,16 @@
 面向具有大学二年级数学基础的读者：[F₁ 路线究竟要找什么，以及为什么足以推出 RH](docs/f1-route-from-undergraduate-math.md)。
 讲义从具体例子出发，给出精确条件与完整条件证明，并区分指定来源和自由存在性路线。
 
+## 当前研究状态：共同两位边界与虚类忘却（2026-09-21）
+
+最新结算：[413](notes/413-f1-two-place-boundaries-and-virtual-class-collapse.md)在同一来源中计算两个周期边界的连接映射。
+等秩之差能提升为虚类，但加入双零层后，其普通与带参数类均消失。
+这仍不是算术主关系：局部读出有明确非零检验。
+下一步构造[实际双零边界酉元及相对读出](reviews/2026-09-21/f1-deep-boundary-unitary-next-proof-plan.md)。
+[七项新Lean检查](formal/checks/boundary-gluing-verification.json)无sorryAx，
+完整拓扑与K理论另经独立复核。Goal保持active，主除子与RR仍开放。
+下方状态为历史快照，以看板顶部唯一队列为准。
+
 ## 当前研究状态：横向压缩与完整有限位周期迹（2026-09-21）
 
 最新结算：[412](notes/412-f1-transverse-compression-and-periodic-traces.md)构造实际p进压缩及trace-class周期算子。

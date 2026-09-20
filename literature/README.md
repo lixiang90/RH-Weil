@@ -1,6 +1,6 @@
 # RH-Weil 文献索引
 
-索引续记更新至2026-09-21；最新批次、范围和保存状态见文末。以下2026-09-09统计为历史快照。首批归档聚焦67.25%之后的零点比例进展及直接依赖（15份、220页）；后续原始版本与核读范围按轮次列在文末。当前本地共56份外部原始PDF、2139页，其中55份、2110页纳入Git保存；Schur扫描29页按来源封面要求仅本地保存，出处和哈希同步。获取失败单列。研究判断见 [305文献审计](../notes/305-post-6725-literature-baseline-audit.md)。
+索引续记更新至2026-09-21；最新批次、范围和保存状态见文末。以下2026-09-09统计为历史快照。首批归档聚焦67.25%之后的零点比例进展及直接依赖（15份、220页）；后续原始版本与核读范围按轮次列在文末。当前本地共57份外部原始PDF、2158页，其中56份、2129页纳入Git保存；Schur扫描29页按来源封面要求仅本地保存，出处和哈希同步。获取失败单列。研究判断见 [305文献审计](../notes/305-post-6725-literature-baseline-audit.md)。
 
 PDF按来源原样保存，未重排或改写；arXiv固定版本，GitHub固定提交，Zenodo固定记录。下载、全页PDF解析和校验值核验不等于数学证明认证。manifest中的SHA-256标识本次取得的精确字节，原站同一文件名后续变化时仍可区分。
 
@@ -959,3 +959,20 @@ Appendix II (9)、Lemma2–3核准导子Z_p的单位常值有限部分为零及�
 [完整来源审查](../reviews/2026-09-21/f1-transverse-trace-source-review.md)与
 [采纳复核](../reviews/2026-09-21/f1-transverse-trace-source-followup.md)保存。
 本轮无重复下载；本地56份2139页、Git55份2110页的统计不变。
+
+## 2026-09-21：413两位边界的指数、Morita与圆参数来源
+
+新增 **BGR-1977-stable-morita**，Lawrence G. Brown、Philip Green、Marc A. Rieffel，
+*Stable isomorphism and strong Morita equivalence of C*-algebras*，
+Pacific Journal of Mathematics 71(2) (1977), 349–363。
+[本地原件](f1/brown-green-rieffel-morita-1977.pdf)；
+[出版社原件](https://msp.org/pjm/1977/71-2/pjm-v71-n2-p06-s.pdf)。
+完整PDF19页、1901330字节，含封面、正文15页及刊物尾页；未裁切原件。
+SHA256：d2b64846c0dd59668f261782ae832df1bb7dad15479d5bb5c2e7aeec37fd19c8。
+独立来源核读PDF2–5，Theorem1.1–1.2给linking满角与稳定同构；主线程另视觉核对PDF3。
+理想／商／边界相容性另由linking扩张及连接自然性推出，不冒称原文逐字结论。
+
+既有Blackadar原件增量核读PDF42–43、45、62、73–82、87、126–127、143–144、203、205、231–234，
+视觉78、82。覆盖指数边界正号、明确Bott方向、自然圆分裂、零维AF、K连续性和PV。
+[完整来源审查](../reviews/2026-09-21/f1-two-place-source-review.md)限定实际核读与推论范围，未认证整书或全文。
+当前本地57份2158页，Git56份2129页；Schur29页仍仅本地。
