@@ -680,7 +680,7 @@ The Stacks Project Authors，*Commutative Algebra*，版本 **ed88ff78，2026-07
 469页，2,828,052字节，SHA-256为 `b035a1f02104906a1820636cd332a0d7962fef3318d207a056634cb14dc86947`。
 仅核读标题、版本及PDF415页的Lemma153.7；用于[395](../notes/395-f1-geometric-measure-principal-quotient.md)
 的Hensel剩余扩张论证，没有认证整章。PDF已随[276f674](https://github.com/lixiang90/RH-Weil/commit/276f6741555999891413ec4cf1f14be3a04d2f75)
-保存GitHub；已校验C盘临时副本，H盘设备未就绪，向H盘同步尚待核验。
+保存GitHub；现已核验远端PDF blob及同步至H盘的本地原件，字节／SHA256均一致。
 文献原件及补充材料的历史累计数由90增至91（包含此前仅本地保存的原件），不等于91份全部都在Git中。
 
 CC2015 *Geometry of the arithmetic site* 的既有

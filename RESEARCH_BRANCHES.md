@@ -8,7 +8,7 @@
 | 顺序 | 任务 | 验收与切换 |
 |---|---|---|
 | 已结算 | 旧周期13的iteration-10冻结候选：[364完整验收](notes/364-frozen-integer-candidate-verification.md) | 6237815186边全扫描，13755190失败；最坏边320位真实标量缺口仍严格为正。只排除该表的同word／前缀充分条件 |
-| 当前主线 | F1-EX1：[396](notes/396-f1-flat-line-enhancement-and-cartier-pullback.md)完成实际平坦增强、特征截面拉回及丛值根测度推前，独立复核通过 | 按[有限范数任务](reviews/2026-09-20/f1-finite-norm-next-proof-plan.md)补齐任意生成元／主差的推前不变性，再接真正平方对应。395的一维主商障碍仍在；完整G3–G8及固定ζ未实现 |
+| 当前主线 | F1-EX1：[396](notes/396-f1-flat-line-enhancement-and-cartier-pullback.md)的平坦测度接口与[397](notes/397-f1-finite-norm-and-principal-pushforward.md)的全部主推前、代数主商作用均已独立复核 | 按[对角周期平方任务](reviews/2026-09-20/f1-diagonal-quotient-square-next-proof-plan.md)构造真实双变量几何并检验无限层幂图的Cartier地位。395的一维主商障碍保持；完整双次数／交叉／ζ尚未实现 |
 | 必要辅助 | 经典Lean缺口、原始文献及只读独立复核 | 26项既有检查与十个sorry为当前基线；形式化通过不替代实际算术存在性 |
 
 [任务单](goals/NEXT.20260909.md)与[账本](goals/PROGRESS.md)维护当前状态。
