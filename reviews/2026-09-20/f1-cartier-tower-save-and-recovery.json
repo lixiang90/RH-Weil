@@ -1,0 +1,229 @@
+{
+  "verified_at_utc": "2026-09-20T10:28:22.664894+00:00",
+  "scope": "Exact 400-401 save and local Git object recovery; no new mathematical certification",
+  "remote_save": {
+    "head": "4a7abd7f51d0bff9c427940a9e6e431933dc7bbf",
+    "remote_main": "4a7abd7f51d0bff9c427940a9e6e431933dc7bbf",
+    "origin_main": "4a7abd7f51d0bff9c427940a9e6e431933dc7bbf",
+    "tree": "9de5e2f1c5f243c893304ae6ad8cc150f4af73fb",
+    "parent": "23b47a68c8c132bccfb6ebe65d9090804bf1ebbc",
+    "git_warning_lines": [],
+    "saved_at_utc": "2026-09-20T10:08:12.833050+00:00"
+  },
+  "remote_rechecked": "4a7abd7f51d0bff9c427940a9e6e431933dc7bbf",
+  "git_recovery": {
+    "fsck": {
+      "checked_at_utc": "2026-09-20T10:21:08.231417+00:00",
+      "command": "git fsck --full --no-dangling",
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "",
+      "restored_objects": 26,
+      "last_round": 8
+    },
+    "quarantine": [
+      {
+        "source": "H:\\codex-build\\RH\\RH-Weil\\.git\\objects\\pack\\pack-0a51f9b032c84e4add0fb064131b29c1daad8d0f.idx",
+        "destination": "H:\\codex-build\\RH\\archive\\f1-400-empty-pack-quarantine\\pack-0a51f9b032c84e4add0fb064131b29c1daad8d0f.idx",
+        "bytes": 36212,
+        "sha256": "9719df24756d1f4842041579a9ae51d22c4542f7be097a1020d086afb3f3c3ac"
+      },
+      {
+        "source": "H:\\codex-build\\RH\\RH-Weil\\.git\\objects\\pack\\pack-0a51f9b032c84e4add0fb064131b29c1daad8d0f.pack",
+        "destination": "H:\\codex-build\\RH\\archive\\f1-400-empty-pack-quarantine\\pack-0a51f9b032c84e4add0fb064131b29c1daad8d0f.pack",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ],
+    "objects": [
+      {
+        "kind": "commit",
+        "sha": "97b02a2e13bf26ad2311f09de8021299e7ffcc3f",
+        "restored_in_previous_call": true,
+        "raw_object_sha_verified": true
+      },
+      {
+        "kind": "commit",
+        "sha": "228a6d29c6ddf74bbf608ef6628a2db24099b643",
+        "restored_in_previous_call": true,
+        "raw_object_sha_verified": true
+      },
+      {
+        "kind": "tree",
+        "sha": "f84b0591571fd46d37a7c8e7857dd6bfd99fe685",
+        "restored_in_previous_call": true,
+        "raw_object_sha_verified": true
+      },
+      {
+        "kind": "tree",
+        "sha": "e5694a5931c5afa67dd9062e5be9e3469824ebdc",
+        "restored_in_previous_call": true,
+        "raw_object_sha_verified": true
+      },
+      {
+        "kind": "blob",
+        "sha": "4fc59863ad393e9acb91a1f9d5f573c0806ddfa4",
+        "bytes": 231173,
+        "source": "GitHub Git data API",
+        "raw_object_sha_verified": true
+      },
+      {
+        "kind": "blob",
+        "sha": "dc58d1b4aea25fd0f34100308aabec82d6b376a5",
+        "bytes": 161262,
+        "source": "GitHub Git data API",
+        "raw_object_sha_verified": true
+      },
+      {
+        "kind": "blob",
+        "sha": "469fff117e2e060dbbfefbddfb1efbff6f09fa6f",
+        "bytes": 76399,
+        "source": "GitHub Git data API",
+        "raw_object_sha_verified": true
+      },
+      {
+        "kind": "blob",
+        "sha": "b1e0a3d9edf49867a52d699d662409f580856945",
+        "bytes": 231455,
+        "source": "GitHub Git data API",
+        "raw_object_sha_verified": true
+      },
+      {
+        "kind": "blob",
+        "sha": "af241d1b2ceadc17192ac2767b2d47a9de4f20f4",
+        "bytes": 20275,
+        "source": "GitHub Git data API",
+        "raw_object_sha_verified": true
+      },
+      {
+        "kind": "blob",
+        "sha": "67ea9cb76241d27ca75c327937733478240fb12b",
+        "bytes": 231689,
+        "source": "GitHub Git data API",
+        "raw_object_sha_verified": true
+      },
+      {
+        "kind": "blob",
+        "sha": "bbf5e0cc0090db44f1fb4aa25d54b9ebbd20606f",
+        "bytes": 161332,
+        "source": "GitHub Git data API",
+        "raw_object_sha_verified": true
+      },
+      {
+        "kind": "tree",
+        "sha": "794d0baebcaa3687ec6cc7af387919a88cb13767",
+        "bytes": 725,
+        "source": "GitHub Git data API",
+        "raw_object_sha_verified": true
+      },
+      {
+        "kind": "commit",
+        "sha": "09e52b5438856f83909fbf4ad827e25f79442de2",
+        "bytes": 328,
+        "source": "GitHub Git data API",
+        "raw_object_sha_verified": true
+      },
+      {
+        "kind": "tree",
+        "sha": "ed7dd70ba5fe335a094c00ad560dbd37db784836",
+        "bytes": 558,
+        "source": "GitHub Git data API",
+        "raw_object_sha_verified": true
+      },
+      {
+        "kind": "commit",
+        "sha": "f156d8f3d1f92012e2fc45bd6ee2eb679dfe2892",
+        "bytes": 327,
+        "source": "GitHub Git data API",
+        "raw_object_sha_verified": true
+      },
+      {
+        "kind": "tree",
+        "sha": "1c1787dd37c3d275c5505491e5a689ef21fecb07",
+        "bytes": 725,
+        "source": "GitHub Git data API",
+        "raw_object_sha_verified": true
+      },
+      {
+        "kind": "tree",
+        "sha": "7ab69e3ae9cd6212ad4c9f31218643aafaddd6bf",
+        "bytes": 1284,
+        "source": "GitHub Git data API",
+        "raw_object_sha_verified": true
+      },
+      {
+        "kind": "tree",
+        "sha": "902239c1ce0f37ac2f83632b1c80745efe9e9190",
+        "bytes": 725,
+        "source": "GitHub Git data API",
+        "raw_object_sha_verified": true
+      },
+      {
+        "kind": "commit",
+        "sha": "0c25977b1ff9fb2de7403b6d442f1d94bfbdb90c",
+        "bytes": 334,
+        "source": "GitHub Git data API",
+        "raw_object_sha_verified": true
+      },
+      {
+        "kind": "tree",
+        "sha": "90c36a40d4a11d160a51472c535093b0b7784a23",
+        "bytes": 725,
+        "source": "GitHub Git data API",
+        "raw_object_sha_verified": true
+      },
+      {
+        "kind": "commit",
+        "sha": "cfdb5ea33aadef883808f5c28e2b43c5ab38f237",
+        "bytes": 323,
+        "source": "GitHub Git data API",
+        "raw_object_sha_verified": true
+      },
+      {
+        "kind": "commit",
+        "sha": "0ddd83e532360983071a336e2d7a73a41b5c36f2",
+        "bytes": 329,
+        "source": "GitHub Git data API",
+        "raw_object_sha_verified": true
+      },
+      {
+        "kind": "tree",
+        "sha": "6a2309887bb26a8dd6340afb0c6b4e847facb42c",
+        "bytes": 725,
+        "source": "GitHub Git data API",
+        "raw_object_sha_verified": true
+      },
+      {
+        "kind": "tree",
+        "sha": "bc16408a0ec2024a5f71a4ccc5c9393823657087",
+        "bytes": 725,
+        "source": "GitHub Git data API",
+        "raw_object_sha_verified": true
+      },
+      {
+        "kind": "tree",
+        "sha": "0f72630ca2e1092b4df1c71f654759107c97f48d",
+        "bytes": 296,
+        "source": "GitHub Git data API",
+        "raw_object_sha_verified": true
+      },
+      {
+        "kind": "tree",
+        "sha": "64e96ca87cf06ec78e306b06cab2bb3236cb04dc",
+        "bytes": 484,
+        "source": "GitHub Git data API",
+        "raw_object_sha_verified": true
+      }
+    ],
+    "refs_or_history_changed_by_repair": false,
+    "cause": "not determined"
+  },
+  "four_unrelated_files_unchanged": {
+    "reviews/2026-09-08/control-prefix-curvature-budget.json": "cc5c7e5f58f9057c5fb2dc38d22fa878c260a9ade964e651d3dbe1e588f9cda8",
+    "reviews/2026-09-08/radius-five-continuous-period-pressure.json": "1c27b0bc1c4c635b4ed2fbf40d9378bc9c1089afe56a36313d2f6e5b8a031e25",
+    "scripts/control_prefix_curvature_budget.py": "59842cf32a2446a6558a38c731adc3e724eefd17398d3a6321e3b071aa7988bf",
+    "scripts/radius_five_continuous_period_pressure.py": "7fac1a13e9652cb1187abb958de833043b2d9ac91f06484f887108f07e5c5cb6"
+  },
+  "preserved_stash": "af5ca5764ffc36d182b8cd9c03565a803570e000",
+  "goal_status": "active"
+}

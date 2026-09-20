@@ -730,3 +730,15 @@ PDF4页Theorem6与唯一性证明、PDF5页代数扩张说明，3–4页另渲�
 采用的是pro态射的lim-colim定义、逐层代表及共尾等价，不由此导入一般pro层的有效下降。
 本轮[400](../notes/400-f1-cartier-tower-limit-and-stalk-defect.md)的解析逆极限和取茎失配是另行推导的限定命题。
 原PDF字节和SHA256未变，文献数量不增加。
+
+
+## 2026-09-20续记：402内在FF对角草稿的原文核读
+
+复用[Fargues–Fontaine原件](f1/ff-courbe-author-20260910.pdf)，
+核对一般F中θ满射、次数一untilt点、实际剩余域及scheme局部完成：
+§1.1/PDF64，3.1.9/PDF148–149，3.1.11/PDF149–150，3.3.1/PDF153，§3.4.1/PDF154及7.3.3/PDF277–278。
+整页渲染并视觉核对148、149、153、154、278；采用所列[R]输入，不声称重审整书依赖。
+复用[Stacks Algebra原件](f1/stacks-algebra-ed88ff78-20260920.pdf)，
+新增核读PDF331–333的微分商正合列及对角余法模（00RU、00RW），视觉核对331与333。
+两份PDF的SHA256与既有manifest一致，没有新下载。
+数学应用见[402草稿](../notes/402-f1-intrinsic-ff-diagonal-conormal-obstruction.md)，独立复核尚待完成。

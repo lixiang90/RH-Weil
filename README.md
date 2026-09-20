@@ -69,7 +69,8 @@ pro塔却非本质常值，原未层化Čech下降又缺统一源层；独立复
 [401](notes/401-f1-dual-cartier-ideal-and-reflexive-collapse.md)从对偶直接极限构造可实际下降的非闭理想层，
 但它在图点不局部有限生成，仍不能充当通常Cartier除子。
 下一项是[内在FF曲线的普通平方与对角准入](reviews/2026-09-20/f1-intrinsic-ff-diagonal-next-proof-plan.md)，
-首先核对untilt点的实际剩余域和代数余法模；完整τ、交叉及固定ζ比较仍开放。
+[402草稿](notes/402-f1-intrinsic-ff-diagonal-conormal-obstruction.md)已核对untilt点的实际剩余域，
+并给普通Q_p平方对角理想非有限生成的证明，独立复核待完成；完整τ、交叉及固定ζ比较仍开放。
 候选容器非空仍不意味着全部算术条件有实例。
 [任务单](goals/NEXT.20260909.md)给出顺序。
 尚无新的RH或无条件比例结论；完整验收与较远期显著进展分开。

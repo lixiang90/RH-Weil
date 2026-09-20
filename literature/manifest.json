@@ -1289,6 +1289,11 @@
           "date": "2026-09-13",
           "scope": "McClintock核查377所用的一般E定义、乘法、完成相容及紧轮廓稳定性，准确页码见377独立报告。",
           "report": "../reviews/2026-09-13/f1-ramified-tower-independent-review.md"
+        },
+        {
+          "date": "2026-09-20",
+          "scope": "402草稿：增量核读一般F的θ满射与次数一核（3.1.9/PDF148–149）、3.1.11/PDF149–150、3.3.1/PDF153、§3.4.1/PDF154及7.3.3/PDF277–278；核对§1.1/PDF64前提。PDF148、149、153、154、278已整页渲染并视觉检查。采用原文[R]输入，未重新证明全书依赖。",
+          "review_note": "../notes/402-f1-intrinsic-ff-diagonal-conormal-obstruction.md"
         }
       ]
     },
@@ -1698,7 +1703,14 @@
       "read_scope": "Lemma153.7/tag04GK（PDF415）：Hensel局部环的有限étale代数与剩余域有限étale代数对应。用于395的首一可分二次剩余多项式提升；未核审整章。",
       "local_sync_status": "已同步至H盘literature，原件2,828,052字节及SHA256核验通过；同时核验远端97b02a2e提交中的PDF blob。",
       "review_note": "../notes/395-f1-geometric-measure-principal-quotient.md",
-      "local_synced_checkpoint": "7091cb80b1c49c71e76658198c28d5221f0a2727"
+      "local_synced_checkpoint": "7091cb80b1c49c71e76658198c28d5221f0a2727",
+      "reading_updates": [
+        {
+          "date": "2026-09-20",
+          "scope": "402草稿：增量核读PDF331–333的微分商正合列、局部化及对角余法模，重点Lemma131.9/tag00RU、131.13/tag00RW；PDF331与333已整页渲染并视觉检查。复用原PDF，未下载新版本。",
+          "review_note": "../notes/402-f1-intrinsic-ff-diagonal-conormal-obstruction.md"
+        }
+      ]
     },
     {
       "id": "Scholze-perfectoid-spaces-20111119",

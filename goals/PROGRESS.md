@@ -17,13 +17,20 @@ Lagrange的[独立逆审](../reviews/2026-09-20/f1-cartier-tower-independent-rev
 先核实untilt给出的scheme点及其实际剩余域，再检验普通Q_p平方中对角的代数余法模。
 不先假定FF曲线的普通平方是光滑曲面，也不将普通代数微分与连续微分混同。
 这是更换具体几何来源后的准入测试，不降低G0—G8或GOAL第十节B/C。
+[402草稿](../notes/402-f1-intrinsic-ff-diagonal-conormal-obstruction.md)现已核对一般F的原始剩余域定理，
+并给出普通Q_p平方对角理想非有限生成的证明；独立复核待完成，尚不计为已验收结论。
+另已按用户要求启用独立代理Harvey，复查整体候选空间及不同替代构造，报告待回。
 
 复用已归档Stacks Categories PDF33–34，增量核读与渲染范围已保存，没有重复下载。
 中断后发现旧Stacks Algebra PDF及一份历史目标源文件为0字节，已保留现场并按HEAD／原SHA256准确恢复。
 目标同步脚本已增加全部源文件的写前非空检查，防止空源覆盖完整镜像。
 原因未确定，未归因于用户或代理。本轮不重跑旧数值扫描或Lean。
 上一批399已精确同步至GitHub提交[23b47a6](https://github.com/lixiang90/RH-Weil/commit/23b47a68c8c132bccfb6ebe65d9090804bf1ebbc)。
-本批保存以实际提交／远端核验为准；Goal继续active，较远期目标尚未实现。
+400–401及相关修订已精确同步至GitHub提交[4a7abd7](https://github.com/lixiang90/RH-Weil/commit/4a7abd7f51d0bff9c427940a9e6e431933dc7bbf)，本地HEAD／origin/main／远端main一致。
+随后隔离发现为空的旧Git pack及其索引，并从GitHub按原对象SHA恢复26个历史对象；
+`git fsck --full --no-dangling`完整检查通过。未改写历史，四份既有实验文件与旧stash保留。
+详见[保存与恢复证据](../reviews/2026-09-20/f1-cartier-tower-save-and-recovery.json)；文件变空的原因仍未确定。
+Goal继续active，较远期目标尚未实现。
 
 ## 399结算时的执行快照（2026-09-20）
 
