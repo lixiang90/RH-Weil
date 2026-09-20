@@ -17,6 +17,7 @@ ROOT = Path(__file__).resolve().parents[1]
 WORKSPACE = ROOT.parent
 FILES = (
     "GOAL.20260909.md",
+    "archive/GOAL.20260909.f1-geometric-quotient.md",
     "archive/GOAL.20260909.f1-real-scales.md",
     "archive/GOAL.20260909.f1-periodic.md",
     "archive/GOAL.20260906.md",

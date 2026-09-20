@@ -2,8 +2,15 @@
   {
     "workspace_path": "GOAL.20260909.md",
     "repository_path": "goals/GOAL.20260909.md",
+    "source_sha256": "f78f1d7543b02c69b137036da2c57a7f69e4e0d281d14be3dbaa0b5b6b4e8b8a",
+    "mirror_sha256": "92780f5cb32e7e9debe6326db3dd8117e3fcc00c4461b93be51e874439e305fd",
+    "transformation": "local Markdown link rebasing only"
+  },
+  {
+    "workspace_path": "archive/GOAL.20260909.f1-geometric-quotient.md",
+    "repository_path": "goals/archive/GOAL.20260909.f1-geometric-quotient.md",
     "source_sha256": "38dd2395907ad0753224b8500524af11c39a8c9eacd7629e44622f151d51814f",
-    "mirror_sha256": "88ec2a08fb4bb517a5174d596f7c00d4e4f932021eb140e307e42a175f93107d",
+    "mirror_sha256": "e4b5a8e1c58721c306b63933713cf4f19f3603564005129a9753b01168277823",
     "transformation": "local Markdown link rebasing only"
   },
   {
@@ -128,8 +135,8 @@
   {
     "workspace_path": "archive/README.md",
     "repository_path": "goals/archive/README.md",
-    "source_sha256": "f8d9f0f1267f1a358a7a1ed15c95a751bd539543d2dfa79d39f5573d3732150b",
-    "mirror_sha256": "f8d9f0f1267f1a358a7a1ed15c95a751bd539543d2dfa79d39f5573d3732150b",
+    "source_sha256": "937f25ade59f6c99eaabdbeaabd2594b8dc39f13e1eca45d4e9b0147b986413a",
+    "mirror_sha256": "937f25ade59f6c99eaabdbeaabd2594b8dc39f13e1eca45d4e9b0147b986413a",
     "transformation": "none"
   }
 ]
