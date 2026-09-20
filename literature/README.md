@@ -1,6 +1,6 @@
 # RH-Weil 文献索引
 
-索引续记更新至2026-09-20；最新批次、范围和保存状态见文末。以下2026-09-09统计为历史快照。首批归档聚焦67.25%之后的零点比例进展及直接依赖（15份、220页）；后续原始版本与核读范围按轮次列在文末。当前本地共50份外部原始PDF、1676页，其中49份、1647页纳入Git保存；Schur扫描29页按来源封面要求仅本地保存，出处和哈希同步。获取失败单列。研究判断见 [305文献审计](../notes/305-post-6725-literature-baseline-audit.md)。
+索引续记更新至2026-09-21；最新批次、范围和保存状态见文末。以下2026-09-09统计为历史快照。首批归档聚焦67.25%之后的零点比例进展及直接依赖（15份、220页）；后续原始版本与核读范围按轮次列在文末。当前本地共55份外部原始PDF、2113页，其中54份、2084页纳入Git保存；Schur扫描29页按来源封面要求仅本地保存，出处和哈希同步。获取失败单列。研究判断见 [305文献审计](../notes/305-post-6725-literature-baseline-audit.md)。
 
 PDF按来源原样保存，未重排或改写；arXiv固定版本，GitHub固定提交，Zenodo固定记录。下载、全页PDF解析和校验值核验不等于数学证明认证。manifest中的SHA-256标识本次取得的精确字节，原站同一文件名后续变化时仍可区分。
 
@@ -875,3 +875,50 @@ p^Z箭头子群胚中的闭不变限制另有合法比较图表，但未证明�
 须明说正代表选择，409因此保留全部正负重数。
 新核分类与热界由[409](../notes/409-f1-boundary-prime-power-kernels-and-heat-defects.md)
 直接推导，不冒称原文已证明，也不将指定页核读称为全文认证。
+
+## 2026-09-21：群胚Morita等价原始文献（410）
+
+**MRW-1987 — Equivalence and isomorphism for groupoid C*-algebras**
+
+Paul S. Muhly、Jean N. Renault、Dana P. Williams；
+Journal of Operator Theory 17 (1987), 3–22。
+[出版社页面](https://jot.theta.ro/jot/archive/1987-017-001/1987-017-001-001.html)；
+[原始PDF](https://jot.theta.ro/jot/archive/1987-017-001/1987-017-001-001.pdf)；
+[本地扫描件](f1/mrw-groupoid-equivalence-1987.pdf)：20页，876225字节。
+SHA-256：16723f6b3b3d90f220a4bc0814ed8374817ae2025c8eef9822f520a8da7b6629。
+主线程已核对首页及出版信息，并解析全部页数；扫描件无文本层。
+下载与首页核对不表示认证全文证明；410实际引用范围以独立来源审计为准。
+
+## 2026-09-21：C*完成与边界K理论的其余原件（410）
+
+**RW-2015-amenability-v1 — Amenability of groupoids arising from partial semigroup actions and topological higher rank graphs**
+
+Jean N. Renault; Dana P. Williams；arXiv:1501.03027v1; 2015-01-13。
+[来源](https://arxiv.org/abs/1501.03027v1)；[原始PDF](https://arxiv.org/pdf/1501.03027v1)；[本地PDF](f1/renault-williams-amenability-1501.03027v1.pdf)。
+27页，360,094字节；SHA-256：53a8462dc9cbcc510cf855a2449096473740e5eb3bd7f2863f1c6e1ecfc7c0df。
+核读范围：Laplace read PDF9–11, especially Corollary4.5 on p.11; no complete-paper certification. Main verified title/version metadata and parsed every PDF page.
+
+**SW-2010-reduced-equivalence-v2 — Renault’s Equivalence Theorem for Reduced Groupoid C*-algebras**
+
+Aidan Sims; Dana P. Williams；arXiv:1002.3093v2; 2010-07-13; actual PDF15 pages。
+[来源](https://arxiv.org/abs/1002.3093v2)；[原始PDF](https://arxiv.org/pdf/1002.3093v2)；[本地PDF](f1/sims-williams-reduced-equivalence-1002.3093v2.pdf)。
+15页，239,328字节；SHA-256：892ebec6e5ce36b87e25c7fc8a97f7dd56f2af902902b6c13f1daab498f11ca5。
+核读范围：Laplace read PDF10–12, Theorem13 on p.10; current unversioned arXiv PDF identified as v2 by submission history. Main verified title/version metadata and parsed every PDF page.
+
+**Sims-2017-groupoids-v1 — Hausdorff etale groupoids and their C*-algebras**
+
+Aidan Sims；Author PDF dated 2017-10-31; cover identifies arXiv:1710.10897v1。
+[来源](https://arxiv.org/abs/1710.10897v1)；[原始PDF](https://aidansims.com/papers/Sims2017.pdf)；[本地PDF](f1/sims-hausdorff-etale-groupoids-2017.pdf)。
+61页，661,582字节；SHA-256：cdb759c15de23e3d314cac018475b625fa6ae4e6d4a9802fbb1dcd90eb2e5542。
+核读范围：Laplace read PDF26–34,38–39 and bibliography locations: Theorem4.1.4 printed28/PDF32; Proposition4.3.2 printed34–35/PDF38–39. Author PDF title says arXiv1710.10897v1. Main verified title/version metadata and parsed every PDF page.
+
+**Blackadar-K-theory-author-book6 — K-Theory for Operator Algebras**
+
+Bruce Blackadar；Author-hosted book6.pdf; exact snapshot retrieved 2026-09-21 local date。
+[来源](https://bruceblackadar.com/Mathematics/book6.pdf)；[原始PDF](https://bruceblackadar.com/Mathematics/book6.pdf)；[本地PDF](f1/blackadar-k-theory-author-book6.pdf)。
+314页，1,562,151字节；SHA-256：a20e676e9d400ebcd0cd07c13fbdbe1fac759a30c739fab23d6161ecfb1a23fb。
+核读范围：Laplace read PDF76–78,81–83; located nuclearity clauses PDF143–144. Definition8.3.1 and §8.3.2 printed62–63, Theorem9.3.1 printed67–68. No whole-book certification. Main verified title/version metadata and parsed every PDF page.
+
+五份新原件共437页。Sims–Williams网页摘要写14页，实际固定v2解析为15页，按原件登记。
+MRW的独立核读补充为PDF4–9，定理2.8在PDF8；未认证整篇证明。
+准确图表、逐项定理前提及参数单位化见[完整来源审计](../reviews/2026-09-21/f1-boundary-k-class-source-review.md)。

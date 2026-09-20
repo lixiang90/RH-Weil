@@ -95,3 +95,11 @@ vendor8包806文件逐字节及Git跟踪核准，旧报告未覆盖。
 [源码清单](boundary-resolvent-source-audit.json)含18份项目Lean源码及原十处admission，
 vendor仍为8包806文件。算子范数收敛、无限直和、热迹、实际几何与RH不在本次形式化范围。
 历史完整构建与先前定向报告均保留。
+
+## 2026-09-21 BoundaryClutch定向检查
+
+[报告](boundary-clutch-verification.json)、[编译输出](boundary-clutch-build.txt)、
+[公理输出](boundary-clutch-axioms.txt)及[入口](BoundaryClutchAudit.lean)
+记录五项通过的代数检查，无sorryAx。
+[源码清单](boundary-clutch-source-audit.json)包含19份项目Lean源码，原十处admission，
+vendor八包806文件原样保留。旧报告不覆盖；连续性、绕数和K理论未由这些引理形式化。

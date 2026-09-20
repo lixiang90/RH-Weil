@@ -1,5 +1,11 @@
 # 409后的有限任务：实际p幂子群胚与指数族比较
 
+结算：本任务已由[410](../../notes/410-f1-boundary-kernel-bundles-and-relative-k-classes.md)及
+[全文逆审](../2026-09-21/f1-boundary-k-class-mathematical-review.md)完成。
+得到真实连续核丛及J_p扩张中的非零边界K类，其保留参数的ambient K_0像及逐参数像均为0。
+当前转入[完整有理群胚的相对边界类](../2026-09-21/f1-full-rational-boundary-next-proof-plan.md)。
+以下保留当时任务，实零端点自由性措辞更正明确附记。
+
 2026-09-20。[O] 409结算后的唯一数学主问题。
 依据[409](../../notes/409-f1-boundary-prime-power-kernels-and-heat-defects.md)的完整核分类和
 [Laplace来源审计](f1-boundary-defect-source-review.md)，
@@ -23,7 +29,9 @@ V_p=Y_p∩U_p，barV_p=barY_p∩U_p。
 此处右侧是缩减群胚，不能将p作用说成barV_p上的全局作用。
 原G(p)直接限制到Y_p或barY_p不保乘法：被删去的ell箭头可与逆箭头复合返回。
 KMS零温极限及基态压缩同样不自动给代数同态。
-barY_p的实零端点有非平凡各向同性，并非CCM的经典无穷位。
+barY_p的实零端点上Γ作用自由但不proper，并非CCM的经典无穷位。
+2026-09-21更正：原任务单误写“非平凡各向同性”；在K_p上p^k u=u强迫k=0，
+不proper来自无限群作用于非空紧不变端点，不来自稳定子。全有限分量也为0的原点另论。
 
 ## 唯一待证主问题
 

@@ -1,0 +1,49 @@
+{
+  "status": "passed_no_sorry_dependencies",
+  "checked_at_utc": "2026-09-20T16:05:50.774299+00:00",
+  "lean_version": "Lean (version 4.32.2, x86_64-w64-windows-gnu, commit f3b06c705e6c85f5314019d5d3baab0fec5b580c, Release)",
+  "mathlib_revision": "905b95818eb32af7874a58b427f50c1711a5e96c",
+  "cache_backup": ".lake\\hdd-backup-05156b5b",
+  "runtime_dir": "C:\\Users\\A\\AppData\\Local\\Temp\\rh-weil-local-trace-20260920",
+  "scope": "Five algebraic checks of shift transport, phase, weighted permutation determinant and bounded integer drift. No continuity, winding number, Fredholm, Morita, K-theory or full F1 build is formalized.",
+  "commands": [
+    {
+      "source": "F1/Analysis/BoundaryClutch.lean",
+      "exit_code": 0
+    },
+    {
+      "source": "checks/BoundaryClutchAudit.lean",
+      "exit_code": 0
+    }
+  ],
+  "source_sha256": {
+    "F1/Analysis/BoundaryClutch.lean": "803d7590065fd1c069897d3287c62eb9062fcac318a1fe36058e768e453db4e6",
+    "checks/BoundaryClutchAudit.lean": "44800203a8155ec55a0e9cc6c628d8c599e4c94b8d2268900ef89021448a1500"
+  },
+  "axioms": {
+    "RHWeil.F1.stepWeighted_transport": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "RHWeil.F1.geometricPhase_transport": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "RHWeil.F1.weightedPermutation_det": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "RHWeil.F1.iterate_unitDrift": [
+      "propext",
+      "Quot.sound"
+    ],
+    "RHWeil.F1.no_bounded_unitDrift": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  "existing_admissions": "The existing Weil convergence and criterion admissions are not imported by these checked results."
+}

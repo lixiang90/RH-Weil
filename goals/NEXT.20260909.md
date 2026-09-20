@@ -1,5 +1,16 @@
 # 20260909版重启任务单
 
+## 唯一当前任务（2026-09-21，410结算）
+
+执行[完整有理群胚中的相对边界类](../reviews/2026-09-21/f1-full-rational-boundary-next-proof-plan.md)。
+[410](../notes/410-f1-boundary-kernel-bundles-and-relative-k-classes.md)构造真实p轨道连续核丛：
+p^a给秩a，行列式过渡只含一次z^(-1)，实际边界扩张中有非零K类；
+其保留参数圆的ambient K_0像及逐参数像为0，完整Q×相对比较仍须检验。
+下一步使用整个实零超平面的G(p)不变扩张及真正闭不变实轴商，
+检查全部素数作用后的存活、符号重数、p区别与配对，而不重复非法经典轨道限制。
+五项BoundaryClutch Lean检查无sorryAx；纸面拓扑／K理论与形式化范围明确分开。
+下方当前任务均为历史快照；Goal继续active，第十节强度不改。
+
 ## 唯一当前任务（2026-09-20，409结算）
 
 执行[实际p幂子群胚与指数族比较](../reviews/2026-09-20/f1-boundary-index-family-next-proof-plan.md)。

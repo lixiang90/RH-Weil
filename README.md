@@ -5,7 +5,15 @@
 面向具有大学二年级数学基础的读者：[F₁ 路线究竟要找什么，以及为什么足以推出 RH](docs/f1-route-from-undergraduate-math.md)。
 讲义从具体例子出发，给出精确条件与完整条件证明，并区分指定来源和自由存在性路线。
 
-## 当前研究状态：F₁的Adelic限制关系与主除子准入（2026-09-20）
+## 当前研究状态：F₁核丛与实际相对边界类（2026-09-21）
+
+最新结算：[410](notes/410-f1-boundary-kernel-bundles-and-relative-k-classes.md)构造实际p幂核丛与非零边界K类。
+核秩随幂次增加，行列式周期过渡仅含一次相位绕转；可容许截断同伦保持其类。
+该相对类的保留参数圆的ambient K_0像及逐参数像为0，尚未给出算术主除子或完整Weil配对。
+下一步核查[完整Q×不变边界扩张](reviews/2026-09-21/f1-full-rational-boundary-next-proof-plan.md)中的类及其算术信息。
+[五项新Lean检查](formal/checks/boundary-clutch-verification.json)无sorryAx；
+连续性、绕数与K理论另有独立纸面审查。Goal保持active。
+下方旧状态以研究看板顶部唯一队列为准。
 
 最新结算：[409](notes/409-f1-boundary-prime-power-kernels-and-heat-defects.md)已独立全文逆审。
 在实际完整p边界表示中，|z|>1时核非零恰在p的正整数次幂；

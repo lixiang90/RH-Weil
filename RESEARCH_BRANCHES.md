@@ -1,18 +1,18 @@
 # 研究分支看板
 
-## 唯一当前队列（2026-09-20 完整边界缺陷与指数族）
+## 唯一当前队列（2026-09-21 完整有理群胚的相对边界）
 
-执行[GOAL.20260909.md](goals/GOAL.20260909.md)的研究目标，Goal保持active。
-既往空间审查及旧整数验证均已保存；下方较早的当前／暂停表述是历史记录。
+执行[GOAL.20260909.md](goals/GOAL.20260909.md)，Goal保持active。
+旧整数验证及此前空间审查已归档，下方历史状态不决定当前次序。
 
 | 顺序 | 任务 | 验收与切换 |
 |---|---|---|
-| 已结算 | 旧周期13的iteration-10冻结候选：[364完整验收](notes/364-frozen-integer-candidate-verification.md) | 6237815186边全扫描，13755190失败；只排除该表的同word／前缀充分条件 |
-| 当前主线 | F1-EX1：[409](notes/409-f1-boundary-prime-power-kernels-and-heat-defects.md)的实际完整核分类、素数幂支撑、热重数与β阈值已全文逆审 | 下一项[实际p幂子群胚与指数族比较](reviews/2026-09-20/f1-boundary-index-family-next-proof-plan.md)：建立连续族、周期／相位过渡及实际代数映射。完整D非Fredholm，算术权重、主关系与RR仍开放 |
-| 必要辅助 | Lean定向检查、原始文献及只读独立复核 | BoundaryResolvent新增四项无sorryAx；此前LocalTrace／TraceRadical各八项、UnitDescent四项、WeightedArrows九项、OrbitDecay四项及原26项记录保留。十处旧admission不变，未重建全F1 |
+| 已结算 | 旧周期13冻结候选：[364完整验收](notes/364-frozen-integer-candidate-verification.md) | 6237815186边全扫描，13755190失败；只排除指定充分条件 |
+| 当前主线 | F1-EX1：[410](notes/410-f1-boundary-kernel-bundles-and-relative-k-classes.md)的连续核丛及实际非零边界K类已独立审查 | 下一项[完整Q×相对边界](reviews/2026-09-21/f1-full-rational-boundary-next-proof-plan.md)：以整个实零超平面的不变扩张检测类，经实际实轴商核查全部素数与符号重数。原相对类的保留参数圆的ambient K_0像及逐参数像为0，主关系与RR仍开放 |
+| 必要辅助 | 原始文献、即时Lean和只读独立审查 | BoundaryClutch新增五项无sorryAx；此前定向检查及原26项记录、十处admission保持。未重建全F1 |
 
-[任务单](goals/NEXT.20260909.md)与[账本](goals/PROGRESS.md)维护当前状态。
-下方“暂停”“结构辅助”等不再决定当前任务次序。
+[任务单](goals/NEXT.20260909.md)与[账本](goals/PROGRESS.md)给当前动作。
+较早的当前／暂停／结构辅助表述均为历史记录。
 
 ## 重启前记录
 

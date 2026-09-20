@@ -81,3 +81,9 @@ SHA256：6012c718862223c992fff4a77e2eb455728765c06c005740a6d3beeb59c2fb4c。
 [GOAL.20260909.f1-before-boundary-defect.md](GOAL.20260909.f1-before-boundary-defect.md)保留409执行调整前原始字节。
 SHA-256：864c4c654288c0080acc7810387434d30a536f6f1d18dae9d86a516645387a90。
 第十节逐字不变，下一任务转入实际子群胚与连续指数族比较。
+
+## 边界核丛前快照（2026-09-21）
+
+[GOAL.20260909.f1-before-boundary-k-class.md](GOAL.20260909.f1-before-boundary-k-class.md)保留410执行调整前原始字节。
+SHA-256：88a54e9a5e5526273ecc0f4058b3d7c987b2a0674e0d819f261e5a36fed5da19。
+第十节逐字保持，当前任务转向完整有理群胚的相对边界类。

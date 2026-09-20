@@ -1,5 +1,24 @@
 # 持续GOAL执行账本：20260909版重启
 
+## 当前执行：核丛与实际非零边界K类已结算（2026-09-21）
+
+[410](../notes/410-f1-boundary-kernel-bundles-and-relative-k-classes.md)从原p幂箭头的合法源，
+构造全部Γ源纤维上的连续满射Fredholm族。p^a核秩a，周期框架的
+行列式为(−1)^(a−1)z^(-1)。在真实K_p悬挂上用有界整数绕数的漂移矛盾，
+证明行列式非平凡；无虚构周期圆截面。可容许φ同伦不改变类。
+
+真实J_p端点扩张的边界类Ξ_a被经典商的核丛检测为非零，
+包括来自参数标量环路的非零混合部分。忘记边界后，普通K_0像严格为0。
+这未成为完整G(p)的算术主除子；下一任务是[真正Q×不变相对扩张](../reviews/2026-09-21/f1-full-rational-boundary-next-proof-plan.md)。
+完整源码、独立来源审计及全文数学逆审保存于本轮reviews。
+旧任务单的端点描述已纠正：K_p上Γ作用自由但不proper，不是非平凡稳定子。
+
+[BoundaryClutch五项Lean检查](../formal/F1/Analysis/BoundaryClutch.lean)通过4.32.2，无sorryAx。
+项目19份Lean源码、原十处admission及旧报告保留，未重建全F1。
+必要原始文献归档并记录实际核读范围。根GOAL保存原字节，第十节保持。
+上一批已精确推送[4fd78e2](https://github.com/lixiang90/RH-Weil/commit/4fd78e22b76b3192fef6eabfd2065ce0e02c5605)；
+本批远端状态以实际核验为准。Goal保持active，尚未达到长期完成标准。
+
 ## 当前执行：完整边界的素数幂核与热缺陷已结算（2026-09-20）
 
 [409](../notes/409-f1-boundary-prime-power-kernels-and-heat-defects.md)在实际G(p)紧支箭头上，

@@ -167,3 +167,14 @@ Banach交叉积、谱半径、整数访问计数、边界表示及导出范畴�
 --entry F1.Analysis.BoundaryResolvent；可使用前述固定cache/runtime参数。
 [409](../notes/409-f1-boundary-prime-power-kernels-and-heat-defects.md)的无限直和、核维数、
 热迹及群胚解析内容未由这四条代数引理形式化，本轮未重建全F1。
+
+## 2026-09-21：周期过渡与有界整数漂移
+
+[BoundaryClutch.lean](F1/Analysis/BoundaryClutch.lean)新增五项实际Lean4.32.2检查：
+移位运输、一次相位因子、带权置换行列式、迭代整数漂移和有界性矛盾。
+[报告](checks/boundary-clutch-verification.json)无sorryAx依赖；
+[源码清单](checks/boundary-clutch-source-audit.json)为19份项目源码，旧十处admission保持。
+运行 python scripts/check_boundary_clutch.py，依赖准备入口
+--entry F1.Analysis.BoundaryClutch，可用前述固定cache/runtime选项。
+[410](../notes/410-f1-boundary-kernel-bundles-and-relative-k-classes.md)中的连续核丛、
+绕数、Fredholm、Morita与K理论另属纸面论证；未重建全F1。

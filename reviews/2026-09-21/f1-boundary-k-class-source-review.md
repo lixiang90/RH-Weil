@@ -1,0 +1,143 @@
+# 410 C*比较与边界K类来源审计
+
+2026-09-21。只读agent Laplace完整返回如下，raw.json另存原始记录。
+审查对象哈希与范围依返回为准；后续绕数局部常值和秩函数措辞不改其所核查图表。
+不把来源审计视为核丛数学证明的独立认证。
+
+**410 本轮来源审计已完成。** 所列 C* 比较、三个扩张及边界映射自然性成立；参数圆标量项必须保留。你指出的端点自由性更正正确，而且已写入当前任务单。本次没有审核核丛、过渡函数或其非零性证明。
+
+1. **核读版本与范围**
+
+   全读当前任务单及既存409来源报告；对 [410正文](H:/codex-build/RH/RH-Weil/notes/410-f1-boundary-kernel-bundles-and-relative-k-classes.md:25) 仅定向核读对象定义、(3)(4)、(13)–(16)及相关上下文。
+
+   当前实际 SHA256 为：
+   ```text
+   8c7d487e3a53a6a1a894e422ac0187660c19920ba632a89e69e1ec788b3c747b
+   ```
+   因文件已有后续修订，本报告不挂你此前提供的 `b782…141aa`。基线编号仅按你提供的信息记录，未运行 Git。
+
+2. **Amenability 足以统一完成，但不能代替具体箭头的合法性证明**
+
+   本题群胚均为第二可数、局部紧 Hausdorff、étale，使用计数 Haar 系统。箭头标签给出到离散 amenable 群 \(\mathbb Q^\times\) 或 \(\Gamma=p^{\mathbb Z}\) 的连续 cocycle，核是单位群胚。因此可以直接应用 Renault–Williams **Corollary 4.5，印刷/PDF p.11**；无需假设每条源纤维的标签遍历整个群。[原始论文 PDF](https://arxiv.org/pdf/1501.03027v1)
+
+   所用群胚均 amenable，故 full/reduced 完成规范一致。该结论见 Sims **Theorem 4.1.4，印刷 p.28／PDF p.32**；其上游引文为 Anantharaman-Delaroche–Renault Proposition 6.1.8，本次没有另核该书。[作者 PDF](https://aidansims.com/papers/Sims2017.pdf)
+
+   各比较的具体结论如下：
+
+   | 比较 | full/reduced 均成立的结论 |
+   |---|---|
+   | \(B_J\to C^*(G(p))\) 按标签零延拓 | **等距单射，不满射** |
+   | \(B_J\to B_V\) 闭不变限制 | **满射** |
+   | \(I_J\to A_V\) 相对闭不变限制 | **满射** |
+   | \(A_V\to A,\ B_V\to B\) 开约化零延拓 | **等距单射，像为 full hereditary 子代数**，诱导 Morita 比较及 K 同构 |
+
+   第一行可以直接核证 reduced 范数：完整源纤维按标签的 \(\Gamma\)-陪集分块，每个非空块对应某个 \(J\) 正则表示；单位陪集包含原来的 \(J\) 源纤维。取所有单位点的上确界得到范数相等，再由 amenability 得 full 结论。外部素因子标签上的非零紧支函数说明它不满射。
+
+   这个包含的像含有共同对角代数 \(C_0(U_p)\)，故它生成的闭双边理想是整个 \(C^*(G(p))\)。**这种“生成满理想”不意味着它是 full corner，也不推出 \(B_J\) 与完整代数 Morita 等价。**
+
+3. **两处 full open reduction 均成立，包括实零端点**
+
+   \(V=K_p\times(0,1)\) 在 \(Y\) 中开，每条正实轨道经足够大的负幂缩放进入 \(V\)。同样，\(\bar V=K_p\times[0,1)\) 在 \(\bar Y\) 中开；正实轨道能进入，所有实零轨道本来就在其中。因此二者都 full。
+
+   这里可直接构造开满约化的等价双模空间，再应用 MRW **Theorem 2.8，印刷 p.10／PDF p.8**。Reduced 版本还可独立应用 Sims–Williams **Theorem 13，PDF p.10**，不需要 amenability。[MRW 原站 PDF](https://jot.theta.ro/jot/archive/1987-017-001/1987-017-001-001.pdf)、[Sims–Williams 原始 PDF](https://arxiv.org/pdf/1002.3093)
+
+   **你对端点的更正完全成立：**
+   \[
+   p^ku=u,\quad u\in K_p
+   \quad\Longrightarrow\quad p^k=1\text{ 于任一 }\mathbb Q_\ell,\ \ell\ne p
+   \quad\Longrightarrow\quad k=0.
+   \]
+   因而 \(\Gamma\) 在 \(E\) 上自由。它不 proper，因为作用映射对紧集 \(E\times E\) 的逆像是非紧的 \(\Gamma\times E\)。全有限分量与实分量同时为零的原点则不同：其 \(J\) 各向同性为 \(\Gamma\)，完整群胚各向同性为 \(\mathbb Q^\times\)。
+
+   开满约化等价不要求 \(\Gamma\curvearrowright\bar Y\) proper。另一个结论 \(A\sim_{\mathrm{Morita}}C(X)\) 使用的是 **\(Y\) 上**自由且 proper 的作用，不能直接延到 \(\bar Y\)。
+
+4. **补充的三个扩张及自然图表合法**
+
+   令 \(O=U_p\setminus E\)。由于
+   \[
+   \overline V^{\,U_p}=\bar V=V\sqcup E,
+   \]
+   \(V\) 在 \(O\) 中相对闭，且对 \(J|_O\) 不变。准确图表是
+   \[
+   \begin{array}{ccccccccc}
+   0&\to&I_J&\to&B_J&\to&Q&\to&0\\
+   &&\downarrow q_I&&\downarrow q_B&&\Vert\\
+   0&\to&A_V&\to&B_V&\to&Q&\to&0\\
+   &&\downarrow j_V&&\downarrow j_{\bar V}&&\Vert\\
+   0&\to&A&\to&B&\to&Q&\to&0 .
+   \end{array}
+   \]
+   第一组竖箭头为满射，二者的核都自然识别为
+   \[
+   C^*(J|_{U_p\setminus\bar V}).
+   \]
+   第二组为上述开满约化的零延拓。最后一行正是
+   \[
+   0\to C_0(Y)\rtimes\Gamma
+   \to C_0(\bar Y)\rtimes\Gamma
+   \to C(K_p)\rtimes\Gamma\to0.
+   \]
+
+   Full 正合性来自不变开集及其闭补集的标准定理；这里 reduced 正合性由 amenability 一并得到。准确核读出处为 Sims **Proposition 4.3.2，印刷 pp.34–35／PDF pp.38–39**，包含证明及一般 reduced 序列未必正合的说明。[作者 PDF](https://aidansims.com/papers/Sims2017.pdf)
+
+   \(K_p\) 在有限整分量中**闭而不开放**；以上闭限制没有把它当开集。\(E,\bar V\) 对完整 \(G(p)\) 不变性不成立，例如外部素数箭头会把有限单位送成非单位。因此此图表也没有产生完整 \(G(p)\to Q\) 的 restriction 商映射。
+
+5. **边界类自然性成立；非零检测是有条件的严格推论**
+
+   张量 \(C(\mathbb T)\) 后图表仍正合，因为 \(C(\mathbb T)\) nuclear、因而 exact。设三行边界映射依次为 \(\delta_J,\delta_V,\delta\)，则
+   \[
+   (q_I)_*\delta_J=\delta_V,\qquad
+   (j_V)_*\delta_V=\delta.
+   \]
+   自然性可直接从边界映射的矩阵提升定义验证。出处为 Blackadar **Definition 8.3.1，印刷 pp.62–63／PDF pp.76–77**；六项正合列为 **Theorem 9.3.1，印刷 pp.67–68／PDF pp.81–82**。[作者版 PDF](https://bruceblackadar.com/Mathematics/book6.pdf)
+
+   所以，对于同一个商类 \(w\)，
+   \[
+   \Xi=\delta_J(w)
+   \]
+   是实际 \(I_J\) 中定义的类，并映到 \(\delta(w)\)。**若后者已被证明非零，便可推出 \(\Xi\ne0\)**。这里不需要声称 \(K_0(I_J)\to K_0(A_V)\) 对任意类满射，也不能仅凭某个表示中的算子非零替代 K 类检测。
+
+   同时，正合性严格给出
+   \[
+   \Xi\longmapsto0\quad\text{于 }K_0(C(\mathbb T)\otimes B_J),
+   \]
+   继而映到
+   \[
+   0\quad\text{于 }K_0(C(\mathbb T)\otimes C^*(G(p))).
+   \]
+   再取任一参数点值，才得到普通 \(K_0(C^*(G(p)))\) 中的零。这是 [410第205行](H:/codex-build/RH/RH-Weil/notes/410-f1-boundary-kernel-bundles-and-relative-k-classes.md:205) 可作的记号精化，不影响其消失结论。
+
+6. **参数圆标量不能删除**
+
+   对 \(z(\theta)=Re^{i\theta}\)、\(R>1\)，同伦 \(t-zU^a\) 始终可逆，所以
+   \[
+   [1-zU^a]=[z1_Q]+a[U]
+   \quad\text{于 }K_1(C(\mathbb T)\otimes Q).
+   \]
+   因而来源层面支持
+   \[
+   \delta[1-zU^a]=\delta[z1_Q]+a\,\delta[U].
+   \]
+
+   非幺情形中的问题可精确写出：强制单位化后 \(Q^+\cong Q\oplus\mathbb C\)。原商类 \(z1_Q\) 对应的相对代表是
+   \[
+   (z1_Q,1).
+   \]
+   而 \(C(\mathbb T)\otimes B^+\) 中的全局标量 \(z1_{B^+}\) 映到
+   \[
+   (z1_Q,z),
+   \]
+   **并非所需代表**。固定一个 \(z\) 时标量 K₁ 类为零，不意味着整圆参数类为零。
+
+   一个与410核丛无关的直接例证是锥扩张
+   \[
+   0\to C_0((0,\infty))\to C_0([0,\infty))\to\mathbb C\to0.
+   \]
+   张量 \(C(\mathbb T)\) 后，中间代数可缩，故边界映射将圆坐标生成元送到非零类。这确证“标量边界未必为零”，但本次**不据此认定410中的具体 \(\beta\ne0\)**。
+
+   Blackadar **§8.3.2，印刷 p.63／PDF p.77** 的符号为
+   \([1-v^*v]-[1-vv^*]\)，与 \([\ker]-[\operatorname{coker}]\) 一致；该处也明确提醒，商酉元一般未必能提升为部分等距。[作者版 PDF](https://bruceblackadar.com/Mathematics/book6.pdf)
+
+实际原文核读范围：Renault–Williams v1 PDF pp.9–11；MRW 扫描页 PDF pp.4–9，其中核读等价定义、例2.7、定理2.8及证明开头，未通读整篇证明；Sims–Williams PDF pp.10–12；Sims PDF pp.26–34、38–39及书目定位；Blackadar PDF pp.76–78、81–83，另定位核性条款 pp.143–144。MRW 本地文件已核实为 **20页、876225字节**，SHA256 与你提供的 `16723f6b…a7b6629` 完全一致，未重复下载。
+
+本轮已证范围止于 **(3)(4) 的合法性、(13) 的 K₁ 恒等式、(15) 的定义与自然性、(16) 的指定推前消失**。(14) 中与实际核丛的识别、\(\kappa=[1_X]\) 及 \(\beta\ne0\) 留待独立数学逆审；RR／完整 Weil 比较不属于这些有限结论的成立条件。全程未改文件、未运行 Git 或 Lean。
