@@ -5,6 +5,17 @@
 面向具有大学二年级数学基础的读者：[F₁ 路线究竟要找什么，以及为什么足以推出 RH](docs/f1-route-from-undergraduate-math.md)。
 讲义从具体例子出发，给出精确条件与完整条件证明，并区分指定来源和自由存在性路线。
 
+## 当前研究状态：完整有理边界类与对数迹（2026-09-21）
+
+最新结算：[411](notes/411-f1-full-rational-relative-classes-and-logarithmic-trace.md)已完成独立全文逆审。
+相对类在全部有理数作用下仍非零，模边界可逆恰选择p的正整数次幂。
+合法实轴商的自然迹给出2a log p，可区分各素数；直接加性配对尚不能给Weil的幂权重log p。
+下一步构造[真正的横向压缩与周期算子迹](reviews/2026-09-21/f1-transverse-periodic-readout-next-proof-plan.md)，
+核准幂次、单位元项及来源比较。
+[六项新Lean检查](formal/checks/endpoint-defect-verification.json)无sorryAx；
+完整分析与K理论另有纸面复核。Goal保持active，完整几何主除子与RR仍开放。
+以下状态为既往快照，以研究看板顶部唯一队列为准。
+
 ## 当前研究状态：F₁核丛与实际相对边界类（2026-09-21）
 
 最新结算：[410](notes/410-f1-boundary-kernel-bundles-and-relative-k-classes.md)构造实际p幂核丛与非零边界K类。

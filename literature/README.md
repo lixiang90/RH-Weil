@@ -1,6 +1,6 @@
 # RH-Weil 文献索引
 
-索引续记更新至2026-09-21；最新批次、范围和保存状态见文末。以下2026-09-09统计为历史快照。首批归档聚焦67.25%之后的零点比例进展及直接依赖（15份、220页）；后续原始版本与核读范围按轮次列在文末。当前本地共55份外部原始PDF、2113页，其中54份、2084页纳入Git保存；Schur扫描29页按来源封面要求仅本地保存，出处和哈希同步。获取失败单列。研究判断见 [305文献审计](../notes/305-post-6725-literature-baseline-audit.md)。
+索引续记更新至2026-09-21；最新批次、范围和保存状态见文末。以下2026-09-09统计为历史快照。首批归档聚焦67.25%之后的零点比例进展及直接依赖（15份、220页）；后续原始版本与核读范围按轮次列在文末。当前本地共56份外部原始PDF、2139页，其中55份、2110页纳入Git保存；Schur扫描29页按来源封面要求仅本地保存，出处和哈希同步。获取失败单列。研究判断见 [305文献审计](../notes/305-post-6725-literature-baseline-audit.md)。
 
 PDF按来源原样保存，未重排或改写；arXiv固定版本，GitHub固定提交，Zenodo固定记录。下载、全页PDF解析和校验值核验不等于数学证明认证。manifest中的SHA-256标识本次取得的精确字节，原站同一文件名后续变化时仍可区分。
 
@@ -922,3 +922,28 @@ Bruce Blackadar；Author-hosted book6.pdf; exact snapshot retrieved 2026-09-21 l
 五份新原件共437页。Sims–Williams网页摘要写14页，实际固定v2解析为15页，按原件登记。
 MRW的独立核读补充为PDF4–9，定理2.8在PDF8；未认证整篇证明。
 准确图表、逐项定理前提及参数单位化见[完整来源审计](../reviews/2026-09-21/f1-boundary-k-class-source-review.md)。
+
+## 2026-09-21：411完整有理边界与对数迹来源
+
+新增 **PV-1980-exact-sequences**：M. Pimsner、D. Voiculescu，
+*Exact sequences for K-groups and Ext-groups of certain cross-product C*-algebras*，
+Journal of Operator Theory 4(1) (1980), 93–118。
+[本地原始PDF](f1/pimsner-voiculescu-exact-sequences-1980.pdf)（26页，873396字节）；
+[期刊页面](https://jot.theta.ro/jot/archive/1980-004-001/1980-004-001-005.html)；
+[期刊原件](https://jot.theta.ro/jot/archive/1980-004-001/1980-004-001-005.pdf)。
+SHA256：79acd2953430b184480cdc714ca1f81cf90e4f931525cf2ddda4457917067a2c。
+
+独立来源审查实际核读PDF1–4、9–12；主线程另看PDF1、11、12扫描，
+确认Theorem2.4（印刷103／PDF11）的实际包含箭头与Remark2.7（印刷104／PDF12）的非幺扩展。
+全26页可解析；扫描无正文提取不等于全文已读，未认证全篇证明。
+
+既有原件新增核读：Blackadar §5.2.2、§5.2.4、§5.5、§8.1.5、§10.1、
+Theorem10.2.1（印刷73／PDF87）及Proposition5.5.5（印刷31／PDF45）；
+Sims Proposition4.2.6（印刷33／PDF37），实际核读PDF35–37。
+分别支撑同伦、K连续性、非幺实际投影表示及规范期望，不声称全书认证。
+不变测度迹、有限投影与对数归一化由411正文补出。
+完整[来源复核](../reviews/2026-09-21/f1-full-rational-source-review.md)及
+[修订复核](../reviews/2026-09-21/f1-full-rational-source-followup.md)保存。
+
+当前本地56份原始PDF、2139页，Git保存55份、2110页；Schur29页仍仅本地。
+新增原件不会自动成为全局F1／RH输入证明。

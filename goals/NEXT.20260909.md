@@ -1,5 +1,17 @@
 # 20260909版重启任务单
 
+## 唯一当前任务（2026-09-21，411结算）
+
+执行[横向压缩与真正周期读出](../reviews/2026-09-21/f1-transverse-periodic-readout-next-proof-plan.md)。
+[411](../notes/411-f1-full-rational-relative-classes-and-logarithmic-trace.md)已证明：
+完整Q×不变扩张中模边界可逆恰选正整数p幂，非零相对类在全部素数作用后保留。
+合法实轴商的迹为2a log p，共同混合项b不区分p；尚不能给Weil的幂权重。
+下一步构造真实p-adic有限秩横向压缩与相容周期悬挂，
+证明时间平滑后的算子迹，核准单位元项及与原adelic来源的比较。
+下一任务中的候选公式尚未证明；不得仅外加除以a的读出规则。
+六项EndpointDefect Lean检查无sorryAx，原十处admission及历史报告保持。
+下方当前任务均为历史快照；Goal继续active，第十节强度不变。
+
 ## 唯一当前任务（2026-09-21，410结算）
 
 执行[完整有理群胚中的相对边界类](../reviews/2026-09-21/f1-full-rational-boundary-next-proof-plan.md)。

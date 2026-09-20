@@ -1,5 +1,10 @@
 # 410后的有限任务：完整有理群胚中的相对边界类
 
+已由[411](../../notes/411-f1-full-rational-relative-classes-and-logarithmic-trace.md)结算并独立复核。
+实际相对类存活，对数迹及幂次数已算出；本任务不再开放。
+下一项是[横向压缩与真正周期读出](f1-transverse-periodic-readout-next-proof-plan.md)。
+以下保留执行前任务原文。
+
 2026-09-21。[O] 执行[410](../../notes/410-f1-boundary-kernel-bundles-and-relative-k-classes.md)之后的唯一主问题。
 410给真实J_p中非零边界K类及连续核丛，但其普通ambient K_0像为0。
 当前问题是能否用真正Q×不变的边界扩张保留相对类，不把经典轨道的非法限制换名重开。

@@ -2,8 +2,15 @@
   {
     "workspace_path": "GOAL.20260909.md",
     "repository_path": "goals/GOAL.20260909.md",
+    "source_sha256": "ac534c80f26c6f22e5cb9d0b8a4e2bd66dcfba9b176b5f1da0237636db3818d6",
+    "mirror_sha256": "0416694f7ed881c5346f29c7648bf10ed6ca43141dd15fef05ddf1698fd97fbd",
+    "transformation": "local Markdown link rebasing only"
+  },
+  {
+    "workspace_path": "archive/GOAL.20260909.f1-before-full-rational-boundary.md",
+    "repository_path": "goals/archive/GOAL.20260909.f1-before-full-rational-boundary.md",
     "source_sha256": "cb287f253b8059227d6db03d6f268cfc954e7e0cfd955d62e5cf7d7efe0e8d98",
-    "mirror_sha256": "00e669aa42e714c5ecf882994f8cf812f77ad098171c57ba6c47b29edd930076",
+    "mirror_sha256": "f8f464b92969952d63c38255ac04ae06982bde221b267e89f493570663a7773e",
     "transformation": "local Markdown link rebasing only"
   },
   {
@@ -212,8 +219,8 @@
   {
     "workspace_path": "archive/README.md",
     "repository_path": "goals/archive/README.md",
-    "source_sha256": "2631326d053f070d09346a5d9d50738834cbd76eec8cb524daa22dc0cfe256ea",
-    "mirror_sha256": "2631326d053f070d09346a5d9d50738834cbd76eec8cb524daa22dc0cfe256ea",
+    "source_sha256": "f47e1c4b140840ddee0aa245ae2eb92e91e7a3b9ce0bdd8e80759b01de3815ed",
+    "mirror_sha256": "f47e1c4b140840ddee0aa245ae2eb92e91e7a3b9ce0bdd8e80759b01de3815ed",
     "transformation": "none"
   }
 ]

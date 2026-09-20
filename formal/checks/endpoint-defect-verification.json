@@ -1,0 +1,40 @@
+{
+  "status": "passed_no_sorry_dependencies",
+  "checked_at_utc": "2026-09-20T16:31:06.488112+00:00",
+  "lean_version": "Lean (version 4.32.2, x86_64-w64-windows-gnu, commit f3b06c705e6c85f5314019d5d3baab0fec5b580c, Release)",
+  "mathlib_revision": "905b95818eb32af7874a58b427f50c1711a5e96c",
+  "cache_backup": ".lake\\hdd-backup-05156b5b",
+  "runtime_dir": "C:\\Users\\A\\AppData\\Local\\Temp\\rh-weil-local-trace-20260920",
+  "scope": "Six algebraic left-inverse defect identities, including power cancellation and distinct wandering sectors. No Hilbert convergence, C*-quotient, trace, K-theory or full F1 build is formalized.",
+  "commands": [
+    {
+      "source": "F1/Analysis/EndpointDefect.lean",
+      "exit_code": 0
+    },
+    {
+      "source": "checks/EndpointDefectAudit.lean",
+      "exit_code": 0
+    }
+  ],
+  "source_sha256": {
+    "F1/Analysis/EndpointDefect.lean": "5dc61a652fd3a959f6c1faa0c62b951e08336f4901e3278e4913f174bea0a3e3",
+    "checks/EndpointDefectAudit.lean": "566f95dab417393fc3a21c77cc3d2fef5baef879e80a71823d362102e6d054bd"
+  },
+  "axioms": {
+    "RHWeil.F1.leftInverseDefect_mul": [],
+    "RHWeil.F1.leftInverseDefect_left": [],
+    "RHWeil.F1.leftInverseDefect_idempotent": [
+      "propext"
+    ],
+    "RHWeil.F1.leftInverse_powers": [
+      "propext"
+    ],
+    "RHWeil.F1.leftInverseDefect_distinctPowers": [
+      "propext"
+    ],
+    "RHWeil.F1.leftInverseDefect_ne_zero": [
+      "propext"
+    ]
+  },
+  "existing_admissions": "The existing Weil convergence and criterion admissions are not imported by these checked results."
+}

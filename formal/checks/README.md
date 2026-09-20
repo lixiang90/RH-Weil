@@ -103,3 +103,11 @@ vendor仍为8包806文件。算子范数收敛、无限直和、热迹、实际�
 记录五项通过的代数检查，无sorryAx。
 [源码清单](boundary-clutch-source-audit.json)包含19份项目Lean源码，原十处admission，
 vendor八包806文件原样保留。旧报告不覆盖；连续性、绕数和K理论未由这些引理形式化。
+
+## 2026-09-21 EndpointDefect定向检查
+
+[报告](endpoint-defect-verification.json)、[编译输出](endpoint-defect-build.txt)、
+[公理输出](endpoint-defect-axioms.txt)、[入口](EndpointDefectAudit.lean)
+记录六项通过的代数检查；两项不依赖公理，四项只依赖propext，均无sorryAx。
+[源码清单](endpoint-defect-source-audit.json)包含20份项目源码、原十处admission及
+vendor八包806文件校验。历史报告保持。Hilbert正交／收敛、C*、迹和K理论未在此形式化。

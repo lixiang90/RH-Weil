@@ -1,0 +1,16 @@
+# 411独立复核：source-followup
+
+2026-09-21。正文完整保存；仅将Markdown尾部双空格改为反斜线换行。原始返回见同轮raw JSON。
+
+已核对 [411修订段落](H:/codex-build/RH/RH-Weil/notes/411-f1-full-rational-relative-classes-and-logarithmic-trace.md:172)：**采纳准确，P3 已闭合，无新增异议。**
+
+- 离散 \(H_F\) 与乘子酉元表述正确。
+- Fourier 正项展开、范数收敛及 Tonelli 足以证明全域迹性。
+- 稠密子代数称谓及半有限逼近已补正。
+
+本次核读最终 SHA256：
+```text
+b712fecb8ab942594cc723fe11565e055414315d707f45292fc9dc3b4fc0e52f
+```
+
+仅核对指定修订；未重做来源或全文审查，未改文件、运行 Git／Lean。

@@ -1,5 +1,28 @@
 # 持续GOAL执行账本：20260909版重启
 
+## 当前执行：完整有理边界类与对数迹已结算（2026-09-21）
+
+[411](../notes/411-f1-full-rational-relative-classes-and-logarithmic-trace.md)使用真正Q×不变的实零边界扩张，
+证明整数箭头端点在|z|>1可逆恰当n=p^a，产生原源提升的相对类Ω_(p,a)。
+闭不变全有限零坐标轴商合法；正负两半轴给矩阵重数2。
+新增素数平移同伦于恒等，PV六项序列的实际包含箭头及K连续性保留相对类。
+规范Lebesgue条件期望迹严格定义于全代数，并在K₀上有有限值配对；
+τ(k_p)=2log p，τ(ev_z ω_(p,a))=2a log p。共同轴中的k_p整系数独立。
+
+这补齐410的完整Q×存活接口；参数混合项b在共同轴商中不依赖p，
+而幂箭头的加性配对并非Λ(p^a)=log p。完整Weil配对、主关系、有效性及RR仍未实现。
+[来源复核](../reviews/2026-09-21/f1-full-rational-source-review.md)、
+[八节数学逆审](../reviews/2026-09-21/f1-full-rational-math-review.md)及后续修订核对完整保存。
+“稠密理想”已改为稠密*子代数并补全全域迹证明，轴核丛的底空间亦已明定。
+
+[六项EndpointDefect Lean检查](../formal/checks/endpoint-defect-verification.json)通过4.32.2，无sorryAx；
+20份项目Lean源码、十处旧admission和历史报告保持，未重建全F1。
+新增PV原始论文26页，Blackadar／Sims核读范围追加，原件哈希固定。
+下一项为[横向压缩与真正周期读出](../reviews/2026-09-21/f1-transverse-periodic-readout-next-proof-plan.md)；
+根GOAL旧字节归档，第十节全部保持。
+上一批已精确推送[9a7d063](https://github.com/lixiang90/RH-Weil/commit/9a7d063190de4ed56e28a4f8d53c578fcf72ad44)；
+本批推送状态以实际远端核验为准。Goal保持active，未达长期完成标准。
+
 ## 当前执行：核丛与实际非零边界K类已结算（2026-09-21）
 
 [410](../notes/410-f1-boundary-kernel-bundles-and-relative-k-classes.md)从原p幂箭头的合法源，

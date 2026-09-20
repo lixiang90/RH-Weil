@@ -4,6 +4,7 @@ import F1.Geometry.RationalCorrespondence
 import F1.Geometry.ReducedSquare
 import F1.Analysis.Jensen
 import F1.Analysis.LocalTrace
+import F1.Analysis.EndpointDefect
 import F1.Analysis.BoundaryClutch
 import F1.Analysis.BoundaryResolvent
 import F1.Analysis.OrbitDecay

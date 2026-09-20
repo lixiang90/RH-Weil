@@ -178,3 +178,14 @@ Banach交叉积、谱半径、整数访问计数、边界表示及导出范畴�
 --entry F1.Analysis.BoundaryClutch，可用前述固定cache/runtime选项。
 [410](../notes/410-f1-boundary-kernel-bundles-and-relative-k-classes.md)中的连续核丛、
 绕数、Fredholm、Morita与K理论另属纸面论证；未重建全F1。
+
+## 2026-09-21：端点等距元的缺陷代数
+
+[EndpointDefect.lean](F1/Analysis/EndpointDefect.lean)新增六项实际Lean4.32.2检查：
+左逆缺陷的左右消失、幂等性、幂抵消、不同幂扇区和非零性。
+[报告](checks/endpoint-defect-verification.json)无sorryAx依赖；
+[源码清单](checks/endpoint-defect-source-audit.json)包含20份项目源码，原十处admission保持。
+运行 python scripts/check_endpoint_defect.py，依赖准备入口
+--entry F1.Analysis.EndpointDefect，可用前述固定cache/runtime参数。
+[411](../notes/411-f1-full-rational-relative-classes-and-logarithmic-trace.md)的Hilbert收敛、
+交叉积、PV、K类及半有限迹另属纸面推导；本轮未重建全F1。
