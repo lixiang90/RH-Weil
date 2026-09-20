@@ -49,7 +49,11 @@ G0跨类型接口据此修订。[391](notes/391-f1-candidate-space-review-and-al
 [393](notes/393-f1-profile-surjectivity-and-filtered-dimension.md)完成实际截面轮廓满射及CC过滤维数比较，均已独立复核。
 用户新增的独立agent Dalton在[394](notes/394-f1-real-principal-relations-and-parameter-topologies.md)中
 给出整体空间审查、实主等价与torsion的接口障碍、纯径向弱测度的双次数退化及三种替代构造。
-现优先检验完整几何主关系的连续湮灭子；候选容器非空仍不意味着全部算术条件有实例。
+[395](notes/395-f1-geometric-measure-principal-quotient.md)现已完成这一检验并通过两份独立复核：
+完整几何零测度的连续主商仍只有一个数值方向；原湮灭子可有非恒定但完全不可见的函数。
+普通周期商上的幂映射图又不能区分b与pb。上述范围内障碍不排除真正算术平方或额外半线性结构。
+现转向保留双侧作用的实际对应，先检查1与p，再接2、3、6的复合及主除子推拉。
+候选容器非空仍不意味着全部算术条件有实例。
 [任务单](goals/NEXT.20260909.md)给出顺序。
 尚无新的RH或无条件比例结论；完整验收与较远期显著进展分开。
 
