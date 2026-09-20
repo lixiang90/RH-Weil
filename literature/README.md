@@ -658,3 +658,15 @@ SHA256为`88ce9f3a1e05a34d23092b4e6158203a85c4aeffef38344e258ec1309b00883f`。
 Borger v1的PDF2（平坦Z情形的交换Frobenius提升）；CC2018 v1的PDF19–20、§3.2.2（Jensen比较）。
 这些PDF字节均保持既有版本。J(1+1)=log2违反max加法不等式，是对原定义的直接检查，
 不表示原文曾把Jensen映射断言为非阿基米德赋值。
+
+
+## 2026-09-20：截面轮廓与参数拓扑的核读
+
+- CC2016 [1603.03191v1](https://arxiv.org/abs/1603.03191v1)：Definitions5.14、5.16，式(25)—(28)，Theorem5.17及Lemma5.18。用于[393](../notes/393-f1-profile-surjectivity-and-filtered-dimension.md)；原PDF复用。
+- CC2018 [1805.10501v1](https://arxiv.org/abs/1805.10501v1)：§3.2.1、§3.2.3、§3.4的热带化、有效性及平方RR边界；未认证全部几何构造。
+- Ryszard Engelking，*Dimension Theory*，1978，ISBN 0-444-85176-3，[来源原件](https://webhomes.maths.ed.ac.uk/~v1ranick/papers/engelking.pdf)：Theorem3.1.8与Corollary3.1.20（印刷212、216／PDF216、220）。316页；仅核所列页及书目信息。
+  本地原件位于 `literature/background/engelking-dimension-theory-1978.pdf`，4,693,683字节，SHA-256为 `54e65f27cb7ea972a36862d0479b8ac4f5d08f2b4b076fb3795080c35e892c53`。
+  按原件第2页的再发布限制及GOAL第八节要求，PDF仅本地保存；Git记录索引、哈希与范围。
+
+[393独立复核](../reviews/2026-09-20/f1-profile-dimension-independent-review.md)和[第三次空间审查](../reviews/2026-09-20/f1-candidate-space-third-review.md)保留适用边界。
+文献原件数由89增至90，其中新增一份为本地保留；不把复用旧PDF或选择性核读记作全文认证。
