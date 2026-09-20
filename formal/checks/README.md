@@ -76,3 +76,13 @@ Earlier reports describe their original source snapshots and have not been overw
 vendor8包806文件逐字节及Git跟踪核查通过；旧报告保持原样。
 脚本为 scripts/check_weighted_arrows.py，固定Lean4.32.2与原mathlib提交。
 这次是定向检查，不是全F1重建；分析、范畴及几何部分未被该模块认证。
+
+
+## OrbitDecay：四项定向验证（2026-09-20）
+
+[报告](orbit-decay-verification.json)、[编译输出](orbit-decay-build.txt)、
+[公理输出](orbit-decay-axioms.txt)、[审计入口](OrbitDecayAudit.lean)、
+[源码清单](orbit-decay-source-audit.json)记录四项通过结果。
+没有sorryAx依赖；17份项目Lean源码仍只有原十处admission，
+vendor8包806文件逐字节及Git跟踪核准，旧报告未覆盖。
+本模块只验证有限乘积和区间跨度，完整分析／范畴及RH不在认证范围。

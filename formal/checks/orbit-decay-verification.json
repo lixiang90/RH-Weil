@@ -1,0 +1,46 @@
+{
+  "status": "passed_no_sorry_dependencies",
+  "checked_at_utc": "2026-09-20T14:58:25.839073+00:00",
+  "lean_version": "Lean (version 4.32.2, x86_64-w64-windows-gnu, commit f3b06c705e6c85f5314019d5d3baab0fec5b580c, Release)",
+  "mathlib_revision": "905b95818eb32af7874a58b427f50c1711a5e96c",
+  "cache_backup": ".lake\\hdd-backup-05156b5b",
+  "runtime_dir": "C:\\Users\\A\\AppData\\Local\\Temp\\rh-weil-local-trace-20260920",
+  "scope": "Four finite-product and interval-span results. No Banach completion, spectral radius, adele geometry or full F1 build is formalized.",
+  "commands": [
+    {
+      "source": "F1/Analysis/OrbitDecay.lean",
+      "exit_code": 0
+    },
+    {
+      "source": "checks/OrbitDecayAudit.lean",
+      "exit_code": 0
+    }
+  ],
+  "source_sha256": {
+    "F1/Analysis/OrbitDecay.lean": "7562b383edf55f6b48a696551a76725ba3c450e88284522f4c5956fa734651b5",
+    "checks/OrbitDecayAudit.lean": "4590d5c400ca2d3b32eeec9f6598a79880dc2e05af93c80e9faa8afff72a54ba"
+  },
+  "axioms": {
+    "RHWeil.F1.visitMajorant_product": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "RHWeil.F1.visitMajorant_pointwise": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "RHWeil.F1.finiteVisitProductBound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "RHWeil.F1.orbit_interval_span": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "existing_admissions": "The existing Weil convergence and criterion admissions are not imported by these checked results."
+}

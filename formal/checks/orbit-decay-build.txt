@@ -1,0 +1,7 @@
+F1/Analysis/OrbitDecay.lean
+
+checks/OrbitDecayAudit.lean
+'RHWeil.F1.visitMajorant_product' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RHWeil.F1.visitMajorant_pointwise' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RHWeil.F1.finiteVisitProductBound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RHWeil.F1.orbit_interval_span' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,5 +1,17 @@
 # 20260909版重启任务单
 
+## 唯一当前任务（2026-09-20，408结算）
+
+执行[实际缩减边界的缺陷与素数选择性](../reviews/2026-09-20/f1-boundary-dynamical-defect-next-proof-plan.md)。
+[408](../notes/408-f1-orbit-completion-and-prime-boundaries.md)已独立逆审：
+完成中单箭头谱半径由η(0)决定；旧Gaussian源对象完成后消失，
+原点值非零时有完成后仍非零、逐idele紧算子单位化中可缩的实际完美对象。
+目前共有原点检测不提供专属素数支撑。下一步保留原G(p)、合法紧支箭头和全部有理扇区，
+核对动态缺陷及真正的Fredholm条件，不以单扇区指数或KMS值代替。
+四项新Lean验证无sorryAx；源双迹核与新原点字符已分清。
+下方“当前任务”均为历史快照；Goal保持active，第十节强度不变。
+
+
 ## 唯一当前任务（2026-09-20，407结算）
 
 执行[相对复形的完成化与素数边界检验](../reviews/2026-09-20/f1-relative-complex-boundary-next-proof-plan.md)。

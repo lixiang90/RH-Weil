@@ -1,0 +1,120 @@
+# 408：独立来源审计
+
+审计者Hilbert；2026-09-20；只读。以下完整保留返回文本。
+
+**核准结果：\(S(G_{\mathbb Q})\) 的有理箭头支撑明确有限；CCM 随后使用的 \(C^*\) 完成、拓扑循环模及闭像余核是不同层次。原文没有把任意 Banach 完成认同为其循环拓扑。**
+
+本次只读已存 PDF，未浏览外网。以下均为归档预印本正文页码，与 PDF 页序一致：
+
+- **A：CCM，math/0703392v1**：完整核读 §4 pp.16–25、§8 pp.33–50；核对参考文献 pp.60–61，并渲染复核关键定义页。:codex-file-citation{path="H:/codex-build/RH/RH-Weil/literature/f1/ccm-weil-adeles-math-0703392v1.pdf" purpose="source"}
+- **B：CCM，math/0512138v2**：补核 pp.8–9、23–24、26、29、32，主要用于明确拓扑循环模约定及另一种 crossed product 的定义。:codex-file-citation{path="H:/codex-build/RH/RH-Weil/literature/f1/ccm-endomotives-math-0512138v2.pdf" purpose="source"}
+- **C：Connes，math/9811068v1**：补核 pp.10–11、25–26、51、55–57，用于 Schwartz 拓扑、Hilbert 完成及边界轨道闭包。:codex-file-citation{path="H:/codex-build/RH/RH-Weil/literature/f1/connes-trace-math-9811068v1.pdf" purpose="source"}
+
+**1）有限箭头支撑与拓扑／闭包的实际位置。**
+
+A p.16 (4.1) 并列给出
+\[
+C_0(\mathbb A_K)\rtimes K^\times,\qquad
+S(\mathbb A_K)\rtimes K^\times.
+\]
+p.17 Lemma 4.2 将后者称为前者的稠密子代数，并在 (4.5) **明确写“finite sums”**：
+\[
+S(G_K)=
+\left\{\sum_{k\in F}f_kU_k:
+F\subset K^\times\text{ 有限},\ f_k\in S(\mathbb A_K)\right\}.
+\]
+故就代数及箭头支撑而言，可以明确标作 \(\rtimes_{\rm alg}\)。有限的是 \(k\) 方向；不要求 Schwartz 系数在阿基米德方向紧支撑，也不表示系数空间没有拓扑。
+
+拓扑与完成分别出现于：
+
+- **系数空间本身**：C Appendix I p.51 给出受限张量积描述；p.56 Lemma 2 的证明明确将 Bruhat–Schwartz 空间赋予 **归纳极限拓扑**。
+- **循环模构造**：B §2.2 p.9 明确要求局部凸拓扑代数使用 **拓扑张量积**构造 \(A^\natural\)，使用**连续多线性形式**构造 \(A^\sharp\)。
+- **余核**：A §4.4 p.21，Definition 4.10 紧随的约定明确使用
+  \[
+  \operatorname{coker}T=B^\natural/\overline{\operatorname{Ran}T},
+  \]
+  理由是保持循环同调／上同调的对偶关系。B p.9 有同一约定。这是在循环模目标中对像取闭包，并非将 (4.5) 改成无限箭头和。
+- **目标函数空间**：A p.20 (4.20) 指定
+  \[
+  \mathbf S(C_K)=\bigcap_{\beta\in\mathbb R}\mu^\beta S(C_K),
+  \]
+  并由 Proposition 4.8、Definition 4.9 要求主对角线限制的相应迹属于该空间。
+- **\(C^*\) 与 Hilbert 完成**：A (4.1) 的环境代数及 §8 的 KMS 系统使用 \(C^*\) 代数；C pp.10–11 的 \(L^2_\delta\) 则由指定加权平方范数完成得到。它们各有明确用途。
+
+尤其，A pp.18–19 Proposition 4.5 中的 \(\mathcal L^1(H_x)\) 是**迹类算子代数**；证明中的 \(k\mapsto f(kb)\) 可和是轨道上的估计，不能解释成箭头系数的 \(\ell^1(C_0)\) 完成。
+
+**2）\(x_p=0\) 边界、\(\rho_p\) 与 away-\(p\) 描述。**
+
+A p.34 Definition 8.2、(8.4)–(8.6) 明确规定
+\[
+\mathbb A_{\mathbb Q,p}=\{x:x_p=0\},\qquad
+G_{\mathbb Q,p}=\{(q,x)\in G_{\mathbb Q}:x_p=0\},
+\]
+\[
+A_p=S(G_{\mathbb Q,p}),\qquad
+\rho_p:S(G_{\mathbb Q})\longrightarrow S(G_{\mathbb Q,p}).
+\]
+依据是边界包含映射 **proper 且 \(\mathbb Q^\times\)-等变**。这里的 \(\rho_p\) 是边界限制；不同于 §4 pp.18–21 限制到 idèles、再进入迹类算子循环模的 \(\rho\)。
+
+对有限素数 \(p\)，若明确定义
+\[
+\mathbb A_{\mathbb Q}^{(p)}
+=\mathbb R\times\prod_{\ell\ne p}'\mathbb Q_\ell,
+\]
+则填入 \(p\) 分量 \(0\) 将其识别为 \(\mathbb A_{\mathbb Q,p}\)。结合上述定义及 C p.51 的 Schwartz 描述，**在有限箭头代数层面**可写
+\[
+S(G_{\mathbb Q,p})
+\cong S(\mathbb A_{\mathbb Q}^{(p)})
+       \rtimes_{\rm alg}\mathbb Q^\times,
+\]
+\[
+\rho_p\!\left(\sum_q f_qU_q\right)
+=\sum_q(f_q|_{x_p=0})U_q.
+\]
+这是从来源定义作出的直接识别；原文没有使用这个 away-\(p\) 记号，也没有因此给出 Banach 完成的比较定理。Definition 8.2 此处也未施加 §4 的双零条件。
+
+另须区分 **全边界群胚**与 **KMS 所用缩减群胚**。A pp.35–37、p.40 (8.28) 的
+\[
+G(p)=\{(q,x):x,qx\in\mathbb A_{\mathbb Q,p}^{(1)}\}
+\]
+有源、靶同时落在开集中的要求，是限制／部分作用群胚。不能把它直接替换成该开集上的全局作用 crossed product。Theorem 8.15 的假设明确是 \((C^*(G(p)),\sigma^p)\)。
+
+**3）保留的 \(\log p\) 数据，以及与有理箭头的区别。**
+
+**外部作用。** A p.22 Proposition 4.11、(4.29)–(4.31)：
+\[
+\vartheta_a(\gamma)(f_qU_q)
+=f_q(\gamma^{-1}\,\cdot)\,U_q.
+\]
+它来自 \(\mathbb A_{\mathbb Q}^{\times}\)，在 \(\gamma\in\mathbb Q^\times\) 时为内作用，给出 \(C_{\mathbb Q}\) 的外作用及所述同调上的作用。由公式可直接核准：它保持 \(x_p=0\)，而仅在 \(p\) 分量非平凡的局部 idèle 对该边界作用恒等。
+
+A p.34 Proposition 8.1 给出局部 \(\mathbb Q_p^\times\) 包含于边界点的稳定子；C p.26 (6)–(9) 对**恰有该分量为零**的点明确给出稳定子等于该局部群。A p.40 则明确陈述：
+\[
+\Xi_{\mathbb Q,p}/C_{\mathbb Q,1}
+\]
+在模长的对数作用下具有周期 **\(\log p\)**。这是经典点轨道取 \(C_{\mathbb Q,1}\) 商后的结论，不能扩写成整个 \(x_p=0\) 边界都是这样的周期轨道。
+
+**局部时间演化。** A pp.36–38，(8.13)–(8.19) 使用边界加法 Haar 泛函，得到
+\[
+d_p(q,x)=\log|q|_p,\qquad
+\sigma_t^p(f)(q,x)=|q|_p^{it}f(q,x).
+\]
+按 \(|p|_p=p^{-1}\)，其箭头权重为
+\[
+d_p(q,x)=-v_p(q)\log p.
+\]
+因此 \(x_p=0\) 并未抹去箭头上的局部赋值。相位因子的周期为 \(2\pi/\log p\)，应与前述几何周期 \(\log p\) 分开。A p.43 (8.37) 在 Theorem 8.15 指定的代表 \(y\in\mathbb A_{\mathbb Q,p}^{*}\) 下给出
+\[
+\operatorname{Spec}(H_y)=\{n\log p:n\ge0\}.
+\]
+
+**有理箭头。** \((q,x)\) 是 \(x\to qx\) 的群胚箭头。对角有理数 \(p\) 会同时乘所有其余分量；它不同于“仅 \(p\) 分量为 \(p\)”的局部 idèle。全局乘积公式给 \(|q|_{\mathbb A}=1\)，并不令 \(\log|q|_p\) 为零。A p.47 Proposition 8.21 的覆盖变换 \(x\mapsto px\)、群 \(p^{\mathbb Z}\)，正是在指定提升空间上保留下来的**有理代表变换**。
+
+**来源的约束边界与不确定点。**
+
+- 已核段落规定了 Schwartz 正则性、拓扑循环模、闭像余核，以及 KMS 命题中的指定 \(C^*\) 系统；**没有要求所有辅助模型必须采用某一种 Banach 完成，也没有认证 \(\ell^1(C_0)\) 与 CCM 循环拓扑等价**。
+- B p.9 只明确到“拓扑张量积”，这些段落未完整列出张量拓扑选择及各级半范数，不能补写成作者明确指定了某个 Banach 张量完成。
+- A p.23 Definition 4.14 定义 \(\mathcal V\) 为实际像；pp.24–25 又直接写商掉 \(\mathcal V\)，没有闭包横线。应结合 p.21 的显式闭包约定阅读，不能把后面的简写当成“像已证明闭”的依据。
+- A Proposition 8.10 证明的是时间演化在 \(\ker\rho_p\) 上为内作用；这不能单独推出任意完成后的边界循环类非零。C p.26 的轨道闭包、A p.40 的嵌入拓扑，也都不是代数范数完成。
+
+未修改文件、未运行 Git 或 Lean；基线标识按用户提供记录。未重做 407 推导，也未开展统一幂范数或边界非零复形的主任务证明。

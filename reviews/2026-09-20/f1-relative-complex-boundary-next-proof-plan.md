@@ -1,6 +1,7 @@
 # 407后的有限任务：相对复形的完成化与素数边界检验
 
-2026-09-20。[O] 407逆审结算后的下一主问题；辅助只做必要来源及证明复核。
+2026-09-20。本任务已由[408](../../notes/408-f1-orbit-completion-and-prime-boundaries.md)结算。
+当前执行转入[原边界群胚与动态缺陷](f1-boundary-dynamical-defect-next-proof-plan.md)；以下保留原始任务范围。
 [407](../../notes/407-f1-prime-arrows-fredholm-and-relative-complex.md)给实际有限箭头环R中的
 K_(q,z)=[R --(1−z aU_q)--> R]，非零但每个idele算子纤维均零化。
 先检查它是否只记录有限箭头限制，再研究相对类，不由非零对象推断非零K_0。

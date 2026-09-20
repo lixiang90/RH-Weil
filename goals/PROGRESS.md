@@ -1,5 +1,30 @@
 # 持续GOAL执行账本：20260909版重启
 
+## 当前执行：完成化与各素数边界已结算（2026-09-20）
+
+[408](../notes/408-f1-orbit-completion-and-prime-boundaries.md)证明统一幂范数界及谱半径|η(0)|，
+并推广消失结论到实零超平面消失的有限正向多箭头。
+407的源复形在每个有限p边界非零，却在ℓ¹(C_0)完成后全部可缩；
+改用η_+(0)=1时，原点字符给完成后仍非零、逐idele目标中可缩的实际完美复形。
+目标可收窄为单位加紧算子，不能统一当作单位加迹类。
+
+[Hilbert来源审计](../reviews/2026-09-20/f1-orbit-completion-source-review.md)与
+[全文数学逆审](../reviews/2026-09-20/f1-orbit-completion-mathematical-review.md)已完成。
+两项P3已修正：源非单位性须z≠0；新χ_orig不同于原CCM两迹，
+系数a_+不在S(A_Q)_0而非单位箭头a_+U_q仍在旧双迹共同核。
+没有P1/P2，未把共同原点检测宣称为专属素数支撑或非零相对K类。
+
+[OrbitDecay四项Lean引理](../formal/F1/Analysis/OrbitDecay.lean)实际通过4.32.2，无sorryAx；
+项目17份Lean源码、原十处admission及旧报告保留，未重建全F1。
+已有三篇原件追加准确核读范围，未重复下载。
+下一项[原缩减边界群胚与动态缺陷](../reviews/2026-09-20/f1-boundary-dynamical-defect-next-proof-plan.md)
+须从合法系数与全部有理扇区核查指数／重数及时间演化。
+
+根GOAL按原字节归档，第十节逐字不改，Goal继续active。
+上一批已推送[1f5b6dd](https://github.com/lixiang90/RH-Weil/commit/1f5b6dd58fef51ee5a914e40e691244c5ab2a13d)；
+本批远端状态以实际保存核验为准。尚无RH、零点比例、非零区域或几何RR的突破。
+
+
 ## 当前执行：素数箭头与相对完美复形已结算（2026-09-20）
 
 [407](../notes/407-f1-prime-arrows-fredholm-and-relative-complex.md)完成四项相连推导：

@@ -7,6 +7,15 @@
 
 ## 当前研究状态：F₁的Adelic限制关系与主除子准入（2026-09-20）
 
+最新结算：[408](notes/408-f1-orbit-completion-and-prime-boundaries.md)已独立全文逆审。
+明确完成环中，单箭头谱半径由η(0)决定；旧Gaussian对象完成后消失，
+而原点值非零时有完成后仍非零、逐idele表示中可缩的实际完美复形。
+共有原点字符尚未提供素数支撑。下一步从[原始缩减边界群胚](reviews/2026-09-20/f1-boundary-dynamical-defect-next-proof-plan.md)
+检查动态缺陷、全部扇区重数及Fredholm条件。
+[四项新Lean检查](formal/checks/orbit-decay-verification.json)通过且无sorryAx；
+完整分析／几何仍单列证明范围，Goal保持active。
+
+
 最新结算：[407](notes/407-f1-prime-arrows-fredholm-and-relative-complex.md)已完成独立全文逆审。
 单向素数箭头的纤维行列式恒为1，逆标签混合词则保留可区分素数的第二倒数矩；
 Poisson端点经两次微分才进入完整B的根空间。

@@ -1,0 +1,101 @@
+{
+  "checked_at_utc": "2026-09-20T15:19:16.216938+00:00",
+  "status": "passed_scoped_validation",
+  "base_commit": "1f5b6dd58fef51ee5a914e40e691244c5ab2a13d",
+  "lean": {
+    "new_theorems": 4,
+    "no_sorry_dependencies": true,
+    "old_admissions": 10,
+    "own_lean_files": 17,
+    "full_F1_build": false,
+    "verification_sha256": "4f81d755f4e572855472b7e9a14ec6ba5df77f57d055f10644974b056f7e60e4"
+  },
+  "note_sha256": "04bddc6bf4c25d176c0c8a2efe224ee084ad9159845f3ad91d6f5486bfa87e27",
+  "independent_review_sha256": {
+    "f1-orbit-completion-source-review.md": "00923ac5d3f75d9e9b2f81ef6f1c053ccddfc8087c4a78d6cae667d5ef69a95a",
+    "f1-orbit-completion-mathematical-review.md": "ce2d3b140d30c19f2bb1643b4deb00156ae505530e3dff021aee825ad7730efc"
+  },
+  "mathematical_scope": "Uniform Banach power norm and endpoint spectral radius; all-prime source/completion behavior; an actual completion-surviving relative perfect object. No prime-supported divisor, nonzero K class, RR or RH claim.",
+  "goal": {
+    "mirror_files": 29,
+    "section_ten_unchanged": true,
+    "archive_sha256": "adc44d26aa9d36c829632dd8ca31b998151eb90af0025d009bed6c23c7984168",
+    "current_sha256": "864c4c654288c0080acc7810387434d30a536f6f1d18dae9d86a516645387a90"
+  },
+  "pdfs": [
+    {
+      "file": "f1/connes-trace-math-9811068v1.pdf",
+      "pages": 88,
+      "bytes": 519632,
+      "sha256": "dfd4e9924d8980f82e3da11fdea861d318fda8f5c7ba57ee659baf8631975053"
+    },
+    {
+      "file": "f1/ccm-weil-adeles-math-0703392v1.pdf",
+      "pages": 61,
+      "bytes": 657051,
+      "sha256": "88c4e34577e5107f8be2dc8488a71976b94a4efb5ea03f93e9f7d60681c41dee"
+    },
+    {
+      "file": "f1/ccm-endomotives-math-0512138v2.pdf",
+      "pages": 58,
+      "bytes": 747528,
+      "sha256": "68f9c8eaa5e9b46790e5adad0e8cd910da43566e7bc339ea5ecc81ab1f3fe601"
+    },
+    {
+      "file": "f1/simon-infinite-determinants-1977.pdf",
+      "pages": 30,
+      "bytes": 1032498,
+      "sha256": "9820c0b7a05d4b89e3896282d02cf80cf0bb100325d3fabcc1b2ce1adc1e2fd8"
+    }
+  ],
+  "local_markdown_links_checked": 1281,
+  "historical_reports_preserved": [
+    "formal/checks/source-audit.json",
+    "formal/checks/verification.json",
+    "formal/checks/local-trace-verification.json",
+    "formal/checks/local-trace-axioms.txt",
+    "formal/checks/trace-radical-verification.json",
+    "formal/checks/trace-radical-axioms.txt",
+    "formal/checks/trace-radical-source-audit.json"
+  ],
+  "protected_untracked_unchanged": {
+    "reviews/2026-09-08/control-prefix-curvature-budget.json": "cc5c7e5f58f9057c5fb2dc38d22fa878c260a9ade964e651d3dbe1e588f9cda8",
+    "reviews/2026-09-08/radius-five-continuous-period-pressure.json": "1c27b0bc1c4c635b4ed2fbf40d9378bc9c1089afe56a36313d2f6e5b8a031e25",
+    "scripts/control_prefix_curvature_budget.py": "59842cf32a2446a6558a38c731adc3e724eefd17398d3a6321e3b071aa7988bf",
+    "scripts/radius_five_continuous_period_pressure.py": "7fac1a13e9652cb1187abb958de833043b2d9ac91f06484f887108f07e5c5cb6"
+  },
+  "old_stash_preserved": true,
+  "changed_files": [
+    "README.md",
+    "RESEARCH_BRANCHES.md",
+    "formal/F1.lean",
+    "formal/F1/Analysis/OrbitDecay.lean",
+    "formal/README.md",
+    "formal/checks/OrbitDecayAudit.lean",
+    "formal/checks/README.md",
+    "formal/checks/orbit-decay-axioms.txt",
+    "formal/checks/orbit-decay-build.txt",
+    "formal/checks/orbit-decay-source-audit.json",
+    "formal/checks/orbit-decay-verification.json",
+    "formal/scripts/check_orbit_decay.py",
+    "goals/GOAL.20260909.md",
+    "goals/NEXT.20260909.md",
+    "goals/PROGRESS.md",
+    "goals/archive/GOAL.20260909.f1-before-orbit-completion.md",
+    "goals/archive/README.md",
+    "goals/manifest.json",
+    "literature/README.md",
+    "literature/manifest.json",
+    "notes/408-f1-orbit-completion-and-prime-boundaries.md",
+    "reviews/2026-09-20/f1-boundary-dynamical-defect-next-proof-plan.md",
+    "reviews/2026-09-20/f1-orbit-completion-followup.raw.json",
+    "reviews/2026-09-20/f1-orbit-completion-mathematical-review.md",
+    "reviews/2026-09-20/f1-orbit-completion-mathematical-review.raw.json",
+    "reviews/2026-09-20/f1-orbit-completion-source-review.md",
+    "reviews/2026-09-20/f1-orbit-completion-source-review.raw.json",
+    "reviews/2026-09-20/f1-orbit-completion-validation.json",
+    "reviews/2026-09-20/f1-relative-complex-boundary-next-proof-plan.md",
+    "scripts/sync_goal.py"
+  ],
+  "diff_check": "passed"
+}

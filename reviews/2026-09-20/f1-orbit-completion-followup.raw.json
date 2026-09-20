@@ -1,0 +1,8 @@
+{
+  "status": {
+    "01a0bf4c-c291-7603-96ae-1eeda6a08a4e": {
+      "completed": "本次差异复核通过，未见新增数学错误。核读修改位置为 L76、93、188–225、250–257。\n\n- **CCM 双迹区分正确**：对 \\(q\\ne1\\)，\\(a_+U_q\\) 的两个旧迹均为零，而 \\(\\chi_{\\rm orig}(a_+U_q)=1\\)。系数不属于 \\(S(\\mathbb A_{\\mathbb Q})_0\\) 与全箭头属于旧双迹核已清楚分开。\n- **目标收窄正确**：新增 \\(C_0\\) 例子确为紧而非迹类；稠密性与表示连续性给出像包含于 \\(\\mathbb CI+\\mathcal K(H_b)\\)。具体逆属于 \\(I+\\mathcal L^1\\)，因此收窄后的复形仍可缩。\n- **\\(z\\ne0\\) 修正正确**。\n\n仅剩一处 **P3 措辞歧义**：[L222](/H:/codex-build/RH/RH-Weil/notes/408-f1-orbit-completion-and-prime-boundaries.md:222)“其非单位像迹类”建议改为：\n> 非单位化理想 \\(A=S(\\mathbb A_{\\mathbb Q})\\rtimes_{\\rm alg}\\mathbb Q^\\times\\) 的像属于迹类。\n\n这样避免被理解为“所有不可逆元素的像都是迹类”。L219“通常**只**表示到”中的“只”也宜删除，与随后收窄目标一致。\n\n本次文件 SHA-256：\n```text\nb5675167c137d8aceb26c5ef1b0bed723e7b8e583245f9cc4c07340983039940\n```\n全程只读，未重审全文或来源。"
+    }
+  },
+  "timed_out": false
+}

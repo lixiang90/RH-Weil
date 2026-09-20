@@ -17,6 +17,7 @@ ROOT = Path(__file__).resolve().parents[1]
 WORKSPACE = ROOT.parent
 FILES = (
     "GOAL.20260909.md",
+    "archive/GOAL.20260909.f1-before-orbit-completion.md",
     "archive/GOAL.20260909.f1-before-prime-arrows.md",
     "archive/GOAL.20260909.f1-before-unit-descent.md",
     "archive/GOAL.20260909.f1-before-moment-radical.md",

@@ -144,3 +144,15 @@ itself impose the same vanishing condition on a metrized arithmetic divisor with
 依赖准备脚本入口为 --entry F1.Analysis.WeightedArrows。
 这些算子定义在全部函数上，未形式化Hilbert迹、Fredholm、Poisson、导出范畴或RH。
 纸面范围与实际算术来源见[407](../notes/407-f1-prime-arrows-fredholm-and-relative-complex.md)。
+
+
+## 2026-09-20：统一轨道乘积估计
+
+[OrbitDecay.lean](F1/Analysis/OrbitDecay.lean)的四项定向检查已通过Lean4.32.2：
+访问权乘积、逐点上界、有限访问次数下的乘积界及等距轨道跨度。
+[报告](checks/orbit-decay-verification.json)不含sorryAx依赖；
+[源码清单](checks/orbit-decay-source-audit.json)保留旧十处admission，项目源码17份。
+运行 python scripts/check_orbit_decay.py；依赖准备入口为 --entry F1.Analysis.OrbitDecay。
+可使用与前述相同的固定cache/runtime参数。未重建全F1。
+Banach交叉积、谱半径、整数访问计数、边界表示及导出范畴为
+[408](../notes/408-f1-orbit-completion-and-prime-boundaries.md)的纸面内容，没有冒称形式化。

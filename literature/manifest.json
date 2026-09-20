@@ -1801,9 +1801,10 @@
       "text_characters": 130756,
       "pdf_metadata_title": "arXiv:math/9811068v1  [math.NT]  10 Nov 1998",
       "status": "已有外部来源，选择性核读及404独立来源审计闭环；没有RH或完整几何存在性结论。",
-      "read_scope": "独立代理核读PDF21–22、28–36、41–47、76–78，PDF42视觉核对；主线程另核PDF29–32，PDF31视觉核对。仅所列定理前提与相关证明段，不认证全文。 405追加核读PDF69–74、76–78的主值正规化，74整页视觉核对；限定于所用语句与证明。 407: Leibniz read PDF25-29,31,41-42,45-47,77-78; visual27,31,42. Transverse local weights, finite-S theorem and RH-equivalent global claims kept distinct.",
+      "read_scope": "独立代理核读PDF21–22、28–36、41–47、76–78，PDF42视觉核对；主线程另核PDF29–32，PDF31视觉核对。仅所列定理前提与相关证明段，不认证全文。 405追加核读PDF69–74、76–78的主值正规化，74整页视觉核对；限定于所用语句与证明。 407: Leibniz read PDF25-29,31,41-42,45-47,77-78; visual27,31,42. Transverse local weights, finite-S theorem and RH-equivalent global claims kept distinct. 408: Hilbert additionally read PDF10-11,25-26,51,55-57 for Schwartz inductive-limit topology, Hilbert completion and boundary orbit closure; no full-paper certification.",
       "review_note": "../reviews/2026-09-20/f1-adelic-local-trace-independent-review.md",
-      "review_407": "../reviews/2026-09-20/f1-prime-arrows-source-review.md"
+      "review_407": "../reviews/2026-09-20/f1-prime-arrows-source-review.md",
+      "review_408": "../reviews/2026-09-20/f1-orbit-completion-source-review.md"
     },
     {
       "id": "CC-2024-knots",
@@ -1835,7 +1836,7 @@
       "version": "arXiv:math/0703392v1; 2007-03-13",
       "download_status": "downloaded",
       "status": "选定来源审计与405数学逆审已闭环；真正principaldivisor及完成cyclic商拓扑比较仍开放。",
-      "read_scope": "主线程核读PDF16–25、27–33，PDF33视觉核对。Lorentz核读17–25、27–33并补8–10、15–16、59–61；视觉9、20、21、24、25、28–33。仅所列范围，不认证全文或上游完整证明。 407: Leibniz read PDF16-25,27-34,37-40,47,60-61; visual28,34,47. Rational arrows vs external flow and boundary/cyclic constructions; no full upstream proof audit.",
+      "read_scope": "主线程核读PDF16–25、27–33，PDF33视觉核对。Lorentz核读17–25、27–33并补8–10、15–16、59–61；视觉9、20、21、24、25、28–33。仅所列范围，不认证全文或上游完整证明。 407: Leibniz read PDF16-25,27-34,37-40,47,60-61; visual28,34,47. Rational arrows vs external flow and boundary/cyclic constructions; no full upstream proof audit. 408: Hilbert read PDF16-25,33-50,60-61 and rendered key definition pages. Main read PDF35-37,39-43 for actual reduced groupoid, multiplier caveat and Hamiltonian multiplicities. Finite arrows, C* completion and cyclic closed-image quotient remain distinct.",
       "file": "f1/ccm-weil-adeles-math-0703392v1.pdf",
       "source_url": "https://arxiv.org/abs/math/0703392v1",
       "pdf_url": "https://arxiv.org/pdf/math/0703392v1",
@@ -1845,7 +1846,8 @@
       "pages": 61,
       "retrieved_at_utc": "2026-09-20T12:41:06.488026+00:00",
       "review_note": "../reviews/2026-09-20/f1-adelic-restriction-source-review.md",
-      "review_407": "../reviews/2026-09-20/f1-prime-arrows-source-review.md"
+      "review_407": "../reviews/2026-09-20/f1-prime-arrows-source-review.md",
+      "review_408": "../reviews/2026-09-20/f1-orbit-completion-source-review.md"
     },
     {
       "id": "Meyer-2005-ideles",
@@ -1881,9 +1883,10 @@
       "sha256": "68f9c8eaa5e9b46790e5adad0e8cd910da43566e7bc339ea5ecc81ab1f3fe601",
       "pages": 58,
       "retrieved_at_utc": "2026-09-20T13:03:13.087512+00:00",
-      "read_scope": "PDF1标题／作者／版本视觉核对；全文未核读。实际原件58页，arXiv comments写52页。",
+      "read_scope": "PDF1标题／作者／版本视觉核对；全文未核读。实际原件58页，arXiv comments写52页。 408: Hilbert read fixed v2 PDF8-9,23-24,26,29,32; topological tensor products and continuous multilinear forms specified, not a particular Banach completion.",
       "status": "上游原件归档，首页及元数据已核验；未认证全文证明。",
-      "pdf_parse_status": "PDF opens, title page checked; 58 actual pages."
+      "pdf_parse_status": "PDF opens, title page checked; 58 actual pages.",
+      "review_408": "../reviews/2026-09-20/f1-orbit-completion-source-review.md"
     },
     {
       "id": "Simon-1977-determinants",
