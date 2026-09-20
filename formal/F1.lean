@@ -3,6 +3,7 @@ import F1.Arithmetic.Sheaf
 import F1.Geometry.RationalCorrespondence
 import F1.Geometry.ReducedSquare
 import F1.Analysis.Jensen
+import F1.Analysis.LocalTrace
 import F1.Geometry.Existence
 import F1.Geometry.GeometricRealization
 

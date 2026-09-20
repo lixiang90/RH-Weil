@@ -249,8 +249,14 @@ pro非本质常值和未层化周期下降障碍的独立复核。
 此后才考虑对应与交叉，始终固定通常ζ及G0—G8。
 
 
-## 402–403之后的唯一当前问题：非局部算术混合配对
+## 402–403之后的混合配对任务快照
 
 402对角准入及第四次独立空间审查已结算，见[403](../notes/403-f1-support-locality-and-nonperfect-quotients.md)。
 当前转到[实际相对迹来源与混合配对任务](../reviews/2026-09-20/f1-nonlocal-mixed-pairing-next-proof-plan.md)。
 旧各节保留为阶段快照；完整τ及RR仍开放。
+
+
+## 404后的唯一当前问题：Adelic对应与真实主关系
+
+404已独立审查闭环，随后执行[任务单](../reviews/2026-09-20/f1-adelic-principal-relations-next-proof-plan.md)。
+局部L/2=N只完成离开单位元的必要检验；实际对应／主除子商、单位元项和RR仍开放。

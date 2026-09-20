@@ -1,0 +1,8 @@
+'RHWeil.F1.reflected_involutive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RHWeil.F1.reflected_fixed_neg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RHWeil.F1.selfConvolution_at_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RHWeil.F1.selfConvolution_at_zero_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RHWeil.F1.test_selfConvolution_at_zero_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RHWeil.F1.identityCorrection_eq_of_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RHWeil.F1.identityCorrection_self_difference' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RHWeil.F1.identityCorrection_self_ne' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,7 +1,28 @@
 # 持续GOAL执行账本：20260909版重启
 
 
-## 当前执行：第四次空间审查与402–403结算（2026-09-20）
+## 当前执行：Adelic周期轨道与局部迹（2026-09-20）
+
+[404](../notes/404-f1-adelic-periodic-orbits-and-mixed-local-trace.md)给真实p周期轨道及局部固定点分布：
+全时间局部和在sharp不变、支集远离0时满足L/2=N，精确通过403的log2混合检验。
+半因子、负时间雅可比、圆周迹与完整局部项的区别均已写出。
+[独立来源与数学复核](../reviews/2026-09-20/f1-adelic-local-trace-independent-review.md)已闭环，
+新增固定有限S的截断迹实现；非零自配对的单位元项仍需处理，不计为全G5/G6、RR或RH。
+
+新存Connes math/9811068v1（88页）及CC 2401.08401v1（实档10页），原件和SHA已登记。
+CC2015 §4/PDF14–17增量核读；局部计算、谱公式和RH等价的特定全局迹分开。
+随后按[真实主关系准入](../reviews/2026-09-20/f1-adelic-principal-relations-next-proof-plan.md)，
+核查实际对应类别及关系映射，不重复局部显式公式。
+
+上一批402–403及第四次空间审查已随
+[0d40c37](https://github.com/lixiang90/RH-Weil/commit/0d40c379003e7c574a9e0f074144e142f0a0f3b7)
+精确推送并核对远端。当前批提交状态以实际保存核验为准。
+根GOAL更新执行段并保留旧版；第十节字节不变，Goal保持active。
+用户新增Lean即时检验要求已写入第六节；[LocalTrace八条引理](../formal/F1/Analysis/LocalTrace.lean)
+已实际编译并检查传递公理，没有sorryAx。公共定义独立保存，检查记录与原完整构建记录分开；
+原有十处admission数量及内容保留，未因此宣称完整迹公式或RH已形式化。
+
+## 第四次空间审查与402–403结算快照（2026-09-20）
 
 Harvey已完成用户要求的[新增独立审查](../reviews/2026-09-20/f1-candidate-space-fourth-review.md)：
 390有界容器保留，三种替代定义与实现函子的可容许态射条件已整理；不把容器当成已实现的算术模空间。

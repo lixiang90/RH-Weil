@@ -5,7 +5,7 @@
 面向具有大学二年级数学基础的读者：[F₁ 路线究竟要找什么，以及为什么足以推出 RH](docs/f1-route-from-undergraduate-math.md)。
 讲义从具体例子出发，给出精确条件与完整条件证明，并区分指定来源和自由存在性路线。
 
-## 当前研究状态：F₁的Cartier塔与内在FF对角问题（2026-09-20）
+## 当前研究状态：F₁的Adelic局部迹与主关系（2026-09-20）
 
 [GOAL.20260909.md](goals/GOAL.20260909.md)已按用户要求修订并启动，
 原第十三版已按原始字节归档。十轮整数候选的[完整独立验收](notes/364-frozen-integer-candidate-verification.md)
@@ -73,7 +73,10 @@ pro塔却非本质常值，原未层化Čech下降又缺统一源层；独立复
 并证明普通Q_p平方对角理想非有限生成，独立复核通过。
 [第四次独立空间审查](reviews/2026-09-20/f1-candidate-space-fourth-review.md)保留有界容器并比较三种替代定义；
 [403](notes/403-f1-support-locality-and-nonperfect-quotients.md)新增支集局部配对与固定Weil型的不相容、有限Tor维数不保证完美的限制。
-下一步先检验实际非局部相对迹及log2混合配对；完整τ、交叉及固定ζ比较仍开放。
+[404](notes/404-f1-adelic-periodic-orbits-and-mixed-local-trace.md)从实际adelic周期轨道及局部缩放计算，
+得到离开单位元的L/2=N与log2混合检验，独立复核通过，并接入固定有限S的截断迹极限。
+局部迹不是完整G5/G6；后续按[真实主关系任务](reviews/2026-09-20/f1-adelic-principal-relations-next-proof-plan.md)，
+核对对应载体及关系是否被双矩与固定配对消去。完整τ、交叉及RR仍开放。
 候选容器非空仍不意味着全部算术条件有实例。
 [任务单](goals/NEXT.20260909.md)给出顺序。
 尚无新的RH或无条件比例结论；完整验收与较远期显著进展分开。

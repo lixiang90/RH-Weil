@@ -1,5 +1,36 @@
 # F₁ 路线的 Lean + mathlib 形式化蓝图
 
+## 2026-09-20：连续研究中的即时Lean检查
+
+当前持续GOAL为active；下方2026-09-09“暂停”文字是当时的历史状态。
+按用户新增要求，推导不确定时直接用Lean检查，并将可复用证明保存在本目录。
+新增[LocalTrace.lean](F1/Analysis/LocalTrace.lean)，检查404的反射、自卷积单位元值、
+非零连续紧支函数的严格正性，以及单位元修正的不可见性／非零自配对差异。
+八条结果已通过Lean 4.32.2实际检查，传递依赖仅为propext、Classical.choice、Quot.sound，
+不调用原有weil_convergence或weilCriterion的admission。公共测试函数定义已移入
+[TestFunctions.lean](F1/Analysis/TestFunctions.lean)，保持原有名称和定义。
+
+定向验证入口：[check_local_trace.py](scripts/check_local_trace.py)；
+[结果](checks/local-trace-verification.json)、[实际编译输出](checks/local-trace-build.txt)、
+[传递公理](checks/local-trace-axioms.txt)记录当前状态。运行命令：
+
+    python scripts/check_local_trace.py
+
+本机旧构建junction指向已不存在的C:\Users\ip目录；可使用同一项目内已核对提交的备份：
+
+    python scripts/prepare_local_trace_runtime.py --cache-backup .lake/hdd-backup-05156b5b --runtime-dir "$env:TEMP/rh-weil-local-trace-20260920"
+    python scripts/check_local_trace.py --cache-backup .lake/hdd-backup-05156b5b --runtime-dir "$env:TEMP/rh-weil-local-trace-20260920"
+
+第二组命令用于PowerShell。准备脚本逐项核对导入闭包所需的olean／server／private／IR文件；
+缺失时须先从固定提交的官方缓存恢复，再运行检查。正式研究源码始终保存在formal。
+本机实际检查在临时本地盘运行，以避开旧junction及H盘缓存加载问题；不改旧junction。
+不用--runtime-dir时，新编译产物放在.lake/local-trace-check。
+本轮还用准备脚本的--entry F1.Analysis.Weil和检查脚本的--check-weil，
+对移动定义后的Weil模块进行兼容性编译，保留它原有两处显式admission。
+该定向运行不冒充整个F1库重建；原[完整构建验收](checks/README.md)仍保留其日期和范围。
+本轮未形式化局部域全部迹定理、几何主关系、RR或RH。
+
+
 首次阅读可先看[本科背景讲义](../docs/f1-route-from-undergraduate-math.md)：
 解释实际对象、精确条件与条件证明；技术细节再查本目录。
 

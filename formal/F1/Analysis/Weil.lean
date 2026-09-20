@@ -1,8 +1,7 @@
 import Mathlib.NumberTheory.LSeries.RiemannZeta
 import Mathlib.NumberTheory.ArithmeticFunction.VonMangoldt
 import Mathlib.NumberTheory.Harmonic.EulerMascheroni
-import Mathlib.Analysis.Calculus.ContDiff.Basic
-import Mathlib.MeasureTheory.Integral.Bochner.Basic
+import F1.Analysis.TestFunctions
 
 /-! The arithmetic quadratic form is fixed by primes and the archimedean term.
 Coordinates are x = log u here, unlike the Jensen coordinate -log |z|.
@@ -10,30 +9,6 @@ Source: Connes--Consani arXiv:1805.10501v1, §3, equations (12)--(14).
 -/
 
 namespace RHWeil.F1
-
-open scoped ContDiff
-
-structure TestFunction where
-  toFun : ℝ → ℝ
-  smooth : ContDiff ℝ ∞ toFun
-  compactSupport : HasCompactSupport toFun
-
-instance : CoeFun TestFunction (fun _ => ℝ → ℝ) := ⟨TestFunction.toFun⟩
-
-noncomputable def degreeMoment (f : TestFunction) : ℝ :=
-  ∫ x : ℝ, Real.exp x * f x
-
-noncomputable def codegreeMoment (f : TestFunction) : ℝ :=
-  ∫ x : ℝ, f x
-
-def ZeroMoments (f : TestFunction) : Prop :=
-  degreeMoment f = 0 ∧ codegreeMoment f = 0
-
-noncomputable def reflected (f : ℝ → ℝ) (x : ℝ) : ℝ :=
-  Real.exp (-x) * f (-x)
-
-noncomputable def logConvolution (f g : ℝ → ℝ) (x : ℝ) : ℝ :=
-  ∫ t : ℝ, f t * g (x - t)
 
 noncomputable def arithmeticDistribution (h : ℝ → ℝ) : ℝ :=
   (∑' n : ℕ, ArithmeticFunction.vonMangoldt n * h (Real.log (n : ℝ))) +

@@ -1,0 +1,76 @@
+{
+  "status": "passed_no_sorry_dependencies",
+  "checked_at_utc": "2026-09-20T12:30:03.531834+00:00",
+  "lean_version": "Lean (version 4.32.2, x86_64-w64-windows-gnu, commit f3b06c705e6c85f5314019d5d3baab0fec5b580c, Release)",
+  "mathlib_revision": "905b95818eb32af7874a58b427f50c1711a5e96c",
+  "cache_backup": ".lake\\hdd-backup-05156b5b",
+  "runtime_dir": "C:\\Users\\A\\AppData\\Local\\Temp\\rh-weil-local-trace-20260920",
+  "scope": "Shared test-function definitions recompiled; eight LocalTrace results checked. No full F1 build. Affected Weil module compatibility compiled with its original admissions.",
+  "commands": [
+    {
+      "source": "F1/Analysis/TestFunctions.lean",
+      "exit_code": 0
+    },
+    {
+      "source": "F1/Analysis/LocalTrace.lean",
+      "exit_code": 0
+    },
+    {
+      "source": "checks/LocalTraceAudit.lean",
+      "exit_code": 0
+    },
+    {
+      "source": "F1/Analysis/Weil.lean",
+      "exit_code": 0
+    }
+  ],
+  "source_sha256": {
+    "F1/Analysis/TestFunctions.lean": "02f5401b51aaeef3e9c6644636680b28f8ca614f4eddb9e8b5d347214a12c0e0",
+    "F1/Analysis/LocalTrace.lean": "17887badf9f2e150a6cb34e40527b3d0f8591f5f2e19a18ebbbae571b11b18d2",
+    "checks/LocalTraceAudit.lean": "8b80545a5de6146947b84617c66ebe98e2958b33a255baff685fa084d303e6d9",
+    "F1/Analysis/Weil.lean": "893c3badbe002ac22810152c50e7de95d9963754c797703665bb7cc88565bad3"
+  },
+  "axioms": {
+    "RHWeil.F1.reflected_involutive": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "RHWeil.F1.reflected_fixed_neg": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "RHWeil.F1.selfConvolution_at_zero": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "RHWeil.F1.selfConvolution_at_zero_pos": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "RHWeil.F1.test_selfConvolution_at_zero_pos": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "RHWeil.F1.identityCorrection_eq_of_zero": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "RHWeil.F1.identityCorrection_self_difference": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "RHWeil.F1.identityCorrection_self_ne": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "existing_admissions": "The existing Weil convergence and criterion admissions are not imported by these eight results."
+}

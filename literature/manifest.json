@@ -944,6 +944,11 @@
           "date": "2026-09-20",
           "scope": "Proposition6.13、Definition6.22、Definition7.1、式(41)–(42)及Theorem7.7：算术平方、双侧作用与约化对应；保留复合的切向例外。用作下一任务的已知来源基线，不计作新构造或全文认证。",
           "note": "reviews/2026-09-20/f1-marked-correspondence-next-proof-plan.md"
+        },
+        {
+          "date": "2026-09-20",
+          "scope": "404增量核读§4.1–4.3/PDF14–17及参考文献PDF42–43；PDF16视觉核对。局部固定点计算、Hasse-Weil重建和未建全局交叉分开。",
+          "review_note": "../notes/404-f1-adelic-periodic-orbits-and-mixed-local-trace.md"
         }
       ]
     },
@@ -1776,6 +1781,50 @@
       "pages": 137,
       "read_scope": "仅PDF114、117–118文字及整页渲染视觉核查：08DN及08CL/08CQ的有限呈现、伪凝聚和完美性；未核审整章。",
       "review_note": "../notes/403-f1-support-locality-and-nonperfect-quotients.md"
+    },
+    {
+      "id": "Connes-1998-trace",
+      "category": "f1-background",
+      "authors": "Alain Connes",
+      "title": "Trace formula in noncommutative geometry and the zeros of the Riemann zeta function",
+      "version": "arXiv:math/9811068v1; 1998-11-10; preprint associated with Selecta Math. 5 (1999), 29-106",
+      "file": "f1/connes-trace-math-9811068v1.pdf",
+      "source_url": "https://arxiv.org/abs/math/9811068v1",
+      "pdf_url": "https://arxiv.org/pdf/math/9811068v1",
+      "resolved_pdf_url": "https://arxiv.org/pdf/math/9811068v1",
+      "download_status": "downloaded",
+      "bytes": 519632,
+      "sha256": "dfd4e9924d8980f82e3da11fdea861d318fda8f5c7ba57ee659baf8631975053",
+      "retrieved_at_utc": "2026-09-20T11:07:12.777965+00:00",
+      "pages": 88,
+      "pdf_parse_status": "all pages parsed; mathematical reading scope recorded separately",
+      "text_characters": 130756,
+      "pdf_metadata_title": "arXiv:math/9811068v1  [math.NT]  10 Nov 1998",
+      "status": "已有外部来源，选择性核读及404独立来源审计闭环；没有RH或完整几何存在性结论。",
+      "read_scope": "独立代理核读PDF21–22、28–36、41–47、76–78，PDF42视觉核对；主线程另核PDF29–32，PDF31视觉核对。仅所列定理前提与相关证明段，不认证全文。",
+      "review_note": "../reviews/2026-09-20/f1-adelic-local-trace-independent-review.md"
+    },
+    {
+      "id": "CC-2024-knots",
+      "category": "f1-background",
+      "authors": "Alain Connes; Caterina Consani",
+      "title": "Knots, Primes and the adele class space",
+      "version": "arXiv:2401.08401v1; 2024-01-16",
+      "file": "f1/cc-knots-primes-2401.08401v1.pdf",
+      "source_url": "https://arxiv.org/abs/2401.08401v1",
+      "pdf_url": "https://arxiv.org/pdf/2401.08401v1",
+      "resolved_pdf_url": "https://arxiv.org/pdf/2401.08401v1",
+      "download_status": "downloaded",
+      "bytes": 1273894,
+      "sha256": "7f9305b4052e45da2a1952fec17697420e13c311737f01b2e6599ecaec74ace3",
+      "retrieved_at_utc": "2026-09-20T11:07:16.635637+00:00",
+      "pages": 10,
+      "pdf_parse_status": "all pages parsed; mathematical reading scope recorded separately",
+      "text_characters": 20223,
+      "pdf_metadata_title": "",
+      "status": "已有外部来源，选择性核读及404独立来源审计闭环；没有RH或完整几何存在性结论。",
+      "read_scope": "PDF1–5；PDF4视觉核对。采用双商与周期轨道描述；不认证全部类域论输入或后续K理论。原件10页，来源页面comments写9页。",
+      "review_note": "../notes/404-f1-adelic-periodic-orbits-and-mixed-local-trace.md"
     }
   ],
   "supplement_provenance": [

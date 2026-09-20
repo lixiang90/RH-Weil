@@ -754,3 +754,32 @@ SHA256：23fbd6af99fe8f0b36a010c0b69ebb0f0f54761f53b530c685b1375001bb5893。
 
 
 402后续已通过独立复核；主代理补核FF Definition5.1.1/PDF212。数学结论及范围见402和其独立报告。
+
+
+### Trace formula in noncommutative geometry and the zeros of the Riemann zeta function (archived 2026-09-20)
+
+Alain Connes. arXiv:math/9811068v1; 1998-11-10; preprint associated with Selecta Math. 5 (1999), 29-106.
+[PDF](f1/connes-trace-math-9811068v1.pdf); [version](https://arxiv.org/abs/math/9811068v1); [download](https://arxiv.org/pdf/math/9811068v1).
+88 pages; SHA-256 dfd4e9924d8980f82e3da11fdea861d318fda8f5c7ba57ee659baf8631975053. Selective reading completed; exact scope and limits are recorded in the 2026-09-20 update below.
+
+
+### Knots, Primes and the adele class space (archived 2026-09-20)
+
+Alain Connes; Caterina Consani. arXiv:2401.08401v1; 2024-01-16.
+[PDF](f1/cc-knots-primes-2401.08401v1.pdf); [version](https://arxiv.org/abs/2401.08401v1); [download](https://arxiv.org/pdf/2401.08401v1).
+10 pages; SHA-256 7f9305b4052e45da2a1952fec17697420e13c311737f01b2e6599ecaec74ace3. Selective reading completed; exact scope and limits are recorded in the 2026-09-20 update below.
+
+
+## 2026-09-20续记：实际周期轨道与混合局部迹
+
+复用[CC2015原件](f1/cc-arithmetic-site-1502.05580v1.pdf)，增量核读§4.1–4.3/PDF14–17及参考文献PDF42–43，PDF16视觉核对。
+新存[CC2024原件](f1/cc-knots-primes-2401.08401v1.pdf)，本轮核读PDF1–5、视觉核对PDF4；
+原件实际10页，arXiv页面comments所写9页不作为实档页数。
+新存[Connes1998原件](f1/connes-trace-math-9811068v1.pdf)，半局部与特定全局迹的[独立来源审计](../reviews/2026-09-20/f1-adelic-local-trace-independent-review.md)已闭环。
+下载时本机代理关闭连接，随后直接连接下载成功，原字节未修改。
+
+数学推导和边界见[404](../notes/404-f1-adelic-periodic-orbits-and-mixed-local-trace.md)：
+来源的局部固定点分布经独立计算给L/2=N，未建立全局除子交叉、主根空间或RR。
+
+Connes原件实际核读：独立代理PDF21–22、28–36、41–47、76–78，PDF42视觉核对；主线程另读PDF29–32、视觉核对PDF31。
+Theorem4可给404的固定有限S迹推论；Theorem5正式陈述为正特征，数域讨论与截断另列，不混写RH等价强度。

@@ -1,5 +1,15 @@
 # 验证记录
 
+## 2026-09-20 LocalTrace定向检查
+
+[定向报告](local-trace-verification.json)、[编译输出](local-trace-build.txt)与
+[公理输出](local-trace-axioms.txt)是本轮记录；不覆盖下方原完整构建报告。
+[LocalTraceAudit.lean](LocalTraceAudit.lean)列出八条新结果的传递公理检查；实际全部通过，
+仅依赖Lean标准公理propext、Classical.choice、Quot.sound，无sorryAx。
+[源码清单](local-trace-source-audit.json)另存；vendor八包806文件与原版本一致。
+数学对应见[404](../../notes/404-f1-adelic-periodic-orbits-and-mixed-local-trace.md)，完整解析／几何迹仍未形式化。
+
+
 ## 2026-09-10 几何实现条件包
 
 新增源相对 `GeometricRealization.lean`、G0–G8 规范和六个条件推论。
