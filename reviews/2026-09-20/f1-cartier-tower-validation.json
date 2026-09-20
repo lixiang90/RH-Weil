@@ -1,0 +1,80 @@
+{
+  "checked_at_utc": "2026-09-20T10:05:28.242006+00:00",
+  "scope": "400/401 documents and preservation; mathematical evidence is in independent reports, not these mechanical checks",
+  "markdown_files": [
+    "README.md",
+    "RESEARCH_BRANCHES.md",
+    "goals/GOAL.20260909.md",
+    "goals/NEXT.20260909.md",
+    "goals/PROGRESS.md",
+    "goals/archive/README.md",
+    "goals/archive/GOAL.20260909.f1-before-tower-limit.md",
+    "literature/README.md",
+    "notes/400-f1-cartier-tower-limit-and-stalk-defect.md",
+    "notes/401-f1-dual-cartier-ideal-and-reflexive-collapse.md",
+    "reviews/2026-09-20/f1-cartier-tower-independent-review.md",
+    "reviews/2026-09-20/f1-dual-cartier-ideal-independent-review.md",
+    "reviews/2026-09-20/f1-cartier-tower-descent-next-proof-plan.md",
+    "reviews/2026-09-20/f1-intrinsic-ff-diagonal-next-proof-plan.md"
+  ],
+  "local_link_targets_checked": 1098,
+  "broken_links": [],
+  "goal_mirrors": "Goal mirror verified: 23 files.",
+  "goal_before_sha256": "f7fa9ed22386916593906b1aaaa06898b35e44724e1286c191595a50f3ee3c11",
+  "goal_after_sha256": "c3b1df64b21ceedaac4081d8cbec7882126ec6e60bdb6d9fd998c010086c3918",
+  "long_term_B_C_bytes_unchanged": true,
+  "reused_pdf": {
+    "file": "literature/f1/stacks-categories-ed88ff78-20260915.pdf",
+    "sha256": "0c5b215939e22e807d605dd1e35149aa3972d5443da8bbabb33d9f43a3db4a51",
+    "pages": 103,
+    "read_pages": [
+      33,
+      34
+    ],
+    "rendered_and_viewed_pages": [
+      33,
+      34
+    ],
+    "new_pdf_downloaded": false
+  },
+  "recovered_prior_pdf": {
+    "time_utc": "2026-09-20T09:37:29.915441+00:00",
+    "file": "literature/f1/stacks-algebra-ed88ff78-20260920.pdf",
+    "observed_bytes": 0,
+    "preserved_empty_path": "H:\\codex-build\\RH\\archive\\f1-400-empty-pdf-recovery\\stacks-algebra-ed88ff78-20260920.pdf.empty",
+    "restored_from": "HEAD:literature/f1/stacks-algebra-ed88ff78-20260920.pdf",
+    "restored_bytes": 2828052,
+    "restored_sha256": "b035a1f02104906a1820636cd332a0d7962fef3318d207a056634cb14dc86947",
+    "manifest_match": true,
+    "cause": "not determined; no attribution to user or agent"
+  },
+  "unrelated_files_unchanged": {
+    "reviews/2026-09-08/control-prefix-curvature-budget.json": "cc5c7e5f58f9057c5fb2dc38d22fa878c260a9ade964e651d3dbe1e588f9cda8",
+    "reviews/2026-09-08/radius-five-continuous-period-pressure.json": "1c27b0bc1c4c635b4ed2fbf40d9378bc9c1089afe56a36313d2f6e5b8a031e25",
+    "scripts/control_prefix_curvature_budget.py": "59842cf32a2446a6558a38c731adc3e724eefd17398d3a6321e3b071aa7988bf",
+    "scripts/radius_five_continuous_period_pressure.py": "7fac1a13e9652cb1187abb958de833043b2d9ac91f06484f887108f07e5c5cb6"
+  },
+  "not_run": [
+    "old numerical scans",
+    "Lean build",
+    "global priority/novelty audit"
+  ],
+  "historical_source_hashes_against_HEAD": 20,
+  "empty_source_preflight_regression": "passed; first existing mirror and manifest untouched when a later source is empty",
+  "recovered_prior_goal": {
+    "file": "archive/GOAL.20260909.f1-geometric-quotient.md",
+    "observed_bytes": 0,
+    "recovered_bytes": 34527,
+    "source_sha256": "38dd2395907ad0753224b8500524af11c39a8c9eacd7629e44622f151d51814f",
+    "source": "HEAD archived mirror with inverse link rebasing; exact original SHA256 verified",
+    "other_historical_sources_match_HEAD_manifest": true,
+    "cause": "not determined"
+  },
+  "literature_integrity_after_truncation": {
+    "pdfs_checked": 74,
+    "bytes_checked": 98020773,
+    "missing_files": [],
+    "hash_mismatches": [],
+    "scope": "file integrity only, not mathematical theorem review"
+  }
+}

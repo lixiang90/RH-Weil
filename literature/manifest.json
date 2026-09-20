@@ -1582,7 +1582,18 @@
       "download_status": "downloaded",
       "pdf_parse_status": "all pages parsed",
       "status": "候选空间第二次独立审查的背景来源；限定条款核查，不是完整几何实现或全文认证",
-      "review_note": "../notes/391-f1-candidate-space-review-and-alternatives.md"
+      "review_note": "../notes/391-f1-candidate-space-review-and-alternatives.md",
+      "read_scope_updates": [
+        {
+          "date": "2026-09-20",
+          "scope": "400的pro范畴背景：复用原ed88ff78 PDF33–34，核读Remark22.5/tag05PX的Hom定义、Example22.6/tag0G2W的逐层代表及共尾等价；完整相关页面已提取并渲染核对。在线tag05PX/0G2W同时核对；未把略证的其他引理或一般pro层有效下降当成已审定理。",
+          "note": "../notes/400-f1-cartier-tower-limit-and-stalk-defect.md",
+          "source_urls": [
+            "https://stacks.math.columbia.edu/tag/05PX",
+            "https://stacks.math.columbia.edu/tag/0G2W"
+          ]
+        }
+      ]
     },
     {
       "id": "Stacks-Modules-on-Sites-ed88ff78-20260915",

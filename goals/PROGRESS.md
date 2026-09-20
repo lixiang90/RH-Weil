@@ -1,6 +1,31 @@
 # 持续GOAL执行账本：20260909版重启
 
-## 当前执行：399已审，转向Cartier塔的全局下降（2026-09-20）
+## 当前执行：Cartier塔已审，转向内在FF对角准入（2026-09-20）
+
+[400](../notes/400-f1-cartier-tower-limit-and-stalk-defect.md)在全部有理局部模型证明
+lim←(S,×Q_N)={(F_N f)_N:f∈S}；通常层极限带截面为(O,1)。
+图点处取茎与极限的比较是乘F_0，单射非满。
+原pro塔并非本质常值，且整数分支上的共尾同构不能在未层化Čech交叠上选统一源层。
+Lagrange的[独立逆审](../reviews/2026-09-20/f1-cartier-tower-independent-review.md)已经闭环。
+
+[401](../notes/401-f1-dual-cartier-ideal-and-reflexive-collapse.md)另构造普通理想层J=ΣF_NO及其实际周期下降：
+逐茎自由秩一、平坦，但在每个图点不局部有限生成；有理截面J(S)严格稠密于闭图核I_S。
+其双对偶为O，evaluation仍是J⊂O，图点不满；追加逆审已经通过。
+它保留实际数据，尚不能直接给Cartier／RR／完整τ；独立推导范围见[报告](../reviews/2026-09-20/f1-dual-cartier-ideal-independent-review.md)。
+
+下一唯一主任务为[内在FF对角](../reviews/2026-09-20/f1-intrinsic-ff-diagonal-next-proof-plan.md)：
+先核实untilt给出的scheme点及其实际剩余域，再检验普通Q_p平方中对角的代数余法模。
+不先假定FF曲线的普通平方是光滑曲面，也不将普通代数微分与连续微分混同。
+这是更换具体几何来源后的准入测试，不降低G0—G8或GOAL第十节B/C。
+
+复用已归档Stacks Categories PDF33–34，增量核读与渲染范围已保存，没有重复下载。
+中断后发现旧Stacks Algebra PDF及一份历史目标源文件为0字节，已保留现场并按HEAD／原SHA256准确恢复。
+目标同步脚本已增加全部源文件的写前非空检查，防止空源覆盖完整镜像。
+原因未确定，未归因于用户或代理。本轮不重跑旧数值扫描或Lean。
+上一批399已精确同步至GitHub提交[23b47a6](https://github.com/lixiang90/RH-Weil/commit/23b47a68c8c132bccfb6ebe65d9090804bf1ebbc)。
+本批保存以实际提交／远端核验为准；Goal继续active，较远期目标尚未实现。
+
+## 399结算时的执行快照（2026-09-20）
 
 [399](../notes/399-f1-normalized-cartier-kernels-and-principal-topology.md)完成以下限定输入：
 

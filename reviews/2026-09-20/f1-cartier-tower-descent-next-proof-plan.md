@@ -1,6 +1,10 @@
 # 399之后的有限任务：保留Cartier塔过渡数据的周期下降
 
-2026-09-20。**[O] 准入与待证任务；不宣称新的除子理论或τ已经存在。**
+2026-09-20。**本项限定极限／下降检验已由400–401结算；完整τ仍[O]。**
+[400](../../notes/400-f1-cartier-tower-limit-and-stalk-defect.md)给普通极限退化、pro非本质常值及未层化下降障碍，
+[401](../../notes/401-f1-dual-cartier-ideal-and-reflexive-collapse.md)给实际下降的非闭理想层及不局部有限生成。
+这些结果不提供所需Cartier／RR接口，下一准入问题转到[内在FF对角](f1-intrinsic-ff-diagonal-next-proof-plan.md)。
+下面保留原任务规范，不再重复将其列为当前未验收队列。
 前序[399](../../notes/399-f1-normalized-cartier-kernels-and-principal-topology.md)
 及[独立审查](f1-normalized-kernel-independent-review.md)已经结算。
 单个标量概率核的路线遇到明确障碍：固定层不下降，高度混合虽下降却不保严格幂复合；

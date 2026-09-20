@@ -5,7 +5,7 @@
 面向具有大学二年级数学基础的读者：[F₁ 路线究竟要找什么，以及为什么足以推出 RH](docs/f1-route-from-undergraduate-math.md)。
 讲义从具体例子出发，给出精确条件与完整条件证明，并区分指定来源和自由存在性路线。
 
-## 当前研究状态：F₁空间复核、图核与全局主关系（2026-09-20）
+## 当前研究状态：F₁的Cartier塔与内在FF对角问题（2026-09-20）
 
 [GOAL.20260909.md](goals/GOAL.20260909.md)已按用户要求修订并启动，
 原第十三版已按原始字节归档。十轮整数候选的[完整独立验收](notes/364-frozen-integer-candidate-verification.md)
@@ -64,8 +64,12 @@ G0跨类型接口据此修订。[391](notes/391-f1-candidate-space-review-and-al
 归一化核一致弱收敛到完整图，但总变差距离恒为2；指定覆盖主核的强闭商会消去图。
 高度混合给实际周期下降，却不保严格幂复合；这些限定结论均经
 [独立复核](reviews/2026-09-20/f1-normalized-kernel-independent-review.md)。
-下一步检验[保留Cartier塔与过渡数据的下降](reviews/2026-09-20/f1-cartier-tower-descent-next-proof-plan.md)，
-完整τ、双次数、交叉及固定ζ比较仍开放。
+[400](notes/400-f1-cartier-tower-limit-and-stalk-defect.md)已算出全部有理邻域上的实际逆极限：通常极限为单位截面，
+pro塔却非本质常值，原未层化Čech下降又缺统一源层；独立复核通过。
+[401](notes/401-f1-dual-cartier-ideal-and-reflexive-collapse.md)从对偶直接极限构造可实际下降的非闭理想层，
+但它在图点不局部有限生成，仍不能充当通常Cartier除子。
+下一项是[内在FF曲线的普通平方与对角准入](reviews/2026-09-20/f1-intrinsic-ff-diagonal-next-proof-plan.md)，
+首先核对untilt点的实际剩余域和代数余法模；完整τ、交叉及固定ζ比较仍开放。
 候选容器非空仍不意味着全部算术条件有实例。
 [任务单](goals/NEXT.20260909.md)给出顺序。
 尚无新的RH或无条件比例结论；完整验收与较远期显著进展分开。

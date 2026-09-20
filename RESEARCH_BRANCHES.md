@@ -8,7 +8,7 @@
 | 顺序 | 任务 | 验收与切换 |
 |---|---|---|
 | 已结算 | 旧周期13的iteration-10冻结候选：[364完整验收](notes/364-frozen-integer-candidate-verification.md) | 6237815186边全扫描，13755190失败；最坏边320位真实标量缺口仍严格为正。只排除该表的同word／前缀充分条件 |
-| 当前主线 | F1-EX1：[399](notes/399-f1-normalized-cartier-kernels-and-principal-topology.md)的全基底图核、原C下降、强主商障碍及高度混合复合限制均独立复核通过 | 按[Cartier塔任务](reviews/2026-09-20/f1-cartier-tower-descent-next-proof-plan.md)保留实际过渡乘子，检验逆系统、茎与极限、周期有效下降和全局主关系；不以pro对象定义代替几何恢复。396–398接口保持，完整τ／交叉／ζ仍开放 |
+| 当前主线 | F1-EX1：[400](notes/400-f1-cartier-tower-limit-and-stalk-defect.md)已证普通逆极限退化、pro非本质常值及未层化下降障碍；[401](notes/401-f1-dual-cartier-ideal-and-reflexive-collapse.md)给真正下降的非闭理想层，但不局部有限生成 | 按[内在FF对角任务](reviews/2026-09-20/f1-intrinsic-ff-diagonal-next-proof-plan.md)核对untilt点剩余域、普通Q_p平方和代数余法模，不从一维正则曲线直接导入光滑曲面交叉。完整τ／RR／ζ仍开放 |
 | 必要辅助 | 经典Lean缺口、原始文献及只读独立复核 | 26项既有检查与十个sorry为当前基线；形式化通过不替代实际算术存在性 |
 
 [任务单](goals/NEXT.20260909.md)与[账本](goals/PROGRESS.md)维护当前状态。

@@ -720,3 +720,13 @@ PDF4页Theorem6与唯一性证明、PDF5页代数扩张说明，3–4页另渲�
 有限扩张范数的存在性在该讲义中转引Newton多边形单元；本项目采用标准定理陈述，
 未将该转引证明或整个课程计为已重审。全部六页文本解析不等于全文证明认证。
 历史原件及补充材料累计数由92增至93，仍包括先前仅本地保存的原件。
+
+
+### 2026-09-20：Cartier塔的pro范畴背景增量核读
+
+复用已归档 [Stacks Categories，ed88ff78](f1/stacks-categories-ed88ff78-20260915.pdf)，不重复下载。
+核读并渲染PDF33–34的Remark22.5与Example22.6；另核在线
+[tag05PX](https://stacks.math.columbia.edu/tag/05PX)及[tag0G2W](https://stacks.math.columbia.edu/tag/0G2W)。
+采用的是pro态射的lim-colim定义、逐层代表及共尾等价，不由此导入一般pro层的有效下降。
+本轮[400](../notes/400-f1-cartier-tower-limit-and-stalk-defect.md)的解析逆极限和取茎失配是另行推导的限定命题。
+原PDF字节和SHA256未变，文献数量不增加。

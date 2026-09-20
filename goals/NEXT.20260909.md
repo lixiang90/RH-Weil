@@ -218,7 +218,7 @@ H盘本地Git的缺失对象及索引现已恢复，工作树正常快进至7091
 若只是Dirac图的重述或图被闭主商消去，不认定新结构输入并按范围切换。
 根GOAL已同步本次理由并保存旧版；第十节B/C保持，Goal继续active。
 
-## 399之后的唯一当前主问题：保留实际Cartier过渡数据
+## 399之后的Cartier过渡数据任务：已结算
 
 [399](../notes/399-f1-normalized-cartier-kernels-and-principal-topology.md)及
 [Einstein完整独立审查](../reviews/2026-09-20/f1-normalized-kernel-independent-review.md)
@@ -232,3 +232,18 @@ H盘本地Git的缺失对象及索引现已恢复，工作树正常快进至7091
 新机制是保留此前标量核忘掉的过渡字段；并未证明这一候选成功。
 不把共尾重编号当作每条箭头可逆，不以点集零值代替解析可除性。
 完整τ、G0—G8与固定通常ζ仍开放，Goal保持active。
+
+
+## 400–401之后的唯一当前主问题：内在FF曲线的对角准入
+
+[400](../notes/400-f1-cartier-tower-limit-and-stalk-defect.md)已完成普通逆极限、取茎失配、
+pro非本质常值和未层化周期下降障碍的独立复核。
+[401](../notes/401-f1-dual-cartier-ideal-and-reflexive-collapse.md)给实际非闭理想层及普通周期下降，
+但它在图附近不局部有限生成，不能直接充当通常Cartier数据。
+上述限定候选不作为完整τ或较远期完成。
+
+按[内在FF对角任务](../reviews/2026-09-20/f1-intrinsic-ff-diagonal-next-proof-plan.md)：
+取379实际C及F=C^♭，先核对内在X_(F,Q_p)的untilt点是否有剩余域恰为C；
+再检验普通scheme平方的对角余法模，与C/Q_p的代数Kähler微分比较。
+若发生明确障碍，严格限定到该基底／平方；不能用连续微分偷换代数微分。
+此后才考虑对应与交叉，始终固定通常ζ及G0—G8。

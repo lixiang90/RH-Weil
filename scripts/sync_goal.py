@@ -17,6 +17,7 @@ ROOT = Path(__file__).resolve().parents[1]
 WORKSPACE = ROOT.parent
 FILES = (
     "GOAL.20260909.md",
+    "archive/GOAL.20260909.f1-before-tower-limit.md",
     "archive/GOAL.20260909.f1-before-kernel-descent.md",
     "archive/GOAL.20260909.f1-before-noncartier.md",
     "archive/GOAL.20260909.f1-geometric-quotient.md",
@@ -68,9 +69,14 @@ def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--check", action="store_true")
     args = parser.parse_args()
+    # Read and validate every source before touching any existing mirror.
+    # A truncated archive must not silently replace a preserved historical goal.
+    sources = [(relative, (WORKSPACE / relative).read_bytes()) for relative in FILES]
+    for relative, raw in sources:
+        if not raw.strip():
+            raise SystemExit(f"Refusing empty goal source before mirror writes: {relative}")
     records = []
-    for relative in FILES:
-        raw = (WORKSPACE / relative).read_bytes()
+    for relative, raw in sources:
         mirrored = mirror_bytes(relative, raw)
         destination = ROOT / "goals" / relative
         if args.check:
