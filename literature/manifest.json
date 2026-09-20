@@ -1444,6 +1444,11 @@
           "date": "2026-09-13",
           "report": "../reviews/2026-09-13/f1-analytic-continuation-source-audit.md",
           "scope": "387来源：McClintock核有理局部化复合、uniform非零谱检测、非空域反演函数；主线程另读PDF35–36、59。采用Def2.8.1(b)、Theorem2.3.10和Lem2.4.13(a)(b)，不误用已勘误的一般(d)充分性。"
+        },
+        {
+          "date": "2026-09-20",
+          "report": "../notes/398-f1-diagonal-square-and-noncartier-graphs.md",
+          "scope": "398来源：主线程重新核读PDF31 Theorem2.2.8、41–42有理局部化及Lemma2.4.13、89 Example3.6.6、94 Theorems3.6.14(c)/3.6.15；31、89、94另渲染原页核对。明确有限多变量版本、拓扑幂零单位前提及闭关系商。原件SHA256与归档值一致。复用384已审有限型affinoid依赖，不认证完整KL或GAGA/RR；398的直接证明状态单列。"
         }
       ]
     },
@@ -1683,6 +1688,28 @@
       "local_sync_status": "已同步至H盘literature，原件2,828,052字节及SHA256核验通过；同时核验远端97b02a2e提交中的PDF blob。",
       "review_note": "../notes/395-f1-geometric-measure-principal-quotient.md",
       "local_synced_checkpoint": "7091cb80b1c49c71e76658198c28d5221f0a2727"
+    },
+    {
+      "id": "Scholze-perfectoid-spaces-20111119",
+      "authors": "Peter Scholze",
+      "title": "Perfectoid Spaces",
+      "version": "Author PDF dated 2011-11-19; fixed by SHA256, retrieved 2026-09-20",
+      "category": "f1",
+      "source_url": "https://www.math.uni-bonn.de/people/scholze/PerfectoidSpaces.pdf",
+      "arxiv_reference": "https://arxiv.org/abs/1111.4914v1",
+      "pdf_url": "https://www.math.uni-bonn.de/people/scholze/PerfectoidSpaces.pdf",
+      "file": "f1/scholze-perfectoid-spaces-20111119.pdf",
+      "attempted_on": "2026-09-20",
+      "download_status": "downloaded",
+      "bytes": 571464,
+      "pages": 51,
+      "sha256": "2c7e645a4ec3c56d5ee9e012cfe52d99e45973eefb99f8383e3bb69f0211afd9",
+      "retrieved_at_utc": "2026-09-20T06:25:35.181084+00:00",
+      "pdf_parse_status": "all 51 pages parsed; selective mathematical reading only",
+      "text_characters": 144674,
+      "empty_text_pages": [],
+      "read_scope": "Title and dated author version, PDF38 Proposition6.18 statement and proof; independent 398 review uses it as a fibre-product comparison. Main proof retains its explicit weighted tensor-product and positive-subring argument. No full tilting/almost-purity/weight-monodromy review.",
+      "status": "Original author PDF archived without alteration; not asserted byte-identical to the arXiv or journal PDF."
     }
   ],
   "supplement_provenance": [

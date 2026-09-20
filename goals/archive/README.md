@@ -52,3 +52,6 @@ SHA256：6012c718862223c992fff4a77e2eb455728765c06c005740a6d3beeb59c2fb4c。
 
 
 2026-09-20：GOAL.20260909.f1-geometric-quotient.md 保存395结算及双侧对应路线更新前的根文件原始字节；SHA256 38dd2395907ad0753224b8500524af11c39a8c9eacd7629e44622f151d51814f。第十节B/C未改。
+
+
+2026-09-20：[Cartier准入前快照](GOAL.20260909.f1-before-noncartier.md)保存398结算及归一化图核路线修订前根文件原字节；SHA256 `f78f1d7543b02c69b137036da2c57a7f69e4e0d281d14be3dbaa0b5b6b4e8b8a`。改变的是当前执行问题，第十节B/C原文不变。

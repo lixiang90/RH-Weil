@@ -1,6 +1,32 @@
 # 持续GOAL执行账本：20260909版重启
 
-## 当前执行：396–397已审，转向实际解析平方（2026-09-20）
+## 当前执行：398已审，转向归一化图核及主关系（2026-09-20）
+
+[398](../notes/398-f1-diagonal-square-and-noncartier-graphs.md)实现双变量perfectoid解析纤维积及对角周期商，
+真实高度比保留b与pb的区别。完整幂图的闭核在每个与图相交的有理局部模型中
+满足非零、真、闭及I=closure(I²)，从开映射定理推出它不能局部由正则方程生成。
+这排除给定完整闭图的通常Cartier解释，不排除其他F₁几何或广义循环。
+
+Darwin已完成[独立逆审及相位辅助](../reviews/2026-09-20/f1-diagonal-square-independent-review.md)：
+张量积正子环、闭商交换、二变量c_0局部化和理想层量词均通过；两项措辞修订已纳入。
+有限层方程含任意深额外相位，任意图点邻域仍可见；先取周期商再取无限交也不恢复完整图。
+下一唯一主任务是[归一化有限层图核及主关系](../reviews/2026-09-20/f1-normalized-graph-kernel-next-proof-plan.md)，
+先证明真实纤维归一化，再检验变底点、周期下降与主商是否消去所需图类。
+仅重述Dirac图不作为新的算术输入。
+
+根GOAL执行段已据此修订，原始快照存archive/GOAL.20260909.f1-before-noncartier.md；
+21份镜像通过检查，第十节B/C保持原始字节。复用KL原件并保存Scholze 2011-11-19作者PDF，
+核读范围仅包含所需有限定理。没有新增Lean运行、旧数值扫描或完整文献主定理认证。
+
+此前396–397完整复核及保存记录已精确同步至GitHub提交
+[e2a7c95](https://github.com/lixiang90/RH-Weil/commit/e2a7c959da58c285cf27b4ecffa1dce6ab2f651d)。
+普通Git连接失败后，通过已登录GitHub API上传相同树及原author/committer信息，
+树哈希与提交SHA完全一致，非强制快进main并再次核对。不是另造近似内容的替代提交。
+本轮398保存状态以其提交及远端实测为准。
+
+Goal保持active；本轮是限定构造与障碍进度，没有新的RH、比例、非零区域或完整Weil结构结论。
+
+## 396–397结算时的执行快照（2026-09-20）
 
 [396](../notes/396-f1-flat-line-enhancement-and-cartier-pullback.md)经Schrodinger独立复核：
 实际周期覆盖给平坦线丛增强，未加权根测度可下降为丛值Radon测度，

@@ -688,3 +688,23 @@ CC2015 *Geometry of the arithmetic site* 的既有
 核对Proposition6.13、Definition6.22、Definition7.1、式(41)–(42)及Theorem7.7。
 双侧作用、约化对应及复合的切向例外作为[下一任务](../reviews/2026-09-20/f1-marked-correspondence-next-proof-plan.md)
 的来源基线；重述这些既有定义不算本项目的新几何构造。
+
+## 2026-09-20续记：对角解析平方与闭图理想
+
+复用[KL Foundations v5原件](f1/kl-foundations-1301.0792v5.pdf)，固定版本
+[arXiv:1301.0792v5](https://arxiv.org/abs/1301.0792v5)。
+为[398](../notes/398-f1-diagonal-square-and-noncartier-graphs.md)重新核读PDF31页的开映射定理、
+41–42页的有理局部化闭关系商、89页的有限多变量perfectoid Tate代数、
+94页的有理局部化与层性；31、89、94页另渲染核对。
+原件2,107,306字节，SHA256仍为`a6a117423db62aec072442bb15b70e3175bcc3b631bdcd6d74f740e3c6cfd942`。
+没有新增重复PDF；本轮直接推导、独立审查状态与外部定理的引用范围分别记录。
+
+另存Peter Scholze，*Perfectoid Spaces*，作者稿日期2011-11-19：
+[原始PDF](f1/scholze-perfectoid-spaces-20111119.pdf)／
+[作者网站](https://www.math.uni-bonn.de/people/scholze/PerfectoidSpaces.pdf)／
+[arXiv固定书目条目](https://arxiv.org/abs/1111.4914v1)。
+51页，571,464字节，SHA256为`2c7e645a4ec3c56d5ee9e012cfe52d99e45973eefb99f8383e3bb69f0211afd9`。
+核对标题、日期及PDF38页Proposition6.18的命题与证明，另渲染该页；全51页文本解析通过。
+仅作为398独立审查的纤维积背景比较，未认证完整tilting、几乎纯性或weight-monodromy证明。
+此文件来自作者网站，不声称与arXiv或期刊PDF逐字节相同。
+历史原件及补充材料累计数由91增至92，仍包含先前仅本地保存的原件。

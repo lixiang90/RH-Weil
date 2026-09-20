@@ -1,0 +1,60 @@
+{
+  "date": "2026-09-20",
+  "goal_status": "active",
+  "398_status": "T/N; scoped independent review by Darwin passed; two wording fixes incorporated",
+  "independent_agent": "01a0bd6b-ac1f-7c73-ae6f-64a088e447b1",
+  "review_scope": [
+    "actual fibre product and positive subring",
+    "diagonal-periodic quotient",
+    "strict graph kernel and all rational localizations",
+    "closed-square density and local non-Cartier conclusion",
+    "finite-level phases and quotient/intersection mismatch"
+  ],
+  "next_task": "normalized finite-level graph kernels, base variation, periodic descent and fixed principal relations; open",
+  "goal_mirrors": 21,
+  "long_term_B_C_byte_identical": true,
+  "source_root_sha256": "ab7678f442a44142765a9580a6bcf5e6055bdfc1a0b5056f72297afa2a23c1dd",
+  "archive_original_sha256": "f78f1d7543b02c69b137036da2c57a7f69e4e0d281d14be3dbaa0b5b6b4e8b8a",
+  "markdown_files": [
+    "notes/398-f1-diagonal-square-and-noncartier-graphs.md",
+    "reviews/2026-09-20/f1-diagonal-square-independent-review.md",
+    "reviews/2026-09-20/f1-normalized-graph-kernel-next-proof-plan.md",
+    "reviews/2026-09-20/f1-diagonal-quotient-square-next-proof-plan.md",
+    "README.md",
+    "RESEARCH_BRANCHES.md",
+    "goals/GOAL.20260909.md",
+    "goals/NEXT.20260909.md",
+    "goals/PROGRESS.md",
+    "goals/archive/GOAL.20260909.f1-before-noncartier.md",
+    "goals/archive/README.md",
+    "literature/README.md"
+  ],
+  "local_links_verified": 1056,
+  "link_check_scope": "Local Markdown targets, excluding inline-code formula lookalikes; anchors not separately audited",
+  "new_original_pdf": {
+    "file": "f1/scholze-perfectoid-spaces-20111119.pdf",
+    "pages": 51,
+    "bytes": 571464,
+    "sha256": "2c7e645a4ec3c56d5ee9e012cfe52d99e45973eefb99f8383e3bb69f0211afd9",
+    "read_scope": "Title and dated author version, PDF38 Proposition6.18 statement and proof; independent 398 review uses it as a fibre-product comparison. Main proof retains its explicit weighted tensor-product and positive-subring argument. No full tilting/almost-purity/weight-monodromy review."
+  },
+  "prior_checkpoint_synced": {
+    "branch": "main",
+    "commit": "e2a7c959da58c285cf27b4ecffa1dce6ab2f651d",
+    "tree": "4f3faf23a9697794a7f0bd31ee1f49e9af455ff2",
+    "method": "Exact original commit via GitHub Git data API; author/committer/timestamps preserved; non-force ref update and fresh SHA check"
+  },
+  "unrelated_experiment_files_preserved": {
+    "reviews/2026-09-08/control-prefix-curvature-budget.json": "cc5c7e5f58f9057c5fb2dc38d22fa878c260a9ade964e651d3dbe1e588f9cda8",
+    "reviews/2026-09-08/radius-five-continuous-period-pressure.json": "1c27b0bc1c4c635b4ed2fbf40d9378bc9c1089afe56a36313d2f6e5b8a031e25",
+    "scripts/control_prefix_curvature_budget.py": "59842cf32a2446a6558a38c731adc3e724eefd17398d3a6321e3b071aa7988bf",
+    "scripts/radius_five_continuous_period_pressure.py": "7fac1a13e9652cb1187abb958de833043b2d9ac91f06484f887108f07e5c5cb6"
+  },
+  "not_claimed": [
+    "RH or zero proportion or zero-free-region improvement",
+    "G0-G8 instance or complete RR/intersection theory",
+    "new Lean run",
+    "global novelty or external peer review"
+  ],
+  "current_batch_remote_status": "Record precedes its own commit; final response gives fresh remote SHA verification."
+}
