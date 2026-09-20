@@ -7,6 +7,15 @@
 
 ## 当前研究状态：F₁的Adelic限制关系与主除子准入（2026-09-20）
 
+最新结算：[409](notes/409-f1-boundary-prime-power-kernels-and-heat-defects.md)已独立全文逆审。
+在实际完整p边界表示中，|z|>1时核非零恰在p的正整数次幂；
+真实重数给热读出的β=1阈值，但完整算子非Fredholm。
+尚未将热读出识别为显式公式权重或几何主除子。
+下一步检查[实际p幂子群胚与连续指数族](reviews/2026-09-20/f1-boundary-index-family-next-proof-plan.md)的比较。
+[四项新Lean检查](formal/checks/boundary-resolvent-verification.json)通过且无sorryAx；
+无限直和与热迹证明单独注明范围，Goal保持active。
+下方各“最新结算／下一步”为既往阶段快照，以研究看板顶部唯一队列为准。
+
 最新结算：[408](notes/408-f1-orbit-completion-and-prime-boundaries.md)已独立全文逆审。
 明确完成环中，单箭头谱半径由η(0)决定；旧Gaussian对象完成后消失，
 而原点值非零时有完成后仍非零、逐idele表示中可缩的实际完美复形。

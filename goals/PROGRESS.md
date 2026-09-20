@@ -1,5 +1,26 @@
 # 持续GOAL执行账本：20260909版重启
 
+## 当前执行：完整边界的素数幂核与热缺陷已结算（2026-09-20）
+
+[409](../notes/409-f1-boundary-prime-power-kernels-and-heat-defects.md)在实际G(p)紧支箭头上，
+对全部整数n≥2、|z|>1证明：核非零恰当n=p^a，且完整核无限维、算子满射；
+其他n单射但像稠密不闭。没有将单扇区的+1误认作完整Fredholm指数。
+真实正负重数、严格端点计数及统一核质量给热读出β>1的正有限性和β≤1的发散。
+代表变化与时间相位已核准，尚未证明所需算术数值权重。
+
+[Laplace来源审计](../reviews/2026-09-20/f1-boundary-defect-source-review.md)与
+[全文数学逆审](../reviews/2026-09-20/f1-boundary-defect-mathematical-review.md)均完成。
+未发现P0–P2；唯一P3要求将“非Fredholm”限定|z|>1，已修正；
+p幂链与单位圆近似核也展开。完整原始返回保存，不冒称外部同行评审。
+经典Y_p的直接限制及基态压缩不保一般乘法；
+p^Z子群胚的合法比较图表留作[下一任务](../reviews/2026-09-20/f1-boundary-index-family-next-proof-plan.md)。
+
+[BoundaryResolvent四项Lean检查](../formal/F1/Analysis/BoundaryResolvent.lean)实测通过4.32.2，
+无sorryAx；项目18份Lean源码，原十处admission和所有历史报告保留，未重建全F1。
+CCM原件追加精确核读页码，无重复下载。根GOAL原字节归档，第十节保持原样。
+上一批已推送[52cbd35](https://github.com/lixiang90/RH-Weil/commit/52cbd3518652321860e43ff001dbebf72c45b7cc)；
+本批远端状态以实际保存核验为准。Goal继续active，未达较远期完成标准。
+
 ## 当前执行：完成化与各素数边界已结算（2026-09-20）
 
 [408](../notes/408-f1-orbit-completion-and-prime-boundaries.md)证明统一幂范数界及谱半径|η(0)|，

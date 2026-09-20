@@ -156,3 +156,14 @@ itself impose the same vanishing condition on a metrized arithmetic divisor with
 可使用与前述相同的固定cache/runtime参数。未重建全F1。
 Banach交叉积、谱半径、整数访问计数、边界表示及导出范畴为
 [408](../notes/408-f1-orbit-completion-and-prime-boundaries.md)的纸面内容，没有冒称形式化。
+
+## 2026-09-20：边界移位的几何逆与右逆方向
+
+[BoundaryResolvent.lean](F1/Analysis/BoundaryResolvent.lean)新增四项实际Lean4.32.2检查：
+幂零链的左右几何逆，以及BS=I下后向移位分解与右逆。
+[报告](checks/boundary-resolvent-verification.json)和[源码清单](checks/boundary-resolvent-source-audit.json)
+分别记录内核验证与源码审计；无sorryAx依赖，项目源码18份，旧十处admission不变。
+运行 python scripts/check_boundary_resolvent.py，依赖准备入口
+--entry F1.Analysis.BoundaryResolvent；可使用前述固定cache/runtime参数。
+[409](../notes/409-f1-boundary-prime-power-kernels-and-heat-defects.md)的无限直和、核维数、
+热迹及群胚解析内容未由这四条代数引理形式化，本轮未重建全F1。

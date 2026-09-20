@@ -1,0 +1,46 @@
+{
+  "status": "passed_no_sorry_dependencies",
+  "checked_at_utc": "2026-09-20T15:36:52.836958+00:00",
+  "lean_version": "Lean (version 4.32.2, x86_64-w64-windows-gnu, commit f3b06c705e6c85f5314019d5d3baab0fec5b580c, Release)",
+  "mathlib_revision": "905b95818eb32af7874a58b427f50c1711a5e96c",
+  "cache_backup": ".lake\\hdd-backup-05156b5b",
+  "runtime_dir": "C:\\Users\\A\\AppData\\Local\\Temp\\rh-weil-local-trace-20260920",
+  "scope": "Four algebraic geometric-inverse and backward-resolvent results. No operator convergence, Fredholm index, heat trace, adele geometry or full F1 build is formalized.",
+  "commands": [
+    {
+      "source": "F1/Analysis/BoundaryResolvent.lean",
+      "exit_code": 0
+    },
+    {
+      "source": "checks/BoundaryResolventAudit.lean",
+      "exit_code": 0
+    }
+  ],
+  "source_sha256": {
+    "F1/Analysis/BoundaryResolvent.lean": "1b6d7b195e54c2cae64ed5684018e6ebcedc04e12c9a6e6000ec3143885af492",
+    "checks/BoundaryResolventAudit.lean": "2137e187a6e3bc9e7d8d2d3ca68a08c8b05585eef748c39a9e84237c34be96ca"
+  },
+  "axioms": {
+    "RHWeil.F1.nilpotentGeometric_right": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "RHWeil.F1.nilpotentGeometric_left": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "RHWeil.F1.backwardResolvent_factor": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "RHWeil.F1.backwardResolvent_rightInverse": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "existing_admissions": "The existing Weil convergence and criterion admissions are not imported by these checked results."
+}

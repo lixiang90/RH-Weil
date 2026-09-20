@@ -1,18 +1,18 @@
 # 研究分支看板
 
-## 唯一当前队列（2026-09-20 原边界群胚的动态缺陷）
+## 唯一当前队列（2026-09-20 完整边界缺陷与指数族）
 
-执行[GOAL.20260909.md](goals/GOAL.20260909.md)的研究目标。
-2026-09-20重新读取Goal工具为active。新增独立agent Harvey已完成第四次整体空间审查，见403与完整报告；此前Dalton的第三次审查已结算；本轮[394](notes/394-f1-real-principal-relations-and-parameter-topologies.md)记录具体接口障碍与三种替代参数化。下方9月15日的paused叙述是历史状态。
+执行[GOAL.20260909.md](goals/GOAL.20260909.md)的研究目标，Goal保持active。
+既往空间审查及旧整数验证均已保存；下方较早的当前／暂停表述是历史记录。
 
 | 顺序 | 任务 | 验收与切换 |
 |---|---|---|
-| 已结算 | 旧周期13的iteration-10冻结候选：[364完整验收](notes/364-frozen-integer-candidate-verification.md) | 6237815186边全扫描，13755190失败；最坏边320位真实标量缺口仍严格为正。只排除该表的同word／前缀充分条件 |
-| 当前主线 | F1-EX1：[408](notes/408-f1-orbit-completion-and-prime-boundaries.md)完成统一幂范数、所有p的源／完成比较及完成后仍非零的实际相对完美对象，全文逆审结算 | 下一项[原边界群胚与动态缺陷](reviews/2026-09-20/f1-boundary-dynamical-defect-next-proof-plan.md)：检查全部扇区与真实重数。共同原点检测不是专属素数支撑，主关系及RR仍开放 |
-| 必要辅助 | 经典Lean缺口、原始文献及只读独立复核 | 26项原检查及十个sorry保留；新增LocalTrace与TraceRadical各八项、UnitDescent四项、WeightedArrows九项、OrbitDecay四项定向检查无sorryAx。形式化通过不替代实际算术存在性 |
+| 已结算 | 旧周期13的iteration-10冻结候选：[364完整验收](notes/364-frozen-integer-candidate-verification.md) | 6237815186边全扫描，13755190失败；只排除该表的同word／前缀充分条件 |
+| 当前主线 | F1-EX1：[409](notes/409-f1-boundary-prime-power-kernels-and-heat-defects.md)的实际完整核分类、素数幂支撑、热重数与β阈值已全文逆审 | 下一项[实际p幂子群胚与指数族比较](reviews/2026-09-20/f1-boundary-index-family-next-proof-plan.md)：建立连续族、周期／相位过渡及实际代数映射。完整D非Fredholm，算术权重、主关系与RR仍开放 |
+| 必要辅助 | Lean定向检查、原始文献及只读独立复核 | BoundaryResolvent新增四项无sorryAx；此前LocalTrace／TraceRadical各八项、UnitDescent四项、WeightedArrows九项、OrbitDecay四项及原26项记录保留。十处旧admission不变，未重建全F1 |
 
 [任务单](goals/NEXT.20260909.md)与[账本](goals/PROGRESS.md)维护当前状态。
-下方“暂停”“结构辅助”等为先前阶段记录，不再决定当前任务次序。
+下方“暂停”“结构辅助”等不再决定当前任务次序。
 
 ## 重启前记录
 

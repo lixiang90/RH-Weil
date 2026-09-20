@@ -1,5 +1,11 @@
 # 408后的有限任务：实际缩减边界上的缺陷与素数选择性
 
+结算：本任务已由[409](../../notes/409-f1-boundary-prime-power-kernels-and-heat-defects.md)及
+[全文独立逆审](f1-boundary-defect-mathematical-review.md)完成。
+|z|>1时完整核恰支撑在p幂，真实重数给热读出β=1阈值；普通Fredholm解释停止。
+当前转入[实际p幂子群胚与指数族比较](f1-boundary-index-family-next-proof-plan.md)。
+以下保留当时任务，不重复启动。
+
 2026-09-20。[O] 408全文逆审结算后的唯一数学主问题；辅助只做必要来源／证明审查。
 [408](../../notes/408-f1-orbit-completion-and-prime-boundaries.md)给实原点谱半径分界及
 完成后仍非零、逐idele有界表示却零化的实际完美对象。

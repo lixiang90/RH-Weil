@@ -86,3 +86,12 @@ vendor8包806文件逐字节及Git跟踪核查通过；旧报告保持原样。
 没有sorryAx依赖；17份项目Lean源码仍只有原十处admission，
 vendor8包806文件逐字节及Git跟踪核准，旧报告未覆盖。
 本模块只验证有限乘积和区间跨度，完整分析／范畴及RH不在认证范围。
+
+## 2026-09-20 BoundaryResolvent定向检查
+
+[报告](boundary-resolvent-verification.json)、[编译输出](boundary-resolvent-build.txt)、
+[公理输出](boundary-resolvent-axioms.txt)与[审计入口](BoundaryResolventAudit.lean)
+记录四项已通过检查，仅依赖propext、Classical.choice、Quot.sound，无sorryAx。
+[源码清单](boundary-resolvent-source-audit.json)含18份项目Lean源码及原十处admission，
+vendor仍为8包806文件。算子范数收敛、无限直和、热迹、实际几何与RH不在本次形式化范围。
+历史完整构建与先前定向报告均保留。

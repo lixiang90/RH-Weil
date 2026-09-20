@@ -1,5 +1,16 @@
 # 20260909版重启任务单
 
+## 唯一当前任务（2026-09-20，409结算）
+
+执行[实际p幂子群胚与指数族比较](../reviews/2026-09-20/f1-boundary-index-family-next-proof-plan.md)。
+[409](../notes/409-f1-boundary-prime-power-kernels-and-heat-defects.md)的完整核分类与热界已独立逆审：
+|z|>1时核恰支撑在p的正幂；完整算子或有无穷核，或有稠密非闭像，均非Fredholm。
+真实重数给β=1阈值，热读出尚未识别为算术权重。
+下一步经过合法p^Z箭头子群胚比较，从同一实际源核查连续指数族及周期／相位过渡；
+完整边界的直接经典限制不保乘法，不能省略转移证明。
+四项BoundaryResolvent Lean检查无sorryAx，纸面分析范围另列。
+下方“当前任务”均为历史快照；Goal保持active，第十节强度不变。
+
 ## 唯一当前任务（2026-09-20，408结算）
 
 执行[实际缩减边界的缺陷与素数选择性](../reviews/2026-09-20/f1-boundary-dynamical-defect-next-proof-plan.md)。

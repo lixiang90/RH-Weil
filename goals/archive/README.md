@@ -75,3 +75,9 @@ SHA256：6012c718862223c992fff4a77e2eb455728765c06c005740a6d3beeb59c2fb4c。
 - 2026-09-20：[素数箭头前快照](GOAL.20260909.f1-before-prime-arrows.md)保留407结算前根目标的原始字节。SHA256 `8ab3ceccad4727d8d977aaf27de34fd47622fa355be8f8215e2b6a6412fe6c1c`。当前执行转向相对复形的完成化／边界检验；第十节全部字节不变。
 
 - 2026-09-20：[轨道完成化前快照](GOAL.20260909.f1-before-orbit-completion.md)保留408结算前根目标原始字节。SHA256 `adc44d26aa9d36c829632dd8ca31b998151eb90af0025d009bed6c23c7984168`。当前执行转向原缩减边界的动态缺陷；第十节全部字节不变。
+
+## 原边界缺陷前快照（2026-09-20）
+
+[GOAL.20260909.f1-before-boundary-defect.md](GOAL.20260909.f1-before-boundary-defect.md)保留409执行调整前原始字节。
+SHA-256：864c4c654288c0080acc7810387434d30a536f6f1d18dae9d86a516645387a90。
+第十节逐字不变，下一任务转入实际子群胚与连续指数族比较。

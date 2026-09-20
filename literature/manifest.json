@@ -1836,7 +1836,7 @@
       "version": "arXiv:math/0703392v1; 2007-03-13",
       "download_status": "downloaded",
       "status": "选定来源审计与405数学逆审已闭环；真正principaldivisor及完成cyclic商拓扑比较仍开放。",
-      "read_scope": "主线程核读PDF16–25、27–33，PDF33视觉核对。Lorentz核读17–25、27–33并补8–10、15–16、59–61；视觉9、20、21、24、25、28–33。仅所列范围，不认证全文或上游完整证明。 407: Leibniz read PDF16-25,27-34,37-40,47,60-61; visual28,34,47. Rational arrows vs external flow and boundary/cyclic constructions; no full upstream proof audit. 408: Hilbert read PDF16-25,33-50,60-61 and rendered key definition pages. Main read PDF35-37,39-43 for actual reduced groupoid, multiplier caveat and Hamiltonian multiplicities. Finite arrows, C* completion and cyclic closed-image quotient remain distinct.",
+      "read_scope": "主线程核读PDF16–25、27–33，PDF33视觉核对。Lorentz核读17–25、27–33并补8–10、15–16、59–61；视觉9、20、21、24、25、28–33。仅所列范围，不认证全文或上游完整证明。 407: Leibniz read PDF16-25,27-34,37-40,47,60-61; visual28,34,47. Rational arrows vs external flow and boundary/cyclic constructions; no full upstream proof audit. 408: Hilbert read PDF16-25,33-50,60-61 and rendered key definition pages. Main read PDF35-37,39-43 for actual reduced groupoid, multiplier caveat and Hamiltonian multiplicities. Finite arrows, C* completion and cyclic closed-image quotient remain distinct. 409: Laplace independently read PDF/printed34-50; visual40,46-48. Section8.4 is40-47,8.5 is47,8.6 starts48. Audited Q-positive classical reduction, nonopen/nonsaturated unit loci, convolution excursion obstruction and ground-state compression. Source v1 sign convention requires the negative m sector unless positive representatives are selected. Main uses exact full signed multiplicities; no claim of full-paper certification.",
       "file": "f1/ccm-weil-adeles-math-0703392v1.pdf",
       "source_url": "https://arxiv.org/abs/math/0703392v1",
       "pdf_url": "https://arxiv.org/pdf/math/0703392v1",
@@ -1847,7 +1847,8 @@
       "retrieved_at_utc": "2026-09-20T12:41:06.488026+00:00",
       "review_note": "../reviews/2026-09-20/f1-adelic-restriction-source-review.md",
       "review_407": "../reviews/2026-09-20/f1-prime-arrows-source-review.md",
-      "review_408": "../reviews/2026-09-20/f1-orbit-completion-source-review.md"
+      "review_408": "../reviews/2026-09-20/f1-orbit-completion-source-review.md",
+      "review_409": "../reviews/2026-09-20/f1-boundary-defect-source-review.md"
     },
     {
       "id": "Meyer-2005-ideles",

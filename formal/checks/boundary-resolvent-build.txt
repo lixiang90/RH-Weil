@@ -1,0 +1,7 @@
+F1/Analysis/BoundaryResolvent.lean
+
+checks/BoundaryResolventAudit.lean
+'RHWeil.F1.nilpotentGeometric_right' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RHWeil.F1.nilpotentGeometric_left' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RHWeil.F1.backwardResolvent_factor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RHWeil.F1.backwardResolvent_rightInverse' depends on axioms: [propext, Classical.choice, Quot.sound]
