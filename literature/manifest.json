@@ -1,6 +1,6 @@
 {
   "retrieved_on": "2026-09-06",
-  "scope": "零点比例进展、非循环函数域基准与 Abel 障碍直接文献；归档不等于数学认证；phase 2 插值、密度与正则化算子背景；持续GOAL周期4：实际零密度原始比较及ANTEDB固定快照；2026-09-09：F1算术几何与构造／存在性原始文献；2026-09-10：F1本科背景讲义的Weil猜想教学来源; 2026-09-10：周期Cartier/字符族与热带theta比较来源; 2026-09-10：实际period ring、FF几何前提及Jessen归一化来源; 2026-09-13：实尺度主关系、相容分歧扩张与Hahn–Witt一般值群来源; 2026-09-13：实际实系数环的相对period-ring接口待审来源; 2026-09-13：无限层零测度所需的经典Berkovich圆盘分类来源; 2026-09-15：候选参考几何的site大小与topos态射呈现来源; 2026-09-15：候选空间第二次独立审查的相对比较、Picard、逆极限与逻辑模型来源",
+  "scope": "零点比例进展、非循环函数域基准与 Abel 障碍直接文献；归档不等于数学认证；phase 2 插值、密度与正则化算子背景；持续GOAL周期4：实际零密度原始比较及ANTEDB固定快照；2026-09-09：F1算术几何与构造／存在性原始文献；2026-09-10：F1本科背景讲义的Weil猜想教学来源; 2026-09-10：周期Cartier/字符族与热带theta比较来源; 2026-09-10：实际period ring、FF几何前提及Jessen归一化来源; 2026-09-13：实尺度主关系、相容分歧扩张与Hahn–Witt一般值群来源; 2026-09-13：实际实系数环的相对period-ring接口待审来源; 2026-09-13：无限层零测度所需的经典Berkovich圆盘分类来源; 2026-09-15：候选参考几何的site大小与topos态射呈现来源; 2026-09-15：候选空间第二次独立审查的相对比较、Picard、逆极限与逻辑模型来源; 2026-09-20：截面轮廓过滤维数及整体候选空间拓扑审查",
   "entries": [
     {
       "id": "AF-2026",
@@ -968,6 +968,11 @@
           "date": "2026-09-10",
           "scope": "PDF21–29页§5.1–5.3：Hp系数、阶数、deg/chi主除子条件、theta及仿射余循环；23页定义与定理经渲染。本文重建指定除子的有限斜率方程，不宣称全文RR或全部Pic满性重审。",
           "note": "notes/368-f1-tropical-theta-and-coefficient-obstruction.md"
+        },
+        {
+          "date": "2026-09-20",
+          "scope": "Definitions 5.14、5.16，式(25)—(28)，Theorem5.17和Lemma5.18：过滤、覆盖维数和参考平移；高度阶数与deg/chi准则。393仅接合实际轮廓像，未重证完整维数定理。",
+          "report": "../reviews/2026-09-20/f1-profile-dimension-independent-review.md"
         }
       ]
     },
@@ -1012,6 +1017,11 @@
           "date": "2026-09-13",
           "scope": "Singer独立核读PDF58–65及19–25、31–43必要前文；共同实系数代数与单p周期主函数下降的区别。",
           "report": "../reviews/2026-09-13/f1-real-coefficients-source-audit.md"
+        },
+        {
+          "date": "2026-09-20",
+          "scope": "§3.2.1、§3.2.3和§3.4：局部热带化、有效性比较及平方RR研究边界。未把整数Laurent局部结论扩成全部H_p完成函数或解析Euler特征。",
+          "report": "../reviews/2026-09-20/f1-profile-dimension-independent-review.md"
         }
       ]
     },
@@ -1626,6 +1636,26 @@
       "pdf_parse_status": "all pages parsed",
       "status": "候选空间第二次独立审查的背景来源；限定条款核查，不是完整几何实现或全文认证",
       "review_note": "../notes/391-f1-candidate-space-review-and-alternatives.md"
+    },
+    {
+      "id": "Engelking-1978-Dimension-Theory",
+      "category": "background",
+      "authors": "Ryszard Engelking",
+      "title": "Dimension Theory",
+      "version": "1978; ISBN 0-444-85176-3",
+      "file": "background/engelking-dimension-theory-1978.pdf",
+      "source_url": "https://webhomes.maths.ed.ac.uk/~v1ranick/papers/engelking.pdf",
+      "pdf_url": "https://webhomes.maths.ed.ac.uk/~v1ranick/papers/engelking.pdf",
+      "download_status": "downloaded_local_only",
+      "repository_copy": false,
+      "repository_copy_reason": "PDF第2页有限制再发布说明；依GOAL第八节第8项，完整原件仅本地保存，Git保存来源、版本、哈希及核读范围。",
+      "retrieved_on": "2026-09-20",
+      "bytes": 4693683,
+      "sha256": "54e65f27cb7ea972a36862d0479b8ac4f5d08f2b4b076fb3795080c35e892c53",
+      "pages": 316,
+      "pdf_parse_status": "title/copyright and PDF pages 216,220 parsed; other pages not checked",
+      "read_scope": "Theorem3.1.8（印刷212／PDF216）：覆盖维数可数闭并；Corollary3.1.20（印刷216／PDF220）：完全正规空间子空间单调性。用于393的零元拓扑补充；非全书认证。",
+      "review_note": "../reviews/2026-09-20/f1-profile-dimension-independent-review.md"
     }
   ],
   "supplement_provenance": [
