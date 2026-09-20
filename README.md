@@ -5,7 +5,7 @@
 面向具有大学二年级数学基础的读者：[F₁ 路线究竟要找什么，以及为什么足以推出 RH](docs/f1-route-from-undergraduate-math.md)。
 讲义从具体例子出发，给出精确条件与完整条件证明，并区分指定来源和自由存在性路线。
 
-## 当前研究状态：旧验证已结算，F₁候选类澄清（2026-09-15）
+## 当前研究状态：F₁截面比较与候选空间审查（2026-09-20）
 
 [GOAL.20260909.md](goals/GOAL.20260909.md)已按用户要求修订并启动，
 原第十三版已按原始字节归档。十轮整数候选的[完整独立验收](notes/364-frozen-integer-candidate-verification.md)
@@ -44,7 +44,12 @@
 [390](notes/390-f1-candidate-geometry-space.md)给有界呈现集合、态射／等价、比较约定β及紧致性边界；
 G0跨类型接口据此修订。[391](notes/391-f1-candidate-space-review-and-alternatives.md)进一步整理
 新的独立agent对候选空间的审查、替代构造及现有模型的逐项准入缺口。
-Goal目前paused；本轮处理这项审查，不自动恢复连续研究。
+2026-09-20现场Goal工具为active。
+[392](notes/392-f1-eigensections-and-weighted-banach-space.md)完成指定线丛的全部截面与紧系数族；
+[393](notes/393-f1-profile-surjectivity-and-filtered-dimension.md)完成实际截面轮廓满射及CC过滤维数比较，均已独立复核。
+用户新增的独立agent Dalton在[394](notes/394-f1-real-principal-relations-and-parameter-topologies.md)中
+给出整体空间审查、实主等价与torsion的接口障碍、纯径向弱测度的双次数退化及三种替代构造。
+现优先检验完整几何主关系的连续湮灭子；候选容器非空仍不意味着全部算术条件有实例。
 [任务单](goals/NEXT.20260909.md)给出顺序。
 尚无新的RH或无条件比例结论；完整验收与较远期显著进展分开。
 
