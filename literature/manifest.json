@@ -939,6 +939,11 @@
           "date": "2026-09-10",
           "scope": "PDF26–28页F(n)求值与坐标方向；33–38页对应定义及Theorem7.7有理分支的选择性核读。28页渲染核对。不将正系数求值方块说成整个site同构。",
           "note": "notes/365-f1-rational-comparison-and-witt-coefficients.md"
+        },
+        {
+          "date": "2026-09-20",
+          "scope": "Proposition6.13、Definition6.22、Definition7.1、式(41)–(42)及Theorem7.7：算术平方、双侧作用与约化对应；保留复合的切向例外。用作下一任务的已知来源基线，不计作新构造或全文认证。",
+          "note": "reviews/2026-09-20/f1-marked-correspondence-next-proof-plan.md"
         }
       ]
     },
@@ -1656,6 +1661,27 @@
       "pdf_parse_status": "title/copyright and PDF pages 216,220 parsed; other pages not checked",
       "read_scope": "Theorem3.1.8（印刷212／PDF216）：覆盖维数可数闭并；Corollary3.1.20（印刷216／PDF220）：完全正规空间子空间单调性。用于393的零元拓扑补充；非全书认证。",
       "review_note": "../reviews/2026-09-20/f1-profile-dimension-independent-review.md"
+    },
+    {
+      "id": "Stacks-Algebra-ed88ff78-20260920",
+      "category": "f1",
+      "authors": "The Stacks Project Authors",
+      "title": "Commutative Algebra",
+      "version": "ed88ff78; compiled 2026-07-14",
+      "file": "f1/stacks-algebra-ed88ff78-20260920.pdf",
+      "source_url": "https://stacks.math.columbia.edu/tag/04GK",
+      "pdf_url": "https://stacks.math.columbia.edu/download/algebra.pdf",
+      "retrieved_on": "2026-09-20",
+      "download_status": "downloaded",
+      "repository_copy": true,
+      "repository_commit": "276f6741555999891413ec4cf1f14be3a04d2f75",
+      "bytes": 2828052,
+      "sha256": "b035a1f02104906a1820636cd332a0d7962fef3318d207a056634cb14dc86947",
+      "pages": 469,
+      "pdf_parse_status": "title/version and PDF page 415 parsed; remaining pages not individually checked",
+      "read_scope": "Lemma153.7/tag04GK（PDF415）：Hensel局部环的有限étale代数与剩余域有限étale代数对应。用于395的首一可分二次剩余多项式提升；未核审整章。",
+      "local_sync_status": "原件已在C盘临时目录校验并提交GitHub；H盘设备未就绪，向H盘同步尚待核验。",
+      "review_note": "../notes/395-f1-geometric-measure-principal-quotient.md"
     }
   ],
   "supplement_provenance": [
@@ -1825,5 +1851,5 @@
       "status": "导数生成器依赖的固定原件；归档，尚未完整核读或运行。"
     }
   ],
-  "last_updated_on": "2026-09-15"
+  "last_updated_on": "2026-09-20"
 }
