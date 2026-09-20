@@ -125,3 +125,10 @@ vendor八包806文件校验。历史报告保持。Hilbert正交／收敛、C*�
 [编译日志](boundary-gluing-build.txt)及[源码清单](boundary-gluing-source-audit.json)保存。
 有限支平移与秩边界代数没有sorryAx依赖；C*／拓扑／K理论尚非这些形式化的内容。
 22份项目源码，十处旧admission和八个vendor项目806份源码已核准，历史报告保持。
+
+## 2026-09-21：BoundaryUnitary
+
+[六项检查](boundary-unitary-verification.json)、[公理日志](boundary-unitary-axioms.txt)、
+[编译日志](boundary-unitary-build.txt)及[源码清单](boundary-unitary-source-audit.json)保存。
+序列移位和有限通量恒等式无sorryAx依赖；不认证Fredholm或C*理论。
+23份项目源码、十处旧admission、八包806份vendor源码已核准，旧审计文件原字节恢复。

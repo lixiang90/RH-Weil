@@ -2073,7 +2073,7 @@
       "version": "Author-hosted book6.pdf; exact snapshot retrieved 2026-09-21 local date",
       "download_status": "downloaded",
       "status": "Specified theorem-source audit for note410 completed; not full-paper/book certification.",
-      "read_scope": "Laplace read PDF76–78,81–83; located nuclearity clauses PDF143–144. Definition8.3.1 and §8.3.2 printed62–63, Theorem9.3.1 printed67–68. No whole-book certification. Main verified title/version metadata and parsed every PDF page. Note411 increment: §§5.2.2,5.2.4,5.5 (printed29,31/PDF43,45); §8.1.5 (printed61/PDF75); §10.1 (printed71/PDF85); Theorem10.2.1 (printed73/PDF87); Proposition5.5.5 (printed31/PDF45). No whole-book certification. Note413 increment: PDF42–43,45,62,73–82,87,126–127,143–144,203,205,231–234; visual78,82. Exponential boundary 9.3.1–9.3.2, suspension/Bott/circle splitting, zero-dimensional AF and K continuity, PV and naturality. No whole-book certification.",
+      "read_scope": "Laplace read PDF76–78,81–83; located nuclearity clauses PDF143–144. Definition8.3.1 and §8.3.2 printed62–63, Theorem9.3.1 printed67–68. No whole-book certification. Main verified title/version metadata and parsed every PDF page. Note411 increment: §§5.2.2,5.2.4,5.5 (printed29,31/PDF43,45); §8.1.5 (printed61/PDF75); §10.1 (printed71/PDF85); Theorem10.2.1 (printed73/PDF87); Proposition5.5.5 (printed31/PDF45). No whole-book certification. Note413 increment: PDF42–43,45,62,73–82,87,126–127,143–144,203,205,231–234; visual78,82. Exponential boundary 9.3.1–9.3.2, suspension/Bott/circle splitting, zero-dimensional AF and K continuity, PV and naturality. No whole-book certification.; note414: PDF32–33,37,45,73,75–77,231–232; visual76–77. Unitization, index boundary and naturality only.",
       "file": "f1/blackadar-k-theory-author-book6.pdf",
       "source_url": "https://bruceblackadar.com/Mathematics/book6.pdf",
       "pdf_url": "https://bruceblackadar.com/Mathematics/book6.pdf",
@@ -2126,6 +2126,26 @@
       "pages": 19,
       "retrieved_at_utc": "2026-09-20T17:37:35.040533+00:00",
       "review_note": "../reviews/2026-09-21/f1-two-place-source-review.md"
+    },
+    {
+      "id": "Williams-2006-crossed-products-draft31",
+      "category": "f1-background",
+      "authors": "Dana P. Williams",
+      "title": "Crossed Products of C*-Algebras",
+      "version": "Author preliminary manuscript, Version 3.1, 2006-09-06; theorem numbers refer to this draft, not the final publication",
+      "download_status": "downloaded",
+      "status": "Specified source audit only; not a full-book certification.",
+      "read_scope": "Laplace: version page, PDF79–80,99,122–123,137–138,211–212, Lemma3.54 convention and Example4.14 continuation; visual PDF122,138. Main read PDF1–2,138 and visually inspected138. Corollary4.11/Remark4.12 and formulas4.43–4.44 support Green-module input; concrete corner and q unitary are direct derivations.",
+      "file": "f1/williams-crossed-products-draft31-2006.pdf",
+      "source_url": "https://math.dartmouth.edu/~dana/cpcsa/draft3.1.pdf",
+      "pdf_url": "https://math.dartmouth.edu/~dana/cpcsa/draft3.1.pdf",
+      "resolved_pdf_url": "https://math.dartmouth.edu/~dana/cpcsa/draft3.1.pdf",
+      "bytes": 3843628,
+      "sha256": "3dbc1fb9e96191a278e0d59feb4981d3bbea4faa4df609d1886c81125bffe9c2",
+      "pages": 540,
+      "retrieved_at_utc": "2026-09-20T18:04:23.695434+00:00",
+      "review_note": "../reviews/2026-09-21/f1-boundary-unitary-source-review.md",
+      "recovery_note": "The identical PDF was restored after unavailable H I/O; first-download SHA preserved. Full-page text parsing was interrupted and is not claimed complete."
     }
   ],
   "supplement_provenance": [

@@ -1,0 +1,53 @@
+{
+  "status": "passed_no_sorry_dependencies",
+  "checked_at_utc": "2026-09-20T18:00:16.100596+00:00",
+  "lean_version": "Lean (version 4.32.2, x86_64-w64-windows-gnu, commit f3b06c705e6c85f5314019d5d3baab0fec5b580c, Release)",
+  "mathlib_revision": "905b95818eb32af7874a58b427f50c1711a5e96c",
+  "cache_backup": ".lake\\hdd-backup-05156b5b",
+  "runtime_dir": "C:\\Users\\A\\AppData\\Local\\Temp\\rh-weil-local-trace-20260920",
+  "scope": "Six sequence shift and finite flux identities. No Hilbert boundedness, C*-algebra, corner, Fredholm index, geometry or full F1 build.",
+  "commands": [
+    {
+      "source": "F1/Analysis/BoundaryUnitary.lean",
+      "exit_code": 0
+    },
+    {
+      "source": "checks/BoundaryUnitaryAudit.lean",
+      "exit_code": 0
+    }
+  ],
+  "source_sha256": {
+    "F1/Analysis/BoundaryUnitary.lean": "9d53facda283ccc03b3958150c73c386a1061f057ba9cab16a77d2c3b813d429",
+    "checks/BoundaryUnitaryAudit.lean": "3a5d509b09c6a8982f72ca65b8cb8d4a4b39fdd0deadfc4f44ddf4b5922913ab"
+  },
+  "axioms": {
+    "RHWeil.F1.positiveTail_leftInverse": [
+      "propext",
+      "Quot.sound"
+    ],
+    "RHWeil.F1.positiveTail_rankOneDefect": [
+      "propext",
+      "Quot.sound"
+    ],
+    "RHWeil.F1.positiveTail_injective": [
+      "propext",
+      "Quot.sound"
+    ],
+    "RHWeil.F1.finiteFlux": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "RHWeil.F1.finiteFlux_one_to_zero": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "RHWeil.F1.weightedFiniteFlux": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "existing_admissions": "The existing Weil convergence and criterion admissions are not imported by these checked results."
+}

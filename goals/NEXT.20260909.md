@@ -1,5 +1,14 @@
 # 20260909版重启任务单
 
+## 唯一当前任务（2026-09-21，414阶段结算）
+
+执行[实际缺陷投影与联合迹传递](../reviews/2026-09-21/f1-defect-projection-joint-trace-next-proof-plan.md)。
+[414](../notes/414-f1-deep-boundary-unitary-and-time-defect.md)已给具体双零边界酉元、一般提升及两侧指数，
+并在同一原A表示中用共同Fourier壳层构造联合周期迹：全部混合迭代消失，两个有限位含正确单位扣项。
+尚未证明这个迹消去源边界；上一任务的完整相对算术读出仍继续，未被阶段结算冒充完成。
+下一步由T构造Halmos投影，并计算[T,T*]的真实截断读出及Duhamel传递。
+六项Lean检查无sorryAx；源对象、Fredholm及完整迹另经独立纸面复核。Goal继续active，第十节不变。
+
 ## 唯一当前任务（2026-09-21，413结算）
 
 执行[双零边界的实际酉对象与相对读出](../reviews/2026-09-21/f1-deep-boundary-unitary-next-proof-plan.md)。

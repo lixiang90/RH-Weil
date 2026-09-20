@@ -206,3 +206,12 @@ p进空间、Hilbert悬挂、trace-class、来源比较及K理论另由纸面审
 [报告](checks/boundary-gluing-verification.json)与[源码清单](checks/boundary-gluing-source-audit.json)保存实际范围；
 商拓扑、Morita、PV、Bott及完整K计算为纸面证明，不在这些形式化内。
 项目22份Lean源码，原十处admission及历史报告保持，未重建完整F1。
+
+## 414：实际边界移位与有限通量（2026-09-21）
+
+[BoundaryUnitary.lean](F1/Analysis/BoundaryUnitary.lean)的六项结果已通过Lean4.32.2，无sorryAx。
+包括单边正移位在双边序列上的左逆、秩一缺陷及单射性，
+有限望远镜和、端点1到0的通量和带权分部求和。
+[内核报告](checks/boundary-unitary-verification.json)和[源码清单](checks/boundary-unitary-source-audit.json)限定实际范围；
+未形式化Hilbert有界性、C*满角、Fredholm指数、共同Fourier投影或几何构造。
+项目23份Lean源码，原十处admission及全部历史报告保持，未重建完整F1。

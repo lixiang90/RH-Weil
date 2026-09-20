@@ -5,6 +5,14 @@
 面向具有大学二年级数学基础的读者：[F₁ 路线究竟要找什么，以及为什么足以推出 RH](docs/f1-route-from-undergraduate-math.md)。
 讲义从具体例子出发，给出精确条件与完整条件证明，并区分指定来源和自由存在性路线。
 
+## 当前研究状态：实际边界酉元与联合周期迹（2026-09-21）
+
+[414](notes/414-f1-deep-boundary-unitary-and-time-defect.md)已把双零边界的酉元及其提升具体构造出来，
+并在同一来源中用真实Fourier壳层消去混合迭代，得到两个完整有限位的联合周期迹。
+这仍未证明主关系的迹消失；下一步计算[实际缺陷投影及非局部传递](reviews/2026-09-21/f1-defect-projection-joint-trace-next-proof-plan.md)。
+六项新Lean检查通过；C*和联合迹论证由独立审查核对。GOAL保持active，主除子与RR仍开放。
+下方为历史快照，以看板顶部队列为准。
+
 ## 当前研究状态：共同两位边界与虚类忘却（2026-09-21）
 
 最新结算：[413](notes/413-f1-two-place-boundaries-and-virtual-class-collapse.md)在同一来源中计算两个周期边界的连接映射。
