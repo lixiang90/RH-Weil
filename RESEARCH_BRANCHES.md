@@ -8,7 +8,7 @@
 | 顺序 | 任务 | 验收与切换 |
 |---|---|---|
 | 已结算 | 旧周期13的iteration-10冻结候选：[364完整验收](notes/364-frozen-integer-candidate-verification.md) | 6237815186边全扫描，13755190失败；最坏边320位真实标量缺口仍严格为正。只排除该表的同word／前缀充分条件 |
-| 当前主线 | F1-EX1：[392](notes/392-f1-eigensections-and-weighted-banach-space.md)全部截面／紧族和[393](notes/393-f1-profile-surjectivity-and-filtered-dimension.md)轮廓满射／CC过滤维数均已审；[394](notes/394-f1-real-principal-relations-and-parameter-topologies.md)完成新增独立空间审查 | 先固定完整几何点空间、扩域及紧Hausdorff性质，再检验同线丛零测度差的连续湮灭子是否只有常数。保留torsion提升；不采用已排除的纯径向弱测度双次数接法；完整τ及固定ζ接口仍开放 |
+| 当前主线 | F1-EX1：[395](notes/395-f1-geometric-measure-principal-quotient.md)完成紧几何载体、连续主商一维及普通图碰撞，两路独立复核通过 | 按[下一任务单](reviews/2026-09-20/f1-marked-correspondence-next-proof-plan.md)检验保留两侧结构的实际对应，先区分1与p并处理2、3、6；不再以单曲线零测度的弱完成补造双次数。完整平方／固定ζ／G8仍开放 |
 | 必要辅助 | 经典Lean缺口、原始文献及只读独立复核 | 26项既有检查与十个sorry为当前基线；形式化通过不替代实际算术存在性 |
 
 [任务单](goals/NEXT.20260909.md)与[账本](goals/PROGRESS.md)维护当前状态。
