@@ -1801,8 +1801,9 @@
       "text_characters": 130756,
       "pdf_metadata_title": "arXiv:math/9811068v1  [math.NT]  10 Nov 1998",
       "status": "已有外部来源，选择性核读及404独立来源审计闭环；没有RH或完整几何存在性结论。",
-      "read_scope": "独立代理核读PDF21–22、28–36、41–47、76–78，PDF42视觉核对；主线程另核PDF29–32，PDF31视觉核对。仅所列定理前提与相关证明段，不认证全文。 405追加核读PDF69–74、76–78的主值正规化，74整页视觉核对；限定于所用语句与证明。",
-      "review_note": "../reviews/2026-09-20/f1-adelic-local-trace-independent-review.md"
+      "read_scope": "独立代理核读PDF21–22、28–36、41–47、76–78，PDF42视觉核对；主线程另核PDF29–32，PDF31视觉核对。仅所列定理前提与相关证明段，不认证全文。 405追加核读PDF69–74、76–78的主值正规化，74整页视觉核对；限定于所用语句与证明。 407: Leibniz read PDF25-29,31,41-42,45-47,77-78; visual27,31,42. Transverse local weights, finite-S theorem and RH-equivalent global claims kept distinct.",
+      "review_note": "../reviews/2026-09-20/f1-adelic-local-trace-independent-review.md",
+      "review_407": "../reviews/2026-09-20/f1-prime-arrows-source-review.md"
     },
     {
       "id": "CC-2024-knots",
@@ -1834,7 +1835,7 @@
       "version": "arXiv:math/0703392v1; 2007-03-13",
       "download_status": "downloaded",
       "status": "选定来源审计与405数学逆审已闭环；真正principaldivisor及完成cyclic商拓扑比较仍开放。",
-      "read_scope": "主线程核读PDF16–25、27–33，PDF33视觉核对。Lorentz核读17–25、27–33并补8–10、15–16、59–61；视觉9、20、21、24、25、28–33。仅所列范围，不认证全文或上游完整证明。",
+      "read_scope": "主线程核读PDF16–25、27–33，PDF33视觉核对。Lorentz核读17–25、27–33并补8–10、15–16、59–61；视觉9、20、21、24、25、28–33。仅所列范围，不认证全文或上游完整证明。 407: Leibniz read PDF16-25,27-34,37-40,47,60-61; visual28,34,47. Rational arrows vs external flow and boundary/cyclic constructions; no full upstream proof audit.",
       "file": "f1/ccm-weil-adeles-math-0703392v1.pdf",
       "source_url": "https://arxiv.org/abs/math/0703392v1",
       "pdf_url": "https://arxiv.org/pdf/math/0703392v1",
@@ -1843,7 +1844,8 @@
       "sha256": "88c4e34577e5107f8be2dc8488a71976b94a4efb5ea03f93e9f7d60681c41dee",
       "pages": 61,
       "retrieved_at_utc": "2026-09-20T12:41:06.488026+00:00",
-      "review_note": "../reviews/2026-09-20/f1-adelic-restriction-source-review.md"
+      "review_note": "../reviews/2026-09-20/f1-adelic-restriction-source-review.md",
+      "review_407": "../reviews/2026-09-20/f1-prime-arrows-source-review.md"
     },
     {
       "id": "Meyer-2005-ideles",
@@ -1889,7 +1891,7 @@
       "title": "Notes on Infinite Determinants of Hilbert Space Operators",
       "file": "f1/simon-infinite-determinants-1977.pdf",
       "version": "Advances in Mathematics 24 (1977), 244–273; author-hosted scan",
-      "read_scope": "Boole checked PDF11–15 and19: determinant definitions, continuity, holomorphic families, multiplicativity, invertibility, eigenvalue zeros, Lidskii formula and exponential formula. No full-paper proof audit. Main checked title and visually checked PDF19 exponential formula.",
+      "read_scope": "Boole checked PDF11–15 and19: determinant definitions, continuity, holomorphic families, multiplicativity, invertibility, eigenvalue zeros, Lidskii formula and exponential formula. No full-paper proof audit. Main checked title and visually checked PDF19 exponential formula. 407: main read PDF12 Theorem3.5 trace-norm continuity; finite-coordinate determinant limit. Original source unchanged.",
       "source_url": "https://math.caltech.edu/SimonPapers/74.pdf",
       "pdf_url": "https://math.caltech.edu/SimonPapers/74.pdf",
       "resolved_pdf_url": "https://math.caltech.edu/SimonPapers/74.pdf",
@@ -1899,7 +1901,8 @@
       "sha256": "9820c0b7a05d4b89e3896282d02cf80cf0bb100325d3fabcc1b2ce1adc1e2fd8",
       "pages": 30,
       "retrieved_at_utc": "2026-09-20T14:05:58.253028+00:00",
-      "status": "Scoped original-source support for note406; no full-paper or arithmetic-realization certification."
+      "status": "Scoped original-source support for note406; no full-paper or arithmetic-realization certification.",
+      "review_407": "../reviews/2026-09-20/f1-prime-arrows-source-review.md"
     },
     {
       "id": "Weibel-Kbook-IV-relative",

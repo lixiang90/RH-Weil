@@ -1,0 +1,15 @@
+{
+  "status": "passed_exact_symbolic_checks",
+  "scope": "Gaussian moment and polynomial identities only. Poisson summation, traces, categories and RH are not certified.",
+  "sympy_version": "1.14.0",
+  "script_sha256": "1b4d0e0566b7d37a3fc6efcd43740ef29bbed46ddf38439d8060599b0ed6425e",
+  "positive_q": true,
+  "mu_q": "-3*q**2*(6*q**4 - 23*q**2 + 6)/(16*(q**2 + 1)**(9/2))",
+  "mellin_C_q_at_2": "-pi*q**2*(q**2 - 3)*(3*q**2 - 1)/(4*(q**2 + 1)**5)",
+  "mellin_P_q_at_2": "-pi*q**2*(q**2 - 3)*(3*q**2 - 1)/(2*(q**2 + 1)**5)",
+  "mellin_Z_q_at_2": "-pi*q**2*(q**2 - 3)*(3*q**2 - 1)/(q**2 + 1)**5",
+  "mu_2": "-3*sqrt(5)/1250",
+  "polynomial_identity": "6*u^2-23*u+6 = 6*(u-4)^2+25*(u-4)+10",
+  "eta_derivative": "-2*pi*r*(pi*r**2 - 3)*(pi*r**2 - 1/2)*exp(-pi*r**2)",
+  "identities_checked": 5
+}

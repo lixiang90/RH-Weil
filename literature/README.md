@@ -839,3 +839,14 @@ Reading scope is selective; see the [independent source audit](../reviews/2026-0
   Boole checked §3.3.3–3.3.4 / PDF35–36 and §3.4.3 / PDF40. Main visually checked PDF36 and40. Only arithmetic principal-pair and regular-unit scope used; full intersection/RR proof not audited.
 
 Official definitions used (HTML, not PDF): [Cartier quotient sheaf](https://stacks.math.columbia.edu/tag/02AR), [meromorphic functions](https://stacks.math.columbia.edu/tag/01X1), [determinant of complexes](https://stacks.math.columbia.edu/tag/0FJI), [global determinant construction](https://stacks.math.columbia.edu/tag/0FJW), [regular sections and effective Cartier divisors](https://stacks.math.columbia.edu/tag/0C4S).
+
+
+## 2026-09-20增量核读：素数箭头与外部边界作用
+
+[407来源审计](../reviews/2026-09-20/f1-prime-arrows-source-review.md)完整保存Leibniz的独立核读。
+CCM2007固定v1：PDF16–25、27–34、37–40、47、60–61，视觉28、34、47；
+Connes1998固定v1：PDF25–29、31、41–42、45–47、77–78，视觉27、31、42。
+核准有理箭头、主idele内作用、除紧群后周期、横向雅可比，以及严格有限S／循环模相对迹的不同范围。
+不认证Meyer等上游全文，也不把RH等价正性当作已知事实。
+Simon1977主线程追加核读PDF12 Theorem3.5的迹范数连续性，原PDF与版本哈希不变。
+本轮使用已有原件，无重复下载；形式化仅覆盖407明确列出的代数步骤。

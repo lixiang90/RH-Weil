@@ -1,0 +1,154 @@
+# 407：独立原始来源审计
+
+审计者：Leibniz；2026-09-20；只读。以下完整保留返回文本。
+
+**404 的素数周期与 \(aU_p\) 有明确的代表变换关系，但不是同一种作用、同一个算子或同一种迹。即使所有指定 idele 纤维上的单箭头 Fredholm determinant 都等于 \(1\)，也只能否定仅依赖这些行列式／零除子的周期读出，不能外推为 adelic 相对迹或边界构造全部不可能。**
+
+本审计日期：2026-09-20。对应用户指定基线 `ae113ffe0edd57d16fa95e7c508d7425d56280ca` 及[当前计划](/H:/codex-build/RH/RH-Weil/reviews/2026-09-20/f1-canonical-determinant-arithmetic-next-proof-plan.md)。实际核读工作树现有文件；未用 Git 核验基线，未改文件、未运行 Lean、未重复单箭头幂迹计算。
+
+以下简称 CCM 与 Connes；页码均为**指定 v1 PDF 页码，与文内印刷页码一致**：
+
+- CCM，61 页：:codex-file-citation{path="H:/codex-build/RH/RH-Weil/literature/f1/ccm-weil-adeles-math-0703392v1.pdf" purpose="source"}。
+- Connes，88 页：:codex-file-citation{path="H:/codex-build/RH/RH-Weil/literature/f1/connes-trace-math-9811068v1.pdf" purpose="source"}。
+
+两篇分别有 2009 年 *Progress in Mathematics* 269，339–405，以及 1999 年 *Selecta Mathematica* 5，29–106 的发表版本；本次仅核实发表书目，没有用发表版页码替换 v1 定位。[作者发表目录](https://alainconnes.org/publications/)
+
+**1．必须保留三个不同层次。**
+
+| 对象及作用 | 原文依据 | 与素数周期的关系 |
+|---|---|---|
+| \(\mathbb Q^\times\ltimes\mathbb A_{\mathbb Q}\)：箭头 \((q,x):x\to qx\) | CCM pp.16–17，(4.2)–(4.6) | \(U_p\) 是有理作用的群胚生成元；\(aU_p\) 是带系数的箭头族 |
+| \(C_{\mathbb Q}\) 作用于 \(\mathbb A_{\mathbb Q}/\mathbb Q^\times\) | CCM p.22，Prop.4.11，(4.29)–(4.34) | 有理数对应主 idele，其类为单位元；真正留下的是外部 idele 类作用 |
+| \(\mathbb R_+^\times\) 作用于 \(X=\mathbb Q^\times\backslash\mathbb A_{\mathbb Q}/K\)，\(K=\prod_\ell\mathbb Z_\ell^\times\) | [404，第21行起](/H:/codex-build/RH/RH-Weil/notes/404-f1-adelic-periodic-orbits-and-mixed-local-trace.md:21)；CCM pp.34、40 | \(p\) 分量为零的轨道在除去紧单位群后成为周期 \(\log p\) 的圆 |
+
+CCM Prop.4.11 特别说明：主 idele \(q\) 所诱导的缩放自同构是内自同构，因而上同调作用下降到 \(C_{\mathbb Q}\)。**这不意味着源代数中的 \(aU_q\) 为零，也不意味着它就是该上同调上的外部缩放算子。**
+
+Connes pp.25–26，§VI (4)–(7)，给出固定点的准确判据：若 \(j\) 代表一个 idele 类，固定点意味着存在 \(q\in\mathbb Q^\times\) 使
+\[
+(qj)x=x.
+\]
+若所有 \(x_v\ne0\)，则 \(qj=1\)，idele 类只能是单位元。故非平凡固定点集中于某个 \(x_v=0\) 的超平面。**“非 idele”本身尚不充分；所有分量均非零的非 idele 也没有这种稳定子。**
+
+**2．有理 \(p\) 如何参与周期：它实现重选代表／覆盖变换。**
+
+令 \(a^{(p)}_p=0\)，其余分量为 \(1\)。CCM p.34，Prop.8.1、Def.8.3，(8.3)、(8.7)–(8.8)，以及 Connes p.26，(7)，说明该点的 \(C_{\mathbb Q}\) 稳定子为嵌入的
+\[
+i_p(\mathbb Q_p^\times),\qquad
+i_p(w)_p=w,\quad i_p(w)_v=1\ (v\ne p).
+\]
+这与“在所有地方同时乘有理数 \(p\)”不同。
+
+令 \(j_\infty(p^m)\) 只在实分量乘 \(p^m\)。取 \(u\in K\)，满足
+\[
+u_\ell=p^{-m}\quad(\ell\ne p),\qquad u_p=1.
+\]
+则
+\[
+j_\infty(p^m)a^{(p)}=p^m u\,a^{(p)}.
+\]
+所以除去 \(\mathbb Q^\times\) 和 \(K\) 后发生返回，得到
+\[
+C_p\simeq\mathbb R_+^\times/p^{\mathbb Z}.
+\]
+这正是 404 的计算；CCM p.40 明确把周期 \(\log p\) 放在 \(\Xi_{\mathbb Q}/C_{\mathbb Q,1}\) 上。**不能省略紧群商，直接宣称原始 \(\mathbb A_{\mathbb Q}/\mathbb Q^\times\) 上同一个纯实缩放流已有该周期。**
+
+更直接的原文关联是 CCM p.47，Prop.8.21，(8.47)–(8.50)：在提升
+\[
+\widetilde\Xi_{\mathbb Q,p}
+=\{x:x_p=0,\ |x_\ell|_\ell=1\ (\ell\ne p,\infty),\ x_\infty>0\}
+\]
+上，同一 adele 类的代表恰由
+\[
+x\longmapsto px
+\]
+的整数次迭代联系起来。**因此有理 \(p\) 确实参与周期的覆盖识别，但不是提升空间中的固定点。**事实上，对任意非零 adele，\(qx=x\) 都迫使 \(q=1\)；这里也不存在有理作用自身的非平凡点稳定子。
+
+**3．周期贡献还包含横向作用，不能由单独圆周迹替代。**
+
+Connes p.27，§VI (11)–(15)，明确给出边界超平面的横向空间及作用：
+\[
+N_x\simeq\mathbb Q_p,\qquad z\longmapsto wz,
+\]
+从而产生
+\[
+\int_{\mathbb Q_p^\times}
+\frac{h(i_p(w)^{-1})}{|1-w|_p}\,d^\times w.
+\]
+因此 404 的
+\[
+L_p(k)=\log p\sum_{m\ge1}
+\bigl[k(m\log p)+p^{-m}k(-m\log p)\bigr]
+\]
+同时使用周期长度、局部单位积分及横向雅可比。普通圆周平移迹只有双向等权的重复周期项，不能提供这里的负时间权重。
+
+Connes p.28 明说上述全局计算当时尚属形式计算；不能仅凭 p.27 的引号“Trace”认定某个未指定 Hilbert 算子已有普通迹。
+
+**4．指定文件中确有保留这些项的相对／边界构造，但结论分三层。**
+
+- **无条件的有限 \(S\) 截断迹。**Connes pp.29–31，§VII Theorem 4，在指定 \(L^2(X_S)\)、Fourier 变换和
+  \[
+  R_\Lambda=\widehat P_\Lambda P_\Lambda
+  \]
+  下证明
+  \[
+  \operatorname{Tr}(R_\Lambda U(h))
+  =2h(1)\log'\Lambda+
+  \sum_{v\in S}\int'
+  \frac{h(i_v(w)^{-1})}{|1-w|_v}\,d^\times w+o(1).
+  \]
+  这是 404 §4.1 的有效输入。先固定足够大的有限 \(S\)，可保留给定紧支测试涉及的全部素数幂项；不能由标量稳定自动推出统一全局几何或正性。
+
+- **无条件的全局相对循环模／核空间迹。**CCM pp.18–21，Prop.4.5、Def.4.10，先构造
+  \[
+  \rho:S(G_{\mathbb Q})\to
+  C(C_{\mathbb Q},\mathcal L^1(H_b)),
+  \qquad H_b=\ell^2(\pi^{-1}(b)),
+  \]
+  再取循环模映射 \(\rho^\natural\) 的余核，**按 p.21 的规定除以像的闭包**，并取其循环同调实现 \(H^1\)。p.23 (4.38) 的被积算子是外部 \(C_{\mathbb Q}\) 作用：
+  \[
+  \vartheta_m(f)=\int_{C_{\mathbb Q}}f(c)\vartheta_m(c)\,d^\times c.
+  \]
+  p.28 Theorem 6.1，(6.4)，给出
+  \[
+  T(f)=\operatorname{Tr}(\vartheta_m(f)|H^1)
+  =\widehat f(0)+\widehat f(1)
+  -\sum_v\int'
+  \frac{f(i_v(w)^{-1})}{|1-w|_v}\,d^\times w.
+  \]
+  取 \(f(c)=k(\log|c|)\)，其局部几何项就是 404 的 \(L_v(k)\)。故该构造确实保留素数周期贡献，且 **\(H^1\) 迹等于两个 Mellin 矩减去局部总和，不能直接认作 \(L(k)\)**。
+
+  CCM pp.23–25 明说所有零点，包括可能离开临界线的零点，都按自然重数参与；p.28 指定使用 Meyer 的核空间框架。RH 等价的是 p.29 Prop.6.2／Cor.6.3 的迹配对正性，**不是上述迹恒等式本身**。本次核实这些陈述及其对文献 [11]、[32] 的依赖，未重验两项上游工作的完整证明。
+
+- **独立的边界限制与动力学。**CCM p.34，Def.8.2、(8.6)，直接构造
+  \[
+  \rho_p:S(G_{\mathbb Q})\to S(G_{\mathbb Q,p}),
+  \qquad x_p=0.
+  \]
+  pp.37–38，Prop.8.10，证明对应动力学在 \(\ker\rho_p\) 上是内的；其依据是
+  \[
+  \log|qx_p|_p-\log|x_p|_p=\log|q|_p
+  \quad(x_p\ne0).
+  \]
+  这提供真实的边界代数及动力学定位，**不是**每个 \(aU_p\) 都得到非平凡 Fredholm 除子的定理；也不能自动升级为相对 \(K\) 理论局部化或几何主除子构造。
+
+另须隔离 Connes pp.41–42 的 Theorem 5：其正式陈述是正特征下指定全局 Hilbert 投影截断公式与 RH 的等价；数域在 pp.45–47 另用 prolate 截断。二者均不能被当作 \(\mathbb Q\) 情形已证的 RH 强度输入。Appendix II，pp.77–78 Theorem 6 的经典显式公式则是无条件解析恒等式。
+
+**5．单箭头 determinant \(=1\) 所支持的不可能性边界。**
+
+若主线程证明，在指定系数类及全部指定 idele 纤维上
+\[
+D_p(a;b):=\operatorname{div}_z
+\det\!\left(I-zR_b(aU_p)\right)=0,
+\]
+则可以准确归档为：
+
+> 仅以这些单箭头标准 Fredholm 行列式或完整零除子为输入、且零对象读出为零的构造，不能区分这些箭头与零输入，也不能从中恢复 404 的非零周期贡献。若仍使用外加的素数标签或边界数据，读出已不再仅依赖上述除子。
+
+但以下外推均不成立：
+
+1. **不能推出整个交叉积中的复合或求和也无信息。**CCM p.20，(4.23)–(4.24)，明确规定循环词只有在 \(\prod_jq_j=1\) 时才可能贡献；包含反向箭头的词属于另一检验范围。
+2. **不能推出完整限制映射 \(\rho\) 已丢失所有边界信息。**逐纤维再取单箭头行列式是更粗的观测；CCM 的余核、外部作用及全局迹正是另外的构造。
+3. **不能直接把 idele 纤维的迹类论证搬到边界。**Prop.4.5 的论证使用 \(b\mathbb Q\) 在 adele 中的离散性；CCM p.34 Lemma 8.4 明确区分 idele 离散轨道与非 idele 轨道逼近 \(0\) 的行为。
+4. **不能由现有相对迹反向宣布目标主除子理论已经建立。**CCM p.33 仍将“identify the correct notion of principal divisors”列为待解决问题。相对迹存在不等于所需平方、主关系、交叉配对和 RR 已齐备。
+
+本次完整文本核读 CCM pp.16–25、27–34、37–40、47、60–61；Connes pp.25–29、31、41–42、45–47、77–78。另整页视觉核对 CCM pp.28、34、47 与 Connes pp.27、31、42；渲染均在内存中完成。

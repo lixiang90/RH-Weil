@@ -65,3 +65,14 @@ record four checked algebraic descent results. The concrete source exponentials,
 determinants, complex divisors, and any arithmetic metric are not formalized here.
 Use `python scripts/check_unit_descent.py` with the same pinned dependency options as LocalTrace.
 Earlier reports describe their original source snapshots and have not been overwritten.
+
+
+## WeightedArrows：九项定向验证（2026-09-20）
+
+[报告](weighted-arrows-verification.json)、[编译输出](weighted-arrows-build.txt)、
+[公理输出](weighted-arrows-axioms.txt)、[审计入口](WeightedArrowsAudit.lean)、
+[源码清单](weighted-arrows-source-audit.json)记录九条已通过结果。
+没有sorryAx依赖；16份本项目Lean源码中原十处admission未增减。
+vendor8包806文件逐字节及Git跟踪核查通过；旧报告保持原样。
+脚本为 scripts/check_weighted_arrows.py，固定Lean4.32.2与原mathlib提交。
+这次是定向检查，不是全F1重建；分析、范畴及几何部分未被该模块认证。

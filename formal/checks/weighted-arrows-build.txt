@@ -1,0 +1,12 @@
+F1/Analysis/WeightedArrows.lean
+
+checks/WeightedArrowsAudit.lean
+'RHWeil.F1.weightedPull_mul' depends on axioms: [propext, Quot.sound]
+'RHWeil.F1.weightedPull_pow_form' depends on axioms: [propext, Quot.sound]
+'RHWeil.F1.weightedPull_diagonal_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RHWeil.F1.weightedPull_pow_diagonal_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RHWeil.F1.weightedWord_form' depends on axioms: [propext, Quot.sound]
+'RHWeil.F1.weightedWord_diagonal_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RHWeil.F1.weightedPull_inverse_pair' depends on axioms: [propext, Quot.sound]
+'RHWeil.F1.loopResiduePolynomial_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RHWeil.F1.lowerBoundedRecurrence_zero' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,5 +1,16 @@
 # 20260909版重启任务单
 
+## 唯一当前任务（2026-09-20，407结算）
+
+执行[相对复形的完成化与素数边界检验](../reviews/2026-09-20/f1-relative-complex-boundary-next-proof-plan.md)。
+[407](../notes/407-f1-prime-arrows-fredholm-and-relative-complex.md)已独立逆审通过：
+单向行列式恒为1，反向闭合词保留二阶信息；两次微分给非零双矩零解析关系。
+有限箭头环中有非零相对完美对象，但其K类和完成化稳定性尚未确定。
+先给统一幂范数界，再做实际p边界限制；不以单纯非零对象替代算术主除子。
+九条Lean新引理无sorryAx，解析与范畴范围另记。
+下方“当前任务”均为历史快照；Goal保持active，第十节强度不变。
+
+
 ## 唯一当前任务（2026-09-20，406结算）
 
 执行[标准除子读出与算术来源](../reviews/2026-09-20/f1-canonical-determinant-arithmetic-next-proof-plan.md)。

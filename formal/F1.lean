@@ -4,6 +4,7 @@ import F1.Geometry.RationalCorrespondence
 import F1.Geometry.ReducedSquare
 import F1.Analysis.Jensen
 import F1.Analysis.LocalTrace
+import F1.Analysis.WeightedArrows
 import F1.Analysis.UnitDescent
 import F1.Analysis.TraceRadical
 import F1.Geometry.Existence

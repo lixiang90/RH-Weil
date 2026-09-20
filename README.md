@@ -7,6 +7,16 @@
 
 ## 当前研究状态：F₁的Adelic限制关系与主除子准入（2026-09-20）
 
+最新结算：[407](notes/407-f1-prime-arrows-fredholm-and-relative-complex.md)已完成独立全文逆审。
+单向素数箭头的纤维行列式恒为1，逆标签混合词则保留可区分素数的第二倒数矩；
+Poisson端点经两次微分才进入完整B的根空间。
+另给有限箭头源中非零、逐idele纤维可缩的完美复形。
+下一步检查其[完成化与素数边界行为](reviews/2026-09-20/f1-relative-complex-boundary-next-proof-plan.md)，
+不由非零对象声称非零相对K类或几何主除子。
+[九项新Lean检查](formal/checks/weighted-arrows-verification.json)通过且无sorryAx；
+完整分析、几何与RH未被这些形式化认证。Goal保持active。
+
+
 [GOAL.20260909.md](goals/GOAL.20260909.md)已按用户要求修订并启动，
 原第十三版已按原始字节归档。十轮整数候选的[完整独立验收](notes/364-frozen-integer-candidate-verification.md)
 已完成：约62.38亿条控制边全扫，当前候选的同word／前缀充分条件严格失败。

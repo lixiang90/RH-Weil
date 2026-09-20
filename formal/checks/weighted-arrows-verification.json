@@ -1,0 +1,67 @@
+{
+  "status": "passed_no_sorry_dependencies",
+  "checked_at_utc": "2026-09-20T14:23:10.579207+00:00",
+  "lean_version": "Lean (version 4.32.2, x86_64-w64-windows-gnu, commit f3b06c705e6c85f5314019d5d3baab0fec5b580c, Release)",
+  "mathlib_revision": "905b95818eb32af7874a58b427f50c1711a5e96c",
+  "cache_backup": ".lake\\hdd-backup-05156b5b",
+  "runtime_dir": "C:\\Users\\A\\AppData\\Local\\Temp\\rh-weil-local-trace-20260920",
+  "scope": "Nine coordinate-algebra, bounded-recurrence and residue-polynomial results. No Hilbert trace, determinant, adele construction or full F1 build is formalized.",
+  "commands": [
+    {
+      "source": "F1/Analysis/WeightedArrows.lean",
+      "exit_code": 0
+    },
+    {
+      "source": "checks/WeightedArrowsAudit.lean",
+      "exit_code": 0
+    }
+  ],
+  "source_sha256": {
+    "F1/Analysis/WeightedArrows.lean": "32451077fb4060161b573c94d9d1682dd3b42e3b7fb25ea0653d0f5244d033f1",
+    "checks/WeightedArrowsAudit.lean": "12a94ac98611c7392f679b1fc2645d00b3a94e714d30e8918a05231067a6c395"
+  },
+  "axioms": {
+    "RHWeil.F1.weightedPull_mul": [
+      "propext",
+      "Quot.sound"
+    ],
+    "RHWeil.F1.weightedPull_pow_form": [
+      "propext",
+      "Quot.sound"
+    ],
+    "RHWeil.F1.weightedPull_diagonal_zero": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "RHWeil.F1.weightedPull_pow_diagonal_zero": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "RHWeil.F1.weightedWord_form": [
+      "propext",
+      "Quot.sound"
+    ],
+    "RHWeil.F1.weightedWord_diagonal_zero": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "RHWeil.F1.weightedPull_inverse_pair": [
+      "propext",
+      "Quot.sound"
+    ],
+    "RHWeil.F1.loopResiduePolynomial_pos": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "RHWeil.F1.lowerBoundedRecurrence_zero": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "existing_admissions": "The existing Weil convergence and criterion admissions are not imported by these checked results."
+}

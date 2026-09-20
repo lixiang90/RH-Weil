@@ -1,6 +1,7 @@
 # 406后的有限任务：标准行列式除子读出与算术来源
 
-2026-09-20。[O] 当前主问题。
+2026-09-20。本任务已由[407](../../notes/407-f1-prime-arrows-fredholm-and-relative-complex.md)结算。
+当前队列转入[相对复形完成化与边界](f1-relative-complex-boundary-next-proof-plan.md)；以下保留原任务范围。
 [406](../../notes/406-f1-adelic-units-and-determinant-divisors.md)已结算指数单位检验；
 在标准线性铅笔内，零点倒数的绝对收敛和可从完整零除子恢复迹。
 因此不得将任意log导数的单位障碍外推为所有规范化行列式方案不可能。

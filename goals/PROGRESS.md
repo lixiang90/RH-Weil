@@ -1,5 +1,25 @@
 # 持续GOAL执行账本：20260909版重启
 
+## 当前执行：素数箭头与相对完美复形已结算（2026-09-20）
+
+[407](../notes/407-f1-prime-arrows-fredholm-and-relative-complex.md)完成四项相连推导：
+无闭合词时det恒为1；实际逆标签混合迹及第二倒数矩严格区分固定参数下的素数；
+非零Poisson端点经两次L才进入完整B根空间；有限箭头源中非零完美对象逐idele纤维可缩。
+[来源审计](../reviews/2026-09-20/f1-prime-arrows-source-review.md)与
+[全文数学逆审](../reviews/2026-09-20/f1-prime-arrows-mathematical-review.md)均由Leibniz只读完成。
+未发现P1/P2；明确收缩、负端极限、Mellin半平面和固定坐标量词的四项补强已采纳。
+
+[WeightedArrows九条引理](../formal/F1/Analysis/WeightedArrows.lean)实际通过Lean4.32.2，
+无sorryAx；五项Gaussian精确符号恒等式通过。原十处admission及历史报告保留，未重建全F1。
+原文使用已归档版本，增量页码与实际核读范围写入文献索引。
+没有证明非零相对K类、几何主除子、RR或RH，也未达GOAL较远期显著进展。
+
+下一主任务：[完成化与素数边界](../reviews/2026-09-20/f1-relative-complex-boundary-next-proof-plan.md)。
+根GOAL按原字节归档，第十节逐字保持，Goal继续active。
+上一批已精确推送[ae113ff](https://github.com/lixiang90/RH-Weil/commit/ae113ffe0edd57d16fa95e7c508d7425d56280ca)；
+本批提交与远端状态以实际保存核验为准。
+
+
 ## 当前执行：实际单位与规范除子读出已结算（2026-09-20）
 
 [406](../notes/406-f1-adelic-units-and-determinant-divisors.md)构造源代数的实际指数单位，

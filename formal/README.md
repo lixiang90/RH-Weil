@@ -130,3 +130,17 @@ the shared LocalTrace runner if needed. The analytic adele/determinant construct
 the identification of regular units remain outside these formalized statements.
 No full F1 build was performed for this addition. Ordinary Cartier descent does not by
 itself impose the same vanishing condition on a metrized arithmetic divisor with a Green term.
+
+
+## 2026-09-20：实际带权箭头的代数检查
+
+[WeightedArrows.lean](F1/Analysis/WeightedArrows.lean)的九条结果已实际通过Lean4.32.2。
+包含复合／幂／有限词的箭头标签、非闭合词的零对角、逆标签乘积，
+以及留数多项式正性和有下界次数递推。逐项公理仅含标准三项，无sorryAx依赖。
+[运行报告](checks/weighted-arrows-verification.json)、[源码清单](checks/weighted-arrows-source-audit.json)
+另存，原十处admission与旧检查报告保留。当前项目Lean源码16份，vendor仍为8包806文件。
+
+运行 python scripts/check_weighted_arrows.py；本机可加前述固定cache/runtime参数，
+依赖准备脚本入口为 --entry F1.Analysis.WeightedArrows。
+这些算子定义在全部函数上，未形式化Hilbert迹、Fredholm、Poisson、导出范畴或RH。
+纸面范围与实际算术来源见[407](../notes/407-f1-prime-arrows-fredholm-and-relative-complex.md)。
