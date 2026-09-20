@@ -1,0 +1,50 @@
+{
+  "checked_at_utc": "2026-09-20T07:14:59.264292+00:00",
+  "scope": "399 documentation and preservation checks; mathematical proof review is recorded separately, not certified by these checks",
+  "markdown_files": [
+    "README.md",
+    "RESEARCH_BRANCHES.md",
+    "goals/GOAL.20260909.md",
+    "goals/NEXT.20260909.md",
+    "goals/PROGRESS.md",
+    "goals/archive/README.md",
+    "goals/archive/GOAL.20260909.f1-before-kernel-descent.md",
+    "literature/README.md",
+    "notes/399-f1-normalized-cartier-kernels-and-principal-topology.md",
+    "reviews/2026-09-20/f1-normalized-graph-kernel-next-proof-plan.md",
+    "reviews/2026-09-20/f1-normalized-kernel-independent-review.md",
+    "reviews/2026-09-20/f1-cartier-tower-descent-next-proof-plan.md"
+  ],
+  "local_link_targets_checked": 1076,
+  "broken_links": [],
+  "goal_mirrors": "Goal mirror verified: 22 files.",
+  "goal_before_sha256": "ab7678f442a44142765a9580a6bcf5e6055bdfc1a0b5056f72297afa2a23c1dd",
+  "goal_after_sha256": "f7fa9ed22386916593906b1aaaa06898b35e44724e1286c191595a50f3ee3c11",
+  "long_term_B_C_bytes_unchanged": true,
+  "pdf": {
+    "path": "literature/background/kedlaya-absolute-values-2007.pdf",
+    "bytes": 76399,
+    "sha256": "8940d4dc58253c247737502e929dbdbfa68f059ce3f074f40ef3cda65341d8f5",
+    "pages": 6,
+    "extracted_characters_per_page": [
+      2414,
+      1908,
+      1995,
+      2063,
+      2629,
+      1805
+    ],
+    "scope": "whole-file parsing only; selective theorem reading/rendering documented in literature manifest"
+  },
+  "unrelated_files_unchanged": {
+    "reviews/2026-09-08/control-prefix-curvature-budget.json": "cc5c7e5f58f9057c5fb2dc38d22fa878c260a9ade964e651d3dbe1e588f9cda8",
+    "reviews/2026-09-08/radius-five-continuous-period-pressure.json": "1c27b0bc1c4c635b4ed2fbf40d9378bc9c1089afe56a36313d2f6e5b8a031e25",
+    "scripts/control_prefix_curvature_budget.py": "59842cf32a2446a6558a38c731adc3e724eefd17398d3a6321e3b071aa7988bf",
+    "scripts/radius_five_continuous_period_pressure.py": "7fac1a13e9652cb1187abb958de833043b2d9ac91f06484f887108f07e5c5cb6"
+  },
+  "not_run": [
+    "old numerical certificate scans",
+    "Lean compilation",
+    "full upstream theorem certification"
+  ]
+}

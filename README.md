@@ -5,7 +5,7 @@
 面向具有大学二年级数学基础的读者：[F₁ 路线究竟要找什么，以及为什么足以推出 RH](docs/f1-route-from-undergraduate-math.md)。
 讲义从具体例子出发，给出精确条件与完整条件证明，并区分指定来源和自由存在性路线。
 
-## 当前研究状态：F₁实际平方与完整幂图的除子障碍（2026-09-20）
+## 当前研究状态：F₁空间复核、图核与全局主关系（2026-09-20）
 
 [GOAL.20260909.md](goals/GOAL.20260909.md)已按用户要求修订并启动，
 原第十三版已按原始字节归档。十轮整数候选的[完整独立验收](notes/364-frozen-integer-candidate-verification.md)
@@ -59,8 +59,13 @@ G0跨类型接口据此修订。[391](notes/391-f1-candidate-space-review-and-al
 普通推前在代数主商为恒等，标记推前则乘b。
 [398](notes/398-f1-diagonal-square-and-noncartier-graphs.md)现已构造真实对角周期解析平方，
 高度比能区分b与pb；完整幂图却在所有图点都不是通常Cartier闭子空间，独立逆审通过。
-有限层方程的额外根相位与周期失配亦已核验。下一步检验实际有限层根核的归一化极限及主关系，
-完整双次数、交叉及固定ζ比较仍开放。
+有限层方程的额外根相位与周期失配亦已核验。
+[399](notes/399-f1-normalized-cartier-kernels-and-principal-topology.md)随后完成全Berkovich基底及原C上的图核构造，
+归一化核一致弱收敛到完整图，但总变差距离恒为2；指定覆盖主核的强闭商会消去图。
+高度混合给实际周期下降，却不保严格幂复合；这些限定结论均经
+[独立复核](reviews/2026-09-20/f1-normalized-kernel-independent-review.md)。
+下一步检验[保留Cartier塔与过渡数据的下降](reviews/2026-09-20/f1-cartier-tower-descent-next-proof-plan.md)，
+完整τ、双次数、交叉及固定ζ比较仍开放。
 候选容器非空仍不意味着全部算术条件有实例。
 [任务单](goals/NEXT.20260909.md)给出顺序。
 尚无新的RH或无条件比例结论；完整验收与较远期显著进展分开。

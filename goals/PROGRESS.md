@@ -1,6 +1,30 @@
 # 持续GOAL执行账本：20260909版重启
 
-## 当前执行：398已审，转向归一化图核及主关系（2026-09-20）
+## 当前执行：399已审，转向Cartier塔的全局下降（2026-09-20）
+
+[399](../notes/399-f1-normalized-cartier-kernels-and-principal-topology.md)完成以下限定输入：
+
+- 全部Berkovich基点的规范根核、Feller性质、紧基底一致弱收敛，以及从完备代数闭扩域向原C的实际下降。
+- 总变差／算子范数距离恒为2；图在指定覆盖主核的强闭包中，但到算子范数闭主空间的距离恰为1。
+- 整数相位层、p分母、2／3／6复合及周期公式；高度混合构造真实可下降的概率对应，但不保持严格幂半群。
+- 紧Hausdorff空间的可逆Feller概率核必须确定；只排除以非确定概率平均严格实现相应逆元的接口。
+
+Einstein已完成[完整独立推导与逆审](../reviews/2026-09-20/f1-normalized-kernel-independent-review.md)，
+原C图点质量与无原子性的区别、有限Galois谱的统一界及范数闭商强度等澄清均已纳入。
+整体空间的合理性及替代参数化仍以[394审查](../notes/394-f1-real-principal-relations-and-parameter-topologies.md)为入口：
+有界容器保留；固定τ的完整目标解集尚无实例。
+
+下一唯一主任务为[保留实际Cartier塔过渡数据](../reviews/2026-09-20/f1-cartier-tower-descent-next-proof-plan.md)，
+检验局部化、索引移位、无限极限与全局主关系，而非继续把所有覆盖主式逐一消去。
+该候选尚未证明成功；交叉、RR及固定ζ仍开放。
+
+新保存Kedlaya 2007绝对值讲义原PDF：6页，SHA256及实际核读范围见文献清单。
+采用有限扩域范数的标准[R]定理，未冒称完整重审其存在性证明。
+根GOAL执行段据此修订，修订前字节另存f1-before-kernel-descent快照；第十节B/C不改。
+本轮没有新Lean运行或旧数值扫描。Goal保持active，未达到较远期完成标准。
+399本批保存状态以实际提交及远端核验为准，不预记推送成功。
+
+## 398结算时的执行快照（2026-09-20）
 
 [398](../notes/398-f1-diagonal-square-and-noncartier-graphs.md)实现双变量perfectoid解析纤维积及对角周期商，
 真实高度比保留b与pb的区别。完整幂图的闭核在每个与图相交的有理局部模型中
@@ -22,7 +46,9 @@ Darwin已完成[独立逆审及相位辅助](../reviews/2026-09-20/f1-diagonal-s
 [e2a7c95](https://github.com/lixiang90/RH-Weil/commit/e2a7c959da58c285cf27b4ecffa1dce6ab2f651d)。
 普通Git连接失败后，通过已登录GitHub API上传相同树及原author/committer信息，
 树哈希与提交SHA完全一致，非强制快进main并再次核对。不是另造近似内容的替代提交。
-本轮398保存状态以其提交及远端实测为准。
+398随后已精确同步至GitHub提交
+[fca9354](https://github.com/lixiang90/RH-Weil/commit/fca935474a0dc276defe99dfc2fe13707f57ee83)，
+main／origin/main／本地HEAD一致，新Scholze PDF的远端字节哈希也已核验。
 
 Goal保持active；本轮是限定构造与障碍进度，没有新的RH、比例、非零区域或完整Weil结构结论。
 

@@ -1710,6 +1710,27 @@
       "empty_text_pages": [],
       "read_scope": "Title and dated author version, PDF38 Proposition6.18 statement and proof; independent 398 review uses it as a fibre-product comparison. Main proof retains its explicit weighted tensor-product and positive-subring argument. No full tilting/almost-purity/weight-monodromy review.",
       "status": "Original author PDF archived without alteration; not asserted byte-identical to the arXiv or journal PDF."
+    },
+    {
+      "id": "Kedlaya-absolute-values-2007",
+      "authors": "Kiran S. Kedlaya",
+      "title": "p-adic differential equations: Absolute values",
+      "version": "MIT 18.787, fall 2007; author PDF fixed by SHA256, retrieved 2026-09-20",
+      "category": "background",
+      "source_url": "https://kskedlaya.org/18.787/absolute-values.pdf",
+      "pdf_url": "https://kskedlaya.org/18.787/absolute-values.pdf",
+      "file": "background/kedlaya-absolute-values-2007.pdf",
+      "attempted_on": "2026-09-20",
+      "download_status": "downloaded",
+      "bytes": 76399,
+      "pages": 6,
+      "sha256": "8940d4dc58253c247737502e929dbdbfa68f059ce3f074f40ef3cda65341d8f5",
+      "retrieved_at_utc": "2026-09-20T06:44:55.422939+00:00",
+      "pdf_parse_status": "all six pages parsed; selective mathematical reading",
+      "text_characters": 12814,
+      "empty_text_pages": [],
+      "read_scope": "Title/course version; Theorem4 on PDF3 and Theorem6 and uniqueness proof on PDF4, algebraic-extension consequences on PDF5. Theorem6 existence statement is adopted as a standard external input; this handout defers its existence proof to the Newton-polygons unit, not independently reviewed here. Supports 399 finite scalar-extension norm/completeness only.",
+      "status": "Original PDF saved unchanged; full course and forward-referenced existence proof not audited."
     }
   ],
   "supplement_provenance": [

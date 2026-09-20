@@ -708,3 +708,15 @@ CC2015 *Geometry of the arithmetic site* 的既有
 仅作为398独立审查的纤维积背景比较，未认证完整tilting、几乎纯性或weight-monodromy证明。
 此文件来自作者网站，不声称与arXiv或期刊PDF逐字节相同。
 历史原件及补充材料累计数由91增至92，仍包含先前仅本地保存的原件。
+
+## 2026-09-20续记：归一化根核的原C基底下降
+
+Kiran S. Kedlaya，*p-adic differential equations: Absolute values*，MIT 18.787，fall 2007。
+[作者原PDF](background/kedlaya-absolute-values-2007.pdf)／
+[官方来源](https://kskedlaya.org/18.787/absolute-values.pdf)。
+6页，76,399字节，SHA256为`8940d4dc58253c247737502e929dbdbfa68f059ce3f074f40ef3cda65341d8f5`。
+为[399](../notes/399-f1-normalized-cartier-kernels-and-principal-topology.md)核读PDF3页Theorem4、
+PDF4页Theorem6与唯一性证明、PDF5页代数扩张说明，3–4页另渲染核对。
+有限扩张范数的存在性在该讲义中转引Newton多边形单元；本项目采用标准定理陈述，
+未将该转引证明或整个课程计为已重审。全部六页文本解析不等于全文证明认证。
+历史原件及补充材料累计数由92增至93，仍包括先前仅本地保存的原件。

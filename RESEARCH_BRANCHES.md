@@ -8,7 +8,7 @@
 | 顺序 | 任务 | 验收与切换 |
 |---|---|---|
 | 已结算 | 旧周期13的iteration-10冻结候选：[364完整验收](notes/364-frozen-integer-candidate-verification.md) | 6237815186边全扫描，13755190失败；最坏边320位真实标量缺口仍严格为正。只排除该表的同word／前缀充分条件 |
-| 当前主线 | F1-EX1：[398](notes/398-f1-diagonal-square-and-noncartier-graphs.md)已构造真实对角周期平方，完整幂图的局部非Cartier障碍及有限层相位问题均独立复核通过 | 按[归一化图核任务](reviews/2026-09-20/f1-normalized-graph-kernel-next-proof-plan.md)核验有限层根核的极限、变底点、周期下降和主关系；不以Dirac图重述或自由双次数代替新几何。396–397推前接口保持，完整交叉／ζ仍开放 |
+| 当前主线 | F1-EX1：[399](notes/399-f1-normalized-cartier-kernels-and-principal-topology.md)的全基底图核、原C下降、强主商障碍及高度混合复合限制均独立复核通过 | 按[Cartier塔任务](reviews/2026-09-20/f1-cartier-tower-descent-next-proof-plan.md)保留实际过渡乘子，检验逆系统、茎与极限、周期有效下降和全局主关系；不以pro对象定义代替几何恢复。396–398接口保持，完整τ／交叉／ζ仍开放 |
 | 必要辅助 | 经典Lean缺口、原始文献及只读独立复核 | 26项既有检查与十个sorry为当前基线；形式化通过不替代实际算术存在性 |
 
 [任务单](goals/NEXT.20260909.md)与[账本](goals/PROGRESS.md)维护当前状态。

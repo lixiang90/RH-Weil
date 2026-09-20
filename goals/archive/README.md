@@ -55,3 +55,6 @@ SHA256：6012c718862223c992fff4a77e2eb455728765c06c005740a6d3beeb59c2fb4c。
 
 
 2026-09-20：[Cartier准入前快照](GOAL.20260909.f1-before-noncartier.md)保存398结算及归一化图核路线修订前根文件原字节；SHA256 `f78f1d7543b02c69b137036da2c57a7f69e4e0d281d14be3dbaa0b5b6b4e8b8a`。改变的是当前执行问题，第十节B/C原文不变。
+
+
+2026-09-20：[图核下降前快照](GOAL.20260909.f1-before-kernel-descent.md)保存399结算及Cartier塔路线修订前根文件原字节；SHA256 `ab7678f442a44142765a9580a6bcf5e6055bdfc1a0b5056f72297afa2a23c1dd`。改动只涉及当前执行和范围内停止结论，第十节B/C逐字保持。

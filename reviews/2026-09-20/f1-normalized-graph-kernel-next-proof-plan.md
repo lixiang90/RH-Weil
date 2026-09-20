@@ -1,6 +1,14 @@
 # 398之后的有限任务：有限层Cartier根核、归一化极限与主关系
 
-2026-09-20。**[O] 新机制准入任务，不是已构造的G0–G8实例。**
+2026-09-20。**本任务已由399结算；完整G0–G8仍[O]。**
+[399](../../notes/399-f1-normalized-cartier-kernels-and-principal-topology.md)及
+[独立复核](f1-normalized-kernel-independent-review.md)给出全基底核、原C下降、
+一致弱极限和精确拓扑障碍。固定层不周期下降；高度混合可下降但不保严格幂复合。
+指定覆盖主核的强闭商消去幂图；较强范数商保留图，却不允许沿用原收敛。
+因此该标量核直接承担完整τ的候选按限定范围停止。
+下一有限任务为[保留Cartier塔的过渡数据](f1-cartier-tower-descent-next-proof-plan.md)。
+下面保留原准入任务，不再作为未完成验收重复执行。
+
 前序[398](../../notes/398-f1-diagonal-square-and-noncartier-graphs.md)与
 [独立相位审查](f1-diagonal-square-independent-review.md)已经结算：
 真实对角周期平方存在，完整幂图区分b与pb，但不是通常Cartier闭子空间；
