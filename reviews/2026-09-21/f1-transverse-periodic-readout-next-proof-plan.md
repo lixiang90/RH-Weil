@@ -1,5 +1,11 @@
 # 411后的有限任务：横向p进实现与周期读出
 
+已由[412](../../notes/412-f1-transverse-compression-and-periodic-traces.md)结算并独立复核。
+实际有限秩压缩、相容悬挂、逐N迹比较及指定单位元有限部分已完成。
+固定加性K读出障碍已限定范围，非加性反例完整保留。
+下一项是[两个有限位的共同来源与边界粘合](f1-two-place-boundary-gluing-next-proof-plan.md)。
+以下保留执行前任务原文。
+
 2026-09-21。[O] 411后的唯一主探索。
 [411](../../notes/411-f1-full-rational-relative-classes-and-logarithmic-trace.md)得到完整有理相对类和2a log p迹。
 [404](../../notes/404-f1-adelic-periodic-orbits-and-mixed-local-trace.md)已核准有限位局部公式，

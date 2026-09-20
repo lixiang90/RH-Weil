@@ -1801,10 +1801,15 @@
       "text_characters": 130756,
       "pdf_metadata_title": "arXiv:math/9811068v1  [math.NT]  10 Nov 1998",
       "status": "已有外部来源，选择性核读及404独立来源审计闭环；没有RH或完整几何存在性结论。",
-      "read_scope": "独立代理核读PDF21–22、28–36、41–47、76–78，PDF42视觉核对；主线程另核PDF29–32，PDF31视觉核对。仅所列定理前提与相关证明段，不认证全文。 405追加核读PDF69–74、76–78的主值正规化，74整页视觉核对；限定于所用语句与证明。 407: Leibniz read PDF25-29,31,41-42,45-47,77-78; visual27,31,42. Transverse local weights, finite-S theorem and RH-equivalent global claims kept distinct. 408: Hilbert additionally read PDF10-11,25-26,51,55-57 for Schwartz inductive-limit topology, Hilbert completion and boundary orbit closure; no full-paper certification.",
+      "read_scope": "独立代理核读PDF21–22、28–36、41–47、76–78，PDF42视觉核对；主线程另核PDF29–32，PDF31视觉核对。仅所列定理前提与相关证明段，不认证全文。 405追加核读PDF69–74、76–78的主值正规化，74整页视觉核对；限定于所用语句与证明。 407: Leibniz read PDF25-29,31,41-42,45-47,77-78; visual27,31,42. Transverse local weights, finite-S theorem and RH-equivalent global claims kept distinct. 408: Hilbert additionally read PDF10-11,25-26,51,55-57 for Schwartz inductive-limit topology, Hilbert completion and boundary orbit closure; no full-paper certification. Note412 increment: PDF19–25,38–41,69–73,76–77,79; visual PDF22,39,72. Local Theorem3 cutoff definitions and exact 2log prime Lambda=(2N+1)log p for Lambda=p^N; AppendixII(9), Lemmas2–3, conductor-Zp Fourier normalization. No unrestricted global RH-equivalent theorem used.",
       "review_note": "../reviews/2026-09-20/f1-adelic-local-trace-independent-review.md",
       "review_407": "../reviews/2026-09-20/f1-prime-arrows-source-review.md",
-      "review_408": "../reviews/2026-09-20/f1-orbit-completion-source-review.md"
+      "review_408": "../reviews/2026-09-20/f1-orbit-completion-source-review.md",
+      "review_notes": [
+        "../reviews/2026-09-20/f1-adelic-local-trace-independent-review.md",
+        "../reviews/2026-09-21/f1-transverse-trace-source-review.md",
+        "../reviews/2026-09-21/f1-transverse-trace-source-followup.md"
+      ]
     },
     {
       "id": "CC-2024-knots",

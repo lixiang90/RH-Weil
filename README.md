@@ -5,6 +5,16 @@
 面向具有大学二年级数学基础的读者：[F₁ 路线究竟要找什么，以及为什么足以推出 RH](docs/f1-route-from-undergraduate-math.md)。
 讲义从具体例子出发，给出精确条件与完整条件证明，并区分指定来源和自由存在性路线。
 
+## 当前研究状态：横向压缩与完整有限位周期迹（2026-09-21）
+
+最新结算：[412](notes/412-f1-transverse-compression-and-periodic-traces.md)构造实际p进压缩及trace-class周期算子。
+横向相干尾自然产生重复轨道权重；固定Fourier截止也核准了单位元常数。
+尚未从原K类规范构造这些Hilbert数据，也未给共同全局来源、几何主关系或RR。
+下一步检查[两个有限位的共同来源与边界粘合](reviews/2026-09-21/f1-two-place-boundary-gluing-next-proof-plan.md)。
+[七项新Lean结果](formal/checks/transverse-trace-verification.json)无sorryAx，
+完整算子／几何论证另经独立复核。Goal保持active。
+下方状态为历史快照，以看板顶部唯一队列为准。
+
 ## 当前研究状态：完整有理边界类与对数迹（2026-09-21）
 
 最新结算：[411](notes/411-f1-full-rational-relative-classes-and-logarithmic-trace.md)已完成独立全文逆审。

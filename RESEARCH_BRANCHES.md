@@ -1,6 +1,6 @@
 # 研究分支看板
 
-## 唯一当前队列（2026-09-21 横向压缩与周期迹）
+## 唯一当前队列（2026-09-21 两个有限位的共同边界）
 
 执行[GOAL.20260909.md](goals/GOAL.20260909.md)，Goal保持active。
 旧整数验证及此前空间审查已归档，下方历史状态不决定当前次序。
@@ -8,8 +8,8 @@
 | 顺序 | 任务 | 验收与切换 |
 |---|---|---|
 | 已结算 | 旧周期13冻结候选：[364完整验收](notes/364-frozen-integer-candidate-verification.md) | 6237815186边全扫描，13755190失败；只排除指定充分条件 |
-| 当前主线 | F1-EX1：[411](notes/411-f1-full-rational-relative-classes-and-logarithmic-trace.md)的完整Q×相对类与对数迹已独立审查 | 下一项[横向压缩与周期迹](reviews/2026-09-21/f1-transverse-periodic-readout-next-proof-plan.md)：构造实际p-adic压缩、Hilbert悬挂及平滑时间迹，核准幂权重和单位元项。现有2a log p直接加性配对不等于Weil权重；主关系与RR仍开放 |
-| 必要辅助 | 原始文献、即时Lean和只读独立审查 | EndpointDefect新增六项无sorryAx；历史报告及十处admission保持。未重建全F1 |
+| 当前主线 | F1-EX1：[412](notes/412-f1-transverse-compression-and-periodic-traces.md)的真实横向压缩与完整有限位周期迹已审查 | 下一项[共同来源与边界粘合](reviews/2026-09-21/f1-two-place-boundary-gluing-next-proof-plan.md)：构造同一有限S的层理想扩张与连接映射，检验两个周期对象同时提升及真实关系。局部迹匹配不代替主除子或RR |
+| 必要辅助 | 原始文献、即时Lean和只读独立审查 | TransverseTrace新增七项无sorryAx；历史报告及十处admission保持。未重建全F1 |
 
 [任务单](goals/NEXT.20260909.md)与[账本](goals/PROGRESS.md)给当前动作。
 较早的当前／暂停／结构辅助表述均为历史记录。

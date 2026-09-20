@@ -1,0 +1,10 @@
+F1/Analysis/TransverseTrace.lean
+
+checks/TransverseTraceAudit.lean
+'RHWeil.F1.coherentTail_hasSum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RHWeil.F1.coherentTail_normalized' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RHWeil.F1.coherentTail_overlap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RHWeil.F1.affine_secondDifference' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RHWeil.F1.geometric_secondDifference' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RHWeil.F1.coherentTail_not_affine' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RHWeil.F1.commonMixedTerm_weight' depends on axioms: [propext, Classical.choice, Quot.sound]

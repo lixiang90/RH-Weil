@@ -22,3 +22,5 @@ namespace RHWeil.F1
 abbrev Target : Prop := RiemannHypothesis
 
 end RHWeil.F1
+
+import F1.Analysis.TransverseTrace

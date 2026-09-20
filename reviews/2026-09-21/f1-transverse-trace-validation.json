@@ -1,0 +1,148 @@
+{
+  "checked_at_utc": "2026-09-20T17:19:45.429692+00:00",
+  "status": "passed_scoped_validation",
+  "base_commit": "21787553b2ebbf92faa9addba81b6d8f11b0e05d",
+  "lean": {
+    "new_theorems": 7,
+    "no_sorry_dependencies": true,
+    "old_admissions": 10,
+    "own_lean_files": 21,
+    "full_F1_build": false,
+    "verification_sha256": "50b9e05fb1ad4f637457d42bbf9521536a97d6febc8e0f1b4a6fa9134ea2daf4"
+  },
+  "note_sha256": "d3cb85aa7e653f24c4a736453db984128e0eeffab07663ba0a9a447f31266431",
+  "independent_review_sha256": {
+    "f1-transverse-trace-source-review.md": "830719909c414ea4ec77b402caa2e3c73da0b247ff716f9d2e28f31660159fef",
+    "f1-transverse-trace-source-followup.md": "3e18d5c224f5641fb7415652a83ab8cabf56bde2f3d43be8e42a8b2644ac6a72",
+    "f1-transverse-trace-math-review.md": "910fd844fe4a79f8ac4f56e1d7192371e2dc8454ab9d79905c950376238e2932",
+    "f1-transverse-trace-math-followup.md": "e70d557c4eae4613892ce8f8e30db72bbd58ecc6ababf1c474a4f289aaa458d0"
+  },
+  "mathematical_scope": "Actual p-adic and radial finite projections, coherent tail overlap, compatible Hilbert suspension and trace-class smoothed compression; exact trace comparison to the fixed local Fourier cutoff including the (2N+1)log p subtraction for radial tests; lawful Gamma slice and closed boundary comparison. Fixed additive K readout obstructed. No full rational transfer, unified global geometry, principal divisor, RR or RH claim.",
+  "goal": {
+    "mirror_files": 33,
+    "section_ten_unchanged": true,
+    "archive_sha256": "ac534c80f26c6f22e5cb9d0b8a4e2bd66dcfba9b176b5f1da0237636db3818d6",
+    "current_sha256": "c2d3f00cc41d545c21e85592bc95e45effc7ea35783d50c41e903b9eafe5159d"
+  },
+  "pdfs": [
+    {
+      "file": "f1/connes-trace-math-9811068v1.pdf",
+      "pages": 88,
+      "bytes": 519632,
+      "sha256": "dfd4e9924d8980f82e3da11fdea861d318fda8f5c7ba57ee659baf8631975053"
+    },
+    {
+      "file": "f1/ccm-weil-adeles-math-0703392v1.pdf",
+      "pages": 61,
+      "bytes": 657051,
+      "sha256": "88c4e34577e5107f8be2dc8488a71976b94a4efb5ea03f93e9f7d60681c41dee"
+    },
+    {
+      "file": "f1/ccm-endomotives-math-0512138v2.pdf",
+      "pages": 58,
+      "bytes": 747528,
+      "sha256": "68f9c8eaa5e9b46790e5adad0e8cd910da43566e7bc339ea5ecc81ab1f3fe601"
+    },
+    {
+      "file": "f1/simon-infinite-determinants-1977.pdf",
+      "pages": 30,
+      "bytes": 1032498,
+      "sha256": "9820c0b7a05d4b89e3896282d02cf80cf0bb100325d3fabcc1b2ce1adc1e2fd8"
+    },
+    {
+      "file": "f1/mrw-groupoid-equivalence-1987.pdf",
+      "pages": 20,
+      "bytes": 876225,
+      "sha256": "16723f6b3b3d90f220a4bc0814ed8374817ae2025c8eef9822f520a8da7b6629"
+    },
+    {
+      "file": "f1/renault-williams-amenability-1501.03027v1.pdf",
+      "pages": 27,
+      "bytes": 360094,
+      "sha256": "53a8462dc9cbcc510cf855a2449096473740e5eb3bd7f2863f1c6e1ecfc7c0df"
+    },
+    {
+      "file": "f1/sims-williams-reduced-equivalence-1002.3093v2.pdf",
+      "pages": 15,
+      "bytes": 239328,
+      "sha256": "892ebec6e5ce36b87e25c7fc8a97f7dd56f2af902902b6c13f1daab498f11ca5"
+    },
+    {
+      "file": "f1/sims-hausdorff-etale-groupoids-2017.pdf",
+      "pages": 61,
+      "bytes": 661582,
+      "sha256": "cdb759c15de23e3d314cac018475b625fa6ae4e6d4a9802fbb1dcd90eb2e5542"
+    },
+    {
+      "file": "f1/blackadar-k-theory-author-book6.pdf",
+      "pages": 314,
+      "bytes": 1562151,
+      "sha256": "a20e676e9d400ebcd0cd07c13fbdbe1fac759a30c739fab23d6161ecfb1a23fb"
+    },
+    {
+      "file": "f1/pimsner-voiculescu-exact-sequences-1980.pdf",
+      "pages": 26,
+      "bytes": 873396,
+      "sha256": "79acd2953430b184480cdc714ca1f81cf90e4f931525cf2ddda4457917067a2c"
+    }
+  ],
+  "local_markdown_links_checked": 1378,
+  "historical_reports_preserved": [
+    "formal/checks/endpoint-defect-verification.json",
+    "formal/checks/endpoint-defect-axioms.txt",
+    "formal/checks/endpoint-defect-source-audit.json",
+    "formal/checks/boundary-clutch-verification.json",
+    "formal/checks/boundary-clutch-axioms.txt",
+    "formal/checks/boundary-clutch-source-audit.json",
+    "formal/checks/source-audit.json",
+    "formal/checks/verification.json",
+    "formal/checks/local-trace-verification.json",
+    "formal/checks/local-trace-axioms.txt",
+    "formal/checks/trace-radical-verification.json",
+    "formal/checks/trace-radical-axioms.txt",
+    "formal/checks/trace-radical-source-audit.json"
+  ],
+  "protected_untracked_unchanged": {
+    "reviews/2026-09-08/control-prefix-curvature-budget.json": "cc5c7e5f58f9057c5fb2dc38d22fa878c260a9ade964e651d3dbe1e588f9cda8",
+    "reviews/2026-09-08/radius-five-continuous-period-pressure.json": "1c27b0bc1c4c635b4ed2fbf40d9378bc9c1089afe56a36313d2f6e5b8a031e25",
+    "scripts/control_prefix_curvature_budget.py": "59842cf32a2446a6558a38c731adc3e724eefd17398d3a6321e3b071aa7988bf",
+    "scripts/radius_five_continuous_period_pressure.py": "7fac1a13e9652cb1187abb958de833043b2d9ac91f06484f887108f07e5c5cb6"
+  },
+  "old_stash_preserved": true,
+  "changed_files": [
+    "README.md",
+    "RESEARCH_BRANCHES.md",
+    "formal/F1.lean",
+    "formal/F1/Analysis/TransverseTrace.lean",
+    "formal/README.md",
+    "formal/checks/README.md",
+    "formal/checks/TransverseTraceAudit.lean",
+    "formal/checks/transverse-trace-axioms.txt",
+    "formal/checks/transverse-trace-build.txt",
+    "formal/checks/transverse-trace-source-audit.json",
+    "formal/checks/transverse-trace-verification.json",
+    "formal/scripts/check_transverse_trace.py",
+    "goals/GOAL.20260909.md",
+    "goals/NEXT.20260909.md",
+    "goals/PROGRESS.md",
+    "goals/archive/GOAL.20260909.f1-before-transverse-trace.md",
+    "goals/archive/README.md",
+    "goals/manifest.json",
+    "literature/README.md",
+    "literature/manifest.json",
+    "notes/412-f1-transverse-compression-and-periodic-traces.md",
+    "reviews/2026-09-21/f1-transverse-periodic-readout-next-proof-plan.md",
+    "reviews/2026-09-21/f1-transverse-trace-math-followup.md",
+    "reviews/2026-09-21/f1-transverse-trace-math-followup.raw.json",
+    "reviews/2026-09-21/f1-transverse-trace-math-review.md",
+    "reviews/2026-09-21/f1-transverse-trace-math-review.raw.json",
+    "reviews/2026-09-21/f1-transverse-trace-source-followup.md",
+    "reviews/2026-09-21/f1-transverse-trace-source-followup.raw.json",
+    "reviews/2026-09-21/f1-transverse-trace-source-review.md",
+    "reviews/2026-09-21/f1-transverse-trace-source-review.raw.json",
+    "reviews/2026-09-21/f1-transverse-trace-validation.json",
+    "reviews/2026-09-21/f1-two-place-boundary-gluing-next-proof-plan.md",
+    "scripts/sync_goal.py"
+  ],
+  "diff_check": "passed"
+}

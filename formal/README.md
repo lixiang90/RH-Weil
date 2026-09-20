@@ -189,3 +189,11 @@ Banach交叉积、谱半径、整数访问计数、边界表示及导出范畴�
 --entry F1.Analysis.EndpointDefect，可用前述固定cache/runtime参数。
 [411](../notes/411-f1-full-rational-relative-classes-and-logarithmic-trace.md)的Hilbert收敛、
 交叉积、PV、K类及半有限迹另属纸面推导；本轮未重建全F1。
+
+## 412：横向相干尾与加性读出障碍（2026-09-21）
+
+[TransverseTrace.lean](F1/Analysis/TransverseTrace.lean)的七项结果通过Lean4.32.2，无sorryAx。
+直接证明几何尾部HasSum、归一化及重叠，另核准仿射／几何二阶差分与共同混合项障碍。
+[运行报告](checks/transverse-trace-verification.json)与[源码清单](checks/transverse-trace-source-audit.json)记录范围；
+p进空间、Hilbert悬挂、trace-class、来源比较及K理论另由纸面审查，不在这些形式化内。
+当前21份项目Lean源码，原十处admission保持，未重建完整F1。

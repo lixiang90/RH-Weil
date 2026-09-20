@@ -111,3 +111,10 @@ vendor八包806文件原样保留。旧报告不覆盖；连续性、绕数和K�
 记录六项通过的代数检查；两项不依赖公理，四项只依赖propext，均无sorryAx。
 [源码清单](endpoint-defect-source-audit.json)包含20份项目源码、原十处admission及
 vendor八包806文件校验。历史报告保持。Hilbert正交／收敛、C*、迹和K理论未在此形式化。
+
+## 2026-09-21：TransverseTrace
+
+[七项内核检查](transverse-trace-verification.json)、[传递公理](transverse-trace-axioms.txt)、
+[编译日志](transverse-trace-build.txt)及[独立源码清单](transverse-trace-source-audit.json)保存。
+几何尾部及加性K读出障碍代数无sorryAx；真实Hilbert悬挂和算子迹尚非Lean形式证明。
+21份项目源码、十处旧admission、八个vendor项目806份源码核准，所有历史报告保持。

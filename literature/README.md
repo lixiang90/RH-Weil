@@ -947,3 +947,15 @@ Sims Proposition4.2.6（印刷33／PDF37），实际核读PDF35–37。
 
 当前本地56份原始PDF、2139页，Git保存55份、2110页；Schur29页仍仅本地。
 新增原件不会自动成为全局F1／RH输入证明。
+
+## 2026-09-21：412横向周期迹的Fourier正规化
+
+沿用[Connes固定v1原件](f1/connes-trace-math-9811068v1.pdf)，
+[原始PDF](https://arxiv.org/pdf/math/9811068v1)，88页，SHA256不变。
+独立增量核读PDF19–25、38–41、69–73、76–77、79，视觉核对22、39、72。
+局部Theorem3的双截止与精确log′定义给2log′(p^N)=(2N+1)log p；
+Appendix II (9)、Lemma2–3核准导子Z_p的单位常值有限部分为零及字符变更项。
+这验证412径向测试族的来源接口，不认证全篇或调用其RH等价全局版本。
+[完整来源审查](../reviews/2026-09-21/f1-transverse-trace-source-review.md)与
+[采纳复核](../reviews/2026-09-21/f1-transverse-trace-source-followup.md)保存。
+本轮无重复下载；本地56份2139页、Git55份2110页的统计不变。

@@ -1,5 +1,17 @@
 # 20260909版重启任务单
 
+## 唯一当前任务（2026-09-21，412结算）
+
+执行[两个有限位的共同来源与边界粘合](../reviews/2026-09-21/f1-two-place-boundary-gluing-next-proof-plan.md)。
+[412](../notes/412-f1-transverse-compression-and-periodic-traces.md)已给实际p进压缩、相容Hilbert悬挂与trace-class时间迹，
+在固定Fourier截止中识别完整有限位项，包含精确单位扣项(2N+1)log p。
+该读出依赖K类之外的算子数据，固定加性K读出有明确障碍。
+下一步在同一有限S={∞,p,q}来源内构造各层理想扩张并计算连接映射，
+检验两个周期类／横向数据的同时提升及真实主关系候选。
+候选扩张与K映射尚未认证；不得用两个独立单p公式相加代替。
+七项TransverseTrace Lean结果无sorryAx，原十处admission及历史报告保持。
+下方当前任务均为历史快照；Goal继续active，第十节强度不变。
+
 ## 唯一当前任务（2026-09-21，411结算）
 
 执行[横向压缩与真正周期读出](../reviews/2026-09-21/f1-transverse-periodic-readout-next-proof-plan.md)。

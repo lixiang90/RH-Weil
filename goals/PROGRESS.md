@@ -1,5 +1,29 @@
 # 持续GOAL执行账本：20260909版重启
 
+## 当前执行：横向压缩与完整有限位周期迹已结算（2026-09-21）
+
+[412](../notes/412-f1-transverse-compression-and-periodic-traces.md)从Q_p加法Haar空间、实际酉缩放与紧单位平均，
+构造秩2N+1的径向截止。非零迭代的全部迹来自最内球相干尾，值p^(-|a|/2)，对每个N精确。
+相容Hilbert悬挂采用逆过渡和真实时间逆拉回；有限矩阵光滑核证明时间平滑压缩为trace-class。
+以h(t)=e^(t/2)k(t)换元后，原始周期长度给出log p而不是a log p的重复轨道系数。
+
+满投影准确等于加法／Fourier双截止，其与单位平均的重数不同。
+[来源复核](../reviews/2026-09-21/f1-transverse-trace-source-review.md)核准原文精确扣项
+2log'(p^N)=(2N+1)log p，使单位壳层有限部分为零，没有可自由挑选的δ_0。
+两个Hilbert空间中的压缩迹逐N相等，但未宣称两个表示已有规范等价。
+真实adelic局部闭Γ约化给到410周期载体的合法闭边界扩张，未伪造完整Q×代数限制同态。
+固定加性K读出不能恢复横向迭代系数，也不能由共同混合项恢复所有p的log p。
+全文逆审指出原稿把加性障碍扩大成任意K类函数障碍；已删除过宽表述，
+加入exp(−τ(ev x)/4)这个非加性反例。它恢复横向标量，并不构造Hilbert对象或规范来源比较。
+全局相对来源、真正主关系、双次数、有效性及RR仍开放。
+
+[七项Lean结果](../formal/checks/transverse-trace-verification.json)实测通过4.32.2，无sorryAx；
+21份项目Lean源码、原十处admission及全部历史报告保持，未重建全F1。
+原Connes PDF的核读范围追加，未重复下载；来源与数学独立复核完整保存。
+下一项是[两个有限位的共同来源与边界粘合](../reviews/2026-09-21/f1-two-place-boundary-gluing-next-proof-plan.md)。
+根GOAL旧字节归档，第十节全部保持。上一批已精确推送[2178755](https://github.com/lixiang90/RH-Weil/commit/21787553b2ebbf92faa9addba81b6d8f11b0e05d)；
+本批以实际远端核验为准。Goal继续active，未达长期完成标准。
+
 ## 当前执行：完整有理边界类与对数迹已结算（2026-09-21）
 
 [411](../notes/411-f1-full-rational-relative-classes-and-logarithmic-trace.md)使用真正Q×不变的实零边界扩张，

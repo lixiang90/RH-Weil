@@ -93,3 +93,9 @@ SHA-256：88a54e9a5e5526273ecc0f4058b3d7c987b2a0674e0d819f261e5a36fed5da19。
 [GOAL.20260909.f1-before-full-rational-boundary.md](GOAL.20260909.f1-before-full-rational-boundary.md)保存411结算前根目标原始字节。
 SHA256：cb287f253b8059227d6db03d6f268cfc954e7e0cfd955d62e5cf7d7efe0e8d98。
 当前执行转入横向压缩与真正周期读出，第十节全部字节保持。
+
+## 横向周期迹前快照（2026-09-21）
+
+[GOAL.20260909.f1-before-transverse-trace.md](GOAL.20260909.f1-before-transverse-trace.md)保存412结算前根目标原字节。
+SHA256：ac534c80f26c6f22e5cb9d0b8a4e2bd66dcfba9b176b5f1da0237636db3818d6。
+当前执行转入两个有限位的共同来源与边界粘合，第十节全部字节保持。
