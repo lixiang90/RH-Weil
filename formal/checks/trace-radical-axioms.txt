@@ -1,0 +1,8 @@
+'RHWeil.F1.momentCorrectedPairing_radical' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RHWeil.F1.quarterMoments_self_pairing' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RHWeil.F1.quarterMoments_not_radical' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RHWeil.F1.degree_basis_moments' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RHWeil.F1.codegree_basis_moments' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RHWeil.F1.remove_two_moments' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RHWeil.F1.two_moment_coordinates_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RHWeil.F1.trace_kernel_radical_iff_moments' depends on axioms: [propext, Classical.choice, Quot.sound]

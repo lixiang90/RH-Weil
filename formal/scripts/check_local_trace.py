@@ -26,7 +26,8 @@ NAMES = [
     "identityCorrection_self_ne",
 ]
 
-def main():
+def main(*, theorem_names=None, source_files=None, report_prefix="local-trace", scope=None):
+    theorem_names = NAMES if theorem_names is None else theorem_names
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--cache-backup", type=Path)
     parser.add_argument("--runtime-dir", type=Path, help="Prepared local artifact directory; research sources stay in formal")
@@ -50,7 +51,7 @@ def main():
         cache_manifest = json.loads((runtime / "cache-manifest.json").read_text(encoding="utf-8"))
         assert cache_manifest["mathlib_revision"] == REV
         assert not cache_manifest["missing"], cache_manifest["missing"]
-    output = runtime / "lib/lean" if runtime else ROOT / ".lake/local-trace-check/lib/lean"
+    output = runtime / "lib/lean" if runtime else ROOT / f".lake/{report_prefix}-check/lib/lean"
     (output / "F1/Analysis").mkdir(parents=True, exist_ok=True)
     libraries = [output] if runtime else [output, mathlib / ".lake/build/lib/lean"]
     for name in ["aesop", "batteries", "Qq", "plausible", "importGraph",
@@ -90,20 +91,20 @@ def main():
         "lean_version": version, "mathlib_revision": revision,
         "cache_backup": str(args.cache_backup) if backup else None,
         "runtime_dir": str(runtime) if runtime else None,
-        "scope": "Shared test-function definitions recompiled; eight LocalTrace results checked. No full F1 build.",
+        "scope": scope or "Shared test-function definitions recompiled; eight LocalTrace results checked. No full F1 build.",
         "commands": [], "source_sha256": {}, "axioms": {},
     }
-    report_path = checks / "local-trace-verification.json"
+    report_path = checks / f"{report_prefix}-verification.json"
     def save():
         report_path.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n",
                                encoding="utf-8")
     save()
-    sources = ["F1/Analysis/TestFunctions.lean", "F1/Analysis/LocalTrace.lean",
-               "checks/LocalTraceAudit.lean"]
+    sources = source_files or ["F1/Analysis/TestFunctions.lean", "F1/Analysis/LocalTrace.lean",
+                               "checks/LocalTraceAudit.lean"]
     if args.check_weil:
         sources.append("F1/Analysis/Weil.lean")
         report["scope"] += " Affected Weil module compatibility compiled with its original admissions."
-    with (checks / "local-trace-build.txt").open("w", encoding="utf-8") as log:
+    with (checks / f"{report_prefix}-build.txt").open("w", encoding="utf-8") as log:
         for source in sources:
             report["source_sha256"][source] = hashlib.sha256((ROOT / source).read_bytes()).hexdigest()
             if runtime:
@@ -127,16 +128,16 @@ def main():
                 save()
                 raise SystemExit(run.returncode)
             if source.startswith("checks/"):
-                (checks / "local-trace-axioms.txt").write_text(text, encoding="utf-8")
+                (checks / f"{report_prefix}-axioms.txt").write_text(text, encoding="utf-8")
                 for name, axioms in re.findall(
                     r"'([^']+)' (?:depends on axioms: \[([\s\S]*?)\]|does not depend on any axioms)", text):
                     report["axioms"][name] = re.findall(r"[A-Za-z_][A-Za-z0-9_.]*", axioms)
             save()
-    for name in NAMES:
+    for name in theorem_names:
         axioms = report["axioms"]["RHWeil.F1." + name]
         assert set(axioms) <= {"propext", "Classical.choice", "Quot.sound"}, (name, axioms)
     report["status"] = "passed_no_sorry_dependencies"
-    report["existing_admissions"] = "The existing Weil convergence and criterion admissions are not imported by these eight results."
+    report["existing_admissions"] = "The existing Weil convergence and criterion admissions are not imported by these checked results."
     save()
     print(report["status"])
 

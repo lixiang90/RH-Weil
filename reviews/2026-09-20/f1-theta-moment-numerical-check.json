@@ -1,0 +1,13 @@
+{
+  "status": "exploratory_noninterval_check",
+  "precision_digits": 70,
+  "sum_cutoff": 12,
+  "archimedean_cutoff": 3,
+  "exact_subtraction_tail_included": true,
+  "omitted_Gaussian_tails_not_interval_certified": true,
+  "Euler_polynomial": "4*z**4 - 28*z**3 + 41*z**2 - 9*z",
+  "N_theta": "0.2500000000000000000000000000000000000000000000000000000000000000000002",
+  "expected_N_theta": "1/4",
+  "N_theta_degree_zero": "5.795634610449095915205836346168186739636819966809048441332873529558721e-70",
+  "exact_result_method": "Mellin integral and gamma recurrence in the research proof; these quadratures are diagnostics only"
+}

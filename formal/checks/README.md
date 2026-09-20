@@ -1,5 +1,12 @@
 # 验证记录
 
+## 2026-09-20 TraceRadical定向检查
+
+[实际报告](trace-radical-verification.json)、[编译输出](trace-radical-build.txt)、
+[公理输出](trace-radical-axioms.txt)及[审计入口](TraceRadicalAudit.lean)记录八条新引理：
+全部编译通过，没有sorryAx依赖。解析事实作为前提，不由这些代数证明认证。
+当前[源码清单](trace-radical-source-audit.json)另存，原十处admission保留。
+
 ## 2026-09-20 LocalTrace定向检查
 
 [定向报告](local-trace-verification.json)、[编译输出](local-trace-build.txt)与

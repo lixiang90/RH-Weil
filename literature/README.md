@@ -783,3 +783,30 @@ Alain Connes; Caterina Consani. arXiv:2401.08401v1; 2024-01-16.
 
 Connes原件实际核读：独立代理PDF21–22、28–36、41–47、76–78，PDF42视觉核对；主线程另读PDF29–32、视觉核对PDF31。
 Theorem4可给404的固定有限S迹推论；Theorem5正式陈述为正特征，数域讨论与截断另列，不混写RH等价强度。
+
+
+## 2026-09-20: CCM restriction map and trace radical
+
+- Connes, Consani, Marcolli, *The Weil proof and the geometry of the adeles class space*,
+  arXiv:math/0703392v1 (2007-03-13). [Source](https://arxiv.org/abs/math/0703392v1),
+  [PDF](https://arxiv.org/pdf/math/0703392v1), [archived original](f1/ccm-weil-adeles-math-0703392v1.pdf).
+- 61 pages, 657051 bytes; SHA256: 88c4e34577e5107f8be2dc8488a71976b94a4efb5ea03f93e9f7d60681c41dee.
+- Selective source audit completed; see [report](../reviews/2026-09-20/f1-adelic-restriction-source-review.md) for exact textual and visual scope.
+  The trace radical and genuine principal-divisor relations require separate identification.
+
+
+### Fixed upstream references for CCM2007
+
+- Ralf Meyer, *On a representation of the idele class group related to primes and zeros of L-functions*, arXiv:math/0311468v3; 2005-03-16.
+  [Source](https://arxiv.org/abs/math/0311468v3), [PDF](https://arxiv.org/pdf/math/0311468v3), [local original](f1/meyer-ideles-math-0311468v3.pdf).
+  53 pages; SHA256 52e911b9b7b8236cdf1eacaeaf01e0174cb1f55a637945f63dfee9cdc24bb87b.
+  Title/metadata checked; full proof audit remains pending.
+- Alain Connes; Caterina Consani; Matilde Marcolli, *Noncommutative geometry and motives: the thermodynamics of endomotives*, arXiv:math/0512138v2; 2007-03-10.
+  [Source](https://arxiv.org/abs/math/0512138v2), [PDF](https://arxiv.org/pdf/math/0512138v2), [local original](f1/ccm-endomotives-math-0512138v2.pdf).
+  58 pages; SHA256 68f9c8eaa5e9b46790e5adad0e8cd910da43566e7bc339ea5ecc81ab1f3fe601.
+  Title/metadata checked; full proof audit remains pending.
+
+
+405 completed the fixed identity-normalization comparison and the moment/radical audit.
+The two upstream papers above were checked only for title and metadata.
+The endomotives v2 PDF has 58 pages, while the arXiv comments say 52.

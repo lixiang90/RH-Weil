@@ -1,0 +1,102 @@
+{
+  "checked_at_utc": "2026-09-20T13:26:13.480582+00:00",
+  "status": "passed_scoped_validation",
+  "base_commit": "87fdf679e38ef4f6e5fd0e46eb079f6329349ec5",
+  "lean": {
+    "new_theorems": 8,
+    "no_sorry_dependencies": true,
+    "old_admissions": 10,
+    "own_lean_files": 14,
+    "full_F1_build": false,
+    "verification_sha256": "9be6048a7cff7d174eec5038ab644dc00f42593a4a56984546b29276eed43701"
+  },
+  "note_sha256": "d4dd4f2934f57946e381b345f7e50fe385e6c5e65531cdce854aa0f49be3174a",
+  "independent_review_sha256": {
+    "f1-adelic-restriction-source-review.md": "dc7009a706b6838b9eb8ae1d9135bd8d3ec7c3c70fe9157928e7a79042043931",
+    "f1-adelic-restriction-mathematical-review.md": "b6cefc062edad877c8d73f0848c8fbb2312df355b5b07c10fd75452042291ae1"
+  },
+  "mathematical_scope": "Actual radial restriction image, full fixed normalization on sharp-invariant tests, zero-moment analytic radical. No geometric principal-divisor theory or RH.",
+  "goal": {
+    "mirror_files": 26,
+    "section_ten_unchanged": true,
+    "archive_sha256": "dfa1d1ab2f6c5bc41ad54d85ad7e5b22bc11835d8b91112e3c443758d9b3d76b",
+    "current_sha256": "f35b16770c1c87a460769ea47cb99ef8444b66105d7c0bfde8c7e849825af29b"
+  },
+  "pdfs": [
+    {
+      "file": "f1/connes-trace-math-9811068v1.pdf",
+      "pages": 88,
+      "bytes": 519632,
+      "sha256": "dfd4e9924d8980f82e3da11fdea861d318fda8f5c7ba57ee659baf8631975053"
+    },
+    {
+      "file": "f1/ccm-weil-adeles-math-0703392v1.pdf",
+      "pages": 61,
+      "bytes": 657051,
+      "sha256": "88c4e34577e5107f8be2dc8488a71976b94a4efb5ea03f93e9f7d60681c41dee"
+    },
+    {
+      "file": "f1/meyer-ideles-math-0311468v3.pdf",
+      "pages": 53,
+      "bytes": 667003,
+      "sha256": "52e911b9b7b8236cdf1eacaeaf01e0174cb1f55a637945f63dfee9cdc24bb87b"
+    },
+    {
+      "file": "f1/ccm-endomotives-math-0512138v2.pdf",
+      "pages": 58,
+      "bytes": 747528,
+      "sha256": "68f9c8eaa5e9b46790e5adad0e8cd910da43566e7bc339ea5ecc81ab1f3fe601"
+    }
+  ],
+  "local_markdown_links_checked": 1205,
+  "historical_reports_preserved": [
+    "formal/checks/source-audit.json",
+    "formal/checks/verification.json",
+    "formal/checks/local-trace-verification.json",
+    "formal/checks/local-trace-axioms.txt"
+  ],
+  "protected_untracked_unchanged": {
+    "reviews/2026-09-08/control-prefix-curvature-budget.json": "cc5c7e5f58f9057c5fb2dc38d22fa878c260a9ade964e651d3dbe1e588f9cda8",
+    "reviews/2026-09-08/radius-five-continuous-period-pressure.json": "1c27b0bc1c4c635b4ed2fbf40d9378bc9c1089afe56a36313d2f6e5b8a031e25",
+    "scripts/control_prefix_curvature_budget.py": "59842cf32a2446a6558a38c731adc3e724eefd17398d3a6321e3b071aa7988bf",
+    "scripts/radius_five_continuous_period_pressure.py": "7fac1a13e9652cb1187abb958de833043b2d9ac91f06484f887108f07e5c5cb6"
+  },
+  "old_stash_preserved": true,
+  "changed_files": [
+    "README.md",
+    "RESEARCH_BRANCHES.md",
+    "formal/F1.lean",
+    "formal/F1/Analysis/TraceRadical.lean",
+    "formal/README.md",
+    "formal/checks/README.md",
+    "formal/checks/TraceRadicalAudit.lean",
+    "formal/checks/trace-radical-axioms.txt",
+    "formal/checks/trace-radical-build.txt",
+    "formal/checks/trace-radical-source-audit.json",
+    "formal/checks/trace-radical-verification.json",
+    "formal/scripts/check_local_trace.py",
+    "formal/scripts/check_trace_radical.py",
+    "goals/GOAL.20260909.md",
+    "goals/NEXT.20260909.md",
+    "goals/PROGRESS.md",
+    "goals/archive/GOAL.20260909.f1-before-moment-radical.md",
+    "goals/archive/README.md",
+    "goals/manifest.json",
+    "literature/README.md",
+    "literature/f1/ccm-endomotives-math-0512138v2.pdf",
+    "literature/f1/ccm-weil-adeles-math-0703392v1.pdf",
+    "literature/f1/meyer-ideles-math-0311468v3.pdf",
+    "literature/manifest.json",
+    "notes/404-f1-adelic-periodic-orbits-and-mixed-local-trace.md",
+    "notes/405-f1-adelic-restriction-moments-and-radical.md",
+    "reviews/2026-09-20/f1-adelic-determinant-principal-next-proof-plan.md",
+    "reviews/2026-09-20/f1-adelic-principal-relations-next-proof-plan.md",
+    "reviews/2026-09-20/f1-adelic-restriction-mathematical-review.md",
+    "reviews/2026-09-20/f1-adelic-restriction-source-review.md",
+    "reviews/2026-09-20/f1-adelic-restriction-validation.json",
+    "reviews/2026-09-20/f1-theta-moment-numerical-check.json",
+    "scripts/sync_goal.py",
+    "scripts/theta_moment_check.py"
+  ],
+  "diff_check": "passed"
+}

@@ -1,0 +1,66 @@
+{
+  "status": "passed_no_sorry_dependencies",
+  "checked_at_utc": "2026-09-20T12:53:49.740875+00:00",
+  "lean_version": "Lean (version 4.32.2, x86_64-w64-windows-gnu, commit f3b06c705e6c85f5314019d5d3baab0fec5b580c, Release)",
+  "mathlib_revision": "905b95818eb32af7874a58b427f50c1711a5e96c",
+  "cache_backup": ".lake\\hdd-backup-05156b5b",
+  "runtime_dir": "C:\\Users\\A\\AppData\\Local\\Temp\\rh-weil-local-trace-20260920",
+  "scope": "Eight moment/trace algebra lemmas. Analytic identities remain explicit hypotheses; no full F1 build or principal-divisor construction.",
+  "commands": [
+    {
+      "source": "F1/Analysis/TraceRadical.lean",
+      "exit_code": 0
+    },
+    {
+      "source": "checks/TraceRadicalAudit.lean",
+      "exit_code": 0
+    }
+  ],
+  "source_sha256": {
+    "F1/Analysis/TraceRadical.lean": "51da1ba208fc06655e9359bcc658488f8326d8b1e46a685b2090ac30addec5e0",
+    "checks/TraceRadicalAudit.lean": "db68060752f94d10d3a6166db6fe659bea35157a0cdbd0bad7b5d777a1afcc25"
+  },
+  "axioms": {
+    "RHWeil.F1.momentCorrectedPairing_radical": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "RHWeil.F1.quarterMoments_self_pairing": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "RHWeil.F1.quarterMoments_not_radical": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "RHWeil.F1.degree_basis_moments": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "RHWeil.F1.codegree_basis_moments": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "RHWeil.F1.remove_two_moments": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "RHWeil.F1.two_moment_coordinates_unique": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "RHWeil.F1.trace_kernel_radical_iff_moments": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "existing_admissions": "The existing Weil convergence and criterion admissions are not imported by these checked results."
+}

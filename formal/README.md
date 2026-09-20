@@ -1,5 +1,18 @@
 # F₁ 路线的 Lean + mathlib 形式化蓝图
 
+## 2026-09-20：谱迹根空间与双矩修正
+
+[TraceRadical.lean](F1/Analysis/TraceRadical.lean)新增八条代数引理，已实际通过Lean编译，
+传递公理仅含propext、Classical.choice、Quot.sound。
+它核对谱迹与完整配对之间的两矩项、1/16残差、双矩基和精确根空间识别。
+所有解析比较均为显式前提；没有形式化Gaussian积分、完整显式公式或几何主除子。
+
+[检查脚本](scripts/check_trace_radical.py)复用可配置的定向检查器，
+结果另存[trace-radical-verification.json](checks/trace-radical-verification.json)。
+本机先用prepare_local_trace_runtime.py的--entry F1.Analysis.TraceRadical准备依赖，
+再以相同--cache-backup及--runtime-dir运行check_trace_radical.py。
+既有LocalTrace及2026-09-10完整构建报告保留；本轮未重建整个F1库。
+
 ## 2026-09-20：连续研究中的即时Lean检查
 
 当前持续GOAL为active；下方2026-09-09“暂停”文字是当时的历史状态。

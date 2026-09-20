@@ -1,5 +1,25 @@
 # 持续GOAL执行账本：20260909版重启
 
+## 当前执行：限制关系的双矩修正已结算（2026-09-20）
+
+[405](../notes/405-f1-adelic-restriction-moments-and-radical.md)完成实际径向限制像、Fréchet闭包及
+全Weil配对的单位元正规化；Gaussian关系双矩均为1/4，自配对为1/16，
+其明确微分组合非零且双矩为零，进入完整配对根空间。
+进一步证明I∩rad(B)=I∩ker d∩ker c，保留两个次数方向的解析商有明确拓扑／代数分解。
+[Lorentz来源审计](../reviews/2026-09-20/f1-adelic-restriction-source-review.md)与
+[数学逆审](../reviews/2026-09-20/f1-adelic-restriction-mathematical-review.md)闭环；
+完成cyclic商拓扑、真正主除子及RR未因此实现。
+
+[TraceRadical](../formal/F1/Analysis/TraceRadical.lean)八条代数引理实测通过且无sorryAx；
+原有十处admission不变，没有全F1重建。
+新存CCM2007 v1、Meyer2005 v3、CCM endomotives v2原件并记录实际页数；
+后两篇只核验首页／元数据，未认证完整上游证明。
+
+下一任务是[实际单位、行列式与主关系](../reviews/2026-09-20/f1-adelic-determinant-principal-next-proof-plan.md)，
+先检验正则单位必须消失的条件，再接真实层及截面。
+根GOAL已保留修订前原件，第十节保持不变。Goal继续active，未达较远期显著进展。
+上一批已精确推送[87fdf67](https://github.com/lixiang90/RH-Weil/commit/87fdf679e38ef4f6e5fd0e46eb079f6329349ec5)；
+本批保存状态以实际远端核验为准。
 
 ## 当前执行：Adelic周期轨道与局部迹（2026-09-20）
 

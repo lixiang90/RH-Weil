@@ -67,3 +67,5 @@ SHA256：6012c718862223c992fff4a77e2eb455728765c06c005740a6d3beeb59c2fb4c。
 
 
 - [GOAL.20260909 adelic局部迹前快照](GOAL.20260909.f1-before-adelic-local-trace.md)：2026-09-20按原字节保存；随后执行转入实际adelic周期迹与主关系核查，第十节保持。
+
+- 2026-09-20：GOAL.20260909.f1-before-moment-radical.md保留405双矩根空间结算前的原始目标；执行段转向实际单位／行列式，长期标准不变。

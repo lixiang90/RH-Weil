@@ -263,3 +263,10 @@ Connes Theorem3/PDF21–22与Theorem4/PDF31为指定局部／有限S截断的无
 八条结果均已通过Lean 4.32.2编译和传递公理核查，没有sorryAx依赖。
 实际输出与源码SHA256由[定向编译与公理报告](../formal/checks/local-trace-verification.json)记录；
 它不替代本稿其他解析来源定理的形式化，也不改变G5/G6/RR开放状态。
+
+## 2026-09-20 后续衔接
+
+[405](405-f1-adelic-restriction-moments-and-radical.md)在**指定**Fourier主值下直接核算恒等元常数，
+完成sharp不变快速衰减测试上的L/2=N，并检验真实限制关系的双矩及全配对。
+这不改变本稿“单凭离开单位元的检验不能恢复常数”的结论；新增信息来自固定主值及其计算。
+405的解析双矩零关系尚未认证为几何主除子。
