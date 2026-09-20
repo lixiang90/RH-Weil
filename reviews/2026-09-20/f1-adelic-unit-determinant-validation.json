@@ -1,0 +1,108 @@
+{
+  "checked_at_utc": "2026-09-20T14:06:11.287919+00:00",
+  "status": "passed_scoped_validation",
+  "base_commit": "4d3ea44c0074347a622e185db7a86f941fbf8d26",
+  "lean": {
+    "new_theorems": 4,
+    "no_sorry_dependencies": true,
+    "old_admissions": 10,
+    "own_lean_files": 15,
+    "full_F1_build": false,
+    "verification_sha256": "bb21229660f76d3041e5bbc2f1441a274a8da7ff73f82b0df22dfe761a3cd807"
+  },
+  "note_sha256": "a059c74dd1eff1a06d5f7af71e96f10ec17edb5071565ab3a26a92d684761ec2",
+  "independent_review_sha256": {
+    "f1-adelic-unit-determinant-source-review.md": "056f29665824d1bbef6145087dd289d6463e59a3d263761c4d8395f922c3bd8e",
+    "f1-adelic-unit-determinant-mathematical-review.md": "137401d6e390e1665a66f40bfb2e57c6efe0ed7b7f450edb15cbcc86a5543b6a"
+  },
+  "mathematical_scope": "Actual source exponentials and Fredholm divisors; conditional Cartier unit obstruction; canonical-product reciprocal-zero trace. Arakelov alternatives remain open; no full arithmetic realization or RH.",
+  "goal": {
+    "mirror_files": 27,
+    "section_ten_unchanged": true,
+    "archive_sha256": "f35b16770c1c87a460769ea47cb99ef8444b66105d7c0bfde8c7e849825af29b",
+    "current_sha256": "8ab3ceccad4727d8d977aaf27de34fd47622fa355be8f8215e2b6a6412fe6c1c"
+  },
+  "pdfs": [
+    {
+      "file": "f1/simon-infinite-determinants-1977.pdf",
+      "pages": 30,
+      "bytes": 1032498,
+      "sha256": "9820c0b7a05d4b89e3896282d02cf80cf0bb100325d3fabcc1b2ce1adc1e2fd8"
+    },
+    {
+      "file": "f1/weibel-kbook-IV.pdf",
+      "pages": 93,
+      "bytes": 882504,
+      "sha256": "9f1c1b8cccfe19d547c27dd04c61f198fd7a0cddd0018a0b84442b00fa575248"
+    },
+    {
+      "file": "f1/weibel-kbook-V.pdf",
+      "pages": 90,
+      "bytes": 853042,
+      "sha256": "52dcc8ee3a1764e5ea309c59f093ac8e2a1ea64f3b94bacc05e6a2b6125b1da8"
+    },
+    {
+      "file": "f1/segal-wilson-loop-groups-kdv-1985.pdf",
+      "pages": 62,
+      "bytes": 7015962,
+      "sha256": "4409065336b23f8a14db77668fb02d98108c3037ba0fb0c6d989c92d2613c07a"
+    },
+    {
+      "file": "f1/gillet-soule-arithmetic-intersection-1990.pdf",
+      "pages": 83,
+      "bytes": 8685110,
+      "sha256": "fa663fadd299576dcaaa5ba54efd10cf6a7f52ae02ff53d787956816b92f169f"
+    }
+  ],
+  "local_markdown_links_checked": 1219,
+  "historical_reports_preserved": [
+    "formal/checks/source-audit.json",
+    "formal/checks/verification.json",
+    "formal/checks/local-trace-verification.json",
+    "formal/checks/local-trace-axioms.txt",
+    "formal/checks/trace-radical-verification.json",
+    "formal/checks/trace-radical-axioms.txt",
+    "formal/checks/trace-radical-source-audit.json"
+  ],
+  "protected_untracked_unchanged": {
+    "reviews/2026-09-08/control-prefix-curvature-budget.json": "cc5c7e5f58f9057c5fb2dc38d22fa878c260a9ade964e651d3dbe1e588f9cda8",
+    "reviews/2026-09-08/radius-five-continuous-period-pressure.json": "1c27b0bc1c4c635b4ed2fbf40d9378bc9c1089afe56a36313d2f6e5b8a031e25",
+    "scripts/control_prefix_curvature_budget.py": "59842cf32a2446a6558a38c731adc3e724eefd17398d3a6321e3b071aa7988bf",
+    "scripts/radius_five_continuous_period_pressure.py": "7fac1a13e9652cb1187abb958de833043b2d9ac91f06484f887108f07e5c5cb6"
+  },
+  "old_stash_preserved": true,
+  "changed_files": [
+    "README.md",
+    "RESEARCH_BRANCHES.md",
+    "formal/F1.lean",
+    "formal/F1/Analysis/UnitDescent.lean",
+    "formal/README.md",
+    "formal/checks/README.md",
+    "formal/checks/UnitDescentAudit.lean",
+    "formal/checks/unit-descent-axioms.txt",
+    "formal/checks/unit-descent-build.txt",
+    "formal/checks/unit-descent-source-audit.json",
+    "formal/checks/unit-descent-verification.json",
+    "formal/scripts/check_unit_descent.py",
+    "goals/GOAL.20260909.md",
+    "goals/NEXT.20260909.md",
+    "goals/PROGRESS.md",
+    "goals/archive/GOAL.20260909.f1-before-unit-descent.md",
+    "goals/archive/README.md",
+    "goals/manifest.json",
+    "literature/README.md",
+    "literature/f1/gillet-soule-arithmetic-intersection-1990.pdf",
+    "literature/f1/segal-wilson-loop-groups-kdv-1985.pdf",
+    "literature/f1/simon-infinite-determinants-1977.pdf",
+    "literature/f1/weibel-kbook-IV.pdf",
+    "literature/f1/weibel-kbook-V.pdf",
+    "literature/manifest.json",
+    "notes/406-f1-adelic-units-and-determinant-divisors.md",
+    "reviews/2026-09-20/f1-adelic-determinant-principal-next-proof-plan.md",
+    "reviews/2026-09-20/f1-adelic-unit-determinant-mathematical-review.md",
+    "reviews/2026-09-20/f1-adelic-unit-determinant-source-review.md",
+    "reviews/2026-09-20/f1-canonical-determinant-arithmetic-next-proof-plan.md",
+    "scripts/sync_goal.py"
+  ],
+  "diff_check": "passed"
+}

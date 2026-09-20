@@ -1,6 +1,6 @@
 # 研究分支看板
 
-## 唯一当前队列（2026-09-20 Adelic双矩根空间）
+## 唯一当前队列（2026-09-20 规范除子读出与算术来源）
 
 执行[GOAL.20260909.md](goals/GOAL.20260909.md)的研究目标。
 2026-09-20重新读取Goal工具为active。新增独立agent Harvey已完成第四次整体空间审查，见403与完整报告；此前Dalton的第三次审查已结算；本轮[394](notes/394-f1-real-principal-relations-and-parameter-topologies.md)记录具体接口障碍与三种替代参数化。下方9月15日的paused叙述是历史状态。
@@ -8,8 +8,8 @@
 | 顺序 | 任务 | 验收与切换 |
 |---|---|---|
 | 已结算 | 旧周期13的iteration-10冻结候选：[364完整验收](notes/364-frozen-integer-candidate-verification.md) | 6237815186边全扫描，13755190失败；最坏边320位真实标量缺口仍严格为正。只排除该表的同word／前缀充分条件 |
-| 当前主线 | F1-EX1：[405](notes/405-f1-adelic-restriction-moments-and-radical.md)完成实际限制像的双矩修正、全配对正规化及非零解析根关系，已独立复核 | 下一项[实际单位与行列式](reviews/2026-09-20/f1-adelic-determinant-principal-next-proof-plan.md)先核验正则单位消失及局部粘合；解析根空间不是几何主除子，完整τ／RR／ζ仍开放 |
-| 必要辅助 | 经典Lean缺口、原始文献及只读独立复核 | 26项原检查及十个sorry保留；新增LocalTrace与TraceRadical各八项定向检查无sorryAx。形式化通过不替代实际算术存在性 |
+| 当前主线 | F1-EX1：[406](notes/406-f1-adelic-units-and-determinant-divisors.md)完成实际指数单位检验、辅助Cartier除子及规范零点倒数读出，独立逆审已结算 | 下一项[标准除子读出与算术来源](reviews/2026-09-20/f1-canonical-determinant-arithmetic-next-proof-plan.md)先检验非对角素数箭头及局部／相对数据；没有G0–G8实现、RR或RH进展 |
+| 必要辅助 | 经典Lean缺口、原始文献及只读独立复核 | 26项原检查及十个sorry保留；新增LocalTrace与TraceRadical各八项、UnitDescent四项定向检查无sorryAx。形式化通过不替代实际算术存在性 |
 
 [任务单](goals/NEXT.20260909.md)与[账本](goals/PROGRESS.md)维护当前状态。
 下方“暂停”“结构辅助”等为先前阶段记录，不再决定当前任务次序。

@@ -1,0 +1,7 @@
+F1/Analysis/UnitDescent.lean
+
+checks/UnitDescentAudit.lean
+'RHWeil.F1.regularUnitInvariant_iff' depends on axioms: [propext, Quot.sound]
+'RHWeil.F1.unitQuotient_factor_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RHWeil.F1.unitQuotient_obstruction' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RHWeil.F1.moment_preservation_obstruction' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -810,3 +810,32 @@ Theorem4可给404的固定有限S迹推论；Theorem5正式陈述为正特征，
 405 completed the fixed identity-normalization comparison and the moment/radical audit.
 The two upstream papers above were checked only for title and metadata.
 The endomotives v2 PDF has 58 pages, while the arXiv comments say 52.
+
+
+### 406: Fredholm determinants, relative classes and arithmetic divisors
+
+All five original PDFs are archived in full, including journal cover pages.
+Reading scope is selective; see the [independent source audit](../reviews/2026-09-20/f1-adelic-unit-determinant-source-review.md).
+
+- Barry Simon, *Notes on Infinite Determinants of Hilbert Space Operators*. Advances in Mathematics 24 (1977), 244–273; author-hosted scan.
+  [Original PDF](https://math.caltech.edu/SimonPapers/74.pdf), [local original](f1/simon-infinite-determinants-1977.pdf). 30 actual PDF pages.
+  SHA256: `9820c0b7a05d4b89e3896282d02cf80cf0bb100325d3fabcc1b2ce1adc1e2fd8`.
+  Boole checked PDF11–15 and19: determinant definitions, continuity, holomorphic families, multiplicativity, invertibility, eigenvalue zeros, Lidskii formula and exponential formula. No full-paper proof audit. Main checked title and visually checked PDF19 exponential formula.
+- Charles Weibel, *The K-book, Chapter IV: Definitions of Higher K-Theory*. Author-hosted Chapter IV snapshot retrieved 2026-09-20.
+  [Original PDF](https://www.math.rutgers.edu/~weibel/Kbook/Kbook.IV.pdf), [local original](f1/weibel-kbook-IV.pdf). 93 actual PDF pages.
+  SHA256: `9f1c1b8cccfe19d547c27dd04c61f198fd7a0cddd0018a0b84442b00fa575248`.
+  Boole checked IV.1.11.1 / PDF8, relative homotopy-fiber exact sequence only. Main checked title and text of PDF8.
+- Charles Weibel, *The K-book, Chapter V: The Fundamental Theorems of Higher K-Theory*. Author-hosted Chapter V snapshot retrieved 2026-09-20.
+  [Original PDF](https://www.math.rutgers.edu/~weibel/Kbook/Kbook.V.pdf), [local original](f1/weibel-kbook-V.pdf). 90 actual PDF pages.
+  SHA256: `52dcc8ee3a1764e5ea309c59f093ac8e2a1ea64f3b94bacc05e6a2b6125b1da8`.
+  Boole checked V.Exercise5.1, Theorem6.1, Example6.1.2 and (6.6), PDF37–41; distinguishes G-theory localization and the DVR case. Main checked title.
+- Graeme Segal; George Wilson, *Loop groups and equations of KdV type*. Publications Mathématiques de l'IHÉS 61 (1985), 5–65; journal archive.
+  [Original PDF](https://www.numdam.org/item/PMIHES_1985__61__5_0.pdf), [local original](f1/segal-wilson-loop-groups-kdv-1985.pdf). 62 actual PDF pages.
+  SHA256: `4409065336b23f8a14db77668fb02d98108c3037ba0fb0c6d989c92d2613c07a`.
+  Boole checked §2 PDF7–8 and §3 PDF14–17; polarizations, determinant line, canonical section and Proposition3.3 only.
+- Henri Gillet; Christophe Soulé, *Arithmetic intersection theory*. Publications Mathématiques de l'IHÉS 72 (1990), 93–174; journal archive including cover.
+  [Original PDF](https://numdam.org/item/PMIHES_1990__72__93_0.pdf), [local original](f1/gillet-soule-arithmetic-intersection-1990.pdf). 83 actual PDF pages.
+  SHA256: `fa663fadd299576dcaaa5ba54efd10cf6a7f52ae02ff53d787956816b92f169f`.
+  Boole checked §3.3.3–3.3.4 / PDF35–36 and §3.4.3 / PDF40. Main visually checked PDF36 and40. Only arithmetic principal-pair and regular-unit scope used; full intersection/RR proof not audited.
+
+Official definitions used (HTML, not PDF): [Cartier quotient sheaf](https://stacks.math.columbia.edu/tag/02AR), [meromorphic functions](https://stacks.math.columbia.edu/tag/01X1), [determinant of complexes](https://stacks.math.columbia.edu/tag/0FJI), [global determinant construction](https://stacks.math.columbia.edu/tag/0FJW), [regular sections and effective Cartier divisors](https://stacks.math.columbia.edu/tag/0C4S).

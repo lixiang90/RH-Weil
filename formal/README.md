@@ -115,3 +115,18 @@ mathlib 由固定提交获取，其余依赖通过根 `lake-manifest.json` 使�
 局部幺半群、有限 Jensen 提升和 `2 → 3 → 6` 方程复合是可独立检查的基准。
 互素参数且分母为正时的复单位点集参数化双射已无 `sorry` 地形式证明，逆用经典选择。
 它们没有自动连到上述存在性假设。蓝图保留这一断点，并将真实研究输入与经典证明待补分开。
+
+### Unit descent checks (2026-09-20)
+
+[F1/Analysis/UnitDescent.lean](F1/Analysis/UnitDescent.lean) checks invariance under a specified
+regular-unit subgroup, its equivalence to quotient factorization when normality is supplied,
+a nonzero-unit obstruction, and the obstruction to retaining a nonzero moment after killing a relation.
+[The dedicated report](checks/unit-descent-verification.json) records four Lean 4.32.2 results
+without sorryAx dependencies. [The source inventory](checks/unit-descent-source-audit.json)
+has 15 project Lean files and the same ten registered admissions.
+
+Run `python scripts/check_unit_descent.py`, adding the cache/runtime options used by
+the shared LocalTrace runner if needed. The analytic adele/determinant construction and
+the identification of regular units remain outside these formalized statements.
+No full F1 build was performed for this addition. Ordinary Cartier descent does not by
+itself impose the same vanishing condition on a metrized arithmetic divisor with a Green term.

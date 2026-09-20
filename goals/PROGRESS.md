@@ -1,5 +1,26 @@
 # 持续GOAL执行账本：20260909版重启
 
+## 当前执行：实际单位与规范除子读出已结算（2026-09-20）
+
+[406](../notes/406-f1-adelic-units-and-determinant-divisors.md)构造源代数的实际指数单位，
+核准纤维Fredholm行列式，并给普通Cartier型任意log导数的条件性单位障碍。
+进一步构造辅助复参数空间上的真实有效Cartier除子。
+独立逆审指出并已修正：标准线性铅笔中，完整零除子通过倒数和可以恢复迹。
+所得全局加性读出R尚无所需算术比较、局部粘合或RR；
+带Green数据的主算术除子不被普通Cartier障碍排除。
+
+[Boole来源审计](../reviews/2026-09-20/f1-adelic-unit-determinant-source-review.md)与
+[Hubble数学逆审及修订结算](../reviews/2026-09-20/f1-adelic-unit-determinant-mathematical-review.md)已闭环。
+[UnitDescent](../formal/F1/Analysis/UnitDescent.lean)四条代数定理Lean4.32.2通过，无sorryAx；
+原十处admission保留，未重建全F1。
+
+下一项执行[标准除子读出与算术来源](../reviews/2026-09-20/f1-canonical-determinant-arithmetic-next-proof-plan.md)，
+先检验非对角素数箭头，防止只验证对角族而遗漏算术信息。
+根GOAL按原字节归档，第十节不改。Goal继续active，尚未达较远期显著进展。
+上一批已推送[4d3ea44](https://github.com/lixiang90/RH-Weil/commit/4d3ea44c0074347a622e185db7a86f941fbf8d26)；
+本批保存及PDF下载状态以实际核验和文献索引为准。
+
+
 ## 当前执行：限制关系的双矩修正已结算（2026-09-20）
 
 [405](../notes/405-f1-adelic-restriction-moments-and-radical.md)完成实际径向限制像、Fréchet闭包及

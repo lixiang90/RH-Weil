@@ -56,3 +56,12 @@ Weil 非正性仍需要未实现的几何 RR、有效刚性与算术识别。
 工程问题及修订见 [engineering-review.md](engineering-review.md)；本机缓存环境见
 [runtime-environment.md](runtime-environment.md)。首次缓存日志中的源码摘要先于最终有理图补强，
 当前源码快照以 `source-audit.json` 为准。
+
+### UnitDescent: scoped check
+
+[unit-descent-verification.json](unit-descent-verification.json), [build output](unit-descent-build.txt),
+[axiom audit](unit-descent-axioms.txt), and [source inventory](unit-descent-source-audit.json)
+record four checked algebraic descent results. The concrete source exponentials, Fredholm
+determinants, complex divisors, and any arithmetic metric are not formalized here.
+Use `python scripts/check_unit_descent.py` with the same pinned dependency options as LocalTrace.
+Earlier reports describe their original source snapshots and have not been overwritten.

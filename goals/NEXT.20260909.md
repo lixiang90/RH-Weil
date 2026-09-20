@@ -1,5 +1,14 @@
 # 20260909版重启任务单
 
+## 唯一当前任务（2026-09-20，406结算）
+
+执行[标准除子读出与算术来源](../reviews/2026-09-20/f1-canonical-determinant-arithmetic-next-proof-plan.md)。
+[406](../notes/406-f1-adelic-units-and-determinant-divisors.md)的独立逆审确认：
+任意log导数缺乏单位不变性，但标准线性铅笔的零除子可以恢复迹。
+先检验真实非对角素数箭头是否保留所需算术信息，再接局部／相对数据。
+下方各“当前任务”是历史快照，不并行重启。
+
+
 ## 唯一当前任务（2026-09-20，405结算）
 
 执行[实际单位与行列式准入](../reviews/2026-09-20/f1-adelic-determinant-principal-next-proof-plan.md)。

@@ -1,0 +1,45 @@
+{
+  "status": "passed_no_sorry_dependencies",
+  "checked_at_utc": "2026-09-20T13:32:29.914263+00:00",
+  "lean_version": "Lean (version 4.32.2, x86_64-w64-windows-gnu, commit f3b06c705e6c85f5314019d5d3baab0fec5b580c, Release)",
+  "mathlib_revision": "905b95818eb32af7874a58b427f50c1711a5e96c",
+  "cache_backup": ".lake\\hdd-backup-05156b5b",
+  "runtime_dir": "C:\\Users\\A\\AppData\\Local\\Temp\\rh-weil-local-trace-20260920",
+  "scope": "Four algebraic unit-descent tests. Regular-unit identification, analytic determinants and geometry remain unformalized. No full F1 build.",
+  "commands": [
+    {
+      "source": "F1/Analysis/UnitDescent.lean",
+      "exit_code": 0
+    },
+    {
+      "source": "checks/UnitDescentAudit.lean",
+      "exit_code": 0
+    }
+  ],
+  "source_sha256": {
+    "F1/Analysis/UnitDescent.lean": "715bff0899dc3d944af898dba6c47d0c745644071524b95814c03fb31655b83c",
+    "checks/UnitDescentAudit.lean": "721ca0e724c45e3629b1873dc5bdc64da5b4c92226294b326a62a8b848321cc7"
+  },
+  "axioms": {
+    "RHWeil.F1.regularUnitInvariant_iff": [
+      "propext",
+      "Quot.sound"
+    ],
+    "RHWeil.F1.unitQuotient_factor_iff": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "RHWeil.F1.unitQuotient_obstruction": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "RHWeil.F1.moment_preservation_obstruction": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "existing_admissions": "The existing Weil convergence and criterion admissions are not imported by these checked results."
+}
