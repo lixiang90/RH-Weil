@@ -2073,7 +2073,7 @@
       "version": "Author-hosted book6.pdf; exact snapshot retrieved 2026-09-21 local date",
       "download_status": "downloaded",
       "status": "Specified theorem-source audit for note410 completed; not full-paper/book certification.",
-      "read_scope": "Laplace read PDF76–78,81–83; located nuclearity clauses PDF143–144. Definition8.3.1 and §8.3.2 printed62–63, Theorem9.3.1 printed67–68. No whole-book certification. Main verified title/version metadata and parsed every PDF page. Note411 increment: §§5.2.2,5.2.4,5.5 (printed29,31/PDF43,45); §8.1.5 (printed61/PDF75); §10.1 (printed71/PDF85); Theorem10.2.1 (printed73/PDF87); Proposition5.5.5 (printed31/PDF45). No whole-book certification. Note413 increment: PDF42–43,45,62,73–82,87,126–127,143–144,203,205,231–234; visual78,82. Exponential boundary 9.3.1–9.3.2, suspension/Bott/circle splitting, zero-dimensional AF and K continuity, PV and naturality. No whole-book certification.; note414: PDF32–33,37,45,73,75–77,231–232; visual76–77. Unitization, index boundary and naturality only.",
+      "read_scope": "Laplace read PDF76–78,81–83; located nuclearity clauses PDF143–144. Definition8.3.1 and §8.3.2 printed62–63, Theorem9.3.1 printed67–68. No whole-book certification. Main verified title/version metadata and parsed every PDF page. Note411 increment: §§5.2.2,5.2.4,5.5 (printed29,31/PDF43,45); §8.1.5 (printed61/PDF75); §10.1 (printed71/PDF85); Theorem10.2.1 (printed73/PDF87); Proposition5.5.5 (printed31/PDF45). No whole-book certification. Note413 increment: PDF42–43,45,62,73–82,87,126–127,143–144,203,205,231–234; visual78,82. Exponential boundary 9.3.1–9.3.2, suspension/Bott/circle splitting, zero-dimensional AF and K continuity, PV and naturality. No whole-book certification.; note414: PDF32–33,37,45,73,75–77,231–232; visual76–77. Unitization, index boundary and naturality only.; note415: source reviewer PDF29–30,32–33,44–45,73,75–77; visual76–77. General index boundary 8.3.1, partial-isometry sign 8.3.2, and unitized K0 conventions. Continuous square root is separately sourced to Cycr.pdf.",
       "file": "f1/blackadar-k-theory-author-book6.pdf",
       "source_url": "https://bruceblackadar.com/Mathematics/book6.pdf",
       "pdf_url": "https://bruceblackadar.com/Mathematics/book6.pdf",
@@ -2086,7 +2086,8 @@
       "review_notes": [
         "../reviews/2026-09-21/f1-boundary-k-class-source-review.md",
         "../reviews/2026-09-21/f1-full-rational-source-review.md",
-        "../reviews/2026-09-21/f1-two-place-source-review.md"
+        "../reviews/2026-09-21/f1-two-place-source-review.md",
+        "../reviews/2026-09-21/f1-defect-projection-source-review.md"
       ]
     },
     {
@@ -2146,6 +2147,44 @@
       "retrieved_at_utc": "2026-09-20T18:04:23.695434+00:00",
       "review_note": "../reviews/2026-09-21/f1-boundary-unitary-source-review.md",
       "recovery_note": "The identical PDF was restored after unavailable H I/O; first-download SHA preserved. Full-page text parsing was interrupted and is not claimed complete."
+    },
+    {
+      "id": "Robinson-2018-julia-halmos-v1",
+      "category": "f1-background",
+      "authors": "P. L. Robinson",
+      "title": "Julia operators and Halmos dilations",
+      "version": "arXiv:1803.09329v1; 2018-03-25",
+      "download_status": "downloaded",
+      "status": "Specified source audit for note415; no F1 or RH existence claim.",
+      "read_scope": "Main and source reviewer read all three pages. Main visually checked PDF1; reviewer visually checked PDF1–2. Theorems0–2 and polynomial-approximation discussion. The matrix W is obtained by a column sign change; abstract C* extension is a direct functional-calculus argument.",
+      "file": "f1/robinson-julia-halmos-1803.09329v1.pdf",
+      "source_url": "https://arxiv.org/abs/1803.09329v1",
+      "pdf_url": "https://arxiv.org/pdf/1803.09329v1",
+      "resolved_pdf_url": "https://arxiv.org/pdf/1803.09329v1",
+      "bytes": 75604,
+      "sha256": "a4b45d9ad1151cec0c25d44ecdfbfd0cd382e473ca360c66d07cef20e69be0a6",
+      "pages": 3,
+      "retrieved_at_utc": "2026-09-20T19:54:12.032958+00:00",
+      "review_note": "../reviews/2026-09-21/f1-defect-projection-source-review.md"
+    },
+    {
+      "id": "Blackadar-2017-operator-algebras-Cycr",
+      "category": "f1-background",
+      "authors": "Bruce Blackadar",
+      "title": "Operator Algebras: Theory of C*-Algebras and von Neumann Algebras",
+      "version": "Author Cycr.pdf; cover date 2017-02-08",
+      "download_status": "downloaded",
+      "status": "Specified source audit for note415; no F1 or RH existence claim.",
+      "read_scope": "Main and reviewer read title page and PDF71–73. Main visually checked PDF72; reviewer PDF71–73. II.2.3.1–2 (printed63–64), II.3.1.2(vii) (printed65). No whole-book text parsing or certification claimed.",
+      "file": "f1/blackadar-operator-algebras-Cycr-2017.pdf",
+      "source_url": "https://bruceblackadar.com/Mathematics/Cycr.pdf",
+      "pdf_url": "https://bruceblackadar.com/Mathematics/Cycr.pdf",
+      "resolved_pdf_url": "https://bruceblackadar.com/Mathematics/Cycr.pdf",
+      "bytes": 2495419,
+      "sha256": "8cb61a8348efe6e4b36dbefed4eac2c35498d28c03e160638ad7af952457f88a",
+      "pages": 561,
+      "retrieved_at_utc": "2026-09-20T20:02:14.470504+00:00",
+      "review_note": "../reviews/2026-09-21/f1-defect-projection-source-review.md"
     }
   ],
   "supplement_provenance": [

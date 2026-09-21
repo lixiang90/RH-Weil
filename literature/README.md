@@ -1,6 +1,6 @@
 # RH-Weil 文献索引
 
-索引续记更新至2026-09-21；最新批次、范围和保存状态见文末。以下2026-09-09统计为历史快照。首批归档聚焦67.25%之后的零点比例进展及直接依赖（15份、220页）；后续原始版本与核读范围按轮次列在文末。当前本地共58份外部原始PDF、2698页，其中57份、2669页纳入Git保存；Schur扫描29页按来源封面要求仅本地保存，出处和哈希同步。获取失败单列。研究判断见 [305文献审计](../notes/305-post-6725-literature-baseline-audit.md)。
+索引续记更新至2026-09-21；最新批次、范围和保存状态见文末。以下2026-09-09统计为历史快照。首批归档聚焦67.25%之后的零点比例进展及直接依赖（15份、220页）；后续原始版本与核读范围按轮次列在文末。当前本地共60份外部原始PDF、3262页，其中59份、3233页纳入Git保存；Schur扫描29页按来源封面要求仅本地保存，出处和哈希同步。获取失败单列。研究判断见 [305文献审计](../notes/305-post-6725-literature-baseline-audit.md)。
 
 PDF按来源原样保存，未重排或改写；arXiv固定版本，GitHub固定提交，Zenodo固定记录。下载、全页PDF解析和校验值核验不等于数学证明认证。manifest中的SHA-256标识本次取得的精确字节，原站同一文件名后续变化时仍可区分。
 
@@ -994,3 +994,12 @@ Blackadar增量核读PDF32–33、37、45、73、75–77、231–232，视觉76�
 [完整来源报告](../reviews/2026-09-21/f1-boundary-unitary-source-review.md)记录实际范围。
 工作盘故障后已按首次SHA恢复相同原件；当前本地58份2698页，Git57份2669页，
 Schur29页仍仅本地。
+
+## 2026-09-21：415的一般缺陷投影与连续函数演算
+
+- **Robinson-2018-julia-halmos-v1**，P. L. Robinson，*Julia operators and Halmos dilations*，arXiv:1803.09329v1（2018-03-25），3页。[本地PDF](f1/robinson-julia-halmos-1803.09329v1.pdf)；[固定版本](https://arxiv.org/abs/1803.09329v1)；[原PDF](https://arxiv.org/pdf/1803.09329v1)。全文核读，Theorems0–2核准Julia／Halmos酉扩张及平方根互换；415矩阵另作列符号变换。
+- **Blackadar-2017-operator-algebras-Cycr**，Bruce Blackadar，*Operator Algebras*，作者首页日期2017-02-08，561页。[本地PDF](f1/blackadar-operator-algebras-Cycr-2017.pdf)；[作者原PDF](https://bruceblackadar.com/Mathematics/Cycr.pdf)。只核读首页及PDF71–73（印刷63–65），使用连续函数演算、一致逼近及正平方根。未宣称全书核读。
+
+已有[Blackadar K理论原件](f1/blackadar-k-theory-author-book6.pdf)不重复下载；追加§8.3.1–2等页的核读范围，固定ker−coker符号。
+[来源全文报告](../reviews/2026-09-21/f1-defect-projection-source-review.md)区分原文定理、直接推导及不适用的全纯函数演算；原始回包另存。
+两个新PDF原字节、SHA256、页数及实际核读范围记入manifest；下载与页数校验不代替数学证明。

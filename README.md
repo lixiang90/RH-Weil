@@ -1,5 +1,13 @@
 # RH / Weil 结构研究
 
+## 当前研究状态：实际缺陷投影与截断残差（2026-09-21）
+
+[415](notes/415-f1-defect-projection-and-cutoff-residue.md)已构造真实相对投影，并算出其原始联合迹读出：
+足够大截止后只有恒等时间残差，且依赖辅助分割；一族光滑源对全部q分割仍严格为正。
+因此当前机制尚不能给主关系消失。下一步检验[分拆传递及真实周期信息](reviews/2026-09-21/f1-split-transfer-next-proof-plan.md)。
+18项新Lean检查通过，完整分析另经独立逆审；原始来源及报告已归档。
+Goal继续active，主除子、完整B、双矩和RR仍开放。下方为历史快照。
+
 本目录研究一个明确的问题：能否把有限域上 Weil 猜想中迫使 Frobenius 特征值具有正确绝对值的结构抽离出来，并在数域的 zeta / L 函数上构造同类结构？
 
 面向具有大学二年级数学基础的读者：[F₁ 路线究竟要找什么，以及为什么足以推出 RH](docs/f1-route-from-undergraduate-math.md)。

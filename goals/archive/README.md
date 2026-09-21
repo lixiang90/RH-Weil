@@ -103,3 +103,5 @@ SHA256：ac534c80f26c6f22e5cb9d0b8a4e2bd66dcfba9b176b5f1da0237636db3818d6。
 - [GOAL.20260909.f1-before-two-place-gluing.md](GOAL.20260909.f1-before-two-place-gluing.md)：2026-09-21，413共同两位边界结算前根目标按原字节保存；SHA256：`c2d3f00cc41d545c21e85592bc95e45effc7ea35783d50c41e903b9eafe5159d`。新当前任务转入实际双零边界酉元及相对读出；第十节逐字保持。
 
 - [GOAL.20260909.f1-before-boundary-unitary.md](GOAL.20260909.f1-before-boundary-unitary.md)：2026-09-21，414实际边界酉元及联合迹结算前按原字节归档。SHA256：`9a84107bf2af044e751ccae182fe04a8e864144601080095510639794da73474`。当前转入实际缺陷投影与非局部传递；第十节逐字保持。
+
+- [GOAL.20260909.f1-before-defect-residue.md](GOAL.20260909.f1-before-defect-residue.md)：415实际缺陷残差结算前原字节；后续转入分别收敛的传递与周期比较，第十节保持。

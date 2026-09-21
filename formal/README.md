@@ -215,3 +215,13 @@ p进空间、Hilbert悬挂、trace-class、来源比较及K理论另由纸面审
 [内核报告](checks/boundary-unitary-verification.json)和[源码清单](checks/boundary-unitary-source-audit.json)限定实际范围；
 未形式化Hilbert有界性、C*满角、Fredholm指数、共同Fourier投影或几何构造。
 项目23份Lean源码，原十处admission及全部历史报告保持，未重建完整F1。
+
+## 415：真实二阶投影与缺陷恒等式（2026-09-21）
+
+[DefectProjection.lean](F1/Analysis/DefectProjection.lean)的18项定向检查通过Lean4.32.2。
+包含非交换二阶矩阵乘法、双侧酉性、相对投影的幂等／自伴、缺陷差／对角和、
+平方根交织式的伴随、壳层标量消去及换位子传递恒等式；无sorryAx依赖。
+[报告](checks/defect-projection-verification.json)及[源码清单](checks/defect-projection-source-audit.json)保存；
+当前24份项目源码，旧十处admission与历史检查保持，未重建整个F1。
+运行 python scripts/check_defect_projection.py；依赖准备入口为 --entry F1.Analysis.DefectProjection，
+使用上面的固定cache/runtime参数。C*正性与函数演算、理想归属、Hilbert重叠和迹收敛没有被本次形式化。

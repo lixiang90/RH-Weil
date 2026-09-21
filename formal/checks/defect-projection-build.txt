@@ -1,0 +1,21 @@
+F1/Analysis/DefectProjection.lean
+
+checks/DefectProjectionAudit.lean
+'RHWeil.F1.block2_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RHWeil.F1.block2_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RHWeil.F1.dilation_left' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RHWeil.F1.dilation_right' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RHWeil.F1.defect_diagonal' depends on axioms: [propext]
+'RHWeil.F1.commutator_transfer' depends on axioms: [propext]
+'RHWeil.F1.firstBlock_idempotent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RHWeil.F1.dilation_projection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RHWeil.F1.dilation_projection_idempotent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RHWeil.F1.defect_projection_difference' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RHWeil.F1.defect_projection_diagonal' depends on axioms: [propext]
+'RHWeil.F1.block2_conjTranspose' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RHWeil.F1.sqrt_intertwining_adjoint' does not depend on any axioms
+'RHWeil.F1.dilation_conjTranspose' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RHWeil.F1.dilation_unitary' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RHWeil.F1.defect_projection_selfAdjoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RHWeil.F1.defect_projection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RHWeil.F1.shell_overlap_cancel' depends on axioms: [propext, Quot.sound]

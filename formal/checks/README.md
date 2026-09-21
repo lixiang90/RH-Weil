@@ -132,3 +132,10 @@ vendor八包806文件校验。历史报告保持。Hilbert正交／收敛、C*�
 [编译日志](boundary-unitary-build.txt)及[源码清单](boundary-unitary-source-audit.json)保存。
 序列移位和有限通量恒等式无sorryAx依赖；不认证Fredholm或C*理论。
 23份项目源码、十处旧admission、八包806份vendor源码已核准，旧审计文件原字节恢复。
+
+## 2026-09-21：DefectProjection
+
+[18项检查](defect-projection-verification.json)、[公理日志](defect-projection-axioms.txt)、
+[编译日志](defect-projection-build.txt)、[入口](DefectProjectionAudit.lean)及[源码清单](defect-projection-source-audit.json)保存。
+真实二阶矩阵的酉性／投影与缺陷代数无sorryAx依赖；解析前提、理想归属及迹不在形式化范围。
+24份项目源码、十处旧admission及八包806份vendor源码核对，历史报告保持。

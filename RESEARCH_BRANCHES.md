@@ -1,15 +1,14 @@
 # 研究分支看板
 
-## 唯一当前队列（2026-09-21 实际缺陷投影与联合迹传递）
+## 唯一当前队列（2026-09-21 分拆传递与真实周期信息）
 
-执行[GOAL.20260909.md](goals/GOAL.20260909.md)，Goal保持active。
-下方早期“当前／暂停”等均为历史状态。
+执行[GOAL.20260909.md](goals/GOAL.20260909.md)，Goal保持active。下方早期状态为历史。
 
 | 顺序 | 任务 | 验收与切换 |
 |---|---|---|
 | 已结算 | 旧周期13冻结候选：[364完整验收](notes/364-frozen-integer-candidate-verification.md) | 6237815186边全扫描，13755190失败；只排除指定充分条件 |
-| 当前主线 | F1-EX1：[414](notes/414-f1-deep-boundary-unitary-and-time-defect.md)已给实际边界酉元及同一来源联合迹 | 下一项[缺陷投影与传递](reviews/2026-09-21/f1-defect-projection-joint-trace-next-proof-plan.md)：构造Halmos相对投影，计算[T,T*]实际读出及非局部补偿。共同表示不保证主消失；双矩、完整B和RR仍开放 |
-| 必要辅助 | 原始文献、即时Lean、只读独立复核 | 六项BoundaryUnitary无sorryAx；原十处admission及历史报告保持。未重建全F1 |
+| 当前主线 | F1-EX1：[415](notes/415-f1-defect-projection-and-cutoff-residue.md)实际相对投影与原始读出已复核 | 精确恒等时间残差、分割依赖及光滑族一致正性；下一项[分拆传递](reviews/2026-09-21/f1-split-transfer-next-proof-plan.md)，检验三个级数及其真实周期信息。主消失、完整B、双矩和RR仍开放 |
+| 必要辅助 | 原始文献、即时Lean、只读独立复核 | 18项DefectProjection无sorryAx；24份项目源码、十处旧admission与历史报告保持。未重建全F1 |
 
 [任务单](goals/NEXT.20260909.md)与[账本](goals/PROGRESS.md)记录具体剩余动作。
 

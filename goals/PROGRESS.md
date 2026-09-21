@@ -1,5 +1,24 @@
 # 持续GOAL执行账本：20260909版重启
 
+## 当前执行：相对投影及原始缺陷残差已结算（2026-09-21）
+
+[415](../notes/415-f1-defect-projection-and-cutoff-residue.md)将−η写成真实投影差，
+在相同表示中证明插入F=[T,T*]后的全部Γ级数绝对迹范数收敛。
+球内单壳向量本身的游走性与系数边界条带，给足够大N下精确C(c,d_q)h(0)。
+显式单边和将C写成一维积分；辅助q分割平移改变C，
+p<q时近锐的实际光滑族更给对全部q分割的统一正下界(log q−log p)/2。
+本轮是当前读出机制的精确范围内障碍，未排除协变／相对循环结构或完整F₁几何。
+
+来源侧及独立全文逆审均通过，完整回包保留。新增Robinson固定v1与Blackadar算子代数作者版PDF，
+分别全文3页与指定71–73页核读；不把下载页数当作全书证明审查。
+[18项Lean检查](../formal/checks/defect-projection-verification.json)无sorryAx；实际矩阵投影等代数与分析范围分开。
+项目24份Lean源码、十处旧admission、八包806份vendor原样保留，未重建完整F₁。
+工作盘曾返回设备未就绪，临时C备份完整保存后已回写并核对H稿件；旧报告没有以重跑覆盖。
+
+下一项是[分拆传递与周期信息](../reviews/2026-09-21/f1-split-transfer-next-proof-plan.md)。
+主消失、完整B、固定双矩、有效性、截面与RR仍开放，长期第十节原文保持。
+上一批[ac4dbfd](https://github.com/lixiang90/RH-Weil/commit/ac4dbfdca680339effb11430ae6b80d09b9ad641)已确认远端；本批须以实际远端SHA核验。Goal active。
+
 ## 当前执行：实际边界酉元与同一来源联合迹（2026-09-21）
 
 [414](../notes/414-f1-deep-boundary-unitary-and-time-defect.md)用紧支平方分割构造Green满角和修正q酉元，
