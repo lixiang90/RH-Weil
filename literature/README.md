@@ -1011,3 +1011,9 @@ Schur29页仍仅本地。
 
 [核读范围与用途](../reviews/2026-09-21/f1-projection-connection-source-read.md)说明这里只借鉴投影平行传输的机制。
 真实交叉积中的角内导数、乘子归属和算术比较须另证；没有由量子Hall结论导入F₁或RH结论。
+
+### 2026-09-21：连接比较后的原时间交叉积准备
+
+[新增核读记录](../reviews/2026-09-21/f1-original-time-crossed-product-source-read.md)
+登记Williams作者稿的迭代交叉积／可和性，以及Blackadar的Thom定义、自然性和实线平移基例。
+沿用已保存PDF，未重复下载；局部阅读不等于原源类及算术读出已经比较完成。

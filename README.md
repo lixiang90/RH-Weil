@@ -1,5 +1,15 @@
 # RH / Weil 结构研究
 
+## 当前研究状态（2026-09-21，417–418）
+
+[417](notes/417-f1-projection-connection-and-time-evolution.md)构造实际投影连接与真实H¹酉演化，
+并明确原素数协变改变及满角GNS无穷重数。
+[418](notes/418-f1-connection-periodized-trace-and-sharp-frame.md)给原Γ纠正迹的绝对迹范数收敛、
+完整周期系数与显式误差界；近锐p系数检验排除了该直接迹差作为对全部分割的固定主补偿。
+两稿全文逆审及范围修正闭环。四项新Lean代数无sorryAx，分析证明不冒称Lean形式化。
+继续[保留原物理时间的交叉积与原观测量](reviews/2026-09-21/f1-original-time-crossed-product-next-proof-plan.md)；
+GOAL active，第十节及完整F₁／RH目标保持。下方旧状态为历史。
+
 ## 当前研究状态：三个传递项已算清，转向实际连接（2026-09-21）
 
 [416](notes/416-f1-split-transfer-and-periodic-coefficients.md)已分别证明三个传递级数收敛，

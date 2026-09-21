@@ -1,0 +1,7 @@
+F1/Analysis/ConnectionEvolutionAlgebra.lean
+
+checks/ConnectionEvolutionAlgebraAudit.lean
+'RHWeil.F1.right_twisted_cocycle_group_law' depends on axioms: [propext]
+'RHWeil.F1.left_cocycle_group_law' depends on axioms: [propext]
+'RHWeil.F1.compressed_parallel_defect' depends on axioms: [propext]
+'RHWeil.F1.parallel_factor_derivative' depends on axioms: [propext]

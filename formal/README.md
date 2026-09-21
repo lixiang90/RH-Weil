@@ -234,3 +234,14 @@ p进空间、Hilbert悬挂、trace-class、来源比较及K理论另由纸面审
 实际Green系数的角内导数为零仍需独立算出；无界定义域、演化与算术迹不在这些代数引理范围。
 运行 python scripts/check_projection_connection.py，准备入口 --entry F1.Analysis.ProjectionConnection，
 使用前述固定cache/runtime参数。项目25份Lean源码、原十处admission及旧报告保持。
+
+## 2026-09-21：连接演化的代数簿记（417）
+
+[ConnectionEvolutionAlgebra.lean](F1/Analysis/ConnectionEvolutionAlgebra.lean)
+保存左右 cocycle 群律、实际压缩平行残差及周期相位导数的四条通用恒等式。
+[内核报告](checks/connection-evolution-algebra-verification.json)记录固定 Lean 4.32.2/mathlib，
+四条结果仅依赖 propext，无 sorryAx。
+[源码审计](checks/connection-evolution-algebra-source-audit.json)为26份项目Lean、十处原admission，
+八包806份vendor源码。这里没有形式化Dyson收敛、H¹定义域、GNS或无限迹；
+这些仍由[417的数学证明](../notes/417-f1-projection-connection-and-time-evolution.md)及独立复核负责。
+旧报告保留，没有重建整个F1。

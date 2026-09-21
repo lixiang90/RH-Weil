@@ -1,14 +1,14 @@
 # 研究分支看板
 
-## 唯一当前队列（2026-09-21 实际投影连接与时间比较）
+## 唯一当前队列（2026-09-21 保留原物理时间的交叉积与读出）
 
 执行[GOAL.20260909.md](goals/GOAL.20260909.md)，Goal active；下方早期状态为历史。
 
 | 顺序 | 任务 | 验收与切换 |
 |---|---|---|
 | 已结算 | 旧周期13冻结候选：[364完整验收](notes/364-frozen-integer-candidate-verification.md) | 6237815186边全扫描，13755190失败；只排除指定充分条件 |
-| 当前主线 | F1-EX1：[416](notes/416-f1-split-transfer-and-periodic-coefficients.md)三个传递项已完整算清 | 近锐族非零时间测度一致退化；停止当前有限分拆作为主消失完成机制。转入[实际连接与时间比较](reviews/2026-09-21/f1-projection-connection-next-proof-plan.md)，核准真实演化、Γ协变与指定算术迹，而非只证外等价 |
-| 必要辅助 | 原始文献及勘误、即时Lean、只读独立复核 | 六项ProjectionConnection无sorryAx；25份项目源码、十处旧admission与历史报告保持。分析并非Lean认证，未重建全F1 |
+| 当前主线 | F1-EX1：[417](notes/417-f1-projection-connection-and-time-evolution.md)真实连接／演化及[418](notes/418-f1-connection-periodized-trace-and-sharp-frame.md)原Γ周期比较已审 | 直接连接迹差的近锐p系数趋零，不能充当对全部分割的固定主补偿。转入[原时间交叉积及观测量准入](reviews/2026-09-21/f1-original-time-crossed-product-next-proof-plan.md)，具体同构必须携带算术迹 |
+| 必要辅助 | 原始文献及勘误、即时Lean、只读独立复核 | 四项ConnectionEvolutionAlgebra无sorryAx；26份项目源码、十处旧admission与历史报告保持。分析并非Lean认证，未重建全F1 |
 
 [任务单](goals/NEXT.20260909.md)与[账本](goals/PROGRESS.md)记录剩余动作。
 

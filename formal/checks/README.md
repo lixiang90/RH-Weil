@@ -146,3 +146,11 @@ vendor八包806文件校验。历史报告保持。Hilbert正交／收敛、C*�
 [编译日志](projection-connection-build.txt)、[入口](ProjectionConnectionAudit.lean)及[源码清单](projection-connection-source-audit.json)保存。
 投影连接及压缩缺陷的抽象代数无sorryAx依赖，未认证实际交叉积或无界演化。
 25份项目源码，十处旧admission与八包806份vendor校验保持；所有历史报告保留。
+
+## 417：cocycle 与连接演化代数（2026-09-21）
+
+[connection-evolution-algebra-verification.json](connection-evolution-algebra-verification.json)：
+四项左右 cocycle 群律、压缩残差和相位导数恒等式通过固定 Lean 4.32.2，
+仅依赖 propext，无 sorryAx；[源码清点](connection-evolution-algebra-source-audit.json)为26份项目源码及原十处admission。
+可由 scripts/check_connection_evolution_algebra.py 按报告中的cache/runtime选项复验。
+不将这四项代数核验计为演化分析或全F₁形式化，原检查日志保持原样。
