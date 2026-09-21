@@ -1,5 +1,13 @@
 # 20260909版重启任务单
 
+## 唯一当前任务（2026-09-21，416结算）
+
+执行[实际投影连接与时间比较](../reviews/2026-09-21/f1-projection-connection-next-proof-plan.md)。
+[416](../notes/416-f1-split-transfer-and-periodic-coefficients.md)已完成分别收敛、合法循环、全部周期系数和近锐一致退化。
+停止用当前有限传递分拆直接完成主消失，改验原Green对象的真实连接、H¹演化及Γ协变的改变。
+已有实际系数子问题及六项ProjectionConnection Lean支撑；外等价和源酉平行不等于算术迹匹配。
+全文演化／比较仍待证明与逆审。下方为历史任务，Goal及第十节保持。
+
 ## 唯一当前任务（2026-09-21，415结算）
 
 执行[分拆传递的收敛与周期信息](../reviews/2026-09-21/f1-split-transfer-next-proof-plan.md)。

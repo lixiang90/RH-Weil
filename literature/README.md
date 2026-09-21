@@ -1,6 +1,6 @@
 # RH-Weil 文献索引
 
-索引续记更新至2026-09-21；最新批次、范围和保存状态见文末。以下2026-09-09统计为历史快照。首批归档聚焦67.25%之后的零点比例进展及直接依赖（15份、220页）；后续原始版本与核读范围按轮次列在文末。当前本地共60份外部原始PDF、3262页，其中59份、3233页纳入Git保存；Schur扫描29页按来源封面要求仅本地保存，出处和哈希同步。获取失败单列。研究判断见 [305文献审计](../notes/305-post-6725-literature-baseline-audit.md)。
+索引续记更新至2026-09-21；最新批次、范围和保存状态见文末。以下2026-09-09统计为历史快照。首批归档聚焦67.25%之后的零点比例进展及直接依赖（15份、220页）；后续原始版本与核读范围按轮次列在文末。当前本地共62份外部原始PDF、3282页，其中61份、3253页纳入Git保存；Schur扫描29页按来源封面要求仅本地保存，出处和哈希同步。获取失败单列。研究判断见 [305文献审计](../notes/305-post-6725-literature-baseline-audit.md)。
 
 PDF按来源原样保存，未重排或改写；arXiv固定版本，GitHub固定提交，Zenodo固定记录。下载、全页PDF解析和校验值核验不等于数学证明认证。manifest中的SHA-256标识本次取得的精确字节，原站同一文件名后续变化时仍可区分。
 
@@ -1003,3 +1003,11 @@ Schur29页仍仅本地。
 已有[Blackadar K理论原件](f1/blackadar-k-theory-author-book6.pdf)不重复下载；追加§8.3.1–2等页的核读范围，固定ker−coker符号。
 [来源全文报告](../reviews/2026-09-21/f1-defect-projection-source-review.md)区分原文定理、直接推导及不适用的全纯函数演算；原始回包另存。
 两个新PDF原字节、SHA256、页数及实际核读范围记入manifest；下载与页数校验不代替数学证明。
+
+## 2026-09-21：投影连接背景及必须配套的勘误
+
+- **ASY-1987-adiabatic**，Avron–Seiler–Yaffe，*Adiabatic Theorems and Applications to the Quantum Hall Effect*，CMP110（1987），33–49。[作者原件](f1/avron-seiler-yaffe-adiabatic-1987.pdf)；[DOI](https://doi.org/10.1007/BF01209015)；[原PDF](https://phsites.technion.ac.il/avron/wp-content/uploads/sites/3/2013/05/commun_math_phys_110_33-49_1987.pdf)。文件18页，其中最后一页为空白；(1.0)和Lemma2.3／(2.3)–(2.5)供下一投影连接候选参考。
+- **ASY-1993-erratum**，同作者，CMP156（1993），649–650。[勘误原件](f1/avron-seiler-yaffe-erratum-1993.pdf)；[DOI](https://doi.org/10.1007/BF02096867)；[出版方PDF](https://link.springer.com/content/pdf/10.1007/BF02096867.pdf)。两页全文核读，保留符号、高阶估计及Lemma2.7原证明有误的更正；不采用原错误公式。
+
+[核读范围与用途](../reviews/2026-09-21/f1-projection-connection-source-read.md)说明这里只借鉴投影平行传输的机制。
+真实交叉积中的角内导数、乘子归属和算术比较须另证；没有由量子Hall结论导入F₁或RH结论。

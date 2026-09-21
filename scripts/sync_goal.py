@@ -17,6 +17,7 @@ ROOT = Path(__file__).resolve().parents[1]
 WORKSPACE = ROOT.parent
 FILES = (
     "GOAL.20260909.md",
+    "archive/GOAL.20260909.f1-before-split-transfer.md",
     "archive/GOAL.20260909.f1-before-defect-residue.md",
     "archive/GOAL.20260909.f1-before-boundary-unitary.md",
     "archive/GOAL.20260909.f1-before-two-place-gluing.md",

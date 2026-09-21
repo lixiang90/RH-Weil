@@ -105,3 +105,5 @@ SHA256：ac534c80f26c6f22e5cb9d0b8a4e2bd66dcfba9b176b5f1da0237636db3818d6。
 - [GOAL.20260909.f1-before-boundary-unitary.md](GOAL.20260909.f1-before-boundary-unitary.md)：2026-09-21，414实际边界酉元及联合迹结算前按原字节归档。SHA256：`9a84107bf2af044e751ccae182fe04a8e864144601080095510639794da73474`。当前转入实际缺陷投影与非局部传递；第十节逐字保持。
 
 - [GOAL.20260909.f1-before-defect-residue.md](GOAL.20260909.f1-before-defect-residue.md)：415实际缺陷残差结算前原字节；后续转入分别收敛的传递与周期比较，第十节保持。
+
+- [GOAL.20260909.f1-before-split-transfer.md](GOAL.20260909.f1-before-split-transfer.md)：416全部传递系数结算前原字节；改验真实投影连接、时间演化及算术比较，第十节保持。

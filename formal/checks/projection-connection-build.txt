@@ -1,0 +1,9 @@
+F1/Analysis/ProjectionConnection.lean
+
+checks/ProjectionConnectionAudit.lean
+'RHWeil.F1.projection_derivative_corner' does not depend on any axioms
+'RHWeil.F1.projection_connection_commutator' depends on axioms: [propext]
+'RHWeil.F1.projection_connection_corner' depends on axioms: [propext]
+'RHWeil.F1.corner_derivative_parallel' depends on axioms: [propext]
+'RHWeil.F1.compressed_connection_defect' depends on axioms: [propext]
+'RHWeil.F1.projection_connection_skew' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,5 +1,13 @@
 # RH / Weil 结构研究
 
+## 当前研究状态：三个传递项已算清，转向实际连接（2026-09-21）
+
+[416](notes/416-f1-split-transfer-and-periodic-coefficients.md)已分别证明三个传递级数收敛，
+算出周期系数及精确截止依赖；合法光滑近锐族中，其非零时间测度一致趋零。
+当前有限分拆不能直接恢复固定算术周期差。下一步检验[实际连接与时间作用比较](reviews/2026-09-21/f1-projection-connection-next-proof-plan.md)。
+全文独立逆审已通过；另有六项连接代数Lean检查支撑下一候选，原始文献与勘误保存。
+完整主消失、双矩、B及RR仍开放，Goal active。下方均为历史快照。
+
 ## 当前研究状态：实际缺陷投影与截断残差（2026-09-21）
 
 [415](notes/415-f1-defect-projection-and-cutoff-residue.md)已构造真实相对投影，并算出其原始联合迹读出：

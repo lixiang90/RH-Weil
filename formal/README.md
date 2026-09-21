@@ -225,3 +225,12 @@ p进空间、Hilbert悬挂、trace-class、来源比较及K理论另由纸面审
 当前24份项目源码，旧十处admission与历史检查保持，未重建整个F1。
 运行 python scripts/check_defect_projection.py；依赖准备入口为 --entry F1.Analysis.DefectProjection，
 使用上面的固定cache/runtime参数。C*正性与函数演算、理想归属、Hilbert重叠和迹收敛没有被本次形式化。
+
+## 416后候选：投影连接的六条代数检查（2026-09-21）
+
+[ProjectionConnection.lean](F1/Analysis/ProjectionConnection.lean)核验投影导数的角内消失、
+双交换子、角内元素平行性、压缩残差及反自伴性；六项通过Lean4.32.2，无sorryAx。
+[报告](checks/projection-connection-verification.json)、[源码清单](checks/projection-connection-source-audit.json)保存。
+实际Green系数的角内导数为零仍需独立算出；无界定义域、演化与算术迹不在这些代数引理范围。
+运行 python scripts/check_projection_connection.py，准备入口 --entry F1.Analysis.ProjectionConnection，
+使用前述固定cache/runtime参数。项目25份Lean源码、原十处admission及旧报告保持。

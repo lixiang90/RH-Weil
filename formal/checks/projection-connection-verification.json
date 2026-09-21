@@ -1,0 +1,44 @@
+{
+  "status": "passed_no_sorry_dependencies",
+  "checked_at_utc": "2026-09-21T03:27:35.689400+00:00",
+  "lean_version": "Lean (version 4.32.2, x86_64-w64-windows-gnu, commit f3b06c705e6c85f5314019d5d3baab0fec5b580c, Release)",
+  "mathlib_revision": "905b95818eb32af7874a58b427f50c1711a5e96c",
+  "cache_backup": ".lake\\hdd-backup-05156b5b",
+  "runtime_dir": "C:\\Users\\A\\AppData\\Local\\Temp\\rh-weil-local-trace-20260920",
+  "scope": "Six algebraic projection-derivative, corner-parallelism, skew-adjoint and compression identities. No actual Green corner derivative, unbounded connection, evolution, equivariance, trace comparison or full F1 build.",
+  "commands": [
+    {
+      "source": "F1/Analysis/ProjectionConnection.lean",
+      "exit_code": 0
+    },
+    {
+      "source": "checks/ProjectionConnectionAudit.lean",
+      "exit_code": 0
+    }
+  ],
+  "source_sha256": {
+    "F1/Analysis/ProjectionConnection.lean": "7397b04f35b53bb8c2ce1d44cd3aca33c191428e62ee5525acb52023902351c6",
+    "checks/ProjectionConnectionAudit.lean": "84c576f5ca8b554827c8434b5ee155859dc0072d49393ff9ccdad897aa26c276"
+  },
+  "axioms": {
+    "RHWeil.F1.projection_derivative_corner": [],
+    "RHWeil.F1.projection_connection_commutator": [
+      "propext"
+    ],
+    "RHWeil.F1.projection_connection_corner": [
+      "propext"
+    ],
+    "RHWeil.F1.corner_derivative_parallel": [
+      "propext"
+    ],
+    "RHWeil.F1.compressed_connection_defect": [
+      "propext"
+    ],
+    "RHWeil.F1.projection_connection_skew": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "existing_admissions": "The existing Weil convergence and criterion admissions are not imported by these checked results."
+}

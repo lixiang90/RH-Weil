@@ -1,8 +1,8 @@
 # GOAL.20260909：先完成中断验证，再以 F₁ 构造与存在性为主线
 
 版本名按用户要求为 20260909；实际修订及重新启动日期：2026-09-10。
-本版替代此前第十三版。工作目录为本文件所在目录；研究仓库：[RH-Weil](../README.md)。
-原 [GOAL.20260906.md](archive/GOAL.20260906.md) 已按原始字节归档；更早历史仍保留。
+本版替代此前第十三版。工作目录为本文件所在目录；研究仓库：[RH-Weil](../../README.md)。
+原 [GOAL.20260906.md](GOAL.20260906.md) 已按原始字节归档；更早历史仍保留。
 
 修订原因：旧周期13的整数迭代已完成10轮，最终冻结候选有19730568条长度四分支，
 此前账本只登记五轮；中断的是最终完整独立验收。随后已完成F₁调查、形式化蓝图、
@@ -20,7 +20,7 @@ G0–G8 v1.1与本科背景讲义。按用户新指令重新启动持续GOAL：�
 但仍依赖实际簇几何，尚未证明新的零点比例、非零区域或算术正性。
 这些是当前基线，不能重新计算为本持续GOAL的“较远期显著进展”。
 
-当前顺序固定为两个阶段，执行[重启任务单](../goals/NEXT.20260909.md)：
+当前顺序固定为两个阶段，执行[重启任务单](../../goals/NEXT.20260909.md)：
 
 1. 完成旧周期13最终冻结候选的完整独立验证。保持354精确窗口、alpha=.007535、
    eta=.00377855、313控制值、e=5e-6和b>=-.007；355实际传递及361曲率表是已审输入。
@@ -28,9 +28,9 @@ G0–G8 v1.1与本科背景讲义。按用户新指令重新启动持续GOAL：�
    完成本次“中断验证”，不能以再次寻优代替验收，也不要求为了转入F₁先得到比例突破。
 2. 验证结算后，以F₁实际几何构造／存在性为主线。允许指定来源和自由存在性两种路线；
    固定通常zeta、测试类、显式公式W及验收结论，空间、结构和比较映射可一起量化。
-   以[精确几何包v1.1](../formal/blueprint/geometric-realization.md)、
-   [本科背景讲义](../docs/f1-route-from-undergraduate-math.md)及
-   [缺口账本](../formal/blueprint/README.md)为已完成基线。
+   以[精确几何包v1.1](../../formal/blueprint/geometric-realization.md)、
+   [本科背景讲义](../../docs/f1-route-from-undergraduate-math.md)及
+   [缺口账本](../../formal/blueprint/README.md)为已完成基线。
 
 实际算术平方的交叉积、主除子根空间、可容许截面／RR及精确算术比较仍开放。
 Lean框架的26项传递公理检查和十个经典sorry不构成这些对象的存在性证明。
@@ -74,7 +74,7 @@ Alpöge–Furman 的预印本核对至 arXiv:2608.13637v2（2026-08-19），Lamz
 
 所有比例均须明确分母是否计重数、分子是否要求简单且在临界线、采用移动区间还是累计计数。条件性 67.92%、方法能力上限、数值寻优候选和实际比例下界不得混写。已因错误封存的密度 1 稿件不进入结果基线；其他高比例稿件也须核查实际解析链，不能由有限常数或局部 Lean 证书直接导入。
 
-每次拟宣布新纪录、恢复数值优化或评价新颖性前，更新[文献索引](../literature/README.md)，固定版本并核查勘误。不能仅因超过旧 67.25% 就宣称前沿进展，也不机械地把未核查的最大声明设为必须超过的门槛。
+每次拟宣布新纪录、恢复数值优化或评价新颖性前，更新[文献索引](../../literature/README.md)，固定版本并核查勘误。不能仅因超过旧 67.25% 就宣称前沿进展，也不机械地把未核查的最大声明设为必须超过的门槛。
 
 ### 3. 四矩路线仍有实际算术缺口
 
@@ -109,12 +109,12 @@ Alpöge–Furman 的预印本核对至 arXiv:2608.13637v2（2026-08-19），Lamz
 
 ### A. 冻结候选的完整验收
 
-2026-09-10执行更新：本项已按[周期13结算](../goals/ACCEPTANCE.cycle13.md)完成。
+2026-09-10执行更新：本项已按[周期13结算](../../goals/ACCEPTANCE.cycle13.md)完成。
 6237815186条边全部扫描；13755190条失败。320位区间算术及独立见证复核确认
 同word／前缀充分条件严格失败，偏置下界通过。没有实际比例结论；当前主线已转F₁。
 以下保留验收规范，防止把这一有限失败审计误报为整个GOAL完成。
 
-冻结 [十轮整数迭代记录](../reviews/2026-09-08/finite-control-integer-iteration.json)
+冻结 [十轮整数迭代记录](../../reviews/2026-09-08/finite-control-integer-iteration.json)
 及其中指向的iteration-10数组，核对初始化、核费用、全部分支偏置的哈希与字节。
 大数组仍保留本地忽略目录，Git保存生成器、固定输入、生成命令与数据哈希。
 
@@ -130,60 +130,60 @@ Alpöge–Furman 的预印本核对至 arXiv:2608.13637v2（2026-08-19），Lamz
 ### B. F₁后续研究的第一组有限问题
 
 2026-09-20当前执行更新：Goal工具现场为active；下文2026-09-15的paused记录仅是历史状态。
-[392](../notes/392-f1-eigensections-and-weighted-banach-space.md)与
-[393](../notes/393-f1-profile-surjectivity-and-filtered-dimension.md)的截面、轮廓与过滤维数比较已独立复核。
-用户新增agent的[394审查](../notes/394-f1-real-principal-relations-and-parameter-topologies.md)
+[392](../../notes/392-f1-eigensections-and-weighted-banach-space.md)与
+[393](../../notes/393-f1-profile-surjectivity-and-filtered-dimension.md)的截面、轮廓与过滤维数比较已独立复核。
+用户新增agent的[394审查](../../notes/394-f1-real-principal-relations-and-parameter-topologies.md)
 保留有界候选容器，明确实主等价、torsion和拓扑的接口限制；完整目标仍须实例化τ。
-随后[395](../notes/395-f1-geometric-measure-principal-quotient.md)经代数／几何两份独立复核：
+随后[395](../../notes/395-f1-geometric-measure-principal-quotient.md)经代数／几何两份独立复核：
 在完整Berkovich周期商上，这批C定义截面零测度的连续主商只有一个数值方向；
 普通幂映射图也不能区分b与pb。排除范围只含指定弱星测度模型和普通图，
 不排除更强拓扑、额外半线性结构或真正算术平方。
 
-[396](../notes/396-f1-flat-line-enhancement-and-cartier-pullback.md)与
-[397](../notes/397-f1-finite-norm-and-principal-pushforward.md)随后完成独立复核：
+[396](../../notes/396-f1-flat-line-enhancement-and-cartier-pullback.md)与
+[397](../../notes/397-f1-finite-norm-and-principal-pushforward.md)随后完成独立复核：
 实际覆盖标记保留b因子，有限自由范数补齐全部主推前及代数主商作用。
-[398](../notes/398-f1-diagonal-square-and-noncartier-graphs.md)已构造真实双变量解析平方及对角周期商，
+[398](../../notes/398-f1-diagonal-square-and-noncartier-graphs.md)已构造真实双变量解析平方及对角周期商，
 其高度比区分b与pb；但完整幂图的实际闭核在每个有理邻域满足I=closure(I²)，
 所以通常Cartier闭图解释在所有图点被排除，独立复核闭环。
 固定有限层方程含任意深的额外根相位，且先取周期商再取无限交不恢复完整图。
 这些障碍只限定此perfectoid平方及所选除子接口，不否定整体F₁存在性。
 
-[399](../notes/399-f1-normalized-cartier-kernels-and-principal-topology.md)已完成全基底Feller图核、原C下降及一致弱极限，
+[399](../../notes/399-f1-normalized-cartier-kernels-and-principal-topology.md)已完成全基底Feller图核、原C下降及一致弱极限，
 总变差距离恒为2；指定覆盖主核的强闭商消去幂图，而算子范数闭商中的图类范数恰为1。
 整数层周期及复合公式已核验；连续高度混合可真实下降，却不保严格幂半群，独立复核闭环。
 因此该标量核直接承担完整τ的候选按明确范围停止，不排除保留全局过渡数据的构造。
-[400](../notes/400-f1-cartier-tower-limit-and-stalk-defect.md)已证明全部有理域的通常逆极限为(O,1)，
+[400](../../notes/400-f1-cartier-tower-limit-and-stalk-defect.md)已证明全部有理域的通常逆极限为(O,1)，
 图点处取茎与极限失配；原pro塔非本质常值且未层化Čech下降缺统一源层，独立复核闭环。
-[401](../notes/401-f1-dual-cartier-ideal-and-reflexive-collapse.md)给真正周期下降的非闭理想层，
+[401](../../notes/401-f1-dual-cartier-ideal-and-reflexive-collapse.md)给真正周期下降的非闭理想层，
 但它不局部有限生成，尚不能提供通常Cartier／RR接口。
-[402](../notes/402-f1-intrinsic-ff-diagonal-conormal-obstruction.md)已独立复核：untilt点的实际剩余域为C，普通Q_p平方对角理想不有限生成。
-[第四次空间审查](../reviews/2026-09-20/f1-candidate-space-fourth-review.md)保留有界容器，比较三种替代定义；
-[403](../notes/403-f1-support-locality-and-nonperfect-quotients.md)给支集局部配对与固定Weil型的冲突及有限Tor维数不保证完美的限制。
-当前[非局部混合配对准入](../reviews/2026-09-20/f1-nonlocal-mixed-pairing-next-proof-plan.md)取得局部结果：
-[404](../notes/404-f1-adelic-periodic-orbits-and-mixed-local-trace.md)从实际adelic作用的p周期轨道与局部域缩放，
+[402](../../notes/402-f1-intrinsic-ff-diagonal-conormal-obstruction.md)已独立复核：untilt点的实际剩余域为C，普通Q_p平方对角理想不有限生成。
+[第四次空间审查](../../reviews/2026-09-20/f1-candidate-space-fourth-review.md)保留有界容器，比较三种替代定义；
+[403](../../notes/403-f1-support-locality-and-nonperfect-quotients.md)给支集局部配对与固定Weil型的冲突及有限Tor维数不保证完美的限制。
+当前[非局部混合配对准入](../../reviews/2026-09-20/f1-nonlocal-mixed-pairing-next-proof-plan.md)取得局部结果：
+[404](../../notes/404-f1-adelic-periodic-orbits-and-mixed-local-trace.md)从实际adelic作用的p周期轨道与局部域缩放，
 推导离开单位元的局部迹；按固定sharp归一化后L/2=N，通过相隔log2的混合检验。
 独立来源／数学复核已闭环，并接入固定有限S的实际截断迹极限；仍非全局交叉或G6。
 非零自配对必触及单位元，离开单位元的检验不能恢复其常数；主关系和RR仍开放。
-[405](../notes/405-f1-adelic-restriction-moments-and-radical.md)现已完成实际限制关系的双矩检验：
+[405](../../notes/405-f1-adelic-restriction-moments-and-radical.md)现已完成实际限制关系的双矩检验：
 Gaussian像的双矩均为1/4，故整个谱消失像不是主除子根空间；
 其明确微分组合给非零双矩零关系，完整Weil配对的消失及I∩rad(B)=I∩ker d∩ker c已独立复核。
 恒等元常数由原始Fourier有限部分核准，补齐指定sharp不变测试类的L/2=N；
 这没有把解析商识别成完成cyclic商，更没有构造几何主除子或RR。
-当前单位准入由[406](../notes/406-f1-adelic-units-and-determinant-divisors.md)结算：
+当前单位准入由[406](../../notes/406-f1-adelic-units-and-determinant-divisors.md)结算：
 实际源指数单位的log determinant可给非零根关系，但普通Cartier标签必须消去明定正则单位。
 标准线性铅笔的完整零除子仍能由倒数零点和恢复迹；独立逆审已纠正过宽的否定。
 带Green数据的主算术除子另有无穷位分量，不受同一Cartier单位消失规则直接排除。
-[407](../notes/407-f1-prime-arrows-fredholm-and-relative-complex.md)已完成真实非对角箭头准入及独立全文逆审：
+[407](../../notes/407-f1-prime-arrows-fredholm-and-relative-complex.md)已完成真实非对角箭头准入及独立全文逆审：
 无闭合词的箭头和之全部纤维Fredholm行列式恒为1；加入反向箭头后第二倒数矩保留素数参数。
 混合迹有非零Poisson尾部，第一次L恢复快速衰减而保留一个次数，第二次L才进入完整B根空间。
 实际有限箭头环中的两项自由复形非零，每个idele纤维导出基变换却可缩；
 这不等于非零相对K类，更不自动给几何主除子、截面或RR。
-[408](../notes/408-f1-orbit-completion-and-prime-boundaries.md)完成统一幂范数及独立全文逆审：
+[408](../../notes/408-f1-orbit-completion-and-prime-boundaries.md)完成统一幂范数及独立全文逆审：
 指定ℓ¹(C_0)完成中，径向单箭头谱半径恰为|η(0)|；实零超平面消失的有限正向箭头和也拟幂零。
 407的源复形在所有有限p边界非零，在相同完成后却全部可缩；该非零性检测不提供专属素数支撑。
 改用η(0)=1则实际构造完成后仍非零、逐idele的单位加紧算子目标中可缩的完美复形。
 非零见证来自共有原点字符χ_orig；它不同于原CCM两迹，非单位箭头仍在旧双迹共同核。
-[409](../notes/409-f1-boundary-prime-power-kernels-and-heat-defects.md)已完成原G(p)合法紧支源、全部有理扇区及全文独立数学逆审：
+[409](../../notes/409-f1-boundary-prime-power-kernels-and-heat-defects.md)已完成原G(p)合法紧支源、全部有理扇区及全文独立数学逆审：
 对整数n≥2、|z|>1，完整核非零当且仅当n=p^a；p幂情形满射且核无限维，
 含外部素因子时单射但像稠密不闭。两种情况均没有普通Fredholm指数。
 完整正负能级重数和热夹心核给β>1的正有限读出，p幂读出在0<β≤1发散；
@@ -191,146 +191,138 @@ Gaussian像的双矩均为1/4，故整个谱消失像不是主除子根空间；
 这是严格的素数幂支撑，不是已识别的von Mangoldt权重、主除子或完整B。
 来源逆审排除从完整边界直接限制到非开放非饱和经典轨道的默认代数同态，
 并保留p^Z箭头子群胚的合法零延拓／闭不变限制图表。
-[410](../notes/410-f1-boundary-kernel-bundles-and-relative-k-classes.md)完成实际p^Z子群胚的连续核丛及独立复核：
+[410](../../notes/410-f1-boundary-kernel-bundles-and-relative-k-classes.md)完成实际p^Z子群胚的连续核丛及独立复核：
 p^a箭头给秩a，周期过渡的行列式为(−1)^(a−1)z^(-1)；
 在真实K_p悬挂空间上，绕数的有界整数漂移矛盾证明行列式丛非平凡。
 可容许φ之间的同伦保持该类。实际闭不变端点扩张给非零相对边界K类Ξ_a，
 经合法限制及full open Morita比较检出；其保留参数圆的ambient K_0像及逐参数像却由正合性为0。
 秩零混合类来自[z·1_Q]，不直接识别为算术权重；完整B、两矩、主关系和RR仍开放。
-[411](../notes/411-f1-full-rational-relative-classes-and-logarithmic-trace.md)完成完整Q×不变边界扩张及独立复核：
+[411](../../notes/411-f1-full-rational-relative-classes-and-logarithmic-trace.md)完成完整Q×不变边界扩张及独立复核：
 模边界可逆性精确选择正整数p幂；闭不变实轴商与PV单射性证明相对类进入全部素数作用后仍非零。
 两实半轴给真实重数2，规范半有限迹配对为2a log p；共同轴中的k_p整系数线性独立。
 参数混合项b在共同轴商中与p无关，普通ambient K_0像仍为0。
 因此直接加性配对没有给Λ(p^a)=log p；这一缺口不能通过除以a或重命名抹去。
-[412](../notes/412-f1-transverse-compression-and-periodic-traces.md)补出实际p进横向投影与Hilbert悬挂：
+[412](../../notes/412-f1-transverse-compression-and-periodic-traces.md)补出实际p进横向投影与Hilbert悬挂：
 紧单位平均后秩为2N+1，最内球的几何尾部给非零迭代迹p^(-|a|/2)。
 相容投影族与平滑时间核产生真正trace-class算子；原始周期长度log p给幂次无关的权重。
 在导子Z_p的Fourier截止下，原始扣项精确为(2N+1)log p，完整有限位有限部分与404–405一致。
 到原K类的规范Hilbert／Fourier构造关系仍未证明；固定加性读出在411的共同K目标上有明确障碍。
 非加性指数函数却能恢复横向标量，独立复核的这一反例保留，不能扩大为任意K类函数障碍。
-[413](../notes/413-f1-two-place-boundaries-and-virtual-class-collapse.md)建立同一真实两有限位径向来源，
+[413](../../notes/413-f1-two-place-boundaries-and-virtual-class-collapse.md)建立同一真实两有限位径向来源，
 核准双非零、单零周期及双零层的两个扩张。单边螺旋商给连接映射δ(r_p,r_q)=−(r_p+r_q)。
 等秩之差可唯一提升为虚K类，正秩之和不可提升；I在全部矩阵层无非零实际投影。
 保留参数圆后核丛差的提升条件仍为等秩，两个混合方向另记。
 两次PV用实际紧开矩形的Laurent模计算完整A的K群，证明所有这些提升的普通及带参数忘却像为0。
 这只限于明定的两有限位、实非零径向代数；乘子、非紧支丛和导出对象未被排除。
 局部Hilbert悬挂已酉展开到共同bulk实线，但普通K消失仍不保证算术主消失，明确局部检验有残差。
-[414](../notes/414-f1-deep-boundary-unitary-and-time-defect.md)把双零层原像写成实际满角酉元，
+[414](../../notes/414-f1-deep-boundary-unitary-and-time-defect.md)把双零层原像写成实际满角酉元，
 构造A单位化中的一般提升并直接算出两个周期边界指数(−1,+1)。
 乘子酉提升存在，单位化可逆提升被非零边界排除；两者不混同。
 同一真实两位径向Hilbert空间的Fourier壳层投影消去混合迭代，
 配合Green时间分割与对全部Γ绝对迹范数收敛的平滑算子，给两个完整有限位项及精确单位扣项。
 源T与联合迹已在原A的同一忠实协变表示中，仍未证明迹消去T的边界或下降到相对类。
-[415](../notes/415-f1-defect-projection-and-cutoff-residue.md)已给一般收缩提升的真实Halmos相对投影，
+[415](../../notes/415-f1-defect-projection-and-cutoff-residue.md)已给一般收缩提升的真实Halmos相对投影，
 严格区分一般正缺陷与投影；原始联合迹插入对角缺陷后绝对迹范数收敛，
 足够大截止时精确只剩C(c,d_q)δ₀。该残差依赖辅助时间分割，
 且p<q时一族真实光滑源对全部q分割均有C≥(log q−log p)/2>0。
 因此这批原始投影读出不能直接给主消失，也不等于两个边界的周期差。
 来源和全文独立逆审已闭环；18项DefectProjection Lean检查无sorryAx，
 实际二阶矩阵幂等／自伴等代数已认证，C*函数演算及全部分析仍为纸面证明。
-[416](../notes/416-f1-split-transfer-and-periodic-coefficients.md)已分别建立压缩、Γ协变、时间缺陷级数，
-核准逐项循环仅产生绝对收敛的标量迹和，并算出全部周期系数与精确N依赖。
-近锐光滑族中三个非零时间测度对全部q分割一致全变差趋零，
-故这些传递项的有界有限线性组合不能规范恢复固定边界周期差。
-当前有限分拆作为主消失完成机制已停止；不把更换符号或自由补偿当作后续推进。
-当前唯一主问题按[实际投影连接与时间比较](../reviews/2026-09-21/f1-projection-connection-next-proof-plan.md)：
-从原Green系数构造K=[δe,e]、真实H¹连接及酉演化，核准I值压缩缺陷，
-并支付改变时间作用后的Γ协变与周期迹比较代价。外等价作用不自动保持指定算术读出。
-实际系数子问题及六项ProjectionConnection Lean代数已有支撑，
-完整演化／算术比较尚未结算；主除子、完整B、双矩、有效性、截面和RR仍开放。
-416全文逆审通过，25份项目Lean源码与原十处admission保持；未重建全F1。
-本次执行调整前根文件按原字节存[分拆传递前快照](archive/GOAL.20260909.f1-before-split-transfer.md)。
-本次执行调整前根文件按原字节存[缺陷残差前快照](archive/GOAL.20260909.f1-before-defect-residue.md)。
-本次执行调整前根文件按原字节存[边界酉元前快照](archive/GOAL.20260909.f1-before-boundary-unitary.md)。
-本次执行调整前根文件按原字节存[两位共同边界前快照](archive/GOAL.20260909.f1-before-two-place-gluing.md)。
-本次执行调整前根文件按原字节存[横向周期迹前快照](archive/GOAL.20260909.f1-before-transverse-trace.md)。
-本次执行调整前根文件按原字节存[完整有理边界前快照](archive/GOAL.20260909.f1-before-full-rational-boundary.md)。
-本次执行调整前根文件按原字节存[边界核丛前快照](archive/GOAL.20260909.f1-before-boundary-k-class.md)。
-本次执行调整前根文件按原字节存[边界缺陷前快照](archive/GOAL.20260909.f1-before-boundary-defect.md)。
-本次执行调整前根文件按原字节存[轨道完成化前快照](archive/GOAL.20260909.f1-before-orbit-completion.md)。
-本次执行调整前根文件按原字节存[素数箭头前快照](archive/GOAL.20260909.f1-before-prime-arrows.md)。
-本次执行调整前根文件按原字节存[单位下降前快照](archive/GOAL.20260909.f1-before-unit-descent.md)。
-本次执行调整前根文件按原字节存[双矩根空间前快照](archive/GOAL.20260909.f1-before-moment-radical.md)。
-本次执行调整前根文件按原字节存[adelic局部迹前快照](archive/GOAL.20260909.f1-before-adelic-local-trace.md)。
+当前唯一主问题按[分拆传递与周期信息](../../reviews/2026-09-21/f1-split-transfer-next-proof-plan.md)：
+分别建立压缩换位、Γ协变及时间缺陷三个级数，证明合法循环与N极限，
+检验真实非局部信息能否从源传递出现，不任意添加−Cδ₀或将目标值定义成补偿。
+原十处admission和历史报告保持。主除子、固定双矩、完整B、有效性、截面与RR仍开放。
+本次执行调整前根文件按原字节存[缺陷残差前快照](GOAL.20260909.f1-before-defect-residue.md)。
+本次执行调整前根文件按原字节存[边界酉元前快照](GOAL.20260909.f1-before-boundary-unitary.md)。
+本次执行调整前根文件按原字节存[两位共同边界前快照](GOAL.20260909.f1-before-two-place-gluing.md)。
+本次执行调整前根文件按原字节存[横向周期迹前快照](GOAL.20260909.f1-before-transverse-trace.md)。
+本次执行调整前根文件按原字节存[完整有理边界前快照](GOAL.20260909.f1-before-full-rational-boundary.md)。
+本次执行调整前根文件按原字节存[边界核丛前快照](GOAL.20260909.f1-before-boundary-k-class.md)。
+本次执行调整前根文件按原字节存[边界缺陷前快照](GOAL.20260909.f1-before-boundary-defect.md)。
+本次执行调整前根文件按原字节存[轨道完成化前快照](GOAL.20260909.f1-before-orbit-completion.md)。
+本次执行调整前根文件按原字节存[素数箭头前快照](GOAL.20260909.f1-before-prime-arrows.md)。
+本次执行调整前根文件按原字节存[单位下降前快照](GOAL.20260909.f1-before-unit-descent.md)。
+本次执行调整前根文件按原字节存[双矩根空间前快照](GOAL.20260909.f1-before-moment-radical.md)。
+本次执行调整前根文件按原字节存[adelic局部迹前快照](GOAL.20260909.f1-before-adelic-local-trace.md)。
 仅重述Dirac图或附加(b,1)标签不算新算术输入，双次数、交叉、RR及固定ζ仍须证明。
 完整G0—G8、通常ζ及第十节B/C保持强度；本轮局部输入与障碍不触发整个GOAL完成。
-本次修订前根文件按原字节存[第四次空间审查前快照](archive/GOAL.20260909.f1-before-fourth-space-review.md)；
-此前[Cartier塔极限前快照](archive/GOAL.20260909.f1-before-tower-limit.md)；
-此前[图核下降前快照](archive/GOAL.20260909.f1-before-kernel-descent.md)、
-[Cartier准入前快照](archive/GOAL.20260909.f1-before-noncartier.md)及
-更早[完整几何主商前快照](archive/GOAL.20260909.f1-geometric-quotient.md)继续保留。
+本次修订前根文件按原字节存[第四次空间审查前快照](GOAL.20260909.f1-before-fourth-space-review.md)；
+此前[Cartier塔极限前快照](GOAL.20260909.f1-before-tower-limit.md)；
+此前[图核下降前快照](GOAL.20260909.f1-before-kernel-descent.md)、
+[Cartier准入前快照](GOAL.20260909.f1-before-noncartier.md)及
+更早[完整几何主商前快照](GOAL.20260909.f1-geometric-quotient.md)继续保留。
 
-当前首轮比较见[365](../notes/365-f1-rational-comparison-and-witt-coefficients.md)：
+当前首轮比较见[365](../../notes/365-f1-rational-comparison-and-witt-coefficients.md)：
 正系数Newton层可与实际F(n)求值比较，普通复幂映射不能直接识别为2018算术右作用。
 后续保留Witt系数、移动字符和原文半线性提升，推进可容许截面／主除子下降。
-2026-09-10执行续记：[366](../notes/366-f1-character-family-principal-divisors.md)
+2026-09-10执行续记：[366](../../notes/366-f1-character-family-principal-divisors.md)
 完成整族有限主除子及内部模型的范围内障碍，独立复核闭环。
-[367](../notes/367-f1-periodic-cartier-sections.md)构造实际p周期线丛和截面，
-[368](../notes/368-f1-tropical-theta-and-coefficient-obstruction.md)定位全Q频率与H_p热带系数的失配，
+[367](../../notes/367-f1-periodic-cartier-sections.md)构造实际p周期线丛和截面，
+[368](../../notes/368-f1-tropical-theta-and-coefficient-obstruction.md)定位全Q频率与H_p热带系数的失配，
 两项已独立复核；368增加任意单位换生成元会破坏H_p比较的精确反例。
-[369](../notes/369-f1-hp-solenoid-unit-slope.md)已完成H_p子层及完整纤维带上单位斜率的独立复核。
-[370](../notes/370-f1-finite-level-periodic-meromorphic-rigidity.md)证明所选局部有限层复函数类别
+[369](../../notes/369-f1-hp-solenoid-unit-slope.md)已完成H_p子层及完整纤维带上单位斜率的独立复核。
+[370](../../notes/370-f1-finite-level-periodic-meromorphic-rigidity.md)证明所选局部有限层复函数类别
 的周期商全局亚纯函数只有常数，其直接承担周期RR的候选停止。
-[371](../notes/371-f1-tate-curve-frobenius-weight.md)区分复Tate平移、算术权重与Witt Frobenius；
+[371](../../notes/371-f1-tate-curve-frobenius-weight.md)区分复Tate平移、算术权重与Witt Frobenius；
 370–371均已独立复核，排除范围不外推到全部F₁几何。
-当前主问题转到[372](../notes/372-f1-period-ring-tropical-principal-comparison.md)：
+当前主问题转到[372](../../notes/372-f1-period-ring-tropical-principal-comparison.md)：
 使用实际完备period ring、权一元素及同权分式构造热带主除子，并核查其Proj几何身份。
-该稿已完成独立复核；[373](../notes/373-f1-period-ring-profile-surjectivity.md)
-已独立证明整数截距H_p周期PL函数的完整像。[374](../notes/374-f1-twisted-frobenius-modules-and-torsion.md)
+该稿已完成独立复核；[373](../../notes/373-f1-period-ring-profile-surjectivity.md)
+已独立证明整数截距H_p周期PL函数的完整像。[374](../../notes/374-f1-twisted-frobenius-modules-and-torsion.md)
 的实际扭曲模块及截面已复核；一般F的FF曲线、线丛和截面等价已核对原始来源。
-[375](../notes/375-f1-geometric-divisor-and-picard-comparison.md)已完成带次数权的
+[375](../../notes/375-f1-geometric-divisor-and-picard-comparison.md)已完成带次数权的
 几何主除子下降、有效锥及整数次数Picard商比较，数学与来源复核均闭环。
-2026-09-13执行续记：[376](../notes/376-f1-real-scales-principal-relations-and-density.md)
+2026-09-13执行续记：[376](../../notes/376-f1-real-scales-principal-relations-and-density.md)
 已独立复核规范重标度、逐公度类主关系的充要条件及轮廓稠密性。
-[377](../notes/377-f1-ramified-tower-and-gauss-completion-barrier.md)给实际相容分歧塔、
+[377](../../notes/377-f1-ramified-tower-and-gauss-completion-barrier.md)给实际相容分歧塔、
 有理轮廓满性及Gauss完成的有理赋值障碍，已独立复核并修正多赋值反复完成的范围。
 2018共同实系数代数确实存在，但原文指定范围没有交付所需的单p周期主关系；
-不能把它误归为仅独立组件。准确范围见[来源报告](../reviews/2026-09-13/f1-real-coefficients-source-audit.md)。
-下一有限问题是[实赋值源环构造](../reviews/2026-09-13/f1-real-value-ring-next-proof-plan.md)：
+不能把它误归为仅独立组件。准确范围见[来源报告](../../reviews/2026-09-13/f1-real-coefficients-source-audit.md)。
+下一有限问题是[实赋值源环构造](../../reviews/2026-09-13/f1-real-value-ring-next-proof-plan.md)：
 在实际B的相容系数塔上加入有限支集超越参数，先证明Gauss乘法性、完成整性及φ级数，
 再验证主函数与局部几何除子；不以按轮廓定义完成来预设目标关系。
-[378](../notes/378-f1-real-value-period-ring-and-principal-lifts.md)已给完整候选：
+[378](../../notes/378-f1-real-value-period-ring-and-principal-lifts.md)已给完整候选：
 实际完成环、φ级数和固定整数Proj的全部周期主函数提升，分段独立复核均通过；
-[379](../notes/379-f1-perfectoid-real-coefficient-field.md)进一步检验实系数域的perfectoid性
+[379](../../notes/379-f1-perfectoid-real-coefficient-field.md)进一步检验实系数域的perfectoid性
 及完成张量积身份，已独立复核。
-[380](../notes/380-f1-perfectoid-annuli-and-periodic-line-bundles.md)的完美化环域、
-实际周期解析商、线丛与截面已独立复核；[381](../notes/381-f1-real-height-points-and-newton-breaks.md)
+[380](../../notes/380-f1-perfectoid-annuli-and-periodic-line-bundles.md)的完美化环域、
+实际周期解析商、线丛与截面已独立复核；[381](../../notes/381-f1-real-height-points-and-newton-breaks.md)
 给真实高度点及“几何零点高度必为折点”，也已复核。
-[382](../notes/382-f1-binomial-quotient-and-nonuniformity.md)证明最简单闭主理想的实际商非uniform，
-[383](../notes/383-f1-geometric-zero-existence-at-every-break.md)用谱非空证明每个折点的几何零点存在，
+[382](../../notes/382-f1-binomial-quotient-and-nonuniformity.md)证明最简单闭主理想的实际商非uniform，
+[383](../../notes/383-f1-geometric-zero-existence-at-every-break.md)用谱非空证明每个折点的几何零点存在，
 两项独立复核通过，得到零点高度支集的充要比较。下一步直接检验Cartier局部正则性及规范重数／测度；
 一般有理局部化的pseudoflat性不能省略稳定伪相干条件，零点存在性也不能代替重数比较。
-[384](../notes/384-f1-finite-level-cartier-regularity.md)进一步证明有限层方程在全部有理局部化上正则，
-[385](../notes/385-f1-finite-polynomial-zero-measures.md)给有限Laurent方程的规范Haar零测度及完整热带重数比较。
+[384](../../notes/384-f1-finite-level-cartier-regularity.md)进一步证明有限层方程在全部有理局部化上正则，
+[385](../../notes/385-f1-finite-polynomial-zero-measures.md)给有限Laurent方程的规范Haar零测度及完整热带重数比较。
 直接证明与来源修订均已复核，384用固定冗余分子修正有理域扰动界。
-[386](../notes/386-f1-one-parameter-atomic-theta-reduction.md)将所选轮廓提升归约到单实参数原子θ族及其有限乘积相容性，条件归约已复核。
+[386](../../notes/386-f1-one-parameter-atomic-theta-reduction.md)将所选轮廓提升归约到单实参数原子θ族及其有限乘积相容性，条件归约已复核。
 下一主探索集中于该无限层原子族的正则性及规范零测度，而非重复有限多项式基准；
 一般线性系统、RR、全实算术作用与固定ζ接口仍开放。
-[387](../notes/387-f1-analytic-continuation-and-cartier-regularity.md)随后由自然c_0局部化图证明解析延拓，
+[387](../../notes/387-f1-analytic-continuation-and-cartier-regularity.md)随后由自然c_0局部化图证明解析延拓，
 再以uniform谱检测证明全部非零全局函数在所有茎上正则，数学及来源独立复核通过。
 全部实参数A_w和既有f_H的Cartier正则性现已解决；仍未证明一般fS闭或稳定伪相干。
 当前主攻规范几何零测度、有限乘积可加性、局部单位相容性、幂对应及φ切片下降，
 继而处理RR和固定通常ζ的算术接口；不把这一局部几何输入单独结算为长期完成。
-2026-09-15保存续记：[388](../notes/388-f1-truncated-potentials-and-faithful-disk-boundaries.md)与
-[389](../notes/389-f1-canonical-zero-measures-for-completed-functions.md)在中断前已完成全文独立复核：
+2026-09-15保存续记：[388](../../notes/388-f1-truncated-potentials-and-faithful-disk-boundaries.md)与
+[389](../../notes/389-f1-canonical-zero-measures-for-completed-functions.md)在中断前已完成全文独立复核：
 规范零测度的唯一极限、完整支集、局部单位／乘积／正H_p幂相容及φ切片下降均已建立。
 本轮补齐审查保存状态；一般商闭性、RR、算术平方和固定ζ比较仍开放。
 用户现要求继续前先明确全体候选参考几何的对象类、大小、态射与存在性机制；此项优先。
 现场Goal工具状态paused，不由本次澄清工作自动恢复持续运行。
-[390](../notes/390-f1-candidate-geometry-space.md)给候选呈现集合P_κ、扩充结构E_(κ,β)、
+[390](../../notes/390-f1-candidate-geometry-space.md)给候选呈现集合P_κ、扩充结构E_(κ,β)、
 实际几何态射编码与平方相容性；当前解析单节点模型可取κ=|R|。
 G0比较约定β分别固定同型严格、赋值提升或直接算术路线；幂等半环到非零环的
 保单位同态不可能，跨类型接口据此修订为明确数据，G1–G8验收强度保持。
 下一步先为实际模型补齐候选准入／缺口表，再推进可控参数子族与截面／RR；
 定义候选类不等于证明固定ζ目标子集非空，也未建立可用于存在性证明的紧致空间。
-同日新增独立agent的[第二次审查与方案比较](../notes/391-f1-candidate-space-review-and-alternatives.md)保留基础容器，
+同日新增独立agent的[第二次审查与方案比较](../../notes/391-f1-candidate-space-review-and-alternatives.md)保留基础容器，
 补明构造接口τ尚需具体实例化，G0升为v1.3；现有模型准入表已完成。近期固定曲线及(w,d)，
 先核验同扭曲截面的类别，再研究系数参数与零除子稳定性；实权重乘子不连续，不直接套实区间紧致。
 整体采用参考相对比较组织，blueprint与逆系统等作明确备选；本轮仍不自动恢复Goal。
 Poonen、Kedlaya与Efimov原PDF已归档；单赋值Hahn–Witt域不是完整双参数Gauss几何。
-本次执行路线修订前原件存[实尺度快照](archive/GOAL.20260909.f1-real-scales.md)。
+本次执行路线修订前原件存[实尺度快照](GOAL.20260909.f1-real-scales.md)。
 优先给实际可容许线性系统的新输入。不得把所选域的H_p值群结果与代数闭域定理混用。
-路线修订前原始字节已存[周期比较快照](archive/GOAL.20260909.f1-periodic.md)。
+路线修订前原始字节已存[周期比较快照](GOAL.20260909.f1-periodic.md)。
 整个算术平方、交叉、固定ζ相对迹及RR仍开放；不由已知FF理论自动导入。
 本批局部比较与机制重建尚不触发第十节C；第十节B/C保持原文。
 
@@ -408,7 +400,7 @@ Poonen、Kedlaya与Efimov原PDF已归档；单赋值Hahn–Witt域不是完整�
 
 **研究中一旦发现相关文献、修订版本、勘误或关键证明附件，就在当前研究轮次及时保存，不等到论文整理或周期结束。**
 
-统一使用 [RH-Weil/literature/](../literature/README.md)：
+统一使用 [RH-Weil/literature/](../../literature/README.md)：
 
 1. 保存公开可获取的原始 PDF；重要结论若只在补充文档、TeX、权表、验证器或证书中出现，同时保存必要附件或固定版本链接。保留原文件，不改写原文的结论和状态。
 2. 即时更新 literature/README.md 和 manifest.json，记录作者、准确标题、日期、版本或完整 Git 提交、来源页、下载直链、本地路径、获取时间、SHA-256、页数及可读性状态。
