@@ -1,6 +1,6 @@
 # RH-Weil 文献索引
 
-索引续记更新至2026-09-21；最新批次、范围和保存状态见文末。以下2026-09-09统计为历史快照。首批归档聚焦67.25%之后的零点比例进展及直接依赖（15份、220页）；后续原始版本与核读范围按轮次列在文末。当前按实际下载清单与文件逐项核准：本地共98份外部原始PDF、6949页，其中96份、6604页纳入本轮Git保存；Schur扫描29页及Engelking书316页依各自来源说明仅本地保存，出处和哈希同步。获取失败单列。研究判断见 [305文献审计](../notes/305-post-6725-literature-baseline-audit.md)。
+索引续记更新至2026-09-21；最新批次、范围和保存状态见文末。以下2026-09-09统计为历史快照。首批归档聚焦67.25%之后的零点比例进展及直接依赖（15份、220页）；后续原始版本与核读范围按轮次列在文末。当前按实际下载清单与文件逐项核准：本地共100份外部原始PDF、7083页，其中98份、6738页纳入本轮Git保存；Schur扫描29页及Engelking书316页依各自来源说明仅本地保存，出处和哈希同步。获取失败单列。研究判断见 [305文献审计](../notes/305-post-6725-literature-baseline-audit.md)。
 
 PDF按来源原样保存，未重排或改写；arXiv固定版本，GitHub固定提交，Zenodo固定记录。下载、全页PDF解析和校验值核验不等于数学证明认证。manifest中的SHA-256标识本次取得的精确字节，原站同一文件名后续变化时仍可区分。
 
@@ -1037,3 +1037,11 @@ Schur29页仍仅本地。
 Connes-1998-trace固定v1重读PDF16–18、22–24、28并目视18，核准几何分布迹、Λ截止有限部分与固定迹类配对的区别。
 特别保留原文PDF23对固定R_Λ迹类的陈述，不把本项目的统一范数／BV障碍外推为全部截止路线不可能。
 [具体范围](../reviews/2026-09-21/f1-weighted-hardy-source-read.md)。没有新下载，98份／6949页与两份仅本地保存的边界保持。
+
+## 422 径向有限部与角点异常（2026-09-21）
+
+- **Albin-Melrose-RelativeChern-2008**，Pierre Albin; Richard Melrose，Relative Chern character, boundaries and index formulae。Author PDF 0.9A; revised 2008-05-15; run 2008-08-01；[原PDF](https://math.mit.edu/~rbm/papers/rccbif.pdf)，[本地PDF](f1/albin-melrose-relative-chern-author-2008.pdf)，38页、379183字节。SHA256：8081c6e91dc07dadd8a4e9f3137ea6d97f13b44dc25a24f3421bd06f8402c4ca。
+- **Loya-Melrose-DiracCorners-author**，Paul Loya; Richard Melrose，Fredholm perturbations of Dirac operators on manifolds with corners。Undated author preprint PDF; retrieved 2026-09-21; version fixed by SHA256；[原PDF](https://people.math.binghamton.edu/loya/papers/LoyMel.pdf)，[本地PDF](f1/loya-melrose-dirac-corners-author.pdf)，96页、916372字节。SHA256：5b340268f5a4fb63f0531b2b02b381fac58a1875d5ab2f32bdf60fb03c8bd13b。
+
+选择性核读和适用边界见[来源记录](../reviews/2026-09-21/f1-radial-finite-part-source-read.md)；不得把一般b迹结构等同于已构造的F₁算术比较。
+本轮新增2PDF共134页；[实际清点](../reviews/2026-09-21/f1-radial-literature-inventory.json)为本地100份7083页、Git98份6738页，两份345页继续仅本地。

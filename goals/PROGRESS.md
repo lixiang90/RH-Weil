@@ -1,5 +1,26 @@
 # 持续GOAL执行账本：20260909版重启
 
+## 2026-09-21：422推导与形式化检查点，全文复核进行中
+
+[422径向有限部稿](../notes/422-f1-radial-finite-part-and-corner-anomaly.md)已写完十一节、24个公式：
+实际ℓ¹／S₁定义域、双截止与角点异常、原源和C_N的乘子准入、全Γ周期算子比较及原T的单位时间读出。
+这些是主代理的完整候选证明；两名只读代理正在分别进行基础复核与全文逆审，
+尚未登记为独立数学验收通过。当前GOAL仍执行有限部任务，未切换为已完成状态。
+
+[六项Lean检查](../formal/checks/radial-finite-part-verification.json)已经通过，仅依赖propext、Quot.sound；
+保存于formal/F1/Analysis/RadialFinitePart.lean。源码清点30份，十处旧admission与八包806份vendor原件保持。
+本轮未进行完整F1构建；机器检查范围不含无限算子分析或RH。
+
+保存两份作者原PDF共134页及[核读范围](../reviews/2026-09-21/f1-radial-finite-part-source-read.md)，
+[实物清点](../reviews/2026-09-21/f1-radial-literature-inventory.json)为本地100份7083页、Git98份6738页，
+两份345页继续仅本地。全文解析不等于全文证明认证。
+
+[保留非零群标签的下一有限任务](../reviews/2026-09-21/f1-twisted-relative-periodic-readout-next-proof-plan.md)
+仅作为复核后的预备任务，并要求先检验σ不变性及合法同源链，不预设扭曲循环性。
+根GOAL及第十节保持当前字节；全局F₁、主关系、双次数、RR及RH仍开放，Goal active。
+[保存检查点](../reviews/2026-09-21/f1-radial-finite-part-draft-validation.json)核准Lean、原件和历史保存，
+不代替待返回的独立数学审查。
+
 ## 2026-09-21：421带权Hardy迹、实际BV极限与原子障碍结算
 
 [421](../notes/421-f1-weighted-hardy-trace-and-atomic-obstruction.md)完成受限代数上的带权乘法缺陷与Hochschild边界；

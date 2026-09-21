@@ -1,0 +1,819 @@
+{
+  "checked_at_utc": "2026-09-21T06:07:18.694169+00:00",
+  "status": "passed_file_hash_size_page_inventory",
+  "local_files": 100,
+  "local_pages": 7083,
+  "repository_files_after_this_batch": 98,
+  "repository_pages_after_this_batch": 6738,
+  "local_only_files": 2,
+  "local_only_pages": 345,
+  "new_files": 2,
+  "previous_head": "3e2de7938a4bd6c6028608cd92438e0f3454e0a3",
+  "scope": "Actual complete local PDF inventory after adding two original author PDFs for note422; pages parsed, selective reading separately recorded.",
+  "records": [
+    {
+      "id": "AF-2026",
+      "file": "baseline/2026-alpoge-furman-6725-v2.pdf",
+      "sha256": "6de3b156342e7b4a802c34f8ef40432567e9dabe006938da04233f19fc4ef444",
+      "bytes": 478663,
+      "pages": 21,
+      "local_only": false
+    },
+    {
+      "id": "Claude-2026",
+      "file": "baseline/2026-claude-anthropic-zeta-23.pdf",
+      "sha256": "6792988e6cd0e17690621ce898abd5d534f98407741bc7cb14bbe7d07c77d72f",
+      "bytes": 631785,
+      "pages": 35,
+      "local_only": false
+    },
+    {
+      "id": "Lamzouri-2026",
+      "file": "baseline/2026-lamzouri-6725-hilbert-v1.pdf",
+      "sha256": "fa33485f517b3c94d2f6e4d4366f3ab14a1e413a738db512e1862f4a0944f5f9",
+      "bytes": 505955,
+      "pages": 14,
+      "local_only": false
+    },
+    {
+      "id": "BGST-2023",
+      "file": "background/2023-bgst-unconditional-montgomery-v1.pdf",
+      "sha256": "133071c4d85c875fe9b1a7d4001f22d7174270ab8f1fa8e6cee6178d20276ee9",
+      "bytes": 210602,
+      "pages": 13,
+      "local_only": false
+    },
+    {
+      "id": "BGST-2025",
+      "file": "background/2025-bgst-pair-correlation-I-v3.pdf",
+      "sha256": "0a16b0b0f19b06490111e048a6841f4fe68717c546fae4cb7a44555dc0f96cb3",
+      "bytes": 376884,
+      "pages": 16,
+      "local_only": false
+    },
+    {
+      "id": "GS-2025",
+      "file": "background/2025-goldston-suriajaya-critical-line-v2.pdf",
+      "sha256": "7b4f638cbd0438123b7a54869fc998fc3d4dee9b74572c04cef9da0463ed4c6f",
+      "bytes": 345194,
+      "pages": 9,
+      "local_only": false
+    },
+    {
+      "id": "CGdL-2019",
+      "file": "background/2019-chirre-goncalves-delaat-sdp-v2.pdf",
+      "sha256": "1f39a719a01801939740fb3647f2a7aa848fc7ee1587f3b40e9236caf304a035",
+      "bytes": 264978,
+      "pages": 16,
+      "local_only": false
+    },
+    {
+      "id": "ainta-2026",
+      "file": "candidates/2026-ainta-6730085-040c5e8.pdf",
+      "sha256": "d846f3a73cf3ab012d7c16be78c5bab35fcd5d2b1d99db5bf036bd638a277afc",
+      "bytes": 86065,
+      "pages": 7,
+      "local_only": false
+    },
+    {
+      "id": "trmdy-2026",
+      "file": "candidates/2026-trmdy-stability-1610b97.pdf",
+      "sha256": "7b45f2f8336816aeae4bd4c74bfc6d32c12181f5a3149c03d61c5efa8d2ff825",
+      "bytes": 274200,
+      "pages": 6,
+      "local_only": false
+    },
+    {
+      "id": "Shi-2026",
+      "file": "candidates/2026-shi-673316977-7cfd0ce.pdf",
+      "sha256": "d463edc46466f101963c918e9e14001097de810ed791f5944ee6105989e020bd",
+      "bytes": 101992,
+      "pages": 7,
+      "local_only": false
+    },
+    {
+      "id": "Tawan-2026",
+      "file": "candidates/2026-tawan-bellman-6731929-45149f6.pdf",
+      "sha256": "bbe10cfaa3e8bb3a654acb4cc6a072f1066e2639501b7e83b5f9a6b3ea046c08",
+      "bytes": 80852,
+      "pages": 6,
+      "local_only": false
+    },
+    {
+      "id": "npip-2026",
+      "file": "candidates/2026-npip-673195-72a01ac.pdf",
+      "sha256": "0132ffc9a65d5b4caecc1e7ae45aa505bd51955cd0b24ab3f86375878be59e2e",
+      "bytes": 106135,
+      "pages": 7,
+      "local_only": false
+    },
+    {
+      "id": "Devine-2026-v3",
+      "file": "candidates/2026-devine-673399-v1.0.3.pdf",
+      "sha256": "4abe6b7281697833d1e207d587ac0346a080eade7585691da6897e01283d8cbd",
+      "bytes": 455218,
+      "pages": 18,
+      "local_only": false
+    },
+    {
+      "id": "Devine-2026-box",
+      "file": "conditional/2026-devine-6792-conditional-box-v1.pdf",
+      "sha256": "afbef3b6c8d61c6e0345a19ab8b6906b4e65d8bd1a0fcd0b728b7b78eb486c2e",
+      "bytes": 250094,
+      "pages": 7,
+      "local_only": false
+    },
+    {
+      "id": "Yang-2026-7962",
+      "file": "unreviewed/2026-yang-7962-unreviewed-v1.pdf",
+      "sha256": "0abaa78e0eb4421fdbae647a0b3b6b0299a4dde5d49b0e56ca6f33831c5e3ea0",
+      "bytes": 598532,
+      "pages": 38,
+      "local_only": false
+    },
+    {
+      "id": "Milne-EC-2021",
+      "file": "background/milne-elliptic-curves-second-edition.pdf",
+      "sha256": "646c0c4f193cdaa35f32c7d60fbd46a75e2f5187db4301810e8613726e3ebbee",
+      "bytes": 1774378,
+      "pages": 241,
+      "local_only": false
+    },
+    {
+      "id": "Milne-AV-2022",
+      "file": "background/milne-abelian-varieties.pdf",
+      "sha256": "bffdf81c57c77420b5454b31270007989d12f332abea62424be15c424079fc7c",
+      "bytes": 575091,
+      "pages": 49,
+      "local_only": false
+    },
+    {
+      "id": "Erdos-1932",
+      "file": "background/erdos-1932-bertrand.pdf",
+      "sha256": "e9c7f6658e7ffb67b11d4efb931db4c1433417999e3efe9fb48470d45688a5ba",
+      "bytes": 502956,
+      "pages": 5,
+      "local_only": false
+    },
+    {
+      "id": "MM-2018",
+      "file": "background/mahatab-mukhopadhyay-oscillations-v4.pdf",
+      "sha256": "daad39f875648001336403341b5b6960d992d55ea966b13bfff9ac92bf5eff42",
+      "bytes": 222951,
+      "pages": 19,
+      "local_only": false
+    },
+    {
+      "id": "MV-1974",
+      "file": "background/montgomery-vaughan-hilbert-1974.pdf",
+      "sha256": "0dbcddf24bc41c65d1920c59aafe7fe85f13a7519b0edf9be9164c84d1cc6db4",
+      "bytes": 538953,
+      "pages": 10,
+      "local_only": false
+    },
+    {
+      "id": "FKS-2023",
+      "file": "background/fiori-kadiri-swidinsky-psi-v3.pdf",
+      "sha256": "15eff02042f2c1ab4878d029ce52a0abd6c95d66995b183a2dbc689ce9af49a4",
+      "bytes": 379817,
+      "pages": 26,
+      "local_only": false
+    },
+    {
+      "id": "deBoor-2005",
+      "file": "background/deboor-divided-differences-2005.pdf",
+      "sha256": "4c001e7b628883c9ef9fd5aa3fb9db8dc22a578f373f160261a5e96d942afb9d",
+      "bytes": 234524,
+      "pages": 24,
+      "local_only": false
+    },
+    {
+      "id": "Douglas-1966",
+      "file": "background/douglas-factorization-1966.pdf",
+      "sha256": "bd935d79f16fd96ee2f530bdfc7431573c7d7d5b2bd63b49a2bf52adc72863cc",
+      "bytes": 308327,
+      "pages": 3,
+      "local_only": false
+    },
+    {
+      "id": "Tikhonov-1963",
+      "file": "background/tikhonov-regularization-1963.pdf",
+      "sha256": "a20d08cde0d814b5a63d60557baebc688f141d68496e2ed4917a917452cf1382",
+      "bytes": 577722,
+      "pages": 4,
+      "local_only": false
+    },
+    {
+      "id": "Birman-1961",
+      "file": "background/birman-singular-spectrum-1961.pdf",
+      "sha256": "6e4bb6e55b46228dd7a9fa6ccc2a8f7d43611dca72c58342c24a52fce3f0b845",
+      "bytes": 5108898,
+      "pages": 50,
+      "local_only": false
+    },
+    {
+      "id": "BTEG-2020",
+      "file": "background/behrndt-terelst-gesztesy-birman-schwinger-v4.pdf",
+      "sha256": "ce465d324f14a610a51c389a9875d928364b126555ee99197e326fa7da3e3332",
+      "bytes": 568107,
+      "pages": 45,
+      "local_only": false
+    },
+    {
+      "id": "Bellotti-Wong-2025",
+      "file": "background/bellotti-wong-zero-counting-v2.pdf",
+      "sha256": "9299073e0fbb836ca744790e5ac2c03a496df3194409aaa87832ba6161ead3b5",
+      "bytes": 564709,
+      "pages": 32,
+      "local_only": false
+    },
+    {
+      "id": "Chourasiya-Simonic-2025",
+      "file": "background/chourasiya-simonic-ingham-v2.pdf",
+      "sha256": "11ebae58b467d14a20835eb732130c2c084f9440ef5e2fdbe38d697ba1e0d261",
+      "bytes": 739449,
+      "pages": 33,
+      "local_only": false
+    },
+    {
+      "id": "Schur-1911",
+      "file": "background/schur-bilinear-1911.pdf",
+      "sha256": "e225ba5eecd84d57d603449f00f1e8fbf74d399c82f30c0d4ce1b2342bea490d",
+      "bytes": 40185885,
+      "pages": 29,
+      "local_only": true
+    },
+    {
+      "id": "Guth-Maynard-2026",
+      "file": "background/guth-maynard-large-values-2405.20552v2.pdf",
+      "sha256": "915392cf7d0ecd108479814a9a1481e23423ef63415776471cec3975ae482cae",
+      "bytes": 656298,
+      "pages": 52,
+      "local_only": false
+    },
+    {
+      "id": "Tao-Trudgian-Yang-2025",
+      "file": "background/tao-trudgian-yang-exponents-2501.16779v1.pdf",
+      "sha256": "2038f74e7753487760c095f518a6bfa856a929a8a9c01912af49f7e043636c8b",
+      "bytes": 850856,
+      "pages": 44,
+      "local_only": false
+    },
+    {
+      "id": "ANTEDB-20260905",
+      "file": "background/antedb-blueprint-20260906.pdf",
+      "sha256": "f9f41819540cb0300bd7cf181c47e957a271cf7604187b62008af9385dbbbc27",
+      "bytes": 1310085,
+      "pages": 190,
+      "local_only": false
+    },
+    {
+      "id": "Matomaki-Teravainen-2024",
+      "file": "background/matomaki-teravainen-density-to-large-values-2403.13157v1.pdf",
+      "sha256": "43b9a4dfe32437909ac948d2146ac4b3aa787a3155a5cba1c77abeddb1453d49",
+      "bytes": 410756,
+      "pages": 16,
+      "local_only": false
+    },
+    {
+      "id": "Clark-1968",
+      "file": "background/clark-generalized-interpolation-1968.pdf",
+      "sha256": "20af9e2a2d808de0618ba705ed31e5da730a36c1253c85ce4b2a45299445615a",
+      "bytes": 1454264,
+      "pages": 17,
+      "local_only": false
+    },
+    {
+      "id": "Pascadi-2026",
+      "file": "background/pascadi-kloosterman-2511.08445v2.pdf",
+      "sha256": "88f94994462840e2b03bd9cea38776fa3b65d1023dc6dfe00475bb1fceb47e8e",
+      "bytes": 992320,
+      "pages": 54,
+      "local_only": false
+    },
+    {
+      "id": "Milicevic-Qin-Wu-2025",
+      "file": "background/milicevic-qin-wu-kloosterman-2511.07550v1.pdf",
+      "sha256": "f53a2ef9040b1c6573a2290b372a0fe9c4fefda61882281ca6ce4ee90fc163c6",
+      "bytes": 391047,
+      "pages": 37,
+      "local_only": false
+    },
+    {
+      "id": "Choi-Kumchev-2004",
+      "file": "background/choi-kumchev-prime-mean-values-0412227v1.pdf",
+      "sha256": "1165d6e6f7a41196bf60b1fc9d901587d7fad4881aaecb2f784a39e72d3bb768",
+      "bytes": 229694,
+      "pages": 20,
+      "local_only": false
+    },
+    {
+      "id": "Pascadi-GAFA-2026",
+      "file": "background/pascadi-kloosterman-gafa-2026.pdf",
+      "sha256": "d28f01c2a3940cefa34d83b112ce304b5effe2668db36f115e35b9bc5b76ad1d",
+      "bytes": 2464913,
+      "pages": 70,
+      "local_only": false
+    },
+    {
+      "id": "Karabulut-2017",
+      "file": "background/karabulut-matrix-digraphs-1710.08872v1.pdf",
+      "sha256": "69822e562e54e4671abeabfe222f6fdd55f49b6d07e11eace539dda53038b9d7",
+      "bytes": 207445,
+      "pages": 19,
+      "local_only": false
+    },
+    {
+      "id": "Sutherland-2015-L16",
+      "file": "background/sutherland-poisson-lecture16-20151105.pdf",
+      "sha256": "f5093cf6a6aca88adb861f466f7ce8a468c9092fec51afe331251d8cca946d70",
+      "bytes": 224056,
+      "pages": 6,
+      "local_only": false
+    },
+    {
+      "id": "Miller-Schmid-2003",
+      "file": "background/miller-schmid-summation-0304187v1.pdf",
+      "sha256": "20a929c58390cefb3664f58f81ac704c99b1c665da17c8a6996ad31647b102af",
+      "bytes": 299891,
+      "pages": 22,
+      "local_only": false
+    },
+    {
+      "id": "Popescu-2023-LW",
+      "file": "background/popescu-lindemann-weierstrass-2306.14352v2.pdf",
+      "sha256": "0c158636ef68a2ac4586f0fff09b7429780f815d513799f1e794e9c554bae0f1",
+      "bytes": 254313,
+      "pages": 17,
+      "local_only": false
+    },
+    {
+      "id": "Borger-2009-F1",
+      "file": "f1/borger-lambda-rings-0906.3146v1.pdf",
+      "sha256": "acf748e4c39b3a0a7462760dea0f3f9af6bd0abb647766f2740697b47d88cc92",
+      "bytes": 432221,
+      "pages": 31,
+      "local_only": false
+    },
+    {
+      "id": "Lorscheid-2012-blueprints",
+      "file": "f1/lorscheid-blueprints-1103.1745v2.pdf",
+      "sha256": "0538feb167cb5924b1b4e4b4f36bfe38f16afc37138b5199e88ad506641ed31b",
+      "bytes": 360958,
+      "pages": 51,
+      "local_only": false
+    },
+    {
+      "id": "CC-2015-arithmetic-site",
+      "file": "f1/cc-arithmetic-site-1502.05580v1.pdf",
+      "sha256": "ea7817c760c0eef921ce8026ed8a2a53342c0717e365a1afe3932d25f542ebb3",
+      "bytes": 946783,
+      "pages": 43,
+      "local_only": false
+    },
+    {
+      "id": "CC-2016-scaling-site",
+      "file": "f1/cc-scaling-site-1603.03191v1.pdf",
+      "sha256": "47bd7ed3c39fa7837a2f65f826b4957b65a3e9ecfffd02a9ed04c3683d2908b1",
+      "bytes": 1275434,
+      "pages": 43,
+      "local_only": false
+    },
+    {
+      "id": "CC-2018-complex-lift",
+      "file": "f1/cc-complex-lift-1805.10501v1.pdf",
+      "sha256": "0a0b054780b059b2da9183f2cd02f2c77f13d2acf3fae54565a92aef273324d9",
+      "bytes": 1088120,
+      "pages": 67,
+      "local_only": false
+    },
+    {
+      "id": "CC-2023-RR-Z",
+      "file": "f1/cc-riemann-roch-z-2306.00456v1.pdf",
+      "sha256": "5fd90f307a05f4b6182130fb198a10bb3719e8660401b794825093344b710ab0",
+      "bytes": 420020,
+      "pages": 9,
+      "local_only": false
+    },
+    {
+      "id": "CC-2026-Jacobian",
+      "file": "f1/cc-jacobian-2602.15941v1.pdf",
+      "sha256": "f40eb90d3d1f020e54c001812973b16e33b011776c24fb95c45dbbd3015a1223",
+      "bytes": 882307,
+      "pages": 48,
+      "local_only": false
+    },
+    {
+      "id": "CC-2026-absolute-geometry",
+      "file": "f1/cc-absolute-geometry-2606.06604v1.pdf",
+      "sha256": "0a9c63f97dbf6888c6a9cb4a9283087e71f716b26249fe17f3af0e9a9af7cd7d",
+      "bytes": 803099,
+      "pages": 30,
+      "local_only": false
+    },
+    {
+      "id": "Milne-LEC-2013",
+      "file": "background/milne-etale-cohomology-v2.21.pdf",
+      "sha256": "ac4f122f371d38a44c58c296b7dbf88081d89d2de2334070bff3606771c01077",
+      "bytes": 1514442,
+      "pages": 202,
+      "local_only": false
+    },
+    {
+      "id": "Stacks-Divisors-ed88ff78",
+      "file": "background/stacks-divisors-ed88ff78-20260714.pdf",
+      "sha256": "0527740ac9877baff00aaad784e66aae83ff541dad40d4939028059f9f28a493",
+      "bytes": 861390,
+      "pages": 94,
+      "local_only": false
+    },
+    {
+      "id": "Lurie-FF-2018-L06",
+      "file": "f1/lurie-2018-lecture06.pdf",
+      "sha256": "544339140dae1984e2df3f9787156bd3147d937fdae5e521db67910d9590d181",
+      "bytes": 183287,
+      "pages": 4,
+      "local_only": false
+    },
+    {
+      "id": "Lurie-FF-2018-L08",
+      "file": "f1/lurie-2018-lecture08.pdf",
+      "sha256": "82b19edd39cdb4356ea83a4ef5c1122563d0a5427c33b613bc8e759764c48eda",
+      "bytes": 214322,
+      "pages": 5,
+      "local_only": false
+    },
+    {
+      "id": "Lurie-FF-2018-L11",
+      "file": "f1/lurie-2018-lecture11.pdf",
+      "sha256": "d629844439d6823f25b927718c196451f6b3218190110b5d6f00932425374e40",
+      "bytes": 176283,
+      "pages": 4,
+      "local_only": false
+    },
+    {
+      "id": "Lurie-FF-2018-L19",
+      "file": "f1/lurie-2018-lecture19.pdf",
+      "sha256": "569edb08218447296501a97f03b69a2bd4115e6a20e89f114700de0185831ee7",
+      "bytes": 181836,
+      "pages": 4,
+      "local_only": false
+    },
+    {
+      "id": "FF-Courbe-author-20260910",
+      "file": "f1/ff-courbe-author-20260910.pdf",
+      "sha256": "8c020573d3dce341088ea7e83fe1063b410686c08e3a144fa3c0de634667cc79",
+      "bytes": 3073846,
+      "pages": 404,
+      "local_only": false
+    },
+    {
+      "id": "Lurie-FF-overview-author-20260910",
+      "file": "f1/lurie-ffcurve-overview-20260910.pdf",
+      "sha256": "23cd3b58690217d910c08d5eef593ae0e07cc84c21d93822cac2edc77f9edf41",
+      "bytes": 271592,
+      "pages": 14,
+      "local_only": false
+    },
+    {
+      "id": "Poonen-maximally-complete-author-20260913",
+      "file": "f1/poonen-maximally-complete-author-20260913.pdf",
+      "sha256": "4e6c0d968c3d10fab6cdf120fb4fea1e1541734b012397af735f5eee58de369c",
+      "bytes": 338644,
+      "pages": 19,
+      "local_only": false
+    },
+    {
+      "id": "Kedlaya-power-series-math-9906030v2",
+      "file": "f1/kedlaya-power-series-math-9906030v2.pdf",
+      "sha256": "51bd92eba1c867bc3b70c5514d70f56424e9145d8241f71e7b7575dcaf6c9b22",
+      "bytes": 158118,
+      "pages": 12,
+      "local_only": false
+    },
+    {
+      "id": "Efimov-hahn-witt-2406.19163v1",
+      "file": "f1/efimov-hahn-witt-2406.19163v1.pdf",
+      "sha256": "6554d9f9b38ced6a39fb7fa8fc4e3e554279314f1444475972c053f1e104cf27",
+      "bytes": 241732,
+      "pages": 19,
+      "local_only": false
+    },
+    {
+      "id": "KL-foundations-1301.0792v5",
+      "file": "f1/kl-foundations-1301.0792v5.pdf",
+      "sha256": "a6a117423db62aec072442bb15b70e3175bcc3b631bdcd6d74f740e3c6cfd942",
+      "bytes": 2107306,
+      "pages": 210,
+      "local_only": false
+    },
+    {
+      "id": "KL-imperfect-1602.06899v3",
+      "file": "f1/kl-imperfect-1602.06899v3.pdf",
+      "sha256": "97383900492daf1c6778959c37e993f67dd5ad379ac03c31049b870382e5d42c",
+      "bytes": 1878664,
+      "pages": 199,
+      "local_only": false
+    },
+    {
+      "id": "Tong-big-coefficients-2012.07338v1",
+      "file": "f1/tong-big-coefficients-2012.07338v1.pdf",
+      "sha256": "7f8d050b201c52bf5197fd739c76f447c04fcab7dc6ccad5ffa5642c377a0a8f",
+      "bytes": 378978,
+      "pages": 42,
+      "local_only": false
+    },
+    {
+      "id": "Baker-Rumely-2006-draft-archive20070417",
+      "file": "f1/baker-rumely-potential-20061026-archive20070417.pdf",
+      "sha256": "fc92a4ccd5d63f4207c3b6a8901e862769c8e2c7f554848a8ca38788115672c2",
+      "bytes": 1326163,
+      "pages": 272,
+      "local_only": false
+    },
+    {
+      "id": "Stacks-Sites-ed88ff78-20260915",
+      "file": "f1/stacks-sites-20260915.pdf",
+      "sha256": "88ce9f3a1e05a34d23092b4e6158203a85c4aeffef38344e258ec1309b00883f",
+      "bytes": 931481,
+      "pages": 115,
+      "local_only": false
+    },
+    {
+      "id": "Stacks-Categories-ed88ff78-20260915",
+      "file": "f1/stacks-categories-ed88ff78-20260915.pdf",
+      "sha256": "0c5b215939e22e807d605dd1e35149aa3972d5443da8bbabb33d9f43a3db4a51",
+      "bytes": 887964,
+      "pages": 103,
+      "local_only": false
+    },
+    {
+      "id": "Stacks-Modules-on-Sites-ed88ff78-20260915",
+      "file": "f1/stacks-sites-modules-ed88ff78-20260915.pdf",
+      "sha256": "4da0acd5e1558e66e5198ea933353819c9818e7f249900f32a4339965cab7bee",
+      "bytes": 716994,
+      "pages": 81,
+      "local_only": false
+    },
+    {
+      "id": "Caramello-Topos-Model-Theory-202005",
+      "file": "f1/caramello-topos-model-theory-20260915.pdf",
+      "sha256": "388d20da6734925961c372648485a0d11c1a39a812e3a915dab2f028b0958f2e",
+      "bytes": 1170694,
+      "pages": 108,
+      "local_only": false
+    },
+    {
+      "id": "Marker-Orsay-Model-Theory-Part1-2010",
+      "file": "f1/marker-orsay-model-theory-part1-20260915.pdf",
+      "sha256": "b70dba475056dcd4855ec45cd4b36052653b82f8238af80fd6879e9f6b7e93dd",
+      "bytes": 233643,
+      "pages": 25,
+      "local_only": false
+    },
+    {
+      "id": "Engelking-1978-Dimension-Theory",
+      "file": "background/engelking-dimension-theory-1978.pdf",
+      "sha256": "54e65f27cb7ea972a36862d0479b8ac4f5d08f2b4b076fb3795080c35e892c53",
+      "bytes": 4693683,
+      "pages": 316,
+      "local_only": true
+    },
+    {
+      "id": "Stacks-Algebra-ed88ff78-20260920",
+      "file": "f1/stacks-algebra-ed88ff78-20260920.pdf",
+      "sha256": "b035a1f02104906a1820636cd332a0d7962fef3318d207a056634cb14dc86947",
+      "bytes": 2828052,
+      "pages": 469,
+      "local_only": false
+    },
+    {
+      "id": "Scholze-perfectoid-spaces-20111119",
+      "file": "f1/scholze-perfectoid-spaces-20111119.pdf",
+      "sha256": "2c7e645a4ec3c56d5ee9e012cfe52d99e45973eefb99f8383e3bb69f0211afd9",
+      "bytes": 571464,
+      "pages": 51,
+      "local_only": false
+    },
+    {
+      "id": "Kedlaya-absolute-values-2007",
+      "file": "background/kedlaya-absolute-values-2007.pdf",
+      "sha256": "8940d4dc58253c247737502e929dbdbfa68f059ce3f074f40ef3cda65341d8f5",
+      "bytes": 76399,
+      "pages": 6,
+      "local_only": false
+    },
+    {
+      "id": "Stacks-Cohomology-ed88ff78-20260920",
+      "file": "f1/stacks-cohomology-ed88ff78-20260920.pdf",
+      "sha256": "23fbd6af99fe8f0b36a010c0b69ebb0f0f54761f53b530c685b1375001bb5893",
+      "bytes": 1054846,
+      "pages": 137,
+      "local_only": false
+    },
+    {
+      "id": "Connes-1998-trace",
+      "file": "f1/connes-trace-math-9811068v1.pdf",
+      "sha256": "dfd4e9924d8980f82e3da11fdea861d318fda8f5c7ba57ee659baf8631975053",
+      "bytes": 519632,
+      "pages": 88,
+      "local_only": false
+    },
+    {
+      "id": "CC-2024-knots",
+      "file": "f1/cc-knots-primes-2401.08401v1.pdf",
+      "sha256": "7f9305b4052e45da2a1952fec17697420e13c311737f01b2e6599ecaec74ace3",
+      "bytes": 1273894,
+      "pages": 10,
+      "local_only": false
+    },
+    {
+      "id": "CCM-2007-weil-adeles",
+      "file": "f1/ccm-weil-adeles-math-0703392v1.pdf",
+      "sha256": "88c4e34577e5107f8be2dc8488a71976b94a4efb5ea03f93e9f7d60681c41dee",
+      "bytes": 657051,
+      "pages": 61,
+      "local_only": false
+    },
+    {
+      "id": "Meyer-2005-ideles",
+      "file": "f1/meyer-ideles-math-0311468v3.pdf",
+      "sha256": "52e911b9b7b8236cdf1eacaeaf01e0174cb1f55a637945f63dfee9cdc24bb87b",
+      "bytes": 667003,
+      "pages": 53,
+      "local_only": false
+    },
+    {
+      "id": "CCM-2007-endomotives",
+      "file": "f1/ccm-endomotives-math-0512138v2.pdf",
+      "sha256": "68f9c8eaa5e9b46790e5adad0e8cd910da43566e7bc339ea5ecc81ab1f3fe601",
+      "bytes": 747528,
+      "pages": 58,
+      "local_only": false
+    },
+    {
+      "id": "Simon-1977-determinants",
+      "file": "f1/simon-infinite-determinants-1977.pdf",
+      "sha256": "9820c0b7a05d4b89e3896282d02cf80cf0bb100325d3fabcc1b2ce1adc1e2fd8",
+      "bytes": 1032498,
+      "pages": 30,
+      "local_only": false
+    },
+    {
+      "id": "Weibel-Kbook-IV-relative",
+      "file": "f1/weibel-kbook-IV.pdf",
+      "sha256": "9f1c1b8cccfe19d547c27dd04c61f198fd7a0cddd0018a0b84442b00fa575248",
+      "bytes": 882504,
+      "pages": 93,
+      "local_only": false
+    },
+    {
+      "id": "Weibel-Kbook-V-localization",
+      "file": "f1/weibel-kbook-V.pdf",
+      "sha256": "52dcc8ee3a1764e5ea309c59f093ac8e2a1ea64f3b94bacc05e6a2b6125b1da8",
+      "bytes": 853042,
+      "pages": 90,
+      "local_only": false
+    },
+    {
+      "id": "Segal-Wilson-1985-KdV",
+      "file": "f1/segal-wilson-loop-groups-kdv-1985.pdf",
+      "sha256": "4409065336b23f8a14db77668fb02d98108c3037ba0fb0c6d989c92d2613c07a",
+      "bytes": 7015962,
+      "pages": 62,
+      "local_only": false
+    },
+    {
+      "id": "Gillet-Soule-1990-intersection",
+      "file": "f1/gillet-soule-arithmetic-intersection-1990.pdf",
+      "sha256": "fa663fadd299576dcaaa5ba54efd10cf6a7f52ae02ff53d787956816b92f169f",
+      "bytes": 8685110,
+      "pages": 83,
+      "local_only": false
+    },
+    {
+      "id": "MRW-1987-groupoid-equivalence",
+      "file": "f1/mrw-groupoid-equivalence-1987.pdf",
+      "sha256": "16723f6b3b3d90f220a4bc0814ed8374817ae2025c8eef9822f520a8da7b6629",
+      "bytes": 876225,
+      "pages": 20,
+      "local_only": false
+    },
+    {
+      "id": "RW-2015-amenability-v1",
+      "file": "f1/renault-williams-amenability-1501.03027v1.pdf",
+      "sha256": "53a8462dc9cbcc510cf855a2449096473740e5eb3bd7f2863f1c6e1ecfc7c0df",
+      "bytes": 360094,
+      "pages": 27,
+      "local_only": false
+    },
+    {
+      "id": "SW-2010-reduced-equivalence-v2",
+      "file": "f1/sims-williams-reduced-equivalence-1002.3093v2.pdf",
+      "sha256": "892ebec6e5ce36b87e25c7fc8a97f7dd56f2af902902b6c13f1daab498f11ca5",
+      "bytes": 239328,
+      "pages": 15,
+      "local_only": false
+    },
+    {
+      "id": "Sims-2017-groupoids-v1",
+      "file": "f1/sims-hausdorff-etale-groupoids-2017.pdf",
+      "sha256": "cdb759c15de23e3d314cac018475b625fa6ae4e6d4a9802fbb1dcd90eb2e5542",
+      "bytes": 661582,
+      "pages": 61,
+      "local_only": false
+    },
+    {
+      "id": "Blackadar-K-theory-author-book6",
+      "file": "f1/blackadar-k-theory-author-book6.pdf",
+      "sha256": "a20e676e9d400ebcd0cd07c13fbdbe1fac759a30c739fab23d6161ecfb1a23fb",
+      "bytes": 1562151,
+      "pages": 314,
+      "local_only": false
+    },
+    {
+      "id": "PV-1980-exact-sequences",
+      "file": "f1/pimsner-voiculescu-exact-sequences-1980.pdf",
+      "sha256": "79acd2953430b184480cdc714ca1f81cf90e4f931525cf2ddda4457917067a2c",
+      "bytes": 873396,
+      "pages": 26,
+      "local_only": false
+    },
+    {
+      "id": "BGR-1977-stable-morita",
+      "file": "f1/brown-green-rieffel-morita-1977.pdf",
+      "sha256": "d2b64846c0dd59668f261782ae832df1bb7dad15479d5bb5c2e7aeec37fd19c8",
+      "bytes": 1901330,
+      "pages": 19,
+      "local_only": false
+    },
+    {
+      "id": "Williams-2006-crossed-products-draft31",
+      "file": "f1/williams-crossed-products-draft31-2006.pdf",
+      "sha256": "3dbc1fb9e96191a278e0d59feb4981d3bbea4faa4df609d1886c81125bffe9c2",
+      "bytes": 3843628,
+      "pages": 540,
+      "local_only": false
+    },
+    {
+      "id": "Robinson-2018-julia-halmos-v1",
+      "file": "f1/robinson-julia-halmos-1803.09329v1.pdf",
+      "sha256": "a4b45d9ad1151cec0c25d44ecdfbfd0cd382e473ca360c66d07cef20e69be0a6",
+      "bytes": 75604,
+      "pages": 3,
+      "local_only": false
+    },
+    {
+      "id": "Blackadar-2017-operator-algebras-Cycr",
+      "file": "f1/blackadar-operator-algebras-Cycr-2017.pdf",
+      "sha256": "8cb61a8348efe6e4b36dbefed4eac2c35498d28c03e160638ad7af952457f88a",
+      "bytes": 2495419,
+      "pages": 561,
+      "local_only": false
+    },
+    {
+      "id": "ASY-1987-adiabatic",
+      "file": "f1/avron-seiler-yaffe-adiabatic-1987.pdf",
+      "sha256": "1bab3635f8fd84ed223398c5bfba86933c1f9a4b4b44718639efcccf8b7aea78",
+      "bytes": 1580211,
+      "pages": 18,
+      "local_only": false
+    },
+    {
+      "id": "ASY-1993-erratum",
+      "file": "f1/avron-seiler-yaffe-erratum-1993.pdf",
+      "sha256": "efd8cadfca90f5c9df6cdaabbbe650935c4df15eccd2c04430574eab7241336c",
+      "bytes": 59947,
+      "pages": 2,
+      "local_only": false
+    },
+    {
+      "id": "Hatcher-VBKT-v22",
+      "file": "f1/hatcher-vector-bundles-ktheory-v22-2017.pdf",
+      "sha256": "04282b30dfa6305183827d399deddd0bd98240c2e6d2d0c416b06e2d4e1fa097",
+      "bytes": 1563812,
+      "pages": 124,
+      "local_only": false
+    },
+    {
+      "id": "Albin-Melrose-RelativeChern-2008",
+      "file": "f1/albin-melrose-relative-chern-author-2008.pdf",
+      "sha256": "8081c6e91dc07dadd8a4e9f3137ea6d97f13b44dc25a24f3421bd06f8402c4ca",
+      "bytes": 379183,
+      "pages": 38,
+      "local_only": false
+    },
+    {
+      "id": "Loya-Melrose-DiracCorners-author",
+      "file": "f1/loya-melrose-dirac-corners-author.pdf",
+      "sha256": "5b340268f5a4fb63f0531b2b02b381fac58a1875d5ab2f32bdf60fb03c8bd13b",
+      "bytes": 916372,
+      "pages": 96,
+      "local_only": false
+    }
+  ],
+  "new_file_paths": [
+    "f1/albin-melrose-relative-chern-author-2008.pdf",
+    "f1/loya-melrose-dirac-corners-author.pdf"
+  ]
+}

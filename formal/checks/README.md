@@ -178,3 +178,9 @@ vendor八包806文件校验。历史报告保持。Hilbert正交／收敛、C*�
 三条非交换代数恒等式通过Lean4.32.2，仅propext，无sorryAx。
 29份项目源码、十处旧admission、八包806份vendor原样保持，历史报告不覆盖。
 无分析性迹、BV极限、循环上同调或完整F1形式化声明。
+
+## RadialFinitePart 六项定向与角点账本（2026-09-21）
+
+[验证报告](radial-finite-part-verification.json)、[构建](radial-finite-part-build.txt)、[公理](radial-finite-part-axioms.txt)及[源码清点](radial-finite-part-source-audit.json)保存本轮范围。
+六项检查使用Lean4.32.2和固定mathlib，零sorryAx；30份项目源码、十处旧admission与八包806份vendor源码保持。
+只证明有限部四分量的代数变换、截止包含排除和源角点系数，完整分析另审；所有历史报告保持原字节，未全构建F1。

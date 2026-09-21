@@ -274,3 +274,10 @@ p进空间、Hilbert悬挂、trace-class、来源比较及K理论另由纸面审
 [源码清点](checks/weighted-trace-defect-source-audit.json)为29份项目源码、十处旧admission及八包806份vendor。
 运行 python scripts/check_weighted_trace_defect.py，准备入口 --entry F1.Analysis.WeightedTraceDefect。
 HS、迹的定义域、循环余圈分析、Fourier密度和奇异极限未由这些代数恒等式形式化；未重建全F1。
+
+## 422 径向有限部的代数账本（2026-09-21）
+
+[RadialFinitePart.lean](F1/Analysis/RadialFinitePart.lean)保存六项可复用结果：四分量平移的单位、复合、逆，双截止包含排除，交换异常角点符号及实际源整数系数。
+[固定内核报告](checks/radial-finite-part-verification.json)通过，无sorryAx，依赖仅propext、Quot.sound。
+[源码清点](checks/radial-finite-part-source-audit.json)为30份项目Lean、十处既有admission，八包806份vendor源码保持；旧报告不覆盖。
+未重建全F1；ℓ¹/S₁完成、Fréchet收敛、相对循环及[422完整分析](../notes/422-f1-radial-finite-part-and-corner-anomaly.md)不是这些代数检查的结论。

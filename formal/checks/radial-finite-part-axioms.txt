@@ -1,0 +1,6 @@
+'RHWeil.F1.radialTranslate_zero' depends on axioms: [propext]
+'RHWeil.F1.radialTranslate_add' depends on axioms: [propext, Quot.sound]
+'RHWeil.F1.radialTranslate_inverse' depends on axioms: [propext, Quot.sound]
+'RHWeil.F1.radialRectangle_subtraction' depends on axioms: [propext]
+'RHWeil.F1.radialComm_reverseShift' depends on axioms: [propext, Quot.sound]
+'RHWeil.F1.radialQuadrant_sourceAnomaly' depends on axioms: [propext, Quot.sound]

@@ -7,8 +7,8 @@
 | 顺序 | 任务 | 验收与切换 |
 |---|---|---|
 | 已结算 | 旧周期13冻结候选：[364完整验收](notes/364-frozen-integer-candidate-verification.md) | 6237815186边全扫描，13755190失败；只排除指定充分条件 |
-| 当前主线 | F1-EX1：[421带权Hardy迹及近锐BV极限](notes/421-f1-weighted-hardy-trace-and-atomic-obstruction.md)已全文独立复核 | 明定预算的时间密度不能给非零原子。执行[径向有限部与实际相对迹](reviews/2026-09-21/f1-radial-finite-part-relative-trace-next-proof-plan.md)，证明边／角点异常、实际来源定义域及全Γ周期比较 |
-| 必要辅助 | 原始文献、即时Lean、只读独立复核 | 新三项代数无sorryAx；29份项目源码、十处旧admission及历史报告保持。Connes新增核读范围已记录；本地98PDF／6949页，Git96／6604页，未增PDF。分析不冒称Lean认证 |
+| 当前主线 | F1-EX1：[421带权Hardy迹](notes/421-f1-weighted-hardy-trace-and-atomic-obstruction.md)已审；[422径向有限部稿](notes/422-f1-radial-finite-part-and-corner-anomaly.md)推导完成、全文独立逆审进行中 | 当前仍执行[径向有限部与实际相对迹](reviews/2026-09-21/f1-radial-finite-part-relative-trace-next-proof-plan.md)。422已写实际域、边／角点异常及原源比较；六项Lean代数通过，完整分析尚不计为验收通过。下一扭曲任务仅预备 |
+| 必要辅助 | 原始文献、即时Lean、只读独立复核 | 422新增六项代数无sorryAx；30份项目源码、十处旧admission及历史报告保持。新增两份作者原PDF；本地100PDF／7083页，Git98／6738页。分析不冒称Lean认证 |
 
 [任务单](goals/NEXT.20260909.md)与[账本](goals/PROGRESS.md)记录剩余动作。完整主除子、两次数、RR与固定通常ζ目标仍开放。
 

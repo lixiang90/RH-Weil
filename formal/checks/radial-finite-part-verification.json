@@ -1,0 +1,48 @@
+{
+  "status": "passed_no_sorry_dependencies",
+  "checked_at_utc": "2026-09-21T05:58:51.398585+00:00",
+  "lean_version": "Lean (version 4.32.2, x86_64-w64-windows-gnu, commit f3b06c705e6c85f5314019d5d3baab0fec5b580c, Release)",
+  "mathlib_revision": "905b95818eb32af7874a58b427f50c1711a5e96c",
+  "cache_backup": ".lake\\hdd-backup-05156b5b",
+  "runtime_dir": "C:\\Users\\A\\AppData\\Local\\Temp\\rh-weil-local-trace-20260920",
+  "scope": "Six algebraic results for finite-part translation, corner terms, rectangle subtraction, inverse and actual-source quadrant coefficient. No infinite sums, trace ideals, cyclic cohomology or full F1 build.",
+  "commands": [
+    {
+      "source": "F1/Analysis/RadialFinitePart.lean",
+      "exit_code": 0
+    },
+    {
+      "source": "checks/RadialFinitePartAudit.lean",
+      "exit_code": 0
+    }
+  ],
+  "source_sha256": {
+    "F1/Analysis/RadialFinitePart.lean": "12143ae02c0c10d033747dc71e30a953306aa363d3ea7988a7647bcb75058350",
+    "checks/RadialFinitePartAudit.lean": "e8cfb87a858fe2e6044a97f4f5755c57569d892057c287e406f0035750df2e15"
+  },
+  "axioms": {
+    "RHWeil.F1.radialTranslate_zero": [
+      "propext"
+    ],
+    "RHWeil.F1.radialTranslate_add": [
+      "propext",
+      "Quot.sound"
+    ],
+    "RHWeil.F1.radialTranslate_inverse": [
+      "propext",
+      "Quot.sound"
+    ],
+    "RHWeil.F1.radialRectangle_subtraction": [
+      "propext"
+    ],
+    "RHWeil.F1.radialComm_reverseShift": [
+      "propext",
+      "Quot.sound"
+    ],
+    "RHWeil.F1.radialQuadrant_sourceAnomaly": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  "existing_admissions": "The existing Weil convergence and criterion admissions are not imported by these checked results."
+}
