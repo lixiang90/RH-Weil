@@ -245,3 +245,23 @@ p进空间、Hilbert悬挂、trace-class、来源比较及K理论另由纸面审
 八包806份vendor源码。这里没有形式化Dyson收敛、H¹定义域、GNS或无限迹；
 这些仍由[417的数学证明](../notes/417-f1-projection-connection-and-time-evolution.md)及独立复核负责。
 旧报告保留，没有重建整个F1。
+
+## 2026-09-21：419单边移位的迹扩张限制
+
+[ShiftTraceObstruction.lean](F1/Analysis/ShiftTraceObstruction.lean)
+保存三条可复用引理：移位交换子等于端点缺陷、循环加性泛函消去该缺陷、
+以及端点读出非零时的非循环性。
+[内核报告](checks/shift-trace-obstruction-verification.json)记录固定Lean 4.32.2/mathlib，
+无sorryAx依赖；允许的标准依赖为propext、Classical.choice和Quot.sound。
+[源码审计](checks/shift-trace-obstruction-source-audit.json)为27份项目源码、原十处admission与八包806份vendor。
+不据此形式化时间交叉积、算子实现、无穷值迹权、范数稠密性或完整F₁。
+
+## 2026-09-21：420 Schur消元与三角逆元
+
+[SchurIndexAlgebra.lean](F1/Analysis/SchurIndexAlgebra.lean)保存四条任意非交换环上的二阶矩阵引理：
+上／下三角双侧逆元及两种Schur消元，明确保留乘法次序。
+[内核报告](checks/schur-index-algebra-verification.json)为固定Lean4.32.2/mathlib，四项通过，无sorryAx；
+[编译日志](checks/schur-index-algebra-build.txt)保留两处战术风格警告，不影响内核检查。
+[源码审计](checks/schur-index-algebra-source-audit.json)为28份项目Lean，原十处admission及八包806份vendor原样保持。
+运行 python scripts/check_schur_index_algebra.py，准备入口 --entry F1.Analysis.SchurIndexAlgebra，
+沿用报告的cache/runtime选项。未形式化不同Hilbert空间间的矩形块、HS估计、指标丛、Chern符号或算术迹。

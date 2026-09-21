@@ -1,6 +1,6 @@
 # RH-Weil 文献索引
 
-索引续记更新至2026-09-21；最新批次、范围和保存状态见文末。以下2026-09-09统计为历史快照。首批归档聚焦67.25%之后的零点比例进展及直接依赖（15份、220页）；后续原始版本与核读范围按轮次列在文末。当前本地共62份外部原始PDF、3282页，其中61份、3253页纳入Git保存；Schur扫描29页按来源封面要求仅本地保存，出处和哈希同步。获取失败单列。研究判断见 [305文献审计](../notes/305-post-6725-literature-baseline-audit.md)。
+索引续记更新至2026-09-21；最新批次、范围和保存状态见文末。以下2026-09-09统计为历史快照。首批归档聚焦67.25%之后的零点比例进展及直接依赖（15份、220页）；后续原始版本与核读范围按轮次列在文末。当前按实际下载清单与文件逐项核准：本地共98份外部原始PDF、6949页，其中96份、6604页纳入本轮Git保存；Schur扫描29页及Engelking书316页依各自来源说明仅本地保存，出处和哈希同步。获取失败单列。研究判断见 [305文献审计](../notes/305-post-6725-literature-baseline-audit.md)。
 
 PDF按来源原样保存，未重排或改写；arXiv固定版本，GitHub固定提交，Zenodo固定记录。下载、全页PDF解析和校验值核验不等于数学证明认证。manifest中的SHA-256标识本次取得的精确字节，原站同一文件名后续变化时仍可区分。
 
@@ -1017,3 +1017,17 @@ Schur29页仍仅本地。
 [新增核读记录](../reviews/2026-09-21/f1-original-time-crossed-product-source-read.md)
 登记Williams作者稿的迭代交叉积／可和性，以及Blackadar的Thom定义、自然性和实线平移基例。
 沿用已保存PDF，未重复下载；局部阅读不等于原源类及算术读出已经比较完成。
+
+## 2026-09-21：实际 Hardy 指数族的丛背景
+
+**Hatcher-VBKT-v22 — Vector Bundles & K-Theory**
+
+- 作者 Allen Hatcher；作者标明 Version 2.2, November 2017。PDF内部2022年元数据不改写为新版本。
+- [本地PDF](f1/hatcher-vector-bundles-ktheory-v22-2017.pdf)（124页，1,563,812字节）；[作者页面](https://pi.math.cornell.edu/~hatcher/VBKT/VBpage.html)；[原始PDF](https://pi.math.cornell.edu/~hatcher/VBKT/VB.pdf)。
+- SHA256见manifest，已逐字节核对。
+- 核读拼接分类、复圆周丛平凡性、Euler/Chern与局部零点背景；全部124页解析，主读PDF1–2、26–28、95–96、109–110，目视PDF27、96。详见[阅读范围](../reviews/2026-09-21/f1-source-hardy-index-source-read.md)。不宣称全书已数学审计，也不由此导入算术迹比较。
+
+本轮纠正首页沿用的过时合计：准确总数为本地98份／6949页、入Git96份／6604页；增加Hatcher前对应97份／6825页、95份／6480页。
+该修正来自全部已下载条目的唯一文件名、真实页数、字节数、SHA256及原有Git树核对，未新增或重写此前原件；
+两份仅本地保存文献继续排除。旧日期各批统计保留为历史记录。
+[完整文件计数核验](../reviews/2026-09-21/f1-hardy-literature-inventory.json)只认证文件完整性与计数，不认证数学内容。

@@ -154,3 +154,19 @@ vendor八包806文件校验。历史报告保持。Hilbert正交／收敛、C*�
 仅依赖 propext，无 sorryAx；[源码清点](connection-evolution-algebra-source-audit.json)为26份项目源码及原十处admission。
 可由 scripts/check_connection_evolution_algebra.py 按报告中的cache/runtime选项复验。
 不将这四项代数核验计为演化分析或全F₁形式化，原检查日志保持原样。
+
+## 419：单边移位与循环迹（2026-09-21）
+
+[shift-trace-obstruction-verification.json](shift-trace-obstruction-verification.json)
+记录三项移位缺陷及加性循环泛函限制，固定Lean 4.32.2通过，无sorryAx；
+可通过 scripts/check_shift_trace_obstruction.py 按报告路径复验。
+[源码清点](shift-trace-obstruction-source-audit.json)为27份项目源码、原十处admission和八包806份vendor。
+无限维算子与迹权推导仍须数学审查，未重建全F1，历史报告保持。
+
+## 420：SchurIndexAlgebra（2026-09-21）
+
+[四项内核报告](schur-index-algebra-verification.json)、[公理日志](schur-index-algebra-axioms.txt)、
+[编译日志](schur-index-algebra-build.txt)、[入口](SchurIndexAlgebraAudit.lean)及[源码清单](schur-index-algebra-source-audit.json)保存。
+固定Lean4.32.2核验任意非交换环的二阶Schur消元和三角逆元，标准依赖propext、Classical.choice、Quot.sound，无sorryAx。
+两处战术风格warning保留原输出。28份项目源码、十处旧admission、八包806份vendor不变；历史报告未覆盖。
+实际Hardy族及指数、Chern和对偶作用的分析证明不属于这一机器检查范围。

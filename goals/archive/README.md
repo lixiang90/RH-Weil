@@ -109,3 +109,6 @@ SHA256：ac534c80f26c6f22e5cb9d0b8a4e2bd66dcfba9b176b5f1da0237636db3818d6。
 - [GOAL.20260909.f1-before-split-transfer.md](GOAL.20260909.f1-before-split-transfer.md)：416全部传递系数结算前原字节；改验真实投影连接、时间演化及算术比较，第十节保持。
 
 - GOAL.20260909.f1-before-connected-time-comparison.md：2026-09-21，417–418实际连接、演化与原Γ周期迹比较结算前的根GOAL原字节快照；第十节保持。
+
+- 2026-09-21：[Hardy指数前原始快照](GOAL.20260909.f1-before-hardy-index.md)，SHA256 a09061bcadeb46b177ef9c78592307da02e72b8dee376c097e54adf2d31cb684。
+  修订理由：419实际原时间交叉积与420实际Hardy指数族全文逆审闭环；当前转入保留h的迹缺陷及其算术比较，第十节原字节不变。

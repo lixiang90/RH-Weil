@@ -1,16 +1,16 @@
 # 研究分支看板
 
-## 唯一当前队列（2026-09-21 保留原物理时间的交叉积与读出）
+## 唯一当前队列（2026-09-21，原源Hardy族后的算术迹比较）
 
 执行[GOAL.20260909.md](goals/GOAL.20260909.md)，Goal active；下方早期状态为历史。
 
 | 顺序 | 任务 | 验收与切换 |
 |---|---|---|
 | 已结算 | 旧周期13冻结候选：[364完整验收](notes/364-frozen-integer-candidate-verification.md) | 6237815186边全扫描，13755190失败；只排除指定充分条件 |
-| 当前主线 | F1-EX1：[417](notes/417-f1-projection-connection-and-time-evolution.md)真实连接／演化及[418](notes/418-f1-connection-periodized-trace-and-sharp-frame.md)原Γ周期比较已审 | 直接连接迹差的近锐p系数趋零，不能充当对全部分割的固定主补偿。转入[原时间交叉积及观测量准入](reviews/2026-09-21/f1-original-time-crossed-product-next-proof-plan.md)，具体同构必须携带算术迹 |
-| 必要辅助 | 原始文献及勘误、即时Lean、只读独立复核 | 四项ConnectionEvolutionAlgebra无sorryAx；26份项目源码、十处旧admission与历史报告保持。分析并非Lean认证，未重建全F1 |
+| 当前主线 | F1-EX1：[419](notes/419-f1-original-time-crossed-product-and-trace-interface.md)实际交叉积／原迹接口及[420](notes/420-f1-source-hardy-index-and-dual-action.md)原源Hardy指数族已全文审查 | 原周期算子边界商为零；指数秩0、c1=-1尚无算术比较。执行[带时间测试的迹缺陷](reviews/2026-09-21/f1-hardy-weighted-trace-defect-next-proof-plan.md)，核准其循环边界、原源与平均值及周期分布，失败后按精确机制切换 |
+| 必要辅助 | 原始文献、即时Lean、只读独立复核 | 新七项代数无sorryAx；28份项目源码、十处旧admission及历史报告保持。Hatcher原件保存；本地98PDF／6949页，Git96／6604页，两份仅本地不变。分析不冒称Lean认证 |
 
-[任务单](goals/NEXT.20260909.md)与[账本](goals/PROGRESS.md)记录剩余动作。
+[任务单](goals/NEXT.20260909.md)与[账本](goals/PROGRESS.md)记录剩余动作。完整主除子、两次数、RR与固定通常ζ目标仍开放。
 
 ## 重启前记录
 

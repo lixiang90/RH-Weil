@@ -1,5 +1,16 @@
 # RH / Weil 结构研究
 
+## 当前研究状态（2026-09-21，419–420）
+
+[419](notes/419-f1-original-time-crossed-product-and-trace-interface.md)构造原时间交叉积的实际同构与忠实表示，
+并证明原周期迹算子在普通边界商中消失，以及指定循环迹扩张的移位障碍。
+[420](notes/420-f1-source-hardy-index-and-dual-action.md)从原源构造连续Hardy Fredholm族，
+直接算出秩零、c1=-1的指数线丛；同时保留原时间对偶作用、截止及测试函数的准确变化。
+两稿全文独立逆审通过，七项新Lean代数结果无sorryAx；完整分析与形式化范围分列。
+继续[带时间测试的实际压缩迹缺陷](reviews/2026-09-21/f1-hardy-weighted-trace-defect-next-proof-plan.md)，
+核查循环边界及原周期比较。普通指数尚不能替代这一算术桥。
+GOAL active，第十节及完整F₁／RH目标保持。以下为历史快照。
+
 ## 当前研究状态（2026-09-21，417–418）
 
 [417](notes/417-f1-projection-connection-and-time-evolution.md)构造实际投影连接与真实H¹酉演化，

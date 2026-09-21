@@ -1,0 +1,39 @@
+{
+  "status": "passed_no_sorry_dependencies",
+  "checked_at_utc": "2026-09-21T04:32:05.203114+00:00",
+  "lean_version": "Lean (version 4.32.2, x86_64-w64-windows-gnu, commit f3b06c705e6c85f5314019d5d3baab0fec5b580c, Release)",
+  "mathlib_revision": "905b95818eb32af7874a58b427f50c1711a5e96c",
+  "cache_backup": ".lake\\hdd-backup-05156b5b",
+  "runtime_dir": "C:\\Users\\A\\AppData\\Local\\Temp\\rh-weil-local-trace-20260920",
+  "scope": "Three algebraic shift-commutator and additive cyclic-trace obstruction identities. No time crossed-product isomorphism, operator realization, trace weights, norm-density theorem, source noncompactness or full F1 build.",
+  "commands": [
+    {
+      "source": "F1/Analysis/ShiftTraceObstruction.lean",
+      "exit_code": 0
+    },
+    {
+      "source": "checks/ShiftTraceObstructionAudit.lean",
+      "exit_code": 0
+    }
+  ],
+  "source_sha256": {
+    "F1/Analysis/ShiftTraceObstruction.lean": "67fa5cec93db4c372a1f7e7046c6efe28d326e0f2ecd3d8880262b324c6128ed",
+    "checks/ShiftTraceObstructionAudit.lean": "8bf207dd784c57c7c7ce9f784a4ed571fa0766ea2865e1c0d2809b7b77d101f9"
+  },
+  "axioms": {
+    "RHWeil.F1.shift_commutator_defect": [
+      "propext"
+    ],
+    "RHWeil.F1.cyclic_map_kills_shift_defect": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "RHWeil.F1.nonzero_shift_defect_not_cyclic": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "existing_admissions": "The existing Weil convergence and criterion admissions are not imported by these checked results."
+}

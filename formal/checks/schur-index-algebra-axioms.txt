@@ -1,0 +1,4 @@
+'RHWeil.F1.schur_upper_inverse' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RHWeil.F1.schur_lower_inverse' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RHWeil.F1.schur_lower_elimination' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RHWeil.F1.schur_upper_elimination' depends on axioms: [propext, Classical.choice, Quot.sound]

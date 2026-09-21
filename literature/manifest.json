@@ -2223,6 +2223,25 @@
       "pages": 2,
       "retrieved_at_utc": "2026-09-21T03:23:18.797020+00:00",
       "review_note": "../reviews/2026-09-21/f1-projection-connection-source-read.md"
+    },
+    {
+      "id": "Hatcher-VBKT-v22",
+      "category": "f1-background",
+      "authors": "Allen Hatcher",
+      "title": "Vector Bundles & K-Theory",
+      "version": "Version 2.2, November 2017; author PDF retrieved 2026-09-21",
+      "download_status": "downloaded",
+      "status": "Clutching, complex bundles over S1, and Euler/Chern orientation background for the actual Hardy index family; no arithmetic comparison imported.",
+      "read_scope": "All124 pages parsed; main read PDF1-2,26-28,95-96,109-110; visually checked PDF27 and96. Proposition1.11 and Example1.12 (printed23-24) support complex circle bundle triviality; Proposition3.13 and3.22 (printed91-92 and105-106) provide Euler/Chern and obstruction background. Our sign is independently fixed by complex orientation and the local zero Jacobian, not inferred from a source statement only up to sign.",
+      "file": "f1/hatcher-vector-bundles-ktheory-v22-2017.pdf",
+      "source_url": "https://pi.math.cornell.edu/~hatcher/VBKT/VBpage.html",
+      "pdf_url": "https://pi.math.cornell.edu/~hatcher/VBKT/VB.pdf",
+      "resolved_pdf_url": "https://pi.math.cornell.edu/~hatcher/VBKT/VB.pdf",
+      "bytes": 1563812,
+      "sha256": "04282b30dfa6305183827d399deddd0bd98240c2e6d2d0c416b06e2d4e1fa097",
+      "pages": 124,
+      "retrieved_at_utc": "2026-09-21T04:41:49.249262+00:00",
+      "review_note": "../reviews/2026-09-21/f1-source-hardy-index-source-read.md"
     }
   ],
   "supplement_provenance": [
