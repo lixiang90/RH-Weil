@@ -1,0 +1,35 @@
+{
+  "status": "passed_no_sorry_dependencies",
+  "checked_at_utc": "2026-09-21T05:17:32.318737+00:00",
+  "lean_version": "Lean (version 4.32.2, x86_64-w64-windows-gnu, commit f3b06c705e6c85f5314019d5d3baab0fec5b580c, Release)",
+  "mathlib_revision": "905b95818eb32af7874a58b427f50c1711a5e96c",
+  "cache_backup": ".lake\\hdd-backup-05156b5b",
+  "runtime_dir": "C:\\Users\\A\\AppData\\Local\\Temp\\rh-weil-local-trace-20260920",
+  "scope": "Three ring identities for multiplication defect associativity, its antisymmetrized boundary and weighted commutator transfer. No Schatten ideals, analytic trace, Fourier density, cyclic cohomology or full F1 build.",
+  "commands": [
+    {
+      "source": "F1/Analysis/WeightedTraceDefect.lean",
+      "exit_code": 0
+    },
+    {
+      "source": "checks/WeightedTraceDefectAudit.lean",
+      "exit_code": 0
+    }
+  ],
+  "source_sha256": {
+    "F1/Analysis/WeightedTraceDefect.lean": "9b31a55ad55aefebc3e06f01220f713b8f6aa286567e1dc53e8144c58211a0df",
+    "checks/WeightedTraceDefectAudit.lean": "2946b5ee33fc837457d29d6050e326188462712038427f77ebf88495d76763a8"
+  },
+  "axioms": {
+    "RHWeil.F1.multiplication_defect_associativity": [
+      "propext"
+    ],
+    "RHWeil.F1.antisymmetrized_defect_boundary": [
+      "propext"
+    ],
+    "RHWeil.F1.weighted_commutator_transfer": [
+      "propext"
+    ]
+  },
+  "existing_admissions": "The existing Weil convergence and criterion admissions are not imported by these checked results."
+}

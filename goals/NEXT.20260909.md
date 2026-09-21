@@ -1,5 +1,15 @@
 # 20260909版重启任务单
 
+## 唯一当前任务（2026-09-21，421结算）
+
+执行[径向有限部与实际相对迹](../reviews/2026-09-21/f1-radial-finite-part-relative-trace-next-proof-plan.md)。
+[421](../notes/421-f1-weighted-hardy-trace-and-atomic-obstruction.md)完成带权缺陷、原源交叉项与环面平均，
+并用实际BV近锐极限排除指定预算内的原子读出；全文、极限及半迹归一化独立复核闭环。
+三条新Lean代数无sorryAx；29份项目源码、十处旧admission保持，未重建全F1。
+当前从径向格点真实截止定义有限部，证明两边及角点的完整平移／交换异常，
+继而验证原源、提升、截止和全Γ迹的定义域及精确比较。不先假定循环性，不添加目标原子。
+下方为历史任务，长期Goal及第十节不变。
+
 ## 唯一当前任务（2026-09-21，419–420结算）
 
 执行[保留时间测试的真实Hardy迹缺陷](../reviews/2026-09-21/f1-hardy-weighted-trace-defect-next-proof-plan.md)。

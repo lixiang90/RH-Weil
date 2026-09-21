@@ -170,3 +170,11 @@ vendor八包806文件校验。历史报告保持。Hilbert正交／收敛、C*�
 固定Lean4.32.2核验任意非交换环的二阶Schur消元和三角逆元，标准依赖propext、Classical.choice、Quot.sound，无sorryAx。
 两处战术风格warning保留原输出。28份项目源码、十处旧admission、八包806份vendor不变；历史报告未覆盖。
 实际Hardy族及指数、Chern和对偶作用的分析证明不属于这一机器检查范围。
+
+## 421：WeightedTraceDefect（2026-09-21）
+
+[报告](weighted-trace-defect-verification.json)、[公理日志](weighted-trace-defect-axioms.txt)、
+[编译日志](weighted-trace-defect-build.txt)、[入口](WeightedTraceDefectAudit.lean)及[源码清单](weighted-trace-defect-source-audit.json)保存。
+三条非交换代数恒等式通过Lean4.32.2，仅propext，无sorryAx。
+29份项目源码、十处旧admission、八包806份vendor原样保持，历史报告不覆盖。
+无分析性迹、BV极限、循环上同调或完整F1形式化声明。

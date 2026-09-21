@@ -1,14 +1,14 @@
 # 研究分支看板
 
-## 唯一当前队列（2026-09-21，原源Hardy族后的算术迹比较）
+## 唯一当前队列（2026-09-21，带权Hardy迹后的径向有限部）
 
 执行[GOAL.20260909.md](goals/GOAL.20260909.md)，Goal active；下方早期状态为历史。
 
 | 顺序 | 任务 | 验收与切换 |
 |---|---|---|
 | 已结算 | 旧周期13冻结候选：[364完整验收](notes/364-frozen-integer-candidate-verification.md) | 6237815186边全扫描，13755190失败；只排除指定充分条件 |
-| 当前主线 | F1-EX1：[419](notes/419-f1-original-time-crossed-product-and-trace-interface.md)实际交叉积／原迹接口及[420](notes/420-f1-source-hardy-index-and-dual-action.md)原源Hardy指数族已全文审查 | 原周期算子边界商为零；指数秩0、c1=-1尚无算术比较。执行[带时间测试的迹缺陷](reviews/2026-09-21/f1-hardy-weighted-trace-defect-next-proof-plan.md)，核准其循环边界、原源与平均值及周期分布，失败后按精确机制切换 |
-| 必要辅助 | 原始文献、即时Lean、只读独立复核 | 新七项代数无sorryAx；28份项目源码、十处旧admission及历史报告保持。Hatcher原件保存；本地98PDF／6949页，Git96／6604页，两份仅本地不变。分析不冒称Lean认证 |
+| 当前主线 | F1-EX1：[421带权Hardy迹及近锐BV极限](notes/421-f1-weighted-hardy-trace-and-atomic-obstruction.md)已全文独立复核 | 明定预算的时间密度不能给非零原子。执行[径向有限部与实际相对迹](reviews/2026-09-21/f1-radial-finite-part-relative-trace-next-proof-plan.md)，证明边／角点异常、实际来源定义域及全Γ周期比较 |
+| 必要辅助 | 原始文献、即时Lean、只读独立复核 | 新三项代数无sorryAx；29份项目源码、十处旧admission及历史报告保持。Connes新增核读范围已记录；本地98PDF／6949页，Git96／6604页，未增PDF。分析不冒称Lean认证 |
 
 [任务单](goals/NEXT.20260909.md)与[账本](goals/PROGRESS.md)记录剩余动作。完整主除子、两次数、RR与固定通常ζ目标仍开放。
 

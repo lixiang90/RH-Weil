@@ -265,3 +265,12 @@ p进空间、Hilbert悬挂、trace-class、来源比较及K理论另由纸面审
 [源码审计](checks/schur-index-algebra-source-audit.json)为28份项目Lean，原十处admission及八包806份vendor原样保持。
 运行 python scripts/check_schur_index_algebra.py，准备入口 --entry F1.Analysis.SchurIndexAlgebra，
 沿用报告的cache/runtime选项。未形式化不同Hilbert空间间的矩形块、HS估计、指标丛、Chern符号或算术迹。
+
+## 2026-09-21：421带权迹缺陷的三条代数检查
+
+[WeightedTraceDefect.lean](F1/Analysis/WeightedTraceDefect.lean)对任意半群到非交换环的映射，
+证明乘法缺陷结合律、反对称缺陷的三项边界，以及带权交换子转移。
+[内核报告](checks/weighted-trace-defect-verification.json)为固定Lean4.32.2，三项仅依赖propext，无sorryAx；
+[源码清点](checks/weighted-trace-defect-source-audit.json)为29份项目源码、十处旧admission及八包806份vendor。
+运行 python scripts/check_weighted_trace_defect.py，准备入口 --entry F1.Analysis.WeightedTraceDefect。
+HS、迹的定义域、循环余圈分析、Fourier密度和奇异极限未由这些代数恒等式形式化；未重建全F1。

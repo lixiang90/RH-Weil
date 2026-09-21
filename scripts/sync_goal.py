@@ -17,6 +17,7 @@ ROOT = Path(__file__).resolve().parents[1]
 WORKSPACE = ROOT.parent
 FILES = (
     "GOAL.20260909.md",
+    "archive/GOAL.20260909.f1-before-weighted-hardy-trace.md",
     "archive/GOAL.20260909.f1-before-hardy-index.md",
     "archive/GOAL.20260909.f1-before-connected-time-comparison.md",
     "archive/GOAL.20260909.f1-before-split-transfer.md",

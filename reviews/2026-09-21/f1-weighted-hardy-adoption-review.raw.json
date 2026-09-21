@@ -1,0 +1,8 @@
+{
+  "status": {
+    "01a0c1f8-533b-7ed3-8391-e711b4f2c43e": {
+      "completed": "**P3 已关闭；三项定义补明均准确，未扩大结论。**\n\n已只读比对原审稿、[修订主稿](H:/codex-build/RH/RH-Weil/notes/421-f1-weighted-hardy-trace-and-atomic-obstruction.md)及修订快照：\n\n- §10 的半迹公式及 \\(D_N\\) 与414式(23)一致；\\(h(0)=0\\) 时，(19)确为 \\(\\tfrac12\\operatorname{Tr}A_N(h)\\)。\n- 全实线分布变差包含端点跳跃，准确补全了 BV 估计的定义。\n- (17)的有界算子写法限定于当前 \\(C_c^\\infty\\) 测试；标量读出延拓到 \\(L^2\\) 不自动赋予一般 \\(R_h\\) 有界性。\n- 固定 \\(B\\) 和参数测度 \\(\\mu\\) 独立于 \\(h\\)，准确保留了分布比较的量词。\n\n差异仅为首页状态、§10替换及新增§12；其余正文与(1)–(21)未改。\n\n主稿与 `reviewed-revision.md` 完全一致，均为 **17494字节**。读前、读后及快照 SHA256 相同：\n\n```text\n633dafab93c8f4e26cf50620f5cce6914e6842b2f3f0f7666ffae7089b2ca80d\n```\n\n未写文件，未运行 Git、Lean 或构建。"
+    }
+  },
+  "timed_out": false
+}

@@ -1,5 +1,30 @@
 # 持续GOAL执行账本：20260909版重启
 
+## 2026-09-21：421带权Hardy迹、实际BV极限与原子障碍结算
+
+[421](../notes/421-f1-weighted-hardy-trace-and-atomic-obstruction.md)完成受限代数上的带权乘法缺陷与Hochschild边界；
+对原420源保留全部混合项，得到显式Fourier密度及逐频率为零的环面平均。
+固定迹类预算的时间读出是C0函数，统一预算的分布极限仅保证L∞密度。
+进一步直接构造实际Green近锐族：统一BV控制给完整L²密度收敛，
+夹持的实际算子缺陷在迹范数收敛。独立BV复核及全文逆审均通过；
+§10已补准确的半迹归一化，定义补明的采纳复核确认无遗留项。
+固定预算原子障碍仅覆盖本稿明确的类，不排除奇异有限部、无界预算或其他算术几何。
+
+[三条Lean代数结果](../formal/checks/weighted-trace-defect-verification.json)在Lean4.32.2中通过，
+依赖仅propext，无sorryAx；29份项目源码、十处旧admission，未重建全F1。
+[全文报告](../reviews/2026-09-21/f1-weighted-hardy-full-review.md)、
+[BV极限报告](../reviews/2026-09-21/f1-weighted-hardy-bv-limit-review.md)及
+[采纳复核](../reviews/2026-09-21/f1-weighted-hardy-adoption-review.md)的full/raw均保存。
+Connes固定v1新增阅读PDF16–18、22–24、28页并可视核对18页；
+[来源记录](../reviews/2026-09-21/f1-weighted-hardy-source-read.md)区分几何分布迹及RΛ本身已迹类的事实。
+文献仍本地98PDF／6949页，Git96／6604页，两份345页仅本地，未新增原件。
+
+根GOAL按原字节归档后转向[径向有限部与实际相对迹](../reviews/2026-09-21/f1-radial-finite-part-relative-trace-next-proof-plan.md)：
+先证明真实截止、两边／角点异常及定义域，再检验原对象的算术比较，不先假定循环或补偿。
+第十节所有字节保持，40份镜像按脚本同步；长期Goal仍active。
+[范围核验](../reviews/2026-09-21/f1-weighted-hardy-validation.json)记录本轮输入、形式化和历史保存。
+远程保存以对应Git提交及外部精确回执为准，不预先宣称推送成功。
+
 ## 2026-09-21：419–420实际交叉积与Hardy族结算，长期Goal继续
 
 - **真实代数与原表示：** 419直接解耦原时间交叉积为径向代数张量时间紧算子，

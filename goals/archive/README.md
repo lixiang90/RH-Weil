@@ -112,3 +112,6 @@ SHA256：ac534c80f26c6f22e5cb9d0b8a4e2bd66dcfba9b176b5f1da0237636db3818d6。
 
 - 2026-09-21：[Hardy指数前原始快照](GOAL.20260909.f1-before-hardy-index.md)，SHA256 a09061bcadeb46b177ef9c78592307da02e72b8dee376c097e54adf2d31cb684。
   修订理由：419实际原时间交叉积与420实际Hardy指数族全文逆审闭环；当前转入保留h的迹缺陷及其算术比较，第十节原字节不变。
+
+- 2026-09-21：[带权Hardy迹前原始快照](GOAL.20260909.f1-before-weighted-hardy-trace.md)，SHA256 01247716be9588da4343c62c14b3458978374b357403a0e68f4990d3d86b6790。
+  修订理由：421全文、实际BV极限及半迹归一化复核闭环；转入径向有限部和实际相对迹，第十节原字节保持。

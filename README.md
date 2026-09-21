@@ -1,5 +1,14 @@
 # RH / Weil 结构研究
 
+## 当前研究状态（2026-09-21，421）
+
+[421](notes/421-f1-weighted-hardy-trace-and-atomic-obstruction.md)算出带时间测试的Hardy缺陷、循环边界及原源全部交叉项。
+固定迹范数预算给有界时间密度；实际近锐源的统一BV预算给L²极限，均不能产生指定非零时间原子。
+全文、极限及半迹归一化已独立复核；三项新Lean代数结果通过，分析范围另列。
+下一步构造[径向有限部与实际相对迹](reviews/2026-09-21/f1-radial-finite-part-relative-trace-next-proof-plan.md)，
+保留原始边界和角点异常，再检验与原周期分布的比较。完整F₁／RH目标仍开放，GOAL active。
+以下为历史快照。
+
 ## 当前研究状态（2026-09-21，419–420）
 
 [419](notes/419-f1-original-time-crossed-product-and-trace-interface.md)构造原时间交叉积的实际同构与忠实表示，
