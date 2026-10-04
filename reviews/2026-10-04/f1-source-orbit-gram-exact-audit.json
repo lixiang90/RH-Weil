@@ -1,0 +1,30 @@
+{
+  "status": "passed_exact_finite_source_fibre_models",
+  "script_sha256": "fa0e37ea3b92208f7b0d9bcb7399bf4fc768292ba90b41d2fa9e61d84acd4baf",
+  "checks": {
+    "actual_finite_orbit_gram": 36,
+    "exact_right_tail": 720,
+    "finite_gram_identity_lower_bound": 36,
+    "full_mixed_gram_formula": 1908,
+    "gram_adjoint_symmetry": 1908,
+    "integer_source_power_without_truncation": 1908,
+    "pointwise_p_partition": 212,
+    "pointwise_q_partition": 212,
+    "right_tail_periodicity": 1908,
+    "source_inverse": 1908,
+    "source_unitary_norm": 1908
+  },
+  "total_exact_assertions": 12664,
+  "arithmetic": "fractions.Fraction only; all nonzero source rows, no coordinate truncation",
+  "models": [
+    {
+      "p_period": 5,
+      "q_period": 7
+    },
+    {
+      "p_period": 7,
+      "q_period": 5
+    }
+  ],
+  "scope": "Pointwise rational discrete partitions and finite source fibres audit source powers, full mixed Gram, exact periodic tail and finite Gram lower bound. Integer periods are commensurate; these are not the original smooth log-prime frame. No essential-norm, trace-class analytic, HH1, full Chern, arithmetic readout, RR or RH proof."
+}

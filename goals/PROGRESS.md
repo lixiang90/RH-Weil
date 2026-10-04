@@ -1,5 +1,36 @@
 # 持续GOAL执行账本：20260909版重启
 
+## 2026-10-04：430–433真源域、实际符号、相对电荷及完成固定扇区
+
+从已推送main的c013a4c继续；旧427–429正文、报告和检查点保持。
+[430](../notes/430-f1-source-stable-periodic-smoothing-algebra.md)在原完整波形表示中给u整数幂与全部混合Gram g_r，
+其右端gamma_r为周期Toeplitz加共同固定项，有限Gamma>=I。
+用实际周期有限传播平滑核构造D_src，证明乘积周期替换误差S₁及u、u*双侧乘子准入。
+这是明确解析扩大，不冒称最小源理想或全部周期核的原源生成性。
+
+[431](../notes/431-f1-source-orbit-essential-symbol-and-boundary-injectivity.md)给有限F_B的本质范数
+‖Gamma^(1/2) B Gamma^(1/2)‖、唯一有限矩阵商及实际源移位动作。
+有限词商中1-Ad u单射，非S₁元素的加权边界非紧；无限Gamma未必ell²有界。
+单角周期核完成为C(S¹) tensor K，最小真实源理想J/K非交换的见证亦在原来源中计算。
+
+[432](../notes/432-f1-relative-cycle-charge-and-source-invariant-cutoff.md)由普通迹构造规范HH₁循环电荷，
+提升改变和b₂边界的迹均零，旧omega准确作为其限制。
+原u* tensor uA(h)仍非商一循环，有限轨道修补失败。
+对真正u不变的实际x截止，每个D_src元素压缩迹类，源加权压缩迹每个R零；
+但原A(h)只读h(0)，与原球截止的非零纯周期有明确见证，不能由相容性选择物理Lambda。
+
+[433](../notes/433-f1-source-cesaro-limit-and-noncompact-fixed-sector.md)计算原共轭平均，
+以显式O(N^(-1/2))+O(N^(-1))范数误差收敛至(1-e)V B V*(1-e)。
+若w=1-alpha非零，则有非紧固定符号；p<q时积分下界M-L使该扇区对所有原合法分割强制存在。
+原A测试的平均极限也在最小真实源理想J中；它不是有限词域元素，也不自动传递HH₁链或球周期读出。
+
+四稿独立全文复核与12,664项Fraction离散点值纤维审计分别记范围。
+模型为整数周期，不是实际光滑log-prime frame；不把有限Gram采样当作无限分析、Chern、RR或RH机器证明。
+旧四项Lean与十处admission保持，本轮没有新Lean分析证明。
+下一有限任务是[源域上的原Haar球截止与真实传递](../reviews/2026-10-04/f1-physical-cutoff-on-source-domain-next-proof-plan.md)。
+最小源全商、规范周期比较、完整相对Chern、算术主关系、Weil正性、实位／全素数、RR与RH仍开放。
+长期GOAL及第十节保持。
+
 ## 2026-10-04：GitHub保存与427–429实际代数／真源准入研究
 
 按用户指令，将422–426、全部审查与核验提交并推送GitHub main，commit 9d0cb1a。

@@ -1,15 +1,15 @@
 # 研究分支看板
 
-## 唯一当前队列（2026-10-04，真源保持边域与商循环异常）
+## 唯一当前队列（2026-10-04，源域上的物理球截止与相对传递）
 
 执行[GOAL.20260909.md](goals/GOAL.20260909.md)，Goal active；下方早期状态为历史。
 
 | 顺序 | 任务 | 验收与切换 |
 |---|---|---|
 | 已结算 | 旧周期13冻结候选：[364完整验收](notes/364-frozen-integer-candidate-verification.md) | 6237815186边全扫描，13755190失败；只排除指定充分条件 |
-| 本轮已结算 | [427乘法与循环异常](notes/427-f1-corner-product-algebra-and-unavoidable-trace-cocycle.md)、[428全部读出自由度](notes/428-f1-corner-essential-symbol-and-complete-readout-freedom.md)、[429真源域障碍](notes/429-f1-original-unitary-crosses-the-fixed-corner-domain.md) | 全代数标量普通迹扩张排除；保留实际商余圈。T商作用仅为单位，u实际搬出非紧边，不能以旧域完成替代真源准入 |
-| 当前主线 | [真源保持的边代数与带异常相对Chern比较](reviews/2026-10-04/f1-source-stable-edge-algebra-and-relative-cocycle-next-proof-plan.md) | 扩大u/u*保持的实际边域、支付非紧相对边界与原球截止来源的周期选择；仍须算术主关系及全Weil比较 |
-| 必要辅助 | 原始文献、精确审计、只读独立复核 | 新207项有理积分模型核验；原16,261项及423四项Lean核心证明保持，十处旧admission不改。无限分析与机器模型范围分列 |
+| 本轮已结算 | [430真实源域](notes/430-f1-source-stable-periodic-smoothing-algebra.md)、[431有限源符号](notes/431-f1-source-orbit-essential-symbol-and-boundary-injectivity.md)、[432相对电荷](notes/432-f1-relative-cycle-charge-and-source-invariant-cutoff.md)、[433完成固定扇区](notes/433-f1-source-cesaro-limit-and-noncompact-fixed-sector.md) | 已支付实际u双侧准入、有限商与HH₁电荷；有限边界单射但完成有非紧固定符号。源不变截止仍不选原周期，须支付实际相对链及球来源 |
+| 当前主线 | [源域上的原Haar球截止与真实传递](reviews/2026-10-04/f1-physical-cutoff-on-source-domain-next-proof-plan.md) | 先计算原A及uAu*全部压缩迹、新边通量与两截止传递，再给商闭链及规范电荷比较；仍须算术主关系及全Weil比较 |
+| 必要辅助 | 原始文献、精确审计、只读独立复核 | 新12,664项精确有限纤维模型检查；原207项、16,261项及423四项Lean核心证明保持，十处旧admission不改。无限分析与机器模型范围分列 |
 
 [任务单](goals/NEXT.20260909.md)与[账本](goals/PROGRESS.md)记录剩余动作。完整主除子、两次数、RR与固定通常ζ目标仍开放。
 

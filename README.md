@@ -1,5 +1,21 @@
 # RH / Weil 结构研究
 
+## 当前研究状态（2026-10-04，430–433）
+
+[430](notes/430-f1-source-stable-periodic-smoothing-algebra.md)计算全部原源交叉Gram，
+构造保留真实u、原时间和采样的双侧源稳定星代数；周期尾替换的误差确为迹类。
+[431](notes/431-f1-source-orbit-essential-symbol-and-boundary-injectivity.md)给全部有限源矩阵的精确本质范数与商，
+证明有限词加权边界单射，并核准最小真实源理想的商非交换；周期单角商也已具体计算。
+[432](notes/432-f1-relative-cycle-charge-and-source-invariant-cutoff.md)由普通迹给规范HH₁电荷，
+但原加权链仍不闭，对真正u不变的实际截止仍无法选出原球截止周期。
+[433](notes/433-f1-source-cesaro-limit-and-noncompact-fixed-sector.md)计算共轭平均的显式范数极限；
+p<q时最小源理想必有非紧固定符号，故有限词单射不能外推到完成域。
+
+无限分析与独立全文复核、12,664项精确有限纤维模型审计分别列范围，没有新Lean分析证明。
+下一任务是[源域上的原Haar球截止与真实传递](reviews/2026-10-04/f1-physical-cutoff-on-source-domain-next-proof-plan.md)。
+规范周期选择、完整相对Chern、算术主关系、Weil正性、实位／全素数比较与RR、RH仍开放。
+下方为历史快照；427–429检查点已推送main：c013a4c。
+
 ## 当前研究状态（2026-10-04，427–429；426检查点已推送）
 
 422–426及独立审查、精确审计和Lean核心证明已由`9d0cb1a`保存到GitHub main。
