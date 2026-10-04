@@ -1,5 +1,20 @@
 # RH / Weil 结构研究
 
+## 当前研究状态（2026-10-04，427–429；426检查点已推送）
+
+422–426及独立审查、精确审计和Lean核心证明已由`9d0cb1a`保存到GitHub main。
+[427](notes/427-f1-corner-product-algebra-and-unavoidable-trace-cocycle.md)继续证明固定角点域是实际星代数，
+但完整交换子迹为−4∫s h(s)k(−s)ds，一般非零；匹配普通迹的全代数标量循环扩张因此不可能。
+原商循环1余圈和实际截止边通量均已明确，不能自由扣掉异常。
+[428](notes/428-f1-corner-essential-symbol-and-complete-readout-freedom.md)精算本质范数2‖ĥ‖∞与实际frequency C₀商，
+全部LF受限读出恰任意时间分布；原T商作用为单位，不能选定周期读出，符号范数连续性还会排除原周期原子。
+[429](notes/429-f1-original-unitary-crosses-the-fixed-corner-domain.md)证明真源u搬出非紧的新边，
+不保持现有域或其C*完成；源比较必须扩大实际边域。
+
+新三稿经独立全文复核，207项精确有理积分核验另列模型范围；没有新Lean无限分析认证。
+下一任务是[真源保持的边代数及带异常相对Chern比较](reviews/2026-10-04/f1-source-stable-edge-algebra-and-relative-cocycle-next-proof-plan.md)。
+规范周期选择、算术主关系、实位／全素数Weil正性及RR仍未完成；以下为历史快照。
+
 ## 当前研究状态（2026-10-04，424–426）
 
 [424](notes/424-f1-relative-chain-repair-and-four-component-obstruction.md)排除旧域中的连续不变标量扩张，

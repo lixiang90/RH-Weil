@@ -1,0 +1,112 @@
+{
+  "status": "passed_corner_algebra_scoped_checkpoint",
+  "checked_at_utc": "2026-10-04T07:34:17.254727+00:00",
+  "base_commit": "9d0cb1a356d79c93f28931362e303158ea7e8214",
+  "canonical_text_hashes": "SHA256 after CRLF to LF normalization",
+  "protected_previous_sources": {
+    "goals/GOAL.20260909.md": "17e5b51bd0a19115eb479772638b695deed7f5389ec2156d657ce4601f1f5572",
+    "reviews/2026-10-04/f1-research-checkpoint-validation.json": "1c8b294476825c419108fcee2432e27a5195b874d29723cf4004f6dad588d1ca",
+    "reviews/2026-10-04/f1-fixed-corner-checkpoint-validation.json": "e5ad1d42d37132318377be292468d6fb6d79fba1fddf38baaee21aa885d08afa",
+    "reviews/2026-10-04/f1-corner-recenter-exact-audit.json": "a7328443f3a65a1060188e6e56e96d222ef263e20bc50fca46dd2ecdf18e1193",
+    "scripts/corner_recenter_exact_audit.py": "69546c798ae1048e747ae3a09698f02bc436bafb9f13227b99a11bb5efc239d7",
+    "formal/F1/Analysis/TwistedRadialWitness.lean": "6509a180a715a289882efc9a8c8903957fac2bdebc6948ead3a79856bf0487d3",
+    "notes/424-f1-relative-chain-repair-and-four-component-obstruction.md": "23b1ca33824e7420e5c55a8f636a0ac9654ed2ee1f21601b147ef2cb174eaf23",
+    "notes/425-f1-recentered-geometric-corner-and-source-period-finite-part.md": "fe933bbb822bcc47df25511a700744ee222576012e4dc46a1f10d229d9b6afdd",
+    "notes/426-f1-fixed-corner-source-commutators-and-relative-readout-module.md": "e90e74e394c0f8a400cf678d81695e63e63eb5e6712af021ecb9bf8355ddb3bd",
+    "notes/422-f1-radial-finite-part-and-corner-anomaly.md": "98d76e9e1364871bfc9ce99837f0b3620eb8f41d7d8a8a32e0f1d568c7752bd8",
+    "notes/423-f1-twisted-radial-readout-and-mixed-period-obstruction.md": "07592e3a7192b78db338e02c27a43a1996b9ae754935b8d1e8ce367487fb6add",
+    "reviews/2026-10-04/f1-relative-chain-independent-review.md": "f88268144def82bb3322a84ce252079b496743aecf133a966c9524f6b0bc250e",
+    "reviews/2026-10-04/f1-geometric-corner-independent-review.md": "06efd33ba3e0c4dd0ea64bb0233ba3635ba3c4693f33fb01d5f4522bb34ba358",
+    "reviews/2026-10-04/f1-geometric-corner-second-review.md": "7e89d6d44d58d38e2ab61e9bd148771a6e4be1455c549e12645294b44b115448",
+    "reviews/2026-10-04/f1-source-readout-independent-review.md": "ddcdee615acdb5010849d3f7b3a9380dfe7ccfbbf0ca8786efbc176b6cbdf8b8",
+    "reviews/2026-10-04/f1-source-readout-second-review.md": "97e0a307de89950d4307704200a0a322598dbfd6be516ae3326c01308f0f5348",
+    "reviews/2026-10-04/f1-source-readout-chain-review.md": "369036ecfbf96b6467d0325e480c558b7d7d955e1bba7432b2fa033fcbdce452"
+  },
+  "long_term_goal_unchanged": true,
+  "independent_review_bindings": {
+    "notes/427-f1-corner-product-algebra-and-unavoidable-trace-cocycle.md": [
+      "f1-corner-product-independent-review.md",
+      "f1-corner-cocycle-chain-review.md"
+    ],
+    "notes/428-f1-corner-essential-symbol-and-complete-readout-freedom.md": [
+      "f1-corner-symbol-independent-review.md",
+      "f1-corner-symbol-second-review.md"
+    ],
+    "notes/429-f1-original-unitary-crosses-the-fixed-corner-domain.md": [
+      "f1-original-unitary-independent-review.md",
+      "f1-original-unitary-second-review.md",
+      "f1-original-unitary-source-review.md"
+    ]
+  },
+  "local_links_checked": 991,
+  "exact_polynomial_assertions": 207,
+  "new_lean_results": 0,
+  "previous_lean_sources_unchanged": true,
+  "old_admissions": [
+    {
+      "source": "formal/F1/Analysis/Jensen.lean",
+      "line": 41
+    },
+    {
+      "source": "formal/F1/Analysis/Jensen.lean",
+      "line": 48
+    },
+    {
+      "source": "formal/F1/Analysis/Jensen.lean",
+      "line": 57
+    },
+    {
+      "source": "formal/F1/Analysis/Jensen.lean",
+      "line": 63
+    },
+    {
+      "source": "formal/F1/Analysis/Weil.lean",
+      "line": 33
+    },
+    {
+      "source": "formal/F1/Analysis/Weil.lean",
+      "line": 43
+    },
+    {
+      "source": "formal/F1/Arithmetic/PrimeLocalization.lean",
+      "line": 47
+    },
+    {
+      "source": "formal/F1/Arithmetic/Sheaf.lean",
+      "line": 48
+    },
+    {
+      "source": "formal/F1/Arithmetic/Sheaf.lean",
+      "line": 53
+    },
+    {
+      "source": "formal/F1/Geometry/ReducedSquare.lean",
+      "line": 37
+    }
+  ],
+  "full_F1_build": false,
+  "scope": "427 actual product algebra, nonzero trace-class commutator, quotient cyclic 1-cocycle and cutoff flux; 428 essential norm, C*-symbol quotient, all LF readout distributions and operator-quotient discontinuity; 429 actual original unitary's noncompact off-corner rows and failure of domain/multiplier/normalizer admission. Infinite analysis independently reviewed, not machine formalized. Exact rational polynomial models are not the smooth Haar-prime frame. No full relative Chern, canonical arithmetic principal relation, full Weil positivity, RR or RH result.",
+  "source_sha256": {
+    "README.md": "8ecf8a0d78dfba711c6a3b00a08f4cadccba08228b0fb0a1a34df65ac4e94a8e",
+    "RESEARCH_BRANCHES.md": "9fa88911b02b5dd6de5510ca2a60467f854f3dee8a9a911481db384b568dbdfe",
+    "goals/NEXT.20260909.md": "51dd21b76c1d35ef5e6b4fb328b19bcbe90609d3f9a4dc73949f57fc7fe28d28",
+    "goals/PROGRESS.md": "25a3a21382781d94a2b1764c41cc3bda87e992e05f4c7ce79ca7e0288e66a976",
+    "notes/427-f1-corner-product-algebra-and-unavoidable-trace-cocycle.md": "03c63b49b105874582775ee57d2770305123389f2ff939c881b8c6a93d793410",
+    "notes/428-f1-corner-essential-symbol-and-complete-readout-freedom.md": "a696fba58ea68d9ad4d5141ca34684b5c3c876c9a64b8f38ac7c5ae3968a7403",
+    "notes/429-f1-original-unitary-crosses-the-fixed-corner-domain.md": "2b6caea39f3229205207694e9ed1acb514abbe7165c65f24aff981c135e39fc9",
+    "reviews/2026-10-04/f1-corner-cocycle-chain-review.md": "f12e55c3362710751ddce44dd68a504624005aaec24948ee44f655be612dd431",
+    "reviews/2026-10-04/f1-corner-commutator-moment-audit.json": "f97b9c2723642e29ccd2f50a0ef2d1d117d4e9e162b8d51f10e9cb8cf0892d41",
+    "reviews/2026-10-04/f1-corner-essential-norm-and-readout-classification.md": "ae3c7a960461b20d3988ec89c9ac2d22d83a4a1254f113f4eb55fab0b871321d",
+    "reviews/2026-10-04/f1-corner-product-and-commutator-derivation.md": "3e9a642ecc6905f0baa20f32a250ecd005428d7cf272c83be11fc12c07f581da",
+    "reviews/2026-10-04/f1-corner-product-independent-review.md": "0b625b5c79386b278dcc805862d8a64b29055bc12da36df308a710f578003421",
+    "reviews/2026-10-04/f1-corner-symbol-independent-review.md": "fb2e9f578fe56323634d006c2bbcaa06ec6570648b4c714c15909b86b1fea0e3",
+    "reviews/2026-10-04/f1-corner-symbol-second-review.md": "536ff047c21dca78c0fdb1e4071359c8812193affd4084d9f9c13d1110667dc5",
+    "reviews/2026-10-04/f1-original-unitary-corner-domain-obstruction.md": "da8113a2a57709e563271183c016a82efcbad9169b2b80ee9e63ba0d6d3869b7",
+    "reviews/2026-10-04/f1-original-unitary-independent-review.md": "52939dc64b0b4247d4a27e93649ec709632b9ea9f354832ed619fd310b68e6e0",
+    "reviews/2026-10-04/f1-original-unitary-second-review.md": "23f8a7d12073a55043a81d69b40412af77f62d7a9719d233ffbea5b21db0e20b",
+    "reviews/2026-10-04/f1-original-unitary-source-review.md": "71efacb7015ec923214e8d80c28855e58e3ed6fec62897472f7425a8dfcabbc6",
+    "reviews/2026-10-04/f1-source-stable-edge-algebra-and-relative-cocycle-next-proof-plan.md": "e9baaf3c5bf1c843e9758980e38121b46ffd42b403115c550ecf4f72c18e8f9b",
+    "reviews/2026-10-04/validate_corner_algebra_checkpoint.py": "76b4679a2896f211ca146dd1d2bf01cb2149760610860ec826f698cf04baf4d8",
+    "scripts/corner_commutator_moment_audit.py": "47a9dc3e5be1b1493a9fd836a7724b2616ff0b93e0846aa992f631213d52019c"
+  }
+}

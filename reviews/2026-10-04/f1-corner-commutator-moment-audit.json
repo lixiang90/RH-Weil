@@ -1,0 +1,122 @@
+{
+  "status": "passed_exact_fraction_polynomial_integrals",
+  "arithmetic": "fractions.Fraction; exact polynomial antiderivatives; no floating point or quadrature",
+  "profiles": [
+    {
+      "name": "cubic_C1_step",
+      "origin": "0",
+      "width": "1",
+      "local_polynomial_coefficients_ascending": [
+        "0",
+        "0",
+        "6",
+        "-4"
+      ],
+      "left_tail": "0",
+      "right_tail": "2",
+      "identity": "integral m(x)*(m(x-s)-m(x+s)) dx = -4*s"
+    },
+    {
+      "name": "quintic_C2_step",
+      "origin": "-2/3",
+      "width": "7/5",
+      "local_polynomial_coefficients_ascending": [
+        "0",
+        "0",
+        "0",
+        "20",
+        "-30",
+        "12"
+      ],
+      "left_tail": "0",
+      "right_tail": "2",
+      "identity": "integral m(x)*(m(x-s)-m(x+s)) dx = -4*s"
+    }
+  ],
+  "shift_count_per_profile": 83,
+  "shift_set_rule": "n/d for -8<=n<=8 and 1<=d<=7, union +/-9/2 and +/-11/3",
+  "checks": {
+    "profile_tails_and_endpoints": 2,
+    "profile_flat_first_derivative_endpoints": 2,
+    "frame_translation_moment_exact": 166,
+    "non_even_h_even_k_moment_positive": 1,
+    "commutator_coefficient_nonzero": 1,
+    "reflected_k_moment": 1,
+    "even_even_moment_zero": 1,
+    "compact_bump_L1_exact": 1,
+    "compact_bump_center_value": 1,
+    "scaled_compact_bump_L1": 8,
+    "isolated_toy_atom_stays_nonzero": 8,
+    "scaled_bump_avoids_zero": 8,
+    "scaled_L1_strictly_decreases": 7
+  },
+  "total_exact_assertions": 207,
+  "compact_polynomial_tests": {
+    "beta": "(1-t^2)^3 for |t|<=1, zero outside (C2, not C-infinity)",
+    "h": "(1+t)*beta(t)",
+    "k_even": "beta(t)",
+    "integral_t_h_t_k_minus_t": "2048/45045",
+    "commutator_coefficient_minus_4_moment": "-8192/45045",
+    "k_reflected_h": "h(-t)",
+    "reflected_moment": "4096/45045",
+    "reflected_commutator_coefficient": "-16384/45045",
+    "even_even_moment": "0"
+  },
+  "isolated_toy_atom_scaling": {
+    "center": "-3/2",
+    "weight": "7/11",
+    "base_bump_L1_norm": "32/35",
+    "examples": [
+      {
+        "epsilon": "1/2",
+        "L1_norm": "16/35",
+        "symbolic_operator_norm_upper_bound_2_L1": "32/35",
+        "toy_atom_value": "7/11"
+      },
+      {
+        "epsilon": "1/4",
+        "L1_norm": "8/35",
+        "symbolic_operator_norm_upper_bound_2_L1": "16/35",
+        "toy_atom_value": "7/11"
+      },
+      {
+        "epsilon": "1/8",
+        "L1_norm": "4/35",
+        "symbolic_operator_norm_upper_bound_2_L1": "8/35",
+        "toy_atom_value": "7/11"
+      },
+      {
+        "epsilon": "1/16",
+        "L1_norm": "2/35",
+        "symbolic_operator_norm_upper_bound_2_L1": "4/35",
+        "toy_atom_value": "7/11"
+      },
+      {
+        "epsilon": "1/32",
+        "L1_norm": "1/35",
+        "symbolic_operator_norm_upper_bound_2_L1": "2/35",
+        "toy_atom_value": "7/11"
+      },
+      {
+        "epsilon": "1/64",
+        "L1_norm": "1/70",
+        "symbolic_operator_norm_upper_bound_2_L1": "1/35",
+        "toy_atom_value": "7/11"
+      },
+      {
+        "epsilon": "1/128",
+        "L1_norm": "1/140",
+        "symbolic_operator_norm_upper_bound_2_L1": "1/70",
+        "toy_atom_value": "7/11"
+      },
+      {
+        "epsilon": "1/256",
+        "L1_norm": "1/280",
+        "symbolic_operator_norm_upper_bound_2_L1": "1/140",
+        "toy_atom_value": "7/11"
+      }
+    ]
+  },
+  "scope": "Finite rational piecewise-polynomial surrogate identities and exact scaling only. The polynomials are not actual smooth Haar-prime frame data or C_c^infinity tests. No trace-class, noncompactness, essential-norm, topology, cyclic-source, actual-prime, global positivity or RH certification.",
+  "script_sha256": "47a9dc3e5be1b1493a9fd836a7724b2616ff0b93e0846aa992f631213d52019c"
+}

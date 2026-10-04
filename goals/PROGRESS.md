@@ -1,5 +1,30 @@
 # 持续GOAL执行账本：20260909版重启
 
+## 2026-10-04：GitHub保存与427–429实际代数／真源准入研究
+
+按用户指令，将422–426、全部审查与核验提交并推送GitHub main，commit 9d0cb1a。
+同步远端确认成功后继续研究，原检查点与422–426正文均按原件保持。
+
+[427](../notes/427-f1-corner-product-algebra-and-unavoidable-trace-cocycle.md)由原平滑采样给V*V=M_m，m两端0／2；
+证明A(h)A(k)=2A(h*k)+S₁，D成为真实星代数。
+完整交换子普通迹精确为−4∫s h(s)k(−s)ds，匹配普通迹的任何全D标量循环扩张均不可能。
+符号ω=(2πi)⁻¹∫a′b是具体非零循环1余圈，lift与迹类修正无关；两项实际截止边通量分别迹类，差的极限准确。
+
+[428](../notes/428-f1-corner-essential-symbol-and-complete-readout-freedom.md)证明非零h的A(h)非紧，
+‖A(h)‖ess=‖A(h)‖=2‖ĥ‖∞，实际C*范数商是frequency C₀。
+在426指定LF⊕S₁拓扑下，全部普通迹匹配的受限相容读出恰任意时间分布ℓ。
+MQ在商中只按标量作用、T为单位；原Λ不在符号一致范数上连续，不能靠该要求选出周期原子。
+
+[429](../notes/429-f1-original-unitary-crosses-the-fixed-corner-domain.md)直接核原u有限Fourier源与完整物理表示，
+给深负p、q=1的新边块B_M和加权真源q=1块−B₀；右伴随平移与双平方分割完整保留。
+原uA、Au及加权源式不在D或其范数完成，Ad u也不保持该新C*域。
+这种非紧修正不能靠S₁余项支付，不混同原T的局部零迹与真源u的准入。
+
+三稿限定全文独立复核；207项闭式有理积分检查通过，验证端点−4因子、非零moment和toy原子缩放。
+机器模型不是实际光滑prime算子证明，完整无限维分析独立审查；旧四项Lean及十处admission保持。
+下一任务是[真源保持边域与带异常相对Chern比较](../reviews/2026-10-04/f1-source-stable-edge-algebra-and-relative-cocycle-next-proof-plan.md)。
+主根空间／规范周期选择、完整Weil正性、实位与全素数比较、有效性及RR、RH均未证明，长期GOAL不改。
+
 ## 2026-10-04：424–426固定正角、截止歧义与原源读出双模
 
 [424](../notes/424-f1-relative-chain-repair-and-four-component-obstruction.md)证明任意非零标签的连续不变标量扩张不可能，
