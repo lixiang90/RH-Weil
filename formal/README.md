@@ -1,5 +1,15 @@
 # F₁ 路线的 Lean + mathlib 形式化蓝图
 
+## 2026-10-04：任意标签的有限秩扭曲见证
+
+[TwistedRadialWitness.lean](F1/Analysis/TwistedRadialWitness.lean)在Lean核心整数理论中证明
+一维／二维点态系数及任意γ的两个群乘积标签，共四项；
+[实际核验](checks/twisted-radial-witness-verification.json)通过，依赖仅propext、Quot.sound，无sorryAx。
+运行 `python formal/scripts/check_twisted_radial_witness.py`（仓库根目录）即可独立复现，
+只需固定Lean4.32.2，不需要mathlib缓存。生成物隔离在checks的忽略运行目录。
+数学对应见[423](../notes/423-f1-twisted-radial-readout-and-mixed-period-obstruction.md)；
+无穷迹、扭曲循环理论、相对算术比较及RH不在这些四项证明范围，未重建全F1库。
+
 ## 2026-09-20：谱迹根空间与双矩修正
 
 [TraceRadical.lean](F1/Analysis/TraceRadical.lean)新增八条代数引理，已实际通过Lean编译，

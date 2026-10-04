@@ -1,0 +1,85 @@
+{
+  "status": "passed_scoped_research_checkpoint",
+  "checked_at_utc": "2026-10-04T05:50:39.519291+00:00",
+  "base_commit": "ae5254841429fe5cd3753e12b3056a0f9415cc7b",
+  "local_links_checked": 1142,
+  "lean_new_results": 4,
+  "lean_no_sorry_dependencies": true,
+  "old_admissions": [
+    {
+      "source": "formal/F1/Analysis/Jensen.lean",
+      "line": 41
+    },
+    {
+      "source": "formal/F1/Analysis/Jensen.lean",
+      "line": 48
+    },
+    {
+      "source": "formal/F1/Analysis/Jensen.lean",
+      "line": 57
+    },
+    {
+      "source": "formal/F1/Analysis/Jensen.lean",
+      "line": 63
+    },
+    {
+      "source": "formal/F1/Analysis/Weil.lean",
+      "line": 33
+    },
+    {
+      "source": "formal/F1/Analysis/Weil.lean",
+      "line": 43
+    },
+    {
+      "source": "formal/F1/Arithmetic/PrimeLocalization.lean",
+      "line": 47
+    },
+    {
+      "source": "formal/F1/Arithmetic/Sheaf.lean",
+      "line": 48
+    },
+    {
+      "source": "formal/F1/Arithmetic/Sheaf.lean",
+      "line": 53
+    },
+    {
+      "source": "formal/F1/Geometry/ReducedSquare.lean",
+      "line": 37
+    }
+  ],
+  "long_term_goal_unchanged": true,
+  "exact_lattice_counts": {
+    "invariance_checks": 100,
+    "twisted_monomial_anomaly_checks": 625,
+    "corrected_source_nonzero_label_checks": 600,
+    "corrected_source_zero_label_checks": 50,
+    "finite_grid_witnesses": 81
+  },
+  "full_F1_build": false,
+  "scope": "422 and corrected 423 independently reviewed in their stated domains; exact lattice bookkeeping and four core Lean witness theorems. No full analytic formalization, global principal relation, G0-G8 existence, RR, RH or zero proportion result.",
+  "source_sha256": {
+    ".gitignore": "c579222e243b8c93269aa39f7d808c731e2849da43234cbcbedd868c833ec68e",
+    "README.md": "37441454dc22180b1ad294660c6158fff5eddff1305f1bc358c996d6b80e2be2",
+    "RESEARCH_BRANCHES.md": "60533cfeaf345033d70c9c6dbb1b91a9fde04ef7f645ec14dd5e06c14a2b120d",
+    "formal/F1/Analysis/TwistedRadialWitness.lean": "6509a180a715a289882efc9a8c8903957fac2bdebc6948ead3a79856bf0487d3",
+    "formal/README.md": "0030a2aed4d59a57bae86fed076141f5e297a389092bfbda8ce3a5d80753db99",
+    "formal/checks/README.md": "73a3a359ca487c6b7c2a5cc016b3fc6be0a39f3d68ee9ccf1dd0b259e8331302",
+    "formal/checks/TwistedRadialWitnessAudit.lean": "d94ca903d962026563ffde39e33ce85aecaa32b97de2a42eab99a4ce7dc5d110",
+    "formal/checks/twisted-radial-witness-axioms.txt": "b3d4a935213d9bfd3105633d3fd33a0d4dc39d1c2a3596882e69a55d54a95735",
+    "formal/checks/twisted-radial-witness-build.txt": "5681a4c8508445f303db842fab5729ab395ea4ca600b888e887127a450743cdc",
+    "formal/checks/twisted-radial-witness-verification.json": "4d977607e4ca84d756e3be589dd00308f4baeb23973f299943ceea7410528f91",
+    "formal/scripts/check_twisted_radial_witness.py": "2fd6a616b6076208559e333a3ef17e856e969613041d662d1e3026f2452e5e76",
+    "goals/NEXT.20260909.md": "e3cf957bdfd4df30a93445e6e42baf6724a66731e9e2fa1df429f55eca1e659f",
+    "goals/PROGRESS.md": "25a62503ff485bcc9f92ccbd7e6b7ce1fe613388eda7c0d2a02c34c27c0f61f0",
+    "notes/422-f1-radial-finite-part-and-corner-anomaly.md": "c928b7c53a214ff193210f230d9c2f474ccd90da8ca2e23f88c34ce190114647",
+    "notes/423-f1-twisted-radial-readout-and-mixed-period-obstruction.md": "07592e3a7192b78db338e02c27a43a1996b9ae754935b8d1e8ce367487fb6add",
+    "reviews/2026-10-04/f1-edge-corner-relative-chain-next-proof-plan.md": "55dec9a3d090ce48b1b9638479bfb502f7fd8263036b6e2193f9858a6b2dc4ef",
+    "reviews/2026-10-04/f1-radial-finite-part-independent-review.md": "76c6ddeef86ab509bd3115876ff5e34f1d3fab176e21e6b26bf5e7079a7a8a87",
+    "reviews/2026-10-04/f1-twisted-radial-independent-review.md": "fcbe5a247cebe87fcb58af3b3553e924c29061bf0a38235f9d17f4f012d3c801",
+    "reviews/2026-10-04/f1-twisted-radial-witness-audit.json": "da395888514cd32291349b22fcbd23536797dbdc788ebbbd9a6eac354a8f13ec",
+    "reviews/2026-10-04/f1-twisted-research-derivation.md": "ac2b29691a488459139604e9f2ee0feabd17922bb0382b96512973c798099107",
+    "reviews/2026-10-04/project-progress-independent-audit.md": "78d747f6e7e2cfabaf9346811b93c4db2482990b86c3e659d9253ff0fac84cf0",
+    "reviews/2026-10-04/validate_research_checkpoint.py": "07b1cec0885be97ea9f033136cffbe81b114c6a783a36ffe940e91dbcd3cac9f",
+    "scripts/twisted_radial_witness_audit.py": "16eae8d046d0a62d6dc85878b4179f8f6871be015e763c8f2f5fafae036bf3f0"
+  }
+}

@@ -1,0 +1,8 @@
+F1/Analysis/TwistedRadialWitness.lean
+
+checks/TwistedRadialWitnessAudit.lean
+'RHWeil.F1.twistedLattice_rankOne' depends on axioms: [propext, Quot.sound]
+'RHWeil.F1.twistedLattice_twoDimensional' depends on axioms: [propext, Quot.sound]
+'RHWeil.F1.twistedWitness_forwardLabel' depends on axioms: [propext, Quot.sound]
+'RHWeil.F1.twistedWitness_reverseLabel' depends on axioms: [propext, Quot.sound]
+

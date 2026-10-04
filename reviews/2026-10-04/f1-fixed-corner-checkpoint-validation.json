@@ -1,0 +1,115 @@
+{
+  "status": "passed_fixed_corner_scoped_checkpoint",
+  "checked_at_utc": "2026-10-04T07:02:32.629137+00:00",
+  "base_commit": "ae5254841429fe5cd3753e12b3056a0f9415cc7b",
+  "previous_checkpoint_preserved_sha256": "cc32ff12a9ec70090af5dda497b3165c5add9efce934b5ceddb7bb88e4cbc3b2",
+  "previous_notes_unchanged_sha256": {
+    "notes/422-f1-radial-finite-part-and-corner-anomaly.md": "c928b7c53a214ff193210f230d9c2f474ccd90da8ca2e23f88c34ce190114647",
+    "notes/423-f1-twisted-radial-readout-and-mixed-period-obstruction.md": "07592e3a7192b78db338e02c27a43a1996b9ae754935b8d1e8ce367487fb6add"
+  },
+  "long_term_goal_unchanged": true,
+  "independent_review_bindings": {
+    "notes/424-f1-relative-chain-repair-and-four-component-obstruction.md": [
+      "f1-relative-chain-independent-review.md"
+    ],
+    "notes/425-f1-recentered-geometric-corner-and-source-period-finite-part.md": [
+      "f1-geometric-corner-independent-review.md",
+      "f1-geometric-corner-second-review.md"
+    ],
+    "notes/426-f1-fixed-corner-source-commutators-and-relative-readout-module.md": [
+      "f1-source-readout-independent-review.md",
+      "f1-source-readout-second-review.md",
+      "f1-source-readout-chain-review.md"
+    ]
+  },
+  "local_links_checked": 1182,
+  "exact_fraction_assertions": 16261,
+  "new_lean_results": 0,
+  "previous_four_lean_results_sources_unchanged": true,
+  "old_admissions": [
+    {
+      "source": "formal/F1/Analysis/Jensen.lean",
+      "line": 41
+    },
+    {
+      "source": "formal/F1/Analysis/Jensen.lean",
+      "line": 48
+    },
+    {
+      "source": "formal/F1/Analysis/Jensen.lean",
+      "line": 57
+    },
+    {
+      "source": "formal/F1/Analysis/Jensen.lean",
+      "line": 63
+    },
+    {
+      "source": "formal/F1/Analysis/Weil.lean",
+      "line": 33
+    },
+    {
+      "source": "formal/F1/Analysis/Weil.lean",
+      "line": 43
+    },
+    {
+      "source": "formal/F1/Arithmetic/PrimeLocalization.lean",
+      "line": 47
+    },
+    {
+      "source": "formal/F1/Arithmetic/Sheaf.lean",
+      "line": 48
+    },
+    {
+      "source": "formal/F1/Arithmetic/Sheaf.lean",
+      "line": 53
+    },
+    {
+      "source": "formal/F1/Geometry/ReducedSquare.lean",
+      "line": 37
+    }
+  ],
+  "full_F1_build": false,
+  "scope": "424 continuous scalar obstruction and relative-chain identities; 425 source-specific fixed corner, trace-class physical cutoffs, exact period comparison and alternative-cutoff obstruction; 426 trace-class source commutators, linear readout bimodule and explicit nonuniqueness. Infinite Hilbert analysis is independently reviewed, not machine formalized. The exact rational models do not certify actual prime parameters, full relative Chern/principal comparison, Weil positivity, RR or RH.",
+  "source_sha256": {
+    ".gitignore": "c579222e243b8c93269aa39f7d808c731e2849da43234cbcbedd868c833ec68e",
+    "README.md": "851a5c3da68d5622636c485e361b4d3b87db7710e1b2305f7104231b141db007",
+    "RESEARCH_BRANCHES.md": "8e2d28abc0946b4672a09e6ec7e443da0f8986aae4f352bbb02254fdd0f364f6",
+    "formal/F1/Analysis/TwistedRadialWitness.lean": "6509a180a715a289882efc9a8c8903957fac2bdebc6948ead3a79856bf0487d3",
+    "formal/README.md": "0030a2aed4d59a57bae86fed076141f5e297a389092bfbda8ce3a5d80753db99",
+    "formal/checks/README.md": "73a3a359ca487c6b7c2a5cc016b3fc6be0a39f3d68ee9ccf1dd0b259e8331302",
+    "formal/checks/TwistedRadialWitnessAudit.lean": "d94ca903d962026563ffde39e33ce85aecaa32b97de2a42eab99a4ce7dc5d110",
+    "formal/checks/twisted-radial-witness-axioms.txt": "b3d4a935213d9bfd3105633d3fd33a0d4dc39d1c2a3596882e69a55d54a95735",
+    "formal/checks/twisted-radial-witness-build.txt": "5681a4c8508445f303db842fab5729ab395ea4ca600b888e887127a450743cdc",
+    "formal/checks/twisted-radial-witness-verification.json": "4d977607e4ca84d756e3be589dd00308f4baeb23973f299943ceea7410528f91",
+    "formal/scripts/check_twisted_radial_witness.py": "2fd6a616b6076208559e333a3ef17e856e969613041d662d1e3026f2452e5e76",
+    "goals/NEXT.20260909.md": "dbb61b061959a7b9ade01c459175b13636fcd43910ae8dac4bdb362a9d228e72",
+    "goals/PROGRESS.md": "f2c6ae71c4b0cb694448a7b41164962af3d809e81e407bc0514e64fb36fd02a3",
+    "notes/422-f1-radial-finite-part-and-corner-anomaly.md": "c928b7c53a214ff193210f230d9c2f474ccd90da8ca2e23f88c34ce190114647",
+    "notes/423-f1-twisted-radial-readout-and-mixed-period-obstruction.md": "07592e3a7192b78db338e02c27a43a1996b9ae754935b8d1e8ce367487fb6add",
+    "notes/424-f1-relative-chain-repair-and-four-component-obstruction.md": "23b1ca33824e7420e5c55a8f636a0ac9654ed2ee1f21601b147ef2cb174eaf23",
+    "notes/425-f1-recentered-geometric-corner-and-source-period-finite-part.md": "fe933bbb822bcc47df25511a700744ee222576012e4dc46a1f10d229d9b6afdd",
+    "notes/426-f1-fixed-corner-source-commutators-and-relative-readout-module.md": "e90e74e394c0f8a400cf678d81695e63e63eb5e6712af021ecb9bf8355ddb3bd",
+    "reviews/2026-10-04/f1-corner-recenter-exact-audit.json": "d0c15ec26919b96b1544ae23edd46e461f0383fb970b9b8efac4a0851f13b2f5",
+    "reviews/2026-10-04/f1-cutoff-boundary-limit-derivation.md": "4a0bc5d1d0b9d184ad9487f6240fdefeeb2e68febe288ba939658b1e94799070",
+    "reviews/2026-10-04/f1-edge-corner-relative-chain-next-proof-plan.md": "55dec9a3d090ce48b1b9638479bfb502f7fd8263036b6e2193f9858a6b2dc4ef",
+    "reviews/2026-10-04/f1-fixed-corner-source-comparison-next-proof-plan.md": "1ba1ae069511280b80eebe83244aacdbf46ac1781c1680a85bbef6ebe7ca8e34",
+    "reviews/2026-10-04/f1-four-component-relative-obstruction-derivation.md": "bfabca7f070d76228260f5f05526ef601deeb4738cda96b0e7550d5914472cd1",
+    "reviews/2026-10-04/f1-geometric-corner-independent-review.md": "06efd33ba3e0c4dd0ea64bb0233ba3635ba3c4693f33fb01d5f4522bb34ba358",
+    "reviews/2026-10-04/f1-geometric-corner-second-review.md": "7e89d6d44d58d38e2ab61e9bd148771a6e4be1455c549e12645294b44b115448",
+    "reviews/2026-10-04/f1-radial-finite-part-independent-review.md": "76c6ddeef86ab509bd3115876ff5e34f1d3fab176e21e6b26bf5e7079a7a8a87",
+    "reviews/2026-10-04/f1-relative-chain-derivation.md": "82547c0bda0d5d73eac9960abc61df8040fccf83d01ca81ccf8294e529d5743f",
+    "reviews/2026-10-04/f1-relative-chain-independent-review.md": "f88268144def82bb3322a84ce252079b496743aecf133a966c9524f6b0bc250e",
+    "reviews/2026-10-04/f1-research-checkpoint-validation.json": "cc32ff12a9ec70090af5dda497b3165c5add9efce934b5ceddb7bb88e4cbc3b2",
+    "reviews/2026-10-04/f1-source-readout-chain-review.md": "369036ecfbf96b6467d0325e480c558b7d7d955e1bba7432b2fa033fcbdce452",
+    "reviews/2026-10-04/f1-source-readout-independent-review.md": "ddcdee615acdb5010849d3f7b3a9380dfe7ccfbbf0ca8786efbc176b6cbdf8b8",
+    "reviews/2026-10-04/f1-source-readout-second-review.md": "97e0a307de89950d4307704200a0a322598dbfd6be516ae3326c01308f0f5348",
+    "reviews/2026-10-04/f1-twisted-radial-independent-review.md": "fcbe5a247cebe87fcb58af3b3553e924c29061bf0a38235f9d17f4f012d3c801",
+    "reviews/2026-10-04/f1-twisted-radial-witness-audit.json": "da395888514cd32291349b22fcbd23536797dbdc788ebbbd9a6eac354a8f13ec",
+    "reviews/2026-10-04/f1-twisted-research-derivation.md": "ac2b29691a488459139604e9f2ee0feabd17922bb0382b96512973c798099107",
+    "reviews/2026-10-04/project-progress-independent-audit.md": "78d747f6e7e2cfabaf9346811b93c4db2482990b86c3e659d9253ff0fac84cf0",
+    "reviews/2026-10-04/validate_fixed_corner_checkpoint.py": "aece2f1346dc366b1e557cbb9d6ef1eaf2f69e02c0f6d7b0f1c15814c0f2d442",
+    "reviews/2026-10-04/validate_research_checkpoint.py": "07b1cec0885be97ea9f033136cffbe81b114c6a783a36ffe940e91dbcd3cac9f",
+    "scripts/corner_recenter_exact_audit.py": "69546c798ae1048e747ae3a09698f02bc436bafb9f13227b99a11bb5efc239d7",
+    "scripts/twisted_radial_witness_audit.py": "16eae8d046d0a62d6dc85878b4179f8f6871be015e763c8f2f5fafae036bf3f0"
+  }
+}

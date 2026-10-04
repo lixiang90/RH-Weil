@@ -1,0 +1,112 @@
+{
+  "status": "passed_exact_fraction_checks",
+  "arithmetic": "fractions.Fraction; closed infinite geometric inner products; no float or tail truncation",
+  "models": [
+    {
+      "rho": "3/5",
+      "sqrt_one_minus_rho_squared": "4/5"
+    },
+    {
+      "rho": "5/13",
+      "sqrt_one_minus_rho_squared": "12/13"
+    }
+  ],
+  "ranges": {
+    "N": [
+      0,
+      4
+    ],
+    "R_minus_K": [
+      0,
+      6
+    ],
+    "one_dimensional_shift": [
+      -5,
+      5
+    ],
+    "wave_translate": [
+      -4,
+      4
+    ],
+    "two_channel_Np_Nq": [
+      0,
+      3
+    ],
+    "two_channel_group_labels": [
+      -4,
+      4
+    ],
+    "four_component_group_labels": [
+      -2,
+      2
+    ],
+    "escaped_ball_K": [
+      0,
+      6
+    ],
+    "minimal_H_reducing_hull_K": [
+      1,
+      6
+    ]
+  },
+  "checks": {
+    "rational_tail_normalization": 2,
+    "ball_norm": 10,
+    "wave_norm": 10,
+    "ball_wave_orthogonality": 10,
+    "ball_exact_recursion": 10,
+    "ball_shifted_trace": 110,
+    "wave_shifted_trace": 110,
+    "R_N_shifted_trace": 110,
+    "S_N_shifted_trace": 110,
+    "wave_translates_orthogonal": 810,
+    "R_N_projection_matrix": 10,
+    "S_N_projection_matrix": 10,
+    "R_increment_exact_matrix": 10,
+    "R_shell_product_zero_matrix": 10,
+    "R_recenter_exact_matrix": 10,
+    "S_recenter_exact_matrix": 10,
+    "wave_recenter_exact_coordinates": 10,
+    "R_minus_exact_wavelet_plus_escaped_ball_matrix": 14,
+    "escaped_ball_orthogonal_to_finite_wavelet_block": 14,
+    "R_minus_K_shifted_trace": 154,
+    "finite_negative_wavelet_block_shifted_trace": 154,
+    "escaped_ball_shifted_trace": 154,
+    "physical_minus_wavelet_trace_is_escaped_ball_trace": 154,
+    "H_negative_wave_exact_ball_tail": 12,
+    "minimal_H_reducing_hull_rank": 12,
+    "minimal_H_reducing_hull_inside_physical_R_minus": 12,
+    "physical_R_minus_reduces_H_matrix": 12,
+    "recenter_four_channels_orthogonal_projection_gram": 4736,
+    "original_half_trace_equals_positive_corner_trace": 1296,
+    "each_original_shell_half_equals_positive_channel": 1296,
+    "negative_channel_trace_equals_positive_channel": 1296,
+    "full_recenter_shifted_trace": 1296,
+    "mixed_group_trace_zero": 1024,
+    "original_mixed_channel_cross_trace_zero": 1296,
+    "positive_mixed_channel_cross_trace_zero": 1296,
+    "zero_label_positive_rank": 16,
+    "four_component_inverse": 25,
+    "four_component_group_law": 625,
+    "four_component_nilpotents": 1,
+    "four_component_commuting_nilpotents": 1,
+    "invariant_functionals_only_corner": 1,
+    "invariant_trace_normalization_inconsistent": 1,
+    "coinvariant_only_corner": 1
+  },
+  "total_exact_assertions": 16261,
+  "definitions": {
+    "b_N": "sqrt(1-rho^2) rho^(j-N) for j>=N",
+    "w_N": "rho e_N - sqrt(1-rho^2) b_(N+1)",
+    "R_N": "sum_{-N<=j<N} P_ej + P_bN",
+    "R_minus_K": "sum_{-K<=j<0} P_ej + P_b0",
+    "S_N": "P_e_(-N-1) + P_wN",
+    "wavelet_cutoff_split": "R_minus_K = sum_{-K<=n<0} P_wn + P_b_(-K)",
+    "H_negative_wave": "H w_(-n) = -sqrt(1-rho^2) rho^(n-1) b0, n>=1",
+    "minimal_H_reducing_hull": "span(F_K + H F_K) = range(R_minus_K), K>=1",
+    "positive_corner_channels": "R_minus_(2Np,p) tensor P_w0q and P_w0p tensor R_minus_(2Nq,q)",
+    "recenter": "conjugation by lambda_(-Np) tensor lambda_(-Nq)"
+  },
+  "scope": "Finite exact rational surrogate models and closed geometric-tail formulas. No actual-prime floating-point certification, time factors, infinite strong-limit or trace-domain certification, cyclic arithmetic comparison, positivity theorem or RH certificate.",
+  "script_sha256": "69546c798ae1048e747ae3a09698f02bc436bafb9f13227b99a11bb5efc239d7"
+}

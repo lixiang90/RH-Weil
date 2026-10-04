@@ -1,5 +1,31 @@
 # 20260909版重启任务单
 
+## 唯一当前任务（2026-10-04，424–426结算）
+
+执行[固定正角的规范原源链及截止自然性](../reviews/2026-10-04/f1-fixed-corner-source-comparison-next-proof-plan.md)。
+[424](../notes/424-f1-relative-chain-repair-and-four-component-obstruction.md)收束旧连续标量修补和直接相对锥，保留合法四分量模型。
+[425](../notes/425-f1-recentered-geometric-corner-and-source-period-finite-part.md)完成固定实际采样算子及物理截止与原半壳层迹的比较；
+波形截止同强极限却给零有限部，差别由两个原逃逸球通道承担。
+[426](../notes/426-f1-fixed-corner-source-commutators-and-relative-readout-module.md)证明QA、AQ及原自然源交换子迹类，普通迹为零；
+在明确线性双模中保留周期有限部并满足正象限乘子的循环相容性。
+下一步把该双模接入原两边／角点的合法相对Chern与规范主关系，明确允许截止的自然性；
+同域零周期读出也满足受限乘子循环，须由原来源证明读出选择而非只重复迹零核验。
+不能把受限乘子相容性冒称全代数循环或直接宣称Weil正性。
+三稿独立复核、16,261项精确有理模型核验与保存检查分别列范围；本轮未新增Lean无限分析证明。
+完整主除子、实位和全素数比较、双次数、RR及长期GOAL第十节保持；以下为历史任务。
+
+## 唯一当前任务（2026-10-04，422–423结算）
+
+执行[实际边／角相对链及原周期比较](../reviews/2026-10-04/f1-edge-corner-relative-chain-next-proof-plan.md)。
+[422](../notes/422-f1-radial-finite-part-and-corner-anomaly.md)完成限定全文独立审查；
+[423](../notes/423-f1-twisted-radial-readout-and-mixed-period-obstruction.md)算出全部扭曲异常和原源非零时间式，
+并给任意标签的有限秩扩张障碍、D及裸E的下过渡混合不相容。
+独立逆审发现E零标签必须保留右侧Q的平移，修正后平台项准确抵消，不能冒称固定d近锐正反例。
+四项Lean核心证明及精确格点核验通过；全分析独立审查与形式化范围分列。
+下一任务携带Δ、D、E及实际提升边条带构造合法相对链，检验分割自然性、原周期比较和主消失。
+若用N→∞越出固定N开放理想消失，须给明确拓扑及失去一致性的界。
+完整主除子、双次数、RR及长期GOAL第十节保持；以下为历史任务。
+
 ## 唯一当前任务（2026-09-21，421结算）
 
 执行[径向有限部与实际相对迹](../reviews/2026-09-21/f1-radial-finite-part-relative-trace-next-proof-plan.md)。

@@ -1,0 +1,38 @@
+{
+  "status": "passed_no_sorry_dependencies",
+  "lean_version": "Lean (version 4.32.2, x86_64-w64-windows-gnu, commit f3b06c705e6c85f5314019d5d3baab0fec5b580c, Release)",
+  "checked_at_utc": "2026-10-04T05:33:01.653088+00:00",
+  "scope": "Four core integer results: pointwise unilateral and two-dimensional finite-rank witness, and both product labels for arbitrary gamma. No operator analysis, cyclic theory, RH, mathlib cache or full F1 build.",
+  "commands": [
+    {
+      "source": "F1/Analysis/TwistedRadialWitness.lean",
+      "exit_code": 0
+    },
+    {
+      "source": "checks/TwistedRadialWitnessAudit.lean",
+      "exit_code": 0
+    }
+  ],
+  "source_sha256": {
+    "F1/Analysis/TwistedRadialWitness.lean": "6509a180a715a289882efc9a8c8903957fac2bdebc6948ead3a79856bf0487d3",
+    "checks/TwistedRadialWitnessAudit.lean": "d94ca903d962026563ffde39e33ce85aecaa32b97de2a42eab99a4ce7dc5d110"
+  },
+  "axioms": {
+    "RHWeil.F1.twistedLattice_rankOne": [
+      "propext",
+      "Quot.sound"
+    ],
+    "RHWeil.F1.twistedLattice_twoDimensional": [
+      "propext",
+      "Quot.sound"
+    ],
+    "RHWeil.F1.twistedWitness_forwardLabel": [
+      "propext",
+      "Quot.sound"
+    ],
+    "RHWeil.F1.twistedWitness_reverseLabel": [
+      "propext",
+      "Quot.sound"
+    ]
+  }
+}

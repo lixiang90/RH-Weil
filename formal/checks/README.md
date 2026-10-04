@@ -1,5 +1,12 @@
 # 验证记录
 
+## 2026-10-04 TwistedRadialWitness核心检查
+
+[报告](twisted-radial-witness-verification.json)、[编译输出](twisted-radial-witness-build.txt)、
+[公理输出](twisted-radial-witness-axioms.txt)及[审计入口](TwistedRadialWitnessAudit.lean)
+记录四项任意整数点／标签的有限秩见证代数证明：实际通过，无sorryAx。
+只依赖固定Lean4.32.2核心库；不核验无穷算子、循环理论或RH，也不覆盖原完整构建记录。
+
 ## 2026-09-20 TraceRadical定向检查
 
 [实际报告](trace-radical-verification.json)、[编译输出](trace-radical-build.txt)、

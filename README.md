@@ -1,5 +1,31 @@
 # RH / Weil 结构研究
 
+## 当前研究状态（2026-10-04，424–426）
+
+[424](notes/424-f1-relative-chain-repair-and-four-component-obstruction.md)排除旧域中的连续不变标量扩张，
+明确直接相对锥会把全部周期一并抵消；合法四分量模型及原源链的闭性缺陷分列。
+[425](notes/425-f1-recentered-geometric-corner-and-source-period-finite-part.md)从原几何壳层提取固定正角采样算子，
+证明实际物理截止的有限部与原半壳层迹精确比较，保留两个有限位的纯周期权重。
+同一强算子极限的波形截止却给零有限部，两者之差准确来自两个逃逸球通道；读出必须保留原截止来源。
+[426](notes/426-f1-fixed-corner-source-commutators-and-relative-readout-module.md)进一步证明原提升的自然带权交换子实际迹类且普通迹为零，
+并在明确线性双模上同时保留周期读出与正象限源乘子循环相容性。
+同域另有零周期读出满足相同受限条件，因此源相容性本身仍不能唯一选出算术读出。
+
+本轮无限维分析经独立全文复核，另有16,261项精确有理模型核验；没有把数值审计当作无限分析或Lean证明。
+当前缺口缩小到这个受限双模与原边／角相对Chern、算术主关系的比较，仍缺实位、全素数Weil正性及RR。
+下一有限任务是[固定正角的规范原源链及截止自然性](reviews/2026-10-04/f1-fixed-corner-source-comparison-next-proof-plan.md)。
+长期GOAL保持，以下为历史快照。
+
+## 当前研究状态（2026-10-04，422–423）
+
+[422](notes/422-f1-radial-finite-part-and-corner-anomaly.md)的实际径向有限部、双边／角点异常和原全部Γ算子准入已通过限定全文独立复核。
+[423](notes/423-f1-twisted-radial-readout-and-mixed-period-obstruction.md)继续计算非零群标签：
+任意标签的标量扭曲迹扩张有有限秩障碍；原源读出和裸Hochschild修复在下过渡测试上产生错误混合原子，
+平台测试的零标签项则准确抵消。四项Lean核心证明与精确格点审计通过，完整分析另经独立复核。
+这些结果收束指定候选，尚未构造消去主关系且具有完整Weil比较的相对链；没有RH或零点比例结论。
+当前转向[实际边／角相对链及原周期比较](reviews/2026-10-04/f1-edge-corner-relative-chain-next-proof-plan.md)。
+[本轮独立进展审计](reviews/2026-10-04/project-progress-independent-audit.md)列出G0–G8的实际准入缺口；长期GOAL保持，以下为历史快照。
+
 ## 当前研究状态（2026-09-21，421）
 
 [421](notes/421-f1-weighted-hardy-trace-and-atomic-obstruction.md)算出带时间测试的Hardy缺陷、循环边界及原源全部交叉项。

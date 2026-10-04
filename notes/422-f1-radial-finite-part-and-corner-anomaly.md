@@ -1,6 +1,6 @@
 # 422. 双径向有限部、角点异常与原周期算子的实际定义域
 
-2026-09-21。[推导完成；独立全文逆审待完成] 接续[421](421-f1-weighted-hardy-trace-and-atomic-obstruction.md)与[有限任务](../reviews/2026-09-21/f1-radial-finite-part-relative-trace-next-proof-plan.md)。
+2026-09-21；2026-10-04复核。[限定范围全文独立逆审通过] 接续[421](421-f1-weighted-hardy-trace-and-atomic-obstruction.md)与[有限任务](../reviews/2026-09-21/f1-radial-finite-part-relative-trace-next-proof-plan.md)。
 以下构造的是原419代数中的明确稠密定义域及其非循环有限部。
 并不由相对余圈的存在宣称算术主关系消失。
 
@@ -152,7 +152,9 @@ a<0时等于 \(\mathbf1_{[a,-1]}\)，二者的和都是−a。
 在 \(\ell^2(\mathbb Z^2)\otimes L^2(\mathbb R)\) 上，用
 \(P_{R,S}=\mathbf1_{j\le R,k\le S}\otimes1\) 压缩。
 对固定R,S，压缩F的各系数有绝对可和的S₁值矩阵元；
-其迹范数和由常数 \(C_{R,S}p_0(F)\) 控制，故压缩后的实际算子迹类。
+其迹范数和由常数 \(C_{R,S}p_0(F)\) 控制，可取
+\(C_{R,S}=\max\{(R+1)(S+1),R+1,S+1,1\}\le(R+2)(S+2)\)。
+压缩再限制列只减少矩阵单位的绝对和；虽然压缩投影无限秩，左尾ℓ¹仍保证实际算子迹类。
 非零群标签无对角矩阵元，于是
 \[
  \operatorname{Tr}(P_{R,S}FP_{R,S})
@@ -337,8 +339,9 @@ p方向b=0全部消失；v方向g=(−n,−1)时该系数为 \(-\max(0,n)\)。
 \[
                  \tau([B,A_N(h)])=\operatorname{Tr}[B,A_N(h)]=0. \tag{24}
 \]
-同理，在已定义的乘积域中，任一含C_N的因子经过时间迹类平滑后落入开放理想，
-其由(14)给出的边界异常为0。
+准确地，对 \(H_0\in\mathcal A\)、\(M_0\in\mathcal M\)，
+\(M_0C_NH_0,H_0C_NM_0\in\mathcal I\)，其由(14)给出的边界异常为0。
+这里时间迹类平滑指已经验证处于 \(\mathcal A\) 的因子；不能从任意单侧 \(U(h)\) 自动推得S₁准入。
 裸C_N不在 \(\mathcal A\)，故不能对未平滑的它直接写τ值。
 
 (20)的普通迹本身当然可非零；(24)说的是交换异常。
@@ -361,3 +364,7 @@ Loya–Melrose作者稿PDF18–21的Definition3.3、Proposition3.5及Theorem3.7�
 [内核报告](../formal/checks/radial-finite-part-verification.json)已在固定Lean4.32.2通过；
 依赖仅propext、Quot.sound，无sorryAx。
 实际ℓ¹／S₁完成、无穷迹、Fréchet收敛、相对循环下降及RH均不在这些形式化证明的范围。
+
+2026-10-04的[全文独立逆审](../reviews/2026-10-04/f1-radial-finite-part-independent-review.md)
+核验本文全部公式及定义域，未发现P1/P2问题；上述两项定义域／压缩估计补明已纳入。
+结算限于本稿明定的实际构造与障碍，下一研究见[423](423-f1-twisted-radial-readout-and-mixed-period-obstruction.md)。
