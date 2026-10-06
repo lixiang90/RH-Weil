@@ -1,5 +1,17 @@
 # 研究分支看板
 
+## 唯一当前队列（2026-10-06，截止相位与相对循环比较）
+
+执行[GOAL.20260909.md](goals/GOAL.20260909.md)，长期Goal及第十节保持；下方为历史。
+
+| 顺序 | 任务 | 验收与切换 |
+|---|---|---|
+| 本轮已结算 | [434物理准入](notes/434-f1-haar-physical-cutoff-on-the-source-domain.md)、[435固定共轭迹](notes/435-f1-haar-trace-of-all-source-conjugates.md)、[436完成迹极限](notes/436-f1-physical-cutoff-of-the-source-cesaro-limit.md)、[437有限词相位障碍](notes/437-f1-finite-source-word-without-a-linear-physical-finite-part.md) | 真源域逐物理截止S₁；固定共轭有单位通量，范数平均丢p周期；合法实际有限词甚至无任何线性共尾有限部 |
+| 当前主线 | [保留截止相位的真实源读出与相对循环比较](reviews/2026-10-06/f1-phase-resolved-physical-readout-next-proof-plan.md) | 先精算任意传播A(h)uA(k)的完整球迹与相位增量，再构造来源自然的相位对象及真正闭HH₁链比较；不能自由平均或跳过源通量 |
+| 必要辅助 | 独立全文复核、精确模型审计和旧证书保护 | 四稿各两审；新3,711项Fraction物理迹模型，旧12,664项及四项Lean、十处admission保持；无限分析与机器模型范围分列 |
+
+[任务单](goals/NEXT.20260909.md)与[账本](goals/PROGRESS.md)记录剩余动作。完整Chern、规范主关系、全Weil正性、两次数、RR、RH仍开放。
+
 ## 唯一当前队列（2026-10-04，源域上的物理球截止与相对传递）
 
 执行[GOAL.20260909.md](goals/GOAL.20260909.md)，Goal active；下方早期状态为历史。

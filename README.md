@@ -1,5 +1,17 @@
 # RH / Weil 结构研究
 
+## 当前研究状态（2026-10-06，434–437）
+
+[434](notes/434-f1-haar-physical-cutoff-on-the-source-domain.md)支付全部有限源周期核的原Haar物理压缩迹类，保留完整球尾与源混合。
+[435](notes/435-f1-haar-trace-of-all-source-conjugates.md)精算所有固定源共轭：非零素数周期不变，有限部有−rW h(0)的真实单位通量。
+[436](notes/436-f1-physical-cutoff-of-the-source-cesaro-limit.md)计算完成源平均的真实物理迹；同一范数收敛序列的两次迹极限分别给L rho_p和0，不能自动传递原周期。
+[437](notes/437-f1-finite-source-word-without-a-linear-physical-finite-part.md)在p=2、q=5的合法实例中给实际有限源词无任何线性共尾有限部的严格反例，原偶数几何子族亦然。
+
+四稿各有两份独立全文复核，另有3,711项精确离散物理迹模型检查；无限分析与模型范围分列，没有新Lean分析证明。
+下一任务是[保留截止相位的真实源读出与相对循环比较](reviews/2026-10-06/f1-phase-resolved-physical-readout-next-proof-plan.md)。
+规范周期选择、完整相对Chern、算术主关系、实位／全素数Weil比较与正性、RR、RH仍开放；长期GOAL保持。
+430–433检查点已推送main：9d6815f；以下为历史快照。
+
 ## 当前研究状态（2026-10-04，430–433）
 
 [430](notes/430-f1-source-stable-periodic-smoothing-algebra.md)计算全部原源交叉Gram，

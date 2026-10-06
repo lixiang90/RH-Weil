@@ -1,0 +1,33 @@
+{
+  "status": "passed_exact_discrete_physical_source_trace_models",
+  "script_sha256": "fbe9475a453d540cab49d474e58d9b28cd91f46b67dcd78047cb4ebb2af782fd",
+  "dependency_sha256": "fa0e37ea3b92208f7b0d9bcb7399bf4fc768292ba90b41d2fa9e61d84acd4baf",
+  "checks": {
+    "actual_deep_q_strip_energy": 14,
+    "actual_deep_q_strip_row": 3276,
+    "actual_fixed_q_strip_energy": 2,
+    "actual_fixed_sector_visible_energy": 6,
+    "escaped_ball_correlation_with_exact_tail": 75,
+    "finite_average_isolated_p_trace": 16,
+    "fixed_limit_loses_isolated_p_trace": 16,
+    "full_physical_conjugate_trace_model": 252,
+    "full_visible_source_energy_and_signed_unit_flux": 42,
+    "isolated_p_step_model": 2,
+    "nonnegative_fixed_q_mass": 2,
+    "nonzero_even_cutoff_increment_multiplier": 4,
+    "nonzero_one_step_increment_multiplier": 4
+  },
+  "total_exact_assertions": 3711,
+  "models": [
+    {
+      "p_period": 5,
+      "q_period": 7
+    },
+    {
+      "p_period": 7,
+      "q_period": 5
+    }
+  ],
+  "arithmetic": "Fraction and rational complex pairs only; source rows complete; geometric tails exact",
+  "scope": "Independent discrete source matrix computes visible flux and fixed-sector energies; rational ball tails and finite convolution steps audit physical trace formulas and Fourier increment algebra. Integer commensurate periods and pointwise partitions are not the smooth prime-log operators. This does not prove analytic trace class, cutoff limits, irrational density, relative Chern, RR or RH. Infinite analysis is in separately reviewed notes."
+}
