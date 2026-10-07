@@ -1,0 +1,393 @@
+{
+  "date": "2026-10-08",
+  "base_commit": "88e86a35a3dc2c7988ec1fabe0fde6c485a1fc0b",
+  "previous_checkpoint_checked": "PASS: whole parity scalar identities, exact low paths, continuous Young certificate and final independent review bindings",
+  "new_whole_actual_principal_subtraction_proved": true,
+  "principal_subtraction_requires_high_fourth_bounded": false,
+  "principal_subtraction_shortens_atomic_products": false,
+  "new_finite_moment_information_limitation_proved": true,
+  "tensor_model_realizes_original_scalar_prime_carrier": false,
+  "new_high_residual_upper": false,
+  "new_actual_zero_proportion": false,
+  "new_zero_free_boundary": false,
+  "new_paper": false,
+  "old_Q_one_over_350_excluded": true,
+  "finite_certificate": {
+    "identities_and_inequalities": [
+      "principal primitive derivative",
+      "sqrt-X lower endpoint exponent",
+      "whole actual word error",
+      "good physical crossing error",
+      "dual-height error",
+      "ordered atomic product energy",
+      "fiber first",
+      "fiber second",
+      "fiber third",
+      "fiber fourth",
+      "blind mean",
+      "blind-Z orthogonality",
+      "blind energy",
+      "center row 0",
+      "weighted high second 0,0",
+      "weighted high second 0,1",
+      "weighted high second 0,2",
+      "center row 1",
+      "weighted high second 1,0",
+      "weighted high second 1,1",
+      "weighted high second 1,2",
+      "center row 2",
+      "weighted high second 2,0",
+      "weighted high second 2,1",
+      "weighted high second 2,2",
+      "split covariance 1",
+      "split Z energy 1",
+      "split delta-Z 1",
+      "split gamma-Z 1",
+      "split blind energy 1",
+      "split covariance -1",
+      "split Z energy -1",
+      "split delta-Z -1",
+      "split gamma-Z -1",
+      "split blind energy -1",
+      "low parity word (1, 1, 1, 1)",
+      "low parity word (1, 1, 1, -1)",
+      "low parity word (1, 1, -1, 1)",
+      "low parity word (1, 1, -1, -1)",
+      "low parity word (1, -1, 1, 1)",
+      "low parity word (1, -1, 1, -1)",
+      "low parity word (1, -1, -1, 1)",
+      "low parity word (1, -1, -1, -1)",
+      "low parity word (-1, 1, 1, 1)",
+      "low parity word (-1, 1, 1, -1)",
+      "low parity word (-1, 1, -1, 1)",
+      "low parity word (-1, 1, -1, -1)",
+      "low parity word (-1, -1, 1, 1)",
+      "low parity word (-1, -1, 1, -1)",
+      "low parity word (-1, -1, -1, 1)",
+      "low parity word (-1, -1, -1, -1)",
+      "whole q increment",
+      "whole gap increment",
+      "whole signed fourth",
+      "commutator bound",
+      "whole fourth lower bound",
+      "PSD gap increment",
+      "repeated-to-residual offset"
+    ],
+    "count": 58,
+    "principal_lower_endpoint_exponent": "I*t/2 + 1/4",
+    "atomic_test_energy": "2627389/44100",
+    "finite_tensor_dimension": 16,
+    "fixed_fiber_dimension": 8,
+    "high_repeated_limit": "19/240",
+    "high_square_diagonal_limit": "19/480",
+    "four_distinct_liminf_floor": "-1747/30240 + sqrt(104899)/15120",
+    "four_distinct_liminf_floor_decimal": "-0.0363504529734423913631284141022679219588552093",
+    "scope": "finite exact algebra and exponent bookkeeping only; no asymptotic prime certificate"
+  },
+  "links_checked": 43,
+  "review_bindings": [
+    {
+      "source": "reviews/2026-10-08/hybrid-whole-prime-principal-subtraction-and-product-length-research.md",
+      "source_sha256": "87b98f4f1d176b72c66f07258dfb3c7499ac53844ce076c900d3d8ca9036a02f",
+      "review": "reviews/2026-10-08/hybrid-principal-subtraction-and-information-limit-review-root.md",
+      "review_sha256": "1c96ac7cb1d095e14e5c02374085a57966752413c0eeab94e9a8c7ef50f4c712"
+    },
+    {
+      "source": "reviews/2026-10-08/hybrid-whole-prime-principal-subtraction-and-product-length-research.md",
+      "source_sha256": "87b98f4f1d176b72c66f07258dfb3c7499ac53844ce076c900d3d8ca9036a02f",
+      "review": "reviews/2026-10-08/hybrid-whole-prime-principal-subtraction-review-radial.md",
+      "review_sha256": "eead07f3434cbbc7908a89940f2fba0baf0756983c6d5cd75ac303e98402bcb2"
+    },
+    {
+      "source": "reviews/2026-10-08/hybrid-whole-joint-moment-information-amplification-research-radial.md",
+      "source_sha256": "f9e3ffa1aa8c0be583b1c11fc952f8f09bd6deeee9f7bdfa31f3abda1523863e",
+      "review": "reviews/2026-10-08/hybrid-principal-subtraction-and-information-limit-review-root.md",
+      "review_sha256": "1c96ac7cb1d095e14e5c02374085a57966752413c0eeab94e9a8c7ef50f4c712"
+    },
+    {
+      "source": "reviews/2026-10-08/hybrid-whole-joint-moment-information-amplification-research-radial.md",
+      "source_sha256": "f9e3ffa1aa8c0be583b1c11fc952f8f09bd6deeee9f7bdfa31f3abda1523863e",
+      "review": "reviews/2026-10-08/hybrid-whole-joint-moment-information-amplification-review-twisted.md",
+      "review_sha256": "89ec9cb79c2aaeca91ac7cc34c5fec47619911e89e0462767a9fc33513fe5803"
+    },
+    {
+      "source": "reviews/2026-10-08/hybrid-whole-joint-moment-information-amplification-research-radial.md",
+      "source_sha256": "f9e3ffa1aa8c0be583b1c11fc952f8f09bd6deeee9f7bdfa31f3abda1523863e",
+      "review": "reviews/2026-10-08/hybrid-whole-joint-moment-information-review-compression.md",
+      "review_sha256": "4bb3ee38a106b2e73393dc134295f2c2db5708f2a0430b01f6f6b8bcafda26f3"
+    },
+    {
+      "source": "notes/471-original-principal-subtraction-and-signed-four-distinct-target.md",
+      "source_sha256": "a66dcc18606b59ac0aa1a879f64f6f7dae4a3278981e5fbc2c94190efa3a3ef6",
+      "review": "reviews/2026-10-08/471-principal-and-signed-four-distinct-review-twisted.md",
+      "review_sha256": "b82966c38a834bb9430914267e225859b00bf3409831c00cefb72069c0912833"
+    },
+    {
+      "source": "notes/471-original-principal-subtraction-and-signed-four-distinct-target.md",
+      "source_sha256": "a66dcc18606b59ac0aa1a879f64f6f7dae4a3278981e5fbc2c94190efa3a3ef6",
+      "review": "reviews/2026-10-08/471-principal-and-signed-four-distinct-review-compression.md",
+      "review_sha256": "2090e0ff81b2eca3ecd123fcd2f066806674f26f4eecc9232370a81bf1fc8490"
+    }
+  ],
+  "cited_source_hash_bindings": [
+    {
+      "document": "reviews/2026-10-08/hybrid-whole-prime-principal-subtraction-and-product-length-research.md",
+      "source": "notes/454-original-background-and-weighted-prime-mixed-traces.md",
+      "sha256": "8ab99d60c1b748dc561cac57ee498057a0c9fb19b9778a041261b1bad0750db7"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-whole-prime-principal-subtraction-and-product-length-research.md",
+      "source": "notes/456-high-opposite-four-word-vanishing-and-repeated-limit.md",
+      "sha256": "7de855634f93f9d92f6d0cbdd762f9894effaaf40f788b3e02de89f961eadb96"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-whole-prime-principal-subtraction-and-product-length-research.md",
+      "source": "notes/465-centered-high-square-joint-fourth-budget.md",
+      "sha256": "a9290d2d847c2a3f7942b26353bd1582a68b391e481acc109c4ac18d3d750464"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-whole-prime-principal-subtraction-and-product-length-research.md",
+      "source": "notes/463-two-sided-height-stability-for-original-fourth-words.md",
+      "sha256": "6554ebc80616917d00b68f626329e8464e6ccc218c456608bff74e9da5a17d90"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-whole-prime-principal-subtraction-and-product-length-research.md",
+      "source": "reviews/2026-10-07/hybrid-one-three-finite-band-admission-research.md",
+      "sha256": "bc6ad6b1a007422c7678cd540b4127b81d2adc168faf5b090a58b6676778e35f"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-whole-prime-principal-subtraction-and-product-length-research.md",
+      "source": "reviews/2026-10-07/hybrid-whole-fourth-compression-upper-research-radial.md",
+      "sha256": "0703f66778d49de29e363f7eabede6718ef24fe579e53603ff70db4e6aeacdea"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-whole-prime-principal-subtraction-and-product-length-research.md",
+      "source": "reviews/2026-10-07/hybrid-high-parity-gram-and-mobius-completion-research-radial.md",
+      "sha256": "3f4c714bb126356389332f3674836d6edf6f110f60935a27af93a58a0e26bbb2"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-whole-prime-principal-subtraction-and-product-length-research.md",
+      "source": "notes/470-centered-spectral-variance-excludes-small-high-residual.md",
+      "sha256": "729ddbed2b2d2af08e21e5f1ebabfb5663f906c702f52b13f81aac224402a93a"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-whole-joint-moment-information-amplification-research-radial.md",
+      "source": "notes/454-original-background-and-weighted-prime-mixed-traces.md",
+      "sha256": "8ab99d60c1b748dc561cac57ee498057a0c9fb19b9778a041261b1bad0750db7"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-whole-joint-moment-information-amplification-research-radial.md",
+      "source": "notes/462-original-low-prime-fourth-path-constant.md",
+      "sha256": "868adfeb0d742043f39bd08e0783d66b7a9db11316067b0b3b43d80150cdf680"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-whole-joint-moment-information-amplification-research-radial.md",
+      "source": "reviews/2026-10-08/hybrid-whole-low-parity-fourth-research-root.md",
+      "sha256": "02328b4cfaf902fc0f0d60e37f27989808aaae6bb88e6410c8d120a44487969d"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-whole-joint-moment-information-amplification-research-radial.md",
+      "source": "reviews/2026-10-08/hybrid-parity-split-schur-and-even-anticommutator-research-radial.md",
+      "sha256": "b9fff88ede3374b488dccddf9cfea3f92f386e98594c385dda51ce210b784d20"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-whole-joint-moment-information-amplification-research-radial.md",
+      "source": "reviews/2026-10-08/hybrid-positive-tail-whole-high-parity-gap-research-compression.md",
+      "sha256": "568f2c80d9773db7c13bc3605e7d56ed032e3fba7f5d4dc7c34bbea5ac7cb611"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-whole-joint-moment-information-amplification-research-radial.md",
+      "source": "notes/470-centered-spectral-variance-excludes-small-high-residual.md",
+      "sha256": "729ddbed2b2d2af08e21e5f1ebabfb5663f906c702f52b13f81aac224402a93a"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-whole-joint-moment-information-amplification-research-radial.md",
+      "source": "reviews/2026-10-07/hybrid-spectral-low-high-information-and-narrow-window-research-compression.md",
+      "sha256": "46aa87f3ab12e7399dd33bc4c6833fbe7362b31781c1ec018d538fd2ffe21f4f"
+    },
+    {
+      "document": "notes/471-original-principal-subtraction-and-signed-four-distinct-target.md",
+      "source": "reviews/2026-10-08/hybrid-whole-prime-principal-subtraction-and-product-length-research.md",
+      "sha256": "87b98f4f1d176b72c66f07258dfb3c7499ac53844ce076c900d3d8ca9036a02f"
+    },
+    {
+      "document": "notes/471-original-principal-subtraction-and-signed-four-distinct-target.md",
+      "source": "reviews/2026-10-08/hybrid-whole-joint-moment-information-amplification-research-radial.md",
+      "sha256": "f9e3ffa1aa8c0be583b1c11fc952f8f09bd6deeee9f7bdfa31f3abda1523863e"
+    },
+    {
+      "document": "notes/471-original-principal-subtraction-and-signed-four-distinct-target.md",
+      "source": "notes/456-high-opposite-four-word-vanishing-and-repeated-limit.md",
+      "sha256": "7de855634f93f9d92f6d0cbdd762f9894effaaf40f788b3e02de89f961eadb96"
+    },
+    {
+      "document": "notes/471-original-principal-subtraction-and-signed-four-distinct-target.md",
+      "source": "notes/465-centered-high-square-joint-fourth-budget.md",
+      "sha256": "a9290d2d847c2a3f7942b26353bd1582a68b391e481acc109c4ac18d3d750464"
+    },
+    {
+      "document": "notes/471-original-principal-subtraction-and-signed-four-distinct-target.md",
+      "source": "notes/470-centered-spectral-variance-excludes-small-high-residual.md",
+      "sha256": "729ddbed2b2d2af08e21e5f1ebabfb5663f906c702f52b13f81aac224402a93a"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-principal-subtraction-and-information-limit-review-root.md",
+      "source": "reviews/2026-10-08/hybrid-whole-prime-principal-subtraction-and-product-length-research.md",
+      "sha256": "87b98f4f1d176b72c66f07258dfb3c7499ac53844ce076c900d3d8ca9036a02f"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-principal-subtraction-and-information-limit-review-root.md",
+      "source": "reviews/2026-10-08/hybrid-whole-joint-moment-information-amplification-research-radial.md",
+      "sha256": "f9e3ffa1aa8c0be583b1c11fc952f8f09bd6deeee9f7bdfa31f3abda1523863e"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-whole-prime-principal-subtraction-review-radial.md",
+      "source": "notes/454-original-background-and-weighted-prime-mixed-traces.md",
+      "sha256": "8ab99d60c1b748dc561cac57ee498057a0c9fb19b9778a041261b1bad0750db7"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-whole-prime-principal-subtraction-review-radial.md",
+      "source": "notes/456-high-opposite-four-word-vanishing-and-repeated-limit.md",
+      "sha256": "7de855634f93f9d92f6d0cbdd762f9894effaaf40f788b3e02de89f961eadb96"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-whole-prime-principal-subtraction-review-radial.md",
+      "source": "notes/463-two-sided-height-stability-for-original-fourth-words.md",
+      "sha256": "6554ebc80616917d00b68f626329e8464e6ccc218c456608bff74e9da5a17d90"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-whole-prime-principal-subtraction-review-radial.md",
+      "source": "notes/465-centered-high-square-joint-fourth-budget.md",
+      "sha256": "a9290d2d847c2a3f7942b26353bd1582a68b391e481acc109c4ac18d3d750464"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-whole-prime-principal-subtraction-review-radial.md",
+      "source": "reviews/2026-10-07/hybrid-one-three-finite-band-admission-research.md",
+      "sha256": "bc6ad6b1a007422c7678cd540b4127b81d2adc168faf5b090a58b6676778e35f"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-whole-prime-principal-subtraction-review-radial.md",
+      "source": "reviews/2026-10-07/hybrid-one-three-mixed-prime-sector-research.md",
+      "sha256": "5db2c614ab9d009a15a70f4e0639b95df2d59a6b56bd752216537fcf71e2b405"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-whole-prime-principal-subtraction-review-radial.md",
+      "source": "reviews/2026-10-07/hybrid-whole-fourth-compression-upper-research-radial.md",
+      "sha256": "0703f66778d49de29e363f7eabede6718ef24fe579e53603ff70db4e6aeacdea"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-whole-prime-principal-subtraction-review-radial.md",
+      "source": "notes/470-centered-spectral-variance-excludes-small-high-residual.md",
+      "sha256": "729ddbed2b2d2af08e21e5f1ebabfb5663f906c702f52b13f81aac224402a93a"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-whole-joint-moment-information-review-compression.md",
+      "source": "reviews/2026-10-08/hybrid-whole-joint-moment-information-amplification-research-radial.md",
+      "sha256": "f9e3ffa1aa8c0be583b1c11fc952f8f09bd6deeee9f7bdfa31f3abda1523863e"
+    },
+    {
+      "document": "reviews/2026-10-08/471-principal-and-signed-four-distinct-review-compression.md",
+      "source": "notes/471-original-principal-subtraction-and-signed-four-distinct-target.md",
+      "sha256": "a66dcc18606b59ac0aa1a879f64f6f7dae4a3278981e5fbc2c94190efa3a3ef6"
+    },
+    {
+      "document": "reviews/2026-10-08/471-principal-and-signed-four-distinct-review-compression.md",
+      "source": "reviews/2026-10-08/hybrid-whole-prime-principal-subtraction-and-product-length-research.md",
+      "sha256": "87b98f4f1d176b72c66f07258dfb3c7499ac53844ce076c900d3d8ca9036a02f"
+    },
+    {
+      "document": "reviews/2026-10-08/471-principal-and-signed-four-distinct-review-compression.md",
+      "source": "reviews/2026-10-08/hybrid-whole-joint-moment-information-amplification-research-radial.md",
+      "sha256": "f9e3ffa1aa8c0be583b1c11fc952f8f09bd6deeee9f7bdfa31f3abda1523863e"
+    },
+    {
+      "document": "reviews/2026-10-08/471-principal-and-signed-four-distinct-review-compression.md",
+      "source": "notes/456-high-opposite-four-word-vanishing-and-repeated-limit.md",
+      "sha256": "7de855634f93f9d92f6d0cbdd762f9894effaaf40f788b3e02de89f961eadb96"
+    },
+    {
+      "document": "reviews/2026-10-08/471-principal-and-signed-four-distinct-review-compression.md",
+      "source": "notes/465-centered-high-square-joint-fourth-budget.md",
+      "sha256": "a9290d2d847c2a3f7942b26353bd1582a68b391e481acc109c4ac18d3d750464"
+    },
+    {
+      "document": "reviews/2026-10-08/471-principal-and-signed-four-distinct-review-compression.md",
+      "source": "notes/470-centered-spectral-variance-excludes-small-high-residual.md",
+      "sha256": "729ddbed2b2d2af08e21e5f1ebabfb5663f906c702f52b13f81aac224402a93a"
+    },
+    {
+      "document": "reviews/2026-10-08/471-principal-and-signed-four-distinct-review-compression.md",
+      "source": "scripts/hybrid_principal_signed_target_checkpoint.py",
+      "sha256": "4c576013c61ea81cc65fb28aac78e48a1397a1d8c800cc17edf82f4bda1ee206"
+    }
+  ],
+  "files": [
+    {
+      "path": "reviews/2026-10-08/hybrid-whole-prime-principal-subtraction-and-product-length-research.md",
+      "sha256_canonical_lf": "87b98f4f1d176b72c66f07258dfb3c7499ac53844ce076c900d3d8ca9036a02f",
+      "canonical_utf8_bytes": 12548,
+      "lines": 286
+    },
+    {
+      "path": "reviews/2026-10-08/hybrid-whole-joint-moment-information-amplification-research-radial.md",
+      "sha256_canonical_lf": "f9e3ffa1aa8c0be583b1c11fc952f8f09bd6deeee9f7bdfa31f3abda1523863e",
+      "canonical_utf8_bytes": 14884,
+      "lines": 359
+    },
+    {
+      "path": "notes/471-original-principal-subtraction-and-signed-four-distinct-target.md",
+      "sha256_canonical_lf": "a66dcc18606b59ac0aa1a879f64f6f7dae4a3278981e5fbc2c94190efa3a3ef6",
+      "canonical_utf8_bytes": 8579,
+      "lines": 222
+    },
+    {
+      "path": "reviews/2026-10-08/hybrid-principal-subtraction-and-information-limit-review-root.md",
+      "sha256_canonical_lf": "1c96ac7cb1d095e14e5c02374085a57966752413c0eeab94e9a8c7ef50f4c712",
+      "canonical_utf8_bytes": 6102,
+      "lines": 97
+    },
+    {
+      "path": "reviews/2026-10-08/hybrid-whole-prime-principal-subtraction-review-radial.md",
+      "sha256_canonical_lf": "eead07f3434cbbc7908a89940f2fba0baf0756983c6d5cd75ac303e98402bcb2",
+      "canonical_utf8_bytes": 9007,
+      "lines": 157
+    },
+    {
+      "path": "reviews/2026-10-08/hybrid-whole-joint-moment-information-amplification-review-twisted.md",
+      "sha256_canonical_lf": "89ec9cb79c2aaeca91ac7cc34c5fec47619911e89e0462767a9fc33513fe5803",
+      "canonical_utf8_bytes": 6214,
+      "lines": 134
+    },
+    {
+      "path": "reviews/2026-10-08/hybrid-whole-joint-moment-information-review-compression.md",
+      "sha256_canonical_lf": "4bb3ee38a106b2e73393dc134295f2c2db5708f2a0430b01f6f6b8bcafda26f3",
+      "canonical_utf8_bytes": 5523,
+      "lines": 94
+    },
+    {
+      "path": "reviews/2026-10-08/471-principal-and-signed-four-distinct-review-twisted.md",
+      "sha256_canonical_lf": "b82966c38a834bb9430914267e225859b00bf3409831c00cefb72069c0912833",
+      "canonical_utf8_bytes": 5603,
+      "lines": 126
+    },
+    {
+      "path": "reviews/2026-10-08/471-principal-and-signed-four-distinct-review-compression.md",
+      "sha256_canonical_lf": "2090e0ff81b2eca3ecd123fcd2f066806674f26f4eecc9232370a81bf1fc8490",
+      "canonical_utf8_bytes": 7192,
+      "lines": 118
+    },
+    {
+      "path": "scripts/hybrid_principal_signed_target_checkpoint.py",
+      "sha256_canonical_lf": "4c576013c61ea81cc65fb28aac78e48a1397a1d8c800cc17edf82f4bda1ee206",
+      "canonical_utf8_bytes": 10322,
+      "lines": 217
+    }
+  ],
+  "unproved": [
+    "a useful signed entire four-distinct upper on the original finite carrier",
+    "a reachable original high-square residual upper",
+    "the remaining original internal P fourth compression budget",
+    "an actual new simple-zero proportion or zero-free boundary",
+    "independent certification of the imported R analytic kernel"
+  ]
+}
