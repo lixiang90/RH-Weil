@@ -23,8 +23,9 @@
 | Abel 质量预算障碍 | [TeX](papers/abel-mass-obstruction-paper.tex) · [PDF](output/pdf/abel-mass-obstruction-paper.pdf) | 实际 von Mangoldt／连续 Abel 源上的响应下界与指定预算障碍。 |
 | 严格边界 `69999/80000` | [TeX](papers/seven-eighths-boundary-improvement-paper.tex) · [PDF](output/pdf/seven-eighths-boundary-improvement-paper.pdf) | **cited-input derivation（引用输入下的推导）**。给出正文指定 L 函数族的严格无零半平面。 |
 | 自由 b 的临界边界 | [TeX](papers/free-b-compensated-probe-boundary-paper.tex) · [PDF](output/pdf/free-b-compensated-probe-boundary-paper.pdf) | **引用输入下的推导**。优化补偿几何，严格边界为 `(1507−2√921)/1653 ≈ 0.874957069799`；最优性限于正文指定接口。 |
+| κ 反馈的三次边界 | [TeX](papers/kappa-feedback-cubic-boundary-paper.tex) · [PDF](output/pdf/kappa-feedback-cubic-boundary-paper.pdf) | **引用输入下的推导**。重证 plain moment 范围并支付实际参数反馈，严格边界 σ*≈0.874957019420099。 |
 
-两篇无零边界稿引用固定二次域全 Hecke `7/8` 结果及明确列出的通用引理，分别给出 `69999/80000` 和自由 b 的更强严格边界。正文重证相应几何、全部物理范围与全族延拓；结论覆盖指定有限阶 Hecke 族、Dirichlet 族及 zeta，允许主极点并排除边界线。它们没有独立重证外部整篇论文、改善简单临界线比例或新增 Lean 内核证书。引用前件、连续证明、有限代数检查及独立审查分列，入口见 [论文目录](papers/README.md)。
+三篇无零边界稿引用固定二次域全 Hecke `7/8` 结果及明确列出的通用引理，研究补偿几何、真实 moment 的可用范围和参数反馈。最新稿给出指定三次根的严格边界 `σ* ≈ 0.874957019420099`。正文重证相应几何、全部物理范围与全族延拓；结论覆盖指定有限阶 Hecke 族、Dirichlet 族及 zeta，允许主极点并排除边界线。它们没有独立重证外部整篇论文、改善简单临界线比例或新增 Lean 内核证书。引用前件、连续证明、有限代数检查及独立审查分列，入口见 [论文目录](papers/README.md)。
 
 ## 如何阅读证据
 

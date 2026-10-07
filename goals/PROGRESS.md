@@ -1,5 +1,31 @@
 # 持续GOAL执行账本：20260909版重启
 
+## 2026-10-07：450–451 lower-κ 重证与三次反馈边界论文
+
+从 main 的 7846f34 继续，在明确底层 [R] 下逐段重做完整 plain proof，
+合法范围扩至 37/50≤κ≤1，保留每槽 mesh、moving radical、自然零延拓与高度顺序。
+[450](../notes/450-plain-kappa-extension-and-actual-capacity.md)记录真实 counts；
+[451](../notes/451-kappa-feedback-cubic-boundary-and-family-continuation.md)以实际
+κ=2β*−1支付feedback，而reference κ*仅用于连续证书，得到
+strict σ*=11/12−e*/4≈0.874957019420099，657e*³−954e*²+21e*+20=0。
+这严格强于自由 b 前稿；两份新的全文独审和独立有限证书审核限定 PASS。
+
+按用户“确认新边界后再写论文”的要求另写
+[三次反馈正式论文](../papers/kappa-feedback-cubic-boundary-paper.tex)，
+全部物理范围与全族延拓、逐槽 mesh 和引用前件在正文。
+最终稿两审、PDF/源哈希及逐页版面验证由
+[构建清单](../reviews/2026-10-07/kappa-feedback-paper-build-manifest.json)绑定。
+旧两篇无零边界稿不修改、不重编译；无新增外部 kernel 或 RH 验收。
+精确脚本149个计数检查中98个是49模型的恒等式检查；连续证明依靠系数正性。
+
+比例方向[移动壳层报告](../reviews/2026-10-07/hybrid-residue-averaged-type-ii-research.md)
+支付实际sharp log-shell的weighted transform，并另补齐fixed-cell共同centering
+至无条件X^(1/2+ε)粗界。独立全文审查通过；较弱canonical幂界不是净saving，
+全cells/alias、signed四阶constant预算与更高简单临界线比例仍未得到。
+本轮版本见[检查点](../reviews/2026-10-07/kappa-feedback-and-moving-shell-checkpoint.json)。
+继续[临界邻域与物理四阶任务](../reviews/2026-10-07/hybrid-cubic-feedback-and-physical-fourth-next-proof-plan.md)。
+Goal active，原长期几何目标保留。以下为历史。
+
 ## 2026-10-07：447–449临界边界、自由几何与比例接口定位
 
 [447](../notes/447-larger-slot-discriminant-and-critical-strip.md)

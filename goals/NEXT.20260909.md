@@ -1,5 +1,18 @@
 # 20260909版重启任务单
 
+## 当前用户任务（2026-10-07，450–451三次反馈检查点）
+
+执行[临界实际 count 与物理四阶预算](../reviews/2026-10-07/hybrid-cubic-feedback-and-physical-fourth-next-proof-plan.md)。
+plain range已从明列底层输入重证到37/50≤κ≤1；新全族strict
+σ*≈0.874957019420099在独立论文记录，旧两篇交付不改。
+实际κ=2β*−1与referenceκ*分开，每槽mesh、全部physical域和统一Δ量词保留。
+下一边界工具应在δ*、x=1/2的临界邻域取得真正joint count/mixed moment新输入。
+
+moving log-shell weighted transform与usual fixed-cell共同centering已付款；
+仍需外层有符号h-average、全部cells/alias和finite-constant四阶预算。
+较弱canonical幂界不能作为新比例；高prime repeated-sector路线仍待完整证明。
+Goal active；原长期几何、第十节及F₁/RR/RH任务保留。以下为历史。
+
 ## 当前用户任务（2026-10-07，447–449检查点）
 
 执行[临界真实 count 与联合 response 任务](../reviews/2026-10-07/hybrid-free-b-and-joint-response-next-proof-plan.md)。

@@ -1,0 +1,219 @@
+{
+  "date": "2026-10-07",
+  "paper_title": "A cubic zero-free boundary from plain-moment parameter feedback",
+  "base_repository_commit": "7846f342d73a0f41d834174726263d5cd03a42dd",
+  "result": {
+    "status": "T/R: cited-input derivation",
+    "strict_boundary": "sigma_star=11/12-ell_star/4",
+    "ell_polynomial": [
+      20,
+      21,
+      -954,
+      657
+    ],
+    "ell_root_interval": [
+      "16683858898627/10^14",
+      "16683858898628/10^14"
+    ],
+    "sigma_polynomial": [
+      -3686,
+      14643,
+      -18819,
+      7884
+    ],
+    "polynomial_coefficients_order": "ascending",
+    "decimal_for_orientation": "0.8749570194200989461286038505614529823",
+    "scope": "Finite-order Hecke over Q(sqrt(-3)); all Dirichlet and zeta by the imported quadratic transfer; principal pole at 1 allowed; boundary line excluded.",
+    "only_bootstrap": "whole-family beta_star <= 7/8",
+    "actual_plain_parameter": "2*beta_star-1; max slot length <= eta_mesh",
+    "new_plain_range": "37/50 <= kappa <= 1, with all original side conditions",
+    "previous_free_b_boundary_strictly_improved": true,
+    "new_critical_line_proportion": false,
+    "independent_source_certification": false,
+    "global_optimality_claim": false
+  },
+  "imported_source": {
+    "repository": "https://github.com/openai/math",
+    "commit": "adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+    "path": "preprints/The-Quasi-Riemann-Hypothesis-September-30-2026/build/paper.tex",
+    "sha256_canonical_lf": "42a5ee0febca59fd1def55cfd6c6808c322ef4237d7726303ea52f711deac6a3",
+    "read_only": true,
+    "worktree_clean_at_delivery": true,
+    "hash_and_commit_independently_read_from_disk": true,
+    "external_kernel_run": false
+  },
+  "tex": {
+    "path": "papers/kappa-feedback-cubic-boundary-paper.tex",
+    "sha256_canonical_lf": "16c0ba50a2917f2ead56843eabf55b62fbbe214e162cff373b4d8554f84315ee",
+    "canonical_utf8_bytes": 39181
+  },
+  "source_lines": 990,
+  "pdf": {
+    "path": "output/pdf/kappa-feedback-cubic-boundary-paper.pdf",
+    "sha256": "791b20f83db7223c75ba9a3ea54611cdc9e89b12831685c004507edabeade6a6",
+    "bytes": 447816,
+    "pages": 13,
+    "page_format": "A4"
+  },
+  "independent_mathematical_reviews": [
+    {
+      "path": "reviews/2026-10-07/kappa-feedback-paper-review-radial.md",
+      "sha256_canonical_lf": "4751e5628077822c62211239d65c08f12a7952f70618910483f5a3bd90570c0d",
+      "canonical_utf8_bytes": 13920
+    },
+    {
+      "path": "reviews/2026-10-07/kappa-feedback-paper-review-twisted.md",
+      "sha256_canonical_lf": "8ab6cb4fc2111ff3c5505da839e68d9117db35b4d960d257920c5ea96019a0c6",
+      "canonical_utf8_bytes": 14389
+    }
+  ],
+  "independent_finite_formula_review": {
+    "path": "reviews/2026-10-07/kappa-feedback-paper-exact-review-joint.md",
+    "sha256_canonical_lf": "c4c2d3e34ca926f302d18b0464e13b7057e49814fe492c68893fec6a8f4ecfbe",
+    "canonical_utf8_bytes": 9636
+  },
+  "build_and_layout_review": {
+    "path": "reviews/2026-10-07/kappa-feedback-paper-build-and-layout-review.md",
+    "sha256_canonical_lf": "6baca5d5e83f43ceec4d0534329ddf33d4bd7509e4273cd8174748c352a571fb",
+    "canonical_utf8_bytes": 3672
+  },
+  "compilation": {
+    "built_in_editor_open_requested": true,
+    "built_in_compile_attempts": 1,
+    "built_in_status": "compile-failed: Unable to find standard directories for platform",
+    "fallback": "Preinstalled MiKTeX pdfLaTeX 1.40.25 (MiKTeX 23.5)",
+    "fallback_runs": 8,
+    "initial_fallback_source_error_repaired": true,
+    "final_exit_code": 0,
+    "final_log_flags": [],
+    "references_settled": true,
+    "command_from_repository_root": "pdflatex -interaction=nonstopmode -halt-on-error -output-directory=output/pdf papers/kappa-feedback-cubic-boundary-paper.tex",
+    "new_dependencies_installed": false
+  },
+  "visual_qa": {
+    "all_pages_rendered": 13,
+    "all_page_layouts_inspected": true,
+    "renderer": "pdftoppm -r 96 -png",
+    "scratch_directory": "tmp/pdfs/kappa-feedback-paper-qa/",
+    "final_changed_pages_reinspected": [
+      1,
+      2,
+      3,
+      12,
+      13
+    ],
+    "final_unchanged_page_pixels": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "clipping_or_overlap_observed": false,
+    "unresolved_pdf_references": 0,
+    "audit_command_space_verified_in_pdf_text": true
+  },
+  "exact_audit": {
+    "script": {
+      "path": "scripts/hybrid_kappa_feedback_exact_audit.py",
+      "sha256_canonical_lf": "e03d6536378fff4b51625ab71fa5eace9fcbf4fe1156ccb6ae048f03bf96bc68",
+      "canonical_utf8_bytes": 10637
+    },
+    "report": {
+      "path": "output/hybrid-kappa-feedback-exact-audit.json",
+      "sha256_canonical_lf": "309f275701a1d96c245eb067d49b00598df4af8e380d220944de250fd2e9d7ba",
+      "canonical_utf8_bytes": 4414
+    },
+    "exit_code": 0,
+    "counted_checks": 149,
+    "finite_model_identity_checks": 98,
+    "finite_endpoint_models": 49,
+    "uncounted_internal_assertions_exist": true,
+    "arithmetic": "Q[e]/(657e^3-954e^2+21e+20) with rational real-embedding interval certificate",
+    "scope": "Exact displayed cubic-field algebra, rational interval signs and finite identity models only. Imported estimates, plain induction, actual prime sums, infinite contours, zero-free conclusions, RH and external kernels are not certified.",
+    "source_hash_field_in_script": "hardcoded metadata, not independent source authentication"
+  },
+  "supporting_derivations": [
+    {
+      "path": "notes/450-plain-kappa-extension-and-actual-capacity.md",
+      "sha256_canonical_lf": "f16807e0f80461e3005b3173e313218b00f5f86abfa860a4ead79e425dd6bee5",
+      "canonical_utf8_bytes": 5431
+    },
+    {
+      "path": "notes/451-kappa-feedback-cubic-boundary-and-family-continuation.md",
+      "sha256_canonical_lf": "17ce7fea8c881ebd4034657b7039e99897d4ff9532348993ba329c46e3c4d487",
+      "canonical_utf8_bytes": 10207
+    },
+    {
+      "path": "reviews/2026-10-07/hybrid-critical-count-witness-research.md",
+      "sha256_canonical_lf": "a1a6146b8f5e0b82b0e7e642e323398aece00d0a3488cce3d6f146974332dff8",
+      "canonical_utf8_bytes": 17278
+    },
+    {
+      "path": "reviews/2026-10-07/450-plain-kappa-extension-review-twisted.md",
+      "sha256_canonical_lf": "0051dcd82296aefc5cfd23d19cce3a8ce0b09c3c8e9370fad933e5ab8581c61a",
+      "canonical_utf8_bytes": 13200
+    },
+    {
+      "path": "reviews/2026-10-07/450-kappa-counts-review-joint.md",
+      "sha256_canonical_lf": "f86f7daeafcd011bd2ea6b583633be47201e8aa88f2a2c16bc917755b502bb02",
+      "canonical_utf8_bytes": 4523
+    },
+    {
+      "path": "reviews/2026-10-07/451-kappa-feedback-review-radial.md",
+      "sha256_canonical_lf": "9b5a12c27674809896e79b99c36d2743a6d19c2bd8455f1b5317aa487a462ba1",
+      "canonical_utf8_bytes": 12501
+    },
+    {
+      "path": "reviews/2026-10-07/451-family-continuation-review-twisted.md",
+      "sha256_canonical_lf": "9965242ef1c24023516ce4baf348c179463426a8bede7256b8cb6ca2d20ed206",
+      "canonical_utf8_bytes": 18580
+    },
+    {
+      "path": "reviews/2026-10-07/451-exact-certificate-review-joint.md",
+      "sha256_canonical_lf": "dbc565341e022e4089eb235f86c6bcbc01658e49b805ccf4934ad280bbce8cc1",
+      "canonical_utf8_bytes": 10302
+    }
+  ],
+  "research_draft_status": "Frozen pre-review draft wording is preserved; this manifest and actual final reviews supply its completed review state. The final paper explicitly includes max_i z_i <= eta_mesh.",
+  "layout_checks": {
+    "existing_regression_tests_passed": 12,
+    "actual_layout_check_passed": true
+  },
+  "preserved_previous_delivery": {
+    "old_papers_recompiled": false,
+    "old_papers_modified": false,
+    "history_modified": false,
+    "files": [
+      {
+        "path": "papers/seven-eighths-boundary-improvement-paper.tex",
+        "sha256_canonical_lf": "92ba93da7cc568579b0b982bcd712e1382af749d05460c1fa4c8b25064df66d6",
+        "canonical_utf8_bytes": 41612
+      },
+      {
+        "path": "output/pdf/seven-eighths-boundary-improvement-paper.pdf",
+        "sha256": "1604c74dfa37ab576ea8d861604cffa49bb7611c79d34d5d46234d7097d8673f",
+        "bytes": 457325
+      },
+      {
+        "path": "papers/free-b-compensated-probe-boundary-paper.tex",
+        "sha256_canonical_lf": "5df2b6ad687572229e2c4d41292bee6cf81b57a13b762173d26732169f1688db",
+        "canonical_utf8_bytes": 35118
+      },
+      {
+        "path": "output/pdf/free-b-compensated-probe-boundary-paper.pdf",
+        "sha256": "1c1322b67f30c136858fcc2de2fca468fc48f450be2ed573cff93e931774f436",
+        "bytes": 401489
+      },
+      {
+        "path": "docs/history/README-progress-2026-10-07.md",
+        "sha256_canonical_lf": "9441481d4e59cecebc5dcef1170805314ffebaef0ffe44578043c05de3303b57",
+        "canonical_utf8_bytes": 256678
+      }
+    ]
+  },
+  "goal_status": "active"
+}

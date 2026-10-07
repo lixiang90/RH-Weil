@@ -1,5 +1,20 @@
 # 研究分支看板
 
+## 当前用户队列（2026-10-07，三次反馈边界与物理四阶预算）
+
+当前 Goal active。公开 README 保持项目介绍；本看板保存研究状态。
+
+| 顺序 | 任务 | 验收与范围 |
+|---|---|---|
+| 新边界已付 | [450 lower-κ 重证](notes/450-plain-kappa-extension-and-actual-capacity.md)、[451 三次反馈](notes/451-kappa-feedback-cubic-boundary-and-family-continuation.md) | 相对明列[R]得strict σ*≈0.874957019420099；actualκ与reference分开、每槽mesh及全族延拓；非来源整链/kernel验收 |
+| 独立新论文 | [三次反馈源稿](papers/kappa-feedback-cubic-boundary-paper.tex)、[构建清单](reviews/2026-10-07/kappa-feedback-paper-build-manifest.json) | 两份新全文审查、连续有理证书与PDF版面分列；旧两篇交付保持 |
+| 比例接口已付 | [moving-shell研究](reviews/2026-10-07/hybrid-residue-averaged-type-ii-research.md)、[独审](reviews/2026-10-07/hybrid-moving-shell-review-root.md) | actual sharp log-shell准入与fixed-cell共同centering粗界；没有新比例或全四矩常数 |
+| 当前主线 | [实际临界邻域与物理四阶](reviews/2026-10-07/hybrid-cubic-feedback-and-physical-fourth-next-proof-plan.md) | critical joint count/mixed moment；外层signed h-average及完整cross-cell/alias response，不能把弱幂界当saving |
+
+本轮有限脚本仅认证显示代数和模型，实际版本见
+[检查点](reviews/2026-10-07/kappa-feedback-and-moving-shell-checkpoint.json)。
+以下为历史队列，原长期F₁/几何/RR/RH目标保留。
+
 ## 当前用户队列（2026-10-07，自由 b 临界边界与真实比例预算）
 
 当前 Goal 仍为研究无零区域与简单临界线比例能否提高，保持 active。

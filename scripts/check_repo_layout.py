@@ -15,6 +15,7 @@ PAPERS = (
     "abel-mass-obstruction-paper",
     "seven-eighths-boundary-improvement-paper",
     "free-b-compensated-probe-boundary-paper",
+    "kappa-feedback-cubic-boundary-paper",
 )
 
 

@@ -15,6 +15,7 @@
 | Abel 质量预算障碍 | [abel-mass-obstruction-paper.tex](abel-mass-obstruction-paper.tex) | [PDF](../output/pdf/abel-mass-obstruction-paper.pdf) | pdfLaTeX |
 | 七分之八无零边界的参数改进 | [seven-eighths-boundary-improvement-paper.tex](seven-eighths-boundary-improvement-paper.tex) | [PDF](../output/pdf/seven-eighths-boundary-improvement-paper.pdf) | pdfLaTeX |
 | 自由 b 的补偿几何与临界边界 | [free-b-compensated-probe-boundary-paper.tex](free-b-compensated-probe-boundary-paper.tex) | [PDF](../output/pdf/free-b-compensated-probe-boundary-paper.pdf) | pdfLaTeX |
+| plain moment 范围延伸与三次反馈边界 | [kappa-feedback-cubic-boundary-paper.tex](kappa-feedback-cubic-boundary-paper.tex) | [PDF](../output/pdf/kappa-feedback-cubic-boundary-paper.pdf) | pdfLaTeX |
 
 新稿将笔记 441–445 的结果整理为正式论文：在明确引用原稿通用结果及全 Hecke \(7/8\) 结论的前提下，推出严格半平面 \(\Re s>69999/80000\) 无零。正文给出可变槽 low 证明、局部 Euler 域、实际 detector 容量、联合误差、连续证书及完整延拓反证；不宣称独立验收原稿或完成新的 Lean 认证。最终源稿、PDF 和独立审查的哈希及编译情况见 [构建清单](../reviews/2026-10-07/69999-paper-build-manifest.json)。
 
@@ -24,6 +25,14 @@
 最优性只限原 low 交点和计数包络，不声称新比例、RH 或外部 kernel 验收。
 旧 \(69999/80000\) 论文按已交付版本保留；新稿最终审查与 PDF 见
 [自由 b 构建清单](../reviews/2026-10-07/free-b-paper-build-manifest.json)。
+
+κ 反馈新稿另行记录 450–451 的结果：从指定底层输入重证
+plain moment 至 37/50≤κ≤1，再用实际 κ=2β*−1 支付反馈费用。
+严格边界 σ*=11/12−e*/4，其中 e* 是 657e³−954e²+21e+20=0 的指定根，
+σ*≈0.874957019420099。完整引用前件、逐槽 mesh 条件、连续有理证书与全族延拓
+均在正文；两份全文审查、最终源/PDF与版面验证见
+[三次边界构建清单](../reviews/2026-10-07/kappa-feedback-paper-build-manifest.json)。
+前两篇已交付无零边界稿保持原版；该稿仍不宣称新比例或外部 kernel 验收。
 
 ## 从仓库根目录编译
 
@@ -42,6 +51,8 @@ pdflatex -interaction=nonstopmode -halt-on-error -output-directory=output/pdf pa
 pdflatex -interaction=nonstopmode -halt-on-error -output-directory=output/pdf papers/seven-eighths-boundary-improvement-paper.tex
 pdflatex -interaction=nonstopmode -halt-on-error -output-directory=output/pdf papers/free-b-compensated-probe-boundary-paper.tex
 pdflatex -interaction=nonstopmode -halt-on-error -output-directory=output/pdf papers/free-b-compensated-probe-boundary-paper.tex
+pdflatex -interaction=nonstopmode -halt-on-error -output-directory=output/pdf papers/kappa-feedback-cubic-boundary-paper.tex
+pdflatex -interaction=nonstopmode -halt-on-error -output-directory=output/pdf papers/kappa-feedback-cubic-boundary-paper.tex
 ```
 
 两次编译用于更新引用。编译中间文件由 `.gitignore` 排除。
