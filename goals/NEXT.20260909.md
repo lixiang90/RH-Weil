@@ -1,5 +1,21 @@
 # 20260909版重启任务单
 
+## 当前用户任务（2026-10-07，换辅助数域的可行性）
+
+[457](../notes/457-number-field-choice-and-relative-amplification.md)已得带明列
+raw前件的order-d放大及Gaussian squarefree Gauss signal。
+优先以[具体quartic文献](../reviews/2026-10-07/hybrid-gaussian-quartic-feasibility-research.md)
+检验能否得到保持whole finite-order targets、natural zeros及quadratic
+terminal的完成反射。已知square-index theta coefficient与specific
+square-numerator Voronoi不直接满足旧incoming row全族合同。
+
+先构造并核对局部Euler reciprocal、ramified/classes、全部primepowers
+与principal分支；再付marked/plain moments、height与共同profile；
+只有全套contour margins和family continuation改善后才登记新sigma并
+另写正式论文。条件e4单分支指数节省不作为新边界；当前sigma*保持。
+Goal active，原actual mixed raw strict saving和物理四阶预算任务保留。
+下面是此前任务与长期几何目标。
+
 ## 当前用户任务（2026-10-07，454背景与actual mixed新检查点）
 
 执行[实际signed剩余四词与structured amplified mixed](../reviews/2026-10-07/hybrid-background-mixed-sector-and-amplified-next-proof-plan.md)。

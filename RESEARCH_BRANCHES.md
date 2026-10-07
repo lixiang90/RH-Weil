@@ -1,5 +1,20 @@
 # 研究分支看板
 
+## 当前用户队列（2026-10-07，辅助数域与 Gaussian 候选）
+
+优先处理用户的换域问题；Goal active，现有引用输入下的
+sigma*≈0.874957019420099保持，无新无零边界或比例。
+
+| 范围 | 已付与剩余 |
+|---|---|
+| [457数域分析](notes/457-number-field-choice-and-relative-amplification.md) | −3的结构依赖、反射降二次的rho条件、明确前件的order-d放大已付；条件指数不是新sigma |
+| [数域接口审查](reviews/2026-10-07/hybrid-number-field-choice-review.md) | 区分固定常数与cubic/sextic结构；直接6→4失败，其他虚二次/CM域均需重建输入 |
+| [Gaussian新输入](reviews/2026-10-07/hybrid-gaussian-quartic-feasibility-research.md) | DDHL v5及真实squarefree gamma1²=mu alpha signal；quartic theta、square-numerator Voronoi与原whole completion仍不等同 |
+| 下一证明目标 | 尝试保留全部target/zero masks的quartic completion与quadratic terminal；先支付reciprocal/marked/plain再优化sigma；原mixed与四阶主线继续保留 |
+
+独审和有限检查范围见[数域检查点](reviews/2026-10-07/number-field-choice-checkpoint.json)。
+公开README保持项目介绍，旧论文不改；以下为已有研究队列。
+
 ## 当前用户队列（2026-10-07，454背景、重复高低四词与放大混合列）
 
 当前 Goal active；最新已交付 σ*≈0.874957019420099 保持。

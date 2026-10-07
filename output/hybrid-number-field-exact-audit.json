@@ -1,0 +1,202 @@
+{
+  "scope": "finite Gaussian residue/Jacobi arithmetic and rational exponents only; no analytic reflection, moment, Euler quotient or zero-free certification",
+  "split_prime_models": 44,
+  "split_examples": [
+    {
+      "p": 5,
+      "primary_pi": [
+        -1,
+        2
+      ],
+      "epsilon": -1,
+      "supplement": -1,
+      "exact_J": [
+        -1,
+        2
+      ]
+    },
+    {
+      "p": 13,
+      "primary_pi": [
+        3,
+        2
+      ],
+      "epsilon": -1,
+      "supplement": -1,
+      "exact_J": [
+        3,
+        2
+      ]
+    },
+    {
+      "p": 17,
+      "primary_pi": [
+        1,
+        4
+      ],
+      "epsilon": 1,
+      "supplement": 1,
+      "exact_J": [
+        -1,
+        -4
+      ]
+    },
+    {
+      "p": 29,
+      "primary_pi": [
+        -5,
+        2
+      ],
+      "epsilon": -1,
+      "supplement": -1,
+      "exact_J": [
+        -5,
+        2
+      ]
+    },
+    {
+      "p": 37,
+      "primary_pi": [
+        -1,
+        6
+      ],
+      "epsilon": -1,
+      "supplement": -1,
+      "exact_J": [
+        -1,
+        6
+      ]
+    }
+  ],
+  "all_split_supplements_checked": true,
+  "inert_prime_models": [
+    {
+      "p": 3,
+      "primary_pi": [
+        -3,
+        0
+      ],
+      "exact_gauss_sum": -3,
+      "normalized_gauss_square": 1
+    },
+    {
+      "p": 7,
+      "primary_pi": [
+        -7,
+        0
+      ],
+      "exact_gauss_sum": 7,
+      "normalized_gauss_square": 1
+    },
+    {
+      "p": 11,
+      "primary_pi": [
+        -11,
+        0
+      ],
+      "exact_gauss_sum": -11,
+      "normalized_gauss_square": 1
+    },
+    {
+      "p": 19,
+      "primary_pi": [
+        -19,
+        0
+      ],
+      "exact_gauss_sum": -19,
+      "normalized_gauss_square": 1
+    },
+    {
+      "p": 23,
+      "primary_pi": [
+        -23,
+        0
+      ],
+      "exact_gauss_sum": 23,
+      "normalized_gauss_square": 1
+    },
+    {
+      "p": 31,
+      "primary_pi": [
+        -31,
+        0
+      ],
+      "exact_gauss_sum": 31,
+      "normalized_gauss_square": 1
+    }
+  ],
+  "v3_uniform_minus_alpha_counterexample": {
+    "p": 5,
+    "primary_pi": [
+      -1,
+      2
+    ],
+    "epsilon": -1,
+    "supplement": -1,
+    "exact_J": [
+      -1,
+      2
+    ]
+  },
+  "reference_ell_rounded": "2810567867/2500000000",
+  "conditional_exponents": {
+    "6": "3310567867/3000000000",
+    "4": "10931703601/10000000000",
+    "2": "5310567867/5000000000"
+  },
+  "conditional_e6_minus_e4": "310567867/30000000000",
+  "conditional_e6_minus_e2": "310567867/7500000000",
+  "single_shift_models": [
+    {
+      "d": 2,
+      "rho": 0,
+      "gauss_character_order": 1
+    },
+    {
+      "d": 4,
+      "rho": 1,
+      "gauss_character_order": 4
+    },
+    {
+      "d": 6,
+      "rho": 2,
+      "gauss_character_order": 3
+    },
+    {
+      "d": 8,
+      "rho": 3,
+      "gauss_character_order": 8
+    },
+    {
+      "d": 10,
+      "rho": 4,
+      "gauss_character_order": 5
+    },
+    {
+      "d": 12,
+      "rho": 5,
+      "gauss_character_order": 12
+    },
+    {
+      "d": 14,
+      "rho": 6,
+      "gauss_character_order": 7
+    },
+    {
+      "d": 16,
+      "rho": 7,
+      "gauss_character_order": 16
+    },
+    {
+      "d": 18,
+      "rho": 8,
+      "gauss_character_order": 9
+    },
+    {
+      "d": 20,
+      "rho": 9,
+      "gauss_character_order": 20
+    }
+  ],
+  "caveat": "general claims in note 457 require its written proofs and explicit raw-family hypotheses; finite models do not prove them"
+}

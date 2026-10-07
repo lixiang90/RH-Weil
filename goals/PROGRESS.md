@@ -1,5 +1,33 @@
 # 持续GOAL执行账本：20260909版重启
 
+## 2026-10-07：用户数域问题与 Gaussian squarefree signal
+
+从 main 502463775b1ba2a7d4aab65e1b55f3fbe775d7de 继续，优先回应用户
+关于 Q(sqrt(-3)) 对无零区域的影响及换域是否能改善边界。本轮为 progress，
+Goal active；无新边界、比例或正式边界论文。公开 README 保持项目介绍。
+
+[457数域笔记](../notes/457-number-field-choice-and-relative-amplification.md)
+付清 single-shift j=1 模板降到 quadratic 的条件 rho=m−1 mod2m，
+并证明带明确每个 c>0 raw supremum 前件的 order-d amplification lemma。
+Gaussian d4 相对 d6 的收益只在 r>1 的单分支为(r−1)/12；不登记为
+sigma 改善。−3 的固定格密度/单位数主要影响常数，cubic theta + sextic
+reflection 的 quadratic terminal 才是现有指数的核心结构。
+
+核验 DDHL v5 后，保留 v3 遗漏的 quartic Gauss supplement，
+分别证明 split/inert prime 的 gamma1²=−alpha，再用 exact CRT 得到
+所有odd primary squarefree c 的 gamma1(c)²=mu(c)alpha(c)。
+这是可用的真实 Gaussian signal；whole completed reflection、local
+reciprocal Euler quotient 和 marked/plain moments 仍未由它推出。
+已有 quartic theta 的平方系数与特定 square-numerator Voronoi 可作为
+研究起点，exponent-one core 及全 target family 的兼容性仍需新证明。
+
+数域逐接口报告、两份独审、Gaussian 文献核对和有限精确核查统一在
+[数域检查点](../reviews/2026-10-07/number-field-choice-checkpoint.json)归档。
+有限脚本只核44个split、6个inert及10个角色shift模型与有理指数，
+不认证无限解析矩或无零域。现有sigma*及三篇边界论文保持原版；
+此前其他新研究草稿保留，不在本次换域结论中提前验收。
+下面继续保留原研究目标、实际mixed/四阶预算及历史。
+
 ## 2026-10-07：454原背景、重复高低四词及actual mixed放大
 
 从已推送 main 1a51f5767f217c3dc02cd97ff2233d25cd8dd186 的干净工作区
