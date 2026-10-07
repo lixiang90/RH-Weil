@@ -1,0 +1,253 @@
+{
+  "date": "2026-10-08",
+  "base_repository_commit": "4b636a1c0e8374521cbfe82524e33ccb718af9b7",
+  "scope": "finite exact arithmetic and final source-review bindings, not an analytic proof kernel",
+  "new_actual_proportion": false,
+  "new_zero_free_boundary": false,
+  "new_paper": false,
+  "unchanged_sigma_under_stated_R": "0.87495701942009894612860385056...",
+  "previous_checkpoint_checked": "PASS: original residual constants, PSD obstruction, 128 positive Bernstein coefficients and preserved checkpoint",
+  "finite_certificate": {
+    "flat_low_parity_integrals": {
+      "absolute_difference": "1/480",
+      "lower_triangle": "1/960",
+      "upper_triangle": "7/1920",
+      "odd_residual_variance": "13/480",
+      "even_residual_variance": "11/480"
+    },
+    "high_even_residual_necessary_floor_under_bounded_q": "41/15120",
+    "candidate_still_unproved": {
+      "q_upper": "1/350",
+      "odd_residual_cap": "11/75600",
+      "root_sum_stationary_point": "13/8400",
+      "strict_root_sum_upper": "1/100",
+      "square_margin": "4883/28576800000000",
+      "c_enclosing_interval": [
+        "67/4800",
+        "163/4800"
+      ]
+    },
+    "unconditional_capped_31": {
+      "thin_high_cap": "11/20",
+      "short_low_cap": "1/3",
+      "sum_caps": "119/60",
+      "net_ratio_gap": [
+        "7/60",
+        "14/15"
+      ],
+      "raw_power_exponent": "-1/120",
+      "R_input_required": false
+    },
+    "additional_R_capped_31_budget": {
+      "fixed_a": "22/25",
+      "main_power_saving": "739/3000",
+      "Fourier_ghost_exponent": "-121/120",
+      "height_tail_exponent": "-241/120",
+      "larger_nonalternating_caps": "13/5",
+      "larger_nonalternating_power_saving": "3/250"
+    },
+    "mixed_cubic_threshold_under_stated_R": "9/10",
+    "mixed_cubic_exponent_at_89_over_100": "-1/40",
+    "traceclass_cubic_threshold_not_available_at_7_over_8": "5/6",
+    "proper_power_cube_word_count": 7,
+    "proper_power_word_powers": [
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      3
+    ],
+    "minkowski_fourth_factor_8_SOS_verified": true,
+    "actual_cubic_relative_written_proof_bound": "(sqrt(a_T)+1)/log(X) + o(1)",
+    "actual_cubic_smallness_sufficient_growth_premise": "a_T = o(log(X)^2)"
+  },
+  "links_checked": 57,
+  "review_bindings": [
+    {
+      "source": "notes/468-original-mixed-cubic-and-parity-resolved-fourth-reduction.md",
+      "review": "reviews/2026-10-07/hybrid-mixed-cubic-and-parity-constraints-review-twisted.md",
+      "source_sha256": "ad4cf9f8bb4c77e24487b32434dc64d28162745adf3b1e0555b230be3953baf7"
+    },
+    {
+      "source": "notes/468-original-mixed-cubic-and-parity-resolved-fourth-reduction.md",
+      "review": "reviews/2026-10-07/468-original-cubic-and-parity-review-radial.md",
+      "source_sha256": "ad4cf9f8bb4c77e24487b32434dc64d28162745adf3b1e0555b230be3953baf7"
+    },
+    {
+      "source": "reviews/2026-10-07/hybrid-high-parity-traceclass-cubic-research-compression.md",
+      "review": "reviews/2026-10-07/hybrid-high-parity-traceclass-cubic-review-root.md",
+      "source_sha256": "bf54378214c05f68c6865aeaef7e87ae6a9cf9853cddfd5654174031871eabc9"
+    },
+    {
+      "source": "reviews/2026-10-07/hybrid-background-entire-mixed-cubic-research-compression.md",
+      "review": "reviews/2026-10-07/hybrid-original-mixed-cubic-and-parity-review-root.md",
+      "source_sha256": "19c715587681c95c3e8750e4751a30bff798b372f68dc516f029c0a5e71020dd"
+    },
+    {
+      "source": "reviews/2026-10-07/hybrid-background-entire-mixed-cubic-research-compression.md",
+      "review": "reviews/2026-10-07/hybrid-mixed-cubic-and-parity-constraints-review-twisted.md",
+      "source_sha256": "19c715587681c95c3e8750e4751a30bff798b372f68dc516f029c0a5e71020dd"
+    },
+    {
+      "source": "reviews/2026-10-07/hybrid-background-entire-mixed-cubic-research-compression.md",
+      "review": "reviews/2026-10-07/468-original-cubic-and-parity-review-radial.md",
+      "source_sha256": "19c715587681c95c3e8750e4751a30bff798b372f68dc516f029c0a5e71020dd"
+    },
+    {
+      "source": "reviews/2026-10-07/hybrid-background-cubic-relative-actual-recovery-research-compression.md",
+      "review": "reviews/2026-10-07/hybrid-original-mixed-cubic-and-parity-review-root.md",
+      "source_sha256": "1dbdad713d2694d9fce6391971fc0044fcbf18d0ad3dbdd2d3fba5111ba80d38"
+    },
+    {
+      "source": "reviews/2026-10-07/hybrid-background-cubic-relative-actual-recovery-research-compression.md",
+      "review": "reviews/2026-10-07/hybrid-mixed-cubic-and-parity-constraints-review-twisted.md",
+      "source_sha256": "1dbdad713d2694d9fce6391971fc0044fcbf18d0ad3dbdd2d3fba5111ba80d38"
+    },
+    {
+      "source": "reviews/2026-10-07/hybrid-background-cubic-relative-actual-recovery-research-compression.md",
+      "review": "reviews/2026-10-07/468-original-cubic-and-parity-review-radial.md",
+      "source_sha256": "1dbdad713d2694d9fce6391971fc0044fcbf18d0ad3dbdd2d3fba5111ba80d38"
+    },
+    {
+      "source": "reviews/2026-10-07/hybrid-parity-resolved-residual-necessary-constraints-radial.md",
+      "review": "reviews/2026-10-07/hybrid-original-mixed-cubic-and-parity-review-root.md",
+      "source_sha256": "6a5fb7db8467e80682d7351ee37a940af8d39de50fffe2f16b0b3a48d5dfc6f6"
+    },
+    {
+      "source": "reviews/2026-10-07/hybrid-parity-resolved-residual-necessary-constraints-radial.md",
+      "review": "reviews/2026-10-07/hybrid-mixed-cubic-and-parity-constraints-review-twisted.md",
+      "source_sha256": "6a5fb7db8467e80682d7351ee37a940af8d39de50fffe2f16b0b3a48d5dfc6f6"
+    },
+    {
+      "source": "reviews/2026-10-07/hybrid-three-high-one-low-nonalternating-gate-research.md",
+      "review": "reviews/2026-10-07/hybrid-three-high-one-low-nonalternating-gate-review-root.md",
+      "source_sha256": "ce1e000572fc2eecb0fe99211c3120ac0b901fb42dd973064b8b041adc3174bd"
+    },
+    {
+      "source": "reviews/2026-10-07/hybrid-three-high-one-low-nonalternating-gate-research.md",
+      "review": "reviews/2026-10-07/hybrid-three-high-one-low-gate-and-capped-review-compression.md",
+      "source_sha256": "ce1e000572fc2eecb0fe99211c3120ac0b901fb42dd973064b8b041adc3174bd"
+    },
+    {
+      "source": "reviews/2026-10-07/hybrid-thin-high-short-low-entire-three-one-research.md",
+      "review": "reviews/2026-10-07/hybrid-three-high-one-low-nonalternating-gate-review-root.md",
+      "source_sha256": "c720b48c6e481d3c1b2f67ec36f8dd26b541e2f006eddd9022307fe9474a7128"
+    },
+    {
+      "source": "reviews/2026-10-07/hybrid-thin-high-short-low-entire-three-one-research.md",
+      "review": "reviews/2026-10-07/hybrid-three-high-one-low-gate-and-capped-review-compression.md",
+      "source_sha256": "c720b48c6e481d3c1b2f67ec36f8dd26b541e2f006eddd9022307fe9474a7128"
+    },
+    {
+      "source": "reviews/2026-10-07/hybrid-thin-high-short-low-unconditional-three-one-research-radial.md",
+      "review": "reviews/2026-10-07/hybrid-three-high-one-low-nonalternating-gate-review-root.md",
+      "source_sha256": "74e47ca7b791656c25067793a2d9068c47675f3f60f0afc4d5c5d344fef5ea34"
+    },
+    {
+      "source": "reviews/2026-10-07/hybrid-thin-high-short-low-unconditional-three-one-research-radial.md",
+      "review": "reviews/2026-10-07/hybrid-mixed-cubic-and-parity-constraints-review-twisted.md",
+      "source_sha256": "74e47ca7b791656c25067793a2d9068c47675f3f60f0afc4d5c5d344fef5ea34"
+    }
+  ],
+  "files": [
+    {
+      "path": "notes/468-original-mixed-cubic-and-parity-resolved-fourth-reduction.md",
+      "sha256_canonical_lf": "ad4cf9f8bb4c77e24487b32434dc64d28162745adf3b1e0555b230be3953baf7",
+      "canonical_utf8_bytes": 8694,
+      "lines": 205
+    },
+    {
+      "path": "reviews/2026-10-07/hybrid-high-parity-traceclass-cubic-research-compression.md",
+      "sha256_canonical_lf": "bf54378214c05f68c6865aeaef7e87ae6a9cf9853cddfd5654174031871eabc9",
+      "canonical_utf8_bytes": 6382,
+      "lines": 189
+    },
+    {
+      "path": "reviews/2026-10-07/hybrid-background-entire-mixed-cubic-research-compression.md",
+      "sha256_canonical_lf": "19c715587681c95c3e8750e4751a30bff798b372f68dc516f029c0a5e71020dd",
+      "canonical_utf8_bytes": 13926,
+      "lines": 289
+    },
+    {
+      "path": "reviews/2026-10-07/hybrid-background-cubic-relative-actual-recovery-research-compression.md",
+      "sha256_canonical_lf": "1dbdad713d2694d9fce6391971fc0044fcbf18d0ad3dbdd2d3fba5111ba80d38",
+      "canonical_utf8_bytes": 5564,
+      "lines": 127
+    },
+    {
+      "path": "reviews/2026-10-07/hybrid-parity-resolved-residual-necessary-constraints-radial.md",
+      "sha256_canonical_lf": "6a5fb7db8467e80682d7351ee37a940af8d39de50fffe2f16b0b3a48d5dfc6f6",
+      "canonical_utf8_bytes": 13209,
+      "lines": 350
+    },
+    {
+      "path": "reviews/2026-10-07/hybrid-three-high-one-low-nonalternating-gate-research.md",
+      "sha256_canonical_lf": "ce1e000572fc2eecb0fe99211c3120ac0b901fb42dd973064b8b041adc3174bd",
+      "canonical_utf8_bytes": 11593,
+      "lines": 279
+    },
+    {
+      "path": "reviews/2026-10-07/hybrid-thin-high-short-low-entire-three-one-research.md",
+      "sha256_canonical_lf": "c720b48c6e481d3c1b2f67ec36f8dd26b541e2f006eddd9022307fe9474a7128",
+      "canonical_utf8_bytes": 11056,
+      "lines": 267
+    },
+    {
+      "path": "reviews/2026-10-07/hybrid-thin-high-short-low-unconditional-three-one-research-radial.md",
+      "sha256_canonical_lf": "74e47ca7b791656c25067793a2d9068c47675f3f60f0afc4d5c5d344fef5ea34",
+      "canonical_utf8_bytes": 7831,
+      "lines": 216
+    },
+    {
+      "path": "reviews/2026-10-07/hybrid-high-parity-traceclass-cubic-review-root.md",
+      "sha256_canonical_lf": "dd242600cbc5bbf07e82cb805238400bd382f450ab41eb170b4ffc60b74444ae",
+      "canonical_utf8_bytes": 3776,
+      "lines": 79
+    },
+    {
+      "path": "reviews/2026-10-07/hybrid-three-high-one-low-nonalternating-gate-review-root.md",
+      "sha256_canonical_lf": "9c1007cf26d47f7540479a41a0ebc51c1e98311c13a941bd6435780ba12a7cc8",
+      "canonical_utf8_bytes": 6223,
+      "lines": 120
+    },
+    {
+      "path": "reviews/2026-10-07/hybrid-original-mixed-cubic-and-parity-review-root.md",
+      "sha256_canonical_lf": "be0e919ebb54581163f071a55b858c2c13dee3086b402274697288901d79c11d",
+      "canonical_utf8_bytes": 8090,
+      "lines": 153
+    },
+    {
+      "path": "reviews/2026-10-07/hybrid-three-high-one-low-gate-and-capped-review-compression.md",
+      "sha256_canonical_lf": "3783d0a0b482260d42dcc7ddf085a35be84a0369b567979c62ba511bb735bfd9",
+      "canonical_utf8_bytes": 6231,
+      "lines": 102
+    },
+    {
+      "path": "reviews/2026-10-07/hybrid-mixed-cubic-and-parity-constraints-review-twisted.md",
+      "sha256_canonical_lf": "a9bc78aadb1b5e9710e032406db3b9f0f27c4b23db13e1345efcb8f80ead81ad",
+      "canonical_utf8_bytes": 13492,
+      "lines": 226
+    },
+    {
+      "path": "reviews/2026-10-07/468-original-cubic-and-parity-review-radial.md",
+      "sha256_canonical_lf": "776b114003b6d98ca17609aa3926659a702f3788f6bad46540d6cf55cfc67a13",
+      "canonical_utf8_bytes": 9374,
+      "lines": 182
+    },
+    {
+      "path": "scripts/hybrid_original_cubic_parity_checkpoint.py",
+      "sha256_canonical_lf": "1843046b3bb0b6ffe57760cf4641c710f6a932de8746ecd1f751ca92fa05baaa",
+      "canonical_utf8_bytes": 9685,
+      "lines": 194
+    }
+  ],
+  "unproved": [
+    "a new actual bound for the whole high fourth a_T",
+    "whole31, whole22 and full signed fourth constant with original internal projections",
+    "the actual joint candidate limsup q <= 1/350 and liminf k >= 1/40",
+    "a new actual simple-zero proportion or zero-free boundary",
+    "independent certification of the imported analytic R kernel"
+  ]
+}
