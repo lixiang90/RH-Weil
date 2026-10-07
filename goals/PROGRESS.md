@@ -1,5 +1,36 @@
 # 持续GOAL执行账本：20260909版重启
 
+## 2026-10-07：452–453 四次迹截断与显式素数子预算
+
+从已推送 f76eb72 的干净工作区继续，本轮属于 progress。
+在已交付三次边界明列 [R] 下，
+[452](../notes/452-subquarter-padding-and-fourth-trace-stability.md)
+把原同一 H/G_P 的 normalized fourth-tail transfer 付至
+P=T^0.24996、O(T^(−13/500000))；保留全部原项及固定直线余量。
+独审纠正一般 θ 范围的小迹范数门槛为两个下限的最大值，
+三次 σ* 的具体实例不受影响。
+
+[高素数研究](../reviews/2026-10-07/hybrid-high-prime-four-word-response-research.md)
+付清原 finite compression 的整个 repeated-index sector，
+一侧预算4∫dψ²，flat19/120；finite leakage、T0/T22同主项和pqpq已付款。
+[453](../notes/453-explicit-low-prime-fourth-moment-budget.md)
+给原低 Λ cutoff的显式一侧limsup a_L³TrP⁴/N≤3ρ⁴，
+flatρ=1/2上界3/16，包含weighted MV endpoint、Re不平衡项与proper powers。
+这些子预算不等于完整四阶常数，也不能直接相加得到新比例。
+
+[临界 mixed 研究](../reviews/2026-10-07/hybrid-critical-neighborhood-mixed-witness-research.md)
+完成真实有限多t与short/long共同核归约；
+严格mixed moment power saving χ仍未得到。
+[determinant研究](../reviews/2026-10-07/hybrid-physical-determinant-average-research.md)
+付清原M=H partition的指定算术参考O(L³)，真实pooled四Λ累计余量仍未证。
+独立审查与可复现finite algebra证据见
+[本轮检查点](../reviews/2026-10-07/prime-sector-and-critical-mixed-checkpoint.json)。
+
+无新无零边界/零点比例，本轮不另写边界论文；
+旧三篇正式稿及PDF保持，最新σ*≈0.874957019420099未变化。
+继续[实际mixed及distinct预算](../reviews/2026-10-07/hybrid-prime-sector-and-critical-mixed-next-proof-plan.md)。
+Goal active，外部来源整链认证和原长期几何目标保留。以下为历史。
+
 ## 2026-10-07：450–451 lower-κ 重证与三次反馈边界论文
 
 从 main 的 7846f34 继续，在明确底层 [R] 下逐段重做完整 plain proof，

@@ -1,5 +1,19 @@
 # 20260909版重启任务单
 
+## 当前用户任务（2026-10-07，452–453与素数子预算检查点）
+
+执行[真实 amplified mixed 与 distinct/mixed 四词](../reviews/2026-10-07/hybrid-prime-sector-and-critical-mixed-next-proof-plan.md)。
+原 subquarter padding 的同矩阵第四迹 transfer已付；high repeated
+与low sharp Λ的显式一侧常数已付款，full fourth仍缺distinct/mixed/background。
+不要重复已付padding或把两个子预算直接相加成比例。
+
+边界任务在actual critical short/long core研究μ×1×1的profile-resolved
+completion或ua⁶ amplified mixed estimate，必须保留不同ν、natural masks与全高度。
+仅原合法mixed plain不能更强。determinant参考已经付O(L³)，继续真实
+curved-prefix four-Λ correlation而非再次只核local factors。
+无新边界/比例，旧三篇论文保持；确认下一新边界后另写独立稿。
+Goal active，原长期目标保留。以下为历史。
+
 ## 当前用户任务（2026-10-07，450–451三次反馈检查点）
 
 执行[临界实际 count 与物理四阶预算](../reviews/2026-10-07/hybrid-cubic-feedback-and-physical-fourth-next-proof-plan.md)。

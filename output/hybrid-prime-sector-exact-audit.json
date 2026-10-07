@@ -1,0 +1,92 @@
+{
+  "status": "PASS: finite exact algebra only",
+  "cyclic_partition_models": [
+    {
+      "labels": 1,
+      "ordered_words": 1,
+      "cyclic_classes": 1
+    },
+    {
+      "labels": 2,
+      "ordered_words": 16,
+      "cyclic_classes": 6
+    },
+    {
+      "labels": 3,
+      "ordered_words": 81,
+      "cyclic_classes": 24
+    },
+    {
+      "labels": 4,
+      "ordered_words": 256,
+      "cyclic_classes": 64
+    }
+  ],
+  "finite_symbolic_prime_product_models": [
+    {
+      "weighted": false,
+      "primes": [
+        2,
+        3,
+        5,
+        7
+      ],
+      "product_columns": 10
+    },
+    {
+      "weighted": true,
+      "primes": [
+        2,
+        3,
+        5,
+        7
+      ],
+      "product_columns": 10
+    }
+  ],
+  "indicator_symbol_square_integral": "19/480",
+  "indicator_repeated_high_upper": "19/120",
+  "flat_low_scalar_jensen_upper": "3/16",
+  "local_residue_checks": 41,
+  "finite_euler_period": 30030,
+  "finite_euler_factor_sum": "30030",
+  "not_certified": [
+    "Hilbert mean-value estimates, projection leakage and infinite tails",
+    "actual high-prime distinct or low/high mixed correlations",
+    "infinite singular series asymptotic and physical four-point condition",
+    "critical mixed-witness power saving, zero-free boundary, proportions or RH",
+    "imported source or external kernels"
+  ],
+  "inputs_read_and_hashed_from_disk": [
+    {
+      "path": "notes/452-subquarter-padding-and-fourth-trace-stability.md",
+      "sha256_canonical_lf": "9e6071870a7203ce97e5489cf3178ee8681abf36014db790a8b60d8fa4895bbc",
+      "canonical_utf8_bytes": 12296
+    },
+    {
+      "path": "notes/453-explicit-low-prime-fourth-moment-budget.md",
+      "sha256_canonical_lf": "0df65e79b5875fc0e5f7110ceaa05723e4db0cca0b3cc443551c7005a700ddf6",
+      "canonical_utf8_bytes": 10115
+    },
+    {
+      "path": "reviews/2026-10-07/hybrid-high-prime-four-word-response-research.md",
+      "sha256_canonical_lf": "988f8669a771e5b913bbc546590ceac540fc1391838e948563e4b4578f8ff666",
+      "canonical_utf8_bytes": 19170
+    },
+    {
+      "path": "reviews/2026-10-07/hybrid-physical-determinant-average-research.md",
+      "sha256_canonical_lf": "4dcd7bf85ffb4a697f51a8c5160480b120dfe0f4c0d249ba817f76ed9e38a5d6",
+      "canonical_utf8_bytes": 17559
+    },
+    {
+      "path": "reviews/2026-10-07/hybrid-critical-neighborhood-mixed-witness-research.md",
+      "sha256_canonical_lf": "ef85a5e5fd5aef3543aef6eb4b6adff6a1ecd39791575a89704e4b08e04e8983",
+      "canonical_utf8_bytes": 19827
+    }
+  ],
+  "script_read_and_hashed_from_disk": {
+    "path": "scripts/hybrid_prime_sector_exact_audit.py",
+    "sha256_canonical_lf": "147f203ebb3f2c6150323bbf65a2be9e5ade99255f6490b0cc23294f050e2302",
+    "canonical_utf8_bytes": 5750
+  }
+}

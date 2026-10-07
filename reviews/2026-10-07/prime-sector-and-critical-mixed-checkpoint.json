@@ -1,0 +1,230 @@
+{
+  "date": "2026-10-07",
+  "base_repository_commit": "f76eb72bff841c689ad2de228308720d62d880b7",
+  "previous_goal_turn": "progress",
+  "goal_status": "active",
+  "boundary_result": {
+    "new_boundary": false,
+    "unchanged_strict_boundary": "sigma*=11/12-e*/4 = 0.874957019420098946...",
+    "scope": "cubic paper's explicit cited R; no new source/kernel certification"
+  },
+  "new_completed_interfaces": {
+    "zero_to_prime_fourth_tail": {
+      "scope": "T/R on original finite H and G_P",
+      "padding_exponent": "6249/25000",
+      "fixed_line": "87497/100000",
+      "normalized_fourth_error_before_logs": "O(T^(-13/250000) log^2 T)",
+      "normalized_fourth_error_after_logs": "O(T^(-13/500000))",
+      "general_small_trace_tail_threshold": "r > max(2*theta-3/2, theta/2-1/4)"
+    },
+    "high_prime_repeated_sector": {
+      "scope": "T; original finite compression, fixed C2 taper",
+      "signed_lower": "-o(N)",
+      "upper": "4*integral d_psi^2 * N + o(N)",
+      "indicator_upper": "19/120",
+      "distinct_sector_paid": false
+    },
+    "low_lambda_fourth": {
+      "scope": "T; original sharp cutoff, fixed rho and profile",
+      "upper": "limsup a_L^3 Tr(P_low)^4 / N <= 3*rho^4, 0<rho<=1/2",
+      "flat_sqrt_X_upper": "3/16",
+      "exact_main_term_claim": false
+    },
+    "critical_mixed_core": {
+      "scope": "T/R; actual finite multi-t witnesses and continuous box core",
+      "strict_mixed_power_saving_chi_paid": false,
+      "draft_review_repairs": [
+        "short inverse removal only r<1",
+        "single-divisor example m<r<2m",
+        "joint dyadic stratum fixed before summation"
+      ]
+    },
+    "physical_determinant_reference": {
+      "scope": "T on original fixed-cell M=H common partition",
+      "specified_reference_cost": "O(log^3 X)",
+      "actual_four_Lambda_cumulative_condition_paid": false
+    }
+  },
+  "new_proportion": false,
+  "new_paper_written": false,
+  "old_papers_recompiled": false,
+  "unpaid": [
+    "actual critical mixed-moment power saving",
+    "four-distinct high words",
+    "low/high and background mixed words",
+    "whole signed fourth constant",
+    "all cells/cross-cell alias",
+    "actual pooled curved-prefix four-Lambda correlation",
+    "independent imported source wholechain/kernel certification"
+  ],
+  "review_scope": {
+    "high_repeated": "two full independent reviews: root and radial",
+    "low_explicit": "two full independent reviews: twisted and radial",
+    "fourth_tail": "full independent twisted review; general range fixed",
+    "critical_core": "full independent joint review after draft repairs",
+    "determinant_reference": "full independent root review; actual saving not proved"
+  },
+  "research_draft_wording": "Pre-review status wording in frozen new drafts is preserved; completed state is supplied by actual final reviews and this checkpoint.",
+  "finite_evidence": {
+    "both_certify_objects_equal_current_JSON": true,
+    "tail": "exact cubic interval, rational powers and free noncommutative telescoping",
+    "sector": "4 cyclic word models; 2 finite formal prime-product models; rational constants; 41 residue checks and period 30030 mean-one",
+    "scope": "Finite displayed algebra only; no analytic, prime correlation, zero-free, proportion, RH or external kernel certification"
+  },
+  "format_verification": {
+    "local_links_checked": 608,
+    "control_characters_checked": true
+  },
+  "imported_source": {
+    "commit": "adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+    "path": "E:\\codex-build\\math\\preprints\\The-Quasi-Riemann-Hypothesis-September-30-2026\\build\\paper.tex",
+    "sha256_canonical_lf": "42a5ee0febca59fd1def55cfd6c6808c322ef4237d7726303ea52f711deac6a3",
+    "read_only": true,
+    "worktree_clean_at_checkpoint": true,
+    "external_kernel_run": false
+  },
+  "AF_primary_PDF": {
+    "path": "literature/baseline/2026-alpoge-furman-6725-v2.pdf",
+    "sha256": "6de3b156342e7b4a802c34f8ef40432567e9dabe006938da04233f19fc4ef444",
+    "bytes": 478663
+  },
+  "preserved_previous_delivery": [
+    {
+      "path": "papers/seven-eighths-boundary-improvement-paper.tex",
+      "sha256_canonical_lf": "92ba93da7cc568579b0b982bcd712e1382af749d05460c1fa4c8b25064df66d6",
+      "canonical_utf8_bytes": 41612
+    },
+    {
+      "path": "output/pdf/seven-eighths-boundary-improvement-paper.pdf",
+      "sha256": "1604c74dfa37ab576ea8d861604cffa49bb7611c79d34d5d46234d7097d8673f",
+      "bytes": 457325
+    },
+    {
+      "path": "papers/free-b-compensated-probe-boundary-paper.tex",
+      "sha256_canonical_lf": "5df2b6ad687572229e2c4d41292bee6cf81b57a13b762173d26732169f1688db",
+      "canonical_utf8_bytes": 35118
+    },
+    {
+      "path": "output/pdf/free-b-compensated-probe-boundary-paper.pdf",
+      "sha256": "1c1322b67f30c136858fcc2de2fca468fc48f450be2ed573cff93e931774f436",
+      "bytes": 401489
+    },
+    {
+      "path": "papers/kappa-feedback-cubic-boundary-paper.tex",
+      "sha256_canonical_lf": "16c0ba50a2917f2ead56843eabf55b62fbbe214e162cff373b4d8554f84315ee",
+      "canonical_utf8_bytes": 39181
+    },
+    {
+      "path": "output/pdf/kappa-feedback-cubic-boundary-paper.pdf",
+      "sha256": "791b20f83db7223c75ba9a3ea54611cdc9e89b12831685c004507edabeade6a6",
+      "bytes": 447816
+    },
+    {
+      "path": "docs/history/README-progress-2026-10-07.md",
+      "sha256_canonical_lf": "9441481d4e59cecebc5dcef1170805314ffebaef0ffe44578043c05de3303b57",
+      "canonical_utf8_bytes": 256678
+    }
+  ],
+  "files": [
+    {
+      "path": "notes/452-subquarter-padding-and-fourth-trace-stability.md",
+      "sha256_canonical_lf": "9e6071870a7203ce97e5489cf3178ee8681abf36014db790a8b60d8fa4895bbc",
+      "canonical_utf8_bytes": 12296
+    },
+    {
+      "path": "notes/453-explicit-low-prime-fourth-moment-budget.md",
+      "sha256_canonical_lf": "0df65e79b5875fc0e5f7110ceaa05723e4db0cca0b3cc443551c7005a700ddf6",
+      "canonical_utf8_bytes": 10115
+    },
+    {
+      "path": "scripts/hybrid_fourth_tail_exact_audit.py",
+      "sha256_canonical_lf": "892aabba5cb40e84fd1982600f4c442617ac581130c05e37f7f5875d1ba0200a",
+      "canonical_utf8_bytes": 4079
+    },
+    {
+      "path": "scripts/hybrid_prime_sector_exact_audit.py",
+      "sha256_canonical_lf": "147f203ebb3f2c6150323bbf65a2be9e5ade99255f6490b0cc23294f050e2302",
+      "canonical_utf8_bytes": 5750
+    },
+    {
+      "path": "output/hybrid-fourth-tail-exact-audit.json",
+      "sha256_canonical_lf": "a80f01630284c83657ae04e594977150c96593cb5411047a43966016f229746d",
+      "canonical_utf8_bytes": 1826
+    },
+    {
+      "path": "output/hybrid-prime-sector-exact-audit.json",
+      "sha256_canonical_lf": "3a5f22466ae69e467b46366d9c1898c566d1437ca65ba3cdfcd56b42bbb91ac6",
+      "canonical_utf8_bytes": 2759
+    },
+    {
+      "path": "reviews/2026-10-07/hybrid-high-prime-four-word-response-research.md",
+      "sha256_canonical_lf": "988f8669a771e5b913bbc546590ceac540fc1391838e948563e4b4578f8ff666",
+      "canonical_utf8_bytes": 19170
+    },
+    {
+      "path": "reviews/2026-10-07/hybrid-critical-neighborhood-mixed-witness-research.md",
+      "sha256_canonical_lf": "ef85a5e5fd5aef3543aef6eb4b6adff6a1ecd39791575a89704e4b08e04e8983",
+      "canonical_utf8_bytes": 19827
+    },
+    {
+      "path": "reviews/2026-10-07/hybrid-physical-determinant-average-research.md",
+      "sha256_canonical_lf": "4dcd7bf85ffb4a697f51a8c5160480b120dfe0f4c0d249ba817f76ed9e38a5d6",
+      "canonical_utf8_bytes": 17559
+    },
+    {
+      "path": "reviews/2026-10-07/hybrid-high-prime-four-word-review-root.md",
+      "sha256_canonical_lf": "b0bd215e622a041cf29a9cd671996e9ca65e1ec3b6cf02ef355f905a97e17516",
+      "canonical_utf8_bytes": 5493
+    },
+    {
+      "path": "reviews/2026-10-07/hybrid-high-prime-four-word-review-radial.md",
+      "sha256_canonical_lf": "adad8faefc0b3a07961818ecb51ab35591611586101376a643bc2cef830ffeae",
+      "canonical_utf8_bytes": 7844
+    },
+    {
+      "path": "reviews/2026-10-07/hybrid-subquarter-fourth-tail-review-twisted.md",
+      "sha256_canonical_lf": "9cf98dec6d4b9306a0082f854fc5abfed40b8d8d2ef1d301e272e2d1bad19c49",
+      "canonical_utf8_bytes": 9733
+    },
+    {
+      "path": "reviews/2026-10-07/hybrid-low-prime-explicit-fourth-review-twisted.md",
+      "sha256_canonical_lf": "96d8ea1896e74089a35184d51f27106ba9edd0528b9eafb5283fa7dae2587fc4",
+      "canonical_utf8_bytes": 9240
+    },
+    {
+      "path": "reviews/2026-10-07/hybrid-low-prime-explicit-fourth-review-radial.md",
+      "sha256_canonical_lf": "9f43c44ba61e5547b950105a66cd15a62f3997d243cab1fe8553a396f3bd7fc6",
+      "canonical_utf8_bytes": 8309
+    },
+    {
+      "path": "reviews/2026-10-07/hybrid-critical-mixed-witness-review-joint.md",
+      "sha256_canonical_lf": "695c26a3583043967645f1029984c4e5a281786c1f7a2ef3c5c6dbe73875668e",
+      "canonical_utf8_bytes": 14029
+    },
+    {
+      "path": "reviews/2026-10-07/hybrid-physical-determinant-average-review-root.md",
+      "sha256_canonical_lf": "65d25f9617c0ffbaf325afe4eae0fcdcc6caf80be51b97153478cca8e681b0e4",
+      "canonical_utf8_bytes": 4869
+    },
+    {
+      "path": "reviews/2026-10-07/hybrid-prime-sector-and-critical-mixed-next-proof-plan.md",
+      "sha256_canonical_lf": "149181e2a8a0faac8dd77b10104217f070355355eebc1cfd43bce52c1213e4a5",
+      "canonical_utf8_bytes": 5947
+    },
+    {
+      "path": "goals/PROGRESS.md",
+      "sha256_canonical_lf": "da160cb6421ec76375521af7a0d03f288c5fdace433c894cfdd87649958ec67a",
+      "canonical_utf8_bytes": 111264
+    },
+    {
+      "path": "goals/NEXT.20260909.md",
+      "sha256_canonical_lf": "c3b4b4d84d9fffff04379b32f4173e8f6c13b7b7801bc884f833a4207664bcd6",
+      "canonical_utf8_bytes": 40626
+    },
+    {
+      "path": "RESEARCH_BRANCHES.md",
+      "sha256_canonical_lf": "5410c2a340f511eb16445ad92880041363af3d83264d23b8e8dcb77919d9436f",
+      "canonical_utf8_bytes": 170471
+    }
+  ]
+}

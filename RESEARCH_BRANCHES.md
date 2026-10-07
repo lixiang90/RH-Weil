@@ -1,5 +1,21 @@
 # 研究分支看板
 
+## 当前用户队列（2026-10-07，452–453与实际mixed预算）
+
+当前Goal active；σ*≈0.874957019420099保持，无新增边界/比例或论文。
+公开README保持项目介绍。
+
+| 范围 | 已付/未付 |
+|---|---|
+| [452同矩阵第四迹截断](notes/452-subquarter-padding-and-fourth-trace-stability.md) | 三次界明列[R]下P=T^0.24996，normalized tail为powersmall；无四矩主常数 |
+| [high repeated sector](reviews/2026-10-07/hybrid-high-prime-four-word-response-research.md)、[453 low预算](notes/453-explicit-low-prime-fourth-moment-budget.md) | 原finite compression一侧常数已付；distinct、low/high与background mixed及全alias开放 |
+| [critical mixed核](reviews/2026-10-07/hybrid-critical-neighborhood-mixed-witness-research.md) | 真实short/long归约完成；严格χ>0混合矩未证 |
+| [determinant参考](reviews/2026-10-07/hybrid-physical-determinant-average-research.md) | 原M=H指定主项O(L³)已付；真实curved-prefix four-Λ条件未证 |
+| [当前任务](reviews/2026-10-07/hybrid-prime-sector-and-critical-mixed-next-proof-plan.md) | amplified composite column/shifted completion；实际distinct/mixed signed fourth，不重复准入 |
+
+独审与finite algebra范围见[本轮检查点](reviews/2026-10-07/prime-sector-and-critical-mixed-checkpoint.json)。
+旧正式论文与长期几何目标保留。以下为历史队列。
+
 ## 当前用户队列（2026-10-07，三次反馈边界与物理四阶预算）
 
 当前 Goal active。公开 README 保持项目介绍；本看板保存研究状态。

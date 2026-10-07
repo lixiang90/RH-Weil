@@ -1,0 +1,50 @@
+{
+  "status": "PASS: finite algebra only",
+  "scope": [
+    "cubic root isolation by exact signs and negative derivative",
+    "fixed rational line and padding exponent inequalities",
+    "fourth-power telescoping identity in the free word algebra"
+  ],
+  "not_certified": [
+    "imported source theorem and external kernels",
+    "zero-free continuation or the cubic paper's analytic proof",
+    "zero-tail or complete Gabor operator estimates",
+    "actual prime fourth moment, proportions or RH"
+  ],
+  "e_root_interval": [
+    "16683858898627/100000000000000",
+    "4170964724657/25000000000000"
+  ],
+  "sigma_interval": [
+    "262487105826029/300000000000000",
+    "1049948423304119/1200000000000000"
+  ],
+  "theta_rational_upper": "437479/500000",
+  "fixed_line_a": "87497/100000",
+  "padding_exponent": "6249/25000",
+  "trace_norm_exponent_upper": "-62481/500000",
+  "normalized_fourth_exponent_upper_before_logs": "-13/250000",
+  "normalized_fourth_power_saving_after_logs": "13/500000",
+  "quarter_padding_exponent_upper_before_logs": "-33/250000",
+  "free_word_identity": {
+    "AAAA": 1,
+    "BBBB": -1
+  },
+  "inputs_read_and_hashed_from_disk": [
+    {
+      "path": "notes/452-subquarter-padding-and-fourth-trace-stability.md",
+      "sha256_canonical_lf": "9e6071870a7203ce97e5489cf3178ee8681abf36014db790a8b60d8fa4895bbc",
+      "canonical_utf8_bytes": 12296
+    },
+    {
+      "path": "papers/kappa-feedback-cubic-boundary-paper.tex",
+      "sha256_canonical_lf": "16c0ba50a2917f2ead56843eabf55b62fbbe214e162cff373b4d8554f84315ee",
+      "canonical_utf8_bytes": 39181
+    }
+  ],
+  "script_read_and_hashed_from_disk": {
+    "path": "scripts/hybrid_fourth_tail_exact_audit.py",
+    "sha256_canonical_lf": "892aabba5cb40e84fd1982600f4c442617ac581130c05e37f7f5875d1ba0200a",
+    "canonical_utf8_bytes": 4079
+  }
+}
