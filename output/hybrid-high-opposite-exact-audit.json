@@ -1,0 +1,81 @@
+{
+  "status": "PASS: finite cyclic-word, residue and rational-integral algebra only",
+  "cyclic_word_models": [
+    {
+      "labels": 1,
+      "ordered_repeated_words": 1,
+      "cyclic_classes_checked": 1
+    },
+    {
+      "labels": 2,
+      "ordered_repeated_words": 16,
+      "cyclic_classes_checked": 6
+    },
+    {
+      "labels": 3,
+      "ordered_repeated_words": 81,
+      "cyclic_classes_checked": 24
+    },
+    {
+      "labels": 4,
+      "ordered_repeated_words": 232,
+      "cyclic_classes_checked": 64
+    },
+    {
+      "labels": 5,
+      "ordered_repeated_words": 505,
+      "cyclic_classes_checked": 135
+    },
+    {
+      "labels": 6,
+      "ordered_repeated_words": 936,
+      "cyclic_classes_checked": 246
+    }
+  ],
+  "odd_prime_moduli": [
+    3,
+    5,
+    7,
+    11,
+    13,
+    17,
+    19,
+    23,
+    29,
+    31,
+    37,
+    41,
+    43,
+    47,
+    53,
+    59,
+    61,
+    67,
+    71,
+    73,
+    79,
+    83,
+    89,
+    97,
+    101
+  ],
+  "nonzero_residue_checks": 1134,
+  "zero_residue_progression_checks": 225,
+  "flat_S_psi": "19/480",
+  "flat_repeated_limit": "19/240",
+  "input_read_and_hashed_from_disk": {
+    "path": "notes/456-high-opposite-four-word-vanishing-and-repeated-limit.md",
+    "sha256_canonical_lf": "7de855634f93f9d92f6d0cbdd762f9894effaaf40f788b3e02de89f961eadb96",
+    "canonical_utf8_bytes": 8936
+  },
+  "script_read_and_hashed_from_disk": {
+    "path": "scripts/hybrid_high_opposite_exact_audit.py",
+    "sha256_canonical_lf": "731d8dacae09726610b9958d04fc97d6a8b99e5e112fe21fc567026f83981574",
+    "canonical_utf8_bytes": 3984
+  },
+  "not_certified": [
+    "infinite prime harmonic estimates and dyadic summation",
+    "finite-projection deletion and physical support bounds",
+    "full fourth moment, zero proportion or a zero-free boundary"
+  ]
+}

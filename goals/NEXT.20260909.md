@@ -1,5 +1,27 @@
 # 20260909版重启任务单
 
+## 当前任务（2026-10-07，实际 Gaussian probe 与原有限四阶）
+
+优先继续用户数域方向：
+[Gaussian root probe](../reviews/2026-10-07/hybrid-gaussian-root-weight-probe-research.md)
+已保留全target η并准确读出mu signal；共同符号的实际窄raw预算仅为U+T_col²。
+要完成457的条件order4放大，仍须取得每个c>0、H≥D^(1+c)的同profile
+raw supremum，并支付一次prime slots、全部masks及高度合同。不要将
+unit-dual隔离恒等式当成新的 Möbius saving；双hop已把两incoming方向
+归到numerator2h³u、reference dual U H³/X，但arbitraryη/profile完成与
+quartic终端仍需新估计，不能直接调用旧quadratic界。
+
+原比例方向按[455](../notes/455-whole-proper-power-fourth-norm-and-prime-equivalence.md)
+直接研究genuine-prime whole fourth或same-background centered fourth，
+不重复proper-power逐词付款。[456](../notes/456-high-opposite-four-word-vanishing-and-repeated-limit.md)
+已付actual high Topp和repeated limit2Sψ，flat19/240；下一费用是原finite
+all-distinct high、22distinct、13/31distinct及实际AC³ covariance。
+三份既存未提交草稿须先全文root审查再验收，不把子预算相加成比例。
+
+本轮验证范围见[检查点](../reviews/2026-10-07/root-probe-and-fourth-checkpoint.json)。
+Goal active，sigma*与旧论文保持；只有确认完整新边界才另写正式论文。
+原critical mixed严格saving和长期几何/Weil/RR/RH任务继续保留。
+
 ## 当前用户任务（2026-10-07，换辅助数域的可行性）
 
 [457](../notes/457-number-field-choice-and-relative-amplification.md)已得带明列

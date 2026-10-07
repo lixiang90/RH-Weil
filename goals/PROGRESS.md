@@ -1,5 +1,45 @@
 # 持续GOAL执行账本：20260909版重启
 
+## 2026-10-07：Gaussian 实际 probe 与455–456有限四阶归约
+
+从已推送 main 5b7effad9126499583a2243e462e16e28b346265 继续，本轮为
+progress，Goal active。回应换辅助数域问题的结论保持：−3负责 cubic/sextic
+结构降到 quadratic；改判别式的固定常数不自动改善指数。无新边界、比例
+或正式边界论文，README及旧三篇论文/PDF保持原版。
+
+[Gaussian root-weight 研究](../reviews/2026-10-07/hybrid-gaussian-root-weight-probe-research.md)
+将已核准 gamma1²=mu alpha 信号装入真正保留任意 target η的 Poisson probe。
+旋转物理 window 后可统一隔离 dual k=1，精确读出原 η而非η²的 Möbius和。
+这解决 literal square-index target丢失问题，但不提供 Möbius saving。
+按incoming符号选择G1或G3的双hop，可将两方向的实际numerator都写为
+2h³u，reference dual norm长度U H³/X；u=1、H≈X时仍为X²，终端仍quartic。
+这是比固定正hop的U³ H³/X更小的row成本，尚无critical saving。arbitrary η、方向profile与
+完整局部反射的费用未付，不能把untwisted DDHL FE当成whole target完成。
+
+另由真实Gaussian additive大筛、primitive characters同conductor的正交性，
+得到共同符号的inverse与一次disjoint prime slots的窄范围 raw upper
+(U+T_col²)(UT_col)^eps，
+T_col=D乘全部slot长度，含n/prime重叠和自然零。无slots时仅在U≥D²给
+O(U) raw预算，仍未满足457每个c>0的H≥D^(1+c)合同。条件order4放大的
+单分支潜在节省不升级为sigma变化。
+
+[455](../notes/455-whole-proper-power-fourth-norm-and-prime-equivalence.md)
+付清完整 sharp proper powers 的原 S4-small，normalized fourth roots
+差O(1/L)，不预设whole budget。任意相同背景保持，可把完整预算等价
+归约到genuine primes；只有finite whole budget之后total fourth差才o(N)。
+
+[456](../notes/456-high-opposite-four-word-vanishing-and-repeated-limit.md)
+付清actual Topp=O(N/L)，原carrier/三internal P、near/far与零剩余例外
+全部保留；high signed repeated union的实际极限为2Sψ，flat19/240。
+旧19/120是一侧预算；新等式仍不包含四distinct，不可直接登记新比例。
+
+两份独审、根节点核验、精确有限证据及冻结来源统一在
+[本轮检查点](../reviews/2026-10-07/root-probe-and-fourth-checkpoint.json)。
+有限程序只核系数、cyclic words、residues和有理积分，不认证无限分析。
+13/31、22distinct及三列反射的三份既存草稿仍未在本轮验收或提交。
+下一步研究Gaussian窄raw合同到critical尺度的缺口，以及原finite四distinct/
+mixed预算；最新引用范围内sigma*≈0.874957019420099保持。以下保留历史。
+
 ## 2026-10-07：用户数域问题与 Gaussian squarefree signal
 
 从 main 502463775b1ba2a7d4aab65e1b55f3fbe775d7de 继续，优先回应用户

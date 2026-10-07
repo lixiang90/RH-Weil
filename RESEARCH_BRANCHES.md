@@ -1,5 +1,20 @@
 # 研究分支看板
 
+## 当前队列（2026-10-07，Gaussian 实际probe与455–456）
+
+Goal active；最新引用输入下sigma*≈0.874957019420099保持，无新边界/比例。
+
+| 范围 | 已付与剩余 |
+|---|---|
+| [Gaussian 实际root probe](reviews/2026-10-07/hybrid-gaussian-root-weight-probe-research.md) | target-preserving Poisson及unit-dual隔离、双hop linear-row numerator2h³u已付；共同符号窄raw合同U+T_col²，未到critical H≥D^(1+c) |
+| [455 全proper powers](notes/455-whole-proper-power-fourth-norm-and-prime-equivalence.md) | 原S4-small及同背景fourth-root等价；full genuine-prime预算仍开 |
+| [456 high opposite](notes/456-high-opposite-four-word-vanishing-and-repeated-limit.md) | actual Topp=O(N/L)、signed repeated limit2Sψ，flat19/240；四distinct未付 |
+| 下一证明目标 | Gaussian实际同target完成、quadratic终端与短raw预算；原finite distinct/mixed四阶及AC³；未审三份草稿保持待验收 |
+
+独审、根节点核验及有限程序范围见
+[本轮检查点](reviews/2026-10-07/root-probe-and-fourth-checkpoint.json)。
+README保持项目介绍，旧正式稿不改；以下为已有队列和历史。
+
 ## 当前用户队列（2026-10-07，辅助数域与 Gaussian 候选）
 
 优先处理用户的换域问题；Goal active，现有引用输入下的
