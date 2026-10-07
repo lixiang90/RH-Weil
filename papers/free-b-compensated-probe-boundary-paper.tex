@@ -1,0 +1,876 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[margin=26mm]{geometry}
+\usepackage{amsmath,amssymb,amsthm,mathtools}
+\usepackage{lmodern,microtype,booktabs,longtable,array}
+\usepackage[colorlinks=true,linkcolor=blue,citecolor=blue,urlcolor=blue]{hyperref}
+\hypersetup{pdftitle={Optimizing compensated-probe geometry below seven eighths},pdfauthor={RH-Weil research project}}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{remark}[theorem]{Remark}
+\newcommand{\Rea}{\operatorname{Re}}
+\newcommand{\N}{\operatorname{N}}
+\newcommand{\eps}{\varepsilon}
+\newcommand{\sig}{\sigma_\circ}
+\newcommand{\bet}{\beta_*}
+\newcommand{\pos}[1]{\left(#1\right)_+}
+\newcommand{\src}[1]{\nolinkurl{#1}}
+\makeatletter
+\g@addto@macro\UrlBreaks{\do\a\do\b\do\c\do\d\do\e\do\f\do\g\do\h\do\i\do\j\do\k\do\l\do\m\do\n\do\o\do\p\do\q\do\r\do\s\do\t\do\u\do\v\do\w\do\x\do\y\do\z\do\0\do\1\do\2\do\3\do\4\do\5\do\6\do\7\do\8\do\9}
+\makeatother
+\title{Optimizing compensated-probe geometry\\below seven eighths}
+\author{RH--Weil research project}
+\date{October 7, 2026\\[3pt]\small A derivation relative to explicitly imported results}
+\begin{document}
+\maketitle
+\begin{abstract}
+We optimize two geometric parameters in the compensated-probe argument
+of the September 30, 2026 preprint \emph{The Quasi-Riemann Hypothesis}.
+Assuming its specified generic arithmetic and analytic inputs and its
+finite-order Hecke seven-eighths theorem, we derive the strict zero-free
+half-plane
+\[
+ \Rea s>\frac{1507-2\sqrt{921}}{1653}
+       =0.874957069799168740\ldots
+\]
+for finite-order Hecke $L$-functions over $\mathbb Q(\sqrt{-3})$
+and, by quadratic transfer, for all Dirichlet $L$-functions.
+We prove a variable-$b$ low estimate with the complete additive Gram
+bound, give an exact continuous quadratic certificate for the central
+high estimate, and verify the detector capacities, Euler domains and
+outer rows. The critical certificate has zero additional endpoint
+margin; the common gap between the family supremum and the proposed
+boundary pays all real losses before the target character is chosen.
+The resulting parameters are optimal for the stated low intersection,
+count envelope and amplitude rectangle. A rational witness
+$40773/46600$ has strictly positive additional margin.
+The assertion allows the principal pole at $1$ and excludes the boundary
+line. This is a cited-input derivation, not an independent certification
+of the imported proof or a new Lean certificate. No improvement of a
+critical-line zero proportion is asserted.
+\end{abstract}
+\tableofcontents
+
+\section{Statement and exact imported hypotheses}
+\label{sec:inputs}
+Put $F=\mathbb Q(\sqrt{-3})$, and use the conventions of \cite{OAI}
+for norm $q_a=\N(a)$, ideal and element representatives, units, ray
+conditions and zero extension on nonunits. A superscript $S$ deletes
+the finite Euler factors in the fixed arithmetic datum.
+Our previous paper \cite{Previous} treats the boundary $69999/80000$
+with $b=1/8$. We retain its imported package, but reprove every
+geometric condition affected by varying $b$. Neither paper certifies
+the imported package itself.
+
+\begin{definition}[Input package $\mathcal R$]\label{def:R}
+The package consists of the following results of the pinned source
+\cite{OAI}, with their original coefficient classes, uniformities and
+side conditions:
+coefficientwise probe and Poisson identities, finite compensation,
+local arithmetic tables and ray calibration; smooth separation,
+Gaussian annuli, reflection sectors, generic reflected energy and the
+quantitative additive Gram bound; global and buffered reciprocal
+estimates, Hecke growth, functional equations and full contour tails;
+actual detector witnesses, marked and plain moments, recursive
+inverse moments, sixth-power amplification and uniform meshes;
+fixed-ray prime asymptotics; the whole finite-order Hecke
+seven-eighths zero-free theorem; and the quadratic factorization
+transferring the Hecke assertion to Dirichlet functions.
+\end{definition}
+
+Define the whole-family supremum by
+\[
+ \bet=\sup\bigl(\{1/2\}\cup
+ \{\Rea\rho:L_F(\rho,\eta)=0,\ \rho\text{ a nontrivial zero},
+               \ \eta\text{ primitive of finite order}\}\bigr).
+\]
+The principal pole is not a zero in this definition.
+The seven-eighths input is used only as $\bet\le7/8$.
+In particular we do not assume the new half-plane is zero-free.
+We do not directly invoke a source low or shared-interface statement
+whose hypothesis fixes $b=1/8$, $\ell=1/6$ or a boundary at least $7/8$.
+We instead invoke the generic results and recheck their hypotheses.
+The source is frozen at commit
+\src{adc7f1241b42e322a6451854ab7e4b4c146bf78a}.
+All line numbers in Table~\ref{tab:inputs} refer to its September 30
+\src{build/paper.tex}.
+
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{.25\textwidth}>{\raggedright\arraybackslash}p{.25\textwidth}>{\raggedright\arraybackslash}p{.43\textwidth}@{}}
+\caption{Imported inputs and the scope of their reuse.}\label{tab:inputs}\\
+\toprule
+Input & Source location & Conditions retained or rechecked\\
+\midrule
+\endfirsthead
+\toprule Input & Source location & Conditions retained or rechecked\\
+\midrule
+\endhead
+Smooth and Gaussian calculus & 1123--1209, 1288--1315 &
+One joint density, weighted seminorms and whole annular tails.\\
+Reflection sectors and energy & 2470--2506, 7663--7804 &
+Actual residual dyads, bounded lengths, original masks and product
+coefficients; frozen powerful parts counted once.\\
+Additive Gram & 8340--8364 &
+$Q,Y'\ge1$, fixed polynomial ranges, $P_a=Y'^2/Q\ge1$;
+complete third term retained.\\
+Local and full-tuple identities & 8707--9049 &
+Selected primes operated on once; no division by general local
+corrections.\\
+Absolute bounds and tails & 9101--9195, 5672--5728 &
+All heights and completed sums; fixed internal orders precede the
+external tail order.\\
+Detector and moment inputs & 4385--4547, 9220--9269,
+12362--12389, 12492--12578 &
+Actual witnesses, strict widths, finite coefficient group and
+zero-capacity cases.\\
+Coefficients and capacities & 15015--15446 &
+Whole slots, conjugation, inducing exceptions, one shared conductor
+budget.\\
+Whole-bin accounting & 5808--5896, 6021--6155 &
+Global move before local partitions; the same mean gain $q$.\\
+Principal and outer rows & 6174--6301, 6342--6463 &
+New analytic domain and $D_1(1/3)$ verified independently of the old
+numerical boundary.\\
+Choices and bootstrap & 16191--16463 &
+Losses and mesh, then $K$, then principal $\mu$, then target and
+height orders.\\
+Height and continuation & 6520--6580, 400--502, 6705--6780 &
+Cutoff-independent probe, common saving, supremum contradiction and
+Dirichlet transfer.\\
+\bottomrule
+\end{longtable}
+
+\begin{theorem}\label{thm:main}
+Assume $\mathcal R$. Every finite-order Hecke $L$-function over $F$
+has no zero in $\Rea s>\sig$, where
+\[
+ \sig=\frac{1507-2\sqrt{921}}{1653}.
+\]
+The same holds for every Dirichlet $L$-function, including $\zeta$.
+Principal functions may have their pole at $s=1$.
+The boundary line is not included.
+\end{theorem}
+
+The theorem is a relative implication under Definition~\ref{def:R}.
+Its scope does not include independent verification of the source,
+its dependencies or its formal proof system.
+The simple critical-line proportion of \cite{AF} is not used in
+the bad-row count and is not improved here.
+
+\section{The same probe and the variable geometric scales}
+\label{sec:geometry}
+For fixed real parameters $\ell,b$, write
+\begin{equation}\label{eq:geometry}
+ l_x=\frac{1-\ell-b}{2},\quad l_y=\frac{1-\ell+b}{2},\quad
+ M=1-\ell,\quad h=\frac{1+3\ell+b}{2},\quad
+ X=Z^{l_x},\quad Y=Z^{l_y}.
+\end{equation}
+Choose a fixed even $K$, equal positive $\ell_i=\ell/K$ and
+$P_i=Z^{\ell_i}$, with the original nonnegative nonzero smooth
+windows in disjoint subintervals of $(1,2)$.
+Keep the source $S,T,\xi$, all permitted prime representatives,
+zero extensions, annular norm ratios and ray calibration.
+Write $I_\eta(X,Y,Z)$ for the source completed probe and
+$I_{\eta;D}$ for the same expression with $1_{D\mid cn^3}$
+inserted. The marked operation in a slot is
+$\overline{\eta(p)}I_{\eta;p}(X,Y,Zq_p)$; the rescaled operation
+is $q_p^{-3/2}I_\eta(X/q_p,Y/q_p,Z)$, subtracted from it.
+If $p_J=\prod_{i\in J}p_i$ and $p_\varnothing=1$, their
+compensated product is the independent physical expression
+\[
+\begin{split}
+ I_{\eta,\mathrm{mod}}(Z)
+ =\sum_{(p_i)}\prod_iW_i(q_{p_i}/P_i)
+ \sum_{J\subseteq\{1,\ldots,K\}}&
+ (-1)^{|J|}q_{p_J}^{-3/2}\overline{\eta(p_{J^c})}\\
+ &\cdot I_{\eta;p_{J^c}}(X/q_{p_J},Y/q_{p_J},Zq_{p_{J^c}}).
+\end{split}
+\]
+Each slot window remains at its own $P_i$ even when another
+slot rescales a completed sum.
+Those completed sums are not finite; their absolute convergence is an
+input in $\mathcal R$.
+The compensation subsets and retained annular decompositions are finite.
+
+The double residue at $w=1,z=1/6$ retains the exponent
+\begin{equation}\label{eq:C}
+ C_b(s)=s+l_x/2-1+h/6=s-\frac23-\frac b6.
+\end{equation}
+The Gaussian factor at this residue is still $e^{(s-5/6)^2}$.
+There is no second normalizer introduced to improve the low bound.
+
+\section{The low estimate with free b}
+\label{sec:low}
+\begin{proposition}\label{prop:low}
+Under the generic low inputs of $\mathcal R$, for fixed
+$1/6\le\ell\le1/5$ and $0<b\le3(1-\ell)/8$,
+\[
+ |I_{\eta,\mathrm{mod}}(Z)|
+ \ll_{\eta,\mathrm{fixed},\eps}
+ Z^{(1-\ell)/4-b/6+\eps}.
+\]
+The arbitrary exponent loss can be prescribed before the target;
+constants and thresholds may depend on its fixed arithmetic data.
+\end{proposition}
+\begin{proof}
+For a rescaled subset $J$ put
+$d_J=\sum_{i\in J}\ell_i$, $\ell'=\ell-d_J$ and $M'=M-2d_J$.
+Its tuple ratio $r_J=q_{p_J}/Z^{d_J}$ lies in a fixed positive
+compact interval, and the common row ball is
+\[
+ X'=XZ^{-d_J}/r_J,\quad Y'=YZ^{-d_J}/r_J,\quad
+ Q=q_{b_*}X'Y'\asymp Z^{M'},\qquad M'+\ell'-1=-3d_J.
+\]
+All surviving marked slots are summed inside $B_m^J$ before taking
+the row norm. The common Gaussian profile and Fourier density are
+fixed before separating rows and tuples.
+Whole far annuli are first removed by the absolute completed-sum
+input and Gaussian decay.
+
+Here is the geometric part of the reflected-energy calculation.
+Freeze the powerful part of length $O$ and the actual squarefree
+dyad of length $H$. The source sectors give
+\[
+ \Delta_H=M'-O-H\ge-\eps_Z,\quad
+ 2A_0\le O+\eps_Z,\quad N_0\le A_0,\quad z_a\le\ell',
+ \qquad \eps_Z=O_{\mathrm{fixed}}(1/\log Z).
+\]
+For retained Gaussian displacement $\theta_N$ the dual length is
+$T_d=2H+2A_0+2z_a-1-\ell'-\theta_N-N_0-3B_0$.
+Subtracting $H-3d_J$ gives
+\[
+ T_d-(H-3d_J)
+ =H-M'+2A_0+2(z_a-\ell')-N_0-3B_0-\theta_N
+ \le2\eps_Z+|\theta_N|.
+\]
+For completeness the imported reflection expression, after
+counting frozen parts once, is
+\[
+\begin{split}
+ s_{\mathrm{hyb}}&=\min\{v,z_a,(v+z_a)/3\},\qquad
+ y_{\mathrm{ref}}=v+3\ell_b+e_\lambda\le T_d+\tau_{\mathrm{ref}},\\
+ E_{\mathrm{ref}}&=O/2+\max(H,v+\ell_b)-S_0-B_0+z_a\\
+ &\quad-s_{\mathrm{hyb}}-\ell_b-2e_\lambda/3
+                  -(T_d-y_{\mathrm{ref}})_+/2.
+\end{split}
+\]
+Here $v,\ell_b$ are nonnegative dual lengths, $S_0,B_0,N_0,A_0$
+are the frozen sector lengths, and a negative $e_\lambda$ is
+only $O(1/\log Z)$. Retained support gives
+$\max(H,v+\ell_b)=H+O(\tau_{\mathrm{ref}}+\kappa_G+\eps_Z)$.
+In this formula, the branch
+$s_{\mathrm{hyb}}=z_a$ gives exponent at most $M'-\Delta_H$.
+On the other branch $s_{\mathrm{hyb}}\ge v/2$, so
+\[
+ s_{\mathrm{hyb}}+\ell_b+2e_\lambda/3
+                    +(T_d-y_{\mathrm{ref}})_+/2
+ \ge T_d/4-O(\eps_Z).
+\]
+The exact frozen-part saving identity is
+\[
+\begin{split}
+ O/2+\Delta_H+S_0+B_0+T_d/4
+ ={}&\frac{2M'+2z_a-1-\ell'+2\Delta_H-\theta_N}{4}\\
+ &+\frac{2A_0-N_0+B_0+4S_0}{4}.
+\end{split}
+\]
+The second line is nonnegative. Using $z_a\le\ell'$ and retaining
+the kernel saving before squaring and positive enlargement gives
+\[
+ M'+\frac{1+3\ell'-2M'-2\Delta_H+\theta_N}{4}
+ +\text{small losses}.
+\]
+Since $1+3\ell'-2M'=5\ell-1+d_J$, both branches yield
+\begin{equation}\label{eq:row}
+ \sum_{\N m\ll Q}|B_m^J|^2
+ \ll Z^{M'+(5\ell-1+d_J)_+/4+\eps}.
+\end{equation}
+This derivation does not contain $b$; the original shared primes,
+empty surviving slots and powerful-part counting are unchanged.
+
+The enlarged range still satisfies
+$M'\ge1-3\ell>0$ and $l_x-d_J,l_y-d_J>0$.
+Thus $Q,Y'\ge1$ eventually, in fixed polynomial ranges, and
+$P_a=Y'^2/Q=q_{b_*}^{-1}Z^b\ge1$ eventually.
+The generic Gram bound, including its third term, is
+\[
+ \sum_{\N m\ll Q}|A_m(Y')|^2
+ \ll (Q/Y')(1+P_a^{1/6}+P_a^2/Y')Z^\eps
+\]
+with the original ray/Gauss coefficients and fixed height
+seminorm cost.
+Cauchy, including the separation factor $Q^{-1/2}$, bounds a
+fixed tuple by
+\[
+ (X')^{1/2}
+ Z^{\frac12\max\{0,b/6,2b-l_y+d_J\}
+        +(5\ell-1+d_J)_+/8+\eps}.
+\]
+Tuple number, the original $q_{p_J}^{-3/2}$ coefficient and the
+shortening of $(X')^{1/2}$ contribute respectively $d_J$,
+$-3d_J/2$ and $-d_J/2$.
+Relative to $l_x/2+b/12$, their combined additional exponent is
+\[
+ F(d)=-d+\frac12(11b/6-l_y+d)_+
+                 +\frac18(5\ell-1+d)_+ .
+\]
+Every piece has slope at most $-3/8$, so its maximum is at $d=0$.
+Because $\ell\le1/5$, the resulting full low exponent is
+\begin{equation}\label{eq:lowfull}
+ L_{\mathrm{low}}
+ =\frac{l_x}{2}+\frac b{12}
+       +\frac12(11b/6-l_y)_+
+ =\max\left\{\frac{1-\ell}{4}-\frac b6,\frac b2\right\}.
+\end{equation}
+The stated range of $b$ selects the first branch.
+Small reflection and separation losses, finitely many subsets,
+summable joint Fourier seminorms and logarithmic dyad counts can
+be absorbed into the prescribed $\eps$ in their original order.
+\end{proof}
+
+For our parameters the stronger all-subset condition
+\[
+ l_y-\ell-\frac{11b}{6}
+ =\frac{1-3\ell}{2}-\frac{4b}{3}>0
+\]
+also holds. We have proved the wider low range, rather than
+assuming this stronger condition is necessary.
+When $b\le0$, the present direct use of the Gram input
+$P_a\ge1$ is not justified; no such extension is used.
+On the first branch of \eqref{eq:lowfull}, the residue intersection is
+\begin{equation}\label{eq:intersection}
+ C_b(\sigma)=\frac{1-\ell}{4}-\frac b6
+ \quad\Longleftrightarrow\quad
+ \sigma=\frac{11}{12}-\frac\ell4.
+\end{equation}
+Outside that branch one cannot keep this same intersection.
+
+\section{Actual counts and the continuous endpoint certificate}
+\label{sec:certificate}
+Use the original legal $\kappa=3/4$, justified by $\bet\le7/8$,
+and the algebraic envelope $\alpha=5/6$.
+For nonfloor bins set $\delta=2a-1\in[1/50,3/4]$.
+Let $q$ be the length-weighted mean amplitude over \emph{all} slots;
+error and zero slots have gain zero. Put
+\[
+ x=q/\delta\in[0,1/2],\quad y=1/2-x,\quad
+ D=\frac{37+34y}{18},\quad P=\frac{7+18y+8y^2}{9},
+\]
+\begin{equation}\label{eq:counts}
+ J=(5/6-\delta)D+\delta P,\qquad
+ R_*=1-\delta+\frac{(5/6-\delta)\delta P}{2J}.
+\end{equation}
+The actual inverse/plain crossing gives these functions with
+$35/54\le J\le5/2$ and $1-\delta\le R_*\le1-2\delta/3$.
+Section~\ref{sec:admission} verifies that the new geometric
+scales meet its arithmetic prerequisites.
+
+At \eqref{eq:intersection}, the central endpoint accounting is
+\begin{equation}\label{eq:endpoint}
+ E_\sigma(h)=-\frac14+\frac{5\ell}{4}+\frac b6
+      +(\tfrac12+\ell)\delta+\ell\delta x-h(1-R_*).
+\end{equation}
+In particular $\partial_b E_\sigma=R_*/2-1/3$.
+Clearing denominators gives
+$-1296J E_\sigma=A(y)\delta^2-B(y)\delta+C(y)$, where
+\begin{align}
+ A(y)&=252+756\ell-576b+(648+288\ell+720b)y
+       \notag\\[-2pt]
+     &\quad +(288+1008\ell+864b)y^2+1152\ell y^3,\label{eq:ABC}\\
+ B(y)&=624-1440\ell-1176b+(504-420\ell-456b)y
+          +(-48+120\ell+432b)y^2,\notag\\
+ C(y)&=555-2775\ell-370b+(510-2550\ell-340b)y.\notag
+\end{align}
+For $Q=4AC-B^2$ its constant coefficient is
+\[
+ Q(0)=-530496b^2+1887840b\ell-184032b
+       -10465200\ell^2+678240\ell+170064.
+\]
+For fixed $\ell$, its maximum in $b$ occurs at
+$b_{\mathrm{opt}}=(2185\ell-213)/1228$ and equals
+$-1631700(1653\ell^2-66\ell-35)/307$.
+
+\begin{proposition}\label{prop:critical}
+Set
+\[
+ \ell_\circ=\frac{33+8\sqrt{921}}{1653},\qquad
+ b_\circ=\frac{2185\ell_\circ-213}{1228}
+         =-\frac4{29}+\frac{230\sqrt{921}}{26709}.
+\]
+Then $E_{\sig}(h)\le0$ on the entire rectangle
+$\delta\in[1/50,3/4]$, $y\in[0,1/2]$.
+Its unique equality point is
+$y=0$, $\delta_\circ=(49-\sqrt{921})/48$.
+\end{proposition}
+\begin{proof}
+Write $e=\ell_\circ$. It satisfies
+$1653e^2-66e-35=0$ and
+$1/6<e<167/1000$, $123/1000<b_\circ<124/1000$.
+The coefficients of $A$ are
+\[
+ \frac{108036-82548e}{307},\
+ \frac{160596+481716e}{307},\
+ \frac{42408+781416e}{307},\
+ 1152e,
+\]
+all strictly positive. Reducing $Q$ by the same quadratic identity
+gives
+\begin{align*}
+ Q_0&=0,\\
+ Q_1&=17404800(5465-31728e)/169157,\\
+ Q_2&=1200(47597384-214807491e)/169157,\\
+ Q_3&=4800(131691060e-18009311)/169157,\\
+ Q_4&=14400(1377691e-209998)/8903 .
+\end{align*}
+The isolating bounds above imply $Q_i>0$ for $i=1,\ldots,4$.
+Thus, for all $y\ge0$,
+\[
+ A\delta^2-B\delta+C
+ =A\left(\delta-\frac{B}{2A}\right)^2+\frac Q{4A}\ge0.
+\]
+Since $J>0$ on the actual rectangle, this proves the assertion.
+Equality forces $y=0$ and
+$\delta=B(0)/(2A(0))=(49-\sqrt{921})/48$,
+which lies strictly between $1/50$ and $3/4$.
+This is a continuous coefficient-positivity proof, not a grid
+inference. Equation~\eqref{eq:intersection} gives \eqref{eq:C}
+at the boundary stated in Theorem~\ref{thm:main}.
+\end{proof}
+
+\begin{proposition}[The precise parameter optimality]\label{prop:optimal}
+No $\ell>\ell_\circ$ and any $b$ can make all endpoints
+nonpositive while retaining \eqref{eq:intersection}, the count
+\eqref{eq:counts} and the complete stated amplitude rectangle.
+\end{proposition}
+\begin{proof}
+At the fixed point $y=0,\delta=\delta_\circ$, the count gives
+$R_*=2/3$. Thus \eqref{eq:endpoint} is independent of $b$ and equals
+\[
+ -\frac5{12}+\frac{3\ell}{4}
+          +(\tfrac12+\tfrac32\ell)\delta_\circ .
+\]
+It vanishes at $\ell_\circ$ and its slope in $\ell$ is
+$3/4+3\delta_\circ/2>0$.
+\end{proof}
+This is optimality of a particular low/count certificate, not of
+all possible probes or $L$-function theory. We do not claim that
+actual bad rows attain the envelope or that a corresponding
+zero exists.
+
+\section{A rational witness and comparison with fixed b}
+\label{sec:rational}
+For $\ell_r=1/6+1/5825=5831/34950$ and $b_r=617/5000$,
+\[
+ l_{x,r}=\frac{2480617}{6990000},\quad
+ l_{y,r}=\frac{3343183}{6990000},\quad
+ h_r=\frac{1891861}{2330000},\quad \sigma_r=\frac{40773}{46600}.
+\]
+At these parameters $A,C,Q$ have strictly positive coefficients.
+Moreover $A_0Q(y)-Q_0A(y)$ has nonnegative coefficients, and hence
+\[
+ -E_{\sigma_r}(h_r)\ge\frac{Q_0}{12960A_0}
+ =\frac{10580567}{347281513800000}>10^{-8}.
+\]
+Here completing the square first gives $Q/(4A)$, and
+$J\le5/2$ supplies the factor $12960$. This does not mistake
+$A(0)$ for an upper bound on $A(y)$.
+The exact coefficients are in the reproducible algebra record
+\cite{FreeBAudit}.
+
+The fixed-$b$ critical value in \cite{Note447} has
+$\sigma_c=7/8-t_c/4$, where
+$1/5842<t_c<1/5841$ is the positive root of
+\[
+ 28224-164747520t-669772800t^2=0.
+\]
+Since $1/5825>1/5841$, $\sigma_r<\sigma_c$.
+Also
+$1653\ell_r^2-66\ell_r-35=-9289/407167500<0$;
+the quadratic is increasing on $[1/6,\infty)$, so
+$\ell_r<\ell_\circ$ and $\sig<\sigma_r$.
+Both comparisons are exact. For orientation only,
+\[
+ \sig=0.874957069799168740\ldots,\qquad
+ \sigma_c=0.874957200615373761\ldots .
+\]
+We prove the theorem at the critical algebraic value, not only
+at the rational witness.
+
+\section{Actual arithmetic admission and all row ranges}
+\label{sec:admission}
+For a physical row length $d$ the same-source accounting reads
+\begin{equation}\label{eq:generalE}
+ \begin{split}
+ E_\sigma(d)={}&K_\sigma+(\tfrac12+\ell)\delta+\ell q
+       -h(1-R)\\
+       &+(d-h)(R+\delta/2-17/50),\qquad
+ K_\sigma=2/3+\ell+b/6-\sigma .
+ \end{split}
+\end{equation}
+Expanding the original unfactored exponent
+$a-\sigma+h(17/50-1/6)-a l_y-\ell/2+\ell q
++d(R+\delta/2-17/50)$ gives this formula.
+The joint bound for strict local errors and the numerator uses
+one conductor deficit once; its gain remains $\ell q$.
+There is no second charge for each ramified error label.
+
+For nonfloor selected rows $1/2\le d\le h$, the slope is at least
+$33/50-\delta/2\ge57/200>0$, so the endpoint controls the whole range.
+The floor $a=51/100$ uses $\delta=1/50$, $R=1$, $q\le1/100$
+independently of a witness.
+The no-slot count on $1/100\le d\le1/2$ uses
+$R=76/75-2\delta/3$, covering the floor, with positive slope
+$101/150-\delta/6$.
+At $\ell=e=\ell_\circ,b=b_\circ$, direct calculation gives
+\begin{align}
+ l_y-e-11b/6&=(1347-7133e)/1842>2/25,\notag\\
+ 5e-h&=(6411e-1015)/2456>1/50,\label{eq:margins}\\
+ E_{\mathrm{floor}}(h)&=(290401e-49533)/184200<-1/200,\notag\\
+ E_{\mathrm{middle}}&=(292151e-84703)/1473600<-1/50.\notag
+\end{align}
+The middle bound follows from $q\le\delta/2$:
+its value at $d=1/2$ is
+$-73/300+(13/50)\ell-(49/300)b
++\delta(1/6+3\ell/4-b/4)$,
+maximized at $\delta=3/4$.
+
+Assume for contradiction $\bet>\sig$, and put
+$\Delta=\bet-\sig>0$. The bootstrap gives
+$\Delta\le(e-1/6)/4$. Choose $\zeta=\Delta/32$.
+Then $\zeta<1/384000$ and \eqref{eq:margins} implies
+\[
+ \ell/(h+\zeta)>1/5>7/37,\qquad h+\zeta<1.
+\]
+The selected-row slope is at most $2$, so the extension from $h$
+to $h+\zeta$ costs at most $\Delta/16$.
+The actual comparison is with $C_b(\bet)$:
+\begin{equation}\label{eq:Delta}
+ E_{\bet}(d)=E_{\sig}(d)-\Delta.
+\end{equation}
+Proposition~\ref{prop:critical} thus provides central saving at
+least $15\Delta/16$ before small real losses.
+Zero additional margin at the critical endpoint does not preclude
+continuation.
+
+We spell out the moment prerequisites that varying $b$ must preserve.
+The adaptive parameter is $t=1+\delta P/(2J)$.
+The original witnesses have $r+m\ge t-o(1)$, $r\le t+o(1)$,
+$m\le1/2+o(1)$ and the original squared spike sizes.
+Writing $x=q/\delta$, the original inverse/plain threshold is
+\[
+ r_*(t)=\frac{(2-8x/9)t-5x/9}{3-17x/9},
+ \qquad r_*(t)\ge23/37,\quad 1\le t\le3/2 .
+\]
+On the inverse branch $r\ge r_*(t)$, $r<1$ and positive
+$z_M=(1-r)/2$. For a fixed capacity decrement $\nu_0>0$, requesting
+$z\le z_M-\nu_0$ gives the two inverse widths
+\[
+ 1-r-2z\ge2\nu_0,\qquad
+ 3-2r-8z\ge8\nu_0+9/37-o(1).
+\]
+On the plain branch $r\le r_*(t)$, $m<1/2$ and positive
+$z_P=(1-2m)/(6\kappa)$; requesting $z\le z_P-\nu_0$ gives,
+with $m\ge1/3-o(1)$,
+$1-2m-6\kappa z\ge6\kappa\nu_0$.
+Maximum demands are $z_M\le7/37$ and $z_P\le2/27+o(1)$.
+The supply above therefore suffices; it does not itself strengthen
+the moment theorem.
+Long-witness and zero-capacity endpoints retain the original
+zero-slot or sixth-power cases.
+
+Only $d\ge1/2$ uses selected primes, so their physical lengths
+$w_i=\ell_i/d\le2\ell_i$.
+Choose losses, decrement, mesh and rounding before $K$;
+then every $w_i$ can be smaller than the fixed plain mesh.
+The greedy selection loses at most one whole-slot length and
+uses the gain averaged over all slots.
+Coefficients remain the fixed finite $\Theta$ combination of the
+original arithmetic phases; all witnesses and selected factors
+are conjugated together on the plain side.
+The physical slots remain disjoint from the internal plain pool.
+Outside-$S$ ramification excludes the original inducing exceptions;
+the remaining $S$-supported sixth-power-free rows are finite and
+belong to the independently handled bounded rows.
+These are precisely the prerequisites of the unchanged count
+\eqref{eq:counts}.
+
+\section{Euler domains, principal residue and outer rows}
+\label{sec:contours}
+Varying $b$ does not alter a local coefficient or zero extension.
+The full selected-prime operation and the coefficientwise
+physical identity remain the source identities.
+The resulting raw Mellin weight is
+\[
+ X^{1/2-z}Z^{s+z-1}Y^{w-1}e^{(s+z-1)^2}
+ M(z)\widehat W_1(w).
+\]
+The full tuple is the finite selected-prime sum with selected
+factors $G_p$ and the normally convergent unselected correction
+product. It is never defined by dividing by a general $H_p$.
+
+The same local finite-table calculation as in \cite{Previous}
+applies on the enlarged principal box:
+\[
+ \Rea s\ge\sig,\qquad
+ \Rea w\ge19/20,\qquad \Rea z\ge33/200.
+\]
+Indeed $\sig>5/6>401/600$. The good and ramified defects are
+\begin{align*}
+ c_{\mathrm{good}}
+ &=\min\{6\sig-401/100,\sig-3/50,47/50\}
+   =\sig-3/50>81/100,\\
+ c_{\mathrm{ram}}
+ &=\min\{\sig-1/20,3\sig-3/2\}
+   =\sig-1/20>82/100.
+\end{align*}
+The denominators $1-R,1-V,1-D$ stay away from zero.
+The general good local term with exponent $4-6s-6z$ retains
+the correction $\theta=(-\Rea w)_+$.
+In $D_1(\eps_0)$ the exponent used for the correction is
+$\eps_H=\min(\eps_0,1/50)$, not always $\eps_0$.
+These strict margins imply local normal convergence and full
+height majorants, not just values on a single contour.
+
+Whole-bin contours are moved on the global line before amplitude
+and error partitions, followed by the original buffered local move.
+All strict labels use the joint numerator estimate once.
+The principal correction is the original normally convergent product
+\[
+ H_\eta(s)=\prod_{p\notin S}H_p(s,1,1/6)
+          =\mathcal H_{\eta,1}(s,1,1/6),
+\]
+with the same final $S$ as the physical expression.
+For the principal row choose a target-independent $P_0$ such that
+the positive product majorant gives $|H_\eta(s)-1|\le1/2$ on
+$\Rea s\ge\sig$. Enlarging the final $S$ only shrinks this majorant.
+More explicitly, put
+\[
+ S_i(Z)=\sum_{p\in\mathcal P_i(Z)}
+ W_i(q_p/P_i)q_p^{-5/6}
+ \sim c_iP_i^{1/6}/\log P_i,\qquad
+ A_T=(-1)^K Z^{-\ell/6}\prod_i S_i(Z).
+\]
+The fixed-ray calibration supplies $c_i>0$, the same
+$c_S=\widehat W_1(1)M(1/6)
+(\operatorname{Res}_{v=1}\zeta_F^S(v))^2/6>0$,
+and eventually nonzero $|A_T|\asymp(\log Z)^{-K}$,
+with subpower inverse. These are the same finite $S$ and
+actual ray slots used in the physical expression.
+
+The principal contours start with global $s$, then pass the
+residues at $w=1,z=1/6$, with final nonresidue lines $19/20$ and
+$33/200$. The double-residue $s$ line is moved only to the right,
+to $2$. The three error margins are
+\[
+ m_w=l_y/20>0,\qquad m_z=h/600>0,\qquad
+ 0<\mu<\sig\min_i\ell_i.
+\]
+The four principal local error exponents remain
+$-\Rea s,-6\Rea z,4-5\Rea s-6\Rea z,1-\Rea w-6\Rea z$;
+their weakest decay at the residue is $\sig$.
+
+Small rows $d<d_{\min}=1/100$ and bounded nontrivial units are
+handled separately. The old numerical invocation of $D_1(3/8)$
+is replaced by the local proof on $D_1(1/3)$, valid since
+$\sig+1/2>4/3$.
+The full absolute tuple and numerator bound give, relative
+already to $C_b(\bet)$,
+\[
+ E_{\mathrm{small}}
+ =h(13/75)-l_y/2+63/5000
+ =\frac{2020475e-1127329}{9210000}<-2/25.
+\]
+No additional $\Delta$ is charged to this formula.
+Large rows $U>Z^{h+\zeta}$ use the original full absolute sum
+on $(2,2,z_\infty)$:
+\[
+ Z^{B_0+(h+\zeta)(1+\eps)-\zeta z_\infty+\eps},
+ \qquad B_0=l_x/2+1+l_y=7/4-3\ell/4+b/4.
+\]
+After fixing $\zeta$, choose a fixed sufficiently large
+$z_\infty$ before the target; then small losses and all internal
+height orders. This gives any prescribed saving without changing
+an order with a moving row or with $Z$.
+
+\section{Uniform choices and whole-family continuation}
+\label{sec:continuation}
+Fix the critical geometry and the common contradiction gap
+$\Delta$ before any target character.
+Use small fixed fractions of $\Delta$ for moment losses, strict
+capacity decrement, uniform mesh and rounding.
+Then choose even $K$ and the disjoint windows.
+Only afterwards put $\mu=\sig\ell/(2K)>0$ and choose amplitude
+widths, prime losses and the small contour displacement.
+Principal losses are separately smaller than
+$m_w/4,m_z/4,\mu/4$; central total real losses are below
+$\Delta/4$, and floor, middle and small losses leave half their
+respective independent margins.
+There is no circular selection of $K$ using a $\mu$ that
+depends on $K$.
+Fix $\zeta$ and $z_\infty$ in the same target-independent phase.
+
+Let
+\[
+ m_0=\min\{\Delta,m_w,m_z,\mu,1/200,1/50,2/25\}>0,\qquad m=m_0/4.
+\]
+The common low loss, including the inverse normalizer, is
+$\omega=\Delta/2<\Delta$.
+For a chosen target, fix its arithmetic datum and final $S$,
+and use that same datum for every physical expression,
+calibration and correction.
+For sufficiently large $Z$ define the cutoff-independent
+normalized physical function $J_\eta$; for all $Z>0$ define $f_\eta$:
+\[
+ J_\eta(Z)=I_{\eta,\mathrm{mod}}(Z)/(c_S A_T(Z)),\qquad
+ f_\eta(Z)=\frac1{2\pi i}\int_{(2)}
+  Z^{C_b(s)}e^{(s-5/6)^2}\frac{H_\eta(s)}{L_F^S(s,\eta)}\,ds.
+\]
+The low bound gives
+$|J_\eta|\ll_\eta Z^{C_b(\sig)+\omega}$.
+The principal and all high estimates, with the same $S$ and
+normalizer, give finite $A_\eta,B_\eta$ such that
+\begin{equation}\label{eq:contract}
+ |J_\eta-f_\eta|\ll_{\eta,N}
+ Z^{C_b(\bet)-m}(1+T_1)^{A_\eta}
+       +Z^{B_\eta}T_1^{-N}.
+\end{equation}
+Neither function contains $T_1$.
+The internal moment, Sobolev and seminorm orders giving
+$A_\eta,B_\eta$ are fixed before the external $N$.
+All retained frequencies share one cumulative $T_1/2$ allocation.
+
+For the actual detector ceiling $\tau_{0,\eta}>0$ choose
+\[
+ 0<\tau_\eta\le
+ \min\{d_{\min}/100,\tau_{0,\eta},m/[4(A_\eta+1)]\},
+ \qquad T_1=Z^{\tau_\eta}.
+\]
+After this choose $N_\eta$ so that
+$B_\eta-N_\eta\tau_\eta<C_b(\bet)-m/2$, and only then the
+threshold in $Z$.
+Equation~\eqref{eq:contract} has a common target-independent
+saving $\sigma_{\mathrm{hi}}=m_0/8>0$.
+The target dependence of $\tau_\eta$, $N_\eta$, constants and
+thresholds does not change this saving.
+
+\begin{proof}[Proof of Theorem~\ref{thm:main}]
+All prerequisites for the source continuation argument have now
+been re-established at the new geometry.
+For clarity we describe its contradiction step.
+The Gaussian and rightward shifts give rapid decay of $f_\eta$
+as $Z\to0$. No small-$Z$ definition of $J_\eta$ or inverse
+$A_T$ is needed.
+The common high saving and the strict low gap imply locally
+uniform convergence of the Mellin/Fourier identification to a
+line left of $\bet$, by the common amount
+$\eps_*=\min\{\Delta/2,m_0/8\}>0$.
+Specifically,
+$\mathcal F_\eta(s)=\int_0^\infty
+f_\eta(Z)Z^{-C_b(s)}\,dZ/Z$ converges locally uniformly on
+$\Rea s>\bet-\eps_*$. On the initial line $2$ the Gaussian
+Fourier identification gives
+$\mathcal F_\eta(s)=e^{(s-5/6)^2}H_\eta(s)/L_F^S(s,\eta)$.
+Analytic continuation, without moving a contour across a target
+zero, therefore makes
+$H_\eta/L_F^S(\,\cdot\,,\eta)$ holomorphic to that line.
+The positive product choice $|H_\eta-1|\le1/2$ excludes
+cancellation by the numerator.
+
+The supremum $\bet$ need not be attained: its definition gives
+a target zero with real part greater than $\bet-\eps_*$.
+All the preceding choices are common before that target, and
+the resulting holomorphic reciprocal contradicts this zero.
+Thus $\bet\le\sig$.
+Finite Euler deletions have no zero for $\Rea s>0$.
+The quadratic Dirichlet factorization in $\mathcal R$ transfers
+the assertion to all Dirichlet functions.
+At $s=1$ retain the principal pole and use
+$L(1,\chi_{-3})=\pi/(3\sqrt3)\ne0$ for the zeta factor.
+\end{proof}
+
+\section{Relation to zero proportions and further work}
+The argument does not use the simple critical-line proportion
+of Alp\"oge--Furman \cite{AF}. Its count improvement is geometric
+within a different actual family and moment calculation.
+Conversely, a narrower global zero-free strip alone does not pay
+the signed four-point correlation in the original finite
+critical-line response.
+Our companion note \cite{Note448} keeps the natural masks,
+ghost poles and finite frame while proving a canonical
+Type-I admission and low-prime fourth-norm payment.
+Its conditional one-factor contour estimate is weaker than a
+local unconditional finite-ratio Gram bound; neither supplies a
+new fourth-moment constant or a larger simple-zero proportion.
+
+Proposition~\ref{prop:optimal} identifies the next boundary task:
+one must strengthen the actual count/gain relation or the
+admissible moment mechanism near $y=0,\delta=\delta_\circ$,
+rather than only changing $b$.
+For proportions the remaining task is the original joint
+signed response, including the common centering, cross terms,
+all relevant cells and finite-frequency alias bookkeeping.
+Neither unfinished task is replaced by the optimality statement.
+
+\appendix
+\section{Exact algebra and verification scope}
+\label{app:verification}
+The pinned source canonical LF SHA-256 is
+\[
+ \text{\src{42a5ee0febca59fd1def55cfd6c6808c322ef4237d7726303ea52f711deac6a3}}.
+\]
+The derivation is recorded in note 449 \cite{Note449}.
+The independent parameter report and exact script \cite{FreeBAudit}
+use rational arithmetic and $\mathbb Q(\sqrt{921})$, with no
+floating-point inference. The script checks the displayed
+discriminant coefficients, positive signs, equality point,
+rational witness and geometric margins. Its 841 checks include
+189 direct endpoint cases as implementation checks.
+The continuous proof is the polynomial identity and positivity
+argument in Section~\ref{sec:certificate}, not those cases.
+
+Run, from the repository root,
+\begin{quote}
+\texttt{python}\ \src{scripts/hybrid_free_b_geometry_exact_audit.py}
+\end{quote}
+The script prints its own canonical hash and an exact JSON record.
+Final source, PDF and independent full-paper review hashes are
+bound separately in the build manifest. The script does not
+certify actual prime sums, imported estimates, infinite contours,
+the source proof kernel or RH.
+The earlier $69999/80000$ paper is preserved as its delivered
+version; the present result is a separate paper.
+
+\begin{thebibliography}{9}
+\bibitem{OAI}
+OpenAI, \emph{The Quasi-Riemann Hypothesis},
+September 30, 2026 preprint, pinned source at
+\href{https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/The-Quasi-Riemann-Hypothesis-September-30-2026/build/paper.tex}
+{OpenAI/math, commit adc7f1241}.
+\bibitem{Previous}
+RH--Weil research project,
+\emph{A small improvement of the seven-eighths zero-free boundary
+from a compensated probe}, October 7, 2026.
+\src{papers/seven-eighths-boundary-improvement-paper.tex}.
+\bibitem{Note447}
+RH--Weil research project, Note 447, October 7, 2026.
+\src{notes/447-larger-slot-discriminant-and-critical-strip.md}.
+\bibitem{Note448}
+RH--Weil research project, Note 448, October 7, 2026.
+\src{notes/448-canonical-type-i-admission-finite-gram-and-low-prime-fourth-norm.md}.
+\bibitem{Note449}
+RH--Weil research project, Note 449, October 7, 2026.
+\src{notes/449-free-b-compensated-geometry-and-optimal-relative-boundary.md}.
+\bibitem{FreeBAudit}
+RH--Weil research project, Free-$b$ optimization and exact audit,
+October 7, 2026.
+\src{reviews/2026-10-07/hybrid-free-b-geometry-optimization.md};
+\src{scripts/hybrid_free_b_geometry_exact_audit.py}.
+\bibitem{AF}
+L. Alp\"oge and R. Furman,
+\emph{More than two thirds of the zeros of the Riemann zeta function
+are simple and on the critical line}, arXiv:2608.13637v2, 2026,
+\href{https://arxiv.org/html/2608.13637v2}{version 2}.
+\end{thebibliography}
+\end{document}

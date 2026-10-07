@@ -14,6 +14,7 @@ PAPERS = (
     "partial-weil-configurations-paper",
     "abel-mass-obstruction-paper",
     "seven-eighths-boundary-improvement-paper",
+    "free-b-compensated-probe-boundary-paper",
 )
 
 

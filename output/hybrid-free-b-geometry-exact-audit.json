@@ -1,0 +1,97 @@
+{
+  "scope": "Exact displayed algebra in Q and Q(sqrt(921)) only; imported analytic inputs, primes, contours, zero-free conclusions, RH, and external kernels are not certified.",
+  "source_sha256_canonical_lf": "42a5ee0febca59fd1def55cfd6c6808c322ef4237d7726303ea52f711deac6a3",
+  "checks": 841,
+  "status": "PASS",
+  "continuous_method": "A>0 and 4AC-B^2 coefficient positivity; complete the quadratic in delta. No grid inference.",
+  "rational": {
+    "geometry": {
+      "ell": "5831/34950",
+      "b": "617/5000",
+      "lx": "2480617/6990000",
+      "ly": "3343183/6990000",
+      "h": "1891861/2330000",
+      "sigma": "40773/46600",
+      "low": "1312189/6990000",
+      "C_sigma": "1312189/6990000",
+      "minimum_M_prime": "5819/11650",
+      "minimum_lx_prime": "438139/2330000",
+      "minimum_ly_prime": "725661/2330000",
+      "all_J_Gram_gap": "148903/1747500",
+      "full_Gram_gap": "440453/1747500",
+      "supply_gap": "22336777043/1371406178487",
+      "supply_to_one_fifth": "49733439301/2236800000000",
+      "small_exponent": "-29987489/349500000",
+      "floor_exponent": "-13701/2330000",
+      "middle_exponent": "-34113481/1398000000",
+      "principal_w": "3343183/139800000",
+      "principal_z": "1891861/1398000000",
+      "good_margin": "37977/46600",
+      "ramified_margin": "38443/46600",
+      "absolute_B0": "7715661/4660000"
+    },
+    "A": [
+      "44714358/145625",
+      "22860138/29125",
+      "81956388/145625",
+      "1119552/5825"
+    ],
+    "B": [
+      "34751133/145625",
+      "54996373/145625",
+      "3688594/145625"
+    ],
+    "C": [
+      "5401593/116500",
+      "2481813/58250"
+    ],
+    "Q": [
+      "2571077781/21206640625",
+      "374383239425172/21206640625",
+      "1769237957630987/21206640625",
+      "2384206239567316/21206640625",
+      "681023951247164/21206640625"
+    ],
+    "certified_margin": "10580567/347281513800000",
+    "safe_margin": "1/100000000"
+  },
+  "critical": {
+    "geometry": {
+      "ell": "(11/551)+(8/1653)*sqrt(921)",
+      "b": "(-4/29)+(230/26709)*sqrt(921)",
+      "lx": "(308/551)+(-3413/507471)*sqrt(921)",
+      "ly": "(8/19)+(11/5833)*sqrt(921)",
+      "h": "(254/551)+(5869/507471)*sqrt(921)",
+      "sigma": "(1507/1653)+(-2/1653)*sqrt(921)",
+      "low": "(443/1653)+(-4027/1522413)*sqrt(921)",
+      "C_sigma": "(443/1653)+(-4027/1522413)*sqrt(921)",
+      "minimum_M_prime": "(518/551)+(-8/551)*sqrt(921)",
+      "minimum_lx_prime": "(297/551)+(-5869/507471)*sqrt(921)",
+      "minimum_ly_prime": "(221/551)+(-1499/507471)*sqrt(921)",
+      "all_J_Gram_gap": "(1081/1653)+(-28532/1522413)*sqrt(921)",
+      "full_Gram_gap": "(1114/1653)+(-21164/1522413)*sqrt(921)",
+      "supply_gap": "(-218113800347/322842234785)+(198928384/8725465805)*sqrt(921)",
+      "supply_to_one_fifth": "(-152347/423168)+(102269/8119536)*sqrt(921)",
+      "small_exponent": "(-975461/8265000)+(80819/76120650)*sqrt(921)",
+      "floor_exponent": "(-9812/41325)+(290401/38060325)*sqrt(921)",
+      "middle_exponent": "(-35389/661200)+(292151/304482600)*sqrt(921)",
+      "principal_w": "(2/95)+(11/116660)*sqrt(921)",
+      "principal_z": "(127/165300)+(5869/304482600)*sqrt(921)",
+      "good_margin": "(70391/82650)+(-2/1653)*sqrt(921)",
+      "ramified_margin": "(28487/33060)+(-2/1653)*sqrt(921)",
+      "absolute_B0": "(937/551)+(-1499/1014942)*sqrt(921)"
+    },
+    "delta": "(49/48)+(-1/48)*sqrt(921)",
+    "Q": [
+      "0",
+      "(46335180393600/93205507)+(-1472585318400/93205507)*sqrt(921)",
+      "(28635931419600/93205507)+(-687383971200/93205507)*sqrt(921)",
+      "(-40677737764800/93205507)+(1685645568000/93205507)*sqrt(921)",
+      "(-1447981876800/4905553)+(52903334400/4905553)*sqrt(921)"
+    ],
+    "endpoint_margin": "0",
+    "unique_equality": "y=0, delta=(49-sqrt(921))/48",
+    "closure_interface": "E_beta<=-Delta before real losses; choose Delta budgets, mesh, K, then mu, all before target."
+  },
+  "script_sha256_canonical_lf": "5a366da5e8114d158cb76b3a94060155786a0ca637a914b662ba17cd66afa63f"
+}

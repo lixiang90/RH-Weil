@@ -14,8 +14,16 @@
 | 部分 Weil 配置 | [partial-weil-configurations-paper.tex](partial-weil-configurations-paper.tex) | [PDF](../output/pdf/partial-weil-configurations-paper.pdf) | XeLaTeX |
 | Abel 质量预算障碍 | [abel-mass-obstruction-paper.tex](abel-mass-obstruction-paper.tex) | [PDF](../output/pdf/abel-mass-obstruction-paper.pdf) | pdfLaTeX |
 | 七分之八无零边界的参数改进 | [seven-eighths-boundary-improvement-paper.tex](seven-eighths-boundary-improvement-paper.tex) | [PDF](../output/pdf/seven-eighths-boundary-improvement-paper.pdf) | pdfLaTeX |
+| 自由 b 的补偿几何与临界边界 | [free-b-compensated-probe-boundary-paper.tex](free-b-compensated-probe-boundary-paper.tex) | [PDF](../output/pdf/free-b-compensated-probe-boundary-paper.pdf) | pdfLaTeX |
 
 新稿将笔记 441–445 的结果整理为正式论文：在明确引用原稿通用结果及全 Hecke \(7/8\) 结论的前提下，推出严格半平面 \(\Re s>69999/80000\) 无零。正文给出可变槽 low 证明、局部 Euler 域、实际 detector 容量、联合误差、连续证书及完整延拓反证；不宣称独立验收原稿或完成新的 Lean 认证。最终源稿、PDF 和独立审查的哈希及编译情况见 [构建清单](../reviews/2026-10-07/69999-paper-build-manifest.json)。
+
+自由 b 新稿另行记录 449 的结果：在同一明确引用输入包下得严格边界
+\((1507-2\sqrt{921})/1653\approx0.874957069799\)，并给有理见证 \(40773/46600\)。
+它重证自由 b 的完整 low、连续代数证书、实际容量与全族延拓，
+最优性只限原 low 交点和计数包络，不声称新比例、RH 或外部 kernel 验收。
+旧 \(69999/80000\) 论文按已交付版本保留；新稿最终审查与 PDF 见
+[自由 b 构建清单](../reviews/2026-10-07/free-b-paper-build-manifest.json)。
 
 ## 从仓库根目录编译
 
@@ -32,6 +40,8 @@ pdflatex -interaction=nonstopmode -halt-on-error -output-directory=output/pdf pa
 pdflatex -interaction=nonstopmode -halt-on-error -output-directory=output/pdf papers/abel-mass-obstruction-paper.tex
 pdflatex -interaction=nonstopmode -halt-on-error -output-directory=output/pdf papers/seven-eighths-boundary-improvement-paper.tex
 pdflatex -interaction=nonstopmode -halt-on-error -output-directory=output/pdf papers/seven-eighths-boundary-improvement-paper.tex
+pdflatex -interaction=nonstopmode -halt-on-error -output-directory=output/pdf papers/free-b-compensated-probe-boundary-paper.tex
+pdflatex -interaction=nonstopmode -halt-on-error -output-directory=output/pdf papers/free-b-compensated-probe-boundary-paper.tex
 ```
 
 两次编译用于更新引用。编译中间文件由 `.gitignore` 排除。

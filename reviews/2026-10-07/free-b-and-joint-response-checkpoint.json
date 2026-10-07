@@ -1,0 +1,239 @@
+{
+  "date": "2026-10-07",
+  "base_repository_commit": "3065f65c438e28b0e1f3b01da8fcd85f25d0551d",
+  "goal_status": "active",
+  "boundary_result": {
+    "status": "T/R: cited-input derivation",
+    "strict_boundary": "(1507-2*sqrt(921))/1653",
+    "rational_witness": "40773/46600",
+    "paper_manifest": "reviews/2026-10-07/free-b-paper-build-manifest.json",
+    "scope": "Primitive finite-order Hecke family and quadratic Dirichlet transfer, principal pole allowed, boundary excluded; optimal only within the stated interface."
+  },
+  "proportion_result": {
+    "new_proportion": false,
+    "finite_cell_Schur_baseline": "X^(1/2+epsilon), unconditional within the fixed cell",
+    "weaker_canonical_contour_bound": "X^(3*theta/2+epsilon), not a new arithmetic saving",
+    "proper_prime_power_full_compression": "Tr(E_pp^4)=O(N/(log X)^2), using the original AF frame and classical mean square",
+    "joint_support": "gq divides h; whole physical core coprime projection after all channels combine",
+    "unpaid": [
+      "actual moving residue weights and Type-II tail saving",
+      "finite-constant full fourth-moment budget",
+      "cross-cell and alias joint accounting"
+    ],
+    "independent_review": "reviews/2026-10-07/joint-type-ii-full-review-radial.md"
+  },
+  "imported_source": {
+    "repository": "https://github.com/openai/math",
+    "commit": "adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+    "path": "preprints/The-Quasi-Riemann-Hypothesis-September-30-2026/build/paper.tex",
+    "sha256_canonical_lf": "42a5ee0febca59fd1def55cfd6c6808c322ef4237d7726303ea52f711deac6a3",
+    "read_only": true,
+    "worktree_clean_at_delivery": true
+  },
+  "exact_audits": {
+    "free_b_checks": 841,
+    "joint_primitive_quadruples": 4290,
+    "joint_nonzero_mobius_divisor_pairs": 37000,
+    "joint_shared_divisor_pairs": 3928,
+    "joint_denominator_core_rows": 78,
+    "joint_whole_physical_core_rows": 4,
+    "scope": "Finite algebra and formal-log identities only; no certification of primes, infinite contours, imported analytic inputs, kernels or a zero proportion."
+  },
+  "independent_review_policy": "New paper received two full reviews; notes and joint report separately reviewed. Review PASS is restricted to stated T, T/R or T/R-MV claims.",
+  "layout_checks": {
+    "existing_regression_tests_passed": 12,
+    "all_final_PDF_pages_visually_checked": 12,
+    "new_paper_compile_log_flags": []
+  },
+  "preserved_previous_delivery": {
+    "tex": {
+      "path": "papers/seven-eighths-boundary-improvement-paper.tex",
+      "sha256_canonical_lf": "92ba93da7cc568579b0b982bcd712e1382af749d05460c1fa4c8b25064df66d6",
+      "canonical_utf8_bytes": 41612
+    },
+    "pdf": {
+      "path": "output/pdf/seven-eighths-boundary-improvement-paper.pdf",
+      "sha256": "1604c74dfa37ab576ea8d861604cffa49bb7611c79d34d5d46234d7097d8673f",
+      "bytes": 457325
+    },
+    "history": {
+      "path": "docs/history/README-progress-2026-10-07.md",
+      "sha256_canonical_lf": "9441481d4e59cecebc5dcef1170805314ffebaef0ffe44578043c05de3303b57",
+      "canonical_utf8_bytes": 256678
+    },
+    "old_paper_recompiled": false
+  },
+  "files": [
+    {
+      "path": "README.md",
+      "sha256_canonical_lf": "f8fd40a4f1e8090535587c345f0f8be596275c4ffb2e62a1eeec67420157243f",
+      "canonical_utf8_bytes": 7105
+    },
+    {
+      "path": "RESEARCH_BRANCHES.md",
+      "sha256_canonical_lf": "967ee8b242cfd8400083b0757549927939c7f4f1d682937997928e9b8c7b096a",
+      "canonical_utf8_bytes": 167513
+    },
+    {
+      "path": "goals/NEXT.20260909.md",
+      "sha256_canonical_lf": "9ec03c35bc6f9f7c088d6d0dc78ae2facececd3489c2668ecb06b855a244a085",
+      "canonical_utf8_bytes": 38779
+    },
+    {
+      "path": "goals/PROGRESS.md",
+      "sha256_canonical_lf": "4886c65dd07e337d6fe0d4cf1977da9235158a7e84c84e263d6e508be0565918",
+      "canonical_utf8_bytes": 107405
+    },
+    {
+      "path": "papers/README.md",
+      "sha256_canonical_lf": "35a9f6848886eac26bd631c84ae36aeb3ce1344a00b04feea0402816a5bc88ea",
+      "canonical_utf8_bytes": 5181
+    },
+    {
+      "path": "scripts/check_repo_layout.py",
+      "sha256_canonical_lf": "a0475757c71d73269eb15f4b9f2317fd7719bae5c525724157c074159609591d",
+      "canonical_utf8_bytes": 2946
+    },
+    {
+      "path": "notes/447-larger-slot-discriminant-and-critical-strip.md",
+      "sha256_canonical_lf": "35d0f11bd822bdf7862dc821f2b02628b3a41778ff9633cb27a9bcbf5d3431b1",
+      "canonical_utf8_bytes": 10843
+    },
+    {
+      "path": "notes/448-canonical-type-i-admission-finite-gram-and-low-prime-fourth-norm.md",
+      "sha256_canonical_lf": "6a7219f929cc50a721227c722fd9553eb7eba1ed9d4dd432bd971b39c2e6eafa",
+      "canonical_utf8_bytes": 11964
+    },
+    {
+      "path": "notes/449-free-b-compensated-geometry-and-optimal-relative-boundary.md",
+      "sha256_canonical_lf": "2d4b37628d6f68229fd687d6ac84c2ba03cb7223c412df5e00c07a0ff5e1a3bd",
+      "canonical_utf8_bytes": 15509
+    },
+    {
+      "path": "output/hybrid-free-b-geometry-exact-audit.json",
+      "sha256_canonical_lf": "e985768daa8afecaf4067b91e7fc1b27152a902c923b36eb655d8c9d307dfb6b",
+      "canonical_utf8_bytes": 4001
+    },
+    {
+      "path": "output/hybrid-joint-type-ii-fiber-audit.json",
+      "sha256_canonical_lf": "79202c2c1a925ee9eb8326e23c88bfa9dc60e95f1f7133244ef9d0b09b753877",
+      "canonical_utf8_bytes": 1085
+    },
+    {
+      "path": "output/hybrid-larger-slot-discriminant-audit.json",
+      "sha256_canonical_lf": "566045aa62ab98caea1528e62cfb814783b7ceda5a0c26f498174624286bd369",
+      "canonical_utf8_bytes": 1462
+    },
+    {
+      "path": "output/pdf/free-b-compensated-probe-boundary-paper.pdf",
+      "sha256": "1c1322b67f30c136858fcc2de2fca468fc48f450be2ed573cff93e931774f436",
+      "bytes": 401489
+    },
+    {
+      "path": "papers/free-b-compensated-probe-boundary-paper.tex",
+      "sha256_canonical_lf": "5df2b6ad687572229e2c4d41292bee6cf81b57a13b762173d26732169f1688db",
+      "canonical_utf8_bytes": 35118
+    },
+    {
+      "path": "reviews/2026-10-07/447-critical-continuation-review-twisted.md",
+      "sha256_canonical_lf": "bf0cd61928c04c03c4946cb9bc7a7434e123ceff2f6a90e7aa143702bf2db827",
+      "canonical_utf8_bytes": 10542
+    },
+    {
+      "path": "reviews/2026-10-07/447-larger-slot-certificate-review-radial.md",
+      "sha256_canonical_lf": "111b5fb06564dfc7ae5bd210c6914f83dc36f3a6151b4d1c85d0dae7c57f9fcf",
+      "canonical_utf8_bytes": 16316
+    },
+    {
+      "path": "reviews/2026-10-07/448-canonical-admission-and-low-prime-review-twisted.md",
+      "sha256_canonical_lf": "bbdde3972e08d32e6c74ac78d3ccc29ba97a57ccab568c70110f3307ef957784",
+      "canonical_utf8_bytes": 7899
+    },
+    {
+      "path": "reviews/2026-10-07/449-family-continuation-review-twisted.md",
+      "sha256_canonical_lf": "6fbd3cb02e7ff4bc53bc734d80a00b3798121f2fef332e2a19b4146b6f1510ff",
+      "canonical_utf8_bytes": 10889
+    },
+    {
+      "path": "reviews/2026-10-07/449-free-b-certificate-review-radial.md",
+      "sha256_canonical_lf": "6ad8503b6567c3186a3cbb78ea8cd04a4e1ab4f3986913743b47ea54695d4074",
+      "canonical_utf8_bytes": 10317
+    },
+    {
+      "path": "reviews/2026-10-07/free-b-paper-build-and-layout-review.md",
+      "sha256_canonical_lf": "70d78652c15afad2809c8f0e20e9a5a150737d193fe6e74dcaf5b5a18dd51818",
+      "canonical_utf8_bytes": 3901
+    },
+    {
+      "path": "reviews/2026-10-07/free-b-paper-build-manifest.json",
+      "sha256_canonical_lf": "45c0339f0690d21d6c29c605148a00a6d1f3347a819cece78ef4c08fbf38c26b",
+      "canonical_utf8_bytes": 6208
+    },
+    {
+      "path": "reviews/2026-10-07/free-b-paper-review-radial.md",
+      "sha256_canonical_lf": "69d2a538dc67a78d4f5bda79873d7f95e699c9016f0db1def095e209303c82f0",
+      "canonical_utf8_bytes": 9404
+    },
+    {
+      "path": "reviews/2026-10-07/free-b-paper-review-twisted.md",
+      "sha256_canonical_lf": "1cc0b262b8fdc5bca2fa4cc755b4da10e38e2f94c951a5724e25eb324e80fd16",
+      "canonical_utf8_bytes": 11114
+    },
+    {
+      "path": "reviews/2026-10-07/hybrid-finite-ratio-gram-baseline.md",
+      "sha256_canonical_lf": "cf0c8ade19ef0a6aec04f663a57319d2e2f0ba26cde765a7024584ce79d7008a",
+      "canonical_utf8_bytes": 8362
+    },
+    {
+      "path": "reviews/2026-10-07/hybrid-free-b-and-joint-response-next-proof-plan.md",
+      "sha256_canonical_lf": "b8d9bb1cb12c66f033f31744e741d508e237e554ed2cd2c25223494f20367255",
+      "canonical_utf8_bytes": 5473
+    },
+    {
+      "path": "reviews/2026-10-07/hybrid-free-b-geometry-optimization.md",
+      "sha256_canonical_lf": "35dac7399af8507be7c39c0e3e69c37d47adf83ebda9125d2a5f62e663037f67",
+      "canonical_utf8_bytes": 17430
+    },
+    {
+      "path": "reviews/2026-10-07/hybrid-joint-type-ii-fiber-research.md",
+      "sha256_canonical_lf": "238fd374cad6da451fd186c6f3766d79d869ff8ae92ed6441e0ca516e1398473",
+      "canonical_utf8_bytes": 17846
+    },
+    {
+      "path": "reviews/2026-10-07/hybrid-next-boundary-certificate-optimization.md",
+      "sha256_canonical_lf": "125feb225c7a8db0ca8e4097f6949d7496ec12d7106c444fe45f8bea53b44fa6",
+      "canonical_utf8_bytes": 14029
+    },
+    {
+      "path": "reviews/2026-10-07/hybrid-response-type-i-admission-and-type-ii-gap.md",
+      "sha256_canonical_lf": "6d3eedd9607fd797989731eacbcc2f76c3e6c6da6ade88bfc6798ca2e456d251",
+      "canonical_utf8_bytes": 22825
+    },
+    {
+      "path": "reviews/2026-10-07/joint-type-ii-full-review-radial.md",
+      "sha256_canonical_lf": "45dc10926b1f3c821f09348ec1e899f6141d161800641b1bbdb098cf9ede4018",
+      "canonical_utf8_bytes": 8599
+    },
+    {
+      "path": "reviews/2026-10-07/type-i-and-low-lambda-full-response-review.md",
+      "sha256_canonical_lf": "0714ce3c96a2dd6ea8e2d1b185e1b2dec2ba107d9f00c181783be2ee6df86278",
+      "canonical_utf8_bytes": 12653
+    },
+    {
+      "path": "scripts/hybrid_free_b_geometry_exact_audit.py",
+      "sha256_canonical_lf": "5a366da5e8114d158cb76b3a94060155786a0ca637a914b662ba17cd66afa63f",
+      "canonical_utf8_bytes": 10708
+    },
+    {
+      "path": "scripts/hybrid_joint_type_ii_fiber_audit.py",
+      "sha256_canonical_lf": "885130779ee38b9ce86933233ca4d323abc0a8ff4170be05247d7308d2d9fe9e",
+      "canonical_utf8_bytes": 8048
+    },
+    {
+      "path": "scripts/hybrid_larger_slot_discriminant_audit.py",
+      "sha256_canonical_lf": "ccf5b1f3726e7c4fcd8d20ca6c40d6714d614b7e6b7e68b48db7be39d301bf37",
+      "canonical_utf8_bytes": 7069
+    }
+  ],
+  "self_hash_omitted": true
+}

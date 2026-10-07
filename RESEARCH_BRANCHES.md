@@ -1,5 +1,20 @@
 # 研究分支看板
 
+## 当前用户队列（2026-10-07，自由 b 临界边界与真实比例预算）
+
+当前 Goal 仍为研究无零区域与简单临界线比例能否提高，保持 active。
+公开 README 保持项目介绍；本看板与进度账本保存新研究状态。
+
+| 顺序 | 任务 | 验收与范围 |
+|---|---|---|
+| 新边界已付 | [447 固定 b 临界点](notes/447-larger-slot-discriminant-and-critical-strip.md)、[449 自由 b 全族延拓](notes/449-free-b-compensated-geometry-and-optimal-relative-boundary.md) | 相对明确原 [R] 得 strict sigma=(1507-2sqrt(921))/1653；全部实际域和 Δ 量词，两份全文审查；非外部整链／kernel 验收 |
+| 比例接口已付 | [448 规范准入、有限 Gram 与低素数四范数](notes/448-canonical-type-i-admission-finite-gram-and-low-prime-fourth-norm.md) | 保留自然 ghost mask、double pole、finite frame；无条件 local Schur 强于较弱 contour 界；没有新比例或全四矩常数 |
+| 当前主线 | [临界点真实 count 与 joint response](reviews/2026-10-07/hybrid-free-b-and-joint-response-next-proof-plan.md) | 修改 count／gain 关联或真实 moments；physical fiber 内先合并 divisor blocks，控制 signed G-A 与共同 centering |
+| 必要辅助 | [自由 b 精确脚本](scripts/hybrid_free_b_geometry_exact_audit.py)及限定独审 | 841 项精确代数与连续证明分列；有限检查不认证素数、无穷轮廓或外部 Lean |
+
+69999/80000 正式论文按其交付版本保留；新界另写[自由 b 正式论文](papers/free-b-compensated-probe-boundary-paper.tex)，构建和全文审查见[清单](reviews/2026-10-07/free-b-paper-build-manifest.json)。
+以下为历史队列。
+
 ## 当前用户队列（2026-10-07，442–446实际high闭合后）
 
 当前Goal仍是研究全局条带与简单临界线比例能否改善，保持active。原长期几何队列保留。

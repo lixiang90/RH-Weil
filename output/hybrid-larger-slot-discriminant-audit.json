@@ -1,0 +1,30 @@
+{
+  "scope": "Symbolic rational coefficients, root isolation and geometry bounds only. The cited physical arithmetic, analytic estimates, family continuation and external Lean are not certified by this script.",
+  "source_sha256_canonical_lf": "42a5ee0febca59fd1def55cfd6c6808c322ef4237d7726303ea52f711deac6a3",
+  "note_sha256_canonical_lf": "35d0f11bd822bdf7862dc821f2b02628b3a41778ff9633cb27a9bcbf5d3431b1",
+  "symbolic_ABC_and_discriminant_identity": true,
+  "discriminant_nonzero_coefficients": 15,
+  "safe_rational_t": "1/5900",
+  "safe_rational_boundary": "20649/23600",
+  "safe_rational_extra_margin": "42523/38362753440",
+  "ratio_polynomial_positive_coefficients": {
+    "1": "68248848130569216/25672375",
+    "2": "1633174493063251968/128361875",
+    "3": "2223362164143955968/128361875",
+    "4": "637049516953411584/128361875"
+  },
+  "critical_root_isolating_interval": [
+    "1/5842",
+    "1/5841"
+  ],
+  "critical_t_decimal_for_orientation_only": "0.000171197538504955202594107346822913846098556503753447099299245",
+  "critical_boundary_decimal_for_orientation_only": "0.874957200615373761199351473163294271538475360874061638225175",
+  "critical_extra_margin_zero": true,
+  "critical_high_gap_paid_by_global_beta_minus_sigma": "Analytic/quantifier argument in note 447, not a machine check of the L family.",
+  "failure_parameter": {
+    "t": "1/5800",
+    "delta": "57215/147963",
+    "q": "57215/295926",
+    "E_sigma": "29297/18075106080"
+  }
+}

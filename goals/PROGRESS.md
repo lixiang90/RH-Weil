@@ -1,5 +1,38 @@
 # 持续GOAL执行账本：20260909版重启
 
+## 2026-10-07：447–449临界边界、自由几何与比例接口定位
+
+[447](../notes/447-larger-slot-discriminant-and-critical-strip.md)
+给固定 b=1/8 的精确临界判别式，以全族 Δ 支付零附加 margin。
+[449](../notes/449-free-b-compensated-geometry-and-optimal-relative-boundary.md)
+重证自由 b 的 generic low、全部 actual counts／widths、principal／outer 与同一 Mellin 延拓，
+在 445 明确原 [R] 下得到 strict Re s>(1507-2sqrt(921))/1653≈0.874957069799。
+完全有理的 40773/46600 有连续严格余量；两者均强于447的固定 b 临界界。
+本最优性只限原 low 交点和 R_* rectangle；不证明实际行达到包络。
+
+[448](../notes/448-canonical-type-i-admission-finite-gram-and-low-prime-fourth-norm.md)
+支付非空 canonical Vaughan convolution 的自然 mask、sharp prefix、ghost double pole 和 height 峰，
+并重算原低 Lambda full-compression 的 o(N) 四范数费用。
+独审发现此前 contour X^(21/16+epsilon) 弱于同 cell 无条件 X^(1/2+epsilon) Schur 基线，
+已修正尚未提交的新报告的成果比较，没有把弱界包装为新的算术 saving。
+这些界仍不足以支付原 signed fourth trace 的主常数，简单临界线比例未提高。
+
+841 项 Q／Q(sqrt(921)) 审计与447的 rational discriminant 检查限定于显示代数；
+连续正性、引用分析和全族量词由正文及独立全文审查分别记录。
+math 只读，已交付69999论文保持冻结；公开 README 保持项目介绍结构，仅更新论文导航。
+按用户“确认新边界后另写论文”的要求，新增独立正式稿
+[自由 b 补偿几何论文](../papers/free-b-compensated-probe-boundary-paper.tex)，
+两份独立全文审查均限定 PASS [T/R]；12 页 PDF、精确审计与最终源哈希由
+[构建清单](../reviews/2026-10-07/free-b-paper-build-manifest.json) 绑定。
+比例方向的[联合 Type-II 纤维报告](../reviews/2026-10-07/hybrid-joint-type-ii-fiber-research.md)
+补得 gq|h、实际 affine 重排及 whole physical core 的合法 coprime 投影；
+在原完整 AF compression 上以经典均值不等式支付全部 proper prime powers 的
+Tr(E_pp^4)=O(N/L^2)。独立全文审查通过，37000 项 Möbius 除数项精确防错检查通过；
+真实 moving residue weights 和完整响应四范数前件仍未支付，零点比例未提高。
+本轮输入、研究报告、独审和精确输出的版本见[检查点清单](../reviews/2026-10-07/free-b-and-joint-response-checkpoint.json)。
+下一步执行[临界 count 与实际联合 response](../reviews/2026-10-07/hybrid-free-b-and-joint-response-next-proof-plan.md)，
+Goal active，外部输入整链认证、实际比例主预算及长期 RH／几何目标仍未完成。
+
 ## 2026-10-07：69999/80000 正式论文与公开首页整理
 
 按用户要求把 441–445 的引用证明整理为独立正式论文，

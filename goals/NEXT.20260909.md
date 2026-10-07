@@ -1,5 +1,18 @@
 # 20260909版重启任务单
 
+## 当前用户任务（2026-10-07，447–449检查点）
+
+执行[临界真实 count 与联合 response 任务](../reviews/2026-10-07/hybrid-free-b-and-joint-response-next-proof-plan.md)。
+449 相对明确原 [R] 完成自由 b 的 strict sigma=(1507-2sqrt(921))/1653 全族延拓，
+并给有理 40773/46600；在原 low 交点与 R_* rectangle 内，仅调 b 已不能更强。
+下一边界工作应攻击临界 δ／amplitude 邻域的真实联合 count 或实际 moment 前件。
+
+448 完成规范 Type-I/II 准入、ghost 费用、同 cell 有限 Gram 基线及低 Lambda 四范数。
+较弱 contour 幂界不是新算术 saving；本轮没有改善简单零点比例。
+比例主线保留原 physical vector、全部背景 cross terms 与共同 centering，
+在 determinant/frequency fiber 内先合并全部 divisor blocks，再付真实联合净预算。
+当前 Goal active；原长期几何目标保留。以下为历史任务。
+
 ## 当前用户任务（2026-10-07，442–446结算后）
 
 执行[更大槽连续certificate与真实response相关和](../reviews/2026-10-07/hybrid-verified-boundary-and-response-correlation-next-proof-plan.md)。

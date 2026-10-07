@@ -1,0 +1,152 @@
+{
+  "date": "2026-10-07",
+  "paper_title": "Optimizing compensated-probe geometry below seven eighths",
+  "result": {
+    "strict_boundary": "(1507-2*sqrt(921))/1653",
+    "decimal_for_orientation": "0.874957069799168740018340006958879224",
+    "rational_strict_margin_witness": "40773/46600",
+    "scope": "Finite-order Hecke characters over Q(sqrt(-3)); all Dirichlet characters and zeta; principal pole at 1 allowed; boundary line excluded.",
+    "status": "Cited-input derivation relative to the explicit imported package R; not an independent verification of R, RH, or an external kernel.",
+    "optimality_scope": "Only the stated low intersection, count envelope and amplitude rectangle.",
+    "new_critical_line_proportion": false
+  },
+  "base_repository_commit": "3065f65c438e28b0e1f3b01da8fcd85f25d0551d",
+  "imported_source": {
+    "repository": "https://github.com/openai/math",
+    "commit": "adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+    "path": "preprints/The-Quasi-Riemann-Hypothesis-September-30-2026/build/paper.tex",
+    "sha256_canonical_lf": "42a5ee0febca59fd1def55cfd6c6808c322ef4237d7726303ea52f711deac6a3",
+    "read_only": true,
+    "worktree_clean_at_delivery": true
+  },
+  "tex": {
+    "path": "papers/free-b-compensated-probe-boundary-paper.tex",
+    "sha256_canonical_lf": "5df2b6ad687572229e2c4d41292bee6cf81b57a13b762173d26732169f1688db",
+    "canonical_utf8_bytes": 35118
+  },
+  "pdf": {
+    "path": "output/pdf/free-b-compensated-probe-boundary-paper.pdf",
+    "sha256": "1c1322b67f30c136858fcc2de2fca468fc48f450be2ed573cff93e931774f436",
+    "bytes": 401489,
+    "pages": 12,
+    "page_format": "A4"
+  },
+  "independent_mathematical_reviews": [
+    {
+      "path": "reviews/2026-10-07/free-b-paper-review-radial.md",
+      "sha256_canonical_lf": "69d2a538dc67a78d4f5bda79873d7f95e699c9016f0db1def095e209303c82f0",
+      "canonical_utf8_bytes": 9404
+    },
+    {
+      "path": "reviews/2026-10-07/free-b-paper-review-twisted.md",
+      "sha256_canonical_lf": "1cc0b262b8fdc5bca2fa4cc755b4da10e38e2f94c951a5724e25eb324e80fd16",
+      "canonical_utf8_bytes": 11114
+    }
+  ],
+  "build_and_layout_review": {
+    "path": "reviews/2026-10-07/free-b-paper-build-and-layout-review.md",
+    "sha256_canonical_lf": "70d78652c15afad2809c8f0e20e9a5a150737d193fe6e74dcaf5b5a18dd51818",
+    "canonical_utf8_bytes": 3901
+  },
+  "compilation": {
+    "built_in_editor_open_requested": true,
+    "built_in_compile_attempts": 1,
+    "built_in_status": "compile-failed: Unable to find standard directories for platform",
+    "fallback": "Preinstalled MiKTeX pdfLaTeX 1.40.25 (MiKTeX 23.5)",
+    "final_exit_code": 0,
+    "final_log_flags": [],
+    "command_from_repository_root": "pdflatex -interaction=nonstopmode -halt-on-error -output-directory=output/pdf papers/free-b-compensated-probe-boundary-paper.tex",
+    "references_settled": true,
+    "pdf_bytes_may_change_due_to_build_metadata": true,
+    "new_dependencies_installed": false
+  },
+  "visual_qa": {
+    "all_pages_rendered": 12,
+    "all_page_layouts_inspected": true,
+    "renderer": "pdftoppm -r 96 -png",
+    "scratch_directory": "tmp/pdfs/free-b-paper-qa/",
+    "final_command_format_page_reinspected_at_dpi": 110,
+    "final_unchanged_page_pixels": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      12
+    ],
+    "final_changed_page_reinspected": 11,
+    "clipping_or_overlap_observed": false,
+    "unresolved_pdf_references": 0,
+    "audit_command_space_verified_in_pdf_text": true
+  },
+  "exact_audit": {
+    "script": {
+      "path": "scripts/hybrid_free_b_geometry_exact_audit.py",
+      "sha256_canonical_lf": "5a366da5e8114d158cb76b3a94060155786a0ca637a914b662ba17cd66afa63f",
+      "canonical_utf8_bytes": 10708
+    },
+    "report": {
+      "path": "output/hybrid-free-b-geometry-exact-audit.json",
+      "sha256_canonical_lf": "e985768daa8afecaf4067b91e7fc1b27152a902c923b36eb655d8c9d307dfb6b",
+      "canonical_utf8_bytes": 4001
+    },
+    "exit_code": 0,
+    "checks": 841,
+    "direct_endpoint_cases": 189,
+    "arithmetic": "Q and Q(sqrt(921)), no floating-point evidence",
+    "scope": "Exact displayed algebra in Q and Q(sqrt(921)) only; imported analytic inputs, primes, contours, zero-free conclusions, RH, and external kernels are not certified."
+  },
+  "supporting_derivations": [
+    {
+      "path": "notes/449-free-b-compensated-geometry-and-optimal-relative-boundary.md",
+      "sha256_canonical_lf": "2d4b37628d6f68229fd687d6ac84c2ba03cb7223c412df5e00c07a0ff5e1a3bd",
+      "canonical_utf8_bytes": 15509
+    },
+    {
+      "path": "reviews/2026-10-07/hybrid-free-b-geometry-optimization.md",
+      "sha256_canonical_lf": "35dac7399af8507be7c39c0e3e69c37d47adf83ebda9125d2a5f62e663037f67",
+      "canonical_utf8_bytes": 17430
+    },
+    {
+      "path": "reviews/2026-10-07/449-free-b-certificate-review-radial.md",
+      "sha256_canonical_lf": "6ad8503b6567c3186a3cbb78ea8cd04a4e1ab4f3986913743b47ea54695d4074",
+      "canonical_utf8_bytes": 10317
+    },
+    {
+      "path": "reviews/2026-10-07/449-family-continuation-review-twisted.md",
+      "sha256_canonical_lf": "6fbd3cb02e7ff4bc53bc734d80a00b3798121f2fef332e2a19b4146b6f1510ff",
+      "canonical_utf8_bytes": 10889
+    }
+  ],
+  "preserved_previous_delivery": {
+    "tex": {
+      "path": "papers/seven-eighths-boundary-improvement-paper.tex",
+      "sha256_canonical_lf": "92ba93da7cc568579b0b982bcd712e1382af749d05460c1fa4c8b25064df66d6",
+      "canonical_utf8_bytes": 41612
+    },
+    "pdf": {
+      "path": "output/pdf/seven-eighths-boundary-improvement-paper.pdf",
+      "sha256": "1604c74dfa37ab576ea8d861604cffa49bb7611c79d34d5d46234d7097d8673f",
+      "bytes": 457325
+    },
+    "history": {
+      "path": "docs/history/README-progress-2026-10-07.md",
+      "sha256_canonical_lf": "9441481d4e59cecebc5dcef1170805314ffebaef0ffe44578043c05de3303b57",
+      "canonical_utf8_bytes": 256678
+    },
+    "old_paper_recompiled": false
+  },
+  "layout_validation": {
+    "check_repo_layout_exit_code": 0,
+    "existing_regression_tests": 12,
+    "all_passed": true,
+    "git_worktree_diff_check_passed": true
+  },
+  "other_papers_recompiled": false,
+  "external_lean_build_or_comparator_run": false
+}

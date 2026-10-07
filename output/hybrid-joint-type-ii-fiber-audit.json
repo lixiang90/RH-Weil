@@ -1,0 +1,34 @@
+{
+  "status": "PASS",
+  "scope": "finite integer and formal-log identities only",
+  "report": "reviews/2026-10-07/hybrid-joint-type-ii-fiber-research.md",
+  "report_canonical_lf_sha256": "238fd374cad6da451fd186c6f3766d79d869ff8ae92ed6441e0ca516e1398473",
+  "domain": [
+    12,
+    22
+  ],
+  "V": 3,
+  "formal_basis": "ordered log(p) tensor log(q) with integer coefficients",
+  "physical_nonzero_determinant_quadruples": 4290,
+  "nonzero_mobius_divisor_terms": 37000,
+  "shared_divisor_terms": 3928,
+  "denominator_prime_power_core_rows": 78,
+  "full_physical_prime_power_core_rows": 4,
+  "checks": {
+    "canonical_completion": true,
+    "physical_tensor_reconstruction": true,
+    "primitive_diagonal_equivalence": true,
+    "gq_divides_h": true,
+    "mobius_common_sign_square": true,
+    "affine_solution_reconstruction": true,
+    "scaled_actual_ratio": true,
+    "core_coprimality": true
+  },
+  "not_certified": [
+    "asymptotic signed cancellation",
+    "Type-II tail saving",
+    "finite fourth-moment constant",
+    "new zero proportion",
+    "external zero-free input"
+  ]
+}
