@@ -46,6 +46,10 @@ class LayoutTests(unittest.TestCase):
             f"[source]({name}.tex) [PDF](../output/pdf/{name}.pdf#page=2)"
             for name in layout.PAPERS
         ))
+        self.write("docs/history/README-progress-2026-10-07.md", "\n".join(
+            f"[source](../../papers/{name}.tex) [PDF](../../output/pdf/{name}.pdf)"
+            for name in layout.PAPERS
+        ))
         self.write("paper-sections/section.tex", "Section fixture\n")
         self.write(
             f"papers/{layout.PAPERS[0]}.tex",
@@ -112,7 +116,10 @@ class LayoutTests(unittest.TestCase):
         self.assertEqual(self.check(), [])
 
     def test_all_layout_documents_are_required(self) -> None:
-        for relative in ("README.md", "papers/README.md", "AUDIT_REPORT.md"):
+        for relative in (
+            "README.md", "papers/README.md", "AUDIT_REPORT.md",
+            "docs/history/README-progress-2026-10-07.md",
+        ):
             with self.subTest(relative=relative):
                 target = self.root / relative
                 saved = target.read_bytes()
@@ -127,6 +134,7 @@ class LayoutTests(unittest.TestCase):
             ("README.md", "papers/missing.tex"),
             ("papers/README.md", "../output/pdf/missing.pdf#page=2"),
             ("AUDIT_REPORT.md", "output/pdf/missing.pdf"),
+            ("docs/history/README-progress-2026-10-07.md", "../../output/pdf/missing.pdf"),
         )
         for relative, target in cases:
             self.write(relative, f"[missing]({target})\n")

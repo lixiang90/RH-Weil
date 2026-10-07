@@ -13,6 +13,7 @@ PAPERS = (
     "rh-weil-structure-paper",
     "partial-weil-configurations-paper",
     "abel-mass-obstruction-paper",
+    "seven-eighths-boundary-improvement-paper",
 )
 
 
@@ -34,7 +35,10 @@ def check_layout(root: Path) -> list[str]:
                 path = path.with_suffix(".tex")
             if not path.is_file():
                 errors.append(f"Missing TeX input from {tex.name}: {target}")
-    for relative in ("README.md", "papers/README.md", "AUDIT_REPORT.md"):
+    for relative in (
+        "README.md", "papers/README.md", "AUDIT_REPORT.md",
+        "docs/history/README-progress-2026-10-07.md",
+    ):
         document = root / relative
         if not document.is_file():
             errors.append(f"Missing layout documentation: {relative}")

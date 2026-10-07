@@ -1,0 +1,1026 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[margin=26mm]{geometry}
+\usepackage{amsmath,amssymb,amsthm,mathtools}
+\usepackage{lmodern,microtype,booktabs,longtable,array}
+\usepackage[colorlinks=true,linkcolor=blue,citecolor=blue,urlcolor=blue]{hyperref}
+\hypersetup{pdftitle={A small improvement of the seven-eighths zero-free boundary from a compensated probe},pdfauthor={RH-Weil research project}}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{remark}[theorem]{Remark}
+\newcommand{\Rea}{\operatorname{Re}}
+\newcommand{\Ima}{\operatorname{Im}}
+\newcommand{\N}{\operatorname{N}}
+\newcommand{\eps}{\varepsilon}
+\newcommand{\sig}{\sigma_1}
+\newcommand{\bet}{\beta_*}
+\newcommand{\HH}{\mathfrak H}
+\newcommand{\LL}{L_F^S}
+\newcommand{\pos}[1]{\left(#1\right)_+}
+\newcommand{\src}[1]{\nolinkurl{#1}}
+\makeatletter
+\g@addto@macro\UrlBreaks{\do\a\do\b\do\c\do\d\do\e\do\f\do\g\do\h\do\i\do\j\do\k\do\l\do\m\do\n\do\o\do\p\do\q\do\r\do\s\do\t\do\u\do\v\do\w\do\x\do\y\do\z\do\0\do\1\do\2\do\3\do\4\do\5\do\6\do\7\do\8\do\9}
+\makeatother
+\title{A small improvement of the seven-eighths zero-free boundary\\from a compensated probe}
+\author{RH--Weil research project}
+\date{October 7, 2026\\[3pt]\small A proof relative to explicitly cited arithmetic and analytic inputs}
+\begin{document}
+\maketitle
+\begin{abstract}
+We give a parameter extension of the compensated-probe argument in the
+September 30, 2026 version of \emph{The Quasi-Riemann Hypothesis}.
+Relative to its specified generic arithmetic and analytic results and its
+finite-order Hecke seven-eighths theorem, we obtain the strict zero-free
+half-plane $\Rea s>69999/80000$ for finite-order Hecke $L$-functions over
+$\mathbb Q(\sqrt{-3})$, and hence for all Dirichlet $L$-functions.
+The total prime-slot length is increased from $1/6$ to
+$1/6+1/20000$. A retained positive loss in the reflected row energy is
+paid by the rescaling coefficients. We check the enlarged Euler domain,
+the actual detector capacities, and the joint conductor cost of all
+ramified errors. An exact continuous inequality gives a uniform central
+saving $307/11016000$. We then specify the order of all choices, close
+the height truncation, and use Mellin continuation for the full character
+family. The assertion permits the principal pole at $s=1$ and does not
+include the boundary line. This paper is a cited-input derivation;
+it is not an independent certification of the source or a Lean
+formalization of the improvement.
+\end{abstract}
+\tableofcontents
+
+\section{Statement, provenance, and imported results}
+\label{sec:inputs}
+Put $F=\mathbb Q(\sqrt{-3})$ and $q_a=\N(a)$, with the source convention
+for ideals, elements, ray representatives, and units. Characters are
+extended by zero on nonunits. The superscript $S$ deletes the finite
+Euler factors at the fixed set $S$. All assertions about a principal
+$L$-function allow its pole at $1$.
+
+Our source is the September 30 preprint \cite{OAI}, at commit
+\src{adc7f1241b42e322a6451854ab7e4b4c146bf78a}. Its canonical UTF-8
+SHA-256, after replacing CRLF and lone CR by LF, is recorded in
+Appendix~\ref{app:verification}. The line references below refer to that
+exact source, rather than to a moving branch.
+
+\begin{definition}[Imported input package $\mathcal R$]
+\label{def:R}
+The package $\mathcal R$ consists of the following results with their
+stated uniformities and hypotheses in \cite{OAI}: the coefficientwise
+probe and Poisson identities and local arithmetic tables; smooth
+separation, Gaussian annuli, reflection sectors and generic reflected
+energy; the generic additive Gram bound; the global and buffered
+reciprocal estimates, Hecke growth and functional equation; the
+detector witnesses, marked and plain moments, sixth-power inverse
+amplification, and uniform slot mesh; the fixed-ray prime asymptotic;
+and the source theorem for all primitive finite-order Hecke characters
+with strict boundary $7/8$.
+The locations and the uses of these inputs are given in
+Table~\ref{tab:inputs}. Their correctness is assumed here.
+\end{definition}
+
+\begin{theorem}[Boundary improvement relative to $\mathcal R$]
+\label{thm:main}
+Assume $\mathcal R$. For every finite-order Hecke character $\eta$ of
+$F$, including imprimitive characters,
+\[
+ L_F(s,\eta)\ne0\qquad\left(\Rea s>\frac{69999}{80000}\right).
+\]
+For every Dirichlet character $\chi$ the same assertion holds for
+$L(s,\chi)$, and in particular for $\zeta(s)$. The principal pole
+at $s=1$ is allowed. No assertion is made about zeros on the line
+$\Rea s=69999/80000$.
+\end{theorem}
+
+This is a change of $1/80000$ in the boundary of the cited theorem.
+The proof does not use a proportion of zeros on the critical line.
+It makes no claim about the Riemann hypothesis or the novelty of the
+generic inputs.
+
+\begingroup\small
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{.22\textwidth}>{\raggedright\arraybackslash}p{.25\textwidth}>{\raggedright\arraybackslash}p{.45\textwidth}@{}}
+\caption{Exact imported inputs and the new checks performed here.
+Source labels and line intervals refer to \cite{OAI}.}\label{tab:inputs}\\
+\toprule
+Input & Source location & Use and retained hypotheses\\
+\midrule
+\endfirsthead
+\toprule Input & Source location & Use and retained hypotheses\\ \midrule
+\endhead
+\bottomrule\endfoot
+Smooth calculus and Gaussian annuli &
+\src{lem:smooth-calculus}, \src{lem:gaussian-annular};
+1123--1209, 1288--1315 &
+Fixed finite-dimensional common Fourier profile, weighted seminorms,
+and whole annular tails; no restriction to slot length $1/6$.\\
+Reflection and energy &
+\src{lem:reflection-row-sectors}, \src{lem:reflected-energy};
+2470--2506, 7663--7804 &
+Actual row masks, powerful fixed parts, retained dual support and
+bounded logarithmic lengths. Section~\ref{sec:low} pays the changed loss.\\
+Additive Gram &
+\src{prop:probe-gram}; 8340--8364 &
+Actual ray/Gauss coefficients, fixed polynomial ranges $Q,Y'\ge1$,
+and $P_a=Y'^2/Q\ge1$.\\
+Physical high identity &
+\src{def:stage-high-data}; 5582--5649;
+local compensation 8707--9049 &
+An independently defined completed probe with finite compensation.
+Section~\ref{sec:euler}
+proves its new-domain correction without dividing by selected factors.\\
+Reciprocal and contours &
+400--502, 5672--5728, 5808--5896, 6021--6155 &
+Whole buffered bins, all-height outer tails, and fixed real boxes.
+No contour crosses a target zero.\\
+Principal and outer rows &
+6174--6301, 6342--6463, 9101--9195 &
+Same finite $S$, same principal normalizer; independent absolute bounds
+for small and large rows.\\
+Detectors and moments &
+\src{lem:detector-dyads}; 4385--4547;
+marked 9220--9269; inverse amplification 12362--12389;
+plain 12492--12578 &
+Actual witnesses, both common signs, allowed heights and capacities,
+and $\kappa\ge3/4$. Section~\ref{sec:count} checks each restriction.\\
+Actual slot counts &
+15015--15446 &
+Whole slots, natural coefficients, inducing-character exclusion,
+fixed finite presentation set, rounding, and common mesh.\\
+Bootstrap and transfer &
+16455--16463; 6705--6780 &
+Whole Hecke $7/8$ theorem used only to bound $\bet$ from above;
+quadratic transfer applied after the improved Hecke conclusion.\\
+Height and order &
+6520--6580, 16191--16453 &
+Internal derivative orders fixed before the external tail order;
+target-dependent height exponent chosen last.\\
+\end{longtable}
+\endgroup
+
+\section{The same compensated physical expression}
+\label{sec:physical}
+The arithmetic data $S,T,b_*,\xi$, completed-index convention $A=cn^3$,
+Gaussian test, ray calibration, and all zero-on-nonunit masks are
+those of the source. Write $I_\eta(X,Y,Z)$ for its completed probe
+(\src{eq:general-probe}), and $I_\eta^{[p\mid A]}$ for the same
+expression restricted to $p\mid A$. The completed sums are independently
+defined and absolutely convergent on the initial Mellin line; their
+outer annular sums and the compensation over prime tuples and subsets
+are finite. They are not defined by a high integral.
+
+For a fixed prime tuple the two operations in
+\src{eq:compensated-probe-definition} are the marked operation
+$\overline{\eta(p)}I_\eta^{[p\mid A]}(X,Y,Zq_p)$ and the rescaled
+operation $q_p^{-3/2}I_\eta(X/q_p,Y/q_p,Z)$, with a minus sign
+between them. Apply these operations in each of the disjoint slots,
+multiply by $W_i(q_p/P_i)$, and sum over the tuples. Denote the resulting
+finite combination by $I_{\eta,\mathrm{mod}}(Z)$. The inherited
+restrictions and calibration remain part of this definition.
+More explicitly, if $p_J=\prod_{i\in J}p_i$, $p_\varnothing=1$, and
+$I_{\eta;D}$ inserts $1_{D\mid cn^3}$ in the completed row, this is
+\begin{equation}\label{eq:physicalsum}
+\begin{split}
+ I_{\eta,\mathrm{mod}}(Z)
+ =\sum_{(p_i)}\prod_i W_i(q_{p_i}/P_i)
+ \sum_{J\subseteq\{1,\ldots,K\}}&
+ (-1)^{|J|}q_{p_J}^{-3/2}\overline{\eta(p_{J^c})}\\
+ &\cdot I_{\eta;p_{J^c}}(X/q_{p_J},Y/q_{p_J},Zq_{p_{J^c}}).
+\end{split}
+\end{equation}
+Every window stays at its original scale $P_i$, including when
+another slot changes the completed scale.
+
+We use the following fixed geometry:
+\begin{equation}\label{eq:geometry}
+\begin{gathered}
+ b=\frac18,\quad \ell=\frac{10003}{60000}=\frac16+\frac1{20000},
+ \quad l_x=\frac{1-\ell-b}{2}=\frac{42497}{120000},\\
+ l_y=\frac{1-\ell+b}{2}=\frac{57497}{120000},\quad
+ M=1-\ell,\quad h=1-l_x+\ell=\frac{32503}{40000},\\
+ X=Z^{l_x},\quad Y=Z^{l_y},\quad
+ \sig=\frac{69999}{80000},\qquad
+ C(s)=s+\frac{l_x}{2}-1+\frac h6=s-\frac{11}{16}.
+\end{gathered}
+\end{equation}
+In particular $C(\sig)=14999/80000$.
+Take a fixed even integer $K$, positive equal lengths $\ell_i=\ell/K$,
+and $P_i=Z^{\ell_i}$. Choose nonnegative nonzero smooth $W_i$ with
+compact support in the pairwise disjoint intervals
+\[
+ \left(1+\frac{2i-1}{2K+1},\,1+\frac{2i}{2K+1}\right)\subset(1,2).
+\]
+The slots are the allowed source prime representatives in $T$ with
+$q_p/P_i$ in these supports. Their disjointness makes every selected
+prime occur once.
+
+\section{The low bound at variable slot length}
+\label{sec:low}
+\begin{proposition}\label{prop:low}
+Under the generic low inputs in $\mathcal R$, for every fixed
+$1/6\le\ell\le1/5$, $b=1/8$, and the corresponding geometry above,
+\[
+ |I_{\eta,\mathrm{mod}}(Z)|
+ \ll_{\eta,\mathrm{fixed},\eps}
+ Z^{(1-\ell)/4-b/6+\eps}.
+\]
+The exponent loss $\eps>0$ can be prescribed before the target;
+constants and thresholds may depend on its fixed arithmetic data.
+\end{proposition}
+\begin{proof}
+Fix a rescaled subset $J$ and its prime tuple, and put
+$d_J=\sum_{i\in J}\ell_i$, $\ell'=\ell-d_J$, $M'=M-2d_J$.
+The norm ratio $r_J=q_{p_J}/Z^{d_J}$ lies in a fixed compact
+subinterval of $(0,\infty)$. The exact low separation has a common
+row ball
+\[
+ X'=XZ^{-d_J}/r_J,\quad Y'=YZ^{-d_J}/r_J,\quad
+ Q=q_{b_*}X'Y'\asymp Z^{M'}.
+\]
+All surviving marked slots are summed inside $B_m^J$ before the
+row norm is taken. The completed index remains $cn^3$, with weight
+$q_c^{-1/2}q_n^{-1}$, including permitted shared primes.
+
+Partition the Gaussian in $q_{cn^3}/Z^{1+\ell'}$ into whole annuli.
+On $\log(q_{cn^3}/Z^{1+\ell'})=k+O(1)$ the common profile is
+\[
+ \chi(\log x)\,
+ W_G\!\left(e^kx/\prod_i\varrho_i\right)\prod_i W_i(\varrho_i).
+\]
+Its weighted Fourier seminorms are summable over $k$. First use
+the absolute completed-sum bound and Gaussian decay to remove
+$|k|>\kappa_G\log Z+O(1)$ with arbitrary power saving.
+The retained norm exponent is
+$N_*=1+\ell'+\theta_N$,
+$|\theta_N|\le\kappa_G+O(1/\log Z)$.
+Fix this common Fourier density before separating rows or tuples.
+The separated slot coefficients retain their arithmetic phases,
+annular cutoffs and unit-modulus norm powers, so the generic
+reflected-energy lemma applies.
+
+Freeze a powerful row part of logarithmic length $O$ and an actual
+residual squarefree dyad of length $H$. The source sectors give
+\[
+ \Delta_H=M'-O-H\ge-\eps_Z,\quad
+ 2A_0\le O+\eps_Z,\quad N_0\le A_0,\quad z_a\le\ell',
+ \qquad \eps_Z=O_{\mathrm{fixed}}(1/\log Z).
+\]
+The dual length is
+$T_d=2H+2A_0+2z_a-1-\ell'-\theta_N-N_0-3B_0$.
+Since $M'+\ell'-1=-3d_J$,
+\begin{equation}\label{eq:dual}
+ T_d-(H-3d_J)
+ =H-M'+2A_0+2(z_a-\ell')-N_0-3B_0-\theta_N
+ \le2\eps_Z+|\theta_N|.
+\end{equation}
+This calculation retains the original support and shared $S$-primes.
+For completeness the imported energy expression, after counting
+the frozen parts once, is
+\[
+\begin{split}
+ s_{\mathrm{hyb}}&=\min\{v,z_a,(v+z_a)/3\},\qquad
+ y=v+3\ell_b+e_\lambda\le T_d+\tau_{\mathrm{ref}},\\
+ E_{\mathrm{ref}}&=O/2+\max(H,v+\ell_b)-S_0-B_0+z_a
+ -s_{\mathrm{hyb}}-\ell_b-2e_\lambda/3-(T_d-y)_+/2 .
+\end{split}
+\]
+Here $v,\ell_b$ are the nonnegative dual ideal lengths,
+$S_0,B_0,N_0,A_0$ are the frozen-part lengths of the source sectors,
+and a negative $e_\lambda$ is only $O(1/\log Z)$.
+The retained support and \eqref{eq:dual} imply
+$\max(H,v+\ell_b)=H+O(\tau_{\mathrm{ref}}+\kappa_G+\eps_Z)$.
+When $s_{\mathrm{hyb}}=z_a$, cancel $z_a-s_{\mathrm{hyb}}$ and
+discard the other nonpositive terms: this gives at most
+$M'-\Delta_H$ plus small losses.
+Otherwise $s_{\mathrm{hyb}}\ge v/2$, and
+\[
+ s_{\mathrm{hyb}}+\ell_b+2e_\lambda/3+(T_d-y)_+/2
+ \ge y/4+(T_d-y)_+/2-O(\eps_Z)\ge T_d/4-O(\eps_Z).
+\]
+The exact saving identity is
+\[
+\begin{split}
+ O/2+\Delta_H+S_0+B_0+T_d/4
+ ={}&\frac{2M'+2z_a-1-\ell'+2\Delta_H-\theta_N}{4}\\
+ &+\frac{2A_0-N_0+B_0+4S_0}{4}.
+\end{split}
+\]
+The second line is nonnegative. Using $z_a\le\ell'$ gives the
+second branch bound
+\[
+ M'+\frac{1+3\ell'-2M'-2\Delta_H+\theta_N}{4}
+       +O(\eps_{\mathrm{ref}}+\kappa_G+\eps_Z).
+\]
+Here $1+3\ell'-2M'=5\ell-1+d_J$.
+Both branches decrease with $\Delta_H$. Extract the kernel saving
+from the common profile before squaring or positive enlargement.
+Fourier Minkowski, the annular sum, and the finite sector/dyadic sums
+therefore give
+\begin{equation}\label{eq:Benergy}
+ \sum_{0<q_m\ll Q}|B_m^J|^2
+ \ll Z^{M'+\pos{(5\ell-1+d_J)/4}+\eps}.
+\end{equation}
+The powerful-part count is already included here. It must not be
+multiplied in a second time. Empty surviving slots lie in the first
+branch, apart from vanishing bounded logarithmic offsets.
+
+Throughout $1/6\le\ell\le1/5$ we have
+\[
+ M'\ge2/5,\quad l_x-d_J\ge11/80,\quad
+ l_y-d_J-11b/6\ge1/30.
+\]
+Thus $Q,Y'\ge1$ eventually and are in fixed polynomial ranges.
+Also $P_a=Y'^2/Q=q_{b_*}^{-1}Z^b\ge1$ and
+$P_a^2/Y'\ll P_a^{1/6}$. The generic additive Gram result yields
+\[
+ \sum_{q_m\ll Q}|A_m(Y')|^2
+ \ll (1+|\nu|)^{J_{\mathrm{Gr}}}(Q/Y')P_a^{1/6}Z^\eps.
+\]
+The original Mellin test absorbs this height power.
+Cauchy--Schwarz on the same ball, including its $Q^{-1/2}$
+normalization, bounds a fixed rescaled tuple by
+\[
+ (X')^{1/2}P_a^{1/12}
+ Z^{\pos{5\ell-1+d_J}/8+\eps}.
+\]
+There are at most $Z^{d_J+\eps}$ such tuples; their outer coefficients
+are $O(Z^{-3d_J/2})$, and shortening $X'$ contributes $Z^{-d_J/2}$.
+The total extra exponent is
+\[
+ -d_J+\frac{\pos{5\ell-1+d_J}}8\le-\frac{7d_J}{8}\le0,
+\]
+because $5\ell-1\le0$. This pays, rather than deletes, the positive
+loss in \eqref{eq:Benergy}. Sum the finitely many subsets to obtain
+$X^{1/2}Z^{b/12+\eps}=Z^{(1-\ell)/4-b/6+\eps}$.
+Choose the reflection, separation and annular losses within the
+prescribed $\eps$, then fix seminorm orders, and finally raise the
+threshold. All logarithmic multiplicities are absorbed at this last step.
+\end{proof}
+For \eqref{eq:geometry} the low exponent equals $C(\sig)$ exactly.
+
+\section{Euler corrections, contours, and the principal signal}
+\label{sec:euler}
+Let $V,W,D,P_p,P_p^*,H_p$ be the source local factors; $W$ here is a
+local Euler factor, distinct from the smooth slot windows. For a
+sixth-power-free physical row $u$, write $\chi_\bullet(u)$ for its
+source character presentation. More explicitly, with $Q=q_p$ and
+$j=v_p(u)\in\{0,\ldots,5\}$, put
+\[
+\begin{gathered}
+ \rho=\chi_p(u/p^j),\quad
+ a_p=\overline{\alpha(p)}^3\eta(p)^3,\quad
+ b_p=\overline{\alpha(p)}^2\eta(p)^2\overline{\chi_p(4)},\\
+ V=Q^{-6z},\quad R=a_p^2Q^{4-6s-6z},\quad
+ W_{\mathrm{loc}}=\rho Q^{-w},\quad
+ W=\chi_p(u)Q^{-w},\quad D=\eta(p)\overline{\chi_p(u)}Q^{-s}.
+\end{gathered}
+\]
+The source phases have modulus one and $b_p^3=a_p^2$.
+Its coefficientwise local table gives
+\[
+ \begin{split}
+ P_p^*&=\frac1{1-R}
+ \left\{\frac{R(1-Q^{-1})-\eta(p)(Q-1)Q^{-s-w}V^{1_{j\le1}}}
+ {1-V}+J_j\right\},\\
+ P_p&=(1-V)^{-1}+1_{j=0}\frac{W_{\mathrm{loc}}}{1-W_{\mathrm{loc}}}
+                 +P_p^*,\qquad
+ H_p=P_p\frac{(1-V)(1-W)}{1-D},
+ \end{split}
+\]
+where
+\[
+\begin{array}{c|l}
+j&J_j\\ \hline
+0&-\eta(p)\rho^{-1}Q^{-s}+W_{\mathrm{loc}}R\\
+1&\eta(p)Q^{-s-w}\\
+2&a_p\rho^{-3}Q^{3/2-3s}\\
+3&-\eta(p)b_p\rho^{-2}Q^{2-3s-w}+b_p^2\rho^{-4}Q^{2-4s}\\
+4&-\eta(p)a_p\rho^{-3}Q^{5/2-4s-w}\\
+5&-a_p^2Q^{3-6s}.
+\end{array}
+\]
+At $p\mid u$, $D=W=0$, whereas $W_{\mathrm{loc}}$ retains its phase.
+The exact
+local identity is
+\begin{equation}\label{eq:Hlocal}
+ H_p-1=
+ \frac{D(V+W-VW)-VW+(1-V)(1-W)E_p}{1-D},
+ \qquad E_p=P_p^*+D .
+\end{equation}
+In particular this expression has no $1-W$ denominator.
+Use the domains
+\[
+\begin{split}
+\mathcal D_1(\eps_0)=\{&s_r\ge51/100,\ z_r\ge17/50,\
+w_r\ge-1/100,\ s_r+w_r\ge1+\eps_0\},\\
+\mathcal D_2^*=\{&s_r\ge\sig,\ z_r\ge33/200,\ w_r\ge19/20\},
+\end{split}
+\]
+where subscripts $r$ denote real parts.
+The source local table gives, at good primes,
+$E_p\ll Q^{4-6s_r-6z_r+\theta}+Q^{1-s_r-w_r-6z_r}$,
+where $\theta=(-w_r)_+$ and $Q=q_p$. On $\mathcal D_2^*$,
+$\theta=0$.
+Substitution in \eqref{eq:Hlocal} gives on $\mathcal D_2^*$
+\[
+ H_p-1\ll Q^{-1-c_b},\qquad
+ c_b=\min(6\sig-401/100,\sig-3/50,47/50)=65199/80000.
+\]
+At ramified primes it gives
+$H_p-1\ll Q^{-c_r}$, where
+$c_r=\min(\sig-1/20,3\sig-3/2)=65999/80000$.
+On $\mathcal D_1(\eps_0)$ the corresponding exponents are
+$-1-\eps_H$ and $-\eps_H$, where
+$\eps_H=\min(\eps_0,1/50)>0$.
+Strict positive margins yield normal convergence on neighborhoods,
+uniform in all imaginary parts, with ramified finite product
+$q_u^\eps$.
+
+Define the selected local replacement by
+\[
+ G_p=
+ \frac{(\overline{\eta(p)}Q^s-Q^{-w})(1-V)(1-W)P_p^*
+       -Q^{-w}(1-VW)}{1-D}.
+\]
+Define the full correction by the finite sum
+\begin{equation}\label{eq:fulltuple}
+ \HH_{\eta,u,Z}=
+ \sum_{(p_i)}
+ \prod_i\{W_i(q_{p_i}/P_i)q_{p_i}^{z-1}G_{p_i}\}
+ \prod_{\substack{p\notin S\\p\notin\{p_1,\ldots,p_K\}}}H_p .
+\end{equation}
+This definition does not divide by $P_p$ or $H_p$.
+The local table bounds $G_p\ll Q^B$ on every fixed real box,
+uniformly in heights. Counting the tuples gives
+$\HH_{\eta,u,Z}\ll q_u^\eps Z^{B'}$, with $B'$ fixed before any
+external integration-by-parts order.
+
+On the absolute starting lines the exact identity
+\[
+ \overline{\eta(p)}Q^{s+z-1}P_p^*
+       -Q^{z-w-1}P_p
+ =\frac{1-D}{(1-V)(1-W)}Q^{z-1}G_p
+\]
+shows that the finite operation of Section~\ref{sec:physical}
+extracts the original scalar quotient, once per selected prime.
+Consequently it proves, for that independently defined physical sum,
+\begin{equation}\label{eq:highidentity}
+\begin{split}
+ I_{\eta,\mathrm{mod}}(Z)=\frac1{(2\pi i)^3}
+ \int_{(3)}\int_{(3)}\int_{(2)}
+ &\mathcal W
+ \sum_u^{(6)}q_u^{-z}\overline{\xi(u)}\\[-2pt]
+ &\frac{\zeta_F^S(6z)L^S(w,\chi_\bullet(u))}
+ {L^S(s,\eta\overline{\chi_\bullet(u)})}
+ \HH_{\eta,u,Z}(s,w,z)\,dz\,dw\,ds ,
+\end{split}
+\end{equation}
+where all physical row restrictions are retained, and
+\[
+ \mathcal W=X^{1/2-z}Z^{s+z-1}Y^{w-1}
+ e^{(s+z-1)^2}M(z)\widehat W_1(w).
+\]
+The source coefficientwise identity supplies absolute convergence
+on these starting lines. The new local estimates supply its required
+analytic domain and all-height majorant.
+
+\subsection{Principal normalization}
+Choose $P_0$, before choosing a target, so that
+$\exp(C_0\sum_{Q>P_0}Q^{-1-c_b})-1\le1/2$.
+Include these small primes in $S$. Enlarging $S$ later only shrinks
+this positive majorant. For $u=1$ the unselected product
+$H_\eta(s)=\prod_{p\notin S}H_p(s,1,1/6)$ is holomorphic on
+$\Rea s>\sig$ and $|H_\eta-1|\le1/2$ there.
+Only for this principal row may we now use $G_p/H_p$ throughout
+$\mathcal D_2^*$. The four local error powers are
+\[
+ -s_r,\quad-6z_r,\quad4-5s_r-6z_r,\quad1-w_r-6z_r.
+\]
+Their maxima on this domain are
+$-\sig,-99/100,-21839/16000,-94/100$, respectively. Thus
+$G_p/H_p=-1+O(Q^{-\sig})$.
+
+Let $S_i(Z)=\sum_p W_i(q_p/P_i)q_p^{-5/6}$ in the actual ray.
+The imported fixed-ray prime asymptotic gives
+$S_i\sim c_iP_i^{1/6}/\log P_i$, $c_i>0$.
+For our even $K$ set
+\[
+ A_T(Z)=(-1)^K Z^{-\ell/6}\prod_i S_i(Z).
+\]
+It is eventually nonzero, $A_T\asymp(\log Z)^{-K}$,
+and $A_T^{-1}\ll_\eps Z^\eps$.
+For every fixed $0<\mu<\sig\min_i\ell_i$,
+\begin{equation}\label{eq:principalfactor}
+ \HH_{\eta,1,Z}(s,1,1/6)
+ =H_\eta(s)Z^{\ell/6}A_T(Z)(1+R_{\eta,Z}(s)),
+ \qquad R_{\eta,Z}(s)\ll Z^{-\mu}.
+\end{equation}
+The bounds are uniform in heights on the global principal line.
+Put
+\[
+ c_S=\widehat W_1(1)M(1/6)
+       \frac{(\operatorname{Res}_{s=1}\zeta_F^S(s))^2}{6}>0.
+\]
+Moving the principal $w,z$ lines to $1+e,1/6+e$, then
+$w=19/20$ across $1$ and $z=33/200$ across $1/6$, stays in
+$\mathcal D_2^*$. Keep $s=\bet+e$ throughout these moves.
+The reciprocal is globally controlled there; it crosses no zero.
+Only the main double residue is moved right to $s=2$.
+Define
+\begin{equation}\label{eq:f}
+ f_\eta(Z)=\frac1{2\pi i}\int_{(2)}
+ Z^{C(s)}e^{(s-5/6)^2}\frac{H_\eta(s)}{\LL(s,\eta)}\,ds.
+\end{equation}
+If $P_\eta$ denotes the full principal row, the residual integrals,
+including full two- and three-dimensional tails, satisfy
+\begin{equation}\label{eq:principalerrors}
+\begin{split}
+ \left|P_\eta/(c_S A_T)-f_\eta\right|\ll {}&
+ Z^{C(\bet)+(1+h)e-m_w+\eps}
+ +Z^{C(\bet)+e-m_z+\eps}\\
+ &+Z^{C(\bet)+e-\mu+\eps},\\
+ m_w={57497}/{2400000},\qquad
+ m_z={32503}/{24000000}.
+\end{split}
+\end{equation}
+
+\subsection{Whole buffered bins and the outer rows}
+\label{sec:outer}
+Define
+\[
+ \bet=\sup\left(\{1/2\}\cup
+ \{\Rea\rho:\ L_F(\rho,\eta)=0,\ 1/2\le\Rea\rho\le1,\
+                   \eta\ \text{primitive of finite order}\}\right).
+\]
+Poles are excluded from this set. Assume for contradiction
+$\sig<\bet\le7/8$, with the upper bound supplied by $\mathcal R$.
+Use the original buffered-bin partition before moving
+any row contour. Its floor is $a=51/100$; elsewhere $a\le\bet$.
+At $z_0=17/50$ move the whole bin first to
+$s=\bet+20e$, $w=1-a-6e$. Remove the outer height box on this
+global line, then move the retained bin to $s=a+16e$.
+We have $s+w\ge1+10e$ and $s>a+6e$, so $\mathcal D_1(10e)$
+and the buffered reciprocal bound apply. The floor need not have
+a witness. Any pointwise amplitude or error partition is made
+after this whole-bin move. Discarded pieces and joins are
+$O_{\eta,N}(Z^{B_\eta}T_1^{-N})$ with $B_\eta$ fixed before $N$.
+
+Here are independent controls for the outer rows, needed to cover
+every physical row. Put $d_{\min}=1/100$. On the small-row lines
+$(s,w,z)=(\bet+e,1/2,z_0)$ use $\mathcal D_1(1/3)$:
+$\sig+1/2>1+1/3$. The old domain $\mathcal D_1(3/8)$ would be
+insufficient. The full local table gives $G_p=O(1)$ off the row
+and $G_p\ll Q^{1/2}$ on it. Thus each positive selected-slot sum
+is at most $q_u^\eps P_i^{z_0}$, without dividing by $H_p$.
+Hecke growth contributes $U^{3/5}$, row count $U$, and $q_u^{-z_0}$
+contributes $U^{-z_0}$, giving $U^{63/50}$.
+The exponent relative to $C(\bet)$ for $U\le Z^{d_{\min}}$ is at most
+\begin{equation}\label{eq:small}
+ h\frac{13}{75}-\frac{l_y}{2}+\frac{63}{50}d_{\min}
+ =-\frac{172249}{2000000}.
+\end{equation}
+For $U>Z^{h+\zeta}$ keep the full tuple and use absolute lines
+$(s,w,z)=(2,2,z_\infty)$, $z_\infty>2$. The bound is
+\begin{equation}\label{eq:large}
+ Z^{B_0+(h+\zeta)(1+\eps)-\zeta z_\infty+\eps},
+ \qquad B_0=\frac{132497}{80000}.
+\end{equation}
+For any fixed $\zeta>0$, choose $z_\infty$ sufficiently large
+before the target. It gives any prescribed fixed saving. These
+estimates retain all bounded units and the full absolute row tails.
+
+\section{Actual detector capacities and whole-slot counts}
+\label{sec:count}
+The plain moment input requires $3/4\le\kappa\le1$ and, if
+$\kappa<1$, $\bet\le(1+\kappa)/2$. Under the contradiction above
+we may fix $\kappa=3/4$. In general the admitted value would be
+$\max(3/4,2\bet-1)$, with excess
+$\max(\bet-7/8,0)$. Here that excess is zero.
+
+Write $\delta=2a-1$. For positive amplitude bins use the source bounds
+$|Q_i|\le P_i^{g_i+\vartheta}$ and, only if $g_i>0$,
+$|Q_i|\ge P_i^{g_i}$, with a prescribed small bin loss
+$\vartheta>0$.
+Set $g_i=0$ for error slots and for main slots with $|Q_i|\le1$;
+the latter need only an upper bound and request no positive slot.
+Absorb the preliminary bin losses separately, with
+$0\le g_i\le\delta/2$, and let
+$q=\sum_i\ell_i g_i/\ell\in[0,\delta/2]$ be their length-weighted
+mean; put $x=q/\delta\in[0,1/2]$.
+Thus a squared slot product has gain exponent $2q$.
+The inverse amplification is on the actual injective map
+$(u,a')\mapsto u(a')^6$, with conductor $\ll U$ and width one.
+It gives $e(r)=\max(1,(1+5r)/6)$, hence the long count
+\begin{equation}\label{eq:longcount}
+ L(t)=1-\delta+(5/6-\delta)(t-1).
+\end{equation}
+For an actual detector witness the imported dyadic construction gives
+\[
+ r+m\ge t-o(1),\quad r\le t+o(1),\quad
+ t-1/2-O(\eps)\le r,\quad 0\le m\le1/2+O(\eps),
+\]
+with $|M_r|^2\gg U^{\delta r-\eps}$ and
+$|S_m|^2\gg U^{\delta m-\eps}$.
+The two occurrences of $S_m$ in the plain argument give $|S_m|^4$.
+Its slot capacity is $(1-2m)/(6\kappa)$; inverse amplification
+has capacity $(1-r)/2$.
+
+In the inverse branch $r\ge r_*$, for a positive requested slot
+length $z=(1-r)/2-\nu_0$, decreased by a fixed $\nu_0>0$,
+the inverse capacity inequalities include
+\[
+ 1-r-2z\ge2\nu_0,\qquad
+ 3-2r-8z\ge8\nu_0+9/37-O(\eps).
+\]
+In the plain branch $r\le r_*$, use
+$z=(1-2m)/(6\kappa)-\nu_0$; its inequality is
+$1-2m-6\kappa z\ge6\kappa\nu_0$.
+The ideal short exponents at $\kappa=3/4$ are
+\[
+ A_I(r)=1-\delta[x+(1-x)r],\qquad
+ S_t(r)=1-\delta[4x/9+(2-8x/9)(t-r)].
+\]
+Set
+\begin{equation}\label{eq:DP}
+ D_x=3-17x/9,\quad P_x=(2-8x/9)(1-x),\quad
+ J_x=(5/6-\delta)D_x+\delta P_x.
+\end{equation}
+Their crossing is
+$r_*=[(2-8x/9)t-5x/9]/D_x$ and gives
+\[
+ R_{\mathrm{short}}=1-\delta+
+          \delta(P_x/D_x)(3/2-t).
+\]
+On $1\le t\le3/2$, $r_*\ge23/37$,
+$1/3\le t-r_*\le1/2$, and $r_*(3/2)=1$.
+The maximal inverse and plain capacities are respectively
+$7/37$ and $2/27$. Near saturated $r\ge1$ use amplification;
+near $m=1/2$ use the zero-slot plain moment. A capacity at most
+$\nu_0$ costs at most $2\delta\nu_0$ or $6\delta\nu_0$,
+respectively, in the corresponding count.
+
+The actual normalized prime factors are
+\begin{equation}\label{eq:Qi}
+ Q_i(u;z)=P_i^{-1/2}
+  \sum_{p\in\mathcal P_i(Z)}
+  \overline{\chi_p(u)}W_i(q_p/P_i)(q_p/P_i)^{z-1}.
+\end{equation}
+Primes dividing $u$ have zero character value. The fixed presentation
+is $\psi=\nu\overline{\chi_\bullet(u)}$, with
+$\nu\in\Theta=\langle\eta,\widehat T\rangle$, a fixed finite group
+for the target. Its row-independent prime coefficients are
+$\overline{\nu(p)}1_T=|T|^{-1}\sum_{\theta\in\widehat T}
+(\overline{\nu}\theta)(p)$, a finite combination of members of $\Theta$.
+In a plain moment, conjugate both witnesses
+and all selected factors; the coefficients become $\nu(p)1_T$.
+The supports and masks are unchanged.
+
+The source inducing-character exclusion also remains valid:
+at a prime with sixth-free ramification label $j=1,\ldots,5$,
+the local order $6/\gcd(6,j)>1$ cannot be cancelled by an unramified
+fixed presentation. The remaining $S$-supported units form a finite
+set, eventually outside selected rows $U\ge Z^{1/2}$; outer estimates
+retain them.
+
+For $U=Z^d$ the whole-slot lengths are $w_i=\ell_i/d$.
+Greedy selection of full positive slots loses at most one fraction,
+so its gain satisfies
+$|\prod Q_i|^2\ge U^{2qz-\delta\max_iw_i}$.
+If the positive supply is insufficient, taking it all still gives
+gain at least $qz$. For the selected range $d\ge1/2$,
+$w_i\le2\ell_i$. There is strict supply:
+\[
+ \frac{\ell}{h}-\frac7{37}=\frac{57659}{3607833}>0,\qquad
+ 0<\zeta<5\ell-h=\frac{2521}{120000}
+ \ \Longrightarrow\ \frac{\ell}{h+\zeta}>\frac15>\frac7{37}.
+\]
+The latter gap is $2/185$. Choose the uniform plain-moment mesh
+before $K$, and then fix even $K$ with
+$2\ell/K<\min(\text{mesh},\text{rounding allowance},1/185)$.
+The actual $w_i$ are smaller than this mesh, and every physical
+slot norm is at most $2U^{\mathrm{mesh}}$.
+The plain moment's internal pool starts at
+$U^{\mathrm{allowed\ width}/3}/2$.
+Choose $\mathrm{mesh}<\mathrm{allowed\ width}/6$, giving a strict
+exponent gap and eventual disjointness from that pool.
+Annular offsets are $O_K(1/\log U)$
+and enter only after all strict margins have been fixed.
+
+The admitted marked, inverse and plain moments now count the
+actual rows, with the original witnesses and whole selected slots:
+\[
+ \#\mathcal B\ll
+ U^{\max(R_{\mathrm{short}},L(t))+\eps}(1+T_1)^A.
+\]
+Take
+\begin{equation}\label{eq:R}
+ t=1+\frac{\delta P_x}{2J_x},\qquad
+ R_*=1-\delta+
+      \frac{(5/6-\delta)\delta P_x}{2J_x}.
+\end{equation}
+Here $35/54\le J_x\le5/2$, $D_x\ge37/18$, $P_x\ge7/9$,
+and $1<t<3/2$. This balances the two counts and proves
+$\#\mathcal B\ll U^{R_*+\eps}(1+T_1)^A$.
+The no-slot choice $t=1$ instead gives exponent $1-2\delta/3$.
+The floor uses the trivial exponent $1$, without an invented witness.
+
+\section{Joint errors and a continuous high-side saving}
+\label{sec:high}
+On the retained dynamic line
+$(s,w,z)=(a+16e,1-a-6e,z_0)$,
+the local product satisfies good/ramified bounds
+$Q^{-1-10e}$ and $Q^{-10e}$.
+After fixing $e$, enlarge the target-independent small-prime cutoff.
+Only on this dynamic line may we factor by $H_p$ and expand
+\[
+ \HH=\mathcal H_{\eta,u}
+       \sum_I\prod_{i\in I}D_i\prod_{i\notin I}
+                       (-P_i^{z-1/2}Q_i),
+\]
+where $D_i$ denotes the local error sum. The global contour
+argument used the full expression \eqref{eq:fulltuple}.
+Off the row its four error exponents are
+$-a-4e,-2.04+12e,1.96-5a-68e,a-2.04+12e$,
+all at most $-0.51$ for sufficiently small $e$.
+At a ramified prime the normalized table has, at $e=0$, powers
+\[
+ a-2,\quad 1/2-2a,\quad (-a,1-3a),\quad
+ 1/2-2a,\quad 2-5a ,
+\]
+with $e$-coefficients $6,-32,(-26,-48),-42,-80$.
+These are strictly less than $-1/2$, except for the strict
+$j\ge2$ term whose bound is $Q^{-w_r}$.
+
+All such strict terms must share one conductor budget.
+For the entire triangle-expanded set of distinct strict primes,
+the primitive conductor satisfies
+$q_{\mathfrak f_u}\ll_S q_u\prod_p Q_p^{-(j_p-1)}$.
+Apply the numerator functional equation once, with
+$A^*=1/2-w_r=a-1/2+6e$. Its reflected primitive value is at
+$a+6e$ and is covered by the buffered reciprocal control,
+including the conjugate presentation. Deleted factors cost
+$U^{6e+\eps}$. Each strict prime then contributes at most
+\[
+ Q_p^{z_0-w_r-(j_p-1)A^*}\le Q_p^{z_0-1/2},
+ \qquad j_p\ge2.
+\]
+Restoring its deleted strict factor costs $1$.
+Consequently, for every error subset $I$, including the empty one,
+\[
+ \left|L^S(w,\chi_\bullet(u))\prod_{i\in I}D_i\right|
+ \ll U^{\delta/2+O(e)+\eps}(1+T_1)^A
+       \prod_{i\in I}P_i^{z_0-1/2+O(e)+\eps}.
+\]
+Assign gain $g_i=0$ to errors and $0\le g_i\le\delta/2$ to
+main factors, and let $q=\sum_i\ell_i g_i/\ell$.
+The joint pointwise exponent is therefore
+$U^{\delta/2+\mathrm{loss}}Z^{\ell(z_0-1/2)+q\ell+\mathrm{loss}}$.
+The count of Section~\ref{sec:count} uses this same $q$ over
+all slots. No second conductor saving is charged.
+
+After the source contour accounting, the exponent relative to
+$C(\sigma)$, before small losses and height powers, is
+\begin{equation}\label{eq:E}
+ E_\sigma(d)=K_\sigma+(1/2+\ell)\delta+\ell q
+       -h(1-R)+(d-h)(R+\delta/2-z_0),
+ \qquad K_\sigma=2/3+\ell+b/6-\sigma .
+\end{equation}
+Equivalently the unfactored accounting is
+$a-\sigma+h(z_0-1/6)-a l_y-\ell/2+q\ell+
+d(R+\delta/2-z_0)$.
+The contour's explicit additional loss is
+$(16-6l_y)e+(1+d)\eps_c+d\eps_d+\eps_p$,
+besides previously fixed count, normalization and height losses.
+
+\begin{lemma}[Continuous exact certificate]\label{lem:certificate}
+At the geometry \eqref{eq:geometry}, with $R=R_*$ and
+$q=\delta x$, $0\le x\le1/2$, $1/50\le\delta\le3/4$,
+\[
+ E_{\sig}(h)\le-\frac{307}{11016000}=:-m_{\mathrm{ad}}.
+\]
+\end{lemma}
+\begin{proof}
+First set $\ell_0=1/6$, $\sigma_0=7/8$, $h_0=13/16$,
+and denote the endpoint exponent by $E_0$. Put
+$y=1/2-x$, $v=51+41y$, and use $J_x$ of \eqref{eq:DP}.
+Direct expansion gives the polynomial identity
+\begin{align*}
+ 10368vJ_x(-E_0)
+ ={}&(3+5y)\{(4v\delta-79)^2+49\}\\
+ &+4y\{4v\delta[(1+3y)(15+32y)\delta+9-13y]
+                       +265+3485y\}.
+\end{align*}
+Every term is nonnegative for $0\le y\le1/2$ and
+$0\le\delta\le3/4$, since $9-13y\ge5/2$.
+Also $v\le17(3+5y)$ and $J_x\le5/2$, hence
+$-E_0\ge49/440640$.
+The inequality $3P_x\le2D_x$ implies $R_*\le1-2\delta/3$.
+Along $\sigma(\ell)=11/12-\ell/4$ one obtains exactly
+\[
+ E_{\sigma(\ell_0+t)}(h_0+3t/2)-E_0
+ =t(-1/4+\delta+q+3R_*/2)\le5t/3.
+\]
+For $t=1/20000$ subtraction yields
+$49/440640-1/12000=307/11016000$.
+This already includes the change of reference exponent $C(\sigma)$;
+no further deduction of $1/80000$ is appropriate.
+\end{proof}
+
+For $1/2\le d\le h$, the slope in \eqref{eq:E} is positive,
+so the endpoint controls the whole interval.
+The floor, with $\delta=1/50$, $R=1$, $q\le1/100$,
+has $E_{\sig}(h)\le-4327/750000$.
+For $d_{\min}\le d\le1/2$ the common no-slot bound
+$R=76/75-2\delta/3$ covers the floor too. Its $d$ slope is
+$101/150-\delta/6>0$; the geometry variation at fixed $d$
+has derivative at most $13/50+\delta/4+q\le177/200$.
+Direct substitution gives the uniform bound
+$E_{\sig}(d)\le-120907/36000000$.
+Choose
+\begin{equation}\label{eq:zeta}
+ \zeta=m_{\mathrm{ad}}/32=307/352512000.
+\end{equation}
+It satisfies the supply restriction in Section~\ref{sec:count}.
+The slope is at most $2$, so extending to $h+\zeta$ costs at
+most $m_{\mathrm{ad}}/16$ and leaves
+$307/11750400$.
+Relative to $C(\bet)$ all these exponents decrease further by
+$\Delta_1=\bet-\sig$.
+Together with \eqref{eq:small} and \eqref{eq:large},
+these estimates cover every nonprincipal physical dyad.
+
+\section{Parameter order, height closure, and continuation}
+\label{sec:closure}
+\begin{proof}[Proof of Theorem~\ref{thm:main}]
+Under the contradiction $\sig<\bet\le7/8$, fix
+$\Delta_1=\bet-\sig>0$.
+All real exponents below are fixed before the target character.
+First prescribe the low and inverse-normalizer losses so their sum
+is at most $\Delta_1/2$. Proposition~\ref{prop:low} then gives, for
+\[
+ J_\eta(Z)=I_{\eta,\mathrm{mod}}(Z)/(c_S A_T(Z)),
+ \qquad \omega=\Delta_1/2,
+\]
+the bound $|J_\eta(Z)|\ll_\eta Z^{C(\sig)+\omega}$.
+
+For the high side first choose moment losses, strict capacity
+decrements, the uniform plain mesh and rounding allowances within
+small fixed portions of $m_{\mathrm{ad}}$. Next choose the fixed
+even $K$ as in Section~\ref{sec:count}, then the windows. Only now put
+$\mu=\sig\ell/(2K)>0$. Choose amplitude widths and preliminary
+prime losses after $K$, and choose $e>0$ respecting the detector's
+bounded presaturation ranges and all local domains.
+The total central real, dyadic, count and normalizer losses are
+less than $m_{\mathrm{ad}}/4$.
+Make the principal losses satisfy
+\[
+ (1+h)e+\eps_{\mathrm{pr}}<m_w/4,\quad
+ e+\eps_{\mathrm{pr}}<m_z/4,\quad
+ e+\eps_{\mathrm{pr}}<\mu/4.
+\]
+Fix \eqref{eq:zeta}, then $z_\infty$ in \eqref{eq:large};
+choose the small-row losses below half the margin in \eqref{eq:small}.
+The remaining central saving is at least $m_{\mathrm{ad}}/2$.
+Let
+\[
+ m_0=\min(m_{\mathrm{ad}},m_w,m_z,\mu,172249/2000000),
+ \qquad m=m_0/4>0.
+\]
+All ranges now retain at least $m_0/2$. The earlier mesh was paid
+by $m_{\mathrm{ad}}$, and is not reselected using the smaller,
+$K$-dependent $\mu$. This avoids a circular order of choices.
+
+Choose a target $\eta$, fix its final arithmetic data and $S$,
+and then fix all internal moment, Sobolev and seminorm orders.
+The same $S$ is used in every physical sum, identity, calibration,
+$c_S$, $A_T$, $H_\eta$ and $f_\eta$.
+The preceding estimates give finite exponents $A_\eta,B_\eta$,
+independent of any later external tail order $N$, such that
+\begin{equation}\label{eq:highestimate}
+ |J_\eta-f_\eta|
+ \ll_{\eta,N} Z^{C(\bet)-m}(1+T_1)^{A_\eta}
+                  +Z^{B_\eta}T_1^{-N}.
+\end{equation}
+The physical $\Ima z$, detector witnesses and prime frequencies use
+the original fixed matrix's common cumulative $T_1/2$ allocation.
+They do not get separate newly enlarged buffers.
+
+Let $\eps_{\mathrm{ht}}>0$ be the minimum of the finitely many
+specified detector height allowances, and let
+$A_{\mathrm{ht},\eta}\le A_\eta$ dominate their powers. Set
+\[
+ \tau_{0,\eta}=
+ \frac{d_{\min}\eps_{\mathrm{ht}}}{20(1+A_{\mathrm{ht},\eta})}.
+\]
+For $T_1=Z^\tau$ with
+$0<\tau\le\min(d_{\min}/100,\tau_{0,\eta})$ and
+$U\ge Z^{d_{\min}}$, we have eventually
+$T_1\le U^{1/100}$ and
+$(1+T_1)^{A_{\mathrm{ht},\eta}}\le U^{\eps_{\mathrm{ht}}/10}$.
+All literal detector height hypotheses thus hold; their crude
+$U^{-189/100+o(1)}T_1^2$ error tends to zero.
+Small and absolute large rows do not need this buffered cutoff.
+Increasing $N$ in \eqref{eq:highestimate} changes only external
+test seminorms, not internal orders or the real powers.
+
+Now choose
+$0<\tau_\eta\le\min(d_{\min}/100,\tau_{0,\eta},
+m/[4(A_\eta+1)])$, then an integer $N_\eta$ with
+$B_\eta-N_\eta\tau_\eta<C(\bet)-m/2$, and finally the threshold.
+It follows that
+\[
+ |J_\eta-f_\eta|\ll_\eta Z^{C(\bet)-\sigma_{\mathrm{hi}}},
+ \qquad \sigma_{\mathrm{hi}}=m/2.
+\]
+Although $\tau_\eta,N_\eta$ and constants depend on the target,
+$\omega,\sigma_{\mathrm{hi}}$ do not. Neither $J_\eta$ nor
+$f_\eta$ contains $T_1$ in its definition.
+With $\eps_*=\min(\Delta_1/2,\sigma_{\mathrm{hi}})>0$, this gives
+$f_\eta(Z)\ll_\eta Z^{C(\bet)-\eps_*}$ at infinity.
+At zero, move \eqref{eq:f} right to any fixed $B>2$.
+The Gaussian and the absolutely convergent reciprocal Euler product
+give $f_\eta(Z)\ll_{\eta,B} Z^{B-11/16}$ for $0<Z\le1$.
+Consequently
+\[
+ F_\eta(s)=\int_0^\infty f_\eta(Z)Z^{-C(s)}\,\frac{dZ}{Z}
+\]
+is locally uniformly convergent and holomorphic for
+$\Rea s>\bet-\eps_*$.
+Writing $Z=e^u$, Fourier inversion on $\Rea s=2$ identifies it with
+$e^{(s-5/6)^2}H_\eta(s)/\LL(s,\eta)$.
+The established integrability justifies the inversion.
+The identity theorem extends this identity to $\Rea s>1$.
+
+Since $\bet-\eps_*>\sig$ and $|H_\eta|\ge1/2$,
+$e^{-(s-5/6)^2}F_\eta/H_\eta$ is a holomorphic continuation of
+$1/\LL(s,\eta)$ to $\Rea s>\bet-\eps_*$.
+The definition of the supremum supplies some target with a zero
+whose real part exceeds $\bet-\eps_*$; attainment of $\bet$ is
+unnecessary. Its reciprocal has a pole, a contradiction.
+The deleted finite Euler factors are nonzero for $\Rea s>0$.
+Thus $\bet\le\sig$, proving the primitive Hecke assertion and,
+by restoring finite Euler factors, the imprimitive assertion.
+
+Finally the imported quadratic transfer gives
+\[
+ L_F^S(s,\chi\circ\N)
+     =L^S(s,\chi)L^S(s,\chi\chi_{-3}).
+\]
+In $0<\Rea s<1$ both Dirichlet factors are holomorphic, so their
+zeros cannot be cancelled by poles. Above $1$ their Euler products
+are nonzero. At $1+it$, $t\ne0$, the same product excludes zeros.
+At $1$ the only possible pole-zero pairing is between the principal
+character and $\chi_{-3}$, but
+$L(1,\chi_{-3})=\pi/(3\sqrt3)>0$.
+This proves the stated Dirichlet conclusion, including zeta.
+\end{proof}
+
+\clearpage
+\appendix
+\section{Verification and reproducibility}
+\label{app:verification}
+The derivation was developed in repository notes 441--445
+\cite{Project}. The exact audit
+\src{scripts/hybrid_high_continuation_exact_audit.py}
+uses rational arithmetic for the geometry, Euler margins,
+capacity supply, all physical row ranges and the continuous
+completed-square identity. Its output is
+\src{output/hybrid-high-continuation-exact-audit.json}.
+The polynomial identity in Lemma~\ref{lem:certificate}, rather than
+a grid sample, proves the continuous central inequality.
+The audit also checks 16,728 finite frequency-allocation cases.
+These calculations check the stated algebra and bookkeeping;
+they do not certify the imported analytic theorems.
+
+The pinned source canonical SHA-256 is
+\begin{center}\small\ttfamily
+42a5ee0febca59fd1def55cfd6c6808c322ef\\
+4237d7726303ea52f711deac6a3 .
+\end{center}
+The research checkpoint for notes 441--445 is
+\src{96fcb27a0b8788ad8a346238843906bce0285479}.
+Independent source-reading reviews and the final paper build
+manifest are stored in \src{reviews/2026-10-07/}.
+The manifest binds the final source, PDF and review hashes.
+
+No external Lean elaboration, kernel build, or Comparator run was
+performed for this improvement. The source's generic results and
+its whole Hecke seven-eighths theorem are explicit imported inputs.
+Independent verification of that package and a formalization of
+the present extension remain separate tasks. This paper confines
+its mathematical assertion to Theorem~\ref{thm:main}.
+
+\begin{thebibliography}{9}
+\bibitem{OAI}
+OpenAI, \emph{The Quasi-Riemann Hypothesis},
+September 30, 2026 version, source at commit
+\src{adc7f1241b42e322a6451854ab7e4b4c146bf78a},
+\href{https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/The-Quasi-Riemann-Hypothesis-September-30-2026/build/paper.tex}{pinned source}.
+\bibitem{Project}
+RH--Weil research project, \emph{Variable-slot low bound, shared
+contours, actual detector capacities, joint errors, and family
+continuation}, notes 441--445 and their independent reviews,
+October 7, 2026, checkpoint
+\href{https://github.com/lixiang90/RH-Weil/tree/96fcb27a0b8788ad8a346238843906bce0285479}{96fcb27a0b8788ad8a346238843906bce0285479}.
+\end{thebibliography}
+\end{document}

@@ -1,0 +1,123 @@
+{
+  "date": "2026-10-07",
+  "paper_title": "A small improvement of the seven-eighths zero-free boundary from a compensated probe",
+  "result": {
+    "strict_boundary": "69999/80000",
+    "shift_from_seven_eighths": "1/80000",
+    "scope": "Finite-order Hecke characters over Q(sqrt(-3)); all Dirichlet characters and zeta; principal pole at 1 allowed; boundary line excluded.",
+    "status": "Cited-input derivation relative to the explicit imported package R; not an independent verification of R, RH, or a new Lean kernel certificate."
+  },
+  "research_checkpoint": "96fcb27a0b8788ad8a346238843906bce0285479",
+  "imported_source": {
+    "repository": "https://github.com/openai/math",
+    "commit": "adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+    "path": "preprints/The-Quasi-Riemann-Hypothesis-September-30-2026/build/paper.tex",
+    "sha256_canonical_lf": "42a5ee0febca59fd1def55cfd6c6808c322ef4237d7726303ea52f711deac6a3",
+    "read_only": true,
+    "worktree_clean_at_delivery": true
+  },
+  "tex": {
+    "path": "papers/seven-eighths-boundary-improvement-paper.tex",
+    "sha256_canonical_lf": "92ba93da7cc568579b0b982bcd712e1382af749d05460c1fa4c8b25064df66d6",
+    "canonical_utf8_bytes": 41612
+  },
+  "pdf": {
+    "path": "output/pdf/seven-eighths-boundary-improvement-paper.pdf",
+    "sha256": "1604c74dfa37ab576ea8d861604cffa49bb7611c79d34d5d46234d7097d8673f",
+    "bytes": 457325,
+    "pages": 13,
+    "page_format": "A4"
+  },
+  "independent_mathematical_reviews": [
+    {
+      "path": "reviews/2026-10-07/69999-paper-review-radial.md",
+      "sha256_canonical_lf": "caea96fd3fe694d4c110dcc4b53384f28aabb90cd323e372711e8a5574c58bf4",
+      "canonical_utf8_bytes": 14235
+    },
+    {
+      "path": "reviews/2026-10-07/69999-paper-review-twisted.md",
+      "sha256_canonical_lf": "77800f592dbf60c91a5151282686cbe732907f52682ba97ac8710929cf688db0",
+      "canonical_utf8_bytes": 10981
+    }
+  ],
+  "build_and_layout_review": {
+    "path": "reviews/2026-10-07/69999-paper-build-and-layout-review.md",
+    "sha256_canonical_lf": "d24187183339a83d6f7e563e019c7fc04444b04033099f7314c6d07c24ba22ea",
+    "canonical_utf8_bytes": 3183
+  },
+  "compilation": {
+    "built_in_editor_open_requested": true,
+    "built_in_compile_attempts": 1,
+    "built_in_status": "compile-failed: Unable to find standard directories for platform",
+    "fallback": "Preinstalled MiKTeX pdfLaTeX 1.40.25 (MiKTeX 23.5)",
+    "final_stable_passes": 2,
+    "final_exit_codes": [
+      0,
+      0
+    ],
+    "final_log_flags": [],
+    "command_from_repository_root": "pdflatex -interaction=nonstopmode -halt-on-error -output-directory=output/pdf papers/seven-eighths-boundary-improvement-paper.tex",
+    "pdf_bytes_may_change_due_to_build_metadata": true,
+    "new_dependencies_installed": false
+  },
+  "visual_qa": {
+    "all_pages_rendered": 13,
+    "all_page_layouts_inspected": true,
+    "renderer": "pdftoppm -r 100 -png",
+    "scratch_directory": "tmp/pdfs/69999-paper-qa/",
+    "enlarged_checks": [
+      4,
+      10,
+      12,
+      13
+    ],
+    "clipping_or_overlap_observed": false,
+    "unresolved_pdf_references": 0
+  },
+  "exact_audit": {
+    "script": {
+      "path": "scripts/hybrid_high_continuation_exact_audit.py",
+      "sha256_canonical_lf": "7a7bd74bc8fb41c88b06b2736ed8774f3e9ec4a175feb96768a24503ecf8511c",
+      "canonical_utf8_bytes": 7699
+    },
+    "report": {
+      "path": "output/hybrid-high-continuation-exact-audit.json",
+      "sha256_canonical_lf": "6058c87103aee773ca7198256aab693bffa14b5eaa68d880f4a0478c5be5b8f7",
+      "canonical_utf8_bytes": 1296
+    },
+    "exit_code": 0,
+    "continuous_identity_nonzero_coefficients": 12,
+    "finite_frequency_cases": 16728,
+    "scope": "Exact displayed algebra and finite models only; imported analytic hypotheses, physical identities, infinite contours, and external Lean are not certified."
+  },
+  "readme_migration": {
+    "new_introduction": {
+      "path": "README.md",
+      "sha256_canonical_lf": "db157d9810b1bfa5c528cb7572a0635b480c536cfc3d8b30836e6cb4d4cc7bb9",
+      "canonical_utf8_bytes": 7027
+    },
+    "history": {
+      "path": "docs/history/README-progress-2026-10-07.md",
+      "sha256_canonical_lf": "9441481d4e59cecebc5dcef1170805314ffebaef0ffe44578043c05de3303b57",
+      "canonical_utf8_bytes": 256678
+    },
+    "review": {
+      "path": "reviews/2026-10-07/readme-history-migration-review.md",
+      "sha256_canonical_lf": "264519ad1b7b4c3e013b7a8453d2da2161ad894fdcc426d5d5c3a4586dfc645f",
+      "canonical_utf8_bytes": 5167
+    },
+    "original_readme_sha256_canonical_lf": "126025d1fbe8527cd8e028256dc6bccf78bf80b3242998ab7fee1ff77b64303f",
+    "complete_content_preserved_except_relocated_links": true,
+    "original_lines": 1435,
+    "introduction_lines": 74,
+    "local_links_checked": 572
+  },
+  "layout_validation": {
+    "check_repo_layout_exit_code": 0,
+    "existing_regression_tests": 12,
+    "all_passed": true,
+    "git_diff_check_passed": true
+  },
+  "other_papers_recompiled": false,
+  "external_lean_build_or_comparator_run": false
+}

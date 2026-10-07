@@ -1,5 +1,17 @@
 # 持续GOAL执行账本：20260909版重启
 
+## 2026-10-07：69999/80000 正式论文与公开首页整理
+
+按用户要求把 441–445 的引用证明整理为独立正式论文，
+源文件见 [papers/seven-eighths-boundary-improvement-paper.tex](../papers/seven-eighths-boundary-improvement-paper.tex)，
+PDF、最终哈希、编译及独立审查记录由 [构建清单](../reviews/2026-10-07/69999-paper-build-manifest.json) 固定。
+范围仍是相对于明确原通用 [R] 与全 Hecke 7/8 结论的纸面推导，不新增外部 Lean 认证。
+
+公开首页改为研究问题、方法、成果、证据标准和使用入口；
+原 README 完整记录迁入 [历史快照](../docs/history/README-progress-2026-10-07.md)，
+保留全部正文并修正相对链接。当前研究 Goal 保持 active；
+更大槽和比例研究另行保存，不混入本次指定边界的论文。
+
 ## 2026-10-07：442–446实际high、全族引用边界与比例算术接口
 
 从已推送d9d80d0继续。442重放新sigma1的完整same-source身份、Euler域、principal/whole-bin/outer轮廓；
