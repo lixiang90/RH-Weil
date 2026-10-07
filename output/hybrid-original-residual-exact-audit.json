@@ -1,0 +1,612 @@
+{
+  "date": "2026-10-07",
+  "base_repository_commit": "e8e6bb68463e31a7d28349364926f9abb9ead927",
+  "scope": "exact finite arithmetic and final-source review bindings; not an analytic proof kernel",
+  "new_actual_proportion": false,
+  "new_zero_free_boundary": false,
+  "new_paper": false,
+  "unchanged_sigma_under_stated_R": "0.87495701942009894612860385056...",
+  "previous_checkpoint_checked": "PASS: exact conjugation example, 50 finite shift models, rational budgets and preserved checkpoint",
+  "finite_certificate": {
+    "flat_diagonal_and_low_fourth": {
+      "S_high": "19/480",
+      "S_low": "7/240",
+      "C_high_low": "23/960",
+      "low_fourth": "19/240",
+      "low_residual_variance": "1/20"
+    },
+    "high_weight_commutator_written_proof_constant": "41/10080",
+    "PSD_variance_necessary_lower_bound": "41/15120",
+    "weaker_trace_dependent_PSD_variance_lower_bound": "33479/15482880",
+    "sharp_rowwise_SOS_identity_verified": true,
+    "additionally_excluded_q": "1/400",
+    "excluded_counterfactual_q": "1/1600",
+    "scalar_budget_necessary_lower_comparison": "747/2000",
+    "centered_gram_diagnostic_not_an_actual_matrix": {
+      "q": "41/15120",
+      "c": "1/30",
+      "k": "0",
+      "radicand": "923/29030400",
+      "positive_gap_to_one_third_divided_by_four": "359/120960",
+      "strict_squared_margin": "336311/14631321600"
+    },
+    "joint_candidate_unproved_arithmetic": {
+      "q_definition": "||H^2 - W||_HS^2 / d",
+      "k_definition": "||[H,L]||_HS^2 / d",
+      "limsup_q_required": "1/350",
+      "liminf_k_required": "1/40",
+      "whole_fourth_conditional_upper": "81/250",
+      "simple_proportion_conditional_lower": "1000/1479",
+      "c_enclosing_interval": [
+        "0",
+        "863/24000"
+      ],
+      "remaining_square_root_margin": "163/14000",
+      "polynomial_power_coefficients_descending": [
+        "320",
+        "56/3",
+        "-1257437/504000",
+        "717527777/14112000000"
+      ],
+      "minimum_bernstein_coefficient": "665078890949/6502809600000000",
+      "bernstein_intervals": [
+        {
+          "lo": "0",
+          "hi": "863/768000",
+          "cubic_bernstein_coefficients": [
+            "717527777/14112000000",
+            "81139964527/1625702400000",
+            "1592670038639/32514048000000",
+            "3333996811390703/69363302400000000"
+          ]
+        },
+        {
+          "lo": "863/768000",
+          "hi": "863/384000",
+          "cubic_bernstein_coefficients": [
+            "3333996811390703/69363302400000000",
+            "4905446310527309/104044953600000000",
+            "801793683915503/17340825600000000",
+            "14558610608189/321126400000000"
+          ]
+        },
+        {
+          "lo": "863/384000",
+          "hi": "863/256000",
+          "cubic_bernstein_coefficients": [
+            "14558610608189/321126400000000",
+            "770536261768909/17340825600000000",
+            "4530357244768181/104044953600000000",
+            "986323577908327/23121100800000000"
+          ]
+        },
+        {
+          "lo": "863/256000",
+          "hi": "863/192000",
+          "cubic_bernstein_coefficients": [
+            "986323577908327/23121100800000000",
+            "2173277478203381/52022476800000000",
+            "531951624236327/13005619200000000",
+            "43392473480303/1083801600000000"
+          ]
+        },
+        {
+          "lo": "863/192000",
+          "hi": "863/153600",
+          "cubic_bernstein_coefficients": [
+            "43392473480303/1083801600000000",
+            "101893547858189/2601123840000000",
+            "8859583993957/231211008000000",
+            "11552406945299/308281344000000"
+          ]
+        },
+        {
+          "lo": "863/153600",
+          "hi": "863/128000",
+          "cubic_bernstein_coefficients": [
+            "11552406945299/308281344000000",
+            "16938052847983/462422016000000",
+            "372424010135861/10404495360000000",
+            "11229997582703/321126400000000"
+          ]
+        },
+        {
+          "lo": "863/128000",
+          "hi": "6041/768000",
+          "cubic_bernstein_coefficients": [
+            "11229997582703/321126400000000",
+            "1776399166116467/52022476800000000",
+            "3468178352544823/104044953600000000",
+            "2256471012534329/69363302400000000"
+          ]
+        },
+        {
+          "lo": "6041/768000",
+          "hi": "863/96000",
+          "cubic_bernstein_coefficients": [
+            "2256471012534329/69363302400000000",
+            "825308671264541/26011238400000000",
+            "33530322888121/1083801600000000",
+            "151320538989/5017600000000"
+          ]
+        },
+        {
+          "lo": "863/96000",
+          "hi": "2589/256000",
+          "cubic_bernstein_coefficients": [
+            "151320538989/5017600000000",
+            "31840149955127/1083801600000000",
+            "744180370480829/26011238400000000",
+            "644006932497629/23121100800000000"
+          ]
+        },
+        {
+          "lo": "2589/256000",
+          "hi": "863/76800",
+          "cubic_bernstein_coefficients": [
+            "644006932497629/23121100800000000",
+            "563868182111069/20808990720000000",
+            "438702920473/16647192576000",
+            "8885784881707/346816512000000"
+          ]
+        },
+        {
+          "lo": "863/76800",
+          "hi": "9493/768000",
+          "cubic_bernstein_coefficients": [
+            "8885784881707/346816512000000",
+            "51791553521359/2080899072000000",
+            "167647317118583/6936330240000000",
+            "60276023400359/2569011200000000"
+          ]
+        },
+        {
+          "lo": "9493/768000",
+          "hi": "863/64000",
+          "cubic_bernstein_coefficients": [
+            "60276023400359/2569011200000000",
+            "394608023108389/17340825600000000",
+            "286931804976391/13005619200000000",
+            "7724462125927/361267200000000"
+          ]
+        },
+        {
+          "lo": "863/64000",
+          "hi": "11219/768000",
+          "cubic_bernstein_coefficients": [
+            "7724462125927/361267200000000",
+            "269229468090353/13005619200000000",
+            "1042205374236863/52022476800000000",
+            "1344278229726491/69363302400000000"
+          ]
+        },
+        {
+          "lo": "11219/768000",
+          "hi": "6041/384000",
+          "cubic_bernstein_coefficients": [
+            "1344278229726491/69363302400000000",
+            "1948423940705747/104044953600000000",
+            "104547896065937/5780275200000000",
+            "16822029176881/963379200000000"
+          ]
+        },
+        {
+          "lo": "6041/384000",
+          "hi": "863/51200",
+          "cubic_bernstein_coefficients": [
+            "16822029176881/963379200000000",
+            "19463290811327/1156055040000000",
+            "13504736226967/832359628800000",
+            "4817819135489/308281344000000"
+          ]
+        },
+        {
+          "lo": "863/51200",
+          "hi": "863/48000",
+          "cubic_bernstein_coefficients": [
+            "4817819135489/308281344000000",
+            "7819679440421/520224768000000",
+            "2349037331947/162570240000000",
+            "235091994203/16934400000000"
+          ]
+        },
+        {
+          "lo": "863/48000",
+          "hi": "14671/768000",
+          "cubic_bernstein_coefficients": [
+            "235091994203/16934400000000",
+            "10823644783753/812851200000000",
+            "55334215326367/4335206400000000",
+            "31413243456557/2569011200000000"
+          ]
+        },
+        {
+          "lo": "14671/768000",
+          "hi": "2589/128000",
+          "cubic_bernstein_coefficients": [
+            "31413243456557/2569011200000000",
+            "405483850716103/34681651200000000",
+            "581143650475693/52022476800000000",
+            "30827523540829/2890137600000000"
+          ]
+        },
+        {
+          "lo": "2589/128000",
+          "hi": "16397/768000",
+          "cubic_bernstein_coefficients": [
+            "30827523540829/2890137600000000",
+            "528647196994151/52022476800000000",
+            "1006465738222141/104044953600000000",
+            "638234747494277/69363302400000000"
+          ]
+        },
+        {
+          "lo": "16397/768000",
+          "hi": "863/38400",
+          "cubic_bernstein_coefficients": [
+            "638234747494277/69363302400000000",
+            "90823850426069/10404495360000000",
+            "1434733210109/173408256000000",
+            "12580302897/1605632000000"
+          ]
+        },
+        {
+          "lo": "863/38400",
+          "hi": "6041/256000",
+          "cubic_bernstein_coefficients": [
+            "12580302897/1605632000000",
+            "1282612215643/173408256000000",
+            "72569331090149/10404495360000000",
+            "151917514076161/23121100800000000"
+          ]
+        },
+        {
+          "lo": "6041/256000",
+          "hi": "9493/384000",
+          "cubic_bernstein_coefficients": [
+            "151917514076161/23121100800000000",
+            "641564315783959/104044953600000000",
+            "300654669575369/52022476800000000",
+            "46909260376093/8670412800000000"
+          ]
+        },
+        {
+          "lo": "9493/384000",
+          "hi": "19849/768000",
+          "cubic_bernstein_coefficients": [
+            "46909260376093/8670412800000000",
+            "262256454937747/52022476800000000",
+            "6024338978191/1284505600000000",
+            "33580296863489/7707033600000000"
+          ]
+        },
+        {
+          "lo": "19849/768000",
+          "hi": "863/32000",
+          "cubic_bernstein_coefficients": [
+            "33580296863489/7707033600000000",
+            "3876819982229/963379200000000",
+            "12061347236563/3251404800000000",
+            "51386126909/15052800000000"
+          ]
+        },
+        {
+          "lo": "863/32000",
+          "hi": "863/30720",
+          "cubic_bernstein_coefficients": [
+            "51386126909/15052800000000",
+            "16219935341/5202247680000",
+            "2955677485807/1040449536000000",
+            "7166274014591/2774532096000000"
+          ]
+        },
+        {
+          "lo": "863/30720",
+          "hi": "11219/384000",
+          "cubic_bernstein_coefficients": [
+            "7166274014591/2774532096000000",
+            "1935222420109/832359628800000",
+            "1447125431239/693633024000000",
+            "599631336833/321126400000000"
+          ]
+        },
+        {
+          "lo": "11219/384000",
+          "hi": "7767/256000",
+          "cubic_bernstein_coefficients": [
+            "599631336833/321126400000000",
+            "28582048596989/17340825600000000",
+            "150749756305793/104044953600000000",
+            "29355597416783/23121100800000000"
+          ]
+        },
+        {
+          "lo": "7767/256000",
+          "hi": "6041/192000",
+          "cubic_bernstein_coefficients": [
+            "29355597416783/23121100800000000",
+            "56725310222627/52022476800000000",
+            "12111752482607/13005619200000000",
+            "859141955129/1083801600000000"
+          ]
+        },
+        {
+          "lo": "6041/192000",
+          "hi": "25027/768000",
+          "cubic_bernstein_coefficients": [
+            "859141955129/1083801600000000",
+            "8507654440489/13005619200000000",
+            "9297508628561/17340825600000000",
+            "1128304135921/2569011200000000"
+          ]
+        },
+        {
+          "lo": "25027/768000",
+          "hi": "863/25600",
+          "cubic_bernstein_coefficients": [
+            "1128304135921/2569011200000000",
+            "2373838882549/6936330240000000",
+            "554125969153/2080899072000000",
+            "24488560259/115605504000000"
+          ]
+        },
+        {
+          "lo": "863/25600",
+          "hi": "26753/768000",
+          "cubic_bernstein_coefficients": [
+            "24488560259/115605504000000",
+            "327462200171/2080899072000000",
+            "2588241268007/20808990720000000",
+            "7860822865073/69363302400000000"
+          ]
+        },
+        {
+          "lo": "26753/768000",
+          "hi": "863/24000",
+          "cubic_bernstein_coefficients": [
+            "7860822865073/69363302400000000",
+            "665078890949/6502809600000000",
+            "159684541/1411200000000",
+            "2152387/14700000000"
+          ]
+        }
+      ]
+    }
+  },
+  "links_checked": 67,
+  "review_bindings": [
+    {
+      "source": "notes/465-centered-high-square-joint-fourth-budget.md",
+      "review": "reviews/2026-10-07/465-centered-square-joint-budget-review-twisted.md",
+      "source_sha256": "a9290d2d847c2a3f7942b26353bd1582a68b391e481acc109c4ac18d3d750464"
+    },
+    {
+      "source": "notes/465-centered-high-square-joint-fourth-budget.md",
+      "review": "reviews/2026-10-07/465-466-centered-variance-joint-review-twisted.md",
+      "source_sha256": "a9290d2d847c2a3f7942b26353bd1582a68b391e481acc109c4ac18d3d750464"
+    },
+    {
+      "source": "notes/465-centered-high-square-joint-fourth-budget.md",
+      "review": "reviews/2026-10-07/465-466-high-square-budget-review-radial.md",
+      "source_sha256": "a9290d2d847c2a3f7942b26353bd1582a68b391e481acc109c4ac18d3d750464"
+    },
+    {
+      "source": "notes/466-high-square-variance-commutator-obstruction.md",
+      "review": "reviews/2026-10-07/465-466-centered-variance-joint-review-twisted.md",
+      "source_sha256": "0b955bdc26b4bf950ce457dec7bf18f635f702d85a73d73c8d6263df969cbbbe"
+    },
+    {
+      "source": "notes/466-high-square-variance-commutator-obstruction.md",
+      "review": "reviews/2026-10-07/465-466-high-square-budget-review-radial.md",
+      "source_sha256": "0b955bdc26b4bf950ce457dec7bf18f635f702d85a73d73c8d6263df969cbbbe"
+    },
+    {
+      "source": "notes/467-two-residual-schur-and-commutator-budget.md",
+      "review": "reviews/2026-10-07/467-two-residual-schur-review-root.md",
+      "source_sha256": "0089fd92c70d5e2b7b48bef0084675707f2fe283833f8a97745766ccf6899cb8"
+    },
+    {
+      "source": "notes/467-two-residual-schur-and-commutator-budget.md",
+      "review": "reviews/2026-10-07/467-two-residual-schur-review-twisted.md",
+      "source_sha256": "0089fd92c70d5e2b7b48bef0084675707f2fe283833f8a97745766ccf6899cb8"
+    },
+    {
+      "source": "reviews/2026-10-07/hybrid-whole-fourth-compression-upper-research-radial.md",
+      "review": "reviews/2026-10-07/hybrid-whole-fourth-compression-review-twisted.md",
+      "source_sha256": "0703f66778d49de29e363f7eabede6718ef24fe579e53603ff70db4e6aeacdea"
+    },
+    {
+      "source": "reviews/2026-10-07/hybrid-whole-fourth-compression-upper-research-radial.md",
+      "review": "reviews/2026-10-07/hybrid-original-residual-research-review-root.md",
+      "source_sha256": "0703f66778d49de29e363f7eabede6718ef24fe579e53603ff70db4e6aeacdea"
+    },
+    {
+      "source": "reviews/2026-10-07/hybrid-high-parity-gram-and-mobius-completion-research-radial.md",
+      "review": "reviews/2026-10-07/hybrid-high-parity-gram-review-twisted.md",
+      "source_sha256": "3f4c714bb126356389332f3674836d6edf6f110f60935a27af93a58a0e26bbb2"
+    },
+    {
+      "source": "reviews/2026-10-07/hybrid-high-parity-gram-and-mobius-completion-research-radial.md",
+      "review": "reviews/2026-10-07/hybrid-original-residual-research-review-root.md",
+      "source_sha256": "3f4c714bb126356389332f3674836d6edf6f110f60935a27af93a58a0e26bbb2"
+    },
+    {
+      "source": "reviews/2026-10-07/hybrid-three-high-one-low-joint-schur-budget-research.md",
+      "review": "reviews/2026-10-07/hybrid-three-high-one-low-joint-schur-review-compression.md",
+      "source_sha256": "d48a20606a81c88b5b466339c95ee6049b26d50ebc7b23209c936980dcd131b1"
+    },
+    {
+      "source": "reviews/2026-10-07/hybrid-three-high-one-low-joint-schur-budget-research.md",
+      "review": "reviews/2026-10-07/hybrid-three-high-one-low-joint-schur-review-radial.md",
+      "source_sha256": "d48a20606a81c88b5b466339c95ee6049b26d50ebc7b23209c936980dcd131b1"
+    },
+    {
+      "source": "reviews/2026-10-07/hybrid-three-high-one-low-joint-schur-budget-research.md",
+      "review": "reviews/2026-10-07/hybrid-original-residual-research-review-root.md",
+      "source_sha256": "d48a20606a81c88b5b466339c95ee6049b26d50ebc7b23209c936980dcd131b1"
+    },
+    {
+      "source": "reviews/2026-10-07/hybrid-spectral-low-high-information-and-narrow-window-research-compression.md",
+      "review": "reviews/2026-10-07/hybrid-spectral-low-high-narrow-window-review-radial.md",
+      "source_sha256": "46aa87f3ab12e7399dd33bc4c6833fbe7362b31781c1ec018d538fd2ffe21f4f"
+    },
+    {
+      "source": "reviews/2026-10-07/hybrid-spectral-low-high-information-and-narrow-window-research-compression.md",
+      "review": "reviews/2026-10-07/hybrid-original-residual-research-review-root.md",
+      "source_sha256": "46aa87f3ab12e7399dd33bc4c6833fbe7362b31781c1ec018d538fd2ffe21f4f"
+    },
+    {
+      "source": "reviews/2026-10-07/hybrid-parity-weighted-high-cubic-research.md",
+      "review": "reviews/2026-10-07/hybrid-parity-weighted-high-cubic-review-compression.md",
+      "source_sha256": "2f883e521bd8f729084530aa8273acc397b528ce66392df1d7a803e53b43bbae"
+    },
+    {
+      "source": "reviews/2026-10-07/hybrid-parity-weighted-high-cubic-research.md",
+      "review": "reviews/2026-10-07/hybrid-original-residual-research-review-root.md",
+      "source_sha256": "2f883e521bd8f729084530aa8273acc397b528ce66392df1d7a803e53b43bbae"
+    },
+    {
+      "source": "reviews/2026-10-07/hybrid-high-square-variance-commutator-obstruction.md",
+      "review": "reviews/2026-10-07/hybrid-original-residual-research-review-root.md",
+      "source_sha256": "3aa8fab755483e44ac1c31914dd2373b7dc3441ed03ceccbc32f8c427e8b274e"
+    },
+    {
+      "source": "reviews/2026-10-07/hybrid-high-square-sharp-linear-variance-obstruction.md",
+      "review": "reviews/2026-10-07/hybrid-original-residual-research-review-root.md",
+      "source_sha256": "8814bbfb86732177443dbd686be708f1b192316234388b0a64a879aa48d8f14a"
+    }
+  ],
+  "files": [
+    {
+      "path": "notes/465-centered-high-square-joint-fourth-budget.md",
+      "sha256_canonical_lf": "a9290d2d847c2a3f7942b26353bd1582a68b391e481acc109c4ac18d3d750464",
+      "canonical_utf8_bytes": 10069
+    },
+    {
+      "path": "notes/466-high-square-variance-commutator-obstruction.md",
+      "sha256_canonical_lf": "0b955bdc26b4bf950ce457dec7bf18f635f702d85a73d73c8d6263df969cbbbe",
+      "canonical_utf8_bytes": 8013
+    },
+    {
+      "path": "notes/467-two-residual-schur-and-commutator-budget.md",
+      "sha256_canonical_lf": "0089fd92c70d5e2b7b48bef0084675707f2fe283833f8a97745766ccf6899cb8",
+      "canonical_utf8_bytes": 10830
+    },
+    {
+      "path": "reviews/2026-10-07/hybrid-whole-fourth-compression-upper-research-radial.md",
+      "sha256_canonical_lf": "0703f66778d49de29e363f7eabede6718ef24fe579e53603ff70db4e6aeacdea",
+      "canonical_utf8_bytes": 19034
+    },
+    {
+      "path": "reviews/2026-10-07/hybrid-high-parity-gram-and-mobius-completion-research-radial.md",
+      "sha256_canonical_lf": "3f4c714bb126356389332f3674836d6edf6f110f60935a27af93a58a0e26bbb2",
+      "canonical_utf8_bytes": 11380
+    },
+    {
+      "path": "reviews/2026-10-07/hybrid-three-high-one-low-joint-schur-budget-research.md",
+      "sha256_canonical_lf": "d48a20606a81c88b5b466339c95ee6049b26d50ebc7b23209c936980dcd131b1",
+      "canonical_utf8_bytes": 13091
+    },
+    {
+      "path": "reviews/2026-10-07/hybrid-spectral-low-high-information-and-narrow-window-research-compression.md",
+      "sha256_canonical_lf": "46aa87f3ab12e7399dd33bc4c6833fbe7362b31781c1ec018d538fd2ffe21f4f",
+      "canonical_utf8_bytes": 19084
+    },
+    {
+      "path": "reviews/2026-10-07/hybrid-parity-weighted-high-cubic-research.md",
+      "sha256_canonical_lf": "2f883e521bd8f729084530aa8273acc397b528ce66392df1d7a803e53b43bbae",
+      "canonical_utf8_bytes": 8675
+    },
+    {
+      "path": "reviews/2026-10-07/hybrid-high-square-variance-commutator-obstruction.md",
+      "sha256_canonical_lf": "3aa8fab755483e44ac1c31914dd2373b7dc3441ed03ceccbc32f8c427e8b274e",
+      "canonical_utf8_bytes": 5823
+    },
+    {
+      "path": "reviews/2026-10-07/hybrid-high-square-sharp-linear-variance-obstruction.md",
+      "sha256_canonical_lf": "8814bbfb86732177443dbd686be708f1b192316234388b0a64a879aa48d8f14a",
+      "canonical_utf8_bytes": 3875
+    },
+    {
+      "path": "reviews/2026-10-07/hybrid-whole-fourth-compression-review-twisted.md",
+      "sha256_canonical_lf": "2540285dcf6ed0f50d278a3a264168db3e765650e8433e4d064bb60eea84728d",
+      "canonical_utf8_bytes": 6515
+    },
+    {
+      "path": "reviews/2026-10-07/hybrid-high-parity-gram-review-twisted.md",
+      "sha256_canonical_lf": "ca5af575dad27b237c209b945cd5ff7b30a4b6362f9f20ba14ef1b9e9bc5ac5d",
+      "canonical_utf8_bytes": 5672
+    },
+    {
+      "path": "reviews/2026-10-07/hybrid-three-high-one-low-joint-schur-review-compression.md",
+      "sha256_canonical_lf": "0cca226a43bc050e5ac4f7905857f948a013ca94ad8e155f65156b9838ffe175",
+      "canonical_utf8_bytes": 5105
+    },
+    {
+      "path": "reviews/2026-10-07/hybrid-three-high-one-low-joint-schur-review-radial.md",
+      "sha256_canonical_lf": "1b221432dd87eb756aba7b374754e301488cf1dd7e59d3642ad89555c072afeb",
+      "canonical_utf8_bytes": 5215
+    },
+    {
+      "path": "reviews/2026-10-07/hybrid-spectral-low-high-narrow-window-review-radial.md",
+      "sha256_canonical_lf": "a40d5b913ea1c414ecb57c4ef2589f0b77e530d2a0b1136e5e5b45c23d83bb6b",
+      "canonical_utf8_bytes": 12062
+    },
+    {
+      "path": "reviews/2026-10-07/hybrid-parity-weighted-high-cubic-review-compression.md",
+      "sha256_canonical_lf": "8f722daf50e2f8350fb1387ee43fae0dcf5f112ba5d1d600917d436dfbb65dc1",
+      "canonical_utf8_bytes": 5725
+    },
+    {
+      "path": "reviews/2026-10-07/hybrid-original-residual-research-review-root.md",
+      "sha256_canonical_lf": "6d8dd8e31ca0fcdf59eb4837851b1e326e9c8b00687e3eb5491e9274c8635081",
+      "canonical_utf8_bytes": 9014
+    },
+    {
+      "path": "reviews/2026-10-07/465-centered-square-joint-budget-review-twisted.md",
+      "sha256_canonical_lf": "200fb16c26931222a3e83b9d6eeb56e582b03a6b621ca1674731c96c7cc98336",
+      "canonical_utf8_bytes": 6016
+    },
+    {
+      "path": "reviews/2026-10-07/465-466-centered-variance-joint-review-twisted.md",
+      "sha256_canonical_lf": "cff805ab1b4208b364042a4a1f971c66397ee6a63520320dd66abcbe93c5d1d4",
+      "canonical_utf8_bytes": 6057
+    },
+    {
+      "path": "reviews/2026-10-07/465-466-high-square-budget-review-radial.md",
+      "sha256_canonical_lf": "887b07bc705bca2539b2df65ac1acb63a0bfc6dff1635acef52b981d20d97e13",
+      "canonical_utf8_bytes": 7656
+    },
+    {
+      "path": "reviews/2026-10-07/467-two-residual-schur-review-root.md",
+      "sha256_canonical_lf": "df84d4f0f67c0686ff19c5176657294214bbf369151e24c3c2febd69fb5c5813",
+      "canonical_utf8_bytes": 5314
+    },
+    {
+      "path": "reviews/2026-10-07/467-two-residual-schur-review-twisted.md",
+      "sha256_canonical_lf": "8152d1863459b02dd48734ff7a4235955fc451f7a3eaec53cc62bf5baaa984e8",
+      "canonical_utf8_bytes": 5687
+    },
+    {
+      "path": "scripts/hybrid_original_residual_exact_audit.py",
+      "sha256_canonical_lf": "27a0d57794d0efc0ac1dc36faa168bfb0e3a4ef243e3949c1a4693548d8088d7",
+      "canonical_utf8_bytes": 11607
+    },
+    {
+      "path": "scripts/hybrid_spectral_mt_joint_exact_certificate.py",
+      "sha256_canonical_lf": "3eb01540243c90f500e5dde853f81775a1c5337c4d9eab2255b66e56147aa943",
+      "canonical_utf8_bytes": 6642
+    },
+    {
+      "path": "output/hybrid-spectral-mt-joint-exact-certificate.json",
+      "sha256_canonical_lf": "e2cb2f65e0067a503035623883b3646e64a5556480b1beb16c08504f22995f41",
+      "canonical_utf8_bytes": 5866
+    }
+  ],
+  "unproved": [
+    "the actual joint candidate limsup q <= 1/350 and liminf k >= 1/40",
+    "whole high signed arithmetic with original internal projections",
+    "an improved actual simple-zero proportion or zero-free boundary",
+    "independent certification of the imported analytic R kernel"
+  ]
+}
