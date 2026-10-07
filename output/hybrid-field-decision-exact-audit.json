@@ -1,0 +1,363 @@
+{
+  "date": "2026-10-07",
+  "base_repository_commit": "a49bd509d571f95adcb9047684d81ef33b311713",
+  "scope": "finite residue arithmetic and rational budget checks only; written proofs and stated hypotheses remain essential",
+  "new_zero_free_boundary": false,
+  "new_paper": false,
+  "unchanged_sigma_under_stated_R": "0.87495701942009894612860385056...",
+  "previous_checkpoint_checked": "PASS: 34 current files, 74 frozen artifacts, read-only source and 26 review bindings",
+  "root_interval_refinement": [
+    "5952999779624327166882116531184140689034992426345706915723/35681192317648997026457149236237378409568665600000000000000",
+    "23811999118497308667528466124736562756139969705382827662893/142724769270595988105828596944949513638274662400000000000000"
+  ],
+  "midpoint_display_not_an_analytic_bound": {
+    "t": "1.12422714678608452983834989656688192942219265238387853320869",
+    "e6": "1.10352262232173710819862491380573494118516054365323211100724",
+    "conditional_e4": "1.09317036008956339737876242242516144706664448928790889990652",
+    "conditional_e2": "1.06211357339304226491917494828344096471109632619193926660435",
+    "gaussian_LS": "1.45756048011941786317168322990021526275552598571721186654203",
+    "gaussian_LS_minus_e6": "0.354037857797680754973058316094480321570365442063979755534782",
+    "conditional_quartic_branch_gain": "0.0103522622321737108198624913805734941185160543653232111007243"
+  },
+  "exact_conjugation_example": {
+    "pi": [
+      -1,
+      2
+    ],
+    "nu": [
+      3,
+      2
+    ],
+    "nu_conjugate": [
+      3,
+      -2
+    ],
+    "both_column_norms": 13,
+    "quartic_pi_over_nu": [
+      1,
+      0
+    ],
+    "quartic_pi_over_nu_conjugate": [
+      0,
+      1
+    ]
+  },
+  "finite_single_shift_models": [
+    {
+      "d": 2,
+      "rho": 0,
+      "theta_character_order": 1
+    },
+    {
+      "d": 4,
+      "rho": 1,
+      "theta_character_order": 4
+    },
+    {
+      "d": 6,
+      "rho": 2,
+      "theta_character_order": 3
+    },
+    {
+      "d": 8,
+      "rho": 3,
+      "theta_character_order": 8
+    },
+    {
+      "d": 10,
+      "rho": 4,
+      "theta_character_order": 5
+    },
+    {
+      "d": 12,
+      "rho": 5,
+      "theta_character_order": 12
+    },
+    {
+      "d": 14,
+      "rho": 6,
+      "theta_character_order": 7
+    },
+    {
+      "d": 16,
+      "rho": 7,
+      "theta_character_order": 16
+    },
+    {
+      "d": 18,
+      "rho": 8,
+      "theta_character_order": 9
+    },
+    {
+      "d": 20,
+      "rho": 9,
+      "theta_character_order": 20
+    },
+    {
+      "d": 22,
+      "rho": 10,
+      "theta_character_order": 11
+    },
+    {
+      "d": 24,
+      "rho": 11,
+      "theta_character_order": 24
+    },
+    {
+      "d": 26,
+      "rho": 12,
+      "theta_character_order": 13
+    },
+    {
+      "d": 28,
+      "rho": 13,
+      "theta_character_order": 28
+    },
+    {
+      "d": 30,
+      "rho": 14,
+      "theta_character_order": 15
+    },
+    {
+      "d": 32,
+      "rho": 15,
+      "theta_character_order": 32
+    },
+    {
+      "d": 34,
+      "rho": 16,
+      "theta_character_order": 17
+    },
+    {
+      "d": 36,
+      "rho": 17,
+      "theta_character_order": 36
+    },
+    {
+      "d": 38,
+      "rho": 18,
+      "theta_character_order": 19
+    },
+    {
+      "d": 40,
+      "rho": 19,
+      "theta_character_order": 40
+    },
+    {
+      "d": 42,
+      "rho": 20,
+      "theta_character_order": 21
+    },
+    {
+      "d": 44,
+      "rho": 21,
+      "theta_character_order": 44
+    },
+    {
+      "d": 46,
+      "rho": 22,
+      "theta_character_order": 23
+    },
+    {
+      "d": 48,
+      "rho": 23,
+      "theta_character_order": 48
+    },
+    {
+      "d": 50,
+      "rho": 24,
+      "theta_character_order": 25
+    },
+    {
+      "d": 52,
+      "rho": 25,
+      "theta_character_order": 52
+    },
+    {
+      "d": 54,
+      "rho": 26,
+      "theta_character_order": 27
+    },
+    {
+      "d": 56,
+      "rho": 27,
+      "theta_character_order": 56
+    },
+    {
+      "d": 58,
+      "rho": 28,
+      "theta_character_order": 29
+    },
+    {
+      "d": 60,
+      "rho": 29,
+      "theta_character_order": 60
+    },
+    {
+      "d": 62,
+      "rho": 30,
+      "theta_character_order": 31
+    },
+    {
+      "d": 64,
+      "rho": 31,
+      "theta_character_order": 64
+    },
+    {
+      "d": 66,
+      "rho": 32,
+      "theta_character_order": 33
+    },
+    {
+      "d": 68,
+      "rho": 33,
+      "theta_character_order": 68
+    },
+    {
+      "d": 70,
+      "rho": 34,
+      "theta_character_order": 35
+    },
+    {
+      "d": 72,
+      "rho": 35,
+      "theta_character_order": 72
+    },
+    {
+      "d": 74,
+      "rho": 36,
+      "theta_character_order": 37
+    },
+    {
+      "d": 76,
+      "rho": 37,
+      "theta_character_order": 76
+    },
+    {
+      "d": 78,
+      "rho": 38,
+      "theta_character_order": 39
+    },
+    {
+      "d": 80,
+      "rho": 39,
+      "theta_character_order": 80
+    },
+    {
+      "d": 82,
+      "rho": 40,
+      "theta_character_order": 41
+    },
+    {
+      "d": 84,
+      "rho": 41,
+      "theta_character_order": 84
+    },
+    {
+      "d": 86,
+      "rho": 42,
+      "theta_character_order": 43
+    },
+    {
+      "d": 88,
+      "rho": 43,
+      "theta_character_order": 88
+    },
+    {
+      "d": 90,
+      "rho": 44,
+      "theta_character_order": 45
+    },
+    {
+      "d": 92,
+      "rho": 45,
+      "theta_character_order": 92
+    },
+    {
+      "d": 94,
+      "rho": 46,
+      "theta_character_order": 47
+    },
+    {
+      "d": 96,
+      "rho": 47,
+      "theta_character_order": 96
+    },
+    {
+      "d": 98,
+      "rho": 48,
+      "theta_character_order": 49
+    },
+    {
+      "d": 100,
+      "rho": 49,
+      "theta_character_order": 100
+    }
+  ],
+  "links_checked": 17,
+  "preserved_inputs": [
+    {
+      "path": "notes/451-kappa-feedback-cubic-boundary-and-family-continuation.md",
+      "sha256_canonical_lf": "17ce7fea8c881ebd4034657b7039e99897d4ff9532348993ba329c46e3c4d487",
+      "canonical_utf8_bytes": 10207
+    },
+    {
+      "path": "notes/457-number-field-choice-and-relative-amplification.md",
+      "sha256_canonical_lf": "75079970955602644a9290709f66e2be331ad6116d2a637ed8fc97fb0dde5791",
+      "canonical_utf8_bytes": 15254
+    },
+    {
+      "path": "notes/458-gaussian-all-row-large-sieve-comparison.md",
+      "sha256_canonical_lf": "3ee821601d6e1d5da38c8235586981b28d7ebee5a5f28691a98d869834dcc8ac",
+      "canonical_utf8_bytes": 9964
+    },
+    {
+      "path": "notes/460-generic-power-row-obstruction-and-field-choice.md",
+      "sha256_canonical_lf": "9625c0d618854769de90edfb3ee3b8d8b89e1d3b2b83d676dffccb927e09d85f",
+      "canonical_utf8_bytes": 7891
+    },
+    {
+      "path": "reviews/2026-10-07/hybrid-number-field-quantitative-review-radial.md",
+      "sha256_canonical_lf": "a0f644818b0988355fe6bd355c288697a5842bf4a3525caa287108c5e415a2ee",
+      "canonical_utf8_bytes": 20257
+    },
+    {
+      "path": "reviews/2026-10-07/hybrid-field-change-special-mobius-next-research.md",
+      "sha256_canonical_lf": "1afe4d0b2393f0c67997c2f83680f0e9ed46ae12e0f84f7b337e2a6e0fdb23db",
+      "canonical_utf8_bytes": 7711
+    },
+    {
+      "path": "reviews/2026-10-07/joint-and-fourth-checkpoint.json",
+      "sha256_canonical_lf": "2738cc114ecae518b718fda1d911071c4800406f5128e40b98e8523473529918",
+      "canonical_utf8_bytes": 36164
+    }
+  ],
+  "files": [
+    {
+      "path": "notes/464-field-selection-decision-and-conjugation-obstruction.md",
+      "sha256_canonical_lf": "c534076d26fbc9612ea67946b9ab8e247bd8b13acb2d4415ba60b52501f3ae2d",
+      "canonical_utf8_bytes": 9100
+    },
+    {
+      "path": "reviews/2026-10-07/464-field-selection-review-radial.md",
+      "sha256_canonical_lf": "81e23f5a663dd7c509a1b69a68fc2fa41a2eb05f3a4baa9b7819d987725a19c2",
+      "canonical_utf8_bytes": 11019
+    },
+    {
+      "path": "reviews/2026-10-07/464-field-selection-review-twisted.md",
+      "sha256_canonical_lf": "71842ec0dc34513aa96f82fea60a9154f36b6efc6c4422c749e03432721f6c52",
+      "canonical_utf8_bytes": 12256
+    },
+    {
+      "path": "scripts/hybrid_field_decision_exact_audit.py",
+      "sha256_canonical_lf": "36da2a5b99a8d7864d4c285d4fdfd05ff5fe92efe822bf1c537308ca21ff105b",
+      "canonical_utf8_bytes": 6481
+    }
+  ],
+  "not_certified": [
+    "Gaussian special Mobius whole-row near-linear bound",
+    "uniform target-twisted completed reflection and Euler reciprocal",
+    "new marked/plain moments, global detector optimization or family continuation",
+    "external proof-kernel certification, RH or a new zero-free region"
+  ]
+}
