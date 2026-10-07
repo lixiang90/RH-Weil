@@ -1,5 +1,23 @@
 # 研究分支看板
 
+## 当前队列（2026-10-07，原四矩与primitive联合接口）
+
+Goal active；sigma*≈0.874957019420099保持，无新完整边界或比例。
+
+| 范围 | 已付与剩余 |
+|---|---|
+| [461 entire actual13](notes/461-original-one-high-three-low-fourth-trace.md) | 原7/8输入下整个Tr(C_H C_L³)=o(N)，包含真实内部P和全height |
+| [462 entire actual low4](notes/462-original-low-prime-fourth-path-constant.md) | 无新增R，完整非对角/投影误差已付，一般窗常数，flat19/240 |
+| [463 双侧height](notes/463-two-sided-height-stability-for-original-fourth-words.md) | 任意prime四词raw/good同类型稳定性，全prime误差o(N)；不付actual/physical crossing |
+| [459 primitive joint](notes/459-natural-inverse-and-primitive-zero-joint-reduction.md) | 同对象有限恢复与误差余量；principal inverse另列延伸；strict joint本身未付 |
+| [460 换域限制](notes/460-generic-power-row-obstruction-and-field-choice.md) | 一般全行LS幂次行下界与d=2/4/6必要阈值；特殊Gaussian Möbius合同仍开放 |
+| [特殊Möbius换域](reviews/2026-10-07/hybrid-field-change-special-mobius-next-research.md) | 明确fixed-target前件下u=r⁴子族节省；whole scale-sup有实际单位项Ω(U)，全raw联合能量仍未付 |
+| 下一证明目标 | 原31、22、高distinct和背景AC³的完整预算；primitive joint strict saving；Gaussian全target完成与近临界raw |
+
+独审、限定接受范围及旧成果冻结见
+[检查点](reviews/2026-10-07/joint-and-fourth-checkpoint.json)。
+README保持项目介绍，旧正式论文/PDF保持；下文为此前队列和历史。
+
 ## 当前用户队列（2026-10-07，辅助数域的实际费用）
 
 Goal active；现有引用输入下sigma*保持，无新边界或比例。

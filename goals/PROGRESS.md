@@ -1,5 +1,45 @@
 # 持续GOAL执行账本：20260909版重启
 
+## 2026-10-07：原实际13、完整低四矩与primitive联合接口
+
+从已推送 main 8adf98ea84a25cabe925fe39376e1df746f54294 继续。
+本轮为 progress，Goal active；没有完整新无零边界或比例，未另写边界论文。
+
+[461](../notes/461-original-one-high-three-low-fourth-trace.md) 在原 [R] 的
+theta<9/10 下完成原有限矩阵整个一高三低 Tr(C_H C_L³)=o(N)。
+近共振、所有alias/ghost、三个内部P及全height替换均已付款；7/8输入足够。
+[462](../notes/462-original-low-prime-fourth-path-constant.md) 不需新的无零
+前件，付清原整个low4的非对角项与投影误差，得到一般窗路径常数；
+flat为19/240，取代453同部分的3/16 Jensen上界。差13/120不是比例改善。
+[463](../notes/463-two-sided-height-stability-for-original-fourth-words.md)
+对任意原prime四词证明双侧height截带的traceclass稳定性；
+全prime normalized误差O(X^-1 L^-5)，不需whole fourth先有界。
+它不删除内部P，不自动支付31/22/high distinct或原背景AC³。
+
+[459](../notes/459-natural-inverse-and-primitive-zero-joint-reduction.md)
+保留同target/profile、natural masks与全部height/joins，将原inverse
+恢复为有限primitive residues/joins并给定量误差。strict joint预算与
+原mixed预算等价，等价两边的saving仍未证明。另列普通principal
+meromorphic FE延伸，不把原nonprincipal措辞直接推广。
+旧13/31重复、22distinct归约与三列反射稿经root全文审查后按限定范围验收。
+
+用户数域分析的[460](../notes/460-generic-power-row-obstruction-and-field-choice.md)
+已确认一般全行大筛的幂次重复行限制：d=2/4/6的近线性必要阈值为
+D²/D^(4/3)/D^(6/5)。这是任意系数的限制，不是特殊Möbius逆列下界。
+Gaussian特殊raw与完整反射未付，换域尚未产生新sigma。
+
+[特殊Möbius换域研究](../reviews/2026-10-07/hybrid-field-change-special-mobius-next-research.md)
+另付在明确fixed-target reciprocal前件下的Gaussian第四幂子族节省；
+原eta为Dirichlet norm base-change时可按明列R使用。没有覆盖其余quartic
+行。实际fixed W的小scale单位项给whole scale-sup的Ω(U)基线；
+所需目标是线性raw，仍须primitive joint，而不是whole-sup的strict U-saving。
+
+全部接受范围、独审绑定、旧论文/PDF冻结及只读math见
+[本轮检查点](../reviews/2026-10-07/joint-and-fourth-checkpoint.json)。
+下一目标是原31、22和高distinct的联合signed预算、背景AC³，以及
+同对象primitive joint的strict saving；sigma*≈0.874957019420099保持。
+README保持项目介绍，以下保留历史。
+
 ## 2026-10-07：辅助数域定量比较与Gaussian全行大筛
 
 从 main 01851b2632523ef7d06428a0fd7e53fa4ba11dd6 继续回应用户关于

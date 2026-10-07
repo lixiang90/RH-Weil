@@ -1,5 +1,35 @@
 # 20260909版重启任务单
 
+## 当前任务（2026-10-07，完整低四矩之后的联合余额）
+
+已验收[461原actual13](../notes/461-original-one-high-three-low-fourth-trace.md)
+为o(N)、[462完整low4](../notes/462-original-low-prime-fourth-path-constant.md)
+的一般窗常数（flat19/240），以及
+[463双侧height](../notes/463-two-sided-height-stability-for-original-fourth-words.md)
+的任意prime四词稳定性。不要重复这些付款，也不要把low4/repeated常数
+自由相加成whole第四矩或比例。
+
+优先控制原finite的31、22联合product norm/commutator、高all-distinct，
+再联同原背景AC³形成同对象完整预算。双侧height只比较raw/good同类型
+对象，内部P仍要另付。原7/8已足够13，但不是整个第四矩的前件闭合。
+
+无零方向用[459](../notes/459-natural-inverse-and-primitive-zero-joint-reduction.md)
+和另列的[principal延伸](../reviews/2026-10-07/hybrid-natural-primitive-joint-review-root.md)
+研究实际primitive residues/joins与two-plain/once-slots的joint能量。
+恢复误差有strict余量，joint本身没有strict saving；自然零值、unequal
+heights与profiles不可删除。Gaussian换域另须特殊Möbius raw、全target
+反射及quadratic终端；[460](../notes/460-generic-power-row-obstruction-and-field-choice.md)
+的一般幂次行下界不构成特殊逆列的反例。
+
+新增[特殊Möbius子族](../reviews/2026-10-07/hybrid-field-change-special-mobius-next-research.md)
+在fixed-target前件下已付u=r⁴；其余quartic rows仍需联合能量。
+whole fixed-profile scale-sup因单位项有Ω(U)基线，研究线性U合同；
+不要要求整个sup严格U-saving，也不要将子族前件推广为全target结论。
+
+验收范围见[检查点](../reviews/2026-10-07/joint-and-fourth-checkpoint.json)。
+Goal active；sigma*及比例保持，确认完整新边界后才另写正式论文。
+下面保留此前队列和历史。
+
 ## 当前用户任务（2026-10-07，换域的实际大筛费用）
 
 [458](../notes/458-gaussian-all-row-large-sieve-comparison.md)已付未加slots的
