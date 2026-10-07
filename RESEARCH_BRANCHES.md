@@ -1,5 +1,19 @@
 # 研究分支看板
 
+## 当前用户队列（2026-10-07，7/8与比例的估计接口）
+
+用户新目标为结合全局7/8与简单临界线比例，研究两种界能否进一步改善。当前Goal active。
+原GOAL.20260909及第十节、F₁截止相位队列保留，以下为历史。
+
+| 顺序 | 任务 | 验收与范围 |
+|---|---|---|
+| 本轮已结算 | [438解读与截止](notes/438-seven-eighths-and-zero-proportion-interfaces.md)、[439几何候选](notes/439-prime-slot-geometry-and-a-conditional-strip-improvement.md)、[440Euler扩域](notes/440-principal-euler-correction-below-seven-eighths.md)、[441同源low](notes/441-variable-slot-low-bound-on-the-original-probe.md) | 真实AF padding改善、nominal严格余量、H解析及确切通用引理下的可变low分列；无新比例或实际新无零区 |
+| 当前主线 | [共享轮廓和实际capacity准入](reviews/2026-10-07/hybrid-low-and-contour-extension-next-proof-plan.md) | 保留原source、masks、joint profiles，逐前件支付capacity及principal/outer/bounded行；不能用代数余量冒充完整估计 |
+| 比例接口 | 同一算子的四点算术与source-weighted坏行桥 | 条带不自动给四矩或坏行幂节省；不同character moments须先证明同源传递 |
+| 必要辅助 | 原始版本、独立全文复核、Fraction与源码证据 | math只读；静态2924模块扫描不是Lean kernel验收；有限模型不是无限分析认证 |
+
+434–437检查点a8e6d4c保留。完整RH、F₁几何、Chern、RR仍开放。
+
 ## 唯一当前队列（2026-10-06，截止相位与相对循环比较）
 
 执行[GOAL.20260909.md](goals/GOAL.20260909.md)，长期Goal及第十节保持；下方为历史。

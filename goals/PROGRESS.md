@@ -1,5 +1,36 @@
 # 持续GOAL执行账本：20260909版重启
 
+## 2026-10-07：按新用户目标研究7/8与67.25%的接口，438–441
+
+从已推送main的a8e6d4c继续，math仓库仅只读。当前app Goal是结合两篇文章研究比例及无零边界能否改善，保持active；
+原长期目标、GOAL.20260909第十节和截止相位任务均保留。
+
+[438](../notes/438-seven-eighths-and-zero-proportion-interfaces.md)核对7/8主稿、11/12替代稿、实际unconditional Lean入口，
+解释六次族、theta反射、补偿low/high与全局beta_* continuation。
+保留AF实际C²窗口/采样，证明7/8输入下P=T^(1/4)仍有O(T^(−1/8))迹范数尾；
+比例主常数未改变。Lamzouri v2的并集/平均界不误作交集改善。
+同窗四阶反例与横向矩/重数联合预算另有完整推导；它们不是实际zeta反例。
+
+[439](../notes/439-prime-slot-geometry-and-a-conditional-strip-improvement.md)重算可变槽low clipping和固定z留数1/6的high指数，
+筛出ell=1/6+1/20000、sigma=69999/80000的条件候选；nominal端点有理余量307/11016000。
+全实际capacity、low扩域及共享轮廓待付，未把参数代数叫新无零定理。
+[440](../notes/440-principal-euler-correction-below-seven-eighths.md)从完整原Euler因子给principal闭式，
+证明H在Re s>2/3正常收敛，principal箱域x_r>401/600及ramified行预算亦支付；
+没有从校正解析推L无零。
+
+[441](../notes/441-variable-slot-low-bound-on-the-original-probe.md)继续逐条核通用reflection/Gaussian/Gram前件，
+在同一原finite probe上重证1/6<=ell<=1/5、b=1/8的low，包含actual H dyads、共享素因子、原masks、
+whole-annulus尾、共同密度、empty slots及小量量词。正row loss由原tuple的−d完整吸收，
+候选low指数14999/80000；实际high/capacity仍开放。
+
+正文各有独立全文审查。新Fraction审计含861端点参数、165clipping参数、36局部Euler模型及5抽象正谱模型，
+另有1000个retained反射dyad模型（其中276个empty slots）；
+连续证明与有限模型范围分列。实际OAI入口2924模块486490行只读静态扫描无占位/新增axiom声明，
+外部依赖、Lean elaboration/kernel与Comparator未运行；逐模块hash与未扫描依赖已保存。
+旧四项Lean、十处admission及既有精确报告不改。
+下一步执行[完整轮廓与实际容量准入](../reviews/2026-10-07/hybrid-low-and-contour-extension-next-proof-plan.md)。
+本轮没有新比例、实际新无零边界或RH；不结束整个研究目标。
+
 ## 2026-10-06：434–437真实物理源迹、极限顺序及有限源词的截止相位障碍
 
 从已推送main的9d6815f继续；430–433及更早正文、报告和检查点保持。

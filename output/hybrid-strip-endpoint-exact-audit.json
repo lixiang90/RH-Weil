@@ -1,0 +1,71 @@
+{
+  "status": "passed",
+  "date": "2026-10-07",
+  "sources_canonical_lf_sha256": {
+    "notes/438-seven-eighths-and-zero-proportion-interfaces.md": "1b5109396c89efab2f1ad0fa2d4281ab2c7e53ba9ed25900e86f29dc83ea3283",
+    "notes/439-prime-slot-geometry-and-a-conditional-strip-improvement.md": "15cb3d471b2e4b7fc638577cb92e5394cb32cb791755637e09a52dc88325e2cd",
+    "notes/440-principal-euler-correction-below-seven-eighths.md": "dcd1824067ba3f37233d16f408fab2e5117f6bed873133ab420d6f9d93544467",
+    "notes/441-variable-slot-low-bound-on-the-original-probe.md": "dffcaa1899358d581fe3d6438ee87d075588e5e7e8f41ccd8a629fe5c31be0dd"
+  },
+  "endpoint": {
+    "rational_parameter_cases": 861,
+    "slot_length": "10003/60000",
+    "conditional_boundary": "69999/80000",
+    "nominal_endpoint_margin": "307/11016000",
+    "nominal_floor_margin": "4327/750000",
+    "nominal_intermediate_margin": "120907/36000000",
+    "scope": "Exact identities and sampled finite inequalities only; capacity/contour extension not certified."
+  },
+  "clipped_low": {
+    "rational_cases": 165,
+    "scope": "Clipped exponent algebra, including parameters outside analytic admission."
+  },
+  "principal_euler": {
+    "rational_local_models": 36,
+    "candidate_good_decay": "65199/80000",
+    "candidate_ramified_decay": "65999/80000",
+    "scope": "Finite local algebra only; normal convergence is proved in note 440, not by sampling."
+  },
+  "positive_spectrum": {
+    "cases": 5,
+    "models": [
+      {
+        "m": 2,
+        "N": 6,
+        "normalized_second": "4/3",
+        "normalized_centered_fourth": "1/3"
+      },
+      {
+        "m": 4,
+        "N": 36,
+        "normalized_second": "4/3",
+        "normalized_centered_fourth": "7/3"
+      },
+      {
+        "m": 8,
+        "N": 168,
+        "normalized_second": "4/3",
+        "normalized_centered_fourth": "43/3"
+      },
+      {
+        "m": 16,
+        "N": 720,
+        "normalized_second": "4/3",
+        "normalized_centered_fourth": "211/3"
+      },
+      {
+        "m": 32,
+        "N": 2976,
+        "normalized_second": "4/3",
+        "normalized_centered_fourth": "931/3"
+      }
+    ],
+    "scope": "Abstract positive spectra; this is not the Lamzouri carrier construction or actual zeta zeros."
+  },
+  "variable_low": {
+    "retained_dyad_models": 1000,
+    "empty_slot_models": 276,
+    "scope": "Exact bounded dyads with S0=B0=theta_N=e_lambda=0. Full masks, Fourier profiles and analytic tails are paper proofs, not finite models."
+  },
+  "scope": "Finite Fraction audits. No numerical root certification, full analytic proof, external Lean build, new zero-free region, or improved zeta proportion."
+}

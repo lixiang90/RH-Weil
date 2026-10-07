@@ -1,5 +1,24 @@
 # RH / Weil 结构研究
 
+## 当前研究状态（2026-10-07，7/8与零点比例接口，438–441）
+
+按用户新目标只读核查OpenAI/math的7/8主稿、11/12替代证明及实际Lean入口，
+并研究与AF/Claude的67.250070…%简单临界线比例如何共用估计。
+[438](notes/438-seven-eighths-and-zero-proportion-interfaces.md)给完整解读、量词区分和同一AF物理矩阵的更短padding定理：
+7/8输入下P=T^(1/4)仍有迹范数尾O(T^(−1/8))；渐近比例主项没有改变。
+[439](notes/439-prime-slot-geometry-and-a-conditional-strip-improvement.md)给改变素数槽的条件候选
+sigma=7/8−1/80000，nominal有理余量307/11016000；实际可变几何、capacity和全部轮廓仍待证明。
+[440](notes/440-principal-euler-correction-below-seven-eighths.md)从准确局部因子支付主信号H在Re s>2/3的解析扩域，
+主轮廓箱域亦可向左扩；这不是L函数的无零区。
+
+[441](notes/441-variable-slot-low-bound-on-the-original-probe.md)进一步引用确切通用反射/Gram引理，
+在同一个原probe上重新证明可变low，支付正row loss与tuple衰减；候选low指数3/16−1/80000。
+正文与独立复核、精确有限代数及只读Lean源码扫描分列范围，未重跑外部Lean kernel。
+下一任务是[共享轮廓和真实detector capacity准入](reviews/2026-10-07/hybrid-low-and-contour-extension-next-proof-plan.md)。
+本轮未证明新的比例、无零边界或RH；当前研究Goal active。
+原F₁、RR、算术主关系、完整Weil正性目标及434–437的截止相位任务保留；以下为历史快照。
+434–437已推送main：a8e6d4c。
+
 ## 当前研究状态（2026-10-06，434–437）
 
 [434](notes/434-f1-haar-physical-cutoff-on-the-source-domain.md)支付全部有限源周期核的原Haar物理压缩迹类，保留完整球尾与源混合。

@@ -1,5 +1,15 @@
 # 20260909版重启任务单
 
+## 当前用户任务（2026-10-07，7/8与零点比例接口）
+
+执行[共享轮廓与实际capacity准入](../reviews/2026-10-07/hybrid-low-and-contour-extension-next-proof-plan.md)。
+438支付实际AF更短padding；439给ell=1/6+1/20000的条件边界候选与严格nominal余量；
+440支付H的左侧解析接口。没有新的比例或实际新无零定理。
+441已逐前件核通用反射能量/Gram并支付可变low、tuple −d对正row loss的吸收与全部masks；
+继续逐条扩共享principal/outer/bounded轮廓及真实detector capacity、统一高度与误差分配。
+比例路线须提供同一算子的四点算术或source-weighted坏行幂节省，不能只缩小o(N)误差。
+当前app Goal active，原GOAL.20260909第十节、F₁/RR/RH目标与截止相位任务保持；以下为历史任务。
+
 ## 唯一当前任务（2026-10-06，434–437结算）
 
 执行[保留截止相位的真实源读出与相对循环比较](../reviews/2026-10-06/f1-phase-resolved-physical-readout-next-proof-plan.md)。
