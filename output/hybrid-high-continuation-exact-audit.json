@@ -1,0 +1,24 @@
+{
+  "scope": "Exact displayed algebra only; analytic hypotheses, infinite contours, physical identities and external Lean are not certified by this script.",
+  "source_sha256_canonical_lf": "42a5ee0febca59fd1def55cfd6c6808c322ef4237d7726303ea52f711deac6a3",
+  "note_sha256_canonical_lf": {
+    "442-shared-contours-and-principal-signal-at-the-new-boundary.md": "87abb4dd86ccae9b8209e030606413ef2b8682631f9c4d9195afdd808ad1b6b7",
+    "443-effective-kappa-and-actual-detector-capacity.md": "79bfb7f8770eb3865ccdfe0da416388b2182383bd425fd57b39f520b3fd59bc6",
+    "444-joint-error-slots-and-uniform-central-high-saving.md": "47686e9b6b28239562e83e9ab5199349458fd19bf9abbe45cca67df8c876957c",
+    "445-conditional-strip-improvement-and-family-continuation.md": "99ac005976c7c22934b5597c25b0d6fc6d7f3f4d9be604f8cbd53e130eae0f2e"
+  },
+  "symbolic_certificate": {
+    "coefficient_identity": true,
+    "nonzero_coefficients": 12
+  },
+  "finite_frequency_cases": 16728,
+  "boundary": "69999/80000",
+  "adaptive_margin": "307/11016000",
+  "extension": "307/352512000",
+  "extended_margin": "307/11750400",
+  "floor_margin": "4327/750000",
+  "intermediate_margin": "120907/36000000",
+  "small_margin": "172249/2000000",
+  "example_fixed_absolute_line": 6064241,
+  "reference_gap_not_double_counted": true
+}

@@ -1,5 +1,18 @@
 # 研究分支看板
 
+## 当前用户队列（2026-10-07，442–446实际high闭合后）
+
+当前Goal仍是研究全局条带与简单临界线比例能否改善，保持active。原长期几何队列保留。
+
+| 顺序 | 任务 | 验收与范围 |
+|---|---|---|
+| 已结算 | [442共享轮廓](notes/442-shared-contours-and-principal-signal-at-the-new-boundary.md)、[443实际容量](notes/443-effective-kappa-and-actual-detector-capacity.md)、[444联合high](notes/444-joint-error-slots-and-uniform-central-high-saving.md)、[445全族延拓](notes/445-conditional-strip-improvement-and-family-continuation.md) | 相对原精确[R]，引用证明推进strict sigma到69999/80000；445两审，无新kernel验收 |
+| 比例已付接口 | [446规范twists与原frame](notes/446-uniform-prime-twists-on-the-original-gabor-frame.md) | 实际prime前缀、低绝对height费与同一centered四迹弱界；无constant预算或比例记录 |
+| 当前主线 | [更大槽参数与response相关和](reviews/2026-10-07/hybrid-verified-boundary-and-response-correlation-next-proof-plan.md) | 连续endpoint证书、floor与全d重验；同时实际Type-I准入及截断Type-II/signed背景净预算 |
+| 必要辅助 | [精确代数范围](reviews/2026-10-07/hybrid-high-continuation-exact-audit.md)及独立全文审查 | 16,728个finite模型与连续系数身份分列；math只读，旧证书保持 |
+
+438–441检查点d9d80d0保留。以下为历史快照。
+
 ## 当前用户队列（2026-10-07，7/8与比例的估计接口）
 
 用户新目标为结合全局7/8与简单临界线比例，研究两种界能否进一步改善。当前Goal active。

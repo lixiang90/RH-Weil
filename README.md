@@ -1,5 +1,20 @@
 # RH / Weil 结构研究
 
+## 当前研究状态（2026-10-07，实际high与引用边界改进，442–446）
+
+沿438–441继续，只读OpenAI/math。[442](notes/442-shared-contours-and-principal-signal-at-the-new-boundary.md)支付同源high身份、新解析域、principal及外行；
+[443](notes/443-effective-kappa-and-actual-detector-capacity.md)固定合法kappa=3/4并逐前件支付actualcapacity/counts；
+[444](notes/444-joint-error-slots-and-uniform-central-high-saving.md)联合所有strict error labels与一个numerator，给全物理频率saving。
+[445](notes/445-conditional-strip-improvement-and-family-continuation.md)闭合统一参数、同一normalizer、lateheight及Mellin反证：
+**引用正文明确列出的原通用结果与全Hecke7/8bootstrap后，严格边界推进到69999/80000=7/8−1/80000。**
+该纸面引用证明有两份独立全文复核；未新增Lean kernel证书，也未独立重证外部整篇论文。
+
+[446](notes/446-uniform-prime-twists-on-the-original-gabor-frame.md)把全height canonical prime界接入原AF finite frame，
+得到中心四次迹弱界O(T^(3/4+epsilon))；仍不足以改善简单临界线比例主常数。
+连续certificate有精确系数身份，另核16,728个有理模型，范围见[审计](reviews/2026-10-07/hybrid-high-continuation-exact-audit.md)。
+下一步是[更大槽参数及真实Type-I/Type-II相关和](reviews/2026-10-07/hybrid-verified-boundary-and-response-correlation-next-proof-plan.md)。
+Goal active；原F₁/RR/RH与截止相位任务保留。438–441检查点d9d80d0已推送；以下为历史快照。
+
 ## 当前研究状态（2026-10-07，7/8与零点比例接口，438–441）
 
 按用户新目标只读核查OpenAI/math的7/8主稿、11/12替代证明及实际Lean入口，

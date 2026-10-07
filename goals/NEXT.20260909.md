@@ -1,5 +1,14 @@
 # 20260909版重启任务单
 
+## 当前用户任务（2026-10-07，442–446结算后）
+
+执行[更大槽连续certificate与真实response相关和](../reviews/2026-10-07/hybrid-verified-boundary-and-response-correlation-next-proof-plan.md)。
+441–445已经闭合原通用[R]下sigma=69999/80000的全族纸面引用证明；不是整篇来源或Lean kernel独立认证。
+下一边界候选必须有连续endpoint正性、floor/no-slot与全部d、actualsupply、解析域和统一量词。
+比例方向446的规范prime接口已传入原finite frame，但四迹仍为T-growth弱界，主常数没有改善。
+保留原双factor截断、signed背景cross terms，先付真实Type-I再定位Type-II/dispersion净预算。
+当前Goal active；原GOAL.20260909、第十节及F₁/RR/RH目标保持。以下为历史任务。
+
 ## 当前用户任务（2026-10-07，7/8与零点比例接口）
 
 执行[共享轮廓与实际capacity准入](../reviews/2026-10-07/hybrid-low-and-contour-extension-next-proof-plan.md)。

@@ -1,5 +1,26 @@
 # 持续GOAL执行账本：20260909版重启
 
+## 2026-10-07：442–446实际high、全族引用边界与比例算术接口
+
+从已推送d9d80d0继续。442重放新sigma1的完整same-source身份、Euler域、principal/whole-bin/outer轮廓；
+443以kappa_eff=max(3/4,2beta_*-1)支付actualwitness、whole-slotspikes、strictwidth及原plain范围。
+7/8bootstrap下fixedkappa=3/4，无负Delta容量输入。444的strictlabels只使用一次numerator conductor亏损，
+actualg=qell，floor/no-slot/selected及h+zeta全部有正余量，reference sigma1无双扣。
+
+445先central预算→mesh→K→mu，再internalheight→tau→externalN，low/high共用同一S/A_T与无T1的函数。
+全族Mellin反证完成**相对明确原通用[R]与7/8bootstrap的引用证明**：strict Re s>69999/80000。
+两个独立全文审查通过；没有独立重证原论文整链，没有新增Lean kernel认证。
+Exactaudit给完成平方的双变量有理系数身份和16,728项频率模型；模型不认证无限分析。
+
+446给canonical mu/Lambda全导子pure-twist高度subpower/log成本，保留原sharp前缀与principal项；
+通过原AF absolute-height Bessel及J外positive trace费用，得真实centered四迹弱界O(T^(3/4+epsilon))。
+它仍远弱于constant-size净四矩预算，没有新比例。X=T²/H=T及long-prime移线阈值、
+additive phase sqrt(phi(q))费用和双factor截断缺口均明确。
+
+继续[更大槽连续证书及真实response Type-I/Type-II任务](../reviews/2026-10-07/hybrid-verified-boundary-and-response-correlation-next-proof-plan.md)。
+当前app Goal active；比例常数与来源整体认证仍未结算，原长期GOAL、第十节和F₁截止相位任务保持。
+以下为历史快照。
+
 ## 2026-10-07：按新用户目标研究7/8与67.25%的接口，438–441
 
 从已推送main的a8e6d4c继续，math仓库仅只读。当前app Goal是结合两篇文章研究比例及无零边界能否改善，保持active；
