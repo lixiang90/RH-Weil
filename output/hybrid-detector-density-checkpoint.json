@@ -1,0 +1,321 @@
+{
+  "date": "2026-10-08",
+  "base_commit": "2681813154243e10cf4602f4e88514355060d379",
+  "original_field_sixthfree_rows_and_zero_masks_retained": true,
+  "new_frozen_powerful_uniform_AFE_derivation": true,
+  "new_raw_primitive_zero_row_density": true,
+  "density_relative_to_original_sieve_and_standard_AFE": true,
+  "new_full_domain_final_envelope_dominance_proof": true,
+  "new_high_bin_continuous_strict_margin": true,
+  "floor_uses_actual_zero_witness": false,
+  "new_density_prime_slot_joint_amplification": false,
+  "new_scalar_ratio_upper": false,
+  "new_actual_zero_proportion": false,
+  "new_zero_free_boundary": false,
+  "new_paper": false,
+  "finite_certificate": {
+    "checks": [
+      "actual conductor AFE third term",
+      "Type I full height",
+      "plain Y full height",
+      "7/8 original degree two height",
+      "low sigma Type I balance",
+      "low sigma X-first domination identity",
+      "low sigma E versus g*x",
+      "low sigma whole layer at x=1",
+      "low sigma h <= y (bilinear rectangle)",
+      "low sigma y <= 2x (bilinear rectangle)",
+      "small powerful-layer cardinality",
+      "7/8 high h nonnegative (affine whole interval)",
+      "7/8 high h <= y (affine whole interval)",
+      "7/8 high sieve >= x (affine whole interval)",
+      "7/8 high sieve >= h (affine whole interval)",
+      "7/8 high sieve >= cross (affine whole interval)",
+      "7/8 high Type I <= E (affine whole interval)",
+      "7/8 high X first <= E (affine whole interval)",
+      "7/8 high X cross <= E (affine whole interval)",
+      "7/8 high Y cross <= X cross (affine whole interval)",
+      "7/8 high plain balance",
+      "7/8 high total <= 7/13 (affine whole interval)",
+      "7/8 middle h nonnegative (affine whole interval)",
+      "7/8 middle h <= y (affine whole interval)",
+      "7/8 middle sieve >= x (affine whole interval)",
+      "7/8 middle sieve >= h (affine whole interval)",
+      "7/8 middle sieve >= cross (affine whole interval)",
+      "7/8 middle Type I <= E (affine whole interval)",
+      "7/8 middle X first <= E (affine whole interval)",
+      "7/8 middle X cross <= E (affine whole interval)",
+      "7/8 middle Y cross <= X cross (affine whole interval)",
+      "7/8 middle plain balance",
+      "7/8 middle total <= 7/13 (affine whole interval)",
+      "7/8 small cardinality h nonnegative (affine whole interval)",
+      "7/8 small cardinality h <= y (affine whole interval)",
+      "7/8 small cardinality sieve >= x (affine whole interval)",
+      "7/8 small cardinality sieve >= h (affine whole interval)",
+      "7/8 small cardinality sieve >= cross (affine whole interval)",
+      "7/8 small cardinality Type I <= E (affine whole interval)",
+      "7/8 small cardinality X first <= E (affine whole interval)",
+      "7/8 small cardinality X cross <= E (affine whole interval)",
+      "7/8 small cardinality Y cross <= X cross (affine whole interval)",
+      "7/8 small cardinality plain balance",
+      "7/8 small cardinality total <= 7/13 (affine whole interval)",
+      "7/8 small optimized h nonnegative (affine whole interval)",
+      "7/8 small optimized h <= y (affine whole interval)",
+      "7/8 small optimized sieve >= x (affine whole interval)",
+      "7/8 small optimized sieve >= h (affine whole interval)",
+      "7/8 small optimized sieve >= cross (affine whole interval)",
+      "7/8 small optimized Type I <= E (affine whole interval)",
+      "7/8 small optimized X first <= E (affine whole interval)",
+      "7/8 small optimized X cross <= E (affine whole interval)",
+      "7/8 small optimized Y cross <= X cross (affine whole interval)",
+      "7/8 small optimized plain balance",
+      "7/8 small optimized total <= 7/13 (affine whole interval)",
+      "raw count saving",
+      "maximum fixed y and sigma slope",
+      "whole rectangle P/D bound numerator",
+      "P/D sign on entire c,x rectangle",
+      "final monotone envelope upper",
+      "actual low raw minus final upper",
+      "hypothetical exact high minus final upper",
+      "actual safe high minus final upper",
+      "literature piecewise join",
+      "actual safe high endpoint",
+      "high safe numerator minimum endpoint",
+      "actual safe high numerator decreasing throughout interval",
+      "exact high quadratic increasing and strictly negative throughout interval",
+      "three rational full-interval strict margins",
+      "high bin Bernstein coefficient (0,0) > 1/25",
+      "high bin Bernstein coefficient (0,1) > 1/25",
+      "high bin Bernstein coefficient (0,2) > 1/25",
+      "high bin Bernstein coefficient (0,3) > 1/25",
+      "high bin Bernstein coefficient (1,0) > 1/25",
+      "high bin Bernstein coefficient (1,1) > 1/25",
+      "high bin Bernstein coefficient (1,2) > 1/25",
+      "high bin Bernstein coefficient (1,3) > 1/25",
+      "high bin Bernstein coefficient (2,0) > 1/25",
+      "high bin Bernstein coefficient (2,1) > 1/25",
+      "high bin Bernstein coefficient (2,2) > 1/25",
+      "high bin Bernstein coefficient (2,3) > 1/25"
+    ],
+    "count": 81,
+    "scope": "exact continuous affine and polynomial algebra, not analytic family certification",
+    "raw_exponent_at_7_over_8": "7/13",
+    "raw_saving": "9/104",
+    "height_exponent_at_7_over_8": "6/5",
+    "high_bin_strict_endpoint_margin": "1/125",
+    "direct_density_min_improves_final_envelope": false
+  },
+  "review_bindings": [
+    {
+      "source": "reviews/2026-10-08/hybrid-original-sextic-primitive-zero-density-research-compression.md",
+      "source_sha256": "74ea809c6aef75638dc2bc115af2b592ff4feb999cd15e35adcfa4319235d52b",
+      "review": "reviews/2026-10-08/hybrid-original-sextic-primitive-zero-density-review-root.md",
+      "review_sha256": "0db60d2d8d968370904244e5979b860783f220c53ca67dd8fe552a7c65a251c0"
+    },
+    {
+      "source": "reviews/2026-10-08/hybrid-original-sextic-primitive-zero-density-research-compression.md",
+      "source_sha256": "74ea809c6aef75638dc2bc115af2b592ff4feb999cd15e35adcfa4319235d52b",
+      "review": "reviews/2026-10-08/hybrid-original-sextic-primitive-zero-density-review-twisted.md",
+      "review_sha256": "1256944db67fbaceea6678d9f1aee20251adc097898522fe4cf8d89b8f79d933"
+    },
+    {
+      "source": "reviews/2026-10-08/hybrid-original-density-envelope-dominance-research-root.md",
+      "source_sha256": "6e1352c0f4660239c13f02bad622384c51e2df0035a5739743cb2bc78f76961e",
+      "review": "reviews/2026-10-08/hybrid-original-density-envelope-dominance-review-twisted.md",
+      "review_sha256": "c2c0473b58ed752422b854d5cbbe213ae0b438f1ac74b13648167927849ff990"
+    },
+    {
+      "source": "reviews/2026-10-08/hybrid-high-bin-strict-certificate-research-twisted.md",
+      "source_sha256": "f33ace9d5600e5875ea05aa2ae32c0d70cd02610b6637cabcb53633965421138",
+      "review": "reviews/2026-10-08/hybrid-high-bin-strict-certificate-review-root.md",
+      "review_sha256": "f4ac558e2ca4e099e79ccfa1c8313ce089b00f31d8c13479ff248915f4912900"
+    },
+    {
+      "source": "notes/473-original-sextic-zero-density-and-final-envelope-comparison.md",
+      "source_sha256": "1b864a1e3891a2d53ad0e7019e91041fb1ec3911ed7c8ec23d43769d594bf8a1",
+      "review": "reviews/2026-10-08/473-original-density-and-envelope-review-radial.md",
+      "review_sha256": "d526c040671118f15ac028ebabfd95f1fe24cbf2eff0a66134428f67a4075488"
+    }
+  ],
+  "cited_source_hash_bindings": [
+    {
+      "document": "reviews/2026-10-08/hybrid-original-density-envelope-dominance-research-root.md",
+      "source": "notes/450-plain-kappa-extension-and-actual-capacity.md",
+      "sha256": "f16807e0f80461e3005b3173e313218b00f5f86abfa860a4ead79e425dd6bee5"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-original-density-envelope-dominance-research-root.md",
+      "source": "notes/451-kappa-feedback-cubic-boundary-and-family-continuation.md",
+      "sha256": "17ce7fea8c881ebd4034657b7039e99897d4ff9532348993ba329c46e3c4d487"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-high-bin-strict-certificate-research-twisted.md",
+      "source": "notes/451-kappa-feedback-cubic-boundary-and-family-continuation.md",
+      "sha256": "17ce7fea8c881ebd4034657b7039e99897d4ff9532348993ba329c46e3c4d487"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-high-bin-strict-certificate-research-twisted.md",
+      "source": "scripts/hybrid_kappa_feedback_exact_audit.py",
+      "sha256": "e03d6536378fff4b51625ab71fa5eace9fcbf4fe1156ccb6ae048f03bf96bc68"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-high-bin-strict-certificate-research-twisted.md",
+      "source": "output/hybrid-kappa-feedback-exact-audit.json",
+      "sha256": "309f275701a1d96c245eb067d49b00598df4af8e380d220944de250fd2e9d7ba"
+    },
+    {
+      "document": "notes/473-original-sextic-zero-density-and-final-envelope-comparison.md",
+      "source": "reviews/2026-10-08/hybrid-original-sextic-primitive-zero-density-research-compression.md",
+      "sha256": "74ea809c6aef75638dc2bc115af2b592ff4feb999cd15e35adcfa4319235d52b"
+    },
+    {
+      "document": "notes/473-original-sextic-zero-density-and-final-envelope-comparison.md",
+      "source": "reviews/2026-10-08/hybrid-original-density-envelope-dominance-research-root.md",
+      "sha256": "6e1352c0f4660239c13f02bad622384c51e2df0035a5739743cb2bc78f76961e"
+    },
+    {
+      "document": "notes/473-original-sextic-zero-density-and-final-envelope-comparison.md",
+      "source": "reviews/2026-10-08/hybrid-high-bin-strict-certificate-research-twisted.md",
+      "sha256": "f33ace9d5600e5875ea05aa2ae32c0d70cd02610b6637cabcb53633965421138"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-original-sextic-primitive-zero-density-review-twisted.md",
+      "source": "reviews/2026-10-08/hybrid-original-sextic-primitive-zero-density-research-compression.md",
+      "sha256": "74ea809c6aef75638dc2bc115af2b592ff4feb999cd15e35adcfa4319235d52b"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-original-sextic-primitive-zero-density-review-twisted.md",
+      "source": "notes/450-plain-kappa-extension-and-actual-capacity.md",
+      "sha256": "f16807e0f80461e3005b3173e313218b00f5f86abfa860a4ead79e425dd6bee5"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-original-sextic-primitive-zero-density-review-twisted.md",
+      "source": "notes/451-kappa-feedback-cubic-boundary-and-family-continuation.md",
+      "sha256": "17ce7fea8c881ebd4034657b7039e99897d4ff9532348993ba329c46e3c4d487"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-original-density-envelope-dominance-review-twisted.md",
+      "source": "reviews/2026-10-08/hybrid-original-density-envelope-dominance-research-root.md",
+      "sha256": "6e1352c0f4660239c13f02bad622384c51e2df0035a5739743cb2bc78f76961e"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-original-density-envelope-dominance-review-twisted.md",
+      "source": "notes/450-plain-kappa-extension-and-actual-capacity.md",
+      "sha256": "f16807e0f80461e3005b3173e313218b00f5f86abfa860a4ead79e425dd6bee5"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-original-density-envelope-dominance-review-twisted.md",
+      "source": "notes/451-kappa-feedback-cubic-boundary-and-family-continuation.md",
+      "sha256": "17ce7fea8c881ebd4034657b7039e99897d4ff9532348993ba329c46e3c4d487"
+    },
+    {
+      "document": "reviews/2026-10-08/473-original-density-and-envelope-review-radial.md",
+      "source": "notes/473-original-sextic-zero-density-and-final-envelope-comparison.md",
+      "sha256": "1b864a1e3891a2d53ad0e7019e91041fb1ec3911ed7c8ec23d43769d594bf8a1"
+    },
+    {
+      "document": "reviews/2026-10-08/473-original-density-and-envelope-review-radial.md",
+      "source": "reviews/2026-10-08/hybrid-original-sextic-primitive-zero-density-research-compression.md",
+      "sha256": "74ea809c6aef75638dc2bc115af2b592ff4feb999cd15e35adcfa4319235d52b"
+    },
+    {
+      "document": "reviews/2026-10-08/473-original-density-and-envelope-review-radial.md",
+      "source": "reviews/2026-10-08/hybrid-original-density-envelope-dominance-research-root.md",
+      "sha256": "6e1352c0f4660239c13f02bad622384c51e2df0035a5739743cb2bc78f76961e"
+    },
+    {
+      "document": "reviews/2026-10-08/473-original-density-and-envelope-review-radial.md",
+      "source": "reviews/2026-10-08/hybrid-high-bin-strict-certificate-research-twisted.md",
+      "sha256": "f33ace9d5600e5875ea05aa2ae32c0d70cd02610b6637cabcb53633965421138"
+    },
+    {
+      "document": "reviews/2026-10-08/473-original-density-and-envelope-review-radial.md",
+      "source": "scripts/hybrid_detector_density_checkpoint.py",
+      "sha256": "48f3823dfd12959e670a4b19e55638f8ef12c3b871522a45f3409036dfcdd3a9"
+    },
+    {
+      "document": "reviews/2026-10-08/473-original-density-and-envelope-review-radial.md",
+      "source": "notes/450-plain-kappa-extension-and-actual-capacity.md",
+      "sha256": "f16807e0f80461e3005b3173e313218b00f5f86abfa860a4ead79e425dd6bee5"
+    },
+    {
+      "document": "reviews/2026-10-08/473-original-density-and-envelope-review-radial.md",
+      "source": "notes/451-kappa-feedback-cubic-boundary-and-family-continuation.md",
+      "sha256": "17ce7fea8c881ebd4034657b7039e99897d4ff9532348993ba329c46e3c4d487"
+    },
+    {
+      "document": "reviews/2026-10-08/473-original-density-and-envelope-review-radial.md",
+      "source": "scripts/hybrid_kappa_feedback_exact_audit.py",
+      "sha256": "e03d6536378fff4b51625ab71fa5eace9fcbf4fe1156ccb6ae048f03bf96bc68"
+    }
+  ],
+  "links_checked": 38,
+  "files": [
+    {
+      "path": "reviews/2026-10-08/hybrid-original-sextic-primitive-zero-density-research-compression.md",
+      "sha256_canonical_lf": "74ea809c6aef75638dc2bc115af2b592ff4feb999cd15e35adcfa4319235d52b",
+      "canonical_utf8_bytes": 20750,
+      "lines": 407
+    },
+    {
+      "path": "reviews/2026-10-08/hybrid-original-density-envelope-dominance-research-root.md",
+      "sha256_canonical_lf": "6e1352c0f4660239c13f02bad622384c51e2df0035a5739743cb2bc78f76961e",
+      "canonical_utf8_bytes": 6103,
+      "lines": 151
+    },
+    {
+      "path": "reviews/2026-10-08/hybrid-high-bin-strict-certificate-research-twisted.md",
+      "sha256_canonical_lf": "f33ace9d5600e5875ea05aa2ae32c0d70cd02610b6637cabcb53633965421138",
+      "canonical_utf8_bytes": 6428,
+      "lines": 215
+    },
+    {
+      "path": "notes/473-original-sextic-zero-density-and-final-envelope-comparison.md",
+      "sha256_canonical_lf": "1b864a1e3891a2d53ad0e7019e91041fb1ec3911ed7c8ec23d43769d594bf8a1",
+      "canonical_utf8_bytes": 5982,
+      "lines": 119
+    },
+    {
+      "path": "reviews/2026-10-08/hybrid-original-sextic-primitive-zero-density-review-root.md",
+      "sha256_canonical_lf": "0db60d2d8d968370904244e5979b860783f220c53ca67dd8fe552a7c65a251c0",
+      "canonical_utf8_bytes": 7167,
+      "lines": 135
+    },
+    {
+      "path": "reviews/2026-10-08/hybrid-original-sextic-primitive-zero-density-review-twisted.md",
+      "sha256_canonical_lf": "1256944db67fbaceea6678d9f1aee20251adc097898522fe4cf8d89b8f79d933",
+      "canonical_utf8_bytes": 9088,
+      "lines": 205
+    },
+    {
+      "path": "reviews/2026-10-08/hybrid-original-density-envelope-dominance-review-twisted.md",
+      "sha256_canonical_lf": "c2c0473b58ed752422b854d5cbbe213ae0b438f1ac74b13648167927849ff990",
+      "canonical_utf8_bytes": 4736,
+      "lines": 118
+    },
+    {
+      "path": "reviews/2026-10-08/hybrid-high-bin-strict-certificate-review-root.md",
+      "sha256_canonical_lf": "f4ac558e2ca4e099e79ccfa1c8313ce089b00f31d8c13479ff248915f4912900",
+      "canonical_utf8_bytes": 2988,
+      "lines": 65
+    },
+    {
+      "path": "reviews/2026-10-08/473-original-density-and-envelope-review-radial.md",
+      "sha256_canonical_lf": "d526c040671118f15ac028ebabfd95f1fe24cbf2eff0a66134428f67a4075488",
+      "canonical_utf8_bytes": 9916,
+      "lines": 192
+    },
+    {
+      "path": "scripts/hybrid_detector_density_checkpoint.py",
+      "sha256_canonical_lf": "48f3823dfd12959e670a4b19e55638f8ef12c3b871522a45f3409036dfcdd3a9",
+      "canonical_utf8_bytes": 12740,
+      "lines": 242
+    }
+  ],
+  "unproved": [
+    "a new actual joint density and common prime-slot amplification count",
+    "a useful original positive-height scalar fourth or ratio upper",
+    "a new actual proportion or zero-free boundary",
+    "independent certification of the imported R analytic kernel"
+  ]
+}
