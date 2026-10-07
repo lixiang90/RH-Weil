@@ -1,5 +1,19 @@
 # 20260909版重启任务单
 
+## 当前用户任务（2026-10-07，换域的实际大筛费用）
+
+[458](../notes/458-gaussian-all-row-large-sieve-comparison.md)已付未加slots的
+全Gaussian行二矩U+(UD)^(2/3)+D U^(1/3)，以及同fixed-profile的scale
+supremum；U>=D时为U+(UD)^(2/3)。普通LS仍只在U>=D^2成为近线性，
+且ua^4平均不能改善此envelope。不要再把条件e4单分支收益当作新边界。
+
+优先研究[sign-adapted实际probe](../reviews/2026-10-07/hybrid-gaussian-root-weight-probe-research.md)
+的同eta完整反射、quadratic终端及每个c>0的U>=D^(1+c) cancellation。
+458只处理squarefree inverse列；一次prime slots的expanded overlap列
+不再squarefree，须独立支付。marked/plain、height、全族延拓随后重验。
+确认完整新边界后才另写正式论文；当前Goal active，sigma*与比例保持。
+原finite第四矩/critical mixed任务继续，下文是先前队列和历史。
+
 ## 当前任务（2026-10-07，实际 Gaussian probe 与原有限四阶）
 
 优先继续用户数域方向：

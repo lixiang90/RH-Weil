@@ -1,5 +1,31 @@
 # 持续GOAL执行账本：20260909版重启
 
+## 2026-10-07：辅助数域定量比较与Gaussian全行大筛
+
+从 main 01851b2632523ef7d06428a0fd7e53fa4ba11dd6 继续回应用户关于
+Q(sqrt(-3))和替代数域的提问。本轮为 progress，Goal active；无新边界、
+比例或正式边界论文，README保持项目介绍。
+
+[458](../notes/458-gaussian-all-row-large-sieve-comparison.md)将BGL四次大筛
+与GL平方角色的二次大筛组合，覆盖Gaussian全部实际元素行（包括单位、
+lambda valuations、powerful rows和自然零），给出未加prime slots的
+U+(UD)^(2/3)+D U^(1/3)均方界及同fixed-profile scale supremum。
+U>=D时简化为U+(UD)^(2/3)，在中间尺度强于此前U+D^2；线性raw阈值
+仍为U>=D^2，未付原每个c>0的U>=D^(1+c)合同。
+
+原457的fourth-power-free起始行可合法作ua^4平均，但此大筛envelope
+除以multiplier数后H的三个幂仍为正，不能带来新的放大收益。
+条件e4相比e6约0.01035的单分支减少依赖尚未证明的理想raw输入，
+不是sigma减少。−3的实质优势仍是cubic/sextic组合产生quadratic终端；
+换固定判别式、有限单位数或扩CM域均不自动改善指数。
+
+两份独审、实际文件绑定与既有成果冻结见
+[本轮检查点](../reviews/2026-10-07/gaussian-all-row-large-sieve-checkpoint.json)。
+13/31、22distinct和三列反射的其他草稿及新审查未在此检查点验收。
+下一输入是同target的Gaussian完成反射、实际quadratic终端与临界
+cancellation，以及prime slots的overlap；现有引用范围内sigma*保持。
+以下保留历史。
+
 ## 2026-10-07：Gaussian 实际 probe 与455–456有限四阶归约
 
 从已推送 main 5b7effad9126499583a2243e462e16e28b346265 继续，本轮为

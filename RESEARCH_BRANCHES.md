@@ -1,5 +1,21 @@
 # 研究分支看板
 
+## 当前用户队列（2026-10-07，辅助数域的实际费用）
+
+Goal active；现有引用输入下sigma*保持，无新边界或比例。
+
+| 范围 | 已付与剩余 |
+|---|---|
+| [457 数域机制](notes/457-number-field-choice-and-relative-amplification.md) | cubic/sextic降quadratic是−3的结构优势；条件order4单分支收益需理想raw合同 |
+| [Gaussian实际probe](reviews/2026-10-07/hybrid-gaussian-root-weight-probe-research.md) | 保留同target的精确Poisson/Möbius identity、sign-adapted numerator已付；全target完成和quadratic终端未付 |
+| [458 全行大筛](notes/458-gaussian-all-row-large-sieve-comparison.md) | 未加slots的U+(UD)^(2/3)+D U^(1/3)，含powerful/ramified/unit及scale sup；线性阈值仍D^2，ua^4不改善此预算 |
+| 下一证明目标 | 同probe的近临界cancellation与全族反射；prime-slot overlap、marked/plain及延拓；原有限distinct/mixed第四矩继续 |
+
+两份独审与既有成果冻结见
+[本轮检查点](reviews/2026-10-07/gaussian-all-row-large-sieve-checkpoint.json)。
+README与旧论文保持；其他三份草稿及其审查待后续root验收。
+以下为此前队列及历史。
+
 ## 当前队列（2026-10-07，Gaussian 实际probe与455–456）
 
 Goal active；最新引用输入下sigma*≈0.874957019420099保持，无新边界/比例。
