@@ -1,5 +1,37 @@
 # 持续GOAL执行账本：20260909版重启
 
+## 2026-10-07：454原背景、重复高低四词及actual mixed放大
+
+从已推送 main 1a51f5767f217c3dc02cd97ff2233d25cd8dd186 的干净工作区
+继续，本轮为 progress，Goal active。
+[454](../notes/454-original-background-and-weighted-prime-mixed-traces.md)
+保留原 finite carrier、全部 sharp Λ/proper powers 与 Γ/pole 全高度，
+付清完整 log-range weighted二矩、commutator 和四个实际背景四阶量。
+完整 centered fourth准确分解为 F_T+4Y_T+6Zψ−Jψ+Vψ+o(1)，
+未知 Y_T=Tr AC³/N 保持实际 A；只有未来 full F_T 有限后才可接一侧桥梁。
+
+[高低重复四词](../reviews/2026-10-07/hybrid-low-high-mixed-four-word-research.md)
+付清原 finite matrix 的 repeated 22 union，fixed-profile 主项4D_HL+8J_HL，
+flat13/120。high/low重复两族与交集须 inclusion–exclusion，
+不能相加；22 distinct、13/31以及整个prime第四矩仍未付。
+根节点全文审查要求并补齐了 physical/finite multiplication bridge，
+全部三P crossing、composite–prime近远矩形、carrier/alias均单独付款。
+
+[actual amplified研究](../reviews/2026-10-07/hybrid-amplified-mixed-column-research.md)
+新增 whole μ×1×1×一次Q的ua⁶ exact transfer，原系数、radical、normalization
+和不同ν/Γ profiles均保留；原positive prime slots与近原scale同时spikes保留。
+marked/plain合同加pointwise的连续前向优化仍回原counts，
+reference center的新raw toll须γ<1/3，当前只得到等号，没有strictχ。
+
+独立全文审查、Counter/Fraction有限代数及最终文件绑定见
+[本轮检查点](../reviews/2026-10-07/background-mixed-sector-and-amplified-checkpoint.json)。
+新脚本只核cyclic系数、九个标签模型和有理多项式积分，
+不认证无限素数、Hilbert、投影或来源整链。
+旧三篇正式边界论文、PDF、历史README和外部math保持原版，
+最新σ*未变化；无新边界/比例，本轮不另写边界论文。
+继续[真正signed四词及结构化mixed raw estimate](../reviews/2026-10-07/hybrid-background-mixed-sector-and-amplified-next-proof-plan.md)。
+原长期几何/Weil/RR/RH目标与外部来源认证保留。以下为历史。
+
 ## 2026-10-07：452–453 四次迹截断与显式素数子预算
 
 从已推送 f76eb72 的干净工作区继续，本轮属于 progress。

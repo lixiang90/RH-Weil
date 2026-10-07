@@ -1,0 +1,113 @@
+{
+  "status": "PASS: finite cyclic algebra and exact polynomial integrals only",
+  "cyclic_fourth_coefficients": {
+    "AAAA": 1,
+    "AAAC": 4,
+    "AACC": 4,
+    "ACAC": 2,
+    "ACCC": 4,
+    "CCCC": 1
+  },
+  "commutator_norm_coefficients": {
+    "AACC": 2,
+    "ACAC": -2
+  },
+  "profile_models": {
+    "flat": {
+      "a": "1",
+      "V": "0",
+      "Z": "0",
+      "J": "0",
+      "six_Z_minus_J_plus_V": "0"
+    },
+    "one_minus_v_squared": {
+      "a": "11/12",
+      "V": "48/512435",
+      "Z": "12896/5636785",
+      "J": "29784/5636785",
+      "six_Z_minus_J_plus_V": "9624/1127357"
+    }
+  },
+  "flat_high_low_diagonal_integral": "23/960",
+  "flat_high_low_four_corner_integral": "1/640",
+  "flat_repeated_mixed_displayed_constant": "13/120",
+  "repeated_mixed_union_models": [
+    {
+      "high_labels": 1,
+      "low_labels": 1,
+      "labelled_words": 6,
+      "cyclic_classes": 2
+    },
+    {
+      "high_labels": 1,
+      "low_labels": 2,
+      "labelled_words": 24,
+      "cyclic_classes": 7
+    },
+    {
+      "high_labels": 1,
+      "low_labels": 3,
+      "labelled_words": 54,
+      "cyclic_classes": 15
+    },
+    {
+      "high_labels": 2,
+      "low_labels": 1,
+      "labelled_words": 24,
+      "cyclic_classes": 7
+    },
+    {
+      "high_labels": 2,
+      "low_labels": 2,
+      "labelled_words": 72,
+      "cyclic_classes": 20
+    },
+    {
+      "high_labels": 2,
+      "low_labels": 3,
+      "labelled_words": 144,
+      "cyclic_classes": 39
+    },
+    {
+      "high_labels": 3,
+      "low_labels": 1,
+      "labelled_words": 54,
+      "cyclic_classes": 15
+    },
+    {
+      "high_labels": 3,
+      "low_labels": 2,
+      "labelled_words": 144,
+      "cyclic_classes": 39
+    },
+    {
+      "high_labels": 3,
+      "low_labels": 3,
+      "labelled_words": 270,
+      "cyclic_classes": 72
+    }
+  ],
+  "inputs_read_and_hashed_from_disk": [
+    {
+      "path": "notes/454-original-background-and-weighted-prime-mixed-traces.md",
+      "sha256_canonical_lf": "8ab99d60c1b748dc561cac57ee498057a0c9fb19b9778a041261b1bad0750db7",
+      "canonical_utf8_bytes": 13284
+    },
+    {
+      "path": "reviews/2026-10-07/hybrid-low-high-mixed-four-word-research.md",
+      "sha256_canonical_lf": "71f62b2dd931cfda012e7dad9c4efcfece63f5cf1bb8ff5b466d3e2ac1ae89f9",
+      "canonical_utf8_bytes": 22126
+    }
+  ],
+  "script_read_and_hashed_from_disk": {
+    "path": "scripts/hybrid_background_exact_audit.py",
+    "sha256_canonical_lf": "dfd8aa390df5a34a3dab27154648bfc6e903894f6b2ff2514156bcfd7b0c2105",
+    "canonical_utf8_bytes": 7086
+  },
+  "not_certified": [
+    "Gamma/pole uniform bounds, Hilbert estimates, finite projection leakage or alias asymptotics",
+    "any complete prime fourth moment or mixed-prime correlation",
+    "mixed-character power saving, a new zero-free boundary, zero proportion or RH",
+    "external source proofs or proof kernels"
+  ]
+}

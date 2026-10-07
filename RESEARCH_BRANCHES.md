@@ -1,5 +1,21 @@
 # 研究分支看板
 
+## 当前用户队列（2026-10-07，454背景、重复高低四词与放大混合列）
+
+当前 Goal active；最新已交付 σ*≈0.874957019420099 保持。
+本轮没有新边界、比例或边界论文；公开 README 保持项目介绍。
+
+| 范围 | 已付与剩余 |
+|---|---|
+| [454原背景](notes/454-original-background-and-weighted-prime-mixed-traces.md) | full Λ weighted二矩/commutator、四个背景四阶量已付；实际 AC³ 与完整 F_T 仍开 |
+| [重复高低四词](reviews/2026-10-07/hybrid-low-high-mixed-four-word-research.md) | 真实 repeated 22 union 主项4D+8J，flat13/120；22 distinct、13/31与完整四迹未付 |
+| [actual amplified mixed](reviews/2026-10-07/hybrid-amplified-mixed-column-research.md) | whole μ×1×1×Q transfer、natural zeros及同时spikes保留；raw toll γ<1/3仍未证 |
+| [当前证明任务](reviews/2026-10-07/hybrid-background-mixed-sector-and-amplified-next-proof-plan.md) | 实际 distinct/13/31 signed预算；结构化三列反射与严格mixed saving；有新界后重验全域并另写论文 |
+
+独审、有限代数与冻结来源见
+[本轮检查点](reviews/2026-10-07/background-mixed-sector-and-amplified-checkpoint.json)。
+不能把三个素数子预算相加成完整四阶常数。以下保留历史队列。
+
 ## 当前用户队列（2026-10-07，452–453与实际mixed预算）
 
 当前Goal active；σ*≈0.874957019420099保持，无新增边界/比例或论文。

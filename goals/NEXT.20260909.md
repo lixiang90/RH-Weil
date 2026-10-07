@@ -1,5 +1,19 @@
 # 20260909版重启任务单
 
+## 当前用户任务（2026-10-07，454背景与actual mixed新检查点）
+
+执行[实际signed剩余四词与structured amplified mixed](../reviews/2026-10-07/hybrid-background-mixed-sector-and-amplified-next-proof-plan.md)。
+原背景四个四阶量、full-range weighted二矩和commutator已付；
+AC³与whole prime F_T仍开放。repeated 22 union已得flat13/120，
+22 distinct、13/31、proper-power whole mixed及完整四矩常数须继续实际计算。
+已有子预算不相加成比例，也不重复已付452 padding。
+
+无零界方向已完成 whole μ×1×1×Q ua⁶ transfer与near-scale同时spikes保留，
+但现有连续前向优化仍恰好临界。下一输入是结构 family 的实际raw toll
+γ<1/3（实际邻域用其参数化阈值），包含不同ν、原Γ profiles、natural zeros、
+一次原slots和有限高度阶。完成严格χ后才全域重验并另写正式论文。
+Goal active；无新边界/比例，旧论文与原长期目标保持。以下为历史。
+
 ## 当前用户任务（2026-10-07，452–453与素数子预算检查点）
 
 执行[真实 amplified mixed 与 distinct/mixed 四词](../reviews/2026-10-07/hybrid-prime-sector-and-critical-mixed-next-proof-plan.md)。
