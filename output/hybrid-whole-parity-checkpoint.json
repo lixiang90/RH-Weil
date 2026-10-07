@@ -1,0 +1,593 @@
+{
+  "date": "2026-10-08",
+  "base_repository_commit": "dc19ebde221a43031bf4eb822a752b21aee4beec",
+  "scope": "exact finite algebra, full low path integration, final source and independent review bindings",
+  "previous_checkpoint_checked": "PASS: original cubic/parity exact integrals, capped31 powers, final review bindings and preserved checkpoint",
+  "new_actual_whole_high_necessary_constraint": true,
+  "new_actual_low_parity_constants": true,
+  "new_marked_13_orthogonality_requires_stated_R_and_bounded_q": true,
+  "new_high_residual_upper_bound": false,
+  "new_actual_proportion": false,
+  "old_Q_one_over_350_excluded_by_actual_centered_variance": true,
+  "new_zero_free_boundary": false,
+  "new_paper": false,
+  "unchanged_sigma_under_stated_R": "0.87495701942009894612860385056...",
+  "finite_certificate": {
+    "clip_scalar_piecewise_square_identities": 4,
+    "tail_elimination_exact_completed_square": true,
+    "tail_elimination_remaining_branch_nonnegative": true,
+    "earlier_actual_high_parity_gap_no_growth_premise": "41/15120",
+    "whole_low_path_integrals": {
+      "eeee": {
+        "pairings": {
+          "A": "7/960",
+          "A_prime": "7/960",
+          "O": "1/480"
+        },
+        "total": "1/60",
+        "positive_cells": 32
+      },
+      "eeeo": {
+        "pairings": {
+          "A": "0",
+          "A_prime": "0",
+          "O": "0"
+        },
+        "total": "0",
+        "positive_cells": 0
+      },
+      "eeoe": {
+        "pairings": {
+          "A": "0",
+          "A_prime": "0",
+          "O": "0"
+        },
+        "total": "0",
+        "positive_cells": 0
+      },
+      "eeoo": {
+        "pairings": {
+          "A": "13/1920",
+          "A_prime": "0",
+          "O": "1/384"
+        },
+        "total": "3/320",
+        "positive_cells": 14
+      },
+      "eoee": {
+        "pairings": {
+          "A": "0",
+          "A_prime": "0",
+          "O": "0"
+        },
+        "total": "0",
+        "positive_cells": 0
+      },
+      "eoeo": {
+        "pairings": {
+          "A": "0",
+          "A_prime": "0",
+          "O": "1/240"
+        },
+        "total": "1/240",
+        "positive_cells": 4
+      },
+      "eooe": {
+        "pairings": {
+          "A": "0",
+          "A_prime": "13/1920",
+          "O": "1/384"
+        },
+        "total": "3/320",
+        "positive_cells": 14
+      },
+      "eooo": {
+        "pairings": {
+          "A": "0",
+          "A_prime": "0",
+          "O": "0"
+        },
+        "total": "0",
+        "positive_cells": 0
+      },
+      "oeee": {
+        "pairings": {
+          "A": "0",
+          "A_prime": "0",
+          "O": "0"
+        },
+        "total": "0",
+        "positive_cells": 0
+      },
+      "oeeo": {
+        "pairings": {
+          "A": "0",
+          "A_prime": "13/1920",
+          "O": "1/384"
+        },
+        "total": "3/320",
+        "positive_cells": 14
+      },
+      "oeoe": {
+        "pairings": {
+          "A": "0",
+          "A_prime": "0",
+          "O": "1/240"
+        },
+        "total": "1/240",
+        "positive_cells": 4
+      },
+      "oeoo": {
+        "pairings": {
+          "A": "0",
+          "A_prime": "0",
+          "O": "0"
+        },
+        "total": "0",
+        "positive_cells": 0
+      },
+      "ooee": {
+        "pairings": {
+          "A": "13/1920",
+          "A_prime": "0",
+          "O": "1/384"
+        },
+        "total": "3/320",
+        "positive_cells": 14
+      },
+      "ooeo": {
+        "pairings": {
+          "A": "0",
+          "A_prime": "0",
+          "O": "0"
+        },
+        "total": "0",
+        "positive_cells": 0
+      },
+      "oooe": {
+        "pairings": {
+          "A": "0",
+          "A_prime": "0",
+          "O": "0"
+        },
+        "total": "0",
+        "positive_cells": 0
+      },
+      "oooo": {
+        "pairings": {
+          "A": "1/120",
+          "A_prime": "1/120",
+          "O": "0"
+        },
+        "total": "1/60",
+        "positive_cells": 8
+      }
+    },
+    "whole_low_weighted_constants": {
+      "Se": "7/960",
+      "So": "1/120",
+      "Seo": "13/1920",
+      "Ce": "9/640",
+      "Co": "19/1920",
+      "second_even": "1/12",
+      "second_odd": "1/12",
+      "variance_even_low_square": "3/320",
+      "variance_odd_low_square": "1/120",
+      "covariance_low_squares": "1/384",
+      "variance_even_total_square": "11/480",
+      "variance_odd_total_square": "13/480"
+    },
+    "new_centered_actual_necessary_bound": {
+      "spectral_diagonal_covariance_exact": "(y+epsilon-mu*m)^2 <= (x-mu^2)*(v-y)",
+      "variance": "17/1440",
+      "K_over_M": "41/3780",
+      "actual_q_and_parity_gap_lower": "-55/3024 + sqrt(104899)/15120",
+      "decimal_lower": "0.00323288035989094197020491923106541137447812407",
+      "no_fourth_growth_premise": true,
+      "old_Q_excluded": true,
+      "old_Q_polynomial_value": "-15199/952560000",
+      "strict_rational_exclusion_gap": "15199/13967100"
+    },
+    "excluded_Q_counterfactual_forward_certificate": {
+      "Q": "1/350",
+      "odd_variance_cap": "11/151200",
+      "covariance_root_squared_terms": [
+        "4631/72576000",
+        "143/72576000"
+      ],
+      "covariance_upper": "47/5000",
+      "covariance_root_remainder": "365807/16200000000",
+      "covariance_squared_margin": "155910001/22325625000000000000",
+      "z_even_upper": "13/500",
+      "z_even_root_margins": [
+        "733609/150000000",
+        "17275154167/157500000000000000",
+        "84695927/9072000000000000",
+        "4679/100000000"
+      ],
+      "Young_weights": [
+        "16/3",
+        "31"
+      ],
+      "whole_F_upper_without_k_premise": "25710335933/77218272000",
+      "k_coefficient": "63/62",
+      "one_third_strict_margin": "29088067/77218272000",
+      "additional_old_k_premise": "1/40",
+      "additional_upper": "77/250"
+    }
+  },
+  "links_checked": 56,
+  "review_bindings": [
+    {
+      "source": "reviews/2026-10-08/hybrid-positive-tail-whole-high-parity-gap-research-compression.md",
+      "review": "reviews/2026-10-08/hybrid-positive-tail-whole-high-parity-gap-review-twisted.md",
+      "source_sha256": "568f2c80d9773db7c13bc3605e7d56ed032e3fba7f5d4dc7c34bbea5ac7cb611"
+    },
+    {
+      "source": "reviews/2026-10-08/hybrid-positive-tail-whole-high-parity-gap-research-compression.md",
+      "review": "reviews/2026-10-08/hybrid-whole-parity-and-joint-fourth-review-root.md",
+      "source_sha256": "568f2c80d9773db7c13bc3605e7d56ed032e3fba7f5d4dc7c34bbea5ac7cb611"
+    },
+    {
+      "source": "reviews/2026-10-08/hybrid-whole-low-parity-fourth-research-root.md",
+      "review": "reviews/2026-10-08/hybrid-whole-low-parity-fourth-review-compression.md",
+      "source_sha256": "02328b4cfaf902fc0f0d60e37f27989808aaae6bb88e6410c8d120a44487969d"
+    },
+    {
+      "source": "reviews/2026-10-08/hybrid-whole-low-parity-fourth-research-root.md",
+      "review": "reviews/2026-10-08/hybrid-whole-low-and-split-gram-review-twisted.md",
+      "source_sha256": "02328b4cfaf902fc0f0d60e37f27989808aaae6bb88e6410c8d120a44487969d"
+    },
+    {
+      "source": "reviews/2026-10-08/hybrid-parity-split-schur-and-even-anticommutator-research-radial.md",
+      "review": "reviews/2026-10-08/hybrid-whole-parity-and-joint-fourth-review-root.md",
+      "source_sha256": "b9fff88ede3374b488dccddf9cfea3f92f386e98594c385dda51ce210b784d20"
+    },
+    {
+      "source": "reviews/2026-10-08/hybrid-parity-split-schur-and-even-anticommutator-research-radial.md",
+      "review": "reviews/2026-10-08/hybrid-whole-low-and-split-gram-review-twisted.md",
+      "source_sha256": "b9fff88ede3374b488dccddf9cfea3f92f386e98594c385dda51ce210b784d20"
+    },
+    {
+      "source": "reviews/2026-10-08/hybrid-parity-split-schur-and-even-anticommutator-research-radial.md",
+      "review": "reviews/2026-10-08/hybrid-parity-split-schur-and-even-anticommutator-review-compression.md",
+      "source_sha256": "b9fff88ede3374b488dccddf9cfea3f92f386e98594c385dda51ce210b784d20"
+    },
+    {
+      "source": "scripts/hybrid_whole_low_parity_exact.py",
+      "review": "reviews/2026-10-08/hybrid-whole-low-parity-fourth-review-compression.md",
+      "source_sha256": "d990e1a678b86e0f0c4d60cc80285bfa0d4ac5b37085d9e4db6bd90df68f1932"
+    },
+    {
+      "source": "scripts/hybrid_whole_low_parity_exact.py",
+      "review": "reviews/2026-10-08/hybrid-whole-low-and-split-gram-review-twisted.md",
+      "source_sha256": "d990e1a678b86e0f0c4d60cc80285bfa0d4ac5b37085d9e4db6bd90df68f1932"
+    },
+    {
+      "source": "notes/469-original-whole-parity-gap-and-joint-fourth-budget.md",
+      "review": "reviews/2026-10-08/hybrid-whole-low-and-split-gram-review-twisted.md",
+      "source_sha256": "9cd7a8f62a9e52bf4c289213ce2b261293c18f0e5a515415bc83678e1ab09845"
+    },
+    {
+      "source": "notes/469-original-whole-parity-gap-and-joint-fourth-budget.md",
+      "review": "reviews/2026-10-08/469-whole-parity-budget-review-radial.md",
+      "source_sha256": "9cd7a8f62a9e52bf4c289213ce2b261293c18f0e5a515415bc83678e1ab09845"
+    },
+    {
+      "source": "notes/470-centered-spectral-variance-excludes-small-high-residual.md",
+      "review": "reviews/2026-10-08/470-centered-spectral-variance-review-twisted.md",
+      "source_sha256": "729ddbed2b2d2af08e21e5f1ebabfb5663f906c702f52b13f81aac224402a93a"
+    },
+    {
+      "source": "notes/470-centered-spectral-variance-excludes-small-high-residual.md",
+      "review": "reviews/2026-10-08/470-centered-spectral-variance-review-radial.md",
+      "source_sha256": "729ddbed2b2d2af08e21e5f1ebabfb5663f906c702f52b13f81aac224402a93a"
+    }
+  ],
+  "cited_source_hash_bindings": [
+    {
+      "document": "notes/470-centered-spectral-variance-excludes-small-high-residual.md",
+      "source": "notes/454-original-background-and-weighted-prime-mixed-traces.md",
+      "sha256": "8ab99d60c1b748dc561cac57ee498057a0c9fb19b9778a041261b1bad0750db7"
+    },
+    {
+      "document": "notes/470-centered-spectral-variance-excludes-small-high-residual.md",
+      "source": "notes/465-centered-high-square-joint-fourth-budget.md",
+      "sha256": "a9290d2d847c2a3f7942b26353bd1582a68b391e481acc109c4ac18d3d750464"
+    },
+    {
+      "document": "notes/470-centered-spectral-variance-excludes-small-high-residual.md",
+      "source": "notes/466-high-square-variance-commutator-obstruction.md",
+      "sha256": "0b955bdc26b4bf950ce457dec7bf18f635f702d85a73d73c8d6263df969cbbbe"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-positive-tail-whole-high-parity-gap-research-compression.md",
+      "source": "reviews/2026-10-07/hybrid-high-parity-gram-and-mobius-completion-research-radial.md",
+      "sha256": "3f4c714bb126356389332f3674836d6edf6f110f60935a27af93a58a0e26bbb2"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-positive-tail-whole-high-parity-gap-research-compression.md",
+      "source": "notes/466-high-square-variance-commutator-obstruction.md",
+      "sha256": "0b955bdc26b4bf950ce457dec7bf18f635f702d85a73d73c8d6263df969cbbbe"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-positive-tail-whole-high-parity-gap-research-compression.md",
+      "source": "reviews/2026-10-07/hybrid-parity-resolved-residual-necessary-constraints-radial.md",
+      "sha256": "6a5fb7db8467e80682d7351ee37a940af8d39de50fffe2f16b0b3a48d5dfc6f6"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-positive-tail-whole-high-parity-gap-research-compression.md",
+      "source": "notes/468-original-mixed-cubic-and-parity-resolved-fourth-reduction.md",
+      "sha256": "ad4cf9f8bb4c77e24487b32434dc64d28162745adf3b1e0555b230be3953baf7"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-whole-low-parity-fourth-research-root.md",
+      "source": "reviews/2026-10-07/hybrid-low-prime-exact-fourth-path-constant-research.md",
+      "sha256": "798947fb9cd13f25b541025f0c180945590341bbab6f55cacbcf6c50e87ee080"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-whole-low-parity-fourth-research-root.md",
+      "source": "reviews/2026-10-07/hybrid-parity-resolved-residual-necessary-constraints-radial.md",
+      "sha256": "6a5fb7db8467e80682d7351ee37a940af8d39de50fffe2f16b0b3a48d5dfc6f6"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-whole-low-parity-fourth-research-root.md",
+      "source": "notes/465-centered-high-square-joint-fourth-budget.md",
+      "sha256": "a9290d2d847c2a3f7942b26353bd1582a68b391e481acc109c4ac18d3d750464"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-whole-low-parity-fourth-research-root.md",
+      "source": "notes/454-original-background-and-weighted-prime-mixed-traces.md",
+      "sha256": "8ab99d60c1b748dc561cac57ee498057a0c9fb19b9778a041261b1bad0750db7"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-parity-split-schur-and-even-anticommutator-research-radial.md",
+      "source": "notes/454-original-background-and-weighted-prime-mixed-traces.md",
+      "sha256": "8ab99d60c1b748dc561cac57ee498057a0c9fb19b9778a041261b1bad0750db7"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-parity-split-schur-and-even-anticommutator-research-radial.md",
+      "source": "notes/462-original-low-prime-fourth-path-constant.md",
+      "sha256": "868adfeb0d742043f39bd08e0783d66b7a9db11316067b0b3b43d80150cdf680"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-parity-split-schur-and-even-anticommutator-research-radial.md",
+      "source": "notes/467-two-residual-schur-and-commutator-budget.md",
+      "sha256": "0089fd92c70d5e2b7b48bef0084675707f2fe283833f8a97745766ccf6899cb8"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-parity-split-schur-and-even-anticommutator-research-radial.md",
+      "source": "reviews/2026-10-07/hybrid-parity-resolved-residual-necessary-constraints-radial.md",
+      "sha256": "6a5fb7db8467e80682d7351ee37a940af8d39de50fffe2f16b0b3a48d5dfc6f6"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-parity-split-schur-and-even-anticommutator-research-radial.md",
+      "source": "reviews/2026-10-07/hybrid-signed-one-three-physical-resonance-research.md",
+      "sha256": "0f7c0146e984c49d84fc057394aed1ab9ace658ae5b775b931bfd359a4c47bac"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-parity-split-schur-and-even-anticommutator-research-radial.md",
+      "source": "reviews/2026-10-07/hybrid-one-three-finite-band-admission-research.md",
+      "sha256": "bc6ad6b1a007422c7678cd540b4127b81d2adc168faf5b090a58b6676778e35f"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-parity-split-schur-and-even-anticommutator-research-radial.md",
+      "source": "reviews/2026-10-08/hybrid-whole-low-parity-fourth-research-root.md",
+      "sha256": "02328b4cfaf902fc0f0d60e37f27989808aaae6bb88e6410c8d120a44487969d"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-parity-split-schur-and-even-anticommutator-research-radial.md",
+      "source": "reviews/2026-10-08/hybrid-positive-tail-whole-high-parity-gap-research-compression.md",
+      "sha256": "568f2c80d9773db7c13bc3605e7d56ed032e3fba7f5d4dc7c34bbea5ac7cb611"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-positive-tail-whole-high-parity-gap-review-twisted.md",
+      "source": "reviews/2026-10-08/hybrid-positive-tail-whole-high-parity-gap-research-compression.md",
+      "sha256": "568f2c80d9773db7c13bc3605e7d56ed032e3fba7f5d4dc7c34bbea5ac7cb611"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-whole-low-parity-fourth-review-compression.md",
+      "source": "reviews/2026-10-08/hybrid-whole-low-parity-fourth-research-root.md",
+      "sha256": "02328b4cfaf902fc0f0d60e37f27989808aaae6bb88e6410c8d120a44487969d"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-whole-low-parity-fourth-review-compression.md",
+      "source": "scripts/hybrid_whole_low_parity_exact.py",
+      "sha256": "d990e1a678b86e0f0c4d60cc80285bfa0d4ac5b37085d9e4db6bd90df68f1932"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-whole-parity-and-joint-fourth-review-root.md",
+      "source": "reviews/2026-10-08/hybrid-positive-tail-whole-high-parity-gap-research-compression.md",
+      "sha256": "568f2c80d9773db7c13bc3605e7d56ed032e3fba7f5d4dc7c34bbea5ac7cb611"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-whole-parity-and-joint-fourth-review-root.md",
+      "source": "reviews/2026-10-08/hybrid-parity-split-schur-and-even-anticommutator-research-radial.md",
+      "sha256": "b9fff88ede3374b488dccddf9cfea3f92f386e98594c385dda51ce210b784d20"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-whole-low-and-split-gram-review-twisted.md",
+      "source": "reviews/2026-10-08/hybrid-whole-low-parity-fourth-research-root.md",
+      "sha256": "02328b4cfaf902fc0f0d60e37f27989808aaae6bb88e6410c8d120a44487969d"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-whole-low-and-split-gram-review-twisted.md",
+      "source": "reviews/2026-10-08/hybrid-parity-split-schur-and-even-anticommutator-research-radial.md",
+      "sha256": "b9fff88ede3374b488dccddf9cfea3f92f386e98594c385dda51ce210b784d20"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-whole-low-and-split-gram-review-twisted.md",
+      "source": "notes/469-original-whole-parity-gap-and-joint-fourth-budget.md",
+      "sha256": "9cd7a8f62a9e52bf4c289213ce2b261293c18f0e5a515415bc83678e1ab09845"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-whole-low-and-split-gram-review-twisted.md",
+      "source": "scripts/hybrid_whole_low_parity_exact.py",
+      "sha256": "d990e1a678b86e0f0c4d60cc80285bfa0d4ac5b37085d9e4db6bd90df68f1932"
+    },
+    {
+      "document": "reviews/2026-10-08/469-whole-parity-budget-review-radial.md",
+      "source": "notes/469-original-whole-parity-gap-and-joint-fourth-budget.md",
+      "sha256": "9cd7a8f62a9e52bf4c289213ce2b261293c18f0e5a515415bc83678e1ab09845"
+    },
+    {
+      "document": "reviews/2026-10-08/469-whole-parity-budget-review-radial.md",
+      "source": "reviews/2026-10-08/hybrid-positive-tail-whole-high-parity-gap-research-compression.md",
+      "sha256": "568f2c80d9773db7c13bc3605e7d56ed032e3fba7f5d4dc7c34bbea5ac7cb611"
+    },
+    {
+      "document": "reviews/2026-10-08/469-whole-parity-budget-review-radial.md",
+      "source": "reviews/2026-10-08/hybrid-whole-low-parity-fourth-research-root.md",
+      "sha256": "02328b4cfaf902fc0f0d60e37f27989808aaae6bb88e6410c8d120a44487969d"
+    },
+    {
+      "document": "reviews/2026-10-08/469-whole-parity-budget-review-radial.md",
+      "source": "reviews/2026-10-08/hybrid-parity-split-schur-and-even-anticommutator-research-radial.md",
+      "sha256": "b9fff88ede3374b488dccddf9cfea3f92f386e98594c385dda51ce210b784d20"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-parity-split-schur-and-even-anticommutator-review-compression.md",
+      "source": "reviews/2026-10-08/hybrid-parity-split-schur-and-even-anticommutator-research-radial.md",
+      "sha256": "b9fff88ede3374b488dccddf9cfea3f92f386e98594c385dda51ce210b784d20"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-parity-split-schur-and-even-anticommutator-review-compression.md",
+      "source": "reviews/2026-10-08/hybrid-whole-low-parity-fourth-research-root.md",
+      "sha256": "02328b4cfaf902fc0f0d60e37f27989808aaae6bb88e6410c8d120a44487969d"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-parity-split-schur-and-even-anticommutator-review-compression.md",
+      "source": "scripts/hybrid_whole_low_parity_exact.py",
+      "sha256": "d990e1a678b86e0f0c4d60cc80285bfa0d4ac5b37085d9e4db6bd90df68f1932"
+    },
+    {
+      "document": "reviews/2026-10-08/470-centered-spectral-variance-review-twisted.md",
+      "source": "notes/470-centered-spectral-variance-excludes-small-high-residual.md",
+      "sha256": "729ddbed2b2d2af08e21e5f1ebabfb5663f906c702f52b13f81aac224402a93a"
+    },
+    {
+      "document": "reviews/2026-10-08/470-centered-spectral-variance-review-radial.md",
+      "source": "notes/470-centered-spectral-variance-excludes-small-high-residual.md",
+      "sha256": "729ddbed2b2d2af08e21e5f1ebabfb5663f906c702f52b13f81aac224402a93a"
+    },
+    {
+      "document": "reviews/2026-10-08/470-centered-spectral-variance-review-radial.md",
+      "source": "notes/454-original-background-and-weighted-prime-mixed-traces.md",
+      "sha256": "8ab99d60c1b748dc561cac57ee498057a0c9fb19b9778a041261b1bad0750db7"
+    },
+    {
+      "document": "reviews/2026-10-08/470-centered-spectral-variance-review-radial.md",
+      "source": "notes/465-centered-high-square-joint-fourth-budget.md",
+      "sha256": "a9290d2d847c2a3f7942b26353bd1582a68b391e481acc109c4ac18d3d750464"
+    },
+    {
+      "document": "reviews/2026-10-08/470-centered-spectral-variance-review-radial.md",
+      "source": "notes/466-high-square-variance-commutator-obstruction.md",
+      "sha256": "0b955bdc26b4bf950ce457dec7bf18f635f702d85a73d73c8d6263df969cbbbe"
+    },
+    {
+      "document": "reviews/2026-10-08/470-centered-spectral-variance-review-radial.md",
+      "source": "reviews/2026-10-08/hybrid-positive-tail-whole-high-parity-gap-research-compression.md",
+      "sha256": "568f2c80d9773db7c13bc3605e7d56ed032e3fba7f5d4dc7c34bbea5ac7cb611"
+    }
+  ],
+  "files": [
+    {
+      "path": "notes/469-original-whole-parity-gap-and-joint-fourth-budget.md",
+      "sha256_canonical_lf": "9cd7a8f62a9e52bf4c289213ce2b261293c18f0e5a515415bc83678e1ab09845",
+      "canonical_utf8_bytes": 6559,
+      "lines": 176
+    },
+    {
+      "path": "notes/470-centered-spectral-variance-excludes-small-high-residual.md",
+      "sha256_canonical_lf": "729ddbed2b2d2af08e21e5f1ebabfb5663f906c702f52b13f81aac224402a93a",
+      "canonical_utf8_bytes": 8073,
+      "lines": 213
+    },
+    {
+      "path": "reviews/2026-10-08/hybrid-positive-tail-whole-high-parity-gap-research-compression.md",
+      "sha256_canonical_lf": "568f2c80d9773db7c13bc3605e7d56ed032e3fba7f5d4dc7c34bbea5ac7cb611",
+      "canonical_utf8_bytes": 8059,
+      "lines": 202
+    },
+    {
+      "path": "reviews/2026-10-08/hybrid-whole-low-parity-fourth-research-root.md",
+      "sha256_canonical_lf": "02328b4cfaf902fc0f0d60e37f27989808aaae6bb88e6410c8d120a44487969d",
+      "canonical_utf8_bytes": 12980,
+      "lines": 293
+    },
+    {
+      "path": "reviews/2026-10-08/hybrid-parity-split-schur-and-even-anticommutator-research-radial.md",
+      "sha256_canonical_lf": "b9fff88ede3374b488dccddf9cfea3f92f386e98594c385dda51ce210b784d20",
+      "canonical_utf8_bytes": 20880,
+      "lines": 496
+    },
+    {
+      "path": "reviews/2026-10-08/hybrid-positive-tail-whole-high-parity-gap-review-twisted.md",
+      "sha256_canonical_lf": "b0718ed3312aa08112550a438a29a363996ee5b0566fc7b7f695578b90130773",
+      "canonical_utf8_bytes": 4807,
+      "lines": 128
+    },
+    {
+      "path": "reviews/2026-10-08/hybrid-whole-low-parity-fourth-review-compression.md",
+      "sha256_canonical_lf": "155cb74a4dcc563b6d9821de74de7e798887a1a61fc185e5d8e35efb2d509dff",
+      "canonical_utf8_bytes": 5957,
+      "lines": 101
+    },
+    {
+      "path": "reviews/2026-10-08/hybrid-whole-parity-and-joint-fourth-review-root.md",
+      "sha256_canonical_lf": "e17269ede44004253b5ac986a60aade47970bf35c025af0e0ca098168b919f1e",
+      "canonical_utf8_bytes": 6614,
+      "lines": 126
+    },
+    {
+      "path": "reviews/2026-10-08/hybrid-whole-low-and-split-gram-review-twisted.md",
+      "sha256_canonical_lf": "a183d2ef1fc9003ac182d089af460742961c1ce16218dfb47c01c669b700e774",
+      "canonical_utf8_bytes": 10135,
+      "lines": 203
+    },
+    {
+      "path": "reviews/2026-10-08/469-whole-parity-budget-review-radial.md",
+      "sha256_canonical_lf": "cff8f77a27ea6281b8486b84e13754a3f5f5655aeb52d0c0e2e43e5504376db0",
+      "canonical_utf8_bytes": 6898,
+      "lines": 137
+    },
+    {
+      "path": "reviews/2026-10-08/hybrid-parity-split-schur-and-even-anticommutator-review-compression.md",
+      "sha256_canonical_lf": "b24b938365ab4e19a6a3fa7579f205ceef9356032dfe4b755f40e95e6993eb91",
+      "canonical_utf8_bytes": 6499,
+      "lines": 111
+    },
+    {
+      "path": "reviews/2026-10-08/470-centered-spectral-variance-review-twisted.md",
+      "sha256_canonical_lf": "7caec221a4543bc861a67baca65b01af55391f19896b7209e7880099eeb4d0a4",
+      "canonical_utf8_bytes": 5728,
+      "lines": 139
+    },
+    {
+      "path": "reviews/2026-10-08/470-centered-spectral-variance-review-radial.md",
+      "sha256_canonical_lf": "6916d785c8725b0fa0932593c456907863de1d3ef0deca00dd8ffdede0e7b889",
+      "canonical_utf8_bytes": 5809,
+      "lines": 130
+    },
+    {
+      "path": "scripts/hybrid_whole_low_parity_exact.py",
+      "sha256_canonical_lf": "d990e1a678b86e0f0c4d60cc80285bfa0d4ac5b37085d9e4db6bd90df68f1932",
+      "canonical_utf8_bytes": 6318,
+      "lines": 173
+    },
+    {
+      "path": "scripts/hybrid_whole_parity_checkpoint.py",
+      "sha256_canonical_lf": "4a13b6ede20e01356a1a234fc2ce18766066255706823a2901dd5fdaf27c3e52",
+      "canonical_utf8_bytes": 10163,
+      "lines": 199
+    }
+  ],
+  "unproved": [
+    "a reachable high-residual upper bound consistent with the new actual lower",
+    "a useful entire signed fourth budget beyond the excluded Q example",
+    "liminf k_T >= 1/40",
+    "an actual new simple-zero proportion or zero-free boundary",
+    "independent certification of the imported analytic R kernel"
+  ]
+}
