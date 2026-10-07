@@ -1,0 +1,58 @@
+{
+  "original_seven_output_canonical_sha256": "aa6885489c1d0086bca32b72d27fc7a2a5f44a48f78483a057f23a59e5a828e6",
+  "python_flint_version": "0.9.0",
+  "result": {
+    "cell_counts_by_strongest_radius": [
+      38090,
+      38090,
+      38090,
+      38090,
+      38090,
+      51460
+    ],
+    "certified_margin_each_cell": "1/100000000",
+    "closed_cell_ball_sha256": "42d5d94ab916327d36705f6ee1385a7779ad931cb4ade50989579891f2f7bc5e",
+    "cluster_per_node_charge": "1/150",
+    "compact_interval": [
+      "3809/4000",
+      "7"
+    ],
+    "complete_closed_cells": 241910,
+    "efficiency": "2600/2601",
+    "elapsed_seconds": 0.85701910010539,
+    "grid": 40000,
+    "infinite_tail_rational_bound": "141125/3619653",
+    "kernel_bounds_by_radius": [
+      "361/2000",
+      "133/1250",
+      "757/10000",
+      "147/2500",
+      "6/125",
+      "203/5000"
+    ],
+    "node_charge": "247/65025",
+    "precision_bits": 128,
+    "pressure": "26/13005",
+    "row_sum": "1",
+    "separation": "3809/4000",
+    "short_cluster_kernel_lower": "1/10",
+    "verified": true,
+    "weights_by_radius": [
+      "50/51",
+      "50/51",
+      "50/51",
+      "50/51",
+      "50/51",
+      "50/51"
+    ]
+  },
+  "schema": "hybrid-mt-six-neighbor-geometry-v1",
+  "scope": {
+    "analytic_zero_transfer_proved_by_script": false,
+    "complete_real_axis_kernel_bounds": true,
+    "floating_point_acceptance": false,
+    "imported_seven_certificate_reproved_here": false,
+    "world_record_claim": false
+  },
+  "script_canonical_sha256": "b7bac147d76b7e1fb2bbe1307518acf4642cb0aedbba2c0fd8eebc610d1d3a8c"
+}

@@ -1,0 +1,231 @@
+{
+  "schema": "hybrid-mt-six-neighbor-proportion-v1",
+  "exact_checks": 98,
+  "checks": [
+    "file exists: notes/478-original-mt-six-neighbor-dual-and-whole-chain-proportion.md",
+    "file exists: reviews/2026-10-08/hybrid-mt-six-neighbor-spectral-dual-and-actual-counting-research-compression.md",
+    "file exists: reviews/2026-10-08/hybrid-mt-six-neighbor-spectral-dual-and-actual-counting-review-radial.md",
+    "file exists: reviews/2026-10-08/hybrid-mt-six-neighbor-spectral-dual-and-actual-counting-review-twisted.md",
+    "file exists: reviews/2026-10-08/hybrid-short-mobius-twist-and-vaughan-zero-residue-research-radial.md",
+    "file exists: reviews/2026-10-08/hybrid-short-mobius-twist-and-vaughan-zero-residue-review-twisted.md",
+    "file exists: scripts/hybrid_mt_six_neighbor_geometry_certificate.py",
+    "file exists: output/hybrid-mt-six-neighbor-geometry-certificate.json",
+    "file exists: notes/304-mt-triple-geometry-and-second-moment-stability.md",
+    "file exists: notes/476-original-fourth-growth-five-sevenths-with-ivic-density.md",
+    "file exists: notes/477-original-vaughan-reduction-and-replayed-multipoint-proportion.md",
+    "file exists: reviews/2026-10-08/hybrid-original-multipoint-envelope-and-actual-counting-research-compression.md",
+    "file exists: scripts/hybrid_multipoint_cap_replay.py",
+    "file exists: output/hybrid-multipoint-cap-exact-algebra.json",
+    "file exists: output/hybrid-multipoint-seven-primary-replay.json",
+    "frozen unchanged: notes/304-mt-triple-geometry-and-second-moment-stability.md",
+    "frozen unchanged: notes/476-original-fourth-growth-five-sevenths-with-ivic-density.md",
+    "frozen unchanged: notes/477-original-vaughan-reduction-and-replayed-multipoint-proportion.md",
+    "frozen unchanged: reviews/2026-10-08/hybrid-original-multipoint-envelope-and-actual-counting-research-compression.md",
+    "frozen unchanged: scripts/hybrid_multipoint_cap_replay.py",
+    "frozen unchanged: output/hybrid-multipoint-cap-exact-algebra.json",
+    "frozen unchanged: output/hybrid-multipoint-seven-primary-replay.json",
+    "review binds final source: reviews/2026-10-08/hybrid-mt-six-neighbor-spectral-dual-and-actual-counting-research-compression.md",
+    "review binds final source: reviews/2026-10-08/hybrid-mt-six-neighbor-spectral-dual-and-actual-counting-research-compression.md",
+    "review binds final source: notes/478-original-mt-six-neighbor-dual-and-whole-chain-proportion.md",
+    "review binds final source: reviews/2026-10-08/hybrid-short-mobius-twist-and-vaughan-zero-residue-research-radial.md",
+    "local link: notes/478-original-mt-six-neighbor-dual-and-whole-chain-proportion.md -> 477-original-vaughan-reduction-and-replayed-multipoint-proportion.md",
+    "local link: notes/478-original-mt-six-neighbor-dual-and-whole-chain-proportion.md -> ../reviews/2026-10-08/hybrid-mt-six-neighbor-spectral-dual-and-actual-counting-research-compression.md",
+    "local link: notes/478-original-mt-six-neighbor-dual-and-whole-chain-proportion.md -> 304-mt-triple-geometry-and-second-moment-stability.md",
+    "local link: notes/478-original-mt-six-neighbor-dual-and-whole-chain-proportion.md -> ../reviews/2026-10-08/hybrid-original-multipoint-envelope-and-actual-counting-research-compression.md",
+    "local link: notes/478-original-mt-six-neighbor-dual-and-whole-chain-proportion.md -> ../scripts/hybrid_mt_six_neighbor_geometry_certificate.py",
+    "local link: notes/478-original-mt-six-neighbor-dual-and-whole-chain-proportion.md -> ../output/hybrid-mt-six-neighbor-geometry-certificate.json",
+    "local link: notes/478-original-mt-six-neighbor-dual-and-whole-chain-proportion.md -> ../output/hybrid-mt-six-neighbor-proportion-checkpoint.json",
+    "local link: notes/478-original-mt-six-neighbor-dual-and-whole-chain-proportion.md -> 305-post-6725-literature-baseline-audit.md",
+    "local link: notes/478-original-mt-six-neighbor-dual-and-whole-chain-proportion.md -> 351-fixed-radius-stability-and-actual-zero-transfer.md",
+    "local link: notes/478-original-mt-six-neighbor-dual-and-whole-chain-proportion.md -> 355-short-cluster-payment-and-separated-five-gap-reduction.md",
+    "local link: notes/478-original-mt-six-neighbor-dual-and-whole-chain-proportion.md -> 476-original-fourth-growth-five-sevenths-with-ivic-density.md",
+    "local link: reviews/2026-10-08/hybrid-mt-six-neighbor-spectral-dual-and-actual-counting-research-compression.md -> hybrid-original-multipoint-envelope-and-actual-counting-research-compression.md",
+    "local link: reviews/2026-10-08/hybrid-mt-six-neighbor-spectral-dual-and-actual-counting-research-compression.md -> ../../output/hybrid-multipoint-seven-primary-replay.json",
+    "local link: reviews/2026-10-08/hybrid-mt-six-neighbor-spectral-dual-and-actual-counting-research-compression.md -> ../../notes/351-fixed-radius-stability-and-actual-zero-transfer.md",
+    "local link: reviews/2026-10-08/hybrid-mt-six-neighbor-spectral-dual-and-actual-counting-research-compression.md -> ../../notes/355-short-cluster-payment-and-separated-five-gap-reduction.md",
+    "local link: reviews/2026-10-08/hybrid-mt-six-neighbor-spectral-dual-and-actual-counting-research-compression.md -> ../../scripts/hybrid_mt_six_neighbor_geometry_certificate.py",
+    "local link: reviews/2026-10-08/hybrid-mt-six-neighbor-spectral-dual-and-actual-counting-research-compression.md -> ../../output/hybrid-mt-six-neighbor-geometry-certificate.json",
+    "local link: reviews/2026-10-08/hybrid-mt-six-neighbor-spectral-dual-and-actual-counting-research-compression.md -> ../../notes/304-mt-triple-geometry-and-second-moment-stability.md",
+    "local link: reviews/2026-10-08/hybrid-mt-six-neighbor-spectral-dual-and-actual-counting-research-compression.md -> ../../output/hybrid-multipoint-cap-exact-algebra.json",
+    "local link: reviews/2026-10-08/hybrid-mt-six-neighbor-spectral-dual-and-actual-counting-research-compression.md -> ../../notes/305-post-6725-literature-baseline-audit.md",
+    "local link: reviews/2026-10-08/hybrid-mt-six-neighbor-spectral-dual-and-actual-counting-review-radial.md -> hybrid-mt-six-neighbor-spectral-dual-and-actual-counting-research-compression.md",
+    "local link: reviews/2026-10-08/hybrid-mt-six-neighbor-spectral-dual-and-actual-counting-review-radial.md -> ../../scripts/hybrid_mt_six_neighbor_geometry_certificate.py",
+    "local link: reviews/2026-10-08/hybrid-mt-six-neighbor-spectral-dual-and-actual-counting-review-radial.md -> ../../output/hybrid-mt-six-neighbor-geometry-certificate.json",
+    "local link: reviews/2026-10-08/hybrid-mt-six-neighbor-spectral-dual-and-actual-counting-review-radial.md -> ../../notes/304-mt-triple-geometry-and-second-moment-stability.md",
+    "local link: reviews/2026-10-08/hybrid-mt-six-neighbor-spectral-dual-and-actual-counting-review-radial.md -> hybrid-original-multipoint-envelope-and-actual-counting-research-compression.md",
+    "local link: reviews/2026-10-08/hybrid-mt-six-neighbor-spectral-dual-and-actual-counting-review-radial.md -> ../../output/hybrid-multipoint-seven-primary-replay.json",
+    "local link: reviews/2026-10-08/hybrid-mt-six-neighbor-spectral-dual-and-actual-counting-review-radial.md -> ../../output/hybrid-multipoint-cap-exact-algebra.json",
+    "local link: reviews/2026-10-08/hybrid-mt-six-neighbor-spectral-dual-and-actual-counting-review-twisted.md -> hybrid-mt-six-neighbor-spectral-dual-and-actual-counting-research-compression.md",
+    "local link: reviews/2026-10-08/hybrid-mt-six-neighbor-spectral-dual-and-actual-counting-review-twisted.md -> ../../notes/478-original-mt-six-neighbor-dual-and-whole-chain-proportion.md",
+    "local link: reviews/2026-10-08/hybrid-mt-six-neighbor-spectral-dual-and-actual-counting-review-twisted.md -> ../../scripts/hybrid_mt_six_neighbor_geometry_certificate.py",
+    "local link: reviews/2026-10-08/hybrid-mt-six-neighbor-spectral-dual-and-actual-counting-review-twisted.md -> ../../output/hybrid-mt-six-neighbor-geometry-certificate.json",
+    "local link: reviews/2026-10-08/hybrid-mt-six-neighbor-spectral-dual-and-actual-counting-review-twisted.md -> ../../output/hybrid-multipoint-seven-primary-replay.json",
+    "local link: reviews/2026-10-08/hybrid-mt-six-neighbor-spectral-dual-and-actual-counting-review-twisted.md -> ../../output/hybrid-multipoint-cap-exact-algebra.json",
+    "local link: reviews/2026-10-08/hybrid-mt-six-neighbor-spectral-dual-and-actual-counting-review-twisted.md -> ../../notes/304-mt-triple-geometry-and-second-moment-stability.md",
+    "local link: reviews/2026-10-08/hybrid-mt-six-neighbor-spectral-dual-and-actual-counting-review-twisted.md -> hybrid-original-multipoint-envelope-and-actual-counting-research-compression.md",
+    "local link: reviews/2026-10-08/hybrid-short-mobius-twist-and-vaughan-zero-residue-review-twisted.md -> hybrid-short-mobius-twist-and-vaughan-zero-residue-research-radial.md",
+    "local link: reviews/2026-10-08/hybrid-short-mobius-twist-and-vaughan-zero-residue-review-twisted.md -> hybrid-original-vaughan-type-i-and-type-ii-reduction-research-radial.md",
+    "kernel record binds final script",
+    "kernel binds original seven record",
+    "completed entire-axis kernel record",
+    "complete compact kernel cover parameters",
+    "complete radius partition",
+    "all closed cells accounted",
+    "closed-cell ball digest",
+    "strict cell margin",
+    "certified six half-line bounds",
+    "exact six kernel bound sum",
+    "short-cluster monotone interval",
+    "compact domain cell count",
+    "entire infinite-tail rational budget",
+    "tail exact rational formula",
+    "final uniform dual weights",
+    "closed Schur feasibility",
+    "dual edge efficiency",
+    "whole-chain node charge",
+    "whole-chain span pressure",
+    "all nontrivial clusters paid per node",
+    "fixed-profile cluster and singleton margin",
+    "finite kernel scope preserved",
+    "frozen seven-point complete record",
+    "seven runner binding",
+    "all-window aggregate gap pressure",
+    "frozen rational algebra completion",
+    "valid proportion parameters",
+    "exact p6 formula",
+    "author rational lower interval",
+    "author rational upper interval",
+    "strict simple-zero lower truncation",
+    "strict actual project proportion gain",
+    "strict gain above 0.000048457831",
+    "below recorded higher public candidate",
+    "strict distinct-zero lower truncation"
+  ],
+  "files": {
+    "notes/478-original-mt-six-neighbor-dual-and-whole-chain-proportion.md": {
+      "canonical_sha256": "6ab8384289cf7470b7ee448e381f5e9afdd268b13852f95322c98c1a62dd5c54",
+      "canonical_bytes": 6846,
+      "lines": 128
+    },
+    "reviews/2026-10-08/hybrid-mt-six-neighbor-spectral-dual-and-actual-counting-research-compression.md": {
+      "canonical_sha256": "c69dcf11fe9ed46be77dbd5c2926e6058193cf61808613a73121797aa53656a9",
+      "canonical_bytes": 12574,
+      "lines": 331
+    },
+    "reviews/2026-10-08/hybrid-mt-six-neighbor-spectral-dual-and-actual-counting-review-radial.md": {
+      "canonical_sha256": "44676c596dd21daa47925a58e22d78f5fcea55b91a9cf1b4dc0e6e5ed64539a4",
+      "canonical_bytes": 7986,
+      "lines": 115
+    },
+    "reviews/2026-10-08/hybrid-mt-six-neighbor-spectral-dual-and-actual-counting-review-twisted.md": {
+      "canonical_sha256": "6779ddaedbb1dc7ae79eb125db716f59f9dfcc803a80b56dd9ffdd3181838af7",
+      "canonical_bytes": 9602,
+      "lines": 197
+    },
+    "reviews/2026-10-08/hybrid-short-mobius-twist-and-vaughan-zero-residue-research-radial.md": {
+      "canonical_sha256": "a970366e68b8d3526c0dadac49b8ee8f4a7b6984e763712a851f8b6d353a291d",
+      "canonical_bytes": 6064,
+      "lines": 113
+    },
+    "reviews/2026-10-08/hybrid-short-mobius-twist-and-vaughan-zero-residue-review-twisted.md": {
+      "canonical_sha256": "9236813c4a6089210419b702d656e8e5e747a1c5f74a31b75f78e81d62818cf2",
+      "canonical_bytes": 6951,
+      "lines": 107
+    },
+    "scripts/hybrid_mt_six_neighbor_geometry_certificate.py": {
+      "canonical_sha256": "b7bac147d76b7e1fb2bbe1307518acf4642cb0aedbba2c0fd8eebc610d1d3a8c",
+      "canonical_bytes": 7043,
+      "lines": 163
+    },
+    "output/hybrid-mt-six-neighbor-geometry-certificate.json": {
+      "canonical_sha256": "0b587847baa23014d947a7621f491a5f9175d714341b2bc9026465073aceee95",
+      "canonical_bytes": 1587,
+      "lines": 58
+    },
+    "notes/304-mt-triple-geometry-and-second-moment-stability.md": {
+      "canonical_sha256": "03f21ab1749157ff45bc4d4f62709e2a5482257c7155e7e8e644da0ac4521bc4",
+      "canonical_bytes": 26598,
+      "lines": 645
+    },
+    "notes/476-original-fourth-growth-five-sevenths-with-ivic-density.md": {
+      "canonical_sha256": "179829dd25f92ff187359f73455aafad9f957d714df13cf871db47a76e9408b6",
+      "canonical_bytes": 4448,
+      "lines": 96
+    },
+    "notes/477-original-vaughan-reduction-and-replayed-multipoint-proportion.md": {
+      "canonical_sha256": "9c2da25b665070fe5496b9b02cbe382208cd3b60dc793af1ae018ede395bd6b5",
+      "canonical_bytes": 6586,
+      "lines": 100
+    },
+    "reviews/2026-10-08/hybrid-original-multipoint-envelope-and-actual-counting-research-compression.md": {
+      "canonical_sha256": "59b399445a3022ce9b5ee6c064660e1602dab6d5641d3793649f16f509fc5efa",
+      "canonical_bytes": 16963,
+      "lines": 421
+    },
+    "scripts/hybrid_multipoint_cap_replay.py": {
+      "canonical_sha256": "8ac87f18cf928a51771556168e5af07400a3ba0333196b3e410394d8e4c37d05",
+      "canonical_bytes": 11337,
+      "lines": 242
+    },
+    "output/hybrid-multipoint-cap-exact-algebra.json": {
+      "canonical_sha256": "d84077ab71b47d1ea253cad9675fa8c25f9aa4dade775ad73ff53033167625c3",
+      "canonical_bytes": 3367,
+      "lines": 84
+    },
+    "output/hybrid-multipoint-seven-primary-replay.json": {
+      "canonical_sha256": "aa6885489c1d0086bca32b72d27fc7a2a5f44a48f78483a057f23a59e5a828e6",
+      "canonical_bytes": 2108,
+      "lines": 48
+    },
+    "scripts/hybrid_mt_six_neighbor_proportion_checkpoint.py": {
+      "canonical_sha256": "258b412e505b9c61fba6d9459c08c99ba3139be91963ab0cc541e3b6c2f84a5b"
+    }
+  },
+  "review_pairs": [
+    [
+      "reviews/2026-10-08/hybrid-mt-six-neighbor-spectral-dual-and-actual-counting-review-radial.md",
+      "reviews/2026-10-08/hybrid-mt-six-neighbor-spectral-dual-and-actual-counting-research-compression.md"
+    ],
+    [
+      "reviews/2026-10-08/hybrid-mt-six-neighbor-spectral-dual-and-actual-counting-review-twisted.md",
+      "reviews/2026-10-08/hybrid-mt-six-neighbor-spectral-dual-and-actual-counting-research-compression.md"
+    ],
+    [
+      "reviews/2026-10-08/hybrid-mt-six-neighbor-spectral-dual-and-actual-counting-review-twisted.md",
+      "notes/478-original-mt-six-neighbor-dual-and-whole-chain-proportion.md"
+    ],
+    [
+      "reviews/2026-10-08/hybrid-short-mobius-twist-and-vaughan-zero-residue-review-twisted.md",
+      "reviews/2026-10-08/hybrid-short-mobius-twist-and-vaughan-zero-residue-research-radial.md"
+    ]
+  ],
+  "local_links_checked": 37,
+  "rational_p6_interval": [
+    "14836092823842124897870604079776674894402895/22042811164404551786230480320215081201696768",
+    "7418046411921062448935302039888337450550235/11021405582202275893115240160107540600848384"
+  ],
+  "rational_distinct_interval": [
+    "36878903988246676684101084399991756096099663/44085622328809103572460960640430162403393536",
+    "18439451994123338342050542199995878051398619/22042811164404551786230480320215081201696768"
+  ],
+  "rational_gain_interval": [
+    "554496839176241033197344782664324677323384486693825089381181681644801229950156458105/11442873541640009757678348944386772706133509037169465972773500765446999945835402013704192",
+    "554496839176241033197344782664331630898270751731136314960784934339533668403187980155/11442873541640009757678348944386772706133750130416576647558662661325502298286045572104192"
+  ],
+  "outcomes": {
+    "complete_kernel_cover_in_frozen_record": true,
+    "whole_chain_geometry_proved_in_reviewed_sources": true,
+    "actual_proportion_cited_input_derivation_in_reviewed_sources": true,
+    "original_short_mobius_twist_cited_strip_derivation_reviewed": true,
+    "original_vaughan_zero_residue_preserved": true,
+    "new_full_fourth_growth_power": false,
+    "whole_fourth_constant_paid": false,
+    "whole_signed_near_paid": false,
+    "new_zero_free_boundary": false,
+    "new_boundary_paper": false,
+    "world_record_claim": false,
+    "analytic_proof_certified_by_script": false,
+    "full_kernel_recomputed_by_this_checkpoint": false,
+    "seven_cover_recomputed_by_this_checkpoint": false
+  }
+}
