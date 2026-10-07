@@ -1,0 +1,357 @@
+{
+  "date": "2026-10-08",
+  "base_commit": "2d5621dbc999e0cf313ea224b825d6d56547c45c",
+  "original_field_and_scalar_carrier_retained": true,
+  "new_whole_fourth_short_carrier_projection_payment": true,
+  "all_16_ordered_HL_words_share_one_good_set": true,
+  "projection_payment_requires_zero_free_R": false,
+  "projection_payment_requires_high_fourth_bounded": false,
+  "fixed_original_start_pointwise_gap_proved": false,
+  "new_bidirectional_actual_ratio_L1_equivalence": true,
+  "new_actual_second_order_tail_certificate": true,
+  "new_high_residual_upper": false,
+  "new_positive_tail_density_floor": false,
+  "new_actual_zero_proportion": false,
+  "new_zero_free_boundary": false,
+  "new_paper": false,
+  "finite_certificate": {
+    "checks": [
+      "averaged fourth fee",
+      "short-window secondary fee",
+      "relative endpoint displacement",
+      "fourth Jensen exact positive gap",
+      "finite Jensen nonnegativity",
+      "finite seven-times-raw fee",
+      "two-step square residual difference",
+      "same-W square sandwich",
+      "closed three-P paths HHHH",
+      "closed three-P paths HHHL",
+      "closed three-P paths HHLH",
+      "closed three-P paths HHLL",
+      "closed three-P paths HLHH",
+      "closed three-P paths HLHL",
+      "closed three-P paths HLLH",
+      "closed three-P paths HLLL",
+      "closed three-P paths LHHH",
+      "closed three-P paths LHHL",
+      "closed three-P paths LHLH",
+      "closed three-P paths LHLL",
+      "closed three-P paths LLHH",
+      "closed three-P paths LLHL",
+      "closed three-P paths LLLH",
+      "closed three-P paths LLLL",
+      "physical half-Gram factor two",
+      "full/half ratio factor two",
+      "diagonal-ratio expansion",
+      "scalar rank-trace slot across both tails",
+      "second-order tail dual optimizers",
+      "low effect positive form",
+      "low effect negative form",
+      "whole distinct offset"
+    ],
+    "count": 32,
+    "scope": "exact finite algebra and exponent bookkeeping; no analytic prime upper",
+    "residual_liminf_floor": "-55/3024 + sqrt(104899)/15120",
+    "new_arithmetic_ratio_upper": false
+  },
+  "review_bindings": [
+    {
+      "source": "reviews/2026-10-08/hybrid-anchored-carrier-averaged-fourth-projection-gap-research-radial.md",
+      "source_sha256": "c0e874ab9061982c8ef4365c8e9313eeac77eeddb756dc0b455cab3349f99dd8",
+      "review": "reviews/2026-10-08/hybrid-short-carrier-ratio-and-tail-review-root.md",
+      "review_sha256": "fd53c71f7412f1db74002d33bcc75ae54310add4e6c7e38a723dd9f0287ac014"
+    },
+    {
+      "source": "reviews/2026-10-08/hybrid-anchored-carrier-averaged-fourth-projection-gap-research-radial.md",
+      "source_sha256": "c0e874ab9061982c8ef4365c8e9313eeac77eeddb756dc0b455cab3349f99dd8",
+      "review": "reviews/2026-10-08/hybrid-anchored-carrier-averaged-fourth-projection-gap-review-twisted.md",
+      "review_sha256": "4295571dc49ce88203f4bd1f3476833d6b3e3dfcddb658cf695a9346b2309c0e"
+    },
+    {
+      "source": "reviews/2026-10-08/hybrid-whole-short-carrier-ratio-and-distinct-criterion-research-twisted.md",
+      "source_sha256": "c7ff142ebe15232542626e4feda3c05a1285cbf7bff64f462e734c662dafea53",
+      "review": "reviews/2026-10-08/hybrid-short-carrier-ratio-and-tail-review-root.md",
+      "review_sha256": "fd53c71f7412f1db74002d33bcc75ae54310add4e6c7e38a723dd9f0287ac014"
+    },
+    {
+      "source": "reviews/2026-10-08/hybrid-whole-short-carrier-ratio-and-distinct-criterion-research-twisted.md",
+      "source_sha256": "c7ff142ebe15232542626e4feda3c05a1285cbf7bff64f462e734c662dafea53",
+      "review": "reviews/2026-10-08/hybrid-whole-short-carrier-ratio-and-distinct-criterion-review-radial.md",
+      "review_sha256": "b4cb900e9a60a95dff7e38425eb17fe33df7e75812d80e1734dc259c43bd8110"
+    },
+    {
+      "source": "reviews/2026-10-08/hybrid-second-order-tail-coupling-and-strip-geometry-research-compression.md",
+      "source_sha256": "e5c21e3a8bb0cb52e9e3131259a52dbb42051d7eb514ca8a65b083128b88d444",
+      "review": "reviews/2026-10-08/hybrid-short-carrier-ratio-and-tail-review-root.md",
+      "review_sha256": "fd53c71f7412f1db74002d33bcc75ae54310add4e6c7e38a723dd9f0287ac014"
+    },
+    {
+      "source": "reviews/2026-10-08/hybrid-second-order-tail-coupling-and-strip-geometry-research-compression.md",
+      "source_sha256": "e5c21e3a8bb0cb52e9e3131259a52dbb42051d7eb514ca8a65b083128b88d444",
+      "review": "reviews/2026-10-08/hybrid-second-order-tail-coupling-and-strip-geometry-review-twisted.md",
+      "review_sha256": "d1235ef40d0cdabedb22ba821fb939deefaa0dc4da09f38d1c7ee02b35c80488"
+    },
+    {
+      "source": "notes/472-original-short-carrier-fourth-compression-and-ratio-variance.md",
+      "source_sha256": "9856885e932a892cf7c33ece82f430c2ec13004555eb52da2f1e8b1ec6bb2683",
+      "review": "reviews/2026-10-08/472-original-short-carrier-review-radial.md",
+      "review_sha256": "7ec90dfc7a7836b0ab0e7978902711bbb80a4fd8944f8099d9e4ea9b4984e355"
+    }
+  ],
+  "cited_source_hash_bindings": [
+    {
+      "document": "reviews/2026-10-08/hybrid-anchored-carrier-averaged-fourth-projection-gap-research-radial.md",
+      "source": "notes/223-short-height-hilbert-mv-adjacent-closure.md",
+      "sha256": "e5a179bdf9c3b64cfb9d62284fcf4ec1206cdded5828c37defc77755e3dece2e"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-anchored-carrier-averaged-fourth-projection-gap-research-radial.md",
+      "source": "notes/225-fourfold-toeplitz-signed-boundary-closure.md",
+      "sha256": "7b87d8e53007873edcb19d0cf42651baab71bcd40b21d7a3f3a3cd81eb35ddd0"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-anchored-carrier-averaged-fourth-projection-gap-research-radial.md",
+      "source": "notes/228-relative-dense-zero-block-transfer.md",
+      "sha256": "2cc8a3f5eb0e66ef0a6306a317a1e2b03c046c62b8284a87ccbee8e8130181ae"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-anchored-carrier-averaged-fourth-projection-gap-research-radial.md",
+      "source": "reviews/2026-10-07/hybrid-one-three-finite-band-admission-research.md",
+      "sha256": "bc6ad6b1a007422c7678cd540b4127b81d2adc168faf5b090a58b6676778e35f"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-anchored-carrier-averaged-fourth-projection-gap-research-radial.md",
+      "source": "reviews/2026-10-07/hybrid-whole-fourth-compression-upper-research-radial.md",
+      "sha256": "0703f66778d49de29e363f7eabede6718ef24fe579e53603ff70db4e6aeacdea"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-anchored-carrier-averaged-fourth-projection-gap-research-radial.md",
+      "source": "notes/471-original-principal-subtraction-and-signed-four-distinct-target.md",
+      "sha256": "a66dcc18606b59ac0aa1a879f64f6f7dae4a3278981e5fbc2c94190efa3a3ef6"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-whole-short-carrier-ratio-and-distinct-criterion-research-twisted.md",
+      "source": "reviews/2026-10-08/hybrid-anchored-carrier-averaged-fourth-projection-gap-research-radial.md",
+      "sha256": "c0e874ab9061982c8ef4365c8e9313eeac77eeddb756dc0b455cab3349f99dd8"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-whole-short-carrier-ratio-and-distinct-criterion-research-twisted.md",
+      "source": "reviews/2026-10-07/hybrid-one-three-finite-band-admission-research.md",
+      "sha256": "bc6ad6b1a007422c7678cd540b4127b81d2adc168faf5b090a58b6676778e35f"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-whole-short-carrier-ratio-and-distinct-criterion-research-twisted.md",
+      "source": "reviews/2026-10-07/hybrid-high-parity-gram-and-mobius-completion-research-radial.md",
+      "sha256": "3f4c714bb126356389332f3674836d6edf6f110f60935a27af93a58a0e26bbb2"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-whole-short-carrier-ratio-and-distinct-criterion-research-twisted.md",
+      "source": "notes/465-centered-high-square-joint-fourth-budget.md",
+      "sha256": "a9290d2d847c2a3f7942b26353bd1582a68b391e481acc109c4ac18d3d750464"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-whole-short-carrier-ratio-and-distinct-criterion-research-twisted.md",
+      "source": "notes/456-high-opposite-four-word-vanishing-and-repeated-limit.md",
+      "sha256": "7de855634f93f9d92f6d0cbdd762f9894effaaf40f788b3e02de89f961eadb96"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-whole-short-carrier-ratio-and-distinct-criterion-research-twisted.md",
+      "source": "notes/471-original-principal-subtraction-and-signed-four-distinct-target.md",
+      "sha256": "a66dcc18606b59ac0aa1a879f64f6f7dae4a3278981e5fbc2c94190efa3a3ef6"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-second-order-tail-coupling-and-strip-geometry-research-compression.md",
+      "source": "notes/197-partial-weil-proportions-regions-four-moments.md",
+      "sha256": "98bd8ea89679030e0ffb8135d324b5654900f260b3f45c9ae816d5ea870eaae7"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-second-order-tail-coupling-and-strip-geometry-research-compression.md",
+      "source": "notes/304-mt-triple-geometry-and-second-moment-stability.md",
+      "sha256": "03f21ab1749157ff45bc4d4f62709e2a5482257c7155e7e8e644da0ac4521bc4"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-second-order-tail-coupling-and-strip-geometry-research-compression.md",
+      "source": "notes/305-post-6725-literature-baseline-audit.md",
+      "sha256": "fab0841ee5734d35db023f0b1305bf75f9b19fcd11feda2ff08c73b2562d1aa9"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-second-order-tail-coupling-and-strip-geometry-research-compression.md",
+      "source": "literature/baseline/2026-alpoge-furman-6725-v2.pdf",
+      "sha256": "6de3b156342e7b4a802c34f8ef40432567e9dabe006938da04233f19fc4ef444"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-second-order-tail-coupling-and-strip-geometry-research-compression.md",
+      "source": "notes/454-original-background-and-weighted-prime-mixed-traces.md",
+      "sha256": "8ab99d60c1b748dc561cac57ee498057a0c9fb19b9778a041261b1bad0750db7"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-second-order-tail-coupling-and-strip-geometry-research-compression.md",
+      "source": "reviews/2026-10-07/hybrid-background-entire-mixed-cubic-research-compression.md",
+      "sha256": "19c715587681c95c3e8750e4751a30bff798b372f68dc516f029c0a5e71020dd"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-second-order-tail-coupling-and-strip-geometry-research-compression.md",
+      "source": "reviews/2026-10-07/hybrid-background-cubic-relative-actual-recovery-research-compression.md",
+      "sha256": "1dbdad713d2694d9fce6391971fc0044fcbf18d0ad3dbdd2d3fba5111ba80d38"
+    },
+    {
+      "document": "notes/472-original-short-carrier-fourth-compression-and-ratio-variance.md",
+      "source": "reviews/2026-10-08/hybrid-anchored-carrier-averaged-fourth-projection-gap-research-radial.md",
+      "sha256": "c0e874ab9061982c8ef4365c8e9313eeac77eeddb756dc0b455cab3349f99dd8"
+    },
+    {
+      "document": "notes/472-original-short-carrier-fourth-compression-and-ratio-variance.md",
+      "source": "reviews/2026-10-08/hybrid-whole-short-carrier-ratio-and-distinct-criterion-research-twisted.md",
+      "sha256": "c7ff142ebe15232542626e4feda3c05a1285cbf7bff64f462e734c662dafea53"
+    },
+    {
+      "document": "notes/472-original-short-carrier-fourth-compression-and-ratio-variance.md",
+      "source": "reviews/2026-10-08/hybrid-second-order-tail-coupling-and-strip-geometry-research-compression.md",
+      "sha256": "e5c21e3a8bb0cb52e9e3131259a52dbb42051d7eb514ca8a65b083128b88d444"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-short-carrier-ratio-and-tail-review-root.md",
+      "source": "reviews/2026-10-08/hybrid-anchored-carrier-averaged-fourth-projection-gap-research-radial.md",
+      "sha256": "c0e874ab9061982c8ef4365c8e9313eeac77eeddb756dc0b455cab3349f99dd8"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-short-carrier-ratio-and-tail-review-root.md",
+      "source": "reviews/2026-10-08/hybrid-whole-short-carrier-ratio-and-distinct-criterion-research-twisted.md",
+      "sha256": "c7ff142ebe15232542626e4feda3c05a1285cbf7bff64f462e734c662dafea53"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-short-carrier-ratio-and-tail-review-root.md",
+      "source": "reviews/2026-10-08/hybrid-second-order-tail-coupling-and-strip-geometry-research-compression.md",
+      "sha256": "e5c21e3a8bb0cb52e9e3131259a52dbb42051d7eb514ca8a65b083128b88d444"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-whole-short-carrier-ratio-and-distinct-criterion-review-radial.md",
+      "source": "reviews/2026-10-08/hybrid-anchored-carrier-averaged-fourth-projection-gap-research-radial.md",
+      "sha256": "c0e874ab9061982c8ef4365c8e9313eeac77eeddb756dc0b455cab3349f99dd8"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-whole-short-carrier-ratio-and-distinct-criterion-review-radial.md",
+      "source": "reviews/2026-10-07/hybrid-one-three-finite-band-admission-research.md",
+      "sha256": "bc6ad6b1a007422c7678cd540b4127b81d2adc168faf5b090a58b6676778e35f"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-whole-short-carrier-ratio-and-distinct-criterion-review-radial.md",
+      "source": "reviews/2026-10-07/hybrid-high-parity-gram-and-mobius-completion-research-radial.md",
+      "sha256": "3f4c714bb126356389332f3674836d6edf6f110f60935a27af93a58a0e26bbb2"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-whole-short-carrier-ratio-and-distinct-criterion-review-radial.md",
+      "source": "notes/465-centered-high-square-joint-fourth-budget.md",
+      "sha256": "a9290d2d847c2a3f7942b26353bd1582a68b391e481acc109c4ac18d3d750464"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-whole-short-carrier-ratio-and-distinct-criterion-review-radial.md",
+      "source": "notes/456-high-opposite-four-word-vanishing-and-repeated-limit.md",
+      "sha256": "7de855634f93f9d92f6d0cbdd762f9894effaaf40f788b3e02de89f961eadb96"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-whole-short-carrier-ratio-and-distinct-criterion-review-radial.md",
+      "source": "notes/471-original-principal-subtraction-and-signed-four-distinct-target.md",
+      "sha256": "a66dcc18606b59ac0aa1a879f64f6f7dae4a3278981e5fbc2c94190efa3a3ef6"
+    },
+    {
+      "document": "reviews/2026-10-08/472-original-short-carrier-review-radial.md",
+      "source": "reviews/2026-10-08/hybrid-anchored-carrier-averaged-fourth-projection-gap-research-radial.md",
+      "sha256": "c0e874ab9061982c8ef4365c8e9313eeac77eeddb756dc0b455cab3349f99dd8"
+    },
+    {
+      "document": "reviews/2026-10-08/472-original-short-carrier-review-radial.md",
+      "source": "reviews/2026-10-08/hybrid-whole-short-carrier-ratio-and-distinct-criterion-research-twisted.md",
+      "sha256": "c7ff142ebe15232542626e4feda3c05a1285cbf7bff64f462e734c662dafea53"
+    },
+    {
+      "document": "reviews/2026-10-08/472-original-short-carrier-review-radial.md",
+      "source": "reviews/2026-10-08/hybrid-second-order-tail-coupling-and-strip-geometry-research-compression.md",
+      "sha256": "e5c21e3a8bb0cb52e9e3131259a52dbb42051d7eb514ca8a65b083128b88d444"
+    },
+    {
+      "document": "reviews/2026-10-08/472-original-short-carrier-review-radial.md",
+      "source": "notes/465-centered-high-square-joint-fourth-budget.md",
+      "sha256": "a9290d2d847c2a3f7942b26353bd1582a68b391e481acc109c4ac18d3d750464"
+    },
+    {
+      "document": "reviews/2026-10-08/472-original-short-carrier-review-radial.md",
+      "source": "notes/456-high-opposite-four-word-vanishing-and-repeated-limit.md",
+      "sha256": "7de855634f93f9d92f6d0cbdd762f9894effaaf40f788b3e02de89f961eadb96"
+    },
+    {
+      "document": "reviews/2026-10-08/472-original-short-carrier-review-radial.md",
+      "source": "scripts/hybrid_short_carrier_checkpoint.py",
+      "sha256": "f66dd8cf3d6f67e2c7ec323bc7eed841144cd7bfa4d0cafdec428fec04c8365d"
+    }
+  ],
+  "links_checked": 53,
+  "files": [
+    {
+      "path": "reviews/2026-10-08/hybrid-anchored-carrier-averaged-fourth-projection-gap-research-radial.md",
+      "sha256_canonical_lf": "c0e874ab9061982c8ef4365c8e9313eeac77eeddb756dc0b455cab3349f99dd8",
+      "canonical_utf8_bytes": 16479,
+      "lines": 413
+    },
+    {
+      "path": "reviews/2026-10-08/hybrid-whole-short-carrier-ratio-and-distinct-criterion-research-twisted.md",
+      "sha256_canonical_lf": "c7ff142ebe15232542626e4feda3c05a1285cbf7bff64f462e734c662dafea53",
+      "canonical_utf8_bytes": 11396,
+      "lines": 276
+    },
+    {
+      "path": "reviews/2026-10-08/hybrid-second-order-tail-coupling-and-strip-geometry-research-compression.md",
+      "sha256_canonical_lf": "e5c21e3a8bb0cb52e9e3131259a52dbb42051d7eb514ca8a65b083128b88d444",
+      "canonical_utf8_bytes": 14464,
+      "lines": 292
+    },
+    {
+      "path": "notes/472-original-short-carrier-fourth-compression-and-ratio-variance.md",
+      "sha256_canonical_lf": "9856885e932a892cf7c33ece82f430c2ec13004555eb52da2f1e8b1ec6bb2683",
+      "canonical_utf8_bytes": 9037,
+      "lines": 194
+    },
+    {
+      "path": "reviews/2026-10-08/hybrid-short-carrier-ratio-and-tail-review-root.md",
+      "sha256_canonical_lf": "fd53c71f7412f1db74002d33bcc75ae54310add4e6c7e38a723dd9f0287ac014",
+      "canonical_utf8_bytes": 7472,
+      "lines": 127
+    },
+    {
+      "path": "reviews/2026-10-08/hybrid-anchored-carrier-averaged-fourth-projection-gap-review-twisted.md",
+      "sha256_canonical_lf": "4295571dc49ce88203f4bd1f3476833d6b3e3dfcddb658cf695a9346b2309c0e",
+      "canonical_utf8_bytes": 5572,
+      "lines": 115
+    },
+    {
+      "path": "reviews/2026-10-08/hybrid-whole-short-carrier-ratio-and-distinct-criterion-review-radial.md",
+      "sha256_canonical_lf": "b4cb900e9a60a95dff7e38425eb17fe33df7e75812d80e1734dc259c43bd8110",
+      "canonical_utf8_bytes": 10921,
+      "lines": 232
+    },
+    {
+      "path": "reviews/2026-10-08/hybrid-second-order-tail-coupling-and-strip-geometry-review-twisted.md",
+      "sha256_canonical_lf": "d1235ef40d0cdabedb22ba821fb939deefaa0dc4da09f38d1c7ee02b35c80488",
+      "canonical_utf8_bytes": 6159,
+      "lines": 126
+    },
+    {
+      "path": "reviews/2026-10-08/472-original-short-carrier-review-radial.md",
+      "sha256_canonical_lf": "7ec90dfc7a7836b0ab0e7978902711bbb80a4fd8944f8099d9e4ea9b4984e355",
+      "canonical_utf8_bytes": 10298,
+      "lines": 195
+    },
+    {
+      "path": "scripts/hybrid_short_carrier_checkpoint.py",
+      "sha256_canonical_lf": "f66dd8cf3d6f67e2c7ec323bc7eed841144cd7bfa4d0cafdec428fec04c8365d",
+      "canonical_utf8_bytes": 10476,
+      "lines": 221
+    }
+  ],
+  "unproved": [
+    "a useful complete ratio-variance upper in the same short window",
+    "an actual positive normalized second-order tail lower",
+    "a new zero proportion or zero-free boundary",
+    "independent certification of the imported R analytic kernel"
+  ]
+}
