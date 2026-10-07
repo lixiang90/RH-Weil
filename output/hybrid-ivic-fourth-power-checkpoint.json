@@ -1,0 +1,363 @@
+{
+  "date": "2026-10-08",
+  "base_commit": "5fe68395d20e9738ecc0ba64e8a762f4d93bd073",
+  "original_cutoffs_normalizer_positive_guard_and_carrier_retained": true,
+  "actual_power_improved_relative_R": true,
+  "power_result_conditional_input": "all nontrivial zeta zeros beta<=theta, fixed 5/6<theta<=7/8",
+  "outcome_flags_are_reviewed_source_conclusions_not_script_analytic_proofs": true,
+  "analytic_upper_certified_by_script": false,
+  "constant_fourth_budget_paid": false,
+  "whole_signed_near_paid": false,
+  "new_actual_zero_proportion": false,
+  "new_zero_free_boundary": false,
+  "new_classical_density_theorem": false,
+  "new_paper": false,
+  "finite_certificate": {
+    "checks": [
+      "Ivic stated lower range reduces exactly",
+      "4/5 strictly above Ivic lower range",
+      "entire fixed grid sigma>=4/5 inside strict lower range",
+      "5/6 exceeds new-grid start",
+      "7/8 strictly below upper range one",
+      "old low derivative formula",
+      "old high derivative formula",
+      "old low derivative numerator sigma=3/4-u",
+      "old low derivative positive numerator (whole nonnegative-variable domain)",
+      "old high derivative numerator sigma=3/4+u",
+      "old high derivative positive numerator (whole nonnegative-variable domain)",
+      "old low denominator is positive",
+      "old high denominator is positive",
+      "old first endpoint",
+      "old join at 3/4",
+      "old join value",
+      "old whole low-domain maximum at 4/5",
+      "Ivic fourth exponent derivative",
+      "Ivic derivative lower endpoint",
+      "Ivic derivative-minus-floor numerator",
+      "Ivic derivative floor numerator sigma=4/5+u",
+      "Ivic derivative>=53/32 on entire sigma>=4/5 (whole nonnegative-variable domain)",
+      "Ivic derivative floor denominator",
+      "Ivic-grid first value",
+      "grid splice need not be continuous",
+      "Ivic value at original lower theta boundary",
+      "whole low domain cannot win for theta>5/6",
+      "strict low-domain exclusion throughout original theta range",
+      "Ivic value at 6/7",
+      "6/7 low-domain exclusion",
+      "Ivic density at 7/8",
+      "Ivic fourth exponent at 7/8",
+      "monotonic entire original range gives 0<B_I<1",
+      "saving relative to 475 for full theta range",
+      "saving relative to 446 for full theta range",
+      "475 saving at 7/8",
+      "446 saving at 7/8",
+      "new factor one-minus-theta positive on theta<=7/8",
+      "new factor theta positive on theta>5/6",
+      "new factor 3theta-1 positive on theta>5/6",
+      "new factor 4theta-3 positive on theta>5/6",
+      "full-domain strict gap factor one-minus-theta (whole nonnegative-variable domain)",
+      "full-domain strict gap factor theta (whole nonnegative-variable domain)",
+      "full-domain strict gap factor 3theta-1 (whole nonnegative-variable domain)",
+      "full-domain strict gap factor 4theta-3 (whole nonnegative-variable domain)",
+      "new growth budget absorbs main (whole nonnegative-variable domain)",
+      "new growth budget absorbs first guard cross (whole nonnegative-variable domain)",
+      "new growth budget absorbs second guard cross (whole nonnegative-variable domain)",
+      "new growth budget absorbs first guard square (whole nonnegative-variable domain)",
+      "new growth budget absorbs guard mixed term (whole nonnegative-variable domain)",
+      "new growth budget absorbs second guard square (whole nonnegative-variable domain)"
+    ],
+    "count": 51,
+    "original_theta_domain": "5/6<theta<=7/8",
+    "B_I_7_over_8": "5/7",
+    "saving_against_475_7_over_8": "3/182",
+    "saving_against_446_7_over_8": "1/28",
+    "scope": "exact finite whole-interval exponent algebra and source bindings only",
+    "external_Ivic_theorem_verified_by_script": false,
+    "analytic_fourth_or_AF_proof_certified_by_script": false
+  },
+  "review_bindings": [
+    {
+      "source": "reviews/2026-10-08/hybrid-ivic-density-and-scalar-fourth-growth-research-twisted.md",
+      "source_sha256": "a21a19e7bd09892ed705fa7883143e49c138ffe112c561be9413edaf44d72a1d",
+      "review": "reviews/2026-10-08/hybrid-ivic-density-and-scalar-fourth-growth-review-root.md",
+      "review_sha256": "061342dfe685c5cd59114f07444ed36eba3e68905e30f11505a46e3fcc088767"
+    },
+    {
+      "source": "reviews/2026-10-08/hybrid-ivic-density-and-scalar-fourth-growth-research-twisted.md",
+      "source_sha256": "a21a19e7bd09892ed705fa7883143e49c138ffe112c561be9413edaf44d72a1d",
+      "review": "reviews/2026-10-08/hybrid-ivic-density-and-scalar-fourth-growth-review-radial.md",
+      "review_sha256": "36125b5f68d340e317e866312ba0d82822de3ae5261d6f18da1561e45245aea7"
+    },
+    {
+      "source": "notes/476-original-fourth-growth-five-sevenths-with-ivic-density.md",
+      "source_sha256": "179829dd25f92ff187359f73455aafad9f957d714df13cf871db47a76e9408b6",
+      "review": "reviews/2026-10-08/476-summary-review-radial.md",
+      "review_sha256": "c7b7b510fb967d938aff5de5a10668e47dc430df4f390a9457d036538c7b4ed4"
+    },
+    {
+      "source": "reviews/2026-10-08/hybrid-positive-height-zero-packet-fourth-upper-research-radial.md",
+      "source_sha256": "8bcbd27da46d922d9e6e741fcf9a87012d565052f8d97b3ad12e99b3edbc2481",
+      "review": "reviews/2026-10-08/hybrid-original-fourth-power-and-far-review-root.md",
+      "review_sha256": "65a4e75ac9ca79dc2c9a2752902ec89acb968eae8c696ad4d54ab1148ec26f6c"
+    },
+    {
+      "source": "reviews/2026-10-08/hybrid-fixed-start-half-gram-sampling-research-root.md",
+      "source_sha256": "7ed68a71d4d22d0bf1d90c61cef231534737188131aad9842669cd11f19c82cc",
+      "review": "reviews/2026-10-08/hybrid-fixed-start-half-gram-sampling-review-compression.md",
+      "review_sha256": "9f5b4b76bab1483cf0eee8607928f5b85b41feb3e14aa652c838416f37b68cf8"
+    }
+  ],
+  "cited_source_hash_bindings": [
+    {
+      "document": "reviews/2026-10-08/hybrid-ivic-density-and-scalar-fourth-growth-research-twisted.md",
+      "source": "reviews/2026-10-08/hybrid-positive-height-zero-packet-fourth-upper-research-radial.md",
+      "sha256": "8bcbd27da46d922d9e6e741fcf9a87012d565052f8d97b3ad12e99b3edbc2481"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-ivic-density-and-scalar-fourth-growth-research-twisted.md",
+      "source": "reviews/2026-10-08/hybrid-short-carrier-canonical-scalar-fourth-admission-research-radial.md",
+      "sha256": "f04279a9de54303d772859b2ee5e05010567404c53143c928a14e905eb51a0d7"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-ivic-density-and-scalar-fourth-growth-research-twisted.md",
+      "source": "reviews/2026-10-08/hybrid-fixed-start-half-gram-sampling-research-root.md",
+      "sha256": "7ed68a71d4d22d0bf1d90c61cef231534737188131aad9842669cd11f19c82cc"
+    },
+    {
+      "document": "notes/476-original-fourth-growth-five-sevenths-with-ivic-density.md",
+      "source": "reviews/2026-10-08/hybrid-ivic-density-and-scalar-fourth-growth-research-twisted.md",
+      "sha256": "a21a19e7bd09892ed705fa7883143e49c138ffe112c561be9413edaf44d72a1d"
+    },
+    {
+      "document": "notes/476-original-fourth-growth-five-sevenths-with-ivic-density.md",
+      "source": "reviews/2026-10-08/hybrid-positive-height-zero-packet-fourth-upper-research-radial.md",
+      "sha256": "8bcbd27da46d922d9e6e741fcf9a87012d565052f8d97b3ad12e99b3edbc2481"
+    },
+    {
+      "document": "notes/476-original-fourth-growth-five-sevenths-with-ivic-density.md",
+      "source": "reviews/2026-10-08/hybrid-fixed-start-half-gram-sampling-research-root.md",
+      "sha256": "7ed68a71d4d22d0bf1d90c61cef231534737188131aad9842669cd11f19c82cc"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-ivic-density-and-scalar-fourth-growth-review-root.md",
+      "source": "reviews/2026-10-08/hybrid-ivic-density-and-scalar-fourth-growth-research-twisted.md",
+      "sha256": "a21a19e7bd09892ed705fa7883143e49c138ffe112c561be9413edaf44d72a1d"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-ivic-density-and-scalar-fourth-growth-review-root.md",
+      "source": "reviews/2026-10-08/hybrid-positive-height-zero-packet-fourth-upper-research-radial.md",
+      "sha256": "8bcbd27da46d922d9e6e741fcf9a87012d565052f8d97b3ad12e99b3edbc2481"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-ivic-density-and-scalar-fourth-growth-review-root.md",
+      "source": "reviews/2026-10-08/hybrid-fixed-start-half-gram-sampling-research-root.md",
+      "sha256": "7ed68a71d4d22d0bf1d90c61cef231534737188131aad9842669cd11f19c82cc"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-ivic-density-and-scalar-fourth-growth-review-radial.md",
+      "source": "reviews/2026-10-08/hybrid-ivic-density-and-scalar-fourth-growth-research-twisted.md",
+      "sha256": "a21a19e7bd09892ed705fa7883143e49c138ffe112c561be9413edaf44d72a1d"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-ivic-density-and-scalar-fourth-growth-review-radial.md",
+      "source": "reviews/2026-10-08/hybrid-positive-height-zero-packet-fourth-upper-research-radial.md",
+      "sha256": "8bcbd27da46d922d9e6e741fcf9a87012d565052f8d97b3ad12e99b3edbc2481"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-ivic-density-and-scalar-fourth-growth-review-radial.md",
+      "source": "reviews/2026-10-08/hybrid-short-carrier-canonical-scalar-fourth-admission-research-radial.md",
+      "sha256": "f04279a9de54303d772859b2ee5e05010567404c53143c928a14e905eb51a0d7"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-ivic-density-and-scalar-fourth-growth-review-radial.md",
+      "source": "reviews/2026-10-08/hybrid-fixed-start-half-gram-sampling-research-root.md",
+      "sha256": "7ed68a71d4d22d0bf1d90c61cef231534737188131aad9842669cd11f19c82cc"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-ivic-density-and-scalar-fourth-growth-review-radial.md",
+      "source": "reviews/2026-10-08/hybrid-fixed-start-half-gram-sampling-review-compression.md",
+      "sha256": "9f5b4b76bab1483cf0eee8607928f5b85b41feb3e14aa652c838416f37b68cf8"
+    },
+    {
+      "document": "reviews/2026-10-08/476-summary-review-radial.md",
+      "source": "notes/476-original-fourth-growth-five-sevenths-with-ivic-density.md",
+      "sha256": "179829dd25f92ff187359f73455aafad9f957d714df13cf871db47a76e9408b6"
+    },
+    {
+      "document": "reviews/2026-10-08/476-summary-review-radial.md",
+      "source": "reviews/2026-10-08/hybrid-ivic-density-and-scalar-fourth-growth-research-twisted.md",
+      "sha256": "a21a19e7bd09892ed705fa7883143e49c138ffe112c561be9413edaf44d72a1d"
+    },
+    {
+      "document": "reviews/2026-10-08/476-summary-review-radial.md",
+      "source": "reviews/2026-10-08/hybrid-ivic-density-and-scalar-fourth-growth-review-radial.md",
+      "sha256": "36125b5f68d340e317e866312ba0d82822de3ae5261d6f18da1561e45245aea7"
+    },
+    {
+      "document": "reviews/2026-10-08/476-summary-review-radial.md",
+      "source": "reviews/2026-10-08/hybrid-ivic-density-and-scalar-fourth-growth-review-root.md",
+      "sha256": "061342dfe685c5cd59114f07444ed36eba3e68905e30f11505a46e3fcc088767"
+    },
+    {
+      "document": "reviews/2026-10-08/476-summary-review-radial.md",
+      "source": "reviews/2026-10-08/hybrid-positive-height-zero-packet-fourth-upper-research-radial.md",
+      "sha256": "8bcbd27da46d922d9e6e741fcf9a87012d565052f8d97b3ad12e99b3edbc2481"
+    },
+    {
+      "document": "reviews/2026-10-08/476-summary-review-radial.md",
+      "source": "reviews/2026-10-08/hybrid-fixed-start-half-gram-sampling-research-root.md",
+      "sha256": "7ed68a71d4d22d0bf1d90c61cef231534737188131aad9842669cd11f19c82cc"
+    },
+    {
+      "document": "reviews/2026-10-08/476-summary-review-radial.md",
+      "source": "notes/475-original-fourth-power-saving-and-whole-far-resonance.md",
+      "sha256": "cd295de4a909d82e50f8db4635d18cb3dfb9dffbbab8a5a4f00167aced1bf55b"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-positive-height-zero-packet-fourth-upper-research-radial.md",
+      "source": "notes/446-uniform-prime-twists-on-the-original-gabor-frame.md",
+      "sha256": "08060477a6ea806d559fd67533d9e6d3b96483a755842cca9a048b6ab5e110cf"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-positive-height-zero-packet-fourth-upper-research-radial.md",
+      "source": "notes/451-kappa-feedback-cubic-boundary-and-family-continuation.md",
+      "sha256": "17ce7fea8c881ebd4034657b7039e99897d4ff9532348993ba329c46e3c4d487"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-positive-height-zero-packet-fourth-upper-research-radial.md",
+      "source": "notes/474-original-short-carrier-canonical-scalar-fourth-admission.md",
+      "sha256": "37306c6d403f48c93d5d0f92782088225084e2e4b6b694cd89644a75fe39e99f"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-positive-height-zero-packet-fourth-upper-research-radial.md",
+      "source": "reviews/2026-10-08/hybrid-short-carrier-canonical-scalar-fourth-admission-research-radial.md",
+      "sha256": "f04279a9de54303d772859b2ee5e05010567404c53143c928a14e905eb51a0d7"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-original-fourth-power-and-far-review-root.md",
+      "source": "reviews/2026-10-08/hybrid-positive-height-zero-packet-fourth-upper-research-radial.md",
+      "sha256": "8bcbd27da46d922d9e6e741fcf9a87012d565052f8d97b3ad12e99b3edbc2481"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-original-fourth-power-and-far-review-root.md",
+      "source": "reviews/2026-10-08/hybrid-whole-ratio-smooth-carrier-far-resonance-research-twisted.md",
+      "sha256": "9b8c6064731f65eb4449a3e9da353077baa856a4cb27f93fd5063b6f6a578054"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-original-fourth-power-and-far-review-root.md",
+      "source": "reviews/2026-10-08/hybrid-canonical-semiprime-smooth-subtraction-and-variance-obstruction-research-compression.md",
+      "sha256": "7fcb097ad17d77b7281acd1f7c7d0f1580c5519c015437e104823cdfabd52645"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-fixed-start-half-gram-sampling-research-root.md",
+      "source": "reviews/2026-10-08/hybrid-short-carrier-canonical-scalar-fourth-admission-research-radial.md",
+      "sha256": "f04279a9de54303d772859b2ee5e05010567404c53143c928a14e905eb51a0d7"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-fixed-start-half-gram-sampling-research-root.md",
+      "source": "reviews/2026-10-08/hybrid-whole-short-carrier-ratio-and-distinct-criterion-research-twisted.md",
+      "sha256": "c7ff142ebe15232542626e4feda3c05a1285cbf7bff64f462e734c662dafea53"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-fixed-start-half-gram-sampling-research-root.md",
+      "source": "notes/472-original-short-carrier-fourth-compression-and-ratio-variance.md",
+      "sha256": "9856885e932a892cf7c33ece82f430c2ec13004555eb52da2f1e8b1ec6bb2683"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-fixed-start-half-gram-sampling-review-compression.md",
+      "source": "reviews/2026-10-08/hybrid-fixed-start-half-gram-sampling-research-root.md",
+      "sha256": "7ed68a71d4d22d0bf1d90c61cef231534737188131aad9842669cd11f19c82cc"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-fixed-start-half-gram-sampling-review-compression.md",
+      "source": "reviews/2026-10-08/hybrid-short-carrier-canonical-scalar-fourth-admission-research-radial.md",
+      "sha256": "f04279a9de54303d772859b2ee5e05010567404c53143c928a14e905eb51a0d7"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-fixed-start-half-gram-sampling-review-compression.md",
+      "source": "reviews/2026-10-08/hybrid-whole-short-carrier-ratio-and-distinct-criterion-research-twisted.md",
+      "sha256": "c7ff142ebe15232542626e4feda3c05a1285cbf7bff64f462e734c662dafea53"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-fixed-start-half-gram-sampling-review-compression.md",
+      "source": "notes/472-original-short-carrier-fourth-compression-and-ratio-variance.md",
+      "sha256": "9856885e932a892cf7c33ece82f430c2ec13004555eb52da2f1e8b1ec6bb2683"
+    }
+  ],
+  "links_checked": 36,
+  "files": [
+    {
+      "path": "reviews/2026-10-08/hybrid-ivic-density-and-scalar-fourth-growth-research-twisted.md",
+      "sha256_canonical_lf": "a21a19e7bd09892ed705fa7883143e49c138ffe112c561be9413edaf44d72a1d",
+      "canonical_utf8_bytes": 9802,
+      "lines": 184
+    },
+    {
+      "path": "notes/476-original-fourth-growth-five-sevenths-with-ivic-density.md",
+      "sha256_canonical_lf": "179829dd25f92ff187359f73455aafad9f957d714df13cf871db47a76e9408b6",
+      "canonical_utf8_bytes": 4448,
+      "lines": 96
+    },
+    {
+      "path": "reviews/2026-10-08/hybrid-ivic-density-and-scalar-fourth-growth-review-root.md",
+      "sha256_canonical_lf": "061342dfe685c5cd59114f07444ed36eba3e68905e30f11505a46e3fcc088767",
+      "canonical_utf8_bytes": 4778,
+      "lines": 91
+    },
+    {
+      "path": "reviews/2026-10-08/hybrid-ivic-density-and-scalar-fourth-growth-review-radial.md",
+      "sha256_canonical_lf": "36125b5f68d340e317e866312ba0d82822de3ae5261d6f18da1561e45245aea7",
+      "canonical_utf8_bytes": 8360,
+      "lines": 117
+    },
+    {
+      "path": "reviews/2026-10-08/476-summary-review-radial.md",
+      "sha256_canonical_lf": "c7b7b510fb967d938aff5de5a10668e47dc430df4f390a9457d036538c7b4ed4",
+      "canonical_utf8_bytes": 5019,
+      "lines": 66
+    },
+    {
+      "path": "reviews/2026-10-08/hybrid-positive-height-zero-packet-fourth-upper-research-radial.md",
+      "sha256_canonical_lf": "8bcbd27da46d922d9e6e741fcf9a87012d565052f8d97b3ad12e99b3edbc2481",
+      "canonical_utf8_bytes": 12641,
+      "lines": 332
+    },
+    {
+      "path": "reviews/2026-10-08/hybrid-original-fourth-power-and-far-review-root.md",
+      "sha256_canonical_lf": "65a4e75ac9ca79dc2c9a2752902ec89acb968eae8c696ad4d54ab1148ec26f6c",
+      "canonical_utf8_bytes": 8377,
+      "lines": 137
+    },
+    {
+      "path": "reviews/2026-10-08/hybrid-fixed-start-half-gram-sampling-research-root.md",
+      "sha256_canonical_lf": "7ed68a71d4d22d0bf1d90c61cef231534737188131aad9842669cd11f19c82cc",
+      "canonical_utf8_bytes": 7522,
+      "lines": 199
+    },
+    {
+      "path": "reviews/2026-10-08/hybrid-fixed-start-half-gram-sampling-review-compression.md",
+      "sha256_canonical_lf": "9f5b4b76bab1483cf0eee8607928f5b85b41feb3e14aa652c838416f37b68cf8",
+      "canonical_utf8_bytes": 5786,
+      "lines": 119
+    },
+    {
+      "path": "scripts/hybrid_ivic_fourth_power_checkpoint.py",
+      "sha256_canonical_lf": "0bfba07a0249361b284ea0263112edb33e6e8377b4cc2ac10105090dc1f81680",
+      "canonical_utf8_bytes": 13487,
+      "lines": 249
+    }
+  ],
+  "external_primary_metadata_reported_by_sources": {
+    "title": "Ivic, Topics in Recent Zeta-Function Theory",
+    "theorem": "Theorem 9.3, equation (9.63)",
+    "raw_pdf_sha256": "fafac152db87abe132858fa97d8fe501c61cd261e20732ef701396fba27b61aa",
+    "bytes": 10538942,
+    "pages": 278,
+    "external_pdf_or_theorem_verified_by_this_script": false
+  },
+  "unproved": [
+    "constant-size canonical scalar fourth budget",
+    "whole signed natural-near arithmetic",
+    "a new actual zero proportion or zero-free boundary"
+  ]
+}
