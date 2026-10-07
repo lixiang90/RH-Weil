@@ -1,6 +1,19 @@
 # 研究分支看板
 
-## 当前队列（2026-10-07，原四矩与primitive联合接口）
+## 当前队列（2026-10-08，回到原路线）
+
+Goal active。无零边界仍为引用输入下 σ*≈0.874957019420099；本轮纳入已完整重放证书和已知谱包络支持的简单临界线比例约67.3009652279%。证明范围、先行来源及更高公开候选比较见[477](notes/477-original-vaughan-reduction-and-replayed-multipoint-proportion.md)。
+
+| 范围 | 已付与下一目标 |
+|---|---|
+| 原素数四矩 | [476](notes/476-original-fourth-growth-five-sevenths-with-ivic-density.md)给 whole T^(5/7+ε)；[477](notes/477-original-vaughan-reduction-and-replayed-multipoint-proportion.md)把低段及Type I支付到2/3。完整带符号Type II联合矩仍开放。 |
+| 原比例路线 | 七点19/5000全域证书完整重放，known谱包络m280的实际计数装配；不是世界纪录或新谱机制。 |
+| 同源四阶常数 | 全部内部P、四份真实素数权和共同相位的signed near预算仍待支付；增长幂不能替代常数或κ参数。 |
+| 换域研究 | 按用户要求暂时搁置，先攻原对象的Type II及近共振。 |
+
+公开README保持项目介绍；本轮没有新无零边界论文。以下均为此前日期的队列及历史记录。
+
+## 此前队列（2026-10-07，原四矩与primitive联合接口）
 
 Goal active；sigma*≈0.874957019420099保持，无新完整边界或比例。
 

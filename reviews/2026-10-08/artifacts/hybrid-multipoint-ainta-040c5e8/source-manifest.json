@@ -1,0 +1,49 @@
+{
+  "source_commit": "040c5e899e658aed7b56a2a87f501798fe10761d",
+  "source_repository": "https://github.com/ainta/zeta-simple-zeros",
+  "files": [
+    {
+      "path": "zeta_simple_zeros/__init__.py",
+      "url": "https://raw.githubusercontent.com/ainta/zeta-simple-zeros/040c5e899e658aed7b56a2a87f501798fe10761d/src/zeta_simple_zeros/__init__.py",
+      "raw_sha256": "fed3f612069c72d4efac4250c6b1e63733762bf5911a973a445c1908d7b4b5d1",
+      "bytes": 224
+    },
+    {
+      "path": "zeta_simple_zeros/constants.py",
+      "url": "https://raw.githubusercontent.com/ainta/zeta-simple-zeros/040c5e899e658aed7b56a2a87f501798fe10761d/src/zeta_simple_zeros/constants.py",
+      "raw_sha256": "8344ed3792603e51a5621a72fc04e0f5bcb115c6599a72579b7a0f4b89c0bbff",
+      "bytes": 657
+    },
+    {
+      "path": "zeta_simple_zeros/kernel.py",
+      "url": "https://raw.githubusercontent.com/ainta/zeta-simple-zeros/040c5e899e658aed7b56a2a87f501798fe10761d/src/zeta_simple_zeros/kernel.py",
+      "raw_sha256": "e83aa966699770bc72f67d3e55079cff89c2432a05ad25abd12afc8cbf9af1dd",
+      "bytes": 6087
+    },
+    {
+      "path": "zeta_simple_zeros/report.py",
+      "url": "https://raw.githubusercontent.com/ainta/zeta-simple-zeros/040c5e899e658aed7b56a2a87f501798fe10761d/src/zeta_simple_zeros/report.py",
+      "raw_sha256": "6305c3a072a3839aff80ad9854fc8e1e259df86078b8a20821fa778b966833fc",
+      "bytes": 1337
+    },
+    {
+      "path": "zeta_simple_zeros/rounding.py",
+      "url": "https://raw.githubusercontent.com/ainta/zeta-simple-zeros/040c5e899e658aed7b56a2a87f501798fe10761d/src/zeta_simple_zeros/rounding.py",
+      "raw_sha256": "2419f77bae2fb73ccb1da4e5d2bbaf3247e7d900d53871de9011296f7de5844e",
+      "bytes": 1510
+    },
+    {
+      "path": "zeta_simple_zeros/verify_three.py",
+      "url": "https://raw.githubusercontent.com/ainta/zeta-simple-zeros/040c5e899e658aed7b56a2a87f501798fe10761d/src/zeta_simple_zeros/verify_three.py",
+      "raw_sha256": "ef2b91bb3323fba459cc5e0b2be2e9408da7a39ba9c56517833c6e3c7109ab20",
+      "bytes": 3463
+    },
+    {
+      "path": "zeta_simple_zeros/verify_seven.py",
+      "url": "https://raw.githubusercontent.com/ainta/zeta-simple-zeros/040c5e899e658aed7b56a2a87f501798fe10761d/src/zeta_simple_zeros/verify_seven.py",
+      "raw_sha256": "66ff0b10d18125144521f110afb5c0de9f9201e04c7e6ad6ad6cc6311080c355",
+      "bytes": 12293
+    }
+  ],
+  "license_raw_sha256": "1f157d0f9ab2186d23b5a573e160090b50b580bea1a56b29c4472693dccc81aa"
+}

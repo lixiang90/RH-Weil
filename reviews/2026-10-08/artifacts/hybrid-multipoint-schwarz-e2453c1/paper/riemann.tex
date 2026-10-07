@@ -1,0 +1,702 @@
+\documentclass[11pt]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb,mathtools,amsthm}
+\usepackage{microtype}
+\usepackage[hidelinks]{hyperref}
+\usepackage{url}
+
+\allowdisplaybreaks[2]
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+
+\DeclareMathOperator{\tr}{tr}
+\newcommand{\F}{\mathrm F}
+\newcommand{\R}{\mathbb R}
+\newcommand{\cS}{\mathcal S}
+\newcommand{\cP}{\mathcal P}
+\newcommand{\cD}{\mathcal D}
+
+\title{A candidate 67.302666\% lower bound for simple critical-line zeros of the Riemann zeta function}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\begin{center}
+\small
+AI-assisted derivative research artifact. Curated and released by Uwe Schwarz.
+Mathematical provenance and contribution boundaries are stated in the
+Reproducibility section.
+\end{center}
+
+\begin{abstract}
+Let $N(T,2T)$ count the zeros of the Riemann zeta function with ordinates in
+$(T,2T]$, with multiplicity, and let $N_0^s(T,2T)$ count the simple zeros on
+the critical line in that interval.  This derivative artifact updates the
+finite certificate in Ainta's AI-assisted draft~\cite{Ainta26}.  It retains
+Ainta's stability refinement, seven-point use of the Montgomery--Taylor
+overlap kernel inherited from Claude's analysis, block aggregation, shifted
+pinching, and verifier lineage~\cite{Claude26}.  We add an exact
+finite-dimensional spectral envelope and a stronger rational interval
+certificate, obtaining the candidate unconditional bound
+\[
+ \liminf_{T\to\infty}\frac{N_0^s(T,2T)}{N(T,2T)}
+ \ge 0.6730266625438475496579\ldots .
+\]
+The finite certificate proves an exact seven-point inequality at the rational
+target $382623/10^8$.  Its standalone Arb replay is complete.  A substantial
+Lean formalization has been kernel-checked, but the dependency-closed build of
+all generated terminal catalogs and the final public theorem is not complete;
+this paper is therefore released as an AI-assisted, unreviewed research draft,
+not as a completed formal-verification claim or a numerical-record claim.
+\end{abstract}
+
+\clearpage
+\section{Statement and setup}
+
+We use the notation and normalisations of~\cite[\S\S2,4,7.1]{Claude26}.  Put
+\[
+ \ell:=\log\frac{T}{2\pi},\qquad I:=(T,2T],\qquad
+ D_0:=T^{1/2},\qquad I':=(T-D_0,2T+D_0].
+\]
+For the optimised test family of Theorem~D, $L=\ell$ and
+\[
+ \phi(u)=\cos\!\left(\frac{\sqrt2\,u}{\ell}\right)^{1/2}
+ \varrho(L/2-|u|),
+\]
+where the fixed-width ramp $\varrho$ is defined in~\cite[\S2.2]{Claude26}.
+Let
+\[
+ a:=\frac1L\int_{\R}\phi(u)^2\,du,
+ \qquad \widehat G:=\frac{G}{aL^2},
+ \qquad \widehat A:=\frac{A}{aL^2},
+ \qquad d:=\left\lfloor\frac{LT}{2\pi}\right\rfloor.
+\]
+As in~\cite[\S4.1]{Claude26}, divide the zeros in $I'$ into the simple
+critical-line zeros $\cS_1$, the distinct multiple critical-line zeros
+$\cS_2$, and the unordered off-line pairs $\cP$.  Write
+\[
+ s_1:=\#\cS_1,\qquad s_2:=\#\cS_2,\qquad p:=\#\cP.
+\]
+Then
+\begin{equation}\label{eq:Nlower}
+ N(I')\ge s_1+2s_2+2p.
+\end{equation}
+For $\rho\in\cS_1$, define
+\[
+ u_\rho:=\bigl(\widehat\phi(\gamma_\rho-\tau_k)\bigr)_{0\le k<d}
+ \in\R^d,
+ \qquad
+ v_\rho:=\frac{u_\rho}{\sqrt a\,L}.
+\]
+The simple-zero part of $\widehat A$ is
+\[
+ P_1=VV^{\mathsf T}=\sum_{\rho\in\cS_1}v_\rho v_\rho^{\mathsf T},
+\]
+where the columns of $V$ are the $v_\rho$.  By Lemma~2.2
+of~\cite{Claude26}, $\|v_\rho\|\le1$.  For
+\[
+ Q':=\widehat A-P_1,
+\]
+the decomposition in the proof of Proposition~4.4 of~\cite{Claude26} gives
+\begin{equation}\label{eq:index}
+ n_+(Q')\le s_2+p.
+\end{equation}
+
+Set
+\[
+ H_{\mathrm{MT}}
+ :=\frac32-\frac1{\sqrt2}\cot\frac1{\sqrt2}
+ =0.6725007036794116457\ldots .
+\]
+Theorem~D of~\cite{Claude26} proves the lower bound $H_{\mathrm{MT}}$.
+The updated finite input gives the following revision of Ainta's bound.
+
+\begin{theorem}\label{thm:main}
+One has
+\[
+ \liminf_{T\to\infty}
+ \frac{N_0^s(T,2T)}{N(T,2T)}
+ \ge
+ \frac{864900000000H_{\mathrm{MT}}-1723600000}
+ {867988393769-20000\sqrt{100022498758}}
+ =0.6730266625438475496579\ldots .
+\]
+\end{theorem}
+
+Theorem~\ref{thm:main} uses Proposition~\ref{prop:F6} as an external
+computer-assisted input.  That proposition is supported here by the
+standalone Arb certificate described in Section~4.  The partial Lean consumer
+does not yet provide a dependency-closed proof of the theorem.
+
+\clearpage
+\section{A stability refinement of the rank--trace inequality}
+
+Define the convex function
+\begin{equation}\label{eq:Psi}
+ \Psi(t):=
+ \begin{cases}
+  (t-1)^2,&0\le t\le2,\\
+  2t-3,&t\ge2.
+ \end{cases}
+\end{equation}
+For a positive semidefinite matrix $M$, let
+\[
+ \cD(M):=\tr\Psi(M).
+\]
+
+\begin{lemma}[Stability-enhanced rank--trace inequality]\label{lem:stable-rank-trace}
+Let $V$ be a $d\times r$ matrix whose columns have norm at most one.  Put
+$P=VV^*\succeq0$ and $M=V^*V$, and let $Q$ be Hermitian with $n_+(Q)\le b$.
+Then
+\begin{equation}\label{eq:stable-rank-trace}
+ \|P+Q\|_{\F}^2
+ \ge 4\tr(P+Q)-3r-4b+\cD(M).
+\end{equation}
+\end{lemma}
+
+\begin{proof}
+Write $Q=Q_+-Q_-$ with $Q_\pm\succeq0$, $Q_+Q_-=0$, and
+$\operatorname{rank}Q_+\le b$.  Since $P,Q_+\succeq0$,
+\[
+ \|P+Q\|_{\F}^2
+ \ge \|P-Q_-\|_{\F}^2+\|Q_+\|_{\F}^2.
+\]
+If $q_j>0$ are the nonzero eigenvalues of $Q_+$, then
+$q_j^2\ge4q_j-4$, so
+\begin{equation}\label{eq:qplus}
+ \|Q_+\|_{\F}^2\ge4\tr Q_+-4b.
+\end{equation}
+Let $p_1\ge\cdots\ge p_r\ge0$ be the eigenvalues of $M$ (the nonzero
+eigenvalues of $P$, padded by zeros), and let $n_1\ge n_2\ge\cdots\ge0$
+be the eigenvalues of $Q_-$.  Von Neumann's trace inequality gives
+$\tr(PQ_-)\le\sum_{i\le r}p_in_i$, hence
+\[
+ \|P-Q_-\|_{\F}^2+4\tr Q_-
+ \ge \sum_{i\le r}\bigl((p_i-n_i)^2+4n_i\bigr).
+\]
+For $p\ge0$,
+\[
+ \min_{n\ge0}\bigl((p-n)^2+4n\bigr)
+ =\begin{cases}p^2,&0\le p\le2,\\4p-4,&p\ge2,\end{cases}
+ =2p-1+\Psi(p).
+\]
+Therefore
+\begin{equation}\label{eq:qminus}
+ \|P-Q_-\|_{\F}^2
+ \ge2\tr P-r+\cD(M)-4\tr Q_-.
+\end{equation}
+Combining \eqref{eq:qplus} and \eqref{eq:qminus} gives
+\[
+ \|P+Q\|_{\F}^2
+ \ge4\tr(P+Q)-2\tr P-r-4b+\cD(M).
+\]
+Since $\tr P$ is the sum of the squared column norms of $V$, $\tr P\le r$.
+\end{proof}
+
+\begin{corollary}\label{cor:count}
+With $M:=V^{\mathsf T}V$,
+\begin{equation}\label{eq:s1}
+ s_1\ge4\tr\widehat A-\|\widehat A\|_{\F}^2-2N(I')+\cD(M).
+\end{equation}
+After removing the tails as in Proposition~4.2 of~\cite{Claude26},
+\begin{equation}\label{eq:global-defect}
+ N_0^s(T,2T)
+ \ge H_{\mathrm{MT}}N(T,2T)+\cD(M^\circ)-o(N(T,2T)),
+\end{equation}
+where $M^\circ$ is the Gram matrix of the retained central simple zeros.
+\end{corollary}
+
+\begin{proof}
+Apply Lemma~\ref{lem:stable-rank-trace} to
+$P_1+Q'=\widehat A$.  Equations \eqref{eq:Nlower} and \eqref{eq:index}
+give
+\[
+ \|\widehat A\|_{\F}^2
+ \ge4\tr\widehat A-3s_1-4s_2-4p+\cD(M)
+ \ge4\tr\widehat A-s_1-2N(I')+\cD(M),
+\]
+which is \eqref{eq:s1}.
+
+Use the same comparison $\widehat A=\widehat G-\widehat E$ and tail
+estimates as in Propositions~4.2 and~4.4 of~\cite{Claude26}.  Pinching the
+full Gram matrix into the retained central block and its complement gives
+$\cD(M)\ge\cD(M^\circ)$ because $X\mapsto\tr\Psi(X)$ is convex and
+unitarily invariant.  Moreover $N(I')=N(T,2T)+o(N(T,2T))$, and Theorem~D
+gives
+\[
+ \tr\widehat G=N(T,2T)(1+o(1)),\qquad
+ \|\widehat G\|_{\F}^2
+ =\left(\frac1{c_1^*}+o(1)\right)N(T,2T),
+\]
+where $2-1/c_1^*=H_{\mathrm{MT}}$.  Substitution in \eqref{eq:s1}
+yields \eqref{eq:global-defect}.
+\end{proof}
+
+\clearpage
+\section{The Montgomery--Taylor overlap kernel}
+
+Put $h:=2\pi/L$ and define the normalised ordinate
+\[
+ x_\rho:=\frac{\gamma_\rho-T}{h}
+ =\frac{L(\gamma_\rho-T)}{2\pi}.
+\]
+
+\begin{lemma}\label{lem:kernel-limit}
+Fix $R_0>0$.  Delete the simple zeros in strips of normalised width $L^2$
+at the two ends of the grid.  The number deleted is $o(N(T,2T))$, and
+uniformly for retained simple zeros with $|x_\rho-x_{\rho'}|\le R_0$,
+\begin{equation}\label{eq:kernel-limit}
+ \langle v_\rho,v_{\rho'}\rangle
+ =k(x_\rho-x_{\rho'})+o(1),
+\end{equation}
+where
+\begin{align}
+ k(x)&:=\frac{K(x)}{K(0)},\label{eq:kdef}\\
+ K(x)&:=\int_{-1/2}^{1/2}\cos(\sqrt2\,t)\cos(2\pi xt)\,dt\notag\\
+ &=\frac{\sin(\pi x-1/\sqrt2)}{2\pi x-\sqrt2}
+   +\frac{\sin(\pi x+1/\sqrt2)}{2\pi x+\sqrt2},\label{eq:Kexplicit}
+\end{align}
+and $K(0)=\sqrt2\sin(1/\sqrt2)$.  The singularities in
+\eqref{eq:Kexplicit} are removable.
+\end{lemma}
+
+\begin{proof}
+For the full Gabor grid, Lemma~2.2 of~\cite{Claude26} gives
+\[
+ \frac1{aL^2}\sum_{j\in\mathbb Z}
+ \widehat\phi(\gamma-\tau_j)\widehat\phi(\gamma'-\tau_j)
+ =\frac{\Phi(\gamma-\gamma')}{aL},
+ \qquad \Phi=\widehat{\phi^2}.
+\]
+For points at normalised distance at least $L^2$ from the grid ends, the
+terms with $j\notin[0,d)$ contribute $O(L^{-2})$, uniformly when
+$|x_\rho-x_{\rho'}|$ is bounded, by the $r^{-2}$ decay used
+in~\cite[\S5.3]{Claude26}.
+
+For fixed $x$, substitution $u=Lt$ gives the normalised full-grid overlap
+\begin{equation}\label{eq:normalised-overlap}
+ \frac{\Phi(hx)}{aL}
+ =
+ \frac{\displaystyle\int_{-1/2}^{1/2}
+       \phi(Lt)^2 e^{-2\pi ixt}\,dt}
+      {\displaystyle\int_{-1/2}^{1/2}\phi(Lt)^2\,dt}
+ \longrightarrow \frac{K(x)}{K(0)}.
+\end{equation}
+Indeed,
+$\phi(Lt)^2\to\cos(\sqrt2\,t)\mathbf1_{[-1/2,1/2]}(t)$ in $L^1$;
+the fixed-width taper has rescaled length $O(L^{-1})$.  The convergence in
+\eqref{eq:normalised-overlap} is uniform for $x$ in compact sets.  Together
+with the tail estimate, this proves \eqref{eq:kernel-limit}.  Finally, the
+deleted strips have ordinate length $O(L)$ and contain $O(L^2)=o(N(T,2T))$
+zeros, since $N(t+1)-N(t)\ll\log(t+3)$.
+\end{proof}
+
+Set
+\[
+ w(x):=k(x)^2.
+\]
+
+\clearpage
+\section{A seven-point local inequality}
+
+For nonnegative gaps $g_1,\ldots,g_6$, define
+\begin{equation}\label{eq:F6}
+ \mathcal F_6(g_1,\ldots,g_6)
+ :=\frac1{3000}\sum_{i=1}^6g_i
+ +\sum_{r=1}^6\frac{2}{7-r}
+   \sum_{i=1}^{7-r}w(g_i+\cdots+g_{i+r-1}).
+\end{equation}
+The second term contains all $21$ pairwise separations among seven ordered
+points.
+
+\begin{proposition}[Certified local inequality]\label{prop:F6}
+For every $g_1,\ldots,g_6\ge0$,
+\begin{equation}\label{eq:F6bound}
+ \mathcal F_6(g_1,\ldots,g_6)\ge\frac{382623}{100000000}.
+\end{equation}
+\end{proposition}
+
+\begin{proof}[Verification]
+The accompanying verifier derives from the public implementation
+in~\cite{Ainta26} and uses Arb interval arithmetic through
+\texttt{python-flint}.  It evaluates
+the entire-sinc expression
+\[
+ K(x)=\frac12\left(
+ \frac{\sin(\pi x-1/\sqrt2)}{\pi x-1/\sqrt2}
+ +\frac{\sin(\pi x+1/\sqrt2)}{\pi x+1/\sqrt2}
+ \right)
+\]
+at 128-bit precision and constructs rigorous lower bounds for $w$ on a grid
+of mesh $1/4000$.  If the linear pressure alone reaches the target, the box
+is immediately closed.  On the remaining compact region, the one-variable term
+\[
+ U(g):=\frac g{3000}+\frac13w(g)
+\]
+reduces each coordinate to certified unions of grid cells.  The resulting
+boxes are proved by interval lower bounds, certified tangent and convexity
+bounds, a bounded subcell tangent tree for the hardest cases, or bisection of
+the widest coordinate.  The program fails if a terminal box remains
+unresolved.
+
+The committed certificate records \texttt{verified=true}, grid $4000$,
+precision $128$ bits, $980{,}069$ visited nodes, $490{,}399$ pruned nodes,
+$489{,}670$ splits, and maximum depth $65$.  The terminal breakdown is
+$285{,}258$ interval, $3{,}166$ pressure, and $201{,}975$ tangent terminals;
+$1{,}773$ of the tangent terminals use the bounded subcell fallback.  The
+report also records the hashes of the
+tables and certificate data used in the search.
+\end{proof}
+
+\begin{lemma}\label{lem:block-energy}
+Let $y_1<\cdots<y_m$ with $m\ge7$, and put
+\[
+ E_m:=2\sum_{1\le i<j\le m}w(y_j-y_i).
+\]
+Then
+\begin{equation}\label{eq:block-energy}
+ E_m+\frac1{500}(y_m-y_1)
+ \ge\frac{382623}{100000000}(m-6).
+\end{equation}
+\end{lemma}
+
+\begin{proof}
+Write $g_i=y_{i+1}-y_i$ and sum \eqref{eq:F6bound} over the $m-6$
+consecutive seven-point windows.  A pair spanning $r$ gaps occurs at most
+$7-r$ times and has coefficient $2/(7-r)$ each time, so its total
+contribution is at most $2w(y_j-y_i)$.  Each single gap occurs at most six
+times, giving at most
+\[
+ \frac6{3000}\sum_{i=1}^{m-1}g_i
+ =\frac1{500}(y_m-y_1).
+\]
+\end{proof}
+
+\begin{lemma}[Exact spectral envelope]\label{lem:spectral-envelope}
+Let $G$ be an $m\times m$ correlation matrix, and put
+\[
+ E:=\tr(G-I)^2=2\sum_{i<j}|G_{ij}|^2,
+ \qquad D:=\tr\Psi(G).
+\]
+For $0\le E\le m(m-1)$, define
+\begin{equation}\label{eq:gm}
+ g_m(E):=
+ \begin{cases}
+ E,&0\le E\le m/(m-1),\\
+ E/m+2\sqrt{(m-1)E/m}-1,
+   &m/(m-1)\le E\le m(m-1).
+ \end{cases}
+\end{equation}
+Then $D\ge g_m(E)$.  Moreover, $g_m$ is increasing and $1$-Lipschitz.
+\end{lemma}
+
+\begin{proof}
+Write the eigenvalues of $G$ as $1+y_i$.  Then $y_i\ge-1$,
+$\sum_i y_i=0$, and $E=\sum_i y_i^2$.  If every $y_i\le1$, then
+$D=E$.  Otherwise let $H=\{i:y_i>1\}$, put $h=|H|$, write
+$y_i=1+u_i$ on $H$, and set
+\[
+ q_+=\sum_{i\in H}u_i,
+ \qquad r^2=\sum_{i\in H}u_i^2,
+ \qquad R=\sum_{i\notin H}y_i^2.
+\]
+The complementary deviations sum to $-(h+q_+)$, so Cauchy's inequality and
+$q_+\ge r$ give
+\begin{align*}
+ E
+ &\ge h+2r+r^2+\frac{(h+r)^2}{m-h}\\
+ &=\frac{m(1+r)^2}{m-1}
+   +\frac{(h-1)(m+r)^2}{(m-h)(m-1)}.
+\end{align*}
+Since $E-D=r^2$, this implies
+\[
+ D\ge E/m+2\sqrt{(m-1)E/m}-1.
+\]
+It also shows that the second case requires $E>m/(m-1)$.  Equality is
+realized by the correlation matrix
+\[
+ \left(1-\frac{a}{m-1}\right)I+\frac{a}{m-1}J,
+ \qquad a=\sqrt{(m-1)E/m}.
+\]
+On the second branch,
+\[
+ g_m'(E)=\frac1m+\sqrt{\frac{m-1}{mE}}\le1,
+\]
+which also proves monotonicity and the Lipschitz assertion.
+\end{proof}
+
+Take
+\begin{equation}\label{eq:mA}
+ m:=279,
+ \qquad
+ A:=\frac{382623}{100000000}(m-6)
+   =\frac{104456079}{100000000},
+\end{equation}
+and put
+\begin{equation}\label{eq:C}
+ C:=g_{279}(A)
+ =\frac{11606231}{3100000000}
+  +2\sqrt{\frac{1613266109}{1550000000}}-1.
+\end{equation}
+If $e+x\ge A$, monotonicity and the $1$-Lipschitz property imply
+\begin{equation}\label{eq:span-tradeoff}
+ g_m(e)+x\ge g_m(A)=C.
+\end{equation}
+Indeed, this is immediate for $e\ge A$, while for $e<A$ one has
+$x\ge A-e\ge g_m(A)-g_m(e)$.
+
+Let $B$ be a block of $279$ consecutive retained simple zeros, and write
+$G_B$ for its Gram matrix.  If its span term already exceeds $A$, the
+following estimate is immediate because $C\le A$.  Otherwise the span is
+bounded, so Lemma~\ref{lem:kernel-limit} applies uniformly to every pair.
+The diagonal entries are $1+o(1)$ uniformly.  To make the normalization
+explicit, put
+\[
+ \delta_T:=\max_i |(G_B)_{ii}-1|=o(1),\qquad
+ D_B:=\operatorname{diag}((G_B)_{ii}^{-1/2}),\qquad
+ R_B:=D_BG_BD_B.
+\]
+The matrix $R_B$ is a correlation matrix.  Since $m$ is fixed and the Gram
+entries satisfy $|(G_B)_{ij}|\le
+\sqrt{(G_B)_{ii}(G_B)_{jj}}$, one has $\|G_B\|_{\F}=O_m(1)$ and
+\[
+ \|R_B-G_B\|_{\F}
+ \le \|D_B-I\|_{\mathrm{op}}\|G_B\|_{\F}\|D_B\|_{\mathrm{op}}
+    +\|G_B\|_{\F}\|D_B-I\|_{\mathrm{op}}
+ =O_m(\delta_T)=o(1).
+\]
+The Hoffman--Wielandt inequality and the global $2$-Lipschitz property of
+$\Psi$ now give
+\[
+ |\cD(R_B)-\cD(G_B)|
+ \le 2\sqrt m\,\|R_B-G_B\|_{\F}=o(1),
+\]
+while
+\[
+ \left|\sum_{i\ne j}|(R_B)_{ij}|^2
+       -\sum_{i\ne j}|(G_B)_{ij}|^2\right|
+ \le (\|R_B\|_{\F}+\|G_B\|_{\F})\|R_B-G_B\|_{\F}=o(1).
+\]
+Thus the normalization changes the defect and off-diagonal energy by $o(1)$.
+It follows from Lemmas~\ref{lem:block-energy} and
+\ref{lem:spectral-envelope}, together with \eqref{eq:span-tradeoff}, that
+uniformly in $B$,
+\begin{equation}\label{eq:279block}
+ \cD(G_B)+\frac1{500}\operatorname{span}(B)
+ \ge C-o(1).
+\end{equation}
+
+\clearpage
+\section{Shifted block pinching}
+
+Let
+\[
+ x_1<\cdots<x_{S^\circ}
+\]
+be the normalised ordinates of the retained central simple zeros.  Then
+\begin{equation}\label{eq:Scentral}
+ S^\circ=N_0^s(T,2T)-o(N(T,2T)).
+\end{equation}
+For each of the $m=279$ offsets, partition the ordered points into full
+consecutive blocks of size $m$, leaving at most $2(m-1)$ endpoint points.
+Pinching $M^\circ$ to the full principal blocks and the remaining block gives
+\begin{equation}\label{eq:pinching}
+ \cD(M^\circ)\ge\sum_B\cD(G_B).
+\end{equation}
+This follows because pinching is an average of unitary conjugations and
+$X\mapsto\tr\Psi(X)$ is convex and unitarily invariant.
+
+For each offset, sum \eqref{eq:279block} over the full blocks and use
+\eqref{eq:pinching}; then average over the $m$ offsets.  The average number of
+full blocks is $S^\circ/m+O(1)$.  Each gap $x_{j+1}-x_j$ belongs to a block
+span for at most $m-1$ offsets, and
+\[
+ x_{S^\circ}-x_1
+ \le\frac{T}{h}
+ =\frac{LT}{2\pi}
+ =d+O(1)
+ =N(T,2T)+o(N(T,2T))
+\]
+by the Riemann--von Mangoldt formula.  The blockwise $o(1)$ term in
+\eqref{eq:279block} is uniform, so its total is $o(N(T,2T))$.  Therefore
+\begin{equation}\label{eq:defect-global}
+ \cD(M^\circ)
+ \ge \frac{C}{m}N_0^s(T,2T)
+ -\frac{m-1}{500m}N(T,2T)-o(N(T,2T)).
+\end{equation}
+With $m=279$,
+\begin{equation}\label{eq:defect-numbers}
+ \cD(M^\circ)
+ \ge
+ \frac{C}{279}N_0^s(T,2T)
+ -\frac{139}{69750}N(T,2T)-o(N(T,2T)).
+\end{equation}
+
+Substitute \eqref{eq:defect-numbers} into \eqref{eq:global-defect}.  This gives
+\begin{align*}
+ N_0^s(T,2T)
+ &\ge H_{\mathrm{MT}}N(T,2T)
+ +\frac{C}{279}N_0^s(T,2T)\\
+ &\qquad-\frac{139}{69750}N(T,2T)-o(N(T,2T)).
+\end{align*}
+Hence
+\[
+ \left(1-\frac{C}{279}\right)N_0^s(T,2T)
+ \ge
+ \left(H_{\mathrm{MT}}-\frac{139}{69750}\right)N(T,2T)
+ -o(N(T,2T)).
+\]
+Divide by $N(T,2T)$ and let $T\to\infty$ to obtain
+\[
+ \liminf_{T\to\infty}\frac{N_0^s(T,2T)}{N(T,2T)}
+ \ge
+ \frac{H_{\mathrm{MT}}-139/69750}{1-C/279}
+ =0.6730266625438475496579\ldots .
+\]
+Clearing rational factors gives the exact expression stated in
+Theorem~\ref{thm:main}.  Directed $256$-bit Arb arithmetic separates this
+value between decimals ending in $\ldots0978$ and $\ldots0979$.  A directed
+interval-certified scan through $7\le m\le1000$ gives a unique maximum at
+$m=279$, with
+$m=278$ second.  For completeness, the infinite tail is controlled as
+follows.  Put $q=382623/10^8$ and, for real $x\ge1000$, set
+\[
+ s(x):=\sqrt{q\left(x-7+\frac6x\right)}.
+\]
+For the continuous version of the second spectral branch,
+\[
+ \frac{C_x}{x}
+ =\frac{q(x-6)}{x^2}+\frac{2s(x)-1}{x}.
+\]
+The first term decreases for $x>12$.  The derivative of the second term has
+the sign of
+\[
+ s(x)-q\left(x-14+\frac{18}{x}\right).
+\]
+At $x=1000$, exact rational arithmetic gives
+\[
+ q(1000-14)^2-1000=\frac{67996137527}{25000000}>0,
+ \qquad
+ 2q(1000-14)-1=\frac{163633139}{25000000}>0.
+\]
+Consequently $q(x-14)^2-x$ is positive and increasing for $x\ge1000$, and
+\[
+ s(x)<\sqrt{qx}<q(x-14)
+ <q\left(x-14+\frac{18}{x}\right).
+\]
+Thus $C_x/x$ decreases.  The numerator
+$H_{\mathrm{MT}}-1/500+1/(500x)$ also decreases, while the positive
+denominator $1-C_x/x$ increases.  Hence $B_x$ decreases for $x\ge1000$,
+making $m=279$ the unique optimum over every integer $m\ge7$.
+This proves Theorem~\ref{thm:main}.
+
+\clearpage
+\section*{Reproducibility}
+
+Proposition~\ref{prop:F6} is the finite computer-assisted input.  The
+accompanying artifact contains its source, tests, trust-base description,
+and certificate.  The verifier reconstructs every transcendental interval
+enclosure from the stated formulas; a successful replay reports the exact
+target $382623/100000000$ and \texttt{verified=true}.
+
+The release snapshot uses macOS 26.6.1 on arm64, Python 3.11.15, and
+\texttt{python-flint} 0.9.0, which is the Python binding used to generate the
+Arb enclosures.  The complete release file identity is recorded in
+\texttt{RELEASE\_MANIFEST.sha256}; the fresh command and output are recorded
+in \texttt{REPRODUCIBILITY.md}.
+
+The artifact also contains source and partially completed kernel evidence for
+a Lean certificate consumer.  At the snapshot date, the generic
+mean-value-theorem, segment, replay, and scaled-checker semantics and the
+complete bounded-subcell adaptive tangent catalog have been kernel-built.
+The complete 5,793-module mean-value interval terminal catalog has also been
+kernel-built, transferred, and bound by a common macOS/Linux artifact digest.
+The full tangent-and-convexity terminal catalog and final dependency-closed
+public build are deferred.
+Accordingly, this draft does not claim a completed transitive Lean
+verification.  The machine-readable status matrix and the final gates are
+recorded in \texttt{VERIFICATION\_STATUS.md}.
+
+This work is AI-assisted and unreviewed.  It is a derivative of the earlier
+public draft~\cite{Ainta26}; its stability refinement, seven-point use of the
+Montgomery--Taylor overlap kernel, block aggregation, shifted pinching, and
+verifier lineage are retained here.  The analytic foundation and limiting
+overlap kernel come from Claude's paper and Lean artifact
+\cite{Claude26,AnthropicLean26}.  The new contribution in this revision is the
+exact finite-dimensional spectral envelope, the stronger exact finite
+certificate and its reproducibility package, and the partially completed Lean
+certificate-consumer effort.  The clean-room
+reproduction~\cite{Learademacher26} is an independent comparison only; no
+proof text or implementation is imported from it.
+The numerical statement should be described as a candidate improvement within
+this certificate lineage, not as an established record, until independent
+review has taken place.
+
+\clearpage
+\begin{thebibliography}{99}
+\small
+
+\bibitem{Claude26}
+Claude,
+\emph{More than two thirds of the zeros of the Riemann zeta function lie on the critical line},
+preprint, August 10, 2026,
+\href{https://www-cdn.anthropic.com/564f962e60643842f5fcb4a17c9dbc8f608f1c37.pdf}
+{available online}.
+
+\bibitem{AnthropicLean26}
+Anthropic,
+\emph{Lean artifact for More than two thirds of the zeros of the Riemann zeta
+function lie on the critical line}, version 1.0, commit
+\texttt{3635e748\allowbreak26a4c1fc\allowbreak ece7d1cd\allowbreak2b6fa75e\allowbreak43a00510},
+August 10, 2026,
+\href{https://github.com/anthropics/zeta-23-lean/tree/3635e74826a4c1fcece7d1cd2b6fa75e43a00510}
+{GitHub repository}.
+
+\bibitem{Ainta26}
+Ainta,
+\emph{More than $67.30085\%$ of the zeros of the Riemann zeta function are
+simple and lie on the critical line},
+AI-assisted research draft and verifier artifact, commit
+\texttt{040c5e89\allowbreak9e658aed\allowbreak7b56a2a8\allowbreak7f501798\allowbreak fe10761d},
+August 11, 2026,
+\href{https://github.com/ainta/zeta-simple-zeros/tree/040c5e899e658aed7b56a2a87f501798fe10761d}
+{GitHub repository at the cited revision}.
+
+\bibitem{Learademacher26}
+L.~Rademacher,
+\emph{AI refines an AI-derived zeta bound},
+clean-room research draft and reproduction artifact, commit
+\texttt{bd4a7d36\allowbreak988b2322\allowbreak00345278\allowbreak81f4457f\allowbreak2f689e86},
+August 11, 2026,
+\href{https://github.com/learademacher/ai-refines-ai-zeta-bound/tree/bd4a7d36988b23220034527881f4457f2f689e86}
+{GitHub repository at the cited revision}.
+
+\bibitem{Johansson17}
+F.~Johansson,
+\emph{Arb: efficient arbitrary-precision midpoint-radius interval arithmetic},
+IEEE Trans. Comput. \textbf{66} (2017), no.~8, 1281--1292.
+
+\bibitem{Mon73}
+H.~L.~Montgomery,
+\emph{The pair correlation of zeros of the zeta function},
+in: Analytic Number Theory (St. Louis, 1972),
+Proc. Sympos. Pure Math. \textbf{24}, Amer. Math. Soc., 1973, 181--193.
+
+\bibitem{Mon75}
+H.~L.~Montgomery,
+\emph{Distribution of the zeros of the Riemann zeta function},
+in: Proceedings of the International Congress of Mathematicians
+(Vancouver, 1974), Vol.~1,
+Canad. Math. Congress, 1975, 379--381.
+
+\end{thebibliography}
+
+\end{document}

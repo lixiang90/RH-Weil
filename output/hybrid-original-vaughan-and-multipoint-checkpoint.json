@@ -1,0 +1,284 @@
+{
+  "schema": "hybrid-original-vaughan-and-multipoint-v1",
+  "exact_checks": 143,
+  "checks": [
+    "file exists: notes/477-original-vaughan-reduction-and-replayed-multipoint-proportion.md",
+    "file exists: reviews/2026-10-08/hybrid-original-vaughan-type-i-and-type-ii-reduction-research-radial.md",
+    "file exists: reviews/2026-10-08/hybrid-original-vaughan-type-i-and-type-ii-reduction-review-twisted.md",
+    "file exists: reviews/2026-10-08/hybrid-multipoint-spectral-envelope-source-read-root.md",
+    "file exists: reviews/2026-10-08/hybrid-multipoint-spectral-envelope-source-review-radial.md",
+    "file exists: reviews/2026-10-08/hybrid-original-multipoint-envelope-and-actual-counting-research-compression.md",
+    "file exists: reviews/2026-10-08/hybrid-original-multipoint-envelope-and-actual-counting-review-radial.md",
+    "file exists: reviews/2026-10-08/477-summary-review-twisted.md",
+    "file exists: scripts/hybrid_multipoint_cap_replay.py",
+    "file exists: output/hybrid-multipoint-cap-exact-algebra.json",
+    "file exists: output/hybrid-multipoint-seven-primary-replay.json",
+    "file exists: output/hybrid-multipoint-three-rational-replay.json",
+    "file exists: reviews/2026-10-08/artifacts/hybrid-multipoint-ainta-040c5e8/source-manifest.json",
+    "file exists: reviews/2026-10-08/artifacts/hybrid-multipoint-schwarz-e2453c1/source-manifest.json",
+    "file exists: notes/476-original-fourth-growth-five-sevenths-with-ivic-density.md",
+    "file exists: scripts/mt_triple_slack_audit.py",
+    "old frozen source unchanged: notes/476-original-fourth-growth-five-sevenths-with-ivic-density.md",
+    "old frozen source unchanged: scripts/mt_triple_slack_audit.py",
+    "review binds final source: reviews/2026-10-08/hybrid-original-vaughan-type-i-and-type-ii-reduction-research-radial.md",
+    "review binds final source: reviews/2026-10-08/hybrid-multipoint-spectral-envelope-source-read-root.md",
+    "review binds final source: reviews/2026-10-08/hybrid-original-multipoint-envelope-and-actual-counting-research-compression.md",
+    "review binds final source: notes/477-original-vaughan-reduction-and-replayed-multipoint-proportion.md",
+    "local link: notes/477-original-vaughan-reduction-and-replayed-multipoint-proportion.md -> ../reviews/2026-10-08/hybrid-original-vaughan-type-i-and-type-ii-reduction-research-radial.md",
+    "local link: notes/477-original-vaughan-reduction-and-replayed-multipoint-proportion.md -> ../reviews/2026-10-08/hybrid-original-vaughan-type-i-and-type-ii-reduction-review-twisted.md",
+    "local link: notes/477-original-vaughan-reduction-and-replayed-multipoint-proportion.md -> 476-original-fourth-growth-five-sevenths-with-ivic-density.md",
+    "local link: notes/477-original-vaughan-reduction-and-replayed-multipoint-proportion.md -> ../scripts/hybrid_multipoint_cap_replay.py",
+    "local link: notes/477-original-vaughan-reduction-and-replayed-multipoint-proportion.md -> ../output/hybrid-multipoint-seven-primary-replay.json",
+    "local link: notes/477-original-vaughan-reduction-and-replayed-multipoint-proportion.md -> ../output/hybrid-multipoint-three-rational-replay.json",
+    "local link: notes/477-original-vaughan-reduction-and-replayed-multipoint-proportion.md -> ../reviews/2026-10-08/hybrid-multipoint-spectral-envelope-source-read-root.md",
+    "local link: notes/477-original-vaughan-reduction-and-replayed-multipoint-proportion.md -> ../reviews/2026-10-08/hybrid-original-multipoint-envelope-and-actual-counting-research-compression.md",
+    "local link: notes/477-original-vaughan-reduction-and-replayed-multipoint-proportion.md -> ../output/hybrid-multipoint-cap-exact-algebra.json",
+    "local link: notes/477-original-vaughan-reduction-and-replayed-multipoint-proportion.md -> 305-post-6725-literature-baseline-audit.md",
+    "local link: reviews/2026-10-08/hybrid-original-vaughan-type-i-and-type-ii-reduction-research-radial.md -> hybrid-positive-height-zero-packet-fourth-upper-research-radial.md",
+    "local link: reviews/2026-10-08/hybrid-original-vaughan-type-i-and-type-ii-reduction-research-radial.md -> hybrid-short-carrier-canonical-scalar-fourth-admission-research-radial.md",
+    "local link: reviews/2026-10-08/hybrid-original-vaughan-type-i-and-type-ii-reduction-research-radial.md -> hybrid-canonical-semiprime-smooth-subtraction-and-variance-obstruction-research-compression.md",
+    "local link: reviews/2026-10-08/hybrid-original-vaughan-type-i-and-type-ii-reduction-research-radial.md -> ../../notes/476-original-fourth-growth-five-sevenths-with-ivic-density.md",
+    "local link: reviews/2026-10-08/hybrid-original-vaughan-type-i-and-type-ii-reduction-review-twisted.md -> hybrid-original-vaughan-type-i-and-type-ii-reduction-research-radial.md",
+    "local link: reviews/2026-10-08/hybrid-original-vaughan-type-i-and-type-ii-reduction-review-twisted.md -> hybrid-short-carrier-canonical-scalar-fourth-admission-research-radial.md",
+    "local link: reviews/2026-10-08/hybrid-original-vaughan-type-i-and-type-ii-reduction-review-twisted.md -> ../../notes/476-original-fourth-growth-five-sevenths-with-ivic-density.md",
+    "local link: reviews/2026-10-08/hybrid-multipoint-spectral-envelope-source-read-root.md -> artifacts/hybrid-multipoint-schwarz-e2453c1/source-manifest.json",
+    "local link: reviews/2026-10-08/hybrid-multipoint-spectral-envelope-source-read-root.md -> artifacts/hybrid-multipoint-schwarz-e2453c1/paper/riemann.tex",
+    "local link: reviews/2026-10-08/hybrid-multipoint-spectral-envelope-source-read-root.md -> artifacts/hybrid-multipoint-schwarz-e2453c1/docs/proof.md",
+    "local link: reviews/2026-10-08/hybrid-multipoint-spectral-envelope-source-read-root.md -> artifacts/hybrid-multipoint-schwarz-e2453c1/LICENSE",
+    "local link: reviews/2026-10-08/hybrid-multipoint-spectral-envelope-source-read-root.md -> ../../notes/305-post-6725-literature-baseline-audit.md",
+    "local link: reviews/2026-10-08/hybrid-multipoint-spectral-envelope-source-read-root.md -> ../../notes/304-mt-triple-geometry-and-second-moment-stability.md",
+    "local link: reviews/2026-10-08/hybrid-multipoint-spectral-envelope-source-review-radial.md -> hybrid-multipoint-spectral-envelope-source-read-root.md",
+    "local link: reviews/2026-10-08/hybrid-multipoint-spectral-envelope-source-review-radial.md -> ../../scripts/hybrid_multipoint_cap_replay.py",
+    "local link: reviews/2026-10-08/hybrid-multipoint-spectral-envelope-source-review-radial.md -> ../../output/hybrid-multipoint-seven-primary-replay.json",
+    "local link: reviews/2026-10-08/hybrid-multipoint-spectral-envelope-source-review-radial.md -> ../../output/hybrid-multipoint-three-rational-replay.json",
+    "local link: reviews/2026-10-08/hybrid-multipoint-spectral-envelope-source-review-radial.md -> ../../output/hybrid-multipoint-cap-exact-algebra.json",
+    "local link: reviews/2026-10-08/hybrid-multipoint-spectral-envelope-source-review-radial.md -> ../../scripts/mt_triple_slack_audit.py",
+    "local link: reviews/2026-10-08/hybrid-multipoint-spectral-envelope-source-review-radial.md -> artifacts/hybrid-multipoint-schwarz-e2453c1/source-manifest.json",
+    "local link: reviews/2026-10-08/hybrid-multipoint-spectral-envelope-source-review-radial.md -> artifacts/hybrid-multipoint-ainta-040c5e8/source-manifest.json",
+    "local link: reviews/2026-10-08/hybrid-original-multipoint-envelope-and-actual-counting-research-compression.md -> ../../literature/baseline/2026-alpoge-furman-6725-v2.pdf",
+    "local link: reviews/2026-10-08/hybrid-original-multipoint-envelope-and-actual-counting-research-compression.md -> ../../notes/304-mt-triple-geometry-and-second-moment-stability.md",
+    "local link: reviews/2026-10-08/hybrid-original-multipoint-envelope-and-actual-counting-research-compression.md -> ../../literature/candidates/2026-ainta-6730085-040c5e8.pdf",
+    "local link: reviews/2026-10-08/hybrid-original-multipoint-envelope-and-actual-counting-research-compression.md -> artifacts/hybrid-multipoint-ainta-040c5e8/source-manifest.json",
+    "local link: reviews/2026-10-08/hybrid-original-multipoint-envelope-and-actual-counting-research-compression.md -> hybrid-multipoint-spectral-envelope-source-read-root.md",
+    "local link: reviews/2026-10-08/hybrid-original-multipoint-envelope-and-actual-counting-research-compression.md -> ../../scripts/hybrid_multipoint_cap_replay.py",
+    "local link: reviews/2026-10-08/hybrid-original-multipoint-envelope-and-actual-counting-research-compression.md -> ../../output/hybrid-multipoint-seven-primary-replay.json",
+    "local link: reviews/2026-10-08/hybrid-original-multipoint-envelope-and-actual-counting-research-compression.md -> ../../output/hybrid-multipoint-three-rational-replay.json",
+    "local link: reviews/2026-10-08/hybrid-original-multipoint-envelope-and-actual-counting-research-compression.md -> ../../output/hybrid-multipoint-cap-exact-algebra.json",
+    "local link: reviews/2026-10-08/hybrid-original-multipoint-envelope-and-actual-counting-research-compression.md -> ../../notes/305-post-6725-literature-baseline-audit.md",
+    "local link: reviews/2026-10-08/hybrid-original-multipoint-envelope-and-actual-counting-review-radial.md -> hybrid-original-multipoint-envelope-and-actual-counting-research-compression.md",
+    "local link: reviews/2026-10-08/hybrid-original-multipoint-envelope-and-actual-counting-review-radial.md -> hybrid-multipoint-spectral-envelope-source-read-root.md",
+    "local link: reviews/2026-10-08/hybrid-original-multipoint-envelope-and-actual-counting-review-radial.md -> ../../scripts/hybrid_multipoint_cap_replay.py",
+    "local link: reviews/2026-10-08/hybrid-original-multipoint-envelope-and-actual-counting-review-radial.md -> ../../output/hybrid-multipoint-seven-primary-replay.json",
+    "local link: reviews/2026-10-08/hybrid-original-multipoint-envelope-and-actual-counting-review-radial.md -> ../../output/hybrid-multipoint-three-rational-replay.json",
+    "local link: reviews/2026-10-08/hybrid-original-multipoint-envelope-and-actual-counting-review-radial.md -> ../../output/hybrid-multipoint-cap-exact-algebra.json",
+    "local link: reviews/2026-10-08/hybrid-original-multipoint-envelope-and-actual-counting-review-radial.md -> ../../notes/304-mt-triple-geometry-and-second-moment-stability.md",
+    "local link: reviews/2026-10-08/hybrid-original-multipoint-envelope-and-actual-counting-review-radial.md -> hybrid-multipoint-spectral-envelope-source-review-radial.md",
+    "local link: reviews/2026-10-08/477-summary-review-twisted.md -> ../../notes/477-original-vaughan-reduction-and-replayed-multipoint-proportion.md",
+    "local link: reviews/2026-10-08/477-summary-review-twisted.md -> hybrid-original-vaughan-type-i-and-type-ii-reduction-research-radial.md",
+    "local link: reviews/2026-10-08/477-summary-review-twisted.md -> hybrid-original-vaughan-type-i-and-type-ii-reduction-review-twisted.md",
+    "local link: reviews/2026-10-08/477-summary-review-twisted.md -> hybrid-multipoint-spectral-envelope-source-read-root.md",
+    "local link: reviews/2026-10-08/477-summary-review-twisted.md -> hybrid-multipoint-spectral-envelope-source-review-radial.md",
+    "local link: reviews/2026-10-08/477-summary-review-twisted.md -> hybrid-original-multipoint-envelope-and-actual-counting-research-compression.md",
+    "local link: reviews/2026-10-08/477-summary-review-twisted.md -> hybrid-original-multipoint-envelope-and-actual-counting-review-radial.md",
+    "local link: reviews/2026-10-08/477-summary-review-twisted.md -> ../../scripts/hybrid_multipoint_cap_replay.py",
+    "local link: reviews/2026-10-08/477-summary-review-twisted.md -> ../../output/hybrid-multipoint-seven-primary-replay.json",
+    "local link: reviews/2026-10-08/477-summary-review-twisted.md -> ../../output/hybrid-multipoint-three-rational-replay.json",
+    "local link: reviews/2026-10-08/477-summary-review-twisted.md -> ../../output/hybrid-multipoint-cap-exact-algebra.json",
+    "local link: reviews/2026-10-08/477-summary-review-twisted.md -> ../../scripts/hybrid_original_vaughan_and_multipoint_checkpoint.py",
+    "local link: reviews/2026-10-08/477-summary-review-twisted.md -> ../../notes/304-mt-triple-geometry-and-second-moment-stability.md",
+    "local link: reviews/2026-10-08/477-summary-review-twisted.md -> ../../notes/476-original-fourth-growth-five-sevenths-with-ivic-density.md",
+    "raw upstream source: zeta_simple_zeros/__init__.py",
+    "raw upstream size: zeta_simple_zeros/__init__.py",
+    "raw upstream source: zeta_simple_zeros/constants.py",
+    "raw upstream size: zeta_simple_zeros/constants.py",
+    "raw upstream source: zeta_simple_zeros/kernel.py",
+    "raw upstream size: zeta_simple_zeros/kernel.py",
+    "raw upstream source: zeta_simple_zeros/report.py",
+    "raw upstream size: zeta_simple_zeros/report.py",
+    "raw upstream source: zeta_simple_zeros/rounding.py",
+    "raw upstream size: zeta_simple_zeros/rounding.py",
+    "raw upstream source: zeta_simple_zeros/verify_three.py",
+    "raw upstream size: zeta_simple_zeros/verify_three.py",
+    "raw upstream source: zeta_simple_zeros/verify_seven.py",
+    "raw upstream size: zeta_simple_zeros/verify_seven.py",
+    "raw upstream source: paper/riemann.tex",
+    "raw upstream size: paper/riemann.tex",
+    "raw upstream source: docs/proof.md",
+    "raw upstream size: docs/proof.md",
+    "raw upstream source: LICENSE",
+    "raw upstream size: LICENSE",
+    "complete record: seven",
+    "record binds current runner: seven",
+    "analytic scope preserved: seven",
+    "complete record: rational-three",
+    "record binds current runner: rational-three",
+    "analytic scope preserved: rational-three",
+    "complete record: algebra",
+    "record binds current runner: algebra",
+    "analytic scope preserved: algebra",
+    "full seven replay parameters",
+    "seven binary tree nodes",
+    "seven complete leaf count",
+    "seven pruning partition",
+    "all surviving six-coordinate components",
+    "normalized MT table binding",
+    "rational three target",
+    "three quadtree node count",
+    "three complete cover leaf count",
+    "exact pressure cutoff",
+    "aggregated six-window pressure",
+    "m280 exact energy budget",
+    "m280 exact radicand",
+    "positive square-root interval",
+    "rational square-root enclosure",
+    "p280 rational lower formula",
+    "p280 rational upper formula",
+    "legal proportion interval",
+    "displayed p280 strict lower truncation",
+    "strict two spectral assembly gains",
+    "below cited Schwarz enhanced candidate",
+    "below cited later public candidate",
+    "distinct lower truncation",
+    "fixed-cut matching powers",
+    "fixed-cut common exponent",
+    "Type I two thirds",
+    "Type I five sevenths threshold",
+    "paid-part power gap",
+    "multi-large-eigenvalue exact identity"
+  ],
+  "files": {
+    "notes/477-original-vaughan-reduction-and-replayed-multipoint-proportion.md": {
+      "canonical_sha256": "9c2da25b665070fe5496b9b02cbe382208cd3b60dc793af1ae018ede395bd6b5",
+      "canonical_bytes": 6586,
+      "lines": 100
+    },
+    "reviews/2026-10-08/hybrid-original-vaughan-type-i-and-type-ii-reduction-research-radial.md": {
+      "canonical_sha256": "cf58086aeb9eee63832ccd06f5499110ea236b4bd94396893757b62e75bdb9d4",
+      "canonical_bytes": 12260,
+      "lines": 324
+    },
+    "reviews/2026-10-08/hybrid-original-vaughan-type-i-and-type-ii-reduction-review-twisted.md": {
+      "canonical_sha256": "576a0841b5a5ad9bf8fbda74561bb83ca3d16654a0c2faac5f4aa80269fb296f",
+      "canonical_bytes": 9160,
+      "lines": 174
+    },
+    "reviews/2026-10-08/hybrid-multipoint-spectral-envelope-source-read-root.md": {
+      "canonical_sha256": "2c4a81a9a2d860e3d0882edb8a1a5928cda318679874c9be9b0adf18576b5dc5",
+      "canonical_bytes": 5933,
+      "lines": 74
+    },
+    "reviews/2026-10-08/hybrid-multipoint-spectral-envelope-source-review-radial.md": {
+      "canonical_sha256": "ded7d7c8485d182f4da5d122a112e46b57fcc44063b9a6de789d635c03f0238e",
+      "canonical_bytes": 9190,
+      "lines": 98
+    },
+    "reviews/2026-10-08/hybrid-original-multipoint-envelope-and-actual-counting-research-compression.md": {
+      "canonical_sha256": "59b399445a3022ce9b5ee6c064660e1602dab6d5641d3793649f16f509fc5efa",
+      "canonical_bytes": 16963,
+      "lines": 421
+    },
+    "reviews/2026-10-08/hybrid-original-multipoint-envelope-and-actual-counting-review-radial.md": {
+      "canonical_sha256": "4bf8a036775378253c61385e9d6a6920831d35e6a12ad837633eac6c436d6ddc",
+      "canonical_bytes": 9514,
+      "lines": 119
+    },
+    "reviews/2026-10-08/477-summary-review-twisted.md": {
+      "canonical_sha256": "872364a0f6dd172631b928829bbda83e75255078baa23ab52d7e498a93f6237b",
+      "canonical_bytes": 11348,
+      "lines": 163
+    },
+    "scripts/hybrid_multipoint_cap_replay.py": {
+      "canonical_sha256": "8ac87f18cf928a51771556168e5af07400a3ba0333196b3e410394d8e4c37d05",
+      "canonical_bytes": 11337,
+      "lines": 242
+    },
+    "output/hybrid-multipoint-cap-exact-algebra.json": {
+      "canonical_sha256": "d84077ab71b47d1ea253cad9675fa8c25f9aa4dade775ad73ff53033167625c3",
+      "canonical_bytes": 3367,
+      "lines": 84
+    },
+    "output/hybrid-multipoint-seven-primary-replay.json": {
+      "canonical_sha256": "aa6885489c1d0086bca32b72d27fc7a2a5f44a48f78483a057f23a59e5a828e6",
+      "canonical_bytes": 2108,
+      "lines": 48
+    },
+    "output/hybrid-multipoint-three-rational-replay.json": {
+      "canonical_sha256": "4ee77471d08503c22a848e47a17713b44bd5f2afb95bfd57d994e878d9192456",
+      "canonical_bytes": 1989,
+      "lines": 41
+    },
+    "reviews/2026-10-08/artifacts/hybrid-multipoint-ainta-040c5e8/source-manifest.json": {
+      "canonical_sha256": "d4dc9e2d5514ff587adfa72749f9575883395934118514f739de242236e60252",
+      "canonical_bytes": 2472,
+      "lines": 49
+    },
+    "reviews/2026-10-08/artifacts/hybrid-multipoint-schwarz-e2453c1/source-manifest.json": {
+      "canonical_sha256": "a28b4d4271c39f1c0a6573837bb0578dc572d59bfe36e43407334813e53e3246",
+      "canonical_bytes": 1549,
+      "lines": 34
+    },
+    "notes/476-original-fourth-growth-five-sevenths-with-ivic-density.md": {
+      "canonical_sha256": "179829dd25f92ff187359f73455aafad9f957d714df13cf871db47a76e9408b6",
+      "canonical_bytes": 4448,
+      "lines": 96
+    },
+    "scripts/mt_triple_slack_audit.py": {
+      "canonical_sha256": "597e950849415d979f236611a1ed623c4e2aff2e19dc73c801b5f5a244f0bf34",
+      "canonical_bytes": 13541,
+      "lines": 316
+    },
+    "scripts/hybrid_original_vaughan_and_multipoint_checkpoint.py": {
+      "canonical_sha256": "f72d9b7f4bf529e9361a8a3269fee629f93d62c92b468530fcaa965555e9ec5b"
+    }
+  },
+  "raw_artifacts": {
+    "reviews/2026-10-08/artifacts/hybrid-multipoint-ainta-040c5e8/zeta_simple_zeros/__init__.py": "fed3f612069c72d4efac4250c6b1e63733762bf5911a973a445c1908d7b4b5d1",
+    "reviews/2026-10-08/artifacts/hybrid-multipoint-ainta-040c5e8/zeta_simple_zeros/constants.py": "8344ed3792603e51a5621a72fc04e0f5bcb115c6599a72579b7a0f4b89c0bbff",
+    "reviews/2026-10-08/artifacts/hybrid-multipoint-ainta-040c5e8/zeta_simple_zeros/kernel.py": "e83aa966699770bc72f67d3e55079cff89c2432a05ad25abd12afc8cbf9af1dd",
+    "reviews/2026-10-08/artifacts/hybrid-multipoint-ainta-040c5e8/zeta_simple_zeros/report.py": "6305c3a072a3839aff80ad9854fc8e1e259df86078b8a20821fa778b966833fc",
+    "reviews/2026-10-08/artifacts/hybrid-multipoint-ainta-040c5e8/zeta_simple_zeros/rounding.py": "2419f77bae2fb73ccb1da4e5d2bbaf3247e7d900d53871de9011296f7de5844e",
+    "reviews/2026-10-08/artifacts/hybrid-multipoint-ainta-040c5e8/zeta_simple_zeros/verify_three.py": "ef2b91bb3323fba459cc5e0b2be2e9408da7a39ba9c56517833c6e3c7109ab20",
+    "reviews/2026-10-08/artifacts/hybrid-multipoint-ainta-040c5e8/zeta_simple_zeros/verify_seven.py": "66ff0b10d18125144521f110afb5c0de9f9201e04c7e6ad6ad6cc6311080c355",
+    "reviews/2026-10-08/artifacts/hybrid-multipoint-schwarz-e2453c1/paper/riemann.tex": "6b9796f4cd3b653781cf82de4dc6e22535076514ad62107312280abdbed85a01",
+    "reviews/2026-10-08/artifacts/hybrid-multipoint-schwarz-e2453c1/docs/proof.md": "594ec1cfc0ac0b4717bbe3a211eaa0a458b9ed318c3165bb4b5f5097fe8c0b9d",
+    "reviews/2026-10-08/artifacts/hybrid-multipoint-schwarz-e2453c1/LICENSE": "5b620cb5c067656c1174c376850723806951c00bf6e4bfccdcc348b86c367d90"
+  },
+  "review_pairs": [
+    [
+      "reviews/2026-10-08/hybrid-original-vaughan-type-i-and-type-ii-reduction-review-twisted.md",
+      "reviews/2026-10-08/hybrid-original-vaughan-type-i-and-type-ii-reduction-research-radial.md"
+    ],
+    [
+      "reviews/2026-10-08/hybrid-multipoint-spectral-envelope-source-review-radial.md",
+      "reviews/2026-10-08/hybrid-multipoint-spectral-envelope-source-read-root.md"
+    ],
+    [
+      "reviews/2026-10-08/hybrid-original-multipoint-envelope-and-actual-counting-review-radial.md",
+      "reviews/2026-10-08/hybrid-original-multipoint-envelope-and-actual-counting-research-compression.md"
+    ],
+    [
+      "reviews/2026-10-08/477-summary-review-twisted.md",
+      "notes/477-original-vaughan-reduction-and-replayed-multipoint-proportion.md"
+    ]
+  ],
+  "local_links_checked": 63,
+  "rational_p280_interval": [
+    "698746115991717921573125203496843281188395100/1038240853790766400062700477565880139237465313",
+    "349373057995858960786562601748421640751916300/519120426895383200031350238782940069618721719"
+  ],
+  "outcomes": {
+    "actual_type_i_and_low_part_two_thirds_paid": true,
+    "complete_original_type_ii_reduction": true,
+    "full_seven_certificate_replayed_in_frozen_record": true,
+    "actual_proportion_cited_input_derivation_in_reviewed_sources": true,
+    "new_spectral_mechanism": false,
+    "new_full_fourth_growth_power": false,
+    "whole_fourth_constant_paid": false,
+    "whole_signed_near_paid": false,
+    "new_zero_free_boundary": false,
+    "new_boundary_paper": false,
+    "world_record_claim": false,
+    "analytic_proof_certified_by_script": false,
+    "full_kernel_recomputed_by_this_checkpoint": false
+  }
+}

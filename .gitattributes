@@ -21,3 +21,6 @@ reviews/2026-09-10/goal-restart-validation.json -text whitespace=cr-at-eol
 scripts/radius_five_arb_kernel.py -text whitespace=cr-at-eol
 scripts/finite_control_integer_*.py -text whitespace=cr-at-eol
 scripts/verify_frozen_control_*.py -text whitespace=cr-at-eol
+# Exact upstream bytes for the replayed MT certificate and spectral source.
+reviews/2026-10-08/artifacts/hybrid-multipoint-ainta-040c5e8/** -text whitespace=cr-at-eol,-blank-at-eof
+reviews/2026-10-08/artifacts/hybrid-multipoint-schwarz-e2453c1/** -text whitespace=cr-at-eol,-blank-at-eof

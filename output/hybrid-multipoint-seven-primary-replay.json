@@ -1,0 +1,48 @@
+{
+  "mode": "seven",
+  "provenance": {
+    "license_raw_sha256": "1f157d0f9ab2186d23b5a573e160090b50b580bea1a56b29c4472693dccc81aa",
+    "manifest_canonical_sha256": "d4dc9e2d5514ff587adfa72749f9575883395934118514f739de242236e60252",
+    "python_flint_version": "0.9.0",
+    "raw_module_hashes": {
+      "__init__.py": "fed3f612069c72d4efac4250c6b1e63733762bf5911a973a445c1908d7b4b5d1",
+      "constants.py": "8344ed3792603e51a5621a72fc04e0f5bcb115c6599a72579b7a0f4b89c0bbff",
+      "kernel.py": "e83aa966699770bc72f67d3e55079cff89c2432a05ad25abd12afc8cbf9af1dd",
+      "report.py": "6305c3a072a3839aff80ad9854fc8e1e259df86078b8a20821fa778b966833fc",
+      "rounding.py": "2419f77bae2fb73ccb1da4e5d2bbaf3247e7d900d53871de9011296f7de5844e",
+      "verify_seven.py": "66ff0b10d18125144521f110afb5c0de9f9201e04c7e6ad6ad6cc6311080c355",
+      "verify_three.py": "ef2b91bb3323fba459cc5e0b2be2e9408da7a39ba9c56517833c6e3c7109ab20"
+    },
+    "runner_canonical_sha256": "8ac87f18cf928a51771556168e5af07400a3ba0333196b3e410394d8e4c37d05",
+    "source_commit": "040c5e899e658aed7b56a2a87f501798fe10761d"
+  },
+  "result": {
+    "certificate": "seven-point",
+    "details": {
+      "interval_pruned": 257493,
+      "pressure_pruned": 3087,
+      "second_derivative_table_sha256": "7913c5511a572c32dd573cd53123d8cf3ddf73d3ec63b1aa823faae2ae83570a",
+      "surviving_gap_components_cells": "[3809,4778];[7221,9363];[10572,44827]",
+      "surviving_gap_components_count": 3,
+      "tangent_pruned": 93735
+    },
+    "elapsed_seconds": 73.57744990009815,
+    "grid": 4000,
+    "initial_boxes": 729,
+    "kernel_table_sha256": "a9992300d2bf71665aa2b6bd2727e798624cd297103bb200c7f0ca2baea55a2c",
+    "maximum_depth": 37,
+    "nodes": 707901,
+    "precision_bits": 128,
+    "pruned": 354315,
+    "splits": 353586,
+    "target": "F6 >= 19/5000",
+    "verified": true
+  },
+  "schema": "hybrid-multipoint-cap-replay-v1",
+  "scope": {
+    "finite_kernel_certificate": true,
+    "new_zeta_proportion_certified_by_script": false,
+    "original_AF_analytic_transfer_certified_by_script": false,
+    "world_record_claim": false
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "repository": "https://github.com/uwe-schwarz/zeta-simple-zeros-673026",
+  "commit": "e2453c1cafc1387ef553fe6bee74d1f5223ba801",
+  "retrieved_local_date": "2026-10-08",
+  "license": "MIT; upstream LICENSE retained verbatim",
+  "read_scope": {
+    "paper/riemann.tex": "lines383-501 fully read for Lemma exact spectral envelope and actual Gram normalization; setup read through source and README; no full-paper or Lean replay claim",
+    "docs/proof.md": "complete 250-line proof outline read; no independent enhanced 382623/10^8 certificate replay",
+    "LICENSE": "archive verbatim"
+  },
+  "files": [
+    {
+      "path": "paper/riemann.tex",
+      "url": "https://raw.githubusercontent.com/uwe-schwarz/zeta-simple-zeros-673026/e2453c1cafc1387ef553fe6bee74d1f5223ba801/paper/riemann.tex",
+      "bytes": 23485,
+      "sha256_raw": "6b9796f4cd3b653781cf82de4dc6e22535076514ad62107312280abdbed85a01",
+      "lines": 702
+    },
+    {
+      "path": "docs/proof.md",
+      "url": "https://raw.githubusercontent.com/uwe-schwarz/zeta-simple-zeros-673026/e2453c1cafc1387ef553fe6bee74d1f5223ba801/docs/proof.md",
+      "bytes": 5879,
+      "sha256_raw": "594ec1cfc0ac0b4717bbe3a211eaa0a458b9ed318c3165bb4b5f5097fe8c0b9d",
+      "lines": 250
+    },
+    {
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/uwe-schwarz/zeta-simple-zeros-673026/e2453c1cafc1387ef553fe6bee74d1f5223ba801/LICENSE",
+      "bytes": 1062,
+      "sha256_raw": "5b620cb5c067656c1174c376850723806951c00bf6e4bfccdcc348b86c367d90",
+      "lines": 21
+    }
+  ]
+}
