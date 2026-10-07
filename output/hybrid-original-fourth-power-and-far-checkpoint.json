@@ -1,0 +1,433 @@
+{
+  "date": "2026-10-08",
+  "base_commit": "46106dc449ac7e6d91a3646b09e63b0b0e272cc1",
+  "original_prime_cutoffs_carrier_and_same_prime_center_retained": true,
+  "actual_power_improved_relative_R": true,
+  "whole_far_paid": true,
+  "power_result_conditional_input": "all nontrivial zeta zeros beta<=theta, fixed 5/6<theta<=7/8",
+  "fixed_start_zero_matrix_transfer_relative_AF_unscaled_S1_tail": true,
+  "outcome_flags_are_reviewed_source_conclusions_not_script_analytic_proofs": true,
+  "analytic_upper_certified_by_script": false,
+  "constant_fourth_budget_paid": false,
+  "new_actual_zero_proportion": false,
+  "new_zero_free_boundary": false,
+  "new_paper": false,
+  "finite_certificate": {
+    "checks": [
+      "low-density derivative",
+      "high-density derivative",
+      "low derivative numerator at sigma=3/4-u",
+      "low derivative numerator positive for u>=0 (all coefficients nonnegative)",
+      "high derivative numerator at sigma=3/4+v",
+      "high derivative numerator positive for v>=0 (all coefficients nonnegative)",
+      "low derivative denominator",
+      "high derivative denominator",
+      "first continuous endpoint",
+      "density functions meet at 3/4",
+      "common endpoint is 3/5",
+      "B(5/6)",
+      "B(7/8)",
+      "old 7/8 exponent",
+      "exact strip-dependent saving",
+      "7/8 power saving",
+      "saving vanishes at 5/6",
+      "one-minus-theta positive lower on theta<=7/8",
+      "gap denominator positive lower on theta>5/6",
+      "one-minus-theta whole interval positivity (all coefficients nonnegative)",
+      "gap denominator whole interval positivity (all coefficients nonnegative)",
+      "gap numerator open-domain factor",
+      "monotone B upper endpoint strictly below one",
+      "zero-packet log power 6+1-4",
+      "fourth-density exponent including normalized height",
+      "finite chi width telescopes",
+      "first chi factor length",
+      "first chi factor sup",
+      "finite left support endpoint",
+      "finite right support endpoint",
+      "limiting support left",
+      "limiting support right",
+      "chi sinc argument",
+      "8*N*(N+1)<=16*N^2 for N>=2 (all coefficients nonnegative)",
+      "floor upper-square slack for r=N+u",
+      "floor upper-square whole interval (all coefficients nonnegative)",
+      "floor lower-root slack with u=1-w",
+      "N>=sqrt(z)/16 on true floor interval (all coefficients nonnegative)",
+      "z/4 at z=64r^2",
+      "log4>1 exact symbolic comparison",
+      "smooth far s*Delta with T=2piX",
+      "s*Delta>=4096L^2 from pi>2",
+      "root-decay at 4096L^2",
+      "far decay e^-4L=X^-4 with X=e^L",
+      "full far m^4 X^-4 power",
+      "natural near chirp scale for S=c/X",
+      "box carrier far log power",
+      "box Delta=L^-1 log power",
+      "near determinant 2 Delta X^2 power",
+      "near determinant exact leading constant",
+      "actual fixed-start band width",
+      "actual fixed-start band center",
+      "bump support enclosing width",
+      "support width below eta period",
+      "sampling Fourier-series normalization",
+      "N=3 exterior amplitude exponent",
+      "N=3 raw sampling cross exponent",
+      "first guard m/T exponent",
+      "second guard m^2/T exponent",
+      "exact sampling floor prefactor",
+      "growth budget absorbs main (all coefficients nonnegative)",
+      "growth budget absorbs first cross (all coefficients nonnegative)",
+      "growth budget absorbs second cross (all coefficients nonnegative)",
+      "growth budget absorbs first guard square (all coefficients nonnegative)",
+      "growth budget absorbs guard cross (all coefficients nonnegative)",
+      "growth budget absorbs second guard square (all coefficients nonnegative)",
+      "lower density Mellin antiderivative",
+      "upper density Mellin antiderivative",
+      "rho Mellin equals exact factor main squared",
+      "rho mass at z=0",
+      "lower rho overlap length",
+      "upper rho overlap length",
+      "positive guard lower endpoint",
+      "positive guard upper endpoint",
+      "triangle kernel sinc guard radius",
+      "triangle kernel guard lies before first sinc zero",
+      "smooth-main raw cross X*X^-1",
+      "smooth-main normalized additive log power",
+      "top centered variance target X^3 L^4",
+      "raw positive large-factor Cauchy X^4 versus target X^3 gap",
+      "7/8 outer smooth error power"
+    ],
+    "count": 81,
+    "scope": "finite exact exponent, cutoff, Mellin and sampling normalization algebra only",
+    "B_7_over_8": "19/26",
+    "old_power_saving": "1/52",
+    "Perron_or_Hilbert_or_zero_density_certified": false,
+    "analytic_prime_fourth_or_AF_proof_certified": false
+  },
+  "review_bindings": [
+    {
+      "source": "reviews/2026-10-08/hybrid-positive-height-zero-packet-fourth-upper-research-radial.md",
+      "source_sha256": "8bcbd27da46d922d9e6e741fcf9a87012d565052f8d97b3ad12e99b3edbc2481",
+      "review": "reviews/2026-10-08/hybrid-original-fourth-power-and-far-review-root.md",
+      "review_sha256": "65a4e75ac9ca79dc2c9a2752902ec89acb968eae8c696ad4d54ab1148ec26f6c"
+    },
+    {
+      "source": "reviews/2026-10-08/hybrid-positive-height-zero-packet-fourth-upper-research-radial.md",
+      "source_sha256": "8bcbd27da46d922d9e6e741fcf9a87012d565052f8d97b3ad12e99b3edbc2481",
+      "review": "reviews/2026-10-08/hybrid-positive-height-zero-packet-fourth-upper-review-twisted.md",
+      "review_sha256": "4ca9bb7d261c6e8f5312922c9558a8e7063f72ea733658579c0c4573fc39f547"
+    },
+    {
+      "source": "reviews/2026-10-08/hybrid-whole-ratio-smooth-carrier-far-resonance-research-twisted.md",
+      "source_sha256": "9b8c6064731f65eb4449a3e9da353077baa856a4cb27f93fd5063b6f6a578054",
+      "review": "reviews/2026-10-08/hybrid-original-fourth-power-and-far-review-root.md",
+      "review_sha256": "65a4e75ac9ca79dc2c9a2752902ec89acb968eae8c696ad4d54ab1148ec26f6c"
+    },
+    {
+      "source": "reviews/2026-10-08/hybrid-whole-ratio-smooth-carrier-far-resonance-research-twisted.md",
+      "source_sha256": "9b8c6064731f65eb4449a3e9da353077baa856a4cb27f93fd5063b6f6a578054",
+      "review": "reviews/2026-10-08/hybrid-whole-ratio-smooth-carrier-far-resonance-review-radial.md",
+      "review_sha256": "bab74da7a1416aeea7083f47d5e398e7164f8d6f511e821919b61d1c040aae0b"
+    },
+    {
+      "source": "reviews/2026-10-08/hybrid-fixed-start-half-gram-sampling-research-root.md",
+      "source_sha256": "7ed68a71d4d22d0bf1d90c61cef231534737188131aad9842669cd11f19c82cc",
+      "review": "reviews/2026-10-08/hybrid-fixed-start-half-gram-sampling-review-compression.md",
+      "review_sha256": "9f5b4b76bab1483cf0eee8607928f5b85b41feb3e14aa652c838416f37b68cf8"
+    },
+    {
+      "source": "reviews/2026-10-08/hybrid-fixed-start-half-gram-sampling-research-root.md",
+      "source_sha256": "7ed68a71d4d22d0bf1d90c61cef231534737188131aad9842669cd11f19c82cc",
+      "review": "reviews/2026-10-08/hybrid-fixed-start-half-gram-sampling-review-twisted.md",
+      "review_sha256": "7997dbb5427f30bba5cae865a89fb3a23bc787d8a5788431283c847dbb4b2943"
+    },
+    {
+      "source": "reviews/2026-10-08/hybrid-canonical-semiprime-smooth-subtraction-and-variance-obstruction-research-compression.md",
+      "source_sha256": "7fcb097ad17d77b7281acd1f7c7d0f1580c5519c015437e104823cdfabd52645",
+      "review": "reviews/2026-10-08/hybrid-original-fourth-power-and-far-review-root.md",
+      "review_sha256": "65a4e75ac9ca79dc2c9a2752902ec89acb968eae8c696ad4d54ab1148ec26f6c"
+    },
+    {
+      "source": "notes/475-original-fourth-power-saving-and-whole-far-resonance.md",
+      "source_sha256": "cd295de4a909d82e50f8db4635d18cb3dfb9dffbbab8a5a4f00167aced1bf55b",
+      "review": "reviews/2026-10-08/475-summary-review-radial.md",
+      "review_sha256": "c4c8ca3ba740d16a535c8138c13706f2f6f5ee93b4aae4ad228892d574a3782e"
+    }
+  ],
+  "cited_source_hash_bindings": [
+    {
+      "document": "reviews/2026-10-08/hybrid-positive-height-zero-packet-fourth-upper-research-radial.md",
+      "source": "notes/446-uniform-prime-twists-on-the-original-gabor-frame.md",
+      "sha256": "08060477a6ea806d559fd67533d9e6d3b96483a755842cca9a048b6ab5e110cf"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-positive-height-zero-packet-fourth-upper-research-radial.md",
+      "source": "notes/451-kappa-feedback-cubic-boundary-and-family-continuation.md",
+      "sha256": "17ce7fea8c881ebd4034657b7039e99897d4ff9532348993ba329c46e3c4d487"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-positive-height-zero-packet-fourth-upper-research-radial.md",
+      "source": "notes/474-original-short-carrier-canonical-scalar-fourth-admission.md",
+      "sha256": "37306c6d403f48c93d5d0f92782088225084e2e4b6b694cd89644a75fe39e99f"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-positive-height-zero-packet-fourth-upper-research-radial.md",
+      "source": "reviews/2026-10-08/hybrid-short-carrier-canonical-scalar-fourth-admission-research-radial.md",
+      "sha256": "f04279a9de54303d772859b2ee5e05010567404c53143c928a14e905eb51a0d7"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-whole-ratio-smooth-carrier-far-resonance-research-twisted.md",
+      "source": "notes/472-original-short-carrier-fourth-compression-and-ratio-variance.md",
+      "sha256": "9856885e932a892cf7c33ece82f430c2ec13004555eb52da2f1e8b1ec6bb2683"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-whole-ratio-smooth-carrier-far-resonance-research-twisted.md",
+      "source": "reviews/2026-10-08/hybrid-whole-short-carrier-ratio-and-distinct-criterion-research-twisted.md",
+      "sha256": "c7ff142ebe15232542626e4feda3c05a1285cbf7bff64f462e734c662dafea53"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-whole-ratio-smooth-carrier-far-resonance-research-twisted.md",
+      "source": "reviews/2026-10-08/hybrid-anchored-carrier-averaged-fourth-projection-gap-research-radial.md",
+      "sha256": "c0e874ab9061982c8ef4365c8e9313eeac77eeddb756dc0b455cab3349f99dd8"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-whole-ratio-smooth-carrier-far-resonance-research-twisted.md",
+      "source": "notes/474-original-short-carrier-canonical-scalar-fourth-admission.md",
+      "sha256": "37306c6d403f48c93d5d0f92782088225084e2e4b6b694cd89644a75fe39e99f"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-whole-ratio-smooth-carrier-far-resonance-research-twisted.md",
+      "source": "notes/228-relative-dense-zero-block-transfer.md",
+      "sha256": "2cc8a3f5eb0e66ef0a6306a317a1e2b03c046c62b8284a87ccbee8e8130181ae"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-fixed-start-half-gram-sampling-research-root.md",
+      "source": "reviews/2026-10-08/hybrid-short-carrier-canonical-scalar-fourth-admission-research-radial.md",
+      "sha256": "f04279a9de54303d772859b2ee5e05010567404c53143c928a14e905eb51a0d7"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-fixed-start-half-gram-sampling-research-root.md",
+      "source": "reviews/2026-10-08/hybrid-whole-short-carrier-ratio-and-distinct-criterion-research-twisted.md",
+      "sha256": "c7ff142ebe15232542626e4feda3c05a1285cbf7bff64f462e734c662dafea53"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-fixed-start-half-gram-sampling-research-root.md",
+      "source": "notes/472-original-short-carrier-fourth-compression-and-ratio-variance.md",
+      "sha256": "9856885e932a892cf7c33ece82f430c2ec13004555eb52da2f1e8b1ec6bb2683"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-canonical-semiprime-smooth-subtraction-and-variance-obstruction-research-compression.md",
+      "source": "notes/474-original-short-carrier-canonical-scalar-fourth-admission.md",
+      "sha256": "37306c6d403f48c93d5d0f92782088225084e2e4b6b694cd89644a75fe39e99f"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-canonical-semiprime-smooth-subtraction-and-variance-obstruction-research-compression.md",
+      "source": "reviews/2026-10-08/hybrid-short-carrier-canonical-scalar-fourth-admission-research-radial.md",
+      "sha256": "f04279a9de54303d772859b2ee5e05010567404c53143c928a14e905eb51a0d7"
+    },
+    {
+      "document": "notes/475-original-fourth-power-saving-and-whole-far-resonance.md",
+      "source": "reviews/2026-10-08/hybrid-positive-height-zero-packet-fourth-upper-research-radial.md",
+      "sha256": "8bcbd27da46d922d9e6e741fcf9a87012d565052f8d97b3ad12e99b3edbc2481"
+    },
+    {
+      "document": "notes/475-original-fourth-power-saving-and-whole-far-resonance.md",
+      "source": "reviews/2026-10-08/hybrid-fixed-start-half-gram-sampling-research-root.md",
+      "sha256": "7ed68a71d4d22d0bf1d90c61cef231534737188131aad9842669cd11f19c82cc"
+    },
+    {
+      "document": "notes/475-original-fourth-power-saving-and-whole-far-resonance.md",
+      "source": "reviews/2026-10-08/hybrid-whole-ratio-smooth-carrier-far-resonance-research-twisted.md",
+      "sha256": "9b8c6064731f65eb4449a3e9da353077baa856a4cb27f93fd5063b6f6a578054"
+    },
+    {
+      "document": "notes/475-original-fourth-power-saving-and-whole-far-resonance.md",
+      "source": "reviews/2026-10-08/hybrid-canonical-semiprime-smooth-subtraction-and-variance-obstruction-research-compression.md",
+      "sha256": "7fcb097ad17d77b7281acd1f7c7d0f1580c5519c015437e104823cdfabd52645"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-original-fourth-power-and-far-review-root.md",
+      "source": "reviews/2026-10-08/hybrid-positive-height-zero-packet-fourth-upper-research-radial.md",
+      "sha256": "8bcbd27da46d922d9e6e741fcf9a87012d565052f8d97b3ad12e99b3edbc2481"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-original-fourth-power-and-far-review-root.md",
+      "source": "reviews/2026-10-08/hybrid-whole-ratio-smooth-carrier-far-resonance-research-twisted.md",
+      "sha256": "9b8c6064731f65eb4449a3e9da353077baa856a4cb27f93fd5063b6f6a578054"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-original-fourth-power-and-far-review-root.md",
+      "source": "reviews/2026-10-08/hybrid-canonical-semiprime-smooth-subtraction-and-variance-obstruction-research-compression.md",
+      "sha256": "7fcb097ad17d77b7281acd1f7c7d0f1580c5519c015437e104823cdfabd52645"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-positive-height-zero-packet-fourth-upper-review-twisted.md",
+      "source": "reviews/2026-10-08/hybrid-positive-height-zero-packet-fourth-upper-research-radial.md",
+      "sha256": "8bcbd27da46d922d9e6e741fcf9a87012d565052f8d97b3ad12e99b3edbc2481"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-positive-height-zero-packet-fourth-upper-review-twisted.md",
+      "source": "notes/474-original-short-carrier-canonical-scalar-fourth-admission.md",
+      "sha256": "37306c6d403f48c93d5d0f92782088225084e2e4b6b694cd89644a75fe39e99f"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-positive-height-zero-packet-fourth-upper-review-twisted.md",
+      "source": "reviews/2026-10-08/hybrid-short-carrier-canonical-scalar-fourth-admission-research-radial.md",
+      "sha256": "f04279a9de54303d772859b2ee5e05010567404c53143c928a14e905eb51a0d7"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-whole-ratio-smooth-carrier-far-resonance-review-radial.md",
+      "source": "reviews/2026-10-08/hybrid-whole-ratio-smooth-carrier-far-resonance-research-twisted.md",
+      "sha256": "9b8c6064731f65eb4449a3e9da353077baa856a4cb27f93fd5063b6f6a578054"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-whole-ratio-smooth-carrier-far-resonance-review-radial.md",
+      "source": "reviews/2026-10-08/hybrid-whole-short-carrier-ratio-and-distinct-criterion-research-twisted.md",
+      "sha256": "c7ff142ebe15232542626e4feda3c05a1285cbf7bff64f462e734c662dafea53"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-whole-ratio-smooth-carrier-far-resonance-review-radial.md",
+      "source": "notes/228-relative-dense-zero-block-transfer.md",
+      "sha256": "2cc8a3f5eb0e66ef0a6306a317a1e2b03c046c62b8284a87ccbee8e8130181ae"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-fixed-start-half-gram-sampling-review-compression.md",
+      "source": "reviews/2026-10-08/hybrid-fixed-start-half-gram-sampling-research-root.md",
+      "sha256": "7ed68a71d4d22d0bf1d90c61cef231534737188131aad9842669cd11f19c82cc"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-fixed-start-half-gram-sampling-review-compression.md",
+      "source": "reviews/2026-10-08/hybrid-short-carrier-canonical-scalar-fourth-admission-research-radial.md",
+      "sha256": "f04279a9de54303d772859b2ee5e05010567404c53143c928a14e905eb51a0d7"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-fixed-start-half-gram-sampling-review-compression.md",
+      "source": "reviews/2026-10-08/hybrid-whole-short-carrier-ratio-and-distinct-criterion-research-twisted.md",
+      "sha256": "c7ff142ebe15232542626e4feda3c05a1285cbf7bff64f462e734c662dafea53"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-fixed-start-half-gram-sampling-review-compression.md",
+      "source": "notes/472-original-short-carrier-fourth-compression-and-ratio-variance.md",
+      "sha256": "9856885e932a892cf7c33ece82f430c2ec13004555eb52da2f1e8b1ec6bb2683"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-fixed-start-half-gram-sampling-review-twisted.md",
+      "source": "reviews/2026-10-08/hybrid-fixed-start-half-gram-sampling-research-root.md",
+      "sha256": "7ed68a71d4d22d0bf1d90c61cef231534737188131aad9842669cd11f19c82cc"
+    },
+    {
+      "document": "reviews/2026-10-08/hybrid-fixed-start-half-gram-sampling-review-twisted.md",
+      "source": "reviews/2026-10-08/hybrid-short-carrier-canonical-scalar-fourth-admission-research-radial.md",
+      "sha256": "f04279a9de54303d772859b2ee5e05010567404c53143c928a14e905eb51a0d7"
+    },
+    {
+      "document": "reviews/2026-10-08/475-summary-review-radial.md",
+      "source": "notes/475-original-fourth-power-saving-and-whole-far-resonance.md",
+      "sha256": "cd295de4a909d82e50f8db4635d18cb3dfb9dffbbab8a5a4f00167aced1bf55b"
+    },
+    {
+      "document": "reviews/2026-10-08/475-summary-review-radial.md",
+      "source": "reviews/2026-10-08/hybrid-fixed-start-half-gram-sampling-research-root.md",
+      "sha256": "7ed68a71d4d22d0bf1d90c61cef231534737188131aad9842669cd11f19c82cc"
+    },
+    {
+      "document": "reviews/2026-10-08/475-summary-review-radial.md",
+      "source": "reviews/2026-10-08/hybrid-fixed-start-half-gram-sampling-review-compression.md",
+      "sha256": "9f5b4b76bab1483cf0eee8607928f5b85b41feb3e14aa652c838416f37b68cf8"
+    },
+    {
+      "document": "reviews/2026-10-08/475-summary-review-radial.md",
+      "source": "reviews/2026-10-08/hybrid-original-fourth-power-and-far-review-root.md",
+      "sha256": "65a4e75ac9ca79dc2c9a2752902ec89acb968eae8c696ad4d54ab1148ec26f6c"
+    },
+    {
+      "document": "reviews/2026-10-08/475-summary-review-radial.md",
+      "source": "reviews/2026-10-08/hybrid-whole-ratio-smooth-carrier-far-resonance-research-twisted.md",
+      "sha256": "9b8c6064731f65eb4449a3e9da353077baa856a4cb27f93fd5063b6f6a578054"
+    },
+    {
+      "document": "reviews/2026-10-08/475-summary-review-radial.md",
+      "source": "reviews/2026-10-08/hybrid-canonical-semiprime-smooth-subtraction-and-variance-obstruction-research-compression.md",
+      "sha256": "7fcb097ad17d77b7281acd1f7c7d0f1580c5519c015437e104823cdfabd52645"
+    }
+  ],
+  "links_checked": 45,
+  "files": [
+    {
+      "path": "reviews/2026-10-08/hybrid-positive-height-zero-packet-fourth-upper-research-radial.md",
+      "sha256_canonical_lf": "8bcbd27da46d922d9e6e741fcf9a87012d565052f8d97b3ad12e99b3edbc2481",
+      "canonical_utf8_bytes": 12641,
+      "lines": 332
+    },
+    {
+      "path": "reviews/2026-10-08/hybrid-whole-ratio-smooth-carrier-far-resonance-research-twisted.md",
+      "sha256_canonical_lf": "9b8c6064731f65eb4449a3e9da353077baa856a4cb27f93fd5063b6f6a578054",
+      "canonical_utf8_bytes": 14285,
+      "lines": 359
+    },
+    {
+      "path": "reviews/2026-10-08/hybrid-fixed-start-half-gram-sampling-research-root.md",
+      "sha256_canonical_lf": "7ed68a71d4d22d0bf1d90c61cef231534737188131aad9842669cd11f19c82cc",
+      "canonical_utf8_bytes": 7522,
+      "lines": 199
+    },
+    {
+      "path": "reviews/2026-10-08/hybrid-canonical-semiprime-smooth-subtraction-and-variance-obstruction-research-compression.md",
+      "sha256_canonical_lf": "7fcb097ad17d77b7281acd1f7c7d0f1580c5519c015437e104823cdfabd52645",
+      "canonical_utf8_bytes": 10722,
+      "lines": 212
+    },
+    {
+      "path": "notes/475-original-fourth-power-saving-and-whole-far-resonance.md",
+      "sha256_canonical_lf": "cd295de4a909d82e50f8db4635d18cb3dfb9dffbbab8a5a4f00167aced1bf55b",
+      "canonical_utf8_bytes": 7592,
+      "lines": 158
+    },
+    {
+      "path": "reviews/2026-10-08/hybrid-original-fourth-power-and-far-review-root.md",
+      "sha256_canonical_lf": "65a4e75ac9ca79dc2c9a2752902ec89acb968eae8c696ad4d54ab1148ec26f6c",
+      "canonical_utf8_bytes": 8377,
+      "lines": 137
+    },
+    {
+      "path": "reviews/2026-10-08/hybrid-positive-height-zero-packet-fourth-upper-review-twisted.md",
+      "sha256_canonical_lf": "4ca9bb7d261c6e8f5312922c9558a8e7063f72ea733658579c0c4573fc39f547",
+      "canonical_utf8_bytes": 6736,
+      "lines": 146
+    },
+    {
+      "path": "reviews/2026-10-08/hybrid-whole-ratio-smooth-carrier-far-resonance-review-radial.md",
+      "sha256_canonical_lf": "bab74da7a1416aeea7083f47d5e398e7164f8d6f511e821919b61d1c040aae0b",
+      "canonical_utf8_bytes": 7944,
+      "lines": 155
+    },
+    {
+      "path": "reviews/2026-10-08/hybrid-fixed-start-half-gram-sampling-review-compression.md",
+      "sha256_canonical_lf": "9f5b4b76bab1483cf0eee8607928f5b85b41feb3e14aa652c838416f37b68cf8",
+      "canonical_utf8_bytes": 5786,
+      "lines": 119
+    },
+    {
+      "path": "reviews/2026-10-08/hybrid-fixed-start-half-gram-sampling-review-twisted.md",
+      "sha256_canonical_lf": "7997dbb5427f30bba5cae865a89fb3a23bc787d8a5788431283c847dbb4b2943",
+      "canonical_utf8_bytes": 3103,
+      "lines": 61
+    },
+    {
+      "path": "reviews/2026-10-08/475-summary-review-radial.md",
+      "sha256_canonical_lf": "c4c8ca3ba740d16a535c8138c13706f2f6f5ee93b4aae4ad228892d574a3782e",
+      "canonical_utf8_bytes": 8365,
+      "lines": 158
+    },
+    {
+      "path": "scripts/hybrid_original_fourth_power_and_far_checkpoint.py",
+      "sha256_canonical_lf": "056d96be0cae2e660fc66ea400c28f5e84de91a0f2d4fbbc45ba678e84559fa7",
+      "canonical_utf8_bytes": 16609,
+      "lines": 304
+    }
+  ],
+  "unproved": [
+    "constant-size canonical scalar fourth budget",
+    "the remaining whole signed natural-near arithmetic",
+    "a new actual zero proportion or zero-free boundary"
+  ]
+}
