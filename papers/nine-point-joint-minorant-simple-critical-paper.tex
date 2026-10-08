@@ -1,0 +1,828 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[margin=26mm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern,microtype}
+\usepackage{amsmath,amssymb,amsthm,mathtools,booktabs}
+\usepackage[hidelinks]{hyperref}
+\hypersetup{pdftitle={Joint Minorants for Nine Points},
+ pdfauthor={RH-Weil research project}}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{inputclaim}[theorem]{Computational input}
+\theoremstyle{remark}
+\newtheorem{remark}[theorem]{Remark}
+\DeclareMathOperator{\tr}{tr}
+\DeclareMathOperator{\sinc}{sinc}
+\newcommand{\R}{\mathbb R}
+\newcommand{\I}{[-1/2,1/2]}
+\title{Joint Minorants for Nine Points\\
+and Simple Critical Zeros of the Riemann Zeta Function}
+\author{RH--Weil research project}
+\date{October 8, 2026}
+\begin{document}
+\maketitle
+\begin{abstract}
+We improve a fixed eight-point certificate for a perturbed
+Montgomery--Taylor window by jointly treating two overlapping frames.
+The two frames share their actual distance-square variables and all
+common gap and span constraints. From the existing continuous certificate
+we capture 70 low-slack cells, restore their reflections, and reduce the
+joint problem to 289 labelled intersections. Rational epigraph duals,
+checked with exact finite-box residual corrections, pay the local reward
+$805103/10^8$ on every intersection. Together with the existing
+lossless separation and all-zero spectral assembly this gives
+\[
+ \liminf_{T\to\infty}\frac{N_0^s(T)}{N(T)}
+ \ge\frac{66812491}{99194897}=0.6735476624367078\ldots.
+\]
+The denominator counts all nontrivial zeros with multiplicity; the
+numerator counts simple zeros on the critical line. Off-line zeros are
+retained. The analytic argument assumes no zero-free strip or RH.
+The finite computational input retains the disclosed PC8CL
+continuous-audit and compiled-integer trust scope. The new dual verifier
+uses only integer and rational arithmetic; numerical linear programming
+merely locates witnesses. This is not a complete Lean kernel proof.
+\end{abstract}
+
+\section{Statement, provenance and comparison}
+
+Let $N(T)$ count the nontrivial zeros $\rho$ of $\zeta$, with
+$0<\Im\rho\le T$, including multiplicity. Let $N_0^s(T)$ count the
+simple zeros among them with $\Re\rho=1/2$.
+
+\begin{theorem}\label{thm:main}
+Using the continuous PC8CL certificate stated in
+Input~\ref{in:pc8} and the exact joint certificate established below,
+one has, unconditionally,
+\begin{equation}\label{eq:main}
+ \liminf_{T\to\infty}\frac{N_0^s(T)}{N(T)}
+ \ge \frac{66812491}{99194897}.
+\end{equation}
+No zero-free strip, Riemann hypothesis or higher correlation
+conjecture is assumed.
+\end{theorem}
+
+The window and eight-point data are prior inputs from the fixed
+public AM construction \cite{PC8}. Their lossless assembly
+\cite{Lossless} gave $66812491/99194997$. The present improvement is
+in the local certificate: two overlapping frames share the actual kernel
+squares and all their continuous linear span constraints. We adapt the
+separation mechanism used by Knausg{\aa}rd \cite[Section~5]{Knaus},
+without consuming that paper's headline native computation axiom.
+The new rational bound exceeds the previous repository bound by
+\[
+ \frac{6681249100}{99194897\cdot99194997}>0,
+\]
+approximately $0.0000679014$ percentage points. Its comparison with the
+fixed Knausg{\aa}rd v1 benchmark is
+\begin{equation}\label{eq:comparison}
+ \frac{66812491}{99194897}-\frac{1669159}{2478195}
+ =\frac{2326052122}{245824297770915}>0.
+\end{equation}
+This is a fixed-source comparison, not an exhaustive global priority
+claim. A zero-counting proportion is not a measure of progress toward a
+proof of RH, and the separate zero-free-region bounds are unchanged.
+
+\section{Window and admitted local certificate}
+
+Put $\beta=1/\sqrt2$ and $Z_0=\sqrt2\sin\beta$.
+On $I=\I$ define
+\begin{equation}\label{eq:window}
+ f(u)=\frac{\cos(\sqrt2u)+\sum_{j=1}^{12}c_j\cos(2\pi ju)}{Z_0},
+ \qquad K(t)=\int_I f(u)e^{-2\pi itu}\,du.
+\end{equation}
+Extend $f$ by zero outside $I$. The integer numerators $10^9c_j$ are
+\[
+\begin{split}
+(&12310798,-15041681,3867664,6489926,-992327,5580097,\\
+ &-6846472,3781297,-5670353,3355089,-450523,-218483).
+\end{split}
+\]
+Thus $S=\sum_j|c_j|=6460471/10^8<13/200$.
+Since $\cos(\sqrt2u)\ge1-u^2\ge3/4$ on $I$, the numerator
+is positive. The integer cosine modes integrate to zero, so
+$f$ is an even probability density. Also
+\begin{equation}\label{eq:normalization}
+ Z_0=\int_I\cos(\sqrt2u)\,du\ge 11/12.
+\end{equation}
+
+For eight ordered points $y_0,\ldots,y_7$, write
+$g_r=y_{r+1}-y_r\ge0$, $0\le r\le6$. Set
+\[
+ c_0=\frac{805003}{10^8},\quad c=\frac{805103}{10^8},\qquad B=\sum_rb_r=\frac{404350}{10^8},
+\]
+\[
+ (10^8b_r)_{r=0}^6=(28898,57272,75526,80958,75526,57272,28898).
+\]
+All pair weights $a_{ij}$ are nonnegative. Table~\ref{tab:weights}
+gives their integer numerators.
+
+\begin{table}[ht]
+\centering\small
+\begin{tabular}{c*{7}{r}}
+\toprule
+$i\backslash j$&1&2&3&4&5&6&7\\
+\midrule
+0&13630830&0&19565904&20317441&45030671&100000000&200000000\\
+1&&29997996&30621878&47766489&79682558&109938656&100000000\\
+2&&&37356140&69378121&65335210&79682558&45030671\\
+3&&&&38030065&69378121&47766489&20317441\\
+4&&&&&37356140&30621878&19565904\\
+5&&&&&&29997996&0\\
+6&&&&&&&13630830\\
+\bottomrule
+\end{tabular}
+\caption{The weights $10^8a_{ij}$ of the fixed AM certificate.}
+\label{tab:weights}
+\end{table}
+
+\begin{inputclaim}[Fixed PC8CL certificate]\label{in:pc8}
+For every $(g_0,\ldots,g_6)\in[0,\infty)^7$,
+\begin{equation}\label{eq:local}
+ \sum_{r=0}^6b_rg_r+
+ \sum_{0\le i<j\le7}a_{ij}
+ K\left(\sum_{r=i}^{j-1}g_r\right)^2\ge c_0.
+\end{equation}
+\end{inputclaim}
+
+This is a continuous real-gap assertion, not a grid sampling claim.
+Its provenance, finite replay and continuous soundness evidence are
+specified in Section~\ref{sec:trust}. We use the complete admitted
+certificate, rather than the upstream final zeta theorem.
+Direct integer summation of Table~\ref{tab:weights} gives
+\begin{equation}\label{eq:capacity}
+\begin{split}
+10^8\left(\sum_{i=0}^{7-s}a_{i,i+s}\right)_{s=1}^7
+={}&(199999997,199999998,199999996,199999998,\\
+ &199999998,200000000,200000000).
+\end{split}
+\end{equation}
+In particular each span-length budget is at most two.
+
+\section{The joint continuous nine-point certificate}\label{sec:joint}
+
+Write $F_8(h)$ for the left side of \eqref{eq:local} and put
+$\theta=4/5$, $\delta=10^{-6}$, so $c=c_0+\delta$.
+For $g=(g_0,\ldots,g_7)\in[\theta,\infty)^8$, let
+$h^-=(g_0,\ldots,g_6)$ and $h^+=(g_1,\ldots,g_7)$. Define
+\begin{equation}\label{eq:nine}
+ F_9(g)=\tfrac12\{F_8(h^-)+F_8(h^+)\}
+                +2K(g_0+\cdots+g_7)^2.
+\end{equation}
+The new pair weights are
+\[
+ a'_{ij}=\tfrac12a_{ij}{\bf1}_{j\le7}
+        +\tfrac12a_{i-1,j-1}{\bf1}_{i\ge1}
+        +2{\bf1}_{(i,j)=(0,8)},
+\]
+where out-of-range old weights are zero. The gap fees are
+\[
+ (10^8b'_r)_{r=0}^7=(14449,43085,66399,78242,
+                         78242,66399,43085,14449).
+\]
+All weights and fees are nonnegative; $\sum b'_r=B$.
+Each index-span budget is at most two, including span eight.
+
+\subsection{A complete low-slack outer cover}
+
+Put $\mathcal L=\{h\in[\theta,\infty)^7:F_8(h)<c_0+2\delta\}$.
+If either frame is outside $\mathcal L$, Input~\ref{in:pc8} and
+\eqref{eq:nine} already give $F_9\ge c$.
+We explain why the captured cells cover all of $\mathcal L$.
+The old small-gap domain $h_i\le1/2$ is absent. In any old clear
+COV interval, a single adjacent-pair term already pays $c_0$;
+the pressure adds at least $\theta B=8087/2500000>2\delta$.
+In any old large-gap domain, one fee pays $c_0$ and the remaining
+fees add at least $\theta(B-\max b_i)=5053/1953125>2\delta$.
+Thus only the bad COV intervals and their 32 root trees remain.
+
+In the half-space $h_6\ge h_0$, the old direction leaves
+$u_6<l_0$ cannot contain the point. Farkas empty-cell leaves do
+not contain it either. Every remaining successful leaf supplies an
+interval minorant. Keep the original reward, return value and packed
+bit cursor; copy only its final reward comparison with the new target
+$805203/10^8=c_0+2\delta$. A passing stronger leaf excludes the
+point from $\mathcal L$; a nonpassing stronger leaf with a passing
+old comparison is captured. The actual unchanged 32 root consumption
+positions and seven outer COV checks all pass. This captures exactly
+70 cells. Their full reflections, using
+$h_r\mapsto h_{6-r}$ and $(i,j)\mapsto(7-j,7-i)$ on spans, restore
+the other half-space. There are 140 source labels and 132 distinct
+geometric cells. These are outer cells, not subsets on which every
+point necessarily has low slack.
+
+Each cell retains seven gap and 21 long-span closed bounds, in units
+$SC=32768$. A left/right intersection retains all eight gaps and
+27 distinct long spans. Prefix coordinates turn these into exact
+closed difference constraints. In units $5SC$ the lower gap bound
+$\theta$ is exactly the integer 131072. Negative cycles exclude empty
+intersections; shortest-path potentials verify feasibility otherwise.
+The 19600 labelled pairs reduce to 422 after common gap bounds and
+to 289 after all common spans and the complete closure. Labels are
+retained even when their geometric cells coincide, since their
+minorants can differ. There is no integer rounding of a real gap.
+
+The capture and continuous semantics reuse the admitted fixed PC8
+input. The unchanged old reward comparisons, root cursors and atom
+validity checks are essential. A failed stronger comparison alone
+would not prove a counterexample, and the list of cells alone would
+not prove its completeness.
+
+\subsection{Valid individual tangent cuts}
+
+Let $w(t)=K(t)^2$. For an enabled point $p\in[l,u]$, the old
+continuous tangent assertion gives real $v,d$ with
+\[
+ w(x)\ge v+d(x-p)\quad(l\le x\le u),\qquad
+ v\ge v_0,\quad d_-\le d\le d_+.
+\]
+The enabled-point condition and interval-valid tangent are part of
+the admitted value, derivative and convexity or extrapolation checks.
+A derivative interval at a point alone would not establish this assertion.
+Its packed integer data provide $v_0=V/10^{10}$,
+$d_-=(P-2\cdot10^9)/10^9$ and $d_+=(2\cdot10^9-M)/10^9$.
+In particular $d_-\le d_+$.
+
+\begin{lemma}\label{lem:cuts}
+The following two affine functions lie below $w$ on $[l,u]$:
+\[
+ \ell_p(x)=v_0+d_+(l-p)+d_-(x-l),\qquad
+ r_p(x)=v_0+d_-(u-p)+d_+(x-u).
+\]
+Any constant bound $\lambda\le\inf_{[l,u]}w$ can also be used.
+\end{lemma}
+\begin{proof}
+Subtracting the first line from $v_0+d(x-p)$ gives
+$(d-d_-)(x-l)+(d_+-d)(p-l)\ge0$.
+Subtracting the second gives
+$(d_+-d)(u-x)+(d-d_-)(u-p)\ge0$.
+Both conclusions use $p\in[l,u]$. Only points with positive weight
+in the old certified minorant are enabled; a zero-weight point does
+not automatically supply a tangent.
+\end{proof}
+
+For each captured term the true endpoints are recovered from the
+original gap and span constraints. In a zero-width query the value
+pyramid may use an enlarged one-grid-cell interval; its constant bound
+remains valid, but the true endpoint is used for the tangent cuts.
+Every old encoded derivative error and value rounding is retained.
+All physical distances shared by the two frames use the same variable
+$z_{ij}=w(g_i+\cdots+g_{j-1})$. The two frames have 33 old nonzero
+physical pair terms; the added span-eight term makes 34 variables.
+The pointwise positivity of $f$ gives $0\le z_{ij}\le1$.
+Place all constant and enabled individual cuts from both frames on
+that same variable, rather than retaining only the original mixture
+or an independently minimized frame constant.
+Reflection transports each term by its physical span; it does not
+reverse the list of 26 encoded terms blindly.
+
+\subsection{Exact finite-box dual verification}
+
+For each of the 289 intersections form a vector $x$ of eight gaps
+and 34 distance-square variables. Write all cell and tangent cuts as
+$Ax\le b$, and let $\ell\le x\le u$ be the finite variable box:
+closed difference-constraint projections for the gaps, and $[0,1]$
+for the squares. The objective vector $q$ represents $2\cdot10^8F_9$;
+its gap coefficients are the integer numerators of twice $b'$, and
+its pair coefficients are the sum of the old integer weights, with
+$4\cdot10^8$ on $(0,8)$. Every actual assignment satisfies all these
+constraints and gives the exact objective.
+
+\begin{lemma}[Residual-corrected dual]\label{lem:dual}
+For any rational $\lambda\ge0$, put $r=q+A^t\lambda$. Then
+\[
+ q^tx\ge-\lambda^tb+
+ \sum_i r_i\begin{cases}\ell_i,&r_i\ge0,\\u_i,&r_i<0.\end{cases}
+ \qquad(Ax\le b,\ \ell\le x\le u).
+\]
+\end{lemma}
+\begin{proof}
+Use $q^tx=r^tx-\lambda^tAx\ge r^tx-\lambda^tb$,
+and minimize each residual coefficient on its complete box.
+Exact stationarity $r=0$ and floating-point feasibility are unnecessary.
+\end{proof}
+
+Numerical linear programming only proposes $\lambda$. The certificate
+stores its nonnegative rational entries; the verifier reconstructs every
+matrix, objective and box from the captured integers and consumes the
+entries by Lemma~\ref{lem:dual}. Across all 289 records the smallest
+proved objective divided by $2\cdot10^8$ is
+\[
+ \frac{65955289561887369906031994339}
+ {8192000000000000000000000000000}>\frac{805103}{10^8}.
+\]
+The exact positive margin is
+\[
+ \frac{1251801887369906031994339}
+ {8192000000000000000000000000000}.
+\]
+These computations are finite computational evidence in the explicitly
+stated integer and rational trust scope; they are not consequences of
+floating-point solver status. The span-eight variable has no positive
+cut in this certificate, so the joint old 33 pair terms already suffice.
+
+\begin{proposition}[Uniform local improvement]\label{prop:nine}
+Under the admitted continuous PC8 atom and capture semantics,
+$F_9(g)\ge c=805103/10^8$ for every $g\in[4/5,\infty)^8$.
+\end{proposition}
+\begin{proof}
+Outside the two-frame low-slack case, the first observation in this
+section pays $c$. Inside it, completeness of the reflected outer cover
+places the actual point in at least one of the 289 labelled
+intersections. Its actual gaps and squares satisfy the associated
+matrix and box. The exact dual bound pays $c$ there. This covers the
+entire unbounded separated domain, including every closed boundary.
+\end{proof}
+
+\begin{lemma}[Direct sliding]\label{lem:sliding}
+For any $m$ real points separated by at least $\theta$,
+\begin{equation}\label{eq:sliding}
+ \sum_{i\ne j}K(y_i-y_j)^2
+ \ge c(m-8)-B\operatorname{span}(y).
+\end{equation}
+The span is zero when $m\le1$.
+\end{lemma}
+\begin{proof}
+For $m\ge9$ sum Proposition~\ref{prop:nine} over the $m-8$
+nine-point windows. Each pair of a fixed index span receives total
+nonnegative weight at most two. Each adjacent gap receives total
+fee at most $B$. The pair sum is at most the full ordered pair
+sum, and the total pressure is at most $B\operatorname{span}(y)$.
+For $m\le8$ the right side is nonpositive.
+\end{proof}
+
+\section{A band-limited majorant for the same window}
+
+We use $\sinc t=\sin(\pi t)/(\pi t)$, with $\sinc0=1$, and put
+\begin{equation}\label{eq:majorant}
+ \theta=\frac45,\quad \gamma=\frac{61}{100},\qquad
+ g(u)=\gamma\{\sinc(\theta(u-1/2))+
+                    \sinc(\theta(u+1/2))\}^2.
+\end{equation}
+
+\begin{lemma}\label{lem:majorant}
+The nonnegative function $g$ satisfies $g\ge f$ on $\R$,
+$\widehat g(t)=0$ for $|t|\ge\theta$, and
+\begin{equation}\label{eq:mass}
+ \Lambda:=\int_\R g(u)\,du
+ =\frac{2\gamma}{\theta}(1+\sinc\theta)
+ \le\frac{61}{32}<2 .
+\end{equation}
+\end{lemma}
+\begin{proof}
+Each shifted sinc has a rectangular Fourier transform supported in
+$[-\theta/2,\theta/2]$. The square in \eqref{eq:majorant}
+therefore has Fourier support $[-\theta,\theta]$.
+The convolution is continuous and zero at both boundary points,
+so the conclusion includes equality $|t|=\theta$.
+Parseval gives the displayed formula for $\Lambda$.
+As $\sin(4\pi/5)=\sin(\pi/5)\le\pi/5$,
+$\sinc(4/5)\le1/4$, proving its stated upper bound.
+
+The remaining assertion $g\ge f$ is proved by the small exact
+rational certificate in Appendix~\ref{app:certificate}.
+Specifically it establishes
+\[
+ g(k/256)-f(k/256)>9/100 \quad(0\le k\le128),
+ \qquad \sup_{u\in I}|(g-f)'(u)|<16.
+\]
+Both functions are even, and every point of $[0,1/2]$ is at
+distance at most $1/512$ from one of these nodes. Hence on $I$
+\[
+ g(u)-f(u)>9/100-16/512=47/800>0.
+\]
+Outside $I$ the assertion follows from $f=0$ and $g\ge0$.
+The derivative estimate is the essential continuous bridge;
+the grid inequalities alone would not suffice.
+\end{proof}
+
+\begin{lemma}[Close-pair reward]\label{lem:close}
+For $|t|\le4/5$, one has $K(t)>134/825$ and
+$K(t)^2>1/40>c$.
+\end{lemma}
+\begin{proof}
+For $0\le t\le4/5$, the functions $\cos(\sqrt2u)$ and
+$\cos(2\pi tu)$ both decrease on $[0,1/2]$.
+Chebyshev's integral covariance inequality, divided by $Z_0$,
+gives for the unperturbed kernel $K_0(t)\ge\sinc t\ge\sinc(4/5)$.
+The last monotonicity follows by differentiating $\sin x/x$ on
+$[0,\pi]$. Using $\pi^2<10$ and
+$\sin x\ge x-x^3/6$ at $x=\pi/5$ gives
+$\sinc(4/5)>7/30$.
+The perturbation of the normalized kernel has modulus at most
+$S/Z_0<39/550$. Thus
+$K(t)>7/30-39/550=134/825$.
+Finally $(134/825)^2=17956/680625>1/40>c$.
+Evenness covers negative $t$.
+\end{proof}
+
+\section{Lossless spectral assembly}
+
+Choose even $\chi_\varepsilon\in C_c^\infty((-1/2,1/2))$,
+$0\le\chi_\varepsilon\le1$, tending to one on the interior, and set
+\[
+ m_\varepsilon=\int_I f\chi_\varepsilon^2,\qquad
+ f_\varepsilon=f\chi_\varepsilon^2/m_\varepsilon,\qquad
+ K_\varepsilon=\widehat f_\varepsilon,\qquad
+ d_\varepsilon=\|f_\varepsilon-f\|_1.
+\]
+Then $m_\varepsilon\to1$, $d_\varepsilon\to0$, and
+$f_\varepsilon\to f$ in $L^1\cap L^2$.
+The square root $\eta_\varepsilon=\sqrt{f_\varepsilon}$ is
+smooth, even, compactly supported in the interior of $I$.
+On the real axis, $|K_\varepsilon-K|\le d_\varepsilon$
+and both kernels have modulus at most one.
+Throughout the argument fix $\varepsilon$ sufficiently small that
+$m_\varepsilon>61/64$.
+
+For a finite set $Y$ of $n$ real points let
+$U=(K_\varepsilon(y_i-y_j))_{i,j}$ be its positive Gram matrix,
+with unit diagonal. Define
+\[
+ \phi_2(t)=t^2-(t-2)_+^2,\qquad
+ J(U)=\tr\phi_2(U)-n .
+\]
+The scalar function $\phi_2$ is convex on $[0,\infty)$.
+
+\begin{proposition}\label{prop:lossless}
+For every finite $Y$,
+\begin{equation}\label{eq:gain}
+ J(U)\ge cn-B\,\operatorname{span}(Y)-8c-32d_\varepsilon n.
+\end{equation}
+\end{proposition}
+\begin{proof}
+Select a maximal collection of disjoint pairs with distance
+strictly less than $\theta$. The remaining set $S$ is
+$\theta$-separated. For any coefficient vector $(z_j)$ on $S$,
+the pointwise majorant gives
+\[
+ \int f_\varepsilon(u)\left|\sum_{j\in S}z_je^{-2\pi iy_ju}\right|^2du
+ \le\frac1{m_\varepsilon}
+ \int g(u)\left|\sum_{j\in S}z_je^{-2\pi iy_ju}\right|^2du
+ =\frac{\Lambda}{m_\varepsilon}\sum_{j\in S}|z_j|^2 .
+\]
+The cross terms vanish even at separation exactly $\theta$.
+Thus $0\preceq U_{SS}\preceq(\Lambda/m_\varepsilon)I\prec2I$.
+Normalization by $m_\varepsilon$ is necessary here.
+Consequently $\phi_2(U_{SS})=U_{SS}^2$.
+
+Write $m=|S|$. Apply each local certificate to $K$ and transfer
+only its finitely many weighted pair terms to $K_\varepsilon$.
+Each square changes by at most $2d_\varepsilon$; the total
+weight in one nine-point window is at most $16$ by the span budgets.
+The sliding argument, including the cases $m\le8$, yields
+\[
+ \tr\phi_2(U_{SS})-m
+ \ge cm-B\,\operatorname{span}(S)-8c-32d_\varepsilon m .
+\]
+Each removed pair has a Gram matrix with eigenvalues
+$1\pm|K_\varepsilon(t)|$ in $[0,2]$.
+Its contribution to $J$ is
+$2K_\varepsilon(t)^2\ge2c-4d_\varepsilon$, by
+Lemma~\ref{lem:close}.
+
+Diagonalize the principal block for $S$ and each two-point block.
+Scalar Jensen in the resulting orthonormal basis proves
+$\tr\phi_2(U)\ge\sum_{\text{blocks}}\tr\phi_2(U_{\text{block}})$.
+This requires scalar convexity, not operator convexity.
+Summing the pair rewards and the separated-set reward gives
+\eqref{eq:gain}, since $\operatorname{span}(S)\le
+\operatorname{span}(Y)$ and the pair error is at most
+$2d_\varepsilon(n-m)\le32d_\varepsilon(n-m)$.
+Empty or small separated sets are covered by the same single
+boundary charge $8c$.
+\end{proof}
+
+\section{All-zero Hermitian counting and the energy constant}
+
+\subsection{The unconditional analytic input}
+
+For each fixed $\varepsilon$, the unconditional correlation formula
+of Baluyot, Goldston, Suriajaya and Turnage-Butterbaugh
+\cite[Lemma~5]{BGST}, with the correction described in
+\cite[Section~3]{BGSTcorr}, gives
+\begin{equation}\label{eq:unweighted}
+ \sum_{0<\Im\rho,\Im\rho'\le T}
+ K_\varepsilon\left(i(\rho-\rho')\frac{\log T}{2\pi}\right)^2
+ =(C(f_\varepsilon)+o_\varepsilon(1))N(T),
+\end{equation}
+where
+\begin{equation}\label{eq:energy}
+ C(h)=\int_Ih(u)^2du+
+           \int_I\int_I|u-v|h(u)h(v)\,du\,dv.
+\end{equation}
+The sum includes multiplicities and all off-line zeros.
+For completeness, the weighted lemma applied to a fixed real even
+test $q$ supported in $[-1,1]$ has weight
+$w(\rho-\rho')=4/(4-(\rho-\rho')^2)$ and main term
+$q(0)+2\int_0^1u q(u)\,du$.
+Apply it separately to the two fixed smooth functions
+$q=f_\varepsilon*f_\varepsilon$ and $q''$.
+For $z=i(\rho-\rho')\log T/(2\pi)$, integration by parts gives
+\[
+ \left(\widehat q(z)-\frac{\widehat{q''}(z)}
+                            {4(\log T)^2}\right)w(\rho-\rho')
+ =K_\varepsilon(z)^2.
+\]
+The second fixed-test contribution is $O_\varepsilon(N/(\log T)^2)$;
+the first gives \eqref{eq:unweighted}. The lemma allows signed tests,
+so its use for $q''$ is legitimate.
+This is the fixed-smoothing argument also used in \cite{Lamzouri}.
+No estimate uniform in a $T$-dependent smoothing parameter is used.
+
+\subsection{Retaining off-line zeros}
+
+Put $L=\log T$ and $z_\rho=-i(\rho-1/2)L/(2\pi)$.
+The multiset of these points is conjugation-invariant.
+First in the complex Hilbert space $L^2(I;\mathbb C)$ set
+$v_z(u)=\eta_\varepsilon(u)e^{-2\pi izu}$.
+For each distinct nonreal conjugate pair write
+$g_z=(v_z+v_{\bar z})/2$ and
+$h_z=(v_z-v_{\bar z})/(2i)$.
+The vectors $v_x$ for real $x$, together with $g_z$ and $h_z$,
+belong to the real Hilbert space
+$\mathcal H_{\R}=\{v:\overline{v(u)}=v(-u)\}$:
+the conjugate reflection $J$ satisfies $Jv_z=v_{\bar z}$.
+Define the finite self-adjoint operator on their real span by
+\[
+ A_T=\sum_{\text{distinct real }x}\mu_xv_x\otimes v_x+
+       2\sum_{\text{distinct nonreal pairs}}\mu_z
+                  (g_z\otimes g_z-h_z\otimes h_z).
+\]
+It acts on the finite span of these real-type vectors.
+The identity $\|g_z\|^2-\|h_z\|^2=1$ and direct tensor expansion give
+\begin{equation}\label{eq:operator}
+ \tr A_T=N(T),\qquad
+ \tr A_T^2=(C(f_\varepsilon)+o_\varepsilon(1))N(T).
+\end{equation}
+Indeed the Hilbert--Schmidt square expands to
+$\sum_{z,w}K_\varepsilon(z-\bar w)^2$; conjugation reindexes this
+as the sum in \eqref{eq:unweighted}. Individual complex terms
+need not be positive.
+
+Let $P$ be the sum of the unit features at simple real points,
+$n=N_0^s(T)$, and $Q=A_T-P$. If $r$ is the number of repeated
+real points and $k$ the number of nonreal conjugate pairs, then
+\[
+ n_+(Q)\le b:=r+k,\qquad N(T)\ge n+2b.
+\]
+Each remaining real point has multiplicity at least two; each
+nonreal pair contributes at least two zeros and at most one
+positive rank direction. No location-based deletion has occurred.
+
+\begin{lemma}[Finite spectral counting]\label{lem:counting}
+If $A=P+Q$, $P$ is the sum of $n$ unit features with Gram $U$,
+$n_+(Q)\le b$, $\tr A=N$ and $N\ge n+2b$, then
+\begin{equation}\label{eq:counting}
+ \tr A^2\ge2(N-n)+\tr\phi_2(U)
+           =2N-n+J(U).
+\end{equation}
+\end{lemma}
+\begin{proof}
+Enlarge the finite ambient space by zero directions if necessary.
+If $\lambda_i(P)=p_i$ are its $n$ Gram eigenvalues, including
+zeros, minmax gives $\lambda_{b+i}(A)\le p_i$.
+For $t\le p$, $p\ge0$,
+$4t-t^2\le4p-\phi_2(p)$; also $4t-t^2\le4$ for all real $t$.
+After the first $b$ eigenvalues use the first inequality; any
+remaining eigenvalues are nonpositive and contribute at most zero.
+Since $\sum p_i=n$, this proves
+$4N-\tr A^2\le4b+4n-\tr\phi_2(U)$.
+Now $4b\le2(N-n)$ gives \eqref{eq:counting}.
+Zeros in the $n$-dimensional Gram spectrum are included once;
+the added ambient zero directions contribute nothing.
+\end{proof}
+
+\subsection{Energy and completion of the proof}
+
+Define $(\mathcal Th)(u)=h(u)+\int_I|u-v|h(v)\,dv$.
+For $f_0=\cos(\sqrt2u)/Z_0$, $(\mathcal Tf_0)''=0$ and evenness
+makes $\mathcal Tf_0$ constant. Therefore a zero-mass perturbation
+has zero cross energy with $f_0$. Orthogonality of the integer
+cosines, and
+$\mathcal T\cos(2\pi ju)=(1-1/(2\pi^2j^2))\cos(2\pi ju)
++\text{constant}$, give
+\begin{equation}\label{eq:amenergy}
+ C(f)=\frac12+\beta\cot\beta+
+ \frac{\displaystyle\sum_{j=1}^{12}c_j^2
+           (1/2-1/(4\pi^2j^2))}{2\sin^2\beta}.
+\end{equation}
+The exact rational computation in Appendix~\ref{app:certificate}
+establishes
+\begin{equation}\label{eq:gainconstant}
+ 2-C(f)>\frac{67216841}{10^8}.
+\end{equation}
+In particular the energy cost of the perturbation is paid;
+the unperturbed energy constant is not substituted.
+
+\begin{proof}[Proof of Theorem~\ref{thm:main}]
+The simple real positions lie in $(0,X_T]$, with
+$X_T=T\log T/(2\pi)$ and $X_T/N(T)\to1$ by
+Riemann--von Mangoldt. Apply Proposition~\ref{prop:lossless}
+to their Gram and then Lemma~\ref{lem:counting}:
+\[
+ (1-c+32d_\varepsilon)n
+ \ge2N(T)-\tr A_T^2-BX_T-8c.
+\]
+Fix sufficiently small $\varepsilon$, let $T\to\infty$ using
+\eqref{eq:operator}, and only then let $\varepsilon\to0$.
+The $L^1\cap L^2$ convergence implies
+$C(f_\varepsilon)\to C(f)$ in \eqref{eq:energy}.
+Consequently
+\[
+ \liminf_T\frac{n}{N(T)}
+ \ge\frac{2-C(f)-B}{1-c}
+ >\frac{67216841-404350}{10^8-805103}
+ =\frac{66812491}{99194897}.
+\]
+The weak inequality stated in the theorem is therefore valid.
+The boundary charge $8c$ disappears only after division by $N(T)$.
+\end{proof}
+
+\section{Verification scope and further improvement}\label{sec:trust}
+
+Input~\ref{in:pc8} is pinned to the public
+\texttt{dani-bound-2026} source \cite{PC8} at commit
+\[
+\texttt{d272437e7ebeb17b87c8c3d7cece592aa23785ab}.
+\]
+Its raw \texttt{Solution.lean} is 1,675,641 bytes with SHA-256
+\[
+\texttt{\footnotesize 012c6ac5f9282158a686500dc0c967bf0a9b00e1a6192734d8f237bb23dd2d5f}.
+\]
+The repository admission combines a continuous interval-soundness
+audit with all 240 exact integer compiled evaluations, seven complete
+finite structural checks, and Lean kernel-checked generic structural
+and minorant bridges. It includes the value and derivative tables,
+point lists, convexity chains, noncompact gap coverage and all 32
+root trees. The evidence is recorded in repository note~483
+and its linked audits \cite{Repo}.
+The compiled evaluations are not 240 kernel-reduced proofs, and
+the full upstream zeta formalization was not rebuilt.
+The present result has that explicit finite-computation trust scope.
+
+The new majorant and energy checker uses only Python's standard-library
+arbitrary-precision integers and rational arithmetic, with assertions
+enabled. It does not run the much larger native search supporting
+the numerical headline in \cite{Knaus}. In particular that search's
+\texttt{native\_decide} computation axiom is not an input to this paper.
+Neither this checker nor the earlier symbolic bridges constitute
+a complete Lean verification of Theorem~\ref{thm:main}.
+The mathematical transfer, finite computation and formalized
+sublemmas are separate evidence.
+
+The new finite proof is recorded by
+{\small\path{scripts/am_nine_point_epigraph_certificate.py}} and
+{\small\path{output/am-nine-point-epigraph-certificate.json}}.
+The latter includes all 70 captured cells with their 26 atom records,
+16 decoded Farkas integers, and all 289 sparse rational duals.
+The verifier reconstructs the original minorant guard before consuming
+the new cuts. Its \texttt{--replay} mode rebuilds the isolated capture
+from the fixed raw source and the two admitted generic bridges,
+checks all 41 old outer/root results, and compares every captured record.
+Its \texttt{--check} mode consumes saved records only. Both modes were
+actually run with assertions enabled; optimized Python is refused.
+The full earlier value and derivative admission is reused, rather
+than falsely described as repeated by the new 41 evaluations.
+The new certificate and analytic transfer were independently reviewed
+inside the project. Internal AI-assisted review is distinct from
+external peer review or complete kernel formalization.
+
+Further improvement requires a stronger continuous local reward,
+a better window, or an actually paid additional spectral gain.
+The fixed-window method ceiling is not a bound on the true zero
+proportion. The present result does not improve the project's
+separate zero-free-region bounds or pay its remaining original
+four-prime arithmetic covariance.
+
+\appendix
+\section{Small exact rational certificate}\label{app:certificate}
+
+The accompanying standard-library program is
+{\small\path{scripts/am_lossless_majorant_certificate.py}}, with report
+{\small\path{output/am-lossless-majorant-certificate.json}}.
+From the repository root run
+\[
+ \texttt{python -B scripts/am\_lossless\_majorant\_certificate.py --check}.
+\]
+The checker refuses optimized Python execution.
+The following specifies the full continuous bridge independently
+of floating-point output.
+
+For a nonnegative rational interval $q\subset[0,10)$, it encloses
+$\cos\sqrt q$ and $\sin\sqrt q/\sqrt q$ by interval evaluation of
+\[
+ \sum_{k=0}^{12}\frac{(-1)^kq^k}{(2k)!},
+ \qquad
+ \sum_{k=0}^{12}\frac{(-1)^kq^k}{(2k+1)!},
+\]
+with symmetric remainder bounds
+$q_{\max}^{13}/26!$ and $q_{\max}^{13}/27!$, respectively.
+The alternating tails decrease from the first omitted term.
+For the integer cosine modes the rational phase $2ju$ is
+reduced modulo two to $[-1,1]$ before multiplication by $\pi$.
+No division by a small trigonometric argument is required.
+The normalization $Z_0=\sin\beta/\beta$ has the exact argument
+squared $q=1/2$.
+
+Machin's identity
+$\pi=16\arctan(1/5)-4\arctan(1/239)$, with the first 24 terms
+of each alternating arctangent series and its next-term remainder,
+certifies
+\[
+ 3141592653/10^9<\pi<3141592654/10^9.
+\]
+These enclosures, at all 129 nodes $u=k/256$, certify the strict
+lower margin $g(u)-f(u)>9/100$.
+On all of $I$, $|\sinc'|\le\pi/2$ follows from its integral
+representation. Thus
+\[
+ |(g-f)'|\le4\gamma\pi\theta+
+       \frac{\sqrt2+2\pi\sum_jj|c_j|}{Z_0}
+ <4\gamma\frac{22}{7}\theta+
+       \frac{3/2+(44/7)\sum_jj|c_j|}{9/10}<16.
+\]
+This proves the global margin $47/800$ stated above.
+
+For \eqref{eq:gainconstant}, use the same Taylor intervals
+to bound $\cos\beta/Z_0$ from above, $Z_0^2=2\sin^2\beta$
+from below, and $\pi$ from above in the positive correction
+in \eqref{eq:amenergy}. All resulting comparisons are exact rational
+inequalities. A shorter independent certificate uses
+\[
+\begin{aligned}
+ u&=\frac{3329448031}{4379443200}>\cos\beta,&
+ z&=\frac{153778383027779}{167382319104000}<Z_0,\\
+ d&=\frac{180493}{213840}<2\sin^2\beta,&
+ p&=\frac{5277328977275528}{1679825970703125}>\pi.
+\end{aligned}
+\]
+These arise, respectively, from cosine terms through index 6,
+sinc terms through index 7, cosine at $\sqrt2$ through index 6,
+and Machin arctangent upper/lower sums through indices 4 and 1.
+Direct rational arithmetic gives
+\[
+ \frac32-\frac uz-
+ \frac{\sum_jc_j^2(1/2-1/(4p^2j^2))}{d}
+ >\frac{67216841}{10^8}.
+\]
+The positive margin is greater than $5.6\cdot10^{-10}$.
+The old checker also verifies the old span capacities, close-pair
+constants and majorant mass bound. The new rational ratio is checked
+by the accompanying nine-point verifier; the joint span budgets follow
+directly from \eqref{eq:capacity} and the definition of $a'$.
+These small checks do not substitute for
+the full seven-dimensional certificate in Input~\ref{in:pc8}.
+
+\begin{thebibliography}{9}
+\bibitem{BGST}
+S. A. C. Baluyot, D. A. Goldston, A. I. Suriajaya and
+C. L. Turnage-Butterbaugh,
+\emph{An unconditional Montgomery theorem for pair correlation of
+zeros of the Riemann zeta function},
+Acta Arith. 214 (2024), 357--376;
+\href{https://arxiv.org/abs/2306.04799}{arXiv:2306.04799}.
+
+\bibitem{BGSTcorr}
+S. A. C. Baluyot, D. A. Goldston, A. I. Suriajaya and
+C. L. Turnage-Butterbaugh,
+\emph{Pair correlation of zeros of the Riemann zeta function I:
+proportions of simple zeros and critical zeros},
+\href{https://arxiv.org/abs/2501.14545v3}{arXiv:2501.14545v3},
+Section~3 and its correction of the earlier Theorem~1.
+
+\bibitem{Lamzouri}
+Y. Lamzouri,
+\emph{A new proof that more than $2/3$ of the zeros of the Riemann
+zeta function are simple and on the critical line},
+\href{https://arxiv.org/abs/2609.02882v1}{arXiv:2609.02882v1},
+Section~3, fixed-smoothing removal of the correlation weight.
+
+\bibitem{PC8}
+\emph{AM eight-point PC8CL certificate}, public
+\texttt{dani-bound-2026} submission, fixed commit
+\texttt{d272437e7ebeb17b87c8c3d7cece592aa23785ab},
+\href{https://github.com/josusanmartin/riemann/tree/d272437e7ebeb17b87c8c3d7cece592aa23785ab/submissions/dani-bound-2026/proof}{public proof source}.
+The cosine-perturbed window and local weights are prior inputs.
+
+\bibitem{Knaus}
+K. M. Knausg{\aa}rd,
+\emph{More than 83.9\% of the zeros of the Riemann zeta function
+are distinct and more than 67.35\% are simple and on the critical line},
+\href{https://arxiv.org/abs/2610.08965v1}{arXiv:2610.08965v1},
+October 6, 2026, especially Section~5.
+
+\bibitem{Lossless}
+RH--Weil research project,
+\emph{Lossless Assembly of an Eight-Point Certificate for Simple
+Critical Zeros of the Riemann Zeta Function}, October 8, 2026,
+\href{https://github.com/lixiang90/RH-Weil/blob/0f7e6c21769b7a848fc9ce4cbf498eb91184874d/papers/lossless-eight-point-simple-critical-paper.tex}{fixed manuscript and proof}.
+
+\bibitem{Repo}
+RH--Weil research project,
+\href{https://github.com/lixiang90/RH-Weil}{public repository},
+note~483, the PC8 finite replay and independent continuous audits;
+notes~498--501 and the joint nine-point certificate.
+\end{thebibliography}
+\end{document}

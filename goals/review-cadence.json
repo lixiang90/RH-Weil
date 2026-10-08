@@ -5,10 +5,12 @@
   "target_rounds": 6,
   "maximum_rounds": 8,
   "counting_unit": "completed research continuation iteration, not tool calls or files",
-  "rounds_since_review": 3,
-  "last_review": "goals/reviews/2026-10-08-original-route-review-cycle-2.md",
-  "last_review_baseline_commit": "5f85dada6754d9493d3e7b9d34595b731fe940cb",
-  "last_completed_round": "notes/500-am-nine-point-low-slack-cover-and-adaptive-spectrum.md",
+  "rounds_since_review": 0,
+  "last_review": "goals/reviews/2026-10-08-original-route-review-cycle-3.md",
+  "last_review_baseline_commit": "37eb770afac0317b9329435fe0eabb50bc0f0874",
+  "last_review_completed_round_count": 4,
+  "last_review_trigger": "actual proportion gain; early review at round four",
+  "last_completed_round": "notes/501-am-nine-point-joint-minorant-simple-critical-proportion.md",
   "last_completed_round_date": "2026-10-08",
-  "last_completed_round_baseline_commit": "6666ad6e6afebe35544eb979f7a883e5337880fa"
+  "last_completed_round_baseline_commit": "37eb770afac0317b9329435fe0eabb50bc0f0874"
 }

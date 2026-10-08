@@ -1,0 +1,560 @@
+{
+  "schema": "rh-weil-nine-point-joint-paper-and-research-v1",
+  "date": "2026-10-08",
+  "baseline_commit": "37eb770afac0317b9329435fe0eabb50bc0f0874",
+  "result": {
+    "simple_critical_proportion": "66812491/99194897",
+    "decimal": "0.6735476624367078076607...",
+    "gain_over_498_percentage_points": "0.00006790137434418269...",
+    "local_reward": "805103/100000000",
+    "delta": "1/1000000",
+    "theta": "4/5",
+    "total_pressure": "404350/100000000",
+    "captured_cells": 70,
+    "reflected_labels": 140,
+    "distinct_geometric_cells": 132,
+    "ordered_pairs": 19600,
+    "compatible_pairs": 289,
+    "exact_duals_passed": 289,
+    "minimum_lower": "65955289561887369906031994339/8192000000000000000000000000000",
+    "strict_margin": "1251801887369906031994339/8192000000000000000000000000000",
+    "span_eight_positive_cut_used": false,
+    "zero_free_boundary_changed": false,
+    "whole_fourth_exponent_or_centered_constant_changed": false
+  },
+  "trust_scope": [
+    "Reuses note483 continuous PC8 admission and compiled-integer/table trust scope.",
+    "New exact Fraction duals consume saved captured atoms; numeric LP proposes witnesses only.",
+    "Continuous complete low-set coverage, enabled tangent semantics, all-zero analytic transfer and fixed smoothing limits are mathematically audited separately.",
+    "Original 240 compiled evaluations are reused, not rerun by the new 41 checks.",
+    "No RH, ordinary zeta 7/8 strip or higher correlation conjecture is used for the proportion.",
+    "No complete Lean kernel proof, upstream formalization rebuild, external peer review or global priority certification is claimed."
+  ],
+  "upstream_raw": {
+    "path": "tmp/pc8-am-admission/Solution.lean",
+    "commit": "d272437e7ebeb17b87c8c3d7cece592aa23785ab",
+    "raw_bytes": 1675641,
+    "raw_sha256": "012c6ac5f9282158a686500dc0c967bf0a9b00e1a6192734d8f237bb23dd2d5f",
+    "admitted_numeric_core_sha256": "f21a0d9f141a7807a6524f426b64a0c0b7b2e81e12581d3ec528f467e9bd1be3"
+  },
+  "actual_runs": [
+    {
+      "command": "python -B -X utf8 scripts/am_nine_point_epigraph_certificate.py --check",
+      "executor": "root and independent reviewers",
+      "exit_code": 0,
+      "scope": "all289 exact rational duals, original guards and reported ratio"
+    },
+    {
+      "command": "python -B -X utf8 scripts/am_nine_point_epigraph_certificate.py --replay",
+      "executor": "root",
+      "exec_session": 85294,
+      "session_closed": true,
+      "exit_code": 0,
+      "lean_version": "4.34.1",
+      "old_checks_all_true": 41,
+      "captured_records_matched": 70,
+      "scope": "isolated fixed-source capture plus exact289 verification; not the old240 table replay"
+    },
+    {
+      "command": "python -B -O -X utf8 scripts/am_nine_point_epigraph_certificate.py --check",
+      "executor": "root and High",
+      "exit_code": 1,
+      "expected": "refuses assertions-disabled execution in imported PC8 replay"
+    },
+    {
+      "command": "python -B -X utf8 scripts/am_lossless_majorant_certificate.py --check",
+      "executor": "root and paper reviewers",
+      "exit_code": 0
+    },
+    {
+      "command": "python -B -X utf8 scripts/test_check_groups.py",
+      "executor": "root",
+      "exit_code": 0,
+      "core": 89,
+      "all": 91,
+      "scope": "registry coverage and mocked dispatch only; whole suite not rerun"
+    },
+    {
+      "command": "python -B -X utf8 scripts/test_repo_layout.py",
+      "executor": "root",
+      "exit_code": 0,
+      "tests_passed": 12
+    },
+    {
+      "command": "python -B -X utf8 scripts/check_repo_layout.py",
+      "executor": "root",
+      "exit_code": 0
+    },
+    {
+      "command": "python -B -X utf8 tmp/pdfs/am-nine-kernel-root/kernel_boxes.py",
+      "executor": "root isolated copy",
+      "exit_code": 0,
+      "scope": "all211 Arb finite diagnostics byte-identical to author report; no uniform result from this weaker method"
+    },
+    {
+      "command": "git diff --check",
+      "executor": "root",
+      "exit_code": 0
+    }
+  ],
+  "paper_build": {
+    "source": "papers/nine-point-joint-minorant-simple-critical-paper.tex",
+    "pdf": "output/pdf/nine-point-joint-minorant-simple-critical-paper.pdf",
+    "compiler": "pdfTeX MiKTeX23.5; LaTeX2023-06-01",
+    "compiler_path": "C:/Users/A/AppData/Local/Programs/MiKTeX/miktex/bin/x64/pdflatex.exe",
+    "command": "pdflatex -interaction=nonstopmode -halt-on-error -output-directory=output/pdf papers/nine-point-joint-minorant-simple-critical-paper.tex",
+    "final_two_passes_exit_code": 0,
+    "final_log_no_undefined_overfull_underfull_or_latex_warnings": true,
+    "pages": 10,
+    "builtin_compiler_attempt": "unavailable on this host: helper_unknown_error applying deny-read ACLs; terminal compiler succeeded",
+    "render": "Poppler pdftoppm -png -r125",
+    "all_pages_visually_inspected": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "final_abstract_decimal_revision": "page1 re-rendered and visually inspected; pages2-10 pixel-identical to the inspected images",
+    "pdf_text_result_and_fixed_commit_present": true
+  },
+  "independent_reviews": {
+    "complete_epigraph_and_capture": "reviews/2026-10-08/am-nine-point-epigraph-review-high-product.md",
+    "complete_paper": "reviews/2026-10-08/nine-point-joint-minorant-paper-review-checkpoint.md",
+    "complete_paper_and_original_arithmetic": "reviews/2026-10-08/nine-point-paper-and-product-fiber-review-perron.md",
+    "intermediate_kernel": "reviews/2026-10-08/am-overlap-kernel-review-root.md",
+    "summary_and_cycle_review": "reviews/2026-10-08/am-nine-point-note-and-cycle-three-review-high-product.md"
+  },
+  "original_arithmetic_status": "Actual shared-prime-factor short-window Gram contribution paid at X^(1/2)log^C X; aggregated coprime-product signed covariance remains unproved. Preserves all real products, slow phases, nu twists and edge periods.",
+  "cadence": {
+    "completed_iterations_since_previous_review": 4,
+    "first_iteration_contains_both_notes": [
+      497,
+      498
+    ],
+    "later_iterations": [
+      499,
+      500,
+      501
+    ],
+    "early_review_reason": "actual proportion milestone",
+    "rounds_since_review_after_completion": 0,
+    "goal_status": "active"
+  },
+  "input_pins": [
+    {
+      "path": "scripts/am_nine_point_low_slack_cover.py",
+      "identity": "UTF-8 canonical LF; EOF retained",
+      "bytes": 10565,
+      "lines": 219,
+      "sha256": "0c203ae8d05796f73e5ca5018935067342a65f6a9eac3a800b5d36893cfde629"
+    },
+    {
+      "path": "output/am-nine-point-low-slack-cover.json",
+      "identity": "UTF-8 canonical LF; EOF retained",
+      "bytes": 131270,
+      "lines": 6752,
+      "sha256": "628fdf422495f15f3b5f5ce7e035f8f439d43c0928883509f39034c87b0c64ff"
+    },
+    {
+      "path": "scripts/am_pc8_finite_replay.py",
+      "identity": "UTF-8 canonical LF; EOF retained",
+      "bytes": 13273,
+      "lines": 280,
+      "sha256": "2db626d7c3fbcc1f6ced7580d0fe847fff743b1039aa58797392e9e05845600f"
+    },
+    {
+      "path": "formal/certificates/AMPC8StructuralBridge.lean",
+      "identity": "UTF-8 canonical LF; EOF retained",
+      "bytes": 5906,
+      "lines": 165,
+      "sha256": "98771eceea94a14f3a1be38c1e9c7ab48fffbb0d1c77bbfde636d21358b9ba9f"
+    },
+    {
+      "path": "formal/certificates/AMPC8MinorantBridge.lean",
+      "identity": "UTF-8 canonical LF; EOF retained",
+      "bytes": 5512,
+      "lines": 101,
+      "sha256": "f3947ca27750760322481a87ed5da4a5a8702a92bdf4570a6a4727f957fee114"
+    },
+    {
+      "path": "scripts/am_lossless_majorant_certificate.py",
+      "identity": "UTF-8 canonical LF; EOF retained",
+      "bytes": 6671,
+      "lines": 154,
+      "sha256": "11da56ae04a60fd436d273f39463e6aa85b0f023ebf62a0389c5f9af0b2aabf4"
+    },
+    {
+      "path": "output/am-lossless-majorant-certificate.json",
+      "identity": "UTF-8 canonical LF; EOF retained",
+      "bytes": 1396,
+      "lines": 42,
+      "sha256": "61023fac589f2a8c8b3f67c8c296c38a2a244663129eb8bc90de6396c60fb915"
+    },
+    {
+      "path": "papers/lossless-eight-point-simple-critical-paper.tex",
+      "identity": "UTF-8 canonical LF; EOF retained",
+      "bytes": 24829,
+      "lines": 635,
+      "sha256": "51c3931e3ce3ba54cd4a8441254ea0c8767009aee57e427f7f3492108b1a204c"
+    },
+    {
+      "path": "notes/483-admission-of-known-am-eight-point-proportion.md",
+      "identity": "UTF-8 canonical LF; EOF retained",
+      "bytes": 7342,
+      "lines": 166,
+      "sha256": "3ab82cdb257a8555b206f90e59c18fb73f68fe9be0a2de5117bb573056efdb7e"
+    },
+    {
+      "path": "notes/499-am-bounded-storage-periodic-ceiling-and-negative-spectrum.md",
+      "identity": "UTF-8 canonical LF; EOF retained",
+      "bytes": 8335,
+      "lines": 145,
+      "sha256": "7378ec659f01dc188ab6322c0578276f64827838d740cd0279bc5eec3570ad37"
+    },
+    {
+      "path": "notes/500-am-nine-point-low-slack-cover-and-adaptive-spectrum.md",
+      "identity": "UTF-8 canonical LF; EOF retained",
+      "bytes": 9777,
+      "lines": 157,
+      "sha256": "fd5691b32f44edd6d85122d12a057f0c4c5ff44e3f0f28d4bdb44a9c358cfc4d"
+    },
+    {
+      "path": "reviews/2026-10-08/am-nine-point-adaptive-round-manifest.json",
+      "identity": "UTF-8 canonical LF; EOF retained",
+      "bytes": 8418,
+      "lines": 211,
+      "sha256": "0b903f03331a3ddc1f971555a4e7b23b4109c5dc769d0cc7b7a99471273cc4fb"
+    }
+  ],
+  "published_pins": [
+    {
+      "path": "scripts/am_nine_point_epigraph_certificate.py",
+      "identity": "UTF-8 canonical LF; EOF retained",
+      "bytes": 11009,
+      "lines": 236,
+      "sha256": "af5f2e1974bed92ad515f06ff6047f3e5595ac60c6dc721abd7bfb5cfd930c32"
+    },
+    {
+      "path": "output/am-nine-point-epigraph-certificate.json",
+      "identity": "UTF-8 canonical LF; EOF retained",
+      "bytes": 1112534,
+      "lines": 68844,
+      "sha256": "0733022044f96b37c6be3d5d5c1e9fa6c269545142d7d535e643c835a7cf38f6"
+    },
+    {
+      "path": "papers/nine-point-joint-minorant-simple-critical-paper.tex",
+      "identity": "UTF-8 canonical LF; EOF retained",
+      "bytes": 33967,
+      "lines": 828,
+      "sha256": "5a7499ddcdd290a25a39f568965c00bcc833975688553f2321ebf02643e538a6"
+    },
+    {
+      "path": "output/pdf/nine-point-joint-minorant-simple-critical-paper.pdf",
+      "identity": "raw bytes",
+      "bytes": 426540,
+      "lines": null,
+      "sha256": "3e9b282623e9d6d2675ac8cea0f59024d994a2b57c9f086a922e56a5bff6d133"
+    },
+    {
+      "path": "notes/501-am-nine-point-joint-minorant-simple-critical-proportion.md",
+      "identity": "UTF-8 canonical LF; EOF retained",
+      "bytes": 8473,
+      "lines": 146,
+      "sha256": "84781b789b2fe8a20189047c98e0b5da95aeb7a2de79015ff7eb497a9480613b"
+    },
+    {
+      "path": "goals/reviews/2026-10-08-original-route-review-cycle-3.md",
+      "identity": "UTF-8 canonical LF; EOF retained",
+      "bytes": 6425,
+      "lines": 91,
+      "sha256": "3464bf61931dc1838730b57733f179aba7fcd2360c6cab24b4af63b43dd85707"
+    },
+    {
+      "path": "reviews/2026-10-08/am-affine-leaf-minorant-research-perron.md",
+      "identity": "UTF-8 canonical LF; EOF retained",
+      "bytes": 10827,
+      "lines": 167,
+      "sha256": "f9616af18e61015682a3c41cebab630af72d9f107da1e9cb7424265875ad5a14"
+    },
+    {
+      "path": "reviews/2026-10-08/original-product-fiber-short-window-research-checkpoint.md",
+      "identity": "UTF-8 canonical LF; EOF retained",
+      "bytes": 10878,
+      "lines": 174,
+      "sha256": "06f4d873d5a7b181c21dfd0284a82a3657a80a159d424783deac70da8fecf5ed"
+    },
+    {
+      "path": "reviews/2026-10-08/am-nine-point-overlap-kernel-research-high-product.md",
+      "identity": "UTF-8 canonical LF; EOF retained",
+      "bytes": 6427,
+      "lines": 115,
+      "sha256": "b900e403f5c6e26a2a548cc90aa067a226aa32ccd89e8fe98e86bc94d21b0ad8"
+    },
+    {
+      "path": "reviews/2026-10-08/am-nine-point-epigraph-review-high-product.md",
+      "identity": "UTF-8 canonical LF; EOF retained",
+      "bytes": 9012,
+      "lines": 130,
+      "sha256": "3bfaa1f7a9518d59efc2d0b93999daaac8c0725bed52f61702e841c28781617d"
+    },
+    {
+      "path": "reviews/2026-10-08/nine-point-joint-minorant-paper-review-checkpoint.md",
+      "identity": "UTF-8 canonical LF; EOF retained",
+      "bytes": 7833,
+      "lines": 106,
+      "sha256": "1f366f5e6263f281a8febcaf0249035f269c335854b4bcbf469aaf9ab25f6406"
+    },
+    {
+      "path": "reviews/2026-10-08/nine-point-paper-and-product-fiber-review-perron.md",
+      "identity": "UTF-8 canonical LF; EOF retained",
+      "bytes": 9735,
+      "lines": 143,
+      "sha256": "b0114f4e48807b64a97df7ec20a23dd7ce1f3e51d18277d78c7c31646ac189b2"
+    },
+    {
+      "path": "reviews/2026-10-08/am-overlap-kernel-review-root.md",
+      "identity": "UTF-8 canonical LF; EOF retained",
+      "bytes": 3160,
+      "lines": 51,
+      "sha256": "2250397cd302b635eae0fcf33cfcebdbe8f7a6a1f45b99d7f3da3dbf53f0139b"
+    },
+    {
+      "path": "reviews/2026-10-08/am-nine-point-note-and-cycle-three-review-high-product.md",
+      "identity": "UTF-8 canonical LF; EOF retained",
+      "bytes": 6191,
+      "lines": 102,
+      "sha256": "53b26a16972fb36274700e156955b53524c55ad61310f75b1d2e6d7bc0ce1518"
+    },
+    {
+      "path": "README.md",
+      "identity": "UTF-8 canonical LF; EOF retained",
+      "bytes": 8443,
+      "lines": 80,
+      "sha256": "d66880512e51ffdbc03e8b1ee319ab4bef07c2d641b22576106d3f0e28baaf42"
+    },
+    {
+      "path": "RESEARCH_BRANCHES.md",
+      "identity": "UTF-8 canonical LF; EOF retained",
+      "bytes": 213753,
+      "lines": 1297,
+      "sha256": "4f00a98b8a51cf157775c0b71c7245bdcf71c8ab81840b47dcf1093605e8c60f"
+    },
+    {
+      "path": "papers/README.md",
+      "identity": "UTF-8 canonical LF; EOF retained",
+      "bytes": 8371,
+      "lines": 93,
+      "sha256": "45a569ed90760eb0a21157b7cda0db42bb2f8c53687fe33763bd32b7d39a7dfc"
+    },
+    {
+      "path": "goals/PROGRESS.md",
+      "identity": "UTF-8 canonical LF; EOF retained",
+      "bytes": 123816,
+      "lines": 1584,
+      "sha256": "65555a8f05516002be6aa3a1a872abef09c7291f129dc1b3e2157896d5cb2976"
+    },
+    {
+      "path": "goals/review-cadence.json",
+      "identity": "UTF-8 canonical LF; EOF retained",
+      "bytes": 784,
+      "lines": 16,
+      "sha256": "e098b71713a069cc53e342714ac81f87d4c09ee2b38020386848d3c3fea0ae43"
+    },
+    {
+      "path": "scripts/run_checks.py",
+      "identity": "UTF-8 canonical LF; EOF retained",
+      "bytes": 14270,
+      "lines": 421,
+      "sha256": "4a9620cb3ea2b783d072d663b884efc8dd410af742c5fb78d6ab6dc2c63f3502"
+    },
+    {
+      "path": "scripts/check_repo_layout.py",
+      "identity": "UTF-8 canonical LF; EOF retained",
+      "bytes": 3094,
+      "lines": 79,
+      "sha256": "7015f7a0fe5eff2961e413fda664273f868a343c1e7cfbb08be6ff57f3955f75"
+    }
+  ],
+  "transient_diagnostics": {
+    "ignored_and_not_published": true,
+    "scope": "reproducible diagnostic identities, not additional mathematical admission",
+    "pins": [
+      {
+        "path": "tmp/pdfs/am-nine-point-epigraph/AffineCapture.lean",
+        "identity": "UTF-8 canonical LF; EOF retained",
+        "bytes": 1042597,
+        "lines": 11675,
+        "sha256": "266494dee7d848c0b44b9b5ebf30a129c328eeaf93b0d2dcea1ace2fe609a190"
+      },
+      {
+        "path": "tmp/pdfs/am-nine-point-epigraph/capture-log.txt",
+        "identity": "UTF-8 canonical LF; EOF retained",
+        "bytes": 183580,
+        "lines": 351,
+        "sha256": "9c0644717933c9afac9e75d90124bfbfebe8869a91f656b6b6480f57c4366c7e"
+      },
+      {
+        "path": "tmp/pdfs/am-nine-affine-root/capture.py",
+        "identity": "UTF-8 canonical LF; EOF retained",
+        "bytes": 1624,
+        "lines": 35,
+        "sha256": "ed7375333042073c028b7f82a86dccb592b8159a17ccf1bd5b363029939ff050"
+      },
+      {
+        "path": "tmp/pdfs/am-nine-affine-root/joint.py",
+        "identity": "UTF-8 canonical LF; EOF retained",
+        "bytes": 6770,
+        "lines": 139,
+        "sha256": "ee56635fccdb5827309526eabd5724eb91e9cee022d378b5dc9183b3eb1e07fb"
+      },
+      {
+        "path": "tmp/pdfs/am-nine-affine-root/joint.json",
+        "identity": "UTF-8 canonical LF; EOF retained",
+        "bytes": 712678,
+        "lines": 43434,
+        "sha256": "11ed7fd4d711c2ca83301de2ede1a57b0157135040fa9ddf1f0eeaf5e52c3401"
+      },
+      {
+        "path": "tmp/pdfs/am-nine-affine-root/epigraph.py",
+        "identity": "UTF-8 canonical LF; EOF retained",
+        "bytes": 5675,
+        "lines": 109,
+        "sha256": "438a4b1b137762bc25461973d108321ca9dba2f7428437305963719726e80b67"
+      },
+      {
+        "path": "tmp/pdfs/am-nine-affine-root/epigraph.json",
+        "identity": "UTF-8 canonical LF; EOF retained",
+        "bytes": 1482651,
+        "lines": 94781,
+        "sha256": "b910f0465989d07240a4216568091dac744a6fbb6fea6cebef4a678b7009afc9"
+      },
+      {
+        "path": "tmp/pdfs/am-nine-affine-high/independent_epigraph.py",
+        "identity": "UTF-8 canonical LF; EOF retained",
+        "bytes": 11078,
+        "lines": 250,
+        "sha256": "3553550519f1ca74043d3fe931d337fbf4107e0090a6d71b1c229fe980fd9324"
+      },
+      {
+        "path": "tmp/pdfs/am-nine-affine-high/independent-epigraph-summary.json",
+        "identity": "UTF-8 canonical LF; EOF retained",
+        "bytes": 641,
+        "lines": 17,
+        "sha256": "22955183fc2a805c578313d89083ec4bac421c9a321b36f6a28c02ef023c9306"
+      },
+      {
+        "path": "tmp/pdfs/am-nine-affine-high/kernel_boxes.py",
+        "identity": "UTF-8 canonical LF; EOF retained",
+        "bytes": 7618,
+        "lines": 203,
+        "sha256": "07855cd0a3ccdd9e3b999db01723bb166970ad5113fc6cde1b4a36fc582afc8e"
+      },
+      {
+        "path": "tmp/pdfs/am-nine-affine-high/kernel-boxes.json",
+        "identity": "UTF-8 canonical LF; EOF retained",
+        "bytes": 177477,
+        "lines": 5802,
+        "sha256": "d37cff23520b54a4f3d89833ccff1b08660d95ebf0e8bf9efa18016061888722"
+      },
+      {
+        "path": "tmp/pdfs/am-nine-kernel-root/kernel_boxes.py",
+        "identity": "UTF-8 canonical LF; EOF retained",
+        "bytes": 7618,
+        "lines": 203,
+        "sha256": "07855cd0a3ccdd9e3b999db01723bb166970ad5113fc6cde1b4a36fc582afc8e"
+      },
+      {
+        "path": "tmp/pdfs/am-nine-kernel-root/kernel-boxes.json",
+        "identity": "UTF-8 canonical LF; EOF retained",
+        "bytes": 177477,
+        "lines": 5802,
+        "sha256": "d37cff23520b54a4f3d89833ccff1b08660d95ebf0e8bf9efa18016061888722"
+      },
+      {
+        "path": "tmp/pdfs/am-nine-kernel-root/execution-log.txt",
+        "identity": "UTF-8 canonical LF; EOF retained",
+        "bytes": 13334,
+        "lines": 38,
+        "sha256": "a4a807caea6abf9bb674822f90512f976d32169c3ea923096f225888e8d8a396"
+      }
+    ]
+  },
+  "render_pins": [
+    {
+      "path": "tmp/pdfs/am-nine-point-epigraph/paper-page-01.png",
+      "identity": "raw bytes",
+      "bytes": 265248,
+      "lines": null,
+      "sha256": "1dc7c473155937546deceafb80c0126a1b41b616f560a05ef6d813d966fe6feb"
+    },
+    {
+      "path": "tmp/pdfs/am-nine-point-epigraph/paper-page-02.png",
+      "identity": "raw bytes",
+      "bytes": 229838,
+      "lines": null,
+      "sha256": "4a8bd92148edbe3b44468f1fbd8f74737686f005640f276724580e56df8ab13c"
+    },
+    {
+      "path": "tmp/pdfs/am-nine-point-epigraph/paper-page-03.png",
+      "identity": "raw bytes",
+      "bytes": 325100,
+      "lines": null,
+      "sha256": "53d1173ac5574bcb12a4377c886e430496eee028988b59158bf878239ee8a24f"
+    },
+    {
+      "path": "tmp/pdfs/am-nine-point-epigraph/paper-page-04.png",
+      "identity": "raw bytes",
+      "bytes": 315603,
+      "lines": null,
+      "sha256": "4a7ecff65e8300c131be62cb56e981b470ec13b4a92face6a4efb68a4f4e00a1"
+    },
+    {
+      "path": "tmp/pdfs/am-nine-point-epigraph/paper-page-05.png",
+      "identity": "raw bytes",
+      "bytes": 284560,
+      "lines": null,
+      "sha256": "944baede3136041269926a67b0c7792f7ee173194da435d8848094589aea3334"
+    },
+    {
+      "path": "tmp/pdfs/am-nine-point-epigraph/paper-page-06.png",
+      "identity": "raw bytes",
+      "bytes": 290575,
+      "lines": null,
+      "sha256": "84a42b3f2c4ae7c85c86e8d168d4737469bfee49d766cb5ab541d8e0b21c9ead"
+    },
+    {
+      "path": "tmp/pdfs/am-nine-point-epigraph/paper-page-07.png",
+      "identity": "raw bytes",
+      "bytes": 280099,
+      "lines": null,
+      "sha256": "dfc1b45be01fc13eedc820bb483a6db0b9056a567e00e9c1b29c2952e941791d"
+    },
+    {
+      "path": "tmp/pdfs/am-nine-point-epigraph/paper-page-08.png",
+      "identity": "raw bytes",
+      "bytes": 268174,
+      "lines": null,
+      "sha256": "7bcebb59e6c8a9d1952c8ab1c778afafba71cc9b50bee45a7990345c69480eac"
+    },
+    {
+      "path": "tmp/pdfs/am-nine-point-epigraph/paper-page-09.png",
+      "identity": "raw bytes",
+      "bytes": 352750,
+      "lines": null,
+      "sha256": "5b7cb0ae105a11d904b7307b4902b1f3ceefc3dc5be1e26a218a81ab8851e5db"
+    },
+    {
+      "path": "tmp/pdfs/am-nine-point-epigraph/paper-page-10.png",
+      "identity": "raw bytes",
+      "bytes": 295726,
+      "lines": null,
+      "sha256": "044aa3e46c15a355c16b07c5e406052e7706855531040cade7e95f805655f0c0"
+    }
+  ]
+}

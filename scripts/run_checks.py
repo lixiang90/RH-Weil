@@ -46,6 +46,10 @@ CHECKS = (
         "captured AM nine-point low-slack geometry and partial payment",
         [sys.executable, "am_nine_point_low_slack_cover.py", "--check"],
     ),
+    (
+        "joint AM nine-point exact epigraph duals",
+        [sys.executable, "am_nine_point_epigraph_certificate.py", "--check"],
+    ),
     ("quartic boundary and normalization certificate", [sys.executable, "quartic_boundary_certificate.py"]),
     ("elliptic degree and odd-polarization benchmark", [sys.executable, "elliptic_degree_benchmark.py"]),
     (
