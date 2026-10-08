@@ -21,6 +21,10 @@ CHECKS = (
         "double Perron finite costs and existing cubic-boundary enclosures",
         [sys.executable, "hybrid_double_perron_checkpoint.py", "--check"],
     ),
+    (
+        "padded Perron finite costs and existing cubic-boundary enclosures",
+        [sys.executable, "hybrid_padded_perron_checkpoint.py", "--check"],
+    ),
     ("post-67.25 literature constants", [sys.executable, "post_6725_constant_audit.py"]),
     ("quartic boundary and normalization certificate", [sys.executable, "quartic_boundary_certificate.py"]),
     ("elliptic degree and odd-polarization benchmark", [sys.executable, "elliptic_degree_benchmark.py"]),

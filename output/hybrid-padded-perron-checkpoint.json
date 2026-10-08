@@ -1,0 +1,215 @@
+{
+  "baseline_commit": "e51a51e2225c9216b23cc7b12bc97e8fa8cf2ea1",
+  "check_count": 36,
+  "checks": [
+    "frozen input: notes/486-original-padded-perron-fourth-mean-remainder.md",
+    "frozen input: reviews/2026-10-08/hybrid-original-extended-inner-zeta-fourth-perron-research-perron.md",
+    "frozen input: reviews/2026-10-08/hybrid-original-extended-inner-zeta-fourth-perron-review-peer.md",
+    "frozen input: notes/451-kappa-feedback-cubic-boundary-and-family-continuation.md",
+    "frozen input: notes/476-original-fourth-growth-five-sevenths-with-ivic-density.md",
+    "frozen input: notes/484-original-double-perron-conditional-remainder.md",
+    "nominal complete costs",
+    "nominal guards and a=2v",
+    "complete transfer 159/238",
+    "transfer margin 11/238",
+    "484 error saving",
+    "484 transfer saving",
+    "unconditional trivial-factor costs",
+    "unconditional parameter guards",
+    "unconditional 481 saving",
+    "finite branch example theta=1/2",
+    "finite branch example theta=3/4",
+    "finite branch example theta=5/6",
+    "finite branch example theta=7/8",
+    "finite branch example theta=19/20",
+    "branch junction",
+    "fixed 484 prime band",
+    "fixed 482 prime band",
+    "fixed band widths",
+    "fixed band guards",
+    "451 cubic signs",
+    "451 cubic strictly decreasing on root interval",
+    "existing boundary in both analytic domains",
+    "error monotonicity denominator positive",
+    "density derivative positive throughout interval",
+    "error formula in e",
+    "strict error decimal envelope",
+    "strict transfer decimal envelope",
+    "error strictly below inherited whole",
+    "stronger existing-boundary application",
+    "parameter guards on entire root interval"
+  ],
+  "existing_cubic_boundary": {
+    "a": {
+      "decimal_lower_informational": "0.235308395799492231045476299667986787030336694106815273101494",
+      "decimal_upper_informational": "0.235308395799493061596093305628313976253521052532953745580264",
+      "rational_lower": "200000000000000/849948423304119",
+      "rational_upper": "50000000000000/212487105826029"
+    },
+    "e": {
+      "decimal_lower_informational": "0.16683858898627",
+      "decimal_upper_informational": "0.16683858898628",
+      "rational_lower": "16683858898627/100000000000000",
+      "rational_upper": "4170964724657/25000000000000"
+    },
+    "error": {
+      "decimal_lower_informational": "0.529383208401013876807813388743372047492957894934092508839473",
+      "decimal_upper_informational": "0.529383208401015537909047400664026425939326611786369453797011",
+      "rational_lower": "112487105826029/212487105826029",
+      "rational_upper": "449948423304119/849948423304119"
+    },
+    "inherited_whole": {
+      "decimal_lower_informational": "0.714198002953023297700291104346857620685034717330189575643322",
+      "decimal_upper_informational": "0.714198002953028399259889972184676403749883750338584428793521",
+      "rational_lower": "14060082508640159894413908841/19686532936952175000000000000",
+      "rational_upper": "224961320138244808001162366161/314984526991235700000000000000"
+    },
+    "theta": {
+      "decimal_lower_informational": "0.874957019420096666666666666666666666666666666666666666666667",
+      "decimal_upper_informational": "0.874957019420099166666666666666666666666666666666666666666667",
+      "rational_lower": "262487105826029/300000000000000",
+      "rational_upper": "1049948423304119/1200000000000000"
+    },
+    "transfer": {
+      "decimal_lower_informational": "0.667994304315020942477171675445986227387015511731165308942360",
+      "decimal_upper_informational": "0.667994304315025183922179329304513909297244465700530685044394",
+      "rational_lower": "3725746611211635892090987519805822011022389/5577512543362349739441390884100000000000000",
+      "rational_upper": "238447783117547734067764844666096011737517159/356960802775192663200464946464400000000000000"
+    },
+    "v": {
+      "decimal_lower_informational": "0.117654197899746115522738149833993393515168347053407636550747",
+      "decimal_upper_informational": "0.117654197899746530798046652814156988126760526266476872790132",
+      "rational_lower": "100000000000000/849948423304119",
+      "rational_upper": "25000000000000/212487105826029"
+    },
+    "y": {
+      "decimal_lower_informational": "0.764691604200506938403906694371686023746478947467046254419736",
+      "decimal_upper_informational": "0.764691604200507768954523700332013212969663305893184726898506",
+      "rational_lower": "162487105826029/212487105826029",
+      "rational_upper": "649948423304119/849948423304119"
+    }
+  },
+  "finite_branch_examples_only": [
+    {
+      "a": "1/4",
+      "costs": [
+        "1/2",
+        "1/2",
+        "0",
+        "1/2",
+        "1/2",
+        "0"
+      ],
+      "maximum": "1/2",
+      "theta": "1/2",
+      "v": "1/8",
+      "y": "3/4"
+    },
+    {
+      "a": "1/4",
+      "costs": [
+        "1/2",
+        "1/2",
+        "3/8",
+        "1/2",
+        "1/2",
+        "0"
+      ],
+      "maximum": "1/2",
+      "theta": "3/4",
+      "v": "1/8",
+      "y": "3/4"
+    },
+    {
+      "a": "1/4",
+      "costs": [
+        "1/2",
+        "1/2",
+        "1/2",
+        "1/2",
+        "1/2",
+        "0"
+      ],
+      "maximum": "1/2",
+      "theta": "5/6",
+      "v": "1/8",
+      "y": "3/4"
+    },
+    {
+      "a": "4/17",
+      "costs": [
+        "9/17",
+        "8/17",
+        "9/17",
+        "9/17",
+        "9/17",
+        "0"
+      ],
+      "maximum": "9/17",
+      "theta": "7/8",
+      "v": "2/17",
+      "y": "13/17"
+    },
+    {
+      "a": "10/47",
+      "costs": [
+        "27/47",
+        "20/47",
+        "27/47",
+        "27/47",
+        "27/47",
+        "0"
+      ],
+      "maximum": "27/47",
+      "theta": "19/20",
+      "v": "5/47",
+      "y": "37/47"
+    }
+  ],
+  "input_canonical_lf_sha256": {
+    "notes/451-kappa-feedback-cubic-boundary-and-family-continuation.md": "17ce7fea8c881ebd4034657b7039e99897d4ff9532348993ba329c46e3c4d487",
+    "notes/476-original-fourth-growth-five-sevenths-with-ivic-density.md": "179829dd25f92ff187359f73455aafad9f957d714df13cf871db47a76e9408b6",
+    "notes/484-original-double-perron-conditional-remainder.md": "38c94314687ccddf1cda08b2d7611c0e1409927b0fb62fdfb0760b32256d1cad",
+    "notes/486-original-padded-perron-fourth-mean-remainder.md": "5e98058d6d47545aedb98b6e70f66f4e11a904b623351903e3846e01bbe7eaf7",
+    "reviews/2026-10-08/hybrid-original-extended-inner-zeta-fourth-perron-research-perron.md": "54d39f22b370be40a780fac6fe80968e24c014fc48d1156ab87248d5310a2549",
+    "reviews/2026-10-08/hybrid-original-extended-inner-zeta-fourth-perron-review-peer.md": "ac4ae783ce662b5584047b22e475fb5d20ea3381b26d5227e3827687bf05e1b2"
+  },
+  "nominal_7_8": {
+    "a": "4/17",
+    "costs": [
+      "9/17",
+      "8/17",
+      "9/17",
+      "9/17",
+      "9/17",
+      "0"
+    ],
+    "error": "9/17",
+    "transfer": "159/238",
+    "v": "2/17",
+    "y": "13/17"
+  },
+  "proves_actual_mobius_cancellation": false,
+  "proves_classical_zeta_fourth_mean": false,
+  "proves_complete_fourth_moment_bound": false,
+  "proves_infinite_perron_estimates": false,
+  "proves_new_zero_free_boundary": false,
+  "proves_new_zero_proportion": false,
+  "proves_riemann_hypothesis": false,
+  "proves_zero_free_input": false,
+  "schema": "rh-weil-padded-perron-finite-checkpoint-v1",
+  "script_canonical_lf_sha256": "e93778e0a7c55228e404c4b5e831c5261880b029b176848dfd527c5a222d4540",
+  "status": "PASS",
+  "unconditional_trivial_factors": {
+    "costs": [
+      "3/5",
+      "2/5",
+      "3/5",
+      "3/5",
+      "3/5",
+      "0"
+    ],
+    "error": "3/5",
+    "uses_zero_free_input": false
+  }
+}
