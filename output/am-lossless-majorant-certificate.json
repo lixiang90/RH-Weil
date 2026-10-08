@@ -1,0 +1,42 @@
+{
+  "schema": "rh-weil-am-lossless-certificate-v1",
+  "scope": "exact small continuous majorant, energy bound and finite algebra only",
+  "not_verified_here": [
+    "PC8CL global seven-gap certificate",
+    "analytic zero-counting proof",
+    "full Lean kernel certification",
+    "world-record priority"
+  ],
+  "script_canonical_lf_sha256": "11da56ae04a60fd436d273f39463e6aa85b0f023ebf62a0389c5f9af0b2aabf4",
+  "pi_interval": [
+    "3141592653/1000000000",
+    "1570796327/500000000"
+  ],
+  "half_window_nodes_checked": 129,
+  "grid_margin_strict_lower": "9/100",
+  "derivative_strict_upper": "16",
+  "nearest_node_distance_upper": "1/512",
+  "continuous_majorant_margin_strict_lower": "47/800",
+  "theta": "4/5",
+  "gamma": "61/100",
+  "majorant_mass_upper": "61/32",
+  "normalized_smoothing_mass_required_strict_lower": "61/64",
+  "close_kernel_strict_lower": "134/825",
+  "close_kernel_squared_strict_lower": "1/40",
+  "am_energy_gain_strict_lower": "67216841/100000000",
+  "local_reward": "805003/100000000",
+  "gap_fee": "8087/2000000",
+  "span_capacities": [
+    "199999997/100000000",
+    "99999999/50000000",
+    "49999999/25000000",
+    "99999999/50000000",
+    "99999999/50000000",
+    "2",
+    "2"
+  ],
+  "simple_critical_proportion_lower": "66812491/99194997",
+  "checked_paper_benchmark": "1669159/2478195",
+  "positive_difference": "719712074/81941515196805",
+  "status": "PASS"
+}

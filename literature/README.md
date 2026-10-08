@@ -9,6 +9,14 @@
 区分67.3538200182%的论文主张、native_decide信任依赖、源码核查与完整重放。
 本次原始源只作临时审查，未新增PDF或改变旧manifest。
 
+对该文分离机制与storage的研究另见
+[方法比较](../reviews/2026-10-08/knausgard-673-method-and-am-comparison-research-perron.md)、
+[局部证书与限定诊断](../reviews/2026-10-08/knausgard-673-local-storage-research-high-product.md)。
+将分离机制用于旧AM窗产生本项目
+[498新推论](../notes/498-lossless-am-eight-point-simple-critical-proportion.md)及
+[正式论文](../papers/lossless-eight-point-simple-critical-paper.tex)，
+不依赖该文最终headline的native计算公理，也不把本文审查称为整篇Lean重放。
+
 索引续记更新至2026-09-21；最新批次、范围和保存状态见文末。以下2026-09-09统计为历史快照。首批归档聚焦67.25%之后的零点比例进展及直接依赖（15份、220页）；后续原始版本与核读范围按轮次列在文末。当前按实际下载清单与文件逐项核准：本地共100份外部原始PDF、7083页，其中98份、6738页纳入本轮Git保存；Schur扫描29页及Engelking书316页依各自来源说明仅本地保存，出处和哈希同步。获取失败单列。研究判断见 [305文献审计](../notes/305-post-6725-literature-baseline-audit.md)。
 
 PDF按来源原样保存，未重排或改写；arXiv固定版本，GitHub固定提交，Zenodo固定记录。下载、全页PDF解析和校验值核验不等于数学证明认证。manifest中的SHA-256标识本次取得的精确字节，原站同一文件名后续变化时仍可区分。

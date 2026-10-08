@@ -16,6 +16,7 @@ PAPERS = (
     "seven-eighths-boundary-improvement-paper",
     "free-b-compensated-probe-boundary-paper",
     "kappa-feedback-cubic-boundary-paper",
+    "lossless-eight-point-simple-critical-paper",
 )
 
 

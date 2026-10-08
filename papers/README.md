@@ -16,6 +16,7 @@
 | 七分之八无零边界的参数改进 | [seven-eighths-boundary-improvement-paper.tex](seven-eighths-boundary-improvement-paper.tex) | [PDF](../output/pdf/seven-eighths-boundary-improvement-paper.pdf) | pdfLaTeX |
 | 自由 b 的补偿几何与临界边界 | [free-b-compensated-probe-boundary-paper.tex](free-b-compensated-probe-boundary-paper.tex) | [PDF](../output/pdf/free-b-compensated-probe-boundary-paper.pdf) | pdfLaTeX |
 | plain moment 范围延伸与三次反馈边界 | [kappa-feedback-cubic-boundary-paper.tex](kappa-feedback-cubic-boundary-paper.tex) | [PDF](../output/pdf/kappa-feedback-cubic-boundary-paper.pdf) | pdfLaTeX |
+| 简单临界线零点的无损八点装配 | [lossless-eight-point-simple-critical-paper.tex](lossless-eight-point-simple-critical-paper.tex) | [PDF](../output/pdf/lossless-eight-point-simple-critical-paper.pdf) | pdfLaTeX |
 
 新稿将笔记 441–445 的结果整理为正式论文：在明确引用原稿通用结果及全 Hecke \(7/8\) 结论的前提下，推出严格半平面 \(\Re s>69999/80000\) 无零。正文给出可变槽 low 证明、局部 Euler 域、实际 detector 容量、联合误差、连续证书及完整延拓反证；不宣称独立验收原稿或完成新的 Lean 认证。最终源稿、PDF 和独立审查的哈希及编译情况见 [构建清单](../reviews/2026-10-07/69999-paper-build-manifest.json)。
 
@@ -33,6 +34,14 @@ plain moment 至 37/50≤κ≤1，再用实际 κ=2β*−1 支付反馈费用。
 均在正文；两份全文审查、最终源/PDF与版面验证见
 [三次边界构建清单](../reviews/2026-10-07/kappa-feedback-paper-build-manifest.json)。
 前两篇已交付无零边界稿保持原版；该稿仍不宣称新比例或外部 kernel 验收。
+
+无损八点新稿记录498：复用固定AM窗的全连续PC8CL证书，证明质量<2的majorant，
+直接叠加分离集和不交近对，得到无条件简单临界线比例
+66812491/99194997≈67.3546983423%。正文重证全零点惯性、二矩和平滑极限，
+保留旧编译整数证书与新标准库有理程序的信任范围。
+相对2610.08965v1固定基准严格提高，但不声称全球优先权、完整Lean验收或外部发表。
+最终源／PDF、独立数学审查与全页渲染见
+[构建清单](../reviews/2026-10-08/lossless-eight-point-paper-build-manifest.json)。
 
 ## 从仓库根目录编译
 
@@ -53,6 +62,8 @@ pdflatex -interaction=nonstopmode -halt-on-error -output-directory=output/pdf pa
 pdflatex -interaction=nonstopmode -halt-on-error -output-directory=output/pdf papers/free-b-compensated-probe-boundary-paper.tex
 pdflatex -interaction=nonstopmode -halt-on-error -output-directory=output/pdf papers/kappa-feedback-cubic-boundary-paper.tex
 pdflatex -interaction=nonstopmode -halt-on-error -output-directory=output/pdf papers/kappa-feedback-cubic-boundary-paper.tex
+pdflatex -interaction=nonstopmode -halt-on-error -output-directory=output/pdf papers/lossless-eight-point-simple-critical-paper.tex
+pdflatex -interaction=nonstopmode -halt-on-error -output-directory=output/pdf papers/lossless-eight-point-simple-critical-paper.tex
 ```
 
 两次编译用于更新引用。编译中间文件由 `.gitignore` 排除。

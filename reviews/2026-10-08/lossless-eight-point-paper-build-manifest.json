@@ -1,0 +1,259 @@
+{
+  "schema": "rh-weil-lossless-eight-point-paper-build-v1",
+  "date": "2026-10-08",
+  "baseline_commit": "cde00c221efb9544b81b8836769e494b63f3498c",
+  "result": {
+    "count": "simple critical-line zeros / all nontrivial zeros with multiplicity",
+    "lower_bound": "66812491/99194997",
+    "checked_v1_benchmark": "1669159/2478195",
+    "difference": "719712074/81941515196805",
+    "scope": "unconditional analytic consequence of admitted continuous PC8CL input"
+  },
+  "identities": [
+    {
+      "path": "papers/lossless-eight-point-simple-critical-paper.tex",
+      "sha256": "51c3931e3ce3ba54cd4a8441254ea0c8767009aee57e427f7f3492108b1a204c",
+      "bytes": 24829,
+      "hash_convention": "canonical LF, preserving EOF",
+      "lines": 635
+    },
+    {
+      "path": "scripts/am_lossless_majorant_certificate.py",
+      "sha256": "11da56ae04a60fd436d273f39463e6aa85b0f023ebf62a0389c5f9af0b2aabf4",
+      "bytes": 6671,
+      "hash_convention": "canonical LF, preserving EOF",
+      "lines": 154
+    },
+    {
+      "path": "output/am-lossless-majorant-certificate.json",
+      "sha256": "61023fac589f2a8c8b3f67c8c296c38a2a244663129eb8bc90de6396c60fb915",
+      "bytes": 1396,
+      "hash_convention": "canonical LF, preserving EOF",
+      "lines": 42
+    },
+    {
+      "path": "reviews/2026-10-08/lossless-eight-point-paper-review-perron.md",
+      "sha256": "6e1a4753016a6f01330eccd5992abf58fef69769824365c77c05891aad778ca3",
+      "bytes": 7598,
+      "hash_convention": "canonical LF, preserving EOF",
+      "lines": 111
+    },
+    {
+      "path": "reviews/2026-10-08/lossless-eight-point-paper-review-checkpoint.md",
+      "sha256": "d687c7ff615b78e82bbaffc3fd7b36a1b0922fc20cea4755a6c94beb7bed5dff",
+      "bytes": 8811,
+      "hash_convention": "canonical LF, preserving EOF",
+      "lines": 121
+    },
+    {
+      "path": "reviews/2026-10-08/lossless-eight-point-paper-review-high-product.md",
+      "sha256": "ff232b0259e1322b21939a7ae94df86fd013fc356429765935f46c67936b5d70",
+      "bytes": 8884,
+      "hash_convention": "canonical LF, preserving EOF",
+      "lines": 132
+    },
+    {
+      "path": "reviews/2026-10-08/knausgard-673-method-and-am-comparison-research-perron.md",
+      "sha256": "5ff04f61f68687738d02cb04b2d58d6199a91adb8f5991fe2575f20ebff4cbd5",
+      "bytes": 11880,
+      "hash_convention": "canonical LF, preserving EOF",
+      "lines": 186
+    },
+    {
+      "path": "reviews/2026-10-08/knausgard-673-lossless-am-review-checkpoint.md",
+      "sha256": "98cb99e58360506d48e2491eda22f4ebc81952e31baf7b70e9aa9b5589495dff",
+      "bytes": 9737,
+      "hash_convention": "canonical LF, preserving EOF",
+      "lines": 167
+    },
+    {
+      "path": "reviews/2026-10-08/knausgard-673-lossless-am-independent-high-product.md",
+      "sha256": "c3a01e976d6fec5bcabbcc422c0c22492a4d7d94c40de06d4d0518a1a6a91bd2",
+      "bytes": 7213,
+      "hash_convention": "canonical LF, preserving EOF",
+      "lines": 108
+    },
+    {
+      "path": "reviews/2026-10-08/knausgard-673-local-storage-research-high-product.md",
+      "sha256": "c107e0f0939e33635a8f53930806ebb2a386cbcf2cc2ad1f518e3f70658c8e36",
+      "bytes": 10552,
+      "hash_convention": "canonical LF, preserving EOF",
+      "lines": 147
+    },
+    {
+      "path": "notes/498-lossless-am-eight-point-simple-critical-proportion.md",
+      "sha256": "fa921954da4a312c0efbe33330363dc41c0804081f3c8880888508c20d34faeb",
+      "bytes": 6010,
+      "hash_convention": "canonical LF, preserving EOF",
+      "lines": 110
+    },
+    {
+      "path": "notes/483-admission-of-known-am-eight-point-proportion.md",
+      "sha256": "3ab82cdb257a8555b206f90e59c18fb73f68fe9be0a2de5117bb573056efdb7e",
+      "bytes": 7342,
+      "hash_convention": "canonical LF, preserving EOF",
+      "lines": 166
+    },
+    {
+      "path": "scripts/am_pc8_finite_replay.py",
+      "sha256": "2db626d7c3fbcc1f6ced7580d0fe847fff743b1039aa58797392e9e05845600f",
+      "bytes": 13273,
+      "hash_convention": "canonical LF, preserving EOF",
+      "lines": 280
+    },
+    {
+      "path": "output/am-pc8-finite-replay.json",
+      "sha256": "48c29521994321837b60ea39661b93f87c28560b5f19932c583ad8b29f5dd549",
+      "bytes": 17001,
+      "hash_convention": "canonical LF, preserving EOF",
+      "lines": 998
+    },
+    {
+      "path": "formal/certificates/AMPC8StructuralBridge.lean",
+      "sha256": "98771eceea94a14f3a1be38c1e9c7ab48fffbb0d1c77bbfde636d21358b9ba9f",
+      "bytes": 5906,
+      "hash_convention": "canonical LF, preserving EOF",
+      "lines": 165
+    },
+    {
+      "path": "formal/certificates/AMPC8MinorantBridge.lean",
+      "sha256": "f3947ca27750760322481a87ed5da4a5a8702a92bdf4570a6a4727f957fee114",
+      "bytes": 5512,
+      "hash_convention": "canonical LF, preserving EOF",
+      "lines": 101
+    }
+  ],
+  "pdf": {
+    "path": "output/pdf/lossless-eight-point-simple-critical-paper.pdf",
+    "sha256": "c102ea6db4d733092a56ade74dc4239952cb90842aaf64de750472d4acacc3e8",
+    "bytes": 399157,
+    "hash_convention": "raw"
+  },
+  "mathematical_reviews": {
+    "perron": "PASS",
+    "checkpoint": "PASS",
+    "high_product": "PASS",
+    "external_peer_review": "not claimed"
+  },
+  "verification": [
+    {
+      "command": "python -B scripts/am_lossless_majorant_certificate.py --check",
+      "exit_code": 0,
+      "scope": "small exact rational certificate and committed JSON content"
+    },
+    {
+      "command": "python -O -B scripts/am_lossless_majorant_certificate.py --check",
+      "expected_rejection": true,
+      "scope": "explicit assertion-disable guard"
+    },
+    {
+      "command": "python -B scripts/test_check_groups.py",
+      "exit_code": 0,
+      "scope": "registry coverage: core=85, all=87; not execution of all registered checks"
+    },
+    {
+      "command": "python -B scripts/check_repo_layout.py",
+      "exit_code": 0,
+      "scope": "required paper files, TeX inputs and layout links"
+    },
+    {
+      "command": "python -B scripts/test_repo_layout.py",
+      "exit_code": 0,
+      "tests": 12
+    },
+    {
+      "command": "pdflatex -interaction=nonstopmode -halt-on-error -output-directory=output/pdf papers/lossless-eight-point-simple-critical-paper.tex",
+      "final_passes": 2,
+      "exit_codes": [
+        0,
+        0
+      ],
+      "final_log_has_overflow_or_unresolved_references": false
+    },
+    {
+      "command": "pdftoppm -r 110 -png output/pdf/lossless-eight-point-simple-critical-paper.pdf tmp/pdfs/lossless-eight-point-paper/rendered/page",
+      "exit_code": 0,
+      "pages": 8
+    },
+    {
+      "check": "pypdf parsed all pages; all pages have readable text",
+      "pages": 8,
+      "status": "PASS"
+    },
+    {
+      "check": "root visually inspected final rendered pages 1 through 8",
+      "status": "PASS",
+      "observations": "legible title, equations, triangular weight table, references; no clipping, overlaps, missing glyphs or broken references"
+    }
+  ],
+  "preview_compiler": {
+    "built_in": "could not prepare preview: host sandbox helper ACL error",
+    "fallback": "MiKTeX pdfLaTeX export verified; source preserved and opened in Codex"
+  },
+  "rendered_page_identities": [
+    {
+      "path": "tmp/pdfs/lossless-eight-point-paper/rendered/page-1.png",
+      "sha256": "bf8b25471495389f618aa7d2621358cd308ec5a8fa0358ebb0a6c1883966d3ba",
+      "bytes": 239988,
+      "hash_convention": "raw"
+    },
+    {
+      "path": "tmp/pdfs/lossless-eight-point-paper/rendered/page-2.png",
+      "sha256": "d58b5826974c2f2d432fdd923bf27d1459ec2213001efb2ccf34a4612c6f5f35",
+      "bytes": 178460,
+      "hash_convention": "raw"
+    },
+    {
+      "path": "tmp/pdfs/lossless-eight-point-paper/rendered/page-3.png",
+      "sha256": "ce5fd44850304650b53e4c4a530bf3e099e10657c7784c6374d84905d2438711",
+      "bytes": 241735,
+      "hash_convention": "raw"
+    },
+    {
+      "path": "tmp/pdfs/lossless-eight-point-paper/rendered/page-4.png",
+      "sha256": "abfef091d72cbac5d25d5db685368b18b6c661cfa1f06dc7ddf0ec38b1692dae",
+      "bytes": 239886,
+      "hash_convention": "raw"
+    },
+    {
+      "path": "tmp/pdfs/lossless-eight-point-paper/rendered/page-5.png",
+      "sha256": "64398ebe784225acab7b1649ea498940bbfddb39aff366d5b29d39528db6b490",
+      "bytes": 250697,
+      "hash_convention": "raw"
+    },
+    {
+      "path": "tmp/pdfs/lossless-eight-point-paper/rendered/page-6.png",
+      "sha256": "022997f9fe2bb03fffecb7108b0e75785ac5cc499433957bc13460956c471c92",
+      "bytes": 248678,
+      "hash_convention": "raw"
+    },
+    {
+      "path": "tmp/pdfs/lossless-eight-point-paper/rendered/page-7.png",
+      "sha256": "1c806b6653889e9f59d19eac98515b6f3f1f9b3604e3612c6412d333e4395e53",
+      "bytes": 283159,
+      "hash_convention": "raw"
+    },
+    {
+      "path": "tmp/pdfs/lossless-eight-point-paper/rendered/page-8.png",
+      "sha256": "4a42438dea9785454b570dbfb05484248929cd66c3294601c8d759fc9f2088e1",
+      "bytes": 138104,
+      "hash_convention": "raw"
+    }
+  ],
+  "trust_scope": {
+    "pc8": "previous continuous soundness audit plus all 240 exact compiled integer evaluations, 7 finite structural checks and generic Lean kernel bridges",
+    "new_certificate": "Python stdlib exact Fraction computations plus analytic Taylor and derivative proof; independent Bernstein cross-check in checkpoint review",
+    "not_consumed": "Knausgard headline native_decide search axiom",
+    "not_claimed": [
+      "complete Lean kernel verification",
+      "exhaustive world-record priority",
+      "new zero-free region",
+      "RH proof"
+    ]
+  },
+  "cadence": {
+    "rounds_since_review": 1,
+    "last_completed_round": "498",
+    "same_continuation_iteration_as": "497"
+  }
+}

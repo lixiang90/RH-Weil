@@ -30,6 +30,10 @@ CHECKS = (
         [sys.executable, "hybrid_squarefree_remainder_checkpoint.py", "--check"],
     ),
     ("post-67.25 literature constants", [sys.executable, "post_6725_constant_audit.py"]),
+    (
+        "lossless AM continuous majorant and energy certificate",
+        [sys.executable, "am_lossless_majorant_certificate.py", "--check"],
+    ),
     ("quartic boundary and normalization certificate", [sys.executable, "quartic_boundary_certificate.py"]),
     ("elliptic degree and odd-polarization benchmark", [sys.executable, "elliptic_degree_benchmark.py"]),
     (
