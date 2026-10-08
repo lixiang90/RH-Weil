@@ -1,0 +1,48 @@
+{
+  "schema": "rh-weil-am-storage-periodic-ceiling-v1",
+  "scope": "necessary ceiling for fixed AM13 kernel, index range <=7, span budgets <=2 and bounded telescoping storage",
+  "not_an_actual_zeta_proportion_upper_bound": true,
+  "not_a_new_local_lower_certificate": true,
+  "input_interval_helper_canonical_lf_sha256": "11da56ae04a60fd436d273f39463e6aa85b0f023ebf62a0389c5f9af0b2aabf4",
+  "script_canonical_lf_sha256": "549e9f9e3ce6917213690b94109e8b8b1bcc5db5cecac3c7f0061f430d14eb09",
+  "pi_interval": [
+    "157079632679489661923/50000000000000000000",
+    "314159265358979323847/100000000000000000000"
+  ],
+  "am_plain_gain_strict_upper": "672168411/1000000000",
+  "periodic_cuts": [
+    {
+      "gap_numerators": [
+        1042697,
+        1974488
+      ],
+      "gap_denominator": 1000000,
+      "mean_gap": "603437/400000",
+      "range_seven_ordered_energy_lower": "982444381/500000000000",
+      "range_seven_ordered_energy_strict_upper": "1964888763/1000000000000"
+    },
+    {
+      "gap_numerators": [
+        1035512,
+        1035512,
+        1966573,
+        1042733,
+        1966573
+      ],
+      "gap_denominator": 1000000,
+      "mean_gap": "7046903/5000000",
+      "range_seven_ordered_energy_lower": "2381520999/1000000000000",
+      "range_seven_ordered_energy_strict_upper": "2381521/1000000000"
+    }
+  ],
+  "dual_weights": [
+    "251386803018867000/491942156922688489",
+    "79965561672587500/491942156922688489"
+  ],
+  "dual_objective_upper": "331352364691454500/491942156922688489",
+  "method_output_strict_upper": "67355961/100000000",
+  "admitted_current_proportion_lower": "66812491/99194997",
+  "strict_ceiling_minus_current": "125249327117/9919499700000000",
+  "unique_kernel_distances_enclosed": 30,
+  "status": "PASS"
+}

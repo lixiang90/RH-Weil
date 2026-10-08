@@ -34,6 +34,10 @@ CHECKS = (
         "lossless AM continuous majorant and energy certificate",
         [sys.executable, "am_lossless_majorant_certificate.py", "--check"],
     ),
+    (
+        "fixed AM range-seven periodic method ceiling",
+        [sys.executable, "am_storage_periodic_ceiling_certificate.py", "--check"],
+    ),
     ("quartic boundary and normalization certificate", [sys.executable, "quartic_boundary_certificate.py"]),
     ("elliptic degree and odd-polarization benchmark", [sys.executable, "elliptic_degree_benchmark.py"]),
     (

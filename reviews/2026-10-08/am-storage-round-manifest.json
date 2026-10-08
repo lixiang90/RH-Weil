@@ -1,0 +1,151 @@
+{
+  "schema": "rh-weil-am-storage-round-manifest-v1",
+  "date": "2026-10-08",
+  "baseline_commit": "0f7e6c21769b7a848fc9ce4cbf498eb91184874d",
+  "goal_status": "active",
+  "actual_simple_critical_proportion_unchanged": "66812491/99194997",
+  "new_method_output_strict_upper": "67355961/100000000",
+  "not_an_actual_zeta_proportion_upper": true,
+  "new_zero_free_boundary": false,
+  "new_global_local_lower_certificate": false,
+  "rounds_since_review": 2,
+  "input_pins": [
+    {
+      "path": "notes/498-lossless-am-eight-point-simple-critical-proportion.md",
+      "lines": 110,
+      "canonical_lf_bytes": 6010,
+      "canonical_lf_sha256": "fa921954da4a312c0efbe33330363dc41c0804081f3c8880888508c20d34faeb"
+    },
+    {
+      "path": "scripts/am_lossless_majorant_certificate.py",
+      "lines": 154,
+      "canonical_lf_bytes": 6671,
+      "canonical_lf_sha256": "11da56ae04a60fd436d273f39463e6aa85b0f023ebf62a0389c5f9af0b2aabf4"
+    }
+  ],
+  "new_artifacts": [
+    {
+      "path": "notes/499-am-bounded-storage-periodic-ceiling-and-negative-spectrum.md",
+      "lines": 145,
+      "canonical_lf_bytes": 8335,
+      "canonical_lf_sha256": "7378ec659f01dc188ab6322c0578276f64827838d740cd0279bc5eec3570ad37"
+    },
+    {
+      "path": "scripts/am_storage_periodic_ceiling_certificate.py",
+      "lines": 137,
+      "canonical_lf_bytes": 5716,
+      "canonical_lf_sha256": "549e9f9e3ce6917213690b94109e8b8b1bcc5db5cecac3c7f0061f430d14eb09"
+    },
+    {
+      "path": "output/am-storage-periodic-ceiling-certificate.json",
+      "lines": 48,
+      "canonical_lf_bytes": 1756,
+      "canonical_lf_sha256": "4d70febf92122018ec61a857014876ab0499f99840742065807a14ecf02f54cd"
+    },
+    {
+      "path": "reviews/2026-10-08/am-storage-transfer-research-perron.md",
+      "lines": 174,
+      "canonical_lf_bytes": 9204,
+      "canonical_lf_sha256": "4a1359cefdfe551f528fbd0a3560f518047b41479c23de39dfb611e1846a0499"
+    },
+    {
+      "path": "reviews/2026-10-08/am-storage-periodic-ceiling-review-perron.md",
+      "lines": 93,
+      "canonical_lf_bytes": 5207,
+      "canonical_lf_sha256": "d7f6a5dde099ca3ed2d211f66f20314919a8869c62ee3c3a9bedf7b6bc52b1ae"
+    },
+    {
+      "path": "reviews/2026-10-08/am-storage-optimization-research-high-product.md",
+      "lines": 166,
+      "canonical_lf_bytes": 9818,
+      "canonical_lf_sha256": "f32f53c96272f5fe1d6d4969fa0a197754a479b748a0a53bb47098c3c7727ef9"
+    },
+    {
+      "path": "reviews/2026-10-08/am-storage-and-strip-review-checkpoint.md",
+      "lines": 158,
+      "canonical_lf_bytes": 10800,
+      "canonical_lf_sha256": "6c08f70e88c496243a65b0ef76b24b95f2c982fb3b44c4064ba38a53a1590674"
+    },
+    {
+      "path": "scripts/run_checks.py",
+      "lines": 409,
+      "canonical_lf_bytes": 13816,
+      "canonical_lf_sha256": "3c159261a7bfd29cc2dfb901644c68a1598cc41bfa296262918be53eed049343"
+    },
+    {
+      "path": "RESEARCH_BRANCHES.md",
+      "lines": 1257,
+      "canonical_lf_bytes": 210543,
+      "canonical_lf_sha256": "e6f3b14e924c8ffc541021023db3ef233cfd000c8a154b6f4ab368eca16c1318"
+    },
+    {
+      "path": "goals/review-cadence.json",
+      "lines": 14,
+      "canonical_lf_bytes": 665,
+      "canonical_lf_sha256": "23f03f345a8ac180aa048881b8e7d55b318904d3d83be41d6d49837d7409fdca"
+    }
+  ],
+  "review_scope": {
+    "root": "FULL READ all seven mathematical artifacts and interval helper; independent exact storage constants; exact periodic replay; read-only Arb candidate diagnostic replay",
+    "perron": "FULL READ final note499, exact periodic script/report/helper; independent dual; bounded storage author",
+    "checkpoint": "FULL READ storage, periodic script/report/helper, joint optimization/diagnostic; independent 220-bit Arb refutation; actual all-zero negative-spectrum proof",
+    "high_product": "joint sampled optimization; exact rationalized candidate; 200-bit Arb whole-box refutation"
+  },
+  "executed_checks": [
+    {
+      "name": "exact periodic --check",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "registry coverage and mocked dispatch",
+      "exit_code": 0,
+      "core": 86,
+      "all": 88,
+      "status": "PASS"
+    },
+    {
+      "name": "optimized Python -O guard",
+      "exit_code": 1,
+      "status": "EXPECTED_REFUSAL"
+    },
+    {
+      "name": "independent exact storage arithmetic",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "root read-only Arb diagnostic against frozen output",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "checkpoint independent Arb 220-bit diagnostic",
+      "exit_code": 0,
+      "status": "PASS"
+    }
+  ],
+  "transient_diagnostics": {
+    "committed": false,
+    "scope": "specified rational candidate refutation only; full parameters and boxes are recorded in the committed High source",
+    "source": {
+      "path": "tmp/pdfs/am-storage-high-product/diagnose.py",
+      "lines": 152,
+      "canonical_lf_bytes": 6328,
+      "canonical_lf_sha256": "792946bd704631257b473ef79ec7c3a0640af7c84680de9d03640bdffdde6a61"
+    },
+    "report": {
+      "path": "tmp/pdfs/am-storage-high-product/diagnose.json",
+      "lines": 166,
+      "canonical_lf_bytes": 3987,
+      "canonical_lf_sha256": "fda11f8f562a4a908fdcc688c2d596d2865c4f96b11da34189d932fe7a200682"
+    }
+  },
+  "trust_limits": [
+    "Not a complete Lean kernel certificate",
+    "No full external-paper search replay",
+    "No new normalized negative-spectrum lower bound",
+    "No new original signed arithmetic saving",
+    "Only the newly affected named finite check and registry coverage rerun; not the full 88-check suite"
+  ]
+}
