@@ -5,7 +5,26 @@
 版本、核查边界与严格差值见[公开前沿核查](literature/supplements/2026-10-08-proportion-frontier-audit.md)。
 本轮未满足以刷新最佳比例为由发布论文的条件，原研究队列继续。
 
-## 当前队列（2026-10-08，原 Type II 因子归约）
+## 当前队列（2026-10-08，原 Type II 扩大截断与矩传递）
+
+Goal active。原 Type II 的小一次素因子部分已支付完整7/10四矩；
+同一对子族截断的一致估计把截断扩大至Ssharp=floor(X^(5/96))，
+不增加此前17/24的合成误差。原7/8引用输入下，完整素数第四矩与最终余项第四矩
+相差O(X^(479/672+epsilon))，较已有5/7增长尺度节省1/672。
+全部端点、固定delta族、范数前件、不同作者数学审查及精确检查点见
+[480](notes/480-original-type-ii-single-prime-part-and-whole-moment-transfer.md)。
+
+| 范围 | 已付与下一目标 |
+|---|---|
+| 原Type II | 自然标签s(k)=prod_(v_p(k)=1)p；下一完整剩余保留genuine-prime m>M0、k>V、s(k)>Ssharp和共同乘积边界。 |
+| 原完整四矩 | 小s子族与精确矩传递已付；whole 5/7保持。下一目标仍为最终余项的完整signed mixed4及四素数near常数。 |
+| 原比例与无零边界 | p_dg=67.3058110282…%及引用输入下sigma_*≈0.874957019420099保持；没有新纪录或边界论文。 |
+| 联合解析桥 | 新传递误差仍增长，未支付常数级四矩、Hecke全族深度或kappa反馈。 |
+| 换域研究 | 按用户要求搁置，继续原对象。 |
+
+公开README保持项目介绍。以下为此前队列和历史记录。
+
+## 此前队列（2026-10-08，原 Type II 因子归约）
 
 Goal active。同一原 Type II 已支付短 Λ 因子17/24、large proper-prime-power m 的1/2及平方丰满 k 的1/2；原 Type I 强化至7/12。最终未付项保留大 genuine-prime m、非平方丰满 k、原 Möbius divisor 系数和共同乘积截断。完整推导、不同作者审查与精确检查点见[479](notes/479-original-type-ii-factor-reduction-and-diagonal-gauge.md)。
 

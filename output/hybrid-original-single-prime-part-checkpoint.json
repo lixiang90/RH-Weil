@@ -1,0 +1,399 @@
+{
+  "schema": "original-single-prime-part-checkpoint-v1",
+  "exact_checks": 141,
+  "checks": [
+    "published 479 checkpoint unchanged",
+    "file exists: notes/480-original-type-ii-single-prime-part-and-whole-moment-transfer.md",
+    "file exists: reviews/2026-10-08/hybrid-original-type-ii-small-single-prime-part-fourth-research-radial.md",
+    "file exists: reviews/2026-10-08/hybrid-original-type-ii-small-single-prime-part-fourth-review-checkpoint-audit.md",
+    "file exists: reviews/2026-10-08/hybrid-original-single-prime-part-note-review-checkpoint-audit.md",
+    "file exists: scripts/hybrid_original_single_prime_part_checkpoint.py",
+    "file exists: reviews/2026-10-08/hybrid-original-single-prime-part-checkpoint-review-checkpoint-audit.md",
+    "file exists: notes/479-original-type-ii-factor-reduction-and-diagonal-gauge.md",
+    "file exists: reviews/2026-10-08/hybrid-original-type-ii-short-lambda-factor-fourth-research-radial.md",
+    "file exists: reviews/2026-10-08/hybrid-original-type-ii-short-lambda-factor-fourth-review-twisted.md",
+    "file exists: reviews/2026-10-08/hybrid-mt-six-neighbor-diagonal-gauge-and-actual-counting-research-compression.md",
+    "file exists: reviews/2026-10-08/hybrid-mt-six-neighbor-diagonal-gauge-and-actual-counting-review-twisted.md",
+    "file exists: reviews/2026-10-08/hybrid-original-type-ii-factor-checkpoint-review-checkpoint-audit.md",
+    "file exists: scripts/hybrid_original_type_ii_factor_checkpoint.py",
+    "file exists: notes/478-original-mt-six-neighbor-dual-and-whole-chain-proportion.md",
+    "file exists: reviews/2026-10-08/hybrid-mt-six-neighbor-spectral-dual-and-actual-counting-research-compression.md",
+    "file exists: reviews/2026-10-08/hybrid-mt-six-neighbor-spectral-dual-and-actual-counting-review-radial.md",
+    "file exists: reviews/2026-10-08/hybrid-mt-six-neighbor-spectral-dual-and-actual-counting-review-twisted.md",
+    "file exists: reviews/2026-10-08/hybrid-short-mobius-twist-and-vaughan-zero-residue-research-radial.md",
+    "file exists: reviews/2026-10-08/hybrid-short-mobius-twist-and-vaughan-zero-residue-review-twisted.md",
+    "file exists: scripts/hybrid_mt_six_neighbor_geometry_certificate.py",
+    "file exists: output/hybrid-mt-six-neighbor-geometry-certificate.json",
+    "file exists: notes/304-mt-triple-geometry-and-second-moment-stability.md",
+    "file exists: notes/476-original-fourth-growth-five-sevenths-with-ivic-density.md",
+    "file exists: notes/477-original-vaughan-reduction-and-replayed-multipoint-proportion.md",
+    "file exists: reviews/2026-10-08/hybrid-original-multipoint-envelope-and-actual-counting-research-compression.md",
+    "file exists: scripts/hybrid_multipoint_cap_replay.py",
+    "file exists: output/hybrid-multipoint-cap-exact-algebra.json",
+    "file exists: output/hybrid-multipoint-seven-primary-replay.json",
+    "file exists: scripts/hybrid_mt_six_neighbor_proportion_checkpoint.py",
+    "file exists: output/hybrid-mt-six-neighbor-proportion-checkpoint.json",
+    "file exists: reviews/2026-10-08/hybrid-original-vaughan-type-i-and-type-ii-reduction-research-radial.md",
+    "file exists: reviews/2026-10-08/hybrid-original-vaughan-type-i-and-type-ii-reduction-review-twisted.md",
+    "file exists: reviews/2026-10-08/hybrid-short-carrier-canonical-scalar-fourth-admission-research-radial.md",
+    "file exists: output/hybrid-original-type-ii-factor-checkpoint.json",
+    "file exists: reviews/2026-10-08/hybrid-ivic-density-and-scalar-fourth-growth-research-twisted.md",
+    "file exists: reviews/2026-10-08/hybrid-ivic-density-and-scalar-fourth-growth-review-root.md",
+    "file exists: reviews/2026-10-08/hybrid-positive-height-zero-packet-fourth-upper-research-radial.md",
+    "file exists: reviews/2026-10-08/hybrid-fixed-start-half-gram-sampling-research-root.md",
+    "published dependency unchanged: notes/479-original-type-ii-factor-reduction-and-diagonal-gauge.md",
+    "published dependency unchanged: reviews/2026-10-08/hybrid-original-type-ii-short-lambda-factor-fourth-research-radial.md",
+    "published dependency unchanged: reviews/2026-10-08/hybrid-original-type-ii-short-lambda-factor-fourth-review-twisted.md",
+    "published dependency unchanged: reviews/2026-10-08/hybrid-mt-six-neighbor-diagonal-gauge-and-actual-counting-research-compression.md",
+    "published dependency unchanged: reviews/2026-10-08/hybrid-mt-six-neighbor-diagonal-gauge-and-actual-counting-review-twisted.md",
+    "published dependency unchanged: reviews/2026-10-08/hybrid-original-type-ii-factor-checkpoint-review-checkpoint-audit.md",
+    "published dependency unchanged: scripts/hybrid_original_type_ii_factor_checkpoint.py",
+    "published dependency unchanged: notes/478-original-mt-six-neighbor-dual-and-whole-chain-proportion.md",
+    "published dependency unchanged: reviews/2026-10-08/hybrid-mt-six-neighbor-spectral-dual-and-actual-counting-research-compression.md",
+    "published dependency unchanged: reviews/2026-10-08/hybrid-mt-six-neighbor-spectral-dual-and-actual-counting-review-radial.md",
+    "published dependency unchanged: reviews/2026-10-08/hybrid-mt-six-neighbor-spectral-dual-and-actual-counting-review-twisted.md",
+    "published dependency unchanged: reviews/2026-10-08/hybrid-short-mobius-twist-and-vaughan-zero-residue-research-radial.md",
+    "published dependency unchanged: reviews/2026-10-08/hybrid-short-mobius-twist-and-vaughan-zero-residue-review-twisted.md",
+    "published dependency unchanged: scripts/hybrid_mt_six_neighbor_geometry_certificate.py",
+    "published dependency unchanged: output/hybrid-mt-six-neighbor-geometry-certificate.json",
+    "published dependency unchanged: notes/304-mt-triple-geometry-and-second-moment-stability.md",
+    "published dependency unchanged: notes/476-original-fourth-growth-five-sevenths-with-ivic-density.md",
+    "published dependency unchanged: notes/477-original-vaughan-reduction-and-replayed-multipoint-proportion.md",
+    "published dependency unchanged: reviews/2026-10-08/hybrid-original-multipoint-envelope-and-actual-counting-research-compression.md",
+    "published dependency unchanged: scripts/hybrid_multipoint_cap_replay.py",
+    "published dependency unchanged: output/hybrid-multipoint-cap-exact-algebra.json",
+    "published dependency unchanged: output/hybrid-multipoint-seven-primary-replay.json",
+    "published dependency unchanged: scripts/hybrid_mt_six_neighbor_proportion_checkpoint.py",
+    "published dependency unchanged: output/hybrid-mt-six-neighbor-proportion-checkpoint.json",
+    "published dependency unchanged: reviews/2026-10-08/hybrid-original-vaughan-type-i-and-type-ii-reduction-research-radial.md",
+    "published dependency unchanged: reviews/2026-10-08/hybrid-original-vaughan-type-i-and-type-ii-reduction-review-twisted.md",
+    "published dependency unchanged: reviews/2026-10-08/hybrid-short-carrier-canonical-scalar-fourth-admission-research-radial.md",
+    "frozen source: output/hybrid-original-type-ii-factor-checkpoint.json",
+    "frozen source: notes/480-original-type-ii-single-prime-part-and-whole-moment-transfer.md",
+    "frozen source: reviews/2026-10-08/hybrid-original-type-ii-small-single-prime-part-fourth-research-radial.md",
+    "frozen source: reviews/2026-10-08/hybrid-original-type-ii-small-single-prime-part-fourth-review-checkpoint-audit.md",
+    "frozen source: notes/476-original-fourth-growth-five-sevenths-with-ivic-density.md",
+    "frozen source: reviews/2026-10-08/hybrid-ivic-density-and-scalar-fourth-growth-research-twisted.md",
+    "frozen source: reviews/2026-10-08/hybrid-ivic-density-and-scalar-fourth-growth-review-root.md",
+    "frozen source: reviews/2026-10-08/hybrid-positive-height-zero-packet-fourth-upper-research-radial.md",
+    "frozen source: reviews/2026-10-08/hybrid-fixed-start-half-gram-sampling-research-root.md",
+    "review binds final source: reviews/2026-10-08/hybrid-original-type-ii-small-single-prime-part-fourth-research-radial.md",
+    "review binds final source: notes/480-original-type-ii-single-prime-part-and-whole-moment-transfer.md",
+    "review binds final source: scripts/hybrid_original_single_prime_part_checkpoint.py",
+    "review binds final source: reviews/2026-10-08/hybrid-ivic-density-and-scalar-fourth-growth-research-twisted.md",
+    "review binds final source: reviews/2026-10-08/hybrid-positive-height-zero-packet-fourth-upper-research-radial.md",
+    "review binds final source: reviews/2026-10-08/hybrid-fixed-start-half-gram-sampling-research-root.md",
+    "local link: notes/480-original-type-ii-single-prime-part-and-whole-moment-transfer.md -> ../reviews/2026-10-08/hybrid-original-type-ii-small-single-prime-part-fourth-research-radial.md",
+    "local link: notes/480-original-type-ii-single-prime-part-and-whole-moment-transfer.md -> ../reviews/2026-10-08/hybrid-original-type-ii-small-single-prime-part-fourth-review-checkpoint-audit.md",
+    "local link: notes/480-original-type-ii-single-prime-part-and-whole-moment-transfer.md -> 476-original-fourth-growth-five-sevenths-with-ivic-density.md",
+    "local link: notes/480-original-type-ii-single-prime-part-and-whole-moment-transfer.md -> ../scripts/hybrid_original_single_prime_part_checkpoint.py",
+    "local link: notes/480-original-type-ii-single-prime-part-and-whole-moment-transfer.md -> ../output/hybrid-original-single-prime-part-checkpoint.json",
+    "local link: reviews/2026-10-08/hybrid-original-type-ii-small-single-prime-part-fourth-research-radial.md -> ../../notes/479-original-type-ii-factor-reduction-and-diagonal-gauge.md",
+    "local link: reviews/2026-10-08/hybrid-original-type-ii-small-single-prime-part-fourth-research-radial.md -> hybrid-original-type-ii-short-lambda-factor-fourth-research-radial.md",
+    "local link: reviews/2026-10-08/hybrid-original-type-ii-small-single-prime-part-fourth-review-checkpoint-audit.md -> hybrid-original-type-ii-small-single-prime-part-fourth-research-radial.md",
+    "local link: reviews/2026-10-08/hybrid-original-type-ii-small-single-prime-part-fourth-review-checkpoint-audit.md -> ../../notes/479-original-type-ii-factor-reduction-and-diagonal-gauge.md",
+    "local link: reviews/2026-10-08/hybrid-original-type-ii-small-single-prime-part-fourth-review-checkpoint-audit.md -> hybrid-original-type-ii-short-lambda-factor-fourth-research-radial.md",
+    "local link: reviews/2026-10-08/hybrid-original-single-prime-part-note-review-checkpoint-audit.md -> ../../notes/480-original-type-ii-single-prime-part-and-whole-moment-transfer.md",
+    "local link: reviews/2026-10-08/hybrid-original-single-prime-part-note-review-checkpoint-audit.md -> hybrid-original-type-ii-small-single-prime-part-fourth-research-radial.md",
+    "local link: reviews/2026-10-08/hybrid-original-single-prime-part-note-review-checkpoint-audit.md -> hybrid-original-type-ii-small-single-prime-part-fourth-review-checkpoint-audit.md",
+    "local link: reviews/2026-10-08/hybrid-original-single-prime-part-note-review-checkpoint-audit.md -> ../../notes/476-original-fourth-growth-five-sevenths-with-ivic-density.md",
+    "local link: reviews/2026-10-08/hybrid-original-single-prime-part-note-review-checkpoint-audit.md -> ../../notes/479-original-type-ii-factor-reduction-and-diagonal-gauge.md",
+    "local link: reviews/2026-10-08/hybrid-original-single-prime-part-note-review-checkpoint-audit.md -> hybrid-original-type-ii-short-lambda-factor-fourth-research-radial.md",
+    "local link: reviews/2026-10-08/hybrid-original-single-prime-part-checkpoint-review-checkpoint-audit.md -> ../../scripts/hybrid_original_single_prime_part_checkpoint.py",
+    "local link: reviews/2026-10-08/hybrid-original-single-prime-part-checkpoint-review-checkpoint-audit.md -> ../../notes/480-original-type-ii-single-prime-part-and-whole-moment-transfer.md",
+    "local link: reviews/2026-10-08/hybrid-original-single-prime-part-checkpoint-review-checkpoint-audit.md -> hybrid-original-single-prime-part-note-review-checkpoint-audit.md",
+    "local link: reviews/2026-10-08/hybrid-original-single-prime-part-checkpoint-review-checkpoint-audit.md -> hybrid-original-type-ii-small-single-prime-part-fourth-research-radial.md",
+    "local link: reviews/2026-10-08/hybrid-original-single-prime-part-checkpoint-review-checkpoint-audit.md -> hybrid-original-type-ii-small-single-prime-part-fourth-review-checkpoint-audit.md",
+    "local link: reviews/2026-10-08/hybrid-original-single-prime-part-checkpoint-review-checkpoint-audit.md -> ../../output/hybrid-original-type-ii-factor-checkpoint.json",
+    "local link: notes/476-original-fourth-growth-five-sevenths-with-ivic-density.md -> ../reviews/2026-10-08/hybrid-ivic-density-and-scalar-fourth-growth-research-twisted.md",
+    "local link: notes/476-original-fourth-growth-five-sevenths-with-ivic-density.md -> ../reviews/2026-10-08/hybrid-positive-height-zero-packet-fourth-upper-research-radial.md",
+    "local link: notes/476-original-fourth-growth-five-sevenths-with-ivic-density.md -> ../reviews/2026-10-08/hybrid-fixed-start-half-gram-sampling-research-root.md",
+    "local link: notes/476-original-fourth-growth-five-sevenths-with-ivic-density.md -> ../reviews/2026-10-08/hybrid-ivic-density-and-scalar-fourth-growth-review-root.md",
+    "local link: reviews/2026-10-08/hybrid-ivic-density-and-scalar-fourth-growth-research-twisted.md -> hybrid-positive-height-zero-packet-fourth-upper-research-radial.md",
+    "local link: reviews/2026-10-08/hybrid-ivic-density-and-scalar-fourth-growth-research-twisted.md -> hybrid-short-carrier-canonical-scalar-fourth-admission-research-radial.md",
+    "local link: reviews/2026-10-08/hybrid-ivic-density-and-scalar-fourth-growth-research-twisted.md -> hybrid-fixed-start-half-gram-sampling-research-root.md",
+    "local link: reviews/2026-10-08/hybrid-ivic-density-and-scalar-fourth-growth-review-root.md -> hybrid-ivic-density-and-scalar-fourth-growth-research-twisted.md",
+    "local link: reviews/2026-10-08/hybrid-ivic-density-and-scalar-fourth-growth-review-root.md -> hybrid-positive-height-zero-packet-fourth-upper-research-radial.md",
+    "local link: reviews/2026-10-08/hybrid-ivic-density-and-scalar-fourth-growth-review-root.md -> hybrid-fixed-start-half-gram-sampling-research-root.md",
+    "original small-single-prime-part cost is 7/10",
+    "floor lower bound for V costs at most factor 16",
+    "prefix, coefficient and dyad loss is 3/4 of final epsilon",
+    "fixed epsilon allocation has positive margin",
+    "subfamily fourth-power gap is 1/120",
+    "subfamily norm gap is 1/480",
+    "whole exponent dominates old assembled error",
+    "PH to R1 transfer exponent is 479/672",
+    "R0 to R1 transfer exponent is 199/280",
+    "PH transfer growth-scale gap is 1/672",
+    "R0 transfer growth-scale gap is 1/280",
+    "general family cost is B-4delta",
+    "two family costs differ by 17/28-2delta",
+    "affine cost dominance holds throughout closed endpoint interval",
+    "R0 to Rdelta transfer is B-delta",
+    "assembled error switch occurs at delta=1/672",
+    "two error branches agree at switch",
+    "general error decreases with fixed delta",
+    "PH transfer branches are exactly B-min(delta,1/672)",
+    "both fixed examples lie in open family domain",
+    "delta=1/280 recovers original cutoff and 7/10 cost",
+    "delta=1/280 recovers original R0 transfer",
+    "largest cutoff retaining old error has exponent 5/96",
+    "cutoff power grows by 1/480",
+    "sharp-cut subfamily cost equals 17/24",
+    "sharp cutoff is in uniform counting domain",
+    "within this monotone cost family, a<=5/96 iff dominant cost<=17/24",
+    "sharp-cut R0 transfer also has exponent 479/672"
+  ],
+  "files": {
+    "notes/480-original-type-ii-single-prime-part-and-whole-moment-transfer.md": {
+      "canonical_sha256": "13a6cbd697ad960cdb97543090861373f21b6970710bc2d247edac59bb08e791",
+      "canonical_bytes": 7993,
+      "lines": 185
+    },
+    "reviews/2026-10-08/hybrid-original-type-ii-small-single-prime-part-fourth-research-radial.md": {
+      "canonical_sha256": "f0b740a85b09f70b68653bf3ec06288150876f1f761920ffb1107620fbf44580",
+      "canonical_bytes": 11658,
+      "lines": 329
+    },
+    "reviews/2026-10-08/hybrid-original-type-ii-small-single-prime-part-fourth-review-checkpoint-audit.md": {
+      "canonical_sha256": "2066698dfe4079c6a174369cd48e05986d52a14177466f7b38b25fad4c2adb2f",
+      "canonical_bytes": 8197,
+      "lines": 151
+    },
+    "reviews/2026-10-08/hybrid-original-single-prime-part-note-review-checkpoint-audit.md": {
+      "canonical_sha256": "a5c2ec4542667e6d7f2b3a2f82aa78768aca49341250874a2d6c96d053c3d3d8",
+      "canonical_bytes": 8409,
+      "lines": 146
+    },
+    "scripts/hybrid_original_single_prime_part_checkpoint.py": {
+      "canonical_sha256": "af1014604fe3b3a02c74793ac4925f4bfdba46c9519c3e65f56d7f617e4d0bf4",
+      "canonical_bytes": 10347,
+      "lines": 180
+    },
+    "reviews/2026-10-08/hybrid-original-single-prime-part-checkpoint-review-checkpoint-audit.md": {
+      "canonical_sha256": "ef79a897d1590d103b621e693c4ed299cbb56e013533ae7ac6b0d20e675c69f4",
+      "canonical_bytes": 7434,
+      "lines": 108
+    },
+    "notes/479-original-type-ii-factor-reduction-and-diagonal-gauge.md": {
+      "canonical_sha256": "6b6e15f8a3a83d62e1d472cbeaa86a894c9e01740ccd682fc79ec99c2ec5a559",
+      "canonical_bytes": 7029,
+      "lines": 140
+    },
+    "reviews/2026-10-08/hybrid-original-type-ii-short-lambda-factor-fourth-research-radial.md": {
+      "canonical_sha256": "b39876e0b9d91a06de57d1069cf6adac676252bd1fe737186bb065716015abb0",
+      "canonical_bytes": 21261,
+      "lines": 524
+    },
+    "reviews/2026-10-08/hybrid-original-type-ii-short-lambda-factor-fourth-review-twisted.md": {
+      "canonical_sha256": "d8d7df7390328a3d1dc4adb417f792dfd246776e0ac84567a4733db0c9792f88",
+      "canonical_bytes": 11353,
+      "lines": 160
+    },
+    "reviews/2026-10-08/hybrid-mt-six-neighbor-diagonal-gauge-and-actual-counting-research-compression.md": {
+      "canonical_sha256": "361c32d6e28cfd2e5c30516b42e58297f11f4516c77407de39c5f32b8af7c30b",
+      "canonical_bytes": 7312,
+      "lines": 188
+    },
+    "reviews/2026-10-08/hybrid-mt-six-neighbor-diagonal-gauge-and-actual-counting-review-twisted.md": {
+      "canonical_sha256": "b0878550dfeb1b2443772a47a197fd424f721d12fa14176a9c74c432b4c25416",
+      "canonical_bytes": 7798,
+      "lines": 160
+    },
+    "reviews/2026-10-08/hybrid-original-type-ii-factor-checkpoint-review-checkpoint-audit.md": {
+      "canonical_sha256": "d0024cf463f777c1c1f828d46417d2ed6f033c085bfcd8a6b864ce826bd8af6c",
+      "canonical_bytes": 10060,
+      "lines": 177
+    },
+    "scripts/hybrid_original_type_ii_factor_checkpoint.py": {
+      "canonical_sha256": "bee0cb73218810e49a815daf7ff2c3bb398b063911d26baf93119d3d74cf149d",
+      "canonical_bytes": 9305,
+      "lines": 171
+    },
+    "notes/478-original-mt-six-neighbor-dual-and-whole-chain-proportion.md": {
+      "canonical_sha256": "6ab8384289cf7470b7ee448e381f5e9afdd268b13852f95322c98c1a62dd5c54",
+      "canonical_bytes": 6846,
+      "lines": 128
+    },
+    "reviews/2026-10-08/hybrid-mt-six-neighbor-spectral-dual-and-actual-counting-research-compression.md": {
+      "canonical_sha256": "c69dcf11fe9ed46be77dbd5c2926e6058193cf61808613a73121797aa53656a9",
+      "canonical_bytes": 12574,
+      "lines": 331
+    },
+    "reviews/2026-10-08/hybrid-mt-six-neighbor-spectral-dual-and-actual-counting-review-radial.md": {
+      "canonical_sha256": "44676c596dd21daa47925a58e22d78f5fcea55b91a9cf1b4dc0e6e5ed64539a4",
+      "canonical_bytes": 7986,
+      "lines": 115
+    },
+    "reviews/2026-10-08/hybrid-mt-six-neighbor-spectral-dual-and-actual-counting-review-twisted.md": {
+      "canonical_sha256": "6779ddaedbb1dc7ae79eb125db716f59f9dfcc803a80b56dd9ffdd3181838af7",
+      "canonical_bytes": 9602,
+      "lines": 197
+    },
+    "reviews/2026-10-08/hybrid-short-mobius-twist-and-vaughan-zero-residue-research-radial.md": {
+      "canonical_sha256": "a970366e68b8d3526c0dadac49b8ee8f4a7b6984e763712a851f8b6d353a291d",
+      "canonical_bytes": 6064,
+      "lines": 113
+    },
+    "reviews/2026-10-08/hybrid-short-mobius-twist-and-vaughan-zero-residue-review-twisted.md": {
+      "canonical_sha256": "9236813c4a6089210419b702d656e8e5e747a1c5f74a31b75f78e81d62818cf2",
+      "canonical_bytes": 6951,
+      "lines": 107
+    },
+    "scripts/hybrid_mt_six_neighbor_geometry_certificate.py": {
+      "canonical_sha256": "b7bac147d76b7e1fb2bbe1307518acf4642cb0aedbba2c0fd8eebc610d1d3a8c",
+      "canonical_bytes": 7043,
+      "lines": 163
+    },
+    "output/hybrid-mt-six-neighbor-geometry-certificate.json": {
+      "canonical_sha256": "0b587847baa23014d947a7621f491a5f9175d714341b2bc9026465073aceee95",
+      "canonical_bytes": 1587,
+      "lines": 58
+    },
+    "notes/304-mt-triple-geometry-and-second-moment-stability.md": {
+      "canonical_sha256": "03f21ab1749157ff45bc4d4f62709e2a5482257c7155e7e8e644da0ac4521bc4",
+      "canonical_bytes": 26598,
+      "lines": 645
+    },
+    "notes/476-original-fourth-growth-five-sevenths-with-ivic-density.md": {
+      "canonical_sha256": "179829dd25f92ff187359f73455aafad9f957d714df13cf871db47a76e9408b6",
+      "canonical_bytes": 4448,
+      "lines": 96
+    },
+    "notes/477-original-vaughan-reduction-and-replayed-multipoint-proportion.md": {
+      "canonical_sha256": "9c2da25b665070fe5496b9b02cbe382208cd3b60dc793af1ae018ede395bd6b5",
+      "canonical_bytes": 6586,
+      "lines": 100
+    },
+    "reviews/2026-10-08/hybrid-original-multipoint-envelope-and-actual-counting-research-compression.md": {
+      "canonical_sha256": "59b399445a3022ce9b5ee6c064660e1602dab6d5641d3793649f16f509fc5efa",
+      "canonical_bytes": 16963,
+      "lines": 421
+    },
+    "scripts/hybrid_multipoint_cap_replay.py": {
+      "canonical_sha256": "8ac87f18cf928a51771556168e5af07400a3ba0333196b3e410394d8e4c37d05",
+      "canonical_bytes": 11337,
+      "lines": 242
+    },
+    "output/hybrid-multipoint-cap-exact-algebra.json": {
+      "canonical_sha256": "d84077ab71b47d1ea253cad9675fa8c25f9aa4dade775ad73ff53033167625c3",
+      "canonical_bytes": 3367,
+      "lines": 84
+    },
+    "output/hybrid-multipoint-seven-primary-replay.json": {
+      "canonical_sha256": "aa6885489c1d0086bca32b72d27fc7a2a5f44a48f78483a057f23a59e5a828e6",
+      "canonical_bytes": 2108,
+      "lines": 48
+    },
+    "scripts/hybrid_mt_six_neighbor_proportion_checkpoint.py": {
+      "canonical_sha256": "258b412e505b9c61fba6d9459c08c99ba3139be91963ab0cc541e3b6c2f84a5b",
+      "canonical_bytes": 10934,
+      "lines": 193
+    },
+    "output/hybrid-mt-six-neighbor-proportion-checkpoint.json": {
+      "canonical_sha256": "1d92dd0f51c361043d58207c62e50efc647671c52ce8c4f746830c40a0ea8c63",
+      "canonical_bytes": 16557,
+      "lines": 231
+    },
+    "reviews/2026-10-08/hybrid-original-vaughan-type-i-and-type-ii-reduction-research-radial.md": {
+      "canonical_sha256": "cf58086aeb9eee63832ccd06f5499110ea236b4bd94396893757b62e75bdb9d4",
+      "canonical_bytes": 12260,
+      "lines": 324
+    },
+    "reviews/2026-10-08/hybrid-original-vaughan-type-i-and-type-ii-reduction-review-twisted.md": {
+      "canonical_sha256": "576a0841b5a5ad9bf8fbda74561bb83ca3d16654a0c2faac5f4aa80269fb296f",
+      "canonical_bytes": 9160,
+      "lines": 174
+    },
+    "reviews/2026-10-08/hybrid-short-carrier-canonical-scalar-fourth-admission-research-radial.md": {
+      "canonical_sha256": "f04279a9de54303d772859b2ee5e05010567404c53143c928a14e905eb51a0d7",
+      "canonical_bytes": 14699,
+      "lines": 370
+    },
+    "output/hybrid-original-type-ii-factor-checkpoint.json": {
+      "canonical_sha256": "88ff98918fa6fda62996e848e120a7ffdf0030472b9709c94cb9f61ac5f09b1e",
+      "canonical_bytes": 21584,
+      "lines": 310
+    },
+    "reviews/2026-10-08/hybrid-ivic-density-and-scalar-fourth-growth-research-twisted.md": {
+      "canonical_sha256": "a21a19e7bd09892ed705fa7883143e49c138ffe112c561be9413edaf44d72a1d",
+      "canonical_bytes": 9802,
+      "lines": 184
+    },
+    "reviews/2026-10-08/hybrid-ivic-density-and-scalar-fourth-growth-review-root.md": {
+      "canonical_sha256": "061342dfe685c5cd59114f07444ed36eba3e68905e30f11505a46e3fcc088767",
+      "canonical_bytes": 4778,
+      "lines": 91
+    },
+    "reviews/2026-10-08/hybrid-positive-height-zero-packet-fourth-upper-research-radial.md": {
+      "canonical_sha256": "8bcbd27da46d922d9e6e741fcf9a87012d565052f8d97b3ad12e99b3edbc2481",
+      "canonical_bytes": 12641,
+      "lines": 332
+    },
+    "reviews/2026-10-08/hybrid-fixed-start-half-gram-sampling-research-root.md": {
+      "canonical_sha256": "7ed68a71d4d22d0bf1d90c61cef231534737188131aad9842669cd11f19c82cc",
+      "canonical_bytes": 7522,
+      "lines": 199
+    }
+  },
+  "review_pairs": [
+    [
+      "reviews/2026-10-08/hybrid-original-type-ii-small-single-prime-part-fourth-review-checkpoint-audit.md",
+      "reviews/2026-10-08/hybrid-original-type-ii-small-single-prime-part-fourth-research-radial.md"
+    ],
+    [
+      "reviews/2026-10-08/hybrid-original-single-prime-part-note-review-checkpoint-audit.md",
+      "notes/480-original-type-ii-single-prime-part-and-whole-moment-transfer.md"
+    ],
+    [
+      "reviews/2026-10-08/hybrid-original-single-prime-part-checkpoint-review-checkpoint-audit.md",
+      "scripts/hybrid_original_single_prime_part_checkpoint.py"
+    ],
+    [
+      "reviews/2026-10-08/hybrid-ivic-density-and-scalar-fourth-growth-review-root.md",
+      "reviews/2026-10-08/hybrid-ivic-density-and-scalar-fourth-growth-research-twisted.md"
+    ],
+    [
+      "reviews/2026-10-08/hybrid-ivic-density-and-scalar-fourth-growth-review-root.md",
+      "reviews/2026-10-08/hybrid-positive-height-zero-packet-fourth-upper-research-radial.md"
+    ],
+    [
+      "reviews/2026-10-08/hybrid-ivic-density-and-scalar-fourth-growth-review-root.md",
+      "reviews/2026-10-08/hybrid-fixed-start-half-gram-sampling-research-root.md"
+    ]
+  ],
+  "local_links_checked": 32,
+  "rational_costs": {
+    "S_original_power": "1/20",
+    "D_original_fourth": "7/10",
+    "assembled_fourth": "17/24",
+    "whole_growth": "5/7",
+    "PH_to_R1_additive": "479/672",
+    "R0_to_R1_additive": "199/280",
+    "S_sharp_power": "5/96",
+    "cutoff_power_gain": "1/480",
+    "D_sharp_fourth": "17/24",
+    "PH_to_Rsharp_additive": "479/672",
+    "R0_to_Rsharp_additive": "479/672",
+    "PH_growth_scale_gap": "1/672",
+    "R0_original_growth_scale_gap": "1/280"
+  },
+  "fixed_delta_family": {
+    "domain": "0<delta<3/56, fixed before X tends to infinity",
+    "S_power": "3/56-delta",
+    "D_fourth": "5/7-4delta",
+    "R0_additive": "5/7-delta",
+    "PH_additive": "5/7-min(delta,1/672)"
+  },
+  "preserved_p_dg_interval": [
+    "144883718717093990038447236655639983274406783850455/215261827327800757567083368853099932747578493370368",
+    "72441859358546995019223618327819991669906394854915/107630913663900378783541684426549966373789246685184"
+  ],
+  "scope": [
+    "Exact costs, affine-family identities, local links and final source/review hashes only.",
+    "All 27 published 479 snapshots are inherited unchanged; their finite covers are not rerun.",
+    "Infinite subfamily and Holder bounds are separately reviewed, not certified by this script.",
+    "Whole transfers additionally use the original R_7/8 and the published 476 growth input.",
+    "No new whole growth exponent, constant fourth moment, zero proportion or zero-free boundary."
+  ]
+}
