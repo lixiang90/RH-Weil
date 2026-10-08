@@ -1,0 +1,104 @@
+{
+  "status": "finite arithmetic and source bindings only",
+  "proves_infinite_estimates": false,
+  "proves_new_whole_bound": false,
+  "proves_new_zero_proportion_or_region": false,
+  "parameters": {
+    "v": "2/21",
+    "a": "4/21",
+    "y": "17/21",
+    "H": "V^2"
+  },
+  "costs": {
+    "low": "13/21",
+    "type_i": "11/21",
+    "short_lambda": "13/21",
+    "proper_power": "13/21",
+    "squarefull_tail": "13/21"
+  },
+  "complete_error": "13/21",
+  "quoted_whole": "5/7",
+  "conditional_transfer": "29/42",
+  "finite_coefficient_runs": [
+    {
+      "X": 4096,
+      "U": 2,
+      "V": 2,
+      "M": 4,
+      "H": 4,
+      "floor_Y": 840,
+      "high_coefficients": 3256
+    },
+    {
+      "X": 6561,
+      "U": 2,
+      "V": 2,
+      "M": 5,
+      "H": 4,
+      "floor_Y": 1230,
+      "high_coefficients": 5331
+    }
+  ],
+  "finite_euler_runs": [
+    {
+      "V": 2,
+      "H": 4,
+      "prime_count": 2,
+      "squarefree_count": 4,
+      "squarefull_count": 2
+    },
+    {
+      "V": 3,
+      "H": 9,
+      "prime_count": 4,
+      "squarefree_count": 16,
+      "squarefull_count": 4
+    },
+    {
+      "V": 5,
+      "H": 25,
+      "prime_count": 9,
+      "squarefree_count": 512,
+      "squarefull_count": 6
+    }
+  ],
+  "check_count": 25778,
+  "check_digest": "8d0dd396bcec705ee835615013bbbe2880fcf19680639a761001f1d90300b5b9",
+  "files": {
+    "notes/481-original-type-ii-squarefull-tail-and-optimized-moment-transfer.md": {
+      "canonical_sha256": "4ce3ea2ac087d734142c8788607c1c54fc6887bcf535c806c88097447afdc63e",
+      "canonical_bytes": 10661,
+      "lines": 239
+    },
+    "reviews/2026-10-08/hybrid-original-type-ii-large-single-prime-part-research-checkpoint-audit.md": {
+      "canonical_sha256": "66c35eb3ed43cec836ff1d10ed01322f115684c44b771d3db7364637994c3cab",
+      "canonical_bytes": 15353,
+      "lines": 401
+    },
+    "reviews/2026-10-08/hybrid-original-vaughan-type-i-and-type-ii-reduction-research-radial.md": {
+      "canonical_sha256": "cf58086aeb9eee63832ccd06f5499110ea236b4bd94396893757b62e75bdb9d4",
+      "canonical_bytes": 12260,
+      "lines": 324
+    },
+    "reviews/2026-10-08/hybrid-original-type-ii-short-lambda-factor-fourth-research-radial.md": {
+      "canonical_sha256": "b39876e0b9d91a06de57d1069cf6adac676252bd1fe737186bb065716015abb0",
+      "canonical_bytes": 21261,
+      "lines": 524
+    },
+    "reviews/2026-10-08/hybrid-short-carrier-canonical-scalar-fourth-admission-research-radial.md": {
+      "canonical_sha256": "f04279a9de54303d772859b2ee5e05010567404c53143c928a14e905eb51a0d7",
+      "canonical_bytes": 14699,
+      "lines": 370
+    },
+    "notes/476-original-fourth-growth-five-sevenths-with-ivic-density.md": {
+      "canonical_sha256": "179829dd25f92ff187359f73455aafad9f957d714df13cf871db47a76e9408b6",
+      "canonical_bytes": 4448,
+      "lines": 96
+    },
+    "scripts/hybrid_optimized_type_ii_checkpoint.py": {
+      "canonical_sha256": "ef8e89e94686036d302d3c817fbbecec80a5ab9f31529dfa814f1aea9273abfc",
+      "canonical_bytes": 9025,
+      "lines": 235
+    }
+  }
+}

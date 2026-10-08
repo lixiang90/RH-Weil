@@ -11,7 +11,36 @@
 原路线仍先争取中心四阶上界，在flat端点v=1/3时，超过0.6734824需B4<0.3265865761…
 并支付全部配置误差。未更新项目比例、四矩增长或无零边界。
 
-## 当前队列（2026-10-08，原 Type II 扩大截断与矩传递）
+## 当前队列（2026-10-08，平方丰满尾、优化截断与真实 unit 主频带）
+
+Goal active。对原 Type II 先合并 genuine-prime m 与平方自由s，再对所有
+平方丰满r>H求和，完整尾的四矩为X^epsilon(1+X/H²)。联合取
+U=V=floor(X^(2/21))、M=floor(X^(4/21))、H=V²、Y=X^(17/21)，
+同一原素数函数与新最终余项的完整误差四矩降为13/21。
+原7/8引用输入下，完整第四矩传递误差降为29/42，距已有whole5/7增长尺度
+节省1/42。全部参数、原系数、不同作者全文审查和25778项精确检查见
+[481](notes/481-original-type-ii-squarefull-tail-and-optimized-moment-transfer.md)。
+这是完整误差和传递的改进，最终余项的whole四矩仍未改善。
+
+原短载体的unit/unit余块另已缩为真实单加性主频带n~qX/s、q不整除n。
+全部log-chirp修正付到X^(1/2)log^C X，边界、整数alias及整个graph correction
+也已支付；仍未证主频带的完整signed上界。详见
+[研究源](reviews/2026-10-08/hybrid-whole-fourth-unit-unit-actual-research-whole.md)及
+[root全文独审](reviews/2026-10-08/hybrid-whole-fourth-unit-unit-actual-review-root.md)。
+
+| 范围 | 已付与下一目标 |
+|---|---|
+| 原Type II | 新最终余项保留m>M为genuine prime、r(k)<=V²、s(k)>=2、原b_V(k)及Y<mk<=X。下一项为其完整signed mixed4；零点留数接口仍存在。 |
+| 原完整四矩 | 合成误差13/21、引用输入下传递29/42已付；whole5/7和常数级四矩目标保持。 |
+| 原短载体 | 已付双非单位、chirp、boundary、alias和graph；下一项是共同q,s,n,p,r,u的nu主频带signed预算，随后消费原whole桥和good-set概率分母。 |
+| 比例有限接口 | 八点sqrt-pressure、所有m-offset端项、AM自身窗二矩和304实际计数桥已有完整证明；[新来源](reviews/2026-10-08/hybrid-original-eight-point-sqrt-pressure-research-compression.md)的外部PC8CL七维全域证书未重放，条件已知比例尚不计入项目。 |
+| 原比例与边界 | p_dg=67.3058110282…%、引用输入下sigma_*≈0.874957019420099保持；79.62%候选未准入，无新纪录或边界论文。 |
+| 联合解析桥 | 新误差仍增长；常数级四矩、Hecke全族深度及kappa反馈仍须实际估计。 |
+| 换域研究 | 按用户要求搁置，继续原对象。 |
+
+公开README保持项目介绍。以下为此前队列和历史记录。
+
+## 此前队列（2026-10-08，原 Type II 扩大截断与矩传递）
 
 Goal active。原 Type II 的小一次素因子部分已支付完整7/10四矩；
 同一对子族截断的一致估计把截断扩大至Ssharp=floor(X^(5/96))，
