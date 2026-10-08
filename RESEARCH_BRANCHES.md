@@ -24,19 +24,32 @@ B4<174172614863/533312276805=0.3265865468285…，并支付全部配置误差。
 明确其最终Lean定理的native_decide计算公理及本轮实际核验范围；
 尚未独立重放完整搜索和工程，未替换483已准入基线。
 
-## 当前队列（2026-10-08，第二周期六轮复盘完成）
+## 当前队列（2026-10-08，第二周期复盘后第1轮）
 
-Goal active。491–496六轮已完成俯瞰复盘，计数重置为0；
-下一周期默认第6轮再次复盘，4轮可提前，8轮必须。
+Goal active。491–496六轮已完成俯瞰复盘；本轮为复盘后的第1轮。
+本周期默认第6轮再次复盘，4轮可提前，8轮必须。
 [第二周期复盘](goals/reviews/2026-10-08-original-route-review-cycle-2.md)
 区分了实际前缀增长改善、mixed与远尾付款、核心归约及仍未付算术前件。
 这六轮没有改善实际比例、451条件边界、原未截断全局四阶幂或中心常数。
 
-第6轮在普通ζ的R_7/8前件下，保持原X、时间尺度、窗与normalizer，
+本轮在普通ζ的R_7/8前件下，按原χ×Schatten4控制15个完整mixed词，
+将至少一个高素数标签≤X^.9的实际/physical四全异族及原主带付到379/560。
+完整q≤X^u前缀的major/cap正包络与准确分区也已重推：
+u=.9的旧完整minor、489 cap外余额及491优化余额分别付3/5、493/700、993/1400。
+先在全主带拆低标签族与四标签都>X^.9的矩形，再直接重估major及新有理族，
+得到原完整unit=K489,all>X^.9+O(X^.7 log^C X)。
+全上端族的产品cap为空；这里保留489所有频率和高产品端period。
+未付核心因而有全部q,s,p,r>X^.9及q/s<X^.1。
+完整证明、费用分列与不同作者核验见
+[497](notes/497-original-prefix-projection-and-low-label-mixed-core.md)。
+核心的实际signed省幂仍未付，未改善原全局四矩、中心常数、比例或边界。
+
+此前第6轮在普通ζ的R_7/8前件下，保持原X、时间尺度、窗与normalizer，
 将全部q_max≤X^u的完整实际子族付到B(u)=3u/2−11/14，17/20≤u≤1。
 u=.9时为79/140，double-nn与chirp分别为9/20、2/5；允许products至X^1.8。
 canonical scalar、actual/physical四全异、unit与实际主带前缀都保留原配置。
-它不能免费支付前缀内部minor、cap外切片或单q块；u=1仍回到5/7。
+其原证明没有直接支付前缀内部minor、cap外切片或单q块；u=1仍回到5/7。
+本轮前两项由正包络重推支付，单q或任意tuple子mask仍不能免费消费。
 证明及独审见
 [前缀证明](reviews/2026-10-08/hybrid-original-prime-cutoff-fourth-and-max-label-research-perron.md)、
 [不同作者审查](reviews/2026-10-08/hybrid-original-prime-cutoff-fourth-and-max-label-review-high-product.md)。
@@ -49,9 +62,9 @@ pr−q(s+b)+ell q²，移位远尾完整付X^(5/2−sqrt(8pi)) log^C X。
 [496](notes/496-original-masked-shifted-determinant-core.md)。
 
 新primary密度比较没有降低7/8顶端的3/14计数费用。
-下一周期先逐项重推q≤Z的major/cap正包络和完整分区桥，
-成功后才能相减得到prefix minor；同时主攻q_top≈X的真实carry signed省幂，
-并行保留实际系数combined near。
+q≤Z的major/cap正包络和完整分区桥已由本轮闭合。
+下一轮主攻四个素数都>X^.9的实际双prime偏差或carry signed省幂，
+并行保留实际系数combined near；原ν全部频率移位和高产品端period不删除。
 名义门槛r>u+w−12/7；严格改善已有B_*时须r>u+w−1−B_*，
 顶端约需r>0.285801997046972。可先检验旧cap之外的窄真实方面比，
 但其他范围、全部ν/twists与边界仍须付。
