@@ -1,0 +1,211 @@
+{
+  "schema": "rh-weil-am-nine-point-adaptive-round-manifest-v1",
+  "date": "2026-10-08",
+  "baseline_commit": "6666ad6e6afebe35544eb979f7a883e5337880fa",
+  "goal_status": "active",
+  "rounds_since_review": 3,
+  "actual_simple_critical_proportion_unchanged": "66812491/99194997",
+  "new_zero_free_boundary": false,
+  "uniform_nine_point_gain_proved": false,
+  "positive_normalized_adaptive_input_proved": false,
+  "conditional_adaptive_target_only": "67356/100000",
+  "low_cover": {
+    "original_cells": 70,
+    "labelled_cells_with_reflections": 140,
+    "distinct_geometric_cells": 132,
+    "ordered_pairs": 19600,
+    "compatible_pairs": 289,
+    "average_paid_labelled_pairs": 78,
+    "unpaid_labelled_pairs": 211
+  },
+  "input_pins": [
+    {
+      "path": "notes/498-lossless-am-eight-point-simple-critical-proportion.md",
+      "lines": 110,
+      "canonical_lf_bytes": 6010,
+      "canonical_lf_sha256": "fa921954da4a312c0efbe33330363dc41c0804081f3c8880888508c20d34faeb"
+    },
+    {
+      "path": "notes/499-am-bounded-storage-periodic-ceiling-and-negative-spectrum.md",
+      "lines": 145,
+      "canonical_lf_bytes": 8335,
+      "canonical_lf_sha256": "7378ec659f01dc188ab6322c0578276f64827838d740cd0279bc5eec3570ad37"
+    },
+    {
+      "path": "scripts/am_pc8_finite_replay.py",
+      "lines": 280,
+      "canonical_lf_bytes": 13273,
+      "canonical_lf_sha256": "2db626d7c3fbcc1f6ced7580d0fe847fff743b1039aa58797392e9e05845600f"
+    },
+    {
+      "path": "output/am-pc8-finite-replay.json",
+      "lines": 998,
+      "canonical_lf_bytes": 17001,
+      "canonical_lf_sha256": "48c29521994321837b60ea39661b93f87c28560b5f19932c583ad8b29f5dd549"
+    },
+    {
+      "path": "formal/certificates/AMPC8StructuralBridge.lean",
+      "lines": 165,
+      "canonical_lf_bytes": 5906,
+      "canonical_lf_sha256": "98771eceea94a14f3a1be38c1e9c7ab48fffbb0d1c77bbfde636d21358b9ba9f"
+    },
+    {
+      "path": "formal/certificates/AMPC8MinorantBridge.lean",
+      "lines": 101,
+      "canonical_lf_bytes": 5512,
+      "canonical_lf_sha256": "f3947ca27750760322481a87ed5da4a5a8702a92bdf4570a6a4727f957fee114"
+    }
+  ],
+  "new_artifacts": [
+    {
+      "path": "notes/500-am-nine-point-low-slack-cover-and-adaptive-spectrum.md",
+      "lines": 157,
+      "canonical_lf_bytes": 9777,
+      "canonical_lf_sha256": "fd5691b32f44edd6d85122d12a057f0c4c5ff44e3f0f28d4bdb44a9c358cfc4d"
+    },
+    {
+      "path": "scripts/am_adaptive_leverage_gain_certificate.py",
+      "lines": 97,
+      "canonical_lf_bytes": 4258,
+      "canonical_lf_sha256": "8d3955001ab59c2622936d969ba84cf18692b36061b34b280070311762551e6d"
+    },
+    {
+      "path": "output/am-adaptive-leverage-gain-certificate.json",
+      "lines": 25,
+      "canonical_lf_bytes": 1500,
+      "canonical_lf_sha256": "4c2e9350449b598a6124cdbc7b92d76cd1cebc7fb3474676f25f1c3d94c46865"
+    },
+    {
+      "path": "scripts/am_nine_point_low_slack_cover.py",
+      "lines": 219,
+      "canonical_lf_bytes": 10565,
+      "canonical_lf_sha256": "0c203ae8d05796f73e5ca5018935067342a65f6a9eac3a800b5d36893cfde629"
+    },
+    {
+      "path": "output/am-nine-point-low-slack-cover.json",
+      "lines": 6752,
+      "canonical_lf_bytes": 131270,
+      "canonical_lf_sha256": "628fdf422495f15f3b5f5ce7e035f8f439d43c0928883509f39034c87b0c64ff"
+    },
+    {
+      "path": "reviews/2026-10-08/am-nine-point-lift-research-high-product.md",
+      "lines": 161,
+      "canonical_lf_bytes": 8823,
+      "canonical_lf_sha256": "88bd93c28ca361a5be70a48504a186378abba57031ac0f149b08eaf5a8acf045"
+    },
+    {
+      "path": "reviews/2026-10-08/all-zero-schur-residual-research-checkpoint.md",
+      "lines": 175,
+      "canonical_lf_bytes": 10734,
+      "canonical_lf_sha256": "43e1d8a1dc0b0d2f885d4f3e55b5c58e0efe6638a2e6ac74f3fcc627b4adb155"
+    },
+    {
+      "path": "reviews/2026-10-08/adaptive-leverage-and-nine-point-review-perron.md",
+      "lines": 135,
+      "canonical_lf_bytes": 8211,
+      "canonical_lf_sha256": "67134d55b547eb87632d6c81880bcee7dc3d4fc25aa36363de9f1f5bd67c816a"
+    },
+    {
+      "path": "reviews/2026-10-08/am-low-slack-cover-review-checkpoint.md",
+      "lines": 98,
+      "canonical_lf_bytes": 8955,
+      "canonical_lf_sha256": "ce22c49d30f61ce76db6f80f5ab61ea748f788a262fdd8f832eff613d141398a"
+    },
+    {
+      "path": "reviews/2026-10-08/original-high-prime-narrow-aspect-research-perron.md",
+      "lines": 172,
+      "canonical_lf_bytes": 10494,
+      "canonical_lf_sha256": "c56cb22bf3e0977998eec400fc17dee12dc7647e92dc12a61f251cdd79fcf9da"
+    },
+    {
+      "path": "reviews/2026-10-08/original-high-prime-narrow-aspect-review-high-product.md",
+      "lines": 113,
+      "canonical_lf_bytes": 6987,
+      "canonical_lf_sha256": "c2e2165557c3ebf8ea148151ecd56e1865d9c51c88c95455fb639a1c25f2f625"
+    },
+    {
+      "path": "scripts/run_checks.py",
+      "lines": 417,
+      "canonical_lf_bytes": 14127,
+      "canonical_lf_sha256": "a85c414c7962f95d54915a8a96e7260bc9a734eecb5ff9dcc818926d0e04310f"
+    },
+    {
+      "path": "RESEARCH_BRANCHES.md",
+      "lines": 1272,
+      "canonical_lf_bytes": 211871,
+      "canonical_lf_sha256": "ef4918f96751f696a0b6c0ff8b90a389d397c095de2915852196d091fd4a9434"
+    },
+    {
+      "path": "goals/review-cadence.json",
+      "lines": 14,
+      "canonical_lf_bytes": 659,
+      "canonical_lf_sha256": "a0db46854cd270dc89541bee7384138a4a88f67403181e279ee42161efdfe9b0"
+    }
+  ],
+  "review_scope": {
+    "root": "FULL READ new scripts and mathematical sources; actual isolated Lean regeneration, all captured data comparison, exact geometry and conditional --check; final note; not full external search or whole 90-check suite",
+    "checkpoint": "FULL READ low-cover script and all compact captured cells/pairs; old continuous audits; exact regenerated-core diff; independent Bellman-Ford 19600 pairs; actual captured --check and expected -O refusal; finite adaptive spectral author",
+    "high_product": "nine-point author and actual Arb specified-box diagnostic; independent exact Floyd 19600 pairs and all 289 fields; FULL READ final note500 and all arithmetic sources; independent Fraction conditional constants",
+    "perron": "FULL READ nine-point/adaptive sources and scripts; independent Fraction budgets/targets and actual conditional --check; original narrow-aspect arithmetic author; low-cover pipeline scope checked"
+  },
+  "executed_checks": [
+    {
+      "name": "conditional adaptive --check",
+      "exit_code": 0,
+      "status": "PASS_CONDITIONAL_ALGEBRA_ONLY"
+    },
+    {
+      "name": "captured low-cover --check",
+      "exit_code": 0,
+      "status": "PASS_CAPTURED_DATA_ONLY"
+    },
+    {
+      "name": "public low-cover --replay",
+      "exit_code": 0,
+      "status": "PASS_ACTUAL_ISOLATED_LEAN_41_OLD_CHECKS_70_CELLS_289_PAIRS"
+    },
+    {
+      "name": "independent Bellman-Ford and Fraction/Floyd comparisons",
+      "exit_code": 0,
+      "status": "PASS_289_FIELDS_MATCH"
+    },
+    {
+      "name": "optimized Python -O guards, both new scripts",
+      "exit_code": 1,
+      "status": "EXPECTED_REFUSAL"
+    },
+    {
+      "name": "registry coverage and mocked dispatch",
+      "exit_code": 0,
+      "status": "PASS",
+      "core": 88,
+      "all": 90
+    }
+  ],
+  "transient_diagnostics": {
+    "committed": false,
+    "regenerated_by": "scripts/am_nine_point_low_slack_cover.py --replay",
+    "pins": [
+      {
+        "path": "tmp/pdfs/am-nine-point-low-slack/Low805203.lean",
+        "lines": 11673,
+        "canonical_lf_bytes": 1036872,
+        "canonical_lf_sha256": "c35a60cefbf034915af4ef4691ce75e9f491dc87e7876901ce2e5e283fffa455"
+      },
+      {
+        "path": "tmp/pdfs/am-nine-point-low-slack/replay-log.txt",
+        "lines": 211,
+        "canonical_lf_bytes": 34455,
+        "canonical_lf_sha256": "f983f2bf9467dd4c9f954953a83a8b12f85938ae1187f6be00db4120d0adc684"
+      }
+    ]
+  },
+  "trust_limits": [
+    "Captured leaf runtime and continuous semantics reuse the disclosed 483/498 PC8 admission; not a new pure Lean kernel certificate",
+    "--check does not run Lean or regenerate leaf minorants; --replay does so in an isolated directory",
+    "78/211 count labelled closed-domain descriptions, not disjoint zero configurations",
+    "No uniform delta or positive normalized adaptive h lower bound",
+    "No original joint arithmetic power saving or new strip",
+    "Only affected named checks and registry coverage rerun; no full 90-check suite"
+  ]
+}

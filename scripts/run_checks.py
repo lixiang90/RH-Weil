@@ -38,6 +38,14 @@ CHECKS = (
         "fixed AM range-seven periodic method ceiling",
         [sys.executable, "am_storage_periodic_ceiling_certificate.py", "--check"],
     ),
+    (
+        "conditional all-zero adaptive leverage algebra",
+        [sys.executable, "am_adaptive_leverage_gain_certificate.py", "--check"],
+    ),
+    (
+        "captured AM nine-point low-slack geometry and partial payment",
+        [sys.executable, "am_nine_point_low_slack_cover.py", "--check"],
+    ),
     ("quartic boundary and normalization certificate", [sys.executable, "quartic_boundary_certificate.py"]),
     ("elliptic degree and odd-polarization benchmark", [sys.executable, "elliptic_degree_benchmark.py"]),
     (
