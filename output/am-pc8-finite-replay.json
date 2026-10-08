@@ -1,0 +1,998 @@
+{
+  "status": "all finite data checks passed; continuous semantics requires separate audit",
+  "proves_external_analytic_theorems": false,
+  "proves_zero_proportion_by_itself": false,
+  "source_commit": "d272437e7ebeb17b87c8c3d7cece592aa23785ab",
+  "source_url": "https://raw.githubusercontent.com/josusanmartin/riemann/d272437e7ebeb17b87c8c3d7cece592aa23785ab/submissions/dani-bound-2026/proof/Solution.lean",
+  "source_raw_sha256": "012c6ac5f9282158a686500dc0c967bf0a9b00e1a6192734d8f237bb23dd2d5f",
+  "generator_canonical_sha256": "2db626d7c3fbcc1f6ced7580d0fe847fff743b1039aa58797392e9e05845600f",
+  "lean_toolchain": "leanprover/lean4:v4.34.1",
+  "lean_exit": 0,
+  "numeric_core_sha256": "f21a0d9f141a7807a6524f426b64a0c0b7b2e81e12581d3ec528f467e9bd1be3",
+  "numeric_runner_sha256": "170290e9a90bfc23addbcc7803656f1bfad9f1dd475b737d7e417ca9a5085ab2",
+  "symbolic_bridges": [
+    {
+      "path": "formal/certificates/AMPC8StructuralBridge.lean",
+      "sha256": "98771eceea94a14f3a1be38c1e9c7ab48fffbb0d1c77bbfde636d21358b9ba9f"
+    },
+    {
+      "path": "formal/certificates/AMPC8MinorantBridge.lean",
+      "sha256": "f3947ca27750760322481a87ed5da4a5a8702a92bdf4570a6a4727f957fee114"
+    }
+  ],
+  "symbolic_main_bridges": 30,
+  "kernel_adapter_guards": 5,
+  "retained_declarations": 2744,
+  "compiled_checks": 240,
+  "exact_structure_checks": [
+    "PR21",
+    "TS26",
+    "SL28",
+    "ADJ7",
+    "pressure-sum-and-reversal",
+    "pair-weight-reversal",
+    "span-capacity7"
+  ],
+  "checks": [
+    {
+      "name": "win16",
+      "passed": true
+    },
+    {
+      "name": "value-top",
+      "passed": true
+    },
+    {
+      "name": "value-block512",
+      "passed": true
+    },
+    {
+      "name": "derivative-top",
+      "passed": true
+    },
+    {
+      "name": "derivative-block512",
+      "passed": true
+    },
+    {
+      "name": "convex-regions",
+      "passed": true
+    },
+    {
+      "name": "large-gap7",
+      "passed": true
+    },
+    {
+      "name": "adjacent7",
+      "passed": true
+    },
+    {
+      "name": "root-W",
+      "passed": true
+    },
+    {
+      "name": "cover-0",
+      "passed": true
+    },
+    {
+      "name": "cover-1",
+      "passed": true
+    },
+    {
+      "name": "cover-2",
+      "passed": true
+    },
+    {
+      "name": "cover-3",
+      "passed": true
+    },
+    {
+      "name": "cover-4",
+      "passed": true
+    },
+    {
+      "name": "cover-5",
+      "passed": true
+    },
+    {
+      "name": "cover-6",
+      "passed": true
+    },
+    {
+      "name": "point-list-26",
+      "passed": true
+    },
+    {
+      "name": "point-list-29",
+      "passed": true
+    },
+    {
+      "name": "point-list-30",
+      "passed": true
+    },
+    {
+      "name": "point-list-31",
+      "passed": true
+    },
+    {
+      "name": "point-list-32",
+      "passed": true
+    },
+    {
+      "name": "point-list-33",
+      "passed": true
+    },
+    {
+      "name": "point-list-34",
+      "passed": true
+    },
+    {
+      "name": "point-list-35",
+      "passed": true
+    },
+    {
+      "name": "point-list-36",
+      "passed": true
+    },
+    {
+      "name": "point-list-37",
+      "passed": true
+    },
+    {
+      "name": "point-list-38",
+      "passed": true
+    },
+    {
+      "name": "point-list-57",
+      "passed": true
+    },
+    {
+      "name": "point-list-58",
+      "passed": true
+    },
+    {
+      "name": "point-list-59",
+      "passed": true
+    },
+    {
+      "name": "point-list-60",
+      "passed": true
+    },
+    {
+      "name": "point-list-61",
+      "passed": true
+    },
+    {
+      "name": "point-list-62",
+      "passed": true
+    },
+    {
+      "name": "point-list-63",
+      "passed": true
+    },
+    {
+      "name": "point-list-64",
+      "passed": true
+    },
+    {
+      "name": "point-list-65",
+      "passed": true
+    },
+    {
+      "name": "point-list-66",
+      "passed": true
+    },
+    {
+      "name": "point-list-67",
+      "passed": true
+    },
+    {
+      "name": "point-list-68",
+      "passed": true
+    },
+    {
+      "name": "point-list-69",
+      "passed": true
+    },
+    {
+      "name": "point-list-70",
+      "passed": true
+    },
+    {
+      "name": "point-list-89",
+      "passed": true
+    },
+    {
+      "name": "point-list-90",
+      "passed": true
+    },
+    {
+      "name": "point-list-91",
+      "passed": true
+    },
+    {
+      "name": "point-list-92",
+      "passed": true
+    },
+    {
+      "name": "point-list-93",
+      "passed": true
+    },
+    {
+      "name": "point-list-94",
+      "passed": true
+    },
+    {
+      "name": "point-list-95",
+      "passed": true
+    },
+    {
+      "name": "point-list-96",
+      "passed": true
+    },
+    {
+      "name": "point-list-97",
+      "passed": true
+    },
+    {
+      "name": "point-list-98",
+      "passed": true
+    },
+    {
+      "name": "point-list-99",
+      "passed": true
+    },
+    {
+      "name": "point-list-100",
+      "passed": true
+    },
+    {
+      "name": "point-list-101",
+      "passed": true
+    },
+    {
+      "name": "point-list-102",
+      "passed": true
+    },
+    {
+      "name": "point-list-122",
+      "passed": true
+    },
+    {
+      "name": "point-list-123",
+      "passed": true
+    },
+    {
+      "name": "point-list-124",
+      "passed": true
+    },
+    {
+      "name": "point-list-125",
+      "passed": true
+    },
+    {
+      "name": "point-list-126",
+      "passed": true
+    },
+    {
+      "name": "point-list-127",
+      "passed": true
+    },
+    {
+      "name": "point-list-128",
+      "passed": true
+    },
+    {
+      "name": "point-list-129",
+      "passed": true
+    },
+    {
+      "name": "point-list-130",
+      "passed": true
+    },
+    {
+      "name": "point-list-131",
+      "passed": true
+    },
+    {
+      "name": "point-list-132",
+      "passed": true
+    },
+    {
+      "name": "point-list-133",
+      "passed": true
+    },
+    {
+      "name": "point-list-134",
+      "passed": true
+    },
+    {
+      "name": "point-list-153",
+      "passed": true
+    },
+    {
+      "name": "point-list-154",
+      "passed": true
+    },
+    {
+      "name": "point-list-155",
+      "passed": true
+    },
+    {
+      "name": "point-list-156",
+      "passed": true
+    },
+    {
+      "name": "point-list-157",
+      "passed": true
+    },
+    {
+      "name": "point-list-158",
+      "passed": true
+    },
+    {
+      "name": "point-list-159",
+      "passed": true
+    },
+    {
+      "name": "point-list-160",
+      "passed": true
+    },
+    {
+      "name": "point-list-161",
+      "passed": true
+    },
+    {
+      "name": "point-list-162",
+      "passed": true
+    },
+    {
+      "name": "point-list-163",
+      "passed": true
+    },
+    {
+      "name": "point-list-164",
+      "passed": true
+    },
+    {
+      "name": "point-list-165",
+      "passed": true
+    },
+    {
+      "name": "point-list-166",
+      "passed": true
+    },
+    {
+      "name": "point-list-186",
+      "passed": true
+    },
+    {
+      "name": "point-list-187",
+      "passed": true
+    },
+    {
+      "name": "point-list-188",
+      "passed": true
+    },
+    {
+      "name": "point-list-189",
+      "passed": true
+    },
+    {
+      "name": "point-list-190",
+      "passed": true
+    },
+    {
+      "name": "point-list-191",
+      "passed": true
+    },
+    {
+      "name": "point-list-192",
+      "passed": true
+    },
+    {
+      "name": "point-list-193",
+      "passed": true
+    },
+    {
+      "name": "point-list-194",
+      "passed": true
+    },
+    {
+      "name": "point-list-195",
+      "passed": true
+    },
+    {
+      "name": "point-list-196",
+      "passed": true
+    },
+    {
+      "name": "point-list-197",
+      "passed": true
+    },
+    {
+      "name": "point-list-198",
+      "passed": true
+    },
+    {
+      "name": "point-list-215",
+      "passed": true
+    },
+    {
+      "name": "point-list-217",
+      "passed": true
+    },
+    {
+      "name": "point-list-218",
+      "passed": true
+    },
+    {
+      "name": "point-list-219",
+      "passed": true
+    },
+    {
+      "name": "point-list-220",
+      "passed": true
+    },
+    {
+      "name": "point-list-221",
+      "passed": true
+    },
+    {
+      "name": "point-list-222",
+      "passed": true
+    },
+    {
+      "name": "point-list-223",
+      "passed": true
+    },
+    {
+      "name": "point-list-224",
+      "passed": true
+    },
+    {
+      "name": "point-list-225",
+      "passed": true
+    },
+    {
+      "name": "point-list-226",
+      "passed": true
+    },
+    {
+      "name": "point-list-227",
+      "passed": true
+    },
+    {
+      "name": "point-list-228",
+      "passed": true
+    },
+    {
+      "name": "point-list-229",
+      "passed": true
+    },
+    {
+      "name": "point-list-230",
+      "passed": true
+    },
+    {
+      "name": "point-list-247",
+      "passed": true
+    },
+    {
+      "name": "point-list-249",
+      "passed": true
+    },
+    {
+      "name": "point-list-250",
+      "passed": true
+    },
+    {
+      "name": "point-list-251",
+      "passed": true
+    },
+    {
+      "name": "point-list-252",
+      "passed": true
+    },
+    {
+      "name": "point-list-253",
+      "passed": true
+    },
+    {
+      "name": "point-list-254",
+      "passed": true
+    },
+    {
+      "name": "point-list-255",
+      "passed": true
+    },
+    {
+      "name": "point-list-256",
+      "passed": true
+    },
+    {
+      "name": "point-list-257",
+      "passed": true
+    },
+    {
+      "name": "point-list-258",
+      "passed": true
+    },
+    {
+      "name": "point-list-259",
+      "passed": true
+    },
+    {
+      "name": "point-list-260",
+      "passed": true
+    },
+    {
+      "name": "point-list-261",
+      "passed": true
+    },
+    {
+      "name": "point-list-262",
+      "passed": true
+    },
+    {
+      "name": "point-list-280",
+      "passed": true
+    },
+    {
+      "name": "point-list-282",
+      "passed": true
+    },
+    {
+      "name": "point-list-283",
+      "passed": true
+    },
+    {
+      "name": "point-list-284",
+      "passed": true
+    },
+    {
+      "name": "point-list-285",
+      "passed": true
+    },
+    {
+      "name": "point-list-286",
+      "passed": true
+    },
+    {
+      "name": "point-list-287",
+      "passed": true
+    },
+    {
+      "name": "point-list-288",
+      "passed": true
+    },
+    {
+      "name": "point-list-289",
+      "passed": true
+    },
+    {
+      "name": "point-list-290",
+      "passed": true
+    },
+    {
+      "name": "point-list-291",
+      "passed": true
+    },
+    {
+      "name": "point-list-292",
+      "passed": true
+    },
+    {
+      "name": "point-list-293",
+      "passed": true
+    },
+    {
+      "name": "point-list-294",
+      "passed": true
+    },
+    {
+      "name": "point-list-313",
+      "passed": true
+    },
+    {
+      "name": "point-list-314",
+      "passed": true
+    },
+    {
+      "name": "point-list-315",
+      "passed": true
+    },
+    {
+      "name": "point-list-316",
+      "passed": true
+    },
+    {
+      "name": "point-list-317",
+      "passed": true
+    },
+    {
+      "name": "point-list-318",
+      "passed": true
+    },
+    {
+      "name": "point-list-319",
+      "passed": true
+    },
+    {
+      "name": "point-list-320",
+      "passed": true
+    },
+    {
+      "name": "point-list-321",
+      "passed": true
+    },
+    {
+      "name": "point-list-322",
+      "passed": true
+    },
+    {
+      "name": "point-list-323",
+      "passed": true
+    },
+    {
+      "name": "point-list-324",
+      "passed": true
+    },
+    {
+      "name": "point-list-325",
+      "passed": true
+    },
+    {
+      "name": "point-list-345",
+      "passed": true
+    },
+    {
+      "name": "point-list-347",
+      "passed": true
+    },
+    {
+      "name": "point-list-348",
+      "passed": true
+    },
+    {
+      "name": "point-list-349",
+      "passed": true
+    },
+    {
+      "name": "point-list-350",
+      "passed": true
+    },
+    {
+      "name": "point-list-351",
+      "passed": true
+    },
+    {
+      "name": "point-list-352",
+      "passed": true
+    },
+    {
+      "name": "point-list-353",
+      "passed": true
+    },
+    {
+      "name": "point-list-354",
+      "passed": true
+    },
+    {
+      "name": "point-list-355",
+      "passed": true
+    },
+    {
+      "name": "point-list-356",
+      "passed": true
+    },
+    {
+      "name": "point-list-357",
+      "passed": true
+    },
+    {
+      "name": "point-list-358",
+      "passed": true
+    },
+    {
+      "name": "point-list-376",
+      "passed": true
+    },
+    {
+      "name": "point-list-378",
+      "passed": true
+    },
+    {
+      "name": "point-list-379",
+      "passed": true
+    },
+    {
+      "name": "point-list-380",
+      "passed": true
+    },
+    {
+      "name": "point-list-381",
+      "passed": true
+    },
+    {
+      "name": "point-list-382",
+      "passed": true
+    },
+    {
+      "name": "point-list-383",
+      "passed": true
+    },
+    {
+      "name": "point-list-384",
+      "passed": true
+    },
+    {
+      "name": "point-list-385",
+      "passed": true
+    },
+    {
+      "name": "point-list-386",
+      "passed": true
+    },
+    {
+      "name": "point-list-387",
+      "passed": true
+    },
+    {
+      "name": "point-list-388",
+      "passed": true
+    },
+    {
+      "name": "point-list-389",
+      "passed": true
+    },
+    {
+      "name": "point-list-390",
+      "passed": true
+    },
+    {
+      "name": "point-list-408",
+      "passed": true
+    },
+    {
+      "name": "point-list-409",
+      "passed": true
+    },
+    {
+      "name": "point-list-411",
+      "passed": true
+    },
+    {
+      "name": "point-list-412",
+      "passed": true
+    },
+    {
+      "name": "point-list-413",
+      "passed": true
+    },
+    {
+      "name": "point-list-414",
+      "passed": true
+    },
+    {
+      "name": "point-list-415",
+      "passed": true
+    },
+    {
+      "name": "point-list-416",
+      "passed": true
+    },
+    {
+      "name": "point-list-417",
+      "passed": true
+    },
+    {
+      "name": "point-list-418",
+      "passed": true
+    },
+    {
+      "name": "point-list-419",
+      "passed": true
+    },
+    {
+      "name": "point-list-420",
+      "passed": true
+    },
+    {
+      "name": "point-list-422",
+      "passed": true
+    },
+    {
+      "name": "point-list-441",
+      "passed": true
+    },
+    {
+      "name": "point-list-443",
+      "passed": true
+    },
+    {
+      "name": "point-list-444",
+      "passed": true
+    },
+    {
+      "name": "point-list-445",
+      "passed": true
+    },
+    {
+      "name": "point-list-446",
+      "passed": true
+    },
+    {
+      "name": "point-list-447",
+      "passed": true
+    },
+    {
+      "name": "point-list-448",
+      "passed": true
+    },
+    {
+      "name": "point-list-449",
+      "passed": true
+    },
+    {
+      "name": "point-list-472",
+      "passed": true
+    },
+    {
+      "name": "point-list-475",
+      "passed": true
+    },
+    {
+      "name": "point-list-476",
+      "passed": true
+    },
+    {
+      "name": "point-list-477",
+      "passed": true
+    },
+    {
+      "name": "point-list-478",
+      "passed": true
+    },
+    {
+      "name": "point-list-479",
+      "passed": true
+    },
+    {
+      "name": "point-list-480",
+      "passed": true
+    },
+    {
+      "name": "point-list-483",
+      "passed": true
+    },
+    {
+      "name": "root-0",
+      "passed": true
+    },
+    {
+      "name": "root-1",
+      "passed": true
+    },
+    {
+      "name": "root-2",
+      "passed": true
+    },
+    {
+      "name": "root-3",
+      "passed": true
+    },
+    {
+      "name": "root-4",
+      "passed": true
+    },
+    {
+      "name": "root-5",
+      "passed": true
+    },
+    {
+      "name": "root-6",
+      "passed": true
+    },
+    {
+      "name": "root-7",
+      "passed": true
+    },
+    {
+      "name": "root-8",
+      "passed": true
+    },
+    {
+      "name": "root-9",
+      "passed": true
+    },
+    {
+      "name": "root-10",
+      "passed": true
+    },
+    {
+      "name": "root-11",
+      "passed": true
+    },
+    {
+      "name": "root-12",
+      "passed": true
+    },
+    {
+      "name": "root-13",
+      "passed": true
+    },
+    {
+      "name": "root-14",
+      "passed": true
+    },
+    {
+      "name": "root-15",
+      "passed": true
+    },
+    {
+      "name": "root-16",
+      "passed": true
+    },
+    {
+      "name": "root-17",
+      "passed": true
+    },
+    {
+      "name": "root-18",
+      "passed": true
+    },
+    {
+      "name": "root-19",
+      "passed": true
+    },
+    {
+      "name": "root-20",
+      "passed": true
+    },
+    {
+      "name": "root-21",
+      "passed": true
+    },
+    {
+      "name": "root-22",
+      "passed": true
+    },
+    {
+      "name": "root-23",
+      "passed": true
+    },
+    {
+      "name": "root-24",
+      "passed": true
+    },
+    {
+      "name": "root-25",
+      "passed": true
+    },
+    {
+      "name": "root-26",
+      "passed": true
+    },
+    {
+      "name": "root-27",
+      "passed": true
+    },
+    {
+      "name": "root-28",
+      "passed": true
+    },
+    {
+      "name": "root-29",
+      "passed": true
+    },
+    {
+      "name": "root-30",
+      "passed": true
+    },
+    {
+      "name": "root-31",
+      "passed": true
+    }
+  ]
+}
