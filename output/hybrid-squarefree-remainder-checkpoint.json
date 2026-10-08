@@ -1,0 +1,432 @@
+{
+  "baseline_commit": "a4e4c8cf3de71450325174028f0ed09dd5ef4dec",
+  "check_count": 62,
+  "checks": [
+    "frozen input: notes/451-kappa-feedback-cubic-boundary-and-family-continuation.md",
+    "frozen input: notes/476-original-fourth-growth-five-sevenths-with-ivic-density.md",
+    "frozen input: reviews/2026-10-08/hybrid-original-type-ii-large-single-prime-part-research-checkpoint-audit.md",
+    "frozen input: reviews/2026-10-08/hybrid-original-squarefree-core-euler-perron-research-perron.md",
+    "frozen input: reviews/2026-10-08/hybrid-original-squarefree-core-euler-perron-review-peer.md",
+    "frozen input: reviews/2026-10-08/hybrid-original-weighted-mobius-squarefree-perron-research-high-product.md",
+    "frozen input: reviews/2026-10-08/hybrid-original-weighted-mobius-squarefree-perron-review-peer.md",
+    "frozen input: notes/488-original-squarefree-core-and-half-power-error.md",
+    "frozen input: notes/490-original-weighted-mobius-squarefree-conditional-remainder.md",
+    "formal coefficients N=128, V=2, U=2",
+    "formal coefficients N=128, V=2, U=3",
+    "formal coefficients N=128, V=3, U=3",
+    "formal coefficients N=128, V=3, U=5",
+    "formal coefficients N=128, V=4, U=4",
+    "formal coefficients N=128, V=4, U=7",
+    "formal coefficients N=128, V=8, U=8",
+    "formal coefficients N=128, V=8, U=15",
+    "formal coefficients N=128, V=12, U=12",
+    "formal coefficients N=128, V=12, U=23",
+    "formal coefficients N=256, V=2, U=2",
+    "formal coefficients N=256, V=2, U=3",
+    "formal coefficients N=256, V=3, U=3",
+    "formal coefficients N=256, V=3, U=5",
+    "formal coefficients N=256, V=4, U=4",
+    "formal coefficients N=256, V=4, U=7",
+    "formal coefficients N=256, V=8, U=8",
+    "formal coefficients N=256, V=8, U=15",
+    "formal coefficients N=256, V=12, U=12",
+    "formal coefficients N=256, V=12, U=23",
+    "weighted Euler rational specialisation r=1, w=1",
+    "weighted Euler rational specialisation r=1, w=2",
+    "weighted Euler rational specialisation r=4, w=1",
+    "weighted Euler rational specialisation r=4, w=2",
+    "weighted Euler rational specialisation r=8, w=1",
+    "weighted Euler rational specialisation r=8, w=2",
+    "weighted Euler rational specialisation r=36, w=1",
+    "weighted Euler rational specialisation r=36, w=2",
+    "weighted Euler rational specialisation r=72, w=1",
+    "weighted Euler rational specialisation r=72, w=2",
+    "complete unconditional costs",
+    "Vaughan guards",
+    "complete nominal transfer",
+    "nominal transfer margin",
+    "previous conditional error saving",
+    "previous conditional transfer saving",
+    "previous unconditional error saving",
+    "451 cubic endpoint signs",
+    "existing whole derivative throughout interval",
+    "strict existing-boundary transfer envelope",
+    "nominal weighted complete costs",
+    "nominal weighted guards",
+    "nominal weighted transfer",
+    "weighted error saving over half",
+    "weighted transfer saving over half",
+    "finite weighted branch theta=3/4",
+    "finite weighted branch theta=5/6",
+    "finite weighted branch theta=7/8",
+    "finite weighted branch theta=9/10",
+    "weighted boundary error envelope",
+    "weighted boundary transfer envelope",
+    "weighted boundary inside analytic domain",
+    "weighted boundary parameter guards over entire interval"
+  ],
+  "conditional_nominal_transfer": "37/56",
+  "existing_boundary_transfer": {
+    "decimal_lower_informational": "0.660648502214767473275218328260143215513776037997642181732492",
+    "decimal_upper_informational": "0.660648502214771299444917479138507302812412812753938321595141",
+    "rational_lower": "17341171331465522394413908841/26248710582602900000000000000",
+    "rational_upper": "277458741303450758001162366161/419979369321647600000000000000"
+  },
+  "finite_cases": [
+    {
+      "H": 4,
+      "U": 2,
+      "V": 2,
+      "coefficient_checks": 512,
+      "formal_log_prime_basis": true,
+      "limit": 128,
+      "squarefull_r_values": 1
+    },
+    {
+      "H": 4,
+      "U": 3,
+      "V": 2,
+      "coefficient_checks": 512,
+      "formal_log_prime_basis": true,
+      "limit": 128,
+      "squarefull_r_values": 1
+    },
+    {
+      "H": 9,
+      "U": 3,
+      "V": 3,
+      "coefficient_checks": 512,
+      "formal_log_prime_basis": true,
+      "limit": 128,
+      "squarefull_r_values": 3
+    },
+    {
+      "H": 9,
+      "U": 5,
+      "V": 3,
+      "coefficient_checks": 512,
+      "formal_log_prime_basis": true,
+      "limit": 128,
+      "squarefull_r_values": 3
+    },
+    {
+      "H": 16,
+      "U": 4,
+      "V": 4,
+      "coefficient_checks": 512,
+      "formal_log_prime_basis": true,
+      "limit": 128,
+      "squarefull_r_values": 4
+    },
+    {
+      "H": 16,
+      "U": 7,
+      "V": 4,
+      "coefficient_checks": 512,
+      "formal_log_prime_basis": true,
+      "limit": 128,
+      "squarefull_r_values": 4
+    },
+    {
+      "H": 64,
+      "U": 8,
+      "V": 8,
+      "coefficient_checks": 512,
+      "formal_log_prime_basis": true,
+      "limit": 128,
+      "squarefull_r_values": 10
+    },
+    {
+      "H": 64,
+      "U": 15,
+      "V": 8,
+      "coefficient_checks": 512,
+      "formal_log_prime_basis": true,
+      "limit": 128,
+      "squarefull_r_values": 10
+    },
+    {
+      "H": 144,
+      "U": 12,
+      "V": 12,
+      "coefficient_checks": 512,
+      "formal_log_prime_basis": true,
+      "limit": 128,
+      "squarefull_r_values": 17
+    },
+    {
+      "H": 144,
+      "U": 23,
+      "V": 12,
+      "coefficient_checks": 512,
+      "formal_log_prime_basis": true,
+      "limit": 128,
+      "squarefull_r_values": 17
+    },
+    {
+      "H": 4,
+      "U": 2,
+      "V": 2,
+      "coefficient_checks": 1024,
+      "formal_log_prime_basis": true,
+      "limit": 256,
+      "squarefull_r_values": 1
+    },
+    {
+      "H": 4,
+      "U": 3,
+      "V": 2,
+      "coefficient_checks": 1024,
+      "formal_log_prime_basis": true,
+      "limit": 256,
+      "squarefull_r_values": 1
+    },
+    {
+      "H": 9,
+      "U": 3,
+      "V": 3,
+      "coefficient_checks": 1024,
+      "formal_log_prime_basis": true,
+      "limit": 256,
+      "squarefull_r_values": 3
+    },
+    {
+      "H": 9,
+      "U": 5,
+      "V": 3,
+      "coefficient_checks": 1024,
+      "formal_log_prime_basis": true,
+      "limit": 256,
+      "squarefull_r_values": 3
+    },
+    {
+      "H": 16,
+      "U": 4,
+      "V": 4,
+      "coefficient_checks": 1024,
+      "formal_log_prime_basis": true,
+      "limit": 256,
+      "squarefull_r_values": 4
+    },
+    {
+      "H": 16,
+      "U": 7,
+      "V": 4,
+      "coefficient_checks": 1024,
+      "formal_log_prime_basis": true,
+      "limit": 256,
+      "squarefull_r_values": 4
+    },
+    {
+      "H": 64,
+      "U": 8,
+      "V": 8,
+      "coefficient_checks": 1024,
+      "formal_log_prime_basis": true,
+      "limit": 256,
+      "squarefull_r_values": 10
+    },
+    {
+      "H": 64,
+      "U": 15,
+      "V": 8,
+      "coefficient_checks": 1024,
+      "formal_log_prime_basis": true,
+      "limit": 256,
+      "squarefull_r_values": 10
+    },
+    {
+      "H": 144,
+      "U": 12,
+      "V": 12,
+      "coefficient_checks": 1024,
+      "formal_log_prime_basis": true,
+      "limit": 256,
+      "squarefull_r_values": 18
+    },
+    {
+      "H": 144,
+      "U": 23,
+      "V": 12,
+      "coefficient_checks": 1024,
+      "formal_log_prime_basis": true,
+      "limit": 256,
+      "squarefull_r_values": 18
+    }
+  ],
+  "input_canonical_lf_sha256": {
+    "notes/451-kappa-feedback-cubic-boundary-and-family-continuation.md": "17ce7fea8c881ebd4034657b7039e99897d4ff9532348993ba329c46e3c4d487",
+    "notes/476-original-fourth-growth-five-sevenths-with-ivic-density.md": "179829dd25f92ff187359f73455aafad9f957d714df13cf871db47a76e9408b6",
+    "notes/488-original-squarefree-core-and-half-power-error.md": "0e2f1cf88d4de1a804c1b9e6ce21febe85c8c5856726fd66c2d778cce29b5825",
+    "notes/490-original-weighted-mobius-squarefree-conditional-remainder.md": "a5bf40493c864774da5f8fbecce8d257bc21176a78b16ff1841c89843d4924ef",
+    "reviews/2026-10-08/hybrid-original-squarefree-core-euler-perron-research-perron.md": "2f25a678b0c38c95a40469c41a757506c6f1fe64343bed327c7effe298e980c0",
+    "reviews/2026-10-08/hybrid-original-squarefree-core-euler-perron-review-peer.md": "3b6891622b6d76008223062308d2f053fa8186e02d5defcf3b872d027a1a618a",
+    "reviews/2026-10-08/hybrid-original-type-ii-large-single-prime-part-research-checkpoint-audit.md": "66c35eb3ed43cec836ff1d10ed01322f115684c44b771d3db7364637994c3cab",
+    "reviews/2026-10-08/hybrid-original-weighted-mobius-squarefree-perron-research-high-product.md": "426e0e72e9234e6a9eccbe9a82e3055e7bbbc1669956ae78b9c4a6f82e9799b6",
+    "reviews/2026-10-08/hybrid-original-weighted-mobius-squarefree-perron-review-peer.md": "543ff156e86c0b051a69559e1d8c553f61fddaaf228a682759d457ce9012f4ac"
+  },
+  "nominal_costs": [
+    "1/2",
+    "1/2",
+    "1/4",
+    "1/2",
+    "1/2",
+    "0"
+  ],
+  "proves_classical_zeta_fourth_mean": false,
+  "proves_complete_fourth_moment_bound": false,
+  "proves_conditional_weighted_prefix": false,
+  "proves_infinite_euler_products": false,
+  "proves_infinite_perron_shift": false,
+  "proves_new_zero_free_boundary": false,
+  "proves_new_zero_proportion": false,
+  "proves_riemann_hypothesis": false,
+  "schema": "rh-weil-squarefree-remainder-finite-checkpoint-v1",
+  "script_canonical_lf_sha256": "b41122299a8492c156b9c1e4bb081b31d109666c220d9445210a3b483815562d",
+  "status": "PASS",
+  "unconditional_error": "1/2",
+  "weighted_conditional_error": "3/7",
+  "weighted_conditional_transfer": "9/14",
+  "weighted_euler_rational_specialisations": [
+    {
+      "identity": "weighted_mu = inverse_zeta * correction",
+      "integer_real_w": 1,
+      "limit": 128,
+      "proves_complex_uniform_convergence": false,
+      "r": 1
+    },
+    {
+      "identity": "weighted_mu = inverse_zeta * correction",
+      "integer_real_w": 2,
+      "limit": 128,
+      "proves_complex_uniform_convergence": false,
+      "r": 1
+    },
+    {
+      "identity": "weighted_mu = inverse_zeta * correction",
+      "integer_real_w": 1,
+      "limit": 128,
+      "proves_complex_uniform_convergence": false,
+      "r": 4
+    },
+    {
+      "identity": "weighted_mu = inverse_zeta * correction",
+      "integer_real_w": 2,
+      "limit": 128,
+      "proves_complex_uniform_convergence": false,
+      "r": 4
+    },
+    {
+      "identity": "weighted_mu = inverse_zeta * correction",
+      "integer_real_w": 1,
+      "limit": 128,
+      "proves_complex_uniform_convergence": false,
+      "r": 8
+    },
+    {
+      "identity": "weighted_mu = inverse_zeta * correction",
+      "integer_real_w": 2,
+      "limit": 128,
+      "proves_complex_uniform_convergence": false,
+      "r": 8
+    },
+    {
+      "identity": "weighted_mu = inverse_zeta * correction",
+      "integer_real_w": 1,
+      "limit": 128,
+      "proves_complex_uniform_convergence": false,
+      "r": 36
+    },
+    {
+      "identity": "weighted_mu = inverse_zeta * correction",
+      "integer_real_w": 2,
+      "limit": 128,
+      "proves_complex_uniform_convergence": false,
+      "r": 36
+    },
+    {
+      "identity": "weighted_mu = inverse_zeta * correction",
+      "integer_real_w": 1,
+      "limit": 128,
+      "proves_complex_uniform_convergence": false,
+      "r": 72
+    },
+    {
+      "identity": "weighted_mu = inverse_zeta * correction",
+      "integer_real_w": 2,
+      "limit": 128,
+      "proves_complex_uniform_convergence": false,
+      "r": 72
+    }
+  ],
+  "weighted_existing_boundary_error": {
+    "decimal_lower_informational": "0.428543358242454456322125187439936348660543983112159030341115",
+    "decimal_upper_informational": "0.428543358242456089135592231493996754305594305442694079291048",
+    "rational_lower": "112487105826029/262487105826029",
+    "rational_upper": "449948423304119/1049948423304119"
+  },
+  "weighted_existing_boundary_transfer": {
+    "decimal_lower_informational": "0.642784341775381087355749625120127302678912033775681939317770",
+    "decimal_upper_informational": "0.642784341775385321728815537012006491388811389114611841417903",
+    "rational_lower": "16872260154290884894413908841/26248710582602900000000000000",
+    "rational_upper": "269956162468656708001162366161/419979369321647600000000000000"
+  },
+  "weighted_finite_branch_examples_only": [
+    {
+      "costs": [
+        "1/3",
+        "1/3",
+        "1/3",
+        "0"
+      ],
+      "maximum": "1/3",
+      "theta": "3/4",
+      "v": "1/6",
+      "y": "2/3"
+    },
+    {
+      "costs": [
+        "2/5",
+        "2/5",
+        "2/5",
+        "0"
+      ],
+      "maximum": "2/5",
+      "theta": "5/6",
+      "v": "3/20",
+      "y": "7/10"
+    },
+    {
+      "costs": [
+        "3/7",
+        "3/7",
+        "3/7",
+        "0"
+      ],
+      "maximum": "3/7",
+      "theta": "7/8",
+      "v": "1/7",
+      "y": "5/7"
+    },
+    {
+      "costs": [
+        "4/9",
+        "4/9",
+        "4/9",
+        "0"
+      ],
+      "maximum": "4/9",
+      "theta": "9/10",
+      "v": "5/36",
+      "y": "13/18"
+    }
+  ],
+  "weighted_nominal_costs": [
+    "3/7",
+    "3/7",
+    "3/14",
+    "3/7",
+    "3/7",
+    "0"
+  ]
+}

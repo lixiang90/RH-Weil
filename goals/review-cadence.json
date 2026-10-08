@@ -1,0 +1,11 @@
+{
+  "schema": "rh-weil-research-review-cadence-v1",
+  "user_instruction_date": "2026-10-08",
+  "minimum_rounds": 4,
+  "target_rounds": 6,
+  "maximum_rounds": 8,
+  "counting_unit": "completed research continuation iteration, not tool calls or files",
+  "rounds_since_review": 0,
+  "last_review": "goals/reviews/2026-10-08-original-route-review.md",
+  "last_review_baseline_commit": "a4e4c8cf3de71450325174028f0ed09dd5ef4dec"
+}
