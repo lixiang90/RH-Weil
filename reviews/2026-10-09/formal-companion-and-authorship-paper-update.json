@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-09",
+  "author": "Li Xiang",
+  "github_identity": "lixiang90",
+  "ratio_unchanged": "66812491/99194740",
+  "paper_revision": "PDF metadata and visible authorship; historical admission description updated to the actually closed modular Lean proof. No new bound.",
+  "actual_pdf_build": {
+    "pdflatex_passes": 2,
+    "exit_codes": [
+      0,
+      0
+    ],
+    "final_diagnostics": "No undefined, Overfull, Underfull or rerun warnings",
+    "pages": 6,
+    "all_pages_visually_inspected": true,
+    "pdf_author_metadata_verified": true
+  },
+  "built_in_preview": {
+    "success": false,
+    "reason": "Windows sandbox helper deny-read ACL failure; existing pdflatex build used successfully"
+  },
+  "paper": {
+    "path": "E:\\codex-build\\RH-Weil\\papers\\expanded-nine-point-tangent-simple-critical-paper.tex",
+    "bytes": 19459,
+    "sha256": "397e818857624ba7182fd43381d14d46df0a09e03cea6932d0459440f3312914"
+  },
+  "pdf": {
+    "path": "E:\\codex-build\\RH-Weil\\output\\pdf\\expanded-nine-point-tangent-simple-critical-paper.pdf",
+    "bytes": 352780,
+    "sha256": "dd8488b36c07d198b5e1cc09f22d4f74ad1c7cd696ace5f909a5afc82194896d"
+  },
+  "formal_evidence": [
+    {
+      "path": "E:\\codex-build\\RH-Zero-Proportion-Formalization\\verification\\simple-corollary-formal-kernel.json",
+      "bytes": 3004,
+      "sha256": "0bce53c57f4f2b3a99bacc332a3927c8610852a74adca7b2b938b1b5779002c5"
+    },
+    {
+      "path": "E:\\codex-build\\RH-Zero-Proportion-Formalization\\verification\\three-website-declarations-modular.json",
+      "bytes": 3609,
+      "sha256": "c63d06a6dc71b0d4c85cef9defbf6be4be3f25351aafbafd3c07d2bf04e69d24"
+    },
+    {
+      "path": "E:\\codex-build\\RH-Zero-Proportion-Formalization\\verification\\three-website-declarations-modular-nanoda.json",
+      "bytes": 9039,
+      "sha256": "4d787c1f92e6b5c042764143d0f1960e62c695c03e31fc9544622f7672949b5d"
+    }
+  ],
+  "allowed_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "whole_submission_verified": false,
+  "submitted": false,
+  "website_accepted": false,
+  "research_status": "paused"
+}

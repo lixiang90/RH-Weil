@@ -5,7 +5,7 @@
 \usepackage{amsmath,amssymb,amsthm,mathtools,booktabs}
 \usepackage[hidelinks]{hyperref}
 \hypersetup{pdftitle={Additional Admitted Tangents for Joint Nine-Point Certificates},
- pdfauthor={RH-Weil research project}}
+ pdfauthor={Li Xiang}}
 \newtheorem{theorem}{Theorem}[section]
 \newtheorem{lemma}[theorem]{Lemma}
 \newtheorem{proposition}[theorem]{Proposition}
@@ -16,7 +16,7 @@
 \title{Additional Admitted Tangents for Joint Nine-Point Certificates\\
 and Simple Critical Zeros of the Riemann Zeta Function}
 \author{Li Xiang\\\small \texttt{lixiang90}}
-\date{October 8, 2026}
+\date{October 9, 2026}
 \begin{document}
 \maketitle
 \begin{abstract}
@@ -35,11 +35,12 @@ separation and all-zero spectral transport then give
 \]
 Here $N$ counts all nontrivial zeros with multiplicity and $N_0^s$
 counts simple zeros on the critical line. The proof assumes no RH,
-zero-free strip or higher correlation conjecture. It retains the
-previously disclosed PC8 continuous and compiled-computation admission;
-it is not a complete Lean kernel proof. This short paper records the
-new certificate and its exact transport, with the analytic framework
-and original data credited to their prior sources.
+zero-free strip or higher correlation conjecture. A companion Lean
+formalization now proves the fixed nine-point inequality and its dyadic
+and cumulative simple-zero corollaries. Fresh axiom audits contain only
+\texttt{propext}, \texttt{Classical.choice} and \texttt{Quot.sound}.
+This short paper records the certificate and its exact transport, with
+the analytic framework and original data credited to their prior sources.
 \end{abstract}
 
 \section{Statement and provenance}
@@ -49,13 +50,15 @@ $(0,T]$, including multiplicity. Let $N_0^s(T)$ count those zeros that
 are simple and have real part $1/2$.
 
 \begin{theorem}\label{thm:main}
-With the admitted continuous PC8, point-table and convexity inputs
-specified below, and the complete exact finite certificate of
-Section~\ref{sec:finite},
+The simple critical-line zero count satisfies
 \[
  \liminf_{T\to\infty}\frac{N_0^s(T)}{N(T)}\ge\frac{66812491}{99194740}.
 \]
-There is no additional unproved analytic hypothesis.
+The complete exact certificate of Section~\ref{sec:finite} for the fixed
+window, point data and convexity regions, and the proved analytic
+transport establish this bound without an additional unproved analytic
+hypothesis. The companion formalization discharges the continuous and
+finite certificate inputs.
 \end{theorem}
 
 The original window and eight-point weights come from the fixed public
@@ -368,14 +371,34 @@ capture with Lean 4.34.1, and compares every emitted field. The source
 must be present at the path documented by the existing PC8 replay.
 Neither command imports an upstream theorem as a new axiom.
 
-The claimed continuous conclusion depends on the already disclosed
-PC8 minorant, point-table and convexity admission, together with the
-complete capture semantics. Integer runtime replay and standard-library
-rational checks are distinct from Lean kernel proof checking. We do not
-claim to have eliminated compiler/runtime trust or rebuilt all earlier
-formal analytic inputs. The headline native-computation axiom of
-\cite{Knaus} is not consumed. Independent full-domain reconstruction
-and the build identities are recorded separately in the repository.
+The original computational presentation used the disclosed PC8 minorant,
+point-table and convexity admission, together with the complete capture
+semantics. Integer runtime replay and standard-library rational checks
+are distinct from Lean kernel proof checking. Independent full-domain
+reconstruction and the build identities remain recorded in the repository.
+The headline native-computation axiom of \cite{Knaus} is not consumed.
+
+The separate
+\href{https://github.com/lixiang90/RH-Zero-Proportion-Formalization}
+{formalization repository} uses Lean 4.33.0-rc2 and the pinned Mathlib
+and Zeta23 versions of the website contract. Its continuous nine-point
+certificate closes all point, geometry and finite-integer premises.
+The terminal theorems \texttt{simple\_dyadic} and
+\texttt{simple\_cumulative} belong to the namespace
+\texttt{RHWeilRecord.\allowbreak SimpleCorollary}.
+They use Zeta23's actual simple and total zero-count definitions, with
+no remaining numerical or analytic premises. Their full module build and
+fresh axiom audits pass; the only axioms are \texttt{propext},
+\texttt{Classical.choice} and \texttt{Quot.sound}. Reproducible records
+are provided in \texttt{verification/} of that repository.
+
+The three website entry declarations use the distinct critical-line
+count, obtained from the simple count by its proved inclusion. All three
+compile from the complete module chain and pass independent nanoda
+checking. Single-file packaging, the website's resource limits and
+official acceptance remain separate obligations; no website record is
+claimed here. Mathematical research remains paused during submission
+engineering.
 
 \begin{thebibliography}{9}
 \bibitem{PC8}
