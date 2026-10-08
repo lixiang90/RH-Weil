@@ -1582,3 +1582,17 @@ GOAL第十节B/C逐字保持，较远期目标仍未实现。
 当前源、PDF、独审与实际验证范围见
 [构建清单](../reviews/2026-10-08/nine-point-joint-paper-build-manifest.json)。
 本轮远程保存仍以提交后HEAD与origin/main现场核对为准。
+
+## 2026-10-08：扩大九点证书与原互素tube付款
+
+[502](../notes/502-expanded-nine-point-admitted-tangents-and-coprime-tubes.md)将强阈值扩为805803，完整241胞及反射的2399域均由精确有理对偶支付805260/10^8。简单临界线比例更新为66812491/99194740≈67.3548728491047%，保持原连续与编译计算准入。原PTL/REG的237个点提供924次有效新增点；持久Lean重放和独立全域重建通过。新正式论文六页，全部最终页已渲染检查。
+
+原互素产品的完整模q零核附近tubes亦支付X^(B−η/2+ε)，含全部slow相位、ν尾和edge；tube外真实聚合余额仍未付。没有新whole幂、中心常数或451条件条带。第三周期复盘后计数1，Goal保持active；下一步优先十点共同closure与原tube外相关。构建身份与独审见[清单](../reviews/2026-10-08/expanded-nine-point-paper-build-manifest.json)。本轮Git保存以实际提交推送后核对为准。
+
+## 2026-10-08：按用户要求暂停数学研究，转正式记录提交
+
+用户要求核对riemannzeta.fun的结果提交方式，将现有结果形式化后提交，并在形式化完成前暂停研究。GOAL工具已实际设为paused；上文active是502完成时的历史状态。研究轮数保持1，形式化构建与提交不另算数学研究轮。
+
+网站当前核验记录为6734832/10000000，目标保持66812491/99194740。固定合同要求单一UTF-8 Solution.lean≤2MB，同时证明严格改进、dyadic和cumulative下界，transitive axioms只允许propext、Quot.sound、Classical.choice，并通过Lean与nanoda。现有论文、Fraction重建及编译捕获不是网站认可的全链证明；尚未上传或获得记录。此阶段仅移植已有证明、生成内核证书与核验提交，不推进十点或算术新方向。
+
+随后按用户要求建立[RH-Zero-Proportion-Formalization](https://github.com/lixiang90/RH-Zero-Proportion-Formalization)，将刚开始的新增Lean代码全部移入独立checkout。该仓库收录对应论文副本与原精确证书，原RH-Weil仍保存论文及研究记录，README提供新仓库入口。新仓库锁定Lean v4.33.0-rc2、Mathlib51e6992efd06126df61a496bebf8f49482a4e129、Zeta23 3635e74826a4c1fcece7d1cd2b6fa75e43a00510；仓库建立不代表形式化验收完成。

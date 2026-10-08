@@ -1,0 +1,409 @@
+{
+  "schema": "rh-weil-expanded-nine-point-paper-and-research-v1",
+  "date": "2026-10-08",
+  "baseline_commit": "609fe754aa6e9b22142f9539ddc28107145442f3",
+  "result": {
+    "simple_critical_proportion": "66812491/99194740",
+    "decimal": "0.6735487284910470051133759713...",
+    "local_reward": "805260/100000000",
+    "strong_capture": "805803/100000000",
+    "theta": "4/5",
+    "total_pressure": "404350/100000000",
+    "captured_cells": 241,
+    "reflected_labels": 482,
+    "ordered_pairs": 232324,
+    "shared_gap_pairs": 4796,
+    "shared_span_pairs": 2405,
+    "compatible_pairs": 2399,
+    "distinct_extra_points": 237,
+    "extra_point_occurrences": 924,
+    "minimum_lower": "26386790900531855994044477203/3276800000000000000000000000000",
+    "strict_margin": "31220531855994044477203/3276800000000000000000000000000",
+    "zero_free_boundary_changed": false,
+    "whole_fourth_exponent_or_centered_constant_changed": false
+  },
+  "trust_scope": [
+    "Reuses the disclosed original PC8 continuous semantics, REG/PTL and compiled-integer admission.",
+    "All2399 saved rational duals independently reconstructed without author imports or a numeric solver.",
+    "Full low-set coverage and all-zero analytic transport mathematically reviewed in the linked peer reports.",
+    "No complete Lean kernel proof, nanoda acceptance, external peer review or global priority certification claimed.",
+    "No Riemann hypothesis, zero-free-strip or unproved higher-correlation input used for the proportion."
+  ],
+  "goal_state": {
+    "at_research_round_completion": "active",
+    "current": "paused",
+    "reason": "User requests full formalization and website submission before any new research",
+    "completed_rounds_since_review": 1
+  },
+  "actual_runs": [
+    {
+      "command": "python -B -X utf8 scripts/am_expanded_nine_point_certificate.py --check",
+      "exit_code": 0,
+      "executor": "root and separate reviewers",
+      "scope": "all2399 exact rational records and dependency identities"
+    },
+    {
+      "command": "python -B -X utf8 scripts/am_expanded_nine_point_certificate.py --replay",
+      "exit_code": 0,
+      "executor": "root",
+      "exec_session": 2345,
+      "session_closed": true,
+      "lean_version": "4.34.1",
+      "old_checks_all_true": 41,
+      "captured_records_matched": 241,
+      "scope": "isolated capture and saved Fraction certificate; not a whole kernel formalization"
+    },
+    {
+      "command": "python -B -O -X utf8 scripts/am_expanded_nine_point_certificate.py --check",
+      "exit_code": 1,
+      "expected": "assertions-disabled execution refused"
+    },
+    {
+      "command": "python -B -X utf8 scripts/test_check_groups.py",
+      "exit_code": 0,
+      "core": 90,
+      "all": 92,
+      "scope": "registry coverage and mocked dispatch; not whole suite execution"
+    },
+    {
+      "command": "python -B -X utf8 scripts/test_repo_layout.py",
+      "exit_code": 0,
+      "tests_passed": 12
+    },
+    {
+      "command": "python -B -X utf8 scripts/check_repo_layout.py",
+      "exit_code": 0
+    },
+    {
+      "command": "two pdflatex passes via tmp/pdfs/am-joint-expanded-root/build_paper.py",
+      "exit_code": 0,
+      "pages": 6,
+      "diagnostics": "No undefined/Overfull/Underfull/Rerun warnings in final log"
+    }
+  ],
+  "pdf_visual_review": {
+    "all_final_pages_inspected": true,
+    "pages": 6,
+    "final_repair": "Explicit h6>=h0 half-space condition for directional leaf exclusion",
+    "unchanged_pages_after_repair": [
+      1,
+      2
+    ],
+    "changed_pages_reinspected": [
+      3,
+      4,
+      5,
+      6
+    ]
+  },
+  "authorship_revision": {
+    "author": "Li Xiang",
+    "github": "lixiang90",
+    "previous_reviewed_tex_sha256": "e69b5c4a34cc2fd3ec5c606faa175a37763fbd64534305b1e616a510afcdae31",
+    "only_source_change": "author line; restoring the old line exactly recovers the reviewed SHA256",
+    "changed_pdf_pages": [
+      1
+    ],
+    "unchanged_pdf_pages": [
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "changed_page_visually_reinspected": true,
+    "peer_scope": "Frozen mathematical peers bind the preceding author-only version; mathematical body is identical"
+  },
+  "published": [
+    {
+      "path": "scripts/am_expanded_nine_point_certificate.py",
+      "encoding": "UTF-8 canonical LF, preserve EOF",
+      "bytes": 8854,
+      "sha256": "05b7500d77bdb41cb5419137a1eee354250d7569572cd5c37d44a19a66b4eb4f",
+      "lines": 195
+    },
+    {
+      "path": "output/am-expanded-nine-point-certificate.json",
+      "encoding": "UTF-8 canonical LF, preserve EOF",
+      "bytes": 6252220,
+      "sha256": "3a3c8b24015162a4835f5c1d8633a4f9f8bdace26d711631dd6374c689bce04f",
+      "lines": 380105
+    },
+    {
+      "path": "papers/expanded-nine-point-tangent-simple-critical-paper.tex",
+      "encoding": "UTF-8 canonical LF, preserve EOF",
+      "bytes": 18140,
+      "sha256": "d16a86dc63c95eb4c264a5011affeed8f6d656c75160e10ddeafc1ac265f514d",
+      "lines": 418
+    },
+    {
+      "path": "notes/502-expanded-nine-point-admitted-tangents-and-coprime-tubes.md",
+      "encoding": "UTF-8 canonical LF, preserve EOF",
+      "bytes": 7271,
+      "sha256": "8910953748db6cf51a147dcf2af21885c615a09defcdaf4da65ca4ed9e9414ba",
+      "lines": 121
+    },
+    {
+      "path": "reviews/2026-10-08/am-expanded-nine-point-certificate-review-high-product.md",
+      "encoding": "UTF-8 canonical LF, preserve EOF",
+      "bytes": 9399,
+      "sha256": "cc46f7ae3d86a823b226ac387f111c983e75f23a17472560d912d0d11103e829",
+      "lines": 147
+    },
+    {
+      "path": "reviews/2026-10-08/expanded-nine-point-paper-and-residue-tubes-review-perron.md",
+      "encoding": "UTF-8 canonical LF, preserve EOF",
+      "bytes": 11906,
+      "sha256": "9ad8aec9c6ea1410e27b57042ab8c159fcf115e21ddeea21fb3e5a87e9be2954",
+      "lines": 149
+    },
+    {
+      "path": "reviews/2026-10-08/expanded-nine-point-metadata-and-scope-review-checkpoint.md",
+      "encoding": "UTF-8 canonical LF, preserve EOF",
+      "bytes": 7666,
+      "sha256": "0f074510026aa5b7e42b5d080116f7382796e6a86e26a27488eadf082c35d558",
+      "lines": 112
+    },
+    {
+      "path": "reviews/2026-10-08/am-extra-admitted-tangents-research-high-product.md",
+      "encoding": "UTF-8 canonical LF, preserve EOF",
+      "bytes": 7131,
+      "sha256": "219efea413080ae66fe27407956ce6f1ad87dfabee5af744454a57c071e91121",
+      "lines": 126
+    },
+    {
+      "path": "reviews/2026-10-08/am-ten-point-sharing-cover-research-perron.md",
+      "encoding": "UTF-8 canonical LF, preserve EOF",
+      "bytes": 8902,
+      "sha256": "a857c8ccbb3354b4408b36b0c78d8f8a1043f837845614ec843deb8b491b4338",
+      "lines": 156
+    },
+    {
+      "path": "reviews/2026-10-08/original-coprime-product-residue-tubes-research-checkpoint.md",
+      "encoding": "UTF-8 canonical LF, preserve EOF",
+      "bytes": 8815,
+      "sha256": "b157364cebd8e7f5fcff7af8801303a2ed1483fbbc73ee55a1ac399064ae2d81",
+      "lines": 163
+    },
+    {
+      "path": "README.md",
+      "encoding": "UTF-8 canonical LF, preserve EOF",
+      "bytes": 9417,
+      "sha256": "63d2b08b73301c74f1db0e03e84e5f16003c2dbb5b98c522ab88b41218f77e40",
+      "lines": 87
+    },
+    {
+      "path": "papers/README.md",
+      "encoding": "UTF-8 canonical LF, preserve EOF",
+      "bytes": 9279,
+      "sha256": "1892e6c92ff7754a2ccc4841d6efd6b725af604b052034f288b594d98b5f4762",
+      "lines": 101
+    },
+    {
+      "path": "RESEARCH_BRANCHES.md",
+      "encoding": "UTF-8 canonical LF, preserve EOF",
+      "bytes": 214592,
+      "sha256": "5e084accaa92556896512ec3414351c0610ffe5cd5c28c85493100b80f5fa196",
+      "lines": 1305
+    },
+    {
+      "path": "goals/PROGRESS.md",
+      "encoding": "UTF-8 canonical LF, preserve EOF",
+      "bytes": 126136,
+      "sha256": "d7152779c399dc160c71ebb1bc84d735c481af721864b2334e76dadb6ecbd2e0",
+      "lines": 1598
+    },
+    {
+      "path": "goals/review-cadence.json",
+      "encoding": "UTF-8 canonical LF, preserve EOF",
+      "bytes": 784,
+      "sha256": "90ecf8d753b6d191640a4a3e207f773d791f459e66571e6223288f3a029e4646",
+      "lines": 16
+    },
+    {
+      "path": "scripts/check_repo_layout.py",
+      "encoding": "UTF-8 canonical LF, preserve EOF",
+      "bytes": 3151,
+      "sha256": "a1b62fea84536062884c3a74eccb467239c28e864f3e30d6607c08aa405eb531",
+      "lines": 80
+    },
+    {
+      "path": "scripts/run_checks.py",
+      "encoding": "UTF-8 canonical LF, preserve EOF",
+      "bytes": 14424,
+      "sha256": "c36c25144b85542c373cab70d4d27bcf18f814c2cd242aad26223a460fc7b8db",
+      "lines": 425
+    },
+    {
+      "path": ".gitignore",
+      "encoding": "UTF-8 canonical LF, preserve EOF",
+      "bytes": 1045,
+      "sha256": "18bbccda2e62a88af29d20aeae6140d65cd4eeca1f59f59e8a90572262afaceb",
+      "lines": 70
+    }
+  ],
+  "pdf": {
+    "path": "output/pdf/expanded-nine-point-tangent-simple-critical-paper.pdf",
+    "encoding": "raw",
+    "bytes": 350342,
+    "sha256": "a91302302b759b717feaa4d71bb25638f4a1fafcfa27f7d4945580e0caa015b2"
+  },
+  "frozen_certificate_dependencies": {
+    "scripts/am_nine_point_epigraph_certificate.py": "af5f2e1974bed92ad515f06ff6047f3e5595ac60c6dc721abd7bfb5cfd930c32",
+    "scripts/am_nine_point_low_slack_cover.py": "0c203ae8d05796f73e5ca5018935067342a65f6a9eac3a800b5d36893cfde629",
+    "scripts/am_pc8_finite_replay.py": "2db626d7c3fbcc1f6ced7580d0fe847fff743b1039aa58797392e9e05845600f",
+    "output/am-pc8-finite-replay.json": "48c29521994321837b60ea39661b93f87c28560b5f19932c583ad8b29f5dd549",
+    "output/am-nine-point-low-slack-cover.json": "628fdf422495f15f3b5f5ce7e035f8f439d43c0928883509f39034c87b0c64ff",
+    "output/am-nine-point-epigraph-certificate.json": "0733022044f96b37c6be3d5d5c1e9fa6c269545142d7d535e643c835a7cf38f6",
+    "formal/certificates/AMPC8StructuralBridge.lean": "98771eceea94a14f3a1be38c1e9c7ab48fffbb0d1c77bbfde636d21358b9ba9f",
+    "formal/certificates/AMPC8MinorantBridge.lean": "f3947ca27750760322481a87ed5da4a5a8702a92bdf4570a6a4727f957fee114",
+    "reviews/2026-10-08/am-nine-point-adaptive-round-manifest.json": "0b903f03331a3ddc1f971555a4e7b23b4109c5dc769d0cc7b7a99471273cc4fb"
+  },
+  "ignored_scratch_evidence": [
+    {
+      "path": "tmp/pdfs/am-joint-expanded-root/capture.py",
+      "encoding": "UTF-8 canonical LF, preserve EOF",
+      "bytes": 3096,
+      "sha256": "b18402444a51db926309ff99500d2414739d5edbc4379bf4ef10bfc602c3387b",
+      "lines": 67
+    },
+    {
+      "path": "tmp/pdfs/am-joint-expanded-root/ExpandedCapture.lean",
+      "encoding": "UTF-8 canonical LF, preserve EOF",
+      "bytes": 1042598,
+      "sha256": "246328e2e6f30dad79b56f070ff98b8cc438a1cd5e7e67b3d3f1bc3b81615f9c",
+      "lines": 11675
+    },
+    {
+      "path": "tmp/pdfs/am-joint-expanded-root/capture-log.txt",
+      "encoding": "UTF-8 canonical LF, preserve EOF",
+      "bytes": 601017,
+      "sha256": "4b939f71d75e98ab5f6cf974c529eb1b7f3e33cecd5f36a770ec1a116626a87d",
+      "lines": 1035
+    },
+    {
+      "path": "tmp/pdfs/am-joint-expanded-root/joint.py",
+      "encoding": "UTF-8 canonical LF, preserve EOF",
+      "bytes": 6176,
+      "sha256": "bdbf6d71a8857d5cf02b804d3415bc2c0147c6dc8ef5fe65fc0c30e26d9e3f33",
+      "lines": 137
+    },
+    {
+      "path": "tmp/pdfs/am-joint-expanded-root/geometry.json",
+      "encoding": "UTF-8 canonical LF, preserve EOF",
+      "bytes": 27854,
+      "sha256": "5e204f747116153b833b32ca81c247ff76caab50c2f0cb093c9defba16c11cbf",
+      "lines": 1
+    },
+    {
+      "path": "tmp/pdfs/am-joint-expanded-root/promote.py",
+      "encoding": "UTF-8 canonical LF, preserve EOF",
+      "bytes": 3357,
+      "sha256": "8e3c2cdd36ecfd4986ef19bfb268e5e18d5ca7979d3a46c74d661668f8ee2d56",
+      "lines": 62
+    },
+    {
+      "path": "tmp/pdfs/am-joint-expanded-root/build_paper.py",
+      "encoding": "UTF-8 canonical LF, preserve EOF",
+      "bytes": 1647,
+      "sha256": "3721158f555b71c00b4947914d0491304f858164ae9386507cb9d24204f017d2",
+      "lines": 30
+    },
+    {
+      "path": "tmp/pdfs/am-joint-expanded-root/paper-pass-1.txt",
+      "encoding": "UTF-8 canonical LF, preserve EOF",
+      "bytes": 8239,
+      "sha256": "8c699b0e159d29b0f385521c4d63f311da84729d728a4037a902bde8e9714506",
+      "lines": 244
+    },
+    {
+      "path": "tmp/pdfs/am-joint-expanded-root/paper-pass-2.txt",
+      "encoding": "UTF-8 canonical LF, preserve EOF",
+      "bytes": 8239,
+      "sha256": "8c699b0e159d29b0f385521c4d63f311da84729d728a4037a902bde8e9714506",
+      "lines": 244
+    },
+    {
+      "path": "tmp/pdfs/am-expanded-nine-point/ExpandedCapture.lean",
+      "encoding": "UTF-8 canonical LF, preserve EOF",
+      "bytes": 1042598,
+      "sha256": "246328e2e6f30dad79b56f070ff98b8cc438a1cd5e7e67b3d3f1bc3b81615f9c",
+      "lines": 11675
+    },
+    {
+      "path": "tmp/pdfs/am-expanded-nine-point/capture-log.txt",
+      "encoding": "UTF-8 canonical LF, preserve EOF",
+      "bytes": 601017,
+      "sha256": "4b939f71d75e98ab5f6cf974c529eb1b7f3e33cecd5f36a770ec1a116626a87d",
+      "lines": 1035
+    },
+    {
+      "path": "tmp/pdfs/am-more-tangents-high/independent_public_expanded.py",
+      "encoding": "UTF-8 canonical LF, preserve EOF",
+      "bytes": 15444,
+      "sha256": "14dbbd8014972cd4e139a56b7cd22e38ae6f8b9a28c50a4565aef9281a458865",
+      "lines": 335
+    },
+    {
+      "path": "tmp/pdfs/am-more-tangents-high/independent-public-expanded-summary.json",
+      "encoding": "UTF-8 canonical LF, preserve EOF",
+      "bytes": 751,
+      "sha256": "daf01a6b7d27dbf2976e9942ebe686666a9abaa5f1fda14cf1b91259246ac2fa",
+      "lines": 20
+    },
+    {
+      "path": "tmp/pdfs/am-more-tangents-high/convex_candidates.py",
+      "encoding": "UTF-8 canonical LF, preserve EOF",
+      "bytes": 6790,
+      "sha256": "bd965b07185bc3387ddc2158af88592b4e3040fd40f5d17f404bd3e68767fbaa",
+      "lines": 156
+    },
+    {
+      "path": "tmp/pdfs/am-more-tangents-high/convex-candidates.json",
+      "encoding": "UTF-8 canonical LF, preserve EOF",
+      "bytes": 63014,
+      "sha256": "f109bbee6e836c63015d967255197d7b9e539795ad287f2c55d34f498c79c83f",
+      "lines": 3922
+    }
+  ],
+  "final_page_renders": [
+    {
+      "path": "tmp/pdfs/am-joint-expanded-root/render/page-1.png",
+      "encoding": "raw",
+      "bytes": 233267,
+      "sha256": "624d02eb86a7d8120f2d976e5d18725d9cc8b32557185f157efe6e8f65eb1130"
+    },
+    {
+      "path": "tmp/pdfs/am-joint-expanded-root/render/page-2.png",
+      "encoding": "raw",
+      "bytes": 199661,
+      "sha256": "11061186da896a1ab8b5c27d357fb4d63cd0101a0c6acb2683890cd836340163"
+    },
+    {
+      "path": "tmp/pdfs/am-joint-expanded-root/render/page-3.png",
+      "encoding": "raw",
+      "bytes": 274620,
+      "sha256": "1628dd6cbc6631e3992a44ae3ddd82c928791b56c345fb0a7ec40f0c0788efe4"
+    },
+    {
+      "path": "tmp/pdfs/am-joint-expanded-root/render/page-4.png",
+      "encoding": "raw",
+      "bytes": 244639,
+      "sha256": "a6fbed929a8cb53a880221b1e4d137d9a715ac796fe409db0b9e4687092cdd17"
+    },
+    {
+      "path": "tmp/pdfs/am-joint-expanded-root/render/page-5.png",
+      "encoding": "raw",
+      "bytes": 236129,
+      "sha256": "7cd1a6b3f24b8cfbf5f3c72719895be5093b90a98dad8ecd82e011646f17cacc"
+    },
+    {
+      "path": "tmp/pdfs/am-joint-expanded-root/render/page-6.png",
+      "encoding": "raw",
+      "bytes": 216320,
+      "sha256": "5a44091e45f8da561c859fe801cd6d0947544a9a1490d1449286300d0e4c587a"
+    }
+  ],
+  "submission_status": "Not submitted; kernel formalization now in progress under the fixed website contract",
+  "formalization_repository": "https://github.com/lixiang90/RH-Zero-Proportion-Formalization"
+}

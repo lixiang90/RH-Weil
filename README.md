@@ -26,10 +26,16 @@
 | κ 反馈的三次边界 | [TeX](papers/kappa-feedback-cubic-boundary-paper.tex) · [PDF](output/pdf/kappa-feedback-cubic-boundary-paper.pdf) | **引用输入下的推导**。重证 plain moment 范围并支付实际参数反馈，严格边界 σ*≈0.874957019420099。 |
 | 简单临界线零点的无损八点装配 | [TeX](papers/lossless-eight-point-simple-critical-paper.tex) · [PDF](output/pdf/lossless-eight-point-simple-critical-paper.pdf) | 简单临界线比例下界 `66812491/99194997 ≈ 67.3546983423%`。无条件相关输入、已准入连续八点证书与新 majorant 的组合；计算信任范围在正文明确。 |
 | 九点共享核值与简单临界线零点 | [TeX](papers/nine-point-joint-minorant-simple-critical-paper.tex) · [PDF](output/pdf/nine-point-joint-minorant-simple-critical-paper.pdf) | 比例下界提高至 `66812491/99194897 ≈ 67.3547662437%`。完整低集覆盖与289份精确有理对偶；保留原PC8连续与计算准入范围，非全链Lean内核证明。 |
+| 原点表切线与扩大九点证书 | [TeX](papers/expanded-nine-point-tangent-simple-critical-paper.tex) · [PDF](output/pdf/expanded-nine-point-tangent-simple-critical-paper.pdf) | 当前简单临界线比例下界 `66812491/99194740 ≈ 67.3548728491%`。241胞完整覆盖、2399份精确对偶和原已准入点表切线；计算信任范围在正文明确。 |
 
 三篇无零边界稿引用固定二次域全 Hecke `7/8` 结果及明确列出的通用引理，研究补偿几何、真实 moment 的可用范围和参数反馈。最新稿给出指定三次根的严格边界 `σ* ≈ 0.874957019420099`。正文重证相应几何、全部物理范围与全族延拓；结论覆盖指定有限阶 Hecke 族、Dirichlet 族及 zeta，允许主极点并排除边界线。它们没有独立重证外部整篇论文、改善简单临界线比例或新增 Lean 内核证书。引用前件、连续证明、有限代数检查及独立审查分列，入口见 [论文目录](papers/README.md)。
 
 比例论文保留全部线外零点和重数，把近对与分离集的能量无损转入实际计数。有限证书、完整解析证明和独立审查分别记录；没有宣称整条结论已获得 Lean 内核认证或外部同行评审。
+
+零点比例的新Lean形式化、内核证书与网站提交记录集中维护在独立仓库
+[RH-Zero-Proportion-Formalization](https://github.com/lixiang90/RH-Zero-Proportion-Formalization)。
+本仓库继续保存对应论文与研究历史；新仓库按riemannzeta.fun的固定Lean／Mathlib合同构建，
+目前形式化尚未完成、尚未获得网站记录。按用户要求，完成形式化之前暂停新的数学研究。
 
 ## 如何阅读证据
 
@@ -54,6 +60,7 @@ Lean 状态另外区分 `proved`、`classical_sorry`、`depends_on_sorry` 和 `o
 | [notes/](notes/) | 完整编号研究笔记；论文未覆盖的证明和失败机制也在这里。 |
 | [papers/](papers/README.md) / [output/pdf/](output/pdf/) | 项目论文源文件、编译说明及生成 PDF。 |
 | [formal/](formal/README.md) | 固定 Lean／mathlib 版本的源码、蓝图、admission 与验证日志。 |
+| [零点比例形式化](https://github.com/lixiang90/RH-Zero-Proportion-Formalization) | 独立仓库：新增比例证明、内核证书及正式记录提交。 |
 | [literature/](literature/README.md) | 固定版本的外部原始文献、来源与核读范围。 |
 | [reviews/](reviews/) | 独立审查、精确审计和后续证明任务。 |
 | [scripts/](scripts/) | 注册的有限检查、证书和探索计算；[requirements.txt](requirements.txt) 固定基本 Python 依赖范围。 |

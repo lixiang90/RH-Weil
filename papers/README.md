@@ -18,6 +18,7 @@
 | plain moment 范围延伸与三次反馈边界 | [kappa-feedback-cubic-boundary-paper.tex](kappa-feedback-cubic-boundary-paper.tex) | [PDF](../output/pdf/kappa-feedback-cubic-boundary-paper.pdf) | pdfLaTeX |
 | 简单临界线零点的无损八点装配 | [lossless-eight-point-simple-critical-paper.tex](lossless-eight-point-simple-critical-paper.tex) | [PDF](../output/pdf/lossless-eight-point-simple-critical-paper.pdf) | pdfLaTeX |
 | 九点共享核值与简单临界线零点 | [nine-point-joint-minorant-simple-critical-paper.tex](nine-point-joint-minorant-simple-critical-paper.tex) | [PDF](../output/pdf/nine-point-joint-minorant-simple-critical-paper.pdf) | pdfLaTeX |
+| 原点表切线与扩大九点证书 | [expanded-nine-point-tangent-simple-critical-paper.tex](expanded-nine-point-tangent-simple-critical-paper.tex) | [PDF](../output/pdf/expanded-nine-point-tangent-simple-critical-paper.pdf) | pdfLaTeX |
 
 新稿将笔记 441–445 的结果整理为正式论文：在明确引用原稿通用结果及全 Hecke \(7/8\) 结论的前提下，推出严格半平面 \(\Re s>69999/80000\) 无零。正文给出可变槽 low 证明、局部 Euler 域、实际 detector 容量、联合误差、连续证书及完整延拓反证；不宣称独立验收原稿或完成新的 Lean 认证。最终源稿、PDF 和独立审查的哈希及编译情况见 [构建清单](../reviews/2026-10-07/69999-paper-build-manifest.json)。
 
@@ -51,6 +52,11 @@ plain moment 至 37/50≤κ≤1，再用实际 κ=2β*−1 支付反馈费用。
 最终源／PDF、不同作者全链审查和全部10页渲染见
 [九点构建清单](../reviews/2026-10-08/nine-point-joint-paper-build-manifest.json)。
 
+扩大九点新稿记录502：原已准入REG/PTL提供额外整区间有效切线，
+重新完整捕获241胞并付款全部2399拼接域，简单临界线比例为
+66812491/99194740≈67.3548728491%。六页正文保留全部零点与原计算信任范围；
+有限程序、独审和完整渲染见[构建清单](../reviews/2026-10-08/expanded-nine-point-paper-build-manifest.json)。
+
 ## 从仓库根目录编译
 
 不能先切换到 `papers/` 再照抄下面命令：结构论文的
@@ -74,6 +80,8 @@ pdflatex -interaction=nonstopmode -halt-on-error -output-directory=output/pdf pa
 pdflatex -interaction=nonstopmode -halt-on-error -output-directory=output/pdf papers/lossless-eight-point-simple-critical-paper.tex
 pdflatex -interaction=nonstopmode -halt-on-error -output-directory=output/pdf papers/nine-point-joint-minorant-simple-critical-paper.tex
 pdflatex -interaction=nonstopmode -halt-on-error -output-directory=output/pdf papers/nine-point-joint-minorant-simple-critical-paper.tex
+pdflatex -interaction=nonstopmode -halt-on-error -output-directory=output/pdf papers/expanded-nine-point-tangent-simple-critical-paper.tex
+pdflatex -interaction=nonstopmode -halt-on-error -output-directory=output/pdf papers/expanded-nine-point-tangent-simple-critical-paper.tex
 ```
 
 两次编译用于更新引用。编译中间文件由 `.gitignore` 排除。

@@ -1,0 +1,418 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[margin=26mm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern,microtype}
+\usepackage{amsmath,amssymb,amsthm,mathtools,booktabs}
+\usepackage[hidelinks]{hyperref}
+\hypersetup{pdftitle={Additional Admitted Tangents for Joint Nine-Point Certificates},
+ pdfauthor={RH-Weil research project}}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{inputclaim}[theorem]{Computational input}
+\DeclareMathOperator{\tr}{tr}
+\DeclareMathOperator{\sinc}{sinc}
+\newcommand{\R}{\mathbb R}
+\title{Additional Admitted Tangents for Joint Nine-Point Certificates\\
+and Simple Critical Zeros of the Riemann Zeta Function}
+\author{Li Xiang\\\small \texttt{lixiang90}}
+\date{October 8, 2026}
+\begin{document}
+\maketitle
+\begin{abstract}
+We strengthen a joint nine-point certificate for a fixed perturbed
+Montgomery--Taylor window. An expanded capture retains 241 low-reward
+cells of an admitted eight-point certificate. Their reflections have
+2,399 feasible ordered intersections. Existing certified point values,
+derivative intervals and convex regions supply additional tangent cuts,
+without a new kernel table. A standard-library rational verifier checks
+every intersection with complete finite-box residual corrections.
+The uniform nine-point reward increases to $805260/10^8$. The lossless
+separation and all-zero spectral transport then give
+\[
+ \liminf_{T\to\infty}\frac{N_0^s(T)}{N(T)}
+ \ge\frac{66812491}{99194740}=0.6735487284910470\ldots.
+\]
+Here $N$ counts all nontrivial zeros with multiplicity and $N_0^s$
+counts simple zeros on the critical line. The proof assumes no RH,
+zero-free strip or higher correlation conjecture. It retains the
+previously disclosed PC8 continuous and compiled-computation admission;
+it is not a complete Lean kernel proof. This short paper records the
+new certificate and its exact transport, with the analytic framework
+and original data credited to their prior sources.
+\end{abstract}
+
+\section{Statement and provenance}
+
+Let $N(T)$ count the nontrivial zeros of $\zeta$ with imaginary part in
+$(0,T]$, including multiplicity. Let $N_0^s(T)$ count those zeros that
+are simple and have real part $1/2$.
+
+\begin{theorem}\label{thm:main}
+With the admitted continuous PC8, point-table and convexity inputs
+specified below, and the complete exact finite certificate of
+Section~\ref{sec:finite},
+\[
+ \liminf_{T\to\infty}\frac{N_0^s(T)}{N(T)}\ge\frac{66812491}{99194740}.
+\]
+There is no additional unproved analytic hypothesis.
+\end{theorem}
+
+The original window and eight-point weights come from the fixed public
+AM submission \cite{PC8}. The separation mechanism is adapted from
+Knausg{\aa}rd \cite[Section~5]{Knaus}. Our preceding nine-point paper
+\cite{Joint} obtained $66812491/99194897$. The present improvement
+uses more of the already admitted point data and recaptures a wider
+low set before proving a larger uniform reward. The exact gains are
+\begin{align*}
+\frac{66812491}{99194740}-\frac{66812491}{99194897}
+ &=\frac{10489561087}{9839612017241780},\\
+\frac{66812491}{99194740}-\frac{1669159}{2478195}
+ &=\frac{517622017}{49164781738860}.
+\end{align*}
+These are respectively about $0.0001066054$ and $0.0010528309$
+percentage points. The second is a comparison with a fixed arXiv v1,
+not an exhaustive global priority claim. Neither zero-free boundaries
+nor the original arithmetic fourth-moment estimates are improved here.
+
+\section{Fixed window and local data}
+
+Put $\beta=1/\sqrt2$, $Z=\sqrt2\sin\beta$ and $I=[-1/2,1/2]$.
+On $I$, with zero extension outside it, set
+\[
+ f(u)=\frac{\cos(\sqrt2u)+\sum_{j=1}^{12}c_j\cos(2\pi ju)}{Z},
+ \qquad K(t)=\int_I f(u)e^{-2\pi itu}\,du,\qquad w(t)=K(t)^2.
+\]
+The numerators $10^9c_j$ are
+\[
+\begin{split}
+(&12310798,-15041681,3867664,6489926,-992327,5580097,\\
+ &-6846472,3781297,-5670353,3355089,-450523,-218483).
+\end{split}
+\]
+The density is positive and has integral one, so $0\le w\le1$ on
+the real axis. Define
+\[
+ F_8(h)=\sum_{r=0}^6b_rh_r+
+       \sum_{0\le i<j\le7}a_{ij}w(h_i+\cdots+h_{j-1}),
+\]
+where
+\[
+10^8(b_r)_{r=0}^6=(28898,57272,75526,80958,75526,57272,28898),
+\quad B=\sum b_r=404350/10^8.
+\]
+For each row $i=0,\ldots,6$, the entries $10^8a_{i,i+1},\ldots,
+10^8a_{i,7}$ are
+\[
+\begin{array}{l}
+(13630830,0,19565904,20317441,45030671,100000000,200000000),\\
+(29997996,30621878,47766489,79682558,109938656,100000000),\\
+(37356140,69378121,65335210,79682558,45030671),\\
+(38030065,69378121,47766489,20317441),\\
+(37356140,30621878,19565904),\quad(29997996,0),\quad(13630830).
+\end{array}
+\]
+There are 26 nonzero terms. For every index span $s=1,\ldots,7$,
+$\sum_i a_{i,i+s}\le2$.
+
+\begin{inputclaim}\label{in:old}
+The fixed continuous PC8 certificate gives $F_8(h)\ge c_0$
+on $[0,\infty)^7$, where $c_0=805003/10^8$.
+Its point lists certify values and derivative intervals of $w$;
+its packed \texttt{REG} data certify convexity on their real intervals.
+The corresponding minorant, empty-cell and root-cursor checks have
+the continuous semantics described in \cite{Joint,Repo}.
+\end{inputclaim}
+
+We reuse this disclosed input. The original 240 compiled integer checks
+are not rerun or relabelled as 240 kernel proofs. The present capture
+reruns the 41 required outer/root checks; additional rational checks
+use the same admitted point and region data.
+
+\section{Additional interval-valid tangents}\label{sec:cuts}
+
+Let $SC=32768$ and $E=10^9$. A certified point $p$ with pack
+\[
+ V+2^{32}P+2^{64}M
+\]
+provides, for $q=p/SC$,
+\[
+ v=V/10^{10}\le w(q),\qquad
+ d_-=(P-2E)/E\le w'(q)\le d_+=(2E-M)/E.
+\]
+Point values and derivatives alone do not establish an interval tangent.
+The following direct branch of the original convex-region test does.
+
+\begin{lemma}\label{lem:extra}
+For a leaf term with actual integer interval $L\le U$, put
+$L^*=\min(L,p)$, $U^*=\max(U,p)$ and $k=(p+16384)\mathbin{\gg}15$.
+Let $A_k,B_k$ be its admitted \texttt{REG} endpoints. If
+\[
+ k<16,\quad A_k\le L^*\le p\le U^*\le B_k,\qquad P,M\ge1,
+\]
+then $w(x)\ge v+w'(q)(x-q)$ for every
+$x\in[L^*/SC,U^*/SC]$. In particular it holds on the actual leaf interval.
+\end{lemma}
+\begin{proof}
+The admitted region makes $w$ convex on $[A_k/SC,B_k/SC]$.
+The supporting tangent at $q$ lies below $w$ there, and replacing
+$w(q)$ by its lower bound $v$ preserves the inequality. In the
+original \texttt{tcheckPZ}, all containment and positive derivative-pack
+tests pass, and both extension disjunctions pass by containment alone.
+Thus its $n=1$ branch also gives the same full-interval assertion.
+The case $L^*=U^*=p$ passes its singleton branch and is covered as well.
+Each pack is taken from its original list \texttt{PTL\_i} with its own
+\texttt{PTF} assertion; no new merged-table assertion is presumed.
+\end{proof}
+
+\begin{lemma}\label{lem:anchor}
+For an interval-valid point tangent on $[l,u]$ containing $q$,
+both functions
+\[
+ v+d_+(l-q)+d_-(x-l),\qquad
+ v+d_-(u-q)+d_+(x-u)
+\]
+lie below $w(x)$ on $[l,u]$.
+\end{lemma}
+\begin{proof}
+Write $d=w'(q)$. The tangent minus the first line is
+$(d-d_-)(x-l)+(d_+-d)(q-l)\ge0$; minus the second it is
+$(d_+-d)(u-x)+(d-d_-)(u-q)\ge0$.
+\end{proof}
+
+Every admitted extra point is tested separately by Lemma~\ref{lem:extra}.
+All its lines can then be imposed on the same actual square $w(x)$.
+The old minorant's choice of at most two mixture points is no restriction
+on this use. For zero-width leaf spans the actual $U=L$ is retained;
+the enlarged interval used for a constant value lookup is not a tangent
+domain. We do not take an invalid maximum of the two raw derivative
+endpoint tangents across $q$.
+
+\section{Expanded cover and exact certificate}\label{sec:finite}
+
+For $g\in[4/5,\infty)^8$, set
+\[
+ F_9(g)=\tfrac12\{F_8(g_0,\ldots,g_6)+F_8(g_1,\ldots,g_7)\}
+           +2w(g_0+\cdots+g_7).
+\]
+We prove the uniform reward $c_*=805260/10^8$, an increment
+$c_*-c_0=2.57\cdot10^{-6}$. The nine-point pair weights are the
+half-sum of the old frame weights plus two on span eight. All index-span
+capacities are at most two; the total gap pressure remains $B$.
+
+Use the larger capture threshold $c_L=805803/10^8$.
+If either old frame has $F_8\ge c_L$, then
+\[
+ F_9\ge(c_L+c_0)/2=805403/10^8>c_*.
+\]
+It remains to cover the two-frame low case. The original clear COV
+domains pay $c_0+(4/5)B$, and the large-gap domains pay
+$c_0+(4/5)(B-\max b_r)$; both extra fees exceed
+$c_L-c_0=8\cdot10^{-6}$. The small-gap domain is absent on
+$[4/5,\infty)^7$. Hence the original 32 root trees and their bad
+intervals suffice.
+
+The capture preserves the original reward comparisons, return values,
+validity guards and bit cursors. Only the diagnostic clone of the final
+reward comparison changes to $805803$; its reward search uses fuel ten.
+All 41 outer/root checks pass. A leaf whose stronger comparison passes
+excludes the low point; a successful old leaf whose stronger comparison
+fails is recorded. The initial capture handles the half-space $h_6\ge h_0$.
+Direction leaves with $u_6<l_0$ cannot contain a point in that half-space;
+empty-cell leaves contain no feasible point. This yields 241 original
+cells. Their complete reflections restore the other half-space, giving
+482 labels in total. Reflections send spans $(i,j)$ to $(7-j,7-i)$.
+The cover is an outer cover; its cells need not consist only of low points.
+
+The closed gap and span constraints use exact units $5SC$ after adding
+the separation condition. The $482^2=232324$ ordered pairs reduce to
+4796 after shared gaps, 2405 after shared spans and 2399 after complete
+difference-constraint closure. Negative cycles reject empty domains;
+shortest-path potentials give feasible real prefix coordinates otherwise.
+No continuous gap is rounded to an integer grid.
+
+In every retained domain use eight gaps and 34 shared physical
+distance-square variables, so the objective has 42 variables. All original
+enabled cuts, constant bounds and individually certified extra cuts are
+put on the same square variable. The two-frame objective vector $q$
+represents $2\cdot10^8F_9$. Write the constraints $Ax\le b$ and the
+full variable box $\ell\le x\le u$. Squares have box $[0,1]$.
+
+\begin{lemma}\label{lem:dual}
+For rational $\lambda\ge0$ and $r=q+A^t\lambda$,
+\[
+ q^tx\ge-\lambda^tb+
+       \sum_i r_i\begin{cases}\ell_i,&r_i\ge0,\\u_i,&r_i<0.\end{cases}
+\]
+\end{lemma}
+\begin{proof}
+Use $q^tx=r^tx-\lambda^tAx\ge r^tx-\lambda^tb$ and minimize
+each residual coefficient on its complete box.
+\end{proof}
+
+The certificate contains all 2399 rational duals. Only extra points
+consumed by positive multipliers are retained: 924 point occurrences
+from 237 distinct original points. Removing zero-multiplier rows and
+remapping indices changes no lower bound. The smallest exact lower is
+\[
+ \frac{26386790900531855994044477203}
+      {3276800000000000000000000000000}.
+\]
+Its margin over $c_*$ is
+\[
+ \frac{31220531855994044477203}
+      {3276800000000000000000000000000}>0.
+\]
+Numerical optimization only locates multipliers. The final verifier uses
+integers and \texttt{Fraction}, reconstructs all domains and rows, and
+pays every residual by Lemma~\ref{lem:dual}. No floating-point
+stationarity, optimality or feasibility assertion is needed.
+
+\begin{proposition}\label{prop:local}
+Under the admitted continuous inputs, $F_9(g)\ge c_*$ on
+the entire unbounded domain $[4/5,\infty)^8$.
+\end{proposition}
+\begin{proof}
+Outside the two-frame low case the stronger-frame bound pays $c_*$.
+Inside it the complete reflected cover places the actual configuration
+in one of the 2399 domains. Its real gaps and shared squares satisfy
+the associated box and every valid cut. Its rational dual pays $c_*$.
+All bounds are closed, so boundaries are included.
+\end{proof}
+
+\section{Transport to the actual zero count}
+
+We give the parameter substitution in the already proved lossless
+assembly \cite{Joint,Lossless}. Summing Proposition~\ref{prop:local}
+over all nine-point sliding frames of $m$ separated real points yields
+\[
+ \sum_{i\ne j}K(y_i-y_j)^2\ge c_*(m-8)-B\operatorname{span}(y).
+\]
+Each pair is charged at most twice and each gap at most $B$.
+For $m\le8$ the right side is nonpositive.
+
+The same band-limited majorant is
+\[
+ g(u)=\frac{61}{100}
+ \{\sinc(\tfrac45(u-1/2))+\sinc(\tfrac45(u+1/2))\}^2.
+\]
+The continuous certificate of \cite{Lossless,Joint} proves $g\ge f$,
+$\widehat g(t)=0$ for $|t|\ge4/5$, and $\int g\le61/32<2$.
+With fixed smoothing $f_\epsilon=f\chi_\epsilon^2/m_\epsilon$,
+$m_\epsilon\to1$, let $d_\epsilon=\|f_\epsilon-f\|_1\to0$.
+For $m_\epsilon>61/64$ the Gram matrix of the separated set has
+norm below two, so the spectral clipping at level two causes no loss.
+The total local pair weight is less than sixteen; each squared overlap
+changes by at most $2d_\epsilon$. The sliding error is therefore at
+most $32d_\epsilon m$.
+
+Take a maximal disjoint collection of pairs at distance less than $4/5$
+among the $n$ simple critical-line points. The remaining set is separated.
+For each close pair the same window satisfies $K(t)>134/825$, hence
+$K(t)^2>1/40>c_*$. Its two-by-two Gram spectrum lies in $[0,2]$,
+and its reward pays $2c_*$ with smoothing error at most $4d_\epsilon$.
+Convex spectral-trace pinching combines the pairs and the separated set.
+For $\varphi_2(t)=t^2-(t-2)_+^2$ and their full Gram matrix $U$,
+\[
+ J(U):=\tr\varphi_2(U)-n
+ \ge c_*n-B\operatorname{span}(y)-8c_*-32d_\epsilon n.
+\]
+This includes empty or short separated sets and every close pair.
+
+The all-zero Hermitian operator $A$ retains all off-line reflection
+pairs and multiplicities. Its remainder $Q$ after the $n$ simple
+critical-line columns has positive inertia $p$ with $N-n\ge2p$.
+The threshold trace lemma of \cite{Joint,Knaus} gives
+\[
+ \tr A^2\ge2(N-n)+\tr\varphi_2(U)=2N-n+J(U).
+\]
+The unconditional pair-correlation formula with fixed smoothing gives
+$\tr A^2=(C(f_\epsilon)+o(1))N$ \cite{BGST,Lamzouri}.
+The removal of its correlation weight and the order of limits are the
+same as in \cite{Joint}: first $T\to\infty$ for fixed $\epsilon$,
+then $\epsilon\to0$. The full height span is at most $N+o(N)$.
+The bounded $8c_*$ edge term disappears, and the smoothing error tends
+to zero. Consequently
+\[
+ \liminf\frac{n}{N}\ge\frac{2-C(f)-B}{1-c_*}.
+\]
+The same window-energy certificate gives
+\[
+ C(f)=\frac12+\beta\cot\beta+
+ \frac{\sum_jc_j^2(1/2-1/(4\pi^2j^2))}{2\sin^2\beta},
+ \qquad 2-C(f)>67216841/10^8.
+\]
+Thus the last lower bound exceeds
+\[
+ \frac{67216841-404350}{10^8-805260}
+ =\frac{66812491}{99194740},
+\]
+proving Theorem~\ref{thm:main}. A fixed-width $7/8$ strip is not
+used to turn off-line zeros into real Gram points or to reduce their
+inertia budget.
+
+\section{Reproduction and trust boundary}
+
+The committed data are
+\texttt{output/am-expanded-nine-point-certificate.json}; the standard
+library checker is \texttt{scripts/am\_expanded\_nine\_point\_certificate.py}.
+From the repository root run
+\begin{verbatim}
+python scripts/am_expanded_nine_point_certificate.py --check
+python scripts/am_expanded_nine_point_certificate.py --replay
+\end{verbatim}
+The first command checks stored integers and all rational duals.
+The second additionally compares the used packs and convex-region
+endpoints with the fixed upstream source, regenerates an isolated Lean
+capture with Lean 4.34.1, and compares every emitted field. The source
+must be present at the path documented by the existing PC8 replay.
+Neither command imports an upstream theorem as a new axiom.
+
+The claimed continuous conclusion depends on the already disclosed
+PC8 minorant, point-table and convexity admission, together with the
+complete capture semantics. Integer runtime replay and standard-library
+rational checks are distinct from Lean kernel proof checking. We do not
+claim to have eliminated compiler/runtime trust or rebuilt all earlier
+formal analytic inputs. The headline native-computation axiom of
+\cite{Knaus} is not consumed. Independent full-domain reconstruction
+and the build identities are recorded separately in the repository.
+
+\begin{thebibliography}{9}
+\bibitem{PC8}
+\emph{AM eight-point PC8CL certificate}, fixed public submission
+\texttt{dani-bound-2026}, commit
+\texttt{d272437e7ebeb17b87c8c3d7cece592aa23785ab},
+\href{https://github.com/josusanmartin/riemann/tree/d272437e7ebeb17b87c8c3d7cece592aa23785ab/submissions/dani-bound-2026/proof}{proof source}.
+\bibitem{Knaus}
+K. M. Knausg{\aa}rd, \emph{More than 83.9\% of the zeros of the
+Riemann zeta function are distinct and more than 67.35\% are simple
+and on the critical line},
+\href{https://arxiv.org/abs/2610.08965v1}{arXiv:2610.08965v1},
+October 6, 2026, Section~5.
+\bibitem{Joint}
+RH--Weil research project, \emph{Joint Minorants for Nine Points and
+Simple Critical Zeros of the Riemann Zeta Function}, October 8, 2026,
+\href{https://github.com/lixiang90/RH-Weil/blob/609fe754aa6e9b22142f9539ddc28107145442f3/papers/nine-point-joint-minorant-simple-critical-paper.tex}{fixed manuscript}.
+\bibitem{Lossless}
+RH--Weil research project, \emph{Lossless Assembly of an Eight-Point
+Certificate for Simple Critical Zeros of the Riemann Zeta Function},
+October 8, 2026,
+\href{https://github.com/lixiang90/RH-Weil/blob/0f7e6c21769b7a848fc9ce4cbf498eb91184874d/papers/lossless-eight-point-simple-critical-paper.tex}{fixed manuscript}.
+\bibitem{BGST}
+S. A. C. Baluyot, D. A. Goldston, A. I. Suriajaya and
+C. L. Turnage-Butterbaugh, \emph{An unconditional Montgomery theorem
+for pair correlation of zeros of the Riemann zeta function},
+Acta Arith. 214 (2024), 357--376,
+\href{https://arxiv.org/abs/2306.04799}{arXiv:2306.04799}; see also
+the correction in \href{https://arxiv.org/abs/2501.14545v3}{arXiv:2501.14545v3}, Section~3.
+\bibitem{Lamzouri}
+Y. Lamzouri, \emph{A new proof that more than $2/3$ of the zeros of
+the Riemann zeta function are simple and on the critical line},
+\href{https://arxiv.org/abs/2609.02882v1}{arXiv:2609.02882v1}, Section~3.
+\bibitem{Repo}
+RH--Weil research project,
+\href{https://github.com/lixiang90/RH-Weil}{public repository},
+notes 483, 501--502; PC8 continuous audits and finite replay;
+expanded nine-point certificate and independent reconstruction.
+\end{thebibliography}
+\end{document}

@@ -50,6 +50,10 @@ CHECKS = (
         "joint AM nine-point exact epigraph duals",
         [sys.executable, "am_nine_point_epigraph_certificate.py", "--check"],
     ),
+    (
+        "expanded AM nine-point admitted-tangent exact duals",
+        [sys.executable, "am_expanded_nine_point_certificate.py", "--check"],
+    ),
     ("quartic boundary and normalization certificate", [sys.executable, "quartic_boundary_certificate.py"]),
     ("elliptic degree and odd-polarization benchmark", [sys.executable, "elliptic_degree_benchmark.py"]),
     (
