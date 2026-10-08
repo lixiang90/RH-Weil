@@ -1,5 +1,10 @@
 # 研究分支看板
 
+2026-10-08文献续核：本项目简单临界线比例67.3058110282…%低于最新检索的
+67.34824%形式化登记值；原始证明先给简单计数，再减弱为不同临界线计数。
+版本、核查边界与严格差值见[公开前沿核查](literature/supplements/2026-10-08-proportion-frontier-audit.md)。
+本轮未满足以刷新最佳比例为由发布论文的条件，原研究队列继续。
+
 ## 当前队列（2026-10-08，原 Type II 因子归约）
 
 Goal active。同一原 Type II 已支付短 Λ 因子17/24、large proper-prime-power m 的1/2及平方丰满 k 的1/2；原 Type I 强化至7/12。最终未付项保留大 genuine-prime m、非平方丰满 k、原 Möbius divisor 系数和共同乘积截断。完整推导、不同作者审查与精确检查点见[479](notes/479-original-type-ii-factor-reduction-and-diagonal-gauge.md)。
