@@ -26,7 +26,7 @@
 | κ 反馈的三次边界 | [TeX](papers/kappa-feedback-cubic-boundary-paper.tex) · [PDF](output/pdf/kappa-feedback-cubic-boundary-paper.pdf) | **引用输入下的推导**。重证 plain moment 范围并支付实际参数反馈，严格边界 σ*≈0.874957019420099。 |
 | 简单临界线零点的无损八点装配 | [TeX](papers/lossless-eight-point-simple-critical-paper.tex) · [PDF](output/pdf/lossless-eight-point-simple-critical-paper.pdf) | 简单临界线比例下界 `66812491/99194997 ≈ 67.3546983423%`。无条件相关输入、已准入连续八点证书与新 majorant 的组合；计算信任范围在正文明确。 |
 | 九点共享核值与简单临界线零点 | [TeX](papers/nine-point-joint-minorant-simple-critical-paper.tex) · [PDF](output/pdf/nine-point-joint-minorant-simple-critical-paper.pdf) | 比例下界提高至 `66812491/99194897 ≈ 67.3547662437%`。完整低集覆盖与289份精确有理对偶；保留原PC8连续与计算准入范围，非全链Lean内核证明。 |
-| 原点表切线与扩大九点证书 | [TeX](papers/expanded-nine-point-tangent-simple-critical-paper.tex) · [PDF](output/pdf/expanded-nine-point-tangent-simple-critical-paper.pdf) | 当前简单临界线比例下界 `66812491/99194740 ≈ 67.3548728491%`。241胞完整覆盖、2399份精确对偶和原已准入点表切线；计算信任范围在正文明确。 |
+| 原点表切线与扩大九点证书 | [TeX](papers/expanded-nine-point-tangent-simple-critical-paper.tex) · [PDF](output/pdf/expanded-nine-point-tangent-simple-critical-paper.pdf) | 当前简单临界线比例下界 `66812491/99194740 ≈ 67.3548728491%`。241胞完整覆盖、2399份精确对偶；独立仓库已核验完整模块化 Lean 证明，信任范围在正文明确。 |
 
 三篇无零边界稿引用固定二次域全 Hecke `7/8` 结果及明确列出的通用引理，研究补偿几何、真实 moment 的可用范围和参数反馈。最新稿给出指定三次根的严格边界 `σ* ≈ 0.874957019420099`。正文重证相应几何、全部物理范围与全族延拓；结论覆盖指定有限阶 Hecke 族、Dirichlet 族及 zeta，允许主极点并排除边界线。它们没有独立重证外部整篇论文、改善简单临界线比例或新增 Lean 内核证书。引用前件、连续证明、有限代数检查及独立审查分列，入口见 [论文目录](papers/README.md)。
 
@@ -35,7 +35,7 @@
 零点比例的新Lean形式化、内核证书与网站提交记录集中维护在独立仓库
 [RH-Zero-Proportion-Formalization](https://github.com/lixiang90/RH-Zero-Proportion-Formalization)。
 本仓库继续保存对应论文与研究历史；新仓库按riemannzeta.fun的固定Lean／Mathlib合同构建，
-目前形式化尚未完成、尚未获得网站记录。按用户要求，完成形式化之前暂停新的数学研究。
+独立仓库已通过完整模块化证明、单文件 Lean 编译及独立内核重放，署名为 Li Xiang（lixiang90）。网站的完整资源约束与正式验收仍待完成，尚未获得网站记录；提交工程期间继续暂停新的数学研究。
 
 ## 如何阅读证据
 
