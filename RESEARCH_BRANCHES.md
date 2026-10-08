@@ -14,10 +14,18 @@ Goal active。原 Type II 的小一次素因子部分已支付完整7/10四矩�
 全部端点、固定delta族、范数前件、不同作者数学审查及精确检查点见
 [480](notes/480-original-type-ii-single-prime-part-and-whole-moment-transfer.md)。
 
+原合法短载体的四全异近共振另已支付模最大素数平方完成的整个双非单位块：
+其带符号载体平均为O(X^(1/2+epsilon))。共同空间轮廓、进位gate、
+零加性频率及全部端点都保留，详见[完整来源](reviews/2026-10-08/hybrid-whole-fourth-double-nonunit-actual-research-whole.md)、
+[root全文审查](reviews/2026-10-08/hybrid-whole-fourth-double-nonunit-actual-review-root.md)
+及[不同作者独审](reviews/2026-10-08/hybrid-whole-fourth-double-nonunit-actual-review-checkpoint-audit.md)。
+这是短载体的signed平均分块，未提高canonical scalar完整四矩上界。
+
 | 范围 | 已付与下一目标 |
 |---|---|
 | 原Type II | 自然标签s(k)=prod_(v_p(k)=1)p；下一完整剩余保留genuine-prime m>M0、k>V、s(k)>Ssharp和共同乘积边界。 |
 | 原完整四矩 | 小s子族与精确矩传递已付；whole 5/7保持。下一目标仍为最终余项的完整signed mixed4及四素数near常数。 |
+| 原短载体近共振 | 整个双非单位块已付1/2+epsilon；下一余额保留unit/unit全宽块、graph对角的其他频块及共同q,s,a,u求和。同一good point还需要完整near预算和概率分母。 |
 | 原比例与无零边界 | p_dg=67.3058110282…%及引用输入下sigma_*≈0.874957019420099保持；没有新纪录或边界论文。 |
 | 联合解析桥 | 新传递误差仍增长，未支付常数级四矩、Hecke全族深度或kappa反馈。 |
 | 换域研究 | 按用户要求搁置，继续原对象。 |
