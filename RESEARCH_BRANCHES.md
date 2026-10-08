@@ -2,7 +2,7 @@
 
 按用户要求，每4–8轮研究做一次俯瞰复盘，默认每6轮。
 见[复盘规范](goals/REVIEW_PROTOCOL.md)、[轮数记录](goals/review-cadence.json)
-和[本次复盘及下一周期方向](goals/reviews/2026-10-08-original-route-review.md)。
+和[第二周期复盘及下一周期方向](goals/reviews/2026-10-08-original-route-review-cycle-2.md)。
 一次完整研究迭代计一轮，工具调用、笔记或子代理数量不计作轮数。
 
 2026-10-08：固定公开八点AM证书的连续语义、全部有限数据及展开式桥已核验。
@@ -19,7 +19,48 @@
 B4<174172614863/533312276805=0.3265865468285…，并支付全部配置误差。
 该候选本身没有提供可准入的比例、四矩增长或无零边界。
 
-## 当前队列（2026-10-08，复盘后第5轮：进位协方差与稀疏谱限制）
+用户新指定[2610.08965v1](https://arxiv.org/abs/2610.08965v1)主张67.3538200182%。
+[专项审查](literature/supplements/2026-10-08-knausgard-2610-08965-audit.md)
+明确其最终Lean定理的native_decide计算公理及本轮实际核验范围；
+尚未独立重放完整搜索和工程，未替换483已准入基线。
+
+## 当前队列（2026-10-08，第二周期六轮复盘完成）
+
+Goal active。491–496六轮已完成俯瞰复盘，计数重置为0；
+下一周期默认第6轮再次复盘，4轮可提前，8轮必须。
+[第二周期复盘](goals/reviews/2026-10-08-original-route-review-cycle-2.md)
+区分了实际前缀增长改善、mixed与远尾付款、核心归约及仍未付算术前件。
+这六轮没有改善实际比例、451条件边界、原未截断全局四阶幂或中心常数。
+
+第6轮在普通ζ的R_7/8前件下，保持原X、时间尺度、窗与normalizer，
+将全部q_max≤X^u的完整实际子族付到B(u)=3u/2−11/14，17/20≤u≤1。
+u=.9时为79/140，double-nn与chirp分别为9/20、2/5；允许products至X^1.8。
+canonical scalar、actual/physical四全异、unit与实际主带前缀都保留原配置。
+它不能免费支付前缀内部minor、cap外切片或单q块；u=1仍回到5/7。
+证明及独审见
+[前缀证明](reviews/2026-10-08/hybrid-original-prime-cutoff-fourth-and-max-label-research-perron.md)、
+[不同作者审查](reviews/2026-10-08/hybrid-original-prime-cutoff-fourth-and-max-label-review-high-product.md)。
+
+第6轮保留原ν的完整周期minor，准确恢复全部移位
+pr−q(s+b)+ell q²，移位远尾完整付X^(5/2−sqrt(8pi)) log^C X。
+不能只看pr≈qs；s+b−ell q没有自动prime性。
+489完整接口与491优化余项的差继续由旧端period费用支付，
+不将非周期子窗免费套Poisson。证明及独审见
+[496](notes/496-original-masked-shifted-determinant-core.md)。
+
+新primary密度比较没有降低7/8顶端的3/14计数费用。
+下一周期先逐项重推q≤Z的major/cap正包络和完整分区桥，
+成功后才能相减得到prefix minor；同时主攻q_top≈X的真实carry signed省幂，
+并行保留实际系数combined near。
+名义门槛r>u+w−12/7；严格改善已有B_*时须r>u+w−1−B_*，
+顶端约需r>0.285801997046972。可先检验旧cap之外的窄真实方面比，
+但其他范围、全部ν/twists与边界仍须付。
+减少普通CDF、一般二阶及Hilbert日志优化；比例仍单独检验实际中心常数，
+固定宽条带不能免费给1/log(T)微观窄带。
+
+公开README保持项目介绍。以下保留上一周期的逐轮证据与当时队列。
+
+## 此前队列（2026-10-08，上一周期第5轮：进位协方差与稀疏谱限制）
 
 Goal active。保持原数域、真实素数函数及原完整目标。
 第5轮把外F匹配的整数商z与角色读取的余数v区分，
