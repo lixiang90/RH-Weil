@@ -1,0 +1,188 @@
+{
+  "status": "conditional finite audit only",
+  "proves_analytic_moments": false,
+  "proves_zero_proportion": false,
+  "proves_zero_free_region": false,
+  "author_commit": "d85bddfe9d8f12856fba735fc9cb3ca23b48b3a8",
+  "pdf_sha256": "0abaa78e0eb4421fdbae647a0b3b6b0299a4dde5d49b0e56ca6f33831c5e3ea0",
+  "roots": [
+    {
+      "rational": "5323/10000",
+      "decimal": "0.5323"
+    },
+    {
+      "rational": "6561/5000",
+      "decimal": "1.3122"
+    },
+    {
+      "rational": "10293/5000",
+      "decimal": "2.0586"
+    }
+  ],
+  "coefficients": [
+    {
+      "rational": "1",
+      "decimal": "1"
+    },
+    {
+      "rational": "-749261960000/119824940493",
+      "decimal": "-6.252971684503117293778433556213191150247158587587448959"
+    },
+    {
+      "rational": "218296492048798450000000/14358016364150991083049",
+      "decimal": "15.20380577040153113592456670264447223620685298201141654"
+    },
+    {
+      "rational": "-791023559265500000000000/43074049092452973249147",
+      "decimal": "-18.36427212978441938543983339987043597719597261507857354"
+    },
+    {
+      "rational": "1514083320625000000000000/129222147277358919747441",
+      "decimal": "11.71690265582116149637662460499849311957009412900733070"
+    },
+    {
+      "rational": "-487887500000000000000000/129222147277358919747441",
+      "decimal": "-3.775571837177503898086342104784060692501530474923009858"
+    },
+    {
+      "rational": "62500000000000000000000/129222147277358919747441",
+      "decimal": "0.4836632211802802769704007205534140417234416841642553173"
+    }
+  ],
+  "nominal_moments": [
+    {
+      "rational": "1",
+      "decimal": "1"
+    },
+    {
+      "rational": "1",
+      "decimal": "1"
+    },
+    {
+      "rational": "4/3",
+      "decimal": "1.333333333333333333333333333333333333333333333333333333"
+    },
+    {
+      "rational": "2",
+      "decimal": "2"
+    },
+    {
+      "rational": "13/4",
+      "decimal": "3.25"
+    },
+    {
+      "rational": "101/18",
+      "decimal": "5.611111111111111111111111111111111111111111111111111111"
+    },
+    {
+      "rational": "12809/1260",
+      "decimal": "10.16587301587301587301587301587301587301587301587301587"
+    }
+  ],
+  "nominal_w0": {
+    "rational": "829278553005924403328783/8140995278473611944088783",
+    "decimal": "0.1018645171308107164998154905990432810091442321113290859"
+  },
+  "conditional_simple": {
+    "rational": "6482438172461763137431217/8140995278473611944088783",
+    "decimal": "0.7962709657383785670003690188019134379817115357773418281"
+  },
+  "conditional_distinct": {
+    "rational": "7311716725467687540760000/8140995278473611944088783",
+    "decimal": "0.8981354828691892835001845094009567189908557678886709141"
+  },
+  "comparison_target": {
+    "rational": "841853/1250000",
+    "decimal": "0.6734824"
+  },
+  "consumer_slack": {
+    "rational": "1249526417408358285822047015101/20352488196184029860221957500000",
+    "decimal": "0.06139428286918928350018450940095671899085576788867091407"
+  },
+  "common_absolute_moment_error": {
+    "rational": "1249526417408358285822047015101/1135611595880480717226900000000000",
+    "decimal": "0.001100311428609141041737351699694960887926832990332789636"
+  },
+  "individual_moment_errors": {
+    "4": {
+      "rational": "1249526417408358285822047015101/238468122998437500000000000000000",
+      "decimal": "0.005239804807859143005181983698704236664492156755845597841"
+    },
+    "5": {
+      "rational": "1249526417408358285822047015101/76842281250000000000000000000000",
+      "decimal": "0.01626092298513532594820051643249464304523103938952879539"
+    },
+    "6": {
+      "rational": "1249526417408358285822047015101/9843750000000000000000000000000",
+      "decimal": "0.1269360170065633814168428713753396825396825396825396825"
+    }
+  },
+  "central_fourth_conditional_payoff": {
+    "rational": "16/21",
+    "decimal": "0.7619047619047619047619047619047619047619047619047619048"
+  },
+  "central_fourth_cap_against_target": {
+    "rational": "2474441/7576677",
+    "decimal": "0.3265865761467725230995065514868853456469109083045245297"
+  },
+  "finite_lock_diagnostic": {
+    "sequence_support": [
+      0,
+      1
+    ],
+    "autocorrelation": {
+      "-1": 1,
+      "0": 2,
+      "1": 1
+    },
+    "density": {
+      "-2": 1,
+      "-1": 4,
+      "0": 6,
+      "1": 4,
+      "2": 1
+    },
+    "resolved": {
+      "-1,-1": 0,
+      "-1,0": 1,
+      "-1,1": 0,
+      "0,-1": 1,
+      "0,0": 2,
+      "0,1": 1,
+      "1,-1": 0,
+      "1,0": 1,
+      "1,1": 0
+    },
+    "resolved_energy": 8,
+    "density_energy": 70,
+    "all_free_locks_energy": 18,
+    "positive_k_energy": 1,
+    "mod3_four_offsets": [
+      0,
+      -2,
+      4,
+      2
+    ],
+    "mod3_four_allowed": 0,
+    "mod3_twin_allowed": 1,
+    "scope": "generic finite identity diagnostic; not a counterexample to prime asymptotics"
+  },
+  "checks": [
+    "archived English PDF fixed",
+    "degree-six square normalized",
+    "strict alternating coefficient signs",
+    "exact nominal consumer value",
+    "conditional simple headline strict",
+    "conditional distinct headline strict",
+    "positive consumer error budget against comparison target",
+    "common absolute moment error budget endpoint",
+    "single moment error budget endpoint: 4",
+    "single moment error budget endpoint: 5",
+    "single moment error budget endpoint: 6",
+    "existing conditional central-fourth payoff",
+    "central-fourth comparison threshold",
+    "resolved locks, density Parseval, and all-free locks are distinct",
+    "positive-k resolved variant",
+    "fixed four-point local mask differs from independent twin product"
+  ]
+}

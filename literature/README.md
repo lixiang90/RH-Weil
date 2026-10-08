@@ -131,14 +131,14 @@ PDF按来源原样保存，未重排或改写；arXiv固定版本，GitHub固定
 - [本地PDF](conditional/2026-devine-6792-conditional-box-v1.pdf)（7页，250,094字节）；[来源页面](https://zenodo.org/records/21879591)；[原始PDF链接](https://zenodo.org/records/21879591/files/vanishing_box_simple_zeros.pdf?download=1)。
 - 状态与用途：67.92%明确依赖消失窄箱假设；非无条件纪录。
 
-### 尚未核查解析链的高比例主张
+### 解析链尚未闭合的高比例主张
 
 **Yang-2026-7962 — More than 79.62% of the zeros of the Riemann zeta function are simple and on the critical line**
 
 - 作者：Yang Hongyi; Yang Shihua。
 - 版本：Zenodo21975237; version1.0; 2026-08-17。
 - [本地PDF](unreviewed/2026-yang-7962-unreviewed-v1.pdf)（38页，598,532字节）；[来源页面](https://zenodo.org/records/21975237)；[原始PDF链接](https://zenodo.org/records/21975237/files/More%20than%200.7962%20on%20the%20critical%20line-EN.pdf?download=1)。
-- 状态与用途：仅归档待审声明；解析高矩链未核查，不导入MOM-1。
+- 状态与用途：[2026-10-08深入审查](supplements/2026-10-08-yang-7962-deep-audit.md)核验有限有理证书，但定位大模数截断、原四点锁方差运输及高矩接口缺项；不能导入为已证79.62%或MOM-1输入。
 
 ## 补充材料与只登记链接的文献
 
