@@ -42,9 +42,9 @@
 并归档三篇无零边界论文的 TeX／PDF。最佳边界 σ*≈0.874957019420099 的三次根、
 连续证书、真实参数反馈、高度截断闭合及实际 zeta 的逆 Mellin 主信号已通过完整构建与 224 个公开定理的传递公理审查；
 独立串行 Nano 内核重放通过 58,126 个声明。主信号的局部可积性、原点快速衰减、去极点、Mellin 恒等式及最佳参数下的复数幂归一化已补齐。
-实际 slot 构造、Euler 校正、主项归一化、Gram 因子及射线素数 normalizer 的 12 个扩展、68 个声明已另行通过 Lean 与独立内核核验；完整物理估计仍开放，具体范围见独立仓库的[算术接口说明](https://github.com/lixiang90/RH-Zero-Free-Formalization/blob/main/upstream/plain-kappa/README.md)。
+实际算术的 19 个扩展模块、78 个声明已另行通过 Lean 与独立内核核验，涵盖 slot／Euler／主项、素数 normalizer 及有限行到实际 energy 的接合；低 κ 完整能量归纳和终端证书也已完成独立回放。验证范围与保留前提见独立仓库的[算术接口说明](https://github.com/lixiang90/RH-Zero-Free-Formalization/blob/main/upstream/plain-kappa/README.md)。
 **完整最佳无零区域的算术形式化尚未完成**：实际 zeta 定理仍显式需要
-`ArithmeticProbeObligation`，即算术修正因子与物理探针的低频／原始高频估计；低 κ moment、完整反射能量、detector 及全 Hecke 族结论的实例化等缺口
+`ArithmeticProbeObligation`，即算术修正因子与物理探针的低频／原始高频估计；完整 marked moments、改进 detector count、可变几何下的反射能量及全 Hecke 族结论的实例化等缺口
 列于新仓库[证明状态](https://github.com/lixiang90/RH-Zero-Free-Formalization/blob/main/docs/proof-status.md)。
 本仓库继续保存论文和研究历史，新增形式化代码集中放在独立仓库。
 
