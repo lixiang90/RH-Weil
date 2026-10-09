@@ -42,8 +42,9 @@
 并归档三篇无零边界论文的 TeX／PDF。最佳边界 σ*≈0.874957019420099 的三次根、
 连续证书、真实参数反馈、高度截断闭合及实际 zeta 的逆 Mellin 主信号已通过完整构建与 224 个公开定理的传递公理审查；
 独立串行 Nano 内核重放通过 58,126 个声明。主信号的局部可积性、原点快速衰减、去极点、Mellin 恒等式及最佳参数下的复数幂归一化已补齐。
+实际任意总长度的 slot 构造已另行通过 Lean 与独立内核核验；新 Euler、主留数归一化和实际 Gram 扩展的逐模块状态见独立仓库的[算术接口说明](https://github.com/lixiang90/RH-Zero-Free-Formalization/blob/main/upstream/plain-kappa/README.md)。
 **完整最佳无零区域的算术形式化尚未完成**：实际 zeta 定理仍显式需要
-`ArithmeticProbeObligation`，即算术修正因子与物理探针的低频／原始高频估计；低 κ moment、Gram、detector 及具体 Hecke／Dirichlet 转移等缺口
+`ArithmeticProbeObligation`，即算术修正因子与物理探针的低频／原始高频估计；低 κ moment、完整反射能量、detector 及全 Hecke 族结论的实例化等缺口
 列于新仓库[证明状态](https://github.com/lixiang90/RH-Zero-Free-Formalization/blob/main/docs/proof-status.md)。
 本仓库继续保存论文和研究历史，新增形式化代码集中放在独立仓库。
 
