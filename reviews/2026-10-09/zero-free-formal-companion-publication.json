@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-09",
+  "author": "Li Xiang / lixiang90",
+  "companion_repository": "https://github.com/lixiang90/RH-Zero-Free-Formalization",
+  "companion_commit": "acf568c074bd61be527635e7aba28d6615fe9147",
+  "boundary": "sigmaStar=11/12-ellStar/4; 657ellStar^3-954ellStar^2+21ellStar+20=0",
+  "approximate_boundary": "0.874957019420098946",
+  "lean_build_and_audit_passed": true,
+  "public_theorem_roots": 146,
+  "independent_serial_nano_passed": true,
+  "checked_declarations": 54774,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "complete_arithmetic_zero_free_proof": false,
+  "open_input": "ZetaSignalObligation; lower-kappa moment, actual compensated probe bounds and Mellin identity, concrete Hecke and Dirichlet realization.",
+  "papers_copied_byte_identically": true,
+  "new_formal_code_in_parent_repository": false,
+  "mathematical_research_resumed": false
+}

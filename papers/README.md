@@ -99,3 +99,11 @@ python scripts/check_repo_layout.py
 
 该检查只验证目录、论文文件及相对引用，不验证数学定理或 PDF 版面。
 版本管理中的PDF允许放在本项目的 output/pdf/ 或外部文献 literature/，其他散落路径仍会报错。
+
+
+## 非零区域的独立形式化仓库
+
+[RH-Zero-Free-Formalization](https://github.com/lixiang90/RH-Zero-Free-Formalization)
+保存三篇无零边界论文的原字节副本、最佳三次边界的新增 Lean 源码及内核验证记录。
+核心代数、反馈与通用延拓已核验；实际无零定理仍带显式算术信号前件，
+完整算术证明尚待实现。历史论文的源稿、PDF 与已有审查哈希保持原版。
