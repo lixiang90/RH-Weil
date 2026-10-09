@@ -40,10 +40,10 @@
 非零区域的新增形式化另行维护于
 [RH-Zero-Free-Formalization](https://github.com/lixiang90/RH-Zero-Free-Formalization)，
 并归档三篇无零边界论文的 TeX／PDF。最佳边界 σ*≈0.874957019420099 的三次根、
-连续证书、真实参数反馈和通用 Mellin 延拓已通过完整构建与 146 个公开定理的传递公理审查；
-独立串行 Nano 内核重放通过 54,774 个声明。
+连续证书、真实参数反馈、高度截断闭合及实际 zeta 的逆 Mellin 主信号已通过完整构建与 214 个公开定理的传递公理审查；
+独立串行 Nano 内核重放通过 58,109 个声明。主信号的局部可积性、原点快速衰减、去极点及 Mellin 恒等式已补齐。
 **完整最佳无零区域的算术形式化尚未完成**：实际 zeta 定理仍显式需要
-`ZetaSignalObligation`，低 κ moment、实际探针估计及 Hecke／Dirichlet 转移的具体实现
+`ArithmeticProbeObligation`，即算术修正因子与物理探针的低频／原始高频估计；低 κ moment、Gram、detector 及具体 Hecke／Dirichlet 转移等缺口
 列于新仓库[证明状态](https://github.com/lixiang90/RH-Zero-Free-Formalization/blob/main/docs/proof-status.md)。
 本仓库继续保存论文和研究历史，新增形式化代码集中放在独立仓库。
 
@@ -71,7 +71,7 @@ Lean 状态另外区分 `proved`、`classical_sorry`、`depends_on_sorry` 和 `o
 | [papers/](papers/README.md) / [output/pdf/](output/pdf/) | 项目论文源文件、编译说明及生成 PDF。 |
 | [formal/](formal/README.md) | 固定 Lean／mathlib 版本的源码、蓝图、admission 与验证日志。 |
 | [零点比例形式化](https://github.com/lixiang90/RH-Zero-Proportion-Formalization) | 独立仓库：新增比例证明、内核证书及正式记录提交。 |
-| [非零区域形式化](https://github.com/lixiang90/RH-Zero-Free-Formalization) | 独立仓库：最佳三次边界的代数证书、反馈及条件延拓归约；完整算术证明仍开放。 |
+| [非零区域形式化](https://github.com/lixiang90/RH-Zero-Free-Formalization) | 独立仓库：最佳三次边界证书、反馈、高度闭合与实际 zeta 逆 Mellin 主信号；完整算术证明仍开放。 |
 | [literature/](literature/README.md) | 固定版本的外部原始文献、来源与核读范围。 |
 | [reviews/](reviews/) | 独立审查、精确审计和后续证明任务。 |
 | [scripts/](scripts/) | 注册的有限检查、证书和探索计算；[requirements.txt](requirements.txt) 固定基本 Python 依赖范围。 |
