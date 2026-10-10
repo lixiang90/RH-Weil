@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-10",
+  "reviewer": "independent frontier/proof audit agent",
+  "final_mathematical_and_state_scope_review": "PASS",
+  "count_definition": "simple critical-line zeros / all nontrivial zeros with multiplicity",
+  "proportion": "941021/1397107",
+  "new_zero_free_region": false,
+  "new_bound_lean_verified": false,
+  "official_website_acceptance": false,
+  "rechecked": "Final corrected prose only; no new search, Lean or solver run.",
+  "files": [
+    {
+      "path": "papers/ninth-span-simple-critical-paper.tex",
+      "bytes": 18520,
+      "raw_sha256": "f2f2ab09623b0fab9251e15a0d9d445d380a67b66aa32b30f70d4581d23ed71d",
+      "canonical_lf_sha256": "f2f2ab09623b0fab9251e15a0d9d445d380a67b66aa32b30f70d4581d23ed71d"
+    },
+    {
+      "path": "notes/503-ninth-span-reward-and-feedback-interface-barrier.md",
+      "bytes": 10347,
+      "raw_sha256": "4a32a359177125bcd01547cd8706121878c1216c8a339f3b269895b14b728f36",
+      "canonical_lf_sha256": "4a32a359177125bcd01547cd8706121878c1216c8a339f3b269895b14b728f36"
+    },
+    {
+      "path": "README.md",
+      "bytes": 12417,
+      "raw_sha256": "4aa332d60cd5a2d1e971a012c17abe096a43f9a946957ced5df2bcd70a266fbf",
+      "canonical_lf_sha256": "9e0f0bd55dfdfddad34ea0883f8b78c69b112d55c26d22afc954af8290bbfcd8"
+    }
+  ]
+}

@@ -1,0 +1,285 @@
+{
+  "schema": "rh-weil-ninth-span-publication-v1",
+  "date": "2026-10-10",
+  "author": "Li Xiang (lixiang90)",
+  "baseline_commit": "d99bfa29ff9ac1487a42f1b8f3d3925b660396a3",
+  "count_scope": "simple critical-line zeros / all nontrivial zeros with multiplicity",
+  "proportion": "941021/1397107",
+  "unreduced_proportion": "66812491/99194597",
+  "previous_proportion": "66812491/99194740",
+  "gain_in_proportion": "134566003/138585665617180",
+  "uniform_local_reward": "805403/100000000",
+  "minimum_finite_domain_bound": "263917374155379049835090394947/32768000000000000000000000000000",
+  "dependencies": "original admitted continuous PC8 point/region/capture certificate and proved all-zero analytic transport",
+  "verification": {
+    "complete_finite_check": true,
+    "original_source_extraction_check": true,
+    "independent_mathematical_review": true,
+    "independent_minimal_offline_replay": true,
+    "canonical_lf_minimal_replay": true,
+    "python_optimized_mode_refused": true,
+    "staged_git_blobs_offline_replay": true,
+    "core_registered_checks": 92,
+    "core_pass": true,
+    "heavy_interval_groups_b1h_b1i_rerun": false,
+    "new_full_lean_proof": false,
+    "official_website_acceptance": false
+  },
+  "zero_free": {
+    "boundary_unchanged": "0.874957019420098946...",
+    "new_three_affine_constraints_interface_barrier": true,
+    "all_actual_general_geometries_proved_to_meet_constraints": false,
+    "new_actual_arithmetic_estimate": false,
+    "new_zero_free_half_plane": false,
+    "finite_algebra_checks": 38,
+    "necessary_count_saving_for_unattained_target_0_87495": {
+      "B": "17499/20000",
+      "delta": "19429/50000",
+      "minimum_kappa": "7499/10000",
+      "necessary_count_decrement_if_low_unchanged_and_h_lt_one": "467366968772963/12314470624500000000",
+      "decimal_orientation_only": "0.000037952664229278579493516741386254951",
+      "attained": false
+    }
+  },
+  "pdf": {
+    "compiler": "pdfLaTeX",
+    "pages": 6,
+    "cross_references_resolved": true,
+    "overfull_underfull_warnings": 0,
+    "all_final_pages_visually_inspected": true,
+    "render_dpi": 100,
+    "png_files_local_only": [
+      {
+        "path": "tmp/pdfs/ninth-span-20261010/page-1.png",
+        "bytes": 194106,
+        "raw_sha256": "4fc73100290840c15976167c2719ce2e144be33aa082c34a8ba1efd488853455",
+        "canonical_lf_sha256": "9179e01e98408360560c86777ce13b1b9229c6c67eddb4e4702443ca51881fbe"
+      },
+      {
+        "path": "tmp/pdfs/ninth-span-20261010/page-2.png",
+        "bytes": 212582,
+        "raw_sha256": "80c51a04ee5b663d03db207452c2a08f17bb1ee3f0e1aab26745723116477ca4",
+        "canonical_lf_sha256": "9bb171a3218e2464d3f372bf57fe271be90e01a96af3b279260bb64f889ff5ef"
+      },
+      {
+        "path": "tmp/pdfs/ninth-span-20261010/page-3.png",
+        "bytes": 264962,
+        "raw_sha256": "4af0542495d922168bc70204d6a520e22e57772053f7b0f4920dde655a54abd0",
+        "canonical_lf_sha256": "109c756a7d973ae9e00f1334e6b2e1b1dfceeafde2ab0507d541492ad4ab69df"
+      },
+      {
+        "path": "tmp/pdfs/ninth-span-20261010/page-4.png",
+        "bytes": 223679,
+        "raw_sha256": "7aa65327f6c01c0b238c71b717afcd753f704d2514b814484163e2e6819417b5",
+        "canonical_lf_sha256": "f9117a81975a32da65fc11695bd0f6307140480119d991425b3dc09c895b4a49"
+      },
+      {
+        "path": "tmp/pdfs/ninth-span-20261010/page-5.png",
+        "bytes": 201525,
+        "raw_sha256": "a1196e4aa312b247cc69305614d5acde305f738cff0970b81eeb4aa114c7bbb3",
+        "canonical_lf_sha256": "459deb600a6252cf99d0639be1206efa8ed60d3d2cd4bd7b7661cf81de81b3d8"
+      },
+      {
+        "path": "tmp/pdfs/ninth-span-20261010/page-6.png",
+        "bytes": 132674,
+        "raw_sha256": "0a66e37525ddb3add2eae76c092cd5eb2ca3ecd0faad90062784b91420191917",
+        "canonical_lf_sha256": "df09823b70e5dfb5a03efa09ac0378579d547291213952915d83bce68a5129c7"
+      }
+    ]
+  },
+  "research_cadence": {
+    "completed_research_rounds_since_review": 2,
+    "target_review_round": 6,
+    "minimum_review_round": 4,
+    "maximum_review_round": 8
+  },
+  "independent_formalization_repositories_modified": false,
+  "artifacts": [
+    {
+      "path": "papers/ninth-span-simple-critical-paper.tex",
+      "bytes": 18520,
+      "raw_sha256": "f2f2ab09623b0fab9251e15a0d9d445d380a67b66aa32b30f70d4581d23ed71d",
+      "canonical_lf_sha256": "f2f2ab09623b0fab9251e15a0d9d445d380a67b66aa32b30f70d4581d23ed71d"
+    },
+    {
+      "path": "output/pdf/ninth-span-simple-critical-paper.pdf",
+      "bytes": 350135,
+      "raw_sha256": "6e4dcc129820c24d53ae2ac0d976a48bf4379dbf0c7fbdb7b40a9c9a45ca9382",
+      "canonical_lf_sha256": "953446ad87283e1da088ac83a41810eb77c6d2a0b3b8b9e15eb57136f9c2e7d4"
+    },
+    {
+      "path": "scripts/am_ninth_span_certificate.py",
+      "bytes": 10462,
+      "raw_sha256": "b03b3259a385702300520bd02f33c79d228b76a0e07c6b42cec23b6a02a5e673",
+      "canonical_lf_sha256": "b03b3259a385702300520bd02f33c79d228b76a0e07c6b42cec23b6a02a5e673"
+    },
+    {
+      "path": "output/am-ninth-span-certificate.json",
+      "bytes": 971109,
+      "raw_sha256": "9fc7f9d8a00ebbc3e2f8ff236b247af5ac3173c3942ec72b9180c4473a65cf96",
+      "canonical_lf_sha256": "9fc7f9d8a00ebbc3e2f8ff236b247af5ac3173c3942ec72b9180c4473a65cf96"
+    },
+    {
+      "path": "output/am-ninth-span-point-catalog.json",
+      "bytes": 40690,
+      "raw_sha256": "cda8ce5fce3d0a639975f54e57b1991c7d5a2a2cb112df4e3dd13237a954fb27",
+      "canonical_lf_sha256": "cda8ce5fce3d0a639975f54e57b1991c7d5a2a2cb112df4e3dd13237a954fb27"
+    },
+    {
+      "path": "scripts/kappa_feedback_interface_barrier.py",
+      "bytes": 11605,
+      "raw_sha256": "93cb147ed22f2a88d54c2e312570b2e408156f8869180b4519e7f966f4223851",
+      "canonical_lf_sha256": "93cb147ed22f2a88d54c2e312570b2e408156f8869180b4519e7f966f4223851"
+    },
+    {
+      "path": "output/kappa-feedback-interface-audit.json",
+      "bytes": 7192,
+      "raw_sha256": "49ccbc6db6e37caa380f8288a40bb06eab0801b9a6c325ec40c0fa5d04699c53",
+      "canonical_lf_sha256": "49ccbc6db6e37caa380f8288a40bb06eab0801b9a6c325ec40c0fa5d04699c53"
+    },
+    {
+      "path": "notes/503-ninth-span-reward-and-feedback-interface-barrier.md",
+      "bytes": 10347,
+      "raw_sha256": "4a32a359177125bcd01547cd8706121878c1216c8a339f3b269895b14b728f36",
+      "canonical_lf_sha256": "4a32a359177125bcd01547cd8706121878c1216c8a339f3b269895b14b728f36"
+    },
+    {
+      "path": "reviews/2026-10-10/branch-fullspan-exact-check.json",
+      "bytes": 605,
+      "raw_sha256": "3610d24f0d93465cd3ed2b98c5c12f354a4be7ce0c2d027398a5e2ca66c34aa0",
+      "canonical_lf_sha256": "8f3d900c24e887fa51bf2928c647a709660f32354540e49dc823baa713bfc6de"
+    },
+    {
+      "path": "reviews/2026-10-10/core-checks-final.log",
+      "bytes": 62596,
+      "raw_sha256": "9c29155eef0cbd47c7d42261c1204589db2aa8d7c559773085979483198e6743",
+      "canonical_lf_sha256": "9c29155eef0cbd47c7d42261c1204589db2aa8d7c559773085979483198e6743"
+    },
+    {
+      "path": "reviews/2026-10-10/feedback-interface-barrier.md",
+      "bytes": 11476,
+      "raw_sha256": "5b5e9031eb3888c65986f5c428203135fd40d98ac38b67a995df62032a03bcdc",
+      "canonical_lf_sha256": "5b5e9031eb3888c65986f5c428203135fd40d98ac38b67a995df62032a03bcdc"
+    },
+    {
+      "path": "reviews/2026-10-10/feedback-interface-stdlib-independent.json",
+      "bytes": 7192,
+      "raw_sha256": "49ccbc6db6e37caa380f8288a40bb06eab0801b9a6c325ec40c0fa5d04699c53",
+      "canonical_lf_sha256": "49ccbc6db6e37caa380f8288a40bb06eab0801b9a6c325ec40c0fa5d04699c53"
+    },
+    {
+      "path": "reviews/2026-10-10/final-manuscript-bindings.json",
+      "bytes": 1327,
+      "raw_sha256": "5f1c2a71db49a0b7feb8efc65e12fd5efac776e7a61ffe930e68a2ce0e6c6f1d",
+      "canonical_lf_sha256": "edd04ff253fafe6f4b491a32e55098c5c3436b0a815fb04c5e1e8bb4662241c7"
+    },
+    {
+      "path": "reviews/2026-10-10/finite-state-storage-mathematical-review.md",
+      "bytes": 4974,
+      "raw_sha256": "36e0865564840460f12eeba86d0e518cdeefad2be3d4352d8ddcd9842907401c",
+      "canonical_lf_sha256": "36e0865564840460f12eeba86d0e518cdeefad2be3d4352d8ddcd9842907401c"
+    },
+    {
+      "path": "reviews/2026-10-10/fullspan-independent-mathematical-review.md",
+      "bytes": 9387,
+      "raw_sha256": "609cee532f9a1a0dfb6753b89199a25e950d2f8cece43d6aa7ca5a62929508ea",
+      "canonical_lf_sha256": "609cee532f9a1a0dfb6753b89199a25e950d2f8cece43d6aa7ca5a62929508ea"
+    },
+    {
+      "path": "reviews/2026-10-10/fullspan-independent-structure-review.json",
+      "bytes": 3213,
+      "raw_sha256": "46e209d5eaf9ad8473108dc40deb683e94ddefaf6ca9cd672c8c4ee1b140b321",
+      "canonical_lf_sha256": "46e209d5eaf9ad8473108dc40deb683e94ddefaf6ca9cd672c8c4ee1b140b321"
+    },
+    {
+      "path": "reviews/2026-10-10/mixed-budget-sharpness.md",
+      "bytes": 4871,
+      "raw_sha256": "85720a11f4fe2127a9c51bd41c05f7b3ad8bfcbed196373398e76161322b6b6c",
+      "canonical_lf_sha256": "85720a11f4fe2127a9c51bd41c05f7b3ad8bfcbed196373398e76161322b6b6c"
+    },
+    {
+      "path": "reviews/2026-10-10/ninth-span-clean-lf-check.json",
+      "bytes": 955,
+      "raw_sha256": "e36cb7f7e4850ea110f99bdd938eedd2345afbbd1eb4195a70b12b7d4d79c0d5",
+      "canonical_lf_sha256": "5ce060af7abb6dcbfc3c13e1b9f89fa165c1af93b3c4c017faaab2121d735810"
+    },
+    {
+      "path": "reviews/2026-10-10/ninth-span-exact-check.json",
+      "bytes": 955,
+      "raw_sha256": "e7e1a226063e84e0f4577ade1bc9e4b3e4c6e455e1c50387f789c63595c9aa2f",
+      "canonical_lf_sha256": "8e844971756e07d0dc618b462df72c7874b223003983867765802ac47654fd66"
+    },
+    {
+      "path": "reviews/2026-10-10/ninth-span-independent-clean-check.json",
+      "bytes": 955,
+      "raw_sha256": "d5620ec5c298815cc491103ba6920a005a6fce0d12223cde8849037f9a7fcc14",
+      "canonical_lf_sha256": "19f514a2628a819e0f40932313653f4649f5706f613fee78b87d0b8bf1767c9c"
+    },
+    {
+      "path": "reviews/2026-10-10/ninth-span-independent-clean-manifest.json",
+      "bytes": 3737,
+      "raw_sha256": "f718b045311bdeb55bcd4afb6bb7607de4d1f31cb4312d6baf6bce84aa56f0ec",
+      "canonical_lf_sha256": "4b24ff93dd421af568d6cdf65aba392e3ffafd2dac8c4ab80da379bb1297e272"
+    },
+    {
+      "path": "reviews/2026-10-10/ninth-span-manuscript-independent-review.md",
+      "bytes": 3896,
+      "raw_sha256": "4458e5c3dc17651f170f649f67346c7a5cf171065c21237039587e008710436c",
+      "canonical_lf_sha256": "4458e5c3dc17651f170f649f67346c7a5cf171065c21237039587e008710436c"
+    },
+    {
+      "path": "reviews/2026-10-10/ninth-span-publication-handoff.json",
+      "bytes": 2842,
+      "raw_sha256": "1c465b07945d99459b76fdb1b450eb0f37423a4bd1090c76e8f5d7409e2fb90c",
+      "canonical_lf_sha256": "1c465b07945d99459b76fdb1b450eb0f37423a4bd1090c76e8f5d7409e2fb90c"
+    },
+    {
+      "path": "reviews/2026-10-10/ninth-span-source-check.json",
+      "bytes": 954,
+      "raw_sha256": "fdf559223c9e5ec340e64811318bd47e3992589258bb5439dfdb4d0596eee808",
+      "canonical_lf_sha256": "8a5dc33f4666eb25617262b9e779a5b2ff02885d2c435e4abcd330e36f8604d2"
+    },
+    {
+      "path": "reviews/2026-10-10/ninth-span-staged-offline-check.json",
+      "bytes": 955,
+      "raw_sha256": "dd46aa91ac127776eb9674b4a382e9fe7d4eccb719aea3227fef6cae36f24ca3",
+      "canonical_lf_sha256": "625413439aae1913bc623e3ecd2b7f2e875abbf2cf9bf9a012316358dd5730d2"
+    },
+    {
+      "path": "reviews/2026-10-10/ninth-span-staged-offline-manifest.json",
+      "bytes": 2670,
+      "raw_sha256": "1051466640818fb4175ffb0acadf2d499175096582c044b4bcd83e38da20d959",
+      "canonical_lf_sha256": "1051466640818fb4175ffb0acadf2d499175096582c044b4bcd83e38da20d959"
+    },
+    {
+      "path": "reviews/2026-10-10/portable-offline-independent.json",
+      "bytes": 942,
+      "raw_sha256": "36e42073defedb18a19effff2d5f624fc0efbcab1f600afdfca54880bdfb1963",
+      "canonical_lf_sha256": "0bdf2e42164927f1040ec41df2b2402d59e107a6b22f2f1a7c261191fba9a7d9"
+    },
+    {
+      "path": "reviews/2026-10-10/portable-source-independent.json",
+      "bytes": 954,
+      "raw_sha256": "66e2eeebe2f8aa727c18829d80f16e513bfd6eb519eca90552ee0217fbdda4c3",
+      "canonical_lf_sha256": "79f668b0304edcf88fd26e9b006d30b2a2e5cec998e8dadafd6bf7e1c77f1c18"
+    },
+    {
+      "path": "reviews/2026-10-10/primary-frontier-scope-audit.md",
+      "bytes": 6386,
+      "raw_sha256": "a6c48f7f4283a8f471ddc53a4545681ffd2083aae9955b5e991ae29b81764a92",
+      "canonical_lf_sha256": "a6c48f7f4283a8f471ddc53a4545681ffd2083aae9955b5e991ae29b81764a92"
+    },
+    {
+      "path": "reviews/2026-10-10/README.md",
+      "bytes": 3356,
+      "raw_sha256": "d791e20c12fabe7a3f5484588a8a66d441c03125d6c84241036db9a94527cd6d",
+      "canonical_lf_sha256": "d791e20c12fabe7a3f5484588a8a66d441c03125d6c84241036db9a94527cd6d"
+    },
+    {
+      "path": "reviews/2026-10-10/zero-free-interface-independent-review.md",
+      "bytes": 6513,
+      "raw_sha256": "a866359704d58cd8897631ccbeba94fb1efaef8e91aa08ddc915bde1cfa001e7",
+      "canonical_lf_sha256": "a866359704d58cd8897631ccbeba94fb1efaef8e91aa08ddc915bde1cfa001e7"
+    }
+  ]
+}

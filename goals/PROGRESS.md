@@ -1596,3 +1596,24 @@ GOAL第十节B/C逐字保持，较远期目标仍未实现。
 网站当前核验记录为6734832/10000000，目标保持66812491/99194740。固定合同要求单一UTF-8 Solution.lean≤2MB，同时证明严格改进、dyadic和cumulative下界，transitive axioms只允许propext、Quot.sound、Classical.choice，并通过Lean与nanoda。现有论文、Fraction重建及编译捕获不是网站认可的全链证明；尚未上传或获得记录。此阶段仅移植已有证明、生成内核证书与核验提交，不推进十点或算术新方向。
 
 随后按用户要求建立[RH-Zero-Proportion-Formalization](https://github.com/lixiang90/RH-Zero-Proportion-Formalization)，将刚开始的新增Lean代码全部移入独立checkout。该仓库收录对应论文副本与原精确证书，原RH-Weil仍保存论文及研究记录，README提供新仓库入口。新仓库锁定Lean v4.33.0-rc2、Mathlib51e6992efd06126df61a496bebf8f49482a4e129、Zeta23 3635e74826a4c1fcece7d1cd2b6fa75e43a00510；仓库建立不代表形式化验收完成。
+
+## 2026-10-10：明确恢复研究，九点总跨度提高比例
+
+用户明确恢复比例与无零区域研究。此前paused为历史工具状态，当前用户恢复请求
+撤销该暂停；不新建或自动宣称完成长期目标。形式化工程不增加数学研究轮数。
+
+[503](../notes/503-ninth-span-reward-and-feedback-interface-barrier.md)
+使用原点表与凸段支付九点总跨度平方，47弱域分为84闭分支，完整2399域精确重算。
+简单临界线比例提高为941021/1397107≈67.3549699486%，
+相对502增加约0.0000970995105451个百分点。原全线外零点、重数、压力、平滑与解析输入保持。
+新正式论文署名Li Xiang（lixiang90），独立全链审查与标准库离线／原源重放均通过。
+新结果尚未完整Lean形式化，也未获得网站验收；两个独立形式化仓库保持原版。
+
+无零区域没有更小边界：当前σ*≈0.874957019420099。
+本轮证明显式三条指数约束与κ反馈下的接口障碍，不声称所有实际几何或算术方法最优。
+目标.87495若保持原low，至少需要新的真实count saving χ>3.7952664×10^-5；
+这只是必要预算。有限族sharpness引理指出独立边际预算不能强制这种混合saving，
+下一步须从原共同角色／物理列的long-inverse、short-plain和一次Qi相关性获取新信息。
+
+本轮为第三周期复盘后第2轮；默认第6轮再次复盘，4轮可提前、8轮必须。
+最终论文、证书与验证身份见[构建清单](../reviews/2026-10-10/ninth-span-paper-build-manifest.json)。

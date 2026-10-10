@@ -1,0 +1,634 @@
+==> finite-check group coverage
+Check groups passed: core=92, b1h=1, b1i=1, all=94; no checks skipped or duplicated
+[scope] registry coverage and mocked dispatch only; no heavy computations
+==> paper layout
+Paper layout, TeX inputs, and documentation links passed.
+==> paper layout regression
+test_all_layout_documents_are_required (__main__.LayoutTests.test_all_layout_documents_are_required) ... ok
+test_both_literal_input_commands_are_checked (__main__.LayoutTests.test_both_literal_input_commands_are_checked) ... ok
+test_broken_paper_links_in_each_document_are_reported (__main__.LayoutTests.test_broken_paper_links_in_each_document_are_reported) ... ok
+test_commented_inputs_are_ignored (__main__.LayoutTests.test_commented_inputs_are_ignored) ... ok
+test_complete_layout_and_root_relative_inputs_pass (__main__.LayoutTests.test_complete_layout_and_root_relative_inputs_pass) ... ok
+test_deleted_tracked_paths_and_untracked_scratch_are_ignored (__main__.LayoutTests.test_deleted_tracked_paths_and_untracked_scratch_are_ignored) ... ok
+test_encoded_spaces_anchors_and_remote_links (__main__.LayoutTests.test_encoded_spaces_anchors_and_remote_links) ... ok
+test_every_required_source_and_pdf_is_required (__main__.LayoutTests.test_every_required_source_and_pdf_is_required) ... ok
+test_existing_versioned_pdf_outside_output_is_rejected (__main__.LayoutTests.test_existing_versioned_pdf_outside_output_is_rejected) ... ok
+test_input_is_not_silently_resolved_from_papers_directory (__main__.LayoutTests.test_input_is_not_silently_resolved_from_papers_directory) ... ok
+test_root_tex_and_pdf_are_rejected (__main__.LayoutTests.test_root_tex_and_pdf_are_rejected) ... ok
+test_versioned_external_literature_is_allowed (__main__.LayoutTests.test_versioned_external_literature_is_allowed) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.398s
+
+OK
+==> double Perron finite costs and existing cubic-boundary enclosures
+PASS: 32 finite checks; saved output matches
+==> padded Perron finite costs and existing cubic-boundary enclosures
+PASS: 36 finite checks; saved output matches
+==> squarefree Euler coefficients and weighted conditional remainder costs
+PASS: 62 finite checks; analytic proofs are separate
+==> post-67.25 literature constants
+MT baseline: 0.672500703679411645734379790803295188593403029 .. 0.672500703679411645734379790803295188593403029
+note 304: 0.672509329145868939181338857746182497718288943 .. 0.672509329145868939181338857746182497718288943
+ainta triple: 0.672519767113677707121016663144572663872760969 .. 0.672519767113677707121016663144572663872760969
+ainta seven: 0.673008527927779761323475259854218258211457044 .. 0.673008527927779761323475259854218258211457044
+trmdy nine: 0.673312742272245998143847403168008709747015289 .. 0.673312742272245998143847403168008709747015289
+Shi joint: 0.673316977142471313480285307148899888268744788 .. 0.673316977142471313480285307148899888268744788
+flat-window fourth-moment target for p=673/1000: 0.327059600462275053656925870893181442958560343
+flat-window fourth-moment target for p=673399/1000000: 0.326668306770742325294678357275717830158807945
+MT-window fourth-moment threshold for p=0.673399: 0.326602198303352963956500784874376014327468873 .. 0.326602198303352963956500784874376014327468873
+PASS: scalar enclosures, exact side conditions, pair capacities.
+NOT CHECKED: analytic interfaces, kernel inequalities, large certificates, Lean builds.
+==> lossless AM continuous majorant and energy certificate
+PASS exact continuous majorant, AM energy and committed report
+==> fixed AM range-seven periodic method ceiling
+PASS exact periodic method ceiling and committed report
+==> conditional all-zero adaptive leverage algebra
+PASS conditional adaptive leverage algebra and committed report
+==> captured AM nine-point low-slack geometry and partial payment
+PASS captured data only; 289 compatible pairs, 78 average-paid, 211 unpaid; no uniform gain
+==> joint AM nine-point exact epigraph duals
+PASS 289 exact nine-point epigraph duals; local reward >=805103/100000000
+minimum: 65955289561887369906031994339/8192000000000000000000000000000 ; finite verification under disclosed PC8 admission
+==> expanded AM nine-point admitted-tangent exact duals
+PASS all2399 exact domains; local reward >=805260/100000000
+minimum: 26386790900531855994044477203/3276800000000000000000000000000 ; inherited PC8/REG/PTL admission required
+==> AM ninth-span closed branches and complete rational certificate
+checked 0
+checked 500
+checked 1000
+checked 1500
+checked 2000
+PASS {'finite_certificate_pass': True, 'domains': 2399, 'replacements': 47, 'closed_branches': 84, 'positive_tangent_row_uses': 2955, 'minimum_domain_lower': '263917374155379049835090394947/32768000000000000000000000000000', 'outside_lower': '805403/100000000', 'uniform_reward': '805403/100000000', 'simple_critical_proportion': '941021/1397107', 'elapsed_seconds': 4.702999999979511, 'certificate_raw_sha256': '9fc7f9d8a00ebbc3e2f8ff236b247af5ac3173c3942ec72b9180c4473a65cf96', 'checker_raw_sha256': 'b03b3259a385702300520bd02f33c79d228b76a0e07c6b42cec23b6a02a5e673', 'point_catalog_canonical_lf_sha256': 'cda8ce5fce3d0a639975f54e57b1991c7d5a2a2cb112df4e3dd13237a954fb27', 'certificate_canonical_lf_sha256': '9fc7f9d8a00ebbc3e2f8ff236b247af5ac3173c3942ec72b9180c4473a65cf96', 'checker_canonical_lf_sha256': 'b03b3259a385702300520bd02f33c79d228b76a0e07c6b42cec23b6a02a5e673', 'source_file_verified': False}
+==> kappa-feedback three-constraint interface barrier algebra
+{"passed": true, "checks": 38, "scope": "finite exact algebra; model barrier only", "wrote_output": false}
+==> quartic boundary and normalization certificate
+PASS: exact polynomial identities in both x and sigma.
+Scope: a>0 and 6-2sigma>0 give the x<=0 signs; sigma>=-3 gives the D ledger sign.
+PASS: 13965 rational configurations/parameters; missing-E1 counterexample detected.
+PASS: exact extremal four moments and 16/21, 37/42.
+No analytic fourth-moment estimate or RH assertion is certified.
+==> elliptic degree and odd-polarization benchmark
+PASS: exact degree Gram, primitive J, Frobenius/cup similitudes, and quadratic relation.
+PASS: independent finite-field enumeration N1=8, N2=32.
+Scope: concrete finite model checks; no general arithmetic RH assertion.
+==> portable Brownian component reduction
+Portable Brownian component reduction passed
+[scope] deterministic finite surrogate/replay; unchanged certificate bounds
+==> Mellin dual separator
+Mellin dual-separator identity and Schur checks passed.
+==> prolate boundary correction
+Prolate boundary-correction sanity checks passed.
+==> QW formulas and tails
+QW formula, row-tail, and candidate-tail sanity checks passed.
+==> frozen Vaughan/Laurent channels
+| N,Y,T | basis | rank | physical overlap | sin theta | tail/lambda1 | coupling/lambda1 | standardized excess |
+|---:|:---|---:|---:|---:|---:|---:|---:|
+| 320,120,4 | singular | 2 | -7.17465e-43 | 9.99997e-1 | 9.71808e-1 | 1.95158e-1 | 1.04632e+2% |
+| 320,120,4 | singular-annihilator | 2 | 1.0 | 7.13744e-1 | 2.2816e-1 | 1.95158e-1 | 1.78772% |
+| 320,120,4 | physical+double | 2 | 1.0 | 7.98719e-1 | 2.44325e-1 | 1.90916e-1 | 1.14328% |
+| 320,120,4 | physical+simple | 2 | 1.0 | 7.03698e-1 | 2.11513e-1 | 1.65989e-1 | 6.58866e-1% |
+| 320,120,4 | physical+regular | 2 | 1.0 | 8.94421e-1 | 3.11074e-1 | 1.86643e-1 | 2.3102% |
+| 320,120,4 | integer | 2 | 9.94091e-1 | 5.77993e-2 | 7.53752e-2 | 3.72417e-2 | 1.91796e-1% |
+| 320,120,4 | physicalized-integer | 2 | 1.0 | 5.89965e-2 | 7.534e-2 | 3.54556e-2 | 1.24275e-1% |
+| 320,120,4 | paired-8:3 | 2 | 1.0 | 6.48363e-2 | 7.53233e-2 | 3.52052e-2 | 1.21881e-1% |
+| 320,120,4 | forced-physical-optimal | 2 | 1.0 | 4.51299e-2 | 7.53075e-2 | 3.26587e-2 | 1.10618e-1% |
+| 320,120,4 | paired-optimal | 2 | 1.0 | 5.40958e-2 | 7.53751e-2 | 3.06678e-2 | 9.54403e-2% |
+| 320,120,4 | incidence-separated-optimal | 2 | 9.98982e-1 | 3.75297e-2 | 7.43674e-2 | 1.05752e-2 | 1.17642e-1% |
+| 320,120,4 | tilted-(1/20,3) | 2 | 9.97506e-1 | 4.20946e-2 | 7.43164e-2 | 2.65242e-2 | 1.39457e-1% |
+paired-optimal ratio for 320,120,4: 3.248419552 -1.02891e-3i; fixed sine=6.009884e-2; coarse leakage=1.606515e-2; unrestricted ratio=3.2362221 -9.258e-4i; fixed-to-unrestricted sine=6.118052e-2
+separated ratios for 320,120,4: tau=3.18077602e-2 2.7702e-3i; q=3.24841955 -1.0289e-3i; fixed-plane sine=2.311301e-2
+| 320,120,16 | singular | 2 | -2.86986e-42 | 9.99995e-1 | 9.67998e-1 | 2.08856e-1 | 1.05146e+2% |
+| 320,120,16 | singular-annihilator | 2 | 1.0 | 7.70258e-1 | 2.67317e-1 | 2.08856e-1 | 1.87867% |
+| 320,120,16 | physical+double | 2 | 1.0 | 7.88927e-1 | 2.58802e-1 | 2.10734e-1 | 1.3278% |
+| 320,120,16 | physical+simple | 2 | 1.0 | 6.38494e-1 | 1.98633e-1 | 1.79995e-1 | 6.99681e-1% |
+| 320,120,16 | physical+regular | 2 | 1.0 | 8.74377e-1 | 3.22674e-1 | 2.00913e-1 | 2.24937% |
+| 320,120,16 | integer | 2 | 9.94091e-1 | 5.15496e-2 | 7.12636e-2 | 4.69604e-2 | 1.05829e-1% |
+| 320,120,16 | physicalized-integer | 2 | 1.0 | 4.45055e-2 | 6.95214e-2 | 2.55436e-2 | 5.74366e-2% |
+| 320,120,16 | paired-8:3 | 2 | 1.0 | 4.99743e-2 | 6.94977e-2 | 2.57253e-2 | 5.60303e-2% |
+| 320,120,16 | forced-physical-optimal | 2 | 1.0 | 2.84222e-2 | 6.94655e-2 | 2.09779e-2 | 4.58563e-2% |
+| 320,120,16 | paired-optimal | 2 | 1.0 | 3.37118e-2 | 6.94944e-2 | 1.97352e-2 | 3.95599e-2% |
+| 320,120,16 | incidence-separated-optimal | 2 | 9.99583e-1 | 2.26983e-2 | 6.90776e-2 | 6.94049e-3 | 4.86347e-2% |
+| 320,120,16 | tilted-(1/20,3) | 2 | 9.97506e-1 | 3.53049e-2 | 6.95029e-2 | 3.08275e-2 | 6.6742e-2% |
+paired-optimal ratio for 320,120,16: 3.131300589 -4.75597e-5i; fixed sine=4.963151e-2; coarse leakage=9.932574e-3; unrestricted ratio=3.1249301 -6.7317e-5i; fixed-to-unrestricted sine=5.003491e-2
+separated ratios for 320,120,16: tau=2.04212993e-2 1.7916e-4i; q=3.13130059 -4.756e-5i; fixed-plane sine=2.953618e-2
+==> Mobius threshold Hodge structure
+Mobius threshold-Hodge and hard-channel checks passed.
+==> Selberg--Volterra cross-fiber transport
+Selberg--Volterra transport checks passed.
+==> Selberg profile equivalence bookkeeping
+Selberg profile equivalence checks passed.
+==> capped correspondence kernel
+capped correspondence kernel checks passed
+==> reciprocal barrier and harmonic Schur
+reciprocal barrier and harmonic Schur checks passed
+==> square-completed background and Schur--L4
+square-completed background and Schur--L4 checks passed
+==> tracial lattice-clipped background
+tracial lattice-clipped background checks passed
+==> finite arithmetic cone and Hodge transgression
+finite cone and Hodge-transgression checks passed
+==> soft negative effect and Cauchy moments
+soft negative-effect and Cauchy moment checks passed
+==> formal soft zeta orbit response
+soft zeta orbit audit passed: support=165, exact=0.0313156, near=-0.040888, far=0.0140673, canonical/arbitrary=0.387876, breaker=0.0828099, small-mixture=0.00256342, inner-heat=-0.000647645, profile/variation=0.278845, Cauchy-profile/variation=0.049926, M/B=-0.0884578, Brownian-bound/actual=4.98499, Vaughan-diagonal/full=2.41509, compactness-capture=0.0391283
+==> nonvacuous Vaughan--Brownian physical Schur completion
+scale=   4, cutoff= 7: U=V=1, II-start=4, E=2.9951311e-04, diag/E=3.973, II/prime-diag=0.013, prime-cross/prime-diag=-0.209, rho_I,II=-0.911, pcross/(P+C)=-0.702, rho_p,c=-0.763, balance_p,c=0.920, base-positive-frac=0.0e+00, positive-cross-frac=4.399e-02, cross-variation/(P+C)=0.385, short/E=0.976, mismatch/E=0.024, alpha_opt=+1.154-0.000i
+scale=   8, cutoff=10: U=V=2, II-start=9, E=4.7824173e-04, diag/E=2.415, II/prime-diag=0.004, prime-cross/prime-diag=-0.120, rho_I,II=-0.909, pcross/(P+C)=-0.539, rho_p,c=-0.720, balance_p,c=0.748, base-positive-frac=1.9e-17, positive-cross-frac=8.402e-02, cross-variation/(P+C)=0.324, short/E=0.868, mismatch/E=0.132, alpha_opt=+1.601-0.000i
+scale=  12, cutoff=12: U=V=2, II-start=9, E=5.7802770e-04, diag/E=2.186, II/prime-diag=0.005, prime-cross/prime-diag=-0.125, rho_I,II=-0.922, pcross/(P+C)=-0.486, rho_p,c=-0.699, balance_p,c=0.696, base-positive-frac=0.0e+00, positive-cross-frac=9.114e-02, cross-variation/(P+C)=0.297, short/E=0.856, mismatch/E=0.144, alpha_opt=+1.725-0.000i
+scale=  16, cutoff=15: U=V=2, II-start=9, E=5.4331863e-04, diag/E=2.784, II/prime-diag=0.005, prime-cross/prime-diag=-0.130, rho_I,II=-0.940, pcross/(P+C)=-0.596, rho_p,c=-0.803, balance_p,c=0.742, base-positive-frac=0.0e+00, positive-cross-frac=3.124e-02, cross-variation/(P+C)=0.318, short/E=0.734, mismatch/E=0.266, alpha_opt=+1.808-0.000i
+Vaughan--Brownian physical Schur audits passed
+[scope] exact finite identity/evidence only; no RH asymptotic
+==> Brownian common-convolution sign obstruction
+multiplier mass=0
+Toeplitz ledger: norm=100, lag1=-30, lag2=-72, form=-2
+base correlation=-1, common-convolution correlation=2
+Brownian common-convolution sign obstruction passed
+[scope] exact finite no-go; no RH asymptotic
+==> symmetric spectral sign and overlap degeneration
+N= 4: P=7/2, C=1, z=-1, -z/(P+C)=0.22222222
+N= 8: P=15/2, C=1, z=-1, -z/(P+C)=0.11764706
+N=16: P=31/2, C=1, z=-1, -z/(P+C)=0.06060606
+N=32: P=63/2, C=1, z=-1, -z/(P+C)=0.03076923
+N=64: P=127/2, C=1, z=-1, -z/(P+C)=0.01550388
+N=128: P=255/2, C=1, z=-1, -z/(P+C)=0.00778210
+symmetric spectral-overlap no-go passed
+[scope] exact rational finite theorem/no-go; no RH asymptotic
+==> Brownian interval denominator and TV perturbation
+Brownian interval-certificate exact tests passed
+[scope] rational finite inequalities; no zeta enclosure or RH claim
+==> B1f floating forward-error ledger
+B1f forward-error exact spot checks passed
+[scope] finite IEEE replay bounds; no zeta or RH claim
+==> B1e exact surrogate support and denominator
+prime: formal=35103, canonical=22855, atoms=22855, certified_min_gap_lower=0.00004834486675790251, rational_energy_upper=0.00055130411625587258, clusters=22855, max_cluster=1
+continuum: formal=33977, canonical=21425, atoms=21425, certified_min_gap_lower=0.00004834486675790251, rational_energy_upper=0.00015289136767059444, clusters=21425, max_cluster=1
+==> B1f intended finite denominator certificate
+prime_base_tv_error_upper=0.000000000000000210817118608703
+continuum_base_tv_error_upper=0.000007154150754425142514714306
+symbol_tv_error_upper=0.000007154150754635959633323008
+polynomial_tv_error_upper=0.006804410613770658228023739385
+scalar_error_upper=0.000000009729220035856599427796
+prime_expansion_tv_error_upper=0.000000000358943933352368611363
+prime_response_tv_error_upper=0.000051726627534797886965409388
+continuum_expansion_tv_error_upper=0.000000000348067855921300265406
+continuum_response_tv_error_upper=0.000073973952867749963297974559
+intended_denominator_upper=0.000735925241553713216150037691
+B1f base-coefficient/denominator interval audit passed
+[scope] one finite denominator only; numerator and asymptotics open
+==> B1g fixed-point trigonometric ledger
+B1g fixed-point interval exact tests passed
+[scope] rational arithmetic and trig enclosure; no zeta or RH claim
+==> B1g directed finite numerator certificate
+fixed_decimal_places=60
+cosine_order=22
+sample_count=51199
+verified_cell_count=12785
+verified_width_lower=63.925000000000
+verified_index_sha256=d781244d33bbec81edb8ba786eb28f035465883981b5abde178c3da5d3cabb9b
+verified_bound_sha256=4237a9a77ce37542db43f680374d3fdba8f778e68f91070b519adc3e2e134a10
+numerator_lower=0.000140734590642330727559468708
+ratio_lower=0.191234900905432370
+overlap_delta_lower=0.044705882352941176
+diagonal_to_full_lower=1.098191214470284237
+B1g directed numerator interval audit passed
+[scope] one finite ratio only; scale-uniform overlap and RH remain open
+==> B1h second-scale interval helpers
+B1h second-scale interval helper tests passed
+==> B1i normalized common-core exact helpers
+B1i normalized common-core exact tests passed
+==> B1j Stieltjes transfer and fixed-lag diagnostics
+stieltjes_identity_error=4.8617307e-63
+lag_substitution_error=3.8893845e-62
+fixed_lag_ratio_table:
+m=4,Y=16, ratio(t=1)=2.41621875901, ratio(t=2pi/log2)=1.07797628189
+m=6,Y=64, ratio(t=1)=11.4867624725, ratio(t=2pi/log2)=2.54937207988
+m=8,Y=256, ratio(t=1)=42.1950135641, ratio(t=2pi/log2)=6.73793608877
+m=10,Y=1024, ratio(t=1)=133.812456051, ratio(t=2pi/log2)=16.8048219001
+m=12,Y=4096, ratio(t=1)=375.828013232, ratio(t=2pi/log2)=39.0184870115
+B1j Stieltjes/substitution finite checks passed
+[scope] identities exact; ratio table is [E], not an asymptotic proof
+==> B1l balanced-core multiplier degeneracy
+local_c_minus=0.0958947474739377
+local_c_plus=2.90410525252606
+response_constant=0.231729080737394
+matched_multiplier_table:
+m=4,Y=16, mu=-0.1033322805, delta(t=1)=-0.002344626, |gamma*Q|(t=1)=0.00728003779094, delta(xi=1)=-0.02343223729, |gamma*Q|(xi=1)=0.00573922553402
+m=6,Y=64, mu=-0.04272792477, delta(t=1)=-5.247868472e-5, |gamma*Q|(t=1)=0.00107958111125, delta(xi=1)=-0.003735405131, |gamma*Q|(xi=1)=0.000984092159381
+m=8,Y=256, mu=-0.02302479438, delta(t=1)=-0.0003232939213, |gamma*Q|(t=1)=0.000292052250823, delta(xi=1)=-0.002550558526, |gamma*Q|(xi=1)=0.000263757468208
+m=10,Y=1024, mu=-0.01139074996, delta(t=1)=4.227082864e-5, |gamma*Q|(t=1)=7.03070166866e-5, delta(xi=1)=-0.001102625783, |gamma*Q|(xi=1)=6.33787852576e-5
+m=12,Y=4096, mu=-0.00610602137, delta(t=1)=6.497606013e-5, |gamma*Q|(t=1)=2.00198626823e-5, delta(xi=1)=-0.0002075378699, |gamma*Q|(xi=1)=1.91348023189e-5
+B1l multiplier normal-form checks passed
+[scope] algebra regression plus finite [E] table; total energy capture remains open
+==> B1m universal raw Brownian limit
+analytic_total_mass=1.0
+positive_common_core_mass=0.18173991227509219953
+reflected_common_core_mass=0.36347982455018439905
+first_component_mass=0.18160437006780500183
+remaining_components_mass=0.00013554220728719769929
+B1m raw Brownian limit diagnostics passed
+[scope] limit law is [T]; common-core decimal integration is [E]
+==> Vaughan scalarized spectral ratio capture
+scale=   8, cutoff=10, cells= 4, step=0.0050: spectral/exact=0.98544, cross-coverage=0.99035, capture[1/4,4]/exact=0.58489, capture[1/2,2]/exact=0.53678, capture[3/4,4/3]/exact=0.40935, truncated-wide=0.59354, Lipschitz-lower-wide=0.19987, verified-width=63.93, crude-tail/exact=3.724e+01
+scale=  16, cutoff=15, cells= 4, step=0.0050: spectral/exact=0.99120, cross-coverage=0.99526, capture[1/4,4]/exact=0.70255, capture[1/2,2]/exact=0.57901, capture[3/4,4/3]/exact=0.00635, truncated-wide=0.70879, Lipschitz-lower-wide=0.16448, verified-width=50.33, crude-tail/exact=4.125e+01
+Vaughan spectral ratio-capture audits passed
+[scope] finite quadrature evidence only; no uniform asymptotic
+==> partial Weil proportions and depth visibility
+random rank--trace minimum slack: 4.807074e+00
+sharp model: trace/N=1.000000000, HS2/N=1.333333333, simple=0.666666667, distinct=0.833333333
+Montgomery--Taylor: R=1.327499296321, simple=0.672500703679, distinct=0.836250351840
+four moments: Christoffel=0.722222222222, rank-inertia=0.761904761905, distinct=0.880952380952, b4 threshold=0.327549907402
+depth visibility: deep directions=3, v=0.750, negative trace=2.250000
+Partial Weil finite audits passed.
+==> positive-background quotient rank and trace
+{"status": "[E] PASS", "n_real_nodes": 2, "nonreal_pairs": 1, "whole_inertia_positive_negative": [3, 1], "quotient_rank": 1, "quotient_residual_squared": ["4.6584269472746e-5"], "interpolation_upper_squared": ["0.43505890143298"], "whole_negative_trace": "0.00010467082581603", "compressed_negative_trace": "9.3168538945492e-5", "compressed_trace_upper_bound": "0.87011780286596", "trace_error_at_120_digits": "3.8725919e-121", "max_relative_80_120_difference": "1.1326907e-77"}
+{"status": "[E] PASS", "n_real_nodes": 4, "nonreal_pairs": 1, "whole_inertia_positive_negative": [5, 1], "quotient_rank": 1, "quotient_residual_squared": ["3.6005725084826e-10"], "interpolation_upper_squared": ["8.414742804792e-5"], "whole_negative_trace": "8.4489203367662e-7", "compressed_negative_trace": "7.2011450169651e-10", "compressed_trace_upper_bound": "0.00016829485609584", "trace_error_at_120_digits": "7.7451838e-121", "max_relative_80_120_difference": "9.0592363e-72"}
+{"status": "[E] PASS", "n_real_nodes": 6, "nonreal_pairs": 1, "whole_inertia_positive_negative": [7, 1], "quotient_rank": 1, "quotient_residual_squared": ["1.3229212699869e-14"], "interpolation_upper_squared": ["7.2967494474316e-9"], "whole_negative_trace": "2.5846907092399e-9", "compressed_negative_trace": "2.6458425399737e-14", "compressed_trace_upper_bound": "1.4593498894863e-8", "trace_error_at_120_digits": "0.0", "max_relative_80_120_difference": "3.4155038e-65"}
+{"status": "[E] PASS", "n_real_nodes": 8, "nonreal_pairs": 1, "whole_inertia_positive_negative": [9, 1], "quotient_rank": 1, "quotient_residual_squared": ["5.1314662824075e-21"], "interpolation_upper_squared": ["1.9552108356215e-13"], "whole_negative_trace": "4.2076204876717e-11", "compressed_negative_trace": "1.0262932564815e-20", "compressed_trace_upper_bound": "3.910421671243e-13", "trace_error_at_120_digits": "0.0", "max_relative_80_120_difference": "2.6308671e-58"}
+{"status": "[E] PASS", "n_real_nodes": 4, "nonreal_pairs": 2, "whole_inertia_positive_negative": [6, 2], "quotient_rank": 2, "quotient_residual_squared": ["1.4428391689408e-12", "1.369814269618e-13"], "interpolation_upper_squared": ["8.414742804792e-5", "0.00043887070451328"], "whole_negative_trace": "1.7034592750191e-6", "compressed_negative_trace": "3.1596411918053e-12", "compressed_trace_upper_bound": "0.0010460362651224", "trace_error_at_120_digits": "7.7451838e-121", "max_relative_80_120_difference": "4.1714109e-65"}
+{"status": "PASS", "label": "[E] finite synthetic Gram/congruence audit only", "cases": 5, "precisions": [80, 120], "max_relative_80_120_difference": "2.63086709347e-58", "seconds": 0.087, "actual_zeros_used": false, "asymptotic_or_interval_certification": false, "whole_operator_equals_compression": false}
+==> critical-window clustered and periodic visibility
+{"status": "[E] PASS", "kind": "finite clustered MT Gram", "A": 2, "precisions": [120, 180], "max_relative_precision_difference": "1.870382493e-109", "quotient_residual_squared": "1.93389926827496e-10", "real_span_residual_squared": "1.93389926827496e-10", "target_norm_squared": "0.081339492727661", "normalized_residual_squared": "2.37756494837016e-9", "normalized_residual_norm": "4.87602804377718e-5", "interpolation_error_squared": "1.07504242363596e-8", "interpolation_bound_squared": "3.68787785510467e-5", "complex_coefficient_l1": "27.9876974855184", "coefficient_l1_upper": "1613.71517397094", "n_real_nodes": 4}
+{"status": "[E] PASS", "kind": "finite clustered MT Gram", "A": 4, "precisions": [120, 180], "max_relative_precision_difference": "1.233254931e-101", "quotient_residual_squared": "2.49674384510765e-16", "real_span_residual_squared": "2.49674384510765e-16", "target_norm_squared": "0.375949635137182", "normalized_residual_squared": "6.64116576199522e-16", "normalized_residual_norm": "2.57704593711389e-8", "interpolation_error_squared": "1.89843920448406e-12", "interpolation_bound_squared": "2.53675733433738e-8", "complex_coefficient_l1": "2158.49590028249", "coefficient_l1_upper": "352423.452716907", "n_real_nodes": 8}
+{"status": "[E] PASS", "kind": "finite clustered MT Gram", "A": 6, "precisions": [120, 180], "max_relative_precision_difference": "1.749578803e-91", "quotient_residual_squared": "3.73702796223634e-22", "real_span_residual_squared": "3.73702796223634e-22", "target_norm_squared": "1.07385180826668", "normalized_residual_squared": "3.4800220416524e-22", "normalized_residual_norm": "1.86548171839137e-11", "interpolation_error_squared": "4.78165403640502e-16", "interpolation_bound_squared": "2.33716614708745e-11", "complex_coefficient_l1": "173635.129097913", "coefficient_l1_upper": "76966674.1865457", "n_real_nodes": 12}
+{"status": "[E] PASS", "kind": "finite clustered MT Gram", "A": 8, "precisions": [120, 180], "max_relative_precision_difference": "6.700949662e-81", "quotient_residual_squared": "6.06161732403942e-28", "real_span_residual_squared": "6.06161732403942e-28", "target_norm_squared": "2.65102016748756", "normalized_residual_squared": "2.28652252381171e-28", "normalized_residual_norm": "1.51212516803726e-14", "interpolation_error_squared": "1.43523075302781e-19", "interpolation_bound_squared": "2.42707218659792e-14", "complex_coefficient_l1": "14387814.8638297", "coefficient_l1_upper": "16808952099.1566", "n_real_nodes": 16}
+{"status": "[E] PASS", "kind": "complete periodic fiber integral", "A": 2, "precisions": [120, 180], "max_relative_precision_difference": "1.057178311e-120", "uniform_residual_D": "0.0510500188578603", "uniform_norm_H": "0.0876005968219007", "uniform_normalized_residual_squared": "0.582758801993658", "MT_residual_squared": "0.0451465796922711", "MT_norm_squared": "0.081339492727661", "MT_normalized_residual_squared": "0.555038864619304", "cos_b_times_D_over_H": "0.443039230613946", "uniform_formula_relative_error": "0.0", "MT_norm_relative_error": "7.4069796e-181"}
+{"status": "[E] PASS", "kind": "complete periodic fiber integral", "A": 8, "precisions": [120, 180], "max_relative_precision_difference": "1.612976283e-120", "uniform_residual_D": "1.98766727061173", "uniform_norm_H": "2.91123964964097", "uniform_normalized_residual_squared": "0.682756320269566", "MT_residual_squared": "1.7577408478951", "MT_norm_squared": "2.65102016748756", "MT_normalized_residual_squared": "0.663043182187842", "cos_b_times_D_over_H": "0.519061803604176", "uniform_formula_relative_error": "0.0", "MT_norm_relative_error": "1.8181075e-181"}
+{"status": "[E] PASS", "kind": "complete periodic fiber integral", "A": 32, "precisions": [120, 180], "max_relative_precision_difference": "1.64116677e-120", "uniform_residual_D": "105732.424674341", "uniform_norm_H": "138844.976882934", "uniform_normalized_residual_squared": "0.761514222898312", "MT_residual_squared": "93444.245153004", "MT_norm_squared": "119000.531680515", "MT_normalized_residual_squared": "0.785242249201685", "cos_b_times_D_over_H": "0.578937073554689", "uniform_formula_relative_error": "0.0", "MT_norm_relative_error": "1.3271916e-181"}
+{"status": "[E] PASS", "kind": "complete periodic fiber integral", "A": 128, "precisions": [120, 180], "max_relative_precision_difference": "4.003101986e-120", "uniform_residual_D": "1.22433885372544e+25", "uniform_norm_H": "2.43560510969204e+25", "uniform_normalized_residual_squared": "0.502683644755633", "MT_residual_squared": "1.07895290271037e+25", "MT_norm_squared": "2.03424135882609e+25", "MT_normalized_residual_squared": "0.530395716333782", "cos_b_times_D_over_H": "0.382162524963755", "uniform_formula_relative_error": "1.9036654e-181", "MT_norm_relative_error": "0.0"}
+{"status": "PASS", "label": "[E] finite critical-window visibility audit only", "cluster_cases": 4, "complete_periodic_formula_cases": 4, "precisions": [120, 180], "max_relative_precision_difference": "6.70094966175e-81", "seconds": 9.617, "actual_zeros_used": false, "asymptotic_or_interval_certification": false, "whole_operator_equals_compression": false}
+==> MT triple exact rational certificate and spectral slack
+{"status": "PASS exact rational kernel certificate", "B": 4, "threshold": "1/10000", "leaves": 4252, "outside_boxes": 330, "visited_boxes": 6109, "maximum_leaf_depth": 12, "cached_kernel_centers": 479, "bits": 128, "sinc_last_index": 48, "minimum_leaf_lower_bound": "2898416747722058938503240917044843699509332263384631784618436683499041769/28948022309329048855892746252171976963317496166410141009864396001978282409984", "minimum_leaf_lower_decimal_display_only": 0.00010012486230494542, "seconds": 0.094}
+{"status": "[E] finite matrices PASS", "cases": [{"name": "synthetic Hermitian", "simple_rank": 3, "b": 1, "whole_slack": "6.7316824926524", "j_Gram": "0.20867986513961", "pinched_j": "0.20867986513961"}, {"name": "synthetic Hermitian", "simple_rank": 6, "b": 2, "whole_slack": "18.736840173006", "j_Gram": "3.0156079339331", "pinched_j": "0.91628176463889"}, {"name": "synthetic Hermitian", "simple_rank": 4, "b": 2, "whole_slack": "10.002552383875", "j_Gram": "0.52695756295472", "pinched_j": "0.17734225743071"}, {"name": "synthetic Hermitian", "simple_rank": 6, "b": 1, "whole_slack": "27.176872661578", "j_Gram": "10.2", "pinched_j": "6.96"}, {"name": "synthetic MT Weil form", "simple_rank": 6, "b": 3, "whole_slack": "26.727240426768", "j_Gram": "0.030034467033023", "pinched_j": "0.023439961692761"}]}
+{"status": "[E] finite MT samples PASS", "cases": [{"B": 4, "grid_subdivisions": 48, "grid_minimum_E_only": "0.00033918439885252", "at": ["2.0", "2.0"]}, {"B": 5, "grid_subdivisions": 48, "grid_minimum_E_only": "0.00028766852319903", "at": ["1.04166666667", "3.02083333333"]}, {"B": 6, "grid_subdivisions": 48, "grid_minimum_E_only": "6.6075652700006e-5", "at": ["3.0", "3.0"]}]}
+{"status": "PASS", "actual_zeros_used": false, "global_certificate_uses_optimizer": false, "zeta_asymptotic_certified_by_script": false, "seconds": 0.258}
+==> quadratic fourth-moment channels
+quadratic matrix-channel Gram identities passed
+prime fourth prototype: X=T=24, atoms=13, |supp Lambda*Lambda|=88, 2+2 full/diag=0.797677, families={'2+2': 179.13741432033177, '3+1': -7.770348184699656, '4+0': 0.015252914612700424}
+prime fourth prototype: X=T=48, atoms=22, |supp Lambda*Lambda|=246, 2+2 full/diag=0.665864, families={'2+2': 348.7178442481855, '3+1': -23.16820376838302, '4+0': 0.055843696133109855}
+prime fourth prototype: X=T=72, atoms=29, |supp Lambda*Lambda|=424, 2+2 full/diag=0.719169, families={'2+2': 562.471824566997, '3+1': -30.824049306400607, '4+0': -0.008930144041285141}
+flat-window target: b4 threshold=0.327549907402, formal diagonal=0.266666666667, allowed total remainder=0.060883240736, sine off-diagonal=-0.016666666667
+Fourth-moment channel audits passed.
+==> smooth fourth-window cycle
+noncommutative cyclic word ledger passed
+finite feature-kernel fourth-cycle identity passed
+Schatten-four fourth-trace stability passed
+flat paired diagonal: alternating=1/5, adjacent=1/15, total=4/15
+Montgomery--Taylor paired diagonal: D22=0.244589382034, alternating=0.178157229928, adjacent=0.066432152107, self-improvement remainder budget=0.082909914286
+cos(pi*u) endpoint candidate: R=1.483700550136, D22=0.165513042000, record-beating remainder margin=0.198267006980
+Smooth fourth-window audits passed.
+==> operator fourth words and localizer completion
+equal-norm 66-dimensional repair: moments=(Fraction(1, 1), Fraction(6, 11), Fraction(19, 55), Fraction(6, 25), Fraction(247, 1375)), witness=-6/6875
+degree-four localizer no-go passed: moments=(Fraction(1, 1), Fraction(7, 13), Fraction(109, 325), Fraction(371, 1625), Fraction(1357, 8125)), degree-two witness=-9/8125
+intrinsic signed-kernel spectrum audit passed
+noncommutative 2+2 commutator ledger passed
+product/ratio Gram blocks passed: products=9, ratios=9
+Schatten boundary scale passed: rank-one fourth/N grows, q^2 times HS target equals N
+cosine path-edge audit passed: cubic coefficient=1.029595066, predicted=1.023503664
+Operator fourth/localizer audits passed.
+==> adjacent-product bulk edge tightness
+flat: delta=0.200, limiting majorant=0.00437866666667
+  X=   20000: finite=0.00377237105939, ratio=0.86153419, abs_error=6.063e-04
+  X=  100000: finite=0.00387635061806, ratio=0.88528105, abs_error=5.023e-04
+endpoint-cosine: delta=0.200, limiting majorant=0.000130592098869
+  X=   20000: finite=0.000112232488098, ratio=0.85941255, abs_error=1.836e-05
+  X=  100000: finite=0.000115080333092, ratio=0.88121972, abs_error=1.551e-05
+==> Toeplitz--Hankel adjacent transfer
+Toeplitz product and crossing-pair boundary identity passed
+diagonal modulation equals q(u-x) symbol translation
+smooth-window boundary energies: L=16: 0.35973307, L=32: 0.42899331, L=64: 0.49834832, L=128: 0.56804161
+X=  20000: defect_majorant=0.58102663, defect/N=2.933e-06
+X= 100000: defect_majorant=0.62095640, defect/N=5.394e-07
+X= 500000: defect_majorant=0.65467979, defect/N=9.978e-08
+Toeplitz--Hankel adjacent audits passed.
+==> alternating ratio multiplicity and square-root core
+alternating Toeplitz--Hankel product identity passed
+ratio multiplicity classification passed: primitive=6072, chains=34, central-size=79
+noncentral same-prime l1 coefficients: X=1000: 6.59678048, X=10000: 8.41756321, X=100000: 9.71243906
+odd prime ratio box [50,100]: ratios=90, min-det=2, min upper^2*log-gap=2.903600
+odd prime ratio box [100,200]: ratios=420, min-det=2, min upper^2*log-gap=3.197442
+odd prime ratio box [200,400]: ratios=992, min-det=2, min upper^2*log-gap=2.391844
+odd primitive determinant parity gap passed
+Alternating ratio-cluster audits passed.
+==> alternating local weights and determinant layers
+local box [1000,2000]: atoms=140, W2/log(2Y)=0.656273, W1/sqrt(Y)=0.827462, count*log(Y)/Y=0.967086
+local box [10000,20000]: atoms=1048, W2/log(2Y)=0.664322, W1/sqrt(Y)=0.825362, count*log(Y)/Y=0.965244
+local box [100000,200000]: atoms=8420, W2/log(2Y)=0.672568, W1/sqrt(Y)=0.828079, count*log(Y)/Y=0.969388
+box A=50, B=50, h=-2: vertices=132, edges=14, degrees=(1,1), adjacency-op=1.000000
+box A=50, B=50, h=+2: vertices=132, edges=14, degrees=(1,1), adjacency-op=1.000000
+box A=50, B=100, h=-2: vertices=299, edges=10, degrees=(1,1), adjacency-op=1.000000
+box A=50, B=100, h=+2: vertices=299, edges=10, degrees=(1,1), adjacency-op=1.000000
+box A=100, B=50, h=-2: vertices=299, edges=10, degrees=(1,1), adjacency-op=1.000000
+box A=100, B=50, h=+2: vertices=299, edges=10, degrees=(1,1), adjacency-op=1.000000
+box A=100, B=200, h=-2: vertices=924, edges=20, degrees=(1,1), adjacency-op=1.000000
+box A=100, B=200, h=+2: vertices=924, edges=20, degrees=(1,1), adjacency-op=1.000000
+fixed-layer logarithmic determinant gap passed
+Alternating local-box audits passed.
+==> radial cross-box coherence obstruction
+Hilbert no-go L=32: pair/N=9.766e-04, union/N=1.000000
+Hilbert no-go L=64: pair/N=2.441e-04, union/N=1.000000
+Hilbert no-go L=128: pair/N=6.104e-05, union/N=1.000000
+Hilbert no-go L=256: pair/N=1.526e-05, union/N=1.000000
+exact alternating radial symbol factorization passed
+plateau radial L=32: blocks=12, min-correlation=0.819628, min-row/J=0.903621
+plateau radial L=64: blocks=24, min-correlation=0.813846, min-row/J=0.898833
+plateau radial L=128: blocks=47, min-correlation=0.815563, min-row/J=0.899157
+plateau radial L=256: blocks=93, min-correlation=0.816403, min-row/J=0.899298
+degree Schur lambda=2: operator=1.414214, sqrt(lambda)=1.414214
+degree Schur lambda=4: operator=2.000000, sqrt(lambda)=2.000000
+degree Schur lambda=8: operator=2.828427, sqrt(lambda)=2.828427
+degree Schur lambda=16: operator=4.000000, sqrt(lambda)=4.000000
+degree Schur lambda=32: operator=5.656854, sqrt(lambda)=5.656854
+Radial cross-box obstruction audits passed.
+==> aperture radial-chain and seam compression
+hyperbola X=1000: ratios=1016, X*min-log-gap=1.146132, maxS/L^3=0.029498, maxM/sqrtX=0.855619, blocks/L=1.737178
+hyperbola X=5000: ratios=4374, X*min-log-gap=1.142727, maxS/L^3=0.032087, maxM/sqrtX=0.917536, blocks/L=1.878553
+hyperbola X=20000: ratios=15410, X*min-log-gap=1.104210, maxS/L^3=0.033809, maxM/sqrtX=0.958477, blocks/L=1.817542
+aperture L=32: far/(L logL)=2.719536, seam-edges=298, blocks=65
+aperture L=64: far/(L logL)=2.941333, seam-edges=586, blocks=129
+aperture L=128: far/(L logL)=3.090990, seam-edges=1162, blocks=257
+aperture L=256: far/(L logL)=3.201823, seam-edges=2314, blocks=513
+seam PSD L=32: min-eig=0.502264, offdiag/N=0.484375
+seam PSD L=64: min-eig=0.500584, offdiag/N=0.492188
+seam PSD L=128: min-eig=0.500148, offdiag/N=0.496094
+seam PSD L=256: min-eig=0.500037, offdiag/N=0.498047
+Aperture radial-chain audits passed.
+==> radial alias-seam translated support gap
+translated Toeplitz trace identity passed
+X= 1000: alias_pairs=  442, min_gap=0.693147, max_|epsilon|=0.490355, 2L-span=2.776593
+X= 5000: alias_pairs= 1988, min_gap=0.693147, max_|epsilon|=0.497595, 2L-span=2.791074
+X=20000: alias_pairs= 7141, min_gap=0.693147, max_|epsilon|=0.499940, 2L-span=2.777996
+Hankel trace-class audit passed: trace_norm=36.70575459, factor_bound=42.81516437
+radial alias-seam audits passed
+==> ordinary seam and semiprime harmonic correlation
+X=  500: atoms=  532, diag/N=1.287555e-02
+  shift=0.000: signed/diag=+4.632169e-04, abs/diag=5.198694e-02, critical_abs_share=0.000000e+00, signed/N=+5.964172e-06, pairs=7416
+  shift=0.071: signed/diag=+2.140720e-04, abs/diag=4.802034e-02, critical_abs_share=0.000000e+00, signed/N=+2.756294e-06, pairs=7385
+  shift=0.139: signed/diag=+1.547324e-04, abs/diag=4.557192e-02, critical_abs_share=0.000000e+00, signed/N=+1.992265e-06, pairs=7307
+X= 1000: atoms= 1016, diag/N=1.348664e-02
+  shift=0.000: signed/diag=+5.252849e-04, abs/diag=4.027526e-02, critical_abs_share=0.000000e+00, signed/N=+7.084327e-06, pairs=23347
+  shift=0.071: signed/diag=+8.676476e-04, abs/diag=3.893356e-02, critical_abs_share=0.000000e+00, signed/N=+1.170165e-05, pairs=23353
+  shift=0.139: signed/diag=+2.757479e-04, abs/diag=3.739208e-02, critical_abs_share=0.000000e+00, signed/N=+3.718912e-06, pairs=23244
+X= 2000: atoms= 1916, diag/N=1.403652e-02
+  shift=0.000: signed/diag=-5.963877e-04, abs/diag=3.217830e-02, critical_abs_share=0.000000e+00, signed/N=-8.371210e-06, pairs=73264
+  shift=0.071: signed/diag=-1.623203e-05, abs/diag=3.125218e-02, critical_abs_share=0.000000e+00, signed/N=-2.278412e-07, pairs=73462
+  shift=0.139: signed/diag=-3.146053e-04, abs/diag=3.025213e-02, critical_abs_share=0.000000e+00, signed/N=-4.415964e-06, pairs=73174
+X= 5000: atoms= 4374, diag/N=1.459625e-02
+  shift=0.000: signed/diag=-1.941501e-05, abs/diag=2.447713e-02, critical_abs_share=0.000000e+00, signed/N=-2.833864e-07, pairs=332366
+  shift=0.071: signed/diag=-3.093077e-04, abs/diag=2.357930e-02, critical_abs_share=0.000000e+00, signed/N=-4.514734e-06, pairs=332389
+  shift=0.139: signed/diag=-3.219709e-04, abs/diag=2.321671e-02, critical_abs_share=0.000000e+00, signed/N=-4.699568e-06, pairs=332673
+semiprime X=  2000: H/(X L^4)=6.424338e-02, M2/(X L^3)=1.890728e-01, pp-error/X=1.281929e+00
+semiprime X=  5000: H/(X L^4)=6.139614e-02, M2/(X L^3)=2.005074e-01, pp-error/X=1.366571e+00
+semiprime X= 20000: H/(X L^4)=5.773087e-02, M2/(X L^3)=2.174852e-01, pp-error/X=1.428254e+00
+semiprime X=100000: H/(X L^4)=5.321887e-02, M2/(X L^3)=2.322590e-01, pp-error/X=1.470808e+00
+ordinary-seam flat-window kernel audit passed
+==> supercritical logarithmic collar coordinates
+X=  300: primitive=   6072, alias-pairs= 363671, min-gap=0.693147181
+  kappa=0.5: ab<=X atoms=324, ab<=X*L^k atoms=724, new-collar=400
+X= 1000: primitive=  36922, alias-pairs=6884218, min-gap=0.693147181
+  kappa=0.5: ab<=X atoms=1016, ab<=X*L^k atoms=2356, new-collar=1340
+supercritical collar coordinate and alias audits passed
+==> transition-scale signed ratio kernel
+X=  300: transition-atoms=  720, diag/N=6.397873e-03, signed/diag=-5.529574e-02, abs/diag=4.382723e-01
+          h<=L: pairs=     118, signed/diag=-3.842397e-02, abs/diag=1.005087e-01
+       L<h<=4L: pairs=     536, signed/diag=-7.347711e-03, abs/diag=8.602726e-02
+     4L<h<=16L: pairs=    2488, signed/diag=-6.941546e-03, abs/diag=1.062973e-01
+         h>16L: pairs=   18646, signed/diag=-2.582518e-03, abs/diag=1.454391e-01
+X=  600: transition-atoms= 1510, diag/N=6.299105e-03, signed/diag=-3.883701e-02, abs/diag=4.934252e-01
+          h<=L: pairs=     296, signed/diag=-4.544438e-02, abs/diag=1.227240e-01
+       L<h<=4L: pairs=    1046, signed/diag=-4.605833e-03, abs/diag=7.621203e-02
+     4L<h<=16L: pairs=    4926, signed/diag=+4.835946e-03, abs/diag=9.664014e-02
+         h>16L: pairs=   79615, signed/diag=+6.377262e-03, abs/diag=1.978490e-01
+X= 1200: transition-atoms= 3242, diag/N=6.164268e-03, signed/diag=-4.119106e-02, abs/diag=5.342937e-01
+          h<=L: pairs=     586, signed/diag=-3.685480e-02, abs/diag=1.140293e-01
+       L<h<=4L: pairs=    2174, signed/diag=-6.077346e-03, abs/diag=8.049515e-02
+     4L<h<=16L: pairs=    9698, signed/diag=+3.178252e-03, abs/diag=9.685793e-02
+         h>16L: pairs=  338746, signed/diag=-1.437168e-03, abs/diag=2.429112e-01
+transition-scale ratio kernel audit passed
+==> balanced transition-core frame and affine fibers
+X=  300, C=1: vertices=   632, edges=   100, mean-degree=0.3165, p99-degree=2.0, max-degree=2, p99-Schur=0.9204, max-Schur=1.0471, lambda_max=1.920917, max-row-vertex=7/199
+  largest affine clique: size=2, direction=(1,30), r=-1, points=7/211,8/241
+X=  300, C=4: vertices=   632, edges=   572, mean-degree=1.8101, p99-degree=5.0, max-degree=5, p99-Schur=1.0486, max-Schur=1.2099, lambda_max=1.943816, max-row-vertex=7/199
+X=  600, C=1: vertices=  1294, edges=   244, mean-degree=0.3771, p99-degree=2.0, max-degree=3, p99-Schur=1.3204, max-Schur=1.6307, lambda_max=2.386356, max-row-vertex=25/151
+  largest affine clique: size=4, direction=(2,3), r=+1, points=41/61,43/64,49/73,53/79
+X=  600, C=4: vertices=  1294, edges=  1100, mean-degree=1.7002, p99-degree=5.0, max-degree=5, p99-Schur=1.3204, max-Schur=1.6499, lambda_max=2.389899, max-row-vertex=32/107
+X= 1200, C=1: vertices=  2570, edges=   436, mean-degree=0.3393, p99-degree=2.0, max-degree=3, p99-Schur=1.3144, max-Schur=1.8334, lambda_max=2.746597, max-row-vertex=32/269
+  largest affine clique: size=3, direction=(1,54), r=+1, points=11/593,13/701,16/863
+X= 1200, C=4: vertices=  2570, edges=  2024, mean-degree=1.5751, p99-degree=4.0, max-degree=6, p99-Schur=1.3514, max-Schur=1.9041, lambda_max=2.749898, max-row-vertex=32/269
+X= 2500, C=1: vertices=  5550, edges=   816, mean-degree=0.2941, p99-degree=2.0, max-degree=3, p99-Schur=1.3572, max-Schur=2.0336, lambda_max=2.688147, max-row-vertex=27/811
+  largest affine clique: size=3, direction=(1,84), r=-1, points=13/1093,17/1429,19/1597
+X= 2500, C=4: vertices=  5550, edges=  4230, mean-degree=1.5243, p99-degree=4.0, max-degree=7, p99-Schur=1.4086, max-Schur=2.0336, lambda_max=2.683675, max-row-vertex=27/811
+X= 5000, C=1: vertices= 11562, edges=  1952, mean-degree=0.3377, p99-degree=2.0, max-degree=3, p99-Schur=1.4985, max-Schur=2.2359, lambda_max=2.926608, max-row-vertex=23/2207
+  largest affine clique: size=4, direction=(1,96), r=+1, points=19/1823,23/2207,25/2399,27/2591
+X= 5000, C=4: vertices= 11562, edges=  8750, mean-degree=1.5136, p99-degree=4.0, max-degree=6, p99-Schur=1.6137, max-Schur=2.3775, lambda_max=2.926608, max-row-vertex=41/1229
+X=10000, C=1: vertices= 23180, edges=  3488, mean-degree=0.3009, p99-degree=2.0, max-degree=4, p99-Schur=1.3692, max-Schur=3.1546, lambda_max=3.792897, max-row-vertex=29/4349
+  max-row neighbors: 32/4799:h=+3,scale=1.103,|g|=0.869,arg=+2.032; 31/4649:h=+2,scale=1.069,|g|=0.925,arg=+1.398; 27/4049:h=-2,scale=0.931,|g|=0.915,arg=-1.605; 23/3449:h=-6,scale=0.793,|g|=0.446,arg=+0.630
+  largest affine clique: size=5, direction=(1,150), r=+1, points=23/3449,27/4049,29/4349,31/4649,32/4799
+X=10000, C=4: vertices= 23180, edges= 16186, mean-degree=1.3965, p99-degree=4.0, max-degree=8, p99-Schur=1.4650, max-Schur=3.1546, lambda_max=3.792897, max-row-vertex=29/4349
+balanced transition-core frame audit passed
+==> clustered Fejer transition closure
+random cone ratios: 0.411122 0.442722 0.657220
+X=120: atoms= 242, main/local=0.887216, max X|det|/min=0.455408
+X=200: atoms= 454, main/local=0.950467, max X|det|/min=0.372787
+X=300: atoms= 720, main/local=0.909658, max X|det|/min=0.608828
+clustered Fejer transition audit passed
+==> critical logarithmic-square local boxes
+X=  300: atoms=  1080, blocks=   932, max-block= 3, off-pairs=  154, diag/N=4.269915e-03, local/N=5.175592e-03, off/local=1.749899e-01, max-Xdet/min=0.561885
+X=  600: atoms=  2580, blocks=  2208, max-block= 4, off-pairs=  390, diag/N=4.445550e-03, local/N=5.267195e-03, off/local=1.559929e-01, max-Xdet/min=0.600567
+X= 1200: atoms=  6196, blocks=  5226, max-block= 4, off-pairs=  938, diag/N=4.603030e-03, local/N=5.645268e-03, off/local=1.846215e-01, max-Xdet/min=0.612076
+X= 2500: atoms= 15450, blocks= 12512, max-block= 5, off-pairs= 2708, diag/N=4.696399e-03, local/N=6.043412e-03, off/local=2.228895e-01, max-Xdet/min=0.613653
+X= 5000: atoms= 35820, blocks= 28438, max-block= 5, off-pairs= 6568, diag/N=4.746452e-03, local/N=6.156503e-03, off/local=2.290343e-01, max-Xdet/min=0.628471
+X=10000: atoms= 82296, blocks= 63348, max-block= 7, off-pairs=16498, diag/N=4.763179e-03, local/N=6.348711e-03, off/local=2.497407e-01, max-Xdet/min=0.627196
+critical logarithmic-square local-box audit passed
+==> balanced Selberg--Kloosterman local density
+balanced sieve density and exponent ledger: PASS
+==> unbalanced critical two-regime sieve
+unbalanced critical two-regime sieve audit: PASS
+==> adjacent Montgomery--Vaughan and boundary no-go
+exact Toeplitz diagonal-fibre identity passed
+X=   200: circular spacing=9.460630e-04, L*X*spacing=1.002508
+X=  2000: circular spacing=6.579811e-05, L*X*spacing=1.000250
+X= 20000: circular spacing=5.048853e-06, L*X*spacing=1.000025
+log-product circular spacing scale 1/(L X) passed
+rank-one Toeplitz--Hankel obstruction passed: direct=3.250000, aggregate=133.250000, ratio=41
+Adjacent MV/boundary no-go audits passed.
+==> supercritical boundary pseudocovariance
+centered fibres, transpose symmetry, and boundary factorization passed
+same-covariance / opposite-pseudocovariance obstruction passed
+quarter-turn identity and quantitative certificate passed
+Supercritical pseudocovariance audits passed.
+==> boundary quarter-turn and locality obstruction
+optimal quarter-turn trace/nuclear-norm formula anchors passed
+finite-band lower/upper locality no-go passed
+X      d    w    beta^2||B||^2/N   beta^4||BB^T||^2/N   ||BB^T||/||BB*||   natural-HS   optimal-HS   beta||B||op   beta||E_J||op   ||E_J||op/||B||op
+64     42   42       2.80936903e-04          6.11779840e-06      7.79285401e-01   0.99999973   0.42159249 2.05870386e-01  3.66013686e-01          1.77788410
+128    99   99       1.21381177e-04          2.79062614e-06      8.43302558e-01   1.00000075   0.49539403 1.99070366e-01  3.58096916e-01          1.79884592
+256    226  226      3.11964206e-05          3.38302840e-07      7.79339426e-01   0.99999999   0.37203499 1.52361170e-01  2.52893842e-01          1.65983132
+actual von Mangoldt / smooth-window boundary blocks audited
+Boundary quarter-turn audits passed.
+==> first boundary-entry positive mean square
+limiting normalized mean-square constant: 0.0253302959
+X      atoms   beta^2 diagonal   beta^2 exact mean   beta^2 offdiag   sampled min   sampled median   sampled max
+128    44          0.0215532406        0.0210030583    -0.0005501824    0.00375260       0.13132037    0.26811783
+256    70          0.0222232641        0.0221595095    -0.0000637546    0.00441329       0.13761086    0.32300651
+512    117         0.0227929455        0.0226690288    -0.0001239167    0.00463058       0.13321407    0.32946889
+1024   198         0.0232680165        0.0232685413     0.0000005248    0.00120904       0.13609573    0.35086973
+first boundary-entry mean-square audits passed
+==> short-height Hilbert adjacent closure
+short-height Hilbert kernel and scale checks passed
+[scope] finite identities only; no arithmetic asymptotic or RH claim
+==> short-height signed 3+1 and 4+0 bulk closure
+short-height 3+1/4+0 combinatorial and exponent audits passed
+[scope] finite identities only; no sieve theorem or RH claim
+==> fourfold signed Toeplitz boundary closure
+fourfold Toeplitz telescoping identity passed
+adjoint modulation/translation sign passed
+fourfold scalar boundary nuclear crossing bound passed
+3+1/4+0 finite-boundary exponent ledger passed
+signed mean / mean-absolute separation passed
+fourfold signed Toeplitz boundary audits passed
+[scope] finite algebra/exponents only; no sieve theorem or RH claim
+==> Archimedean zero-frequency background reduction
+Archimedean zero-frequency normalization passed
+Schatten-four background perturbation scale passed
+mixed two-prime orientation coefficients passed
+MT conditional background candidate: D0=0.0000787875, Dmix=0.0078407992, total=0.2525089687
+Archimedean background audits passed
+[scope] deterministic normalization only; mixed evacuation is audited separately
+==> deterministic-background mixed-frequency closure
+twofold von Mangoldt prime-power identity passed
+mixed sign-walk support classification passed
+mixed short-height exponent ledgers passed
+whole-trace selection Schatten triangle passed
+MT deterministic-background fourth constant: 0.252508968714
+Mixed deterministic-background audits passed
+[scope] no Henriot implementation and no zero-counting claim
+==> relative-dense moving zero-block transfer
+AF moving-grid block length passed
+relative-dense endpoint displacement scale passed
+raw-to-centered trace identities passed
+MT moving-block quartic implication: sigma=0.111509664149, simple=0.756902665728, distinct=0.878451332864
+Christoffel data gap passed: symmetric=0.139527998665, skew=0
+Relative-dense zero-block audits passed
+[scope] implication only; no prime-side fourth theorem or record claim
+==> external-input reverse-audit identities
+external-input reverse-audit identities: PASS
+==> cyclic fourth-constant reconstruction
+raw paired paths: A_plus=4, A_minus=4, B=4
+mixed placements: adjacent orientations=8, alternating orientations=4
+MT constants: D0=0.000078787511, Dmix=0.007840799168, D22=0.244589382034, total=0.252508968714
+cyclic fourth-constant reconstruction: PASS
+==> alternating central/noncentral cross repair
+central/chain/primitive exact Gram ledger: PASS
+separate-budget central-cross no-go: PASS
+central-cross exponent ledger: PASS
+X= 300: central/L^2=0.461510, ratio-kernel/[L^(3/2)(log L)^2]=0.964173
+X= 600: central/L^2=0.465869, ratio-kernel/[L^(3/2)(log L)^2]=0.847050
+X=1200: central/L^2=0.471631, ratio-kernel/[L^(3/2)(log L)^2]=0.784571
+alternating central-cross audits passed
+[scope] finite identities/diagnostics only; shifted-prime input is external
+==> alternating high-product support obstruction
+flat high-product tail: raw=1/32, normalized=1/8, share=5/8
+MT alternating diagonal: total=0.178157229928, high-tail=0.101342668158, share=0.568838369338
+moving XL^2 cutoff MT tails: 0.045041257, 0.070629286, 0.083160119, 0.092637158 -> 0.101342668
+alternating high-product support audits passed
+[scope] window geometry only; no off-diagonal prime estimate
+==> alternating aperture-depth and power-high ceiling
+aperture--depth coordinate identity: PASS
+fixed-aperture high-support nesting: PASS
+near-aperture overlap lower bound: PASS
+X= 300: high=199/251, low=23/29, X*log-gap=0.103950, det=2, flat-overlap/high-depth=1.000000
+X= 600: high=409/541, low=31/41, X*log-gap=0.071556, det=2, flat-overlap/high-depth=1.000000
+X=1200: high=883/983, low=53/59, X*log-gap=0.046067, det=2, flat-overlap/high-depth=1.000000
+prime high--low near-collision diagnostics: PASS
+K=2.25: main/N=L^(-0.75)polylog, finite/N=L^(-0.75)loglog
+K=2.50: main/N=L^(-0.50)polylog, finite/N=L^(-0.50)loglog
+K=2.75: main/N=L^(-0.25)polylog, finite/N=L^(-0.25)loglog
+K<3 collar and K=3 endpoint exponent ledger: PASS
+theta=0.60: log(E_box/N) at logX=40,80,160 -> -6.756, -1.528, 11.699
+theta=0.70: log(E_box/N) at logX=40,80,160 -> 1.244, 14.472, 43.699
+theta=0.80: log(E_box/N) at logX=40,80,160 -> 9.244, 30.472, 75.699
+positive local-energy exponent ceiling: PASS
+alternating aperture--depth audits passed
+[scope] finite geometry/diagnostics and implication exponents only
+==> power-high Gabor band-pass and core-tail cancellation
+X=  300: d/(XL)=0.9999212555, max_|t|<=16 kernel error=6.644877e-04
+X= 1200: d/(XL)=0.9999891629, max_|t|<=16 kernel error=1.283736e-04
+X= 4800: d/(XL)=1.0000102799, max_|t|<=16 kernel error=1.598061e-05
+exact finite response and local band-pass limit: PASS
+coherent-core mass c0=0.023558003094
+radius=   4: whole=+6.298190120e-03, tail=-1.725981297e-02, core+tail=+6.298190120e-03
+radius=   8: whole=+3.161923677e-03, tail=-2.039607942e-02, core+tail=+3.161923677e-03
+radius=  16: whole=+1.582595950e-03, tail=-2.197540714e-02, core+tail=+1.582595950e-03
+radius=  32: whole=+7.915032369e-04, tail=-2.276649986e-02, core+tail=+7.915032369e-04
+positive core and compensating oscillatory tail: PASS
+X=  400: mesh=5.000000e-02, max core linearization error=1.252087e-03, mesh-core=0.023979408, mesh-full32=+8.046755719e-04
+X= 1600: mesh=2.500000e-02, max core linearization error=3.126303e-04, mesh-core=0.023662464, mesh-full32=+7.947678400e-04
+X= 6400: mesh=1.250000e-02, max core linearization error=7.813314e-05, mesh-core=0.023584063, mesh-full32=+7.923176250e-04
+theta=3/4 determinant mesh and core-tail model: PASS
+power-high band-pass audits passed
+[scope] response geometry/model discrepancy only; no prime asymptotic
+==> exact finite dyadic band-discrepancy scales
+X=  400: max R|K_D|=0.287089, max dyadic variation=0.940147, max shell integral/scale=0.006349, central integral/scale=0.036500, central variation/log(2+M)=3.580846
+X= 1600: max R|K_D|=0.280265, max dyadic variation=0.939556, max shell integral/scale=0.006331, central integral/scale=0.003159, central variation/log(2+M)=3.389967
+X= 6400: max R|K_D|=0.280318, max dyadic variation=0.939458, max shell integral/scale=0.006332, central integral/scale=0.014013, central variation/log(2+M)=3.188126
+exact dyadic finite-band audits passed
+[scope] finite kernel sanity checks only; theorems 235-G/H are analytic
+==> power-high prime response-measure diagnostics
+X=  400: factors= 14, ratios=  182, M=X^.25=4.4721, pairs=    310, core-mass/B=1.910307e-01, core-signed/B=+3.429850e-02, band-signed/B=+2.486554e-02, band-abs/B=9.762140e-02, E*log(M)/B=8.966132e-02, det2-mass/B=5.763534e-02, B=2.839114e-03, signed/L^4=+5.478338e-08, E*log(M)/L^4=1.975404e-07
+X=  800: factors= 21, ratios=  420, M=X^.25=5.3183, pairs=   1038, core-mass/B=1.709308e-01, core-signed/B=-1.029067e-02, band-signed/B=-1.632787e-02, band-abs/B=9.949301e-02, E*log(M)/B=3.061936e-02, det2-mass/B=9.724435e-03, B=5.045936e-03, signed/L^4=-4.126354e-08, E*log(M)/L^4=7.738078e-08
+X= 1600: factors= 29, ratios=  812, M=X^.25=6.3246, pairs=   2778, core-mass/B=1.447561e-01, core-signed/B=-5.084830e-03, band-signed/B=-5.463352e-03, band-abs/B=7.980605e-02, E*log(M)/B=3.281701e-02, det2-mass/B=5.223628e-03, B=8.703175e-03, signed/L^4=-1.604867e-08, E*log(M)/L^4=9.640040e-08
+X= 3200: factors= 43, ratios= 1806, M=X^.25=7.5212, pairs=   8084, core-mass/B=1.171903e-01, core-signed/B=+9.351829e-04, band-signed/B=-9.017901e-04, band-abs/B=7.701143e-02, E*log(M)/B=2.001933e-02, det2-mass/B=6.494232e-03, B=1.476324e-02, signed/L^4=-3.137604e-09, E*log(M)/L^4=6.965338e-08
+X= 6400: factors= 68, ratios= 4556, M=X^.25=8.9443, pairs=  30576, core-mass/B=1.096562e-01, core-signed/B=-1.265613e-03, band-signed/B=-2.360241e-03, band-abs/B=7.062607e-02, E*log(M)/B=1.051974e-02, det2-mass/B=2.764823e-03, B=2.850957e-02, signed/L^4=-1.140584e-08, E*log(M)/L^4=5.083650e-08
+power-high prime response-measure diagnostics passed
+[scope] finite flat-window evidence only; no four-prime asymptotic
+==> power-high elementary mass-ledger exponents
+theta=0.510000: H=X^0.020000, Y/H=X^0.490000, M=X^0.490000, HM=X^0.510000, H/M=X^-0.470000
+theta=0.550000: H=X^0.100000, Y/H=X^0.450000, M=X^0.450000, HM=X^0.550000, H/M=X^-0.350000
+theta=0.600000: H=X^0.200000, Y/H=X^0.400000, M=X^0.400000, HM=X^0.600000, H/M=X^-0.200000
+theta=0.666667: H=X^0.333333, Y/H=X^0.333333, M=X^0.333333, HM=X^0.666667, H/M=X^-0.000000
+theta=0.750000: H=X^0.500000, Y/H=X^0.250000, M=X^0.500000, HM=X^1.000000, H/M=X^0.000000
+theta=0.900000: H=X^0.800000, Y/H=X^0.100000, M=X^0.800000, HM=X^1.600000, H/M=X^0.000000
+theta=0.990000: H=X^0.980000, Y/H=X^0.010000, M=X^0.980000, HM=X^1.960000, H/M=X^0.000000
+power-high central-scale and mass-ledger exponents passed
+[scope] exponent identities only; incidence proof is in note 236
+==> cumulative discrepancy versus exact band response no-go
+M=  16: omega=0.250000, B=32.0, E=0.318310, E/sqrt(M)=0.079577, response=+2.466738e-03, M*|response|=3.946780e-02
+M=  64: omega=0.125000, B=128.0, E=0.636620, E/sqrt(M)=0.079577, response=+5.991715e-04, M*|response|=3.834698e-02
+M= 256: omega=0.062500, B=512.0, E=1.273240, E/sqrt(M)=0.079577, response=+1.487589e-04, M*|response|=3.808229e-02
+M=1024: omega=0.031250, B=2048.0, E=2.546479, E/sqrt(M)=0.079577, response=+3.712598e-05, M*|response|=3.801700e-02
+cumulative-discrepancy / exact-band separation audits passed
+[scope] positive continuous response model only; no prime asymptotic
+==> band energy versus physical response direction no-go
+n= 4, X=  256, M= 16, D=  1420: response=+0.248431743, response-eps/2=-1.568e-03, error-scale=2.428e-01, Bband/sqrt(M)=0.352347562, Bband/|response|=5.673149
+n= 6, X= 1296, M= 36, D=  9288: response=+0.249350025, response-eps/2=-6.500e-04, error-scale=1.673e-01, Bband/sqrt(M)=0.353050963, Bband/|response|=8.495310
+n= 8, X= 4096, M= 64, D= 34070: response=+0.249623702, response-eps/2=-3.763e-04, error-scale=1.358e-01, Bband/sqrt(M)=0.353263488, Bband/|response|=11.321473
+n=10, X=10000, M=100, D= 92103: response=+0.249762282, response-eps/2=-2.377e-04, error-scale=1.186e-01, Bband/sqrt(M)=0.353370079, Bband/|response|=14.148256
+band-energy / physical-direction separation audits passed
+[scope] positive continuous response model only; no prime asymptotic
+==> power-high physical one-factor Vaughan channels
+X=  400: kappa=0.250, U=V= 3, pairs=   3247, atoms=   546, Delta_I,I=+1.089261e-05, Delta_I,II=+1.972660e-05, Delta_II,II=+2.025029e-05, physical=+7.059611e-05, |physical|/entry-l1=1.000000e+00, mass/entry-l1=3.812378e-01, physical/L^4=+5.478338e-08
+X=  400: kappa=0.333, U=V= 4, pairs=   2303, atoms=   462, Delta_I,I=+1.205143e-05, Delta_I,II=+1.701064e-05, Delta_II,II=+2.452341e-05, physical=+7.059611e-05, |physical|/entry-l1=1.000000e+00, mass/entry-l1=4.273833e-01, physical/L^4=+5.478338e-08
+X=  400: kappa=0.500, U=V= 9, pairs=    370, atoms=   196, Delta_I,I=+7.109706e-05, Delta_I,II=-2.504704e-07, Delta_II,II=+0.000000e+00, physical=+7.059611e-05, |physical|/entry-l1=9.860068e-01, mass/entry-l1=1.000000e+00, physical/L^4=+5.478338e-08
+X=  800: kappa=0.250, U=V= 4, pairs=   9488, atoms=  1176, Delta_I,I=-1.443666e-04, Delta_I,II=+5.764403e-05, Delta_II,II=-5.331083e-05, physical=-8.238937e-05, |physical|/entry-l1=2.632538e-01, mass/entry-l1=3.232314e-01, physical/L^4=-4.126354e-08
+X=  800: kappa=0.333, U=V= 5, pairs=  10403, atoms=  1239, Delta_I,I=-1.169767e-04, Delta_I,II=+3.527829e-05, Delta_II,II=-3.596930e-05, physical=-8.238937e-05, |physical|/entry-l1=3.686284e-01, mass/entry-l1=8.464797e-01, physical/L^4=-4.126354e-08
+X=  800: kappa=0.500, U=V=12, pairs=   1283, atoms=   462, Delta_I,I=-9.045932e-05, Delta_I,II=+5.367243e-06, Delta_II,II=-2.664544e-06, physical=-8.238937e-05, |physical|/entry-l1=7.932860e-01, mass/entry-l1=9.947988e-01, physical/L^4=-4.126354e-08
+X= 1600: kappa=0.250, U=V= 4, pairs=  32810, atoms=  2755, Delta_I,I=-2.717750e-04, Delta_I,II=+1.420572e-04, Delta_II,II=-5.988784e-05, physical=-4.754851e-05, |physical|/entry-l1=7.721707e-02, mass/entry-l1=2.474678e-01, physical/L^4=-1.604867e-08
+X= 1600: kappa=0.333, U=V= 6, pairs=  19750, atoms=  2146, Delta_I,I=-2.249722e-04, Delta_I,II=+1.120272e-04, Delta_II,II=-4.663063e-05, physical=-4.754851e-05, |physical|/entry-l1=9.593023e-02, mass/entry-l1=3.639067e-01, physical/L^4=-1.604867e-08
+X= 1600: kappa=0.500, U=V=16, pairs=   2939, atoms=   841, Delta_I,I=-5.434415e-05, Delta_I,II=+3.398332e-06, Delta_II,II=-1.017620e-09, physical=-4.754851e-05, |physical|/entry-l1=7.776755e-01, mass/entry-l1=8.406498e-01, physical/L^4=-1.604867e-08
+X= 3200: kappa=0.250, U=V= 5, pairs= 131863, atoms=  7181, Delta_I,I=-2.752934e-04, Delta_I,II=+1.934126e-04, Delta_II,II=-1.248451e-04, physical=-1.331335e-05, |physical|/entry-l1=1.691736e-02, mass/entry-l1=8.646322e-01, physical/L^4=-3.137604e-09
+X= 3200: kappa=0.333, U=V= 8, pairs=  79840, atoms=  5590, Delta_I,I=-1.495756e-04, Delta_I,II=+9.147716e-05, Delta_II,II=-4.669208e-05, physical=-1.331335e-05, |physical|/entry-l1=3.510700e-02, mass/entry-l1=9.506032e-01, physical/L^4=-3.137604e-09
+X= 3200: kappa=0.500, U=V=21, pairs=   8802, atoms=  1892, Delta_I,I=-2.119866e-05, Delta_I,II=+3.918538e-06, Delta_II,II=+4.823439e-08, physical=-1.331335e-05, |physical|/entry-l1=4.577555e-01, mass/entry-l1=9.992845e-01, physical/L^4=-3.137604e-09
+X= 6400: kappa=0.250, U=V= 5, pairs= 551696, atoms= 19108, Delta_I,I=-3.606053e-04, Delta_I,II=+2.362567e-04, Delta_II,II=-1.791977e-04, physical=-6.728947e-05, |physical|/entry-l1=6.647079e-02, mass/entry-l1=9.424442e-01, physical/L^4=-1.140584e-08
+X= 6400: kappa=0.333, U=V= 9, pairs= 301833, atoms= 14144, Delta_I,I=-2.653973e-04, Delta_I,II=+1.240483e-04, Delta_II,II=-4.998886e-05, physical=-6.728947e-05, |physical|/entry-l1=1.194171e-01, mass/entry-l1=9.598573e-01, physical/L^4=-1.140584e-08
+X= 6400: kappa=0.500, U=V=27, pairs=  34028, atoms=  4828, Delta_I,I=-6.794319e-05, Delta_I,II=+1.257498e-06, Delta_II,II=-1.861274e-06, physical=-6.728947e-05, |physical|/entry-l1=9.304476e-01, mass/entry-l1=8.802458e-01, physical/L^4=-1.140584e-08
+power-high physical Vaughan-channel audits passed
+[scope] exact finite identity/evidence only; no prime asymptotic
+==> centered Mobius divisor pullback and dyadic Abel blocks
+X=  400: U=V= 3, r= 29, records=   742, pairs=   28466, avgK=+3.163e-05, max|M|=3, response/L^4=+5.439e-08, Abel-abs/L^4=3.304e-06, retention=1.646e-02, dyadic-l1/L^4=2.580e-07, dyadic-Cauchy/L^4=3.570e-07, far-signed/L^4=+9.077e-08, far-l1/L^4=1.062e-07, far-l2^2/L^6=8.013e-14, far-l2-share=4.380e-01, crude/Abel-abs=5.480e+00
+X=  800: U=V= 4, r= 39, records=  1869, pairs=  131090, avgK=+8.369e-06, max|M|=4, response/L^4=-3.920e-08, Abel-abs/L^4=5.481e-06, retention=7.152e-03, dyadic-l1/L^4=5.401e-07, dyadic-Cauchy/L^4=9.690e-07, far-signed/L^4=+1.269e-07, far-l1/L^4=1.805e-07, far-l2^2/L^6=1.087e-13, far-l2-share=9.330e-02, crude/Abel-abs=8.040e+00
+X= 1600: U=V= 4, r= 65, records=  4350, pairs=  526249, avgK=+7.916e-06, max|M|=4, response/L^4=-1.419e-08, Abel-abs/L^4=6.121e-06, retention=2.318e-03, dyadic-l1/L^4=4.846e-07, dyadic-Cauchy/L^4=1.055e-06, far-signed/L^4=+1.223e-07, far-l1/L^4=2.033e-07, far-l2^2/L^6=2.098e-13, far-l2-share=1.696e-01, crude/Abel-abs=7.193e+00
+X= 3200: U=V= 5, r= 92, records= 10965, pairs= 2346769, avgK=-9.824e-06, max|M|=4, response/L^4=-3.087e-09, Abel-abs/L^4=5.608e-06, retention=5.505e-04, dyadic-l1/L^4=3.258e-07, dyadic-Cauchy/L^4=5.680e-07, far-signed/L^4=+4.839e-08, far-l1/L^4=1.144e-07, far-l2^2/L^6=5.998e-14, far-l2-share=1.398e-01, crude/Abel-abs=6.661e+00
+Mobius divisor pullback and Abel audits passed
+[scope] exact finite identity/evidence only; no prime asymptotic
+Finite sanity checks passed (group=core, checks=92).

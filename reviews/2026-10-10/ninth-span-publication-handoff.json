@@ -1,0 +1,48 @@
+{
+  "status": "FROZEN_PUBLIC_TRIPLE",
+  "files": [
+    {
+      "absolute_path": "E:\\codex-build\\RH-Weil\\tmp\\research-resume-20261010\\proportion\\am_ninth_span_certificate.py",
+      "bytes": 10462,
+      "raw_and_canonical_lf_sha256": "b03b3259a385702300520bd02f33c79d228b76a0e07c6b42cec23b6a02a5e673"
+    },
+    {
+      "absolute_path": "E:\\codex-build\\RH-Weil\\tmp\\research-resume-20261010\\proportion\\am-ninth-span-certificate.json",
+      "bytes": 971109,
+      "raw_and_canonical_lf_sha256": "9fc7f9d8a00ebbc3e2f8ff236b247af5ac3173c3942ec72b9180c4473a65cf96"
+    },
+    {
+      "absolute_path": "E:\\codex-build\\RH-Weil\\tmp\\research-resume-20261010\\proportion\\am-ninth-span-point-catalog.json",
+      "bytes": 40690,
+      "raw_and_canonical_lf_sha256": "cda8ce5fce3d0a639975f54e57b1991c7d5a2a2cb112df4e3dd13237a954fb27"
+    }
+  ],
+  "old_expanded_canonical_lf_sha256": "3a3c8b24015162a4835f5c1d8633a4f9f8bdace26d711631dd6374c689bce04f",
+  "inherited_canonical_dependency_pins": {
+    "scripts/am_nine_point_epigraph_certificate.py": "af5f2e1974bed92ad515f06ff6047f3e5595ac60c6dc721abd7bfb5cfd930c32",
+    "scripts/am_nine_point_low_slack_cover.py": "0c203ae8d05796f73e5ca5018935067342a65f6a9eac3a800b5d36893cfde629",
+    "scripts/am_pc8_finite_replay.py": "2db626d7c3fbcc1f6ced7580d0fe847fff743b1039aa58797392e9e05845600f",
+    "output/am-pc8-finite-replay.json": "48c29521994321837b60ea39661b93f87c28560b5f19932c583ad8b29f5dd549",
+    "output/am-nine-point-low-slack-cover.json": "628fdf422495f15f3b5f5ce7e035f8f439d43c0928883509f39034c87b0c64ff",
+    "output/am-nine-point-epigraph-certificate.json": "0733022044f96b37c6be3d5d5c1e9fa6c269545142d7d535e643c835a7cf38f6",
+    "formal/certificates/AMPC8StructuralBridge.lean": "98771eceea94a14f3a1be38c1e9c7ab48fffbb0d1c77bbfde636d21358b9ba9f",
+    "formal/certificates/AMPC8MinorantBridge.lean": "f3947ca27750760322481a87ed5da4a5a8702a92bdf4570a6a4727f957fee114",
+    "reviews/2026-10-08/am-nine-point-adaptive-round-manifest.json": "0b903f03331a3ddc1f971555a4e7b23b4109c5dc769d0cc7b7a99471273cc4fb"
+  },
+  "source_raw_sha256": "012c6ac5f9282158a686500dc0c967bf0a9b00e1a6192734d8f237bb23dd2d5f",
+  "domains": 2399,
+  "replacements": 47,
+  "closed_nonempty_branches": 84,
+  "distinct_used_points": 541,
+  "intersection_with_inherited237": 164,
+  "positive_tangent_rows": 2955,
+  "new_fullspan_positive_tangent_rows": 68,
+  "simple_critical_proportion": "941021/1397107",
+  "uniform_reward": "805403/100000000",
+  "finite_minimum": "263917374155379049835090394947/32768000000000000000000000000000",
+  "strict_finite_margin": "2919115379049835090394947/32768000000000000000000000000000",
+  "clean_lf_offline_audit": "clean-lf-offline-audit.json",
+  "optional_source_audit": "portable-canonical-source-audit.json",
+  "full_lean_proof_run": false,
+  "website_accepted": false
+}

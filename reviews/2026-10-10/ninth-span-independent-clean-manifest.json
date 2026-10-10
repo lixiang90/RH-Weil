@@ -1,0 +1,79 @@
+{
+  "files": [
+    {
+      "path": "scripts/am_nine_point_epigraph_certificate.py",
+      "bytes": 11009,
+      "raw_sha256": "af5f2e1974bed92ad515f06ff6047f3e5595ac60c6dc721abd7bfb5cfd930c32"
+    },
+    {
+      "path": "scripts/am_nine_point_low_slack_cover.py",
+      "bytes": 10565,
+      "raw_sha256": "0c203ae8d05796f73e5ca5018935067342a65f6a9eac3a800b5d36893cfde629"
+    },
+    {
+      "path": "scripts/am_pc8_finite_replay.py",
+      "bytes": 13273,
+      "raw_sha256": "2db626d7c3fbcc1f6ced7580d0fe847fff743b1039aa58797392e9e05845600f"
+    },
+    {
+      "path": "output/am-pc8-finite-replay.json",
+      "bytes": 17001,
+      "raw_sha256": "48c29521994321837b60ea39661b93f87c28560b5f19932c583ad8b29f5dd549"
+    },
+    {
+      "path": "output/am-nine-point-low-slack-cover.json",
+      "bytes": 138022,
+      "raw_sha256": "54085fcf0e0e7bb8ad601085a9cd77987702bd080704a5b546ed58b72ddb62ac"
+    },
+    {
+      "path": "output/am-nine-point-epigraph-certificate.json",
+      "bytes": 1181378,
+      "raw_sha256": "3d03537888e240cfbd9d4d1fe5afc015c36a88168d735fd60755646afb8e1019"
+    },
+    {
+      "path": "formal/certificates/AMPC8StructuralBridge.lean",
+      "bytes": 5906,
+      "raw_sha256": "98771eceea94a14f3a1be38c1e9c7ab48fffbb0d1c77bbfde636d21358b9ba9f"
+    },
+    {
+      "path": "formal/certificates/AMPC8MinorantBridge.lean",
+      "bytes": 5512,
+      "raw_sha256": "f3947ca27750760322481a87ed5da4a5a8702a92bdf4570a6a4727f957fee114"
+    },
+    {
+      "path": "reviews/2026-10-08/am-nine-point-adaptive-round-manifest.json",
+      "bytes": 8629,
+      "raw_sha256": "4a678607912f8076bd37fed941e1041af7ceea701cbdffd4a069023065f57244"
+    },
+    {
+      "path": "output/am-expanded-nine-point-certificate.json",
+      "bytes": 6632325,
+      "raw_sha256": "45fa9a71c1aa87296ac3cdb5b260c32d1ffe22d2b36b979d58b9cbf16c754c33"
+    },
+    {
+      "path": "scripts/am_expanded_nine_point_certificate.py",
+      "bytes": 8854,
+      "raw_sha256": "05b7500d77bdb41cb5419137a1eee354250d7569572cd5c37d44a19a66b4eb4f"
+    },
+    {
+      "path": "scripts/am_ninth_span_certificate.py",
+      "bytes": 10462,
+      "raw_sha256": "b03b3259a385702300520bd02f33c79d228b76a0e07c6b42cec23b6a02a5e673"
+    },
+    {
+      "path": "output/am-ninth-span-certificate.json",
+      "bytes": 971109,
+      "raw_sha256": "9fc7f9d8a00ebbc3e2f8ff236b247af5ac3173c3942ec72b9180c4473a65cf96"
+    },
+    {
+      "path": "output/am-ninth-span-point-catalog.json",
+      "bytes": 40690,
+      "raw_sha256": "cda8ce5fce3d0a639975f54e57b1991c7d5a2a2cb112df4e3dd13237a954fb27"
+    }
+  ],
+  "file_count": 14,
+  "has_tmp": false,
+  "source_file_present": false,
+  "check_exit_code": 0,
+  "stdout": "checked 0\nchecked 500\nchecked 1000\nchecked 1500\nchecked 2000\nPASS {'finite_certificate_pass': True, 'domains': 2399, 'replacements': 47, 'closed_branches': 84, 'positive_tangent_row_uses': 2955, 'minimum_domain_lower': '263917374155379049835090394947/32768000000000000000000000000000', 'outside_lower': '805403/100000000', 'uniform_reward': '805403/100000000', 'simple_critical_proportion': '941021/1397107', 'elapsed_seconds': 4.030999999959022, 'certificate_raw_sha256': '9fc7f9d8a00ebbc3e2f8ff236b247af5ac3173c3942ec72b9180c4473a65cf96', 'checker_raw_sha256': 'b03b3259a385702300520bd02f33c79d228b76a0e07c6b42cec23b6a02a5e673', 'point_catalog_canonical_lf_sha256': 'cda8ce5fce3d0a639975f54e57b1991c7d5a2a2cb112df4e3dd13237a954fb27', 'certificate_canonical_lf_sha256': '9fc7f9d8a00ebbc3e2f8ff236b247af5ac3173c3942ec72b9180c4473a65cf96', 'checker_canonical_lf_sha256': 'b03b3259a385702300520bd02f33c79d228b76a0e07c6b42cec23b6a02a5e673', 'source_file_verified': False}\n"
+}

@@ -1,0 +1,260 @@
+{
+  "classification": "finite exact algebra; model barrier only",
+  "runtime_dependencies": "Python standard library only",
+  "check_count": 38,
+  "checks": [
+    {
+      "name": "isolating lower sign",
+      "kind": "exact rational inequality",
+      "passed": true,
+      "detail": "213891060215166080381053749131/1000000000000000000000000000000000000000000"
+    },
+    {
+      "name": "isolating upper sign",
+      "kind": "exact rational inequality",
+      "passed": true,
+      "detail": "-34543111022329170835601544799/15625000000000000000000000000000000000000"
+    },
+    {
+      "name": "specified source root interval",
+      "kind": "exact rational inequality",
+      "passed": true,
+      "detail": [
+        "16683858898627/100000000000000",
+        "4170964724657/25000000000000"
+      ]
+    },
+    {
+      "name": "p derivative negative uniformly on [1/6,1/5]",
+      "kind": "exact rational inequality",
+      "passed": true,
+      "detail": "-5454/25"
+    },
+    {
+      "name": "auxiliary denominator negative uniformly",
+      "kind": "exact rational inequality",
+      "passed": true,
+      "detail": "-2369/50"
+    },
+    {
+      "name": "count formula equals original energy crossing",
+      "kind": "exact polynomial identity",
+      "passed": true
+    },
+    {
+      "name": "critical test factors through cubic",
+      "kind": "exact polynomial identity",
+      "passed": true
+    },
+    {
+      "name": "kappa finite difference",
+      "kind": "exact polynomial identity",
+      "passed": true
+    },
+    {
+      "name": "count denominator sign dictionary",
+      "kind": "exact polynomial identity",
+      "passed": true
+    },
+    {
+      "name": "strict delta monotonicity finite difference",
+      "kind": "exact polynomial identity",
+      "passed": true
+    },
+    {
+      "name": "count finite difference decomposition",
+      "kind": "exact polynomial identity",
+      "passed": true
+    },
+    {
+      "name": "uniform H upper bound numerator",
+      "kind": "exact polynomial identity",
+      "passed": true
+    },
+    {
+      "name": "critical delta above 3/8",
+      "kind": "exact rational inequality",
+      "passed": true,
+      "detail": "1961/157272"
+    },
+    {
+      "name": "critical delta below 1/2",
+      "kind": "exact polynomial identity",
+      "passed": true
+    },
+    {
+      "name": "D minimum exceeds two",
+      "kind": "exact rational inequality",
+      "passed": true,
+      "detail": "455/222"
+    },
+    {
+      "name": "P minimum positive",
+      "kind": "exact rational inequality",
+      "passed": true,
+      "detail": "86/111"
+    },
+    {
+      "name": "dual forces B above actual-kappa threshold",
+      "kind": "exact rational inequality",
+      "passed": true,
+      "detail": "19/6300"
+    },
+    {
+      "name": "contradiction a upper endpoint",
+      "kind": "exact rational inequality",
+      "passed": true,
+      "detail": "14/75"
+    },
+    {
+      "name": "test delta derivative",
+      "kind": "exact polynomial identity",
+      "passed": true
+    },
+    {
+      "name": "test delta endpoint rectangle",
+      "kind": "exact rational inequality",
+      "passed": true,
+      "detail": "[1/3,7/18]"
+    },
+    {
+      "name": "test delta left endpoint",
+      "kind": "exact rational inequality",
+      "passed": true,
+      "detail": "7/18"
+    },
+    {
+      "name": "test delta right endpoint",
+      "kind": "exact rational inequality",
+      "passed": true,
+      "detail": "1/3"
+    },
+    {
+      "name": "full high endpoint at R equals two thirds",
+      "kind": "exact polynomial identity",
+      "passed": true
+    },
+    {
+      "name": "dual weights sum one",
+      "kind": "exact polynomial identity",
+      "passed": true
+    },
+    {
+      "name": "dual cancels M",
+      "kind": "exact polynomial identity",
+      "passed": true
+    },
+    {
+      "name": "dual cancels total prime length",
+      "kind": "exact polynomial identity",
+      "passed": true
+    },
+    {
+      "name": "dual lower bound independent of geometry",
+      "kind": "exact polynomial identity",
+      "passed": true
+    },
+    {
+      "name": "dual test point equals target boundary",
+      "kind": "exact polynomial identity",
+      "passed": true
+    },
+    {
+      "name": "dual G derivative",
+      "kind": "exact polynomial identity",
+      "passed": true
+    },
+    {
+      "name": "low zero branch yields L0",
+      "kind": "exact polynomial identity",
+      "passed": true
+    },
+    {
+      "name": "low width excess branch yields LK",
+      "kind": "exact polynomial identity",
+      "passed": true
+    },
+    {
+      "name": "balanced high endpoint independent of b",
+      "kind": "exact polynomial identity",
+      "passed": true
+    },
+    {
+      "name": "balanced critical test endpoint zero",
+      "kind": "exact polynomial identity",
+      "passed": true
+    },
+    {
+      "name": "long inverse sharpness exponent, not physical total slot length",
+      "kind": "exact polynomial identity",
+      "passed": true
+    },
+    {
+      "name": "target .87495 below cubic boundary",
+      "kind": "exact rational inequality",
+      "passed": true,
+      "detail": "17499/20000"
+    },
+    {
+      "name": "target test count positive gap",
+      "kind": "exact rational inequality",
+      "passed": true,
+      "detail": "1875081893/615723531225000"
+    },
+    {
+      "name": "target dual positive gap",
+      "kind": "exact rational inequality",
+      "passed": true,
+      "detail": "52361/7997220000"
+    },
+    {
+      "name": "target weighted gap",
+      "kind": "exact rational inequality",
+      "passed": true,
+      "detail": "52361/1500000000"
+    }
+  ],
+  "inputs": [
+    {
+      "path": "papers/kappa-feedback-cubic-boundary-paper.tex",
+      "bytes": 39181,
+      "raw_sha256": "16c0ba50a2917f2ead56843eabf55b62fbbe214e162cff373b4d8554f84315ee"
+    },
+    {
+      "path": "notes/449-free-b-compensated-geometry-and-optimal-relative-boundary.md",
+      "bytes": 15509,
+      "raw_sha256": "2d4b37628d6f68229fd687d6ac84c2ba03cb7223c412df5e00c07a0ff5e1a3bd"
+    },
+    {
+      "path": "notes/450-plain-kappa-extension-and-actual-capacity.md",
+      "bytes": 5431,
+      "raw_sha256": "f16807e0f80461e3005b3173e313218b00f5f86abfa860a4ead79e425dd6bee5"
+    },
+    {
+      "path": "notes/451-kappa-feedback-cubic-boundary-and-family-continuation.md",
+      "bytes": 10207,
+      "raw_sha256": "17ce7fea8c881ebd4034657b7039e99897d4ff9532348993ba329c46e3c4d487"
+    }
+  ],
+  "root_interval": [
+    "16683858898627/100000000000000",
+    "4170964724657/25000000000000"
+  ],
+  "target_budget": {
+    "B": "17499/20000",
+    "delta": "19429/50000",
+    "minimum_kappa": "7499/10000",
+    "necessary_count_decrement_if_low_unchanged_and_h_lt_one": "467366968772963/12314470624500000000",
+    "decimal_orientation_only": "0.000037952664229278579493516741386254951",
+    "attained": false
+  },
+  "scope": {
+    "balanced_current_interface_barrier": true,
+    "three_affine_constraints_barrier": true,
+    "all_actual_general_geometry_satisfies_constraints": false,
+    "new_arithmetic_estimate": false,
+    "new_zero_free_region": false,
+    "actual_bad_row_constructed": false,
+    "lean_checked": false
+  }
+}

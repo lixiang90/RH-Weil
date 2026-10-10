@@ -1,0 +1,420 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[margin=26mm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern,microtype}
+\usepackage{amsmath,amssymb,amsthm,mathtools,booktabs}
+\usepackage[hidelinks]{hyperref}
+\hypersetup{pdftitle={The Total-Span Term in a Nine-Point Simple-Zero Certificate},pdfauthor={Li Xiang}}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{inputclaim}[theorem]{Certified input}
+\DeclareMathOperator{\tr}{tr}
+\DeclareMathOperator{\sinc}{sinc}
+\newcommand{\R}{\mathbb R}
+\title{The Total-Span Term in a Nine-Point Certificate\\
+for Simple Critical Zeros of the Riemann Zeta Function}
+\author{Li Xiang\\\small\texttt{lixiang90}}
+\date{October 10, 2026}
+\begin{document}
+\maketitle
+\begin{abstract}
+We improve the rational certificate for a fixed perturbed
+Montgomery--Taylor window by using the square of its kernel at the
+total span of nine points. Existing point and derivative data, together
+with their certified convexity intervals, suffice: no new kernel table
+is computed. Exact difference-constraint closure and 84 closed branches
+replace the 47 weakest domains of an existing complete 2,399-domain
+cover. A standard-library rational checker verifies the entire cover,
+including every finite-box dual residual. The uniform local reward
+becomes $805403/10^8$, and the same lossless all-zero transport gives
+\[
+ \liminf_{T\to\infty}\frac{N_0^s(T)}{N(T)}
+ \ge\frac{66812491}{99194597}=\frac{941021}{1397107}
+ =0.673549699486152456\ldots.
+\]
+The denominator counts all nontrivial zeros with multiplicity; the
+numerator counts simple zeros on the critical line. The fixed window,
+continuous point/region admission and analytic transport are inherited
+from the cited certificates. The new finite implication is checked by
+exact rational arithmetic. The strengthened theorem has not yet been
+ported to the separate Lean formalization or accepted by the record
+website. We make no new zero-free-region claim.
+\end{abstract}
+
+\section{Statement and inherited inputs}
+
+Let $N(T)$ count all nontrivial zeros of $\zeta$ with imaginary part in
+$(0,T]$, including multiplicity, and let $N_0^s(T)$ count its simple
+critical-line zeros in that interval.
+
+\begin{theorem}\label{thm:main}
+Within the fixed continuous certificate and proved all-zero analytic
+framework specified below,
+\[
+ \liminf_{T\to\infty}\frac{N_0^s(T)}{N(T)}
+ \ge \frac{941021}{1397107}.
+\]
+The only new computational implication is the complete rational
+certificate of Section~\ref{sec:certificate}; no additional correlation
+conjecture, zero-free strip or arithmetic moment assumption is used.
+\end{theorem}
+
+The previous bound was $66812491/99194740$ \cite{Expanded}. The gain is
+\[
+ \frac{941021}{1397107}-\frac{66812491}{99194740}
+ =\frac{134566003}{138585665617180},
+\]
+approximately $0.0000970995105451$ percentage points. This comparison
+is with the project's fixed preceding theorem, rather than a claim
+of exhaustive global priority or official record acceptance.
+
+For reproducibility we specify the unchanged window. Put
+$\beta=1/\sqrt2$, $Z=\sqrt2\sin\beta$, and $I=[-1/2,1/2]$.
+With zero extension outside $I$, define
+\[
+ f(u)=\frac{\cos(\sqrt2u)+\sum_{j=1}^{12}c_j\cos(2\pi ju)}{Z},
+ \qquad K(t)=\int_I f(u)e^{-2\pi itu}\,du,\qquad w(t)=K(t)^2,
+\]
+where the integer numerators $10^9c_j$ are
+\[
+\begin{split}
+(&12310798,-15041681,3867664,6489926,-992327,5580097,\\
+ &-6846472,3781297,-5670353,3355089,-450523,-218483).
+\end{split}
+\]
+The certified density is positive, even, and has integral one. In
+particular $0\le w(t)\le1$ for real $t$. The eight-point functional is
+\[
+ F_8(h)=\sum_{r=0}^6b_rh_r+
+   \sum_{0\le i<j\le7}a_{ij}w(h_i+\cdots+h_{j-1}),
+\]
+where $10^8b_r=(28898,57272,75526,80958,75526,57272,28898)$,
+so $B:=\sum b_r=404350/10^8$. The successive rows of $10^8a_{ij}$ are
+\[
+\begin{array}{l}
+(13630830,0,19565904,20317441,45030671,100000000,200000000),\\
+(29997996,30621878,47766489,79682558,109938656,100000000),\\
+(37356140,69378121,65335210,79682558,45030671),\\
+(38030065,69378121,47766489,20317441),\\
+(37356140,30621878,19565904),\quad(29997996,0),\quad(13630830).
+\end{array}
+\]
+There are 26 nonzero pair terms. Each fixed index-span weight sum is
+at most two.
+
+\begin{inputclaim}\label{in:fixed}
+We retain the fixed public PC8 source \cite{PC8}, the complete capture
+and continuous semantics of \cite{Expanded}, and the majorant, energy
+and all-zero transport of \cite{Joint,Lossless}. In particular:
+\begin{enumerate}
+\item $F_8\ge c_0:=805003/10^8$ on $[0,\infty)^7$;
+\item every separated frame with $F_8<c_L:=805803/10^8$ lies in
+the union of 241 recorded closed cells and their complete reflections;
+\item the original point packs certify lower values and two-sided
+derivative intervals of $w$, and the original \texttt{REG} endpoints
+certify convexity on their indicated real intervals;
+\item the fixed continuous energy bound is $2-C(f)>67216841/10^8$.
+\end{enumerate}
+\end{inputclaim}
+
+These are disclosed inherited certificates, rather than new numerical
+sampling assumptions. The present finite checker does not by itself
+reprove their analytic admission. The preceding proportion's separate
+Lean proof and this strengthened rational proof have different
+verification states, detailed in Section~\ref{sec:trust}.
+
+\section{The unused total span and valid tangents}
+
+For real gaps $g\in[4/5,\infty)^8$ set
+\begin{equation}\label{eq:F9}
+ F_9(g)=\tfrac12\{F_8(g_0,\ldots,g_6)+F_8(g_1,\ldots,g_7)\}
+             +2w(S),\qquad S=\sum_{r=0}^7g_r.
+\end{equation}
+The preceding finite certificate imposed only $w(S)\ge0$ on its new
+span-eight variable. The original 2,196-point catalog already includes
+usable points near the weak configurations' total spans. Convexity
+guards, rather than new evaluations, allow us to consume this term.
+
+\begin{lemma}[Interval-valid reanchoring]\label{lem:cut}
+Suppose $v\le w(p)$, $d_-\le w'(p)\le d_+$, and $w$ is convex
+on an interval containing $l^*:=\min(l,p)$ and $u^*:=\max(u,p)$,
+where $l\le u$. Then each of
+\[
+ v+d_+(l^*-p)+d_-(x-l^*),\qquad
+ v+d_-(u^*-p)+d_+(x-u^*)
+\]
+is at most $w(x)$ for every real $x\in[l,u]$.
+\end{lemma}
+\begin{proof}
+Convexity gives $w(x)\ge v+d(x-p)$ with $d=w'(p)$. The tangent minus
+the first line is $(d-d_-)(x-l^*)+(d_+-d)(p-l^*)\ge0$.
+For the second it is $(d_+-d)(u^*-x)+(d-d_-)(u^*-p)\ge0$.
+The proof also covers points outside the smaller query interval.
+\end{proof}
+
+Put $SC=32768$ and $E=10^9$. A catalog entry with integer point $P$
+and pack $V+2^{32}D_++2^{64}D_-$ supplies
+\[
+ p=P/SC,\quad v=V/10^{10},\quad
+ d_-=(D_+-2E)/E,\quad d_+=(2E-D_-)/E.
+\]
+Every new direct-region line is checked against that entry's original
+\texttt{PTL} list index and its original convex region. With
+$k=(P+16384)\mathbin{\gg}15$ and region endpoints $A_k,B_k$, the
+direct guard is
+\[
+\begin{gathered}
+ k<16,\qquad A_k/SC\le\min(l,p)\le p\le\max(u,p)\le B_k/SC,\\
+ D_+,D_-\ge1,\qquad D_++D_-\le4E.
+\end{gathered}
+\]
+An alternative old-enabled line must match the point and pack of an
+actually enabled old atom and lie inside its already valid interval.
+Its inherited \texttt{TVal} assertion supplies the exact tangent lower
+bound throughout that interval. The same derivative-interval comparison
+in Lemma~\ref{lem:cut} proves both reanchored lines without asserting
+convexity beyond an original region.
+A value/derivative pack without either full interval guard is rejected.
+Closure endpoints are kept as exact rationals; they are not truncated
+to grid points. All lines at one physical distance constrain the same
+square variable.
+
+\section{Complete closed branches and rational duals}\label{sec:certificate}
+
+The unchanged 482 reflected labels have $482^2$ ordered combinations.
+Shared gap bounds leave 4,796; shared spans leave 2,405; full exact
+difference-constraint closure leaves exactly 2,399. Negative cycles
+certify empty intersections. Prefix coordinates are real: using integer
+coefficients in units $5SC$ does not restrict configurations to a lattice.
+The inherited capture's direction exclusions, all 41 outer/root checks
+and reflected half-spaces are retained.
+
+Replace exactly the 47 domains whose inherited lower bound is below
+$805403/10^8$. In each, partition its total-span interval at the interior
+original region endpoints. Consecutive branches are closed and share
+their common endpoint. Their union equals the entire original interval.
+Recompute full difference closure after adding each branch's two span
+constraints, and use the resulting projections both for the gap box and
+for tangent guards. There are 84 branches in total.
+
+For example, labels $424/215$ have
+$S\in[12.905426025390625,13.262969970703125]$. Splitting at
+the original region endpoint $434048/SC=13.24609375$ yields exact
+branch lower bounds approximately $0.008064135118335435$ and
+$0.009937463795419915$. The small upper branch is already paid by
+the old terms and pressure, without extending convexity beyond its
+certified interval. Labels $131/389$ increase from approximately
+$0.0080526095277502$ to $0.00811870169978014$. These decimals
+illustrate localization only; the proof consumes the stored fractions.
+
+Each branch has eight gap variables and 34 shared square variables,
+including $z_{0,8}=w(S)$. Write its constraints $Ax\le b$ and its
+complete finite box $L\le x\le U$, with square bounds $[0,1]$.
+The integer objective $q^tx$ is exactly $2\cdot10^8F_9$.
+
+\begin{lemma}[Full residual payment]\label{lem:dual}
+For any rational $\lambda\ge0$, put $r=q+A^t\lambda$. Every
+feasible real $x$ satisfies
+\[
+ F_9\ge\frac{-\lambda^tb+
+    \sum_i r_i\bigl(L_i\text{ if }r_i\ge0;\ U_i\text{ otherwise}\bigr)}
+    {2\cdot10^8}.
+\]
+\end{lemma}
+\begin{proof}
+The identity $q^tx=r^tx-\lambda^tAx$ gives
+$q^tx\ge r^tx-\lambda^tb$. Minimize each residual coefficient
+over its full box. No exact stationarity is required.
+\end{proof}
+
+Numerical optimization proposes the multipliers. The final checker
+uses only integers and rational fractions; it rebuilds the complete
+compatibility list, each branch closure, every consumed row and the
+full residual. The positive tangent support has 2,955 row uses.
+The new direct-region catalog contains 541 original points;
+old-enabled rows reuse the admitted atom data. The other 2,352 domains retain their
+old exact multipliers, and are actually rechecked as well. The minimum
+over all 2,399 finite domains is
+\begin{equation}\label{eq:min}
+ M=\frac{263917374155379049835090394947}
+          {32768000000000000000000000000000}
+       >\frac{805403}{10^8}.
+\end{equation}
+
+\begin{proposition}\label{prop:uniform}
+Under Input~\ref{in:fixed}, $F_9\ge c:=805403/10^8$ on the
+entire unbounded separated domain $[4/5,\infty)^8$.
+\end{proposition}
+\begin{proof}
+If one frame has $F_8\ge c_L$, the other has $F_8\ge c_0$, and
+\eqref{eq:F9} gives $F_9\ge(c_L+c_0)/2=c$.
+Otherwise each frame is in the full reflected low cover. Their actual
+shared gaps select a retained compatible domain; its actual total span
+lies in a closed branch if the domain was replaced. All physical
+squares satisfy its valid cuts and box. Lemma~\ref{lem:dual} and
+\eqref{eq:min} give the result. Every boundary is included.
+\end{proof}
+
+The finite minimum exceeds $c$, but the unchanged outside-frame
+argument supplies only $c$. A further pointwise improvement needs a
+stronger outside argument or a wider complete capture; it cannot be
+inferred from the finite minimum alone.
+
+\section{Lossless transport and counting semantics}
+
+The pair weights in \eqref{eq:F9} are half the two old frame weights
+plus two on span eight. Every index-span capacity is at most two.
+The gap fees are
+\[
+ 10^8b'_r=(14449,43085,66399,78242,78242,66399,43085,14449),
+ \qquad \sum b'_r=B.
+\]
+Summing Proposition~\ref{prop:uniform} over the $m-8$ nine-point
+windows of an ordered separated set gives
+\[
+ \sum_{i\ne j}w(y_i-y_j)\ge c(m-8)-B\operatorname{span}(y).
+\]
+Pairs are charged at most twice and gaps at most $B$; for $m\le8$
+the right side is nonpositive.
+
+Here we state the remaining inherited analytic steps explicitly to
+fix their consumption. The same majorant
+\[
+ G(u)=\frac{61}{100}
+ \{\sinc(\tfrac45(u-1/2))+\sinc(\tfrac45(u+1/2))\}^2
+\]
+satisfies $G\ge f$, has Fourier support $[-4/5,4/5]$ with zero
+boundary values, and has mass at most $61/32<2$ \cite{Lossless,Joint}.
+Use $f_\epsilon=f\chi_\epsilon^2/m_\epsilon$ with
+$m_\epsilon\to1$ and $d_\epsilon=\|f_\epsilon-f\|_1\to0$.
+For fixed small $\epsilon$, the separated Gram norm is below two.
+Each square changes by at most $2d_\epsilon$ and total local pair
+weight is less than sixteen, so the error is at most
+$32d_\epsilon m$.
+
+Choose a maximal disjoint collection of pairs at distance less than
+$4/5$ among the $n$ simple critical-line points. The remainder is
+separated. The fixed close-pair estimate
+$K(t)>134/825$ gives $w(t)>1/40>c$, paying both points of each
+pair. Its smoothing fee is at most $4d_\epsilon$.
+Convex spectral-trace pinching with
+$\varphi_2(t)=t^2-(t-2)_+^2$ therefore yields for their full Gram
+matrix $U$
+\begin{equation}\label{eq:J}
+ J(U):=\tr\varphi_2(U)-n
+ \ge cn-B\operatorname{span}(y)-8c-32d_\epsilon n.
+\end{equation}
+Empty and short separated remainders are included.
+
+The actual all-zero Hermitian operator $A$ retains all off-line
+conjugate-reflection pairs and multiplicities. Its remainder after
+the $n$ simple critical-line columns has positive inertia $p$ with
+$N-n\ge2p$. The threshold trace argument \cite{Joint,Knaus} gives
+\[
+ \tr A^2\ge 2(N-n)+\tr\varphi_2(U)=2N-n+J(U).
+\]
+The unconditional smoothed correlation formula is
+$\tr A^2=(C(f_\epsilon)+o(1))N$ \cite{BGST,Lamzouri}, and the
+full normalized height span is at most $N+o(N)$. Taking first
+$T\to\infty$ for fixed $\epsilon$, then $\epsilon\to0$, in
+\eqref{eq:J} gives
+\[
+ \liminf\frac{n}{N}\ge\frac{2-C(f)-B}{1-c}.
+\]
+The certified energy of this exact window is
+\[
+ C(f)=\frac12+\beta\cot\beta+
+ \frac{\sum_jc_j^2(1/2-1/(4\pi^2j^2))}{2\sin^2\beta},
+ \qquad 2-C(f)>67216841/10^8.
+\]
+Hence the displayed bound is at least
+\[
+ \frac{67216841-404350}{10^8-805403}
+ =\frac{66812491}{99194597}=\frac{941021}{1397107},
+\]
+proving Theorem~\ref{thm:main}. The inherited dyadic-to-cumulative
+argument preserves these count definitions. This proof does not
+replace off-line zeros by real Gram points or discard their inertia.
+
+\section{Reproduction and verification status}\label{sec:trust}
+
+The public data are the following two files, together with the
+unchanged expanded certificate:
+\begin{verbatim}
+output/am-ninth-span-certificate.json
+output/am-ninth-span-point-catalog.json
+\end{verbatim}
+From a clean checkout run
+\begin{verbatim}
+python scripts/am_ninth_span_certificate.py --check
+\end{verbatim}
+The checker uses the Python standard library, checks dependency
+identities, reconstructs all 2,399 domains and 84 closed branches,
+and includes all residuals. The small catalog contains mathematical
+point/region data, not new formalization code. It identifies the
+original public source by fixed commit and SHA-256. With that exact
+source available, an optional \texttt{--source} argument additionally
+reextracts every consumed entry and compares its original list index,
+pack and region. The offline run checks a finite rational implication
+under the explicitly inherited continuous point/region admission;
+a data hash alone does not prove an analytic kernel assertion.
+
+The source's exact identity, completed checks and an independent
+mathematical review are archived with this paper. No floating solver
+status is accepted as a certificate, and optimized Python must refuse
+execution because assertions are essential to the check.
+
+The
+\href{https://github.com/lixiang90/RH-Zero-Proportion-Formalization}
+{formalization repository} contains the proof of the previous bound,
+\[
+ 66812491/99194740.
+\]
+Its verification is not automatically
+inherited by the new branches and reward. A full Lean port of this
+improvement, website resource compliance and official acceptance
+remain uncompleted. This manuscript records the strengthened
+mathematical certificate and its exact scope as of October 10, 2026.
+
+\begin{thebibliography}{9}
+\bibitem{PC8}
+\emph{AM eight-point PC8CL certificate}, fixed public submission
+\texttt{dani-bound-2026}, commit
+\texttt{d272437e7ebeb17b87c8c3d7cece592aa23785ab},
+\href{https://github.com/josusanmartin/riemann/tree/d272437e7ebeb17b87c8c3d7cece592aa23785ab/submissions/dani-bound-2026/proof}{original proof source}.
+\bibitem{Expanded}
+Li Xiang, \emph{Additional Admitted Tangents for Joint Nine-Point
+Certificates and Simple Critical Zeros of the Riemann Zeta Function},
+October 9, 2026,
+\href{https://github.com/lixiang90/RH-Weil/blob/d99bfa29ff9ac1487a42f1b8f3d3925b660396a3/papers/expanded-nine-point-tangent-simple-critical-paper.tex}{fixed manuscript}.
+\bibitem{Joint}
+RH--Weil research project, \emph{Joint Minorants for Nine Points and Simple Critical
+Zeros of the Riemann Zeta Function}, October 8, 2026,
+\href{https://github.com/lixiang90/RH-Weil/blob/609fe754aa6e9b22142f9539ddc28107145442f3/papers/nine-point-joint-minorant-simple-critical-paper.tex}{fixed manuscript}.
+\bibitem{Lossless}
+RH--Weil research project, \emph{Lossless Assembly of an Eight-Point Certificate for
+Simple Critical Zeros of the Riemann Zeta Function}, October 8, 2026,
+\href{https://github.com/lixiang90/RH-Weil/blob/0f7e6c21769b7a848fc9ce4cbf498eb91184874d/papers/lossless-eight-point-simple-critical-paper.tex}{fixed manuscript}.
+\bibitem{Knaus}
+K. M. Knausg{\aa}rd, \emph{More than 83.9\% of the zeros of the
+Riemann zeta function are distinct and more than 67.35\% are simple
+and on the critical line},
+\href{https://arxiv.org/abs/2610.08965v1}{arXiv:2610.08965v1}, Section~5.
+\bibitem{BGST}
+S. A. C. Baluyot, D. A. Goldston, A. I. Suriajaya and
+C. L. Turnage-Butterbaugh, \emph{An unconditional Montgomery theorem
+for pair correlation of zeros of the Riemann zeta function},
+Acta Arith. 214 (2024), 357--376,
+\href{https://arxiv.org/abs/2306.04799}{arXiv:2306.04799}; see the
+correction in \href{https://arxiv.org/abs/2501.14545v3}{arXiv:2501.14545v3}, Section~3.
+\bibitem{Lamzouri}
+Y. Lamzouri, \emph{A new proof that more than $2/3$ of the zeros of
+the Riemann zeta function are simple and on the critical line},
+\href{https://arxiv.org/abs/2609.02882v1}{arXiv:2609.02882v1}, Section~3.
+\bibitem{Repo}
+Li Xiang, \href{https://github.com/lixiang90/RH-Weil}{RH--Weil},
+note 503, exact certificates and independent reviews dated
+October 10, 2026.
+\end{thebibliography}
+\end{document}

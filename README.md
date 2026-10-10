@@ -26,16 +26,17 @@
 | κ 反馈的三次边界 | [TeX](papers/kappa-feedback-cubic-boundary-paper.tex) · [PDF](output/pdf/kappa-feedback-cubic-boundary-paper.pdf) | **引用输入下的推导**。重证 plain moment 范围并支付实际参数反馈，严格边界 σ*≈0.874957019420099。 |
 | 简单临界线零点的无损八点装配 | [TeX](papers/lossless-eight-point-simple-critical-paper.tex) · [PDF](output/pdf/lossless-eight-point-simple-critical-paper.pdf) | 简单临界线比例下界 `66812491/99194997 ≈ 67.3546983423%`。无条件相关输入、已准入连续八点证书与新 majorant 的组合；计算信任范围在正文明确。 |
 | 九点共享核值与简单临界线零点 | [TeX](papers/nine-point-joint-minorant-simple-critical-paper.tex) · [PDF](output/pdf/nine-point-joint-minorant-simple-critical-paper.pdf) | 比例下界提高至 `66812491/99194897 ≈ 67.3547662437%`。完整低集覆盖与289份精确有理对偶；保留原PC8连续与计算准入范围，非全链Lean内核证明。 |
-| 原点表切线与扩大九点证书 | [TeX](papers/expanded-nine-point-tangent-simple-critical-paper.tex) · [PDF](output/pdf/expanded-nine-point-tangent-simple-critical-paper.pdf) | 当前简单临界线比例下界 `66812491/99194740 ≈ 67.3548728491%`。241胞完整覆盖、2399份精确对偶；独立仓库已核验完整模块化 Lean 证明，信任范围在正文明确。 |
+| 原点表切线与扩大九点证书 | [TeX](papers/expanded-nine-point-tangent-simple-critical-paper.tex) · [PDF](output/pdf/expanded-nine-point-tangent-simple-critical-paper.pdf) | 简单临界线比例下界 `66812491/99194740 ≈ 67.3548728491%`。241胞完整覆盖、2399份精确对偶；独立仓库已核验完整模块化 Lean 证明，信任范围在正文明确。 |
+| 九点总跨度平方的完整付款 | [TeX](papers/ninth-span-simple-critical-paper.tex) · [PDF](output/pdf/ninth-span-simple-critical-paper.pdf) | 当前简单临界线比例下界 `941021/1397107 ≈ 67.3549699486%`。原点表与凸段、47域／84闭分支及全部2399域精确有理核验；继承原连续与解析输入，新改进尚未移植Lean。 |
 
 三篇无零边界稿引用固定二次域全 Hecke `7/8` 结果及明确列出的通用引理，研究补偿几何、真实 moment 的可用范围和参数反馈。最新稿给出指定三次根的严格边界 `σ* ≈ 0.874957019420099`。正文重证相应几何、全部物理范围与全族延拓；结论覆盖指定有限阶 Hecke 族、Dirichlet 族及 zeta，允许主极点并排除边界线。这些论文的交付版本没有独立重证外部整篇论文或改善简单临界线比例。现已在独立仓库核验其核心代数、反馈费用及通用延拓归约；完整算术输入的 Lean 实现仍开放。引用前件、连续证明、有限代数检查及独立审查分列，入口见 [论文目录](papers/README.md)。
 
-比例论文保留全部线外零点和重数，把近对与分离集的能量无损转入实际计数。有限证书、完整解析证明和独立审查分别记录；没有宣称整条结论已获得 Lean 内核认证或外部同行评审。
+比例论文保留全部线外零点和重数，把近对与分离集的能量无损转入实际计数。有限证书、完整解析证明和独立审查分别记录；最新九点总跨度改进已通过完整有理检查，完整 Lean 证明目前仍对应前一比例，未宣称外部同行评审。
 
 零点比例的新Lean形式化、内核证书与网站提交记录集中维护在独立仓库
 [RH-Zero-Proportion-Formalization](https://github.com/lixiang90/RH-Zero-Proportion-Formalization)。
 本仓库继续保存对应论文与研究历史；新仓库按riemannzeta.fun的固定Lean／Mathlib合同构建，
-独立仓库已通过完整模块化证明、单文件 Lean 编译及独立内核重放，署名为 Li Xiang（lixiang90）。网站的完整资源约束与正式验收仍待完成，尚未获得网站记录；提交工程期间继续暂停新的数学研究。
+独立仓库的前一比例已通过完整模块化证明、单文件 Lean 编译及独立内核重放，署名为 Li Xiang（lixiang90）。网站的完整资源约束与正式验收仍待完成，尚未获得网站记录。用户于2026-10-10明确恢复数学研究；最新改进与无零接口障碍见[研究笔记503](notes/503-ninth-span-reward-and-feedback-interface-barrier.md)。
 
 非零区域的新增形式化另行维护于
 [RH-Zero-Free-Formalization](https://github.com/lixiang90/RH-Zero-Free-Formalization)，

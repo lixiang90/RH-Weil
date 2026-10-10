@@ -1,0 +1,91 @@
+{
+  "status": "PASS",
+  "replacement_keys_exactly_all_below_threshold": true,
+  "domains": 2399,
+  "replacement_domains": 47,
+  "closed_branches": 84,
+  "empty_branches": 0,
+  "tangent_rows_with_positive_dual": 2955,
+  "unused_added_tangent_rows": 0,
+  "full_span_tangent_rows_with_positive_dual": 68,
+  "full_span_distinct_points": 15,
+  "guards": {
+    "old-enabled": 402,
+    "direct-region": 2553
+  },
+  "uniform_reward": "805403/100000000",
+  "ratio": "941021/1397107",
+  "increase": "134566003/138585665617180",
+  "inputs": [
+    {
+      "path": "tmp\\research-resume-20261010\\proportion\\branch-fullspan-805403-47.json",
+      "bytes": 1015903,
+      "raw_sha256": "9442b3c399e05a4267a5dde3b236959ef941498d12b588947e515192b97fe279"
+    },
+    {
+      "path": "output\\am-expanded-nine-point-certificate.json",
+      "bytes": 6632325,
+      "raw_sha256": "45fa9a71c1aa87296ac3cdb5b260c32d1ffe22d2b36b979d58b9cbf16c754c33"
+    },
+    {
+      "path": "tmp\\research-resume-20261010\\proportion\\check_branch_fullspan_certificate.py",
+      "bytes": 7273,
+      "raw_sha256": "0d55687f9e4db2f47abee2641f0df2082304b9e9dafcce004b2cabf17f2d5cbd"
+    },
+    {
+      "path": "tmp\\research-resume-20261010\\proportion\\check_reanchor_certificate.py",
+      "bytes": 6875,
+      "raw_sha256": "f45c5b8736be05ab6a3c7141c30b9649c1a140ca1f2d0b48cfc9b8010927d339"
+    },
+    {
+      "path": "scripts\\am_nine_point_epigraph_certificate.py",
+      "bytes": 11009,
+      "raw_sha256": "af5f2e1974bed92ad515f06ff6047f3e5595ac60c6dc721abd7bfb5cfd930c32"
+    },
+    {
+      "path": "scripts\\am_nine_point_low_slack_cover.py",
+      "bytes": 10565,
+      "raw_sha256": "0c203ae8d05796f73e5ca5018935067342a65f6a9eac3a800b5d36893cfde629"
+    },
+    {
+      "path": "scripts\\am_pc8_finite_replay.py",
+      "bytes": 13273,
+      "raw_sha256": "2db626d7c3fbcc1f6ced7580d0fe847fff743b1039aa58797392e9e05845600f"
+    },
+    {
+      "path": "output\\am-pc8-finite-replay.json",
+      "bytes": 17001,
+      "raw_sha256": "48c29521994321837b60ea39661b93f87c28560b5f19932c583ad8b29f5dd549"
+    },
+    {
+      "path": "output\\am-nine-point-low-slack-cover.json",
+      "bytes": 138022,
+      "raw_sha256": "54085fcf0e0e7bb8ad601085a9cd77987702bd080704a5b546ed58b72ddb62ac"
+    },
+    {
+      "path": "output\\am-nine-point-epigraph-certificate.json",
+      "bytes": 1181378,
+      "raw_sha256": "3d03537888e240cfbd9d4d1fe5afc015c36a88168d735fd60755646afb8e1019"
+    },
+    {
+      "path": "formal\\certificates\\AMPC8StructuralBridge.lean",
+      "bytes": 5906,
+      "raw_sha256": "98771eceea94a14f3a1be38c1e9c7ab48fffbb0d1c77bbfde636d21358b9ba9f"
+    },
+    {
+      "path": "formal\\certificates\\AMPC8MinorantBridge.lean",
+      "bytes": 5512,
+      "raw_sha256": "f3947ca27750760322481a87ed5da4a5a8702a92bdf4570a6a4727f957fee114"
+    },
+    {
+      "path": "reviews\\2026-10-08\\am-nine-point-adaptive-round-manifest.json",
+      "bytes": 8629,
+      "raw_sha256": "4a678607912f8076bd37fed941e1041af7ceea701cbdffd4a069023065f57244"
+    },
+    {
+      "path": "scripts\\am_expanded_nine_point_certificate.py",
+      "bytes": 8854,
+      "raw_sha256": "05b7500d77bdb41cb5419137a1eee354250d7569572cd5c37d44a19a66b4eb4f"
+    }
+  ]
+}

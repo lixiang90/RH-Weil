@@ -54,6 +54,14 @@ CHECKS = (
         "expanded AM nine-point admitted-tangent exact duals",
         [sys.executable, "am_expanded_nine_point_certificate.py", "--check"],
     ),
+    (
+        "AM ninth-span closed branches and complete rational certificate",
+        [sys.executable, "am_ninth_span_certificate.py", "--check"],
+    ),
+    (
+        "kappa-feedback three-constraint interface barrier algebra",
+        [sys.executable, "kappa_feedback_interface_barrier.py", "--check"],
+    ),
     ("quartic boundary and normalization certificate", [sys.executable, "quartic_boundary_certificate.py"]),
     ("elliptic degree and odd-polarization benchmark", [sys.executable, "elliptic_degree_benchmark.py"]),
     (

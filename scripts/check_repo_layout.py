@@ -19,6 +19,7 @@ PAPERS = (
     "lossless-eight-point-simple-critical-paper",
     "nine-point-joint-minorant-simple-critical-paper",
     "expanded-nine-point-tangent-simple-critical-paper",
+    "ninth-span-simple-critical-paper",
 )
 
 

@@ -24,3 +24,13 @@ scripts/verify_frozen_control_*.py -text whitespace=cr-at-eol
 # Exact upstream bytes for the replayed MT certificate and spectral source.
 reviews/2026-10-08/artifacts/hybrid-multipoint-ainta-040c5e8/** -text whitespace=cr-at-eol,-blank-at-eof
 reviews/2026-10-08/artifacts/hybrid-multipoint-schwarz-e2453c1/** -text whitespace=cr-at-eol,-blank-at-eof
+# New rational certificates and their audit identities are byte-preserved.
+output/am-ninth-span-*.json -text
+output/kappa-feedback-interface-audit.json -text
+scripts/am_ninth_span_certificate.py -text
+scripts/kappa_feedback_interface_barrier.py -text
+reviews/2026-10-10/*.json -text whitespace=cr-at-eol
+reviews/2026-10-10/*.md -text whitespace=cr-at-eol
+reviews/2026-10-10/*.log -text whitespace=cr-at-eol
+papers/ninth-span-simple-critical-paper.tex -text
+notes/503-ninth-span-reward-and-feedback-interface-barrier.md -text
