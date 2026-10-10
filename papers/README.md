@@ -61,8 +61,9 @@ plain moment 至 37/50≤κ≤1，再用实际 κ=2β*−1 支付反馈费用。
 九点总跨度新稿记录503：使用原PTL/REG支付此前只取非负的新跨度核平方，
 47弱域分为84闭分支，并实际重算全部2399域，统一奖励为805403/10^8。
 简单临界线比例提高至941021/1397107≈67.3549699486%。
-新论文署名Li Xiang（lixiang90），继承原连续与解析输入；新分支尚未完整Lean形式化，
-未获得网站验收。完整有限检查、不同作者审查和六页PDF的渲染验证见
+新论文署名Li Xiang（lixiang90），继承原连续与解析输入；原论文源稿与PDF保留原数学快照。
+后续完整无条件Lean证明与独立内核重放已通过，见独立仓库的[验证补充说明](https://github.com/lixiang90/RH-Zero-Proportion-Formalization/blob/main/papers/ninth-span-lean-verification-addendum.md)。
+网站验收仍待完成。完整有限检查、不同作者审查和六页PDF的渲染验证见
 [构建清单](../reviews/2026-10-10/ninth-span-paper-build-manifest.json)。
 
 ## 从仓库根目录编译

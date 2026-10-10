@@ -39,7 +39,8 @@ storage、窗口与方法上限的详细研究见
 以原点表和凸段付款九点总跨度平方，47弱域分成84闭分支，全部2399域精确重算。
 当前简单临界线比例为941021/1397107≈67.3549699486%，保持全线外零点与重数。
 [新论文](papers/ninth-span-simple-critical-paper.tex)已记录完整数学证书与解析运输；
-新改进尚未移植Lean，现有形式化仍对应旧比例，网站验收仍待完成。
+新比例的完整无条件 Lean 证明及独立 NaNoDa 重放已通过，六个最终声明仅依赖三个标准公理，独立内核核验82,804个声明。
+证明与验证记录见[独立形式化仓库](https://github.com/lixiang90/RH-Zero-Proportion-Formalization/blob/main/docs/ninth-span-formalization.md)；旧形式化和单文件提交继续保留，网站验收仍待完成。
 
 比例下一步优先扩大完整强捕获，或细分high标签并支付真实high transition。
 当前放宽H↔low图的二周期已把势函数奖励限制到805403/10^8；
