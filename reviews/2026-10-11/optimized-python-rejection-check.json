@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "script": "am_low_frame_strengthening_certificate.py",
+      "returncode": 1,
+      "output": "Traceback (most recent call last):\n  File \"E:\\codex-build\\RH-Weil\\scripts\\am_low_frame_strengthening_certificate.py\", line 12, in <module>\n    import am_expanded_nine_point_certificate as inherited\n  File \"E:\\codex-build\\RH-Weil\\scripts\\am_expanded_nine_point_certificate.py\", line 16, in <module>\n    import am_nine_point_epigraph_certificate as epi\n  File \"E:\\codex-build\\RH-Weil\\scripts\\am_nine_point_epigraph_certificate.py\", line 16, in <module>\n    import am_nine_point_low_slack_cover as old\n  File \"E:\\codex-build\\RH-Weil\\scripts\\am_nine_point_low_slack_cover.py\", line 17, in <module>\n    import am_pc8_finite_replay as old\n  File \"E:\\codex-build\\RH-Weil\\scripts\\am_pc8_finite_replay.py\", line 21, in <module>\n    raise RuntimeError(\"PC8 replay requires assertions enabled; do not use Python -O\")\nRuntimeError: PC8 replay requires assertions enabled; do not use Python -O"
+    },
+    {
+      "script": "am_range_eight_periodic_ceiling_certificate.py",
+      "returncode": 1,
+      "output": "Run without -O: all certificate assertions are required"
+    },
+    {
+      "script": "hybrid_mixed_sixth_restoration_budget.py",
+      "returncode": 1,
+      "output": "Traceback (most recent call last):\n  File \"E:\\codex-build\\RH-Weil\\scripts\\hybrid_mixed_sixth_restoration_budget.py\", line 6, in <module>\n    raise RuntimeError('optimized Python would disable checks')\nRuntimeError: optimized Python would disable checks"
+    }
+  ]
+}

@@ -1,0 +1,283 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[margin=26mm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern,microtype}
+\usepackage{amsmath,amssymb,amsthm,mathtools,booktabs}
+\usepackage[hidelinks]{hyperref}
+\hypersetup{pdftitle={Strengthening the Low Frames of a Nine-Point Simple-Zero Certificate},pdfauthor={Li Xiang}}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newcommand{\R}{\mathbb R}
+\title{Strengthening the Low Frames of a Nine-Point Certificate\\
+for Simple Critical Zeros of the Riemann Zeta Function}
+\author{Li Xiang\\\small\texttt{lixiang90}}
+\date{October 11, 2026}
+\begin{document}
+\maketitle
+\begin{abstract}
+The outer case of a nine-point certificate can be improved without
+enlarging its strong low-frame capture. We strengthen ten of the 241
+captured eight-point frames, using 35 additional occurrences of
+32 points in the original certified kernel table. The other 231 frames
+retain their original exact duals. This proves a larger global
+eight-point floor, which raises the high--low average, while the
+previous complete low--low certificate already pays the new target.
+The resulting uniform nine-point reward is $8054119/10^9$. The unchanged
+lossless all-zero transport gives
+\[
+ \liminf_{T\to\infty}\frac{N_0^s(T)}{N(T)}
+ \ge \frac{668124910}{991945881}=0.673549759918807505\ldots.
+\]
+The numerator counts simple critical-line zeros; the denominator
+counts all nontrivial zeros with multiplicity. The new finite
+implication is checked with exact rational arithmetic under the
+retained continuous point, convexity and capture certificate.
+The preceding bound has a complete ordinary Lean proof and independent
+kernel replay. The additional low-frame strengthening has not yet
+been ported to Lean or accepted by the record website.
+\end{abstract}
+
+\section{Fixed framework and statement}
+
+Let $N(T)$ count all nontrivial zeros of $\zeta$ with imaginary part
+in $(0,T]$, including multiplicity, and let $N_0^s(T)$ count the simple
+zeros on $\Re s=1/2$ in that interval.
+
+\begin{theorem}\label{thm:main}
+Within the retained continuous AM certificate and proved lossless
+all-zero analytic transport,
+\[
+ \liminf_{T\to\infty}\frac{N_0^s(T)}{N(T)}
+ \ge \frac{668124910}{991945881}.
+\]
+The new input is the exact finite low-frame implication in
+Section~\ref{sec:finite}. No additional correlation conjecture,
+zero-free region or arithmetic moment assumption is used.
+\end{theorem}
+
+The preceding bound was $941021/1397107=66812491/99194597$
+\cite{Ninth}. The present gain is exactly
+\[
+ \frac{668124910}{991945881}-\frac{941021}{1397107}
+ =\frac{83750869}{1385854533966267},
+\]
+or approximately $0.00000604326550495$ percentage points. This is a
+comparison with the project's fixed preceding result. No exhaustive
+global priority or official record acceptance is asserted.
+
+Put $\beta=1/\sqrt2$, $Z=\sqrt2\sin\beta$ and $I=[-1/2,1/2]$.
+With zero extension outside $I$, the unchanged positive normalized
+density and its real even kernel are
+\[
+ f(u)=\frac{\cos(\sqrt2u)+\sum_{j=1}^{12}c_j\cos(2\pi ju)}{Z},
+ \qquad K(t)=\int_I f(u)e^{-2\pi itu}\,du,\qquad w(t)=K(t)^2,
+\]
+where the integer numerators $10^9c_j$ are
+\[
+\begin{split}
+(&12310798,-15041681,3867664,6489926,-992327,5580097,\\
+ &-6846472,3781297,-5670353,3355089,-450523,-218483).
+\end{split}
+\]
+In particular $0\le w(t)\le1$ on $\R$.
+For seven real gaps $h_r\ge\theta=4/5$, define
+\[
+ F_8(h)=\sum_{r=0}^6b_rh_r+
+ \sum_{0\le i<j\le7}a_{ij}w(h_i+\cdots+h_{j-1}),
+\]
+where $10^8b_r=(28898,57272,75526,80958,75526,57272,28898)$.
+The successive rows of $10^8a_{ij}$ are
+\[
+\begin{array}{l}
+(13630830,0,19565904,20317441,45030671,100000000,200000000),\\
+(29997996,30621878,47766489,79682558,109938656,100000000),\\
+(37356140,69378121,65335210,79682558,45030671),\\
+(38030065,69378121,47766489,20317441),\\
+(37356140,30621878,19565904),\quad(29997996,0),\quad(13630830).
+\end{array}
+\]
+There are 26 nonzero pair coefficients. Both the gap coefficients
+and the pair coefficients are invariant under reflection.
+For eight gaps $g_r\ge\theta$, put
+\[
+ F_9(g)=\tfrac12\{F_8(g_0,\ldots,g_6)+F_8(g_1,\ldots,g_7)\}
+          +2w\!\left(\sum_{r=0}^7g_r\right).
+\]
+
+\section{The retained cover and the new outer case}
+
+We retain the following proved continuous inputs \cite{PC8,Ninth,Formal}.
+First, any frame with $F_8<\tau$, where $\tau=805803/10^8$,
+belongs to one of 241 closed captured cells or its reflection.
+Second, for all compatible pairs of captured cells, the full real
+nine-point functional has the uniform lower bound
+\[
+ M=\frac{263917374155379049835090394947}
+         {32768000000000000000000000000000}.
+\]
+The latter certificate has 2,399 physical pair domains and 84 closed
+branches replacing the 47 weakest domains. It includes all finite-box
+dual residuals. Its precise continuous implication is retained;
+the stored minimum is rechecked from the existing rational witnesses.
+
+\begin{lemma}\label{lem:floor}
+On every captured cell and every reflected captured cell,
+\[
+ F_8\ge \ell:=805021/10^8.
+\]
+Consequently this inequality holds for every real seven-gap frame
+with gaps at least $4/5$.
+\end{lemma}
+\begin{proof}
+The finite assertion is proved in Section~\ref{sec:finite}.
+Reflection preserves the complete functional, as well as the reflected
+cell constraints. A frame outside the captured union has $F_8\ge\tau$
+by the contrapositive of complete capture, and $\tau>\ell$.
+The cover is continuous: integer endpoints encode rational inequalities;
+the real gaps are not restricted to a lattice.
+\end{proof}
+
+\begin{proposition}\label{prop:local}
+For every real eight-gap frame with $g_r\ge4/5$,
+\[
+ F_9(g)\ge c:=8054119/10^9.
+\]
+\end{proposition}
+\begin{proof}
+If both eight-point subframes belong to the captured union, their
+compatible pair is covered by the retained low--low certificate, and
+$F_9\ge M>c$. Otherwise one subframe has $F_8\ge\tau$.
+Lemma~\ref{lem:floor} bounds the other by $\ell$; the extra total-span
+square is nonnegative. Hence
+\[
+ F_9\ge(\tau+\ell)/2=805412/10^8>c.
+\]
+This argument includes frames with equality at the capture threshold
+and the shared endpoints of closed cells. It strengthens the actual
+global eight-point floor, rather than extrapolating a finite low--low
+margin past an unchanged outer-case bound.
+\end{proof}
+
+\section{Exact low-frame certificate}\label{sec:finite}
+
+For each original captured cell we reconstruct the original YA lower
+bound without rounding. Only the following ten zero-based labels have
+this original lower bound below $\ell$:
+\[
+ 17,53,64,74,111,131,148,166,183,213.
+\]
+The other 231 original cells already pay $\ell$ and retain their
+original witnesses. The ten replacement problems have 33 variables:
+seven real gaps and the 26 physical squares attached to nonzero pair
+coefficients. Original span inequalities, gap boxes and all original
+valid affine minorants are retained. Each physical square has its
+complete interval $[0,1]$.
+
+The additional affine rows use 35 occurrences of 32 original
+PTL points, with scale $SC=32768$. The complete catalog records the
+original point numerators, packs and PTL list indices. Four numerators,
+$98272,230769,231200,265088$, are absent from the preceding formal
+development's 1,089-point catalog; all 32 are entries of the original
+2,196-point table. No new analytic kernel data are generated.
+The source identity, point packs and convexity-region packs are
+checked against the fixed original source \cite{PC8}.
+
+For completeness, if a proved entry gives $v\le w(p)$ and
+$d_-\le w'(p)\le d_+$, and the certified convexity interval contains
+$[l_*,u_*]$ where $l_*:=\min(l,p)$ and $u_*:=\max(u,p)$, then for all
+$x\in[l,u]$ the two valid affine bounds are
+\[
+ \begin{split}
+ w(x)&\ge v+d_+(l_*-p)+d_-(x-l_*),\\
+ w(x)&\ge v+d_-(u_*-p)+d_+(x-u_*).
+ \end{split}
+\]
+They follow from the genuine convex tangent and the signs of the two
+endpoint corrections. The checker includes both the query interval
+and the point in the certified convexity interval. A point outside
+the smaller query interval is used only with these valid reanchoring
+corrections.
+
+Write the reconstructed finite constraints as $Ax\le b$,
+$L\le x\le U$, and the numerator of $10^8 F_8$ as $q^Tx$.
+For each exact nonnegative rational multiplier vector $\lambda$, set
+$r=q+A^T\lambda$. Then
+\[
+ F_8\ge\frac{-\lambda^Tb+
+     \sum_i r_i\bigl(L_i\ \text{if }r_i\ge0;
+                          \ U_i\ \text{otherwise}\bigr)}{10^8}.
+\]
+Every nonzero residual is retained, regardless of size. Across all
+ten patches the positive multiplier support has 287 entries. Some
+patches need only a better dual of the original rows; the total number
+of added tangent rows is 35.
+
+The smallest strengthened bound is checked exactly from all ten
+patches and 231 retained original witnesses, and is at least $\ell$.
+Hence $(\tau+\ell)/2>M>c$, where
+\[
+ M-c=
+ \frac{2763379049835090394947}
+      {32768000000000000000000000000000}>0.
+\]
+The same finite target is therefore paid by both parts of the cover.
+A floating linear program proposes multipliers only; the accepted
+implication uses the exact rational rows, signs and complete boxes.
+
+\section{All-zero counting and verification scope}
+
+The unchanged sum of gap pressures is $B=404350/10^8$. Sliding the
+nine-point frame preserves every index-span pair budget at most two,
+the pair-mass bound below sixteen, and the endpoint cost $8c$.
+The original near-pair reward exceeds $1/40>c$, and the original
+band-limited majorant has mass below two. The smoothing loss remains
+$32d\varepsilon$. All off-line reflected pairs and multiplicities
+are retained in the Hermitian Gram argument \cite{Ninth,Lossless}.
+First let $T\to\infty$ at fixed smoothing, then let the smoothing
+parameter decrease to zero. The proved transport and the unchanged
+energy bound give
+\[
+ \liminf\frac{N_0^s(T)}{N(T)}
+ \ge\frac{2-C_{AM}-B}{1-c}
+ >\frac{668124910}{991945881}.
+\]
+This proves Theorem~\ref{thm:main}. Simple-zero inclusion also gives
+the same weaker lower bound for distinct critical-line zeros.
+
+The public checker and frozen data are stored in the mathematical
+repository. Its ordinary check requires only the Python standard
+library and the existing public rational helpers. With the original
+source available, an optional source check matches all 32 entries
+and their original list indices. The prior complete nine-point
+certificate is reused; no new search of its 2,399 domains is needed.
+Optimized Python is rejected because assertions are essential.
+
+The complete ordinary Lean theorem and independent NaNoDa replay of
+the preceding $941021/1397107$ bound are available at fixed commit
+\texttt{c705c4a} \cite{Formal}.
+They retain the previous proofs, submissions and verification records.
+This new low-frame arithmetic implication has not yet been ported
+to that formalization. Exact rational replay, full formal proof,
+website resource compliance and official acceptance are separate
+verification claims. No new zero-free region is asserted here.
+
+\begin{thebibliography}{9}
+\bibitem{PC8}
+\emph{AM eight-point PC8CL certificate}, fixed public submission
+\texttt{dani-bound-2026}, commit
+\texttt{d272437e7ebeb17b87c8c3d7cece592aa23785ab},
+\href{https://github.com/josusanmartin/riemann/tree/d272437e7ebeb17b87c8c3d7cece592aa23785ab/submissions/dani-bound-2026/proof}{original proof source}.
+\bibitem{Ninth}
+Li Xiang, \emph{The Total-Span Term in a Nine-Point Certificate
+for Simple Critical Zeros of the Riemann Zeta Function}, October 10, 2026,
+\href{https://github.com/lixiang90/RH-Weil/blob/2d2eb99b82f944b23437cd88797cdfd178021fb0/papers/ninth-span-simple-critical-paper.tex}{fixed manuscript}.
+\bibitem{Formal}
+Li Xiang, \emph{Closed ninth-span formalization}, October 11, 2026,
+\href{https://github.com/lixiang90/RH-Zero-Proportion-Formalization/tree/c705c4aad2ad33e5358ce17e906b0dc51b1a83fe}{fixed formalization and verification records}.
+\bibitem{Lossless}
+Li Xiang, \emph{Lossless Assembly of an Eight-Point Certificate
+for Simple Critical Zeros of the Riemann Zeta Function}, October 8, 2026,
+\href{https://github.com/lixiang90/RH-Weil/blob/0f7e6c21769b7a848fc9ce4cbf498eb91184874d/papers/lossless-eight-point-simple-critical-paper.tex}{fixed manuscript}.
+\end{thebibliography}
+\end{document}

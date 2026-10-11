@@ -1,0 +1,17 @@
+{
+  "status": "PASS_SOURCE_IDENTITY_AND_FINITE_ALGEBRA_ONLY",
+  "command": [
+    "python",
+    "-B",
+    "-X",
+    "utf8",
+    "scripts/hybrid_mixed_sixth_restoration_budget.py",
+    "--check",
+    "--source",
+    "E:/codex-build/math/preprints/The-Quasi-Riemann-Hypothesis-September-30-2026/build/paper.tex"
+  ],
+  "returncode": 0,
+  "stdout": "{\"passed\": true, \"checks\": 72, \"source_matched\": true, \"result\": \"E:\\\\codex-build\\\\RH-Weil\\\\output\\\\hybrid-mixed-sixth-restoration-budget.json\", \"scope\": \"finite exact scalar/local algebra only; no arithmetic cross estimate or full detector count proved\"}\n",
+  "source_identity_matched": true,
+  "actual_analytic_estimate_proved": false
+}

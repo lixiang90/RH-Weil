@@ -59,6 +59,18 @@ CHECKS = (
         [sys.executable, "am_ninth_span_certificate.py", "--check"],
     ),
     (
+        "AM strengthened low frames and complete inherited nine-point replay",
+        [sys.executable, "am_low_frame_strengthening_certificate.py", "--check"],
+    ),
+    (
+        "fixed AM range-eight periodic method ceiling",
+        [sys.executable, "am_range_eight_periodic_ceiling_certificate.py", "--check"],
+    ),
+    (
+        "conditional mixed sixth-power restoration finite budget",
+        [sys.executable, "hybrid_mixed_sixth_restoration_budget.py", "--check"],
+    ),
+    (
         "kappa-feedback three-constraint interface barrier algebra",
         [sys.executable, "kappa_feedback_interface_barrier.py", "--check"],
     ),

@@ -1,0 +1,447 @@
+{
+  "schema": "rh-weil-mixed-sixth-restoration-budget-v1",
+  "scope": "finite exact scalar/local algebra only; no arithmetic cross estimate or full detector count proved",
+  "script_canonical_lf_sha256": "a0e81927676733b4d27d3eab8a3f63fb4f28935ba8ab94b3992f3617670bb7c3",
+  "frozen_source_canonical_lf_sha256": "42a5ee0febca59fd1def55cfd6c6808c322ef4237d7726303ea52f711deac6a3",
+  "source_description": "math/preprints/The-Quasi-Riemann-Hypothesis-September-30-2026/build/paper.tex",
+  "values": {
+    "target": {
+      "exact": "17499/20000",
+      "orientation": 0.87495
+    },
+    "kappa": {
+      "exact": "7499/10000",
+      "orientation": 0.7499
+    },
+    "delta": {
+      "exact": "19429/50000",
+      "orientation": 0.38858
+    },
+    "tLong": {
+      "exact": "9229494722/8209647083",
+      "orientation": 1.1242255152614091
+    },
+    "rShort": {
+      "exact": "5875092361/8209647083",
+      "orientation": 0.7156327551723578
+    },
+    "mShort": {
+      "exact": "3354402361/8209647083",
+      "orientation": 0.40859276008905143
+    },
+    "zSelected": {
+      "exact": "333565000/8209647083",
+      "orientation": 0.04063085740807599
+    },
+    "R": {
+      "exact": "136828076410631/205241177075000",
+      "orientation": 0.6666697119975626
+    },
+    "mixed_spike": {
+      "exact": "7185137597329/9329144412500",
+      "orientation": 0.7701818387227157
+    },
+    "mixed_reference": {
+      "exact": "294901103551869/205241177075000",
+      "orientation": 1.4368515507202784
+    },
+    "convolution_length": {
+      "exact": "1479260404/746331553",
+      "orientation": 1.982041892847588
+    },
+    "raw_target_without_new_saving": {
+      "exact": "299150468714369/205241177075000",
+      "orientation": 1.4575558032638465
+    },
+    "raw_goal_below_generic_length": {
+      "exact": "107646142385631/205241177075000",
+      "orientation": 0.5244860895837415
+    },
+    "necessary_count_decrement": {
+      "exact": "467366968772963/12314470624500000000",
+      "orientation": 3.795266422927858e-05
+    },
+    "proposed_raw_saving": {
+      "exact": "1/20000",
+      "orientation": 5e-05
+    },
+    "strict_width_slack": {
+      "exact": "1/1000000",
+      "orientation": 1e-06
+    },
+    "conditional_net_saving": {
+      "exact": "59/1200000",
+      "orientation": 4.9166666666666665e-05
+    },
+    "conditional_slack_over_necessary": {
+      "exact": "46031501199429/4104823541500000000",
+      "orientation": 1.1214002437388087e-05
+    }
+  },
+  "checks": [
+    {
+      "name": "common feedback kappa",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "actual detector parameter range",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "short plain capacity saturated before strict decrement",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "physical selected product spike",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sixth inverse moment reference",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "raw-to-amplified mixed exponent identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "long differs from short inverse",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "plain length range",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "positive selected capacity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "mixed product beyond raw row range",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sixth free class count exponent",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "inverse restoration degree 1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "plain restoration degree 1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "inverse/plain exact Euler cancellation degree 1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "inverse restoration degree 2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "plain restoration degree 2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "inverse/plain exact Euler cancellation degree 2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "inverse restoration degree 3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "plain restoration degree 3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "inverse/plain exact Euler cancellation degree 3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "inverse restoration degree 4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "plain restoration degree 4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "inverse/plain exact Euler cancellation degree 4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "inverse restoration degree 5",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "plain restoration degree 5",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "inverse/plain exact Euler cancellation degree 5",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "inverse restoration degree 6",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "plain restoration degree 6",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "inverse/plain exact Euler cancellation degree 6",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "inverse restoration degree 7",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "plain restoration degree 7",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "inverse/plain exact Euler cancellation degree 7",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "inverse restoration degree 8",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "plain restoration degree 8",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "inverse/plain exact Euler cancellation degree 8",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "inverse restoration degree 9",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "plain restoration degree 9",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "inverse/plain exact Euler cancellation degree 9",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "inverse restoration degree 10",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "plain restoration degree 10",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "inverse/plain exact Euler cancellation degree 10",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "inverse restoration degree 11",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "plain restoration degree 11",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "inverse/plain exact Euler cancellation degree 11",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "inverse restoration degree 12",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "plain restoration degree 12",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "inverse/plain exact Euler cancellation degree 12",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "inverse restoration degree 13",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "plain restoration degree 13",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "inverse/plain exact Euler cancellation degree 13",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "inverse restoration degree 14",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "plain restoration degree 14",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "inverse/plain exact Euler cancellation degree 14",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "inverse restoration degree 15",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "plain restoration degree 15",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "inverse/plain exact Euler cancellation degree 15",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "inverse restoration degree 16",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "plain restoration degree 16",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "inverse/plain exact Euler cancellation degree 16",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "inverse restoration degree 17",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "plain restoration degree 17",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "inverse/plain exact Euler cancellation degree 17",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "inverse restoration degree 18",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "plain restoration degree 18",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "inverse/plain exact Euler cancellation degree 18",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict raw inverse margin",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "amplification consumes five-sixths of width slack",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "known count gap exact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "hypothetical net saving beats necessary target",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "same-class raw block is below target with positive exponent gap",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "existing marked input needs extra width",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "existing inverse+Q amplification cannot alone save",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "attained_new_count_saving": false,
+  "attained_new_zero_free_region": false,
+  "lean_checked": false,
+  "simultaneous_witness_for_all_detector_rows_proved": false
+}

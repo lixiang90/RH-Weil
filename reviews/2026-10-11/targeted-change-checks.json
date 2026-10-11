@@ -1,0 +1,96 @@
+{
+  "status": "PASS_TARGETED_CHANGE_CHECKS",
+  "scope": "registered new finite certificates, repository layout regression and full registry dispatch coverage; no new Lean/Nano proof",
+  "checks": [
+    {
+      "command": [
+        "python",
+        "-B",
+        "-X",
+        "utf8",
+        "scripts/test_check_groups.py"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 0.219,
+      "stdout": "Check groups passed: core=95, b1h=1, b1i=1, all=97; no checks skipped or duplicated\n[scope] registry coverage and mocked dispatch only; no heavy computations\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python",
+        "-B",
+        "-X",
+        "utf8",
+        "scripts/check_repo_layout.py"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 0.109,
+      "stdout": "Paper layout, TeX inputs, and documentation links passed.\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python",
+        "-B",
+        "-X",
+        "utf8",
+        "scripts/test_repo_layout.py"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 0.75,
+      "stdout": "",
+      "stderr": "test_all_layout_documents_are_required (__main__.LayoutTests.test_all_layout_documents_are_required) ... ok\ntest_both_literal_input_commands_are_checked (__main__.LayoutTests.test_both_literal_input_commands_are_checked) ... ok\ntest_broken_paper_links_in_each_document_are_reported (__main__.LayoutTests.test_broken_paper_links_in_each_document_are_reported) ... ok\ntest_commented_inputs_are_ignored (__main__.LayoutTests.test_commented_inputs_are_ignored) ... ok\ntest_complete_layout_and_root_relative_inputs_pass (__main__.LayoutTests.test_complete_layout_and_root_relative_inputs_pass) ... ok\ntest_deleted_tracked_paths_and_untracked_scratch_are_ignored (__main__.LayoutTests.test_deleted_tracked_paths_and_untracked_scratch_are_ignored) ... ok\ntest_encoded_spaces_anchors_and_remote_links (__main__.LayoutTests.test_encoded_spaces_anchors_and_remote_links) ... ok\ntest_every_required_source_and_pdf_is_required (__main__.LayoutTests.test_every_required_source_and_pdf_is_required) ... ok\ntest_existing_versioned_pdf_outside_output_is_rejected (__main__.LayoutTests.test_existing_versioned_pdf_outside_output_is_rejected) ... ok\ntest_input_is_not_silently_resolved_from_papers_directory (__main__.LayoutTests.test_input_is_not_silently_resolved_from_papers_directory) ... ok\ntest_root_tex_and_pdf_are_rejected (__main__.LayoutTests.test_root_tex_and_pdf_are_rejected) ... ok\ntest_versioned_external_literature_is_allowed (__main__.LayoutTests.test_versioned_external_literature_is_allowed) ... ok\n\n----------------------------------------------------------------------\nRan 12 tests in 0.538s\n\nOK\n"
+    },
+    {
+      "command": [
+        "python",
+        "-B",
+        "-X",
+        "utf8",
+        "scripts/am_low_frame_strengthening_certificate.py",
+        "--check"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 4.047,
+      "stdout": "{\n  \"status\": \"PASS\",\n  \"scope\": \"complete finite single-frame strengthening and all2399-domain exact assembly under disclosed existing continuous and analytic admission\",\n  \"certificate_canonical_lf_sha256\": \"aa1a8b4f8e8db6cd446604f11e183e9ae1723f0124ef610e8cae376d5eec8152\",\n  \"checker_canonical_lf_sha256\": \"f5370cf5e01b2a9b76d327aa83b4e416facb26997f3390bb71fe646f74d62b1a\",\n  \"source_matched\": false,\n  \"low_original_labels\": 241,\n  \"reflected_low_labels\": 241,\n  \"patched_original_labels\": [\n    17,\n    53,\n    64,\n    74,\n    111,\n    131,\n    148,\n    166,\n    183,\n    213\n  ],\n  \"unchanged_ya_original_labels\": 231,\n  \"new_tangent_rows\": 35,\n  \"positive_dual_support_total\": 287,\n  \"used_original_point_count\": 32,\n  \"points_outside_old_1089_catalog\": [\n    98272,\n    230769,\n    231200,\n    265088\n  ],\n  \"global_F8_reward\": \"805021/100000000\",\n  \"minimum_actual_low_reward\": \"131894659288349907661/16384000000000000000000\",\n  \"safe_high_low_reward\": \"201353/25000000\",\n  \"exact_high_low_reward\": \"263917422808349907661/32768000000000000000000\",\n  \"inherited_public_low_low_reward\": \"263917374155379049835090394947/32768000000000000000000000000000\",\n  \"inherited_actual_canonical_kernel_route_reward\": \"32989671769422422651997857781/4096000000000000000000000000000\",\n  \"uniform_reward\": \"8054119/1000000000\",\n  \"simple_critical_proportion\": \"668124910/991945881\",\n  \"simple_critical_percent_float\": 67.35497599188075,\n  \"exact_finite_minimum_proportion\": \"21893117050880000000000000000000/32504082625844620950164909605053\",\n  \"gain_percentage_points_exact\": \"8375086900/1385854533966267\",\n  \"gain_percentage_points_float\": 6.043265504952238e-06,\n  \"elapsed_seconds\": 3.952999999979511,\n  \"standard_library_only_check\": true,\n  \"inherited_2399_certificate_replayed_this_run\": true,\n  \"canonical_literals_replayed_this_run\": false,\n  \"all_canonical_current_source_hashes_matched\": false,\n  \"canonical_receipt_scope\": \"informational and not needed for public mathematical payment unless --formal-root rechecks every raw source hash and all actual integer literals\",\n  \"new_lean_or_nanoda_check_performed\": false,\n  \"website_accepted\": false\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python",
+        "-B",
+        "-X",
+        "utf8",
+        "scripts/am_range_eight_periodic_ceiling_certificate.py",
+        "--check"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 0.937,
+      "stdout": "PASS exact range-eight periodic necessary cuts and saved report\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python",
+        "-B",
+        "-X",
+        "utf8",
+        "scripts/hybrid_mixed_sixth_restoration_budget.py",
+        "--check"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 0.094,
+      "stdout": "{\"passed\": true, \"checks\": 72, \"source_matched\": false, \"result\": \"E:\\\\codex-build\\\\RH-Weil\\\\output\\\\hybrid-mixed-sixth-restoration-budget.json\", \"scope\": \"finite exact scalar/local algebra only; no arithmetic cross estimate or full detector count proved\"}\n",
+      "stderr": ""
+    }
+  ],
+  "optimized_python_rejection": "optimized-python-rejection-check.json",
+  "unchanged_baseline_suite": {
+    "status": "STOPPED_REPEATED_UNCHANGED_EXPERIMENTS",
+    "registered_core_count": 95,
+    "completed_before_interruption": 41,
+    "last_started_check": "B1f intended finite denominator certificate",
+    "partial_log": "partial-core-finite-checks.txt",
+    "reason": "All changes required checks passed. Remaining baseline experiments and their data are unchanged; the broad repeated suite was deliberately stopped. No complete 95-check PASS is claimed."
+  }
+}

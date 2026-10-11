@@ -1,0 +1,227 @@
+==> finite-check group coverage
+Check groups passed: core=95, b1h=1, b1i=1, all=97; no checks skipped or duplicated
+[scope] registry coverage and mocked dispatch only; no heavy computations
+==> paper layout
+Paper layout, TeX inputs, and documentation links passed.
+==> paper layout regression
+test_all_layout_documents_are_required (__main__.LayoutTests.test_all_layout_documents_are_required) ... ok
+test_both_literal_input_commands_are_checked (__main__.LayoutTests.test_both_literal_input_commands_are_checked) ... ok
+test_broken_paper_links_in_each_document_are_reported (__main__.LayoutTests.test_broken_paper_links_in_each_document_are_reported) ... ok
+test_commented_inputs_are_ignored (__main__.LayoutTests.test_commented_inputs_are_ignored) ... ok
+test_complete_layout_and_root_relative_inputs_pass (__main__.LayoutTests.test_complete_layout_and_root_relative_inputs_pass) ... ok
+test_deleted_tracked_paths_and_untracked_scratch_are_ignored (__main__.LayoutTests.test_deleted_tracked_paths_and_untracked_scratch_are_ignored) ... ok
+test_encoded_spaces_anchors_and_remote_links (__main__.LayoutTests.test_encoded_spaces_anchors_and_remote_links) ... ok
+test_every_required_source_and_pdf_is_required (__main__.LayoutTests.test_every_required_source_and_pdf_is_required) ... ok
+test_existing_versioned_pdf_outside_output_is_rejected (__main__.LayoutTests.test_existing_versioned_pdf_outside_output_is_rejected) ... ok
+test_input_is_not_silently_resolved_from_papers_directory (__main__.LayoutTests.test_input_is_not_silently_resolved_from_papers_directory) ... ok
+test_root_tex_and_pdf_are_rejected (__main__.LayoutTests.test_root_tex_and_pdf_are_rejected) ... ok
+test_versioned_external_literature_is_allowed (__main__.LayoutTests.test_versioned_external_literature_is_allowed) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.572s
+
+OK
+==> double Perron finite costs and existing cubic-boundary enclosures
+PASS: 32 finite checks; saved output matches
+==> padded Perron finite costs and existing cubic-boundary enclosures
+PASS: 36 finite checks; saved output matches
+==> squarefree Euler coefficients and weighted conditional remainder costs
+PASS: 62 finite checks; analytic proofs are separate
+==> post-67.25 literature constants
+MT baseline: 0.672500703679411645734379790803295188593403029 .. 0.672500703679411645734379790803295188593403029
+note 304: 0.672509329145868939181338857746182497718288943 .. 0.672509329145868939181338857746182497718288943
+ainta triple: 0.672519767113677707121016663144572663872760969 .. 0.672519767113677707121016663144572663872760969
+ainta seven: 0.673008527927779761323475259854218258211457044 .. 0.673008527927779761323475259854218258211457044
+trmdy nine: 0.673312742272245998143847403168008709747015289 .. 0.673312742272245998143847403168008709747015289
+Shi joint: 0.673316977142471313480285307148899888268744788 .. 0.673316977142471313480285307148899888268744788
+flat-window fourth-moment target for p=673/1000: 0.327059600462275053656925870893181442958560343
+flat-window fourth-moment target for p=673399/1000000: 0.326668306770742325294678357275717830158807945
+MT-window fourth-moment threshold for p=0.673399: 0.326602198303352963956500784874376014327468873 .. 0.326602198303352963956500784874376014327468873
+PASS: scalar enclosures, exact side conditions, pair capacities.
+NOT CHECKED: analytic interfaces, kernel inequalities, large certificates, Lean builds.
+==> lossless AM continuous majorant and energy certificate
+PASS exact continuous majorant, AM energy and committed report
+==> fixed AM range-seven periodic method ceiling
+PASS exact periodic method ceiling and committed report
+==> conditional all-zero adaptive leverage algebra
+PASS conditional adaptive leverage algebra and committed report
+==> captured AM nine-point low-slack geometry and partial payment
+PASS captured data only; 289 compatible pairs, 78 average-paid, 211 unpaid; no uniform gain
+==> joint AM nine-point exact epigraph duals
+PASS 289 exact nine-point epigraph duals; local reward >=805103/100000000
+minimum: 65955289561887369906031994339/8192000000000000000000000000000 ; finite verification under disclosed PC8 admission
+==> expanded AM nine-point admitted-tangent exact duals
+PASS all2399 exact domains; local reward >=805260/100000000
+minimum: 26386790900531855994044477203/3276800000000000000000000000000 ; inherited PC8/REG/PTL admission required
+==> AM ninth-span closed branches and complete rational certificate
+checked 0
+checked 500
+checked 1000
+checked 1500
+checked 2000
+PASS {'finite_certificate_pass': True, 'domains': 2399, 'replacements': 47, 'closed_branches': 84, 'positive_tangent_row_uses': 2955, 'minimum_domain_lower': '263917374155379049835090394947/32768000000000000000000000000000', 'outside_lower': '805403/100000000', 'uniform_reward': '805403/100000000', 'simple_critical_proportion': '941021/1397107', 'elapsed_seconds': 4.938000000081956, 'certificate_raw_sha256': '9fc7f9d8a00ebbc3e2f8ff236b247af5ac3173c3942ec72b9180c4473a65cf96', 'checker_raw_sha256': 'b03b3259a385702300520bd02f33c79d228b76a0e07c6b42cec23b6a02a5e673', 'point_catalog_canonical_lf_sha256': 'cda8ce5fce3d0a639975f54e57b1991c7d5a2a2cb112df4e3dd13237a954fb27', 'certificate_canonical_lf_sha256': '9fc7f9d8a00ebbc3e2f8ff236b247af5ac3173c3942ec72b9180c4473a65cf96', 'checker_canonical_lf_sha256': 'b03b3259a385702300520bd02f33c79d228b76a0e07c6b42cec23b6a02a5e673', 'source_file_verified': False}
+==> AM strengthened low frames and complete inherited nine-point replay
+{
+  "status": "PASS",
+  "scope": "complete finite single-frame strengthening and all2399-domain exact assembly under disclosed existing continuous and analytic admission",
+  "certificate_canonical_lf_sha256": "aa1a8b4f8e8db6cd446604f11e183e9ae1723f0124ef610e8cae376d5eec8152",
+  "checker_canonical_lf_sha256": "f5370cf5e01b2a9b76d327aa83b4e416facb26997f3390bb71fe646f74d62b1a",
+  "source_matched": false,
+  "low_original_labels": 241,
+  "reflected_low_labels": 241,
+  "patched_original_labels": [
+    17,
+    53,
+    64,
+    74,
+    111,
+    131,
+    148,
+    166,
+    183,
+    213
+  ],
+  "unchanged_ya_original_labels": 231,
+  "new_tangent_rows": 35,
+  "positive_dual_support_total": 287,
+  "used_original_point_count": 32,
+  "points_outside_old_1089_catalog": [
+    98272,
+    230769,
+    231200,
+    265088
+  ],
+  "global_F8_reward": "805021/100000000",
+  "minimum_actual_low_reward": "131894659288349907661/16384000000000000000000",
+  "safe_high_low_reward": "201353/25000000",
+  "exact_high_low_reward": "263917422808349907661/32768000000000000000000",
+  "inherited_public_low_low_reward": "263917374155379049835090394947/32768000000000000000000000000000",
+  "inherited_actual_canonical_kernel_route_reward": "32989671769422422651997857781/4096000000000000000000000000000",
+  "uniform_reward": "8054119/1000000000",
+  "simple_critical_proportion": "668124910/991945881",
+  "simple_critical_percent_float": 67.35497599188075,
+  "exact_finite_minimum_proportion": "21893117050880000000000000000000/32504082625844620950164909605053",
+  "gain_percentage_points_exact": "8375086900/1385854533966267",
+  "gain_percentage_points_float": 6.043265504952238e-06,
+  "elapsed_seconds": 5.077999999979511,
+  "standard_library_only_check": true,
+  "inherited_2399_certificate_replayed_this_run": true,
+  "canonical_literals_replayed_this_run": false,
+  "all_canonical_current_source_hashes_matched": false,
+  "canonical_receipt_scope": "informational and not needed for public mathematical payment unless --formal-root rechecks every raw source hash and all actual integer literals",
+  "new_lean_or_nanoda_check_performed": false,
+  "website_accepted": false
+}
+==> fixed AM range-eight periodic method ceiling
+PASS exact range-eight periodic necessary cuts and saved report
+==> conditional mixed sixth-power restoration finite budget
+{"passed": true, "checks": 72, "source_matched": false, "result": "E:\\codex-build\\RH-Weil\\output\\hybrid-mixed-sixth-restoration-budget.json", "scope": "finite exact scalar/local algebra only; no arithmetic cross estimate or full detector count proved"}
+==> kappa-feedback three-constraint interface barrier algebra
+{"passed": true, "checks": 38, "scope": "finite exact algebra; model barrier only", "wrote_output": false}
+==> quartic boundary and normalization certificate
+PASS: exact polynomial identities in both x and sigma.
+Scope: a>0 and 6-2sigma>0 give the x<=0 signs; sigma>=-3 gives the D ledger sign.
+PASS: 13965 rational configurations/parameters; missing-E1 counterexample detected.
+PASS: exact extremal four moments and 16/21, 37/42.
+No analytic fourth-moment estimate or RH assertion is certified.
+==> elliptic degree and odd-polarization benchmark
+PASS: exact degree Gram, primitive J, Frobenius/cup similitudes, and quadratic relation.
+PASS: independent finite-field enumeration N1=8, N2=32.
+Scope: concrete finite model checks; no general arithmetic RH assertion.
+==> portable Brownian component reduction
+Portable Brownian component reduction passed
+[scope] deterministic finite surrogate/replay; unchanged certificate bounds
+==> Mellin dual separator
+Mellin dual-separator identity and Schur checks passed.
+==> prolate boundary correction
+Prolate boundary-correction sanity checks passed.
+==> QW formulas and tails
+QW formula, row-tail, and candidate-tail sanity checks passed.
+==> frozen Vaughan/Laurent channels
+| N,Y,T | basis | rank | physical overlap | sin theta | tail/lambda1 | coupling/lambda1 | standardized excess |
+|---:|:---|---:|---:|---:|---:|---:|---:|
+| 320,120,4 | singular | 2 | -7.17465e-43 | 9.99997e-1 | 9.71808e-1 | 1.95158e-1 | 1.04632e+2% |
+| 320,120,4 | singular-annihilator | 2 | 1.0 | 7.13744e-1 | 2.2816e-1 | 1.95158e-1 | 1.78772% |
+| 320,120,4 | physical+double | 2 | 1.0 | 7.98719e-1 | 2.44325e-1 | 1.90916e-1 | 1.14328% |
+| 320,120,4 | physical+simple | 2 | 1.0 | 7.03698e-1 | 2.11513e-1 | 1.65989e-1 | 6.58866e-1% |
+| 320,120,4 | physical+regular | 2 | 1.0 | 8.94421e-1 | 3.11074e-1 | 1.86643e-1 | 2.3102% |
+| 320,120,4 | integer | 2 | 9.94091e-1 | 5.77993e-2 | 7.53752e-2 | 3.72417e-2 | 1.91796e-1% |
+| 320,120,4 | physicalized-integer | 2 | 1.0 | 5.89965e-2 | 7.534e-2 | 3.54556e-2 | 1.24275e-1% |
+| 320,120,4 | paired-8:3 | 2 | 1.0 | 6.48363e-2 | 7.53233e-2 | 3.52052e-2 | 1.21881e-1% |
+| 320,120,4 | forced-physical-optimal | 2 | 1.0 | 4.51299e-2 | 7.53075e-2 | 3.26587e-2 | 1.10618e-1% |
+| 320,120,4 | paired-optimal | 2 | 1.0 | 5.40958e-2 | 7.53751e-2 | 3.06678e-2 | 9.54403e-2% |
+| 320,120,4 | incidence-separated-optimal | 2 | 9.98982e-1 | 3.75297e-2 | 7.43674e-2 | 1.05752e-2 | 1.17642e-1% |
+| 320,120,4 | tilted-(1/20,3) | 2 | 9.97506e-1 | 4.20946e-2 | 7.43164e-2 | 2.65242e-2 | 1.39457e-1% |
+paired-optimal ratio for 320,120,4: 3.248419552 -1.02891e-3i; fixed sine=6.009884e-2; coarse leakage=1.606515e-2; unrestricted ratio=3.2362221 -9.258e-4i; fixed-to-unrestricted sine=6.118052e-2
+separated ratios for 320,120,4: tau=3.18077602e-2 2.7702e-3i; q=3.24841955 -1.0289e-3i; fixed-plane sine=2.311301e-2
+| 320,120,16 | singular | 2 | -2.86986e-42 | 9.99995e-1 | 9.67998e-1 | 2.08856e-1 | 1.05146e+2% |
+| 320,120,16 | singular-annihilator | 2 | 1.0 | 7.70258e-1 | 2.67317e-1 | 2.08856e-1 | 1.87867% |
+| 320,120,16 | physical+double | 2 | 1.0 | 7.88927e-1 | 2.58802e-1 | 2.10734e-1 | 1.3278% |
+| 320,120,16 | physical+simple | 2 | 1.0 | 6.38494e-1 | 1.98633e-1 | 1.79995e-1 | 6.99681e-1% |
+| 320,120,16 | physical+regular | 2 | 1.0 | 8.74377e-1 | 3.22674e-1 | 2.00913e-1 | 2.24937% |
+| 320,120,16 | integer | 2 | 9.94091e-1 | 5.15496e-2 | 7.12636e-2 | 4.69604e-2 | 1.05829e-1% |
+| 320,120,16 | physicalized-integer | 2 | 1.0 | 4.45055e-2 | 6.95214e-2 | 2.55436e-2 | 5.74366e-2% |
+| 320,120,16 | paired-8:3 | 2 | 1.0 | 4.99743e-2 | 6.94977e-2 | 2.57253e-2 | 5.60303e-2% |
+| 320,120,16 | forced-physical-optimal | 2 | 1.0 | 2.84222e-2 | 6.94655e-2 | 2.09779e-2 | 4.58563e-2% |
+| 320,120,16 | paired-optimal | 2 | 1.0 | 3.37118e-2 | 6.94944e-2 | 1.97352e-2 | 3.95599e-2% |
+| 320,120,16 | incidence-separated-optimal | 2 | 9.99583e-1 | 2.26983e-2 | 6.90776e-2 | 6.94049e-3 | 4.86347e-2% |
+| 320,120,16 | tilted-(1/20,3) | 2 | 9.97506e-1 | 3.53049e-2 | 6.95029e-2 | 3.08275e-2 | 6.6742e-2% |
+paired-optimal ratio for 320,120,16: 3.131300589 -4.75597e-5i; fixed sine=4.963151e-2; coarse leakage=9.932574e-3; unrestricted ratio=3.1249301 -6.7317e-5i; fixed-to-unrestricted sine=5.003491e-2
+separated ratios for 320,120,16: tau=2.04212993e-2 1.7916e-4i; q=3.13130059 -4.756e-5i; fixed-plane sine=2.953618e-2
+==> Mobius threshold Hodge structure
+Mobius threshold-Hodge and hard-channel checks passed.
+==> Selberg--Volterra cross-fiber transport
+Selberg--Volterra transport checks passed.
+==> Selberg profile equivalence bookkeeping
+Selberg profile equivalence checks passed.
+==> capped correspondence kernel
+capped correspondence kernel checks passed
+==> reciprocal barrier and harmonic Schur
+reciprocal barrier and harmonic Schur checks passed
+==> square-completed background and Schur--L4
+square-completed background and Schur--L4 checks passed
+==> tracial lattice-clipped background
+tracial lattice-clipped background checks passed
+==> finite arithmetic cone and Hodge transgression
+finite cone and Hodge-transgression checks passed
+==> soft negative effect and Cauchy moments
+soft negative-effect and Cauchy moment checks passed
+==> formal soft zeta orbit response
+soft zeta orbit audit passed: support=165, exact=0.0313156, near=-0.040888, far=0.0140673, canonical/arbitrary=0.387876, breaker=0.0828099, small-mixture=0.00256342, inner-heat=-0.000647645, profile/variation=0.278845, Cauchy-profile/variation=0.049926, M/B=-0.0884578, Brownian-bound/actual=4.98499, Vaughan-diagonal/full=2.41509, compactness-capture=0.0391283
+==> nonvacuous Vaughan--Brownian physical Schur completion
+scale=   4, cutoff= 7: U=V=1, II-start=4, E=2.9951311e-04, diag/E=3.973, II/prime-diag=0.013, prime-cross/prime-diag=-0.209, rho_I,II=-0.911, pcross/(P+C)=-0.702, rho_p,c=-0.763, balance_p,c=0.920, base-positive-frac=0.0e+00, positive-cross-frac=4.399e-02, cross-variation/(P+C)=0.385, short/E=0.976, mismatch/E=0.024, alpha_opt=+1.154-0.000i
+scale=   8, cutoff=10: U=V=2, II-start=9, E=4.7824173e-04, diag/E=2.415, II/prime-diag=0.004, prime-cross/prime-diag=-0.120, rho_I,II=-0.909, pcross/(P+C)=-0.539, rho_p,c=-0.720, balance_p,c=0.748, base-positive-frac=1.9e-17, positive-cross-frac=8.402e-02, cross-variation/(P+C)=0.324, short/E=0.868, mismatch/E=0.132, alpha_opt=+1.601-0.000i
+scale=  12, cutoff=12: U=V=2, II-start=9, E=5.7802770e-04, diag/E=2.186, II/prime-diag=0.005, prime-cross/prime-diag=-0.125, rho_I,II=-0.922, pcross/(P+C)=-0.486, rho_p,c=-0.699, balance_p,c=0.696, base-positive-frac=0.0e+00, positive-cross-frac=9.114e-02, cross-variation/(P+C)=0.297, short/E=0.856, mismatch/E=0.144, alpha_opt=+1.725-0.000i
+scale=  16, cutoff=15: U=V=2, II-start=9, E=5.4331863e-04, diag/E=2.784, II/prime-diag=0.005, prime-cross/prime-diag=-0.130, rho_I,II=-0.940, pcross/(P+C)=-0.596, rho_p,c=-0.803, balance_p,c=0.742, base-positive-frac=0.0e+00, positive-cross-frac=3.124e-02, cross-variation/(P+C)=0.318, short/E=0.734, mismatch/E=0.266, alpha_opt=+1.808-0.000i
+Vaughan--Brownian physical Schur audits passed
+[scope] exact finite identity/evidence only; no RH asymptotic
+==> Brownian common-convolution sign obstruction
+multiplier mass=0
+Toeplitz ledger: norm=100, lag1=-30, lag2=-72, form=-2
+base correlation=-1, common-convolution correlation=2
+Brownian common-convolution sign obstruction passed
+[scope] exact finite no-go; no RH asymptotic
+==> symmetric spectral sign and overlap degeneration
+N= 4: P=7/2, C=1, z=-1, -z/(P+C)=0.22222222
+N= 8: P=15/2, C=1, z=-1, -z/(P+C)=0.11764706
+N=16: P=31/2, C=1, z=-1, -z/(P+C)=0.06060606
+N=32: P=63/2, C=1, z=-1, -z/(P+C)=0.03076923
+N=64: P=127/2, C=1, z=-1, -z/(P+C)=0.01550388
+N=128: P=255/2, C=1, z=-1, -z/(P+C)=0.00778210
+symmetric spectral-overlap no-go passed
+[scope] exact rational finite theorem/no-go; no RH asymptotic
+==> Brownian interval denominator and TV perturbation
+Brownian interval-certificate exact tests passed
+[scope] rational finite inequalities; no zeta enclosure or RH claim
+==> B1f floating forward-error ledger
+B1f forward-error exact spot checks passed
+[scope] finite IEEE replay bounds; no zeta or RH claim
+==> B1e exact surrogate support and denominator
+prime: formal=35103, canonical=22855, atoms=22855, certified_min_gap_lower=0.00004834486675790251, rational_energy_upper=0.00055130411625587258, clusters=22855, max_cluster=1
+continuum: formal=33977, canonical=21425, atoms=21425, certified_min_gap_lower=0.00004834486675790251, rational_energy_upper=0.00015289136767059444, clusters=21425, max_cluster=1
+==> B1f intended finite denominator certificate
+prime_base_tv_error_upper=0.000000000000000210817118608703
+continuum_base_tv_error_upper=0.000007154150754425142514714306
+symbol_tv_error_upper=0.000007154150754635959633323008
+polynomial_tv_error_upper=0.006804410613770658228023739385
+scalar_error_upper=0.000000009729220035856599427796

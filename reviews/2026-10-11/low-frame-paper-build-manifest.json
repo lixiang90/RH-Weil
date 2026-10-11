@@ -1,0 +1,153 @@
+{
+  "schema": "rh-weil-low-frame-paper-build-v1",
+  "date": "2026-10-11",
+  "author": "Li Xiang (lixiang90)",
+  "baseline": "2d2eb99b82f944b23437cd88797cdfd178021fb0",
+  "simple_critical_ratio": "668124910/991945881",
+  "simple_critical_percent": 67.35497599188075,
+  "uniform_reward": "8054119/1000000000",
+  "global_single_frame_floor": "805021/100000000",
+  "exact_mathematical_low_low_minimum": "263917374155379049835090394947/32768000000000000000000000000000",
+  "actual_canonical_literal_low_low_minimum": "32989671769422422651997857781/4096000000000000000000000000000",
+  "stronger_exact_minimum_ratio": "21893117050880000000000000000000/32504082625844620950164909605053",
+  "counts": {
+    "original_cells": 241,
+    "retained_original_ya": 231,
+    "patched_original_cells": 10,
+    "reflected_cells": 241,
+    "physical_variables": 33,
+    "added_rows": 35,
+    "used_original_points": 32,
+    "new_points_outside_previous_catalog": [
+      98272,
+      230769,
+      231200,
+      265088
+    ],
+    "positive_dual_support": 287,
+    "inherited_pair_domains": 2399,
+    "ninth_span_replacement_domains": 47,
+    "closed_branches": 84
+  },
+  "verification": {
+    "complete_exact_replay": "PASS",
+    "public_check_default_replays_all_2399_domains": true,
+    "original_points_and_source_matched": true,
+    "optional_actual_canonical_literals_and_source_hashes_checked": true,
+    "independent_math_reconstruction": "PASS",
+    "independent_final_paper_review": "PASS",
+    "new_bound_lean_checked": false,
+    "new_bound_nanoda_checked": false,
+    "website_submitted": false,
+    "website_accepted": false,
+    "previous_completed_formal_ratio": "941021/1397107",
+    "previous_formal_commit": "c705c4aad2ad33e5358ce17e906b0dc51b1a83fe",
+    "previous_independent_declaration_count": 82804,
+    "previous_root_axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "core_checks": {
+      "change_required_checks": "PASS",
+      "targeted_command_count": 6,
+      "registry_core_checks": 95,
+      "full_95_check_suite_pass_claimed": false,
+      "unchanged_suite_completed_prefix": 41,
+      "remaining_unchanged_experiments_deliberately_stopped": true,
+      "receipt": "targeted-change-checks.json"
+    },
+    "formal_github_main_reconfirmed": "c705c4aad2ad33e5358ce17e906b0dc51b1a83fe"
+  },
+  "pdf_build": {
+    "compiler": "MiKTeX pdfLaTeX",
+    "passes": 2,
+    "pages": 4,
+    "bytes": 311124,
+    "visual_verification": "all four final rendered PNG pages inspected",
+    "layout_warning_count": 0,
+    "raw_sha256": "dc92de127f09478a3563ec75b6386dab02a30a3fec848db292678348f96cdf55",
+    "builtin_compiler_unavailable_reason": "font download unavailable; successful local compiler used"
+  },
+  "mixed_research_scope": {
+    "relative_to_explicit_source_package_R": true,
+    "finite_checks": 72,
+    "source_identity_checked_separately": true,
+    "initial_independent_scalar_checks": 20,
+    "different_part_cross_estimate_proved": false,
+    "all_detector_row_simultaneous_witness_proved": false,
+    "new_count_saving_attained": false,
+    "new_zero_free_region_attained": false,
+    "new_lean_theorem": false
+  },
+  "preservation": "publication-preservation-check.json",
+  "rounds_since_review": 3,
+  "file_hashes": {
+    "notes/504-low-frame-strengthening-and-mixed-sixth-restoration.md": {
+      "canonical_lf_sha256": "55e7154b723c0972c6618d46f84e43c692a20a8f2764c4eb16816bb7c9fe9c4f"
+    },
+    "output/am-low-frame-strengthening-certificate.json": {
+      "canonical_lf_sha256": "aa1a8b4f8e8db6cd446604f11e183e9ae1723f0124ef610e8cae376d5eec8152"
+    },
+    "output/am-range-eight-periodic-ceiling-certificate.json": {
+      "canonical_lf_sha256": "5ab0d984f15115b9e4fe6993ba88b01657854b7397b265dc0bfd7da3702c46f7"
+    },
+    "output/hybrid-mixed-sixth-restoration-budget.json": {
+      "canonical_lf_sha256": "e9b4a8164c344c4670a2379ca5244d635e2b9f1441d1eb157d8d5ee2508bb09a"
+    },
+    "output/pdf/low-frame-strengthened-simple-critical-paper.pdf": {
+      "raw_sha256": "dc92de127f09478a3563ec75b6386dab02a30a3fec848db292678348f96cdf55"
+    },
+    "papers/low-frame-strengthened-simple-critical-paper.tex": {
+      "canonical_lf_sha256": "8f465afbdc2c65cb32bf8eeaf52fc9a27ba193feaeba0a44a3d485a198557e0c"
+    },
+    "reviews/2026-10-11/am-low-frame-exact-check.json": {
+      "canonical_lf_sha256": "41d5f519366d1e5fe251edbb0347f50ec11bc669bb2085878f04617ac52f8549"
+    },
+    "reviews/2026-10-11/independent-fraction-audit.json": {
+      "canonical_lf_sha256": "46fc1b3619640626fb40d143adf531271ceef407a90cd0677d50d211e25f17b9"
+    },
+    "reviews/2026-10-11/low-frame-strengthening-research.md": {
+      "canonical_lf_sha256": "e6485117567dd4810b2447b8f3b8e1150b726aaa7c1773be53d28892e237448a"
+    },
+    "reviews/2026-10-11/mixed-sixth-restoration-independent-review.md": {
+      "canonical_lf_sha256": "2cca4e71d5d3972ecf0f640096554344a15632d03aac6a127285c9c980ddd48a"
+    },
+    "reviews/2026-10-11/mixed-sixth-restoration-initial.md": {
+      "canonical_lf_sha256": "44dd0e18a1cc9342065c2a1ce433b5e3004e7359f30e85ff5e41d3853b3a3951"
+    },
+    "reviews/2026-10-11/mixed-sixth-restoration-research.md": {
+      "canonical_lf_sha256": "af510e5465d8e6656912afed7ca4072768c732d71d8ceb502041c12a36f8f766"
+    },
+    "reviews/2026-10-11/mixed-source-identity-check.json": {
+      "canonical_lf_sha256": "ada8294f3abe4e4d59b233ad20788ef87387c5f31f8ddb6d4967de1b6ca446c7"
+    },
+    "reviews/2026-10-11/optimized-python-rejection-check.json": {
+      "canonical_lf_sha256": "46932b3069742299b008c8e49be8f40355277484829cef3c70b6d5c1618338c6"
+    },
+    "reviews/2026-10-11/partial-core-finite-checks.txt": {
+      "canonical_lf_sha256": "6b9728300c011c64de062942adb3adebd80d1808bba18e46237afbfe295fd229"
+    },
+    "reviews/2026-10-11/publication-preservation-check.json": {
+      "canonical_lf_sha256": "ac9dcad8212a4daee992e78918aee55653b607975ccd173d772b334003e47a2f"
+    },
+    "reviews/2026-10-11/range-eight-periodic-method-ceiling.md": {
+      "canonical_lf_sha256": "0358e92788faf6afcad4def8ab19b3f9b8fa423337ca9a2e8c539339e413c5a5"
+    },
+    "reviews/2026-10-11/routes-and-certificate-independent-review.md": {
+      "canonical_lf_sha256": "0ca1fdcb04c9c5a3732f2fa195e737a8cf32129e8e362e6d112b04b5b2fbf819"
+    },
+    "reviews/2026-10-11/targeted-change-checks.json": {
+      "canonical_lf_sha256": "8ef030d73510fd410bedc1866b664667e93f66105bd2fe570dbfe2ebbb9d9286"
+    },
+    "scripts/am_low_frame_strengthening_certificate.py": {
+      "canonical_lf_sha256": "f5370cf5e01b2a9b76d327aa83b4e416facb26997f3390bb71fe646f74d62b1a"
+    },
+    "scripts/am_range_eight_periodic_ceiling_certificate.py": {
+      "canonical_lf_sha256": "a4699ea07356812abed1a37d0d7105572e1c0346b79b73634074739048151ce0"
+    },
+    "scripts/hybrid_mixed_sixth_restoration_budget.py": {
+      "canonical_lf_sha256": "a0e81927676733b4d27d3eab8a3f63fb4f28935ba8ab94b3992f3617670bb7c3"
+    }
+  }
+}

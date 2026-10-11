@@ -20,6 +20,7 @@ PAPERS = (
     "nine-point-joint-minorant-simple-critical-paper",
     "expanded-nine-point-tangent-simple-critical-paper",
     "ninth-span-simple-critical-paper",
+    "low-frame-strengthened-simple-critical-paper",
 )
 
 

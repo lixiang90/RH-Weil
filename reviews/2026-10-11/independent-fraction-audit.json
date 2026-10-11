@@ -1,0 +1,97 @@
+{
+  "scope": "independent exact arithmetic and single-frame matrix/REG semantics; original continuous capture remains an input; no Lean/Nano or new all-2399 replay",
+  "range_eight": {
+    "script_sha": "a4699ea07356812abed1a37d0d7105572e1c0346b79b73634074739048151ce0",
+    "method_upper": "331856527056851000/492670815881465791",
+    "fixed_F9_upper": "668124911000/991901956623",
+    "current_c403_flat_B4_threshold": "2765365/8469189",
+    "positive_dual_weights": [
+      "255561868354431000/492670815881465791",
+      "76294658702420000/492670815881465791"
+    ]
+  },
+  "complete_point": {
+    "certificate_sha": "8ea2d95aa68c813a65bf1012c2b1ad3d53645218efdb42de5350b9914b3a32f2",
+    "script_sha": "42624843bf634f53e866835d9b09316e2dffab97c49190eb05ac18a46e3d5925",
+    "matrix_helper_sha": "692a6baaa5bab2f9340535502c81d59cb53adfc606e792bf165c1f81aca90c72",
+    "patches": [
+      {
+        "label": 17,
+        "lower": "659492318801428531780562137003/81920000000000000000000000000000",
+        "new_rows": 2,
+        "dual_rows": 33,
+        "residual_nonzero_columns": 16
+      },
+      {
+        "label": 53,
+        "lower": "2577272340217385017468593787/320000000000000000000000000000",
+        "new_rows": 0,
+        "dual_rows": 19,
+        "residual_nonzero_columns": 26
+      },
+      {
+        "label": 64,
+        "lower": "5172875849333344075472260167/640000000000000000000000000000",
+        "new_rows": 0,
+        "dual_rows": 18,
+        "residual_nonzero_columns": 27
+      },
+      {
+        "label": 74,
+        "lower": "82442432086141005277311455963/10240000000000000000000000000000",
+        "new_rows": 0,
+        "dual_rows": 30,
+        "residual_nonzero_columns": 16
+      },
+      {
+        "label": 111,
+        "lower": "164977307862701253079605909123/20480000000000000000000000000000",
+        "new_rows": 0,
+        "dual_rows": 25,
+        "residual_nonzero_columns": 20
+      },
+      {
+        "label": 131,
+        "lower": "32977528679166071296152260017/4096000000000000000000000000000",
+        "new_rows": 13,
+        "dual_rows": 33,
+        "residual_nonzero_columns": 16
+      },
+      {
+        "label": 148,
+        "lower": "206114240922072410245213921/25600000000000000000000000000",
+        "new_rows": 18,
+        "dual_rows": 33,
+        "residual_nonzero_columns": 16
+      },
+      {
+        "label": 166,
+        "lower": "1319726997328936839080494550363/163840000000000000000000000000000",
+        "new_rows": 0,
+        "dual_rows": 31,
+        "residual_nonzero_columns": 16
+      },
+      {
+        "label": 183,
+        "lower": "164871745558147794215219741007/20480000000000000000000000000000",
+        "new_rows": 0,
+        "dual_rows": 33,
+        "residual_nonzero_columns": 14
+      },
+      {
+        "label": 213,
+        "lower": "131913709662816306419925733619/16384000000000000000000000000000",
+        "new_rows": 2,
+        "dual_rows": 32,
+        "residual_nonzero_columns": 16
+      }
+    ],
+    "unpatched": 231,
+    "catalog_points": 32,
+    "F8_lower": "805021/100000000",
+    "uniform_F9_reward": "8054119/1000000000",
+    "proportion": "668124910/991945881",
+    "public_low_low_minimum": "263917374155379049835090394947/32768000000000000000000000000000",
+    "outside_margin": "1/1000000000"
+  }
+}

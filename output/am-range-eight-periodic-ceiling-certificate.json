@@ -1,0 +1,61 @@
+{
+  "schema": "rh-weil-am-range-eight-periodic-ceiling-v1",
+  "status": "PASS_METHOD_NECESSARY_CUTS_ONLY",
+  "not_an_actual_zeta_proportion_upper_bound": true,
+  "not_a_new_proportion_lower_bound": true,
+  "scope": "fixed AM13 kernel, index range <=8, nonnegative pair weights with total span capacities <=2, bounded telescoping storage, c<1",
+  "periodic_cuts": [
+    {
+      "gap_numerators": [
+        1042249,
+        1972639
+      ],
+      "gap_denominator": 1000000,
+      "mean_gap": "376861/250000",
+      "range_eight_ordered_energy_strict_upper": "2002693589/1000000000000"
+    },
+    {
+      "gap_numerators": [
+        1034650,
+        1034650,
+        1964373,
+        1042133,
+        1964373
+      ],
+      "gap_denominator": 1000000,
+      "mean_gap": "7040179/5000000",
+      "range_eight_ordered_energy_strict_upper": "612610003/250000000000"
+    }
+  ],
+  "input_interval_helper_canonical_lf_sha256": "11da56ae04a60fd436d273f39463e6aa85b0f023ebf62a0389c5f9af0b2aabf4",
+  "script_canonical_lf_sha256": "a4699ea07356812abed1a37d0d7105572e1c0346b79b73634074739048151ce0",
+  "pi_interval": [
+    "157079632679489661923/50000000000000000000",
+    "314159265358979323847/100000000000000000000"
+  ],
+  "am_plain_gain_strict_upper": "672168411/1000000000",
+  "dual_weights": [
+    "255561868354431000/492670815881465791",
+    "76294658702420000/492670815881465791"
+  ],
+  "dual_objective_upper": "331856527056851000/492670815881465791",
+  "method_output_strict_upper": "673586737/1000000000",
+  "fixed_F9_span_capacities": [
+    "199999997/100000000",
+    "99999999/50000000",
+    "49999999/25000000",
+    "99999999/50000000",
+    "99999999/50000000",
+    "2",
+    "2",
+    "2"
+  ],
+  "fixed_F9_pressure": "8087/2000000",
+  "fixed_F9_period_two_reward_strict_upper": "8098043377/1000000000000",
+  "fixed_F9_output_strict_upper": "668124911000/991901956623",
+  "current_verified_proportion": "941021/1397107",
+  "fixed_F9_output_upper_minus_current": "41418909144917/1385793166911689661",
+  "range_eight_output_upper_minus_current": "25493115223109944389/688313845563707026866637",
+  "flat_v_one_third_fourth_moment_threshold_to_exceed_current": "2765365/8469189",
+  "unique_kernel_distances_enclosed": 34
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "rh-weil-low-frame-publication-preservation-v1",
+  "status": "PASS",
+  "baseline": "2d2eb99b82f944b23437cd88797cdfd178021fb0",
+  "all_baseline_paths_retained": true,
+  "baseline_path_count": 2844,
+  "no_tracked_deletions": true,
+  "only_existing_documentation_and_check_registry_modified": [
+    "README.md",
+    "RESEARCH_BRANCHES.md",
+    "goals/review-cadence.json",
+    "papers/README.md",
+    "scripts/check_repo_layout.py",
+    "scripts/run_checks.py"
+  ],
+  "all_old_papers_data_scripts_and_review_blobs_unchanged": true,
+  "public_payload_matches_independently_audited_math_fields": [
+    "original_report_canonical_lf_sha256",
+    "original_source_raw_sha256",
+    "original_source_url",
+    "original_point_count",
+    "strong_reward",
+    "low_reward",
+    "uniform_ninth_reward",
+    "region",
+    "point_catalog",
+    "old_ya_lowers",
+    "patches"
+  ],
+  "new_math_formalized": false,
+  "website_accepted": false,
+  "independent_final_paper_and_math_review": {
+    "reviewer": "checkpoint_audit",
+    "status": "PASS",
+    "paper_canonical_lf_sha256": "8f465afbdc2c65cb32bf8eeaf52fc9a27ba193feaeba0a44a3d485a198557e0c",
+    "public_checker_canonical_lf_sha256": "f5370cf5e01b2a9b76d327aa83b4e416facb26997f3390bb71fe646f74d62b1a",
+    "public_payload_canonical_lf_sha256": "aa1a8b4f8e8db6cd446604f11e183e9ae1723f0124ef610e8cae376d5eec8152",
+    "no_required_correction": true
+  },
+  "mixed_final_review": {
+    "reviewer": "feedback_formalization",
+    "all_substantive_conditions_incorporated": true,
+    "final_corrections_incorporated": [
+      "raw exponent retains eta/6",
+      "reserve guaranteed lower-spike losses; do not call them necessary actual losses"
+    ],
+    "source_arithmetic_cross_and_all_row_witness_unproved": true
+  },
+  "git_index_old_blob_comparison": {
+    "status": "PASS",
+    "all_baseline_paths_in_index": true,
+    "old_paths": 2844,
+    "byte_identical_old_git_blobs": 2838,
+    "modified_old_paths": [
+      "README.md",
+      "RESEARCH_BRANCHES.md",
+      "goals/review-cadence.json",
+      "papers/README.md",
+      "scripts/check_repo_layout.py",
+      "scripts/run_checks.py"
+    ],
+    "no_old_math_paper_data_script_or_review_blob_modified": true
+  }
+}
