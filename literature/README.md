@@ -1,5 +1,13 @@
 # RH-Weil 文献索引
 
+2026-10-11新增固定原件：Ralf Meyer，
+*A spectral interpretation for the zeros of the Riemann zeta function*，
+[math/0412277v3](https://arxiv.org/pdf/math/0412277v3)，
+[本地PDF](f1/meyer-zeta-spectrum-math-0412277v3.pdf)（15页、248788字节）。
+第2–8页限定核读、精确哈希、405源与原算子的因子2，以及既有闭像／谱机制的归属见
+[来源接口审查](supplements/2026-10-11-meyer-radial-source-and-spectrum-audit.md)。
+后续全部核迹计算不在本次审计范围；下列历史统计保持各自日期。
+
 2026-10-08在线续核：最新零点比例、简单 / 不同计数、形式化登记和撤稿状态见
 [公开前沿核查](supplements/2026-10-08-proportion-frontier-audit.md)。
 本次未新增PDF归档，不改变下列历史文件统计。

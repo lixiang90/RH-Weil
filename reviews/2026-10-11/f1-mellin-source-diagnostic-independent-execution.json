@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "research_date": "2026-10-11",
+  "recorded_at_utc": "2026-10-11T12:09:30.571550+00:00",
+  "review_type": "Independent internal script reading and reproduction; not external peer review",
+  "environment": {
+    "working_directory": "E:\\codex-build\\RH-Weil",
+    "shell": "PowerShell",
+    "python_version": "3.12.5 (tags/v3.12.5:ff3bc82, Aug  6 2024, 20:45:27) [MSC v.1940 64 bit (AMD64)]",
+    "python_implementation": "CPython",
+    "python_executable": "C:\\Python312\\python.exe",
+    "python_utf8_mode_for_diagnostic_command": true,
+    "platform": "Windows-11-10.0.26200-SP0",
+    "machine": "AMD64",
+    "mpmath_version": "1.3.0"
+  },
+  "execution": {
+    "command": "python -X utf8 scripts/mellin_source_reconstruction_diagnostics.py --output tmp/f1-mellin-source-20261011/independent-diagnostics.json",
+    "exit_code": 0,
+    "wall_time_seconds": 1.933354,
+    "precision_decimal_digits": 60,
+    "public_output_was_overwritten": false
+  },
+  "script": {
+    "path": "scripts/mellin_source_reconstruction_diagnostics.py",
+    "lf_sha256": "f7a4e61618df5ad3e0e8086a526ce4419ce16c01bb3fb2823e62617cec9f5879",
+    "full_source_read": true
+  },
+  "public_output": {
+    "path": "reviews/2026-10-11/f1-mellin-source-diagnostics.json",
+    "lf_sha256": "9ce28eda0da7bca025f41de6bc8620c816f6ff6fac8c13f96629cefe5cd85322",
+    "all_json_records_read": true
+  },
+  "independent_output": {
+    "path": "tmp/f1-mellin-source-20261011/independent-diagnostics.json",
+    "lf_sha256": "9ce28eda0da7bca025f41de6bc8620c816f6ff6fac8c13f96629cefe5cd85322"
+  },
+  "notes_lf_sha256": {
+    "notes/518-f1-quantitative-mellin-division-and-mobius-source.md": "f632708873b80ae6741264a0c2954f1c59b06d1f4f296100da135c7ba86fee0e",
+    "notes/519-f1-closed-source-image-and-degree-moments.md": "93d39e6d932c9913f5feb77bed4d1ad096c9d984ed571e894576fce6c53b124c",
+    "notes/520-f1-source-quotient-spectrum-and-centered-growth.md": "81a05708dfd2139d374d9fac7f631e66ea4449d502cf9fb0c52f53b900dc9651"
+  },
+  "checks": {
+    "total": 167,
+    "passed": 167,
+    "failed": 0,
+    "exact_finite_rational_or_integer": 134,
+    "non_interval_mpmath_floating": 33,
+    "exact_mobius_divisor_checks": 96,
+    "exact_hypothetical_finite_model_checks": 38,
+    "maximum_reported_floating_absolute_error": "2.133561E-32",
+    "maximum_reported_error_to_tolerance_ratio": "0.0002133561",
+    "floating_tolerances": [
+      "1.0e-28",
+      "1.0e-45"
+    ]
+  },
+  "parsedJSON_identical": true,
+  "comparison_scope": "Entire parsed JSON objects including every check, metadata, limitations, script hash and notes hashes",
+  "scope": [
+    "Full script and all published JSON records were read before the independent rerun; only the requested public execution receipt was written by this reviewer.",
+    "Integer Mobius divisor identities and rational finite Jordan/resolvent/polynomial models are exact finite checks.",
+    "Gaussian Mellin integrals, source degree integrals, Poisson comparisons, finite Mobius reconstructions and negative-even residue/Taylor comparisons are non-interval mpmath floating checks.",
+    "Gaussian sums use 12 terms for stable radius-at-least-one values; direct Poisson comparisons use 64 terms; Mobius reconstruction cutoffs are 16, 32 and 48 at radii 0.3, 0.8 and 1.4.",
+    "The cutoff-16 floating Mobius checks use tolerance 1e-28; other floating checks use 1e-45 at 60 decimal digits.",
+    "Finite truncations do not certify infinite source reconstruction, all-strip division estimates, Frechet spectrum or the proposed subexponential bound.",
+    "Finite Jordan blocks of sizes 1 through 4 are hypothetical algebra models; they are not observations of multiple Riemann zeta zeros.",
+    "Notes prove the source, division and spectrum theorems and only the conditional implication from the proposed growth bound; this execution does not establish that bound, RH, positive Hilbert realization or global HH1.",
+    "This is a reproducibility receipt for bounded diagnostics, not a Lean proof, interval certificate or external peer endorsement."
+  ]
+}

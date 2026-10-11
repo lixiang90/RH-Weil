@@ -60,9 +60,25 @@
 普通同调类本身仍有非零增量，未完成全局HH链。
 实际非零源关系p有紧支sharp逼近p_R，准确保留双次数且在指数半范数收敛；
 先按组合支集覆盖S_R后，固定有界混合测试族的完整读出趋零。
-下一步比较保留全部重数导数的关系空间与实际闭像I：
-从Mellin商M_f/(2ζ)出发，明确逆Mellin的Schwartz源、原点条件与垂直增长要求，
-再判断这些条件是否足以恢复真实源及对应复合。不能先把全部kerΩ商掉，
+[518](notes/518-f1-quantitative-mellin-division-and-mobius-source.md)支付增长和真实源重建：
+完整重数消失后，Jensen–Poisson局部除法使M_f/(2ζ)自动在所有固定条带快速衰减；
+实际Möbius逆及负偶整数留数恢复同一偶Schwartz源，原点零值和零积分均付清。
+[519](notes/519-f1-closed-source-image-and-degree-moments.md)因此证明实际像J已经闭，
+J=I恰为全部非平凡零点完整jets消失的空间，并核准两次数的源积分。
+P_an等于标量根空间当且仅当全部非平凡零点简单；此判据没有证明简单性。
+[520](notes/520-f1-source-quotient-spectrum-and-centered-growth.md)在这个实际Fréchet商上
+明确构造全部非零点的连续双侧预解，谱恰为全部非平凡零点，广义重数恰为真实重数。
+闭像和Schwartz谱属于Meyer既有机制，准确来源核对见
+[限定原文审查](literature/supplements/2026-10-11-meyer-radial-source-and-spectrum-audit.md)；
+本轮补齐本仓库的完整jets、常数、实际源作用及明确谱定义，不主张首次谱实现。
+
+下一合同转为520式(8)：对每个商空间连续半范数p及每个ε>0，
+从真实算术来源证明统一的双向中心化增长p(V_a x)≤C e^(ε|a|)q(x)。
+该估计若能独立证明即迫使中心线，但现在只是充分合同；
+有限Jordan块、离散谱或源Hilbert空间酉性不能自动提供无限个高度的统一q。
+忠实正定Hilbert酉化还会排除重零点，强于单纯RH，不能将其当作无代价的下一步。
+来源卷积、平移及Fourier–sharp已经相容，几何对应复合和principal仍须另证。
+不能先把全部kerΩ商掉，
 也不能把读出分布极限当成已付款的全局同调链；全局负性仍缺独立算术依据。
 双有限位物理实时间仍不能充当无穷位；旧Ω与原有限源同型加权闭链的零结论保持。
 后续仍须检验真实主商的双次数和混合根空间；不按目标Weil值倒填配对，不自由消掉源边电荷。
@@ -74,12 +90,13 @@
 暂停该候选；最迟第8轮复盘。具体合同与停止条件见历史复盘第5节。
 
 历史回顾本身不计数学轮；506、507–508、509–510、511–512共四轮，
-第五周期复盘已完成；513–514、515–517各计新的一轮，当前周期轮数为2，
-历史复盘后的Weil／F₁轮数累计5；下一次周期复盘仍按4–8轮执行。
+第五周期复盘已完成；513–514、515–517、518–520各计新的一轮，当前周期轮数为3，
+历史复盘后的Weil／F₁轮数累计6；下一次周期复盘仍按4–8轮执行，本轮不重置。
 来源、符号与量词的三份独立审查及有限诊断见
 [有限S融合收据](reviews/2026-10-11/f1-semilocal-relative-cycle-round-verification.json)
 及[单素数传递与混合尾收据](reviews/2026-10-11/f1-single-prime-relative-transfer-round-verification.json)、
-[共同核与源导数障碍收据](reviews/2026-10-11/f1-central-mixed-kernel-round-verification.json)。
+[共同核与源导数障碍收据](reviews/2026-10-11/f1-central-mixed-kernel-round-verification.json)、
+[定量源重建与完整Fréchet谱收据](reviews/2026-10-11/f1-mellin-source-round-verification.json)。
 
 2026-10-08：扩大已准入AM低集覆盖，原点表额外切线与全部2399域精确对偶支付九点增益。
 项目简单临界线比例更新为66812491/99194740=67.3548728491047…%。

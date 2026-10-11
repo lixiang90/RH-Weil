@@ -1,0 +1,1349 @@
+{
+  "schema_version": 1,
+  "research_date": "2026-10-11",
+  "notes_lf_sha256": {
+    "notes/518-f1-quantitative-mellin-division-and-mobius-source.md": "f632708873b80ae6741264a0c2954f1c59b06d1f4f296100da135c7ba86fee0e",
+    "notes/519-f1-closed-source-image-and-degree-moments.md": "93d39e6d932c9913f5feb77bed4d1ad096c9d984ed571e894576fce6c53b124c",
+    "notes/520-f1-source-quotient-spectrum-and-centered-growth.md": "81a05708dfd2139d374d9fac7f631e66ea4449d502cf9fb0c52f53b900dc9651"
+  },
+  "script_lf_sha256": "f7a4e61618df5ad3e0e8086a526ce4419ce16c01bb3fb2823e62617cec9f5879",
+  "precision_decimal_digits": 60,
+  "gaussian_terms_for_radius_ge_one": 12,
+  "mobius_cutoffs": [
+    16,
+    32,
+    48
+  ],
+  "direct_poisson_comparison_terms": 64,
+  "exact_mobius_maximum": 96,
+  "hypothetical_jordan_block_sizes": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "check_count": 167,
+  "passed_count": 167,
+  "failed_count": 0,
+  "limitations": [
+    "Floating checks are not interval certificates or Lean proofs.",
+    "Finite Gaussian and Mobius sums do not certify infinite analytic statements.",
+    "The infinite source, division and spectrum theorems, and only the conditional implication from the proposed growth bound, are proved in the notes.",
+    "Jordan blocks are finite hypothetical models, not observations of multiple zeta zeros.",
+    "No RH, independent subexponential bound, positive Hilbert realization, or global HH1 is certified."
+  ],
+  "checks": [
+    {
+      "id": "gaussian_source_mellin_0.7",
+      "kind": "non_interval_mpmath_floating",
+      "passed": true,
+      "observed": "-0.044772394537507309481589259739331957",
+      "expected": "-0.044772394537507309481589259739331957",
+      "absolute_error": "0.0",
+      "tolerance": "1.0e-45"
+    },
+    {
+      "id": "gaussian_source_mellin_1.0",
+      "kind": "non_interval_mpmath_floating",
+      "passed": true,
+      "observed": "-3.7294763917902242832335973869115349e-66",
+      "expected": "0.0",
+      "absolute_error": "3.7294764e-66",
+      "tolerance": "1.0e-45"
+    },
+    {
+      "id": "gaussian_source_mellin_2.0",
+      "kind": "non_interval_mpmath_floating",
+      "passed": true,
+      "observed": "0.079577471545947667884441881686257181",
+      "expected": "0.079577471545947667884441881686257181",
+      "absolute_error": "0.0",
+      "tolerance": "1.0e-45"
+    },
+    {
+      "id": "gaussian_source_mellin_(2.0 + 0.9j)",
+      "kind": "non_interval_mpmath_floating",
+      "passed": true,
+      "observed": "(0.091897669038709383564177795610664234 + 0.040373368294601813243991285620518023j)",
+      "expected": "(0.091897669038709383564177795610664234 + 0.040373368294601813243991285620518023j)",
+      "absolute_error": "0.0",
+      "tolerance": "1.0e-45"
+    },
+    {
+      "id": "gaussian_source_mellin_(-1.0 + 0.4j)",
+      "kind": "non_interval_mpmath_floating",
+      "passed": true,
+      "observed": "(-1.0187522367034665092759933315255303 + 1.0457070378740648013624336292139306j)",
+      "expected": "(-1.0187522367034665092759933315255303 + 1.0457070378740648013624336292139306j)",
+      "absolute_error": "1.5557538e-61",
+      "tolerance": "1.0e-45"
+    },
+    {
+      "id": "source_zero_integral",
+      "kind": "non_interval_mpmath_floating",
+      "passed": true,
+      "observed": "-3.7294763917902242832335973869115349e-66",
+      "expected": "0.0",
+      "absolute_error": "3.7294764e-66",
+      "tolerance": "1.0e-45"
+    },
+    {
+      "id": "source_degree_c_negative_dr_over_r",
+      "kind": "non_interval_mpmath_floating",
+      "passed": true,
+      "observed": "0.25",
+      "expected": "0.25",
+      "absolute_error": "0.0",
+      "tolerance": "1.0e-45"
+    },
+    {
+      "id": "source_degree_d_twice_log_r_dr",
+      "kind": "non_interval_mpmath_floating",
+      "passed": true,
+      "observed": "0.25",
+      "expected": "0.25",
+      "absolute_error": "0.0",
+      "tolerance": "1.0e-45"
+    },
+    {
+      "id": "actual_target_H0_mellin_0.0",
+      "kind": "non_interval_mpmath_floating",
+      "passed": true,
+      "observed": "0.25",
+      "expected": "0.25",
+      "absolute_error": "0.0",
+      "tolerance": "1.0e-45",
+      "detail": {
+        "positive_gaussian_terms": 12,
+        "negative_log_via_poisson": true
+      }
+    },
+    {
+      "id": "actual_target_H0_mellin_1.0",
+      "kind": "non_interval_mpmath_floating",
+      "passed": true,
+      "observed": "0.25",
+      "expected": "0.25",
+      "absolute_error": "0.0",
+      "tolerance": "1.0e-45",
+      "detail": {
+        "positive_gaussian_terms": 12,
+        "negative_log_via_poisson": true
+      }
+    },
+    {
+      "id": "actual_target_H0_mellin_0.7",
+      "kind": "non_interval_mpmath_floating",
+      "passed": true,
+      "observed": "0.24879020732556345178889553762819193",
+      "expected": "0.24879020732556345178889553762819193",
+      "absolute_error": "1.9446923e-62",
+      "tolerance": "1.0e-45",
+      "detail": {
+        "positive_gaussian_terms": 12,
+        "negative_log_via_poisson": true
+      }
+    },
+    {
+      "id": "actual_target_H0_mellin_2.0",
+      "kind": "non_interval_mpmath_floating",
+      "passed": true,
+      "observed": "0.26179938779914943653855361527329191",
+      "expected": "0.26179938779914943653855361527329191",
+      "absolute_error": "0.0",
+      "tolerance": "1.0e-45",
+      "detail": {
+        "positive_gaussian_terms": 12,
+        "negative_log_via_poisson": true
+      }
+    },
+    {
+      "id": "actual_target_H0_mellin_(2.0 + 0.9j)",
+      "kind": "non_interval_mpmath_floating",
+      "passed": true,
+      "observed": "(0.25649637247836173031580380147635025 + 0.015984678978571546368914995088069789j)",
+      "expected": "(0.25649637247836173031580380147635025 + 0.015984678978571546368914995088069789j)",
+      "absolute_error": "3.8893845e-62",
+      "tolerance": "1.0e-45",
+      "detail": {
+        "positive_gaussian_terms": 12,
+        "negative_log_via_poisson": true
+      }
+    },
+    {
+      "id": "mobius_divisor_identity_1",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "1",
+      "expected": "1"
+    },
+    {
+      "id": "mobius_divisor_identity_2",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "0",
+      "expected": "0"
+    },
+    {
+      "id": "mobius_divisor_identity_3",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "0",
+      "expected": "0"
+    },
+    {
+      "id": "mobius_divisor_identity_4",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "0",
+      "expected": "0"
+    },
+    {
+      "id": "mobius_divisor_identity_5",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "0",
+      "expected": "0"
+    },
+    {
+      "id": "mobius_divisor_identity_6",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "0",
+      "expected": "0"
+    },
+    {
+      "id": "mobius_divisor_identity_7",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "0",
+      "expected": "0"
+    },
+    {
+      "id": "mobius_divisor_identity_8",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "0",
+      "expected": "0"
+    },
+    {
+      "id": "mobius_divisor_identity_9",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "0",
+      "expected": "0"
+    },
+    {
+      "id": "mobius_divisor_identity_10",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "0",
+      "expected": "0"
+    },
+    {
+      "id": "mobius_divisor_identity_11",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "0",
+      "expected": "0"
+    },
+    {
+      "id": "mobius_divisor_identity_12",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "0",
+      "expected": "0"
+    },
+    {
+      "id": "mobius_divisor_identity_13",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "0",
+      "expected": "0"
+    },
+    {
+      "id": "mobius_divisor_identity_14",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "0",
+      "expected": "0"
+    },
+    {
+      "id": "mobius_divisor_identity_15",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "0",
+      "expected": "0"
+    },
+    {
+      "id": "mobius_divisor_identity_16",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "0",
+      "expected": "0"
+    },
+    {
+      "id": "mobius_divisor_identity_17",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "0",
+      "expected": "0"
+    },
+    {
+      "id": "mobius_divisor_identity_18",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "0",
+      "expected": "0"
+    },
+    {
+      "id": "mobius_divisor_identity_19",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "0",
+      "expected": "0"
+    },
+    {
+      "id": "mobius_divisor_identity_20",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "0",
+      "expected": "0"
+    },
+    {
+      "id": "mobius_divisor_identity_21",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "0",
+      "expected": "0"
+    },
+    {
+      "id": "mobius_divisor_identity_22",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "0",
+      "expected": "0"
+    },
+    {
+      "id": "mobius_divisor_identity_23",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "0",
+      "expected": "0"
+    },
+    {
+      "id": "mobius_divisor_identity_24",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "0",
+      "expected": "0"
+    },
+    {
+      "id": "mobius_divisor_identity_25",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "0",
+      "expected": "0"
+    },
+    {
+      "id": "mobius_divisor_identity_26",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "0",
+      "expected": "0"
+    },
+    {
+      "id": "mobius_divisor_identity_27",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "0",
+      "expected": "0"
+    },
+    {
+      "id": "mobius_divisor_identity_28",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "0",
+      "expected": "0"
+    },
+    {
+      "id": "mobius_divisor_identity_29",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "0",
+      "expected": "0"
+    },
+    {
+      "id": "mobius_divisor_identity_30",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "0",
+      "expected": "0"
+    },
+    {
+      "id": "mobius_divisor_identity_31",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "0",
+      "expected": "0"
+    },
+    {
+      "id": "mobius_divisor_identity_32",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "0",
+      "expected": "0"
+    },
+    {
+      "id": "mobius_divisor_identity_33",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "0",
+      "expected": "0"
+    },
+    {
+      "id": "mobius_divisor_identity_34",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "0",
+      "expected": "0"
+    },
+    {
+      "id": "mobius_divisor_identity_35",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "0",
+      "expected": "0"
+    },
+    {
+      "id": "mobius_divisor_identity_36",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "0",
+      "expected": "0"
+    },
+    {
+      "id": "mobius_divisor_identity_37",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "0",
+      "expected": "0"
+    },
+    {
+      "id": "mobius_divisor_identity_38",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "0",
+      "expected": "0"
+    },
+    {
+      "id": "mobius_divisor_identity_39",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "0",
+      "expected": "0"
+    },
+    {
+      "id": "mobius_divisor_identity_40",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "0",
+      "expected": "0"
+    },
+    {
+      "id": "mobius_divisor_identity_41",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "0",
+      "expected": "0"
+    },
+    {
+      "id": "mobius_divisor_identity_42",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "0",
+      "expected": "0"
+    },
+    {
+      "id": "mobius_divisor_identity_43",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "0",
+      "expected": "0"
+    },
+    {
+      "id": "mobius_divisor_identity_44",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "0",
+      "expected": "0"
+    },
+    {
+      "id": "mobius_divisor_identity_45",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "0",
+      "expected": "0"
+    },
+    {
+      "id": "mobius_divisor_identity_46",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "0",
+      "expected": "0"
+    },
+    {
+      "id": "mobius_divisor_identity_47",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "0",
+      "expected": "0"
+    },
+    {
+      "id": "mobius_divisor_identity_48",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "0",
+      "expected": "0"
+    },
+    {
+      "id": "mobius_divisor_identity_49",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "0",
+      "expected": "0"
+    },
+    {
+      "id": "mobius_divisor_identity_50",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "0",
+      "expected": "0"
+    },
+    {
+      "id": "mobius_divisor_identity_51",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "0",
+      "expected": "0"
+    },
+    {
+      "id": "mobius_divisor_identity_52",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "0",
+      "expected": "0"
+    },
+    {
+      "id": "mobius_divisor_identity_53",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "0",
+      "expected": "0"
+    },
+    {
+      "id": "mobius_divisor_identity_54",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "0",
+      "expected": "0"
+    },
+    {
+      "id": "mobius_divisor_identity_55",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "0",
+      "expected": "0"
+    },
+    {
+      "id": "mobius_divisor_identity_56",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "0",
+      "expected": "0"
+    },
+    {
+      "id": "mobius_divisor_identity_57",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "0",
+      "expected": "0"
+    },
+    {
+      "id": "mobius_divisor_identity_58",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "0",
+      "expected": "0"
+    },
+    {
+      "id": "mobius_divisor_identity_59",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "0",
+      "expected": "0"
+    },
+    {
+      "id": "mobius_divisor_identity_60",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "0",
+      "expected": "0"
+    },
+    {
+      "id": "mobius_divisor_identity_61",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "0",
+      "expected": "0"
+    },
+    {
+      "id": "mobius_divisor_identity_62",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "0",
+      "expected": "0"
+    },
+    {
+      "id": "mobius_divisor_identity_63",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "0",
+      "expected": "0"
+    },
+    {
+      "id": "mobius_divisor_identity_64",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "0",
+      "expected": "0"
+    },
+    {
+      "id": "mobius_divisor_identity_65",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "0",
+      "expected": "0"
+    },
+    {
+      "id": "mobius_divisor_identity_66",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "0",
+      "expected": "0"
+    },
+    {
+      "id": "mobius_divisor_identity_67",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "0",
+      "expected": "0"
+    },
+    {
+      "id": "mobius_divisor_identity_68",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "0",
+      "expected": "0"
+    },
+    {
+      "id": "mobius_divisor_identity_69",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "0",
+      "expected": "0"
+    },
+    {
+      "id": "mobius_divisor_identity_70",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "0",
+      "expected": "0"
+    },
+    {
+      "id": "mobius_divisor_identity_71",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "0",
+      "expected": "0"
+    },
+    {
+      "id": "mobius_divisor_identity_72",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "0",
+      "expected": "0"
+    },
+    {
+      "id": "mobius_divisor_identity_73",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "0",
+      "expected": "0"
+    },
+    {
+      "id": "mobius_divisor_identity_74",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "0",
+      "expected": "0"
+    },
+    {
+      "id": "mobius_divisor_identity_75",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "0",
+      "expected": "0"
+    },
+    {
+      "id": "mobius_divisor_identity_76",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "0",
+      "expected": "0"
+    },
+    {
+      "id": "mobius_divisor_identity_77",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "0",
+      "expected": "0"
+    },
+    {
+      "id": "mobius_divisor_identity_78",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "0",
+      "expected": "0"
+    },
+    {
+      "id": "mobius_divisor_identity_79",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "0",
+      "expected": "0"
+    },
+    {
+      "id": "mobius_divisor_identity_80",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "0",
+      "expected": "0"
+    },
+    {
+      "id": "mobius_divisor_identity_81",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "0",
+      "expected": "0"
+    },
+    {
+      "id": "mobius_divisor_identity_82",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "0",
+      "expected": "0"
+    },
+    {
+      "id": "mobius_divisor_identity_83",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "0",
+      "expected": "0"
+    },
+    {
+      "id": "mobius_divisor_identity_84",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "0",
+      "expected": "0"
+    },
+    {
+      "id": "mobius_divisor_identity_85",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "0",
+      "expected": "0"
+    },
+    {
+      "id": "mobius_divisor_identity_86",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "0",
+      "expected": "0"
+    },
+    {
+      "id": "mobius_divisor_identity_87",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "0",
+      "expected": "0"
+    },
+    {
+      "id": "mobius_divisor_identity_88",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "0",
+      "expected": "0"
+    },
+    {
+      "id": "mobius_divisor_identity_89",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "0",
+      "expected": "0"
+    },
+    {
+      "id": "mobius_divisor_identity_90",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "0",
+      "expected": "0"
+    },
+    {
+      "id": "mobius_divisor_identity_91",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "0",
+      "expected": "0"
+    },
+    {
+      "id": "mobius_divisor_identity_92",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "0",
+      "expected": "0"
+    },
+    {
+      "id": "mobius_divisor_identity_93",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "0",
+      "expected": "0"
+    },
+    {
+      "id": "mobius_divisor_identity_94",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "0",
+      "expected": "0"
+    },
+    {
+      "id": "mobius_divisor_identity_95",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "0",
+      "expected": "0"
+    },
+    {
+      "id": "mobius_divisor_identity_96",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "0",
+      "expected": "0"
+    },
+    {
+      "id": "poisson_periodization_at_0.3",
+      "kind": "non_interval_mpmath_floating",
+      "passed": true,
+      "observed": "5.3815938926003871176694955760133646e-12",
+      "expected": "5.3815938926003871176694955760133646e-12",
+      "absolute_error": "1.574939e-62",
+      "tolerance": "1.0e-45",
+      "detail": {
+        "direct_gaussian_terms": 64,
+        "stable_target_terms": 12
+      }
+    },
+    {
+      "id": "actual_mobius_source_at_0.3_N16",
+      "kind": "non_interval_mpmath_floating",
+      "passed": true,
+      "observed": "-0.25940639010099408720688345901368211",
+      "expected": "-0.25940639010099408720688345901370344",
+      "absolute_error": "2.133561e-32",
+      "tolerance": "1.0e-28",
+      "detail": {
+        "mobius_cutoff": 16,
+        "target_terms": 12,
+        "negative_log_target_uses_poisson": true
+      }
+    },
+    {
+      "id": "actual_mobius_source_at_0.3_N32",
+      "kind": "non_interval_mpmath_floating",
+      "passed": true,
+      "observed": "-0.25940639010099408720688345901370344",
+      "expected": "-0.25940639010099408720688345901370344",
+      "absolute_error": "0.0",
+      "tolerance": "1.0e-45",
+      "detail": {
+        "mobius_cutoff": 32,
+        "target_terms": 12,
+        "negative_log_target_uses_poisson": true
+      }
+    },
+    {
+      "id": "actual_mobius_source_at_0.3_N48",
+      "kind": "non_interval_mpmath_floating",
+      "passed": true,
+      "observed": "-0.25940639010099408720688345901370344",
+      "expected": "-0.25940639010099408720688345901370344",
+      "absolute_error": "0.0",
+      "tolerance": "1.0e-45",
+      "detail": {
+        "mobius_cutoff": 48,
+        "target_terms": 12,
+        "negative_log_target_uses_poisson": true
+      }
+    },
+    {
+      "id": "poisson_periodization_at_0.8",
+      "kind": "non_interval_mpmath_floating",
+      "passed": true,
+      "observed": "0.3087942895816668086020058487360007",
+      "expected": "0.3087942895816668086020058487360007",
+      "absolute_error": "2.3336307e-61",
+      "tolerance": "1.0e-45",
+      "detail": {
+        "direct_gaussian_terms": 64,
+        "stable_target_terms": 12
+      }
+    },
+    {
+      "id": "actual_mobius_source_at_0.8_N16",
+      "kind": "non_interval_mpmath_floating",
+      "passed": true,
+      "observed": "0.13747578387872527369029283014921107",
+      "expected": "0.13747578387872527369029283014921107",
+      "absolute_error": "1.1668154e-61",
+      "tolerance": "1.0e-28",
+      "detail": {
+        "mobius_cutoff": 16,
+        "target_terms": 12,
+        "negative_log_target_uses_poisson": true
+      }
+    },
+    {
+      "id": "actual_mobius_source_at_0.8_N32",
+      "kind": "non_interval_mpmath_floating",
+      "passed": true,
+      "observed": "0.13747578387872527369029283014921107",
+      "expected": "0.13747578387872527369029283014921107",
+      "absolute_error": "1.1668154e-61",
+      "tolerance": "1.0e-45",
+      "detail": {
+        "mobius_cutoff": 32,
+        "target_terms": 12,
+        "negative_log_target_uses_poisson": true
+      }
+    },
+    {
+      "id": "actual_mobius_source_at_0.8_N48",
+      "kind": "non_interval_mpmath_floating",
+      "passed": true,
+      "observed": "0.13747578387872527369029283014921107",
+      "expected": "0.13747578387872527369029283014921107",
+      "absolute_error": "1.1668154e-61",
+      "tolerance": "1.0e-45",
+      "detail": {
+        "mobius_cutoff": 48,
+        "target_terms": 12,
+        "negative_log_target_uses_poisson": true
+      }
+    },
+    {
+      "id": "poisson_periodization_at_1.4",
+      "kind": "non_interval_mpmath_floating",
+      "passed": true,
+      "observed": "0.12145439804397471787963845219742691",
+      "expected": "0.12145439804397471787963845219742691",
+      "absolute_error": "0.0",
+      "tolerance": "1.0e-45",
+      "detail": {
+        "direct_gaussian_terms": 64,
+        "stable_target_terms": 12
+      }
+    },
+    {
+      "id": "actual_mobius_source_at_1.4_N16",
+      "kind": "non_interval_mpmath_floating",
+      "passed": true,
+      "observed": "0.060727187568636199733210302675487088",
+      "expected": "0.060727187568636199733210302675487088",
+      "absolute_error": "0.0",
+      "tolerance": "1.0e-28",
+      "detail": {
+        "mobius_cutoff": 16,
+        "target_terms": 12,
+        "negative_log_target_uses_poisson": true
+      }
+    },
+    {
+      "id": "actual_mobius_source_at_1.4_N32",
+      "kind": "non_interval_mpmath_floating",
+      "passed": true,
+      "observed": "0.060727187568636199733210302675487088",
+      "expected": "0.060727187568636199733210302675487088",
+      "absolute_error": "0.0",
+      "tolerance": "1.0e-45",
+      "detail": {
+        "mobius_cutoff": 32,
+        "target_terms": 12,
+        "negative_log_target_uses_poisson": true
+      }
+    },
+    {
+      "id": "actual_mobius_source_at_1.4_N48",
+      "kind": "non_interval_mpmath_floating",
+      "passed": true,
+      "observed": "0.060727187568636199733210302675487088",
+      "expected": "0.060727187568636199733210302675487088",
+      "absolute_error": "0.0",
+      "tolerance": "1.0e-45",
+      "detail": {
+        "mobius_cutoff": 48,
+        "target_terms": 12,
+        "negative_log_target_uses_poisson": true
+      }
+    },
+    {
+      "id": "trivial_zero_residue_vs_source_taylor_k1",
+      "kind": "non_interval_mpmath_floating",
+      "passed": true,
+      "observed": "-4.7123889803846898576939650749192543",
+      "expected": "-4.7123889803846898576939650749192543",
+      "absolute_error": "0.0",
+      "tolerance": "1.0e-45"
+    },
+    {
+      "id": "gamma_residue_vs_source_taylor_k1",
+      "kind": "non_interval_mpmath_floating",
+      "passed": true,
+      "observed": "-4.7123889803846898576939650749192543",
+      "expected": "-4.7123889803846898576939650749192543",
+      "absolute_error": "0.0",
+      "tolerance": "1.0e-45"
+    },
+    {
+      "id": "trivial_zero_residue_vs_source_taylor_k2",
+      "kind": "non_interval_mpmath_floating",
+      "passed": true,
+      "observed": "24.674011002723396547086227499690378",
+      "expected": "24.674011002723396547086227499690378",
+      "absolute_error": "4.9784122e-60",
+      "tolerance": "1.0e-45"
+    },
+    {
+      "id": "gamma_residue_vs_source_taylor_k2",
+      "kind": "non_interval_mpmath_floating",
+      "passed": true,
+      "observed": "24.674011002723396547086227499690378",
+      "expected": "24.674011002723396547086227499690378",
+      "absolute_error": "0.0",
+      "tolerance": "1.0e-45"
+    },
+    {
+      "id": "trivial_zero_residue_vs_source_taylor_k3",
+      "kind": "non_interval_mpmath_floating",
+      "passed": true,
+      "observed": "-54.260984190524685307083551367427442",
+      "expected": "-54.260984190524685307083551367427442",
+      "absolute_error": "4.9784122e-60",
+      "tolerance": "1.0e-45"
+    },
+    {
+      "id": "gamma_residue_vs_source_taylor_k3",
+      "kind": "non_interval_mpmath_floating",
+      "passed": true,
+      "observed": "-54.260984190524685307083551367427442",
+      "expected": "-54.260984190524685307083551367427442",
+      "absolute_error": "4.9784122e-60",
+      "tolerance": "1.0e-45"
+    },
+    {
+      "id": "trivial_zero_residue_vs_source_taylor_k4",
+      "kind": "non_interval_mpmath_floating",
+      "passed": true,
+      "observed": "73.056818275501827927330249516528833",
+      "expected": "73.056818275501827927330249516528833",
+      "absolute_error": "1.9913649e-59",
+      "tolerance": "1.0e-45"
+    },
+    {
+      "id": "gamma_residue_vs_source_taylor_k4",
+      "kind": "non_interval_mpmath_floating",
+      "passed": true,
+      "observed": "73.056818275501827927330249516528833",
+      "expected": "73.056818275501827927330249516528833",
+      "absolute_error": "0.0",
+      "tolerance": "1.0e-45"
+    },
+    {
+      "id": "hypothetical_jordan_kernel_m1_k1",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "1",
+      "expected": "1"
+    },
+    {
+      "id": "hypothetical_jordan_kernel_m1_k2",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "1",
+      "expected": "1"
+    },
+    {
+      "id": "hypothetical_jordan_group_law_m1",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "[[Fraction(1, 1)]]",
+      "expected": "[[Fraction(1, 1)]]"
+    },
+    {
+      "id": "hypothetical_jordan_left_resolvent_m1",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "[[Fraction(1, 1)]]",
+      "expected": "[[Fraction(1, 1)]]"
+    },
+    {
+      "id": "hypothetical_jordan_right_resolvent_m1",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "[[Fraction(1, 1)]]",
+      "expected": "[[Fraction(1, 1)]]"
+    },
+    {
+      "id": "hypothetical_corrected_mellin_numerator_m1",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "0",
+      "expected": "0"
+    },
+    {
+      "id": "hypothetical_mellin_division_remainder_m1",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "0",
+      "expected": "0"
+    },
+    {
+      "id": "hypothetical_mellin_resolvent_identity_m1",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "[Fraction(1, 1), Fraction(2, 1), Fraction(3, 1)]",
+      "expected": "[Fraction(1, 1), Fraction(2, 1), Fraction(3, 1)]"
+    },
+    {
+      "id": "hypothetical_jordan_kernel_m2_k1",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "1",
+      "expected": "1"
+    },
+    {
+      "id": "hypothetical_jordan_kernel_m2_k2",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "2",
+      "expected": "2"
+    },
+    {
+      "id": "hypothetical_jordan_kernel_m2_k3",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "2",
+      "expected": "2"
+    },
+    {
+      "id": "hypothetical_jordan_group_law_m2",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "[[Fraction(1, 1), Fraction(-1, 21)], [Fraction(0, 1), Fraction(1, 1)]]",
+      "expected": "[[Fraction(1, 1), Fraction(-1, 21)], [Fraction(0, 1), Fraction(1, 1)]]"
+    },
+    {
+      "id": "hypothetical_jordan_left_resolvent_m2",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "[[Fraction(1, 1), Fraction(0, 1)], [Fraction(0, 1), Fraction(1, 1)]]",
+      "expected": "[[Fraction(1, 1), Fraction(0, 1)], [Fraction(0, 1), Fraction(1, 1)]]"
+    },
+    {
+      "id": "hypothetical_jordan_right_resolvent_m2",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "[[Fraction(1, 1), Fraction(0, 1)], [Fraction(0, 1), Fraction(1, 1)]]",
+      "expected": "[[Fraction(1, 1), Fraction(0, 1)], [Fraction(0, 1), Fraction(1, 1)]]"
+    },
+    {
+      "id": "hypothetical_corrected_mellin_numerator_m2",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "0",
+      "expected": "0"
+    },
+    {
+      "id": "hypothetical_mellin_division_remainder_m2",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "0",
+      "expected": "0"
+    },
+    {
+      "id": "hypothetical_mellin_resolvent_identity_m2",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "[Fraction(1, 1), Fraction(2, 1), Fraction(3, 1)]",
+      "expected": "[Fraction(1, 1), Fraction(2, 1), Fraction(3, 1)]"
+    },
+    {
+      "id": "hypothetical_jordan_kernel_m3_k1",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "1",
+      "expected": "1"
+    },
+    {
+      "id": "hypothetical_jordan_kernel_m3_k2",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "2",
+      "expected": "2"
+    },
+    {
+      "id": "hypothetical_jordan_kernel_m3_k3",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "3",
+      "expected": "3"
+    },
+    {
+      "id": "hypothetical_jordan_kernel_m3_k4",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "3",
+      "expected": "3"
+    },
+    {
+      "id": "hypothetical_jordan_group_law_m3",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "[[Fraction(1, 1), Fraction(-1, 21), Fraction(1, 882)], [Fraction(0, 1), Fraction(1, 1), Fraction(-1, 21)], [Fraction(0, 1), Fraction(0, 1), Fraction(1, 1)]]",
+      "expected": "[[Fraction(1, 1), Fraction(-1, 21), Fraction(1, 882)], [Fraction(0, 1), Fraction(1, 1), Fraction(-1, 21)], [Fraction(0, 1), Fraction(0, 1), Fraction(1, 1)]]"
+    },
+    {
+      "id": "hypothetical_jordan_left_resolvent_m3",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "[[Fraction(1, 1), Fraction(0, 1), Fraction(0, 1)], [Fraction(0, 1), Fraction(1, 1), Fraction(0, 1)], [Fraction(0, 1), Fraction(0, 1), Fraction(1, 1)]]",
+      "expected": "[[Fraction(1, 1), Fraction(0, 1), Fraction(0, 1)], [Fraction(0, 1), Fraction(1, 1), Fraction(0, 1)], [Fraction(0, 1), Fraction(0, 1), Fraction(1, 1)]]"
+    },
+    {
+      "id": "hypothetical_jordan_right_resolvent_m3",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "[[Fraction(1, 1), Fraction(0, 1), Fraction(0, 1)], [Fraction(0, 1), Fraction(1, 1), Fraction(0, 1)], [Fraction(0, 1), Fraction(0, 1), Fraction(1, 1)]]",
+      "expected": "[[Fraction(1, 1), Fraction(0, 1), Fraction(0, 1)], [Fraction(0, 1), Fraction(1, 1), Fraction(0, 1)], [Fraction(0, 1), Fraction(0, 1), Fraction(1, 1)]]"
+    },
+    {
+      "id": "hypothetical_corrected_mellin_numerator_m3",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "0",
+      "expected": "0"
+    },
+    {
+      "id": "hypothetical_mellin_division_remainder_m3",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "0",
+      "expected": "0"
+    },
+    {
+      "id": "hypothetical_mellin_resolvent_identity_m3",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "[Fraction(1, 1), Fraction(2, 1), Fraction(3, 1), Fraction(0, 1)]",
+      "expected": "[Fraction(1, 1), Fraction(2, 1), Fraction(3, 1), Fraction(0, 1)]"
+    },
+    {
+      "id": "hypothetical_jordan_kernel_m4_k1",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "1",
+      "expected": "1"
+    },
+    {
+      "id": "hypothetical_jordan_kernel_m4_k2",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "2",
+      "expected": "2"
+    },
+    {
+      "id": "hypothetical_jordan_kernel_m4_k3",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "3",
+      "expected": "3"
+    },
+    {
+      "id": "hypothetical_jordan_kernel_m4_k4",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "4",
+      "expected": "4"
+    },
+    {
+      "id": "hypothetical_jordan_kernel_m4_k5",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "4",
+      "expected": "4"
+    },
+    {
+      "id": "hypothetical_jordan_group_law_m4",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "[[Fraction(1, 1), Fraction(-1, 21), Fraction(1, 882), Fraction(-1, 55566)], [Fraction(0, 1), Fraction(1, 1), Fraction(-1, 21), Fraction(1, 882)], [Fraction(0, 1), Fraction(0, 1), Fraction(1, 1), Fraction(-1, 21)], [Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(1, 1)]]",
+      "expected": "[[Fraction(1, 1), Fraction(-1, 21), Fraction(1, 882), Fraction(-1, 55566)], [Fraction(0, 1), Fraction(1, 1), Fraction(-1, 21), Fraction(1, 882)], [Fraction(0, 1), Fraction(0, 1), Fraction(1, 1), Fraction(-1, 21)], [Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(1, 1)]]"
+    },
+    {
+      "id": "hypothetical_jordan_left_resolvent_m4",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "[[Fraction(1, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)], [Fraction(0, 1), Fraction(1, 1), Fraction(0, 1), Fraction(0, 1)], [Fraction(0, 1), Fraction(0, 1), Fraction(1, 1), Fraction(0, 1)], [Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(1, 1)]]",
+      "expected": "[[Fraction(1, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)], [Fraction(0, 1), Fraction(1, 1), Fraction(0, 1), Fraction(0, 1)], [Fraction(0, 1), Fraction(0, 1), Fraction(1, 1), Fraction(0, 1)], [Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(1, 1)]]"
+    },
+    {
+      "id": "hypothetical_jordan_right_resolvent_m4",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "[[Fraction(1, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)], [Fraction(0, 1), Fraction(1, 1), Fraction(0, 1), Fraction(0, 1)], [Fraction(0, 1), Fraction(0, 1), Fraction(1, 1), Fraction(0, 1)], [Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(1, 1)]]",
+      "expected": "[[Fraction(1, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)], [Fraction(0, 1), Fraction(1, 1), Fraction(0, 1), Fraction(0, 1)], [Fraction(0, 1), Fraction(0, 1), Fraction(1, 1), Fraction(0, 1)], [Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(1, 1)]]"
+    },
+    {
+      "id": "hypothetical_corrected_mellin_numerator_m4",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "0",
+      "expected": "0"
+    },
+    {
+      "id": "hypothetical_mellin_division_remainder_m4",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "0",
+      "expected": "0"
+    },
+    {
+      "id": "hypothetical_mellin_resolvent_identity_m4",
+      "kind": "exact_finite_rational_or_integer",
+      "passed": true,
+      "observed": "[Fraction(1, 1), Fraction(2, 1), Fraction(3, 1), Fraction(0, 1), Fraction(0, 1)]",
+      "expected": "[Fraction(1, 1), Fraction(2, 1), Fraction(3, 1), Fraction(0, 1), Fraction(0, 1)]"
+    }
+  ]
+}
