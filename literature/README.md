@@ -1,5 +1,12 @@
 # RH-Weil 文献索引
 
+2026-10-12按用户要求核查Connes近期论文，区分最低态实零点定理、
+有限截面／增长支集两种极限及未证的算术正性，
+并补看2026年8月31日absolute twistor原稿。
+版本日期与限定阅读范围见[前沿审查](supplements/2026-10-12-connes-recent-paper-audit.md)，
+方法反思与下一阶段取舍见[策略复盘](../goals/reviews/2026-10-12-connes-frontier-and-equivalence-strategy.md)。
+没有新PDF归档、数学研究轮或新RH／边界／比例结论。
+
 2026-10-12实际Möbius质量与双端完成续核：DLMF的无条件部分和界、
 平凡零点导数、Beta／Gamma公式，以及Conrey1989的经典简单中心线计数，
 使用范围见[限定输入审查](supplements/2026-10-12-mobius-taylor-and-two-weight-input-audit.md)。
