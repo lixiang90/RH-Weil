@@ -1,0 +1,338 @@
+{
+  "schema": "rh-weil-single-prime-transfer-diagnostics-v1",
+  "status": "PASS",
+  "notes_sha256_normalized_lf": {
+    "notes/513-f1-single-prime-relative-chain-transfer.md": "3701355b4c4f48c5e81c37103d6171dbcf2cc55c687ba0505ac4a35460ae590f",
+    "notes/514-f1-late-prime-tail-and-mixed-charge.md": "589215da264b690416079856d755de5d5b3177d89a1821287eacee4ac76afdf0"
+  },
+  "exact_formal_word_checks": [
+    "513: corrected product b2 identity in the free noncommutative algebra",
+    "513: bare product retains the nonzero formal unit tensor",
+    "514: central mixed b2 identity including both unit terms",
+    "514: central action commutes with b2 on noncommuting factors"
+  ],
+  "numerical_checks": [
+    {
+      "label": "coefficient-l1:2",
+      "absolute_error": "0.0"
+    },
+    {
+      "label": "coefficient-first-weight:2",
+      "absolute_error": "0.0"
+    },
+    {
+      "label": "coefficient-away-from-zero:2",
+      "absolute_error": "1.75162308040602134e-46"
+    },
+    {
+      "label": "physical-shift-phase:2:-2.0",
+      "absolute_error": "1.23858455823796687e-46"
+    },
+    {
+      "label": "physical-shift-phase:2:-0.1",
+      "absolute_error": "1.75162308040602134e-46"
+    },
+    {
+      "label": "physical-shift-phase:2:0.0",
+      "absolute_error": "1.75162308040602134e-46"
+    },
+    {
+      "label": "physical-shift-phase:2:0.7",
+      "absolute_error": "2.15643583015787111e-46"
+    },
+    {
+      "label": "physical-shift-phase:2:3.0",
+      "absolute_error": "1.23858455823796687e-46"
+    },
+    {
+      "label": "shift-diagonal-weight:2:-3",
+      "absolute_error": "1.313717310304516e-46"
+    },
+    {
+      "label": "shift-diagonal-weight:2:-2",
+      "absolute_error": "1.75162308040602134e-46"
+    },
+    {
+      "label": "shift-diagonal-weight:2:-1",
+      "absolute_error": "1.75162308040602134e-46"
+    },
+    {
+      "label": "shift-diagonal-weight:2:0",
+      "absolute_error": "1.23941025089928241e-46"
+    },
+    {
+      "label": "shift-diagonal-weight:2:1",
+      "absolute_error": "1.75162308040602134e-46"
+    },
+    {
+      "label": "shift-diagonal-weight:2:2",
+      "absolute_error": "8.75811540203010669e-47"
+    },
+    {
+      "label": "shift-diagonal-weight:2:3",
+      "absolute_error": "4.37905770101505335e-47"
+    },
+    {
+      "label": "compact-shift-trace-charge:2",
+      "absolute_error": "8.75811540203010669e-47"
+    },
+    {
+      "label": "coefficient-l1:3",
+      "absolute_error": "0.0"
+    },
+    {
+      "label": "coefficient-first-weight:3",
+      "absolute_error": "0.0"
+    },
+    {
+      "label": "coefficient-away-from-zero:3",
+      "absolute_error": "1.75162308040602134e-46"
+    },
+    {
+      "label": "physical-shift-phase:3:-2.0",
+      "absolute_error": "8.75811540203010669e-47"
+    },
+    {
+      "label": "physical-shift-phase:3:-0.1",
+      "absolute_error": "4.37905770101505335e-47"
+    },
+    {
+      "label": "physical-shift-phase:3:0.0",
+      "absolute_error": "0.0"
+    },
+    {
+      "label": "physical-shift-phase:3:0.7",
+      "absolute_error": "0.0"
+    },
+    {
+      "label": "physical-shift-phase:3:3.0",
+      "absolute_error": "9.7918706968636091e-47"
+    },
+    {
+      "label": "shift-diagonal-weight:3:-3",
+      "absolute_error": "2.18952885050752667e-47"
+    },
+    {
+      "label": "shift-diagonal-weight:3:-2",
+      "absolute_error": "0.0"
+    },
+    {
+      "label": "shift-diagonal-weight:3:-1",
+      "absolute_error": "0.0"
+    },
+    {
+      "label": "shift-diagonal-weight:3:0",
+      "absolute_error": "4.86761751168489688e-48"
+    },
+    {
+      "label": "shift-diagonal-weight:3:1",
+      "absolute_error": "0.0"
+    },
+    {
+      "label": "shift-diagonal-weight:3:2",
+      "absolute_error": "0.0"
+    },
+    {
+      "label": "shift-diagonal-weight:3:3",
+      "absolute_error": "2.18952885050752667e-47"
+    },
+    {
+      "label": "compact-shift-trace-charge:3",
+      "absolute_error": "0.0"
+    },
+    {
+      "label": "coefficient-l1:11",
+      "absolute_error": "0.0"
+    },
+    {
+      "label": "coefficient-first-weight:11",
+      "absolute_error": "8.75811540203010669e-47"
+    },
+    {
+      "label": "coefficient-away-from-zero:11",
+      "absolute_error": "0.0"
+    },
+    {
+      "label": "physical-shift-phase:11:-2.0",
+      "absolute_error": "0.0"
+    },
+    {
+      "label": "physical-shift-phase:11:-0.1",
+      "absolute_error": "9.02765872097975293e-47"
+    },
+    {
+      "label": "physical-shift-phase:11:0.0",
+      "absolute_error": "0.0"
+    },
+    {
+      "label": "physical-shift-phase:11:0.7",
+      "absolute_error": "0.0"
+    },
+    {
+      "label": "physical-shift-phase:11:3.0",
+      "absolute_error": "8.75811540203010669e-47"
+    },
+    {
+      "label": "shift-diagonal-weight:11:-3",
+      "absolute_error": "1.36845553156720417e-47"
+    },
+    {
+      "label": "shift-diagonal-weight:11:-2",
+      "absolute_error": "0.0"
+    },
+    {
+      "label": "shift-diagonal-weight:11:-1",
+      "absolute_error": "0.0"
+    },
+    {
+      "label": "shift-diagonal-weight:11:0",
+      "absolute_error": "8.70580878683462229e-48"
+    },
+    {
+      "label": "shift-diagonal-weight:11:1",
+      "absolute_error": "0.0"
+    },
+    {
+      "label": "shift-diagonal-weight:11:2",
+      "absolute_error": "0.0"
+    },
+    {
+      "label": "shift-diagonal-weight:11:3",
+      "absolute_error": "0.0"
+    },
+    {
+      "label": "compact-shift-trace-charge:11",
+      "absolute_error": "7.67971058676846049e-48"
+    },
+    {
+      "label": "coefficient-l1:97",
+      "absolute_error": "0.0"
+    },
+    {
+      "label": "coefficient-first-weight:97",
+      "absolute_error": "2.18952885050752667e-47"
+    },
+    {
+      "label": "coefficient-away-from-zero:97",
+      "absolute_error": "0.0"
+    },
+    {
+      "label": "physical-shift-phase:97:-2.0",
+      "absolute_error": "8.77520442394234358e-47"
+    },
+    {
+      "label": "physical-shift-phase:97:-0.1",
+      "absolute_error": "8.82627297006376187e-47"
+    },
+    {
+      "label": "physical-shift-phase:97:0.0",
+      "absolute_error": "0.0"
+    },
+    {
+      "label": "physical-shift-phase:97:0.7",
+      "absolute_error": "0.0"
+    },
+    {
+      "label": "physical-shift-phase:97:3.0",
+      "absolute_error": "2.18952885050752667e-47"
+    },
+    {
+      "label": "shift-diagonal-weight:97:-3",
+      "absolute_error": "0.0"
+    },
+    {
+      "label": "shift-diagonal-weight:97:-2",
+      "absolute_error": "1.36845553156720417e-48"
+    },
+    {
+      "label": "shift-diagonal-weight:97:-1",
+      "absolute_error": "0.0"
+    },
+    {
+      "label": "shift-diagonal-weight:97:0",
+      "absolute_error": "4.59089122284567278e-49"
+    },
+    {
+      "label": "shift-diagonal-weight:97:1",
+      "absolute_error": "0.0"
+    },
+    {
+      "label": "shift-diagonal-weight:97:2",
+      "absolute_error": "0.0"
+    },
+    {
+      "label": "shift-diagonal-weight:97:3",
+      "absolute_error": "0.0"
+    },
+    {
+      "label": "compact-shift-trace-charge:97",
+      "absolute_error": "7.7262041994271987e-49"
+    },
+    {
+      "label": "late-mixed-first-sample:3",
+      "absolute_error": "0.0"
+    },
+    {
+      "label": "late-mixed-vanishing-sample:3:2",
+      "absolute_error": "0.0"
+    },
+    {
+      "label": "late-mixed-vanishing-sample:3:3",
+      "absolute_error": "0.0"
+    },
+    {
+      "label": "late-hs-geometric-energy:3",
+      "absolute_error": "0.0"
+    },
+    {
+      "label": "late-mixed-charge:3",
+      "absolute_error": "0.0"
+    },
+    {
+      "label": "late-mixed-first-sample:11",
+      "absolute_error": "0.0"
+    },
+    {
+      "label": "late-mixed-vanishing-sample:11:2",
+      "absolute_error": "0.0"
+    },
+    {
+      "label": "late-mixed-vanishing-sample:11:3",
+      "absolute_error": "0.0"
+    },
+    {
+      "label": "late-hs-geometric-energy:11",
+      "absolute_error": "0.0"
+    },
+    {
+      "label": "late-mixed-charge:11",
+      "absolute_error": "0.0"
+    }
+  ],
+  "numerical_check_count": 74,
+  "working_decimal_digits": 45,
+  "series_cutoff": 360,
+  "maximum_observed_error": "2.15643583015787111e-46",
+  "late_compact_bump_examples": [
+    {
+      "prime": 3,
+      "original_charge": "0 (compact support)",
+      "mixed_charge": "0.0168828820924371805440194",
+      "trace_norm_lower_bound": "0.23334008047176274064664",
+      "hs_norm_squared": "0.0194946730415306369531748"
+    },
+    {
+      "prime": 11,
+      "original_charge": "0 (compact support)",
+      "mixed_charge": "0.0192440568482326137855645",
+      "trace_norm_lower_bound": "0.265974123907510391148784",
+      "hs_norm_squared": "0.0116046029108830708123491"
+    }
+  ],
+  "scope": [
+    "Exact checks verify formal algebra identities and signs only.",
+    "Floating finite series and quadrature are not interval or Lean proofs.",
+    "Actual-source descent, S1 bounds, infinite-prime divergence, and HH1 nonzero detection are proved in notes 513-514.",
+    "No new zero proportion, zero-free bound, or RH proof."
+  ]
+}

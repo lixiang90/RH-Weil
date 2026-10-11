@@ -1,0 +1,72 @@
+{
+  "schema": "rh-weil-f1-single-prime-relative-transfer-round-verification-v1",
+  "status": "PASS",
+  "date": "2026-10-11",
+  "baseline_commit": "4ca45a51daefac5ff0b2cf74463720fe550178bb",
+  "completed_iteration_count": 1,
+  "rounds_since_cycle5_review": 1,
+  "weil_f1_rounds_since_historical_review": 4,
+  "periodic_review_required_this_round": false,
+  "notes": [
+    "notes/513-f1-single-prime-relative-chain-transfer.md",
+    "notes/514-f1-late-prime-tail-and-mixed-charge.md"
+  ],
+  "source_sha256_normalized_lf": {
+    "notes/513-f1-single-prime-relative-chain-transfer.md": "3701355b4c4f48c5e81c37103d6171dbcf2cc55c687ba0505ac4a35460ae590f",
+    "notes/514-f1-late-prime-tail-and-mixed-charge.md": "589215da264b690416079856d755de5d5b3177d89a1821287eacee4ac76afdf0",
+    "reviews/2026-10-11/f1-single-prime-chain-review.md": "9e18e711e21e8b23b68aad84bc3282816e2fc220645917d680e819cf2418db3e",
+    "reviews/2026-10-11/f1-single-prime-source-review.md": "7dedabc950a5413786c73af4fefd83ae9c5c9151e839905e25c4d711ec0534e2",
+    "reviews/2026-10-11/f1-single-prime-analysis-review.md": "73d899a5c55db05fed59d35168a50043bec6ecb6d356dd3fbfcb15ca5cc139bc",
+    "scripts/single_prime_relative_transfer_diagnostics.py": "286cede46960aef23c870c2c9016daee23609e94cb9b3def2544abe50b6940e3",
+    "reviews/2026-10-11/f1-single-prime-relative-transfer-diagnostics.json": "493591e2e62b0d702d215c3b7cff9f092751c871866e5adfb40a352841842e0f",
+    "RESEARCH_BRANCHES.md": "33434d732cf588c49ffeee5ce767ed97c195d3d54f69484024c631f0db685e9f",
+    "goals/review-cadence.json": "a065f86c59b7d1ee21f0c6ab78974cdfdad980b036a0ae82b07b4a63f44fa5cf"
+  },
+  "validated_local_links_excluding_self_reference": 288,
+  "validated_document_count": 6,
+  "new_note_math_delimiters_balanced": true,
+  "control_characters_clean": true,
+  "paper_layout_and_documentation_check": "PASS",
+  "modified_preexisting_files": [
+    "RESEARCH_BRANCHES.md",
+    "goals/review-cadence.json"
+  ],
+  "old_mathematical_notes_papers_formalization_unchanged": true,
+  "readme_project_introduction_unchanged": true,
+  "independent_reviews": {
+    "source_final_full_text": "reviews/2026-10-11/f1-single-prime-source-review.md",
+    "chain_final_full_text_and_diagnostic_rerun": "reviews/2026-10-11/f1-single-prime-chain-review.md",
+    "analysis_complete_preclarification_draft": "reviews/2026-10-11/f1-single-prime-analysis-review.md",
+    "analysis_review_scope": "Full original draft accepted; its sole Fourier-notation suggestion was implemented by root. Exact restoration hashes prove these are the only changes. Final source and chain reviewers both reread the clarified full notes.",
+    "review_type": "Internal independent agent review, not external peer review or novelty certification."
+  },
+  "exact_formal_word_identity_checks": 4,
+  "finite_floating_diagnostic_checks": 74,
+  "diagnostic_working_decimal_digits": 45,
+  "maximum_observed_diagnostic_error": "2.15643583015787111e-46",
+  "independent_diagnostic_parsed_json_identical": true,
+  "diagnostics_are_interval_or_lean_proofs": false,
+  "completed_scope": [
+    "Actual unit-shell source inclusion gives a radial-corner star isomorphism, preserving trace and S1 norm.",
+    "Actual physical dilation series proves the single-prime weighted boundary is S1, with an explicit continuous bound and complete new Euler charge.",
+    "Unit-corrected ordinary HH1 chains obey an explicit b2 product identity and finite-prime order compatibility; bare chains retain their unit term.",
+    "Actual fixed-test single-prime boundary norm is at least log(ell)/sqrt(ell) times the supremum norm of eta, so its prime S1 norm sum diverges.",
+    "For log(ell)>2R, original charge is zero and actual squared HS norm is 2log(ell)/ell times the squared L2 norm of eta.",
+    "Actual compact even convolution is central modulo S1 and supplies a legitimate ordinary HH1 mixed-charge family.",
+    "A translated compact mixed test gives positive log(ell)/sqrt(ell) times the squared L2 norm of eta, detecting a nonzero late-prime corrected HH1 class despite zero original charge.",
+    "One research iteration recorded; cycle5 cadence increases from zero to one."
+  ],
+  "limits": [
+    "Only the direct absolute S1 prime-boundary sum is excluded; conditional, conjugated, compensated sums or weaker topologies are not ruled out.",
+    "The detecting mixed test depends on the prime and its support grows; fixed-compact-support scalar stabilization remains valid.",
+    "No genuine geometric principal divisor, completed principal quotient, or identification with the full note405 mixed radical is supplied.",
+    "Central module operations are proved for ordinary Hochschild chains, not automatically for a cyclic complex.",
+    "No independent global Weil sign, arithmetic Hodge constraint, Riemann-Roch, all-zero spectral identification or RH proof.",
+    "No new zero proportion, zero-free bound, paper, Lean formalization, kernel replay, or website submission."
+  ],
+  "next_research_contract": [
+    "Identify the common mixed detection kernel of actual source relations and compare it with both degrees and note405's full mixed radical.",
+    "Explain a weaker global source-compatible structure that retains central actions and finite chain transport without an absolute S1 prime tail.",
+    "Obtain any global sign from independent arithmetic input; Hilbert-source unitarity alone cannot identify the full zeta zero spectrum."
+  ]
+}
