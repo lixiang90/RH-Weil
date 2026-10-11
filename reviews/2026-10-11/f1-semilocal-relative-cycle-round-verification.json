@@ -1,0 +1,82 @@
+{
+  "schema": "rh-weil-f1-semilocal-relative-cycle-round-verification-v1",
+  "status": "PASS",
+  "date": "2026-10-11",
+  "baseline_commit": "f85347130c77f7e3906534533af2dd17ef1b4384",
+  "completed_iteration_count": 1,
+  "rounds_completed_since_cycle4_review": 4,
+  "periodic_review_completed": "goals/reviews/2026-10-11-original-route-review-cycle-5.md",
+  "rounds_since_cycle_review_after_review": 0,
+  "weil_f1_rounds_since_historical_review": 3,
+  "notes": [
+    "notes/511-f1-semilocal-fourier-inversion-cycle.md",
+    "notes/512-f1-finite-place-double-moment-sign-test.md"
+  ],
+  "source_sha256_normalized_lf": {
+    "notes/511-f1-semilocal-fourier-inversion-cycle.md": "d0a9607e27402967f488c2536093ff6ea6d7a0efb7df57064df6131b41420f6f",
+    "notes/512-f1-finite-place-double-moment-sign-test.md": "fd07fadfbe4ab84d5c2097ed890fefe1a91924e5d370a7f1ad198a374560a747",
+    "goals/reviews/2026-10-11-original-route-review-cycle-5.md": "4d8edad5e8aa2f55d197603b3aa4309ee4df78e9e7211b6ec0008d61eae20b5f",
+    "reviews/2026-10-11/f1-semilocal-hilbert-review.md": "24b8f4302f5816be6942fa7fbca1c467512a9b8c450c941ebdf327ee579982e7",
+    "reviews/2026-10-11/f1-semilocal-prime-review.md": "30f971bbbb5445df8f784937266031f5bead05d3dae811138af667338f34da74",
+    "reviews/2026-10-11/f1-semilocal-independent-review.md": "498f497eabefe1e56151bc761636b8a8ab0f372982ed32f2311dd7c13d02e3ed",
+    "reviews/2026-10-11/f1-semilocal-diagnostics-review.md": "a3b1d48c9ffce26838aafcb9138e964e022e391d9a11209d5510fa2c3eb254cc",
+    "reviews/2026-10-11/f1-cycle5-direction-review.md": "fa8f99036d424bdfe6174a9d8dd650158da7369248d9040eb770c6c39130a38d",
+    "RESEARCH_BRANCHES.md": "47cc6ea3f4f08ca1194a083cbe83e57c664d8bbb058c1ec5f3dc794f034213c0",
+    "scripts/semilocal_relative_cycle_diagnostics.py": "5f2faac12b33db18a536291e5c0fd1ecf9226d2c68b8f23627a5b086829f4071",
+    "reviews/2026-10-11/f1-semilocal-relative-cycle-diagnostics.json": "4e9705a01790bb46b959c0c711e1f52b7d4cd2e5bfe82a404eb56176d2b5e05f",
+    "goals/review-cadence.json": "d362e790a06dc864a224d3637bfe02ef1ce109aa07ba83943e759eca67e69ee1"
+  },
+  "validated_local_links": 306,
+  "validated_document_count": 9,
+  "new_note_math_delimiters_balanced": true,
+  "control_characters_clean": true,
+  "paper_layout_and_documentation_check": "PASS",
+  "modified_preexisting_files": [
+    "RESEARCH_BRANCHES.md",
+    "goals/review-cadence.json"
+  ],
+  "old_mathematical_notes_papers_formalization_unchanged": true,
+  "readme_project_introduction_unchanged": true,
+  "independent_reverse_reviews": {
+    "hilbert_source": "accepted: full quotient completion, fixed Haar constant, dense inversion and actual Fourier, radial source and whole-space S1",
+    "gamma_prime": "accepted: Mellin strip, finite Euler direction, conductor signs, complete local charge, quarter-psi and Parseval constants",
+    "reverse_audit": "accepted: fixed-S compact double-moment obstruction, growing-support quantifiers and noncompact natural inclusion",
+    "diagnostics": "accepted: independent exit-zero rerun gives exactly the same parsed diagnostic JSON",
+    "cycle5_direction": "accepted: complete four-round review, third post-historical Weil/F1 round, source transfer before principal radical and RR"
+  },
+  "root_clarifications": [
+    "Real cosine Mellin equation explicitly restricted to 0<Re s<1.",
+    "Fixed self-dual additive/probability multiplicative Haar ratio retained without inferring historical author intent.",
+    "Actual generating star algebra explicitly specified.",
+    "Natural source-inclusion Fourier defect and its exact 2/sqrt(ell) norm proved.",
+    "Review baseline identified as current input baseline, not the start of the four-round cycle."
+  ],
+  "numerical_diagnostic_identity_checks": 39,
+  "finite_numerical_norm_samples": 516,
+  "diagnostic_working_decimal_digits": 45,
+  "maximum_observed_diagnostic_error": "9.72590359671137625e-24",
+  "diagnostics_are_interval_or_lean_proofs": false,
+  "primary_inputs_checked": [
+    "Root: Connes math/9811068v1 local PDF29-36, finite-S completion, Lemma1, Theorem4 and proof.",
+    "Independent reviewers: Connes fixed local PDF29-36; prime reviewer also PDF72-73.",
+    "Notes404-405 original fixed source, double moments and full arithmetic pairing; note510 actual local S1/trace proof.",
+    "Root and direction reviewer: note506 full text and review protocol/cadence; old certificates and Lean not rerun."
+  ],
+  "completed_scope": [
+    "Actual same finite-S quotient source, common Fourier and dense source inversion.",
+    "Test-weighted ordinary HH1 cycle with trace-class boundary on the whole weighted quotient Hilbert space.",
+    "Half-charge equals complete N_S including original Gamma identity constant and finite prime-power contributions.",
+    "All original compact tests compare with full N only after covering their prime-power support by S.",
+    "For every fixed finite S, exact double-degree-zero compact tests have positive N_S self-pairing for large width.",
+    "The natural unit-shell source inclusion is isometric but has noncompact radial Fourier defect of norm 2/sqrt(ell).",
+    "Four-round periodic review completed and cadence reset."
+  ],
+  "limits": [
+    "No cross-S chain transfer, uniform increasing-S S1 bound, all-adele chain or principal divisor theorem.",
+    "No independent global Weil negativity, Hodge inequality, effective sections, Riemann-Roch or RH.",
+    "The fixed-S sign obstruction is not a full-N counterexample or an actual off-line zero.",
+    "The noncompact defect only excludes the specified natural inclusion and its trace-class corrections.",
+    "No new zero proportion, zero-free bound, Lean formalization, kernel replay or website acceptance.",
+    "Internal independent review is not external peer review or novelty certification."
+  ]
+}

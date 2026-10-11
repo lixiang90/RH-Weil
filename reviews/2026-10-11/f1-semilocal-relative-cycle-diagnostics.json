@@ -1,0 +1,176 @@
+{
+  "schema": "rh-weil-semilocal-relative-cycle-diagnostics-v1",
+  "status": "PASS",
+  "precision_decimal_digits": 45,
+  "identity_check_count": 39,
+  "natural_inclusion_norm_sample_count": 516,
+  "maximum_identity_absolute_error": "9.72590359671137625e-24",
+  "checks": [
+    {
+      "label": "common-unitarity:-100.0",
+      "absolute_error": "0.0"
+    },
+    {
+      "label": "common-log-derivative:-100.0",
+      "absolute_error": "1.2346026636458351e-44"
+    },
+    {
+      "label": "common-unitarity:-9.0",
+      "absolute_error": "0.0"
+    },
+    {
+      "label": "common-log-derivative:-9.0",
+      "absolute_error": "1.81660997650933928e-45"
+    },
+    {
+      "label": "common-unitarity:-1.0",
+      "absolute_error": "8.75811540203010669e-47"
+    },
+    {
+      "label": "common-log-derivative:-1.0",
+      "absolute_error": "4.70848712171816348e-46"
+    },
+    {
+      "label": "common-unitarity:-0.1",
+      "absolute_error": "0.0"
+    },
+    {
+      "label": "common-log-derivative:-0.1",
+      "absolute_error": "1.04614268868858541e-45"
+    },
+    {
+      "label": "common-unitarity:0.0",
+      "absolute_error": "0.0"
+    },
+    {
+      "label": "common-log-derivative:0.0",
+      "absolute_error": "2.80259692864963414e-45"
+    },
+    {
+      "label": "common-unitarity:0.1",
+      "absolute_error": "0.0"
+    },
+    {
+      "label": "common-log-derivative:0.1",
+      "absolute_error": "1.04614268868858541e-45"
+    },
+    {
+      "label": "common-unitarity:1.0",
+      "absolute_error": "8.75811540203010669e-47"
+    },
+    {
+      "label": "common-log-derivative:1.0",
+      "absolute_error": "4.70848712171816348e-46"
+    },
+    {
+      "label": "common-unitarity:9.0",
+      "absolute_error": "0.0"
+    },
+    {
+      "label": "common-log-derivative:9.0",
+      "absolute_error": "1.81660997650933928e-45"
+    },
+    {
+      "label": "common-unitarity:100.0",
+      "absolute_error": "0.0"
+    },
+    {
+      "label": "common-log-derivative:100.0",
+      "absolute_error": "1.2346026636458351e-44"
+    },
+    {
+      "label": "self-dual-source-mellin:0.0",
+      "absolute_error": "0.0"
+    },
+    {
+      "label": "self-dual-source-mellin:0.4",
+      "absolute_error": "5.54090946985687416e-25"
+    },
+    {
+      "label": "self-dual-source-mellin:2.0",
+      "absolute_error": "2.48271563631689317e-25"
+    },
+    {
+      "label": "self-dual-source-mellin:6.0",
+      "absolute_error": "9.72590359671137625e-24"
+    },
+    {
+      "label": "finite-charge:2:sigma=0.6:eta0=True",
+      "absolute_error": "0.0"
+    },
+    {
+      "label": "finite-charge:5:sigma=0.6:eta0=True",
+      "absolute_error": "1.09476442525376334e-47"
+    },
+    {
+      "label": "finite-charge:11:sigma=0.6:eta0=True",
+      "absolute_error": "1.51385393179621961e-47"
+    },
+    {
+      "label": "finite-charge:2:sigma=0.6:eta0=False",
+      "absolute_error": "0.0"
+    },
+    {
+      "label": "finite-charge:5:sigma=0.6:eta0=False",
+      "absolute_error": "3.28429327576129001e-47"
+    },
+    {
+      "label": "finite-charge:11:sigma=0.6:eta0=False",
+      "absolute_error": "3.42113882891801043e-49"
+    },
+    {
+      "label": "finite-charge:2:sigma=1.1:eta0=True",
+      "absolute_error": "1.75162308040602134e-46"
+    },
+    {
+      "label": "finite-charge:5:sigma=1.1:eta0=True",
+      "absolute_error": "0.0"
+    },
+    {
+      "label": "finite-charge:11:sigma=1.1:eta0=True",
+      "absolute_error": "0.0"
+    },
+    {
+      "label": "finite-charge:2:sigma=1.1:eta0=False",
+      "absolute_error": "0.0"
+    },
+    {
+      "label": "finite-charge:5:sigma=1.1:eta0=False",
+      "absolute_error": "1.75162308040602134e-46"
+    },
+    {
+      "label": "finite-charge:11:sigma=1.1:eta0=False",
+      "absolute_error": "8.75811540203010669e-47"
+    },
+    {
+      "label": "natural-inclusion-norm-attained:3",
+      "absolute_error": "0.0"
+    },
+    {
+      "label": "natural-inclusion-norm-attained:7",
+      "absolute_error": "0.0"
+    },
+    {
+      "label": "natural-inclusion-norm-attained:11",
+      "absolute_error": "0.0"
+    },
+    {
+      "label": "natural-inclusion-norm-attained:97",
+      "absolute_error": "2.18952885050752667e-47"
+    },
+    {
+      "label": "fixed-S-density-at-zero",
+      "absolute_error": "1.40129846432481707e-45"
+    }
+  ],
+  "source_lf_sha256": {
+    "notes/511-f1-semilocal-fourier-inversion-cycle.md": "d0a9607e27402967f488c2536093ff6ea6d7a0efb7df57064df6131b41420f6f",
+    "notes/512-f1-finite-place-double-moment-sign-test.md": "fd07fadfbe4ab84d5c2097ed890fefe1a91924e5d370a7f1ad198a374560a747"
+  },
+  "limits": [
+    "Floating arithmetic, not interval arithmetic or a Lean/kernel certificate.",
+    "Schwartz Gaussian diagnostics do not prove the compact-test sign obstruction.",
+    "No trace-class admission, quotient descent, global negativity or RH is certified by this script.",
+    "No uniform bound or limit as S increases is tested."
+  ]
+}
