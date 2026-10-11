@@ -5,21 +5,22 @@
   "target_rounds": 6,
   "maximum_rounds": 8,
   "counting_unit": "completed research continuation iteration, not tool calls or files",
-  "rounds_since_review": 1,
+  "rounds_since_review": 2,
   "last_review": "goals/reviews/2026-10-11-original-route-review-cycle-5.md",
   "last_review_baseline_commit": "f85347130c77f7e3906534533af2dd17ef1b4384",
   "last_review_completed_round_count": 4,
   "last_review_trigger": "same finite-S source fusion, fixed-S double-moment sign obstruction and noncompact natural-inclusion Fourier defect; early review at round four",
-  "last_completed_round": "notes/514-f1-late-prime-tail-and-mixed-charge.md",
+  "last_completed_round": "notes/517-f1-weak-observable-limit-and-source-cutoffs.md",
   "last_completed_round_date": "2026-10-11",
-  "last_completed_round_baseline_commit": "4ca45a51daefac5ff0b2cf74463720fe550178bb",
+  "last_completed_round_baseline_commit": "3e7f25ae5111f559ada2fce290fb38e63d0ad3d8",
   "latest_user_directed_review": "goals/reviews/2026-10-11-weil-f1-retrospective.md",
   "latest_user_directed_review_baseline_commit": "331107b2ba0716d2fb78ec1f605f05fe57393274",
   "latest_user_directed_review_scope": "notes001-437; historical review and priority change, no new completed mathematical round or reset of the recent-mathematics cycle",
-  "current_research_focus": "actual one-new-prime source-corner HH1 transfer completed; absolute S1 prime tail obstructed and zero-original-charge late-prime HH1 classes detected by actual central mixed charges; next identify the common mixed detection kernel of true source relations and compatibility with both degrees and the full principal radical before weaker global source topology, independent Weil negativity and Riemann-Roch",
-  "weil_f1_rounds_since_historical_review": 4,
+  "current_research_focus": "actual compact chain families have zero common central mixed kernel; the complete scalar radical is exactly double-degree-zero Mellin value vanishing, while true source closure retains multiplicity jets; weak observable prime globalization and exact-degree compact source cutoffs are paid, but global HH completion and independent sign remain open; next characterize Mellin division, vertical growth and inverse-Schwartz source conditions for the true jet-preserving image closure",
+  "weil_f1_rounds_since_historical_review": 5,
   "last_completed_round_note_paths": [
-    "notes/513-f1-single-prime-relative-chain-transfer.md",
-    "notes/514-f1-late-prime-tail-and-mixed-charge.md"
+    "notes/515-f1-common-central-mixed-kernels.md",
+    "notes/516-f1-global-mixed-radical-and-mellin-jets.md",
+    "notes/517-f1-weak-observable-limit-and-source-cutoffs.md"
   ]
 }

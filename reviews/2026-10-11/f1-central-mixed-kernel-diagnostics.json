@@ -1,0 +1,25 @@
+{
+  "schema": "rh-weil-central-mixed-kernel-diagnostics-v1",
+  "status": "PASS",
+  "source_sha256_normalized_lf": {
+    "notes/515-f1-common-central-mixed-kernels.md": "dc7318475e1f2e5a1f019312339622d2e980ef8a2e5b68bb4d51e4287a64d27f",
+    "notes/516-f1-global-mixed-radical-and-mellin-jets.md": "d21496da1ee280a0f733f322baddf46eb4cac4b50242494ae76b0d464533bbbd",
+    "notes/517-f1-weak-observable-limit-and-source-cutoffs.md": "7aecd286712b16628eccea614ca5d3eab8d8772ae1e4cd255426ae398889d4f1"
+  },
+  "exact_hypothetical_orbit_checks": {
+    "checks": 21,
+    "orbit_polynomial": "s**4 - 2*s**3 + 85*s**2/9 - 76*s/9 + 1480/81",
+    "model_is_an_actual_zeta_multiple_zero": false
+  },
+  "bounded_floating_diagnostics": {
+    "checks": 29,
+    "working_decimal_digits": 40,
+    "maximum_observed_error": "1.1116686809924836159e-37",
+    "non_small_support_detector_charge": "0.01206657476704005574566",
+    "local_support_threshold": "6.04964746441294608373102",
+    "late_prime_29_charge_at_its_logarithm": "0.230031754376985758793255",
+    "floating_diagnostics_are_interval_or_lean_proofs": false
+  },
+  "external_simple_zero_theorem_is_reproved_here": false,
+  "global_hh_completion_is_computationally_certified": false
+}

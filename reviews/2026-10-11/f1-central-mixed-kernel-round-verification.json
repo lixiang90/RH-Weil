@@ -1,0 +1,100 @@
+{
+  "schema": "rh-weil-f1-central-mixed-kernel-round-verification-v1",
+  "status": "PASS",
+  "date": "2026-10-11",
+  "baseline_commit": "3e7f25ae5111f559ada2fce290fb38e63d0ad3d8",
+  "completed_iteration_count": 1,
+  "rounds_since_cycle5_review": 2,
+  "weil_f1_rounds_since_historical_review": 5,
+  "periodic_review_required_this_round": false,
+  "notes": [
+    "notes/515-f1-common-central-mixed-kernels.md",
+    "notes/516-f1-global-mixed-radical-and-mellin-jets.md",
+    "notes/517-f1-weak-observable-limit-and-source-cutoffs.md"
+  ],
+  "source_sha256_normalized_lf": {
+    "notes/515-f1-common-central-mixed-kernels.md": "dc7318475e1f2e5a1f019312339622d2e980ef8a2e5b68bb4d51e4287a64d27f",
+    "notes/516-f1-global-mixed-radical-and-mellin-jets.md": "d21496da1ee280a0f733f322baddf46eb4cac4b50242494ae76b0d464533bbbd",
+    "notes/517-f1-weak-observable-limit-and-source-cutoffs.md": "7aecd286712b16628eccea614ca5d3eab8d8772ae1e4cd255426ae398889d4f1",
+    "reviews/2026-10-11/f1-central-mixed-analysis-review.md": "5e909d5bbc312e06ed7f210fb19d5d1dcf7f745d22311ca11bbfede28124cda5",
+    "reviews/2026-10-11/f1-central-mixed-principal-review.md": "d1530d2d5c2deec1eb960916c0f5e841b612e297de1b4d7be54664e89039b0c2",
+    "reviews/2026-10-11/f1-central-mixed-global-review.md": "bc2bde51d25c7c4c397a5e2f0a589656c936857b1fb6381a7f92a59410be7e74",
+    "scripts/central_mixed_kernel_diagnostics.py": "bc2f1bd3888ecb1e5c8da9023af07464876a533cc18f86728753bcd179cfc722",
+    "reviews/2026-10-11/f1-central-mixed-kernel-diagnostics.json": "62890e9e4cdcec99dbfb946f274d7432c6911f7b7eac1bf7424e24cb0619d270",
+    "RESEARCH_BRANCHES.md": "5c88acfda07f4919ed4a8c03699e75cfb6ee6cc2dcdf8b66fc4009746c0a8a41",
+    "goals/review-cadence.json": "d1dfe466ecce663c4b649766cb84d33601300ec45eb22ef7e2ada368b079835e"
+  },
+  "validated_local_links_excluding_self_reference": 297,
+  "validated_document_count": 7,
+  "new_note_math_delimiters_balanced": true,
+  "control_characters_and_trailing_whitespace_clean": true,
+  "paper_layout_and_documentation_check": "PASS",
+  "modified_preexisting_files": [
+    "RESEARCH_BRANCHES.md",
+    "goals/review-cadence.json"
+  ],
+  "old_mathematical_notes_papers_formalization_unchanged": true,
+  "readme_project_introduction_unchanged": true,
+  "independent_reviews": {
+    "all_three_final_full_text": [
+      "reviews/2026-10-11/f1-central-mixed-analysis-review.md",
+      "reviews/2026-10-11/f1-central-mixed-principal-review.md",
+      "reviews/2026-10-11/f1-central-mixed-global-review.md"
+    ],
+    "diagnostic_independent_rerun_by": "/root/prime_transfer_chain",
+    "parsed_json_identical": true,
+    "review_type": "Independent internal agent review, not external peer review, novelty certification or Lean."
+  },
+  "classical_external_input": {
+    "author": "J. B. Conrey",
+    "year": 1989,
+    "source": "https://aimath.org/~kaur/publications/24.pdf",
+    "statement_pages_one_based": [
+      1,
+      3,
+      4
+    ],
+    "used_content": "A positive proportion of simple critical-line zeros, hence at least c T log T distinct zeros for large T.",
+    "full_original_proof_replayed": false,
+    "own_recent_zero_proportion_used": false
+  },
+  "exact_hypothetical_orbit_checks": {
+    "checks": 21,
+    "orbit_polynomial": "s**4 - 2*s**3 + 85*s**2/9 - 76*s/9 + 1480/81",
+    "model_is_an_actual_zeta_multiple_zero": false
+  },
+  "bounded_floating_diagnostics": {
+    "checks": 29,
+    "working_decimal_digits": 40,
+    "maximum_observed_error": "1.1116686809924836159e-37",
+    "non_small_support_detector_charge": "0.01206657476704005574566",
+    "local_support_threshold": "6.04964746441294608373102",
+    "late_prime_29_charge_at_its_logarithm": "0.230031754376985758793255",
+    "floating_diagnostics_are_interval_or_lean_proofs": false
+  },
+  "completed_scope": [
+    "Actual central mixed charges separate the specified compact even single-prime and finite-S HH1 test families.",
+    "Every nonempty finite new-prime increment is detected and remains nonzero in the source-compatible finite enlarged corners.",
+    "The complete scalar mixed kernel and radical are exactly double-degree-zero Mellin value vanishing at all distinct nontrivial zeros.",
+    "Classical positive distinct-zero density and Jensen's formula prove the compact scalar common kernel is zero.",
+    "True source image closure preserves every multiplicity jet; if a multiple zero exists, orbit division proves its double-degree-zero part is strictly smaller than the scalar radical.",
+    "Actual finite source corners give a directed algebra system; compact mixed readouts stabilize exactly in C-infinity-loc and strong distribution topology.",
+    "Compact sharp approximants to the actual nonzero source relation preserve both degrees exactly and converge in the original superexponential Frechet topology.",
+    "After covering the composite support at each cutoff, bounded fixed-support test families have uniformly vanishing arithmetic readout errors.",
+    "Exactly one completed research iteration; no periodic review reset."
+  ],
+  "limits": [
+    "Common-kernel zero concerns specified test families, not all HH1 classes.",
+    "Multiplicity strict containment is conditional; no actual multiple zeta zero is asserted.",
+    "No identification of the entire true source image closure with a Mellin jet space or a geometric principal image.",
+    "The distribution limit is an observable limit, not a constructed global HH chain or a trace-class norm limit.",
+    "No independent global Weil sign, Riemann-Roch, faithful all-zero Hilbert spectrum or RH proof.",
+    "No new zero proportion, zero-free bound, paper, Lean replay or website submission."
+  ],
+  "next_research_contract": [
+    "Characterize the true image closure using Mellin division, complete zero jets and necessary vertical growth.",
+    "Pay inverse Mellin reconstruction of an even Schwartz source with the original zero-value and zero-integral constraints.",
+    "Compare recovered source relations under actual correspondence composition before claiming principal descent.",
+    "Keep independent global Weil sign and faithful zero-spectrum identification separate from scalar trace identities."
+  ]
+}
