@@ -1,0 +1,210 @@
+{
+  "schema": "rh-weil-round506-targeted-checks-v1",
+  "status": "PASS",
+  "actual_processes": [
+    {
+      "name": "outer portable full finite replay",
+      "command": [
+        "C:\\Python312\\python.exe",
+        "-X",
+        "utf8",
+        "scripts/am_outer_frame_certificate.py",
+        "--check"
+      ],
+      "expected_exit_code": 0,
+      "actual_exit_code": 0,
+      "elapsed_seconds": 4.438000000081956,
+      "stdout": "{\n  \"status\": \"PASS\",\n  \"scope\": \"all real frame and ordered pair finite certificates under unchanged continuous AM/capture/PTL/REG admission and all-zero analytic transport\",\n  \"certificate_canonical_lf_sha256\": \"04f61dbc3913d11ce6da0bfea9e569ca2cd659ae19fdf095281b0b86174e7810\",\n  \"checker_canonical_lf_sha256\": \"ef68ab57e81113f4f2a0174da9c2bd869d06ae12aa460f2aa5394de78ef7db38\",\n  \"source_matched\": false,\n  \"single_frame_original_labels\": 241,\n  \"single_frame_reflected_labels\": 241,\n  \"base_only_distinct_adapter_frames\": 201,\n  \"retained_505_frame_patches\": 35,\n  \"new_frame_labels\": [\n    17,\n    69,\n    74,\n    131,\n    183\n  ],\n  \"new_frame_closed_cases\": 17,\n  \"total_frame_paid_cases\": 253,\n  \"new_frame_positive_dual_support\": 529,\n  \"new_frame_added_rows\": 387,\n  \"new_frame_used_original_points\": 288,\n  \"minimum_exact_frame\": \"8244400676681470233488767397/1024000000000000000000000000000\",\n  \"minimum_frame_labels\": [\n    17\n  ],\n  \"minimum_new_cases\": [\n    [\n      17,\n      2\n    ]\n  ],\n  \"minimum_base_only_adapter\": \"20612892297187133648428318617/2560000000000000000000000000000\",\n  \"minimum_retained_505_frames\": \"206114240922072410245213921/25600000000000000000000000000\",\n  \"ordered_low_low_domains\": 2399,\n  \"pair_witness_counts\": {\n    \"new505_domains\": 10,\n    \"prior503_domains\": 47,\n    \"old_domains\": 2342,\n    \"new505_branches\": 20,\n    \"prior503_branches\": 84\n  },\n  \"minimum_exact_pair\": \"32992055894668884928258784247/4096000000000000000000000000000\",\n  \"minimum_pair_labels\": [\n    [\n      406,\n      70\n    ]\n  ],\n  \"global_F8_reward\": \"805117/100000000\",\n  \"strong_reward\": \"805803/100000000\",\n  \"safe_outside\": \"40273/5000000\",\n  \"exact_paid_outside\": \"16495823396681470233488767397/2048000000000000000000000000000\",\n  \"uniform_F9_reward\": \"40273/5000000\",\n  \"maximum_uniform_reward_paid_by_fixed_data\": \"16495823396681470233488767397/2048000000000000000000000000000\",\n  \"simple_critical_proportion\": \"66812491/99194540\",\n  \"simple_critical_percent\": 67.355008652694,\n  \"gain_percentage_points_exact\": \"1002187365/122994474451826\",\n  \"gain_percentage_points\": 8.148230800340002e-06,\n  \"strict_actual_margins\": {\n    \"frame\": \"2596681470233488767397/1024000000000000000000000000000\",\n    \"pair\": \"414294668884928258784247/4096000000000000000000000000000\",\n    \"exact_outside\": \"2596681470233488767397/2048000000000000000000000000000\"\n  },\n  \"safe_outside_margin\": \"0\",\n  \"new_lean_or_nanoda_check_performed\": false,\n  \"website_accepted\": false,\n  \"elapsed_seconds\": 4.3600000001024455\n}\n",
+      "stderr": "",
+      "status": "PASS"
+    },
+    {
+      "name": "curve point jets and complete interval lift",
+      "command": [
+        "C:\\Python312\\python.exe",
+        "-X",
+        "utf8",
+        "scripts/am_fourier_curvature_certificate.py",
+        "--check",
+        "--audit-output",
+        "reviews/2026-10-11/am-fourier-curvature-exact-check.json"
+      ],
+      "expected_exit_code": 0,
+      "actual_exit_code": 0,
+      "elapsed_seconds": 8.311999999918044,
+      "stdout": "{\n  \"schema\": \"rh-weil-am-fourier-curvature-506-v1\",\n  \"status\": \"PASS\",\n  \"scope\": \"actual fixed AM13 kernel; exact point jets lifted to one full interval by the proved Fourier derivative bound; no new proportion input or Lean verification\",\n  \"script_canonical_lf_sha256\": \"26710ec5e203a6bed77760f92efcdd88b79b675ae4e099d9d6825d71b39957fe\",\n  \"am_lossless_script_canonical_lf_sha256\": \"11da56ae04a60fd436d273f39463e6aa85b0f023ebf62a0389c5f9af0b2aabf4\",\n  \"coefficient_numerators\": [\n    12310798,\n    -15041681,\n    3867664,\n    6489926,\n    -992327,\n    5580097,\n    -6846472,\n    3781297,\n    -5670353,\n    3355089,\n    -450523,\n    -218483\n  ],\n  \"coefficient_denominator\": 1000000000,\n  \"pi_enclosure\": [\n    \"15707963267948966192313/5000000000000000000000\",\n    \"31415926535897932384627/10000000000000000000000\"\n  ],\n  \"sqrt2_enclosure\": [\n    \"883883476483184405501/625000000000000000000\",\n    \"14142135623730950488017/10000000000000000000000\"\n  ],\n  \"beta_enclosure\": [\n    \"1125395395196382586943/5000000000000000000000\",\n    \"2250790790392765173889/10000000000000000000000\"\n  ],\n  \"normalization_enclosure\": [\n    \"4593626849327842188921/5000000000000000000000\",\n    \"9187253698655684377843/10000000000000000000000\"\n  ],\n  \"density_numerator_positive_lower\": \"68539529/100000000\",\n  \"density_absolute_upper\": \"5323023550000000000000/4593626849327842188921\",\n  \"cubic_convolution_moment\": \"1/10\",\n  \"global_abs_w_third_derivative_rational_upper\": \"351419927291114525227329089146818891004782382496244056280836500282173854882966704603/10550703815432819081816176190347256327572120500000000000000000000000000000000000000\",\n  \"global_abs_w_third_derivative_strict_upper\": \"34\",\n  \"interval\": [\n    \"9/5\",\n    \"21/10\"\n  ],\n  \"midpoint_count\": 256,\n  \"step\": \"3/2560\",\n  \"nearest_midpoint_distance_upper\": \"3/5120\",\n  \"minimum_point_lower\": \"972027580058094585209/5000000000000000000000\",\n  \"whole_interval_strict_lower\": \"872418205058094585209/5000000000000000000000\",\n  \"strong_convexity_lower\": \"17/100\",\n  \"elapsed_seconds\": 8.218999999808148,\n  \"used_by_round506_proportion_certificate\": false,\n  \"lean_or_nanoda_performed\": false\n}\n",
+      "stderr": "",
+      "status": "PASS"
+    },
+    {
+      "name": "active radical portable finite core",
+      "command": [
+        "C:\\Python312\\python.exe",
+        "-X",
+        "utf8",
+        "scripts/hybrid_active_radical_mixed_cross_budget.py",
+        "--check"
+      ],
+      "expected_exit_code": 0,
+      "actual_exit_code": 0,
+      "elapsed_seconds": 0.0940000000409782,
+      "stdout": "{\"status\": \"PASS\", \"checks\": 1349, \"source_matched\": false, \"total_checks_with_optional_source\": 1349, \"new_count_saving\": false, \"new_zero_free_boundary\": false}\n",
+      "stderr": "",
+      "status": "PASS"
+    },
+    {
+      "name": "inherited actual AM energy and majorant",
+      "command": [
+        "C:\\Python312\\python.exe",
+        "-X",
+        "utf8",
+        "scripts/am_lossless_majorant_certificate.py",
+        "--check"
+      ],
+      "expected_exit_code": 0,
+      "actual_exit_code": 0,
+      "elapsed_seconds": 0.75,
+      "stdout": "PASS exact continuous majorant, AM energy and committed report\n",
+      "stderr": "",
+      "status": "PASS"
+    },
+    {
+      "name": "publication layout",
+      "command": [
+        "C:\\Python312\\python.exe",
+        "-X",
+        "utf8",
+        "scripts/check_repo_layout.py"
+      ],
+      "expected_exit_code": 0,
+      "actual_exit_code": 0,
+      "elapsed_seconds": 0.10899999993853271,
+      "stdout": "Paper layout, TeX inputs, and documentation links passed.\n",
+      "stderr": "",
+      "status": "PASS"
+    },
+    {
+      "name": "registered finite-group coverage",
+      "command": [
+        "C:\\Python312\\python.exe",
+        "-X",
+        "utf8",
+        "scripts/test_check_groups.py"
+      ],
+      "expected_exit_code": 0,
+      "actual_exit_code": 0,
+      "elapsed_seconds": 0.2660000000614673,
+      "stdout": "Check groups passed: core=100, b1h=1, b1i=1, all=102; no checks skipped or duplicated\n[scope] registry coverage and mocked dispatch only; no heavy computations\n",
+      "stderr": "",
+      "status": "PASS"
+    },
+    {
+      "name": "paper layout regression",
+      "command": [
+        "C:\\Python312\\python.exe",
+        "-X",
+        "utf8",
+        "scripts/test_repo_layout.py"
+      ],
+      "expected_exit_code": 0,
+      "actual_exit_code": 0,
+      "elapsed_seconds": 0.8589999999385327,
+      "stdout": "",
+      "stderr": "test_all_layout_documents_are_required (__main__.LayoutTests.test_all_layout_documents_are_required) ... ok\ntest_both_literal_input_commands_are_checked (__main__.LayoutTests.test_both_literal_input_commands_are_checked) ... ok\ntest_broken_paper_links_in_each_document_are_reported (__main__.LayoutTests.test_broken_paper_links_in_each_document_are_reported) ... ok\ntest_commented_inputs_are_ignored (__main__.LayoutTests.test_commented_inputs_are_ignored) ... ok\ntest_complete_layout_and_root_relative_inputs_pass (__main__.LayoutTests.test_complete_layout_and_root_relative_inputs_pass) ... ok\ntest_deleted_tracked_paths_and_untracked_scratch_are_ignored (__main__.LayoutTests.test_deleted_tracked_paths_and_untracked_scratch_are_ignored) ... ok\ntest_encoded_spaces_anchors_and_remote_links (__main__.LayoutTests.test_encoded_spaces_anchors_and_remote_links) ... ok\ntest_every_required_source_and_pdf_is_required (__main__.LayoutTests.test_every_required_source_and_pdf_is_required) ... ok\ntest_existing_versioned_pdf_outside_output_is_rejected (__main__.LayoutTests.test_existing_versioned_pdf_outside_output_is_rejected) ... ok\ntest_input_is_not_silently_resolved_from_papers_directory (__main__.LayoutTests.test_input_is_not_silently_resolved_from_papers_directory) ... ok\ntest_root_tex_and_pdf_are_rejected (__main__.LayoutTests.test_root_tex_and_pdf_are_rejected) ... ok\ntest_versioned_external_literature_is_allowed (__main__.LayoutTests.test_versioned_external_literature_is_allowed) ... ok\n\n----------------------------------------------------------------------\nRan 12 tests in 0.633s\n\nOK\n",
+      "status": "PASS"
+    },
+    {
+      "name": "outer rejects optimized assertions",
+      "command": [
+        "C:\\Python312\\python.exe",
+        "-X",
+        "utf8",
+        "-O",
+        "scripts/am_outer_frame_certificate.py",
+        "--check"
+      ],
+      "expected_exit_code": 1,
+      "actual_exit_code": 1,
+      "elapsed_seconds": 0.20300000021234155,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"E:\\codex-build\\RH-Weil\\scripts\\am_outer_frame_certificate.py\", line 14, in <module>\n    import am_joint_frame_pair_certificate as inherited\n  File \"E:\\codex-build\\RH-Weil\\scripts\\am_joint_frame_pair_certificate.py\", line 13, in <module>\n    import am_low_frame_strengthening_certificate as low\n  File \"E:\\codex-build\\RH-Weil\\scripts\\am_low_frame_strengthening_certificate.py\", line 12, in <module>\n    import am_expanded_nine_point_certificate as inherited\n  File \"E:\\codex-build\\RH-Weil\\scripts\\am_expanded_nine_point_certificate.py\", line 16, in <module>\n    import am_nine_point_epigraph_certificate as epi\n  File \"E:\\codex-build\\RH-Weil\\scripts\\am_nine_point_epigraph_certificate.py\", line 16, in <module>\n    import am_nine_point_low_slack_cover as old\n  File \"E:\\codex-build\\RH-Weil\\scripts\\am_nine_point_low_slack_cover.py\", line 17, in <module>\n    import am_pc8_finite_replay as old\n  File \"E:\\codex-build\\RH-Weil\\scripts\\am_pc8_finite_replay.py\", line 21, in <module>\n    raise RuntimeError(\"PC8 replay requires assertions enabled; do not use Python -O\")\nRuntimeError: PC8 replay requires assertions enabled; do not use Python -O\n",
+      "status": "PASS"
+    },
+    {
+      "name": "curve rejects optimized assertions",
+      "command": [
+        "C:\\Python312\\python.exe",
+        "-X",
+        "utf8",
+        "-O",
+        "scripts/am_fourier_curvature_certificate.py",
+        "--check"
+      ],
+      "expected_exit_code": 1,
+      "actual_exit_code": 1,
+      "elapsed_seconds": 0.15699999989010394,
+      "stdout": "",
+      "stderr": "Assertions required; do not use -O\n",
+      "status": "PASS"
+    },
+    {
+      "name": "active radical rejects optimized mode",
+      "command": [
+        "C:\\Python312\\python.exe",
+        "-X",
+        "utf8",
+        "-O",
+        "scripts/hybrid_active_radical_mixed_cross_budget.py",
+        "--check"
+      ],
+      "expected_exit_code": 1,
+      "actual_exit_code": 1,
+      "elapsed_seconds": 0.13999999989755452,
+      "stdout": "",
+      "stderr": "Run without -O: exact certificate checks are required\n",
+      "status": "PASS"
+    },
+    {
+      "name": "outer rejects a different mathematical source",
+      "command": [
+        "C:\\Python312\\python.exe",
+        "-X",
+        "utf8",
+        "scripts/am_outer_frame_certificate.py",
+        "--check",
+        "--source",
+        "E:/codex-build/math/preprints/The-Quasi-Riemann-Hypothesis-September-30-2026/build/paper.tex"
+      ],
+      "expected_exit_code": 1,
+      "actual_exit_code": 1,
+      "elapsed_seconds": 0.1880000000819564,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"E:\\codex-build\\RH-Weil\\scripts\\am_outer_frame_certificate.py\", line 214, in <module>\n    if __name__=='__main__':main()\n                            ^^^^^^\n  File \"E:\\codex-build\\RH-Weil\\scripts\\am_outer_frame_certificate.py\", line 213, in main\n    check(args.certificate,args.source,args.audit_output)\n  File \"E:\\codex-build\\RH-Weil\\scripts\\am_outer_frame_certificate.py\", line 139, in check\n    full,region=old.original_points(source)\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"E:\\codex-build\\RH-Weil\\scripts\\am_low_frame_strengthening_certificate.py\", line 24, in original_points\n    assert hashlib.sha256(path.read_bytes()).hexdigest()==inherited.SOURCE_SHA\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n",
+      "status": "PASS"
+    }
+  ],
+  "input_raw_sha256_before": {
+    "scripts/am_outer_frame_certificate.py": "ef68ab57e81113f4f2a0174da9c2bd869d06ae12aa460f2aa5394de78ef7db38",
+    "output/am-outer-frame-certificate.json": "04f61dbc3913d11ce6da0bfea9e569ca2cd659ae19fdf095281b0b86174e7810",
+    "scripts/am_fourier_curvature_certificate.py": "26710ec5e203a6bed77760f92efcdd88b79b675ae4e099d9d6825d71b39957fe",
+    "output/am-fourier-curvature-certificate.json": "bef676d95e2a2e633eb2db132e298eb9b49b470e28391bf2ae98df6cf1767993",
+    "scripts/hybrid_active_radical_mixed_cross_budget.py": "f93f2689a9e4242774194f14a4ae7f1de6476dcf1ea47bb95333645631c12bfd",
+    "output/hybrid-active-radical-mixed-cross-budget.json": "c3370f7545e89bcf842c38cf695aed65b046e28ca8eb2ad5a705fa1aa7275f8f",
+    "papers/outer-frame-simple-critical-paper.tex": "6fb958414042bdbb3ad02bdaa79c94846fa952ff46cc4538cff2468e6bf82caf",
+    "output/pdf/outer-frame-simple-critical-paper.pdf": "2a53fbe77cce7fea85e6b387ebd77f780d0c4446f0931ddc53868682a9958332"
+  },
+  "input_raw_sha256_after": {
+    "scripts/am_outer_frame_certificate.py": "ef68ab57e81113f4f2a0174da9c2bd869d06ae12aa460f2aa5394de78ef7db38",
+    "output/am-outer-frame-certificate.json": "04f61dbc3913d11ce6da0bfea9e569ca2cd659ae19fdf095281b0b86174e7810",
+    "scripts/am_fourier_curvature_certificate.py": "26710ec5e203a6bed77760f92efcdd88b79b675ae4e099d9d6825d71b39957fe",
+    "output/am-fourier-curvature-certificate.json": "bef676d95e2a2e633eb2db132e298eb9b49b470e28391bf2ae98df6cf1767993",
+    "scripts/hybrid_active_radical_mixed_cross_budget.py": "f93f2689a9e4242774194f14a4ae7f1de6476dcf1ea47bb95333645631c12bfd",
+    "output/hybrid-active-radical-mixed-cross-budget.json": "c3370f7545e89bcf842c38cf695aed65b046e28ca8eb2ad5a705fa1aa7275f8f",
+    "papers/outer-frame-simple-critical-paper.tex": "6fb958414042bdbb3ad02bdaa79c94846fa952ff46cc4538cff2468e6bf82caf",
+    "output/pdf/outer-frame-simple-critical-paper.pdf": "2a53fbe77cce7fea85e6b387ebd77f780d0c4446f0931ddc53868682a9958332"
+  },
+  "inputs_unchanged": true,
+  "new_lean_or_nanoda_performed": false,
+  "full_core_or_all_suite_run": false,
+  "scope": "targeted new finite certificates, required layout/group checks, inherited numerical transport constants and negative-mode/source guards only; no full analytic moment or new kernel proof"
+}

@@ -1,0 +1,50 @@
+{
+  "schema": "rh-weil-round506-publication-preservation-v1",
+  "status": "PASS",
+  "baseline_commit": "48263e943a5e34575fd6e63e0a2665f88dd4aa44",
+  "captured_local_baseline_manifest_raw_sha256": "afb353e59512b8d83ae03134f9cb9fdab797f7d75eb16614c32145072d741733",
+  "baseline_paths_checked": 2882,
+  "missing_paths": [],
+  "protected_paths_raw_byte_unchanged": 2876,
+  "modified_existing_paths_allowed": {
+    "README.md": {
+      "raw_sha256_before": "32fb44f4955924544c092e99b9f18a08fbef582c77fb92df66717141c0eec012",
+      "raw_sha256_after": "d00b5ad7cf1b7513220cd7a2cb4389a2f8a3ad25a32b451e0694bf51397de5a3"
+    },
+    "RESEARCH_BRANCHES.md": {
+      "raw_sha256_before": "0ada144db825f2c2c1cddabb8f27079a690f0228b290ebdece6209983e4e82ba",
+      "raw_sha256_after": "fcb58ec5e8f1f8156f614d2394f4c156277d1d4d056b2069bdabe6c730ff6b7b"
+    },
+    "goals/review-cadence.json": {
+      "raw_sha256_before": "503822d6f23946c1a2210dd9e4e8360b6b8e05569309b17bc3ed2085aae0b833",
+      "raw_sha256_after": "3a2aaf825112c3566ea3a794993cadd4ef7c797ff0134efb7cce4a5ce222e63a"
+    },
+    "papers/README.md": {
+      "raw_sha256_before": "230af39870ba1ff6f83db8cfec152863d255811d4f17f4a21f8b36eb3d7a5b6a",
+      "raw_sha256_after": "a65ada01c63cca3532ef0264631f3ed5994f39223ede45caeca0b4ac7db56256"
+    },
+    "scripts/check_repo_layout.py": {
+      "raw_sha256_before": "40e1c4bd1aa740d8c81b9571f80bd9ff2bb1c6d45d9dfeb3ec509696545b932c",
+      "raw_sha256_after": "a7be64aeb8abbc47587b73d6177bfb1fbbad588af3e202a7c90795916f94fe00"
+    },
+    "scripts/run_checks.py": {
+      "raw_sha256_before": "df8ecc5ec389849a3fbce9dffc4d49de978b2da49a8478abdb4985df15c496f1",
+      "raw_sha256_after": "c8873c7100ed83f363ce340b6440ee515e7a748c6c21745eb4746fec5f57433b"
+    }
+  },
+  "old_papers_pdfs_certificates_notes_reviews_history_and_formal_unchanged": true,
+  "new_note_final_raw_sha256": "7a7b13a99dfc7ab9fc81776e85110f1be45c1cd346a6ea418086be46e2f0e536",
+  "note_change_after_final_independent_review": "References to already completed archived audits were added; mathematical statements were unchanged.",
+  "independent_review_bound_math_inputs_still_identical": true,
+  "formal_repository_live_check": {
+    "repository": "https://github.com/lixiang90/RH-Zero-Proportion-Formalization",
+    "local_head": "14362fe21fa871a1a951597c573d1601f4755676",
+    "remote_main": "14362fe21fa871a1a951597c573d1601f4755676",
+    "status_short_empty": true,
+    "observed_utc": "2026-10-11 04:08:35 UTC",
+    "source": "Actual escalated read-only git rev-parse HEAD, status --short and ls-remote origin refs/heads/main."
+  },
+  "new_proportion_formalized": false,
+  "website_accepted": false,
+  "new_zero_free_boundary": false
+}

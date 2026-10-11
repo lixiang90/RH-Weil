@@ -1,0 +1,23 @@
+{
+  "schema": "rh-weil-round506-final-public-layout-check-v1",
+  "status": "PASS",
+  "command": [
+    "C:\\Python312\\python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "scripts/check_repo_layout.py"
+  ],
+  "actual_exit_code": 0,
+  "elapsed_seconds": 0.10899999993853271,
+  "stdout": "Paper layout, TeX inputs, and documentation links passed.\n",
+  "stderr": "",
+  "registered_group_counts_metadata_only": {
+    "core": 100,
+    "all": 102,
+    "b1h": 1,
+    "b1i": 1
+  },
+  "full_core_or_all_suite_run": false,
+  "scope": "Final publication link and paper layout after archive/manifest additions; no new math, Lean, or Nano run."
+}

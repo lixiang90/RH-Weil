@@ -1,0 +1,104 @@
+{
+  "schema": "rh-weil-round506-paper-build-manifest-v1",
+  "status": "FINAL_PDF_AND_MATHEMATICAL_CERTIFICATE_PASS",
+  "author": "Li Xiang (lixiang90)",
+  "date": "2026-10-11",
+  "baseline_commit": "48263e943a5e34575fd6e63e0a2665f88dd4aa44",
+  "simple_critical_proportion": "66812491/99194540",
+  "uniform_reward": "805460/100000000",
+  "pages": 4,
+  "pdf_bytes": 214066,
+  "source_and_artifact_identity": {
+    "papers/outer-frame-simple-critical-paper.tex": {
+      "raw_sha256": "6fb958414042bdbb3ad02bdaa79c94846fa952ff46cc4538cff2468e6bf82caf",
+      "canonical_lf_sha256": "6fb958414042bdbb3ad02bdaa79c94846fa952ff46cc4538cff2468e6bf82caf"
+    },
+    "output/pdf/outer-frame-simple-critical-paper.pdf": {
+      "raw_sha256": "2a53fbe77cce7fea85e6b387ebd77f780d0c4446f0931ddc53868682a9958332",
+      "canonical_lf_sha256": null
+    },
+    "scripts/am_outer_frame_certificate.py": {
+      "raw_sha256": "ef68ab57e81113f4f2a0174da9c2bd869d06ae12aa460f2aa5394de78ef7db38",
+      "canonical_lf_sha256": "ef68ab57e81113f4f2a0174da9c2bd869d06ae12aa460f2aa5394de78ef7db38"
+    },
+    "output/am-outer-frame-certificate.json": {
+      "raw_sha256": "04f61dbc3913d11ce6da0bfea9e569ca2cd659ae19fdf095281b0b86174e7810",
+      "canonical_lf_sha256": "04f61dbc3913d11ce6da0bfea9e569ca2cd659ae19fdf095281b0b86174e7810"
+    },
+    "reviews/2026-10-11/am-outer-frame-exact-check.json": {
+      "raw_sha256": "22ddabb3b01326e0ad5ad1023093b93a4173ce3eb6e2e5cd0d64695baf9b3728",
+      "canonical_lf_sha256": "22ddabb3b01326e0ad5ad1023093b93a4173ce3eb6e2e5cd0d64695baf9b3728"
+    },
+    "reviews/2026-10-11/outer-frame-independent-execution.json": {
+      "raw_sha256": "d820d057a9f3d690d6721a356484ac8535c1fbc880e49c568ca2f83a8985cf80",
+      "canonical_lf_sha256": "d820d057a9f3d690d6721a356484ac8535c1fbc880e49c568ca2f83a8985cf80"
+    },
+    "reviews/2026-10-11/outer-frame-targeted-checks.json": {
+      "raw_sha256": "67cfc50db2c23ce0060b18679163ea81a10230a60e60d876ee0add04f54780b7",
+      "canonical_lf_sha256": "67cfc50db2c23ce0060b18679163ea81a10230a60e60d876ee0add04f54780b7"
+    },
+    "reviews/2026-10-11/round506-independent/FINAL_REVIEW.md": {
+      "raw_sha256": "71aaf5df67a29aa8e76855132583c9e47655e41e1047d2c210ed28507ad18d2b",
+      "canonical_lf_sha256": "71aaf5df67a29aa8e76855132583c9e47655e41e1047d2c210ed28507ad18d2b"
+    },
+    "reviews/2026-10-11/round506-independent/FINAL_REVIEW.json": {
+      "raw_sha256": "ff355e425bf8766bd2813d3445d675496cc67e85fb9f0a5496a1c58e5ad0a64e",
+      "canonical_lf_sha256": "ff355e425bf8766bd2813d3445d675496cc67e85fb9f0a5496a1c58e5ad0a64e"
+    },
+    "reviews/2026-10-11/round506-independent/independent-source-and-original-evidence.json": {
+      "raw_sha256": "1e634dfbdda79140f1c92ab87ba802b49a0804469a1159985bd776b1550a04d0",
+      "canonical_lf_sha256": "1e634dfbdda79140f1c92ab87ba802b49a0804469a1159985bd776b1550a04d0"
+    }
+  },
+  "builtin_compile": {
+    "initial_source_succeeded": true,
+    "scope": "Initial standalone source passed the built-in compiler. After the near-pair constant was aligned with the already proved Lean bound, the final source was successfully compiled by terminal pdfLaTeX."
+  },
+  "final_pdf_export": {
+    "compiler": "MiKTeX pdfTeX 1.40.25 / pdfLaTeX",
+    "actual_exit_code": 0,
+    "final_log_raw_sha256": "4f0b3534737b92af32b3fb5c13f6a8bf0ca1b30c13ec374fbd7e551292959a1f",
+    "final_log_canonical_lf_sha256": "4f0b3534737b92af32b3fb5c13f6a8bf0ca1b30c13ec374fbd7e551292959a1f",
+    "final_log_original_local_path": "output\\pdf\\outer-frame-simple-critical-paper.log",
+    "warnings_or_overfull_or_underfull": false
+  },
+  "rendering": {
+    "tool": "Poppler pdftoppm, 100 dpi",
+    "all_final_pages_visually_reviewed": true,
+    "page_images_sha256": {
+      "tmp\\pdfs\\outer-frame-20261011\\page-1.png": "f5845c5e947e05593f7a447ff86056808fd258291515886190ae9caea2966542",
+      "tmp\\pdfs\\outer-frame-20261011\\page-2.png": "2fa48319bf6b41445a630b83515c9ac3c9bd6ac7418b41d30006ba427eb9861a",
+      "tmp\\pdfs\\outer-frame-20261011\\page-3.png": "d95c05edc7c473c87bede9fc4e7252a3371e110b2e2fca7730e3a21bf903046f",
+      "tmp\\pdfs\\outer-frame-20261011\\page-4.png": "915a36cda90de7ca31b83927b1d9c8074bd46b6df6670693fa903f135d08a334"
+    }
+  },
+  "finite_certificate": {
+    "closed_cases": 253,
+    "frames": 241,
+    "reflections": 241,
+    "ordered_combinations_independently_enumerated": 232324,
+    "real_pair_domains": 2399,
+    "new_rows": 387,
+    "positive_multipliers": 529,
+    "distinct_original_point_entries_used_by_new_rows": 288
+  },
+  "prior_formal_verification": {
+    "repository": "https://github.com/lixiang90/RH-Zero-Proportion-Formalization",
+    "commit": "14362fe21fa871a1a951597c573d1601f4755676",
+    "proportion": "66812491/99194552",
+    "ordinary_lean_final_roots": 8,
+    "allowed_axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "independent_kernel_declarations": 84362,
+    "rerun_in_this_round": false
+  },
+  "new_proportion_lean_or_nanoda_completed": false,
+  "website_accepted": false,
+  "new_zero_free_region": false,
+  "curvature_or_active_radical_used_as_new_main_paper_input": false,
+  "full_core_or_all_suite_run": false,
+  "rounds_since_last_mathematical_review": 1
+}

@@ -71,6 +71,18 @@ CHECKS = (
         [sys.executable, "am_joint_frame_pair_certificate.py", "--check"],
     ),
     (
+        "AM closure-strengthened outer frames and complete pair replay",
+        [sys.executable, "am_outer_frame_certificate.py", "--check"],
+    ),
+    (
+        "actual AM Fourier derivative and full strong-convexity interval",
+        [sys.executable, "am_fourier_curvature_certificate.py", "--check"],
+    ),
+    (
+        "conditional mixed-cross active-radical finite budget",
+        [sys.executable, "hybrid_active_radical_mixed_cross_budget.py", "--check"],
+    ),
+    (
         "conditional two-cutoff joint-witness coverage budget",
         [sys.executable, "hybrid_two_cutoff_coverage_budget.py", "--check"],
     ),

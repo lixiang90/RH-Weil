@@ -1,0 +1,81 @@
+{
+  "schema": "rh-weil-round506-independent-public-active-radical-recheck-v1",
+  "status": "PASS",
+  "command": "C:/Python312/python.exe -B -X utf8 scripts/hybrid_active_radical_mixed_cross_budget.py --check --source E:/codex-build/math/preprints/The-Quasi-Riemann-Hypothesis-September-30-2026/build/paper.tex",
+  "exit_code": 0,
+  "wall_time_seconds_from_exec_command_result": 0.3838068,
+  "stdout_log": {
+    "path": "tmp\\research-round506-20261011\\zero-free-independent\\public-check-stdout.txt",
+    "sha256": "91d9da8e7e0be00df7baf00a9813e28374cc24ab7db6cc59698284d50127df46",
+    "storage": "Canonical LF transcription of the actual exec_command stdout."
+  },
+  "inputs_before_after": [
+    {
+      "path": "E:\\codex-build\\RH-Weil\\notes\\450-plain-kappa-extension-and-actual-capacity.md",
+      "sha256_before": "f16807e0f80461e3005b3173e313218b00f5f86abfa860a4ead79e425dd6bee5",
+      "sha256_after": "f16807e0f80461e3005b3173e313218b00f5f86abfa860a4ead79e425dd6bee5",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\codex-build\\RH-Weil\\notes\\451-kappa-feedback-cubic-boundary-and-family-continuation.md",
+      "sha256_before": "17ce7fea8c881ebd4034657b7039e99897d4ff9532348993ba329c46e3c4d487",
+      "sha256_after": "17ce7fea8c881ebd4034657b7039e99897d4ff9532348993ba329c46e3c4d487",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\codex-build\\RH-Weil\\reviews\\2026-10-07\\450-plain-kappa-extension-review-twisted.md",
+      "sha256_before": "0051dcd82296aefc5cfd23d19cce3a8ce0b09c3c8e9370fad933e5ab8581c61a",
+      "sha256_after": "0051dcd82296aefc5cfd23d19cce3a8ce0b09c3c8e9370fad933e5ab8581c61a",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\codex-build\\RH-Weil\\tmp\\research-round505-20261011\\zero-free\\two-cutoff-joint-witness-coverage.md",
+      "sha256_before": "2f366da91569b0b0c6c4668dc9c0f79a418b472358e6cf2e22760a3e16f303c2",
+      "sha256_after": "2f366da91569b0b0c6c4668dc9c0f79a418b472358e6cf2e22760a3e16f303c2",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\codex-build\\RH-Weil\\tmp\\research-round506-20261011\\zero-free\\active-radical-mixed-cross-research.md",
+      "sha256_before": "422185331a09705e596d97df984dfa815335b9974738b9941d81ce9d02294cc2",
+      "sha256_after": "422185331a09705e596d97df984dfa815335b9974738b9941d81ce9d02294cc2",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\codex-build\\RH-Weil\\scripts\\hybrid_active_radical_mixed_cross_budget.py",
+      "sha256_before": "f93f2689a9e4242774194f14a4ae7f1de6476dcf1ea47bb95333645631c12bfd",
+      "sha256_after": "f93f2689a9e4242774194f14a4ae7f1de6476dcf1ea47bb95333645631c12bfd",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\codex-build\\RH-Weil\\reviews\\2026-10-11\\active-radical-mixed-cross-research.md",
+      "sha256_before": "422185331a09705e596d97df984dfa815335b9974738b9941d81ce9d02294cc2",
+      "sha256_after": "422185331a09705e596d97df984dfa815335b9974738b9941d81ce9d02294cc2",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\codex-build\\RH-Weil\\output\\hybrid-active-radical-mixed-cross-budget.json",
+      "sha256_before": "c3370f7545e89bcf842c38cf695aed65b046e28ca8eb2ad5a705fa1aa7275f8f",
+      "sha256_after": "c3370f7545e89bcf842c38cf695aed65b046e28ca8eb2ad5a705fa1aa7275f8f",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\codex-build\\RH-Weil\\reviews\\2026-10-11\\active-radical-mixed-cross-source-check.json",
+      "sha256_before": "e8ee50343ffa95b232624cc3102cce634bd2c2bb5c028d8aebef05e52afd33bd",
+      "sha256_after": "e8ee50343ffa95b232624cc3102cce634bd2c2bb5c028d8aebef05e52afd33bd",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\codex-build\\RH-Weil\\reviews\\2026-10-11\\active-radical-mixed-cross-reproduction.md",
+      "sha256_before": "6764c8d42267d9b96442d5329cb11d3778196a1c440abc6d31edf144b4670db2",
+      "sha256_after": "6764c8d42267d9b96442d5329cb11d3778196a1c440abc6d31edf144b4670db2",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\codex-build\\math\\preprints\\The-Quasi-Riemann-Hypothesis-September-30-2026\\build\\paper.tex",
+      "sha256_before": "8d569ca5114908389e53a3c017480886ced864b769cab15235aaf2b84c20dce3",
+      "sha256_after": "8d569ca5114908389e53a3c017480886ced864b769cab15235aaf2b84c20dce3",
+      "unchanged": true
+    }
+  ],
+  "mathematical_scope": "Public finite-core/source identity reproduction only; independent algebra and reviewed infinite count proof are separate. No full mixed bound, count saving, sigma, Lean or Nano."
+}

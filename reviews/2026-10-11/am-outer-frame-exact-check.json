@@ -1,0 +1,69 @@
+{
+  "status": "PASS",
+  "scope": "all real frame and ordered pair finite certificates under unchanged continuous AM/capture/PTL/REG admission and all-zero analytic transport",
+  "certificate_canonical_lf_sha256": "04f61dbc3913d11ce6da0bfea9e569ca2cd659ae19fdf095281b0b86174e7810",
+  "checker_canonical_lf_sha256": "ef68ab57e81113f4f2a0174da9c2bd869d06ae12aa460f2aa5394de78ef7db38",
+  "source_matched": true,
+  "single_frame_original_labels": 241,
+  "single_frame_reflected_labels": 241,
+  "base_only_distinct_adapter_frames": 201,
+  "retained_505_frame_patches": 35,
+  "new_frame_labels": [
+    17,
+    69,
+    74,
+    131,
+    183
+  ],
+  "new_frame_closed_cases": 17,
+  "total_frame_paid_cases": 253,
+  "new_frame_positive_dual_support": 529,
+  "new_frame_added_rows": 387,
+  "new_frame_used_original_points": 288,
+  "minimum_exact_frame": "8244400676681470233488767397/1024000000000000000000000000000",
+  "minimum_frame_labels": [
+    17
+  ],
+  "minimum_new_cases": [
+    [
+      17,
+      2
+    ]
+  ],
+  "minimum_base_only_adapter": "20612892297187133648428318617/2560000000000000000000000000000",
+  "minimum_retained_505_frames": "206114240922072410245213921/25600000000000000000000000000",
+  "ordered_low_low_domains": 2399,
+  "pair_witness_counts": {
+    "new505_domains": 10,
+    "prior503_domains": 47,
+    "old_domains": 2342,
+    "new505_branches": 20,
+    "prior503_branches": 84
+  },
+  "minimum_exact_pair": "32992055894668884928258784247/4096000000000000000000000000000",
+  "minimum_pair_labels": [
+    [
+      406,
+      70
+    ]
+  ],
+  "global_F8_reward": "805117/100000000",
+  "strong_reward": "805803/100000000",
+  "safe_outside": "40273/5000000",
+  "exact_paid_outside": "16495823396681470233488767397/2048000000000000000000000000000",
+  "uniform_F9_reward": "40273/5000000",
+  "maximum_uniform_reward_paid_by_fixed_data": "16495823396681470233488767397/2048000000000000000000000000000",
+  "simple_critical_proportion": "66812491/99194540",
+  "simple_critical_percent": 67.355008652694,
+  "gain_percentage_points_exact": "1002187365/122994474451826",
+  "gain_percentage_points": 8.148230800340002e-06,
+  "strict_actual_margins": {
+    "frame": "2596681470233488767397/1024000000000000000000000000000",
+    "pair": "414294668884928258784247/4096000000000000000000000000000",
+    "exact_outside": "2596681470233488767397/2048000000000000000000000000000"
+  },
+  "safe_outside_margin": "0",
+  "new_lean_or_nanoda_check_performed": false,
+  "website_accepted": false,
+  "elapsed_seconds": 4.358999999938533
+}

@@ -22,6 +22,7 @@ PAPERS = (
     "ninth-span-simple-critical-paper",
     "low-frame-strengthened-simple-critical-paper",
     "joint-frame-pair-simple-critical-paper",
+    "outer-frame-simple-critical-paper",
 )
 
 

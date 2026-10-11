@@ -1,0 +1,62 @@
+{
+  "schema": "rh-weil-round506-independent-archive-v1",
+  "new_process_run_by_this_archival_command": false,
+  "copies_verified_raw_byte_identical": true,
+  "artifacts": [
+    {
+      "original_execution_path": "tmp\\research-round506-20261011\\zero-free-independent\\REVIEW.md",
+      "public_path": "reviews\\2026-10-11\\active-radical-independent\\REVIEW.md",
+      "raw_sha256": "061b8ab94e2f7bd53fadf8634469d9f1c1df32868d07aa6bb2393293c4a847e1"
+    },
+    {
+      "original_execution_path": "tmp\\research-round506-20261011\\zero-free-independent\\independent_active_radical_audit.py",
+      "public_path": "reviews\\2026-10-11\\active-radical-independent\\independent_active_radical_audit.py",
+      "raw_sha256": "7a27f3bd064bae38b6b2de44040d0c7fbe0664e853d38a8fedc45bff3550bbf1"
+    },
+    {
+      "original_execution_path": "tmp\\research-round506-20261011\\zero-free-independent\\independent-active-radical-audit.json",
+      "public_path": "reviews\\2026-10-11\\active-radical-independent\\independent-active-radical-audit.json",
+      "raw_sha256": "367628bc425db125fdace1f04dfdab57bc72b9d073cb70e374c75081f7968f0b"
+    },
+    {
+      "original_execution_path": "tmp\\research-round506-20261011\\zero-free-independent\\public-check-stdout.txt",
+      "public_path": "reviews\\2026-10-11\\active-radical-independent\\public-check-stdout.txt",
+      "raw_sha256": "91d9da8e7e0be00df7baf00a9813e28374cc24ab7db6cc59698284d50127df46"
+    },
+    {
+      "original_execution_path": "tmp\\research-round506-20261011\\zero-free-independent\\public-recheck-receipt.json",
+      "public_path": "reviews\\2026-10-11\\active-radical-independent\\public-recheck-receipt.json",
+      "raw_sha256": "f0413757e55f7a4c5c4f0bb1316135caf6f64a4afca6578233a433ecc7000dbe"
+    },
+    {
+      "original_execution_path": "tmp\\research-round506-20261011\\zero-free-independent\\artifact-manifest.json",
+      "public_path": "reviews\\2026-10-11\\active-radical-independent\\artifact-manifest.json",
+      "raw_sha256": "94cd0e352a5e032490bc54abe5f3b39de2e673698fe5570b11da6a851d07b442"
+    },
+    {
+      "original_execution_path": "tmp\\research-round506-20261011\\final-review\\FINAL_REVIEW.md",
+      "public_path": "reviews\\2026-10-11\\round506-independent\\FINAL_REVIEW.md",
+      "raw_sha256": "71aaf5df67a29aa8e76855132583c9e47655e41e1047d2c210ed28507ad18d2b"
+    },
+    {
+      "original_execution_path": "tmp\\research-round506-20261011\\final-review\\FINAL_REVIEW.json",
+      "public_path": "reviews\\2026-10-11\\round506-independent\\FINAL_REVIEW.json",
+      "raw_sha256": "ff355e425bf8766bd2813d3445d675496cc67e85fb9f0a5496a1c58e5ad0a64e"
+    },
+    {
+      "original_execution_path": "tmp\\research-round506-20261011\\final-review\\independent-source-and-original-evidence.json",
+      "public_path": "reviews\\2026-10-11\\round506-independent\\independent-source-and-original-evidence.json",
+      "raw_sha256": "1e634dfbdda79140f1c92ab87ba802b49a0804469a1159985bd776b1550a04d0"
+    },
+    {
+      "original_execution_path": "tmp\\research-round506-20261011\\final-review\\final-outer-independent-audit.json",
+      "public_path": "reviews\\2026-10-11\\round506-independent\\final-outer-independent-audit.json",
+      "raw_sha256": "e1c6adcc815f4329951015e19203aa04d7d50077c3344e41e80baf0b8e37e1d0"
+    },
+    {
+      "original_execution_path": "tmp\\research-round506-20261011\\final-review\\independent-curvature-audit.json",
+      "public_path": "reviews\\2026-10-11\\round506-independent\\independent-curvature-audit.json",
+      "raw_sha256": "c372ac692a29dba54ed325492dde425d16eaf150bb386d3828a51a6b715cdbc5"
+    }
+  ]
+}

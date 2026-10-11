@@ -1,0 +1,302 @@
+{
+  "schema": "rh-weil-round506-final-publication-review-v1",
+  "reviewer": "round506_publication_audit",
+  "date": "2026-10-11",
+  "status": "PASS for the explicitly separated mathematical publication scope",
+  "no_required_corrections": true,
+  "review_scope": [
+    "Complete new outer-frame paper source, public exact certificate/checker, actual full independent arithmetic and all-zero transport consumption",
+    "Fixed AM13 Fourier curvature proof, all 256 public/independent enclosures and whole closed-interval lift; separate future tool",
+    "Active-radical report sections 1-7 and portable finite-checker interface; written pair-count proof relative to its stated fixed-field linear ideal-count input",
+    "Final notes506, README, current RESEARCH_BRANCHES queue, paper index, targeted check receipt, and all baseline protected publication files",
+    "Existing p505 ordinary Lean and independent Nano receipts bound by their recorded hashes; no new Lean/Nano execution"
+  ],
+  "new_mathematical_ratio": "66812491/99194540",
+  "new_mathematical_percent": "67.355008652693989...",
+  "new_reward": "805460/100000000",
+  "new_Lean_or_Nano_performed": false,
+  "website_accepted": false,
+  "existing_formal_ratio": "66812491/99194552",
+  "existing_formal_commit": "14362fe21fa871a1a951597c573d1601f4755676",
+  "existing_formal_headline_roots": 8,
+  "existing_independent_checked_declarations": 84362,
+  "existing_formal_allowed_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "actual_review_execution": {
+    "status": "PASS final independent evidence replay and publication binding",
+    "author_checker_or_generator_run": false,
+    "Lean_run": false,
+    "Nano_run": false,
+    "replayed_complete_existing_independent_arithmetic": true,
+    "outer_replay_elapsed_seconds": 13.563627599971369,
+    "curvature_replay_elapsed_seconds": 7.279510100139305,
+    "all_original_evidence_fields_match_replay_except_elapsed": true,
+    "public_payload_equals_independently_audited_temporary_payload": true,
+    "new_proportion": "66812491/99194540",
+    "new_reward": "40273/5000000",
+    "frame_routes": {
+      "base33_adapter": 201,
+      "retained_505": 35,
+      "new_closed_cover": 5
+    },
+    "new_closed_cases": 17,
+    "total_frame_cases": 253,
+    "original_and_reflected_labels": [
+      241,
+      241
+    ],
+    "physical_pairs": 2399,
+    "physical_combinations_exhausted": 232324,
+    "safe_outer_equals_target": true,
+    "actual_outer_margin": "2596681470233488767397/2048000000000000000000000000000",
+    "actual_pair_margin": "414294668884928258784247/4096000000000000000000000000000",
+    "curvature_independent_complete_interval_lower": "87241820505809458515167/500000000000000000000000",
+    "curvature_is_separate_future_tool": true,
+    "baseline_commit": "48263e943a5e34575fd6e63e0a2665f88dd4aa44",
+    "baseline_paths_checked": 2882,
+    "baseline_missing": [],
+    "baseline_modified": [
+      "README.md",
+      "RESEARCH_BRANCHES.md",
+      "goals/review-cadence.json",
+      "papers/README.md",
+      "scripts/check_repo_layout.py",
+      "scripts/run_checks.py"
+    ],
+    "old_papers_outputs_reviews_notes_history_formal_preserved": true,
+    "final_public_file_pins": {
+      "scripts/am_outer_frame_certificate.py": {
+        "raw_sha256": "ef68ab57e81113f4f2a0174da9c2bd869d06ae12aa460f2aa5394de78ef7db38",
+        "canonical_lf_sha256": "ef68ab57e81113f4f2a0174da9c2bd869d06ae12aa460f2aa5394de78ef7db38",
+        "bytes": 13650
+      },
+      "output/am-outer-frame-certificate.json": {
+        "raw_sha256": "04f61dbc3913d11ce6da0bfea9e569ca2cd659ae19fdf095281b0b86174e7810",
+        "canonical_lf_sha256": "04f61dbc3913d11ce6da0bfea9e569ca2cd659ae19fdf095281b0b86174e7810",
+        "bytes": 557350
+      },
+      "papers/outer-frame-simple-critical-paper.tex": {
+        "raw_sha256": "6fb958414042bdbb3ad02bdaa79c94846fa952ff46cc4538cff2468e6bf82caf",
+        "canonical_lf_sha256": "6fb958414042bdbb3ad02bdaa79c94846fa952ff46cc4538cff2468e6bf82caf",
+        "bytes": 10971
+      },
+      "output/pdf/outer-frame-simple-critical-paper.pdf": {
+        "raw_sha256": "2a53fbe77cce7fea85e6b387ebd77f780d0c4446f0931ddc53868682a9958332",
+        "canonical_lf_sha256": "9c482cec2c20ff9377a8376a5a98d19e58fd8cd4dc0ad32efe351cd08a01b2ad",
+        "bytes": 214066
+      },
+      "scripts/am_fourier_curvature_certificate.py": {
+        "raw_sha256": "26710ec5e203a6bed77760f92efcdd88b79b675ae4e099d9d6825d71b39957fe",
+        "canonical_lf_sha256": "26710ec5e203a6bed77760f92efcdd88b79b675ae4e099d9d6825d71b39957fe",
+        "bytes": 8332
+      },
+      "output/am-fourier-curvature-certificate.json": {
+        "raw_sha256": "bef676d95e2a2e633eb2db132e298eb9b49b470e28391bf2ae98df6cf1767993",
+        "canonical_lf_sha256": "bef676d95e2a2e633eb2db132e298eb9b49b470e28391bf2ae98df6cf1767993",
+        "bytes": 37842
+      },
+      "reviews/2026-10-11/am-fourier-curvature-proof.md": {
+        "raw_sha256": "e7bcbd457c7ea2fb5022479665c35a274ebd45f0464bf916ec951248510711a6",
+        "canonical_lf_sha256": "e7bcbd457c7ea2fb5022479665c35a274ebd45f0464bf916ec951248510711a6",
+        "bytes": 5266
+      },
+      "reviews/2026-10-11/am-outer-frame-exact-check.json": {
+        "raw_sha256": "22ddabb3b01326e0ad5ad1023093b93a4173ce3eb6e2e5cd0d64695baf9b3728",
+        "canonical_lf_sha256": "22ddabb3b01326e0ad5ad1023093b93a4173ce3eb6e2e5cd0d64695baf9b3728",
+        "bytes": 2522
+      },
+      "reviews/2026-10-11/am-fourier-curvature-exact-check.json": {
+        "raw_sha256": "02545e54e87a5675b4e82a66d9c7833381a857fa162776f38727c4d2a71c3fb4",
+        "canonical_lf_sha256": "02545e54e87a5675b4e82a66d9c7833381a857fa162776f38727c4d2a71c3fb4",
+        "bytes": 37842
+      },
+      "reviews/2026-10-11/active-radical-mixed-cross-research.md": {
+        "raw_sha256": "422185331a09705e596d97df984dfa815335b9974738b9941d81ce9d02294cc2",
+        "canonical_lf_sha256": "422185331a09705e596d97df984dfa815335b9974738b9941d81ce9d02294cc2",
+        "bytes": 18898
+      },
+      "reviews/2026-10-11/active-radical-mixed-cross-reproduction.md": {
+        "raw_sha256": "6764c8d42267d9b96442d5329cb11d3778196a1c440abc6d31edf144b4670db2",
+        "canonical_lf_sha256": "6764c8d42267d9b96442d5329cb11d3778196a1c440abc6d31edf144b4670db2",
+        "bytes": 1583
+      },
+      "scripts/hybrid_active_radical_mixed_cross_budget.py": {
+        "raw_sha256": "f93f2689a9e4242774194f14a4ae7f1de6476dcf1ea47bb95333645631c12bfd",
+        "canonical_lf_sha256": "f93f2689a9e4242774194f14a4ae7f1de6476dcf1ea47bb95333645631c12bfd",
+        "bytes": 10522
+      },
+      "output/hybrid-active-radical-mixed-cross-budget.json": {
+        "raw_sha256": "c3370f7545e89bcf842c38cf695aed65b046e28ca8eb2ad5a705fa1aa7275f8f",
+        "canonical_lf_sha256": "c3370f7545e89bcf842c38cf695aed65b046e28ca8eb2ad5a705fa1aa7275f8f",
+        "bytes": 57773
+      },
+      "reviews/2026-10-11/active-radical-mixed-cross-source-check.json": {
+        "raw_sha256": "e8ee50343ffa95b232624cc3102cce634bd2c2bb5c028d8aebef05e52afd33bd",
+        "canonical_lf_sha256": "e8ee50343ffa95b232624cc3102cce634bd2c2bb5c028d8aebef05e52afd33bd",
+        "bytes": 57906
+      },
+      "notes/506-outer-frame-record-and-active-radical-payment.md": {
+        "raw_sha256": "6a21e966c1760a91d73c5c2800d65dfba6ca6eeba8a1e5cb1f55322e246bcac3",
+        "canonical_lf_sha256": "6a21e966c1760a91d73c5c2800d65dfba6ca6eeba8a1e5cb1f55322e246bcac3",
+        "bytes": 8904
+      },
+      "README.md": {
+        "raw_sha256": "d00b5ad7cf1b7513220cd7a2cb4389a2f8a3ad25a32b451e0694bf51397de5a3",
+        "canonical_lf_sha256": "d00b5ad7cf1b7513220cd7a2cb4389a2f8a3ad25a32b451e0694bf51397de5a3",
+        "bytes": 14341
+      },
+      "RESEARCH_BRANCHES.md": {
+        "raw_sha256": "fcb58ec5e8f1f8156f614d2394f4c156277d1d4d056b2069bdabe6c730ff6b7b",
+        "canonical_lf_sha256": "fcb58ec5e8f1f8156f614d2394f4c156277d1d4d056b2069bdabe6c730ff6b7b",
+        "bytes": 222168
+      },
+      "papers/README.md": {
+        "raw_sha256": "a65ada01c63cca3532ef0264631f3ed5994f39223ede45caeca0b4ac7db56256",
+        "canonical_lf_sha256": "a65ada01c63cca3532ef0264631f3ed5994f39223ede45caeca0b4ac7db56256",
+        "bytes": 14146
+      }
+    },
+    "reviewer_script_canonical_lf_sha256": "8ce27004f6b428e4c9ade5f965117d6eea2bd265fd852138a105026b55b056ac",
+    "elapsed_seconds": 21.769626999972388
+  },
+  "proof_findings": {
+    "different_baseline_adapter": "201 base-only dual vectors are genuinely separate witnesses, not relabelled public YA multipliers; all full 33-variable signed residual boxes are recomputed.",
+    "complete_frame_cover": "35 retained witnesses plus five whole-cell closed covers with 17 nonempty cases give 253 payments. All 241 original labels and reflection symmetry are checked; 387 rows, 529 positive multipliers and 288 original PTL entries.",
+    "complete_pairs": "All 232324 ordered 482-by-482 combinations are independently tested, leaving exactly 2399 compatible domains; 2342 original witnesses and 57 replacements with 104 closed cases are replayed, with every residual paid.",
+    "safe_and_actual_margin": "Safe outer average equals c exactly. Actual frame minimum exceeds ell, so the actual outer margin is (L-ell)/2>0. The minimum low-low pair exceeds c independently.",
+    "analytic_transport": "Pair capacity at most two, local mass below sixteen, normalized separated Gram strictly below two, 32 d_epsilon n smoothing, 8c endpoint fee and (51/550)^2>c remain valid. Fix smoothing before the height limit, then take smoothing to zero; all off-line zeros and multiplicities remain in the denominator. Simple and distinct dyadic/cumulative claims are correctly separated from fixed-height numerical counts.",
+    "curvature": "The double-Fourier cubic convolution moment is exactly 1/10. The global absolute third derivative bound is <34, and all 256 outward rational point jets plus maximum distance 3/5120 prove w_second>17/100 on the closed interval [9/5,21/10]. This is not consumed by c805460.",
+    "active_radical": "For a fixed s,t,a,b the gcd ideal count is bounded by N/(max(q_s q_a^6,q_t q_b^6)); overcounting yields two convergent zeta_K(3) factors. Ten side/exponent choices per active prime and the stated ideal count give N R^(1/2+epsilon). Actual coefficient multiplicity is bounded by d_K(k)^2. The Gram payment uses each restoration tuple own 1/Nprime, preserves nonunit punctures and two heights, and does not supply the unproved large-radical signed cross, global new-target geometry, full count saving or new sigma.",
+    "finite_checker_scope": "1349 default checks and 1352 checks with actual source identity are distinct. --certificate compares the finite core, --audit-output writes only an explicit output, default is read-only and -O is rejected. The infinite ideal theorem is the written proof, not a finite-checker output.",
+    "publication_status": "README, the current branch queue and notes506 distinguish p506 mathematics from p505 completed formal verification and pending website resource/acceptance work. Previous statements remain historical snapshots."
+  },
+  "root_targeted_verification": {
+    "receipt_path": "E:\\codex-build\\RH-Weil\\reviews\\2026-10-11\\outer-frame-targeted-checks.json",
+    "receipt_raw_sha256": "67cfc50db2c23ce0060b18679163ea81a10230a60e60d876ee0add04f54780b7",
+    "actual_process_count": 11,
+    "all_expected_exit_codes_verified": true,
+    "registry_core": 100,
+    "registry_all": 102,
+    "full_core_or_all_suite_run": false
+  },
+  "paper_build_and_qa": {
+    "reviewer_read_complete_tex": true,
+    "root_agent_reported_final_compile_and_all_page_visual_QA": true,
+    "pages_reported_by_root": 4,
+    "PDF_raw_bytes_verified_by_this_reviewer": 214066,
+    "PDF_raw_sha256": "2a53fbe77cce7fea85e6b387ebd77f780d0c4446f0931ddc53868682a9958332",
+    "this_reviewer_reran_compilation_or_visual_QA": false
+  },
+  "full_independent_sources_and_original_evidence_archive": {
+    "path": "E:\\codex-build\\RH-Weil\\tmp\\research-round506-20261011\\final-review\\independent-source-and-original-evidence.json",
+    "raw_sha256": "1e634dfbdda79140f1c92ab87ba802b49a0804469a1159985bd776b1550a04d0",
+    "original_reports_unchanged": true,
+    "complete_sources_embedded": true,
+    "whole_independent_toolchain_portable": false
+  },
+  "remaining_open_scope": [
+    "new p506 Lean transplant",
+    "website whole-submission resource contract and acceptance",
+    "large-active-radical signed aggregation",
+    "new-target full critical-geometry coverage and all fees",
+    "full count saving and improved zero-free boundary",
+    "complete ArithmeticProbeObligation"
+  ],
+  "author_checker_or_generator_run_by_this_reviewer": false,
+  "external_correlation_paper_or_original_PC8_admission_reproved_by_this_reviewer": false,
+  "final_public_files_sha256": {
+    "scripts/am_outer_frame_certificate.py": {
+      "raw_sha256": "ef68ab57e81113f4f2a0174da9c2bd869d06ae12aa460f2aa5394de78ef7db38",
+      "canonical_lf_sha256": "ef68ab57e81113f4f2a0174da9c2bd869d06ae12aa460f2aa5394de78ef7db38",
+      "bytes": 13650
+    },
+    "output/am-outer-frame-certificate.json": {
+      "raw_sha256": "04f61dbc3913d11ce6da0bfea9e569ca2cd659ae19fdf095281b0b86174e7810",
+      "canonical_lf_sha256": "04f61dbc3913d11ce6da0bfea9e569ca2cd659ae19fdf095281b0b86174e7810",
+      "bytes": 557350
+    },
+    "papers/outer-frame-simple-critical-paper.tex": {
+      "raw_sha256": "6fb958414042bdbb3ad02bdaa79c94846fa952ff46cc4538cff2468e6bf82caf",
+      "canonical_lf_sha256": "6fb958414042bdbb3ad02bdaa79c94846fa952ff46cc4538cff2468e6bf82caf",
+      "bytes": 10971
+    },
+    "output/pdf/outer-frame-simple-critical-paper.pdf": {
+      "raw_sha256": "2a53fbe77cce7fea85e6b387ebd77f780d0c4446f0931ddc53868682a9958332",
+      "canonical_lf_sha256": "9c482cec2c20ff9377a8376a5a98d19e58fd8cd4dc0ad32efe351cd08a01b2ad",
+      "bytes": 214066
+    },
+    "scripts/am_fourier_curvature_certificate.py": {
+      "raw_sha256": "26710ec5e203a6bed77760f92efcdd88b79b675ae4e099d9d6825d71b39957fe",
+      "canonical_lf_sha256": "26710ec5e203a6bed77760f92efcdd88b79b675ae4e099d9d6825d71b39957fe",
+      "bytes": 8332
+    },
+    "output/am-fourier-curvature-certificate.json": {
+      "raw_sha256": "bef676d95e2a2e633eb2db132e298eb9b49b470e28391bf2ae98df6cf1767993",
+      "canonical_lf_sha256": "bef676d95e2a2e633eb2db132e298eb9b49b470e28391bf2ae98df6cf1767993",
+      "bytes": 37842
+    },
+    "reviews/2026-10-11/am-fourier-curvature-proof.md": {
+      "raw_sha256": "e7bcbd457c7ea2fb5022479665c35a274ebd45f0464bf916ec951248510711a6",
+      "canonical_lf_sha256": "e7bcbd457c7ea2fb5022479665c35a274ebd45f0464bf916ec951248510711a6",
+      "bytes": 5266
+    },
+    "reviews/2026-10-11/am-outer-frame-exact-check.json": {
+      "raw_sha256": "22ddabb3b01326e0ad5ad1023093b93a4173ce3eb6e2e5cd0d64695baf9b3728",
+      "canonical_lf_sha256": "22ddabb3b01326e0ad5ad1023093b93a4173ce3eb6e2e5cd0d64695baf9b3728",
+      "bytes": 2522
+    },
+    "reviews/2026-10-11/am-fourier-curvature-exact-check.json": {
+      "raw_sha256": "02545e54e87a5675b4e82a66d9c7833381a857fa162776f38727c4d2a71c3fb4",
+      "canonical_lf_sha256": "02545e54e87a5675b4e82a66d9c7833381a857fa162776f38727c4d2a71c3fb4",
+      "bytes": 37842
+    },
+    "reviews/2026-10-11/active-radical-mixed-cross-research.md": {
+      "raw_sha256": "422185331a09705e596d97df984dfa815335b9974738b9941d81ce9d02294cc2",
+      "canonical_lf_sha256": "422185331a09705e596d97df984dfa815335b9974738b9941d81ce9d02294cc2",
+      "bytes": 18898
+    },
+    "reviews/2026-10-11/active-radical-mixed-cross-reproduction.md": {
+      "raw_sha256": "6764c8d42267d9b96442d5329cb11d3778196a1c440abc6d31edf144b4670db2",
+      "canonical_lf_sha256": "6764c8d42267d9b96442d5329cb11d3778196a1c440abc6d31edf144b4670db2",
+      "bytes": 1583
+    },
+    "scripts/hybrid_active_radical_mixed_cross_budget.py": {
+      "raw_sha256": "f93f2689a9e4242774194f14a4ae7f1de6476dcf1ea47bb95333645631c12bfd",
+      "canonical_lf_sha256": "f93f2689a9e4242774194f14a4ae7f1de6476dcf1ea47bb95333645631c12bfd",
+      "bytes": 10522
+    },
+    "output/hybrid-active-radical-mixed-cross-budget.json": {
+      "raw_sha256": "c3370f7545e89bcf842c38cf695aed65b046e28ca8eb2ad5a705fa1aa7275f8f",
+      "canonical_lf_sha256": "c3370f7545e89bcf842c38cf695aed65b046e28ca8eb2ad5a705fa1aa7275f8f",
+      "bytes": 57773
+    },
+    "reviews/2026-10-11/active-radical-mixed-cross-source-check.json": {
+      "raw_sha256": "e8ee50343ffa95b232624cc3102cce634bd2c2bb5c028d8aebef05e52afd33bd",
+      "canonical_lf_sha256": "e8ee50343ffa95b232624cc3102cce634bd2c2bb5c028d8aebef05e52afd33bd",
+      "bytes": 57906
+    },
+    "notes/506-outer-frame-record-and-active-radical-payment.md": {
+      "raw_sha256": "6a21e966c1760a91d73c5c2800d65dfba6ca6eeba8a1e5cb1f55322e246bcac3",
+      "canonical_lf_sha256": "6a21e966c1760a91d73c5c2800d65dfba6ca6eeba8a1e5cb1f55322e246bcac3",
+      "bytes": 8904
+    },
+    "README.md": {
+      "raw_sha256": "d00b5ad7cf1b7513220cd7a2cb4389a2f8a3ad25a32b451e0694bf51397de5a3",
+      "canonical_lf_sha256": "d00b5ad7cf1b7513220cd7a2cb4389a2f8a3ad25a32b451e0694bf51397de5a3",
+      "bytes": 14341
+    },
+    "RESEARCH_BRANCHES.md": {
+      "raw_sha256": "fcb58ec5e8f1f8156f614d2394f4c156277d1d4d056b2069bdabe6c730ff6b7b",
+      "canonical_lf_sha256": "fcb58ec5e8f1f8156f614d2394f4c156277d1d4d056b2069bdabe6c730ff6b7b",
+      "bytes": 222168
+    },
+    "papers/README.md": {
+      "raw_sha256": "a65ada01c63cca3532ef0264631f3ed5994f39223ede45caeca0b4ac7db56256",
+      "canonical_lf_sha256": "a65ada01c63cca3532ef0264631f3ed5994f39223ede45caeca0b4ac7db56256",
+      "bytes": 14146
+    }
+  }
+}

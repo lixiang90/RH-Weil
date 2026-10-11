@@ -22,6 +22,7 @@
 | 九点总跨度平方与简单临界线零点 | [ninth-span-simple-critical-paper.tex](ninth-span-simple-critical-paper.tex) | [PDF](../output/pdf/ninth-span-simple-critical-paper.pdf) | pdfLaTeX |
 | 九点证书的低帧加强与简单临界线零点 | [low-frame-strengthened-simple-critical-paper.tex](low-frame-strengthened-simple-critical-paper.tex) | [PDF](../output/pdf/low-frame-strengthened-simple-critical-paper.pdf) | pdfLaTeX |
 | 单帧与拼接域联动加强 | [joint-frame-pair-simple-critical-paper.tex](joint-frame-pair-simple-critical-paper.tex) | [PDF](../output/pdf/joint-frame-pair-simple-critical-paper.pdf) | pdfLaTeX |
+| 真实 closure 的外域加强 | [outer-frame-simple-critical-paper.tex](outer-frame-simple-critical-paper.tex) | [PDF](../output/pdf/outer-frame-simple-critical-paper.pdf) | pdfLaTeX |
 
 新稿将笔记 441–445 的结果整理为正式论文：在明确引用原稿通用结果及全 Hecke \(7/8\) 结论的前提下，推出严格半平面 \(\Re s>69999/80000\) 无零。正文给出可变槽 low 证明、局部 Euler 域、实际 detector 容量、联合误差、连续证书及完整延拓反证；不宣称独立验收原稿或完成新的 Lean 认证。最终源稿、PDF 和独立审查的哈希及编译情况见 [构建清单](../reviews/2026-10-07/69999-paper-build-manifest.json)。
 
@@ -140,4 +141,19 @@ python scripts/check_repo_layout.py
 ```powershell
 pdflatex -interaction=nonstopmode -halt-on-error -output-directory=output/pdf papers/joint-frame-pair-simple-critical-paper.tex
 pdflatex -interaction=nonstopmode -halt-on-error -output-directory=output/pdf papers/joint-frame-pair-simple-critical-paper.tex
+```
+
+外域加强新稿记录506：201不同基线对偶、35旧单帧付款和五胞17闭case，
+真实closure、原288点和全部2399拼接域给新的数学下界
+`66812491/99194540≈67.3550086527%`。四页论文署名Li Xiang（lixiang90），
+使用完整有理残差与原全零点运输；新增证书尚未移植Lean。
+此前联动加强的完整形式化、所有旧论文和提交继续保留。
+[构建清单](../reviews/2026-10-11/outer-frame-paper-build-manifest.json)
+记录最终源／PDF、实际有限复验与独立审查；曲率工具和无零路线的新小活跃模数付款
+另见[研究笔记506](../notes/506-outer-frame-record-and-active-radical-payment.md)，
+不作为本论文的解析新增前件。
+
+```powershell
+pdflatex -interaction=nonstopmode -halt-on-error -output-directory=output/pdf papers/outer-frame-simple-critical-paper.tex
+pdflatex -interaction=nonstopmode -halt-on-error -output-directory=output/pdf papers/outer-frame-simple-critical-paper.tex
 ```
