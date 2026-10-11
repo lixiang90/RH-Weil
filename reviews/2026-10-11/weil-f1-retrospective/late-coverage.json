@@ -1,0 +1,1235 @@
+[
+  {
+    "number": 301,
+    "path": "notes/301-cluster-phase-cancellation-and-nonuniform-divisor-families.md",
+    "rawsha": "41e418e2e1d705531a11e0eddb3eedbb8296830abbe4aebf00842ff12e2d684a",
+    "lines": 639,
+    "readscope": "实质全篇结构survey：全节标题、节首数学对象、命题/证明路径、结算/限制/下一步摘录核读；未逐行重算中间公式",
+    "judgement": "明确移动有限簇相位和控制截断负迹；同一局部germ及极限除子可有相反边界行为。不是实际ζ的移动簇反例。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 302,
+    "path": "notes/302-positive-background-quotient-collapse.md",
+    "rawsha": "c6c7f42a2cbe6b33a4f52fe1ac8c6d0f934f94401a8d16b927cc4d76f5df6421",
+    "lines": 347,
+    "readscope": "实质全篇结构survey：全节标题、节首数学对象、命题/证明路径、结算/限制/下一步摘录核读；未逐行重算中间公式",
+    "judgement": "实际零点前缀正背景硬商保留负秩却使绝对负迹指数塌缩；有界度量修正不能恢复尺度，停止定性近正性扩写。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 303,
+    "path": "notes/303-critical-window-counting-and-visibility-nonidentification.md",
+    "rawsha": "13610d34b278c548a9617daf0847a950ebf7e02ee453f396ab9209551fe64bcd",
+    "lines": 515,
+    "readscope": "实质全篇结构survey：全节标题、节首数学对象、命题/证明路径、结算/限制/下一步摘录核读；未逐行重算中间公式",
+    "judgement": "两套固定全局共轭除子满足共同计数/增长但临界窗可见性相反；count-only不识别残余Gram，不能冒充ζ或Euler乘积。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 304,
+    "path": "notes/304-mt-triple-geometry-and-second-moment-stability.md",
+    "rawsha": "053161dec5c6db22d6d5796fc8954306a7d7cbeffe8d59fcaf512c36ed14518d",
+    "lines": 645,
+    "readscope": "实质全篇结构survey：全节标题、节首数学对象、命题/证明路径、结算/限制/下一步摘录核读；未逐行重算中间公式",
+    "judgement": "重建凸谱余项及三点非正交证书，把有限稳定性接到实际二阶算术；后续文献否定首次机制与前沿解释。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 305,
+    "path": "notes/305-post-6725-literature-baseline-audit.md",
+    "rawsha": "d6c50714c1b6a52d041adfd560fe4a3161d87b8b40579e77845483dd4ba7df93",
+    "lines": 139,
+    "readscope": "实质全篇结构survey：全节标题、节首数学对象、命题/证明路径、结算/限制/下一步摘录核读；未逐行重算中间公式",
+    "judgement": "文献基线审计纠正67.25%最新结果表述，区分已核证与未认证公开主张；不是新比例定理。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 306,
+    "path": "notes/306-quartic-boundary-and-equal-norm-corrections.md",
+    "rawsha": "5b543cf50e5bf662e2515cf370fe5c679d6af35ba162a4f6001c9c7f8ba39159",
+    "lines": 158,
+    "readscope": "实质全篇结构survey：全节标题、节首数学对象、命题/证明路径、结算/限制/下一步摘录核读；未逐行重算中间公式",
+    "judgement": "修正四矩渐近必要条件、65维共同上界与66维同实际范数区别、近似正泛函误差界；纠错不增加算术输入。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 307,
+    "path": "notes/307-odd-polarization-and-elliptic-degree-benchmark.md",
+    "rawsha": "4f429c5e849ede0ec03383d74a89278ac17486f6b39b0827dd751f73c763091f",
+    "lines": 169,
+    "readscope": "全文深读：逐节正文、命题/证明、定义域与后续限制均核读；非外部文献全证明重审",
+    "judgement": "奇次scalar star必退化；具体F5椭圆曲线由几何次数先获得正性及F,J相容，再得全幂迹/ζ，不从纯谱反造极化。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 308,
+    "path": "notes/308-abel-obstruction-proof-literature-and-reproduction.md",
+    "rawsha": "ea62c615fae343547064e87d69999c6aeab4490de39b278c58d6b2c647a287dc",
+    "lines": 111,
+    "readscope": "实质全篇结构survey：全节标题、节首数学对象、命题/证明路径、结算/限制/下一步摘录核读；未逐行重算中间公式",
+    "judgement": "指定Abel质量响应的证明/经典来源/复现收束；不把技术重建或单个已知零点当作新RH机制。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 309,
+    "path": "notes/309-explicit-formula-benchmark-and-route-admission.md",
+    "rawsha": "1eb3b4802c77beb9019d15cc00a6de5d2fab7cdeb6b759b37d6343801f33b150",
+    "lines": 102,
+    "readscope": "实质全篇结构survey：全节标题、节首数学对象、命题/证明路径、结算/限制/下一步摘录核读；未逐行重算中间公式",
+    "judgement": "实际Hilbert显式公式模型归纳及各路线准入；无新增带符号算术估计而决定暂不恢复主线，未判全部方法不可能。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 310,
+    "path": "notes/310-regularized-visibility-admission-and-signed-ledger.md",
+    "rawsha": "0c3ed0432e52a41b2632910e705a7acd6e5d4fc23e77900057be1518a109cf3a",
+    "lines": 108,
+    "readscope": "实质全篇结构survey：全节标题、节首数学对象、命题/证明路径、结算/限制/下一步摘录核读；未逐行重算中间公式",
+    "judgement": "Tikhonov残余、压缩负迹、原惯性三者分开；逼近集体系数缺口仍独立，不把resolvent恒等式计为净成果。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 311,
+    "path": "notes/311-regularization-schedules-and-coefficient-cost.md",
+    "rawsha": "de11d76c6df33110227cd532eff40a77488f93f80c7e6d88b6f62f1a147760ac",
+    "lines": 78,
+    "readscope": "实质全篇结构survey：全节标题、节首数学对象、命题/证明路径、结算/限制/下一步摘录核读；未逐行重算中间公式",
+    "judgement": "原始重数下插值系数及λ日程共同成本明确；正规方程不提供所需集体系数缺口，第2轮无实际净估计。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 312,
+    "path": "notes/312-critical-line-background-and-directional-filter-cost.md",
+    "rawsha": "3f000ed86cd90dde4f222aab1279100ccdb817daba98d2715e12c4da497cec0a",
+    "lines": 141,
+    "readscope": "实质全篇结构survey：全节标题、节首数学对象、命题/证明路径、结算/限制/下一步摘录核读；未逐行重算中间公式",
+    "judgement": "实际临界线子背景Bessel上界与系数成本成立；完整非实正列不能删去，方向逆变换预算须另付。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 313,
+    "path": "notes/313-depth-gap-tail-bound-and-directional-regularization.md",
+    "rawsha": "90b91a1f05ad7749bb62637f37026ebf2958bdaa2283429f3096cb8ce3261d79",
+    "lines": 170,
+    "readscope": "实质全篇结构survey：全节标题、节首数学对象、命题/证明路径、结算/限制/下一步摘录核读；未逐行重算中间公式",
+    "judgement": "在指定深度/高度分离下显式控制全部非实正背景远尾，方向λ可优于全局逆范数；实际隔离条件未验证。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 314,
+    "path": "notes/314-hybrid-density-tail-and-shorter-depth-gap.md",
+    "rawsha": "26ea0bab451e92308584a3623ac51ef3519ffbb81926f196f194500e5902a5e9",
+    "lines": 170,
+    "readscope": "实质全篇结构survey：全节标题、节首数学对象、命题/证明路径、结算/限制/下一步摘录核读；未逐行重算中间公式",
+    "judgement": "局部计数与统一Ingham零密度取小者改进真实远尾；完整应用仍要求实际深点隔离，不能从几乎处处选择零点。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 315,
+    "path": "notes/315-narrow-deep-clusters-and-near-positive-cost.md",
+    "rawsha": "55c3d088cbacd0bbc2b252c9b18a6c91b78c13d0c18175993bf76e94f25bf266",
+    "lines": 140,
+    "readscope": "实质全篇结构survey：全节标题、节首数学对象、命题/证明路径、结算/限制/下一步摘录核读；未逐行重算中间公式",
+    "judgement": "窄深簇近正项有明确代价，替代单点隔离；簇外分离及实际簇仍条件性。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 316,
+    "path": "notes/316-coherent-cluster-negative-mass-and-logarithmic-aperture.md",
+    "rawsha": "3418e22798f5d891dab90bef9b44535023ad33a9eca27aaa4e073a017fe5d959",
+    "lines": 159,
+    "readscope": "实质全篇结构survey：全节标题、节首数学对象、命题/证明路径、结算/限制/下一步摘录核读；未逐行重算中间公式",
+    "judgement": "保留簇内全部负列取得集体质量，宽度改为o(1/logT)；不得把单方向下界直接相加作全局密度。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 317,
+    "path": "notes/317-separated-deep-test-gram-and-collective-effect.md",
+    "rawsha": "ed9de7703a4af3876421037bb3f2fcc7299bab0d4c054a3134f7026f545b8ba2",
+    "lines": 80,
+    "readscope": "实质全篇结构survey：全节标题、节首数学对象、命题/证明路径、结算/限制/下一步摘录核读；未逐行重算中间公式",
+    "judgement": "分离目标共同Gram及正收缩效应允许原负响应求和；共同逆变换范数尚缺，经典机制不算新算术。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 318,
+    "path": "notes/318-columnwise-small-error-does-not-control-common-gram.md",
+    "rawsha": "5d7d6d3bb99595a3abeb4c802c1103b8372379cfb1df21ab381395d31e9c428e",
+    "lines": 46,
+    "readscope": "实质全篇结构survey：全节标题、节首数学对象、命题/证明路径、结算/限制/下一步摘录核读；未逐行重算中间公式",
+    "judgement": "同一正算子逐列小误差不控制共同Gram的精确反例；HS修补付√M，非ζ反例。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 319,
+    "path": "notes/319-collective-far-background-via-weighted-schur.md",
+    "rawsha": "85ae4b2c2924dc48bb397c33e286d35227555ac6727415cd40c8797080889611",
+    "lines": 115,
+    "readscope": "实质全篇结构survey：全节标题、节首数学对象、命题/证明路径、结算/限制/下一步摘录核读；未逐行重算中间公式",
+    "judgement": "实际共同远尾用加权Schur及第一逆幂计数控制；筛掉的正项回到完整应用仍须另计。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 320,
+    "path": "notes/320-common-regularizer-for-growing-separated-clusters.md",
+    "rawsha": "e7ecd921eda20e9ce56d8c6aa2916f426b94b993885089052f465d351a227202",
+    "lines": 166,
+    "readscope": "实质全篇结构survey：全节标题、节首数学对象、命题/证明路径、结算/限制/下一步摘录核读；未逐行重算中间公式",
+    "judgement": "完整正列分块后以最大簇质量给共同λ/效应预算并允许簇数增长；实际簇与覆盖仍开放。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 321,
+    "path": "notes/321-near-deep-node-budgets-and-common-mixed-gram.md",
+    "rawsha": "cfa7ea575a718aeada319f9599f6d4ee7978bb4bf30d1758128bf0bf61a2751f",
+    "lines": 92,
+    "readscope": "实质全篇结构survey：全节标题、节首数学对象、命题/证明路径、结算/限制/下一步摘录核读；未逐行重算中间公式",
+    "judgement": "用相位加权原始节点预算允许未选中近深点，给共同Gram成本；未证明实际近点廉价。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 322,
+    "path": "notes/322-complete-regularization-with-near-deep-leakage.md",
+    "rawsha": "36d5678735d21895a54a209509896a65c471eb5465decd18b8fcdebe03d77756",
+    "lines": 93,
+    "readscope": "实质全篇结构survey：全节标题、节首数学对象、命题/证明路径、结算/限制/下一步摘录核读；未逐行重算中间公式",
+    "judgement": "全部正负列与同一R合并，得到近深泄漏条件性总质量预算；新小量尚无独立算术验证。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 323,
+    "path": "notes/323-what-current-counting-controls-for-near-deep-budgets.md",
+    "rawsha": "9787decaf430d068cfd546df4caec1e04e5d5e53c8089c96fcc29b84b52f5f38",
+    "lines": 92,
+    "readscope": "实质全篇结构survey：全节标题、节首数学对象、命题/证明路径、结算/限制/下一步摘录核读；未逐行重算中间公式",
+    "judgement": "现有计数对近深成本的真实上界不趋零，不能免费剔除坏目标；停止同级Schur重写。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 324,
+    "path": "notes/324-sharp-mt-second-moment-by-measure-deweighting.md",
+    "rawsha": "234b8ed0b8a837bf2874b2bc79e4dd0dd6ba5ae5711bbba582fac4061be180cc",
+    "lines": 114,
+    "readscope": "实质全篇结构survey：全节标题、节首数学对象、命题/证明路径、结算/限制/下一步摘录核读；未逐行重算中间公式",
+    "judgement": "sharp MT对象用有限测度去权及端点原子合法补二阶公式；任意正收缩可用上界，不新增算术估计。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 325,
+    "path": "notes/325-rank-aware-cluster-counts-and-coverage-bottleneck.md",
+    "rawsha": "e816e38d3698e83b5bc44ec216ee0f357b86605f89addcb325d8656455a31684",
+    "lines": 105,
+    "readscope": "实质全篇结构survey：全节标题、节首数学对象、命题/证明路径、结算/限制/下一步摘录核读；未逐行重算中间公式",
+    "judgement": "保留效应秩得到条件性簇计数节省；实际固定比例覆盖/坏点预算是瓶颈，深质量不直接产生固定比例增益。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 326,
+    "path": "notes/326-density-comparison-packing-and-next-admission.md",
+    "rawsha": "1d775576c9fecf0925c01858425b988ed975098b20903935afe0608c1741dab2",
+    "lines": 85,
+    "readscope": "实质全篇结构survey：全节标题、节首数学对象、命题/证明路径、结算/限制/下一步摘录核读；未逐行重算中间公式",
+    "judgement": "更新零密度比较并审计packing损失；贪心删除邻点不删除原正列，实际覆盖未付，要求不同机制。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 327,
+    "path": "notes/327-window-family-and-exact-mixed-phase-average.md",
+    "rawsha": "0d73458303c6859b61284ea8ef079c5f86a5daa90240edc056bf0111995bae5b",
+    "lines": 128,
+    "readscope": "实质全篇结构survey：全节标题、节首数学对象、命题/证明路径、结算/限制/下一步摘录核读；未逐行重算中间公式",
+    "judgement": "变窗的统一二阶与精确混合核成立；平方相位平均有正主项而非所需小量，停止免费平均覆盖。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 328,
+    "path": "notes/328-tty-thm51-proof-repair-and-scope.md",
+    "rawsha": "f21c0f21cf8b002afc14da913ac1a945f74b883cc2f81b74081d04ce3db1e55f",
+    "lines": 90,
+    "readscope": "实质全篇结构survey：全节标题、节首数学对象、命题/证明路径、结算/限制/下一步摘录核读；未逐行重算中间公式",
+    "judgement": "TTY固定版本印刷步骤问题以已列上游条款局部补证；内部代数修复不等于作者勘误、全原文认证或新密度。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 329,
+    "path": "notes/329-mass-weighted-window-average-and-density-cap.md",
+    "rawsha": "5743a7e6c6e74d322bb209e6bff8b6b15f251aa460d8e007b6eb584dfb4d376c",
+    "lines": 132,
+    "readscope": "实质全篇结构survey：全节标题、节首数学对象、命题/证明路径、结算/限制/下一步摘录核读；未逐行重算中间公式",
+    "judgement": "分别积分再相除的质量权重与密度上限选窗有正成本；停止这两类平均小量论证，不排集中窗/联合方向。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 330,
+    "path": "notes/330-exact-sublevels-and-arbitrary-window-concentration.md",
+    "rawsha": "a0e8523f794069b5d376841e05121eaa87754de51d0fc29085680bb5ba3cf78c",
+    "lines": 192,
+    "readscope": "实质全篇结构survey：全节标题、节首数学对象、命题/证明路径、结算/限制/下一步摘录核读；未逐行重算中间公式",
+    "judgement": "精确C1混合核次水平集给任意增长选窗集中度匹配阶，较深邻点成本带原始重数；仅单对条件性。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 331,
+    "path": "notes/331-three-node-phase-compatibility-and-circle-defect.md",
+    "rawsha": "0ff851d60bf6fbcdce6fe1dce9644e41293849ae415060c487af6158d1935154",
+    "lines": 155,
+    "readscope": "实质全篇结构survey：全节标题、节首数学对象、命题/证明路径、结算/限制/下一步摘录核读；未逐行重算中间公式",
+    "judgement": "消去共同窗长得到三点相位圆缺陷，固定缺陷阻止三单目标同时小泄漏；不排全部联合对偶方向。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 332,
+    "path": "notes/332-complete-signed-packets-and-cauchy-duals.md",
+    "rawsha": "d426f33508727549d4dc8f4cf42374777a84f34b367c3ad1a1b93f9948c49e75",
+    "lines": 169,
+    "readscope": "实质全篇结构survey：全节标题、节首数学对象、命题/证明路径、结算/限制/下一步摘录核读；未逐行重算中间公式",
+    "judgement": "完整g/h节点组Cauchy Gram及精确对偶消去全部所选正列；节点条件和覆盖仍未验证。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 333,
+    "path": "notes/333-joint-packet-duals-and-conditional-density.md",
+    "rawsha": "83494b9fd79eb0311a9bbdd161b121530d5ab8dd784d378cfb6cd049be47ec09",
+    "lines": 139,
+    "readscope": "实质全篇结构survey：全节标题、节首数学对象、命题/证明路径、结算/限制/下一步摘录核读；未逐行重算中间公式",
+    "judgement": "多完整组共同对偶与同sharp二阶接成条件性计数；固定大小/复间距/外部gap不能免费由总数获得。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 334,
+    "path": "notes/334-growing-packet-cost-and-collision-scope.md",
+    "rawsha": "c4fc921aca393d8794c00694d2c1fb88411a1cb3211eb653e100837c1bdd873f",
+    "lines": 135,
+    "readscope": "实质全篇结构survey：全节标题、节首数学对象、命题/证明路径、结算/限制/下一步摘录核读；未逐行重算中间公式",
+    "judgement": "精确逐列对偶增长与碰撞退化成本；同高近碰撞不等于完整负响应消失，结论不可外推全部测试。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 335,
+    "path": "notes/335-fixed-physical-cell-and-determinant-fibres.md",
+    "rawsha": "3feb8acccfcc7a85eff8752bd49b0cf66823418e6c2d5c4f6780dd33d65aec49",
+    "lines": 104,
+    "readscope": "实质全篇结构survey：全节标题、节首数学对象、命题/证明路径、结算/限制/下一步摘录核读；未逐行重算中间公式",
+    "judgement": "恢复固定物理cell与determinant整数纤维；固定分母每纤维O(g)，不是自由平方根长求和，未得相消。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 336,
+    "path": "notes/336-finite-field-completion-of-physical-determinants.md",
+    "rawsha": "75365f765808b6a727188038cd33ade8595b68ef782a638f4e6dd9a8dd5ab3b3",
+    "lines": 147,
+    "readscope": "实质全篇结构survey：全节标题、节首数学对象、命题/证明路径、结算/限制/下一步摘录核读；未逐行重算中间公式",
+    "judgement": "无别名有限域完成给完整Kloosterman精确恒等式；双频系数不可免费分离，范数基准远不够。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 337,
+    "path": "notes/337-zero-fourier-mode-with-physical-shell-centering.md",
+    "rawsha": "a422ac6186abf1225a27b2fc656a78b467bb222f03fd73d59e30b37096e5a824",
+    "lines": 112,
+    "readscope": "实质全篇结构survey：全节标题、节首数学对象、命题/证明路径、结算/限制/下一步摘录核读；未逐行重算中间公式",
+    "judgement": "原shell中心化使真正零Fourier模O(logX)；关键非零Kloosterman余项仍未估计。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 338,
+    "path": "notes/338-common-denominator-layer-in-the-actual-cell.md",
+    "rawsha": "446d0ecce1ae65ed0085e94bde8f6b4ea20db902d738ac4df334581dab022ff5",
+    "lines": 94,
+    "readscope": "实质全篇结构survey：全节标题、节首数学对象、命题/证明路径、结算/限制/下一步摘录核读；未逐行重算中间公式",
+    "judgement": "原四Λ合并响应中大gcd/同分子分母层可绝对去除；不自动覆盖单独Vaughan通道。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 339,
+    "path": "notes/339-dual-determinant-zero-mode-and-exact-inversion.md",
+    "rawsha": "e3a100213c787ee2abf4064416e45af1ee225f4a4367cf8ee2ff91afd8c13c62",
+    "lines": 120,
+    "readscope": "实质全篇结构survey：全节标题、节首数学对象、命题/证明路径、结算/限制/下一步摘录核读；未逐行重算中间公式",
+    "judgement": "双频determinant零层可控，完整Kloosterman变换可逆；全模频率/长shell不满足现成双线性长度范围。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 340,
+    "path": "notes/340-prime-weight-energy-outside-the-poisson-band.md",
+    "rawsha": "739b5e9d8b84badb694ec1b6a07851008682bd2be853d4d33f9cc60461089c74",
+    "lines": 120,
+    "readscope": "实质全篇结构survey：全节标题、节首数学对象、命题/证明路径、结算/限制/下一步摘录核读；未逐行重算中间公式",
+    "judgement": "实际素数权主要l2能量在Poisson长度带外，PNT/Parseval给范围内局部化障碍；非普遍Kloosterman不可能。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 341,
+    "path": "notes/341-vaughan-free-variable-and-shell-length.md",
+    "rawsha": "ddacc6e0fc11db7222413ef7dd3e052a6ee3accba3f04ee6f109963500d41329",
+    "lines": 90,
+    "readscope": "实质全篇结构survey：全节标题、节首数学对象、命题/证明路径、结算/限制/下一步摘录核读；未逐行重算中间公式",
+    "judgement": "Vaughan精确通道及共同shell使所谓自由整数变量极短；名称/原代数区间不能代替有效长度。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 342,
+    "path": "notes/342-continuous-band-replacement-in-the-actual-cell.md",
+    "rawsha": "3241c5744fd91c4562cdb1b8baf287548604aab4cd82cf0852191d43de79705f",
+    "lines": 100,
+    "readscope": "实质全篇结构survey：全节标题、节首数学对象、命题/证明路径、结算/限制/下一步摘录核读；未逐行重算中间公式",
+    "judgement": "固定合并cell有限核→连续频带的全shell总误差合法支付；不能移植到增长cell或逐通道绝对权。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 343,
+    "path": "notes/343-free-variable-poisson-and-total-zero-frequency.md",
+    "rawsha": "2209445eecb5da2f3179a36d20b90ec392a0ff82bf3ce43302fb2650438f727f",
+    "lines": 174,
+    "readscope": "实质全篇结构survey：全节标题、节首数学对象、命题/证明路径、结算/限制/下一步摘录核读；未逐行重算中间公式",
+    "judgement": "自由变量Poisson含端点与删除点修正，合计零频O(L3)；非零频和及点修正仍独立。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 344,
+    "path": "notes/344-total-point-correction-after-vaughan-recombination.md",
+    "rawsha": "88872dceb5e56b5ae35f0dcc4b6edf05da28f4631cb9459a0d97e630a16e86f9",
+    "lines": 146,
+    "readscope": "实质全篇结构survey：全节标题、节首数学对象、命题/证明路径、结算/限制/下一步摘录核读；未逐行重算中间公式",
+    "judgement": "先I+II重组合恢复实际权后全Poisson点修正O(L2)；不证明各通道绝对修正同样小。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 345,
+    "path": "notes/345-thin-shell-taper-and-effective-poisson-truncation.md",
+    "rawsha": "bbde8e7e107862aa7ad8f57d73d44259201e3617503610607a81be2e169ab1ac",
+    "lines": 173,
+    "readscope": "实质全篇结构survey：全节标题、节首数学对象、命题/证明路径、结算/限制/下一步摘录核读；未逐行重算中间公式",
+    "judgement": "极薄shell平滑及有效频率截断有实际算术成本；有限化未估计关键有限非零频率和。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 346,
+    "path": "notes/346-nonzero-poisson-frequency-cost-and-fixed-band-geometry.md",
+    "rawsha": "d8e0c693620ea44d3beee020c1f4161bf62b6369d75211dfb8db50e6d947deb5",
+    "lines": 122,
+    "readscope": "实质全篇结构survey：全节标题、节首数学对象、命题/证明路径、结算/限制/下一步摘录核读；未逐行重算中间公式",
+    "judgement": "逐频/外层绝对预算太大，固定xi窄驻点不能消除xi积分；上界不够不等于真实余项下界。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 347,
+    "path": "notes/347-degree-normalized-dual-and-four-point-spectral-potential.md",
+    "rawsha": "7a4e91c78e0875cf7c65962b6cd9dfbbd5a16ca995b3ab7f2ea777f045948878",
+    "lines": 132,
+    "readscope": "实质全篇结构survey：全节标题、节首数学对象、命题/证明路径、结算/限制/下一步摘录核读；未逐行重算中间公式",
+    "judgement": "合法谱凸对偶+度归一化邻接给四点势及平稳证书接口；全域势和实际比例仍未获得。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 348,
+    "path": "notes/348-universal-nearest-edge-multiwindow-ceiling.md",
+    "rawsha": "504d047620ca545c529aabc8aebdaf598787c44fd5f1c6d9d31dbb5ada613de2",
+    "lines": 133,
+    "readscope": "实质全篇结构survey：全节标题、节首数学对象、命题/证明路径、结算/限制/下一步摘录核读；未逐行重算中间公式",
+    "judgement": "指定相邻边势对任意有限偶窗口集不能突破MT基线；范围不含其他图/对偶/多窗口。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 349,
+    "path": "notes/349-finite-range-dual-potential-and-periodic-tests.md",
+    "rawsha": "28542bc160d96bf6dc4e53b923dd381c75560f034df825ad4dd0372075464f41",
+    "lines": 123,
+    "readscope": "实质全篇结构survey：全节标题、节首数学对象、命题/证明路径、结算/限制/下一步摘录核读；未逐行重算中间公式",
+    "judgement": "有限邻点图扩大及任意周期word必要条件；非等距周期必须审查，全域有界势仍缺。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 350,
+    "path": "notes/350-periodic-law-and-full-window-quadratic-ceiling.md",
+    "rawsha": "9b245c65595bb305e48781ea1c826a05697cbee2c07a08bf1497c8d366a0c410",
+    "lines": 145,
+    "readscope": "实质全篇结构survey：全节标题、节首数学对象、命题/证明路径、结算/限制/下一步摘录核读；未逐行重算中间公式",
+    "judgement": "两个严格周期律与完整偶窗口二次型排除指定R≤4势突破比较值；不是实际零点上限或全部谱方法上限。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 351,
+    "path": "notes/351-fixed-radius-stability-and-actual-zero-transfer.md",
+    "rawsha": "b1cbf09720ea75512933bb416d22b215fa1b7f0770c29519908aef55d22c3ace",
+    "lines": 143,
+    "readscope": "实质全篇结构survey：全节标题、节首数学对象、命题/证明路径、结算/限制/下一步摘录核读；未逐行重算中间公式",
+    "judgement": "固定R/有限偶L2窗口的全域证书可合法接到实际简单零点，先固定平滑再取极限；真正缺证书而非此接口。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 352,
+    "path": "notes/352-radius-five-riesz-candidate-and-binary-period-cuts.md",
+    "rawsha": "c775278bec2631fa0b698b358661109d309ab4597756658543549e7052264639",
+    "lines": 69,
+    "readscope": "实质全篇结构survey：全节标题、节首数学对象、命题/证明路径、结算/限制/下一步摘录核读；未逐行重算中间公式",
+    "judgement": "R=5浮点Riesz候选被新五周期消去表面余量；单候选失败不能排全第五邻点或多窗。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 353,
+    "path": "notes/353-joint-periodic-laws-and-global-certificate-gap.md",
+    "rawsha": "d4b2b2706efa2d6db31681127519298165fea91c051d2ebf07cbfd739ea3fa0a",
+    "lines": 82,
+    "readscope": "实质全篇结构survey：全节标题、节首数学对象、命题/证明路径、结算/限制/下一步摘录核读；未逐行重算中间公式",
+    "judgement": "多周期联合数值响应与压力测试提出精确剩余全域任务；搜索/浮点上限未认证。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 354,
+    "path": "notes/354-exact-radius-five-profile-and-conditional-ratio.md",
+    "rawsha": "adf7331b43d9edad2ba4ec1186dd998292d1ee35df681998b361b59652aa947e",
+    "lines": 61,
+    "readscope": "实质全篇结构survey：全节标题、节首数学对象、命题/证明路径、结算/限制/下一步摘录核读；未逐行重算中间公式",
+    "judgement": "90项精确第五邻点窗口及正性/条件常数认证；缺所有15gap有界势，故非新实际比例。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 355,
+    "path": "notes/355-short-cluster-payment-and-separated-five-gap-reduction.md",
+    "rawsha": "9bee411444616be20e58babba80911312f92e2b1e010b4fa83bb7f52bbee4d3e",
+    "lines": 136,
+    "readscope": "实质全篇结构survey：全节标题、节首数学对象、命题/证明路径、结算/限制/下一步摘录核读；未逐行重算中间公式",
+    "judgement": "固定窗口小gap簇支付与分离链五变量归约；五变量全域证书未证明。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 356,
+    "path": "notes/356-compact-subaction-with-paid-large-gap-resets.md",
+    "rawsha": "77b99a96473629a7ef5aa7635f4746ce69c75ac52cb6beace9e5dc7c1923f548",
+    "lines": 68,
+    "readscope": "实质全篇结构survey：全节标题、节首数学对象、命题/证明路径、结算/限制/下一步摘录核读；未逐行重算中间公式",
+    "judgement": "大gap切分付端点成本把全域任务归约为紧域势+振幅上界；仅充分条件，未证明势存在。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 357,
+    "path": "notes/357-subaction-search-failures-and-continuation-plans.md",
+    "rawsha": "839e6ab871c99df0d4e711929168041cd054b394df0c1c0bdf074bb0c0fe7ee6",
+    "lines": 125,
+    "readscope": "实质全篇结构survey：全节标题、节首数学对象、命题/证明路径、结算/限制/下一步摘录核读；未逐行重算中间公式",
+    "judgement": "有限图/连续插值/续接方案搜索保存失败与修正；网格样本正不能代替连续域及全边检验。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 358,
+    "path": "notes/358-kernel-derivative-balls-for-continuation-certificates.md",
+    "rawsha": "f49762a5a3b10f1b51bc0c249a95cdb264b1adad7ba66faaee843d016f2fd86c",
+    "lines": 63,
+    "readscope": "实质全篇结构survey：全节标题、节首数学对象、命题/证明路径、结算/限制/下一步摘录核读；未逐行重算中间公式",
+    "judgement": "固定窗口可去点核导数区间是认证组件；输入绑定修正，未证明全域势。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 359,
+    "path": "notes/359-exact-finite-graph-and-continuous-counterexamples.md",
+    "rawsha": "100e9a2427dcc341d81543fb66e1209215dc9423d0c3eec19d3f189be8455f5f",
+    "lines": 57,
+    "readscope": "实质全篇结构survey：全节标题、节首数学对象、命题/证明路径、结算/限制/下一步摘录核读；未逐行重算中间公式",
+    "judgement": "同一266方案有限图严格PASS而连续域严格FAIL；冻结反例停该候选，不排全部续接势。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 360,
+    "path": "notes/360-stopped-costs-and-partial-future-closure.md",
+    "rawsha": "dcb720cd8aa967c3a5beca083ef282a61cd8ba2fa621ae22a0069093f4cd5897",
+    "lines": 83,
+    "readscope": "实质全篇结构survey：全节标题、节首数学对象、命题/证明路径、结算/限制/下一步摘录核读；未逐行重算中间公式",
+    "judgement": "短停止分支及四锚点部分未来一步恒等式，候选搜索仍经验性；有限公式不完成全域认证。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 361,
+    "path": "notes/361-finite-control-closure-with-curvature-payment.md",
+    "rawsha": "b90fe99df783db366733ea7885dac6ae46c9b54675434d7d4ea23ea53f573849",
+    "lines": 111,
+    "readscope": "实质全篇结构survey：全节标题、节首数学对象、命题/证明路径、结算/限制/下一步摘录核读；未逐行重算中间公式",
+    "judgement": "有限控制端点闭合需实际同word偏置及曲率支付；一维算术组件完成但实际闭合表仍缺。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 362,
+    "path": "notes/362-prefix-dominance-and-integer-control-labels.md",
+    "rawsha": "fa1028f135db2fe894a09b085f0e2faffab5e9cda69be336e51159c799ae8df8",
+    "lines": 69,
+    "readscope": "实质全篇结构survey：全节标题、节首数学对象、命题/证明路径、结算/限制/下一步摘录核读；未逐行重算中间公式",
+    "judgement": "前缀支配及向下整数费用标签减少搜索；深度4/队列空/固定轮数不等于最后全表端点闭合。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 363,
+    "path": "notes/363-f1-arithmetic-geometry-and-existence-audit.md",
+    "rawsha": "d02c6e4ab2286af3c222b5352d3884adb4a244bb3551317323d1d0138e7869c2",
+    "lines": 246,
+    "readscope": "全文深读：逐节正文、命题/证明、定义域与后续限制均核读；非外部文献全证明重审",
+    "judgement": "真实F1/算术site/平方已有，完整Weil来源、相对交叉、RR/有效下降仍缺；局部有理复提升与最小Λ自余积失败范围明确。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 364,
+    "path": "notes/364-frozen-integer-candidate-verification.md",
+    "rawsha": "71018b6f8ff05d429856544fc6d55650ae811f58cd43835ae9dd8840e870acaf",
+    "lines": 99,
+    "readscope": "实质全篇结构survey：全节标题、节首数学对象、命题/证明路径、结算/限制/下一步摘录核读；未逐行重算中间公式",
+    "judgement": "中断整数候选冻结全表验收失败；只排该向下费用/同word前缀闭合，不能推连续势残差负或谱路线失败。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 365,
+    "path": "notes/365-f1-rational-comparison-and-witt-coefficients.md",
+    "rawsha": "1b4725710b94ea1ce710b7ce9bfb9238e29e338e3a4b00ec168afb42d24988bf",
+    "lines": 150,
+    "readscope": "全文深读：逐节正文、命题/证明、定义域与后续限制均核读；非外部文献全证明重审",
+    "judgement": "实算术作用须在Witt全character家族解释；正Newton比较/2,3,6相容真实，固定character及普通复幂不兼容。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 366,
+    "path": "notes/366-f1-character-family-principal-divisors.md",
+    "rawsha": "c55a7388f9583dcf837eba26e67095a8a72013f8a45ccd608291244b828bf2e5",
+    "lines": 159,
+    "readscope": "全文深读：逐节正文、命题/证明、定义域与后续限制均核读；非外部文献全证明重审",
+    "judgement": "真实solenoid函数与Jensen除子规范；算术T和普通幂B有不同权重，内部所有原子principal会使线性次数塌缩。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 367,
+    "path": "notes/367-f1-periodic-cartier-sections.md",
+    "rawsha": "1a30e178cb4f40b9caad8953669d5861f070aa695b8a00e93387a1079bde8e51",
+    "lines": 169,
+    "readscope": "全文深读：逐节正文、命题/证明、定义域与后续限制均核读；非外部文献全证明重审",
+    "judgement": "parameter移动到基底得实际局部解析周期商/线丛及有效截面；非零degree不再是global principal，tightness仍缺。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 368,
+    "path": "notes/368-f1-tropical-theta-and-coefficient-obstruction.md",
+    "rawsha": "734d28fb820c22891c651a6431121ac7a54c662ee8a14188374222e134f05415",
+    "lines": 142,
+    "readscope": "全文深读：逐节正文、命题/证明、定义域与后续限制均核读；非外部文献全证明重审",
+    "judgement": "periodicPL主条件需degree和χtorsion共同，Hp→Q会换目标杀torsion；逐对象提升不等于整个线性系。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 369,
+    "path": "notes/369-f1-hp-solenoid-unit-slope.md",
+    "rawsha": "715d0428d1b527600b46cf88400ebcdedfbaaf6d66f92b9cd5951e3379143b67",
+    "lines": 94,
+    "readscope": "全文深读：逐节正文、命题/证明、定义域与后续限制均核读；非外部文献全证明重审",
+    "judgement": "qp到Hp-solenoid实际comparison及单位Jensen斜率Hp由绕数证明；不覆盖任意无限频PL及完整层态射。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 370,
+    "path": "notes/370-f1-finite-level-periodic-meromorphic-rigidity.md",
+    "rawsha": "269f6237155d4164b7e6af4e78f74a1b59947d24136f8e07438baab2651d9741",
+    "lines": 148,
+    "readscope": "全文深读：逐节正文、命题/证明、定义域与后续限制均核读；非外部文献全证明重审",
+    "judgement": "局部有限circle解析周期层只常数、非零H0≤1，非平凡tropicalprincipal不能提升；仅此层模型no-go。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 371,
+    "path": "notes/371-f1-tate-curve-frobenius-weight.md",
+    "rawsha": "e5530bfa34d96cd0704600ac4e2d46d757694878c4eede9142794b33035599b5",
+    "lines": 103,
+    "readscope": "全文深读：逐节正文、命题/证明、定义域与后续限制均核读；非外部文献全证明重审",
+    "judgement": "真实复Tate曲线有经典RR；p几何幂=id而目标p id使torsionfree divisor比较零，改乘函数幂非加性/无逆。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 372,
+    "path": "notes/372-f1-period-ring-tropical-principal-comparison.md",
+    "rawsha": "058ecc1eece4cfb01e6aac926bf9e00e9c91598485c0d57e1e6a23889c8f75c3",
+    "lines": 164,
+    "readscope": "全文深读：逐节正文、命题/证明、定义域与后续限制均核读；非外部文献全证明重审",
+    "judgement": "真实FF period-ring完成及Gauss轮廓整数截距Hp斜率；双边本征series与实际Proj分式实现非零主除子。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 373,
+    "path": "notes/373-f1-period-ring-profile-surjectivity.md",
+    "rawsha": "d5b9cc4bd37416cbb199c3e4ee8e57358e70641890ebb8484665b76ae920958d",
+    "lines": 153,
+    "readscope": "全文深读：逐节正文、命题/证明、定义域与后续限制均核读；非外部文献全证明重审",
+    "judgement": "period本征截面满射所有允许凸整数截距PL，分式满射K_Z；局部Newton稳定不取消Witt相消，范围非全实PL。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 374,
+    "path": "notes/374-f1-twisted-frobenius-modules-and-torsion.md",
+    "rawsha": "9480ee4d2aae69158e797273b04a469cbc0bd457fb1225c481f1daa03eed9ec4",
+    "lines": 128,
+    "readscope": "全文深读：逐节正文、命题/证明、定义域与后续限制均核读；非外部文献全证明重审",
+    "judgement": "真实twistedφ modules/linebundles覆盖整数degree与χtorsion，有效截面构造；kernel/Galois仍可能，非globalRR。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 375,
+    "path": "notes/375-f1-geometric-divisor-and-picard-comparison.md",
+    "rawsha": "537dc24c84d252db11856f9070d52bd554cefb1ca37784fc05b252bc104466aa",
+    "lines": 155,
+    "readscope": "全文深读：逐节正文、命题/证明、定义域与后续限制均核读；非外部文献全证明重审",
+    "judgement": "实际FF闭点次数权的Div/principal/effectivity到Cp comparison及Pic整数部分分裂；不是整个实Pic或全平方RR。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 376,
+    "path": "notes/376-f1-real-scales-principal-relations-and-density.md",
+    "rawsha": "af8b0ad7fe5f794fa9b2203c7936d45463b2f01d63ed5dcaeef1625a7e2e6b37",
+    "lines": 157,
+    "readscope": "全文深读：逐节正文、命题/证明、定义域与后续限制均核读；非外部文献全证明重审",
+    "judgement": "normrescaling比较家族覆盖实原子但跨commensurabilityclass主关系缺lift；weak密度非normCauchy截面。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 377,
+    "path": "notes/377-f1-ramified-tower-and-gauss-completion-barrier.md",
+    "rawsha": "57565cb46240d27588df24e24f3aad44356dbaea7e5470d6a6c8aaf7e35c5c22",
+    "lines": 184,
+    "readscope": "全文深读：逐节正文、命题/证明、定义域与后续限制均核读；非外部文献全证明重审",
+    "judgement": "真实分歧πe tower扩为有理截距/斜率；ultrametric极限value仍Q，不能实现指定√2 profile，只排该Gauss机制。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 378,
+    "path": "notes/378-f1-real-value-period-ring-and-principal-lifts.md",
+    "rawsha": "aa49bcfba0bdafe073f717f70603d91f21bf29e8cbd349d0cbe93b259990b6f9",
+    "lines": 177,
+    "readscope": "全文深读：逐节正文、命题/证明、定义域与后续限制均核读；非外部文献全证明重审",
+    "judgement": "真实加入实指数系数、multiplicativeGauss完成与两侧series满射实PL；nonemptyProj有分式，但FFregularNoetherian/Cartier及实作用未付。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 379,
+    "path": "notes/379-f1-perfectoid-real-coefficient-field.md",
+    "rawsha": "f8c527d35beb3b774f99ccbbfc43f29058831c1dc37e5111f61625055da8f0dd",
+    "lines": 115,
+    "readscope": "全文深读：逐节正文、命题/证明、定义域与后续限制均核读；非外部文献全证明重审",
+    "judgement": "canonical Qp[R]/(z1−p)完成field valueR/residueFp perfectoid并tensor比较，去掉Hamel表示；不生ζ全局naturality。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 380,
+    "path": "notes/380-f1-perfectoid-annuli-and-periodic-line-bundles.md",
+    "rawsha": "2057f1e14005eac65645b11cac412e6ed1c30aba8d738c4bb899b2e84fe5b93f",
+    "lines": 176,
+    "readscope": "全文深读：逐节正文、命题/证明、定义域与后续限制均核读；非外部文献全证明重审",
+    "judgement": "实际perfectoid annulus sheaf及φ解析商，twistedmodules有真实linebundle/section；未证明GAGA/Cartier/RR。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 381,
+    "path": "notes/381-f1-real-height-points-and-newton-breaks.md",
+    "rawsha": "55d291f504746d00a1118dc6d643978fb0aceff2d6b73a3c6aa1d79f4b353959",
+    "lines": 106,
+    "readscope": "全文深读：逐节正文、命题/证明、定义域与后续限制均核读；非外部文献全证明重审",
+    "judgement": "height evaluation真实points但非Gauss且选点不连续；零必Newtonbreak，不是每break选定点为零。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 382,
+    "path": "notes/382-f1-binomial-quotient-and-nonuniformity.md",
+    "rawsha": "ce2a077caaa8c7e7e9be167320cd9966b4f46d30d3a488986e703f4a5fe5e3ce",
+    "lines": 89,
+    "readscope": "全文深读：逐节正文、命题/证明、定义域与后续限制均核读；非外部文献全证明重审",
+    "judgement": "binomial quotient实际nonuniform由Prüfer幂等元证，不能uniformization后冒充原商；有限rootmeasure计数规范仍有效。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 383,
+    "path": "notes/383-f1-geometric-zero-existence-at-every-break.md",
+    "rawsha": "95af31693397973b27737f40b15f0137d04e4d52550e4d70adf581037bf48e71",
+    "lines": 88,
+    "readscope": "全文深读：逐节正文、命题/证明、定义域与后续限制均核读；非外部文献全证明重审",
+    "judgement": "break↔存在实际零点通过nonunitBanach quotient谱非空成立，避开uniform商假设；非Cartier/重数结论。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 384,
+    "path": "notes/384-f1-finite-level-cartier-regularity.md",
+    "rawsha": "1d6e6bc9ad08507181e4d07dbf2e100167a0926f2d8cbc74b267f092c78e359f",
+    "lines": 118,
+    "readscope": "全文深读：逐节正文、命题/证明、定义域与后续限制均核读；非外部文献全证明重审",
+    "judgement": "所有有限层Laurent在有理局部化Cartier及closedimage via c0层分解；density不自动覆盖全部完成函数。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 385,
+    "path": "notes/385-f1-finite-polynomial-zero-measures.md",
+    "rawsha": "3fe399eb9ee75587e42092faa62b66896389633f59c63bdb3fdb324565a3b53e",
+    "lines": 124,
+    "readscope": "全文深读：逐节正文、命题/证明、定义域与后续限制均核读；非外部文献全证明重审",
+    "judgement": "finiteLaurent真实Kummer torsor零空间Haar计数measure规范，weightedheightpush及pullback；单点mass0非DVRlength。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 386,
+    "path": "notes/386-f1-one-parameter-atomic-theta-reduction.md",
+    "rawsha": "c646486569ec77d98dc81168ebaa3767692d89f4827c31a5159ec04b859c4f9e",
+    "lines": 117,
+    "readscope": "全文深读：逐节正文、命题/证明、定义域与后续限制均核读；非外部文献全证明重审",
+    "judgement": "真实infinite-denominator原子A_w乘积可构造所有allowed有效profile；只把Cartier/measure归约到原子，不是任意section factorization。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 387,
+    "path": "notes/387-f1-analytic-continuation-and-cartier-regularity.md",
+    "rawsha": "5df6f24854e9fe151ee93a4ebfcaaddfc17afc62415b1145601dae28d993b84f",
+    "lines": 81,
+    "readscope": "全文深读：逐节正文、命题/证明、定义域与后续限制均核读；非外部文献全证明重审",
+    "judgement": "全部非零完成函数经restrictioninjectivity成为各有理局部Cartier；不自动证明idealclosed/pseudocoherence。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 388,
+    "path": "notes/388-f1-truncated-potentials-and-faithful-disk-boundaries.md",
+    "rawsha": "b0f962e894695812ea8b1fb759668f722770c1e0db786738ad7d12012568c335",
+    "lines": 157,
+    "readscope": "全文深读：逐节正文、命题/证明、定义域与后续限制均核读；非外部文献全证明重审",
+    "judgement": "有限层maxlogpotential稳定及Kummer discs/Shilov boundary处理typeIV，以Rouchet给零计数局部稳定。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 389,
+    "path": "notes/389-f1-canonical-zero-measures-for-completed-functions.md",
+    "rawsha": "d4ac50d97e5979370bd3364396a1df40d2f2d9674d94e085d05f09dd1192dc3d",
+    "lines": 186,
+    "readscope": "全文深读：逐节正文、命题/证明、定义域与后续限制均核读；非外部文献全证明重审",
+    "judgement": "全部既有global完成函数有唯一实际Radon零measure、fullsupport、units/product/pullback/φ下降与exactheightpush；单pCartier接口闭合。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 390,
+    "path": "notes/390-f1-candidate-geometry-space.md",
+    "rawsha": "1805bcb58220b4daf24b906fb12262d5535c57e51d27e59bf8f37fe113c8fd63",
+    "lines": 345,
+    "readscope": "全文深读：逐节正文、命题/证明、定义域与后续限制均核读；非外部文献全证明重审",
+    "judgement": "boundedcontainer/categories/modes/formal diagrams定义真实，但nonemptycontainer不等于RH-goodsource；逻辑compactness会改变标准R且需recovery。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 391,
+    "path": "notes/391-f1-candidate-space-review-and-alternatives.md",
+    "rawsha": "e5a9cc0db9dfbd332a401c3de2677fd604f71a9f62da8421d9e6dc3f476320db",
+    "lines": 186,
+    "readscope": "全文深读：逐节正文、命题/证明、定义域与后续限制均核读；非外部文献全证明重审",
+    "judgement": "G0–G8逐字段准入，建议Bsource组织及固定curve/L coefficients紧切片；不凭整个modstack紧致性。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 392,
+    "path": "notes/392-f1-eigensections-and-weighted-banach-space.md",
+    "rawsha": "e52d5ed68279694f3f0f3c8bc71aea207cee52beaa4871f73d01058b81148324",
+    "lines": 217,
+    "readscope": "全文深读：逐节正文、命题/证明、定义域与后续限制均核读；非外部文献全证明重审",
+    "judgement": "同一L(w,d)实际H0完整weightedc0分类，正w无限维；compactcoeffslice有section但profile局部常值，measurecontinuity未证。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 393,
+    "path": "notes/393-f1-profile-surjectivity-and-filtered-dimension.md",
+    "rawsha": "151c16ebfa641132a4a647389ad7a86519c27e045245f184778029a53f9211f3",
+    "lines": 173,
+    "readscope": "全文深读：逐节正文、命题/证明、定义域与后续限制均核读；非外部文献全证明重审",
+    "judgement": "实际section轮廓满射接上已有CCfiltered维数；仅profile像的CC拓扑，非解析Euler/H0RR，Banach商离散不可混同。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 394,
+    "path": "notes/394-f1-real-principal-relations-and-parameter-topologies.md",
+    "rawsha": "61c70c0d1ec24c46c361cd867629950cec2337172c3ca6d90d7957b86f2d04a1",
+    "lines": 165,
+    "readscope": "全文深读：逐节正文、命题/证明、定义域与后续限制均核读；非外部文献全证明重审",
+    "judgement": "realprincipalspan kills torsion却普通linebundle不平凡；normcompact只finiteprofiles，weakprincipalclosure压塌次数，不可宣称G8closed。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 395,
+    "path": "notes/395-f1-geometric-measure-principal-quotient.md",
+    "rawsha": "a63756963d4230825035dbfd021c71c779846bb5fe47df2445896b996fd2f8aa",
+    "lines": 193,
+    "readscope": "全文深读：逐节正文、命题/证明、定义域与后续限制均核读；非外部文献全证明重审",
+    "judgement": "完整Berkovich零measure的continuousprincipalquotient仅mass1方向，separate continuousB仅mass乘积；Galois观察不恢复第二degree。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 396,
+    "path": "notes/396-f1-flat-line-enhancement-and-cartier-pullback.md",
+    "rawsha": "e0bcf778775cd5a515b219d81bd04ab518c7bdbbb018bc0927a54d4f4546298c",
+    "lines": 213,
+    "readscope": "全文深读：逐节正文、命题/证明、定义域与后续限制均核读；非外部文献全证明重审",
+    "judgement": "realflatline holonomy p区分enhancedπb与πpb，actualCartierpullback；M-valuedmeasure仍同一mass商，非dualdegree/intersection。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 397,
+    "path": "notes/397-f1-finite-norm-and-principal-pushforward.md",
+    "rawsha": "d8aeeda2a6c4132e3f5f9bb9468cf7bd28ca3153dbe421491ad8cc1ca1dbb136",
+    "lines": 174,
+    "readscope": "全文深读：逐节正文、命题/证明、定义域与后续限制均核读；非外部文献全证明重审",
+    "judgement": "真实finitefree norms及norm-square pushforward让所有generatorpush准入；普通pushidentity/enhanced b，仍无square交叉。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 398,
+    "path": "notes/398-f1-diagonal-square-and-noncartier-graphs.md",
+    "rawsha": "4092b1448c9d2a9e3fd13a5306705e4c5c9b3c3c05ee0cb24c1f3bf142ab7873",
+    "lines": 274,
+    "readscope": "全文深读：逐节正文、命题/证明、定义域与后续限制均核读；非外部文献全证明重审",
+    "judgement": "实际对角φ perfectoid平方保留真实graphs，fullkernelclosedidempotent故给定fullgraphs非Cartier；有限Fn各自Cartier仍有效。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 399,
+    "path": "notes/399-f1-normalized-cartier-kernels-and-principal-topology.md",
+    "rawsha": "4fd04d30c5e42fa574afff28ff61dbdfd3dfb45ca9c107557862296ea6fa3032",
+    "lines": 431,
+    "readscope": "全文深读：逐节正文、命题/证明、定义域与后续限制均核读；非外部文献全证明重审",
+    "judgement": "normalizedCartierKummer kernels→graph强Feller但TV不收敛；strongprincipalquotient会killgraph，norm保留却不能完成，有限level下降/semigroup失配。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 400,
+    "path": "notes/400-f1-cartier-tower-limit-and-stalk-defect.md",
+    "rawsha": "1ac90a3da824db1aa05686253bc3b9bb64c367bc10b8395778c5f47d0706c7b2",
+    "lines": 277,
+    "readscope": "全文深读：逐节正文、命题/证明、定义域与后续限制均核读；非外部文献全证明重审",
+    "judgement": "通常O层逆极限=(O,1)空divisor，先茎再lim乘F0非满；pro非essentialconstant且未层化Čech无统一源level，stackifiedlocal下降不补RR。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 401,
+    "path": "notes/401-f1-dual-cartier-ideal-and-reflexive-collapse.md",
+    "rawsha": "beda75c676170c077e3ee835986814b90300406fb7ab5f378403ec54e7c8839d",
+    "lines": 147,
+    "readscope": "全文深读：逐节正文、命题/证明、定义域与后续限制均核读；非外部文献全证明重审",
+    "judgement": "真实dualindidealJ保graphsupport且flat，但每graphpoint非locallyfinitegen、非closed、dual双dual=O；不能恢复linebundle或perfectquotient。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 402,
+    "path": "notes/402-f1-intrinsic-ff-diagonal-conormal-obstruction.md",
+    "rawsha": "1fd246564c64ca4ce5c00ac0dee1d8aacf74c6e233217b9c851455a61b22bfb0",
+    "lines": 126,
+    "readscope": "全文深读：逐节正文、命题/证明、定义域与后续限制均核读；非外部文献全证明重审",
+    "judgement": "换到intrinsicFF普通Qp平方也有C/Qp无限Ω使diagonalconormal非finitegen/nonCartier；仅普通base/product，不排continuousderived新bridge。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 403,
+    "path": "notes/403-f1-support-locality-and-nonperfect-quotients.md",
+    "rawsha": "d5f2b55da3756b91cb7efd8359b7f6ea5a4f1fc6f429a11f8fc570aec414e80d",
+    "lines": 94,
+    "readscope": "全文深读：逐节正文、命题/证明、定义域与后续限制均核读；非外部文献全证明重审",
+    "judgement": "固定log2分离测试的Weilmixed>0排height-support-local接口；O/J finiteTor但nonperfect，G5G6要求kerAbar进入双矩及radW。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 404,
+    "path": "notes/404-f1-adelic-periodic-orbits-and-mixed-local-trace.md",
+    "rawsha": "67d040e1a9710a5f6d2c916251535217f464ffc31a29c0388e4bb14fc864a0fa",
+    "lines": 272,
+    "readscope": "全文深读：逐节正文、命题/证明、定义域与后续限制均核读；非外部文献全证明重审",
+    "judgement": "真实adelicperiodicorbits及localjacobian给p/实位L，sharp awayunit L/2=N与fixedfiniteS截止无条件；unit常数/globalprincipalRR仍缺。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 405,
+    "path": "notes/405-f1-adelic-restriction-moments-and-radical.md",
+    "rawsha": "d4dd4f2934f57946e381b345f7e50fe385e6c5e65531cdce854aa0f49be3174a",
+    "lines": 309,
+    "readscope": "全文深读：逐节正文、命题/证明、定义域与后续限制均核读；非外部文献全证明重审",
+    "judgement": "actualadele restriction闭理想I仅radT，Gaussianh moments1/4 Bhh1/16；P_an=I∩双矩kernels=I∩radB，fixedconstant补全全sharp恒等式。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 406,
+    "path": "notes/406-f1-adelic-units-and-determinant-divisors.md",
+    "rawsha": "7ce8bdfec0074f0a824fb15c4102eff3939a79d29fea1afcb5921ada2577275d",
+    "lines": 275,
+    "readscope": "全文深读：逐节正文、命题/证明、定义域与后续限制均核读；非外部文献全证明重审",
+    "judgement": "actualexpunits det=exp(Eη) nonzero logtag却Cartierdiv0，连续线性killunits毁双矩；标准Fredholmpencil真auxzdivisor可按规范恢复trace，非算术几何。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 407,
+    "path": "notes/407-f1-prime-arrows-fredholm-and-relative-complex.md",
+    "rawsha": "36240b9dc54ea91903392b5ff116fac46b13254774a755e4ba753a8cdf59eafe",
+    "lines": 317,
+    "readscope": "全文深读：逐节正文、命题/证明、定义域与后续限制均核读；非外部文献全证明重审",
+    "judgement": "actualone-wayfinitearrowdet1，reversewords周期auxzeros不直接给logq；nonunitperfectcomplex纤维contractible，relativeK非零未付。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 408,
+    "path": "notes/408-f1-orbit-completion-and-prime-boundaries.md",
+    "rawsha": "9653b427a4f8ea7fa737eb9fe1146602216dd31435c14f49add9532441cd1383",
+    "lines": 286,
+    "readscope": "全文深读：逐节正文、命题/证明、定义域与后续限制均核读；非外部文献全证明重审",
+    "judgement": "l1sourcecompletion spectralradiusη0，零η0所有boundaryinvertible而有限箭头nonzero；非零η0全origincharacter只检测sharedorigin非qsector。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 409,
+    "path": "notes/409-f1-boundary-prime-power-kernels-and-heat-defects.md",
+    "rawsha": "4cbbb460ae251979e0e055dada666330c6bb34a667d62a2590d22e0194fe8dfe",
+    "lines": 287,
+    "readscope": "全文深读：逐节正文、命题/证明、定义域与后续限制均核读；非外部文献全证明重审",
+    "judgement": "CCM完整Q纤维p幂infinitekernel，其他primechainsinverseunbounded；不是Fredholm，weightedheat必须实际新level预算。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 410,
+    "path": "notes/410-f1-boundary-kernel-bundles-and-relative-k-classes.md",
+    "rawsha": "e19efcc8eae0f12740ccbf8b6af3452601a4f5938a867d1e47e6a062b530ecbf",
+    "lines": 255,
+    "readscope": "全文深读：逐节正文、命题/证明、定义域与后续限制均核读；非外部文献全证明重审",
+    "judgement": "缩到actualpZsector的真Fredholmfamily相对类rank a、mixedphase，absoluteforgetzero；不能冒充完整Qsource指数。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 411,
+    "path": "notes/411-f1-full-rational-relative-classes-and-logarithmic-trace.md",
+    "rawsha": "6298ced4cd5b2e17debafc0ff936749c1bf0186b93aa1df3cccd956a61454aef",
+    "lines": 285,
+    "readscope": "全文深读：逐节正文、命题/证明、定义域与后续限制均核读；非外部文献全证明重审",
+    "judgement": "fullQ-invariantrelativeextension保p幂selection/nonzeroclass，actualaxisτ=2alogp；additiveKreadout失Weilprimepowerconstant权。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 412,
+    "path": "notes/412-f1-transverse-compression-and-periodic-traces.md",
+    "rawsha": "c64fa6e55f447f975010a470be651f20d75e62edc3cc31bf692949fb465d3c27",
+    "lines": 265,
+    "readscope": "全文深读：逐节正文、命题/证明、定义域与后续限制均核读；非外部文献全证明重审",
+    "judgement": "actualHaartransversecompressions+time suspension traceclass恢复ρ^a及完整Lp includingcorrect2N+1unit；非additiveK来源桥尚缺。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 413,
+    "path": "notes/413-f1-two-place-boundaries-and-virtual-class-collapse.md",
+    "rawsha": "8c94ddcc79061984b030ff5c00dd21ac600e563ca2117169e2671fd898431e63",
+    "lines": 282,
+    "readscope": "全文深读：逐节正文、命题/证明、定义域与后续限制均核读；非外部文献全证明重审",
+    "judgement": "actualtwo-place四strataextensionKboundary迫orientation联动，K0oneaxis/absolutezero；这些与Weilradical不同，不自动双degree。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 414,
+    "path": "notes/414-f1-deep-boundary-unitary-and-time-defect.md",
+    "rawsha": "4a66ef82c84fc8167a3a9b19f17ceab77c57b50d00dde4c4ec5c0229deaf645d",
+    "lines": 301,
+    "readscope": "全文深读：逐节正文、命题/证明、定义域与后续限制均核读；非外部文献全证明重审",
+    "judgement": "actualGreenunitary/compressedlift有真实boundary/time defect，fullΓshelltrace givesLp+Lq；尚无boundaryprincipalvanishing。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 415,
+    "path": "notes/415-f1-defect-projection-and-cutoff-residue.md",
+    "rawsha": "40bcad84051e72bea29c593cab29302daa2db717588f8f40faaa6a909f48b69e",
+    "lines": 252,
+    "readscope": "全文深读：逐节正文、命题/证明、定义域与后续限制均核读；非外部文献全证明重审",
+    "judgement": "actualHalmosrelativeprojection diagtraceD1−D2 physicalreadout只有h0，partition-dependentnonzero；不是算术主补偿。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 416,
+    "path": "notes/416-f1-split-transfer-and-periodic-coefficients.md",
+    "rawsha": "3828e6769b0f3e2b3cd0f16e0535a7a89b40357186dc16a64c62d3656800879f",
+    "lines": 257,
+    "readscope": "全文深读：逐节正文、命题/证明、定义域与后续限制均核读；非外部文献全证明重审",
+    "judgement": "四组分别absoluteS1 sum传递给scalaridentity而不可裸tracecycle；合法nearsharp周期coeffTV→0不能恢复fixedboundaryatoms。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 417,
+    "path": "notes/417-f1-projection-connection-and-time-evolution.md",
+    "rawsha": "bdc07eba0f456aa753d9fc2a040df348dd29d560e829afd8eb1d576b8fc10c3f",
+    "lines": 361,
+    "readscope": "全文深读：逐节正文、命题/证明、定义域与后续限制均核读；非外部文献全证明重审",
+    "judgement": "actualGreenconnection/Dysonunitary新演化支付，但connectionnorm blows且改变observables；exterior equivalence不保持原cutoffperiodreadout。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 418,
+    "path": "notes/418-f1-connection-periodized-trace-and-sharp-frame.md",
+    "rawsha": "a695d5e19d66fa98b1484d41c59d0acc2fd492bbf9e99a31557ffbb47c9f857e",
+    "lines": 417,
+    "readscope": "全文深读：逐节正文、命题/证明、定义域与后续限制均核读；非外部文献全证明重审",
+    "judgement": "actualDysonfullΓS1comparison Δ无单位Ndependent，nearsharpisolatedperiodΔ→0；停止该directtrace-difference，不排所有connections。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 419,
+    "path": "notes/419-f1-original-time-crossed-product-and-trace-interface.md",
+    "rawsha": "abd0544bdccff23cc8b812ca662dce1d547a2dfadd03ede7f02b5561980bd942",
+    "lines": 419,
+    "readscope": "全文深读：逐节正文、命题/证明、定义域与后续限制均核读；非外部文献全证明重审",
+    "judgement": "actualoriginalphysicaltimecrossedproduct faithfulkerneliso/完整T²；periodops在opencompactideal，finitecyclictraceextension有shiftendpoint矛盾。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 420,
+    "path": "notes/420-f1-source-hardy-index-and-dual-action.md",
+    "rawsha": "b323590478c7d5596d455f90010822442d07cf713fdcbc09a46ccfa06dae230c",
+    "lines": 704,
+    "readscope": "全文深读：逐节正文、命题/证明、定义域与后续限制均核读；非外部文献全证明重审",
+    "judgement": "actualsourceHardyFredholmfamily pointindex0 butlinec1−1，explicitclutchsign；dualaction保原标记/cutoff，ordinaryK丢period/test数据。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 421,
+    "path": "notes/421-f1-weighted-hardy-trace-and-atomic-obstruction.md",
+    "rawsha": "eb3234e5e9fbd26964438e75ff010fdfaaae18f12dc6027a1480d96be9c28afe",
+    "lines": 326,
+    "readscope": "全文深读：逐节正文、命题/证明、定义域与后续限制均核读；非外部文献全证明重审",
+    "judgement": "actualweightedHardydefect非scalarweight不closed，Haaraverage0，fixedS1/BVbudgets不能给periodatoms；不排原fullΓtest-dependenttrace。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 422,
+    "path": "notes/422-f1-radial-finite-part-and-corner-anomaly.md",
+    "rawsha": "c928b7c53a214ff193210f230d9c2f474ccd90da8ca2e23f88c34ce190114647",
+    "lines": 370,
+    "readscope": "全文深读：逐节正文、命题/证明、定义域与后续限制均核读；非外部文献全证明重审",
+    "judgement": "actualS1/ell1 Frechetdomain及jointfinitepart、边角异常relativecocycle；原T测试异常仅h0，原periodops在I，非零cycles不由此抵消。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 423,
+    "path": "notes/423-f1-twisted-radial-readout-and-mixed-period-obstruction.md",
+    "rawsha": "07592e3a7192b78db338e02c27a43a1996b9ae754935b8d1e8ce367487fb6add",
+    "lines": 268,
+    "readscope": "全文深读：逐节正文、命题/证明、定义域与后续限制均核读；非外部文献全证明重审",
+    "judgement": "actualtwistedreadout有完整anomaly、finite-rank扩张no-go及wrongmixedatom；correctHochschildrepair也mixedwrong，不是fullrelativechain失败。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 424,
+    "path": "notes/424-f1-relative-chain-repair-and-four-component-obstruction.md",
+    "rawsha": "23b1ca33824e7420e5c55a8f636a0ac9654ed2ee1f21601b147ef2cb174eaf23",
+    "lines": 207,
+    "readscope": "全文深读：逐节正文、命题/证明、定义域与后续限制均核读；非外部文献全证明重审",
+    "judgement": "directrelativecone把pure/mixed/unit全部消去；continuousσ-invariantscalar扩张不可能，保trace的4component非半单module可行但未sourceChernclosed。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 425,
+    "path": "notes/425-f1-recentered-geometric-corner-and-source-period-finite-part.md",
+    "rawsha": "fe933bbb822bcc47df25511a700744ee222576012e4dc46a1f10d229d9b6afdd",
+    "lines": 328,
+    "readscope": "全文深读：逐节正文、命题/证明、定义域与后续限制均核读；非外部文献全证明重审",
+    "judgement": "actualHaarpositivecorner→fixedboundedsampling→physicalcompressedtracesexact原半shell并给Lp+Lq；同stronglimitwavecutoffFP0，必须保sourcecutoff。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 426,
+    "path": "notes/426-f1-fixed-corner-source-commutators-and-relative-readout-module.md",
+    "rawsha": "e90e74e394c0f8a400cf678d81695e63e63eb5e6712af021ecb9bf8355ddb3bd",
+    "lines": 193,
+    "readscope": "全文深读：逐节正文、命题/证明、定义域与后续限制均核读；非外部文献全证明重审",
+    "judgement": "actualQ-supportedmultipliers含T有S1commutators trace0，与physicalFP相容；linear bimodule允许zeroperiodreadout，非unique/sourcecomplete。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 427,
+    "path": "notes/427-f1-corner-product-algebra-and-unavoidable-trace-cocycle.md",
+    "rawsha": "03c63b49b105874582775ee57d2770305123389f2ff939c881b8c6a93d793410",
+    "lines": 171,
+    "readscope": "全文深读：逐节正文、命题/证明、定义域与后续限制均核读；非外部文献全证明重审",
+    "judgement": "actualcorneralgebra乘法closed/S1quotient，tracecommutator=−4∫s h(s)k(−s)，nonzeroω必带；任何全域scalarcyclictrace扩张失败。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 428,
+    "path": "notes/428-f1-corner-essential-symbol-and-complete-readout-freedom.md",
+    "rawsha": "a696fba58ea68d9ad4d5141ca34684b5c3c876c9a64b8f38ac7c5ae3968a7403",
+    "lines": 136,
+    "readscope": "全文深读：逐节正文、命题/证明、定义域与后续限制均核读；非外部文献全证明重审",
+    "judgement": "exactessnorm2||hat h||∞与symbolC0，restrictedT作用unit且全部readouts任意timedistribution；physicalperiod不symbolnormcontinuous。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 429,
+    "path": "notes/429-f1-original-unitary-crosses-the-fixed-corner-domain.md",
+    "rawsha": "2b6caea39f3229205207694e9ed1acb514abbe7165c65f24aff981c135e39fc9",
+    "lines": 154,
+    "readscope": "全文深读：逐节正文、命题/证明、定义域与后续限制均核读；非外部文献全证明重审",
+    "judgement": "actualu搬到negativep,q=1边，[u,A]非compact并uA/Au/Adudu不在旧D或C*completion；扩大源domain必要非F1no-go。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 430,
+    "path": "notes/430-f1-source-stable-periodic-smoothing-algebra.md",
+    "rawsha": "86e7d443e8b88dc00345d959c8256c92e3addebf14344cebc083cb56d3a029b6",
+    "lines": 171,
+    "readscope": "全文深读：逐节正文、命题/证明、定义域与后续限制均核读；非外部文献全证明重审",
+    "judgement": "实际u稳定periodicfinitepropagationkernelalgebra支付finiteword乘法，crossGram真实periodic尾；source完整准入不选FP/主理论。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 431,
+    "path": "notes/431-f1-source-orbit-essential-symbol-and-boundary-injectivity.md",
+    "rawsha": "352adafebc2a6bbe3b0dc935ccb1f4155a4792e912adec5193630f7813bdf2c5",
+    "lines": 161,
+    "readscope": "全文深读：逐节正文、命题/证明、定义域与后续限制均核读；非外部文献全证明重审",
+    "judgement": "finite-source-matrixexactessnorm与商源shift，1-Adu finiteword商singleinjective、weightedboundarynoncompact；不能外推infinitecompletion。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 432,
+    "path": "notes/432-f1-relative-cycle-charge-and-source-invariant-cutoff.md",
+    "rawsha": "da952ffa06cf918818ad8c994f14fc4740bd541d7dd1e7268718a3e09549d48b",
+    "lines": 129,
+    "readscope": "全文深读：逐节正文、命题/证明、定义域与后续限制均核读；非外部文献全证明重审",
+    "judgement": "actualclosedHH1chain有canonicalΩ=Trsumcommutators，liftindependent并含ω；原weightedsourcechain不closed，source-invariantxcutoff失p周期。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 433,
+    "path": "notes/433-f1-source-cesaro-limit-and-noncompact-fixed-sector.md",
+    "rawsha": "cad809734fcc274258f3bd0224af7ff5ca21cc6937e93a8603c5ad1ad92c4238",
+    "lines": 114,
+    "readscope": "全文深读：逐节正文、命题/证明、定义域与后续限制均核读；非外部文献全证明重审",
+    "judgement": "actualconjugateCesaro operatornorm→(1−e)VBV*(1−e)，p<q强制noncompactfixedsector；onlynormconvergence不传period/cyclictopology。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 434,
+    "path": "notes/434-f1-haar-physical-cutoff-on-the-source-domain.md",
+    "rawsha": "57da66b88361be396b1c5871a7fc7fd198221a02475fea51bfff95075c0b7bf4",
+    "lines": 121,
+    "readscope": "全文深读：逐节正文、命题/证明、定义域与后续限制均核读；非外部文献全证明重审",
+    "judgement": "originalHaarphysicalcutoff真实准入所有finite-sourcekernel，完整mixedtime核trace保留；每cutoffS1不保证jointFP或closedchain。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 435,
+    "path": "notes/435-f1-haar-trace-of-all-source-conjugates.md",
+    "rawsha": "b94dad48b65a9d2b2f79e47c07db2b026f6050d075b2a11baaf8eb30bff109cb",
+    "lines": 124,
+    "readscope": "全文深读：逐节正文、命题/证明、定义域与后续限制均核读；非外部文献全证明重审",
+    "judgement": "全部固定integerconjugates原physicaltrace准确保持非零period，unitflux−rWh0来自sourceenergy；不能任意扣掉partition-dependentW。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 436,
+    "path": "notes/436-f1-physical-cutoff-of-the-source-cesaro-limit.md",
+    "rawsha": "b1c47e1ef64503f6ccf3c8c8e1455f033f4d411ee17a2ce3b493b79abc91d3bb",
+    "lines": 127,
+    "readscope": "全文深读：逐节正文、命题/证明、定义域与后续限制均核读；非外部文献全证明重审",
+    "judgement": "completedCesaro原physicaltrace仅q轴，固定cutoffS1convergence但两序limits pperiod Lρp/0；算子范数不传物理period。",
+    "source_changed_during_review": false
+  },
+  {
+    "number": 437,
+    "path": "notes/437-f1-finite-source-word-without-a-linear-physical-finite-part.md",
+    "rawsha": "0bfae5c324ddac4b2fe7b4d4882f3bc016a71ff6e93b20cfa6bfd1114991aa64",
+    "lines": 137,
+    "readscope": "全文深读：逐节正文、命题/证明、定义域与后续限制均核读；非外部文献全证明重审",
+    "judgement": "p2q5合法sourcefinitewordA(h)uA(k)在真实最小J中任何linearvolumeFP皆不共尾收敛，even2N亦失败；需phase/actualrelative机制独立认证。",
+    "source_changed_during_review": false
+  }
+]

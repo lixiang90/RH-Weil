@@ -10,7 +10,7 @@
 
 难点是提供来源明确、没有预先使用零点位置的算术结构。仅假设一个具有所需谱的正结构存在，可能已经与 RH 等价。F₁ 路线目前还缺完整的算术比较、主关系、全局 Weil 正性及 Riemann–Roch 实现；比例路线还缺同一物理响应中的充分四阶算术节省。
 
-初读建议从 [本科背景讲义](docs/f1-route-from-undergraduate-math.md) 开始，再看 [研究分支看板](RESEARCH_BRANCHES.md) 与 [几何实现蓝图](formal/blueprint/geometric-realization.md)。
+初读建议从 [本科背景讲义](docs/f1-route-from-undergraduate-math.md) 开始，再看 [研究分支看板](RESEARCH_BRANCHES.md) 与 [几何实现蓝图](formal/blueprint/geometric-realization.md)。[Weil／F₁ 历史复盘](goals/reviews/2026-10-11-weil-f1-retrospective.md)回顾001–437的构造、纠错与障碍，并给出当前优先研究的非局部算术配对方向。
 
 ## 成果与论文
 

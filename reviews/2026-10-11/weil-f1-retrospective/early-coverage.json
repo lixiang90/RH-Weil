@@ -1,0 +1,2105 @@
+{
+  "schema_version": 1,
+  "audit_date": "2026-10-11",
+  "head": "331107b2ba0716d2fb78ec1f605f05fe57393274",
+  "workspace": "E:/codex-build/RH-Weil",
+  "range": "001-149",
+  "note_count": 149,
+  "total_lines": 36050.0,
+  "full_text_deep_read_count": 28,
+  "structured_whole_file_survey_count": 121,
+  "limitations": [
+    "当前旧笔记含后期修订，不是逐commit历史复原",
+    "没有外部来源联网审查或新颖性认证",
+    "未将全部证明独立形式核验",
+    "没有运行新AM/无零/零点比例计算"
+  ],
+  "notes": [
+    {
+      "number": 1,
+      "path": "notes/001-polarized-weil-structure.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\001-polarized-weil-structure.md",
+      "sha256": "ff9ad5a8e43fece5d75a12c369852aef0b1a17114755cb12345e4d05f1a45cbf",
+      "line_count": 214,
+      "title": "# 极化 Weil 结构定理",
+      "read_scope": {
+        "mode": "full_text_deep_read",
+        "statement": "全部非空文本已读取，主要论证与限制精读；不宣称独立形式验证。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "形式极化定理成立；正HR、全局存在与determinant均需独立输入，奇次primitive符号后来修正。"
+    },
+    {
+      "number": 2,
+      "path": "notes/002-global-existence-audit.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\002-global-existence-audit.md",
+      "sha256": "f77d292a33b0294222e91f55218b5d9a920f441da3831f1719427b1bb58bdab5",
+      "line_count": 177,
+      "title": "# 数域 zeta / L 函数的结构存在性审计",
+      "read_scope": {
+        "mode": "full_text_deep_read",
+        "statement": "全部非空文本已读取，主要论证与限制精读；不宣称独立形式验证。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "G1–G4把载体、determinant、显式公式、正极化分开；从零点造空间及weighted逼近是循环风险。"
+    },
+    {
+      "number": 3,
+      "path": "notes/003-sources.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\003-sources.md",
+      "sha256": "aad01083bce7afbbe91d73b323550033a43b4f82e3462cf3538a3fbe9ea0f933",
+      "line_count": 230,
+      "title": "# 文献与证据边界（本轮增补核对日期：2026-09-06；历史条目保留各自核验范围）",
+      "read_scope": {
+        "mode": "structured_whole_file_survey",
+        "statement": "已读取开头、全篇各节标题及主要命题陈述、结论/限制/下一输入和结尾审计；证明未全部逐行读取。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "文献台账明确经典/条件/数值边界；未在本审计联网核验外部来源或重建新颖性。"
+    },
+    {
+      "number": 4,
+      "path": "notes/004-simple-even-certification.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\004-simple-even-certification.md",
+      "sha256": "a86fcfa11f6c87a16d2aa21b241d1fe55146e59e3a888581507109323227fc78",
+      "line_count": 254,
+      "title": "# Weil 算子最低态的 simple-even 认证",
+      "read_scope": {
+        "mode": "structured_whole_file_survey",
+        "statement": "已读取开头、全篇各节标题及主要命题陈述、结论/限制/下一输入和结尾审计；证明未全部逐行读取。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "simple-even有限证书有用；普通浮点、无限连续尾与weighted核收敛仍不够。"
+    },
+    {
+      "number": 5,
+      "path": "notes/005-matrix-tail-bound.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\005-matrix-tail-bound.md",
+      "sha256": "04905eadbcbb48a276a21471da54e20da10c93aff626a8b96d865a511d38d752",
+      "line_count": 230,
+      "title": "# 半局部 Weil 矩阵的显式尾界",
+      "read_scope": {
+        "mode": "structured_whole_file_survey",
+        "statement": "已读取开头、全篇各节标题及主要命题陈述、结论/限制/下一输入和结尾审计；证明未全部逐行读取。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "无条件矩阵平方尾已证；绝对值majorant远大于候选gap，必须保留相消。"
+    },
+    {
+      "number": 6,
+      "path": "notes/006-candidate-residual-certificate.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\006-candidate-residual-certificate.md",
+      "sha256": "47838850fd1e4e30ad29307efa3534024f5275b27676e908592da5031b152da8",
+      "line_count": 303,
+      "title": "# 候选向量加权的全残差证书",
+      "read_scope": {
+        "mode": "structured_whole_file_survey",
+        "statement": "已读取开头、全篇各节标题及主要命题陈述、结论/限制/下一输入和结尾审计；证明未全部逐行读取。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "core/buffer/解析远尾分开；core残差近零可来自有限本征方程，不代表无限谱支。"
+    },
+    {
+      "number": 7,
+      "path": "notes/007-prolate-boundary-correction.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\007-prolate-boundary-correction.md",
+      "sha256": "7612e27a84456427889ba3060207b492c984f9a34d270d6cf7ec0e2af3da0aaf",
+      "line_count": 238,
+      "title": "# Prolate 候选的反演与端点缺陷",
+      "read_scope": {
+        "mode": "structured_whole_file_survey",
+        "statement": "已读取开头、全篇各节标题及主要命题陈述、结论/限制/下一输入和结尾审计；证明未全部逐行读取。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "独立的规范端点修复保Hurwitz所需逼近；端点近零数字不是区间证书。"
+    },
+    {
+      "number": 8,
+      "path": "notes/008-cancellation-preserving-tail.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\008-cancellation-preserving-tail.md",
+      "sha256": "7cea178abc68ce6798b7dab6c3aef3c21c31d838f87543bf63f71be7bc1e2c04",
+      "line_count": 174,
+      "title": "# 保留 Weil 三项相消的二阶 residual 尾界",
+      "read_scope": {
+        "mode": "structured_whole_file_survey",
+        "statement": "已读取开头、全篇各节标题及主要命题陈述、结论/限制/下一输入和结尾审计；证明未全部逐行读取。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "合并prime/pole/archimedean二阶系数显著改善尾界；统一lambda问题未解决。"
+    },
+    {
+      "number": 9,
+      "path": "notes/009-third-order-oscillatory-tail.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\009-third-order-oscillatory-tail.md",
+      "sha256": "eb797468a5e8a8a49d63f31fecd932a22a0dbaf1731fabc850153f35366a6040",
+      "line_count": 164,
+      "title": "# 保留素数振荡的三阶 Weil residual 尾界",
+      "read_scope": {
+        "mode": "structured_whole_file_survey",
+        "statement": "已读取开头、全篇各节标题及主要命题陈述、结论/限制/下一输入和结尾审计；证明未全部逐行读取。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "三阶带振荡展开改进固定候选尾；对主误差来源的判断后来被010修正。"
+    },
+    {
+      "number": 10,
+      "path": "notes/010-fourth-order-finite-phase-tail.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\010-fourth-order-finite-phase-tail.md",
+      "sha256": "7f8a3ae0f520c0d0c294d998c23972bb61ae1c4e2098a9cace2a7d8b3654b313",
+      "line_count": 210,
+      "title": "# 有限相位前缀与四阶 Weil residual 尾界",
+      "read_scope": {
+        "mode": "full_text_deep_read",
+        "statement": "全部非空文本已读取，主要论证与限制精读；不宣称独立形式验证。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "四阶有限相位加无限余项严格覆盖；五阶绝对矩仍损失，011改用全阶resolvent。"
+    },
+    {
+      "number": 11,
+      "path": "notes/011-exact-resolvent-tail.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\011-exact-resolvent-tail.md",
+      "sha256": "14267dc1743e66d881e17c86a480fdac32592ae538413b4d86ae98c832acce2a",
+      "line_count": 208,
+      "title": "# 偶候选的精确 resolvent 恒等式与全阶尾证书",
+      "read_scope": {
+        "mode": "structured_whole_file_survey",
+        "statement": "已读取开头、全篇各节标题及主要命题陈述、结论/限制/下一输入和结尾审计；证明未全部逐行读取。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "精确resolvent消除固定候选全阶远尾瓶颈；不能提供uniform gap或weighted Xi逼近。"
+    },
+    {
+      "number": 12,
+      "path": "notes/012-uniform-certificate-criterion.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\012-uniform-certificate-criterion.md",
+      "sha256": "40c00555bed216e8c62b674720c5cba9d840a9a2cb0f50fa3bee5316655ddd4a",
+      "line_count": 252,
+      "title": "# 从固定候选证书到 `lambda`-统一 RH 判据",
+      "read_scope": {
+        "mode": "structured_whole_file_survey",
+        "statement": "已读取开头、全篇各节标题及主要命题陈述、结论/限制/下一输入和结尾审计；证明未全部逐行读取。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "有限AM证书接口与谱逼近条件明确；fixed-lambda Fourier极限不等于lambda渐近。"
+    },
+    {
+      "number": 13,
+      "path": "notes/013-radical-leakage-rayleigh-route.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\013-radical-leakage-rayleigh-route.md",
+      "sha256": "07237cddc0b97a1578d2a62cf5230b5cc3c12c2288ea0853284d0bd74d1a1f6d",
+      "line_count": 207,
+      "title": "# Radical leakage 与不使用 operator residual 的 Rayleigh 路线",
+      "read_scope": {
+        "mode": "structured_whole_file_survey",
+        "statement": "已读取开头、全篇各节标题及主要命题陈述、结论/限制/下一输入和结尾审计；证明未全部逐行读取。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "全局radical截断给Rayleigh上界；尚需真正radical及谱下界，近radical无法选最低线。"
+    },
+    {
+      "number": 14,
+      "path": "notes/014-low-energy-cluster-certificate.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\014-low-energy-cluster-certificate.md",
+      "sha256": "0df0f0d35799bb9ddd8bd1dde16b991de43dcd00e89da4385a2f6de974c7f753",
+      "line_count": 335,
+      "title": "# 低能谱簇、Ritz 旋转与基态识别",
+      "read_scope": {
+        "mode": "structured_whole_file_survey",
+        "statement": "已读取开头、全篇各节标题及主要命题陈述、结论/限制/下一输入和结尾审计；证明未全部逐行读取。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "cluster/Ritz证书分清内部gap与泄漏；toy内部gap远小于残差，不能识别最低本征支。"
+    },
+    {
+      "number": 15,
+      "path": "notes/015-filtered-asymptotic-polarization.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\015-filtered-asymptotic-polarization.md",
+      "sha256": "307a601e1c2f131f3a45d69a6e2aedeac68ff82a79c5926f0b2f8660ed1e94e9",
+      "line_count": 206,
+      "title": "# 过滤 near-radical 与渐近 Hodge–Riemann 正性",
+      "read_scope": {
+        "mode": "structured_whole_file_survey",
+        "statement": "已读取开头、全篇各节标题及主要命题陈述、结论/限制/下一输入和结尾审计；证明未全部逐行读取。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "共尾兼容form的绝对下界误差趋零可推出精确非负；有限正性或相对误差不够。"
+    },
+    {
+      "number": 16,
+      "path": "notes/016-prime-graph-hodge-inequality.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\016-prime-graph-hodge-inequality.md",
+      "sha256": "75752d8a69668e0c9c26a8d7145ecace92c9560e757c0e20cf28de7056307ffb",
+      "line_count": 320,
+      "title": "# 素数图平方分解与算术 Hodge–Riemann 不等式",
+      "read_scope": {
+        "mode": "structured_whole_file_survey",
+        "statement": "已读取开头、全篇各节标题及主要命题陈述、结论/限制/下一输入和结尾审计；证明未全部逐行读取。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "prime图平方是真结构；丢梯度只比degree存在2lambda损失，global domination尚缺。"
+    },
+    {
+      "number": 17,
+      "path": "notes/017-unitary-euler-graph-structure.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\017-unitary-euler-graph-structure.md",
+      "sha256": "190ca61d09c806256e32ebb9906a87c08e2c445ab8dae3d51e3cb5734d049343",
+      "line_count": 223,
+      "title": "# 酉 Euler 图极化与广义中心线结构定理",
+      "read_scope": {
+        "mode": "structured_whole_file_survey",
+        "statement": "已读取开头、全篇各节标题及主要命题陈述、结论/限制/下一输入和结尾审计；证明未全部逐行读取。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "unitary Satake相位给twisted Euler正边；local purity不提供全局带时间限制frame估计。"
+    },
+    {
+      "number": 18,
+      "path": "notes/018-prime-resonance-density.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\018-prime-resonance-density.md",
+      "sha256": "b2c5b1142db3babf8cacb205b780eb3b2c140b320c3a935af50a14a9383c8936",
+      "line_count": 264,
+      "title": "# 素数相位 resonance 的均方与密度界",
+      "read_scope": {
+        "mode": "structured_whole_file_survey",
+        "statement": "已读取开头、全篇各节标题及主要命题陈述、结论/限制/下一输入和结尾审计；证明未全部逐行读取。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "强共振稀疏与中央prolate核可证；非中央well的联合加权控制仍缺。"
+    },
+    {
+      "number": 19,
+      "path": "notes/019-resonance-packing-prolate-cover.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\019-resonance-packing-prolate-cover.md",
+      "sha256": "1575798532d4ae6b507ae2ee6aa343ef947692c78af60804cae4070ca217cb37",
+      "line_count": 184,
+      "title": "# 非零 resonance 的 packing 与调制 prolate 覆盖",
+      "read_scope": {
+        "mode": "structured_whole_file_survey",
+        "statement": "已读取开头、全篇各节标题及主要命题陈述、结论/限制/下一输入和结尾审计；证明未全部逐行读取。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "多井prolate覆盖需深度乘尾误差；弱packing不能独立完成dyadic求和。"
+    },
+    {
+      "number": 20,
+      "path": "notes/020-prolate-tail-dyadic-resonance.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\020-prolate-tail-dyadic-resonance.md",
+      "sha256": "f1bf19b152269c09cec9b508b7539976546ce94e1114aac18d6d2d021f322358",
+      "line_count": 186,
+      "title": "# 显式 prolate 特征值尾与弱 resonance 分层",
+      "read_scope": {
+        "mode": "structured_whole_file_survey",
+        "statement": "已读取开头、全篇各节标题及主要命题陈述、结论/限制/下一输入和结尾审计；证明未全部逐行读取。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "阶乘prolate尾成立；逐井独立计数求和失败只是该账本策略的障碍。"
+    },
+    {
+      "number": 21,
+      "path": "notes/021-block-large-sieve-proof.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\021-block-large-sieve-proof.md",
+      "sha256": "99b3c1fd7c6b8b1bdcf8a3d95d2217c9a9426cf11425ed3dca68a6d34c66a6c6",
+      "line_count": 240,
+      "title": "# 调制多项式 block large sieve 与弱 resonance 的解析消除",
+      "read_scope": {
+        "mode": "structured_whole_file_survey",
+        "statement": "已读取开头、全篇各节标题及主要命题陈述、结论/限制/下一输入和结尾审计；证明未全部逐行读取。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "block large sieve给固定lambda余空间小负误差；core秩、正性与Schur耦合仍未证。"
+    },
+    {
+      "number": 22,
+      "path": "notes/022-compact-hodge-operator.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\022-compact-hodge-operator.md",
+      "sha256": "8a04fa0c3d99552913daf977226680592053ba2aeafdb95c439aca5db0246c83",
+      "line_count": 404,
+      "title": "# 紧 Hodge 算子与有限广义特征值证书",
+      "read_scope": {
+        "mode": "structured_whole_file_survey",
+        "statement": "已读取开头、全篇各节标题及主要命题陈述、结论/限制/下一输入和结尾审计；证明未全部逐行读取。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "compact Birman–Schwinger与有限证书化完成；T<=1仍是独立算术输入。"
+    },
+    {
+      "number": 23,
+      "path": "notes/023-resonance-hodge-index.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\023-resonance-hodge-index.md",
+      "sha256": "c90eefc41cd28fae2d823dbb90923c3b6eb6d3b35b0175773297bc3c3abcba16",
+      "line_count": 296,
+      "title": "# Resonance concentration、正极化低谱与 Hodge 惯性指数",
+      "read_scope": {
+        "mode": "structured_whole_file_survey",
+        "statement": "已读取开头、全篇各节标题及主要命题陈述、结论/限制/下一输入和结尾审计；证明未全部逐行读取。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "负惯性对应T>1及gamma底谱；可检测有限失败，不证明完整正性。"
+    },
+    {
+      "number": 24,
+      "path": "notes/024-residual-feshbach-hodge-certificate.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\024-residual-feshbach-hodge-certificate.md",
+      "sha256": "6d3b2a3d26f724f64fb39a860db4f3c84181b880a8242cfc0b4d1c0360c79890",
+      "line_count": 216,
+      "title": "# Residual--Feshbach 消元与奇偶 Hodge 有限证书",
+      "read_scope": {
+        "mode": "structured_whole_file_survey",
+        "statement": "已读取开头、全篇各节标题及主要命题陈述、结论/限制/下一输入和结尾审计；证明未全部逐行读取。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "保留residual Gram的Feshbach给cofinal RH充分判据；core二次包围仍瓶颈。"
+    },
+    {
+      "number": 25,
+      "path": "notes/025-dirichlet-compact-hodge-structure.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\025-dirichlet-compact-hodge-structure.md",
+      "sha256": "b09b879552b408b413f07fd52e98d47de6e91e7c43fe25b951861063a570f218",
+      "line_count": 232,
+      "title": "# Primitive Dirichlet L 函数的紧 Hodge 结构",
+      "read_scope": {
+        "mode": "structured_whole_file_survey",
+        "statement": "已读取开头、全篇各节标题及主要命题陈述、结论/限制/下一输入和结尾审计；证明未全部逐行读取。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "primitive Dirichlet无pole的compact结构可迁移；全局共尾margin未知。"
+    },
+    {
+      "number": 26,
+      "path": "notes/026-tempered-automorphic-compact-hodge.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\026-tempered-automorphic-compact-hodge.md",
+      "sha256": "37b35ef2f3e9c05e10e8c251279a7a3f2161a205370d08eba39e2cd8f5a42897",
+      "line_count": 201,
+      "title": "# Tempered Gamma--Euler 数据的广义紧 Hodge 定理",
+      "read_scope": {
+        "mode": "structured_whole_file_survey",
+        "statement": "已读取开头、全篇各节标题及主要命题陈述、结论/限制/下一输入和结尾审计；证明未全部逐行读取。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "tempered automorphic推广依赖local Ramanujan；global positivity仍独立。"
+    },
+    {
+      "number": 27,
+      "path": "notes/027-phase-volume-hodge-index.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\027-phase-volume-hodge-index.md",
+      "sha256": "9c3c1f410fe17256d12b011cb16772eda82f9a58457cc3f0d6ece03e64afb73f",
+      "line_count": 196,
+      "title": "# Phase-volume 低谱计数与中心 resonance 的测度障碍",
+      "read_scope": {
+        "mode": "structured_whole_file_survey",
+        "statement": "已读取开头、全篇各节标题及主要命题陈述、结论/限制/下一输入和结尾审计；证明未全部逐行读取。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "phase-volume惯性计数排除一类丢几何策略；不排除实际zeta或全Weil方法。"
+    },
+    {
+      "number": 28,
+      "path": "notes/028-core-renormalized-negative-trace.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\028-core-renormalized-negative-trace.md",
+      "sha256": "3fff3593894a1074601d3874351d5e67bc26e25c3a50c6013040ebc4899aceae",
+      "line_count": 202,
+      "title": "# Core-renormalized 负谱迹与 prolate factorial 迹尾",
+      "read_scope": {
+        "mode": "structured_whole_file_survey",
+        "statement": "已读取开头、全篇各节标题及主要命题陈述、结论/限制/下一输入和结尾审计；证明未全部逐行读取。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "core负迹与factorial尾正规化可证；非中央联合尾及core Schur未闭合。"
+    },
+    {
+      "number": 29,
+      "path": "notes/029-canonical-compact-hodge-defect.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\029-canonical-compact-hodge-defect.md",
+      "sha256": "4adb9c3f5d44c2c3df4cfa5bfb386ca16e665f3376b60d4c15c47691a88d6076",
+      "line_count": 219,
+      "title": "# 规范 trace-class Hodge defect 与最优有限秩 core",
+      "read_scope": {
+        "mode": "structured_whole_file_survey",
+        "statement": "已读取开头、全篇各节标题及主要命题陈述、结论/限制/下一输入和结尾审计；证明未全部逐行读取。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "canonical traceclass defect及最优rank core真实；没有内部正性或统一rank控制。"
+    },
+    {
+      "number": 30,
+      "path": "notes/030-boundary-gap-rank-one-limit.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\030-boundary-gap-rank-one-limit.md",
+      "sha256": "7c20721b7b9ab9e4857100ef3198db766a8f97b468c29a49ba5e16115b21f3d4",
+      "line_count": 222,
+      "title": "# 加权素数端点间隙、秩一极限与 prime--pole 相消",
+      "read_scope": {
+        "mode": "structured_whole_file_survey",
+        "statement": "已读取开头、全篇各节标题及主要命题陈述、结论/限制/下一输入和结尾审计；证明未全部逐行读取。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "endpoint prime–pole增长相消到o(lambda)；中心线判据要求绝对O(1)/o(1)，相对小不够。"
+    },
+    {
+      "number": 31,
+      "path": "notes/031-boundary-explicit-formula-criterion.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\031-boundary-explicit-formula-criterion.md",
+      "sha256": "a12df0571065a3d1f10960f8d704fd72ff58ecb110c3657004bf43734446ed65",
+      "line_count": 248,
+      "title": "# 边界 Mellin 显式公式与 RH 的有界能量判据",
+      "read_scope": {
+        "mode": "full_text_deep_read",
+        "statement": "全部非空文本已读取，主要论证与限制精读；不宣称独立形式验证。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "boundary显式公式独立成立；全部分离平滑边界energy O(1)是RH等价条件。"
+    },
+    {
+      "number": 32,
+      "path": "notes/032-boundary-besicovitch-hodge-space.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\032-boundary-besicovitch-hodge-space.md",
+      "sha256": "d754880a620822d4cecb43417e7c51903602de43ec194d431422cf31bf0ebbde",
+      "line_count": 230,
+      "title": "# 素数边界信号的 Besicovitch--Hodge 空间",
+      "read_scope": {
+        "mode": "full_text_deep_read",
+        "statement": "全部非空文本已读取，主要论证与限制精读；不宣称独立形式验证。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "有限Besicovitch Gram自动正；临界tightness才构造GNS，原子质量m_gamma平方。"
+    },
+    {
+      "number": 33,
+      "path": "notes/033-two-channel-boundary-hodge-criterion.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\033-two-channel-boundary-hodge-criterion.md",
+      "sha256": "2b49c968d27a94323d94e396306774996c3a2e3f18266a46ccadbc8c5411037c",
+      "line_count": 233,
+      "title": "# 二通道边界 Hodge block 与 RH",
+      "read_scope": {
+        "mode": "full_text_deep_read",
+        "statement": "全部非空文本已读取，主要论证与限制精读；不宣称独立形式验证。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "双通道moving detector统一下界已经RH等价；无需先全空间极化但算术界未获。"
+    },
+    {
+      "number": 34,
+      "path": "notes/034-abel-boundary-hodge-filtration.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\034-abel-boundary-hodge-filtration.md",
+      "sha256": "d31b77a1cc9219b3e5abfe006e6718bcc4a1fce1e0195ffdbd811309961ec5ae",
+      "line_count": 207,
+      "title": "# Abel 加权边界 Hodge 过滤与零自由条带",
+      "read_scope": {
+        "mode": "full_text_deep_read",
+        "statement": "全部非空文本已读取，主要论证与限制精读；不宣称独立形式验证。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "Abel能量abscissa读出可见最右横移；PNT次幂误差不能免费推进到中心。"
+    },
+    {
+      "number": 35,
+      "path": "notes/035-chebyshev-single-channel-hodge.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\035-chebyshev-single-channel-hodge.md",
+      "sha256": "6488a0344fe45fcd918da8c309746b9473eb0cf050213c07e88f0a293b0d8a91",
+      "line_count": 236,
+      "title": "# Chebyshev 单通道 Abel--Hodge 判据",
+      "read_scope": {
+        "mode": "full_text_deep_read",
+        "statement": "全部非空文本已读取，主要论证与限制精读；不宣称独立形式验证。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "单Chebyshev规范channel的加权L2条件等价RH；有限能量不能替代无限尾。"
+    },
+    {
+      "number": 36,
+      "path": "notes/036-max-kernel-prime-square.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\036-max-kernel-prime-square.md",
+      "sha256": "25bb8b729eb1523eb4155cc56af397bf90e4b4646a15fbf90bd1487bb9810d17",
+      "line_count": 243,
+      "title": "# Max-kernel 素数平方与 Selberg 卷积障碍",
+      "read_scope": {
+        "mode": "full_text_deep_read",
+        "statement": "全部非空文本已读取，主要论证与限制精读；不宣称独立形式验证。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "max-kernel确为正；multiplicative Selberg square反例及粗PNT majorant障碍只限该策略。"
+    },
+    {
+      "number": 37,
+      "path": "notes/037-sturm-liouville-hodge-current.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\037-sturm-liouville-hodge-current.md",
+      "sha256": "47afa87ae0a4531f57973a95a63794da7f1d4e1124529b1aa9a153a701669dc8",
+      "line_count": 255,
+      "title": "# Sturm--Liouville Green 极化与算术 Hodge current",
+      "read_scope": {
+        "mode": "full_text_deep_read",
+        "statement": "全部非空文本已读取，主要论证与限制精读；不宣称独立形式验证。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "Sturm–Liouville载体正且traceclass；current有限action而非算子自伴本身等价RH。"
+    },
+    {
+      "number": 38,
+      "path": "notes/038-bessel-hodge-spectrum.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\038-bessel-hodge-spectrum.md",
+      "sha256": "129e2c5d3d0d98881099e48c2e1affd19bc6d8986c4cd79925f062c978c374ba",
+      "line_count": 237,
+      "title": "# Bessel 离散 Hodge 谱与 Euler 坐标",
+      "read_scope": {
+        "mode": "full_text_deep_read",
+        "statement": "全部非空文本已读取，主要论证与限制精读；不宣称独立形式验证。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "Bessel坐标每个可由绝对Euler区构造；joint ell2要求跨频算术相消。"
+    },
+    {
+      "number": 39,
+      "path": "notes/039-fourier-bessel-arithmetic-field.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\039-fourier-bessel-arithmetic-field.md",
+      "sha256": "4729a533ff99132d27f66c4b2b436c56fa2ff7dfb0da01480e276559067d239a",
+      "line_count": 208,
+      "title": "# 单位区间 Fourier--Bessel 算术场",
+      "read_scope": {
+        "mode": "full_text_deep_read",
+        "statement": "全部非空文本已读取，主要论证与限制精读；不宣称独立形式验证。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "Fourier–Bessel Parseval把prime无穷远压到z=0；有限partial sums只给下界。"
+    },
+    {
+      "number": 40,
+      "path": "notes/040-dirichlet-automorphic-hodge-current.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\040-dirichlet-automorphic-hodge-current.md",
+      "sha256": "6a887773879cacdb21cd1f0862e67b0a63b8c542d17fadcd0f82e9c35c411375",
+      "line_count": 214,
+      "title": "# Dirichlet 与 Gamma--Euler 算术 Hodge currents",
+      "read_scope": {
+        "mode": "full_text_deep_read",
+        "statement": "全部非空文本已读取，主要论证与限制精读；不宣称独立形式验证。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "Dirichlet/tempered Hodge current推广成立于已标local条件；global membership保持RH/GRH强度。"
+    },
+    {
+      "number": 41,
+      "path": "notes/041-euler-bessel-cancellation-no-go.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\041-euler-bessel-cancellation-no-go.md",
+      "sha256": "d7bcd5cea9e40bb0a85d8ce58d9e035b47ac4af7fd841d8d4bda355311adc368",
+      "line_count": 204,
+      "title": "# Euler--Bessel 高模态相消与绝对值 no-go",
+      "read_scope": {
+        "mode": "full_text_deep_read",
+        "statement": "全部非空文本已读取，主要论证与限制精读；不宣称独立形式验证。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "绝对Bessel majorant与完全单调/Hausdorff路线失败；signed联合重求和仍开放。"
+    },
+    {
+      "number": 42,
+      "path": "notes/042-dyadic-prime-discrepancy-blocks.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\042-dyadic-prime-discrepancy-blocks.md",
+      "sha256": "cde4ba826e1918c1fec8baee8d03c21660ea52e2f50a8e6dce91c9b23960cc24",
+      "line_count": 222,
+      "title": "# Dyadic prime-discrepancy Hodge blocks",
+      "read_scope": {
+        "mode": "structured_whole_file_survey",
+        "statement": "已读取开头、全篇各节标题及主要命题陈述、结论/限制/下一输入和结尾审计；证明未全部逐行读取。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "dyadic Chebyshev variance要求X平方级而非PNT给的近X立方；正tent Gram不提供速率。"
+    },
+    {
+      "number": 43,
+      "path": "notes/043-windowed-fourier-block-core.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\043-windowed-fourier-block-core.md",
+      "sha256": "efa031240346f72a3a58d2b9b71e1d3d8a25c1f6870c88cc3fac8487ce9b3472",
+      "line_count": 218,
+      "title": "# Windowed Fourier large sieve 与低频 Hodge core",
+      "read_scope": {
+        "mode": "structured_whole_file_survey",
+        "statement": "已读取开头、全篇各节标题及主要命题陈述、结论/限制/下一输入和结尾审计；证明未全部逐行读取。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "windowed Fourier高频尾已有无条件控制；低频core统一算术估计仍缺。"
+    },
+    {
+      "number": 44,
+      "path": "notes/044-triangular-riesz-single-mode.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\044-triangular-riesz-single-mode.md",
+      "sha256": "43113f8839050316a99ecefd3eddc81354df7b5dc416c8e3d7b51458a4b9c63a",
+      "line_count": 199,
+      "title": "# Triangular Riesz 单模态中心线判据",
+      "read_scope": {
+        "mode": "structured_whole_file_survey",
+        "statement": "已读取开头、全篇各节标题及主要命题陈述、结论/限制/下一输入和结尾审计；证明未全部逐行读取。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "triangular smoothing Mellin核不消off-center模式；平滑没有降低RH等价指数。"
+    },
+    {
+      "number": 45,
+      "path": "notes/045-dilation-resolvent-cyclic-weil.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\045-dilation-resolvent-cyclic-weil.md",
+      "sha256": "7e20b8df6fac905ca4bd18dcd641d7d07a95298a90c56da5d683af5606bcc64e",
+      "line_count": 330,
+      "title": "# Dilation resolvent 与循环 Weil--GNS 结构",
+      "read_scope": {
+        "mode": "full_text_deep_read",
+        "statement": "全部非空文本已读取，主要论证与限制精读；不宣称独立形式验证。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "稳定dilation逆与有限Toeplitz Gram真实；critical tightness不是GNS免费，单离散dilation有alias。"
+    },
+    {
+      "number": 46,
+      "path": "notes/046-dilation-de-rham-weil-complex.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\046-dilation-de-rham-weil-complex.md",
+      "sha256": "aadb27b4fbf2f595967b0fb971fdf948fc3c7072ec5e776d11505f607175bcb3",
+      "line_count": 353,
+      "title": "# Dilation--de Rham 方块与连续 Weil--Hodge 复形",
+      "read_scope": {
+        "mode": "full_text_deep_read",
+        "statement": "全部非空文本已读取，主要论证与限制精读；不宣称独立形式验证。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "arithmetical de Rham square与强连续dilation可构造；closed adjoint所需Sobolev tightness仍RH。"
+    },
+    {
+      "number": 47,
+      "path": "notes/047-ratio-kernel-two-moment-core.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\047-ratio-kernel-two-moment-core.md",
+      "sha256": "c5e072cf349f44c7e92c9f4e6a261d073a9b9254e254de49081d3de0e544c2a2",
+      "line_count": 298,
+      "title": "# Ratio kernel、局部方差与每尺度二维 Hodge core",
+      "read_scope": {
+        "mode": "structured_whole_file_survey",
+        "statement": "已读取开头、全篇各节标题及主要命题陈述、结论/限制/下一输入和结尾审计；证明未全部逐行读取。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "ratio-kernel近邻 remainder及远区二矩压缩有效；整体saturation仍RH强度。"
+    },
+    {
+      "number": 48,
+      "path": "notes/048-endpoint-core-ar1-wavelet.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\048-endpoint-core-ar1-wavelet.md",
+      "sha256": "8309adcf198fd7597d6a9e14bef6a0e9c37bd87387b47e006209ce2f93f1b2ab",
+      "line_count": 336,
+      "title": "# Endpoint core 的 AR(1) 谱隙与连续 prime wavelet",
+      "read_scope": {
+        "mode": "structured_whole_file_survey",
+        "statement": "已读取开头、全篇各节标题及主要命题陈述、结论/限制/下一输入和结尾审计；证明未全部逐行读取。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "endpoint AR1谱隙为正及全shift平均防alias；actual arithmetic tightness仍未提供。"
+    },
+    {
+      "number": 49,
+      "path": "notes/049-massive-wavelet-wiener-weil.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\049-massive-wavelet-wiener-weil.md",
+      "sha256": "dba5950286f1ef07fef6da2a627b9d4185c2c6e4d11b7694973aa98a6585761e",
+      "line_count": 260,
+      "title": "# Massive prime wavelet、Wiener inverse 与广义结构定理",
+      "read_scope": {
+        "mode": "structured_whole_file_survey",
+        "statement": "已读取开头、全篇各节标题及主要命题陈述、结论/限制/下一输入和结尾审计；证明未全部逐行读取。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "massive wavelet Wiener逆有显式gap；弱wavelet L2已RH等价而非无条件改进。"
+    },
+    {
+      "number": 50,
+      "path": "notes/050-prime-wavelet-pair-saturation.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\050-prime-wavelet-pair-saturation.md",
+      "sha256": "b0b5273095c2e10b4cc552a3e05563ba317f77f6edb10894fbba9560c71c730e",
+      "line_count": 280,
+      "title": "# Prime-wavelet pair Gram 与 diagonal saturation",
+      "read_scope": {
+        "mode": "structured_whole_file_survey",
+        "statement": "已读取开头、全篇各节标题及主要命题陈述、结论/限制/下一输入和结尾审计；证明未全部逐行读取。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "positive diagonal增长需centered pair抵消；它阻碍sharp O(1)，不阻碍subpower目标。"
+    },
+    {
+      "number": 51,
+      "path": "notes/051-centered-frame-strip-exponent.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\051-centered-frame-strip-exponent.md",
+      "sha256": "001e20571bd88418824fa31e9667e93d5feb59750e9d6c5e90973484310cf6a4",
+      "line_count": 282,
+      "title": "# `Lambda-1` centered Gram、frame 障碍与零自由条带指数",
+      "read_scope": {
+        "mode": "structured_whole_file_survey",
+        "statement": "已读取开头、全篇各节标题及主要命题陈述、结论/限制/下一输入和结尾审计；证明未全部逐行读取。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "centered frame/strip exponent精确；generic norm界过大，实际相位Rayleigh必须独立估计。"
+    },
+    {
+      "number": 52,
+      "path": "notes/052-primitive-prime-wavelet.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\052-primitive-prime-wavelet.md",
+      "sha256": "edc6f92bd3da4a39ed1fe1a4e30525cf572eeb32071da38e5c66442819876928",
+      "line_count": 392,
+      "title": "# Tate 消元、纯素数 Gram 与 primitive Weil 结构",
+      "read_scope": {
+        "mode": "structured_whole_file_survey",
+        "statement": "已读取开头、全篇各节标题及主要命题陈述、结论/限制/下一输入和结尾审计；证明未全部逐行读取。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "Tate零质量primitive prime wavelet稳定且可见；actual primitive subpower energy仍RH。"
+    },
+    {
+      "number": 53,
+      "path": "notes/053-four-moment-finite-primitive-criterion.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\053-four-moment-finite-primitive-criterion.md",
+      "sha256": "6a72d8f00ffa89cbc07ef3da38e68d87c4bb5e560dca8c5d57946f7baa0e6d93",
+      "line_count": 311,
+      "title": "# Primitive homogeneous Gram 的四矩压缩与有限 RH 判据",
+      "read_scope": {
+        "mode": "structured_whole_file_survey",
+        "statement": "已读取开头、全篇各节标题及主要命题陈述、结论/限制/下一输入和结尾审计；证明未全部逐行读取。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "chamber四矩prefix有限化真实；必须中心化Lambda−1，joint signed估计未证。"
+    },
+    {
+      "number": 54,
+      "path": "notes/054-mellin-biharmonic-two-moment-core.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\054-mellin-biharmonic-two-moment-core.md",
+      "sha256": "ae9bc064f2075767de9bbdc1e4897c57fc3ccbd5a31336c23cfc9c8d00f87129",
+      "line_count": 330,
+      "title": "# Mellin 对角化、biharmonic 两矩 Hodge core 与低频归约",
+      "read_scope": {
+        "mode": "structured_whole_file_survey",
+        "statement": "已读取开头、全篇各节标题及主要命题陈述、结论/限制/下一输入和结尾审计；证明未全部逐行读取。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "Mellin biharmonic二矩及高频large sieve完成；低频联合相消仍等价强度。"
+    },
+    {
+      "number": 55,
+      "path": "notes/055-adaptive-sobolev-hodge-filtration.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\055-adaptive-sobolev-hodge-filtration.md",
+      "sha256": "0181f2fb203e7ce10a0cad1757269d7fd856b1b41d151d40b53801184c8a9ea4",
+      "line_count": 280,
+      "title": "# 可变阶 Sobolev--Hodge filtration 与任意慢增长低频 core",
+      "read_scope": {
+        "mode": "structured_whole_file_survey",
+        "statement": "已读取开头、全篇各节标题及主要命题陈述、结论/限制/下一输入和结尾审计；证明未全部逐行读取。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "adaptive Sobolev阶可慢增且保固定pole；增长窗口不能消除off-center pole。"
+    },
+    {
+      "number": 56,
+      "path": "notes/056-poisson-sampled-polylog-hodge-core.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\056-poisson-sampled-polylog-hodge-core.md",
+      "sha256": "40fd43197519ba6e69c7d7d9301691e944720b99a559c84b8d58e8047df373a0",
+      "line_count": 225,
+      "title": "# Poisson 采样与 polylog-rank Euler--Hodge core",
+      "read_scope": {
+        "mode": "structured_whole_file_survey",
+        "statement": "已读取开头、全篇各节标题及主要命题陈述、结论/限制/下一输入和结尾审计；证明未全部逐行读取。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "Poisson sampling给polylog rank与alias误差；actual-cycle近似不保证dual FPW4b。"
+    },
+    {
+      "number": 57,
+      "path": "notes/057-logarithmic-moment-hodge-core.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\057-logarithmic-moment-hodge-core.md",
+      "sha256": "906d5324f7eff119aba535bcdc391a8197855d20e4935d9b5aac39bd12892ce2",
+      "line_count": 207,
+      "title": "# 高阶 Taylor 压缩与 `logX/loglogX` 秩的算术 Hodge core",
+      "read_scope": {
+        "mode": "structured_whole_file_survey",
+        "statement": "已读取开头、全篇各节标题及主要命题陈述、结论/限制/下一输入和结尾审计；证明未全部逐行读取。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "logarithmic moment核rank可压缩；joint quadratic arithmetic上界仍缺。"
+    },
+    {
+      "number": 58,
+      "path": "notes/058-filtered-primitive-weil-master-theorem.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\058-filtered-primitive-weil-master-theorem.md",
+      "sha256": "321af3d384d05f10009142cf519050b134c2f5b280b102463fc628c40aafa09f",
+      "line_count": 357,
+      "title": "# Filtered primitive Weil package：统一结构定理与 zeta 存在性审计",
+      "read_scope": {
+        "mode": "structured_whole_file_survey",
+        "statement": "正文19–357行完整精读；开头1–18行按结构survey读取。不将部分深读计为全文深读，不宣称独立形式验证。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "FPW master把finite positivity、primitive inverse、dual norm、tail与actual growth分离；FPW4b不能由形式visibility代替。"
+    },
+    {
+      "number": 59,
+      "path": "notes/059-rank-one-annular-euler-detector.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\059-rank-one-annular-euler-detector.md",
+      "sha256": "21637d13b8ff1334fe85761c7f5f163c276b1a0e3a8effae8df9df23e05c1601",
+      "line_count": 231,
+      "title": "# Rank-one annular Euler detector 与标量 filtered Weil 结构",
+      "read_scope": {
+        "mode": "structured_whole_file_survey",
+        "statement": "已读取开头、全篇各节标题及主要命题陈述、结论/限制/下一输入和结尾审计；证明未全部逐行读取。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "单rank annular detector有非零Mellin核；能检测pole但不保证强reconstruction。"
+    },
+    {
+      "number": 60,
+      "path": "notes/060-annular-width-frame-strong-gns.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\060-annular-width-frame-strong-gns.md",
+      "sha256": "6399b25baa4d6285f0cffcc6e0c3ae8fd281876ae361a3ddac0bd054d4eab120",
+      "line_count": 214,
+      "title": "# 连续 annular-width frame 与 strong Weil--GNS 重构",
+      "read_scope": {
+        "mode": "structured_whole_file_survey",
+        "statement": "已读取开头、全篇各节标题及主要命题陈述、结论/限制/下一输入和结尾审计；证明未全部逐行读取。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "连续width average给真frame；任意固定有限width不存在uniform频率gap，critical tightness仍RH。"
+    },
+    {
+      "number": 61,
+      "path": "notes/061-shrinking-annular-selberg-bridge.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\061-shrinking-annular-selberg-bridge.md",
+      "sha256": "0b1b02db47131983d81786569015b094dd61bd412b880c0df7e4be0b641c0736",
+      "line_count": 230,
+      "title": "# Shrinking annular frame、Selberg 方差与零点条带传递",
+      "read_scope": {
+        "mode": "structured_whole_file_survey",
+        "statement": "已读取开头、全篇各节标题及主要命题陈述、结论/限制/下一输入和结尾审计；证明未全部逐行读取。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "shrinking annular尺度可迁移指数；没有新增actual Selberg variance界。"
+    },
+    {
+      "number": 62,
+      "path": "notes/062-annular-abel-gns-spectral-measure.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\062-annular-abel-gns-spectral-measure.md",
+      "sha256": "7d2548406c32c7ae7564e5bf4bdfac7b95373fef259e1c966306571fd926c770",
+      "line_count": 288,
+      "title": "# Annular Abel--GNS filtration 与临界零点谱测度",
+      "read_scope": {
+        "mode": "structured_whole_file_survey",
+        "statement": "已读取开头、全篇各节标题及主要命题陈述、结论/限制/下一输入和结尾审计；证明未全部逐行读取。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "annular Abel正核在真实能量收敛域成立；解析延拓不自动保实际positive integral。"
+    },
+    {
+      "number": 63,
+      "path": "notes/063-one-point-abel-moment-criterion.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\063-one-point-abel-moment-criterion.md",
+      "sha256": "64ff9fa7a75ffdd9a1079eace90aaf161074a909d11b353ccf60bd8850fec347",
+      "line_count": 335,
+      "title": "# 单点 Abel--Stieltjes 矩、Hankel Gram 与 RH",
+      "read_scope": {
+        "mode": "structured_whole_file_survey",
+        "statement": "已读取开头、全篇各节标题及主要命题陈述、结论/限制/下一输入和结尾审计；证明未全部逐行读取。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "正Abel moments/Hankel PSD允许指数增长反模型；subexponential增长才提供RH约束。"
+    },
+    {
+      "number": 64,
+      "path": "notes/064-gamma-randomized-finite-euler-gram.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\064-gamma-randomized-finite-euler-gram.md",
+      "sha256": "3d9dd41e1ace77a4169f7ac81f638096be71f4391ef327aedc1c5f0135b83c51",
+      "line_count": 262,
+      "title": "# Gamma 随机尺度与 finite Euler--Gram 中心线判据",
+      "read_scope": {
+        "mode": "structured_whole_file_survey",
+        "statement": "已读取开头、全篇各节标题及主要命题陈述、结论/限制/下一输入和结尾审计；证明未全部逐行读取。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "Gamma随机尺度与指数prime cutoff严格化；有限moment全序列增长未知。"
+    },
+    {
+      "number": 65,
+      "path": "notes/065-abel-rkhs-boundary-weil-structure.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\065-abel-rkhs-boundary-weil-structure.md",
+      "sha256": "18db819e8760f252f137e530a7999d061cee983d326a636744cc567288019035",
+      "line_count": 270,
+      "title": "# Abel analytic RKHS、边界留数与 Weil 谱结构",
+      "read_scope": {
+        "mode": "structured_whole_file_survey",
+        "statement": "已读取开头、全篇各节标题及主要命题陈述、结论/限制/下一输入和结尾审计；证明未全部逐行读取。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "所有有限Taylor核PSD不能保证整个unit disk RKHS completion；局部有界性仍RH。"
+    },
+    {
+      "number": 66,
+      "path": "notes/066-radial-finite-taylor-rh-certificate.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\066-radial-finite-taylor-rh-certificate.md",
+      "sha256": "4087e32b9793048c32debb2606e31d1519524f5f06b8354aa33755f96edabff0",
+      "line_count": 267,
+      "title": "# 单列径向 finite Taylor residue 与 RH",
+      "read_scope": {
+        "mode": "structured_whole_file_survey",
+        "statement": "已读取开头、全篇各节标题及主要命题陈述、结论/限制/下一输入和结尾审计；证明未全部逐行读取。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "radial finite Taylor synchronized cutoff可严格有限化；actual Lambda−1 uniform增长仍待证。"
+    },
+    {
+      "number": 67,
+      "path": "notes/067-poisson-cutoff-cesaro-hodge-energy.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\067-poisson-cutoff-cesaro-hodge-energy.md",
+      "sha256": "5c88160e759c51f96ba5dc2015df37b01dc77af031ef7b60c5bf166323bd833f",
+      "line_count": 262,
+      "title": "# Poisson cutoff、Cesàro Hodge 能量与临界 residue 常数",
+      "read_scope": {
+        "mode": "structured_whole_file_survey",
+        "statement": "已读取开头、全篇各节标题及主要命题陈述、结论/限制/下一输入和结尾审计；证明未全部逐行读取。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "Poisson cutoff保质量且与Cesaro/Abel相通；anchored平均与sliding平均强度须区别。"
+    },
+    {
+      "number": 68,
+      "path": "notes/068-prefix-flow-line-graph-hodge-structure.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\068-prefix-flow-line-graph-hodge-structure.md",
+      "sha256": "f60ff10841a631487a1b6593d63e7c43e50273f3878e9288b0ddaa7dccd5817e",
+      "line_count": 251,
+      "title": "# Prefix flow、整数线图 Hodge 极化与 RH",
+      "read_scope": {
+        "mode": "structured_whole_file_survey",
+        "statement": "已读取开头、全篇各节标题及主要命题陈述、结论/限制/下一输入和结尾审计；证明未全部逐行读取。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "integer prefix line-graph exact flow为psi(n)−n；统一Hodge energy就是RH等级输入。"
+    },
+    {
+      "number": 69,
+      "path": "notes/069-dual-laplacian-hodge-sobolev-rh.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\069-dual-laplacian-hodge-sobolev-rh.md",
+      "sha256": "c00737c8b31efca8614fe130f47c4594d6bc9f7c5389e0e18741af0c0ece9c43",
+      "line_count": 228,
+      "title": "# Dual Jacobi Laplacian、最优 Hodge--Sobolev 不等式与 RH",
+      "read_scope": {
+        "mode": "structured_whole_file_survey",
+        "statement": "已读取开头、全篇各节标题及主要命题陈述、结论/限制/下一输入和结尾审计；证明未全部逐行读取。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "dual Laplacian显式逆与optimal Sobolev常数成立；ClogN算术界并未证明。"
+    },
+    {
+      "number": 70,
+      "path": "notes/070-uniform-local-l2-sharp-selberg-rh.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\070-uniform-local-l2-sharp-selberg-rh.md",
+      "sha256": "8a0bee66760a7cc26b703b09ff1a0efe7bdbfce80e5e20348db2884bb513d08d",
+      "line_count": 245,
+      "title": "# Uniform local `L^2`、sharp Selberg blocks 与 RH",
+      "read_scope": {
+        "mode": "structured_whole_file_survey",
+        "statement": "已读取开头、全篇各节标题及主要命题陈述、结论/限制/下一输入和结尾审计；证明未全部逐行读取。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "sharp Selberg local L2与RH等价；shrinking intervals另需输入不能直接外推。"
+    },
+    {
+      "number": 71,
+      "path": "notes/071-local-selberg-green-markov-hodge.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\071-local-selberg-green-markov-hodge.md",
+      "sha256": "2d651b473827806ad9e0766a49c5e59d333577e2614bc5e3c1abe30a4606d91e",
+      "line_count": 213,
+      "title": "# Local Selberg Green block、Dirichlet inverse 与尺度 Markov gluing",
+      "read_scope": {
+        "mode": "structured_whole_file_survey",
+        "statement": "已读取开头、全篇各节标题及主要命题陈述、结论/限制/下一输入和结尾审计；证明未全部逐行读取。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "Green block历史仅边界scalar state；actual新charge平方统一界仍RH。"
+    },
+    {
+      "number": 72,
+      "path": "notes/072-rank-one-brownian-bridge-completion.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\072-rank-one-brownian-bridge-completion.md",
+      "sha256": "35d10cf8a73c0623a42d735fe96ffe90b7b9bd055c0afdb35b36f7ee85db1e8a",
+      "line_count": 263,
+      "title": "# Rank-one block mean、Brownian bridge 与 Hodge completion",
+      "read_scope": {
+        "mode": "structured_whole_file_survey",
+        "statement": "已读取开头、全篇各节标题及主要命题陈述、结论/限制/下一输入和结尾审计；证明未全部逐行读取。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "constant-mode/Brownian-bridge Schur把秩压到一；秩一不等于该scalar arithmetic有界。"
+    },
+    {
+      "number": 73,
+      "path": "notes/073-tempered-polarization-tensor-category.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\073-tempered-polarization-tensor-category.md",
+      "sha256": "b0a2e8a5891b21b05be672c3e9edbf72a02dda97b56b1d644a85c28481cffe75",
+      "line_count": 294,
+      "title": "# Tempered polarization、unitarization 与 Weil tensor category",
+      "read_scope": {
+        "mode": "full_text_deep_read",
+        "statement": "全部非空文本已读取，主要论证与限制精读；不宣称独立形式验证。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "tempered dynamics推出谱纯但允许Jordan；uniform双向界才给exact polarization和有限半单。"
+    },
+    {
+      "number": 74,
+      "path": "notes/074-cesaro-lyapunov-hodge-exponent.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\074-cesaro-lyapunov-hodge-exponent.md",
+      "sha256": "d49e57194290ed7863c95344b470d515a132cc8a386e0f98aa2c67e29e1cab61",
+      "line_count": 278,
+      "title": "# Cesàro–Lyapunov Hodge exponent、Jordan depth 与 finite purity certificates",
+      "read_scope": {
+        "mode": "full_text_deep_read",
+        "statement": "全部非空文本已读取，主要论证与限制精读；不宣称独立形式验证。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "Cesaro Gram指数可检测有限谱横移与Jordan；平均界在无限Hilbert不自动变点态统一界。"
+    },
+    {
+      "number": 75,
+      "path": "notes/075-exterior-weight-polygon-hodge-index.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\075-exterior-weight-polygon-hodge-index.md",
+      "sha256": "053f0b3d31a9a52513d7de0215dae992d06500c91110aadbdc1b621b5db9f311",
+      "line_count": 256,
+      "title": "# Exterior weight polygon、endpoint Hodge index 与 divisor multiplicities",
+      "read_scope": {
+        "mode": "structured_whole_file_survey",
+        "statement": "已读取开头、全篇各节标题及主要命题陈述、结论/限制/下一输入和结尾审计；证明未全部逐行读取。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "exterior powers恢复finite weights与distinct packet；高外幂不弱化k=1 RH输入。"
+    },
+    {
+      "number": 76,
+      "path": "notes/076-matrix-valued-multiplicity-weil-package.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\076-matrix-valued-multiplicity-weil-package.md",
+      "sha256": "20654439a8cf7712892729b424548edf63bf130b9a27b16d2975dbf0bbfd6077",
+      "line_count": 222,
+      "title": "# Scalar multiplicity no-go 与 matrix-valued Weil package",
+      "read_scope": {
+        "mode": "structured_whole_file_survey",
+        "statement": "已读取开头、全篇各节标题及主要命题陈述、结论/限制/下一输入和结尾审计；证明未全部逐行读取。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "scalar/many linear filter atom仍rank一；普通重数需要独立matrix cycles或改用trace质量。"
+    },
+    {
+      "number": 77,
+      "path": "notes/077-tracial-polarized-weil-determinant.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\077-tracial-polarized-weil-determinant.md",
+      "sha256": "f81f1794361d741fe33c2ce09528108b3918f7a29122c85164a6fcb8e88de74a",
+      "line_count": 222,
+      "title": "# Tracial polarization、spectral dimension 与 weighted Weil determinant",
+      "read_scope": {
+        "mode": "structured_whole_file_survey",
+        "statement": "已读取开头、全篇各节标题及主要命题陈述、结论/限制/下一输入和结尾审计；证明未全部逐行读取。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "tracial determinant合法恢复divisor重数；仅解决账目，不提供critical tightness。"
+    },
+    {
+      "number": 78,
+      "path": "notes/078-ihara-ramanujan-hodge-structure.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\078-ihara-ramanujan-hodge-structure.md",
+      "sha256": "bc2d6a2c315348402616e6ba90bc17fff73ab764ce8f608fa68947f1b4b1b798",
+      "line_count": 207,
+      "title": "# Ihara--Bass companion Frobenius 与 Ramanujan Hodge 结构",
+      "read_scope": {
+        "mode": "structured_whole_file_survey",
+        "statement": "已读取开头、全篇各节标题及主要命题陈述、结论/限制/下一输入和结尾审计；证明未全部逐行读取。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "Ihara companion提供真正独立finite closed model；Ramanujan边界可tempered但Jordan阻止强polarization。"
+    },
+    {
+      "number": 79,
+      "path": "notes/079-prime-orbit-schatten-normal-limit-no-go.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\079-prime-orbit-schatten-normal-limit-no-go.md",
+      "sha256": "a7693b63d35a5bdbfecf722c517fcd4fa5f95d26d95a31186dfe6a0ec217d5d7",
+      "line_count": 225,
+      "title": "# Prime-orbit Schatten 阈值与 Euler-local normal-limit no-go",
+      "read_scope": {
+        "mode": "structured_whole_file_survey",
+        "statement": "已读取开头、全篇各节标题及主要命题陈述、结论/限制/下一输入和结尾审计；证明未全部逐行读取。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "直接prime-orbit Schatten正常极限局限明确；非零normal counterterm不能造全局zeros，需nonlocal geometry。"
+    },
+    {
+      "number": 80,
+      "path": "notes/080-divisibility-incidence-green-hodge.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\080-divisibility-incidence-green-hodge.md",
+      "sha256": "9922fdc5bcba48114fd5a0b7a0d04c0a916b51ad1138526e3d620c4668b3d8c5",
+      "line_count": 242,
+      "title": "# Divisibility incidence differential 与 Möbius Green--Hodge 结构",
+      "read_scope": {
+        "mode": "structured_whole_file_survey",
+        "statement": "已读取开头、全篇各节标题及主要命题陈述、结论/限制/下一输入和结尾审计；证明未全部逐行读取。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "finite divisibility incidence det=1但infinite symbol是L函数；Mertens positive能量subpower仍RH。"
+    },
+    {
+      "number": 81,
+      "path": "notes/081-mellin-division-nyman-beurling-hodge.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\081-mellin-division-nyman-beurling-hodge.md",
+      "sha256": "ee65f9ddfa025f313dcc42d019a83ddd494610e100696321ef840a37ce7a38ea",
+      "line_count": 279,
+      "title": "# Mellin division、Nyman--Beurling completion 与 finite Hodge distance",
+      "read_scope": {
+        "mode": "structured_whole_file_survey",
+        "statement": "已读取开头、全篇各节标题及主要命题陈述、结论/限制/下一输入和结尾审计；证明未全部逐行读取。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "Nyman–Beurling无条件Hilbert载体存在；dN趋零是RH，Möbius形式逆只处理前缀。"
+    },
+    {
+      "number": 82,
+      "path": "notes/082-beurling-log-toeplitz-feshbach.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\082-beurling-log-toeplitz-feshbach.md",
+      "sha256": "4cff1facd66b7cf10d7ae95a191c0bdb1527817539223228300c2536c0f95045",
+      "line_count": 248,
+      "title": "# Nyman--Beurling log-Toeplitz Gram、whitening 与 Feshbach 障碍",
+      "read_scope": {
+        "mode": "structured_whole_file_survey",
+        "statement": "已读取开头、全篇各节标题及主要命题陈述、结论/限制/下一输入和结尾审计；证明未全部逐行读取。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "log lattice碰撞无条件使Gram最小特征值趋零；目标定向Schur distance才正确。"
+    },
+    {
+      "number": 83,
+      "path": "notes/083-mobius-mollifier-almost-prime-hodge-filtration.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\083-mobius-mollifier-almost-prime-hodge-filtration.md",
+      "sha256": "1e92113a3316ddee98c617406fff491377cb0ed49b8d591a92a6996be9d9af7f",
+      "line_count": 250,
+      "title": "# Möbius log-mollifier、almost-prime filtration 与 sawtooth Hodge current",
+      "read_scope": {
+        "mode": "structured_whole_file_survey",
+        "statement": "已读取开头、全篇各节标题及主要命题陈述、结论/限制/下一输入和结尾审计；证明未全部逐行读取。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "polynomial Möbius卷积按almost-prime阶分层；低阶Mangoldt defect不控制full residual tail。"
+    },
+    {
+      "number": 84,
+      "path": "notes/084-linear-mollifier-chebyshev-boundary-hodge.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\084-linear-mollifier-chebyshev-boundary-hodge.md",
+      "sha256": "02d4cd903e52ef6c1e3273e6fa2f1a3bd6de3c61aaad64ae4844921f927b57a9",
+      "line_count": 254,
+      "title": "# 线性 Möbius mollifier、Chebyshev 方差与周期边界层",
+      "read_scope": {
+        "mode": "structured_whole_file_survey",
+        "statement": "已读取开头、全篇各节标题及主要命题陈述、结论/限制/下一输入和结尾审计；证明未全部逐行读取。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "linear mollifier三channel分解精确；bulk和periodic boundary仍需joint bound。"
+    },
+    {
+      "number": 85,
+      "path": "notes/085-farey-boundary-large-sieve-hodge.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\085-farey-boundary-large-sieve-hodge.md",
+      "sha256": "cd46b368459d63af4d4398e21a50350e986b90d0605fb4b69fb3a3b12e3ead1b",
+      "line_count": 352,
+      "title": "# Farey 边界谱、large-sieve 远尾与 mean-zero Hodge 修正",
+      "read_scope": {
+        "mode": "structured_whole_file_survey",
+        "statement": "已读取开头、全篇各节标题及主要命题陈述、结论/限制/下一输入和结尾审计；证明未全部逐行读取。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "Farey far尾N平方以上及low denominators无条件小；parabolic高denominator与mean剩余。"
+    },
+    {
+      "number": 86,
+      "path": "notes/086-mellin-jet-mean-zero-hodge-projection.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\086-mellin-jet-mean-zero-hodge-projection.md",
+      "sha256": "67401ef62ca4583cdc2db9391fd3c9813aa86df7420e54acc7b3022f92575b22",
+      "line_count": 295,
+      "title": "# Mellin zero jets 与最小能量 mean-zero Hodge 投影",
+      "read_scope": {
+        "mode": "structured_whole_file_survey",
+        "statement": "已读取开头、全篇各节标题及主要命题陈述、结论/限制/下一输入和结尾审计；证明未全部逐行读取。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "mean-zero jets与capacity projection保留zero residue；uniform actual capacity/forcing仍未证。"
+    },
+    {
+      "number": 87,
+      "path": "notes/087-constrained-nyman-capacity-feshbach.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\087-constrained-nyman-capacity-feshbach.md",
+      "sha256": "58c82caea72352740f362a96553c0990761819f939bd3a3011450823648e07c2",
+      "line_count": 272,
+      "title": "# Constrained Nyman Hodge capacity 与 jet-Feshbach 单调性",
+      "read_scope": {
+        "mode": "structured_whole_file_survey",
+        "statement": "已读取开头、全篇各节标题及主要命题陈述、结论/限制/下一输入和结尾审计；证明未全部逐行读取。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "endpoint-preserving Möbius trial方向的constrained minimum真实；只给充分子族，不宣称NB iff。"
+    },
+    {
+      "number": 88,
+      "path": "notes/088-local-parabolic-far-hodge-leakage.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\088-local-parabolic-far-hodge-leakage.md",
+      "sha256": "9f1e8f7c017b1631d75119073545766ebf5731e286a51289cd56f3fd940f3b38",
+      "line_count": 294,
+      "title": "# Local--parabolic--far Hodge 分块与唯一 leakage 证书",
+      "read_scope": {
+        "mode": "structured_whole_file_survey",
+        "statement": "已读取开头、全篇各节标题及主要命题陈述、结论/限制/下一输入和结尾审计；证明未全部逐行读取。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "spatial local/parabolic/far PSD分解精确；各块小须同一系数，孤立optimizer不够。"
+    },
+    {
+      "number": 89,
+      "path": "notes/089-parabolic-farey-determinant-collision.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\089-parabolic-farey-determinant-collision.md",
+      "sha256": "9f5bb0ae5f09700acb8203925499b10b7e32863934d0540bdec07a2a46c192ab",
+      "line_count": 285,
+      "title": "# Parabolic Farey determinant form 与跨 conductor 唯一障碍",
+      "read_scope": {
+        "mode": "structured_whole_file_survey",
+        "statement": "已读取开头、全篇各节标题及主要命题陈述、结论/限制/下一输入和结尾审计；证明未全部逐行读取。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "parabolic难项仅cross-conductor near determinant；同conductor及diagonal易项已控制。"
+    },
+    {
+      "number": 90,
+      "path": "notes/090-determinant-cotangent-type-I-II.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\090-determinant-cotangent-type-I-II.md",
+      "sha256": "62bad9883c20a69892c599a9856fd99e87dd43ebed00f75b53f2f33cc0ba88b7",
+      "line_count": 289,
+      "title": "# Farey determinant 的 cotangent 参数化与 Type-I/II 缩窗",
+      "read_scope": {
+        "mode": "structured_whole_file_survey",
+        "statement": "已读取开头、全篇各节标题及主要命题陈述、结论/限制/下一输入和结尾审计；证明未全部逐行读取。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "gcd/lcm cotangent压缩进一步缩小窗口；varying moduli带符号联合平均仍新算术输入。"
+    },
+    {
+      "number": 91,
+      "path": "notes/091-cotangent-reciprocity-shared-gcd-sieve.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\091-cotangent-reciprocity-shared-gcd-sieve.md",
+      "sha256": "aa7ddd182dfc1a47c7e986772772a4d930918dd0ea287cc76582f76797d2aeb4",
+      "line_count": 271,
+      "title": "# Cotangent reciprocity、shared-GCD 二残基筛与 additive modes",
+      "read_scope": {
+        "mode": "structured_whole_file_survey",
+        "statement": "已读取开头、全篇各节标题及主要命题陈述、结论/限制/下一输入和结尾审计；证明未全部逐行读取。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "reciprocity逐对相消大cotangents，principal密度已知；nonprincipal/additive部分未知。"
+    },
+    {
+      "number": 92,
+      "path": "notes/092-cotangent-dft-kloosterman-interface.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\092-cotangent-dft-kloosterman-interface.md",
+      "sha256": "14532a8f655c54afb47b7f17835007e130dcabbbbab79f64356c9c10aef834a3",
+      "line_count": 335,
+      "title": "# Cotangent DFT、Kloosterman-fraction 接口与黑箱适用性审计",
+      "read_scope": {
+        "mode": "structured_whole_file_survey",
+        "statement": "已读取开头、全篇各节标题及主要命题陈述、结论/限制/下一输入和结尾审计；证明未全部逐行读取。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "DFT给Kloosterman fraction接口；通用DFI/BC估计不能自动满足实际预算。"
+    },
+    {
+      "number": 93,
+      "path": "notes/093-short-determinant-average-mobius-amplitude.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\093-short-determinant-average-mobius-amplitude.md",
+      "sha256": "e85e7dfbafa47562e52fdc8137cf2a9c020e75835a9a9c82c7c72dc92e87ba18",
+      "line_count": 260,
+      "title": "# 短 determinant 逆元平均与 Möbius conductor 的一致界",
+      "read_scope": {
+        "mode": "structured_whole_file_survey",
+        "statement": "已读取开头、全篇各节标题及主要命题陈述、结论/限制/下一输入和结尾审计；证明未全部逐行读取。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "fixed small determinant平均和local factor移除可用；增长determinant范围尚缺。"
+    },
+    {
+      "number": 94,
+      "path": "notes/094-endpoint-polynomial-riesz-stability.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\094-endpoint-polynomial-riesz-stability.md",
+      "sha256": "1931cf03fab627ca21678b3dce54341527672fda9349f894b38ff7b8b098d0d1",
+      "line_count": 207,
+      "title": "# Endpoint-polynomial Riesz 稳定性与 mean-zero 修正阈值",
+      "read_scope": {
+        "mode": "structured_whole_file_survey",
+        "statement": "已读取开头、全篇各节标题及主要命题陈述、结论/限制/下一输入和结尾审计；证明未全部逐行读取。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "高Riesz阶常数随阶增长，polynomial weighted norm不能隐藏；uniform rank仍问题。"
+    },
+    {
+      "number": 95,
+      "path": "notes/095-response-aligned-riesz-leverage.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\095-response-aligned-riesz-leverage.md",
+      "sha256": "e9627645e26089208520c792e427c95eaee5515399f2cacec8f7b415af8a8eef",
+      "line_count": 240,
+      "title": "# Response-aligned Riesz leverage 与 capacity-only no-go",
+      "read_scope": {
+        "mode": "structured_whole_file_survey",
+        "statement": "已读取开头、全篇各节标题及主要命题陈述、结论/限制/下一输入和结尾审计；证明未全部逐行读取。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "capacity或能量界不控制Riesz leverage；需要W逆D的实际方向坐标。"
+    },
+    {
+      "number": 96,
+      "path": "notes/096-localized-leverage-shortening.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\096-localized-leverage-shortening.md",
+      "sha256": "4daece623268f4fe6f3f9841d8f55bd0f67c7b882d5541dd7a8fdbb615ae137a",
+      "line_count": 249,
+      "title": "# Localized leverage、response-anchor 不变性与 Loewner shortening",
+      "read_scope": {
+        "mode": "structured_whole_file_survey",
+        "statement": "已读取开头、全篇各节标题及主要命题陈述、结论/限制/下一输入和结尾审计；证明未全部逐行读取。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "anchor响应rank一更新不改变normalized representative；需transversal定向控制。"
+    },
+    {
+      "number": 97,
+      "path": "notes/097-exact-parabolic-spatial-gram.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\097-exact-parabolic-spatial-gram.md",
+      "sha256": "20780798b12944e5abd537954b2d07c41ca7438c17eb35e05c2e173a5a8dad52",
+      "line_count": 205,
+      "title": "# Exact parabolic spatial Gram 与 far-completed leverage certificate",
+      "read_scope": {
+        "mode": "structured_whole_file_survey",
+        "statement": "已读取开头、全篇各节标题及主要命题陈述、结论/限制/下一输入和结尾审计；证明未全部逐行读取。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "exact spatial Gram及无限far certificate完成；小far项不能治坏spatial leverage。"
+    },
+    {
+      "number": 98,
+      "path": "notes/098-shell-endpoint-coercivity.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\098-shell-endpoint-coercivity.md",
+      "sha256": "cdfdabee5397d33fe98dd452f3e2b4ee6909051fc7132cf74dd5b78074be3428",
+      "line_count": 228,
+      "title": "# Shell endpoint coercivity 与 response generalized spectral measure",
+      "read_scope": {
+        "mode": "structured_whole_file_survey",
+        "statement": "已读取开头、全篇各节标题及主要命题陈述、结论/限制/下一输入和结尾审计；证明未全部逐行读取。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "endpoint shell coercivity与shell rotation真实；forcing spectral moments彼此不同。"
+    },
+    {
+      "number": 99,
+      "path": "notes/099-two-sided-periodic-hodge-sandwich.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\099-two-sided-periodic-hodge-sandwich.md",
+      "sha256": "f210a01905573ca1a291d14cc91345161c7b4da2f0733907208eeabe866010d9",
+      "line_count": 225,
+      "title": "# 双边 periodic Hodge sandwich 与显式 infinite leverage 证书",
+      "read_scope": {
+        "mode": "structured_whole_file_survey",
+        "statement": "已读取开头、全篇各节标题及主要命题陈述、结论/限制/下一输入和结尾审计；证明未全部逐行读取。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "periodic far annulus Loewner双边界完成；是有限比较工具而非实际渐近界。"
+    },
+    {
+      "number": 100,
+      "path": "notes/100-polarization-misalignment-feshbach.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\100-polarization-misalignment-feshbach.md",
+      "sha256": "017c59ec664cd8ef57098c11c2daa78a7ae97f7309ea96121cad1be495a50d8b",
+      "line_count": 209,
+      "title": "# Hodge--endpoint polarization misalignment 与 response-zero Feshbach current",
+      "read_scope": {
+        "mode": "structured_whole_file_survey",
+        "statement": "已读取开头、全篇各节标题及主要命题陈述、结论/限制/下一输入和结尾审计；证明未全部逐行读取。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "two-metric canonical response差位于response kernel，Pythagorean/Feshbach精确；目标定向比全metric弱。"
+    },
+    {
+      "number": 101,
+      "path": "notes/101-null-spectrum-transversal-hodge-completion.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\101-null-spectrum-transversal-hodge-completion.md",
+      "sha256": "a8c1eb6ab9bd17ef2fcb92dafd70cd6a4681b17a098d5a37f515f7d11c9c830b",
+      "line_count": 225,
+      "title": "# Response-zero 广义谱与 transversal Hodge completion",
+      "read_scope": {
+        "mode": "structured_whole_file_survey",
+        "statement": "已读取开头、全篇各节标题及主要命题陈述、结论/限制/下一输入和结尾审计；证明未全部逐行读取。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "canonical transversal completion可抬null spectrum而保forcing；不能把人工补全冒充实际算术。"
+    },
+    {
+      "number": 102,
+      "path": "notes/102-schur-shorted-actual-transversal-block.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\102-schur-shorted-actual-transversal-block.md",
+      "sha256": "73610aad9962824c012e4a884dd3eaeadecc6b7edb996795348321f8f5a45723",
+      "line_count": 277,
+      "title": "# Actual metric 的 Schur-short transversal Hodge block",
+      "read_scope": {
+        "mode": "structured_whole_file_survey",
+        "statement": "已读取开头、全篇各节标题及主要命题陈述、结论/限制/下一输入和结尾审计；证明未全部逐行读取。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "max shorted actual block存在且可superadditive组合；大小或forcing二矩尚无统一界。"
+    },
+    {
+      "number": 103,
+      "path": "notes/103-cell-wedge-frame-determinant-certificate.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\103-cell-wedge-frame-determinant-certificate.md",
+      "sha256": "25bebccd52ae34c1cb46eb8016a022cf5a3aa39118e6d78f82948cd0f98361d1",
+      "line_count": 246,
+      "title": "# Cell wedge frame、Cauchy--Binet minors 与 shorted coercivity",
+      "read_scope": {
+        "mode": "structured_whole_file_survey",
+        "statement": "已读取开头、全篇各节标题及主要命题陈述、结论/限制/下一输入和结尾审计；证明未全部逐行读取。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "cell Plücker wedge给两点collective平方frame；toy高捕获率没有统一normalized minor迹界。"
+    },
+    {
+      "number": 104,
+      "path": "notes/104-incidence-vandermonde-polylog-coercivity.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\104-incidence-vandermonde-polylog-coercivity.md",
+      "sha256": "25d32edf9ba9ea30b710514802f6ff17b52370aeb05ff81de69d4414332149d3",
+      "line_count": 259,
+      "title": "# Incidence--Vandermonde recovery 与无条件 polylog Hodge coercivity",
+      "read_scope": {
+        "mode": "structured_whole_file_survey",
+        "statement": "已读取开头、全篇各节标题及主要命题陈述、结论/限制/下一输入和结尾审计；证明未全部逐行读取。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "fixed squarefree incidence/Vandermonde仅给log负2R coercivity；可用但不足以证明purity。"
+    },
+    {
+      "number": 105,
+      "path": "notes/105-sparse-recovery-ceiling-collective-frame.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\105-sparse-recovery-ceiling-collective-frame.md",
+      "sha256": "205bb0d8677647bfacd086f40ef2d0192386aa28f28f392b3e97f8fdc817dbd1",
+      "line_count": 192,
+      "title": "# Sparse incidence recovery 的最优指数与 collective-frame 必要性",
+      "read_scope": {
+        "mode": "full_text_deep_read",
+        "statement": "全部非空文本已读取，主要论证与限制精读；不宣称独立形式验证。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "bounded-cardinality sparse recovery存在log负2R天花板；不限制全部collective cells。"
+    },
+    {
+      "number": 106,
+      "path": "notes/106-capacity-susceptibility-determinant-probe.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\106-capacity-susceptibility-determinant-probe.md",
+      "sha256": "5e55b72e48e88f995abd5e56b9aedb633c0bc26edad6e3c0a8c5cfb98f718d0e",
+      "line_count": 248,
+      "title": "# Capacity susceptibility、determinant probes 与中心线结构",
+      "read_scope": {
+        "mode": "structured_whole_file_survey",
+        "statement": "已读取开头、全篇各节标题及主要命题陈述、结论/限制/下一输入和结尾审计；证明未全部逐行读取。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "capacity路径导数等于forcing susceptibility，可三probe认证；没有新增uniform rate。"
+    },
+    {
+      "number": 107,
+      "path": "notes/107-unit-cell-projection-susceptibility-stability.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\107-unit-cell-projection-susceptibility-stability.md",
+      "sha256": "08fbac7c6c7edde5c0dd63f858d93e165870efc26fccd18ba9c74aa147006170",
+      "line_count": 246,
+      "title": "# Unit-cell projection、Poincaré error 与 susceptibility stability",
+      "read_scope": {
+        "mode": "structured_whole_file_survey",
+        "statement": "已读取开头、全篇各节标题及主要命题陈述、结论/限制/下一输入和结尾审计；证明未全部逐行读取。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "unit-cell Loewner/Poincaré transfer稳定；joint arithmetic渐近仍缺。"
+    },
+    {
+      "number": 108,
+      "path": "notes/108-directional-cell-error-feshbach-current.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\108-directional-cell-error-feshbach-current.md",
+      "sha256": "0b475dea6f116891635ae4f86f16fa5c8f8b8b86bba4b5394a58ca2cda9f9ca0",
+      "line_count": 238,
+      "title": "# Directional cell-error Feshbach current 与 sharpened discrete criterion",
+      "read_scope": {
+        "mode": "structured_whole_file_survey",
+        "statement": "已读取开头、全篇各节标题及主要命题陈述、结论/限制/下一输入和结尾审计；证明未全部逐行读取。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "directional Feshbach把误差压到forcing Green energy；比全算子误差精准但该量仍未估计。"
+    },
+    {
+      "number": 109,
+      "path": "notes/109-balanced-schur-cell-energy-criterion.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\109-balanced-schur-cell-energy-criterion.md",
+      "sha256": "ecd780eed856843877d9545df72990fbdf0d78e6ca172f8883edc05d024d9e4d",
+      "line_count": 259,
+      "title": "# Balanced Schur cell-energy criterion",
+      "read_scope": {
+        "mode": "structured_whole_file_survey",
+        "statement": "已读取开头、全篇各节标题及主要命题陈述、结论/限制/下一输入和结尾审计；证明未全部逐行读取。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "balanced positive blocks使误差二阶；仍需susceptibility、q与coercivity联合渐近。"
+    },
+    {
+      "number": 110,
+      "path": "notes/110-capacity-relaxation-determinant-transfer.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\110-capacity-relaxation-determinant-transfer.md",
+      "sha256": "d9717ef135f55a844ff64cc049b7464e9e2c7dcd71070504448d8455caf41329",
+      "line_count": 242,
+      "title": "# Capacity-relaxation determinant transfer",
+      "read_scope": {
+        "mode": "structured_whole_file_survey",
+        "statement": "已读取开头、全篇各节标题及主要命题陈述、结论/限制/下一输入和结尾审计；证明未全部逐行读取。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "exact capacity relaxation与Green误差等价；给精确测量接口而非算术省量。"
+    },
+    {
+      "number": 111,
+      "path": "notes/111-uniform-unit-cell-tail-reduction.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\111-uniform-unit-cell-tail-reduction.md",
+      "sha256": "72a437102189ba373538538e888faa59feb9d327e6c7cab57af52edb44327b37",
+      "line_count": 239,
+      "title": "# Uniform unit-cell tail reduction",
+      "read_scope": {
+        "mode": "structured_whole_file_survey",
+        "statement": "已读取开头、全篇各节标题及主要命题陈述、结论/限制/下一输入和结尾审计；证明未全部逐行读取。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "unit-cell variance far tail相对actual Gram统一O(1/M)；无限tail不再独立障碍，finite head仍待估。"
+    },
+    {
+      "number": 112,
+      "path": "notes/112-variational-spectral-equivalence.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\112-variational-spectral-equivalence.md",
+      "sha256": "3a6445d70593b546e3e0365b7a34aee77ee3a93ab7a2fed70fb5564f867c007d",
+      "line_count": 193,
+      "title": "# Variational spectral equivalence of Hodge data",
+      "read_scope": {
+        "mode": "structured_whole_file_survey",
+        "statement": "已读取开头、全篇各节标题及主要命题陈述、结论/限制/下一输入和结尾审计；证明未全部逐行读取。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "relative Loewner可迁移capacity/null/shorted spectrum且不怕ill conditioning；无自动目标速率。"
+    },
+    {
+      "number": 113,
+      "path": "notes/113-positive-rank-update-charge-kernel.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\113-positive-rank-update-charge-kernel.md",
+      "sha256": "9d34925d8990bcff452af468573027e3cf3a777212e239cbd09c5af5d8260d1c",
+      "line_count": 172,
+      "title": "# Positive rank-update charge-kernel compression",
+      "read_scope": {
+        "mode": "structured_whole_file_survey",
+        "statement": "已读取开头、全篇各节标题及主要命题陈述、结论/限制/下一输入和结尾审计；证明未全部逐行读取。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "Woodbury charge kernel使rank update有限可认证；精度工具不是新算术界。"
+    },
+    {
+      "number": 114,
+      "path": "notes/114-diagonal-charge-energy-susceptibility.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\114-diagonal-charge-energy-susceptibility.md",
+      "sha256": "256781e4f0e1ea52900563e14c0ec9f0bfc6eb05220234efdf433671df0af80b",
+      "line_count": 189,
+      "title": "# Diagonal charge-energy susceptibility",
+      "read_scope": {
+        "mode": "structured_whole_file_survey",
+        "statement": "已读取开头、全篇各节标题及主要命题陈述、结论/限制/下一输入和结尾审计；证明未全部逐行读取。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "positive charge energy避免逆kernel损失并夹住capacity loss；actual charge仍待界。"
+    },
+    {
+      "number": 115,
+      "path": "notes/115-response-selective-bessel-criterion.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\115-response-selective-bessel-criterion.md",
+      "sha256": "716148ef719046f2ed3e322d8ed34524bf127465a1cbbe5d85d34683a98f7a34",
+      "line_count": 180,
+      "title": "# Response-selective Bessel criterion",
+      "read_scope": {
+        "mode": "structured_whole_file_survey",
+        "statement": "已读取开头、全篇各节标题及主要命题陈述、结论/限制/下一输入和结尾审计；证明未全部逐行读取。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "response-selective Bessel比worst epsilon贴近目标；数值beta小不提供uniform arithmetic。"
+    },
+    {
+      "number": 116,
+      "path": "notes/116-response-spectral-measure-capacity.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\116-response-spectral-measure-capacity.md",
+      "sha256": "63d6c455e031296a379443b00eea256fc24b83bb6f4bc328cfabde972648dea6",
+      "line_count": 177,
+      "title": "# Response spectral measure and amplitude capacities",
+      "read_scope": {
+        "mode": "structured_whole_file_survey",
+        "statement": "已读取开头、全篇各节标题及主要命题陈述、结论/限制/下一输入和结尾审计；证明未全部逐行读取。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "canonical positive response spectral measure与Stieltjes capacity真实；其质量需估计。"
+    },
+    {
+      "number": 117,
+      "path": "notes/117-two-amplitude-pade-response-bound.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\117-two-amplitude-pade-response-bound.md",
+      "sha256": "8a41ab9f4b6613a73bb547e8315051536aa40f3f68888f44f37b4715115f6517",
+      "line_count": 163,
+      "title": "# Two-amplitude Padé bounds for response mass",
+      "read_scope": {
+        "mode": "structured_whole_file_survey",
+        "statement": "已读取开头、全篇各节标题及主要命题陈述、结论/限制/下一输入和结尾审计；证明未全部逐行读取。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "two-amplitude Padé给二阶有限界；改进的是认证误差不是RH输入。"
+    },
+    {
+      "number": 118,
+      "path": "notes/118-multi-amplitude-arbitrary-order-response.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\118-multi-amplitude-arbitrary-order-response.md",
+      "sha256": "b5635cac9ee6407d0b1703fe54b67af843758baba3e3a71bc472a3cb9b08e8dc",
+      "line_count": 171,
+      "title": "# Multi-amplitude arbitrary-order response bounds",
+      "read_scope": {
+        "mode": "structured_whole_file_survey",
+        "statement": "已读取开头、全篇各节标题及主要命题陈述、结论/限制/下一输入和结尾审计；证明未全部逐行读取。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "multi-amplitude resolvent可任意阶认证；精确有限行列式仍不能供给渐近rate。"
+    },
+    {
+      "number": 119,
+      "path": "notes/119-positive-only-transversal-susceptibility.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\119-positive-only-transversal-susceptibility.md",
+      "sha256": "626b9708a89e994aed36914a164537bd77f61072dcaf8bd10da4635d39a3b8f6",
+      "line_count": 169,
+      "title": "# Positive-only transversal susceptibility certification",
+      "read_scope": {
+        "mode": "structured_whole_file_survey",
+        "statement": "已读取开头、全篇各节标题及主要命题陈述、结论/限制/下一输入和结尾审计；证明未全部逐行读取。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "positive-only susceptibility闭合Padé误差；精确认证过大上界仍不能过RH阈值。"
+    },
+    {
+      "number": 120,
+      "path": "notes/120-polyhedral-riesz-determinant-certificate.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\120-polyhedral-riesz-determinant-certificate.md",
+      "sha256": "164bbeeabf15c45511bd43e372201d61182cbf475af0d37430f0ebc08e043305",
+      "line_count": 151,
+      "title": "# Polyhedral Riesz determinant certificate",
+      "read_scope": {
+        "mode": "structured_whole_file_survey",
+        "statement": "已读取开头、全篇各节标题及主要命题陈述、结论/限制/下一输入和结尾审计；证明未全部逐行读取。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "signcube weighted l1两rank-one determinants exact；toy仍大于阈值，需canonical response相消。"
+    },
+    {
+      "number": 121,
+      "path": "notes/121-mertens-abel-canonical-regression.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\121-mertens-abel-canonical-regression.md",
+      "sha256": "c4193d691edf6cc41e1bc6fa872af15adf6412de253d05b41328358efbe5098f",
+      "line_count": 197,
+      "title": "# Mertens--Abel canonical regression current",
+      "read_scope": {
+        "mode": "full_text_deep_read",
+        "statement": "全部非空文本已读取，主要论证与限制精读；不宣称独立形式验证。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "Mertens–Abel prefix regression给signed period真实结构；growing determinant/nonprincipal算术仍缺。"
+    },
+    {
+      "number": 122,
+      "path": "notes/122-sparse-dual-cycle-harmonic-period.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\122-sparse-dual-cycle-harmonic-period.md",
+      "sha256": "8b92446a8d5134e27fa79973911002a2340caf8cb9828923470b56635d52ba85",
+      "line_count": 202,
+      "title": "# Sparse dual cycles 与 canonical harmonic periods",
+      "read_scope": {
+        "mode": "full_text_deep_read",
+        "statement": "全部非空文本已读取，主要论证与限制精读；不宣称独立形式验证。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "dual cycle可由有限prefix观测独立构造；period守恒不自动bound，growing rank条件数仍问题。"
+    },
+    {
+      "number": 123,
+      "path": "notes/123-squarefree-interpolation-period-no-go.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\123-squarefree-interpolation-period-no-go.md",
+      "sha256": "2f716a7358dc45f4f29099f645b4eabd2493aeef3813879ca0b566871df5df0c",
+      "line_count": 218,
+      "title": "# Squarefree interpolation periods 与 positivity-only no-go",
+      "read_scope": {
+        "mode": "full_text_deep_read",
+        "statement": "全部非空文本已读取，主要论证与限制精读；不宣称独立形式验证。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "capacity固定和positive/total-positive结构仍允许period任意大；只是抽象公理反例非实际Möbius否定。"
+    },
+    {
+      "number": 124,
+      "path": "notes/124-alternating-external-period-defect.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\124-alternating-external-period-defect.md",
+      "sha256": "76d8c4c9f93cc5788389a2d71c444d63b538fce177310fe3306462963f40dddf",
+      "line_count": 195,
+      "title": "# Alternating endpoint coefficients 与 external-period defect",
+      "read_scope": {
+        "mode": "full_text_deep_read",
+        "statement": "全部非空文本已读取，主要论证与限制精读；不宣称独立形式验证。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "external phase等于−F导数(2)，L1分解为signed period加alternation defect；toy反例排除必然实根/交错。"
+    },
+    {
+      "number": 125,
+      "path": "notes/125-external-period-positive-capacity-loss.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\125-external-period-positive-capacity-loss.md",
+      "sha256": "6f1e9d4f1e1260e06092632d9e312ec4e6f1f293abe8aee9f2f76717c833abbb",
+      "line_count": 190,
+      "title": "# External period 的 positive capacity-loss certificate",
+      "read_scope": {
+        "mode": "full_text_deep_read",
+        "statement": "全部非空文本已读取，主要论证与限制精读；不宣称独立形式验证。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "external period平方等于positive capacity loss；换成正账目仍需相同leverage阈值。"
+    },
+    {
+      "number": 126,
+      "path": "notes/126-block-weight-purity-overlap.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\126-block-weight-purity-overlap.md",
+      "sha256": "4e08ed9fcf5917ed0e7f1f1b9b41c8270d8ba7916ceac98375509fd261c60709",
+      "line_count": 216,
+      "title": "# Block weight-purity overlap 与 classical cancellation audit",
+      "read_scope": {
+        "mode": "full_text_deep_read",
+        "statement": "全部非空文本已读取，主要论证与限制精读；不宣称独立形式验证。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "Hellinger/角度/相位损失分层精确；spatial dyadic blocks重叠大，不构成真正weight separation。"
+    },
+    {
+      "number": 127,
+      "path": "notes/127-conductor-purity-completion-gap.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\127-conductor-purity-completion-gap.md",
+      "sha256": "3fa47428ff545212050d95784d1bc65647b8deeefc15278bf3caa67ad0f3c933",
+      "line_count": 212,
+      "title": "# Conductor purity 与 periodic-completion amplitude gap",
+      "read_scope": {
+        "mode": "full_text_deep_read",
+        "statement": "全部非空文本已读取，主要论证与限制精读；不宣称独立形式验证。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "periodic conductor blocks较纯但natural far completion幅度N负2太弱；仅是此dominance certificate的gap。"
+    },
+    {
+      "number": 128,
+      "path": "notes/128-acyclic-completion-no-free-purity.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\128-acyclic-completion-no-free-purity.md",
+      "sha256": "2f48940a97ab68b207452656ae9a3cbf1cfd8f3fccf1206b045eacfcc460281d",
+      "line_count": 168,
+      "title": "# Acyclic completion 的 no-free-purity theorem",
+      "read_scope": {
+        "mode": "full_text_deep_read",
+        "statement": "全部非空文本已读取，主要论证与限制精读；不宣称独立形式验证。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "完全acyclic paired completion保持det及全部variation，收益被ghost精确抵消；不能免费purity。"
+    },
+    {
+      "number": 129,
+      "path": "notes/129-primitive-residual-rigidity.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\129-primitive-residual-rigidity.md",
+      "sha256": "f87e75a2038d6f90b8100c484f5ce9b3f91b3bb5e97f9e6129fa234fc66c4dbe",
+      "line_count": 183,
+      "title": "# Primitive residual determinant 与 finite positive rigidity",
+      "read_scope": {
+        "mode": "full_text_deep_read",
+        "statement": "全部非空文本已读取，主要论证与限制精读；不宣称独立形式验证。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "finite positive未配对primitive必留下非平凡Schur determinant；same-zeta中须解释既有因子/边界机制。"
+    },
+    {
+      "number": 130,
+      "path": "notes/130-regularized-residual-anomaly-accounting.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\130-regularized-residual-anomaly-accounting.md",
+      "sha256": "f0b94f06b31fa1cde8386b398637befe62af9541c0fc6dabf393606b4d51d7b0",
+      "line_count": 183,
+      "title": "# Higher regularized residuals 与 anomaly accounting",
+      "read_scope": {
+        "mode": "structured_whole_file_survey",
+        "statement": "已读取开头、全篇各节标题及主要命题陈述、结论/限制/下一输入和结尾审计；证明未全部逐行读取。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "canonical det_m仍配对抵消与positive residual刚性；critical det3缺低阶global traces，regularization不是自动逃逸。"
+    },
+    {
+      "number": 131,
+      "path": "notes/131-positive-real-boundary-impedance-weil.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\131-positive-real-boundary-impedance-weil.md",
+      "sha256": "9fb451a8a4e10243f095be691993fa95ffa276420a7ebc4a72e62751cda850a9",
+      "line_count": 321,
+      "title": "# Positive-real 边界阻抗与 determinant-line anomaly",
+      "read_scope": {
+        "mode": "structured_whole_file_survey",
+        "statement": "已读取开头、全篇各节标题及主要命题陈述、结论/限制/下一输入和结尾审计；证明未全部逐行读取。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "positive-real/Pick/resolvent等价中心线，anomaly connection承完整divisor；actual normality仍RH输入。"
+    },
+    {
+      "number": 132,
+      "path": "notes/132-shifted-passivity-abel-resonance.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\132-shifted-passivity-abel-resonance.md",
+      "sha256": "67c67aa15abc5450d8aadcea45d7ffd1c05d1389a327391ffe5fdffaea59941f",
+      "line_count": 296,
+      "title": "# Shifted passivity、Abel completion 与 resonance defect",
+      "read_scope": {
+        "mode": "structured_whole_file_survey",
+        "statement": "已读取开头、全篇各节标题及主要命题陈述、结论/限制/下一输入和结尾审计；证明未全部逐行读取。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "shift1/2有无条件passivity，shift0是RH；Abel低点稳定但移动负井排除global scalar1/Y补偿。"
+    },
+    {
+      "number": 133,
+      "path": "notes/133-abel-resonance-density-hodge-core.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\133-abel-resonance-density-hodge-core.md",
+      "sha256": "5e47cda8a90407c4b5e83dc8ff02ffc8e7d454980f1b118919262e90f5344208",
+      "line_count": 278,
+      "title": "# Abel resonance density 与 weighted-prolate Hodge core",
+      "read_scope": {
+        "mode": "structured_whole_file_survey",
+        "statement": "已读取开头、全篇各节标题及主要命题陈述、结论/限制/下一输入和结尾审计；证明未全部逐行读取。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "固定delta高频负井密度/质量和weighted-prolate余空间可无条件控制；total core/coupling未闭。"
+    },
+    {
+      "number": 134,
+      "path": "notes/134-renormalized-passivity-hodge-index.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\134-renormalized-passivity-hodge-index.md",
+      "sha256": "ef6ab8a4aa0976ca10b725195a1637c2cfa15d08311766065dea147dc8ae4b5d",
+      "line_count": 233,
+      "title": "# `delta->0` renormalization 与 passive Hodge index",
+      "read_scope": {
+        "mode": "structured_whole_file_survey",
+        "statement": "已读取开头、全篇各节标题及主要命题陈述、结论/限制/下一输入和结尾审计；证明未全部逐行读取。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "delta负3正规化可使relative负惯性趋零；density-zero仍可载全部异常divisor，不能证明purity。"
+    },
+    {
+      "number": 135,
+      "path": "notes/135-cyclic-invisibility-high-resonance-core.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\135-cyclic-invisibility-high-resonance-core.md",
+      "sha256": "4720d2933e8c529f73e2c410049fc1aa215427594e41219da0e68e185cff1f77",
+      "line_count": 238,
+      "title": "# Arithmetic cyclic invisibility of high resonance cores",
+      "read_scope": {
+        "mode": "structured_whole_file_survey",
+        "statement": "已读取开头、全篇各节标题及主要命题陈述、结论/限制/下一输入和结尾审计；证明未全部逐行读取。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "fixed resolvent cyclic vectors对超高频core不可见；低中频growing cyclic Gram仍需算术估计。"
+    },
+    {
+      "number": 136,
+      "path": "notes/136-cauchy-weighted-passive-defect.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\136-cauchy-weighted-passive-defect.md",
+      "sha256": "d95aab9eef5e53d11862cb4114c028683f00889fa08ff85aef1bde2d3a07fd7f",
+      "line_count": 299,
+      "title": "# Cauchy-weighted passive defect 与 resolvent-core 消失",
+      "read_scope": {
+        "mode": "structured_whole_file_survey",
+        "statement": "已读取开头、全篇各节标题及主要命题陈述、结论/限制/下一输入和结尾审计；证明未全部逐行读取。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "Cauchy加权negative mass支配全部core Gram，Poisson桥完成；低中频J趋零仍RH强度。"
+    },
+    {
+      "number": 137,
+      "path": "notes/137-cayley-inner-toeplitz-polarization.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\137-cayley-inner-toeplitz-polarization.md",
+      "sha256": "9136807d1b6f470a42db739c3ae62a913454678752b25b1dbbf7b6a17d9e4cde",
+      "line_count": 296,
+      "title": "# Cayley inner-semigroup 与 Cauchy–Toeplitz 极化",
+      "read_scope": {
+        "mode": "structured_whole_file_survey",
+        "statement": "已读取开头、全篇各节标题及主要命题陈述、结论/限制/下一输入和结尾审计；证明未全部逐行读取。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "variance趋零与非恒定passive limit失配；outer Toeplitz单边负能量才匹配，inner乘法载体真实。"
+    },
+    {
+      "number": 138,
+      "path": "notes/138-inner-correlation-arithmetic-hodge-functional.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\138-inner-correlation-arithmetic-hodge-functional.md",
+      "sha256": "6c1bb387a4444d0b415cdd789cbc0da400ce46b76d7329225ff6cbfb6b378996",
+      "line_count": 215,
+      "title": "# Inner-shift correlation cone 与显式 arithmetic Hodge functional",
+      "read_scope": {
+        "mode": "structured_whole_file_survey",
+        "statement": "已读取开头、全篇各节标题及主要命题陈述、结论/限制/下一输入和结尾审计；证明未全部逐行读取。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "prime/continuum/Gamma统一orbit-correlation functional；只保PD或点态界丢outer spectral cap。"
+    },
+    {
+      "number": 139,
+      "path": "notes/139-capped-bochner-correlation-cone.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\139-capped-bochner-correlation-cone.md",
+      "sha256": "c93023ecf345f59b0c82bd4e401e13473ef85ab36a6340bd5ac8d53ba9544568",
+      "line_count": 215,
+      "title": "# Cauchy-capped Bochner cone 与双正 Gram 证书",
+      "read_scope": {
+        "mode": "structured_whole_file_survey",
+        "statement": "已读取开头、全篇各节标题及主要命题陈述、结论/限制/下一输入和结尾审计；证明未全部逐行读取。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "dominated Bochner双正Gram精确表征outer闭包；uncapped character collapse仅否定放宽策略。"
+    },
+    {
+      "number": 140,
+      "path": "notes/140-closed-form-capped-loewner-sdp.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\140-closed-form-capped-loewner-sdp.md",
+      "sha256": "d631110886650b8d327c278725944b1e5de9c1a22d036eeba33fed98e59c18ab",
+      "line_count": 171,
+      "title": "# Capped Loewner SDP 的闭式谱解",
+      "read_scope": {
+        "mode": "structured_whole_file_survey",
+        "statement": "已读取开头、全篇各节标题及主要命题陈述、结论/限制/下一输入和结尾审计；证明未全部逐行读取。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "Loewner interval minimum等于负谱迹闭式；arbitrary matrices不是stationary全cone，失败只可能relaxation gap。"
+    },
+    {
+      "number": 141,
+      "path": "notes/141-capped-hodge-quadrature-error.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\141-capped-hodge-quadrature-error.md",
+      "sha256": "94fdda696458e8e47d59deb87e4e72aba4f357e9116b8b13e80792d4839e297a",
+      "line_count": 219,
+      "title": "# Capped Hodge functional 的统一误差 quadrature",
+      "read_scope": {
+        "mode": "structured_whole_file_survey",
+        "statement": "已读取开头、全篇各节标题及主要命题陈述、结论/限制/下一输入和结尾审计；证明未全部逐行读取。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "统一cap modulus与joint Gamma quadrature ledger成立；浮点audit及粗mesh不能当证书。"
+    },
+    {
+      "number": 142,
+      "path": "notes/142-shared-lag-stationary-cap.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\142-shared-lag-stationary-cap.md",
+      "sha256": "e83abdb5290708c6ee30535a5f263397c89cbf069669eb2acc78badfddec37d3",
+      "line_count": 245,
+      "title": "# Shared lag mesh 与 exact stationary capped minimum",
+      "read_scope": {
+        "mode": "structured_whole_file_survey",
+        "statement": "已读取开头、全篇各节标题及主要命题陈述、结论/限制/下一输入和结尾审计；证明未全部逐行读取。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "shared-lag相消及stationary minimum还原一维negative part；非stationary relaxed witness已被筛掉。"
+    },
+    {
+      "number": 143,
+      "path": "notes/143-cofinal-stationary-discretization.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\143-cofinal-stationary-discretization.md",
+      "sha256": "9bea2e5f2e9d08ebf13aa5d3c99ebb348bc46250c0ec02a7ddfb1bda6a496f59",
+      "line_count": 182,
+      "title": "# Cofinal stationary discretization 与完全有限充分判据",
+      "read_scope": {
+        "mode": "structured_whole_file_survey",
+        "statement": "已读取开头、全篇各节标题及主要命题陈述、结论/限制/下一输入和结尾审计；证明未全部逐行读取。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "显式cofinal mesh/prime/height误差无条件趋零；finite负质量仍完整RH级输入，无需继续brute-force。"
+    },
+    {
+      "number": 144,
+      "path": "notes/144-abel-zero-wave-obstruction.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\144-abel-zero-wave-obstruction.md",
+      "sha256": "0ae5b6edab4ec7774dc59fbce84eb684386f0c517d22ffbb72eb185fa236549f",
+      "line_count": 401,
+      "title": "# Abel zero-wave 的显式负井与可数右最包障碍",
+      "read_scope": {
+        "mode": "structured_whole_file_survey",
+        "statement": "已读取开头、全篇各节标题及主要命题陈述、结论/限制/下一输入和结尾审计；证明未全部逐行读取。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "单波/同最右线可数packet不能永久相消；显式发散率需rightmost及remainder假设，不构成RH证明。"
+    },
+    {
+      "number": 145,
+      "path": "notes/145-bounded-defect-normality.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\145-bounded-defect-normality.md",
+      "sha256": "7e61095515fb1ab0c94adaa15df86f01f848bcb3f6d78ec0ffa81276fb359c1a",
+      "line_count": 209,
+      "title": "# Bounded Cauchy defect 已足够：normality 与有限深度判据",
+      "read_scope": {
+        "mode": "structured_whole_file_survey",
+        "statement": "已读取开头、全篇各节标题及主要命题陈述、结论/限制/下一输入和结尾审计；证明未全部逐行读取。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "bounded negative Cauchy depth即给normality/中心线，较o(1)弱但仍RH强度；离线则共尾发散。"
+    },
+    {
+      "number": 146,
+      "path": "notes/146-cauchy-quadratic-hodge-energy.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\146-cauchy-quadratic-hodge-energy.md",
+      "sha256": "3b329b4a9120d03c31a1581772b3b38f12c1856bc9b14f269b96075903881537",
+      "line_count": 216,
+      "title": "# Cauchy 二次 Hodge 能量与 height-free 有限判据",
+      "read_scope": {
+        "mode": "structured_whole_file_survey",
+        "statement": "已读取开头、全篇各节标题及主要命题陈述、结论/限制/下一输入和结尾审计；证明未全部逐行读取。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "exact Cauchy二次Gram与快速evaluation有用；full energy O(1)是正确广义充分条件但被147淘汰为ζ目标。"
+    },
+    {
+      "number": 147,
+      "path": "notes/147-ratio-tail-square-quadratic-no-go.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\147-ratio-tail-square-quadratic-no-go.md",
+      "sha256": "d7ed47357627f126d78141879ba6c305ea321831a4f9c29e7deccdb99c69253e",
+      "line_count": 235,
+      "title": "# Ratio-kernel tail square、临界正谱 no-go 与正背景重整化",
+      "read_scope": {
+        "mode": "structured_whole_file_survey",
+        "statement": "已读取开头、全篇各节标题及主要命题陈述、结论/限制/下一输入和结尾审计；证明未全部逐行读取。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "正临界Poisson尖峰及离线负defect均使full quadratic能量发散；需非循环正background和bounded signed residual。"
+    },
+    {
+      "number": 148,
+      "path": "notes/148-orbit-laplacian-hodge-domination.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\148-orbit-laplacian-hodge-domination.md",
+      "sha256": "5c75b76fa196996a38d223a2d8638e41f0417ccfff63dbed4649aa32a5f87060",
+      "line_count": 209,
+      "title": "# Signed orbit Laplacians 与 bounded-degree Hodge domination",
+      "read_scope": {
+        "mode": "structured_whole_file_survey",
+        "statement": "已读取开头、全篇各节标题及主要命题陈述、结论/限制/下一输入和结尾审计；证明未全部逐行读取。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "signed orbit edges完成为positive Laplacians；full character domination偏强，149换容量迹。"
+    },
+    {
+      "number": 149,
+      "path": "notes/149-finite-trace-hodge-index-structure.md",
+      "absolute_path": "E:\\codex-build\\RH-Weil\\notes\\149-finite-trace-hodge-index-structure.md",
+      "sha256": "d236737c5d12abcbea96584b980380825864e77f7944a214a8721bedb378797c",
+      "line_count": 218,
+      "title": "# 有限迹 Hodge 指数：比逐 character Loewner 支配更准确的广义结构",
+      "read_scope": {
+        "mode": "structured_whole_file_survey",
+        "statement": "已读取开头、全篇各节标题及主要命题陈述、结论/限制/下一输入和结尾审计；证明未全部逐行读取。",
+        "proof_verification": "not_independently_formalized"
+      },
+      "judgment": "finite-trace effect cone精确读负Hodge index，ζ载体无条件存在；global capped negative trace O(1)仍未证明。"
+    }
+  ]
+}

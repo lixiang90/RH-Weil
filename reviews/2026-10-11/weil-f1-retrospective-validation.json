@@ -1,0 +1,25 @@
+{
+  "schema": "rh-weil-historical-review-validation-v1",
+  "date": "2026-10-11",
+  "baseline_commit": "331107b2ba0716d2fb78ec1f605f05fe57393274",
+  "checked_original_tracked_files": 2917,
+  "original_tracked_files_byte_unchanged": 2914,
+  "changed_original_files": [
+    "README.md",
+    "RESEARCH_BRANCHES.md",
+    "goals/review-cadence.json"
+  ],
+  "historical_notes_verified": 437,
+  "full_text_deep_read_count": 113,
+  "structured_survey_count": 324,
+  "validated_local_report_links": 39,
+  "validated_pinned_source_links": 136,
+  "external_report_links": [
+    "https://arxiv.org/abs/1603.03191v1",
+    "https://arxiv.org/abs/1805.10501v1",
+    "https://arxiv.org/abs/2006.13771v1",
+    "https://arxiv.org/abs/2205.01391v2"
+  ],
+  "cadence_previous_fields_unchanged": true,
+  "scope": "document, reading-ledger, link and preservation checks; no new mathematical result or independent replay of all historical proofs"
+}
