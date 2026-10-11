@@ -2,7 +2,7 @@
 
 按用户要求，每4–8轮研究做一次俯瞰复盘，默认每6轮。
 见[复盘规范](goals/REVIEW_PROTOCOL.md)、[轮数记录](goals/review-cadence.json)
-和[第五周期复盘及下一周期方向](goals/reviews/2026-10-11-original-route-review-cycle-5.md)。
+和[第六周期复盘及下一周期方向](goals/reviews/2026-10-11-original-route-review-cycle-6.md)。
 一次完整研究迭代计一轮，工具调用、笔记或子代理数量不计作轮数。
 
 ## 当前研究方向（2026-10-11，用户指定的 Weil／F₁ 历史复盘）
@@ -72,9 +72,20 @@ P_an等于标量根空间当且仅当全部非平凡零点简单；此判据没�
 [限定原文审查](literature/supplements/2026-10-11-meyer-radial-source-and-spectrum-audit.md)；
 本轮补齐本仓库的完整jets、常数、实际源作用及明确谱定义，不主张首次谱实现。
 
-下一合同转为520式(8)：对每个商空间连续半范数p及每个ε>0，
-从真实算术来源证明统一的双向中心化增长p(V_a x)≤C e^(ε|a|)q(x)。
-该估计若能独立证明即迫使中心线，但现在只是充分合同；
+[521](notes/521-f1-moving-source-correction-and-uniform-resolvent.md)以随频率移动的合法紧支源
+消除固定Gaussian校准的Gamma指数损失；整函数(s−1)ζ(s)的有限Harnack链
+和实际一阶逆支付零点带外全高度统一的预解半范数界及1/(1+|T|)衰减。
+[522](notes/522-f1-optimal-centered-growth-and-rh-equivalence.md)从实际群的Banach完成出发，
+用二阶正则化反演及严格移线证明增长指数下确界恰为supρ|Reρ−1/2|。
+因此520式(8)现在是RH的等价条件；端点指数是否可容许未证。
+这是完整解析比较，无条件只给1/2+ε指数，没有独立缩窄真实零点带。
+[523](notes/523-f1-natural-hilbert-collapse-and-growth-gap.md)证明实际源像在每个单线
+加权L²及固定阶单线Sobolev完成中稠密，所得商为零；中心化酉性在其中不能忠实保留ζ谱。
+此结论不扩到双端指数权或全部指数半范数交空间。
+
+下一合同仍是520式(8)，但须独立控制522式(17)的实际源修正成本：
+对每个输出P_n及每个ε>0，用一个固定输入P_m和C统一控制全部a、f。
+不要求源选择线性或连续，但不能逐a更换m；不由未知零点带宽倒推算术增长。
 有限Jordan块、离散谱或源Hilbert空间酉性不能自动提供无限个高度的统一q。
 忠实正定Hilbert酉化还会排除重零点，强于单纯RH，不能将其当作无代价的下一步。
 来源卷积、平移及Fourier–sharp已经相容，几何对应复合和principal仍须另证。
@@ -90,13 +101,16 @@ P_an等于标量根空间当且仅当全部非平凡零点简单；此判据没�
 暂停该候选；最迟第8轮复盘。具体合同与停止条件见历史复盘第5节。
 
 历史回顾本身不计数学轮；506、507–508、509–510、511–512共四轮，
-第五周期复盘已完成；513–514、515–517、518–520各计新的一轮，当前周期轮数为3，
-历史复盘后的Weil／F₁轮数累计6；下一次周期复盘仍按4–8轮执行，本轮不重置。
-来源、符号与量词的三份独立审查及有限诊断见
+第五周期复盘后513–514、515–517、518–520、521–523各计新的一轮。
+本轮解析比较闭合、自然Hilbert商退化，按用户4–8轮要求在第4轮提前完成
+[第六周期复盘](goals/reviews/2026-10-11-original-route-review-cycle-6.md)，周期计数重置为0；
+历史复盘后的Weil／F₁轮数累计7。下一周期转入独立算术来源与完整符号，避免重复等价改写。
+来源、符号与量词的三份内部全文审查及有限诊断见
 [有限S融合收据](reviews/2026-10-11/f1-semilocal-relative-cycle-round-verification.json)
 及[单素数传递与混合尾收据](reviews/2026-10-11/f1-single-prime-relative-transfer-round-verification.json)、
 [共同核与源导数障碍收据](reviews/2026-10-11/f1-central-mixed-kernel-round-verification.json)、
-[定量源重建与完整Fréchet谱收据](reviews/2026-10-11/f1-mellin-source-round-verification.json)。
+[定量源重建与完整Fréchet谱收据](reviews/2026-10-11/f1-mellin-source-round-verification.json)、
+[中心化增长比较与自然完成收据](reviews/2026-10-11/f1-centered-growth-round-verification.json)。
 
 2026-10-08：扩大已准入AM低集覆盖，原点表额外切线与全部2399域精确对偶支付九点增益。
 项目简单临界线比例更新为66812491/99194740=67.3548728491047…%。

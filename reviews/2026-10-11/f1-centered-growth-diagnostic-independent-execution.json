@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "research_date": "2026-10-11",
+  "recorded_at_utc": "2026-10-11T12:51:27.350327+00:00",
+  "review_type": "Independent internal full script reading and diagnostic reproduction; not external peer review",
+  "environment": {
+    "working_directory": "E:\\codex-build\\RH-Weil",
+    "shell": "PowerShell",
+    "python_version": "3.12.5 (tags/v3.12.5:ff3bc82, Aug  6 2024, 20:45:27) [MSC v.1940 64 bit (AMD64)]",
+    "python_implementation": "CPython",
+    "python_executable": "C:\\Python312\\python.exe",
+    "python_utf8_mode": true,
+    "platform": "Windows-11-10.0.26200-SP0",
+    "machine": "AMD64",
+    "mpmath_version": "1.3.0"
+  },
+  "execution": {
+    "command": "python -X utf8 scripts/centered_growth_source_diagnostics.py --precision 50 --output tmp/f1-centered-growth-20261011/independent-diagnostics.json",
+    "exit_code": 0,
+    "wall_time_seconds": 6.1443267,
+    "precision_decimal_digits": 50,
+    "floating_tolerance": "1.0e-35",
+    "public_diagnostic_was_overwritten": false,
+    "supersedes_run_prior_to_EOF_cleanup": true
+  },
+  "script": {
+    "path": "scripts/centered_growth_source_diagnostics.py",
+    "lf_sha256": "26b1023cd7165029f77602f2932435f03e61b0a331d0037608b99785bad14b95",
+    "full_source_read": true
+  },
+  "public_diagnostic": {
+    "path": "reviews/2026-10-11/f1-centered-growth-diagnostics.json",
+    "lf_sha256": "a3389710ea4ead70adac93341dcd9f448a42eccbe9666573a5748083dbc85572",
+    "all_json_records_read": true
+  },
+  "independent_output": {
+    "path": "tmp/f1-centered-growth-20261011/independent-diagnostics.json",
+    "lf_sha256": "a3389710ea4ead70adac93341dcd9f448a42eccbe9666573a5748083dbc85572"
+  },
+  "notes_lf_sha256": {
+    "notes/521-f1-moving-source-correction-and-uniform-resolvent.md": "2950f12602d08086fb642396e2f287b33671b7a098da63233bc7c7dffcd71f95",
+    "notes/522-f1-optimal-centered-growth-and-rh-equivalence.md": "a36b872c7bb68fa6f5f46aa1768cdbade09579393ba3ec6195134e0a1a2d0dd3",
+    "notes/523-f1-natural-hilbert-collapse-and-growth-gap.md": "33a42f3f8f06f1478a862aeb1766b2b5ff333e6fd1d36241d19d038168405145"
+  },
+  "final_full_mathematical_review": {
+    "path": "reviews/2026-10-11/f1-centered-growth-spectrum-review.md",
+    "notes_521_522_523_all_passed": true,
+    "scope": "Archived full-body mathematical review remains applicable; final note 521 differs only by one removed EOF LF, cryptographically verified below."
+  },
+  "checks": {
+    "total": 123,
+    "passed": 123,
+    "failed": 0,
+    "exact_finite_checks": 68,
+    "non_interval_floating_checks": 55,
+    "by_kind": {
+      "ordinary non-interval floating calculation": 49,
+      "ordinary non-interval floating comparison with an analytic finite-model bound": 6,
+      "exact finite rational algebra": 68
+    },
+    "floating_equality_maximum_reported_absolute_error": "2.7373291302500794833316429763140248E-51",
+    "finite_bound_comparison_count": 6,
+    "finite_bound_maximum_reported_error_to_bound_plus_rounding_ratio": "0.7309840300803190130645186353"
+  },
+  "parsedJSON_identical": true,
+  "comparison_scope": "Entire parsed JSON including all 123 records, metadata, limitations and final script/note hashes",
+  "scope": [
+    "The final notes 521--523 and complete script and public diagnostic records were read independently; the frozen note hashes match the final mathematical report.",
+    "Exact finite checks cover hypothetical rational Jordan resolvents, the B^2/z^2 decomposition, finite group laws and Poisson-kernel constant arithmetic.",
+    "Floating checks cover a smooth compact actual source and its normalization and legal moments, finite E periodization, truncated Gaussian right-inverse and derivative identities, and finite hypothetical Bromwich integrals.",
+    "Source norm checks sample 159 radii at each of heights 0, 3 and 8; no sampled grid proves a continuous supremum or an all-height uniform estimate.",
+    "Finite E uses four terms; Gaussian integrations use endpoints +/-12; hypothetical Bromwich cutoffs are 24 and 48; finite Jordan block sizes are 1 through 4.",
+    "The 55 floating checks include 49 equality calculations and six finite-bound comparisons. Computed tails and rounding comparisons use ordinary mpmath arithmetic, not certified intervals.",
+    "No finite diagnostic certifies infinite source reconstruction, all-height resolvent estimates, Hilbert density, Frechet completions, infinite contour deformation or uniform arithmetic growth.",
+    "The notes prove the actual spectral-growth comparison and RH equivalence of the proposed subexponential contract; neither this run nor that equivalence supplies the independent arithmetic contract.",
+    "Hypothetical finite Jordan blocks are not observations of multiple Riemann-zeta zeros; no RH proof, zero-free region, zero proportion, simplicity theorem, faithful Hilbert realization or global HH completion is certified.",
+    "This is an internal reproducibility receipt, not a Lean proof or external peer endorsement. Only this authorized public execution receipt was written in this execution task; public script, diagnostics and mathematics were not changed.",
+    "This final rerun follows one removed extra EOF LF from note 521 and the script. Adding that LF back exactly restores each previously reviewed hash; mathematical body, script logic and finite check set are unchanged."
+  ],
+  "EOF_only_cleanup_verification": [
+    {
+      "path": "notes/521-f1-moving-source-correction-and-uniform-resolvent.md",
+      "previous_reviewed_lf_sha256": "535dc7a12cf24846a0cd0bb3e484766c96343daf3ebe41a62eb34c64180c2d17",
+      "current_lf_sha256": "2950f12602d08086fb642396e2f287b33671b7a098da63233bc7c7dffcd71f95",
+      "removed_eof_lf_count": 1,
+      "adding_back_one_lf_recovers_previous_hash": true
+    },
+    {
+      "path": "scripts/centered_growth_source_diagnostics.py",
+      "previous_reviewed_lf_sha256": "fd205916e52fadc0bbca4f770bea076ed38298f55834acb2f1a20cfca9b12928",
+      "current_lf_sha256": "26b1023cd7165029f77602f2932435f03e61b0a331d0037608b99785bad14b95",
+      "removed_eof_lf_count": 1,
+      "adding_back_one_lf_recovers_previous_hash": true
+    }
+  ]
+}

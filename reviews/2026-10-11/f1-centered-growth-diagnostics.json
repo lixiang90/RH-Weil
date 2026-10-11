@@ -1,0 +1,1213 @@
+{
+  "scope": "Finite diagnostics for notes 521--523",
+  "precision_decimal_digits": 50,
+  "floating_tolerance": "1.0e-35",
+  "source_profile": {
+    "formula": "C exp(-1/((r-1)(2-r))) on (1,2), zero elsewhere; C chosen by dr/r normalization",
+    "normalizer_before_C": "0.0047272523431067019646979721397901857",
+    "target_source": "(r d/dr + 1)(r^(-lambda) psi(r)), evenly extended",
+    "sampled_heights": [
+      0,
+      3,
+      8
+    ]
+  },
+  "cutoffs": {
+    "finite_E_terms": 4,
+    "Gaussian_integral_endpoint": 12,
+    "finite_Bromwich_heights": [
+      24,
+      48
+    ],
+    "hypothetical_Jordan_sizes": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "notes_lf_sha256": {
+    "notes/521-f1-moving-source-correction-and-uniform-resolvent.md": "2950f12602d08086fb642396e2f287b33671b7a098da63233bc7c7dffcd71f95",
+    "notes/522-f1-optimal-centered-growth-and-rh-equivalence.md": "a36b872c7bb68fa6f5f46aa1768cdbade09579393ba3ec6195134e0a1a2d0dd3",
+    "notes/523-f1-natural-hilbert-collapse-and-growth-gap.md": "33a42f3f8f06f1478a862aeb1766b2b5ff333e6fd1d36241d19d038168405145"
+  },
+  "script_lf_sha256": "26b1023cd7165029f77602f2932435f03e61b0a331d0037608b99785bad14b95",
+  "summary": {
+    "total": 123,
+    "passed": 123,
+    "failed": 0,
+    "exact_finite_checks": 68,
+    "non_interval_floating_checks": 55
+  },
+  "limitations": [
+    "Ordinary mpmath quadrature and rounding comparisons are not interval certificates or Lean proofs.",
+    "Hypothetical finite Jordan blocks do not assert any actual multiple Riemann-zeta zero.",
+    "Finite source samples do not prove an all-height bound or a continuous supremum.",
+    "Finite Bromwich tests only check the displayed finite model and its tail estimate.",
+    "Infinite source image, full-jet quotient, uniform resolvent, density and optimal-growth theorems require the analytic proofs in the notes.",
+    "No new RH proof, zero-free region, zero proportion, simplicity theorem, independent arithmetic growth estimate or faithful Hilbert realization is claimed."
+  ],
+  "checks": [
+    {
+      "label": "compact profile dr/r normalization",
+      "kind": "ordinary non-interval floating calculation",
+      "passed": true,
+      "absolute_error": "0.0",
+      "tolerance": "1.0e-35",
+      "metadata": {
+        "profile": "C exp(-1/((r-1)(2-r))) on 1<r<2; zero elsewhere"
+      }
+    },
+    {
+      "label": "legal moving source zero integral, lambda=(0.8 + 0.0j)",
+      "kind": "ordinary non-interval floating calculation",
+      "passed": true,
+      "absolute_error": "7.1370517618733862010893841819993489e-56",
+      "tolerance": "1.0e-35",
+      "metadata": {
+        "source_is_even": true,
+        "source_at_zero": 0
+      }
+    },
+    {
+      "label": "moving source Mellin at lambda=(0.8 + 0.0j)",
+      "kind": "ordinary non-interval floating calculation",
+      "passed": true,
+      "absolute_error": "0.0",
+      "tolerance": "1.0e-35",
+      "metadata": {
+        "source_support": [
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "label": "target calibration -2 Z(lambda), lambda=(0.8 + 0.0j)",
+      "kind": "ordinary non-interval floating calculation",
+      "passed": true,
+      "absolute_error": "0.0",
+      "tolerance": "1.0e-35",
+      "metadata": {
+        "normalization": "Mh_lambda(lambda) = -2 (lambda-1) zeta(lambda)"
+      }
+    },
+    {
+      "label": "legal moving source zero integral, lambda=(0.8 + 3.0j)",
+      "kind": "ordinary non-interval floating calculation",
+      "passed": true,
+      "absolute_error": "1.0453647707378222652092974460081756e-54",
+      "tolerance": "1.0e-35",
+      "metadata": {
+        "source_is_even": true,
+        "source_at_zero": 0
+      }
+    },
+    {
+      "label": "moving source Mellin at lambda=(0.8 + 3.0j)",
+      "kind": "ordinary non-interval floating calculation",
+      "passed": true,
+      "absolute_error": "0.0",
+      "tolerance": "1.0e-35",
+      "metadata": {
+        "source_support": [
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "label": "target calibration -2 Z(lambda), lambda=(0.8 + 3.0j)",
+      "kind": "ordinary non-interval floating calculation",
+      "passed": true,
+      "absolute_error": "0.0",
+      "tolerance": "1.0e-35",
+      "metadata": {
+        "normalization": "Mh_lambda(lambda) = -2 (lambda-1) zeta(lambda)"
+      }
+    },
+    {
+      "label": "legal moving source zero integral, lambda=(0.8 + 8.0j)",
+      "kind": "ordinary non-interval floating calculation",
+      "passed": true,
+      "absolute_error": "2.5186125112090164602028764845902922e-54",
+      "tolerance": "1.0e-35",
+      "metadata": {
+        "source_is_even": true,
+        "source_at_zero": 0
+      }
+    },
+    {
+      "label": "moving source Mellin at lambda=(0.8 + 8.0j)",
+      "kind": "ordinary non-interval floating calculation",
+      "passed": true,
+      "absolute_error": "0.0",
+      "tolerance": "1.0e-35",
+      "metadata": {
+        "source_support": [
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "label": "target calibration -2 Z(lambda), lambda=(0.8 + 8.0j)",
+      "kind": "ordinary non-interval floating calculation",
+      "passed": true,
+      "absolute_error": "0.0",
+      "tolerance": "1.0e-35",
+      "metadata": {
+        "normalization": "Mh_lambda(lambda) = -2 (lambda-1) zeta(lambda)"
+      }
+    },
+    {
+      "label": "legal moving source zero integral, lambda=(1.0 + 0.0j)",
+      "kind": "ordinary non-interval floating calculation",
+      "passed": true,
+      "absolute_error": "5.0978941156238472864924172728566778e-57",
+      "tolerance": "1.0e-35",
+      "metadata": {
+        "source_is_even": true,
+        "source_at_zero": 0
+      }
+    },
+    {
+      "label": "moving source Mellin at lambda=(1.0 + 0.0j)",
+      "kind": "ordinary non-interval floating calculation",
+      "passed": true,
+      "absolute_error": "2.5489470578119236432462086364283389e-57",
+      "tolerance": "1.0e-35",
+      "metadata": {
+        "source_support": [
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "label": "lambda=1 pole removal gives target normalization -2",
+      "kind": "ordinary non-interval floating calculation",
+      "passed": true,
+      "absolute_error": "0.0",
+      "tolerance": "1.0e-35",
+      "metadata": {
+        "formula": "2 residue(zeta,1) M_+theta_1'(1)"
+      }
+    },
+    {
+      "label": "legal moving source zero integral, lambda=(1.25 + 3.0j)",
+      "kind": "ordinary non-interval floating calculation",
+      "passed": true,
+      "absolute_error": "8.702575704066571410642948770538296e-55",
+      "tolerance": "1.0e-35",
+      "metadata": {
+        "source_is_even": true,
+        "source_at_zero": 0
+      }
+    },
+    {
+      "label": "moving source Mellin at lambda=(1.25 + 3.0j)",
+      "kind": "ordinary non-interval floating calculation",
+      "passed": true,
+      "absolute_error": "0.0",
+      "tolerance": "1.0e-35",
+      "metadata": {
+        "source_support": [
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "label": "target calibration -2 Z(lambda), lambda=(1.25 + 3.0j)",
+      "kind": "ordinary non-interval floating calculation",
+      "passed": true,
+      "absolute_error": "0.0",
+      "tolerance": "1.0e-35",
+      "metadata": {
+        "normalization": "Mh_lambda(lambda) = -2 (lambda-1) zeta(lambda)"
+      }
+    },
+    {
+      "label": "sampled source triangle inequality at height 0",
+      "kind": "ordinary non-interval floating comparison with an analytic finite-model bound",
+      "passed": true,
+      "absolute_error": "0.0",
+      "computed_bound": "0",
+      "rounding_tolerance": "1.0e-35",
+      "metadata": {
+        "grid_points": 159,
+        "maximum_sampled_abs_theta_divided_by_1_plus_height": "18.003773185897563630529813343194539",
+        "limitation": "Samples do not certify a supremum or the all-height theorem."
+      }
+    },
+    {
+      "label": "sampled source triangle inequality at height 3",
+      "kind": "ordinary non-interval floating comparison with an analytic finite-model bound",
+      "passed": true,
+      "absolute_error": "2.1382117680737565169124291737211855e-50",
+      "computed_bound": "0",
+      "rounding_tolerance": "1.0e-35",
+      "metadata": {
+        "grid_points": 159,
+        "maximum_sampled_abs_theta_divided_by_1_plus_height": "4.5918387281688532471312855905200351",
+        "limitation": "Samples do not certify a supremum or the all-height theorem."
+      }
+    },
+    {
+      "label": "sampled source triangle inequality at height 8",
+      "kind": "ordinary non-interval floating comparison with an analytic finite-model bound",
+      "passed": true,
+      "absolute_error": "4.276423536147513033824858347442371e-50",
+      "computed_bound": "0",
+      "rounding_tolerance": "1.0e-35",
+      "metadata": {
+        "grid_points": 159,
+        "maximum_sampled_abs_theta_divided_by_1_plus_height": "2.6364641866120622065662399691668495",
+        "limitation": "Samples do not certify a supremum or the all-height theorem."
+      }
+    },
+    {
+      "label": "actual finite E log-integral has the Mellin factor 2",
+      "kind": "ordinary non-interval floating calculation",
+      "passed": true,
+      "absolute_error": "0.0",
+      "tolerance": "1.0e-35",
+      "metadata": {
+        "cutoff": 4,
+        "real_part": "3.25"
+      }
+    },
+    {
+      "label": "finite E moment compared with target -2 Z(lambda)",
+      "kind": "ordinary non-interval floating comparison with an analytic finite-model bound",
+      "passed": true,
+      "absolute_error": "0.066868282162071345533921064469504846",
+      "computed_bound": "0.091477076667083953965442412683736544",
+      "rounding_tolerance": "1.0e-35",
+      "metadata": {
+        "cutoff": 4,
+        "tail_formula": "2 |M_+theta(lambda)| N^(1-Re lambda)/(Re lambda-1)",
+        "limitation": "The absolute Dirichlet tail is evaluated in ordinary floating arithmetic."
+      }
+    },
+    {
+      "label": "Gaussian forcing finite lambda moment is a boundary term, lambda=(0.75 + 0.0j)",
+      "kind": "ordinary non-interval floating calculation",
+      "passed": true,
+      "absolute_error": "2.0577426352365793615659891200005768e-56",
+      "tolerance": "1.0e-35",
+      "metadata": {
+        "cutoff": 12,
+        "full_line_moment": 0
+      }
+    },
+    {
+      "label": "actual truncated R_lambda f recovers Gaussian: (0.75 + 0.0j), t=-1.3",
+      "kind": "ordinary non-interval floating calculation",
+      "passed": true,
+      "absolute_error": "3.3409558876152445576756705839393523e-52",
+      "tolerance": "1.0e-35",
+      "metadata": {
+        "cutoff": 12,
+        "side": "left",
+        "t": "-1.3",
+        "lambda": "(0.75 + 0.0j)",
+        "absolute_omitted_boundary_g": "9.4706849273949518155391991426058049e-67",
+        "absolute_omitted_boundary_dg": "2.2729643825747884357294077942253932e-65"
+      }
+    },
+    {
+      "label": "actual R_lambda D commutation with boundary: (0.75 + 0.0j), t=-1.3",
+      "kind": "ordinary non-interval floating calculation",
+      "passed": true,
+      "absolute_error": "0.0",
+      "tolerance": "1.0e-35",
+      "metadata": {
+        "cutoff": 12,
+        "side": "left",
+        "t": "-1.3",
+        "lambda": "(0.75 + 0.0j)",
+        "absolute_omitted_boundary_g": "9.4706849273949518155391991426058049e-67",
+        "absolute_omitted_boundary_dg": "2.2729643825747884357294077942253932e-65"
+      }
+    },
+    {
+      "label": "actual 1/lambda identity with boundary: (0.75 + 0.0j), t=-1.3",
+      "kind": "ordinary non-interval floating calculation",
+      "passed": true,
+      "absolute_error": "1.3363823550461290763305286369167322e-51",
+      "tolerance": "1.0e-35",
+      "metadata": {
+        "cutoff": 12,
+        "side": "left",
+        "t": "-1.3",
+        "lambda": "(0.75 + 0.0j)",
+        "absolute_omitted_boundary_g": "9.4706849273949518155391991426058049e-67",
+        "absolute_omitted_boundary_dg": "2.2729643825747884357294077942253932e-65"
+      }
+    },
+    {
+      "label": "actual truncated R_lambda f recovers Gaussian: (0.75 + 0.0j), t=0.0",
+      "kind": "ordinary non-interval floating calculation",
+      "passed": true,
+      "absolute_error": "0.0",
+      "tolerance": "1.0e-35",
+      "metadata": {
+        "cutoff": 12,
+        "side": "left",
+        "t": "0.0",
+        "lambda": "(0.75 + 0.0j)",
+        "absolute_omitted_boundary_g": "3.5722699376192177269558088441972551e-67",
+        "absolute_omitted_boundary_dg": "8.5734478502861225446939412260734122e-66"
+      }
+    },
+    {
+      "label": "actual R_lambda D commutation with boundary: (0.75 + 0.0j), t=0.0",
+      "kind": "ordinary non-interval floating calculation",
+      "passed": true,
+      "absolute_error": "1.0434752018774907199567778859847906e-55",
+      "tolerance": "1.0e-35",
+      "metadata": {
+        "cutoff": 12,
+        "side": "left",
+        "t": "0.0",
+        "lambda": "(0.75 + 0.0j)",
+        "absolute_omitted_boundary_g": "3.5722699376192177269558088441972551e-67",
+        "absolute_omitted_boundary_dg": "8.5734478502861225446939412260734122e-66"
+      }
+    },
+    {
+      "label": "actual 1/lambda identity with boundary: (0.75 + 0.0j), t=0.0",
+      "kind": "ordinary non-interval floating calculation",
+      "passed": true,
+      "absolute_error": "1.1788490794143418498954169185850942e-65",
+      "tolerance": "1.0e-35",
+      "metadata": {
+        "cutoff": 12,
+        "side": "left",
+        "t": "0.0",
+        "lambda": "(0.75 + 0.0j)",
+        "absolute_omitted_boundary_g": "3.5722699376192177269558088441972551e-67",
+        "absolute_omitted_boundary_dg": "8.5734478502861225446939412260734122e-66"
+      }
+    },
+    {
+      "label": "actual truncated R_lambda f recovers Gaussian: (0.75 + 0.0j), t=1.1",
+      "kind": "ordinary non-interval floating calculation",
+      "passed": true,
+      "absolute_error": "6.6819117752304891153513411678787047e-52",
+      "tolerance": "1.0e-35",
+      "metadata": {
+        "cutoff": 12,
+        "side": "right",
+        "t": "1.1",
+        "lambda": "(0.75 + 0.0j)",
+        "absolute_omitted_boundary_g": "1.0279026731725056277494581036360986e-59",
+        "absolute_omitted_boundary_dg": "2.4669664156140135065986994487266367e-58"
+      }
+    },
+    {
+      "label": "actual R_lambda D commutation with boundary: (0.75 + 0.0j), t=1.1",
+      "kind": "ordinary non-interval floating calculation",
+      "passed": true,
+      "absolute_error": "1.3363823550460978230702682335757409e-51",
+      "tolerance": "1.0e-35",
+      "metadata": {
+        "cutoff": 12,
+        "side": "right",
+        "t": "1.1",
+        "lambda": "(0.75 + 0.0j)",
+        "absolute_omitted_boundary_g": "1.0279026731725056277494581036360986e-59",
+        "absolute_omitted_boundary_dg": "2.4669664156140135065986994487266367e-58"
+      }
+    },
+    {
+      "label": "actual 1/lambda identity with boundary: (0.75 + 0.0j), t=1.1",
+      "kind": "ordinary non-interval floating calculation",
+      "passed": true,
+      "absolute_error": "3.1864982868347674460233201212719057e-58",
+      "tolerance": "1.0e-35",
+      "metadata": {
+        "cutoff": 12,
+        "side": "right",
+        "t": "1.1",
+        "lambda": "(0.75 + 0.0j)",
+        "absolute_omitted_boundary_g": "1.0279026731725056277494581036360986e-59",
+        "absolute_omitted_boundary_dg": "2.4669664156140135065986994487266367e-58"
+      }
+    },
+    {
+      "label": "Gaussian forcing finite lambda moment is a boundary term, lambda=(1.2 + 3.0j)",
+      "kind": "ordinary non-interval floating calculation",
+      "passed": true,
+      "absolute_error": "7.5737679289929853888909761301985445e-55",
+      "tolerance": "1.0e-35",
+      "metadata": {
+        "cutoff": 12,
+        "full_line_moment": 0
+      }
+    },
+    {
+      "label": "actual truncated R_lambda f recovers Gaussian: (1.2 + 3.0j), t=-1.3",
+      "kind": "ordinary non-interval floating calculation",
+      "passed": true,
+      "absolute_error": "3.7172028593668892651550499880738965e-52",
+      "tolerance": "1.0e-35",
+      "metadata": {
+        "cutoff": 12,
+        "side": "left",
+        "t": "-1.3",
+        "lambda": "(1.2 + 3.0j)",
+        "absolute_omitted_boundary_g": "7.6780945936236699981689516981066377e-69",
+        "absolute_omitted_boundary_dg": "1.8427427024696807995605484075455931e-67"
+      }
+    },
+    {
+      "label": "actual R_lambda D commutation with boundary: (1.2 + 3.0j), t=-1.3",
+      "kind": "ordinary non-interval floating calculation",
+      "passed": true,
+      "absolute_error": "9.9492754360613672521378076503729194e-52",
+      "tolerance": "1.0e-35",
+      "metadata": {
+        "cutoff": 12,
+        "side": "left",
+        "t": "-1.3",
+        "lambda": "(1.2 + 3.0j)",
+        "absolute_omitted_boundary_g": "7.6780945936236699981689516981066377e-69",
+        "absolute_omitted_boundary_dg": "1.8427427024696807995605484075455931e-67"
+      }
+    },
+    {
+      "label": "actual 1/lambda identity with boundary: (1.2 + 3.0j), t=-1.3",
+      "kind": "ordinary non-interval floating calculation",
+      "passed": true,
+      "absolute_error": "5.2122059855348148832211992826381651e-52",
+      "tolerance": "1.0e-35",
+      "metadata": {
+        "cutoff": 12,
+        "side": "left",
+        "t": "-1.3",
+        "lambda": "(1.2 + 3.0j)",
+        "absolute_omitted_boundary_g": "7.6780945936236699981689516981066377e-69",
+        "absolute_omitted_boundary_dg": "1.8427427024696807995605484075455931e-67"
+      }
+    },
+    {
+      "label": "actual truncated R_lambda f recovers Gaussian: (1.2 + 3.0j), t=0.0",
+      "kind": "ordinary non-interval floating calculation",
+      "passed": true,
+      "absolute_error": "2.3848585909652650569095596646786407e-55",
+      "tolerance": "1.0e-35",
+      "metadata": {
+        "cutoff": 12,
+        "side": "left",
+        "t": "0.0",
+        "lambda": "(1.2 + 3.0j)",
+        "absolute_omitted_boundary_g": "1.613444632211910305110379798508176e-69",
+        "absolute_omitted_boundary_dg": "3.8722671173085847322649115164196225e-68"
+      }
+    },
+    {
+      "label": "actual R_lambda D commutation with boundary: (1.2 + 3.0j), t=0.0",
+      "kind": "ordinary non-interval floating calculation",
+      "passed": true,
+      "absolute_error": "1.8386562213260229211884490844218527e-55",
+      "tolerance": "1.0e-35",
+      "metadata": {
+        "cutoff": 12,
+        "side": "left",
+        "t": "0.0",
+        "lambda": "(1.2 + 3.0j)",
+        "absolute_omitted_boundary_g": "1.613444632211910305110379798508176e-69",
+        "absolute_omitted_boundary_dg": "3.8722671173085847322649115164196225e-68"
+      }
+    },
+    {
+      "label": "actual 1/lambda identity with boundary: (1.2 + 3.0j), t=0.0",
+      "kind": "ordinary non-interval floating calculation",
+      "passed": true,
+      "absolute_error": "2.3848585909652066752243790463219183e-55",
+      "tolerance": "1.0e-35",
+      "metadata": {
+        "cutoff": 12,
+        "side": "left",
+        "t": "0.0",
+        "lambda": "(1.2 + 3.0j)",
+        "absolute_omitted_boundary_g": "1.613444632211910305110379798508176e-69",
+        "absolute_omitted_boundary_dg": "3.8722671173085847322649115164196225e-68"
+      }
+    },
+    {
+      "label": "actual truncated R_lambda f recovers Gaussian: (1.2 + 3.0j), t=1.1",
+      "kind": "ordinary non-interval floating calculation",
+      "passed": true,
+      "absolute_error": "6.6928291364024759121176172785302111e-52",
+      "tolerance": "1.0e-35",
+      "metadata": {
+        "cutoff": 12,
+        "side": "right",
+        "t": "1.1",
+        "lambda": "(1.2 + 3.0j)",
+        "absolute_omitted_boundary_g": "1.3872873597514092249728076744617334e-57",
+        "absolute_omitted_boundary_dg": "3.3294896634033821399347384187081601e-56"
+      }
+    },
+    {
+      "label": "actual R_lambda D commutation with boundary: (1.2 + 3.0j), t=1.1",
+      "kind": "ordinary non-interval floating calculation",
+      "passed": true,
+      "absolute_error": "1.3392127872992831750237627043822137e-51",
+      "tolerance": "1.0e-35",
+      "metadata": {
+        "cutoff": 12,
+        "side": "right",
+        "t": "1.1",
+        "lambda": "(1.2 + 3.0j)",
+        "absolute_omitted_boundary_g": "1.3872873597514092249728076744617334e-57",
+        "absolute_omitted_boundary_dg": "3.3294896634033821399347384187081601e-56"
+      }
+    },
+    {
+      "label": "actual 1/lambda identity with boundary: (1.2 + 3.0j), t=1.1",
+      "kind": "ordinary non-interval floating calculation",
+      "passed": true,
+      "absolute_error": "7.2294970697608199895011185816986346e-52",
+      "tolerance": "1.0e-35",
+      "metadata": {
+        "cutoff": 12,
+        "side": "right",
+        "t": "1.1",
+        "lambda": "(1.2 + 3.0j)",
+        "absolute_omitted_boundary_g": "1.3872873597514092249728076744617334e-57",
+        "absolute_omitted_boundary_dg": "3.3294896634033821399347384187081601e-56"
+      }
+    },
+    {
+      "label": "Gaussian forcing finite lambda moment is a boundary term, lambda=(0.6 + 8.0j)",
+      "kind": "ordinary non-interval floating calculation",
+      "passed": true,
+      "absolute_error": "1.6147921330880233163733450794356336e-54",
+      "tolerance": "1.0e-35",
+      "metadata": {
+        "cutoff": 12,
+        "full_line_moment": 0
+      }
+    },
+    {
+      "label": "actual truncated R_lambda f recovers Gaussian: (0.6 + 8.0j), t=-1.3",
+      "kind": "ordinary non-interval floating calculation",
+      "passed": true,
+      "absolute_error": "1.0344060622777879419995855016749751e-52",
+      "tolerance": "1.0e-35",
+      "metadata": {
+        "cutoff": 12,
+        "side": "left",
+        "t": "-1.3",
+        "lambda": "(0.6 + 8.0j)",
+        "absolute_omitted_boundary_g": "4.7143739910354958619392132082210931e-66",
+        "absolute_omitted_boundary_dg": "1.1314497578485190068654111699730624e-64"
+      }
+    },
+    {
+      "label": "actual R_lambda D commutation with boundary: (0.6 + 8.0j), t=-1.3",
+      "kind": "ordinary non-interval floating calculation",
+      "passed": true,
+      "absolute_error": "7.5062312075089449184441116892018825e-52",
+      "tolerance": "1.0e-35",
+      "metadata": {
+        "cutoff": 12,
+        "side": "left",
+        "t": "-1.3",
+        "lambda": "(0.6 + 8.0j)",
+        "absolute_omitted_boundary_g": "4.7143739910354958619392132082210931e-66",
+        "absolute_omitted_boundary_dg": "1.1314497578485190068654111699730624e-64"
+      }
+    },
+    {
+      "label": "actual 1/lambda identity with boundary: (0.6 + 8.0j), t=-1.3",
+      "kind": "ordinary non-interval floating calculation",
+      "passed": true,
+      "absolute_error": "3.558035228584607502430131864156149e-53",
+      "tolerance": "1.0e-35",
+      "metadata": {
+        "cutoff": 12,
+        "side": "left",
+        "t": "-1.3",
+        "lambda": "(0.6 + 8.0j)",
+        "absolute_omitted_boundary_g": "4.7143739910354958619392132082210931e-66",
+        "absolute_omitted_boundary_dg": "1.1314497578485190068654111699730624e-64"
+      }
+    },
+    {
+      "label": "actual truncated R_lambda f recovers Gaussian: (0.6 + 8.0j), t=0.0",
+      "kind": "ordinary non-interval floating calculation",
+      "passed": true,
+      "absolute_error": "6.679436110421845573480224847659793e-55",
+      "tolerance": "1.0e-35",
+      "metadata": {
+        "cutoff": 12,
+        "side": "left",
+        "t": "0.0",
+        "lambda": "(0.6 + 8.0j)",
+        "absolute_omitted_boundary_g": "2.1610973770316693600311978611317766e-66",
+        "absolute_omitted_boundary_dg": "5.1866337048760064640748748667162639e-65"
+      }
+    },
+    {
+      "label": "actual R_lambda D commutation with boundary: (0.6 + 8.0j), t=0.0",
+      "kind": "ordinary non-interval floating calculation",
+      "passed": true,
+      "absolute_error": "2.5171321047227524599608656582823348e-55",
+      "tolerance": "1.0e-35",
+      "metadata": {
+        "cutoff": 12,
+        "side": "left",
+        "t": "0.0",
+        "lambda": "(0.6 + 8.0j)",
+        "absolute_omitted_boundary_g": "2.1610973770316693600311978611317766e-66",
+        "absolute_omitted_boundary_dg": "5.1866337048760064640748748667162639e-65"
+      }
+    },
+    {
+      "label": "actual 1/lambda identity with boundary: (0.6 + 8.0j), t=0.0",
+      "kind": "ordinary non-interval floating calculation",
+      "passed": true,
+      "absolute_error": "6.6794361104149690856214541633146284e-55",
+      "tolerance": "1.0e-35",
+      "metadata": {
+        "cutoff": 12,
+        "side": "left",
+        "t": "0.0",
+        "lambda": "(0.6 + 8.0j)",
+        "absolute_omitted_boundary_g": "2.1610973770316693600311978611317766e-66",
+        "absolute_omitted_boundary_dg": "5.1866337048760064640748748667162639e-65"
+      }
+    },
+    {
+      "label": "actual truncated R_lambda f recovers Gaussian: (0.6 + 8.0j), t=1.1",
+      "kind": "ordinary non-interval floating calculation",
+      "passed": true,
+      "absolute_error": "7.032984466375052085941375905092767e-52",
+      "tolerance": "1.0e-35",
+      "metadata": {
+        "cutoff": 12,
+        "side": "right",
+        "t": "1.1",
+        "lambda": "(0.6 + 8.0j)",
+        "absolute_omitted_boundary_g": "2.0039206359974855216368177024754472e-60",
+        "absolute_omitted_boundary_dg": "4.8094095263939652519283624859410732e-59"
+      }
+    },
+    {
+      "label": "actual R_lambda D commutation with boundary: (0.6 + 8.0j), t=1.1",
+      "kind": "ordinary non-interval floating calculation",
+      "passed": true,
+      "absolute_error": "2.7373291302500794833316429763140248e-51",
+      "tolerance": "1.0e-35",
+      "metadata": {
+        "cutoff": 12,
+        "side": "right",
+        "t": "1.1",
+        "lambda": "(0.6 + 8.0j)",
+        "absolute_omitted_boundary_g": "2.0039206359974855216368177024754472e-60",
+        "absolute_omitted_boundary_dg": "4.8094095263939652519283624859410732e-59"
+      }
+    },
+    {
+      "label": "actual 1/lambda identity with boundary: (0.6 + 8.0j), t=1.1",
+      "kind": "ordinary non-interval floating calculation",
+      "passed": true,
+      "absolute_error": "8.7283021861843492732589947804248079e-52",
+      "tolerance": "1.0e-35",
+      "metadata": {
+        "cutoff": 12,
+        "side": "right",
+        "t": "1.1",
+        "lambda": "(0.6 + 8.0j)",
+        "absolute_omitted_boundary_g": "2.0039206359974855216368177024754472e-60",
+        "absolute_omitted_boundary_dg": "4.8094095263939652519283624859410732e-59"
+      }
+    },
+    {
+      "label": "hypothetical Jordan resolvent left inverse, m=1, beta=0",
+      "kind": "exact finite rational algebra",
+      "passed": true,
+      "metadata": {}
+    },
+    {
+      "label": "hypothetical Jordan resolvent right inverse, m=1, beta=0",
+      "kind": "exact finite rational algebra",
+      "passed": true,
+      "metadata": {}
+    },
+    {
+      "label": "hypothetical Jordan exact B^2/z^2 decomposition, m=1, beta=0",
+      "kind": "exact finite rational algebra",
+      "passed": true,
+      "metadata": {}
+    },
+    {
+      "label": "hypothetical Jordan resolvent left inverse, m=1, beta=1/8",
+      "kind": "exact finite rational algebra",
+      "passed": true,
+      "metadata": {}
+    },
+    {
+      "label": "hypothetical Jordan resolvent right inverse, m=1, beta=1/8",
+      "kind": "exact finite rational algebra",
+      "passed": true,
+      "metadata": {}
+    },
+    {
+      "label": "hypothetical Jordan exact B^2/z^2 decomposition, m=1, beta=1/8",
+      "kind": "exact finite rational algebra",
+      "passed": true,
+      "metadata": {}
+    },
+    {
+      "label": "hypothetical Jordan resolvent left inverse, m=1, beta=-1/8",
+      "kind": "exact finite rational algebra",
+      "passed": true,
+      "metadata": {}
+    },
+    {
+      "label": "hypothetical Jordan resolvent right inverse, m=1, beta=-1/8",
+      "kind": "exact finite rational algebra",
+      "passed": true,
+      "metadata": {}
+    },
+    {
+      "label": "hypothetical Jordan exact B^2/z^2 decomposition, m=1, beta=-1/8",
+      "kind": "exact finite rational algebra",
+      "passed": true,
+      "metadata": {}
+    },
+    {
+      "label": "hypothetical Jordan nilpotent group inverse for both signs, m=1, t=-2",
+      "kind": "exact finite rational algebra",
+      "passed": true,
+      "metadata": {}
+    },
+    {
+      "label": "hypothetical Jordan nilpotent group inverse for both signs, m=1, t=-1/2",
+      "kind": "exact finite rational algebra",
+      "passed": true,
+      "metadata": {}
+    },
+    {
+      "label": "hypothetical Jordan nilpotent group inverse for both signs, m=1, t=1/2",
+      "kind": "exact finite rational algebra",
+      "passed": true,
+      "metadata": {}
+    },
+    {
+      "label": "hypothetical Jordan nilpotent group inverse for both signs, m=1, t=2",
+      "kind": "exact finite rational algebra",
+      "passed": true,
+      "metadata": {}
+    },
+    {
+      "label": "hypothetical Jordan nilpotent group law across signs, m=1",
+      "kind": "exact finite rational algebra",
+      "passed": true,
+      "metadata": {}
+    },
+    {
+      "label": "hypothetical Jordan resolvent left inverse, m=2, beta=0",
+      "kind": "exact finite rational algebra",
+      "passed": true,
+      "metadata": {}
+    },
+    {
+      "label": "hypothetical Jordan resolvent right inverse, m=2, beta=0",
+      "kind": "exact finite rational algebra",
+      "passed": true,
+      "metadata": {}
+    },
+    {
+      "label": "hypothetical Jordan exact B^2/z^2 decomposition, m=2, beta=0",
+      "kind": "exact finite rational algebra",
+      "passed": true,
+      "metadata": {}
+    },
+    {
+      "label": "hypothetical Jordan resolvent left inverse, m=2, beta=1/8",
+      "kind": "exact finite rational algebra",
+      "passed": true,
+      "metadata": {}
+    },
+    {
+      "label": "hypothetical Jordan resolvent right inverse, m=2, beta=1/8",
+      "kind": "exact finite rational algebra",
+      "passed": true,
+      "metadata": {}
+    },
+    {
+      "label": "hypothetical Jordan exact B^2/z^2 decomposition, m=2, beta=1/8",
+      "kind": "exact finite rational algebra",
+      "passed": true,
+      "metadata": {}
+    },
+    {
+      "label": "hypothetical Jordan resolvent left inverse, m=2, beta=-1/8",
+      "kind": "exact finite rational algebra",
+      "passed": true,
+      "metadata": {}
+    },
+    {
+      "label": "hypothetical Jordan resolvent right inverse, m=2, beta=-1/8",
+      "kind": "exact finite rational algebra",
+      "passed": true,
+      "metadata": {}
+    },
+    {
+      "label": "hypothetical Jordan exact B^2/z^2 decomposition, m=2, beta=-1/8",
+      "kind": "exact finite rational algebra",
+      "passed": true,
+      "metadata": {}
+    },
+    {
+      "label": "hypothetical Jordan nilpotent group inverse for both signs, m=2, t=-2",
+      "kind": "exact finite rational algebra",
+      "passed": true,
+      "metadata": {}
+    },
+    {
+      "label": "hypothetical Jordan nilpotent group inverse for both signs, m=2, t=-1/2",
+      "kind": "exact finite rational algebra",
+      "passed": true,
+      "metadata": {}
+    },
+    {
+      "label": "hypothetical Jordan nilpotent group inverse for both signs, m=2, t=1/2",
+      "kind": "exact finite rational algebra",
+      "passed": true,
+      "metadata": {}
+    },
+    {
+      "label": "hypothetical Jordan nilpotent group inverse for both signs, m=2, t=2",
+      "kind": "exact finite rational algebra",
+      "passed": true,
+      "metadata": {}
+    },
+    {
+      "label": "hypothetical Jordan nilpotent group law across signs, m=2",
+      "kind": "exact finite rational algebra",
+      "passed": true,
+      "metadata": {}
+    },
+    {
+      "label": "hypothetical Jordan resolvent left inverse, m=3, beta=0",
+      "kind": "exact finite rational algebra",
+      "passed": true,
+      "metadata": {}
+    },
+    {
+      "label": "hypothetical Jordan resolvent right inverse, m=3, beta=0",
+      "kind": "exact finite rational algebra",
+      "passed": true,
+      "metadata": {}
+    },
+    {
+      "label": "hypothetical Jordan exact B^2/z^2 decomposition, m=3, beta=0",
+      "kind": "exact finite rational algebra",
+      "passed": true,
+      "metadata": {}
+    },
+    {
+      "label": "hypothetical Jordan resolvent left inverse, m=3, beta=1/8",
+      "kind": "exact finite rational algebra",
+      "passed": true,
+      "metadata": {}
+    },
+    {
+      "label": "hypothetical Jordan resolvent right inverse, m=3, beta=1/8",
+      "kind": "exact finite rational algebra",
+      "passed": true,
+      "metadata": {}
+    },
+    {
+      "label": "hypothetical Jordan exact B^2/z^2 decomposition, m=3, beta=1/8",
+      "kind": "exact finite rational algebra",
+      "passed": true,
+      "metadata": {}
+    },
+    {
+      "label": "hypothetical Jordan resolvent left inverse, m=3, beta=-1/8",
+      "kind": "exact finite rational algebra",
+      "passed": true,
+      "metadata": {}
+    },
+    {
+      "label": "hypothetical Jordan resolvent right inverse, m=3, beta=-1/8",
+      "kind": "exact finite rational algebra",
+      "passed": true,
+      "metadata": {}
+    },
+    {
+      "label": "hypothetical Jordan exact B^2/z^2 decomposition, m=3, beta=-1/8",
+      "kind": "exact finite rational algebra",
+      "passed": true,
+      "metadata": {}
+    },
+    {
+      "label": "hypothetical Jordan nilpotent group inverse for both signs, m=3, t=-2",
+      "kind": "exact finite rational algebra",
+      "passed": true,
+      "metadata": {}
+    },
+    {
+      "label": "hypothetical Jordan nilpotent group inverse for both signs, m=3, t=-1/2",
+      "kind": "exact finite rational algebra",
+      "passed": true,
+      "metadata": {}
+    },
+    {
+      "label": "hypothetical Jordan nilpotent group inverse for both signs, m=3, t=1/2",
+      "kind": "exact finite rational algebra",
+      "passed": true,
+      "metadata": {}
+    },
+    {
+      "label": "hypothetical Jordan nilpotent group inverse for both signs, m=3, t=2",
+      "kind": "exact finite rational algebra",
+      "passed": true,
+      "metadata": {}
+    },
+    {
+      "label": "hypothetical Jordan nilpotent group law across signs, m=3",
+      "kind": "exact finite rational algebra",
+      "passed": true,
+      "metadata": {}
+    },
+    {
+      "label": "hypothetical Jordan resolvent left inverse, m=4, beta=0",
+      "kind": "exact finite rational algebra",
+      "passed": true,
+      "metadata": {}
+    },
+    {
+      "label": "hypothetical Jordan resolvent right inverse, m=4, beta=0",
+      "kind": "exact finite rational algebra",
+      "passed": true,
+      "metadata": {}
+    },
+    {
+      "label": "hypothetical Jordan exact B^2/z^2 decomposition, m=4, beta=0",
+      "kind": "exact finite rational algebra",
+      "passed": true,
+      "metadata": {}
+    },
+    {
+      "label": "hypothetical Jordan resolvent left inverse, m=4, beta=1/8",
+      "kind": "exact finite rational algebra",
+      "passed": true,
+      "metadata": {}
+    },
+    {
+      "label": "hypothetical Jordan resolvent right inverse, m=4, beta=1/8",
+      "kind": "exact finite rational algebra",
+      "passed": true,
+      "metadata": {}
+    },
+    {
+      "label": "hypothetical Jordan exact B^2/z^2 decomposition, m=4, beta=1/8",
+      "kind": "exact finite rational algebra",
+      "passed": true,
+      "metadata": {}
+    },
+    {
+      "label": "hypothetical Jordan resolvent left inverse, m=4, beta=-1/8",
+      "kind": "exact finite rational algebra",
+      "passed": true,
+      "metadata": {}
+    },
+    {
+      "label": "hypothetical Jordan resolvent right inverse, m=4, beta=-1/8",
+      "kind": "exact finite rational algebra",
+      "passed": true,
+      "metadata": {}
+    },
+    {
+      "label": "hypothetical Jordan exact B^2/z^2 decomposition, m=4, beta=-1/8",
+      "kind": "exact finite rational algebra",
+      "passed": true,
+      "metadata": {}
+    },
+    {
+      "label": "hypothetical Jordan nilpotent group inverse for both signs, m=4, t=-2",
+      "kind": "exact finite rational algebra",
+      "passed": true,
+      "metadata": {}
+    },
+    {
+      "label": "hypothetical Jordan nilpotent group inverse for both signs, m=4, t=-1/2",
+      "kind": "exact finite rational algebra",
+      "passed": true,
+      "metadata": {}
+    },
+    {
+      "label": "hypothetical Jordan nilpotent group inverse for both signs, m=4, t=1/2",
+      "kind": "exact finite rational algebra",
+      "passed": true,
+      "metadata": {}
+    },
+    {
+      "label": "hypothetical Jordan nilpotent group inverse for both signs, m=4, t=2",
+      "kind": "exact finite rational algebra",
+      "passed": true,
+      "metadata": {}
+    },
+    {
+      "label": "hypothetical Jordan nilpotent group law across signs, m=4",
+      "kind": "exact finite rational algebra",
+      "passed": true,
+      "metadata": {}
+    },
+    {
+      "label": "radius-2r Poisson ratio at relative distance 0, r=1/8",
+      "kind": "exact finite rational algebra",
+      "passed": true,
+      "metadata": {
+        "exact_ratio": "1"
+      }
+    },
+    {
+      "label": "radius-2r Poisson ratio at relative distance 1/2, r=1/8",
+      "kind": "exact finite rational algebra",
+      "passed": true,
+      "metadata": {
+        "exact_ratio": "5/3"
+      }
+    },
+    {
+      "label": "radius-2r Poisson ratio at relative distance 1, r=1/8",
+      "kind": "exact finite rational algebra",
+      "passed": true,
+      "metadata": {
+        "exact_ratio": "3"
+      }
+    },
+    {
+      "label": "radius-2r boundary distance r has exact Harnack constant 3, r=1/8",
+      "kind": "exact finite rational algebra",
+      "passed": true,
+      "metadata": {}
+    },
+    {
+      "label": "radius-2r Poisson ratio at relative distance 0, r=1/4",
+      "kind": "exact finite rational algebra",
+      "passed": true,
+      "metadata": {
+        "exact_ratio": "1"
+      }
+    },
+    {
+      "label": "radius-2r Poisson ratio at relative distance 1/2, r=1/4",
+      "kind": "exact finite rational algebra",
+      "passed": true,
+      "metadata": {
+        "exact_ratio": "5/3"
+      }
+    },
+    {
+      "label": "radius-2r Poisson ratio at relative distance 1, r=1/4",
+      "kind": "exact finite rational algebra",
+      "passed": true,
+      "metadata": {
+        "exact_ratio": "3"
+      }
+    },
+    {
+      "label": "radius-2r boundary distance r has exact Harnack constant 3, r=1/4",
+      "kind": "exact finite rational algebra",
+      "passed": true,
+      "metadata": {}
+    },
+    {
+      "label": "radius-2r Poisson ratio at relative distance 0, r=1/100",
+      "kind": "exact finite rational algebra",
+      "passed": true,
+      "metadata": {
+        "exact_ratio": "1"
+      }
+    },
+    {
+      "label": "radius-2r Poisson ratio at relative distance 1/2, r=1/100",
+      "kind": "exact finite rational algebra",
+      "passed": true,
+      "metadata": {
+        "exact_ratio": "5/3"
+      }
+    },
+    {
+      "label": "radius-2r Poisson ratio at relative distance 1, r=1/100",
+      "kind": "exact finite rational algebra",
+      "passed": true,
+      "metadata": {
+        "exact_ratio": "3"
+      }
+    },
+    {
+      "label": "radius-2r boundary distance r has exact Harnack constant 3, r=1/100",
+      "kind": "exact finite rational algebra",
+      "passed": true,
+      "metadata": {}
+    },
+    {
+      "label": "finite hypothetical Jordan Bromwich cutoff H=24",
+      "kind": "ordinary non-interval floating comparison with an analytic finite-model bound",
+      "passed": true,
+      "absolute_error": "0.000078954935196760244286510828717594834",
+      "computed_bound": "0.0012548738452464018901378057216398258",
+      "rounding_tolerance": "1.0e-35",
+      "metadata": {
+        "size": 3,
+        "beta": "1/8",
+        "real_contour": "0.75",
+        "positive_time": "0.75",
+        "cutoff": 24,
+        "tail_formula": "exp(delta a) ||B^2 x||_infty / pi * sum_{k<m} H^(-k-2)/(k+2)",
+        "limitation": "Finite model and non-interval quadrature; no actual zeta spectrum or infinite growth certification."
+      }
+    },
+    {
+      "label": "finite hypothetical Jordan Bromwich cutoff H=48",
+      "kind": "ordinary non-interval floating comparison with an analytic finite-model bound",
+      "passed": true,
+      "absolute_error": "0.000002898718729338640087563735268062265",
+      "computed_bound": "0.00030928404424242806079187585111935157",
+      "rounding_tolerance": "1.0e-35",
+      "metadata": {
+        "size": 3,
+        "beta": "1/8",
+        "real_contour": "0.75",
+        "positive_time": "0.75",
+        "cutoff": 48,
+        "tail_formula": "exp(delta a) ||B^2 x||_infty / pi * sum_{k<m} H^(-k-2)/(k+2)",
+        "limitation": "Finite model and non-interval quadrature; no actual zeta spectrum or infinite growth certification."
+      }
+    },
+    {
+      "label": "full hypothetical Jordan group inverse with scalar for beta=1/8",
+      "kind": "ordinary non-interval floating calculation",
+      "passed": true,
+      "absolute_error": "0.0",
+      "tolerance": "1.0e-35",
+      "metadata": {
+        "positive_and_negative_time": 2
+      }
+    },
+    {
+      "label": "full hypothetical Jordan group inverse with scalar for beta=-1/8",
+      "kind": "ordinary non-interval floating calculation",
+      "passed": true,
+      "absolute_error": "0.0",
+      "tolerance": "1.0e-35",
+      "metadata": {
+        "positive_and_negative_time": 2
+      }
+    }
+  ]
+}

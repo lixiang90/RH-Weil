@@ -1,5 +1,10 @@
 # RH-Weil 文献索引
 
+2026-10-11中心化增长续核：NIST DLMF 25.2.8、25.2.11与25.4.3的
+右半平面展开、Euler积和反射对称，使用范围及实际反演的自足证明见
+[经典输入审查](supplements/2026-10-11-centered-growth-classical-input-audit.md)。
+没有新PDF或清点变化，也不以条件增长比较声明RH或首次谱实现。
+
 2026-10-11新增固定原件：Ralf Meyer，
 *A spectral interpretation for the zeros of the Riemann zeta function*，
 [math/0412277v3](https://arxiv.org/pdf/math/0412277v3)，
