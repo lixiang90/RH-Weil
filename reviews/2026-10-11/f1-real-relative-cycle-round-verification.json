@@ -1,0 +1,60 @@
+{
+  "schema": "rh-weil-f1-real-relative-cycle-round-verification-v1",
+  "date": "2026-10-11",
+  "baseline_commit": "fd335baf064fd735f9604ba20f7a9a676af393e5",
+  "completed_iteration_count": 1,
+  "rounds_since_cycle_review": 3,
+  "weil_f1_rounds_since_historical_review": 2,
+  "notes": [
+    "notes/509-f1-real-cutoff-kernel-and-relative-boundary.md",
+    "notes/510-f1-real-fourier-inversion-relative-cycle.md"
+  ],
+  "source_sha256_normalized_lf": {
+    "notes/509-f1-real-cutoff-kernel-and-relative-boundary.md": "73a51b19025f5e4ec120a366e4422e677abd6e46154f71d16c806c9af64f91b5",
+    "notes/510-f1-real-fourier-inversion-relative-cycle.md": "fdc3d7d73c9cda5708a6b13cc568a6dbd1a46f78ad6798e010e876aefe41ef6a",
+    "reviews/2026-10-11/f1-real-cutoff-kernel-review.md": "8c3d8fe3eb851f118c16eba5094dca2033cb191af84acd456e8e9ba18371aba9",
+    "reviews/2026-10-11/f1-real-relative-cycle-review.md": "6098249fa16a16cddf8997e2f69dd79f375946358e9c37d5c5a5a175bfdab516",
+    "reviews/2026-10-11/f1-real-spectral-bridge-review.md": "ecff00a28ba74a86c75d7f3623774cc607f936f6aa8c2c53bc4a5dcec6467e9e"
+  },
+  "validated_local_links": 291,
+  "modified_preexisting_files": [
+    "RESEARCH_BRANCHES.md",
+    "goals/review-cadence.json"
+  ],
+  "old_mathematical_notes_papers_formalization_unchanged": true,
+  "independent_reverse_reviews": {
+    "cutoff_kernel": "accepted: hard cutoff rank-one S1 proof, original kernels, signs, error bounds, integrated boundaries and local cycle",
+    "relative_cycle": "accepted: actual Fourier/inversion/red cutoff, right harmonic S1 proof, trace formula, HH1 nonzero and source scope",
+    "spectral_bridge": "accepted: actual Mellin normalization, Gamma phase derivative, full identity constant and ordinary Hilbert trace"
+  },
+  "root_corrections": [
+    "Corrected note509's source404 file link.",
+    "Made smooth spectral cutoff pointwise convergence explicit.",
+    "Restricted noncompactness statement to nonzero inputs.",
+    "Added explicit psi derivative bound and continuous S1 input bound.",
+    "Distinguished weighted HH1 charge from an integer Fredholm index."
+  ],
+  "numerical_diagnostic_identity_checks": 48,
+  "finite_numerical_bound_checks": 60,
+  "diagnostics_are_interval_or_lean_proofs": false,
+  "primary_inputs_checked": [
+    "Connes math/9811068v1 Theorem3 PDF21-23, finite-S source/Theorem4 PDF29-32",
+    "NIST DLMF5.9.6 (cosine Mellin), 5.9.16 (psi integral), 5.11.2 (psi asymptotic)",
+    "Note405 fixed real-place Fourier/PV normalization; full Gamma constant recomputed"
+  ],
+  "completed_scope": [
+    "Actual real hard cutoff S1 kernel and quantitative away-identity limit",
+    "Gaussian cutoff scalar comparison, no S1-norm interchange",
+    "Ordinary trace-class relative HH1 cycle on actual even local real representation",
+    "Full normalized archimedean trace for every original compact sharp-invariant test, including the identity constant",
+    "The exact prime-gap mixed pair has a strictly positive local HH1 half-charge"
+  ],
+  "limits": [
+    "The finite S-unit quotient representation and common relative-chain comparison remain open.",
+    "No direct-sum or tensor-unit lifting of the local real Hilbert space is assumed.",
+    "No principal divisor theorem, global Weil positivity, effective sections, Riemann-Roch, or RH.",
+    "No new zero proportion or zero-free bound; those optimizations stay paused.",
+    "No new Lean formalization or independent proof-kernel replay.",
+    "Internal independent review is not external peer review or a novelty certification."
+  ]
+}

@@ -1,0 +1,255 @@
+{
+  "schema": "rh-weil-real-relative-cycle-numerical-diagnostics-v1",
+  "precision_decimal_digits": 45,
+  "identity_checks": 48,
+  "finite_bound_checks": 60,
+  "maximum_identity_absolute_error": "9.9514032881978321e-45",
+  "checks": [
+    {
+      "label": "unitarity:-100.0",
+      "absolute_error": "0.0"
+    },
+    {
+      "label": "log-derivative-sign:-100.0",
+      "absolute_error": "9.9514032881978321e-45"
+    },
+    {
+      "label": "unitarity:-9.0",
+      "absolute_error": "0.0"
+    },
+    {
+      "label": "log-derivative-sign:-9.0",
+      "absolute_error": "2.83132981108539391e-46"
+    },
+    {
+      "label": "unitarity:-1.0",
+      "absolute_error": "0.0"
+    },
+    {
+      "label": "log-derivative-sign:-1.0",
+      "absolute_error": "4.30023500147451983e-47"
+    },
+    {
+      "label": "unitarity:-0.1",
+      "absolute_error": "1.75162308040602134e-46"
+    },
+    {
+      "label": "log-derivative-sign:-0.1",
+      "absolute_error": "7.7490299510516557e-46"
+    },
+    {
+      "label": "unitarity:0.0",
+      "absolute_error": "0.0"
+    },
+    {
+      "label": "log-derivative-sign:0.0",
+      "absolute_error": "0.0"
+    },
+    {
+      "label": "unitarity:0.1",
+      "absolute_error": "1.75162308040602134e-46"
+    },
+    {
+      "label": "log-derivative-sign:0.1",
+      "absolute_error": "7.7490299510516557e-46"
+    },
+    {
+      "label": "unitarity:1.0",
+      "absolute_error": "0.0"
+    },
+    {
+      "label": "log-derivative-sign:1.0",
+      "absolute_error": "4.30023500147451983e-47"
+    },
+    {
+      "label": "unitarity:9.0",
+      "absolute_error": "0.0"
+    },
+    {
+      "label": "log-derivative-sign:9.0",
+      "absolute_error": "2.83132981108539391e-46"
+    },
+    {
+      "label": "unitarity:100.0",
+      "absolute_error": "0.0"
+    },
+    {
+      "label": "log-derivative-sign:100.0",
+      "absolute_error": "9.9514032881978321e-45"
+    },
+    {
+      "label": "hard-kernel:-2.0:0.5",
+      "absolute_error": "0.0"
+    },
+    {
+      "label": "hard-kernel:-2.0:1.0",
+      "absolute_error": "0.0"
+    },
+    {
+      "label": "hard-kernel:-2.0:2.0",
+      "absolute_error": "0.0"
+    },
+    {
+      "label": "gaussian-kernel:-2.0:0.75",
+      "absolute_error": "0.0"
+    },
+    {
+      "label": "gaussian-kernel:-2.0:2.0",
+      "absolute_error": "0.0"
+    },
+    {
+      "label": "gaussian-kernel:-2.0:5.0",
+      "absolute_error": "0.0"
+    },
+    {
+      "label": "hard-kernel:-0.5:0.5",
+      "absolute_error": "0.0"
+    },
+    {
+      "label": "hard-kernel:-0.5:1.0",
+      "absolute_error": "0.0"
+    },
+    {
+      "label": "hard-kernel:-0.5:2.0",
+      "absolute_error": "0.0"
+    },
+    {
+      "label": "gaussian-kernel:-0.5:0.75",
+      "absolute_error": "4.37905770101505335e-47"
+    },
+    {
+      "label": "gaussian-kernel:-0.5:2.0",
+      "absolute_error": "8.75811540203010669e-47"
+    },
+    {
+      "label": "gaussian-kernel:-0.5:5.0",
+      "absolute_error": "8.75811540203010669e-47"
+    },
+    {
+      "label": "hard-kernel:0.5:0.5",
+      "absolute_error": "8.75811540203010669e-47"
+    },
+    {
+      "label": "hard-kernel:0.5:1.0",
+      "absolute_error": "0.0"
+    },
+    {
+      "label": "hard-kernel:0.5:2.0",
+      "absolute_error": "1.75162308040602134e-46"
+    },
+    {
+      "label": "gaussian-kernel:0.5:0.75",
+      "absolute_error": "0.0"
+    },
+    {
+      "label": "gaussian-kernel:0.5:2.0",
+      "absolute_error": "1.75162308040602134e-46"
+    },
+    {
+      "label": "gaussian-kernel:0.5:5.0",
+      "absolute_error": "1.75162308040602134e-46"
+    },
+    {
+      "label": "hard-kernel:2.0:0.5",
+      "absolute_error": "8.75811540203010669e-47"
+    },
+    {
+      "label": "hard-kernel:2.0:1.0",
+      "absolute_error": "0.0"
+    },
+    {
+      "label": "hard-kernel:2.0:2.0",
+      "absolute_error": "0.0"
+    },
+    {
+      "label": "gaussian-kernel:2.0:0.75",
+      "absolute_error": "0.0"
+    },
+    {
+      "label": "gaussian-kernel:2.0:2.0",
+      "absolute_error": "8.75811540203010669e-47"
+    },
+    {
+      "label": "gaussian-kernel:2.0:5.0",
+      "absolute_error": "8.75811540203010669e-47"
+    },
+    {
+      "label": "full-time-spectral-pairing:0.4:eta0=1",
+      "absolute_error": "0.0"
+    },
+    {
+      "label": "full-time-spectral-pairing:0.4:eta0=0",
+      "absolute_error": "0.0"
+    },
+    {
+      "label": "full-time-spectral-pairing:0.8:eta0=1",
+      "absolute_error": "0.0"
+    },
+    {
+      "label": "full-time-spectral-pairing:0.8:eta0=0",
+      "absolute_error": "0.0"
+    },
+    {
+      "label": "full-time-spectral-pairing:1.3:eta0=1",
+      "absolute_error": "0.0"
+    },
+    {
+      "label": "full-time-spectral-pairing:1.3:eta0=0",
+      "absolute_error": "0.0"
+    }
+  ],
+  "time_spectral_pairings": [
+    {
+      "sigma": "0.4",
+      "eta_at_zero": 1,
+      "time_pairing": "1.7960441612960386387729466324607298",
+      "spectral_pairing": "1.7960441612960386387729466324607298",
+      "compact_support": false
+    },
+    {
+      "sigma": "0.4",
+      "eta_at_zero": 0,
+      "time_pairing": "0.19578573840555662655490126791194421",
+      "spectral_pairing": "0.19578573840555662655490126791194421",
+      "compact_support": false
+    },
+    {
+      "sigma": "0.8",
+      "eta_at_zero": 1,
+      "time_pairing": "2.6915830607163261751368459770220033",
+      "spectral_pairing": "2.6915830607163261751368459770220033",
+      "compact_support": false
+    },
+    {
+      "sigma": "0.8",
+      "eta_at_zero": 0,
+      "time_pairing": "0.87011075522745946962648948765150247",
+      "spectral_pairing": "0.87011075522745946962648948765150247",
+      "compact_support": false
+    },
+    {
+      "sigma": "1.3",
+      "eta_at_zero": 1,
+      "time_pairing": "3.3660748790671556282632690606346017",
+      "spectral_pairing": "3.3660748790671556282632690606346017",
+      "compact_support": false
+    },
+    {
+      "sigma": "1.3",
+      "eta_at_zero": 0,
+      "time_pairing": "2.3696535893779524925990536241761247",
+      "spectral_pairing": "2.3696535893779524925990536241761247",
+      "compact_support": false
+    }
+  ],
+  "source_sha256_normalized_lf": {
+    "notes/509-f1-real-cutoff-kernel-and-relative-boundary.md": "73a51b19025f5e4ec120a366e4422e677abd6e46154f71d16c806c9af64f91b5",
+    "notes/510-f1-real-fourier-inversion-relative-cycle.md": "fdc3d7d73c9cda5708a6b13cc568a6dbd1a46f78ad6798e010e876aefe41ef6a"
+  },
+  "limits": [
+    "Floating point quadrature; no outward-rounded interval certificate.",
+    "Does not prove the Schatten ideal, HH1 descent, or infinite source comparisons.",
+    "Gaussian eta tests are noncompact diagnostic functions, not the fixed prime-gap mixed pair.",
+    "No Lean proof or RH, zero-free-region, or zero-proportion theorem."
+  ]
+}
