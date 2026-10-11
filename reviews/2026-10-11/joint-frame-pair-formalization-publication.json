@@ -1,0 +1,31 @@
+{
+  "formal_repository": "https://github.com/lixiang90/RH-Zero-Proportion-Formalization",
+  "published_commit": "14362fe21fa871a1a951597c573d1601f4755676",
+  "remote_main_commit": "14362fe21fa871a1a951597c573d1601f4755676",
+  "worktree_clean_at_confirmation": true,
+  "ratio": "66812491/99194552",
+  "ordinary_lean_complete": true,
+  "fresh_headline_axiom_audit_count": 8,
+  "allowed_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "independent_checked_declarations": 84362,
+  "independent_nano_elapsed_seconds": 697.5319999998901,
+  "formal_receipt_bindings": {
+    "verification/joint-frame-pair-complete-formal-kernel.json": "f702b072ef6844833b2535e4986a0e870063e22993ef99eef19af34b8625f012",
+    "verification/joint-frame-pair-complete-independent-nanoda.json": "5bcfb2e764f3cd3e7fa2d2be398ed07a164ca21960a1dc01a59a359aeca61c02",
+    "verification/joint-frame-pair-publication-integrity.json": "6aa87b927c955430ac4f0a5968ccd6aa1ab364151bfb39c52c29bc5abb7856af",
+    "verification/joint-frame-pair-independent-formal-data-review.json": "19c85cedc56f4f116de526a64ba9cbb478eade0b7bec8442a971401a702c9caf",
+    "verification/joint-frame-pair-independent-formal-data-review.md": "c8cd7162781083afe6769b9b66fce50e84cad797cc895ea3ec2180c476bf8142",
+    "papers/joint-frame-pair-lean-verification-addendum.md": "83f3bc28fa891e8f9c9ab1a7008ab361aa99af2491ddda0bd4c76dd75f2d5227"
+  },
+  "old_tracked_paths_retained": 758,
+  "old_readme_archived_verbatim": true,
+  "mathematical_paper_snapshot_unchanged": true,
+  "whole_submission_compiled": false,
+  "website_accepted": false,
+  "research_round": 505,
+  "new_research_rounds_for_formal_engineering": 0
+}

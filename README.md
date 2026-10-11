@@ -28,17 +28,17 @@
 | 九点共享核值与简单临界线零点 | [TeX](papers/nine-point-joint-minorant-simple-critical-paper.tex) · [PDF](output/pdf/nine-point-joint-minorant-simple-critical-paper.pdf) | 比例下界提高至 `66812491/99194897 ≈ 67.3547662437%`。完整低集覆盖与289份精确有理对偶；保留原PC8连续与计算准入范围，非全链Lean内核证明。 |
 | 原点表切线与扩大九点证书 | [TeX](papers/expanded-nine-point-tangent-simple-critical-paper.tex) · [PDF](output/pdf/expanded-nine-point-tangent-simple-critical-paper.pdf) | 简单临界线比例下界 `66812491/99194740 ≈ 67.3548728491%`。241胞完整覆盖、2399份精确对偶；独立仓库已核验完整模块化 Lean 证明，信任范围在正文明确。 |
 | 九点总跨度平方的完整付款 | [TeX](papers/ninth-span-simple-critical-paper.tex) · [PDF](output/pdf/ninth-span-simple-critical-paper.pdf) | 已形式化的简单临界线比例下界 `941021/1397107 ≈ 67.3549699486%`。独立仓库已核验完整无条件 Lean 证明及独立内核重放，原论文快照保留。 |
-| 九点证书的低帧加强 | [TeX](papers/low-frame-strengthened-simple-critical-paper.tex) · [PDF](output/pdf/low-frame-strengthened-simple-critical-paper.pdf) | 数学证书给出 `668124910/991945881 ≈ 67.3549759919%`。加强十个单帧胞并完整重放2399拼接域，保留原连续与解析输入；新增改进尚未移植 Lean。 |
-| 单帧与拼接域联动加强 | [TeX](papers/joint-frame-pair-simple-critical-paper.tex) · [PDF](output/pdf/joint-frame-pair-simple-critical-paper.pdf) | 数学证书给出 `66812491/99194552 ≈ 67.3550005044%`，严格跨67.355%。241单帧与2399拼接域完整有理付款、连续端点和原点表已独立核验；新增Lean验证单列于独立仓库。 |
+| 九点证书的低帧加强 | [TeX](papers/low-frame-strengthened-simple-critical-paper.tex) · [PDF](output/pdf/low-frame-strengthened-simple-critical-paper.pdf) | 数学证书给出 `668124910/991945881 ≈ 67.3549759919%`。加强十个单帧胞并完整重放2399拼接域，保留原连续与解析输入；原证书保留，较强的联动加强结果已完成 Lean 验证。 |
+| 单帧与拼接域联动加强 | [TeX](papers/joint-frame-pair-simple-critical-paper.tex) · [PDF](output/pdf/joint-frame-pair-simple-critical-paper.pdf) | 已形式化的简单临界线比例下界 `66812491/99194552 ≈ 67.3550005044%`，严格跨67.355%。完整连续覆盖和实际 ζ 计数通过普通 Lean；独立内核核验 84,362 个声明，证据维护在独立仓库。 |
 
 三篇无零边界稿引用固定二次域全 Hecke `7/8` 结果及明确列出的通用引理，研究补偿几何、真实 moment 的可用范围和参数反馈。最新稿给出指定三次根的严格边界 `σ* ≈ 0.874957019420099`。正文重证相应几何、全部物理范围与全族延拓；结论覆盖指定有限阶 Hecke 族、Dirichlet 族及 zeta，允许主极点并排除边界线。这些论文的交付版本没有独立重证外部整篇论文或改善简单临界线比例。现已在独立仓库核验其核心代数、反馈费用及通用延拓归约；完整算术输入的 Lean 实现仍开放。引用前件、连续证明、有限代数检查及独立审查分列，入口见 [论文目录](papers/README.md)。
 
-比例论文保留全部线外零点和重数，把近对与分离集的能量无损转入实际计数。九点总跨度改进已把完整有理证书、连续覆盖和实际 ζ 零点计数在 Lean 中连通，并通过独立内核重放。后续低帧加强取得更高的数学下界，其新增证明尚未移植 Lean；有限检查、形式化证明和独立审查分别记录。
+比例论文保留全部线外零点和重数，把近对与分离集的能量无损转入实际计数。最新单帧与拼接域联动改进已把完整有理证书、连续覆盖和实际 ζ 零点计数在 Lean 中连通，并通过独立内核重放。公共数学证书和 Lean 的201胞适配证人分别保留；有限检查、形式化证明和独立审查分别记录。
 
 零点比例的新Lean形式化、内核证书与网站提交记录集中维护在独立仓库
 [RH-Zero-Proportion-Formalization](https://github.com/lixiang90/RH-Zero-Proportion-Formalization)。
 本仓库继续保存对应论文与研究历史；新仓库按riemannzeta.fun的固定Lean／Mathlib合同构建，
-新比例 `941021/1397107` 的完整模块化 Lean 证明及独立内核重放已通过，六个最终声明仅依赖三个标准公理；独立内核核验 82,804 个声明。旧比例的证明、论文、单文件提交和验证记录继续保留，署名为 Li Xiang（lixiang90）。证明结构与结果见独立仓库的[形式化说明](https://github.com/lixiang90/RH-Zero-Proportion-Formalization/blob/main/docs/ninth-span-formalization.md)和[验证补充说明](https://github.com/lixiang90/RH-Zero-Proportion-Formalization/blob/main/papers/ninth-span-lean-verification-addendum.md)。网站的完整资源约束与正式验收仍待完成，尚未获得网站记录；最新比例改进、两cutoff联合覆盖、各路线状态和未付混合矩见[研究笔记505](notes/505-joint-frame-pair-record-and-two-cutoff-coverage.md)及[第四周期复盘](goals/reviews/2026-10-11-original-route-review-cycle-4.md)。此前论文和证明记录保持各自历史版本。
+最新比例 `66812491/99194552` 的完整模块化 Lean 证明及独立内核重放已通过，八个最终声明仅依赖三个标准公理；独立内核核验 84,362 个声明。旧比例的证明、论文、单文件提交和验证记录继续保留，署名为 Li Xiang（lixiang90）。证明结构与结果见独立仓库的[形式化说明](https://github.com/lixiang90/RH-Zero-Proportion-Formalization/blob/main/docs/joint-frame-pair-formalization.md)和[验证补充说明](https://github.com/lixiang90/RH-Zero-Proportion-Formalization/blob/main/papers/joint-frame-pair-lean-verification-addendum.md)，本仓库的[发布绑定](reviews/2026-10-11/joint-frame-pair-formalization-publication.json)记录提交与收据哈希。网站的完整资源约束与正式验收仍待完成，尚未获得网站记录；最新比例改进、两cutoff联合覆盖、各路线状态和未付混合矩见[研究笔记505](notes/505-joint-frame-pair-record-and-two-cutoff-coverage.md)及[第四周期复盘](goals/reviews/2026-10-11-original-route-review-cycle-4.md)。此前论文和证明记录保持各自历史版本。
 
 非零区域的新增形式化另行维护于
 [RH-Zero-Free-Formalization](https://github.com/lixiang90/RH-Zero-Free-Formalization)，

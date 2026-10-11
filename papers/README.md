@@ -133,8 +133,9 @@ python scripts/check_repo_layout.py
 联动旧84branch与全部保留付款，完整2399域与241单帧及反射给
 `66812491/99194552≈67.3550005044%`。四页新论文署名Li Xiang（lixiang90）；
 [构建清单](../reviews/2026-10-11/joint-frame-pair-paper-build-manifest.json)
-记录源／PDF、实际有限检查与独立审查。其后Lean与独立kernel检验单列新收据，
-原论文、命名空间和网站提交继续保留。
+记录源／PDF、实际有限检查与独立审查。其后完整Lean及八根传递公理审计、
+独立kernel的84,362声明重放均通过；证据见[独立仓库验证补充说明](https://github.com/lixiang90/RH-Zero-Proportion-Formalization/blob/main/papers/joint-frame-pair-lean-verification-addendum.md)。
+原论文、命名空间和网站提交继续保留，网站尚未验收。
 
 ```powershell
 pdflatex -interaction=nonstopmode -halt-on-error -output-directory=output/pdf papers/joint-frame-pair-simple-critical-paper.tex
