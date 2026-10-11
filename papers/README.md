@@ -21,6 +21,7 @@
 | 原点表切线与扩大九点证书 | [expanded-nine-point-tangent-simple-critical-paper.tex](expanded-nine-point-tangent-simple-critical-paper.tex) | [PDF](../output/pdf/expanded-nine-point-tangent-simple-critical-paper.pdf) | pdfLaTeX |
 | 九点总跨度平方与简单临界线零点 | [ninth-span-simple-critical-paper.tex](ninth-span-simple-critical-paper.tex) | [PDF](../output/pdf/ninth-span-simple-critical-paper.pdf) | pdfLaTeX |
 | 九点证书的低帧加强与简单临界线零点 | [low-frame-strengthened-simple-critical-paper.tex](low-frame-strengthened-simple-critical-paper.tex) | [PDF](../output/pdf/low-frame-strengthened-simple-critical-paper.pdf) | pdfLaTeX |
+| 单帧与拼接域联动加强 | [joint-frame-pair-simple-critical-paper.tex](joint-frame-pair-simple-critical-paper.tex) | [PDF](../output/pdf/joint-frame-pair-simple-critical-paper.pdf) | pdfLaTeX |
 
 新稿将笔记 441–445 的结果整理为正式论文：在明确引用原稿通用结果及全 Hecke \(7/8\) 结论的前提下，推出严格半平面 \(\Re s>69999/80000\) 无零。正文给出可变槽 low 证明、局部 Euler 域、实际 detector 容量、联合误差、连续证书及完整延拓反证；不宣称独立验收原稿或完成新的 Lean 认证。最终源稿、PDF 和独立审查的哈希及编译情况见 [构建清单](../reviews/2026-10-07/69999-paper-build-manifest.json)。
 
@@ -126,3 +127,16 @@ python scripts/check_repo_layout.py
 保存三篇无零边界论文的原字节副本、最佳三次边界的新增 Lean 源码及内核验证记录。
 核心代数、反馈与通用延拓已核验；实际无零定理仍带显式算术信号前件，
 完整算术证明尚待实现。历史论文的源稿、PDF 与已有审查哈希保持原版。
+
+
+联动加强新稿记录505：四十原单帧补丁（共43问题）、十拼接域二十闭分支，
+联动旧84branch与全部保留付款，完整2399域与241单帧及反射给
+`66812491/99194552≈67.3550005044%`。四页新论文署名Li Xiang（lixiang90）；
+[构建清单](../reviews/2026-10-11/joint-frame-pair-paper-build-manifest.json)
+记录源／PDF、实际有限检查与独立审查。其后Lean与独立kernel检验单列新收据，
+原论文、命名空间和网站提交继续保留。
+
+```powershell
+pdflatex -interaction=nonstopmode -halt-on-error -output-directory=output/pdf papers/joint-frame-pair-simple-critical-paper.tex
+pdflatex -interaction=nonstopmode -halt-on-error -output-directory=output/pdf papers/joint-frame-pair-simple-critical-paper.tex
+```

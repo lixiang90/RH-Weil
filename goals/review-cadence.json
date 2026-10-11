@@ -5,12 +5,12 @@
   "target_rounds": 6,
   "maximum_rounds": 8,
   "counting_unit": "completed research continuation iteration, not tool calls or files",
-  "rounds_since_review": 3,
-  "last_review": "goals/reviews/2026-10-08-original-route-review-cycle-3.md",
-  "last_review_baseline_commit": "37eb770afac0317b9329435fe0eabb50bc0f0874",
+  "rounds_since_review": 0,
+  "last_review": "goals/reviews/2026-10-11-original-route-review-cycle-4.md",
+  "last_review_baseline_commit": "89c42c80cd2482a8b3ebf145ea9a4338ad6b1a26",
   "last_review_completed_round_count": 4,
-  "last_review_trigger": "actual proportion gain; early review at round four",
-  "last_completed_round": "notes/504-low-frame-strengthening-and-mixed-sixth-restoration.md",
+  "last_review_trigger": "joint full-domain proportion improvement and actual two-cutoff coverage repair; early review at round four",
+  "last_completed_round": "notes/505-joint-frame-pair-record-and-two-cutoff-coverage.md",
   "last_completed_round_date": "2026-10-11",
-  "last_completed_round_baseline_commit": "2d2eb99b82f944b23437cd88797cdfd178021fb0"
+  "last_completed_round_baseline_commit": "89c42c80cd2482a8b3ebf145ea9a4338ad6b1a26"
 }

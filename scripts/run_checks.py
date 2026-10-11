@@ -67,6 +67,14 @@ CHECKS = (
         [sys.executable, "am_range_eight_periodic_ceiling_certificate.py", "--check"],
     ),
     (
+        "AM joint frame and pair full real-domain rational certificate",
+        [sys.executable, "am_joint_frame_pair_certificate.py", "--check"],
+    ),
+    (
+        "conditional two-cutoff joint-witness coverage budget",
+        [sys.executable, "hybrid_two_cutoff_coverage_budget.py", "--check"],
+    ),
+    (
         "conditional mixed sixth-power restoration finite budget",
         [sys.executable, "hybrid_mixed_sixth_restoration_budget.py", "--check"],
     ),

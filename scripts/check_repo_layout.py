@@ -21,6 +21,7 @@ PAPERS = (
     "expanded-nine-point-tangent-simple-critical-paper",
     "ninth-span-simple-critical-paper",
     "low-frame-strengthened-simple-critical-paper",
+    "joint-frame-pair-simple-critical-paper",
 )
 
 

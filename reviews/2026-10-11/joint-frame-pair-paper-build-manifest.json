@@ -1,0 +1,37 @@
+{
+  "status": "FINAL_PDF_AND_MATHEMATICAL_CERTIFICATE_PASS",
+  "author": "Li Xiang (lixiang90)",
+  "date": "2026-10-11",
+  "baseline": "89c42c80cd2482a8b3ebf145ea9a4338ad6b1a26",
+  "simple_critical_proportion": "66812491/99194552",
+  "uniform_reward": "805448/100000000",
+  "pages": 4,
+  "pdf_bytes": 300854,
+  "source_and_artifact_sha256": {
+    "papers/joint-frame-pair-simple-critical-paper.tex": "703efcb80e3ff5a37c5bf7b1c4942a986c9bc5c248698b81f23c9f93350d858f",
+    "output/pdf/joint-frame-pair-simple-critical-paper.pdf": "6c20e01f24e4e44064682c184134d248e89968da0ed81d428a8a910a7b5b7fd2",
+    "scripts/am_joint_frame_pair_certificate.py": "717570346300346adcc0658761cd979c4756a1666d5591383a642cb8e9221676",
+    "output/am-joint-frame-pair-certificate.json": "cd031c3b3e7daa85f47a52ac4fd3c2d6d8512105c809061b39dfd8fa968b77d7",
+    "reviews/2026-10-11/am-joint-frame-pair-exact-check.json": "728caa63f9b529137728eaa78df41d65d81b2a4e43c8f1707654e79622b185b6",
+    "reviews/2026-10-11/joint-frame-pair-and-two-cutoff-independent-review-checkpoint.md": "820ddf2fc32f9c427cf606d3e876e15a063e6ecabd1d6a844104f07e5d7747dc",
+    "reviews/2026-10-11/two-cutoff-joint-witness-coverage.md": "a886654b5fdcd13a488f3b32406ef999ef459f427ed56b30d73848ebc7a68e12",
+    "scripts/hybrid_two_cutoff_coverage_budget.py": "c9803410aa196f25f2db5a867dd5e56b832ef35627ba76df38f77f6cb7cc1ba4",
+    "reviews/2026-10-11/two-cutoff-coverage-exact-check.json": "6f06fa0d94d2dc0206ea345207c8a5180e5f55ba86f1a645118cb697d64768a2",
+    "goals/reviews/2026-10-11-original-route-review-cycle-4.md": "3e566547a11422dcaeac00a77e89761c51f87b4c9d3ffe7316237b435ee263f3"
+  },
+  "rendered_all_final_pages": {
+    "tmp\\pdfs\\joint-frame-pair-20261011\\page-1.png": "74926844e841156da569b1bd419b286be035f8b22c813ead02ad865767b2af3d",
+    "tmp\\pdfs\\joint-frame-pair-20261011\\page-2.png": "d06bacb3a719232a26954a26de436a46a1eb93d10089fb31094a52ea426091be",
+    "tmp\\pdfs\\joint-frame-pair-20261011\\page-3.png": "98b44bf686a593129335275f1eca6bdbc2b2252d8adba0e9d4ebcbbd111298de",
+    "tmp\\pdfs\\joint-frame-pair-20261011\\page-4.png": "41c3275b81e04648eec2cd8dab1de7f325bd6f0f4ce91180e31a64255177a0f4"
+  },
+  "all_final_pages_visually_reviewed": true,
+  "overfull_or_underfull": false,
+  "builtin_source_compiler_succeeded": true,
+  "pdf_export_compiler": "MiKTeX pdfLaTeX, two final passes",
+  "new_formal_proof_status": "recorded separately in RH-Zero-Proportion-Formalization; this paper snapshot does not claim a kernel check",
+  "website_accepted": false,
+  "new_zero_free_region": false,
+  "review_completed_rounds": 4,
+  "cadence_reset": 0
+}

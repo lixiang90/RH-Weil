@@ -1,0 +1,49 @@
+{
+  "status": "PASS",
+  "scope": "all real-gap frame and pair finite certificates under unchanged continuous original AM/capture admission; all-zero analytic assembly unchanged",
+  "certificate_canonical_lf_sha256": "cd031c3b3e7daa85f47a52ac4fd3c2d6d8512105c809061b39dfd8fa968b77d7",
+  "checker_canonical_lf_sha256": "717570346300346adcc0658761cd979c4756a1666d5591383a642cb8e9221676",
+  "source_matched": true,
+  "frame_unsplit_patches": 39,
+  "frame_split_patches": 1,
+  "frame_closed_branches": 4,
+  "frame_original_YA_retained": 201,
+  "frame_positive_dual_support": 1194,
+  "frame_added_rows": 449,
+  "new_pair_domains": 10,
+  "new_pair_closed_branches": 20,
+  "prior_ninth_closed_branches": 84,
+  "old_pair_multipliers_retained": 2342,
+  "new_pair_positive_dual_support": 810,
+  "new_pair_positive_tangent_rows": 730,
+  "used_original_points": 425,
+  "ordered_low_low_domains": 2399,
+  "global_F8_reward": "402547/50000000",
+  "minimum_exact_low_frame": "8442028677986126589157/1048576000000000000000000",
+  "minimum_frame_labels": [
+    40
+  ],
+  "minimum_low_low": "32992055894668884928258784247/4096000000000000000000000000000",
+  "minimum_pair_labels": [
+    [
+      406,
+      70
+    ]
+  ],
+  "safe_outside": "1610897/200000000",
+  "exact_outside": "16891485543266126589157/2097152000000000000000000",
+  "uniform_reward": "100681/12500000",
+  "maximum_reward_paid_by_current_data": "16891485543266126589157/2097152000000000000000000",
+  "simple_critical_proportion": "66812491/99194552",
+  "simple_critical_percent": 67.35500050446319,
+  "gain_percentage_points_exact": "602982731275/24598906818510078",
+  "gain_percentage_points": 2.4512582438064695e-05,
+  "exact_current_data_proportion": "48315844526080000000000/71733121188163237014167",
+  "strict_margins": {
+    "low_low": "905814668884928258784247/4096000000000000000000000000000",
+    "outside": "1/200000000"
+  },
+  "elapsed_seconds": 5.030999999959022,
+  "new_lean_or_nanoda_check_performed": false,
+  "website_accepted": false
+}

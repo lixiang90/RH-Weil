@@ -1,0 +1,293 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[margin=26mm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern,microtype}
+\usepackage{amsmath,amssymb,amsthm,mathtools,booktabs}
+\usepackage[hidelinks]{hyperref}
+\hypersetup{pdftitle={A 67.355 Percent Certificate for Simple Critical Zeros},pdfauthor={Li Xiang}}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newcommand{\R}{\mathbb R}
+\title{A 67.355\% Certificate for Simple Critical Zeros\\
+of the Riemann Zeta Function}
+\author{Li Xiang\\\small\texttt{lixiang90}}
+\date{October 11, 2026}
+\begin{document}
+\maketitle
+\begin{abstract}
+We strengthen both components of the retained nine-point certificate:
+its global eight-point floor and its complete compatible-pair cover.
+Forty of 241 original captured frames receive replacement rational duals;
+one requires four closed branches. Ten compatible-pair domains receive
+twenty closed total-span branches. All 2,399 compatible domains are
+rechecked with exact rational arithmetic, including the 47 previously
+subdivided domains and every retained original dual. The resulting
+uniform reward is $805448/10^8$. The unchanged all-zero lossless transport
+gives the lower proportion
+\[
+ p=\frac{66812491}{99194552}=0.6735500050446319\ldots>0.67355
+\]
+for simple critical-line zeros relative to all nontrivial zeros counted
+with multiplicity. The new finite certificate uses only original
+certified kernel points and convexity regions. Its mathematical proof
+and exact checker are presented here; subsequent Lean and independent
+kernel verification are recorded separately. No website acceptance
+or exhaustive global priority claim is made.
+\end{abstract}
+
+\section{Statement and fixed framework}
+
+Let $N(T)$ count all nontrivial zeros of $\zeta$ in $(0,T]$ with
+multiplicity, and let $N_0^s(T)$ count simple zeros on $\Re s=1/2$.
+The same superscripts on $N(T,2T)$ denote the interval $(T,2T]$.
+
+\begin{theorem}\label{thm:main}
+Under the retained proved continuous AM certificate and its lossless
+all-zero analytic transport,
+\[
+ \liminf_{T\to\infty}\frac{N_0^s(T)}{N(T)}\ge p,
+ \qquad
+ \liminf_{T\to\infty}\frac{N_0^s(T,2T)}{N(T,2T)}\ge p,
+ \quad p=\frac{66812491}{99194552}.
+\]
+In particular the proportion $67.355\%$ holds for all sufficiently
+large heights. Simple-zero inclusion implies the same lower bounds
+for distinct critical-line zeros.
+\end{theorem}
+
+Here ``under'' identifies the retained proved components of the
+certificate, not a new moment or correlation conjecture. We compare
+with the project's preceding bound $668124910/991945881$ \cite{Low}:
+\[
+ 100\left(p-\frac{668124910}{991945881}\right)
+ =\frac{602982731275}{24598906818510078}
+ =0.0000245125824380\ldots
+\]
+percentage points. The strict crossing is exact:
+$p-13471/20000=1251/247986380000>0$.
+
+The unchanged kernel is $K(t)=\int_{-1/2}^{1/2}f(u)e^{-2\pi itu}\,du$,
+with $w(t)=K(t)^2$, where the positive normalized density is
+\[
+ f(u)=\frac{\cos(\sqrt2u)+\sum_{j=1}^{12}c_j\cos(2\pi ju)}
+ {\sqrt2\sin(1/\sqrt2)}.
+\]
+The coefficient vector $10^9(c_1,\ldots,c_{12})$ is
+\[
+\begin{split}
+(&12310798,-15041681,3867664,6489926,-992327,5580097,\\
+ &-6846472,3781297,-5670353,3355089,-450523,-218483).
+\end{split}
+\]
+Thus $0\le w\le1$. For seven gaps $h_r\ge4/5$, put
+\[
+ F_8(h)=\sum_{r=0}^6b_rh_r+
+ \sum_{0\le i<j\le7}a_{ij}w(h_i+\cdots+h_{j-1}),
+\]
+where $10^8b=(28898,57272,75526,80958,75526,57272,28898)$.
+The successive rows of $10^8a_{ij}$ are
+\[
+\begin{array}{l}
+(13630830,0,19565904,20317441,45030671,100000000,200000000),\\
+(29997996,30621878,47766489,79682558,109938656,100000000),\\
+(37356140,69378121,65335210,79682558,45030671),\\
+(38030065,69378121,47766489,20317441),\\
+(37356140,30621878,19565904),\quad(29997996,0),\quad(13630830).
+\end{array}
+\]
+Both arrays are reflection invariant. On eight gaps $g_r\ge4/5$,
+\[
+ F_9(g)=\frac{F_8(g_0,\ldots,g_6)+F_8(g_1,\ldots,g_7)}2
+            +2w\left(\sum_{r=0}^7g_r\right).
+\]
+
+\section{Complete real cover and joint improvement}\label{sec:cover}
+
+The retained strong capture states that $F_8<\tau$, with
+$\tau=805803/10^8$, implies membership in one of 241 closed original
+cells or their reflections \cite{PC8,Ninth}. The compatible-pair
+geometry contains exactly 2,399 ordered physical domains. Capture,
+reflection and compatibility are statements on real gaps; integer
+endpoints encode rational inequalities, not a discretization of the
+gaps. Equalities on the boundary are included.
+
+\begin{lemma}\label{lem:frame}
+For every admissible real seven-gap frame,
+$F_8\ge\ell:=805094/10^8$.
+\end{lemma}
+\begin{proof}
+The finite proof on all 241 cells is given in
+Section~\ref{sec:finite}. Reflection preserves the functional and
+cell constraints. Outside the captured union the contrapositive of
+strong capture gives $F_8\ge\tau>\ell$.
+\end{proof}
+
+\begin{lemma}\label{lem:pair}
+Every compatible captured pair satisfies $F_9\ge M$, where
+\[
+ M=\frac{32992055894668884928258784247}
+         {4096000000000000000000000000000}
+   =0.008054701146\ldots.
+\]
+\end{lemma}
+\begin{proof}
+The complete exact reconstruction in Section~\ref{sec:finite}
+retains 2,342 original pair duals, 47 previous replacements with 84
+closed branches, and ten new replacements with twenty closed branches.
+Their indices are disjoint and their union is the complete compatible
+domain list. Every real branch is paid; the displayed fraction is the
+minimum of the recomputed bounds. The closed adjacent endpoints have
+no coverage gap.
+\end{proof}
+
+\begin{proposition}\label{prop:local}
+For every admissible real eight-gap frame,
+$F_9\ge c:=805448/10^8$.
+\end{proposition}
+\begin{proof}
+If both subframes lie in the captured union, Lemma~\ref{lem:pair}
+gives $F_9\ge M>c$. Otherwise at least one subframe has $F_8\ge\tau$.
+Lemma~\ref{lem:frame} pays the other subframe, and the extra square is
+nonnegative. Hence
+\[
+ F_9\ge\frac{\tau+\ell}{2}
+       =\frac{1610897}{200000000}
+       =c+\frac1{200000000}>c.
+\]
+Thus both parts of the complete real cover pay the same target.
+\end{proof}
+
+\section{Exact finite certificates}\label{sec:finite}
+
+We reconstruct the original YA lower bound for every captured cell.
+There are exactly forty original cells below the new floor. Their
+zero-based labels are
+\[
+\begin{split}
+(&0,17,19,26,33,37,46,53,61,64,67,68,69,70,71,72,73,74,78,\\
+ &110,111,120,130,131,143,144,148,151,158,159,160,163,165,166,\\
+ &173,183,184,213,215,240).
+\end{split}
+\]
+Thirty-nine cells have one replacement dual each. Cell 17 uses four
+closed contiguous intervals of its first gap, with exact union equal
+to the original first-gap interval. All 201 remaining cells keep
+their original YA payment. Each problem has 33 physical variables:
+seven gaps and 26 kernel squares. The boxes of the squares remain
+the full $[0,1]$ intervals. Across these 43 paid problems there are
+449 added rows and 1,194 positive dual multipliers.
+
+The ten new pair domains, in ordered cell labels, are
+\[
+\begin{split}
+ &(389,68),(309,148),(69,158),(399,310),(401,310),\\
+ &(69,160),(401,309),(68,160),(310,401),(160,69).
+\end{split}
+\]
+Each has two contiguous closed total-span branches. The original
+whole-domain inequalities and the branch inequalities determine
+the actual closure; there is no independent choice of left and
+right kernel values for their shared spans. These problems use 42
+variables: eight gaps and 34 physical squares. Their 810 positive
+dual multipliers include 730 positive tangent rows.
+
+All added tangents use 425 entries of the original 2,196-point PTL
+table and its retained REG convexity regions. Original point indices,
+value/derivative packs and source identity are frozen and checked.
+No newly sampled analytic data or curvature conjecture is used.
+If $v\le w(p)$, $d_-\le w'(p)\le d_+$, and a certified convexity
+region contains $[l_*,u_*]$, with
+$l_*:=\min(l,p)$ and $u_*:=\max(u,p)$, then for $x\in[l,u]$,
+\[
+\begin{split}
+w(x)&\ge v+d_+(l_*-p)+d_-(x-l_*),\\
+w(x)&\ge v+d_-(u_*-p)+d_+(x-u_*).
+\end{split}
+\]
+These are genuine convex tangent bounds with derivative-interval
+corrections. The query interval and the anchor both lie in the
+certified region. An anchor outside the query interval is never
+used without the indicated corrections.
+
+For the finite implication, write $Ax\le b$, $L\le x\le U$ and
+the objective numerator as $q^Tx$. For an exact nonnegative
+multiplier vector $\lambda$, set $r=q+A^T\lambda$. Then
+\[
+ q^Tx\ge-\lambda^Tb+
+ \sum_i r_i\begin{cases}L_i,&r_i\ge0,\\U_i,&r_i<0.\end{cases}
+\]
+The bound includes every residual, even if numerically small.
+Scaling back gives the rational lower bound for the real functional.
+Floating optimization proposes witnesses only; it does not justify
+the accepted implication. Negative-cycle closure can discard a
+branch only after its exact emptiness proof. Nonempty branches are
+all checked with the actual rows, complete boxes and rational signs.
+
+The minimum strengthened frame bound is
+\[
+ \frac{8442028677986126589157}{1048576000000000000000000}
+ =0.00805094592856\ldots>\ell,
+\]
+at label 40. The minimum pair payment is $M$ at $(406,70)$.
+Consequently the current limiting component is the outer case.
+The slightly larger exact minimum of the same stored data is
+$16891485543266126589157/2097152000000000000000000$;
+we choose the simpler, strictly smaller uniform reward $c$.
+
+\section{Counting transport, reproducibility and scope}
+
+The sum of gap pressures is still $B=404350/10^8$. The original
+AM energy certificate pays gain $67216841/10^8$. Sliding the
+nine-point frame preserves each pair budget at most two, total
+pair mass below sixteen, and endpoint cost $8c$. The near-pair
+reward exceeds $1/40>c$; the majorant has mass below two.
+The smoothing loss remains $32d\varepsilon$. The Hermitian Gram
+argument retains off-line reflected pairs and every multiplicity
+\cite{Ninth,Lossless}. First take the height limit at fixed smoothing,
+then decrease the smoothing parameter. Its proved lossless
+transport yields the claimed proportion
+\[
+ \frac{67216841/10^8-B}{1-c}
+ =\frac{66812491}{99194552}.
+\]
+The same finite inputs yield the dyadic statement; the retained
+counting transport yields the cumulative statement. This proves
+Theorem~\ref{thm:main}, including its interpretation in actual zeta
+counts rather than a model spectrum.
+
+The public files in the research repository are
+\begin{quote}\small
+\path{scripts/am_joint_frame_pair_certificate.py}\\
+\path{output/am-joint-frame-pair-certificate.json}.
+\end{quote}
+The default standard-library checker recomputes all
+241 frames and all 2,399 pair domains from the public frozen data.
+An optional source check matches the 425 original entries and REG
+packs. Optimized Python is rejected because its removal of
+assertions would invalidate verification.
+
+The preceding $941021/1397107$ theorem has a complete ordinary Lean
+proof and independent kernel replay \cite{Formal}. The present paper
+records the additional mathematical certificate. Formal verification
+of its new real-domain and counting proofs, when completed, belongs
+to its own additive namespace and receipts in the independent
+formalization repository; compilation, independent replay and
+website resource compliance are separate records. All preceding
+proofs, papers and submissions are retained.
+
+\begin{thebibliography}{9}
+\bibitem{PC8} The fixed original continuous PC8 certificate,
+\href{https://github.com/josusanmartin/riemann/blob/d272437e7ebeb17b87c8c3d7cece592aa23785ab/submissions/dani-bound-2026/proof/Solution.lean}{commit d272437e, original Solution.lean}.
+\bibitem{Ninth} Li Xiang, \emph{Complete Payment of the Ninth-Span
+Square for Simple Critical Zeros}, 2026. Retained research snapshot
+in \href{https://github.com/lixiang90/RH-Weil}{RH-Weil}.
+\bibitem{Low} Li Xiang, \emph{Strengthening the Low Frames of a
+Nine-Point Certificate for Simple Critical Zeros}, 2026.
+\bibitem{Lossless} Li Xiang, \emph{Lossless Eight-Point Assembly for
+Simple Critical Zeros of the Riemann Zeta Function}, 2026.
+\bibitem{Formal} Li Xiang,
+\href{https://github.com/lixiang90/RH-Zero-Proportion-Formalization/tree/c705c4aad2ad33e5358ce17e906b0dc51b1a83fe}{RH-Zero-Proportion-Formalization, c705c4a},
+complete NinthSpan Lean proof and independent nanoda replay, 2026.
+\end{thebibliography}
+\end{document}

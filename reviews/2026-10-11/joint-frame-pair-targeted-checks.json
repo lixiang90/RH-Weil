@@ -1,0 +1,95 @@
+{
+  "status": "PASS",
+  "steps": [
+    {
+      "command": [
+        "C:\\Python312\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "scripts/am_joint_frame_pair_certificate.py",
+        "--check"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 4.280999999959022,
+      "output": "{\n  \"status\": \"PASS\",\n  \"scope\": \"all real-gap frame and pair finite certificates under unchanged continuous original AM/capture admission; all-zero analytic assembly unchanged\",\n  \"certificate_canonical_lf_sha256\": \"cd031c3b3e7daa85f47a52ac4fd3c2d6d8512105c809061b39dfd8fa968b77d7\",\n  \"checker_canonical_lf_sha256\": \"717570346300346adcc0658761cd979c4756a1666d5591383a642cb8e9221676\",\n  \"source_matched\": false,\n  \"frame_unsplit_patches\": 39,\n  \"frame_split_patches\": 1,\n  \"frame_closed_branches\": 4,\n  \"frame_original_YA_retained\": 201,\n  \"frame_positive_dual_support\": 1194,\n  \"frame_added_rows\": 449,\n  \"new_pair_domains\": 10,\n  \"new_pair_closed_branches\": 20,\n  \"prior_ninth_closed_branches\": 84,\n  \"old_pair_multipliers_retained\": 2342,\n  \"new_pair_positive_dual_support\": 810,\n  \"new_pair_positive_tangent_rows\": 730,\n  \"used_original_points\": 425,\n  \"ordered_low_low_domains\": 2399,\n  \"global_F8_reward\": \"402547/50000000\",\n  \"minimum_exact_low_frame\": \"8442028677986126589157/1048576000000000000000000\",\n  \"minimum_frame_labels\": [\n    40\n  ],\n  \"minimum_low_low\": \"32992055894668884928258784247/4096000000000000000000000000000\",\n  \"minimum_pair_labels\": [\n    [\n      406,\n      70\n    ]\n  ],\n  \"safe_outside\": \"1610897/200000000\",\n  \"exact_outside\": \"16891485543266126589157/2097152000000000000000000\",\n  \"uniform_reward\": \"100681/12500000\",\n  \"maximum_reward_paid_by_current_data\": \"16891485543266126589157/2097152000000000000000000\",\n  \"simple_critical_proportion\": \"66812491/99194552\",\n  \"simple_critical_percent\": 67.35500050446319,\n  \"gain_percentage_points_exact\": \"602982731275/24598906818510078\",\n  \"gain_percentage_points\": 2.4512582438064695e-05,\n  \"exact_current_data_proportion\": \"48315844526080000000000/71733121188163237014167\",\n  \"strict_margins\": {\n    \"low_low\": \"905814668884928258784247/4096000000000000000000000000000\",\n    \"outside\": \"1/200000000\"\n  },\n  \"elapsed_seconds\": 4.202999999979511,\n  \"new_lean_or_nanoda_check_performed\": false,\n  \"website_accepted\": false\n}\n"
+    },
+    {
+      "command": [
+        "C:\\Python312\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "scripts/hybrid_two_cutoff_coverage_budget.py",
+        "--check"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.0940000000409782,
+      "output": "{\"passed\": true, \"checks\": 50, \"source_matched\": false, \"new_count_saving\": false, \"new_zero_free_region\": false}\n"
+    },
+    {
+      "command": [
+        "C:\\Python312\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "scripts/test_check_groups.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.23400000017136335,
+      "output": "Check groups passed: core=97, b1h=1, b1i=1, all=99; no checks skipped or duplicated\n[scope] registry coverage and mocked dispatch only; no heavy computations\n"
+    },
+    {
+      "command": [
+        "C:\\Python312\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "scripts/check_repo_layout.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.10999999986961484,
+      "output": "Paper layout, TeX inputs, and documentation links passed.\n"
+    },
+    {
+      "command": [
+        "C:\\Python312\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "scripts/test_repo_layout.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.7970000000204891,
+      "output": "test_all_layout_documents_are_required (__main__.LayoutTests.test_all_layout_documents_are_required) ... ok\ntest_both_literal_input_commands_are_checked (__main__.LayoutTests.test_both_literal_input_commands_are_checked) ... ok\ntest_broken_paper_links_in_each_document_are_reported (__main__.LayoutTests.test_broken_paper_links_in_each_document_are_reported) ... ok\ntest_commented_inputs_are_ignored (__main__.LayoutTests.test_commented_inputs_are_ignored) ... ok\ntest_complete_layout_and_root_relative_inputs_pass (__main__.LayoutTests.test_complete_layout_and_root_relative_inputs_pass) ... ok\ntest_deleted_tracked_paths_and_untracked_scratch_are_ignored (__main__.LayoutTests.test_deleted_tracked_paths_and_untracked_scratch_are_ignored) ... ok\ntest_encoded_spaces_anchors_and_remote_links (__main__.LayoutTests.test_encoded_spaces_anchors_and_remote_links) ... ok\ntest_every_required_source_and_pdf_is_required (__main__.LayoutTests.test_every_required_source_and_pdf_is_required) ... ok\ntest_existing_versioned_pdf_outside_output_is_rejected (__main__.LayoutTests.test_existing_versioned_pdf_outside_output_is_rejected) ... ok\ntest_input_is_not_silently_resolved_from_papers_directory (__main__.LayoutTests.test_input_is_not_silently_resolved_from_papers_directory) ... ok\ntest_root_tex_and_pdf_are_rejected (__main__.LayoutTests.test_root_tex_and_pdf_are_rejected) ... ok\ntest_versioned_external_literature_is_allowed (__main__.LayoutTests.test_versioned_external_literature_is_allowed) ... ok\n\n----------------------------------------------------------------------\nRan 12 tests in 0.579s\n\nOK\n"
+    }
+  ],
+  "optimized_python_rejection": [
+    {
+      "command": [
+        "C:\\Python312\\python.exe",
+        "-O",
+        "-B",
+        "E:\\codex-build\\RH-Weil\\scripts\\am_joint_frame_pair_certificate.py",
+        "--check"
+      ],
+      "exit_code": 1,
+      "rejected": true,
+      "output": "Traceback (most recent call last):\n  File \"E:\\codex-build\\RH-Weil\\scripts\\am_joint_frame_pair_certificate.py\", line 13, in <module>\n    import am_low_frame_strengthening_certificate as low\n  File \"E:\\codex-build\\RH-Weil\\scripts\\am_low_frame_strengthening_certificate.py\", line 12, in <module>\n    import am_expanded_nine_point_certificate as inherited\n  File \"E:\\codex-build\\RH-Weil\\scripts\\am_expanded_nine_point_certificate.py\", line 16, in <module>\n    import am_nine_point_epigraph_certificate as epi\n  File \"E:\\codex-build\\RH-Weil\\scripts\\am_nine_point_epigraph_certificate.py\", line 16, in <module>\n    import am_nine_point_low_slack_cover as old\n  File \"E:\\codex-build\\RH-Weil\\scripts\\am_nine_point_low_slack_cover.py\", line 17, in <module>\n    import am_pc8_finite_replay as old\n  File \"E:\\codex-build\\RH-Weil\\scripts\\am_pc8_finite_replay.py\", line 21, in <module>\n    raise RuntimeError(\"PC8 replay requires assertions enabled; do not use Python -O\")\nRuntimeError: PC8 replay requires assertions enabled; do not use Python -O\n"
+    },
+    {
+      "command": [
+        "C:\\Python312\\python.exe",
+        "-O",
+        "-B",
+        "E:\\codex-build\\RH-Weil\\scripts\\hybrid_two_cutoff_coverage_budget.py",
+        "--check"
+      ],
+      "exit_code": 1,
+      "rejected": true,
+      "output": "Traceback (most recent call last):\n  File \"E:\\codex-build\\RH-Weil\\scripts\\hybrid_two_cutoff_coverage_budget.py\", line 6, in <module>\n    if not __debug__: raise RuntimeError('optimized mode disables no required checks')\n                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: optimized mode disables no required checks\n"
+    }
+  ],
+  "full_registered_suite_rerun": false,
+  "scope": "New full finite certificate, new exact conditional coverage budget, registry dispatch and layout. No Lean or website check."
+}

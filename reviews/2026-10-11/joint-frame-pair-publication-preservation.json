@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "baseline": "89c42c80cd2482a8b3ebf145ea9a4338ad6b1a26",
+  "old_tracked_paths": 2867,
+  "all_old_paths_preserved": true,
+  "unchanged_old_blobs": 2861,
+  "allowed_live_document_registry_changes": [
+    "README.md",
+    "RESEARCH_BRANCHES.md",
+    "goals/review-cadence.json",
+    "papers/README.md",
+    "scripts/check_repo_layout.py",
+    "scripts/run_checks.py"
+  ],
+  "old_math_sources_papers_proofs_receipts_unchanged": true,
+  "new_exact_proportion": "66812491/99194552",
+  "new_bound_scope": "mathematical proof and complete rational certificate; current Lean and independent replay are recorded separately",
+  "new_lean_code_in_math_repo": false,
+  "website_accepted": false,
+  "index_checked": true
+}

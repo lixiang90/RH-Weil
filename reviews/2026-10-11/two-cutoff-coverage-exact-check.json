@@ -1,0 +1,424 @@
+{
+  "scope": "exact coverage budget only; source-relative actual partition proof in companion report",
+  "source_canonical_lf_sha256": "42a5ee0febca59fd1def55cfd6c6808c322ef4237d7726303ea52f711deac6a3",
+  "values": {
+    "delta": {
+      "exact": "19429/50000",
+      "orientation": 0.38858
+    },
+    "kappa": {
+      "exact": "7499/10000",
+      "orientation": 0.7499
+    },
+    "x": {
+      "exact": "1/2",
+      "orientation": 0.5
+    },
+    "t0": {
+      "exact": "9229494722/8209647083",
+      "orientation": 1.1242255152614091
+    },
+    "r0": {
+      "exact": "5875092361/8209647083",
+      "orientation": 0.7156327551723578
+    },
+    "m0": {
+      "exact": "3354402361/8209647083",
+      "orientation": 0.40859276008905143
+    },
+    "R": {
+      "exact": "136828076410631/205241177075000",
+      "orientation": 0.6666697119975626
+    },
+    "gamma": {
+      "exact": "1/20000",
+      "orientation": 5e-05
+    },
+    "short_count_slope": {
+      "exact": "339949213/2312125000",
+      "orientation": 0.14702890760663892
+    },
+    "long_count_slope": {
+      "exact": "66713/150000",
+      "orientation": 0.44475333333333333
+    },
+    "inverse_count_slope": {
+      "exact": "19429/100000",
+      "orientation": 0.19429
+    },
+    "sPlus": {
+      "exact": "462425/1359796852",
+      "orientation": 0.0003400691796865551
+    },
+    "sMinus": {
+      "exact": "15/133426",
+      "orientation": 0.00011242186680257221
+    },
+    "aLong": {
+      "exact": "15/133426",
+      "orientation": 0.00011242186680257221
+    },
+    "rhoInverse": {
+      "exact": "5/19429",
+      "orientation": 0.0002573472643985794
+    },
+    "tPlus": {
+      "exact": "12554034214578571419/11163452259494382716",
+      "orientation": 1.1245655844410958
+    },
+    "tMinus": {
+      "exact": "1231331418071327/1095380371696358",
+      "orientation": 1.1241130933946066
+    },
+    "rLongMinimum": {
+      "exact": "1231331418071327/1095380371696358",
+      "orientation": 1.1241130933946066
+    },
+    "rInverseCut": {
+      "exact": "114188217717284/159505233175607",
+      "orientation": 0.7158901024367563
+    },
+    "mPlainMinimum": {
+      "exact": "8687860984561477299/21282145241688539582",
+      "orientation": 0.4082229909578503
+    },
+    "zPlainMaximum": {
+      "exact": "9766058181413962460000/239392210751133537488127",
+      "orientation": 0.04079522115933223
+    },
+    "coverageTax": {
+      "exact": "3354402361/15008423610000",
+      "orientation": 0.00022350131154113927
+    },
+    "requiredMixedChiBeforeOtherLosses": {
+      "exact": "8209647083/30016847220000",
+      "orientation": 0.00027350131154113924
+    },
+    "coverageMultiplier": {
+      "exact": "8209647083/1500842361",
+      "orientation": 5.470026230822786
+    },
+    "oldConditionalMixedChi": {
+      "exact": "59/1200000",
+      "orientation": 4.9166666666666665e-05
+    },
+    "oldMaxOverallSaving": {
+      "exact": "29516566433/3283858833200000",
+      "orientation": 8.988378591243275e-06
+    },
+    "targetNecessaryCountSaving": {
+      "exact": "467366968772963/12314470624500000000",
+      "orientation": 3.795266422927858e-05
+    },
+    "proposedUniformMixedChi_NOT_PROVED": {
+      "exact": "3/10000",
+      "orientation": 0.0003
+    },
+    "allLossReserve": {
+      "exact": "1/100000",
+      "orientation": 1e-05
+    },
+    "requiredRawLambdaForVariableLongThreshold": {
+      "exact": "164693222447/600336944400000",
+      "orientation": 0.0002743346448744726
+    },
+    "extraRawSavingForCentralRThreshold": {
+      "exact": "1233990361/8158781112000",
+      "orientation": 0.00015124690122952767
+    },
+    "requiredRawLambdaForCentralRThreshold": {
+      "exact": "86854414804866289561/204084071783604757200000",
+      "orientation": 0.00042558154610400025
+    },
+    "mCritDerivative": {
+      "exact": "22497/92485",
+      "orientation": 0.24325025679839973
+    },
+    "rCritDerivative": {
+      "exact": "69988/92485",
+      "orientation": 0.7567497432016003
+    },
+    "rhoRelativeToLowerCrossing": {
+      "exact": "8209647083/23975198723869",
+      "orientation": 0.0003424224832316705
+    },
+    "limitingNecessaryRawLambdaForVariableLongThreshold": {
+      "exact": "467366968772963/2251263541500000000",
+      "orientation": 0.00020760206886376347
+    },
+    "limitingNecessaryRawLambdaForCentralRThreshold": {
+      "exact": "1350446648118765415837699131599653/4188645511512583505429758119000000000",
+      "orientation": 0.000322406526025426
+    },
+    "mPlainCut": {
+      "exact": "4562229232981298827/11163452259494382716",
+      "orientation": 0.4086754820043394
+    },
+    "zPlainMinimum": {
+      "exact": "113292538645807500/2790863064873595679",
+      "orientation": 0.04059408720969933
+    }
+  },
+  "checks": [
+    {
+      "name": "dynamic feedback parameter",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "t0 crosses actual long and short counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "r0 crosses actual inverse and plain counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "two legal detector cutoffs",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "nontrivial long core range",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "inverse cut has positive marked margin",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "short core bounded below by positive length",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "upper cutoff short branch saves gamma",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "upper cutoff shorter long branch saves gamma",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lower cutoff marked inverse branch saves gamma",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lower cutoff long branch saves gamma",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "joint core length lower support",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "short plus selected Q spike affine",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "conditional core count with mixed saving chi",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "coverage multiplier exact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "fixed inverse near-one cap",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "near-one unmarked inverse handled at stronger exponent",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "inverse selected capacity bounded by supply",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "plain core capacity bounded by supply",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict marked first width",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict marked second width",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict plain capacity paid",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "old single-core numerical proposal insufficient",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "coverage tax blocks old proposal even with zero other losses",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "proposed new uniform mixed chi has positive core margin",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "hypothetical all-branch net decrement",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "hypothetical net decrement exceeds target necessary budget",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "raw fixed-R pays new upper long width",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "one-row scalar inverse marginal exponent 0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "one-row scalar inverse marginal exponent 1/2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "one-row scalar inverse marginal exponent 1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "one-row scalar inverse marginal exponent 1231331418071327/1095380371696358",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "one-row scalar inverse marginal exponent 9229494722/8209647083",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "one-row scalar inverse marginal exponent 12554034214578571419/11163452259494382716",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "one-row scalar inverse marginal exponent 3/2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "toy target short witness absent",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "crossing r slope exact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "crossing m slope exact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "two crossing derivatives sum one",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "short count slope equals inverse slope times crossing slope",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "moving crossing requires additional inverse cutoff offset",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "apparently smaller m derivative is paid back exactly",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "endpoint half amplitude m derivative",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "coverage-aware raw requirement exceeds old single label proposal",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "central reference stronger than variable long reference",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "large actual short length covered by existing plain count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "mCut leaves fixed positive plain capacity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "near-half and beyond-half covered by unmarked plain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "actual remaining short range narrow and positive",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "core minimum requested selected capacity positive",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen source identity",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "new_mixed_upper_estimate": false,
+  "new_count_saving": false,
+  "new_zero_free_region": false,
+  "lean_checked": false,
+  "source_matched": true
+}
