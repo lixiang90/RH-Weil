@@ -1,0 +1,43 @@
+{
+  "schema": "rh-weil-f1-phase-round-review-v1",
+  "date": "2026-10-11",
+  "baseline_commit": "ac9a9c8335b1b4f0d7e407db89675ced681e1136",
+  "completed_iteration_count": 1,
+  "rounds_since_cycle_review": 2,
+  "weil_f1_rounds_since_historical_review": 1,
+  "notes": [
+    "notes/507-f1-canonical-periodic-phase-and-source-flux.md",
+    "notes/508-f1-prime-gap-archimedean-mixed-test.md"
+  ],
+  "source_sha256_normalized_lf": {
+    "notes/507-f1-canonical-periodic-phase-and-source-flux.md": "504b33d923503d39a9cd9c91360335bf84ef1413cec2b982625162b43f5002bc",
+    "notes/508-f1-prime-gap-archimedean-mixed-test.md": "76335ec26f6d602c4769cf2ae7fd8d2f501089787c081bb8d54b86829efc241c",
+    "reviews/2026-10-11/f1-phase-small-divisor-review.md": "31e95cffb11c2e89ff1f48d9ac9ae490172dafd230b474ca06b090ef83840e79",
+    "reviews/2026-10-11/f1-phase-domain-independent-review.md": "6c44ba8d5b3002d2e7cafbf6ba8587a4c13802b377be3014753a15e5b2b250f8",
+    "reviews/2026-10-11/f1-phase-adelic-bridge-review.md": "c70b6f1502331c64ffaae510ca252166bdc688e1de7d69363ba620014ffd8f26"
+  },
+  "validated_local_links": 15,
+  "modified_preexisting_files": [
+    "RESEARCH_BRANCHES.md",
+    "goals/review-cadence.json"
+  ],
+  "old_mathematical_notes_papers_formalization_unchanged": true,
+  "final_independent_reverse_reviews": {
+    "small_divisor": "accepted: external theorem parameters, multiplicative-to-linear conversion, n=1, Fourier regularity and Sobolev loss",
+    "source_domain": "accepted: all four physical blocks, zero-mean normalization, representation independence, weighted conjugation charge and nonalgebra kernel",
+    "adelic_bridge": "accepted: prime-gap support, sharp/time twist and half trace, finite weighted closed-chain zero and finite-S scope; inline math typography corrected"
+  },
+  "exact_discrete_model_assertions": 1364,
+  "external_input": {
+    "directly_checked": "Bugeaud-Mignotte-Siksek Annals2006 §9.1 Theorem9.4 pp.988-989",
+    "url": "https://annals.math.princeton.edu/wp-content/uploads/annals-v163-n3-p05.pdf",
+    "backup_checked": "Matveev1998 §1 (1.5), Theorem2.2 pp.728-729",
+    "matveev2000_full_text_obtained": false
+  },
+  "limits": [
+    "No new Lean proof or kernel audit.",
+    "Exact integer-period source models supplement the analytical proofs; they do not prove the prime-log small-divisor or infinite cutoff theorem.",
+    "Canonical phase data are relative to fixed original source, partition and cutoff, on the finite source domain only.",
+    "No scalar cyclic trace, arithmetic principal quotient, archimedean relative-chain comparison, Weil positivity, RR, RH, zero-free boundary or zero proportion established."
+  ]
+}

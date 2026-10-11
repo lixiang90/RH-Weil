@@ -1,0 +1,20 @@
+{
+  "status": "passed_exact_source_phase_models",
+  "total_exact_assertions": 1364,
+  "checks": {
+    "exact_fourier_phase_telescoping_with_ball_tail": 120,
+    "full_source_deep_q_cross_energy": 1098,
+    "independent_rectangle_p_increment": 36,
+    "independent_rectangle_q_increment": 36,
+    "square_partition_mean_of_p_profile": 2,
+    "weighted_source_conjugation_flux": 72
+  },
+  "script_sha256": "fae0bf663191d3c5fc7617198b11d7ed65f796d050ac652a999e4fc7d354e15b",
+  "dependency_sha256": "fa0e37ea3b92208f7b0d9bcb7399bf4fc768292ba90b41d2fa9e61d84acd4baf",
+  "model": {
+    "p_period": 5,
+    "q_period": 7,
+    "weights": "nonconstant positive and signed rational periodic diagonals"
+  },
+  "scope": "Exact source-matrix cross energies, cutoff increments and nonconstant weighted conjugation flux; Fourier telescoping retains the full rational ball tail. Integer-period discrete models do not prove smooth prime-log trace-class, irrational Diophantine bounds, infinite cutoff limits, positivity, adelic comparison, RR or RH."
+}

@@ -5,16 +5,21 @@
   "target_rounds": 6,
   "maximum_rounds": 8,
   "counting_unit": "completed research continuation iteration, not tool calls or files",
-  "rounds_since_review": 1,
+  "rounds_since_review": 2,
   "last_review": "goals/reviews/2026-10-11-original-route-review-cycle-4.md",
   "last_review_baseline_commit": "89c42c80cd2482a8b3ebf145ea9a4338ad6b1a26",
   "last_review_completed_round_count": 4,
   "last_review_trigger": "joint full-domain proportion improvement and actual two-cutoff coverage repair; early review at round four",
-  "last_completed_round": "notes/506-outer-frame-record-and-active-radical-payment.md",
+  "last_completed_round": "notes/508-f1-prime-gap-archimedean-mixed-test.md",
   "last_completed_round_date": "2026-10-11",
-  "last_completed_round_baseline_commit": "48263e943a5e34575fd6e63e0a2665f88dd4aa44",
+  "last_completed_round_baseline_commit": "ac9a9c8335b1b4f0d7e407db89675ced681e1136",
   "latest_user_directed_review": "goals/reviews/2026-10-11-weil-f1-retrospective.md",
   "latest_user_directed_review_baseline_commit": "331107b2ba0716d2fb78ec1f605f05fe57393274",
   "latest_user_directed_review_scope": "notes001-437; historical review and priority change, no new completed mathematical round or reset of the recent-mathematics cycle",
-  "current_research_focus": "independent arithmetic Weil/F1 realization; source-derived phase and nonlocal relative pairing before global Riemann-Roch"
+  "current_research_focus": "finite-source phase reading completed; actual archimedean boundary and relative closed-chain comparison on the prime-gap mixed test before global Riemann-Roch",
+  "weil_f1_rounds_since_historical_review": 1,
+  "last_completed_round_note_paths": [
+    "notes/507-f1-canonical-periodic-phase-and-source-flux.md",
+    "notes/508-f1-prime-gap-archimedean-mixed-test.md"
+  ]
 }
