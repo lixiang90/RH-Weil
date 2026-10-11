@@ -1,0 +1,1092 @@
+{
+  "schema": "rh-weil-f1-mobius-taylor-two-weight-diagnostics-v1",
+  "date": "2026-10-12",
+  "status": "PASS",
+  "source_sha256_normalized_lf": {
+    "notes/524-f1-mobius-cutoff-taylor-obstruction-and-repair.md": "5e9e96f3277d1c9089c6fd51ca2507b1251e3878570e3c799a795d635569d343",
+    "notes/525-f1-smoothed-mobius-probes-and-arithmetic-strength.md": "c3145456a28fd2f776430a8028b6b1095d719c95daf6e3a12a88d3a5e9541041",
+    "notes/526-f1-faithful-two-weight-hilbert-quotient-and-defect.md": "807e496d9bdbc0139d80736a9f34c4017ea759a80a640122d970fbf35d6c7e5c"
+  },
+  "script_sha256_normalized_lf": "318ce12eff900e2be3c99ec67f8d9a3c1afb7b86d8f4861759aa4567137a4c27",
+  "working_decimal_digits": 50,
+  "counts": {
+    "total": 166,
+    "passed": 166,
+    "failed": 0,
+    "exact_finite": 115,
+    "non_interval_floating": 51
+  },
+  "cutoffs": {
+    "mobius_divisor_maximum": 64,
+    "finite_gaussian_mobius_terms": 24,
+    "finite_gaussian_log_x_endpoint": 18,
+    "gram_endpoint": 100,
+    "pure_taylor_basis_maximum_K": 6,
+    "blind_factor_maximum_m": 6
+  },
+  "limits": {
+    "actual_multiple_or_off_line_zeta_zero_asserted": false,
+    "sampled_gaps_asserted_to_be_actual_zero_gaps": false,
+    "interval_or_lean_certificate": false,
+    "infinite_analytic_results_computationally_certified": false,
+    "unconditional_PNT_estimate_reproved_numerically": false,
+    "classical_zero_count_reproved_numerically": false
+  },
+  "records": [
+    {
+      "label": "mobius_divisor_1",
+      "kind": "exact_finite",
+      "passed": true,
+      "n": 1
+    },
+    {
+      "label": "mobius_divisor_2",
+      "kind": "exact_finite",
+      "passed": true,
+      "n": 2
+    },
+    {
+      "label": "mobius_divisor_3",
+      "kind": "exact_finite",
+      "passed": true,
+      "n": 3
+    },
+    {
+      "label": "mobius_divisor_4",
+      "kind": "exact_finite",
+      "passed": true,
+      "n": 4
+    },
+    {
+      "label": "mobius_divisor_5",
+      "kind": "exact_finite",
+      "passed": true,
+      "n": 5
+    },
+    {
+      "label": "mobius_divisor_6",
+      "kind": "exact_finite",
+      "passed": true,
+      "n": 6
+    },
+    {
+      "label": "mobius_divisor_7",
+      "kind": "exact_finite",
+      "passed": true,
+      "n": 7
+    },
+    {
+      "label": "mobius_divisor_8",
+      "kind": "exact_finite",
+      "passed": true,
+      "n": 8
+    },
+    {
+      "label": "mobius_divisor_9",
+      "kind": "exact_finite",
+      "passed": true,
+      "n": 9
+    },
+    {
+      "label": "mobius_divisor_10",
+      "kind": "exact_finite",
+      "passed": true,
+      "n": 10
+    },
+    {
+      "label": "mobius_divisor_11",
+      "kind": "exact_finite",
+      "passed": true,
+      "n": 11
+    },
+    {
+      "label": "mobius_divisor_12",
+      "kind": "exact_finite",
+      "passed": true,
+      "n": 12
+    },
+    {
+      "label": "mobius_divisor_13",
+      "kind": "exact_finite",
+      "passed": true,
+      "n": 13
+    },
+    {
+      "label": "mobius_divisor_14",
+      "kind": "exact_finite",
+      "passed": true,
+      "n": 14
+    },
+    {
+      "label": "mobius_divisor_15",
+      "kind": "exact_finite",
+      "passed": true,
+      "n": 15
+    },
+    {
+      "label": "mobius_divisor_16",
+      "kind": "exact_finite",
+      "passed": true,
+      "n": 16
+    },
+    {
+      "label": "mobius_divisor_17",
+      "kind": "exact_finite",
+      "passed": true,
+      "n": 17
+    },
+    {
+      "label": "mobius_divisor_18",
+      "kind": "exact_finite",
+      "passed": true,
+      "n": 18
+    },
+    {
+      "label": "mobius_divisor_19",
+      "kind": "exact_finite",
+      "passed": true,
+      "n": 19
+    },
+    {
+      "label": "mobius_divisor_20",
+      "kind": "exact_finite",
+      "passed": true,
+      "n": 20
+    },
+    {
+      "label": "mobius_divisor_21",
+      "kind": "exact_finite",
+      "passed": true,
+      "n": 21
+    },
+    {
+      "label": "mobius_divisor_22",
+      "kind": "exact_finite",
+      "passed": true,
+      "n": 22
+    },
+    {
+      "label": "mobius_divisor_23",
+      "kind": "exact_finite",
+      "passed": true,
+      "n": 23
+    },
+    {
+      "label": "mobius_divisor_24",
+      "kind": "exact_finite",
+      "passed": true,
+      "n": 24
+    },
+    {
+      "label": "mobius_divisor_25",
+      "kind": "exact_finite",
+      "passed": true,
+      "n": 25
+    },
+    {
+      "label": "mobius_divisor_26",
+      "kind": "exact_finite",
+      "passed": true,
+      "n": 26
+    },
+    {
+      "label": "mobius_divisor_27",
+      "kind": "exact_finite",
+      "passed": true,
+      "n": 27
+    },
+    {
+      "label": "mobius_divisor_28",
+      "kind": "exact_finite",
+      "passed": true,
+      "n": 28
+    },
+    {
+      "label": "mobius_divisor_29",
+      "kind": "exact_finite",
+      "passed": true,
+      "n": 29
+    },
+    {
+      "label": "mobius_divisor_30",
+      "kind": "exact_finite",
+      "passed": true,
+      "n": 30
+    },
+    {
+      "label": "mobius_divisor_31",
+      "kind": "exact_finite",
+      "passed": true,
+      "n": 31
+    },
+    {
+      "label": "mobius_divisor_32",
+      "kind": "exact_finite",
+      "passed": true,
+      "n": 32
+    },
+    {
+      "label": "mobius_divisor_33",
+      "kind": "exact_finite",
+      "passed": true,
+      "n": 33
+    },
+    {
+      "label": "mobius_divisor_34",
+      "kind": "exact_finite",
+      "passed": true,
+      "n": 34
+    },
+    {
+      "label": "mobius_divisor_35",
+      "kind": "exact_finite",
+      "passed": true,
+      "n": 35
+    },
+    {
+      "label": "mobius_divisor_36",
+      "kind": "exact_finite",
+      "passed": true,
+      "n": 36
+    },
+    {
+      "label": "mobius_divisor_37",
+      "kind": "exact_finite",
+      "passed": true,
+      "n": 37
+    },
+    {
+      "label": "mobius_divisor_38",
+      "kind": "exact_finite",
+      "passed": true,
+      "n": 38
+    },
+    {
+      "label": "mobius_divisor_39",
+      "kind": "exact_finite",
+      "passed": true,
+      "n": 39
+    },
+    {
+      "label": "mobius_divisor_40",
+      "kind": "exact_finite",
+      "passed": true,
+      "n": 40
+    },
+    {
+      "label": "mobius_divisor_41",
+      "kind": "exact_finite",
+      "passed": true,
+      "n": 41
+    },
+    {
+      "label": "mobius_divisor_42",
+      "kind": "exact_finite",
+      "passed": true,
+      "n": 42
+    },
+    {
+      "label": "mobius_divisor_43",
+      "kind": "exact_finite",
+      "passed": true,
+      "n": 43
+    },
+    {
+      "label": "mobius_divisor_44",
+      "kind": "exact_finite",
+      "passed": true,
+      "n": 44
+    },
+    {
+      "label": "mobius_divisor_45",
+      "kind": "exact_finite",
+      "passed": true,
+      "n": 45
+    },
+    {
+      "label": "mobius_divisor_46",
+      "kind": "exact_finite",
+      "passed": true,
+      "n": 46
+    },
+    {
+      "label": "mobius_divisor_47",
+      "kind": "exact_finite",
+      "passed": true,
+      "n": 47
+    },
+    {
+      "label": "mobius_divisor_48",
+      "kind": "exact_finite",
+      "passed": true,
+      "n": 48
+    },
+    {
+      "label": "mobius_divisor_49",
+      "kind": "exact_finite",
+      "passed": true,
+      "n": 49
+    },
+    {
+      "label": "mobius_divisor_50",
+      "kind": "exact_finite",
+      "passed": true,
+      "n": 50
+    },
+    {
+      "label": "mobius_divisor_51",
+      "kind": "exact_finite",
+      "passed": true,
+      "n": 51
+    },
+    {
+      "label": "mobius_divisor_52",
+      "kind": "exact_finite",
+      "passed": true,
+      "n": 52
+    },
+    {
+      "label": "mobius_divisor_53",
+      "kind": "exact_finite",
+      "passed": true,
+      "n": 53
+    },
+    {
+      "label": "mobius_divisor_54",
+      "kind": "exact_finite",
+      "passed": true,
+      "n": 54
+    },
+    {
+      "label": "mobius_divisor_55",
+      "kind": "exact_finite",
+      "passed": true,
+      "n": 55
+    },
+    {
+      "label": "mobius_divisor_56",
+      "kind": "exact_finite",
+      "passed": true,
+      "n": 56
+    },
+    {
+      "label": "mobius_divisor_57",
+      "kind": "exact_finite",
+      "passed": true,
+      "n": 57
+    },
+    {
+      "label": "mobius_divisor_58",
+      "kind": "exact_finite",
+      "passed": true,
+      "n": 58
+    },
+    {
+      "label": "mobius_divisor_59",
+      "kind": "exact_finite",
+      "passed": true,
+      "n": 59
+    },
+    {
+      "label": "mobius_divisor_60",
+      "kind": "exact_finite",
+      "passed": true,
+      "n": 60
+    },
+    {
+      "label": "mobius_divisor_61",
+      "kind": "exact_finite",
+      "passed": true,
+      "n": 61
+    },
+    {
+      "label": "mobius_divisor_62",
+      "kind": "exact_finite",
+      "passed": true,
+      "n": 62
+    },
+    {
+      "label": "mobius_divisor_63",
+      "kind": "exact_finite",
+      "passed": true,
+      "n": 63
+    },
+    {
+      "label": "mobius_divisor_64",
+      "kind": "exact_finite",
+      "passed": true,
+      "n": 64
+    },
+    {
+      "label": "negative_even_moment_cost_k1_n3",
+      "kind": "exact_finite",
+      "passed": true,
+      "integral_cost": "6/5"
+    },
+    {
+      "label": "negative_even_moment_cost_k1_n5",
+      "kind": "exact_finite",
+      "passed": true,
+      "integral_cost": "10/21"
+    },
+    {
+      "label": "negative_even_moment_cost_k2_n5",
+      "kind": "exact_finite",
+      "passed": true,
+      "integral_cost": "10/9"
+    },
+    {
+      "label": "negative_even_moment_cost_k2_n7",
+      "kind": "exact_finite",
+      "passed": true,
+      "integral_cost": "14/33"
+    },
+    {
+      "label": "negative_even_moment_cost_k3_n7",
+      "kind": "exact_finite",
+      "passed": true,
+      "integral_cost": "14/13"
+    },
+    {
+      "label": "negative_even_moment_cost_k3_n9",
+      "kind": "exact_finite",
+      "passed": true,
+      "integral_cost": "2/5"
+    },
+    {
+      "label": "negative_even_moment_cost_k4_n9",
+      "kind": "exact_finite",
+      "passed": true,
+      "integral_cost": "18/17"
+    },
+    {
+      "label": "negative_even_moment_cost_k4_n11",
+      "kind": "exact_finite",
+      "passed": true,
+      "integral_cost": "22/57"
+    },
+    {
+      "label": "negative_even_moment_cost_k5_n11",
+      "kind": "exact_finite",
+      "passed": true,
+      "integral_cost": "22/21"
+    },
+    {
+      "label": "negative_even_moment_cost_k5_n13",
+      "kind": "exact_finite",
+      "passed": true,
+      "integral_cost": "26/69"
+    },
+    {
+      "label": "negative_even_moment_cost_k6_n13",
+      "kind": "exact_finite",
+      "passed": true,
+      "integral_cost": "26/25"
+    },
+    {
+      "label": "negative_even_moment_cost_k6_n15",
+      "kind": "exact_finite",
+      "passed": true,
+      "integral_cost": "10/27"
+    },
+    {
+      "label": "h0_lower_bound_rational_factor",
+      "kind": "exact_finite",
+      "passed": true
+    },
+    {
+      "label": "pure_taylor_projection_K1",
+      "kind": "exact_finite",
+      "passed": true,
+      "K": 1
+    },
+    {
+      "label": "source_scaling_K1_k1",
+      "kind": "exact_finite",
+      "passed": true
+    },
+    {
+      "label": "pure_taylor_projection_K2",
+      "kind": "exact_finite",
+      "passed": true,
+      "K": 2
+    },
+    {
+      "label": "source_scaling_K2_k1",
+      "kind": "exact_finite",
+      "passed": true
+    },
+    {
+      "label": "source_scaling_K2_k2",
+      "kind": "exact_finite",
+      "passed": true
+    },
+    {
+      "label": "pure_taylor_projection_K4",
+      "kind": "exact_finite",
+      "passed": true,
+      "K": 4
+    },
+    {
+      "label": "source_scaling_K4_k1",
+      "kind": "exact_finite",
+      "passed": true
+    },
+    {
+      "label": "source_scaling_K4_k2",
+      "kind": "exact_finite",
+      "passed": true
+    },
+    {
+      "label": "source_scaling_K4_k3",
+      "kind": "exact_finite",
+      "passed": true
+    },
+    {
+      "label": "source_scaling_K4_k4",
+      "kind": "exact_finite",
+      "passed": true
+    },
+    {
+      "label": "pure_taylor_projection_K6",
+      "kind": "exact_finite",
+      "passed": true,
+      "K": 6
+    },
+    {
+      "label": "source_scaling_K6_k1",
+      "kind": "exact_finite",
+      "passed": true
+    },
+    {
+      "label": "source_scaling_K6_k2",
+      "kind": "exact_finite",
+      "passed": true
+    },
+    {
+      "label": "source_scaling_K6_k3",
+      "kind": "exact_finite",
+      "passed": true
+    },
+    {
+      "label": "source_scaling_K6_k4",
+      "kind": "exact_finite",
+      "passed": true
+    },
+    {
+      "label": "source_scaling_K6_k5",
+      "kind": "exact_finite",
+      "passed": true
+    },
+    {
+      "label": "source_scaling_K6_k6",
+      "kind": "exact_finite",
+      "passed": true
+    },
+    {
+      "label": "blind_probe_m1_jet0",
+      "kind": "exact_finite",
+      "passed": true
+    },
+    {
+      "label": "blind_probe_m1_first_nonzero",
+      "kind": "exact_finite",
+      "passed": true
+    },
+    {
+      "label": "blind_probe_m2_jet0",
+      "kind": "exact_finite",
+      "passed": true
+    },
+    {
+      "label": "blind_probe_m2_jet1",
+      "kind": "exact_finite",
+      "passed": true
+    },
+    {
+      "label": "blind_probe_m2_first_nonzero",
+      "kind": "exact_finite",
+      "passed": true
+    },
+    {
+      "label": "blind_probe_m3_jet0",
+      "kind": "exact_finite",
+      "passed": true
+    },
+    {
+      "label": "blind_probe_m3_jet1",
+      "kind": "exact_finite",
+      "passed": true
+    },
+    {
+      "label": "blind_probe_m3_jet2",
+      "kind": "exact_finite",
+      "passed": true
+    },
+    {
+      "label": "blind_probe_m3_first_nonzero",
+      "kind": "exact_finite",
+      "passed": true
+    },
+    {
+      "label": "blind_probe_m4_jet0",
+      "kind": "exact_finite",
+      "passed": true
+    },
+    {
+      "label": "blind_probe_m4_jet1",
+      "kind": "exact_finite",
+      "passed": true
+    },
+    {
+      "label": "blind_probe_m4_jet2",
+      "kind": "exact_finite",
+      "passed": true
+    },
+    {
+      "label": "blind_probe_m4_jet3",
+      "kind": "exact_finite",
+      "passed": true
+    },
+    {
+      "label": "blind_probe_m4_first_nonzero",
+      "kind": "exact_finite",
+      "passed": true
+    },
+    {
+      "label": "blind_probe_m6_jet0",
+      "kind": "exact_finite",
+      "passed": true
+    },
+    {
+      "label": "blind_probe_m6_jet1",
+      "kind": "exact_finite",
+      "passed": true
+    },
+    {
+      "label": "blind_probe_m6_jet2",
+      "kind": "exact_finite",
+      "passed": true
+    },
+    {
+      "label": "blind_probe_m6_jet3",
+      "kind": "exact_finite",
+      "passed": true
+    },
+    {
+      "label": "blind_probe_m6_jet4",
+      "kind": "exact_finite",
+      "passed": true
+    },
+    {
+      "label": "blind_probe_m6_jet5",
+      "kind": "exact_finite",
+      "passed": true
+    },
+    {
+      "label": "blind_probe_m6_first_nonzero",
+      "kind": "exact_finite",
+      "passed": true
+    },
+    {
+      "label": "zeta_trivial_derivative_k1",
+      "kind": "non_interval_floating",
+      "passed": true,
+      "absolute_error": "4.1761948595190556970945882299242e-53",
+      "comparison_budget": "1.0e-28"
+    },
+    {
+      "label": "zeta_trivial_derivative_k2",
+      "kind": "non_interval_floating",
+      "passed": true,
+      "absolute_error": "2.0880974297595278485472941149621e-53",
+      "comparison_budget": "1.0e-28"
+    },
+    {
+      "label": "zeta_trivial_derivative_k3",
+      "kind": "non_interval_floating",
+      "passed": true,
+      "absolute_error": "1.044048714879763924273647057481e-53",
+      "comparison_budget": "1.0e-28"
+    },
+    {
+      "label": "zeta_trivial_derivative_k4",
+      "kind": "non_interval_floating",
+      "passed": true,
+      "absolute_error": "2.0880974297595278485472941149621e-53",
+      "comparison_budget": "1.0e-28"
+    },
+    {
+      "label": "h0_source_taylor_moment",
+      "kind": "non_interval_floating",
+      "passed": true,
+      "absolute_error": "6.6819117752304891153513411678787e-52",
+      "comparison_budget": "1.0e-28"
+    },
+    {
+      "label": "finite_gaussian_mobius_mellin_2_0",
+      "kind": "non_interval_floating",
+      "passed": true,
+      "absolute_error": "8.0182941302765869384216094014544e-51",
+      "comparison_budget": "1.0e-35",
+      "terms": 24,
+      "log_x_endpoint": 18
+    },
+    {
+      "label": "finite_gaussian_mobius_mellin_2.5_0.4",
+      "kind": "non_interval_floating",
+      "passed": true,
+      "absolute_error": "2.6727647100921956461405364671515e-51",
+      "comparison_budget": "1.0e-35",
+      "terms": 24,
+      "log_x_endpoint": 18
+    },
+    {
+      "label": "pnt_mass_tail_c0.5",
+      "kind": "non_interval_floating",
+      "passed": true,
+      "absolute_error": "0.0",
+      "comparison_budget": "1.0e-28"
+    },
+    {
+      "label": "pnt_mass_tail_c1.25",
+      "kind": "non_interval_floating",
+      "passed": true,
+      "absolute_error": "0.0",
+      "comparison_budget": "1.0e-28"
+    },
+    {
+      "label": "double_weight_gram_d0.5_z(0.0 + 0.0j)",
+      "kind": "non_interval_floating",
+      "passed": true,
+      "absolute_error": "7.4401518704306672180592899409423e-44",
+      "comparison_budget": "1.0000000000000007440151952041672e-28",
+      "endpoint": 100,
+      "omitted_tail_budget": "7.4401519520416719259193916077262e-44"
+    },
+    {
+      "label": "double_weight_gram_d0.5_z(0.2 + 0.7j)",
+      "kind": "non_interval_floating",
+      "passed": true,
+      "absolute_error": "1.6978613648772796825727426697158e-35",
+      "comparison_budget": "1.0000004512128469613537930780321e-28",
+      "endpoint": 100,
+      "omitted_tail_budget": "4.5121284696135379307803208933751e-35"
+    },
+    {
+      "label": "double_weight_gram_d0.5_z(-0.3 + 1.2j)",
+      "kind": "non_interval_floating",
+      "passed": true,
+      "absolute_error": "2.8615913362167820213624963552181e-31",
+      "comparison_budget": "1.0113584278168818480222545707251e-28",
+      "endpoint": 100,
+      "omitted_tail_budget": "1.1358427816881848022254570725128e-30"
+    },
+    {
+      "label": "two_vector_large_time_amplification_d0.5_gap0.2",
+      "kind": "non_interval_floating",
+      "passed": true,
+      "absolute_error": "4.2764235361475130338248583474424e-50",
+      "comparison_budget": "1.0e-28",
+      "correlation": "0.95260301699369766401221716114096"
+    },
+    {
+      "label": "two_vector_gram_d0.5_gap0.2_a0.5",
+      "kind": "non_interval_floating",
+      "passed": true,
+      "absolute_error": "0.0",
+      "comparison_budget": "1.0e-28"
+    },
+    {
+      "label": "two_vector_gram_d0.5_gap0.2_a3.0",
+      "kind": "non_interval_floating",
+      "passed": true,
+      "absolute_error": "0.0",
+      "comparison_budget": "1.0e-28"
+    },
+    {
+      "label": "two_vector_large_time_amplification_d0.5_gap1.0",
+      "kind": "non_interval_floating",
+      "passed": true,
+      "absolute_error": "0.0",
+      "comparison_budget": "1.0e-28",
+      "correlation": "0.39853681533838668043362254128434"
+    },
+    {
+      "label": "two_vector_gram_d0.5_gap1.0_a0.5",
+      "kind": "non_interval_floating",
+      "passed": true,
+      "absolute_error": "0.0",
+      "comparison_budget": "1.0e-28"
+    },
+    {
+      "label": "two_vector_gram_d0.5_gap1.0_a3.0",
+      "kind": "non_interval_floating",
+      "passed": true,
+      "absolute_error": "0.0",
+      "comparison_budget": "1.0e-28"
+    },
+    {
+      "label": "two_vector_large_time_amplification_d0.5_gap2.5",
+      "kind": "non_interval_floating",
+      "passed": true,
+      "absolute_error": "0.0",
+      "comparison_budget": "1.0e-28",
+      "correlation": "0.039390454472603824341339992214662"
+    },
+    {
+      "label": "two_vector_gram_d0.5_gap2.5_a0.5",
+      "kind": "non_interval_floating",
+      "passed": true,
+      "absolute_error": "0.0",
+      "comparison_budget": "1.0e-28"
+    },
+    {
+      "label": "two_vector_gram_d0.5_gap2.5_a3.0",
+      "kind": "non_interval_floating",
+      "passed": true,
+      "absolute_error": "0.0",
+      "comparison_budget": "1.0e-28"
+    },
+    {
+      "label": "small_gap_limit_d0.5_a0.5",
+      "kind": "non_interval_floating",
+      "passed": true,
+      "absolute_error": "2.2944191325882006686803681635243e-16",
+      "comparison_budget": "1.0e-11",
+      "generic_gap": "0.0000001",
+      "variance": "2.467401100272339654708622749969"
+    },
+    {
+      "label": "small_gap_limit_d0.5_a3.0",
+      "kind": "non_interval_floating",
+      "passed": true,
+      "absolute_error": "3.4856719583431050716934392925691e-14",
+      "comparison_budget": "1.0e-11",
+      "generic_gap": "0.0000001",
+      "variance": "2.467401100272339654708622749969"
+    },
+    {
+      "label": "double_weight_gram_d0.75_z(0.0 + 0.0j)",
+      "kind": "non_interval_floating",
+      "passed": true,
+      "absolute_error": "0.0",
+      "comparison_budget": "1.0e-28",
+      "endpoint": 100,
+      "omitted_tail_budget": "9.5667946308858805597769238762787e-66"
+    },
+    {
+      "label": "double_weight_gram_d0.75_z(0.2 + 0.7j)",
+      "kind": "non_interval_floating",
+      "passed": true,
+      "absolute_error": "0.0",
+      "comparison_budget": "1.0000000000000000000000000000536e-28",
+      "endpoint": 100,
+      "omitted_tail_budget": "5.3555489844681700333788048485705e-57"
+    },
+    {
+      "label": "double_weight_gram_d0.75_z(-0.3 + 1.2j)",
+      "kind": "non_interval_floating",
+      "passed": true,
+      "absolute_error": "0.0",
+      "comparison_budget": "1.0000000000000000000000012779413e-28",
+      "endpoint": 100,
+      "omitted_tail_budget": "1.277941345620333272072368062546e-52"
+    },
+    {
+      "label": "two_vector_large_time_amplification_d0.75_gap0.2",
+      "kind": "non_interval_floating",
+      "passed": true,
+      "absolute_error": "6.4146353042212695507372875211636e-50",
+      "comparison_budget": "1.0e-28",
+      "correlation": "0.9784613804771458364410155911972"
+    },
+    {
+      "label": "two_vector_gram_d0.75_gap0.2_a0.5",
+      "kind": "non_interval_floating",
+      "passed": true,
+      "absolute_error": "0.0",
+      "comparison_budget": "1.0e-28"
+    },
+    {
+      "label": "two_vector_gram_d0.75_gap0.2_a3.0",
+      "kind": "non_interval_floating",
+      "passed": true,
+      "absolute_error": "0.0",
+      "comparison_budget": "1.0e-28"
+    },
+    {
+      "label": "two_vector_large_time_amplification_d0.75_gap1.0",
+      "kind": "non_interval_floating",
+      "passed": true,
+      "absolute_error": "0.0",
+      "comparison_budget": "1.0e-28",
+      "correlation": "0.62488796629608718682756079350052"
+    },
+    {
+      "label": "two_vector_gram_d0.75_gap1.0_a0.5",
+      "kind": "non_interval_floating",
+      "passed": true,
+      "absolute_error": "0.0",
+      "comparison_budget": "1.0e-28"
+    },
+    {
+      "label": "two_vector_gram_d0.75_gap1.0_a3.0",
+      "kind": "non_interval_floating",
+      "passed": true,
+      "absolute_error": "0.0",
+      "comparison_budget": "1.0e-28"
+    },
+    {
+      "label": "two_vector_large_time_amplification_d0.75_gap2.5",
+      "kind": "non_interval_floating",
+      "passed": true,
+      "absolute_error": "0.0",
+      "comparison_budget": "1.0e-28",
+      "correlation": "0.14512582511764972388462753696974"
+    },
+    {
+      "label": "two_vector_gram_d0.75_gap2.5_a0.5",
+      "kind": "non_interval_floating",
+      "passed": true,
+      "absolute_error": "0.0",
+      "comparison_budget": "1.0e-28"
+    },
+    {
+      "label": "two_vector_gram_d0.75_gap2.5_a3.0",
+      "kind": "non_interval_floating",
+      "passed": true,
+      "absolute_error": "0.0",
+      "comparison_budget": "1.0e-28"
+    },
+    {
+      "label": "small_gap_limit_d0.75_a0.5",
+      "kind": "non_interval_floating",
+      "passed": true,
+      "absolute_error": "2.5582763816567900210562078261799e-16",
+      "comparison_budget": "1.0e-11",
+      "generic_gap": "0.0000001",
+      "variance": "1.096622711232150957648276777764"
+    },
+    {
+      "label": "small_gap_limit_d0.75_a3.0",
+      "kind": "non_interval_floating",
+      "passed": true,
+      "absolute_error": "6.9052619062719951131964021826471e-14",
+      "comparison_budget": "1.0e-11",
+      "generic_gap": "0.0000001",
+      "variance": "1.096622711232150957648276777764"
+    },
+    {
+      "label": "double_weight_gram_d1.0_z(0.0 + 0.0j)",
+      "kind": "non_interval_floating",
+      "passed": true,
+      "absolute_error": "0.0",
+      "comparison_budget": "1.0e-28",
+      "endpoint": 100,
+      "omitted_tail_budget": "1.3838965267367375306486814569791e-87"
+    },
+    {
+      "label": "double_weight_gram_d1.0_z(0.2 + 0.7j)",
+      "kind": "non_interval_floating",
+      "passed": true,
+      "absolute_error": "1.3363823550460978230702682335757e-51",
+      "comparison_budget": "1.0e-28",
+      "endpoint": 100,
+      "omitted_tail_budget": "7.4602047646795480010323907905805e-79"
+    },
+    {
+      "label": "double_weight_gram_d1.0_z(-0.3 + 1.2j)",
+      "kind": "non_interval_floating",
+      "passed": true,
+      "absolute_error": "0.0",
+      "comparison_budget": "1.0e-28",
+      "endpoint": 100,
+      "omitted_tail_budget": "1.7398794184037804522083346704869e-74"
+    },
+    {
+      "label": "two_vector_large_time_amplification_d1.0_gap0.2",
+      "kind": "non_interval_floating",
+      "passed": true,
+      "absolute_error": "2.3520329448811321686036720910933e-49",
+      "comparison_budget": "1.0e-28",
+      "correlation": "0.9877885691859544618716976652538"
+    },
+    {
+      "label": "two_vector_gram_d1.0_gap0.2_a0.5",
+      "kind": "non_interval_floating",
+      "passed": true,
+      "absolute_error": "0.0",
+      "comparison_budget": "1.0e-28"
+    },
+    {
+      "label": "two_vector_gram_d1.0_gap0.2_a3.0",
+      "kind": "non_interval_floating",
+      "passed": true,
+      "absolute_error": "0.0",
+      "comparison_budget": "1.0e-28"
+    },
+    {
+      "label": "two_vector_large_time_amplification_d1.0_gap1.0",
+      "kind": "non_interval_floating",
+      "passed": true,
+      "absolute_error": "0.0",
+      "comparison_budget": "1.0e-28",
+      "correlation": "0.75493970871413126739166849131782"
+    },
+    {
+      "label": "two_vector_gram_d1.0_gap1.0_a0.5",
+      "kind": "non_interval_floating",
+      "passed": true,
+      "absolute_error": "0.0",
+      "comparison_budget": "1.0e-28"
+    },
+    {
+      "label": "two_vector_gram_d1.0_gap1.0_a3.0",
+      "kind": "non_interval_floating",
+      "passed": true,
+      "absolute_error": "0.0",
+      "comparison_budget": "1.0e-28"
+    },
+    {
+      "label": "two_vector_large_time_amplification_d1.0_gap2.5",
+      "kind": "non_interval_floating",
+      "passed": true,
+      "absolute_error": "2.6727647100921956461405364671515e-51",
+      "comparison_budget": "1.0e-28",
+      "correlation": "0.27530945810321826204255706472291"
+    },
+    {
+      "label": "two_vector_gram_d1.0_gap2.5_a0.5",
+      "kind": "non_interval_floating",
+      "passed": true,
+      "absolute_error": "0.0",
+      "comparison_budget": "1.0e-28"
+    },
+    {
+      "label": "two_vector_gram_d1.0_gap2.5_a3.0",
+      "kind": "non_interval_floating",
+      "passed": true,
+      "absolute_error": "0.0",
+      "comparison_budget": "1.0e-28"
+    },
+    {
+      "label": "small_gap_limit_d1.0_a0.5",
+      "kind": "non_interval_floating",
+      "passed": true,
+      "absolute_error": "2.9276765303528136150914217299499e-16",
+      "comparison_budget": "1.0e-11",
+      "generic_gap": "0.0000001",
+      "variance": "0.61685027506808491367715568749226"
+    },
+    {
+      "label": "small_gap_limit_d1.0_a3.0",
+      "kind": "non_interval_floating",
+      "passed": true,
+      "absolute_error": "1.1692687833372440631556755120529e-13",
+      "comparison_budget": "1.0e-11",
+      "generic_gap": "0.0000001",
+      "variance": "0.61685027506808491367715568749226"
+    }
+  ]
+}

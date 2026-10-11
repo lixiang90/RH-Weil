@@ -1,0 +1,105 @@
+{
+  "schema": "rh-weil-f1-mobius-taylor-two-weight-round-verification-v1",
+  "status": "PASS",
+  "date": "2026-10-12",
+  "baseline_commit": "68baaf144f4940930fbf9f62dd8e87420113c5d1",
+  "completed_iteration_count": 1,
+  "rounds_since_review_before": 0,
+  "rounds_since_review_after": 1,
+  "weil_f1_rounds_since_historical_review_before": 7,
+  "weil_f1_rounds_since_historical_review_after": 8,
+  "periodic_review_completed_this_round": false,
+  "periodic_review_counter_reset": false,
+  "periodic_review_earliest_permitted_round": 4,
+  "last_periodic_review_preserved": "goals/reviews/2026-10-11-original-route-review-cycle-6.md",
+  "notes": [
+    "notes/524-f1-mobius-cutoff-taylor-obstruction-and-repair.md",
+    "notes/525-f1-smoothed-mobius-probes-and-arithmetic-strength.md",
+    "notes/526-f1-faithful-two-weight-hilbert-quotient-and-defect.md"
+  ],
+  "source_sha256_normalized_lf": {
+    "notes/524-f1-mobius-cutoff-taylor-obstruction-and-repair.md": "5e9e96f3277d1c9089c6fd51ca2507b1251e3878570e3c799a795d635569d343",
+    "notes/525-f1-smoothed-mobius-probes-and-arithmetic-strength.md": "c3145456a28fd2f776430a8028b6b1095d719c95daf6e3a12a88d3a5e9541041",
+    "notes/526-f1-faithful-two-weight-hilbert-quotient-and-defect.md": "807e496d9bdbc0139d80736a9f34c4017ea759a80a640122d970fbf35d6c7e5c",
+    "reviews/2026-10-12/f1-mobius-taylor-two-weight-taylor-review.md": "1532b32c095ffb5bf2639d7832ad326fa9ac22a177f98925b2dc39a6aa691f78",
+    "reviews/2026-10-12/f1-mobius-taylor-two-weight-arithmetic-review.md": "5fa6af130f6aafd130af5250e1df49e1efe8fefaa57830804b4f83842f9e12be",
+    "reviews/2026-10-12/f1-mobius-taylor-two-weight-sign-review.md": "226ae6544e8a2316df8d27c22a9e97555ebe16152a1715e4c6f4ee3927f11789",
+    "scripts/mobius_taylor_two_weight_diagnostics.py": "318ce12eff900e2be3c99ec67f8d9a3c1afb7b86d8f4861759aa4567137a4c27",
+    "reviews/2026-10-12/f1-mobius-taylor-two-weight-diagnostics.json": "795ab42c41bac2f8bd6c3b85ebda5518149414acacddc17616363dbf3d9d4d5d",
+    "reviews/2026-10-12/f1-mobius-taylor-two-weight-independent-execution.json": "a911a5afa3f292285a5aba0b21297408b3996564b5407e5e3f1c92d04f3fb167",
+    "literature/supplements/2026-10-12-mobius-taylor-and-two-weight-input-audit.md": "fbbd29750b7ccb280bb1e851c7cbdde7b3a40d8c044e10a5c3179ede4f39470b",
+    "RESEARCH_BRANCHES.md": "d02311f68c54d50861548b23d1144d566f665c4a11fc54f0872655daa900fdfb",
+    "goals/review-cadence.json": "57a3e0c412db501a6a15b6722b615186bdc2474abc0adc0d8a51ab90e07f662b",
+    "literature/README.md": "02fe5fac2ab4ee14e3e25180b18c9f3187c61e9f826173278e735a007ff6bc54"
+  },
+  "validated_document_count": 9,
+  "validated_local_links_excluding_self_reference": 546,
+  "new_note_math_delimiters_balanced": true,
+  "control_characters_and_trailing_whitespace_clean": true,
+  "json_parsed_with_duplicate_key_rejection": true,
+  "modified_preexisting_files": [
+    "RESEARCH_BRANCHES.md",
+    "goals/review-cadence.json",
+    "literature/README.md"
+  ],
+  "old_notes_papers_formalizations_and_project_readme_unchanged": true,
+  "paper_layout_and_documentation_check": "PASS",
+  "internal_reviews": {
+    "three_full_text_final_reviews": [
+      "reviews/2026-10-12/f1-mobius-taylor-two-weight-taylor-review.md",
+      "reviews/2026-10-12/f1-mobius-taylor-two-weight-arithmetic-review.md",
+      "reviews/2026-10-12/f1-mobius-taylor-two-weight-sign-review.md"
+    ],
+    "all_frozen_hashes_present": true,
+    "authorship": "Root authored524, prime_transfer_chain authored525, centered_growth_final_audit authored526. Taylor reviewer independently reviewed all three; arithmetic reviewer self-reviewed525 and independently reviewed524/526; sign reviewer self-reviewed526 and independently reviewed524/525. No external peer review is claimed.",
+    "root_read_all_notes_reviews_script_and_diagnostic_records": true,
+    "independent_execution": "reviews/2026-10-12/f1-mobius-taylor-two-weight-independent-execution.json",
+    "parsed_rerun_identical": true
+  },
+  "bounded_diagnostics": {
+    "total": 166,
+    "passed": 166,
+    "failed": 0,
+    "exact_finite": 115,
+    "non_interval_floating": 51,
+    "working_decimal_digits": 50,
+    "cutoffs": {
+      "mobius_divisor_maximum": 64,
+      "finite_gaussian_mobius_terms": 24,
+      "finite_gaussian_log_x_endpoint": 18,
+      "gram_endpoint": 100,
+      "pure_taylor_basis_maximum_K": 6,
+      "blind_factor_maximum_m": 6
+    },
+    "actual_multiple_or_off_line_zeta_zero_asserted": false,
+    "sampled_gaps_asserted_to_be_actual_zero_gaps": false,
+    "interval_or_lean_certificate": false,
+    "infinite_analytic_results_computationally_certified": false,
+    "unconditional_PNT_estimate_reproved_numerically": false,
+    "classical_zero_count_reproved_numerically": false
+  },
+  "classical_input_audit": "literature/supplements/2026-10-12-mobius-taylor-and-two-weight-input-audit.md",
+  "no_new_archived_pdf_or_inventory_change": true,
+  "completed_scope": [
+    "Origin-flat actual cutoff sources form a closed proper subimage of I; the genuine h0 source gives the uniform negative-time P3 lower bound5*zeta(3)/(8*pi)*exp(5*abs(a)/2), independently of adaptive cutoff scales.",
+    "A legal finite-rank source projection restores the firstK negative-even Mellin values and preserves all actual nontrivial zero jets, with a finite input seminorm. K may depend on output n; large source coefficients are not an obstruction without a bound on the joint residual.",
+    "A source selected once and then only covariantly transported has an unavoidable exp((n+1/2)*abs(a)) residual for any nonzero fixed remainder; the original contract permits time-dependent reselection.",
+    "Classical unconditional Mobius cancellation pays raw-source L1 zero mass and cutoff mass coefficients uniformly in a finite input seminorm. Critical all-probe and zero-free-numerator Gaussian estimates are RH-equivalent audits, not independent arithmetic advances.",
+    "A nonnegative compact probe can cancel the full multiplicity of a selected conjugate zero pair; the actual h0 Gaussian source is distinct from a zero-free-Mellin target Gaussian.",
+    "Double-ended positive exponential Hilbert quotients faithfully retain every actual zero jet when the weight strip covers(0,1). Exact cross-Gram and actual central near-frequency pairs exclude unitary metrics equivalent to these fixed natural quotient norms.",
+    "The obstruction extends to fixed finite positive multi-exponential weights whose strip contains the center. A specific three-weight critical limit makes every fixed original quotient class have norm tending to zero even though each finite member is faithful."
+  ],
+  "limits": [
+    "No proof of RH, narrower zero-free boundary, new zero proportion, new paper, Lean run or website submission.",
+    "Fixed finite Taylor repair does not by itself bound the full target residual; the cutoff and compensation terms must be estimated together, retaining signed cancellation.",
+    "The mass compensator E_beta by itself generally lies outside F because beta has nonzero ordinary mass; its negative-end exp(-t) term must be cancelled jointly with the cutoff tail before using P_n.",
+    "Classical Conrey zero counts and unconditional Mertens bounds are cited inputs, not reproved by finite diagnostics. Floating checks are not interval or Lean certificates.",
+    "No impossibility theorem for all Hilbert models: independent non-equivalent arithmetic realizations remain open. A faithful positive unitary model would additionally exclude nontrivial Jordan multiplicities.",
+    "Full Weil sign, geometric principal/correspondences, global HH completion, sections and Riemann-Roch remain open."
+  ],
+  "next_research_contract": [
+    "For g=V_a f, estimate E[(1-chi_delta)T_g]+bE_beta-Q_Kg jointly, with legal time-reselected cutoffs and Taylor repair, using one fixed finite P_m uniformly for all real a and all f.",
+    "Retain actual cutoff derivatives, zero-mass compensation and origin Taylor cancellations; do not assume RH-equivalent critical Mobius power cancellation as an unconditional input.",
+    "Stop the fixed-exponential-weight equivalent-metric candidate; retain full Weil sign as a separate independently sourced arithmetic contract."
+  ]
+}

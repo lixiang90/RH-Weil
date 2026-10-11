@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "research_date": "2026-10-12",
+  "recorded_at_utc": "2026-10-11T16:47:51.548978+00:00",
+  "review_type": "Independent internal reproduction of the finite diagnostics; not external peer review",
+  "environment": {
+    "working_directory": "E:\\codex-build\\RH-Weil",
+    "shell": "PowerShell",
+    "python_version": "3.12.5 (tags/v3.12.5:ff3bc82, Aug  6 2024, 20:45:27) [MSC v.1940 64 bit (AMD64)]",
+    "python_implementation": "CPython",
+    "python_executable": "C:\\Python312\\python.exe",
+    "python_utf8_mode": true,
+    "platform": "Windows-11-10.0.26200-SP0",
+    "machine": "AMD64",
+    "mpmath_version": "1.3.0"
+  },
+  "execution": {
+    "command": "python -X utf8 scripts/mobius_taylor_two_weight_diagnostics.py --precision 50 --output tmp/f1-mobius-correction-20261012/independent-diagnostics.json",
+    "actual_python_executable": "C:\\Python312\\python.exe",
+    "exit_code": 0,
+    "wall_time_seconds": 2.7918219,
+    "working_decimal_digits": 50,
+    "public_diagnostic_overwritten": false,
+    "stdout": "{\"status\": \"PASS\", \"counts\": {\"total\": 166, \"passed\": 166, \"failed\": 0, \"exact_finite\": 115, \"non_interval_floating\": 51}, \"output\": \"E:\\\\codex-build\\\\RH-Weil\\\\tmp\\\\f1-mobius-correction-20261012\\\\independent-diagnostics.json\"}"
+  },
+  "script": {
+    "path": "scripts/mobius_taylor_two_weight_diagnostics.py",
+    "lf_sha256": "318ce12eff900e2be3c99ec67f8d9a3c1afb7b86d8f4861759aa4567137a4c27",
+    "full_source_read": true
+  },
+  "public_diagnostic": {
+    "path": "reviews/2026-10-12/f1-mobius-taylor-two-weight-diagnostics.json",
+    "lf_sha256": "795ab42c41bac2f8bd6c3b85ebda5518149414acacddc17616363dbf3d9d4d5d",
+    "all_166_records_read": true
+  },
+  "independent_output": {
+    "path": "tmp/f1-mobius-correction-20261012/independent-diagnostics.json",
+    "lf_sha256": "795ab42c41bac2f8bd6c3b85ebda5518149414acacddc17616363dbf3d9d4d5d"
+  },
+  "notes_lf_sha256": {
+    "notes/524-f1-mobius-cutoff-taylor-obstruction-and-repair.md": "5e9e96f3277d1c9089c6fd51ca2507b1251e3878570e3c799a795d635569d343",
+    "notes/525-f1-smoothed-mobius-probes-and-arithmetic-strength.md": "c3145456a28fd2f776430a8028b6b1095d719c95daf6e3a12a88d3a5e9541041",
+    "notes/526-f1-faithful-two-weight-hilbert-quotient-and-defect.md": "807e496d9bdbc0139d80736a9f34c4017ea759a80a640122d970fbf35d6c7e5c"
+  },
+  "notes_hashes_match_parent_freeze": true,
+  "checks": {
+    "total": 166,
+    "passed": 166,
+    "failed": 0,
+    "exact_finite": 115,
+    "non_interval_floating": 51
+  },
+  "parsedJSON_identical": true,
+  "comparison_scope": "Entire parsed JSON, including metadata, final note/script hashes, limitations and every field in all 166 diagnostic records",
+  "finite_cutoffs": {
+    "mobius_divisor_maximum": 64,
+    "finite_gaussian_mobius_terms": 24,
+    "finite_gaussian_log_x_endpoint": 18,
+    "gram_endpoint": 100,
+    "pure_taylor_basis_maximum_K": 6,
+    "blind_factor_maximum_m": 6
+  },
+  "exact_check_families": {
+    "genuine_mobius_divisor_identity": 64,
+    "negative_even_moment_rational_cost": 12,
+    "h0_lower_bound_rational_factor": 1,
+    "encoded_pure_taylor_projection_matrix": 4,
+    "finite_rational_source_scaling": 13,
+    "binomial_blind_factor_jets": 21
+  },
+  "floating_check_families": {
+    "trivial_zeta_derivative": 4,
+    "h0_source_taylor_moment": 1,
+    "finite_gaussian_mobius_mellin": 2,
+    "finite_pnt_mass_tail_integral": 2,
+    "double_weight_gram_finite_integral": 9,
+    "two_vector_large_time_amplification": 9,
+    "two_vector_quadratic_gram": 18,
+    "generic_small_gap_limit": 6
+  },
+  "full_note_review": {
+    "path": "tmp/f1-mobius-correction-20261012/final-arithmetic-review.md",
+    "524": "independent full mathematical audit",
+    "525": "author full self-audit, explicitly not represented as independent",
+    "526": "independent full mathematical audit",
+    "lf_sha256": "5fa6af130f6aafd130af5250e1df49e1efe8fefaa57830804b4f83842f9e12be"
+  },
+  "limits": {
+    "actual_multiple_or_off_line_zeta_zero_asserted": false,
+    "sampled_gaps_asserted_to_be_actual_zero_gaps": false,
+    "interval_or_lean_certificate": false,
+    "infinite_analytic_results_computationally_certified": false,
+    "unconditional_PNT_estimate_reproved_numerically": false,
+    "classical_zero_count_reproved_numerically": false
+  },
+  "scope": [
+    "This run reproduces 115 exact finite checks and 51 ordinary non-interval floating checks; neither class is an infinite analytic certificate.",
+    "The pure Taylor projection matrix check uses the already encoded Kronecker coefficient interface. It does not numerically establish smooth source admissibility, E continuity, or source closure.",
+    "The finite Gaussian Mobius Mellin checks have 24 genuine Mobius terms and y=log(x) endpoints +/-18, at two complex parameters. They certify no infinite Mobius tail or all-x estimate.",
+    "The PNT tail checks evaluate an elementary integral over two finite intervals and retain its known endpoint contributions; they do not reprove the unconditional PNT bound.",
+    "The nine Gram integrals use endpoints +/-100 with an analytic omitted-tail comparison budget; the quadrature itself uses ordinary mpmath arithmetic, not certified intervals.",
+    "Generic frequencies, multiplicities and gaps in finite algebra or Gram calculations are not asserted to be actual off-line, multiple, or nearby Riemann-zeta zeros.",
+    "The six small-gap comparisons use the fixed generic gap 1e-7 and budget 1e-11. Their finite asymptotic remainder is distinct from quadrature rounding error.",
+    "The notes establish RH-equivalence implications and specified source-family failures; no independent critical arithmetic estimate, RH proof, new zero-free region or zero proportion is supplied by this run.",
+    "Classical zero-count and simple-central-zero proportion inputs are cited in the notes and not computationally certified here.",
+    "No faithful unitary Hilbert realization, full Weil positivity, global HH completion or geometric principal relation is computationally certified.",
+    "Only temporary diagnostic output and this temporary execution receipt were written by this command; public script, diagnostics, mathematics and git were not modified."
+  ]
+}

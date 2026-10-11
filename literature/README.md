@@ -1,5 +1,11 @@
 # RH-Weil 文献索引
 
+2026-10-12实际Möbius质量与双端完成续核：DLMF的无条件部分和界、
+平凡零点导数、Beta／Gamma公式，以及Conrey1989的经典简单中心线计数，
+使用范围见[限定输入审查](supplements/2026-10-12-mobius-taylor-and-two-weight-input-audit.md)。
+固定探针与Báez-Duarte原判据作算子及取消条件对照；未得到独立临界抵消或Weil符号。
+本轮没有新PDF归档或历史清点变化。
+
 2026-10-11中心化增长续核：NIST DLMF 25.2.8、25.2.11与25.4.3的
 右半平面展开、Euler积和反射对称，使用范围及实际反演的自足证明见
 [经典输入审查](supplements/2026-10-11-centered-growth-classical-input-audit.md)。
