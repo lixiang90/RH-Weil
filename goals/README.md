@@ -1,10 +1,21 @@
-# 研究目标与执行记录
+# 长期研究恢复入口
 
-当前目标：[GOAL.20260909.md](GOAL.20260909.md)。2026-09-10按用户指令重启持续GOAL；版本名20260909按用户指定。先完成中断验证，再侧重F₁。
+当前[Goal](GOAL.20261013.md)。先读[短状态](STATE.json)，运行：
 
-工作区上级目录中的目标文件是编辑源；本目录保存可随 Git 提交、推送的副本。
-使用 `python scripts/sync_goal.py` 更新，再用 `python scripts/sync_goal.py --check` 核对。
-同步仅调整 Markdown 相对链接；[manifest.json](manifest.json)记录源文件和副本的 SHA-256。
-[旧目标](archive/GOAL.old.md)保持原始字节，其历史路径仍相对于原工作区解释。
+    python scripts/research_state.py check
+    python scripts/research_state.py show
 
-研究执行进度见[阶段账本](PROGRESS.md)。保存或有限检查通过不等于数学目标完成。
+再读状态指定的唯一主合同、最近决策及所需证据。
+压缩／中断后同样恢复，不先从巨大历史文件推断优先级。
+[通用流程](RESEARCH_WORKFLOW.md)适用于长期重型研究；
+[决策](DECISIONS.md)、[轮数](review-cadence.json)和[复盘](REVIEW_PROTOCOL.md)职责分开。
+STATE是当前执行状态唯一编辑源，show只是由它与cadence显示的视图。
+checkpoint记录核心文件哈希，不证明数学或工具运行态。
+
+旧[Goal](GOAL.20260909.md)、[NEXT](NEXT.20260909.md)、[PROGRESS](PROGRESS.md)
+和[archive](archive/)保持历史。scripts/sync_goal.py原用于上级源的旧版
+[镜像manifest](manifest.json)，不维护新Goal／STATE；
+2026-10-13核查时上级GOAL.20260909.md缺失，旧同步检查不可执行。
+本仓历史文件按基线保持，新入口不依赖这些外部源文件。
+新目标和状态直接以本仓为编辑源，不向上级写重复副本。
+保存、启动与有限检查通过不等于长期Goal完成。

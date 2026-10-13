@@ -1,0 +1,45 @@
+{
+  "schema": "rh-weil-macro-goal-start-verification-v1",
+  "client_date": "2026-10-13",
+  "baseline_commit": "3a72930e9f9f554b03b41d17d8c8002f1813ca82",
+  "runtime_goal_observed": "active after explicit create_goal and subsequent get_goal",
+  "goal_token_budget_set": false,
+  "structural_recovery_tests_passed": 11,
+  "new_local_doc_links_checked": 23,
+  "original_history_files_preserved": true,
+  "cadence_preserved": {
+    "rounds_since_review": 1,
+    "weil_f1_rounds_since_historical_review": 8,
+    "last_completed_round": "notes/526-f1-faithful-two-weight-hilbert-quotient-and-defect.md"
+  },
+  "startup_pilot": {
+    "samples": 12,
+    "source_lf_sha256": "f5418b1a6aced2063a48db15d796af34b4c5751e69b5063120a8902281ec44e7",
+    "scope": "ordinary high precision finite smoke diagnostic; no new math round or theorem",
+    "archived_original_bytes_verified": true
+  },
+  "checkpoint": "goals/checkpoints/2026-10-13-goal-start-final.json",
+  "reviews": [
+    {
+      "reviewer": "macro_state_design",
+      "scope": "current-state authority, macro goal, recovery, paused routes, cadence",
+      "fixed": "latest_decision existence; removed duplicate execution narrative from cadence"
+    },
+    {
+      "reviewer": "goal_contract_audit",
+      "scope": "contract and original-object numerical implementation, source hash/spot checks, completion threshold",
+      "fixed": "checkpoint covers evidence, support references and historical execution source"
+    },
+    {
+      "reviewer": "weil_pilot_start",
+      "scope": "frozen 12-sample execution and separate 110-digit Decimal statistics",
+      "fixed": "safe replay entry defaults to tmp and leaves original archive unchanged"
+    }
+  ],
+  "legacy_sync_check": {
+    "result": "not_available",
+    "reason": "workspace parent GOAL.20260909.md is missing",
+    "impact": "legacy mirror sources unavailable; existing repository history unchanged; new state has no dependency on parent source"
+  },
+  "scope": "structural workflow validation and finite numerical review; no claim of guaranteed memory, external peer review, RH or a new boundary"
+}

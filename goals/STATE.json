@@ -1,0 +1,106 @@
+{
+  "schema": "rh-weil-macro-state-v1",
+  "updated_for_client_date": "2026-10-13",
+  "baseline_commit": "3a72930e9f9f554b03b41d17d8c8002f1813ca82",
+  "goal": "goals/GOAL.20261013.md",
+  "workflow": "goals/RESEARCH_WORKFLOW.md",
+  "cadence": "goals/review-cadence.json",
+  "decisions": "goals/DECISIONS.md",
+  "latest_strategy": "goals/reviews/2026-10-12-connes-frontier-and-equivalence-strategy.md",
+  "latest_decision": "D20261013",
+  "macro": {
+    "long_objective": "独立实际算术来源约束同一完整Weil型／ζ谱，并取得非重复强制后果；不把新等价、有限实验或组织工作当完成。",
+    "unpaid_bottleneck": "没有独立支付完整Weil正性；prolate与真正最低态的比较、全补空间和增长支集的统一费用仍未付。",
+    "why_this_contract": "先检验实际原核的排序和原子位置敏感性，找到值得投入有符号核估计的来源，或尽早停止只刷有限小数的技巧。",
+    "paused_routes": [
+      "零点比例优化",
+      "无零区域优化"
+    ],
+    "stopped_or_downgraded": [
+      "新增谱／增长等价主攻停止",
+      "cutoff＋Taylor只作准入／费用诊断",
+      "固定多正实权等价酉化停止",
+      "RR字段扩张后置"
+    ]
+  },
+  "primary_contract": {
+    "id": "C001",
+    "path": "goals/contracts/C001-weil-arithmetic-sensitivity.md",
+    "status": "reviewing",
+    "stage": "阶段A启动12组及内部原核／统计逆审通过；完整来源分解和晋级评估未完成",
+    "next_action": "按C001预注册同一mu、N上的H与d逐来源联合分解，比较固定原核奇底v与逐扰动重求v；保留beta平方全部交叉，先决定是否有新有符号机制，不直接扩大N刷新小数。",
+    "stop_rule": "最多2个完整研究轮，只有重复公式／数值精度或无连续范围的条件时冻结该技巧。"
+  },
+  "support_contracts": [],
+  "must_not_forget": [
+    "旧Goal/NEXT/PROGRESS为历史；最新10月12日战略优先于旧cycle6的SC主攻。",
+    "数学轮数只在cadence；组织、创建Goal和启动烟雾样本不计轮，也不重置周期。",
+    "522/525已定位RH强度，允许自由源、单Gaussian、单P1仍不能降低核心难度。",
+    "Connes simple指最低态；N极限与增长lambda极限不同，残差小不能排除更低负谱支。",
+    "512/514/516的固定S符号、混合同调／尾及scalar/jets限制保持。",
+    "启动观测是experiment：原核底在tau=1e-10灰带，负移位排序随N改变；不能证明符号、RH、simple或新边界。",
+    "q_nm已经承载实偶原子对，移动仅p=2指数1且权重不变；CLI偶截面candidate不是007修正prolate。",
+    "整体Goal须达到独立实际输入或实质方法类边界的强度；局部合同完成不能倒填较弱成功。"
+  ],
+  "evidence": [
+    {
+      "path": "notes/016-prime-graph-hodge-inequality.md",
+      "kind": "proved",
+      "scope": "实际QW=P-V恒等式与指定逐块绝对范数步骤的线性损失；全空间domination仍是条件目标。"
+    },
+    {
+      "path": "notes/526-f1-faithful-two-weight-hilbert-quotient-and-defect.md",
+      "kind": "obstruction",
+      "scope": "固定有限正实多权自然商及等价Hilbert酉化；不排除所有Hilbert实现。"
+    },
+    {
+      "path": "literature/supplements/2026-10-12-connes-recent-paper-audit.md",
+      "kind": "cited",
+      "scope": "近期原文的限定核读和未付条件；不是全部论文完整认证。"
+    },
+    {
+      "path": "reviews/2026-10-13/goal-start-pilot/preregistration.json",
+      "kind": "experiment",
+      "scope": "执行前冻结mu=13,N4/6,dps50/70,delta0/±1/1000的原始登记。"
+    },
+    {
+      "path": "reviews/2026-10-13/goal-start-pilot/pilot-results.json",
+      "kind": "experiment",
+      "scope": "12组普通高精度有限数据及结构残差；未做directed rounding或连续升级。"
+    },
+    {
+      "path": "reviews/2026-10-13/goal-start-pilot/receipt.md",
+      "kind": "experiment",
+      "scope": "启动样本的数值与灰带限制，完整C001仍未验收。"
+    },
+    {
+      "path": "reviews/2026-10-13/goal-start-pilot/independent-review.json",
+      "kind": "experiment",
+      "scope": "110位Decimal对保存数字独立复算灰带、D前提及跨精度统计；不是矩阵积分／全域证明重放。"
+    },
+    {
+      "path": "scripts/qw_matrix.py",
+      "kind": "experiment",
+      "scope": "本批真实数值核的共享实现；原运行LF哈希见预注册，不认证任何猜想。"
+    },
+    {
+      "path": "scripts/weil_sensitivity_pilot.py",
+      "kind": "experiment",
+      "scope": "安全重放入口，保留数学实现／参数，默认输出tmp而非公开归档。"
+    },
+    {
+      "path": "reviews/2026-10-13/goal-start-pilot/run_pilot_snapshot.py",
+      "kind": "experiment",
+      "scope": "历史实际执行包装的原字节快照；禁止在公开归档执行，重放用安全入口。"
+    }
+  ],
+  "pending_processes": [],
+  "runtime_goal_observation": {
+    "status": "active",
+    "observed_on": "2026-10-13",
+    "created_at_epoch": 1791898692,
+    "basis": "用户明确授权后create_goal成功，随后get_goal确认active；这是最近观察，不是文件直接查询运行态。"
+  },
+  "goal_completion_requested": false,
+  "checkpoint": "goals/checkpoints/2026-10-13-goal-start-final.json"
+}

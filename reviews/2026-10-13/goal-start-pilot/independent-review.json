@@ -1,0 +1,272 @@
+{
+  "checked_utc": "2026-10-13T13:37:42.317774+00:00",
+  "method": "Independent Decimal(110 digits) aggregation of saved full spectra and scalar diagnostics. No kernel batch rerun, eigenvalue enclosure, or interval certification.",
+  "input_byte_sha256": "b84b43de882b6e6cefe781f20123014961f4ce0cfbbe01a65cf83690cc1242e1",
+  "receipt_byte_sha256": "35a806c804553d0d04217d87a1e3bee32d97c07865dd1f7e1f8f46cc83098e88",
+  "findings": [],
+  "receipt_statistics_consistent": true,
+  "run_count": 12,
+  "tau": "1E-10",
+  "all_a0_gt_o": true,
+  "D_negative_samples": [
+    {
+      "N": 4,
+      "dps": 50,
+      "delta": "+1/1000"
+    },
+    {
+      "N": 4,
+      "dps": 70,
+      "delta": "+1/1000"
+    }
+  ],
+  "three_bottom_spectral_cross_precision_max_abs_difference": "9.44021212167169682673029263E-51",
+  "structural_residual_max_by_dps": {
+    "50": "4.677338242661342380745938817515093287926594540183835221E-51",
+    "70": "3.62227163153068494700364771635511671227301247925565527583304595597420052744E-71"
+  },
+  "source_mp_parity_cross_check_max_abs_residual": "5.345529420184391292281072934302963757630393760210097396E-51",
+  "rows": [
+    {
+      "N": 4,
+      "dps": 50,
+      "delta": "0",
+      "even_inertia": {
+        "negative_below_minus_tau": 0,
+        "gray_abs_le_tau": 1,
+        "positive_above_tau": 4
+      },
+      "odd_inertia": {
+        "negative_below_minus_tau": 0,
+        "gray_abs_le_tau": 1,
+        "positive_above_tau": 3
+      },
+      "a0_gt_o": true,
+      "D_recomputed_from_saved_scalars": "2.486738930886902750094026032000454210867258875781330682014206309112383531777850886604137118733902722403257E-8",
+      "D_difference_from_saved": "5.3019851014206309112383531777850886604137118733902722403257E-55",
+      "D_negative": false,
+      "finite_bottom_parity": "even"
+    },
+    {
+      "N": 4,
+      "dps": 50,
+      "delta": "+1/1000",
+      "even_inertia": {
+        "negative_below_minus_tau": 1,
+        "gray_abs_le_tau": 0,
+        "positive_above_tau": 4
+      },
+      "odd_inertia": {
+        "negative_below_minus_tau": 2,
+        "gray_abs_le_tau": 0,
+        "positive_above_tau": 2
+      },
+      "a0_gt_o": true,
+      "D_recomputed_from_saved_scalars": "-0.0000092602864332408007772103250666840456043158689643158869438906318583960979079017504206195255528438032272462101024",
+      "D_difference_from_saved": "1.9178906318583960979079017504206195255528438032272462101024E-57",
+      "D_negative": true,
+      "finite_bottom_parity": "even"
+    },
+    {
+      "N": 4,
+      "dps": 50,
+      "delta": "-1/1000",
+      "even_inertia": {
+        "negative_below_minus_tau": 2,
+        "gray_abs_le_tau": 0,
+        "positive_above_tau": 3
+      },
+      "odd_inertia": {
+        "negative_below_minus_tau": 1,
+        "gray_abs_le_tau": 0,
+        "positive_above_tau": 3
+      },
+      "a0_gt_o": true,
+      "D_recomputed_from_saved_scalars": "0.0000591413093346460409409658146327781739703418955941528213503636372232674167372236949575667037765739688393765847",
+      "D_difference_from_saved": "2.835196363627767325832627763050424332962234260311606234153E-55",
+      "D_negative": false,
+      "finite_bottom_parity": "odd"
+    },
+    {
+      "N": 4,
+      "dps": 70,
+      "delta": "0",
+      "even_inertia": {
+        "negative_below_minus_tau": 0,
+        "gray_abs_le_tau": 1,
+        "positive_above_tau": 4
+      },
+      "odd_inertia": {
+        "negative_below_minus_tau": 0,
+        "gray_abs_le_tau": 1,
+        "positive_above_tau": 3
+      },
+      "a0_gt_o": true,
+      "D_recomputed_from_saved_scalars": "2.486738930886902750094026032000454210867258960638146013279879089456988619919397244579579475956848699861254E-8",
+      "D_difference_from_saved": "3.08527930602755420420524043151300138746E-75",
+      "D_negative": false,
+      "finite_bottom_parity": "even"
+    },
+    {
+      "N": 4,
+      "dps": 70,
+      "delta": "+1/1000",
+      "even_inertia": {
+        "negative_below_minus_tau": 1,
+        "gray_abs_le_tau": 0,
+        "positive_above_tau": 4
+      },
+      "odd_inertia": {
+        "negative_below_minus_tau": 2,
+        "gray_abs_le_tau": 0,
+        "positive_above_tau": 2
+      },
+      "a0_gt_o": true,
+      "D_recomputed_from_saved_scalars": "-0.0000092602864332408007772103250666840456043158689643156233420036307023160741875602176354899279045058281458331728534",
+      "D_difference_from_saved": "7.97397823645100720954941718541668271466E-77",
+      "D_negative": true,
+      "finite_bottom_parity": "even"
+    },
+    {
+      "N": 4,
+      "dps": 70,
+      "delta": "-1/1000",
+      "even_inertia": {
+        "negative_below_minus_tau": 2,
+        "gray_abs_le_tau": 0,
+        "positive_above_tau": 3
+      },
+      "odd_inertia": {
+        "negative_below_minus_tau": 1,
+        "gray_abs_le_tau": 0,
+        "positive_above_tau": 3
+      },
+      "a0_gt_o": true,
+      "D_recomputed_from_saved_scalars": "0.0000591413093346460409409658146327781739703418955939367324776343122268549913701503138654044895705044617509115951",
+      "D_difference_from_saved": "9.072496861345955104294955382490884049E-76",
+      "D_negative": false,
+      "finite_bottom_parity": "odd"
+    },
+    {
+      "N": 6,
+      "dps": 50,
+      "delta": "0",
+      "even_inertia": {
+        "negative_below_minus_tau": 0,
+        "gray_abs_le_tau": 2,
+        "positive_above_tau": 5
+      },
+      "odd_inertia": {
+        "negative_below_minus_tau": 0,
+        "gray_abs_le_tau": 2,
+        "positive_above_tau": 4
+      },
+      "a0_gt_o": true,
+      "D_recomputed_from_saved_scalars": "1.129550223604716322413278661409457810096250777699386716759502103030111459033407519284204020648668661169915E-8",
+      "D_difference_from_saved": "1.345603759502103030111459033407519284204020648668661169915E-56",
+      "D_negative": false,
+      "finite_bottom_parity": "even"
+    },
+    {
+      "N": 6,
+      "dps": 50,
+      "delta": "+1/1000",
+      "even_inertia": {
+        "negative_below_minus_tau": 2,
+        "gray_abs_le_tau": 0,
+        "positive_above_tau": 5
+      },
+      "odd_inertia": {
+        "negative_below_minus_tau": 2,
+        "gray_abs_le_tau": 0,
+        "positive_above_tau": 4
+      },
+      "a0_gt_o": true,
+      "D_recomputed_from_saved_scalars": "0.00000731830382199484347831444168069704340934063142763826234061819590184281373851154283496258604677423057615491785",
+      "D_difference_from_saved": "1.0659838180409815718626148845716503741395322576942384508215E-55",
+      "D_negative": false,
+      "finite_bottom_parity": "even"
+    },
+    {
+      "N": 6,
+      "dps": 50,
+      "delta": "-1/1000",
+      "even_inertia": {
+        "negative_below_minus_tau": 3,
+        "gray_abs_le_tau": 0,
+        "positive_above_tau": 4
+      },
+      "odd_inertia": {
+        "negative_below_minus_tau": 2,
+        "gray_abs_le_tau": 0,
+        "positive_above_tau": 4
+      },
+      "a0_gt_o": true,
+      "D_recomputed_from_saved_scalars": "0.00008975408340957347475871410900045080094813330380462895528337757945790540876744956114023203406892781778170910654",
+      "D_difference_from_saved": "1.04288337757945790540876744956114023203406892781778170910654E-54",
+      "D_negative": false,
+      "finite_bottom_parity": "even"
+    },
+    {
+      "N": 6,
+      "dps": 70,
+      "delta": "0",
+      "even_inertia": {
+        "negative_below_minus_tau": 0,
+        "gray_abs_le_tau": 2,
+        "positive_above_tau": 5
+      },
+      "odd_inertia": {
+        "negative_below_minus_tau": 0,
+        "gray_abs_le_tau": 2,
+        "positive_above_tau": 4
+      },
+      "a0_gt_o": true,
+      "D_recomputed_from_saved_scalars": "1.129550223604716322413278661409457810095244252243246750517089931128898524293007272025636013682574990761604E-8",
+      "D_difference_from_saved": "6.6231003007272025636013682574990761604E-76",
+      "D_negative": false,
+      "finite_bottom_parity": "even"
+    },
+    {
+      "N": 6,
+      "dps": 70,
+      "delta": "+1/1000",
+      "even_inertia": {
+        "negative_below_minus_tau": 2,
+        "gray_abs_le_tau": 0,
+        "positive_above_tau": 5
+      },
+      "odd_inertia": {
+        "negative_below_minus_tau": 2,
+        "gray_abs_le_tau": 0,
+        "positive_above_tau": 4
+      },
+      "a0_gt_o": true,
+      "D_recomputed_from_saved_scalars": "0.00000731830382199484347831444168069704340934063142771873452284168442463203838207861547416233589602905275546341388",
+      "D_difference_from_saved": "3.1964861547416233589602905275546341388E-76",
+      "D_negative": false,
+      "finite_bottom_parity": "even"
+    },
+    {
+      "N": 6,
+      "dps": 70,
+      "delta": "-1/1000",
+      "even_inertia": {
+        "negative_below_minus_tau": 3,
+        "gray_abs_le_tau": 0,
+        "positive_above_tau": 4
+      },
+      "odd_inertia": {
+        "negative_below_minus_tau": 2,
+        "gray_abs_le_tau": 0,
+        "positive_above_tau": 4
+      },
+      "a0_gt_o": true,
+      "D_recomputed_from_saved_scalars": "0.00008975408340957347475871410900045080094813330380444263096659549114291330207660280572786444423732607594070286625",
+      "D_difference_from_saved": "4.46559719427213555576267392405929713375E-75",
+      "D_negative": false,
+      "finite_bottom_parity": "even"
+    }
+  ],
+  "stage_status": "C001 stage A startup diagnostic only; no completed mathematical round or mathematical promotion"
+}

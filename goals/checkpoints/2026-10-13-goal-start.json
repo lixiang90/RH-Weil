@@ -1,0 +1,159 @@
+{
+  "schema": "rh-weil-macro-checkpoint-v1",
+  "created_for_client_date": "2026-10-13",
+  "git_head_at_checkpoint": "3a72930e9f9f554b03b41d17d8c8002f1813ca82",
+  "state": {
+    "schema": "rh-weil-macro-state-v1",
+    "updated_for_client_date": "2026-10-13",
+    "baseline_commit": "3a72930e9f9f554b03b41d17d8c8002f1813ca82",
+    "goal": "goals/GOAL.20261013.md",
+    "workflow": "goals/RESEARCH_WORKFLOW.md",
+    "cadence": "goals/review-cadence.json",
+    "decisions": "goals/DECISIONS.md",
+    "latest_strategy": "goals/reviews/2026-10-12-connes-frontier-and-equivalence-strategy.md",
+    "latest_decision": "D20261013",
+    "macro": {
+      "long_objective": "独立实际算术来源约束同一完整Weil型／ζ谱，并取得非重复强制后果；不把新等价、有限实验或组织工作当完成。",
+      "unpaid_bottleneck": "没有独立支付完整Weil正性；prolate与真正最低态的比较、全补空间和增长支集的统一费用仍未付。",
+      "why_this_contract": "先检验实际原核的排序和原子位置敏感性，找到值得投入有符号核估计的来源，或尽早停止只刷有限小数的技巧。",
+      "paused_routes": [
+        "零点比例优化",
+        "无零区域优化"
+      ],
+      "stopped_or_downgraded": [
+        "新增谱／增长等价主攻停止",
+        "cutoff＋Taylor只作准入／费用诊断",
+        "固定多正实权等价酉化停止",
+        "RR字段扩张后置"
+      ]
+    },
+    "primary_contract": {
+      "id": "C001",
+      "path": "goals/contracts/C001-weil-arithmetic-sensitivity.md",
+      "status": "reviewing",
+      "stage": "阶段A启动12组及内部原核／统计逆审通过；完整来源分解和晋级评估未完成",
+      "next_action": "按C001预注册同一mu、N上的H与d逐来源联合分解，比较固定原核奇底v与逐扰动重求v；保留beta平方全部交叉，先决定是否有新有符号机制，不直接扩大N刷新小数。",
+      "stop_rule": "最多2个完整研究轮，只有重复公式／数值精度或无连续范围的条件时冻结该技巧。"
+    },
+    "support_contracts": [],
+    "must_not_forget": [
+      "旧Goal/NEXT/PROGRESS为历史；最新10月12日战略优先于旧cycle6的SC主攻。",
+      "数学轮数只在cadence；组织、创建Goal和启动烟雾样本不计轮，也不重置周期。",
+      "522/525已定位RH强度，允许自由源、单Gaussian、单P1仍不能降低核心难度。",
+      "Connes simple指最低态；N极限与增长lambda极限不同，残差小不能排除更低负谱支。",
+      "512/514/516的固定S符号、混合同调／尾及scalar/jets限制保持。",
+      "启动观测是experiment：原核底在tau=1e-10灰带，负移位排序随N改变；不能证明符号、RH、simple或新边界。",
+      "q_nm已经承载实偶原子对，移动仅p=2指数1且权重不变；CLI偶截面candidate不是007修正prolate。",
+      "整体Goal须达到独立实际输入或实质方法类边界的强度；局部合同完成不能倒填较弱成功。"
+    ],
+    "evidence": [
+      {
+        "path": "notes/016-prime-graph-hodge-inequality.md",
+        "kind": "proved",
+        "scope": "实际QW=P-V恒等式与指定逐块绝对范数步骤的线性损失；全空间domination仍是条件目标。"
+      },
+      {
+        "path": "notes/526-f1-faithful-two-weight-hilbert-quotient-and-defect.md",
+        "kind": "obstruction",
+        "scope": "固定有限正实多权自然商及等价Hilbert酉化；不排除所有Hilbert实现。"
+      },
+      {
+        "path": "literature/supplements/2026-10-12-connes-recent-paper-audit.md",
+        "kind": "cited",
+        "scope": "近期原文的限定核读和未付条件；不是全部论文完整认证。"
+      },
+      {
+        "path": "reviews/2026-10-13/goal-start-pilot/preregistration.json",
+        "kind": "experiment",
+        "scope": "执行前冻结mu=13,N4/6,dps50/70,delta0/±1/1000的原始登记。"
+      },
+      {
+        "path": "reviews/2026-10-13/goal-start-pilot/pilot-results.json",
+        "kind": "experiment",
+        "scope": "12组普通高精度有限数据及结构残差；未做directed rounding或连续升级。"
+      },
+      {
+        "path": "reviews/2026-10-13/goal-start-pilot/receipt.md",
+        "kind": "experiment",
+        "scope": "启动样本的数值与灰带限制，完整C001仍未验收。"
+      },
+      {
+        "path": "reviews/2026-10-13/goal-start-pilot/independent-review.json",
+        "kind": "experiment",
+        "scope": "110位Decimal对保存数字独立复算灰带、D前提及跨精度统计；不是矩阵积分／全域证明重放。"
+      },
+      {
+        "path": "scripts/qw_matrix.py",
+        "kind": "experiment",
+        "scope": "本批真实数值核的共享实现；原运行LF哈希见预注册，不认证任何猜想。"
+      },
+      {
+        "path": "scripts/weil_sensitivity_pilot.py",
+        "kind": "experiment",
+        "scope": "安全重放入口，保留数学实现／参数，默认输出tmp而非公开归档。"
+      },
+      {
+        "path": "reviews/2026-10-13/goal-start-pilot/run_pilot_snapshot.py",
+        "kind": "experiment",
+        "scope": "历史实际执行包装的原字节快照；禁止在公开归档执行，重放用安全入口。"
+      }
+    ],
+    "pending_processes": [],
+    "runtime_goal_observation": {
+      "status": "active",
+      "observed_on": "2026-10-13",
+      "created_at_epoch": 1791898692,
+      "basis": "用户明确授权后create_goal成功，随后get_goal确认active；这是最近观察，不是文件直接查询运行态。"
+    },
+    "goal_completion_requested": false,
+    "checkpoint": "goals/checkpoints/2026-10-13-goal-start.json"
+  },
+  "cadence_snapshot": {
+    "schema": "rh-weil-research-review-cadence-v1",
+    "user_instruction_date": "2026-10-08",
+    "minimum_rounds": 4,
+    "target_rounds": 6,
+    "maximum_rounds": 8,
+    "counting_unit": "completed research continuation iteration, not tool calls or files",
+    "rounds_since_review": 1,
+    "last_review": "goals/reviews/2026-10-11-original-route-review-cycle-6.md",
+    "last_review_baseline_commit": "b9651f2375a89b905191225e7dd710075a05be96",
+    "last_review_completed_round_count": 4,
+    "last_review_trigger": "actual centered group growth has now been compared completely with the unknown zero bandwidth, and the natural single-line Hilbert quotient collapses; the analytical bridge is complete but independent arithmetic contraction is absent, so review early at round four",
+    "last_completed_round": "notes/526-f1-faithful-two-weight-hilbert-quotient-and-defect.md",
+    "last_completed_round_date": "2026-10-12",
+    "last_completed_round_baseline_commit": "68baaf144f4940930fbf9f62dd8e87420113c5d1",
+    "latest_user_directed_review": "goals/reviews/2026-10-12-connes-frontier-and-equivalence-strategy.md",
+    "latest_user_directed_review_baseline_commit": "851a70bef3de8985120dc252284bb8bc28ec9d34",
+    "latest_user_directed_review_scope": "strategic reflection using selected prior notes, previous retrospectives and primary Connes papers through 2026-08-31; not a fresh full audit of all 526 notes; no new completed mathematical round or cadence reset",
+    "current_research_focus": "Current execution authority: goals/STATE.json and goals/GOAL.20261013.md. Preserve the latest 2026-10-12 strategic review; C001 structured Weil arithmetic-sensitivity/low-ordering contract has begun with a finite startup pilot, not a completed mathematical round. Do not duplicate operational state or counters here.",
+    "weil_f1_rounds_since_historical_review": 8,
+    "last_completed_round_note_paths": [
+      "notes/524-f1-mobius-cutoff-taylor-obstruction-and-repair.md",
+      "notes/525-f1-smoothed-mobius-probes-and-arithmetic-strength.md",
+      "notes/526-f1-faithful-two-weight-hilbert-quotient-and-defect.md"
+    ]
+  },
+  "normalized_lf_sha256": {
+    "AGENTS.md": "ba22d7d159a68b499fd67db6c6aa2b92c1f0f5eb8d36631dd7f3b10e6ab35a4a",
+    "goals/DECISIONS.md": "44c5e8d2b77240c3b6cda6bd3a0a4ffb57b88e0c6e47ce1aa65dc36ab1f6ac19",
+    "goals/GOAL.20261013.md": "96e6bd6676fef2c32f155e3b27734917cb1a9982b003f74444b90202c9307726",
+    "goals/RESEARCH_WORKFLOW.md": "406136a2d7399e08099deeab71660884fd28a968ad9d3dda15d37f125a2553fa",
+    "goals/STATE.json": "30f1f4d038c00fe7581d15ad9400c1d01f8d236de1cc1f1a17aeca5f87d51203",
+    "goals/contracts/C001-weil-arithmetic-sensitivity.md": "aa8c6b963915a509536f2b29c58de46d56eb005b534a68889266061b084d22d6",
+    "goals/review-cadence.json": "9a952a58c55b206a8d891b11abc72aaa7daf793df6c2b5d5ec91509779a7e0f0",
+    "goals/reviews/2026-10-12-connes-frontier-and-equivalence-strategy.md": "42428f85cd0eae7d1636e7b06c1973b505e56e2750d32f487d600ee3932413a0",
+    "literature/supplements/2026-10-12-connes-recent-paper-audit.md": "c8c12028ab393bd5ece186644417c506ab9ac3aa8146c131c22abbd0a439a92a",
+    "notes/016-prime-graph-hodge-inequality.md": "05fa91f5a7251ce3da071a68e618e174e8fbcf3e07770e76122c37e34b4748c5",
+    "notes/526-f1-faithful-two-weight-hilbert-quotient-and-defect.md": "807e496d9bdbc0139d80736a9f34c4017ea759a80a640122d970fbf35d6c7e5c",
+    "reviews/2026-10-13/goal-start-pilot/independent-review.json": "b22261308451c4a9b44d0d41b784306dc6109fef089441c51fefab49985068b1",
+    "reviews/2026-10-13/goal-start-pilot/pilot-results.json": "b84b43de882b6e6cefe781f20123014961f4ce0cfbbe01a65cf83690cc1242e1",
+    "reviews/2026-10-13/goal-start-pilot/preregistration.json": "b796b33c8e8c0612604d91da8f53a127a38a9789eaebf6e1dea676176152d774",
+    "reviews/2026-10-13/goal-start-pilot/receipt.md": "35a806c804553d0d04217d87a1e3bee32d97c07865dd1f7e1f8f46cc83098e88",
+    "reviews/2026-10-13/goal-start-pilot/run_pilot_snapshot.py": "e59cb114bb476bad9d5d50e99a2690f70c3cd53c8e93f2f244e1ccfc6398eef7",
+    "scripts/qw_matrix.py": "f5418b1a6aced2063a48db15d796af34b4c5751e69b5063120a8902281ec44e7",
+    "scripts/research_state.py": "dbc0d43e06833d79e04d0ede3306e6b8e91d6ed57fba9b08f605de47fb269618",
+    "scripts/weil_sensitivity_pilot.py": "a49669946c4642378ac93a0a24838f086812bd3e319ed11754a2325d2c9a08c1"
+  },
+  "scope": "Structural recovery snapshot; not proof or live runtime verification"
+}

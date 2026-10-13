@@ -1,0 +1,42 @@
+{
+  "candidate_id": "C001",
+  "phase": "pending-run stage A smoke pilot",
+  "mu": "13",
+  "lambda": "sqrt(13)",
+  "length": "log(13)",
+  "N": [
+    4,
+    6
+  ],
+  "dps": [
+    50,
+    70
+  ],
+  "deltas": [
+    "0",
+    "+1/1000",
+    "-1/1000"
+  ],
+  "tau": "1e-10",
+  "perturbed_atom": "p=2, exponent=1 only: pair +/-log(2) becomes +/-(log(2)+delta)",
+  "fixed_weight": "von_mangoldt(2)/sqrt(2)=log(2)/sqrt(2)",
+  "update": "W_delta(n,m)=W0(n,m)-weight*(q_nm(log(2)+delta,n,m,L)-q_nm(log(2),n,m,L))",
+  "other_prime_power_atoms": "unchanged, including powers of 2 and endpoint 13; q_nm already represents the pair, no extra factor of 2",
+  "matrix_construction": "Every W0 entry independently calls original qw_entry; cache separately for each N,dps; controls reuse W0",
+  "true_parity_transform": "even V0, (Vn+V(-n))/sqrt2; odd (Vn-V(-n))/sqrt2, n=1..N, matching source APIs",
+  "displacement_check": "b_n=n*W(n,0), b_0=0; (n-m)*W(n,m)=b_n-b_m; Hnm=W(n,-m)=(b_n+b_m)/(n+m)",
+  "diagnostic": "v is re-solved true finite odd-bottom unit vector for each control; o=v^T O v, h=v^T H v, beta=sqrt2*d^T v, D=2*(a0-o)*h-beta^2; D criterion only applied when a0>o",
+  "scope": "No zeta zeros, prolate candidate, interval certificate, new bound, RH decision, or completed mathematical research round",
+  "source_file": "E:\\codex-build\\RH-Weil\\scripts\\qw_matrix.py",
+  "source_file_lf_sha256": "f5418b1a6aced2063a48db15d796af34b4c5751e69b5063120a8902281ec44e7",
+  "source_function_lf_sha256": {
+    "qw_entry": "f1ed9c0e339b12e9b530a0789caf4493de890d099954f1a64b1ea9436e41639c",
+    "q_nm": "6b1b0038618fc0cd06a9260bdce19adb22db534311b957babf257a6f73508983",
+    "von_mangoldt": "813d67e385196b36339bff6dc52439bef2567ff9c70ebd0a0366e9869218b243",
+    "w02": "5bb5a3dd8fe253151afffcf0a7410e5e2be62e881e9dd5db55e4a2b4060d83e9",
+    "w_real": "d5d0148a6958bc3c8a9a11c3329de9c0d2241c9434f7904bf668ffe8ee310d36",
+    "w_primes": "c9399809b7db543f6e6f6a9a80dce9f0af7f6dfe92ff80d6123a4c84c0f63322",
+    "build_parity_blocks_mp": "014fccc6a4231ea9509bf6b1fc3ec5805681dc168e1c3315c53b0a290600ee44",
+    "parity_blocks": "ab9f2c4f5097b7f00422be07d57b49f47646b7fe759ee484095bdd6577bcf42a"
+  }
+}

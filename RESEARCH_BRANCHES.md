@@ -5,6 +5,12 @@
 和[第六周期复盘及下一周期方向](goals/reviews/2026-10-11-original-route-review-cycle-6.md)。
 一次完整研究迭代计一轮，工具调用、笔记或子代理数量不计作轮数。
 
+2026-10-13按用户要求启动[宏观Goal](goals/GOAL.20261013.md)，
+跨轮恢复先从[短状态](goals/STATE.json)和[研究流程](goals/RESEARCH_WORKFLOW.md)读取当前合同与决策。
+历史Goal／NEXT／PROGRESS保持原件，但不再作为当前执行指令。
+C001已开始固定参数的原核／成对素数原子负对照，
+启动[有限原件](reviews/2026-10-13/goal-start-pilot/README.md)仅作探索，不登记数学轮或新算术结论。
+
 ## 当前研究方向（2026-10-12，用户指定的等价条件反思与 Connes 前沿核查）
 
 研究重心转回无零区域与近期比例优化之前的 Weil 类比、F₁ 和实际算术来源。

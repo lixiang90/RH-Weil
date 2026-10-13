@@ -80,7 +80,7 @@ Lean 状态另外区分 `proved`、`classical_sorry`、`depends_on_sorry` 和 `o
 | [literature/](literature/README.md) | 固定版本的外部原始文献、来源与核读范围。 |
 | [reviews/](reviews/) | 独立审查、精确审计和后续证明任务。 |
 | [scripts/](scripts/) | 注册的有限检查、证书和探索计算；[requirements.txt](requirements.txt) 固定基本 Python 依赖范围。 |
-| [goals/](goals/README.md) | 长期研究目标、任务单与进展账本。 |
+| [goals/](goals/README.md) | 宏观研究目标、恢复入口、单项合同与复盘制度。 |
 
 ## 使用与验证
 
