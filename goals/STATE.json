@@ -7,11 +7,11 @@
   "cadence": "goals/review-cadence.json",
   "decisions": "goals/DECISIONS.md",
   "latest_strategy": "goals/reviews/2026-10-12-connes-frontier-and-equivalence-strategy.md",
-  "latest_decision": "D20261013",
+  "latest_decision": "D20261013B",
   "macro": {
     "long_objective": "独立实际算术来源约束同一完整Weil型／ζ谱，并取得非重复强制后果；不把新等价、有限实验或组织工作当完成。",
     "unpaid_bottleneck": "没有独立支付完整Weil正性；prolate与真正最低态的比较、全补空间和增长支集的统一费用仍未付。",
-    "why_this_contract": "先检验实际原核的排序和原子位置敏感性，找到值得投入有符号核估计的来源，或尽早停止只刷有限小数的技巧。",
+    "why_this_contract": "C001背景正Gram不控制实际H/prime交叉；先查整个正指标辅助核上固定相对费用是否根本不存在，避免把该前件当常规收尾。",
     "paused_routes": [
       "零点比例优化",
       "无零区域优化"
@@ -24,12 +24,12 @@
     ]
   },
   "primary_contract": {
-    "id": "C001",
-    "path": "goals/contracts/C001-weil-arithmetic-sensitivity.md",
-    "status": "reviewing",
-    "stage": "阶段A启动12组及内部原核／统计逆审通过；完整来源分解和晋级评估未完成",
-    "next_action": "按C001预注册同一mu、N上的H与d逐来源联合分解，比较固定原核奇底v与逐扰动重求v；保留beta平方全部交叉，先决定是否有新有符号机制，不直接扩大N刷新小数。",
-    "stop_rule": "最多2个完整研究轮，只有重复公式／数值精度或无连续范围的条件时冻结该技巧。"
+    "id": "C002",
+    "path": "goals/contracts/C002-reflection-relative-bound.md",
+    "status": "running",
+    "stage": "C001一个完整迭代结算，数值扩展冻结；C002相邻高指标反例候选正在独立推导，未消费为定理。",
+    "next_action": "严格证明L=log13的v_M=e_M-e_(M+1)满足h_BG=O(M^-3)、h_R=T_M/(2πM²)+O(M^-3)，核对实际频率无±碰撞及Cesaro负子序列，再决定是否排除所有固定有限C的辅助反向核相对下界。",
+    "stop_rule": "最多1–2完整研究轮；若只有既有结论改名或单向量反例，停止；边界只限辅助反向核，不提升完整Goal完成。"
   },
   "support_contracts": [],
   "must_not_forget": [
@@ -40,7 +40,9 @@
     "512/514/516的固定S符号、混合同调／尾及scalar/jets限制保持。",
     "启动观测是experiment：原核底在tau=1e-10灰带，负移位排序随N改变；不能证明符号、RH、simple或新边界。",
     "q_nm已经承载实偶原子对，移动仅p=2指数1且权重不变；CLI偶截面candidate不是007修正prolate。",
-    "整体Goal须达到独立实际输入或实质方法类边界的强度；局部合同完成不能倒填较弱成功。"
+    "整体Goal须达到独立实际输入或实质方法类边界的强度；局部合同完成不能倒填较弱成功。",
+    "527的背景H正Gram/混合费用与实际H负方向均不是完整W正性；C001数值扩展冻结。",
+    "固定v0在扰动后只是奇Rayleigh试探，N6负移位fixed D<0而moving D>0；必须重求真正底空间。"
   ],
   "evidence": [
     {
@@ -92,15 +94,47 @@
       "path": "reviews/2026-10-13/goal-start-pilot/run_pilot_snapshot.py",
       "kind": "experiment",
       "scope": "历史实际执行包装的原字节快照；禁止在公开归档执行，重放用安全入口。"
+    },
+    {
+      "path": "notes/527-weil-reflection-source-signs-and-arithmetic-sensitivity.md",
+      "kind": "proved",
+      "scope": "全有限正指标背景H Gram/混合界、指定移位导数不定及实际H有理负方向；完整Weil正性仍开放，冻结样本另为experiment。"
+    },
+    {
+      "path": "reviews/2026-10-13/c001-source/source-results.json",
+      "kind": "experiment",
+      "scope": "原冻结12组逐源矩阵、固定/重求向量及全部D交叉；普通高精度，非区间证书。"
+    },
+    {
+      "path": "reviews/2026-10-13/c001-source/signed-source-audit.md",
+      "kind": "proved",
+      "scope": "独立辅助核来源推导及背景混合费用；限定对象，不认证全W或连续极限。"
+    },
+    {
+      "path": "reviews/2026-10-13/c001-source/reverse-audit.md",
+      "kind": "proved",
+      "scope": "不同组织方式逆审有限混合账本及限定来源/区间证书；数值复算部分仍为experiment。"
+    },
+    {
+      "path": "reviews/2026-10-13/c001-source/rational-witness.json",
+      "kind": "obstruction",
+      "scope": "Fraction向外包围h_H(1,-1)<-0.0004227，L=log13；只否定实际辅助H的PSD，不否定W。"
     }
   ],
-  "pending_processes": [],
+  "pending_processes": [
+    {
+      "kind": "agent_review",
+      "task": "/root/signed_source",
+      "output": "reviews/2026-10-13/c002-relative/reflection-relative-bound-audit.md",
+      "scope": "C002独立候选推导正在运行；无后台Python样本。"
+    }
+  ],
   "runtime_goal_observation": {
     "status": "active",
     "observed_on": "2026-10-13",
-    "created_at_epoch": 1791898692,
-    "basis": "用户明确授权后create_goal成功，随后get_goal确认active；这是最近观察，不是文件直接查询运行态。"
+    "created_at_epoch": 1791901071,
+    "basis": "本轮get_goal确认已有长期Goal active；create_goal拒绝重复创建，沿用原Goal。"
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-10-13-goal-start-final.json"
+  "checkpoint": "goals/checkpoints/2026-10-13-c001-source-settled.json"
 }

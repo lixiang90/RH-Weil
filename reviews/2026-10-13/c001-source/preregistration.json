@@ -1,0 +1,15 @@
+{
+  "contract": "C001",
+  "phase": "source decomposition before execution",
+  "mu": "13",
+  "N": [4, 6],
+  "dps": [50, 70],
+  "delta": ["0", "+1/1000", "-1/1000"],
+  "input": "reviews/2026-10-13/goal-start-pilot/pilot-results.json",
+  "source_convention": "W=pole+arch+sum prime:k; pole=w02, arch=-w_real, prime:k=-Lambda(k)/sqrt(k)*q_nm(log(k)); only prime:2 location changes; no factor 2",
+  "vectors": "fixed archived original odd bottom v0, and re-solved perturbed odd bottom with sign aligned to v0; use same N,dps",
+  "joint_D": "A_s=a0_s-o_s; D=sum_s(2*A_s*h_s-beta_s^2)+sum_s<t(2*(A_s*h_t+A_t*h_s)-2*beta_s*beta_t); retain every cross",
+  "diagnostics": ["full signed source matrices sum versus saved W", "each source a0,o,h,beta", "joint D diagonal and all crosses", "fixed versus moving vector overlap", "fixed atom derivative via analytic q derivative", "arch H,d independent one-dimensional sine integrals"],
+  "scope": "ordinary mpmath arithmetic on frozen finite sections; no interval, continuous claim, fitted zeta zeros or enlarged N",
+  "decision_rule": "Only an independently justified new signed identity or estimate can promote; source cancellation or stable decimals alone freeze this numerical technique after C001 stop review"
+}
