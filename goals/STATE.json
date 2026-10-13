@@ -10,7 +10,7 @@
   "latest_decision": "D20261014D",
   "macro": {
     "long_objective": "独立实际算术来源约束同一完整Weil型／ζ谱，并取得非重复强制后果；不把新等价、有限实验或组织工作当完成。",
-    "unpaid_bottleneck": "535已证明actual single-prime无费桥及所有finiteconstraints/rankrepair失败，达到原方法类边界分支。RH/完整Weil正性、多prime机制、无限秩费用及lowest仍开放，是明示逃逸而非该分支未付前件；仅待最终版本核验及runtime终态操作。",
+    "unpaid_bottleneck": "原方法类边界分支已完整验收且runtime Goal complete。RH/全Weil正性、lowest、多prime与无限秩费用仍开放，均为明示逃逸/更远目标，不作为本已完成分支的缺项。",
     "why_this_contract": "C007新source S1域支付实际迹消费，logp共振给全fixedsingleprime/λ>√p无限±指数。独立宏观审计验收这个单个定理达到旧§10B/C强度；不累计旧小障碍，不人为追加C008或RH门槛。",
     "paused_routes": [
       "零点比例优化",
@@ -35,8 +35,8 @@
     "id": "C007",
     "path": "goals/contracts/C007-first-prime-compact-overlap-sign.md",
     "status": "completed",
-    "stage": "535及四份推导/逆审完成；原Goal方法类边界分支数学审计通过。C008仅未启动后备，不作为当前required工作。",
-    "next_action": "保存当前一致证据/完成审计/STATE并推送核远程SHA，通过D项后调用同一runtime Goal complete，保留工具终态收据。不得自动进入C008或新建替代Goal；恢复时核实际Goal工具与终态记录。",
+    "stage": "535和独立宏观审计已保存推送，proof SHA本地/远程一致；update_goal实际complete，保留终态收据。C008未启动。",
+    "next_action": "同一runtime Goal已complete；无需继续本Goal研究。恢复时核终态收据与当前版本，不自动开展未启动C008或新建替代Goal；后续研究需用户另定目标。",
     "stop_rule": "本合同失败分支已证明且已宏观验收。任何未来重准入须明确无限维费用、多prime共同signed或不同正来源；有限额外矩/finite-rank修复不能复活。"
   },
   "support_contracts": [],
@@ -220,21 +220,27 @@
       "path": "literature/supplements/2026-10-14-zhu-compact-window-entry.md",
       "kind": "cited",
       "scope": "新primary固定v2/日期和局部HTML定位，原附属证书未取得核验；未启动后备，不消费为正性或完成依据。"
+    },
+    {
+      "path": "goals/goal-completion-receipt.20261014.json",
+      "kind": "cited",
+      "scope": "实际update_goal complete结构结果、usage与已核proof SHA；工具终态/保存收据，不是新的数学证明。"
     }
   ],
   "pending_processes": [],
   "runtime_goal_observation": {
-    "status": "active",
+    "status": "complete",
     "observed_on": "2026-10-14",
     "created_at_epoch": 1791901071,
-    "basis": "本轮get_goal观测同一Goal active；数学边界分支和独立完成审计现通过，三审及宏观补审已结束，无pending process。仍须先保存/远程核验，再调用complete；此字段是操作前观测，不虚报工具终态。"
+    "completed_at_epoch": 1791914179,
+    "basis": "update_goal已实际返回complete；仅按原方法类边界分支完成，数学/版本门先通过；终态收据保存真实工具usage。无pending process，未自动启动C008。"
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-10-14-c007-method-boundary-audited.json",
+  "checkpoint": "goals/checkpoints/2026-10-14-goal-completed.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
-    "commit": "bbbd54c26e1f335c4238877a7954edd02146dab8",
-    "basis": "上轮push/ls-remote/HEADbbbd54c一致，本轮起始HEAD相同且clean；只记录已核基线，不预写本轮SHA。"
+    "commit": "8bfb38e3d31b130e21ffd81820504842332e7c3a",
+    "basis": "原Goal完成之前ls-remote/HEAD同一8bfb38e；这是已核proof SHA，不预写本终态收据待保存SHA。"
   },
   "latest_macro_review": "goals/reviews/2026-10-14-sonin-arithmetic-budget-review-cycle-8.md",
   "completion_audit": {
@@ -242,7 +248,9 @@
     "branch": "effective-method-class-boundary",
     "mathematical_gate": "passed",
     "basis": "535单一actual canonical single-prime族，无conditional、全λ>√p及无限±有限修复边界，经独立§10强度审计。",
-    "final_execution_gate": "awaiting final save, remote SHA verification and runtime Goal completion",
-    "post_completion_research": "none required; C008 is an unstarted optional candidate"
+    "final_execution_gate": "passed; proof saved, remote SHA matched, runtime Goal complete",
+    "post_completion_research": "none required; C008 is an unstarted optional candidate",
+    "verified_proof_commit": "8bfb38e3d31b130e21ffd81820504842332e7c3a",
+    "runtime_receipt": "goals/goal-completion-receipt.20261014.json"
   }
 }
