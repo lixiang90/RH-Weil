@@ -237,13 +237,13 @@
   ],
   "pending_processes": [],
   "runtime_goal_observation": {
-    "status": "complete",
+    "status": "none",
     "observed_on": "2026-10-14",
-    "created_at_epoch": 1791932581,
-    "basis": "实际update_goal完成，tokensUsed1154820/timeUsed2136s；fresh原Goal第三分支及当前继续scope/remote门均付。新receipt独立于旧535receipt。"
+    "basis": "最后get_goal实际返回goal:null；此前update_goal complete见新continuation receipt。无active runtime Goal，不自行新建。",
+    "last_completed_goal_created_at_epoch": 1791932581
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-10-14-c010-goal-complete-and-proof-verified.json",
+  "checkpoint": "goals/checkpoints/2026-10-14-c010-terminal-runtime-observation.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
     "commit": "7b186423224f36f4df168c06bce907337776f31a",
