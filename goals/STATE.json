@@ -7,11 +7,11 @@
   "cadence": "goals/review-cadence.json",
   "decisions": "goals/DECISIONS.md",
   "latest_strategy": "goals/reviews/2026-10-12-connes-frontier-and-equivalence-strategy.md",
-  "latest_decision": "D20261013E",
+  "latest_decision": "D20261013F",
   "macro": {
     "long_objective": "独立实际算术来源约束同一完整Weil型／ζ谱，并取得非重复强制后果；不把新等价、有限实验或组织工作当完成。",
-    "unpaid_bottleneck": "没有独立支付完整Weil正性；actual完整prime/极点/无穷位联合支配、真正最低态/prolate及全补空间增长费用仍未付。旧half scalar shift不能消费为actual正块证书。",
-    "why_this_contract": "前三项source边界未支付完整正性；从已有真实Sonin正trace输入开始，在预冻结真实p2两patch域检验新同源signed bridge，避免继续条件算子改名。",
+    "unpaid_bottleneck": "完整Weil联合正性、真正最低态/prolate及增长支持费用仍未付；固定实位Sonin桥已证明有首素数非紧费用，紧/有限矩修复不能消除。actual2θ′归一化必须保留。",
+    "why_this_contract": "530排除固定archSonin紧修复；真实S={∞,2}正来源是未排除的非紧算术机制。先核同源迹/范数和首素数主项，不消费旧同构或条件等价。",
     "paused_routes": [
       "零点比例优化",
       "无零区域优化"
@@ -23,16 +23,17 @@
       "RR字段扩张后置",
       "C001有限敏感性数值扩展冻结",
       "辅助反向核H_R对H_BG的固定全域相对下界停止",
-      "原生标准锥保正半群、bounded局部势及正权相似修复停止"
+      "原生标准锥保正半群、bounded局部势及正权相似修复停止",
+      "固定实位Sonin无费用全源桥及诱导紧二次型/有限矩修复停止"
     ]
   },
   "primary_contract": {
-    "id": "C004",
-    "path": "goals/contracts/C004-sonin-positive-source-consumption.md",
+    "id": "C005",
+    "path": "goals/contracts/C005-semilocal-sonin-first-prime-bridge.md",
     "status": "ready",
-    "stage": "C003已完成完整actual标准锥半群精确边界与归一化消费纠错；四轮宏观复盘完成，Sonin source bridge尚未执行。",
-    "next_action": "核Connes–Consani2021 primary Sonin正trace原定理的支持/消失/error；在actual2θ′下对a=log2,b=log(3/2)/4,μ=13/5,g=D(D+1/2)η的两移位源写QW−Sonin trace完整2×2差，先判断真实p2交叉是否有新的独立signed支配或严格负对照。",
-    "stop_rule": "先一轮止损，最多两轮；仅旧Sonin摘要、小支持/高频正性、unknown低谱或条件Schur不计晋级，不自动计数学轮。"
+    "stage": "C004完整一轮已结算：真实首素数局部差额−w2Swap+compact及紧修复类边界经独立逆审；尚未执行半局部新桥。",
+    "next_action": "核2310.18423v2 §4.5–4.8真实S={∞,2}Sonin Hilbert空间/范数/正交投影/trace-class，从定义写同一冻结a=log2,b=log(3/2)/4,μ=13/5两patch正迹Gram，比较QW及实位trace，审是否真实支付非紧−w2Swap主项；不得假设§7.4乘积为正投影。",
+    "stop_rule": "先一轮、最多两轮；仅旧有限S同构/范数运输/未知低谱/新RH等价则停止且不自动计数学轮。"
   },
   "support_contracts": [],
   "must_not_forget": [
@@ -49,7 +50,8 @@
     "528对每个素数端点P≥3排除全正指标固定背景相对费用；H不是W/O，质量项、低域、同源耦合仍是未排除逃逸。",
     "529关闭完整actual标准锥保正shortcut，保正不是Weil半正定；非局部signed机制和真正lowest/prolate未排除。",
     "actual完整Γ multiplier=2θ′；原矩阵核与C001数据未改，旧half helper默认m不是actual正块来源证书。",
-    "C004已有Sonin输入不算新；两patch全η比较与单个负对照分开，源内正性不能自由极化。"
+    "C004已有Sonin输入不算新；两patch全η比较与单个负对照分开，源内正性不能自由极化。",
+    "530只指两patch压缩差额ess±w2，不是QW负谱或全interval差额ess；compact须诱导L²二次型紧，质量费≥w2只是必要。"
   ],
   "evidence": [
     {
@@ -186,6 +188,31 @@
       "path": "goals/reviews/2026-10-13-full-weil-source-review-cycle-7.md",
       "kind": "open",
       "scope": "周期四轮宏观审计和路线筛选，不是新数学轮；完整Goal仍未通过完成审计。"
+    },
+    {
+      "path": "notes/530-archimedean-sonin-prime-compact-repair-boundary.md",
+      "kind": "obstruction",
+      "scope": "完整actual同源局部差额−w2Swap+compact；所有λ>√2诱导紧修复/有限矩仍无限负指数，无费用精确阈值√2；不认证QW负值或最低态。"
+    },
+    {
+      "path": "reviews/2026-10-13/c004-sonin/source-audit.md",
+      "kind": "cited",
+      "scope": "作者55页primary的trace身份、支持/消失/sign/version核读与同源交叉推导；原定理不重记新。"
+    },
+    {
+      "path": "reviews/2026-10-13/c004-sonin/compact-defect-audit.md",
+      "kind": "proved",
+      "scope": "独立源生成器像/密度、共同型域、无限指数与紧/有限矩修复全量词审查。"
+    },
+    {
+      "path": "reviews/2026-10-13/c004-sonin/reverse-audit.md",
+      "kind": "proved",
+      "scope": "不同组织完整bilinear账本、有限秩逼近与精确阈值逆审；宏观完成规模仍不足。"
+    },
+    {
+      "path": "reviews/2026-10-13/c004-sonin/source-receipt.json",
+      "kind": "cited",
+      "scope": "作者原PDF的URL/版本/哈希/局部核读范围，原字节本地保留；非数学证书。"
     }
   ],
   "pending_processes": [],
@@ -193,14 +220,14 @@
     "status": "active",
     "observed_on": "2026-10-13",
     "created_at_epoch": 1791901071,
-    "basis": "本续轮get_goal确认原长期Goal active；未调用complete/blocked/paused。"
+    "basis": "本轮get_goal确认同一长期Goal active；未调用complete/blocked/paused。结算前检查无python进程；最终笔记只读逆审另核。"
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-10-13-c003-cycle7-settled.json",
+  "checkpoint": "goals/checkpoints/2026-10-13-c004-sonin-settled.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
-    "commit": "03f7631cd0bd670139427e063d6cc04548397976",
-    "basis": "上一轮git push后ls-remote与HEAD一致；本轮起始HEAD同一SHA。不是本次即将保存的SHA。"
+    "commit": "73bc65e4386a7b481c4d14f4e2dcc81d7aa2951a",
+    "basis": "上轮push后远程SHA核验记录，本轮起始HEAD相同；不是本次待保存SHA。"
   },
   "latest_macro_review": "goals/reviews/2026-10-13-full-weil-source-review-cycle-7.md"
 }

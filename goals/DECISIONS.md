@@ -59,3 +59,15 @@ actual2θ′与旧half scalar helper已有明确对照；原冻结核不改，
 冻结仅含真实p2交叉的两patch合法域，先审是否有新独立signed比较。
 原7.2定理和小支持/高频正性不重记新；无新的actual桥则一轮停止。
 暂停及降级路线不复活；宏观复盘重置同一cadence，不复制旧计数。
+
+## D20261013F：停止固定实位 Sonin 紧修复，审真实首素数正来源
+
+依据[530](../notes/530-archimedean-sonin-prime-compact-repair-boundary.md)及source/compact/reverse审查。
+完整actual同源差额在合法两patch为`−w2Swap+compact`，
+所有λ>√2的有限矩/诱导紧二次型修复均留无限负指数；必要质量费用w2=log2/√2。
+这将独立正来源的消费缺口定位为非紧实际prime账本，而不是继续扩矩或自由极化。
+比较阈值和方法边界超出单负样本，但仍限定固定archSonin来源，未解决完整正性/最低态/增长预算；
+内部逆审不支持凭合同验收倒填长期Goal完成，Goal保持active。
+停止该无费用桥及紧/有限矩修复；重准入须真实非紧算术来源、已付质量与低谱费用或非有限余维域。
+唯一C005先审S={∞,2}真实Sonin范数及正迹，是否支付同一冻结prime交叉；
+旧有限S同构不重算新，非正projection product不冒充positive source。

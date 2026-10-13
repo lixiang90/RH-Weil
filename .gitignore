@@ -68,3 +68,6 @@ secrets.json
 
 # Publisher-restricted scan retained locally; source and hash in literature/manifest.json
 /literature/background/engelking-dimension-theory-1978.pdf
+
+# Author-hosted Sonin source retained locally; exact source/hash/read scope in C004 audit
+/literature/background/connes-consani-sonin-selecta-author.pdf

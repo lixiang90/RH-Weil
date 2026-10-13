@@ -46,3 +46,13 @@ source使用smooth multiplicative tests，原卷积/involution/全部primepowers
 若一轮只定位原定理而无新的actual比较，作为来源筛选记录，不自动加数学轮。
 重准入须不同的独立arith来源或已付signed bridge，不能继续新增RR字段和条件名。
 合同结束不结束长期Goal。
+
+## 本轮结算
+
+已由[530](../../notes/530-archimedean-sonin-prime-compact-repair-boundary.md)
+及source/compact/reverse三份审查完成一轮：完整同源差额的局部非紧主项为
+`−(log2/√2)Swap`，所有λ>√2的紧二次型/有限矩修复仍留无限负指数，
+无费用比较的精确阈值√2，必要质量费至少log2/√2。
+这不是完整QW负谱或RH反例；原Sonin输入不计新。
+固定实位来源的免费消费路线停止；宏观正性瓶颈未消除。
+下一唯一合同C005审真实S={∞,2}非紧正来源；无后台数值或下载任务。
