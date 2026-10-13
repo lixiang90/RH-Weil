@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-14",
+  "starting_head": "3d9bbbfef989e0962d32f6af512b13bd6cd6a3ba",
+  "baseline": "3a72930e9f9f554b03b41d17d8c8002f1813ca82",
+  "mode": "FULL_REBUILD only; no automatic repeated FAST run after success",
+  "root": "E:\\codex-build\\RH-Weil\\tmp\\c009-liu\\w200-pub-2026-09-14\\reproduction",
+  "output": "E:\\codex-build\\RH-Weil\\tmp\\c009-liu\\fresh-b-20261014",
+  "python_flags": [
+    "-I",
+    "-S",
+    "-B"
+  ],
+  "jobs": 2,
+  "fixed_half_width": "17/16",
+  "expected_prime_powers": [
+    2,
+    3,
+    4,
+    5,
+    7,
+    8
+  ],
+  "expected_scalar_bound": "2^(-49162)",
+  "files": {
+    "reproduce.py": "2a62787a1d8e20b6f3224903c36bfb19489aef220530581e55059770f9eed0e7",
+    "run.py": "eed13da745b339ea6fd33d6ea588b83f7a02c92bbcfac58044163eaf53f06cd2",
+    "stage.py": "9e2f5d76572c615273c6e7cad7c54935d6aba1e5d7aca1a967fbe247b63eefa5",
+    "scalar.py": "3aaeb526c7e63c09f40e287137afb732826bf9cc02ea5c756c8be11d156722d1",
+    "source-manifest.json": "c9b0a1fd4db32a17889cd2860ac41e5fe7ce9c2839a0d6d2658f5eb9129486b2",
+    "driver-manifest.json": "fa3fde4b2a4bc25477925fd21906e0f70ef39ce22fd8f1e9a99da9ba273515c7",
+    "analytic-source.md": "548bf8341c767f4d0746ecdd2038b96881a7f41b165267807ade0ff3ad06f404",
+    "analytic-admission.json": "e2b70cd3b4126f9a2a2a6f11508e1760444b21caf2b467db809d300facea519a"
+  },
+  "run_scope": "Fresh original producer/checker replay, not a new independent arithmetic implementation or formal analytic proof. Internal labels are not consumed as theorem. Independent analytic and negative-source review required.",
+  "safety_review": "Read drivers/stage/scalar, AST/import/danger-call audit of all14scientific modules; pure loaded functions and scoped writes; no network or external messages, stdlib-only isolated workers. Original module historical CLI guarded by __main__ not invoked.",
+  "unchanged_constraints": "C008 stopped/no waiting; C001N frozen; no zero fitting; previous Goal receipt remains completed without new runtime Goal."
+}

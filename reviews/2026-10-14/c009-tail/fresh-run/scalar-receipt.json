@@ -1,0 +1,253 @@
+{
+  "status": "EXACT_SCALAR_PASS",
+  "observedAt": "2026-10-13T20:24:40.188408+00:00",
+  "sourceSHA256": "3aaeb526c7e63c09f40e287137afb732826bf9cc02ea5c756c8be11d156722d1",
+  "arithmetic": "exact Fraction, integer factorial/isqrt; no numeric data input",
+  "checks": {
+    "pi-brackets": true,
+    "Machin-source-error": true,
+    "e-upper": true,
+    "tail-exponent": true,
+    "Lagrange-basis": true,
+    "Lagrange-remainder": true,
+    "Lagrange-final-exponents": true,
+    "band-average-and-node-constants": true,
+    "exterior-log": true,
+    "exterior-C": true,
+    "digamma-band-upper": true,
+    "compact-kappa": true,
+    "tail-lower-nondegeneracy": true,
+    "tail81-and27": true,
+    "tail-column-norms": true,
+    "rank-two-error": true,
+    "sqrt-2": true,
+    "sqrt-3": true,
+    "sqrt-4": true,
+    "sqrt-5": true,
+    "sqrt-7": true,
+    "sqrt-8": true,
+    "shift-ranges": true,
+    "ordered-safe-envelope-partition": true,
+    "cell-active-set-0": true,
+    "cell-minimum-0": true,
+    "cell-active-set-1": true,
+    "cell-minimum-1": true,
+    "cell-active-set-2": true,
+    "cell-minimum-2": true,
+    "cell-active-set-3": true,
+    "cell-minimum-3": true,
+    "cell-active-set-4": true,
+    "cell-minimum-4": true,
+    "cell-active-set-5": true,
+    "cell-minimum-5": true,
+    "cell-active-set-6": true,
+    "cell-minimum-6": true,
+    "M-comparison": true,
+    "support-cutoff": true,
+    "projection-r": true,
+    "projection-pole": true,
+    "pole-elementary": true,
+    "tail-projection": true,
+    "block-arithmetic": true,
+    "block-lower-complement": true,
+    "Binet-remainder": true,
+    "kernel-Taylor": true,
+    "kernel-moment-error": true,
+    "tail-band-Taylor": true,
+    "raw-normalization": true,
+    "total-column-error": true,
+    "raw-tail-coefficients": true,
+    "inverse-center-error": true,
+    "A-conditional-Schur": true,
+    "A-not-implied-by-B": true
+  },
+  "checkedAssertions": 56,
+  "logIntervals": {
+    "2": [
+      "693147/1000000",
+      "173287/250000"
+    ],
+    "3": [
+      "274653/250000",
+      "1098613/1000000"
+    ],
+    "5": [
+      "1609437/1000000",
+      "804719/500000"
+    ],
+    "7": [
+      "194591/100000",
+      "1945911/1000000"
+    ]
+  },
+  "rootLowerGridNumerators": {
+    "2": 1414213,
+    "3": 1732050,
+    "4": 2000000,
+    "5": 2236067,
+    "7": 2645751,
+    "8": 2828427
+  },
+  "weightedSchurCells": [
+    {
+      "left": "0",
+      "right": "9028/265625",
+      "negative": [
+        2
+      ],
+      "positive": [
+        2
+      ],
+      "candidates": [
+        "0",
+        "9028/265625",
+        "5545184/19395461234375"
+      ],
+      "values": [
+        "863870961527342979/638605557812500000",
+        "864614865660562977/638605557812500000",
+        "63078308690088722167419421/46629832811703592187500000"
+      ],
+      "minimum": "63078308690088722167419421/46629832811703592187500000"
+    },
+    {
+      "left": "9028/265625",
+      "right": "161897/531250",
+      "negative": [
+        2,
+        3
+      ],
+      "positive": [
+        2
+      ],
+      "candidates": [
+        "9028/265625",
+        "161897/531250"
+      ],
+      "values": [
+        "3813197089461086778481/11798365401697500000000",
+        "3547159963802919282411217/5899182700848750000000000"
+      ],
+      "minimum": "3813197089461086778481/11798365401697500000000"
+    },
+    {
+      "left": "161897/531250",
+      "right": "369353/1062500",
+      "negative": [
+        2,
+        3,
+        4
+      ],
+      "positive": [
+        2
+      ],
+      "candidates": [
+        "161897/531250",
+        "369353/1062500"
+      ],
+      "values": [
+        "14052234435606996453439231/368698918803046875000000000",
+        "66711633827738468943383827/614498198005078125000000000"
+      ],
+      "minimum": "14052234435606996453439231/368698918803046875000000000"
+    },
+    {
+      "left": "369353/1062500",
+      "right": "546937/1062500",
+      "negative": [
+        2,
+        3,
+        4
+      ],
+      "positive": [],
+      "candidates": [
+        "369353/1062500",
+        "546937/1062500"
+      ],
+      "values": [
+        "556135837359374620609133827/614498198005078125000000000",
+        "801591632404350246610928203/614498198005078125000000000"
+      ],
+      "minimum": "556135837359374620609133827/614498198005078125000000000"
+    },
+    {
+      "left": "546937/1062500",
+      "right": "88341/106250",
+      "negative": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "positive": [],
+      "candidates": [
+        "546937/1062500",
+        "88341/106250"
+      ],
+      "values": [
+        "185291114176543858868682565972601/1374059142118621027734375000000000",
+        "15322142082259833725545793356024531/12366532279067589249609375000000000"
+      ],
+      "minimum": "185291114176543858868682565972601/1374059142118621027734375000000000"
+    },
+    {
+      "left": "88341/106250",
+      "right": "1016941/1062500",
+      "negative": [
+        2,
+        3,
+        4,
+        5,
+        7
+      ],
+      "positive": [],
+      "candidates": [
+        "88341/106250",
+        "1016941/1062500"
+      ],
+      "values": [
+        "478080898957095265117522763061920868427/10906255047958451108247751171875000000000",
+        "2196908566232449377671013178254495011141/3635418349319483702749250390625000000000"
+      ],
+      "minimum": "478080898957095265117522763061920868427/10906255047958451108247751171875000000000"
+    },
+    {
+      "left": "1016941/1062500",
+      "right": "1",
+      "negative": [
+        2,
+        3,
+        4,
+        5,
+        7,
+        8
+      ],
+      "positive": [],
+      "candidates": [
+        "1016941/1062500",
+        "1"
+      ],
+      "values": [
+        "706322764151580996738656306131567997370085069/3427505138503553110305318011534765625000000000",
+        "350164184152825856163389920812328236041150359/856876284625888277576329502883691406250000000"
+      ],
+      "minimum": "706322764151580996738656306131567997370085069/3427505138503553110305318011534765625000000000"
+    }
+  ],
+  "derivedConstants": {
+    "m": "9617/10400",
+    "b": "63183/10400",
+    "C": "123/1280",
+    "deltaPowerTwo": -49158,
+    "tauPowerTwo": -49162,
+    "rPowerTwo": -95,
+    "pPowerTwo": -440,
+    "inverseNormBound": "8 per parity sector"
+  },
+  "AfinitePremiseProved": false,
+  "scope": "Exact scalar consequences only; analytic theorems require the separate proof audit.",
+  "historicalDerivedInputsRead": false,
+  "networkUsed": false,
+  "fileReadsAfterSourceHash": 0,
+  "auditPolicy": "No file reads after source hash; exclusive result write; Python socket/process/ctypes denial, not OS sandbox"
+}

@@ -1,0 +1,31 @@
+{
+  "observedAt": "2026-10-13T20:19:13.116501+00:00",
+  "pythonExecutable": "C:\\Python312\\python.exe",
+  "pythonVersion": "3.12.5 (tags/v3.12.5:ff3bc82, Aug  6 2024, 20:45:27) [MSC v.1940 64 bit (AMD64)]",
+  "implementation": "CPython",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "optimize": 0,
+  "isolated": true,
+  "noSite": true,
+  "assertions": true,
+  "scientificDependencies": "Python standard library only",
+  "inheritedEnvironmentKeys": [
+    "OMP_NUM_THREADS",
+    "OPENBLAS_NUM_THREADS",
+    "PYTHONDONTWRITEBYTECODE",
+    "PYTHONHASHSEED",
+    "PYTHONNOUSERSITE",
+    "SYSTEMROOT",
+    "TEMP",
+    "TMP",
+    "WINDIR"
+  ],
+  "implicitPYTHONPATH": false,
+  "networkPolicy": "Scientific workers deny socket/process audit events.",
+  "determinism": "Integer/rational arithmetic and fixed Decimal contexts; timestamps and durations are non-scientific metadata. -I ignores Python environment variables; algorithms do not depend on randomized hash order.",
+  "sourceManifestSHA256": "c9b0a1fd4db32a17889cd2860ac41e5fe7ce9c2839a0d6d2658f5eb9129486b2",
+  "engineSHA256": {
+    "run.py": "eed13da745b339ea6fd33d6ea588b83f7a02c92bbcfac58044163eaf53f06cd2",
+    "stage.py": "9e2f5d76572c615273c6e7cad7c54935d6aba1e5d7aca1a967fbe247b63eefa5"
+  }
+}

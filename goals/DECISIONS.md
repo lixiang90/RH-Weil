@@ -158,3 +158,22 @@ C001μ13的半窗>.8不覆盖；C007小V若原证书将来验收才获正性，�
 原数字消费瓶颈未变。C008按一完整轮止损，不自行重造矩阵/增加N/拟合ζ零点或联系作者。
 重准入只在取得原证明附件及向外账本，或不同独立signed来源；下一动作先核那些原件。
 原cadence由2推进3一次，不提前复盘/重置；旧Goal完成及未请求新runtime Goal的状态保持。
+
+## D20261014G：不等待C008，准入不同source-exact尾补偿来源
+
+用户明确继续宏观研究；C008保持止损，不以其附件等待作为下一动作。
+新C009固定Liu原b6cd218公开版本，先核actual全源Block-Schur/尾补偿和整数证书消费链。
+来源有可读原代码，不等于已获正性；最便宜合法源反例先行，预算1–2完整轮。
+不复活C001扩N、等价酉化或暂停路线；不新建runtime Goal，不重置cadence。
+
+## D20261014H：固定窗全复源正性新输入通过，转同对象真正谱排序准入
+
+依据[537](../notes/537-source-exact-weil-window-positive-tail-admission.md)及对象/primitive与signed/congruence逆审。
+Liu固定B的完整actual对象/全H_L tail/BlockSchur/原误差链已付；原新root完全重建通过，
+本仓另写全整数Gram及错误符号控制通过。可消费全complex半窗17/16 Q≥2^-49162，
+通过form core延拓同norm自然闭型域；不是historical PASS或finitePD推定。
+新增固定窗来源改变独立正性消费箭头；不覆盖C00113、不推simple/RH/成长或复活535桥。
+C009一轮完成B，A强常数未消费；C008保持止损，不等待附件。
+同一cadence由3结算到4，再因新输入触发cycle9宏观复盘后归0，复盘不计轮。
+唯一下一动作先审同一M,V/norm的Q−sI全源inertia/minmax预算和实际odd/第二even隔离，
+若只能重述coercivity则止损改源，不盲目扩大N/拟合ζ零点。旧Goal历史收据和所有暂停约束保持。

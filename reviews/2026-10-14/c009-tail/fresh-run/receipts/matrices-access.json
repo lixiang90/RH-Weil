@@ -1,0 +1,31 @@
+{
+  "stage": "matrices",
+  "startedAt": "2026-10-13T20:20:41.974018+00:00",
+  "finishedAt": "2026-10-13T20:22:04.198858+00:00",
+  "observedOpenPaths": {
+    "E:\\codex-build\\RH-Weil\\tmp\\c009-liu\\w200-pub-2026-09-14\\reproduction\\source\\01-check.py | read": 2,
+    "E:\\codex-build\\RH-Weil\\tmp\\c009-liu\\w200-pub-2026-09-14\\reproduction\\source\\02-produce.py | read": 2,
+    "E:\\codex-build\\RH-Weil\\tmp\\c009-liu\\w200-pub-2026-09-14\\reproduction\\source\\03-core_checker.py | read": 2,
+    "E:\\codex-build\\RH-Weil\\tmp\\c009-liu\\w200-pub-2026-09-14\\reproduction\\source\\04-core_producer.py | read": 2,
+    "E:\\codex-build\\RH-Weil\\tmp\\c009-liu\\w200-pub-2026-09-14\\reproduction\\source\\05-shift_checker.py | read": 2,
+    "E:\\codex-build\\RH-Weil\\tmp\\c009-liu\\w200-pub-2026-09-14\\reproduction\\source\\06-shift_producer.py | read": 2,
+    "E:\\codex-build\\RH-Weil\\tmp\\c009-liu\\w200-pub-2026-09-14\\reproduction\\source\\07-check.py | read": 3,
+    "E:\\codex-build\\RH-Weil\\tmp\\c009-liu\\w200-pub-2026-09-14\\reproduction\\source\\08-produce.py | read": 3,
+    "E:\\codex-build\\RH-Weil\\tmp\\c009-liu\\w200-pub-2026-09-14\\reproduction\\source\\09-st4_checker.py | read": 2,
+    "E:\\codex-build\\RH-Weil\\tmp\\c009-liu\\w200-pub-2026-09-14\\reproduction\\source\\10-st4_producer.py | read": 2,
+    "E:\\codex-build\\RH-Weil\\tmp\\c009-liu\\w200-pub-2026-09-14\\reproduction\\source\\11-checker_quotient.py | read": 2,
+    "E:\\codex-build\\RH-Weil\\tmp\\c009-liu\\w200-pub-2026-09-14\\reproduction\\source\\12-raw_column_producer.py | read": 2,
+    "E:\\codex-build\\RH-Weil\\tmp\\c009-liu\\w200-pub-2026-09-14\\reproduction\\source\\13-ru_checker.py | read": 2,
+    "E:\\codex-build\\RH-Weil\\tmp\\c009-liu\\w200-pub-2026-09-14\\reproduction\\source\\14-ru_producer.py | read": 2,
+    "E:\\codex-build\\RH-Weil\\tmp\\c009-liu\\fresh-b-20261014\\certificates\\moments.json | read": 5,
+    "E:\\codex-build\\RH-Weil\\tmp\\c009-liu\\fresh-b-20261014\\receipts\\moments.json | read": 3,
+    "C:\\Python312\\Lib\\__pycache__\\__future__.cpython-312.pyc | read": 1,
+    "E:\\codex-build\\RH-Weil\\tmp\\c009-liu\\fresh-b-20261014\\certificates\\source-matrices.json | write": 1,
+    "E:\\codex-build\\RH-Weil\\tmp\\c009-liu\\fresh-b-20261014\\certificates\\source-matrices.json | read": 2,
+    "E:\\codex-build\\RH-Weil\\tmp\\c009-liu\\fresh-b-20261014\\receipts\\matrices.json | write": 1,
+    "E:\\codex-build\\RH-Weil\\tmp\\c009-liu\\fresh-b-20261014\\receipts\\matrices.json | read": 1
+  },
+  "violations": [],
+  "policy": "Exact admitted source/stage-input read allowlist; standard-library code reads only, no site-packages; exact stage-owned outputs; network/process/ctypes audit events and unknown file descriptors denied.",
+  "limit": "Python audit-hook evidence for reviewed Python code, not an operating-system syscall sandbox."
+}

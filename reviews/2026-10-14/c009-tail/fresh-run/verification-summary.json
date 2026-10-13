@@ -1,0 +1,29 @@
+{
+  "status": "NUMERICAL_REPRODUCTION_PASS",
+  "mode": "FULL_REBUILD",
+  "startedAt": "2026-10-13T20:19:13.704184+00:00",
+  "finishedAt": "2026-10-13T20:24:39.875293+00:00",
+  "seconds": 326.1720000000205,
+  "countsObserved": {
+    "moments": 1024,
+    "primeCenters": 13,
+    "orderedShiftPairs": 169,
+    "matrixIntervals": 151200,
+    "tailCoordinates": 896,
+    "tailParityZeros": 448,
+    "targetCoordinates": 100352,
+    "gramRows": 448
+  },
+  "orderedShiftPairCensus": {
+    "orderedPairs": 169,
+    "nonemptyPairs": 107,
+    "emptyPairs": 62,
+    "A_shifts": 13
+  },
+  "completeBothParitySectors": true,
+  "historicalDerivedNumericalInputs": [],
+  "externalHumanReproduction": false,
+  "newlyAuthoredIndependentArithmeticImplementation": false,
+  "analyticTransferAudit": "Separate required proof-DAG review; not implied by numeric stage exit codes.",
+  "scope": "FULL_REBUILD regenerates all scientific outputs and independent checks. FAST_VERIFY reruns complete moment,prime,matrix,tail oracles, both finite compilers and every Gram row against the frozen fresh proposals, omitting candidate generation."
+}

@@ -1,0 +1,43 @@
+{
+  "mode": "FULL_REBUILD",
+  "startedAt": "2026-10-13T20:19:13.013289+00:00",
+  "finishedAt": "2026-10-13T20:24:40.204729+00:00",
+  "seconds": 327.2029999999795,
+  "python": "3.12.5 (tags/v3.12.5:ff3bc82, Aug  6 2024, 20:45:27) [MSC v.1940 64 bit (AMD64)]",
+  "executable": "C:\\Python312\\python.exe",
+  "commands": [
+    {
+      "command": [
+        "C:\\Python312\\python.exe",
+        "-I",
+        "-S",
+        "-B",
+        "E:\\codex-build\\RH-Weil\\tmp\\c009-liu\\w200-pub-2026-09-14\\reproduction\\run.py",
+        "FULL_REBUILD",
+        "--output",
+        "E:\\codex-build\\RH-Weil\\tmp\\c009-liu\\fresh-b-20261014",
+        "--jobs",
+        "2"
+      ],
+      "startedAt": "2026-10-13T20:19:13.013289+00:00",
+      "finishedAt": "2026-10-13T20:24:40.087800+00:00",
+      "seconds": 327.0779999999795,
+      "exitCode": 0
+    },
+    {
+      "command": [
+        "C:\\Python312\\python.exe",
+        "-I",
+        "-S",
+        "-B",
+        "E:\\codex-build\\RH-Weil\\tmp\\c009-liu\\w200-pub-2026-09-14\\reproduction\\scalar.py",
+        "--output",
+        "E:\\codex-build\\RH-Weil\\tmp\\c009-liu\\fresh-b-20261014\\scalar-receipt.json"
+      ],
+      "startedAt": "2026-10-13T20:24:40.088798+00:00",
+      "finishedAt": "2026-10-13T20:24:40.194198+00:00",
+      "seconds": 0.10899999993853271,
+      "exitCode": 0
+    }
+  ]
+}

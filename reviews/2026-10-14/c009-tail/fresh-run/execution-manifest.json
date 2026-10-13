@@ -1,0 +1,133 @@
+{
+  "mode": "FULL_REBUILD",
+  "startedAt": "2026-10-13T20:19:13.704184+00:00",
+  "finishedAt": "2026-10-13T20:24:39.875293+00:00",
+  "stages": [
+    {
+      "stage": "isolation-test",
+      "command": [
+        "C:\\Python312\\python.exe",
+        "-I",
+        "-S",
+        "-B",
+        "E:\\codex-build\\RH-Weil\\tmp\\c009-liu\\w200-pub-2026-09-14\\reproduction\\stage.py",
+        "isolation-test",
+        "--run-root",
+        "E:\\codex-build\\RH-Weil\\tmp\\c009-liu\\fresh-b-20261014",
+        "--manifest-sha",
+        "c9b0a1fd4db32a17889cd2860ac41e5fe7ce9c2839a0d6d2658f5eb9129486b2",
+        "--worker-sha",
+        "9e2f5d76572c615273c6e7cad7c54935d6aba1e5d7aca1a967fbe247b63eefa5"
+      ],
+      "startedAt": "2026-10-13T20:19:13.704184+00:00",
+      "finishedAt": "2026-10-13T20:19:13.799636+00:00",
+      "seconds": 0.0940000000409782,
+      "exitCode": 0
+    },
+    {
+      "stage": "tails",
+      "command": [
+        "C:\\Python312\\python.exe",
+        "-I",
+        "-S",
+        "-B",
+        "E:\\codex-build\\RH-Weil\\tmp\\c009-liu\\w200-pub-2026-09-14\\reproduction\\stage.py",
+        "tails",
+        "--run-root",
+        "E:\\codex-build\\RH-Weil\\tmp\\c009-liu\\fresh-b-20261014",
+        "--manifest-sha",
+        "c9b0a1fd4db32a17889cd2860ac41e5fe7ce9c2839a0d6d2658f5eb9129486b2",
+        "--worker-sha",
+        "9e2f5d76572c615273c6e7cad7c54935d6aba1e5d7aca1a967fbe247b63eefa5"
+      ],
+      "startedAt": "2026-10-13T20:19:13.800637+00:00",
+      "finishedAt": "2026-10-13T20:20:23.272541+00:00",
+      "seconds": 69.4680000001099,
+      "exitCode": 0
+    },
+    {
+      "stage": "moments",
+      "command": [
+        "C:\\Python312\\python.exe",
+        "-I",
+        "-S",
+        "-B",
+        "E:\\codex-build\\RH-Weil\\tmp\\c009-liu\\w200-pub-2026-09-14\\reproduction\\stage.py",
+        "moments",
+        "--run-root",
+        "E:\\codex-build\\RH-Weil\\tmp\\c009-liu\\fresh-b-20261014",
+        "--manifest-sha",
+        "c9b0a1fd4db32a17889cd2860ac41e5fe7ce9c2839a0d6d2658f5eb9129486b2",
+        "--worker-sha",
+        "9e2f5d76572c615273c6e7cad7c54935d6aba1e5d7aca1a967fbe247b63eefa5"
+      ],
+      "startedAt": "2026-10-13T20:19:13.799636+00:00",
+      "finishedAt": "2026-10-13T20:20:41.904527+00:00",
+      "seconds": 88.10899999993853,
+      "exitCode": 0
+    },
+    {
+      "stage": "matrices",
+      "command": [
+        "C:\\Python312\\python.exe",
+        "-I",
+        "-S",
+        "-B",
+        "E:\\codex-build\\RH-Weil\\tmp\\c009-liu\\w200-pub-2026-09-14\\reproduction\\stage.py",
+        "matrices",
+        "--run-root",
+        "E:\\codex-build\\RH-Weil\\tmp\\c009-liu\\fresh-b-20261014",
+        "--manifest-sha",
+        "c9b0a1fd4db32a17889cd2860ac41e5fe7ce9c2839a0d6d2658f5eb9129486b2",
+        "--worker-sha",
+        "9e2f5d76572c615273c6e7cad7c54935d6aba1e5d7aca1a967fbe247b63eefa5"
+      ],
+      "startedAt": "2026-10-13T20:20:41.904527+00:00",
+      "finishedAt": "2026-10-13T20:22:04.207796+00:00",
+      "seconds": 82.29700000002049,
+      "exitCode": 0
+    },
+    {
+      "stage": "core0",
+      "command": [
+        "C:\\Python312\\python.exe",
+        "-I",
+        "-S",
+        "-B",
+        "E:\\codex-build\\RH-Weil\\tmp\\c009-liu\\w200-pub-2026-09-14\\reproduction\\stage.py",
+        "core0",
+        "--run-root",
+        "E:\\codex-build\\RH-Weil\\tmp\\c009-liu\\fresh-b-20261014",
+        "--manifest-sha",
+        "c9b0a1fd4db32a17889cd2860ac41e5fe7ce9c2839a0d6d2658f5eb9129486b2",
+        "--worker-sha",
+        "9e2f5d76572c615273c6e7cad7c54935d6aba1e5d7aca1a967fbe247b63eefa5"
+      ],
+      "startedAt": "2026-10-13T20:22:04.207796+00:00",
+      "finishedAt": "2026-10-13T20:24:39.390114+00:00",
+      "seconds": 155.18700000015087,
+      "exitCode": 0
+    },
+    {
+      "stage": "core1",
+      "command": [
+        "C:\\Python312\\python.exe",
+        "-I",
+        "-S",
+        "-B",
+        "E:\\codex-build\\RH-Weil\\tmp\\c009-liu\\w200-pub-2026-09-14\\reproduction\\stage.py",
+        "core1",
+        "--run-root",
+        "E:\\codex-build\\RH-Weil\\tmp\\c009-liu\\fresh-b-20261014",
+        "--manifest-sha",
+        "c9b0a1fd4db32a17889cd2860ac41e5fe7ce9c2839a0d6d2658f5eb9129486b2",
+        "--worker-sha",
+        "9e2f5d76572c615273c6e7cad7c54935d6aba1e5d7aca1a967fbe247b63eefa5"
+      ],
+      "startedAt": "2026-10-13T20:22:04.208794+00:00",
+      "finishedAt": "2026-10-13T20:24:39.847287+00:00",
+      "seconds": 155.64000000013039,
+      "exitCode": 0
+    }
+  ]
+}
