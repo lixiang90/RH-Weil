@@ -2,6 +2,16 @@
 
 2026-10-14；STATE指定唯一主合同；先一完整轮，至多两轮止损。
 
+## 第二轮结算：止损，不宣称完整预算成立或发散
+
+[534](../../notes/534-actual-uniform-sonin-subterms-and-trace-consumption-gap.md)
+支付actual大移位子项whole源p^-2费用、cutoff S_r输入、localized TC product p^-3/2费用。
+完整返回和的signed费用及角source-cutoff联合trace分离仍未付；无actual发散反例。
+本合同两轮预算已消费，状态stopped；以下任务句子是历史，不再执行未知预算扩展。
+重新准入须actual共同trace-kernel身份与新的低cycle signed估计，
+不能仅给relativeΓ、定义未知norm或继承未经认证的角trace拆分。
+下一唯一主合同C007审原冻结QW−T₂=−E₂的低域紧型符号。
+
 ## 第一轮结算及当前唯一下一动作
 
 [533](../../notes/533-actual-late-prime-sonin-boundary-square.md)已经消费fixed smooth源

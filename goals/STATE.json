@@ -7,11 +7,11 @@
   "cadence": "goals/review-cadence.json",
   "decisions": "goals/DECISIONS.md",
   "latest_strategy": "goals/reviews/2026-10-12-connes-frontier-and-equivalence-strategy.md",
-  "latest_decision": "D20261014B",
+  "latest_decision": "D20261014C",
   "macro": {
     "long_objective": "独立实际算术来源约束同一完整Weil型／ζ谱，并取得非重复强制后果；不把新等价、有限实验或组织工作当完成。",
-    "unpaid_bottleneck": "首prime actual桥及fixed smooth晚prime正p^-2费用已付；低域QW−T2 compact符号、whole源L²可求和绝对费用、conditioned baseS/growingS/U及真正lowest仍未付。uniform首项norm渐近已严格排除。",
-    "why_this_contract": "533改变fixed-source晚prime消费并关闭uniform norm渐近shortcut；C006仅余最后一轮，检验尚未排除的实际source L²可求和上界，不能把带derivative余项或compact性代替该预算。",
+    "unpaid_bottleneck": "实际全源大移位子项p^-2已付；完整晚prime返回预算仍缺共同source/angle trace域及signed低cycles。冻结QW−T2的紧型E2符号、conditioned baseS/growingS/U和真正lowest均未付；核心瓶颈未消除。",
+    "why_this_contract": "C006两轮只付严格子项及localized TC，完整预算未付，按止损停止。532已付actual first-prime非紧桥允许直接审同一完整Weil与T2剩余紧型的符号，避免继续未知成长费用或复活旧arch紧修复。",
     "paused_routes": [
       "零点比例优化",
       "无零区域优化"
@@ -26,16 +26,17 @@
       "原生标准锥保正半群、bounded局部势及正权相似修复停止",
       "固定实位Sonin无费用全源桥及诱导紧二次型/有限矩修复停止",
       "真实半局部cutoff原样继承实位快速谱/绝对epsilon系数证明停止",
-      "冻结全源L²的uniform o(p^-2)首项算子渐近/统一首项正下界停止"
+      "冻结全源L²的uniform o(p^-2)首项算子渐近/统一首项正下界停止",
+      "C006晚prime完整统一返回预算主攻止损；未证发散，重准入需actual共同trace域及新signed核费用"
     ]
   },
   "primary_contract": {
-    "id": "C006",
-    "path": "goals/contracts/C006-late-prime-sonin-overlap-budget.md",
+    "id": "C007",
+    "path": "goals/contracts/C007-first-prime-compact-overlap-sign.md",
     "status": "ready",
-    "stage": "第一轮已结算：fixed smooth actual增量p^-2正平方/Sobolev费用、single-p求和及leading coercivity通过逆审；uniform norm首项渐近严格不可能。只余最后一轮实际绝对预算。",
-    "next_action": "在原冻结两patch/逐patch两矩零闭域V上，对真实D_p=T_p−T∞（p≥3 primepower严格0）直接检验||D_p||≤Cp^-2或较弱Σ_p||D_p||<∞；先用joint carrier/p负对照审实际交接，保留完整投影/Gram逆。不得追已排除的norm首项渐近；single-p共同费用未付前不先运输base S。",
-    "stop_rule": "第二且最后一完整轮；只有旧泛relativeΓ、unknown低谱重命名或不可消费条件则止损。失败须保存actual joint费用缺口/可再准入输入，不扩N或拟合ζ。"
+    "stage": "新准入：532实际QW−T2=−E2紧桥已付，符号未付；C006两轮停止，不先运输成长S。",
+    "next_action": "在原mu=13/5两patch/逐patch两矩零闭域V上，直接用actual ε2=2πρ2−2θ′+2log2 Σ2^-n/2cos(nlog2 s)及完整G2逆审E2符号：证明E2≤0或给合法smooth源严格E2>0反例。保持所有Γ/prime/pole/cross；不得套未认证角trace分离。必要有限实验先另冻结合法源/误差，ordinaryprecision不认证全V。",
+    "stop_rule": "先一完整轮、至多两轮；只有unknown低投影/条件Schur/compact范数定义则停止。正E2只否定QW≥T2无费桥，不否定QW正性；成功也不完成全域Goal。"
   },
   "support_contracts": [],
   "must_not_forget": [
@@ -55,9 +56,11 @@
     "C004已有Sonin输入不算新；两patch全η比较与单个负对照分开，源内正性不能自由极化。",
     "530只指两patch压缩差额ess±w2，不是QW负谱或全interval差额ess；compact须诱导L²二次型紧，质量费≥w2只是必要。",
     "531actual cutoff非HS不推出E2不连续或源差额非紧；532另付源compact bridge。ambient L与冻结source λ不同。",
-    "532完整fixed-p/fixed-source bridge已付；source紧型不预设符号、不统一于growingS/U。C005已完成，后续只按C006恢复。",
+    "532完整fixed-p/fixed-source bridge已付；source紧型不预设符号、不统一于growingS/U。C005已完成，后续按当前唯一主合同恢复，历史任务句不重启。",
     "533 fixed-g p^-2首项正且可求和，A_U=π^-2I+compact/coercive；余项有derivative费，每p D_p compact使uniform o(p^-2) norm渐近不可能，不反推绝对norm预算发散。",
-    "cycle8复盘保持Goal active；固定源single-p求和不等于conditioned baseS/growingS，全Weil低域符号与lowest未付。"
+    "cycle8复盘保持Goal active；固定源single-p求和不等于conditioned baseS/growingS，全Weil低域符号与lowest未付。",
+    "534只有actual J全源p^-2、highscale裸块及localized H3Mp TC p^-3/2费用；actual角高尾身份尚需source-cutoff联合trace域，已降级，不把局部trace定义当完整消费。",
+    "C006止损不等于证明Σ||Dp||发散；C007审真实QW−T2=−E2低域符号，区别530旧arch来源，不能复活已停止修复。"
   ],
   "evidence": [
     {
@@ -111,34 +114,9 @@
       "scope": "每个实际素数端点P≥3上辅助H_R/H_BG无下界，所有有限正指标量词；不排除完整Weil型、质量误差或限制低域。"
     },
     {
-      "path": "scripts/weil_source_decomposition.py",
-      "kind": "experiment",
-      "scope": "冻结12组逐源重建脚本；普通高精度，不是区间证书。"
-    },
-    {
-      "path": "scripts/weil_h_signed_witness.py",
-      "kind": "proved",
-      "scope": "限定H负方向的Fraction向外包围及初等解析尾实现；经独立代码/公式审查，不认证W。"
-    },
-    {
-      "path": "reviews/2026-10-13/c001-source/preregistration.json",
-      "kind": "experiment",
-      "scope": "C001执行前冻结来源分解与固定/移动向量交叉账本。"
-    },
-    {
       "path": "notes/529-full-weil-positive-cone-semigroup-boundary.md",
       "kind": "obstruction",
       "scope": "完整actual标准锥半群保正iff λ²≤α，及boundedlocalV/正序相似类；不认证Weil半正定或实际最低态。"
-    },
-    {
-      "path": "reviews/2026-10-13/c003-full-source/continuous-source-audit.md",
-      "kind": "proved",
-      "scope": "实际周期相位/源接口及完整模量4/8因子、operator-domain和全域converse独立审查。"
-    },
-    {
-      "path": "reviews/2026-10-13/c003-full-source/semigroup-reverse-audit.md",
-      "kind": "proved",
-      "scope": "完整交叉核/跳能量不同组织逆审，精确阈值、boundedlocalV、resolvent与量化常数。"
     },
     {
       "path": "reviews/2026-10-13/c003-full-source/normalization-erratum.md",
@@ -164,21 +142,6 @@
       "path": "notes/531-semilocal-sonin-positive-trace-and-non-hilbert-schmidt-cutoff.md",
       "kind": "proved",
       "scope": "真实Pp与同源finite positive trace/flux；每p每L cutoff compact norm<1非HS，norm随L趋1，不能继承实位绝对系数证明；QW符号/prime通量仍open。"
-    },
-    {
-      "path": "reviews/2026-10-13/c005-semilocal/source-audit.md",
-      "kind": "cited",
-      "scope": "2310.18423v2真实θ/η、物理范数/支持/原编号核读，另独立核projection及lacunary cutoff；非全文认证。"
-    },
-    {
-      "path": "reviews/2026-10-13/c005-semilocal/projection-transport-audit.md",
-      "kind": "proved",
-      "scope": "独立真实投影、HS/TC及relativeGamma尾、实际cutoff紧/非HS/strictgap证明；源L² flux未付。"
-    },
-    {
-      "path": "reviews/2026-10-13/c005-semilocal/reverse-audit.md",
-      "kind": "proved",
-      "scope": "不同组织polar/smooth内部测试核每p每L非HS、growthgap、真实positive trace/flux；不认证完整W或Goal完成。"
     },
     {
       "path": "reviews/2026-10-13/c005-semilocal/source-receipt.json",
@@ -234,6 +197,31 @@
       "path": "goals/reviews/2026-10-14-sonin-arithmetic-budget-review-cycle-8.md",
       "kind": "open",
       "scope": "四完整迭代周期复盘，无额外数学计轮；actual桥改善而低域/全源绝对预算/baseS仍未付，Goal继续active。"
+    },
+    {
+      "path": "notes/534-actual-uniform-sonin-subterms-and-trace-consumption-gap.md",
+      "kind": "proved",
+      "scope": "actual J whole源p^-2子项、cutoff Schatten/高scale砖块及localized TC费用；完整角trace分离和返回预算open，C006止损，不认证发散。"
+    },
+    {
+      "path": "reviews/2026-10-14/c006-uniform/kernel-subterm.md",
+      "kind": "proved",
+      "scope": "主独立actual外部核、Γ/δ取消和无source derivative大移位Schur费用；只属完整密度第一子项。"
+    },
+    {
+      "path": "reviews/2026-10-14/c006-uniform/direct-budget-audit.md",
+      "kind": "proved",
+      "scope": "同/不同实际highscale source核可求和率、相邻return质量/尾与localized TC核审；finite-cycle闭合和actualjointtrace未付。"
+    },
+    {
+      "path": "reviews/2026-10-14/c006-uniform/source-budget-audit.md",
+      "kind": "proved",
+      "scope": "joint模型假1/p质量排除、actual S6/finiteband/TC乘积严格partial；actual高尾消费经主/逆审降conditional，缺jointtrace域。"
+    },
+    {
+      "path": "reviews/2026-10-14/c006-uniform/reverse-budget-audit.md",
+      "kind": "proved",
+      "scope": "不同组织复核actual J全源子项及localized TC费用；揭示anglecutoff消费缺口，完整预算/发散均未证，建议两轮止损。"
     }
   ],
   "pending_processes": [],
@@ -241,14 +229,14 @@
     "status": "active",
     "observed_on": "2026-10-14",
     "created_at_epoch": 1791901071,
-    "basis": "本轮get_goal确认同一Goal active；直接/来源/不同组织逆审已完成并读核，无pending agents/计算/下载。未complete/blocked/paused；已证局部结果不充当宏观完成。"
+    "basis": "本轮get_goal核同一Goal active；直接/来源/逆审和同轮scope纠正均完成并读核，无pending agents/下载/计算。局部费用不等于宏观完成，未complete/blocked/paused。"
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-10-14-c006-first-cycle8-settled.json",
+  "checkpoint": "goals/checkpoints/2026-10-14-c006-stopped-c007-ready.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
-    "commit": "7b6652d2eb657f10b7d771254f0f35dcb233f9e4",
-    "basis": "上轮push后ls-remote与HEAD一致；本轮起始HEAD同一7b6652d。此项记录已验证基线，不预写本轮待提交SHA。"
+    "commit": "44337d2e1492c093dcb263f5ecf57c4676eed3e6",
+    "basis": "上轮push后ls-remote/HEAD44337d2一致；本輪起始工作树干净且HEAD相同。记录已核基线，不预写待提交SHA。"
   },
   "latest_macro_review": "goals/reviews/2026-10-14-sonin-arithmetic-budget-review-cycle-8.md"
 }

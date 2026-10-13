@@ -109,3 +109,16 @@ C006只余最后一轮，唯一审原冻结V的||D_p||≤Cp^-2或实际较弱可
 保留joint carrier/p范围。支付后才运输base S；失败则按合同止损，不扩数值。
 四轮复盘消费同一cadence后清零，不将三份审查/复盘/推送计新轮或完成Goal。
 暂停及降级路线保持；重新准入须新的actual joint signed来源或共同预算。
+
+## D20261014C：晚prime统一返回预算止损，转已付真实桥的剩余低域符号
+
+依据[534](../notes/534-actual-uniform-sonin-subterms-and-trace-consumption-gap.md)与不同组织逆审。
+actual全源大移位子项有p^-2费用；actual cutoff S_r与localized H₃M_p的TC p^-3/2费用成立。
+但后者成为完整角trace高尾的身份还缺source-cutoff联合极限，
+完整低cycle signed费用也未付。已明确降级，既不宣布完整预算成立，也不宣布发散。
+C006两轮止损，不继续泛norm改名或在未付前先运输base S。
+重新准入该成长路线须新的actual共同trace-kernel证明和有符号低cycle费用。
+唯一C007利用532已付的真实first-prime非紧桥，审冻结V上的
+QW−T₂=−E₂紧型符号：证明E₂≤0或给合法源的严格正E₂反例。
+对象仍是完整actualΓ/prime/pole账本，不恢复530旧arch紧修复或C001扩N。
+宏观核心正性/lowest/成长S尚未解决；Goal保持active，本轮只消费同一cadence一次。
