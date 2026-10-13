@@ -7,11 +7,11 @@
   "cadence": "goals/review-cadence.json",
   "decisions": "goals/DECISIONS.md",
   "latest_strategy": "goals/reviews/2026-10-12-connes-frontier-and-equivalence-strategy.md",
-  "latest_decision": "D20261014D",
+  "latest_decision": "D20261014F",
   "macro": {
     "long_objective": "独立实际算术来源约束同一完整Weil型／ζ谱，并取得非重复强制后果；不把新等价、有限实验或组织工作当完成。",
-    "unpaid_bottleneck": "原方法类边界分支已完整验收且runtime Goal complete。RH/全Weil正性、lowest、多prime与无限秩费用仍开放，均为明示逃逸/更远目标，不作为本已完成分支的缺项。",
-    "why_this_contract": "C007新source S1域支付实际迹消费，logp共振给全fixedsingleprime/λ>√p无限±指数。独立宏观审计验收这个单个定理达到旧§10B/C强度；不累计旧小障碍，不人为追加C008或RH门槛。",
+    "unpaid_bottleneck": "C008原正性/simple数字仍cited/open：固定原包/作者入口未定位matrix/errorbook/frame/trial-source/verifier，完整误差未付。精确对象/闭域及高频逐点反例已核，未消除wholeWeil正性/最低态瓶颈。",
+    "why_this_contract": "用户明确继续C008已完成一轮原件准入/独立逆审；按合同止损缺失原证书，不把外部声明/finitePD导入。旧535方法边界完成收据保持。",
     "paused_routes": [
       "零点比例优化",
       "无零区域优化"
@@ -32,12 +32,12 @@
     ]
   },
   "primary_contract": {
-    "id": "C007",
-    "path": "goals/contracts/C007-first-prime-compact-overlap-sign.md",
-    "status": "completed",
-    "stage": "535和独立宏观审计已保存推送，proof SHA本地/远程一致；update_goal实际complete，保留终态收据。C008未启动。",
-    "next_action": "同一runtime Goal已complete；无需继续本Goal研究。恢复时核终态收据与当前版本，不自动开展未启动C008或新建替代Goal；后续研究需用户另定目标。",
-    "stop_rule": "本合同失败分支已证明且已宏观验收。任何未来重准入须明确无限维费用、多prime共同signed或不同正来源；有限额外矩/finite-rank修复不能复活。"
+    "id": "C008",
+    "path": "goals/contracts/C008-compact-window-primary-certificate-audit.md",
+    "status": "stopped",
+    "stage": "536结算一轮：actual2θ′/complex parity/closedcompactresolvent核准；原数字证书未取得。有理数tail证明仅纠正较宽pointwise阈值语句。",
+    "next_action": "仅在原certificate原件可定位后重准入C008：先读matrix/factors/errorbook/frame/trial-source/verifier并核向外误差，再消费固定小窗全源正性/排序。当前无待运行计算，不自行复造矩阵或联系作者。",
+    "stop_rule": "原证书与全域误差未付，一轮止损；重准入须原证明附件或不同可核signed机制。不得将高频尾界、矩阵PD或恒精度重算当wholeQ定理。"
   },
   "support_contracts": [],
   "must_not_forget": [
@@ -63,19 +63,10 @@
     "534当轮只付actual J/局部TC并保留角域缺口；535新fixedsmooth S1证据另付实际普通trace域，不倒改历史或自动宣称完整晚prime费用。",
     "C006止损不等于Σ||Dp||发散；535已证明真实QW−Tp=−Ep无限±，区别530旧arch来源；不反推QW负值。",
     "宏观完成依据535这个全fixedsingleprime实际方法类边界，不因合同/轮次/推送完成；未排无限秩紧费、多prime/几何来源，未证明RH。",
-    "新arXiv2608.24827v2仅cited/open，原证书未核；C008未启动且不是完成前件，不在本Goal结束后自动开第二Goal。"
+    "用户明确继续C008；旧Goalcomplete保留，新runtime Goal未请求。外部声明/矩阵只cited，全域证书未核前不消费。",
+    "536只核高频逐点tail及完整对象/域；constantcomb最优不推出所有pointwise最优。C001半窗log13/2>.8不覆盖；小V正性不推QW≥T2；原数字未核不消费。"
   ],
   "evidence": [
-    {
-      "path": "notes/016-prime-graph-hodge-inequality.md",
-      "kind": "proved",
-      "scope": "P−V/graph恒等式与指定degree范数损失保留；actual2θ′纠错见C003 erratum，旧half默认shift的正块解释不准消费。"
-    },
-    {
-      "path": "notes/526-f1-faithful-two-weight-hilbert-quotient-and-defect.md",
-      "kind": "obstruction",
-      "scope": "固定有限正实多权自然商及等价Hilbert酉化；不排除所有Hilbert实现。"
-    },
     {
       "path": "literature/supplements/2026-10-12-connes-recent-paper-audit.md",
       "kind": "cited",
@@ -177,39 +168,9 @@
       "scope": "actual J whole源p^-2子项、cutoff Schatten/高scale砖块及localized TC费用；完整角trace分离和返回预算open，C006止损，不认证发散。"
     },
     {
-      "path": "reviews/2026-10-14/c006-uniform/kernel-subterm.md",
-      "kind": "proved",
-      "scope": "主独立actual外部核、Γ/δ取消和无source derivative大移位Schur费用；只属完整密度第一子项。"
-    },
-    {
-      "path": "reviews/2026-10-14/c006-uniform/reverse-budget-audit.md",
-      "kind": "proved",
-      "scope": "不同组织复核actual J全源子项及localized TC费用；揭示anglecutoff消费缺口，完整预算/发散均未证，建议两轮止损。"
-    },
-    {
       "path": "notes/535-actual-first-prime-sonin-log-resonance-and-indefinite-error.md",
       "kind": "obstruction",
       "scope": "actual全fixedsingleprime/λ>√p无费Weil正trace桥失败；smooth源S1/ordinarytrace/logp共振、合法窄源无限±及有限条件/有限秩修复边界。原Goal第三分支已独立审计。"
-    },
-    {
-      "path": "reviews/2026-10-14/c007-sign/direct-sign-audit.md",
-      "kind": "proved",
-      "scope": "独立裸log系数/严格矩零源及新S1普通迹域；最终升级actual正负反例，因子2核准，无数值实验。"
-    },
-    {
-      "path": "reviews/2026-10-14/c007-sign/source-sign-audit.md",
-      "kind": "proved",
-      "scope": "primary支持/范数限定、ambient/sourceTC与kernel共振；源S1共同cutoff证明。额外H1/Fejer谱证明不作主证明必需前件。"
-    },
-    {
-      "path": "reviews/2026-10-14/c007-sign/trace-domain-proof.md",
-      "kind": "proved",
-      "scope": "主独立光滑源S1核平滑、physical0/截断边界、Φ域/ordinary循环迹和bare/完整return分离；fixedsmooth前件。"
-    },
-    {
-      "path": "reviews/2026-10-14/c007-sign/reverse-sign-audit.md",
-      "kind": "proved",
-      "scope": "不同Plancherel/Sobolev组织复核actual域、cutoff顺序、全p系数、N窄源/finiteconstraints；§8独立验收原宏观方法类边界门槛。"
     },
     {
       "path": "goals/reviews/2026-10-14-goal-method-boundary-completion-audit.md",
@@ -219,12 +180,42 @@
     {
       "path": "literature/supplements/2026-10-14-zhu-compact-window-entry.md",
       "kind": "cited",
-      "scope": "新primary固定v2/日期和局部HTML定位，原附属证书未取得核验；未启动后备，不消费为正性或完成依据。"
+      "scope": "固定v2最初HTML入口；后续原件准入/消费缺口见536与C008receipt，正性数字未验收。"
     },
     {
       "path": "goals/goal-completion-receipt.20261014.json",
       "kind": "cited",
       "scope": "实际update_goal complete结构结果、usage与已核proof SHA；工具终态/保存收据，不是新的数学证明。"
+    },
+    {
+      "path": "notes/536-compact-window-certificate-admission-and-pointwise-scope.md",
+      "kind": "proved",
+      "scope": "精确actual pole/parity/norm/closedform接口及Fraction高频尾反例；原fullwindow正性/simple数字仍cited/open，C008一轮止损。"
+    },
+    {
+      "path": "reviews/2026-10-14/c008-certificate/source-receipt.json",
+      "kind": "cited",
+      "scope": "固定v2原bytes/六文件inventory/作者入口与未定位证书范围；不证明全世界附件不存在或数学成立。"
+    },
+    {
+      "path": "reviews/2026-10-14/c008-certificate/object-parity-audit.md",
+      "kind": "proved",
+      "scope": "独立同normbasis、complex/oddpole、闭form/compactresolvent/minmax；数字证书不消费，不覆盖C001μ13。"
+    },
+    {
+      "path": "reviews/2026-10-14/c008-certificate/pointwise-envelope-rational.json",
+      "kind": "proved",
+      "scope": "Fraction向外重放actualL=.8∀|t|≥118符号≥1/200且118<T1；只高频尾，不是全Q正性。"
+    },
+    {
+      "path": "reviews/2026-10-14/c008-certificate/reduction-reverse-audit.md",
+      "kind": "proved",
+      "scope": "独立全补空间/tail修复/quad舍入/constant方法类审查及Fraction反例重核；原PD/simple数字未消费。"
+    },
+    {
+      "path": "scripts/c008_pointwise_envelope.py",
+      "kind": "proved",
+      "scope": "精确Fraction向外算术/显式remainders重放536高频符号尾界；不装配Weil矩阵/ζ零点，不证低域正性。"
     }
   ],
   "pending_processes": [],
@@ -233,10 +224,10 @@
     "observed_on": "2026-10-14",
     "created_at_epoch": 1791901071,
     "completed_at_epoch": 1791914179,
-    "basis": "update_goal已实际返回complete；仅按原方法类边界分支完成，数学/版本门先通过；终态收据保存真实工具usage。无pending process，未自动启动C008。"
+    "basis": "历史Goal已complete；本次get_goal返回null，无新runtime Goal。Get-Process未见python；C008为明确追加任务。"
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-10-14-goal-completed.json",
+  "checkpoint": "goals/checkpoints/2026-10-14-c008-certificate-admission.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
     "commit": "8bfb38e3d31b130e21ffd81820504842332e7c3a",
@@ -249,7 +240,7 @@
     "mathematical_gate": "passed",
     "basis": "535单一actual canonical single-prime族，无conditional、全λ>√p及无限±有限修复边界，经独立§10强度审计。",
     "final_execution_gate": "passed; proof saved, remote SHA matched, runtime Goal complete",
-    "post_completion_research": "none required; C008 is an unstarted optional candidate",
+    "post_completion_research": "C008 explicitly requested on 2026-10-14; not a condition of completed Goal",
     "verified_proof_commit": "8bfb38e3d31b130e21ffd81820504842332e7c3a",
     "runtime_receipt": "goals/goal-completion-receipt.20261014.json"
   }

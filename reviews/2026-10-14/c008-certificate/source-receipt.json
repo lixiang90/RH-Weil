@@ -1,0 +1,77 @@
+{
+  "observed_on": "2026-10-14",
+  "version": "arXiv2608.24827v2; revised 2026-09-02",
+  "files": [
+    {
+      "path": "literature/background/zhu-2608.24827v2.pdf",
+      "url": "https://arxiv.org/pdf/2608.24827v2",
+      "bytes": 924766,
+      "sha256": "70332e428dd7ab82a352131787ac3db4b321459f0e12a6765a8ab1e6fbc22026"
+    },
+    {
+      "path": "literature/background/zhu-2608.24827v2-source.bin",
+      "url": "https://arxiv.org/src/2608.24827v2",
+      "bytes": 470846,
+      "sha256": "1afc4e867bc69cabf5128db8b70187af61804e55bd773a16cdf16d17c4284c73"
+    },
+    {
+      "path": "literature/background/zhu-2608.24827v2.html",
+      "url": "https://arxiv.org/html/2608.24827v2",
+      "bytes": 900954,
+      "sha256": "ef13ab65f56eed7cbccbf010b15e0b61552a8b283efec98bfb4b625eac174c25"
+    },
+    {
+      "path": "literature/background/zhu-home-20261014.html",
+      "url": "https://xuefengzhu.com/en/",
+      "bytes": 3310,
+      "sha256": "45b08bc4752ccfa1771f129a254dbd73cfa5fd403ce49099cde4b09dedc36e19"
+    },
+    {
+      "path": "literature/background/zhu-content-en-20261014.js.txt",
+      "url": "https://xuefengzhu.com/en/content-en.js",
+      "bytes": 32764,
+      "sha256": "fa1def84ece0e696862de4839b97881ca0d01c14b813291865a69b8b4a77310d"
+    }
+  ],
+  "source_archive_inventory": [
+    {
+      "name": "00README.json",
+      "bytes": 213,
+      "sha256": "d1f6b1a71c9accb812ec5121d1fff7910c025ca7bb201948bacdb40941bc14e5"
+    },
+    {
+      "name": "main.tex",
+      "bytes": 122242,
+      "sha256": "14ec17c2b2e1d3d8069c1d424dae4f5aa6c92b75c73b89d10915ed868495f2c5"
+    },
+    {
+      "name": "weil_discrimination.png",
+      "bytes": 120580,
+      "sha256": "1c7462aa7b6e0b7fb75e7586fdad97540d054db8cd561304158549fa77aa6b31"
+    },
+    {
+      "name": "weil_final_verdict.png",
+      "bytes": 127739,
+      "sha256": "ae31e3697757eebf0a011a125e12b594ece36954d4d5b1381f5ae4ea3927fbac"
+    },
+    {
+      "name": "weil_minimizer_portrait.png",
+      "bytes": 93745,
+      "sha256": "2d355d9cfcdde31cea3d863cd1621f203bdd12c3b3b7356106ef70539bde1572"
+    },
+    {
+      "name": "weil_mp_verdict.png",
+      "bytes": 128440,
+      "sha256": "c04e24bcbff8352e4e1769c741d29942effa9d753caf6fa8e6830d9cab9b889b"
+    }
+  ],
+  "pdf_pages": 34,
+  "visual_pages_checked": [
+    13,
+    33
+  ],
+  "review_scope": "Full source sections 2–6, 14, 16–17; receipt is identity, not mathematical certification.",
+  "certificate_location_status": "Not located in fixed arXiv source archive (six files), PDF/TeX links, arXiv abstract links or author homepage paper entry (links=[]). Search non-find is not proof of global absence.",
+  "execution_status": "No author code obtained or run; no matrix assembly/Cholesky replay; own exact-rational high-frequency lemma only.",
+  "not_contacted": true
+}

@@ -138,3 +138,23 @@ C007一轮完成失败分支；C006完整预算仍未付，不自动因新域证
 付费紧修正、多primesigned和几何来源是必须声明的未排除逃逸，非边界分支缺项。
 新定位arXiv2608.24827v2及C008保留cited/open后备、未启动，不凭摘要导入或另开Goal。
 暂停比例/无零区域和等价酉化保持，轮数只消费原cadence一次，不提前重置周期。
+
+## D20261014E：用户明确继续C008，原证书先于声明消费
+
+旧Goal按535方法边界完成的历史验收与收据保持。用户明确继续C008，
+故唯一主合同改为C008，不自行新建runtime Goal，不重置cadence。
+固定v2原件已留hash；六文件源包无矩阵/误差账本/verifier。
+全源及误差核清前正性/simple声明只cited；暂停与已降级路线保持。
+
+## D20261014F：C008原数字证书未准入，收窄逐点最优性后按一轮止损
+
+依据[536](../notes/536-compact-window-certificate-admission-and-pointwise-scope.md)及独立对象/逆审。
+固定v2原包与作者入口没有可定位matrix/factors/errorbook/frame/trial/verifier；
+原全窗正性/simple数字不可消费，未发现wholeQ反例，也不从附件缺失断言声明为假。
+actual2θ′、complex/oddpole、同normbasis及closedcompactresolvent接口独立支付。
+Fraction证明实际小窗Ψ在|t|≥118有正下界，而118<T1，纠正所有pointwise方法阈值最优的宽泛语句；
+全局constant-envelope最优性仍真，低频wholeQ和渐近费用未支付。
+C001μ13的半窗>.8不覆盖；C007小V若原证书将来验收才获正性，不推出QW≥T2或冲突535。
+原数字消费瓶颈未变。C008按一完整轮止损，不自行重造矩阵/增加N/拟合ζ零点或联系作者。
+重准入只在取得原证明附件及向外账本，或不同独立signed来源；下一动作先核那些原件。
+原cadence由2推进3一次，不提前复盘/重置；旧Goal完成及未请求新runtime Goal的状态保持。

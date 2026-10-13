@@ -5,19 +5,19 @@
   "target_rounds": 6,
   "maximum_rounds": 8,
   "counting_unit": "completed research continuation iteration, not tool calls or files",
-  "rounds_since_review": 2,
+  "rounds_since_review": 3,
   "last_review": "goals/reviews/2026-10-14-sonin-arithmetic-budget-review-cycle-8.md",
   "last_review_baseline_commit": "7b6652d2eb657f10b7d771254f0f35dcb233f9e4",
   "last_review_completed_round_count": 4,
   "last_review_trigger": "Fourth completed iteration: actual prime comparison and fixed-smooth late-prime costs became consumable, while compactness strictly forbids uniform norm leading asymptotics; audit complete Goal and target genuine summable absolute source costs.",
-  "last_completed_round": "notes/535-actual-first-prime-sonin-log-resonance-and-indefinite-error.md",
+  "last_completed_round": "notes/536-compact-window-certificate-admission-and-pointwise-scope.md",
   "last_completed_round_date": "2026-10-14",
-  "last_completed_round_baseline_commit": "bbbd54c26e1f335c4238877a7954edd02146dab8",
+  "last_completed_round_baseline_commit": "4377e70b35dfe1da6ce5957a31e8c9b0ba01824e",
   "latest_user_directed_review": "goals/reviews/2026-10-12-connes-frontier-and-equivalence-strategy.md",
   "latest_user_directed_review_baseline_commit": "851a70bef3de8985120dc252284bb8bc28ec9d34",
   "latest_user_directed_review_scope": "strategic reflection using selected prior notes, previous retrospectives and primary Connes papers through 2026-08-31; not a fresh full audit of all 526 notes; no new completed mathematical round or cadence reset",
-  "current_research_focus": "C007 settled once: actual smooth-source TC domain and canonical single-prime log resonance prove infinite positive/negative error index, preserved under finite source constraints/rank repairs, for all fixed primes and lambda>sqrt(p). Independent macro audit passes the original effective-method-boundary branch; only final version/Goal execution gates remain. C008 unstarted optional, no cycle reset or extra count.",
-  "weil_f1_rounds_since_historical_review": 17,
+  "current_research_focus": "C008 one completed admission/audit iteration: fixed primary bytes, exact actual/parity/form-domain interfaces, rational counterexample to broad pointwise-threshold wording. Original finite matrices/frame/trial/errorbook/verifier not located; whole-window positivity/simple numerics remain cited/open. Stop under one-round rule, reopen only on original proof artifacts or different independent signed input. Prior Goal completion preserved, no new runtime Goal/cadence reset.",
+  "weil_f1_rounds_since_historical_review": 18,
   "last_completed_round_note_paths": [
     "notes/524-f1-mobius-cutoff-taylor-obstruction-and-repair.md",
     "notes/525-f1-smoothed-mobius-probes-and-arithmetic-strength.md",
@@ -30,6 +30,7 @@
     "notes/532-actual-sonin-prime-symbol-and-compact-weil-bridge.md",
     "notes/533-actual-late-prime-sonin-boundary-square.md",
     "notes/534-actual-uniform-sonin-subterms-and-trace-consumption-gap.md",
-    "notes/535-actual-first-prime-sonin-log-resonance-and-indefinite-error.md"
+    "notes/535-actual-first-prime-sonin-log-resonance-and-indefinite-error.md",
+    "notes/536-compact-window-certificate-admission-and-pointwise-scope.md"
   ]
 }
