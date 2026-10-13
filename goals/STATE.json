@@ -7,11 +7,11 @@
   "cadence": "goals/review-cadence.json",
   "decisions": "goals/DECISIONS.md",
   "latest_strategy": "goals/reviews/2026-10-12-connes-frontier-and-equivalence-strategy.md",
-  "latest_decision": "D20261013F",
+  "latest_decision": "D20261013G",
   "macro": {
     "long_objective": "独立实际算术来源约束同一完整Weil型／ζ谱，并取得非重复强制后果；不把新等价、有限实验或组织工作当完成。",
-    "unpaid_bottleneck": "完整Weil联合正性、真正最低态/prolate及增长支持费用仍未付；固定实位Sonin桥已证明有首素数非紧费用，紧/有限矩修复不能消除。actual2θ′归一化必须保留。",
-    "why_this_contract": "530排除固定archSonin紧修复；真实S={∞,2}正来源是未排除的非紧算术机制。先核同源迹/范数和首素数主项，不消费旧同构或条件等价。",
+    "unpaid_bottleneck": "真实半局部同源有限正trace已付，但它与完整QW的边界通量首素数主项及源L²剩余尚未付；完整signed正性、最低态/prolate与成长支持预算仍开放。",
+    "why_this_contract": "531给真实投影/正迹/精确flux和actual cutoff非HS边界，排除原样移植实位快速误差；C005最后一轮直接评估冻结弱零源的prime主项，不能靠粗Γrelative界晋级。",
     "paused_routes": [
       "零点比例优化",
       "无零区域优化"
@@ -24,16 +24,17 @@
       "C001有限敏感性数值扩展冻结",
       "辅助反向核H_R对H_BG的固定全域相对下界停止",
       "原生标准锥保正半群、bounded局部势及正权相似修复停止",
-      "固定实位Sonin无费用全源桥及诱导紧二次型/有限矩修复停止"
+      "固定实位Sonin无费用全源桥及诱导紧二次型/有限矩修复停止",
+      "真实半局部cutoff原样继承实位快速谱/绝对epsilon系数证明停止"
     ]
   },
   "primary_contract": {
     "id": "C005",
     "path": "goals/contracts/C005-semilocal-sonin-first-prime-bridge.md",
     "status": "ready",
-    "stage": "C004完整一轮已结算：真实首素数局部差额−w2Swap+compact及紧修复类边界经独立逆审；尚未执行半局部新桥。",
-    "next_action": "核2310.18423v2 §4.5–4.8真实S={∞,2}Sonin Hilbert空间/范数/正交投影/trace-class，从定义写同一冻结a=log2,b=log(3/2)/4,μ=13/5两patch正迹Gram，比较QW及实位trace，审是否真实支付非紧−w2Swap主项；不得假设§7.4乘积为正投影。",
-    "stop_rule": "先一轮、最多两轮；仅旧有限S同构/范数运输/未知低谱/新RH等价则停止且不自动计数学轮。"
+    "stage": "C005首轮已结算：真实Pp正迹/flux合法；每p每L actual cutoff compact、norm<1但非HS，成长L gap消失，经不同组织逆审；只余最后一轮signed桥检验。",
+    "next_action": "从真实Sonin Mellin evaluation核及压缩G逆表达，直接核C004冻结弱零两patch的d_R±=(T2−T∞)(U(h_R,±h_R))主项是否为∓2log2/√2，并支付源L²剩余；不得把relativeΓ尾在R→∞的不可控界当固定质量证书。",
+    "stop_rule": "仅余最后一完整轮；若只有unknown通量、旧同构/粗范数或新的RH等价则停止，不继续改名，不自动计数学轮或Goal完成。"
   },
   "support_contracts": [],
   "must_not_forget": [
@@ -51,7 +52,8 @@
     "529关闭完整actual标准锥保正shortcut，保正不是Weil半正定；非局部signed机制和真正lowest/prolate未排除。",
     "actual完整Γ multiplier=2θ′；原矩阵核与C001数据未改，旧half helper默认m不是actual正块来源证书。",
     "C004已有Sonin输入不算新；两patch全η比较与单个负对照分开，源内正性不能自由极化。",
-    "530只指两patch压缩差额ess±w2，不是QW负谱或全interval差额ess；compact须诱导L²二次型紧，质量费≥w2只是必要。"
+    "530只指两patch压缩差额ess±w2，不是QW负谱或全interval差额ess；compact须诱导L²二次型紧，质量费≥w2只是必要。",
+    "531已付真实半局部正迹存在，未付signed bridge；actual cutoff非HS不推出E2不连续或源差额非紧。ambient L与冻结source λ不同。"
   ],
   "evidence": [
     {
@@ -213,6 +215,31 @@
       "path": "reviews/2026-10-13/c004-sonin/source-receipt.json",
       "kind": "cited",
       "scope": "作者原PDF的URL/版本/哈希/局部核读范围，原字节本地保留；非数学证书。"
+    },
+    {
+      "path": "notes/531-semilocal-sonin-positive-trace-and-non-hilbert-schmidt-cutoff.md",
+      "kind": "proved",
+      "scope": "真实Pp与同源finite positive trace/flux；每p每L cutoff compact norm<1非HS，norm随L趋1，不能继承实位绝对系数证明；QW符号/prime通量仍open。"
+    },
+    {
+      "path": "reviews/2026-10-13/c005-semilocal/source-audit.md",
+      "kind": "cited",
+      "scope": "2310.18423v2真实θ/η、物理范数/支持/原编号核读，另独立核projection及lacunary cutoff；非全文认证。"
+    },
+    {
+      "path": "reviews/2026-10-13/c005-semilocal/projection-transport-audit.md",
+      "kind": "proved",
+      "scope": "独立真实投影、HS/TC及relativeGamma尾、实际cutoff紧/非HS/strictgap证明；源L² flux未付。"
+    },
+    {
+      "path": "reviews/2026-10-13/c005-semilocal/reverse-audit.md",
+      "kind": "proved",
+      "scope": "不同组织polar/smooth内部测试核每p每L非HS、growthgap、真实positive trace/flux；不认证完整W或Goal完成。"
+    },
+    {
+      "path": "reviews/2026-10-13/c005-semilocal/source-receipt.json",
+      "kind": "cited",
+      "scope": "原v2 PDF本地字节/URL/哈希/限定核读范围；原件本地忽略保留。"
     }
   ],
   "pending_processes": [],
@@ -220,14 +247,14 @@
     "status": "active",
     "observed_on": "2026-10-13",
     "created_at_epoch": 1791901071,
-    "basis": "本轮get_goal确认同一长期Goal active；未调用complete/blocked/paused。结算前检查无python进程；最终笔记只读逆审另核。"
+    "basis": "本续轮get_goal确认同一长期Goal active；三个辅助审查均完成，无待处理下载/计算/agent；未调用complete/blocked/paused。"
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-10-13-c004-sonin-settled.json",
+  "checkpoint": "goals/checkpoints/2026-10-13-c005-first-source-settled.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
-    "commit": "73bc65e4386a7b481c4d14f4e2dcc81d7aa2951a",
-    "basis": "上轮push后远程SHA核验记录，本轮起始HEAD相同；不是本次待保存SHA。"
+    "commit": "7281079320cde406a24564e17cdbe5774f11fd4e",
+    "basis": "上一轮push后ls-remote与HEAD一致，本轮起始HEAD相同；不是本次待保存SHA。"
   },
   "latest_macro_review": "goals/reviews/2026-10-13-full-weil-source-review-cycle-7.md"
 }

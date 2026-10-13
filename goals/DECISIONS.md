@@ -71,3 +71,14 @@ actual2θ′与旧half scalar helper已有明确对照；原冻结核不改，
 停止该无费用桥及紧/有限矩修复；重准入须真实非紧算术来源、已付质量与低谱费用或非有限余维域。
 唯一C005先审S={∞,2}真实Sonin范数及正迹，是否支付同一冻结prime交叉；
 旧有限S同构不重算新，非正projection product不冒充positive source。
+
+## D20261013G：半局部正迹合法，但快速实位误差路线不准消费
+
+依据[531](../notes/531-semilocal-sonin-positive-trace-and-non-hilbert-schmidt-cutoff.md)。
+真实S={∞,2}投影必须带压缩Gram逆；同源正迹已付，首素数signed通量仍未付。
+从原θ/η的实际作用得所有p/L cutoff Fourier compact、norm<1但非HS，
+绝对prolate系数发散；严禁由同构或compact性继承实位快速/绝对误差证明。
+逐ambient L的gap随L增大消失，不冒充统一成长费用或source λ预算。
+这一箭头已有真实positive trace接口，但完整正性/最低态宏观瓶颈未消除。
+C005仅余最后一轮：从真实kernel/G逆直接评估冻结弱零两patch通量的∓2w2主项及源L²剩余；
+若无独立signed输入，停止未知comparison改名。既有暂停/降级路线保持。
