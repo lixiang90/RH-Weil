@@ -1,0 +1,331 @@
+{
+  "schema": "rh-weil-macro-checkpoint-v1",
+  "created_for_client_date": "2026-10-14",
+  "git_head_at_checkpoint": "bbbd54c26e1f335c4238877a7954edd02146dab8",
+  "state": {
+    "schema": "rh-weil-macro-state-v1",
+    "updated_for_client_date": "2026-10-14",
+    "baseline_commit": "3a72930e9f9f554b03b41d17d8c8002f1813ca82",
+    "goal": "goals/GOAL.20261013.md",
+    "workflow": "goals/RESEARCH_WORKFLOW.md",
+    "cadence": "goals/review-cadence.json",
+    "decisions": "goals/DECISIONS.md",
+    "latest_strategy": "goals/reviews/2026-10-12-connes-frontier-and-equivalence-strategy.md",
+    "latest_decision": "D20261014D",
+    "macro": {
+      "long_objective": "独立实际算术来源约束同一完整Weil型／ζ谱，并取得非重复强制后果；不把新等价、有限实验或组织工作当完成。",
+      "unpaid_bottleneck": "535已证明actual single-prime无费桥及所有finiteconstraints/rankrepair失败，达到原方法类边界分支。RH/完整Weil正性、多prime机制、无限秩费用及lowest仍开放，是明示逃逸而非该分支未付前件；仅待最终版本核验及runtime终态操作。",
+      "why_this_contract": "C007新source S1域支付实际迹消费，logp共振给全fixedsingleprime/λ>√p无限±指数。独立宏观审计验收这个单个定理达到旧§10B/C强度；不累计旧小障碍，不人为追加C008或RH门槛。",
+      "paused_routes": [
+        "零点比例优化",
+        "无零区域优化"
+      ],
+      "stopped_or_downgraded": [
+        "新增谱／增长等价主攻停止",
+        "cutoff＋Taylor只作准入／费用诊断",
+        "固定多正实权等价酉化停止",
+        "RR字段扩张后置",
+        "C001有限敏感性数值扩展冻结",
+        "辅助反向核H_R对H_BG的固定全域相对下界停止",
+        "原生标准锥保正半群、bounded局部势及正权相似修复停止",
+        "固定实位Sonin无费用全源桥及诱导紧二次型/有限矩修复停止",
+        "真实半局部cutoff原样继承实位快速谱/绝对epsilon系数证明停止",
+        "冻结全源L²的uniform o(p^-2)首项算子渐近/统一首项正下界停止",
+        "C006晚prime完整统一返回预算主攻止损；未证发散，重准入需actual共同trace域及新signed核费用",
+        "所有fixedcanonical single-prime无费用QW≥Tp桥及finitecontinuous源条件/finite-rank自伴修复停止；actual log共振强制失败"
+      ]
+    },
+    "primary_contract": {
+      "id": "C007",
+      "path": "goals/contracts/C007-first-prime-compact-overlap-sign.md",
+      "status": "completed",
+      "stage": "535及四份推导/逆审完成；原Goal方法类边界分支数学审计通过。C008仅未启动后备，不作为当前required工作。",
+      "next_action": "保存当前一致证据/完成审计/STATE并推送核远程SHA，通过D项后调用同一runtime Goal complete，保留工具终态收据。不得自动进入C008或新建替代Goal；恢复时核实际Goal工具与终态记录。",
+      "stop_rule": "本合同失败分支已证明且已宏观验收。任何未来重准入须明确无限维费用、多prime共同signed或不同正来源；有限额外矩/finite-rank修复不能复活。"
+    },
+    "support_contracts": [],
+    "must_not_forget": [
+      "旧Goal/NEXT/PROGRESS为历史；最新10月12日战略优先于旧cycle6的SC主攻。",
+      "数学轮数只在cadence；组织、创建Goal和启动烟雾样本不计轮，也不重置周期。",
+      "522/525已定位RH强度，允许自由源、单Gaussian、单P1仍不能降低核心难度。",
+      "Connes simple指最低态；N极限与增长lambda极限不同，残差小不能排除更低负谱支。",
+      "512/514/516的固定S符号、混合同调／尾及scalar/jets限制保持。",
+      "启动观测是experiment：原核底在tau=1e-10灰带，负移位排序随N改变；不能证明符号、RH、simple或新边界。",
+      "q_nm已经承载实偶原子对，移动仅p=2指数1且权重不变；CLI偶截面candidate不是007修正prolate。",
+      "整体Goal须达到独立实际输入或实质方法类边界的强度；局部合同完成不能倒填较弱成功。",
+      "527的背景H正Gram/混合费用与实际H负方向均不是完整W正性；C001数值扩展冻结。",
+      "固定v0在扰动后只是奇Rayleigh试探，N6负移位fixed D<0而moving D>0；必须重求真正底空间。",
+      "528对每个素数端点P≥3排除全正指标固定背景相对费用；H不是W/O，质量项、低域、同源耦合仍是未排除逃逸。",
+      "529关闭完整actual标准锥保正shortcut，保正不是Weil半正定；非局部signed机制和真正lowest/prolate未排除。",
+      "actual完整Γ multiplier=2θ′；原矩阵核与C001数据未改，旧half helper默认m不是actual正块来源证书。",
+      "C004已有Sonin输入不算新；两patch全η比较与单个负对照分开，源内正性不能自由极化。",
+      "530只指两patch压缩差额ess±w2，不是QW负谱或全interval差额ess；compact须诱导L²二次型紧，质量费≥w2只是必要。",
+      "531actual cutoff非HS不推出E2不连续或源差额非紧；532另付源compact bridge。ambient L与冻结source λ不同。",
+      "532完整fixed-p/fixed-source bridge已付；source紧型不预设符号、不统一于growingS/U。C005已完成，后续按当前唯一主合同恢复，历史任务句不重启。",
+      "533 fixed-g p^-2首项正且可求和，A_U=π^-2I+compact/coercive；余项有derivative费，每p D_p compact使uniform o(p^-2) norm渐近不可能，不反推绝对norm预算发散。",
+      "cycle8是历史复盘；535新宏观审计仅按原方法类边界分支验收，不证明fixed-g求和等于growingS、全Weil正性或lowest。",
+      "534当轮只付actual J/局部TC并保留角域缺口；535新fixedsmooth S1证据另付实际普通trace域，不倒改历史或自动宣称完整晚prime费用。",
+      "C006止损不等于Σ||Dp||发散；535已证明真实QW−Tp=−Ep无限±，区别530旧arch来源；不反推QW负值。",
+      "宏观完成依据535这个全fixedsingleprime实际方法类边界，不因合同/轮次/推送完成；未排无限秩紧费、多prime/几何来源，未证明RH。",
+      "新arXiv2608.24827v2仅cited/open，原证书未核；C008未启动且不是完成前件，不在本Goal结束后自动开第二Goal。"
+    ],
+    "evidence": [
+      {
+        "path": "notes/016-prime-graph-hodge-inequality.md",
+        "kind": "proved",
+        "scope": "P−V/graph恒等式与指定degree范数损失保留；actual2θ′纠错见C003 erratum，旧half默认shift的正块解释不准消费。"
+      },
+      {
+        "path": "notes/526-f1-faithful-two-weight-hilbert-quotient-and-defect.md",
+        "kind": "obstruction",
+        "scope": "固定有限正实多权自然商及等价Hilbert酉化；不排除所有Hilbert实现。"
+      },
+      {
+        "path": "literature/supplements/2026-10-12-connes-recent-paper-audit.md",
+        "kind": "cited",
+        "scope": "近期原文的限定核读和未付条件；不是全部论文完整认证。"
+      },
+      {
+        "path": "reviews/2026-10-13/goal-start-pilot/preregistration.json",
+        "kind": "experiment",
+        "scope": "执行前冻结mu=13,N4/6,dps50/70,delta0/±1/1000的原始登记。"
+      },
+      {
+        "path": "reviews/2026-10-13/goal-start-pilot/pilot-results.json",
+        "kind": "experiment",
+        "scope": "12组普通高精度有限数据及结构残差；未做directed rounding或连续升级。"
+      },
+      {
+        "path": "scripts/qw_matrix.py",
+        "kind": "experiment",
+        "scope": "本批真实数值核的共享实现；原运行LF哈希见预注册，不认证任何猜想。"
+      },
+      {
+        "path": "notes/527-weil-reflection-source-signs-and-arithmetic-sensitivity.md",
+        "kind": "proved",
+        "scope": "全有限正指标背景H Gram/混合界、指定移位导数不定及实际H有理负方向；完整Weil正性仍开放，冻结样本另为experiment。"
+      },
+      {
+        "path": "reviews/2026-10-13/c001-source/source-results.json",
+        "kind": "experiment",
+        "scope": "原冻结12组逐源矩阵、固定/重求向量及全部D交叉；普通高精度，非区间证书。"
+      },
+      {
+        "path": "reviews/2026-10-13/c001-source/rational-witness.json",
+        "kind": "obstruction",
+        "scope": "Fraction向外包围h_H(1,-1)<-0.0004227，L=log13；只否定实际辅助H的PSD，不否定W。"
+      },
+      {
+        "path": "notes/528-actual-prime-reflection-relative-bound-obstruction.md",
+        "kind": "obstruction",
+        "scope": "每个实际素数端点P≥3上辅助H_R/H_BG无下界，所有有限正指标量词；不排除完整Weil型、质量误差或限制低域。"
+      },
+      {
+        "path": "notes/529-full-weil-positive-cone-semigroup-boundary.md",
+        "kind": "obstruction",
+        "scope": "完整actual标准锥半群保正iff λ²≤α，及boundedlocalV/正序相似类；不认证Weil半正定或实际最低态。"
+      },
+      {
+        "path": "reviews/2026-10-13/c003-full-source/normalization-erratum.md",
+        "kind": "proved",
+        "scope": "actual−w_real/primary2θ′与旧scalar helper θ′的精确对象纠错；不是全下游重建。"
+      },
+      {
+        "path": "notes/530-archimedean-sonin-prime-compact-repair-boundary.md",
+        "kind": "obstruction",
+        "scope": "完整actual同源局部差额−w2Swap+compact；所有λ>√2诱导紧修复/有限矩仍无限负指数，无费用精确阈值√2；不认证QW负值或最低态。"
+      },
+      {
+        "path": "reviews/2026-10-13/c004-sonin/source-audit.md",
+        "kind": "cited",
+        "scope": "作者55页primary的trace身份、支持/消失/sign/version核读与同源交叉推导；原定理不重记新。"
+      },
+      {
+        "path": "reviews/2026-10-13/c004-sonin/source-receipt.json",
+        "kind": "cited",
+        "scope": "作者原PDF的URL/版本/哈希/局部核读范围，原字节本地保留；非数学证书。"
+      },
+      {
+        "path": "notes/531-semilocal-sonin-positive-trace-and-non-hilbert-schmidt-cutoff.md",
+        "kind": "proved",
+        "scope": "真实Pp与同源finite positive trace/flux；每p每L cutoff compact norm<1非HS，norm随L趋1，不能继承实位绝对系数证明；QW符号/prime通量仍open。"
+      },
+      {
+        "path": "reviews/2026-10-13/c005-semilocal/source-receipt.json",
+        "kind": "cited",
+        "scope": "原v2 PDF本地字节/URL/哈希/限定核读范围；原件本地忽略保留。"
+      },
+      {
+        "path": "notes/532-actual-sonin-prime-symbol-and-compact-weil-bridge.md",
+        "kind": "proved",
+        "scope": "实际Mellin密度完整p幂signed主项，fixed finite source余项紧，冻结QW−T2 compact/d_R±∓2w2；low符号/growingS未付。"
+      },
+      {
+        "path": "reviews/2026-10-13/c005-flux/source-receipt.json",
+        "kind": "cited",
+        "scope": "Burnol v1字节/版本/核读及其他primary receipts引用；非semilocal比较定理引证。"
+      },
+      {
+        "path": "notes/533-actual-late-prime-sonin-boundary-square.md",
+        "kind": "proved",
+        "scope": "actual fixed smooth晚prime p^-2正endpoint平方、leading source coercivity/single-p求和；冻结每p差额compact严格阻止uniform o(p^-2) norm渐近。wholeL²绝对费用/baseS仍open。"
+      },
+      {
+        "path": "goals/reviews/2026-10-14-sonin-arithmetic-budget-review-cycle-8.md",
+        "kind": "open",
+        "scope": "四完整迭代周期复盘，无额外数学计轮；actual桥改善而低域/全源绝对预算/baseS仍未付，Goal继续active。"
+      },
+      {
+        "path": "notes/534-actual-uniform-sonin-subterms-and-trace-consumption-gap.md",
+        "kind": "proved",
+        "scope": "actual J whole源p^-2子项、cutoff Schatten/高scale砖块及localized TC费用；完整角trace分离和返回预算open，C006止损，不认证发散。"
+      },
+      {
+        "path": "reviews/2026-10-14/c006-uniform/kernel-subterm.md",
+        "kind": "proved",
+        "scope": "主独立actual外部核、Γ/δ取消和无source derivative大移位Schur费用；只属完整密度第一子项。"
+      },
+      {
+        "path": "reviews/2026-10-14/c006-uniform/reverse-budget-audit.md",
+        "kind": "proved",
+        "scope": "不同组织复核actual J全源子项及localized TC费用；揭示anglecutoff消费缺口，完整预算/发散均未证，建议两轮止损。"
+      },
+      {
+        "path": "notes/535-actual-first-prime-sonin-log-resonance-and-indefinite-error.md",
+        "kind": "obstruction",
+        "scope": "actual全fixedsingleprime/λ>√p无费Weil正trace桥失败；smooth源S1/ordinarytrace/logp共振、合法窄源无限±及有限条件/有限秩修复边界。原Goal第三分支已独立审计。"
+      },
+      {
+        "path": "reviews/2026-10-14/c007-sign/direct-sign-audit.md",
+        "kind": "proved",
+        "scope": "独立裸log系数/严格矩零源及新S1普通迹域；最终升级actual正负反例，因子2核准，无数值实验。"
+      },
+      {
+        "path": "reviews/2026-10-14/c007-sign/source-sign-audit.md",
+        "kind": "proved",
+        "scope": "primary支持/范数限定、ambient/sourceTC与kernel共振；源S1共同cutoff证明。额外H1/Fejer谱证明不作主证明必需前件。"
+      },
+      {
+        "path": "reviews/2026-10-14/c007-sign/trace-domain-proof.md",
+        "kind": "proved",
+        "scope": "主独立光滑源S1核平滑、physical0/截断边界、Φ域/ordinary循环迹和bare/完整return分离；fixedsmooth前件。"
+      },
+      {
+        "path": "reviews/2026-10-14/c007-sign/reverse-sign-audit.md",
+        "kind": "proved",
+        "scope": "不同Plancherel/Sobolev组织复核actual域、cutoff顺序、全p系数、N窄源/finiteconstraints；§8独立验收原宏观方法类边界门槛。"
+      },
+      {
+        "path": "goals/reviews/2026-10-14-goal-method-boundary-completion-audit.md",
+        "kind": "proved",
+        "scope": "原Goal/旧§10逐项数学完成审计；仅以535验收方法类边界，不累计旧障碍或添加RH前件；最终版本门按工具核验。"
+      },
+      {
+        "path": "literature/supplements/2026-10-14-zhu-compact-window-entry.md",
+        "kind": "cited",
+        "scope": "新primary固定v2/日期和局部HTML定位，原附属证书未取得核验；未启动后备，不消费为正性或完成依据。"
+      }
+    ],
+    "pending_processes": [],
+    "runtime_goal_observation": {
+      "status": "active",
+      "observed_on": "2026-10-14",
+      "created_at_epoch": 1791901071,
+      "basis": "本轮get_goal观测同一Goal active；数学边界分支和独立完成审计现通过，三审及宏观补审已结束，无pending process。仍须先保存/远程核验，再调用complete；此字段是操作前观测，不虚报工具终态。"
+    },
+    "goal_completion_requested": false,
+    "checkpoint": "goals/checkpoints/2026-10-14-c007-method-boundary-audited.json",
+    "last_verified_remote": {
+      "repository": "https://github.com/lixiang90/RH-Weil",
+      "commit": "bbbd54c26e1f335c4238877a7954edd02146dab8",
+      "basis": "上轮push/ls-remote/HEADbbbd54c一致，本轮起始HEAD相同且clean；只记录已核基线，不预写本轮SHA。"
+    },
+    "latest_macro_review": "goals/reviews/2026-10-14-sonin-arithmetic-budget-review-cycle-8.md",
+    "completion_audit": {
+      "path": "goals/reviews/2026-10-14-goal-method-boundary-completion-audit.md",
+      "branch": "effective-method-class-boundary",
+      "mathematical_gate": "passed",
+      "basis": "535单一actual canonical single-prime族，无conditional、全λ>√p及无限±有限修复边界，经独立§10强度审计。",
+      "final_execution_gate": "awaiting final save, remote SHA verification and runtime Goal completion",
+      "post_completion_research": "none required; C008 is an unstarted optional candidate"
+    }
+  },
+  "cadence_snapshot": {
+    "schema": "rh-weil-research-review-cadence-v1",
+    "user_instruction_date": "2026-10-08",
+    "minimum_rounds": 4,
+    "target_rounds": 6,
+    "maximum_rounds": 8,
+    "counting_unit": "completed research continuation iteration, not tool calls or files",
+    "rounds_since_review": 2,
+    "last_review": "goals/reviews/2026-10-14-sonin-arithmetic-budget-review-cycle-8.md",
+    "last_review_baseline_commit": "7b6652d2eb657f10b7d771254f0f35dcb233f9e4",
+    "last_review_completed_round_count": 4,
+    "last_review_trigger": "Fourth completed iteration: actual prime comparison and fixed-smooth late-prime costs became consumable, while compactness strictly forbids uniform norm leading asymptotics; audit complete Goal and target genuine summable absolute source costs.",
+    "last_completed_round": "notes/535-actual-first-prime-sonin-log-resonance-and-indefinite-error.md",
+    "last_completed_round_date": "2026-10-14",
+    "last_completed_round_baseline_commit": "bbbd54c26e1f335c4238877a7954edd02146dab8",
+    "latest_user_directed_review": "goals/reviews/2026-10-12-connes-frontier-and-equivalence-strategy.md",
+    "latest_user_directed_review_baseline_commit": "851a70bef3de8985120dc252284bb8bc28ec9d34",
+    "latest_user_directed_review_scope": "strategic reflection using selected prior notes, previous retrospectives and primary Connes papers through 2026-08-31; not a fresh full audit of all 526 notes; no new completed mathematical round or cadence reset",
+    "current_research_focus": "C007 settled once: actual smooth-source TC domain and canonical single-prime log resonance prove infinite positive/negative error index, preserved under finite source constraints/rank repairs, for all fixed primes and lambda>sqrt(p). Independent macro audit passes the original effective-method-boundary branch; only final version/Goal execution gates remain. C008 unstarted optional, no cycle reset or extra count.",
+    "weil_f1_rounds_since_historical_review": 17,
+    "last_completed_round_note_paths": [
+      "notes/524-f1-mobius-cutoff-taylor-obstruction-and-repair.md",
+      "notes/525-f1-smoothed-mobius-probes-and-arithmetic-strength.md",
+      "notes/526-f1-faithful-two-weight-hilbert-quotient-and-defect.md",
+      "notes/527-weil-reflection-source-signs-and-arithmetic-sensitivity.md",
+      "notes/528-actual-prime-reflection-relative-bound-obstruction.md",
+      "notes/529-full-weil-positive-cone-semigroup-boundary.md",
+      "notes/530-archimedean-sonin-prime-compact-repair-boundary.md",
+      "notes/531-semilocal-sonin-positive-trace-and-non-hilbert-schmidt-cutoff.md",
+      "notes/532-actual-sonin-prime-symbol-and-compact-weil-bridge.md",
+      "notes/533-actual-late-prime-sonin-boundary-square.md",
+      "notes/534-actual-uniform-sonin-subterms-and-trace-consumption-gap.md",
+      "notes/535-actual-first-prime-sonin-log-resonance-and-indefinite-error.md"
+    ]
+  },
+  "normalized_lf_sha256": {
+    "AGENTS.md": "89adc49308c909ff262aa382252b8e05940a498e40d2c6502e9ea743d75ae66a",
+    "goals/DECISIONS.md": "45f7e883a363c2583a1d7bcebef731b3c9417cf0827ed209f689eb42decbbdce",
+    "goals/GOAL.20261013.md": "fabda442db69804b72d05f9e4bdbdd6160eba8922c2a0a60810124b2fa4adda1",
+    "goals/RESEARCH_WORKFLOW.md": "406136a2d7399e08099deeab71660884fd28a968ad9d3dda15d37f125a2553fa",
+    "goals/STATE.json": "7040d569a81ec3551085b84d3b5502b30cd76352bf6d239bb0d147b6d4ca476f",
+    "goals/contracts/C007-first-prime-compact-overlap-sign.md": "48c05ccddab7f8c4b2fa601685e6c2c2803c18b7a8d26cb4797f017f8d46e1c1",
+    "goals/review-cadence.json": "b17f55feab22ba547f1acc7645e9d57d80da2bff2180b33cf897678f06fd5004",
+    "goals/reviews/2026-10-12-connes-frontier-and-equivalence-strategy.md": "42428f85cd0eae7d1636e7b06c1973b505e56e2750d32f487d600ee3932413a0",
+    "goals/reviews/2026-10-14-goal-method-boundary-completion-audit.md": "3417da727707c0689193bb9acf29857178fc37018171ef640b8a2e82098cfce2",
+    "goals/reviews/2026-10-14-sonin-arithmetic-budget-review-cycle-8.md": "cb8b73c591b700e5d528d613f8f01bb9de3b19097c5dbb1fb3cad1d28a7de418",
+    "literature/supplements/2026-10-12-connes-recent-paper-audit.md": "c8c12028ab393bd5ece186644417c506ab9ac3aa8146c131c22abbd0a439a92a",
+    "literature/supplements/2026-10-14-zhu-compact-window-entry.md": "c20adf6d26b9d9ad1387b1514c9e12f75ee1bb37fa2a9869e3206c3c2c4b016a",
+    "notes/016-prime-graph-hodge-inequality.md": "5a321b362c317b1d7364118f4a2f1f06333ffc783ecc84fccab56d38400c457a",
+    "notes/526-f1-faithful-two-weight-hilbert-quotient-and-defect.md": "807e496d9bdbc0139d80736a9f34c4017ea759a80a640122d970fbf35d6c7e5c",
+    "notes/527-weil-reflection-source-signs-and-arithmetic-sensitivity.md": "3fb38f7dd6292fa9d466249ff1d7bb8731d3351b140fb54913e556cd4f309bef",
+    "notes/528-actual-prime-reflection-relative-bound-obstruction.md": "12d122d36285581da351b71b5166cc1601f1d8ba560f8859732d7f24a9769b3e",
+    "notes/529-full-weil-positive-cone-semigroup-boundary.md": "ad04fd0b916cb72ccc8b02a0532180ec63cfcb0936fda7fe503d552d19bdca79",
+    "notes/530-archimedean-sonin-prime-compact-repair-boundary.md": "7aba1a289da2f40edbc4ba776b687aa9f80fb5bad39a0374e1bcbf99785d3bbd",
+    "notes/531-semilocal-sonin-positive-trace-and-non-hilbert-schmidt-cutoff.md": "11989cb45e7d72b6b5f9c166ac5d202975bf9127db3d07a6c496e16d8aabba51",
+    "notes/532-actual-sonin-prime-symbol-and-compact-weil-bridge.md": "dc9ff79c622ed692edfd393c2851e5cc7fcab0a7f5fe41cce82ba69b45a82f09",
+    "notes/533-actual-late-prime-sonin-boundary-square.md": "3b15593b57a0b5dab22409df4baac440fc04491fcff1b2f10b6451404b7ca478",
+    "notes/534-actual-uniform-sonin-subterms-and-trace-consumption-gap.md": "19fa13a6fda7d3deaf84c78a2794d759ca784c3e0248fa7f904adca60d554c28",
+    "notes/535-actual-first-prime-sonin-log-resonance-and-indefinite-error.md": "e83c3e080d19c2534425fb3c0e469367012f6c566a470b3baba703fb6def146f",
+    "reviews/2026-10-13/c001-source/rational-witness.json": "f773a578ceb0ce9e6016088b50fea6ef147c8e9b2b48b1f89881960837cf9717",
+    "reviews/2026-10-13/c001-source/source-results.json": "27a2712cd923600348ed721d763ff8e84232fba8f80efc15cb6c49a24013ca08",
+    "reviews/2026-10-13/c003-full-source/normalization-erratum.md": "94075838592a14e374e0eb5d477cb54628d6b1be194d77ba911942215f71413a",
+    "reviews/2026-10-13/c004-sonin/source-audit.md": "cfff4780eb207b006ddddff02c5e79ca658a7e1024d58509937e18cdb8c3ecb5",
+    "reviews/2026-10-13/c004-sonin/source-receipt.json": "37da91b37cba280dd6b93a9ab91aed44610ef0394d2e30f3f7ae9c74e7e0fcb8",
+    "reviews/2026-10-13/c005-flux/source-receipt.json": "cb6f5298fa1cdef6f05a106bddcaba56f9a4412565e7efaf7a2089ef6338d98e",
+    "reviews/2026-10-13/c005-semilocal/source-receipt.json": "bdfb033c7eae437d6954889f9ea477d3b6edcb862647aab5c0473b7da52d1a77",
+    "reviews/2026-10-13/goal-start-pilot/pilot-results.json": "b84b43de882b6e6cefe781f20123014961f4ce0cfbbe01a65cf83690cc1242e1",
+    "reviews/2026-10-13/goal-start-pilot/preregistration.json": "b796b33c8e8c0612604d91da8f53a127a38a9789eaebf6e1dea676176152d774",
+    "reviews/2026-10-14/c006-uniform/kernel-subterm.md": "430c2363faeb6781f61f1d2c98532557f2bb39dc57fc4b13b3db2a38cd4cf539",
+    "reviews/2026-10-14/c006-uniform/reverse-budget-audit.md": "262d5fd66bb67a888673d09328762a44d42801db2dc6a8ab49070ac31e4de881",
+    "reviews/2026-10-14/c007-sign/direct-sign-audit.md": "6e665205830a73f8392b29ee529a7c7b21e8d61f914ba994ec8aa028c5f88c9b",
+    "reviews/2026-10-14/c007-sign/reverse-sign-audit.md": "c4beb48bb3e54d8fb47bd85d72b1ecae658f39d39423cdb2d09a624f04372d91",
+    "reviews/2026-10-14/c007-sign/source-sign-audit.md": "ad32d0af41695814868b1fb9d1eae5956a5cc22bb75296bf0dd1b3b56738e6d0",
+    "reviews/2026-10-14/c007-sign/trace-domain-proof.md": "bae082f91a0f01a44fa3e3d1e9e0685bfa28e63a8dca32b822f395ad7b306094",
+    "scripts/qw_matrix.py": "f5418b1a6aced2063a48db15d796af34b4c5751e69b5063120a8902281ec44e7",
+    "scripts/research_state.py": "3a0ca37824f81bed0926e7f1aa88494bb19b99b97950284a94d1cf3d1fbd4ec0"
+  },
+  "scope": "Structural recovery snapshot; not proof or live runtime verification"
+}

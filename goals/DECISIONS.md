@@ -122,3 +122,19 @@ C006两轮止损，不继续泛norm改名或在未付前先运输base S。
 QW−T₂=−E₂紧型符号：证明E₂≤0或给合法源的严格正E₂反例。
 对象仍是完整actualΓ/prime/pole账本，不恢复530旧arch紧修复或C001扩N。
 宏观核心正性/lowest/成长S尚未解决；Goal保持active，本轮只消费同一cadence一次。
+
+## D20261014D：真实单prime无费比较失败，按原方法边界分支验收宏观Goal
+
+依据[535](../notes/535-actual-first-prime-sonin-log-resonance-and-indefinite-error.md)
+及不同组织逆审。新增smooth-source S1引理真正支付actual双cutoff半迹域，
+不再以角强收敛消费；完整inverse的TC返回核不能去掉log2正共振。
+冻结E₂有无限正负指数，所有有限额外源条件/有限秩修复仍留两种符号；
+每个fixed single-prime来源在隔离其真实相关的域上同样失败。
+这改变剩余符号前件，不表示完整Weil负值或全finiteS失败。
+C007一轮完成失败分支；C006完整预算仍未付，不自动因新域证明复活。
+独立逆审§8及总体完成审计认为535单独达到原Goal第三分支/旧§10B末行规模，
+不是累计旧障碍、合同验收或要求RH证明。当前下一动作是保存/推送核SHA，
+通过全部D项后完成同一runtime Goal，不人为追加新数学门槛。
+付费紧修正、多primesigned和几何来源是必须声明的未排除逃逸，非边界分支缺项。
+新定位arXiv2608.24827v2及C008保留cited/open后备、未启动，不凭摘要导入或另开Goal。
+暂停比例/无零区域和等价酉化保持，轮数只消费原cadence一次，不提前重置周期。

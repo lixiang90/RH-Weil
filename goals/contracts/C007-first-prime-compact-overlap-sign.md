@@ -3,6 +3,19 @@
 2026-10-14；C006两轮止损后准入，先一个完整研究轮，至多两个。
 唯一主合同由STATE指定；成长费用与一般base-S运输在actual共同预算未付前后置。
 
+## 第一轮结算：actual剩余型不定，合同完成而Goal未完成
+
+[535](../../notes/535-actual-first-prime-sonin-log-resonance-and-indefinite-error.md)
+新增smooth-source S1核平滑引理，支付实际ordinary trace域及裸/完整返回分离。
+真实log2共振给合法矩零窄源E₂=±√2/(2log2)log(1/η)+O1；
+N个不同中心给原V无限正负指数，有限额外矩及有限秩修复仍失败。
+独立逆审支付对象、因子2、迹域与量词；不是裸功能条件反例。
+本合同已完成其失败分支，后续不再追E₂≤0无费桥。
+允许非有限秩紧费用/不同或多prime来源，不能反推QW负值或宏观完成。
+宏观独立完成审计验收535这一个定理达到原方法类边界分支，
+当前下一动作仅为最终保存/远程核验并完成runtime Goal；
+C008只保留未启动候选，不再是当前必做工作。以下为本合同执行历史。
+
 ## 宏观贡献与新增准入证据
 
 [532](../../notes/532-actual-sonin-prime-symbol-and-compact-weil-bridge.md)
