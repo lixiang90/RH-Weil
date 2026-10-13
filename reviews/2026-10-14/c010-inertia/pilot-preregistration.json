@@ -1,0 +1,16 @@
+{
+  "sizes_per_parity": [
+    16,
+    32,
+    64
+  ],
+  "dps": 80,
+  "L": "17/16",
+  "source_sha256": [
+    "4bce98228442805bc5ae16e9c26c8df88e85c35ab7ec8deffdd808adbf1217ac",
+    "2a88894c7405e01a37cbdef8671e9d628ddc60ae9cdb335fa2636fe49b6666a2"
+  ],
+  "source_norm": "Lebesgue L2; raw Gamma=17/(8(2n+1))",
+  "formula": "Rraw=Araw+J0raw+(648/17)(r0r0^T+r1r1^T); R=Gamma^-1/2 Rraw Gamma^-1/2",
+  "scope": "Ordinary high precision exploration only; no zeros/data fitting or true Q spectrum claim."
+}

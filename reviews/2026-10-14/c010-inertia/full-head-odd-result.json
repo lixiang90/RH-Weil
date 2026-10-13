@@ -1,0 +1,27 @@
+{
+  "kind": "paid-exact-rational-original-R-odd-ceiling",
+  "head_dimension": 224,
+  "source": "full-head-odd-source.json",
+  "norm_decimal": "0.99999999999999999999999999999999999999999999999996739934697171981",
+  "midpoint_rayleigh_decimal": "1.6836789969003471843628313712702533932880588728751905356309178447e-31",
+  "epsilonR_decimal": "3.8895032432600355644493834491409471748333353675236497075002763815e-62",
+  "ceiling_decimal": "1.6836789969003471843628313712706423436123848764620105023906170418e-31",
+  "ceiling_dyadic": {
+    "numerator": "9747835432804000958080256878081627674870617255",
+    "denominator": "57896044618658097711785492504343953926634992332820282019728792003956564819968"
+  },
+  "ceiling_below_even_upper": false,
+  "ceiling_plus_tau_below_even_upper": false,
+  "ceiling_below_shift_1e_minus34": false,
+  "exact_margin_to_even_upper": {
+    "numerator": "-19487716706058712130788849037548086435067319361",
+    "denominator": "115792089237316195423570985008687907853269984665640564039457584007913129639936"
+  },
+  "scope": "Only fixedR supplier ceiling; not an actual Q upper or negative Q test",
+  "input_hashes": {
+    "source-matrices.json": "4bce98228442805bc5ae16e9c26c8df88e85c35ab7ec8deffdd808adbf1217ac",
+    "tail-columns.json": "2a88894c7405e01a37cbdef8671e9d628ddc60ae9cdb335fa2636fe49b6666a2"
+  },
+  "proposal_precision_digits": 80,
+  "wall_seconds": 4.797000000020489
+}

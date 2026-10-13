@@ -7,11 +7,11 @@
   "cadence": "goals/review-cadence.json",
   "decisions": "goals/DECISIONS.md",
   "latest_strategy": "goals/reviews/2026-10-12-connes-frontier-and-equivalence-strategy.md",
-  "latest_decision": "D20261014H",
+  "latest_decision": "D20261014J",
   "macro": {
     "long_objective": "独立实际算术来源约束同一完整Weil型／ζ谱，并取得非重复强制后果；不把新等价、有限实验或组织工作当完成。",
-    "unpaid_bottleneck": "537新actual全complex固定窗正性来源已可消费，独立输入到实际有限窗桥改善；成长域/RH及真正simple-even排序仍open。C00113不覆盖，C008止损不等待。",
-    "why_this_contract": "C009一轮通过不同source-exact/正tail/BlockSchur全源链与全部新证书；下一动作按cycle9审同norm真实minmax/inertia，不以coercivity改名或finite排序。",
+    "unpaid_bottleneck": "538已付同L=17/16完整复源true simple-even及gap>3e−35；局部ground排序瓶颈消除。成长窗统一费用/ζ识别/RH及C00113仍未付，C008继续止损。",
+    "why_this_contract": "C010一次完整轮支付actual上界和whole shifted惯性，完整source/误差/补空间/独立全Gram/逆审闭合；当前原Goal第三分支另经fresh全scope审计，不以合同/有限门完成。",
     "paused_routes": [
       "零点比例优化",
       "无零区域优化"
@@ -33,12 +33,12 @@
     ]
   },
   "primary_contract": {
-    "id": "C009",
-    "path": "goals/contracts/C009-source-exact-block-schur-tail-compensation.md",
+    "id": "C010",
+    "path": "goals/contracts/C010-source-exact-full-inertia-and-ground-order.md",
     "status": "completed",
-    "stage": "537 fixedB完整解析/primitive/全源误差与新source/整数证书已验收；证明版5b8949f本地/远程一致，工作树检查清，当前检查点有效，无待进程。A未消费。",
-    "next_action": "按cycle9先审已付M,V与原norm的Q−sI全源inertia/minmax是否能独立隔离真正odd底及第二even底，再配合法even试探上界；仅coercivity改名则停止，不扩C001N/拟合ζ点。",
-    "stop_rule": "C009一轮完成B准入；A/更大窗未自动消费。后续排序须新全源gap及frame/norm/上界链；成长须共同signed费用。C008保持止损、不等待。"
+    "stage": "同窗真正simple-even及严格谱隙经独立source和whole-inertia逆审验收；所有进程exit0。",
+    "next_action": "保存本轮全部证据并核remote SHA，完成原Goal fresh全scope最终执行门；以后仅在继续研究授权下核growing窗的新actual正尾/统一费用，再设唯一合同。",
+    "stop_rule": "固定窗已完成，不重复s/N/dps门；C008止损/暂停和C001冻结保持。成长窗重新准入须新实际来源及完整费用。"
   },
   "support_contracts": [],
   "must_not_forget": [
@@ -64,9 +64,9 @@
     "534当轮只付actual J/局部TC并保留角域缺口；535新fixedsmooth S1证据另付实际普通trace域，不倒改历史或自动宣称完整晚prime费用。",
     "C006止损不等于Σ||Dp||发散；535已证明真实QW−Tp=−Ep无限±，区别530旧arch来源；不反推QW负值。",
     "宏观完成依据535这个全fixedsingleprime实际方法类边界，不因合同/轮次/推送完成；未排无限秩紧费、多prime/几何来源，未证明RH。",
-    "用户继续宏观研究；C008保持止损、不等待附件。旧Goal完成收据保留，新runtime Goal未请求。新C009外部声明/整数PASS未核前不消费。",
     "536只核高频逐点tail及完整对象/域；constantcomb最优不推出所有pointwise最优。C001半窗log13/2>.8不覆盖；小V正性不推QW≥T2；原数字未核不消费。",
-    "537 fixedB来源Q≥2^-49162全complex闭型域可消费；只半窗≤17/16及其平移，A未replay，C00113/simple/成长/RH不涵盖，535无费桥不复活。"
+    "537 fixedB来源Q≥2^-49162全complex闭型域可消费；只半窗≤17/16及其平移，A未replay，C00113/simple/成长/RH不涵盖，535无费桥不复活。",
+    "538实际same-L simple-even/gap已核whole source+新全部Gram；不是finite排序。fixedL结论不推growing/Ξ/RH或C00113。当前Goal完成只依fresh原全scope审计，旧tool收据仅历史。"
   ],
   "evidence": [
     {
@@ -80,49 +80,9 @@
       "scope": "本批真实数值核的共享实现；原运行LF哈希见预注册，不认证任何猜想。"
     },
     {
-      "path": "notes/527-weil-reflection-source-signs-and-arithmetic-sensitivity.md",
-      "kind": "proved",
-      "scope": "全有限正指标背景H Gram/混合界、指定移位导数不定及实际H有理负方向；完整Weil正性仍开放，冻结样本另为experiment。"
-    },
-    {
-      "path": "notes/528-actual-prime-reflection-relative-bound-obstruction.md",
-      "kind": "obstruction",
-      "scope": "每个实际素数端点P≥3上辅助H_R/H_BG无下界，所有有限正指标量词；不排除完整Weil型、质量误差或限制低域。"
-    },
-    {
-      "path": "notes/529-full-weil-positive-cone-semigroup-boundary.md",
-      "kind": "obstruction",
-      "scope": "完整actual标准锥半群保正iff λ²≤α，及boundedlocalV/正序相似类；不认证Weil半正定或实际最低态。"
-    },
-    {
-      "path": "notes/530-archimedean-sonin-prime-compact-repair-boundary.md",
-      "kind": "obstruction",
-      "scope": "完整actual同源局部差额−w2Swap+compact；所有λ>√2诱导紧修复/有限矩仍无限负指数，无费用精确阈值√2；不认证QW负值或最低态。"
-    },
-    {
-      "path": "notes/531-semilocal-sonin-positive-trace-and-non-hilbert-schmidt-cutoff.md",
-      "kind": "proved",
-      "scope": "真实Pp与同源finite positive trace/flux；每p每L cutoff compact norm<1非HS，norm随L趋1，不能继承实位绝对系数证明；QW符号/prime通量仍open。"
-    },
-    {
-      "path": "notes/532-actual-sonin-prime-symbol-and-compact-weil-bridge.md",
-      "kind": "proved",
-      "scope": "实际Mellin密度完整p幂signed主项，fixed finite source余项紧，冻结QW−T2 compact/d_R±∓2w2；low符号/growingS未付。"
-    },
-    {
-      "path": "notes/533-actual-late-prime-sonin-boundary-square.md",
-      "kind": "proved",
-      "scope": "actual fixed smooth晚prime p^-2正endpoint平方、leading source coercivity/single-p求和；冻结每p差额compact严格阻止uniform o(p^-2) norm渐近。wholeL²绝对费用/baseS仍open。"
-    },
-    {
       "path": "goals/reviews/2026-10-14-sonin-arithmetic-budget-review-cycle-8.md",
       "kind": "open",
       "scope": "四完整迭代周期复盘，无额外数学计轮；actual桥改善而低域/全源绝对预算/baseS仍未付，Goal继续active。"
-    },
-    {
-      "path": "notes/534-actual-uniform-sonin-subterms-and-trace-consumption-gap.md",
-      "kind": "proved",
-      "scope": "actual J whole源p^-2子项、cutoff Schatten/高scale砖块及localized TC费用；完整角trace分离和返回预算open，C006止损，不认证发散。"
     },
     {
       "path": "notes/535-actual-first-prime-sonin-log-resonance-and-indefinite-error.md",
@@ -148,26 +108,6 @@
       "path": "notes/536-compact-window-certificate-admission-and-pointwise-scope.md",
       "kind": "proved",
       "scope": "精确actual pole/parity/norm/closedform接口及Fraction高频尾反例；原fullwindow正性/simple数字仍cited/open，C008一轮止损。"
-    },
-    {
-      "path": "reviews/2026-10-14/c008-certificate/source-receipt.json",
-      "kind": "cited",
-      "scope": "固定v2原bytes/六文件inventory/作者入口与未定位证书范围；不证明全世界附件不存在或数学成立。"
-    },
-    {
-      "path": "reviews/2026-10-14/c008-certificate/object-parity-audit.md",
-      "kind": "proved",
-      "scope": "独立同normbasis、complex/oddpole、闭form/compactresolvent/minmax；数字证书不消费，不覆盖C001μ13。"
-    },
-    {
-      "path": "reviews/2026-10-14/c008-certificate/pointwise-envelope-rational.json",
-      "kind": "proved",
-      "scope": "Fraction向外重放actualL=.8∀|t|≥118符号≥1/200且118<T1；只高频尾，不是全Q正性。"
-    },
-    {
-      "path": "reviews/2026-10-14/c008-certificate/reduction-reverse-audit.md",
-      "kind": "proved",
-      "scope": "独立全补空间/tail修复/quad舍入/constant方法类审查及Fraction反例重核；原PD/simple数字未消费。"
     },
     {
       "path": "scripts/c008_pointwise_envelope.py",
@@ -208,16 +148,97 @@
       "path": "reviews/2026-10-14/c009-tail/independent-gram-result.json",
       "kind": "proved",
       "scope": "两个224完整rows严格<2^2848，paid2^2873，绑定新target/factorSHA；不是单独wholeQ定理。"
+    },
+    {
+      "path": "notes/538-actual-weil-geometric-upper-and-full-inertia-gates.md",
+      "kind": "proved",
+      "scope": "actual L17/16全复源simple-even、λ2≥1e−34及gap>3e−35；完整Gamma尾/source/全惯性均付。"
+    },
+    {
+      "path": "goals/reviews/2026-10-14-active-goal-fresh-completion-audit.md",
+      "kind": "proved",
+      "scope": "原Goal三择一fresh全scope/535方法边界审计；末补当前C010已结算，最终执行门另核。"
+    },
+    {
+      "path": "reviews/2026-10-14/c010-inertia/full-inertia-audit.md",
+      "kind": "proved",
+      "scope": "fullform惯性运输及actual even有理上界的不同组织精确逆审。"
+    },
+    {
+      "path": "reviews/2026-10-14/c010-inertia/shifted-congruence-audit.md",
+      "kind": "proved",
+      "scope": "§6–8原全source到trueQ惯性/正rankone/λ2及simple-even闭合。"
+    },
+    {
+      "path": "reviews/2026-10-14/c010-inertia/shifted-source-mapping-audit.md",
+      "kind": "proved",
+      "scope": "实际5input/全非交换编译/LCM/下向224I norm预算。"
+    },
+    {
+      "path": "reviews/2026-10-14/c010-inertia/shifted-inertia-source-audit.md",
+      "kind": "proved",
+      "scope": "source exact sign预算与whole连续消费终审。"
+    },
+    {
+      "path": "scripts/c010_shifted_inertia_certificate.py",
+      "kind": "proved",
+      "scope": "自主exact shifted producer，ordinary80仅提案；数学source桥另核。"
+    },
+    {
+      "path": "scripts/c010_verify_inertia_gram.py",
+      "kind": "proved",
+      "scope": "独立完整448row/50400cell整数门与wrong-sign控制。"
+    },
+    {
+      "path": "reviews/2026-10-14/c010-inertia/independent-shifted-gram-result.json",
+      "kind": "proved",
+      "scope": "两sector全rows/guards/input及target/factor SHA绑定通过；有限门合完整桥消费。"
+    },
+    {
+      "path": "reviews/2026-10-14/c010-inertia/sonin-even64-rational-source.json",
+      "kind": "proved",
+      "scope": "固定非零actualeven原L² source；完整Gamma尾及误差另付。"
+    },
+    {
+      "path": "reviews/2026-10-14/c010-inertia/sonin-even64-geometric-upper.json",
+      "kind": "proved",
+      "scope": "exact向上dyadic u<7e−35；不同组织Fraction审查。"
+    },
+    {
+      "path": "reviews/2026-10-14/c010-inertia/shifted-scale-interpretation-receipt.json",
+      "kind": "cited",
+      "scope": "保留旧runtime文字，明示正确D/2^B正因子；原矩阵计算未改。"
+    },
+    {
+      "path": "reviews/2026-10-14/c010-inertia/shifted-sector-0-target.json",
+      "kind": "proved",
+      "scope": "完整新有限整数证书原bytes；不能单独代替whole桥。"
+    },
+    {
+      "path": "reviews/2026-10-14/c010-inertia/shifted-sector-0-gram.json",
+      "kind": "proved",
+      "scope": "完整新有限整数证书原bytes；不能单独代替whole桥。"
+    },
+    {
+      "path": "reviews/2026-10-14/c010-inertia/shifted-sector-1-target.json",
+      "kind": "proved",
+      "scope": "完整新有限整数证书原bytes；不能单独代替whole桥。"
+    },
+    {
+      "path": "reviews/2026-10-14/c010-inertia/shifted-sector-1-gram.json",
+      "kind": "proved",
+      "scope": "完整新有限整数证书原bytes；不能单独代替whole桥。"
     }
   ],
   "pending_processes": [],
   "runtime_goal_observation": {
-    "status": "none",
+    "status": "active",
     "observed_on": "2026-10-14",
-    "basis": "本轮get_goal实际返回null，无新runtime Goal。旧535已完成的工具收据由completion_audit与原收据保留。C009重建session5748实际exit0，无python待进程。"
+    "created_at_epoch": 1791932581,
+    "basis": "本轮get_goal实际active；新fresh全scope审计与C010已结算，最终save/remote/tool gate仍须现场支付。旧收据保持历史。"
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-10-14-c009-saved-and-verified.json",
+  "checkpoint": "goals/checkpoints/2026-10-14-c010-full-inertia-admitted.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
     "commit": "5b8949f9e797b8ba678b43be86d1f3aedcd63bd8",
@@ -225,13 +246,12 @@
   },
   "latest_macro_review": "goals/reviews/2026-10-14-fixed-window-positive-input-review-cycle-9.md",
   "completion_audit": {
-    "path": "goals/reviews/2026-10-14-goal-method-boundary-completion-audit.md",
+    "path": "goals/reviews/2026-10-14-active-goal-fresh-completion-audit.md",
     "branch": "effective-method-class-boundary",
-    "mathematical_gate": "passed",
-    "basis": "535单一actual canonical single-prime族，无conditional、全λ>√p及无限±有限修复边界，经独立§10强度审计。",
-    "final_execution_gate": "passed; proof saved, remote SHA matched, runtime Goal complete",
-    "post_completion_research": "C009 explicitly requested macro continuation; C008 stays stopped",
-    "verified_proof_commit": "8bfb38e3d31b130e21ffd81820504842332e7c3a",
-    "runtime_receipt": "goals/goal-completion-receipt.20261014.json"
+    "mathematical_gate": "passed after fresh full-scope review",
+    "basis": "重新核535 actual全fixedprime/λ>√p/ordinary trace/log resonance/无限±及finite repair量词，相对3a72930非重复且达到旧§10；不依旧标签。当前新增C009/C010人类继续工作全scope已落实。",
+    "final_execution_gate": "pending current proof save and verified remote SHA, then actual tool status",
+    "historical_audit": "goals/reviews/2026-10-14-goal-method-boundary-completion-audit.md",
+    "historical_runtime_receipt": "goals/goal-completion-receipt.20261014.json"
   }
 }

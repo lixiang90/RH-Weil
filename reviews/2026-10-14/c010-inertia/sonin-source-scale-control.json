@@ -1,0 +1,11 @@
+{
+  "kind": "exact-rational-normalization-negative-control",
+  "source": "normalized constant Legendre mode, same half-window17/16",
+  "correct_object": "A+J0+U",
+  "correct_lower_bound": "1/32",
+  "wrong_object": "A+L^2*J0+U",
+  "wrong_upper_bound": "-1/8",
+  "extra_L_squared_is_invalid_for_original_raw_J0": true,
+  "actual_negative_R_found": false,
+  "paid_source_error": true
+}

@@ -1,0 +1,26 @@
+{
+  "kind": "shifted-positive-scale-interpretation-correction",
+  "mathematics": "Kinteger=D*Kt; T/2^512 <= Kinteger/2^B = (D/2^B)*Kt",
+  "reason": "Runtime had loaded the former metadata string before its text-only correction; exact matrix/Gram computation was correct and was not rerun",
+  "sectors": [
+    {
+      "sector": 1,
+      "common_denominator": "82524375519875754154310698064147632431365821982249950252053455473047866858963969479899507654362302968732721426269986072192845888296606698845105880533051885705854350467128959684439268290875723998491002257843851550579077852720092050731182098388671875",
+      "integer_bitB": 4177,
+      "loaded_metadata": "common_denominator * 2^integer_bitB",
+      "correct_positive_scale": "common_denominator / 2^integer_bitB multiplying Kt",
+      "target_sha256": "b1871211c56347b72e3e363f060dd2f516c869b7bbb23e5672c4cc88b6ac3027",
+      "gram_sha256": "7ac53773f22b8f73cef5347c57ce7bd72acde7dc999ff2f6b2aab00544c1ef47"
+    },
+    {
+      "sector": 0,
+      "common_denominator": "82524375519875754154310698064147632431365821982249950252053455473047866858963969479899507654362302968732721426269986072192845888296606698845105880533051885705854350467128959684439268290875723998491002257843851550579077852720092050731182098388671875",
+      "integer_bitB": 4177,
+      "loaded_metadata": "common_denominator * 2^integer_bitB",
+      "correct_positive_scale": "common_denominator / 2^integer_bitB multiplying Kt",
+      "target_sha256": "9d6f51fe6dc6e735946026c0acfa55a94d9b2e7d274150e4704b11cf8b80561b",
+      "gram_sha256": "d23b1c1447fa6e32b47a27eedfab963cd4726b9064e5535d2aba46b8f3cf8707"
+    }
+  ],
+  "current_script_sha256": "5dd87f78fcf2e68e0b7c1908bc8ceb056d43da628403b54bcac67ce1a2faf72e"
+}

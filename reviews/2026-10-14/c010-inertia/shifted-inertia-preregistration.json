@@ -1,0 +1,16 @@
+{
+  "schema": "c010-exact-shifted-whole-inertia-v1",
+  "client_date": "2026-10-14",
+  "object": "Original C009 same-congruence Pt, exact t=s=1e-34, no tau credit",
+  "dimensions": "Original224 odd and224 even coordinates,448 certified whole head; not a C001/pilot expansion",
+  "proposal_decimal_digits": 80,
+  "theta": "2^-48",
+  "chi": "1",
+  "scalar_compilation": "Exact Fraction four shifted corrections; positive common LCM; no integer truncation of rational scalars",
+  "operator_to_lower_target": "Kinteger=commonDenominator*Kt; B=max entry integer bitlength; exact symmetric floor(2^512*Kinteger/2^B); subtract224I to pay all rounding rows; T/2^512 <= (commonDenominator/2^B)*Kt",
+  "guard": "2^-140, integer guard=2^372 on512-grid; well below expected shifted odd/second-even source gap while far above80digit factor roundoff",
+  "even_rank_one": "rho=2^-105; one inverse iteration proposal at80dps,max8 steps; freeze192-bitdyadic vector wi/2^192;512-grid update2^23 wi wj exactly",
+  "Gram": "Floor256-bit Cholesky factor of (T+rank-guardI)/2^512; actual exact all residual rows strictly less than guard required",
+  "packet_schema": "target: sector,indices,bits,guard,matrix,rank_one; Gram:sector,factor; compile input mapping and positive scales separately",
+  "stop": "One fixed s/rho/guard/N/dps; failure remains failure, no automatic adjustment; ordinary Cholesky is only a factor proposal"
+}

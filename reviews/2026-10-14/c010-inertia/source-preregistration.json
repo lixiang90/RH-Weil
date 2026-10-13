@@ -1,0 +1,28 @@
+{
+  "schema": "c010-source-reconstruction-diagnostic-v1",
+  "client_date": "2026-10-14",
+  "agent": "sonin_source",
+  "kind": "ordinary-high-precision-exploration",
+  "precision_digits": 80,
+  "per_sector_sizes": [16, 32, 64],
+  "parities": [0, 1],
+  "source_half_window": "17/16",
+  "source_matrix_bits": 256,
+  "tail_coordinate_bits": 640,
+  "matrix_sha256": "4bce98228442805bc5ae16e9c26c8df88e85c35ab7ec8deffdd808adbf1217ac",
+  "tail_sha256": "2a88894c7405e01a37cbdef8671e9d628ddc60ae9cdb335fa2636fe49b6666a2",
+  "assembly": "R_N=Gamma^-1/2 (A_raw+J0_raw+(648/17)(r0*r0^T+r1*r1^T)) Gamma^-1/2",
+  "comparison_error": "epsilonA+epsilonH+sigma = 2^-204+2*2^-220+9*2^-512",
+  "negative_controls": ["uncompensated A+J0", "wrong extra L^2 on J0 diagnostic only"],
+  "strict_negative_trigger": "Freeze a rational raw coefficient vector; exact rational center Rayleigh plus paid source-error norm, followed by independent reverse check",
+  "stop": "No sizes beyond 64 per sector; no precision increase; no zeta zeros; finite eigenvalues do not certify actual ground or positive infinite complement",
+  "next": "Reconcile assembly and source norm with parent before consuming any direction",
+  "geometric_upper_extension": {
+    "authorization": "Parent requests fixed even64 raw polynomial vector rounded to 50 significant decimal digits, including actual Gamma tail",
+    "source": "even64 diagnostic minimum vector only; no new N or zero data",
+    "precision": "80-digit ordinary values; exact Fraction endpoint and head integrals for upper budget",
+    "tail_method": "Exact finite integration-by-parts Fourier series of degree126; retain signed square cross products in exact rational integrals; Binet logarithmic upper envelope",
+    "constants": "Machin160 atan bounds and160-term atanh log series, rounded outward to256-bit dyadics",
+    "stop": "If physical upper too large or a required bound fails, record failure; do not add modes or digits"
+  }
+}

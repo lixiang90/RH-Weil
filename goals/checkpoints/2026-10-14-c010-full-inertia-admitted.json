@@ -1,0 +1,345 @@
+{
+  "schema": "rh-weil-macro-checkpoint-v1",
+  "created_for_client_date": "2026-10-14",
+  "git_head_at_checkpoint": "35609baea2fb3a4456b5ab9250648b198a9a4130",
+  "state": {
+    "schema": "rh-weil-macro-state-v1",
+    "updated_for_client_date": "2026-10-14",
+    "baseline_commit": "3a72930e9f9f554b03b41d17d8c8002f1813ca82",
+    "goal": "goals/GOAL.20261013.md",
+    "workflow": "goals/RESEARCH_WORKFLOW.md",
+    "cadence": "goals/review-cadence.json",
+    "decisions": "goals/DECISIONS.md",
+    "latest_strategy": "goals/reviews/2026-10-12-connes-frontier-and-equivalence-strategy.md",
+    "latest_decision": "D20261014J",
+    "macro": {
+      "long_objective": "独立实际算术来源约束同一完整Weil型／ζ谱，并取得非重复强制后果；不把新等价、有限实验或组织工作当完成。",
+      "unpaid_bottleneck": "538已付同L=17/16完整复源true simple-even及gap>3e−35；局部ground排序瓶颈消除。成长窗统一费用/ζ识别/RH及C00113仍未付，C008继续止损。",
+      "why_this_contract": "C010一次完整轮支付actual上界和whole shifted惯性，完整source/误差/补空间/独立全Gram/逆审闭合；当前原Goal第三分支另经fresh全scope审计，不以合同/有限门完成。",
+      "paused_routes": [
+        "零点比例优化",
+        "无零区域优化"
+      ],
+      "stopped_or_downgraded": [
+        "新增谱／增长等价主攻停止",
+        "cutoff＋Taylor只作准入／费用诊断",
+        "固定多正实权等价酉化停止",
+        "RR字段扩张后置",
+        "C001有限敏感性数值扩展冻结",
+        "辅助反向核H_R对H_BG的固定全域相对下界停止",
+        "原生标准锥保正半群、bounded局部势及正权相似修复停止",
+        "固定实位Sonin无费用全源桥及诱导紧二次型/有限矩修复停止",
+        "真实半局部cutoff原样继承实位快速谱/绝对epsilon系数证明停止",
+        "冻结全源L²的uniform o(p^-2)首项算子渐近/统一首项正下界停止",
+        "C006晚prime完整统一返回预算主攻止损；未证发散，重准入需actual共同trace域及新signed核费用",
+        "所有fixedcanonical single-prime无费用QW≥Tp桥及finitecontinuous源条件/finite-rank自伴修复停止；actual log共振强制失败",
+        "C008原数字证书止损保持，不等待附件"
+      ]
+    },
+    "primary_contract": {
+      "id": "C010",
+      "path": "goals/contracts/C010-source-exact-full-inertia-and-ground-order.md",
+      "status": "completed",
+      "stage": "同窗真正simple-even及严格谱隙经独立source和whole-inertia逆审验收；所有进程exit0。",
+      "next_action": "保存本轮全部证据并核remote SHA，完成原Goal fresh全scope最终执行门；以后仅在继续研究授权下核growing窗的新actual正尾/统一费用，再设唯一合同。",
+      "stop_rule": "固定窗已完成，不重复s/N/dps门；C008止损/暂停和C001冻结保持。成长窗重新准入须新实际来源及完整费用。"
+    },
+    "support_contracts": [],
+    "must_not_forget": [
+      "旧Goal/NEXT/PROGRESS为历史；最新10月12日战略优先于旧cycle6的SC主攻。",
+      "数学轮数只在cadence；组织、创建Goal和启动烟雾样本不计轮，也不重置周期。",
+      "522/525已定位RH强度，允许自由源、单Gaussian、单P1仍不能降低核心难度。",
+      "Connes simple指最低态；N极限与增长lambda极限不同，残差小不能排除更低负谱支。",
+      "512/514/516的固定S符号、混合同调／尾及scalar/jets限制保持。",
+      "启动观测是experiment：原核底在tau=1e-10灰带，负移位排序随N改变；不能证明符号、RH、simple或新边界。",
+      "q_nm已经承载实偶原子对，移动仅p=2指数1且权重不变；CLI偶截面candidate不是007修正prolate。",
+      "整体Goal须达到独立实际输入或实质方法类边界的强度；局部合同完成不能倒填较弱成功。",
+      "527的背景H正Gram/混合费用与实际H负方向均不是完整W正性；C001数值扩展冻结。",
+      "固定v0在扰动后只是奇Rayleigh试探，N6负移位fixed D<0而moving D>0；必须重求真正底空间。",
+      "528对每个素数端点P≥3排除全正指标固定背景相对费用；H不是W/O，质量项、低域、同源耦合仍是未排除逃逸。",
+      "529关闭完整actual标准锥保正shortcut，保正不是Weil半正定；非局部signed机制和真正lowest/prolate未排除。",
+      "actual完整Γ multiplier=2θ′；原矩阵核与C001数据未改，旧half helper默认m不是actual正块来源证书。",
+      "C004已有Sonin输入不算新；两patch全η比较与单个负对照分开，源内正性不能自由极化。",
+      "530只指两patch压缩差额ess±w2，不是QW负谱或全interval差额ess；compact须诱导L²二次型紧，质量费≥w2只是必要。",
+      "531actual cutoff非HS不推出E2不连续或源差额非紧；532另付源compact bridge。ambient L与冻结source λ不同。",
+      "532完整fixed-p/fixed-source bridge已付；source紧型不预设符号、不统一于growingS/U。C005已完成，后续按当前唯一主合同恢复，历史任务句不重启。",
+      "533 fixed-g p^-2首项正且可求和，A_U=π^-2I+compact/coercive；余项有derivative费，每p D_p compact使uniform o(p^-2) norm渐近不可能，不反推绝对norm预算发散。",
+      "cycle8是历史复盘；535新宏观审计仅按原方法类边界分支验收，不证明fixed-g求和等于growingS、全Weil正性或lowest。",
+      "534当轮只付actual J/局部TC并保留角域缺口；535新fixedsmooth S1证据另付实际普通trace域，不倒改历史或自动宣称完整晚prime费用。",
+      "C006止损不等于Σ||Dp||发散；535已证明真实QW−Tp=−Ep无限±，区别530旧arch来源；不反推QW负值。",
+      "宏观完成依据535这个全fixedsingleprime实际方法类边界，不因合同/轮次/推送完成；未排无限秩紧费、多prime/几何来源，未证明RH。",
+      "536只核高频逐点tail及完整对象/域；constantcomb最优不推出所有pointwise最优。C001半窗log13/2>.8不覆盖；小V正性不推QW≥T2；原数字未核不消费。",
+      "537 fixedB来源Q≥2^-49162全complex闭型域可消费；只半窗≤17/16及其平移，A未replay，C00113/simple/成长/RH不涵盖，535无费桥不复活。",
+      "538实际same-L simple-even/gap已核whole source+新全部Gram；不是finite排序。fixedL结论不推growing/Ξ/RH或C00113。当前Goal完成只依fresh原全scope审计，旧tool收据仅历史。"
+    ],
+    "evidence": [
+      {
+        "path": "literature/supplements/2026-10-12-connes-recent-paper-audit.md",
+        "kind": "cited",
+        "scope": "近期原文的限定核读和未付条件；不是全部论文完整认证。"
+      },
+      {
+        "path": "scripts/qw_matrix.py",
+        "kind": "experiment",
+        "scope": "本批真实数值核的共享实现；原运行LF哈希见预注册，不认证任何猜想。"
+      },
+      {
+        "path": "goals/reviews/2026-10-14-sonin-arithmetic-budget-review-cycle-8.md",
+        "kind": "open",
+        "scope": "四完整迭代周期复盘，无额外数学计轮；actual桥改善而低域/全源绝对预算/baseS仍未付，Goal继续active。"
+      },
+      {
+        "path": "notes/535-actual-first-prime-sonin-log-resonance-and-indefinite-error.md",
+        "kind": "obstruction",
+        "scope": "actual全fixedsingleprime/λ>√p无费Weil正trace桥失败；smooth源S1/ordinarytrace/logp共振、合法窄源无限±及有限条件/有限秩修复边界。原Goal第三分支已独立审计。"
+      },
+      {
+        "path": "goals/reviews/2026-10-14-goal-method-boundary-completion-audit.md",
+        "kind": "proved",
+        "scope": "原Goal/旧§10逐项数学完成审计；仅以535验收方法类边界，不累计旧障碍或添加RH前件；最终版本门按工具核验。"
+      },
+      {
+        "path": "literature/supplements/2026-10-14-zhu-compact-window-entry.md",
+        "kind": "cited",
+        "scope": "固定v2最初HTML入口；后续原件准入/消费缺口见536与C008receipt，正性数字未验收。"
+      },
+      {
+        "path": "goals/goal-completion-receipt.20261014.json",
+        "kind": "cited",
+        "scope": "实际update_goal complete结构结果、usage与已核proof SHA；工具终态/保存收据，不是新的数学证明。"
+      },
+      {
+        "path": "notes/536-compact-window-certificate-admission-and-pointwise-scope.md",
+        "kind": "proved",
+        "scope": "精确actual pole/parity/norm/closedform接口及Fraction高频尾反例；原fullwindow正性/simple数字仍cited/open，C008一轮止损。"
+      },
+      {
+        "path": "scripts/c008_pointwise_envelope.py",
+        "kind": "proved",
+        "scope": "精确Fraction向外算术/显式remainders重放536高频符号尾界；不装配Weil矩阵/ζ零点，不证低域正性。"
+      },
+      {
+        "path": "notes/537-source-exact-weil-window-positive-tail-admission.md",
+        "kind": "proved",
+        "scope": "经过解析/全source误差与新全部证书验收的fixedB来源，fullcomplex半窗17/16 coercivity及闭型域/平移限制后果；无A/simple/成长/RH。"
+      },
+      {
+        "path": "reviews/2026-10-14/c009-tail/object-source-audit.md",
+        "kind": "proved",
+        "scope": "actual复源/全bandcomplement/tail/BlockSchur/core及最终D1–D5primitive误差消费；§8给最终已核状态。"
+      },
+      {
+        "path": "reviews/2026-10-14/c009-tail/signed-reverse-audit.md",
+        "kind": "proved",
+        "scope": "不同组织signed/全prime8/scalar/minmax/congruence/norm8/ownGram逆审；辅助Dχ反例非wholeQ负。"
+      },
+      {
+        "path": "reviews/2026-10-14/c009-tail/source-receipt.json",
+        "kind": "cited",
+        "scope": "固定b6cd218原包292全成员bytes/hash及原PDF/identity，原件本地保留；不靠发布标签认证。"
+      },
+      {
+        "path": "reviews/2026-10-14/c009-tail/run-receipt.json",
+        "kind": "proved",
+        "scope": "实际一次新rootFULL_REBUILD全部source/oracle/compilers/448Gram/56scalar及hash重核；精确执行证据，analytic另核。"
+      },
+      {
+        "path": "scripts/c009_verify_gram.py",
+        "kind": "proved",
+        "scope": "只读新data的独立全448整数残差行及错误符号控制；finitegate，须合完整解析source桥消费。"
+      },
+      {
+        "path": "reviews/2026-10-14/c009-tail/independent-gram-result.json",
+        "kind": "proved",
+        "scope": "两个224完整rows严格<2^2848，paid2^2873，绑定新target/factorSHA；不是单独wholeQ定理。"
+      },
+      {
+        "path": "notes/538-actual-weil-geometric-upper-and-full-inertia-gates.md",
+        "kind": "proved",
+        "scope": "actual L17/16全复源simple-even、λ2≥1e−34及gap>3e−35；完整Gamma尾/source/全惯性均付。"
+      },
+      {
+        "path": "goals/reviews/2026-10-14-active-goal-fresh-completion-audit.md",
+        "kind": "proved",
+        "scope": "原Goal三择一fresh全scope/535方法边界审计；末补当前C010已结算，最终执行门另核。"
+      },
+      {
+        "path": "reviews/2026-10-14/c010-inertia/full-inertia-audit.md",
+        "kind": "proved",
+        "scope": "fullform惯性运输及actual even有理上界的不同组织精确逆审。"
+      },
+      {
+        "path": "reviews/2026-10-14/c010-inertia/shifted-congruence-audit.md",
+        "kind": "proved",
+        "scope": "§6–8原全source到trueQ惯性/正rankone/λ2及simple-even闭合。"
+      },
+      {
+        "path": "reviews/2026-10-14/c010-inertia/shifted-source-mapping-audit.md",
+        "kind": "proved",
+        "scope": "实际5input/全非交换编译/LCM/下向224I norm预算。"
+      },
+      {
+        "path": "reviews/2026-10-14/c010-inertia/shifted-inertia-source-audit.md",
+        "kind": "proved",
+        "scope": "source exact sign预算与whole连续消费终审。"
+      },
+      {
+        "path": "scripts/c010_shifted_inertia_certificate.py",
+        "kind": "proved",
+        "scope": "自主exact shifted producer，ordinary80仅提案；数学source桥另核。"
+      },
+      {
+        "path": "scripts/c010_verify_inertia_gram.py",
+        "kind": "proved",
+        "scope": "独立完整448row/50400cell整数门与wrong-sign控制。"
+      },
+      {
+        "path": "reviews/2026-10-14/c010-inertia/independent-shifted-gram-result.json",
+        "kind": "proved",
+        "scope": "两sector全rows/guards/input及target/factor SHA绑定通过；有限门合完整桥消费。"
+      },
+      {
+        "path": "reviews/2026-10-14/c010-inertia/sonin-even64-rational-source.json",
+        "kind": "proved",
+        "scope": "固定非零actualeven原L² source；完整Gamma尾及误差另付。"
+      },
+      {
+        "path": "reviews/2026-10-14/c010-inertia/sonin-even64-geometric-upper.json",
+        "kind": "proved",
+        "scope": "exact向上dyadic u<7e−35；不同组织Fraction审查。"
+      },
+      {
+        "path": "reviews/2026-10-14/c010-inertia/shifted-scale-interpretation-receipt.json",
+        "kind": "cited",
+        "scope": "保留旧runtime文字，明示正确D/2^B正因子；原矩阵计算未改。"
+      },
+      {
+        "path": "reviews/2026-10-14/c010-inertia/shifted-sector-0-target.json",
+        "kind": "proved",
+        "scope": "完整新有限整数证书原bytes；不能单独代替whole桥。"
+      },
+      {
+        "path": "reviews/2026-10-14/c010-inertia/shifted-sector-0-gram.json",
+        "kind": "proved",
+        "scope": "完整新有限整数证书原bytes；不能单独代替whole桥。"
+      },
+      {
+        "path": "reviews/2026-10-14/c010-inertia/shifted-sector-1-target.json",
+        "kind": "proved",
+        "scope": "完整新有限整数证书原bytes；不能单独代替whole桥。"
+      },
+      {
+        "path": "reviews/2026-10-14/c010-inertia/shifted-sector-1-gram.json",
+        "kind": "proved",
+        "scope": "完整新有限整数证书原bytes；不能单独代替whole桥。"
+      }
+    ],
+    "pending_processes": [],
+    "runtime_goal_observation": {
+      "status": "active",
+      "observed_on": "2026-10-14",
+      "created_at_epoch": 1791932581,
+      "basis": "本轮get_goal实际active；新fresh全scope审计与C010已结算，最终save/remote/tool gate仍须现场支付。旧收据保持历史。"
+    },
+    "goal_completion_requested": false,
+    "checkpoint": "goals/checkpoints/2026-10-14-c010-full-inertia-admitted.json",
+    "last_verified_remote": {
+      "repository": "https://github.com/lixiang90/RH-Weil",
+      "commit": "5b8949f9e797b8ba678b43be86d1f3aedcd63bd8",
+      "basis": "C009数学/实际fresh全证书与独立审查版已保存；HEAD和ls-remote实际同一SHA。后续只保存执行终态metadata，不另计轮。"
+    },
+    "latest_macro_review": "goals/reviews/2026-10-14-fixed-window-positive-input-review-cycle-9.md",
+    "completion_audit": {
+      "path": "goals/reviews/2026-10-14-active-goal-fresh-completion-audit.md",
+      "branch": "effective-method-class-boundary",
+      "mathematical_gate": "passed after fresh full-scope review",
+      "basis": "重新核535 actual全fixedprime/λ>√p/ordinary trace/log resonance/无限±及finite repair量词，相对3a72930非重复且达到旧§10；不依旧标签。当前新增C009/C010人类继续工作全scope已落实。",
+      "final_execution_gate": "pending current proof save and verified remote SHA, then actual tool status",
+      "historical_audit": "goals/reviews/2026-10-14-goal-method-boundary-completion-audit.md",
+      "historical_runtime_receipt": "goals/goal-completion-receipt.20261014.json"
+    }
+  },
+  "cadence_snapshot": {
+    "schema": "rh-weil-research-review-cadence-v1",
+    "user_instruction_date": "2026-10-08",
+    "minimum_rounds": 4,
+    "target_rounds": 6,
+    "maximum_rounds": 8,
+    "counting_unit": "completed research continuation iteration, not tool calls or files",
+    "rounds_since_review": 1,
+    "last_review": "goals/reviews/2026-10-14-fixed-window-positive-input-review-cycle-9.md",
+    "last_review_baseline_commit": "3d9bbbfef989e0962d32f6af512b13bd6cd6a3ba",
+    "last_review_completed_round_count": 4,
+    "last_review_trigger": "Fourth completed iteration: new actual full-complex fixed-window positivity source with complete fresh source/error/integer gates admitted; review genuine input versus unresolved growth/lowest.",
+    "last_completed_round": "notes/538-actual-weil-geometric-upper-and-full-inertia-gates.md",
+    "last_completed_round_date": "2026-10-14",
+    "last_completed_round_baseline_commit": "35609baea2fb3a4456b5ab9250648b198a9a4130",
+    "latest_user_directed_review": "goals/reviews/2026-10-12-connes-frontier-and-equivalence-strategy.md",
+    "latest_user_directed_review_baseline_commit": "851a70bef3de8985120dc252284bb8bc28ec9d34",
+    "latest_user_directed_review_scope": "strategic reflection using selected prior notes, previous retrospectives and primary Connes papers through 2026-08-31; not a fresh full audit of all 526 notes; no new completed mathematical round or cadence reset",
+    "current_research_focus": "C010 one complete iteration: actual geometric even upper/full Gamma and one original224x2 shifted inertia gate independently proved true simple-even/gap for L17/16. Local ground bottleneck changed; growth/Ξ/RH not paid. Fresh original full-scope completion audit passes535method-boundary branch; current save/remote/tool gates pending. No copied cadence, extra audit count or reset.",
+    "weil_f1_rounds_since_historical_review": 20,
+    "last_completed_round_note_paths": [
+      "notes/524-f1-mobius-cutoff-taylor-obstruction-and-repair.md",
+      "notes/525-f1-smoothed-mobius-probes-and-arithmetic-strength.md",
+      "notes/526-f1-faithful-two-weight-hilbert-quotient-and-defect.md",
+      "notes/527-weil-reflection-source-signs-and-arithmetic-sensitivity.md",
+      "notes/528-actual-prime-reflection-relative-bound-obstruction.md",
+      "notes/529-full-weil-positive-cone-semigroup-boundary.md",
+      "notes/530-archimedean-sonin-prime-compact-repair-boundary.md",
+      "notes/531-semilocal-sonin-positive-trace-and-non-hilbert-schmidt-cutoff.md",
+      "notes/532-actual-sonin-prime-symbol-and-compact-weil-bridge.md",
+      "notes/533-actual-late-prime-sonin-boundary-square.md",
+      "notes/534-actual-uniform-sonin-subterms-and-trace-consumption-gap.md",
+      "notes/535-actual-first-prime-sonin-log-resonance-and-indefinite-error.md",
+      "notes/536-compact-window-certificate-admission-and-pointwise-scope.md",
+      "notes/537-source-exact-weil-window-positive-tail-admission.md",
+      "notes/538-actual-weil-geometric-upper-and-full-inertia-gates.md"
+    ]
+  },
+  "normalized_lf_sha256": {
+    "AGENTS.md": "89adc49308c909ff262aa382252b8e05940a498e40d2c6502e9ea743d75ae66a",
+    "goals/DECISIONS.md": "aea2316ffba21ef9827e7ff552a3dc6c01fdfe6ef559609725a989de600385cc",
+    "goals/GOAL.20261013.md": "fabda442db69804b72d05f9e4bdbdd6160eba8922c2a0a60810124b2fa4adda1",
+    "goals/RESEARCH_WORKFLOW.md": "406136a2d7399e08099deeab71660884fd28a968ad9d3dda15d37f125a2553fa",
+    "goals/STATE.json": "80e92f49639bbfd6bd314b69039c8b72336260526595434600aa478c613a5d2b",
+    "goals/contracts/C010-source-exact-full-inertia-and-ground-order.md": "cd4b13dfb99f1f94f072f3c6c5f9bb16f639cc162d91d7cd1d8ea25ee8f60c80",
+    "goals/goal-completion-receipt.20261014.json": "2b0e379fae519ba5a975ce7c51c58d7e1bfbb074bb77dbafa9f1463d96ba5011",
+    "goals/review-cadence.json": "e40964ca8ed37409d769c45acaecffe811b7b3d9c4586ef50af5fcbbc990e575",
+    "goals/reviews/2026-10-12-connes-frontier-and-equivalence-strategy.md": "42428f85cd0eae7d1636e7b06c1973b505e56e2750d32f487d600ee3932413a0",
+    "goals/reviews/2026-10-14-active-goal-fresh-completion-audit.md": "356f271a05a5b216578e616b5102ce34569a93aaafc62b9d8af2eb3b37f07d6e",
+    "goals/reviews/2026-10-14-fixed-window-positive-input-review-cycle-9.md": "06106d4101eec5e28b74448ed8d59535f4a700a61c3a541735065ca1732145b3",
+    "goals/reviews/2026-10-14-goal-method-boundary-completion-audit.md": "7a5a07f246561f6dd8d757a43fc77506980f1be444de988dcd678b4102e33984",
+    "goals/reviews/2026-10-14-sonin-arithmetic-budget-review-cycle-8.md": "cb8b73c591b700e5d528d613f8f01bb9de3b19097c5dbb1fb3cad1d28a7de418",
+    "literature/supplements/2026-10-12-connes-recent-paper-audit.md": "c8c12028ab393bd5ece186644417c506ab9ac3aa8146c131c22abbd0a439a92a",
+    "literature/supplements/2026-10-14-zhu-compact-window-entry.md": "a44bfc241aca1498e598ac6375bb9de9db4cbc7290d3a2711ec9eff8109e6d1b",
+    "notes/535-actual-first-prime-sonin-log-resonance-and-indefinite-error.md": "e83c3e080d19c2534425fb3c0e469367012f6c566a470b3baba703fb6def146f",
+    "notes/536-compact-window-certificate-admission-and-pointwise-scope.md": "0897607b5e74075c0a4f657f6d7cc2435e71fc2fb506555c01ea57395b0d4a5a",
+    "notes/537-source-exact-weil-window-positive-tail-admission.md": "269a500556d37fc04a4e44efd2f0899414787743e529506dbbe7395a34eea9f8",
+    "notes/538-actual-weil-geometric-upper-and-full-inertia-gates.md": "fa515b15206cc499dacfa398c8cc977b5e7d6bb3406d0f7fdae8f7a87e91a532",
+    "reviews/2026-10-14/c009-tail/independent-gram-result.json": "f01d89c761b15fc88e8153b1eb83c291df37074737feadc26c4c99031e2a07bc",
+    "reviews/2026-10-14/c009-tail/object-source-audit.md": "0ad7b5dce871a451b32dcf6f08a267c339b67d29660950304ada12f3d967cac2",
+    "reviews/2026-10-14/c009-tail/run-receipt.json": "a91742cc1cd546abffac5af3b593df06a0d4df3302d724ccc71c8962fb217912",
+    "reviews/2026-10-14/c009-tail/signed-reverse-audit.md": "ae50a52f47e5960703185f2cc300c6ebb6bbfbdef58d7d193d7517df899404f5",
+    "reviews/2026-10-14/c009-tail/source-receipt.json": "e3d6bb95e4b89bc08aeab57fa4d5cef300fa9fb08310fa3860b0335e7c45289e",
+    "reviews/2026-10-14/c010-inertia/full-inertia-audit.md": "8a6e257af1d9ed0aa7356cb1e70a3dcd51f0e606f5c68767690961453b68722a",
+    "reviews/2026-10-14/c010-inertia/independent-shifted-gram-result.json": "4acee2b1a71289775eb1a3e4a836f247303fefbbf1e26d65ecb6bc002637ea96",
+    "reviews/2026-10-14/c010-inertia/shifted-congruence-audit.md": "f3439f89f616ec32494ed24ed86489bfebfe47f49a54e1c3054d78f5b30af1ba",
+    "reviews/2026-10-14/c010-inertia/shifted-inertia-source-audit.md": "3b14702386bf28da34cea6042b7f2872b540d6cf3eb93d5029b95bc7d9e01739",
+    "reviews/2026-10-14/c010-inertia/shifted-scale-interpretation-receipt.json": "cc2f7c32938e826a436a9caf5724b2f9dbc4dabcb938de620fa8ef7aac7e905d",
+    "reviews/2026-10-14/c010-inertia/shifted-sector-0-gram.json": "d23b1c1447fa6e32b47a27eedfab963cd4726b9064e5535d2aba46b8f3cf8707",
+    "reviews/2026-10-14/c010-inertia/shifted-sector-0-target.json": "9d6f51fe6dc6e735946026c0acfa55a94d9b2e7d274150e4704b11cf8b80561b",
+    "reviews/2026-10-14/c010-inertia/shifted-sector-1-gram.json": "7ac53773f22b8f73cef5347c57ce7bd72acde7dc999ff2f6b2aab00544c1ef47",
+    "reviews/2026-10-14/c010-inertia/shifted-sector-1-target.json": "b1871211c56347b72e3e363f060dd2f516c869b7bbb23e5672c4cc88b6ac3027",
+    "reviews/2026-10-14/c010-inertia/shifted-source-mapping-audit.md": "650c6cd337cd1ee6bfe9ef0395e9e0531c47446a774b6ec4151bc71193a272cc",
+    "reviews/2026-10-14/c010-inertia/sonin-even64-geometric-upper.json": "743b5b9072b3cce56ed5348cc3a16dde06bee1c4a66ea74b234f1abc9a8e6851",
+    "reviews/2026-10-14/c010-inertia/sonin-even64-rational-source.json": "fa4b7ce444effecc5618b2c7b42648043411a0610736d1d65afebd7a9f906221",
+    "scripts/c008_pointwise_envelope.py": "8f331fee61c39f5df35b27c56722288d87161818959598186f478e80fb87e906",
+    "scripts/c009_verify_gram.py": "d4207a4a8b8afbeb81c3a94e75b62e431e83587e22254d63737a916e72e842b9",
+    "scripts/c010_shifted_inertia_certificate.py": "5dd87f78fcf2e68e0b7c1908bc8ceb056d43da628403b54bcac67ce1a2faf72e",
+    "scripts/c010_verify_inertia_gram.py": "9853a5022f0911bd6406d9f8a3297fdc5b3dcfd35ad285fb08a3309c5167ec59",
+    "scripts/qw_matrix.py": "f5418b1a6aced2063a48db15d796af34b4c5751e69b5063120a8902281ec44e7",
+    "scripts/research_state.py": "3a0ca37824f81bed0926e7f1aa88494bb19b99b97950284a94d1cf3d1fbd4ec0"
+  },
+  "scope": "Structural recovery snapshot; not proof or live runtime verification"
+}
