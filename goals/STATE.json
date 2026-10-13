@@ -36,7 +36,7 @@
     "id": "C009",
     "path": "goals/contracts/C009-source-exact-block-schur-tail-compensation.md",
     "status": "completed",
-    "stage": "537 fixedB全源桥/primitive误差/两congruence和新complete重建、own448全整数Gram/负对照已独立审查通过，待保存推送核SHA。A未消费。",
+    "stage": "537 fixedB完整解析/primitive/全源误差与新source/整数证书已验收；证明版5b8949f本地/远程一致，工作树检查清，当前检查点有效，无待进程。A未消费。",
     "next_action": "按cycle9先审已付M,V与原norm的Q−sI全源inertia/minmax是否能独立隔离真正odd底及第二even底，再配合法even试探上界；仅coercivity改名则停止，不扩C001N/拟合ζ点。",
     "stop_rule": "C009一轮完成B准入；A/更大窗未自动消费。后续排序须新全源gap及frame/norm/上界链；成长须共同signed费用。C008保持止损、不等待。"
   },
@@ -212,18 +212,16 @@
   ],
   "pending_processes": [],
   "runtime_goal_observation": {
-    "status": "complete",
+    "status": "none",
     "observed_on": "2026-10-14",
-    "created_at_epoch": 1791901071,
-    "completed_at_epoch": 1791914179,
-    "basis": "本次get_goal返回null；历史完成收据保持，无新runtime Goal；实际工作树起始3d9bbbf且无python待进程。"
+    "basis": "本轮get_goal实际返回null，无新runtime Goal。旧535已完成的工具收据由completion_audit与原收据保留。C009重建session5748实际exit0，无python待进程。"
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-10-14-c009-fixed-window-admitted-v2.json",
+  "checkpoint": "goals/checkpoints/2026-10-14-c009-saved-and-verified.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
-    "commit": "364a7ddc7dbaa8225147ecaa7885a0da58a4483b",
-    "basis": "C008证明/独立审查已保存推送；HEAD和ls-remote均实际返回此SHA。后续终态metadata不另计数学轮。"
+    "commit": "5b8949f9e797b8ba678b43be86d1f3aedcd63bd8",
+    "basis": "C009数学/实际fresh全证书与独立审查版已保存；HEAD和ls-remote实际同一SHA。后续只保存执行终态metadata，不另计轮。"
   },
   "latest_macro_review": "goals/reviews/2026-10-14-fixed-window-positive-input-review-cycle-9.md",
   "completion_audit": {
