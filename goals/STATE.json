@@ -7,11 +7,11 @@
   "cadence": "goals/review-cadence.json",
   "decisions": "goals/DECISIONS.md",
   "latest_strategy": "goals/reviews/2026-10-12-connes-frontier-and-equivalence-strategy.md",
-  "latest_decision": "D20261013B",
+  "latest_decision": "D20261013C",
   "macro": {
     "long_objective": "独立实际算术来源约束同一完整Weil型／ζ谱，并取得非重复强制后果；不把新等价、有限实验或组织工作当完成。",
     "unpaid_bottleneck": "没有独立支付完整Weil正性；prolate与真正最低态的比较、全补空间和增长支集的统一费用仍未付。",
-    "why_this_contract": "C001背景正Gram不控制实际H/prime交叉；先查整个正指标辅助核上固定相对费用是否根本不存在，避免把该前件当常规收尾。",
+    "why_this_contract": "反向背景全域相对费用已由实际高指标有符号子序列否定；必须返回完整奇域与同源常数交叉，寻找独立实际联合比较而非再改等价条件。",
     "paused_routes": [
       "零点比例优化",
       "无零区域优化"
@@ -20,16 +20,18 @@
       "新增谱／增长等价主攻停止",
       "cutoff＋Taylor只作准入／费用诊断",
       "固定多正实权等价酉化停止",
-      "RR字段扩张后置"
+      "RR字段扩张后置",
+      "C001有限敏感性数值扩展冻结",
+      "辅助反向核H_R对H_BG的固定全域相对下界停止"
     ]
   },
   "primary_contract": {
-    "id": "C002",
-    "path": "goals/contracts/C002-reflection-relative-bound.md",
-    "status": "running",
-    "stage": "C001一个完整迭代结算，数值扩展冻结；C002相邻高指标反例候选正在独立推导，未消费为定理。",
-    "next_action": "严格证明L=log13的v_M=e_M-e_(M+1)满足h_BG=O(M^-3)、h_R=T_M/(2πM²)+O(M^-3)，核对实际频率无±碰撞及Cesaro负子序列，再决定是否排除所有固定有限C的辅助反向核相对下界。",
-    "stop_rule": "最多1–2完整研究轮；若只有既有结论改名或单向量反例，停止；边界只限辅助反向核，不提升完整Goal完成。"
+    "id": "C003",
+    "path": "goals/contracts/C003-full-odd-energy-signed-source.md",
+    "status": "ready",
+    "stage": "C001/C002各结算一迭代；已有背景来源和辅助核费用边界，尚无完整对象的新算术正性。",
+    "next_action": "从真实连续奇form-domain及其偶伙伴推导同源prime反向项、prime常数耦合与完整奇能量表达；核对周期Fourier归一化，先检验新的联合有符号比较能否在实际非空域成立，禁止仅引入未知低谱投影或重复004/016当进展。",
+    "stop_rule": "最多1–2完整研究轮；若仅重复恒等式、条件Schur或未知低谱限制，冻结技巧并转来源机制筛选。"
   },
   "support_contracts": [],
   "must_not_forget": [
@@ -42,7 +44,8 @@
     "q_nm已经承载实偶原子对，移动仅p=2指数1且权重不变；CLI偶截面candidate不是007修正prolate。",
     "整体Goal须达到独立实际输入或实质方法类边界的强度；局部合同完成不能倒填较弱成功。",
     "527的背景H正Gram/混合费用与实际H负方向均不是完整W正性；C001数值扩展冻结。",
-    "固定v0在扰动后只是奇Rayleigh试探，N6负移位fixed D<0而moving D>0；必须重求真正底空间。"
+    "固定v0在扰动后只是奇Rayleigh试探，N6负移位fixed D<0而moving D>0；必须重求真正底空间。",
+    "528对每个素数端点P≥3排除全正指标固定背景相对费用；H不是W/O，质量项、低域、同源耦合仍是未排除逃逸。"
   ],
   "evidence": [
     {
@@ -73,7 +76,7 @@
     {
       "path": "reviews/2026-10-13/goal-start-pilot/receipt.md",
       "kind": "experiment",
-      "scope": "启动样本的数值与灰带限制，完整C001仍未验收。"
+      "scope": "历史启动样本收据；普通高精度灰带限制保留，C001后来验收见527，不从本收据升级。"
     },
     {
       "path": "reviews/2026-10-13/goal-start-pilot/independent-review.json",
@@ -119,16 +122,39 @@
       "path": "reviews/2026-10-13/c001-source/rational-witness.json",
       "kind": "obstruction",
       "scope": "Fraction向外包围h_H(1,-1)<-0.0004227，L=log13；只否定实际辅助H的PSD，不否定W。"
-    }
-  ],
-  "pending_processes": [
+    },
     {
-      "kind": "agent_review",
-      "task": "/root/signed_source",
-      "output": "reviews/2026-10-13/c002-relative/reflection-relative-bound-audit.md",
-      "scope": "C002独立候选推导正在运行；无后台Python样本。"
+      "path": "notes/528-actual-prime-reflection-relative-bound-obstruction.md",
+      "kind": "obstruction",
+      "scope": "每个实际素数端点P≥3上辅助H_R/H_BG无下界，所有有限正指标量词；不排除完整Weil型、质量误差或限制低域。"
+    },
+    {
+      "path": "reviews/2026-10-13/c002-relative/reflection-relative-bound-audit.md",
+      "kind": "proved",
+      "scope": "独立明确常数、实际原子Cesaro二阶与负子序列及全C量词审查；辅助核范围。"
+    },
+    {
+      "path": "reviews/2026-10-13/c002-relative/reverse-audit.md",
+      "kind": "proved",
+      "scope": "不同组织的复Cauchy精确能量/首阶、频率和素数端点泛化逆审；非完整W结论。"
+    },
+    {
+      "path": "scripts/weil_source_decomposition.py",
+      "kind": "experiment",
+      "scope": "冻结12组逐源重建脚本；普通高精度，不是区间证书。"
+    },
+    {
+      "path": "scripts/weil_h_signed_witness.py",
+      "kind": "proved",
+      "scope": "限定H负方向的Fraction向外包围及初等解析尾实现；经独立代码/公式审查，不认证W。"
+    },
+    {
+      "path": "reviews/2026-10-13/c001-source/preregistration.json",
+      "kind": "experiment",
+      "scope": "C001执行前冻结来源分解与固定/移动向量交叉账本。"
     }
   ],
+  "pending_processes": [],
   "runtime_goal_observation": {
     "status": "active",
     "observed_on": "2026-10-13",
@@ -136,5 +162,10 @@
     "basis": "本轮get_goal确认已有长期Goal active；create_goal拒绝重复创建，沿用原Goal。"
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-10-13-c001-source-settled.json"
+  "checkpoint": "goals/checkpoints/2026-10-13-c002-final-hashes.json",
+  "last_verified_remote": {
+    "repository": "https://github.com/lixiang90/RH-Weil",
+    "commit": "7b59c398cfdbc3725cf3e9a02926911442b1603c",
+    "basis": "本轮GitHub连接器核实登录与owner均lixiang90、push/admin=true；git push成功后git ls-remote与HEAD一致。此记录是C001推送观察，非即将C002提交的SHA。"
+  }
 }

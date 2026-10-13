@@ -1,0 +1,219 @@
+{
+  "schema": "rh-weil-macro-checkpoint-v1",
+  "created_for_client_date": "2026-10-13",
+  "git_head_at_checkpoint": "7b59c398cfdbc3725cf3e9a02926911442b1603c",
+  "state": {
+    "schema": "rh-weil-macro-state-v1",
+    "updated_for_client_date": "2026-10-13",
+    "baseline_commit": "3a72930e9f9f554b03b41d17d8c8002f1813ca82",
+    "goal": "goals/GOAL.20261013.md",
+    "workflow": "goals/RESEARCH_WORKFLOW.md",
+    "cadence": "goals/review-cadence.json",
+    "decisions": "goals/DECISIONS.md",
+    "latest_strategy": "goals/reviews/2026-10-12-connes-frontier-and-equivalence-strategy.md",
+    "latest_decision": "D20261013C",
+    "macro": {
+      "long_objective": "独立实际算术来源约束同一完整Weil型／ζ谱，并取得非重复强制后果；不把新等价、有限实验或组织工作当完成。",
+      "unpaid_bottleneck": "没有独立支付完整Weil正性；prolate与真正最低态的比较、全补空间和增长支集的统一费用仍未付。",
+      "why_this_contract": "反向背景全域相对费用已由实际高指标有符号子序列否定；必须返回完整奇域与同源常数交叉，寻找独立实际联合比较而非再改等价条件。",
+      "paused_routes": [
+        "零点比例优化",
+        "无零区域优化"
+      ],
+      "stopped_or_downgraded": [
+        "新增谱／增长等价主攻停止",
+        "cutoff＋Taylor只作准入／费用诊断",
+        "固定多正实权等价酉化停止",
+        "RR字段扩张后置",
+        "C001有限敏感性数值扩展冻结",
+        "辅助反向核H_R对H_BG的固定全域相对下界停止"
+      ]
+    },
+    "primary_contract": {
+      "id": "C003",
+      "path": "goals/contracts/C003-full-odd-energy-signed-source.md",
+      "status": "ready",
+      "stage": "C001/C002各结算一迭代；已有背景来源和辅助核费用边界，尚无完整对象的新算术正性。",
+      "next_action": "从真实连续奇form-domain及其偶伙伴推导同源prime反向项、prime常数耦合与完整奇能量表达；核对周期Fourier归一化，先检验新的联合有符号比较能否在实际非空域成立，禁止仅引入未知低谱投影或重复004/016当进展。",
+      "stop_rule": "最多1–2完整研究轮；若仅重复恒等式、条件Schur或未知低谱限制，冻结技巧并转来源机制筛选。"
+    },
+    "support_contracts": [],
+    "must_not_forget": [
+      "旧Goal/NEXT/PROGRESS为历史；最新10月12日战略优先于旧cycle6的SC主攻。",
+      "数学轮数只在cadence；组织、创建Goal和启动烟雾样本不计轮，也不重置周期。",
+      "522/525已定位RH强度，允许自由源、单Gaussian、单P1仍不能降低核心难度。",
+      "Connes simple指最低态；N极限与增长lambda极限不同，残差小不能排除更低负谱支。",
+      "512/514/516的固定S符号、混合同调／尾及scalar/jets限制保持。",
+      "启动观测是experiment：原核底在tau=1e-10灰带，负移位排序随N改变；不能证明符号、RH、simple或新边界。",
+      "q_nm已经承载实偶原子对，移动仅p=2指数1且权重不变；CLI偶截面candidate不是007修正prolate。",
+      "整体Goal须达到独立实际输入或实质方法类边界的强度；局部合同完成不能倒填较弱成功。",
+      "527的背景H正Gram/混合费用与实际H负方向均不是完整W正性；C001数值扩展冻结。",
+      "固定v0在扰动后只是奇Rayleigh试探，N6负移位fixed D<0而moving D>0；必须重求真正底空间。",
+      "528对每个素数端点P≥3排除全正指标固定背景相对费用；H不是W/O，质量项、低域、同源耦合仍是未排除逃逸。"
+    ],
+    "evidence": [
+      {
+        "path": "notes/016-prime-graph-hodge-inequality.md",
+        "kind": "proved",
+        "scope": "实际QW=P-V恒等式与指定逐块绝对范数步骤的线性损失；全空间domination仍是条件目标。"
+      },
+      {
+        "path": "notes/526-f1-faithful-two-weight-hilbert-quotient-and-defect.md",
+        "kind": "obstruction",
+        "scope": "固定有限正实多权自然商及等价Hilbert酉化；不排除所有Hilbert实现。"
+      },
+      {
+        "path": "literature/supplements/2026-10-12-connes-recent-paper-audit.md",
+        "kind": "cited",
+        "scope": "近期原文的限定核读和未付条件；不是全部论文完整认证。"
+      },
+      {
+        "path": "reviews/2026-10-13/goal-start-pilot/preregistration.json",
+        "kind": "experiment",
+        "scope": "执行前冻结mu=13,N4/6,dps50/70,delta0/±1/1000的原始登记。"
+      },
+      {
+        "path": "reviews/2026-10-13/goal-start-pilot/pilot-results.json",
+        "kind": "experiment",
+        "scope": "12组普通高精度有限数据及结构残差；未做directed rounding或连续升级。"
+      },
+      {
+        "path": "reviews/2026-10-13/goal-start-pilot/receipt.md",
+        "kind": "experiment",
+        "scope": "历史启动样本收据；普通高精度灰带限制保留，C001后来验收见527，不从本收据升级。"
+      },
+      {
+        "path": "reviews/2026-10-13/goal-start-pilot/independent-review.json",
+        "kind": "experiment",
+        "scope": "110位Decimal对保存数字独立复算灰带、D前提及跨精度统计；不是矩阵积分／全域证明重放。"
+      },
+      {
+        "path": "scripts/qw_matrix.py",
+        "kind": "experiment",
+        "scope": "本批真实数值核的共享实现；原运行LF哈希见预注册，不认证任何猜想。"
+      },
+      {
+        "path": "scripts/weil_sensitivity_pilot.py",
+        "kind": "experiment",
+        "scope": "安全重放入口，保留数学实现／参数，默认输出tmp而非公开归档。"
+      },
+      {
+        "path": "reviews/2026-10-13/goal-start-pilot/run_pilot_snapshot.py",
+        "kind": "experiment",
+        "scope": "历史实际执行包装的原字节快照；禁止在公开归档执行，重放用安全入口。"
+      },
+      {
+        "path": "notes/527-weil-reflection-source-signs-and-arithmetic-sensitivity.md",
+        "kind": "proved",
+        "scope": "全有限正指标背景H Gram/混合界、指定移位导数不定及实际H有理负方向；完整Weil正性仍开放，冻结样本另为experiment。"
+      },
+      {
+        "path": "reviews/2026-10-13/c001-source/source-results.json",
+        "kind": "experiment",
+        "scope": "原冻结12组逐源矩阵、固定/重求向量及全部D交叉；普通高精度，非区间证书。"
+      },
+      {
+        "path": "reviews/2026-10-13/c001-source/signed-source-audit.md",
+        "kind": "proved",
+        "scope": "独立辅助核来源推导及背景混合费用；限定对象，不认证全W或连续极限。"
+      },
+      {
+        "path": "reviews/2026-10-13/c001-source/reverse-audit.md",
+        "kind": "proved",
+        "scope": "不同组织方式逆审有限混合账本及限定来源/区间证书；数值复算部分仍为experiment。"
+      },
+      {
+        "path": "reviews/2026-10-13/c001-source/rational-witness.json",
+        "kind": "obstruction",
+        "scope": "Fraction向外包围h_H(1,-1)<-0.0004227，L=log13；只否定实际辅助H的PSD，不否定W。"
+      },
+      {
+        "path": "notes/528-actual-prime-reflection-relative-bound-obstruction.md",
+        "kind": "obstruction",
+        "scope": "每个实际素数端点P≥3上辅助H_R/H_BG无下界，所有有限正指标量词；不排除完整Weil型、质量误差或限制低域。"
+      },
+      {
+        "path": "reviews/2026-10-13/c002-relative/reflection-relative-bound-audit.md",
+        "kind": "proved",
+        "scope": "独立明确常数、实际原子Cesaro二阶与负子序列及全C量词审查；辅助核范围。"
+      },
+      {
+        "path": "reviews/2026-10-13/c002-relative/reverse-audit.md",
+        "kind": "proved",
+        "scope": "不同组织的复Cauchy精确能量/首阶、频率和素数端点泛化逆审；非完整W结论。"
+      }
+    ],
+    "pending_processes": [],
+    "runtime_goal_observation": {
+      "status": "active",
+      "observed_on": "2026-10-13",
+      "created_at_epoch": 1791901071,
+      "basis": "本轮get_goal确认已有长期Goal active；create_goal拒绝重复创建，沿用原Goal。"
+    },
+    "goal_completion_requested": false,
+    "checkpoint": "goals/checkpoints/2026-10-13-c002-relative-settled.json",
+    "last_verified_remote": {
+      "repository": "https://github.com/lixiang90/RH-Weil",
+      "commit": "7b59c398cfdbc3725cf3e9a02926911442b1603c",
+      "basis": "本轮GitHub连接器核实登录与owner均lixiang90、push/admin=true；git push成功后git ls-remote与HEAD一致。此记录是C001推送观察，非即将C002提交的SHA。"
+    }
+  },
+  "cadence_snapshot": {
+    "schema": "rh-weil-research-review-cadence-v1",
+    "user_instruction_date": "2026-10-08",
+    "minimum_rounds": 4,
+    "target_rounds": 6,
+    "maximum_rounds": 8,
+    "counting_unit": "completed research continuation iteration, not tool calls or files",
+    "rounds_since_review": 3,
+    "last_review": "goals/reviews/2026-10-11-original-route-review-cycle-6.md",
+    "last_review_baseline_commit": "b9651f2375a89b905191225e7dd710075a05be96",
+    "last_review_completed_round_count": 4,
+    "last_review_trigger": "actual centered group growth has now been compared completely with the unknown zero bandwidth, and the natural single-line Hilbert quotient collapses; the analytical bridge is complete but independent arithmetic contraction is absent, so review early at round four",
+    "last_completed_round": "notes/528-actual-prime-reflection-relative-bound-obstruction.md",
+    "last_completed_round_date": "2026-10-13",
+    "last_completed_round_baseline_commit": "7b59c398cfdbc3725cf3e9a02926911442b1603c",
+    "latest_user_directed_review": "goals/reviews/2026-10-12-connes-frontier-and-equivalence-strategy.md",
+    "latest_user_directed_review_baseline_commit": "851a70bef3de8985120dc252284bb8bc28ec9d34",
+    "latest_user_directed_review_scope": "strategic reflection using selected prior notes, previous retrospectives and primary Connes papers through 2026-08-31; not a fresh full audit of all 526 notes; no new completed mathematical round or cadence reset",
+    "current_research_focus": "Execution authority remains STATE/GOAL. C002 settled an actual prime-endpoint auxiliary reflection relative-bound obstruction; full Weil signed positivity remains unpaid. C003 returns to the full odd-energy/source-coupling comparison. Next completed iteration reaches the minimum macro-review cadence.",
+    "weil_f1_rounds_since_historical_review": 10,
+    "last_completed_round_note_paths": [
+      "notes/524-f1-mobius-cutoff-taylor-obstruction-and-repair.md",
+      "notes/525-f1-smoothed-mobius-probes-and-arithmetic-strength.md",
+      "notes/526-f1-faithful-two-weight-hilbert-quotient-and-defect.md",
+      "notes/527-weil-reflection-source-signs-and-arithmetic-sensitivity.md",
+      "notes/528-actual-prime-reflection-relative-bound-obstruction.md"
+    ]
+  },
+  "normalized_lf_sha256": {
+    "AGENTS.md": "89adc49308c909ff262aa382252b8e05940a498e40d2c6502e9ea743d75ae66a",
+    "goals/DECISIONS.md": "c877f2192197411c7c6d88d3f3a9beeb2bcf7bced724e8f9eede3ecb0ac24a74",
+    "goals/GOAL.20261013.md": "96e6bd6676fef2c32f155e3b27734917cb1a9982b003f74444b90202c9307726",
+    "goals/RESEARCH_WORKFLOW.md": "406136a2d7399e08099deeab71660884fd28a968ad9d3dda15d37f125a2553fa",
+    "goals/STATE.json": "56802757ef391329d79c108dbf454c42b6312e79cff7b10fe6a9a4351f60af51",
+    "goals/contracts/C003-full-odd-energy-signed-source.md": "7f88bbc41ba65fc13e6286e31ae87fd65ab26ef62f73783a6afdfd4be540cc78",
+    "goals/review-cadence.json": "c7ef49e02a49b2021f5300697dff22231801e59951f269443e4897d80b6f0d15",
+    "goals/reviews/2026-10-12-connes-frontier-and-equivalence-strategy.md": "42428f85cd0eae7d1636e7b06c1973b505e56e2750d32f487d600ee3932413a0",
+    "literature/supplements/2026-10-12-connes-recent-paper-audit.md": "c8c12028ab393bd5ece186644417c506ab9ac3aa8146c131c22abbd0a439a92a",
+    "notes/016-prime-graph-hodge-inequality.md": "05fa91f5a7251ce3da071a68e618e174e8fbcf3e07770e76122c37e34b4748c5",
+    "notes/526-f1-faithful-two-weight-hilbert-quotient-and-defect.md": "807e496d9bdbc0139d80736a9f34c4017ea759a80a640122d970fbf35d6c7e5c",
+    "notes/527-weil-reflection-source-signs-and-arithmetic-sensitivity.md": "3fb38f7dd6292fa9d466249ff1d7bb8731d3351b140fb54913e556cd4f309bef",
+    "notes/528-actual-prime-reflection-relative-bound-obstruction.md": "12d122d36285581da351b71b5166cc1601f1d8ba560f8859732d7f24a9769b3e",
+    "reviews/2026-10-13/c001-source/rational-witness.json": "f773a578ceb0ce9e6016088b50fea6ef147c8e9b2b48b1f89881960837cf9717",
+    "reviews/2026-10-13/c001-source/reverse-audit.md": "c5794a4d0415a9161b89f342865d6acf167e99b933d33bbbe3878d0ad9e3cfe3",
+    "reviews/2026-10-13/c001-source/signed-source-audit.md": "272240a55e2e38c5e8d0fa4e361919da4b201cc89ef93489b606d50d97aae883",
+    "reviews/2026-10-13/c001-source/source-results.json": "27a2712cd923600348ed721d763ff8e84232fba8f80efc15cb6c49a24013ca08",
+    "reviews/2026-10-13/c002-relative/reflection-relative-bound-audit.md": "78b9333ed65deae2968c7929832a28bbf305d8f8c5119c442993a8891760b07d",
+    "reviews/2026-10-13/c002-relative/reverse-audit.md": "eecf65caae96108a62694e042acdd6732b55380a689ec7dc1e74ffb1ba32abf0",
+    "reviews/2026-10-13/goal-start-pilot/independent-review.json": "b22261308451c4a9b44d0d41b784306dc6109fef089441c51fefab49985068b1",
+    "reviews/2026-10-13/goal-start-pilot/pilot-results.json": "b84b43de882b6e6cefe781f20123014961f4ce0cfbbe01a65cf83690cc1242e1",
+    "reviews/2026-10-13/goal-start-pilot/preregistration.json": "b796b33c8e8c0612604d91da8f53a127a38a9789eaebf6e1dea676176152d774",
+    "reviews/2026-10-13/goal-start-pilot/receipt.md": "35a806c804553d0d04217d87a1e3bee32d97c07865dd1f7e1f8f46cc83098e88",
+    "reviews/2026-10-13/goal-start-pilot/run_pilot_snapshot.py": "e59cb114bb476bad9d5d50e99a2690f70c3cd53c8e93f2f244e1ccfc6398eef7",
+    "scripts/qw_matrix.py": "f5418b1a6aced2063a48db15d796af34b4c5751e69b5063120a8902281ec44e7",
+    "scripts/research_state.py": "dbc0d43e06833d79e04d0ede3306e6b8e91d6ed57fba9b08f605de47fb269618",
+    "scripts/weil_sensitivity_pilot.py": "a49669946c4642378ac93a0a24838f086812bd3e319ed11754a2325d2c9a08c1"
+  },
+  "scope": "Structural recovery snapshot; not proof or live runtime verification"
+}
