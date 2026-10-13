@@ -35,7 +35,7 @@
     "id": "C008",
     "path": "goals/contracts/C008-compact-window-primary-certificate-audit.md",
     "status": "stopped",
-    "stage": "536结算一轮：actual2θ′/complex parity/closedcompactresolvent核准；原数字证书未取得。有理数tail证明仅纠正较宽pointwise阈值语句。",
+    "stage": "536结算一轮：actual2θ′/complex parity/closedcompactresolvent核准；原数字证书未取得。有理数tail证明仅纠正较宽pointwise阈值语句。 独立审查及证明版364a7dd本地/远程一致，工作树核清；原数字不验收。",
     "next_action": "仅在原certificate原件可定位后重准入C008：先读matrix/factors/errorbook/frame/trial-source/verifier并核向外误差，再消费固定小窗全源正性/排序。当前无待运行计算，不自行复造矩阵或联系作者。",
     "stop_rule": "原证书与全域误差未付，一轮止损；重准入须原证明附件或不同可核signed机制。不得将高频尾界、矩阵PD或恒精度重算当wholeQ定理。"
   },
@@ -227,11 +227,11 @@
     "basis": "历史Goal已complete；本次get_goal返回null，无新runtime Goal。Get-Process未见python；C008为明确追加任务。"
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-10-14-c008-certificate-admission.json",
+  "checkpoint": "goals/checkpoints/2026-10-14-c008-saved-and-verified.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
-    "commit": "8bfb38e3d31b130e21ffd81820504842332e7c3a",
-    "basis": "原Goal完成之前ls-remote/HEAD同一8bfb38e；这是已核proof SHA，不预写本终态收据待保存SHA。"
+    "commit": "364a7ddc7dbaa8225147ecaa7885a0da58a4483b",
+    "basis": "C008证明/独立审查已保存推送；HEAD和ls-remote均实际返回此SHA。后续终态metadata不另计数学轮。"
   },
   "latest_macro_review": "goals/reviews/2026-10-14-sonin-arithmetic-budget-review-cycle-8.md",
   "completion_audit": {
