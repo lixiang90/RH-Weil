@@ -95,3 +95,17 @@ C005完成；低域compact符号、成长S/U预算和真正lowest/prolate仍未�
 唯一C006以晚素数对同一合法源的真实overlap增量为准入，
 只消费实际p-rate/cross，不能以粗O(p^-1/2)relativeΓ或旧514不同对象代替。
 重准入旧route须新的actual signed来源；暂停比例/无零区域保持。
+
+## D20261014B：固定源晚prime平方已付，停止统一首项渐近，审真正可求和上界
+
+依据[533](../notes/533-actual-late-prime-sonin-boundary-square.md)及
+[第八周期复盘](reviews/2026-10-14-sonin-arithmetic-budget-review-cycle-8.md)。
+实际整数prime端点与全部Gram return给p^-2正平方；裸q²mass精确取消，
+source大移位的actualΓ/δ非振荡核完全取消。固定smooth源signed增量与求和已付。
+源L²首项coercive，但余项需导数；冻结每p差额compact与首项π^-2I+compact
+严格排除uniform o(p^-2)算子渐近，不能将这个不可能目标留作未知前件。
+未排除uniform可求和上界或positive compact增量；宏观完整正性/lowest/growingS仍未付。
+C006只余最后一轮，唯一审原冻结V的||D_p||≤Cp^-2或实际较弱可求和尾，
+保留joint carrier/p范围。支付后才运输base S；失败则按合同止损，不扩数值。
+四轮复盘消费同一cadence后清零，不将三份审查/复盘/推送计新轮或完成Goal。
+暂停及降级路线保持；重新准入须新的actual joint signed来源或共同预算。

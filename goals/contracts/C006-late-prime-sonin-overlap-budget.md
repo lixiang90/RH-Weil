@@ -2,6 +2,22 @@
 
 2026-10-14；STATE指定唯一主合同；先一完整轮，至多两轮止损。
 
+## 第一轮结算及当前唯一下一动作
+
+[533](../../notes/533-actual-late-prime-sonin-boundary-square.md)已经消费fixed smooth源
+`T_p−T∞=p^-2 A(g)+O_g(p^-5/2)`，A为真实endpoint正平方，
+固定有界源U上A_U=π^-2I+compact且coercive；fixed smooth single-p绝对求和已付。
+余项仍有Sobolev费用。冻结V上每个D_p紧，故
+`||p²D_p−A_V||≥π^-2`；统一o(p^-2)算子渐近及统一首项正下界严格停止。
+此边界不排除统一绝对上界、正算子性或可求和尾。
+
+**当前唯一下一动作（第二且最后一轮）：**在原冻结V上直接检验actual
+`||D_p||≤Cp^-2`或较弱`Σ_p||D_p||<∞`的源L²预算，
+先用joint carrier/p负对照检验实际交接，不以fixed-g余项替代whole V费用。
+不再追已排除的norm渐近；single-p共同预算未付前，不先运输base S或扩S/U。
+若只能得到旧泛relativeΓ或unknown条件，合同止损；重准入须新实际joint signed核界。
+以下保留原第一轮任务及冻结条件为执行历史，不是另一个当前下一动作。
+
 ## 宏观理由与独立输入
 
 [532](../../notes/532-actual-sonin-prime-symbol-and-compact-weil-bridge.md)
