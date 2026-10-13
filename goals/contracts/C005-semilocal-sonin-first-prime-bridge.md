@@ -48,3 +48,13 @@ compact且norm<1，但非HS；绝对prolate系数不可和，不能照搬实位�
 并审其偏离是否有源L²有界/紧余项。先从Mellin evaluation核及G逆的精确表达核局部高频symbol，
 不得以relativeΓ尾在R→∞的不可控界代替该动作。
 若只能保留未知通量或泛范数界，第二轮按止损停止；重准入仍须独立signed bridge。
+
+## 第二轮结算：首素数非紧桥已付，合同完成
+
+2026-10-14，[532](../../notes/532-actual-sonin-prime-symbol-and-compact-weil-bridge.md)
+用真实Gamma相位、双边界P、Mellin求值域及完整G逆误差证明实际全部p幂密度主项。
+固定有限源域剩余为源L²紧型；冻结完整QW−T2 compact，d_R±→∓2w2，
+由source/kernel/不同组织逆审完成消费。没有把单边界公式或relativeΓ尾当完整桥。
+此合同完成两轮实质工作；三份审查不各计轮，长期Goal不因合同完成而结束。
+紧overlap的低域符号、成长S/U及最低态/prolate仍未付。
+唯一下一合同C006审同一固定源域晚素数真实overlap费用；本合同的旧动作句保持历史。

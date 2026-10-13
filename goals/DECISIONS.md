@@ -82,3 +82,16 @@ actual2θ′与旧half scalar helper已有明确对照；原冻结核不改，
 这一箭头已有真实positive trace接口，但完整正性/最低态宏观瓶颈未消除。
 C005仅余最后一轮：从真实kernel/G逆直接评估冻结弱零两patch通量的∓2w2主项及源L²剩余；
 若无独立signed输入，停止未知comparison改名。既有暂停/降级路线保持。
+
+## D20261014A：真实prime主项已付，从固定源桥转向成长费用
+
+依据[532](../notes/532-actual-sonin-prime-symbol-and-compact-weil-bridge.md)及不同组织逆审。
+实际Gamma的统一sharp-window运输和双边界projection支付完整G逆的误差，
+真实T_p−T∞给全部p幂负prime项及固定源紧余项；冻结完整QW−T2因而compact。
+这改变独立正来源到实际算术型的桥，不是旧相位/同构或只有conditional Schur。
+531非HS边界保留，新有符号分析绕过绝对prolate误差法，不默默恢复它。
+C005完成；低域compact符号、成长S/U预算和真正lowest/prolate仍未付，Goal保持active。
+不再重算已付first-prime，不将C₀乘子解释为正性或uniform-growth常数。
+唯一C006以晚素数对同一合法源的真实overlap增量为准入，
+只消费实际p-rate/cross，不能以粗O(p^-1/2)relativeΓ或旧514不同对象代替。
+重准入旧route须新的actual signed来源；暂停比例/无零区域保持。

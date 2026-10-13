@@ -1,0 +1,11 @@
+{
+  "client_date": "2026-10-14",
+  "source_url": "https://arxiv.org/pdf/math/0208121v1",
+  "version": "v1, 2002-08-15; 7 pages, not 4-page journal layout",
+  "local_path": "literature/background/burnol-sonine-0208121v1.pdf",
+  "sha256": "1890a3867e745c342be3a70eeb2948c673bfb644fc4f392f9302d0b9c96acc3b",
+  "read_scope": "Source agent full 7-page read, Lemma2/3, Theorem4 and Theorem7-9; visual pages5-7. Main proof independently derives bounded pair-projection from Gram and uses CCM de Branges evaluation continuity, not a semilocal theorem attributed to Burnol.",
+  "other_inputs": "Original Connes author and CCM v2 bytes/versions in c004-sonin and c005-semilocal source receipts; Gamma expansion DLMF5.11 checked by main.",
+  "retention": "Original Burnol PDF locally retained and Git-ignored; receipts/proofs tracked. Output directory date inherited from C005, actual read/settlement date is14.",
+  "scope": "Source identity/read receipt; not priority or full dependency certification"
+}

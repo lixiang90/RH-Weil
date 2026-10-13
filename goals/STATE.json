@@ -1,17 +1,17 @@
 {
   "schema": "rh-weil-macro-state-v1",
-  "updated_for_client_date": "2026-10-13",
+  "updated_for_client_date": "2026-10-14",
   "baseline_commit": "3a72930e9f9f554b03b41d17d8c8002f1813ca82",
   "goal": "goals/GOAL.20261013.md",
   "workflow": "goals/RESEARCH_WORKFLOW.md",
   "cadence": "goals/review-cadence.json",
   "decisions": "goals/DECISIONS.md",
   "latest_strategy": "goals/reviews/2026-10-12-connes-frontier-and-equivalence-strategy.md",
-  "latest_decision": "D20261013G",
+  "latest_decision": "D20261014A",
   "macro": {
     "long_objective": "独立实际算术来源约束同一完整Weil型／ζ谱，并取得非重复强制后果；不把新等价、有限实验或组织工作当完成。",
-    "unpaid_bottleneck": "真实半局部同源有限正trace已付，但它与完整QW的边界通量首素数主项及源L²剩余尚未付；完整signed正性、最低态/prolate与成长支持预算仍开放。",
-    "why_this_contract": "531给真实投影/正迹/精确flux和actual cutoff非HS边界，排除原样移植实位快速误差；C005最后一轮直接评估冻结弱零源的prime主项，不能靠粗Γrelative界晋级。",
+    "unpaid_bottleneck": "真实单prime正Sonin trace已消费到实际全部p幂主项与固定源紧余项；完整冻结QW−T2 compact已付。低域compact overlap符号、成长S/U统一费用及真正最低态/prolate仍未付。",
+    "why_this_contract": "532付首素数非紧signed桥，继续重算已无净值；C006用同一冻结源域的晚素数真实overlap增量检验成长费用，先取joint p/logp极限而非泛normtransport。",
     "paused_routes": [
       "零点比例优化",
       "无零区域优化"
@@ -29,12 +29,12 @@
     ]
   },
   "primary_contract": {
-    "id": "C005",
-    "path": "goals/contracts/C005-semilocal-sonin-first-prime-bridge.md",
+    "id": "C006",
+    "path": "goals/contracts/C006-late-prime-sonin-overlap-budget.md",
     "status": "ready",
-    "stage": "C005首轮已结算：真实Pp正迹/flux合法；每p每L actual cutoff compact、norm<1但非HS，成长L gap消失，经不同组织逆审；只余最后一轮signed桥检验。",
-    "next_action": "从真实Sonin Mellin evaluation核及压缩G逆表达，直接核C004冻结弱零两patch的d_R±=(T2−T∞)(U(h_R,±h_R))主项是否为∓2log2/√2，并支付源L²剩余；不得把relativeΓ尾在R→∞的不可控界当固定质量证书。",
-    "stop_rule": "仅余最后一完整轮；若只有unknown通量、旧同构/粗范数或新的RH等价则停止，不继续改名，不自动计数学轮或Goal完成。"
+    "stage": "C005两轮已完成：真实positive trace、actualprime主项、固定源compact桥及域经独立逆审；low符号和growingS未付。",
+    "next_action": "在原冻结两patch/矩零源域，对实际p≥3 Sonin投影BP(PB*BP)^−1PB*的同源T_p−T∞直接推p→∞首个非零signed overlap项与源L²费用；primepower相关在此严格0。先核q=p^-1/2和a=logp的联合实际极限，不能将粗relativeΓ O(q)或单prime结果冒充成长S预算。",
+    "stop_rule": "先一完整轮、至多两轮；仅旧localtrace/泛norm/unknown低谱或重新命名条件则停止，不自动计数学轮。"
   },
   "support_contracts": [],
   "must_not_forget": [
@@ -53,7 +53,8 @@
     "actual完整Γ multiplier=2θ′；原矩阵核与C001数据未改，旧half helper默认m不是actual正块来源证书。",
     "C004已有Sonin输入不算新；两patch全η比较与单个负对照分开，源内正性不能自由极化。",
     "530只指两patch压缩差额ess±w2，不是QW负谱或全interval差额ess；compact须诱导L²二次型紧，质量费≥w2只是必要。",
-    "531已付真实半局部正迹存在，未付signed bridge；actual cutoff非HS不推出E2不连续或源差额非紧。ambient L与冻结source λ不同。"
+    "531actual cutoff非HS不推出E2不连续或源差额非紧；532另付源compact bridge。ambient L与冻结source λ不同。",
+    "532完整fixed-p/fixed-source bridge已付；source紧型不预设符号、不统一于growingS/U。C005已完成，后续只按C006恢复。"
   ],
   "evidence": [
     {
@@ -82,29 +83,9 @@
       "scope": "12组普通高精度有限数据及结构残差；未做directed rounding或连续升级。"
     },
     {
-      "path": "reviews/2026-10-13/goal-start-pilot/receipt.md",
-      "kind": "experiment",
-      "scope": "历史启动样本收据；普通高精度灰带限制保留，C001后来验收见527，不从本收据升级。"
-    },
-    {
-      "path": "reviews/2026-10-13/goal-start-pilot/independent-review.json",
-      "kind": "experiment",
-      "scope": "110位Decimal对保存数字独立复算灰带、D前提及跨精度统计；不是矩阵积分／全域证明重放。"
-    },
-    {
       "path": "scripts/qw_matrix.py",
       "kind": "experiment",
       "scope": "本批真实数值核的共享实现；原运行LF哈希见预注册，不认证任何猜想。"
-    },
-    {
-      "path": "scripts/weil_sensitivity_pilot.py",
-      "kind": "experiment",
-      "scope": "安全重放入口，保留数学实现／参数，默认输出tmp而非公开归档。"
-    },
-    {
-      "path": "reviews/2026-10-13/goal-start-pilot/run_pilot_snapshot.py",
-      "kind": "experiment",
-      "scope": "历史实际执行包装的原字节快照；禁止在公开归档执行，重放用安全入口。"
     },
     {
       "path": "notes/527-weil-reflection-source-signs-and-arithmetic-sensitivity.md",
@@ -240,21 +221,46 @@
       "path": "reviews/2026-10-13/c005-semilocal/source-receipt.json",
       "kind": "cited",
       "scope": "原v2 PDF本地字节/URL/哈希/限定核读范围；原件本地忽略保留。"
+    },
+    {
+      "path": "notes/532-actual-sonin-prime-symbol-and-compact-weil-bridge.md",
+      "kind": "proved",
+      "scope": "实际Mellin密度完整p幂signed主项，fixed finite source余项紧，冻结QW−T2 compact/d_R±∓2w2；low符号/growingS未付。"
+    },
+    {
+      "path": "reviews/2026-10-13/c005-flux/direct-symbol-audit.md",
+      "kind": "proved",
+      "scope": "独立Gamma窗口/actualP clipping、弱limit合法求值与完整G逆误差、chain主项/C0乘子源紧性全证。"
+    },
+    {
+      "path": "reviews/2026-10-13/c005-flux/trace-source-audit.md",
+      "kind": "proved",
+      "scope": "原件核读与singleboundary合法TC/全部prime、actualoverlap精确身份；未独立证明新compact符号。"
+    },
+    {
+      "path": "reviews/2026-10-13/c005-flux/reverse-audit.md",
+      "kind": "proved",
+      "scope": "不同组织复核actualwindow/domain/local求值norm连续/completeinverse/compact消费；未扩finiteS或Goal完成。"
+    },
+    {
+      "path": "reviews/2026-10-13/c005-flux/source-receipt.json",
+      "kind": "cited",
+      "scope": "Burnol v1字节/版本/核读及其他primary receipts引用；非semilocal比较定理引证。"
     }
   ],
   "pending_processes": [],
   "runtime_goal_observation": {
     "status": "active",
-    "observed_on": "2026-10-13",
+    "observed_on": "2026-10-14",
     "created_at_epoch": 1791901071,
-    "basis": "本续轮get_goal确认同一长期Goal active；三个辅助审查均完成，无待处理下载/计算/agent；未调用complete/blocked/paused。"
+    "basis": "本续轮get_goal确认同一长期Goal active；来源/kernel/逆审与最终主笔记只读核均完成，无待处理辅助agent/下载/计算；未complete/blocked/paused。"
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-10-13-c005-first-source-settled.json",
+  "checkpoint": "goals/checkpoints/2026-10-14-c005-arithmetic-bridge-settled.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
-    "commit": "7281079320cde406a24564e17cdbe5774f11fd4e",
-    "basis": "上一轮push后ls-remote与HEAD一致，本轮起始HEAD相同；不是本次待保存SHA。"
+    "commit": "6968df30584a54e8141d3f828be06d77c966dfce",
+    "basis": "上一轮push后ls-remote与HEAD一致，本轮起始HEAD同一SHA；不是本次待保存SHA。"
   },
   "latest_macro_review": "goals/reviews/2026-10-13-full-weil-source-review-cycle-7.md"
 }
