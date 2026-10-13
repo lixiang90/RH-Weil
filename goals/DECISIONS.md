@@ -40,3 +40,22 @@ STATE作唯一短入口；Goal保稳定目的／完成门槛；历史不删除�
 下一合同C003必须在实际连续源上同时保留奇能量、反向项与prime常数耦合，
 没有新的有符号来源比较即1–2轮停止，不能以未知低谱投影重命名前件。
 宏观正性瓶颈未改变；此辅助方法边界不倒填长期Goal完成。
+
+## D20261013D：标准锥原型保正方法停止，actual归一化须纠正
+
+依据[529](../notes/529-full-weil-positive-cone-semigroup-boundary.md)及两条连续源/半群审查。
+完整actual型标准正锥保正iff λ²≤α，α³−α−1=0；超过阈值，
+scalar shift、bounded局部实势及bounded正权相似不能修复。
+这不否定Weil型正性或真正最低态偶性，不把fullkernel措辞当宏观Goal完成。
+actual2θ′与旧half scalar helper已有明确对照；原冻结核不改，
+旧正块预算需按erratum另付归一化和费用后才准消费。
+
+## D20261013E：四轮复盘后返回独立Sonin正来源准入
+
+依据[第七周期复盘](reviews/2026-10-13-full-weil-source-review-cycle-7.md)。
+529有完整型方法边界，但核心signed联合正性和实际lowest/prolate仍未付，Goal保持active。
+不继续H背景费、模量修复、hyperbolic主阶重算、TP2或条件BS改名。
+唯一C004核已知primary Sonin正来源，按actual2θ′写同源trace差，
+冻结仅含真实p2交叉的两patch合法域，先审是否有新独立signed比较。
+原7.2定理和小支持/高频正性不重记新；无新的actual桥则一轮停止。
+暂停及降级路线不复活；宏观复盘重置同一cadence，不复制旧计数。

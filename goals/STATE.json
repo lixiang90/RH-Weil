@@ -7,11 +7,11 @@
   "cadence": "goals/review-cadence.json",
   "decisions": "goals/DECISIONS.md",
   "latest_strategy": "goals/reviews/2026-10-12-connes-frontier-and-equivalence-strategy.md",
-  "latest_decision": "D20261013C",
+  "latest_decision": "D20261013E",
   "macro": {
     "long_objective": "独立实际算术来源约束同一完整Weil型／ζ谱，并取得非重复强制后果；不把新等价、有限实验或组织工作当完成。",
-    "unpaid_bottleneck": "没有独立支付完整Weil正性；prolate与真正最低态的比较、全补空间和增长支集的统一费用仍未付。",
-    "why_this_contract": "反向背景全域相对费用已由实际高指标有符号子序列否定；必须返回完整奇域与同源常数交叉，寻找独立实际联合比较而非再改等价条件。",
+    "unpaid_bottleneck": "没有独立支付完整Weil正性；actual完整prime/极点/无穷位联合支配、真正最低态/prolate及全补空间增长费用仍未付。旧half scalar shift不能消费为actual正块证书。",
+    "why_this_contract": "前三项source边界未支付完整正性；从已有真实Sonin正trace输入开始，在预冻结真实p2两patch域检验新同源signed bridge，避免继续条件算子改名。",
     "paused_routes": [
       "零点比例优化",
       "无零区域优化"
@@ -22,16 +22,17 @@
       "固定多正实权等价酉化停止",
       "RR字段扩张后置",
       "C001有限敏感性数值扩展冻结",
-      "辅助反向核H_R对H_BG的固定全域相对下界停止"
+      "辅助反向核H_R对H_BG的固定全域相对下界停止",
+      "原生标准锥保正半群、bounded局部势及正权相似修复停止"
     ]
   },
   "primary_contract": {
-    "id": "C003",
-    "path": "goals/contracts/C003-full-odd-energy-signed-source.md",
+    "id": "C004",
+    "path": "goals/contracts/C004-sonin-positive-source-consumption.md",
     "status": "ready",
-    "stage": "C001/C002各结算一迭代；已有背景来源和辅助核费用边界，尚无完整对象的新算术正性。",
-    "next_action": "从真实连续奇form-domain及其偶伙伴推导同源prime反向项、prime常数耦合与完整奇能量表达；核对周期Fourier归一化，先检验新的联合有符号比较能否在实际非空域成立，禁止仅引入未知低谱投影或重复004/016当进展。",
-    "stop_rule": "最多1–2完整研究轮；若仅重复恒等式、条件Schur或未知低谱限制，冻结技巧并转来源机制筛选。"
+    "stage": "C003已完成完整actual标准锥半群精确边界与归一化消费纠错；四轮宏观复盘完成，Sonin source bridge尚未执行。",
+    "next_action": "核Connes–Consani2021 primary Sonin正trace原定理的支持/消失/error；在actual2θ′下对a=log2,b=log(3/2)/4,μ=13/5,g=D(D+1/2)η的两移位源写QW−Sonin trace完整2×2差，先判断真实p2交叉是否有新的独立signed支配或严格负对照。",
+    "stop_rule": "先一轮止损，最多两轮；仅旧Sonin摘要、小支持/高频正性、unknown低谱或条件Schur不计晋级，不自动计数学轮。"
   },
   "support_contracts": [],
   "must_not_forget": [
@@ -45,13 +46,16 @@
     "整体Goal须达到独立实际输入或实质方法类边界的强度；局部合同完成不能倒填较弱成功。",
     "527的背景H正Gram/混合费用与实际H负方向均不是完整W正性；C001数值扩展冻结。",
     "固定v0在扰动后只是奇Rayleigh试探，N6负移位fixed D<0而moving D>0；必须重求真正底空间。",
-    "528对每个素数端点P≥3排除全正指标固定背景相对费用；H不是W/O，质量项、低域、同源耦合仍是未排除逃逸。"
+    "528对每个素数端点P≥3排除全正指标固定背景相对费用；H不是W/O，质量项、低域、同源耦合仍是未排除逃逸。",
+    "529关闭完整actual标准锥保正shortcut，保正不是Weil半正定；非局部signed机制和真正lowest/prolate未排除。",
+    "actual完整Γ multiplier=2θ′；原矩阵核与C001数据未改，旧half helper默认m不是actual正块来源证书。",
+    "C004已有Sonin输入不算新；两patch全η比较与单个负对照分开，源内正性不能自由极化。"
   ],
   "evidence": [
     {
       "path": "notes/016-prime-graph-hodge-inequality.md",
       "kind": "proved",
-      "scope": "实际QW=P-V恒等式与指定逐块绝对范数步骤的线性损失；全空间domination仍是条件目标。"
+      "scope": "P−V/graph恒等式与指定degree范数损失保留；actual2θ′纠错见C003 erratum，旧half默认shift的正块解释不准消费。"
     },
     {
       "path": "notes/526-f1-faithful-two-weight-hilbert-quotient-and-defect.md",
@@ -152,6 +156,36 @@
       "path": "reviews/2026-10-13/c001-source/preregistration.json",
       "kind": "experiment",
       "scope": "C001执行前冻结来源分解与固定/移动向量交叉账本。"
+    },
+    {
+      "path": "notes/529-full-weil-positive-cone-semigroup-boundary.md",
+      "kind": "obstruction",
+      "scope": "完整actual标准锥半群保正iff λ²≤α，及boundedlocalV/正序相似类；不认证Weil半正定或实际最低态。"
+    },
+    {
+      "path": "reviews/2026-10-13/c003-full-source/continuous-source-audit.md",
+      "kind": "proved",
+      "scope": "实际周期相位/源接口及完整模量4/8因子、operator-domain和全域converse独立审查。"
+    },
+    {
+      "path": "reviews/2026-10-13/c003-full-source/semigroup-reverse-audit.md",
+      "kind": "proved",
+      "scope": "完整交叉核/跳能量不同组织逆审，精确阈值、boundedlocalV、resolvent与量化常数。"
+    },
+    {
+      "path": "reviews/2026-10-13/c003-full-source/normalization-erratum.md",
+      "kind": "proved",
+      "scope": "actual−w_real/primary2θ′与旧scalar helper θ′的精确对象纠错；不是全下游重建。"
+    },
+    {
+      "path": "reviews/2026-10-13/c003-full-source/macro-input-audit.md",
+      "kind": "open",
+      "scope": "独立Goal10规模及下一来源选择审查；原Sonin定理已知，新的两patchtrace桥未付。"
+    },
+    {
+      "path": "goals/reviews/2026-10-13-full-weil-source-review-cycle-7.md",
+      "kind": "open",
+      "scope": "周期四轮宏观审计和路线筛选，不是新数学轮；完整Goal仍未通过完成审计。"
     }
   ],
   "pending_processes": [],
@@ -159,13 +193,14 @@
     "status": "active",
     "observed_on": "2026-10-13",
     "created_at_epoch": 1791901071,
-    "basis": "本轮get_goal确认已有长期Goal active；create_goal拒绝重复创建，沿用原Goal。"
+    "basis": "本续轮get_goal确认原长期Goal active；未调用complete/blocked/paused。"
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-10-13-c002-final-hashes.json",
+  "checkpoint": "goals/checkpoints/2026-10-13-c003-cycle7-settled.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
-    "commit": "7b59c398cfdbc3725cf3e9a02926911442b1603c",
-    "basis": "本轮GitHub连接器核实登录与owner均lixiang90、push/admin=true；git push成功后git ls-remote与HEAD一致。此记录是C001推送观察，非即将C002提交的SHA。"
-  }
+    "commit": "03f7631cd0bd670139427e063d6cc04548397976",
+    "basis": "上一轮git push后ls-remote与HEAD一致；本轮起始HEAD同一SHA。不是本次即将保存的SHA。"
+  },
+  "latest_macro_review": "goals/reviews/2026-10-13-full-weil-source-review-cycle-7.md"
 }

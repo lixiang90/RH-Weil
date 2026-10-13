@@ -1,5 +1,11 @@
 # Weil 算子最低态的 simple-even 认证
 
+**2026-10-13来源补充：** 完整actual multiplier应为 `2θ′`；
+本稿的抽象simple-even/尾部认证条件保留，但将half scalar数值消费为actual
+谱底须先按[归一化纠正](../reviews/2026-10-13/c003-full-source/normalization-erratum.md)重付预算。
+[529](529-full-weil-positive-cone-semigroup-boundary.md)现在严格给出原生完整型
+标准正锥半群保正的精确支持阈值，强化第2节的Perron路线警示；不证明最低态奇偶。
+
 本笔记直接研究 Connes–Consani–Moscovici 的半局部 Weil 二次型 `QW_lambda`。目标不是假定其最低态单重且为偶，而是把该结论化成有限矩阵、显式尾界和严格不等式。
 
 ## 1. 中心化对数坐标与偶奇分解

@@ -44,6 +44,8 @@ def validate(root, state, cadence):
         raise ValueError("Read round state from cadence; do not duplicate it")
     for key in ("goal", "workflow", "cadence", "decisions", "latest_strategy"):
         resolve_file(root, state[key])
+    if state.get("latest_macro_review"):
+        resolve_file(root, state["latest_macro_review"])
     decision_text = resolve_file(root, state["decisions"]).read_text(encoding="utf-8")
     decision_id = state.get("latest_decision", "")
     if not decision_id or not re.search(
@@ -109,6 +111,8 @@ def checkpoint(root, state, cadence, output):
              state["latest_strategy"], state["primary_contract"]["path"]}
     paths |= {item["path"] for item in state["evidence"]}
     paths |= {item["path"] for item in state.get("support_contracts", [])}
+    if state.get("latest_macro_review"):
+        paths.add(state["latest_macro_review"])
     hashes = {}
     for relative in sorted(paths):
         raw = canonical(updated) if relative == STATE_PATH.as_posix() else resolve_file(root, relative).read_bytes()
@@ -142,6 +146,8 @@ def check_checkpoint(root, state):
 def show(state, cadence):
     print("Goal:", state["goal"])
     print("Baseline:", state["baseline_commit"])
+    if state.get("latest_macro_review"):
+        print("Latest macro review:", state["latest_macro_review"])
     print("Unpaid bottleneck:", state["macro"]["unpaid_bottleneck"])
     print("Why this contract:", state["macro"]["why_this_contract"])
     print("Primary:", state["primary_contract"]["id"], state["primary_contract"]["status"])

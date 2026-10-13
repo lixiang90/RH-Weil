@@ -1,5 +1,11 @@
 # 酉 Euler 图极化与广义中心线结构定理
 
+**2026-10-13归一化纠正：** prime图平方恒等式不变；完整Weil的actual
+archimedean multiplier应为 `2θ′`、高频首项为 `log|t|`。
+旧half scalar shift及其正块解释须按
+[归一化原件](../reviews/2026-10-13/c003-full-source/normalization-erratum.md)修正后才能消费到actual对象。
+符号P−V与条件结构定理不因这个纠错变成新的已付正性。
+
 文档 016 在有限区间上把素数 partial translations 写成图 Dirichlet 能量减
 degree 势。本笔记改用零延拓后的全线平移。优点是平移严格酉，且局部
 Frobenius/Satake 相位可以直接并入平移；于是“局部纯性”被翻译成一个精确

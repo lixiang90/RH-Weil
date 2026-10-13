@@ -1,5 +1,10 @@
 # Resonance concentration、正极化低谱与 Hodge 惯性指数
 
+**2026-10-13对象纠正：** (29)–(34)确实证明所定义half函数 `θ′` 的谱底，
+但原始实际QW无穷位是 `2θ′`。应用到actual型时K、m和quadratic constant
+均应乘2。abstract minmax命题保留；旧actual解释与默认helper费用不能无声消费。
+见[对照原件](../reviews/2026-10-13/c003-full-source/normalization-erratum.md)。
+
 文档 021 控制坏频率井中的 Fourier concentration，文档 022 则把 Weil
 正性写成紧 Hodge 算子特征值不越过 `1`。本笔记证明二者之间缺少的
 min--max 桥梁：坏集 concentration 的有限余维上界会把正极化算子的低谱

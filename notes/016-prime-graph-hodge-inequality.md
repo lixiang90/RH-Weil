@@ -1,5 +1,12 @@
 # 素数图平方分解与算术 Hodge–Riemann 不等式
 
+**2026-10-13归一化纠正：** 实际矩阵的无穷位multiplier是 `2θ′`，
+本稿把它写为 `θ′` 的scalar约定少一因子。完整型中应使用
+`m_actual=−γ−π/2−3log2−logπ`；P−V的符号恒等式及degree线性损失保留，
+但旧half默认shift不能免费证明actual正块非负。
+见[原件对照及消费限制](../reviews/2026-10-13/c003-full-source/normalization-erratum.md)。
+以下旧显示常数及历史数值不当作已重建的actual预算。
+
 文档 015 把经典 RH 的一个足够条件降为
 
 `QW_lambda>=-epsilon_lambda I`, `epsilon_lambda->0`.     (1)
