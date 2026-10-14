@@ -60,11 +60,6 @@
   ],
   "evidence": [
     {
-      "path": "notes/535-actual-first-prime-sonin-log-resonance-and-indefinite-error.md",
-      "kind": "obstruction",
-      "scope": "旧single-prime无费指定修复类边界；multi-prime/付费/新source未排。"
-    },
-    {
       "path": "notes/537-source-exact-weil-window-positive-tail-admission.md",
       "kind": "proved",
       "scope": "旧完整Q fixed L17/16全complex/Dlog正性，Γ/pp/双pole与误差桥。"
@@ -130,14 +125,14 @@
     "status": "active",
     "observed_on": "2026-10-14",
     "created_at_epoch": 1791936604,
-    "basis": "本轮现场get_goal同createdAt1791936604 active，gy-entry observation保存；550旧源恢复及C021准备不完成Goal。"
+    "basis": "Root最终现场get_goal同createdAt1791936604 active；550来源入口0、C021 source准备/conditional净门不结束Goal。"
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-10-14-gy-entry-c021-ready.json",
+  "checkpoint": "goals/checkpoints/2026-10-14-gy-entry-remote-verified.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
-    "commit": "e3a136e66bb6618941231169a217ac2c408a4ad6",
-    "basis": "Root只读现场git ls-remote完整main SHA=本地研究HEAD，工作树clean；七原审/549 raw working=index、MR PDF/text本地hash已核，文件/Goal组织与源费不complete。后续仅检查点/remote metadata提交，自指不滚基线。"
+    "commit": "df6a39f2cff17494a893e8949a90a90d64de7e5c",
+    "basis": "Root现场完整HEAD=remote main SHA且clean；550四审/原PDF-text hash和raw index一致，549最强旧修正收据保历史hash。后续仅remote/checkpoint metadata，不滚基线/cadence。"
   },
   "completion_audit": {
     "goal": "goals/GOAL.20261014.md",
