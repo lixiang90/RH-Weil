@@ -95,11 +95,21 @@ C014现由[543](../notes/543-full-gamma-heat-arithmetic-records-and-thermal-boun
 真实integerplateau还使全温度热账本≥c e^(S−L)，形式局部positive温度也不救leading指数。
 停止degree热预算微调；未排actual graph/pole signed与core density，限定边界不完成Goal。
 
-当前C015 ready：核Burnol math/9901051v2有分次local scattering来源，
+当时C015 ready：核Burnol math/9901051v2有分次local scattering来源，
 原unramified T_p正而H_p=logp−T_p，单位常数/负grading/反射pp均须保。
 先原证明与共同physical f的periodization/norm运输，再核真实joint信息；
 旧017 Euler恒等式不能再次登记新result，局部正块directsum不付算术极化。
 它比未付Selberg同向→反射桥有更具体原响应，但尚无新joint净后果，一轮无桥止损。
+
+C015现已在入口停止，[544](../notes/544-graded-local-source-admission-without-new-joint-input.md)原件/旧工具恢复零数学轮。
+共同complex norm/strict pp/Dlog已核，不再unknown；正time-delay在unramified H中仍为负项，
+finite joint分析减unit只还原017，cheap尾必须乘回p。新共同signed/core桥仍未付，cadence2/latest543。
+
+当前C016 ready：modular Maaß–Selberg完整cusp Gram独立几何来源，作者原件已冻结。
+原φ精确包含actualζ，但half-line unitary对应ζ Re0/1，ρ/2 quarter-line RH目标必须保。
+全complex正Gram扣完整cusp mode而非scalar，completed/poles及同physical f的全频Bochner norm需核。
+初步最高polar-sign门只排右半plane，并不排fullsubleading/joint；actualWeil bridge未付。
+若source只是compact smoothing/变norm或未付signed桥，不以正Gram命名强制后果，入口止损零轮。
 
 现实备选：直接研究完整Γ高尾与prime/pole的同源signed联合估计，或新的多prime/算术几何来源。
 若变尺度split的全源必要费用无法与tail供应同时闭合，应优先备选而不是不断增N。
@@ -122,7 +132,8 @@ C014现由[543](../notes/543-full-gamma-heat-arithmetic-records-and-thermal-boun
 | full Γ/中心化primitive C012 | 541付native absolute门边界，一轮止损 | signed/source分块/更强norm未排；重新准入须实际signed原定理 |
 | 多prime高矩/whole惯性C013 | 542新measure账本真，whole净值被旧强界覆盖，一轮止损 | 重准入须保完整图/profile的新joint信息，不仅优化k或弱2S对照 |
 | Γ heat/算术record profile C014 | 543新cofinal Ce^S净预算已付；一轮停止thermal主攻 | 全温度仍leading S；保正图/pole signed与core density逃逸，不是PSD/Ξ或macro完成 |
-| 有分次local scattering C015 | ready，原正T/负unramified H只cited准入 | 共同physical norm/常数相消与joint费用须付；旧Euler/局部正块不登记新forcing |
+| 有分次local scattering C015 | 544原件/commonnorm已核，入口停止零数学轮 | 旧Euler表述之外joint/core桥未付；mixed signed/graded耦合未排 |
+| modular完整cusp Gram C016 | ready，Zagier/Garrett原件冻结，来源准备零轮 | completion/全complexpacket/Dlog与actualWeil运输、真正cusp费用和新净值须付 |
 | 比例/无零区域 | 用户要求暂停 | 仅用户明确恢复；历史形式化资产保留各自前件 |
 | 独立算术几何 | 副线，独立Hodge符号仍open | 原几何定理接同算术配对/ζ对象，不扩未符号化字段 |
 

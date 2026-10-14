@@ -1,0 +1,593 @@
+
+=== PDF PAGE 1 ===
+(February 19, 2005)
+Truncation and Maaß-Selberg Relations
+Paul Garrett
+garrett@math.umn.edu
+http://www.math.umn.edu/˜garrett/
+According to Borel, Harish-Chandra gave the name Maaß-Selberg relation to the formula for the inner
+product of truncated Eisenstein series with cuspidal data. Apparently the systematic computation of these
+inner products is due to Langlands. A crucial technical issue is the precise notion of truncation of Eisenstein
+series.
+We give simple but non-trivial examples, with illustrative examples of consequences: possible poles of
+Eisenstein series, square-integrability of certain residues of Eisenstein series.
+This bears upon the construction of non-trivial residual square-integrable automorphic forms coming from
+cuspforms on smaller groups, anticipating that such automorphic forms occur as residues of Eisenstein series.
+For example, we can see why there is no interesting (i.e., non-constant) non-cuspidal discrete spectrum for
+GL(2) nor for GL(3), but only for GL(4) and larger groups. Namely, the Eisenstein series of interest on
+GL(3) have no poles at all in the right half-plane. This follows immediately from the Maaß-Selberg relations.
+Ideas of Zagier and Casselman regarding non-classical extensions of integrals (`a la Hadamard and M. Riesz)
+give alternative proofs of Maaß-Selberg relations which are perhaps more conceptual, but the issue of
+appropriate truncation operators does not disappear.
+1. Maximal proper parabolics, cuspidal data, for GL(n, Z)
+The simplest non-trivial examples of Maaß-Selberg relations and corollaries concern spherical Eisenstein
+series on GL(n) associated to cuspidal data on the Levi component of maximal (proper) parabolics. We will
+assume standard facts about the constant terms of such Eisenstein series.
+Let G = GL(n, R), Γ = GL(n, Z), and K = O(n, R). For n1, n2 positive integers so that n1 +n2 = n, deﬁne
+the corresponding standard maximal proper parabolic
+P = Pn1,n2 = {
+
+n1 × n1
+∗
+0
+n2 × n2
+
+}
+with unipotent radical
+N P = {
+
+1n1
+∗
+0
+1n2
+
+}
+and standard Levi component
+M P = {
+
+n1 × n1
+0
+0
+n2 × n2
+
+} ≈GL(n1) × GL(n2)
+Fix a standard parabolic P and N its unipotent radical. For f an NZ = N ∩Γ-invariant function, the
+constant term cP (f) of f along P is deﬁned as usual to be
+cP f(g) =
+Z
+NZ\N
+f(ng) dn
+We consider only left Γ-invariant, right K-invariant cuspforms on G with trivial central character.
+In
+the present discussion, cuspforms will be spherical Hecke algebra eigenfunctions at all ﬁnite primes, will
+be square-integrable, and will generate irreducible unitary representations of G = GL(n, R). (The latter
+condition is stricter than merely requiring that cuspforms are eigenvectors for the center of the universal
+enveloping algebra.)
+1
+
+
+=== PDF PAGE 2 ===
+Paul Garrett: Truncation and Maaß-Selberg Relations (February 19, 2005)
+Fix integers n1, n2. For i = 1, 2 let fi be cuspforms on GL(ni, R). Let P = Pn1,n2, and put
+ϕ(nmk) = ϕs,f(nmk) = | det m1|n2s | det m2|−n1s f1(m1) f2(m2)
+where
+m =
+
+m1
+0
+0
+m2
+
+with mi ∈GL(ni), so that m is in the standard Levi component M of the parabolic subgroup P, n ∈N its
+unipotent radical, and k in K. Let PZ = Γ ∩P. Deﬁne the associated Eisenstein series EP (ϕ) = EP
+ϕ by
+EP
+ϕ (g) = EP (ϕ)(g) ==
+X
+γ∈PZ\Γ
+ϕ(γg)
+For Re(s) suﬃciently positive, this series converges absolutely and uniformly on compacta.
+It is a left
+GL(n1 + n2, Z)-invariant right O(n1 + n2)-invariant function with trivial central character. More generally,
+for any left PZ-invariant function η on G, deﬁne Eisenstein series
+EP (η)(g) =
+X
+γ∈ΓP \Γ
+η(γg)
+To describe the meromorphic continuation and functional equation of these Eisenstein series, we recall the
+form of their constant terms (after Selberg, Langlands, et alia). The results asserted here are the result
+of non-trivial computations. For maximal proper P = Pn1,n2 with n1 = n2 (that is, self-associate), the
+Eisenstein series EP
+ϕ as above, attached to cuspidal data f on the Levi component of P has constant term
+with values on M = M P given by (via a non-trivial computation, using the cuspidality of the data)
+cP EP
+ϕ = ϕ + cs · ϕw
+where cs is a ratio of L-functions attached to f whose precise nature does not immediately concern us, and
+ϕw(nmk) = | det m1|n2(1−s) | det m2|−n1(1−s) f2(m1) f2(m2) = ϕ(wmw−1) · δ−1
+P (m)
+where δP (m) = | det m1|n2 · | det m2|−n1 is the modular function of P, m ∈M is as above, n ∈N, and
+k ∈K. For all other standard parabolics the constant term is 0. For n1 ̸= n2 (the non-self-associate case),
+let Q = Pn2,n1 be the associate of P. Then (via a non-trivial computation, using the cuspidality of the data)
+cP EP
+ϕ (m)
+=
+ϕ(m)
+cQEP
+ϕ (m)
+=
+cs · ϕw(m)
+and where again cs is a ratio of L-functions depending on the data ϕ. All other constant terms are 0.
+Theorem: (Selberg, Langlands, Bernstein, et alia) Eisenstein series EP
+ϕ have meromorphic continuations
+in s, with functional equation
+c−1
+s EP
+ϕ = EP w
+ϕw
+where P w is the associate parabolic to P (whether or not P is self-associate).
+Now deﬁne the truncation operators. For a standard maximal proper parabolic P = Pn1,n2 as above, for
+g = nmk with m ∈M P as above, n ∈N P , and k ∈O(n), deﬁne
+hP (g) = | det m1|n2
+| det m2|n1 = δP (nm) = δP (m)
+2
+
+
+=== PDF PAGE 3 ===
+Paul Garrett: Truncation and Maaß-Selberg Relations (February 19, 2005)
+where δP is the modular function on P. (The exponents make this function invariant under the center Z of
+G.) For ﬁxed large real T, the T-tail of the P-constant term of a left N P
+Z -invariant function F
+cT
+P F(g) =
+
+cP F(g)
+(for hP (g) ≥T)
+0
+(for hP (g) < T)
+If n1 ̸= n2, P is not self-associate, and has associate Q = Pn2,n1. Similarly, deﬁne the T-tail of the Q-constant
+term of left N Q
+Z -invariant F by
+cT
+QF(g) =
+
+cQF(g)
+(for hQ(g) ≥T)
+0
+(for hQ(g) < T)
+We want the truncations of the Eisenstein series under consideration to be square integrable (which could
+be accomplished a number of ways), and also so that their inner products are calculable in explicit and
+straightforward terms. Further, there should be no obstacle to meromorphic continuation of the tail in the
+truncation. These requirements are somewhat at odds with each other. Deﬁne
+ΛT EP
+ϕ =
+ EP
+ϕ −EP (cT
+P EP
+ϕ )
+(for n1 = n2, i.e., for P self-associate)
+EP
+ϕ −EP (cT
+P EP
+ϕ ) −EQ(cT
+QEP
+ϕ )
+(for n1 ̸= n2, i.e., for P not self-associate)
+Proposition: The truncated Eisenstein series ΛT EP
+ϕ is of rapid decay in Siegel sets.
+Proof: As usual, for a root γ, let g →aγ be the function which sends g to the value of γ on a, where
+g = nak is an Iwasawa decomposition, with n in the unipotent radical of a minimal parabolic, a in the Levi
+component, and k in the maximal compact.
+The argument is simpler in the self-associate case, which we carry out ﬁrst. For any simple (positive) root α,
+let cα be the constant term along the unipotent radical of the maximal proper parabolic attached to α. Then
+one basic result from the theory of the constant term is that on a standard Siegel set for any automorphic
+form (K-ﬁnite, Z-ﬁnite, of moderate growth) f −cαf is of rapid decay as aα →+∞. Also, from the theory
+of constant terms of Eisenstein series with cuspidal data, for self-associate maximal proper P in GL(n) (and
+in classical groups) all such constant terms are 0 except that along P itself. That is, on standard Siegel sets
+EP
+ϕ −cP EP
+ϕ is of rapid decay. Thus, EP
+ϕ −cT
+P EP
+ϕ is of rapid decay on standard Siegel sets, and then the
+automorphic form
+ΛT EP
+ϕ = EP
+ϕ −EP (cT
+P EP
+ϕ )
+is of rapid decay on all Siegel sets.
+In the non-self-associate case, let Q ̸= P be the other associate of P, and let α, β be the simple positive
+roots corresponding to P and Q, respectively. Because f is a cuspform and P is not self-associate only a
+single Bruhat cell (corresponding to the trivial Weyl element) contributes to the constant term cP EP
+ϕ and
+cP EP
+ϕ (m) = ϕ(m)
+which is rapidly decreasing on standard Siegel sets as aλ →+∞for any simple (positive) root λ ̸= α, because
+f is a cuspform. Similarly, only a single Bruhat cell (corresponding to the longest Weyl element) contributes
+to the constant term cQEP
+ϕ , which is rapidly decreasing on standard Siegel sets as aλ →+∞for any simple
+(positive) root λ ̸= β, because f is a cuspform. Thus, the truncation
+ΛT EP
+ϕ = EP
+ϕ −EP (cT
+P EP
+ϕ ) −EQ(cT
+QEP
+ϕ )
+has decay properties as follows. If aγ →+∞for γ other than α, β, then all three terms on the right-hand
+side are of rapid decay. If α →+∞, then each of the two expressions EP
+ϕ −EP (cT
+P EP
+ϕ ) and EQ(cT
+QEP
+ϕ ) is of
+rapid decay. And if β →+∞, then each of the two expressions EP
+ϕ −EQ(cT
+QEP
+ϕ ) and EP (cT
+P EP
+ϕ ) is of rapid
+3
+
+
+=== PDF PAGE 4 ===
+Paul Garrett: Truncation and Maaß-Selberg Relations (February 19, 2005)
+decay. Thus, as the value of any simple positive root goes to +∞in a standard Siegel set, the truncation
+goes rapidly to zero.
+///
+Proposition: Given a compact subset C of G, there are only ﬁnitely-many γ ∈PZ\Γ such that for g ∈C
+cT
+P EP
+ϕ (γg) ̸= 0
+Thus, the series expression for EP (cT
+P EP
+ϕ ) is uniformly locally ﬁnite, and therefore has a meromorphic
+continuation in s.
+Proof: This follows from the fact that there are only ﬁnitely-many γ ∈PZ\Γ such that
+γ · C ∩(support of cT
+P EP
+ϕ ) ̸= φ
+The latter follows from the fact that for any maximal proper parabolic Q
+hQ(wnw−1 · m) ≤hQ(m)
+with m ∈M Q, n ∈N Q, with w the longest Weyl element.
+///
+For two left Γ-invariant functions Φ and Ψ with the property that Φ · Ψ is Z-invariant, deﬁne
+⟨Φ, Ψ⟩=
+Z
+Z·Γ\G
+Φ(g) Ψ(g) dg
+Let h = h1 ⊗h2 be a another cuspform on the Levi component M of P, let r ∈C, and deﬁne
+ψ(nmk) = ψr,h(nmk) = | det m1|n2r | det m2|−n1r h1(m1) h2(m2)
+where
+m =
+
+m1
+0
+0
+m2
+
+with mi ∈GL(ni), so that m is in M, n ∈N P , and k in K.
+Let ⟨f, h⟩be the inner product on
+GL(n1) × GL(n2) modulo its center and
+f w(m) = f(wmw−1) = f1(m2) f2(m1)
+(without the renormalization by the modular function).
+Theorem: (Maaß-Selberg relations) The inner product ⟨ΛT EP
+ϕ , ΛT EP
+ψ ⟩of truncations ΛT EP
+ϕ and ΛT EP
+ψ of
+two Eisenstein series EP
+ϕ and EP
+ψ attached to cuspidal data ϕ, ψ on a maximal proper parabolic P is given
+as follows. For P self-associate (i.e., for n1 = n2)
+⟨ΛTEP
+ϕ,ΛTEP
+ψ ⟩=⟨f,h⟩T s+¯r−1
+s+¯r−1+⟨f,hw⟩cψ
+r T s+(1−¯r)−1
+s+(1−¯r)−1+⟨f w,h⟩cϕ
+s
+T (1−s)+¯r−1
+(1−s)+¯r−1+⟨f w,hw⟩cϕ
+s cψ
+r
+T (1−s)+(1−¯r)−1
+(1−s)+(1−¯r)−1
+For P not self-associate (i.e., for n1 ̸= n2)
+⟨ΛT EP
+ϕ , ΛT EP
+ψ ⟩= ⟨f, h⟩T s+¯r−1
+s + ¯r −1 + ⟨f w, hw⟩cϕ
+s cψ
+r
+T (1−s)+(1−¯r)−1
+(1 −s) + (1 −¯r) −1
+Remark: That is, the expression for the not-self-associate case is identical to that for the self-associate
+case but with the middle two terms missing. In the non-self-associate case the inner products ⟨f w, h⟩and
+⟨f, hw⟩would not make sense, in any case, because in that case wMw−1 ̸= M, so the two functions live on
+diﬀerent groups.
+4
+
+
+=== PDF PAGE 5 ===
+Paul Garrett: Truncation and Maaß-Selberg Relations (February 19, 2005)
+Corollary: For maximal proper parabolics P in GL(n), on the half-plane Re(s) ≥1/2 an Eisenstein series
+EP
+ϕ has no poles whatsoever if P is not self-associate. If P is self-associate, the only possible poles are on the
+real line, and only occur if ⟨f, f w⟩̸= 0. In that case, any pole is simple, and the residue is square-integrable.
+In particular, taking f = fo ⊗fo
+⟨Resso EP
+ϕ , Resso EP
+ϕ ⟩= ⟨fo, fo⟩2 · Resso cϕ
+s
+Proof: (of theorem).The self-associate case admits a simple argument, which we give, despite the fact that
+this simplicity is misleading about what happens more generally. The point is that because of the self-
+associate-ness the truncated Eisenstein series ΛT EP
+ϕ is itself an Eisenstein series
+ΛT EP
+ϕ = EP (ϕ) −EP (cT
+P EP
+ϕ ) = EP (ϕ −cT
+P EP
+ϕ )
+As may be intuitively plausible, the Eisenstein series made from the tail of the constant term integrates to
+zero against the truncated Eisenstein series, that is,
+⟨ΛT EP
+ϕ , EP (cT
+P EP
+ϕ )⟩= 0
+This is essentially a computation, though not completely trivial, and uses the cuspidality of the data ϕ. Use
+this fact, and then unwind the truncated Eisenstein series to obtain
+⟨ΛT EP
+ϕ , ΛT Eψ⟩= ⟨ΛT EP
+ϕ , Eψ⟩=
+Z
+Z·PZ)\G
+
+−csϕw(g)
+(for hP ≥T)
+ϕ(g)
+(for hP < T) · Eψ(g) dg
+where Z is the center of G. This is
+Z
+Z·(N·PZ)\G
+
+−csϕw(g)
+(for hP ≥T)
+ϕ(g)
+(for hP < T) · cP Eψ(g) dg
+=
+Z
+Z·(N·PZ)\G
+
+−csϕw(g)
+(for hP ≥T)
+ϕ(g)
+(for hP < T) · (ϕψ(g) + crϕ1−r,hw(g)) dg
+Since the integrand is now left N = N P -invariant and right K-invariant, this integral may be computed as
+an integral over the Levi component M P of P, using the Iwasawa decomposition G = N P · M P · K. Of
+course, in these coordinates the Haar integral on G is
+Z
+G
+f(g) dg =
+Z
+N
+Z
+M
+Z
+K
+f(nmk) δ−1
+P (m) dn dm dk
+Then
+⟨ΛT EP
+ϕ , ΛT EP
+ψ ⟩=
+Z
+Z·M P
+Z \M P
+
+−csϕw(m)
+(for hP ≥T)
+ϕ(m)
+(for hP < T) · (ϕψ(g) + crϕ1−r,hw(g)) δP (m)−1 dm
+This gives rise to the four terms of the theorem for the self-associate case.
+In the non-self-associate case, the truncated Eisenstein series ΛT EP
+ϕ is not itself an Eisenstein series, and
+more serious attention is required to evaluate the inner product of truncated Eisenstein series. One computes
+(using the cuspidality of the data ϕ and ψ) that
+⟨EP
+ϕ −EP (cT
+P EP
+ϕ ), EP (cT
+P EP
+ϕ )⟩
+=
+0
+⟨EP
+ϕ −EQ(cT
+QEP
+ϕ ), EQ(cT
+QEP
+ϕ )⟩
+=
+0
+⟨EP (cT
+P EP
+ϕ ), EQ(cT
+QEP
+ϕ )⟩
+=
+0
+5
+
+
+=== PDF PAGE 6 ===
+Paul Garrett: Truncation and Maaß-Selberg Relations (February 19, 2005)
+Then the inner product of the truncated Eisenstein series is
+⟨ΛT EP
+ϕ , ΛT EP
+ψ ⟩= ⟨EP
+ϕ −EP (cT
+P EP
+ϕ ), EP
+ψ ⟩+ ⟨EQ(cT
+QEP
+ϕ ), EQ(cT
+QEP
+ψ )⟩
+Now the pairings unwind. First,
+⟨EP
+ϕ −EP (cT
+P EP
+ϕ ), EP
+ψ ⟩= ⟨EP (cP EP
+ϕ −cT
+P EP
+ϕ ), EP
+ψ ⟩=
+Z
+Z·PZ\G
+
+0
+(for hP ≥T)
+ϕ(g)
+(for hP < T) · Eψ(g) dg
+where Z is the center of G. This is
+Z
+Z·(N·PZ)\G
+
+0
+(for hP ≥T)
+ϕ(g)
+(for hP < T) · cP Eψ(g) dg =
+Z
+Z·(N·PZ)\G
+
+0
+(for hP ≥T)
+ϕ(g)
+(for hP < T) · ψ(g) dg
+Since the integrand is now left N = N P -invariant and right K-invariant, this integral may be computed as
+an integral over the Levi component M P of P, using the Iwasawa decomposition G = N P · M P · K. Then
+⟨ΛT EP
+ϕ , ΛT EP
+ψ ⟩=
+Z
+Z·M P
+Z \M P
+
+0
+(for hP ≥T)
+ϕ(m)
+(for hP < T) · ψ(g) δP (m)−1 dm
+This gives one term for the not self-associate case.
+Let cϕ
+s and cψ
+r be the ratios of L-functions occurring as
+cQEP
+ϕ = cϕ
+s · ϕw
+cQEP
+ψ = cψ
+r · ψw
+Then the other pairing is unwound in similar fashion
+⟨EQ(cT
+QEP
+ϕ ), EQ(cT
+QEP
+ψ )⟩=
+Z
+Z·QZ\G
+
+cϕ
+s ϕw(g)
+(for hP ≥T)
+0
+(for hP < T) · Eψ(g) dg
+where Z is the center of G. This is
+Z
+Z·(N·QZ)\G
+
+cϕ
+s ϕw(g)
+(for hQ ≥T)
+0
+(for hQ < T) · cQEψ(g) dg =
+Z
+Z·(N·QZ)\G
+
+cϕ
+s ϕw(g)
+(for hQ ≥T)
+0
+(for hQ < T) · cψ
+r ψw(g) dg
+Since the integrand is now left N Q-invariant and right K-invariant, this integral may be computed as an
+integral over the Levi component M Q of Q, using the Iwasawa decomposition G = N Q · M Q · K. Then
+⟨EQ(cT
+QEP
+ϕ ), EQ(cT
+QEP
+ψ )⟩=
+Z
+Z·M Q
+Z \M Q
+
+0
+(for hQ ≥T)
+cϕ
+s ϕ(m)
+(for hQ < T) · cψ
+r ψw(g) δQ(m)−1 dm
+This gives the second term of the theorem for the not self-associate case.
+///
+Proof: (of corollary). From the theory of the constant term, the only possible poles of the Eisenstein series
+are at poles of the constant terms, which in this case means a pole of cs. Invoke the Maaß-Selberg relation
+with r = s and h = f. In the non-self-associate case this is
+⟨ΛT EP
+ϕ , ΛT EP
+ϕ ⟩= ⟨f, f⟩T 2σ−1
+2σ −1 + ⟨f w, hw⟩|cs|2 T 1−2σ
+1 −2σ
+where σ = Re(s). The non-self-associate case is slightly unlike the simple case of GL(2), in that the inner
+product of truncated Eisenstein series is missing the two middle terms which made it possible (in eﬀect) for
+there to be a pole. Speciﬁcally, in the non-self-associate case, let so = σo + ito be an alleged pole so of cs
+6
+
+
+=== PDF PAGE 7 ===
+Paul Garrett: Truncation and Maaß-Selberg Relations (February 19, 2005)
+of order ℓin that half-plane. Letting s = σo + it approach so vertically the left-hand side of the relation is
+asymptotic to a positive multiple of t−2ℓ, while on right-hand side only the second of the two terms blows
+up at all. In particular, that expression
+|cs|2 · ⟨f w, f w⟩· T 1−2σ
+1 −2σ
+is asymptotic to a negative multiple of t−2ℓ, since σ = Re(s) > 1
+2. Thus, there is no pole in that half-plane.
+Similarly, in the self-associate case, for there to be any pole at all the two middle terms on the right-hand
+side of the relation must not vanish, or the same contradiction occurs, so ⟨f, f w⟩must be non-zero, and the
+alleged pole must be on the real axis, and must be simple. (If any of these conditions fail, the middle terms
+cannot keep up with the negative value of the fourth term). For f = fo ⊗fo, f w = f and
+⟨f, f⟩= ⟨fo, fo⟩· ⟨fo, fo⟩
+Letting s = σ + it, and cs = cϕ
+s , in the self-associate case the Maaß-Selberg relation becomes
+⟨ΛT EP
+ϕ , ΛT EP
+ϕ ⟩= ⟨fo, fo⟩2 T 2σ−1
+2σ −1 + ⟨fo, fo⟩2 cs
+T 2it
+2it + ⟨fo, fo⟩2 cs
+T −2it
+−2it + ⟨fo, fo⟩2 |cs|2 T 1−2σ
+1 −2σ
+Multiplying through by t2 = (it)(−it) and taking the limit as t →0 gives
+⟨ResσΛT EP
+ϕ , ResσΛT EP
+ϕ ⟩= ⟨fo, fo⟩2 Resσcs · 1
+2 + ⟨fo, fo⟩2 Resσcs · 1
+2 + ⟨fo, fo⟩2 |Resσcs|2 T 1−2σ
+1 −2σ
+Letting T →+∞causes the last term to go to zero, and yields the indicated ﬁnite limit in the self-associate
+case, since c¯s = cs and the supposed pole is on the real axis.
+///
+7

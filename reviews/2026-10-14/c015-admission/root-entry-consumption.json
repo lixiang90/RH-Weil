@@ -1,0 +1,21 @@
+{
+  "schema": "rh-weil-source-entry-consumption-v1",
+  "client_date": "2026-10-14",
+  "scope": "C015 exact original/common-source consumption passes, but only old tools; no new joint forcing or mathematical settlement. C016 geometry is source preparation only.",
+  "raw_sha256": {
+    "notes/544-graded-local-source-admission-without-new-joint-input.md": "e54479df63ccb7d12301a45e2b0f65eda5f5938d3b1cfb61d9a26f494260fa18",
+    "reviews/2026-10-14/c015-admission/original-scattering-and-grade-audit.md": "d7e734e47c65bd705ec639ce3a11d22e11ee439bb0a2d98da96015a72fa5a365",
+    "reviews/2026-10-14/c015-admission/common-source-and-joint-frame-audit.md": "89c4d2015ec3c86811bdcfc6a14d879500616155ac7995748d0401a71d464a1b",
+    "reviews/2026-10-14/c015-admission/old-asset-deduction-and-next-source.md": "f243c3353466382833c0599d36a7f78c29b099115cfc1d6d2a3f42b470ed0a8c"
+  },
+  "original_receipts_verified": [
+    "literature/background/burnol-scattering-9901051v2-source.json",
+    "reviews/2026-10-14/c015-admission/sources/macro-primary-source-receipt.json"
+  ],
+  "mathematical_rounds_added": 0,
+  "cadence_unchanged": 2,
+  "latest_mathematical_iteration": "notes/543-full-gamma-heat-arithmetic-records-and-thermal-boundary.md",
+  "macro_gate": "open",
+  "unpaid": "Actual growth joint Γ/prime/pole/core/nearPSD and Xi; C016 hyperbolic/physical norm and full-source transport not consumed.",
+  "scope_limit": "Hash/check records identity, not automatic mathematical certification or Goal completion."
+}

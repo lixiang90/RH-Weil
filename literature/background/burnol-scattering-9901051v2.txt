@@ -1,0 +1,736 @@
+[PDF PAGE 1]
+arXiv:math/9901051v2  [math.NT]  1 Feb 1999
+math.NT/9901051
+v1 12-JAN-99
+v2 31-JAN-99
+SCA TTERING ON THE P-ADIC FIELD AND A TRACE FORMULA
+Jean-Fran¸ cois Burnol
+January 1999
+I apply the set-up of Lax-Phillips Scattering Theory to a non -archimedean local ﬁeld. It is
+possible to choose the outgoing space and the incoming space to be Fourier transforms of
+each other. Key elements of the Lax-Phillips theory are seen to make sense and to have the
+expected interrelations: the scattering matrix S, the proj ection K to the interacting space,
+the contraction semi-group Z and the time delay operator T. T he scattering matrix is
+causal, its analytic continuation has the expected poles an d zeros, and its phase derivative
+is the (non-negative) spectral function of T, which is also t he restriction to the diagonal
+of the kernel of K. The contraction semi-group Z is related to S (and T) through a trace
+formula. Introducing an odd-even grading on the interactin g space allows to express the
+Weil local explicit formula in terms of a “supertrace”. I als o apply my methods to the
+evaluation of a trace considered by Connes.
+62 rue Albert Joly
+F-78000 Versailles
+France
+1
+
+[PDF PAGE 2]
+T ABLE OF CONTENTS
+Introduction
+Additive and multiplicative F ourier analysis on a local ﬁel d
+The scattering matrix
+The interacting space and its associated kernel
+The time delay operator and the conductor operator
+The contraction semi-group and a trace formula
+W eil’s local term in terms of a supertrace
+Exact evaluation of a trace considered by Connes
+References
+2
+
+[PDF PAGE 3]
+Introduction
+It is well-known (Wiener) that the Fourier Transform on the r eal line is obtained at a phase
+of π/ 2 in the quantum time evolution of the harmonic oscillator (w ith suitably chosen
+parameters, and with the zero-point energy removed). Unfor tunately it seems diﬃcult to
+make sense in a really satisfactory way of the inﬁnitesimal g enerator of this group on a
+p-adic local ﬁeld.
+It is less well-known that the composition of the Fourier Tra nsform with the Inversion
+(ϕ (x) ↦→ 1
+|x|ϕ ( 1
+x )), which is a dilation invariant operator is also obtained a s a member of
+a unitary representation, this time non-compact, of the add itive group of the reals. This
+follows from the existence of the logarithm of the Tate-Gel’ fand-Graev Gamma function
+on the critical line. Now this makes sense not only for the rea ls, but also for the complex
+numbers, and in fact also for any completion of an algebraic n umber ﬁeld at a ﬁnite
+non-ramiﬁed place. One has to restrict oneself in that case t o that part of the Hilbert
+space invariant under rotations by units, and an explicit co mputation shows that the
+Tate-Gel’fand-Graev Gamma function on the critical line ha s a logarithm respecting the
+inherent periodicity in the vertical direction (the next ch apter contains all the necessary
+set-up to understand this sentence).
+But is there a “physical” counterpart to these observations as there is one, indeed very
+basic to quantum physics, for the Wiener Theorem about fract ional powers of the Fourier
+Transform? It seems that the question has much more to do with scattering processes than
+with bound states problems, and I was thus led to try to apply o ne of the various rigorous
+mathematical methodologies concerning scattering to p-ad ic numbers.
+I will show in this paper that it is possible to a surprising ex tent to adapt the axiomatic
+set-up of Lax-Phillips [LP90] to a very basic situation invo lving the non-archimedean
+Fourier Transform, and to translate almost everything from their paper [LP78] to the
+non-archimedean ﬁeld. Of course the analysis is much easier , as we will compute only one
+special, but very interesting case, and will compute everyt hing completely explicitely. In
+the end we obtain a (super-)trace formula giving Weil’s loca l term of the Explicit Formula
+of analytic number theory. I have no deeper reason to oﬀer for the introduction of the
+3
+
+[PDF PAGE 4]
+grading necessary to get Weil’s local term, than the fact tha t it does the job.
+Another motivation is to establish a bridge between some com putations and results of
+Connes [Co98] and my own considerations on the conductor ope rator and the Explicit
+Formula [Bu98a,b,c]. In the last section I evaluate exactly a trace considered by Connes
+(Theorem 3 of Section V of [Co98]).
+Additive and multiplicative F ourier analysis on a local ﬁel d
+Let us start with some notations concerning the Fourier Anal ysis on local ﬁelds [Ta50] and
+previous results of the author [Bu98a,b,c].
+Let K be a number ﬁeld and ν one of its places with completion Kν. In this paper
+only the case of a non-archimedean place will be considered. Let p be the prime number
+over which lies ν and q the cardinality of the residue ﬁeld (which is a power of p). We
+will write x or y for an element of Kν , viewed additively, and t or u for an element of
+the multiplicative group K ×
+ν . To deﬁne Fourier transforms we choose the basic additive
+character to be λ(x) = exp(2π i Tr(x)), where “Tr” is the trace down to Qp. The Fourier
+Transform F (ϕ ) of ϕ (also denoted ˜ϕ ) is deﬁned through F (ϕ )(x) =
+∫
+Kν
+ϕ (y)λ(−xy)dy
+where dy is the unique self-dual additive Haar measure correspondin g to the choice of λ
+(so that F F(ϕ )(y) = ϕ (−y)). The Fourier Transform is a unitary of the Hilbert space L2
+of square-integrable functions with respect to dy. We use the bra-ket notation: <ψ |ϕ> =∫
+Kν
+ψ (x)ϕ (x)dx. The volume of the subring of integers Oν is then q− δ/2 where q is the
+cardinality of the residue ﬁeld and δ a non-negative integer called the diﬀerental exponent.
+We choose a uniformizer π ofOν and normalize the norm according to |π |ν = 1
+q . One then
+has d(ty) = |t|dy (we will drop most ν subscripts as we are dealing only with one place at
+a time). The characteristic function ω of O has Fourier transform ˜ω (x) = q− δ/2ω (π δx).
+There is a unique multiplicative Haar measure on K ×
+ν which assigns to the compact open
+subgroup of units a volume of 1, we denote it by d∗t. It is related to the additive Haar
+measure dx by the formula a2|x|d∗x = dx with a =
+√
+q− δ/2(1 − 1
+q ). We also use the
+multiplicative Haar measure d×t = log(q)d∗t which assigns a volume of log( q) to the units.
+Let’s now review brieﬂy the technique used in [Bu98b,c], whi ch will be very useful here.
+4
+
+[PDF PAGE 5]
+First the Hilbert space L2 can also be realized as the Hilbert space of square integrabl e
+functions on the multiplicative ﬁeld with respect to d∗t (one assigns to a function ϕ (x) on
+Kν the function f (t) = a|t|1/2ϕ (t) on K ×
+ν ). The locally compact abelian group K ×
+ν has a
+(unitary) dual Xν which is a (countable) union of circles indexed by the charac ters of the
+multiplicative group of units. Let χ be one such character, we still denote by the same
+letter the unique extension to K ×
+ν taking the value 1 at π . We write e(χ ) for the conductor
+exponent of χ , which is a non-negative integer vanishing only for the triv ial character. The
+elements of Xν in the same component as χ are then all of the form t ↦→ χ (t)|t|iτ for some
+(real number) τ, and parametrized uniquely by z = qiτ (the value taken at 1
+π ). We note
+Xχ for this copy of U (1) and (χ ;z) for the corresponding character of K ×
+ν . The well-known
+generalization of Fourier Theory applies to this setting an d one ﬁnds that the measure dual
+tod∗t reduces on each component to the unique rotation invariant m easure of total mass 1
+(we will write dθ
+2π for this measure). We thus have a third incarnation of L2 as L2(X, dθ
+2π ),
+the formula for the isometries being
+f (t) ↦→ ˆf (χ ;z) =
+∫
+K ×
+ν
+f (t)(χ ;z)(t)d∗t
+f (t) =
+∫
+X
+ˆf (χ ;z)(χ ;z)(t)dθ
+2π
+Let U (t) be the unitary group of dilations, acting in the additive pi cture as ϕ (x) ↦→
+|t|− 1/2ϕ (x/t ), in the multiplicative picture as f (u) ↦→ f (u/t ), in the spectral picture as
+l(χ ;z) ↦→ (χ ;z)(t)l(χ ;z). We will write L2
+χ = L2(Xχ, dθ
+2π ) for the χ -isotypical component
+of L2. We note that the action of the units is diagonalized by this d ecomposition, while
+the inverse-uniformizer 1
+π acts as multiplication by the function “ z”.
+We will now consider various operators. The ﬁrst example is w ith the inversion I. Deﬁn-
+ing it to be ϕ (x) ↦→ 1
+|x|ϕ ( 1
+x ) in the additive picture it becomes f (u) ↦→ f (1/u ) in the
+multiplicative picture and l(χ ;z) ↦→ l(χ ;z) in the spectral picture. It is more interest-
+ing to look at the additive Fourier Transform F . The composition FI commutes with
+the dilation action so it should be diagonalized in the spect ral picture. Let’s call it Γ.
+I showed in [Bu98b] how an application of Tate’s local functi onal equation [Ta50] leads
+to (Γl)(χ ;z) = Γ((χ ;z), 1
+2 ) l(χ ;z) where the Γ on the right-hand-side refers to the Tate-
+Gel’fand-Graev Gamma function on the critical line (almost identical functions are tabu-
+5
+
+[PDF PAGE 6]
+lated in [Ta50]). Abbreviating Γ(( χ ;z), 1
+2 ) to Γ(χ ;z) this gives explicitely
+for χ trivial: Γ(1; z) = zδ 1 − z√ q
+1 − z√ q
+for χ ramiﬁed: Γ( χ ;z) = w(χ ) ze(χ)+δ
+The “root number” w(χ ) is a certain complex number of unit modulus. We won’t need it s
+value in what follows. For later reference let us recap this a s:
+Theorem I: F (l)(χ ;z) = Γ(χ ;z) l(χ ;z) •
+One corollary to this is the existence of an interesting doma in in L2, deﬁned in the spectral
+picture to be the domain of functions smooth on each componen t and non-vanishing only
+on ﬁnitely many components. This domain, let’s call it ∆, is t hen obviously stable under
+dilations, inversion, Fourier Transform. Let also S0(K) be the dense domain of Schwartz-
+Bruhat functions (locally constant with compact support) v anishing at the origin. Finally
+let S(K) be the domain of all Schwartz-Bruhat functions. One has S0(K) ⊂ S (K) ⊂ ∆.
+Let’s now consider some unbounded operators. First let A be given in the additive picture
+as multiplication with log( |x|). As this is unbounded we should specify a domain ∆( A),
+and we take it at ﬁrst to be S0(K). Obviously it is stable under A, and A +i as well as
+A − i are invertible on it, so ( A, S0(K)) is essentially self-adjoint. One ﬁnds that A acts
+in the spectral picture on ∆ as the diﬀerential operator D = log(q)z ∂
+∂z .
+The conjugate B = FAF − 1 = F − 1AF with domain ∆ is thus essentially self-adjoint. It is
+easier to evaluate ﬁrst IBI = Γ − 1AΓ = A +H where H is the dilation invariant operator
+with spectral function H(χ ;z) = Γ − 1(χ ;z)D(Γ(χ ;z)). Explicitely
+H(1;z) = δ log(q) −
+( z√ q − z + z√ q − z
+)
+log(q) = (δ + 1) log(q) −
+(
+1 − 1
+q
+|1 − z√ q |2
+)
+log(q)
+for χ ramiﬁed: H(χ ;z) = (e(χ ) +δ) log(q)
+From this we see that H is hermitian and essentially self-adjoint on ∆, and also tha t it
+commutes with the inversion I. So B =IAI +H = −A +H and we have
+6
+
+[PDF PAGE 7]
+Theorem II ([Bu98a,b]): The dilation invariant “conductor operator” A +B (with
+initial domain ∆) is essentially self-adjoint, bounded bel ow, commutes with the inversion.
+Its spectral function is given by the logarithmic derivativ e of the Tate-Gel’fand-Graev
+Gamma function on the critical line •
+It is clear that S0(K) is a core for H, but the larger domain ∆ is more useful as it is stable
+under A,B,I, F .
+The scattering matrix
+In the Lax-Phillips scattering theory [LP90] one ﬁrst has a s eparable Hilbert space. We
+will take it to be L2(Kν,dx ). Then one needs a unitary representation of the additive re al
+line, we will replace that by the unitary representation U (t) of K ×
+ν through dilations on
+L2. The next data will be a closed subspace D− of “Cauchy data for incoming waves” such
+that
+|t| ≤ 1 ⇒ U (t)D− ⊂ D −
+⋀
+U (t)D− = 0
+⋁
+U (t)D− =L2
+and a subspace D+ of “Cauchy data for outgoing waves” such that
+|t| ≥ 1 ⇒ U (t)D+ ⊂ D +
+⋀
+U (t)D+ = 0
+⋁
+U (t)D+ =L2
+For the theory to gain additional momentum one needs one more axiom
+D− ⊥ D +
+The standard example is then of course to take D− to be
+D0
+− =
+{
+ϕ (x) ∈ L2 : |x|> 1 ⇒ ϕ (x) = 0
+}
+and D+ to be
+D0
++ =
+{
+ϕ (x) ∈ L2 : |x| ≤ 1 ⇒ ϕ (x) = 0
+}
+Lemma: Assume that the unitary operator α ofL2 commutes with theU (t)’s and restricts
+to an isometry of D0
+− with itself. Then α is a multiple of the identity in each isotypical
+component L2
+χ •
+7
+
+[PDF PAGE 8]
+Proof: A well-known result of the theory of Hardy spaces. Looking at theχ component of
+the spectral representation one sees that α becomes multiplication by a function of modulus
+1 which has a holomorphic continuation to the “exterior” of t he unit circle, including the
+point at inﬁnity. It can not vanish anywhere in this domain (e lse the inclusion α (D0
+− ) ⊂ D 0
+−
+would be strict), so admits a logarithm. Its real part is harm onic and vanishes on the
+boundary, hence α (z) is a constant (of modulus 1) •
+So if we have another incoming space D− and an isometry α from L2 to itself (in the
+commutant of the dilations) such that α (D− ) = D0
+− then the collection of functions α (χ ;z)
+is unique up to a multiplicative constant in each component.
+Assuming in the same manner that we can ﬁnd an isometry β fromL2 to itself identifying a
+given outgoing space D+ with D0
++ (and commuting with dilations), the operator S =βα − 1
+is called the scattering matrix. It is a unitary operator, co mmuting with the dilations, hence
+deﬁned by a collection of functions of unit modulus S(χ ;z) deﬁned up to multiplicative
+constants.
+Let us try now to ﬁnd a scattering matrix involving the Fourie r Transform. For this we
+try ﬁrst D− = D0
+− and D+ = F (D− ). The scattering matrix is then U ( 1
+π )(FI)− 1. But the
+last axiom is not satisﬁed because of the characteristic fun ction ω of the integers which is
+not perpendicular to its Fourier Transform. Fortunately th is is the only obstruction:
+Theorem III: Let D− =
+{
+ϕ ∈ D 0
+− :
+∫
+ϕ (x)dx = 0
+}
+. Then D− ⊥ F (D− ) •
+Proof: The Fourier Transform of an element ϕ of D0
+− is constant on balls of radius qδ
+(asλ(xy) = 1 for |x| ≤ qδ and |y| ≤ 1). If ϕ belongs to D− , its Fourier transform vanishes
+at the origin and is thus supported outside of the ball of radi usqδ centered at the origin •
+In the remaining sections of this paper D− will always refer to the space just deﬁned
+and D+ to F (D− ). To compute the scattering matrix we ﬁrst need to ﬁnd a unita ry α
+commuting with dilations and such that α (D− ) = D0
+− . Let us work directly in the spectral
+picture. There is nothing to do on the components correspond ing to ramiﬁed characters,
+we can take α (χ ;z) = 1 there. On the component containing the trivial characte r, a little
+8
+
+[PDF PAGE 9]
+computation shows that elements of D− are those elements of D0
+− for which the associated
+holomorphic function in the exterior domain vanishes at z = √ q. So we can take
+α (1;z) =
+√ qz − 1√ q − z
+The operator β can then be taken as U ( 1
+π )Iα F − 1. As IαI =α − 1 and as FI = Γ commutes
+with α this gives as scattering matrix S = U ( 1
+π )α − 2Γ− 1. Using the tabulated values of
+Γ(χ ;z) (Theorem I) and the freedom to adjust by multiplicative con stants to get rid of the
+Gauss sums, we end up with:
+Theorem IV: The scattering matrix S(χ ;z) is given as
+for χ trivial: S(1;z) = z− δ
+√
+q − z√ qz − 1
+for χ ramiﬁed: S(χ ;z) = z1− e(χ)− δ
+We note that the scattering matrix is “causal” in the sense th at its spectral function is
+holomorphic in the exterior domain, having (for χ = 1) a simple zero at √ q and a zero of
+multiplicityδ at ∞ . It also has a simple pole at 1√ q and pole of multiplicity δ at the origin
+(possibly δ = 0).
+The interacting space and its associated kernel
+The interacting space K is deﬁned as L2 − (D− ⊕ D +). We denote its associated orthogonal
+projector by K. The isotypic component Kχ for a ramiﬁed character is easily determined,
+using the formulae for the Γ functions: it has dimension e(χ ) +δ − 1 and is spanned by the
+functions on Xχ ej (χ ;z) = zj, 1 ≤ j ≤ e(χ ) +δ − 1 . The component K1 corresponding to
+the trivial character contains at least (according to the pr oof of Theorem III) the function
+ω as well as ej(1;z) 1 ≤ j ≤ δ. On the other hand the operator β = Sα which identiﬁes
+D+ with D0
++ is just multiplication by z− δ onX1, which means that a basis of D+,1 is given
+by the functions ej (1;z) for j > δ. So we have the full count. Let’s add the Kronecker
+delta as a new notation δ(χ 1,χ 2) = 1 if χ 1 =χ 2, 0 if not.
+Theorem V: K = ⨁
+χ Kχ with dim( Kχ) = δ +e(χ ) − 1 + 2δ(χ, 1) •
+9
+
+[PDF PAGE 10]
+We now turn to the representation of the projector K as an integral kernel. For this
+we just need to ﬁnd the representation of qδ/4ω (x) in the spectral picture. First going
+from the additive to the multiplicative picture one replace s ω (x) by a
+√
+|t|ω (t). So ˆω (z) =
+a
+(
+1 − z√ q
+) − 1
+. Recalling that a2 =q− δ/2(1 − 1/q ), we thus deduce:
+Theorem VI:
+K((χ 1;z), (χ 2;w)) = δ(χ 1, 1)δ(χ 2, 1)
+( (1 − 1/q )
+(1 − z/ √ q)(1 − w/ √ q) + 1δ≥ 1zδwδ
+)
++
+∑
+χ
+δ(χ 1,χ )δ(χ 2,χ )
+∑
+1≤ j≤ δ+e(χ)− 1
+zjwj
+K((χ ;z), (χ ;z)) = δ +δ(χ, 1) (1 − 1/q )
+|1 − z/ √ q|2 +
+∑
+χ1̸=1
+δ(χ,χ 1)(e(χ ) − 1) •
+The time delay operator and the conductor operator
+First a little lemma from the the theory of Fourier Series:
+W ell-known Kernel Lemma: Let A(z,w ) be a smooth kernel on S1 × S1. Then the
+series ∑
+j∈ Z
+∫ ∫
+z− jA(z,w )wj dθ(z)
+2π
+dθ(w)
+2π
+converges absolutely and has value
+∫
+A(z,z ) dθ(z)
+2π •
+Proof: The
+∫ ∫
+z− jA(z,w )wj dθ(z)
+2π
+dθ(w)
+2π are the Fourier coeﬃcients of the function
+φ(z) =
+∫
+A(zw,w ) dθ(w)
+2π . Alternatively this is the well-known evaluation of the Hil bert
+Trace of the operator with integral kernel A(z,w ) •
+Let’s abbreviate the dilation U ( 1
+π ) by just U . In the spectral represntation U acts as
+multiplication by z in each component. The projector K commutes with the units. Lax-
+Phillips [LP78] deﬁne the time delay operator T to measure the average amount of time
+spent in the interaction with the scatterer. In our multipli cative picture it is natural for
+the measure of this time to assign a weight of log( q) to the units. As < Kf|f > is the
+probability of interaction at “time in the units”, the total expected time spent interacting
+10
+
+[PDF PAGE 11]
+with the scatterer is thus log( q) ∑
+j∈ Z <KU jf |U jf >, if this makes sense. According to
+the Lemma this does make sense if f is taken from the domain ∆ considered before, and its
+value is then obtained as <Tf |f >whereT is the dilation invariant operator with spectral
+function T (χ ;z) = log(q)K((χ ;z), (χ ;z)). Obviously ( T, ∆) is essentially self-adjoint and
+non-negative. Let us record this as a theorem (its last state ment is checked with an easy
+explicit computation):
+Theorem VII: The dilation invariant, non-negative, essentially self-a djoint operator T
+on ∆ with spectral function
+T (χ ;z) = log(q)
+
+ δ +δ(χ, 1) (1 − 1/q )
+|1 − z/ √ q|2 +
+∑
+χ1̸=1
+δ(χ,χ 1)(e(χ ) − 1)
+
+
+is such that
+{f ∈ ∆} ⇒ <Tf |f >=
+∫
+K ×
+ν
+||KU (t)f ||2d×t
+and is related to the scattering matrix through
+T (χ ;z) = S(χ ;z)D(
+S(χ ;z)) •
+As we have both the time delay operator and the conductor oper ator explicitely we can
+relate them easily:
+Theorem VIII: T =δ log(q) + |(δ + 1) log(q) − H| •
+Proof: one just has to compare the spectral function of T given above with the spectral
+function of H given before Theorem II: one ﬁnds
+on L2
+1 0 ≤ T − δ log(q) = −H + (δ + 1) log(q)
+on L2
+χ for χ ramiﬁed 0 ≤ T − δ log(q) = H − (δ + 1) log(q) •
+The contraction semi-group and a trace formula
+Let P− be the orthogonal projection onto K ⊕ D +, and P+ be the orthogonal projection
+onto K ⊕ D − . As U (t) leaves stable D− for |t| ≤ 1 the vectors U (t)f , |t| ≥ 1 remain
+11
+
+[PDF PAGE 12]
+orthogonal to D− for any f in K ⊕ D +. On the other hand the subspace D+ is stable under
+U (t), |t| ≥ 1. So we get a semi-group of operators Z(t), |t| ≥ 1 on the quotient K. The
+operators are given by the formula Z(t) = P+U (t)P− , for |t| ≥ 1.
+Fort a unit Z(t) is just multiplication by χ (t) in the isotypical component Kχ. Z( 1
+π ) is
+multiplication by the function “z” on each isotypical component Kχ. It is thus nilpotent on
+the orthogonal space to Tate’s function ω and<Z ( 1
+π )ω |ω> =<U ( 1
+π )ω |ω> = 1√ q <ω |ω >
+so that its eigenvalue is 1√ q .
+Let us deﬁne Z(f ) for f (t) a Schwartz-Bruhat function on K ×
+ν (with support in |t| ≥ 1) as
+Z(f ) =
+∫
+|t|≥ 1
+f (t)Z(t)d×t
+The operator Z(f ) is of trace-class, in fact it is of ﬁnite rank: one ﬁrst write s f as a
+ﬁnite linear sum f = ∑
+χfχ with fχ = ∑
+j≥ 0U ( 1
+π )j(fχ,j), where each fχ,j has support
+on the units and is a multiple of χ (1/t ) there. As Z(t) = χ (t) on Kχ for t a unit, Z(fχ)
+acts non-trivially only on Kχ (which is ﬁnite dimensional). Using the fact that U ( 1
+π )
+stabilizes the orthogonal complement to ω and is nilpotent there, while its eigenvalue on
+the 1 − dimensional quotient is 1√ q , one evaluates the traces as follows
+Tr(Z(f1)) =
+( ∫
+|t|=1
+f1(t)d×t
+)
+dim(K1) +
+∫
+|t|>1
+|t|− 1/2f1(t)d×t
+(χ ̸= 1) Tr(Z(fχ)) =
+( ∫
+|t|=1
+fχ(t)χ (t)d×t
+)
+dim(Kχ)
+Theorem IX: Tr(Z(f )) = T (f )(1) =
+∫
+Xν
+ˆf (χ ;z)T (χ ;z) dθ
+2π •
+Proof: First we look at fχ. The spectral function of T is the constant (δ+e(χ )− 1) log(q)
+on Xχ (Theorem VII) while the dimension of Kχ is (δ +e(χ ) − 1) (Theorem V). Then we
+considerf1. From Theorem V we know that dim( K1) is δ + 1, so we can rewrite Tr( Z(f1))
+as f1(1)δ log(q) +
+∫
+|t|≥ 1 |t|− 1/2f1(t)d×t. In terms of the spectral transform ˆf1(z) which is
+the boundary value of a holomorphic function in the inner dom ain of the circle X1, this
+12
+
+[PDF PAGE 13]
+becomes ( ∫
+X1
+ˆf1(z) dθ
+2π
+)
+δ log(q) + ˆf1( 1√ q ) log(q)
+On the other hand the spectral function of T on X1 was given in Theorem VII as
+T (1;z) =
+(
+δ + (1 − 1/q )
+|1 − z/ √ q|2
+)
+log(q)
+which is the boundary value of the meromorphic function
+(
+δ + (1 − 1/q )z
+(1 − z/ √ q)(z − 1/ √q)
+)
+log(q)
+Integrating against dθ
+2π means a complex line integral against 1
+2π i
+dz
+z . So applying Cauchy
+residue formulae gives the stated answer •
+W eil’s local term in terms of a supertrace
+We now extend the deﬁnition of Z(f ) to the case that f has its support in |t|< 1 as
+Z(f ) = Z(If ), and then by linearity to the general case of a Schwartz-Bru hat function
+on K ×
+ν . As the time delay operator T commutes with the inversion the trace formula of
+Theorem IX remains valid.
+Using the relation between the operators T and H we will now give a trace formula for
+H(f )(1). For this purpose let us introduce a “superspace” struc ture on K where the odd
+part will be the one-dimensional space spanned by ω and the even part its orthogonal
+complement. The super-dimensions of the isotypical compon ents are
+sDim(Kχ) = δ +e(χ ) − 1
+We ﬁrst evaluate sTr(Z(f )) for f with support in {|t| ≥ 1}. We just need to go back to
+the considerations before Theorem IX and one gets
+sTr(Z(f1)) =
+( ∫
+|t|=1
+f1(t)d×t
+)
+sDim(K1) −
+∫
+|t|>1
+|t|− 1/2f1(t)d×t
+(χ ̸= 1) sTr(Z(fχ)) =
+( ∫
+|t|=1
+fχ(t)χ (t)d×t
+)
+sDim(Kχ)
+13
+
+[PDF PAGE 14]
+sTr(Z(f1)) +f1(1) log(q) = f1(1)δ log(q) −
+∫
+|t|>1
+|t|− 1/2f1(t)d×t
+(χ ̸= 1) sTr(Z(fχ)) +fχ(1) log(q) = fχ(1)(δ +e(χ )) log(q)
+Theorem X: sTr(Z(f )) +f (1) log(q) = H(f )(1) =
+∫
+Xν
+ˆf (χ ;z)H(χ ;z) dθ
+2π •
+Proof: The spectral function of H is the constant ( δ +e(χ )) log(q) on Xχ (Theorem II)
+so this settles it for fχ. For the invariant component f1,
+sTr(Z(f1)) +f1(1) log(q) + Tr(Z(f1)) = f1(1)(2δ + 1) log(q)
+On the other hand we also have
+H(1;z) +T (1;z) = (2δ + 1) log(q)
+so the result is then implied by Thorem IX. Finally H commutes with the inversion so
+the result also holds if f has its support in {|t|< 1}. The general case then follows by
+linearity •
+According to [Bu98a] the quantity H(f )(1) is the local contribution to the Explicit Formula
+[We52] (with the incorporation of the local component of the discriminant, and with the
+convention that the Explicit Formula counts the zeros with p ositive multiplicity and the
+poles with negative multiplicity, and with a shift of 1
+2 so that the poles are at ± 1
+2 ). Actually
+the explicit evaluations stated above just before Theorem X are another derivation of this
+fact.
+Exact evaluation of a trace considered by Connes
+As a further application of the method let’s evaluate the sim plest of the traces considered
+by Connes (Theorem 3 of Section V from [Co98]). Connes consid ers the operator
+˜PΛPΛU (f )
+where PΛ is orthogonal projection to functions with support in |x| ≤ Λ, ˜PΛ is its Fourier
+conjugate and
+U (f ) =
+∫
+K ×
+ν
+f (t)U (t)d×t
+14
+
+[PDF PAGE 15]
+which is log( q) times the multiplicative convolution with the locally con stant compactly
+supported function f (in fact Connes’s U (h) is our U (f ) for f (t) =
+√
+|t|h(t)). He shows
+(also at an archimedean place) that it is of trace class, has a main logarithmic divergency
+and a constant term which is the local term of the Explicit For mula and a o(1) error term.
+In the non-archimedean case his proof actually gives the exa ct value for Λ large enough.
+Let us evaluate this trace with our methods. Put Λ = qn,n ≥ 0, Pn =PΛ, and
+Qn = ˜PnPn
+AsPn and ˜Pn commute with the action of the unit group, Qn respects the decomposition
+of the Hilbert space in isotypical components. Let Qχ
+n be the corresponding operator on
+L2
+χ.
+Theorem XI: The operator Qχ
+n is, in the spectral picture, an integral operator with a
+smooth kernel Qχ
+n(z,w ). Its value is as follows for χ ramiﬁed:
+Qχ
+n(z,w ) =
+∑
+e(χ)+δ− n≤ j≤ n
+zj
+wj (this vanishes if 2 n<e (χ ) +δ)
+and, for the trivial character:
+(2n ≥ δ) Q1
+n(z,w ) = (z
+w)δ− n
+
+ (1 − 1/q )
+(1 − z/ √q)(1 − w/ √q) +
+∑
+1≤ j≤ 2n− δ
+(zw)j
+
+
+(0 ≤ 2n<δ ) Q1
+n(z,w ) = z δ− n
+w n
+√ q δ− 2n
+(1 − 1/q )
+(1 − z/ √ q)(1 − w/ √ q)
+Forn given, only ﬁnitely many of the kernels Qχ
+n(z,w ) are non-zero. •
+Proof: First we consider a ramiﬁed character. The action of Pn is orthogonal projec-
+tion to the span of {zj,j ≤ n} while the action of ˜Pn is by Theorem I orthogonal projection
+to the span of {zj,j ≥ e(χ ) +δ − n}. Hence the result.
+For the trivial character, let us ﬁrst assume that n ≥ δ − n. We work exclusively with
+functions invariant under the units. Let, for j ∈ Z,ω j be the function of norm 1 constant
+on the ball of radius qj. The Fourier Transform of ω j is ω δ− j. Let Kn be the space
+15
+
+[PDF PAGE 16]
+spanned by ω δ− n,...,ω n, let Ln the space spanned by functions perpendicular to ω δ− n,
+with support in |x| ≤ qδ− n, and Mn the space of functions with support in |x|> qn.
+Then L2
+1 = Ln ⊕ K n ⊕ M n. Pn cuts oﬀ Mn, ˜Pn cuts oﬀ Ln, so they commute and their
+combination Qn is just orthogonal projection to Kn. An orthonormal basis of this space
+in the spectral picture is given by the functions
+√
+1 − 1
+qzδ− n
+(
+1 − z√ q
+) − 1
+and {zj,δ − n<
+j ≤ n}. So
+Q1
+n(z,w ) = (z
+w)δ− n
+
+ (1 − 1/q )
+(1 − z/ √ q)(1 − w/ √ q) +
+∑
+1≤ j≤ 2n− δ
+(zw)j
+
+
+If n < δ− n, let m = δ − n so that m ≥ δ − m. Then Pn is identically 1 on Lm and
+identically zero on Mm, and ˜Pn is identically 1 on Mm and identically zero on Lm, so
+the combination Qn kills both Lm and Mm. On Km, Pn sends a given φ to <ω n|φ>ω n
+which is then sent by ˜Pn to < ωn|φ >< ωn|ω m > ωm =
+(
+1
+√ q
+) δ− 2n
+< ωn|φ > ωm. This
+gives the kernel
+Q1
+n(z,w ) = z δ− n
+w n
+√ q δ− 2n
+(1 − 1/q )
+(1 − z/ √ q)(1 − w/ √ q) •
+Theorem XII: For any n ≥ 0 and any f in the domain ∆ the operator QnU (f ) is a
+ﬁnite rank operator, whose Hilbert Trace is
+Tr(QnU (f )) = log(q)
+∑
+χ
+∫
+Xχ
+Qχ
+n(z,z ) ˆf (χ ;z)dθ(z)
+2π
+Proof: If f ∈ ∆ then ˆf (χ ;z) vanishes for almost all χ ’s. Of course U (f ) acts through
+multiplication with log(q) ˆf (χ ;z) in the spectral picture, and as the previous proof shows
+that each Qχ
+n has ﬁnite rank, QnU (f ) also has ﬁnite rank. Its trace is given by the “Well-
+known Trace Lemma” we proved earlier •
+Form ≥ 0 let ǫm(t) be the function on K ×
+ν whose spectral function is the characteristic
+function of the components indexed by characters with condu ctors at most m. For f ∈ ∆
+the multiplicative convolutionǫm ∗f coincides with f form ≥ e(f ) = the largest conductor
+from the χ ’s for which ˆf (χ ;z) is non-zero.
+Theorem XIII: Forf ∈ ∆:
+(2n ≥ δ) Tr( QnU (f )) = (2n + 1)(ǫ2n− δ ∗f )(1) log(q) − H(ǫ2n− δ ∗f )(1)
+16
+
+[PDF PAGE 17]
+(2n ≥ δ +e(f )) Tr( QnU (f )) = (2n + 1)f (1) log(q) − H(f )(1)
+Proof: One just need to compare Qχ
+n(z,z ) to the spectral function of the conductor
+operator H(χ ;z). One ﬁnds Qχ
+n(z,z ) log(q) = (2n + 1) log(q) − H(χ ;z) for 2n ≥ e(χ ) +δ
+and Qχ
+n(z,z ) = 0 for δ ≤ 2n<δ +e(χ ) (which happens only for a ramiﬁed character) •
+REFERENCES
+[Bu98a] J.F. Burnol , “The Explicit Formula and a Propagator” , math/9809119 (v1 Sep. 1998, v2
+November 1998)
+[Bu98b] J.F. Burnol , “Spectral analysis of the local conductor operator” , math/9811040 (November
+1998)
+[Bu98c] J.F. Burnol , “Spectral analysis of the local commutator operators” , math/9812012 (December
+1998)
+[Co98] A. Connes , “Trace formula in non-commutative Geometry and the zeros of the R iemann zeta
+function”, math/9811068 (November 1998).
+[LP78] P.D. Lax, R.S. Phillips , “The time delay operator and a related trace formula” in “Topics in
+Functional Analysis” (I. Gohberg and M.Kac, eds.), pp 197-215, Academic Press, New Y ork (1978).
+[LP90] P.D. Lax, R.S. Phillips , “Scattering Theory” , Academic Press, San Diego (1990, 2nd ed.).
+[T a50] J. T ate, “Fourier Analysis in Number Fields and Hecke’s Zeta Function ”, Princeton 1950, reprinted
+in Algebraic Number Theory, ed. J.W.S. Cassels and A. Fr¨ ohlich , Academic Press, (1967).
+[W e52] A. W eil,“Sur les “formules explicites” de la th´ eorie des nombres premie rs”, Comm. Lund (vol
+d´ edi´ e ` a Marcel Riesz), (1952).
+Jean-Fran¸ cois Burnol
+62 rue Albert Joly
+F-78000 Versailles
+France
+January 1999
+17

@@ -8,7 +8,7 @@
   "cadence": "goals/review-cadence.json",
   "decisions": "goals/DECISIONS.md",
   "latest_strategy": "goals/reviews/2026-10-14-growth-frontier-strategy.md",
-  "latest_decision": "D20261014P",
+  "latest_decision": "D20261014Q",
   "macro_frontier": "goals/MACRO_FRONTIER.md",
   "macro_summary": "goals/reviews/2026-10-14-cross-round-macro-summary.md",
   "latest_macro_review": "goals/reviews/2026-10-14-full-gamma-variation-and-source-review-cycle-10.md",
@@ -20,8 +20,8 @@
   },
   "macro": {
     "long_objective": "新的成长域独立实际算术输入/同对象ζ约束，或成长核心实质方法类边界；扣除≤538基线。",
-    "unpaid_bottleneck": "543新cofinal全源Ce^S计数预算严格省L，但thermal全温度仍leading S指数；真实成长joint graph/pole signed、危险core/nearPSD及Ξ识别未付。C015共同有分次响应尚unknown。",
-    "why_this_contract": "C014 thermal优化不能消指数而止损；Burnol gradedlocal原件已给reflected pp，较Selberg未知同向→反射桥具体。C015先核原proof/commonphysicalnorm/单位项逐p相消，再查独立joint信息；local T正/旧Euler本身零newforcing。",
+    "unpaid_bottleneck": "C015原件/commoncomplexnorm/strictpp已核，但仅旧Euler表示，无新growthjoint；危险core/nearPSD、fullΓ-prime-pole signed与Ξ仍未付。C016cusp几何输入的actualWeil全源桥未付。",
+    "why_this_contract": "停止local正T与旧identity搬运；modular完整Maass–Selberg Gram在同source同时保actualζ ratio及cusp成本，较local独立块有更具体joint响应。先completed/poles/wholefrequencypacket与原norm门，不以unitary半线迫quarter-line。",
     "paused_routes": [
       "零点比例优化",
       "无零区域优化"
@@ -34,18 +34,19 @@
       "C011两轮停止constant-envelope搬运；539固定Ω失败/540全Ω scalar费用，极小τ、head-complement/full Γ/signed未排。",
       "C012一轮541 native E/A绝对derivative费相对Dlog无界，停止absolute-PNT包络；signed/H¹/源分块未排。",
       "C013一轮542 high-k全measure真，但whole净值失败于旧016/028；停止优化k/弱2S对照。",
-      "C014一轮543有新cofinalCe^S净值，但positive thermal全温度仍leading S；停止degree热微调，signed/core逃逸保留。"
+      "C014一轮543有新cofinalCe^S净值，但positive thermal全温度仍leading S；停止degree热微调，signed/core逃逸保留。",
+      "C015入口544只原件/旧tool，零数学轮停止；norm已付但joint未付，真正graded/mixedsigned/core逃逸未排。"
     ]
   },
   "primary_contract": {
-    "id": "C015",
-    "path": "goals/contracts/C015-graded-local-scattering-and-common-source-gate.md",
+    "id": "C016",
+    "path": "goals/contracts/C016-modular-cusp-gram-and-actual-weil-transport.md",
     "status": "ready",
     "iteration_budget": 1,
     "settled_iterations": [],
-    "stage": "Burnol math/9901051v2 VII/VIII/X已定位，cited来源准备零轮；原共同norm/全Dlog及新joint响应未消费。",
-    "next_action": "首轮独立核Burnol原VII/VIII/X与H/T/K、Qp δ0 unramified、local Haar/Δ/trace域；直接核同一complex零延拓f的periodization/Zak norm与T_p Poisson平方，逐p先消logp I单位项，保strict全部pp、actualΓ/dualpole/Dlog。扣除旧017/531–535/543，再检是否有真正新多prime共同源signed/core信息；只localidentity不晋级，不能把directsum positive或unknowndomination作输入。",
-    "stop_rule": "一完整轮预算；原proof/Poisson/periodization只是旧工具。若无新共同源joint費/净谱后果或有效范围边界则止损改来源，不重复已付carrier/n6凑轮、不优化thermal或改名RH前件；535/529与暂停保持。"
+    "stage": "Zagier/Garrett原PDF/text/hash已冻结，fullcusp/source/polar gate准备零轮；root未独立消费全complexcompleted packet/actualQ运输。",
+    "next_action": "首门独立核原四项Maass–Selberg/classicalhyperbolicnorm，Y0=2完整constantmode Gram扣除及Zagier E*0/1 poles、s=.5相消/entireF；冻结s_t=.25+it/2，对原complex零延拓f核(2π)^−1∫Ff(t)F_Y(s_t)dt的wholefrequencyBochner/双频polarization/Dlog费用。先检completed smoothing或inverseΓ/ζ权是否改变原norm，再核actualΓ=2θ′/allstrictpp/dualpole signed-core桥，超最强016/028/543才晋级。",
+    "stop_rule": "入口若only已知正Gram/polarRe s>.5排除、compact/变norm或unknownWeilbridge则立即停零轮；只有完整新actualsource费用/净后果才消费预算一次。不以unitarity迫quarterline、不复活等价酉化/临界源修正/paused路线。"
   },
   "support_contracts": [],
   "must_not_forget": [
@@ -59,7 +60,8 @@
     "Goal runtime现场核；完成审计须绑定本Goal版本/基线，不用旧收据。",
     "净值对照须最强旧016/028 graph/profile/负迹；旧PNT eventual C L e^S属于冻结基线，不记新forcing。",
     "543仅cofinal全源countupper；热账本lower非actualcountlower，未付PSD/Ξ，非macro完成。",
-    "C015正local T在unramified H=logp−T中带负号；单位常数逐p相消，共同physicalnorm/joint橋未付，不复活ordinarySonin。"
+    "C015 norm/单位相消已付oldtool，544非新数学结算，latest仍543/cadence2，不把source审查造失败轮。",
+    "C016 actualρ→ρ/2，RH quarter-line非modularunitary半线；fullcusp mixed费用/completion与原Dlog桥未付。"
   ],
   "evidence": [
     {
@@ -78,34 +80,9 @@
       "scope": "旧基线samewindow真simple-even/gap，非成长或RH。"
     },
     {
-      "path": "notes/539-growing-weil-prime-cost-and-constant-tail-boundary.md",
-      "kind": "obstruction",
-      "scope": "新全actual prime成长费用/constant-envelope compact供应器边界；不是Q负或宏观完成。"
-    },
-    {
-      "path": "notes/540-growing-constant-tail-gaussian-reward-cost.md",
-      "kind": "obstruction",
-      "scope": "Gaussian完整norm/频尾与539同源全Ω scalar上界；不是Q负、独立算术正性或Goal完成。"
-    },
-    {
-      "path": "notes/541-native-chebyshev-variation-and-full-gamma-boundary.md",
-      "kind": "obstruction",
-      "scope": "Actual E/A absolute费κω/fullΓ logω全源边界；bounded修复/固定finite L²条件及signed端点/Q正方向，非macro完成。"
-    },
-    {
-      "path": "reviews/2026-10-14/c012-variation/reverse-core-audit.md",
-      "kind": "proved",
-      "scope": "独立time-jump+最终541谱全tail消费，正确2N+2I；修复/majorant/有限L²与H¹逃逸。"
-    },
-    {
       "path": "notes/542-actual-prime-high-moments-and-strong-baseline-audit.md",
       "kind": "proved",
       "scope": "actual高k/allband坏集预算新证明；whole谱运输真但净门失败，C013一轮止损，非宏观完成。"
-    },
-    {
-      "path": "reviews/2026-10-14/c013-moments/gamma-profile-heat-entry.md",
-      "kind": "cited",
-      "scope": "历史C014准备，543现已独立消费heat/record/net；cofinalCe^S及热边界范围以543与审查为准，准备零轮。"
     },
     {
       "path": "notes/543-full-gamma-heat-arithmetic-records-and-thermal-boundary.md",
@@ -113,34 +90,44 @@
       "scope": "actualΓ/profile/record全complexcofinalCe^S，胜最强旧标量家族因子L；全温度热账本leading S界，非PSD/Ξ/Goal完成。"
     },
     {
-      "path": "reviews/2026-10-14/c014-first/heat-domain-and-trace-audit.md",
-      "kind": "proved",
-      "scope": "actualΓ zeroextension Dlog/killed核、先半循环HS后cycle/Trotter/TraceFatou，全complex/pole+1及双尾2/η；最终543 scope审。"
-    },
-    {
-      "path": "reviews/2026-10-14/c014-first/arithmetic-record-and-profile-audit.md",
-      "kind": "proved",
-      "scope": "cofinal真实records/所有y/strictatomfee/M=S/stepprofile，温度/形式局部ledger界与final543 scope；不当actualcountlower。"
-    },
-    {
-      "path": "reviews/2026-10-14/c014-first/strong-baseline-and-macro-net-audit.md",
-      "kind": "proved",
-      "scope": "最强旧δ家族(4e+o1)L eS/newratioO1/L、定向旧对象扣除/宏观未完成，下一graded来源仅准备。"
-    },
-    {
-      "path": "goals/contracts/C014-gamma-heat-and-arithmetic-record-profile.md",
+      "path": "notes/544-graded-local-source-admission-without-new-joint-input.md",
       "kind": "cited",
-      "scope": "543一轮净值通过后停止thermal主攻，cadence仅一次，signed/core逃逸保留。"
+      "scope": "C015原件/共同norm/strictpp/grade已核但只oldEuler，入口停止零数学轮；不是newwhole forcing/methodclass边界。"
     },
     {
-      "path": "reviews/2026-10-14/c014-first/next-graded-source-entry.md",
-      "kind": "cited",
-      "scope": "Burnol v2原公式定位、graded/sign/单位项与旧Euler扣除，C015来源准备零轮；新共同桥unknown。"
+      "path": "reviews/2026-10-14/c015-admission/original-scattering-and-grade-audit.md",
+      "kind": "proved",
+      "scope": "Burnol原VII/VIII/X/core/Haar/δ0pureodd、sourceautocorr/全complex/Dlog，final544scope通过；oldtool不新计轮。"
     },
     {
-      "path": "goals/goal-observation.20261014-c014-first.json",
+      "path": "reviews/2026-10-14/c015-admission/common-source-and-joint-frame-audit.md",
+      "kind": "proved",
+      "scope": "Zak/fiber反射、allpp/unit/crossGram与C_p尾乘回p/full-line规则，final544scope通过，无newjoint。"
+    },
+    {
+      "path": "reviews/2026-10-14/c015-admission/old-asset-deduction-and-next-source.md",
+      "kind": "conditional",
+      "scope": "C015强旧扣除成立；modular全cusp/最高polar/direct sourcepacket为C016准备，actualQ/normtransport未消费，零轮。"
+    },
+    {
+      "path": "literature/background/burnol-scattering-9901051v2-source.json",
       "kind": "cited",
-      "scope": "root现场G20261014 active身份一致；不认证数学完成。"
+      "scope": "原v2 PDF/text bytehash/17pages收据，rawbytes现场复核；非wholeWeil认证。"
+    },
+    {
+      "path": "reviews/2026-10-14/c015-admission/sources/macro-primary-source-receipt.json",
+      "kind": "cited",
+      "scope": "Zagier/Garrett作者PDF/text rawhash收据已现场核；C016source准备，不认证actualWeil桥。"
+    },
+    {
+      "path": "goals/contracts/C015-graded-local-scattering-and-common-source-gate.md",
+      "kind": "cited",
+      "scope": "入口停止、settled数学空/cadence不变，重新准入须newjoint，非allgraded失败。"
+    },
+    {
+      "path": "goals/goal-observation.20261014-c015-entry-stop.json",
+      "kind": "cited",
+      "scope": "root现场G20261014 active/身份一致，来源停止不完成Goal。"
     }
   ],
   "pending_processes": [],
@@ -148,10 +135,10 @@
     "status": "active",
     "observed_on": "2026-10-14",
     "created_at_epoch": 1791936604,
-    "basis": "Root现场get_goal active、createdAt一致；543/C014有限新count与thermal停止/C015准备不完成宏观Goal。"
+    "basis": "Root现场get_goal active、createdAt一致；C015源审查零数学轮停止/C016准备不完成宏观Goal。"
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-10-14-c014-proof-remote-verified.json",
+  "checkpoint": "goals/checkpoints/2026-10-14-c015-entry-stopped-c016-ready.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
     "commit": "ce3aaf1b6702bfea0f9d923cafc32ecf591ecc49",
@@ -163,11 +150,11 @@
     "goal_lf_sha256": "c55bc2d94f93a620f012a9e8dfab29bafad154b6231618a138308c50ef2f79a1",
     "mathematical_gate": "open",
     "final_execution_gate": "not-eligible",
-    "basis": "543strictfactorL新cofinal全源预算成立，但PSD/Ξ关键前件未付；thermal有限边界不排joint/sourcecore，C015仅来源准入，数学门open。"
+    "basis": "C015只有oldtool/commonnorm，无newjoint/forcing；C016仅独立几何来源准备。PSD/Ξ与joint signed未付，当前数学门open。"
   },
   "historical_completion_receipts": [
     "goals/goal-completion-receipt.20261014.json",
     "goals/goal-completion-receipt.20261014-continuation.json"
   ],
-  "process_inventory_observed_on": "2026-10-14；已收三C014代理终态及最终scope/来源消息，全部completed；无科学producer/待续exec session，pending[]。"
+  "process_inventory_observed_on": "2026-10-14；现场list_agents与最终source/scope消息：C015三代理全部completed；无科学producer/待续exec session，pending[]。"
 }

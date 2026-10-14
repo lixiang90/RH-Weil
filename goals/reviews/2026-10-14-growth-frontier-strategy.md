@@ -83,3 +83,12 @@ PNT下旧预算C L e^S；新leading S被旧资产覆盖，不能登记whole新�
 而正T在unramified H中带负号。先原proof、共同源periodization和单位常数相消，
 再找真正joint信息；旧017/Poisson/local正迹不能再登记forcing。
 新共同响应目前unknown，来源准备零轮，无桥止损，不再以易得旧carrier反例充当宏观进展。
+
+## C015入口停止与完整cusp来源（D20261014Q）
+
+544只有原件/旧Euler恢复，不计数学轮；共同source norm已付，实际jointsigned仍缺，
+finite localpositive/directsum/cheap tail归一化没有超最强旧后果。C015入口停止，原cadence仍2。
+下一C016把actualζ ratio置于modular完整cusp geometry；原作者公式与proof冻结，
+先fullGram/subtraction/completion及wholephysicalpacket费用，不能只以unitarity/positiveGram登记forcing。
+最高polefamily sign只排Re s>1/2，而RH是ρ/2 quarter-line；保留fullsubleading/joint逃逸。
+目标仍是同对象全Γ/pp/pole成长signed与Ξ，不改门槛，不复制/重置周期。

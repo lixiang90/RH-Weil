@@ -1,0 +1,3039 @@
+
+=== PDF PAGE 1 ===
+EISENSTEIN SERIES AND THE SELBERG 
+TRACE FORMULA I 
+By DON ZAGIER * 
+§ O. 
+Introduction. The integral IKo(g,g)E(g,s)dg. Let G = SL2(R) 
+and r be an arithmetic subgroup of G for which r\G has finite volume 
+but is not compact. The space L 2 (r\ G) has the spectral decomposition 
+(with respect to the Casimir operator) 
+L\r\G) = L~(r\G) e1 L!p (r\G)e1L~nl (r\G), 
+where L~(r\G) is the space of cusp forms and is discrete, L;p (r\G) is 
+the discrete part of (L~).J.., given by residues of Eisenstein series, and 
+L;"nl is the continuous part of the spectrum, given by integrals of 
+Eisenstein series. If 1 is a function of compact support or of sufficiently 
+rapid decay on G, then convolution with 1 defines an endomorphism T ,. 
+ofL2(r\G), and the kernel function 
+(0.1) 
+K(g,g') = 
+Lr 
+1(g -1" g') 
+'Y' 
+(g,g' E G) 
+of T,. has a corresponding decomposition as Ko + K,p + Koonl ' where 
+Ksp and Koon' can be described explicitly using the theory of Eisenstein 
+series. The restriction of T ,. to L~ (r\ G) is of trace class; its trace is given 
+by 
+(0.2) 
+Tr(T ,.,L~) = J Ko(g,g)dg. 
+r\G 
+The Selberg trace formula is the formula obtained by substituting 
+K(g,g) - Ksp (g,g) - Koonl (g,g) for Ko (g,g) and computing the integral. 
+However, although Ko (g,g) is of rapid decay in r\G, the individual 
+terms K(g,g), Ksp (g,g) and Keonl (g,g) are not, so that to carry out the 
+integration one has to either delete small neighbourhoods of the cusps 
+from a fundamental domain or else "truncate" the kernel functions by 
+subtracting off their constant terms in such neighbourhoods, and then to 
+compute the limit as these neighbourhoods shrink to points. This pro-
+cedure is perhaps somewhat unsatisfactory, both from an aesthetic 
+point of view and because of the analytical difficulties it involves. 
+G. H. Iwasawa et al., Automorphic Forms, Representation Theory and Arithmetic
+© Springer-Verlag Berlin Heidelberg 1981
+
+
+=== PDF PAGE 2 ===
+D.ZAGIER 
+To get around these difficulties we introduce the integral 
+(0.3) 
+I(s)= J Ko(g,g)E(g,s)dg, 
+r\G 
+where E(g, s) (g e G, seC) denotes an Eisenstein series. The idea of 
+integrating a r -invariant function F (g) against an Eisenstein series was 
+introduced by Rankin [5] and Selberg [6], who observed that in the region 
+of absolute convergence of the Eisenstein series this integral equals the 
+Mellin transform of the constant term in the Fourier expansion of F 
+(see § 2 for a more precise formulation). Applying this principle to F(g) = 
+Ko (g,g) we can calculate I(s) for Re(s) > 1 as a Mellin transform, obtain-
+ing a representation of I(s) as an infinite series of terms. Each of these 
+terms can be continued meromorphically to Re(s) ~ 1; in particular, the 
+contribution of a hyperbolic or elliptic conjugacy class of 'Y 's in (0.1) is 
+the product of a certain integral transform of 'II with the Dedekind zeta-
+function of the corresponding real or imaginary quadratic field. Since 
+the residue ofE(g, s) at s = 1 (resp. the value ofE(g, s) at s = 0) is a constant 
+function, we recover the Selberg trace formula by computing ress=1 (I(s)) 
+(resp. 1(0)). This proof of the trace formula is more invariant and in 
+some respects computationally simpler than the proofs involving 
+truncation. It also gives more insight into the origin of the various terms 
+in the trace formula; for instance, the class numbers occurring there now 
+appear as residues of zeta-functions. 
+However, the formula for I(s) has other consequences than the trace 
+formula. The most striking is that I(s) (and in fact each of the infinitely 
+many terms in the final formula for I(s)) is divisible by the Riemann 
+zeta-function, i.e. the quotient I(s)/' (s) is an entire function of s. Inter-
+preting this as the statement that the Eisenstein series E(g, p) is orthogonal 
+to Ko (g, g) (in fact, to each of infinitely many functions whose sum equals 
+Ko (g,g)) whenever '( p) = 0, one is led to the construction of a repre-
+sentation of G whose spectrum is related to the set of zeros of the Rie-
+mann zeta-function (cf. [11] in this volume). 
+On the other hand, the formula for I(s) can be used to get information 
+about cusp forms. The function Ko (g,g') is a linear combination ofterms 
+~(g)~(g'), where {~} is an orthogonal basis for L~(r\G) and where 
+304 
+
+
+=== PDF PAGE 3 ===
+SELBERG TRACE FORMULA 
+the coefficients depend on the function , and on the eigenvalues of G 
+("Selberg transform"). Moreover, applying the Rankin-Selberg method 
+to the function F(g) = I 
+~ (gW one finds that the integral of this function 
+against E(g,s) equals the "Rankin zeta-function" Rf/s) (roughly speak-
+.. 
+ing, the Dirichlet series L I a" 12n -8, where the a" are the Fourier 
+n=) 
+coefficients of f); indeed, this is the situation for which the Rankin-Selberg 
+method was introduced. Thus I(s) is a linear combination of the functions 
+Rfj (s), and so one can get information about the latter from a knowledge 
+ofI(s). In particular, using a "multiplicity one" argument one can deduce 
+from the divisibility of I(s) by '(s) that in fact each Rfj (s) is so divisible 
+(this result had been proved by another method by Shimura [8] for 
+holomorphic cusp forms and by Gelbart and Jacquet [2] in the general 
+case). Other applications of the results proved here might arise by com-
+paring them with the work of Goldfeld [1]. It does not seem impossible 
+that the formula for I(s) can be used to obtain information about the 
+Fourier coefficients of cusp forms. 
+The idea we have described can be applied in several different situations: 
+1. 
+By working with an appropriate kernel function, we can isolate 
+the contribution coming from holomorphic cusp forms of a given weight 
+k (discrete series representations in L2(r\G)). This case was treated in 
+[10]. The computation of! (s) here is considerably easier than in the general 
+case because there is no continuous spectrum and only finitely many 
+cusp forms ~ are involved. We can therefore represent each Rankin 
+zeta-function Rfj (s) as an infinite linear combination of zeta-functions 
+of real and imaginary quadratic fields. Moreover, for certain odd positive 
+values of s the contributions of the hyperbolic conjugacy classes in r to 
+I(s) vanish and one is left with an identity expressing Rrj (s) as a finite 
+linear combination of special values of zeta-functions of imaginary 
+quadratic extensions ofQ. As a corollary of this identity one obtains the 
+algebraicity (and behaviour under Gal(Q/Q)) Of(f/f)Rfj(S)/'JTk-) '(s) 
+J ' J 
+for the values of s in question ([10], Corollary to Theorem 2, p. 115), a 
+result proved independently by Sturm [9] by a different method. 
+305 
+
+
+=== PDF PAGE 4 ===
+D.ZAGIER 
+2. 
+The first case involving the continuous spectrum is that of Maass 
+wave forms of weight zero, i.e. cusp forms in L2(r\G/K) = L2(r\H), 
+where K denotes SO(2) and H = G/K the upper half-plane. This is the 
+case treated in the present paper (with r = SL2(Z». 
+3. 
+Next, one can replace SL2(R) and SL2(Z) by GL2(2, A) and 
+GL(2, F), respectively, where F is a global field and A the ring of adeles 
+ofF. This case, which is the most general one as far as GL(2) is concerned, 
+will be treated in a joint paper with Jacquet [3]. It includes as special cases 
+I and 2, as well as their generalizations to holomorphic and non-holo-
+morphic modular forms of arbitrary weight and level, Hilbert modular 
+forms, and automorphic forms over function fields. 
+4. 
+Finally, the definition of I(s) makes sense in any context where 
+Eisenstein series can be defined, so it may be possible to apply the method 
+sketched in this introduction to discrete subgroups of algebraic groups 
+other than GL(2). 
+1. Statement oftbe main tbeorem. In this section we describe the main 
+result of this paper, namely a formula for I(s) in the critical strip 0 < Re(s) 
+< I. In order to reduce the amount of notation and preliminaries needed, 
+we will state the formula in terms of a certain holomorphic function h(r); 
+the relationship of h(r) to the function ,(g) of the introduction (Selberg 
+transform) is well-known and will be reviewed in § 2. Except at the end 
+of §5, we will always consider only forms of weight 0 on the full modular 
+group r = SL 2(Z)/ {±I}. The results for congruence subgroups are 
+similar but messier to state and in any case will be subsumed by the results 
+of [3]. 
+Any continuous r -invariant function f: H -+- C has a Fourier expansion 
+of the form 
+.. 
+(1.1) 
+fez) = 
+~ An (f; y)e2winx 
+(z E H) 
+n=-\'O 
+(here and in future we use x and y to denote the real and imaginary parts 
+of z E H). We denote by L2(r\H) the Hilbert space of r-invariant 
+. 
+J 
+2·· 
+dxdy 
+functIOns f:H--..C such that (f,f) = 
+I f(z) I dz IS fimte(dz= -2-) 
+nH 
+y 
+306 
+
+
+=== PDF PAGE 5 ===
+SELBERG TRACE FORMULA 
+and by L!(r\H) the subspace off unctions with Ao(f;y) == O. The space 
+L! (r \ H) is stable under the Laplace operator 
+2 
+8 2 
+8 2 
+4= y (-+-) 
+8x2 
+8y2 
+and has a basis {~h~l consisting of eigenforms of 4(see [4], § 5. 2). 
+We write 
+(1.2) 
+A
+l 
+2 
+£ = - (-+ r·)£ 
+J 
+4 
+J 
+J 
+G= 1,2, ... ) 
+where rj « C. Since 4 is negative definite, we have r~ + I ~ 0, i.e. rj is 
+either real or else pure imaginary of absolute value ~ i. In fact it is known 
+that the rj are real for SL2(Z), but the corresponding statement for 
+congruence subgroups is not known and we will use only rt ~ -~. From 
+(1.2) we find that the nth Fourier coefficient An (~, y) satisfies the second 
+order differential equation 
+2 d2 
+2 
+2 
+2 
+1 
+2 
+y -2 An (~,y) - 4w n y An (f; y) =- (-+ rdAn (~;y). 
+dy 
+4 
+The only solution of this equation which is bounded as y ~ 
+IX) is 
+./YKir . (2wlnly), where K,.(z) is the K-Bessel function, defined (for 
+J 
+example) by 
+(1.3) 
+<XI 
+K,. (z) = J e -zcosht cosh 1'tdt 
+o 
+(1',Z «C,Re(z) > 0). 
+Hence the ~ have Fourier expansions of the form 
+<XI 
+(1.4) 
+~(z)= ! 
+8.j(n)'/yKir. (2wlnly)e2WiDX 
+D=-<XI 
+J 
+D+O 
+with 8.j (n) « C. We can choose the ~ to be normalized eigenfunctions of 
+the Hecke operators 
+(1.5) 
+T(n) :f(z) -~.~ ! 
+~ 
+n 
+~:~~ b(modd) 
+(n >0), 
+T( -1) :f(z)---+ f( -z), 
+T( -n) = T( -1)T(n), 
+307 
+
+
+=== PDF PAGE 6 ===
+i.e. 
+(1.6) 
+D. ZAGIER 
+llj (n) 
+f·IT(n)= -f 
+J 
+Inlt J 
+(n € Z,n 4= 0) 
+(then aj (1) = 1, aj ( - 1) = ± 1, and llj (n) is multiplicative). The functions 
+~ chosen in this way are called the Maass eigenforms; they form an ortho-
+gonal (but not orthonormal) basis of L~ (r \ H), uniquely determined 
+up to order. For eachj we define the Rankin zeta-Junction Rrj (s) by 
+We also set 
+(1.8) 
+R~. (s) = ." -s r(s) , (2s)Rr. (s) = '*(2s)Rr. (s), 
+J 
+J 
+J 
+where, (s) denotes the Riemann zeta-function and 
+(1.9) 
+'*(s) = ." -0/2 r(~) C (s) = C *(1- s). 
+The Rankin-Selberg method implies that R~. (s) has a merom orphic 
+J 
+continuation to all s, is regular except for simple poles at s = 1 and s = 0 
+with 
+(1.10) 
+ress=1 R~. (s) = ~(~,~), 
+J 
+and satisfies the functional equation 
+(1.11) 
+R~. (s) = R~. (1 - s) 
+J 
+J 
+(the proofs will be recalled in § 2). 
+We will also need the zeta-functions C (s,D), where D is an integer 
+congruent to 0 or 1 modulo 4. They are defined for Re(s) > 1 by 
+(1.12) 
+C(s,D)= !! 
+1 
+s 
+Q 
+m,n Q(m,n) 
+(Re(s) > 1), 
+308 
+
+
+=== PDF PAGE 7 ===
+SELBERG TRACE FORMULA 
+where the first summation runs over all SL2 (Z)-equivalence classes of 
+binary quadratic forms Q of discriminant D and the second over all pairs 
+of integers (m,n) If Z2 fAut (Q) with Q(m,n) > 0, where Aut (Q) is the 
+stabilizer of Q in SLiZ). These functions, which were introduced in [10], 
+are related to standard zeta-functions by 
+(1.13) C(s,D)= C(s)2'(finite Dirichlet series) 
+ifD = square+O 
+{
+C(S)t(2s-I) 
+ifD=O, 
+CQ(.yoj (s)'(finite Dirichlet series) ifD + square, 
+where CQ(-Vo) (s) denotes the Dedekind zeta-function of Q(JD) (for 
+precise formulas see [10], Proposition 3, p. 130). In particular, C (s,D) has 
+a meromorphic continuation in sand C (s,D)fC (s) is holomorphic except 
+for a simple pole at s = I when D is a square. 
+(1.14) 
+Now let h : R ~ 
+C be a function satisfying 
+{ 
+h(r) = h( -r); 
+h(r) has a holomorphic continuation to the strip I Im(r) I < t A 
+for some A > I; 
+h(r) is of rapid decay in this strip 
+("rapid decay" means O(lr I-N ) for all N). The object of this paper is to 
+compute ~ h(rj) Rr.<s). In §§2 and 3 we will show that this function 
+J=I 
+(~,~) 
+J 
+equals the function I(s) of §O and compute it in the strip I < Re(s) < A 
+by the Rankin-Selberg method; §§ 4 and 5 give the analytic continuation 
+in s, computation of the residue at s = I (Selberg trace formula), and 
+generalization to i Ii; (m) h(rj) Re. (s), where the Ii; (m) are the Fourier 
+J=I 
+(~,~) 
+J 
+coefficients defined by (1.4). We state here the final result for 0 < Re(s) < 1 
+and m > 0 in a form which makes the functional equation apparent. 
+THEOREM 1. 
+Let h: R -+ C be a function satisfying the conditions 
+(1.14) and m ~ 1 an integer. Then for SEC with 0 < Re(s) < 1 we have 
+the identity 
+(1.15) 
+~ 
+h(rj) * 
+.'" aj (m) -- Re. (s) = tJI(s) + tJI(1- s) 
+J=I 
+(jj.li) 
+J 
+309 
+
+
+=== PDF PAGE 8 ===
+D.ZAGIER 
+with fJI(s) = fJI(s;m,h) given by 
+00 
+fJI(s) = -~C·(sl J 
+C·(s+2ir)C·(s-2ir) ( ~ (!!./)h(r)dr 
+8." 
+'.(l +2ir) C ·(l-2ir) 
+a,d~1 d 
+-GO 
+ad=m 
+_1. ,*<:U·(2s) ( L (~r) h(is) 
+2 '( 
+s + 1) 
+a,d ~I a 
+2 
+ad=m 
+I-I 
+(l.16) 
++ m 2 
+r(s)r(s-j) 
+4.,,1 
+r(1+s)r(2-s) 
+C (s,l-4m) x 
+t--ao 
+2 
+2 
+00 rr1;s+ir)rr1;s-ir) 
+x J 
+r(ir)r(-ir) 
+-00 
+F( 1 - s 
+. 1 - s 
+. 3 
+1 
+t2
+) h ( ) dr 
+x 
+-2-+ lr'-2-- lr;"2- s; - 4m 
+r 
+, 
+where C· (s) and C (s, t2 - 4m) are defined by equations (1.9) and (1.12) 
+and F(a,b;c;z) denotes the hypergeometricfunction (defined by analytic 
+continuation if z < 0) and can be expressed in terms of Legendre functions 
+for the special values of the parameters a, b, c occurring in (1.16). 
+For m < 0 there is a similar formula with m replaced by I m I in the first 
+_I 
+2 
+two terms and the function m-
+2 
+Fr1; s + ir,1; s -
+ir;~- s;l- ~m) 
+in the third term replaced by a different hypergeometric function. 
+COROLLARY: 
+allj. 
+The Rankin zeta-junction R~. (s) is divisible by , • (s) for 
+J 
+Proof of the Corollary: Every term on the right-hand side of equation 
+(1.16) (and of the corresponding fonnula for m < 0) is divisible by '*(s); 
+since the series converges absolutely, we deduce that fJI(s) (and hence, 
+by the functional equation (1.9), also fJI(1-s» is divisible by '·(8). 
+Therefore the expression on the left-hand side of equation (1.15) vanishes 
+(with the appropriate multiplicity) at every zero of the Riemann zeta-
+function, and the linear independence of the eigenvalues ~(m)h(ri) 
+310 
+
+
+=== PDF PAGE 9 ===
+SELBERG TRACE FORMULA 
+(m .. Z-{O}, h satisfying (1.14» for differentj implies that the same 
+holds for each R~. (s). A more formal argument is as follows: For z .. H 
+J 
+define 
+CIO 
+I 
+cD(s,z)= L --~(z)Ri. (s); 
+J=1 
+(~,~) 
+J 
+then (1.4) and (1.15) imply the identity 
+CIO 
+4>(s,z)=JY m~CIO [a'(s;m,h m•y)+ a'(I-s;m,hm,y )]e2"imX , 
+miO 
+where hm,y (r)= Kir (2."lmly). Therefore cD(s,z) is divisible by c*(s) 
+and the corollary follows because Ri. (s) equals the scalar product 
+J 
+(cD (s,·),~). 
+As mentioned in the introduction, the above Corollary, which is the 
+analogue of the result for holomorphic forms proved in [8] and [10], is 
+included in the results of Jacquet-Gelbart [2]. We also observe that, up to 
+gamma factors, the quotient R~. (s)/C*(s) equals 
+J 
+C(2s) 1 laj(n)1 2 
+C (s) 
+0=1 
+n S 
+Using the usual relations among the eigenvalues aj (n) of a Hecke 
+eigenform, we see that this Dirichlet series has the Euler product 
+I 
+p: (l-cx!p S)(I-cxp,8pp ")(l_,8!p ") . 
+where cxp' ,8p are defined by 
+(i.e. cxp + ,8p = aj (P), cxp,8p = I). Thus the corollary is the case n = 2 of 
+the conjecture that the "symmetric power L-functions" 
+n 
+I 
+Lo(~,s)=" "0(1 
+m,80 m 
+s) 
+p m= 
+-
+cxp p 
+p 
+are entire functions of s for all n ~ I. 
+311 
+
+
+=== PDF PAGE 10 ===
+D. ZAGIER 
+2. Eisenstein series and the spectral decomposition of e (r\H). In this 
+section we review the definitions and main properties of Eisenstein series, 
+the Rankin-Selberg method, the spectral decomposition formula for 
+L2(r\H), the Selberg transform, and the Selberg kernel function. All 
+of this material is standard and may be skipped by the expert reader. We 
+will try to give at least a rough proof of all of the statements; for a more 
+detailed exposition the reader is referred to Kubota's book [4]. 
+EISENSTEIN SERIES. For z • Hand s • C with Re(s) > I we set 
+(2.1) 
+E(z,s)= 
+(Re(s) > I), 
+where r GO = {(~ :). SL2(Z)}/{ ±I} ~ Z is the group of trans la-
+tions in r. The series converges absolutely and uniformly and therefore 
+defines a function which is holomorphic in s and real-analytic and r-
+invariant with respect to z. Using the 1:1 correspondence between 
+r GO \r and pairs of relatively prime integers (up to sign) given by 
+r GO(: :) +---+± (c,d), we can rewrite (2.1) as 
+and hence 
+(2.2) 
+I 
+E(z,s)= -
+2 
+I 
+c,d.Z 
+(c,d) = 1 
+y' 
+S, 
+I 
+'(2s)E(z,s) = 'L ~ Imz 
+125 
+2 
+m,D 
++n 
+(Res> I) 
+(Re(s) > 1), 
+where ~' denotes a summation over all pairs of integers (m, n) =f (0,0). 
+This latter function has better analytic properties than E(z, s), namely: 
+PROPOSITION 1. The junction (2.2) can be continued meromorphically to 
+the whole complex s-plane, is holomorphic except jor a simple pole at s = 1, 
+312 
+
+
+=== PDF PAGE 11 ===
+SELBERG TRACE FORMULA 
+and satisfies the functional equation 
+(2.3) 
+E* (z,s) = E* (z,l-s), 
+where 
+(2.4) 
+E* (z,s) = ." -s r(s) , (2s)E(z,s) = c* (2s) E(z,s). 
+The residue at s = 1 is independent of z: 
+(2.5) 
+res.=J E(z,s) = ! ress=J E*(z,s) = ; 
+(zc H). 
+We will deduce these properties from the Fourier development of 
+E(z,s), which itself will be needed in the sequel. Separating the terms 
+m = 0 and m =1= 0 in (2.2) gives 
+aD 
+'(2s) E(z,s) = yS [,(2s)+ .I Ps(mz)] 
+m=J 
+(Re(s) > 1), 
+where 
+aD 
+1 
+P.(z) = 
+.I 
+D=-aD Iz + n 121 
+(u H,Re(s) >i). 
+The function P. (x + iy) is periodic in x for fixed y and hence has a Fourier 
+aD 
+development .I a(n,s,y)e 2winx with 
+n=-CIO 
+GO 
+a(n,s,y)= f e-;lrinx 2 • dx 
+(x +y ) 
+-aD 
+r(i)r(s-i) 1-2. 
+r(s) 
+y 
+= 
+[GR 3.251.2 and 8.432.5]. Hence 
+(n=O) 
+'(2s)E(z,s)= ,(2s)y' + r(i)~(~-i) ,(2s_1)yl-S 
+• .1 
+~ 
++ 2 r(s) 
+313 
+
+
+=== PDF PAGE 12 ===
+D.ZAGIER 
+or, multiplying both sides by .".-s res), 
+(2.6) 
+where '~(s) is defined by (1.9) and.,.. (n) by 
+(2.7) 
+.,..(n) = Inr L d-2• = ! 
+(-da)" 
+din 
+ad=/n/ 
+d>O 
+a,d>O 
+(nE Z - to}, JlE C). 
+The infinite sum in (2.6) converges absolutely and uniformly for all s 
+and z, so (2.6) implies that E*(z,s) can be continued meromorphically 
+to all s, the only poles being simple poles at s = 0 and s = I with residue 
+± t (the poles of , * (2s) and, * (2s - I) at s = t cancel). Also, it is clear 
+from (1.3) and the second formula of (2.7) that K,. (z) and.,. • (n) are even 
+functions of JI, so the functional equation of E*(z,s) follows from (2.6) 
+and (1.9). Another consequence of (2.6) is the estimate 
+(2.8) 
+E(z, s) = O(ymaX(cr,l-cr» 
+(y ~ 
+00), 
+where a = Re(s); this follows because the sum of Bessel functions is 
+exponentially small as y ~ 
+00. 
+THE RANKIN-SELBERG METHOD. 
+We use this term to designate the general 
+principle that the scalat product of a function f: r\H --+ C with an 
+Eisenstein series equals the Mellin transform of the constant term in the 
+Fourier development of f. More precisely, we have: 
+PROPOSITION 2. Letf(z) be a r-invariantfunction in the upper half-plane 
+which is of sufficiently rapid decay that the scalar product 
+(2.9) 
+(J,E(.,s)) = f 
+j(z)E(z,s)dz 
+r\H 
+converges absolutely for some s with Re ( s) > 1. Then for such s 
+"" 
+(2.10) 
+(J,E(.,s)) = f ys-2 Ao (f;y)dy 
+o 
+where Ao (J,y) is defined by equation (1.1). 
+314 
+
+
+=== PDF PAGE 13 ===
+SELBERG TRACE FORMULA 
+PROOF. 
+Substituting (2.1) into (2.9) we find 
+(f,E(.,s)) 
+f 
+r\H 
+= 
+f 
+roo\H 
+which is equivalent to (2.10). 
+fez) 
+Im(yz)S dz 
+f(z)Im(z)s dz 
+S dxdy 
+f(x + iy)y -2-
+Y 
+Note that the growth condition on f in the proposition is satisfied if 
+fez) = O(y -<) as y ~ 
+ex> for some e > 0, for then (2.8) implies that 
+the scalar product (2.9) converges absolutely in the strip - e < Re(s) < 
+1 + e. 
+One of the main applications of Proposition 2 is the one obtained by 
+choosing fez) = I~ (z)12, where ~ is a Maass eigenform. (This was the 
+original application made by Rankin [5] and Selberg [6], except that they 
+were looking at holomorphic cusp forms.) From (1.4) we find that the 
+constant term of f is given by 
+Ao(f;y) = y L laj(n)12 K ir. (2'ITlnly)2 
+n+O 
+J 
+(notice that K ir. (2'ITlnIY) is real by (1.3), since rj is either real or pure 
+J 
+imaginary). Hence (2.10) gives 
+00 
+f 1~(zWE(z,s)dz = f 
+r\H 
+0 
+yS-t 
+L laj(n)12 K ir. (2'ITlnly)2dy 
+n+O 
+J 
+laj (n) 12 
+00 
+InlS I yS-t Kirj (2'ITy)2dy 
+(2.11) 
+= L 
+n+O 
+= Rr/s) 
+(Re(s) > 1) 
+(the integral is evaluated in [ET 6.8 (45)] and equals the gamma 
+factor in (1.7». The analytic properties ofRfj (s) given in §1 (meromorphic 
+continuation, position of poles, residue formula(I.1 0), functional equation 
+(1.11» follow from (2.11) and the corresponding properties ofE(z,s). 
+SPECTRAL DECOMPOSITION. 
+We now give a rough indication, ignoring 
+315 
+
+
+=== PDF PAGE 14 ===
+D. ZAGIER 
+analytic problems, of how the Rankin-Selberg method implies the spectral 
+decomposition formula for e(r\H). This formula states that any f 
+• e(r\H) has an expansion 
+co 
+(2.12) 
+~ (f,~) 
+1 J 
+f(z)= £.. 
+--~(z)+-
+(f,E(·,t+ir»E(z,t+ir)dr, 
+j=O 
+(~,~) 
+4'11' -co 
+where g}j~1 
+is an orthogonal basis for L~(r\H) and {fo} for the 
+space of constant functions (we will choose ~(j ~ 1) to be the normalized 
+Maass eigenforms and fo (z) == 1). We prove it under the assumption that f 
+is of sufficiently rapid decay, say fez) = O(y -< ) with • > O. Let 'Y(s) 
+be the scalar product (2.9). Proposition 1 shows that 'Y(s) is a mero-
+morphic function of s, is regular in 0< Re(s)< 1 + E except for a simple 
+pole at s = 1 with 
+(2.13) 
+-1 f 
+-ifb.L 
+ress=1 'Y(s) -
+f(z)dz - (f f) fo, 
+'II' r\H 
+0' 0 
+and satisfies the functional equation 
+(2.14) 
+C(2s -
+1) 
+'Y(s) = 
+* 
+'Y(1 - s). 
+, (2s) 
+On the other hand, (2.10) says that 'Y(s) is the Mellin transform of 
+~ Ao (f; y), so by the Mellin inversion formula 
+1 
+A (f·y) =-
+0' 
+2'11' i 
+C+ico f 
+'Y(S)yI-S ds 
+(l < C < 1 + .). 
+C-ico 
+Moving the path of integration from Re(s) = C to Re(s) = ~ and using 
+(2.13) and (2.14) we find 
+316 
+
+
+=== PDF PAGE 15 ===
+SELBERG TRACE FORMULA 
+(2.15) 
+OD 
+* 
+(f,fo) 
+I J . !+ir 
+C (1- 2ir) !-ir 
+=--f +-
+'I'(1-1r)(y2 
++ 
+y2 
+)dr 
+(fo,fo) 
+0 
+4." 
+2 
+C*(1+2ir) 
+. 
+-OD 
+!+ir 
+C *(1- 2ir) !-ir 
+On the other hand, equation (2.6) implies that y2 
++ C *(1 + 2ir)y2 
+is the constant term of E(z,t + ir), so (2.15) tells us that the r-invariant 
+function 
+OD 
+,.., 
+(f,fo) 
+1 J 
+f(z) = f(z) --- fo(z) --
+'I'(t- ir)E(z,t+ ir)dr 
+(fo,fo) 
+4." 
+-OD 
+has zero constant term. It is also square integrable, because f(z) is and the 
+non-constant terms in the Fourier expansion of E(z,t + ir) are 
+,.., 
+2 
+\ 
+,.., 
+~ (f,G) t' 
+exponentially small. Hence f E Lo (r H), so f(z) = ~ ("- t'.) Ij (z), 
+J=I 
+Ij,lj 
+and this proves (2.12) since (r.G) = (f,G) for allj ~ I. 
+SELBERG TRANSFORM. As in the introduction, let, be a function on G of 
+sufficiently rapid decay and T,. the operator given by convolution with,. 
+Since we are interested only in functions on the upper half-plane H = G/K 
+(where K = SO(2) and the identification is given by (a b)K +-+ a.i + b) 
+c d 
+cl+d 
+we can assume that, is left and right K-invariant. But the map 
+t:K(: :)K 1--+ a2+b2+c2+d2_2 
+gives an isomorphism between K \G/K and [0, GO) (Cartan decom-
+position), so we can think of, as a map 
+, : [0, GO) ---. C. 
+An easy calculation shows that 
+( _I ') 
+Iz-z'12 
+t g g 
+= 
+, 
+yy 
+(g,g' E G), 
+where z, Z' E H are the images of g and g' . Therefore T" acts on functions 
+f:H-+Cby 
+317 
+
+
+=== PDF PAGE 16 ===
+D.ZAGIER 
+(2.16) 
+T "f(z) = J k(z,z')f(z') dz' 
+(z E H), 
+H 
+where 
+(2.17) 
+k( 
+')_ 
+(lz-z'1 2 ) 
+z,z - tp 
+, 
+yy 
+(z,z' E H). 
+The growth condition we want to impose on tp is that 
+l+A 
+(2.18) 
+tp(x) = O(x --2-) 
+(x ---+ (0) 
+for some A > 1 ; then (2.16) converges for any f in the vector space 
+I+A 
+V = {f: H ~Clfiscontinuous, f(z) = O(y --2-)}. 
+Because k(z,z') = k(gz,gz') for any g E G, the operator T" commutes 
+with the action of G. A general argument (cf. [7], p. 55 or [4], Theorem 
+1.3.2) then shows that any eigenfunction of the Laplace operator is also 
+an eigenfunction ofT ". More precisely, 
+(2.19) 
+where h(r), the Selberg transform of tp, is an even function ofr, depending 
+on tp but not on f. To compute it, we choose f(z) = y1-+ir , which satisfies 
+the c\..lditions in (2.19) ifr E C withIIm(r)1 < ~. Then 
+J
+co 
+3. 
+fCO 
+(x 
+X')2 + (y 
+y')2 
+T"f(z)= 
+y'-2:+ tr 
+tp( 
+-
+, 
+-
+)dx'dy'. 
+o 
+-co 
+yy 
+Making the change of variables x' = x + JYY' v in the inner integral gives 
+T "f(z) = j y'-~+ir JYY' Q «y - ;');dy' , 
+o 
+yy 
+318 
+
+
+=== PDF PAGE 17 ===
+SELBERG TRACE FORMULA 
+where the function Q is defined by 
+(2.20) 
+Q(w) = 
+foo 
+,(w + v2)dv = 
+foo ,(t)dt 
+Jt-w 
+-00 
+w 
+(w <:: 0). 
+The further change of variables y' = yeU then gives 
+T "f(z) = y~+ir j eiru Q(eu _ 2 + e -u )du. 
+-00 
+Hence, setting 
+(2.21) 
+we have 
+(2.22) 
+h(r) = j 
+-00 
+iru 
+g(u)e 
+du 
+(u E R), 
+A 
+(r E C,IIm(r)1 <-). 
+2 
+Formulas (2.20) - (2.22) describe the Selberg transform (the notations 
+Q, g, h, due to Selberg, are by now standard and we have retained them). 
+The inverse transform is easily seen to be 
+(2.23) 
+1 
+g(u)=-
+271' 
+00 f h(r)eiru du, 
+-00 
+Q(w) = g(2sinh -1 JW), 
+2 
+-1 
+,(x) =-
+71' f
+OO
+' 
+2 
+Q(x+v)dv. 
+-00 
+We can also combine these three integrals, obtaining 
+00 
+00 
+,(x) = 2:2 f rh(r) f 
+-00 
+cosh-1(l +~ 
+(2.24) 
+Pl. (1 +~ rtanh 71'r h(r) dr, 
+-2+ lr 
+2) 
+319 
+
+
+=== PDF PAGE 18 ===
+D.ZAGIER 
+where p. (z) (II _ C,z _ C - (- ao, I]) denotes a Legendre function of the 
+first kind. (For properties of Legendre functions we refer the reader to 
+[EH], Chapter 3; in particular, the integral representation ofP -~+ir just 
+2 
+used follows from formulas 3.7 (4) and 3.3.1 (3) there.) The inversion 
+formula of Mehler and Fock ([EH], p. 175) then gives 
+(2.25) 
+From (2.20) - (2.23) we see easily that the conditions 
+I+A 
+1(x) = 0 (x --2 ), 
+A 
+Q(w)=O(w-2 ), 
+A 
+g(u) = O(e-2"iUi), 
+A 
+h(r) holomorphic in I Im(r) 1< 2" 
+are equivalent; this also follows from (2.24) and (2.25) since P -~+ir (x) 
+grows like x-~+llm(r)1 as x ~ 
+ao [EH 3.9.2 (19), (20)]. Thus the ~owth 
+condition (2.18) is equivalent to a holomorphy condition on h, while the 
+condition that 1 be smooth is equivalent to the requirement that h be of 
+rapid decay. 
+SELBERG KERNEL FUNCTION. 
+Now suppose that the function fin (2.16) is 
+r -invariant. Then T pf is also r -invariant and clearly 
+(2.26) 
+with 
+(2.27) 
+T pf(z) = J K(z, z')f(z') dz' 
+r\H 
+K(z,z') = 
+~ k(z, " z'), 
+".r 
+i.e. the action of T p on r -invariant functions is given by the kernel 
+function (2.27). We claim that 
+(2.28) 
+I-A 
+K(z,z') = O(y'-2-) 
+(z fixed, y' ~ 
+ao) 
+if 1 satisfies (2.18). To see this, write 
+K(z, z') = 
+~ k(z + n,z,) + 
+L 
+~ k(z + n, " z'). 
+B.Z 
+".rao\r uZ 
+,,~rao 
+320 
+
+
+=== PDF PAGE 19 ===
+SELBERG TRACE FORMULA 
+I-A 
+The first term is easily seen to be O(Y'-2-). In the second term, 
+1m ("z') is uniformly small as y' -+ co and from this one easily sees 
+, A+I 
+that the inner sum is uniformly O(Im("z )-2- ). Therefore the second 
+term is 
+( 
+~ 
+, 
+A+I) 
+( 
+, A + I 
+,A+I ) 
+o 
+~ 
+Im(" Z)-2- = 0 E(z, -2-) - y -2-
+y.r..,\r 
+y;r.., 
+I-A 
+which by (2.6) is O(y'-2- ). 
+From (2.28) it follows that K(z,z') is in e(r\H) with respect to each 
+variable separately and that the scalar product (K( . , z'), E( . , s» converges 
+I-A 
+I+A. 
+fpr -- < Re(s) < --. Usmg (2.26) and (2.19) we find 
+2 
+2 
+(2.29) 
+G ~O), 
+where rj is given by (1.2) for j ~ I and ro = ~, and similarly 
+(K(.,z'), E(.,t + ir» = h(r)E(z',t - ir) 
+since AE(z,}+ir)=-(!+r2)E(z,}+ir). Therefore the spectral de-
+4 
+composition formula (2.12) applied to K(· ,z') gives 
+.., 
+( 
+') 
+~ h(rj) f ( 
+f ( ') 
+I f ,. , 
+1 
+• 
+K z,z 
+=.~ -- j z) j z +-
+E(z,l+ lr)E(z ,1-1r)h(r)dr. 
+)=0 (f f) 
+4.". 
+J' ) 
+_.., 
+We restate this formula as 
+PROPOSITION 3. Let h(r) be afunction satisfying (1.14) and set 
+(2.30) 
+, 
+~ h(rj) 
+-,-
+Ko (z,z ) = 
+~ --jj (z)jj (z ) 
+)=1 (jj,jj) 
+(z,z' E H), 
+where {jj} is an orthogonal basis of L~ (r\H) satisfying (1.2). Let k(z,z') 
+(z, Z' E H) be the function defined by (2.17), where 'P is given by (2.23) 
+or (2.24). Then 
+321 
+
+
+=== PDF PAGE 20 ===
+(2.31) 
+D.ZAGIER 
+Ko (z,z') = 
+, 
+3. 
+k(z,yz) --h(t) 
+'Ir 
+GO 
+-~ J 
+E(z,!+ ir)E(z',!- ir)h (r)dr. 
+4'1r 
+-GO 
+We remark that (2.31) can be proved directly, without recourse to the 
+spectral decomposition formula (2.12): Using the formulas for the Selberg 
+transform and Mellin inversion, one can check directly that the expression 
+on the right-hand side of (2.31) has constant term zero with respect to 
+both variables and hence (using the estimate (2.28» is a cusp form; 
+equation (2.29) then implies the desired identity. We leave the details as 
+an exercise for the reader. 
+§ 3. Computation ofl(s) for Re(s) > 1. Let her) be a function satisfying 
+(1.14) and define 
+(3.1) 
+I(s)= J Ko(z,z)E(z,s)dz, 
+r\H 
+where Ko (z,z') is defined by (2.30). Since Ko (z,z) is of rapid decay, the 
+integral converges for all s( =1= 1), and from (2.11) we have 
+~ h(rj) 
+I(s)= .4. 
+--Rrj(s). 
+J=1 
+(G,G) 
+(3.2) 
+The object of this section is to compute I(s) for 1 < Re(s) < A. 
+By the Rankin-Selberg method (eq. (2.10» we have 
+GO 
+(3.3) 
+I(s) = J ~(y)yS-2 dy 
+(Re(s) > 1), 
+o 
+where ~(y) is the constant term of Ko(z,z), which we will compute 
+using Proposition 3 above. From (2.6) we find that the constant term of 
+E(z,! + ir)E(z,! - ir)equals 
+[ 
+~+ir 
+t *(1- 2ir) !-ir] 
+y 2 + C * (1 + 2ir) y2 
+8y 
++ t *(1 + 2ir)t *(1- 2ir) 
+322 
+GO 
+2 "'ir (n)2 Kir (2'1rny)2. 
+n=1 
+
+
+=== PDF PAGE 21 ===
+SELBERG TRACE FORMULA 
+Of the four terms obtained by multiplying the expressions in square 
+brackets, two are obtained from the other two by replacing r by - r and 
+hence will give the same contribution when integrated against the even 
+function h(r). As to the first term in (2.31), we separate the terms with 
+" 
+E roo and,,; roo; the former are their own constant terms since 
+Z 
+k(z,z + n) = ,(nz) is independent ofx. We thus obtain the decomposition 
+y 
+with 
+1 
+4 
+f(y) = I Ko(x+iy,x+iy)dx= ! 
+~(y) 
+o 
+i=1 
+1 
+ft(y) = I . 
+0 
+00 
+fz(y) = ! 
+D=-CIO 
+00 ! 
+y.r 
+k(x + iy,,, (x + iy)) dx, 
+y~roo 
+nZ 
+00 
+y f 
+,(-)--
+h(r) dr, 
+yZ 
+2." 
+-00 
+2ir '*(1 + 2ir) 
+3 
+i 
+Y -:--:;:----h(r)dr- - h(-) 
+'*(1- 2ir) 
+." 2' 
+1 
+~------~-----x 
+'*(1 + 2ir) , *(1 + 2ir) 
+4 
+This gives a corresponding decomposition of I(s) as 
+.~ Ii (s) with 
+.=1 
+00 
+Ii (s) = J fi (y)y"-2 dy 
+(i= 1, ... ,4). 
+o 
+THEOREM 2. The integrals Ii (s) converge for 1 < Re ( s) < A and are given 
+in that region by the formulas 
+323 
+
+
+=== PDF PAGE 22 ===
+D. ZAGIER 
+ir(~)r(l-s) 
+GO r(~-ir) 
+2 
+2 
+f 2 
+[2(S) = -
+HI 
+H3/2 
+'(S) 
+-----rh(r)dr, 
+2 
+'IT 
+S 
+-GO r(l-}-ir) 
+ao r (~+ ir) r (~- ir) 
+x f 2 
+2 
+, ( s + 2ir) , ( s - 2ir) h (r ) dr. 
+r (! + ir) r (! - ir) '( 1 + 2ir) , ( 1 - 2ir) 
+-GO 
+Proof We begin with 14(s) since it is, despite appearances, the easiest 
+of the four integrals. The very rapid decay of the Bessel functions allows 
+us to interchange the order of the integrations and summation, obtaining 
+2 
+fGO (~ "'ir (n)2) (fGO 
+I 
+2) 
+14(S) = - -; 
+f:1 -n-. -
+yS- K ir (2'ITY) dy 
+x 
+-GO 
+0 
+h(r) 
+d 
+x ,.(1 + 2ir) ,.(1- 2ir) 
+r. 
+The first expression in parentheses equals ~ (S)2 '(s + 2ir) , (s - 2ir) for 
+~ (2s) 
+Re(s) > 1, as one checks by expanding the Dirichlet series as an Euler 
+r(~)2 
+product. The second expression in parentheses equals S,!,· r(;) 
+r(i+ ir)r(i- ir) (this is the same integral as was used in (2.1 I». Putting 
+this together we obtain the formula for 14 (s) given in the theorem; it is valid 
+for Re(s) > 1. (The integral converges for all s with Re(s) =F 0, 1, as one 
+sees by using Stirling's formula and standard estimates of '(s) and 
+324 
+
+
+=== PDF PAGE 23 ===
+SELBERG TRACE FORMULA 
+C (1 + it) -1 as well as the fact that h(r) is of rapid decay.) Since the gamma 
+factors in the formula are exactly those corresponding to the zeta-
+functions occurring, we can write the result in the nicer form 
+(3.4) 
+1 C * (S)2 
+14(s) = -
+4." C * (2s) x 
+J
+GO C *(s + 2irH *(s - 2ir) 
+x 
+h(r)dr 
+C *(1 + 2ir) C *(1- 2ir) 
+-GO 
+(Re(s) > 1). 
+The integral 13 is also quite easy to compute. Since C *(1- 2ir) is non-
+zero for Im(r) ~ 0 and since the poles of C *(1 + 2ir) and C *(1- 2ir) at 
+r = 0 cancel, the integrand in Jt'"3 (y) is holomorphic in 0::5 Im(r) < A 
+2 
+except for a simple pole of residue 
+,. :(2) y-1h(-2i) res 
+i (C *(1 + 2ir» = lih(-2i) 
+~ 
+r=2 
+."y 
+at~. Hence we can move the pathofirttegration to Im(r) = ~ (1 < C < A), 
+obtaining 
+C+iGO 
+J 
+C-iGO 
+-s 
+y 
+C*(s) 
+h(~)ds 
+C*(s+ 1) 
+2 
+(1 < C< A). 
+The Mellin inversion formula then gives 
+(3.5) 
+1 (s) = _.! C *(s) 
+h(is) 
+3 
+2 C *(s + 1) 
+2 
+(1 < Re(s) < A), 
+in agreement with the formula in Theorem 2. 
+We now turn to 12 (s), which is somewhat harder. From (2.23) and (2.20) 
+we have 
+GO 
+GO 
+GO 
+2~ J 
+h(r)dr = g(O) = Q(O) = J 
+,(v2)dv = ; J 
+,(;:)dU, 
+_GO 
+-GO-GO 
+so 
+325 
+
+
+=== PDF PAGE 24 ===
+D.ZAGIER 
+By the Poisson summation formula this equals 
+00 
+2 
+! 
+f 9"'(U 2)e2triOU du = 2y 
+0+0 
+Y 
+-00 
+00 
+! 
+r/J(ny), 
+n=1 
+where 
+(3.6) 
+r/J(y) = j 9"'(u2)e2triUY duo 
+-00 
+Since 9'" is smooth, r/J is of rapid decay, so we may interchange summation 
+and integration to get 
+00 
+00 
+00 
+(3.7) 12(s)=2! f r/J(ny)y·-I dy=2C(s) f r/J(y)y.-I dy(Re(s) >1). 
+0=1 
+0 
+0 
+To calculate the integral we begin by substituting the third equation of 
+(2.23) into (3.6). This gives 
+00 
+00 
+r/J(y) = -! f e2 .. iuy f Q' (u2 + v2)dvdu. 
+-00 
+-00 
+Changing to polar coordinates u + iv = rei' and using the standard 
+integral representation 
+of the Bessel function of order 0 [GR 3.915.2] we find 
+00 
+r/J(y) = - 2 f Jo (271'yr)Q' (r2)rdr 
+o 
+or, making the substitution r = 2sinh¥and using (2.21), 
+00 
+r/J(y) = - I Jo (471'ysinh¥) g' (u)du. 
+Using the formula 
+00 
+r(!) 
+f Jo (2ay)y·-1 dy= 
+2 
+(0 < Re(s) < ~,a > 0) 
+o 
+2as r(l-i) 
+326 
+
+
+=== PDF PAGE 25 ===
+SELBERG TRACE FORMULA 
+[ET 6.8 (I)] we find 
+(3.8) 
+aD 
+(2.,,)-5 r(!) 
+f .p(y)y'-I dy = -
+s 2 
+-aD 
+2r(I-"2) J (sinh~) -s g' (u)du 
+3 
+(0 < Re(s) < "2) 
+-aD 
+A 
+(the integral converges at 00 because g' (u) = O(e -"2i ui ) and at 0 because 
+g' (u) is an odd function and hence O(u». Substituting 
+aD 
+g' (u) = -::.L f rh(r)sinrudr 
+2." 
+-aD 
+and using the Fourier sine transform formula 
+aD J sinru 
+d 
+2,-1 ·r(1 
+) 
+s u=-
+1 
+-s 
+·h u 
+o (sm "2) 
+{ 
+r(~- ir) 
+f(1-~- ir) 
+2 
+([ET 2.9(30)]; the conditions for validity are misstated there) gives 
+aD 
+ir(!)r(l - s) 
+aD r(!- ir) 
+J 
+.1. 
+,-I 
+2 
+2 f 2 
+.,..(y)y 
+dy = -
+20+2 
+0+3/2 
+---s-- rh(r) dr, 
+o 
+." 
+-aD r(I---ir) 
+2 
+where we have used the fact that h(r}is an even function, and substituting 
+this into (3.7) we obtain the formula stated in the theorem. Since the 
+integral converges for all s with positive real part, the formula is valid for 
+all s with Re(s) > 1 (not just 1 < Re(s) < ~); we can use the elementary 
+identity 
+( r(!- ir) 
+r 
+2 
+2.,,1 r(1 -! - ir) 
+2 
+r~+~) 
+r~+~r~-~ 
+-
+r(1-~+ir) = r(l~S)r(l~S)r(ir)r(_ir) 
+327 
+
+
+=== PDF PAGE 26 ===
+D. ZAGIER 
+to write it in the more elegant form 
+(3.9) 
+I (s)= 
+,*(S) 
+2 
+s+1 
++ 1 
+(4'11')-2 r(_S -) 
+2 
+00 r(~ + ir) r(~ - ir) 
+f 
+2 
+2 
+r(ir) r( _ ir) 
+h(r) dr 
+-00 
+(Re(s) > 1). 
+The proof of (3.9) was rather complicated and required introducing the 
+extraneous function Jo (x). We indicate a more natural and somewhat 
+simpler derivation which, however, would require more work to justify 
+since it involves non-absolutely convergent integrals. Interchange the 
+order of integration in 
+00 
+00 
+00 
+J I/J(y)y.-I dy= J J ,(u2 )cos2'11'uyduy·-1 dy. 
+o 
+0 
+-00 
+00 
+Then the inner integral J y.-I cos 2'11'uydy converges (conditionally) 
+o 
+for 0 < Re(s) < 1 (thus in a region of validity disjoint from that of (3.7)!) 
+and equals (2'11'lul)-S r(s) cos ;s there [ET 6.5 (21)]. Using (2.24) we 
+then find 
+00 f I/J(y)y.-I dy = 
+o 
+r(s)cos 'll'S 
+00 
+s+1 
+00 
+2 f --2 f 
+X 
+= 
+2(2 '11') s+I 
+X 
+p -~+ir (l + 2)h(r)rtanh'll'rdrdx 
+o 
+-00 
+for 0 < Re(s) < 1. Interchanging the order of integration again and using 
+the formula f
+oo 
+_'~I 
+X 
+X 
+P -~+ir (1 + 2)dx = 
+o 
+r(1 -
+s)r(~ + ir) r(~ - ir) 
+= 21-. 
+2 
+2 
+2 
+r(l; s)r(t+ ir)r(t- ir) 
+(0 < Re(s) < 1) 
+328 
+
+
+=== PDF PAGE 27 ===
+SELBERG TRACE FORMULA 
+[GR 7.134] we find 
+f 
+.p(y)yS-1 dy = 
+o 
+rS-2r(~) 
+00 
+3 
+12+ 
+r r(-2s - ir)r(-2s + ir)h(r)rsinh."rdr, 
+s+- r( 
+s) J 
+." 
+2 
+--
+00 
+2 
+-
+and this now holds whenever Re(s) > 0 (not just 0 < Re(s) < 1) since both 
+sides are holomorphic in that range. Substituting into (3.7) again gives 
+(3.9). 
+To complete the proof of Theorem 2 we must still compute 11 (s), i.e. 
+the contribution from the main term 2 k(z,,, z) of Ko (z,z). For 
+,.;roo 
+each" E r denote by [,,] the conjugacy class of" in r. Its elements are 
+of the form a -1" a where a E r is well-defined up to left multiplication 
+with an element of the stabilizer r,. of" in r. Hence 
+2 k(z, "z) = 
+,..r 
+,.;roo 
+where 2' denotes a summation over all non-trivial conjugacy classes 
+[,.] 
+(each such class contains at least one element. roo) and we have chosen 
+a representative" for each class. Multiplying a on the right by an element 
+± (~ ~) E r 00 does not affect the condition a -1" a • r 00 and replaces 
+k(z,a- 1"az) by k(z+ n,a-1"a(z+ n)). Hence 
+2 k(z, "z) = 
+,.or 
+,.;roo 
+(for this one has to checl.<: that a -1 r,. a () r 00 = {I}, but this follows 
+easily from a -1" a • r 00 and the fact that the centralizer of any non-
+trivial element of r GO is roo). Since the constant term in the Fourier 
+expansion of a sum i 
+f(x + n) is the integral j f(x) dx, we 
+D=-OO 
+-00 
+find 
+329 
+
+
+=== PDF PAGE 28 ===
+and hence 
+I}(s) = L' 
+[y) 
+D. ZAGIER 
+Now for any element 'r' = (~ ~) E r with 'r' .. r aD (i.e. c =F 0) we have 
+1 k(z,'r'z)ySdz = Iclls V(s,t) 
+(t=tr('r'» 
+where 
+(3.10) 
+V(s,t)= f 9'(lzz+~z-e/412)ysdz. 
+H 
+(To prove this, substitute (2.17) for k(z, z') and make the change ofvariable 
+z 
+a-d 
+z~ I-I +--.) Hence 
+c 
+2c 
+t=-oo ( 
+L' 
+{-
+[[y]] 
+try=t 
+I 
+-~ 
+Is)V(S,t), 
+c(O' 
+yO') 
+where 
+L' 
+denotes a sum over conjugacy classes in SL2(Z)-
+[[yJ] 
+{ ± (~ ~)} and c(O' -} yO') the element in the lower left-hand corner of 
+0' -1 Y 0' (we must work in SLz ( Z) rather than r in order to have a well-
+defined trace; notice that rye rand 0' -} Y 0' E SLz ( Z ) make sense for 
+"ESLz(Z),tJ' Er). Since V(s,t)=V(s,-t), we have 
+( L' 
+[[y]] 
+try=t 
+There is a (1 : I) correspondence between conjugacy classes [[ y]] of trace 
+t and SLz( Z )-equivalence classes of binary quadratic forms of dis-
+330 
+
+
+=== PDF PAGE 29 ===
+SELBERG TRACE FORMULA 
+criminant e - 4 given by 
+y = (: :) ~ 
+Q(m,n)= cm2 +(d- a)mn- bn2 • 
+There is also a bijection between r jr.., and the set of relatively prime 
+pass of integers ± (m, n). Z2 j { ± I} given by mapping an element 
+a • rjr.., to its first column, and under this bijection we have c(a -1 ya) 
+= Q(m, n) and r y = Aut(Q)j { ± I} . Hence 
+2 
+2 
+[[yll 
+.,.r y\r/r.., 
+c(a-iya»O 
+try=t 
+I 
+c(a -1 Y a)$ -
+t(s,e -4) 
+t (2s) 
+where t (s, e -4) is defined by (1.12). To complete the proof of the formula 
+CD 
+(3.11) 
+2 
+t (s, e - 4)V(s, t) (1 < Re(s) < A) 
+t=-.., 
+given in the theorem, it remains only to verify the convergence and justify 
+the various interchanges of summation and integration made. Since the 
+integrals 12, 13 and 14 have already been shown to be convergent for 
+1< Re(s) < A (eqs. (3.4), (3.5), (3.7» and the function Jf"(y) is of rapid 
+decay at infinity, the integral 11 (s) is certainly convergent in the same 
+range. By choosing s real and, positive, we see that this convergence is 
+absolute, and this gives an a posteriori proof of the convergence of (3.11) 
+in the range stated and of the validity of the steps leading up to its proof. 
+4. Analytic continuation ones). In this section we will give the analytic 
+continuation of I(s) to the critical strip 0 < Re(s) < 1 and compute the 
+residue at s = 1 (Selberg trace formula). We will also want to study the 
+functional equations of the various terms in the formula for I(s). From 
+the definition (3.1) of I(s) it is clear that I(s) is holomorphic for all s =1= I 
+and satisfies the functional equation I*(s) = 1*(1- s), where 
+I*(s) = ." -$ r(s)t (2s)l(s) = 
+J Ko(z,z)E*(z,s)dz. 
+r\H 
+On the other hand, Theorem 2 says that I*(s) is the sum ofthe functions 
+(4.1) 
+." -$ r(s)t (s, e -4)V(s, t) 
+331 
+(t. Z, t =1= ± 2), 
+
+
+=== PDF PAGE 30 ===
+D. ZAGIER 
+(4.2) 
+'JI'-a r(sH(s,O)[V(s,2) + V(s, - 2)] + I:(s), 
+(4.3) 
+I~(s) + I:(s) 
+for 1 < a = Re(s) < A, where It(s) = '*(2s)li (s). We will show that 
+each of the functions (4.1) - (4.3) has a merom orphic continuation to the 
+strip 1 - A < a < A with poles at most at 0 and 1 and is invariant under 
+s -+ 1 - s. 
+We begin by performing one of the integrations in the double integral 
+(3.10) to write V(s, t) as a simple integral, thus obtaining the analytic 
+continuation and functional equation ofV(s, t). 
+PROPOSITION 4. Let 11 be a function satisfying (2.18), s ~ C, t ~ R, 11 = 
+t2 -4. If 11+0, then the integral (3.10) converges for -A < a < 1 + A 
+and is given by 
+00 
+1111'/2 
+(4.4) V(s,t) = 2'J1' 4 
+J 11 ( 1111 (u 2 - 1) ) p _, (u) du 
+I 
+(-A<a<I+A) 
+if 11 < 0 and by 
+(4.5) 
+00 
+2 
+r(~) 
+2 
+A ,/2 
+V(s,t) = ! -r-- ~ x 
+(s) 
+x J,I(I1(u2+1)) (1+u2r~' F(:,:;~;-/-)du (-A<a<I+A) 
+222u+l 
+-00 
+if 11 > 0, where F(a,b;c;z) and p. (z) denote hypergeometric and 
+Legendre functions, respectively. In particular, V (s, t) satisfies the 
+functional equation 
+'JI'-Sr(s) 
+'JI'-l+s r(1-s) 
+---:-,---'-- V(s,t) = 
+A 
+V(1- s,t) (11 + 0), 
+'Y (s, 11) 
+'Y (1- s,~) 
+(4.6) 
+where 
+if 11 < 0, 
+332 
+
+
+=== PDF PAGE 31 ===
+SELBERG TRACE FORMULA 
+For A = 0, V (s, t) converges for t < a < 1 + A and has a meromorphic 
+continuation to 0 < Re (s) < 1 + A given by 
+GO 
+r(~)r(s-~) J 
+(4.7) 
+V(s, ±2) = 
+2 r 
+2 
+tp(U2)U·-1 ds (O<a< l+A). 
+(s) 
+o 
+We observe that the functions' (s, A) defined by (1.12) satisfy the 
+functional equations 
+,,(s, A), (s, A) = ,,(1 - s, A), (1- s, A) 
+for A =1= 0 ([10], Prop. 3, ii), p. 130), so (4.6) tells us that each ofthe func-
+tions (4.1) is invariant under s ~ 1 - s. 
+Proof. We consider first the case A < O. Mapping the upper half-plane 
+h 
+. di 
+b 
+z - i~ 0' 
+fi d 
+to t e urnt 
+sc y z ~ 
+fi7I":"": = reI ,we n 
+z + i-v IA/!4 
+V(s, t) = J J 
+tp (lz2 _y~/412) yl dz 
+H 
+and this is equivalent to (4.4) because 
+2" 
+_1 J ( 1- ·r2 
+)S d8 =P 
+(1 + r:) (0 < r < l,s • C) 
+2'11' 
+1 - 2rcos 8 + r2 
+-s 1 - r 
+o 
+[EH 3.7(6)]. The functional equation follows since P -s (z) = P S- 1 (z). If 
+. 
+z-J A/4 
+A > 0, then we transform the upper half-plane to ltself by z ~ J 
+z+ A/4 
+= E + i"l, obtaining 
+V(st)=AS/2JJ (Ae +",2) 
+"Is 
+dEd", 
+, 
+tp 
+2 
+11 
+I:. 
+• 121 
+2 
+"I 
+-~-l'" 
+"I 
+H 
+333 
+
+
+=== PDF PAGE 32 ===
+D. ZAGIER 
+= Il. s/2 
+(u = el.", v = Je + .,,2 ). Substituting v = eX we find 
+00 
+__ 
+--:;-____ = 2-s 
+J 
+vs-I dv 
+o (1 -
+2u 
+v + V2)S 
+Ju 2 + 1 
+j 
+dx 
+-00 (COSh x _ 
+u 
+)S 
+.;;;z+l 
+res) r(t) 
+( 
+(U)) 
+= 
+F S,s;s + };} 1 + ~ 
+(Re(s) > 0) 
+22S - l r(s+}) 
+vu2 +1 
+'It 
+res) 
+F (s s.l. u2 
+) 
+= 22,-1 
+S + 1 2 
+2'2'2' u2 + 1 
+r(-2-) 
+U 
+'It 
+res) F (s + 1 s + 1.3. u2 
+) 
++ ~ 
+22s- 2 --2 
+-2-'-2-'2'-2--1 
+vu- + 1 
+r(~) 
+u + 
+2 
+[EH 2.12(10),2.1.5(28)]. Since the second term is an odd function ofu, we 
+find the formula 
+.Il. t 
+'It 
+res) 
+V(s,t) = 
+22s-1 
+s+ 12 
+r(-) 
+2 
+which is equivalent to (4.5); the functional equation follows because 
+[EH2.1.4(22)]. 
+Finally, if Il. = 0 then the substitution z ~ -liz gives 
+334 
+
+
+=== PDF PAGE 33 ===
+SELBERG TRACE FORMULA 
+making the substitution u = y -1 , t = x/y and using 
+(Re(s) > t) 
+[GR 3.251.2] we obtain (4.7). Notice that, since tp is assumed to be smooth, 
+the integral in (4.7) has a meromorphic continuation to a < A + I with 
+(at most) simple poles at s = 0, -2, -4, ... ; hence V(s, t) can also be 
+meromorphically continued to this range and has (at most) simple poles 
+I 
+I 
+3 
+at s = "2' - "2' - "2'. .. . This completes the proof of Proposition 4 except 
+for the various assertions about convergence, which can be checked 
+easily using the asymptotic properties of the Legendre and hypergeometric 
+functions. 
+From (4.5) and (2.18) it follows that V(s, t) grows like t,,-I-A as t -+ co 
+with s fixed, - A < a < I + A. An easy calculation shows that C (s, e - 4) 
+= 0 (t c) for any C > max(1 - 2a, I - a, 0) as t -+ co, and this implies 
+that the sum (3.11) is absolutely convergent for I-A < a < A. Thus 11 (s) 
+has a meromorphic continuation to 1-A < a < A with (at most) a double 
+pole at s = I (coming from the double pole of C (s,O) = C (s)C (2s - I» and 
+simple poles at s = ~ and s = O. From (3.5) and our assumptions on h(r) 
+we see that 13(s) is meromorphic in -A < a < A, the only pole in the 
+half-plane a > 0 being a simple one at s = 1. Thus to obtain a formula for 
+I(s) in the critical strip we must still give the analytic continuations of 
+12(s) and 14(s). 
+Let J(s) denote the integral in (3.4). As already stated, this integral 
+converges absolutely for all s with a =1= 0, 1, because the integrand is of 
+rapid decay as 1 rl -+ co. However, J(s) is not defined on the lines a = 0 
+and a = 1, because the path of integration passes through a pole of the 
+integrand, so the functions defined by the integral in the three regions 
+a < 0, 0 < a < 1 and a > 1 need not be (and are not) analytic continua-
+tions of one another. To obtain the analytic continuation of J(s) (and 
+hence of 14(s» to 0 < a < I, we set 
+J C *(s + 2ir)C *(s - 2ir) 
+Jc (s) = ee*(l + 2ir)C *(1- 2ir) h(r) dr, 
+335 
+
+
+=== PDF PAGE 34 ===
+D. ZAGIER 
+where C is a deformation of the real axis into the strip 0 < Im(r) < t(A-I) 
+which is sufficiently close to the real axis that all zeroes of the Riemann 
+zeta-function lie to the left of 1+2iC and ,(1+2ir)-1=O(lrl') for 
+t (A - I) 
+__ .-,..._ c 
+complex 
+r-plane 
+o 
+R 
+a =O 
+a = I 
+'-
+o 
+r E C (see figure). The integral Je (s) converges for all SEC such that 
+C (s + 2ir) and, * (s - 2ir) remain finite for all r E C, i.e. for sf. I ± 2iC, 
+± 2iC. In particular, Je (s) is hoi om orphic in the region U bounded by 
+1+ 2iC and I - 2iC. Clearly Je (s) = J(s) for s to the right of 1 - 2iC, 
+but for s in the right half ofU we have 
+C(2s-1) 
+.s-I 
+J(s) - Je (s) =". '*(2 _ sH *(s) h(1-2-) 
+(s E U,Re(s) > 1) 
+because the integrand has a simple pole (at r = ~(s - 1» with residue 
+2 
+I 
+C(2s - I) 
+i 
+-
+* 
+* 
+h(-(s - I» in the region enclosed by Rand C. Similarly 
+2i , (2 - sH (s) 
+2 
+C (2s - 1) 
+s - 1 
+J(s) - Je (s) = -". * 
+* 
+h(i--) (s E U, Re(s) < 1). 
+, (2- sH (s) 
+2 
+, * (2s - 1) 
+s - 1 
+Therefore the function J(s) in 0 < CT < 1 is 2". ,. 
+'* 
+h(i--) 
+(2 - s) 
+(s) 
+2 
+less than the analytic continuation of the function defined by J(s) for 
+CT > 1. Together with (3.4) this shows that I:(s) = {*(2s)14(s) has an 
+analytic continuation to CT > 0 given by 
+336 
+
+
+=== PDF PAGE 35 ===
+SELBERG TRACE FORMULA 
+(4.8) 
+1 * 
+2 
+- -, (s) J(s) 
+4." 
+(0' > 1), 
+1 
+1 Y *(s) Y *(2s - 1) 
+s - 1 
+--, *(S)2 J (s) _...... 
+h(i-) 
+4." 
+c 
+4 
+C(s - 1) 
+2 
+(s E U), 
+1 
+1'*(sH*(2s-1) 
+s-1 
+--, *(S)2 J(s) - -
+h(i--) (0< 0' < 1) 
+4." 
+2 
+'*(s-l) 
+2 
+' 
+where we have used the functional equation' * (s) = ,* (l - s). Of course, 
+we could use a similar argument to extend past the critical line 0' = 0, 
+but since it is obvious that J(s) = J(l - s), we deduce from (4.8) that 
+I:(s) satisfies the functional equation 
+I Y *(s) Y *(2s - 1) 
+s - 1 
+1*(1 - s) = I*(s) - _...... 
+h(i--) 
+4 
+4 
+2 
+'*(s - 1) 
+2 
+·1 C(sH * (2s) 
+.s 
++ "2 
+'*(s + 1) h(l"2)' 
+and this gives the meromorphic continuation immediately. From (4.8) 
+and (3.5) we find 
+(4.9) 
+1 
+1~(s)+I!(s)= --. _'*(S)2J(S) 
+4." 
+(l < 0' < A) 
+1 '*(sH * (2s) 
+is 
+1 C(sH *(2s - 1) 
+.s - 1 
+-
+h(-) + -
+h(l--) (0 < 0' < 1) 
+2 '*(s + 1) 
+2 
+2 
+C(s - 1) 
+2 
+1 C(sH *(2s - 1) 
+.s - 1 
+"2 
+'*(s - 1) 
+h(1-2-) 
+(l - A < 0' < 0), 
+which proves the invariance of (4.3) under s -+ 1 - s. Notice that the 
+C(sH * (2s) 
+is 
+'*(sH *(2s - 1) 
+s - 1 
+function 
+* 
+h(-)(resp. 
+* 
+h(i--» has infinitely 
+, (s + 1) 
+2 
+, (s - 1) 
+2 
+337 
+
+
+=== PDF PAGE 36 ===
+D.ZAGIER 
+many poles in the half-plane a < 0 (resp. a > 1), but drops out of (4.9) 
+before that half-plane is reached. In fact, it is clear from (4.8) and (4.9) 
+that the function I~(s) + I:(s) is holomorphic in 1 - A < a < A except 
+for double poles at s = 0 and s = I (the simple poles at s = 4 
+must cancel 
+since I~(s)+ I:(s) is an even function ofs -4). 
+It remains to treat the function (4.2). Using the formulas (2.23) for the 
+Selberg transform we find 
+GO 
+GO 
+GO 
+J 
+,(U2)U·-1 du= -! J J Q'(U2+V2)US- 1 dvdu 
+o 
+0 
+-GO 
+GO 
+.. 
+= - ! J J Q' (r2)(rsin 8)8-1 rdrd8 (rei' = v + iu) 
+o 
+0 
+r(.!) 
+GO 
+= -
+2 
+J 
+(2 sinh~) 8-1 g' (u)du 
+2r(t) r(s ~ I) 0 
+and hence, by (4.7), 
+." -I r(s)C (s,O)[V(s,2) + V(s, - 2)] = 
+I 
+GO 
+(4.,,) 2(1-1) 
+J 
+0-1 
+= -
+C ·(s)t ·(2s - 1) 
+(sinh~) 
+g' (u)du; 
+r(s + 1) 
+0 
+2 
+the integral converges for - I < a < 1 + A and hence gives the analytic 
+continuation of the left-hand side to this strip. On the other hand, 
+formulas (3.7) and (3.8) give 
+338 
+
+
+=== PDF PAGE 37 ===
+SELBERG TRACE FORMULA 
+1 
+CIO 
+I~(s) = - (4'ITf2: '·(S)' • (2s) J 
+(sinh~) -s g' (u)du, 
+r(1--) 
+0 
+2 
+where now the integral converges for - A < a < 2. This shows that the 
+function (4.2) can be continued to the strip -A < a < 1 + A and is 
+invariant under s -+ 1 - s; equation (3.9) then gives the formula 
+'IT -I r(sH (s,0)[V(s,2) + V(s, -2)] = 1~(1- s) 
+(4.10) 
+j 
+-CIO 
+l-s 
+l-s 
+r(-+ir)r(--ir) 
+2 
+2 
+r . r· 
+h(r)dr (0 < a < 1) 
+(1r) 
+(-1r) 
+in the critical strip. A similar discussion to that given for the integral I:(s) 
+1 
+'IT i<s-l) 
+S - 1 
+now shows that fora > 1 we must add 
+-I '·(sH·(2s-1)h(i-2-) 
+r(_s _) 
+2 
+to the right-hand side of (4.10) and that near the linea = 1 we have 
+(4.11) 
+'IT-I r(s) , (s, O)[V(s, 2) + 
+V(s, - 2)] 
+r(1 - s 
+. )r(l- s .) 
+_ '·(sH·(2s-1) J -2-+ 1r 
+-2-- 1r 
+-
+2-s 
+2 
+rc )r( .) 
+h(r)dr 
+(4'IT )-2 r(~) c 
+1£ 
+- 1r 
+2 
+(Sf U). 
+Again the analytic continuation to 1-A < a ,,0 follows using the func-
+tional equation. 
+We have thus proved the analytic continuability and functional 
+equation of each of the functions (4.1) - (4.3) in the strip 1-A < a < A 
+339 
+
+
+=== PDF PAGE 38 ===
+D.ZAGIER 
+and given explicit formulas for these functions in each of the five regions 
+I-A < a < 0, 1- U, 0 < a < 1, U and I < a < A covering this strip. 
+We end this section by using these formulas to compute the residue at 
+s = 1 of the functions in question. 
+From the development 
+• 
+1 
+1 
+, (s) = -- + -(y -log4.,,) + 0 (s - 1) 
+s-1 
+2 
+(s -+ 1) 
+and (4.8) we find 
+I:(s) = - 4~ [(s ~ 1)2 + Y ~ ~gI4'" + 0(1)] 
+x [J h(r)dr+(s-l) J 
+Z(r)h(r)dr+0(S-I)2] 
+c 
+c 
+1 
+1 
++ gh(O) s-1 +0(1) 
+, .' (1 + 2ir) 
+, .' (1 - 2ir) 
+as s -+ 1, where z(r) = ,. 
++ ,. 
+. Since z(r) is holo-
+(l + 2ir) 
+(l - 2ir) 
+morphic for r near the real line (the poles of the two terms at r = 0 cancel), 
+we can replace C by R in the two integrals, obtaining 
+• 
+Ie 
+( 
+h(O) 
+14(s)=-
+2+ -1e(y-log4.,,)+-
+(s - 1) 
+8 
+co 
+- 4~ J 
+Z(r)h(r)dr) (s - 1) -1 + 0 (1) 
+-co 
+as s -+ I, where Ie = _1_ 
+Jco 
+her) dr. From (3.5) we get 
+4." 
+-co 
+,..( ),.. 
+. 
+h(l) 
+I~(s) = _.. s ... (2s) h(~) = _ ! _2_ + 0(1) 
+(s -+ 1). 
+2, (s + I) 
+2 
+2 s - 1 
+This takes care of the function (4.3). For (4.2) we use equations (4.11) and 
+340 
+
+
+=== PDF PAGE 39 ===
+SELBERG TRACE FORMULA 
+(3.9), obtaining (by an argument similar to the one just used for I:) 
+'II" -5 r(sH (s,O)[V(s,2) + V(s,-2)] 
+and 
+= [_1_ + l(y -log4'11") + O(s - I)] 
+s-1 
+x [ 
+1 
++HY-IOg4'11")+0(S-I)] 
+2(s -
+1) 
+x [ J h(r)dr - s ~ 1 J 
+(~ (ir) + ~ (- ir) ) h(r)dr 
+c 
+c 
++0(S-I)2] + h~O)(S-I)-1+0(l) 
+= 
+IC 2 + (IC(Y -logS'll") 
+(s - 1) 
+co 
+4'11" J 
+~ 
+(1 + ir) h(r) dr + ~h(O») (S-1)-1 +0(1) 
+-co 
+I~(s) = (2~ J h(r)rtanh 'll"rdr ) (s - 1) -1 + 0(1). 
+-co 
+Finally, to compute the residue of (4.1) at s = 1 we need the values of 
+V(I, t) and ress=1 ,(s, e -4) for t E Z, t =F ±2. From (4.4) and (4.5) we 
+find 
+co 
+'II" Jrp(X) 
+dx 
+2 
+Jx+4-e 
+o 
+(It I < 2) 
+V(I,t) = 
+co 
+'II" Jrp (x) 
+dx 
+2 2 
+Jx+4-e 
+t -4 
+(It I > 2) 
+341 
+
+
+=== PDF PAGE 40 ===
+D. ZAGIER 
+(since P o(u) = 1, F(O, b;c;x) = 1). Using the formulas (2.23) for the 
+Selberg transform, we can express this in terms ofh(r), obtaining 
+co 
+1 f 
+-2 .. r 
+'IT 
+-
+e 2 
+h(r)dr (Itl=2coso:<2,0~(¥~-) 
+2 
+1 + e 
+... r 
+2 
+-co 
+(4.12) V(l, t) = 
+co l f 
+e2i .. r h(r)dr 
+(It I = 2 cosh 0: ;;.2) 
+-co 
+(we omit the calculation, which is not difficult, since in §5 we will give a 
+general formula for Yes, t) in terms ofh(r». As to, (s,D), we have 
+(4.13) 
+resS=l' (s,D)= 
+2'IT Z __ _ 
+JfDi 
+Q I Aut(Q)I 
+~ Z 10gEQ 
+.y D 
+Q 
+(D< 0) 
+(D > 0), 
+where Z and Aut(Q) have the same meaning as in (1.12) and, in the 
+Q 
+second formula, EQ is the fundamental unit for Q (i.e. the larger eigen-
+value of M, where M f! SL2 (Z) is a matrix with positive trace such that 
+Aut(Q)= {±Mn, n f! Z}). 
+We have thus given the principal part of each of the functions (4.1)-
+(4.3) at the pole s = 1. Adding up the expressions obtained, we find that 
+the terms in (s - 1) -2 cancel and that 
+~ h(rj) = J [Ko(Z, z) +~ h(-2i)]dZ = 2res s=1 I*(s) + h(-2i) 
+)=0 
+r\H 
+'IT 
+co 
+(4.14) 
+= 1~ f h(r)rtanh'ITrdr 
+-co 
+co 
+- 2~ f (z(r) + ~' (1 + ir) + log2) h(r)dr 
+-co 
+1 
+2 
+co 
++-h(O)+ -
+Z V(I,t)res s=l '(s,e-4), 
+2 
+'IT t=-co 
+t2*4 
+342 
+
+
+=== PDF PAGE 41 ===
+SELBERG TRACE FORMULA 
+where 
+t *' (1 + 2ir) 
+C' (1 - 2ir) 
+z(r) = 
++ --:::----
+t *(1 + 2ir) 
+t *(1- 2ir) 
+1 r' 
+. 
+1 r' . 
+t' 
+. 
+t'. 
+= - -
+(1- + lr) - - -
+(tr) + - (1 + 21r) - - (2tr) 
+2r 2 
+2r 
+t 
+t 
+and V(1, t), res.=1 t (s, e -4) are given by equations (4.12) and (4.13), 
+respectively. Formula (4.14) is the Selberg trace formula. 
+§ 5. Complements. In the last section we gave the analytic continuation 
+of I(s) to the strip 1-A < a < A. To complete the proof of Theorem 1 
+we must still 
+1) express V (s, t) in terms of the Selberg transform h(r) ; 
+2) generalize the formula obtained for I(s) to the function 
+(5.1) 
+(mE Z) 
+with m =1= 1 (notations as in §l). In this section we will carry out these two 
+calculations and also indicate the generalization to congruence subgroups 
+ofSL2 (Z). 
+The results of §4 show that I*{s) equals 
+1 
+-
+foo 
+_-C(S)2 
+4'11 
+-00 
+t *(s + 2irH *(s - 2ir) 
+---:-::;:--------:;:---- h(r)dr 
+C(1 + 2irH *(1 - 2ir) 
+_~ C(s)C(2s) h(~)-~ C(SH*(2S-1)h(i1- S) 
+2 
+C(s + 1) 
+2 
+2 
+C(s - 1) 
+2 
+00 r(.! + ir) r(.! - ir) 
+t *(sH * (2s) 
+J 2 
+2 
++ 
+s+ I 
+---=:---=---- h(r) dr 
++ 1 
+r(ir)r(-ir) 
+(4'11)-2 r(~) -00 
+2 
+343 
+
+
+=== PDF PAGE 42 ===
++ ." -I r(S) 
+D.ZAGIER 
+l-s 
+l-s 
+J
+eD r(-2- + ir) r(-2- - ir) 
+-------- h(r)dr 
+r(ir) r( - ir) 
+-eD 
+V(s,t)C(s,e -4) 
+in the critical strip 0 < a < 1 (cf. equations (4.9) and (4.10». Using the 
+functional equations ofV(s, t) and C (s,D) we can write this expression as 
+91 (s) + 91(1 - s), where 
+1 
+* 
+2 
+JeD 
+C *(s + 2irH *(s - 2ir) 
+91(s) = - 8." C (s) 
+C*(1 +2ir)t*(1-2ir) h(r)dr 
+-eD 
+_ C*(s)C*(2s) h(~) 
+2C*(s+ 1) 
+2 
+r(s)r(s-~) 
++ 
+2 
+C(s)C(2s-1) x 
+2.,,1 rF -:- s) r~ + s) 
+2 
+2 
+l-s 
+l-s 
+J
+eD r(-+ir)r(--ir) 
+2 
+2 
+x 
+h(r)dr 
+r(ir) r( - ir) 
+-eD 
++ ." -s r(s) 
+v(s,t)C(s,e -4), 
+v(s, t) being any function such that 
+.,,0-1 r(1- s) 
+,,(s, 4) 
+V(s, t) = v(s, t) + 
+_I r 
+4 v(1- s, t). 
+." 
+(s) 
+,,(1- s, 
+) 
+(S.2) 
+(here A = t2 - 4 as before). Comparing this with (1.16) and observing that 
+F(a, b;c;O) = 1, we see that Theorem 1 (form = 1) will follow from 
+PROPOSITION 5. For t =1= ± 2 and 0 < Re(s) < 1 the/unction V(s,t) defined 
+344 
+
+
+=== PDF PAGE 43 ===
+SELBERG TRACE FORMULA 
+by (3.10) is given by equation (5.2) with 
+1-s 
+1-s 
+r(s-tJ 
+v(s,t) =.-------
+s+1 
+2-s 
+CD r(--+ ir) r(--- ir) 
+J 
+2 
+2 
+r(ir)r(-ir) 
+4r(-)r(-) 
+2 
+2 
+-CD 
+1-s 
+1-s 
+3 
+t2 
+x F(-2-+ ir, -2-- ir; "2 - s; 1-4)h(r)dr. 
+Proof As in Proposition 4 we must distinguish the cases fl. > 0 and 
+A < O. It will also be useful to introduce symmetrization operators 
+.9'!,.9'r with 
+.9'! [f(s)] = f(s) + f(l- s), 
+.9'r [f(s)] = f(r) + f( -r) 
+for any function f. Thus the formula we want to prove can be written 
+(5.3) 
+", -s r(s) V( ) = aol [", -s r(s) ( )] 
+s, t 
+t7 S 
+A. 
+V s, t 
+. 
+,,(s, fl.) 
+,,(s, u) 
+If 11 > 0, then (4.5) and (2.24) give 
+s 2 
+r(-) 
+CD 
+V(s,t) = _1 -r2 fl.t J rtanh",rh(r) 
+8", 
+(s) 
+-CD 
+1 
+X J P 1 
+(1 
+fl./2 )(1 _ 
+)5;3 F(~ ~.~. ) dE dr 
+-2+ ir 
++ 1- E 
+E 
+2'2'2,E Ii ' 
+o 
+u2 
+where we have made the change of variables E = -2--' To prove (5.3), 
+u + 1 
+we must show that the inner integral equals 
+I-s 
+1-s 
+1 [25 
+r(s - t) r(-2-+ ir) r(-2- - ir) 
+.9' 5 --si2cosh ",r -----------
+fl. 
+r~rAr(l-~ 
+2 
+'2 
+2 
+(5.4) 
+1-s 
+1-s 
+3 
+e] 
+x F(--+ ir --- ir'-- s'l--) 
+2 
+' 2 
+'2' 
+4 
+345 
+
+
+=== PDF PAGE 44 ===
+D.ZAGIER 
+(here and from now on we use standard identities for the gamma function 
+without special mention). Using the identity 
+PI. (1+~)=9'[r(2ir) 
+X~-irF(!-ir!-ir'1-2ir'-X)] (x >0) 
+-2:+" 
+X 
+r r(l .)2 
+2' 2' 
+, 
+2+ tr 
+[EH 3.2(19)] and expanding the hypergeometric series, we find that the 
+integral in question equals 
+From [EH 2.4(2), 2.8(46)] we have 
+=----------------------
+so our integral equals 
+[ coth"r 
+~ 
+9'r 
+I" 
+~ 
+2i" 
+D=O 
+(-It x 
+n! 
+r(~ + n - ir) r(l - s + n - ir) 
+I 
+. 
+2 
+2 
+A. -n-"2+"] 
+x 
+r(n+ 1-2ir) 
+(4) 
+346 
+
+
+=== PDF PAGE 45 ===
+SELBERG TRACE FORMULA 
+(5.5) 
+r(! - ir) r(l - s - ir) 
+. 1 
+-.9 [COth."r 
+2 
+2 
+A "-2 
+-
+• 
+2iJW 
+r(l- 2ir) 
+(4) 
+x --lr---lr' - lr'--
+F(s 
+. 1 - s 
+.. 
+1 
+2' 
+4 )] 
+2 
+' 2 
+' 
+, 
+A 
+1 
+1- s 
+r(s--)r(--ir) 
+• 
+_ 
+1 [COth."r 
+2 
+2 
+A -2 
+-.9 • .9. 
+1 
+(4) 
+2i/W 
+r( + s _ ir) 
+2 
+x 
+---lr --+U'--S'--
+F(1 - s 
+. 1 - s 
+. 3 
+A)] 
+2 
+' 2 
+'2' 4 
+(the last formula is [EH 2.10(2)]), and since 
+l-s 
+l-s 
+l-s 
+r(-- - ir) 
+cosh."r r(-- + ir) r(-- - ir) 
+[ coth."r 
+2] 
+2 
+2 
+.9. 
+2iJW r(l+s_ ir) 
+= 
+r(~)r(~)r(1-~) 
+2 
+2 
+2 
+2 
+this agrees with (5.4), completing the proof for A > O. 
+.,,-. r(s) 
+If A < 0, then y(s, A) 
+8 -0/2 , where 8 = ~ iAi= 1 -
+~, so (5.3) is 
+equivalent to 
+8-0/2 V(s,t)=.9! [8~(0-1) V(l-s,t)]. 
+On the other hand, from (4.4) and (2.24) we have 
+GO 
+GO 
+.,,-s/2 V(s, t) = l J rtanh ."rh(r) J 
+P -~+i' (1 + 28(u2 - l»P _s(u)dudr. 
+_GO 
+1 
+347 
+
+
+=== PDF PAGE 46 ===
+D. ZAGIER 
+Denote the inner integral by I. Then (5.3) will be proved if we show that 
+r(! - s) r(~ + ir) r(~ - ir) 
+I =9'1 [!8~(S-1) 
+2 
+2 
+2 
+s 
+2 
+1 
+1 
+2-s 
+l+s 
+r(-+ ir)r(-- ir)r(-)r(-) 
+~ 
+2 
+2 
+2 
+x F(~+ir~-ir.!+s'8)]. 
+2 
+'2 
+'2 
+' 
+By [EH 2.1 0(1)], this is equivalent to 
+To prove this formula, we begin by making the substitution v = u2 -
+1 in 
+I and substituting for P -!+ir by 
+2 
+[GR 6.628. 7]; after an interchange of integration this gives 
+J2;, r(t+ ir)r(t - ir)I 
+""J (""J 
+-23xv 
+~ 
+dv 
+) -x 
+dx 
+= 
+e 
+P -s ('" 1 + v) f"17"7. e 
+K ir (x) Iv' 
+o 
+0 
+",1+v 
+'" x 
+By [GR 7.146.2] the inner integral equals (28x)-3/4 e 8x W _!!_~ (28x), 
+4'4 2 
+where W ~,JJ. is Whittaker's function, and using the Mellin-Barnes 
+integral representation of the latter [GR 9.223] we find that this in turn 
+equals 
+348 
+
+
+=== PDF PAGE 47 ===
+SELBERG TRACE FORMULA 
+1 
+X (28xf-2 dv, 
+where C is chosen such that - i < C < l mine 0' , I - 0'). If we choose C 
+to satisfy also C > 0 then we may interchange the order of integration 
+again, obtaining 
+Q) 
+x f xv - I e -x K ir (x)dxdv 
+o 
+[ET 6.8(28)]. The integral is very rapidly convergent (the integrand is 
+1 
+o (Ivl-3/2 e -2" Ivl», so we may substitute for 8 V-2 the binomial expansion 
+r(~- v+ n) 
+1 
+1 
+Q) 
+I 
+2 
+8 v - 2 = 82(5-1) 2 
+(1- 8t 
+n~O n! 
+s 
+r(2:- v) 
+and integrate term by term. Using "Barnes' Lemma" 
+C+iQ) 
+2~i cliQ) r(o:+s)r(,8 +s)r(y -s)r(8-s)ds 
+= --------~------------------
+r(o: +.B + y + 8) 
+[GR 6.412] we obtain finally 
+. 
+. r 1 + s r 
+s 
+!(5-1) 
+2r(t + u) ret - Ir) (-2-) (l - 2) 1= 82 
+X 
+349 
+
+
+=== PDF PAGE 48 ===
+D. ZAGIER 
+00 
+r(~+ ir+ n)r(~- ir+ n)r(l- s + ir)r(l- s - ir) 
+2 
+'2 
+2 
+2 
+(1- 8t 
+x L 
+n=O 
+1 
+r(-+ n)n! 
+2 
+1 -1 
+1 
+1 
+5-1 
+= r(-) 
+r(~+ ir)r(~- ir)r(~+ir)r(~- ir) 8 2 
+2 
+2 
+2 
+2 
+2 
+x F(~+ ir ~ -
+ir'~'I- 8). 
+2 
+'2 
+'2' 
+This completes the proof of Proposition 5 and hence of Theorem 1 for 
+m=1. 
+To calculate the function (5.1) for m > 1 we set 
+m 
+' 
+~ 
+h(r) 
+-,-
+Ko (z,z ) = 
+£.. aj(m)-- G(z)G(z ). 
+)=1 
+(f f) 
+)' ) 
+Then 1m (s) = J K~ (z, z) E(z, s) dz. On the other hand, from (1.6) we 
+r\H 
+1 
+see that K~(z,z')=m2Ko(z,z )IT(m), where Ko(z,z') is the kernel 
+function (2.27) and T(m) the Hecke operator (1.5), acting (say) on z' . 
+Since the constant function and the Eisenstein series E(z,s) are eigen-
+1. 
+functions ofm 2T(m) with eigenvalues n(m) and 'r's_! (m), respectively 
+2 
+2 
+('r'. (m) as in (2.7», equation (2.31) gives 
+m 
+' 
+m 
+' 
+3 
+()h( i) 
+Ko (z, z ) = K (z, z ) -
+-
+'r' l m 
+-2-
+." 
+2 
+1 
+Joo E(z,t+ir)E(z',t-ir)h(r)'r'ir (m)dr, 
+4." 
+-00 
+where 
+1 
+= 2,Jrn 
+L 
+a.b.c.d.Z 
+ad-bc=m 
+az' + b 
+k(z" 
+). 
+cz +d 
+4 
+Hence the constant term fm (y) of K; (z, z) equals L f im (y), where 
+1=1 
+Jf'; and f:; are defined exactly like f3 and f4 but with h(r) replaced 
+350 
+
+
+=== PDF PAGE 49 ===
+SELBERG TRACE FORMULA 
+by h(r)~ir (m) and 
+1 
+iy+1 
+~;(y)= c: J 
+111m 
+iy 
+co 
+co 
+1 1 
+ad=m b=-co 
+a,d>O 
+y J 
+h(r)~ir (m) dr. 
+2." -co 
+4 
+k(z, az: b)dz _ 
+As in §3 we then find Im(s) = .1 l:n(s) for 1 < tI < A, where I: and I: 
+1=1 
+are given by the same formulas as 13 and 14 (equations (3.4) and (3.5» 
+but with h(r) replaced by ~ir (m)h(r) and 
+8-1 
+C(2s)I~(s) = m""2 
+co 
+1 
+t 
+t~co t(s,t -4m)V(s, "rrrt 
+As to I; , from (2.20) and (2.23) we find 
+I 
+I 
+~ 
+CIO 
+(X(d - a) - b)l + (a _ d)lyl) 
+~~ (y) = rm J 
+4. 
+1 
+tp 
+1 
+dx 
+m 
+0 
+ad=m b=-co 
+my 
+a,d>O 
+1 
+=,./m 
+1 
+ad=m 
+ajd 
+Y 
+2" 
+1 
+ad=m 
+a,d>O 
+air 
+j b(r) (d) dr 
+-1\1 
+if rm. z, 
+351 
+
+
+=== PDF PAGE 50 ===
+D.ZAGIER 
+so 
+The analytic continuation to 1 - A < a < 1 now proceeds as in §4, the 
+only essential difference being that the terms (4.2) are absent when m is 
+not a square, since l~ then has no summands with t2 -4m = 0 and I~ 
+vanishes identically. The final formula is that given in Theorem 1. 
+!fm < 0 the proof is similar and in fact somewhat easier (since e -4m 
+now always has the same sign and the term 12 is absent), but the cal-
+culations with the hypergeometric functions are a little different. Since 
+constant functions and Eisenstein series are invariant under T( - 1), 
+the terms I~ (s) and I: (s) are equal to 131ml (s) and Ir 
+I (s), so the first two 
+terms in (1.16) are unchanged except for replacing m by Iml. The term I; 
+is always zero since m cannot be a square. Finally, for I~ we find 
+(5.6) 
+,-1 
+CX) 
+I~(s)=lml-2 I 
+t=-CX) 
+t(s,e-4m)v ( t/ 
+/-~) 
+'(2s) 
+- s, m 
+(m< 0) 
+with 
+f
+l. 
+f (lz I2-A/4)2 
+2) Sd 
+V_(s,t)= 
+k(z, -_ -)y dz = 
+tp 
+2 
++t Y z, 
+H 
+z+t 
+H 
+Y 
+where now A = e + 4. This function is easier to compute than V(s, t) 
+since A always has the same sign. Making the same substitutions as in 
+the case A> 0 of Proposition 4 we find that V_ (s, t) is given by the same 
+integral (4.5) but with tp(Au2 + e) instead of tp(Au2 + A). This integral 
+can then be calculated as in the case A> 0 of Proposition 5, the only 
+difference being that the function P -~+ir (1 + ~~) is replaced by 
+P -~+ir (-1 + ~~2e) and we must use 
+352 
+
+
+=== PDF PAGE 51 ===
+SELBERG TRACE FORMULA 
+aJ [r(2ir) 
+!-ir F(1 
+. 1 "1 2")] (x> 0) 
+=07 
+x2 
+-
+-
+tr - - lr 
+-
+lr x 
+r 
+1 
+2'2" 
+r(2 + ir)2 
+[EH 3.2(18)] instead of the corresponding formula for P_~+ir(I+~). 
+This has the effect of introducing an extra factor ( - l)n in the infinite sum 
+and hence of replacing the argument -
+~ in (5.5) by + ~. Using the 
+identity 
+r(~ - ir)r(1 - s - ir) 
+A ir-! 
+9' [coth.".r 
+2 
+2 
+('-1) 
+2 X 
+r 2iJi' 
+r(1 - 2ir) 
+4" 
+F(s 
+. 1 - s 
+. 1 
+2' 
+4 ) ] 
+x 
+--lr---lr' -
+lr'-
+2 
+' 2 
+' 
+'Il. 
+o 
+= cosh2 .".r r(! + ir) r(! _ ir) r(1 - s + ir) r(1 - s _ ir) (1l.)~2 x 
+.".2 
+2 
+2 
+2 
+2 
+4 
+I-s . I-s . 1 
+Il. 
+x F(---lr --+lr'-'I--) 
+2 
+' 2 
+'2' 
+4 
+[EH 2.10(3)] and substituting the expression thus obtained for V_ (s, t) 
+into (5.6), we find that the last term in (1.16) must be replaced by 
+0-1 
+28 - 4 Iml-
+2 
+s 2 
+.".s+1 
+r(2) 
+ao 
+2 
+C(s,e -4m) x 
+I=-CIO 
+r(!+ir)r(!-ir)r(l-s+ ir)r(l-s-ir) 
+2 
+2 
+2 
+2 
+r(~ + ir) r(~ - ir) r(ir) r( - ir) 
+1-s 
+1-s 
+1 e 
+x F(--+ ir --- ir'-'-)h(r)dr 
+2 
+' 2 
+'2'4m 
+if m < O. This completes the proof of Theorem 1. 
+353 
+
+
+=== PDF PAGE 52 ===
+D. ZAGIER 
+Finally, we indicate what happens when r is replaced by a congruence 
+subgroup r 1 in the simplest case r 1 = r 0 (q)/ { ± I}, q prime. There are 
+now two cusps and correspondingly two Eisenstein series El and Ez' 
+given explicitly by 
+! 
+Im(yz)s , 
+,..rooWI 
+Ez(z) = 
+! 
+Im(wyz)s 
+,..w-1r ... w\rl 
+(where w = (0 -1», and formula (2.31) becomes 
+q 0 
+, 
+'" 
+' 
+I 
+i 
+Ko(z,z) = 
+~ k(z, yz) -
+r \ 
+h(-)-
+,..rl 
+vol ( 
+1 H) 
+2 
+__ 1_ i j E.(z ~+ir)E-(z' ~-ir)h(r)dr 
+4," j = I -00 
+J 
+' Z 
+J' 
+Z 
+' 
+where Ko(z, z') is defined as before but with ~ now running over all Maass 
+cusp forms of weight 0 on r 1 (cf. [4]). It is easily checked that 
+qS 
+1 
+El (z, s) = 2s 
+E(qz, s) -
+2s 
+E(z, s), 
+q -1 
+q -1 
+qO 
+1 
+Ez(z, s) = 
+2s 
+E(z, s) -
+2s 
+E(qz, s), 
+q -1 
+q -1 
+so the Fourier developments of El and E2 can be deduced from (2.6). 
+The calculation of I(s) = J Ko (z, z) El (z, s) dz (which again can be 
+00 
+rl\H 
+expressed as J f(y)ys-2 dy, f(y) = constant term of Ko(z,z» now 
+o 
+proceeds as in §3; the final formula is the same except that 11 (s) is replaced 
+by 
+_0_1_ C (2S)-1 
+q + I 
+1=-00 ( e 4) 
+I +(~) C(s,e-4)V(s,t), 
+(where (4) is the Legendre symbol), 13(s) is multiplied by 
+q+-I I ,and 
+q 
+qS -I 
+the integrand Ofl4(S) is multiplied by 
+1 
+(q+I)(I_q-S)(I-ql-S) + 2 -s) 
+-1-+-q~S (ql+2ir _ l)(ql-2ir _ 1) 
+q. 
+354 
+
+
+=== PDF PAGE 53 ===
+SELBERG TRACE FORMULA 
+BffiLiOGRAPHY 
+[1] GoLDFEW, D.: On convolutions of non-holomorphic Eisenstein series. 
+To appear in Advances in Math. 
+[2] GELBART, S. and H. JACQUET,: A relation between automorphic representa-
+tions ofGL(2) and GL(3). Ann. Sc. Be. Norm. Sup. 11(1978) 471-542. 
+[3] JACQUET, H. and D. ZAGIER : Eisenstein series and the Selberg trace formula 
+II. In preparation. 
+[4] KUBOTA, T.: Elementary Theory of Eisenstein series. Kodansha and John 
+Wiley, Tokyo-New York 1973. 
+[5] RANKIN, R.: Contributions to the theory of Ramanujan's function or (n) and 
+similar arithmetical functions. I. Proc. Camb. Phil. Soc. 35(1939) 351-372. 
+[6] SELBERG, A.: Bemerkungen tiber eine Dirichletsche Reihe, die mit der Theorie 
+der Modulformen nahe verbunden ist. Arch. Math. Naturvid. 43(1940) 47-50. 
+[1] SELBERG, A.: Harmonic analysis and discontinuous groups in weakly sym-
+metric Riemannian spaces with applications to Dirichlet series. J. Ind. Math. 
+Soc. 20(1956), 47-87. 
+[8] SHIMURA, G.: On the holomorphy of certain Dirichlet series. Proc. Lond. 
+Math. Soc. 31(1975), 79-98. 
+[9] STURM, J.: Special values of zeta-functions, and Eisenstein series of half-
+integral weight. Amer. J. Math. 102 (1980), 219--240. 
+[10] ZAGIER, D.: Modular forms whose Fourier coefficients involve zeta-functions 
+of quadratic fields. In Modular Functions of one variable VI, Lecture Notes in 
+Mathematics No. 627, Springer, Berlin-Heidelberg-New York 1917, pp. 107-
+169. 
+[11] ZAGIER, D.: Eisenstein series and the Riemann zeta-function. This volume, 
+pp.275-301. 
+Tables 
+[EH] ERDELYI, A. et al.: Higher Transcendental Functions, Vol. I. McGraw-Hill, 
+New York 1953. 
+[ET] ERDELYI, A. et al.: Tables of Integral Transforms, Vol. I. McGraw-Hill, 
+New York 1954. 
+[GR] GRADSHTEYN, I. S. and I. M. RHYZIDK: Table of Integrals, Series, and 
+Products. Academic Press, New York-London 1965. 
+355 

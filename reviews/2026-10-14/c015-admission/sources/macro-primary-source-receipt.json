@@ -1,0 +1,25 @@
+{
+  "retrieved_at_utc": "2026-10-14T02:13:27.417944+00:00",
+  "purpose": "C016 source preparation only, no actual Weil bridge or research round certified",
+  "retrieval_note": "Zagier downloaded via certificate-verified urllib after network escalation; Garrett retrieved with Windows system HTTPS trust after Python certificate-chain failure. No disabled TLS verification.",
+  "sources": [
+    {
+      "path": "reviews/2026-10-14/c015-admission/sources/macro-zagier-eisenstein-selberg-I.pdf",
+      "url": "https://people.mpim-bonn.mpg.de/zagier/files/scanned/EisensteinSelberg/eisenstein-selberg-I-978-3-662-00734-1_11.pdf",
+      "byte_count": 3010889,
+      "sha256": "a7ad2a85f9a90de14ac0b4affd723393b7ab61e16dd749dd6c4c0db881767b94",
+      "text_path": "reviews/2026-10-14/c015-admission/sources/macro-zagier-eisenstein-selberg-I.txt",
+      "text_sha256": "82a4e9799d6c3d6fe3a71dc726a2cfc887244826ad7232a28861b34ff9212a29",
+      "text_extraction": "PyMuPDF plain text; original PDF retained; equations must be checked against original pixels if extraction is ambiguous"
+    },
+    {
+      "path": "reviews/2026-10-14/c015-admission/sources/macro-garrett-maass-selberg.pdf",
+      "url": "https://www-users.cse.umn.edu/~garrett/m/v/maass_selberg.pdf",
+      "byte_count": 120122,
+      "sha256": "b68fa97bb201ef2355884ba79c1dcb5dc14916dede42d4ddaccdd0d3731933f7",
+      "text_path": "reviews/2026-10-14/c015-admission/sources/macro-garrett-maass-selberg.txt",
+      "text_sha256": "a6c51748feb5e4373a5740ff75364627ce31186682342b1ea6073cac7fb41391",
+      "text_extraction": "PyMuPDF plain text; original PDF retained; equations must be checked against original pixels if extraction is ambiguous"
+    }
+  ]
+}
