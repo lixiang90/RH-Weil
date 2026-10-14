@@ -509,3 +509,24 @@ root核原norm、实际全部properpowers、同源signedpair、Poincaré缩放�
 若只恢复旧meanvalue/失全profile/仍旧sqrtN账本，来源入口即停，不建立C022或重开预算。
 只有新全joint运输且扣强旧有净后果，才重新三句准入。其他现实备选保持当前战略。
 首定位已保存原PDF链接/章节和未读公式事实；不等待失败的另一附件、不拟合ζ或加ordinary矩阵。
+
+## D20261014Z：MV来源完整收口，停止对角循环，核actual adelic primitive对象
+
+上一Goal turn是progress：C021 G1全域桥、准确G2止损与宏观恢复已改变状态/下一动作。
+本轮原MV PDF公式、real/mod1域及actual allproperpower矩阵已核；551支付全部coalesced
+母系数质量12log²N并给native gap证书linear反费族，同时同源Γ仅log、actualB_C仍O1。
+反例只停发出账本，不停G2/joint/Goal3。最后actual响应门另付ALL N/ALL m、parent1
+R_N(m)≤10^7log⁴(2+min(N,|m|))，binary movingcutoff/整数端点/fullq cross与原norm都付。
+独立逆核两组织常数/域。它仍只是basis Gram对角，无whole/source混合净后果。
+
+MV来源到此结束，整体来源0轮；C021 stopped/G2open，不建C022或unknown全norm新名字。
+主宏观signed/core/Ξ未变，局部collision质量与actual必要响应已付，不能丢掉也不能升级。
+连续source未core故提前战略复核0，固定基线/原cadence保持1，不另counter或重置周期。
+
+下一唯一来源门改核406真实Fredholm源的canonical adelic primitive/Green/principal适配，
+原YZ Hodge定理已旧C015定位，不标新input。literal∞z阻finiteprojective是406旧直接后果，
+保finiteη/normalizeddegree/非literal模型与metric修复，先落canonical对象与原费用。
+η₀只作原主关系见证；另以537已核非根r₀=(D²−1/4)ψ检查非退化，源坐标必须明确。
+不反造Q-positive metric，不以零主类/局部Cartier/原定理存在代完整数域Weil桥。
+没有actual对象/新增比较即source入口0停，只有fullinput/test/net三句才建数学合同。
+所有paused/降级路线保持，Goal同实例active/open；保存推送不complete。
