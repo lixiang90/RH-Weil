@@ -124,3 +124,15 @@ C018用完整integercell原weighted平均P_N捕fixed Dlog，fullprime carry的fo
 若实际付清，finitehead余维和旧actualnegative trace给polynomialcount，直接承担比543更强whole责任。
 未知candidate不是已知输入；只表示/core原件恢复则入口0轮止损，不重证539 norm反例。
 宏观Goal保持active/open；partialsource范围及具体逃逸必须随恢复读入。
+
+## 最新用户宏观完善与source入口止损（D20261014T）
+
+跨轮summary已更新到546及C018入口；稳定Goal增加固定基线/最新前沿两层新增检验，
+逐阶段责任与短恢复答题，继承同G20261014实例。组织/官方Docs核验零研究轮。
+C018只source/core/carry及projectedpole费用，signedrelative仍缺新输入，547记录入口0轮停止。
+原cadence保持0，latest settled546，fixed基线不变。
+
+下一C019冻结canonical Pa的完整Γ/prime/pole mixedresponse，先审critical目标独立性。
+prime/pole的leading已可exact合并，保nativeψ残差与carry；不能分项norm制造必要费。
+whole谱/coupling量词、Γuniform、旧068/069/521–525 RH强度尚须独立核。
+只恢复equivalence或ψ重写则0停并策略筛选，不承诺数学晋级，不继续薄positiveclasses。

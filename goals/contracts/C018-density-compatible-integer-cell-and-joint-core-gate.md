@@ -1,7 +1,12 @@
 # C018：完整整数cells的Dlog core与实际mixed费用准入
 
-2026-10-14；ready，预算1完整准入轮，settled=[]；source/core接口准备零轮。
+2026-10-14；入口stopped，预算1完整准入轮，settled=[]；source/core接口准备零轮。
 Goal/固定≤538基线/原cadence及暂停约束保持。
+
+入口裁定见[547](../../notes/547-integer-core-entry-and-canonical-joint-response-gate.md)：
+weighted域、fixed Dlog core、allcarry/真实mixed与detail pole O1已核，
+Γrelative candidate没有独立付款/反例。按本合同规则零轮停止；不宣布候选假或方法整体失败。
+下一C019只冻结canonical Pa的完整Γ/prime/pole同源响应，先核critical目标是否藏RH强度。
 
 ## 为什么选择这个入口
 

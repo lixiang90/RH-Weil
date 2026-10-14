@@ -8,7 +8,7 @@
   "cadence": "goals/review-cadence.json",
   "decisions": "goals/DECISIONS.md",
   "latest_strategy": "goals/reviews/2026-10-14-growth-frontier-strategy.md",
-  "latest_decision": "D20261014S",
+  "latest_decision": "D20261014T",
   "macro_frontier": "goals/MACRO_FRONTIER.md",
   "macro_summary": "goals/reviews/2026-10-14-cross-round-macro-summary.md",
   "latest_macro_review": "goals/reviews/2026-10-14-joint-sources-and-form-core-review-cycle-11.md",
@@ -16,12 +16,12 @@
   "macro_control": {
     "schema": "macro-recovery-v2",
     "goal_epoch": "G20261014",
-    "goal_lf_sha256": "49592e5e9f0d59fac2c0e72b55f495353f92a7e2dda5c9d1c10bc57bb22c51d0"
+    "goal_lf_sha256": "9ec2e58f9a4e2d8ad4302be5ce0369a89e6ce671ce1b3be77c0d26a93e032228"
   },
   "macro": {
     "long_objective": "新的成长域独立实际算术输入/同对象ζ约束，或成长核心实质方法类边界；扣除≤538基线。",
-    "unpaid_bottleneck": "546只specialcomb joint正性；其补空间Dlog能保全部fixed源符号责任，adaptivecore/wholecount/nearPSD/Ξ未付。C018 P_N捕fixedcore接口已准备，但signed Γrelative/真实mixed费用仍open。",
-    "why_this_contract": "不继续薄positive类；density-compatible整数cells可在原Dlog捕fixed源，fullpp carry有真forwardtriangular性但reverse仍在。候选signed B_N≤eta JΓ+C logN弱于wholePSD，若付可给poly wholecount，直接胜最强543；只是source接口不结算。",
+    "unpaid_bottleneck": "546 specialjoint不付wholecore；547只原域/fullcarry/pole投影入口，Γrelative候选未证。C019 canonical完整RQP的Γ统一费/projectedE critical独立性及growth signed/core/Ξ仍缺。",
+    "why_this_contract": "Pa是原physical core/pole anchor，完整prime/poleleading可exact合并并保carry；先审criticalrate是否藏旧RH强度，比泛harddiagonal/更多薄positive类有更具体可核门。只ψ重写/old-equivalence则0停并策略复核。",
     "paused_routes": [
       "零点比例优化",
       "无零区域优化"
@@ -37,18 +37,19 @@
       "C014一轮543有新cofinalCe^S净值，但positive thermal全温度仍leading S；停止degree热微调，signed/core逃逸保留。",
       "C015入口544只原件/旧tool，零数学轮停止；norm已付但joint未付，真正graded/mixedsigned/core逃逸未排。",
       "C016一轮545停止；completed紧/direct非紧，全source uppernorm paid但base2净cusp无限kernel；paidcusp/变base/seed/signedcore未排。",
-      "C017一轮546 specialjoint成功后停止薄类主攻；补空间Dlog逼近fixed全源，未给wholecount/core净值，density/adaptive/source-joint逃逸未排。"
+      "C017一轮546 specialjoint成功后停止薄类主攻；补空间Dlog逼近fixed全源，未给wholecount/core净值，density/adaptive/source-joint逃逸未排。",
+      "C018入口547原weighted域/fixedDlog core/fullcarry/mixed/pole已核，但Γrelative无独立输入，0轮停；candidate非已否定。"
     ]
   },
   "primary_contract": {
-    "id": "C018",
-    "path": "goals/contracts/C018-density-compatible-integer-cell-and-joint-core-gate.md",
+    "id": "C019",
+    "path": "goals/contracts/C019-canonical-core-mixed-arithmetic-response-admission.md",
     "status": "ready",
     "iteration_budget": 1,
     "settled_iterations": [],
-    "stage": "原dx/x完整integercell/weighted均值P和detailR、forward P Tq R=0/fixedDlog捕获为source/core准备0轮；Γrelative signedcandidate与reverse/Γ/polejoint尚未proved。",
-    "next_action": "先独立核全部N整数≥4的原P/R Dlog/step合法及fixedsmooth源近似，所有strictpp完整carry和forward/adjoint方向；写R Q P的actualΓ/prime/signedpole真实mixed式。保原Γ，尝试全部R∩Dlog上B_N≤eta JΓ+C logN（fixedeta<1/absoluteC）的可核arith付款；若真旧028/rank付poly wholecount。先扣旧539 finiteconditions排free detailprime logN norm，不重证旧反例计轮。",
-    "stop_rule": "only投影/triangular/旧来源或unknown domination时0入口停止；只有完整新actualΓweighted signed/detail/coupling费用才消费一次。不得将R PSD/RH或所求Schur本身当input，不能盲扩N/ζ拟合/重启暂停。"
+    "stage": "547 canonical Pa全RQP exactsource准备0轮；normalized carry O1/显式pole修正o1已核，Γp uniform及projectedE growth/critical目标独立性未付。",
+    "next_action": "先读547§4与独立短审，恢复旧068/069/521–525 strongestcritical原件；在ALL整数N≥4的原norm核ΓPa/||Pa||统一费和projected nativeE(N/x)响应，保全pp/carry/双pole。审critical/polylog是否仍RH强度（fixedfirstcell不消单offcritical mode，不代替全谱证明）；只旧equivalence/ψ重写时0入口停并策略复核，不假设所求bound作source。",
+    "stop_rule": "预算1完整新joint费用/合法反例；only source/old-equivalence/unknown时0停。不给wholecount/PSD/Ξ预认证，不扫描N/ζ拟合/重启暂停。"
   },
   "support_contracts": [],
   "must_not_forget": [
@@ -67,7 +68,8 @@
     "545只指定sourcegate，paidcusp/变base/seed/signed逃逸保留，不完成macro；结算当时2→3，当前计数只从cadence恢复。",
     "546 specialcomb positive真，但补空间Dlog逼近任意fixed源；不声称adaptivecore整体位于comp，不升级wholecount/Goal。",
     "cycle11仅542/543/545/546四轮，544/source准备0；原cadence4复盘归0，基线不滚。",
-    "C018 core捕获/forwardtriangular不等于Q blockdiagonal；reverse/Γ/poles同源费在，Γrelative candidate尚未proved。"
+    "547 C018入口0停，latest数学546/cadence0；C019 canonicaljoint准备非new输入，criticalfee须先审旧RH强度。",
+    "两层新增：Goal对固定基线、本轮对latest前沿；来源合法/同源费-core/成长净值-识别不可跨阶段标签升级。"
   ],
   "evidence": [
     {
@@ -124,6 +126,26 @@
       "path": "goals/goal-observation.20261014-c017-settlement.json",
       "kind": "cited",
       "scope": "root现场G20261014 active/createdAt一致，546/cycle11不完成macro。"
+    },
+    {
+      "path": "notes/547-integer-core-entry-and-canonical-joint-response-gate.md",
+      "kind": "cited",
+      "scope": "C018入口0轮：原域/fullcarry/mixed/polefee准确，候选open；canonicalPa allRQP exact准备，carryO1/pole修正o1，非whole forcing。"
+    },
+    {
+      "path": "reviews/2026-10-14/c018-first/canonical-joint-preparation-audit.md",
+      "kind": "cited",
+      "scope": "独立核547§4 strictpp/carry/source/equation及O1/o1；Γuniform/critical响应未证，0轮。"
+    },
+    {
+      "path": "goals/goal-observation.20261014-c018-entry.json",
+      "kind": "cited",
+      "scope": "root现场同G20261014 active/createdAt1791936604；文本完善不重建Goal，数学完成门仍open。"
+    },
+    {
+      "path": "reviews/2026-10-14/c018-first/root-consumption-scope.json",
+      "kind": "cited",
+      "scope": "Root核final五原件rawhash/两内积convention/actualnorm；C018入口0停/C019source准备0，candidate与criticalfee未付。"
     }
   ],
   "pending_processes": [],
@@ -131,10 +153,10 @@
     "status": "active",
     "observed_on": "2026-10-14",
     "created_at_epoch": 1791936604,
-    "basis": "Root本轮现场get_goal active/createdAt一致；546只是specialjoint，macrocore仍缺，cycle11/C018准备不完成Goal。"
+    "basis": "Root本轮get_goal两次核同createdAt1791936604 active；Goal LF版本完善绑定，同instance，C018入口/547/C019准备不完成宏观门。"
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-10-14-c017-remote-verified.json",
+  "checkpoint": "goals/checkpoints/2026-10-14-c018-entry.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
     "commit": "0d124085253c3a14472cbae21d14846f57941922",
@@ -143,14 +165,14 @@
   "completion_audit": {
     "goal": "goals/GOAL.20261014.md",
     "baseline_commit": "0c4f3a3eb609bb1d9564138fa4a35701f05605f2",
-    "goal_lf_sha256": "49592e5e9f0d59fac2c0e72b55f495353f92a7e2dda5c9d1c10bc57bb22c51d0",
+    "goal_lf_sha256": "9ec2e58f9a4e2d8ad4302be5ce0369a89e6ce671ce1b3be77c0d26a93e032228",
     "mathematical_gate": "open",
     "final_execution_gate": "not-eligible",
-    "basis": "546特殊类joint真但原form補空间保全部fixed责任；未给wholecore/nearPSD/Ξ。C018 signedΓrelative费用为candidate非known输入，数学门open。"
+    "basis": "两层新增/阶段责任版Goal仍open。C018只接口/pole费用，relative candidate未证，C019 canonicaljoint准备未付Γuniform/critical独立性或growth whole净值。"
   },
   "historical_completion_receipts": [
     "goals/goal-completion-receipt.20261014.json",
     "goals/goal-completion-receipt.20261014-continuation.json"
   ],
-  "process_inventory_observed_on": "2026-10-14现场list_agents：三C017独立审/最终546scope及sourceprep均completed；无numerical producer/续exec session，pending[]。"
+  "process_inventory_observed_on": "Root现场list_agents三审与547短审均completed；所有final原件hash已复核，无numerical producer/续exec session，pending[]。"
 }

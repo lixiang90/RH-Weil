@@ -1,0 +1,37 @@
+{
+  "schema": "root-source-admission-consumption-v1",
+  "date": "2026-10-14",
+  "goal": "goals/GOAL.20261014.md",
+  "goal_epoch": "G20261014",
+  "goal_lf_sha256": "9ec2e58f9a4e2d8ad4302be5ce0369a89e6ce671ce1b3be77c0d26a93e032228",
+  "baseline_commit": "0c4f3a3eb609bb1d9564138fa4a35701f05605f2",
+  "inputs": [
+    {
+      "path": "notes/547-integer-core-entry-and-canonical-joint-response-gate.md",
+      "raw_sha256": "f2679ead99d0b4bfc32627a3876562ffbb88d84388fb2ebe72b373036ebdc109"
+    },
+    {
+      "path": "reviews/2026-10-14/c018-first/gamma-relative-admission-audit.md",
+      "raw_sha256": "a80d4636812a0386c24d455ca33b6511a932887ee8794b3002439b204c41c4cb"
+    },
+    {
+      "path": "reviews/2026-10-14/c018-first/prime-carry-and-projected-pole-audit.md",
+      "raw_sha256": "664bb41e5d9e4e807576fb028f35f593f05ecb0bf1022c00a13758209d318df1"
+    },
+    {
+      "path": "reviews/2026-10-14/c018-first/canonical-joint-preparation-audit.md",
+      "raw_sha256": "cfb1c71334aea69960a264c3b15ac416228295a7ea5908b41300a9d6a25cafd9"
+    },
+    {
+      "path": "reviews/2026-10-14/c018-first/macro-recovery-and-next-action-audit.md",
+      "raw_sha256": "377a3bba658b31dbc706cdec480e72ad454ac7d989496cfab057d753dc8a59ee"
+    }
+  ],
+  "reconciled_conventions": "Gamma/root linear-first vs prime audit antilinear-first; mixed formula conjugated consistently; actual2theta, originaldu=dx/x/allstrictpp/dual poles maintained.",
+  "mathematical_rounds_consumed": 0,
+  "latest_settled_mathematics": "notes/546-arithmetic-comb-full-weil-positivity-and-form-core-noncoverage.md",
+  "proved_scope": "Original domain/core/fullcarry and projected poles; canonical allRQP exact preparation and normalized O1/o1. No Gamma-relative input or actual polynomial count.",
+  "unpaid": "Gamma-relative all-detail arithmetic bound; GammaPa uniform fee, projectedE critical-rate full spectrum/independence; growth signed/core/Xi.",
+  "decision": "C018 source-entry stopped0, candidate open; C019 canonicaljoint/circularity gate ready1, preparation zero.",
+  "remote": "Not a remote verification receipt."
+}

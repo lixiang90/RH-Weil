@@ -374,3 +374,24 @@ B_N≤eta JΓ+C logN on R_N∩Dlog，fixedeta<1/absoluteC，当前open不是独�
 不必假设R PSD/RH，也不以unknownwhole domination命名为输入。
 仅core表示/triangular恢复则0轮止损；只有newactualΓweightedjoint费用才完整结算。
 所有暂停/降级及C008/C001约束保持，Goal现场active/open。
+
+## D20261014T：跨轮两层去重，C018入口止损，冻结canonical完整joint响应
+
+用户再次要求宏观总结与完善Goal。本次继承同一G20261014 active实例和0c4f/≤538基线，
+不重复创建或滚动验收。Goal补两层新增检验：整个Goal对固定基线，本轮对最新已结算前沿；
+逐阶段保存来源合法→同源费用/core覆盖→成长净后果/对象识别，恢复须短答行动理由。
+summary顶部更新546/C018；组织与官方Docs能力核验零数学轮，不声称永久记忆。
+
+[547](../notes/547-integer-core-entry-and-canonical-joint-response-gate.md)核清C018原weighted域、
+fixedDlog core、全carry、actualmixed及detail signedpole O1。反向pole分量确以√N增长，
+但Γ/prime同源抵消尚未审，不能声明whole必要费。Γrelative候选没有独立证明/合法反例，
+按合同入口0轮停，latest数学仍546、cadence仍0；不宣布该candidate假或所有方法失败。
+conditional polynomial count核清且不需先付mixedSchur/headPSD，候选本身仍缺。
+
+唯一C019 ready预算1：固定实际head p=P_Na_+的完整RQP；prime/poleleading精确抵消后，
+保native E_<(N/x)投影、全部carry修正与Γ。先核Γ统一费用及criticalrate独立性，
+旧068/069/521–525的RH强度必须扣除，不能用均值滤波藏掉它。
+fixed firstcell对单offcritical Mellin mode仍有非零响应，只是来源准备，完整谱量词待审。
+若只有ψ重写/旧equivalence/unknown，入口零轮停并策略复核，不无限换标签。
+选择它因同physical core的明确joint响应比泛nearproduct更可核，非承诺新的宏观结果。
+完整成长signed/core/Ξ瓶颈未缩小；Goal数学门open，保存推送不完成Goal。

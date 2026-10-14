@@ -134,12 +134,21 @@ wholecount与关键core净值没有改善，不能因无界支持外包络而验
 [cycle11](reviews/2026-10-14-joint-sources-and-form-core-review-cycle-11.md)覆542/543/545/546四轮，
 544及source准备0轮；原cadence4复盘归0，固定基线不变。
 
-当前C018 ready：完整logintegercells保原dx/x全源，weighted均值P_N在Dlog捕获fixedsource，
+当时C018 ready：完整logintegercells保原dx/x全源，weighted均值P_N在Dlog捕获fixedsource，
 fullq consecutivecarry给forward P Tq R=0；reverse/Γ/pole仍有真实mixed费。
 free detailprime logarithmicnorm已被539有限条件门排，不能新计。
 下一具体open门B_N≤eta JΓ+C logN于全部R_N∩Dlog，fixedeta<1/absoluteC：
 若有独立signed付款，finitehead与负pole秩/旧028可给polynomial wholecount，承担实际core责任。
 现在只有source接口准备，非candidate已证；只换表示/unknown domination则0入口止损。
+
+C018现已由[547](../notes/547-integer-core-entry-and-canonical-joint-response-gate.md)入口零轮停止。
+原域/core/fullcarry/actualmixed已核；detailpole uniformO1，但polemixed分量√N不代表whole费用。
+Γrelative candidate无独立证明/反例，conditional polynomialcount不登记已证。latest settled仍546。
+当前C019冻结canonical p=Pa_+的完整RQP：prime/poleleading exact合并，保native E与carry/Γ。
+先付Γ统一费用、projected residual真正量词，并审critical/polylog目标是否藏旧068/069/521–525 RH强度。
+fixedfirstcell不消单offcritical mode，是准备而非完整RH等价证明；只ψ重写/oldcriticalinput即0停。
+这个joint physical core门优于泛恢复harddiagonal，但不预付wholecount/nearPSD/Ξ。
+新Goal完善继承同epoch，两层去重/阶段责任防压缩重计；宏观瓶颈仍未缩小。
 
 现实备选：直接研究完整Γ高尾与prime/pole的同源signed联合估计，或新的多prime/算术几何来源。
 若变尺度split的全源必要费用无法与tail供应同时闭合，应优先备选而不是不断增N。
