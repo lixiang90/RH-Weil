@@ -574,3 +574,24 @@ C022完成后停止pure scalar norm/weight优化，sharp A只约束本身，不�
 只fixedprofile/finiteband/旧障碍则入口0停；新uniform input/test/net才建C023，不重开C021。
 fulljoint carry和principal-compatible非根/physical ΛΛ是真实备选，新证据准入条件见本次战略。
 C001/C008/比例/零区/降级路线保持，Goal现场active；保存推送不complete。
+
+## D20261014AC：边界费用来源0，收强旧4/5，拒丢正pole的热包络
+
+上一goalturn为progress，555真实数学结算与宏观恢复已经保存；本轮同G20261014/固定0c4f/原cadence。
+556复核030实际Stieltjes/profile/共同carrier费、Γ全tail/forced-height/精确fixedcore删除；
+slow frequency cap合法而中央/全Dlog/growingcore/residual未付，essentialnorm属539+555直接旧后果，源0停止。
+
+C023曾冻结555 row＋542 allband高矩的mixed门，技术逆审通过ALLL/ALLcomplex完整预算log leading4/5。
+强旧审明确542+555→convexlower→原ALLk Markov→concentration trace/+1的闭合链；
+没有新增独立输入/源方向或费用，未曾issued不足以计新forcing。按合同规则入口0 stopped、settled=[]。
+557保存真实更强推论，并纠正“555 issued1即最强”的消费范围；之后整体净值须扣4/5。
+555原norm/预算仍真，baseline不滚动、latest数学555/cadence2保持，独立raw不静默改写。
+
+558先做Γ×primepositive返回trace的最便宜门：old030正even端点r给Γ−A最低值≤−(1−ε)eL+Oφ1。
+ALLs>1合法traceupper inf的log leading≥1，fixeds2更≥2，输strong-old4/5。此拒准入也是旧消费0。
+没有actualQ负或Goal3；正evenpole主相消已被这个中间对象删除，保它/signedcore/deflation/Γ付款逃逸。
+
+下一唯一章节门先保正evenpole：canonical cosh fullQ operator残差，原Γdomain/边界/norm费，
+再核rankone Duhamel/resolvent的signed全trace耦合。formalidentity/旧o(eL)子费/unknownfullsum即0停，
+完整独立arithmeticjoint及扣4/5的core净值才登记合同，不建C024，不调η/k/温度续命。
+两个现实备选及推翻条件见本次战略；core/PSD/Ξ主瓶颈未变，Goal现场active/open。
