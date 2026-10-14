@@ -43,3 +43,9 @@ notes/503-ninth-span-reward-and-feedback-interface-barrier.md -text
 # Preserve the exact C010 rational proposals and verification identities.
 /reviews/2026-10-14/c010-inertia/** -text whitespace=cr-at-eol
 /scripts/c010_*.py -text whitespace=cr-at-eol
+
+# Byte-preserved exact C011 input/verification identities.
+/scripts/c011_*.py -text whitespace=cr-at-eol
+/reviews/2026-10-14/macro-restart/** -text whitespace=cr-at-eol
+/goals/archive/STATE.before-20261014-restart.json -text whitespace=cr-at-eol
+/scripts/research_state_recovery_smoke.py text eol=lf

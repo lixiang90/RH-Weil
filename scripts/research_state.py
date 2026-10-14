@@ -44,6 +44,9 @@ def validate(root, state, cadence):
         raise ValueError("Read round state from cadence; do not duplicate it")
     for key in ("goal", "workflow", "cadence", "decisions", "latest_strategy"):
         resolve_file(root, state[key])
+    for key in ("macro_frontier", "macro_summary", "latest_iteration"):
+        if state.get(key):
+            resolve_file(root, state[key])
     if state.get("latest_macro_review"):
         resolve_file(root, state["latest_macro_review"])
     decision_text = resolve_file(root, state["decisions"]).read_text(encoding="utf-8")
@@ -75,6 +78,49 @@ def validate(root, state, cadence):
         resolve_file(root, item["path"])
     if state.get("goal_completion_requested", False):
         raise ValueError("Completion is reviewed through the Goal tool, not a state flag")
+    if state.get("macro_control"):
+        control = state["macro_control"]
+        if control.get("schema") != "macro-recovery-v2":
+            raise ValueError("Unknown macro recovery controls")
+        if not state.get("macro_frontier") or not state.get("macro_summary"):
+            raise ValueError("Macro recovery needs frontier and cross-round summary")
+        goal_hash = hashlib.sha256(resolve_file(root, state["goal"]).read_bytes()
+                                   .replace(b"\r\n", b"\n")).hexdigest()
+        if control.get("goal_lf_sha256") != goal_hash:
+            raise ValueError("Goal version changed; inspect scope before rebinding state")
+        if not control.get("goal_epoch"):
+            raise ValueError("Current Goal needs an explicit epoch")
+        audit = state.get("completion_audit", {})
+        if (audit.get("goal") != state["goal"] or
+                audit.get("baseline_commit") != state["baseline_commit"] or
+                audit.get("goal_lf_sha256") != goal_hash):
+            raise ValueError("Completion audit is not bound to this Goal version/baseline")
+        if audit.get("mathematical_gate") not in {"open", "reviewing", "passed", "failed"}:
+            raise ValueError("Unknown current mathematical completion gate")
+        if audit.get("mathematical_gate") == "passed":
+            resolve_file(root, audit["path"])
+        history = cadence.get("last_completed_round_note_paths", [])
+        if len(history) != len(set(history)):
+            raise ValueError("Cadence repeats a completed iteration")
+        settled = contract.get("settled_iterations", [])
+        if (len(settled) != len(set(settled)) or
+                any(note not in history for note in settled)):
+            raise ValueError("Contract settlements are not unique cadence references")
+        if type(contract.get("iteration_budget")) is not int or contract["iteration_budget"] not in (1, 2):
+            raise ValueError("Contract admission budget must be one or two iterations")
+        if len(settled) > contract["iteration_budget"]:
+            raise ValueError("Contract exceeded admission budget; review instead of resetting it")
+        for process in state.get("pending_processes", []):
+            if (not isinstance(process, dict) or
+                    any(not process.get(k) for k in ("handle_type", "handle", "status",
+                                                    "observed_at", "next_action"))):
+                raise ValueError("Pending process lacks its actual handle/observation/resume action")
+            if process["status"] not in {"running", "unknown", "awaiting-review"}:
+                raise ValueError("Invalid pending process status")
+            for name in process.get("output_paths", []):
+                path = (root / name).resolve()
+                if not path.is_relative_to(root.resolve()):
+                    raise ValueError("Pending output path leaves repository")
     return True
 
 
@@ -113,6 +159,9 @@ def checkpoint(root, state, cadence, output):
     paths |= {item["path"] for item in state.get("support_contracts", [])}
     if state.get("latest_macro_review"):
         paths.add(state["latest_macro_review"])
+    for key in ("macro_frontier", "macro_summary", "latest_iteration"):
+        if state.get(key):
+            paths.add(state[key])
     hashes = {}
     for relative in sorted(paths):
         raw = canonical(updated) if relative == STATE_PATH.as_posix() else resolve_file(root, relative).read_bytes()
@@ -146,12 +195,21 @@ def check_checkpoint(root, state):
 def show(state, cadence):
     print("Goal:", state["goal"])
     print("Baseline:", state["baseline_commit"])
+    if state.get("macro_frontier"):
+        print("Macro frontier:", state["macro_frontier"])
+    if state.get("macro_summary"):
+        print("Cross-round summary:", state["macro_summary"])
+    if state.get("latest_iteration"):
+        print("Latest settled evidence:", state["latest_iteration"])
     if state.get("latest_macro_review"):
         print("Latest macro review:", state["latest_macro_review"])
     print("Unpaid bottleneck:", state["macro"]["unpaid_bottleneck"])
     print("Why this contract:", state["macro"]["why_this_contract"])
     print("Primary:", state["primary_contract"]["id"], state["primary_contract"]["status"])
     print("Next action:", state["primary_contract"]["next_action"])
+    if state.get("macro_control"):
+        print("Goal epoch:", state["macro_control"]["goal_epoch"],
+              "; contract settlements:", state["primary_contract"].get("settled_iterations", []))
     print("Cadence:", cadence["rounds_since_review"], "/", cadence["maximum_rounds"],
           "; last complete:", cadence["last_completed_round"])
     print("Paused routes:", ", ".join(state["macro"]["paused_routes"]))
