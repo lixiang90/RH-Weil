@@ -64,7 +64,7 @@
     "543仅cofinal全源countupper；热账本lower非actualcountlower，未付PSD/Ξ，非macro完成。",
     "C015入口544只oldtool零数学轮；当时latest543/cadence2，现最新以STATE/cadence为准，不把旧source恢复造轮。",
     "C016 direct原norm全L²R/fixedY独立成长L已paid；inverse空域不排direct，e2L粗upper不是必要费；netcusp盲带不推Q负。",
-    "545仅指定sourcegate，paidcusp/变base/seed/signed逃逸保留，不完成macro；原cadence仅2→3。",
+    "545只指定sourcegate，paidcusp/变base/seed/signed逃逸保留，不完成macro；结算当时2→3，当前计数只从cadence恢复。",
     "546 specialcomb positive真，但补空间Dlog逼近任意fixed源；不声称adaptivecore整体位于comp，不升级wholecount/Goal。",
     "cycle11仅542/543/545/546四轮，544/source准备0；原cadence4复盘归0，基线不滚。",
     "C018 core捕获/forwardtriangular不等于Q blockdiagonal；reverse/Γ/poles同源费在，Γrelative candidate尚未proved。"
@@ -134,11 +134,11 @@
     "basis": "Root本轮现场get_goal active/createdAt一致；546只是specialjoint，macrocore仍缺，cycle11/C018准备不完成Goal。"
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-10-14-c017-settled-cycle11-c018-ready.json",
+  "checkpoint": "goals/checkpoints/2026-10-14-c017-remote-verified.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
-    "commit": "f8b3b82465d3d088e399ec6fcb38792d5c2ebbe7",
-    "basis": "545/C016三审/Goal完善/C017准备的来源版已现场HEAD=remote main完整SHA且clean；后续仅保存remote核验metadata和545 byte-preservation规则，不滚动基线/Goal epoch/cadence。"
+    "commit": "0d124085253c3a14472cbae21d14846f57941922",
+    "basis": "546三审/原proofbytes/cycle11/C018候选版已现场HEAD=remote main完整SHA且clean；后续仅核验metadata，不滚基线/Goal版本或cadence。"
   },
   "completion_audit": {
     "goal": "goals/GOAL.20261014.md",
