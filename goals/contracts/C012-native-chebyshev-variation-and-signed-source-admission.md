@@ -1,6 +1,6 @@
 # C012：完整 Γ 下的实际 Chebyshev 变差费用准入
 
-2026-10-14；C011两轮止损后唯一下一合同，ready，预算1完整研究轮。
+2026-10-14；C011两轮止损后准入，现已完成一轮并stopped，预算1完整研究轮。
 准备/恢复旧恒等式/入口审查不计轮；原cadence唯一。
 新增基线仍0c4f3a3/全部≤538，宏观Goal稳定且active。
 
@@ -66,5 +66,17 @@ A=E+1的版本亦核，防止端点修复假逃逸。
 单纯重排Q、RH等价、generic范数或未知domination改名均不准入。
 完整nonconstant Γ/signed及新的算术几何仍未排，未来唯一动作由当轮证据决定。
 
-本合同没有已结算轮、未启动科学producer或待续process；入口是可核草稿，不是external PASS。
+本合同初始没有结算轮，入口是可核草稿，不是external PASS。
 并行审查各自文件，root核对象量词后决定结算，原cadence不按代理/文件累加。
+
+## 一轮结算与停止（D20261014N）
+
+已结算原证据[541](../../notes/541-native-chebyshev-variation-and-full-gamma-boundary.md)，
+actual E/A费用κω+O(1)，完整Γ-form=logω−log(2π)+O(1/ω)，全tail/prime/pole/端点均付。
+任意fixed-L bounded修复、逐源pointwise majorant和固定有限L²条件仍不救absolute门；
+真实signed导数项E版趋2N、A版趋0，R_E趋0，wholeQ最终正。
+完整signed、source分块/更强norm/不统一源能量仍未排，非宏观完成。
+新增只为native全Dlog支付法边界；入口恒等式/旧思想/原来源检索不另计轮。
+停止absolute-PNT包络主攻，重准入须实际signed新定理与非循环全域消费桥。
+cycle10四轮复盘后唯一下一合同C013，审actual prime高矩/allband与whole惯性净后果。
+没有科学producer、待续session或附件等待。

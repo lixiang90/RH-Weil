@@ -69,10 +69,17 @@ Gaussian原norm截断/频尾给δ=1−||B_(L,Ω)||<min(1,5e^-LΩ)，
 即使该检验成立，也只关掉一个搬运shortcut，不独立完成成长预算或本版Goal。
 
 这项首候选现已由539/540两轮止损，以上说明保留为选择原因。
-当前候选C012：保完整Γ正jump能量，prime/pole用实际Chebyshev primitive共同中心化；
-先核其absolute variation支付费对原Dlog全source是否可控，合法窄支持carrier是便宜准入探针。
-入口S1–S4属旧规范恢复；B_E原对象/量词/ω费与logΓ费还须独立消费和扣除旧重复才能结算。
-一轮预算，没有新actual signed响应则停止absolute包络主攻。
+C012已经由[541](../notes/541-native-chebyshev-variation-and-full-gamma-boundary.md)一轮止损。
+实际E/A绝对derivative费用κω+O(1)不能由完整Γ的logω及bounded正参考能量支付，
+固定有限L²条件/pointwise majorant也不救。真实signed residual趋0、wholeQ最终正；
+signed/source分块/更强norm仍未排。入口恒等式和absolute旧思想不登记新输入。
+
+当前候选C013：保actual多prime相位，以MV有限均值+unique prime高矩审成长坏频集，
+付properpowers/完整Γ/allband绝对measure，再消费原027一般桥给wholeQ负惯性净约束。
+旧018二矩、223/267/455均值/四矩和一般k!/trace桥不是新成果；
+只有growth high-k实际算术账本严格改善旧粗whole谱界才结算，1–2轮无净值即止损。
+完整positive/Ξ责任仍open，不以density趋零冒充任意source Fourier质量小或RH。
+cycle10复盘说明为何停止连续容易反例并选择有独立原件的算术谱预算。
 
 现实备选：直接研究完整Γ高尾与prime/pole的同源signed联合估计，或新的多prime/算术几何来源。
 若变尺度split的全源必要费用无法与tail供应同时闭合，应优先备选而不是不断增N。
@@ -92,7 +99,8 @@ Gaussian原norm截断/频尾给δ=1−||B_(L,Ω)||<min(1,5e^-LΩ)，
 | C006晚prime绝对返回预算 | fixed-domain子项已付，主攻止损；未证全费用发散 | actual共同trace域及新whole-source signed可求和费用 |
 | 已核537/538固定窗 | 成果冻结，继续消费前件，不重复认证 | 新L需whole-source/prime进入/误差与成长责任，旧因子不能无声复用 |
 | constant-envelope搬运C011 | 539固定Ω失败及540全Ωscalar费用已付，两轮止损 | 极小τ/head-complement/full Γ/signed未排；重准入须独立whole预算，不仅增N/精度 |
-| full Γ/中心化primitive C012 | ready，入口恒等式非新输入 | 一轮审native absolute fee；新signed来源须弱于wholeQ且付全source/growth/误差 |
+| full Γ/中心化primitive C012 | 541付native absolute门边界，一轮止损 | signed/source分块/更强norm未排；重新准入须实际signed原定理 |
+| 多prime高矩/whole惯性C013 | ready；MV/k!/trace桥都是旧工具 | 审actual成长allband费用与严格净谱改善；不复活纯测度→RH或暂停路线 |
 | 比例/无零区域 | 用户要求暂停 | 仅用户明确恢复；历史形式化资产保留各自前件 |
 | 独立算术几何 | 副线，独立Hodge符号仍open | 原几何定理接同算术配对/ζ对象，不扩未符号化字段 |
 

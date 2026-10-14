@@ -1,0 +1,257 @@
+{
+  "schema": "rh-weil-macro-checkpoint-v1",
+  "created_for_client_date": "2026-10-14",
+  "git_head_at_checkpoint": "6309e116e20e886b55a09e0674638b39e4edf349",
+  "state": {
+    "schema": "rh-weil-macro-state-v1",
+    "updated_for_client_date": "2026-10-14",
+    "baseline_commit": "0c4f3a3eb609bb1d9564138fa4a35701f05605f2",
+    "historical_baseline_commit": "3a72930e9f9f554b03b41d17d8c8002f1813ca82",
+    "goal": "goals/GOAL.20261014.md",
+    "workflow": "goals/RESEARCH_WORKFLOW.md",
+    "cadence": "goals/review-cadence.json",
+    "decisions": "goals/DECISIONS.md",
+    "latest_strategy": "goals/reviews/2026-10-14-growth-frontier-strategy.md",
+    "latest_decision": "D20261014N",
+    "macro_frontier": "goals/MACRO_FRONTIER.md",
+    "macro_summary": "goals/reviews/2026-10-14-cross-round-macro-summary.md",
+    "latest_macro_review": "goals/reviews/2026-10-14-full-gamma-variation-and-source-review-cycle-10.md",
+    "latest_iteration": "notes/541-native-chebyshev-variation-and-full-gamma-boundary.md",
+    "macro_control": {
+      "schema": "macro-recovery-v2",
+      "goal_epoch": "G20261014",
+      "goal_lf_sha256": "c55bc2d94f93a620f012a9e8dfab29bafad154b6231618a138308c50ef2f79a1"
+    },
+    "macro": {
+      "long_objective": "新的成长域独立实际算术输入/同对象ζ约束，或成长核心实质方法类边界；扣除≤538基线。",
+      "unpaid_bottleneck": "541关native absolute付款门，真实signed/fullgrowth正性和Ξ识别未付；C013实际高k/allband到whole负惯性净后果尚未结算。",
+      "why_this_contract": "cycle10判连续费用反例已足；C013有原MV算术input，保真实多prime相位/全部properpowers/完整Γ，用成长高矩尝试付绝对坏集和实际全谱index，比another freebridge反例有净值。",
+      "paused_routes": [
+        "零点比例优化",
+        "无零区域优化"
+      ],
+      "stopped_or_downgraded": [
+        "C008原数字止损不等待",
+        "C00112组ordinary探索冻结",
+        "等价Hilbert酉化/临界源修正降级",
+        "535无费single-prime桥已排；更细范围见宏观前沿",
+        "C011两轮停止constant-envelope搬运；539固定Ω失败/540全Ω scalar费用，极小τ、head-complement/full Γ/signed未排。",
+        "C012一轮541 native E/A绝对derivative费相对Dlog无界，停止absolute-PNT包络；signed/H¹/源分块未排。"
+      ]
+    },
+    "primary_contract": {
+      "id": "C013",
+      "path": "goals/contracts/C013-actual-prime-moments-and-whole-weil-inertia.md",
+      "status": "ready",
+      "iteration_budget": 2,
+      "settled_iterations": [],
+      "stage": "MV原件/旧018二矩与027桥已定向审，high-k/allband/实际净index仍未结算；入口准备零轮。",
+      "next_action": "首轮独立核MV Theorem2/Cor2的(T+2π ceil(X^k))原误差及actual P_1^k系数k!V^k，保全部D_pp；在Γ阈值下付低T head/terminalcutoff和k随L/T成长的dyadic绝对坏集总measure，再接原027 whole-source负depth/odd pole+1，比较旧二矩/粗界是否有strict成长净改善。",
+      "stop_rule": "1–2完整轮；若generic MV/k!/trace桥重推或同对象旧结果则不计新增；无actual allband/whole谱净改善则止损，不用density直接PSD或复活纯测度RH/暂停路线。"
+    },
+    "support_contracts": [],
+    "must_not_forget": [
+      "新Goal≤538/0c4f固定成果基线，旧535/537/538不能重复完成。",
+      "实际Γ=2θ′/双pole/全部primepowers/原L²及合法域；R负不等于Q负。",
+      "固定L/N逼近/成长L/全源统一四量词分开，finite门须全分析桥。",
+      "C008止损不等待，C001冻结、不盲扩N/精度或ζ拟合。",
+      "暂停/降级路线重准入须用户恢复或实际新来源，不因新Goal复活。",
+      "组织启动/补审/推送零数学轮，原cadence不复制/重置。",
+      "宏观前沿存因果/未付前件/反事实，STATE仅短执行；原件高于摘要。",
+      "Goal runtime现场核；完成审计须绑定本Goal版本/基线，不用旧收据。"
+    ],
+    "evidence": [
+      {
+        "path": "notes/535-actual-first-prime-sonin-log-resonance-and-indefinite-error.md",
+        "kind": "obstruction",
+        "scope": "旧基线全fixedprime无费比较边界，作为输入不再次验收。"
+      },
+      {
+        "path": "notes/537-source-exact-weil-window-positive-tail-admission.md",
+        "kind": "proved",
+        "scope": "旧基线fixed L17/16全complex正性，完整source/error消费链。"
+      },
+      {
+        "path": "notes/538-actual-weil-geometric-upper-and-full-inertia-gates.md",
+        "kind": "proved",
+        "scope": "旧基线samewindow真simple-even/gap，非成长或RH。"
+      },
+      {
+        "path": "reviews/2026-10-14/macro-restart/history-and-new-goal-scope-audit.md",
+        "kind": "cited",
+        "scope": "跨阶段范围审查，未重新全文/Lean/外部纪录。"
+      },
+      {
+        "path": "scripts/c011_growth_split_gate.py",
+        "kind": "proved",
+        "scope": "actual全12项Fraction scalar准入，whole连续桥另审。"
+      },
+      {
+        "path": "reviews/2026-10-14/macro-restart/c011-growth-split-exact.json",
+        "kind": "proved",
+        "scope": "C_1.5>4>Γ256及原β+τ−C<-1/2；不是Q sign。"
+      },
+      {
+        "path": "notes/539-growing-weil-prime-cost-and-constant-tail-boundary.md",
+        "kind": "obstruction",
+        "scope": "新全actual prime成长费用/constant-envelope compact供应器边界；不是Q负或宏观完成。"
+      },
+      {
+        "path": "reviews/2026-10-14/macro-restart/c011-growth-reverse-audit.md",
+        "kind": "proved",
+        "scope": "continuous+不同组织Fraction全输入逆审，含finite smooth linear条件与τ。"
+      },
+      {
+        "path": "notes/540-growing-constant-tail-gaussian-reward-cost.md",
+        "kind": "obstruction",
+        "scope": "Gaussian完整norm/频尾与539同源全Ω scalar上界；不是Q负、独立算术正性或Goal完成。"
+      },
+      {
+        "path": "reviews/2026-10-14/c011-second/full-gamma-signed-bridge-entry.md",
+        "kind": "cited",
+        "scope": "历史C012入口草稿/旧件定向审查，S1–S8已由541独立消费；准备本身零轮，完整signed仍未付。"
+      },
+      {
+        "path": "goals/contracts/C011-growing-weil-source-and-split-cost.md",
+        "kind": "cited",
+        "scope": "已停止合同保留539/540两条原cadence结算与重准入条件。"
+      },
+      {
+        "path": "notes/541-native-chebyshev-variation-and-full-gamma-boundary.md",
+        "kind": "obstruction",
+        "scope": "Actual E/A absolute费κω/fullΓ logω全源边界；bounded修复/固定finite L²条件及signed端点/Q正方向，非macro完成。"
+      },
+      {
+        "path": "reviews/2026-10-14/c012-variation/reverse-core-audit.md",
+        "kind": "proved",
+        "scope": "独立time-jump+最终541谱全tail消费，正确2N+2I；修复/majorant/有限L²与H¹逃逸。"
+      },
+      {
+        "path": "reviews/2026-10-14/c012-variation/root-novelty-and-selection-audit.md",
+        "kind": "cited",
+        "scope": "Native对象与041/237/252/296–300的定向扣除；非全文/世界审查，macro反事实与C013选择。"
+      },
+      {
+        "path": "reviews/2026-10-14/c012-variation/joint-source-entry-audit.md",
+        "kind": "cited",
+        "scope": "一级Burnol/CCM/Suzuki/Selberg指定范围审查，未得新growthsigned；full localization actual9只备选零轮。"
+      },
+      {
+        "path": "reviews/2026-10-14/c012-variation/mv-high-moment-actual-weil-entry-audit.md",
+        "kind": "conditional",
+        "scope": "C013一级MV/allprimepower Γ/index入口与旧018/027等扣除，actual成长净后果尚未结算。"
+      },
+      {
+        "path": "goals/contracts/C012-native-chebyshev-variation-and-signed-source-admission.md",
+        "kind": "cited",
+        "scope": "一轮541止损，原cadence唯一，signed重准入责任保留。"
+      },
+      {
+        "path": "goals/goal-observation.20261014-c012-cycle10.json",
+        "kind": "cited",
+        "scope": "Root现场get_goal active，身份G20261014一致，不认证数学/完成。"
+      }
+    ],
+    "pending_processes": [],
+    "runtime_goal_observation": {
+      "status": "active",
+      "observed_on": "2026-10-14",
+      "created_at_epoch": 1791936604,
+      "basis": "本轮root get_goal现场active、创建身份一致；C012一轮止损/cycle10复盘不完成Goal，C013 ready。"
+    },
+    "goal_completion_requested": false,
+    "checkpoint": "goals/checkpoints/2026-10-14-c012-stopped-cycle10-c013-ready.json",
+    "last_verified_remote": {
+      "repository": "https://github.com/lixiang90/RH-Weil",
+      "commit": "5ddecd8dfcfb5eb39b7f37ad060ba1924d522d6e",
+      "basis": "540/C011止损/C012 ready原证据版已现场HEAD=remote main完整SHA且clean；本次仅保存验证metadata，不改冻结成果基线或计轮。"
+    },
+    "completion_audit": {
+      "goal": "goals/GOAL.20261014.md",
+      "baseline_commit": "0c4f3a3eb609bb1d9564138fa4a35701f05605f2",
+      "goal_lf_sha256": "c55bc2d94f93a620f012a9e8dfab29bafad154b6231618a138308c50ef2f79a1",
+      "mathematical_gate": "open",
+      "final_execution_gate": "not-eligible",
+      "basis": "541为限定native支付法边界，未付完整signed成长/Ξ；C013实际新全谱净后果尚未证明，宏观门open。"
+    },
+    "historical_completion_receipts": [
+      "goals/goal-completion-receipt.20261014.json",
+      "goals/goal-completion-receipt.20261014-continuation.json"
+    ],
+    "process_inventory_observed_on": "2026-10-14；core/source及MV入口已completed；novelty代理两次stream-error无文件未消费，root原件审查补足；没有科学producer/待续session，pending[]。"
+  },
+  "cadence_snapshot": {
+    "schema": "rh-weil-research-review-cadence-v1",
+    "user_instruction_date": "2026-10-08",
+    "minimum_rounds": 4,
+    "target_rounds": 6,
+    "maximum_rounds": 8,
+    "counting_unit": "completed research continuation iteration, not tool calls or files",
+    "rounds_since_review": 0,
+    "last_review": "goals/reviews/2026-10-14-full-gamma-variation-and-source-review-cycle-10.md",
+    "last_review_baseline_commit": "6309e116e20e886b55a09e0674638b39e4edf349",
+    "last_review_completed_round_count": 4,
+    "last_review_trigger": "Fourth completed iteration538–541; actualnative absolute fee boundary settled, three cost admissions stop; review independent sources and select actual growing prime high-moment/whole-inertia target without reusing generic bridges.",
+    "last_completed_round": "notes/541-native-chebyshev-variation-and-full-gamma-boundary.md",
+    "last_completed_round_date": "2026-10-14",
+    "last_completed_round_baseline_commit": "0c4f3a3eb609bb1d9564138fa4a35701f05605f2",
+    "latest_user_directed_review": "goals/reviews/2026-10-14-growth-frontier-strategy.md",
+    "latest_user_directed_review_baseline_commit": "0c4f3a3eb609bb1d9564138fa4a35701f05605f2",
+    "latest_user_directed_review_scope": "Cross-round macro organization and new Goal startup with fixed≤538baseline; selected historical proofs/reviews, not all538/Lean/record re-verification. Organization/strategy do not count/reset cadence.",
+    "current_research_focus": "G20261014 active；541 nativeE/A absolute fee全Dlog边界已付并止损，真实signed/Q方向保留，非macro完成。Cycle10原四轮复盘归0，C013 ready审actualprime高k/allband与whole负惯性净改善；MV/k!/trace均旧input不独立计轮。暂停/降级路线保持。",
+    "weil_f1_rounds_since_historical_review": 23,
+    "last_completed_round_note_paths": [
+      "notes/524-f1-mobius-cutoff-taylor-obstruction-and-repair.md",
+      "notes/525-f1-smoothed-mobius-probes-and-arithmetic-strength.md",
+      "notes/526-f1-faithful-two-weight-hilbert-quotient-and-defect.md",
+      "notes/527-weil-reflection-source-signs-and-arithmetic-sensitivity.md",
+      "notes/528-actual-prime-reflection-relative-bound-obstruction.md",
+      "notes/529-full-weil-positive-cone-semigroup-boundary.md",
+      "notes/530-archimedean-sonin-prime-compact-repair-boundary.md",
+      "notes/531-semilocal-sonin-positive-trace-and-non-hilbert-schmidt-cutoff.md",
+      "notes/532-actual-sonin-prime-symbol-and-compact-weil-bridge.md",
+      "notes/533-actual-late-prime-sonin-boundary-square.md",
+      "notes/534-actual-uniform-sonin-subterms-and-trace-consumption-gap.md",
+      "notes/535-actual-first-prime-sonin-log-resonance-and-indefinite-error.md",
+      "notes/536-compact-window-certificate-admission-and-pointwise-scope.md",
+      "notes/537-source-exact-weil-window-positive-tail-admission.md",
+      "notes/538-actual-weil-geometric-upper-and-full-inertia-gates.md",
+      "notes/539-growing-weil-prime-cost-and-constant-tail-boundary.md",
+      "notes/540-growing-constant-tail-gaussian-reward-cost.md",
+      "notes/541-native-chebyshev-variation-and-full-gamma-boundary.md"
+    ]
+  },
+  "normalized_lf_sha256": {
+    "AGENTS.md": "88c847a89a01a81fd4aeba3217cb61072a0e3ced94e4319778630f33b7648816",
+    "goals/DECISIONS.md": "ddad945f09d31ffe00edab85fff84a465bd4075d83d45159ecad76a7e2b9929e",
+    "goals/GOAL.20261014.md": "c55bc2d94f93a620f012a9e8dfab29bafad154b6231618a138308c50ef2f79a1",
+    "goals/MACRO_FRONTIER.md": "f3d32e13370d8d44bf78f14ce77c5f06a84597036f7af4ae4ec1ca4ff346cd2c",
+    "goals/RESEARCH_WORKFLOW.md": "5b4f645f74a86fc6bb82922b7452a09df83893d151b2a60f498e4c7cdd7dd2f0",
+    "goals/STATE.json": "1fdc7758e3cdff5678c58a56e11dc12fae4f9e6f8dabfa8ed36b848bda73ab22",
+    "goals/contracts/C011-growing-weil-source-and-split-cost.md": "d3c4a8703289ac01379ed873d4dd4ae0ebdd1506160ca7ef60257dcdd983547a",
+    "goals/contracts/C012-native-chebyshev-variation-and-signed-source-admission.md": "230ea10c741afa32eabca954429b207796d047446e5d85797de8729bd836c066",
+    "goals/contracts/C013-actual-prime-moments-and-whole-weil-inertia.md": "d8c189c848afbf9a40e7991b0a15a0ce989df2a2012cded5f018aa136aa3b699",
+    "goals/goal-observation.20261014-c012-cycle10.json": "399d330242ef8422f193ffbd68f512b63ba50190e10438fb1d38cfeae4a58355",
+    "goals/review-cadence.json": "df3bf5d9456630aa8308e4b7a87c8ef694df60063eac23f97c53a3444357f7a9",
+    "goals/reviews/2026-10-14-cross-round-macro-summary.md": "b72618e4cd37ab25f93cf1c0264ddf9053600a893ce9cd955c49c690ee486e7a",
+    "goals/reviews/2026-10-14-full-gamma-variation-and-source-review-cycle-10.md": "d71516e6e51dbc8ed0075796bec94a3debf7b7c9a4f28b5d2e0b920bb6c982fa",
+    "goals/reviews/2026-10-14-growth-frontier-strategy.md": "614be93aa7ea7b81dce2da2bb92bf400bebfebdba146e9b5aea9b8363e399cf4",
+    "notes/535-actual-first-prime-sonin-log-resonance-and-indefinite-error.md": "e83c3e080d19c2534425fb3c0e469367012f6c566a470b3baba703fb6def146f",
+    "notes/537-source-exact-weil-window-positive-tail-admission.md": "269a500556d37fc04a4e44efd2f0899414787743e529506dbbe7395a34eea9f8",
+    "notes/538-actual-weil-geometric-upper-and-full-inertia-gates.md": "fa515b15206cc499dacfa398c8cc977b5e7d6bb3406d0f7fdae8f7a87e91a532",
+    "notes/539-growing-weil-prime-cost-and-constant-tail-boundary.md": "86c8677f181b8444024f2d1df1ea690119c2e23f1e6e2ffb8e7e6deaae88a729",
+    "notes/540-growing-constant-tail-gaussian-reward-cost.md": "b23e24ddf7982399fd990f2687bab238971209a4541eb8b98938650dba2ae81d",
+    "notes/541-native-chebyshev-variation-and-full-gamma-boundary.md": "fdb316427ecd4cb307e43304c2c8b698d780ab4ac02777faa76adc92292160ae",
+    "reviews/2026-10-14/c011-second/full-gamma-signed-bridge-entry.md": "5598ee7577f36d9637f95a79bea9daee1e23b766f35fdfd157fac06ff1e93028",
+    "reviews/2026-10-14/c012-variation/joint-source-entry-audit.md": "6f477943df6391cb34be18f8620ac2a79b581be42ec84fc16c672960b65f34a9",
+    "reviews/2026-10-14/c012-variation/mv-high-moment-actual-weil-entry-audit.md": "e779d6bce52d4753f9c91577645c69ae434546abb3eeabf48202a6b9b811999a",
+    "reviews/2026-10-14/c012-variation/reverse-core-audit.md": "1a72978c515638579b4133b4c7404e2b41bf933c695e2df6632cd5ff5ded5e49",
+    "reviews/2026-10-14/c012-variation/root-novelty-and-selection-audit.md": "ee6118b7d01239cf0b1d4a3de89a5a9ebb7077b64070f3df161c4b4b2b0cfdfc",
+    "reviews/2026-10-14/macro-restart/c011-growth-reverse-audit.md": "cc015fe25123df0553d4d3ab6f4219d87ae47c33213b7c525b89255d9f6143fa",
+    "reviews/2026-10-14/macro-restart/c011-growth-split-exact.json": "63c168f6097d16cfcc198c5368402cbbe8c3ccd6bf8cd31039684140535ac2b3",
+    "reviews/2026-10-14/macro-restart/history-and-new-goal-scope-audit.md": "c2ce5086c8fe08e89e24786a305f284a2004b4cd3566b1ecbbb850c1ff418910",
+    "scripts/c011_growth_split_gate.py": "c12bd4e5128db49ffb490be87424212c74bd391d9d8653b1dbe88744fa52df82",
+    "scripts/research_state.py": "b97b434e71fe6959f5357267512cb247e4d0a79bee4d0590eeecc2682dc535b9"
+  },
+  "scope": "Structural recovery snapshot; not proof or live runtime verification"
+}
