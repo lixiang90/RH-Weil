@@ -126,14 +126,14 @@
     "status": "active",
     "observed_on": "2026-10-14",
     "created_at_epoch": 1791936604,
-    "basis": "本轮root现场get_goal active同createdAt；详细观察在theta root收据。"
+    "basis": "proof推送后root get_goal现场同createdAt active；组织/来源/555一轮/push未完成宏观Goal。"
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-10-14-weighted-row-and-macro-handoff-local.json",
+  "checkpoint": "goals/checkpoints/2026-10-14-weighted-row-and-macro-handoff-remote-verified.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
-    "commit": "09cb25ac2945755ec838d8237a2b364cb84045de",
-    "basis": "Root现场完整HEAD=remote main SHA且clean；552/三审raw=receipt=Gitindex，原PDF/text hash匹配且ignored；本Goal版本/固定基线/checkpoint结构通过。后续只remote/checkpoint metadata，不滚基线/cadence。"
+    "commit": "f4f0f710756f8a8f7c7ed828557bc1c105c2e518",
+    "basis": "Root现场完整HEAD=remote main SHA且clean；14份raw=receipt=Gitindex；本Goal版本/固定基线/checkpoint结构通过。后续只remote/checkpoint metadata，不滚基线/cadence。"
   },
   "completion_audit": {
     "goal": "goals/GOAL.20261014.md",
