@@ -156,11 +156,11 @@
     "basis": "Root本轮get_goal两次核同createdAt1791936604 active；Goal LF版本完善绑定，同instance，C018入口/547/C019准备不完成宏观门。"
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-10-14-c018-entry.json",
+  "checkpoint": "goals/checkpoints/2026-10-14-c018-remote-verified.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
-    "commit": "0d124085253c3a14472cbae21d14846f57941922",
-    "basis": "546三审/原proofbytes/cycle11/C018候选版已现场HEAD=remote main完整SHA且clean；后续仅核验metadata，不滚基线/Goal版本或cadence。"
+    "commit": "5702d7a607d5ffe840596423d5905a083f5c2a31",
+    "basis": "Root现场核研究/Goal版5702d7a完整HEAD=remote main SHA、tree clean，五原件staged rawhash与GoalLF匹配；后续只保存remote/checkpoint metadata，不滚基线/版本/cadence。"
   },
   "completion_audit": {
     "goal": "goals/GOAL.20261014.md",
