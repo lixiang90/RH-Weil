@@ -23,6 +23,7 @@
 | 547/548入口准备 | 原core/fullcarry/pole、canonicalΓ费<100、joint boundederror；critical/subpower/存在polylog⇔RH | 无独立criticalbound；specificO1只⇒RH，非allheadΓP；入口恢复0轮 |
 | 549 MR共同source费 | 每先固定B的平均centre/finiteτ rawμ原du normo1；完整κ-cutoff flatlabel Gram、normalizedΓ/Dlog/Q费o1；all complex标签/cross/domain均付 | 实际ακ=1质量M≈sqrtYlog²Y，550恢复的强旧topband actual norm²O1仍未被改进；全height/core/Ξ未付 |
 | 550 physical混合入口 | GY direct全j/AP/充分大固定cutoff合法；旧Euler/PNT/Haar筛恢复actualtopband O1、TypeI-continuum与normalized完整Q近似 | 来源/强旧恢复0轮，ΛΛ near差仍在；不以micro新表示计净值 |
+| C021 G1原域桥 | ALL N≥4/ALL R_a∩Dlog，Ecell≤4JΓ+56logNnorm²；hardcut/offcell/wrap/sqrtx均付，root与独立逆核 | only Γ-domain/source桥；G2 fullnondivcarry及条件wholecount未付，不独立结算数学轮 |
 
 原件：[535](../notes/535-actual-first-prime-sonin-log-resonance-and-indefinite-error.md)、
 [537](../notes/537-source-exact-weil-window-positive-tail-admission.md)、
@@ -34,7 +35,7 @@
 [548](../notes/548-canonical-weil-mixed-response-and-critical-input-boundary.md)、
 [549前件闭合记录](../notes/549-mobius-window-norm-full-cofactor-gram-and-physical-synthesis-gap.md)。
 
-## 现在为什么转向完整physical row
+## 现在为什么核完整detail的Γ/carry费用
 
 主要未付箭头仍是成长同source/全部实际系数的Γ/pp/双pole signed费用和core覆盖，随后ζ/Ξ识别。
 549已推进source费阶段，未推进宏观forcing。所有固定源/参数、成长参数/全部源量词分别消费。
@@ -53,7 +54,10 @@ C020一次准入后停止范数/finitehead主攻；GY来源审查现由550入口
 先审actualΓ域运输和所有nondivcarry的联合relative费，source矩阵与条件wholecount都已冻结。
 该Πᵃ与547原常值head不同，不能继承旧canonicalΓ100；finitecodim fullR_a不同于546薄comb。
 单prime和fullsignedcarry均非compact，只排free/finite-rank删除，付Γrelative逃逸保留。
-G1/G2及conditionalquasipoly count没有预付；唯一动作和准入/止损在STATE/最新决策/合同。
+G1的actualΓ原域桥现有自含uniformN证明并已root/独立逆核；
+G2及conditionalquasipoly count没有预付；唯一动作和准入/止损在STATE/最新决策/合同。
+G2准入现收口为open：低m/q抑制、fullsum非紧源的Γ价及finiteband upper不付allDlog；
+C021入口0停止。下一仅一项原件间隔估计与倒数相位矩阵的来源配对，不新造数学合同。
 
 为什么优于继续flatlabel：新独立primeoccupation准确分出已付部分与真实carry，承担完整detail而非薄源。
 现实备选是不同whole Γ/prime/pole signed来源或独立几何；MRT平均linearform只是次选并保A^(2k)/offset费。
@@ -77,6 +81,7 @@ G1/G2及conditionalquasipoly count没有预付；唯一动作和准入/止损在
 | C018/019 547/548 | 入口0；Γrelative候选open非已假，canonicalcritical无独立input | 新全detail signed输入、合法joint反例或严格更弱actual费 |
 | C020 549 | 一轮原du/fullflat-label/normalizedΓQ费；actual全1/core未改善 | 定量physical row/collision输入，或exact合并允许变权后的必要费门；不扩大head |
 | GY 550 | 原AP变cutoff逃逸已核，强旧aggregate更强，来源0轮止损 | 真ΛΛ/newcore joint，非继续优化B或单j主项 |
+| C021 | G1 actualΓ/cell桥已付，G2 fullcarry仍open；入口0停止 | 全joint运输/费用新输入或保实际Γ的合法核心反例；不重计域桥或以finiteband重开预算 |
 | C021 fullcellΠᵃ | occupation输入/原norm/newhead准备0，实际矩阵/free carry非紧已核 | actualΓ/cell-log与fullsignedcarry relative门仍open；若全付才有conditional wholecount |
 | 比例/无零区域 | 用户要求暂停 | 仅用户明确恢复，不因调用经典输入而重启优化 |
 

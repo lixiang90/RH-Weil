@@ -4,7 +4,8 @@
 本次以实际STATE/Git、原Goal及关键证据恢复，不重新全文重证所有历史笔记、Lean和外部纪录。
 固定Goal基线仍为0c4f3a3eb609bb1d9564138fa4a35701f05605f2（全部≤538）；
 详细阶段历史保留在[上一跨轮总结](2026-10-14-cross-round-macro-summary.md)，原证明优先。
-组织完善零数学轮；同一C020合并新增原范数/共同费用结算一次，原cadence不复制、不重置。
+本次恢复至550来源入口，并实际完成C021准入：G1已付、G2 open，入口0止损；组织完善零数学轮。
+C020/549的新增原范数/共同费用只结算一次，原cadence不复制、不重置。
 
 ## 总体结论
 
@@ -45,8 +46,12 @@
 | 545 | modular direct全L²R原norm、fixedY成长uniform费用；净cusp真实无限维盲带 | 修正inverse/direct混淆；paidcusp、变base/seed/core仍未排，actual Q桥缺 |
 | 546 | actual comb全profile Γ/pp/pole联合正性，显式非空成长域 | form补空间逼近每fixed源，故未删whole符号责任；停止薄positive循环 |
 | 544/547/548 | 原件/域/共同carry及canonicalΓ/joint接口；critical/polylog仍⇔RH | 来源/旧责任恢复零轮；548不是独立criticalbound |
-| 549/C020 | MR finite-character/平均centre到原du范数；全κ共同flat-label Gram、normalizedΓ/Q费o(1) | 新source费用一轮。实际α=1质量M≈sqrtY log²Y；无rate胜不过强旧O(log⁶Y)，wholecore未改善 |
+| 549/C020 | MR finite-character/平均centre到原du范数；全κ共同flat-label Gram、normalizedΓ/Q费o(1) | 新source费用一轮。实际α=1质量M≈sqrtY log²Y；无rate不能超旧actual II O(1)，wholecore未改善 |
+| 550/GY入口 | 原全shift/AP及充分大固定cutoff合法；恢复旧Euler/PNT/Haar筛的真实actual II费用 | 旧资产已经蕴含冻结topband actual II norm²O(1)及TypeI-continuum/fullQ近似；ΛΛ槽仍未付，来源入口零轮停止 |
+| C021准入 | 不同合法Πᵃ、完整unitcell Fourier occupation；已核ALL N/ALL R_a∩Dlog的Ecell≤4JΓ+56logNnorm² | 关闭原Γ域桥；G2未付，入口0止损，full finitecodim计数后果仅条件成立 |
 
+549的最强旧对照采用550恢复的**O(1)**，旧O(log⁶Y)只是粗界，
+不能继续用较弱旧界计算新净值；恢复旧强推论不另计数学轮。
 549的关键纠错：最短H<1时actualμ没有normalized短窗抵消，
 却不妨碍可和generic尾使完整flat-label Gram趋0；另一方面，full Gram趋0又不支付实际全1系数。
 失败与成功都必须保原量词。不能从一个费用不足排所有signed方法，也不能把全label说成全Weil源。
@@ -57,7 +62,7 @@
 [STATE](../STATE.json)保存唯一动作、行动理由、真实unknown/handle；原证明保存证据，
 决策保存停止/转向原因，唯一cadence保存轮数。每个层有不同责任，避免巨大历史反复进入上下文。
 
-本次增加两项可检查的约束：
+工作组织保留三项可检查的约束：
 
 1. **前件闭合记录。** 每项消费保存对象/norm/域、成长和源量词、依赖版本及已付误差、
    实际消费方向、未付coverage/coupling、最强旧与最新前沿净后果。必要前件open则下游仍conditional。
@@ -65,6 +70,9 @@
 2. **停滞准入门。** 连续来源恢复或非核心特殊类后，下一合同必须交独立输入、可付款/反例门、
    成功后的真实净后果。没有这三句，只保留一个有章节定位/停止条件的来源审查，
    不启动新数学合同，不借零轮无限换名称；也不暂停或完成宏观Goal。
+3. **因果恢复与纠错传播。** 压缩后须能说明最近停止原因、当前选择与使它失效的证据。
+   当前总结直接替换过时判断，历史由Git/决策保留。加强旧基线或发现合法逃逸时，
+   回查所有依赖它的净值/停止声明；版本和结构一致只是恢复检查，不是数学审计。
 
 合同1–2轮止损、整体4–8轮复盘保持两个时间尺度；组织/来源恢复/推送零轮。
 每次新轮、压缩或中断恢复六项：完成门/基线、最新资产范围、最小未付箭头、
@@ -75,15 +83,26 @@
 ## 同一Goal继续运行
 
 [完善Goal](../GOAL.20261014.md)继承G20261014，同一createdAt1791936604，固定基线及原cadence。
-当前研究已实际执行C020的原件、反例、原范数及完整cofactor共同費，不只组织启动。
-结果收据见[549](../../notes/549-mobius-window-norm-full-cofactor-gram-and-physical-synthesis-gap.md)。
+已执行C020真实原范数及共同費，并完成550 GY原件/最强旧入口审查；
+原证据分别见[549](../../notes/549-mobius-window-norm-full-cofactor-gram-and-physical-synthesis-gap.md)
+和[550](../../notes/550-physical-row-mixed-source-admission-and-strong-old-aggregate.md)。
+本次实际执行唯一[C021](../contracts/C021-full-cell-fourier-occupation-and-gamma-carry-admission.md)，
+并行原Γ全域推导、完整carry准入/反例及独立净后果逆审，分别落独立证据。
+G1已核，G2仍open；按既有规则入口0停止，不延长预算或登记whole净值。
 
-下一动作由STATE和最新决策唯一指定：转向完整physical row的来源审查，先保真实Λ/TypeI/continuum，
-不再优化fixed head或单位label范数。新候选必须确实覆盖near差j≈Y/T、cutoff、BV phase和全部mixed项，
-并付超强旧界的净后果，才准入数学合同。没有此桥不伪造新核心lemma。
-Goal数学门继续open；本次组织完成与C020止损都不是长期研究完成。
+选择原因：新Πᵃ承担完整余维N−1的detail，而546薄comb补空间仍捕获每个fixed源；
+整除occupation给真实独立输入，actualΓ原域桥已按全量词自含推导并独立逆核；
+exact非整除矩阵保留下了可核的未付费用。
+它与547旧head不同，不能继承旧Γ100；非紧carry只否定免费删除，不否定Γ相对付费。
+若原域与全carry均付polylog费，whole负惯性可有严格优于543的条件净值；当前保持conditional。
 
-后续550原件入口修正最强旧对照：旧工具已给冻结topband actual II norm²O1，
-旧O(log⁶Y)只是粗界；GY大固定cutoff虽合法，aggregate已付而ΛΛ仍在，入口0停止。
-下一C021新的Πᵃ/fullcell occupation保持原norm，但与547原head不同；
-actualΓ与fullnondivcarry尚未付，不预消费条件wholecount。最新执行仍从STATE恢复。
+两个现实备选为保完整physical row的独立相关来源，以及不同joint几何/Γ-prime-pole来源。
+前者必须新增ΛΛ/allheight/实际系数方向的费用，后者必须付原norm/完整core/成长耦合，
+否则都只是恢复旧接口。允许变尺度、head或联合signed修复后的合法核心反例也会改变选择。
+仅一个标签、薄positive类、有限矩阵、单q非紧性或无quantifier的外部声明都不改变宏观判断。
+
+主要瓶颈仍是成长全源signed费用与Ξ识别，组织完善并未缩小它。
+下一仅一项有原章节的来源门：核旧MV间隔估计与actual倒数相位矩阵的全joint运输，
+含distinct/spacing、collision与真实系数质量；没有新净门就不建立另一数学合同。
+当前身份、状态、pending和唯一下一动作必须现场查询并从STATE恢复，不能把本段当运行事实。
+同一Goal保持active；本次总结、启动、合同止损和推送均不满足宏观完成门。

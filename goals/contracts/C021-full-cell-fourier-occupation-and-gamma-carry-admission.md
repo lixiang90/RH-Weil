@@ -1,6 +1,6 @@
 # C021：完整cell Fourier占据与actualΓ/carry准入
 
-2026-10-14；ready，预算1完整准入轮，settled=[]。
+2026-10-14；stopped（G1已付/G2 open，入口0），预算1完整准入轮，settled=[]。
 同G20261014、固定0c4f/≤538与原cadence。此合同/来源准备零轮。
 
 ## 三句准入与为什么换这条门
@@ -52,13 +52,17 @@ m0=0，nondivm通常不零。q2、m2k+1有coef sqrt2/π；fixedN合法weak-zero�
 所以单prime和完整carry均非compact，任何fixedfinite-rank修复不能免费删；Γrelative仍未排。
 原完整型在R_a是Q=Γ(0)||r||²+JΓ(r)−B_D(r)−B_C(r)。
 
-## 同一准入轮的两个未付门
+## 同一准入轮的两门：G1已核，G2未付
 
 先核ALL N、ALL r∈R_a∩Dlog的原domain及
 
     E_cell(r)≤A JΓ(r)+C logN||r||²，absolute有限A,C。             (G1)
 
 不能用periodic/regional log kernel标签代fullΓ；hardcell截断、weights、边界和source-dependent常数全付。
+本次原稿已自含付款G1，A=4、C=56；root逐项核及独立逆审通过域、offcell恒等式、
+Carleman、periodicwrap、sqrtx权和2π因子，详见
+[原Γ全cell域证明](../../reviews/2026-10-14/c021-first/actual-gamma-full-cell-domain-and-energy-audit.md)。
+该域桥不单独结算，不能由它省略下面G2或消费条件wholecount。
 再保全部q/N/k/cell及signedcross审
 
     B_C(r)≤δ JΓ(r)+C_δ log²N||r||²，fixed 0<δ<1。              (G2)
@@ -83,3 +87,16 @@ detail双pole零、head余维N−1，旧028/actualΓ负迹给
 不靠重复539 free原norm反例、增k/N/普通数值、或改名wholebound延续合同。
 变尺度、改变head、source-adapted/joint付费逃逸按实际证据保留；单shortcut失败不排所有方法。
 C001冻结、C008止损不等待、比例/零区暂停和已降级路线保持；Goal仍active/open。
+
+## 本次准入收口
+
+G1的ALL N/ALL Dlog原域桥已核A4/C56。G2
+[独立审查](../../reviews/2026-10-14/c021-first/full-signed-nondivisible-carry-admission-audit.md)
+给真实compressedadjoint低m/q抑制、fullsum非紧源的actualΓ价格，
+以及所有q的有限band upper；它们都不付full Dlog joint相对费，也不是合法G2反例。
+因此按原规则入口0停止，原cadence不动，不延长预算。
+
+保G1与合法Γ-relative/joint/变head逃逸，不以单q、有限band或非compact结束Goal。
+下一仅执行一个[倒数相位原件来源门](../../reviews/2026-10-14/c021-first/next-reciprocal-phase-source-location.md)：
+核原定理distinct/spacing与实际完整矩阵的collision/coefficient质量；
+旧MV工具本身不是新输入，未核joint运输前不建新数学合同或重开本预算。

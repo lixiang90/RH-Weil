@@ -1,0 +1,65 @@
+{
+  "schema": "rh-weil-root-premise-closure-v1",
+  "observed_at": "2026-10-14 06:30:15 UTC",
+  "baseline_commit": "0c4f3a3eb609bb1d9564138fa4a35701f05605f2",
+  "goal_path": "goals/GOAL.20261014.md",
+  "goal_lf_sha256": "f2a39cce3b4e9cb30a0187a32f827fde1c32cddd4e867601b3256bbe41aa3ff7",
+  "raw_sha256": {
+    "reviews/2026-10-14/c021-first/actual-gamma-full-cell-domain-and-energy-audit.md": "894ca7c702f5bcfc35a82a52f37159cc6ef35320e3dc4bbc10544ac698553ab0",
+    "reviews/2026-10-14/c021-first/full-signed-nondivisible-carry-admission-audit.md": "d0eac23b1d6ee3aade160a95e5bc7cec8bb46fd09d6e6c3f5f1c7ec6c5b5d803",
+    "reviews/2026-10-14/c021-first/macro-recovery-and-strongest-old-net-audit.md": "42b48e4914bf4627fb0ec7e0f1f7ac4863212d513654b3778cf5b0c4fe2c9c63",
+    "reviews/2026-10-14/c021-first/next-reciprocal-phase-source-location.md": "fcfde2fa9f750b7ca58bcb6a4ba8a6c334baf58c12901353abd6cf8c6c4cb38c"
+  },
+  "runtime_goal_observation": {
+    "goal": {
+      "threadId": "01a135a0-51a5-7792-b8a1-e26182bfa095",
+      "objective": "持续运行 E:\\codex-build\\RH-Weil\\goals\\GOAL.20261014.md 的新宏观研究Goal：以固定提交0c4f3a3eb609bb1d9564138fa4a35701f05605f2及≤538全部成果为新基线，从已核实际Weil固定窗正性和真simple-even走向成长域独立算术来源、全源联合signed费用及通常ζ/Ξ同对象识别。完整完成门以该文件为准；旧535/537/538、组织系统、有限诊断、合同止损、扩窗或推送不能再次完成。每次新轮/压缩/中断先AGENTS、goals/README、STATE与research_state.py check/show，再恢复当前Goal、MACRO_FRONTIER、唯一合同和最新决策，核所需原件及实际Git/运行态。先执行C011成长prime/Γ-tail split全源准入和反例，1–2完整轮，原cadence唯一且每4–8轮宏观复盘；保存新增独立输入、未付前件、瓶颈变化、反事实选择、停止/重准入和唯一下一动作。C008不等待、C001冻结、不盲增N/精度或拟合ζ零点，比例/无零区域暂停，旧等价Hilbert酉化和源修正不自动复活。严格复核actual2θ′、完整pole/全部primepowers/原norm/全complex合法域及误差；R供应器负不推wholeQ负。按既有授权保存推送，不以压缩、回复或旧工具终态结束新Goal。",
+      "status": "active",
+      "tokensUsed": 7975428,
+      "timeUsedSeconds": 22811,
+      "createdAt": 1791936604,
+      "updatedAt": 1791959415
+    },
+    "remainingTokens": null,
+    "completionBudgetReport": null
+  },
+  "object": "Original L2(I_N,du), full zeroextension Γ=actual 2θ′/2π, all strict q<N prime powers and full dual pole. New Π^a has a_N cell head; r=a_Nφ has flat-dx mean zero on each unit cell.",
+  "quantifiers": "ALL integer N≥4; ALL independent complex r∈R_a∩Dlog. No finite Fourier cutoff for G1.",
+  "g1": {
+    "status": "proved",
+    "claim": "E_cell(r)≤4JΓ(r)+56 logN||r||²",
+    "root_checks": [
+      "Truncated positive kernel offcell identity and monotone Dlog closure",
+      "Near boundary Carleman blocks have disjoint supports; far convolution has O(logN) fee",
+      "Periodic short/wrap pairs counted once; full zeroextension endpoint penalty retained",
+      "sqrtx weight error, exact N^-1/2 original norm, Γ jump and 2π factors"
+    ],
+    "independent_reverse": "macro-recovery-and-strongest-old-net-audit.md §3",
+    "direction": "All-source cell quadratic energy; domain bridge only"
+  },
+  "g2": {
+    "status": "open",
+    "paid_scope": [
+      "Exact detail-compressed adjoint and alias Gram",
+      "All-q finite cell-frequency band bound only",
+      "Actual common-source full-q witness B_C=log2/π with JΓ=logk+O(1)"
+    ],
+    "root_checks": [
+      "R_flat in adjoint and whole-child count c_j(q)",
+      "Poincare child scaling and full prime-power Chebyshev sums",
+      "Positive same-source phase and zero q≥3 overlap",
+      "Actual zeroextension carrier price; no noncompact-to-relative inference"
+    ],
+    "unpaid": "Uniform-N full signed multi-q/common-child alias bound on ALL Dlog; no legitimate core counterexample"
+  },
+  "strongest_old_net": {
+    "status": "conditional",
+    "basis": "If G1+G2 both paid, finite codimension N−1 and original 028 negative trace yield quasipoly whole upper budget, strictly below 543 exp(S_N≈sqrtN) along same records. Strong old topband actualII O1 does not cover full R_a. Neither finite head nor G1 alone closes this.",
+    "remaining": "Fullcarry; whole PSD/head-mixed and ζ/Ξ identification have further responsibilities."
+  },
+  "settlement": "C021 G1-only/unknown G2 entry stopped; zero standalone research rounds; cadence unchanged.",
+  "macro_effect": "Original-domain premise closed; principal growth signed-core/allheight/Ξ bottleneck unchanged.",
+  "next_action": "One chapter-specific primary-source review: MV1974 §1 Theorem1/2/Corollary2 against actual reciprocal-phase exact matrix, including distinctness, spacing, exact-collision coalescence and coefficient mass; old MV tool is not a new input. No new math contract without input/gate/net admission.",
+  "source_scope": "Primary PDF location inspected online; OCR missing formulas cannot be consumed as proof. No missing attachment wait.",
+  "execution_scope": "Root receipt records semantic audit and observed tool state; hashes certify file identities only. Organization/start/entry stop/push never complete long Goal."
+}
