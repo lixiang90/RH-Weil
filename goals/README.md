@@ -20,8 +20,9 @@ STATE是当前执行唯一源，show由它与cadence显示；checkpoint检版本
 当前：555已结算的完整prime norm~eL仍真；542+555强旧链给whole预算leading4/5，仍指数core。
 557属于强旧推论0，不能只拿printed1/record2对照。559保正evenpole原operator／trace及
 paid rank2 deflation合法旧消费0；D gap／fullsigned费用／Ξ未付，单cosh失败不排growingcore。
-真实jointfiniteS投影／fullinverse迹合法性门已实际执行并root消费0；W的3/2、6项不是最终Weil原子。
-下一唯一actual ratio cross门见STATE／AD战略，不重跑已停合法性、不预建C024、不调N。
+原jointfiniteS投影合法性来源0保留；560另新付fullinverse绝对误差／two-boundary主项／ALL原Dlog trace域，
+每fixedL完整Q=positiveT−原normcompactK+双pole，统一一数学轮。ratio必要门通过，成长K/sign/core/Ξ仍open。
+aux m||H_TDP_-||下界非actualsourceerror；下一actualK23 mixed符号门见STATE／AE，不重跑ratio、不预建C024、不调N。
 连续source0后核新input或能改选择的具体检验；未付比较改名不算信息差。
 
 旧[Goal](GOAL.20260909.md)、[NEXT](NEXT.20260909.md)、[PROGRESS](PROGRESS.md)、

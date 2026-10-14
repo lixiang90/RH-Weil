@@ -34,6 +34,7 @@
 | 557强旧推论 | 542 ALLk/band＋555原norm已有闭合链给ALLL全source log惯性预算4/5 | 0，非新增独立input；之后净值必须扣4/5，不能只拿issued1对照 |
 | 558正热包络门 | old030正even源给丢pole的Γ−A heattrace ANYs>1预算leading≥1 | source0拒该包络；保真实正evenpole/signedcore/deflation，非actualQ负/Goal3 |
 | 559保正evenpole | canonical cosh原operator域、uniformΓ费与完整Qc=o(eL)；relative/global迹域；rank2 signed修复norm恰||w||与合法自伴D | 024/405/543/555直接消费0；D gap/signedtrace/fullcoverage未付，不复活scalar响应 |
+| 560真正joint桥 | 每先fixedfiniteS的完整inverse/两boundary主项只剩原pp；actualε_S∈C0；ALL原complexDlog ordinarytrace；每fixedL完整Q=positiveT−原normcompactK+双pole | 新共同signed费用统一一轮；K_L sign/norm/Γrelative/growth/core/Ξ仍open；4/5未改，非新fixed窗正性 |
 
 原件：[535](../notes/535-actual-first-prime-sonin-log-resonance-and-indefinite-error.md)、
 [537](../notes/537-source-exact-weil-window-positive-tail-admission.md)、
@@ -72,8 +73,11 @@ ANY合法traceupper在ALLs>1优化后leading≥1，已经输4/5。不是实际�
 单cosh补空间实际principal截断Q→0，固定cofinal正gap不能继承；γL→0/growingcore保留。
 actualsource定义rank2 deflation费||w||=o(eL)合法，D自伴且n−Q≤2+n−(D−||w||)，不能扩大未修复热包络失败。
 最深signedcore/D费用仍open；不续scalarresponse、不建C024、不调η/k/温度。
-下一只一次真正jointfiniteS投影mixed3/2与6门：原CCM Hilbertian同构不是正性，Π保完整G逆/双边界。
-若仅531直接泛化合法性/未知比较则来源0停；信息差与最终动作由当前战略/STATE保存。
+jointfiniteS投影合法性门原来源0保持；后续560新付共同actual fullinverse绝对误差和真正two-boundary主项。
+任意先fixedfiniteS的actualε∈C0、全部pp和ALL原complexDlog trace域已付；每fixedL全Q正source−compact+双pole。
+原ratio cross→0只是必要pass，560另有全链不靠probe升级。K_L sign/growth费用/core仍未付，whole4/5保持。
+cofinal真实m||H_TDP_-||在T≤(2−ε)eL趋1，但输入非M/k_R/actualreceiver像且非Weil I_L；不消费为sourceerror下界。
+下一只actualK23 mixed窄源符号/全部returns与原norm费用，source仅域恢复即停；fixedS不代成长方法类，不预建C024。
 独立fulljoint carry/非根几何备选保留，原因/失效证据在当前战略/STATE；所有关键core/PSD/Ξ仍open。
 
 ## 路线状态与重准入
@@ -101,6 +105,7 @@ actualsource定义rank2 deflation费||w||=o(eL)合法，D自伴且n−Q≤2+n−
 | 030/556、C023/557 | profile费用/强旧4/5消费0结束，既有finitecore障碍0，不优化η/k | 真ALLsource/coupling输入，whole对照扣4/5，Γrelative/source适应仍未排 |
 | Γ×primepositive path/558 | 丢正evenpole的ANYs>1 traceupper leading≥1，便宜门source0拒 | 保evenpole/合法signedtrace或core-deflation，另付Γdomain/residual/fulltrace费 |
 | 保正evenpole/559 | 原Γoperator/relativeheat/paid deflation准确合法，强旧0停止scalar主攻 | 新D/joint signed/core费用；不因singlechannel fixedgap失败排growingcore/γL→0/paid修复 |
+| 560 jointfiniteS | 真实原source ALLfixedL modcompact比较新付；ratio必要门结束，fullH norm解耦仅aux被阻 | actualjointK符号/成长费用/actualreceiver新输入；paidcompact/source-adapted/Γ/变组织仍保 |
 | 比例/无零区域 | 用户要求暂停 | 仅用户明确恢复，不因调用经典输入而重启优化 |
 
 ## 恢复的六项短答案

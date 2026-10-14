@@ -46,6 +46,7 @@
 | **555/C022** | **ALLL／ALL原complex源完整prime adjacency norm~e^L；whole预算log主项从record2降到1** | **新全源费用已结算一次，仍exp(e^L)，core／PSD／Γrelative小费／Ξ未付** |
 | 556–558 | 边界profile和完整Γ价不覆盖中央；强旧链给4/5；丢正evenpole的positive热包络leading≥1 | 来源或旧后果0停；不把中间Γ−A负态说成actual Q负 |
 | 559保正evenpole | canonical cosh原operator域／uniformΓ费、完整Qc=o(e^L)，rank-one signed relative/global trace域；付费rank2 deflation合法 | 旧024/405/543/555直接消费0；complement gap／全signed trace／coverage未付，不续scalar响应 |
+| **560 jointfiniteS桥** | **完整actual inverse绝对误差＋two-boundary主项，任意先fixedS的ε∈C0；ALL原Dlog正迹／compact全fixed窗比较** | **新数学源费用统一一次；成长K sign/norm/core/Ξ和whole4/5保持，非宏观完成** |
 
 555用cosh作Schur辅助权，没有改变physical Hilbert norm；经典无条件PNT／Schur／负迹仍是旧工具。
 exact预算保β_L~e^L和全部指数误差，比较的是issued上预算，不是actual负谱降低比例或存在负谱。
@@ -67,12 +68,14 @@ n_−Q≤2+n_−(D−||w||I)。这没有付D费用，却说明不能由未修复
 已有连续来源止损链现在触发信息差复核：下一门必须有新原件输入，
 或一个成功／失败足以改变选择的具体比较／test；未付责任改名不算信息差；不能只换paper／response名重遇同一unknown。
 
-保正pole门已root消费0收口。本次已实际核真正joint finite-S Sonin投影：
-S={∞,2,3}的3/2及6项保整个Gram inverse、实际双边界、原norm与source trace；最终算术响应仍未付。
-原CCM finite-S Hilbertian theorem本身是旧输入；其[原文§4.6–4.8.2](https://arxiv.org/html/2310.18423v2)
-不付Weil比较／成长误差，不能改称独立正性。该合法性门root来源0收口，无C024。
-下一冻结真实3/2双patch的norm1弱零源，双pole矩和全部pp项exact0，核完整inverse下E23 cross；
-非零只能否fixed-S compacterror桥，趋0只通过必要门，不升成长；具体费用见当前STATE和原门。
+保正pole门已root消费0收口。原CCM [finite-S Hilbertian theorem](https://arxiv.org/html/2310.18423v2)与投影合法性仍是旧输入／来源0。
+随后[560](../../notes/560-joint-finite-place-sonin-primepower-cancellation-and-compact-weil-bridge.md)
+真实支付了此前未付的joint inverse绝对误差、完整双边界主项和ALL原Dlog trace域。
+3/2与6的主项在全inverse中消去；原探针必要门通过。任意先fixedfiniteS有actualε∈C0，
+每fixedL完整Q=真实positiveT−原normcompactK+双pole。这是一个新数学source费用轮，原cadence2→3。
+最深K_L的sign／norm／成长共同费／core／Ξ仍未付，whole4/5不改，不从fixedS交换成长极限。
+cofinal辅助逆norm下界虽真，但输入不在实际receiver像，不能转成Weil error下界。
+下一actualK23窄源mixed符号及returns／原norm费用门见STATE；不重跑ratio、不预建C024。
 最终消费／停或晋级、唯一下一动作只从STATE恢复，不按本页历史重跑。
 
 ## 怎样组织其他长期重型研究
