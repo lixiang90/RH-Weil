@@ -121,16 +121,16 @@
   "pending_processes": [],
   "runtime_goal_observation": {
     "status": "active",
-    "observed_at_utc": "2026-10-14T11:37:11.194292+00:00",
+    "observed_at_utc": "2026-10-14T11:45:57.467755+00:00",
     "created_at_epoch": 1791936604,
-    "basis": "root现场get_goal同实例active；560新数学源桥非宏观完成，原版本/基线保持。"
+    "basis": "root现场get_goal同G20261014实例active；560新数学源桥非宏观完成，固定原版本/基线保持。"
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-10-14-joint-finite-source-bridge-local.json",
+  "checkpoint": "goals/checkpoints/2026-10-14-joint-finite-source-bridge-remote-verified.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
-    "commit": "a0e49a84702c8f21a7f40a825c4eeedcfcb377be",
-    "basis": "root现场HEAD=remote main完整SHA且clean；9份新原稿/门/proof raw=receipt=Gitindex，旧024/405仅CRLF/LF规范相同已分存，Goal版本/原cadence/checkpoint结构通过。后续仅metadata，不滚基线/计轮。"
+    "commit": "e333fbec62a01fbc84153021a186238f7d2c3ef3",
+    "basis": "root现场HEAD=remote main完整SHA且clean；560六raw/原证明/下一门raw=receipt=Gitindex，七依赖raw/index/LF逐核；Goal版本/原cadence3及一次560结算/checkpoint结构通过。后续仅metadata，不滚基线/计轮。"
   },
   "completion_audit": {
     "goal": "goals/GOAL.20261014.md",
