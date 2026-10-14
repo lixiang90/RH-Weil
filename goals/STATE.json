@@ -136,11 +136,11 @@
     "basis": "Root本轮现场get_goal同createdAt1791936604 active；548/critical等价/来源原件与策略0轮不完成宏观门。"
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-10-14-c019-final-entry.json",
+  "checkpoint": "goals/checkpoints/2026-10-14-c019-remote-verified.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
-    "commit": "5702d7a607d5ffe840596423d5905a083f5c2a31",
-    "basis": "Root现场核研究/Goal版5702d7a完整HEAD=remote main SHA、tree clean，五原件staged rawhash与GoalLF匹配；后续只保存remote/checkpoint metadata，不滚基线/版本/cadence。"
+    "commit": "16cd341eba3b2ef101ae2eec23d1fc2270ea8d4c",
+    "basis": "Root现场研究版16cd341完整HEAD=remote main SHA且clean；548/四审/metadata staged rawhash与local原PDF/text hash分别验证。后续仅remote/checkpoint metadata，不滚基线/Goal版本/cadence。"
   },
   "completion_audit": {
     "goal": "goals/GOAL.20261014.md",
