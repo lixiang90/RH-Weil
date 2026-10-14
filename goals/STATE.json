@@ -146,14 +146,14 @@
     "status": "active",
     "observed_on": "2026-10-14",
     "created_at_epoch": 1791936604,
-    "basis": "本輪root现场get_goal同createdAt active；详细snapshot在mixed root收据。"
+    "basis": "本轮推送后root get_goal同createdAt active；来源0/强旧4/5/counter门和push都非宏观完成。"
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-10-14-strong-old-mixed-budget-local.json",
+  "checkpoint": "goals/checkpoints/2026-10-14-strong-old-mixed-budget-remote-verified.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
-    "commit": "f4f0f710756f8a8f7c7ed828557bc1c105c2e518",
-    "basis": "Root现场完整HEAD=remote main SHA且clean；14份raw=receipt=Gitindex；本Goal版本/固定基线/checkpoint结构通过。后续只remote/checkpoint metadata，不滚基线/cadence。"
+    "commit": "3c472b58d2b0a77b76071bfc04a4d93be7d83045",
+    "basis": "Root现场完整HEAD=remote main SHA且clean；9份raw=receipt=Gitindex及542/543/555原依赖hash核准；本Goal版本/固定基线/checkpoint结构通过。后续仅metadata，不滚baseline/cadence。"
   },
   "completion_audit": {
     "goal": "goals/GOAL.20261014.md",
