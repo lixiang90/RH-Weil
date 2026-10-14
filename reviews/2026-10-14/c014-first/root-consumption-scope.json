@@ -1,0 +1,20 @@
+{
+  "schema": "rh-weil-root-consumption-scope-v1",
+  "iteration": "notes/543-full-gamma-heat-arithmetic-records-and-thermal-boundary.md",
+  "fixed_baseline": "0c4f3a3eb609bb1d9564138fa4a35701f05605f2",
+  "final_raw_sha256": "ce4d2d3271573e0f70df44dce7974fb8c0958557102542c149a77402b94d77e8",
+  "independent_reviews_raw_sha256": {
+    "reviews/2026-10-14/c014-first/heat-domain-and-trace-audit.md": "1376840301d5914ad47ea64e6d932d9ee447df10bbaf22c52dcebc0688db55c5",
+    "reviews/2026-10-14/c014-first/arithmetic-record-and-profile-audit.md": "a29916428445a92ab8f4d5e3eb6be7cc80b369a56b43eb2e6ba3c2f5a98b22c0",
+    "reviews/2026-10-14/c014-first/strong-baseline-and-macro-net-audit.md": "3d95366c0041c1fc951028c6c5e6de9dd8a1df750137f5f1dd6fd30b2bb619ee"
+  },
+  "reviewed_root_versions": [
+    "965a20f403ddd78a88c007dc81bd4e5a1272d26095a471037211cfda83e6ae08",
+    "b678709e5feb3fdebc20d025dfbefe9a49f7e3d1b9e79902236d592735469fc8"
+  ],
+  "scope_patch": "After first review: explicit S>=1 ensures predecessor atom exists, review status and STATE pointer wording updated. Core heat/record/old-budget proofs unchanged; independent source auditor reread b678 version and accepted scope, root checked final pointer edit.",
+  "paid": "Actual Gamma/profile all-complex transport, cofinal strict records/atomfee, Ce^S upper budget, optimized old scalar comparison, restricted global/local thermal-ledger boundary.",
+  "unpaid": "Whole growth PSD/nearPSD, actual dangerous core/sign, Xi identification, joint graph/pole and source-core escapes. C015 is source preparation only.",
+  "cadence_scope": "543 one complete C014 iteration; each preparation/review/metadata zero additional rounds.",
+  "certification_scope": "Records consumption scope and file identity; does not prove mathematics mechanically or complete the macro Goal."
+}

@@ -71,3 +71,15 @@ PNT下旧预算C L e^S；新leading S被旧资产覆盖，不能登记whole新�
 再核cofinal真实record到新joint谱上预算。旧positive record选择是工具，未知wholeQPSD不是输入。
 新预算必须和最强028原积分ledger比较，不只leading指数或scalarheat子界。
 529 fullQ保正仍停止；PNT o(S)不可免费入指数。Goal数学门open，完整signed正性/Ξ仍未付。
+
+## C014真实净值与thermal停止（D20261014P）
+
+543给actual cofinal record全源1+C e^S预算，严格省最强旧标量δ家族的L因子；
+这是新joint消费，非正性/实际count lower或Ξ。原integerplateau的全温度费用仍leading S，
+因而停止thermal微常数/温度优化，正图/pole signed与core密度是未排的实际责任。
+原cadence1→2仅一次，无提前周期复盘；Goal active，宏观完成门不降到小因子改进。
+
+下一C015有分次local scattering来源准入预算1：Burnol原VII/VIII/X已经给reflected pp符号，
+而正T在unramified H中带负号。先原proof、共同源periodization和单位常数相消，
+再找真正joint信息；旧017/Poisson/local正迹不能再登记forcing。
+新共同响应目前unknown，来源准备零轮，无桥止损，不再以易得旧carrier反例充当宏观进展。

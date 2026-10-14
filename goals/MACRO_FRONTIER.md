@@ -82,11 +82,24 @@ C013已经由[542](../notes/542-actual-prime-high-moments-and-strong-baseline-au
 n_−≤1+C L e^M。PNT已有资产还使eventualM=S，因此旧预算C L e^S可直接消费。
 实际Γ/pp/complex域/pole必须保持，旧half数字不消费。这里只恢复旧强资产，不滚动新Goal基线。
 
-当前候选C014：保full spatialdegree，审实际Γ killedheat及bounded potential trace，
+当时候选C014：保full spatialdegree，审实际Γ killedheat及bounded potential trace，
 正weighted A−κ√x的cofinal arithmetic record提供profile下降，不用未知ζ位置。
 s>1 heattrace、s↓1发散、step endpoints/排除atomfee必须付，不凭PNT o(S)替换指数。
 只有新的joint全源运输及超最强旧负迹对照的实际净值才晋级，1–2轮无净值止损。
 它不复活529 fullQ标准锥保正，不自动消除PSD/Ξ瓶颈或完成Goal。
+
+C014现由[543](../notes/543-full-gamma-heat-arithmetic-records-and-thermal-boundary.md)一轮结算：
+实际Γ killed/profile trace与cofinal正weighted records、strictatomfee给n_−Q≤1+C e^S，
+胜过旧028所有δ的最优(4e+o(1))L e^S，upperbudget ratio O(1/L)，非actualcount下界。
+这是新的实际joint消费，但危险core仍指数规模；PSD/Ξ关键箭头未付。
+真实integerplateau还使全温度热账本≥c e^(S−L)，形式局部positive温度也不救leading指数。
+停止degree热预算微调；未排actual graph/pole signed与core density，限定边界不完成Goal。
+
+当前C015 ready：核Burnol math/9901051v2有分次local scattering来源，
+原unramified T_p正而H_p=logp−T_p，单位常数/负grading/反射pp均须保。
+先原证明与共同physical f的periodization/norm运输，再核真实joint信息；
+旧017 Euler恒等式不能再次登记新result，局部正块directsum不付算术极化。
+它比未付Selberg同向→反射桥有更具体原响应，但尚无新joint净后果，一轮无桥止损。
 
 现实备选：直接研究完整Γ高尾与prime/pole的同源signed联合估计，或新的多prime/算术几何来源。
 若变尺度split的全源必要费用无法与tail供应同时闭合，应优先备选而不是不断增N。
@@ -108,7 +121,8 @@ s>1 heattrace、s↓1发散、step endpoints/排除atomfee必须付，不凭PNT 
 | constant-envelope搬运C011 | 539固定Ω失败及540全Ωscalar费用已付，两轮止损 | 极小τ/head-complement/full Γ/signed未排；重准入须独立whole预算，不仅增N/精度 |
 | full Γ/中心化primitive C012 | 541付native absolute门边界，一轮止损 | signed/source分块/更强norm未排；重新准入须实际signed原定理 |
 | 多prime高矩/whole惯性C013 | 542新measure账本真，whole净值被旧强界覆盖，一轮止损 | 重准入须保完整图/profile的新joint信息，不仅优化k或弱2S对照 |
-| Γ heat/算术record profile C014 | ready；完整Γ/domination/cofinalrecord均待root消费 | s↓1/全step/profile/实际端点及严格超旧C L e^S，wholeQ保正不准入 |
+| Γ heat/算术record profile C014 | 543新cofinal Ce^S净预算已付；一轮停止thermal主攻 | 全温度仍leading S；保正图/pole signed与core density逃逸，不是PSD/Ξ或macro完成 |
+| 有分次local scattering C015 | ready，原正T/负unramified H只cited准入 | 共同physical norm/常数相消与joint费用须付；旧Euler/局部正块不登记新forcing |
 | 比例/无零区域 | 用户要求暂停 | 仅用户明确恢复；历史形式化资产保留各自前件 |
 | 独立算术几何 | 副线，独立Hodge符号仍open | 原几何定理接同算术配对/ζ对象，不扩未符号化字段 |
 

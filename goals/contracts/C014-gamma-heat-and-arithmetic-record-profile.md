@@ -1,6 +1,6 @@
 # C014：完整 Γ 热核与实际算术 record profile
 
-2026-10-14；C013净谱准入失败后唯一下一合同，ready，预算1–2完整轮。
+2026-10-14；C013净谱准入失败后准入，现已一轮停止热预算主攻，预算1–2完整轮。
 Goal基线0c4f3a3/≤538稳定；入口准备零轮。
 
 ## 宏观责任、最强对照与新输入
@@ -64,4 +64,18 @@ generic heat/record恒等式、条件formula或仅leading S重述不晋级。
 无净值、域/trace费未付或现有旧件已涵盖则止损，不盲增N/精度。
 任意重新准入须新实际source/domain/record/profile运输，保全complex/growth与pole。
 即使有cofinal新惯性上界，PSD/Ξ/完整Goal门另作总体审计，不能自动完成Goal。
-科学producer未启动；当前入口是待主代理独立消费的草稿，准备不计新轮。
+初始入口准备零轮、科学producer未启动；当前执行位置只从STATE恢复。
+
+## 首轮结算543：新净值通过，停止热预算主攻
+
+[543](../../notes/543-full-gamma-heat-arithmetic-records-and-thermal-boundary.md)独立消费Γ killed域、
+半循环HS/Trotter/Jensen/TraceFatou、actual双尾、strict record和排除atomfee，
+给共尾record windows的全complex n_−Q≤1+C e^S。
+旧028全部δ>0优化家族仍(4e+o(1))L e^S，新预算比为O(1/L)→0；
+不是actual负谱下界或所有L/PSD。新joint消费通过，不登记generic工具为创新。
+
+同一真实integerendpoint plateau给inf_(s>1)完整heat账本≥c e^(S−L)，
+局部positive temperature形式账本也付同一费用；leading S指数不能靠温度优化消除。
+source/core/正图/pole joint未排，因此宏观Goal仍open，停止此热预算主攻而不花第二轮优化常数。
+本完整准入轮只结算543一次，准备/各逆审/补审零额外轮。
+下一C015来源选择准入有分次local scattering，不恢复529或535普通无费正迹。
