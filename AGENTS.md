@@ -51,3 +51,9 @@ stage and next action with actual outputs; do not defer all state updates to the
 An emitted draft is not a root-consumed result. Reused agent handles require matching
 current task and output paths. Whole-budget improvement and removal of a key bottleneck
 are distinct claims; neither label alone passes the macro completion gate.
+
+Recover the strongest consumable consequence and its short dependency chain,
+not only the latest issued bound. After a source-only stop, require new input
+or a concrete comparison/test that can change the choice; renaming an unpaid
+premise does not pass admission. Verify both the same runtime Goal and the
+actually executed current action before claiming research has started.

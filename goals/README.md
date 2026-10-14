@@ -1,37 +1,33 @@
 # 长期研究恢复入口
 
-当前[Goal](GOAL.20261014.md)，已有≤538成果固定为新基线。
-[跨轮总结](reviews/2026-10-14-macro-refresh-and-causal-budget.md)与
-[宏观前沿](MACRO_FRONTIER.md)保存因果图、准确范围、未付前件和选择理由。
-先读[短状态](STATE.json)，运行：
+当前[Goal](GOAL.20261014.md)，固定0c4f/≤538资产为输入，同G20261014 active实例。
+[跨轮总结](reviews/2026-10-14-macro-refresh-and-causal-budget.md)解释总体成果和未付责任；
+[宏观前沿](MACRO_FRONTIER.md)保存准确范围、强旧短链、合法逃逸和选择依据。
+先读[STATE](STATE.json)，执行：
 
     python scripts/research_state.py check
     python scripts/research_state.py show
 
-再读当前Goal、宏观前沿、状态指定的唯一主合同、最近决策及所需证据。
-压缩／中断后同样恢复，不先从巨大历史文件推断优先级。
-[通用流程](RESEARCH_WORKFLOW.md)适用于长期重型研究；
-[决策](DECISIONS.md)、[轮数](review-cadence.json)和[复盘](REVIEW_PROTOCOL.md)职责分开。
-STATE是当前执行状态唯一编辑源，show只是由它与cadence显示的视图。
-checkpoint记录核心文件哈希，不证明数学或工具运行态。
+再读Goal、前沿、状态指定唯一合同／最新决策与必要原件；压缩／中断同样恢复。
+先答完成门／基线、最强可消费后果、最小未付箭头、为何停／当前为何胜备选、
+改变选择的证据及现场Git／Goal／进程，不能只恢复下一命令。
 
-旧[Goal](GOAL.20260909.md)、[NEXT](NEXT.20260909.md)、[PROGRESS](PROGRESS.md)
-和[archive](archive/)保持历史。scripts/sync_goal.py原用于上级源的旧版
-[镜像manifest](manifest.json)，不维护新Goal／STATE；
-2026-10-13核查时上级GOAL.20260909.md缺失，旧同步检查不可执行。
-本仓历史文件按基线保持，新入口不依赖这些外部源文件。
-新目标和状态直接以本仓为编辑源，不向上级写重复副本。
-保存、启动与有限检查通过不等于长期Goal完成。
-成果从原证明/root前件闭合记录消费；来源出稿、逆审、root消费与结算分阶段恢复。
-549 label费不付actual全1；C021 G1已付/G2open且stopped；551 MV与552 adelic来源结束。
-553 principal范数属强旧；554 theta正源修复不付gap，均来源0。
-最新555/C022完整prime norm~e^L与whole预算log主项2→1已结算；仍exp(e^L)，core/Ξ未付。
-557收更强旧推论4/5，556来源/C023均0结束；558拒丢正偶pole的热包络。
-唯一下一保正偶pole的operator/residual/trace来源门见STATE，不按已结束门重跑、不预建C024。
-动作阶段转换同步state；复用handle核当前任务/输出，empty pending仍需现场重查。
+[通用流程](RESEARCH_WORKFLOW.md)适用于长期重型研究；[决策](DECISIONS.md)、
+[原轮数](review-cadence.json)、[复盘协议](REVIEW_PROTOCOL.md)各负其责。
+STATE是当前执行唯一源，show由它与cadence显示；checkpoint检版本结构，不认证证明或运行态。
+原件出稿／逆审／root消费／结算分开，阶段转换同步；复用handle核当前task/output。
 
-上版[Goal](GOAL.20261013.md)及535方法边界完成收据为历史；
-537/538 fixed-window全源正性与真正底态排序继续可消费，但不能再次完成本版。
-组织启动不重置原cadence，当前运行Goal必须用实际工具查询，文件不代替运行态。
-恢复必须能解释最近停止原因、当前选择及使它失效的具体证据；只恢复下一条命令尚不够。
-当前总结替换过时判断，历史由原件/决策/Git保留；通用方法与专门证明分层保存。
+当前：555已结算的完整prime norm~eL仍真；542+555强旧链给whole预算leading4/5，仍指数core。
+557属于强旧推论0，不能只拿printed1/record2对照。559保正evenpole原operator／trace及
+paid rank2 deflation合法旧消费0；D gap／fullsigned费用／Ξ未付，单cosh失败不排growingcore。
+真实jointfiniteS投影／fullinverse迹合法性门已实际执行并root消费0；W的3/2、6项不是最终Weil原子。
+下一唯一actual ratio cross门见STATE／AD战略，不重跑已停合法性、不预建C024、不调N。
+连续source0后核新input或能改选择的具体检验；未付比较改名不算信息差。
+
+旧[Goal](GOAL.20260909.md)、[NEXT](NEXT.20260909.md)、[PROGRESS](PROGRESS.md)、
+[archive](archive/)及[镜像manifest](manifest.json)保历史，不代当前执行。
+scripts/sync_goal.py维护旧镜像；上级历史源缺失，不维护本版Goal/STATE，本仓不向上级复制新状态。
+上版[Goal](GOAL.20261013.md)及535完成收据为历史；537/538固定窗全源正性／真底态排序
+仍可消费，不能再次完成本版或升级成长／通常Ξ。C001冻结／C008不等待，比例／无零区域暂停，
+等价酉化／临界修正不自动复活。文件active／空pending不代get_goal／现场盘点。
+总结、恢复、组织完善、合同止损和推送不complete宏观Goal；新文本继承同实例，不滚基线或重置cadence。
