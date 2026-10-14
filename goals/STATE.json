@@ -126,11 +126,11 @@
     "basis": "Root现场get_goal active/createdAt一致；Goal组织完善同一epoch/基线，545一准入+C017准备不完成宏观门。"
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-10-14-c016-final-scope-c017-ready.json",
+  "checkpoint": "goals/checkpoints/2026-10-14-c016-remote-verified.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
-    "commit": "414ab7918a5d669609cb3b163cefb88bb692a772",
-    "basis": "C015原件/544零数学轮入口停止/C016 ready来源版已现场HEAD=remote main完整SHA且clean；本次仅保存核验metadata，不滚动基线、Goal版本或cadence。"
+    "commit": "f8b3b82465d3d088e399ec6fcb38792d5c2ebbe7",
+    "basis": "545/C016三审/Goal完善/C017准备的来源版已现场HEAD=remote main完整SHA且clean；后续仅保存remote核验metadata和545 byte-preservation规则，不滚动基线/Goal epoch/cadence。"
   },
   "completion_audit": {
     "goal": "goals/GOAL.20261014.md",
