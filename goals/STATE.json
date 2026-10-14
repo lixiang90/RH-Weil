@@ -144,11 +144,11 @@
     "basis": "Root现场get_goal active、createdAt一致；542/C013停止和C014准备不完成宏观Goal。"
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-10-14-c013-stopped-c014-ready.json",
+  "checkpoint": "goals/checkpoints/2026-10-14-c013-proof-remote-verified.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
-    "commit": "00e17099d5d63bc65f1b7fb861fcab1d9972fc60",
-    "basis": "541/C012止损/cycle10/C013 ready原证据版已现场HEAD=remote main完整SHA且clean；本次仅保存验证metadata，不改冻结成果基线或计轮。"
+    "commit": "40cf264d23982d3c42cee05fa195b2910564546e",
+    "basis": "542/C013一轮止损/C014 ready原证据版已现场HEAD=remote main完整SHA且clean；本次只保存验证metadata，不改固定基线、Goal门或cadence。"
   },
   "completion_audit": {
     "goal": "goals/GOAL.20261014.md",
