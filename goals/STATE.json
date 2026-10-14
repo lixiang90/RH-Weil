@@ -128,11 +128,11 @@
     "basis": "Root现场get_goal同createdAt1791936604 active，实际观察保存c021-first/root-consumption-scope.json；文本完善继承实例，不新建/滚基线/重计轮。"
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-10-14-macro-full-cell-entry.json",
+  "checkpoint": "goals/checkpoints/2026-10-14-macro-full-cell-entry-remote-verified.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
-    "commit": "df6a39f2cff17494a893e8949a90a90d64de7e5c",
-    "basis": "Root现场完整HEAD=remote main SHA且clean；550四审/原PDF-text hash和raw index一致，549最强旧修正收据保历史hash。后续仅remote/checkpoint metadata，不滚基线/cadence。"
+    "commit": "6f1456d70fe95081247543f69cbe83958f0c13c8",
+    "basis": "Root现场完整HEAD=remote main SHA且clean；当前Goal版本/固定基线与checkpoint结构通过，三审raw文件=receipt=Gitindex；后续仅remote/checkpoint metadata，不滚基线/cadence。"
   },
   "completion_audit": {
     "goal": "goals/GOAL.20261014.md",
