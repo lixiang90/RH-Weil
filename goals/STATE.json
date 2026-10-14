@@ -8,11 +8,11 @@
   "cadence": "goals/review-cadence.json",
   "decisions": "goals/DECISIONS.md",
   "latest_strategy": "goals/reviews/2026-10-14-growth-frontier-strategy.md",
-  "latest_decision": "D20261014L",
+  "latest_decision": "D20261014M",
   "macro_frontier": "goals/MACRO_FRONTIER.md",
   "macro_summary": "goals/reviews/2026-10-14-cross-round-macro-summary.md",
   "latest_macro_review": "goals/reviews/2026-10-14-fixed-window-positive-input-review-cycle-9.md",
-  "latest_iteration": "notes/539-growing-weil-prime-cost-and-constant-tail-boundary.md",
+  "latest_iteration": "notes/540-growing-constant-tail-gaussian-reward-cost.md",
   "macro_control": {
     "schema": "macro-recovery-v2",
     "goal_epoch": "G20261014",
@@ -20,8 +20,8 @@
   },
   "macro": {
     "long_objective": "新的成长域独立实际算术输入/同对象ζ约束，或成长核心实质方法类边界；扣除≤538基线。",
-    "unpaid_bottleneck": "成长责任已定位为effective scalar≥C_L→∞且constant-envelope需ΓΩ≥C_L；尚无全source联合signed正性/可承受统一误差、完整Γtail供给和Ξ识别。",
-    "why_this_contract": "539已排固定Ω恒定tail/任意compact修复的原样搬运；第二轮只检变Ω逃逸的uncertainty费用与joint源，避免反复原参数反例。",
+    "unpaid_bottleneck": "539/540只付成长prime/恒定tail全Ω scalar费用；完整nonconstant Γ与prime/pole同源signed预算、可承受全源误差和Ξ识别仍未付。",
+    "why_this_contract": "C011变β/Ω+非负compact仍须超快衰减scalar，二轮止损；C012保完整Γ，先审真实Chebyshev primitive绝对variation是否能由原Dlog支付，避免把PNT包络当全源付款。",
     "paused_routes": [
       "零点比例优化",
       "无零区域优化"
@@ -31,20 +31,18 @@
       "C00112组ordinary探索冻结",
       "等价Hilbert酉化/临界源修正降级",
       "535无费single-prime桥已排；更细范围见宏观前沿",
-      "539固定Ω256恒定tail搬运/compact修复止损；变Ω与完整Γtail未排"
+      "C011两轮停止constant-envelope搬运；539固定Ω失败/540全Ω scalar费用，极小τ、head-complement/full Γ/signed未排。"
     ]
   },
   "primary_contract": {
-    "id": "C011",
-    "path": "goals/contracts/C011-growing-weil-source-and-split-cost.md",
-    "status": "running",
-    "iteration_budget": 2,
-    "settled_iterations": [
-      "notes/539-growing-weil-prime-cost-and-constant-tail-boundary.md"
-    ],
-    "stage": "首轮539 continuous+12atoms Fraction逆审通过；固定Ω256搬运止损，新变尺度joint准入只剩第二輪。",
-    "next_action": "第二轮：用显式zero-extended Gaussian检验I−BΩ scalarfloor的成长必要上界，付截断/频尾/norm误差，接539 Ω成本后判断有无新的whole-source joint来源；无signed新输入则C011止损转完整Γtail。",
-    "stop_rule": "1–2完整轮：固定split失败立即停止原参数扩窗；第二轮只审变尺度或完整Γtail的独立joint来源，无新源即止损转signed/几何。"
+    "id": "C012",
+    "path": "goals/contracts/C012-native-chebyshev-variation-and-signed-source-admission.md",
+    "status": "ready",
+    "iteration_budget": 1,
+    "settled_iterations": [],
+    "stage": "完整Γ/prime-pole中心化入口已准备，恒等式属旧规范恢复；native absolute费probe尚未独立结算，不计准备轮。",
+    "next_action": "独立消费入口S5–S8：任意fixed L取支持径<min(2L,log2)的fixed正g，合法complex carrier；核actual E=-exp(a)的B_E/ω严格正极限、完整JΓ=logω+O1和signed/Q方向，扣除016/041/237/252/292–300等旧范围后才决定结算全源absolute-variation边界。",
+    "stop_rule": "一完整轮止损；若同对象旧证明则零新增轮；若absolute fee失败而无可核弱于wholeQ的signed来源，停止该包络主攻，不以RH等价/未知domination改名。"
   },
   "support_contracts": [],
   "must_not_forget": [
@@ -117,6 +115,41 @@
       "path": "scripts/research_state_recovery_smoke.py",
       "kind": "cited",
       "scope": "七种unsafe state拒绝/honest unknown保留；结构测试非证明。"
+    },
+    {
+      "path": "notes/540-growing-constant-tail-gaussian-reward-cost.md",
+      "kind": "obstruction",
+      "scope": "Gaussian完整norm/频尾与539同源全Ω scalar上界；不是Q负、独立算术正性或Goal完成。"
+    },
+    {
+      "path": "reviews/2026-10-14/c011-second/gaussian-leakage-derivation.md",
+      "kind": "proved",
+      "scope": "全参数Gaussian原解析，U非负whole-source scalar必要门，误差无数值拟合。"
+    },
+    {
+      "path": "reviews/2026-10-14/c011-second/variable-envelope-reverse-audit.md",
+      "kind": "proved",
+      "scope": "独立消元/Γ单调/全Ω上界；源适应、finite条件和joint逃逸核清。"
+    },
+    {
+      "path": "reviews/2026-10-14/c011-second/final-scope-audit.md",
+      "kind": "proved",
+      "scope": "540最终对象/等号/量词审查；审查本身零新轮。"
+    },
+    {
+      "path": "reviews/2026-10-14/c011-second/full-gamma-signed-bridge-entry.md",
+      "kind": "conditional",
+      "scope": "C012入口准确恒等式与native absolute费用probe草稿/旧件定向审查；未独立结算为新数学轮。"
+    },
+    {
+      "path": "goals/contracts/C011-growing-weil-source-and-split-cost.md",
+      "kind": "cited",
+      "scope": "已停止合同保留539/540两条原cadence结算与重准入条件。"
+    },
+    {
+      "path": "goals/goal-observation.20261014-c011-second.json",
+      "kind": "cited",
+      "scope": "root C011第二轮后get_goal现场active原回执，不是数学认证或完成。"
     }
   ],
   "pending_processes": [],
@@ -124,10 +157,10 @@
     "status": "active",
     "observed_on": "2026-10-14",
     "created_at_epoch": 1791936604,
-    "basis": "最后root get_goal现场active、身份一致；新Goal尚未达宏观完成门，C011首轮已结算，第二轮唯一动作落盘。"
+    "basis": "本轮root get_goal现场active、G20261014身份一致；C011二轮费用已付并止损，完整macro数学门仍open，C012 ready。"
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-10-14-growth-goal-active-and-proof-verified.json",
+  "checkpoint": "goals/checkpoints/2026-10-14-c011-second-runtime-observed.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
     "commit": "6d60e4b7405020f5f1bd6546b0c1ff4a547f3940",
@@ -145,5 +178,5 @@
     "goals/goal-completion-receipt.20261014.json",
     "goals/goal-completion-receipt.20261014-continuation.json"
   ],
-  "process_inventory_observed_on": "2026-10-14；root exact脚本exit0、审查均终态；无待续科学process。"
+  "process_inventory_observed_on": "2026-10-14；root现场list_agents两项审查completed，full_tail_entry stream-error未交付，另一代理入口与root独立工作已覆盖；无科学producer/待续session，pending[]。"
 }

@@ -49,10 +49,30 @@ constant exterior envelope经scalar/compact抽取还必β+τ≤ΓΩ，
 [539原证明](../notes/539-growing-weil-prime-cost-and-constant-tail-boundary.md)。
 该候选改变的是“原参数直接搬运”的可行性，不解决完整成长箭头或本版Goal。
 
+### 新540费用与停止决定
+
+Gaussian原norm截断/频尾给δ=1−||B_(L,Ω)||<min(1,5e^-LΩ)，
+与539同一constant-envelope全源规则联用，得到
+
+    τ≤8e^(-A_L−1)/A_L，A_L=L e^(C_L)，L≥3/2。
+
+对任意变β/Ω和任意非负compact rank/norm统一，无需ζ数据/PNT渐近/频窗扫描。
+所以uniform positive scalar供给失败；极小τ仍可能，未付误差lower，
+全head/complement适应和完整nonconstant Γ/prime-pole signed逃逸保留。
+539的finite条件prime门不能与whole Gaussian门无声拼成任意有限条件后的结论。
+[540原件](../notes/540-growing-constant-tail-gaussian-reward-cost.md)。
+新增费用改变选择，未消除完整growth/Ξ瓶颈，不完成本版宏观Goal。
+
 第一候选：把已核source-exact固定窗机制向成长域搬运前，核正prime块/Γ尾split的实际全源费用。
 便宜检验是合法源Rayleigh与高频simultaneous phase return，避免先生成更大矩阵。
 若固定β/Ω+compact供应器已经失败，则不能继续原参数扩窗；转向变尺度的必要费用或直接保完整正尾。
 即使该检验成立，也只关掉一个搬运shortcut，不独立完成成长预算或本版Goal。
+
+这项首候选现已由539/540两轮止损，以上说明保留为选择原因。
+当前候选C012：保完整Γ正jump能量，prime/pole用实际Chebyshev primitive共同中心化；
+先核其absolute variation支付费对原Dlog全source是否可控，合法窄支持carrier是便宜准入探针。
+入口S1–S4属旧规范恢复；B_E原对象/量词/ω费与logΓ费还须独立消费和扣除旧重复才能结算。
+一轮预算，没有新actual signed响应则停止absolute包络主攻。
 
 现实备选：直接研究完整Γ高尾与prime/pole的同源signed联合估计，或新的多prime/算术几何来源。
 若变尺度split的全源必要费用无法与tail供应同时闭合，应优先备选而不是不断增N。
@@ -71,6 +91,8 @@ constant exterior envelope经scalar/compact抽取还必β+τ≤ΓΩ，
 | canonical single-prime无费桥 | 530/535已付指定域/修复类严格失败 | 付无限秩费用、改变source/domain或多prime共同来源 |
 | C006晚prime绝对返回预算 | fixed-domain子项已付，主攻止损；未证全费用发散 | actual共同trace域及新whole-source signed可求和费用 |
 | 已核537/538固定窗 | 成果冻结，继续消费前件，不重复认证 | 新L需whole-source/prime进入/误差与成长责任，旧因子不能无声复用 |
+| constant-envelope搬运C011 | 539固定Ω失败及540全Ωscalar费用已付，两轮止损 | 极小τ/head-complement/full Γ/signed未排；重准入须独立whole预算，不仅增N/精度 |
+| full Γ/中心化primitive C012 | ready，入口恒等式非新输入 | 一轮审native absolute fee；新signed来源须弱于wholeQ且付全source/growth/误差 |
 | 比例/无零区域 | 用户要求暂停 | 仅用户明确恢复；历史形式化资产保留各自前件 |
 | 独立算术几何 | 副线，独立Hodge符号仍open | 原几何定理接同算术配对/ζ对象，不扩未符号化字段 |
 

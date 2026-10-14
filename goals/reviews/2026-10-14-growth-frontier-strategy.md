@@ -26,3 +26,19 @@ L3/2有C_L>4>Γ256，原frequency不可原样成长；C_L→∞，成功的此�
 或真实几何正配对与完整ζ/Weil型的消费桥；单个大窗PASS和未知条件改名不足。
 比例/无零区域暂停、C001冻结、C008止损、等价酉化/源修正降级保持。
 稳定Goal/短frontier/瘦STATE/原证据/单cadence为长期恢复结构，组织不是数学输入。
+
+## 第二轮后的优先级（D20261014M）
+
+以上Gaussian动作已完成为[540](../../notes/540-growing-constant-tail-gaussian-reward-cost.md)。
+联539给全Ω统一τ≤8e^(-A_L−1)/A_L，A_L=L e^(C_L)；允许变β/Ω和任意非负compact修复。
+uniform正scalar搬运已排，极小逐窗τ、head/complement适应和nonconstant完整Γ/signed未排。
+真实成长正性瓶颈没有消除；C011按两轮止损，不把费用边界当新Goal完整完成。
+
+当前唯一动作由C012 ready承接：保完整Γjump，准确中心化实际Chebyshev prime/pole，
+先审absolute primitive-variation在原Dlog全complex源上的消费门。
+冻结窄支持g的complex carrier，核ω与logω的费用差、端点和actual signed值；
+扣除旧016/041/237/252/292–300/405/518，入口恒等式只恢复对象、不计新轮。
+它比继续扫描Ω更便宜且直接检验“有PNT包络就能付全source”的未付桥。
+一轮后无实际signed新来源即停止absolute包络路线，不能把unknown domination改名继续。
+要改变这个选择，须新的actual signed响应或几何定理与完整Q的非循环消费桥。
+原cadence本轮2→3，未到周期复盘门；这次策略更新不新增轮、不重置counter。

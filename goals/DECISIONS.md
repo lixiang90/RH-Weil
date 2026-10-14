@@ -224,3 +224,23 @@ C011第一完整轮只由原cadence1→2一次；组织/新Goal/三项审查/结
 实际瓶颈只定位费用，fullgrowth正性/Ξ识别仍open，本Goal完成gate保持open。
 唯一第二轮动作检显式truncated Gaussian uncertainty scalarfloor的成长上界及joint源准入；
 无独立signed来源则二轮止损转完整nonconstantΓtail/多prime比较，不重复固定参数失败或加N。
+
+## D20261014M：变尺度全源费用已付，C011止损，保完整Γ核实际signed入口
+
+新[540](../notes/540-growing-constant-tail-gaussian-reward-cost.md)及独立Gaussian/消元量词逆审通过。
+原norm完整截断与频尾给δ<min(1,5e^-LΩ)；消费539同来源prime门后，
+任意变β/Ω、任意非负compact修复只能抽τ≤8e^(-A_L−1)/A_L，A_L=L e^(C_L)。
+这是全Ω严格费用边界，非finite诊断；极小正τ、分块源适应及full Γ joint仍未排。
+没有新的独立算术正性/全growth联合费用，所以新Goal仍active，不由合同或费用图完成。
+
+C011两完整轮预算用尽，停止constant-envelope搬运主攻。原cadence只2→3一次；
+没有到cycle10的四轮门，组织/转向/入口审查不计轮或重置周期。
+C012 ready预算一轮，保完整actual Γ及prime/pole，以真实Chebyshev primitive核
+absolute variation支付法的whole Dlog准入：fixed支持径<log2的合法carrier，
+比较B_E的ω费用与完整Γ的logω，同时核signed residual/端点及旧237等重复范围。
+先核原证明，再决定是否结算新的限定边界；入口恒等式不登记独立输入。
+无可核signed新来源即止损，不把原Weil domination或RH等价换名成下一成果。
+
+现实备选是可核非局部signed/独立几何来源；会改变优先级的证据是实际同源响应定理，
+弱于whole-Q目标，付成长全complex量词/原norm/完整primepowers/误差和非循环净后果。
+C008不等待、C001冻结、暂停/降级路线保持，科学process均已终态。

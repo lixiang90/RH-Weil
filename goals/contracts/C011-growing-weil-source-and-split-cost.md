@@ -56,3 +56,17 @@ R不是Q；完整Γ正尾可随carrier增长，不从R负源推出Q负或RH失�
 第二轮唯一动作：用显式zero-extended Gaussian检验I−BΩ scalarfloor的成长必要上界，
 支付截断/频尾/norm误差，与539的Ω责任接合；先判断有无新的whole-source joint来源。
 若仅为费用诊断且仍缺signed算术输入，停止此split扩窗路线，改保完整Γtail/多prime来源。
+
+## 第二轮结算与停止（D20261014M）
+
+[540](../../notes/540-growing-constant-tail-gaussian-reward-cost.md)原norm Gaussian完整截断/频尾费，
+联539全prime费用给τ≤8e^(-A_L−1)/A_L、A_L=L e^(C_L)，对所有L≥3/2、
+所有可行变β/Ω及任意非负compact rank/norm成立。
+这排uniform positive scalar供给，但极小正τ、head/complement适应及完整signed Γ机制未排。
+原Q负/RH失败不由lower供给不足推出；本版Goal保持active，数学gate仍open。
+实际全growth瓶颈未消除，只定位必要费用并改变路线优先级。
+
+已结算证据只为539与540，分别引用原cadence两条；补审/合同停止/入口准备不另计轮。
+C011预算用尽并停止继续constant-envelope搬运/扫描；唯一下一合同C012保完整Γ，
+首核实际Chebyshev绝对primitive-variation费的whole-Dlog准入和signed负对照。
+重准入需新actual signed/完整尾或全head-complement消费桥，不以更大N/更小τ复活。

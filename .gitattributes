@@ -49,3 +49,6 @@ notes/503-ninth-span-reward-and-feedback-interface-barrier.md -text
 /reviews/2026-10-14/macro-restart/** -text whitespace=cr-at-eol
 /goals/archive/STATE.before-20261014-restart.json -text whitespace=cr-at-eol
 /scripts/research_state_recovery_smoke.py text eol=lf
+
+# Preserve independently authored C011 second-round proof records.
+/reviews/2026-10-14/c011-second/** -text whitespace=cr-at-eol
