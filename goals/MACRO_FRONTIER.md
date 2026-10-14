@@ -150,6 +150,16 @@ fixedfirstcell不消单offcritical mode，是准备而非完整RH等价证明；
 这个joint physical core门优于泛恢复harddiagonal，但不预付wholecount/nearPSD/Ξ。
 新Goal完善继承同epoch，两层去重/阶段责任防压缩重计；宏观瓶颈仍未缩小。
 
+C019现由[548](../notes/548-canonical-weil-mixed-response-and-critical-input-boundary.md)入口0轮停：
+canonical全Γ operator费<100/完整joint uniformerror已付，但subpower/存在finitepolylog仍⇔RH。
+其来源独立性门失败，不代表RQP actual为负、RH已证或allheadΓuniform；specificO1只⇒RH。
+最强旧068给conditionalO√logN，不用弱旧vonKoch界造净值。latest数学546/cadence0保持。
+连续入口停触发已执行一级来源审查，当前C020 ready选MR2007.15644v3原μ平均短窗signed输入。
+先核nonpretentious、finitecharacter/centre-average与原physicalnorm，保164全部productcollision。
+fixedκ≤8 head在共同u中可核；fullκ≈Y/U的最短H不在MR polynomial窗，必须同时审coverage。
+不同已知arith source可改变输入，但candidate/body/Γtransport尚未proved，来源准备0轮。
+Λallinterval2204.03754为备选：Λ#≠1、5/8范围/ineffective常数/log-character例外保留。
+
 现实备选：直接研究完整Γ高尾与prime/pole的同源signed联合估计，或新的多prime/算术几何来源。
 若变尺度split的全源必要费用无法与tail供应同时闭合，应优先备选而不是不断增N。
 会改变此优先级的证据：一个不借ζ零点的whole源joint bound，包含成长参数及全部误差，
@@ -174,7 +184,9 @@ fixedfirstcell不消单offcritical mode，是准备而非完整RH等价证明；
 | 有分次local scattering C015 | 544原件/commonnorm已核，入口停止零数学轮 | 旧Euler表述之外joint/core桥未付；mixed signed/graded耦合未排 |
 | modular完整cusp Gram C016 | 545一轮止损；completed紧/direct非紧，fixedY全L²R norm成长统一已付，净cusp有无穷维盲带 | paidcusp/变base/seed/core/signed未排；actualQ桥仍缺，inverse空域不能排direct |
 | actual comb整除/Γ C017 | 546一轮joint全profile正性已付；form补空间逼近全部fixed源，停止薄域主攻 | adaptivecore/补空间与耦合未付，special域不代wholeQ |
-| density-compatible integercell C018 | ready，原core/triangular source准备0；候选signedΓrelative费open | 若付款给polynomial wholecount；reverse/Γ/pole全源费用不能假定，旧norm失败不造轮 |
+| density-compatible integercell C018 | 547入口0停；原core/triangular/pole准备真，候选signedΓrelative仍open | 新Γweighted全detail输入或合法joint-N反例才重准入；非candidate已假 |
+| canonical integercore C019 | 548入口0停；Γ统一/wholejoint已核，critical/polylog仍RH强度 | 更弱独立算术费/不同source/head/真实joint机制；不能继续conditional log优化 |
+| MR averagedμ physicalwindow C020 | ready budget1，原source/有限τ/平均中心准备0轮 | 原norm与fullcofactor coverage同审；finiteκhead不代wholeII，Γ/continuum另付 |
 | 比例/无零区域 | 用户要求暂停 | 仅用户明确恢复；历史形式化资产保留各自前件 |
 | 独立算术几何 | 副线，独立Hodge符号仍open | 原几何定理接同算术配对/ζ对象，不扩未符号化字段 |
 

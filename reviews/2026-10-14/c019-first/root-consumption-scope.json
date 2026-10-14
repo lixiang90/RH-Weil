@@ -1,0 +1,70 @@
+{
+  "schema": "root-source-admission-consumption-v1",
+  "date": "2026-10-14",
+  "goal": "goals/GOAL.20261014.md",
+  "goal_epoch": "G20261014",
+  "goal_lf_sha256": "9ec2e58f9a4e2d8ad4302be5ce0369a89e6ce671ce1b3be77c0d26a93e032228",
+  "baseline_commit": "0c4f3a3eb609bb1d9564138fa4a35701f05605f2",
+  "inputs": [
+    {
+      "path": "notes/548-canonical-weil-mixed-response-and-critical-input-boundary.md",
+      "raw_sha256": "1cc5108db6f05d0bf51e4eb066de4ae7bdcb46e46e55c603913146a6aa9b0696",
+      "storage": "git-evidence"
+    },
+    {
+      "path": "reviews/2026-10-14/c019-first/gamma-canonical-uniform-audit.md",
+      "raw_sha256": "c2ef6dfaf066d1cdfca9c7773b44acc566b01f3de87b0d04a698aeea6105ed58",
+      "storage": "git-evidence"
+    },
+    {
+      "path": "reviews/2026-10-14/c019-first/projected-chebyshev-critical-mellin-audit.md",
+      "raw_sha256": "b28e2e27ad31a6b0a58f1c02bdbc53d5b552b251591ddcc887a7fad31a62f9d2",
+      "storage": "git-evidence"
+    },
+    {
+      "path": "reviews/2026-10-14/c019-first/root-joint-scope-final-audit.md",
+      "raw_sha256": "b8c3c32dd5e35a7b91a2accc723ee6bee17cadd4ebc47628c0b1dd30eec37ca6",
+      "storage": "git-evidence"
+    },
+    {
+      "path": "reviews/2026-10-14/c019-first/strong-old-circularity-and-strategy-audit.md",
+      "raw_sha256": "554d53aabb78591669df56155b9e412857a1a2743c0d2d1b205726a761728ad7",
+      "storage": "git-evidence"
+    },
+    {
+      "path": "reviews/2026-10-14/c019-first/sources/source-metadata.json",
+      "raw_sha256": "0ea192a3593bf0b7c21b628a3c04d05544d19f8244eb81d68a125e41516540de",
+      "storage": "git-evidence"
+    },
+    {
+      "path": "reviews/2026-10-14/c019-first/sources/higher-uniformity-bounded-multiplicative-2007.15644v3.pdf",
+      "raw_sha256": "fef1a239e616f40c57aa45e7df3397aebe880cde8ce5763acb815a24a171f6aa",
+      "storage": "local-source-cache"
+    },
+    {
+      "path": "reviews/2026-10-14/c019-first/sources/higher-uniformity-bounded-multiplicative-2007.15644v3.txt",
+      "raw_sha256": "834bc0d6a262663272e56b9f2bf4ab8f648ee93ce4938e7d1c16fa5b2ac79f5f",
+      "storage": "local-source-cache"
+    },
+    {
+      "path": "reviews/2026-10-14/c019-first/sources/higher-uniformity-arithmetic-all-intervals-2204.03754v3.pdf",
+      "raw_sha256": "65bb76f69eebcad1781559f58f709b6d6cdd70731aab25bdaa2b03118daab76c",
+      "storage": "local-source-cache"
+    },
+    {
+      "path": "reviews/2026-10-14/c019-first/sources/higher-uniformity-arithmetic-all-intervals-2204.03754v3.txt",
+      "raw_sha256": "5b1dfb21008e514fd31df52e738212769e3f7745e0c4be4a8f6abce9937c4f0b",
+      "storage": "local-source-cache"
+    }
+  ],
+  "reconciled_scope": "Actual2theta/originaldu=dx/x/allstrictpp/dual poles; root linear-first probes consistently conjugate the antilinear-first audit. Canonical Γ fee is not all-head uniform.",
+  "mathematical_rounds_consumed": 0,
+  "latest_settled_mathematics": "notes/546-arithmetic-comb-full-weil-positivity-and-form-core-noncoverage.md",
+  "paid_scope": "CanonicalΓ≤100 plus fulljoint boundederror; allinteger/fullheight Mellin critical equivalence identifies oldRH strength; no independent criticalbound or wholecount.",
+  "unpaid": "C020 MR nonpretentiousness/originalvariablewindow norm/actualcofactor collision transport/fullcore coverage/Γ continuum; whole growth signed/Xi.",
+  "source_scope": "MRT2007.15644v3 Theorem1.3/Cor1.4 averagedcentres/finitecharacter/nonpretentious; Λ2204.03754v3 backup retains Λsharp,5/8,ineffectiveconstants/logcharacter. Original PDF/text identity is not fullproof certification.",
+  "next_contract": "C020 candidate σ=.5, T/sqrtD in[1,6], |tau|≤T, Y0≥D, fixedκ≤8 actualmask plus fullκ/core audit. Finiteaspect6 deliberately covers κ≤8 rather than silently reusing sourceprototype2.",
+  "decision": "C019 entry stopped0; consecutive0 entries triggered executed primarysource strategy review. No cadence reset or newGoal.",
+  "remote": "Not a remoteverification receipt.",
+  "source_storage": "Original full PDFs and PDF-derived text are retained locally; committed metadata gives immutable version URLs/byte hashes. Rehydrate fixed PDFs and verify hash if a new checkout lacks the cache. Raw originals were checked locally, not falsely claimed staged."
+}

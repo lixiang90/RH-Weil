@@ -86,3 +86,7 @@ secrets.json
 
 # C009 frozen third-party material, retained locally with audit hash receipt
 /tmp/c009-liu/
+
+# C019 primary papers stay in the local source cache; version/URLs/hashes are committed.
+/reviews/2026-10-14/c019-first/sources/*.pdf
+/reviews/2026-10-14/c019-first/sources/*.txt

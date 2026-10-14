@@ -395,3 +395,24 @@ fixed firstcell对单offcritical Mellin mode仍有非零响应，只是来源准
 若只有ψ重写/旧equivalence/unknown，入口零轮停并策略复核，不无限换标签。
 选择它因同physical core的明确joint响应比泛nearproduct更可核，非承诺新的宏观结果。
 完整成长signed/core/Ξ瓶颈未缩小；Goal数学门open，保存推送不完成Goal。
+
+## D20261014U：canonical全费用已核但critical仍RH强度；停止后准入独立平均μ来源
+
+[548](../notes/548-canonical-weil-mixed-response-and-critical-input-boundary.md)及三项独立审/whole短审通过。
+ALL integerN的canonicalΓ operator fee<100，allpp/carry/signedpole合成||Z+W||≤absoluteK。
+fixed firstcell合法零均值测试、integer→real jump、Mellin continuation/entirehead与全部重数
+证明Z的subpower/存在finitepolylog仍⇔RH；RH forward最强旧068已给O√logN。
+specificO1仅⇒RH，本轮不声称反向或allheadΓP uniform。
+没有独立critical算术界，按C019入口0轮停，latest数学546/cadence0不变，宏观门不完成。
+
+连续C018/C019入口停后已实际原件策略审查，不能再换critical目标名称。
+新具体来源是MR–Tao–Teräväinen–Ziegler2007.15644v3 Theorem1.3/Cor1.4，
+平均中心内sup、有限Arch-character范围、1-bounded multiplicative与nonpretentious前件严格保持。
+两fixed原论文及提取/metadata已冻结；主合同C020 budget1先核μ原physical短窗norm，
+保variableH、cutoff边界、Abel/BV与全部actual共factor collisions及完整core覆盖。
+原164 V=1、κ≤8 head的全pp合并为logκ可核，首窗aspect[1,6]明确覆盖此固定mask。
+finitehead成功不等wholeII：最大κ≈√Ylog²Y给Hκ≈1/log²Y，MR polynomial窗不覆盖，
+qualitativeo1也不付growinglabel/Γ/continuum费用。此覆盖门与norm同时审，不继续薄类循环。
+MRT非pretentious及运输仍待原proof核，不从external声明登记候选已证。
+Λallinterval2204.03754仅备选，保Λ#、5/8尺度、ineffective常数及TypeII log-character例外，
+不能改成Λ−1或付sqrtY核心。来源准备/策略审0轮；下一只能实际付MR候选或合法反例。

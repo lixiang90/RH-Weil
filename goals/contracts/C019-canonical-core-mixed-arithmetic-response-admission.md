@@ -1,7 +1,12 @@
 # C019：canonical core的完整mixed算术响应准入
 
-2026-10-14；ready；预算1完整准入轮，settled=[]。
+2026-10-14；入口stopped；预算1完整准入轮，settled=[]。
 Goal G20261014与固定≤538基线保持；source准备不消费cadence。
+
+入口结论见[548](../../notes/548-canonical-weil-mixed-response-and-critical-input-boundary.md)：
+canonicalΓ费统一、wholemixed与projectedE有界误差已核；ALL integerN的subpower/存在finitepolylog仍等价RH。
+旧critical责任没有被削弱，按合同0轮停；不宣布RH或所有signed方法失败。
+连续C018/C019入口停触发实际来源策略审查，不继续优化conditional log指数。
 
 ## 宏观责任与最强反事实
 

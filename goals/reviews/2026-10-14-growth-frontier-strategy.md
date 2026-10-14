@@ -136,3 +136,16 @@ C018只source/core/carry及projectedpole费用，signedrelative仍缺新输入�
 prime/pole的leading已可exact合并，保nativeψ残差与carry；不能分项norm制造必要费。
 whole谱/coupling量词、Γuniform、旧068/069/521–525 RH强度尚须独立核。
 只恢复equivalence或ψ重写则0停并策略筛选，不承诺数学晋级，不继续薄positiveclasses。
+
+## C019止损后的实际signed来源筛选（D20261014U）
+
+548把canonical Γ全frequency费用付清、whole响应与projectedE仅差uniformbounded项，
+但fullMellin量词仍读全部ordinaryζ离线pole；critical/polylog是旧RH强度，入口0轮停。
+原cadence0/latest数学546不动，本段是策略复核，不是周期轮数复盘。
+
+两原件已现场核：2007.15644v3平均nonpretentiousμ polynomial窗来源，比2204.03754v3
+全interval Λ−Λ#的5/8范围更直接覆盖sqrt尺度；后者不能变constantmodel或绕过log-character例外。
+选择唯一C020 rawμ原du window norm及164 exactfinitecofactor共同source运输。
+原Cor1.4 finiteτrange/sup-inside-average/非pretentious须核，所有variable窗/BV/边界/碰撞同源付。
+完整cofactor/shortestH/growinglabel/Γ/continuum同时反审，κ≤8的小head成功不付fullcore。
+只有新actual norm/transport费用才完整结算最多一次；原件恢复/独立性待核与备选准备0轮。
