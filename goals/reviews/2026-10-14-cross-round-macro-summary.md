@@ -5,6 +5,22 @@
 详尽范围审查见[独立历史审查](../../reviews/2026-10-14/macro-restart/history-and-new-goal-scope-audit.md)。
 最新[宏观前沿](../MACRO_FRONTIER.md)决定当前可消费范围，原证明优先于摘要。
 
+## 当前总体判断
+
+真正已付的是三组不同资产：真实ζ谱/重数的精确接口；实际Weil在非空固定窗的全复源正性和
+真正底态排序；明确比较方法类的严格边界。暂停的比例/无零成果和已构造的局部几何也保留各自前件。
+尚缺的核心不是再找到一个正Gram，而是独立actual算术输入如何在成长支撑、全部源和全部费用下
+约束同一完整对象，再支付通常ζ/Ξ的识别。至今没有RH证明或数域完整Hodge符号。
+
+新Goal之后，539/540付变尺度constant-envelope费用，541排native绝对变差支付，
+542的新高矩被更强旧谱界覆盖；543则取得真实cofinal计数上预算的L因子净节省。
+544只有原件/旧Euler恢复，零数学轮。545付几何packet的全轴原norm及净cusp源盲带，
+仍未给actualQ signed桥。瓶颈定位更准确，但整体成长signed/core/Ξ责任仍open。
+
+一个组织上的实质纠错是：最强基线反事实必须跨表示核查；一个方法上的实质纠错是：
+inverse输入域为空不排直接uncompleted源，粗费随L增长也不代表必要费用。
+这些修正已写入稳定Goal和通用流程，恢复时必须连同具体逃逸读取。
+
 ## 贯穿全史的问题
 
 目标一直是从真实算术来源得到独立正性、有效性或有符号抵消，
@@ -85,6 +101,20 @@ cofinal正weighted算术record只为待核来源，尚未结算其全源运输/�
 但只恢复旧Euler接口，缺joint输入，入口即停零新数学轮，latest settled仍543。
 不同C016准备modular完整cusp正Gram与actualζ response；最高polar门不能从half-line迫quarter-line。
 完整cusp/parameter/source norm及actualWeil桥尚未付；实际macro瓶颈未因来源定位而缩小。
+
+545完成C016一次完整准入：completed A是HS/紧，直接剥β却是合法的
+E_Y(3/4−it/2)；完整mixed Gram给全部L²(R)的fixedY统一范数，独立于成长L。
+incomplete-Eisenstein原件移线与residue6/π给不同组织核验。
+净cusp扣除后direct T₂非紧，但L>log2/2时有无限维真实源核，
+有限源条件/compact修复不能给whole frame。任何finiteY(L)完整扣费后同一盲带仍在。
+这修正了“去completion一概不合法/紧”的过宽判断，原norm接口现已paid。
+仍缺actualΓ/strict全pp/双pole signed运输；保留paidcusp、变base/seed与core逃逸，
+C016一轮止损，宏观Goal不因此完成。
+
+下一步优先新的同源算术joint信息：真实log整数梳状源的primepowers压缩到整除邻接，
+先核其logarithmic Schur费能否与完整Γ跨cell/双pole接合。
+只是Mertens恒等式恢复不计轮；特殊成长源类也不能代替全部源/补空间。
+当前合同及唯一动作仍只以STATE为准。
 
 ## 对长期重型研究的一般组织结论
 

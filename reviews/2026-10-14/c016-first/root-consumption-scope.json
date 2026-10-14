@@ -1,0 +1,36 @@
+{
+  "schema": "rh-weil-root-consumption-v1",
+  "date": "2026-10-14",
+  "goal": "goals/GOAL.20261014.md",
+  "goal_lf_sha256": "49592e5e9f0d59fac2c0e72b55f495353f92a7e2dda5c9d1c10bc57bb22c51d0",
+  "baseline": "0c4f3a3eb609bb1d9564138fa4a35701f05605f2",
+  "note": "notes/545-modular-packet-norm-cusp-blindness-and-weil-transport-gate.md",
+  "note_raw_sha256": "25b778a2c1d1b9360ff2dd553f853a33c0dda7575740ab3aeac6ec46f555acfa",
+  "independent_final_reviews": {
+    "reviews/2026-10-14/c016-first/cusp-completion-and-norm-audit.md": "7bc8fe9d148d52804187975774a71e3f194242e8f23a32ac49b22b936f254ae0",
+    "reviews/2026-10-14/c016-first/whole-frequency-packet-and-object-gate.md": "a99a83f01cb27479d74557150b11b34dc6a1893a1f3fa83aa1fb5d99ab0ba46f",
+    "reviews/2026-10-14/c016-first/actual-weil-and-macro-net-audit.md": "47c7f80879b0fa7f4a5ce6b90d76753858da61e40276cfc29106ad0306e0f977"
+  },
+  "audited_mathematical_draft_raw_sha256": "bddab68b67c2cccf92296dad84b441e7729c47c17d69f6f8f43e96ac9653b408",
+  "post_audit_change": "仅Garrett归属措辞Green→unfolding；root独立Green推导不变，无数学内容变化。",
+  "primary_source_receipt": "reviews/2026-10-14/c015-admission/sources/macro-primary-source-receipt.json",
+  "source_bytes_verified": true,
+  "scope": [
+    "completed全频HS/head/双尾/Dlog/全cusp正交",
+    "direct全L²R fixedY norm independentL、PV/mixed共同prescription与strong extension",
+    "先inverseβ compact输入空域只限该操作，direct真实非紧逃逸已消费",
+    "base2 fullcusp实际无穷源核/allfiniteY(L)/有限条件/compactrepair无uniformframe",
+    "actualΓ/strict全pp/dualpole signed桥及强旧016/028/543净门未付"
+  ],
+  "round_settlement": "一次完整新source费用/实际反例准入，非原Gram恢复；原cadence2→3一次。",
+  "macro_completion": false,
+  "unpaid": [
+    "actualQ signedjoint/core",
+    "成长nearPSD",
+    "Ξ identification",
+    "paidcusp/变base/seed等未排逃逸"
+  ],
+  "c017_preparation_only": true,
+  "runtime_root_observation": "goals/goal-observation.20261014-c016-settlement.json",
+  "pending_processes": []
+}

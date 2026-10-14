@@ -63,3 +63,15 @@ f支持compact不表示Ff有限频窗。先检查completed source是否只给bou
 无新净值则一轮止损，不盲增N/精度、不拟合ζ零点，不转等价Hilbert酉化或临界源修正。
 重准入须新完整cusp/signed/实际primitive映射或可付core/complement信息。
 保留真正数域几何、source-adapted联合Γ/prime/pole和危险core逃逸，宏观Goal不随此合同缩小。
+
+## 结算：545一次完整新source准入后停止
+
+[545](../../notes/545-modular-packet-norm-cusp-blindness-and-weil-transport-gate.md)
+已独立支付completed全频HS、direct E_Y(3/4−it/2)的全L²(R)运输、fixedY独立成长L的费用，
+以及完整cusp扣费后的原source无限维盲带；任意finite条件/compact修复不付uniform frame。
+direct非紧是真实逃逸，先inverseβ的空域只否定一种操作，不能排直接还原。
+旧overlap e2L粗上界不是必要费用，actual source uppernorm现已paid。
+保paidcusp、变base/seed与signed/core逃逸；没有新actualQ Γ/全pp/双pole桥或负惯性净值。
+这是一次完整新source费用/反例准入，非原Gram恢复零轮，也非整个几何方法类边界。
+状态stopped，settled=[545]，原cadence仅2→3一次；宏观Goal仍active/open。
+下一唯一合同C017从实际整除/Γ/pole联合source费用开始，不预付特殊源类的全域后果。

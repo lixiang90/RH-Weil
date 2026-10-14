@@ -105,11 +105,27 @@ C015现已在入口停止，[544](../notes/544-graded-local-source-admission-wit
 共同complex norm/strict pp/Dlog已核，不再unknown；正time-delay在unramified H中仍为负项，
 finite joint分析减unit只还原017，cheap尾必须乘回p。新共同signed/core桥仍未付，cadence2/latest543。
 
-当前C016 ready：modular Maaß–Selberg完整cusp Gram独立几何来源，作者原件已冻结。
+当时C016 ready：modular Maaß–Selberg完整cusp Gram独立几何来源，作者原件已冻结。
 原φ精确包含actualζ，但half-line unitary对应ζ Re0/1，ρ/2 quarter-line RH目标必须保。
 全complex正Gram扣完整cusp mode而非scalar，completed/poles及同physical f的全频Bochner norm需核。
 初步最高polar-sign门只排右半plane，并不排fullsubleading/joint；actualWeil bridge未付。
 若source只是compact smoothing/变norm或未付signed桥，不以正Gram命名强制后果，入口止损零轮。
+
+C016现由[545](../notes/545-modular-packet-norm-cusp-blindness-and-weil-transport-gate.md)完整新source费用/反例一轮止损。
+completed A全轴HS；direct去β却精确是E_Y(3/4−it/2)，全L²R有界且fixedY费用独立成长L。
+原inverseβ输入空域仅否定先重权再套A；direct源合法非紧，不能把两对象混为同一tight/compact供应器。
+原overlap e2L仅粗upper，不是必要growth费；这项原source uppernorm现已paid。
+完整cusp扣到base2后，direct在L>log2/2有无穷维原Cc∞源核，
+所有finiteY(L)/Y(f)同完整扣费及finite条件/compact修复均不付uniformframe。
+保paidcusp、变base/seed、非紧修复与signed/core逃逸；actualQ桥及强旧016/028/543净值仍未付。
+这定位并纠正了source前件，但不消除macro signed/Ξ责任，不达到Goal第三门。
+
+当前C017 ready预算1：actual log整数comb、每cell任意complexprofile，
+先核strict全pp压缩到weighted整除邻接与原norm，再付完整Γ self/cross及signeddualpole。
+Schur/Mertens原工具只给prime候选logM；新joint费用及实际特殊成长域净值必须完整付清。
+冻解析h不盲扩N，先near-Schur whole Fourier与exactpole，若重复/unknown domination入口零轮停。
+Omega_N总measure趋0，固定compact源投影也趋0；即使取得其正性，core覆盖/补空间coupling仍缺。
+这一负对照使特殊类不能偷偷替代wholeWeil；真正新的mixed几何/core覆盖证据会改变优先级。
 
 现实备选：直接研究完整Γ高尾与prime/pole的同源signed联合估计，或新的多prime/算术几何来源。
 若变尺度split的全源必要费用无法与tail供应同时闭合，应优先备选而不是不断增N。
@@ -133,7 +149,8 @@ finite joint分析减unit只还原017，cheap尾必须乘回p。新共同signed/
 | 多prime高矩/whole惯性C013 | 542新measure账本真，whole净值被旧强界覆盖，一轮止损 | 重准入须保完整图/profile的新joint信息，不仅优化k或弱2S对照 |
 | Γ heat/算术record profile C014 | 543新cofinal Ce^S净预算已付；一轮停止thermal主攻 | 全温度仍leading S；保正图/pole signed与core density逃逸，不是PSD/Ξ或macro完成 |
 | 有分次local scattering C015 | 544原件/commonnorm已核，入口停止零数学轮 | 旧Euler表述之外joint/core桥未付；mixed signed/graded耦合未排 |
-| modular完整cusp Gram C016 | ready，Zagier/Garrett原件冻结，来源准备零轮 | completion/全complexpacket/Dlog与actualWeil运输、真正cusp费用和新净值须付 |
+| modular完整cusp Gram C016 | 545一轮止损；completed紧/direct非紧，fixedY全L²R norm成长统一已付，净cusp有无穷维盲带 | paidcusp/变base/seed/core/signed未排；actualQ桥仍缺，inverse空域不能排direct |
+| actual comb整除/Γ C017 | ready，准备零轮；原norm/fullpp source候选、Γcross/pole joint待独立付 | 稀疏Omega覆盖/补空间与耦合未付；原工具不新计轮，special域不代wholeQ |
 | 比例/无零区域 | 用户要求暂停 | 仅用户明确恢复；历史形式化资产保留各自前件 |
 | 独立算术几何 | 副线，独立Hodge符号仍open | 原几何定理接同算术配对/ζ对象，不扩未符号化字段 |
 

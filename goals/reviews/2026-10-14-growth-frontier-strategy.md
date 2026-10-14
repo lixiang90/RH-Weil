@@ -92,3 +92,21 @@ finite localpositive/directsum/cheap tail归一化没有超最强旧后果。C01
 先fullGram/subtraction/completion及wholephysicalpacket费用，不能只以unitarity/positiveGram登记forcing。
 最高polefamily sign只排Re s>1/2，而RH是ρ/2 quarter-line；保留fullsubleading/joint逃逸。
 目标仍是同对象全Γ/pp/pole成长signed与Ξ，不改门槛，不复制/重置周期。
+
+## C016全source费用与下一actual joint门（D20261014R）
+
+545完成一轮新准入；direct uncompleted源确合法且全L²R norm对fixedY统一成长L，
+不能由inverse source空域或粗e2L上界宣布其非法/成长norm失败。
+完成全部cusp扣费后的T₂非紧却有无限维原源盲带；finite条件/compact修复不付wholeframe。
+因此停止正Gram的无费供应主攻，保paidcusp/变base/seed/signedcore等具体逃逸，
+不完成宏观Goal。原cadence2→3，未到四轮周期门；纠错/组织/来源准备不另计轮。
+
+真正未付是actualQ signedjoint/core与Ξ；norm已付这一变化须恢复，不能沿用旧unknown。
+nativeZagier Rankintrace actualρ/全部重数接口已核，但positiveh onlydiagonal，
+mixed与cofactor费用缺；只恢复原ζ公因子零收益，不把它选为又一数学合同。
+
+C017先核实际log整数comb：所有independent complex cellprofiles、全strictpp、原norm。
+整除weightedSchur把prime压缩费候选为logM，wholeΓ self/cross与signeddualpole是要新付的joint门。
+固定h解析尺度，不为增加N/缩h小常数推进；先准确比较最强旧资产和near-Schur源whole能量。
+成功也只覆盖稀疏Omega_N，whole complement/core耦合仍open；无新joint即入口零轮停止。
+新的真正mixed几何原定理或core覆盖证据会改变此优先级。
