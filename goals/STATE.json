@@ -135,14 +135,14 @@
     "status": "active",
     "observed_on": "2026-10-14",
     "created_at_epoch": 1791936604,
-    "basis": "本轮现场get_goal同createdAt active，记录macro-refresh observation；Goal完善/C020source费不完成macro。"
+    "basis": "Root最终现场get_goal同createdAt1791936604 active；macro-refresh observation保存同实例，当前Goal版本绑定open gate；组织/549 source费不结束Goal。"
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-10-14-macro-refresh-c020-settled.json",
+  "checkpoint": "goals/checkpoints/2026-10-14-macro-refresh-remote-verified.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
-    "commit": "16cd341eba3b2ef101ae2eec23d1fc2270ea8d4c",
-    "basis": "Root现场研究版16cd341完整HEAD=remote main SHA且clean；548/四审/metadata staged rawhash与local原PDF/text hash分别验证。后续仅remote/checkpoint metadata，不滚基线/Goal版本/cadence。"
+    "commit": "e3a136e66bb6618941231169a217ac2c408a4ad6",
+    "basis": "Root只读现场git ls-remote完整main SHA=本地研究HEAD，工作树clean；七原审/549 raw working=index、MR PDF/text本地hash已核，文件/Goal组织与源费不complete。后续仅检查点/remote metadata提交，自指不滚基线。"
   },
   "completion_audit": {
     "goal": "goals/GOAL.20261014.md",
