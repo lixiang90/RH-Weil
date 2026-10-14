@@ -442,3 +442,28 @@ C020按预算一轮stopped；原cadence0→1，只549数学结算一次。
 MRT2015平均linearform仅次选，A^(2k)/offset/phase费保持；另有whole Γ/signed或独立几何备选。
 只有完整参数/原norm/全部mixed误差且超最强旧后果的原算术定理，或允许exact合并/变权后的必要费反例，
 会改变优先级。C008不等待、C001冻结、比例/零区暂停及降级路线保持，Goalgate open。
+
+## D20261014W：GY合法逃逸保留但aggregate旧已付；准入完整cell occupation/Γcarry
+
+上一Goal turn是progress：549新MR原norm/fullflat费闭合并改变下一来源门，组织不计轮。
+本轮550完成保存的GY实际来源审查，directAP max-y BV在固定U10合法，
+公开小shift/幂距miss不能否定该逃逸；frozenU2只该upper未付o1，非必要增长。
+完整原triangular phase/prefix、全部properpowers、native A/W及I/II守恒保留。
+
+跨表示强旧又纠正549：085/159 Euler μ-PNT使pI−c=Olog^-1Y，ordinaryPNT付integratedΛc，
+167 Haar正Gram的显式Selberg majorant给topband actualII norm²O1。oldOlog6/OlogY皆粗界。
+完整Γ/pp/双polenormalized Q近似亦旧可蕴含。ΛΛ near差仍系数+1，微观AP不补此槽。
+因此GY入口0轮停止；不优化B/shift，不滚基线/cadence；主要宏观signed/core/Ξ瓶颈未缩小。
+
+不同core输入是新合法Πa fullunitcell head，其φ原flatdx Fourier，rankN−1、Dlog fixedN合法。
+它不是547原常值dx/x head；不能继承548 canonicalΓ100。a=e^(u/2)在head故detailpole0，mixed仍在。
+actual Uq=sqrtqφ(qx)的prime-divisible component contraction与Young给occupation εLcell+ClogN费，
+所有properpowers/独立complexprofiles与原du因子均已核。非divisible部分不可省：singleq和fullsignedcarry非compact，
+只排free/finite-rank删除，Γrelative或joint逃逸仍open，非Goal方法类完成。
+
+据这三句真实输入/矩阵检验/条件quasipoly wholecount门，唯一C021 ready预算1：
+先核ALL N/ALL R_a∩Dlog的Ecell到fullactualΓ G1与hardcell/domain/weight费，再核完整Ccarry G2。
+若两门全付给Γrelative和N+C logN exp(C log²N) actual负惯性预算，胜强旧543；当前只是conditional。
+若只有source/单q非紧/G1或unknownG2，入口0止损，不用它们完成宏观Goal。
+这个finitecodim全域比继续mixed-only/flatlabel或546薄域直接承担core；新Γ-carry费用/合法联合反例能改变选择。
+C001冻结/C008不等待/比例零区暂停/降级路线保持，Goal同epoch active且完成门open。

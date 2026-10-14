@@ -29,3 +29,15 @@ GY来源直接涉及truncated divisor sums和prime mixed，而MRT成长斜率费
 会改变选择：一个包含完整physical mixed核、成长cutoff/shift/phase和误差的原算术定理，
 或exact fiber合并/允许变权后仍适用的必要费用反例。特殊positive源、更多matrix或ζ拟合不改变选择。
 C008止损、C001冻结、比例/零区暂停及降级路线保持，保存推送不完成Goal。
+
+## 550入口后的选择（D20261014W）
+
+上述GY来源筛选现已完成：保原全j及native主项，U10 directAP合法；
+但强旧085/159/164/167已给topband actualII O1、TypeI/continuum/fullQ近似。
+originalΛΛ槽未付，GY来源入口0停止，不以micro表示或B优化延续。
+
+当前唯一C021采用不同合法Πa、完整unitcell Fourier occupation原norm，
+独立算术divisible费用与allcomplex源已核。真实Γ/cell-log和nondivcarry为两个具体未付门。
+singleprime/fullsignedcarry非compact只排免费删，保Γrelative/joint修复；不算新Goal边界完成。
+若门全付则finitecodim全source/quasipolynomial负惯性给严格净值，当前conditional。
+这比薄域或另paper恢复更直接承担core。合同预算1，只有source/旧门或unknown即入口0止损，原cadence不动。

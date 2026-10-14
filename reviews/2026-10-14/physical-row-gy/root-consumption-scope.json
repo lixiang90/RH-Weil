@@ -1,0 +1,48 @@
+{
+  "schema": "rh-weil-root-consumption-v1",
+  "goal_epoch": "G20261014",
+  "goal_lf_sha256": "8defa1fb1480596bb35ff892dc12b390e1cfe79c32ecdb9862edc4ac7b8d7690",
+  "baseline_commit": "0c4f3a3eb609bb1d9564138fa4a35701f05605f2",
+  "raw_sha256": {
+    "notes/550-physical-row-mixed-source-admission-and-strong-old-aggregate.md": "9c7615fc8c923b77b3f6d5cb3a121f738c32897bf4e2651d3843152345bb6aa6",
+    "reviews/2026-10-14/physical-row-gy/native-ap-source-and-log-critical-errors.md": "fe91dbf250057f2f365c750c32801e711c96c3f1fdba5c8942ee86656471dcc1",
+    "reviews/2026-10-14/physical-row-gy/complete-triangular-mixed-transport-and-unpaid-slots.md": "48e083ac7a1f31e618a3628bc88aa017e9c973a29f172b2b598f0e2b090b6868",
+    "reviews/2026-10-14/physical-row-gy/strong-old-net-and-remaining-core-audit.md": "6baedc7d85b293084dd04f6a03af09d794e53c78c64daa1cb12bbf9b6fec25dc",
+    "reviews/2026-10-14/physical-row-gy/next-full-detail-fourier-occupation-source-audit.md": "dc14dcfd907dbad2cf640995b2d7155234957e834f2db0a9353d81ecda85ec87"
+  },
+  "local_source_cache_verified": {
+    "reviews/2026-10-14/physical-row-gy/sources/gy-math-0111212v1.pdf": {
+      "sha256": "a2a867d18cbdfb31ef5765b9fa8900f0c746d70568e332eecb1c3cabd22df5f5",
+      "git_evidence": false
+    },
+    "reviews/2026-10-14/physical-row-gy/sources/gy-math-0111212v1.txt": {
+      "sha256": "5298ac20a9e3fdcefb6aa481835d961d0ab3222492e2ebfa35bbbd60c4d9e742",
+      "git_evidence": false
+    },
+    "reviews/2026-10-14/physical-row-gy/sources/vaughan-bombieri.pdf": {
+      "sha256": "79ebca34d197a5ff9239e505d09c530e1652f770c293133db232add26f2397aa",
+      "git_evidence": false
+    },
+    "reviews/2026-10-14/physical-row-gy/sources/vaughan-bombieri.txt": {
+      "sha256": "342df6fe47fc1624fdb11d537509036f9c5b442c5387ea5cf65b24fc0f16d30d",
+      "git_evidence": false
+    }
+  },
+  "metadata_raw_sha256": "97310a3594cd3a6f6399eb6f73b6919629f6fbe62586b836c8e4800547be995f",
+  "premise_closure": "550 §1/§2-6 governs scope; four final audits consumed. GY adapted cutoff legal, frozen upper gap not false theorem; old aggregateO1 valid; newchangedhead and Dpart occupation true, actualGamma/carry/count conditional.",
+  "settlement": "550/source and newsource preparation zero math rounds; cadence1 unchanged; C021 ready budget1, no core/Goal completion.",
+  "old_dependency_normalized_lf_sha256": {
+    "notes/085-farey-boundary-large-sieve-hodge.md": "45361f30709c934039c6a996ef037fb827e3d79e6556ede61258d3ec95da0bf9",
+    "notes/159-vaughan-laurent-channel-obstruction.md": "ec89324fbe283daca3181808befbb84c6e37ef2387f4d7a53b2b9dfdb2e454c8",
+    "notes/164-canonical-two-channel-vaughan-localization.md": "f30083ae540524cc3e9fb72aa8f31ccff71dd43db97a169311632303ce8f98a3",
+    "notes/167-profinite-mobius-hodge-diagonal-evacuation.md": "491c92c5fa02bac6ffd02c64ef2b39575bfd5d92e44669f217aecdc1fd1311fe",
+    "notes/543-full-gamma-heat-arithmetic-records-and-thermal-boundary.md": "ce4d2d3271573e0f70df44dce7974fb8c0958557102542c149a77402b94d77e8",
+    "notes/547-integer-core-entry-and-canonical-joint-response-gate.md": "f2679ead99d0b4bfc32627a3876562ffbb88d84388fb2ebe72b373036ebdc109"
+  },
+  "nonsemantic_byte_cleanup": {
+    "path": "reviews/2026-10-14/physical-row-gy/complete-triangular-mixed-transport-and-unpaid-slots.md",
+    "prior_raw_sha256": "6d953b073bf816505dfbfb4d7f568622745970d5a0cb35f3d56063c4b4f17bc0",
+    "current_raw_sha256": "48e083ac7a1f31e618a3628bc88aa017e9c973a29f172b2b598f0e2b090b6868",
+    "scope": "Removed one trailing ASCII space only; formula, premises and mathematical scope unchanged."
+  }
+}

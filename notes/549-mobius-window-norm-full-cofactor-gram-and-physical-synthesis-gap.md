@@ -4,6 +4,13 @@
 固定基线0c4f3a3/≤538；新来源归MR–Tao–Teräväinen–Ziegler，不声称首创其定理。
 本次结算一次新算术source费准入；组织完善及来源恢复不另计轮。
 
+**最强旧对照修正（550，来源入口零轮）**：下文O(log⁶Y)是有效的粗旧界，
+不能继续称它为最强旧界。[550](550-physical-row-mixed-source-admission-and-strong-old-aggregate.md)
+跨表示核清：旧085/159/164的Euler-grid/μ-PNT及167 Haar筛已给本冻结topband的
+actual II原norm²O(1)，并付TypeI/continuum及normalized完整Q接近费。
+549的新MR raw/fullflat-label费用仍真；其actual净值结论仍是未改core，但今后须扣上述更强旧后果。
+本修正不重新结算旧工具或549，不滚基线/cadence；历史原审的字节版本保留在Git。
+
 ## 1. 消费前件闭合记录
 
 | 拟消费命题 | 实际前件与范围 | root判定及未付责任 |

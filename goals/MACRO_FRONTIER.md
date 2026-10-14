@@ -21,7 +21,8 @@
 | 545几何原norm | direct全L²R有界非紧、fixedY费用uniform L；净base2 cusp盲带/allY/finite条件/compact修复准确 | inverse空域不排direct；paidcusp/变base/seed/core/signed未排；actual Q桥缺 |
 | 546特殊joint正性 | actual整数comb全profile Γ/pp/pole，显式N≥ceil(exp(exp4)) Q≥1/2；原Dlog域 | form补空间逼近任意fixed源，whole符号/core/count责任没有缩小 |
 | 547/548入口准备 | 原core/fullcarry/pole、canonicalΓ费<100、joint boundederror；critical/subpower/存在polylog⇔RH | 无独立criticalbound；specificO1只⇒RH，非allheadΓP；入口恢复0轮 |
-| 549 MR共同source费 | 每先固定B的平均centre/finiteτ rawμ原du normo1；完整κ-cutoff flatlabel Gram、normalizedΓ/Dlog/Q费o1；all complex标签/cross/domain均付 | 实际ακ=1质量M≈sqrtYlog²Y，无ηrate胜强旧Olog⁶Y；TypeI/continuum/全height/core/Ξ未付 |
+| 549 MR共同source费 | 每先固定B的平均centre/finiteτ rawμ原du normo1；完整κ-cutoff flatlabel Gram、normalizedΓ/Dlog/Q费o1；all complex标签/cross/domain均付 | 实际ακ=1质量M≈sqrtYlog²Y，550恢复的强旧topband actual norm²O1仍未被改进；全height/core/Ξ未付 |
+| 550 physical混合入口 | GY direct全j/AP/充分大固定cutoff合法；旧Euler/PNT/Haar筛恢复actualtopband O1、TypeI-continuum与normalized完整Q近似 | 来源/强旧恢复0轮，ΛΛ near差仍在；不以micro新表示计净值 |
 
 原件：[535](../notes/535-actual-first-prime-sonin-log-resonance-and-indefinite-error.md)、
 [537](../notes/537-source-exact-weil-window-positive-tail-admission.md)、
@@ -42,15 +43,19 @@
 因此最短窗反例不能成为“所有joint方法失败”的停止理由。
 
 最强旧扣除要跨表示：016/028的degree/负迹界不能用弱Fourier界替换；
-068给conditional canonicalO(sqrtlogN)；164/167及source-free窗口计数已给actualII O(log⁶Y)。
+068给conditional canonicalO(sqrtlogN)；549列的actualII O(log⁶Y)只是粗旧界，
+550另恢复085/159/164/167可蕴含的frozen topband actualII O1，今后采用更强对照。
 当前paid fee不能据此再删除已由oldO1/β删除的finiteκ head，也未改543 wholecount。
 
-C020一次准入后停止范数/finitehead主攻。下一只保一个原件定位的来源审查，尚未登记C021数学合同：
-把原164 Vcut1的Λ/TypeI/continuum完整triangular near差二次型写清，再核独立divisor-sum/prime mixed相关。
-原cutoff U、j≈Y/T、BV phase、全部mixed项和误差必须同时覆盖；仅source标题不准入。
-具体原件、动作和止损在STATE/最新决策及[来源战略](reviews/2026-10-14-physical-direction-source-strategy.md)。
+C020一次准入后停止范数/finitehead主攻；GY来源审查现由550入口0停止。
+保充分大固定cutoff的合法逃逸，但micro主项不支付未给的ΛΛ/新净core。
+下一C021采用新的合法Πᵃ fullunitcell head、原du Fourieroccupation算术输入，
+先审actualΓ域运输和所有nondivcarry的联合relative费，source矩阵与条件wholecount都已冻结。
+该Πᵃ与547原常值head不同，不能继承旧canonicalΓ100；finitecodim fullR_a不同于546薄comb。
+单prime和fullsignedcarry均非compact，只排free/finite-rank删除，付Γrelative逃逸保留。
+G1/G2及conditionalquasipoly count没有预付；唯一动作和准入/止损在STATE/最新决策/合同。
 
-为什么优于继续flatlabel：直接落到实际系数方向，可当场判原算术定理覆盖或不覆盖。
+为什么优于继续flatlabel：新独立primeoccupation准确分出已付部分与真实carry，承担完整detail而非薄源。
 现实备选是不同whole Γ/prime/pole signed来源或独立几何；MRT平均linearform只是次选并保A^(2k)/offset费。
 改变选择的证据是包含成长参数/原norm/全部费用并超强旧后果的joint定理，或允许exact合并/变权后仍适用的必要费反例。
 没有这样的三句准入就不启动新数学合同，不把目标fullbound命名为独立input。
@@ -71,6 +76,8 @@ C020一次准入后停止范数/finitehead主攻。下一只保一个原件定�
 | C017 546 | 一轮特殊joint已付，补空间保fixed责任，停止薄positive | adaptivecore/补空间/coupling的新费用 |
 | C018/019 547/548 | 入口0；Γrelative候选open非已假，canonicalcritical无独立input | 新全detail signed输入、合法joint反例或严格更弱actual费 |
 | C020 549 | 一轮原du/fullflat-label/normalizedΓQ费；actual全1/core未改善 | 定量physical row/collision输入，或exact合并允许变权后的必要费门；不扩大head |
+| GY 550 | 原AP变cutoff逃逸已核，强旧aggregate更强，来源0轮止损 | 真ΛΛ/newcore joint，非继续优化B或单j主项 |
+| C021 fullcellΠᵃ | occupation输入/原norm/newhead准备0，实际矩阵/free carry非紧已核 | actualΓ/cell-log与fullsignedcarry relative门仍open；若全付才有conditional wholecount |
 | 比例/无零区域 | 用户要求暂停 | 仅用户明确恢复，不因调用经典输入而重启优化 |
 
 ## 恢复的六项短答案

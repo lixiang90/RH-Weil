@@ -1,0 +1,30 @@
+{
+  "scope": "Local primary-source byte cache, committed metadata only; extraction not mathematical proof.",
+  "retrieved_utc": "2026-10-14T05:32:28.688889+00:00",
+  "entries": [
+    {
+      "name": "gy-math-0111212v1",
+      "url": "https://arxiv.org/pdf/math/0111212v1",
+      "local_path": "reviews/2026-10-14/physical-row-gy/sources/gy-math-0111212v1.pdf",
+      "bytes": 485661,
+      "sha256": "a2a867d18cbdfb31ef5765b9fa8900f0c746d70568e332eecb1c3cabd22df5f5",
+      "scope": "fixed v1 definitions/4.1 native AP mechanism; not a theorem application",
+      "git_evidence": false,
+      "pages": 58,
+      "text_path": "reviews/2026-10-14/physical-row-gy/sources/gy-math-0111212v1.txt",
+      "text_sha256": "5298ac20a9e3fdcefb6aa481835d961d0ab3222492e2ebfa35bbbd60c4d9e742"
+    },
+    {
+      "name": "vaughan-bombieri",
+      "url": "https://personal.science.psu.edu/rcv4/Bombieri.pdf",
+      "local_path": "reviews/2026-10-14/physical-row-gy/sources/vaughan-bombieri.pdf",
+      "bytes": 156918,
+      "sha256": "79ebca34d197a5ff9239e505d09c530e1652f770c293133db232add26f2397aa",
+      "scope": "author original, maximal-y BV statement p3; frozen retrieved bytes",
+      "git_evidence": false,
+      "pages": 25,
+      "text_path": "reviews/2026-10-14/physical-row-gy/sources/vaughan-bombieri.txt",
+      "text_sha256": "342df6fe47fc1624fdb11d537509036f9c5b442c5387ea5cf65b24fc0f16d30d"
+    }
+  ]
+}
