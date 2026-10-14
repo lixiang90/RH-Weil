@@ -23,7 +23,9 @@ checkpoint记录核心文件哈希，不证明数学或工具运行态。
 新目标和状态直接以本仓为编辑源，不向上级写重复副本。
 保存、启动与有限检查通过不等于长期Goal完成。
 成果从原证明的前件闭合记录消费；最新549的完整label费仍未支付实际全1方向。
-551 actual碰撞母质量已付，basis响应仍不付fullmixed；MV来源已结束，当前动作读STATE/新战略。
+551 actual碰撞母质量已付，basis响应仍不付fullmixed；MV来源已结束。
+552 actual radial adelic对象合法但principal下降失败，finite-n uniform修复只零极限；
+E关系像不覆盖非根probe。当前唯一动作读STATE/最新战略，stopped合同不自动重开。
 连续source/非核心合同后先核三句准入；缺核心桥时只保一个原件定位的来源审查。
 
 上版[Goal](GOAL.20261013.md)及535方法边界完成收据为历史；

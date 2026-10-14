@@ -1,0 +1,92 @@
+{
+  "schema": "root-premise-closure-v1",
+  "observed_utc": "2026-10-14 08:06:01 UTC",
+  "goal": "goals/GOAL.20261014.md",
+  "goal_epoch": "G20261014",
+  "baseline_commit": "0c4f3a3eb609bb1d9564138fa4a35701f05605f2",
+  "runtime_goal_observation": {
+    "goal": {
+      "threadId": "01a135a0-51a5-7792-b8a1-e26182bfa095",
+      "objective": "持续运行 E:\\codex-build\\RH-Weil\\goals\\GOAL.20261014.md 的新宏观研究Goal：以固定提交0c4f3a3eb609bb1d9564138fa4a35701f05605f2及≤538全部成果为新基线，从已核实际Weil固定窗正性和真simple-even走向成长域独立算术来源、全源联合signed费用及通常ζ/Ξ同对象识别。完整完成门以该文件为准；旧535/537/538、组织系统、有限诊断、合同止损、扩窗或推送不能再次完成。每次新轮/压缩/中断先AGENTS、goals/README、STATE与research_state.py check/show，再恢复当前Goal、MACRO_FRONTIER、唯一合同和最新决策，核所需原件及实际Git/运行态。先执行C011成长prime/Γ-tail split全源准入和反例，1–2完整轮，原cadence唯一且每4–8轮宏观复盘；保存新增独立输入、未付前件、瓶颈变化、反事实选择、停止/重准入和唯一下一动作。C008不等待、C001冻结、不盲增N/精度或拟合ζ零点，比例/无零区域暂停，旧等价Hilbert酉化和源修正不自动复活。严格复核actual2θ′、完整pole/全部primepowers/原norm/全complex合法域及误差；R供应器负不推wholeQ负。按既有授权保存推送，不以压缩、回复或旧工具终态结束新Goal。",
+      "status": "active",
+      "tokensUsed": 9037296,
+      "timeUsedSeconds": 28557,
+      "createdAt": 1791936604,
+      "updatedAt": 1791965161
+    },
+    "remainingTokens": null,
+    "completionBudgetReport": null
+  },
+  "classification": "source-category admission / decision information / strongest-old scope recovery; zero mathematical rounds",
+  "raw_evidence": [
+    {
+      "path": "notes/552-radial-adelic-green-principal-and-comparison-gate.md",
+      "sha256": "670c05aac61921a4f36accc89638e2844fe7221df6341e4e7ff27964fb22d887"
+    },
+    {
+      "path": "reviews/2026-10-14/adelic-primitive-source/hodge-domain-and-actual-model-audit.md",
+      "sha256": "fe04ff9f35f14a6f30f2a534e8939a304b3cec2f733f879d76c0cdfde734606c"
+    },
+    {
+      "path": "reviews/2026-10-14/adelic-primitive-source/truncation-green-and-normalization-fees.md",
+      "sha256": "b2c114ef0bd54f12be6ec9c299524efba7371144a84c996f711b310d18d283b0"
+    },
+    {
+      "path": "reviews/2026-10-14/adelic-primitive-source/macro-and-source-coordinate-audit.md",
+      "sha256": "3d1aee7b98fca37e25750f6fd0a28e42c5915235b621a0b7e621fc92ff28e2df"
+    },
+    {
+      "path": "reviews/2026-10-14/adelic-primitive-source/next-principal-quotient-norm-gate.md",
+      "sha256": "121a6b981909f23c689b255e7afe98afa5cd74ad1f619b81bf748f0c461f653e"
+    },
+    {
+      "path": "reviews/2026-10-14/adelic-primitive-source/sources/source-metadata.json",
+      "sha256": "8b1b08f4ad3cb6e612c96b94ee3fc110b258de7b10392be96ddf4889d9b1c433"
+    }
+  ],
+  "primary_source": {
+    "url": "https://web.math.princeton.edu/~shouwu/publications/hodge-I-version2.pdf",
+    "declared_version": "May 21, 2013",
+    "pdf_sha256": "954f560c65324f5ca1adb130c86f566eeaf66464ec2391cff00d036eecda25e2",
+    "text_sha256": "67061ff98b55a80ee8d347831bf6af76514e3ec481828f9c16b5b96d4367011b",
+    "root_visual_read_pdf_pages": [
+      4,
+      13,
+      14
+    ],
+    "scope": "Existing Theorem 1.3 and curve model norm/intersection; no actual Weil applicability inferred solely from theorem."
+  },
+  "premise_closure": {
+    "object_norm_domain": "Old S_exp f / physical r=e^(u/2)f, physical norm ∫e^u|f|²du. P1_Q/O model, all finite metrics trivial and arch norm exp(-p(log|ξ|)); p Gaussian Eη0 extends smoothly at0/∞. Metric integrability source-specific.",
+    "roles": "p∈P_an is a principal/radical relation. Nonroot probe r0=(D²-1/4)ψ, f0=e^(-u/2)r0, pole0 and Q(r0)=-2B(f0,f0)>0; f0 is outside ordinary E image I.",
+    "quantifiers": "Exact real S_exp coordinate with fullΓ=2θ′/allpp/dual pole; real source-defined radial model; all finite R and all real scalar sequences a_R for compactified uniform logmetrics. Complex/allgrowth comparison remains open.",
+    "dependencies": "405/406/519/537 already baseline. Root independent norm/sign check reconciled source/range against three owned reports. Hodge requirements and p16 norm normalization checked; immutable primary PDF version cached/hash checked.",
+    "paid": [
+      "Actual nonliteral adelic radial model exists with all-place coherence, primitive degree0 and source-specific nef domination.",
+      "Radial exact energy −M_p²=∫|p′|²>0 fails principal/radical descent for p.",
+      "Finite-n η0 trace preserves c/d0 but loses S_exp tails and fullζ factor; legal compact-source three-moment repair remains.",
+      "All real scalar finite-n radial logmetrics converge uniformly onP1 iff a_RR→0, uniquezero limit; no nontrivial degree-normalized uniformlimit.",
+      "Fixed physical carrier gives metric energy~t² vs actualfullQ~log|t|, excluding only frequency-independent strict relative comparison for this radial map."
+    ],
+    "unpaid": [
+      "Canonical principal-compatible nonroot quotient object, complex Hermitian source geometry.",
+      "Full same-source Γ/primepower/dual-pole intersection comparison, coverage/coupling, source/growth uniform fees.",
+      "Growth wholecore/allheight and usualΞ identification."
+    ],
+    "actual_direction": "Only specified p/finite-n/radial repairs tested, with actual source coefficients; generic metric sign or emptyprincipalclass is not wholeQ positivity.",
+    "strongest_old_net": "No new wholecount/PSD/Ξ over≤538 plus543/549/550/551. 519 relation range and537 probe are old. Specific repaired-class fees inform stop; they do not closeGoal2/3.",
+    "escapes": "OtherGreen/nonlocal/derived/source-adapted/variable-domain/all-place/nonlinear and paid growth norms remain unexcluded."
+  },
+  "decision": {
+    "source_status": "stopped",
+    "contract_status": "C021 stopped; no C022",
+    "bottleneck_changed": "Local source range/repair distinction sharpened; main signed/core/Ξ bottleneck unchanged.",
+    "next_action": "reviews/2026-10-14/adelic-primitive-source/next-principal-quotient-norm-gate.md",
+    "reentry": "Actual nonroot quotient construction with independent fullsource/growth fees and strongest-old net, or legitimate core-class boundary including allowed repairs."
+  },
+  "pending_processes": [],
+  "inventory": "Root list_agents verified all three owned reviews completed. No retained exec session or numeric producer started in this turn; all command exits observed.",
+  "scope": "Hashes/checkpoints identify source versions; semantic closure above is the root audit, not automatic mathematical certification.",
+  "goal_lf_sha256": "8b0f8f901681f6241c2dd129d9e787ef226e87d16acd444332d3a6f9aa6f51d8",
+  "goal_complete": false
+}

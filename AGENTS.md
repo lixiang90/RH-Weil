@@ -40,3 +40,8 @@ Use existing decisions for this trigger, never another round counter.
 Before claiming a new net consequence, compare the strongest consequence already
 implied by baseline assets, including other exact decompositions. Improving a
 weaker old sub-bound is not a new whole-object result.
+Resume the unique next action in STATE, not an already-stopped contract's budget.
+Keep map domain/range, relation/quotient/physical roles, sign and norm transport
+in the original consumption record. A legal intermediate object is not coverage.
+Freeze affected downstream consumption after a semantic dependency change;
+append its correction and re-close premises before reusing it.

@@ -1,0 +1,223 @@
+{
+  "schema": "rh-weil-macro-checkpoint-v1",
+  "created_for_client_date": "2026-10-14",
+  "git_head_at_checkpoint": "56270972893773289738ad258151bb4174cb742a",
+  "state": {
+    "schema": "rh-weil-macro-state-v1",
+    "updated_for_client_date": "2026-10-14",
+    "baseline_commit": "0c4f3a3eb609bb1d9564138fa4a35701f05605f2",
+    "historical_baseline_commit": "3a72930e9f9f554b03b41d17d8c8002f1813ca82",
+    "goal": "goals/GOAL.20261014.md",
+    "workflow": "goals/RESEARCH_WORKFLOW.md",
+    "cadence": "goals/review-cadence.json",
+    "decisions": "goals/DECISIONS.md",
+    "latest_strategy": "goals/reviews/2026-10-14-principal-quotient-and-research-recovery-strategy.md",
+    "latest_decision": "D20261014AA",
+    "macro_frontier": "goals/MACRO_FRONTIER.md",
+    "macro_summary": "goals/reviews/2026-10-14-macro-refresh-and-causal-budget.md",
+    "latest_macro_review": "goals/reviews/2026-10-14-joint-sources-and-form-core-review-cycle-11.md",
+    "latest_iteration": "notes/549-mobius-window-norm-full-cofactor-gram-and-physical-synthesis-gap.md",
+    "macro_control": {
+      "schema": "macro-recovery-v2",
+      "goal_epoch": "G20261014",
+      "goal_lf_sha256": "8b0f8f901681f6241c2dd129d9e787ef226e87d16acd444332d3a6f9aa6f51d8"
+    },
+    "macro": {
+      "long_objective": "新的成长域独立实际算术输入/同对象ζ约束，或成长核心实质方法类边界；扣除≤538基线。",
+      "unpaid_bottleneck": "G1与551collision/basis费已付，fullmixed/G2/成长core/Ξ仍open。552合法radialmodel不保principal，E关系像不覆盖非根；不同quotient/fullWeil费用仍未付。",
+      "why_this_contract": "首adelic门已做：模型合法不等于principal下降/非根覆盖；指定finite-n scalar uniform仅零。下一先扣518/519/526，再核关系平移原L2/Dlog闭包与nonlocal readout成长费，不延radial/旧source标签。",
+      "paused_routes": [
+        "零点比例优化",
+        "无零区域优化"
+      ],
+      "stopped_or_downgraded": [
+        "C008不等待、C001冻结；等价酉化/临界源修正降级；535指定无费桥边界，逃逸见frontier。",
+        "C011539/540constant费、C012541absolute费、C013542强旧覆盖、C014543thermal、C015544旧Euler均停止；准确范围见frontier。",
+        "C016545 directnorm/净cusp、C017546特殊joint/补空间、C018547openrelative、C019548旧criticalRH强度均止损；合法修复保留。",
+        "C020 source费/550强旧O1入口0；C021 G1真G2open入口0；551 MV来源/最后basis必要门0结束，fulljoint逃逸保留。",
+        "552 adelic类别来源0止损：radial/principal和finite-n scalar uniform准确范围；otherGreen/nonlocal/allplace/不同域仍未排。"
+      ]
+    },
+    "primary_contract": {
+      "id": "C021",
+      "path": "goals/contracts/C021-full-cell-fourier-occupation-and-gamma-carry-admission.md",
+      "status": "stopped",
+      "iteration_budget": 1,
+      "settled_iterations": [],
+      "stage": "C021 stopped且不重开；552来源0结束，无C022。当前只principal quotient norm/修复费用范围门。",
+      "next_action": "读adelic-primitive-source/next-principal-quotient-norm-gate：先核518/519/526最强旧，再核中心化principal p全部平移在physical L2/Dlog的闭包与source-defined线性/nonlocal metric mod-base energy读出的必要norm/growth费。保fixedwindow/cofinal/source适应/不同域/place/非线性修复；仅旧bounded障碍即来源0停，不按Q反造或建C022。",
+      "stop_rule": "预算1完整准入，只有独立actualΓ/fullcarry新費或合法联合核心反例才结算；source/primitive/单q非紧/unknownG2入口0停。全source净值与最强旧重审，head/mixedPSD/Ξ另付；不增N/ordinary诊断/ζ拟合。"
+    },
+    "support_contracts": [],
+    "must_not_forget": [
+      "同G20261014 epoch/0c4f≤538固定基线；535/537/538及最新已结算前沿两层去重，不滚基线。",
+      "成果按原证明/root前件闭合记录消费：对象norm域/源成长量词/已付误差/actual方向/未付coupling/净值；hash/check不代证明。",
+      "actualΓ=2θ′、全部pp/双pole、原L2/Dlog/complex源；单供应器负不推wholeQ负。",
+      "C008止损不等待、C00112组ordinary冻结；不盲增N/精度或ζ拟合；比例/零区暂停、降级路线不自动复活。",
+      "545 direct合法非紧及paidnorm保留；546补空间捕获fixed责任；547 Γrelativeopen；548 critical/polylog⇔RH非独立input。",
+      "549 fixedB/finiteτ/averagecentre原du，fullκ flatunitlabel/normalizedΓQ费真；Γoperator²只/β²，非allheight/allWeilsource。",
+      "549 actualα1质量M未付；550旧聚合O1/topband已蕴含，单band不付cofinal全height；μ shortest反例不排fullflatGram/跨κsigned。",
+      "C021 changedΠa原norm/rankN−1/φflatmean0，不是547旧R且不继承Γ100；detailpole0但mixed仍在；actual fullUq=Dq+Cq，全properpowers/carry保留。",
+      "Occupation仅Dpart；G1原Γ/cell-log桥现已核A4/C56。fullsignedcarry非compact只反free/finite-rank删；G2/conditionalwholecount未付。",
+      "551 collision质量是actual方向已付，ALL basisdiag非ALL profiles；MV源结束。406 η0只主关系见证，552 radialmetric合法却不保principal；old519 E关系像不覆盖f0，real物理坐标r=e^u/2 f、Q=2dc−2B；其它修复不免费排。",
+      "连续source/非core触三句准入，无新physicalrow桥只一个原件定位来源审查；不复制counter/无限改paper标签。",
+      "唯一cadence按完整数学轮；组织/恢复/初定位/推送0轮，合同止损和回复不complete宏观Goal。"
+    ],
+    "evidence": [
+      {
+        "path": "notes/537-source-exact-weil-window-positive-tail-admission.md",
+        "kind": "proved",
+        "scope": "旧完整Q fixed L17/16全complex/Dlog正性，Γ/pp/双pole与误差桥。"
+      },
+      {
+        "path": "notes/538-actual-weil-geometric-upper-and-full-inertia-gates.md",
+        "kind": "proved",
+        "scope": "旧同窗真正simple-even/gap，非成长/RH/Ξ。"
+      },
+      {
+        "path": "notes/543-full-gamma-heat-arithmetic-records-and-thermal-boundary.md",
+        "kind": "proved",
+        "scope": "新cofinal whole count CeS省L；thermal leadingS不变，非PSD/Ξ。"
+      },
+      {
+        "path": "notes/549-mobius-window-norm-full-cofactor-gram-and-physical-synthesis-gap.md",
+        "kind": "proved",
+        "scope": "MR原norm/fullflat/normalizedΓQ費真；550更强旧actualtopband O1后仍无actualcore净值，一次549数学不重复。"
+      },
+      {
+        "path": "notes/550-physical-row-mixed-source-admission-and-strong-old-aggregate.md",
+        "kind": "cited",
+        "scope": "GY directAP/strong-old O1恢复入口0；Πa occupation源真，actualΓ/fullcarry/whole净值仍open。"
+      },
+      {
+        "path": "reviews/2026-10-14/c021-first/actual-gamma-full-cell-domain-and-energy-audit.md",
+        "kind": "proved",
+        "scope": "C021 G1 ALL N/ALL R_a∩Dlog Ecell≤4JΓ+56logNnorm²；原域/weight/wrap全付。G2/whole未付，0单独结算。"
+      },
+      {
+        "path": "notes/551-actual-primepower-collision-mass-and-hilbert-source-boundary.md",
+        "kind": "proved",
+        "scope": "源0：actual全q母质量12log²N，nativegap证书-only失费，parent1 ALL N/m响应log⁴；fullmixed/G2/whole未付。"
+      },
+      {
+        "path": "notes/519-f1-closed-source-image-and-degree-moments.md",
+        "kind": "proved",
+        "scope": "旧E像=完整ζ-jets关系理想I，Pan双target矩；不覆盖actual非根f0。"
+      },
+      {
+        "path": "notes/552-radial-adelic-green-principal-and-comparison-gate.md",
+        "kind": "obstruction",
+        "scope": "源0：actual radial对象合法但不保principal；ALL real finite-n scalar uniform仅零极限；real Q/B坐标及非根范围准确，非whole/Goal3。"
+      },
+      {
+        "path": "reviews/2026-10-14/adelic-primitive-source/root-consumption-scope.json",
+        "kind": "cited",
+        "scope": "原PDF版本/三独审hash与root前件闭合；scope/修复/strong-old net已核，fullWeil与growth桥open。"
+      },
+      {
+        "path": "reviews/2026-10-14/adelic-primitive-source/next-principal-quotient-norm-gate.md",
+        "kind": "open",
+        "scope": "唯一下一原norm/关系平移与合法nonlocal修复范围；旧强扣除先行，无新数学合同。"
+      }
+    ],
+    "pending_processes": [],
+    "runtime_goal_observation": {
+      "status": "active",
+      "observed_on": "2026-10-14",
+      "created_at_epoch": 1791936604,
+      "basis": "Root现场get_goal同createdAt1791936604 active，原观察存adelic-primitive-source/root-consumption-scope.json；文本完善继承同实例。"
+    },
+    "goal_completion_requested": false,
+    "checkpoint": "goals/checkpoints/2026-10-14-macro-summary-and-adelic-gate-reviewed.json",
+    "last_verified_remote": {
+      "repository": "https://github.com/lixiang90/RH-Weil",
+      "commit": "2f75b92879906d0e552216beb03aafb4c237a332",
+      "basis": "Root现场完整HEAD=remote main SHA且clean；551/source原稿=receipt=Gitindex，原PDF/text cache hash已核且未tracked；Goal/固定基线/checkpoint结构通过。后续仅remote/checkpoint metadata，不滚基线/cadence。"
+    },
+    "completion_audit": {
+      "goal": "goals/GOAL.20261014.md",
+      "baseline_commit": "0c4f3a3eb609bb1d9564138fa4a35701f05605f2",
+      "goal_lf_sha256": "8b0f8f901681f6241c2dd129d9e787ef226e87d16acd444332d3a6f9aa6f51d8",
+      "mathematical_gate": "open",
+      "final_execution_gate": "not-eligible",
+      "basis": "同G20261014/固定基线。552只是关系范围恢复及指定radial/finite-n类别准入，nonroot quotient/fullWeil/growth/Ξ未付；组织和止损不complete。"
+    },
+    "historical_completion_receipts": [
+      "goals/goal-completion-receipt.20261014.json",
+      "goals/goal-completion-receipt.20261014-continuation.json"
+    ],
+    "process_inventory_observed_on": "Root现场list_agents三本轮独审均completed，rawhash核；无数字producer/续execsession，所有shellexit已观察。"
+  },
+  "cadence_snapshot": {
+    "schema": "rh-weil-research-review-cadence-v1",
+    "user_instruction_date": "2026-10-08",
+    "minimum_rounds": 4,
+    "target_rounds": 6,
+    "maximum_rounds": 8,
+    "counting_unit": "completed research continuation iteration, not tool calls or files",
+    "rounds_since_review": 1,
+    "last_review": "goals/reviews/2026-10-14-joint-sources-and-form-core-review-cycle-11.md",
+    "last_review_baseline_commit": "25d856b7b15f1b7dec6fb971c53f15d7f5ec174b",
+    "last_review_completed_round_count": 4,
+    "last_review_trigger": "Fourth completed iteration542/543/545/546; 544 old-source recovery zero. True joint costs but thin class complement Dlog captures all fixed responsibility; stop thin-positive loop, select density-compatible core and Gamma-relative signed input.",
+    "last_completed_round": "notes/549-mobius-window-norm-full-cofactor-gram-and-physical-synthesis-gap.md",
+    "last_completed_round_date": "2026-10-14",
+    "last_completed_round_baseline_commit": "0c4f3a3eb609bb1d9564138fa4a35701f05605f2",
+    "latest_user_directed_review": "goals/reviews/2026-10-14-principal-quotient-and-research-recovery-strategy.md",
+    "latest_user_directed_review_baseline_commit": "0c4f3a3eb609bb1d9564138fa4a35701f05605f2",
+    "latest_user_directed_review_scope": "用户再次总结/完善同Goal，组织0与552真实类别源门0；关系像/非根坐标及radial/finite-n准确止损，不滚基线/周期。",
+    "current_research_focus": "552来源0结束；下一唯一principal quotient原L2/Dlog/nonlocal范数费用门先扣强旧，保修复；C021 stopped、无C022，cadence保持1。",
+    "weil_f1_rounds_since_historical_review": 27,
+    "last_completed_round_note_paths": [
+      "notes/524-f1-mobius-cutoff-taylor-obstruction-and-repair.md",
+      "notes/525-f1-smoothed-mobius-probes-and-arithmetic-strength.md",
+      "notes/526-f1-faithful-two-weight-hilbert-quotient-and-defect.md",
+      "notes/527-weil-reflection-source-signs-and-arithmetic-sensitivity.md",
+      "notes/528-actual-prime-reflection-relative-bound-obstruction.md",
+      "notes/529-full-weil-positive-cone-semigroup-boundary.md",
+      "notes/530-archimedean-sonin-prime-compact-repair-boundary.md",
+      "notes/531-semilocal-sonin-positive-trace-and-non-hilbert-schmidt-cutoff.md",
+      "notes/532-actual-sonin-prime-symbol-and-compact-weil-bridge.md",
+      "notes/533-actual-late-prime-sonin-boundary-square.md",
+      "notes/534-actual-uniform-sonin-subterms-and-trace-consumption-gap.md",
+      "notes/535-actual-first-prime-sonin-log-resonance-and-indefinite-error.md",
+      "notes/536-compact-window-certificate-admission-and-pointwise-scope.md",
+      "notes/537-source-exact-weil-window-positive-tail-admission.md",
+      "notes/538-actual-weil-geometric-upper-and-full-inertia-gates.md",
+      "notes/539-growing-weil-prime-cost-and-constant-tail-boundary.md",
+      "notes/540-growing-constant-tail-gaussian-reward-cost.md",
+      "notes/541-native-chebyshev-variation-and-full-gamma-boundary.md",
+      "notes/542-actual-prime-high-moments-and-strong-baseline-audit.md",
+      "notes/543-full-gamma-heat-arithmetic-records-and-thermal-boundary.md",
+      "notes/545-modular-packet-norm-cusp-blindness-and-weil-transport-gate.md",
+      "notes/546-arithmetic-comb-full-weil-positivity-and-form-core-noncoverage.md",
+      "notes/549-mobius-window-norm-full-cofactor-gram-and-physical-synthesis-gap.md"
+    ]
+  },
+  "normalized_lf_sha256": {
+    "AGENTS.md": "dfe6825566bdad921871d38c3b3198aba41b41d495b432cddf21a3d496981915",
+    "goals/DECISIONS.md": "4b496ac982c4371bfd721eb5d71088e14b49c6808c8e04b5510de112d80dd592",
+    "goals/GOAL.20261014.md": "8b0f8f901681f6241c2dd129d9e787ef226e87d16acd444332d3a6f9aa6f51d8",
+    "goals/MACRO_FRONTIER.md": "9ec5951ad5cc50d0c3c9d37cb34d37cb521ad0ede665458952bf536f26465208",
+    "goals/RESEARCH_WORKFLOW.md": "9301c5ecc9bf4487f49ecbbf094c2fcbfce77e9d080f39140c9740bcd2688790",
+    "goals/STATE.json": "f81c4ea1af9ce310607fc3f69ed63fbe4d4c3249949adc7af183cc4f19fd4348",
+    "goals/contracts/C021-full-cell-fourier-occupation-and-gamma-carry-admission.md": "69dd9c80a5e3355f1536e4d678e439a237423d25d4ebf927652821c0a5569a14",
+    "goals/review-cadence.json": "f750e55accb107f6eb5b1feacee92778a149f82297150b1c41b6a79755b92e9c",
+    "goals/reviews/2026-10-14-joint-sources-and-form-core-review-cycle-11.md": "58a7ae9d46408378bfbe3bc39940b5efa7495259eba35818cef0342c049df0dc",
+    "goals/reviews/2026-10-14-macro-refresh-and-causal-budget.md": "68a625d9b17475c6f15c318f222686f48e7a56bd5e0c5510d4763959e3f27f0c",
+    "goals/reviews/2026-10-14-principal-quotient-and-research-recovery-strategy.md": "a9dcc68e1a481a7e7b358947731bdecc49230a710d29696f1dbd8d324b0a93ed",
+    "notes/519-f1-closed-source-image-and-degree-moments.md": "93d39e6d932c9913f5feb77bed4d1ad096c9d984ed571e894576fce6c53b124c",
+    "notes/537-source-exact-weil-window-positive-tail-admission.md": "269a500556d37fc04a4e44efd2f0899414787743e529506dbbe7395a34eea9f8",
+    "notes/538-actual-weil-geometric-upper-and-full-inertia-gates.md": "fa515b15206cc499dacfa398c8cc977b5e7d6bb3406d0f7fdae8f7a87e91a532",
+    "notes/543-full-gamma-heat-arithmetic-records-and-thermal-boundary.md": "ce4d2d3271573e0f70df44dce7974fb8c0958557102542c149a77402b94d77e8",
+    "notes/549-mobius-window-norm-full-cofactor-gram-and-physical-synthesis-gap.md": "3c887d0366db52ed191918df234626af41054b31d1c0e35f66a25aa7c96b9041",
+    "notes/550-physical-row-mixed-source-admission-and-strong-old-aggregate.md": "9c7615fc8c923b77b3f6d5cb3a121f738c32897bf4e2651d3843152345bb6aa6",
+    "notes/551-actual-primepower-collision-mass-and-hilbert-source-boundary.md": "589a79976fa5513813540339456669a31e0a6a83fdcc9c573adee34b935af9f7",
+    "notes/552-radial-adelic-green-principal-and-comparison-gate.md": "670c05aac61921a4f36accc89638e2844fe7221df6341e4e7ff27964fb22d887",
+    "reviews/2026-10-14/adelic-primitive-source/next-principal-quotient-norm-gate.md": "121a6b981909f23c689b255e7afe98afa5cd74ad1f619b81bf748f0c461f653e",
+    "reviews/2026-10-14/adelic-primitive-source/root-consumption-scope.json": "aa0a501749baeb6e61f938c4d63364dee35f3639e3aadc65b8d42b1b8a76d9a3",
+    "reviews/2026-10-14/c021-first/actual-gamma-full-cell-domain-and-energy-audit.md": "894ca7c702f5bcfc35a82a52f37159cc6ef35320e3dc4bbc10544ac698553ab0",
+    "scripts/research_state.py": "b97b434e71fe6959f5357267512cb247e4d0a79bee4d0590eeecc2682dc535b9"
+  },
+  "scope": "Structural recovery snapshot; not proof or live runtime verification"
+}

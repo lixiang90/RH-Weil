@@ -7,8 +7,8 @@
   "workflow": "goals/RESEARCH_WORKFLOW.md",
   "cadence": "goals/review-cadence.json",
   "decisions": "goals/DECISIONS.md",
-  "latest_strategy": "goals/reviews/2026-10-14-collision-source-and-arithmetic-category-strategy.md",
-  "latest_decision": "D20261014Z",
+  "latest_strategy": "goals/reviews/2026-10-14-principal-quotient-and-research-recovery-strategy.md",
+  "latest_decision": "D20261014AA",
   "macro_frontier": "goals/MACRO_FRONTIER.md",
   "macro_summary": "goals/reviews/2026-10-14-macro-refresh-and-causal-budget.md",
   "latest_macro_review": "goals/reviews/2026-10-14-joint-sources-and-form-core-review-cycle-11.md",
@@ -16,12 +16,12 @@
   "macro_control": {
     "schema": "macro-recovery-v2",
     "goal_epoch": "G20261014",
-    "goal_lf_sha256": "f2a39cce3b4e9cb30a0187a32f827fde1c32cddd4e867601b3256bbe41aa3ff7"
+    "goal_lf_sha256": "8b0f8f901681f6241c2dd129d9e787ef226e87d16acd444332d3a6f9aa6f51d8"
   },
   "macro": {
     "long_objective": "新的成长域独立实际算术输入/同对象ζ约束，或成长核心实质方法类边界；扣除≤538基线。",
-    "unpaid_bottleneck": "G1已核，551全源collision母质量与parent1 ALL N/m响应已付；fullmixed/G2与成长wholecore/allheight/Ξ仍open。下一actual adelic primitive/Green对象及完整Weil比较未付。",
-    "why_this_contract": "MV来源最后necessary门完成仍只Gram对角，不能续unknown全norm或C021预算。改核不同核心箭头：406真实Fredholm源能否给旧独立Hodge定理合法canonical adelic对象及修复费；不是重读paper或literal∞旧反例。",
+    "unpaid_bottleneck": "G1与551collision/basis费已付，fullmixed/G2/成长core/Ξ仍open。552合法radialmodel不保principal，E关系像不覆盖非根；不同quotient/fullWeil费用仍未付。",
+    "why_this_contract": "首adelic门已做：模型合法不等于principal下降/非根覆盖；指定finite-n scalar uniform仅零。下一先扣518/519/526，再核关系平移原L2/Dlog闭包与nonlocal readout成长费，不延radial/旧source标签。",
     "paused_routes": [
       "零点比例优化",
       "无零区域优化"
@@ -30,7 +30,8 @@
       "C008不等待、C001冻结；等价酉化/临界源修正降级；535指定无费桥边界，逃逸见frontier。",
       "C011539/540constant费、C012541absolute费、C013542强旧覆盖、C014543thermal、C015544旧Euler均停止；准确范围见frontier。",
       "C016545 directnorm/净cusp、C017546特殊joint/补空间、C018547openrelative、C019548旧criticalRH强度均止损；合法修复保留。",
-      "C020 source费/550强旧O1入口0；C021 G1真G2open入口0；551 MV来源/最后basis必要门0结束，fulljoint逃逸保留。"
+      "C020 source费/550强旧O1入口0；C021 G1真G2open入口0；551 MV来源/最后basis必要门0结束，fulljoint逃逸保留。",
+      "552 adelic类别来源0止损：radial/principal和finite-n scalar uniform准确范围；otherGreen/nonlocal/allplace/不同域仍未排。"
     ]
   },
   "primary_contract": {
@@ -39,8 +40,8 @@
     "status": "stopped",
     "iteration_budget": 1,
     "settled_iterations": [],
-    "stage": "C021 stopped/G2open不重开；551 MV全源collision/证书准确反费/ALL N,m basis响应完成，来源0结束；下一仅actual primitive/Green来源适配，无C022。",
-    "next_action": "读c021-mv-source/next-adelic-primitive-source-gate与406/C015旧scope：从η0标准Fredholm族核canonical number-field projective/adelic M_f、各place metric/principal/Green及finiteη/normalizeddegree/nonliteral修复费用。η0只principal见证，actual非根r0及源坐标另核，不按Q反造metric。旧literal∞counter/局部Cartier/零主类或无actual对象即来源0停，input/test/net未齐不建数学合同。",
+    "stage": "C021 stopped且不重开；552来源0结束，无C022。当前只principal quotient norm/修复费用范围门。",
+    "next_action": "读adelic-primitive-source/next-principal-quotient-norm-gate：先核518/519/526最强旧，再核中心化principal p全部平移在physical L2/Dlog的闭包与source-defined线性/nonlocal metric mod-base energy读出的必要norm/growth费。保fixedwindow/cofinal/source适应/不同域/place/非线性修复；仅旧bounded障碍即来源0停，不按Q反造或建C022。",
     "stop_rule": "预算1完整准入，只有独立actualΓ/fullcarry新費或合法联合核心反例才结算；source/primitive/单q非紧/unknownG2入口0停。全source净值与最强旧重审，head/mixedPSD/Ξ另付；不增N/ordinary诊断/ζ拟合。"
   },
   "support_contracts": [],
@@ -49,13 +50,12 @@
     "成果按原证明/root前件闭合记录消费：对象norm域/源成长量词/已付误差/actual方向/未付coupling/净值；hash/check不代证明。",
     "actualΓ=2θ′、全部pp/双pole、原L2/Dlog/complex源；单供应器负不推wholeQ负。",
     "C008止损不等待、C00112组ordinary冻结；不盲增N/精度或ζ拟合；比例/零区暂停、降级路线不自动复活。",
-    "最强旧跨表示：016/028/068/164/167与550的actualtopband O1先扣；549 oldOlog6只是粗界，修正不重计数学轮。",
     "545 direct合法非紧及paidnorm保留；546补空间捕获fixed责任；547 Γrelativeopen；548 critical/polylog⇔RH非独立input。",
     "549 fixedB/finiteτ/averagecentre原du，fullκ flatunitlabel/normalizedΓQ费真；Γoperator²只/β²，非allheight/allWeilsource。",
     "549 actualα1质量M未付；550旧聚合O1/topband已蕴含，单band不付cofinal全height；μ shortest反例不排fullflatGram/跨κsigned。",
     "C021 changedΠa原norm/rankN−1/φflatmean0，不是547旧R且不继承Γ100；detailpole0但mixed仍在；actual fullUq=Dq+Cq，全properpowers/carry保留。",
     "Occupation仅Dpart；G1原Γ/cell-log桥现已核A4/C56。fullsignedcarry非compact只反free/finite-rank删；G2/conditionalwholecount未付。",
-    "551 collision质量是actual方向已付，ALL basisdiag非ALL profiles；MV源结束。406 η0只主关系见证，Yuan旧定理未应用actualQ，不以零类/反造metric付正性。",
+    "551 collision质量是actual方向已付，ALL basisdiag非ALL profiles；MV源结束。406 η0只主关系见证，552 radialmetric合法却不保principal；old519 E关系像不覆盖f0，real物理坐标r=e^u/2 f、Q=2dc−2B；其它修复不免费排。",
     "连续source/非core触三句准入，无新physicalrow桥只一个原件定位来源审查；不复制counter/无限改paper标签。",
     "唯一cadence按完整数学轮；组织/恢复/初定位/推送0轮，合同止损和回复不complete宏观Goal。"
   ],
@@ -96,24 +96,24 @@
       "scope": "源0：actual全q母质量12log²N，nativegap证书-only失费，parent1 ALL N/m响应log⁴；fullmixed/G2/whole未付。"
     },
     {
-      "path": "reviews/2026-10-14/c021-mv-source/root-consumption-scope.json",
-      "kind": "cited",
-      "scope": "原PDF/text版本、三审/两组织response rawhash、root语义闭合与现场Goal；source终止0，非Goal完成。"
-    },
-    {
-      "path": "reviews/2026-10-14/c021-mv-source/next-adelic-primitive-source-gate.md",
-      "kind": "open",
-      "scope": "唯一下一canonical adelic/principal/Green适配；旧Hodge/406与literal∞推论先扣，修复费用/全Weil桥open。"
-    },
-    {
-      "path": "notes/406-f1-adelic-units-and-determinant-divisors.md",
+      "path": "notes/519-f1-closed-source-image-and-degree-moments.md",
       "kind": "proved",
-      "scope": "旧真实单位/非空analytic Fredholm主除子和标准读出；不是numberfield adelic/fullWeil实现，主关系与非根方向分开。"
+      "scope": "旧E像=完整ζ-jets关系理想I，Pan双target矩；不覆盖actual非根f0。"
     },
     {
-      "path": "reviews/2026-10-14/c015-admission/old-asset-deduction-and-next-source.md",
+      "path": "notes/552-radial-adelic-green-principal-and-comparison-gate.md",
+      "kind": "obstruction",
+      "scope": "源0：actual radial对象合法但不保principal；ALL real finite-n scalar uniform仅零极限；real Q/B坐标及非根范围准确，非whole/Goal3。"
+    },
+    {
+      "path": "reviews/2026-10-14/adelic-primitive-source/root-consumption-scope.json",
       "kind": "cited",
-      "scope": "旧YZ Hodge原对象/primitive条件来源，canonical M_f/Γ/pp桥仍缺；不以重读定理计新input。"
+      "scope": "原PDF版本/三独审hash与root前件闭合；scope/修复/strong-old net已核，fullWeil与growth桥open。"
+    },
+    {
+      "path": "reviews/2026-10-14/adelic-primitive-source/next-principal-quotient-norm-gate.md",
+      "kind": "open",
+      "scope": "唯一下一原norm/关系平移与合法nonlocal修复范围；旧强扣除先行，无新数学合同。"
     }
   ],
   "pending_processes": [],
@@ -121,10 +121,10 @@
     "status": "active",
     "observed_on": "2026-10-14",
     "created_at_epoch": 1791936604,
-    "basis": "Root现场get_goal同createdAt1791936604 active；本次观察保存c021-mv-source/root-consumption-scope.json。source0/策略0不完成宏观Goal。"
+    "basis": "Root现场get_goal同createdAt1791936604 active，原观察存adelic-primitive-source/root-consumption-scope.json；文本完善继承同实例。"
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-10-14-mv-source-final-and-primitive-gate-remote-verified.json",
+  "checkpoint": "goals/checkpoints/2026-10-14-macro-summary-and-adelic-gate-reviewed.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
     "commit": "2f75b92879906d0e552216beb03aafb4c237a332",
@@ -133,14 +133,14 @@
   "completion_audit": {
     "goal": "goals/GOAL.20261014.md",
     "baseline_commit": "0c4f3a3eb609bb1d9564138fa4a35701f05605f2",
-    "goal_lf_sha256": "f2a39cce3b4e9cb30a0187a32f827fde1c32cddd4e867601b3256bbe41aa3ff7",
+    "goal_lf_sha256": "8b0f8f901681f6241c2dd129d9e787ef226e87d16acd444332d3a6f9aa6f51d8",
     "mathematical_gate": "open",
     "final_execution_gate": "not-eligible",
-    "basis": "同Goal版本/固定基线：551仅源费与basis对角及native证书边界，fullmixed/G2/wholecore/Ξ未付；不同primitive对象适配尚open，数学gate不eligible。"
+    "basis": "同G20261014/固定基线。552只是关系范围恢复及指定radial/finite-n类别准入，nonroot quotient/fullWeil/growth/Ξ未付；组织和止损不complete。"
   },
   "historical_completion_receipts": [
     "goals/goal-completion-receipt.20261014.json",
     "goals/goal-completion-receipt.20261014-continuation.json"
   ],
-  "process_inventory_observed_on": "Root现场list_agents：三source审与两组织final response核均completed且落盘/hash核；无数值producer/续execsession/pending。"
+  "process_inventory_observed_on": "Root现场list_agents三本轮独审均completed，rawhash核；无数字producer/续execsession，所有shellexit已观察。"
 }
