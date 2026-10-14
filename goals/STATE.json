@@ -160,11 +160,11 @@
     "basis": "本轮root get_goal现场active、G20261014身份一致；C011二轮费用已付并止损，完整macro数学门仍open，C012 ready。"
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-10-14-c011-second-runtime-observed.json",
+  "checkpoint": "goals/checkpoints/2026-10-14-c011-proof-remote-verified.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
-    "commit": "6d60e4b7405020f5f1bd6546b0c1ff4a547f3940",
-    "basis": "本次新Goal/恢复机制/539原证据版已实际HEAD=remote main且clean；后续只保存观测metadata，不改冻结成果基线或计轮。"
+    "commit": "5ddecd8dfcfb5eb39b7f37ad060ba1924d522d6e",
+    "basis": "540/C011止损/C012 ready原证据版已现场HEAD=remote main完整SHA且clean；本次仅保存验证metadata，不改冻结成果基线或计轮。"
   },
   "completion_audit": {
     "goal": "goals/GOAL.20261014.md",
