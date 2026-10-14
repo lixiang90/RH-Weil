@@ -57,3 +57,17 @@ absolute费用κω相对完整logΓ的whole-source边界，实际signed残差却
 该输入弱于wholePSD/RH；工具/一般桥旧有，只消费新的actual joint预算与净谱后果。
 保低频中心井/odd pole，density不能直接当全源concentration；原pure phase-volume→RH已排。
 1–2轮如重复或无净改善即止损，新的signed/独立几何原定理与完整消费桥可改变优先级。
+
+## 最强旧反事实纠正与C014（D20261014O）
+
+C013的[542](../../notes/542-actual-prime-high-moments-and-strong-baseline-audit.md)全band高矩通过，
+但仅胜过Fourier弱2S上预算。原016的空间degree profile与028负迹已给强whole界，
+PNT下旧预算C L e^S；新leading S被旧资产覆盖，不能登记whole新净值。
+遗漏更强旧消费链已在宏观前沿/通用流程补强，原候选成功期待撤回，C013一轮止损。
+原cadence0→1一次，未到四轮复盘门；旧资产恢复/补审/入口准备不另计轮或reset。
+
+唯一C014保actual spatialD，审Γ killedheat/Trottertrace与正weighted A−κ√x record。
+先付zeroextension闭域、正kerneldomination、s>1 trace/η↓0 residue、实际step与strictcutofffee，
+再核cofinal真实record到新joint谱上预算。旧positive record选择是工具，未知wholeQPSD不是输入。
+新预算必须和最强028原积分ledger比较，不只leading指数或scalarheat子界。
+529 fullQ保正仍停止；PNT o(S)不可免费入指数。Goal数学门open，完整signed正性/Ξ仍未付。

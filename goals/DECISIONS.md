@@ -265,3 +265,21 @@ MV/k!/trace桥均是已有工具；只有newactual成长估计与strict净谱后
 它不恢复已排pure phase-volume→RH，不恢复暂停比例/无零优化；source/growth量词必须全审。
 无净改善或同对象旧结果则1–2轮止损，新的独立signed/几何输入会改变优先级。
 Goal active、完成gate open；科学进程空。novelty代理stream-error无原件未消费，root原件审查已补足。
+
+## D20261014O：高矩原账本通过但被更强旧谱界覆盖，立即止损
+
+新[542](../notes/542-actual-prime-high-moments-and-strong-baseline-audit.md)与独立source/allband/inertia逆审。
+actual高k、全部pp、Γlower/head/terminal/length和complex Dlog惯性运输通过，
+log坏集预算由特定二矩2S变为S+O(SlogL/L+L³)。这只胜过一个弱Fourier子预算。
+旧016 exactdegree与028负迹已蕴含更强whole上界S+A(e^L)+log(1+L)+O(1)，
+PNT还使eventualM=S，旧计数预算C L e^S。原候选whole净值因此不通过。
+撤回“比旧谱界strict改善”的候选判断，不把旧强资产恢复记新forcing。
+
+C013一完整新allband准入轮止损，原cadence0→1一次；补审/基线恢复不另计轮、不重置周期。
+这里区分晋级与计轮：新成果晋级要求净后果，完整失败准入也结算研究轮；
+generic工具/旧资产恢复零轮。D20261014N的“才能结算”只指成果晋级，不排除失败轮结算。
+实际signed成长/Ξ瓶颈未缩小，改变的是最强对照与行动优先级；Goal active、数学门open。
+唯一C014 ready预算2：保actual spatialdegree，先核Γ killedheat/domain/Trottertrace，
+再审正weighted A−κ√x的cofinal真实record及排除边界atomfee，尝试超旧C L e^S的joint净值。
+不消费529 fullQ保正；s↓1发散和actualstep profile必须付，PNT o(S)不免费进指数。
+新heat/record工具孤立恢复不晋级；无完整新净值1–2轮止损。C008/C001及所有暂停/降级约束保持。

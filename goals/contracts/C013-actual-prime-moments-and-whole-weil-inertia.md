@@ -1,6 +1,6 @@
 # C013：实际多素数高矩与完整 Weil 负惯性
 
-2026-10-14；cycle10选定唯一下一合同，ready，预算1–2完整轮。
+2026-10-14；cycle10准入，现已一轮stopped，预算1–2完整轮。
 准备/来源审查零轮；新Goal基线0c4f3a3/≤538不变。
 
 ## 为什么值得做、实际对象与独立输入
@@ -64,4 +64,16 @@ generic k!引理/MV/trace桥不计新成果。成功须actual growing高矩、�
 保留不利ledger；不会把纯phase-volume再用成已排RH捷径。
 若成立但只能给大量允许负谱，准确量化它相对基线的影响，不升级PSD/RH。
 重新准入需actual moment/collision的新输入或能支付whole谱的joint桥。
-当前尚无结算轮、科学process或新数值参数；唯一执行位置从STATE恢复。
+初始没有结算轮、科学process或新数值参数；唯一执行位置从STATE恢复。
+
+## 首轮结算与失败（D20261014O）
+
+[542](../../notes/542-actual-prime-high-moments-and-strong-baseline-audit.md)支付实际all-band高矩
+log(1+|E|)≤S+O(SlogL/L+L³)，原Γ/pp/head/k/长度/pole与全源运输均已付。
+但更强旧016 degree profile、028负迹已给log惯性≤S+A(e^L)+log(1+L)+O(1)，
+PNT下eventual||D||∞=S还给旧C L e^S预算。因此whole新净值失败，立即止损，
+不以胜过弱Fourier2S预算维持成功叙述，不再优化k或增N。
+本轮不同actual坏集预算与完整准入/逆审只在原cadence结算一次；
+旧强资产恢复、generic MV/k!/trace和各审查零新增轮/成果。
+Goal active、完整signed/Ξ责任未付。下一唯一C014保full spatial degree profile，
+审Γ killedheat与真实算术records到joint计数，超最强旧负迹对照才晋级。

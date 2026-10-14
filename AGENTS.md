@@ -29,3 +29,6 @@ action beats the alternative, and what would change that decision.
 New Goals inherit old results as inputs; an old completed result cannot complete
 a new Goal again. Keep detailed history in the frontier/evidence and STATE short.
 Goal creation, summaries and recovery checks consume no research iteration.
+Before claiming a new net consequence, compare the strongest consequence already
+implied by baseline assets, including other exact decompositions. Improving a
+weaker old sub-bound is not a new whole-object result.

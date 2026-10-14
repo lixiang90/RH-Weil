@@ -74,12 +74,19 @@ C012已经由[541](../notes/541-native-chebyshev-variation-and-full-gamma-bounda
 固定有限L²条件/pointwise majorant也不救。真实signed residual趋0、wholeQ最终正；
 signed/source分块/更强norm仍未排。入口恒等式和absolute旧思想不登记新输入。
 
-当前候选C013：保actual多prime相位，以MV有限均值+unique prime高矩审成长坏频集，
-付properpowers/完整Γ/allband绝对measure，再消费原027一般桥给wholeQ负惯性净约束。
-旧018二矩、223/267/455均值/四矩和一般k!/trace桥不是新成果；
-只有growth high-k实际算术账本严格改善旧粗whole谱界才结算，1–2轮无净值即止损。
-完整positive/Ξ责任仍open，不以density趋零冒充任意source Fourier质量小或RH。
-cycle10复盘说明为何停止连续容易反例并选择有独立原件的算术谱预算。
+C013已经由[542](../notes/542-actual-prime-high-moments-and-strong-baseline-audit.md)一轮止损。
+新actual高矩allband预算通过，但whole后果被更强旧degree/负迹界覆盖；
+不能只比较Fourier弱2S。新增measure不是newwholeforcing，generic工具及旧强资产恢复也不算。
+
+最强反事实必须记住：旧016 exactprofile给||D||∞≤S+A(e^L)，028负迹给
+n_−≤1+C L e^M。PNT已有资产还使eventualM=S，因此旧预算C L e^S可直接消费。
+实际Γ/pp/complex域/pole必须保持，旧half数字不消费。这里只恢复旧强资产，不滚动新Goal基线。
+
+当前候选C014：保full spatialdegree，审实际Γ killedheat及bounded potential trace，
+正weighted A−κ√x的cofinal arithmetic record提供profile下降，不用未知ζ位置。
+s>1 heattrace、s↓1发散、step endpoints/排除atomfee必须付，不凭PNT o(S)替换指数。
+只有新的joint全源运输及超最强旧负迹对照的实际净值才晋级，1–2轮无净值止损。
+它不复活529 fullQ标准锥保正，不自动消除PSD/Ξ瓶颈或完成Goal。
 
 现实备选：直接研究完整Γ高尾与prime/pole的同源signed联合估计，或新的多prime/算术几何来源。
 若变尺度split的全源必要费用无法与tail供应同时闭合，应优先备选而不是不断增N。
@@ -100,7 +107,8 @@ cycle10复盘说明为何停止连续容易反例并选择有独立原件的算�
 | 已核537/538固定窗 | 成果冻结，继续消费前件，不重复认证 | 新L需whole-source/prime进入/误差与成长责任，旧因子不能无声复用 |
 | constant-envelope搬运C011 | 539固定Ω失败及540全Ωscalar费用已付，两轮止损 | 极小τ/head-complement/full Γ/signed未排；重准入须独立whole预算，不仅增N/精度 |
 | full Γ/中心化primitive C012 | 541付native absolute门边界，一轮止损 | signed/source分块/更强norm未排；重新准入须实际signed原定理 |
-| 多prime高矩/whole惯性C013 | ready；MV/k!/trace桥都是旧工具 | 审actual成长allband费用与严格净谱改善；不复活纯测度→RH或暂停路线 |
+| 多prime高矩/whole惯性C013 | 542新measure账本真，whole净值被旧强界覆盖，一轮止损 | 重准入须保完整图/profile的新joint信息，不仅优化k或弱2S对照 |
+| Γ heat/算术record profile C014 | ready；完整Γ/domination/cofinalrecord均待root消费 | s↓1/全step/profile/实际端点及严格超旧C L e^S，wholeQ保正不准入 |
 | 比例/无零区域 | 用户要求暂停 | 仅用户明确恢复；历史形式化资产保留各自前件 |
 | 独立算术几何 | 副线，独立Hodge符号仍open | 原几何定理接同算术配对/ζ对象，不扩未符号化字段 |
 
