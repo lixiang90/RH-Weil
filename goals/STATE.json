@@ -121,14 +121,14 @@
     "status": "active",
     "observed_on": "2026-10-14",
     "created_at_epoch": 1791936604,
-    "basis": "Root现场get_goal同createdAt1791936604 active，原观察存adelic-primitive-source/root-consumption-scope.json；文本完善继承同实例。"
+    "basis": "Root推送后现场get_goal同createdAt1791936604 active；本轮详细原观察存adelic-primitive-source/root-consumption-scope.json，组织与来源0不complete。"
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-10-14-macro-summary-and-adelic-gate-reviewed.json",
+  "checkpoint": "goals/checkpoints/2026-10-14-macro-summary-and-adelic-gate-remote-verified.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
-    "commit": "2f75b92879906d0e552216beb03aafb4c237a332",
-    "basis": "Root现场完整HEAD=remote main SHA且clean；551/source原稿=receipt=Gitindex，原PDF/text cache hash已核且未tracked；Goal/固定基线/checkpoint结构通过。后续仅remote/checkpoint metadata，不滚基线/cadence。"
+    "commit": "09cb25ac2945755ec838d8237a2b364cb84045de",
+    "basis": "Root现场完整HEAD=remote main SHA且clean；552/三审raw=receipt=Gitindex，原PDF/text hash匹配且ignored；本Goal版本/固定基线/checkpoint结构通过。后续只remote/checkpoint metadata，不滚基线/cadence。"
   },
   "completion_audit": {
     "goal": "goals/GOAL.20261014.md",
