@@ -22,11 +22,12 @@ checkpoint记录核心文件哈希，不证明数学或工具运行态。
 本仓历史文件按基线保持，新入口不依赖这些外部源文件。
 新目标和状态直接以本仓为编辑源，不向上级写重复副本。
 保存、启动与有限检查通过不等于长期Goal完成。
-成果从原证明的前件闭合记录消费；最新549的完整label费仍未支付实际全1方向。
-551 actual碰撞母质量已付，basis响应仍不付fullmixed；MV来源已结束。
-552 actual radial adelic对象合法但principal下降失败，finite-n uniform修复只零极限；
-E关系像不覆盖非根probe。当前唯一动作读STATE/最新战略，stopped合同不自动重开。
-连续source/非核心合同后先核三句准入；缺核心桥时只保一个原件定位的来源审查。
+成果从原证明/root前件闭合记录消费；来源出稿、逆审、root消费与结算分阶段恢复。
+549 label费不付actual全1；C021 G1已付/G2open且stopped；551 MV与552 adelic来源结束。
+553 principal范数属强旧；554 theta正源修复不付gap，均来源0。
+最新555/C022完整prime norm~e^L与whole预算log主项2→1已结算；仍exp(e^L)，core/Ξ未付。
+唯一下一动作见STATE/最新战略，不按已结束门重跑、不预建C023。
+动作阶段转换同步state；复用handle核当前任务/输出，empty pending仍需现场重查。
 
 上版[Goal](GOAL.20261013.md)及535方法边界完成收据为历史；
 537/538 fixed-window全源正性与真正底态排序继续可消费，但不能再次完成本版。

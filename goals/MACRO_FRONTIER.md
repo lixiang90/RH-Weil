@@ -27,6 +27,9 @@
 | C021 G1原域桥 | ALL N≥4/ALL R_a∩Dlog，Ecell≤4JΓ+56logNnorm²；hardcut/offcell/wrap/sqrtx均付，root与独立逆核 | only Γ-domain/source桥；G2 fullnondivcarry及条件wholecount未付，不独立结算数学轮 |
 | 551 MV来源 | actual全q碰撞系数母质量≤12log²N；nativegap账本反费族保Γ/actualB；parent1 ALL N/m真实响应≤10^7log⁴(2+minN|m|) | only collision/source与basis diagonal；fullmixed/G2/whole仍open，来源到此0结束 |
 | 552 adelic类别门 | 旧519 E关系像与真实f→r坐标；actual P1_Q radial metric合法，指定principal下降失败；finite-n任意scalar uniform仅零极限 | source0止损；非根商映射/fullWeil/成长费未付，otherGreen/nonlocal/allplace/域修复未排 |
+| 553 principal范数门 | 原L²/Hlog cyclic闭包、global bounded读出和cofinal sharp单坐标费用；旧526 faithful逃逸 | 最强旧直接后果0；不同域/Fréchet/source适应/global非uniform仍未排 |
+| 554 theta正跳 | ALLcomplex compact及另付global cutoff，μ与natural域、actual正源适应、窗运输平方费sharp order e^L | 来源0；modified gap/非根几何/净符号未付，不复活酉化 |
+| 555/C022成长费用 | ALL L/ALLcomplex完整prime norm~e^L；whole预算log leading≤e^L，胜543记录窗2e^L | exp(e^L)危险core仍在，非PSD/RH/Ξ；scalar优化停止，joint逃逸保留 |
 
 原件：[535](../notes/535-actual-first-prime-sonin-log-resonance-and-indefinite-error.md)、
 [537](../notes/537-source-exact-weil-window-positive-tail-admission.md)、
@@ -38,43 +41,27 @@
 [548](../notes/548-canonical-weil-mixed-response-and-critical-input-boundary.md)、
 [549前件闭合记录](../notes/549-mobius-window-norm-full-cofactor-gram-and-physical-synthesis-gap.md)。
 
-## 现在为什么先核principal quotient与范数费用
+## 当前因果位置：成长whole费用已推进，核心仍未付
 
-主要未付箭头仍是成长同source/全部实际系数的Γ/pp/双pole signed费用和core覆盖，随后ζ/Ξ识别。
-549已推进source费阶段，未推进宏观forcing。所有固定源/参数、成长参数/全部源量词分别消费。
-“每fixedκ小 → fullflat Gram小 → actual全1合成小”中最后一箭头没有付清。
-最短H<1的normalizedμ抵消实际失败，但可和generic尾仍使fullflat Gram小；
-因此最短窗反例不能成为“所有joint方法失败”的停止理由。
+553 principal原norm门被405/523/526最强旧蕴含，来源0结束；忠实nonuniform/cofinal/源适应逃逸仍在。
+554完整theta正跳及μ域/cutoff修复已付，modified Poincaré仍whole正性责任，来源0停止。
+fixed g的巨费和窄域不排actual正mixtures；其source-adaptive合法性也不付独立符号。
 
-最强旧扣除要跨表示：016/028的degree/负迹界不能用弱Fourier界替换；
-068给conditional canonicalO(sqrtlogN)；549列的actualII O(log⁶Y)只是粗旧界，
-550另恢复085/159/164/167可蕴含的frozen topband actualII O1，今后采用更强对照。
-当前paid fee不能据此再删除已由oldO1/β删除的finiteκ head，也未改543 wholecount。
+555/C022新支付ALL L/ALL原complex L²完整primepower加权row费用，||A_L||~e^L。
+保actual2θ′／properpowers／双pole，negative oddpole仅+1；whole预算
+B_new=1+(L/π)∫[β_L+1−Γ]_+，log B_new/e^L→1。
+旧543同记录窗Cexp S、S~2e^L，严格净改善；不能把o(e^L)在指数中误删。
+新界覆盖ALL L，但预算仍exp(e^L)，actual负谱存在／PSD／Γrelative小费／dangerouscore／Ξ仍未付。
+C022结算1次后停止pure scalar norm优化；sharp A不排finitecodim／pole／Γjoint。
 
-C020一次准入后停止范数/finitehead主攻；GY来源审查现由550入口0停止。
-保充分大固定cutoff的合法逃逸，但micro主项不支付未给的ΛΛ/新净core。
-此前C021采用新的合法Πᵃ fullunitcell head、原du Fourieroccupation算术输入，
-source矩阵与条件wholecount已冻结。
-该Πᵃ与547原常值head不同，不能继承旧canonicalΓ100；finitecodim fullR_a不同于546薄comb。
-单prime和fullsignedcarry均非compact，只排free/finite-rank删除，付Γrelative逃逸保留。
-G1的actualΓ原域桥现有自含uniformN证明并已root/独立逆核；
-G2及conditionalquasipoly count没有预付；唯一动作和准入/止损在STATE/最新决策/合同。
-G2准入现收口为open：低m/q抑制、fullsum非紧源的Γ价及finiteband upper不付allDlog；
-C021入口0停止。551原间隔来源现已配对并执行最后实际响应门：碰撞母质量全源已付，
-native positive ledger被准确停止，basis响应全N/m已核；fullmixed仍缺，来源整体0结束。
+最强旧对照跨表示：550恢复actual topband O(1)优于粗log⁶；549 fullflat-label不付actual全1；
+551 ALL basisdiag不付fullmixed。C021 G1已付/G2open，不按旧预算重开。
+来源原稿、root消费状态与责任见553/554/555及root-consumption-scope，不由文件存在升级proved。
 
-继续basis diagonal不能付fullsource Gram，未知强norm桥也不是input。
-552执行了406真实非空Fredholm源与旧独立arithmetical Hodge定理的canonical adelic/
-primitive/Green来源适配，保finite/normalizeddegree/nonliteral修复，核实际模型与费用。
-literal无限零点不进finiteprojective是旧直接后果，不重计；η₀主关系与actual非根probe须分开，
-原source到physical Q坐标不暗合，不以Q值反造metric。当前动作/来源止损见新战略与STATE。
-552已实际完成这个来源门。519的E像是关系理想，非根f0不能来自ordinary Eη；
-原physical坐标r=e^(u/2)f及Q=2dc−2B已核。radialmetric确实合法却不保principal下降，
-finite-n scalar uniform只零极限，不继续调scalar/R。旧literal∞不是当前停止理由。
-下一唯一门先扣518/519/526最强旧，核principal平移在原L²/Dlog的闭包与
-source-defined nonlocal读出的必要norm/growth费；准确预算/修复范围见STATE/最新战略。
-这直接检查另一条核心箭头：独立数域符号怎样消去关系并保非根，而不是只给合法对象标签。
-现实备选仍是receiver-aware/fulljoint carry或physical ΛΛ新输入；没有input/test/net三句不建数学合同。
+唯一下一章节来源门核030 fixedprofile相消向全源覆盖的frequency/原Γ价与core责任。
+先读其原Stieltjes费用，再做legal modulated allprime/pole/core负对照，Γ(log t)同时保存；
+weakzero/非紧不能单独否定paidΓrelative。无具体uniform input/test/net则source0停，不预建C023。
+理由、两个备选与使选择失效的证据见当前战略和STATE；这里不复制执行/进程/cadence。
 
 ## 路线状态与重准入
 
@@ -96,6 +83,8 @@ source-defined nonlocal读出的必要norm/growth费；准确预算/修复范围
 | C021 | G1 actualΓ/cell桥已付，G2 fullcarry仍open；入口0停止 | 全joint运输/费用新输入或保实际Γ的合法核心反例；不重计域桥或以finiteband重开预算 |
 | MV 551 | actual碰撞与basis响应完成，nativegap账本止损；来源0结束 | 新fulljoint输入才重新准入，不延单mode或更强unknownnorm桥 |
 | 406→旧YZ Hodge / 552 | 类别门0结束；radial合法但不经principal商，finite-n scalar uniform仅零；旧literal∞已扣 | 非根quotient/Green/nonlocal/allplace/不同域修复及完整Weil比较新费；不以零主类或global bounded失败排所有几何 |
+| principal/theta 553/554 | old闭包／真实正源修复已付，unknowngap来源0止损 | 新principal-compatible非根对象／完整joint符号，非继续调ground/权/指标 |
+| C022/555 | 全源prime norm sharp及whole预算主项改善，一轮结束scalar主攻 | 保finitecodim／pole／Γjoint；下一只030章节覆盖门，具体全源core新费才建合同 |
 | 比例/无零区域 | 用户要求暂停 | 仅用户明确恢复，不因调用经典输入而重启优化 |
 
 ## 恢复的六项短答案

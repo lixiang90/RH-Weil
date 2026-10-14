@@ -45,3 +45,9 @@ Keep map domain/range, relation/quotient/physical roles, sign and norm transport
 in the original consumption record. A legal intermediate object is not coverage.
 Freeze affected downstream consumption after a semantic dependency change;
 append its correction and re-close premises before reusing it.
+
+At execution/review/root-consumption/settlement transitions, synchronize the existing
+stage and next action with actual outputs; do not defer all state updates to the reply.
+An emitted draft is not a root-consumed result. Reused agent handles require matching
+current task and output paths. Whole-budget improvement and removal of a key bottleneck
+are distinct claims; neither label alone passes the macro completion gate.

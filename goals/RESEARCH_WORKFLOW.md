@@ -167,3 +167,19 @@ pending必须记handle种类/值、状态、输出路径、最后观察和安全
 官方[Goals文档](https://developers.openai.com/cookbook/examples/codex/using_goals_in_codex)
 说明Goal为线程状态并需具体证据完成；[memory/compaction示例](https://developers.openai.com/cookbook/examples/agents_sdk/building_reliable_agents_memory_compaction)
 区分当前运行恢复、通用方法经验和研究原件。本仓实现文件规程，不声称自动平台钩子已配置。
+
+## 动作交接与结果强度（本次复核）
+
+当前阶段须区分执行、出稿／逆审、root消费和结算。在阶段转换时同步STATE的stage/action及
+原收据消费状态，不等到回复末尾；中断恢复先核真实输出，避免再次运行已结束动作。
+同agent handle被followup复用时必须核当前任务／output，旧pending路径不可沿用。
+这使用现有状态与收据，不另建任务数据库。证据已出稿不等于前件已由主代理闭合。
+
+结果强度分开：来源合法／纠错决策、完整费用、整体净后果、关键瓶颈改变、最终目标完成。
+整体预算改善可是真结果而关键瓶颈仍在；每次说明规模／覆盖剩余责任，不以whole标签晋级。
+跨领域以用户真实验收为最终门，数学预算、实验代理指标或工程局部benchmark不能自行替代它。
+
+语义依赖版本保在原收据：对象、范围、角色、规范或量词改变先freeze受影响后果，
+按修订版本重闭合后解冻。byte hash只识别版本，结构check无法检行动是否过时或证明是否正确。
+这次实际修正：短STATE已从已结束principal门同步到新费用结算后的唯一来源动作；
+Goal重复规程原位合并，保固定基线／唯一cadence／原完整验收，不增加组织层。
