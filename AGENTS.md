@@ -29,6 +29,14 @@ action beats the alternative, and what would change that decision.
 New Goals inherit old results as inputs; an old completed result cannot complete
 a new Goal again. Keep detailed history in the frontier/evidence and STATE short.
 Goal creation, summaries and recovery checks consume no research iteration.
+Consume each result with its root premise-closure record: object/norm/domain,
+source and growth quantifiers, paid dependencies/errors, actual coefficient
+direction, remaining coverage/coupling and strongest-old net consequence.
+Several locally proved pieces do not automatically close a stronger claim.
+After consecutive source-only or noncore contracts, require a concrete
+input/test/net-consequence admission before starting another math contract;
+if absent, retain one chapter-specific source review with a stop condition.
+Use existing decisions for this trigger, never another round counter.
 Before claiming a new net consequence, compare the strongest consequence already
 implied by baseline assets, including other exact decompositions. Improving a
 weaker old sub-bound is not a new whole-object result.

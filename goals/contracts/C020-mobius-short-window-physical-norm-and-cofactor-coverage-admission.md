@@ -1,6 +1,7 @@
 # C020：Möbius短窗的原physical norm与完整余因子覆盖准入
 
-2026-10-14；ready，预算1完整准入轮，settled=[]；本合同与来源准备零轮。
+2026-10-14；一轮原source费用准入后stopped，预算1；settled=[549]。
+以下冻结候选保留为历史合同，最终消费范围见末节；合同/来源准备本身零轮。
 G20261014、固定≤538基线、原唯一cadence和暂停规则保持。
 
 ## 为什么不是另一个critical目标改名
@@ -70,3 +71,17 @@ fullcofactor κ可到Y/U≈sqrtY log²Y；那里Dκ≈Y/κ、Hκ≈Dκ/T约1/log
 失败只排当前域/频率/label运输，不排MR其他范围、不同source或真正signed联合。
 新的完整collision/core桥或更强具定量/全label的原arith theorem才重准入。
 C008不等待、C001冻结、比例/零区暂停、等价酉化/源修正不自动复活；不拟合ζ零点。
+
+## 一轮结算549及实际停止范围
+
+[549](../../notes/549-mobius-window-norm-full-cofactor-gram-and-physical-synthesis-gap.md)与四份独立审已root闭合：
+每先固定B的rawμ原du normo1；完整κ≤floor(2Y/(U+1))的flat-label Gram，
+含cutoff/one-integer尾、全部exact/near collisions、normalized fullΓ/Dlog/完整Q费o1。
+Γoperator平方使用β²，非β；原μ/M、finitecharacter/centre-average/variableH/BV/全频域均付。
+
+最短H≤1的normalizedμ短窗抵消被actual反例否定，但generic可和尾仍付fullflat Gram，
+不能以该反例声称全κlabel付款失败。真正缺口是实际全1系数质量M−1；无rate不能胜强旧Olog⁶Y。
+κ≤8原O1/β已可删除，167 V1对角亦旧有；不登记新core-removal/wholecount/PSD/Ξ。
+新增source费结算一次，主要宏观瓶颈未缩小，按预算停止，不扩大head/样本。
+下一只审原physical row的独立divisor-sum/prime mixed来源，原章节/误差门见549/最新决策。
+未满足三句净后果准入不建新数学合同；此止损不结束宏观Goal。
