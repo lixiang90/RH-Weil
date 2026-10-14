@@ -1,6 +1,6 @@
 # C017：实际算术梳状源的整除/完整 Γ 联合准入
 
-2026-10-14；ready，预算1完整准入轮，settled=[]。准备恒等式/来源恢复零轮。
+2026-10-14；stopped，预算1完整准入轮，settled=[546]。以下初始候选与末节结算分开保留。
 Goal、固定≤538基线、宏观完成门和唯一cadence保持，不以特殊源类或合同完成结束Goal。
 
 ## 为什么比再恢复正 Gram 更值得
@@ -80,3 +80,13 @@ measure≤O_R(√N h)趋0。因此任意fixed compact L²源的Omega投影norm�
 重准入条件是这些具体来源或新的core覆盖证据；只是改变N/h、正Gram名称或共同ζ因子不足。
 C008不等附件、C001冻结、比例/无零暂停、等价酉化/源修正不复活。
 没有科学producer或pending数值进程；下轮从STATE恢复，不从本准备稿推算cadence。
+
+## 结算546：特殊类joint通过，停止薄域主攻
+
+[546](../../notes/546-arithmetic-comb-full-weil-positivity-and-form-core-noncoverage.md)
+付完整全profile下界a_N→∞，显式N≥ceil(exp(exp4))给Q≥1/2；
+strictpp整除、Γ全cross/density、完整signedpole及原Dlog全部保留。
+补空间smooth源在原Dlog逼近任何fixed源，因此未给wholecore/negativecount或Ξ后果。
+C017 stopped，settled=[546]；一次完整新的actualjoint准入，原工具/三审/来源准备零额外轮。
+原cadence3→4后cycle11复盘归0，Goal数学门open；不优化h或薄域常数。
+下一C018只density-compatible core/Γweighted费用准入，尚不proved。

@@ -120,12 +120,26 @@ completed A全轴HS；direct去β却精确是E_Y(3/4−it/2)，全L²R有界且f
 保paidcusp、变base/seed、非紧修复与signed/core逃逸；actualQ桥及强旧016/028/543净值仍未付。
 这定位并纠正了source前件，但不消除macro signed/Ξ责任，不达到Goal第三门。
 
-当前C017 ready预算1：actual log整数comb、每cell任意complexprofile，
+当时C017 ready预算1：actual log整数comb、每cell任意complexprofile，
 先核strict全pp压缩到weighted整除邻接与原norm，再付完整Γ self/cross及signeddualpole。
 Schur/Mertens原工具只给prime候选logM；新joint费用及实际特殊成长域净值必须完整付清。
 冻解析h不盲扩N，先near-Schur whole Fourier与exactpole，若重复/unknown domination入口零轮停。
 Omega_N总measure趋0，固定compact源投影也趋0；即使取得其正性，core覆盖/补空间coupling仍缺。
 这一负对照使特殊类不能偷偷替代wholeWeil；真正新的mixed几何/core覆盖证据会改变优先级。
+
+C017现由[546](../notes/546-arithmetic-comb-full-weil-positivity-and-form-core-noncoverage.md)一轮停止薄源主攻。
+fullprofile actualjoint下界a_N→∞，explicitN≥ceil(exp(exp4))给该域Q≥1/2；
+补空间smooth源Dlog逼近任意fixed源且Q连续，whole符号责任未付；不声称adaptivecore整体包含性。
+wholecount与关键core净值没有改善，不能因无界支持外包络而验收Goal。
+[cycle11](reviews/2026-10-14-joint-sources-and-form-core-review-cycle-11.md)覆542/543/545/546四轮，
+544及source准备0轮；原cadence4复盘归0，固定基线不变。
+
+当前C018 ready：完整logintegercells保原dx/x全源，weighted均值P_N在Dlog捕获fixedsource，
+fullq consecutivecarry给forward P Tq R=0；reverse/Γ/pole仍有真实mixed费。
+free detailprime logarithmicnorm已被539有限条件门排，不能新计。
+下一具体open门B_N≤eta JΓ+C logN于全部R_N∩Dlog，fixedeta<1/absoluteC：
+若有独立signed付款，finitehead与负pole秩/旧028可给polynomial wholecount，承担实际core责任。
+现在只有source接口准备，非candidate已证；只换表示/unknown domination则0入口止损。
 
 现实备选：直接研究完整Γ高尾与prime/pole的同源signed联合估计，或新的多prime/算术几何来源。
 若变尺度split的全源必要费用无法与tail供应同时闭合，应优先备选而不是不断增N。
@@ -150,7 +164,8 @@ Omega_N总measure趋0，固定compact源投影也趋0；即使取得其正性，
 | Γ heat/算术record profile C014 | 543新cofinal Ce^S净预算已付；一轮停止thermal主攻 | 全温度仍leading S；保正图/pole signed与core density逃逸，不是PSD/Ξ或macro完成 |
 | 有分次local scattering C015 | 544原件/commonnorm已核，入口停止零数学轮 | 旧Euler表述之外joint/core桥未付；mixed signed/graded耦合未排 |
 | modular完整cusp Gram C016 | 545一轮止损；completed紧/direct非紧，fixedY全L²R norm成长统一已付，净cusp有无穷维盲带 | paidcusp/变base/seed/core/signed未排；actualQ桥仍缺，inverse空域不能排direct |
-| actual comb整除/Γ C017 | ready，准备零轮；原norm/fullpp source候选、Γcross/pole joint待独立付 | 稀疏Omega覆盖/补空间与耦合未付；原工具不新计轮，special域不代wholeQ |
+| actual comb整除/Γ C017 | 546一轮joint全profile正性已付；form补空间逼近全部fixed源，停止薄域主攻 | adaptivecore/补空间与耦合未付，special域不代wholeQ |
+| density-compatible integercell C018 | ready，原core/triangular source准备0；候选signedΓrelative费open | 若付款给polynomial wholecount；reverse/Γ/pole全源费用不能假定，旧norm失败不造轮 |
 | 比例/无零区域 | 用户要求暂停 | 仅用户明确恢复；历史形式化资产保留各自前件 |
 | 独立算术几何 | 副线，独立Hodge符号仍open | 原几何定理接同算术配对/ζ对象，不扩未符号化字段 |
 

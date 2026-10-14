@@ -8,11 +8,11 @@
   "cadence": "goals/review-cadence.json",
   "decisions": "goals/DECISIONS.md",
   "latest_strategy": "goals/reviews/2026-10-14-growth-frontier-strategy.md",
-  "latest_decision": "D20261014R",
+  "latest_decision": "D20261014S",
   "macro_frontier": "goals/MACRO_FRONTIER.md",
   "macro_summary": "goals/reviews/2026-10-14-cross-round-macro-summary.md",
-  "latest_macro_review": "goals/reviews/2026-10-14-full-gamma-variation-and-source-review-cycle-10.md",
-  "latest_iteration": "notes/545-modular-packet-norm-cusp-blindness-and-weil-transport-gate.md",
+  "latest_macro_review": "goals/reviews/2026-10-14-joint-sources-and-form-core-review-cycle-11.md",
+  "latest_iteration": "notes/546-arithmetic-comb-full-weil-positivity-and-form-core-noncoverage.md",
   "macro_control": {
     "schema": "macro-recovery-v2",
     "goal_epoch": "G20261014",
@@ -20,8 +20,8 @@
   },
   "macro": {
     "long_objective": "新的成长域独立实际算术输入/同对象ζ约束，或成长核心实质方法类边界；扣除≤538基线。",
-    "unpaid_bottleneck": "C016 direct source uppernorm已全L²R/fixedY独立成长L支付，fullcusp净T2盲带不付frame；actualΓ/strict pp/双pole signedjoint/core与Ξ仍未付。C017 comb只候选，不覆盖whole源。",
-    "why_this_contract": "不再恢复positiveGram或native diagonal ζ公因子；actual整除邻接可直接绑定同physical源，候选logM费用接完整Γ crosscell与signed双pole，较generic source桥更可核。先最强旧扣除与wholeΓ负对照，special域coverage另付。",
+    "unpaid_bottleneck": "546只specialcomb joint正性；其补空间Dlog能保全部fixed源符号责任，adaptivecore/wholecount/nearPSD/Ξ未付。C018 P_N捕fixedcore接口已准备，但signed Γrelative/真实mixed费用仍open。",
+    "why_this_contract": "不继续薄positive类；density-compatible整数cells可在原Dlog捕fixed源，fullpp carry有真forwardtriangular性但reverse仍在。候选signed B_N≤eta JΓ+C logN弱于wholePSD，若付可给poly wholecount，直接胜最强543；只是source接口不结算。",
     "paused_routes": [
       "零点比例优化",
       "无零区域优化"
@@ -36,18 +36,19 @@
       "C013一轮542 high-k全measure真，但whole净值失败于旧016/028；停止优化k/弱2S对照。",
       "C014一轮543有新cofinalCe^S净值，但positive thermal全温度仍leading S；停止degree热微调，signed/core逃逸保留。",
       "C015入口544只原件/旧tool，零数学轮停止；norm已付但joint未付，真正graded/mixedsigned/core逃逸未排。",
-      "C016一轮545停止；completed紧/direct非紧，全source uppernorm paid但base2净cusp无限kernel；paidcusp/变base/seed/signedcore未排。"
+      "C016一轮545停止；completed紧/direct非紧，全source uppernorm paid但base2净cusp无限kernel；paidcusp/变base/seed/signedcore未排。",
+      "C017一轮546 specialjoint成功后停止薄类主攻；补空间Dlog逼近fixed全源，未给wholecount/core净值，density/adaptive/source-joint逃逸未排。"
     ]
   },
   "primary_contract": {
-    "id": "C017",
-    "path": "goals/contracts/C017-arithmetic-comb-divisibility-and-full-gamma-joint-gate.md",
+    "id": "C018",
+    "path": "goals/contracts/C018-density-compatible-integer-cell-and-joint-core-gate.md",
     "status": "ready",
     "iteration_budget": 1,
     "settled_iterations": [],
-    "stage": "actual logintegercomb/全pp整除压缩、signedpole及Γ self/cross费用为准备候选；根尚未消费新joint全域证据，不标proved。",
-    "next_action": "先核≤538/016/017/023/028/069/080/167及当前543强旧消费，冻结N整数≥4,M=N−1,h=1/[8N(log2N)^2]与各cell独立complex profiles；从原actualΓ jump核证明或否定whole crosscell operator bound及cell self lower，联exact signeddual-pole、strict全pp weighteddivisibility logM费，核near-Schur源whole Fourier。Omega总measure/固定源投影趋0作coverage负对照；只有新joint才一轮结算。",
-    "stop_rule": "若只是旧matrix/Mertens/uncertainty恢复或unknown domination，入口零輪止损；完整新joint准入最多一次。成功也只Omega sourceclass，core/补空间耦合与macro门另付，不缩h/扩N拟合维持进展。"
+    "stage": "原dx/x完整integercell/weighted均值P和detailR、forward P Tq R=0/fixedDlog捕获为source/core准备0轮；Γrelative signedcandidate与reverse/Γ/polejoint尚未proved。",
+    "next_action": "先独立核全部N整数≥4的原P/R Dlog/step合法及fixedsmooth源近似，所有strictpp完整carry和forward/adjoint方向；写R Q P的actualΓ/prime/signedpole真实mixed式。保原Γ，尝试全部R∩Dlog上B_N≤eta JΓ+C logN（fixedeta<1/absoluteC）的可核arith付款；若真旧028/rank付poly wholecount。先扣旧539 finiteconditions排free detailprime logN norm，不重证旧反例计轮。",
+    "stop_rule": "only投影/triangular/旧来源或unknown domination时0入口停止；只有完整新actualΓweighted signed/detail/coupling费用才消费一次。不得将R PSD/RH或所求Schur本身当input，不能盲扩N/ζ拟合/重启暂停。"
   },
   "support_contracts": [],
   "must_not_forget": [
@@ -64,7 +65,9 @@
     "C015入口544只oldtool零数学轮；当时latest543/cadence2，现最新以STATE/cadence为准，不把旧source恢复造轮。",
     "C016 direct原norm全L²R/fixedY独立成长L已paid；inverse空域不排direct，e2L粗upper不是必要费；netcusp盲带不推Q负。",
     "545仅指定sourcegate，paidcusp/变base/seed/signed逃逸保留，不完成macro；原cadence仅2→3。",
-    "C017 specialcomb准备未proved；稀疏measure/固定源投影趋0，wholecore/complement/coupling不可无声升级。"
+    "546 specialcomb positive真，但补空间Dlog逼近任意fixed源；不声称adaptivecore整体位于comp，不升级wholecount/Goal。",
+    "cycle11仅542/543/545/546四轮，544/source准备0；原cadence4复盘归0，基线不滚。",
+    "C018 core捕获/forwardtriangular不等于Q blockdiagonal；reverse/Γ/poles同源费在，Γrelative candidate尚未proved。"
   ],
   "evidence": [
     {
@@ -83,11 +86,6 @@
       "scope": "旧基线samewindow真simple-even/gap，非成长或RH。"
     },
     {
-      "path": "notes/542-actual-prime-high-moments-and-strong-baseline-audit.md",
-      "kind": "proved",
-      "scope": "actual高k/allband坏集预算新证明；whole谱运输真但净门失败，C013一轮止损，非宏观完成。"
-    },
-    {
       "path": "notes/543-full-gamma-heat-arithmetic-records-and-thermal-boundary.md",
       "kind": "proved",
       "scope": "actualΓ/profile/record全complexcofinalCe^S，胜最强旧标量家族因子L；全温度热账本leading S界，非PSD/Ξ/Goal完成。"
@@ -96,11 +94,6 @@
       "path": "notes/544-graded-local-source-admission-without-new-joint-input.md",
       "kind": "cited",
       "scope": "C015原件/共同norm/strictpp/grade已核但只oldEuler，入口停止零数学轮；不是newwhole forcing/methodclass边界。"
-    },
-    {
-      "path": "reviews/2026-10-14/c015-admission/sources/macro-primary-source-receipt.json",
-      "kind": "cited",
-      "scope": "Zagier/Garrett作者PDF/text rawhash收据已现场核；C016source准备，不认证actualWeil桥。"
     },
     {
       "path": "notes/545-modular-packet-norm-cusp-blindness-and-weil-transport-gate.md",
@@ -113,9 +106,24 @@
       "scope": "root消费final三审/rawsourcehash/545数学稿与仅归属措辞修正，原cadence一次；hash非未付Q桥证书。"
     },
     {
-      "path": "goals/goal-observation.20261014-c016-settlement.json",
+      "path": "notes/546-arithmetic-comb-full-weil-positivity-and-form-core-noncoverage.md",
+      "kind": "proved",
+      "scope": "actual allprofile specialcomb joint a_N→∞/显式N≥ceil(exp exp4) Q≥1/2；原Dlog補空间smooth逼近，非wholeQ/count/core/Goalcomplete。"
+    },
+    {
+      "path": "reviews/2026-10-14/c017-first/root-consumption-scope.json",
       "kind": "cited",
-      "scope": "root现场G20261014 active/createdAt一致，组织完善不重启或完成Goal。"
+      "scope": "root final三审/rawhash/546scope收窄、cycle11原cadence一次；source准备0，candidate未proved。"
+    },
+    {
+      "path": "reviews/2026-10-14/c017-first/macro-cycle11-source-entry.md",
+      "kind": "conditional",
+      "scope": "CCM/Poisson旧來源0收益；P/R原norm/全carry/core准备真，Γweightedcandidate为open，不登记polycount已证。"
+    },
+    {
+      "path": "goals/goal-observation.20261014-c017-settlement.json",
+      "kind": "cited",
+      "scope": "root现场G20261014 active/createdAt一致，546/cycle11不完成macro。"
     }
   ],
   "pending_processes": [],
@@ -123,10 +131,10 @@
     "status": "active",
     "observed_on": "2026-10-14",
     "created_at_epoch": 1791936604,
-    "basis": "Root现场get_goal active/createdAt一致；Goal组织完善同一epoch/基线，545一准入+C017准备不完成宏观门。"
+    "basis": "Root本轮现场get_goal active/createdAt一致；546只是specialjoint，macrocore仍缺，cycle11/C018准备不完成Goal。"
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-10-14-c016-remote-verified.json",
+  "checkpoint": "goals/checkpoints/2026-10-14-c017-settled-cycle11-c018-ready.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
     "commit": "f8b3b82465d3d088e399ec6fcb38792d5c2ebbe7",
@@ -138,11 +146,11 @@
     "goal_lf_sha256": "49592e5e9f0d59fac2c0e72b55f495353f92a7e2dda5c9d1c10bc57bb22c51d0",
     "mathematical_gate": "open",
     "final_execution_gate": "not-eligible",
-    "basis": "545只source费用/净cusp稳定性边界，实际Q signed桥/core/Ξ仍缺；C017特殊源类准备非whole后果。Goal组织条款修订、epoch/基线保持，数学门open。"
+    "basis": "546特殊类joint真但原form補空间保全部fixed责任；未给wholecore/nearPSD/Ξ。C018 signedΓrelative费用为candidate非known输入，数学门open。"
   },
   "historical_completion_receipts": [
     "goals/goal-completion-receipt.20261014.json",
     "goals/goal-completion-receipt.20261014-continuation.json"
   ],
-  "process_inventory_observed_on": "2026-10-14现场list_agents：C016三审全部completed；无科学producer/续exec session，pending[]。"
+  "process_inventory_observed_on": "2026-10-14现场list_agents：三C017独立审/最终546scope及sourceprep均completed；无numerical producer/续exec session，pending[]。"
 }

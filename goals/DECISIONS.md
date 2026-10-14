@@ -351,3 +351,26 @@ C016一完整新费用/反例准入止损，原cadence2→3一次；旧classical
 用户跨轮宏观总结和可迁移长期组织已更新：Goal固定基线，STATE短执行，frontier因果范围，
 原证据/决策/唯一cadence分层；新增入口防循环、具体逃逸逆审和粗费不充必要费用规则。
 这是同一已授权Goal的文本完善，绑定新LF指纹，不重启runtime、不滚动基线、不计数学轮。
+
+## D20261014S：comb完整joint正性通过，但form补空间保全部fixed责任；复盘后转core费用
+
+[546](../notes/546-arithmetic-comb-full-weil-positivity-and-form-core-noncoverage.md)及三项最终逆审通过。
+integerlogcomb上每cell任意complexprofile，strict全pp/logM、actualΓself/全cross与signeddualpole
+给a_N=2loglogN+O1→∞，显式N≥ceil(exp(exp4))给Q≥1/2于原Dlog。
+这是新的实际joint特殊类后果，旧generic measure bound不蕴含；不登记classic工具为创新。
+同时补空间Cc∞源能Dlog逼近每fixed源且Q连续收敛，whole符号责任可保留在补空间；
+不声称所有adaptive/growing core位于其中，不给newwholecount/PSD/RH/Ξ或macro完成。
+
+C017一完整轮停止薄positive主攻，不增N/缩h优化。原cadence仅3→4一次，
+cycle11覆542/543/545/546四轮后归0；544/source补审/复盘零轮，不滚基线或Goal版本。
+复盘发现joint付款已有真进展，但actualcore覆盖与净Schur仍关键未付，选择必须承担这条箭头。
+CCM2310稳定性已由531/532消费；1910.14368全源positive仍Conjecture4.1，入口恢复零收益停止。
+
+唯一C018 ready预算1：原dx/x完整integercell weighted均值P_N，R_N零均值。
+P_N fixed-source Dlog捕获与全q carry/forward P Tq R=0是准备source接口；reverse、Γ、pole仍未付。
+旧539已排free detailprime logN norm，不重证作新轮。真正candidate是同源signed
+B_N≤eta JΓ+C logN on R_N∩Dlog，fixedeta<1/absoluteC，当前open不是独立已知定理。
+若付清，可按finitehead/oddpole秩与旧028得到polynomial wholecount，明确比543强；
+不必假设R PSD/RH，也不以unknownwhole domination命名为输入。
+仅core表示/triangular恢复则0轮止损；只有newactualΓweightedjoint费用才完整结算。
+所有暂停/降级及C008/C001约束保持，Goal现场active/open。
