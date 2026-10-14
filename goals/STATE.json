@@ -124,14 +124,14 @@
     "status": "active",
     "observed_on": "2026-10-14",
     "created_at_epoch": 1791936604,
-    "basis": "root实际create_goal成功后get_goal active，新start-observation receipt保存；subagent工具scope可能隔离，不用子代理null覆盖root观察。"
+    "basis": "最后root get_goal现场active、身份一致；新Goal尚未达宏观完成门，C011首轮已结算，第二轮唯一动作落盘。"
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-10-14-new-macro-goal-and-c011-first-round.json",
+  "checkpoint": "goals/checkpoints/2026-10-14-growth-goal-active-and-proof-verified.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
-    "commit": "0c4f3a3eb609bb1d9564138fa4a35701f05605f2",
-    "basis": "上一轮实际HEAD/remote一致；本次新成果基线固定。"
+    "commit": "6d60e4b7405020f5f1bd6546b0c1ff4a547f3940",
+    "basis": "本次新Goal/恢复机制/539原证据版已实际HEAD=remote main且clean；后续只保存观测metadata，不改冻结成果基线或计轮。"
   },
   "completion_audit": {
     "goal": "goals/GOAL.20261014.md",
