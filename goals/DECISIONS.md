@@ -636,3 +636,23 @@ negative bump非M/k/actualreceiver像且宽eL非Weil I_L，不能运输为actual
 
 瓶颈细分改变但最深核心未消除。Goal同active/0c4f≤538/原版本/暂停降级保持；
 六稿/补域/probe/auxnorm/终审同轮不多计，数学全链独审通过，保存推送不complete。
+
+## D20261020A：按新材料检验纯分析 Beurling 选择条件
+
+用户明确提供与Kimi的对话并要求分布型广义整数研究、旧笔记教训与远端同步。
+固定G20261014文本目标／0c4f≤538／原cadence；本轮工具Goal为null，未创建新实例。
+旧STATE未提交更新中的三个joint符号handle已不可见，输出目录不存在；未产出未消费，
+不以旧pending推断仍运行，也不记为失败或完成。新用户方向优先，C023保持stopped。
+
+C024先冻结Z_a=(s-a)(s-(1-a))/(s(s-1))的正primitive/Π/N、精确自对偶及负Weil源。
+旧290已否正Euler＋自对偶；仅再支付N=Ax+O(logx)与非lattice连续primitive的交集才有新增范围。
+附件审计、原始文献、历史族挖掘分别出稿；root消费前不结算，不将C3/谱行列式假设当独立机制。
+本门即使成功也非经典Gamma/实际ζ全域正性或Goal边界；whole4/5/core/Ξ不变。
+之后只保固定Gaussian/Fourier来源章节和实际检验，识别与正性分开；若又是旧来源或等价即停。
+
+根消费结论：561正primitive／强N正则／裸FE离线模型与fixedFourier/unitgap识别均通过独立逆审。
+Gaussian-Hermite量词为全部t，整数支撑是输出；此singleton类的普遍RH仍等强RH。
+唯一直接Fourier→log原norm来源检验已实际执行：−1 Hermite态的compact负近似只否H的PSD，
+非actualQ负；扣405/554/560后返回旧modifiedgap/K_L责任，来源0收口。
+561统一结算一次，四轮549/555/560/561正式cycle12复盘，原cadence按协议归0；未滚基线。
+不新建“Gaussian positivity”合同；重新准入须独立fullsource输入或真实可判net检验。

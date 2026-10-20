@@ -1,6 +1,7 @@
 # 长期研究恢复入口
 
-当前[Goal](GOAL.20261014.md)，固定0c4f/≤538资产为输入，同G20261014 active实例。
+当前文件[Goal](GOAL.20261014.md)，固定0c4f/≤538资产为输入，保留G20261014目标。
+2026-10-20现场get_goal=null，不声称旧active实例存在，未创建未请求的新运行Goal。
 [跨轮总结](reviews/2026-10-14-macro-refresh-and-causal-budget.md)解释总体成果和未付责任；
 [宏观前沿](MACRO_FRONTIER.md)保存准确范围、强旧短链、合法逃逸和选择依据。
 先读[STATE](STATE.json)，执行：
@@ -17,13 +18,18 @@
 STATE是当前执行唯一源，show由它与cadence显示；checkpoint检版本结构，不认证证明或运行态。
 原件出稿／逆审／root消费／结算分开，阶段转换同步；复用handle核当前task/output。
 
-当前：555已结算的完整prime norm~eL仍真；542+555强旧链给whole预算leading4/5，仍指数core。
-557属于强旧推论0，不能只拿printed1/record2对照。559保正evenpole原operator／trace及
-paid rank2 deflation合法旧消费0；D gap／fullsigned费用／Ξ未付，单cosh失败不排growingcore。
-原jointfiniteS投影合法性来源0保留；560另新付fullinverse绝对误差／two-boundary主项／ALL原Dlog trace域，
-每fixedL完整Q=positiveT−原normcompactK+双pole，统一一数学轮。ratio必要门通过，成长K/sign/core/Ξ仍open。
-aux m||H_TDP_-||下界非actualsourceerror；下一actualK23 mixed符号门见STATE／AE，不重跑ratio、不预建C024、不调N。
-连续source0后核新input或能改选择的具体检验；未付比较改名不算信息差。
+当前[561](../notes/561-beurling-positive-measures-self-duality-and-integer-recovery.md)：
+按用户新材料检验分布型Beurling方向。正primitive＋N=Ax+Ologx＋裸自对偶仍可离线；
+固定Fourier／全尺度Gaussian＋正tempered＋精确unitgap可从纯分析恢复整数梳。
+识别对象不付Weil正性，“singleton类皆RH”仍等强RH，经典Gamma与实际成长责任不得偷换。
+[历史挖掘](../reviews/2026-10-20/beurling-history-lessons-and-reusable-assets.md)按560篇研究族索引，
+只对相关代表原件核读，不声明本次重证全部笔记。[cycle12](reviews/2026-10-20-beurling-macro-review-cycle-12.md)
+核四完整轮549/555/560/561；全当前阶段／唯一动作见STATE。
+
+最强实际ζ仍542＋555→557 whole leading4/5，指数core／Ξ未付；537/538固定窗是基线。
+560每fixedL完整Q=positiveT−原normcompactK＋双pole；成长K/sign/norm未付，aux lower非actualsourceerror。
+旧joint-K23三handle现场不存在且原稿未落盘，未消费；新用户方向优先，不重跑ratio或续C023预算。
+连续来源后只核具体新input/test/net；固定Fourier→Weil若只回554旧gap/560未知K便停，不以条件改名续轮。
 
 旧[Goal](GOAL.20260909.md)、[NEXT](NEXT.20260909.md)、[PROGRESS](PROGRESS.md)、
 [archive](archive/)及[镜像manifest](manifest.json)保历史，不代当前执行。

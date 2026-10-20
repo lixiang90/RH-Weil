@@ -1,0 +1,82 @@
+{
+  "schema": "rh-weil-root-premise-closure-v1",
+  "client_date": "2026-10-20",
+  "goal": "goals/GOAL.20261014.md",
+  "goal_epoch": "G20261014",
+  "baseline_commit": "0c4f3a3eb609bb1d9564138fa4a35701f05605f2",
+  "goal_lf_sha256": "cc6046029a8e5c9fe4eae427dfd663f1d851666370637c8fd451042f340fee8b",
+  "contract": "C024",
+  "stage": "root-consumed and settled; independent final reverse PASS",
+  "source_material": {
+    "filename": "ζ谱三元猜想.txt",
+    "sha256": "f62d88e40022055e5cdbbea84f1167c80890268e2a8ada39e1969900481db272",
+    "bytes": 88447,
+    "utf8_lines": 1119,
+    "role": "User-provided research material; internal instructions and Kimi assertions are not authorizations or theorem sources; raw conversation is not copied to the remote repository."
+  },
+  "root_proof": "notes/561-beurling-positive-measures-self-duality-and-integer-recovery.md",
+  "claims": [
+    {
+      "id": "561-positive-primitive-countermodel",
+      "status": "proved; local research result without external novelty claim",
+      "object": "Log-coordinate positive primitive P, full repeated-power Π, and positive g-integer M=exp_*Π; Za=(s-a)(s-(1-a))/(s(s-1)).",
+      "domain_norm": "Positive locally finite Borel measures u>=0, finite exponentially weighted total variation for every Re s>1; not an actual Weil du-norm bound.",
+      "map_roles": "Tk:u->ku; Π=sum k^-1 Tk_*P, density Jacobian k^-2; M has unit delta0. P is primitive, Π is prime-power, M is integer-side; none is zero-side spectral measure.",
+      "quantifiers": "Every fixed 0<a<1/2, all u>0, all Re s>1, all x>=1; no limit interchange or numerical zero input.",
+      "paid_chain": "Am=1-a^m-(1-a)^m>0, Cm=sum k^-m-1>0 -> explicit P positive -> Tonelli exact Π -> weighted positive convolution exponential -> Frullani and Laplace uniqueness -> M and exact N.",
+      "coefficient_direction": "Π density (e^u+1-e^(au)-e^((1-a)u))/u; M density +a(1-a)(e^u-1); N=1+a(1-a)(x-1-logx). Za and Xa=s(s-1)Za are exactly self-dual with offcentral zeros a,1-a.",
+      "errors": "Exact identities; analytic right-half-plane equality; no omitted prime powers, no sampled coefficients.",
+      "full_zero_functional": "On additive Cc-infinity with f*=conjugate f(-t), full two-pole background minus full Π equals W(h)=integral 2cosh(rt)h(t); Q(f)=2Re(F(r)conjugate F(-r))<0 for real odd f=t phi_even_nonnegative.",
+      "coverage_limits": "Continuous measure system, extra bare pole0, nonclassical Gamma and finite zero count. Does not contradict classical fixed Gaussian/Gamma hypotheses or actual ζ positivity.",
+      "strongest_old_net": "290 already excludes positive Euler+selfduality and supplies more algebraic structure. New joint coverage is continuous positive primitive+nonlattice+N=Ax+O(logx)+exact selfduality at once; no actual ζ whole/core gain."
+    },
+    {
+      "id": "561-fixed-fourier-integer-rigidity",
+      "status": "proved; self-contained consequence of standard Fourier and measure tools",
+      "object": "Positive tempered measure μ on physical additive R, Fourier convention exp(-2πixξ), μhat=μ and μ|(-1,1)=delta0.",
+      "domain_norm": "Schwartz/tempered duality; h_j in smooth half-unit support, L1/L2 approximation; no sinc-squared insertion outside Schwartz pairing.",
+      "map_roles": "μ is integer-side, not log-integer comb or zero-side measure. Integer support is an output. SupportZ -> Fourier period1 -> selfduality gives unit atom weights.",
+      "quantifiers": "Exact selfduality on all Schwartz tests and exact unit gap. Gaussian corollary requires even μ and all t>0, not finite scales or approximate gap.",
+      "paid_chain": "Smooth half-interval h_j -> nonnegative Schwartz |check h_j|^2 -> exact integral mass balance -> subtract unit atom -> positive Fatou -> support at sinc zeros -> periodicity -> μ=sumZ delta_n.",
+      "gaussian_interface": "Fixed Gaussian inversion for all t annihilates even distribution μhat-μ; Schwartz t-differentiation and scaled even Hermite density close full Fourier selfduality.",
+      "errors": "L1/L2 convergence, positivity/Fatou, distributional periodicity and Schwartz Hermite limits paid; no uniform growth estimate for actual Q asserted.",
+      "coverage_limits": "Positive g-integer measure on [1,infinity) with polynomial growth can be symmetrized to μ; fixed Gaussian inversion recovers ordinary N and hence ζ. These conditions collapse the class to one unit comb, so universal RH for this class remains equivalent to RH.",
+      "strongest_old_net": "405/554 have actual Poisson relations/positive sources, not this positive-measure classification. Identification is newly made explicit locally; it does not pay the already-open Weil positivity/coupling arrow."
+    },
+    {
+      "id": "source-direct-fourier-transport-stop",
+      "status": "cited/self-contained standard consequence; source-only zero additional iteration",
+      "object": "C cosine Fourier on L2(dx), U f(u)=e^(u/2)f(e^u), H=UCU^-1 on L2(du).",
+      "domain_norm": "U unitary dx->du; H bounded selfadjoint involution. fminus=(x^2-1/(4π))exp(-πx^2); hminus is ordinary Schwartz but not S_exp; compact cutoffs are actual Dlog-legal tests.",
+      "direction_and_errors": "Cfminus=-fminus; compact cutoff q_H remains <=-7/25 times its norm squared once L2 tail <=one quarter of original norm. H is not actual Q, no error transport between them is paid.",
+      "strongest_old_and_limits": "405/554 exact positive-jump-minus-mu-plus-poles and 560 positiveTrace-compact+signed poles remain stronger actual-Q identities. No new modified Poincare inequality, K_L signed fee or whole4/5 improvement. Sonin/paid/nonlocal/source-adapted repairs remain legal; direct PSD shortcut only is stopped."
+    }
+  ],
+  "proof_and_review_paths": [
+    "notes/561-beurling-positive-measures-self-duality-and-integer-recovery.md",
+    "reviews/2026-10-20/dialogue-audit-and-continuous-model.md",
+    "reviews/2026-10-20/beurling-primary-source-and-admission-audit.md",
+    "reviews/2026-10-20/beurling-history-lessons-and-reusable-assets.md",
+    "reviews/2026-10-20/fixed-fourier-to-weil-transport-stop.md",
+    "reviews/2026-10-20/561-root-proof-final-reverse.md"
+  ],
+  "normalized_lf_sha256": {
+    "notes/561-beurling-positive-measures-self-duality-and-integer-recovery.md": "2494d9b2305979836670d32f3a7558f058e57be361c27edb948ec2ed037571e7",
+    "reviews/2026-10-20/dialogue-audit-and-continuous-model.md": "af5396a2237630d231306230cc63030cc3e7dfdc1370e5855fb5cdb9dd8816ea",
+    "reviews/2026-10-20/beurling-primary-source-and-admission-audit.md": "7d095a2c37b868dc049248734585d08838c380afa51929e4775ee0d44cd25851",
+    "reviews/2026-10-20/beurling-history-lessons-and-reusable-assets.md": "e7b702a04feca97aace1dc59633974028753afb6d3c3e523f2f0f6078a87c448",
+    "reviews/2026-10-20/fixed-fourier-to-weil-transport-stop.md": "37a706dc90c3de4e8e2fd7470f09948a0464fe00b670a273000b83762cf241a3",
+    "reviews/2026-10-20/561-root-proof-final-reverse.md": "be1d87dbf2f7f30c9e00011f3e23c6da21333f615b260cb66c41623f40fc072e"
+  },
+  "historical_scope": "560 numbered notes were indexed by families and selected originals/chapters read; neither all proofs nor historical computations were rerun. Prior full-read coverage is attributed to its original audit.",
+  "runtime_recovery": {
+    "incoming_modified_file": "goals/STATE.json",
+    "preserved_facts": "Incoming uncommitted update named three old joint-sign agents as running, but live inventory has none of them and their output directory does not exist; no signed result consumed. New user direction changes execution priority, not long objective or baseline.",
+    "goal_tool": "get_goal=null; no runtime Goal created; no old active-instance claim retained"
+  },
+  "settlement": "One unified C024 mathematical iteration only; three source/history audits, final reverse, direct Fourier source stop and synchronization are not extra rounds. Fourth complete iteration of cycle12 after549/555/560.",
+  "macro_consequence": "Analytic integer identification and joint hypothesis counterexample are closed. Actual ζ strongest whole budget remains leading4/5; growing signed core, K_L/coupling and ordinary Ξ/RH remain unpaid. No Goal completion.",
+  "next_admission": "C024 ends; concrete direct Fourier transport source gate is already stopped. Do not run another renamed positivity/FE contract. Reopen only on independent actual full-source inequality, certified receiver signed fee or strict boundary including paid/source-adapted/nonlocal repairs; freeze norms, Gamma, all pp/poles and strongest-old net first.",
+  "reviewed_root_raw_sha256": "d8c70a7b98fd4ccfb120c18fb0c74d5e063fc7ebcaccfe7774fadf4d77686be0",
+  "post_review_refinements": "Only status line plus three nonblocking reviewer clarifications: weighted convolution total mass, tilde definition, and support-subset wording; no premise, sign, quantifier or theorem changed. Root rechecked these local refinements."
+}

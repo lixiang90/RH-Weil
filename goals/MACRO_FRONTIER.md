@@ -1,12 +1,19 @@
 # 宏观前沿：可消费范围与最小未付箭头
 
-2026-10-14；完整Goal、唯一动作和现场观察以STATE为准。
+2026-10-20更新；完整Goal、唯一动作和现场观察以STATE为准。
 固定基线0c4f3a3eb609bb1d9564138fa4a35701f05605f2（全部≤538），同G20261014。
 详尽历史保留[前总结](reviews/2026-10-14-cross-round-macro-summary.md)；
 本次[跨轮总结](reviews/2026-10-14-macro-refresh-and-causal-budget.md)解释总体版图。
 不复制cadence/运行状态，不把本页代原证明。
 
 ## 因果链和消费范围
+
+当前新方向是561的分析选择条件鉴别：正primitive连续反模型保N=Ax+Ologx及精确自对偶仍离线；
+固定Fourier／全尺度Gaussian＋正tempered＋单位gap则无需Z支撑前提恢复整数梳。
+前者不含经典Gamma，后者压成singleton类不付RH。两者统一一数学轮，完整前件见561及root收据。
+旧joint-K23符号门三个预期原稿未落盘／handle不存在，未消费；用户新方向优先，不续C023预算。
+最近正式四轮复盘见[cycle12](reviews/2026-10-20-beurling-macro-review-cycle-12.md)；
+实际ζ的4/5／成长K/core/Ξ未变。只一次fixedFourier→Weil具体运输来源门，无新费用即停。
 
 独立实际输入 → 同对象比较/原norm → 完整费用与core/补空间 → 成长全域 → ζ/Ξ识别 → 强制谱约束。
 
@@ -77,7 +84,7 @@ jointfiniteS投影合法性门原来源0保持；后续560新付共同actual ful
 任意先fixedfiniteS的actualε∈C0、全部pp和ALL原complexDlog trace域已付；每fixedL全Q正source−compact+双pole。
 原ratio cross→0只是必要pass，560另有全链不靠probe升级。K_L sign/growth费用/core仍未付，whole4/5保持。
 cofinal真实m||H_TDP_-||在T≤(2−ε)eL趋1，但输入非M/k_R/actualreceiver像且非Weil I_L；不消费为sourceerror下界。
-下一只actualK23 mixed窄源符号/全部returns与原norm费用，source仅域恢复即停；fixedS不代成长方法类，不预建C024。
+原下一actualK23 mixed符号门未产出；2026-10-20用户新方向取代其执行优先级，不由本历史段恢复。
 独立fulljoint carry/非根几何备选保留，原因/失效证据在当前战略/STATE；所有关键core/PSD/Ξ仍open。
 
 ## 路线状态与重准入
@@ -106,6 +113,7 @@ cofinal真实m||H_TDP_-||在T≤(2−ε)eL趋1，但输入非M/k_R/actualreceive
 | Γ×primepositive path/558 | 丢正evenpole的ANYs>1 traceupper leading≥1，便宜门source0拒 | 保evenpole/合法signedtrace或core-deflation，另付Γdomain/residual/fulltrace费 |
 | 保正evenpole/559 | 原Γoperator/relativeheat/paid deflation准确合法，强旧0停止scalar主攻 | 新D/joint signed/core费用；不因singlechannel fixedgap失败排growingcore/γL→0/paid修复 |
 | 560 jointfiniteS | 真实原source ALLfixedL modcompact比较新付；ratio必要门结束，fullH norm解耦仅aux被阻 | actualjointK符号/成长费用/actualreceiver新输入；paidcompact/source-adapted/Γ/变组织仍保 |
+| 561/C024分析选择 | 宽FE＋强N正则＋正primitive不足；固定Fourier/Gaussian＋unitgap严格识别整数 | 未给独立完整Weil正性；singleton分类不减RH强度；新signed输入才晋级，不以识别重计whole |
 | 比例/无零区域 | 用户要求暂停 | 仅用户明确恢复，不因调用经典输入而重启优化 |
 
 ## 恢复的六项短答案
