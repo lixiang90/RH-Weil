@@ -8,7 +8,13 @@
 
 ## 因果链和消费范围
 
-当前新方向由562扩大为一般g-integer类RH：同一正continuous primitive／N族在c=1/4相变，
+当前563把一般类RH推进到分布侧可核证书：完整ODE／精确点数递推＋正H守恒＋全分布身份，
+可独立给全部complex compact平方和；F5曲线counts9/27/108、H有理正定与全周期lift已核。
+实偶指数阶W的热量全CM⇔Weil正型已付，但属于等价字典；热量全正被连续离线段反驳。
+经典完整Gaussian源式含全部Γ/pp/pole可计算，全部阶／时间正符号尚未付。
+有限ODE／有限TV类被prime atoms和Γfinite-part挡住，保无限维／平滑／relative signed／严格D'修复。
+
+562扩大一般g-integer类RH：同一正continuous primitive／N族在c=1/4相变，
 c≥1/4给非空中心零点及全部compact源的精确平方和。零点仍离散；概率log混合可有连续正谱，
 却有分支端点，失败严格C1，不能当通常entire零除子或普通trace。
 数域ideal多重标签、函数域周期零／极点与高维纯权分别保留；纯性不自动给原Frobenius半单。
@@ -48,6 +54,7 @@ c≥1/4给非空中心零点及全部compact源的精确平方和。零点仍离
 | 559保正evenpole | canonical cosh原operator域、uniformΓ费与完整Qc=o(eL)；relative/global迹域；rank2 signed修复norm恰||w||与合法自伴D | 024/405/543/555直接消费0；D gap/signedtrace/fullcoverage未付，不复活scalar响应 |
 | 560真正joint桥 | 每先fixedfiniteS的完整inverse/两boundary主项只剩原pp；actualε_S∈C0；ALL原complexDlog ordinarytrace；每fixedL完整Q=positiveT−原normcompactK+双pole | 新共同signed费用统一一轮；K_L sign/norm/Γrelative/growth/core/Ξ仍open；4/5未改，非新fixed窗正性 |
 | 562一般类RH | 连续正primitive/N非空中心零点段与全compact平方和；Weil判据完整测试域、trace重数反测试；连续谱log混合边界 | 无经典Γ正性/自然算子域/Ξ恒等式；连续谱混合有分支且失败严格C1，非usual zero-divisor |
+| 563分布证书 | 源ODE/点数递推+正H给全域平方和；实偶指数阶heat-CM接口；F5有理能量证书与全部周期trace | heat-CM仍等价，经典直接有限类不覆盖；无限维同对象正能量/全CM源证明/faithful谱及成长core仍欠 |
 
 原件：[535](../notes/535-actual-first-prime-sonin-log-resonance-and-indefinite-error.md)、
 [537](../notes/537-source-exact-weil-window-positive-tail-admission.md)、
@@ -121,6 +128,7 @@ cofinal真实m||H_TDP_-||在T≤(2−ε)eL趋1，但输入非M/k_R/actualreceive
 | 560 jointfiniteS | 真实原source ALLfixedL modcompact比较新付；ratio必要门结束，fullH norm解耦仅aux被阻 | actualjointK符号/成长费用/actualreceiver新输入；paidcompact/source-adapted/Γ/变组织仍保 |
 | 561/C024分析选择 | 宽FE＋强N正则＋正primitive不足；固定Fourier/Gaussian＋unitgap严格识别整数 | 未给独立完整Weil正性；singleton分类不减RH强度；新signed输入才晋级，不以识别重计whole |
 | 562/C025一般类RH | 连续正例/相变与C1–C5接口统一一轮；不续玩具族/参数优化 | 正型锥闭可用但须同对象完整分布收敛；经典独立平方和/faithful determinant仍无新输入，不把等价重命名准入 |
+| 563/C026分布证书 | 有限输入认证/完整热接口/算术lift统一一轮；已付直接类和严格范围 | 需新无限维源身份、可核完整逼近或实际signed费才再准入；finite check不代growth，不串未知H/CM标签 |
 | 比例/无零区域 | 用户要求暂停 | 仅用户明确恢复，不因调用经典输入而重启优化 |
 
 ## 恢复的六项短答案

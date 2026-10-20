@@ -5,19 +5,19 @@
   "target_rounds": 6,
   "maximum_rounds": 8,
   "counting_unit": "completed research continuation iteration, not tool calls or files",
-  "rounds_since_review": 1,
+  "rounds_since_review": 2,
   "last_review": "goals/reviews/2026-10-20-beurling-macro-review-cycle-12.md",
   "last_review_baseline_commit": "5a16a4ed55eee7571b3194a10b4495142eae9798",
   "last_review_completed_round_count": 4,
   "last_review_trigger": "Fourth complete iteration549/555/560/561; formal cycle12 review after561 settlement3->4, then reset0. Source/history/final-review/direct-Fourier stop/push add zero; fixed baseline retained.",
-  "last_completed_round": "notes/562-generalized-rh-continuous-g-integers-and-spectral-multiplicity.md",
+  "last_completed_round": "notes/563-distribution-side-weil-certificates-and-heat-complete-monotonicity.md",
   "last_completed_round_date": "2026-10-20",
   "last_completed_round_baseline_commit": "0c4f3a3eb609bb1d9564138fa4a35701f05605f2",
-  "latest_user_directed_review": "goals/reviews/2026-10-20-generalized-rh-framework-strategy.md",
+  "latest_user_directed_review": "goals/reviews/2026-10-20-distribution-certificates-strategy.md",
   "latest_user_directed_review_baseline_commit": "0c4f3a3eb609bb1d9564138fa4a35701f05605f2",
-  "latest_user_directed_review_scope": "C025/562连续正例、相变及C1-C5接口统一一轮；混合直接推论/原始来源/审查/推送不另计，cycle12后原cadence0->1，不重置。",
-  "current_research_focus": "562已结算；一般类RH对象扩大，actual zeta独立完整正性/faithful Xi/成长K/core未付；无新输入不延玩具族或等价合同。",
-  "weil_f1_rounds_since_historical_review": 29,
+  "latest_user_directed_review_scope": "C026/563独立分布证书、完整heat-CM接口与算术lift测试统一1轮；原cadence1->2。三原稿/脚本/终审/来源恢复/推送不另计。",
+  "current_research_focus": "563已付有限/周期分布认证机制；经典完整源全CM/无限维正能量/faithful Xi/成长K/core无新输入，不延未知H/CM合同。",
+  "weil_f1_rounds_since_historical_review": 30,
   "last_completed_round_note_paths": [
     "notes/524-f1-mobius-cutoff-taylor-obstruction-and-repair.md",
     "notes/525-f1-smoothed-mobius-probes-and-arithmetic-strength.md",
@@ -45,6 +45,7 @@
     "notes/555-actual-prime-weighted-schur-and-growing-weil-inertia.md",
     "notes/560-joint-finite-place-sonin-primepower-cancellation-and-compact-weil-bridge.md",
     "notes/561-beurling-positive-measures-self-duality-and-integer-recovery.md",
-    "notes/562-generalized-rh-continuous-g-integers-and-spectral-multiplicity.md"
+    "notes/562-generalized-rh-continuous-g-integers-and-spectral-multiplicity.md",
+    "notes/563-distribution-side-weil-certificates-and-heat-complete-monotonicity.md"
   ]
 }

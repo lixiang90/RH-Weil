@@ -1,0 +1,39 @@
+{
+  "curve": "y^2=x^3+x+1 over F5, including infinity",
+  "discriminant_mod5": 4,
+  "extension_point_counts_direct": [
+    9,
+    27,
+    108
+  ],
+  "trace": -3,
+  "A": [
+    [
+      0,
+      -5
+    ],
+    [
+      1,
+      -3
+    ]
+  ],
+  "H": [
+    [
+      "1",
+      "-3/2"
+    ],
+    [
+      "-3/2",
+      "5"
+    ]
+  ],
+  "leading_principal_minors_H": [
+    "1",
+    "11/4"
+  ],
+  "exact_identity": "A^T H A=5H",
+  "normalized_operator": "U=A/sqrt(5), U^* H U=H",
+  "trace_recurrence": "S_0=2, S_1=-3, S_n=-3*S_(n-1)-5*S_(n-2)",
+  "all_degree_dependency": "Genus-one rationality and functional equation; not finite count extrapolation",
+  "zeta_zero_input": false
+}

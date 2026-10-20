@@ -7,12 +7,12 @@
   "workflow": "goals/RESEARCH_WORKFLOW.md",
   "cadence": "goals/review-cadence.json",
   "decisions": "goals/DECISIONS.md",
-  "latest_strategy": "goals/reviews/2026-10-20-generalized-rh-framework-strategy.md",
-  "latest_decision": "D20261020B",
+  "latest_strategy": "goals/reviews/2026-10-20-distribution-certificates-strategy.md",
+  "latest_decision": "D20261020C",
   "macro_frontier": "goals/MACRO_FRONTIER.md",
   "macro_summary": "goals/reviews/2026-10-20-beurling-macro-review-cycle-12.md",
   "latest_macro_review": "goals/reviews/2026-10-20-beurling-macro-review-cycle-12.md",
-  "latest_iteration": "notes/562-generalized-rh-continuous-g-integers-and-spectral-multiplicity.md",
+  "latest_iteration": "notes/563-distribution-side-weil-certificates-and-heat-complete-monotonicity.md",
   "macro_control": {
     "schema": "macro-recovery-v2",
     "goal_epoch": "G20261014",
@@ -20,8 +20,8 @@
   },
   "macro": {
     "long_objective": "新的成长域独立实际算术输入/同对象ζ约束，或成长核心实质方法类边界；扣除≤538基线。",
-    "unpaid_bottleneck": "562已付连续正primitive/N的中心零点段及全源平方和、连续谱分支边界；一般Weil/Pick仍等价。经典完整Gamma/pp/pole独立正性、原算子域/Jordan/faithful Xi及560成长K/core/coupling未付；actual whole强旧4/5不变。",
-    "why_this_contract": "用户扩大类RH范围；562实际正例和重数/连续谱检验已完成，排除只用普通整数梳定义一般类。无新actual input，停止参数族和等价改名；当前只核同步与报告。",
+    "unpaid_bottleneck": "563付有限/周期分布守恒证书和准确heat-CM接口，实际ζ仍欠由完整Γ/pp/pole源独立证明全CM或无限维正能量身份；560成长K/core/coupling、自然域/Jordan/faithful Xi未付，actual whole强旧4/5不变。",
+    "why_this_contract": "用户独立分析条件任务已执行：精确ODE/有理H与点数全递推确给全域平方和，热正反测试有效。经典直接有限类不覆盖且CM仍等价，无新实际input，当前只保存同步报告。",
     "paused_routes": [
       "零点比例优化",
       "无零区域优化"
@@ -36,20 +36,21 @@
       "559保正poleoperator/trace与paidrank2修复旧消费0；jointfiniteS Π/G逆/relative尾合法旧消费0，mixed arithmetic/error/growth仍open；仅具体ratio cross门。",
       "560 ratio/C0/allfixedL桥已新付一次，停止主项恢复；cofinal fullH norm解耦被aux下界阻，保actualreceiver/signed/paidΓ/compact逃逸。",
       "561/C024分析选择门一轮完成；fixedFourier直接运输来源0止。旧K23符号原稿未出且handle不存在，未消费，用户方向优先不自动复活。",
-      "562/C025连续正例/全compact判据/重数与连续谱边界统一1轮完成；严格C1失败的混合不代经典whole；无新输入不续玩具族。"
+      "562/C025连续正例/全compact判据/重数与连续谱边界统一1轮完成；严格C1失败的混合不代经典whole；无新输入不续玩具族。",
+      "563/C026有限分布/周期能量证书及热接口统一1轮完成；直接有限ODE/TV类不覆盖classic，保无限维修复；未知CM/H不代新input。"
     ]
   },
   "primary_contract": {
-    "id": "C025",
-    "path": "goals/contracts/C025-generalized-rh-and-continuous-measures.md",
+    "id": "C026",
+    "path": "goals/contracts/C026-distribution-side-weil-certificates.md",
     "status": "completed",
     "iteration_budget": 1,
     "settled_iterations": [
-      "notes/562-generalized-rh-continuous-g-integers-and-spectral-multiplicity.md"
+      "notes/563-distribution-side-weil-certificates-and-heat-complete-monotonicity.md"
     ],
-    "stage": "562研究提交d74c5f73已独立核远端main/tree、导入相同本地Git对象并核clean；后续仅核验metadata子提交，不增数学轮。",
-    "next_action": "报告562一般类RH/连续正例/C1-C5修订及未付经典责任；下一数学合同仅凭新同对象完整正性/faithful谱身份/可核分布逼近输入重新准入，不续已停合同或玩具族。",
-    "stop_rule": "一完整轮；不调c上端/扩无穷玩具族，若无新正例仅旧判据恢复则0停。一般positive或C5等价不代实际ζ成长/Ξ门。"
+    "stage": "563最终7原件独立终逆审PASS及root前件/版本消费闭合，原cadence1->2已唯一结算，正在核diff和同步。",
+    "next_action": "核全部receipt/hash与暂存diff，上传既有GitHub main并核远端完整SHA/tree及本地clean；报告分布证书/热CM及经典缺口。无新同对象input不续未知正性合同。",
+    "stop_rule": "单一完整轮；若只得Weil/Pick/CM等价则0来源止，不串标签，不排无限维/平滑相对误差等合法修复。"
   },
   "support_contracts": [],
   "must_not_forget": [
@@ -156,16 +157,26 @@
       "path": "reviews/2026-10-20/grh-general/remote-sync-verification.json",
       "kind": "cited",
       "scope": "562研究提交d74c5f73远端main/tree与本地同SHA/clean已核；后续仅metadata子提交。同步不是数学证明或新轮。"
+    },
+    {
+      "path": "notes/563-distribution-side-weil-certificates-and-heat-complete-monotonicity.md",
+      "kind": "proved",
+      "scope": "全D源ODE+正能量矩阵/周期全递推给完整Weil平方和；实偶指数阶heat-CM判据；精确F5曲线证书；经典全源正性仍欠，统一1轮。"
+    },
+    {
+      "path": "reviews/2026-10-20/grh-distribution/root-consumption-scope.json",
+      "kind": "cited",
+      "scope": "563/三个原稿/终审/精确脚本和JSON最终7版本；root前件及独立终审PASS，保全部norm/domain/源量词/符号/coverage/strongest-old；hash不认证数学。"
     }
   ],
   "pending_processes": [],
   "runtime_goal_observation": {
     "status": "absent",
-    "observed_at_utc": "2026-10-20T02:42:07.479865+00:00",
-    "basis": "本轮收尾再次get_goal=null；未创建运行Goal，文件长期Goal/基线保持，未满足宏观完成门。"
+    "observed_at_utc": "2026-10-20T03:01:13.404560+00:00",
+    "basis": "本轮恢复及终审收尾get_goal均null；未创建未请求运行Goal，G20261014文件/固定基线保持。"
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-10-20-generalized-rh-remote-verified.json",
+  "checkpoint": "goals/checkpoints/2026-10-20-distribution-certificates-settled.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
     "commit": "d74c5f73aaab0a847df7aedb572aaeccf81def98",
@@ -177,11 +188,11 @@
     "goal_lf_sha256": "cc6046029a8e5c9fe4eae427dfd663f1d851666370637c8fd451042f340fee8b",
     "mathematical_gate": "open",
     "final_execution_gate": "not-eligible",
-    "basis": "562扩大一般类并给非空连续RH正例及精确平方和；未给经典完整Weil正性或改善actual whole4/5/成长K/core/Ξ，宏观门open，runtime Goal=null。"
+    "basis": "563扩大分布认证机制并给精确函数域正能量证书；未付classic完整源全CM/无限维正能量、成长core/faithful Xi，whole4/5不变，宏观门open，runtime Goal=null。"
   },
   "historical_completion_receipts": [
     "goals/goal-completion-receipt.20261014.json",
     "goals/goal-completion-receipt.20261014-continuation.json"
   ],
-  "process_inventory_observed_on": "本轮主体/模型/Weil/混合审查均已出稿并完成root消费，原稿hash已核，无numeric/shell producer；旧dialogue pending_init不依赖。研究SHA远端本地一致且clean；只剩当前metadata核验。"
+  "process_inventory_observed_on": "当前analytic/heat/raw及final_reverse_563均完成，7原件hash及独立精确脚本重跑已核；无numeric/shell producer。root结算一次，当前仅Git同步。"
 }
