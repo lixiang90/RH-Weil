@@ -1,0 +1,17 @@
+{
+  "schema": "rh-weil-remote-sync-verification-v1",
+  "verified_at_utc": "2026-10-20T07:07:44.816281+00:00",
+  "repository": "https://github.com/lixiang90/RH-Weil",
+  "branch": "main",
+  "research_commit": "9fdb6886cacd5e6b5a599d60ebf0018c919ee2cb",
+  "tree": "5d87f997faed5f36b5c7559dc785062b6bb8eee6",
+  "parent": "5d643821c173530c0f88c8e5878ba197a58b5cbc",
+  "remote_checks": "Conditional nonforce update_ref with expected parent; independent GET main and commit match exact SHA/tree/parent. API tree equals staged Git tree.",
+  "local_checks": "Reconstructed remote raw commit and checked SHA before write; hash-object exact object and expected-parent update-ref main/origin-main; same SHA and clean working tree.",
+  "research_scope": "566, three raw source proofs/audits, independent final review, root closure, C029 and recovery metadata;14 files. No implementation code changed.",
+  "validation": "All-time all-winding function-field heat lift and boundary counterexample independently reviewed PASS; exact old F5 certificate rerun, source coefficients/UV comparison rederived. Root receipt binds five originals; hashes/structural check do not certify mathematics.",
+  "cadence": "566 once,0->1 since cycle13; metadata/checkpoints/push zero additional.",
+  "later_metadata": "This receipt certifies the research commit above. A metadata-only child carries this receipt/STATE/new checkpoint and is checked live separately, without self-referential hash.",
+  "bottleneck_changed": false,
+  "goal_completion": "Same fixed G20261014/baseline, macro gate open, runtime Goal absent and not created/completed."
+}

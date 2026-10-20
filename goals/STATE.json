@@ -42,8 +42,8 @@
     "settled_iterations": [
       "notes/566-source-closed-forms-and-full-weil-heat-trace-tests.md"
     ],
-    "stage": "566主稿/三原稿/终逆审五版本root消费PASS，统一结算1轮；当前准备保存与GitHub同tree同步。",
-    "next_action": "同步566/root收据并核远端main/tree与本地clean，报告unitary bundle成功及classic同源identity未付；新准入须实际input/test/net。",
+    "stage": "566研究提交9fdb6886已核远端main/tree及本地同Git对象/clean；当前只保存核验metadata。",
+    "next_action": "报告566函数域正闭energy与完整heat成功、classic同源identity缺口及精确失败范围；新数学准入须实际source公式/独立极化或signed净费。",
     "stop_rule": "本构造门一次完成；不调图长拟合/unknownK公理。重准入须新的完整source公式/独立极化或actualsigned费。"
   },
   "support_contracts": [],
@@ -126,6 +126,11 @@
       "path": "reviews/2026-10-20/grh-heat-forms/root-consumption-scope.json",
       "kind": "cited",
       "scope": "五最终版本及独立终审PASS；对象/norm/domain/源/allt-alln/重数/误差/符号/coverage/强旧root闭合，hash不认证数学。"
+    },
+    {
+      "path": "reviews/2026-10-20/grh-heat-forms/remote-sync-verification.json",
+      "kind": "cited",
+      "scope": "566研究提交9fdb6886远端main/tree与本地同SHA/clean已核；随后metadata子提交另核。同步不是数学证明/新轮。"
     }
   ],
   "pending_processes": [],
@@ -135,11 +140,11 @@
     "basis": "本轮get_goal实时null，未建运行Goal；固定文件Goal/基线及open宏观门保留。"
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-10-20-source-heat-form-prepush.json",
+  "checkpoint": "goals/checkpoints/2026-10-20-source-heat-form-remote-verified.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
-    "commit": "b6be8be3bb894286ed857a7e5c7253cdfac91b6e",
-    "basis": "远端main及commit独立GET核SHA/tree3a1810c8/parent；15文件tree等于本地index，精确Git对象导入后HEAD=origin/main且clean。随后仅核验metadata子提交，不滚基线/计轮。"
+    "commit": "9fdb6886cacd5e6b5a599d60ebf0018c919ee2cb",
+    "basis": "远端main/commit独立GET核SHA/tree5d87f997/parent；14文件tree等于本地index，精确Git对象导入后HEAD=origin/main且clean。随后仅核验metadata子提交，不滚基线/计轮。"
   },
   "completion_audit": {
     "goal": "goals/GOAL.20261014.md",
@@ -153,5 +158,5 @@
     "goals/goal-completion-receipt.20261014.json",
     "goals/goal-completion-receipt.20261014-continuation.json"
   ],
-  "process_inventory_observed_on": "mapping_torus_heat_566/classic_heat_form_audit_566/final_reverse_566均final，root逐篇核读及五版本收据完成；无数学/数值producer，当前只保存同步。"
+  "process_inventory_observed_on": "三原稿及final_reverse_566均final并root闭合；无数学/数值producer。研究提交9fdb6886本地远端同SHA/clean，当前仅metadata核验。"
 }
