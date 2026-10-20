@@ -45,7 +45,7 @@
     "settled_iterations": [
       "notes/569-dual-carrier-gamma-normalization-and-budget-cocycles.md"
     ],
-    "stage": "569独立PASS及root最终版本闭合完成，统一结算一轮；保存checkpoint/GitHub同步中，长期Goal门open。",
+    "stage": "569独立PASS/root最终闭合、统一结算及19文件研究提交远端GET/tree/parent/本地同SHA核验完成；同步收据metadata另核，0额外轮。",
     "next_action": "下一研究恢复reviews/2026-10-14/joint-sonin-cross/next-joint-error-sign-and-growth-admission.md：固定S={∞,2,3}全G逆，先核F23夹源kernel/trace合法，再核其中d=log(3/2)双pole-zero窄patch的全returns signed mixed与原Dlog费。旧handle未出稿未消费，不重跑ratio；若仅域/S3无actual系数/净后果即入口停，不预建C033。",
     "stop_rule": "一轮止，不续手调权/δ或未知detline；无新实际输入则回560 actualreceiver signed准入，不串来源。"
   },
@@ -169,6 +169,11 @@
       "path": "reviews/2026-10-20/dual-gamma-cocycle/root-consumption-scope.json",
       "kind": "cited",
       "scope": "主/三稿/来源及exact/合同结算draft共11最终输入与独立PASS绑定；对象/角色/domain/range/norm/成长/全源/符号/误差/coverage/强旧root闭合，hash非证明。"
+    },
+    {
+      "path": "reviews/2026-10-20/dual-gamma-cocycle/remote-sync-verification.json",
+      "kind": "cited",
+      "scope": "569研究53269550远端main/tree/parent与本地同SHA/clean已核；metadata子提交另核。同步非证明/新轮。"
     }
   ],
   "pending_processes": [],
@@ -178,11 +183,11 @@
     "basis": "本轮恢复与终审get_goal均null，保同文件Goal/冻结基线，不创建未请求实例。"
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-10-20-dual-gamma-cocycle-569.json",
+  "checkpoint": "goals/checkpoints/2026-10-20-dual-gamma-cocycle-569-sync.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
-    "commit": "9e8cc55e13c90b779cc1f0ab3578ebea4a0abe72",
-    "basis": "568研究16文件已独立GET main/commit核SHA/tree1f6c1af8/parent26c07a59；tree等本地index，精确对象导入后HEAD=origin/main且clean。随后metadata子提交另核，0额外数学轮/不滚基线。"
+    "commit": "5326955026dcb9a466a9493f09254598e1b4579f",
+    "basis": "569研究19文件独立GET main/commit核SHA/treee803871e/parent5c6211e3；tree等本地index，精确对象导入后HEAD=origin/main且clean。随后仅同步收据metadata子提交另核，0额外轮/不滚基线。"
   },
   "completion_audit": {
     "goal": "goals/GOAL.20261014.md",
@@ -196,5 +201,5 @@
     "goals/goal-completion-receipt.20261014.json",
     "goals/goal-completion-receipt.20261014-continuation.json"
   ],
-  "process_inventory_observed_on": "三producer及fresh独立终审均final；root已核当前数学原件与最终hash；无shell/numeric producer、未消费输出或等待进程，runtimeGoal=null。"
+  "process_inventory_observed_on": "三producer与fresh终审均final，无shell/numeric producer或未消费输出；root数学结算及远端研究提交已核，runtimeGoal=null。metadata不代下一actual mixed门。"
 }

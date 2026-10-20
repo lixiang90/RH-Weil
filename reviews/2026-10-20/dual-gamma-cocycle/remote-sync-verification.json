@@ -1,0 +1,10 @@
+{
+  "schema": "rh-weil-remote-sync-verification-v1",
+  "repository": "https://github.com/lixiang90/RH-Weil",
+  "research_commit": "5326955026dcb9a466a9493f09254598e1b4579f",
+  "tree": "e803871e741e34c528943f8e24137ef8a50f9095",
+  "parent": "5c6211e38de8f0e8033539c7bf0a117c1e9cfc00",
+  "files": 19,
+  "verification": "Expected-old nonforce update followed by independent GET main and git/commits SHA/tree/parent check. Remote tree equals local staged tree; exact raw commit SHA recomputed before import. HEAD=origin/main and clean after import.",
+  "scope": "569 one research iteration; sync zero extra rounds. Subsequent metadata-only child records verified research parent without recursive self-reference."
+}
