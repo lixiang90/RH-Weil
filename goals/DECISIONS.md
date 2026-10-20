@@ -733,3 +733,16 @@ C029统一结算1次，原cadence0→1不重置；classic正能量/同源trace�
 优先对560实际receiver的joint signed项作一次原件准入；B保独立有效对应来源，C等待完整source
 公式/具体有控逼近。不调玩具参数/Weyl/低谱，不续unknownH/K/CM公理，也不静默复活旧合同。
 本次回顾不启动新数学合同、不增轮；原cadence1及cycle13不改，不创建runtime Goal。
+
+## D20261020H：按用户追溯函数域正性，检验全Π对应而非再假设极化
+
+用户明确优先函数域机制；C030以完整continuous Π的formalgraph/transpose/composition/trace
+为具体可判test，准入一轮，不续C029。原始来源追到Milne RR/截面容量、全graph交数和
+Deligne tensor正系数/全局pole预算；001/307/363/563既有机制不重计。
+新source模型两段均有正交点和全形式对偶/trace，primitive signature却不同，
+明确独立RR/effectivity必须承担的signed组合责任。有限cutoff RR预算容增长容量，
+但未造classic sections或同源误差，不能报实际ζ新正性。
+073高维membership过强句缩回已证类；562–566原有purity/半单区分，条件后果不受影响。
+下一只核既存CC2018 §3.4平方相对指数对完整Γ有限部分的具体预算，若仍是策略/未知H1
+则来源0停并回560实际signed门；不另串geometry来源、不扩continuous参数。
+统一567一轮后cadence1→2，actual4/5/成长K/core/coupling与宏观门保持，runtime Goal仍null。

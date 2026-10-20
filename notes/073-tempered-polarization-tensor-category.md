@@ -252,8 +252,10 @@ covariant frame hypotheses 才允许定理 NF 构造完整 Hilbert--Pólya opera
 
 ### 命题 NH（non-circular existence boundary）
 
-- finite fields：Weil cohomology、Hard Lefschetz 与 Hodge--Riemann positivity
-  给 exact/strong objects，定理 NE 无条件恢复各 weight line；
+- finite fields：曲线/Jacobian与阿贝尔簇有独立的交数/Rosati正性来源。
+  若高维对象另有已证的相容Hodge--Riemann/Weil form，才由本篇得到exact/strong
+  object；一般光滑射影簇的Deligne纯性已证，但不自动给该正形式或原Frobenius半单性。
+  因此此处不能把一般高维对象的strong membership作为无条件输入；
 - classical zeta：文档 058 的 finite carriers（FPW1–FPW3、FPW4a、FPW5）、
   文档 163 对 adaptive Sobolev carrier 的 FPW4b，以及文档 071–072 的 local
   scalar/bridge positive fibers 与 normalized dilation correspondences 均
@@ -283,6 +285,11 @@ cancellation 的 Hodge--Riemann content，并分别具有 RH/GRH 的全部强度
 dynamics 自动、正定且无循环地构造它们。当前开放点因此从“同时构造内积与
 证明中心线”缩成“在已经存在的 finite positive carriers 上证明双向
 tempered/uniform orbit bound”。
+
+2026-10-20范围纠正：原NH首条把有限域高维的纯性与普遍正极化混写，现缩回上述范围。
+抽象NB/NC/NE的条件定理不变；562–566已明确保留purity/半单性区别，不依赖该过强句。
+来源为Milne《RH over Finite Fields》§3 Thm3.15、Aside3.18与Deligne Weil I §3；
+追溯及重新闭合记录见[567](567-function-field-positivity-origins-and-generalized-correspondence-tests.md)。
 
 文档 074 进一步计算这些 Cesaro metrics 的 exact Lyapunov exponent，并
 证明其 exponential growth 检测 weight、polynomial growth 检测 Jordan

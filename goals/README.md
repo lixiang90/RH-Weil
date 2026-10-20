@@ -2,7 +2,9 @@
 
 当前文件[Goal](GOAL.20261014.md)，固定0c4f/≤538资产为输入，保留G20261014目标。
 2026-10-20现场get_goal=null，不声称旧active实例存在，未创建未请求的新运行Goal。
-[561–566战略回顾](reviews/2026-10-20-notes-561-566-analytical-rh-lessons.md)解释分析尝试的经验和方向排序；
+[561–566战略回顾](reviews/2026-10-20-notes-561-566-analytical-rh-lessons.md)解释分析尝试的经验；
+用户本轮指定函数域正性来源优先，最新[567](../notes/567-function-field-positivity-origins-and-generalized-correspondence-tests.md)
+恢复RR容量→Hodge index→全点数Gram，并用完整连续Π检验formal graph/duality/trace仍不足。
 [正式cycle13](reviews/2026-10-20-general-rh-macro-review-cycle-13.md)保跨周期记录，本次回顾不增轮或归零；
 [宏观前沿](MACRO_FRONTIER.md)保存准确范围、强旧短链、合法逃逸和选择依据。
 先读[STATE](STATE.json)，执行：
@@ -14,16 +16,20 @@
 先答完成门／基线、最强可消费后果、最小未付箭头、为何停／当前为何胜备选、
 改变选择的证据及现场Git／Goal／进程，不能只恢复下一命令。
 
-当前选路：先做560 actualreceiver joint signed原件准入，核具体mixed项有无新计算输入；
-独立对应正性保来源备选，无限heat/函数域逼近须新完整source公式/具体族。未启动新合同，
-不静默续旧预算；无新输入不重跑compactness、玩具参数、低谱拟合或unknownH/K/CM。
+当前选路：C030固定来源/全Π对应检验一次结束；下一只核363既存CC2018 §3.4的
+平方相对指数与完整Γ对角finite-part能否满足567(13)–(14)的具体预算。
+若仍是策略/周期轨道RR/未知H1则来源0即停，返回560 actualreceiver joint signed门；
+不续C030、玩具参数、低谱拟合或unknownH/K/CM，不另串几何paper。
 
 [通用流程](RESEARCH_WORKFLOW.md)适用于长期重型研究；[决策](DECISIONS.md)、
 [原轮数](review-cadence.json)、[复盘协议](REVIEW_PROTOCOL.md)各负其责。
 STATE是当前执行唯一源，show由它与cadence显示；checkpoint检版本结构，不认证证明或运行态。
 原件出稿／逆审／root消费／结算分开，阶段转换同步；复用handle核当前task/output。
 
-当前[566](../notes/566-source-closed-forms-and-full-weil-heat-trace-tests.md)：
+最新567付连续fullΠ的formal graph正交点＋精确transpose/composition/trace及primitive失正反测；
+RR/Deligne来源归经典，finitecutoff容量预算是conditional接口，不报classic独立新正性。
+073宽泛高维membership原位纠正，562–566条件消费不受影响。actual4/5/core仍未改。
+[566](../notes/566-source-closed-forms-and-full-weil-heat-trace-tests.md)：
 由函数域已核全递推/U,H构造H1 unitary bundle正闭能量，并直接付all-time/all-period普通heat=完整W热量；
 新的是heat实现，旧H/纯性不重计。nonunitary正form导数边界不同而identity失败；safe jump普通trace∞、
 physical Q全线不可闭及finite/infinite图比较保准确scope/逃逸。经典Γ/pp/pole完整源已核，独立identity仍欠。

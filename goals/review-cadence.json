@@ -5,18 +5,18 @@
   "target_rounds": 6,
   "maximum_rounds": 8,
   "counting_unit": "completed research continuation iteration, not tool calls or files",
-  "rounds_since_review": 1,
+  "rounds_since_review": 2,
   "last_review": "goals/reviews/2026-10-20-general-rh-macro-review-cycle-13.md",
   "last_review_baseline_commit": "71d3b7e738cb2b8b8c2c3ff43f91a328df1af5d6",
   "last_review_completed_round_count": 4,
   "last_review_trigger": "562/563/564/565 four complete iterations.565 root closure settled3->4; formal cycle13 review resets0 once. Standard sources/drafts/audits/script/review/push zero additional. Fixed Goal/baseline unchanged.",
-  "last_completed_round": "notes/566-source-closed-forms-and-full-weil-heat-trace-tests.md",
+  "last_completed_round": "notes/567-function-field-positivity-origins-and-generalized-correspondence-tests.md",
   "last_completed_round_date": "2026-10-20",
   "last_completed_round_baseline_commit": "0c4f3a3eb609bb1d9564138fa4a35701f05605f2",
-  "latest_user_directed_review": "goals/reviews/2026-10-20-notes-561-566-analytical-rh-lessons.md",
+  "latest_user_directed_review": "notes/567-function-field-positivity-origins-and-generalized-correspondence-tests.md",
   "latest_user_directed_review_baseline_commit": "0c4f3a3eb609bb1d9564138fa4a35701f05605f2",
-  "latest_user_directed_review_scope": "用户561—566战略回顾；0新研究轮，原cadence1和正式cycle13不变，不新建合同。",
-  "current_research_focus": "561—566用户战略回顾完成，0新轮；下一先核560 actualreceiver mixed signed输入，几何/无限heat需独立来源或完整source，不预建新合同。",
+  "latest_user_directed_review_scope": "用户函数域来源优先后567内含策略/准入更新；567研究仅计一次，策略整理0额外轮，不重置cycle13；原561-566用户回顾保历史原件。",
+  "current_research_focus": "567/C030 complete once: full-Pi formal correspondence countertest and conditional finite-capacity RR budget; classic independent sections/source identity unpaid. Next only existing CC2018 square/Gamma source admission; no serial unknown geometry contracts.",
   "weil_f1_rounds_since_historical_review": 31,
   "last_completed_round_note_paths": [
     "notes/524-f1-mobius-cutoff-taylor-obstruction-and-repair.md",
@@ -49,6 +49,7 @@
     "notes/563-distribution-side-weil-certificates-and-heat-complete-monotonicity.md",
     "notes/564-dual-pair-rh-weighted-purity-and-mellin-gauge.md",
     "notes/565-canonical-completion-graded-identifiability-and-independent-energy.md",
-    "notes/566-source-closed-forms-and-full-weil-heat-trace-tests.md"
+    "notes/566-source-closed-forms-and-full-weil-heat-trace-tests.md",
+    "notes/567-function-field-positivity-origins-and-generalized-correspondence-tests.md"
   ]
 }

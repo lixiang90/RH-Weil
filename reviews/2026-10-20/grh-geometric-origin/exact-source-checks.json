@@ -1,0 +1,47 @@
+{
+  "scope": "finite exact rational consistency only; all-parameter source conclusions are proved in note567 and its source drafts",
+  "method": "Python standard library Fraction and integer arithmetic; no zeros, eigenvalue numerics or frequency sampling",
+  "checks": [
+    {
+      "name": "F5 actual curve initial primitive Gram",
+      "matrix": [
+        [
+          2,
+          -3
+        ],
+        [
+          -3,
+          10
+        ]
+      ],
+      "det": 11,
+      "intersection_2D0_minus_D1": -30
+    },
+    {
+      "name": "290 q5 positive-Euler negative model",
+      "matrix": [
+        [
+          2,
+          5
+        ],
+        [
+          5,
+          10
+        ]
+      ],
+      "det": -5,
+      "intersection_2D0_minus_D1": 2
+    },
+    {
+      "name": "continuous full-Pi negative model",
+      "c": "3/16",
+      "h": "log(16)",
+      "exp_h": 16,
+      "W_h": "5/2",
+      "n_h": 7,
+      "normalized_Gram_det": "-9/4",
+      "source": "n_c=e^u+1-e^(u/2)W_c; positivity of primitive P and full Pi inherited from562, not inferred from this point test"
+    }
+  ],
+  "result": "PASS; exact values match analytic identities"
+}

@@ -1,0 +1,71 @@
+{
+  "schema": "rh-weil-root-premise-closure-v1",
+  "contract": "C030",
+  "status": "root-consumed final versions after independent PASS; mathematical scope closed as recorded",
+  "goal_epoch": "G20261014",
+  "baseline_commit": "0c4f3a3eb609bb1d9564138fa4a35701f05605f2",
+  "objects": [
+    {
+      "object": "curve_source",
+      "domain": "all divisors on C_bar x C_bar, C smooth projective geometrically connected/Fq; integer then Q/R/C extension",
+      "map": "D -> D°=D-(D.F2)F1-(D.F1)F2; cycles first, primitive numerical quotient second",
+      "norm_sign": "energy=-intersection on primitive; obtained from RR/effective degree/multiplication/fixed finite h0(2K), not assumed Hilbert structure",
+      "quantifiers": "all nonnegative m,n, all point counts N_r including full inseparable q^min multiplicity; all complex compact g via finite winding lift",
+      "source_paid": "selfintersection/contact a0=2g; N_r from actual fixed points; all powers, periodic pole background and factor L=logq",
+      "errors": "0 in stated exact finite-winding identity",
+      "direction": "full Q_W>=0; not inferred from off-diagonal positive graph intersections",
+      "coverage": "full compact test algebra; cyclic quotient rank not ordinary-trace multiplicity",
+      "old_net": "known mechanism expanded, no new function-field purity theorem; 001/307/363/563/566 deducted"
+    },
+    {
+      "object": "continuous_formal_correspondence",
+      "domain": "0<c<=1/2 positive primitive P/full Pi/M of562; fixed Gamma0 completion and poles0,1; real parameters t,s, complex finite sums/compact smoothing",
+      "map": "n_c=u*dPi/du (not cumulative N); free graph+fibers -> primitive D_t, E_t; formal group algebra unitized u_t",
+      "norm_sign": "indefinite symmetric intersection, not physical L2; -E_s.E_t=W(t-s); sigma(u_t u_s*)=W(t-s)",
+      "quantifiers": "all s,t real, all complete prime powers, all compact smooth g; nonlinear parameters not posterior zero-based",
+      "source_paid": "n_c=e^u+1-e^(u/2)W_c from full Pi; positive P is inherited562 proof, not inferred from n>=0; poles included, no Gamma in this model",
+      "errors": "0",
+      "direction": "all distinct graph intersections positive in both segments; negative c<1/4 has explicit smooth odd full Q<0, positive segment has old SOS",
+      "coverage": "formal trace/composition/transpose and scaled flow, no actual scheme, effective cone, principal quotient or sections established",
+      "old_net": "new same-source formal-geometry countertest, not new continuous RH transition or actual zeta input"
+    },
+    {
+      "object": "finite_cutoff_RR_budget",
+      "domain": "each fixed real compact g, actual finite nonnegative section dimensions at same cutoff j and integer n_j>=1; target W real-even distribution",
+      "map": "same-cutoff section product K_j-nD_j plus K_j+nD_j ->2K_j; d_j approximates -Q_full(g) with explicit eta_j",
+      "norm_sign": "capacity C_j>=min(two even sections); inequality d_j <= [2(C_j+a_j+eps_j-chi_j)+n_j abs(b_j)]/n_j^2",
+      "quantifiers": "two signed RR inequalities at chosen n_j for every fixed g (or dense source algebra plus continuity); limsup RHS<=0 and eta_j->0; all errors and limits retained",
+      "source_paid": "algebraic sufficient implication paid; actual classic section construction, RR epsilon, degree leakage a, canonical b, finite capacity and source eta all unpaid",
+      "errors": "eps_j >=0 common bound for both RR signs; eta_j includes full Gamma/contact/powers/poles and any transport",
+      "direction": "conditional full Q>=0; negative source forces positive budget floor, not a new independent arithmetic bound",
+      "coverage": "real-even complexification paid; arbitrary Hermitian distribution requires separate source/complex transport; C_j may grow",
+      "old_net": "quantitative synthesis of existing363 RR strategy; no classic source identified"
+    },
+    {
+      "object": "classic_and_semantic_correction",
+      "domain": "actual canonical zeta, du/zero-extension Dlog compact source; plus073 general high-dimensional membership sentence",
+      "map": "full source -> positive coincidence measure only off origin; diagonal finite-part stays in original Q",
+      "norm_sign": "offdiagonal positive measure not primitive PSD; original physical full-line Q is not automatically closable per566",
+      "quantifiers": "all prime powers, complete Gamma/poles/contact; positive away-origin Radon restriction on every [epsilon,R], not finite mass at0",
+      "source_paid": "classic offdiag formula inherited563; Gamma density asymptotic1/(2u) means infinite mass; number-field labels/multiplicity remain",
+      "errors": "no source terms discarded; no classic independent RR identity or tensor-pole theorem",
+      "direction": "actual whole leading4/5, growing K/core/coupling and Xi remain open; no Goal completion",
+      "coverage": "universal high-dimensional positive Weil form/semisimplicity consumption frozen;073 corrected;562-566 already separate purity and semisimple/positiveH, hence reclosed unaffected conditional consequences",
+      "old_net": "no classic net improvement; source correction and exact scope only"
+    }
+  ],
+  "files": {
+    "notes/567-function-field-positivity-origins-and-generalized-correspondence-tests.md": "96c0c5a62e4175705696a29ed28d890eb11cec6f7351dc763641b65f3fcaec8a",
+    "notes/073-tempered-polarization-tensor-category.md": "3a0a9ab86a5080c4f8af0e18895ef62f31c0e5be52dfbb6ce4580b51a4a76b93",
+    "goals/contracts/C030-function-field-positivity-and-source-graph-tests.md": "bd2e0d2c3d059e2b658c8b264b1e4b4d834bd7cc7b0b75f5fbd3a4df730023cf",
+    "reviews/2026-10-20/grh-geometric-origin/function-field-source-audit.md": "c2bac9824d324f45bce952b67c42495600118ffb9fef37456c22cbb755fe06fb",
+    "reviews/2026-10-20/grh-geometric-origin/generalization-admission-audit.md": "cfffb22f2fefefa735d78733492589de83d4ace73308d611558a2156fad8ee22",
+    "reviews/2026-10-20/grh-geometric-origin/final-independent-review.md": "97f34a9ae19399db4e927a24b4a2b04453395bad5b97ab91c8dcdedbcb8c1bae",
+    "reviews/2026-10-20/grh-geometric-origin/exact-source-checks.json": "d14b55e768fba739c81e60a74177da175775b1f70ee1f71f736da26b52409f71"
+  },
+  "new_independent_actual_zeta_input": false,
+  "actual_bottleneck_changed": false,
+  "strongest_old_chain": "542+555->557 whole leading4/5;560 fixed-L positive trace minus compact plus poles, growth K/core remains unpaid",
+  "pending": [],
+  "settlement": "567 unified once; sources/reviews/exact checks/metadata/push add zero iterations"
+}

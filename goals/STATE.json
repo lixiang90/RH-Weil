@@ -7,12 +7,12 @@
   "workflow": "goals/RESEARCH_WORKFLOW.md",
   "cadence": "goals/review-cadence.json",
   "decisions": "goals/DECISIONS.md",
-  "latest_strategy": "goals/reviews/2026-10-20-notes-561-566-analytical-rh-lessons.md",
-  "latest_decision": "D20261020G",
+  "latest_strategy": "notes/567-function-field-positivity-origins-and-generalized-correspondence-tests.md",
+  "latest_decision": "D20261020H",
   "macro_frontier": "goals/MACRO_FRONTIER.md",
-  "macro_summary": "goals/reviews/2026-10-20-notes-561-566-analytical-rh-lessons.md",
+  "macro_summary": "notes/567-function-field-positivity-origins-and-generalized-correspondence-tests.md",
   "latest_macro_review": "goals/reviews/2026-10-20-general-rh-macro-review-cycle-13.md",
-  "latest_iteration": "notes/566-source-closed-forms-and-full-weil-heat-trace-tests.md",
+  "latest_iteration": "notes/567-function-field-positivity-origins-and-generalized-correspondence-tests.md",
   "macro_control": {
     "schema": "macro-recovery-v2",
     "goal_epoch": "G20261014",
@@ -20,8 +20,8 @@
   },
   "macro": {
     "long_objective": "新的成长域独立实际算术输入/同对象ζ约束，或成长核心实质方法类边界；扣除≤538基线。",
-    "unpaid_bottleneck": "566付已核函数域H的正闭bundle及完整heat身份；classic同源Γ/pp/pole正闭形式仍欠。actualwhole4/5、560成长K/core/coupling未变。",
-    "why_this_contract": "六篇战略回顾完成：优先已有actualsource桥上的signed原件准入，独立对应来源次之；无限heat/正逼近须具体完整源。当前仅同步报告，未开始新数学。",
+    "unpaid_bottleneck": "567全Π形式对应/trace仍可失正；RR增长容量预算独立证明了充分接口，classic实际sections/RR误差/完整Γ自交identity未造。actual4/5及560成长K/core/coupling不变。",
+    "why_this_contract": "按用户函数域优先完成具体fullΠ source graph/duality/trace反测；追到RR与Deligne来源并扣363强旧。下一仅既存§3.4完整Γ对角预算准入，无input即来源停并回实际signed。",
     "paused_routes": [
       "零点比例优化",
       "无零区域优化"
@@ -31,20 +31,21 @@
       "561/C024分类一轮完成；fixedFourier运输0止；旧K23未出稿未消费，用户方向优先。",
       "562—564/C025—C027连续类/分布证书/双对象权与gauge各一轮完成；等价与已知来源不计actual输入。",
       "565/C028选核/识别固定门一轮完成；CG标准类唯一性不付membership，energy物理dx不代Weil；无新同源input不续H/CM标签。",
-      "566/C029 heatlift一轮完成；safejump/physicalclosure/finitegraph仅所证类失败，合法infinitegraph已核仍非classic identity；无新source不续unknownK/图参数。"
+      "566/C029 heatlift一轮完成；safejump/physicalclosure/finitegraph仅所证类失败，合法infinitegraph已核仍非classic identity；无新source不续unknownK/图参数。",
+      "567/C030固定全Π对应检验一轮完成；RR/Deligne来源归旧，量化RR budget条件未付classic数据，不续formalgeometry/参数/未知sections标签。"
     ]
   },
   "primary_contract": {
-    "id": "C029",
-    "path": "goals/contracts/C029-source-closed-forms-and-exact-heat-traces.md",
+    "id": "C030",
+    "path": "goals/contracts/C030-function-field-positivity-and-source-graph-tests.md",
     "status": "completed",
     "iteration_budget": 1,
     "settled_iterations": [
-      "notes/566-source-closed-forms-and-full-weil-heat-trace-tests.md"
+      "notes/567-function-field-positivity-origins-and-generalized-correspondence-tests.md"
     ],
-    "stage": "C029/566完成；用户561—566战略回顾及两独立原稿已root消费，未开新数学合同。",
-    "next_action": "若用户续研，先按560现有joint mixed源准入稿核actualreceiver/全inverse/双边界能否给新signed计算；无input停来源，不预建合同，不续旧预算。",
-    "stop_rule": "本构造门一次完成；不调图长拟合/unknownK公理。重准入须新的完整source公式/独立极化或actualsigned费。"
+    "stage": "567及两最终原稿独立终逆审PASS；root绑定版本/全部前件并唯一结算1轮。",
+    "next_action": "只核363已归档CC2018 §3.4的平方相对指数二次项/完整Γ对角finite-part，能否给567(13)-(14)实际数据或误差；若仍是策略/周期RR/未知H1则来源0停，回560 actualreceiver joint signed准入，不预建合同。",
+    "stop_rule": "固定test一轮止；无actual截面/完整tensorpole新输入，不续RR/H/CM标签。"
   },
   "support_contracts": [],
   "must_not_forget": [
@@ -59,7 +60,8 @@
     "557 strong-old4/5从542+555直接闭合，技术PASS/issuedratio不是新独立input；未来whole净值不能只拿leading 1或2作对照。",
     "合同1–2完整轮/原cadence唯一；组织/来源恢复/推送0，不以零轮串换标签；下一恢复STATE动作。",
     "560 Π fullG/error compact已付ALLfixedL source/Dlog；K_L/growth/sign未付；actualm||H_TDP_-||lower只auxH，非M/k/receiver像/Weil源；ratio结束不重跑。",
-    "561的μ是物理x整数侧，非log n格或零点正谱；P/Π/M分别付；fixedGaussian全t与unitgap不可弱化。分类与正性分开；C024完成不complete长期目标。"
+    "561的μ是物理x整数侧，非log n格或零点正谱；P/Π/M分别付；fixedGaussian全t与unitgap不可弱化。分类与正性分开；C024完成不complete长期目标。",
+    "567 formalgraph/transpose/composition/trace和positive offdiag不付Hodge index；RR(14)须独立sections/同cutoff全部误差/source eta，C_j可增长；073高维membership纠正不撤562-566既有条件后果。"
   ],
   "evidence": [
     {
@@ -136,16 +138,26 @@
       "path": "reviews/2026-10-20/grh-six-note-review/root-consumption-scope.json",
       "kind": "cited",
       "scope": "六篇战略回顾与两独立原稿root消费；仅排序/归属/准入，0数学轮，保原cadence1，无classic新输入。"
+    },
+    {
+      "path": "notes/567-function-field-positivity-origins-and-generalized-correspondence-tests.md",
+      "kind": "proved",
+      "scope": "完整连续Π的formalgraph/transpose/composition/trace失正反测试；全曲线Gram/RR及Deligne来源恢复，单尺度增长容量RR条件预算已审，classic数据未构造。统一1轮，actual4/5/core不变。"
+    },
+    {
+      "path": "reviews/2026-10-20/grh-geometric-origin/root-consumption-scope.json",
+      "kind": "cited",
+      "scope": "两最终原稿/主稿/073语义修复及独立PASS版本绑定；对象/domain/source/allpowers/符号/coverage/误差/强旧root闭合，hash非证明。"
     }
   ],
   "pending_processes": [],
   "runtime_goal_observation": {
     "status": "absent",
-    "observed_at_utc": "2026-10-20T07:22:33.668807+00:00",
-    "basis": "本次恢复get_goal null；未创建未请求的运行Goal，固定文件Goal/基线及open宏观门保持。"
+    "observed_at_utc": "2026-10-20T07:48:37.426756+00:00",
+    "basis": "本轮恢复与结算前get_goal均null；未建未请求runtime Goal，同文件Goal/固定基线与open宏观门保持。"
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-10-20-six-note-strategy-review.json",
+  "checkpoint": "goals/checkpoints/2026-10-20-function-field-origin-567.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
     "commit": "9fdb6886cacd5e6b5a599d60ebf0018c919ee2cb",
@@ -157,11 +169,11 @@
     "goal_lf_sha256": "cc6046029a8e5c9fe4eae427dfd663f1d851666370637c8fd451042f340fee8b",
     "mathematical_gate": "open",
     "final_execution_gate": "not-eligible",
-    "basis": "566给函数域heatlift与经典具体候选边界，未付classic独立正能量/同源trace；whole4/5及成长core保持，宏观门open。"
+    "basis": "567新formal全源反测试及conditional RR预算未付classic独立index/源身份；whole4/5及成长core保持，宏观门open。"
   },
   "historical_completion_receipts": [
     "goals/goal-completion-receipt.20261014.json",
     "goals/goal-completion-receipt.20261014-continuation.json"
   ],
-  "process_inventory_observed_on": "两独立战略回顾代理已final且root逐篇消费；无数学/数值/shell producer。本次仅回顾与保存同步，最新数学仍566。"
+  "process_inventory_observed_on": "两原稿及终逆审代理均final并root消费；无pending数学/数值/shell producer；待保存并同步本轮。"
 }

@@ -8,10 +8,21 @@
 
 用户561–566[战略回顾](reviews/2026-10-20-notes-561-566-analytical-rh-lessons.md)不增数学轮：
 对象分类／规范／对偶与全源正性、carrier及identity分别核。经典独立正性仍未付。
-优先560实际receiver的joint signed原件准入；独立有效correspondence保新来源门，
-无限heat或函数域正逼近等待完整source公式/具体可控族。没有新input不预建合同或续旧预算。
+本轮用户将函数域正性来源提到优先；[567](../notes/567-function-field-positivity-origins-and-generalized-correspondence-tests.md)
+完成一次具体fullΠ graph test，不再把形式对应/正交点/对偶/trace当成已付Hodge index。
+下一仅核363既存CC2018 §3.4对完整Γ对角的相对指数比较；没有同源预算就来源0停，
+返回560实际receiver的joint signed原件准入，不串新geometry公理或续旧预算。
 
 ## 因果链和消费范围
+
+567追到曲线RR/非零有效degree/截面乘法/固定h0(2K)容量，精确交数全m,n给完整周期Weil Gram。
+这些来源与Deligne tensor正系数＋全局pole预算归已有机制，扣001/307/363/563。
+新增完整continuous Π→formal graph、transpose、flow、composition/trace检验：两段有相同正交点
+而primitive signature相反；290整数D²=2说明signed组合的真实RR/effectivity不能免费。
+有限cutoff RR预算(14)容C_j∞，但sections/RR误差与same-source d_j→−Q_full均未在classic构造。
+classic offdiag coincidence正而Γ原点质量无限，须smeared/selfintersection有限部分，旧公式推论不重计。
+073一般高维strong membership过强句已缩回已证类；562–566本有purity/半单区分，条件后果不撤回。
+本轮未给classic新正性、whole4/5/core/coupling改善；实际瓶颈仍在同源独立index/预算。
 
 当前566实际构造函数域unitary log-circle bundle正闭能量：同源全递推/U,H给完整all-time/all-winding
 ordinary heat trace=W(k_t)，保rank/contact及周期pole。新付heatlift，563同H的纯性归旧。
