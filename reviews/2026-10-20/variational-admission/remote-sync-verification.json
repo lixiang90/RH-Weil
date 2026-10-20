@@ -1,0 +1,23 @@
+{
+  "schema": "rh-weil-remote-sync-verification-v1",
+  "observed_at_utc": "2026-10-20T15:26:54.094899+00:00",
+  "repository": "https://github.com/lixiang90/RH-Weil",
+  "branch": "main",
+  "research_commit": "e66fca50768c77bbdb84e35d4dd23a5d5dec158b",
+  "tree": "13dc27194222e1d1ee7bb8605477dcc18c6aa8f9",
+  "parent": "dd60cdad737767be74f3195be9034fdeb0f723f7",
+  "research_files": 12,
+  "verification": "Independent GET main ref and Git commit matched exact staged tree/guarded parent. Same commit object imported locally after SHA reconstruction, HEAD=origin/main and clean before receipt.",
+  "get_urls": [
+    "https://api.github.com/repos/lixiang90/RH-Weil/git/ref/heads/main",
+    "https://api.github.com/repos/lixiang90/RH-Weil/git/commits/e66fca50768c77bbdb84e35d4dd23a5d5dec158b"
+  ],
+  "local_exact_commit": true,
+  "local_tree_verified": true,
+  "source_gate_executed": true,
+  "source_gate_stopped": true,
+  "mathematical_iterations": 0,
+  "cadence_unchanged": true,
+  "metadata_policy": "This receipt, STATE and sync checkpoint form one metadata-only child. The child receives independent live GET and local SHA import checks without another self-referential receipt.",
+  "scope": "Sync evidence only. Mathematical highlayer directcorollary does not pay lowfrequency/fullsource/core/capacity or complete long Goal."
+}
