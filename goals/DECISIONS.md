@@ -656,3 +656,19 @@ Gaussian-Hermite量词为全部t，整数支撑是输出；此singleton类的普
 非actualQ负；扣405/554/560后返回旧modifiedgap/K_L责任，来源0收口。
 561统一结算一次，四轮549/555/560/561正式cycle12复盘，原cadence按协议归0；未滚基线。
 不新建“Gaussian positivity”合同；重新准入须独立fullsource输入或真实可判net检验。
+
+## D20261020B：按用户扩大一般类RH，准入连续正例与重数接口
+
+561的Fourier/unitgap分类原量词有效，但用户明确指出它不应定义所有类RH系统，
+要求包括数域ideal norm、函数域及连续分布。接受范围转向，不撤销旧证明，不滚基线／cadence。
+C025冻结Z_c=1+c/[s(s-1)]、0<c≤1/2，检验c≥1/4的真正positive primitive／nonempty centered zeros，
+并用二重中心零点核C3的标量L²权不等于C4算子重数。一般Weil判据和原始算术例另行核域／norm／Γ／pole。
+不续整数梳分类、直接Fourier运输或未知gap改名；本门新输出是类范围与确切连续正例，
+不是实际ζ whole4/5/core/Ξ改进，宏观完成门仍open；一完整迭代止损，来源/审查/推送不另计。
+
+562根消费结论：positive continuous P/Π/M、nonempty centered段及精确全源平方和已独立逆审PASS；
+同族log混合连续谱给严格C4接口边界，同时失败严格C1，不冒称整个连续零集。
+Weil判据compact分离、trace重数、数域标签、函数域周期pole及高维纯权语义全部重闭合。
+高维模1不自动原作用酉化的draft修正已先冻结后重核，无受影响下游已结算强消费。
+C025统一结算562一轮，原cadence0→1；不滚基线，不完成长期Goal，actualζ4/5/core/Ξ不变。
+不自动建立下一合同或继续参数族；只有新的同对象独立正性／完整分布逼近／faithful身份输入才晋级。

@@ -1,0 +1,70 @@
+{
+  "schema": "rh-weil-root-premise-closure-v1",
+  "date": "2026-10-20",
+  "contract": "C025",
+  "goal_epoch": "G20261014",
+  "goal": "goals/GOAL.20261014.md",
+  "baseline_commit": "0c4f3a3eb609bb1d9564138fa4a35701f05605f2",
+  "status": "root-consumed-after-independent-reverse-review",
+  "objects_domains_norms_maps": {
+    "arithmetic": "P,Pi,M on log u>=0 are positive locally finite Borel measures, norm_sigma=int exp(-sigma u)d|mu| for every sigma>1; T_k:u->ku, Pi=sum k^-1(T_k)_*P, M=exp_*Pi. Physical x=exp(u) pushforward preserves positivity; labels/multiplicities retained.",
+    "model": "0<c<=1/2; Gamma=0 by definition, both poles0,1 retained. E=s(s-1)Z=s^2-s+c, criticalcenter1/2. No identification with classical Gamma or actual zeta source norm.",
+    "weil": "Linear W on all complex C_c^infinity(R), Q(g)=W(g*gstar); gstar=bar g(-u). No fixed support window. F_h(s)=int h(u)exp((s-c0)u)du. S_exp cutoff is paid via weighted derivative seminorms, convolution continuity and zero-count bounds.",
+    "roles": "P/Pi/M arithmetic positive measures; sigma Bochner spectral measure; specified source generator and posterior diagonal model distinct. Scalar L2(sigma) atom weight is not ordinary trace multiplicity.",
+    "operators": "Multiplication D=t on maximal L2(sigma) domain. Zero-divisor realization uses direct-sum fibers C^m_gamma, compact resolvent, finite zero eigenspace and Hilbert-Schmidt inverse off zero; exact det2 identity requires separately fixed normalization and divisor. Jordan chains of an original generator remain an independent obligation."
+  },
+  "closed_results": [
+    {
+      "result": "Positive continuous primitive and integers, nonempty centered-zero segment",
+      "quantifiers": "Every0<c<=1/2, every sigma>1, every complex compact smooth test; c>=1/4 centered, c<1/4 offcenter and some negative Weil square.",
+      "dependencies": "A2=2c; for m>=3 A_m>=1-2c^(m/2)>0 in new segment and common upper3. Tonelli includes k^-2 density Jacobian and all proper powers. Weighted convolution exponential finite; Laplace uniqueness gives N=1+c(x-1-log x).",
+      "sign_error_direction": "W=2cos(tau u) for tau=sqrt(c-1/4); Q=|hat g(tau)|^2+|hat g(-tau)|^2 exactly, error0. At tau0 sigma=2delta0 but true divisor multiplicity2 requires two-dimensional C^2.",
+      "coverage": "Entire model and all compact source scales closed; no actual classical zeta coverage or growth improvement."
+    },
+    {
+      "result": "General Weil equivalence and corrected selfadjoint/determinant interface",
+      "quantifiers": "E nonzero entire order<=1, all zeros in bounded vertical strip, reflection preserves complete positive integer divisor. W_E identified exactly on all compact tests.",
+      "dependencies": "Full reflected-pair separation by Gaussian times divided E and interpolation, inverse in S_exp, compact cutoff convergence. Bochner-Schwartz/Stone and genus-one canonical product used in their stated domains.",
+      "sign_error_direction": "Offcenter pair yields Q=-2m after exact separation; compact cutoff stays negative for some finite scale. Positive-type is Weil difference-kernel positivity, not OS halfline sum-kernel positivity.",
+      "coverage": "Standard RH equivalence recovered, not an independent positivity input. Real-type order<=1 -F'/F Pick criterion has same limitation. C5 local uniform nonzero limit sufficient; simple/even lowest state not generally necessary."
+    },
+    {
+      "result": "Continuous spectral log-mixture boundary",
+      "quantifiers": "Every fixed0<a<b<=1/2, uniform probability nu, c_tau=1/4+tau^2; all sigma>1 and all complex compact tests.",
+      "dependencies": "Uniform positive primitive bound allows Tonelli; mixture is of P/Pi/log Z, M=exp_*Pi rather than mean M. Complete two-pole background remains because nu mass1. Euler branch in Re s>1 maps to lower z halfplane; centered phase E(.5+iz)=-F.",
+      "sign_error_direction": "sigma has density1/(b-a) on both intervals, mass2; exact positive squares. M=-F'/F=int d sigma/(t-z), Im M>0. M' has residue1/(b-a) at b, impossible for derivative of single-valued meromorphic function.",
+      "coverage": "Positive continuous arithmetic and continuous selfadjoint spectrum closed; only slit log determinant, strict C1 also fails. No continuous entire zero divisor, ordinary trace identity or natural-boundary claim at cut interior. Direct consequence of positive model, no additional iteration."
+    },
+    {
+      "result": "Arithmetic membership and correction of proposed C1-C5",
+      "quantifiers": "Number fields as positive ideal-label norm multisets; all closed places of finite-field smooth projective curves; higher-dimensional pure-weight factors separately.",
+      "dependencies": "Primary Sutherland/Milne/Kedlaya/CCM sources localized in raw reviews. Number-field RH remains open in general. Function-field s-plane retains all periodic zeros/poles; T-variable finite pole data cannot silently become rank2 in s-plane.",
+      "sign_error_direction": "Deligne purity constrains eigenvalue moduli, not automatically original Frobenius semisimplicity/unitarizability. This draft semantic correction was frozen before root consumption and independently rechecked.",
+      "coverage": "Single line appropriate after fixed pure-weight normalization; no universal single-center axiom for full graded zeta. log n is not additive lattice/Delone; unique classification does not prove membership in a positive cone."
+    }
+  ],
+  "review_binding": {
+    "main_review": "562-final-reverse-audit.md: PASS on original main sections1-7 (excluding subsequently added4.1) and three primary raws, after pure-weight correction. Subsequent notation x-coordinate and section6 clarifications are root checked.",
+    "supplement_review": "continuous-spectral-mixture-boundary.md section6: independently re-read final562 section4.1 and section6 additions PASS. No assumption of whole-file re-review after append.",
+    "versions": "normalized_lf_sha256 binds final consumed originals; final EOF blank-line cleanup is cosmetic only. Hashes certify version identity, not mathematical truth."
+  },
+  "strongest_old_comparison": {
+    "latest_frontier": "561 consumed only c<1/4 offcenter segment and a narrow Fourier/unitgap classification; new positive centered segment and exact square-sum cover a genuinely different nonempty class. Spectral mixture is a direct consequence within the same contract.",
+    "actual_zeta": "542+555->557 strongest old whole leading4/5 unchanged; 537/538 fixed-window baseline and560 fixed-L positive-trace-minus-compact remain unchanged.",
+    "unpaid": "Classical complete Weil positivity from independent arithmetic identity, growing K_L sign/norm/core/coupling, original source selfadjoint domain/Jordan control, faithful Xi/determinant limit. No macro Goal completion; runtime Goal absent, not created."
+  },
+  "settlement": {
+    "authorized_completed_iteration": "562 only, once in C025; standard-source recovery, independent audits, mixture direct consequence and push do not add rounds.",
+    "bottleneck_changed": false,
+    "changed_scope": "Generalized RH class and exact continuous positive examples broadened; actual zeta bottleneck unchanged.",
+    "stop": "Do not optimize c, build further toy families or rename unknown positivity. Another math contract requires a genuinely new input or concrete test/net-consequence admission."
+  },
+  "normalized_lf_sha256": {
+    "notes/562-generalized-rh-continuous-g-integers-and-spectral-multiplicity.md": "e3e42480b967115accabd741cdbbb220865407396908b74b25bba0c213f60c10",
+    "reviews/2026-10-20/grh-general/562-final-reverse-audit.md": "eb27e445be92d636acd2d460ff8b5334e11f9287cd5baff51f181c4fefa0f539",
+    "reviews/2026-10-20/grh-general/continuous-positive-rh-model-and-transition.md": "3b7ec5a7f600dd156721cd4b0766ca9583511a11bddcfa16edb7a8988ba98b77",
+    "reviews/2026-10-20/grh-general/continuous-spectral-mixture-boundary.md": "608fe0dc377408687ca05c09d9d475ec68d36c6df22e30acf759c6bf2d5853bc",
+    "reviews/2026-10-20/grh-general/general-weil-positivity-and-selfadjoint-framework.md": "c68caed770a76cdcc76220abb162fb3fe2c055a277e0eb528de041f9006318b0",
+    "reviews/2026-10-20/grh-general/number-function-field-and-distribution-examples.md": "e0ea0aaade99a0e3ec4187bfd22049a4f61e319153b929e9c46449cc7929880f"
+  }
+}

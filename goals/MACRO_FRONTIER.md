@@ -3,17 +3,22 @@
 2026-10-20更新；完整Goal、唯一动作和现场观察以STATE为准。
 固定基线0c4f3a3eb609bb1d9564138fa4a35701f05605f2（全部≤538），同G20261014。
 详尽历史保留[前总结](reviews/2026-10-14-cross-round-macro-summary.md)；
-本次[跨轮总结](reviews/2026-10-14-macro-refresh-and-causal-budget.md)解释总体版图。
+最近正式[跨轮总结](reviews/2026-10-20-beurling-macro-review-cycle-12.md)解释总体版图。
 不复制cadence/运行状态，不把本页代原证明。
 
 ## 因果链和消费范围
 
-当前新方向是561的分析选择条件鉴别：正primitive连续反模型保N=Ax+Ologx及精确自对偶仍离线；
-固定Fourier／全尺度Gaussian＋正tempered＋单位gap则无需Z支撑前提恢复整数梳。
-前者不含经典Gamma，后者压成singleton类不付RH。两者统一一数学轮，完整前件见561及root收据。
+当前新方向由562扩大为一般g-integer类RH：同一正continuous primitive／N族在c=1/4相变，
+c≥1/4给非空中心零点及全部compact源的精确平方和。零点仍离散；概率log混合可有连续正谱，
+却有分支端点，失败严格C1，不能当通常entire零除子或普通trace。
+数域ideal多重标签、函数域周期零／极点与高维纯权分别保留；纯性不自动给原Frobenius半单。
+一般Weil判据是等价组织，C3标量L²原子权不等于C4重数；C5只是一种充分逼近机制。
+561正primitive/强N正则/裸FE离线段与fixedFourier/unitgap整数识别仍有效，后者不定义一般类RH。
+本门统一1轮，原件／终逆审／root前件收据见562与grh-general目录；不宣称新外部首创。
 旧joint-K23符号门三个预期原稿未落盘／handle不存在，未消费；用户新方向优先，不续C023预算。
 最近正式四轮复盘见[cycle12](reviews/2026-10-20-beurling-macro-review-cycle-12.md)；
-实际ζ的4/5／成长K/core/Ξ未变。只一次fixedFourier→Weil具体运输来源门，无新费用即停。
+实际ζ的4/5／成长K/core/Ξ未变。fixedFourier→Weil具体运输来源门已0停止；
+经典正型锥membership和同对象完成化身份仍欠，唯一极值分类不替代membership。
 
 独立实际输入 → 同对象比较/原norm → 完整费用与core/补空间 → 成长全域 → ζ/Ξ识别 → 强制谱约束。
 
@@ -42,6 +47,7 @@
 | 558正热包络门 | old030正even源给丢pole的Γ−A heattrace ANYs>1预算leading≥1 | source0拒该包络；保真实正evenpole/signedcore/deflation，非actualQ负/Goal3 |
 | 559保正evenpole | canonical cosh原operator域、uniformΓ费与完整Qc=o(eL)；relative/global迹域；rank2 signed修复norm恰||w||与合法自伴D | 024/405/543/555直接消费0；D gap/signedtrace/fullcoverage未付，不复活scalar响应 |
 | 560真正joint桥 | 每先fixedfiniteS的完整inverse/两boundary主项只剩原pp；actualε_S∈C0；ALL原complexDlog ordinarytrace；每fixedL完整Q=positiveT−原normcompactK+双pole | 新共同signed费用统一一轮；K_L sign/norm/Γrelative/growth/core/Ξ仍open；4/5未改，非新fixed窗正性 |
+| 562一般类RH | 连续正primitive/N非空中心零点段与全compact平方和；Weil判据完整测试域、trace重数反测试；连续谱log混合边界 | 无经典Γ正性/自然算子域/Ξ恒等式；连续谱混合有分支且失败严格C1，非usual zero-divisor |
 
 原件：[535](../notes/535-actual-first-prime-sonin-log-resonance-and-indefinite-error.md)、
 [537](../notes/537-source-exact-weil-window-positive-tail-admission.md)、
@@ -114,6 +120,7 @@ cofinal真实m||H_TDP_-||在T≤(2−ε)eL趋1，但输入非M/k_R/actualreceive
 | 保正evenpole/559 | 原Γoperator/relativeheat/paid deflation准确合法，强旧0停止scalar主攻 | 新D/joint signed/core费用；不因singlechannel fixedgap失败排growingcore/γL→0/paid修复 |
 | 560 jointfiniteS | 真实原source ALLfixedL modcompact比较新付；ratio必要门结束，fullH norm解耦仅aux被阻 | actualjointK符号/成长费用/actualreceiver新输入；paidcompact/source-adapted/Γ/变组织仍保 |
 | 561/C024分析选择 | 宽FE＋强N正则＋正primitive不足；固定Fourier/Gaussian＋unitgap严格识别整数 | 未给独立完整Weil正性；singleton分类不减RH强度；新signed输入才晋级，不以识别重计whole |
+| 562/C025一般类RH | 连续正例/相变与C1–C5接口统一一轮；不续玩具族/参数优化 | 正型锥闭可用但须同对象完整分布收敛；经典独立平方和/faithful determinant仍无新输入，不把等价重命名准入 |
 | 比例/无零区域 | 用户要求暂停 | 仅用户明确恢复，不因调用经典输入而重启优化 |
 
 ## 恢复的六项短答案

@@ -7,12 +7,12 @@
   "workflow": "goals/RESEARCH_WORKFLOW.md",
   "cadence": "goals/review-cadence.json",
   "decisions": "goals/DECISIONS.md",
-  "latest_strategy": "goals/reviews/2026-10-20-beurling-analytic-research-strategy.md",
-  "latest_decision": "D20261020A",
+  "latest_strategy": "goals/reviews/2026-10-20-generalized-rh-framework-strategy.md",
+  "latest_decision": "D20261020B",
   "macro_frontier": "goals/MACRO_FRONTIER.md",
   "macro_summary": "goals/reviews/2026-10-20-beurling-macro-review-cycle-12.md",
   "latest_macro_review": "goals/reviews/2026-10-20-beurling-macro-review-cycle-12.md",
-  "latest_iteration": "notes/561-beurling-positive-measures-self-duality-and-integer-recovery.md",
+  "latest_iteration": "notes/562-generalized-rh-continuous-g-integers-and-spectral-multiplicity.md",
   "macro_control": {
     "schema": "macro-recovery-v2",
     "goal_epoch": "G20261014",
@@ -20,8 +20,8 @@
   },
   "macro": {
     "long_objective": "新的成长域独立实际算术输入/同对象ζ约束，或成长核心实质方法类边界；扣除≤538基线。",
-    "unpaid_bottleneck": "561已付纯分析整数识别及强N正则正primitive裸FE反模型；加性Fourier到同对象完整Weil正性的独立运输仍欠。560成长K_L sign/norm/Γrelative/core/coupling/Ξ未付，whole强旧4/5不变。",
-    "why_this_contract": "新用户方向已完成具体正/负鉴别；fixedGaussian+unitgap识别为singleton不降RH强度。唯一直接运输负测试仅否辅助H，扣554/560后来源0停止；重新准入需新实际全源input或可改选择的具体比较。",
+    "unpaid_bottleneck": "562已付连续正primitive/N的中心零点段及全源平方和、连续谱分支边界；一般Weil/Pick仍等价。经典完整Gamma/pp/pole独立正性、原算子域/Jordan/faithful Xi及560成长K/core/coupling未付；actual whole强旧4/5不变。",
+    "why_this_contract": "用户扩大类RH范围；562实际正例和重数/连续谱检验已完成，排除只用普通整数梳定义一般类。无新actual input，停止参数族和等价改名；当前只核同步与报告。",
     "paused_routes": [
       "零点比例优化",
       "无零区域优化"
@@ -35,20 +35,21 @@
       "556030来源0；C023557强旧推论0；558丢正evenpole热trace0拒，保signedcore/deflation/paidΓ逃逸。",
       "559保正poleoperator/trace与paidrank2修复旧消费0；jointfiniteS Π/G逆/relative尾合法旧消费0，mixed arithmetic/error/growth仍open；仅具体ratio cross门。",
       "560 ratio/C0/allfixedL桥已新付一次，停止主项恢复；cofinal fullH norm解耦被aux下界阻，保actualreceiver/signed/paidΓ/compact逃逸。",
-      "561/C024分析选择门一轮完成；fixedFourier直接运输来源0止。旧K23符号原稿未出且handle不存在，未消费，用户方向优先不自动复活。"
+      "561/C024分析选择门一轮完成；fixedFourier直接运输来源0止。旧K23符号原稿未出且handle不存在，未消费，用户方向优先不自动复活。",
+      "562/C025连续正例/全compact判据/重数与连续谱边界统一1轮完成；严格C1失败的混合不代经典whole；无新输入不续玩具族。"
     ]
   },
   "primary_contract": {
-    "id": "C024",
-    "path": "goals/contracts/C024-beurling-analytic-selection-gate.md",
+    "id": "C025",
+    "path": "goals/contracts/C025-generalized-rh-and-continuous-measures.md",
     "status": "completed",
     "iteration_budget": 1,
     "settled_iterations": [
-      "notes/561-beurling-positive-measures-self-duality-and-integer-recovery.md"
+      "notes/562-generalized-rh-continuous-g-integers-and-spectral-multiplicity.md"
     ],
-    "stage": "561 root/终逆审已消费并结算1轮，directFourier来源0停止，cycle12四轮正式复盘；研究提交68a86cfa远端main已独立核验且本地同SHA/clean，当前仅保存核验metadata子提交。",
-    "next_action": "先读取561收据及fixed-fourier-to-weil-transport-stop的停止范围。此分支无待跑producer；只有新增独立actual全源不等式、认证receiver signed费用或含paid/源适应修复的严格必要边界，才冻结Γ/pp/pole/norm/growth及扣4/5净值重新准入；没有则不重跑已停FE/分类/直接运输。",
-    "stop_rule": "C024已完成一轮；来源门0已止。禁止Gaussian positivity/未知gap改名续轮；整数识别不付Weil正性，singleton类皆RH仍等强RH；无新输入不预建合同。"
+    "stage": "562及六原件root前件消费已闭合，原cadence0->1已唯一结算；主体/补节独立PASS，正在保存远端核验。",
+    "next_action": "核562全部版本receipt与diff，提交到既有GitHub main并核远端完整SHA/tree及本地clean；随后报告一般类RH结论。下一数学合同无新actual input不自动建立。",
+    "stop_rule": "一完整轮；不调c上端/扩无穷玩具族，若无新正例仅旧判据恢复则0停。一般positive或C5等价不代实际ζ成长/Ξ门。"
   },
   "support_contracts": [],
   "must_not_forget": [
@@ -140,16 +141,26 @@
       "path": "reviews/2026-10-20/remote-sync-verification.json",
       "kind": "cited",
       "scope": "研究提交68a86cfa已核远端main、相同tree和本地SHA/clean；随后仅核验metadata子提交，非数学证据或新轮。"
+    },
+    {
+      "path": "notes/562-generalized-rh-continuous-g-integers-and-spectral-multiplicity.md",
+      "kind": "proved",
+      "scope": "连续正primitive/N的nonempty centered段/相变/全compact平方和；一般Weil判据与trace重数；连续谱混合有分支且失败C1，统一1轮，actualζ/core/Ξ无改善。"
+    },
+    {
+      "path": "reviews/2026-10-20/grh-general/root-consumption-scope.json",
+      "kind": "cited",
+      "scope": "562及五独立/来源原稿最终6版本，主体及补节逆审PASS；对象/norm/域/量词/符号/coverage/strongest-old完整root闭合，hash不认证证明。"
     }
   ],
   "pending_processes": [],
   "runtime_goal_observation": {
     "status": "absent",
-    "observed_at_utc": "2026-10-20T02:04:38.334251+00:00",
-    "basis": "本轮get_goal返回null；无运行Goal创建。文件G20261014原目标/基线/版本保持。"
+    "observed_at_utc": "2026-10-20T02:38:59.690251+00:00",
+    "basis": "本轮恢复现场get_goal返回null；未创建未请求运行Goal，文件G20261014/基线/完成门保持。"
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-10-20-beurling-remote-verified.json",
+  "checkpoint": "goals/checkpoints/2026-10-20-generalized-rh-prepush.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
     "commit": "68a86cfa70aa37c433658654dd1e393bc9c915f5",
@@ -161,11 +172,11 @@
     "goal_lf_sha256": "cc6046029a8e5c9fe4eae427dfd663f1d851666370637c8fd451042f340fee8b",
     "mathematical_gate": "open",
     "final_execution_gate": "not-eligible",
-    "basis": "561已付分析识别/条件反例且directFourier来源0停止；未改善actualζ强旧4/5或成长K/core/Ξ，无宏观完成，工具Goal=null。"
+    "basis": "562扩大一般类并给非空连续RH正例及精确平方和；未给经典完整Weil正性或改善actual whole4/5/成长K/core/Ξ，宏观门open，runtime Goal=null。"
   },
   "historical_completion_receipts": [
     "goals/goal-completion-receipt.20261014.json",
     "goals/goal-completion-receipt.20261014-continuation.json"
   ],
-  "process_inventory_observed_on": "现场原材料/历史/source任务及final_reverse_561均完成且原件已消费；复用dialogue重复finalreview为pending_init已取消，无额外输出/producer。旧joint-sign三handle/原稿不存在，未消费。"
+  "process_inventory_observed_on": "grh_final_reverse主体终审及spectral_mixture_audit独占原稿/新§4.1一致性复核均完成；root版本收据已出，无numeric/shell producer。旧dialogue pending_init不依赖。"
 }
