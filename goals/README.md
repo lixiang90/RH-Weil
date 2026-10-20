@@ -2,6 +2,11 @@
 
 当前文件[Goal](GOAL.20261014.md)，固定0c4f/≤538资产为输入，保留G20261014目标。
 2026-10-20现场get_goal=null，不声称旧active实例存在，未创建未请求的新运行Goal。
+当前战略入口是[568–572后修订路线图](reviews/2026-10-20-generalized-weil-facilities-roadmap-after-572.md)：
+旧文献路线图以来五轮数学及LS专题已对照；评价非退化、Γ规范和cocycle不是未执行容量任务。
+长期主责为同一global sections→局部评价的kernel/乘法、独立容量与完整mixed预算；
+近期唯一来源门仍为572留下的actual变分候选/D_var，尚未执行。B/C备选须新map/身份/费用准入。
+本次用户战略回顾0数学轮，原cadence保持1、正式cycle14不归零；宏观瓶颈及strong-old4/5未改。
 最新数学[572有限Euler原weighted费用](../notes/572-finite-euler-receiver-coherent-tail-and-original-weighted-cost.md)：
 实际barb乘真实receiver的coherent系数/半线域及完整diagonal O(L^4)已付；
 Euler后完整相干尾与finiteMV/Γ端点给θ>2e同步区间的actual|b|²原dy平均O(L^4)，无m²归一。
@@ -35,7 +40,7 @@ dense非exact平均由既有BMS/Matveev实例付清，不假设uniform gap；同
 它使Weil评价det路线有具体外部成功原型，但real-character标量偏置不代全complex Weil Gram，
 一般g分布的真实sections/局部作用、完整Γ身份及mixed/coverage仍欠，0数学轮，actual瓶颈未变。
 [561–566战略回顾](reviews/2026-10-20-notes-561-566-analytical-rh-lessons.md)解释分析尝试的经验；
-前一用户专题[文献与设施路线图](reviews/2026-10-20-generalized-weil-facilities-literature-roadmap.md)
+历史用户专题[文献与设施路线图](reviews/2026-10-20-generalized-weil-facilities-literature-roadmap.md)
 综合Weil原证明、Connes/F₁、Lapidus与叶状流，区分九项设施及三条来源链，0新数学轮。
 前轮[567](../notes/567-function-field-positivity-origins-and-generalized-correspondence-tests.md)
 恢复RR容量→Hodge index→全点数Gram，并用完整连续Π检验formal graph/duality/trace仍不足。
@@ -55,7 +60,8 @@ dense非exact平均由既有BMS/Matveev实例付清，不假设uniform gap；同
 已完成一次实际卷积评价商、étale/jet和连续正反载体的容量差检验，停止扩参数。
 其后[C032](contracts/C032-dual-carrier-gamma-and-budget-cocycles.md)已实际执行2402.06671v2
 固定权／finite-part门并结算569；停止无额外parity/算术indicial map的直接Γ翻译。
-下一唯一动作是[572结算中的actual变分来源准入](reviews/2026-10-20-euler-receiver-572-settlement.md)：
+下一唯一数学来源动作是[新路线图§4](reviews/2026-10-20-generalized-weil-facilities-roadmap-after-572.md)保留的
+[572 actual变分来源准入](reviews/2026-10-20-euler-receiver-572-settlement.md)：
 核560§3–5 interval-carrier clipping在明确z_T=S_Tw_R、P_M z_T候选上的原域/cofinal费用，
 保actual G_M逆及window平方缺陷D_var=||G_T^-1/2(G_TS_T−I)w_R||²，不能用δ正部代它。
 若只旧clipping直接推论＋unknownD_var就入口停，不建C036，不续θ/c/β或modeltail参数。

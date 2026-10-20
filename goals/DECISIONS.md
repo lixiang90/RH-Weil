@@ -863,3 +863,24 @@ actual|b|²原dy平均O(L4)，无m归一；J_b相位协同/allreturns不变。�
 停止theta/c/beta/幂次优化。下一仅一次560§3–5 clipping与actual变分候选P_M S_Tw_R的原域准入，
 保actualG_M^-1和D_var=||G_T^-1/2(G_TS_T−I)w_R||²；模型正δ均值不能代平方缺陷。
 若只旧直接corollary＋unknownD_var就入口止，不建C036。新全源joint/source费或真实globalmap/RR预算改变排序。
+
+## D20261020P：用户主动复审旧路线图后的五轮，收窄设施缺口与准入
+
+旧文献路线图写于567后；用户要求回顾568–572及LS专题并修订路线。
+三独占审计对齐：568已给signed非退化评价，569已执行固定Γ/contact及matched cocycle；
+不能再把“造carrier／协调下降”列为未执行正性任务。570实际fixed joint误差两号，
+571/572补模型receiver完整协同与theta>2e实际b权原dy尾费，仍非actualε/source成长比较。
+长期主责是同一global sections→局部评价的kernel/乘法、独立局部消失与全局容量，
+再付完整Γ/pp/pole的all-complex预算身份；LS同minor机制提供原型而非全Weil推论。
+真实O(D)候选必须先给新source map/独立费用证据，未有就不预开几何合同。
+
+近期唯一数学来源门保572的P_M S_Tw_R／560原域clipping及完整D_var，尚未执行。
+若只恢复旧corollary+unknown平方缺陷，入口停，不建C036，不续theta/c/beta或L幂优化；
+actual全源Γrelative/sourceadapted新身份及global评价map+独立预算是两个有条件备选，
+没有新证据不自动串多个source-only门。正heat/共同Hodge-btrace/tensor-pole亦只待新同源输入。
+heat-CM接口保563实偶/指数阶范围，一般Hermitian非偶另核；faithful det仅谱实现另项责任。
+
+本次用户战略回顾0数学轮，原cadence1/正式cycle14不重置，不是573/周期15。
+strong-old542+555→557 whole4/5、独立global容量/actualSonin成长运输/core/coupling/Ξ均未改变。
+同G20261014与冻结0c4f；没有运行Goal实例，不创建未请求实例，不以路线图或push完成Goal。
+新globalmap+height预算，或保原norm并穿过实际source/core的全源signed输入，会推翻当前排序。

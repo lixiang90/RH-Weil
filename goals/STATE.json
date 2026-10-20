@@ -7,10 +7,10 @@
   "workflow": "goals/RESEARCH_WORKFLOW.md",
   "cadence": "goals/review-cadence.json",
   "decisions": "goals/DECISIONS.md",
-  "latest_strategy": "goals/reviews/2026-10-20-euler-receiver-572-settlement.md",
-  "latest_decision": "D20261020O",
+  "latest_strategy": "goals/reviews/2026-10-20-generalized-weil-facilities-roadmap-after-572.md",
+  "latest_decision": "D20261020P",
   "macro_frontier": "goals/MACRO_FRONTIER.md",
-  "macro_summary": "goals/reviews/2026-10-20-euler-receiver-572-settlement.md",
+  "macro_summary": "goals/reviews/2026-10-20-generalized-weil-facilities-roadmap-after-572.md",
   "latest_macro_review": "goals/reviews/2026-10-20-general-rh-macro-review-cycle-14.md",
   "latest_iteration": "notes/572-finite-euler-receiver-coherent-tail-and-original-weighted-cost.md",
   "macro_control": {
@@ -21,7 +21,7 @@
   "macro": {
     "long_objective": "保G20261014：由一般g-integer及对偶建立独立同源Weil正性/有效性/RR设施以覆盖classic；实际ζ成长core及完整谱约束仍按冻结基线验收。",
     "unpaid_bottleneck": "572付theta>2e实际b权receiver原dy完整尾/均值，仅局部model费改变。actualSonin全逆/source变分D_var、S_T其它尾、独立global容量/core/coupling/Ξ仍欠，strong-old4/5保持。",
-    "why_this_contract": "C035完整原weighted尾一轮闭合，止θ/c/β参数。下一一次actual变分候选P_M S_Tw原域/clipping与完整D_var费用比较，有具体actualmap；若只旧corollary+unknownD_var则停，不建新合同。",
+    "why_this_contract": "用户回顾旧路线图后568–572五轮/LS，三审计与fresh策略PASS已root消费；近期只保actual变分门，长期主责同源global评价/容量；本轮0数学轮。",
     "paused_routes": [
       "零点比例优化",
       "无零区域优化"
@@ -48,8 +48,8 @@
     "settled_iterations": [
       "notes/572-finite-euler-receiver-coherent-tail-and-original-weighted-cost.md"
     ],
-    "stage": "572已终审/root消费/统一结算0→1；16文件研究远端main/tree/parent与本地精确对象一致且clean，随后仅同步收据metadata。",
-    "next_action": "仅按572结算一次核560interval clipping在P_M S_Tw_R实际变分候选的原域/cofinal费及完整D_var；只旧corollary+unknown缺陷即停，不建C036，不续model参数。",
+    "stage": "C035/572保持已完成；新路线图/三审计/fresh策略PASS已root消费，0数学轮，待同步GitHub；actual变分门未执行。",
+    "next_action": "仅一次核560 interval clipping在P_M S_Tw_R候选的原域/cofinal费用与完整D_var；只旧corollary+unknown缺陷即止，不建C036；几何/Γrelative需新map/费用准入。",
     "stop_rule": "一轮；无fulltail净费即止；高频闭合后也不调θ/c/β/幂次，不把certificate阈值代actuallower，保actualSonin/source成长缺口。"
   },
   "support_contracts": [],
@@ -58,11 +58,7 @@
     "actualΓ=2θ′、原du/zeroextension Dlog、ALLcomplex、全部properpowers/双pole；辅助R不推Q负。",
     "原收据先核对象/domain-range/角色/norm/源成长量词/paid误差/actual方向/coverage；语义变更freeze/reclose。",
     "已出稿≠root消费≠结算；同步stage/action，复用handle核当前任务/output。",
-    "549 fullflat Gram不付actual全1；550强旧O1；551 basisdiag不付fullmixed；C021 stopped/G2open。",
-    "553 bounded旧障碍保cofinal/source适应；554 fixedg域巨费不排actual mixtures，positivejump合法不付modifiedgap。",
-    "555预算保exactβ，o(eL)不能在指数中当1+o倍数；新旧upper比不是actual n−ratio/lower。",
-    "555 whole费用真推进但exp(eL)core/Ξ仍open，Goal完成另审；pureprime sharp不排joint/Γrelative。",
-    "557 strong-old4/5从542+555直接闭合，技术PASS/issuedratio不是新独立input；未来whole净值不能只拿leading 1或2作对照。",
+    "549–559精确停止/合法修复见MACRO_FRONTIER；最强旧542+555→557 whole4/5，预算upper不代actual负谱lower，o(eL)不可在指数中删。",
     "合同1–2完整轮/原cadence唯一；组织/来源恢复/推送0，不以零轮串换标签；下一恢复STATE动作。",
     "560 Π fullG/error compact已付ALLfixedL source/Dlog；K_L/growth/sign未付；actualm||H_TDP_-||lower只auxH，非M/k/receiver像/Weil源；ratio结束不重跑。",
     "561的μ是物理x整数侧，非log n格或零点正谱；P/Π/M分别付；fixedGaussian全t与unitgap不可弱化。分类与正性分开；C024完成不complete长期目标。",
@@ -167,23 +163,28 @@
       "scope": "最终主/三稿/来源/freshPASS及继承前件10版本root闭合；map/norm/domain/角色/全部tail/量词/误差/符号/coverage/强旧，hash非证明。"
     },
     {
-      "path": "reviews/2026-10-20/euler-receiver/remote-sync-verification.json",
+      "path": "goals/reviews/2026-10-20-generalized-weil-facilities-roadmap-after-572.md",
       "kind": "cited",
-      "scope": "572研究远端SHA/tree/parent与本地精确对象/clean已核；metadata子提交另核，Git同步不认证证明/不增轮。"
+      "scope": "用户主动修订568–572后路线，0数学轮；九设施/actual门/global容量准入与正反验证，未执行next test，宏观瓶颈未改。"
+    },
+    {
+      "path": "reviews/2026-10-20/roadmap-revision/root-consumption-scope.json",
+      "kind": "cited",
+      "scope": "最终路线图/三审计/fresh策略PASS及继承范围root闭合；原域/角色/方向/量词/强旧与0轮交接，hash非证明。"
     }
   ],
   "pending_processes": [],
   "runtime_goal_observation": {
     "status": "absent",
-    "observed_at_utc": "2026-10-20T13:54:04.903039+00:00",
-    "basis": "本轮get_goal=null；保文件Goal/冻结基线，未建未请求运行实例。"
+    "observed_at_utc": "2026-10-20T14:17:57.214430+00:00",
+    "basis": "本轮get_goal=null；保文件目标/冻结基线，未建运行实例。"
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-10-20-euler-receiver-572-sync.json",
+  "checkpoint": "goals/checkpoints/2026-10-20-weil-roadmap-after-572.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
-    "commit": "5f25210d6a93530cf8600ec5702572135e3f6cd4",
-    "basis": "572研究16文件5f25210d独立GET main/commit核SHA/tree95933d23/parentdb961681；树等本地index，精确对象导入后HEAD=origin/main/clean。随后仅同步metadata子提交另核，0额外轮。"
+    "commit": "ca5e5f3b4cd213b549ea720ec76aa1ed75aebc60",
+    "basis": "本轮入口独立GET main与现场HEAD/origin一致且clean；新路线图另待本轮受旧SHA保护同步，不把该旧SHA说成本轮提交。"
   },
   "completion_audit": {
     "goal": "goals/GOAL.20261014.md",
@@ -191,11 +192,11 @@
     "goal_lf_sha256": "cc6046029a8e5c9fe4eae427dfd663f1d851666370637c8fd451042f340fee8b",
     "mathematical_gate": "open",
     "final_execution_gate": "not-eligible",
-    "basis": "572仅theta>2e原actualb模型receiver完整费用闭合；actualSonin/source运输和D_var/S_T其它尾/core/独立global容量仍欠，strong-oldwhole4/5/Goal完成门未改。"
+    "basis": "本轮仅路线图回顾0数学轮；572局部b权费用不代actualSonin/D_var/源运输/core/独立global容量，最强旧whole4/5及Goal门不变。"
   },
   "historical_completion_receipts": [
     "goals/goal-completion-receipt.20261014.json",
     "goals/goal-completion-receipt.20261014-continuation.json"
   ],
-  "process_inventory_observed_on": "三producer及freshreview均final，数学/结算scope已root消费/统一一轮/研究远端同步；无shell或numeric生产任务，仅余同步metadata。runtimeGoal本轮null。"
+  "process_inventory_observed_on": "三producer与freshreview均final，最终路线图范围已root消费；无数学/数值/后台任务，仅待本轮Git同步。runtimeGoal null。"
 }

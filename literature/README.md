@@ -1,5 +1,11 @@
 # RH-Weil 文献索引
 
+2026-10-20按用户要求，回顾旧路线图后的568–572及LS专题，形成
+[修订路线图](../goals/reviews/2026-10-20-generalized-weil-facilities-roadmap-after-572.md)。
+它更新九设施缺口、实际Sonin来源门、global评价/容量主责及连续/函数域/数域验证责任；
+本次没有新外部检索、永久PDF或数学轮，文献消费沿已有版本/章节记录，不声称最新文献普查。
+新路线优先级取代下方历史路线图；旧文献索引和未取得来源的记录保留。
+
 2026-10-20finiteEuler完整尾费用见[572](../notes/572-finite-euler-receiver-coherent-tail-and-original-weighted-cost.md)：
 本轮root/producer/freshreview重开BMS Annals原刊Thm9.4 pp988–989与短proof，核任意first-fixed F的actualsmoothloggap合法修复；
 不宣称重读Matveev本体或完整50页。MV finiteHilbert均值沿571已付原件，freshreview重核74–75/82。
