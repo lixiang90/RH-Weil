@@ -180,6 +180,11 @@
       "path": "reviews/2026-10-20/landau-siegel-inspiration/root-consumption-scope.json",
       "kind": "cited",
       "scope": "主稿/三稿/来源记录及独立终审版本绑定；对象/map/norm/quantifiers/errors/direction/coverage/strong-old闭合，hash非证明。"
+    },
+    {
+      "path": "reviews/2026-10-20/landau-siegel-inspiration/remote-sync-verification.json",
+      "kind": "cited",
+      "scope": "LS专题13816ee1远端main/tree/parent与本地同SHA/clean已核，随后仅metadata子提交另核；同步非数学证明/新轮。"
     }
   ],
   "pending_processes": [],
@@ -189,11 +194,11 @@
     "basis": "本轮恢复与终审前get_goal均null；未创建未请求实例，保同文件Goal/冻结基线。"
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-10-20-landau-siegel-facility-review.json",
+  "checkpoint": "goals/checkpoints/2026-10-20-landau-siegel-facility-review-sync.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
-    "commit": "05bfb501aac3c9341010099d13b4a12bbc749172",
-    "basis": "专题文献路线图14文件提交已独立GET main/commit核SHA/tree7676adf0/parent1e3f91ab；tree等本地index，精确对象导入后HEAD=origin/main且clean。随后仅metadata子提交另核，0数学轮，不滚基线。"
+    "commit": "13816ee142324304425974e6e56ba37ba626bdcc",
+    "basis": "LS专题14文件提交已独立GET main/commit核SHA/treefcdb6f9d/parent73284f87；tree等本地index，精确对象导入后HEAD=origin/main且clean。随后metadata子提交另核，0数学轮/不滚基线。"
   },
   "completion_audit": {
     "goal": "goals/GOAL.20261014.md",
