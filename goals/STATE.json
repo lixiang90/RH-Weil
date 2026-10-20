@@ -7,10 +7,10 @@
   "workflow": "goals/RESEARCH_WORKFLOW.md",
   "cadence": "goals/review-cadence.json",
   "decisions": "goals/DECISIONS.md",
-  "latest_strategy": "goals/reviews/2026-10-20-generalized-weil-facilities-literature-roadmap.md",
-  "latest_decision": "D20261020I",
+  "latest_strategy": "goals/reviews/2026-10-20-landau-siegel-determinant-and-weil-facilities.md",
+  "latest_decision": "D20261020J",
   "macro_frontier": "goals/MACRO_FRONTIER.md",
-  "macro_summary": "goals/reviews/2026-10-20-generalized-weil-facilities-literature-roadmap.md",
+  "macro_summary": "goals/reviews/2026-10-20-landau-siegel-determinant-and-weil-facilities.md",
   "latest_macro_review": "goals/reviews/2026-10-20-general-rh-macro-review-cycle-13.md",
   "latest_iteration": "notes/567-function-field-positivity-origins-and-generalized-correspondence-tests.md",
   "macro_control": {
@@ -20,8 +20,8 @@
   },
   "macro": {
     "long_objective": "保G20261014：由一般g-integer及对偶建立独立同源Weil正性/有效性/RR设施以覆盖classic；实际ζ成长core及完整谱约束仍按冻结基线验收。",
-    "unpaid_bottleneck": "专题路线图未付classic实际sections/独立index、完整Γ对角source identity或560成长signed K；actual4/5/core/coupling/Ξ保持。",
-    "why_this_contract": "用户授权扩查文献并综合路线图，四来源稿与独立终审已root消费。2018平方RR来源门0结束；下一新具体dual-conormal权/finite-part来源比较，比再列未知RR/H更可判。",
+    "unpaid_bottleneck": "Landau–Siegel仅付real-character标量profile，classic source→jet、全Γ/pp/pole预算身份及allcomplex mixed方向仍欠；560成长signed K/core/coupling/Ξ与actual4/5保持。",
+    "why_this_contract": "用户LS三页专题已完成：同D非零/整除/高度与real-zero链及Weil/RR范围经独立PASS/root消费。外部真算术输入仅scalar；原Γ来源门有可判公式，优于未构造classic det身份。",
     "paused_routes": [
       "零点比例优化",
       "无零区域优化"
@@ -43,8 +43,8 @@
     "settled_iterations": [
       "notes/567-function-field-positivity-origins-and-generalized-correspondence-tests.md"
     ],
-    "stage": "C030/567已完成；本次文献/设施路线图及四稿独立终审PASS后root消费，0数学轮，无C031。",
-    "next_action": "一次来源门：核2402.06671v2 §§1.3.6/5.8/6.7与finite-part出处，固定dual-carrier权、两半轴、delta0及trace类型，对照Burnol/563完整Γ；若只可手调twist/contact则停该翻译回560 actualreceiver joint signed准入，不预建数学合同。",
+    "stage": "C030/567完成；Landau–Siegel用户专题主稿/三稿/来源记录经独立终审PASS并root绑定消费，0数学轮，无C031。",
+    "next_action": "一次来源门：核2402.06671v2 §§1.3.6/5.8/6.7及finite-part出处，固定dual-carrier权/两半轴/delta0/trace类型，对照Burnol/563完整Γ；若仅手调twist/contact则停翻译回560actualreceiver joint signed准入。LS未给classic source→jet新map，不另建det合同。",
     "stop_rule": "固定test一轮止；无actual截面/完整tensorpole新输入，不续RR/H/CM标签。"
   },
   "support_contracts": [],
@@ -62,7 +62,8 @@
     "560 Π fullG/error compact已付ALLfixedL source/Dlog；K_L/growth/sign未付；actualm||H_TDP_-||lower只auxH，非M/k/receiver像/Weil源；ratio结束不重跑。",
     "561的μ是物理x整数侧，非log n格或零点正谱；P/Π/M分别付；fixedGaussian全t与unitgap不可弱化。分类与正性分开；C024完成不complete长期目标。",
     "567 formalgraph/transpose/composition/trace和positive offdiag不付Hodge index；RR(14)须独立sections/同cutoff全部误差/source eta，C_j可增长；073高维membership纠正不撤562-566既有条件后果。",
-    "专题路线图0轮：2018§3.4已来源止；2024双conormal b-trace与2002Riemannian正性不自动共载体，FP/两侧权未付Γ。393 Dim_profile非H0；测试先运r=e^(u/2)f。"
+    "专题路线图0轮：2018§3.4已来源止；2024双conormal b-trace与2002Riemannian正性不自动共载体，FP/两侧权未付Γ。393 Dim_profile非H0；测试先运r=e^(u/2)f。",
+    "LS专题0轮：same-D jet/Frob/height付real-character scalar profile，非classic mixed WeilGram；ordinary jets不可随除j!，charp重付非退化，(14)未构造。下一Γ门保持。"
   ],
   "evidence": [
     {
@@ -169,16 +170,26 @@
       "path": "reviews/2026-10-20/grh-literature-roadmap/remote-sync-verification.json",
       "kind": "cited",
       "scope": "专题路线图提交05bfb501的远端main/tree/parent与本地同SHA/clean已核；随后metadata子提交另核。同步非数学证明/新轮。"
+    },
+    {
+      "path": "goals/reviews/2026-10-20-landau-siegel-determinant-and-weil-facilities.md",
+      "kind": "cited",
+      "scope": "外部LS截图数学链/同D全位预算及Weil-RR设施比较0数学轮；uniform real-character scalar排除不代classic fullWeil正性。"
+    },
+    {
+      "path": "reviews/2026-10-20/landau-siegel-inspiration/root-consumption-scope.json",
+      "kind": "cited",
+      "scope": "主稿/三稿/来源记录及独立终审版本绑定；对象/map/norm/quantifiers/errors/direction/coverage/strong-old闭合，hash非证明。"
     }
   ],
   "pending_processes": [],
   "runtime_goal_observation": {
     "status": "absent",
-    "observed_at_utc": "2026-10-20T08:24:10.184593+00:00",
-    "basis": "本轮恢复和root消费前get_goal均null；未创建未请求实例，同文件Goal/固定基线及open宏观门保持。"
+    "observed_at_utc": "2026-10-20T11:47:03.739744+00:00",
+    "basis": "本轮恢复与终审前get_goal均null；未创建未请求实例，保同文件Goal/冻结基线。"
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-10-20-generalized-weil-literature-roadmap-sync.json",
+  "checkpoint": "goals/checkpoints/2026-10-20-landau-siegel-facility-review.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
     "commit": "05bfb501aac3c9341010099d13b4a12bbc749172",
@@ -190,11 +201,11 @@
     "goal_lf_sha256": "cc6046029a8e5c9fe4eae427dfd663f1d851666370637c8fd451042f340fee8b",
     "mathematical_gate": "open",
     "final_execution_gate": "not-eligible",
-    "basis": "本轮仅文献设施路线图0数学轮，未付classic独立index/源身份或actual成长signed费；强旧4/5及宏观门保持。"
+    "basis": "LS专题仅外部证明/设施审查0轮；无classic独立full source正性或成长signed费，actual4/5/core/coupling与宏观门保持。"
   },
   "historical_completion_receipts": [
     "goals/goal-completion-receipt.20261014.json",
     "goals/goal-completion-receipt.20261014-continuation.json"
   ],
-  "process_inventory_observed_on": "三专题原稿/格式复核和独立路线图审查均final并root消费；无数学/数值/shell producer。仅保存并同步本次专题审查。"
+  "process_inventory_observed_on": "三个来源/数学/设施稿与复用handle的新final-cross-review任务均final；root逐份读并绑定消费。无shell/math/numeric producer；仅保存并同步本专题。"
 }

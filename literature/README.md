@@ -1,5 +1,13 @@
 # RH-Weil 文献索引
 
+2026-10-20按用户截图及继续核查指令，检查Landau–Siegel三页简化证明的
+[评价行列式与Weil/RR设施](../goals/reviews/2026-10-20-landau-siegel-determinant-and-weil-facilities.md)：
+非零integer minor、Frobenius厚邻域整除、无穷位高度及uniform实零点推论分别核；
+对照Banks/Kerr/Green/Tao一手记录，Barreto直接输入为用户三页。
+其与有效性/RR容量的关系及一般g分布的source/Γ/mixed/coverage缺口另列；
+de Smit–Perlis同ζ非同构数域提醒全局代数识别责任。0新增数学轮，不报经典Weil新正性。
+本次未增加永久PDF归档或改写历史清点统计。
+
 2026-10-20按用户要求扩查Weil原证明、Connes/F₁多年工作、Lapidus/Beurling与叶状流：
 [综合设施路线图](../goals/reviews/2026-10-20-generalized-weil-facilities-literature-roadmap.md)
 将已证对象、同源比较、独立正性及尚缺设施分开；各版本/章节见其中四专题原稿。

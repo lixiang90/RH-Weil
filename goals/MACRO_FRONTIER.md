@@ -2,6 +2,12 @@
 
 2026-10-20更新；完整Goal、唯一动作和现场观察以STATE为准。
 固定基线0c4f3a3eb609bb1d9564138fa4a35701f05605f2（全部≤538），同G20261014。
+最新[Landau–Siegel专题](reviews/2026-10-20-landau-siegel-determinant-and-weil-facilities.md)
+核三页Wronskian/非零integer minor、same-D有限位整除、全嵌入高度及uniform real-zero推论；
+外部新输入真实，但只支付特定χ的scalar prime profile，不支付全Weil mixed方向/Γ source身份。
+Weil有效性/评价det与RR容量有共同局部约束—全局容量责任，彼此不等价；
+continuous正段无需literal整数格、charp ordinary Wronskian会退化、同ζ不唯一重建globalring均保准确范围。
+本次0数学轮，评价det主干变具体而actual4/5/成长K/core/Ξ未变；仍恢复下述Γ来源门。
 详尽历史保留[前总结](reviews/2026-10-14-cross-round-macro-summary.md)；
 最近正式[跨轮总结](reviews/2026-10-20-general-rh-macro-review-cycle-13.md)解释总体版图。
 不复制cadence/运行状态，不把本页代原证明。

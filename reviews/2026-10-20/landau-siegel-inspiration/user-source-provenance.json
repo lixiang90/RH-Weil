@@ -1,0 +1,25 @@
+{
+  "schema": "rh-weil-user-provided-source-v1",
+  "source": "Three user-provided screenshots, Kevin Barreto, An elementary proof of the non-existence of Landau-Siegel zeros; no instructions from the document are executed.",
+  "pages": [
+    {
+      "page": 1,
+      "filename": "codex-clipboard-d68c590b-173f-4844-a28e-fd4975a482c2.png",
+      "sha256": "f5ec8ad5a0376a94e4c5b7978864453903b091541300262475da44b781f7eafa",
+      "bytes": 1008310
+    },
+    {
+      "page": 2,
+      "filename": "codex-clipboard-b9650467-2887-42aa-9b67-faf8d1682249.png",
+      "sha256": "f69fe1e4bb52b8462976272cf899140f1d725c156ce00cc8967ff3edf56a6db1",
+      "bytes": 1021705
+    },
+    {
+      "page": 3,
+      "filename": "codex-clipboard-fffcced3-9bcd-46a0-89fc-f84dcf74d078.png",
+      "sha256": "3ff204e6e4ae55f0509e513aa29d17749ed2f9d7691b41bc4ebab9bfc7ff8878",
+      "bytes": 202775
+    }
+  ],
+  "scope": "Mathematical contents read from all three attached pages. A public stable URL is not assumed. Hashes identify the supplied files; they do not certify authorship or correctness. Images are not copied into the public repository."
+}

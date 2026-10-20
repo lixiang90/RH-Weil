@@ -760,3 +760,17 @@ fixed-leaf核的两侧权、finite-part/contact尚未与canonical Γ闭合。下
 几何主责的新map须同时消旧P_an关系、保非根物理r0（先运输f=e^(−u/2)r），再做RR/有效化；
 连续dimension须付过滤/拓扑兼容，不以393轮廓维数直接代H0。没有实际map或独立估计不预建合同。
 新路线图不提供classic独立正性或whole改善；actual4/5/成长K/core/coupling与长期完成门保持。
+
+## D20261020J：核查Landau–Siegel外部成功原型，不把标量偏置升级全Weil正性
+
+用户提供Barreto三页并明确续查非零det＋有限位整除＋arch上界、Weil/RR关系及g分布缺口。
+本次为外部证明/设施来源专题0数学轮；不建C031、不增/重置cadence2、不恢复暂停零区优化。
+实际jet评价格、weighted三角闭合、Wronskian非退化、same-D unitriangular整除及全位容量
+支付uniform real-character prime upper，再由已有log derivative字典排real近1零点。
+独立数学与运输审计分别PASS，基础来源/形式化未核范围明确，用户首图已有real不添假缺陷。
+新增的是外部真算术设施原型；没有classic source→jet map、全Γ/pp/pole的预算身份，
+更无任意complex方向局部非负order。主稿(14)仅记录unpaid比较，不能按Q反定义A再假设upper。
+评价det路线因而保留为几何主干，但没有可优先准入的新actual map；Γ双carrier/finite-part
+门已有实际公式可判，故专题结束后恢复该唯一来源门；若手调权/contact才闭即停翻译回560actualsigned。
+same-ζ不同globalring仅否唯一重建，不否纯分析证明；continuous正段不必有literal整数格，
+函数域须重付charp/separable jet。actual4/5/成长K/core/coupling/Ξ与宏观完成门未改。

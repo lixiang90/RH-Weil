@@ -2,8 +2,12 @@
 
 当前文件[Goal](GOAL.20261014.md)，固定0c4f/≤538资产为输入，保留G20261014目标。
 2026-10-20现场get_goal=null，不声称旧active实例存在，未创建未请求的新运行Goal。
+最新用户专题[Landau–Siegel评价行列式核查](reviews/2026-10-20-landau-siegel-determinant-and-weil-facilities.md)
+追踪非零minor、Frobenius高阶整除与arch高度的同一对象预算；截图数学链局部核查及设施运输分别通过。
+它使Weil评价det路线有具体外部成功原型，但real-character标量偏置不代全complex Weil Gram，
+一般g分布的真实sections/局部作用、完整Γ身份及mixed/coverage仍欠，0数学轮，actual瓶颈未变。
 [561–566战略回顾](reviews/2026-10-20-notes-561-566-analytical-rh-lessons.md)解释分析尝试的经验；
-最新用户专题[文献与设施路线图](reviews/2026-10-20-generalized-weil-facilities-literature-roadmap.md)
+前一用户专题[文献与设施路线图](reviews/2026-10-20-generalized-weil-facilities-literature-roadmap.md)
 综合Weil原证明、Connes/F₁、Lapidus与叶状流，区分九项设施及三条来源链，0新数学轮。
 最新数学仍[567](../notes/567-function-field-positivity-origins-and-generalized-correspondence-tests.md)，
 恢复RR容量→Hodge index→全点数Gram，并用完整连续Π检验formal graph/duality/trace仍不足。
