@@ -7,10 +7,10 @@
   "workflow": "goals/RESEARCH_WORKFLOW.md",
   "cadence": "goals/review-cadence.json",
   "decisions": "goals/DECISIONS.md",
-  "latest_strategy": "goals/reviews/2026-10-20-source-heat-form-strategy.md",
-  "latest_decision": "D20261020F",
+  "latest_strategy": "goals/reviews/2026-10-20-notes-561-566-analytical-rh-lessons.md",
+  "latest_decision": "D20261020G",
   "macro_frontier": "goals/MACRO_FRONTIER.md",
-  "macro_summary": "goals/reviews/2026-10-20-general-rh-macro-review-cycle-13.md",
+  "macro_summary": "goals/reviews/2026-10-20-notes-561-566-analytical-rh-lessons.md",
   "latest_macro_review": "goals/reviews/2026-10-20-general-rh-macro-review-cycle-13.md",
   "latest_iteration": "notes/566-source-closed-forms-and-full-weil-heat-trace-tests.md",
   "macro_control": {
@@ -21,7 +21,7 @@
   "macro": {
     "long_objective": "新的成长域独立实际算术输入/同对象ζ约束，或成长核心实质方法类边界；扣除≤538基线。",
     "unpaid_bottleneck": "566付已核函数域H的正闭bundle及完整heat身份；classic同源Γ/pp/pole正闭形式仍欠。actualwhole4/5、560成长K/core/coupling未变。",
-    "why_this_contract": "C029具体构造与负对照已完成；unitary正H付热身份，automatic positive form不保source。当前仅保存同步，重准入须actual全source trace或独立极化/signed费。",
+    "why_this_contract": "六篇战略回顾完成：优先已有actualsource桥上的signed原件准入，独立对应来源次之；无限heat/正逼近须具体完整源。当前仅同步报告，未开始新数学。",
     "paused_routes": [
       "零点比例优化",
       "无零区域优化"
@@ -42,8 +42,8 @@
     "settled_iterations": [
       "notes/566-source-closed-forms-and-full-weil-heat-trace-tests.md"
     ],
-    "stage": "566研究提交9fdb6886已核远端main/tree及本地同Git对象/clean；当前只保存核验metadata。",
-    "next_action": "报告566函数域正闭energy与完整heat成功、classic同源identity缺口及精确失败范围；新数学准入须实际source公式/独立极化或signed净费。",
+    "stage": "C029/566完成；用户561—566战略回顾及两独立原稿已root消费，未开新数学合同。",
+    "next_action": "若用户续研，先按560现有joint mixed源准入稿核actualreceiver/全inverse/双边界能否给新signed计算；无input停来源，不预建合同，不续旧预算。",
     "stop_rule": "本构造门一次完成；不调图长拟合/unknownK公理。重准入须新的完整source公式/独立极化或actualsigned费。"
   },
   "support_contracts": [],
@@ -131,16 +131,21 @@
       "path": "reviews/2026-10-20/grh-heat-forms/remote-sync-verification.json",
       "kind": "cited",
       "scope": "566研究提交9fdb6886远端main/tree与本地同SHA/clean已核；随后metadata子提交另核。同步不是数学证明/新轮。"
+    },
+    {
+      "path": "reviews/2026-10-20/grh-six-note-review/root-consumption-scope.json",
+      "kind": "cited",
+      "scope": "六篇战略回顾与两独立原稿root消费；仅排序/归属/准入，0数学轮，保原cadence1，无classic新输入。"
     }
   ],
   "pending_processes": [],
   "runtime_goal_observation": {
     "status": "absent",
-    "observed_at_utc": "2026-10-20T07:05:25.072464+00:00",
-    "basis": "本轮get_goal实时null，未建运行Goal；固定文件Goal/基线及open宏观门保留。"
+    "observed_at_utc": "2026-10-20T07:22:33.668807+00:00",
+    "basis": "本次恢复get_goal null；未创建未请求的运行Goal，固定文件Goal/基线及open宏观门保持。"
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-10-20-source-heat-form-remote-verified.json",
+  "checkpoint": "goals/checkpoints/2026-10-20-six-note-strategy-review.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
     "commit": "9fdb6886cacd5e6b5a599d60ebf0018c919ee2cb",
@@ -158,5 +163,5 @@
     "goals/goal-completion-receipt.20261014.json",
     "goals/goal-completion-receipt.20261014-continuation.json"
   ],
-  "process_inventory_observed_on": "三原稿及final_reverse_566均final并root闭合；无数学/数值producer。研究提交9fdb6886本地远端同SHA/clean，当前仅metadata核验。"
+  "process_inventory_observed_on": "两独立战略回顾代理已final且root逐篇消费；无数学/数值/shell producer。本次仅回顾与保存同步，最新数学仍566。"
 }

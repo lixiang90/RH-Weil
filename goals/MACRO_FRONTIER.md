@@ -6,6 +6,11 @@
 最近正式[跨轮总结](reviews/2026-10-20-general-rh-macro-review-cycle-13.md)解释总体版图。
 不复制cadence/运行状态，不把本页代原证明。
 
+用户561–566[战略回顾](reviews/2026-10-20-notes-561-566-analytical-rh-lessons.md)不增数学轮：
+对象分类／规范／对偶与全源正性、carrier及identity分别核。经典独立正性仍未付。
+优先560实际receiver的joint signed原件准入；独立有效correspondence保新来源门，
+无限heat或函数域正逼近等待完整source公式/具体可控族。没有新input不预建合同或续旧预算。
+
 ## 因果链和消费范围
 
 当前566实际构造函数域unitary log-circle bundle正闭能量：同源全递推/U,H给完整all-time/all-winding

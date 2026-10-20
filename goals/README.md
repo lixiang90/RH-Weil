@@ -2,7 +2,8 @@
 
 当前文件[Goal](GOAL.20261014.md)，固定0c4f/≤538资产为输入，保留G20261014目标。
 2026-10-20现场get_goal=null，不声称旧active实例存在，未创建未请求的新运行Goal。
-[跨轮总结](reviews/2026-10-20-general-rh-macro-review-cycle-13.md)解释总体成果和未付责任；
+[561–566战略回顾](reviews/2026-10-20-notes-561-566-analytical-rh-lessons.md)解释分析尝试的经验和方向排序；
+[正式cycle13](reviews/2026-10-20-general-rh-macro-review-cycle-13.md)保跨周期记录，本次回顾不增轮或归零；
 [宏观前沿](MACRO_FRONTIER.md)保存准确范围、强旧短链、合法逃逸和选择依据。
 先读[STATE](STATE.json)，执行：
 
@@ -12,6 +13,10 @@
 再读Goal、前沿、状态指定唯一合同／最新决策与必要原件；压缩／中断同样恢复。
 先答完成门／基线、最强可消费后果、最小未付箭头、为何停／当前为何胜备选、
 改变选择的证据及现场Git／Goal／进程，不能只恢复下一命令。
+
+当前选路：先做560 actualreceiver joint signed原件准入，核具体mixed项有无新计算输入；
+独立对应正性保来源备选，无限heat/函数域逼近须新完整source公式/具体族。未启动新合同，
+不静默续旧预算；无新输入不重跑compactness、玩具参数、低谱拟合或unknownH/K/CM。
 
 [通用流程](RESEARCH_WORKFLOW.md)适用于长期重型研究；[决策](DECISIONS.md)、
 [原轮数](review-cadence.json)、[复盘协议](REVIEW_PROTOCOL.md)各负其责。
