@@ -1,0 +1,294 @@
+{
+  "schema": "rh-weil-macro-checkpoint-v1",
+  "created_for_client_date": "2026-10-20",
+  "git_head_at_checkpoint": "4cbe9ef6338924db92cf3d87449e447df19559c0",
+  "state": {
+    "schema": "rh-weil-macro-state-v1",
+    "updated_for_client_date": "2026-10-20",
+    "baseline_commit": "0c4f3a3eb609bb1d9564138fa4a35701f05605f2",
+    "historical_baseline_commit": "3a72930e9f9f554b03b41d17d8c8002f1813ca82",
+    "goal": "goals/GOAL.20261014.md",
+    "workflow": "goals/RESEARCH_WORKFLOW.md",
+    "cadence": "goals/review-cadence.json",
+    "decisions": "goals/DECISIONS.md",
+    "latest_strategy": "goals/reviews/2026-10-20-distribution-certificates-strategy.md",
+    "latest_decision": "D20261020C",
+    "macro_frontier": "goals/MACRO_FRONTIER.md",
+    "macro_summary": "goals/reviews/2026-10-20-beurling-macro-review-cycle-12.md",
+    "latest_macro_review": "goals/reviews/2026-10-20-beurling-macro-review-cycle-12.md",
+    "latest_iteration": "notes/563-distribution-side-weil-certificates-and-heat-complete-monotonicity.md",
+    "macro_control": {
+      "schema": "macro-recovery-v2",
+      "goal_epoch": "G20261014",
+      "goal_lf_sha256": "cc6046029a8e5c9fe4eae427dfd663f1d851666370637c8fd451042f340fee8b"
+    },
+    "macro": {
+      "long_objective": "新的成长域独立实际算术输入/同对象ζ约束，或成长核心实质方法类边界；扣除≤538基线。",
+      "unpaid_bottleneck": "563付有限/周期分布守恒证书和准确heat-CM接口，实际ζ仍欠由完整Γ/pp/pole源独立证明全CM或无限维正能量身份；560成长K/core/coupling、自然域/Jordan/faithful Xi未付，actual whole强旧4/5不变。",
+      "why_this_contract": "用户独立分析条件任务已执行：精确ODE/有理H与点数全递推确给全域平方和，热正反测试有效。经典直接有限类不覆盖且CM仍等价，无新实际input，当前只保存同步报告。",
+      "paused_routes": [
+        "零点比例优化",
+        "无零区域优化"
+      ],
+      "stopped_or_downgraded": [
+        "C008不等待/C001冻结；比例/零区暂停；等价酉化/临界修正降级。",
+        "535/539–548各指定边界和合同止损见frontier；paid/joint/source-adapted逃逸保留。",
+        "C020549 source费真而actual全1未付；550强旧aggregate已扣；C021 G1paid/G2open stopped，551来源结束。",
+        "552径向/finite-n修复、553旧闭包、554正跳/适应域来源均0结束，未排其他quotient/Green/domain修复。",
+        "C022555 whole预算log leading2→1但exp(eL)core保持；sharp pure-prime scalar优化停止。",
+        "556030来源0；C023557强旧推论0；558丢正evenpole热trace0拒，保signedcore/deflation/paidΓ逃逸。",
+        "559保正poleoperator/trace与paidrank2修复旧消费0；jointfiniteS Π/G逆/relative尾合法旧消费0，mixed arithmetic/error/growth仍open；仅具体ratio cross门。",
+        "560 ratio/C0/allfixedL桥已新付一次，停止主项恢复；cofinal fullH norm解耦被aux下界阻，保actualreceiver/signed/paidΓ/compact逃逸。",
+        "561/C024分析选择门一轮完成；fixedFourier直接运输来源0止。旧K23符号原稿未出且handle不存在，未消费，用户方向优先不自动复活。",
+        "562/C025连续正例/全compact判据/重数与连续谱边界统一1轮完成；严格C1失败的混合不代经典whole；无新输入不续玩具族。",
+        "563/C026有限分布/周期能量证书及热接口统一1轮完成；直接有限ODE/TV类不覆盖classic，保无限维修复；未知CM/H不代新input。"
+      ]
+    },
+    "primary_contract": {
+      "id": "C026",
+      "path": "goals/contracts/C026-distribution-side-weil-certificates.md",
+      "status": "completed",
+      "iteration_budget": 1,
+      "settled_iterations": [
+        "notes/563-distribution-side-weil-certificates-and-heat-complete-monotonicity.md"
+      ],
+      "stage": "563研究提交4cbe9ef6已独立核远端main/tree和本地同Git对象/clean；后续仅核验metadata子提交，不增轮。",
+      "next_action": "报告563分布侧正能量证书、连续/函数域测试、完整热CM及经典未付箭头；新数学合同仅凭新actual无限维源身份/可核完整正逼近/signed费输入重准入，不续未知H/CM改名。",
+      "stop_rule": "单一完整轮；若只得Weil/Pick/CM等价则0来源止，不串标签，不排无限维/平滑相对误差等合法修复。"
+    },
+    "support_contracts": [],
+    "must_not_forget": [
+      "同G20261014文件目标/0c4f≤538固定基线；本轮runtime Goal=null，未建新实例；旧完成不能再验收。",
+      "actualΓ=2θ′、原du/zeroextension Dlog、ALLcomplex、全部properpowers/双pole；辅助R不推Q负。",
+      "原收据先核对象/domain-range/角色/norm/源成长量词/paid误差/actual方向/coverage；语义变更freeze/reclose。",
+      "已出稿≠root消费≠结算；同步stage/action，复用handle核当前任务/output。",
+      "549 fullflat Gram不付actual全1；550强旧O1；551 basisdiag不付fullmixed；C021 stopped/G2open。",
+      "553 bounded旧障碍保cofinal/source适应；554 fixedg域巨费不排actual mixtures，positivejump合法不付modifiedgap。",
+      "555预算保exactβ，o(eL)不能在指数中当1+o倍数；新旧upper比不是actual n−ratio/lower。",
+      "555 whole费用真推进但exp(eL)core/Ξ仍open，Goal完成另审；pureprime sharp不排joint/Γrelative。",
+      "557 strong-old4/5从542+555直接闭合，技术PASS/issuedratio不是新独立input；未来whole净值不能只拿leading 1或2作对照。",
+      "合同1–2完整轮/原cadence唯一；组织/来源恢复/推送0，不以零轮串换标签；下一恢复STATE动作。",
+      "560 Π fullG/error compact已付ALLfixedL source/Dlog；K_L/growth/sign未付；actualm||H_TDP_-||lower只auxH，非M/k/receiver像/Weil源；ratio结束不重跑。",
+      "561的μ是物理x整数侧，非log n格或零点正谱；P/Π/M分别付；fixedGaussian全t与unitgap不可弱化。分类与正性分开；C024完成不complete长期目标。"
+    ],
+    "evidence": [
+      {
+        "path": "notes/537-source-exact-weil-window-positive-tail-admission.md",
+        "kind": "proved",
+        "scope": "基线fixed17/16 fullcomplex Γ/pp/pole原Dlog正性，非成长。"
+      },
+      {
+        "path": "notes/538-actual-weil-geometric-upper-and-full-inertia-gates.md",
+        "kind": "proved",
+        "scope": "基线同窗simple-even/gap，非Ξ。"
+      },
+      {
+        "path": "notes/543-full-gamma-heat-arithmetic-records-and-thermal-boundary.md",
+        "kind": "proved",
+        "scope": "旧已结算actual Γ/record count CeS，S~2eL；scalar/thermal最强对照。"
+      },
+      {
+        "path": "notes/555-actual-prime-weighted-schur-and-growing-weil-inertia.md",
+        "kind": "proved",
+        "scope": "root-consumed：ALL L/ALL原complex完整prime norm~eL；whole预算log leading≤eL，强旧record2eL；仍exp(eL)，一轮。"
+      },
+      {
+        "path": "notes/557-joint-row-norm-and-gamma-arithmetic-moment-budget.md",
+        "kind": "cited",
+        "scope": "技术/ALLsource预算4/5有效，但542+555强旧直接推论，C023入口0；更新最强消费对照。"
+      },
+      {
+        "path": "notes/559-positive-even-pole-operator-trace-and-paid-deflation-scope.md",
+        "kind": "cited",
+        "scope": "root原operator/relative-globaltrace与paidrank2修复，旧直接消费0；D/fullsigned净费open。"
+      },
+      {
+        "path": "reviews/2026-10-14/even-pole-source/root-consumption-scope.json",
+        "kind": "cited",
+        "scope": "四原稿/组织逆审版本、root前件和Goal版本完善；hash不认证证明。"
+      },
+      {
+        "path": "reviews/2026-10-14/joint-sonin-source/root-consumption-scope.json",
+        "kind": "cited",
+        "scope": "原finiteS Π/fullinverse/source迹与mixed字典root消费0；actual coefficient/Weilerror/cofinal仍open。"
+      },
+      {
+        "path": "notes/560-joint-finite-place-sonin-primepower-cancellation-and-compact-weil-bridge.md",
+        "kind": "proved",
+        "scope": "root+终审：每先fixedfiniteS实际ε∈C0、ALL原complexDlog positiveTrace−compact+完整双pole；cofinal费/sign/Ξ未付，统一一轮。"
+      },
+      {
+        "path": "reviews/2026-10-14/joint-sonin-cross/root-consumption-scope.json",
+        "kind": "cited",
+        "scope": "六raw/root版本、allsource domain/Γ/pp/mixed/费用/strongest-old/aux角色闭合；原cadence只1。"
+      },
+      {
+        "path": "reviews/2026-10-14/joint-sonin-cross/next-joint-error-sign-and-growth-admission.md",
+        "kind": "open",
+        "scope": "唯一actualjoint紧误差mixed符号门；新560输入，fixedS结果不代growth，不预建C024。"
+      },
+      {
+        "path": "notes/561-beurling-positive-measures-self-duality-and-integer-recovery.md",
+        "kind": "proved",
+        "scope": "root+终逆审：连续positive primitive/Π/N与强N正则裸FE离线模型；fixedFourier/Gaussian+unitgap纯分析恢复整数。无经典Γ反例/whole新界/Weil正性；统一1轮。"
+      },
+      {
+        "path": "reviews/2026-10-20/root-consumption-scope.json",
+        "kind": "cited",
+        "scope": "561原件及五独立/来源原稿版本；对象/norm/map/domain/全量词/系数/强旧和runtime修复完整根闭合，hash不认证证明。"
+      },
+      {
+        "path": "reviews/2026-10-20/fixed-fourier-to-weil-transport-stop.md",
+        "kind": "cited",
+        "scope": "原norm U/C/H及精确−1态的compact负近似；辅助H非actualQ；扣554/560后0来源停止，保paid/nonlocal/source-adapted。"
+      },
+      {
+        "path": "reviews/2026-10-20/remote-sync-verification.json",
+        "kind": "cited",
+        "scope": "研究提交68a86cfa已核远端main、相同tree和本地SHA/clean；随后仅核验metadata子提交，非数学证据或新轮。"
+      },
+      {
+        "path": "notes/562-generalized-rh-continuous-g-integers-and-spectral-multiplicity.md",
+        "kind": "proved",
+        "scope": "连续正primitive/N的nonempty centered段/相变/全compact平方和；一般Weil判据与trace重数；连续谱混合有分支且失败C1，统一1轮，actualζ/core/Ξ无改善。"
+      },
+      {
+        "path": "reviews/2026-10-20/grh-general/root-consumption-scope.json",
+        "kind": "cited",
+        "scope": "562及五独立/来源原稿最终6版本，主体及补节逆审PASS；对象/norm/域/量词/符号/coverage/strongest-old完整root闭合，hash不认证证明。"
+      },
+      {
+        "path": "reviews/2026-10-20/grh-general/remote-sync-verification.json",
+        "kind": "cited",
+        "scope": "562研究提交d74c5f73远端main/tree与本地同SHA/clean已核；后续仅metadata子提交。同步不是数学证明或新轮。"
+      },
+      {
+        "path": "notes/563-distribution-side-weil-certificates-and-heat-complete-monotonicity.md",
+        "kind": "proved",
+        "scope": "全D源ODE+正能量矩阵/周期全递推给完整Weil平方和；实偶指数阶heat-CM判据；精确F5曲线证书；经典全源正性仍欠，统一1轮。"
+      },
+      {
+        "path": "reviews/2026-10-20/grh-distribution/root-consumption-scope.json",
+        "kind": "cited",
+        "scope": "563/三个原稿/终审/精确脚本和JSON最终7版本；root前件及独立终审PASS，保全部norm/domain/源量词/符号/coverage/strongest-old；hash不认证数学。"
+      },
+      {
+        "path": "reviews/2026-10-20/grh-distribution/remote-sync-verification.json",
+        "kind": "cited",
+        "scope": "563研究提交4cbe9ef6远端main/tree及本地同SHA/clean已核；后续仅metadata子提交。保存同步不认证证明或新增轮次。"
+      }
+    ],
+    "pending_processes": [],
+    "runtime_goal_observation": {
+      "status": "absent",
+      "observed_at_utc": "2026-10-20T03:02:52.728611+00:00",
+      "basis": "本轮同步收尾get_goal=null，未建运行Goal；文件目标/固定基线及open宏观门保持。"
+    },
+    "goal_completion_requested": false,
+    "checkpoint": "goals/checkpoints/2026-10-20-distribution-certificates-remote-verified.json",
+    "last_verified_remote": {
+      "repository": "https://github.com/lixiang90/RH-Weil",
+      "commit": "4cbe9ef6338924db92cf3d87449e447df19559c0",
+      "basis": "远端main/commit独立GET核SHA/tree398bcd3f/parent；16文件tree等于本地index，导入同Git对象后HEAD=origin/main且clean。随后仅STATE/核验/checkpoint metadata子提交，不滚基线/计轮。"
+    },
+    "completion_audit": {
+      "goal": "goals/GOAL.20261014.md",
+      "baseline_commit": "0c4f3a3eb609bb1d9564138fa4a35701f05605f2",
+      "goal_lf_sha256": "cc6046029a8e5c9fe4eae427dfd663f1d851666370637c8fd451042f340fee8b",
+      "mathematical_gate": "open",
+      "final_execution_gate": "not-eligible",
+      "basis": "563扩大分布认证机制并给精确函数域正能量证书；未付classic完整源全CM/无限维正能量、成长core/faithful Xi，whole4/5不变，宏观门open，runtime Goal=null。"
+    },
+    "historical_completion_receipts": [
+      "goals/goal-completion-receipt.20261014.json",
+      "goals/goal-completion-receipt.20261014-continuation.json"
+    ],
+    "process_inventory_observed_on": "本轮两个raw及final_reverse_563均完成，7最终原件hash/脚本证书核过；研究SHA本地远端一致且clean，无math/numeric/shell producer，当前仅metadata核验。"
+  },
+  "cadence_snapshot": {
+    "schema": "rh-weil-research-review-cadence-v1",
+    "user_instruction_date": "2026-10-08",
+    "minimum_rounds": 4,
+    "target_rounds": 6,
+    "maximum_rounds": 8,
+    "counting_unit": "completed research continuation iteration, not tool calls or files",
+    "rounds_since_review": 2,
+    "last_review": "goals/reviews/2026-10-20-beurling-macro-review-cycle-12.md",
+    "last_review_baseline_commit": "5a16a4ed55eee7571b3194a10b4495142eae9798",
+    "last_review_completed_round_count": 4,
+    "last_review_trigger": "Fourth complete iteration549/555/560/561; formal cycle12 review after561 settlement3->4, then reset0. Source/history/final-review/direct-Fourier stop/push add zero; fixed baseline retained.",
+    "last_completed_round": "notes/563-distribution-side-weil-certificates-and-heat-complete-monotonicity.md",
+    "last_completed_round_date": "2026-10-20",
+    "last_completed_round_baseline_commit": "0c4f3a3eb609bb1d9564138fa4a35701f05605f2",
+    "latest_user_directed_review": "goals/reviews/2026-10-20-distribution-certificates-strategy.md",
+    "latest_user_directed_review_baseline_commit": "0c4f3a3eb609bb1d9564138fa4a35701f05605f2",
+    "latest_user_directed_review_scope": "C026/563独立分布证书、完整heat-CM接口与算术lift测试统一1轮；原cadence1->2。三原稿/脚本/终审/来源恢复/推送不另计。",
+    "current_research_focus": "563已付有限/周期分布认证机制；经典完整源全CM/无限维正能量/faithful Xi/成长K/core无新输入，不延未知H/CM合同。",
+    "weil_f1_rounds_since_historical_review": 30,
+    "last_completed_round_note_paths": [
+      "notes/524-f1-mobius-cutoff-taylor-obstruction-and-repair.md",
+      "notes/525-f1-smoothed-mobius-probes-and-arithmetic-strength.md",
+      "notes/526-f1-faithful-two-weight-hilbert-quotient-and-defect.md",
+      "notes/527-weil-reflection-source-signs-and-arithmetic-sensitivity.md",
+      "notes/528-actual-prime-reflection-relative-bound-obstruction.md",
+      "notes/529-full-weil-positive-cone-semigroup-boundary.md",
+      "notes/530-archimedean-sonin-prime-compact-repair-boundary.md",
+      "notes/531-semilocal-sonin-positive-trace-and-non-hilbert-schmidt-cutoff.md",
+      "notes/532-actual-sonin-prime-symbol-and-compact-weil-bridge.md",
+      "notes/533-actual-late-prime-sonin-boundary-square.md",
+      "notes/534-actual-uniform-sonin-subterms-and-trace-consumption-gap.md",
+      "notes/535-actual-first-prime-sonin-log-resonance-and-indefinite-error.md",
+      "notes/536-compact-window-certificate-admission-and-pointwise-scope.md",
+      "notes/537-source-exact-weil-window-positive-tail-admission.md",
+      "notes/538-actual-weil-geometric-upper-and-full-inertia-gates.md",
+      "notes/539-growing-weil-prime-cost-and-constant-tail-boundary.md",
+      "notes/540-growing-constant-tail-gaussian-reward-cost.md",
+      "notes/541-native-chebyshev-variation-and-full-gamma-boundary.md",
+      "notes/542-actual-prime-high-moments-and-strong-baseline-audit.md",
+      "notes/543-full-gamma-heat-arithmetic-records-and-thermal-boundary.md",
+      "notes/545-modular-packet-norm-cusp-blindness-and-weil-transport-gate.md",
+      "notes/546-arithmetic-comb-full-weil-positivity-and-form-core-noncoverage.md",
+      "notes/549-mobius-window-norm-full-cofactor-gram-and-physical-synthesis-gap.md",
+      "notes/555-actual-prime-weighted-schur-and-growing-weil-inertia.md",
+      "notes/560-joint-finite-place-sonin-primepower-cancellation-and-compact-weil-bridge.md",
+      "notes/561-beurling-positive-measures-self-duality-and-integer-recovery.md",
+      "notes/562-generalized-rh-continuous-g-integers-and-spectral-multiplicity.md",
+      "notes/563-distribution-side-weil-certificates-and-heat-complete-monotonicity.md"
+    ]
+  },
+  "normalized_lf_sha256": {
+    "AGENTS.md": "759178cc17edb0f4c5417b485759f491373447897d0828c3ca78f06939266650",
+    "goals/DECISIONS.md": "79a8e7d35b90dbb5b440a28b766fb3f290673a39c8ffa826d0302b7ebc41a8a4",
+    "goals/GOAL.20261014.md": "cc6046029a8e5c9fe4eae427dfd663f1d851666370637c8fd451042f340fee8b",
+    "goals/MACRO_FRONTIER.md": "2dfd844003fcd0c4c798573f9bc79d7b00829f7b15622d5294792be6bf03874e",
+    "goals/RESEARCH_WORKFLOW.md": "bb389f09753aa76fbb5f00da9039cd1b066c73a9a8c76ff0b4c7ecec1fa83a3d",
+    "goals/STATE.json": "a32b6877e571628dcaa64bd011eb49a350ab8fbe6031b541bba3856d28b83328",
+    "goals/contracts/C026-distribution-side-weil-certificates.md": "a7669d3c800fc4dd8cf7d271c6a1549298ac47f49823359bf362de550b1a155d",
+    "goals/review-cadence.json": "e82c89a02ed2738071317aff5d8d6ccdd5c98d4c6278cdf2e05908ae21e59801",
+    "goals/reviews/2026-10-20-beurling-macro-review-cycle-12.md": "3e3563c24f6767b00136a18afce6be6ea59d11d75bb06755dde1277298a7c572",
+    "goals/reviews/2026-10-20-distribution-certificates-strategy.md": "7930e86b3b1a5a2377ff8a9433fc94f28fe25b3f0061182a8371b39c025ba150",
+    "notes/537-source-exact-weil-window-positive-tail-admission.md": "269a500556d37fc04a4e44efd2f0899414787743e529506dbbe7395a34eea9f8",
+    "notes/538-actual-weil-geometric-upper-and-full-inertia-gates.md": "fa515b15206cc499dacfa398c8cc977b5e7d6bb3406d0f7fdae8f7a87e91a532",
+    "notes/543-full-gamma-heat-arithmetic-records-and-thermal-boundary.md": "ce4d2d3271573e0f70df44dce7974fb8c0958557102542c149a77402b94d77e8",
+    "notes/555-actual-prime-weighted-schur-and-growing-weil-inertia.md": "55a3745ab8160738e2a2dde15e84290e99205df68f3b59b357d26127846a31c5",
+    "notes/557-joint-row-norm-and-gamma-arithmetic-moment-budget.md": "5abfd13af9c955b27c5a2ea8f01d2555fa05b1df450adbedbcfe20f62d327166",
+    "notes/559-positive-even-pole-operator-trace-and-paid-deflation-scope.md": "8fa1d97850602e37f9cfd1a5459645665c4102d74e5cdeaeb6f100db694fd57b",
+    "notes/560-joint-finite-place-sonin-primepower-cancellation-and-compact-weil-bridge.md": "9c2e6cd5a9eae269ad04b332699c21eec7403a230f9557afa8b895c45d4228d3",
+    "notes/561-beurling-positive-measures-self-duality-and-integer-recovery.md": "2494d9b2305979836670d32f3a7558f058e57be361c27edb948ec2ed037571e7",
+    "notes/562-generalized-rh-continuous-g-integers-and-spectral-multiplicity.md": "e3e42480b967115accabd741cdbbb220865407396908b74b25bba0c213f60c10",
+    "notes/563-distribution-side-weil-certificates-and-heat-complete-monotonicity.md": "094c11cb5909eecc7f4e17468f00b43281b9fc6299042565aa792046807a5f4c",
+    "reviews/2026-10-14/even-pole-source/root-consumption-scope.json": "0873a2e121051cfe532436462280cd7e401826d9a92963117e1b6e1e76569529",
+    "reviews/2026-10-14/joint-sonin-cross/next-joint-error-sign-and-growth-admission.md": "ea782e4733ac60dcafba7ef75c83bc8f91dc652059711394d32db74d34140ab0",
+    "reviews/2026-10-14/joint-sonin-cross/root-consumption-scope.json": "fcd3dce2a607e77e0a33f147394f2ef5df659d0a6c518476f1b4f729c6658ec8",
+    "reviews/2026-10-14/joint-sonin-source/root-consumption-scope.json": "be673645584d7941bdab16416c7c390db55e416c24c69dd0e7291dea788d14d3",
+    "reviews/2026-10-20/fixed-fourier-to-weil-transport-stop.md": "37a706dc90c3de4e8e2fd7470f09948a0464fe00b670a273000b83762cf241a3",
+    "reviews/2026-10-20/grh-distribution/remote-sync-verification.json": "b4adcc0c3f376f18e8fbb6796fd942b55e7e2c1fc4fbf09f51b560169bbc6770",
+    "reviews/2026-10-20/grh-distribution/root-consumption-scope.json": "c657f80745e3118475aaf99eaccd5cbef0150041b8ed7f2e4bcbcce939751eb9",
+    "reviews/2026-10-20/grh-general/remote-sync-verification.json": "25ef44c8139fa6bf82e5ec6b606fe92e9ddc35e1432bc223cddfca4fd50aa1e4",
+    "reviews/2026-10-20/grh-general/root-consumption-scope.json": "7ec2c20f040047c0caed0ec028807016b07feb6b3913ec57c400414d79f5ea27",
+    "reviews/2026-10-20/remote-sync-verification.json": "f8af263d0081b1cf2cf3f8c49f74c9c208d10eb3a2c102386168e52f19fd2cb4",
+    "reviews/2026-10-20/root-consumption-scope.json": "8f0736303d7afc2bc16b8113d661410da8fcff2a3955ff569458b14e51674d20",
+    "scripts/research_state.py": "b97b434e71fe6959f5357267512cb247e4d0a79bee4d0590eeecc2682dc535b9"
+  },
+  "scope": "Structural recovery snapshot; not proof or live runtime verification"
+}

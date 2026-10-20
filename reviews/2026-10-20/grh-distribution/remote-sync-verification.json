@@ -1,0 +1,16 @@
+{
+  "schema": "rh-weil-remote-sync-verification-v1",
+  "date": "2026-10-20",
+  "repository": "https://github.com/lixiang90/RH-Weil",
+  "branch": "main",
+  "research_commit": "4cbe9ef6338924db92cf3d87449e447df19559c0",
+  "research_parent": "e8cc257bde130c2acbecd709b817e5c90594c07a",
+  "research_tree": "398bcd3fcd6b016814d35cff7ba2013e1bbfc398",
+  "files_in_research_commit": 16,
+  "remote_observation": "Independent GET main and commit match full SHA/tree/parent; conditional non-force expected-parent update.",
+  "local_observation": "Exact commit byte reconstruction SHA1 checked before import; local HEAD=origin/main=verified GitHub research SHA, index/worktree clean. No reset or checkout.",
+  "evidence_checks": "Seven final originals match root/audit LF hashes; exact finite-field script matches JSON and was independently rerun; staged diff check passed, created GitHub tree equals local index.",
+  "authorization": "User explicitly requested research synchronization to GitHub; configured origin exact same repository; no raw dialogue attachment or credential-pattern content included.",
+  "metadata_followup": "This receipt, STATE and final immutable checkpoint are a metadata-only child. STATE intentionally records verified research SHA; final child checked live separately, no self-referential SHA invented.",
+  "mathematical_scope": "C026/563 once, cadence2; finite/periodic distribution certificates and heat equivalence. Classical complete positivity, growing core and faithful Xi remain open; no macro Goal completion."
+}
