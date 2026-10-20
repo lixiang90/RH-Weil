@@ -1,0 +1,12 @@
+{
+  "schema": "rh-weil-remote-sync-verification-v1",
+  "review_commit": "05bfb501aac3c9341010099d13b4a12bbc749172",
+  "tree": "7676adf09f699049bcff9044b574406698d999fe",
+  "parent": "1e3f91aba5ab82370dd5874fb23045e189aa1097",
+  "repository": "https://github.com/lixiang90/RH-Weil",
+  "remote_main_observed": "05bfb501aac3c9341010099d13b4a12bbc749172",
+  "verification": "GitHub ref and commit fetched independently after non-force expected-parent update; remote tree equals staged local tree; exact Git object SHA reconstituted and imported; local HEAD=origin/main, clean.",
+  "files": 14,
+  "mathematics": "User-directed literature and strategy review, zero mathematical iterations; independent PASS and root premise closure are separate evidence.",
+  "metadata_followup": "STATE and an immutable sync checkpoint refer to this verified review commit; the subsequent metadata-only child is live-verified separately."
+}
