@@ -1,0 +1,92 @@
+{
+  "schema": "rh-weil-root-premise-closure-v1",
+  "contract": "C033",
+  "status": "root-consumed final versions after independent PASS",
+  "goal_epoch": "G20261014",
+  "baseline_commit": "0c4f3a3eb609bb1d9564138fa4a35701f05605f2",
+  "objects": [
+    {
+      "object": "Actual full-G joint Sonin projection and physical intertwiner",
+      "domain": "H=L2((0,infinity),dx); low cutoff1; M=real-place Sonin",
+      "map": "B=(1-2^-1/2 U_log2)(1-3^-1/2 U_log3); Pi=B P (P B*B P|M)^-1 P B*; F23=B F B^-1",
+      "roles": "B nonunitary causal automorphism; F23 selfadjoint unitary involution because F B F=B*, B normal; same orthogonal projection onto B M",
+      "norm": "Physical dx norm distinct from log-source du norm. K=L F23 L in S_p allp>2; gap>= (m/M_B)^2(1-||LFL||^2).",
+      "quantifiers": "First fixed S={infinity,2,3}, Sonin cutoff1; no growing-S uniform claim.",
+      "paid": "560 full-G projection/bridge, 535 fixed smooth source-S1; current double geometric summation, eta_op=(B*)^-1 low transportation.",
+      "errors": "Operator-norm series first; source first factor S1 sum with derivative-dependent constants. No ambient termwise trace.",
+      "direction": "Actual physical object paid, not B P B* or sum of single-prime traces.",
+      "coverage": "Ordinary trace for each fixed smooth compact source; no new source/growth coverage. Original Dlog extension inherited560.",
+      "strong_old_net": "Same560 bridge; new current-kernel/domain closure only contributes together with signed comparison."
+    },
+    {
+      "object": "All returns and dense actual bare mixed kernel",
+      "domain": "Fixed real smooth compact sources, then complex via actual epsilon real-even density and Hermitian polarization",
+      "map": "Overlap O=Phi(K(1-K^2)^-1); split K+C, C=K^3(1-K^2)^-1 inS1; double cos I_rs integrated on true rectangle",
+      "roles": "Intermediate E is overlap=T-qGamma+P23, not full T-Q until pole/pp vanish; L1 trace bound is not original norm bound.",
+      "norm": "||Dret||1<=2||K||S3^3/(1-kappa^2); returns source value<=||g||1^2||Dret||1.",
+      "quantifiers": "Fixed L1-bounded narrow families; all returns simultaneouslyO1. First each eta trace valid, then eta->0.",
+      "paid": "Current full-inverse block identity, source-S1 limit, Si endpoint cancellation uniformt in[0,t0], height splitting; known BMS Theorem9.4 instance.",
+      "errors": "Nonexact smoothedO1, not pointwiseO1 near dense resonances. Lowheight H<=eta^-eps epsM0<1; summable H^(3+2M0)e^-2aH; highheight eta^-1 sum H^3e^-aH=o1.",
+      "direction": "All nonexact averaged costs and full returns do not change leading exactlog^2; no uniform phase gap assumption.",
+      "coverage": "BMS2,3 constants fixed, source5 centers use fixed finite2,3,5 instance; no automatic g-integer or cofinal transfer.",
+      "strong_old_net": "Current actual double-prime signed coefficient absent from560 C0; external deep theorem attributed, not claimed new."
+    },
+    {
+      "object": "Exact pole-zero narrow sources and actual signed theorem",
+      "domain": "h_eta=phi_eta-A_eta beta1-B_eta beta2, both exp(plusminus u/2) moments0; g_eta^plusminus=(h(u+d/2) plusminus h(u-d/2))/sqrt2; d=log(3/2)",
+      "map": "R_g supported diameter<log2; all actual p^k shifts zero; exact two-pole momentszero",
+      "roles": "Gamma/contact/prime powers/poles kept in fullQ definition; zeros are source values, not discarded terms. Actual E=T23-QW only for final source.",
+      "norm": "L1 uniformly bounded; L2 and Dlog costs separately below.",
+      "quantifiers": "Fixed patches delta<min(d,log2-d)/2; all sufficiently smalleta, threshold not numerically claimed.",
+      "paid": "Exact2x2 moment solve; internal coefficients2/3; exact r=3s/2 family with j>=1 gives countingL^2/(2log2log3).",
+      "errors": "Exact boundary/sumphase/highscale correctionsOlog(1/eta); fixedbeta termsO1; selfO1 incl interval shrink.",
+      "direction": "E23(g_eta^plusminus)=plusminus C23 L^2+O(L), C23=1/(9sqrt6log2log3)>0; mixed halfdifference=C23L^2+O(L).",
+      "coverage": "Both signs on same physical full inverse, not a negative Q result or independent positive capacity.",
+      "strong_old_net": "New actual fixed-source sign and mixed coefficient; closes local unknown-sign gate. Strongest whole542+555->557 leading4/5 unchanged."
+    },
+    {
+      "object": "Fixed-window infinite positive/negative inertia",
+      "domain": "Same fixed original L2 source subspace V, each patch two moment constraints closed; arbitrary first fixed N",
+      "map": "Centers x_i=log(5^i2^mi3^ni) in small patch, 5 valuations distinguish all nonexact offdiagonals; diagonal plusminus C23L^2, offdiagO_N1",
+      "roles": "5 only selects sources; S remains infinity2,3. Source Gram is actual E, not full Q.",
+      "norm": "E restricted V is compact originalL2 by560; finite-rank selfadjoint corrections and finite-codim closed conditions cost only finite dimension.",
+      "quantifiers": "For every fixed N choose centers, then sufficiently smalleta; no uniformN eta threshold or growingS theorem.",
+      "paid": "Dense log2/log3 group, unique rational factorization, fixed2,3,5 BMS bound; actual source mixed kernel allreturns.",
+      "errors": "O_N(L) full matrix remainder; strict diagonal dominance after N fixed.",
+      "direction": "Both indices infinite, persist under any finite-rank correction/finite-codim restriction; excludes free common sign for this actual source.",
+      "coverage": "Does not exclude allowed nonfinite-rank compact, Gamma-relative, source-adapted, alternative fullinverse or geometric capacity repair.",
+      "strong_old_net": "Extends535 single-prime boundary to actual joint source; no macro completion because cofinal/legal repairs remain."
+    },
+    {
+      "object": "Original-norm/full-Gamma price and true capacity scope",
+      "domain": "Originaldu L2, zeroextension Dlog multiplierlog(2+absxi); fullGamma Repsi(1/4+i xi/2)-logpi",
+      "map": "Cphi=integralphi^2; L=log1/eta; L2=Cphi/eta+O1; Dnorm^2=(CphiL+Cphilog)/eta+O(L)",
+      "roles": "L1 unnormalizedlog^2 not norm1 divergence; fullGamma diag includescontact, mixed separation only removescontact support there.",
+      "norm": "qGamma(h)=[CphiL+Cphilog-log(2pi)Cphi]/eta+O1; finite Cgamma mixed; symmetric optionalfamily Cgamma<0.",
+      "quantifiers": "Fixed source patches, eta->0 only; does not enlarge support or finite primes.",
+      "paid": "Complete multiplier and puncturedkernel, momentcorrection, exact rescaling; old560 two-term balance optimized not countednew.",
+      "errors": "Normalized E_L2=plusminus(C23/Cphi)etaL^2+O(etaL); E_D=plusminus(C23/Cphi)etaL+Oeta, both0.",
+      "direction": "Both QW(g^plusminus)>0 from dominantGamma; also already537 fixed-windowpositive. No new classicWeil positive input.",
+      "coverage": "Growing inverse/gap/S3/returns, cofinal log constants, actualreceiver image and signed comparison, core/coupling/Xi remainunpaid; imposing all-source GramPSD remains Weil-equivalent.",
+      "strong_old_net": "New exact local signs/fees, no wholeleading4/5 improvement or removal of macro capacity bottleneck."
+    }
+  ],
+  "files": {
+    "notes/570-actual-joint-sonin-signed-mixed-and-narrow-source-cost.md": "6c787848770f78a9f535e381ba512352d46e84eb365f49b29d10097c00ff3315",
+    "reviews/2026-10-20/joint-sonin-signed/actual-kernel-and-source-trace.md": "bc9c59754e94bea69889790c28999ffaf76beb34dcd59c5b2dc59753ad7ac953",
+    "reviews/2026-10-20/joint-sonin-signed/final-570-review.md": "3d09f5833eedd451fcf287a43d89974253ad14fee0a74259b5000a244f22ae60",
+    "reviews/2026-10-20/joint-sonin-signed/mixed-returns-and-sign.md": "51aada5556479b911bc9217cd76a2dc0613d490b0ee17644781a5d2981fd6720",
+    "reviews/2026-10-20/joint-sonin-signed/narrow-source-norm-and-capacity.md": "ba36398ccc3b54ac119e57bfffaf558b3762a882b4004563e2a3b78c000b4743",
+    "reviews/2026-10-20/joint-sonin-signed/source-read-record.json": "a9f4e88d0a819dd724877cfbf580c547cb6b9ee94a4f4a2939cc27d2ce7db88a",
+    "goals/contracts/C033-actual-joint-sonin-signed-mixed.md": "93d8f25daf610367f9eb61f1903565e862a0aa0b0db28117a5aa9f4c1105e2ad"
+  },
+  "independent_review": "reviews/2026-10-20/joint-sonin-signed/final-570-review.md",
+  "new_actual_fixed_source_constraint": true,
+  "new_independent_actual_zeta_positive_input": false,
+  "local_comparison_bottleneck_changed": true,
+  "macro_bottleneck_changed": false,
+  "mathematical_goal_completion_gate": "open",
+  "hashes_are_not_proofs": true,
+  "iteration_settlement": "root consumption precedes separate single cadence settlement; no count here",
+  "post_consumption_nonsemantic_rebinding": "Git whitespace check removed exactly one trailing space after actual joint in kernel section7. Fresh reviewer checked the one-byte diff, rebound kernel/review LF hashes, PASS unchanged. No semantic dependency changed or new iteration."
+}

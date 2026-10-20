@@ -7,12 +7,12 @@
   "workflow": "goals/RESEARCH_WORKFLOW.md",
   "cadence": "goals/review-cadence.json",
   "decisions": "goals/DECISIONS.md",
-  "latest_strategy": "goals/reviews/2026-10-20-dual-gamma-cocycle-569-settlement.md",
-  "latest_decision": "D20261020L",
+  "latest_strategy": "goals/reviews/2026-10-20-joint-sonin-signed-570-settlement.md",
+  "latest_decision": "D20261020M",
   "macro_frontier": "goals/MACRO_FRONTIER.md",
-  "macro_summary": "goals/reviews/2026-10-20-dual-gamma-cocycle-569-settlement.md",
+  "macro_summary": "goals/reviews/2026-10-20-joint-sonin-signed-570-settlement.md",
   "latest_macro_review": "goals/reviews/2026-10-20-general-rh-macro-review-cycle-13.md",
-  "latest_iteration": "notes/569-dual-carrier-gamma-normalization-and-budget-cocycles.md",
+  "latest_iteration": "notes/570-actual-joint-sonin-signed-mixed-and-narrow-source-cost.md",
   "macro_control": {
     "schema": "macro-recovery-v2",
     "goal_epoch": "G20261014",
@@ -20,8 +20,8 @@
   },
   "macro": {
     "long_objective": "保G20261014：由一般g-integer及对偶建立独立同源Weil正性/有效性/RR设施以覆盖classic；实际ζ成长core及完整谱约束仍按冻结基线验收。",
-    "unpaid_bottleneck": "569已付限定双链Γ门/有费变号修复和matched cocycle；同一global section/kernel/独立RR容量及完整Γ/pp/pole mixed预算仍欠，560成长K/sign/core/coupling/Ξ和actual4/5保持。",
-    "why_this_contract": "C032固定检验结束，all-k直接Γ翻译止、parity与算术indicial source未给；cocycle不筛号。恢复560既有F23 actual mixed门，有明确夹源迹/窄patch可判全部returns，优于继续未知正det标签；没有actual系数/净后果即入口停。",
+    "unpaid_bottleneck": "570已判fixed2,3实际joint误差两号无限指数/原norm价；仅局部未知号改变。cofinal成长K/实际receiver费、独立global容量/完整预算、core/coupling/Ξ仍欠，strong-old4/5保持。",
+    "why_this_contract": "C033一轮完成，actual无费统一号被反测且保nonfinitecompact修复；下一仅准入560受限receiver/exact残差及T=Γ(R)下signed新费，比继续η/N/unknowndet有信息价值，无净测试即停。",
     "paused_routes": [
       "零点比例优化",
       "无零区域优化"
@@ -34,20 +34,21 @@
       "566/C029 heatlift一轮完成；safejump/physicalclosure/finitegraph仅所证类失败，合法infinitegraph已核仍非classic identity；无新source不续unknownK/图参数。",
       "567/C030固定全Π对应检验一轮完成；RR/Deligne来源归旧，量化RR budget条件未付classic数据，不续formalgeometry/参数/未知sections标签。",
       "568/C031源signed商/真实local jets及正反容量与原norm费用统一一轮；无classic独立容量，不续toy参数/unknowndet，matched cocycle与smooth probe合法。",
-      "569/C032固定双链/FP/有费变号修复与实/全纯cocycle一轮；不续调κ/δ/unknownline。额外parity/Euler/算术indicial身份及独立capacity另付。"
+      "569/C032固定双链/FP/有费变号修复与实/全纯cocycle一轮；不续调κ/δ/unknownline。额外parity/Euler/算术indicial身份及独立capacity另付。",
+      "570/C033全G/allreturns固定signed一轮；两号不代Q负/成长障碍，保非有限秩compact与Γrelative。停止η/N/第三prime，先核actualreceiver来源净测试。"
     ]
   },
   "primary_contract": {
-    "id": "C032",
-    "path": "goals/contracts/C032-dual-carrier-gamma-and-budget-cocycles.md",
+    "id": "C033",
+    "path": "goals/contracts/C033-actual-joint-sonin-signed-mixed.md",
     "status": "completed",
     "iteration_budget": 1,
     "settled_iterations": [
-      "notes/569-dual-carrier-gamma-normalization-and-budget-cocycles.md"
+      "notes/570-actual-joint-sonin-signed-mixed-and-narrow-source-cost.md"
     ],
-    "stage": "569独立PASS/root最终闭合、统一结算及19文件研究提交远端GET/tree/parent/本地同SHA核验完成；同步收据metadata另核，0额外轮。",
-    "next_action": "下一研究恢复reviews/2026-10-14/joint-sonin-cross/next-joint-error-sign-and-growth-admission.md：固定S={∞,2,3}全G逆，先核F23夹源kernel/trace合法，再核其中d=log(3/2)双pole-zero窄patch的全returns signed mixed与原Dlog费。旧handle未出稿未消费，不重跑ratio；若仅域/S3无actual系数/净后果即入口停，不预建C033。",
-    "stop_rule": "一轮止，不续手调权/δ或未知detline；无新实际输入则回560 actualreceiver signed准入，不串来源。"
+    "stage": "570研究已终审/root消费并统一结算4→5；Git尾空格非语义修复经原reviewer重绑最终LF，待最终检查点与GitHub同步。",
+    "next_action": "同步570最终证据后，仅按570结算核560 exact双残差在L_-D_F*H_Tw_R实际像及T=Γ(R)下的来源准入；含G逆/source成长误差，无新signed净测试即停，不预建C034。",
+    "stop_rule": "统一一轮；不加N/第三素数或重跑ratio，不以域/S3恢复冒称signed结果；保nonfinitecompact与actualreceiver修复。"
   },
   "support_contracts": [],
   "must_not_forget": [
@@ -67,7 +68,8 @@
     "专题路线图0轮：2018§3.4已来源止；2024双conormal b-trace与2002Riemannian正性不自动共载体，FP/两侧权未付Γ。393 Dim_profile非H0；测试先运r=e^(u/2)f。",
     "LS专题0轮：same-D jet/Frob/height付real-character scalar profile，非classic mixed WeilGram；ordinary jets不可随除j!，charp重付非退化，(14)未构造。下一Γ门保持。",
     "568 point/jet仅本J原Dlog费用；h/p在S_exp扩张商，compact只线性注入；Q根≠405 B根，±1/8只排无补偿分片下降，保det line/cocycle/强norm/smooth修复。",
-    "569 all-k单κ共同character失配不排parity/多leaf；Γ contact归标准局部Fourier，L1 D费M却signed变号；实/全纯cocycle不同约定，纤维正不代曲率/Weil正；FF pole须全aliases。"
+    "569 all-k单κ共同character失配不排parity/多leaf；Γ contact归标准局部Fourier，L1 D费M却signed变号；实/全纯cocycle不同约定，纤维正不代曲率/Weil正；FF pole须全aliases。",
+    "570 fixed2,3 E两号无限指数；fullreturns O1/dense仅平均O1，BMS fixed常数非g普遍性；原norm归一0/Q仍正。有限秩边界保nonfinitecompact；actualreceiver受限像≠aux全H。"
   ],
   "evidence": [
     {
@@ -126,19 +128,9 @@
       "scope": "完整连续Π的formalgraph/transpose/composition/trace失正反测试；全曲线Gram/RR及Deligne来源恢复，单尺度增长容量RR条件预算已审，classic数据未构造。统一1轮，actual4/5/core不变。"
     },
     {
-      "path": "reviews/2026-10-20/grh-geometric-origin/root-consumption-scope.json",
-      "kind": "cited",
-      "scope": "两最终原稿/主稿/073语义修复及独立PASS版本绑定；对象/domain/source/allpowers/符号/coverage/误差/强旧root闭合，hash非证明。"
-    },
-    {
       "path": "goals/reviews/2026-10-20-generalized-weil-facilities-literature-roadmap.md",
       "kind": "cited",
       "scope": "用户文献/路线图0数学轮：Weil/MT/RR、Connes/F1、Lapidus、Deninger设施与旧资产责任图；来源/范畴/trace/准入精确，非classic新正性。"
-    },
-    {
-      "path": "reviews/2026-10-20/grh-literature-roadmap/root-consumption-scope.json",
-      "kind": "cited",
-      "scope": "五最终主/来源稿与独立终审版本绑定；f/r草稿修复已重闭，published假设不可拼接，next source gate准确；hash不认证外部证明。"
     },
     {
       "path": "goals/reviews/2026-10-20-landau-siegel-determinant-and-weil-facilities.md",
@@ -171,19 +163,24 @@
       "scope": "主/三稿/来源及exact/合同结算draft共11最终输入与独立PASS绑定；对象/角色/domain/range/norm/成长/全源/符号/误差/coverage/强旧root闭合，hash非证明。"
     },
     {
-      "path": "reviews/2026-10-20/dual-gamma-cocycle/remote-sync-verification.json",
+      "path": "notes/570-actual-joint-sonin-signed-mixed-and-narrow-source-cost.md",
+      "kind": "proved",
+      "scope": "fixedS实际全G/allreturns：±C23log²/Olog、dense平均/无限两号、原norm与fullΓ；pp/pole源精确零。统一1轮，局部sign改变，非Q负/独立容量/成长4/5改善。"
+    },
+    {
+      "path": "reviews/2026-10-20/joint-sonin-signed/root-consumption-scope.json",
       "kind": "cited",
-      "scope": "569研究53269550远端main/tree/parent与本地同SHA/clean已核；metadata子提交另核。同步非证明/新轮。"
+      "scope": "主/三稿/独立PASS及来源最终LF绑定；对象/域/角色/全returns/原norm/量词/误差/符号/coverage/强旧root闭合；hash非证明。"
     }
   ],
   "pending_processes": [],
   "runtime_goal_observation": {
     "status": "absent",
-    "observed_at_utc": "2026-10-20T12:42:15Z",
-    "basis": "本轮恢复与终审get_goal均null，保同文件Goal/冻结基线，不创建未请求实例。"
+    "observed_at_utc": "2026-10-20T12:57:07.550155+00:00",
+    "basis": "本轮恢复get_goal=null，保文件Goal/冻结基线，不创建未请求实例。"
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-10-20-dual-gamma-cocycle-569-sync.json",
+  "checkpoint": "goals/checkpoints/2026-10-20-joint-sonin-signed-570-final.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
     "commit": "5326955026dcb9a466a9493f09254598e1b4579f",
@@ -195,11 +192,11 @@
     "goal_lf_sha256": "cc6046029a8e5c9fe4eae427dfd663f1d851666370637c8fd451042f340fee8b",
     "mathematical_gate": "open",
     "final_execution_gate": "not-eligible",
-    "basis": "569统一一轮：限定核/规范/修复费与matched cocycle真实，独立global容量及full Weil正性仍欠；actual4/5/成长K/core/coupling/Ξ和宏观完成门未改。"
+    "basis": "570一轮：actual固定joint两号/无限指数与原norm费用真实，局部未知号改变；独立global容量、cofinal actualreceiver费/core/coupling/Ξ仍欠，strong-old4/5和宏观完成门不变。"
   },
   "historical_completion_receipts": [
     "goals/goal-completion-receipt.20261014.json",
     "goals/goal-completion-receipt.20261014-continuation.json"
   ],
-  "process_inventory_observed_on": "三producer与fresh终审均final，无shell/numeric producer或未消费输出；root数学结算及远端研究提交已核，runtimeGoal=null。metadata不代下一actual mixed门。"
+  "process_inventory_observed_on": "三个producer及fresh final reviewer均final，最终LF版已root消费。无shell/numeric producer，runtimeGoal本轮null。"
 }

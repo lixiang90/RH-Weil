@@ -1,0 +1,31 @@
+{
+  "schema": "rh-weil-primary-source-scope-v1",
+  "iteration": 570,
+  "date": "2026-10-20",
+  "sources": [
+    {
+      "title": "Bugeaud–Mignotte–Siksek, Classical and modular approaches to exponential Diophantine equations I. Fibonacci and Lucas perfect powers",
+      "url": "https://annals.math.princeton.edu/wp-content/uploads/annals-v163-n3-p05.pdf",
+      "edition": "Annals of Mathematics 163 (2006)",
+      "actually_read": "Original journal PDF §9.1 and Theorem9.4, printed pp988–989; root/producer plus fresh independent reviewer reopened theorem statement and reduction to Matveev Cor2.3. No full paper proof audit claimed.",
+      "consumed": "Real-field multiplicative logarithmic-form bound, then independent mean-value conversion to additive logs. K=Q,D1; A=(log2,log3), M0=1.4*30^5*2^(9/2)*log2*log3. B>=max3,abs(m),abs(n). Fixed finite centers use A=(log2,log3,log5). Nonzero via rational prime factorization.",
+      "not_consumed": "Uniform constants for growing S or arbitrary g-integer logarithms; zero-location input; no new proof of the external theorem."
+    },
+    {
+      "title": "Matveev logarithmic forms",
+      "actually_read": "Historical507 source audit inherited; current original MathNet full-PDF attempt unavailable/time-out. Current proof consumes published BMS Theorem9.4, whose short proof cites Matveev Cor2.3.",
+      "not_claimed": "Fresh full reproof or current full reading of Matveev; unavailable source not used beyond already audited/primary published theorem."
+    }
+  ],
+  "internal_paid_assets": [
+    "535 source-S1 smoothing (fixed smooth source, derivative costs)",
+    "560 same full-G physical projection, epsilon C0 and complete Gamma/prime-power/pole bridge",
+    "537/538 fixed-window positivity (old)",
+    "542+555->557 leading4/5 (strongest old whole consequence)",
+    "507 historical BMS/Matveev primary-source audit (2,5 instance, not current2,3 coefficient)"
+  ],
+  "new_input_scope": "Actual finite2,3 joint kernel/returns plus dense averaged comparison and original-norm signed asymptotics. Independent deep arithmetic theorem instance, not new general g-distribution regularity or positive capacity.",
+  "no_new_pdf_asset": true,
+  "no_numeric_fit": true,
+  "hashes_are_not_proofs": true
+}

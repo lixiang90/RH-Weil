@@ -2,7 +2,13 @@
 
 当前文件[Goal](GOAL.20261014.md)，固定0c4f/≤538资产为输入，保留G20261014目标。
 2026-10-20现场get_goal=null，不声称旧active实例存在，未创建未请求的新运行Goal。
-最新数学[569双载体Γ与预算协同](../notes/569-dual-carrier-gamma-normalization-and-budget-cocycles.md)
+最新数学[570实际joint signed比较](../notes/570-actual-joint-sonin-signed-mixed-and-narrow-source-cost.md)：
+固定S={∞,2,3}及全G逆、全部returns，双pole-zero窄patch源的实际E23为±C23 log²(1/η)+O(log(1/η))。
+dense非exact平均由既有BMS/Matveev实例付清，不假设uniform gap；同固定窗有无限正负指数。
+原L²/Dlog归一误差均趋0，完整Γ主导Q仍正；所有pp/pole按本源精确取零而非删定义。
+[结算](reviews/2026-10-20-joint-sonin-signed-570-settlement.md)统一一轮，cadence4→5；
+局部unknown sign已判不定，宏观成长容量/strong-old4/5/core/Ξ未改，保非有限秩compact修复。
+前轮数学[569双载体Γ与预算协同](../notes/569-dual-carrier-gamma-normalization-and-budget-cocycles.md)
 已闭合固定single-chain共同权门：all-k不匹配real Γ，额外normal parity才匹配穿孔形状；
 完整contact由指定Tate/Fourier/Haar规范校准，L1修复费π/2+log2但signed变号。
 实/全纯matched cocycle可构造，连续/函数域正反例都通过，独立global容量仍欠。
@@ -37,11 +43,12 @@
 已完成一次实际卷积评价商、étale/jet和连续正反载体的容量差检验，停止扩参数。
 其后[C032](contracts/C032-dual-carrier-gamma-and-budget-cocycles.md)已实际执行2402.06671v2
 固定权／finite-part门并结算569；停止无额外parity/算术indicial map的直接Γ翻译。
-下一唯一动作恢复560已有[next actual mixed准入](../reviews/2026-10-14/joint-sonin-cross/next-joint-error-sign-and-growth-admission.md)：
-固定F23全G逆及双pole-zero窄patch源，先核夹源迹，再判全部returns的signed mixed及原norm费用。
-旧相关handles未出稿未消费，不重跑560已停ratio；若只恢复域/S3而无actual系数或净后果则入口停。
+下一唯一动作是[570结算中的actual receiver来源准入](reviews/2026-10-20-joint-sonin-signed-570-settlement.md)：
+从560 exact双边界residual，检查L_-D_F*H_Tw_R受限像及T=Γ(R)下的全逆signed费用。
+先付实际source/k_R/w_R角色与成长误差；旧full-H norm下界不在已认证receiver像，不代实际源费用。
+无新净测试则入口停，不预建C034，不续窄η/N/第三prime或旧ratio预算。
 评价det／截面容量为几何主责，但新map须先通过旧f/物理r坐标下的relation/nonroot双测试，
-C031/C032的构造/反测已结算；不建未知上同调合同、不重复已停参数／来源链，单cadence为4。
+C031/C032的构造/反测已结算；不建未知上同调合同、不重复已停参数／来源链，单cadence为5。
 
 [通用流程](RESEARCH_WORKFLOW.md)适用于长期重型研究；[决策](DECISIONS.md)、
 [原轮数](review-cadence.json)、[复盘协议](REVIEW_PROTOCOL.md)各负其责。
@@ -79,7 +86,7 @@ Fourier/unitgap识别只是一种特殊类；分类不付经典Weil正性，也�
 核四完整轮549/555/560/561；562–565四轮另见cycle13，来源／原稿／脚本／逆审／推送不另计；全当前阶段／唯一动作见STATE。
 
 最强实际ζ仍542＋555→557 whole leading4/5，指数core／Ξ未付；537/538固定窗是基线。
-560每fixedL完整Q=positiveT−原normcompactK＋双pole；成长K/sign/norm未付，aux lower非actualsourceerror。
+560每fixedL完整Q=positiveT−原normcompactK＋双pole；570已判fixed2,3的K不定，成长sign/norm未付，aux lower非actualsourceerror。
 旧joint-K23三handle现场不存在且原稿未落盘，未消费；新用户方向优先，不重跑ratio或续C023预算。
 连续来源后只核具体新input/test/net；固定Fourier→Weil若只回554旧gap/560未知K便停，不以条件改名续轮。
 

@@ -5,19 +5,19 @@
   "target_rounds": 6,
   "maximum_rounds": 8,
   "counting_unit": "completed research continuation iteration, not tool calls or files",
-  "rounds_since_review": 4,
+  "rounds_since_review": 5,
   "last_review": "goals/reviews/2026-10-20-general-rh-macro-review-cycle-13.md",
   "last_review_baseline_commit": "71d3b7e738cb2b8b8c2c3ff43f91a328df1af5d6",
   "last_review_completed_round_count": 4,
   "last_review_trigger": "562/563/564/565 four complete iterations.565 root closure settled3->4; formal cycle13 review resets0 once. Standard sources/drafts/audits/script/review/push zero additional. Fixed Goal/baseline unchanged.",
-  "last_completed_round": "notes/569-dual-carrier-gamma-normalization-and-budget-cocycles.md",
+  "last_completed_round": "notes/570-actual-joint-sonin-signed-mixed-and-narrow-source-cost.md",
   "last_completed_round_date": "2026-10-20",
   "last_completed_round_baseline_commit": "0c4f3a3eb609bb1d9564138fa4a35701f05605f2",
-  "latest_user_directed_review": "goals/reviews/2026-10-20-dual-gamma-cocycle-569-settlement.md",
+  "latest_user_directed_review": "goals/reviews/2026-10-20-joint-sonin-signed-570-settlement.md",
   "latest_user_directed_review_baseline_commit": "0c4f3a3eb609bb1d9564138fa4a35701f05605f2",
-  "latest_user_directed_review_scope": "用户双carrier/Γ规范及budget cocycle569统一一轮3->4；结算摘要/来源/审阅/同步0额外，不作formal cycle14，不重置cycle13。",
-  "current_research_focus": "569 fixed-carrier Gamma gate and matched real/holomorphic cocycles settled once. No independent classic capacity. Stop direct all-k translation; resume existing560 actual F23 mixed source admission, not yet executed, no new C033 without actual net input.",
-  "weil_f1_rounds_since_historical_review": 33,
+  "latest_user_directed_review_scope": "570 actual joint full-G signed/norm gate settled once4->5; source/three drafts/review/root/checkpoint/push zero extra; cycle13 not reset.",
+  "current_research_focus": "570 fixed infinity2,3 actual E has both signs and infinite indices, normalized error vanishes; fullQ positive fromGamma. Macro growth capacity unchanged. Stop narrow-source parameters; source admission only for560 exact residual on actual receiver image, no C034 yet.",
+  "weil_f1_rounds_since_historical_review": 34,
   "last_completed_round_note_paths": [
     "notes/524-f1-mobius-cutoff-taylor-obstruction-and-repair.md",
     "notes/525-f1-smoothed-mobius-probes-and-arithmetic-strength.md",
@@ -52,6 +52,7 @@
     "notes/566-source-closed-forms-and-full-weil-heat-trace-tests.md",
     "notes/567-function-field-positivity-origins-and-generalized-correspondence-tests.md",
     "notes/568-source-evaluation-carriers-local-jets-and-weil-capacity-gap.md",
-    "notes/569-dual-carrier-gamma-normalization-and-budget-cocycles.md"
+    "notes/569-dual-carrier-gamma-normalization-and-budget-cocycles.md",
+    "notes/570-actual-joint-sonin-signed-mixed-and-narrow-source-cost.md"
   ]
 }

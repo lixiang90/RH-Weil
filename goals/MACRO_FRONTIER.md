@@ -2,7 +2,19 @@
 
 2026-10-20更新；完整Goal、唯一动作和现场观察以STATE为准。
 固定基线0c4f3a3eb609bb1d9564138fa4a35701f05605f2（全部≤538），同G20261014。
-用户最新[C032双载体Γ与cocycle](contracts/C032-dual-carrier-gamma-and-budget-cocycles.md)
+最新[C033实际joint signed门](contracts/C033-actual-joint-sonin-signed-mixed.md)
+已在[570](../notes/570-actual-joint-sonin-signed-mixed-and-narrow-source-cost.md)终审/root消费，统一一轮。
+固定S={∞,2,3}全G逆与全部returns，实际双pole-zero窄源E23=±C23log²+Olog；
+returns整体O1，dense nonexact仅平滑平均O1，费用含既有BMS/Matveev有限log实例。
+同一固定源窗无限两号指数，有限余维/有限秩不能统一取号，保非有限秩compact/Γ-relative修复。
+原L²/Dlog归一误差趋0，完整Γ主导Q仍正；pp/pole是特殊源精确零而非删定义。
+局部unknown sign改变，宏观独立容量与542+555→557 whole4/5/core/coupling/Ξ不变。
+[结算](reviews/2026-10-20-joint-sonin-signed-570-settlement.md)保存root范围和下一受限receiver map：
+560双边界residual在L_-D_F*H_Tw_R像、T=Γ(R)下是否有可判signed新费，须含全逆和clipping成长价。
+只准入一次具体来源比较，未执行新数学合同；旧full-H norm下界不代receiver或Weil源下界。
+没有新输入/测试/净后果即停，不续η/N/第三有限位或预建C034。
+
+前轮[C032双载体Γ与cocycle](contracts/C032-dual-carrier-gamma-and-budget-cocycles.md)
 完成[569](../notes/569-dual-carrier-gamma-normalization-and-budget-cocycles.md)一次固定核/范数/全mixed检验。
 single all-k共同character类严格不匹配real Γ；额外normal even-parity可匹配shape，
 真实反射/sector/Euler系数/负号/重数/全局延伸仍欠，保多leaf/系数/奇异几何合法逃逸。
@@ -11,7 +23,7 @@ single all-k共同character类严格不匹配real Γ；额外normal even-parity�
 实1-cocycle及全纯phase2-cocycle已实现matched修复；continuous compact与FF全period关系正反都通过。
 指数metric纤维正不代Q≥0；固定potential曲率半正仍是Weil等价。独立section/kernel/RR容量未付。
 [结算](reviews/2026-10-20-dual-gamma-cocycle-569-settlement.md)及root范围保精确依赖，actual4/5/core未改。
-下一只恢复560既有actual mixed准入，停止再调κ/δ/未知detline来源；不预建C033。
+该历史下一门现已在570执行完毕；停止再调κ/δ/未知detline来源，当前唯一动作见上文/STATE。
 
 前一[C031评价载体固定检验](contracts/C031-source-evaluation-carriers-and-capacity-tests.md)：
 W卷积商、q5实际étale/jet、continuous正反star代数与classic原norm评价费用已终审/root消费。
@@ -213,7 +225,7 @@ cofinal真实m||H_TDP_-||在T≤(2−ε)eL趋1，但输入非M/k_R/actualreceive
 | 030/556、C023/557 | profile费用/强旧4/5消费0结束，既有finitecore障碍0，不优化η/k | 真ALLsource/coupling输入，whole对照扣4/5，Γrelative/source适应仍未排 |
 | Γ×primepositive path/558 | 丢正evenpole的ANYs>1 traceupper leading≥1，便宜门source0拒 | 保evenpole/合法signedtrace或core-deflation，另付Γdomain/residual/fulltrace费 |
 | 保正evenpole/559 | 原Γoperator/relativeheat/paid deflation准确合法，强旧0停止scalar主攻 | 新D/joint signed/core费用；不因singlechannel fixedgap失败排growingcore/γL→0/paid修复 |
-| 560 jointfiniteS | 真实原source ALLfixedL modcompact比较新付；ratio必要门结束，fullH norm解耦仅aux被阻 | actualjointK符号/成长费用/actualreceiver新输入；paidcompact/source-adapted/Γ/变组织仍保 |
+| 560/570 jointfiniteS | 560 full-G紧桥已付；570 fixed2,3实际E两号无限指数/原norm价，一轮止；ratio/fullH aux不得代源 | 成长K/actualreceiver新输入；非有限秩compact/source-adapted/Γ/变组织仍保 |
 | 561/C024分析选择 | 宽FE＋强N正则＋正primitive不足；固定Fourier/Gaussian＋unitgap严格识别整数 | 未给独立完整Weil正性；singleton分类不减RH强度；新signed输入才晋级，不以识别重计whole |
 | 562/C025一般类RH | 连续正例/相变与C1–C5接口统一一轮；不续玩具族/参数优化 | 正型锥闭可用但须同对象完整分布收敛；经典独立平方和/faithful determinant仍无新输入，不把等价重命名准入 |
 | 563/C026分布证书 | 有限输入认证/完整热接口/算术lift统一一轮；已付直接类和严格范围 | 需新无限维源身份、可核完整逼近或实际signed费才再准入；finite check不代growth，不串未知H/CM标签 |

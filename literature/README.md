@@ -1,5 +1,12 @@
 # RH-Weil 文献索引
 
+2026-10-20实际joint signed比较见[570](../notes/570-actual-joint-sonin-signed-mixed-and-narrow-source-cost.md)：
+重开Bugeaud–Mignotte–Siksek原刊Annals163(2006)pp988–989 Thm9.4，
+核固定2,3及有限中心2,3,5的Matveev实例、乘积减1到additive log转换。
+该深算术输入控制dense nonexact平均，不是任意g分布自动正则性；全returns/原norm已独立核。
+[来源范围](../reviews/2026-10-20/joint-sonin-signed/source-read-record.json)不声明重证外部深定理；
+本轮无新永久PDF，不改变文献资产清点。actual固定误差两号不代独立Weil容量。
+
 2026-10-20双载体规范与预算协同见[569](../notes/569-dual-carrier-gamma-normalization-and-budget-cocycles.md)：
 实际核ALKL2402.06671v2的固定normal/dual权、原版p7及pp46–48的b有限部分/trace-defect；
 single all-k共同character门严格不匹配real Γ，normal parity是额外合法修复，非原文已付global结构。
