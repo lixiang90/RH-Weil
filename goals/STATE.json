@@ -46,7 +46,7 @@
     "settled_iterations": [
       "notes/570-actual-joint-sonin-signed-mixed-and-narrow-source-cost.md"
     ],
-    "stage": "570研究已终审/root消费并统一结算4→5；Git尾空格非语义修复经原reviewer重绑最终LF，待最终检查点与GitHub同步。",
+    "stage": "570已终审/root消费并统一结算4→5；17文件研究提交远端main/tree/parent与本地精确对象一致且clean，随后只保存同步metadata。",
     "next_action": "同步570最终证据后，仅按570结算核560 exact双残差在L_-D_F*H_Tw_R实际像及T=Γ(R)下的来源准入；含G逆/source成长误差，无新signed净测试即停，不预建C034。",
     "stop_rule": "统一一轮；不加N/第三素数或重跑ratio，不以域/S3恢复冒称signed结果；保nonfinitecompact与actualreceiver修复。"
   },
@@ -171,6 +171,11 @@
       "path": "reviews/2026-10-20/joint-sonin-signed/root-consumption-scope.json",
       "kind": "cited",
       "scope": "主/三稿/独立PASS及来源最终LF绑定；对象/域/角色/全returns/原norm/量词/误差/符号/coverage/强旧root闭合；hash非证明。"
+    },
+    {
+      "path": "reviews/2026-10-20/joint-sonin-signed/remote-sync-verification.json",
+      "kind": "cited",
+      "scope": "570研究远端SHA/tree/parent与本地精确对象/clean已核；metadata子提交另核，Git同步不认证证明/不增轮。"
     }
   ],
   "pending_processes": [],
@@ -180,11 +185,11 @@
     "basis": "本轮恢复get_goal=null，保文件Goal/冻结基线，不创建未请求实例。"
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-10-20-joint-sonin-signed-570-final.json",
+  "checkpoint": "goals/checkpoints/2026-10-20-joint-sonin-signed-570-sync.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
-    "commit": "5326955026dcb9a466a9493f09254598e1b4579f",
-    "basis": "569研究19文件独立GET main/commit核SHA/treee803871e/parent5c6211e3；tree等本地index，精确对象导入后HEAD=origin/main且clean。随后仅同步收据metadata子提交另核，0额外轮/不滚基线。"
+    "commit": "ebfdc176d42e59928d03578cd0fc30d76b0c2f3c",
+    "basis": "570研究17文件ebfdc176独立GET main/commit核SHA/tree0a74e047/parenta0e86be5；与本地index树同且精确对象导入HEAD=origin/main/clean。随后仅收据metadata子提交另核，0额外轮。"
   },
   "completion_audit": {
     "goal": "goals/GOAL.20261014.md",
@@ -198,5 +203,5 @@
     "goals/goal-completion-receipt.20261014.json",
     "goals/goal-completion-receipt.20261014-continuation.json"
   ],
-  "process_inventory_observed_on": "三个producer及fresh final reviewer均final，最终LF版已root消费。无shell/numeric producer，runtimeGoal本轮null。"
+  "process_inventory_observed_on": "三个producer及fresh review均final，版本已root消费/结算/研究远端同步。无shell/numeric生产任务；只剩同步metadata，runtimeGoal本轮null。"
 }
