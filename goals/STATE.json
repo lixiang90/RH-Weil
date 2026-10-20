@@ -41,8 +41,8 @@
     "settled_iterations": [
       "notes/565-canonical-completion-graded-identifiability-and-independent-energy.md"
     ],
-    "stage": "565主稿/三原稿/终审五版本root消费PASS；统一结算1轮并完成正式cycle13；现准备研究提交与GitHub同tree核验。",
-    "next_action": "同步565/root收据与正式cycle13，核远端main/tree及本地clean后报告；下一数学合同须具体同源正energy/heat identity或actualsigned输入。",
+    "stage": "565研究提交b6be8be3已核远端main/tree及本地同Git对象/clean；现仅保存核验metadata。",
+    "next_action": "报告565自然完成化/分次识别/正energy接口及classic同源identity缺口；新数学准入须具体input/test/net，不续未知canonical/H/CM标签。",
     "stop_rule": "本门一次完成；不增规范参数/未知H/CM公理。源章审查若无新可判输入即0停止，不将选核升级classic正性。"
   },
   "support_contracts": [],
@@ -110,6 +110,11 @@
       "path": "reviews/2026-10-20/grh-canonical/root-consumption-scope.json",
       "kind": "cited",
       "scope": "五最终版本和独立终审PASS；对象/norm/domain/全time/源/误差/符号/coverage/强旧完整root闭合，hash不认证证明。"
+    },
+    {
+      "path": "reviews/2026-10-20/grh-canonical/remote-sync-verification.json",
+      "kind": "cited",
+      "scope": "565研究提交b6be8be3远端main/tree与本地同SHA/clean已核，随后仅metadata子提交。同步不是数学证明或新轮。"
     }
   ],
   "pending_processes": [],
@@ -119,11 +124,11 @@
     "basis": "get_goal实时null，未新建运行Goal；固定文件Goal/基线及open宏观门保留。"
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-10-20-canonical-energy-prepush.json",
+  "checkpoint": "goals/checkpoints/2026-10-20-canonical-energy-remote-verified.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
-    "commit": "9ba5ce40ee5c57582c43651c10bef13692c428d9",
-    "basis": "远端main/commit独立GET核SHA/tree38cbce17/parent；15文件tree等于本地index，精确Git对象导入后HEAD=origin/main且clean。随后仅STATE/核验/checkpoint metadata子提交，不滚基线/计轮。"
+    "commit": "b6be8be3bb894286ed857a7e5c7253cdfac91b6e",
+    "basis": "远端main及commit独立GET核SHA/tree3a1810c8/parent；15文件tree等于本地index，精确Git对象导入后HEAD=origin/main且clean。随后仅核验metadata子提交，不滚基线/计轮。"
   },
   "completion_audit": {
     "goal": "goals/GOAL.20261014.md",
@@ -137,5 +142,5 @@
     "goals/goal-completion-receipt.20261014.json",
     "goals/goal-completion-receipt.20261014-continuation.json"
   ],
-  "process_inventory_observed_on": "三个当前原稿及final_reverse_565（含追加scope复核）已final，root逐篇读核；无数学/数值producer。当前只研究保存同步。"
+  "process_inventory_observed_on": "三个原稿及final_reverse_565（含追加scope复核）final且root消费；无数学/数值producer。研究b6be8be3本地远端同SHA且clean，当前只metadata核验。"
 }
