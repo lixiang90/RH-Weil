@@ -47,8 +47,8 @@
     "settled_iterations": [
       "notes/571-actual-receiver-two-boundary-signed-comparison-and-growth.md"
     ],
-    "stage": "571最终主/三稿/来源/freshPASS已root消费并统一结算5→6；cycle14六轮复盘完成一次归零，待检查点和GitHub同步。",
-    "next_action": "同步571/cycle14后，仅按cycle14一次准入实际bar b有限Euler receiver系数/原L²(t>0)域/finite-height费用；无净input即停，不预建C035，保actualsource/clipping成长缺口。",
+    "stage": "571研究已终审/root消费/统一结算，cycle14复盘一次归零；17文件研究远端main/tree/parent与本地精确对象一致且clean，随后仅同步收据metadata。",
+    "next_action": "仅按cycle14一次准入实际bar b有限Euler receiver系数/原L²(t>0)域/finite-height费用；无净input即停，不预建C035，保actualsource/clipping成长缺口。",
     "stop_rule": "一轮；无新signed实际受限像结论即止，不把任意低输入或旧upper代源费；保nonfinitecompact/Γrelative及成长修复。"
   },
   "support_contracts": [],
@@ -168,6 +168,11 @@
       "path": "reviews/2026-10-20/receiver-signed/root-consumption-scope.json",
       "kind": "cited",
       "scope": "最终主/三稿/来源/freshPASS及paid旧前件10版本root闭合；map/domain/norm/角色/量词/误差/符号/coverage/强旧，hash非证明。"
+    },
+    {
+      "path": "reviews/2026-10-20/receiver-signed/remote-sync-verification.json",
+      "kind": "cited",
+      "scope": "571/cycle14远端研究SHA/tree/parent与本地精确对象/clean已核；metadata子提交另核，Git同步非证明/不增轮。"
     }
   ],
   "pending_processes": [],
@@ -177,11 +182,11 @@
     "basis": "本轮get_goal=null；同文件Goal/冻结基线，未创建未请求运行Goal。"
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-10-20-receiver-signed-571-final.json",
+  "checkpoint": "goals/checkpoints/2026-10-20-receiver-signed-571-sync.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
-    "commit": "ebfdc176d42e59928d03578cd0fc30d76b0c2f3c",
-    "basis": "570研究17文件ebfdc176独立GET main/commit核SHA/tree0a74e047/parenta0e86be5；与本地index树同且精确对象导入HEAD=origin/main/clean。随后仅收据metadata子提交另核，0额外轮。"
+    "commit": "ca121c6f978e9cf6eaec09c6966bc52bb76dbaeb",
+    "basis": "571/cycle14研究17文件ca121c6f独立GET main/commit核SHA/treef693b614/parent866b266b；树等本地index，精确对象导入后HEAD=origin/main/clean。随后仅同步metadata子提交另核，0额外轮。"
   },
   "completion_audit": {
     "goal": "goals/GOAL.20261014.md",
@@ -195,5 +200,5 @@
     "goals/goal-completion-receipt.20261014.json",
     "goals/goal-completion-receipt.20261014-continuation.json"
   ],
-  "process_inventory_observed_on": "三个producer及fresh reviewer均final，最终LF全部root核对消费。无shell/numeric任务；PDF临时QA已清除，runtimeGoal本轮null。"
+  "process_inventory_observed_on": "三个producer及fresh reviewer均final，数学/宏观scope已root消费/结算/研究远端同步；无shell或numeric生产任务，只剩同步metadata。runtimeGoal本轮null。"
 }

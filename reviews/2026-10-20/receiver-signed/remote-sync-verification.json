@@ -1,0 +1,15 @@
+{
+  "schema": "rh-weil-remote-sync-verification-v1",
+  "repository": "https://github.com/lixiang90/RH-Weil",
+  "date": "2026-10-20",
+  "research_commit": "ca121c6f978e9cf6eaec09c6966bc52bb76dbaeb",
+  "tree": "f693b614deec2e9171f7415588b958f93226d873",
+  "parent": "866b266bff8d549b42a361e745ad7b29a8f5c227",
+  "research_file_count": 17,
+  "remote_verified_by": "Independent GET mainref and Gitcommit after leaseguarded fastforward; tree exactly equals staged localtree.",
+  "local_import": "Exact public Gitcommit bytes hashasserted beforewrite; expectedold heads/main and origin/main guarded; no checkout/reset, clean.",
+  "metadata_policy": "STATE/thisreceipt/synccheckpoint metadata child follows, independently verified; STATE references verified researchparent to avoid recursive selfreference.",
+  "new_research_iterations_from_sync": 0,
+  "macro_review": "cycle14 sixroundreview;571 countedone and existingcadence resetonce; no Goal completion.",
+  "mathematical_verification": "Fresh independentreview/rootpremiseclosure separate; Git identity nottheorem certification."
+}
