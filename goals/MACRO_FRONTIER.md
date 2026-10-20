@@ -2,11 +2,20 @@
 
 2026-10-20更新；完整Goal、唯一动作和现场观察以STATE为准。
 固定基线0c4f3a3eb609bb1d9564138fa4a35701f05605f2（全部≤538），同G20261014。
+最新[actual变分来源门](reviews/2026-10-20-actual-variational-sonin-transport-admission.md)已执行：
+P_M S_Tw原域、完整signed interval质量≤m^-2、clipping及actual/window两平方方向已闭合。
+D_var可写完整cross-tail投影能量；在固定安全|R|≥exp(16eL)层，旧560完整residual/coercive界
+连同ALL区间clipping已支付D_T、D_M、actualε统一o1及原du高频K_hi operator小费。
+572实际b权均值可参与但非此层必要输入；完整低频K/core/coupling/独立容量未付。
+此门保存直接强推论后停止，0数学轮，不建C036，不优化16/θ/γ；不是“一切D_var仍unknown”。
+当前没有已准入下一合同；新actual低频/Γrelative身份或global map＋独立预算到位才重准入。
+下面路线图及572结算中的“下一actual变分门”是已执行的历史指向，不得重复恢复。
+
 当前战略为[568–572后修订路线图](reviews/2026-10-20-generalized-weil-facilities-roadmap-after-572.md)。
 上版以来五轮及LS专题使非退化评价/Γ规范/cocycle/局部signed费用具体化，
 没有支付同一global section→jets的kernel/乘法、独立容量与完整mixed身份。
-不再把已完成的local载体/协同下降列作新主任务；actual分析支路只保一次明确变分运输来源门，
-若仅旧clipping直接推论＋unknown D_var就停，不预建C036。几何长期主责不因此降级，
+不再把已完成的local载体/协同下降列作新主任务；其唯一变分来源门现已按上文执行收口，
+没有把高频直接合成升级独立容量，不建C036。几何长期主责不因此降级，
 但真实O(D)候选须新的source map/独立费用证据才准入；Γ-relative/正heat亦须新同源输入。
 本次是用户战略回顾0数学轮，非正式cycle15，原cadence1保持；actual core/容量/strong-old4/5未变。
 

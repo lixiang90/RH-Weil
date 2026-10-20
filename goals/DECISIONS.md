@@ -884,3 +884,24 @@ heat-CM接口保563实偶/指数阶范围，一般Hermitian非偶另核；faithf
 strong-old542+555→557 whole4/5、独立global容量/actualSonin成长运输/core/coupling/Ξ均未改变。
 同G20261014与冻结0c4f；没有运行Goal实例，不创建未请求实例，不以路线图或push完成Goal。
 新globalmap+height预算，或保原norm并穿过实际source/core的全源signed输入，会推翻当前排序。
+
+## D20261020Q：执行actual变分门，保存旧资产高频强推论后停止
+
+用户按新路线图明确执行P_M S_Tw_R的原域/clipping/完整D_var及actual/原源运输。
+本次真算全部D/D*：每delay pair的bulk−left−right为单signed interval，绝对质量≤m^-2；
+ALL区间旧clipping可付原候选/完整Wz，实际残差差≤e_R(1+2M²/m²)。
+q_M=q_T−D_T+e_clip+D_M严格保两平方；只保变分lower不能当actual error upper。
+完整D_T=||Π_(BP_TH)B(H_+Dv+L_-D*u)||²，572实际b权receiver均值可以沿cross-tail进入，
+但不是所有θ>2e的完整费用已闭合。
+
+不能在粗condition界处误停为“一概unknown D_var”：固定安全16、γ=log4/(2L)，
+旧560完整residual/coercive界已有weightedD_T指数10−2d0、D_M指数14−2d0<0，d0=8log4−4>7。
+旧完整modelCγ指数≤11，小于8log4；故全部|R|≥exp(16eL)的actualε一致o1。
+原du高频压缩K_hi范数≤sup|ε|，无额外2π；完整低频K仍欠，不能推出全源小费/核心正性。
+此强高层推论甚至不需572均值，最强旧whole4/5也不改；改善弱子界不记新容量。
+
+按一次来源门交付直接合成与剩余责任后停止：0数学轮，不是573，不建C036、不续安全阈值或γ优化。
+没有新独立actual低频/source/Γrelative比较或真实global section→jets/kernel/乘法＋独立height/RR预算，
+不自动启动几何或另一paper的来源门。保nonfinitecompact/source-adapted/不同全逆合法修复。
+新同源全源signed输入或globalmap+capacity会改变排序；只要求Weil Gram PSD仍等价终点。
+同G20261014与0c4f基线、cadence1/正式cycle14保持，Goal数学门open，runtimeGoal null未新建。

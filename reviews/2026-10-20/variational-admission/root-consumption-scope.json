@@ -1,0 +1,86 @@
+{
+  "schema": "rh-weil-root-premise-closure-v1",
+  "status": "root-consumed final versions after fresh independent PASS",
+  "goal_epoch": "G20261014",
+  "baseline_commit": "0c4f3a3eb609bb1d9564138fa4a35701f05605f2",
+  "starting_git_head": "dd60cdad737767be74f3195be9034fdeb0f723f7",
+  "report": "goals/reviews/2026-10-20-actual-variational-sonin-transport-admission.md",
+  "independent_review": "reviews/2026-10-20/variational-admission/final-variational-review.md",
+  "premise_closure": [
+    {
+      "object": "Actual variational candidate and complete interval domain",
+      "domain_norm": "Original physical H=L2(R,dy), actual M=Ran P_M andwindow P_TH distinct. GM/GT inverses bounded ontheir ownranges. Originalsource du/zeroextension Dlog separate.",
+      "map_roles": "z=S_Tw_R withcompleteD/Dstar/twoboundaries, y=P_Mz inactualM; barek/w/receiver/source r neveridentified.",
+      "paid": "Allpaired delays cohertoone signed finiteinterval withphase exp(-iR(a-b)), absolutemass<=m^-2; Bz/Wz masses<=M/m2,M2/m2. Completeinfinite tails absolutely Bochnerconverge.",
+      "quantifiers": "EveryfiniteF andsufficientR withT=completeGamma(R); old532/560 clipping constants independentALLinterval positions/lengths/F.",
+      "errors": "Eclip=2e v/m2+2M2e v/m4+M2e2/m4, actual|b|2 retained. Cofinalfixedpositive theta clippingo1 independentof572mean.",
+      "direction": "Candidatevalidity/clipping is oldlemma corollary; itdoesnotalonecompare fullactual inverse ororiginalsource."
+    },
+    {
+      "object": "Two complete squares and actual/window residual transport",
+      "domain_norm": "rT=GTz-w inP_TH, rM=GMy-k inactualM, comparedinambientH; no PM/B commutation.",
+      "identity": "qM=qT-DT+eclip+DM=sT+delta_win-DT+eclip+DM, bothDT,DMnonnegative; exactrM-rT=(PM-PT)Wz+PMW(y-z)-(k-w).",
+      "paid": "h<=e(1+2M2/m2), DM<=m^-2(MsqrtDT+h)^2; all inversesfull andALLreturns.",
+      "direction": "DroppingpositiveDM onlygivesactual lower, notepsilonupper. Absolutecomparison requiresbothsquarefees. Modeldelta positivepartnotDT.",
+      "remaining": "Outsidepaidsafehighlayer noalltheta/cofinalglobal fee inferred."
+    },
+    {
+      "object": "Full D_var and actual pair energy",
+      "map": "v=L_-Dstar PTw, u=H_+D PTw, q=H_+Dv+L_-Dstaru; rT=PTWq.",
+      "identity": "DT=||Pi_(BPT H)Bq||2 <=M2tau(T)2(||v||2+||u||2), Pi=BPTGT^-1PTBstar trueorthogonalprojection.",
+      "paid": "Causal delay<=T crosswindowblockzero, complete tau=sum_logn>T n^-1/2; twoouter supports orthogonal, no arbitraryH lower substituted.",
+      "phase": "Cleanbarb v/bu requires K->(barb/b)K andfullJ_b inverse, Eadjointtransport preserved.",
+      "remaining": "572 actualweightedreceiver meancanenter thisformula, butalladditionaltau/conditionfeesmustbepaid; noalltheta2e deduction."
+    },
+    {
+      "object": "Safe cofinal highlayer, strongest-old closure",
+      "quantifiers": "F_L={p<exp2L}, ALL |R|>=exp(16expL), T=completeGamma(R), Llarge; gamma=log4/(2L), E=expL/L, d0=8log4-4>7.",
+      "paid": "OldmovingPNT/Abel giveslogM,logm^-1~E,logA_gamma~4E. Old560 exactresidual/coercive weightedDT exponent10-2d0, weightedDM14-2d0, weighteddelta7-d0 allnegative.",
+      "errors": "Allclippingcondition terms dominatedby R^-1/4. FullmodelC_gamma blocks exponents7,7,10,11; completeGamma exponent8log4>11. Nohiddenproperpower/pole deletion.",
+      "uniform_transport": "Texp(-gammaT),Texp(-2gammaT),sqrtT R^-1/4 decreasingbeyondstartingheight; negativefrequenciesoriginalrealstructure. Suphigh |epsilon_F_L|<=exp(-cE), somefixedc>0.",
+      "strong_old_net": "Safercoercive oldexactresidual alreadyenough; do notuseweakoperatorSboundasoldbaseline orclaim572mean necessary. Thisisexplicitcofinal directoldasset synthesis, notindependentnewcapacity orwholecoreimprovement."
+    },
+    {
+      "object": "Original source highfrequency error and incomplete fullnorm",
+      "domain_norm": "ALL r inoriginal L2(I,du); compactcomplex/Dlogrestrictionlegalasform. K_hi=1I Funitstar M_(1hi epsilon)Funit1I.",
+      "paid": "Operatornorm K_hi<=etahigh, unnormalizedFourierquadratic(1/(2pi))int_hi epsilon|rhat|2<=eta||r||du2; noextra2pi.",
+      "remaining": "Klow atall|R|<exp16expL stillunpaid; no Dlograngeinvarianceclaimed, Fourierpiecesnotassertedcompact. Heightmean alonecannotgivearbitrary |rhat|2-weightedsourcemultiplierbound.",
+      "complete_source": "FullGamma/contact, allproperpowers, bothpoleterms unchanged; physicalnorm/actual density/source norm rolespreserved."
+    },
+    {
+      "object": "Admission stop and macro consequence",
+      "paid": "Uniquevariationalgate actuallyexecuted andindependentlyreviewed; notonlyunknownDT, legitimatehighcorollarysaved.",
+      "stop": "Stopthreshold/tail/conditionoptimization afterthisgate, noC036/no573/noautomaticgeometryorpaperqueue.",
+      "remaining_inputs": "Newactual fullsource lowfrequency/Gammarelative/sourceadapted identityandfees, oractualglobalsection->jets map/kernel/multiplication withindependentlocalorder/globalheightRR budget andfullmixedidentity. UnknownGramPSD/capacity renamingnotinput.",
+      "strongest_old": "542 fullk/band+555 originalprime row ->557 issuedwhole negativeinertia upperbudgetlogB/expL->4/5 unchanged; notactualnegativelower. Dangerouscore/coupling/normalXi/globalcapacityunchanged.",
+      "settlement": "Zero mathematicaliterations, originalcadence1/formalcycle14unchanged, latestmath572. SameGoal/frozenbaseline; runtimeGoalabsentnotcreated; longgateopen/noteligible."
+    }
+  ],
+  "files": {
+    "goals/reviews/2026-10-20-actual-variational-sonin-transport-admission.md": "5841f47c22ef65272c842a69ffd83bc21046b0eea7c64ce5d7e2615f0f8a3615",
+    "reviews/2026-10-20/variational-admission/candidate-domain-and-clipping.md": "b829b359f15ba3976fbe6e92afdaeb26f192470b9a1ca62cefb08f32f15feb16",
+    "reviews/2026-10-20/variational-admission/full-defect-and-receiver-control.md": "c9a64851735c0ef3aa7b660ce4203e9f4d08504b81147faae58bfb712c42efdf",
+    "reviews/2026-10-20/variational-admission/actual-source-norm-and-sign-audit.md": "7248218fcaf6906032ba34eb69d344af7eca076565517173dc201a6d8e85bfaf",
+    "reviews/2026-10-20/variational-admission/final-variational-review.md": "62515cd458c6f695b8c1872f2bb916378ac9448e7298d45813dbb5bf3be4a074",
+    "notes/532-actual-sonin-prime-symbol-and-compact-weil-bridge.md": "dc9ff79c622ed692edfd393c2851e5cc7fcab0a7f5fe41cce82ba69b45a82f09",
+    "notes/560-joint-finite-place-sonin-primepower-cancellation-and-compact-weil-bridge.md": "9c2e6cd5a9eae269ad04b332699c21eec7403a230f9557afa8b895c45d4228d3",
+    "reviews/2026-10-14/joint-sonin-cross/full-inverse-carrier-error.md": "0db8a2f5acaf6ba4a4655b944f99b450e4af114e9480d4f661cb9e3a7da1c7c2",
+    "reviews/2026-10-14/joint-sonin-cross/general-finite-set-model-and-growth-fees.md": "84fbc4e4d254c247ac3f7d25c6de914c501900e11cf91c428be50a2a09c059da",
+    "reviews/2026-10-14/joint-sonin-cross/root-consumption-scope.json": "fcd3dce2a607e77e0a33f147394f2ef5df659d0a6c518476f1b4f729c6658ec8",
+    "notes/571-actual-receiver-two-boundary-signed-comparison-and-growth.md": "c7f0cf4712bdbb9429c4356c3974098b9c39b2eba4486b91c800fb7653cf109e",
+    "notes/572-finite-euler-receiver-coherent-tail-and-original-weighted-cost.md": "8c283c0af3c297b0a0c826cf8cd6db1924f8bad2327bff32a67951e442756ff6",
+    "reviews/2026-10-20/euler-receiver/root-consumption-scope.json": "273917a2db51f7582645e0b509c844ee316d16acbfd2956e1c9c0f086aea16b6",
+    "goals/reviews/2026-10-20-generalized-weil-facilities-roadmap-after-572.md": "df203e9a2d9e5b7e9e682063c6f5f3fad90d63156d12fa2334fa7b9e0f9b5f7d",
+    "notes/557-joint-row-norm-and-gamma-arithmetic-moment-budget.md": "5abfd13af9c955b27c5a2ea8f01d2555fa05b1df450adbedbcfe20f62d327166",
+    "goals/GOAL.20261014.md": "cc6046029a8e5c9fe4eae427dfd663f1d851666370637c8fd451042f340fee8b",
+    "goals/contracts/C035-finite-euler-weighted-receiver-and-coherent-tail.md": "c0c763ae878b1d76e2d82c90adebcbc3555fd7a0725ac71b2450f97fa85ba3b0"
+  },
+  "root_read_scope": "Root readcurrentrecovery/Goal/contract/strategy/frontier, threefinalproducerproofs andfreshreview; original560 fullsource/residual/fee andfullinverse/ALLinterval statements, 560 companion modelconstant sections,571 exactpair,557 strongscope. Additionaloldsource proofreads recordedbyfreshreview. No newexternalweb/PDF or numericalexperiment.",
+  "mathematical_iterations": 0,
+  "new_independent_global_capacity": false,
+  "macro_bottleneck_changed": false,
+  "admission_gate_executed": true,
+  "admission_gate_continues": false,
+  "goal_completion": "open",
+  "hashes_are_not_proofs": true
+}

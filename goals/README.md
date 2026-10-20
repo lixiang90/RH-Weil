@@ -5,7 +5,10 @@
 当前战略入口是[568–572后修订路线图](reviews/2026-10-20-generalized-weil-facilities-roadmap-after-572.md)：
 旧文献路线图以来五轮数学及LS专题已对照；评价非退化、Γ规范和cocycle不是未执行容量任务。
 长期主责为同一global sections→局部评价的kernel/乘法、独立容量与完整mixed预算；
-近期唯一来源门仍为572留下的actual变分候选/D_var，尚未执行。B/C备选须新map/身份/费用准入。
+该actual变分来源门已在[本次核查](reviews/2026-10-20-actual-variational-sonin-transport-admission.md)执行：
+候选原域/clipping、完整两平方及固定安全|R|≥exp(16eL)的actualε与原du高频部件可付；
+该高层旧560完整残差已足，572非必要，无独立容量/核心新输入。保存直接合成后停止，不建C036。
+B/C备选仍须新map/身份/费用准入，不自动串下一来源门。
 本次用户战略回顾0数学轮，原cadence保持1、正式cycle14不归零；宏观瓶颈及strong-old4/5未改。
 最新数学[572有限Euler原weighted费用](../notes/572-finite-euler-receiver-coherent-tail-and-original-weighted-cost.md)：
 实际barb乘真实receiver的coherent系数/半线域及完整diagonal O(L^4)已付；
@@ -60,11 +63,13 @@ dense非exact平均由既有BMS/Matveev实例付清，不假设uniform gap；同
 已完成一次实际卷积评价商、étale/jet和连续正反载体的容量差检验，停止扩参数。
 其后[C032](contracts/C032-dual-carrier-gamma-and-budget-cocycles.md)已实际执行2402.06671v2
 固定权／finite-part门并结算569；停止无额外parity/算术indicial map的直接Γ翻译。
-下一唯一数学来源动作是[新路线图§4](reviews/2026-10-20-generalized-weil-facilities-roadmap-after-572.md)保留的
-[572 actual变分来源准入](reviews/2026-10-20-euler-receiver-572-settlement.md)：
-核560§3–5 interval-carrier clipping在明确z_T=S_Tw_R、P_M z_T候选上的原域/cofinal费用，
-保actual G_M逆及window平方缺陷D_var=||G_T^-1/2(G_TS_T−I)w_R||²，不能用δ正部代它。
-若只旧clipping直接推论＋unknownD_var就入口停，不建C036，不续θ/c/β或modeltail参数。
+[新路线图§4](reviews/2026-10-20-generalized-weil-facilities-roadmap-after-572.md)指定的
+[572 actual变分来源门](reviews/2026-10-20-euler-receiver-572-settlement.md)现已执行，不能重复恢复为待做：
+全S_T每delay pair合并单signed interval质量≤m^-2，完整D_T/D_M与clipping的实际方向已核；
+旧560精确残差给安全高层uniformactualε=o1，完整Γ/pp/poles保留；原du只付K_hi，不付全部K。
+按本次核查保存directcorollary后停，不续16/θ/c/β/γ，不把较弱子费改善记新whole后果。
+下一只有具体actual低频/Γrelative/source-adapted新身份，或global source→sections/kernel/乘法＋独立容量
+到位后才重新准入；当前无新合同或运行中的后续来源门。
 cycle14的finiteEuler来源门现已在572执行闭合，不能重复当未执行next。
 评价det／截面容量为几何主责，但新map须先通过旧f/物理r坐标下的relation/nonroot双测试，
 C031–C035的构造/反测已结算；不建未知上同调合同、不重复已停参数／来源链，单cadence为1，cycle14未重置。
