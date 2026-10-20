@@ -1,0 +1,14 @@
+{
+  "schema": "rh-weil-remote-sync-verification-v1",
+  "repository": "https://github.com/lixiang90/RH-Weil",
+  "date": "2026-10-20",
+  "research_commit": "5f25210d6a93530cf8600ec5702572135e3f6cd4",
+  "tree": "95933d2373a7baea8c8978bbf3834d3f39b37f38",
+  "parent": "db96168183011b04bc3460090cb117bf7911135e",
+  "research_file_count": 16,
+  "remote_verified_by": "IndependentGET mainref/Gitcommit afterleaseguardedfastforward; treeexactlyequalslocalstagedtree.",
+  "local_import": "ExactpublicGitcommitbytes SHAassertedbeforewrite; guardedoldHEAD/origin; noreset/checkout; clean.",
+  "metadata_policy": "STATE/thisreceipt/synccheckpoint metadatachildfollows andis independentlyverified; STATE intentionallyreferencesverifiedresearchparent, noinfiniterecursivereceipts.",
+  "new_research_iterations_from_sync": 0,
+  "mathematical_verification": "Freshreview/rootpremiseclosure separatelysaved; Gitidentitynotproof.572countedonce0->1, cycle14unchanged, Goalopen."
+}

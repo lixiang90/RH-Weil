@@ -48,8 +48,8 @@
     "settled_iterations": [
       "notes/572-finite-euler-receiver-coherent-tail-and-original-weighted-cost.md"
     ],
-    "stage": "572最终主/三稿/来源/freshPASS已root消费并统一结算0→1；入口/前沿及下一actual变分源门已保存，待检查点/GitHub同步。",
-    "next_action": "同步572后，仅按结算一次核560interval clipping在P_M S_Tw_R实际变分候选的原域/cofinal费及完整D_var；只旧corollary+unknown缺陷即停，不建C036，不续model参数。",
+    "stage": "572已终审/root消费/统一结算0→1；16文件研究远端main/tree/parent与本地精确对象一致且clean，随后仅同步收据metadata。",
+    "next_action": "仅按572结算一次核560interval clipping在P_M S_Tw_R实际变分候选的原域/cofinal费及完整D_var；只旧corollary+unknown缺陷即停，不建C036，不续model参数。",
     "stop_rule": "一轮；无fulltail净费即止；高频闭合后也不调θ/c/β/幂次，不把certificate阈值代actuallower，保actualSonin/source成长缺口。"
   },
   "support_contracts": [],
@@ -165,6 +165,11 @@
       "path": "reviews/2026-10-20/euler-receiver/root-consumption-scope.json",
       "kind": "cited",
       "scope": "最终主/三稿/来源/freshPASS及继承前件10版本root闭合；map/norm/domain/角色/全部tail/量词/误差/符号/coverage/强旧，hash非证明。"
+    },
+    {
+      "path": "reviews/2026-10-20/euler-receiver/remote-sync-verification.json",
+      "kind": "cited",
+      "scope": "572研究远端SHA/tree/parent与本地精确对象/clean已核；metadata子提交另核，Git同步不认证证明/不增轮。"
     }
   ],
   "pending_processes": [],
@@ -174,11 +179,11 @@
     "basis": "本轮get_goal=null；保文件Goal/冻结基线，未建未请求运行实例。"
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-10-20-euler-receiver-572.json",
+  "checkpoint": "goals/checkpoints/2026-10-20-euler-receiver-572-sync.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
-    "commit": "ca121c6f978e9cf6eaec09c6966bc52bb76dbaeb",
-    "basis": "571/cycle14研究17文件ca121c6f独立GET main/commit核SHA/treef693b614/parent866b266b；树等本地index，精确对象导入后HEAD=origin/main/clean。随后仅同步metadata子提交另核，0额外轮。"
+    "commit": "5f25210d6a93530cf8600ec5702572135e3f6cd4",
+    "basis": "572研究16文件5f25210d独立GET main/commit核SHA/tree95933d23/parentdb961681；树等本地index，精确对象导入后HEAD=origin/main/clean。随后仅同步metadata子提交另核，0额外轮。"
   },
   "completion_audit": {
     "goal": "goals/GOAL.20261014.md",
@@ -192,5 +197,5 @@
     "goals/goal-completion-receipt.20261014.json",
     "goals/goal-completion-receipt.20261014-continuation.json"
   ],
-  "process_inventory_observed_on": "三producer与fresh reviewer均final；10最终版本已root核对消费。无shell/numeric/下载后台；runtimeGoal本轮null。"
+  "process_inventory_observed_on": "三producer及freshreview均final，数学/结算scope已root消费/统一一轮/研究远端同步；无shell或numeric生产任务，仅余同步metadata。runtimeGoal本轮null。"
 }
