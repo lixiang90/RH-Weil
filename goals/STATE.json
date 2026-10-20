@@ -148,6 +148,11 @@
       "path": "reviews/2026-10-20/grh-geometric-origin/root-consumption-scope.json",
       "kind": "cited",
       "scope": "两最终原稿/主稿/073语义修复及独立PASS版本绑定；对象/domain/source/allpowers/符号/coverage/误差/强旧root闭合，hash非证明。"
+    },
+    {
+      "path": "reviews/2026-10-20/grh-geometric-origin/remote-sync-verification.json",
+      "kind": "cited",
+      "scope": "567研究提交20c74f4e的远端main/tree/parent与本地同SHA/clean已核；随后metadata子提交另核。同步非数学证明/新轮。"
     }
   ],
   "pending_processes": [],
@@ -157,11 +162,11 @@
     "basis": "本轮恢复与结算前get_goal均null；未建未请求runtime Goal，同文件Goal/固定基线与open宏观门保持。"
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-10-20-function-field-origin-567.json",
+  "checkpoint": "goals/checkpoints/2026-10-20-function-field-origin-567-sync.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
-    "commit": "9fdb6886cacd5e6b5a599d60ebf0018c919ee2cb",
-    "basis": "远端main/commit独立GET核SHA/tree5d87f997/parent；14文件tree等于本地index，精确Git对象导入后HEAD=origin/main且clean。随后仅核验metadata子提交，不滚基线/计轮。"
+    "commit": "20c74f4eb6ee5cf7d455caf864923199026998d5",
+    "basis": "567研究14文件提交已独立GET main/commit核SHA/tree19fa28d8/parent3c9ee2f3；tree等本地index，精确对象导入后HEAD=origin/main且clean。随后仅metadata子提交另核，不计轮/滚基线。"
   },
   "completion_audit": {
     "goal": "goals/GOAL.20261014.md",
@@ -175,5 +180,5 @@
     "goals/goal-completion-receipt.20261014.json",
     "goals/goal-completion-receipt.20261014-continuation.json"
   ],
-  "process_inventory_observed_on": "两原稿及终逆审代理均final并root消费；无pending数学/数值/shell producer；待保存并同步本轮。"
+  "process_inventory_observed_on": "两原稿与独立终审均final且root消费；研究20c74f4e已同步并核本地clean，无数学/数值/shell producer。仅保存核验metadata及新checkpoint。"
 }

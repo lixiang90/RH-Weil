@@ -1,0 +1,12 @@
+{
+  "schema": "rh-weil-remote-sync-verification-v1",
+  "research_commit": "20c74f4eb6ee5cf7d455caf864923199026998d5",
+  "tree": "19fa28d88908e6c3ccd3365651796572e4da7370",
+  "parent": "3c9ee2f3aaf66bc6f1d297ecfea2bedcbb4169ee",
+  "repository": "https://github.com/lixiang90/RH-Weil",
+  "remote_main_observed": "20c74f4eb6ee5cf7d455caf864923199026998d5",
+  "verification": "GitHub ref and commit fetched independently after non-force expected-parent update; remote tree equals staged local tree; exact Git object SHA reconstituted and imported; local HEAD=origin/main, clean.",
+  "files": 14,
+  "mathematics": "Independent PASS and root premise closure are separate evidence. Git synchronization and metadata child add zero iterations.",
+  "metadata_followup": "STATE and an immutable sync checkpoint will refer to this verified research commit; the subsequent metadata-only child is live-verified separately."
+}
