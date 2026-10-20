@@ -1,0 +1,11 @@
+{
+  "schema": "dual-gamma-root-analytic-checks-v1",
+  "scope": "symbolic finite algebra only; integral/FP/all-source proofs in569 and independent review",
+  "difference_series": "1/4 + v/16 - v**2/32 - 7*v**3/768 + O(v**4)",
+  "difference_value_at0": "1/4",
+  "right_derivative_at0": "1/16",
+  "even_jet_projection": "(x/(1-x^2)+x/(1+x^2))/2=x/(1-x^4)",
+  "L1_mass": "psi(1/2)-psi(1/4)=pi/2+log2",
+  "Fourier_tail": "-1/(8 xi^2)+O(xi^-4), proof by half-line integration by parts",
+  "counterterm": "-EulerGamma-log(2*pi), physical log cutoff"
+}

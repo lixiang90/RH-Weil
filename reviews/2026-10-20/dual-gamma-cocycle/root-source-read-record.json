@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-20",
+  "reader": "root",
+  "primary": [
+    {
+      "url": "https://arxiv.org/pdf/math/9902080v1",
+      "scope": "Sections H-I, printed pp19-22, real trivial/sign gamma phase and log derivative; local Fourier/Haar input, no new global positivity theorem"
+    },
+    {
+      "url": "https://arxiv.org/pdf/math/9811040v2",
+      "scope": "real multiplicative dual components and conductor spectral statement; use9902080 exact formulas for conventions"
+    },
+    {
+      "url": "https://arxiv.org/pdf/2402.06671v2",
+      "scope": "Introduction1.3.6, fixed jet actions and matched sections listed in producer source record; no full176-page proof recheck"
+    },
+    {
+      "url": "https://doi.org/10.1515/crll.1981.323.139",
+      "scope": "publisher metadata; inaccessible original formula not a paid premise"
+    }
+  ],
+  "derivations": "Common-character/even uniqueness, UV/IR mismatch, exact digamma mass, Fourier tail and cocycle formulas calculated directly; root symbolic checks bind finite algebra only."
+}

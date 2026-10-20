@@ -2,11 +2,22 @@
 
 2026-10-20更新；完整Goal、唯一动作和现场观察以STATE为准。
 固定基线0c4f3a3eb609bb1d9564138fa4a35701f05605f2（全部≤538），同G20261014。
-用户最新优先[C031评价载体固定检验](contracts/C031-source-evaluation-carriers-and-capacity-tests.md)：
+用户最新[C032双载体Γ与cocycle](contracts/C032-dual-carrier-gamma-and-budget-cocycles.md)
+完成[569](../notes/569-dual-carrier-gamma-normalization-and-budget-cocycles.md)一次固定核/范数/全mixed检验。
+single all-k共同character类严格不匹配real Γ；额外normal even-parity可匹配shape，
+真实反射/sector/Euler系数/负号/重数/全局延伸仍欠，保多leaf/系数/奇异几何合法逃逸。
+同physical-log FP有完整contact，归已有Tate/Fourier/Haar来源；κ2修复D的L1 norm为π/2+log2，
+但Fourier变号，不代有利signed比较。真实b-trace defect须同算术indicial map才付全源身份。
+实1-cocycle及全纯phase2-cocycle已实现matched修复；continuous compact与FF全period关系正反都通过。
+指数metric纤维正不代Q≥0；固定potential曲率半正仍是Weil等价。独立section/kernel/RR容量未付。
+[结算](reviews/2026-10-20-dual-gamma-cocycle-569-settlement.md)及root范围保精确依赖，actual4/5/core未改。
+下一只恢复560既有actual mixed准入，停止再调κ/δ/未知detline来源；不预建C033。
+
+前一[C031评价载体固定检验](contracts/C031-source-evaluation-carriers-and-capacity-tests.md)：
 W卷积商、q5实际étale/jet、continuous正反star代数与classic原norm评价费用已终审/root消费。
 [568](../notes/568-source-evaluation-carriers-local-jets-and-weil-capacity-gap.md)统一结算一轮，
 具体因果范围见[结算](reviews/2026-10-20-evaluation-carrier-568-settlement.md)及其root收据。
-原Γ章节来源门本轮未执行，现恢复为唯一下一门；不从历史段覆盖STATE。
+其原Γ章节门现已在569执行收口，不从下文历史段恢复重复执行；唯一next见STATE。
 最新[Landau–Siegel专题](reviews/2026-10-20-landau-siegel-determinant-and-weil-facilities.md)
 核三页Wronskian/非零integer minor、same-D有限位整除、全嵌入高度及uniform real-zero推论；
 外部新输入真实，但只支付特定χ的scalar prime profile，不支付全Weil mixed方向/Γ source身份。
@@ -210,6 +221,7 @@ cofinal真实m||H_TDP_-||在T≤(2−ε)eL趋1，但输入非M/k_R/actualreceive
 | 565/C028规范／energy | 一次局部selector及可识别性固定门结束；标准CG来源不重计新机制 | 需新同源正闭形式/完整heat identity或actualsigned费；无input不续canonical/H/CM标签 |
 | 566/C029源闭形式 | 一次unitary bundle热lift与经典具体准入测试结束；不调图长拟合/Weyl参数 | 新actual全source trace公式、独立极化/signed费才重准入；更多unknownK/CM不算input |
 | 567/C030对应/568/C031评价 | fullΠ formal graph及真实local carrier均有正反测试；各一轮止，不扩参数 | 同一global source/kernel/capacity与全部Γ/pp/pole预算身份；signed商或allGramPSD不是新正性 |
+| 569/C032双载体Γ/cocycle | all-k共同权门收口；有费修复及matched phase真实，一轮止 | 真实parity/算术indicial source或global det sections/RR；纤维正/曲率等价不作新输入 |
 | 比例/无零区域 | 用户要求暂停 | 仅用户明确恢复，不因调用经典输入而重启优化 |
 
 ## 恢复的六项短答案

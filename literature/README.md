@@ -1,5 +1,13 @@
 # RH-Weil 文献索引
 
+2026-10-20双载体规范与预算协同见[569](../notes/569-dual-carrier-gamma-normalization-and-budget-cocycles.md)：
+实际核ALKL2402.06671v2的固定normal/dual权、原版p7及pp46–48的b有限部分/trace-defect；
+single all-k共同character门严格不匹配real Γ，normal parity是额外合法修复，非原文已付global结构。
+完整Γ contact由DLMF/Burnol标准实位数据校准，L1修复费π/2+log2保signed变号；
+实/全纯budget cocycle与真正determinant complex区分，Stacks有限det构造及曲线RR保准确归属。
+[三原稿/来源记录](../reviews/2026-10-20/dual-gamma-cocycle/)保阅读范围和未付Barner精确公式；
+原PDF与QA图只作临时阅读且已清除，不增加永久PDF清点，不把局部Γ身份认成Weil正性。
+
 2026-10-20评价行列式具体检验见[568](../notes/568-source-evaluation-carriers-local-jets-and-weil-capacity-gap.md)：
 source convolution评价商、真实finite étale/jet与continuous正反载体分别构造；
 局部非退化不代global capacity，classic完整Γ/pp/pole及原Dlog评价费用逐项核。
