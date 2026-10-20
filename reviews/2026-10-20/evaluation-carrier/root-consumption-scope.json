@@ -1,0 +1,90 @@
+{
+  "schema": "rh-weil-root-premise-closure-v1",
+  "contract": "C031",
+  "status": "root-consumed final versions after independent PASS and final binding reconfirmation",
+  "goal_epoch": "G20261014",
+  "baseline_commit": "0c4f3a3eb609bb1d9564138fa4a35701f05605f2",
+  "objects": [
+    {
+      "object": "source convolution evaluation carrier",
+      "domain": "real-even full distribution W on complex D=Cc-infinity(R); S_exp extension only after finite exponential-order growth",
+      "map": "J_W:r -> W*r in C-infinity; D/kerJ identified as vector space with image, quotient topology not asserted equal to image topology",
+      "roles": "kerJ is full-Q pairing radical, not old405 B radical; convolution multiplication is not pointwise multiplication or a global section ring",
+      "norm_sign": "Hausdorff locally convex signed Hermitian quotient, no canonical positive Hilbert/Krein completion",
+      "quantifiers": "all compact complex source pairs; all real points and nonnegative derivative orders; every finite-dimensional subspace has some nonzero evaluation minor",
+      "source_paid": "completion, prescribed weights, dual and full contact/poles are input; general nonselfdual pairs do not automatically give this real-even target",
+      "errors": "0 in pairing and radical identities",
+      "direction": "nondegenerate pairing/evaluation minor independent of zeros, no Gram PSD or integer-divisibility conclusion",
+      "coverage": "all point probes separate J image; no principal gluing, global multiplication, local Frobenius reduction or independent capacity",
+      "old_net": "standard radical quotient instantiated on actual sources; identity and nondegeneracy are not a new positive input"
+    },
+    {
+      "object": "continuous full-source jet and capacity tests",
+      "domain": "562 positive primitive/full Pi/M family 0<c<=1/2, d=c-1/4; all compact complex r; fixed d=+/-1/16,0 and physical evaluation at0,1",
+      "map": "ODE solution space span(C_d,S_d) and jet algebra C[D]/(D^2+d), D*=-D, regular trace tau(a+bD)=2a",
+      "roles": "solution jets, trace radical, minimal Weil quotient and trace multiplicity are distinct; threshold nilpotent direction may be invisible",
+      "norm_sign": "Q=2|A_r|^2+2d|B_r|^2; evaldet=S_d(1)>=23/24 while Gramdet=4d S_d(1)^2",
+      "quantifiers": "uniform exponential disk bound across full family; actual compact-bump source tests; Wick transport only rotated complex points, not physical real star",
+      "source_paid": "all prime powers and two poles, Gamma=0 as prescribed in these models; old563 energy and purity threshold deducted",
+      "errors": "0 exact ODE/trace/evaluation identities; finite rational metric checks do not substitute whole-family proof",
+      "direction": "true nonzero evaluation and finite jet capacity shared by positive/negative sources; replacing metric by absolute value changes target",
+      "coverage": "rejects only stated shortcuts; literal half-line Hankel positivity also wrongly excludes positive cosine model; other reflection or real joint conditions retained",
+      "old_net": "new actual evaluation/capacity countertests, not new continuous RH threshold or actual zeta input"
+    },
+    {
+      "object": "function-field local carriers versus primitive source",
+      "domain": "all positive integral closed-point counts b_d; every finite B; explicit q5 curve and290 countermodel B4 table",
+      "map": "R_B=product finite residue fields; local truncated jets with top-coefficient field-trace pairing; separate complex point set with raw permutation V_B",
+      "roles": "finite-field perfect form and complex positive counting form are not scalar transports; raw weight0 points are not weight1 primitive H1",
+      "norm_sign": "both models have perfect jets and positive raw unitary metric; primitive Gram determinants 11/5 and -1; recurrence trace form determinants11 and-5",
+      "quantifiers": "all B local constructions, exact Tr V_B^n=N_n for n<=B; all-degree b positivity inherited290/563; fixed-n stabilization not infinite ordinary trace",
+      "source_paid": "a_n=q^(n/2)+q^(-n/2)-q^(-n/2)TrV_B^n and a0=2g; full primitive source is a signed subtraction",
+      "errors": "0 in finite tables and local identities; formal parameter/differential/gluing not determined by counts; Frobenius t->t^q not an invertible jet lift",
+      "direction": "local carriers stronger than formal graph still fail to force primitive positivity; recurrence algebra positivity equivalent to finite-class purity",
+      "coverage": "actual curve separately supplies diagonal function field, evaluation kernel H0(D-E), RR and square geometry; these are not reconstructed from b_d",
+      "old_net": "567 full Gram/RR and563 curve purity deducted; new local-carrier insufficiency tested on same complete sources"
+    },
+    {
+      "object": "classical canonical full-source evaluation and norm costs",
+      "domain": "canonical classic zeta; complex compact sources on each fixed I=(-L,L), original du zero-extension Dlog norm; R->infinity after I fixed",
+      "map": "full convolution formula(13) with Gamma contact and second differences, all p^k shifts logp/p^(k/2), and both exponential pole moments",
+      "roles": "J is same signed source, not independent positive geometry; finite-dimensional image excluded directly by log2 atom, old563 obstruction deducted",
+      "norm_sign": "Dlog modulation norm squared=logR||phi||^2+O1; kth point derivative=(iR)^k phi(0)logR+O(R^k); Q on same modulation is positive at high frequency",
+      "quantifiers": "all fixed-window smooth complex sources; all nonnegative k; S_exp formulas only after absolute convergence; no support-growth estimate asserted",
+      "source_paid": "Gamma0=psi(1/4)-logpi, w=2exp(-v/2)/(1-exp(-2v)); near-zero O(v^2) second difference; all powers, both poles and prescribed finite part retained",
+      "errors": "fixed-window prime contribution O(R^k), all pole moments rapidly decreasing; no terms silently removed",
+      "direction": "this J's point/jet readout unbounded in original L2/Dlog; not negative Weil inertia or failure of all carriers",
+      "coverage": "fixed smooth probes bounded and separate full image, shrinking-probe norm costs epsilon^-1 log(1/epsilon); stronger Hs, nonlocal/relative or norm-adapted repairs remain legal",
+      "old_net": "specific same-source map costs clarified, not whole-budget improvement; old552 analogous frequency costs deducted"
+    },
+    {
+      "object": "relations, pole budget transport and positivity dictionary",
+      "domain": "405 noncompact h,p in physical A_exp=e^(u/2)S_exp=S_exp and V_exp; compact quotient only naturally linearly injects; real scalar t in pole test",
+      "map": "Qphysical=T; I in radT, I intersect radB=P_an; J_Q kills physical I without changing old B or declaring I all the radical",
+      "roles": "nonroot r0 remains visible via old537 Q>0; full-Q zero h has pole1/8 and arch-prime-1/8; contact-only perturbation detected by nonzero relation p",
+      "norm_sign": "opposite fragments cannot descend separately without compensation; matched cocycles/determinant lines/degree extensions retained, including old405 legal repair",
+      "quantifiers": "all real multiples of fixed h; fixed other source terms for contact uniqueness; all mollifiers/all finite complex Gram PSD iff full compact Q>=0",
+      "source_paid": "whole Gamma/pp/poles/contact and old405 identities required; no general B(s) gauge uniqueness claimed",
+      "errors": "0; draft compact/S_exp and topological-embedding overreach corrected before consumption and independently rechecked",
+      "direction": "definition-level pairing, recurrence trace positivity and all-smoothed-Gram PSD do not pay independent sign input",
+      "coverage": "local lower <= log|det| <= global upper needs actual multiplicative source, independent capacity and normalized all-mixed full-source identity with controlled errors; all remain unpaid",
+      "old_net": "new map/role audit, no classic full positivity and no global section construction"
+    }
+  ],
+  "files": {
+    "notes/568-source-evaluation-carriers-local-jets-and-weil-capacity-gap.md": "f71ab11661107f5fe0d294ac671421b7aaef0f8860f87c238d8fbe1a15554a4a",
+    "goals/contracts/C031-source-evaluation-carriers-and-capacity-tests.md": "a8f218059add8f4d8aed18b4686076fd985b69522f26dad2750f1f9119c00850",
+    "reviews/2026-10-20/evaluation-carrier/classic-full-source-and-evaluation-audit.md": "b6cdeaf86818ac822025b15b71818eb65f2db230ca7e47786d98f1a8278cc116",
+    "reviews/2026-10-20/evaluation-carrier/continuous-carrier-and-budget-tests.md": "28571c625801e986746db8c52c6ba218c7db049dc8756297042e7922dc774096",
+    "reviews/2026-10-20/evaluation-carrier/final-568-review.md": "535555da56cc4850e38e92f3563181c11a68509c1c5d8bcd0db8d293b05f222a",
+    "reviews/2026-10-20/evaluation-carrier/function-field-evaluation-budget.md": "a16efa3d6201754ce4d8aa1b8dc7152eb6f14d981b4265de4d6dec4ce672d91e",
+    "reviews/2026-10-20/evaluation-carrier/exact-algebra-checks.json": "3d2e567ec07b298c080ab51203eb2c09ab72bb80a4737c6f5e9c8501577e84bd"
+  },
+  "review_binding": "final-568-review.md section8 matches actual normalized-LF files; reviewer reconfirmed after stale hashes in an earlier message, no file changes",
+  "source_scope": "Stacks00U3/0BJF and DLMF5.11.E2 read; Constantinescu-Gheondea abstract only for majorant responsibility; unavailable AMS1964 original not a paid dependency; finite-image argument proved directly",
+  "new_independent_actual_zeta_input": false,
+  "actual_bottleneck_changed": false,
+  "strongest_old_chain": "542+555->557 whole leading4/5;560 each fixedL positive ordinary trace minus signed compact K plus both poles; growing K/sign/core/coupling/Xi unpaid",
+  "settlement": "568 one unified research iteration; producer drafts, sources, checks, independent review and synchronization add zero",
+  "pending": []
+}

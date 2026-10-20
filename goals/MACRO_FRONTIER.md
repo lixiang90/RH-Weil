@@ -2,6 +2,11 @@
 
 2026-10-20更新；完整Goal、唯一动作和现场观察以STATE为准。
 固定基线0c4f3a3eb609bb1d9564138fa4a35701f05605f2（全部≤538），同G20261014。
+用户最新优先[C031评价载体固定检验](contracts/C031-source-evaluation-carriers-and-capacity-tests.md)：
+W卷积商、q5实际étale/jet、continuous正反star代数与classic原norm评价费用已终审/root消费。
+[568](../notes/568-source-evaluation-carriers-local-jets-and-weil-capacity-gap.md)统一结算一轮，
+具体因果范围见[结算](reviews/2026-10-20-evaluation-carrier-568-settlement.md)及其root收据。
+原Γ章节来源门本轮未执行，现恢复为唯一下一门；不从历史段覆盖STATE。
 最新[Landau–Siegel专题](reviews/2026-10-20-landau-siegel-determinant-and-weil-facilities.md)
 核三页Wronskian/非零integer minor、same-D有限位整除、全嵌入高度及uniform real-zero推论；
 外部新输入真实，但只支付特定χ的scalar prime profile，不支付全Weil mixed方向/Γ source身份。
@@ -22,6 +27,20 @@ CC2018 §3.4现已准确来源0收口：交叉正规化／平方RR／截面存�
 不能手选半轴twist或cδ0，未闭合即停翻译并回560 actualsigned，不预建新数学合同。
 
 ## 因果链和消费范围
+
+568已实际构造J_W、Q根商和finite-subspace非零评价minor；配对可不定、乘法是卷积，
+不支付global sections、Frobenius整除或独立容量。continuous固定0/1评价det正反均非零，
+而完整Gram符号相反；函数域真/反模型均有perfect local jets及正raw置换，但primitive差失正。
+原点jet/holomorphic容量若忘real *不足；literal Hankel甚至排真正例，保其他reflection修复。
+经典同源J保Γ/contact/全部pp/双pole；fixed窗point/jet对原Dlog费用无界，fixed smooth probes合法。
+405 h/p关系须在physical S_exp扩张商测试；compact商只线性注入，不免费拓扑等价。
+完整Q零类上pole与arch−prime各±1/8，拒无补偿分别下降，保matched cocycle/det line/degree扩张。
+仅contact校准不排全部B(s)。所有平滑评价Gram PSD仍等价原Weil正性，非独立输入。
+真正未付是同一global source→jets的kernel/乘法/次数、独立capacity及完整mixed预算身份/误差。
+strong-old542+555→557 leading4/5、560 growing K/core/coupling/Ξ未改，宏观完成门open。
+C031一轮后停，不增B/jet/参数；下一Γ门须固定两carrier、两半轴权与finite-part/contact，
+与Burnol/563完整Γ同duality比较。只有手调twist/cδ0则停翻译回560 actualreceiver signed准入。
+实际global map、独立collision/RR预算或保全源有利signed新估计会推翻此选择；未知容量标签不算。
 
 本次专题审查0数学轮：Weil1941/MT/Groth的有效对应／评价det／限制映射与RR是可移植前端；
 Connes/F₁真实site平方、局部RR及2026模层提供候选对象但非global正极化；
@@ -190,6 +209,7 @@ cofinal真实m||H_TDP_-||在T≤(2−ε)eL趋1，但输入非M/k_R/actualreceive
 | 564/C027对偶纯性 | positive kernel规范反测试与不同权positive pair统一一轮；不扩参数族/后验拆权 | 新独立canonical完整正极化／faithful算术身份才晋级，不把duality或known gauge归约改名成actual input |
 | 565/C028规范／energy | 一次局部selector及可识别性固定门结束；标准CG来源不重计新机制 | 需新同源正闭形式/完整heat identity或actualsigned费；无input不续canonical/H/CM标签 |
 | 566/C029源闭形式 | 一次unitary bundle热lift与经典具体准入测试结束；不调图长拟合/Weyl参数 | 新actual全source trace公式、独立极化/signed费才重准入；更多unknownK/CM不算input |
+| 567/C030对应/568/C031评价 | fullΠ formal graph及真实local carrier均有正反测试；各一轮止，不扩参数 | 同一global source/kernel/capacity与全部Γ/pp/pole预算身份；signed商或allGramPSD不是新正性 |
 | 比例/无零区域 | 用户要求暂停 | 仅用户明确恢复，不因调用经典输入而重启优化 |
 
 ## 恢复的六项短答案

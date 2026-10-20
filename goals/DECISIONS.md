@@ -774,3 +774,24 @@ fixed-leaf核的两侧权、finite-part/contact尚未与canonical Γ闭合。下
 门已有实际公式可判，故专题结束后恢复该唯一来源门；若手调权/contact才闭即停翻译回560actualsigned。
 same-ζ不同globalring仅否唯一重建，不否纯分析证明；continuous正段不必有literal整数格，
 函数域须重付charp/separable jet。actual4/5/成长K/core/coupling/Ξ与宏观完成门未改。
+
+## D20261020K：用户优先评价路线，准入具体源载体与容量反测试一轮
+
+用户明确继续数学研究并要求先函数域/连续、后classic完整源，覆盖原Γ来源门的执行优先级。
+C031冻结q5 B4真曲线/290反例、continuous d=±1/16/0和h=1、classic fixed窗modulation测试。
+具体输入是全W卷积商、真实étale/jet代数和源侧二阶ODE；三独占稿执行，不预设未知positive H。
+准入信息差：实际nondegenerate carrier是否已比formal graph强、哪些local设施仍不付global容量，
+以及同一J_W point/jet的physical Dlog费用。563纯性/567 Gram/finiteODE排除保旧归属。
+统一一轮止，待终审/root消费后原cadence结算一次；非carrier出稿/工具/来源数另计。
+若只有定义型signed identity而无独立容量，明确止损，不续toy参数或unknown det存在；
+原Γ双carrier/finite-part门作为有具体公式的备选保留，未在本轮执行。
+
+终审/root消费后结算：568统一一轮，原cadence2→3，formal cycle13保持。
+signed卷积商/非零minor可独立构造；continuous正反共享jet容量，真实finite étale/jet及raw正Frob
+同样不能支付函数域primitive signed差，所需global gluing/RR仍未得。
+经典完整J保全部Γ/pp/poles，通过正确S_exp域的关系/非根测试；point/jet原Dlog费用真实，
+smooth probes/强norm修复保留。fullQ零类的±1/8分片只否无补偿分别下降，保det line/cocycle。
+这些是实际构造/反测与费用，不是classic独立正性或whole4/5改善，actual瓶颈未变。
+C031停止扩参数/未知容量合同；恢复2402.06671v2 §§1.3.6/5.8/6.7固定双carrier/finite-part
+对Burnol/563完整Γ的唯一来源门。若只能手调半轴权/contact则停翻译回560 actualreceiver signed。
+只有实际global section→jets、独立collision/RR预算或保全源有利signed新费才能改变此选择。

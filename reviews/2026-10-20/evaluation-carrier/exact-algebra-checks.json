@@ -1,0 +1,90 @@
+{
+  "schema": "rh-weil-evaluation-carrier-exact-check-v1",
+  "arithmetic": "Python integers/Fraction; no zero locations, floating point or extrapolation",
+  "function_field_tables": [
+    {
+      "name": "curve",
+      "q": 5,
+      "trace_parameter": -3,
+      "N": [
+        9,
+        27,
+        108,
+        675
+      ],
+      "closed_points": [
+        9,
+        9,
+        33,
+        162
+      ],
+      "raw_dimensions": [
+        9,
+        27,
+        126,
+        774
+      ],
+      "primitive_2x2_determinant": "11/5"
+    },
+    {
+      "name": "countermodel290",
+      "q": 5,
+      "trace_parameter": 5,
+      "N": [
+        1,
+        11,
+        76,
+        451
+      ],
+      "closed_points": [
+        1,
+        5,
+        25,
+        110
+      ],
+      "raw_dimensions": [
+        1,
+        11,
+        86,
+        526
+      ],
+      "primitive_2x2_determinant": "-1"
+    }
+  ],
+  "continuous_source_metric": [
+    {
+      "d": "1/16",
+      "trace_metric_diagonal": [
+        "2",
+        "1/8"
+      ],
+      "trace_metric_determinant": "1/4",
+      "jet_rank": 2,
+      "weil_quotient_rank": 2,
+      "trace_at_identity": 2
+    },
+    {
+      "d": "-1/16",
+      "trace_metric_diagonal": [
+        "2",
+        "-1/8"
+      ],
+      "trace_metric_determinant": "-1/4",
+      "jet_rank": 2,
+      "weil_quotient_rank": 2,
+      "trace_at_identity": 2
+    },
+    {
+      "d": "0",
+      "trace_metric_diagonal": [
+        "2",
+        "0"
+      ],
+      "trace_metric_determinant": "0",
+      "jet_rank": 2,
+      "weil_quotient_rank": 1,
+      "trace_at_identity": 2
+    }
+  ],
+  "scope": "Finite exact algebra checks only. All-degree positivity of closed-point numbers is consumed from290/563; global identities and uniform evaluation inequalities require analytic proofs."
+}

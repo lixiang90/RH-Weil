@@ -1,5 +1,14 @@
 # RH-Weil 文献索引
 
+2026-10-20评价行列式具体检验见[568](../notes/568-source-evaluation-carriers-local-jets-and-weil-capacity-gap.md)：
+source convolution评价商、真实finite étale/jet与continuous正反载体分别构造；
+局部非退化不代global capacity，classic完整Γ/pp/pole及原Dlog评价费用逐项核。
+有限域来源核Stacks 00U3/0BJF，digamma原norm主项核NIST DLMF5.11.2；
+Hilbert/Krein核线性化参考仅作额外majorant责任定位，不用其完成定理支付正性。
+[三个原稿](../reviews/2026-10-20/evaluation-carrier/)保阅读/证明范围；
+Anselone–Korevaar原PDF访问未得，不作为该轮证明前件；finite-rank推论由正文直接证明。
+本轮未增加永久PDF归档或改写历史清点统计。
+
 2026-10-20按用户截图及继续核查指令，检查Landau–Siegel三页简化证明的
 [评价行列式与Weil/RR设施](../goals/reviews/2026-10-20-landau-siegel-determinant-and-weil-facilities.md)：
 非零integer minor、Frobenius厚邻域整除、无穷位高度及uniform实零点推论分别核；
