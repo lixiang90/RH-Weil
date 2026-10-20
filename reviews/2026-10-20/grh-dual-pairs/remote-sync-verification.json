@@ -1,0 +1,16 @@
+{
+  "schema": "rh-weil-remote-sync-verification-v1",
+  "date": "2026-10-20",
+  "repository": "https://github.com/lixiang90/RH-Weil",
+  "branch": "main",
+  "research_commit": "9ba5ce40ee5c57582c43651c10bef13692c428d9",
+  "research_parent": "2a1abf1ddb92d191384a78fc466701024ebf0e62",
+  "research_tree": "38cbce177431b6866d7871bd765ceaa7fe8b6a86",
+  "files_in_research_commit": 15,
+  "remote_observation": "Independent GET main and commit equal full SHA/tree/parent; non-force conditional expected-parent update.",
+  "local_observation": "Reconstructed exact commit bytes and compared SHA1 before import; HEAD=origin/main=verified research SHA, clean index and worktree. No reset/checkout.",
+  "evidence_checks": "Six final root/audit LF versions matched; staged diff check passed and GitHub-created tree equaled local index. Raw screenshot and credential-pattern content not uploaded.",
+  "transient_recovery": "Initial tool session ended before staging completed; process handles no longer existed, actual index/worktree/lock/remote and proof hashes rechecked before retry. No mathematical iteration or duplicate remote commit created.",
+  "metadata_followup": "This receipt, STATE and a new immutable checkpoint form a metadata-only child; STATE intentionally records verified research SHA, final child checked live separately.",
+  "mathematical_scope": "C027/564 once, cadence3. Actual classic Gamma/pp/pole positivity, whole4/5/core and faithful Xi unchanged; no macro Goal completion."
+}

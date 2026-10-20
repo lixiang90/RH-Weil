@@ -49,8 +49,8 @@
     "settled_iterations": [
       "notes/564-dual-pair-rh-weighted-purity-and-mellin-gauge.md"
     ],
-    "stage": "564与四原稿终逆审及root全前件/6版本消费闭合，原cadence2->3已唯一结算；正在核diff并同步。",
-    "next_action": "核root/audit版本hash和暂存diff，上传既有GitHub main并现场核远端完整SHA/tree及本地clean；报告权纯性/完成化规范结论及经典未付正性。无新actual input不续未知duality/purity合同。",
+    "stage": "564研究提交9ba5ce40已核远端main/tree及本地同Git对象/clean；随后仅核验metadata子提交，不增轮。",
+    "next_action": "报告一般RH的预定权纯性/正极化与完成化规范、positive dual pair及canonical classic缺口；新数学合同须新actual输入或可判净测试，不续未知duality/purity标签。",
     "stop_rule": "一次完整迭代；无真正positive dual pair而仅旧等价/FE不足则0来源停。不后验拆权、不同kernel不可冒充裸zeta除子。"
   },
   "support_contracts": [],
@@ -183,20 +183,25 @@
       "path": "reviews/2026-10-20/grh-dual-pairs/root-consumption-scope.json",
       "kind": "cited",
       "scope": "564/四原稿/终逆审最终6版本root闭合；HL源/gauge/primitive/权/域/trace/强旧已核，primitive Dirichlet scope在消费前修复，hash不认证证明。"
+    },
+    {
+      "path": "reviews/2026-10-20/grh-dual-pairs/remote-sync-verification.json",
+      "kind": "cited",
+      "scope": "564研究提交9ba5ce40远端main/tree及本地同SHA/clean已核；后续仅metadata子提交。会话恢复未重复计轮，保存同步不认证证明。"
     }
   ],
   "pending_processes": [],
   "runtime_goal_observation": {
     "status": "absent",
-    "observed_at_utc": "2026-10-20T05:13:48.832106+00:00",
-    "basis": "恢复和终审收尾get_goal均null，未创建运行Goal；文件G20261014/固定基线及open宏观门保持。"
+    "observed_at_utc": "2026-10-20T06:19:05.147773+00:00",
+    "basis": "恢复及本次同步收尾get_goal均null；未创建运行Goal，固定文件Goal/基线和open宏观门保持。"
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-10-20-dual-pair-purity-settled.json",
+  "checkpoint": "goals/checkpoints/2026-10-20-dual-pair-purity-remote-verified.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
-    "commit": "4cbe9ef6338924db92cf3d87449e447df19559c0",
-    "basis": "远端main/commit独立GET核SHA/tree398bcd3f/parent；16文件tree等于本地index，导入同Git对象后HEAD=origin/main且clean。随后仅STATE/核验/checkpoint metadata子提交，不滚基线/计轮。"
+    "commit": "9ba5ce40ee5c57582c43651c10bef13692c428d9",
+    "basis": "远端main/commit独立GET核SHA/tree38cbce17/parent；15文件tree等于本地index，精确Git对象导入后HEAD=origin/main且clean。随后仅STATE/核验/checkpoint metadata子提交，不滚基线/计轮。"
   },
   "completion_audit": {
     "goal": "goals/GOAL.20261014.md",
@@ -210,5 +215,5 @@
     "goals/goal-completion-receipt.20261014.json",
     "goals/goal-completion-receipt.20261014-continuation.json"
   ],
-  "process_inventory_observed_on": "当前HL source及其明确gauge followup、pair框架、final_reverse_564均完成，6最终原件hash与修复已核，无numeric/shell producer；root唯一结算，当前只Git同步。"
+  "process_inventory_observed_on": "当前四原稿及final_reverse_564完成，6原件版本核过；会话恢复后无旧sync producer/锁，研究提交本地远端一致且clean，当前只metadata核验。"
 }
