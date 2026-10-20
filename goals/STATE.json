@@ -44,8 +44,8 @@
     "settled_iterations": [
       "notes/568-source-evaluation-carriers-local-jets-and-weil-capacity-gap.md"
     ],
-    "stage": "568数学终审/root闭合完成，统一结算一轮；保存版本checkpoint及GitHub同步中；长期Goal门open。",
-    "next_action": "本轮先完成已结算568的GitHub同步。下一研究只核2402.06671v2 §§1.3.6/5.8/6.7两conormal载体固定权、两半轴FP/contact对Burnol/563完整Γ；本轮未执行。若仅手调twist/cδ0则停翻译回560 actualreceiver signed准入，不预建C032。",
+    "stage": "568终审/root闭合、统一结算和16文件研究提交远端核验完成；同步收据仅metadata子提交另核，不增数学轮。",
+    "next_action": "下一研究只核2402.06671v2 §§1.3.6/5.8/6.7两conormal载体固定权、两半轴finite-part/contact对Burnol/563完整Γ；本轮未执行。若仅手调twist/cδ0则停翻译回560 actualreceiver signed准入；无新实际input不预建C032。",
     "stop_rule": "一轮止；若只有signed carrier/定义身份而无独立global容量，记范围并停，不续toy参数或unknowndet存在合同。"
   },
   "support_contracts": [],
@@ -172,6 +172,11 @@
       "path": "reviews/2026-10-20/evaluation-carrier/root-consumption-scope.json",
       "kind": "cited",
       "scope": "最终主/三稿/finite记录与独立PASS版本绑定；对象/domain/range/角色/norm/成长/误差/符号/coverage/强旧root闭合，hash非证明。"
+    },
+    {
+      "path": "reviews/2026-10-20/evaluation-carrier/remote-sync-verification.json",
+      "kind": "cited",
+      "scope": "568研究9e8cc55e远端main/tree/parent与本地同SHA/clean已核；随后metadata子提交另核。同步非数学证明/新轮。"
     }
   ],
   "pending_processes": [],
@@ -181,11 +186,11 @@
     "basis": "本轮恢复与终审get_goal均null；不创建未请求实例，保同文件Goal/冻结基线。"
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-10-20-evaluation-carrier-568.json",
+  "checkpoint": "goals/checkpoints/2026-10-20-evaluation-carrier-568-sync-final.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
-    "commit": "13816ee142324304425974e6e56ba37ba626bdcc",
-    "basis": "LS专题14文件提交已独立GET main/commit核SHA/treefcdb6f9d/parent73284f87；tree等本地index，精确对象导入后HEAD=origin/main且clean。随后metadata子提交另核，0数学轮/不滚基线。"
+    "commit": "9e8cc55e13c90b779cc1f0ab3578ebea4a0abe72",
+    "basis": "568研究16文件已独立GET main/commit核SHA/tree1f6c1af8/parent26c07a59；tree等本地index，精确对象导入后HEAD=origin/main且clean。随后metadata子提交另核，0额外数学轮/不滚基线。"
   },
   "completion_audit": {
     "goal": "goals/GOAL.20261014.md",
@@ -199,5 +204,5 @@
     "goals/goal-completion-receipt.20261014.json",
     "goals/goal-completion-receipt.20261014-continuation.json"
   ],
-  "process_inventory_observed_on": "三producer及独立终审均final，最终hash已复核；无shell/numeric producer。root消费/结算完成，GitHub同步由root顺序执行。runtimeGoal=null。"
+  "process_inventory_observed_on": "三producer/独立终审均final；无shell/numeric producer或未消费数学输出；root研究结算及远端研究提交核验已完成。runtimeGoal=null，metadata不代下一来源门。"
 }
