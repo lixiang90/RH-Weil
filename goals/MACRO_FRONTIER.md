@@ -2,7 +2,17 @@
 
 2026-10-20更新；完整Goal、唯一动作和现场观察以STATE为准。
 固定基线0c4f3a3eb609bb1d9564138fa4a35701f05605f2（全部≤538），同G20261014。
-最新[C034真实receiver比较](contracts/C034-actual-receiver-two-boundary-signed-comparison.md)
+最新[C035有限Euler原weighted费用](contracts/C035-finite-euler-weighted-receiver-and-coherent-tail.md)
+已在[572](../notes/572-finite-euler-receiver-coherent-tail-and-original-weighted-cost.md)终审/root消费，统一一轮。
+实际barb coherent系数、半线原域及diagonalO(L^4)；Euler后完整尾/finiteMV/完整Γ端点
+在θ>2e同步区间给actual|b|² receiver原dy平均O(L^4)，无m²归一，正向模型δ有同费。
+clean两边界须相位协同J_b且保全inverse/allreturns；负部/actualε/duDlog/core未付。
+局部modelb费瓶颈改变，macro独立容量、whole4/5/core/coupling/Ξ未变；θ>2e在旧有利高频层。
+[结算](reviews/2026-10-20-euler-receiver-572-settlement.md)保存统一0→1及下一一次actual变分准入：
+明确z_T=S_Tw_R和P_Mz_T，核560interval clipping原域/费用并保G_M逆、window D_var平方缺陷；
+只旧corollary＋unknown D_var就停，不建C036/不续model参数。
+
+前轮[C034真实receiver比较](contracts/C034-actual-receiver-two-boundary-signed-comparison.md)
 已在[571](../notes/571-actual-receiver-two-boundary-signed-comparison-and-growth.md)终审/root消费并统一一轮。
 v=LD*Pw、u=HDPw和actual all-pass block给δwin=B−<(v,u),J^-1(v,u)>，保fullinverse/allreturns。
 正向upper无坏gap分母，fixedsingleprime严格Γ锁定的actualcarrier两号为R^-1/2阶；δwin不代actualε。
@@ -10,7 +20,7 @@ cofinal θ>1实际高度区间上m²归一receiver平均趋0，与旧fullH norm�
 不证receiver方向跨窗norm比小，原norm/b权/coherent tail与Sonin运输仍欠，旧555有利高频不能代core。
 [cycle14](reviews/2026-10-20-general-rh-macro-review-cycle-14.md)统一比较566–571六完整轮，
 571结算5→6、复盘一次归零；strong-oldwhole4/5/core/coupling/Ξ及独立容量未改。
-下一只一次finiteEuler weightedreceiver系数/原域/finite-height费用准入，详见cycle14；
+该历史finiteEuler准入现已在572执行闭合，当前唯一next见上文/STATE；
 fixedF Bohr/diagonal或unknowntail改名即停，不建C035，不续singleprime相位/N/m参数。
 
 前轮[C033实际joint signed门](contracts/C033-actual-joint-sonin-signed-mixed.md)
@@ -246,6 +256,7 @@ cofinal真实m||H_TDP_-||在T≤(2−ε)eL趋1，但输入非M/k_R/actualreceive
 | 567/C030对应/568/C031评价 | fullΠ formal graph及真实local carrier均有正反测试；各一轮止，不扩参数 | 同一global source/kernel/capacity与全部Γ/pp/pole预算身份；signed商或allGramPSD不是新正性 |
 | 569/C032双载体Γ/cocycle | all-k共同权门收口；有费修复及matched phase真实，一轮止 | 真实parity/算术indicial source或global det sections/RR；纤维正/曲率等价不作新输入 |
 | 571/C034 receiver | 完整Schur/Γ锁定singleprime两号/m²归一平均统一一轮止；model≠actualsource | 实际b权coherent tail且原域合法、同源clipping/joint新输入；不以unknownnorm续约 |
+| 572/C035 Euler原费 | actualbweighted完整tail原dy平均O(L4)限θ>2e，一轮止参数优化 | actual变分/全inverse运输与D_var/core新输入；certificate阈值不排其他paidsigned修复 |
 | 比例/无零区域 | 用户要求暂停 | 仅用户明确恢复，不因调用经典输入而重启优化 |
 
 ## 恢复的六项短答案

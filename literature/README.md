@@ -1,5 +1,12 @@
 # RH-Weil 文献索引
 
+2026-10-20finiteEuler完整尾费用见[572](../notes/572-finite-euler-receiver-coherent-tail-and-original-weighted-cost.md)：
+本轮root/producer/freshreview重开BMS Annals原刊Thm9.4 pp988–989与短proof，核任意first-fixed F的actualsmoothloggap合法修复；
+不宣称重读Matveev本体或完整50页。MV finiteHilbert均值沿571已付原件，freshreview重核74–75/82。
+[来源范围](../reviews/2026-10-20/euler-receiver/source-read-record.json)保精确归属；
+cofinal theta>2e proof另由moving-s PNT/Abel及有限MV+完整Rankintail付，不依赖巨大BMS常数。
+粗Cor3域失败不排所有无限MV；无新永久PDF资产，文献清点不变。
+
 2026-10-20真实receiver比较见[571](../notes/571-actual-receiver-two-boundary-signed-comparison-and-growth.md)：
 本轮重开Montgomery–Vaughan1974作者PDF并核本地原件printed73–75/82，目视74–75。
 Thm2 localgap常数3π/2、Cor2误差3π及Cor3有限Dirichlet均值用于真实receiver有限Hilbert-valued系数。

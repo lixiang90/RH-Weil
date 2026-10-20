@@ -2,7 +2,13 @@
 
 当前文件[Goal](GOAL.20261014.md)，固定0c4f/≤538资产为输入，保留G20261014目标。
 2026-10-20现场get_goal=null，不声称旧active实例存在，未创建未请求的新运行Goal。
-最新数学[571真实receiver双边界比较](../notes/571-actual-receiver-two-boundary-signed-comparison-and-growth.md)：
+最新数学[572有限Euler原weighted费用](../notes/572-finite-euler-receiver-coherent-tail-and-original-weighted-cost.md)：
+实际barb乘真实receiver的coherent系数/半线域及完整diagonal O(L^4)已付；
+Euler后完整相干尾与finiteMV/Γ端点给θ>2e同步区间的actual|b|²原dy平均O(L^4)，无m²归一。
+clean两边界须K→(barb/b)K且保全J逆。模型局部费用缺口改变，actualSonin运输/core/容量仍欠。
+[结算](reviews/2026-10-20-euler-receiver-572-settlement.md)统一一轮0→1，cycle14保持；
+whole4/5/Goal门未改，不把θ阈值当必要lower或正性。
+前轮数学[571真实receiver双边界比较](../notes/571-actual-receiver-two-boundary-signed-comparison-and-growth.md)：
 同一真实v/u给完整J逆Gram差，正向upper无坏gap分母；固定单prime在严格T=Γ(R)的actualcarrier上两号。
 模型δwin不代actualε；原dy/source du/Dlog保角色。cofinal θ>1高度区间上m²归一平均趋0，
 原norm/b权及Sonin全逆运输仍欠，不证receiver方向跨窗norm比小，也不进入危险core。
@@ -49,13 +55,13 @@ dense非exact平均由既有BMS/Matveev实例付清，不假设uniform gap；同
 已完成一次实际卷积评价商、étale/jet和连续正反载体的容量差检验，停止扩参数。
 其后[C032](contracts/C032-dual-carrier-gamma-and-budget-cocycles.md)已实际执行2402.06671v2
 固定权／finite-part门并结算569；停止无额外parity/算术indicial map的直接Γ翻译。
-下一唯一动作是[cycle14中的一次finiteEuler来源准入](reviews/2026-10-20-general-rh-macro-review-cycle-14.md)：
-把实际bar b乘receiver和，先核coherent系数/正确L²(t>0)域、diagonal与finite-height尾和MV费用。
-先用singleprime负对照，不以fixedF Bohr均值或漂亮diagonal代原norm/cofinal source费用；
-无能改变选择的新净输入就入口停，不预建C035，不续singleprime相位/N/m归一参数。
-571已结算的actualreceiver门不重跑；actual k_R/fullinverse成长运输缺口始终另付。
+下一唯一动作是[572结算中的actual变分来源准入](reviews/2026-10-20-euler-receiver-572-settlement.md)：
+核560§3–5 interval-carrier clipping在明确z_T=S_Tw_R、P_M z_T候选上的原域/cofinal费用，
+保actual G_M逆及window平方缺陷D_var=||G_T^-1/2(G_TS_T−I)w_R||²，不能用δ正部代它。
+若只旧clipping直接推论＋unknownD_var就入口停，不建C036，不续θ/c/β或modeltail参数。
+cycle14的finiteEuler来源门现已在572执行闭合，不能重复当未执行next。
 评价det／截面容量为几何主责，但新map须先通过旧f/物理r坐标下的relation/nonroot双测试，
-C031–C034的构造/反测已结算；不建未知上同调合同、不重复已停参数／来源链，单cadence按cycle14正式复盘为0。
+C031–C035的构造/反测已结算；不建未知上同调合同、不重复已停参数／来源链，单cadence为1，cycle14未重置。
 
 [通用流程](RESEARCH_WORKFLOW.md)适用于长期重型研究；[决策](DECISIONS.md)、
 [原轮数](review-cadence.json)、[复盘协议](REVIEW_PROTOCOL.md)各负其责。

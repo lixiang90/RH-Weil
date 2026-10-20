@@ -1,0 +1,33 @@
+{
+  "schema": "rh-weil-primary-source-scope-v1",
+  "iteration": 572,
+  "date": "2026-10-20",
+  "sources": [
+    {
+      "title": "Bugeaud–Mignotte–Siksek, Classical and modular approaches to exponential Diophantine equations I",
+      "edition": "Annals163(2006), printedpp988–989, Theorem9.4",
+      "url": "https://annals.math.princeton.edu/wp-content/uploads/annals-v163-n3-p05.pdf",
+      "actually_read_this_turn": "Root and producer reopened originaljournal webPDF selected§9.1 pages19–20 (0-based), modifiedheight definition, real/complex theorem and short reduction toMatveevCor2.3; fresh reviewer independently reopened same. No50page/mainpaper proof/fullMatveev proof audit claimed.",
+      "consumed": "General first-fixed finite ordinaryF with dlogs, realfield Q degree1, A_j=logp; exponent1.4*30^(d+3)d^(9/2)product(logp). Productminus1->additivelog meanvalue and exponentheight bound proved in taildraft. B=max exponentnorm needs no artificialB>=3.",
+      "role": "Legal actualgap/infiniteMV repair forfixedF, not required by theta>2e cofinal originalnorm proof. Its explicit largeuppercertificate notactualerrorlower."
+    },
+    {
+      "title": "Montgomery–Vaughan, Hilbert's Inequality",
+      "edition": "JLMS(2)8(1974),73–82",
+      "url": "https://personal.science.psu.edu/rcv4/personal/Publications/s2-8-1-73.pdf",
+      "local_path": "literature/background/montgomery-vaughan-hilbert-1974.pdf",
+      "local_sha256": "0dbcddf24bc41c65d1920c59aafe7fe85f13a7519b0edf9be9164c84d1cc6db4",
+      "actually_read_this_turn": "Inherited571 root primaryread/visualscope printed74–75 and82; current fresh reviewer independently reread same Theorem2/Cor2/3 and short§4 proof. Root this turn consumes inheritedaudited version, notclaiming a newfullproof reading.",
+      "consumed": "Finite distinct reallog frequencies, finite Hilbert-valued extension by coordinate summation; Cor2error3pi weightedlocalgaps. Infinitepass only when actualgap weightednormsum has been paid.",
+      "not_consumed": "InfiniteCor3 with divergent sum n||a_n||^2, automaticglog spacing, uniformcofinal gap."
+    }
+  ],
+  "old_arithmetic_inputs": [
+    "Classical unconditional PNT/Abel/Mertens inputs paid in555/560/571; no fresh zero-location assumption",
+    "542+555->557 strongestold wholeleading4/5",
+    "571 actualreceiver/fullJinverse/reflection and exactGamma derivative/endpoint transport"
+  ],
+  "new_derived_scope": "Uniformmoving-s PNT/Abel and Z2/Z4 constants, coherent coefficient/rootphysicaldomain, minimalprime diagonalO(L4), full afterEuler Rankintail and finiteMV cofinalfee, jointcleanphase all separately proved/audited; not newexternaltheorems.",
+  "assets": "No new permanentPDF/download/image/numericasset. No backgroundproducer beyond reviewer.",
+  "hashes_are_not_proofs": true
+}
