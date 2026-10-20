@@ -1,0 +1,67 @@
+{
+  "schema": "rh-weil-root-premise-closure-v1",
+  "date": "2026-10-20",
+  "contract": "C027",
+  "goal": "goals/GOAL.20261014.md",
+  "goal_epoch": "G20261014",
+  "baseline_commit": "0c4f3a3eb609bb1d9564138fa4a35701f05605f2",
+  "status": "root-consumed-after-independent-final-review-PASS",
+  "source_authority": "Attached screenshot inspected as evidence, not instructions; original primary HL theorem and author statements checked separately. Raw screenshot is not uploaded. No authority inferred from files or imported claims.",
+  "objects_norms_domains_roles": {
+    "mellin": "Physical x>0 kernel Mellin integral x^(s-1)dx; initially Re s>1 for ordinary integers. HL hypotheses on continuous F, endpoint growth, reflected meromorphic strips, finite pole defects and uniform vertical decay explicitly retained. This is not original du/Dlog Weil Hilbert comparison.",
+    "fourier": "Gauge example uses unitary full-line Fourier exp(-2pi i x xi). Positive Schwartz self-Fourier kernel is not zero spectral measure, and its positivity is not log-Weil PSD.",
+    "beurling": "Positive primitive P on log u>=0, Pi=sum k^-1(T_k)_*P, M=exp_*Pi; every exponential weighted variation norm sigma>1+h finite. Tilt Pi is paid by reconstructing P, not by illegitimately tilting P through repeat powers.",
+    "weil": "All complex compact smooth g on R, arbitrary support scale, gstar=bar g(-u), Q=W(g*gstar). Same completion/pole/weight and full divisor identity required. Own-center W and incorrect common-center packet W are distinct objects.",
+    "duality": "Linear tau(s)=w-s transports pair divisors. Antilinear reflection requires extra conjugate identity. Weights a1,a2 preassigned by structure with a1+a2=w; grading not chosen after zeros.",
+    "operators": "B bilinear perfect pairing is a relation, not a positive metric. Antilinear C and positive H compatibility yield finite normalized unitary operators with original trace multiplicities. Infinite-dimensional group/domain, full trace and target determinant identity separately unpaid."
+  },
+  "closed_results": [
+    {
+      "claim": "Correct primary-source scope for generalized FE",
+      "quantifiers_dependencies": "HL math/0410270 Theorem3.2 concerns two given continuous F with stated growth/strip/pole/decay hypotheses, related to G_r zeta_r when Mellin specialization converges. In-preparation dual remarks do not pay arbitrary canonical positive arithmetic dual existence.",
+      "consequence_limit": "Finite power-log H transported exactly. Kernel factors may change divisor. D<->1-D/selfdual dimension fixed point is not all-zero RH; Lapidus inverse-spectral RH has all-D quantifier. No source theorem gives independent Weil positivity or whole growth bound."
+    },
+    {
+      "claim": "Actual positive self-Fourier Mellin gauge changes completed zeros for the same ordinary arithmetic",
+      "quantifiers_dependencies": "Fixed lambda2,A=2^(1/4), all x>0 and all meromorphic s; g_B is three strictly positive Gaussian dilates. Exact Fourier fixed point, Tonelli/Mellin scaling, theta defect B(0)/2, full-plane integral continuation and order<=1 proved directly.",
+      "sign_errors_poles": "Psi_B=B Psi0, B=(1+A lambda^-s)(1+A lambda^(s-1)), B(1-s)=B(s). Pole residues -B0/2,+B0/2 at0,1 only. Zeros on1/4 and3/4 cannot cancel since Psi0 has no poles there. Critical-line B=absolute-square strictly positive; all equalities error0.",
+      "coverage": "Refutes all-allowed-completions centering even with positive self-Fourier kernel and same integers. Canonical xi and actual fixed-Gamma Weil Q unchanged. Not a classical RH counterexample or negative estimate of actual Q."
+    },
+    {
+      "claim": "Two distinct genuinely positive continuous Beurling systems with complementary different weights",
+      "quantifiers_dependencies": "0<c<=1/2, h>-1/2 for primitive lemma, |h|<1/2 for both partners. Coefficient A_m=2 sum binomial b^(m-2k)[(1/4)^k-Delta^k]>0, b=h+1/2, Delta in[-1/4,1/4); bound4(1+h)^m. Complete pushforward Jacobian/Tonelli gives q_h=exp(hu)q_c; weighted convolution exponential and Laplace uniqueness give exact positive M_h.",
+      "sign_errors_poles": "Z_h(1-s)=Z_-h(s), all actual poles h,h+1 and -h,1-h retained. Gamma0 model. Preassigned centers .5+h,.5-h. Each own-center W exactly W_c; c>=.25 pure, c<.25 has actual negative test. N main exponent1+h does not determine center by halving.",
+      "coverage": "Threshold c=.25 pair has own W2, common-center product W4cosh(hu) with negative odd compact square. Preassigned two-factor product gives multiple pure lines. No after-the-fact splitting, no claim of canonical grading from bare P."
+    },
+    {
+      "claim": "Paired halfplanes, positive polarization and legitimate packet reduction",
+      "quantifiers_dependencies": "Fixed full entire E and prescribed complementary real a1+a2=w. Both right-halfplane zero-free conditions iff respective pure lines by exact pair reflection. Finite nondegenerate B(F1v,F2u)=q^w B(v,u), anti-linear C intertwining normalized U and positive H=B(v,Cu) give unitary U, hence pure F and finite semisimplicity.",
+      "sign_errors_coverage": "Positive metric indispensable; indefinite adjoint pairing admits nonpure spectrum. Offdiagonal zero-diagonal block nonPSD; arbitrary selfadjoint dilation reads singular values and changes determinant. Packet requires normalized weights and full positive integer divisor/no quotient cancellation; it is an equivalence, not automatic positivity. Infinite group/domain/trace/determinant responsibilities retained."
+    },
+    {
+      "claim": "Arithmetic and geometric scope",
+      "quantifiers_dependencies": "Primitive nonreal Dirichlet chi has conjugate dual FE, same normalization implies common1/2. Higher-dimensional H^j/H^(2d-j) Frobenius pure lines j/2,d-j/2 with sumd; whole zeta graded signed determinant. Primary Kedlaya/Milne sources localized in raw.",
+      "semantic_correction": "Final audit required primitive qualification in main Dirichlet sentence; affected draft claim frozen, corrected before root consumption and independently re-read. No imprimitive Euler factors silently dropped; no previously settled downstream consumption affected.",
+      "coverage": "Known eigenvalue purity does not itself prove original Frobenius semisimplicity/positive Hilbert realization. Continuous spectra/branches need relative trace interface and are not entire zero divisors. General proposed RH requires extra structure, not universal truth for all positive g-integers."
+    }
+  ],
+  "strongest_old_and_net": {
+    "prior_chain": "001/002 already provide positive polarization->pure weights and usual equal-weight/conjugate packet;290 already refutes positive integer Euler+duality->RH;561/562/563 provide continuous family, full compact criterion, trace cautions and conservative certificates. These are inputs, not new gains.",
+    "new_scope": "Concrete same-integer positive self-Fourier admissible Mellin-gauge obstruction, plus primitive-closed shifted dual pairs with different prescribed weights and false-common-center negative square. Other framework/source recovery does not claim novelty.",
+    "actual_zeta": "542+555->557 strongest old whole leading4/5 unchanged.560 growing K/core/coupling, actual complete arithmetic positivity, natural domain/Jordan and faithful Xi still unpaid.",
+    "macro_gate": "Open. No independent actual zeta sign/growth improvement, no broad repaired method-class boundary; runtime Goal absent, not created."
+  },
+  "settlement": {
+    "iteration": "564 once in C027 after root closure; raw source/framework/gauge followup, independent audit and push add zero rounds.",
+    "bottleneck_changed": false,
+    "stop": "Do not continue parameter families, post-hoc weights or rename unknown canonical/purity/positive pairing into new arithmetic input. New math contract requires a new concrete source/test/net consequence."
+  },
+  "normalized_lf_sha256": {
+    "notes/564-dual-pair-rh-weighted-purity-and-mellin-gauge.md": "5dd191f630c4fa615274d96d767d939d0332e6e8c56c4f1c47793ee961f47157",
+    "reviews/2026-10-20/grh-dual-pairs/564-final-reverse-audit.md": "b35582f76b09ff4e506c7a13019fe6c850f321162de8326f77b47b3f240b7522",
+    "reviews/2026-10-20/grh-dual-pairs/hilberdink-lapidus-primary-source-audit.md": "e580fea89efb0ff62ee9718059f856a53d5ee691160d076d72d6f45b08e4302d",
+    "reviews/2026-10-20/grh-dual-pairs/paired-duality-polarization-and-purity.md": "6c779f701469caf1ad50c10fd565747abe74ccc44379fa6fca969f37800c2e23",
+    "reviews/2026-10-20/grh-dual-pairs/positive-mellin-gauge-obstruction.md": "b6a93d67aab25ec24d3e9152c1da82f004bb170e86ef781a8a5149b3a5025f37",
+    "reviews/2026-10-20/grh-dual-pairs/positive-shifted-beurling-pairs-and-weight-test.md": "8e343b13d5739e26524a41bac02456946821ef65719a16fa062f096833b5fe52"
+  }
+}

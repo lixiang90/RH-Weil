@@ -18,7 +18,11 @@
 STATE是当前执行唯一源，show由它与cadence显示；checkpoint检版本结构，不认证证明或运行态。
 原件出稿／逆审／root消费／结算分开，阶段转换同步；复用handle核当前task/output。
 
-当前[563](../notes/563-distribution-side-weil-certificates-and-heat-complete-monotonicity.md)：
+当前[564](../notes/564-dual-pair-rh-weighted-purity-and-mellin-gauge.md)：
+HL双对象对偶须固定Mellin核／缺陷／域，不能自动推pure。positive self-Fourier Gaussian核
+可在同一整数系统的不同完成化加入离线零点；这改变目标，不反驳canonical经典RH。
+真正positive primitive的±h pair可各在预定互补不同权中心纯；一般RH应先给规范／权／正极化。
+[563](../notes/563-distribution-side-weil-certificates-and-heat-complete-monotonicity.md)：
 从完整分布ODE／点数递推给正能量矩阵证书，不先读取零点；F5曲线精确counts与H已核，
 全周期Weil平方和及热CM⇔正型的实偶／指数阶域已付。热全正仍不足，CM本身仍等价责任。
 经典prime atoms／Gamma奇性只排直接有限类，保无限维／平滑／有控分布极限；实际瓶颈未变。
@@ -30,7 +34,7 @@ STATE是当前执行唯一源，show由它与cadence显示；checkpoint检版本
 Fourier/unitgap识别只是一种特殊类；分类不付经典Weil正性，也不定义一般类RH。
 [历史挖掘](../reviews/2026-10-20/beurling-history-lessons-and-reusable-assets.md)按560篇研究族索引，
 只对相关代表原件核读，不声明本次重证全部笔记。[cycle12](reviews/2026-10-20-beurling-macro-review-cycle-12.md)
-核四完整轮549/555/560/561；562与563各统一一轮，原稿／脚本／逆审／直接推论／推送不另计；全当前阶段／唯一动作见STATE。
+核四完整轮549/555/560/561；562、563、564各统一一轮，来源／原稿／脚本／逆审／推送不另计；全当前阶段／唯一动作见STATE。
 
 最强实际ζ仍542＋555→557 whole leading4/5，指数core／Ξ未付；537/538固定窗是基线。
 560每fixedL完整Q=positiveT−原normcompactK＋双pole；成长K/sign/norm未付，aux lower非actualsourceerror。

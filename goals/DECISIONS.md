@@ -685,3 +685,17 @@ C025统一结算562一轮，原cadence0→1；不滚基线，不完成长期Goal
 直接有限类被原子/Γfinite-part排，保无限维/平滑/relative有控修复；不扩大成所有路线no-go。
 C026唯一结算563一轮，原cadence1→2不重置；actual强旧4/5/core/Ξ不变，长期Goal门open。
 后续没有新actual无限维身份／完整正逼近／signed费输入，不以未知H/CM换名续数学合同。
+
+## D20261020D：双对象对偶、预定权与RH纯性
+
+用户明确从一般g-integer的成对Mellin对偶继续研究。C027以真正positive primitive的
+Z_{c,±h}及其多权乘积核共同中心要求，原始HL来源和Hermitian极化另行独立审查。
+不续C026未知H/CM，不假设kernel-dual自动给算术dual，亦不把反射配对当正性。
+一迭代止损；成功改变一般RH定义与适用层级，不改善actualζ4/5/core/Ξ，不完成长期Goal。
+
+564根消费：positive self-Fourier Gaussian kernel在同一整数系统加入已知offcentre completed除子，
+全HL域/双pole/order1均付；canonical ξ与actual Q未改。±h genuine positive primitive pair
+及互补不同权／commonproduct负测已付；权和规范不能由对偶自动推定。
+四原稿及终审PASS，draft primitive Dirichlet范围修正已重闭合，001/002/290强旧不重计。
+C027唯一结算564一轮，原cadence2→3不重置；actual4/5/core/Ξ不变，宏观门open。
+下一合同须新独立canonical正性／faithful输入或可判净检验，不续duality/purity改名与参数族。
