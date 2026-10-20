@@ -18,7 +18,11 @@
 STATE是当前执行唯一源，show由它与cadence显示；checkpoint检版本结构，不认证证明或运行态。
 原件出稿／逆审／root消费／结算分开，阶段转换同步；复用handle核当前task/output。
 
-当前[565](../notes/565-canonical-completion-graded-identifiability-and-independent-energy.md)：
+当前[566](../notes/566-source-closed-forms-and-full-weil-heat-trace-tests.md)：
+由函数域已核全递推/U,H构造H1 unitary bundle正闭能量，并直接付all-time/all-period普通heat=完整W热量；
+新的是heat实现，旧H/纯性不重计。nonunitary正form导数边界不同而identity失败；safe jump普通trace∞、
+physical Q全线不可闭及finite/infinite图比较保准确scope/逃逸。经典Γ/pp/pole完整源已核，独立identity仍欠。
+[565](../notes/565-canonical-completion-graded-identifiability-and-independent-energy.md)：
 标准Gamma类无RH唯一性可排含零B，但一般P的类membership须另给；局部二次能量
 能选Gaussian且精确拒gB，这不等于Weil正性。净ζ看不到形式分次虚消/Jordan，
 有限双向Markov甚至排F5正例；独立正闭形式＋同源全time heat trace是合法充分接口，

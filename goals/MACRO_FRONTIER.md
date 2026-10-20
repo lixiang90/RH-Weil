@@ -8,7 +8,15 @@
 
 ## 因果链和消费范围
 
-当前565把自然完成化的存在／类内唯一、分次识别与正极化分开：
+当前566实际构造函数域unitary log-circle bundle正闭能量：同源全递推/U,H给完整all-time/all-winding
+ordinary heat trace=W(k_t)，保rank/contact及周期pole。新付heatlift，563同H的纯性归旧。
+nonunitary同端点positive form的自然导数边界改变，290 source增长而正heat衰减，identity严格失败。
+safe Π jump闭但ordinary trace∞；未减critical prime jump域{0}，减degree才回signed源。
+即使Q正，原全线L2 atomic Fourier形式不可闭，保fixed窗/换norm/其他载体。
+classic完整Θ两UV系数排finitecompact普通graph；真实closed无限缩边graph有同log首项但次项多4γ+log4。
+不扩大为所有local/infinite/relative失败；独立classic完整source trace仍欠，actual4/5/core/coupling未变。
+
+565把自然完成化的存在／类内唯一、分次识别与正极化分开：
 CG标准Gamma类中心1/2唯一性无RH，局部energy基态选择精确拒gB；membership与local metric另付。
 P² dual-compatible形式虚消包不改变任何点数，Jordan同trace/det仍不能正极化；
 有限双向Markov退化permutation并排F5真正例，保无限维／一般unitary／killing热群。
@@ -72,6 +80,7 @@ c≥1/4给非空中心零点及全部compact源的精确平方和。零点仍离
 | 563分布证书 | 源ODE/点数递推+正H给全域平方和；实偶指数阶heat-CM接口；F5有理能量证书与全部周期trace | heat-CM仍等价，经典直接有限类不覆盖；无限维同对象正能量/全CM源证明/faithful谱及成长core仍欠 |
 | 564双对象纯性 | actual positive Fourier-selfdual Mellin gauge检验；±h真positive primitive pair／预定互补权／共同中心负测试；HL原源范围 | 规范和权是输入非自动恢复；对偶不付正极化，classic canonical Γ完整正性/原域/Ξ无新输入 |
 | 565规范与识别 | CG标准类无RH唯一性；局部energy严格拒gB；dual-compatible虚消/Jordan及有限Markov边界 | 一般P的local类membership／同源正闭形式和全heat trace仍欠；选核不付pure，actual4/5不变 |
+| 566正闭形式/heat | 函数域unitary bundle完整ordinary trace身份；nonunitary边界及jump/physicalclosure/graph准确反测 | 原H/纯性已旧付；classic另载体正能量及完整source identity未付，保无限/非局部/relative合法修复 |
 
 原件：[535](../notes/535-actual-first-prime-sonin-log-resonance-and-indefinite-error.md)、
 [537](../notes/537-source-exact-weil-window-positive-tail-admission.md)、
@@ -148,6 +157,7 @@ cofinal真实m||H_TDP_-||在T≤(2−ε)eL趋1，但输入非M/k_R/actualreceive
 | 563/C026分布证书 | 有限输入认证/完整热接口/算术lift统一一轮；已付直接类和严格范围 | 需新无限维源身份、可核完整逼近或实际signed费才再准入；finite check不代growth，不串未知H/CM标签 |
 | 564/C027对偶纯性 | positive kernel规范反测试与不同权positive pair统一一轮；不扩参数族/后验拆权 | 新独立canonical完整正极化／faithful算术身份才晋级，不把duality或known gauge归约改名成actual input |
 | 565/C028规范／energy | 一次局部selector及可识别性固定门结束；标准CG来源不重计新机制 | 需新同源正闭形式/完整heat identity或actualsigned费；无input不续canonical/H/CM标签 |
+| 566/C029源闭形式 | 一次unitary bundle热lift与经典具体准入测试结束；不调图长拟合/Weyl参数 | 新actual全source trace公式、独立极化/signed费才重准入；更多unknownK/CM不算input |
 | 比例/无零区域 | 用户要求暂停 | 仅用户明确恢复，不因调用经典输入而重启优化 |
 
 ## 恢复的六项短答案

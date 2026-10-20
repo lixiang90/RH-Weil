@@ -1,0 +1,67 @@
+{
+  "schema": "rh-weil-root-premise-closure-v1",
+  "date": "2026-10-20",
+  "contract": "C029",
+  "goal": "goals/GOAL.20261014.md",
+  "goal_epoch": "G20261014",
+  "baseline_commit": "0c4f3a3eb609bb1d9564138fa4a35701f05605f2",
+  "status": "root-consumed-after-independent-final-review-PASS",
+  "authority": "Current user explicitly requests source closed-form research and GitHub sync. Imported notes and sources only evidence. Runtime Goal absent; no new runtime Goal created.",
+  "objects_norms_domains_roles": {
+    "source": "P/Pi/M fixed positive arithmetic, completion/weight/background fixed before W; W(k_t) target heat retains all Gamma/prime powers/poles/contact. It is not heat of window Weil operator.",
+    "jump": "Safe sigma finite measure nu=e^-sigma u Pi on L2(R,dx), all-domain bounded Dirichlet form; actual critical prime uses nu weights Lambda(n)/sqrt n and infinite far-tail mass. No equivalence of safe Euler CM and full Weil PSD.",
+    "continuous": "Complete source ODE Wsecond+dW=0 with W0=2 and Wprime0=0. Correct finite carrier C2, K=dI2; not scalar GNS quotient. Continuous-spectrum log mixture uses squared-frequency pushforward state, not ordinary trace or entire divisor.",
+    "bundle": "Hilbert L2((0,log q),C^m;Hdx), H>0 from source. H1 endpoint f(L)=Uf0 form and H2 operator derivative endpoint separately derived. Complete ordinary trace preserves m fibre multiplicity; no arbitrary kernel added.",
+    "physical_q": "Full growing Cc-infinity tests in ambient L2(R,du). Atomic Fourier-evaluation positive forms not closable; expanding supports essential. Fixed-window Dlog forms, other source norms and other carriers not excluded.",
+    "graphs": "Finite compact regular metric graph vs infinite direct sum H01(0,1/n) have distinct Hilbert carriers; ordinary heat requires actual trace-class all times. Relative/supertrace does not automatically give positive CM."
+  },
+  "closed_results": [
+    {
+      "claim": "Concrete function-field positive closed-form heat lift",
+      "quantifiers_dependencies": "Given full arithmetic rationality/FE/contact and all-n trace recurrence from same source U,H with H>0,U*HU=H. H1 endpoint form closed dense positive; H2 derivative boundary uses unitary metric. Neumann minmax proves all t ordinary trace-class. Image sum U^n k_t(x-y-nL) and all derivatives converge on compact time intervals, satisfy initial/boundary/semigroup identities.",
+      "actual_direction_errors": "Exact ordinary trace=L/sqrt(4pi t) sum all n TrU^n exp(-n2 L2/(4t))=W_C(k_t), error0 all t. Rank m/contact n0, all closed-point powers and periodic poles preserved. F5 A/H and full recurrence already563; re-run counts9/27/108 exact, not finite-data extrapolation.",
+      "coverage": "New explicit heat realization of already-paid positive source, not new pure theorem or H from arbitrary P. Nonreal Hermitian cases cannot apply real-even CM while dropping odd data."
+    },
+    {
+      "claim": "Nonunitary positive endpoint form loses same-source identity",
+      "quantifiers_dependencies": "Any invertible M and PD H0 gives dense positive closed H1 endpoint derivative form; its natural boundary M*H0 fprimeL=H0 fprime0 differs from same-holonomy derivative condition unless metric-unitary. Fixed290 q5 source has r=(sqrt5+1)/2.",
+      "actual_direction_errors": "All-time source Gaussian sum grows with lower bound L/sqrt(4pi t) exp(t(logr/L)^2-L2/(16t)); positive endpoint operator has positive gap and heat trace->0. Hence identity impossible despite form positivity. Gaussian image sum converges but represents another non-selfadjoint problem, not form operator."
+    },
+    {
+      "claim": "Direct jump/square constructions tested against continuous and classic sources",
+      "quantifiers_dependencies": "Finite nu mass m ->0<=K<=2mI all-domain closed Dirichlet form, exp(-tK)>=exp(-2tm)I, infinite-dimensional ordinary trace infinite. Continuous all-source ODE heat equation yields Theta=2exp(-td); K=dI2 positive iff d>=0 including trace2 at0. Standard C*C=diag(d2,1) first moments differ by(d-1)^2.",
+      "actual_direction_errors": "Actual prime cutoff Qprime=J_X-2A_X norm2 exact; A_X divergent from canonical simple pole, and translation correlations vanish at infinity for every nonzero L2 f, so unrenormalized J_infty domain{0}. Compact source signed tails cancel exactly. Gamma near-zero Levy singularity permits Dlog domain; not confused with prime far-tail divergence.",
+      "coverage": "Safe source positivity pays neither desired trace nor identity; preserve confinement/unbounded finite-volume/new carrier/state/relative/regularized alternatives. Existing016/541/543 signed/gamma decompositions not new positive input."
+    },
+    {
+      "claim": "Physical-Q positive closure and simple graph routes have precise boundaries",
+      "quantifiers_dependencies": "Positive tempered Fourier sigma with isolated atom. Cc smooth g_R=R^-1 exp(i gamma0 u)phi(u/R) has L2norm->0 but Fourier converges atom indicator in L2sigma; q differences->0, q values->mass>0. If classic Q positive, full Weil criterion identifies atomic real-zero spectrum, so direct positive closable physical-Q impossible.",
+      "coverage": "Only growing all-line original L2 closure, not fixed-window/weighted/GNS/new carrier. General absolute-continuity theorem attributed to Alpay-Jorgensen; explicit Cc atomic proof paid. No claim that every signed form or every possible source norm has same failure."
+    },
+    {
+      "claim": "Full classic source coefficients and legal infinite-graph comparison",
+      "quantifiers_dependencies": "Complete Theta_zeta=2exp(t/4)+(2pi)^-1 integral exp(-ty2) Gamma_inf(y)dy -2/sqrt(4pi t) sum Lambda(n)/sqrt n exp(-(log n)^2/(4t)); exact Gamma finite-part/contact retained by prior563 identity. Stirling log modulus plus L1 residual and exponentially small prime tail give two source UV coefficients without RH.",
+      "actual_direction_errors": "Theta=[log(1/t)-gammaE-log(16pi2)]/(4sqrt(pi t))+O1. Finite compact regular graph only totalLength/sqrt(4pi t)+O1. Infinite H01(0,1/n) graph is closed dense, compact resolvent, all-time heat trace sum d(m)exp(-pi2 m2t); Mellin gives [log(1/t)+3gammaE-2log(2pi)]/(4sqrt(pi t))+o(t^-1/2). Difference in bracket4gammaE+log4>0.",
+      "coverage": "Exact concrete mismatch, not all-local/all-infinite graph no-go. Egger-Steiner source scaled explicitly. Matching leading Weyl never pays complete source trace. Relative positive heat difference need not CM, explicit exp(-t)-exp(-2t) example."
+    }
+  ],
+  "validation": "Independent final_reverse_566 PASS; root read all three raw and final audit, rechecked key coefficients/domains. Old exact F5 script run; source C*C finite rational errors checked. Hash only identifies versions, not proof certification. Added tau-square pushforward notation clarifies old continuous-state scope, no prior settled semantic change.",
+  "strongest_old_and_net": {
+    "old": "563 independent H/full recurrence and Weil sum of squares,565 heat sufficient interface,290 positive Euler nonpure model,016/017/541/543 prime/gamma/window decomposition all inputs. Standard circle/graph/closability theorems attributed, no external-priority claim.",
+    "new_scope": "Explicit nonzero finite-source positive closed energy and exact ordinary all-time heat trace lift; nonunitary natural-boundary failure, direct-jump/physical-closure/graph admissibility information with legal escapes. Not new function-field purity or independent classic arithmetic sign.",
+    "actual_zeta": "542+555->557 strongest old whole4/5 unchanged;560 growing K/core/coupling, full classic positive source identity and faithful spectral route still unpaid.",
+    "macro_gate": "Open; no broad repaired core-method boundary or independent actual input removing core bottleneck. Runtime Goal absent; not created/completed."
+  },
+  "settlement": {
+    "iteration": "566 once in C029, cadence0->1. Sources/drafts/reverse audit/script/checkpoint/push no additional iterations.",
+    "bottleneck_changed": false,
+    "next": "Sync/report. New math admission needs actual same-source all-time trace formula/independent polarization or new signed residual fee; no graph-length fitting or renamed unknownK/CM."
+  },
+  "normalized_lf_sha256": {
+    "notes/566-source-closed-forms-and-full-weil-heat-trace-tests.md": "004f5438c918373e0ead73c0011ffb3883ef872c4977e356911dd910da177053",
+    "reviews/2026-10-20/grh-heat-forms/direct-jump-and-continuous-form-tests.md": "4ba6083a9e6fd103f9573ad988e2ac8046c23ee92bb242e2922ddd680bec756e",
+    "reviews/2026-10-20/grh-heat-forms/function-field-holonomy-heat-construction.md": "901ea8d777635ecf4c9f21e778e6a441e9debc1af8bc2931bb28e49977db8596",
+    "reviews/2026-10-20/grh-heat-forms/classic-full-source-form-and-heat-audit.md": "8fa68febf881500381bf86b7de435af1d26a2bc929e9e9a68ed67fa79afcff42",
+    "reviews/2026-10-20/grh-heat-forms/566-final-reverse-audit.md": "442e6493662fa459a77b58b68858ee10180b1fb4e95c280a04a42950fb53dc6a"
+  }
+}

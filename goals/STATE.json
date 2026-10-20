@@ -7,12 +7,12 @@
   "workflow": "goals/RESEARCH_WORKFLOW.md",
   "cadence": "goals/review-cadence.json",
   "decisions": "goals/DECISIONS.md",
-  "latest_strategy": "goals/reviews/2026-10-20-canonical-completion-strategy.md",
-  "latest_decision": "D20261020E",
+  "latest_strategy": "goals/reviews/2026-10-20-source-heat-form-strategy.md",
+  "latest_decision": "D20261020F",
   "macro_frontier": "goals/MACRO_FRONTIER.md",
   "macro_summary": "goals/reviews/2026-10-20-general-rh-macro-review-cycle-13.md",
   "latest_macro_review": "goals/reviews/2026-10-20-general-rh-macro-review-cycle-13.md",
-  "latest_iteration": "notes/565-canonical-completion-graded-identifiability-and-independent-energy.md",
+  "latest_iteration": "notes/566-source-closed-forms-and-full-weil-heat-trace-tests.md",
   "macro_control": {
     "schema": "macro-recovery-v2",
     "goal_epoch": "G20261014",
@@ -20,8 +20,8 @@
   },
   "macro": {
     "long_objective": "新的成长域独立实际算术输入/同对象ζ约束，或成长核心实质方法类边界；扣除≤538基线。",
-    "unpaid_bottleneck": "565付局部energy排B和CG类内唯一/分次识别边界；classic完整Γ/pp/pole独立正能量/同源全heat identity仍欠。actual whole4/5、560成长K/core/coupling不变。",
-    "why_this_contract": "C028具体gB能量和graded/Jordan/Markov检验已完成；选核须local背景但不付pure，当前仅同步报告。新准入须实际同源identity或signed费。",
+    "unpaid_bottleneck": "566付已核函数域H的正闭bundle及完整heat身份；classic同源Γ/pp/pole正闭形式仍欠。actualwhole4/5、560成长K/core/coupling未变。",
+    "why_this_contract": "C029具体构造与负对照已完成；unitary正H付热身份，automatic positive form不保source。当前仅保存同步，重准入须actual全source trace或独立极化/signed费。",
     "paused_routes": [
       "零点比例优化",
       "无零区域优化"
@@ -30,20 +30,21 @@
       "C001冻结/C008不等待；比例/零区暂停；C020—C023及549—560精确停止/合法paid逃逸见MACRO_FRONTIER，不续旧预算。",
       "561/C024分类一轮完成；fixedFourier运输0止；旧K23未出稿未消费，用户方向优先。",
       "562—564/C025—C027连续类/分布证书/双对象权与gauge各一轮完成；等价与已知来源不计actual输入。",
-      "565/C028选核/识别固定门一轮完成；CG标准类唯一性不付membership，energy物理dx不代Weil；无新同源input不续H/CM标签。"
+      "565/C028选核/识别固定门一轮完成；CG标准类唯一性不付membership，energy物理dx不代Weil；无新同源input不续H/CM标签。",
+      "566/C029 heatlift一轮完成；safejump/physicalclosure/finitegraph仅所证类失败，合法infinitegraph已核仍非classic identity；无新source不续unknownK/图参数。"
     ]
   },
   "primary_contract": {
-    "id": "C028",
-    "path": "goals/contracts/C028-canonical-kernels-and-independent-purity.md",
+    "id": "C029",
+    "path": "goals/contracts/C029-source-closed-forms-and-exact-heat-traces.md",
     "status": "completed",
     "iteration_budget": 1,
     "settled_iterations": [
-      "notes/565-canonical-completion-graded-identifiability-and-independent-energy.md"
+      "notes/566-source-closed-forms-and-full-weil-heat-trace-tests.md"
     ],
-    "stage": "565研究提交b6be8be3已核远端main/tree及本地同Git对象/clean；现仅保存核验metadata。",
-    "next_action": "报告565自然完成化/分次识别/正energy接口及classic同源identity缺口；新数学准入须具体input/test/net，不续未知canonical/H/CM标签。",
-    "stop_rule": "本门一次完成；不增规范参数/未知H/CM公理。源章审查若无新可判输入即0停止，不将选核升级classic正性。"
+    "stage": "566主稿/三原稿/终逆审五版本root消费PASS，统一结算1轮；当前准备保存与GitHub同tree同步。",
+    "next_action": "同步566/root收据并核远端main/tree与本地clean，报告unitary bundle成功及classic同源identity未付；新准入须实际input/test/net。",
+    "stop_rule": "本构造门一次完成；不调图长拟合/unknownK公理。重准入须新的完整source公式/独立极化或actualsigned费。"
   },
   "support_contracts": [],
   "must_not_forget": [
@@ -115,16 +116,26 @@
       "path": "reviews/2026-10-20/grh-canonical/remote-sync-verification.json",
       "kind": "cited",
       "scope": "565研究提交b6be8be3远端main/tree与本地同SHA/clean已核，随后仅metadata子提交。同步不是数学证明或新轮。"
+    },
+    {
+      "path": "notes/566-source-closed-forms-and-full-weil-heat-trace-tests.md",
+      "kind": "proved",
+      "scope": "函数域已核H的正闭bundle/all-time普通heat身份；continuous/nonunitary/jump/physicalQ闭包/finite-infinite图精确测试。classic正性未付，统一1轮。"
+    },
+    {
+      "path": "reviews/2026-10-20/grh-heat-forms/root-consumption-scope.json",
+      "kind": "cited",
+      "scope": "五最终版本及独立终审PASS；对象/norm/domain/源/allt-alln/重数/误差/符号/coverage/强旧root闭合，hash不认证数学。"
     }
   ],
   "pending_processes": [],
   "runtime_goal_observation": {
     "status": "absent",
-    "observed_at_utc": "2026-10-20T06:40:27.747750+00:00",
-    "basis": "get_goal实时null，未新建运行Goal；固定文件Goal/基线及open宏观门保留。"
+    "observed_at_utc": "2026-10-20T07:05:25.072464+00:00",
+    "basis": "本轮get_goal实时null，未建运行Goal；固定文件Goal/基线及open宏观门保留。"
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-10-20-canonical-energy-remote-verified.json",
+  "checkpoint": "goals/checkpoints/2026-10-20-source-heat-form-prepush.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
     "commit": "b6be8be3bb894286ed857a7e5c7253cdfac91b6e",
@@ -136,11 +147,11 @@
     "goal_lf_sha256": "cc6046029a8e5c9fe4eae427dfd663f1d851666370637c8fd451042f340fee8b",
     "mathematical_gate": "open",
     "final_execution_gate": "not-eligible",
-    "basis": "565核选择/分次识别和正heat接口完成；未付classic同源完整正能量，whole4/5、成长core仍在。正式cycle13不complete长期Goal。"
+    "basis": "566给函数域heatlift与经典具体候选边界，未付classic独立正能量/同源trace；whole4/5及成长core保持，宏观门open。"
   },
   "historical_completion_receipts": [
     "goals/goal-completion-receipt.20261014.json",
     "goals/goal-completion-receipt.20261014-continuation.json"
   ],
-  "process_inventory_observed_on": "三个原稿及final_reverse_565（含追加scope复核）final且root消费；无数学/数值producer。研究b6be8be3本地远端同SHA且clean，当前只metadata核验。"
+  "process_inventory_observed_on": "mapping_torus_heat_566/classic_heat_form_audit_566/final_reverse_566均final，root逐篇核读及五版本收据完成；无数学/数值producer，当前只保存同步。"
 }

@@ -713,3 +713,16 @@ C027唯一结算564一轮，原cadence2→3不重置；actual4/5/core/Ξ不变�
 C028统一结算1次，原cadence3→4；cycle13按四完整轮562–565正式复盘再归0。
 选核不付classic正性，最强whole4/5/成长K/core/coupling保持。无新同源identity或actualsigned费，
 不续canonical/positive H/CM公理合同；宏观门open，未创建或完成runtime Goal。
+
+## D20261020F：正Π跳跃闭形式与函数域holonomy heat身份
+
+用户明确要求从分布构造正闭形式并检完整热迹；C029准入具体jump与unitary circle bundle两构造。
+连续c正负段与F5/290检trace身份，不把positive form本身当成功。
+classic全Γ/pp/pole同对象审查保合法relative/confined/infinite逃逸；扣最强旧，不续unknownK。
+统一一完整迭代止损；无classic独立identity则瓶颈/4/5/core保持，宏观门open。
+
+566及三原稿终逆审PASS，root闭合五版本：函数域unitary bundle全普通heat身份新付，
+但同H的纯性归563旧；非酉边界、jump trace、physical Q闭包及图UV比较保精确失败范围。
+无限缩边图是合法closed/trace逃逸，次项却不等actual源，不以此排所有无限/非局部修复。
+C029统一结算1次，原cadence0→1不重置；classic正能量/同源trace未付，actualwhole4/5/core未变。
+同步报告后停止该具体构造门，重准入须新的完整source公式或独立actualsigned/极化输入。
