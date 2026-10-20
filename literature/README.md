@@ -1,5 +1,12 @@
 # RH-Weil 文献索引
 
+2026-10-20按用户要求扩查Weil原证明、Connes/F₁多年工作、Lapidus/Beurling与叶状流：
+[综合设施路线图](../goals/reviews/2026-10-20-generalized-weil-facilities-literature-roadmap.md)
+将已证对象、同源比较、独立正性及尚缺设施分开；各版本/章节见其中四专题原稿。
+包括2018平方RR计划的明确止损、2026真实模层/局部几何、Lapidus准可逆与det编码边界，
+及2402.06671双conormal迹的权/finite-part准入问题。专题文献审查0数学轮，无新RH结论；
+临时核图未计入永久PDF归档或历史清点统计。
+
 2026-10-12按用户要求核查Connes近期论文，区分最低态实零点定理、
 有限截面／增长支集两种极限及未证的算术正性，
 并补看2026年8月31日absolute twistor原稿。

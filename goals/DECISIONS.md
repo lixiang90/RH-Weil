@@ -746,3 +746,17 @@ Deligne tensor正系数/全局pole预算；001/307/363/563既有机制不重计�
 下一只核既存CC2018 §3.4平方相对指数对完整Γ有限部分的具体预算，若仍是策略/未知H1
 则来源0停并回560实际signed门；不另串geometry来源、不扩continuous参数。
 统一567一轮后cadence1→2，actual4/5/成长K/core/coupling与宏观门保持，runtime Goal仍null。
+
+## D20261020I：用户专题文献路线图，按设施而非名字选择后续研究
+
+用户明确要求扩查Connes多年/F₁、Lapidus、Weil原证明及本仓经验，覆盖此前单章执行优先级。
+本次为专题来源/战略审查0数学轮，不建C031、不重置cadence2/cycle13，也不创建runtime Goal。
+CC2018 §3.4门已执行：没有actual平方RR或完整Γ误差，来源0收口；不再以该计划开数学合同。
+原证明恢复两几何主干：有效对应/评价det碰撞预算、平方RR增长容量；Connes/Sonin正迹+signed
+误差为有实际输入的分析比较。Lapidus dual/谱映射/quasi-inverse/det编码分别承担不同端点。
+最新leaftrace提供具体F4候选，但2002几何正性与2024双conormal b-trace载体/假设不共用；
+fixed-leaf核的两侧权、finite-part/contact尚未与canonical Γ闭合。下一一次章节源门先核这些，
+若只能手选半轴或cδ0就停该翻译并返回560 actualreceiver signed准入，不串未知H/CM论文。
+几何主责的新map须同时消旧P_an关系、保非根物理r0（先运输f=e^(−u/2)r），再做RR/有效化；
+连续dimension须付过滤/拓扑兼容，不以393轮廓维数直接代H0。没有实际map或独立估计不预建合同。
+新路线图不提供classic独立正性或whole改善；actual4/5/成长K/core/coupling与长期完成门保持。

@@ -3,7 +3,9 @@
 当前文件[Goal](GOAL.20261014.md)，固定0c4f/≤538资产为输入，保留G20261014目标。
 2026-10-20现场get_goal=null，不声称旧active实例存在，未创建未请求的新运行Goal。
 [561–566战略回顾](reviews/2026-10-20-notes-561-566-analytical-rh-lessons.md)解释分析尝试的经验；
-用户本轮指定函数域正性来源优先，最新[567](../notes/567-function-field-positivity-origins-and-generalized-correspondence-tests.md)
+最新用户专题[文献与设施路线图](reviews/2026-10-20-generalized-weil-facilities-literature-roadmap.md)
+综合Weil原证明、Connes/F₁、Lapidus与叶状流，区分九项设施及三条来源链，0新数学轮。
+最新数学仍[567](../notes/567-function-field-positivity-origins-and-generalized-correspondence-tests.md)，
 恢复RR容量→Hodge index→全点数Gram，并用完整连续Π检验formal graph/duality/trace仍不足。
 [正式cycle13](reviews/2026-10-20-general-rh-macro-review-cycle-13.md)保跨周期记录，本次回顾不增轮或归零；
 [宏观前沿](MACRO_FRONTIER.md)保存准确范围、强旧短链、合法逃逸和选择依据。
@@ -16,10 +18,11 @@
 先答完成门／基线、最强可消费后果、最小未付箭头、为何停／当前为何胜备选、
 改变选择的证据及现场Git／Goal／进程，不能只恢复下一命令。
 
-当前选路：C030固定来源/全Π对应检验一次结束；下一只核363既存CC2018 §3.4的
-平方相对指数与完整Γ对角finite-part能否满足567(13)–(14)的具体预算。
-若仍是策略/周期轨道RR/未知H1则来源0即停，返回560 actualreceiver joint signed门；
-不续C030、玩具参数、低谱拟合或unknownH/K/CM，不另串几何paper。
+当前选路：C030不续，CC2018 §3.4已核为未付平方RR的研究计划，该章节门来源0结束。
+下一唯一动作是2402.06671v2双conormal载体的固定权／finite-part与完整Γ规范比较；
+先澄清显示式及同一duality运输，不能手选半轴权或δ0。未闭合即停该翻译，回560 actualsigned。
+评价det／截面容量为几何主责，但新map须先通过旧f/物理r坐标下的relation/nonroot双测试，
+不预建C031或未知上同调合同、不重复已停参数／来源链，原cadence2不变。
 
 [通用流程](RESEARCH_WORKFLOW.md)适用于长期重型研究；[决策](DECISIONS.md)、
 [原轮数](review-cadence.json)、[复盘协议](REVIEW_PROTOCOL.md)各负其责。

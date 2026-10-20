@@ -7,10 +7,10 @@
   "workflow": "goals/RESEARCH_WORKFLOW.md",
   "cadence": "goals/review-cadence.json",
   "decisions": "goals/DECISIONS.md",
-  "latest_strategy": "notes/567-function-field-positivity-origins-and-generalized-correspondence-tests.md",
-  "latest_decision": "D20261020H",
+  "latest_strategy": "goals/reviews/2026-10-20-generalized-weil-facilities-literature-roadmap.md",
+  "latest_decision": "D20261020I",
   "macro_frontier": "goals/MACRO_FRONTIER.md",
-  "macro_summary": "notes/567-function-field-positivity-origins-and-generalized-correspondence-tests.md",
+  "macro_summary": "goals/reviews/2026-10-20-generalized-weil-facilities-literature-roadmap.md",
   "latest_macro_review": "goals/reviews/2026-10-20-general-rh-macro-review-cycle-13.md",
   "latest_iteration": "notes/567-function-field-positivity-origins-and-generalized-correspondence-tests.md",
   "macro_control": {
@@ -19,9 +19,9 @@
     "goal_lf_sha256": "cc6046029a8e5c9fe4eae427dfd663f1d851666370637c8fd451042f340fee8b"
   },
   "macro": {
-    "long_objective": "新的成长域独立实际算术输入/同对象ζ约束，或成长核心实质方法类边界；扣除≤538基线。",
-    "unpaid_bottleneck": "567全Π形式对应/trace仍可失正；RR增长容量预算独立证明了充分接口，classic实际sections/RR误差/完整Γ自交identity未造。actual4/5及560成长K/core/coupling不变。",
-    "why_this_contract": "按用户函数域优先完成具体fullΠ source graph/duality/trace反测；追到RR与Deligne来源并扣363强旧。下一仅既存§3.4完整Γ对角预算准入，无input即来源停并回实际signed。",
+    "long_objective": "保G20261014：由一般g-integer及对偶建立独立同源Weil正性/有效性/RR设施以覆盖classic；实际ζ成长core及完整谱约束仍按冻结基线验收。",
+    "unpaid_bottleneck": "专题路线图未付classic实际sections/独立index、完整Γ对角source identity或560成长signed K；actual4/5/core/coupling/Ξ保持。",
+    "why_this_contract": "用户授权扩查文献并综合路线图，四来源稿与独立终审已root消费。2018平方RR来源门0结束；下一新具体dual-conormal权/finite-part来源比较，比再列未知RR/H更可判。",
     "paused_routes": [
       "零点比例优化",
       "无零区域优化"
@@ -43,8 +43,8 @@
     "settled_iterations": [
       "notes/567-function-field-positivity-origins-and-generalized-correspondence-tests.md"
     ],
-    "stage": "567及两最终原稿独立终逆审PASS；root绑定版本/全部前件并唯一结算1轮。",
-    "next_action": "只核363已归档CC2018 §3.4的平方相对指数二次项/完整Γ对角finite-part，能否给567(13)-(14)实际数据或误差；若仍是策略/周期RR/未知H1则来源0停，回560 actualreceiver joint signed准入，不预建合同。",
+    "stage": "C030/567已完成；本次文献/设施路线图及四稿独立终审PASS后root消费，0数学轮，无C031。",
+    "next_action": "一次来源门：核2402.06671v2 §§1.3.6/5.8/6.7与finite-part出处，固定dual-carrier权、两半轴、delta0及trace类型，对照Burnol/563完整Γ；若只可手调twist/contact则停该翻译回560 actualreceiver joint signed准入，不预建数学合同。",
     "stop_rule": "固定test一轮止；无actual截面/完整tensorpole新输入，不续RR/H/CM标签。"
   },
   "support_contracts": [],
@@ -61,7 +61,8 @@
     "合同1–2完整轮/原cadence唯一；组织/来源恢复/推送0，不以零轮串换标签；下一恢复STATE动作。",
     "560 Π fullG/error compact已付ALLfixedL source/Dlog；K_L/growth/sign未付；actualm||H_TDP_-||lower只auxH，非M/k/receiver像/Weil源；ratio结束不重跑。",
     "561的μ是物理x整数侧，非log n格或零点正谱；P/Π/M分别付；fixedGaussian全t与unitgap不可弱化。分类与正性分开；C024完成不complete长期目标。",
-    "567 formalgraph/transpose/composition/trace和positive offdiag不付Hodge index；RR(14)须独立sections/同cutoff全部误差/source eta，C_j可增长；073高维membership纠正不撤562-566既有条件后果。"
+    "567 formalgraph/transpose/composition/trace和positive offdiag不付Hodge index；RR(14)须独立sections/同cutoff全部误差/source eta，C_j可增长；073高维membership纠正不撤562-566既有条件后果。",
+    "专题路线图0轮：2018§3.4已来源止；2024双conormal b-trace与2002Riemannian正性不自动共载体，FP/两侧权未付Γ。393 Dim_profile非H0；测试先运r=e^(u/2)f。"
   ],
   "evidence": [
     {
@@ -153,16 +154,26 @@
       "path": "reviews/2026-10-20/grh-geometric-origin/remote-sync-verification.json",
       "kind": "cited",
       "scope": "567研究提交20c74f4e的远端main/tree/parent与本地同SHA/clean已核；随后metadata子提交另核。同步非数学证明/新轮。"
+    },
+    {
+      "path": "goals/reviews/2026-10-20-generalized-weil-facilities-literature-roadmap.md",
+      "kind": "cited",
+      "scope": "用户文献/路线图0数学轮：Weil/MT/RR、Connes/F1、Lapidus、Deninger设施与旧资产责任图；来源/范畴/trace/准入精确，非classic新正性。"
+    },
+    {
+      "path": "reviews/2026-10-20/grh-literature-roadmap/root-consumption-scope.json",
+      "kind": "cited",
+      "scope": "五最终主/来源稿与独立终审版本绑定；f/r草稿修复已重闭，published假设不可拼接，next source gate准确；hash不认证外部证明。"
     }
   ],
   "pending_processes": [],
   "runtime_goal_observation": {
     "status": "absent",
-    "observed_at_utc": "2026-10-20T07:48:37.426756+00:00",
-    "basis": "本轮恢复与结算前get_goal均null；未建未请求runtime Goal，同文件Goal/固定基线与open宏观门保持。"
+    "observed_at_utc": "2026-10-20T08:24:10.184593+00:00",
+    "basis": "本轮恢复和root消费前get_goal均null；未创建未请求实例，同文件Goal/固定基线及open宏观门保持。"
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-10-20-function-field-origin-567-sync.json",
+  "checkpoint": "goals/checkpoints/2026-10-20-generalized-weil-literature-roadmap.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
     "commit": "20c74f4eb6ee5cf7d455caf864923199026998d5",
@@ -174,11 +185,11 @@
     "goal_lf_sha256": "cc6046029a8e5c9fe4eae427dfd663f1d851666370637c8fd451042f340fee8b",
     "mathematical_gate": "open",
     "final_execution_gate": "not-eligible",
-    "basis": "567新formal全源反测试及conditional RR预算未付classic独立index/源身份；whole4/5及成长core保持，宏观门open。"
+    "basis": "本轮仅文献设施路线图0数学轮，未付classic独立index/源身份或actual成长signed费；强旧4/5及宏观门保持。"
   },
   "historical_completion_receipts": [
     "goals/goal-completion-receipt.20261014.json",
     "goals/goal-completion-receipt.20261014-continuation.json"
   ],
-  "process_inventory_observed_on": "两原稿与独立终审均final且root消费；研究20c74f4e已同步并核本地clean，无数学/数值/shell producer。仅保存核验metadata及新checkpoint。"
+  "process_inventory_observed_on": "三专题原稿/格式复核和独立路线图审查均final并root消费；无数学/数值/shell producer。仅保存并同步本次专题审查。"
 }

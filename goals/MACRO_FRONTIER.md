@@ -10,10 +10,20 @@
 对象分类／规范／对偶与全源正性、carrier及identity分别核。经典独立正性仍未付。
 本轮用户将函数域正性来源提到优先；[567](../notes/567-function-field-positivity-origins-and-generalized-correspondence-tests.md)
 完成一次具体fullΠ graph test，不再把形式对应/正交点/对偶/trace当成已付Hodge index。
-下一仅核363既存CC2018 §3.4对完整Γ对角的相对指数比较；没有同源预算就来源0停，
-返回560实际receiver的joint signed原件准入，不串新geometry公理或续旧预算。
+用户随后要求扩查前人/本仓并建立[设施路线图](reviews/2026-10-20-generalized-weil-facilities-literature-roadmap.md)。
+CC2018 §3.4现已准确来源0收口：交叉正规化／平方RR／截面存在仍是任务，§7只付Frobenius提升。
+下一一次源门用新定位的2402.06671v2双conormal权／finite-part比较完整Γ；
+不能手选半轴twist或cδ0，未闭合即停翻译并回560 actualsigned，不预建新数学合同。
 
 ## 因果链和消费范围
+
+本次专题审查0数学轮：Weil1941/MT/Groth的有效对应／评价det／限制映射与RR是可移植前端；
+Connes/F₁真实site平方、局部RR及2026模层提供候选对象但非global正极化；
+Lapidus提供Mellin/域/det账本，准可逆/普通可逆/零点后验编码不可混用。
+Deninger–Singhof2002的几何正性与ALKL2024 preserved-leaf双carrier b-trace假设不自动兼容；
+后者intro显示的finite-part式不能按普通积分消费，双侧权/contact另核。只准入比较，未付Γ桥。
+393的连续Dim_profile不代解析H0容量；405/552双测试严格保旧f与物理r=e^(u/2)f的坐标。
+四来源稿/路线图/root收据保精确阅读和未取得来源；actual4/5/core/Ξ、原cadence2及宏观门不改。
 
 567追到曲线RR/非零有效degree/截面乘法/固定h0(2K)容量，精确交数全m,n给完整周期Weil Gram。
 这些来源与Deligne tensor正系数＋全局pole预算归已有机制，扣001/307/363/563。
