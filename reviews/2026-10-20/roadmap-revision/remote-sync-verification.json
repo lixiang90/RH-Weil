@@ -1,0 +1,21 @@
+{
+  "schema": "rh-weil-remote-sync-verification-v1",
+  "observed_at_utc": "2026-10-20T14:32:43.349629+00:00",
+  "repository": "https://github.com/lixiang90/RH-Weil",
+  "branch": "main",
+  "research_commit": "4a33fdef88fe67a39ae44e16af6f0803d09816c8",
+  "tree": "265a4e8cfc6ad8ba963eae1b28970e971bd050cb",
+  "parent": "ca5e5f3b4cd213b549ea720ec76aa1ed75aebc60",
+  "research_files": 13,
+  "verification": "Independent GitHub GET main ref and Git commit matched staged tree and guarded parent; exact same commit object imported locally, HEAD=origin/main and clean before this receipt.",
+  "get_urls": [
+    "https://api.github.com/repos/lixiang90/RH-Weil/git/ref/heads/main",
+    "https://api.github.com/repos/lixiang90/RH-Weil/git/commits/4a33fdef88fe67a39ae44e16af6f0803d09816c8"
+  ],
+  "local_commit_verified": true,
+  "local_tree_verified": true,
+  "cadence_unchanged": true,
+  "mathematical_iterations": 0,
+  "metadata_policy": "This receipt, STATE and sync checkpoint are published as one metadata-only child. Independent GET/SHA import of that child is verified at execution; no self-referential follow-up receipt loop.",
+  "scope": "Synchronization and version evidence, not mathematical certification; actual variational gate unexecuted and macro bottleneck unchanged."
+}
