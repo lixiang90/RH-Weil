@@ -1,5 +1,12 @@
 # RH-Weil 文献索引
 
+2026-10-20真实receiver比较见[571](../notes/571-actual-receiver-two-boundary-signed-comparison-and-growth.md)：
+本轮重开Montgomery–Vaughan1974作者PDF并核本地原件printed73–75/82，目视74–75。
+Thm2 localgap常数3π/2、Cor2误差3π及Cor3有限Dirichlet均值用于真实receiver有限Hilbert-valued系数。
+[来源记录](../reviews/2026-10-20/receiver-signed/source-read-record.json)保准确阅读/原件SHA及未重证全章范围；
+完整smooth系数的加权MV费用发散，不能套其无限域。m²同步平均不代原norm/actualb权/Weil容量。
+无新永久PDF，临时QA图已清除，文献资产清点不变。
+
 2026-10-20实际joint signed比较见[570](../notes/570-actual-joint-sonin-signed-mixed-and-narrow-source-cost.md)：
 重开Bugeaud–Mignotte–Siksek原刊Annals163(2006)pp988–989 Thm9.4，
 核固定2,3及有限中心2,3,5的Matveev实例、乘积减1到additive log转换。

@@ -2,7 +2,13 @@
 
 当前文件[Goal](GOAL.20261014.md)，固定0c4f/≤538资产为输入，保留G20261014目标。
 2026-10-20现场get_goal=null，不声称旧active实例存在，未创建未请求的新运行Goal。
-最新数学[570实际joint signed比较](../notes/570-actual-joint-sonin-signed-mixed-and-narrow-source-cost.md)：
+最新数学[571真实receiver双边界比较](../notes/571-actual-receiver-two-boundary-signed-comparison-and-growth.md)：
+同一真实v/u给完整J逆Gram差，正向upper无坏gap分母；固定单prime在严格T=Γ(R)的actualcarrier上两号。
+模型δwin不代actualε；原dy/source du/Dlog保角色。cofinal θ>1高度区间上m²归一平均趋0，
+原norm/b权及Sonin全逆运输仍欠，不证receiver方向跨窗norm比小，也不进入危险core。
+[正式cycle14暨结算](reviews/2026-10-20-general-rh-macro-review-cycle-14.md)比较566–571六完整轮；
+571统一5→6，复盘一次归零。局部receiver比较更明确，macro容量/whole4/5/core/Ξ未变。
+前轮数学[570实际joint signed比较](../notes/570-actual-joint-sonin-signed-mixed-and-narrow-source-cost.md)：
 固定S={∞,2,3}及全G逆、全部returns，双pole-zero窄patch源的实际E23为±C23 log²(1/η)+O(log(1/η))。
 dense非exact平均由既有BMS/Matveev实例付清，不假设uniform gap；同固定窗有无限正负指数。
 原L²/Dlog归一误差均趋0，完整Γ主导Q仍正；所有pp/pole按本源精确取零而非删定义。
@@ -43,12 +49,13 @@ dense非exact平均由既有BMS/Matveev实例付清，不假设uniform gap；同
 已完成一次实际卷积评价商、étale/jet和连续正反载体的容量差检验，停止扩参数。
 其后[C032](contracts/C032-dual-carrier-gamma-and-budget-cocycles.md)已实际执行2402.06671v2
 固定权／finite-part门并结算569；停止无额外parity/算术indicial map的直接Γ翻译。
-下一唯一动作是[570结算中的actual receiver来源准入](reviews/2026-10-20-joint-sonin-signed-570-settlement.md)：
-从560 exact双边界residual，检查L_-D_F*H_Tw_R受限像及T=Γ(R)下的全逆signed费用。
-先付实际source/k_R/w_R角色与成长误差；旧full-H norm下界不在已认证receiver像，不代实际源费用。
-无新净测试则入口停，不预建C034，不续窄η/N/第三prime或旧ratio预算。
+下一唯一动作是[cycle14中的一次finiteEuler来源准入](reviews/2026-10-20-general-rh-macro-review-cycle-14.md)：
+把实际bar b乘receiver和，先核coherent系数/正确L²(t>0)域、diagonal与finite-height尾和MV费用。
+先用singleprime负对照，不以fixedF Bohr均值或漂亮diagonal代原norm/cofinal source费用；
+无能改变选择的新净输入就入口停，不预建C035，不续singleprime相位/N/m归一参数。
+571已结算的actualreceiver门不重跑；actual k_R/fullinverse成长运输缺口始终另付。
 评价det／截面容量为几何主责，但新map须先通过旧f/物理r坐标下的relation/nonroot双测试，
-C031/C032的构造/反测已结算；不建未知上同调合同、不重复已停参数／来源链，单cadence为5。
+C031–C034的构造/反测已结算；不建未知上同调合同、不重复已停参数／来源链，单cadence按cycle14正式复盘为0。
 
 [通用流程](RESEARCH_WORKFLOW.md)适用于长期重型研究；[决策](DECISIONS.md)、
 [原轮数](review-cadence.json)、[复盘协议](REVIEW_PROTOCOL.md)各负其责。

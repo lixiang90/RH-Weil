@@ -2,7 +2,18 @@
 
 2026-10-20更新；完整Goal、唯一动作和现场观察以STATE为准。
 固定基线0c4f3a3eb609bb1d9564138fa4a35701f05605f2（全部≤538），同G20261014。
-最新[C033实际joint signed门](contracts/C033-actual-joint-sonin-signed-mixed.md)
+最新[C034真实receiver比较](contracts/C034-actual-receiver-two-boundary-signed-comparison.md)
+已在[571](../notes/571-actual-receiver-two-boundary-signed-comparison-and-growth.md)终审/root消费并统一一轮。
+v=LD*Pw、u=HDPw和actual all-pass block给δwin=B−<(v,u),J^-1(v,u)>，保fullinverse/allreturns。
+正向upper无坏gap分母，fixedsingleprime严格Γ锁定的actualcarrier两号为R^-1/2阶；δwin不代actualε。
+cofinal θ>1实际高度区间上m²归一receiver平均趋0，与旧fullH norm饱和可共存；
+不证receiver方向跨窗norm比小，原norm/b权/coherent tail与Sonin运输仍欠，旧555有利高频不能代core。
+[cycle14](reviews/2026-10-20-general-rh-macro-review-cycle-14.md)统一比较566–571六完整轮，
+571结算5→6、复盘一次归零；strong-oldwhole4/5/core/coupling/Ξ及独立容量未改。
+下一只一次finiteEuler weightedreceiver系数/原域/finite-height费用准入，详见cycle14；
+fixedF Bohr/diagonal或unknowntail改名即停，不建C035，不续singleprime相位/N/m参数。
+
+前轮[C033实际joint signed门](contracts/C033-actual-joint-sonin-signed-mixed.md)
 已在[570](../notes/570-actual-joint-sonin-signed-mixed-and-narrow-source-cost.md)终审/root消费，统一一轮。
 固定S={∞,2,3}全G逆与全部returns，实际双pole-zero窄源E23=±C23log²+Olog；
 returns整体O1，dense nonexact仅平滑平均O1，费用含既有BMS/Matveev有限log实例。
@@ -11,7 +22,7 @@ returns整体O1，dense nonexact仅平滑平均O1，费用含既有BMS/Matveev�
 局部unknown sign改变，宏观独立容量与542+555→557 whole4/5/core/coupling/Ξ不变。
 [结算](reviews/2026-10-20-joint-sonin-signed-570-settlement.md)保存root范围和下一受限receiver map：
 560双边界residual在L_-D_F*H_Tw_R像、T=Γ(R)下是否有可判signed新费，须含全逆和clipping成长价。
-只准入一次具体来源比较，未执行新数学合同；旧full-H norm下界不代receiver或Weil源下界。
+该来源门已在571执行结算；旧full-H norm下界始终不代receiver或Weil源下界。
 没有新输入/测试/净后果即停，不续η/N/第三有限位或预建C034。
 
 前轮[C032双载体Γ与cocycle](contracts/C032-dual-carrier-gamma-and-budget-cocycles.md)
@@ -234,6 +245,7 @@ cofinal真实m||H_TDP_-||在T≤(2−ε)eL趋1，但输入非M/k_R/actualreceive
 | 566/C029源闭形式 | 一次unitary bundle热lift与经典具体准入测试结束；不调图长拟合/Weyl参数 | 新actual全source trace公式、独立极化/signed费才重准入；更多unknownK/CM不算input |
 | 567/C030对应/568/C031评价 | fullΠ formal graph及真实local carrier均有正反测试；各一轮止，不扩参数 | 同一global source/kernel/capacity与全部Γ/pp/pole预算身份；signed商或allGramPSD不是新正性 |
 | 569/C032双载体Γ/cocycle | all-k共同权门收口；有费修复及matched phase真实，一轮止 | 真实parity/算术indicial source或global det sections/RR；纤维正/曲率等价不作新输入 |
+| 571/C034 receiver | 完整Schur/Γ锁定singleprime两号/m²归一平均统一一轮止；model≠actualsource | 实际b权coherent tail且原域合法、同源clipping/joint新输入；不以unknownnorm续约 |
 | 比例/无零区域 | 用户要求暂停 | 仅用户明确恢复，不因调用经典输入而重启优化 |
 
 ## 恢复的六项短答案

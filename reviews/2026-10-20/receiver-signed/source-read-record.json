@@ -1,0 +1,25 @@
+{
+  "schema": "rh-weil-primary-source-scope-v1",
+  "iteration": 571,
+  "date": "2026-10-20",
+  "primary_source": {
+    "title": "Montgomery–Vaughan, Hilbert's Inequality",
+    "edition": "JLMS (2)8 (1974),73–82",
+    "url": "https://personal.science.psu.edu/rcv4/personal/Publications/s2-8-1-73.pdf",
+    "local_path": "literature/background/montgomery-vaughan-hilbert-1974.pdf",
+    "local_sha256": "0dbcddf24bc41c65d1920c59aafe7fe85f13a7519b0edf9be9164c84d1cc6db4",
+    "actually_read_this_turn": "Root reopened original author-hosted PDF on web; read local original printed73–75 and82, visually inspected printed74 and75 including formulas1.6–1.11. Theorem2/local-gap hypotheses and Cor2/3; p82 explains two Hilbert applications. No full proof audit of all preceding Theorem1 lemmas claimed.",
+    "consumed": "Finite real distinct log n, local delta_n>=1/(2n); Thm2(1.7)3pi/2, Cor2(1.9) mean error3pi sum |a_n|^2/delta_n; finite Hilbert-valued version via orthonormal coordinates, translated mean interval phases do not alter norms.",
+    "not_consumed": "Infinite smooth-series application with divergent sum n||f_n||^2; arbitrary g-log spacing or ALL-R source control."
+  },
+  "internal_paid": [
+    "560 full-G/window bridge/exact residual and probability EX/Var; first-moment bounds",
+    "532/560 full Gamma and derivative asymptotics; source Dlog and clipping",
+    "223/551 finite Hilbert-valued mean tools, old primary audits",
+    "542+555->557 strongest-old leading4/5",
+    "570 actual fixed2,3 source signs differ in object from current modeldelta"
+  ],
+  "new_pdf_assets": 0,
+  "temporary_visuals": "tmp/pdfs/receiver-571 two page PNGs, read-only QA, removed after inspection; no delivered PDF",
+  "proof_scope": "New current receiver exact/phase tests and synchronized normalized mean are separately proved in three drafts and fresh review; source theorem attribution retained. Hash only binds source version."
+}

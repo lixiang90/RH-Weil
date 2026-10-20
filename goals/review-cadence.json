@@ -5,19 +5,19 @@
   "target_rounds": 6,
   "maximum_rounds": 8,
   "counting_unit": "completed research continuation iteration, not tool calls or files",
-  "rounds_since_review": 5,
-  "last_review": "goals/reviews/2026-10-20-general-rh-macro-review-cycle-13.md",
-  "last_review_baseline_commit": "71d3b7e738cb2b8b8c2c3ff43f91a328df1af5d6",
-  "last_review_completed_round_count": 4,
-  "last_review_trigger": "562/563/564/565 four complete iterations.565 root closure settled3->4; formal cycle13 review resets0 once. Standard sources/drafts/audits/script/review/push zero additional. Fixed Goal/baseline unchanged.",
-  "last_completed_round": "notes/570-actual-joint-sonin-signed-mixed-and-narrow-source-cost.md",
+  "rounds_since_review": 0,
+  "last_review": "goals/reviews/2026-10-20-general-rh-macro-review-cycle-14.md",
+  "last_review_baseline_commit": "866b266bff8d549b42a361e745ad7b29a8f5c227",
+  "last_review_completed_round_count": 6,
+  "last_review_trigger": "566/567/568/569/570/571 six complete iterations.571 root closure settles5->6; formal cycle14 now resets6->0 once. Source/drafts/audit/checkpoint/push/review zeroextra. Same Goal and frozenbaseline.",
+  "last_completed_round": "notes/571-actual-receiver-two-boundary-signed-comparison-and-growth.md",
   "last_completed_round_date": "2026-10-20",
   "last_completed_round_baseline_commit": "0c4f3a3eb609bb1d9564138fa4a35701f05605f2",
-  "latest_user_directed_review": "goals/reviews/2026-10-20-joint-sonin-signed-570-settlement.md",
+  "latest_user_directed_review": "goals/reviews/2026-10-20-general-rh-macro-review-cycle-14.md",
   "latest_user_directed_review_baseline_commit": "0c4f3a3eb609bb1d9564138fa4a35701f05605f2",
-  "latest_user_directed_review_scope": "570 actual joint full-G signed/norm gate settled once4->5; source/three drafts/review/root/checkpoint/push zero extra; cycle13 not reset.",
-  "current_research_focus": "570 fixed infinity2,3 actual E has both signs and infinite indices, normalized error vanishes; fullQ positive fromGamma. Macro growth capacity unchanged. Stop narrow-source parameters; source admission only for560 exact residual on actual receiver image, no C034 yet.",
-  "weil_f1_rounds_since_historical_review": 34,
+  "latest_user_directed_review_scope": "571 actualreceiver fullinverse/singleprimeGamma signs/cofinal m2mean settled once5->6. Cycle14 reviews566-571 sixrounds and resets0 once; macrocapacity/whole4/5 unchanged.",
+  "current_research_focus": "571 complete. Stop singleprime phase/N/m-normalization. One sourceadmission: actual b-weighted finiteEuler receiver coefficient/domain/finite-height cost; no C035 without netinput, no infiniteMV out-of-domain. Preserve actual Sonin fullinverse/clipping and core gap.",
+  "weil_f1_rounds_since_historical_review": 35,
   "last_completed_round_note_paths": [
     "notes/524-f1-mobius-cutoff-taylor-obstruction-and-repair.md",
     "notes/525-f1-smoothed-mobius-probes-and-arithmetic-strength.md",
@@ -53,6 +53,7 @@
     "notes/567-function-field-positivity-origins-and-generalized-correspondence-tests.md",
     "notes/568-source-evaluation-carriers-local-jets-and-weil-capacity-gap.md",
     "notes/569-dual-carrier-gamma-normalization-and-budget-cocycles.md",
-    "notes/570-actual-joint-sonin-signed-mixed-and-narrow-source-cost.md"
+    "notes/570-actual-joint-sonin-signed-mixed-and-narrow-source-cost.md",
+    "notes/571-actual-receiver-two-boundary-signed-comparison-and-growth.md"
   ]
 }
