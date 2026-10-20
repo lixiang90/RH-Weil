@@ -1,0 +1,16 @@
+{
+  "schema": "rh-weil-remote-sync-verification-v1",
+  "date": "2026-10-20",
+  "repository": "https://github.com/lixiang90/RH-Weil",
+  "branch": "main",
+  "research_commit": "d74c5f73aaab0a847df7aedb572aaeccf81def98",
+  "research_parent": "8a5f85bb3f4f489d90cf766d8ef98cd4e984b2c0",
+  "research_tree": "6d5a6dad331a4c2e71221247395077aa2d3c6ad5",
+  "files_in_research_commit": 16,
+  "independent_remote_observation": "GitHub GET git/ref/heads/main equals research_commit; GET git/commits/sha tree and parent equal local staged tree and prior HEAD. Conditional non-force ref update used expected parent.",
+  "local_import": "Reconstructed exact commit bytes; SHA1 matched before hash-object/update-ref writes. HEAD and origin/main match research_commit; worktree and index clean. No reset/checkout/rebase.",
+  "version_check": "Root receipt six LF hashes verified; final indexed tree equals GitHub-created tree. EOF-only cleanup recorded.",
+  "authorization": "Original user explicitly requested continuous synchronization and upload to GitHub; existing origin matches exact destination. No raw dialogue attachment or credential pattern uploaded.",
+  "metadata_followup": "This receipt, STATE and a new immutable checkpoint form a metadata-only child commit. STATE intentionally points to verified research SHA rather than inventing a self-referential commit hash; final child SHA verified live after creation.",
+  "mathematical_scope": "C025/562 one iteration only, cadence1. No classical RH proof, actual whole4/5/core/normal-Xi improvement or macro Goal completion."
+}

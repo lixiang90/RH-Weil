@@ -47,8 +47,8 @@
     "settled_iterations": [
       "notes/562-generalized-rh-continuous-g-integers-and-spectral-multiplicity.md"
     ],
-    "stage": "562及六原件root前件消费已闭合，原cadence0->1已唯一结算；主体/补节独立PASS，正在保存远端核验。",
-    "next_action": "核562全部版本receipt与diff，提交到既有GitHub main并核远端完整SHA/tree及本地clean；随后报告一般类RH结论。下一数学合同无新actual input不自动建立。",
+    "stage": "562研究提交d74c5f73已独立核远端main/tree、导入相同本地Git对象并核clean；后续仅核验metadata子提交，不增数学轮。",
+    "next_action": "报告562一般类RH/连续正例/C1-C5修订及未付经典责任；下一数学合同仅凭新同对象完整正性/faithful谱身份/可核分布逼近输入重新准入，不续已停合同或玩具族。",
     "stop_rule": "一完整轮；不调c上端/扩无穷玩具族，若无新正例仅旧判据恢复则0停。一般positive或C5等价不代实际ζ成长/Ξ门。"
   },
   "support_contracts": [],
@@ -151,20 +151,25 @@
       "path": "reviews/2026-10-20/grh-general/root-consumption-scope.json",
       "kind": "cited",
       "scope": "562及五独立/来源原稿最终6版本，主体及补节逆审PASS；对象/norm/域/量词/符号/coverage/strongest-old完整root闭合，hash不认证证明。"
+    },
+    {
+      "path": "reviews/2026-10-20/grh-general/remote-sync-verification.json",
+      "kind": "cited",
+      "scope": "562研究提交d74c5f73远端main/tree与本地同SHA/clean已核；后续仅metadata子提交。同步不是数学证明或新轮。"
     }
   ],
   "pending_processes": [],
   "runtime_goal_observation": {
     "status": "absent",
-    "observed_at_utc": "2026-10-20T02:38:59.690251+00:00",
-    "basis": "本轮恢复现场get_goal返回null；未创建未请求运行Goal，文件G20261014/基线/完成门保持。"
+    "observed_at_utc": "2026-10-20T02:42:07.479865+00:00",
+    "basis": "本轮收尾再次get_goal=null；未创建运行Goal，文件长期Goal/基线保持，未满足宏观完成门。"
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-10-20-generalized-rh-prepush.json",
+  "checkpoint": "goals/checkpoints/2026-10-20-generalized-rh-remote-verified.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
-    "commit": "68a86cfa70aa37c433658654dd1e393bc9c915f5",
-    "basis": "GitHub main独立读取完整SHA；远端tree=本地index24fc8386，16研究文件，6原件LF/receipt逐核，导入同Git对象后本地HEAD=remote且clean。当前后续仅STATE/核验/checkpoint metadata，不滚基线/计轮。"
+    "commit": "d74c5f73aaab0a847df7aedb572aaeccf81def98",
+    "basis": "GitHub main与commit独立GET核完整SHA/tree6d5a6dad/parent；16文件树等于本地index，导入精确Git对象后HEAD=origin/main且clean。随后仅STATE/remote核验/checkpoint metadata子提交，不滚基线/计轮。"
   },
   "completion_audit": {
     "goal": "goals/GOAL.20261014.md",
@@ -178,5 +183,5 @@
     "goals/goal-completion-receipt.20261014.json",
     "goals/goal-completion-receipt.20261014-continuation.json"
   ],
-  "process_inventory_observed_on": "grh_final_reverse主体终审及spectral_mixture_audit独占原稿/新§4.1一致性复核均完成；root版本收据已出，无numeric/shell producer。旧dialogue pending_init不依赖。"
+  "process_inventory_observed_on": "本轮主体/模型/Weil/混合审查均已出稿并完成root消费，原稿hash已核，无numeric/shell producer；旧dialogue pending_init不依赖。研究SHA远端本地一致且clean；只剩当前metadata核验。"
 }
