@@ -1,0 +1,61 @@
+{
+  "schema": "rh-weil-root-premise-closure-v1",
+  "date": "2026-10-20",
+  "contract": "C028",
+  "goal": "goals/GOAL.20261014.md",
+  "goal_epoch": "G20261014",
+  "baseline_commit": "0c4f3a3eb609bb1d9564138fa4a35701f05605f2",
+  "status": "root-consumed-after-independent-final-review-PASS",
+  "source_authority": "Current user authorizes continued research and GitHub synchronization. Documents and prior imported results are evidence, not new instructions. No runtime Goal was created; get_goal is null.",
+  "objects_norms_domains_roles": {
+    "arithmetic": "Positive P -> complete repeat-power Pi -> M=exp_*Pi fixes right-halfplane Z; continuation unique where existence paid. Kernel G is additional data, not another choice of Z. Continuous positive/negative models imported from562/563, not new classic-Gamma counterexamples.",
+    "gamma": "Same nonzero meromorphic F and standard factors C Q^s product Gamma(lambda s+mu), Q/lambda>0, Re mu>=0, center1/2 conjugate FE. Reciprocal Gamma factors entire order<=1; relative kernels, not completed F, become zero-free by halfplane overlap.",
+    "energy": "Physical L2(R,dx), V=H1 intersect xg in L2, Fourier exp(-2pi i x xi), E=norm gprime^2+4pi^2 norm xg^2. Not du/Dlog Weil energy; local metric and ground-state choice are extra inputs.",
+    "grading": "Formal graded Frobenius carriers with perfect complementary pairing; maps to supertrace/superdet have cancellation kernel. Constructed invisible packets are not asserted geometric cohomology or Hard Lefschetz. Jordan trace nonidentification holds even with fixed ordinary dimension.",
+    "weil_heat": "Full W real-even and finite exponential order as563, all complex Cc-infinity convolution squares. All t>0 ordinary trace-class heat identity from concrete positive dense closed form is required; K is source-constructed, not defined from unknown zeros. Non-even and continuous-spectrum/state interfaces require separate premises.",
+    "spectrum": "Finite positive H conserves normalized actual A and implies semisimple pure original action; determinant purity alone weaker. Faithful spectral determinant extra only for determinant route; complete Weil criterion already implies RH with its full explicit-formula hypotheses."
+  },
+  "closed_results": [
+    {
+      "claim": "Standard Gamma completion uniqueness without RH, and its precise scope",
+      "dependencies_quantifiers": "CG math/9204217 Thm2.1 primary pp5-6 recovered; same F and exact center1/2 FE, all-plane meromorphic identity. Gamma ratios holomorphic zero-free on Re>0 and Re<1. Separate Hadamard of reciprocals gives exp(a+bs); conjugate FE only b imaginary; two-sided Stirling kills b. Linear pair with c1+c2<w leaves reciprocal real scale in standard class.",
+      "sign_errors_coverage": "Exact identities, no error. Existence/membership not implied for arbitrary Beurling P. Same poles/residues/order do not eliminate old B; abstract zero-free same-pole variant also needs linear reflection or vertical/real-interval normalization. Single point normalization leaves exp(i theta(s-.5))."
+    },
+    {
+      "claim": "Independent physical ground-state selector rejects actual positive gB",
+      "dependencies_quantifiers": "All complex V. Cc smooth density by cutoff/mollification pays integration by parts. E-2pi norm^2=norm(gprime+2pi xg)^2; Dprime ODE gives only C exp(-pi x^2). Positive normalization fixes C. Fixed A=2^(1/4), lambda2 old gB.",
+      "sign_errors_coverage": "Derivative2pi A x[-3exp(-4pi x^2)+(3/8)exp(-pi x^2/4)]; exact defect pi[9/4-36sqrt2/(17sqrt17)]>0 by4913>512; normalization divides B0^2. Excludes kernel gauge within this additional local energy class, not all generalized RH classes and not classic Weil positivity."
+    },
+    {
+      "claim": "Net Euler data do not identify arbitrary grading or Jordan polarization",
+      "dependencies_quantifiers": "Real P2/Fq counts fixed all n; formal K1=C_lambda,K2=C_lambda plus C_(q2/lambda),K3=C_(q2/lambda) with exact complementary multiplier q2. All n signed traces0, superdet1. r I2 and r Jordan2 have same determinant and all positive/negative power traces.",
+      "sign_errors_coverage": "Exact no hidden errors; offdiagonal pairing is not positive. Packets not asserted to arise in fixed smooth geometry; geometry/minimality can exclude. Does not deny signature recovery after standard Gamma membership, nor weight recovery in already-pure no-cancellation category."
+    },
+    {
+      "claim": "Finite energy, Markov and positive heat-trace interfaces accurately classified",
+      "dependencies_quantifiers": "Known explicit H plus full exact source recurrence/det and prescribed a gives A*HA=q^(2a)H. q5 t-3 det11/4, t5 det-5/4, q4 t4 det0. Finite both-forward-and-inverse nonnegative Markov -> permutation, excludes normalized F5 trace -3/sqrt5. Positive dense closed form -> K>=0; all t trace-class and source identity ThetaW=Tr exp(-tK) -> all n,t CM -> full Weil in563 domain.",
+      "sign_errors_coverage": "Old001/002/073/307/563 mechanisms and290 negative Euler used, not new universal theorem. Strict 2x2 H matches strict genus-one Hasse; boundary pure determinant may have companion Jordan. Ordinary trace multiplicity remains separate from semidefinite quotient. All-time source identity unknown for classic; local Gaussian Markov does not erase negative prime atoms."
+    }
+  ],
+  "draft_semantic_corrections": {
+    "freeze_and_reclose": "Before root consumption final reviewer required same center1/2 (or actual overlapping zero-free halfplanes), narrowed 2x2 strict Hasse to genus-one quadratic numerators, and retained function-field periodic poles. Main note corrected and reread PASS. Abstract source zero-free variant clarified with exp(i theta(s-.5)) and independently reread. No previously settled downstream claim silently changed."
+  },
+  "strongest_old_and_net": {
+    "old_inputs": "CG uniqueness and oscillator ground state standard;001/002 positive polarization,073 bidirectional growth,290 positive Euler/duality/HL counterexample,563 finite certificates/heat-CM and564 actual B gauge already paid.",
+    "new_fixed_test": "Exact physical-energy rejection of same positive B gauge plus dual-compatible invisible graded packet/Jordan and finite Markov scope tests. New decision information and analyzed sufficient interfaces; no claimed external priority or general positivity theorem.",
+    "actual_zeta": "542+555->557 strongest old whole leading4/5 unchanged;560 growing K/core/coupling, actual full Gamma/pp/pole positivity and natural domain/spectral identity remain open.",
+    "macro_gate": "Open; neither a new actual arithmetic input removing bottleneck nor broad repaired core-method boundary. Runtime Goal absent, no creation or completion."
+  },
+  "settlement": {
+    "iteration": "565 once in C028 after this final closure; sources/raw drafts/reviewer/script/strategy/push zero additional. Original cadence3->4 then formal cycle13 review resets0 once.",
+    "bottleneck_changed": false,
+    "next_action": "Report and synchronize; new math admission requires concrete same-source energy/heat identity or actual signed comparison input. Otherwise one chapter-specific source review with stop, no renamed unknown H/CM contracts."
+  },
+  "normalized_lf_sha256": {
+    "notes/565-canonical-completion-graded-identifiability-and-independent-energy.md": "3ac5d8f6dbbd3dcfda10e74cd911c803bacfbfa8ac6aaa535b3559e7c374ea89",
+    "reviews/2026-10-20/grh-canonical/canonical-completion-source-and-uniqueness.md": "d597a4578148f53e0cea0578a95f019721b03d7985186719d2061bf0408149ae",
+    "reviews/2026-10-20/grh-canonical/gaussian-ground-state-selector.md": "8ac3418bcce74a54641974041883b7342be4133f9bab3dd4d9152acaffe47070",
+    "reviews/2026-10-20/grh-canonical/weights-and-independent-energy-audit.md": "6f45172344c8866eb6f1dd8d3aaf1f79a36abda61d5fdab1c044dd7eacd93d0c",
+    "reviews/2026-10-20/grh-canonical/565-final-reverse-audit.md": "7c28ac30cf3f7309927191ef81fcdeeb91f6942f08e3fbe2bd68570399e79eb6"
+  }
+}

@@ -2,7 +2,7 @@
 
 当前文件[Goal](GOAL.20261014.md)，固定0c4f/≤538资产为输入，保留G20261014目标。
 2026-10-20现场get_goal=null，不声称旧active实例存在，未创建未请求的新运行Goal。
-[跨轮总结](reviews/2026-10-20-beurling-macro-review-cycle-12.md)解释总体成果和未付责任；
+[跨轮总结](reviews/2026-10-20-general-rh-macro-review-cycle-13.md)解释总体成果和未付责任；
 [宏观前沿](MACRO_FRONTIER.md)保存准确范围、强旧短链、合法逃逸和选择依据。
 先读[STATE](STATE.json)，执行：
 
@@ -18,7 +18,12 @@
 STATE是当前执行唯一源，show由它与cadence显示；checkpoint检版本结构，不认证证明或运行态。
 原件出稿／逆审／root消费／结算分开，阶段转换同步；复用handle核当前task/output。
 
-当前[564](../notes/564-dual-pair-rh-weighted-purity-and-mellin-gauge.md)：
+当前[565](../notes/565-canonical-completion-graded-identifiability-and-independent-energy.md)：
+标准Gamma类无RH唯一性可排含零B，但一般P的类membership须另给；局部二次能量
+能选Gaussian且精确拒gB，这不等于Weil正性。净ζ看不到形式分次虚消/Jordan，
+有限双向Markov甚至排F5正例；独立正闭形式＋同源全time heat trace是合法充分接口，
+classic该identity仍欠，actualwhole4/5/core/Ξ未改。四轮562–565见cycle13。
+[564](../notes/564-dual-pair-rh-weighted-purity-and-mellin-gauge.md)：
 HL双对象对偶须固定Mellin核／缺陷／域，不能自动推pure。positive self-Fourier Gaussian核
 可在同一整数系统的不同完成化加入离线零点；这改变目标，不反驳canonical经典RH。
 真正positive primitive的±h pair可各在预定互补不同权中心纯；一般RH应先给规范／权／正极化。
@@ -34,7 +39,7 @@ HL双对象对偶须固定Mellin核／缺陷／域，不能自动推pure。posit
 Fourier/unitgap识别只是一种特殊类；分类不付经典Weil正性，也不定义一般类RH。
 [历史挖掘](../reviews/2026-10-20/beurling-history-lessons-and-reusable-assets.md)按560篇研究族索引，
 只对相关代表原件核读，不声明本次重证全部笔记。[cycle12](reviews/2026-10-20-beurling-macro-review-cycle-12.md)
-核四完整轮549/555/560/561；562、563、564各统一一轮，来源／原稿／脚本／逆审／推送不另计；全当前阶段／唯一动作见STATE。
+核四完整轮549/555/560/561；562–565四轮另见cycle13，来源／原稿／脚本／逆审／推送不另计；全当前阶段／唯一动作见STATE。
 
 最强实际ζ仍542＋555→557 whole leading4/5，指数core／Ξ未付；537/538固定窗是基线。
 560每fixedL完整Q=positiveT−原normcompactK＋双pole；成长K/sign/norm未付，aux lower非actualsourceerror。

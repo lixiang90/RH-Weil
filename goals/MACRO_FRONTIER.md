@@ -3,12 +3,20 @@
 2026-10-20更新；完整Goal、唯一动作和现场观察以STATE为准。
 固定基线0c4f3a3eb609bb1d9564138fa4a35701f05605f2（全部≤538），同G20261014。
 详尽历史保留[前总结](reviews/2026-10-14-cross-round-macro-summary.md)；
-最近正式[跨轮总结](reviews/2026-10-20-beurling-macro-review-cycle-12.md)解释总体版图。
+最近正式[跨轮总结](reviews/2026-10-20-general-rh-macro-review-cycle-13.md)解释总体版图。
 不复制cadence/运行状态，不把本页代原证明。
 
 ## 因果链和消费范围
 
-当前564核双对象对偶中的一般RH形式：先固定completion/kernel与预定互补权，再谈pure／正极化。
+当前565把自然完成化的存在／类内唯一、分次识别与正极化分开：
+CG标准Gamma类中心1/2唯一性无RH，局部energy基态选择精确拒gB；membership与local metric另付。
+P² dual-compatible形式虚消包不改变任何点数，Jordan同trace/det仍不能正极化；
+有限双向Markov退化permutation并排F5真正例，保无限维／一般unitary／killing热群。
+具体正闭形式＋同源全time ordinary heat trace可经563给full Weil正性；classic身份仍欠。
+Weil显式公式／全正型已付时可直接判据推RH，faithful determinant是谱路线另项，不作所有方法必要门。
+四轮562–565正式cycle13复盘一次归零，最强actual4/5／成长K/core/coupling未改。
+
+564核双对象对偶中的一般RH形式：先固定completion/kernel与预定互补权，再谈pure／正极化。
 实际positive self-Fourier Gaussian组合在同一普通整数系统给E_B=Bξ及1/4、3/4额外零点；
 这仅否自由completion的全根居中，不给canonical classic Q负。真正positive primitive的±h pair
 则可在不同预定中心各自纯，错用共同中心的selfdual product有严格负测试。
@@ -29,7 +37,7 @@ c≥1/4给非空中心零点及全部compact源的精确平方和。零点仍离
 561正primitive/强N正则/裸FE离线段与fixedFourier/unitgap整数识别仍有效，后者不定义一般类RH。
 本门统一1轮，原件／终逆审／root前件收据见562与grh-general目录；不宣称新外部首创。
 旧joint-K23符号门三个预期原稿未落盘／handle不存在，未消费；用户新方向优先，不续C023预算。
-最近正式四轮复盘见[cycle12](reviews/2026-10-20-beurling-macro-review-cycle-12.md)；
+前四轮历史复盘见[cycle12](reviews/2026-10-20-beurling-macro-review-cycle-12.md)；当前562–565见cycle13。
 实际ζ的4/5／成长K/core/Ξ未变。fixedFourier→Weil具体运输来源门已0停止；
 经典正型锥membership和同对象完成化身份仍欠，唯一极值分类不替代membership。
 
@@ -63,6 +71,7 @@ c≥1/4给非空中心零点及全部compact源的精确平方和。零点仍离
 | 562一般类RH | 连续正primitive/N非空中心零点段与全compact平方和；Weil判据完整测试域、trace重数反测试；连续谱log混合边界 | 无经典Γ正性/自然算子域/Ξ恒等式；连续谱混合有分支且失败严格C1，非usual zero-divisor |
 | 563分布证书 | 源ODE/点数递推+正H给全域平方和；实偶指数阶heat-CM接口；F5有理能量证书与全部周期trace | heat-CM仍等价，经典直接有限类不覆盖；无限维同对象正能量/全CM源证明/faithful谱及成长core仍欠 |
 | 564双对象纯性 | actual positive Fourier-selfdual Mellin gauge检验；±h真positive primitive pair／预定互补权／共同中心负测试；HL原源范围 | 规范和权是输入非自动恢复；对偶不付正极化，classic canonical Γ完整正性/原域/Ξ无新输入 |
+| 565规范与识别 | CG标准类无RH唯一性；局部energy严格拒gB；dual-compatible虚消/Jordan及有限Markov边界 | 一般P的local类membership／同源正闭形式和全heat trace仍欠；选核不付pure，actual4/5不变 |
 
 原件：[535](../notes/535-actual-first-prime-sonin-log-resonance-and-indefinite-error.md)、
 [537](../notes/537-source-exact-weil-window-positive-tail-admission.md)、
@@ -138,6 +147,7 @@ cofinal真实m||H_TDP_-||在T≤(2−ε)eL趋1，但输入非M/k_R/actualreceive
 | 562/C025一般类RH | 连续正例/相变与C1–C5接口统一一轮；不续玩具族/参数优化 | 正型锥闭可用但须同对象完整分布收敛；经典独立平方和/faithful determinant仍无新输入，不把等价重命名准入 |
 | 563/C026分布证书 | 有限输入认证/完整热接口/算术lift统一一轮；已付直接类和严格范围 | 需新无限维源身份、可核完整逼近或实际signed费才再准入；finite check不代growth，不串未知H/CM标签 |
 | 564/C027对偶纯性 | positive kernel规范反测试与不同权positive pair统一一轮；不扩参数族/后验拆权 | 新独立canonical完整正极化／faithful算术身份才晋级，不把duality或known gauge归约改名成actual input |
+| 565/C028规范／energy | 一次局部selector及可识别性固定门结束；标准CG来源不重计新机制 | 需新同源正闭形式/完整heat identity或actualsigned费；无input不续canonical/H/CM标签 |
 | 比例/无零区域 | 用户要求暂停 | 仅用户明确恢复，不因调用经典输入而重启优化 |
 
 ## 恢复的六项短答案

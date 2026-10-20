@@ -699,3 +699,17 @@ Z_{c,±h}及其多权乘积核共同中心要求，原始HL来源和Hermitian极
 四原稿及终审PASS，draft primitive Dirichlet范围修正已重闭合，001/002/290强旧不重计。
 C027唯一结算564一轮，原cadence2→3不重置；actual4/5/core/Ξ不变，宏观门open。
 下一合同须新独立canonical正性／faithful输入或可判净检验，不续duality/purity改名与参数族。
+
+## D20261020E：独立局部能量选核，分开规范与正性
+
+按用户追问准入C028：固定Gaussian ground-state能量与564 gB作可判test，
+并核相对Gamma唯一性及函数域／数域的grading和独立能量来源。
+新数据若只能来自另给local metric/signature或cohomology，须明确代价；
+不把canonical标签、未知H存在或RH等价heat-CM当新实际输入。
+一迭代止损，未取得同对象完整正能量则actualζ4/5/core/Ξ及宏观门保持。
+
+565终逆审PASS后root闭合；中心1/2／半面覆盖、genus-one及抽象规范draft修复已重读。
+局部energy严格拒gB、分次虚消/Jordan与finite Markov边界给固定新测试，标准CG等来源不重计。
+C028统一结算1次，原cadence3→4；cycle13按四完整轮562–565正式复盘再归0。
+选核不付classic正性，最强whole4/5/成长K/core/coupling保持。无新同源identity或actualsigned费，
+不续canonical/positive H/CM公理合同；宏观门open，未创建或完成runtime Goal。

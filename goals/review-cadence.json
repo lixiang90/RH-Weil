@@ -5,18 +5,18 @@
   "target_rounds": 6,
   "maximum_rounds": 8,
   "counting_unit": "completed research continuation iteration, not tool calls or files",
-  "rounds_since_review": 3,
-  "last_review": "goals/reviews/2026-10-20-beurling-macro-review-cycle-12.md",
-  "last_review_baseline_commit": "5a16a4ed55eee7571b3194a10b4495142eae9798",
+  "rounds_since_review": 0,
+  "last_review": "goals/reviews/2026-10-20-general-rh-macro-review-cycle-13.md",
+  "last_review_baseline_commit": "71d3b7e738cb2b8b8c2c3ff43f91a328df1af5d6",
   "last_review_completed_round_count": 4,
-  "last_review_trigger": "Fourth complete iteration549/555/560/561; formal cycle12 review after561 settlement3->4, then reset0. Source/history/final-review/direct-Fourier stop/push add zero; fixed baseline retained.",
-  "last_completed_round": "notes/564-dual-pair-rh-weighted-purity-and-mellin-gauge.md",
+  "last_review_trigger": "562/563/564/565 four complete iterations.565 root closure settled3->4; formal cycle13 review resets0 once. Standard sources/drafts/audits/script/review/push zero additional. Fixed Goal/baseline unchanged.",
+  "last_completed_round": "notes/565-canonical-completion-graded-identifiability-and-independent-energy.md",
   "last_completed_round_date": "2026-10-20",
   "last_completed_round_baseline_commit": "0c4f3a3eb609bb1d9564138fa4a35701f05605f2",
-  "latest_user_directed_review": "goals/reviews/2026-10-20-dual-pair-purity-strategy.md",
+  "latest_user_directed_review": "goals/reviews/2026-10-20-canonical-completion-strategy.md",
   "latest_user_directed_review_baseline_commit": "0c4f3a3eb609bb1d9564138fa4a35701f05605f2",
-  "latest_user_directed_review_scope": "C027/564固定positive Mellin gauge及不同权positive primitive pair统一1轮；source/标准旧资产/原稿/终审/推送不另计。原cadence2->3。",
-  "current_research_focus": "564完成一般RH的规范/权/极化分层与具体正反测试；classic canonical Γ完整正性、原域/faithful Xi/成长core未付，无新input不延未知purity合同。",
+  "latest_user_directed_review_scope": "C028/565独立局部energy选核/gB及分次/Markov固定测试统一1轮；CG标准来源与旧极化/heat不重计。cycle13按四轮正式复盘一次归0。",
+  "current_research_focus": "自然完成化类内唯一/正极化分开；classic完整源正能量或heat身份未付，无新同源input不续canonical/H/CM标签。",
   "weil_f1_rounds_since_historical_review": 31,
   "last_completed_round_note_paths": [
     "notes/524-f1-mobius-cutoff-taylor-obstruction-and-repair.md",
@@ -47,6 +47,7 @@
     "notes/561-beurling-positive-measures-self-duality-and-integer-recovery.md",
     "notes/562-generalized-rh-continuous-g-integers-and-spectral-multiplicity.md",
     "notes/563-distribution-side-weil-certificates-and-heat-complete-monotonicity.md",
-    "notes/564-dual-pair-rh-weighted-purity-and-mellin-gauge.md"
+    "notes/564-dual-pair-rh-weighted-purity-and-mellin-gauge.md",
+    "notes/565-canonical-completion-graded-identifiability-and-independent-energy.md"
   ]
 }

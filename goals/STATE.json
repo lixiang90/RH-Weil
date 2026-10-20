@@ -7,12 +7,12 @@
   "workflow": "goals/RESEARCH_WORKFLOW.md",
   "cadence": "goals/review-cadence.json",
   "decisions": "goals/DECISIONS.md",
-  "latest_strategy": "goals/reviews/2026-10-20-dual-pair-purity-strategy.md",
-  "latest_decision": "D20261020D",
+  "latest_strategy": "goals/reviews/2026-10-20-canonical-completion-strategy.md",
+  "latest_decision": "D20261020E",
   "macro_frontier": "goals/MACRO_FRONTIER.md",
-  "macro_summary": "goals/reviews/2026-10-20-beurling-macro-review-cycle-12.md",
-  "latest_macro_review": "goals/reviews/2026-10-20-beurling-macro-review-cycle-12.md",
-  "latest_iteration": "notes/564-dual-pair-rh-weighted-purity-and-mellin-gauge.md",
+  "macro_summary": "goals/reviews/2026-10-20-general-rh-macro-review-cycle-13.md",
+  "latest_macro_review": "goals/reviews/2026-10-20-general-rh-macro-review-cycle-13.md",
+  "latest_iteration": "notes/565-canonical-completion-graded-identifiability-and-independent-energy.md",
   "macro_control": {
     "schema": "macro-recovery-v2",
     "goal_epoch": "G20261014",
@@ -20,38 +20,30 @@
   },
   "macro": {
     "long_objective": "新的成长域独立实际算术输入/同对象ζ约束，或成长核心实质方法类边界；扣除≤538基线。",
-    "unpaid_bottleneck": "564付一般对偶的规范/预定权与实际positive gauge/shifted pair测试；classic canonical Γ/全部pp/pole独立正性、自然域/Jordan/faithful Xi及560成长K/core/coupling仍欠，actual whole强旧4/5不变。",
-    "why_this_contract": "用户非自对偶问题已执行：同整数positive self-Fourier Mellin gauge表明completion须固定，±h positive primitive表明纯权中心可互补不同；目前无classic新input，当前只同步报告。",
+    "unpaid_bottleneck": "565付局部energy排B和CG类内唯一/分次识别边界；classic完整Γ/pp/pole独立正能量/同源全heat identity仍欠。actual whole4/5、560成长K/core/coupling不变。",
+    "why_this_contract": "C028具体gB能量和graded/Jordan/Markov检验已完成；选核须local背景但不付pure，当前仅同步报告。新准入须实际同源identity或signed费。",
     "paused_routes": [
       "零点比例优化",
       "无零区域优化"
     ],
     "stopped_or_downgraded": [
-      "C008不等待/C001冻结；比例/零区暂停；等价酉化/临界修正降级。",
-      "535/539–548各指定边界和合同止损见frontier；paid/joint/source-adapted逃逸保留。",
-      "C020549 source费真而actual全1未付；550强旧aggregate已扣；C021 G1paid/G2open stopped，551来源结束。",
-      "552径向/finite-n修复、553旧闭包、554正跳/适应域来源均0结束，未排其他quotient/Green/domain修复。",
-      "C022555 whole预算log leading2→1但exp(eL)core保持；sharp pure-prime scalar优化停止。",
-      "556030来源0；C023557强旧推论0；558丢正evenpole热trace0拒，保signedcore/deflation/paidΓ逃逸。",
-      "559保正poleoperator/trace与paidrank2修复旧消费0；jointfiniteS Π/G逆/relative尾合法旧消费0，mixed arithmetic/error/growth仍open；仅具体ratio cross门。",
-      "560 ratio/C0/allfixedL桥已新付一次，停止主项恢复；cofinal fullH norm解耦被aux下界阻，保actualreceiver/signed/paidΓ/compact逃逸。",
-      "561/C024分析选择门一轮完成；fixedFourier直接运输来源0止。旧K23符号原稿未出且handle不存在，未消费，用户方向优先不自动复活。",
-      "562/C025连续正例/全compact判据/重数与连续谱边界统一1轮完成；严格C1失败的混合不代经典whole；无新输入不续玩具族。",
-      "563/C026有限分布/周期能量证书及热接口统一1轮完成；直接有限ODE/TV类不覆盖classic，保无限维修复；未知CM/H不代新input。",
-      "564/C027规范反测试/真positive shifted dual及权纯性框架统一1轮完成；known gauge不代classic Q负，旧001/002/290不重计，无新actualinput不续purity标签。"
+      "C001冻结/C008不等待；比例/零区暂停；C020—C023及549—560精确停止/合法paid逃逸见MACRO_FRONTIER，不续旧预算。",
+      "561/C024分类一轮完成；fixedFourier运输0止；旧K23未出稿未消费，用户方向优先。",
+      "562—564/C025—C027连续类/分布证书/双对象权与gauge各一轮完成；等价与已知来源不计actual输入。",
+      "565/C028选核/识别固定门一轮完成；CG标准类唯一性不付membership，energy物理dx不代Weil；无新同源input不续H/CM标签。"
     ]
   },
   "primary_contract": {
-    "id": "C027",
-    "path": "goals/contracts/C027-dual-pairs-and-weighted-rh.md",
+    "id": "C028",
+    "path": "goals/contracts/C028-canonical-kernels-and-independent-purity.md",
     "status": "completed",
     "iteration_budget": 1,
     "settled_iterations": [
-      "notes/564-dual-pair-rh-weighted-purity-and-mellin-gauge.md"
+      "notes/565-canonical-completion-graded-identifiability-and-independent-energy.md"
     ],
-    "stage": "564研究提交9ba5ce40已核远端main/tree及本地同Git对象/clean；随后仅核验metadata子提交，不增轮。",
-    "next_action": "报告一般RH的预定权纯性/正极化与完成化规范、positive dual pair及canonical classic缺口；新数学合同须新actual输入或可判净测试，不续未知duality/purity标签。",
-    "stop_rule": "一次完整迭代；无真正positive dual pair而仅旧等价/FE不足则0来源停。不后验拆权、不同kernel不可冒充裸zeta除子。"
+    "stage": "565主稿/三原稿/终审五版本root消费PASS；统一结算1轮并完成正式cycle13；现准备研究提交与GitHub同tree核验。",
+    "next_action": "同步565/root收据与正式cycle13，核远端main/tree及本地clean后报告；下一数学合同须具体同源正energy/heat identity或actualsigned输入。",
+    "stop_rule": "本门一次完成；不增规范参数/未知H/CM公理。源章审查若无新可判输入即0停止，不将选核升级classic正性。"
   },
   "support_contracts": [],
   "must_not_forget": [
@@ -80,34 +72,9 @@
       "scope": "基线同窗simple-even/gap，非Ξ。"
     },
     {
-      "path": "notes/543-full-gamma-heat-arithmetic-records-and-thermal-boundary.md",
-      "kind": "proved",
-      "scope": "旧已结算actual Γ/record count CeS，S~2eL；scalar/thermal最强对照。"
-    },
-    {
       "path": "notes/555-actual-prime-weighted-schur-and-growing-weil-inertia.md",
       "kind": "proved",
       "scope": "root-consumed：ALL L/ALL原complex完整prime norm~eL；whole预算log leading≤eL，强旧record2eL；仍exp(eL)，一轮。"
-    },
-    {
-      "path": "notes/557-joint-row-norm-and-gamma-arithmetic-moment-budget.md",
-      "kind": "cited",
-      "scope": "技术/ALLsource预算4/5有效，但542+555强旧直接推论，C023入口0；更新最强消费对照。"
-    },
-    {
-      "path": "notes/559-positive-even-pole-operator-trace-and-paid-deflation-scope.md",
-      "kind": "cited",
-      "scope": "root原operator/relative-globaltrace与paidrank2修复，旧直接消费0；D/fullsigned净费open。"
-    },
-    {
-      "path": "reviews/2026-10-14/even-pole-source/root-consumption-scope.json",
-      "kind": "cited",
-      "scope": "四原稿/组织逆审版本、root前件和Goal版本完善；hash不认证证明。"
-    },
-    {
-      "path": "reviews/2026-10-14/joint-sonin-source/root-consumption-scope.json",
-      "kind": "cited",
-      "scope": "原finiteS Π/fullinverse/source迹与mixed字典root消费0；actual coefficient/Weilerror/cofinal仍open。"
     },
     {
       "path": "notes/560-joint-finite-place-sonin-primepower-cancellation-and-compact-weil-bridge.md",
@@ -115,34 +82,9 @@
       "scope": "root+终审：每先fixedfiniteS实际ε∈C0、ALL原complexDlog positiveTrace−compact+完整双pole；cofinal费/sign/Ξ未付，统一一轮。"
     },
     {
-      "path": "reviews/2026-10-14/joint-sonin-cross/root-consumption-scope.json",
-      "kind": "cited",
-      "scope": "六raw/root版本、allsource domain/Γ/pp/mixed/费用/strongest-old/aux角色闭合；原cadence只1。"
-    },
-    {
-      "path": "reviews/2026-10-14/joint-sonin-cross/next-joint-error-sign-and-growth-admission.md",
-      "kind": "open",
-      "scope": "唯一actualjoint紧误差mixed符号门；新560输入，fixedS结果不代growth，不预建C024。"
-    },
-    {
       "path": "notes/561-beurling-positive-measures-self-duality-and-integer-recovery.md",
       "kind": "proved",
       "scope": "root+终逆审：连续positive primitive/Π/N与强N正则裸FE离线模型；fixedFourier/Gaussian+unitgap纯分析恢复整数。无经典Γ反例/whole新界/Weil正性；统一1轮。"
-    },
-    {
-      "path": "reviews/2026-10-20/root-consumption-scope.json",
-      "kind": "cited",
-      "scope": "561原件及五独立/来源原稿版本；对象/norm/map/domain/全量词/系数/强旧和runtime修复完整根闭合，hash不认证证明。"
-    },
-    {
-      "path": "reviews/2026-10-20/fixed-fourier-to-weil-transport-stop.md",
-      "kind": "cited",
-      "scope": "原norm U/C/H及精确−1态的compact负近似；辅助H非actualQ；扣554/560后0来源停止，保paid/nonlocal/source-adapted。"
-    },
-    {
-      "path": "reviews/2026-10-20/remote-sync-verification.json",
-      "kind": "cited",
-      "scope": "研究提交68a86cfa已核远端main、相同tree和本地SHA/clean；随后仅核验metadata子提交，非数学证据或新轮。"
     },
     {
       "path": "notes/562-generalized-rh-continuous-g-integers-and-spectral-multiplicity.md",
@@ -150,29 +92,9 @@
       "scope": "连续正primitive/N的nonempty centered段/相变/全compact平方和；一般Weil判据与trace重数；连续谱混合有分支且失败C1，统一1轮，actualζ/core/Ξ无改善。"
     },
     {
-      "path": "reviews/2026-10-20/grh-general/root-consumption-scope.json",
-      "kind": "cited",
-      "scope": "562及五独立/来源原稿最终6版本，主体及补节逆审PASS；对象/norm/域/量词/符号/coverage/strongest-old完整root闭合，hash不认证证明。"
-    },
-    {
-      "path": "reviews/2026-10-20/grh-general/remote-sync-verification.json",
-      "kind": "cited",
-      "scope": "562研究提交d74c5f73远端main/tree与本地同SHA/clean已核；后续仅metadata子提交。同步不是数学证明或新轮。"
-    },
-    {
       "path": "notes/563-distribution-side-weil-certificates-and-heat-complete-monotonicity.md",
       "kind": "proved",
       "scope": "全D源ODE+正能量矩阵/周期全递推给完整Weil平方和；实偶指数阶heat-CM判据；精确F5曲线证书；经典全源正性仍欠，统一1轮。"
-    },
-    {
-      "path": "reviews/2026-10-20/grh-distribution/root-consumption-scope.json",
-      "kind": "cited",
-      "scope": "563/三个原稿/终审/精确脚本和JSON最终7版本；root前件及独立终审PASS，保全部norm/domain/源量词/符号/coverage/strongest-old；hash不认证数学。"
-    },
-    {
-      "path": "reviews/2026-10-20/grh-distribution/remote-sync-verification.json",
-      "kind": "cited",
-      "scope": "563研究提交4cbe9ef6远端main/tree及本地同SHA/clean已核；后续仅metadata子提交。保存同步不认证证明或新增轮次。"
     },
     {
       "path": "notes/564-dual-pair-rh-weighted-purity-and-mellin-gauge.md",
@@ -180,24 +102,24 @@
       "scope": "同整数positive Fourier-selfdual Mellin gauge的离线completed除子；±h真positive primitive dual不同权/共中心负测；一般权纯性/极化准确接口，classic实际正性未改，统一1轮。"
     },
     {
-      "path": "reviews/2026-10-20/grh-dual-pairs/root-consumption-scope.json",
-      "kind": "cited",
-      "scope": "564/四原稿/终逆审最终6版本root闭合；HL源/gauge/primitive/权/域/trace/强旧已核，primitive Dirichlet scope在消费前修复，hash不认证证明。"
+      "path": "notes/565-canonical-completion-graded-identifiability-and-independent-energy.md",
+      "kind": "proved",
+      "scope": "局部energy严格拒同positive gB；CG无RH类内唯一来源核；graded/Jordan/finite Markov边界及正heat充分接口。无classic新正性，统一1轮。"
     },
     {
-      "path": "reviews/2026-10-20/grh-dual-pairs/remote-sync-verification.json",
+      "path": "reviews/2026-10-20/grh-canonical/root-consumption-scope.json",
       "kind": "cited",
-      "scope": "564研究提交9ba5ce40远端main/tree及本地同SHA/clean已核；后续仅metadata子提交。会话恢复未重复计轮，保存同步不认证证明。"
+      "scope": "五最终版本和独立终审PASS；对象/norm/domain/全time/源/误差/符号/coverage/强旧完整root闭合，hash不认证证明。"
     }
   ],
   "pending_processes": [],
   "runtime_goal_observation": {
     "status": "absent",
-    "observed_at_utc": "2026-10-20T06:19:05.147773+00:00",
-    "basis": "恢复及本次同步收尾get_goal均null；未创建运行Goal，固定文件Goal/基线和open宏观门保持。"
+    "observed_at_utc": "2026-10-20T06:40:27.747750+00:00",
+    "basis": "get_goal实时null，未新建运行Goal；固定文件Goal/基线及open宏观门保留。"
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-10-20-dual-pair-purity-remote-verified.json",
+  "checkpoint": "goals/checkpoints/2026-10-20-canonical-energy-prepush.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
     "commit": "9ba5ce40ee5c57582c43651c10bef13692c428d9",
@@ -209,11 +131,11 @@
     "goal_lf_sha256": "cc6046029a8e5c9fe4eae427dfd663f1d851666370637c8fd451042f340fee8b",
     "mathematical_gate": "open",
     "final_execution_gate": "not-eligible",
-    "basis": "564完成一般RH对象/规范/权分层与positive反测试；未付classic canonical Weil正性/自然域/faithful Xi、成长core，whole4/5不变，宏观门open。"
+    "basis": "565核选择/分次识别和正heat接口完成；未付classic同源完整正能量，whole4/5、成长core仍在。正式cycle13不complete长期Goal。"
   },
   "historical_completion_receipts": [
     "goals/goal-completion-receipt.20261014.json",
     "goals/goal-completion-receipt.20261014-continuation.json"
   ],
-  "process_inventory_observed_on": "当前四原稿及final_reverse_564完成，6原件版本核过；会话恢复后无旧sync producer/锁，研究提交本地远端一致且clean，当前只metadata核验。"
+  "process_inventory_observed_on": "三个当前原稿及final_reverse_565（含追加scope复核）已final，root逐篇读核；无数学/数值producer。当前只研究保存同步。"
 }
