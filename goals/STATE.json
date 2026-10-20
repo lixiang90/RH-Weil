@@ -46,7 +46,7 @@
     "settled_iterations": [
       "notes/561-beurling-positive-measures-self-duality-and-integer-recovery.md"
     ],
-    "stage": "561 root前件及独立终逆审PASS，统一结算1轮；directFourier→Weil唯一具体来源门已执行0停，四轮cycle12正式复盘；待远端同步核验。",
+    "stage": "561 root/终逆审已消费并结算1轮，directFourier来源0停止，cycle12四轮正式复盘；研究提交68a86cfa远端main已独立核验且本地同SHA/clean，当前仅保存核验metadata子提交。",
     "next_action": "先读取561收据及fixed-fourier-to-weil-transport-stop的停止范围。此分支无待跑producer；只有新增独立actual全源不等式、认证receiver signed费用或含paid/源适应修复的严格必要边界，才冻结Γ/pp/pole/norm/growth及扣4/5净值重新准入；没有则不重跑已停FE/分类/直接运输。",
     "stop_rule": "C024已完成一轮；来源门0已止。禁止Gaussian positivity/未知gap改名续轮；整数识别不付Weil正性，singleton类皆RH仍等强RH；无新输入不预建合同。"
   },
@@ -135,6 +135,11 @@
       "path": "reviews/2026-10-20/fixed-fourier-to-weil-transport-stop.md",
       "kind": "cited",
       "scope": "原norm U/C/H及精确−1态的compact负近似；辅助H非actualQ；扣554/560后0来源停止，保paid/nonlocal/source-adapted。"
+    },
+    {
+      "path": "reviews/2026-10-20/remote-sync-verification.json",
+      "kind": "cited",
+      "scope": "研究提交68a86cfa已核远端main、相同tree和本地SHA/clean；随后仅核验metadata子提交，非数学证据或新轮。"
     }
   ],
   "pending_processes": [],
@@ -144,11 +149,11 @@
     "basis": "本轮get_goal返回null；无运行Goal创建。文件G20261014原目标/基线/版本保持。"
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-10-20-beurling-analytic-selection-settled.json",
+  "checkpoint": "goals/checkpoints/2026-10-20-beurling-remote-verified.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
-    "commit": "e333fbec62a01fbc84153021a186238f7d2c3ef3",
-    "basis": "root现场HEAD=remote main完整SHA且clean；560六raw/原证明/下一门raw=receipt=Gitindex，七依赖raw/index/LF逐核；Goal版本/原cadence3及一次560结算/checkpoint结构通过。后续仅metadata，不滚基线/计轮。"
+    "commit": "68a86cfa70aa37c433658654dd1e393bc9c915f5",
+    "basis": "GitHub main独立读取完整SHA；远端tree=本地index24fc8386，16研究文件，6原件LF/receipt逐核，导入同Git对象后本地HEAD=remote且clean。当前后续仅STATE/核验/checkpoint metadata，不滚基线/计轮。"
   },
   "completion_audit": {
     "goal": "goals/GOAL.20261014.md",
@@ -162,5 +167,5 @@
     "goals/goal-completion-receipt.20261014.json",
     "goals/goal-completion-receipt.20261014-continuation.json"
   ],
-  "process_inventory_observed_on": "root核五篇当前task/output全部已落盘并消费；旧joint-sign三handle/目录不存在；无shellproducer/数值扩N。最后现场再核agents再同步。"
+  "process_inventory_observed_on": "现场原材料/历史/source任务及final_reverse_561均完成且原件已消费；复用dialogue重复finalreview为pending_init已取消，无额外输出/producer。旧joint-sign三handle/原稿不存在，未消费。"
 }
