@@ -1,0 +1,87 @@
+{
+  "schema": "rh-weil-root-premise-closure-v1",
+  "status": "root-consumed final four drafts after corrected independent PASS",
+  "goal_epoch": "G20261014",
+  "baseline_commit": "0c4f3a3eb609bb1d9564138fa4a35701f05605f2",
+  "starting_git_head": "2e3f42844947dadc8b1abedc322414efd067bc9e",
+  "report": "goals/reviews/2026-10-22-global-sections-local-evaluation-admission.md",
+  "independent_review": "reviews/2026-10-22/global-section-admission/fresh-review.md",
+  "premise_closure": [
+    {
+      "object": "Original rank-one arithmetic category and explicit localization correction",
+      "domain_norm": "L_D subset Q, integral abelian group; finite-pointed-set l1 metric ball/Gamma-set distinct from C-vector space. finite type means metric nonzero only.",
+      "paid": "For nonempty Zariski open V use explicit supplemented localization L_D tensor Z[S^-1]; empty open has zero value. Open restriction is inclusion, zero kernel.",
+      "semantic_correction": "Freeze literal elements-in-L denominator definition as an O(V)-module premise; new construction explicitly repairs only needed finite restriction. Existing source audit has appended correction. No inherited positivity result depended on granting global square capacity.",
+      "source_scope": "2602.15941v1 selected sections and proofs recorded by each producer. Root directly read HTML5/8 and relevant definitions, full final four drafts and fresh review, inherited567/568 scope. Appendix duality not newly certified."
+    },
+    {
+      "object": "Actual finite-frame quotient and vanishing filtration",
+      "map": "e_p,k:L_D -> Z/p^k, x -> a_p x mod p^k at regular n_p finite. Finite multiple regular places via CRT.",
+      "paid": "Surjective, kernel p^k L_D=L(D-k[p]); finite joint kernel NL_D; valuations give multiplicative order filtering.",
+      "singular": "n_p=infinity gives pL=L and zero quotient/frame. Theta(p)=Z[1/p] has no own-p finite quotient; not an obstruction to other spectral realizations.",
+      "quantifiers": "Every fixed finite reduction in given original group/frame, exact algebra; not analytic-source growth transport or arbitrary complex jets."
+    },
+    {
+      "object": "Independent original-height budget and extra determinant model",
+      "domain_norm": "L=hZ, tau=t x, lambda=|t|h>0. Ball at original radius R; metric not replaced across places.",
+      "paid": "#B_R=2floor(R/lambda)+1, zero-fiber count2floor(R/(Nlambda))+1. Nonzero unit-ball kernel section exists iff Nlambda<=1. Principal frame/metric transport preserves lambda.",
+      "extra_model": "Only if an actual rank-r integer matrix Delta!=0 with column l1 heights and same-Delta finite divisibility is separately given: sum ell_p log p <= log|Delta| <= sum log R_j - sum log lambda_i. Additional direct-sum construction, not free output of rank-one sections.",
+      "direction": "Local lower/order vs original arch upper, exact textbook lattice/valuation mechanism. Not a new primitive Weil capacity or analytic source norm estimate."
+    },
+    {
+      "object": "Capacity boundary and tensor growth",
+      "paid": "Z[1/p] has zero own-p quotient, full other-prime quotients and infinite positive-radius balls. All n_p=1 has every local quotient full yet infinite balls. Zero metric removes arch capacity. Noncyclic rank-one groups have arbitrarily small nonzero elements.",
+      "tensor": "0<=log#B1(L^tensor n)-max(nd,0)<=log3 for finite lattice, d=-loglambda. Linear curve growth; not square n^2 self-intersection.",
+      "coverage": "Ordinary bounded-point cardinality only; does not impose discreteness on all RH-like systems. Generalized/relative/continuous controlled capacities remain legal unpaid repairs."
+    },
+    {
+      "object": "Original analytic source and principal/nonroot gates",
+      "source_roles": "f distinct from physical r=e^(u/2)f; compact D distinct from S_exp relation domain. Complete Q radical distinct from405 B radical.",
+      "open": "No new source->sections/correspondence map, no du/Dlog->height fee. Principal p and537 nonroot r0 tests lack input, not claimed passed or general counterexample.",
+      "narrow_tests": "Whole-source additive map to fixed finite quotient or fixed positive metric ball is zero; natural real-metric rank-one continuous additive image zero.",
+      "escapes": "Bounded source pieces, noncontinuous maps, zero metric, families, source-dependent divisors, nonlinear/tensor/correspondence/relative/complex lifts not excluded. Old signed J/probes restore old source readout only."
+    },
+    {
+      "object": "Full Weil target and validation matrix",
+      "complete_target": "Main report(7) matches568(14): full Gamma finite-part/contact, all log(p)p^(-k/2) prime powers and both pole moments retained. Arithmetic metric norm/local quotient sizes do not derive these terms.",
+      "open": "Same-det/capacity full all-complex identity, error/growth/coupling not given.567 conditionalRR interface retains fixed-real-source quantifier; complex coverage/polarization separate.",
+      "controls": "Continuous +/-d share local nondegeneracy/height without sign certificate; threshold keeps trace weight2. True finite-field curve uses global restrictions/H1 and square RR/Hodge; formal negative model retains local jets. Number-field ideal labels/full embeddings/discriminant/Gamma_C transport unpaid.",
+      "equivalence_boundary": "All Weil Grams PSD or defining budget difference as Q then assuming positivity is not an independent input. Matched cocycles permit changes but do not pay capacity."
+    },
+    {
+      "object": "Root stop and strongest-old comparison",
+      "net": "Precise source correction and local front-end/boundary information only. No new classic global capacity or full-source lowfrequency/core/coupling/Xi consequence.",
+      "strongest_old": "542+555->557 issued whole negative-inertia UPPER budget leading4/5 unchanged, not actual negative lower. Previous safe-high actual-Sonin corollary retained and not rerun.",
+      "settlement": "Source-only zero mathematical iterations, no573/C036, original cadence1/formalcycle14 unchanged. Single candidate stops; next admission requires actual non-old-J map with original norm and independent order/height, or actual square/full-budget/lowfrequency signed new input. No automatic paper chain.",
+      "goal_gate": "Same frozen Goal remains open/not-eligible; live runtime Goal absent, not created."
+    }
+  ],
+  "files": {
+    "goals/reviews/2026-10-22-global-sections-local-evaluation-admission.md": "96692c9821fecf1daea9590a133b52a3f04736e958079514d1019c088f2d8d47",
+    "reviews/2026-10-22/global-section-admission/fresh-review.md": "28c4c58ccf0f6a22527f6bed3e331845fbe5010dab9fb88cce8fc0beec62eafa",
+    "reviews/2026-10-22/global-section-admission/primary-sheaf-and-restriction.md": "164f5a74824b8924dd63b0d49b26d8c6fcd7228b8c1d76ca0c0bee4f8050896c",
+    "reviews/2026-10-22/global-section-admission/finite-place-kernel-and-capacity.md": "f926481b907b357abb9e8db24c09fffaa844d5ac4f16ba181a00c63e61ed958c",
+    "reviews/2026-10-22/global-section-admission/source-map-and-validation-audit.md": "911a33a3b014a74fe77610ad1fa62fc9320387748e21cb8ac165b1e7313b3383",
+    "goals/GOAL.20261014.md": "cc6046029a8e5c9fe4eae427dfd663f1d851666370637c8fd451042f340fee8b",
+    "goals/reviews/2026-10-20-generalized-weil-facilities-roadmap-after-572.md": "4e075db36f55cdd48b20058d5552d108f74f42a83dab48fa01c19275877f63e9",
+    "goals/reviews/2026-10-20-actual-variational-sonin-transport-admission.md": "5841f47c22ef65272c842a69ffd83bc21046b0eea7c64ce5d7e2615f0f8a3615",
+    "reviews/2026-10-20/grh-literature-roadmap/connes-f1-facility-audit.md": "dc907870b0558e1483ba34f9b94cc138ce0ec2a1935080b94e606266855f1ebc",
+    "notes/567-function-field-positivity-origins-and-generalized-correspondence-tests.md": "96c0c5a62e4175705696a29ed28d890eb11cec6f7351dc763641b65f3fcaec8a",
+    "notes/568-source-evaluation-carriers-local-jets-and-weil-capacity-gap.md": "f71ab11661107f5fe0d294ac671421b7aaef0f8860f87c238d8fbe1a15554a4a",
+    "notes/569-dual-carrier-gamma-normalization-and-budget-cocycles.md": "5b423e7d023a413f3c3d1fb0f582073015285e84afd38b4761d9d3734f57da45",
+    "notes/537-source-exact-weil-window-positive-tail-admission.md": "269a500556d37fc04a4e44efd2f0899414787743e529506dbbe7395a34eea9f8",
+    "notes/557-joint-row-norm-and-gamma-arithmetic-moment-budget.md": "5abfd13af9c955b27c5a2ea8f01d2555fa05b1df450adbedbcfe20f62d327166"
+  },
+  "primary_pdf": {
+    "path": "literature/f1/cc-jacobian-2602.15941v1.pdf",
+    "sha256": "f40eb90d3d1f020e54c001812973b16e33b011776c24fb95c45dbbd3015a1223",
+    "changed": false
+  },
+  "mathematical_iterations": 0,
+  "new_independent_global_capacity": false,
+  "macro_bottleneck_changed": false,
+  "admission_gate_executed": true,
+  "admission_gate_continues": false,
+  "goal_completion": "open",
+  "hashes_are_not_proofs": true
+}

@@ -1,7 +1,20 @@
 # 宏观前沿：可消费范围与最小未付箭头
 
-2026-10-20更新；完整Goal、唯一动作和现场观察以STATE为准。
+2026-10-22更新；完整Goal、唯一动作和现场观察以STATE为准。
 固定基线0c4f3a3eb609bb1d9564138fa4a35701f05605f2（全部≤538），同G20261014。
+最新[真实截面／局部评价来源门](reviews/2026-10-22-global-sections-local-evaluation-admission.md)
+已核2602.15941v1同一候选：regular有限frame商有kernel p^kL，乘法消失过滤相容；
+有限格原球给非零kernel截面的精确Nλ≤1预算，tensor log#仅max(nd,0)+O1。
+这是独立格／valuation前端，不是平方RR／完整Weil容量；无f/r→sections新map。
+负测Z[1/p]本p商零、异位仍满而球无限；所有n_p=1时处处商满却球无限；零metric亦失容量。
+finite type只指metric非零。§5.2字面L(V)不承受结构环，冻结该字面消费；
+显式标准localization修补与不依赖修补的frame商重新闭合实际所用restriction，其他旧资产范围不变。
+完整Γ/contact、全部pp、双pole仍待同一det/capacity的身份，不能由frame/root对偶或正norm获得。
+单一候选来源0止，不建C036/573，不续jets或自动串paper；独立审阅与root范围见本报告收据。
+宏观容量/危险core/coupling/Ξ及strong-old4/5未改，原cadence1/正式cycle14保持。
+下一只先验收区别于旧J复合的实际源→截面／对应map，含关系/非根、原norm及独立order/height；
+或收到实际平方二次容量/完整预算、actual低频signed新输入后重新排序，未有不预建未知合同。
+
 最新[actual变分来源门](reviews/2026-10-20-actual-variational-sonin-transport-admission.md)已执行：
 P_M S_Tw原域、完整signed interval质量≤m^-2、clipping及actual/window两平方方向已闭合。
 D_var可写完整cross-tail投影能量；在固定安全|R|≥exp(16eL)层，旧560完整residual/coercive界
@@ -16,8 +29,8 @@ D_var可写完整cross-tail投影能量；在固定安全|R|≥exp(16eL)层，�
 没有支付同一global section→jets的kernel/乘法、独立容量与完整mixed身份。
 不再把已完成的local载体/协同下降列作新主任务；其唯一变分来源门现已按上文执行收口，
 没有把高频直接合成升级独立容量，不建C036。几何长期主责不因此降级，
-但真实O(D)候选须新的source map/独立费用证据才准入；Γ-relative/正heat亦须新同源输入。
-本次是用户战略回顾0数学轮，非正式cycle15，原cadence1保持；actual core/容量/strong-old4/5未变。
+该O(D)候选现已按顶部实际kernel/height测试执行来源止，仍须新的source map/独立费用才再准入；
+Γ-relative/正heat亦须新同源输入。当前来源核查0数学轮，非正式cycle15，原cadence1保持；actual core/容量/strong-old4/5未变。
 
 最新[C035有限Euler原weighted费用](contracts/C035-finite-euler-weighted-receiver-and-coherent-tail.md)
 已在[572](../notes/572-finite-euler-receiver-coherent-tail-and-original-weighted-cost.md)终审/root消费，统一一轮。

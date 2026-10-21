@@ -1,7 +1,14 @@
 # 长期研究恢复入口
 
 当前文件[Goal](GOAL.20261014.md)，固定0c4f/≤538资产为输入，保留G20261014目标。
-2026-10-20现场get_goal=null，不声称旧active实例存在，未创建未请求的新运行Goal。
+2026-10-22现场get_goal=null，不声称旧active实例存在，未创建未请求的新运行Goal。
+本次续研已执行[真实截面／局部评价准入](reviews/2026-10-22-global-sections-local-evaluation-admission.md)：
+2602.15941v1的regular frame商kernel、有限格原高度Nλ≤1与tensor线性容量明确；
+Z[1/p]本p商为零、异位仍满而小球无限，说明非零metric／局部非退化不保证global容量。
+§5.2字面局部化需显式修补，所需restriction以frame独立闭合；旧来源用法已加纠正。
+尚无f/r→sections的实际map及平方二次容量／完整Weil身份，本候选来源0停止，无C036/573。
+下一仅验收实际写出的新源map及原norm/独立消失或高度比较，不自动续paper、线性RR或jets。
+宏观瓶颈和strong-old4/5未变，单cadence1/正式cycle14保持，长期Goal门仍open。
 当前战略入口是[568–572后修订路线图](reviews/2026-10-20-generalized-weil-facilities-roadmap-after-572.md)：
 旧文献路线图以来五轮数学及LS专题已对照；评价非退化、Γ规范和cocycle不是未执行容量任务。
 长期主责为同一global sections→局部评价的kernel/乘法、独立容量与完整mixed预算；
@@ -69,7 +76,8 @@ dense非exact平均由既有BMS/Matveev实例付清，不假设uniform gap；同
 旧560精确残差给安全高层uniformactualε=o1，完整Γ/pp/poles保留；原du只付K_hi，不付全部K。
 按本次核查保存directcorollary后停，不续16/θ/c/β/γ，不把较弱子费改善记新whole后果。
 下一只有具体actual低频/Γrelative/source-adapted新身份，或global source→sections/kernel/乘法＋独立容量
-到位后才重新准入；当前无新合同或运行中的后续来源门。
+到位后才重新准入；2602.15941的具体kernel/height门现已按顶部报告执行停止，不重复当待做。
+当前无新数学合同，精确阶段和pending仅以STATE为准。
 cycle14的finiteEuler来源门现已在572执行闭合，不能重复当未执行next。
 评价det／截面容量为几何主责，但新map须先通过旧f/物理r坐标下的relation/nonroot双测试，
 C031–C035的构造/反测已结算；不建未知上同调合同、不重复已停参数／来源链，单cadence为1，cycle14未重置。

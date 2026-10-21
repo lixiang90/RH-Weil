@@ -905,3 +905,31 @@ q_M=q_T−D_T+e_clip+D_M严格保两平方；只保变分lower不能当actual er
 不自动启动几何或另一paper的来源门。保nonfinitecompact/source-adapted/不同全逆合法修复。
 新同源全源signed输入或globalmap+capacity会改变排序；只要求Weil Gram PSD仍等价终点。
 同G20261014与0c4f基线、cadence1/正式cycle14保持，Goal数学门open，runtimeGoal null未新建。
+
+## D20261022A：单一真实截面候选的kernel/原高度门执行后停止
+
+用户按新路线图续研；不重复D20261020Q已停actual高频参数。选择2602.15941v1的
+实际finite-frame restriction/kernel/height测试，因它能在同一候选内部以奇异／无限支撑反例
+区分真实局部设施与global容量，而不是自动串下一paper或再引线性RR。
+
+主/三稿与fresh修正后PASS已root闭合：[本次报告](reviews/2026-10-22-global-sections-local-evaluation-admission.md)。
+regular frame给L/p^kL及kernel p^kL、乘法消失过滤；有限格原高度给非零kernel截面iff Nλ≤1。
+额外rank-r矩阵若实际给出，同一非零整数det才有有限整除/原arch Hadamard预算。
+Z[1/p]在本p商为零、异位商满而球无限；所有n_p=1亦局部处处满、global球无限。
+finite type只指metric非零，tensor log#容量仅max(nd,0)+O1，不是square RR二次项。
+
+§5.2字面L(V)模作用不闭合：冻结该字面sheaf下游消费，明确补充非空开集的
+L[S^-1]且空集零对象；所需frame商不依赖修补而独立闭合。旧来源审计/路线图追加范围纠正，
+不是否定整篇原文；其他旧Weil资产无此未付global容量前件，范围保留。
+
+本候选无f/r→sections/correspondence纵map、原du/Dlog到原高度费，也无平方容量及
+完整Γ/contact、全部pp、双pole的同det预算身份。405主关系/537非根测试缺输入，不能称通过。
+固定裸加性目标的零像检查只约束那个map类，保family、tensor、relative、非线性、复提升及连续容量。
+连续正反/函数域真反用于前提鉴别，不重算旧H或把local jets当global gluing。
+
+这是格/valuation旧机制展开与来源纠错/准入信息，0数学轮，无573/C036；cadence1/正式cycle14保持。
+保存后停止此门，不续jets、线性RR、下一paper或Sonin安全高度参数。
+下一只先验收实际写出的非旧J复合源map及独立order/原高度比较；或实际square二次容量/
+完整预算身份、穿过actual低频/core的新signed输入改变排序，未有不预建未知合同。
+strong-old542+555→557 whole leading4/5上预算未改，宏观容量/core/coupling/Ξ仍欠。
+同G20261014/冻结0c4f；runtime Goal本轮null，未新建，长期完成门open/not-eligible。
