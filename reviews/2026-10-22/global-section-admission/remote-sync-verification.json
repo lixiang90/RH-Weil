@@ -1,0 +1,23 @@
+{
+  "schema": "rh-weil-remote-sync-verification-v1",
+  "observed_at_utc": "2026-10-21T18:08:25.472439+00:00",
+  "repository": "https://github.com/lixiang90/RH-Weil",
+  "branch": "main",
+  "research_commit": "4f4eb65332fd7c262a06193a45755c493c4b8828",
+  "tree": "7b597504b626299de7939babc3678e58aeded661",
+  "parent": "2e3f42844947dadc8b1abedc322414efd067bc9e",
+  "research_files": 14,
+  "verification": "Independent GET main ref and Git commit matched exact staged tree and guarded parent; same remote commit object SHA reconstructed/imported locally. HEAD=origin/main and clean before this metadata receipt.",
+  "get_urls": [
+    "https://api.github.com/repos/lixiang90/RH-Weil/git/ref/heads/main",
+    "https://api.github.com/repos/lixiang90/RH-Weil/git/commits/4f4eb65332fd7c262a06193a45755c493c4b8828"
+  ],
+  "local_exact_commit": true,
+  "local_tree_verified": true,
+  "source_gate_executed": true,
+  "source_gate_stopped": true,
+  "mathematical_iterations": 0,
+  "cadence_unchanged": true,
+  "metadata_policy": "This receipt, STATE and sync checkpoint form one metadata-only child, independently GET-verified and locally imported without another self-referential receipt.",
+  "scope": "Sync evidence only. Regular quotient and finite-lattice height front-end do not supply analytic source map, square RR capacity or full Weil budget identity. Macro bottleneck/whole4/5/Goal gate unchanged."
+}
