@@ -1,0 +1,55 @@
+{
+  "schema": "rh-weil-remote-source-sync-verification-v1",
+  "verified_at_utc": "2026-10-22T23:20:53.863935Z",
+  "repository": "https://github.com/lixiang90/RH-Weil",
+  "branch": "main",
+  "source_commit": "430bb21b1ebb288c7e99935957933474c9885905",
+  "source_tree": "da41e5e1d148b45cda30adb7be2c0f6965436c27",
+  "source_parent": "f7b121496592ddc70ece4cb114dfb550283cae5e",
+  "source_files": 14,
+  "checks": [
+    "nonforce expected-parent lease update succeeded",
+    "independent GETref equals sourcecommit",
+    "independent GETcommit tree and ordered parent match",
+    "local staged tree identical to GitHub tree",
+    "remote rawcommit reconstructed exactSHA before localrefs update",
+    "HEAD=origin/main=source and worktree clean before metadatachild",
+    "root-bound final source versions and frozenGoal hashes preserved"
+  ],
+  "bound_research_versions": [
+    {
+      "path": "notes/582-full-local-weil-strong-domain-and-actual-green-source-gates.md",
+      "lf_sha256": "6d5e5711e44fad0aec44e6d95233b7898370430bc9b7b1cc8281b7d4304fdcc8"
+    },
+    {
+      "path": "goals/contracts/C045-full-local-weil-domain-and-actual-green-source.md",
+      "lf_sha256": "0fd15475efb13bf88020e098dab301b74bf009c2669f5a0c3ada4890b978f520"
+    },
+    {
+      "path": "goals/reviews/2026-10-23-full-local-weil-green-admission.md",
+      "lf_sha256": "85e5da99f5d1249c4b27fe653c0c96feb623387c86a2379cea39571903d62ffb"
+    },
+    {
+      "path": "reviews/2026-10-23/full-weil-domain/actual-regulator-cycle-and-principal-test.md",
+      "lf_sha256": "10c0cc6c5c708bb1b59c5c5887853532284c9ff55d74e3b34c7de2722b5287ea"
+    },
+    {
+      "path": "reviews/2026-10-23/full-weil-domain/fresh-whole-review.md",
+      "lf_sha256": "22cd73162f7d21fa253b972ae90b298b2af52c13180a478a34160572aaccd8b7"
+    },
+    {
+      "path": "reviews/2026-10-23/full-weil-domain/full-local-domain-and-source-fees.md",
+      "lf_sha256": "3d0ef72e9924ee74ddd962532ae057c2c5e7bc29da11d3ce8f9b98290ee0b505"
+    },
+    {
+      "path": "reviews/2026-10-23/full-weil-domain/local-filters-rr-and-controls.md",
+      "lf_sha256": "e856e771e38c2e6bdd88779c3997553c0e6d3fa1570dd4fe6f09aee3aebce93a"
+    }
+  ],
+  "scope": "complete582 research,3branches/fresh/root, contract/review/STATE/README/frontier/decisions/cadence/rootcheckpoint; full metadata as explicitly authorized.",
+  "metadata_child": "this receipt/finalSTATE/unique synccheckpoint in following child; receipt binds source, no recursive ownSHA. Finalchild verified independently separately.",
+  "authorization": "current direct user result sync request and persisted human complete-file public authorization",
+  "approval_rejection_this_turn": false,
+  "mathematical_gate": "open/not-eligible; actual full-local domain and nativeGreen source facilities paid; no independentprimitive mixedcapacity/completeWeil positivity/core-coupling-Xi consequence",
+  "cadence": "5, historical46, formalcycle15; settlement once only, source/review/sync zeroextra"
+}

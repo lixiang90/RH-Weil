@@ -46,8 +46,8 @@
     "settled_iterations": [
       "notes/582-full-local-weil-strong-domain-and-actual-green-source-gates.md"
     ],
-    "stage": "582/三原件/fresh最终限定PASS已root前件闭合并统一结算；正在按授权同步完整研究/元数据。",
-    "next_action": "先同步并独立验证582完整文件；恢复仅接同一非零primitive实际载体上的relativeprincipal/Green cocycle与物理源map，先405/537和全源/原du-Dlog/全部尾，再整过滤/sections/mixedRR。无实物只一章来源门即止，不续C045/未知合同。",
+    "stage": "582/三原件/fresh已root闭合并统一结算；完整14源文件已发布且独立GET/同tree/local rawSHA/clean验证通过。sync元数据另child，不递归记录自身SHA。",
+    "next_action": "研究恢复仅接同一非零primitive实际载体的relativeprincipal/Green cocycle与物理源map，先405全关系/537及全源非根/原du-Dlog与全部尾，再整局部过滤/截面lift乘法/mixed二次RR。无实物只一章来源门即止，不续C045/未知合同。",
     "stop_rule": "一轮止本域/源recipe；未知arithmetic桥或旧商不续参数/paper，保额外真实regulator/highercarrier及付费无界容量。"
   },
   "support_contracts": [],
@@ -153,15 +153,15 @@
   "pending_processes": [],
   "runtime_goal_observation": {
     "status": "absent",
-    "observed_at_utc": "2026-10-22T23:17:54.118106Z",
-    "basis": "本轮实际get_goal=null；同文件G20261014/冻结0c4f，不创建或完成运行实例。"
+    "observed_at_utc": "2026-10-22T23:20:53.863935Z",
+    "basis": "发布后实际get_goal仍null；保文件G20261014/冻结0c4f，无新建或complete实例。"
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-10-23-full-local-weil-green-582-root.json",
+  "checkpoint": "goals/checkpoints/2026-10-23-full-local-weil-green-582-sync.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
-    "commit": "83f68f55f8b279b1922f968b27dd558a1268afea",
-    "basis": "581完整15文件同tree3885af43/parentcf9dcbc9；独立GET ref/commit与本地raw同SHA/refs/tree/clean已核。metadata child不递归写自身SHA，最终HEAD另核。"
+    "commit": "430bb21b1ebb288c7e99935957933474c9885905",
+    "basis": "582完整14文件同treeda41e5e1/parentf7b12149；独立GET ref/commit与本地raw同SHA/refs/tree/clean已核。metadata child不递归写自身SHA，最终HEAD另核。"
   },
   "completion_audit": {
     "goal": "goals/GOAL.20261014.md",
@@ -175,9 +175,9 @@
     "goals/goal-completion-receipt.20261014.json",
     "goals/goal-completion-receipt.20261014-continuation.json"
   ],
-  "process_inventory_observed_on": "三分支和fresh均completed/root实际核读；pending空、无后台计算；起始HEADf7b12149，准备582完整源授权同步。",
+  "process_inventory_observed_on": "三分支与fresh均completed/root实际核读；pending空，无后台计算。582完整源GitHub430bb21b/本地同SHA/tree/clean已核，保存同步回执child。",
   "publication_approval_gate": {
-    "status": "ready-for-authorized-582-complete-source-sync",
+    "status": "current-research-source-published-and-verified",
     "destination": "https://github.com/lixiang90/RH-Weil",
     "visibility": "public",
     "branch": "main",
@@ -187,8 +187,8 @@
       "reply": "授权同步本轮完整文件",
       "scope": "Public lixiang90/RH-Weil: this research plus STATE, decisions, checkpoints, version records and subsequent sync receipts; includes authorization/handoff metadata."
     },
-    "published_source_commit": "83f68f55f8b279b1922f968b27dd558a1268afea",
-    "verification": "reviews/2026-10-23/weighted-two-prime/remote-sync-verification.json",
+    "published_source_commit": "430bb21b1ebb288c7e99935957933474c9885905",
+    "verification": "reviews/2026-10-23/full-weil-domain/remote-sync-verification.json",
     "history": "Earlier rejections retained in historical blocked/handoff checkpoints. Explicit human reply resolved scope; this is not a pending gate.",
     "current_scope": "用户本轮沿581明确结果同步GitHub，结合既有人类完整文件公开授权；同一lixiang90/RH-Weil研究/STATE/决策/版本/检查点及后续sync回执。"
   }
