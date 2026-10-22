@@ -1,14 +1,13 @@
 # 长期研究恢复入口
 
-最新[C042/579实际KRY源与native循环门](reviews/2026-10-23-kry-physical-source-admission.md)已独立fresh修后限定PASS、root前件闭合。
-actual φ*伸缩轨道给全S_exp→Schwartz→section，Gram=νsech，原du费用2πν；nativeφ*/Haar固定，不把rawπ模型偷换成完成化规范。
-native weight1投影只读c(r)=∫rsech(u/2)，真实cycles为c(r)Z(n)；405正Pan每个平移c<0，q7的n1像degree非零非principal。
-同一compact奇源双polezero/c0而537完整Q>0；任何经scalar的fixed线性relative/primitive修复不同时过主关系/非根。
-实际高频源/section平移费用已核；polar direct酉补偿合法但未给Schwartz-cycle下降。finiteEuler实际像/mixed范数不代cycle逆/height或actualq必要费。
-连续±同源奇源异号，真FF仍靠同对象primitive mixed RR/Hodge及全aliases；fullΓ/contact/allpowers/双pole与原du/Dlog量词保持。
-本次统一一数学轮cadence1→2/历史42→43，formalcycle15保持；上轮source0不改计。
-局部源接口已构造并精确判失败；经典独立primitive容量、strong-old whole4/5负惯性上预算/core/coupling/Xi瓶颈未变，Goal open。
-停止native scalar/fixedrelative/rawbounded recipe，不续Gaussian/finiteF/K阶参数或paper；下一只接不经c的新实际非标量formula，先405/537/原费再同对象容量。
+最新[C043/580有限Schwartz—边界协同门](reviews/2026-10-23-kry-finite-boundary-admission.md)已独立fresh修后限定PASS、root前件闭合。
+split2实际非标量cycles及完整constant已付，不再只经579单c；inert3 standard/tr同初值导数差由明确localcocycle协同，不能忽略vertical/constant费用。
+finite全Pan像张满，fixedlinear relative失405；另有数据构造的537非根核，不把线性span偷用于所有非线性读出。
+无限native单格有合法du费及compact注入，但非零compact像不属原Bruhat域；全S_exp另有明确R_A使全部c_j/双pole矩零而完整Qζ>0，全Γ/contact及全primepowers尾已付。
+dense双prime可消alias，指定无权单位化family对固定非零源实际费发散；保衰减权/额外边界/新拓扑，不报全位no-go。
+FF同对象primitive mixed RR及全部aliases、非负Frobenius统一j0；continuous±异号不由positive finite Gram自动识别，尚无其到CM运输。
+统一一数学轮cadence2→3/历史43→44，formalcycle15保持；局部规范/coverage前沿改变，独立容量、whole4/5负惯性UPPER、actualq/core/coupling/Ξ未变，Goal open。
+停止本finite-native fixedrelative及单格Hilbert recipe，不续level/参数/paper；下一仅新实际relative/regulator读额外原源，或带同域cycle/强完成身份的有权非整格family，先405/537/全源及原费。
 唯一动作和发布状态以STATE为准；以下“当前/下一”均为历史。
 
 最新[C039/576结算](reviews/2026-10-22-function-field-positive-cone-576-settlement.md)已fresh限定PASS、root前件闭合。
