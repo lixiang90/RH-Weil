@@ -44,8 +44,8 @@
     "settled_iterations": [
       "notes/578-prime-pole-signed-budget-and-selberg-control-gap.md"
     ],
-    "stage": "578/fresh/root最终前件收据已齐，一轮已结算；待review checkpoint、精确14文件changeset与GitHub同步。",
-    "next_action": "核root版本收据／review checkpoint和精确14文件changeset，按授权同步GitHub并独立GET/local同SHA核验。此后本入口停止，仅收独立signed或同对象RR实物，不自动C042/579。",
+    "stage": "578/fresh/root前件与一轮结算完成；研究commit04f0d1e已GitHub GET及本地同SHA/tree核验；仅发布回执和sync checkpoint由metadata子提交携带。",
+    "next_action": "本PNT绝对包络/ordinarySelberg/Toeplitz/二阶矩入口停止，无运行数学进程。下一仅准入实际独立twisted/signed identity和完整Γ/幂/pole原费，或同对象source→sections/过滤/primitiveRR实物；先核405/537/原norm，无实物不建C042/579或串paper。",
     "stop_rule": "一轮止；只排本候选充分包，若需未知q消失／Weil正性即停，保更精细Γ-signed/joint/同对象RR独立实物。"
   },
   "support_contracts": [],
@@ -169,11 +169,11 @@
     "basis": "新用户轮实际get_goal=null；保G20261014文件与冻结基线，不创建未请求实例。"
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-10-22-prime-pole-578-review.json",
+  "checkpoint": "goals/checkpoints/2026-10-22-prime-pole-578-sync.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
-    "commit": "c73eae4ebe4bed7669b1b39d911403c096e95297",
-    "basis": "577精确15文件研究commit独立GET核ref/treeb1a26f0/parentc5c9bb1；本地相同raw提交对象/refs/tree及clean已核。metadata子提交不递归写自身SHA；现场HEAD另核。"
+    "commit": "04f0d1e3f0750f9234b8e49e1cdcbb36ff93957e",
+    "basis": "本轮578精确14文件研究commit独立GET核ref/treea0f24b5/parent856688e；本地同raw提交SHA/refs/tree及clean已核。metadata子提交不递归写自身SHA，当前HEAD另现场核。"
   },
   "completion_audit": {
     "goal": "goals/GOAL.20261014.md",
@@ -187,5 +187,5 @@
     "goals/goal-completion-receipt.20261014.json",
     "goals/goal-completion-receipt.20261014-continuation.json"
   ],
-  "process_inventory_observed_on": "三原分支与fresh/连续子核均已完成，root核读并统一结算；无运行数学/数值，待GitHub同步，runtimeGoalnull。"
+  "process_inventory_observed_on": "本轮三原分支/fresh与连续子核完成，研究commit04f0d1e本地远端同SHA/tree及clean已核，无后台数学/数值，runtimeGoalnull；仅发布metadata回执另携带。"
 }

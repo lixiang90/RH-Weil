@@ -1,0 +1,38 @@
+{
+  "schema": "rh-weil-remote-sync-verification-v1",
+  "date": "2026-10-22",
+  "repository": "https://github.com/lixiang90/RH-Weil",
+  "branch": "main",
+  "research_commit": "04f0d1e3f0750f9234b8e49e1cdcbb36ff93957e",
+  "research_tree": "a0f24b50e42e4abd7e9f9322a98f595da7445ca0",
+  "parent": "856688eb87de19eff6aceaef77c290d34048e3f1",
+  "independent_get_verified_at_utc": "2026-10-22 14:16:30 UTC",
+  "files": [
+    "goals/DECISIONS.md",
+    "goals/MACRO_FRONTIER.md",
+    "goals/README.md",
+    "goals/STATE.json",
+    "goals/checkpoints/2026-10-22-prime-pole-578-review.json",
+    "goals/contracts/C041-prime-pole-signed-budget-and-selberg-controls.md",
+    "goals/review-cadence.json",
+    "goals/reviews/2026-10-22-prime-pole-signed-budget-admission.md",
+    "notes/578-prime-pole-signed-budget-and-selberg-control-gap.md",
+    "reviews/2026-10-22/prime-pole-signed-admission/cumulative-error-and-original-cost.md",
+    "reviews/2026-10-22/prime-pole-signed-admission/fresh-whole-review.md",
+    "reviews/2026-10-22/prime-pole-signed-admission/history-and-source-admission.md",
+    "reviews/2026-10-22/prime-pole-signed-admission/root-consumption-scope.json",
+    "reviews/2026-10-22/prime-pole-signed-admission/square-identities-and-controls.md"
+  ],
+  "checks": {
+    "remote_ref_matches": true,
+    "git_commit_parent_tree_match": true,
+    "local_same_raw_commit_object_and_refs": true,
+    "local_tree_matches": true,
+    "worktree_clean_after_research_import": true,
+    "root_versions_rechecked": true
+  },
+  "scope": "Research commit verification only; metadata child carries this receipt, final STATE and a new checkpoint without recursively claiming its own SHA. Version and structure checks are not mathematical proof.",
+  "mathematical_gate": "open/not-eligible",
+  "cadence": 1,
+  "historical_weil": 42
+}
