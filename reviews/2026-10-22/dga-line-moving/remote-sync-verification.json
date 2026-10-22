@@ -1,0 +1,17 @@
+{
+  "schema": "rh-weil-remote-sync-verification-v1",
+  "date": "2026-10-22",
+  "repository": "https://github.com/lixiang90/RH-Weil",
+  "research_commit": "d762c6d76e0eb6a90a32c88da7ce2d6a9e1e80a9",
+  "tree": "7188b999f3abe904bd263102f6a649dfff7479e7",
+  "parent": "ecedbf4aaaadf3612ec811ba7ae15221086c00ca",
+  "verification": "Independent GET main ref and git commit match SHA/tree/single parent; local exact raw commit object, guarded refs/index/tree match, clean before metadata",
+  "files": 15,
+  "added_mathematical_iterations": 0,
+  "cadence": 2,
+  "formal_cycle": "14 unchanged",
+  "goal": "G20261014/0c4f unchanged, mathematical open/execution not-eligible, runtime Goal null",
+  "root_receipt": "reviews/2026-10-22/dga-line-moving/root-consumption-scope.json",
+  "root_receipt_lf_sha256": "52a86a68d07bf1c3df37e1eb2beff7554cfd09af192062e8170e191fd0b40ab6",
+  "scope": "Actual finite graph/Koszul source admission and function-field comparison; no independent capacity or classical positivity. Metadata child verified separately without recursive receipt."
+}
