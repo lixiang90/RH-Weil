@@ -1,0 +1,87 @@
+{
+  "schema": "rh-weil-root-premise-closure-v1",
+  "status": "root-consumed final four drafts after independent limited PASS",
+  "goal_epoch": "G20261014",
+  "baseline_commit": "0c4f3a3eb609bb1d9564138fa4a35701f05605f2",
+  "starting_git_head": "4834793d4a38541876b7d4a60be9ef66e3a5326a",
+  "report": "goals/reviews/2026-10-22-source-dependent-divisor-families-and-relative-sections.md",
+  "independent_review": "reviews/2026-10-22/source-dependent-family/fresh-review.md",
+  "premise_closure": [
+    {
+      "object": "Actual analytic relative marked section",
+      "map_domain_range": "r=e^(u/2)f in physical S_exp,C -> A_r(z)=M_f(1/2+z) -> a=[A_r]_H -> sigma=-aY in Gamma(P1_ZH,O1), H=(z^2-1/4)Xi, ZH underlying V(H) with restricted quotient sheaf.",
+      "paid": "Monic X-aY defines actual flat relative Cartier graph even over nonreduced base. sigma itself need not be regular. Kernel physical Pan by519 actual source/growth reconstruction and two degree values; no unrestricted entire-source surjectivity claimed.",
+      "relations": "p has A=H/2 and maps0. h maps primitive0/degree1/4,1/4.537 compact nonroot has degree0 and nonzero primitive component. All specified Pan relations, not only namedp, are killed.",
+      "origin": "519/520 completed-divisor source quotient repackaged as analytic global section; non-J composite but not independent arithmetic geometry/positivity. Completed divisor is explicit input even without enumerating its points."
+    },
+    {
+      "object": "Roles, principal graph and multiplicity",
+      "paid": "Graph difference principal, Picard class constant; marked section carries source. Raw A/H mapsp to1/2, only quotient by entire sections killsit. H w=A affine graph has empty/full fibers and is not substituted for monic flat graph.",
+      "multiplication": "A_(r*s)=A_r A_s for source convolution; O1 timesO1 landsO2, graded bookkeeping not actual arithmetic degree.",
+      "radicals": "H-base retains degree plane/Pan; Xi-base retains full jets/physicalI kernel; neither automatically minimal Q quotient. Ordinary finite local trace kills nilpotents but retains multiplicity weight. Q(h)=0 despite sigma_h nonzero. No faithful positive norm on allH sections identifiedwithQ."
+    },
+    {
+      "object": "Original source norms and growth",
+      "norm_domain": "Original du and whole-line zero-extension Dlog(log(2+|t|) Fourier weight), physical coordinate fixed. Compact(-L,L) and fullS_exp remain distinct.",
+      "paid": "L2 exact kjet squared fee integral u^(2k)e^(2alpha u)du. Dlog controlled by actual restricted dual, not same exact integral.553 critical/offcritical sharp fees and all-translate density/nonlinear-coset constancy are strongest-old inputs.",
+      "quantifiers": "Fixedk, L>=1 and ALLgamma for critical553; offcritical firstfixedalpha!=0,gamma,k only. No uniform alpha->0 or joint allheight/allmultiplicity fee. Principal-part norm adds inverseH leading derivatives.",
+      "remaining": "Actual arithmetic-source originalnorm/cofinal joint transport and global capacity not paid; originalFrechet/analyticlocal topology, varyingdomain and matchedcocycle escapes legal."
+    },
+    {
+      "object": "Concrete non-spectral source-dependent controls",
+      "paid": "Smooth projection probe can kill namedp/h and preserve537r0 with du/Dlog/FS fees, but another actual principal translate survives. Actual L2-projection/Gaussian adelic metric killsP, preservesr0 energy, supheight/energy paid inoriginaldu, compactifiedcurvature stillO(e^(2L)); nonzero translatesfail.",
+      "same_object_budget": "BottomH0(O)=Z, originalmetric smallsection kernel N Z budgetlogN<=infPhi. Localorder of distinguished1 remains0; no fullprimepower budget generated. Pole-only nonlinearmetric family killsallPan but losesr0. Principal rational frame transport has no net localgain.",
+      "coverage": "These explicit formulas do not exclude all nonlinear/family/relative/nonlocal/adelic constructions. All-source smallsection and module-section roles distinguished."
+    },
+    {
+      "object": "Actual flat collision repair and capacity",
+      "paid": "OnP1_Z[t], E=x(x-t) finiteflat length2. CompleteH0(Om) restriction surjective(m>=1), kernel via multiplicationx(x-t) isH0(O(m-2)). Flatbasisminor{1,x^m}=t^(m-1), nakedpointminor=t^m, fullgoodminor{1,x}=1.",
+      "direction": "Badminor logdivergence only rejects fixedbadcolumns/freeframe; not necessary actualsource cost. Goodminor/divided-difference repair explicitly consumed before any boundaryclaim.",
+      "capacity": "Samecurve degree/order andrankm+1 are real, onlylinear. OnfiniteZH truncation, module rankn+1 / Cdimension(n+1)*lengthZT, butlength alreadyfromcompletedzeros, notindependent arithmetic RR. No fixedfinite totalcapacity oninfinitebase."
+    },
+    {
+      "object": "Positive/negative systems and complete source target",
+      "controls": "R_d=C[z]/(z^2+d), zdagger=-z yieldsregulartrace2|A|2+2d|B|2; d!=0 algebrasbothC+C but daggerfixespointsforpositive/exchangesfornegative. d0 retainslength/trace2 andnilradical. Bothsigns have samecomplexrelativegeometry, so no independent signfromcurvecapacity. Functionfield RR/Hodge precedescomplexlinear extension, allperiodaliases/H0H2poles retained.",
+      "complete_weil": "Main(9)=568(14): fullGammafinitepart/contact, alllogp*p^(-k/2) properpowers, bothmixedpole moments unchanged. Oldexplicitformula primitiveXi trace does not pay samearithmeticsection determinant budget identity.",
+      "open": "Integral specializations, finiteplace divisibility, independent square RR/effectivity, signed fullmixed identity/growing errors absent. Requiring fullGram=Q andPSD isequivalentWeil endpoint. B withzeroschangesbase; entireunit canchangeframewithoutbasechange."
+    },
+    {
+      "object": "Semantic recovery and stop",
+      "correction": "Earlier no-map wording is restricted to absentindependentarithmetic sourcebridge in2602candidate; actualanalytic section exists viaold519/520, so noallmaps-no-go. Previousreport/roadmap/entries appendthisscope; previouslocalization/frame/boundaryconclusions untouched.",
+      "strongest_old": "553 alreadyincludesdensity/nonlinearity/cofinal escape;519/520 quotient alreadypaid;568 signedcarrier/567 square interface alreadypaid.542+555->557 wholeleading4/5 issuedupper unchanged, notnegativeinertia lower.",
+      "settlement": "User-directed concretefamily test witholdasset relativepackaging/elementarycontrols, zero mathematical iterations, no573/C036, cadence1/formalcycle14 unchanged. Stopthisfamilyparameter/probe/badminor/paper extension.",
+      "next_admission": "Different actualarithmetical/relative source input withallrelations/nonroot/originalnorm and independently derived localorder/squarecapacity orfullbudget comparison; no automatically renewed unknowncapacity contract.",
+      "long_goal": "Same frozenGoal version, runtimeGoalabsentnotcreated. Mathematicalgateopen/noteligible; macrocapacity/actuallowfrequency/core/coupling/Xi unchanged."
+    }
+  ],
+  "files": {
+    "goals/reviews/2026-10-22-source-dependent-divisor-families-and-relative-sections.md": "7a534cc04313a7f08d333036849e6117b050d27fa7ffc6642425f7b4fdb66ad8",
+    "reviews/2026-10-22/source-dependent-family/fresh-review.md": "81cf1495aeaddb647aa9a97cc93b29bd3f5b3ca48547c865ce5f7f51202c075e",
+    "reviews/2026-10-22/source-dependent-family/relative-divisor-construction.md": "7cba0c8d021c3df3d9868dbbaba158a5db6a41df62077cc06a9f53c6eae15bad",
+    "reviews/2026-10-22/source-dependent-family/relation-nonroot-and-original-norm.md": "b1d42fdf88b186436f52cb3b0834933ae030851eebfd75106f4c0ef4f1bd81d9",
+    "reviews/2026-10-22/source-dependent-family/local-global-relative-budget.md": "5155d5f1dda74810e5ffbbf1014b34c3c509f0e96006e51c69220017431cf955",
+    "goals/GOAL.20261014.md": "cc6046029a8e5c9fe4eae427dfd663f1d851666370637c8fd451042f340fee8b",
+    "notes/405-f1-adelic-restriction-moments-and-radical.md": "fe5ee4b574954e51a69c6bbbaa772bb75a1a510c91c837ba02eed8ac406cbb7d",
+    "notes/518-f1-quantitative-mellin-division-and-mobius-source.md": "f632708873b80ae6741264a0c2954f1c59b06d1f4f296100da135c7ba86fee0e",
+    "notes/519-f1-closed-source-image-and-degree-moments.md": "93d39e6d932c9913f5feb77bed4d1ad096c9d984ed571e894576fce6c53b124c",
+    "notes/520-f1-source-quotient-spectrum-and-centered-growth.md": "81a05708dfd2139d374d9fac7f631e66ea4449d502cf9fb0c52f53b900dc9651",
+    "notes/537-source-exact-weil-window-positive-tail-admission.md": "269a500556d37fc04a4e44efd2f0899414787743e529506dbbe7395a34eea9f8",
+    "notes/552-radial-adelic-green-principal-and-comparison-gate.md": "670c05aac61921a4f36accc89638e2844fe7221df6341e4e7ff27964fb22d887",
+    "notes/553-principal-cyclic-closure-and-cofinal-readout-fees.md": "35a40c35d1eaa7fafb462361ddef1bfb9643402b5670f832b9142aeb4b74abce",
+    "notes/567-function-field-positivity-origins-and-generalized-correspondence-tests.md": "96c0c5a62e4175705696a29ed28d890eb11cec6f7351dc763641b65f3fcaec8a",
+    "notes/568-source-evaluation-carriers-local-jets-and-weil-capacity-gap.md": "f71ab11661107f5fe0d294ac671421b7aaef0f8860f87c238d8fbe1a15554a4a",
+    "notes/569-dual-carrier-gamma-normalization-and-budget-cocycles.md": "5b423e7d023a413f3c3d1fb0f582073015285e84afd38b4761d9d3734f57da45",
+    "notes/557-joint-row-norm-and-gamma-arithmetic-moment-budget.md": "5abfd13af9c955b27c5a2ea8f01d2555fa05b1df450adbedbcfe20f62d327166",
+    "goals/reviews/2026-10-22-global-sections-local-evaluation-admission.md": "f9d4dc0a2bc9095d222567b9039aaa92d348b161e580e03092f8f98c2068ed10",
+    "goals/reviews/2026-10-20-generalized-weil-facilities-roadmap-after-572.md": "2e5ffb3d3eee10046588f699a82b25534671fc73632f5fe206951eaf29aa6962"
+  },
+  "root_read_scope": "Root readfullfinalmain/threeproducerproofs/freshreview, recoveryGoal/frontier/currentcontract/latestdecision;405 fullproof,519 image/growth,520 spectrum/Jordan,553 allnorm/growth,568 fullsource/radical/fees and567 RRinterface. Additionalprimary/oldproofreadscopedbyfreshreview. No fullrepositoryreview ornewnumericaltest claimed.",
+  "mathematical_iterations": 0,
+  "new_independent_global_capacity": false,
+  "analytic_global_section_exhibited": true,
+  "macro_bottleneck_changed": false,
+  "admission_gate_executed": true,
+  "admission_gate_continues": false,
+  "goal_completion": "open",
+  "hashes_are_not_proofs": true
+}

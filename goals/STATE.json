@@ -7,10 +7,10 @@
   "workflow": "goals/RESEARCH_WORKFLOW.md",
   "cadence": "goals/review-cadence.json",
   "decisions": "goals/DECISIONS.md",
-  "latest_strategy": "goals/reviews/2026-10-22-global-sections-local-evaluation-admission.md",
-  "latest_decision": "D20261022A",
+  "latest_strategy": "goals/reviews/2026-10-22-source-dependent-divisor-families-and-relative-sections.md",
+  "latest_decision": "D20261022B",
   "macro_frontier": "goals/MACRO_FRONTIER.md",
-  "macro_summary": "goals/reviews/2026-10-22-global-sections-local-evaluation-admission.md",
+  "macro_summary": "goals/reviews/2026-10-22-source-dependent-divisor-families-and-relative-sections.md",
   "latest_macro_review": "goals/reviews/2026-10-20-general-rh-macro-review-cycle-14.md",
   "latest_iteration": "notes/572-finite-euler-receiver-coherent-tail-and-original-weighted-cost.md",
   "macro_control": {
@@ -20,8 +20,8 @@
   },
   "macro": {
     "long_objective": "保G20261014：由一般g-integer及对偶建立独立同源Weil正性/有效性/RR设施以覆盖classic；实际ζ成长core及完整谱约束仍按冻结基线验收。",
-    "unpaid_bottleneck": "regular frame/kernel与有限格原高度前端明确，但无f/r→sections map/原norm运输、square二次容量及完整Γ/pp/pole同det身份；actual低频/core/coupling/Ξ仍欠，whole4/5不变。",
-    "why_this_contract": "单一候选实际kernel/height门已执行/freshPASS/root闭合；奇异/无限支撑反测否定局部好即容量有限。无源map或平方净输入，来源0止，不续paper/线性RR/jets。",
+    "unpaid_bottleneck": "actual analytic markedsection/全Pan与非根及fixed窗费用已明确（旧519/520/553相对化）；独立算术来源、同对象square容量和完整Γ/pp/pole预算身份仍欠，actual低频/core/coupling/Ξ/whole4/5未改。",
+    "why_this_contract": "用户指定family检验已执行/freshPASS/root闭合；H谱base actualmap存在但非新capacity，probe/Gaussian及flat修复范围已判。旧资产0轮止，不续参数/paper或unknownRR。",
     "paused_routes": [
       "零点比例优化",
       "无零区域优化"
@@ -37,7 +37,8 @@
       "571/C034 receiver exact/modelsign/m²均值一轮止；model非actualε，均值非方向比/原norm小费。保b权/Γrelative/nonfinitecompact/新actual运输。",
       "572/C035 actualbweighted原dy完整tail限theta>2e一轮止；不推未加权v/actualepsilon/core，保paidsigned/Γrelative/新actual变分与几何修复。",
       "actual变分来源门已执行0轮：原域/clipping/安全高层DT,DM,epsilon/K_hi闭合；不代全theta/core/容量，不续阈值或自动串B/C。",
-      "2602.15941截面门来源0止：regular商/原高度可用，singular本p商零/球无限；显式localization修补，缺source map/square容量，不开C036或nextpaper。"
+      "2602.15941截面门来源0止：regular商/原高度可用，singular本p商零/球无限；显式localization修补，缺source map/square容量，不开C036或nextpaper。",
+      "source-family门0止：H-base markedsection实际成功但旧谱商；全线density/cofinal归553，probe/Gaussian失败全关系；flat好minor修复可用仍非square容量。"
     ]
   },
   "primary_contract": {
@@ -48,8 +49,8 @@
     "settled_iterations": [
       "notes/572-finite-euler-receiver-coherent-tail-and-original-weighted-cost.md"
     ],
-    "stage": "C035/572保持完成；本次四稿/freshPASS/root闭合后来源0止，无C036；14文件研究提交远端SHA/tree/parent与本地精确对象/clean已核，收据随metadata子提交。",
-    "next_action": "仅验收实际写出的非旧J复合源→截面/对应map，含关系/非根、原norm及独立order/height；或实际square/fullbudget/低频新输入改变排序。当前无新合同，不重复已停门或自动串paper。",
+    "stage": "C035/572保持完成；本轮四稿/fresh限定PASS/root已闭合并来源0结算停止，无C036；正在检查点/同步GitHub。",
+    "next_action": "完成本报告和范围纠正的GitHub同步核验；随后只验收区别于旧完成谱base/任意probe的新算术或relative来源，含全部关系/非根、原norm和独立order/square/fullbudget比较，不自动续门。",
     "stop_rule": "一轮；无fulltail净费即止；高频闭合后也不调θ/c/β/幂次，不把certificate阈值代actuallower，保actualSonin/source成长缺口。"
   },
   "support_contracts": [],
@@ -68,7 +69,8 @@
     "571 delta_window≠actualepsilon；fibre rank2≠whole有限rank。m²均值非原norm/b权/receiver方向比，θ>1在旧有利高频层；∞MV费用发散，不续unknowntail。",
     "572 Euler后coherent频率cutoff才可付全tail；actual|b|²原dy均值OL4只theta>2e，非未加权v/duDlog/actualε。clean双边界K乘barb/b；δ正部≠D_var平方缺陷。",
     "actual变分门已执行：旧残差付安全高16的DT/DM/actualε和原du K_hi；非572全theta2e/全K小费。保存强旧合成0轮即停，无C036/自动nextpaper。",
-    "一般g不自动有加法整性/frame；本文finite type仅metric非零。regular quotient与open restriction、curve线性与square二次容量不同；保family/relative/continuous逃逸。"
+    "一般g不自动有加法整性/frame；本文finite type仅metric非零。regular quotient与open restriction、curve线性与square二次容量不同；保family/relative/continuous逃逸。",
+    "actual H-base解析markedsection已给，不能再报所有map不存在；其base归旧谱商，Pic类恒定/degree非Q/trace非fulljets，独立arithcapacity仍欠。"
   ],
   "evidence": [
     {
@@ -90,36 +92,6 @@
       "path": "notes/560-joint-finite-place-sonin-primepower-cancellation-and-compact-weil-bridge.md",
       "kind": "proved",
       "scope": "root+终审：每先fixedfiniteS实际ε∈C0、ALL原complexDlog positiveTrace−compact+完整双pole；cofinal费/sign/Ξ未付，统一一轮。"
-    },
-    {
-      "path": "notes/561-beurling-positive-measures-self-duality-and-integer-recovery.md",
-      "kind": "proved",
-      "scope": "root+终逆审：连续positive primitive/Π/N与强N正则裸FE离线模型；fixedFourier/Gaussian+unitgap纯分析恢复整数。无经典Γ反例/whole新界/Weil正性；统一1轮。"
-    },
-    {
-      "path": "notes/562-generalized-rh-continuous-g-integers-and-spectral-multiplicity.md",
-      "kind": "proved",
-      "scope": "连续正primitive/N的nonempty centered段/相变/全compact平方和；一般Weil判据与trace重数；连续谱混合有分支且失败C1，统一1轮，actualζ/core/Ξ无改善。"
-    },
-    {
-      "path": "notes/563-distribution-side-weil-certificates-and-heat-complete-monotonicity.md",
-      "kind": "proved",
-      "scope": "全D源ODE+正能量矩阵/周期全递推给完整Weil平方和；实偶指数阶heat-CM判据；精确F5曲线证书；经典全源正性仍欠，统一1轮。"
-    },
-    {
-      "path": "notes/564-dual-pair-rh-weighted-purity-and-mellin-gauge.md",
-      "kind": "proved",
-      "scope": "同整数positive Fourier-selfdual Mellin gauge的离线completed除子；±h真positive primitive dual不同权/共中心负测；一般权纯性/极化准确接口，classic实际正性未改，统一1轮。"
-    },
-    {
-      "path": "notes/565-canonical-completion-graded-identifiability-and-independent-energy.md",
-      "kind": "proved",
-      "scope": "局部energy严格拒同positive gB；CG无RH类内唯一来源核；graded/Jordan/finite Markov边界及正heat充分接口。无classic新正性，统一1轮。"
-    },
-    {
-      "path": "notes/566-source-closed-forms-and-full-weil-heat-trace-tests.md",
-      "kind": "proved",
-      "scope": "函数域已核H的正闭bundle/all-time普通heat身份；continuous/nonunitary/jump/physicalQ闭包/finite-infinite图精确测试。classic正性未付，统一1轮。"
     },
     {
       "path": "notes/567-function-field-positivity-origins-and-generalized-correspondence-tests.md",
@@ -180,16 +152,31 @@
       "path": "reviews/2026-10-22/global-section-admission/remote-sync-verification.json",
       "kind": "cited",
       "scope": "14文件研究远端SHA/tree/parent与本地精确对象/clean独立核验；metadata另核，同步不认证数学、不增轮。"
+    },
+    {
+      "path": "notes/553-principal-cyclic-closure-and-cofinal-readout-fees.md",
+      "kind": "proved",
+      "scope": "强旧：physicalPan全线L²/Dlog稠密、nonlinearcoset-map常值及fixed/cofinal jet/whole费用与合法拓扑逃逸；本轮不重计。"
+    },
+    {
+      "path": "goals/reviews/2026-10-22-source-dependent-divisor-families-and-relative-sections.md",
+      "kind": "cited",
+      "scope": "actual analytic H-base section、具体probe/Gaussian/pole族和flat评价/原费用检验；旧谱商相对化0轮止，无独立算术capacity/完整Weil新号。"
+    },
+    {
+      "path": "reviews/2026-10-22/source-dependent-family/root-consumption-scope.json",
+      "kind": "cited",
+      "scope": "最终四稿/freshPASS及405/519/553原规范root闭合：map/domain/norm/角色/量词/方向/全部误差/coverage/强旧/停止；hash非证明。"
     }
   ],
   "pending_processes": [],
   "runtime_goal_observation": {
     "status": "absent",
-    "observed_at_utc": "2026-10-21T17:55:37.864696+00:00",
-    "basis": "本轮现场get_goal=null；保同文件Goal/冻结基线，不建未请求实例。"
+    "observed_at_utc": "2026-10-22T00:04:13.050736+00:00",
+    "basis": "本轮现场get_goal=null；保同文件Goal/冻结基线，不创建未请求实例。"
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-10-22-global-section-admission-sync.json",
+  "checkpoint": "goals/checkpoints/2026-10-22-source-dependent-family.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
     "commit": "4f4eb65332fd7c262a06193a45755c493c4b8828",
@@ -201,11 +188,11 @@
     "goal_lf_sha256": "cc6046029a8e5c9fe4eae427dfd663f1d851666370637c8fd451042f340fee8b",
     "mathematical_gate": "open",
     "final_execution_gate": "not-eligible",
-    "basis": "本门明确局部frame/有限格原高度和来源纠正，未给新analytic source map、square容量或完整Weil身份；actual低频/core/coupling/Ξ仍欠，whole4/5未改，Goal门不变。"
+    "basis": "本次解析markedsection/relative评价已构造，但旧谱商/范数门包装不付独立算术source、square容量/fullWeil预算或actual低频/core/coupling/Ξ；whole4/5和长期门不变。"
   },
   "historical_completion_receipts": [
     "goals/goal-completion-receipt.20261014.json",
     "goals/goal-completion-receipt.20261014-continuation.json"
   ],
-  "process_inventory_observed_on": "2026-10-22：3producer及fresh均final，来源门root消费/停止；14文件研究同步已核，无数学/数值/下载后台，仅收据metadata事务0轮。"
+  "process_inventory_observed_on": "2026-10-22：3family producer与fresh均final/root消费/来源0止；无数学/数值/下载后台，仅本轮检查点与远端同步事务。"
 }

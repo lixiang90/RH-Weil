@@ -2,12 +2,19 @@
 
 当前文件[Goal](GOAL.20261014.md)，固定0c4f/≤538资产为输入，保留G20261014目标。
 2026-10-22现场get_goal=null，不声称旧active实例存在，未创建未请求的新运行Goal。
-本次续研已执行[真实截面／局部评价准入](reviews/2026-10-22-global-sections-local-evaluation-admission.md)：
+最新[源依赖族／相对截面检验](reviews/2026-10-22-source-dependent-divisor-families-and-relative-sections.md)
+已实际给H=(z²−1/4)Xi上的marked section r→−[A_r]Y：kernel为physical Pan，保537非根和h双degree。
+它是519/520旧谱商的relative实现；fixed窗du jet费明确，Dlog/全线稠密与cofinal费归旧553。
+移动图Pic类恒定；平滑／Gaussian族只过单p而失败其平移，pole-only族失r0。
+真实flat双点可修collision假费，完整好minor恒1；不能将坏minor发散当必要源费。
+独立算术来源、同对象平方容量及完整Weil预算身份仍欠。本次旧推论/具体候选来源0止，无C036/573；
+不继续调平滑参数、probe数或谱商新标签，单cadence1/正式cycle14及宏观瓶颈不变。
+前次已执行[真实截面／局部评价准入](reviews/2026-10-22-global-sections-local-evaluation-admission.md)：
 2602.15941v1的regular frame商kernel、有限格原高度Nλ≤1与tensor线性容量明确；
 Z[1/p]本p商为零、异位仍满而小球无限，说明非零metric／局部非退化不保证global容量。
 §5.2字面局部化需显式修补，所需restriction以frame独立闭合；旧来源用法已加纠正。
-尚无f/r→sections的实际map及平方二次容量／完整Weil身份，本候选来源0停止，无C036/573。
-下一仅验收实际写出的新源map及原norm/独立消失或高度比较，不自动续paper、线性RR或jets。
+该2602候选未给独立算术f/r→sections map及平方二次容量／完整Weil身份，来源0停止，无C036/573。
+下一仅验收区别于旧谱商包装/任意probe的新算术或relative源桥及独立费用，不自动续paper、线性RR或jets。
 宏观瓶颈和strong-old4/5未变，单cadence1/正式cycle14保持，长期Goal门仍open。
 当前战略入口是[568–572后修订路线图](reviews/2026-10-20-generalized-weil-facilities-roadmap-after-572.md)：
 旧文献路线图以来五轮数学及LS专题已对照；评价非退化、Γ规范和cocycle不是未执行容量任务。

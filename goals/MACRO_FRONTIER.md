@@ -2,10 +2,22 @@
 
 2026-10-22更新；完整Goal、唯一动作和现场观察以STATE为准。
 固定基线0c4f3a3eb609bb1d9564138fa4a35701f05605f2（全部≤538），同G20261014。
-最新[真实截面／局部评价来源门](reviews/2026-10-22-global-sections-local-evaluation-admission.md)
+最新[源依赖族／相对截面门](reviews/2026-10-22-source-dependent-divisor-families-and-relative-sections.md)
+已给actual analytic global-section map r→−[A_r]Y，base H=(z²−1/4)Xi保全部重数和两degree。
+519像识别付kernel physical Pan，537付r0 primitive非零；h映到degree(1/4,1/4)但Q(h)=0。
+因此marked section成功不代Pic类/最小Q商；图差全principal，raw A/H也不自动消p。
+原du fixed窗jet精确费、Dlog cofinal/globalnorm责任归553强旧；非线性coset-map稠密退化亦已付。
+真实非谱probe/投影Gaussian族原费可付但全principal平移失败，pole-only失非根。
+同对象flat E=x(x−t)长度2保碰撞jet，坏minor t^(m−1)而好minor1；无必要坏费下界。
+relative P¹确有局部核/线性容量，谱base总length却是已给完成零除子；仍无独立算术平方容量/全位预算。
+本次旧资产相对化与候选实际检验来源0止，无C036/573，不续Gaussian/probe/badminor或paper链。
+whole4/5/core/coupling/Ξ与宏观瓶颈未改。下一须有区别于已给谱base/任意坐标的实际来源、
+同源原norm与独立消失/平方容量或全位新比较；正metric/PSD字典不足。
+
+前次[真实截面／局部评价来源门](reviews/2026-10-22-global-sections-local-evaluation-admission.md)
 已核2602.15941v1同一候选：regular有限frame商有kernel p^kL，乘法消失过滤相容；
 有限格原球给非零kernel截面的精确Nλ≤1预算，tensor log#仅max(nd,0)+O1。
-这是独立格／valuation前端，不是平方RR／完整Weil容量；无f/r→sections新map。
+这是独立格／valuation前端，不是平方RR／完整Weil容量；该2602候选无独立算术f/r→sections新map。
 负测Z[1/p]本p商零、异位仍满而球无限；所有n_p=1时处处商满却球无限；零metric亦失容量。
 finite type只指metric非零。§5.2字面L(V)不承受结构环，冻结该字面消费；
 显式标准localization修补与不依赖修补的frame商重新闭合实际所用restriction，其他旧资产范围不变。

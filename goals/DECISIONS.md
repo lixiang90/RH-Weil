@@ -933,3 +933,31 @@ L[S^-1]且空集零对象；所需frame商不依赖修补而独立闭合。旧�
 完整预算身份、穿过actual低频/core的新signed输入改变排序，未有不预建未知合同。
 strong-old542+555→557 whole leading4/5上预算未改，宏观容量/core/coupling/Ξ仍欠。
 同G20261014/冻结0c4f；runtime Goal本轮null，未新建，长期完成门open/not-eligible。
+
+## D20261022B：源依赖相对截面实际构造，扣旧谱商/范数后停止
+
+用户明确要求family/relative map并先核405、537和原norm；故执行一个有具体公式的候选检验，
+不把D20261022A的固定rank-one门或已停Sonin高频门重新打开。
+[主稿](reviews/2026-10-22-source-dependent-divisor-families-and-relative-sections.md)与三稿/fresh限定PASS已root闭合。
+
+实际analytic map已写出：A_r(z)=M_f(1/2+z)，H=(z²−1/4)Xi，base=V(H)及非约化商sheaf，
+sigma_r=−[A_r]Y是P¹_ZH上marked O(1)截面，s_r=X−[A_r]Y给monic flat graph。
+519实际像/growth付kernel physicalPan；p映0，h保两degree1/4，537 r0 primitive非零。
+不能再泛称所有actualmap都不存在；但这个base正是旧519/520完成谱商，未新增独立算术来源。
+Picard类恒定，raw A/H不消p，trace nilradical/全jets/双degree与最小Q商各保原角色。
+
+fixed窗原du jet精确费用与Dlog dual/cofinal费用已核，553全线density及非线性coset-map常值完整归旧。
+不经谱商的smooth probe/投影Gaussian actualmetric族虽可过单p/r0并付原height/energy，仍失败真实principal平移。
+pole-only族可消Pan却失r0。不能通过加probe/Gaussian参数或正FS metric延长此入口。
+同对象relative E=x(x−t)保flat collision，badminor t^(m−1)与好minor1已核；坏minor发散不是实际源necessaryfee。
+曲线kernel/乘法/线性容量存在，不付square二次项。连续正反的C代数/relative几何相同而dagger极化不同；
+函数域先由同一square RR/Hodge付号再复线性扩张，全periodaliases与poles保留。
+
+完整Γ/contact、全部pp和双pole从未删定义；旧显式公式身份不代同一算术section/det的原容量减局部整除身份。
+要求全Gram=Q且PSD仍等价Weil正性。带零B改base，无零unit改frame，family本身不排规范自由。
+当前没有独立算术capacity/actual低频/core/coupling/Ξ新输入，strong-old542+555→557 whole4/5上预算未改。
+
+本次是旧资产相对化和初等具体候选的来源/准入组合，0数学轮，无573/C036，cadence1/正式cycle14保持。
+在此停止，不续同族参数或自动paper链。下一仅验收区别于完成谱base/任意smooth坐标的新actual来源，
+连同全部关系/非根、原norm及独立局部order/平方容量或fullbudget新比较；未知条件改名不准入。
+同G20261014/0c4f冻结，runtimeGoal现场null未新建，Goal门open/not-eligible，宏观瓶颈未变。
