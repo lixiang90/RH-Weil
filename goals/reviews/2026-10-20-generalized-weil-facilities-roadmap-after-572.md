@@ -14,6 +14,10 @@
 同日按用户指令又完成[源依赖族／相对截面检验](2026-10-22-source-dependent-divisor-families-and-relative-sections.md)：
 旧谱商可给实际analytic marked section，不能继续把“所有map不存在”当缺口；
 仍缺的是独立算术来源、原共同费用和同对象平方容量／完整Weil身份。具体族检验后来源0收口。
+其后[实际adelic限制／相对DGA门](2026-10-22-adelic-restriction-relative-square-and-quadratic-capacity.md)
+已给非Ξ-base源定义复形、保degree乘法与全Pan同伦，但quasiiso为旧405商。
+真实P¹_Z的n²算术容量及site平方/例外复合均存在；缺口须精确为同一实际源的primitive容量与完整预算比较。
+该代数补完不自动变成新独立正性；最终阶段/审阅/root范围见STATE和本门收据，不沿旧来源标签自动续合同。
 
 ## 1. 修订后的主判断
 

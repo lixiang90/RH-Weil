@@ -1,0 +1,64 @@
+{
+  "schema": "rh-weil-root-premise-closure-v1",
+  "status": "root-consumed final four drafts and Poisson duality after independent limited PASS",
+  "goal_epoch": "G20261014",
+  "baseline_commit": "0c4f3a3eb609bb1d9564138fa4a35701f05605f2",
+  "starting_git_head": "7b774ee4e328e9e345f1b5bdc7e9f722fe9b6d2a",
+  "report": "goals/reviews/2026-10-22-adelic-restriction-relative-square-and-quadratic-capacity.md",
+  "independent_review": "reviews/2026-10-22/adelic-relative-square/fresh-scope-review.md",
+  "premise_closure": [
+    {
+      "object": "Actual source-defined augmented radial restriction complex",
+      "map_domain_range": "S=even complex Schwartz eta, eta(0)=integral eta=0 -> B=F_c+C^2 via(E_c eta,-mu+E_c eta,-mu-E_c eta); physical r=e^(u/2)f in F_c=S_exp,C -> j(r)=[r,0,0].",
+      "origin_and_paid": "Actual adelic-to-idelic restriction/trace and Poisson in405/CCM2007, not Xi-zero base.405/519 injective closed E image and two independent degree source bases give kerj=physicalPan, H-1=0, H0=(F_c/physicalI)+C^2=F_c/physicalPan.",
+      "roles": "h has degree(1/4,1/4) and nonzero class but Q(h)=0. Entire E image I differs Pan and minimal Weil trace radical. Radial two-term model not identified with fullcyclic/Tor/sheaf complex.",
+      "relation_and_nonroot": "ALL actualPan has source eta_q and K_q(g,a,b)=U_g eta_q, T_q=dK+Kd.537 r0=(D^2-1/4)psi fixed17/16 has zero degrees and positive fullQ, hence class/action nonzero. ClosedPan+compact approximateidentity proves action claim. Fixed certificate not growing positivity."
+    },
+    {
+      "object": "Chain action, corrected multiplication and duality",
+      "paid": "U_r eta=int exp(-t/2)r(t)eta(exp(-t)x)dt; E_cU=r*E_c and U_rU_s=U_r*s. Degree cocycle star transported by Phi(g,a,b)=(g,a+mu+g,b+mu-g) to F_c x C^2; image becomes I x0x0 ideal. Negative degree products zero; Peiffer from E injective gives Leibniz.",
+      "duality": "Poisson E_c Fourier eta(u)=E_c eta(-u); J eta=conjugate Fourier eta, Bdagger(g,a,b)=(gstar,conjugate b,conjugate a), gstar(u)=conjugate g(-u). Differential/action/product compatible, J^2=1 on even source. Algebraic duality not positive pairing.",
+      "scope": "Nonunital Frechet DGA, j0 algebra map and left multiplication T_r, canonical quasiiso oldH0. No delta0 inF, no completedHilbert or arithmetic structure sheaf/effectivity/RR. Generalg needs actualE/stability/characters/Peiffer/duality; with noninjective E cannot infer H-1=0."
+    },
+    {
+      "object": "Original norm, domains and quantifiers",
+      "norm_domain": "Physical original du L2, zeroextension Dlog Fourier weight log(2+abs t); S_exp Frechet source distinct from compact(-L,L). 1+log version only equivalent with constants.",
+      "paid_dependencies_errors": "ALL compact r at each fixedL: convolution operator <=L1<=sqrt(2L)L2 in bothdu/Dlog; each degree dual sqrt(2sinhL); q_ab(U_r eta)<=q_ab(eta)*sqrt(sinh(2kappaL)/kappa)*L2 with kappa=a-b-1/2. Dlog conversion divisor sqrt(log2). AllS_exp uses separate weightedL1 per seminorm. No unlisted approximation errors in exactidentities.",
+      "direction_and_growth": "Representative upper fees only; not lower, quotient norm or uniform L->infinity bound.553 strongest-old alltranslate density/nonlinear-coset constancy/cofinal escape retained. Ifactual y=EA_Lr, pseudoinverse minimal lift <=normA_Lr; badfullspace singularvalues/badminors not actualsource lower."
+    },
+    {
+      "object": "Arithmetic-site real composition and candidate current",
+      "source": "ConnesConsani1502.05580v1 sections6.3-7, Thm7.7 exact exceptional Id_epsilon when bothirrational/productrational. Actualsquare/semiring theorem cited, not newRR.",
+      "paid": "Free complex exp pushforward current injective; fixedwindow TV<=sqrt(2L)L2. It preservesr0 but Cp has moment Mp(2)=pi/6, sofailsPan. Literal idempotent additivegroupcompletionzero; only rejects thatlinearization, notcycle/Witt/relative lifts.",
+      "remaining": "a.e. current label convolution may ignore exceptional locus but noexactcorrespondence/diagonalfinitepart/trace comparison. TVatomic approximationfails, weak/distributiontopologieslegal. Needactualsource->site-square relative sections/cycles withrelations/norm/order, not imposedPan quotient."
+    },
+    {
+      "object": "Real squares and real arithmetic n^2 capacity",
+      "paid": "Finitecomplexexternaltensor Kunneth chi=(u-v)^2. TrueP1 two-point restriction computesRGO(n-2), squareRGO(n-2,n-2), chi=(n-1)^2 with H2atn0. TrueP1xP1 F1-F2 ampleprimitive hasD2=-2; twobothfiberdegreezero numericalspaceis0.",
+      "arithmetic_positive_control": "TrueP1_Z standardtoricmetric plus fixeda>0 archtwist: Cauchy/triangle integercoeffboxes give logsmallsections=a*n(n+1)+O_a(nlogn). Independentstandardquadraticcapacityexists, notblanketlinear/noquadraticstatement.",
+      "unpaid_coupling": "Noactual r->same linebundle/metric/sections preservingPan/r0/degrees or signedprimitive/fullWeil coefficient. Choosinga byQ circular. Tensorchi not RR D2 or compositiontrace; Trdiag(1,-1)tensor=0 versus TrA2=2.",
+      "relative_escape": "407 actualprime-arrow source nonzero, allidelefibresacyclic andlegalexternalsquareacyclic. Doesnotkillglobalsource/boundary/gluing/regulator. Noncommutativebalancedtensor needsbimodule, Tor retained; Z/p derivedselftensor hascancelingalternatinglogorders."
+    },
+    {
+      "object": "Controls and complete classical target",
+      "controls": "Continuous positiveg family +/-d actualtrace2absA2+2dabsB2; sameevaluation/multiplication/tensordimensions, tensorGram diag(4,4d,4d,4d2) retainsnegative. d0 tracevsfulljetsdistinct. TrueFF square RR/effectivity/multiplication precedes Hodge/fullperiodGram; localEulerfalsemodelpassesfacilitiesbutfailsprimitiveGram.",
+      "complete_weil": "Main(8)=568 completeGamma contact/finitepart, alllogp*p^(-k/2), k>=1, bothmixedpole moments; identity paid405/568, not bynewDGA. FF allaliases/H0H2poles retained.",
+      "open": "Sameobject archcapacity=Gamma/localdivisibility=allprimepowers/RRdefects=bothpoles plusfullcomplexmixederror/growthcoupling absent. Matchedcocycle legal butnotpositivity. Postulatingcapacitycoefficient=Qandnonnegativeequivalent/sufficientWeilpackage."
+    },
+    {
+      "object": "Net consequence, stop and completion gate",
+      "strongest_old": "519/405 quotient and553 fees already strongestconsumable;542+555->557 wholeleading4/5issuednegativeinertiaUPPERunchanged, notactuallower. Noactuallowfrequency/core/coupling/Xi improvement.",
+      "settlement": "Source-definedDGApresentation/standardcapacities/sourcechecks andelementarycontrols only, nohiddennewgrowthfee/classicpositivity/methodclassboundary. Userdirectedgate stops;0mathematicaliterations/no573/noC036, originalcadence1/formalcycle14unchanged.",
+      "next_admission": "Actualnonformalcomparison/relativeregulator fromthissource toXi-independent square/relativesections, fullPan/r0/twodegrees/originalnorm/growthdomain plusconcretelocalfiltration orprimitivecapacitydata. Noautomaticnewpaper/tensor/labelchain; actualboundary or lowfrequencysignednewinputmaychangechoice.",
+      "long_goal": "SameGoal LF hash/frozenbaseline; liveget_goalnull notcreated. Mathematicalgateopen/executionnoteligible; algebraicfacilityrepaired but macro actualbottleneck unchanged."
+    }
+  ],
+  "files": {
+    "goals/reviews/2026-10-22-adelic-restriction-relative-square-and-quadratic-capacity.md": "f6575df97169168dc55f02974feff59dc20a79223180de15cec3a57c129d78c1",
+    "reviews/2026-10-22/adelic-relative-square/actual-restriction-and-chain-carrier.md": "cb58537d128235e45c4500def54fc648ef545d0472e1f0ece3e5908cec6fe95c",
+    "reviews/2026-10-22/adelic-relative-square/fresh-scope-review.md": "8dc74505932d564caaa91a3d676661cbe5722542b90692f41f096aa7b5fc0b44",
+    "reviews/2026-10-22/adelic-relative-square/frobenius-square-and-composition.md": "3ed1cf2a5536b54e712a1cab332dc082992d7bb11e1be8ddfe748fc52f8c87d3",
+    "reviews/2026-10-22/adelic-relative-square/quadratic-capacity-norm-and-controls.md": "7dd3c9b35861b737f89bf0800231d5cb9a64bd3ab2e116a54eaf446d015658f0"
+  },
+  "scope": "Version hashes identify reviewed artifacts, not mathematical certificates."
+}

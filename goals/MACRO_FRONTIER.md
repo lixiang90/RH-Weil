@@ -2,7 +2,15 @@
 
 2026-10-22更新；完整Goal、唯一动作和现场观察以STATE为准。
 固定基线0c4f3a3eb609bb1d9564138fa4a35701f05605f2（全部≤538），同G20261014。
-最新[源依赖族／相对截面门](reviews/2026-10-22-source-dependent-divisor-families-and-relative-sections.md)
+当前[actual restriction／relative DGA与平方RR门](reviews/2026-10-22-adelic-restriction-relative-square-and-quadratic-capacity.md)四稿/fresh限定PASS已root范围闭合。
+实际E与两字符给augmented复形，degree cocycle补成非unital Fréchet DGA；Pan全族有源null-homotopy，r0同调及作用非零。
+这是非Ξ-base的实际来源实现，cohomology/quasiiso仍是405/519旧商；原du/Dlog和源半范数费用归原坐标。
+真实2015 site square/compose保两无理乘积有理的Idε；自由complex current单射保r0却不消p，Mp(2)=π/6。
+外tensor chi平方不是primitive RR；真实P¹×P¹有signed方向，P¹_Z固定metric也真有log#~a n²。
+须纠正“算术一维从无n²”的过强解释；尚欠actual源到该同对象signed primitive容量/局部整除/完整Γpppole的比较。
+全部初等/标准设施及旧商实现不新增classic全源/whole4/5/core后果。来源0停止；[root收据](../reviews/2026-10-22/adelic-relative-square/root-consumption-scope.json)保全部前件，无C036/573。
+
+前次[源依赖族／相对截面门](reviews/2026-10-22-source-dependent-divisor-families-and-relative-sections.md)
 已给actual analytic global-section map r→−[A_r]Y，base H=(z²−1/4)Xi保全部重数和两degree。
 519像识别付kernel physical Pan，537付r0 primitive非零；h映到degree(1/4,1/4)但Q(h)=0。
 因此marked section成功不代Pic类/最小Q商；图差全principal，raw A/H也不自动消p。

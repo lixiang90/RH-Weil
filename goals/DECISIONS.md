@@ -961,3 +961,34 @@ pole-only族可消Pan却失r0。不能通过加probe/Gaussian参数或正FS metr
 在此停止，不续同族参数或自动paper链。下一仅验收区别于完成谱base/任意smooth坐标的新actual来源，
 连同全部关系/非根、原norm及独立局部order/平方容量或fullbudget新比较；未知条件改名不准入。
 同G20261014/0c4f冻结，runtimeGoal现场null未新建，Goal门open/not-eligible，宏观瓶颈未变。
+
+## D20261022C：actual restriction相对DGA可补完，真实二次容量仍欠同源primitive比较
+
+用户指定非Ξ-base实际adelic限制与对应复合，故核一个实际源定义的保degree复形，
+并与2015 site真实square/compose及函数域/连续正反检验比较；不恢复已停family参数或2018研究计划。
+[主稿](reviews/2026-10-22-adelic-restriction-relative-square-and-quadratic-capacity.md)及三独占稿/fresh限定PASS的
+最终范围由本门root收据闭合；未将出稿即作消费。
+
+实际E的augmented二项复形给kernel=physicalPan、h双degree1/4、537非根及非零对应作用。
+所有Pan由实际源null-homotopy消去；中心权e^(-t/2)及原du/Dlog/源Schwartz费用明确。
+裸乘法失败可由degree cocycle修成非unital连续DGA，Poisson给相容反线性对偶。
+因此不能继续声称没有非谱base载体或无法补DGA；但canonical quasiiso仍为405/519旧商，
+没有因此新增有效性、结构层、极化、局部整除或RR正号。一般g必须独立给E/Peiffer/对偶等前件。
+
+2015真实Frobenius复合保Idε例外。自由complex current保非根却不消p，Mp(2)=π/6；
+a.e.标签卷积不付diagonal有限部分。literal半环群完成失败不排cycles/Witt/relative提升。
+外tensor的chi平方和ordinary trace不是composition交数；407 idele纤维可缩不排非零source boundary量。
+真实P¹×P¹有signed RR；真实P¹_Z固定toric metric有log#=a n(n+1)+O_a(nlogn)。
+应停止泛称“算术曲线没有n²容量”；缺口是实际r→同一primitive算术容量的关系/原norm/完整预算比较。
+正反连续例与Euler反模型仍过local/tensor设施而失Weil号，函数域额外用真square有效性/乘法/RR。
+
+完整Γ/contact、所有prime powers和双pole规范归405/568旧身份；未证明它们是新对象的容量/消失量。
+若只公设二次系数=Q且非负，仍是Weil等价/充分包。本次旧presentation与标准设施检验来源0，
+无573/C036；cadence1/正式cycle14、strong-old542+555→557 whole4/5 upper及core/coupling/Ξ未改。
+代数设施已补完，宏观实际瓶颈未改，长期完成门保持open/not-eligible；运行Goal现场null未创建。
+
+此门停止，不续tensor次数、Ψ样本或自动paper链。下一只准入实际非形式比较/relative regulator：
+从该源到非Ξ定义square/relative sections，通过全Pan/537/双degree，列原du/Dlog与成长域，
+并给同对象局部过滤或primitive容量的可判数据；否则只保具体来源定位，不预建未知合同。
+能改变排序的另两项是穿过idele纤维acyclicity的真实boundary量、actual低频signed新比较；
+已停Sonin安全高层只回旧推论，单独已有site square亦无新信息差。

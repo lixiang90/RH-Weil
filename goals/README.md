@@ -1,8 +1,14 @@
 # 长期研究恢复入口
 
+最新用户指定的[实际adelic限制／相对DGA与平方容量检验](reviews/2026-10-22-adelic-restriction-relative-square-and-quadratic-capacity.md)已完成fresh限定PASS与root范围闭合。
+不以Ξ零除子为base的保degree二项复形和显式非unital DGA已构造，所有Pan有实际源同伦、537非根保留；
+原du/Dlog与Schwartz fixed窗费用明确，但quasiiso仍为405旧商。真实site复合保Idε例外。
+P¹_Z确有log#~a n²的真实算术容量；缺的是同源primitive RR/完整Γ、pp、pole预算的比较，不是泛称没有二次容量。
+该具体门来源0停止，无新classic独立正性／whole后果；cadence1/正式cycle14与宏观瓶颈未改。
+
 当前文件[Goal](GOAL.20261014.md)，固定0c4f/≤538资产为输入，保留G20261014目标。
 2026-10-22现场get_goal=null，不声称旧active实例存在，未创建未请求的新运行Goal。
-最新[源依赖族／相对截面检验](reviews/2026-10-22-source-dependent-divisor-families-and-relative-sections.md)
+前次[源依赖族／相对截面检验](reviews/2026-10-22-source-dependent-divisor-families-and-relative-sections.md)
 已实际给H=(z²−1/4)Xi上的marked section r→−[A_r]Y：kernel为physical Pan，保537非根和h双degree。
 它是519/520旧谱商的relative实现；fixed窗du jet费明确，Dlog/全线稠密与cofinal费归旧553。
 移动图Pic类恒定；平滑／Gaussian族只过单p而失败其平移，pole-only族失r0。
