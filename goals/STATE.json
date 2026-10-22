@@ -7,10 +7,10 @@
   "workflow": "goals/RESEARCH_WORKFLOW.md",
   "cadence": "goals/review-cadence.json",
   "decisions": "goals/DECISIONS.md",
-  "latest_strategy": "goals/reviews/2026-10-22-prime-pole-signed-budget-admission.md",
-  "latest_decision": "D20261022M",
+  "latest_strategy": "goals/reviews/2026-10-22-twisted-gamma-hermitian-comparison-admission.md",
+  "latest_decision": "D20261022N",
   "macro_frontier": "goals/MACRO_FRONTIER.md",
-  "macro_summary": "goals/reviews/2026-10-22-prime-pole-signed-budget-admission.md",
+  "macro_summary": "goals/reviews/2026-10-22-twisted-gamma-hermitian-comparison-admission.md",
   "latest_macro_review": "goals/reviews/2026-10-22-general-rh-macro-review-cycle-15.md",
   "latest_iteration": "notes/578-prime-pole-signed-budget-and-selberg-control-gap.md",
   "macro_control": {
@@ -20,8 +20,8 @@
   },
   "macro": {
     "long_objective": "保G20261014：由一般g-integer及对偶建立独立同源Weil正性/有效性/RR设施以覆盖classic；实际ζ成长core及完整谱约束仍按冻结基线验收。",
-    "unpaid_bottleneck": "原prime/pole普通PNT/Selberg包经同族正反联检不能支付actual q_R；仍欠独立精细signed/Γ联合误差，或全405/537源到同对象primitiveRR及原norm运输。fixed窗/强源/D′不代成长/全线统一；whole4/5上预算/core/coupling/Xi未改。",
-    "why_this_contract": "实际取得正负同族fullLambda Selberg+PNT联检后准入C041一轮，现已fresh/root闭合；该粗充分包被具体否定，未获经典独立小量。停止此门，下一仅接实际signed或同对象容量新实物。",
+    "unpaid_bottleneck": "完整Γ/twist同源identity与safephysical→中心Pick signed配对已核，但actualg_RB_R残差/中心正号仍未付。欠独立精细signed预算或全405/537源到同对象primitiveRR及原norm；fixed/D′不代成长/全线。whole4/5上预算/core/coupling/Xi未改。",
+    "why_this_contract": "用户沿578指定完整Γ与twist，已完成一次可判域/费用单章节准入；候选精确回到131/132/545等旧身份，没有新独立q/norm净费，来源0在此止，不建C042/579。",
     "paused_routes": [
       "零点比例优化",
       "无零区域优化"
@@ -33,7 +33,8 @@
       "10-22frame/relativeDGA/boundary/moving来源0止；573扩大A singleδ理想阻旧Ω单商下降。真map/K电荷/n²容量存在，缺同源primitive比较；精确范围frontier。",
       "574真非平凡clutch及575Cartier/normal门已付，unitprimitive失537，analytic域缩小失405；不续scalar/probe/阶。保新层/强拓扑/有费family。",
       "Weil结构空间来源0审毕；576真FF生成/原alias费一轮止，classic成员未知不成独立输入。577真Γ修补与原费一轮止，q消失仍RH责任，不续window/grid/soft。",
-      "578/C041一轮止：continuous正负皆过ordinaryPNT/Selberg全Lambda粗package，实际q费不同；不排精细Γ/twist/joint。禁续参数/未知ε或自动paper。"
+      "578/C041一轮止：continuous正负皆过ordinaryPNT/Selberg全Lambda粗package，实际q费不同；不排精细Γ/twist/joint。禁续参数/未知ε或自动paper。",
+      "578后Γ/twist source0止：同源B_R identity/Pick合法但signed；FE反射域与MS比较未付，均旧输入直接重组。不续twist/Pick/shift/Riccati或paper。"
     ]
   },
   "primary_contract": {
@@ -44,8 +45,8 @@
     "settled_iterations": [
       "notes/578-prime-pole-signed-budget-and-selberg-control-gap.md"
     ],
-    "stage": "578/fresh/root前件与一轮结算完成；研究commit04f0d1e已GitHub GET及本地同SHA/tree核验；仅发布回执和sync checkpoint由metadata子提交携带。",
-    "next_action": "本PNT绝对包络/ordinarySelberg/Toeplitz/二阶矩入口停止，无运行数学进程。下一仅准入实际独立twisted/signed identity和完整Γ/幂/pole原费，或同对象source→sections/过滤/primitiveRR实物；先核405/537/原norm，无实物不建C042/579或串paper。",
+    "stage": "Γ/twist来源0的fresh/root最终收据已齐；C041/578保持completed，无C042579或新轮，待review checkpoint及精确12文件GitHub同步。",
+    "next_action": "核来源root版本收据／review checkpoint和精确12文件changeset，按授权同步GitHub并独立GET/local同SHA核验。之后停止本门，仅准入实际独立signed或同对象RR实物；无C042/579。",
     "stop_rule": "一轮止；只排本候选充分包，若需未知q消失／Weil正性即停，保更精细Γ-signed/joint/同对象RR独立实物。"
   },
   "support_contracts": [],
@@ -160,16 +161,26 @@
       "path": "reviews/2026-10-22/prime-pole-signed-admission/root-consumption-scope.json",
       "kind": "cited",
       "scope": "最终root对象/原域norm/全部误差/源成长/方向/coverage/强旧与停止前件版本闭合；hash非证明。"
+    },
+    {
+      "path": "goals/reviews/2026-10-22-twisted-gamma-hermitian-comparison-admission.md",
+      "kind": "cited",
+      "scope": "Γ/twist单来源fresh/root已核：actualg_RB_R残差、signedphysicalPick和原域费用；标准旧身份/运输，来源0无新classicq/norm，非全方法no-go。"
+    },
+    {
+      "path": "reviews/2026-10-22/twisted-gamma-signed-admission/root-consumption-scope.json",
+      "kind": "cited",
+      "scope": "Γ/twist来源0最终对象/域/norm/实际方向/源成长/依赖与错误/强旧/停止前件闭合；signed同源不等正号，hash非证明。"
     }
   ],
   "pending_processes": [],
   "runtime_goal_observation": {
     "status": "absent",
-    "observed_at_utc": "2026-10-22T13:55:22Z",
-    "basis": "新用户轮实际get_goal=null；保G20261014文件与冻结基线，不创建未请求实例。"
+    "observed_at_utc": "2026-10-22T14:38:49Z",
+    "basis": "本用户轮实际get_goal=null；保G20261014文件与冻结基线，未创建新实例。"
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-10-22-prime-pole-578-sync.json",
+  "checkpoint": "goals/checkpoints/2026-10-22-twisted-gamma-source-review.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
     "commit": "04f0d1e3f0750f9234b8e49e1cdcbb36ff93957e",
@@ -181,11 +192,11 @@
     "goal_lf_sha256": "cc6046029a8e5c9fe4eae427dfd663f1d851666370637c8fd451042f340fee8b",
     "mathematical_gate": "open",
     "final_execution_gate": "not-eligible",
-    "basis": "578给具体粗候选充分包反测及原signed运输审计；无经典q消失/同对象独立RR、成长core/coupling/Xi新输入，长期完成门不变。"
+    "basis": "本Γ/twist来源0只闭标准同源身份/原对象指代；独立actualq消失、同对象RR与actualcore/coupling/Xi未付，长期完成门不变。"
   },
   "historical_completion_receipts": [
     "goals/goal-completion-receipt.20261014.json",
     "goals/goal-completion-receipt.20261014-continuation.json"
   ],
-  "process_inventory_observed_on": "本轮三原分支/fresh与连续子核完成，研究commit04f0d1e本地远端同SHA/tree及clean已核，无后台数学/数值，runtimeGoalnull；仅发布metadata回执另携带。"
+  "process_inventory_observed_on": "三Γ/twist原分支及fresh/独立safe源FF小核均完成，root全文核读闭合；无运行数学/数值，待GitHub同步，runtimeGoalnull。"
 }

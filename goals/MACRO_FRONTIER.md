@@ -1,15 +1,15 @@
 # 宏观前沿：可消费范围与最小未付箭头
 
-最新[C041／578联检结算](reviews/2026-10-22-prime-pole-signed-budget-admission.md)已fresh修后限定PASS、root前件闭合。
-原数据signed式g_R=Γ+J_R+S_R保完整Γ/contact、全部powers／双pole及端点；J_R≥0未支付S_R方向。
-PNT绝对运输含频高/导数费用，非原du／Dlog小费；Selberg乘法和频平方不代Hermitian差频或完整linear预算。
-新执行的continuous正负同族均过positiveprimitive、exactdual、强PNT与fullΛ Selberg 2XlogX+O(X)，但实际双polezero负源迫修补不消。
-这只排该粗充分包，模型nativeΓ=0，未排经典Γ联合／精细twist；真FF保全部pole／returns／aliases并由同对象RR给正号。
-405本层exact商仍失败，537原固定窗非根保；fixed窗、强源、D′、成长共同费与全线Hlog控制分开。
-统一一轮cadence0→1／历史41→42，正式cycle15不归零；source/分支/fresh/推送0额外轮。
-局部选择信息更明确，独立q预算／同对象容量及strong-oldwhole4/5上预算／core／coupling／Ξ瓶颈未变。
-停止PNT绝对包络／ordinarySelberg／Toeplitz／二阶矩本入口，不自动C042／579；下一仅收实际独立signed身份或同对象RR实物。
-发布状态／唯一行动以STATE为准，以下较早“当前／下一”为历史结算。
+最新[完整Γ／twist同源Hermitian核查](reviews/2026-10-22-twisted-gamma-hermitian-comparison-admission.md)已fresh限定PASS、root前件闭合。
+实际两pole窗扣除后有|B_R|²=ΓB_R−B_R²−g_RB_R；余项仍是actual g_RB_R，未独立付q_R。
+完整FP/contact/allpowers给safe半轴physical源的B_W=旧131中心Pick核，合法同源但signed；正primitive Laplace／外shift Gram不能替换。
+continuous±在安全两点已给相反det，真FF保全部pole／returns／aliases；正号仍由旧同对象H／RR给。
+FE反射安全域不重叠，轴regular点值平方不代完整Weil分布；旧545/MS四项与全原L²费用准确扣除，未有新Γ-signed桥。
+405全noncompact关系、537固定窗非根及原du／Dlog、fixed／D′／成长／全线量词保持；去衰减/完整twist须另付原费。
+本次只为标准身份／旧资产直接运输的来源0，无C042／579；数学cadence1／历史42／正式cycle15保持，最新数学仍578。
+同源对象指代更清楚，但独立actualq预算／容量及whole4/5上预算／core／coupling／Ξ瓶颈未变，Goal仍open。
+停止本twist／Pick／shift／Riccati入口，不续点数/参数/下一paper；下一仅收实际独立signed或同对象RR实物。
+发布状态和唯一动作以STATE为准；以下较早“当前／下一”均为历史。
 
 2026-10-22更新；同G20261014／固定0c4f，完整Goal与唯一行动以STATE为准。
 最新[C039/576结算](reviews/2026-10-22-function-field-positive-cone-576-settlement.md)已fresh限定PASS、root前件闭合。

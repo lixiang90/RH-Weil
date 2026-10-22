@@ -1,0 +1,92 @@
+{
+  "schema": "rh-weil-root-premise-closure-v1",
+  "date": "2026-10-22",
+  "contract": "source-admission-after-completed-C041; no C042",
+  "goal": "G20261014",
+  "baseline_commit": "0c4f3a3eb609bb1d9564138fa4a35701f05605f2",
+  "goal_lf_sha256": "cc6046029a8e5c9fe4eae427dfd663f1d851666370637c8fd451042f340fee8b",
+  "status": "root-consumed-with-scope-closed",
+  "files_lf_sha256": {
+    "goals/reviews/2026-10-22-twisted-gamma-hermitian-comparison-admission.md": "e8378e11ea25488da5acbddf6013981279ec780f4a21e761ea5d9df39b3c0432",
+    "reviews/2026-10-22/twisted-gamma-signed-admission/fresh-whole-review.md": "edab0004aea044b14451bd7bf89f48aae4b150c81fb9d95dfe3deb33ae9678b3",
+    "reviews/2026-10-22/twisted-gamma-signed-admission/complete-logderivative-and-twisted-square.md": "fad03a2bb0096c15b3049fdaa03888d26d1d8689826d206e821cfb9d8a2f57aa",
+    "reviews/2026-10-22/twisted-gamma-signed-admission/continuous-function-field-and-original-norms.md": "446e26c9a76eb536ec54891e887f0fd134b7f52f6bbfa93438f1b9f272384b45",
+    "reviews/2026-10-22/twisted-gamma-signed-admission/history-and-twisted-source-gate.md": "98296805c5ecb5ac20c2532dda439640d92b6fd1b9d64250fb797b368a66c3ad"
+  },
+  "paid_dependency_versions": {
+    "notes/131-positive-real-boundary-impedance-weil.md": "0521fdd284b44c83db312ce52fdb38aca93207d84845d621d8f149ca056258d5",
+    "notes/132-shifted-passivity-abel-resonance.md": "764f4526d61534b7daea63e24771bc954a5f6f63f0612dd189a47058439d738e",
+    "notes/405-f1-adelic-restriction-moments-and-radical.md": "fe5ee4b574954e51a69c6bbbaa772bb75a1a510c91c837ba02eed8ac406cbb7d",
+    "notes/537-source-exact-weil-window-positive-tail-admission.md": "269a500556d37fc04a4e44efd2f0899414787743e529506dbbe7395a34eea9f8",
+    "notes/542-actual-prime-high-moments-and-strong-baseline-audit.md": "a0f510dfb427ccda165913d6beb3734f6ec003741d3e448105046df12e886203",
+    "notes/545-modular-packet-norm-cusp-blindness-and-weil-transport-gate.md": "25b778a2c1d1b9360ff2dd553f853a33c0dda7575740ab3aeac6ec46f555acfa",
+    "notes/548-canonical-weil-mixed-response-and-critical-input-boundary.md": "1cc5108db6f05d0bf51e4eb066de4ae7bdcb46e46e55c603913146a6aa9b0696",
+    "notes/550-physical-row-mixed-source-admission-and-strong-old-aggregate.md": "9c7615fc8c923b77b3f6d5cb3a121f738c32897bf4e2651d3843152345bb6aa6",
+    "notes/553-principal-cyclic-closure-and-cofinal-readout-fees.md": "35a40c35d1eaa7fafb462361ddef1bfb9643402b5670f832b9142aeb4b74abce",
+    "notes/555-actual-prime-weighted-schur-and-growing-weil-inertia.md": "55a3745ab8160738e2a2dde15e84290e99205df68f3b59b357d26127846a31c5",
+    "notes/557-joint-row-norm-and-gamma-arithmetic-moment-budget.md": "5abfd13af9c955b27c5a2ea8f01d2555fa05b1df450adbedbcfe20f62d327166",
+    "notes/562-generalized-rh-continuous-g-integers-and-spectral-multiplicity.md": "e3e42480b967115accabd741cdbbb220865407396908b74b25bba0c213f60c10",
+    "notes/563-distribution-side-weil-certificates-and-heat-complete-monotonicity.md": "094c11cb5909eecc7f4e17468f00b43281b9fc6299042565aa792046807a5f4c",
+    "notes/567-function-field-positivity-origins-and-generalized-correspondence-tests.md": "96c0c5a62e4175705696a29ed28d890eb11cec6f7351dc763641b65f3fcaec8a",
+    "notes/577-full-gamma-positive-repairs-and-independent-budget-gap.md": "cf80354ab3bb3c7ca2a2bae7e2aa4083adc47d01da5c984146fb285d7551f55f",
+    "notes/578-prime-pole-signed-budget-and-selberg-control-gap.md": "d600adfc0fa857623f585af2ec809840296659b737afbcf5cb745eba740e0901",
+    "reviews/2026-10-22/prime-pole-signed-admission/root-consumption-scope.json": "8dfe4e70e3930c0c4cdb001583acf571059d6c294b2360138505d71b920411d3",
+    "reviews/2026-10-14/c015-admission/sources/macro-primary-source-receipt.json": "b2dbce391e66368ed09732368b9fcb4ce420e40b1420c5bcfe8fd8d4bfdb0300"
+  },
+  "object_domain_range_roles": {
+    "classical_target": "Same577 Wzeta=WGamma+H-P and actualg_R/q_R. CompleteGamma FP/contact, all properpowers Lambda(p^k)=logp, bothpoles kept. Physicalr=exp(u/2)f, firstvariablelinear, originaldu/zeroextensionDlog, allcomplex. R/t/T/sourceL distinct.",
+    "finite_same_object": "U_R finitepp sum and C_R integral of both pole e^((1-s)u)+e^(-su). B_R=U_R-C_R, oncenter2ReB_R=Gamma-g_R. Exact |B_R|²=Gamma B_R-B_R²-g_RB_R. Finalresidual is actualg_RB_R, generallycomplex, not a paid nonnegative/error term.",
+    "actual_source_map": "r_z=exp(-zu)1_u>=0, Rez>1/2. du/Hlog legal, generally notS_exp. CompleteFP halfLaplace gives B_Wzeta(r_z,r_w)= [F(z)+conjF(w)]/(z+conjw), F=xiPrime/xi(.5+z). Legal sameobject signedpairing, not independently positiveGram or full405source lift.",
+    "positive_objects": "PrimepositiveLaplaceGram,132 outershiftGram and131 centeredPick are distinct. Safeparameter outershift denominator Z+conjW-2a, centered denominator Z+conjW. PositiveSzego/dissipation term not removable forfree. No zero-based coefficients chosen.",
+    "source_chapter": "OnlyZagier§2 completeEisenstein/FE/Bessel/unfolding restored. FourtermMS consumed from545 oldGreen proof and old source receipts, not claimed literalZagier§2 theorem. Olddirect physicalmap/fullL2 fees already paid."
+  },
+  "consumed_direct_old_synthesis": [
+    "CompleteFE doublevariable reflection and Riccati with allGamma/pole/cross terms correct; Euler absoluteconvergence domains do not overlap after reflection. Boundaryregular squaredidentity not completeWeil distribution.",
+    "Actualfinite B_R residual located exactly; old131 samewindowcandidate2ReF_R=g_R+d_R with ||d_R||infty<=16kappa/R² is paidpolewindow difference only, not a new q budget.",
+    "Actualsafephysical halfLaplace pairing matches centeredPick with exactGamma/contact/pole/power coefficients. Signedidentity and legalintermediateobject do not supply positivity or allsourcecoverage.",
+    "Continuoussafe two-point opposite determinants and trueFF allaliascomparison are direct old131/132/562/578 consequences, not new completecounterexample/independentcapacity or mathematicsiteration."
+  ],
+  "source_growth_norms_errors": {
+    "Gamma_halfleg": "Gamma0/2+integral a(v)(1-exp(-zv))dv =psi(.25+z/2)/2-logpi/2; poles1/(z-.5)+1/(z+.5); primeU(.5+z). SafeRez,Rew>.5 and originalpointLipschitz difference make allpairings legal.",
+    "finite_reflection": "FinitecandidateGamma poles atnegative evenpoints survive inFEdefect; excludes thatcandidate exactglobalFE only, not targetcriticalcompact convergence or all completions.",
+    "Riccati": "TailL_R gives Lprime-2UL+L² and completed -2VU+Vprime+V²; fixedRe s>=1+delta O_delta(R^-2) transport is oldwindowbound. Fixed delta not free centerlimit/fullfrequency control.",
+    "critical_pole": "If axis m-pole, squaredresolvent contributes m²|hatr(gamma)|²/(2epsilon). It is not locallyfinite positiveboundary measure; finitepart/contact and originalsourcefees required. Not an assumption choosing unknownzeros. Offaxis residues cannot be discarded byregularaxisidentity.",
+    "rawcost": "SeparatefiniteTV costs atmostO(expR)du for squares, Gamma cross needs logrelativeformcost. Those are uppers not actualsource necessarylowers, not q smallness.",
+    "probe_and_undamping": "||r_z||du²=1/(2Rez), Hlog finite. Halfline hardtail norms² exactlyexp(-2Rez L) times fullprobenorm². Fixedprobe tail not allsourceuniformtail. Removingfixeda damping on[0,L] costs operatornormexp(aL)du, squaredexp(2aL), Hlog upperC_a exp(aL), all-lineunbounded; not claimed an isometrybetweenGramobjects.",
+    "whole_twist": "FullimaginaryM_tau duunitary, Hlog extra<=log(2+abs tau)du². Primeonlytwist changes target; wholedata twist shiftsGamma/poles and does not automatically preservefixedPan or polezero moments.",
+    "actual_fixed_and_growth": "Original577 fixedL error[D_L/R²+min(c_R,2Lm_R)]du², D_L<<(1+L²)eL unchanged, alloriginalcomplexDlogbycore. GrowingL requires allcombinedfees. Gamma mu L1/FourierL1 alreadypaid not arithmeticq.",
+    "Dprime": "G_R->Wzeta physicalDprime unconditional; V_R same target needsK. Specific577 c/m vanish and KphysicalDprime vanish eachiffWeil/RH, not genericDprime->norm. Withouttempereduniformity no automaticfrequencyDprimeFourier; all-lineHlogdensity/fulltargetdifference infinity remains."
+  },
+  "controls": {
+    "continuous": "NativeGamma0 Ec=z²+d has K=2(zbarw+d)/[(z²+d)(barw²+d)], det2x2=4d|z1-z2|²/(|z1²+d|²|z2²+d|²). Safez1=1,z2=2,d=+-1/16 opposite signs despitepositiveprimitive and positive diagonals. SameFE/Riccati/axispureimag holdbothsigns; negativeactualcompactdoublepolezero source and repairlower inherited578. Not a sameclassicalGamma counterexample.",
+    "function_field": "TrueE/F5 P=1+3T+5T² with proper e^(ellz) selfdualcompletion. Allaliases gamma_(+-k) retained and resolventweight1. PositiveK usesoldH/RR/fulltrace. Nativea0=2g contact not regularaxis2(g-1)ell. No graftedclassicGamma/no fundamentalsection-only replacement.",
+    "405": "ActualnoncompactallPan p plusfixedtranslates and fullmixedBzeta=0 remain inS_exp, not representedbyoneprobe/twopolemoments. 577positivelayers highfrequencycontinuous yieldQV(p)>0, exactquotientstillfails; fixedstrongsourcetailO(R^-2) separatefromrepair.",
+    "537": "OriginalL0=17/16 allcomplexfixedwindownonroot eventuallypositive unconditionally via signedbareerror+positiveK. No new window/growthconsequence."
+  },
+  "review": "Root read allthree originalbranches and freshwholefinal edab0004, includingindependentsafeGamma/FFsubcheck. Accurate sourceattribution/domain/fees reconciled. Hashes onlyversions.",
+  "new_vs_old": "All sourceidentities and costs are direct old131/132/545/548/550/577/578 inputs; no new independentclassic signedbudget, no strengthenedwhole bound. Correctlysettled0 ratherthaninventC042/579.",
+  "actual_direction_coverage_and_net": "Sameobject signedidentity clarified but positivecomparison and actualqsmallness unpaid. A legal signedprobe/map is not fullsourcecoverage/capacity; no actualgrowth/core/coupling consequence.",
+  "strongest_old_net_consequence": "542+555=>557 whole leading4/5 negative-inertia UPPER unchanged, not actualnegative-spectrumlower. MacroGoalopen/noteligible.",
+  "unpaid": [
+    "Independent actual fullGamma/twistedpp/pole signedmajorant with originalnorm/tails paying q_R, not itsRH-equivalentdefinition",
+    "Or actualsource-to-sameobject sections/vanishing/multiplication/primitiveRR and completeWeilbudget",
+    "Newnorm/domain/coverage comparison must not replace signedcenterPick by positiveEuler/outershift/MS Gram"
+  ],
+  "choice_and_stop": "Stop thisonechaptertwist/Pick/shift/Riccati sourcegate, no point/parameter/nextpaper expansion. Re-admit onlyactualindependentinput; preserve finerjoint/nonlocal/sourceadapted/strong-variable-domain/paidinfinite repairs. Equivalence does not prohibit independentproofs.",
+  "local_admission_information_changed": true,
+  "new_independent_mathematical_input": false,
+  "macro_bottleneck_changed": false,
+  "settlement": {
+    "added_mathematical_iterations": 0,
+    "cadence_before": 1,
+    "cadence_after": 1,
+    "historical_weil_before": 42,
+    "historical_weil_after": 42,
+    "formal_cycle": "15 unchanged",
+    "latest_mathematical_iteration": "578 unchanged",
+    "new_contract_or_note": "none: no C042/579",
+    "extra_agent_source_fresh_push_rounds": 0,
+    "goal_gate": "open/noteligible",
+    "runtime_goal": "null; no new instance created"
+  }
+}
