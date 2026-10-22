@@ -1,0 +1,83 @@
+{
+  "schema": "rh-weil-root-premise-closure-v1",
+  "date": "2026-10-22",
+  "contract": "C039",
+  "goal": "G20261014",
+  "baseline_commit": "0c4f3a3eb609bb1d9564138fa4a35701f05605f2",
+  "goal_lf_sha256": "cc6046029a8e5c9fe4eae427dfd663f1d851666370637c8fd451042f340fee8b",
+  "status": "root-consumed-with-scope-closed",
+  "files_lf_sha256": {
+    "notes/576-fixed-elliptic-positive-cone-and-original-alias-cost.md": "cbf32034c1e63518ef124ba89e1a46093b55da1086868532d8e5a1e0576595bd",
+    "goals/contracts/C039-function-field-positive-cone-and-original-norm-transport.md": "c1be0e5225627a72481758148ba4f219d0b9360a9a1b1230c91fda9937eaa52f",
+    "goals/reviews/2026-10-22-function-field-positive-cone-576-settlement.md": "5bb4d29e448c66612c3269313c60bfbb60f239f273af107d0fc5b9529c016480",
+    "reviews/2026-10-22/positive-distribution-admission/exact-euler-crosscheck.json": "176d9b7164e7439a675459934e229a79ac8419d2e3647d022234a694f173c8fa",
+    "reviews/2026-10-22/positive-distribution-admission/fresh-whole-review.md": "dcb2ba52c491fd0c91f6fa6c20b4befc255a17af9c88cb0ac45ebf340e99eddf",
+    "reviews/2026-10-22/positive-distribution-admission/function-field-approximation-and-scaling.md": "94081c58c66041bb00e5f8fd0fe6b9e1303f39950e4d0ba2fa0556649c32bea5",
+    "reviews/2026-10-22/positive-distribution-admission/history-and-independent-input-audit.md": "e15195f2e788548333bfc919e05497192799f8565d53746e516e7a070e87774b",
+    "reviews/2026-10-22/positive-distribution-admission/smoothing-and-positive-certificate-tests.md": "2978e4102d0046577e3262f1e644e7890f5b355e8913cd5c5af06eeeb3493648"
+  },
+  "paid_dependency_versions": {
+    "notes/405-f1-adelic-restriction-moments-and-radical.md": "fe5ee4b574954e51a69c6bbbaa772bb75a1a510c91c837ba02eed8ac406cbb7d",
+    "notes/537-source-exact-weil-window-positive-tail-admission.md": "269a500556d37fc04a4e44efd2f0899414787743e529506dbbe7395a34eea9f8",
+    "notes/542-actual-prime-high-moments-and-strong-baseline-audit.md": "a0f510dfb427ccda165913d6beb3734f6ec003741d3e448105046df12e886203",
+    "notes/553-principal-cyclic-closure-and-cofinal-readout-fees.md": "35a40c35d1eaa7fafb462361ddef1bfb9643402b5670f832b9142aeb4b74abce",
+    "notes/555-actual-prime-weighted-schur-and-growing-weil-inertia.md": "55a3745ab8160738e2a2dde15e84290e99205df68f3b59b357d26127846a31c5",
+    "notes/557-joint-row-norm-and-gamma-arithmetic-moment-budget.md": "5abfd13af9c955b27c5a2ea8f01d2555fa05b1df450adbedbcfe20f62d327166",
+    "notes/560-joint-finite-place-sonin-primepower-cancellation-and-compact-weil-bridge.md": "9c2e6cd5a9eae269ad04b332699c21eec7403a230f9557afa8b895c45d4228d3",
+    "notes/562-generalized-rh-continuous-g-integers-and-spectral-multiplicity.md": "e3e42480b967115accabd741cdbbb220865407396908b74b25bba0c213f60c10",
+    "notes/563-distribution-side-weil-certificates-and-heat-complete-monotonicity.md": "094c11cb5909eecc7f4e17468f00b43281b9fc6299042565aa792046807a5f4c",
+    "notes/565-canonical-completion-graded-identifiability-and-independent-energy.md": "3ac5d8f6dbbd3dcfda10e74cd911c803bacfbfa8ac6aaa535b3559e7c374ea89",
+    "notes/566-source-closed-forms-and-full-weil-heat-trace-tests.md": "004f5438c918373e0ead73c0011ffb3883ef872c4977e356911dd910da177053",
+    "notes/567-function-field-positivity-origins-and-generalized-correspondence-tests.md": "96c0c5a62e4175705696a29ed28d890eb11cec6f7351dc763641b65f3fcaec8a",
+    "goals/reviews/2026-10-22-weil-structures-and-existence-space.md": "90f14811cefae18e74393182452ba076d62587ad1f473804b7a037d9b2b8934f",
+    "reviews/2026-10-20/grh-six-note-review/next-direction-admission-audit.md": "a72642f596259d2c9ccb4c9c16d57c377b0aacfd25278751c45f8c339a607bde"
+  },
+  "object_domain_range_roles": {
+    "actual": "Fixed E/F5 y²=x³+x+1, true basechange E/F5^m with paid all-n trace and H. Complete centered affine variable change, not zero-fit. Native poles1/2+-1/(2a)+2pi ik/h, zero center1/2. Dilation full W=a(dil_a)_*W_m.",
+    "source": "Physical r=exp(u/2)f, full complex compact source then original zero-extension fixed-window Hlog/Dlog completion; S_exp for actual noncompact405. Target W_zeta retains Gamma/contact/all properpowers/doublepoles.",
+    "family": "m>=2,0<a<=1 individual meromorphic rational-in-exp functions; true positive real-weight primitive via all-powers Mobius, not integer prime counts. Finite positive real mixtures are independent positive source certificates, may branch as zeta products. Full unlabeled distribution cone is not fixed-label geometry fibre.",
+    "actual_map": "For each normalized lattice, Jr is all Fourier samples at +-gamma+kDelta, all k, preserving multiplicity2 if overlap. Dilation Dar(v)=sqrt(a)r(av), native window R/a, native moments use exp(+-u/(2a)). Not a classic P_c quotient map."
+  },
+  "new_proved_synthesis": [
+    "True fixed E basechange+phase recurrence+dilation gives any preassigned cosine distribution with all returns; full Euler all-n b_n>=53 A^n/(100n)>0 for n>=2, b1>=3A/5.",
+    "Finite positive real mixtures of this fixed true geometry family have D-prime closure equal real-even positive-type distributions; actual geometric family bridge, not a new Bochner theorem. Integer mixture membership for fixed classical target iffRH is conditional old zero-pair consumption.",
+    "All fixed-window complex original Hlog source alias residual is positive and <=C_R/log(2+Delta) norm² uniformly gamma when Delta>=max(2,4abs gamma). Exact doublepolezero modulated physical source proves sharp order and no uniform du error o1."
+  ],
+  "source_growth_norms_errors": {
+    "quantifiers": "All R>0 fixed, all complex original supported source in zero-extension Hlog; Delta threshold above, C_R support dependent. For each preassigned gamma phase m_j chosen independently; no unknown classical spectral input. Full n and all k retained.",
+    "finite_mix": "Alias cost C_R sum c_j/log(2+Delta_j); growing weights/frequencies/R must synchronize separately. Riemann sum test error2h(||phiPrime||1+gamma||phi||1); gamma0 effectivefreqsqrt(delta) adds O_R(delta)du².",
+    "primitives": "Q=5^m>=25, A>=5, B/A<=1/5,C<=1; c_n>=23A^n/25 for n>=2; all proper divisors bounded by39A^n/100; no finite-number extrapolation. M=convolution exponential of complete Pi positive, abscissa changed to(1+a)/(2a).",
+    "Γ_budget": "Uniform weighted genus and genus*h TV imply Radon limit, not classical W. Divergent budget legal: Gamma-Gamma0 delta0 independent positive nonRadon lies in wide closure; original negative contact must return.",
+    "Γ_operator": "Any fixed locally Radon V has fixedR du-bounded form. Exact moment-zero high modulation yields Qzeta/Hlog²->1, QV/Hlog²->0, so uniform original Hlog difference norm>=1 for each V, even if TV_j grows. Constant1 only this norm/Gamma convention. Does not exclude D-prime/strong form or trueGamma-per-layer/stronger norm/source-adapted repairs.",
+    "roles": "D-prime sufficient to transfer compact Weil positivity if target convergence independently proved, not automatic noncompact405 convergence/source quotient/sections lift or ordinary trace/determinant. Fixed step norm bound is not original growing capacity."
+  },
+  "controls": {
+    "continuous": "True positive cos included; negative cosh excluded by old compact doublepolezero mixed Gram. Gaussian smoothing cannot independently give sign; fixed coarse multiplier countertest preserved.",
+    "405": "Actual noncompact p=(D²-1/4)H, H>0, mean p=-meanH/4 nonzero; cosine0 limit Q0(p)>0. Full-line L1 derivative Riemann estimate verifies actual source failure, no false compact relation test.",
+    "537": "Choose explicit nonzero Fourier readout for r0 to preserve some positive raw models; actual eventual visibility only guaranteed by full target convergence. No arbitrary carrier assumed faithful.",
+    "finite_exact_check": "m2,a1 first50 primitive coefficients checked exactly and lower verified, recorded JSON; all-n proof analytic.",
+    "normalized_geometry": "Positive real primitive of individual transformed zeta does not assert integerprime multiplicity. Real mix zeta powers may branch; integer mix classical equivalence not independent positivity; complete pole/prime cancellation exact each model, separate pieces need not converge."
+  },
+  "actual_direction_coverage_and_net": "New local geometric positive generator and original source error, plus precise scope of broad approximation class. No independent classic target membership/primitive mixed RR capacity or actual whole improvement.",
+  "strongest_old_net_consequence": "542+555=>557 whole leading4/5 negative-inertia UPPER unchanged, not lower; core/coupling/Xi unpaid.",
+  "unpaid": [
+    "Independent rule from full Gamma/contact, all prime powers and poles generating nonnegative mixture with full distribution error",
+    "Or actual source-to-sections and same-object primitive RR capacity; full Pan/nonroot/original metric and complete budget transport",
+    "For uniform original Hlog approximation retain true Gamma singularity per layer or pay different domain/norm/source-adapted cutoff; D-prime alone does not pay geometry/determinant"
+  ],
+  "review": "Fresh independent whole review plus Euler/Gamma independent cross-check PASS current final version, including11a and17ab; root reconciled all premises and reread full proof/branches. Hashes version only.",
+  "choice_and_stop": "One iteration settles actual new synthesis and sharp fee. Stop broad phase/scale/smoothing recipe and unknown closure relabel. Require concrete classic nonnegative rule/signed budget or actual geometric capacity before C040/577. Preserve fixed-label, trueGamma, stronger/variable-domain, paid infinite and source-adapted repairs.",
+  "local_bottleneck_changed": "True positive FF source generators and full aliases original Hlog uniform cost now explicit; wide unlabeled class supplies no independent classic membership criterion.",
+  "macro_bottleneck_changed": false,
+  "settlement": {
+    "added_mathematical_iterations": 1,
+    "cadence_before": 4,
+    "cadence_after": 5,
+    "historical_weil_before": 39,
+    "historical_weil_after": 40,
+    "formal_cycle": "14 unchanged",
+    "extra_source_review_push_rounds": 0,
+    "goal_gate": "open/noteligible",
+    "runtime_goal": "null observed; not created"
+  }
+}

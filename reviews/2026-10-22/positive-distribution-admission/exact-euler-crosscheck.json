@@ -1,0 +1,19 @@
+{
+  "scope": "Exact finite consistency checks only; no extrapolation. All-n proof is576(6)-(8), density/norm proofs analytic.",
+  "curve": "E/F5 y2=x3+x+1",
+  "base_change_m": 2,
+  "a": 1,
+  "first_primitive": [
+    27,
+    324,
+    5175,
+    97200,
+    1953720,
+    40691700,
+    871916400,
+    19073369700
+  ],
+  "checked_n": 50,
+  "lower53_over100": true,
+  "all_positive_integer": true
+}

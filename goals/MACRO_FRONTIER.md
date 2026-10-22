@@ -1,7 +1,16 @@
 # 宏观前沿：可消费范围与最小未付箭头
 
 2026-10-22更新；同G20261014／固定0c4f，完整Goal与唯一行动以STATE为准。
-本轮用户提出的[Weil结构／存在性路线](reviews/2026-10-22-weil-structures-and-existence-space.md)已fresh限定PASS并root闭合。
+最新[C039/576结算](reviews/2026-10-22-function-field-positive-cone-576-settlement.md)已fresh限定PASS、root前件闭合。
+固定真实E/F5的全basechange与centered缩放，保全部returns/aliases，可独立生成任意预定cos；实际全n Möbius反演给positive实权primitive。
+有限正混合的未标记D′闭包=全部实偶正型锥；经典membership仍为Weil责任，整数混合对经典也仅得条件等价。
+所有fixed源窗complex原zero-extension Dlog的alias正残差为sharp 1/log阶；原du统一费用不趋0。
+有界TV不能产Γ，发散预算合法可修正背景；但任意逐层Radon模型都不能给完整经典型的统一原Hlog小误差，保D′/逐源及真Γ层/强范数/源适应逃逸。
+405常数极限实际失关系；537、全Γcontact/pp/poles与普通trace/几何lift责任分层。
+统一一数学轮cadence4→5/历史39→40，cycle14保持；local生成与原费瓶颈改变，classic独立容量/whole4/5上预算/core/coupling/Ξ未变。
+停止当前宽类，不续相位/scale/抹平或未知membership；下一只验收具体classic非负规则/完整signed误差或同对象source→sections/RR容量，无实物不建C040/577。
+
+前次用户提出的[Weil结构／存在性路线](reviews/2026-10-22-weil-structures-and-existence-space.md)已fresh限定PASS并root闭合。
 固定完整经典数据的目标纤维非空才是命题；GNS等价不使独立存在性证明循环，最小正源实现自身基本唯一。
 已区分weak／positiveGram／trace／typed证书层，给固定规模presentation、准确紧逆极限及fixed-B双侧有限门。
 真FF的同对象RR容量、continuous±的2×2障碍、575源unit失537和Jordan／heat逃逸均已检验。
