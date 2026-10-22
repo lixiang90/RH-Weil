@@ -1,15 +1,15 @@
 # 宏观前沿：可消费范围与最小未付箭头
 
-最新[算术theta同源设施准入](reviews/2026-10-23-arithmetic-theta-capacity-source-admission.md)已独立fresh限定PASS、root范围闭合。
-KRY1999的真实CM局部length/全局Mellin确含经典完整Gamma，不能因另有odd特征而粗拒。
-但positive cycle degree是线性身份；差Gamma核有界、算术逆含负系数，尚无actual源像的signed差/商费用或primitive Hermitian比较。
-真实P1幂图含局部Frobenius却primitive为principal，消405也杀537；574absolute二阶height零不排双frame relative。
-连续±未接入KRY几何不能假报通过；函数域同对象RR/Hodge到全mixed Gram链与全部aliases保持。
-原du/zeroextension Dlog、405全Pan、537非根、完整Gamma/contact/allpp/双pole与fixed/Dprime/成长量词保持。
-本次来源0，不建C042/579；数学cadence1/历史42/cycle15/最新数学578保持。
-来源适用性更明确；独立actual q/primitive容量与strong-old whole4/5负惯性上预算/core/coupling/Xi瓶颈未变，Goal open。
-停止此直接theta抽取及旧廉价载体；下一只接实际signed新身份/原净费，或非Q标签relative primitive源公式，先405/537/原费再容量。
-发布状态和唯一动作以STATE为准；以下早期“当前/下一”均为历史。
+最新[C042/579实际KRY源与native循环门](reviews/2026-10-23-kry-physical-source-admission.md)已独立fresh修后限定PASS、root前件闭合。
+actual φ*伸缩轨道给全S_exp→Schwartz→section，Gram=νsech，原du费用2πν；nativeφ*/Haar固定，不把rawπ模型偷换成完成化规范。
+native weight1投影只读c(r)=∫rsech(u/2)，真实cycles为c(r)Z(n)；405正Pan每个平移c<0，q7的n1像degree非零非principal。
+同一compact奇源双polezero/c0而537完整Q>0；任何经scalar的fixed线性relative/primitive修复不同时过主关系/非根。
+实际高频源/section平移费用已核；polar direct酉补偿合法但未给Schwartz-cycle下降。finiteEuler实际像/mixed范数不代cycle逆/height或actualq必要费。
+连续±同源奇源异号，真FF仍靠同对象primitive mixed RR/Hodge及全aliases；fullΓ/contact/allpowers/双pole与原du/Dlog量词保持。
+本次统一一数学轮cadence1→2/历史42→43，formalcycle15保持；上轮source0不改计。
+局部源接口已构造并精确判失败；经典独立primitive容量、strong-old whole4/5负惯性上预算/core/coupling/Xi瓶颈未变，Goal open。
+停止native scalar/fixedrelative/rawbounded recipe，不续Gaussian/finiteF/K阶参数或paper；下一只接不经c的新实际非标量formula，先405/537/原费再同对象容量。
+唯一动作和发布状态以STATE为准；以下“当前/下一”均为历史。
 
 2026-10-22更新；同G20261014／固定0c4f，完整Goal与唯一行动以STATE为准。
 最新[C039/576结算](reviews/2026-10-22-function-field-positive-cone-576-settlement.md)已fresh限定PASS、root前件闭合。

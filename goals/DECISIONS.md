@@ -1196,3 +1196,18 @@ continuous负例的compact双polezero 2x2 mixed障碍、真FF全周期证书、5
 552真metric、553全线密度、567同对象RR、574/575设施及强旧542+555→557 whole leading4/5负惯性上预算已扣。没有新actualq消失/primitive容量/whole净值/core/coupling/Xi后果，瓶颈未变。来源0统一结算，cadence1/历史42/正式cycle15与最新数学578保持，长期门open/noteligible，runtimeGoalnull未创建。
 
 停止该直接theta抽取/旧P1或absolute线recipe，不扩q/level/metric参数/下一篇theta论文，不开C042/579。下一只验收实际源像的完整signed差商新identity及原净费，或非Q/零点标签的relative primitive源公式；先交405主变换、537非零、原费用，再核同对象过滤/乘法/容量系数。仅未知桥/成员正号不准入。非局部/joint/强拓扑/变域/源适应/有费无限完成及真正独立证明旧等价接口保留。
+
+
+## D20261023B — 实际Gaussian源及native循环首门闭合，一轮止于principal/coverage
+
+用户明确要求从KRY实际源接入继续。上轮source0仍旧0；本次给出可判新公式T*r=∫r D_uφ*、精确原norm及native循环双反测后准入C042/579一轮，不以仅新来源名开合同。原件q7 finiteSchwartz/actualGaussian/Haar保固定ν；rawν1/2与native对齐分清。三稿与独立fresh修后限定PASS已root读，前件/版本见本次root收据。
+
+全S_exp→radialSchwartz连续及λ注入，Gramνsech/原du squared upper2πν、双pole矩=值0/积分已付；原norm不自动付section/height。最低weight1只读c(r)=∫rsech，405正Pan每一平移c严格负，q7 Z1degree2log7故非principal；显式奇compact源双polezero/c0而537 Q>0。任意经此scalar的fixed线性relative/degree-zero操作无法同消405/保537；complex仅R-linear用p,ip闭合。不排新非标量关系。
+
+actual高频源Gaussian像超多项式小、完整Q约logτ，fixed窗原du/Dlog费用准确；不冒报exp lower。先预逆compact domain失败不排direct polar U合法酉化；U仍无principal下降。finiteEuler actual shifts/mixed范数/support/poles已核，finiteF不能消整Pan轨道，但仅“某平移非零”；全因子norm大不代固定源/q费用。source/Schwartz操作不冒cycle inverse functor或height，standard s-extension也不偷当G等变导数。
+
+continuous±同奇源native型异号、raw能量皆正/nativec皆0，只反测通用识别，不假报已接CM几何。真FF同对象mixed RR/Hodge、所有returns/aliases/H0H2保留；完整Γ/FP/contact/allpp/双pole与ALLcomplex原du/zeroextensionDlog及fixed/强源/Dprime/成长分别量词保持。
+
+扣405Gaussian、545direct补偿、552高频、553全线密度及上轮degree/signed商；新增是本actual接口完整费用及native循环失败门，非独立算术正号/容量，非世界新颖性。统一cadence1→2/历史42→43，cycle15不变；strong-old542+555→557 whole leading4/5负惯性上预算/core/coupling/Xi未改，长期门open/noteligible，runtimeGoalnull。
+
+本native scalar/fixedrelative/rawbounded/无费预逆入口止，不续Gaussian宽度、finiteF/K阶/level/未知height或paper。下一仅新实际非标量全位/relative源公式、不经c/Q/零点标签，先405主同构/537非零/原费，再同对象过滤/整sections乘法/二次容量与完整signed比较。高Ktypes、变化finiteSchwartz、relativeframe/非局部、非有界height/强拓扑、源适应/变域/有费无限完成仍合法，名称不是新输入。
