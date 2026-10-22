@@ -1,0 +1,39 @@
+{
+  "schema": "rh-weil-remote-sync-verification-v1",
+  "date": "2026-10-22",
+  "repository": "https://github.com/lixiang90/RH-Weil",
+  "branch": "main",
+  "research_commit": "c73eae4ebe4bed7669b1b39d911403c096e95297",
+  "research_tree": "b1a26f07458bd1a1c33de4bee29c9c3d6717440d",
+  "parent": "c5c9bb16d06396371a6feae747192f58728b7c6e",
+  "independent_get_verified_at_utc": "2026-10-22 13:19:43 UTC",
+  "files": [
+    "goals/DECISIONS.md",
+    "goals/MACRO_FRONTIER.md",
+    "goals/README.md",
+    "goals/STATE.json",
+    "goals/checkpoints/2026-10-22-full-gamma-577-review.json",
+    "goals/contracts/C040-full-gamma-positive-repair-and-original-budget.md",
+    "goals/review-cadence.json",
+    "goals/reviews/2026-10-22-full-gamma-577-settlement.md",
+    "goals/reviews/2026-10-22-general-rh-macro-review-cycle-15.md",
+    "notes/577-full-gamma-positive-repairs-and-independent-budget-gap.md",
+    "reviews/2026-10-22/gamma-retaining-positive-approximation/fresh-whole-review.md",
+    "reviews/2026-10-22/gamma-retaining-positive-approximation/history-and-prime-pole-budget.md",
+    "reviews/2026-10-22/gamma-retaining-positive-approximation/relations-and-controls.md",
+    "reviews/2026-10-22/gamma-retaining-positive-approximation/root-consumption-scope.json",
+    "reviews/2026-10-22/gamma-retaining-positive-approximation/window-and-contact-defect.md"
+  ],
+  "checks": {
+    "remote_ref_matches": true,
+    "git_commit_parent_tree_match": true,
+    "local_same_raw_commit_object_and_refs": true,
+    "local_tree_matches": true,
+    "worktree_clean_after_research_import": true,
+    "root_versions_rechecked": true
+  },
+  "scope": "Research commit verification only; the metadata child carries this receipt, STATE and a new checkpoint, without recursively claiming its own SHA. Version/structure checks are not mathematical proof.",
+  "mathematical_gate": "open/not-eligible",
+  "cadence": 0,
+  "historical_weil": 41
+}
