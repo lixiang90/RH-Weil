@@ -1,0 +1,69 @@
+{
+  "schema": "rh-weil-root-premise-closure-v1",
+  "status": "root-consumed final 573 and three branch drafts after independent limited PASS including actualpair addendum",
+  "goal_epoch": "G20261014",
+  "baseline_commit": "0c4f3a3eb609bb1d9564138fa4a35701f05605f2",
+  "starting_git_head": "a45ad1946552eb4d1a45d122a6c15b984b2899df",
+  "contract": "goals/contracts/C036-relative-ideal-closure-and-regulator-charge.md",
+  "note": "notes/573-relative-ideal-chain-closure-and-regulator-loss.md",
+  "settlement": "goals/reviews/2026-10-22-relative-ideal-573-settlement.md",
+  "independent_review": "reviews/2026-10-22/relative-chain-closure/fresh-scope-review.md",
+  "premise_closure": [
+    {
+      "object": "Frozen actual carrier, source roles and strongold",
+      "domain": "A_src=alg(1,u,u*,D_src),I=S1 in430 explicitanalyticenlargement usingG_M; notprovenequalsoriginalminimalE/u algebra. Physicalcompactr=e^(u/2)f -> h_r(s)=r(-s) -> F_r=VU(h_r)V*. Uhereoriginaltimeconvolution, notDGA dilation.",
+      "paid": "430/431 actualfiniteGramGamma>=I,productmodtraceclass,periodicfinitepropagationkernel/norm.432 Omega onclosedHH1(A/I).405/519allPan/DGA homotopy/degreeplane;537 fullfixed17/16 complexsourcepositivity;553 fulltranslate density.",
+      "old_comparison": "424sym/conechargecancels,427wholeDtracefailure,431/432 finiteoldorbit nonclosed. None suppliedactualsingledefectr*ideal containingminus4cycle orclosedidealidentity. Earlierbranchconditional smallerideal escape narrowedbynewidealbranch forspecificgenerator/fixedA, notallgenerators orsmalleroriginalalgebra."
+    },
+    {
+      "object": "Actual positivewindow nonroot generator and finiteGamma isolation",
+      "source_quantifiers": "For everyfixedoldlegalp,q/partition chooseMlogq,L0<min(M/2,17/16),phi L2unitnonnegative inonecellwidth<epsilon<L0/8,chi realevencompact(-L0,L0),chi1central. r*=h0=cphi(chi-4chiSecond)=(D2-1/4)(-4cphichi),cphi=(intphi)^-2.",
+      "paid": "r*even,nonzero,mu+/-0 bycompactintegrationparts,fullQ>0 by537. P periodicrankonecellprojection,B cellbilateralshift smoothfinitepropagationG_M, norm1. PU(h0)P=P exactly (offcell differencesoutsideh0support).",
+      "isolation": "X=(V,uV),2x2Gammainverse smoothperiodic norm<=1. L0i=C M_Gammainv0i,Rj0=M_Gammainvj0 D; L G DeltaU G R=E00 CUD withoutcommutingC/D. AllmultipliersG_Mlegal; actualS1remainderspaid430. J*=algebraicideal<I,deltaF_r*> thereforecontainsVPV*,T=VBV*,T*. NoinfiniteGamma/inverseassumption."
+    },
+    {
+      "object": "Finite-rank witness, trace and HH1 non-descent",
+      "proof": "xi_n=Vphi_n orthogonal,a_n=normxi2=integralmabsphi_n2 exactly0farleft2farright. Txi_n=a_nxi_n+1,T*xi_n=a_nxi_n-1; normalizedweights sqrta_na_n+1. Commutatordiagonal a_n(a_n-1-a_n+1), finitelymanynonzero, telescopingtrace=-4. Zerovectorscontribute0,nonomonotonicityneeded.",
+      "consequence": "Anycycliclineartrace onJ*agreeingTr onI impossible,no continuity/positivity needed. zeta=qT tensorqT* closedwithOmega=-4,itschainimageinA/J*=0,soANYfunctional alongnaturalHH1 quotient cannotfactororiginalOmega. AppliesanylargerA-idealcontainingIandthisdefect. NotHH1newquotientzero,notallregulatorszero."
+    },
+    {
+      "object": "Actual Cstar closedideal and rawsourcecoverage",
+      "paid": "ClosedidealbarJ insideclosureD_src sinceD_src Aideal. VPV* thenactualtripleproduct=4Fij(CPD)+S1(gamma0=2 twice). CellLaurentrankoneCPD denseinclosureG_M=C(S1)tensorK by431; normFij<=2normB transfersdensity,so barJ=closureD_src.",
+      "scope": "NoalgebraicJ*=D_srcclaim, noannihilationofpureu. CstarquotientkillsALLcompactrawF andnaturallyallL1raw via normF_r-F_rn<=2normr-rnL1. HenceSexp/Panand537 killedtogether. L1tailnotglobalduDloguniformfee,noreadingHH1domainextensionintothisCstarstatement."
+    },
+    {
+      "object": "Original fees, all errors and actual coefficient direction",
+      "norms": "OriginalphysicalduL2 andzeroextensionDlog weightlog(2+absfreq). Eachfixedsupp[-L,L]: normF_r<=2sqrt(2L)normrdu<=2sqrt(2L/log2)normrDlog, normdelta<=2normF. r*norm<=cphi(normchi+4normchiSecond); cphi can growwhenwidthshrinks.",
+      "errors": "AllGamma/productcomparisonsmodS1 useactual430smoothkernelremainders; onlymembershipneededforalgebraicargument, notclaiminguniformtracenormboundfromdu. P/Bextraactualtestedges,notrawsourcelifts/necessarysourcecosts. Exacttrace/idealstatements havenounlistedlimiterrors; onlynormdensity/L1tailareexplicitlimits.",
+      "growth_direction": "Boundedsourceupperfees andexactalgebraicdescentcontradiction,notwholeQnegative/positiveorworstcase source lower. Allfixedmodel andALLJcontainingchosenI,defect; no uniformvaryingmodel/cellgrowthclaim. Noactualcore/couplingimprovement."
+    },
+    {
+      "object": "Newedges, exactPan/nonroot tests and countercontrols",
+      "paid": "Actualsymclosedrepairc-q(Fu*)tensorq(u) hasstrictliftcommutatorsum0 andOmega0,notHHclass0. AnyotherrepairdiffersbyHH1cycle;source->cyclechoicecanchangecharge,Omegaitselfcanonical. RealclosedcornercycleOmega=4int u r k hasexactdu/Dlogdualfee. k=uconjr0sees537, anynonzerofixedkfails405truePtranslate by553/Fouriernonzeroa.e.;source-dependent4normur2alsofailsPan.",
+      "domain_alignment": "Actual430closedchaincompactdomain distinctfromscalarSexp/L2formulaextension/crops. Panintersectcompact0 cannotcountasallrelationspass. Algebraicidealnegativeatnonroot sufficesdefeatingrequiredoldregulatordescent,notprovingfullPan compatibility. ClosedCstarrecipeannihilatesallPanonlybyalsoannihilatingnonroot.",
+      "arithmetic_controls": "TrueP1_Z integerjets/filteredmultiplication/metricn2capacity andcurvegluingdelta0beforeactuallift retained; boundedclosedprobe polynomialcoefficientsallPan=>zero by553. Continuitytolattice onlyfixedtarget,allowscyclecomplexification/family/Fréchet/cofinal. Continuous +/-d sharefacilitiesbuttrueinvolutiontrace2absA2+2dabsB2differs. FFsquareRR/Hodge/fullperiodsandH0H2extra."
+    },
+    {
+      "object": "Actual twolevelpair preserves lostcharge but notsource map",
+      "paid": "pi:Q->QJ actualchainmap; R_n=C_n(Q)+C_n+1(QJ),d(x,y)=(bx,pix-by),d2=0. Omega_rel=Omega[firstleg] welldefinedH1 sincecyclefirstlegclosed andboundaryfirstlegHochschildboundary. (zeta,0) cyclecharge=-4 andnonzero; noH-unital/excisionidentification needed.",
+      "unpaid": "(c_r,y) stillrequiresbc_r=0, secondlegcannotfixfirstleg. Thuspairreallyretainschargebutnofullphysicalsourceclosedchain/Panhomotopy/degrees/integralfilters/metriclift/RRmap. Standardconecontrol doesnotaddmathiteration ormakeallrelativepairimpossible."
+    },
+    {
+      "object": "Complete target, net consequence and settlement",
+      "complete_weil": "573(14) exactold405/568norm: Gammafinitepart/contact,allp^k k>=1properpowers,bothmu poles/fullcomplexmixed. Minus4endpointanomalynotidentifiedwithsameglobalWeilbudget/arithcapacity. Definingnewcharge=Qandpositive remainsWeilequivalent/sufficientpackage.",
+      "new_scope": "ConcreteactualsingledefectminimalidealclosureandOmega-nondescent, withclosedidealidentity; stricterthanoldfiniteorbitnonclosure. Thisnewcompleteadmission proofcountsoneC036mathiteration,notasource0orindependentclassicpositiveinput. Otherbranches/standardpair0additional.",
+      "settlement": "Cadenceunique1->2 once,formalcycle14 unchanged,latestmath573; sameGoalLFhash/0c4f frozen/runtimeGoalnullnotcreated. C036completebutmacroGoalopen/noteligible. Strongestold542+555->557 wholeleading4/5negativeinertiaUPPER unchanged/notactual lower;core/coupling/Xi unpaid.",
+      "stop_escape_next": "Stopfixed430Acommonideal preservingoriginalOmega/sym/probe/cellparameter. Preserve smalleroriginalalgebrawithoutP/B/Γmultipliers,non-scalarrelativeedges/differentpair/regulator,sourcefamily,strongtopology/nonlocalinfinitepaidtransfer. Actualpairalreadyretainsminus4; nextneedsactualsourcechain+anomalytransformation/Pan/r0/twodegrees/originalfees andsameintegralfilters/delta0metriclift/primitiveRR comparison,notpairlabelornewunknowncontract."
+    }
+  ],
+  "files": {
+    "notes/573-relative-ideal-chain-closure-and-regulator-loss.md": "da5ed121715fa71ce3e83c61aef7160825778ce0beeca8df39d4ae55fbb4cd93",
+    "goals/contracts/C036-relative-ideal-closure-and-regulator-charge.md": "22d77802b638352c0bff3f829628a1500fd028daa99c403e57057baa549d24a1",
+    "goals/reviews/2026-10-22-relative-ideal-573-settlement.md": "5794edf485372e8b75c738161899909c71f69285a932be52e7790ce7282ba7b7",
+    "reviews/2026-10-22/relative-chain-closure/closed-charge-source-and-arithmetic-tests.md": "d06679670d0b1d2c7be381e5b382e3ea8bfc800e6ecf38e8ca2022f0f8542ad4",
+    "reviews/2026-10-22/relative-chain-closure/enlarged-ideal-and-trace-descent.md": "3c35ad285bc976e482f4810c083b2503489f5b5af894cdf5f3225dba1c3a12d0",
+    "reviews/2026-10-22/relative-chain-closure/fresh-scope-review.md": "80223bcca84edb2b725263f48613955dcbce40a8ada97db9d5896a7d87f34333",
+    "reviews/2026-10-22/relative-chain-closure/new-edges-and-regulator-charge.md": "60f35bad2c3f54d3709e38deb747c1b84e6f50fe17b46f5723e38ace6804ec1b"
+  },
+  "scope": "Final LF hashes identify reviewed objects, not proofs; root independently checked premises/directions/coverage and consumed limited consequence."
+}

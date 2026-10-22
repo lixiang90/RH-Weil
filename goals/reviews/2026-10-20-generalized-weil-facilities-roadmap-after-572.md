@@ -22,6 +22,10 @@
 真非零relativeK/logtrace/HH1，核源unit指数boundary0、实际逐位主关系补偿及截面gluing门。
 不能将这些旧边界设施再列为从零构造；下一是actual physicalDGA到已给relative/闭链与filteredsections的比较，
 原度量和primitive RR/fullWeil身份仍欠。具体停止与合法修复见新报告，不自动复活旧线性有限部或新regulator标签。
+继而[C036/573](2026-10-22-relative-ideal-573-settlement.md)出现并执行了真正新ideal准入：一个537非根的defect即迫使新ideal含−4电荷，
+原Ω不能单商下降，闭ideal吞raw源；实际两层pair又可保该电荷，但未给源闭链/filteredlift。
+该新具体数学结果统一一轮cadence1→2，区别于前几个source0门；原macroGoal/基线/正式cycle14保持。
+范围固定430扩大域，较小原始域与非标量相对修复未排；不把这份结构反测重写为经典正性或独立RR容量。
 
 ## 1. 修订后的主判断
 

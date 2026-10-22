@@ -7,12 +7,12 @@
   "workflow": "goals/RESEARCH_WORKFLOW.md",
   "cadence": "goals/review-cadence.json",
   "decisions": "goals/DECISIONS.md",
-  "latest_strategy": "goals/reviews/2026-10-22-boundary-regulator-source-and-arithmetic-sections.md",
-  "latest_decision": "D20261022D",
+  "latest_strategy": "goals/reviews/2026-10-22-relative-ideal-573-settlement.md",
+  "latest_decision": "D20261022E",
   "macro_frontier": "goals/MACRO_FRONTIER.md",
-  "macro_summary": "goals/reviews/2026-10-22-boundary-regulator-source-and-arithmetic-sections.md",
+  "macro_summary": "goals/reviews/2026-10-22-relative-ideal-573-settlement.md",
   "latest_macro_review": "goals/reviews/2026-10-20-general-rh-macro-review-cycle-14.md",
-  "latest_iteration": "notes/572-finite-euler-receiver-coherent-tail-and-original-weighted-cost.md",
+  "latest_iteration": "notes/573-relative-ideal-chain-closure-and-regulator-loss.md",
   "macro_control": {
     "schema": "macro-recovery-v2",
     "goal_epoch": "G20261014",
@@ -20,8 +20,8 @@
   },
   "macro": {
     "long_objective": "保G20261014：由一般g-integer及对偶建立独立同源Weil正性/有效性/RR设施以覆盖classic；实际ζ成长core及完整谱约束仍按冻结基线验收。",
-    "unpaid_bottleneck": "410/411非零relativeK/logtrace及432HH1已付；actualDGA→这些闭链/filteredintegral pair的同源map仍欠，rawmap非闭。需消gluing障碍的原metric lift与primitiveRR/完整Γpppole预算比较；core/coupling/Ξ/whole4/5未改。",
-    "why_this_contract": "指定boundary门已核actualtriple/exp/真实rho_p/localtrace/WH与曲线lift；source-unit零化、逐位Pan反测和rawchain非闭不补同源箭头。恢复409–437强旧后停止，不续regulator名称/旧FP自动扩域。",
+    "unpaid_bottleneck": "573严格反测固定430扩大A的单商ideal闭链/旧Ω下降，实际两层pair可保−4；尚欠physical全源闭链/异常变换律、Pan/537/双degree原费及同整模型filteredmetriclift/primitiveRR完整Γpppole比较。whole4/5/core/coupling/Ξ未改。",
+    "why_this_contract": "C036实际singledefect/有限Γ/−4/闭包新数据已核出严格完整准入反测，超旧finiteorbit非闭，统一一轮后止。下一只有实际二层source链或较小原始域的新比较，不续ideal/probe参数或旧HH标签。",
     "paused_routes": [
       "零点比例优化",
       "无零区域优化"
@@ -40,20 +40,21 @@
       "2602.15941截面门来源0止：regular商/原高度可用，singular本p商零/球无限；显式localization修补，缺source map/square容量，不开C036或nextpaper。",
       "source-family门0止：H-base markedsection实际成功但旧谱商；全线density/cofinal归553，probe/Gaussian失败全关系；flat好minor修复可用仍非square容量。",
       "adelic-relative-square门来源0止：源定义DGA/Poisson对偶合法，全关系与非根/原费通过；真arithn²/site复合已知，缺同源primitive预算，不续tensor/标签/2018计划。",
-      "boundaryregulator门来源0止：真K/HH1旧资产保；407triple代数非零未知/逐拓扑0，exp源unitboundary0丢r0，rho_p/rawperiod/WH失Pan或coverage；需实际closedchain/filteredlift比较。"
+      "boundaryregulator门来源0止：真K/HH1旧资产保；407triple代数非零未知/逐拓扑0，exp源unitboundary0丢r0，rho_p/rawperiod/WH失Pan或coverage；需实际closedchain/filteredlift比较。",
+      "573/C036一轮止：固定430扩大A中537源单δ生成J*，原Ω不能单商下降/闭包灭raw源；实际pair保−4但不闭rawc。保较小原始域/新相对边pair/有费无限修复。"
     ]
   },
   "primary_contract": {
-    "id": "C035",
-    "path": "goals/contracts/C035-finite-euler-weighted-receiver-and-coherent-tail.md",
+    "id": "C036",
+    "path": "goals/contracts/C036-relative-ideal-closure-and-regulator-charge.md",
     "status": "completed",
     "iteration_budget": 1,
     "settled_iterations": [
-      "notes/572-finite-euler-receiver-coherent-tail-and-original-weighted-cost.md"
+      "notes/573-relative-ideal-chain-closure-and-regulator-loss.md"
     ],
-    "stage": "C035保持完成；boundary-regulator门来源0已root结算停止，14文件研究提交已远程独立GET/本地对象核验；同步收据和恢复状态已保存。",
-    "next_action": "仅验收actual filtered relative链比较：全Pan同伦入真实exact/principal变换，保537/双degree/原duDlog与cofinal费；使用432Ω须先闭链/新relative边，或整模型无unitlift的meromorphic family给局部order/actualmetriclift及primitive容量数据。无具体input不续regulator/FP/paper标签。",
-    "stop_rule": "一轮；无fulltail净费即止；高频闭合后也不调θ/c/β/幂次，不把certificate阈值代actuallower，保actualSonin/source成长缺口。"
+    "stage": "C036/573及三稿、fresh核心与pair补充PASS已root闭合；统一一轮cadence1→2，正式cycle14保持。合同完成，宏观Goal未完成；准备授权GitHub同步。",
+    "next_action": "同步573/C036/结算/三稿/fresh/root与STATE、决策前沿/cadence/checkpoint；独立GET核SHA/tree/parent并本地对齐。之后仅验收actual二层source链/异常变换律/Pan/537/原费及同整模型filteredlift/primitive数据。",
+    "stop_rule": "一轮；无超出424/431/432的actualideal完整反测则来源0；若成立保存573一次止，不调参数或扩大成所有relative/noRH定理。"
   },
   "support_contracts": [],
   "must_not_forget": [
@@ -74,7 +75,8 @@
     "一般g不自动有加法整性/frame；本文finite type仅metric非零。regular quotient与open restriction、curve线性与square二次容量不同；保family/relative/continuous逃逸。",
     "actual H-base解析markedsection已给，不能再报所有map不存在；其base归旧谱商，Pic类恒定/degree非Q/trace非fulljets，独立arithcapacity仍欠。",
     "非Xi实际相对DGA/链对偶可补，旧商quasiiso不代极化；P1_Z真实n²容量存在，缺同源primitive系数与完整预算，不能泛称算术无二次容量。",
-    "410–437已给真relativeK/logtrace/HH1；sourceunitboundary0不排414multiplierlift。raw compactr→F_r有费但weighted链非闭，437线性共尾FP有合法反例；新regulator须真实闭链/过滤/费用。"
+    "410–437已给真relativeK/logtrace/HH1；sourceunitboundary0不排414multiplierlift。raw compactr→F_r有费但weighted链非闭，437线性共尾FP有合法反例；新regulator须真实闭链/过滤/费用。",
+    "573新反测限430扩大A/PB准入及旧Ω单商因式分解；代数ideal≠闭包，C*L1延拓≠HH域。实际pair保−4但(c_r,y)首腿仍需闭，不排较小原始域/新非标量边。"
   ],
   "evidence": [
     {
@@ -133,16 +135,6 @@
       "scope": "强旧：physicalPan全线L²/Dlog稠密、nonlinearcoset-map常值及fixed/cofinal jet/whole费用与合法拓扑逃逸；本轮不重计。"
     },
     {
-      "path": "goals/reviews/2026-10-22-adelic-restriction-relative-square-and-quadratic-capacity.md",
-      "kind": "cited",
-      "scope": "旧actualE非Xi-base DGA/Poisson实现与site/真arithn²/正反准入，source0止；无同源primitive容量或新classic正性/whole后果。"
-    },
-    {
-      "path": "reviews/2026-10-22/adelic-relative-square/root-consumption-scope.json",
-      "kind": "cited",
-      "scope": "最终四稿与fresh版本root前件闭合：关系/角色/原费/量词/dual/复合/真容量/完整预算/强旧/停止，hash非证明。"
-    },
-    {
       "path": "goals/reviews/2026-10-22-boundary-regulator-source-and-arithmetic-sections.md",
       "kind": "cited",
       "scope": "具体boundary/triple/unit/prime/WH/curve准入与409–437强旧恢复，source0止；无新primitive容量/whole后果。"
@@ -151,16 +143,26 @@
       "path": "reviews/2026-10-22/boundary-regulator/root-consumption-scope.json",
       "kind": "cited",
       "scope": "最终主稿四分支/fresh root闭合：actualmap/domain/norm/units/strongold/完整项/量词/方向/coverage/停止；hash非证明。"
+    },
+    {
+      "path": "notes/573-relative-ideal-chain-closure-and-regulator-loss.md",
+      "kind": "proved",
+      "scope": "root/fresh：537polezero实际singleδ理想含finite-rank trace−4，Ω不能单商下降，C*闭包=closureDsrc灭raw/L1；pair保电荷非source闭链。固定扩大A，统一一轮；macro4/5/core未变。"
+    },
+    {
+      "path": "reviews/2026-10-22/relative-chain-closure/root-consumption-scope.json",
+      "kind": "cited",
+      "scope": "最终573/三稿/fresh/pair root前件：actualcarrier/norm/量词/finiteΓ/−4/闭包/原费用/全Pan/强旧/净后果/逃逸与停止，hash非证明。"
     }
   ],
   "pending_processes": [],
   "runtime_goal_observation": {
     "status": "absent",
-    "observed_at_utc": "2026-10-22T01:35:18.052354+00:00",
-    "basis": "本轮现场get_goal=null；保同G20261014文件/0c4f，不建未请求实例。"
+    "observed_at_utc": "2026-10-22T02:40:25.951494+00:00",
+    "basis": "本轮现场get_goal=null；保G20261014/0c4f，不建未请求实例。"
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-10-22-boundary-regulator-sync.json",
+  "checkpoint": "goals/checkpoints/2026-10-22-relative-ideal-573-final.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
     "commit": "10ff741ac50bf6ef9421e1f4506c42a831a5cd46",
@@ -172,11 +174,11 @@
     "goal_lf_sha256": "cc6046029a8e5c9fe4eae427dfd663f1d851666370637c8fd451042f340fee8b",
     "mathematical_gate": "open",
     "final_execution_gate": "not-eligible",
-    "basis": "本门实际boundary recipes未给全源Pan/r0相容的filtered算术lift及同源primitiveRR/fullΓpppole身份；真K/HH1旧资产不重计，whole4/5/core/coupling/Ξ及长期门未改。"
+    "basis": "573新增指定扩大A内ideal闭合/旧Ω下降的严格反测；pair可保−4仍无全源闭链/filtered算术lift及primitiveRR/fullWeil容量。whole4/5/core/coupling/Ξ及完整Goal门未改，非宏观方法类完成。"
   },
   "historical_completion_receipts": [
     "goals/goal-completion-receipt.20261014.json",
     "goals/goal-completion-receipt.20261014-continuation.json"
   ],
-  "process_inventory_observed_on": "2026-10-22：三个原稿与fresh均完成，root已消费；无数学/下载后台。研究提交已核，仅同步收据metadata。"
+  "process_inventory_observed_on": "2026-10-22：三原稿与fresh含pair followup均final，root已消费；无数学/下载后台，待授权同步。"
 }

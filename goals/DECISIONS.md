@@ -1028,3 +1028,30 @@ whole542+555→557 leading4/5上预算、actual低频/core/coupling/Ξ与宏观�
 保537和双degree、原du/Dlog/cofinal费；若用432Ω，须先有真正闭链或付新边/relativeideal，非有限旧orbit修补。
 同一目标还须给整模型local过滤、消gluing障碍的lift及primitive容量/完整预算的可判数据。
 未出现不自动续regulator名称或下一paper；保phase、sourcefamily、signedtransgression、Fréchet/变域等合法修复。
+
+## D20261022E：573实际ideal闭合反测一轮；单商失电荷，实际pair可保电荷
+
+用户指定新相对边/ideal后，原对称修补/固定probe仍只回旧424/553。
+有限Γ隔离却提供了具体新准入数据，故创建C036一轮，未将未知regulator改名为合同。
+[573](../notes/573-relative-ideal-chain-closure-and-regulator-loss.md)与三稿/fresh核心及pair补充PASS已root闭合；
+[统一结算](reviews/2026-10-22-relative-ideal-573-settlement.md)仅记一轮，cadence1→2/正式cycle14保持。
+
+实际r*=(D²−1/4)(−4cφχ)在537正窗，µ±0且fullQ>0。
+J*=<S1,δF_r*>借实际2×2Γ逆包含T=VBV*及T*；周期胞元正交与m端点0→2给finite-rank commutator trace−4。
+因此无ordinaryTr匹配循环trace，原432Ω不能沿自然HH1 quotient下降，anylarger同类A-ideal亦失败。
+C*闭ideal准确为closureDsrc，杀全部compact/L1 rawsource；L1尾费2||tail||1已列，不升HH域/原du全线uniform。
+这比431/432 finite旧orbit不闭、427整个域trace不延拓强在一个真实sourcegenerator与闭包识别；是新增数学反测，不能source0隐藏。
+
+范畴范围冻结430的解析扩大A_src；P/B与Γmultipliers额外合法，不证明它们已由原u/E最小域生成。
+代数J*不等于已证全Dsrc；纯u商亦未被灭。原fixed窗费用与余项Schwartz费/测试边费严格分开，非全空间lower代源费。
+compact/Pan空交不能记全405关系通过。闭商同时杀Pan与r0，不是所需非退化源桥；旧closedprobe保r0却失全Pan。
+
+实际mapping fibre R_n=C_n(Q)⊕C_(n+1)(QJ)及Ωrel保(ζ,0)的−4，故不排所有relative pair。
+但原(c_r,y)首腿仍须闭，pair不能自动替其消bc_r；仍欠actual全源链比较、Pan同伦与双degree/原norm。
+完整Γ、properpowers、双pole/mixed、连续±及FF同square RR控制保留。没有新的classic正性或算术capacity身份。
+
+局部ideal旧Ω下降未知变为严格失败，宏观source→filteredlift/primitiveRR/fullWeil/core/coupling/Ξ瓶颈未变。
+strong-old542+555→557 wholeleading4/5上预算不改，不代actual负谱lower。Goal同版本/0c4f冻结、runtimeGoalnull未创建，门open/noteligible。
+在此停止ideal/probe/cell参数；下一须实际二层source链及相对异常变换律，再核localfilters/actualmetriclift与独立capacity。
+保较小原始代数、非标量transgression、不同relativepair/regulator、强拓扑/变域/sourcefamily及付费无限传递。
+仅pair标签/旧谱商新包装或公设Q且正不准入新合同；不自动续文献或已停Sonin高层。

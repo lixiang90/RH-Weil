@@ -1,8 +1,18 @@
 # 宏观前沿：可消费范围与最小未付箭头
 
-2026-10-22更新；完整Goal、唯一动作和现场观察以STATE为准。
-固定基线0c4f3a3eb609bb1d9564138fa4a35701f05605f2（全部≤538），同G20261014。
-当前[boundary regulator门](reviews/2026-10-22-boundary-regulator-source-and-arithmetic-sections.md)主稿/四分支及fresh限定PASS已root闭合。
+2026-10-22更新；完整Goal/唯一动作/现场观察以STATE为准。同G20261014，冻结0c4f/全部≤538。
+最新[C036/573结算](reviews/2026-10-22-relative-ideal-573-settlement.md)与[原证明](../notes/573-relative-ideal-chain-closure-and-regulator-loss.md)已root/fresh闭合。
+实际537窗双pole-zero非根r*的J*=<S1,δF_r*>借finite2x2Γ隔离含T/T*，commutator有限秩trace−4。
+因此固定430扩大A中原432Ω不能沿新HH1 quotient下降，任何更大同类ideal亦失败；无连续/正性假设。
+C*闭ideal=closureDsrc，灭全compact/L1 raw源（含Pan/r0）；代数J*不报全Dsrc，L1尾费不升HH域/全线du统一费。
+实际relativepair R与Ωrel保−4，但(c_r,y)首腿仍须闭，所以未有fullphysicalDGA→闭链/整模型filteredlift。
+比旧424/427/431/432新增singledefect理想包含与闭包识别，统一一数学轮1→2/正式cycle14保持；非source0或macro完成。
+局部ideal保旧Ω未知已判失败；宏观独立primitive容量/完整Γpppole/source链、whole4/5/core/coupling/Ξ仍欠。
+保430扩大域与原最小u/E域区别、额外P/B/Γ测试边≠低费源lift；较小原域、新非标量transgression/不同pair/强拓扑/付费无限修复未排。
+本次ideal/probe/cell入口已止；下一只验收actual二层source链与异常变换律/全Pan/537/双degree原费用，再接同对象localfilters/metriclift/RR。
+[root收据](../reviews/2026-10-22/relative-chain-closure/root-consumption-scope.json)保完整前件与停止范围。
+
+前次[boundary regulator门](reviews/2026-10-22-boundary-regulator-source-and-arithmetic-sections.md)主稿/四分支及fresh限定PASS已root闭合。
 更强旧409–437已恢复：410/411非零相对K及2a logp、414真实无原unitlift的酉边界、432规范HH1电荷均已付。
 432真实weighted链非闭，437最小源有限词在其合法实例可无线性共尾FP；不得把regulator/非零boundary笼统当不存在。
 本门407合法triple不推其非零；逐idele trace-norm path的topological boundary0，sourceunit exp boundary0，只约束那些recipe。

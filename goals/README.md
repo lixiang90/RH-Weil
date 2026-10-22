@@ -1,6 +1,14 @@
 # 长期研究恢复入口
 
-最新[boundary regulator／算术截面准入](reviews/2026-10-22-boundary-regulator-source-and-arithmetic-sections.md)主稿/四分支与fresh限定PASS已root范围闭合。
+最新[C036/573实际相对ideal闭链结算](reviews/2026-10-22-relative-ideal-573-settlement.md)已root/fresh闭合，统一一轮cadence1→2，正式cycle14保持。
+[573](../notes/573-relative-ideal-chain-closure-and-regulator-loss.md)给537正窗双pole-zero非根r*；单δF生成代数J*含T/T*且finite-rank trace−4，432Ω不能单商下降。
+范数闭ideal准确=closureDsrc，灭compact及explicit L1 raw源；代数ideal未报全吞，HH域未自动扩展。
+实际两层pair及Ωrel可保(ζ,0)的−4；但原(c_r,y)首腿仍须闭，尚无全源source比较/整模型filteredlift。
+这是比旧finiteorbit非闭更强的新具体准入反测，不能source0隐藏；不提供新RH正性/容量/whole4/5/core/coupling/Ξ，宏观瓶颈未变。
+范围固定430解析扩大A，保较小原始u/E代数、新非标量边/不同relativepair/源依赖强拓扑付费修复。
+本合同在此止，不续ideal/probe/cell参数；下一准入与原norm/完整Γpppole责任见结算、root收据和STATE。
+
+前次[boundary regulator／算术截面准入](reviews/2026-10-22-boundary-regulator-source-and-arithmetic-sections.md)主稿/四分支与fresh限定PASS已root范围闭合。
 已恢复更强409–437：真正非零relativeK、logtrace及HH1电荷存在；缺的是physical DGA到这些已给设施的闭链/filtered比较。
 407实际relative triple可定义但其代数非零未知；逐idele拓扑path及源unit指数boundary为0，不排410/411/414真实非零类。
 实际local Lq(p0)>0需完整Γ补偿；裸periodization/positive WH压缩不消全关系，原费与point读出费用分开。
