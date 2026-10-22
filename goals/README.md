@@ -1,13 +1,14 @@
 # 长期研究恢复入口
 
-最新[C043/580有限Schwartz—边界协同门](reviews/2026-10-23-kry-finite-boundary-admission.md)已独立fresh修后限定PASS、root前件闭合。
-split2实际非标量cycles及完整constant已付，不再只经579单c；inert3 standard/tr同初值导数差由明确localcocycle协同，不能忽略vertical/constant费用。
-finite全Pan像张满，fixedlinear relative失405；另有数据构造的537非根核，不把线性span偷用于所有非线性读出。
-无限native单格有合法du费及compact注入，但非零compact像不属原Bruhat域；全S_exp另有明确R_A使全部c_j/双pole矩零而完整Qζ>0，全Γ/contact及全primepowers尾已付。
-dense双prime可消alias，指定无权单位化family对固定非零源实际费发散；保衰减权/额外边界/新拓扑，不报全位no-go。
-FF同对象primitive mixed RR及全部aliases、非负Frobenius统一j0；continuous±异号不由positive finite Gram自动识别，尚无其到CM运输。
-统一一数学轮cadence2→3/历史43→44，formalcycle15保持；局部规范/coverage前沿改变，独立容量、whole4/5负惯性UPPER、actualq/core/coupling/Ξ未变，Goal open。
-停止本finite-native fixedrelative及单格Hilbert recipe，不续level/参数/paper；下一仅新实际relative/regulator读额外原源，或带同域cycle/强完成身份的有权非整格family，先405/537/全源及原费。
+最新[C044/581算术有权双prime强完成门](reviews/2026-10-23-weighted-two-prime-admission.md)已独立fresh限定PASS、root前件闭合。
+split2/11的真实ideal-index高度H及H^-2权支付dense family原du/Dlog，保全L2/S_exp和完整解析Mellin像注入；σ2非唯一canonical选择。
+新Aβ强完成保两位partial Fourier、点乘/卷积、origin/integral和每fixed-g λ读出，σ>β≥1付原费；双读出全线sharp阈值σ>1。不是仅Hilbert换名，也非fullWeil/DGA/Green/cycle自动延拓。
+同球族任意处处非零合法权的非零源仍不属原Bruhat；compensated Ω与fixedarch J不同，实际537双polezero非根有d^-5 arch尾。
+真实S-unit imaginary-axis全s及两constant腿预算退Cw·M0；Pan全平移Cw<0、奇537读出0。physical I−T与frame方向核清；routing余charge外全尾付805/432原du。
+反向共轭是另复形，有实际Gram右逆24/5却H0=H1=0、H2=span w，不能叫成功primitive；常数S-unit支持2/11不付首levelchar7循环差。
+完整Γ/FP/contact/allpowers/双pole及continuous±/trueFF同对象mixed RR保留；FF两place步长相称，不移植densegrid。R_A新family实际费指数小归552旧机制，不重计正号。
+统一一数学轮cadence3→4/历史44→45，formalcycle15保持；强完成/费用前沿改变，独立容量、whole4/5负惯性UPPER、actualq/core/coupling/Ξ未变，Goal open。
+停止此H^-2球族/S-unit-label边界，不续σ/levels/paper；下一仅同强域full-local/实际regulator/cycle/Green且读额外源的公式，先405/537/全源/原费，再同对象mixed容量。
 唯一动作和发布状态以STATE为准；以下“当前/下一”均为历史。
 
 最新[C039/576结算](reviews/2026-10-22-function-field-positive-cone-576-settlement.md)已fresh限定PASS、root前件闭合。

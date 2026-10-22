@@ -1225,3 +1225,19 @@ finite全Pan像张满只排fixedlinear quotient；537显式数据核独立排同
 新增局部接口/规范/coverage边界，未付独立source→principal arithmetic-chain／完整signed解卷积／同对象局部过滤与primitive mixed平方RR。扣579/553/552和FF旧资产后，无新classic正性/actualq/whole4/5/core/coupling/Xi后果。统一cadence2→3/历史43→44，cycle15保持，Goal open/not-eligible，runtimeGoalnull未创建。
 
 本recipe停止，不续levels/shift/Gaussian或下一paper。下一唯一准入须实际relative/regulator读入cj之外源信息，或带同域cycle/Green及强完成身份的有权非整格family，先405全主同构、537与全源非根、原du/Dlog，再独立容量。若只有unknown桥/定义Pan边界/把Q拉回作height，停止来源，不再开新数学合同。变域/非线性/额外continuous信息与独立证明等价接口保留。
+
+## D20261023D — 算术有权双prime强完成已付，真实边界仍留charge／反向修复全吞
+
+依据C044/581、三独占原件与独立fresh限定PASS及root前件收据。用户沿580指定有权逃逸；真实fractional ideal commensurability高度、Aβ实函数代数/双读出sharp阈值和完整解析像/真实边界方向提供具体新实物，准入一轮，不是重跑无权反测或553旧商。
+
+split2/11 H=2^|j|11^|k|、w=H^-2不读Q/零点，指数2非canonical唯一。weighted family付du/Dlog并保全源注入；Aβ保两位partial Fourier/点乘/卷积/双读出/fixed-g λ，σ>β≥1费闭合。σ≤1用compact双polezero平移源证全线读出实际费爆，非ambientnorm。全非零源的同球像仍失原Bruhat；finite强完成与原域、fullWeil/DGA/Green/cycle不能混。
+
+fixedarch right-tr完整Mellin=B_r M0在明确条带识别，Γ/allpowers/poles/constant全保、解析像全源注入；负levels仅actual解析及有限准cycle标记，不冒一般算术定理。真实globalS-unit Ω连arch移动，其imaginary-axis fulls与两constant腿同native，预算退Cw M0；405全平移Cw<0、odd537 Cw0。root另付537正非根双polezero Ω d^-5 arch尾，不能借finiteA1费代arch Schwartz。
+
+physical I−T和frame Mw^-1(I−T)Mw方向明确；实际routing除charge外全尾费805/432原du。反向共轭 Mw(I−T)Mw^-1是另解析复形，真正有24/5原Gram右逆而H0=H1=0/H2=span w，连537吞；不得用formalcharge发散否认已付primitive，也不得将它叫arithmeticprincipal。常数S-unit divisor支撑2/11+arch，不能付n1特殊循环char7边。
+
+continuous±同local权而native型异号，不假报CM反例；FF两place步长相称，正号仍同C×C primitive mixed交数/截面乘法/RR和全aliases，非A1点乘。R_A completeΓ/allpowers/poles而输出指数小是552/579旧高频机制在actualfamily的精确费用；合法无界J_w逆及独立无界算术height未排。
+
+统一一轮cadence3→4/历史44→45，formalcycle15保持，恢复/branch/fresh/推送0额外轮。局部强完成/费用门改变，经典独立primitive mixed容量、signed运输与strong-old542+555→557 whole4/5负惯性UPPER、actualq/core/coupling/Xi未变，长期门open/noteligible，runtimeGoalnull。
+
+停止本H^-2球族/S-unit-label-boundary，不续σ/levels/paper。下一仅实际同强域full-local作用/relative regulator/cycle/Green且读额外原源的具体公式，先405全principal/537及全源非根/原du-Dlog，再同对象局部过滤、截面lift/乘法与mixed RR。无实物仅一个章节级来源门即止，不建未知新合同。不同基/载体、源适应/非局部/非有界height和paid强完成均保留；等价接口允许独立证明，不以定义Q代输入。

@@ -1,0 +1,156 @@
+{
+  "schema": "rh-weil-root-premise-closure-v2",
+  "iteration": "581",
+  "contract": "C044",
+  "status": "root-consumed-qualified-pass",
+  "consumed_at_utc": "2026-10-22T22:52:03.406632Z",
+  "goal_epoch": "G20261014",
+  "goal": "goals/GOAL.20261014.md",
+  "goal_lf_sha256": "cc6046029a8e5c9fe4eae427dfd663f1d851666370637c8fd451042f340fee8b",
+  "baseline_commit": "0c4f3a3eb609bb1d9564138fa4a35701f05605f2",
+  "fresh": "reviews/2026-10-23/weighted-two-prime/fresh-whole-review.md",
+  "bindings": [
+    {
+      "path": "notes/581-arithmetic-weighted-two-prime-completion-and-relative-capacity-gap.md",
+      "lf_sha256": "49685901d3aba83816a0f41f5b7d5c8d55e994764f15dbc442d784cc389aa31c"
+    },
+    {
+      "path": "goals/contracts/C044-arithmetic-weighted-two-prime-and-relative-boundary-gate.md",
+      "lf_sha256": "bf98e0f06f8f53504d314f6b1b67b425160d636e071e1cd475d78a3bb643300d"
+    },
+    {
+      "path": "goals/reviews/2026-10-23-weighted-two-prime-admission.md",
+      "lf_sha256": "abb8f5bc2d732049c0d163622317690fe9b460e8e8e1be11ff6d96fc619054f0"
+    },
+    {
+      "path": "reviews/2026-10-23/weighted-two-prime/arithmetic-height-and-schwartz-domain.md",
+      "lf_sha256": "a0403cd139e965c7bc6d574198a70f368d7fc5b3e56159b8ac20827ff364a85f"
+    },
+    {
+      "path": "reviews/2026-10-23/weighted-two-prime/fresh-whole-review.md",
+      "lf_sha256": "96ef6183caaa696df3a2792f9748964bd18025c0d30cea795d372ab30a383a70"
+    },
+    {
+      "path": "reviews/2026-10-23/weighted-two-prime/original-costs-controls-and-inverse.md",
+      "lf_sha256": "9a838f64270aa006d194223780c530a3642090125149857788f0fe68f0ee33d8"
+    },
+    {
+      "path": "reviews/2026-10-23/weighted-two-prime/sunit-relative-boundary-and-principal-test.md",
+      "lf_sha256": "e501ae9ea855da3b23ca9d99e7a736d667ba8ab0a2f42f061ff6d565277aff2b"
+    }
+  ],
+  "dependencies": [
+    {
+      "path": "goals/GOAL.20261014.md",
+      "lf_sha256": "cc6046029a8e5c9fe4eae427dfd663f1d851666370637c8fd451042f340fee8b",
+      "payment": "existing input, not new positivity"
+    },
+    {
+      "path": "notes/405-f1-adelic-restriction-moments-and-radical.md",
+      "lf_sha256": "fe5ee4b574954e51a69c6bbbaa772bb75a1a510c91c837ba02eed8ac406cbb7d",
+      "payment": "existing input, not new positivity"
+    },
+    {
+      "path": "notes/537-source-exact-weil-window-positive-tail-admission.md",
+      "lf_sha256": "269a500556d37fc04a4e44efd2f0899414787743e529506dbbe7395a34eea9f8",
+      "payment": "existing input, not new positivity"
+    },
+    {
+      "path": "notes/553-principal-cyclic-closure-and-cofinal-readout-fees.md",
+      "lf_sha256": "35a40c35d1eaa7fafb462361ddef1bfb9643402b5670f832b9142aeb4b74abce",
+      "payment": "existing input, not new positivity"
+    },
+    {
+      "path": "notes/555-actual-prime-weighted-schur-and-growing-weil-inertia.md",
+      "lf_sha256": "55a3745ab8160738e2a2dde15e84290e99205df68f3b59b357d26127846a31c5",
+      "payment": "existing input, not new positivity"
+    },
+    {
+      "path": "notes/557-joint-row-norm-and-gamma-arithmetic-moment-budget.md",
+      "lf_sha256": "5abfd13af9c955b27c5a2ea8f01d2555fa05b1df450adbedbcfe20f62d327166",
+      "payment": "existing input, not new positivity"
+    },
+    {
+      "path": "notes/567-function-field-positivity-origins-and-generalized-correspondence-tests.md",
+      "lf_sha256": "96c0c5a62e4175705696a29ed28d890eb11cec6f7351dc763641b65f3fcaec8a",
+      "payment": "existing input, not new positivity"
+    },
+    {
+      "path": "notes/579-kry-physical-gaussian-source-and-native-primitive-obstruction.md",
+      "lf_sha256": "1b4506e2a1dfd311b7816e17622b45ee257295c6716822cfc424b0e93ef306f1",
+      "payment": "existing input, not new positivity"
+    },
+    {
+      "path": "notes/580-kry-finite-schwartz-boundary-cocycle-and-level-alias-gap.md",
+      "lf_sha256": "9d0b4ddb5f2b0464828097653fc69664568054a15fbdbfa0b524c118c43c9b20",
+      "payment": "existing input, not new positivity"
+    },
+    {
+      "path": "reviews/2026-10-23/kry-finite-boundary/root-consumption-scope.json",
+      "lf_sha256": "223311622030fcc1d680488a66d664c4d086df4a1b0027dd5cec9eb8aa95dfeb",
+      "payment": "existing input, not new positivity"
+    },
+    {
+      "path": "notes/552-radial-adelic-green-principal-and-comparison-gate.md",
+      "lf_sha256": "670c05aac61921a4f36accc89638e2844fe7221df6341e4e7ff27964fb22d887",
+      "payment": "existing input, not new positivity"
+    }
+  ],
+  "object_domain_range": {
+    "source": "physical r=e^(u/2)f; all complex S_exp / original du and zero-extension Dlog (Hlog), stated L2 extensions distinct",
+    "finite_fixedarch": "kQsqrt-7 split2/11, native Gaussian/Haar nu fixed, normalized balls e_jk and H from actual fractional ideal indices, w=H^-2 chosen without Q/zeros",
+    "strong_domain": "A_beta weighted ell1 actual finite radial functions, beta>=1. Partial Fourier only at2/11, actual pointwise/convolution product and fixed-g lambda. Not full Weil stable or arithmetic section algebra",
+    "compensated": "Omega_n=D_-a phi* tensor e_n vs J_w fixed arch are different. Actual global rational action and constant/Mellin readout only as stated imaginary-axis transported family",
+    "relative": "physical z=w c incidence I-T; c-frame Mw^-1(I-T)Mw. Reverse Mw(I-T)Mw^-1 is a different analytic complex, not arithmetic principal",
+    "norm": "actual finite/fullOmega Gram lower5/18 upper18/5, original du/Hlog fees; finite L1/C0 and localK costs never substitute Green/height/RR or arch Schwartz seminorms",
+    "roles": "405 genuine noncompact P=(D²-1/4)H and all shifts are relations. Explicit compact doublepolezero tests positive by537 are nonroots, not automatically relations"
+  },
+  "paid": [
+    "actual commensurability height H and H^-2, source-injective HS interface on allL2/S_exp; same ball nonzero image cannot lie in original Bruhat for any nonvanishing legal weights",
+    "A_beta partialFourier/product/convolution and C0/L1, fixed-g lambda extension; sigma>beta>=1 original du upper; origin/integral whole-line original fee iff sigma>1 via actual translated compact doublepolezero source",
+    "fixedarch right-transport normalized dphi0(d²tau), complete Mellin B_r M0, true absolute initial strip1<Re z<3/2 before meromorphic interpretation; all-source analytic output injective. No general negativelevel cycle theorem",
+    "true globalSunit compensated imaginary-axis all-s/constant legs identical, readout Cw M0; Cw<0 all405 translates, odd537 nonroot readout0; original Hilbert source injectivity not transported to this readout",
+    "true physical/frame direction; explicit routing all source coefficients minus Cw delta0, complete firstmoment fee805/432 du; constant Sunit support2/11 cannot supply first char7 cycle edge",
+    "reverse incidence explicit rightinverse ell2 4/3 and actualGram24/5; Koszul H0=H1=0 H2=span w. Paid primitive kills allH0, not successful coverage",
+    "root same537 compact doublepolezero nonroot gives compensated Omega finite-origin arch d^-5 tail, same-sign exact lower; finite strong fee does not preserve original arch Schwartz",
+    "explicit R_A fullGamma/allpowers/bothpoles vs exponentially tiny actual J_w fee; classified old552/579 mechanism in exact new family, not new classical sign",
+    "continuous opposite native forms and FF commensurate norm steps / same-object RR / nonnegative Frob j0 / allaliases controls"
+  ],
+  "errors_and_quantifiers": {
+    "weights": "sigma2 fixed independent source/Q/zeros; height arithmetic but exponent not uniquely canonical; claim for otherweights only exact same ball/domain hypothesis",
+    "origin": "threshold whole-line source-uniform, fixedsource/compactwindow not confused. sigma<=1 may have each source finite but no uniform du/Dlog bound",
+    "lambda": "each firstfixed localg with C_g, not adelic g-uniform E sum or cofinal height",
+    "Mellin": "B du strip-.5<Rez<1.5; source-specific exponential seminorm expands to -1<Rez<2, not original du; fullGamma/powers/poles/contact retained in native M0, targetQ not identified",
+    "infinite": "A1 not Bruhat; actual output convergence not input/cycle convergence; all s exact finitecompensatedorbit and scalar-output limit only",
+    "growth": "sourcefreq A explicit Gaussian bound, fixed537 window highfreq separate; no new growth-support/arithmeticheight uniformcapacity",
+    "full_budget": "Gamma=Repsi(1/4+it/2)-logpi/FPcontact, everyLambda(p^k)=logp, both poles. Test momentszero exact; no deleted target term"
+  },
+  "coefficient_direction": "positive Hilbert/strongalgebra norms; source-dependent signed KRY multiplier/charge and true scalar readout; no positive height or quadraticRR identity. Strongestold 542+555->557 leading4/5 negative-inertia UPPER unchanged.",
+  "unpaid": [
+    "same-domain full-local/relative arithmetic regulator and principal homotopy for all405 preserving537/fullsource",
+    "infinite cycle/Green/actual adelicDGA extension with every boundary, mixed norm and tail",
+    "same integral object localvanishing filtration, actual arithmetic section lift/multiplication and primitive mixed squareRR",
+    "signed KRY deconvolution to completeQzeta with independent unbounded or extrasource capacity estimates",
+    "actualq disappearance, growingcore/coupling and Xi identification"
+  ],
+  "fresh_corrections": [
+    "H2=span_C{w} distinguished from scalar Cw(r)",
+    "partial Fourier and fixed-g lambda only, native ramified legs not claimed stable",
+    "arithmetic quasi-cycle finite marking not general/infinite integral theorem",
+    "fixedarch strongdomain vs compensatedOmega different, all budgets stay typed"
+  ],
+  "final_post_fresh_changes": "top settlement wording and H2 notation only; root implemented fresh-approved fixed-g lambda sentence and compact537 Omega d^-5 proof, independently verified in fresh. Two math-line trailing-space controls changed to explicit TeX quad; formatting only, final bindings refreshed.",
+  "net_consequence": "New actual arithmetic damping / strong completion / original fees and scoped domain-boundary facilities; no new completeWeil positivity, primitive capacity or strongestold actualzeta consequence.",
+  "stop": "this H^-2 ball/Sunit-label recipe; no sigma/levels/paper continuation",
+  "retained": [
+    "different nonradial bases/carriers and extra physical source data",
+    "source-adaptive/variable relative boundary",
+    "non-Hilbert/full-local strong completion with arithmetic cycle/Green comparison",
+    "independently constructed unbounded height with fullGamma identity",
+    "independent proof of an equivalent interface"
+  ],
+  "next_admission": "concrete same-strong-domain full-local/regulator/cycle/Green formula, first405/537/fullsource/originaldu-Dlog then mixedRR; absent formula one chapter source review and stop.",
+  "cadence": "one completed581 iteration3->4 historical44->45 formalcycle15 retained; recovery/branches/fresh/sync zero extra",
+  "completion": "Goalopen/noteligible, runtimeGoalnull observed not created/completed",
+  "publication": "current direct sync request plus persisted human complete public research and metadata authorization"
+}
