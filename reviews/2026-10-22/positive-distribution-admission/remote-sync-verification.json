@@ -1,0 +1,66 @@
+{
+  "schema": "rh-weil-remote-research-sync-v1",
+  "scope": "Verified research commit; subsequent metadata child separately tool-verified, no recursive self-SHA",
+  "repository": "https://github.com/lixiang90/RH-Weil",
+  "branch": "main",
+  "research_commit": "f7cbbd8d26bcdb774f67456f1f14aef06889f2c7",
+  "tree": "7ab8515fbf0731881cf9c386b551478b7de08e5d",
+  "parent": "88d3506da2844f3a2af7cf3805bbf1897f880f1b",
+  "independent_remote_ref": "f7cbbd8d26bcdb774f67456f1f14aef06889f2c7",
+  "remote_git_commit": {
+    "sha": "f7cbbd8d26bcdb774f67456f1f14aef06889f2c7",
+    "node_id": "C_kwDOUJbSS9oAKGY3Y2JiZDhkMjZiY2RiNzc0ZjY3NDU2ZjFmMTRhZWYwNjg4OWYyYzc",
+    "url": "https://api.github.com/repos/lixiang90/RH-Weil/git/commits/f7cbbd8d26bcdb774f67456f1f14aef06889f2c7",
+    "html_url": "https://github.com/lixiang90/RH-Weil/commit/f7cbbd8d26bcdb774f67456f1f14aef06889f2c7",
+    "author": {
+      "name": "lixiang90",
+      "email": "78319371+lixiang90@users.noreply.github.com",
+      "date": "2026-10-22T09:34:17Z"
+    },
+    "committer": {
+      "name": "lixiang90",
+      "email": "78319371+lixiang90@users.noreply.github.com",
+      "date": "2026-10-22T09:34:17Z"
+    },
+    "tree": {
+      "sha": "7ab8515fbf0731881cf9c386b551478b7de08e5d",
+      "url": "https://api.github.com/repos/lixiang90/RH-Weil/git/trees/7ab8515fbf0731881cf9c386b551478b7de08e5d"
+    },
+    "message": "Build positive Weil generators from one elliptic curve and prove sharp alias costs",
+    "parents": [
+      {
+        "sha": "88d3506da2844f3a2af7cf3805bbf1897f880f1b",
+        "url": "https://api.github.com/repos/lixiang90/RH-Weil/git/commits/88d3506da2844f3a2af7cf3805bbf1897f880f1b",
+        "html_url": "https://github.com/lixiang90/RH-Weil/commit/88d3506da2844f3a2af7cf3805bbf1897f880f1b"
+      }
+    ],
+    "verification": {
+      "verified": false,
+      "reason": "unsigned",
+      "signature": null,
+      "payload": null,
+      "verified_at": null
+    }
+  },
+  "local_exact_object_import": true,
+  "local_head_tree_and_clean_verified": true,
+  "verified_at_utc": "2026-10-22 09:35:18 UTC",
+  "files": [
+    "goals/DECISIONS.md",
+    "goals/MACRO_FRONTIER.md",
+    "goals/README.md",
+    "goals/STATE.json",
+    "goals/checkpoints/2026-10-22-function-field-positive-cone-576-review.json",
+    "goals/contracts/C039-function-field-positive-cone-and-original-norm-transport.md",
+    "goals/review-cadence.json",
+    "goals/reviews/2026-10-22-function-field-positive-cone-576-settlement.md",
+    "notes/576-fixed-elliptic-positive-cone-and-original-alias-cost.md",
+    "reviews/2026-10-22/positive-distribution-admission/exact-euler-crosscheck.json",
+    "reviews/2026-10-22/positive-distribution-admission/fresh-whole-review.md",
+    "reviews/2026-10-22/positive-distribution-admission/function-field-approximation-and-scaling.md",
+    "reviews/2026-10-22/positive-distribution-admission/history-and-independent-input-audit.md",
+    "reviews/2026-10-22/positive-distribution-admission/root-consumption-scope.json",
+    "reviews/2026-10-22/positive-distribution-admission/smoothing-and-positive-certificate-tests.md"
+  ],
+  "mathematical_scope": "576/C039 true elliptic basechange/dilation positive generators, all-n positive Euler and original Hlog sharp alias cost; one iteration4->5/39->40. Independent classic target membership/RR/actual core/Xi unchanged; Goal open."
+}
