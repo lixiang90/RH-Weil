@@ -1097,3 +1097,21 @@ polezero的r0杀两个degree幂等，标量mark非全base regularCartier；允�
 下一须实际非平凡relative对象及physical map/全关系/原费用，并至少一项独立整性过滤或capacity数据，才重准入。
 保非自由/非仿射/新相对层、强拓扑/变域/sourcefamily/有费无限修复；不声称Pic全零或所有derived无几何。
 独立tensor对象/pole定理或actual危险core全源signed输入会改变排序；目前whole4/5/core/coupling/Ξ及宏观完成门不变。
+
+## D20261022H：真实覆盖有非平凡相对线族；源标签仍未支付独立容量
+
+用户明确要求actual覆盖/局部交叠，连续来源0后以413实际Wp/Wq、exp(zx)及可判kernel三句准入[C037](contracts/C037-actual-cover-picard-clutch-and-source-gate.md)，不续旧C036预算。
+[574结算](reviews/2026-10-22-actual-cover-relative-picard-574-settlement.md)及periodic原件给新absolute iΛ／双frame零核／Γ不变metric iff Re z0；adversarial和whole fresh限定PASS，root闭合。
+局部未知真的改变，不能source0隐藏，也不能重报旧410/420；统一一轮cadence2→3、正式cycle14保持。
+这不是全Pic分类，不是代数degree0或新的capacity；C/iΛ仅自然参数商，底层普通metric未排。
+
+actual源recipe逐门核：exp(κ*r)有原du/Dlog费但relative平凡，mean看r0失败405全部Pan，degree-only消Pan却漏r0。
+合法z=icQζ(r)完整消关系并保537/正fiber metric，不能否认实际map；它非additive→tensor，仅旧完整Q值包装。
+一般线性标签先由Pan缩放/可数kernel迫消关系，才用553密度；不把nonHausdorff目标直接当Hausdorff。
+连续正负Q_c都能有unitarymarker；FF真degree0 twist的h0变化另有proper/DVR/RR输入。
+完整Γ/contact/allpp/双pole保留，尚无同一算术对象上完整预算identity；strong-old542+555→557 whole4/5上预算/core/coupling/Xi及宏观瓶颈未改。
+
+按用户stop停止本recipe，不调scalar/probe/chart或串paper；保非标量新relative层、强拓扑/变域/有费无限修补。
+唯一下一准入是非Q标签的实物relative Cartier/valuative源数据，实际405同构、537/连续±/原metriclift及至少独立过滤或容量设施。
+备选为真曲面mixed比较或actual危险core signed新身份，须各有新输入；无输入不建unknown合同。
+宏观Goal仍open/not-eligible；现场runtimeGoalnull，未创建新实例，推送/合同完成不代Goal完成。

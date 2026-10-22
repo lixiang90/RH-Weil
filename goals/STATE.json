@@ -7,12 +7,12 @@
   "workflow": "goals/RESEARCH_WORKFLOW.md",
   "cadence": "goals/review-cadence.json",
   "decisions": "goals/DECISIONS.md",
-  "latest_strategy": "goals/reviews/2026-10-22-actual-dga-line-moving-and-basechange-admission.md",
-  "latest_decision": "D20261022G",
+  "latest_strategy": "goals/reviews/2026-10-22-actual-cover-relative-picard-574-settlement.md",
+  "latest_decision": "D20261022H",
   "macro_frontier": "goals/MACRO_FRONTIER.md",
-  "macro_summary": "goals/reviews/2026-10-22-actual-dga-line-moving-and-basechange-admission.md",
+  "macro_summary": "goals/reviews/2026-10-22-actual-cover-relative-picard-574-settlement.md",
   "latest_macro_review": "goals/reviews/2026-10-20-general-rh-macro-review-cycle-14.md",
-  "latest_iteration": "notes/573-relative-ideal-chain-closure-and-regulator-loss.md",
+  "latest_iteration": "notes/574-actual-adelic-cover-relative-picard-and-source-transport.md",
   "macro_control": {
     "schema": "macro-recovery-v2",
     "goal_epoch": "G20261014",
@@ -20,8 +20,8 @@
   },
   "macro": {
     "long_objective": "保G20261014：由一般g-integer及对偶建立独立同源Weil正性/有效性/RR设施以覆盖classic；实际ζ成长core及完整谱约束仍按冻结基线验收。",
-    "unpaid_bottleneck": "actualDGA free/graph/Koszul已付具体源/全Pan/537与严格拼接，仍欠非平凡可移动relative几何、同源整性过滤/metriclift、独立mixed容量及fullGamma/pp/pole比较；whole4/5/core/coupling/Xi未变。",
-    "why_this_contract": "新路线图实际模块门已执行：FF真twist改变h0，当前freePic/standarddet恒定、scalar换底非properpushforward；Koszul合法repair仍回旧Rzero-locus。按用户来源0收口，不再命名未知移动或容量。",
+    "unpaid_bottleneck": "actualcover非平凡relative Pic子族/精确kernel与不变metric已付；仍欠非Q标记的全Pan-compatible源→regular/valuative filteredmetric对象、primitive有效性/mixed容量及完整Γpppole同源比较；whole4/5/core/coupling/Xi未变。",
+    "why_this_contract": "413具体expclutch新input/test已付并结算574一次；mean/decaying止，合法Q-marker虽过Pan/537仍旧值包装。下一只验收新的regular/valuative实物与原费/过滤，不自动unknown容量或paper。",
     "paused_routes": [
       "零点比例优化",
       "无零区域优化"
@@ -34,20 +34,21 @@
       "10-22frame/sourcefamily/adelicDGA/boundary四来源门均0止：真map/arithn²/K电荷存在，缺同源primitive正比较；准确范围在frontier/原root。",
       "573/C036一轮止：固定430扩大A singleδ理想阻原Ω下降，闭包灭raw；实际pair保−4不闭源。较小原域/新非标量边/不同pair/强拓扑/有费无限修复合法。",
       "本轮genus2来源门已执行：ordinary重复列可用jet修，special真实rankdrop需moving；不调genus/jet/minor，不作新574。",
-      "本次actualDGA line门来源0止：fullPan严格Koszul/原费已付，Pic/det恒类仍旧R表达；非平凡relative数据+源map/独立过滤或容量才重准入，不自动C037/574。"
+      "前次actualDGA line来源0止：graph/Koszul严格协同真实但Pic/det恒类；本轮已以新actualcover数据准入C037/574，不复跑旧模块。",
+      "574/C037一轮止：actualclutch真非平凡；decaying/mean/degree/oldQ标签均不给独立容量，不续scalar/probe/chart。新relative层/强拓扑/有费源family未排。"
     ]
   },
   "primary_contract": {
-    "id": "C036",
-    "path": "goals/contracts/C036-relative-ideal-closure-and-regulator-charge.md",
+    "id": "C037",
+    "path": "goals/contracts/C037-actual-cover-picard-clutch-and-source-gate.md",
     "status": "completed",
     "iteration_budget": 1,
     "settled_iterations": [
-      "notes/573-relative-ideal-chain-closure-and-regulator-loss.md"
+      "notes/574-actual-adelic-cover-relative-picard-and-source-transport.md"
     ],
-    "stage": "本轮actualDGA line/source门三稿/fresh/root已来源0结算；15文件研究提交已GitHub独立GET及本地精确对象核验，当前recipe停止。同步收据与恢复快照另存metadata，C036/573和宏观Goal状态不变。",
-    "next_action": "当前free/unit/graph/Koszul入口已停。下次仅验收新的非平凡relative对象及physical map/全Pan/537/双degree/原费，至少一项独立整性过滤或capacity数据；无数据不续此门/自动paper或未知RR合同。",
-    "stop_rule": "一轮；无超出424/431/432的actualideal完整反测则来源0；若成立保存573一次止，不调参数或扩大成所有relative/noRH定理。"
+    "stage": "新clutch原件/源控制及两逆审已root闭合；C037一轮统一结算，正容量未付，recipe停止。正在同步GitHub，非宏观完成。",
+    "next_action": "完成574精确commit/tree远端核验与本地clean；之后只验收非Q标签relative Cartier/valuative源数据：405实际同构、537/连续±响应、原duDlog metriclift与独立过滤/容量；无实物不自动启动下一合同。",
+    "stop_rule": "一个完整轮；新kernel成立保存一次；source桥若仅oldquotient/freeframe即止，不扩成allPic或无RH定理。"
   },
   "support_contracts": [],
   "must_not_forget": [
@@ -141,16 +142,36 @@
       "path": "reviews/2026-10-22/dga-line-moving/root-consumption-scope.json",
       "kind": "cited",
       "scope": "主稿/三稿/fresh/controls root前件：objects/roles/norm/全源成长/原费误差/actual方向/强旧净后果/严格repair/停止及合法新几何。"
+    },
+    {
+      "path": "notes/574-actual-adelic-cover-relative-picard-and-source-transport.md",
+      "kind": "proved",
+      "scope": "C037/root+fresh：actual指数clutch absolute iLambda、双frame核0、Gamma不变metric iff Re z0；source/controls止，统一一轮非容量/RH。"
+    },
+    {
+      "path": "reviews/2026-10-22/adelic-cover-picard/periodic-clutch-classification.md",
+      "kind": "proved",
+      "scope": "新实际子族精确kernel/relativeframes/metric完整证明；非全Pic/算术Pic0，保nonproper。"
+    },
+    {
+      "path": "reviews/2026-10-22/adelic-cover-picard/root-consumption-scope.json",
+      "kind": "cited",
+      "scope": "Root前件/版本：对象域范数/源成长/Γpppole/实际方向/强旧/全部合法repair及controls/停止；hash非证明。"
+    },
+    {
+      "path": "reviews/2026-10-22/adelic-cover-picard/fresh-whole-review.md",
+      "kind": "cited",
+      "scope": "整稿fresh限定PASS，核已修idele拓扑/双frames/metric/合法Qmarker与全费；宏观瓶颈未变。"
     }
   ],
   "pending_processes": [],
   "runtime_goal_observation": {
     "status": "absent",
-    "observed_at_utc": "2026-10-22T04:01:27Z",
+    "observed_at_utc": "2026-10-22T04:43:43Z",
     "basis": "本轮get_goal再次null；保文件G20261014/0c4f，未创建运行实例。"
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-10-22-dga-line-moving-sync.json",
+  "checkpoint": "goals/checkpoints/2026-10-22-actual-cover-picard-574-settled.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
     "commit": "d762c6d76e0eb6a90a32c88da7ce2d6a9e1e80a9",
@@ -162,11 +183,11 @@
     "goal_lf_sha256": "cc6046029a8e5c9fe4eae427dfd663f1d851666370637c8fd451042f340fee8b",
     "mathematical_gate": "open",
     "final_execution_gate": "not-eligible",
-    "basis": "实际DGA模块门来源0：strictgluing已付但旧Rzero-locus，未给非平凡moving/独立mixed容量/fullWeil新身份；whole4/5/core/coupling/Xi和宏观完成门不变。"
+    "basis": "574实际非平凡clutch子族新局部结果已审；未给非Q标签独立source/整性过滤/容量/完整identity，actualwhole/core/coupling/Xi和Goal门不变。"
   },
   "historical_completion_receipts": [
     "goals/goal-completion-receipt.20261014.json",
     "goals/goal-completion-receipt.20261014-continuation.json"
   ],
-  "process_inventory_observed_on": "2026-10-22三原稿及fresh均完成root消费，无后台数学/下载；研究提交远端和本地clean已核，只有同步收据metadata。"
+  "process_inventory_observed_on": "2026-10-22现场四本轮agent已完/独占稿及fresh已root消费，无后台计算；runtimeGoalnull，Git同步待核。"
 }

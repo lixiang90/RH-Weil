@@ -1,11 +1,15 @@
 # 长期研究恢复入口
 
-最新[实际DGA线对象／移动准入](reviews/2026-10-22-actual-dga-line-moving-and-basechange-admission.md)已fresh限定PASS并root范围闭合。
-具体free graph及framed源标记、全Pan同伦、Koszul严格协同和scalar base change均真实；不再泛称没有拼接。
-graph Pic类及Koszul det线恒定，换到R仍为旧source quotient的zero-locus；尚未实现函数域非平凡degree-zero移动或独立容量。
-原du/Dlog代表费与ηq源费已分开，真FF twist/连续双polezero正反控制已执行；完整Γ/pp/pole未删。
-本入口按用户停止，来源0/cadence2/正式cycle14保持，无574/C037。下一仅验收新的非平凡relative数据、actual源map/原费和独立过滤/容量，不自动串paper。
-当前完整状态、强旧后果与未排修复见STATE/前沿；宏观瓶颈未变。
+最新[C037/574实际覆盖相对Picard结算](reviews/2026-10-22-actual-cover-relative-picard-574-settlement.md)已adversarial/fresh限定PASS并root范围闭合。
+413真实两片上exp(zx)的absolute kernel为i[(2π/log2)Z+(2π/log3)Z]；保双边界frames核零；Γ不变正metric恰Re z=0。
+这是非Ξ底空间上的实际非平凡relative子族，不是全Pic或regular/arithmetical Pic0；旧410/420真K线仍保留。
+actual平滑源clutch虽有原费但relative平凡；mean保537却失败405全Pan；degree-only失537。
+合法非线性Q-marker能同时过Pan/537/不变metric，但只是旧完整Q坐标，非additive→tensor，无独立容量。
+连续双polezero正反和真FF h0移动已核，完整Γ/contact、所有p^k、双pole/allcomplex mixed未删。
+统一一完整轮cadence2→3、正式cycle14保持；local几何未知已缩小，宏观source→整性过滤/primitive容量瓶颈与actualwhole4/5/core/coupling/Ξ未变。
+按用户停止这些recipe，不续scalar/probe/chart。下一只验收非Q标签的具体relative Cartier/valuative源数据、405同构/537/原费及独立过滤/容量；无新数据不自动串paper。
+
+前次actualDGA free/graph/Koszul来源门已停止，严格拼接为输入，恒Pic/det不作本轮新结果；本轮的新clutch数据按C037另准入。
 
 本轮用户要求的[573后新路线图](reviews/2026-10-22-generalized-weil-roadmap-after-573.md)已fresh限定PASS并root闭合。
 主线回到函数域独立正号：可移动同源family与mixed RR/Rosati容量；tensor/actual核心signed只在有新输入时准入。
