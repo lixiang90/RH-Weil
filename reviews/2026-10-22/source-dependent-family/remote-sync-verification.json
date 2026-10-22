@@ -1,0 +1,24 @@
+{
+  "schema": "rh-weil-remote-sync-verification-v1",
+  "observed_at_utc": "2026-10-22T00:16:44.602117+00:00",
+  "repository": "https://github.com/lixiang90/RH-Weil",
+  "branch": "main",
+  "research_commit": "a59f4aab19721269777c08353a636451fefb16fa",
+  "tree": "ee553cb2dd9d82ab92ba50ef6d2466b364c64878",
+  "parent": "4834793d4a38541876b7d4a60be9ef66e3a5326a",
+  "research_files": 14,
+  "verification": "Independent GET main ref and Git commit matched staged tree/guarded parent; exact same commit SHA reconstructed and imported locally. HEAD=origin/main and clean before this metadata receipt.",
+  "get_urls": [
+    "https://api.github.com/repos/lixiang90/RH-Weil/git/ref/heads/main",
+    "https://api.github.com/repos/lixiang90/RH-Weil/git/commits/a59f4aab19721269777c08353a636451fefb16fa"
+  ],
+  "local_exact_commit": true,
+  "local_tree_verified": true,
+  "source_gate_executed": true,
+  "source_gate_stopped": true,
+  "analytic_marked_section_exhibited": true,
+  "mathematical_iterations": 0,
+  "cadence_unchanged": true,
+  "metadata_policy": "This receipt, STATE and sync checkpoint form one metadata-only child. Child independently verified by GET and exact local import, without another self-referential receipt.",
+  "scope": "Sync evidence only. Actual analytic relative section uses old completed-divisor quotient; independent arithmetical source bridge/square capacity/full Weil budget identity and macro bottleneck remain unpaid."
+}
