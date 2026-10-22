@@ -1,0 +1,25 @@
+{
+  "schema": "rh-weil-remote-sync-verification-v1",
+  "repository": "https://github.com/lixiang90/RH-Weil",
+  "branch": "main",
+  "research_commit": "db3a04ceefa7350e4b02af79c989b581f9324c48",
+  "tree": "12acce8e93929a85ad46a66559d4ac56c3727e16",
+  "parent": "7b774ee4e328e9e345f1b5bdc7e9f722fe9b6d2a",
+  "verification": "Independent GitHub GET ref and gitcommit match SHA/tree/single parent; local rawobject SHA prevalidated before import, local HEAD/index/tree exact and clean. Metadata-only child verified separately without recursive receipts.",
+  "files": [
+    "goals/DECISIONS.md",
+    "goals/MACRO_FRONTIER.md",
+    "goals/README.md",
+    "goals/STATE.json",
+    "goals/checkpoints/2026-10-22-adelic-relative-square.json",
+    "goals/review-cadence.json",
+    "goals/reviews/2026-10-20-generalized-weil-facilities-roadmap-after-572.md",
+    "goals/reviews/2026-10-22-adelic-restriction-relative-square-and-quadratic-capacity.md",
+    "reviews/2026-10-22/adelic-relative-square/actual-restriction-and-chain-carrier.md",
+    "reviews/2026-10-22/adelic-relative-square/fresh-scope-review.md",
+    "reviews/2026-10-22/adelic-relative-square/frobenius-square-and-composition.md",
+    "reviews/2026-10-22/adelic-relative-square/quadratic-capacity-norm-and-controls.md",
+    "reviews/2026-10-22/adelic-relative-square/root-consumption-scope.json"
+  ],
+  "scope": "13 reviewed research/state files; source0, cadence1/formalcycle14 unchanged, noC036/573, noRH/Goalcompletion."
+}
