@@ -1,0 +1,26 @@
+{
+  "schema": "rh-weil-remote-sync-verification-v1",
+  "repository": "https://github.com/lixiang90/RH-Weil",
+  "branch": "main",
+  "research_commit": "10ff741ac50bf6ef9421e1f4506c42a831a5cd46",
+  "tree": "548713969505685fda86a0c2924de379dd8b9509",
+  "parent": "a34341b31fff0ce9c5fd4097935779ec4ac6a677",
+  "verification": "Independent GitHub GET mainref and gitcommit matched SHA/tree/singleparent; local exact rawobject SHA prevalidated, imported and HEAD/tree/index clean. Metadata child verified separately without recursive receipt.",
+  "files": [
+    "goals/DECISIONS.md",
+    "goals/MACRO_FRONTIER.md",
+    "goals/README.md",
+    "goals/STATE.json",
+    "goals/checkpoints/2026-10-22-boundary-regulator.json",
+    "goals/review-cadence.json",
+    "goals/reviews/2026-10-20-generalized-weil-facilities-roadmap-after-572.md",
+    "goals/reviews/2026-10-22-boundary-regulator-source-and-arithmetic-sections.md",
+    "reviews/2026-10-22/boundary-regulator/physical-compression-boundary-test.md",
+    "reviews/2026-10-22/boundary-regulator/prime-boundary-source-and-local-orders.md",
+    "reviews/2026-10-22/boundary-regulator/relative-k-and-secondary-class.md",
+    "reviews/2026-10-22/boundary-regulator/sections-filtration-capacity-and-controls.md",
+    "reviews/2026-10-22/boundary-regulator/fresh-scope-review.md",
+    "reviews/2026-10-22/boundary-regulator/root-consumption-scope.json"
+  ],
+  "scope": "14 reviewed research/state files; boundary source0, cadence1/formalcycle14 unchanged, noC036/573/noindependentclassicpositivity/noGoalcompletion."
+}
