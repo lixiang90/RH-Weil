@@ -1163,3 +1163,13 @@ continuous负例的compact双polezero 2x2 mixed障碍、真FF全周期证书、5
 405每个非零Pan在本层Q>0，不能exact商；fixed强源尾O(R⁻²)与修补小费的有条件近似保留。537同固定窗非根由裸层误差＋正修补无条件保留。fixed窗全complex原du/Dlog费D_L/R²+min(c,2Lm)，D_L依L；全线Hlog统一目标差每层∞，不把D′或局部费升为全源统一控制。
 577统一5→6／历史40→41，cycle15比较572–577后唯一cadence一次6→0；复盘不增轮。local真Γ层型及费用瓶颈改变，classic独立mixed容量／strong-old542+555=>557 whole leading4/5负惯性上预算、actualcore/coupling/Xi未改，Goal门open/noteligible，runtimeGoalnull。
 本window／grid／soft／负部recipe在此停止，不续未知消失量、自动C041/578或下一paper。下一只有独立算术signed identity／主要化能付实际修补，或actual源→同对象截面／过滤／primitiveRR及完整预算实物，才可重新准入；先核405/537和原norm。两个备选目前均无新实物，不以新名称代输入。保联合signed／非局部／源适应／变域／强拓扑／有费无限修补；等价本身不排独立证明。
+
+
+## D20261022M — prime/pole signed候选同族Selberg联检完成，停止粗package
+
+按用户沿577指令先做一个Selberg1949§2/(2.8)来源门；实际取得全Λ Selberg＋强PNT正负同族联检后准入C041/578一轮，未以来源0隐藏新完整反测。578／三独占稿及fresh修后限定PASS已root核读，最终主稿d600adfc版本，原费用与全部前件见root收据。
+完整signed Stieltjes式保E(0)=0、全部窗口导数/频高/primepowers/双pole与ΓFP/contact，J_R>=0不付S_R。绝对PNT运输只给增长upper，含源导数费；不是实际q的necessarylower，也不把H1费改名du/Dlog。Selberg原prime产品经Chebyshev补所有powers O(X)，U²和频≠Hermitian差频≠linearWeil；Toeplitz留P_R0，二阶矩只付平均账。
+新执行完整联检：562同一positiveprimitive族c=3/16与5/16均过exactdual/poles、任意fixed常用PNT误差和fullLambda Selberg2XlogX+O_c(X)，但正例hardq0、负例actualcompact双polezero源迫原c/m/源费用不消。旧036/562核与模型及169/294/299/577等价费用扣除。只排此粗package，nativeGamma0不能当经典Gamma反例，不排更精细卷积/twist/同源Γ联合或paid无限修复。
+真FF全部contact/poles/returns/aliases和独立RR/Hodge身份保持；405真实noncompact全Pan exact层商仍失、fixed强源尾另付，537固定17/16原域非根无条件保，D′/fixed/成长/全线norm不混。
+统一一数学轮cadence0->1/历史41->42，正式cycle15保持；局部候选选择信息改变，独立actualsigned小量/同对象primitive容量与strongold542+555=>557 whole4/5负惯性上预算、core/coupling/Xi瓶颈未变。Goal门open/noteligible，runtimeGoalnull未创建。
+在此停止PNT绝对包络/ordinarySelberg/Toeplitz/二阶矩参数，不串下一paper或自动C042/579。下一须实际独立twisted/signed主要化与完整原费，或actual源→同对象sections/过滤/primitiveRR和完整预算实物；仅ε_R/q消失仍RH责任，不再准入。联合/非局部/源适应/强拓扑/变域/有费无限修复保留，等价不禁止独立证明。

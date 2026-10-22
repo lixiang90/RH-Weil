@@ -1,0 +1,92 @@
+{
+  "schema": "rh-weil-root-premise-closure-v1",
+  "date": "2026-10-22",
+  "contract": "C041",
+  "goal": "G20261014",
+  "baseline_commit": "0c4f3a3eb609bb1d9564138fa4a35701f05605f2",
+  "goal_lf_sha256": "cc6046029a8e5c9fe4eae427dfd663f1d851666370637c8fd451042f340fee8b",
+  "status": "root-consumed-with-scope-closed",
+  "files_lf_sha256": {
+    "notes/578-prime-pole-signed-budget-and-selberg-control-gap.md": "d600adfc0fa857623f585af2ec809840296659b737afbcf5cb745eba740e0901",
+    "goals/contracts/C041-prime-pole-signed-budget-and-selberg-controls.md": "9110a5e11abcf54d05ed4e9aa7fb9dbdf6b700d6aee8dca3e7144ff537018969",
+    "goals/reviews/2026-10-22-prime-pole-signed-budget-admission.md": "5ebc1073e24c821fcd1f18432329600882369f2c11e37d7558a238f52f7d051c",
+    "reviews/2026-10-22/prime-pole-signed-admission/fresh-whole-review.md": "b142e7cc75bf4b9628bbae9bc5057729bed949f17d5c92ac50e98c15bcbbf741",
+    "reviews/2026-10-22/prime-pole-signed-admission/cumulative-error-and-original-cost.md": "ef53a31cdbc25ead41e3878174e1cd28ab117bc51062cb8412c91fdf759af2a9",
+    "reviews/2026-10-22/prime-pole-signed-admission/square-identities-and-controls.md": "cba3131c3efce44159187ee4269daa4fe8b8ec949e708c8a57aed880edd9f933",
+    "reviews/2026-10-22/prime-pole-signed-admission/history-and-source-admission.md": "a3c07e2235c39f08ea79457534c6ad53d9ec5e2f6830b0bb60c48c6a0cd4110c"
+  },
+  "paid_dependency_versions": {
+    "notes/036-max-kernel-prime-square.md": "3a7f691437b4a6219867b615766c9ef50231cadd6ef92a3a0a10bf988987c946",
+    "notes/169-selberg-profile-rh-equivalence-resonance-wedge.md": "a916cbb67c1205fdcca365483ccb78d976067726ba84fb1e4ff95776f0be4a1b",
+    "notes/294-pnt-envelope-gain-and-fixed-source-saturation.md": "b7dcac042e667804d59c098581f4c58cfda516778348745614ac02652bbedb40",
+    "notes/299-local-one-sided-budget-mellin-strength-audit.md": "3aa3f4b7e7a04215a70efa70a825e66a1a7f5b84f0cc8f85d8a4a254c1eeaae7",
+    "notes/405-f1-adelic-restriction-moments-and-radical.md": "fe5ee4b574954e51a69c6bbbaa772bb75a1a510c91c837ba02eed8ac406cbb7d",
+    "notes/537-source-exact-weil-window-positive-tail-admission.md": "269a500556d37fc04a4e44efd2f0899414787743e529506dbbe7395a34eea9f8",
+    "notes/542-actual-prime-high-moments-and-strong-baseline-audit.md": "a0f510dfb427ccda165913d6beb3734f6ec003741d3e448105046df12e886203",
+    "notes/553-principal-cyclic-closure-and-cofinal-readout-fees.md": "35a40c35d1eaa7fafb462361ddef1bfb9643402b5670f832b9142aeb4b74abce",
+    "notes/555-actual-prime-weighted-schur-and-growing-weil-inertia.md": "55a3745ab8160738e2a2dde15e84290e99205df68f3b59b357d26127846a31c5",
+    "notes/557-joint-row-norm-and-gamma-arithmetic-moment-budget.md": "5abfd13af9c955b27c5a2ea8f01d2555fa05b1df450adbedbcfe20f62d327166",
+    "notes/562-generalized-rh-continuous-g-integers-and-spectral-multiplicity.md": "e3e42480b967115accabd741cdbbb220865407396908b74b25bba0c213f60c10",
+    "notes/563-distribution-side-weil-certificates-and-heat-complete-monotonicity.md": "094c11cb5909eecc7f4e17468f00b43281b9fc6299042565aa792046807a5f4c",
+    "notes/567-function-field-positivity-origins-and-generalized-correspondence-tests.md": "96c0c5a62e4175705696a29ed28d890eb11cec6f7351dc763641b65f3fcaec8a",
+    "notes/569-dual-carrier-gamma-normalization-and-budget-cocycles.md": "5b423e7d023a413f3c3d1fb0f582073015285e84afd38b4761d9d3734f57da45",
+    "notes/577-full-gamma-positive-repairs-and-independent-budget-gap.md": "cf80354ab3bb3c7ca2a2bae7e2aa4083adc47d01da5c984146fb285d7551f55f",
+    "reviews/2026-10-22/gamma-retaining-positive-approximation/root-consumption-scope.json": "e26fd541c732ced3d4edb97156f2a401af8c83cf0771cfffd1f7c3f4900e8b9e"
+  },
+  "object_domain_range_roles": {
+    "physical": "r=exp(u/2)f, full complex compact sources and original fixed-window zero-extension du/Dlog. Actual405 noncompact Pan and fixed translates in S_exp remain separate from model doublepolezero test.",
+    "classic": "Same Wzeta=WGamma+H-P and577 G_R/g_R/q_R. Complete digamma FP/contact, all Lambda(p^k)=logp and both poles retained. ArithmeticR, frequency t/T, physicalL and order of limits distinct.",
+    "candidate_input": "Single Selberg1949§2/(2.8) ordered prime-product total; Chebyshev adds all properpowers O(X). PNT input is old294 some fixed positive exponential-sqrtlog constant, not optimized or claimed arbitrary.",
+    "actual_map": "Exact Stieltjes E(u)=Psi(exp u)-exp u+1, E0=0 yields g_R=Gamma+J_R+S_R with all window derivative, -phi/2 and -t phi sin terms. J_R>=0, Gamma+J_R not automatically positive. This is an identity, not a positive source-to-sections map.",
+    "model": "Old562 genuine positive primitive/fullPi/positiveintegers Zc=1+c/[s(s-1)] with nativeGamma0 and full poles0,1. cplus5/16, cminus3/16 preassigned; no unknown classical zeros used. Not a same-classical-Gamma counterexample."
+  },
+  "new_consumed_test": [
+    "Explicitly executed joint test of fullLambda ordinarySelberg aggregate and strong PNT on both signs of same genuine continuous Euler family: integral_0^logX [u v_c+(v_c*v_c)]du=2XlogX+O_c(X), while completeWeil is2cos versus2cosh.",
+    "Actual compact physical doublepolezero rminus=(D²-1/4)eta-tau_h(D²-1/4)eta yields Qminus=2A0²(1-exp(ah))(1-exp(-ah))<0, forcing original source repair and c_R/m_R liminf>0. Positive control hardq0.",
+    "Exact original signed transport and loss audit reconciled with577 actual q, fixed/Dprime/growing scales and all-target terms. Standard Stieltjes/Selberg algebra and old model themselves not claimed new literature theorems."
+  ],
+  "source_growth_norms_errors": {
+    "signed": "All real t exact g_R=Gamma+J_R+S_R; upperendpoint window flat, lowerE0=0. Removing+1 would require endpoint correction. All properpowers reside inPsi, both pole terms enter cancellation/residual.",
+    "PNT": "Triangle transport absS<=2(|t|+1/2)I_R+2Iprime_R/R; ordinary known PNT bounds give growth upper of exp(R/2-a sqrtR) type, not repair smallness nor necessary lower. Hypothetical sqrtlog² yields only O((1+|t|)R³) through this estimate; its global classical hypothesis is itself RH-strength, not an independent paid premise.",
+    "frequency": "Finite-band bounds do not pay all negativepart mass up to577 effective T_R or tails. T-dependent constants and sum-frequency/ratio frequencies kept.",
+    "original_norm": "Source Stieltjes formula has hprime. Paying ||rprime||2||r||2 is H1, not du/Dlog. Fixed-window modulation has du invariant, Dlog²~logT, derivative~T. Returning toTV only restores old555/577 absolute cost.",
+    "fixed_window": "Old577 fulltarget error <=[D_L/R²+min(c_R,2Lm_R)]||r||2², all original complex zero-extension source; D_L<<(1+L²)eL. Gamma muL1/FourierL1 R^-2 paid separately, not arithmetic q smallness.",
+    "growth_and_topology": "G_R->Wzeta inDprime unconditional, V_R requiresK. Specific577 repair vanish inDprime iff c/m vanish iffWeil/RH, not generic Dprime->norm. GrowingL must pay both D_L/R² and actual repair; no new growing range. Original all-line Hlog target difference remains unbounded each layer and Pan dense.",
+    "continuous": "For each fixed model b=maxRealalpha,beta<1, Psi=x+O_c(x^b+logx), hence each fixed a>0 gets standard x exp(-a sqrtlogx) envelope with model-dependent constant. Selberg total bound for all X>=1. No constants claimed uniform as c varies.",
+    "source_lower": "Actualnegativewitness compact and nonzero, both pole moments zero. Positivelayers and fixedsource convergence give liminf QK>=-Qminus; c lower divided by originaldu², m lower divided by originalL1². These are source fees, not an auxiliary whole-space norm substituted."
+  },
+  "square_types_and_direction": {
+    "Toeplitz": "Positivephysical P_R gives |P_R(t)|<=P_R0 and4P_R(t)<=3P_R0+P_R2t. Correct direction still leaves P_R0<<exp(R/2). H_R positiveToeplitz separately does not give signed difference.",
+    "Selberg": "-Uprime+U²=zetaDoubleprime/zeta in Re>1. HolomorphicU² sum-frequencies/multiplicativeconvolution not HermitianabsU² difference-frequencies, and neither equals linearGamma+H-P. Explicit|D|² creates ratio frequencies/quadraticweights/contact requiring separate identity.",
+    "average": "Full diagonal and all ordered offdiagonal second-moment terms checked, no cancellation assumed. Averagebudget/finitegrid does not imply c_R or m_R smallness."
+  },
+  "controls": {
+    "continuous": "Same positiveprimitive/fullpowers/exactdual/poles/PNT/Selberg coarsepackage passes bothsigns; rejects sufficiency only of that listedpackage, not exact finer Moebius/twisted identities or classicGamma extra data.",
+    "function_field": "Native a0=2g and all periodicH0/H2 poles, H1returns/aliases retained. Same-objectRR/Hodge/fullGram supplies hardq0. Do not force nonperiodiccontinuous-x PNT or graft classicGamma into this different target.",
+    "405": "Actualnoncompact p and all fixedtranslates Bzeta(p,s)=0 unaffected. Positivehighfrequency577 layer makes QV(p)>0, exactquotient still fails. Strongfixedsource tails O(R^-2) paid, actualrepair not.",
+    "537": "OldfixedL0=17/16 allcomplex nonroot eventualpositive via bare signederror plus QK>=0 unconditional; no enlargement/no growthcapacity inferred."
+  },
+  "new_vs_old": "036 product/maxkernel and directsubpowerPNT gate,169/299 RH-strength profiles,294 paid PNT transport,562 oldfamily,577 fullGamma/cost/equivalence all deducted. New one-iteration consumption is actual full joint candidate test, not a new independent classic signed estimate.",
+  "actual_direction_coverage_and_net": "Local sufficient-package selection information improved; no actual classic q vanishing signedbudget, source-to-sameobject RR capacity, growingcoverage or whole improvement.",
+  "strongest_old_net_consequence": "542+555=>557 whole leading4/5 negative-inertia UPPER unchanged; not negative-spectrum lower. Actualcore/coupling/Xi and macroGoal remain unpaid.",
+  "unpaid": [
+    "Independent refined twisted/signed prime-pole identity paying actual577 repair in original norms with completeGamma contact and all tails",
+    "Or actual source-to-sameobject sections/localvanishing/multiplication/primitiveRR with originalnorm and completeWeil budget",
+    "No unknown epsilon/q disappearance or positivity hypothesis counted as independent input"
+  ],
+  "review": "Fresh whole review finalb142e7cc with independent continuousalgebra child; root read all originalbranch contents and fresh. Verified exact version bindings; hashes not proof.",
+  "choice_and_stop": "Stop ordinaryPNT absolute envelope/Selberg aggregate/Toeplitz/secondmoment parameter entrance. No automatic C042/579 or next paper. Require actual independent signed or sameobjectRR input; preserve finerGamma/twisted/joint/nonlocal/sourceadapted/strong or variable-domain/paid infinite repairs. Equivalence does not forbid independent proofs.",
+  "local_choice_information_changed": true,
+  "macro_bottleneck_changed": false,
+  "settlement": {
+    "added_mathematical_iterations": 1,
+    "cadence_before": 0,
+    "cadence_after": 1,
+    "historical_weil_before": 41,
+    "historical_weil_after": 42,
+    "formal_cycle": "15 unchanged",
+    "extra_source_branch_fresh_push_rounds": 0,
+    "goal_gate": "open/noteligible",
+    "runtime_goal": "null; no new instance created"
+  }
+}

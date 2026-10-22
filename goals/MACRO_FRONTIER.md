@@ -1,14 +1,15 @@
 # 宏观前沿：可消费范围与最小未付箭头
 
-最新[C040／577结算](reviews/2026-10-22-full-gamma-577-settlement.md)已fresh修后限定PASS并由root闭合数学前件。
-每层保完整Γ／FP／contact，有限prime-power／pole谱g_R加可计算连续非负修补q_R=(-g_R)_+；无未知零点选系数，另有有费Schwartz版。
-Γ协同μ_R的全线原du匹配R⁻²与Fourier-L¹已独立付清；fixed窗全部complex原du／Dlog误差为D_L/R²+min(c_R,2Lm_R)。
-405本层exact关系失败，但fixed强源尾可付；537原固定窗非根无条件最终保留。全线Hlog统一费不由D′推出。
-continuous±与真FF全returns／aliases检验通过；本family修补消失仍⇔完整Weil正性／RH，未有独立算术小量预算。
-统一577一数学轮5→6、历史40→41；[cycle15](reviews/2026-10-22-general-rh-macro-review-cycle-15.md)复盘572–577后同cadence一次6→0，复盘0轮。
-local层型／费用前沿改变；classic独立容量、strong-oldwhole4/5上预算／core／coupling／Ξ未变，长期Goal仍open。
-停止本window／grid／soft／负部标签；下一仅验收具体独立signed预算或同对象source→sections／RR实物，不自动C041／578。
-数学前件已消费，发布状态和唯一行动只以STATE为准；以下较早“当前／下一”均为历史结算。
+最新[C041／578联检结算](reviews/2026-10-22-prime-pole-signed-budget-admission.md)已fresh修后限定PASS、root前件闭合。
+原数据signed式g_R=Γ+J_R+S_R保完整Γ/contact、全部powers／双pole及端点；J_R≥0未支付S_R方向。
+PNT绝对运输含频高/导数费用，非原du／Dlog小费；Selberg乘法和频平方不代Hermitian差频或完整linear预算。
+新执行的continuous正负同族均过positiveprimitive、exactdual、强PNT与fullΛ Selberg 2XlogX+O(X)，但实际双polezero负源迫修补不消。
+这只排该粗充分包，模型nativeΓ=0，未排经典Γ联合／精细twist；真FF保全部pole／returns／aliases并由同对象RR给正号。
+405本层exact商仍失败，537原固定窗非根保；fixed窗、强源、D′、成长共同费与全线Hlog控制分开。
+统一一轮cadence0→1／历史41→42，正式cycle15不归零；source/分支/fresh/推送0额外轮。
+局部选择信息更明确，独立q预算／同对象容量及strong-oldwhole4/5上预算／core／coupling／Ξ瓶颈未变。
+停止PNT绝对包络／ordinarySelberg／Toeplitz／二阶矩本入口，不自动C042／579；下一仅收实际独立signed身份或同对象RR实物。
+发布状态／唯一行动以STATE为准，以下较早“当前／下一”为历史结算。
 
 2026-10-22更新；同G20261014／固定0c4f，完整Goal与唯一行动以STATE为准。
 最新[C039/576结算](reviews/2026-10-22-function-field-positive-cone-576-settlement.md)已fresh限定PASS、root前件闭合。
