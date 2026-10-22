@@ -1,0 +1,37 @@
+{
+  "schema": "rh-weil-remote-sync-verification-v1",
+  "date": "2026-10-22",
+  "repository": "https://github.com/lixiang90/RH-Weil",
+  "branch": "main",
+  "source_review_commit": "79c24e646ae3ae512476d4af56ad4a91ff3b0eaf",
+  "source_review_tree": "fe8b84e901bc260c9b9a65b8b23c5659bfb81381",
+  "parent": "3813e1a1f3331e203f631ee2b8ba4047e8ddf129",
+  "independent_get_verified_at_utc": "2026-10-22 15:01:51 UTC",
+  "files": [
+    "goals/DECISIONS.md",
+    "goals/MACRO_FRONTIER.md",
+    "goals/README.md",
+    "goals/STATE.json",
+    "goals/checkpoints/2026-10-22-twisted-gamma-source-review.json",
+    "goals/review-cadence.json",
+    "goals/reviews/2026-10-22-twisted-gamma-hermitian-comparison-admission.md",
+    "reviews/2026-10-22/twisted-gamma-signed-admission/complete-logderivative-and-twisted-square.md",
+    "reviews/2026-10-22/twisted-gamma-signed-admission/continuous-function-field-and-original-norms.md",
+    "reviews/2026-10-22/twisted-gamma-signed-admission/fresh-whole-review.md",
+    "reviews/2026-10-22/twisted-gamma-signed-admission/history-and-twisted-source-gate.md",
+    "reviews/2026-10-22/twisted-gamma-signed-admission/root-consumption-scope.json"
+  ],
+  "checks": {
+    "remote_ref_matches": true,
+    "git_commit_parent_tree_match": true,
+    "local_same_raw_commit_object_and_refs": true,
+    "local_tree_matches": true,
+    "worktree_clean_after_source_import": true,
+    "root_versions_rechecked": true
+  },
+  "scope": "Source-admission review commit, zero added math iterations; metadata child carries this receipt, final STATE and checkpoint without recursively claiming its own SHA. Version/structure checks are not mathematical proof.",
+  "mathematical_gate": "open/not-eligible",
+  "cadence": 1,
+  "historical_weil": 42,
+  "latest_mathematical_iteration": 578
+}

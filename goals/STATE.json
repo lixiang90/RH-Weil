@@ -45,8 +45,8 @@
     "settled_iterations": [
       "notes/578-prime-pole-signed-budget-and-selberg-control-gap.md"
     ],
-    "stage": "Γ/twist来源0的fresh/root最终收据已齐；C041/578保持completed，无C042579或新轮，待review checkpoint及精确12文件GitHub同步。",
-    "next_action": "核来源root版本收据／review checkpoint和精确12文件changeset，按授权同步GitHub并独立GET/local同SHA核验。之后停止本门，仅准入实际独立signed或同对象RR实物；无C042/579。",
+    "stage": "C041/578保持completed；Γ/twist来源0的fresh/root已闭合，提交79c24e6远端GET及本地同SHA/tree已核；仅发布回执/sync checkpoint由metadata子提交携带。",
+    "next_action": "本Γ/twist/Pick/shift/Riccati入口停止，无运行数学进程。下一只接actual完整Γ+twistedpp+pole的独立signed主要化及原norm/全tail能付q，或actual源到同对象sections/过滤/primitiveRR实物；先核405/537/原费用，无实物不建C042/579或串paper。",
     "stop_rule": "一轮止；只排本候选充分包，若需未知q消失／Weil正性即停，保更精细Γ-signed/joint/同对象RR独立实物。"
   },
   "support_contracts": [],
@@ -180,11 +180,11 @@
     "basis": "本用户轮实际get_goal=null；保G20261014文件与冻结基线，未创建新实例。"
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-10-22-twisted-gamma-source-review.json",
+  "checkpoint": "goals/checkpoints/2026-10-22-twisted-gamma-source-sync.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
-    "commit": "04f0d1e3f0750f9234b8e49e1cdcbb36ff93957e",
-    "basis": "本轮578精确14文件研究commit独立GET核ref/treea0f24b5/parent856688e；本地同raw提交SHA/refs/tree及clean已核。metadata子提交不递归写自身SHA，当前HEAD另现场核。"
+    "commit": "79c24e646ae3ae512476d4af56ad4a91ff3b0eaf",
+    "basis": "本Γ/twist来源0精确12文件提交独立GET核ref/treefe8b84e/parent3813e1a；本地同raw提交SHA/refs/tree与clean已核。metadata子提交不递归写自身SHA，当前HEAD另现场核。"
   },
   "completion_audit": {
     "goal": "goals/GOAL.20261014.md",
@@ -198,5 +198,5 @@
     "goals/goal-completion-receipt.20261014.json",
     "goals/goal-completion-receipt.20261014-continuation.json"
   ],
-  "process_inventory_observed_on": "三Γ/twist原分支及fresh/独立safe源FF小核均完成，root全文核读闭合；无运行数学/数值，待GitHub同步，runtimeGoalnull。"
+  "process_inventory_observed_on": "Γ/twist三原件/fresh/独立safe源FF子核完成；来源0提交79c24e6本地远端同SHA/tree与clean已核，无后台数学/数值，runtimeGoalnull；发布metadata回执另携带。"
 }
