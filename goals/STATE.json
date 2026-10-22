@@ -47,8 +47,8 @@
     "settled_iterations": [
       "notes/579-kry-physical-gaussian-source-and-native-primitive-obstruction.md"
     ],
-    "stage": "579/三原稿与独立fresh修后限定PASS已root前件闭合；统一一数学轮1→2/42→43，仅本实际接口检验，无新容量；准备精确发布。",
-    "next_action": "保存root版本/结算检查点，按用户已明确授权同步本轮完整研究及STATE/决策/检查点/版本和同步回执到同一公开GitHub；核SHA/tree/parent及本地clean。数学recipe止，下一只收不经c的actual非标量source/principal公式与405/537/原费，未给不续参数或paper。",
+    "stage": "579/C042统一一轮及完整研究元数据已授权发布e7ef8e3；独立GET ref/tree/parent与本地raw同SHA/refs/tree/clean已核。同步回执/最终STATE/sync checkpoint由metadata子提交携带，当前子HEAD另现场核。",
+    "next_action": "本native scalar/fixedrelative/rawbounded recipe停止，无运行数学进程。下一只验收不经c/Q/零点标签的actual非标量全位/relative源公式，先405主同构/537非零/原du-Dlog，再同对象过滤/整sections乘法/二次容量及fullGamma/allpp/pole signed比较。没有新公式不续Gaussian/K阶/finiteF或paper；恢复时核当前metadata HEAD/远端及检查点。",
     "stop_rule": "一轮止；raw正能量/native scalar及fixed relative不能过405/537即停，不扩Gaussian参数/未知primitive标签或paper。"
   },
   "support_contracts": [],
@@ -140,11 +140,11 @@
     "basis": "本轮get_goal=null；保G20261014文件/冻结基线，不新建runtime Goal。"
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-10-23-kry-actual-source-579-settlement.json",
+  "checkpoint": "goals/checkpoints/2026-10-23-kry-actual-source-579-sync.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
-    "commit": "923ccda801914447f65870f5c98ecae768344d5f",
-    "basis": "本KRY单来源0完整16文件经明确授权创建同树c3c2d575/parent3db65fd；独立GET ref/commit和本地raw同SHA/refs/tree/clean均已核。metadata child不递归写自身SHA，最终HEAD另核。"
+    "commit": "e7ef8e3c7e2aa788ef0095f8939ed84b08414453",
+    "basis": "579完整14文件创建同tree505a5e32/parentcf34aa44；独立GET ref/commit与本地raw同SHA/refs/tree/clean已核。metadata child不递归写自身SHA，最终HEAD另核。"
   },
   "completion_audit": {
     "goal": "goals/GOAL.20261014.md",
@@ -158,9 +158,9 @@
     "goals/goal-completion-receipt.20261014.json",
     "goals/goal-completion-receipt.20261014-continuation.json"
   ],
-  "process_inventory_observed_on": "579三分支/fresh当前任务完成并root消费，无后台数学数值；C042一轮已结算，发布待执行。",
+  "process_inventory_observed_on": "本次三分支及fresh完成、root一轮已结算，无后台数学数值。研究提交e7ef8e3本地/远端同SHA/tree与clean已核；回执metadata随后携带，当前HEAD须现场核。",
   "publication_approval_gate": {
-    "status": "current-research-authorized-pending-sync",
+    "status": "current-research-source-published-and-verified",
     "destination": "https://github.com/lixiang90/RH-Weil",
     "visibility": "public",
     "branch": "main",
@@ -170,8 +170,8 @@
       "reply": "授权同步本轮完整文件",
       "scope": "Public lixiang90/RH-Weil: this research plus STATE, decisions, checkpoints, version records and subsequent sync receipts; includes authorization/handoff metadata."
     },
-    "published_source_commit": "923ccda801914447f65870f5c98ecae768344d5f",
-    "verification": "reviews/2026-10-23/next-independent-input-admission/remote-sync-verification.json",
+    "published_source_commit": "e7ef8e3c7e2aa788ef0095f8939ed84b08414453",
+    "verification": "reviews/2026-10-23/kry-actual-source/remote-sync-verification.json",
     "history": "Earlier rejections retained in historical blocked/handoff checkpoints. Explicit human reply resolved scope; this is not a pending gate.",
     "current_scope": "用户本轮明确结果同步GitHub，结合前次明确授权本轮完整研究/STATE/决策/检查点/版本与后续sync回执；同一公开lixiang90/RH-Weil，不改目的地。"
   }
