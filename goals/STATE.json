@@ -47,8 +47,8 @@
     "settled_iterations": [
       "notes/575-regular-cartier-cover-flat-source-and-capacity-gap.md"
     ],
-    "stage": "575及四数学原件/fresh已root前件闭合；C038一轮统一结算，容量仍欠，当前recipe停止；正在核GitHub同步。",
-    "next_action": "完成575精确远端commit/tree与本地clean同步；之后只验收新moving/normal/regular实际源数据，先405同构、537/continuous±/原duDlog及独立过滤/容量，无实物不启动下一合同。",
+    "stage": "575/C038四数学原件及fresh已root前件闭合、统一一轮结算；研究commit c8c9858/tree03a0e4d已独立GET与本地精确对象/clean核验，收据随metadata保存不加轮。",
+    "next_action": "只验收新moving/normal/regular层上的非Q非零点源公式：先actual405同构、537/continuous±、原duDlog/完整regular费及独立过滤或容量；无实物不启动下一合同，不续primitive/阶/probe/核/normal实幂或paper。",
     "stop_rule": "一完整轮；新实际regular/Cartier/flat源比较结算一次；标准来源不另计。recipe若旧商或全平凡即止，保新层/变域/moving逃逸。"
   },
   "support_contracts": [],
@@ -172,11 +172,11 @@
     "basis": "本轮再次get_goal=null；同文件G20261014/0c4f，未创建实例。"
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-10-22-regular-cartier-575-root-closed.json",
+  "checkpoint": "goals/checkpoints/2026-10-22-regular-cartier-575-sync.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
-    "commit": "62be8aa32290ce9896d85c8722b3762087361022",
-    "basis": "本轮16文件研究提交独立GET核tree d3f3c053/parent80dea2f；本地同SHA/refs/tree及clean已核。metadata子提交另作精确工具核验，不递归写自SHA。"
+    "commit": "c8c9858eb71ef217c7d5a7274d76be388b185902",
+    "basis": "本轮16文件研究commit独立GET核tree03a0e4db/parent55dc864；本地同SHA/raw对象/refs/tree和clean已核。metadata子提交另作工具核验，不递归写自SHA。"
   },
   "completion_audit": {
     "goal": "goals/GOAL.20261014.md",
@@ -190,5 +190,5 @@
     "goals/goal-completion-receipt.20261014.json",
     "goals/goal-completion-receipt.20261014-continuation.json"
   ],
-  "process_inventory_observed_on": "2026-10-22本轮三分支及fresh均完成，原件/全部范围修正root消费；无后台数值，runtimeGoalnull，HEAD55dc864同步待核。"
+  "process_inventory_observed_on": "2026-10-22本轮三分支/fresh均完，全部修正root消费，无后台数值；runtimeGoalnull，研究commitc8c9858本地/远端SHA-tree匹配，metadata为同步记录。"
 }

@@ -1,0 +1,17 @@
+{
+  "schema": "rh-weil-remote-sync-verification-v1",
+  "date": "2026-10-22",
+  "repository": "https://github.com/lixiang90/RH-Weil",
+  "research_commit": "c8c9858eb71ef217c7d5a7274d76be388b185902",
+  "tree": "03a0e4db804f434baaffcc7263f06c4763702692",
+  "parent": "55dc86419da2b3241c9d40ac553364ae0dc21c6b",
+  "verification": "Independent GET main ref and git commit matched SHA/tree/single parent; exact same raw commit object and guarded local main/origin refs verified, clean before metadata",
+  "files": 16,
+  "added_mathematical_iterations": 1,
+  "cadence": 4,
+  "formal_cycle": "14 unchanged",
+  "goal": "G20261014/0c4f fixed, mathematical open/execution not-eligible; runtimeGoal null, no new instance",
+  "root_receipt": "reviews/2026-10-22/regular-cartier-cover/root-consumption-scope.json",
+  "root_receipt_lf_sha256": "1eceefb75eebf38a344555ed8923ef56544ceef19dd691753e6740625e6cd2d4",
+  "scope": "Actual continuous/smooth Cartier facilities, exact nonflat exponent gate and full primitive source/unit-filter/cost admission. No new independent mixed capacity or classic whole/core/Xi consequence. Metadata child separately tool-verified, no recursive receipt."
+}
