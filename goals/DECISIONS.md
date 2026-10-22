@@ -1135,3 +1135,13 @@ continuous正负同源双polezero反测；自由DVR/finitejets不改dagger符号
 按用户停止本recipe，不续阶/probe/kappa/normalpower、不自动串paper或unknown C039。
 下一仅验收真正新moving/normal/regular源数据：actual405同构/537/原费及独立过滤或容量；CC/旧解析层到actual的transport或危险core新signed身份可改策，须先给实物。
 新non-scalar/semiring/derived层、强拓扑/变域/sourcefamily/有费无限修补未排。cadence达4不因本次策略复核自动归零；宏观Goal仍open/not-eligible，runtimeGoalnull未创建。
+
+
+## D20261022J — 固定目标Weil结构纤维与独立存在性准入
+
+用户明确提出先定义Weil结构及其全体空间。本轮按新方向审查，不机械恢复C038已停primitive；主稿goals/reviews/2026-10-22-weil-structures-and-existence-space.md、三独占分支及fresh已root消费。
+采用固定完成化/权/Γcontact/allpowers/pole/源域的目标纤维，区分signed弱层、最小正GNS、带trace重数层与typed独立RR/energy/tensor证书。存在性等价不等于循环，真正独立存在性证明仍可能解决RH；未知正号不能靠定义或Weil-form分类支付。
+准确紧逆系统非空无需满射，有限共同可行仍负担全部正号；fixed-B近似因子须双侧门。RR由同对象实际乘法/有限容量给I上界，再以I=-Q+e接正号。原du/Dlog全线bounded消Pan会失537，故保Frechet/变域/有费共尾逃逸。
+continuous负例的compact双polezero 2x2 mixed障碍、真FF全周期证书、575全源units/非分离过滤及Jordan/heat逃逸均保；不能拼几个候选的设施当一个对象。完整目标/谱重数/trace尾费单列。
+下一两备选：实际有限几何presentation的独立共同可行/容量与紧性；或独立正对象的完整W分布像逼近Wζ。先者若有具体layer/map/乘法优先，后者若有完整近似定理优先；目前均无新实物，不开启未知C039/576，不自动串来源。仅GNS/Gram分解/旧源商/Q标签即止。新证书类型与强拓扑/derived/变域/付费无限修补未排。
+本轮0数学轮，cadence保持4、历史Weil39、正式cycle14不归零。最强旧542+555=>557 whole leading4/5是负惯性上预算；独立mixed容量及actual成长core/coupling/Xi瓶颈未变，宏观Goal门open。

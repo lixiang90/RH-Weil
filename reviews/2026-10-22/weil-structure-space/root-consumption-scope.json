@@ -1,0 +1,81 @@
+{
+  "schema": "rh-weil-root-premise-closure-v1",
+  "date": "2026-10-22",
+  "contract": "user-directed Weil-structure/existence strategy review; no new mathematical contract",
+  "goal": "G20261014",
+  "baseline_commit": "0c4f3a3eb609bb1d9564138fa4a35701f05605f2",
+  "goal_lf_sha256": "cc6046029a8e5c9fe4eae427dfd663f1d851666370637c8fd451042f340fee8b",
+  "status": "root-consumed-with-scope-closed",
+  "files_lf_sha256": {
+    "goals/reviews/2026-10-22-weil-structures-and-existence-space.md": "90f14811cefae18e74393182452ba076d62587ad1f473804b7a037d9b2b8934f",
+    "reviews/2026-10-22/weil-structure-space/axioms-and-realizations.md": "9dd907d09f36a9b8394e88c87f5ccc59cdd906be6ae83353943f47bf6f3643d2",
+    "reviews/2026-10-22/weil-structure-space/compactness-and-finite-feasibility.md": "f58a17481f2bc2cb8b9fc40396ee25c918c8b5e76179f28cf0fe8e85636ee9b5",
+    "reviews/2026-10-22/weil-structure-space/function-field-continuous-and-geometric-controls.md": "7899f20ac15681fb86b59544e88cfc104c9258412bb488d6b1b6f7ef429beec0",
+    "reviews/2026-10-22/weil-structure-space/fresh-whole-review.md": "24858d63c65967e2cbf13540708be265bbad5e043a1b830e4b4266d10e1872a5"
+  },
+  "paid_dependency_versions": {
+    "notes/001-polarized-weil-structure.md": "f1f049cceb0714ba3139f93acb4f86e7e007a4fca1c6f97caad4690251504576",
+    "notes/307-odd-polarization-and-elliptic-degree-benchmark.md": "8949a102ba6aa69d23173ae0895c7bd4d1fb4e1c0955c562e37bd17679c855f9",
+    "notes/405-f1-adelic-restriction-moments-and-radical.md": "fe5ee4b574954e51a69c6bbbaa772bb75a1a510c91c837ba02eed8ac406cbb7d",
+    "notes/537-source-exact-weil-window-positive-tail-admission.md": "269a500556d37fc04a4e44efd2f0899414787743e529506dbbe7395a34eea9f8",
+    "notes/542-actual-prime-high-moments-and-strong-baseline-audit.md": "a0f510dfb427ccda165913d6beb3734f6ec003741d3e448105046df12e886203",
+    "notes/553-principal-cyclic-closure-and-cofinal-readout-fees.md": "35a40c35d1eaa7fafb462361ddef1bfb9643402b5670f832b9142aeb4b74abce",
+    "notes/555-actual-prime-weighted-schur-and-growing-weil-inertia.md": "55a3745ab8160738e2a2dde15e84290e99205df68f3b59b357d26127846a31c5",
+    "notes/557-joint-row-norm-and-gamma-arithmetic-moment-budget.md": "5abfd13af9c955b27c5a2ea8f01d2555fa05b1df450adbedbcfe20f62d327166",
+    "notes/562-generalized-rh-continuous-g-integers-and-spectral-multiplicity.md": "e3e42480b967115accabd741cdbbb220865407396908b74b25bba0c213f60c10",
+    "notes/563-distribution-side-weil-certificates-and-heat-complete-monotonicity.md": "094c11cb5909eecc7f4e17468f00b43281b9fc6299042565aa792046807a5f4c",
+    "notes/565-canonical-completion-graded-identifiability-and-independent-energy.md": "3ac5d8f6dbbd3dcfda10e74cd911c803bacfbfa8ac6aaa535b3559e7c374ea89",
+    "notes/566-source-closed-forms-and-full-weil-heat-trace-tests.md": "004f5438c918373e0ead73c0011ffb3883ef872c4977e356911dd910da177053",
+    "notes/567-function-field-positivity-origins-and-generalized-correspondence-tests.md": "96c0c5a62e4175705696a29ed28d890eb11cec6f7351dc763641b65f3fcaec8a",
+    "notes/574-actual-adelic-cover-relative-picard-and-source-transport.md": "b97aa1619f559e22041f5f46404a5ab09e598722e16287059e8691c555eee45d",
+    "notes/575-regular-cartier-cover-flat-source-and-capacity-gap.md": "f70e37cb84d4d705a3a9e6fe57c6f1b72bd8f9b02cb3d9ddeb6ac16bb184fd8e"
+  },
+  "object_domain_range_roles": {
+    "target": "Fixed complete D includes actual primitive/all powers/g-integers, completion/weights/duality, Gamma/contact and all polar defects. Bare general g-system does not automatically supply these inputs. Hermitian positive block only after specified paired/self-dual/graded normalization.",
+    "source": "Classical physical r=exp(u/2)f in full complex S_exp; general distribution initially compact domain, extension needs growth. P_c actual405 analytic relations, not already geometric principal divisors. B in this review is complete spectral Weil trace form, distinct from original405 degree-containing arithmetic pairing.",
+    "spaces": "Fixed target fibres in bounded-size presentation groupoids: signed weak source, positive minimal GNS, independent trace/multiplicity, and typed sufficient geometric/energy/tensor certificates. Not a constructed proper stack or classification of all possible positive systems.",
+    "maps": "Weak j:F/P_c is old diagnostic quotient. Positive J:F->H has kernel Rad full Weil, not necessarily P_c; minimal source-dense realization unique up to source-unitary. Geometry->positive needs an independent theorem. Degree/higherjets/Jordan retained separately where required."
+  },
+  "consumed_standard_or_old_consequences": [
+    "Positive continuous translation-invariant Gram admits source GNS iff all-source Q>=0; independent proof of existence may be noncircular. Defining the space and citing GNS does not establish its positivity premise.",
+    "Countable Q(i) test algebra dense in compact smooth and S_exp with fixed-source/topology envelopes; all finite mixed Gram PSD iff all-source positivity. True nonempty compact inverse system has nonempty limit without surjective bonding maps.",
+    "For fixed B,delta>=0 and actual norm Gram H/source null compatibility, finite factor feasibility iff -delta H<=W<=(B+delta)H; spectral clipping suffices. Upper can be suppressed only after independent wide-enough B.",
+    "Actual section multiplication and independent RR lower l(K+-nD)>=n²I/2-nB-A imply I<=2(C+A)/n²+2B/n for C=l(2K). Same-object I=-Q+e with synchronized capacity/errors yields positive Q conditionally; no actual classical input constructed.",
+    "If independent complete positive distributions approach W_zeta in D-prime, positive-cone closure implies compact-source positivity. Membership/approximation remains unpaid; no need for geometric limit object for positivity alone."
+  ],
+  "source_growth_norms_errors": {
+    "quantifiers": "All finite complex mixed tests, then dense domain closure; all P_c includes noncompact405, not just compact intersection. Fixed-source windows and growing cutoffs distinct. No global finite original norm constant.",
+    "original": "du L2 and full-line zero-extension Dlog/Hlog. |B(r,s)|<=C_L||r||||s|| for fixed support[-L,L], C_L=C_infty+2sum(n<=exp2L)Lambda(n)/sqrt(n)+4sinhL. Proper powers all retained and only actual support overlap truncates; pole bound coarse, not necessary lower.",
+    "density": "553 global original norm bounded J annihilating all P_c is zero; changing each full-domain constant still fails. Frechet continuity, source-dependent/variable domains and paid cofinal repairs remain legal.",
+    "finite_approximation": "Operator error +/-delta H includes full mixed data. Arbitrary Cholesky/vector factors or individually feasible disconnected problems do not provide actual geometrical joint feasibility.",
+    "RR_limit": "For each physical r need real/integral geometric construction first, all mixed extension/norm transport, |e_j(r)|->0 and (C_j+A_j)/n_j²+B_j/n_j->0; C_j allowed growth. No complex Cartier divisor shortcut.",
+    "trace": "GNS atom weights differ from ordinary Hilbert multiplicities; use explicit fibres or tracial algebra. Original L2 closability not universal. Strong-resolvent or fixed-time uniform trace upper does not pay tail tightness; heat escape +1 example exact.",
+    "full_target": "All complex, full Gamma=2thetaPrime/contact, every proper prime power, both poles unchanged. No B(s) target freedom or positive counterterm subtraction used."
+  },
+  "controls": {
+    "function_field": "True E/F5 y²=x³+x+1, count9, companion F and H det11/4, F^T H F=5H and all-n recurrence; complete periodic square sum and real CxC RR are old paid inputs. Root exact Fraction/count check also passed.",
+    "continuous": "True positive P/Pi/M d=+-1/16. Negative complete 2x2 compact double-polezero source Gram has positive diagonals and negative determinant; positive model all finite Gram has explicit two-evaluation factor. Old model explicit reorganization, not new round.",
+    "575": "Actual nontrivial Cartier/clutch valid, primitive unit kills full405 and537; smooth filtration nonseparated and bulk infinite capacity. Reject tested full source marking/capacity, not all possible regular structures.",
+    "Jordan": "Companion F_a, H_a exact similitude; endpoint pure determinant can have nontrivial Jordan and no positive definite fixed-realization polarization. Semisimplification allowed only with source/norm/trace comparison.",
+    "primary_source": "Milne pRH specified RR/cohomology/quaternion scopes, Deligne-Milne technical polarization classification assumes initial form, Deligne WeilI tensor/monodromy/pole input; no claim all standard positivity or semisimplicity proved."
+  },
+  "review": "Fresh independent whole review limited PASS, no remaining blocking corrections. Root reread all branches/main/fresh and reconciled fixed-B correction before consumption; hashes bind versions, do not certify mathematics.",
+  "actual_direction_coverage_and_net": "Source/strategy organization only. Fixed classical certificate-fibre nonemptiness, finite actual geometry feasibility/full capacity and complete positive approximation remain unpaid. No classical positivity, core/coupling/Xi or new whole consequence.",
+  "strongest_old_net_consequence": "542+555=>557 whole leading4/5 negative-inertia UPPER unchanged; not an actual negative-spectrum lower or RH.",
+  "unpaid": [
+    "Concrete independent finite geometric presentations and joint feasible extension/compact bounds with full relations/nonroot/original costs",
+    "Independent same-object primitive mixed capacity or energy/tensor certificate and full Gamma-allpowers-pole identity",
+    "Alternatively actual independent complete positive distributions approaching fixed W_zeta, with geometry/norm/trace transport separately where requested"
+  ],
+  "choice_and_stop": "Prefer actual bounded geometric certificate when explicit object/map/capacity available; complete positive-distribution closure if actual approximation available. Stop GNS/old source quotient/Gram relabel/575 primitive recipe; do not open unknown C039/576 or automatic next paper. New typed/semiring/derived/strong-topology/variable-domain/paid infinite constructions remain allowed.",
+  "macro_bottleneck_changed": false,
+  "settlement": {
+    "added_mathematical_iterations": 0,
+    "cadence_before": 4,
+    "cadence_after": 4,
+    "historical_weil_rounds": 39,
+    "formal_cycle": "14 unchanged; no reset",
+    "goal_gate": "open; not eligible",
+    "runtime_goal": "null observed; no instance created"
+  }
+}

@@ -1,6 +1,15 @@
 # 长期研究恢复入口
 
-最新[C038/575 regular-Cartier结算](reviews/2026-10-22-regular-cartier-cover-575-settlement.md)已fresh修后限定PASS并root前件闭合。
+本轮用户提出的[Weil结构／存在性路线](reviews/2026-10-22-weil-structures-and-existence-space.md)已fresh限定PASS并root闭合。
+固定完整经典数据的目标纤维非空才是命题；GNS等价不使独立存在性证明循环，最小正源实现自身基本唯一。
+已区分weak／positiveGram／trace／typed证书层，给固定规模presentation、准确紧逆极限及fixed-B双侧有限门。
+真FF的同对象RR容量、continuous±的2×2障碍、575源unit失537和Jordan／heat逃逸均已检验。
+可保两条存在性路线：实际有限几何证书的共同可行／紧性，或独立正对象到完整Wζ的分布逼近；二者核心输入均未付。
+本轮仅标准／旧资产组织，0数学轮；cadence4／历史39／cycle14不变，无C039/576。
+停止只换GNS／旧商／未知正性标签；下一仅验收具体独立设施或完整正分布近似，保405全关系／537／原费用及完整Γ、幂、pole。
+宏观独立容量、whole4/5上预算／core／coupling／Ξ瓶颈未改变；精确前件与停止见root收据，唯一动作以STATE为准。
+
+前次数学[C038/575 regular-Cartier结算](reviews/2026-10-22-regular-cartier-cover-575-settlement.md)已fresh修后限定PASS并root前件闭合。
 574实际覆盖的ρ=e^x给真实非零因子／单边非平凡Cartier理想，Ip Iq=(ρ)；所有指数线仍有continuous及smooth-flat有效代表。
 新非flat门：ambient smooth两side若有首normal Taylor项，精确z∈Z+iΛ，允许首项先有zeros；pureimag absolute非平凡类必须双flat。
 共同ρ^c只改实格cZ；completion丢flat方程而非整个Pic。边界jets独立不等于bulk法向导数内在；ideal O(-D)与dual O(D)方向保留。
