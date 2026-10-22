@@ -1,0 +1,63 @@
+{
+  "schema": "rh-weil-remote-research-sync-v1",
+  "scope": "Research commit verification only; later metadata child is separately verified by tools, avoiding recursive self-SHA",
+  "repository": "https://github.com/lixiang90/RH-Weil",
+  "branch": "main",
+  "research_commit": "8cd968b2e72ddfdad5d96d4218b69fd17df025f9",
+  "tree": "6f88092dc8fa78a71cbeecd8d341b15f03fb78b8",
+  "parent": "94131b19e00de6cbe22b5fdd851c72198fc2bfbc",
+  "independent_remote_ref": "8cd968b2e72ddfdad5d96d4218b69fd17df025f9",
+  "remote_git_commit": {
+    "sha": "8cd968b2e72ddfdad5d96d4218b69fd17df025f9",
+    "node_id": "C_kwDOUJbSS9oAKDhjZDk2OGIyZTcyZGRmZGFkNWQ5NmQ0MjE4YjY5ZmQxN2RmMDI1Zjk",
+    "url": "https://api.github.com/repos/lixiang90/RH-Weil/git/commits/8cd968b2e72ddfdad5d96d4218b69fd17df025f9",
+    "html_url": "https://github.com/lixiang90/RH-Weil/commit/8cd968b2e72ddfdad5d96d4218b69fd17df025f9",
+    "author": {
+      "name": "lixiang90",
+      "email": "78319371+lixiang90@users.noreply.github.com",
+      "date": "2026-10-22T08:08:27Z"
+    },
+    "committer": {
+      "name": "lixiang90",
+      "email": "78319371+lixiang90@users.noreply.github.com",
+      "date": "2026-10-22T08:08:27Z"
+    },
+    "tree": {
+      "sha": "6f88092dc8fa78a71cbeecd8d341b15f03fb78b8",
+      "url": "https://api.github.com/repos/lixiang90/RH-Weil/git/trees/6f88092dc8fa78a71cbeecd8d341b15f03fb78b8"
+    },
+    "message": "Define fixed-target Weil structures and independent existence routes",
+    "parents": [
+      {
+        "sha": "94131b19e00de6cbe22b5fdd851c72198fc2bfbc",
+        "url": "https://api.github.com/repos/lixiang90/RH-Weil/git/commits/94131b19e00de6cbe22b5fdd851c72198fc2bfbc",
+        "html_url": "https://github.com/lixiang90/RH-Weil/commit/94131b19e00de6cbe22b5fdd851c72198fc2bfbc"
+      }
+    ],
+    "verification": {
+      "verified": false,
+      "reason": "unsigned",
+      "signature": null,
+      "payload": null,
+      "verified_at": null
+    }
+  },
+  "local_exact_object_import": true,
+  "local_head_tree_and_clean_verified": true,
+  "verified_at_utc": "2026-10-22 08:09:56 UTC",
+  "files": [
+    "goals/DECISIONS.md",
+    "goals/MACRO_FRONTIER.md",
+    "goals/README.md",
+    "goals/STATE.json",
+    "goals/checkpoints/2026-10-22-weil-structure-existence-review.json",
+    "goals/review-cadence.json",
+    "goals/reviews/2026-10-22-weil-structures-and-existence-space.md",
+    "reviews/2026-10-22/weil-structure-space/axioms-and-realizations.md",
+    "reviews/2026-10-22/weil-structure-space/compactness-and-finite-feasibility.md",
+    "reviews/2026-10-22/weil-structure-space/fresh-whole-review.md",
+    "reviews/2026-10-22/weil-structure-space/function-field-continuous-and-geometric-controls.md",
+    "reviews/2026-10-22/weil-structure-space/root-consumption-scope.json"
+  ],
+  "mathematical_scope": "User-directed fixed-target Weil-structure/existence strategy review, fresh and root scope closed; zero new mathematical rounds; no classical positivity/capacity/whole/core/Xi consequence; Goal open"
+}
