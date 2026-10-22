@@ -1,5 +1,15 @@
 # 长期研究恢复入口
 
+最新[C040／577结算](reviews/2026-10-22-full-gamma-577-settlement.md)已fresh修后限定PASS并由root闭合数学前件。
+每层保完整Γ／FP／contact，有限prime-power／pole谱g_R加可计算连续非负修补q_R=(-g_R)_+；无未知零点选系数，另有有费Schwartz版。
+Γ协同μ_R的全线原du匹配R⁻²与Fourier-L¹已独立付清；fixed窗全部complex原du／Dlog误差为D_L/R²+min(c_R,2Lm_R)。
+405本层exact关系失败，但fixed强源尾可付；537原固定窗非根无条件最终保留。全线Hlog统一费不由D′推出。
+continuous±与真FF全returns／aliases检验通过；本family修补消失仍⇔完整Weil正性／RH，未有独立算术小量预算。
+统一577一数学轮5→6、历史40→41；[cycle15](reviews/2026-10-22-general-rh-macro-review-cycle-15.md)复盘572–577后同cadence一次6→0，复盘0轮。
+local层型／费用前沿改变；classic独立容量、strong-oldwhole4/5上预算／core／coupling／Ξ未变，长期Goal仍open。
+停止本window／grid／soft／负部标签；下一仅验收具体独立signed预算或同对象source→sections／RR实物，不自动C041／578。
+数学前件已消费，发布状态和唯一行动只以STATE为准；以下较早“当前／下一”均为历史结算。
+
 最新[C039/576结算](reviews/2026-10-22-function-field-positive-cone-576-settlement.md)已fresh限定PASS、root前件闭合。
 固定真实E/F5的全basechange与centered缩放，保全部returns/aliases，可独立生成任意预定cos；实际全n Möbius反演给positive实权primitive。
 有限正混合的未标记D′闭包=全部实偶正型锥；经典membership仍为Weil责任，整数混合对经典也仅得条件等价。
