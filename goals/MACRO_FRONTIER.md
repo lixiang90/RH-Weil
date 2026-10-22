@@ -1,15 +1,15 @@
 # 宏观前沿：可消费范围与最小未付箭头
 
-最新[完整Γ／twist同源Hermitian核查](reviews/2026-10-22-twisted-gamma-hermitian-comparison-admission.md)已fresh限定PASS、root前件闭合。
-实际两pole窗扣除后有|B_R|²=ΓB_R−B_R²−g_RB_R；余项仍是actual g_RB_R，未独立付q_R。
-完整FP/contact/allpowers给safe半轴physical源的B_W=旧131中心Pick核，合法同源但signed；正primitive Laplace／外shift Gram不能替换。
-continuous±在安全两点已给相反det，真FF保全部pole／returns／aliases；正号仍由旧同对象H／RR给。
-FE反射安全域不重叠，轴regular点值平方不代完整Weil分布；旧545/MS四项与全原L²费用准确扣除，未有新Γ-signed桥。
-405全noncompact关系、537固定窗非根及原du／Dlog、fixed／D′／成长／全线量词保持；去衰减/完整twist须另付原费。
-本次只为标准身份／旧资产直接运输的来源0，无C042／579；数学cadence1／历史42／正式cycle15保持，最新数学仍578。
-同源对象指代更清楚，但独立actualq预算／容量及whole4/5上预算／core／coupling／Ξ瓶颈未变，Goal仍open。
-停止本twist／Pick／shift／Riccati入口，不续点数/参数/下一paper；下一仅收实际独立signed或同对象RR实物。
-发布状态和唯一动作以STATE为准；以下较早“当前／下一”均为历史。
+最新[算术theta同源设施准入](reviews/2026-10-23-arithmetic-theta-capacity-source-admission.md)已独立fresh限定PASS、root范围闭合。
+KRY1999的真实CM局部length/全局Mellin确含经典完整Gamma，不能因另有odd特征而粗拒。
+但positive cycle degree是线性身份；差Gamma核有界、算术逆含负系数，尚无actual源像的signed差/商费用或primitive Hermitian比较。
+真实P1幂图含局部Frobenius却primitive为principal，消405也杀537；574absolute二阶height零不排双frame relative。
+连续±未接入KRY几何不能假报通过；函数域同对象RR/Hodge到全mixed Gram链与全部aliases保持。
+原du/zeroextension Dlog、405全Pan、537非根、完整Gamma/contact/allpp/双pole与fixed/Dprime/成长量词保持。
+本次来源0，不建C042/579；数学cadence1/历史42/cycle15/最新数学578保持。
+来源适用性更明确；独立actual q/primitive容量与strong-old whole4/5负惯性上预算/core/coupling/Xi瓶颈未变，Goal open。
+停止此直接theta抽取及旧廉价载体；下一只接实际signed新身份/原净费，或非Q标签relative primitive源公式，先405/537/原费再容量。
+发布状态和唯一动作以STATE为准；以下早期“当前/下一”均为历史。
 
 2026-10-22更新；同G20261014／固定0c4f，完整Goal与唯一行动以STATE为准。
 最新[C039/576结算](reviews/2026-10-22-function-field-positive-cone-576-settlement.md)已fresh限定PASS、root前件闭合。
