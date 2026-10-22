@@ -7,12 +7,12 @@
   "workflow": "goals/RESEARCH_WORKFLOW.md",
   "cadence": "goals/review-cadence.json",
   "decisions": "goals/DECISIONS.md",
-  "latest_strategy": "goals/reviews/2026-10-22-actual-cover-relative-picard-574-settlement.md",
-  "latest_decision": "D20261022H",
+  "latest_strategy": "goals/reviews/2026-10-22-regular-cartier-cover-575-settlement.md",
+  "latest_decision": "D20261022I",
   "macro_frontier": "goals/MACRO_FRONTIER.md",
-  "macro_summary": "goals/reviews/2026-10-22-actual-cover-relative-picard-574-settlement.md",
+  "macro_summary": "goals/reviews/2026-10-22-regular-cartier-cover-575-settlement.md",
   "latest_macro_review": "goals/reviews/2026-10-20-general-rh-macro-review-cycle-14.md",
-  "latest_iteration": "notes/574-actual-adelic-cover-relative-picard-and-source-transport.md",
+  "latest_iteration": "notes/575-regular-cartier-cover-flat-source-and-capacity-gap.md",
   "macro_control": {
     "schema": "macro-recovery-v2",
     "goal_epoch": "G20261014",
@@ -20,8 +20,8 @@
   },
   "macro": {
     "long_objective": "保G20261014：由一般g-integer及对偶建立独立同源Weil正性/有效性/RR设施以覆盖classic；实际ζ成长core及完整谱约束仍按冻结基线验收。",
-    "unpaid_bottleneck": "actualcover非平凡relative Pic子族/精确kernel与不变metric已付；仍欠非Q标记的全Pan-compatible源→regular/valuative filteredmetric对象、primitive有效性/mixed容量及完整Γpppole同源比较；whole4/5/core/coupling/Xi未变。",
-    "why_this_contract": "413具体expclutch新input/test已付并结算574一次；mean/decaying止，合法Q-marker虽过Pan/537仍旧值包装。下一只验收新的regular/valuative实物与原费/过滤，不自动unknown容量或paper。",
+    "unpaid_bottleneck": "非平凡continuous/smooth Cartier及finite-normal门已付；仍欠非Q/零点标签的Pan保持且537可见源→自然regular/valuative moving对象、原费/分离过滤、primitive mixed容量及完整Gamma-pp-pole同源比较；whole4/5/core/coupling/Xi未变。",
+    "why_this_contract": "actual rho/Cartier/primitive新门已执行：pureimag非triv需flat代表，primitive全源unit失537，analytic缩域失败405。停止recipe；下一要新层/normal/moving实物及原费/独立过滤，不能重复命名容量。",
     "paused_routes": [
       "零点比例优化",
       "无零区域优化"
@@ -35,20 +35,21 @@
       "573/C036一轮止：固定430扩大A singleδ理想阻原Ω下降，闭包灭raw；实际pair保−4不闭源。较小原域/新非标量边/不同pair/强拓扑/有费无限修复合法。",
       "本轮genus2来源门已执行：ordinary重复列可用jet修，special真实rankdrop需moving；不调genus/jet/minor，不作新574。",
       "前次actualDGA line来源0止：graph/Koszul严格协同真实但Pic/det恒类；本轮已以新actualcover数据准入C037/574，不复跑旧模块。",
-      "574/C037一轮止：actualclutch真非平凡；decaying/mean/degree/oldQ标签均不给独立容量，不续scalar/probe/chart。新relative层/强拓扑/有费源family未排。"
+      "574/C037一轮止：actualclutch真非平凡；decaying/mean/degree/oldQ标签均不给独立容量，不续scalar/probe/chart。新relative层/强拓扑/有费源family未排。",
+      "575/C038一轮止：真Cartier可构造，finite-normal类Z+iLambda，pureimag非triv双flat；primitive全源unit理想恒定，analytic域缩小不保405。不排新normal/semiring/derived/moving有费修补。"
     ]
   },
   "primary_contract": {
-    "id": "C037",
-    "path": "goals/contracts/C037-actual-cover-picard-clutch-and-source-gate.md",
+    "id": "C038",
+    "path": "goals/contracts/C038-regular-cartier-cover-and-flat-source-admission.md",
     "status": "completed",
     "iteration_budget": 1,
     "settled_iterations": [
-      "notes/574-actual-adelic-cover-relative-picard-and-source-transport.md"
+      "notes/575-regular-cartier-cover-flat-source-and-capacity-gap.md"
     ],
-    "stage": "574/C037及全部独占稿/两逆审已root闭合，一轮结算；研究提交62be8aa/tree d3f3c05已独立GET与本地精确对象核验。同步收据随metadata保存，不加轮。",
-    "next_action": "只验收非Q标签的具体relative Cartier/valuative源数据：实际405同构、537/连续±、原duDlog metriclift与独立过滤/容量；无实物不启动下一合同，不续scalar/probe/chart或paper。",
-    "stop_rule": "一个完整轮；新kernel成立保存一次；source桥若仅oldquotient/freeframe即止，不扩成allPic或无RH定理。"
+    "stage": "575及四数学原件/fresh已root前件闭合；C038一轮统一结算，容量仍欠，当前recipe停止；正在核GitHub同步。",
+    "next_action": "完成575精确远端commit/tree与本地clean同步；之后只验收新moving/normal/regular实际源数据，先405同构、537/continuous±/原duDlog及独立过滤/容量，无实物不启动下一合同。",
+    "stop_rule": "一完整轮；新实际regular/Cartier/flat源比较结算一次；标准来源不另计。recipe若旧商或全平凡即止，保新层/变域/moving逃逸。"
   },
   "support_contracts": [],
   "must_not_forget": [
@@ -119,29 +120,9 @@
       "scope": "最终573/三稿/fresh/pair root前件：actualcarrier/norm/量词/finiteΓ/−4/闭包/原费用/全Pan/强旧/净后果/逃逸与停止，hash非证明。"
     },
     {
-      "path": "goals/reviews/2026-10-22-generalized-weil-roadmap-after-573.md",
-      "kind": "cited",
-      "scope": "fresh/root：573后新路线图，函数域独立正号为主；已执行genus2来源门，标准/旧推论0轮，无classic净后果。"
-    },
-    {
       "path": "goals/reviews/2026-10-22-function-field-evaluation-moving-source-gate.md",
       "kind": "cited",
       "scope": "fresh/root：actualgenus2普通/厚点/special/excess标准来源门与exact脚本；未付classic metric/globalmoving/fullWeil。"
-    },
-    {
-      "path": "reviews/2026-10-22/roadmap-after-573/root-consumption-scope.json",
-      "kind": "cited",
-      "scope": "本轮主稿/三分支/fresh/controls root前件闭合：对象/角色/范数/源成长/依赖误差/方向/覆盖/强旧净后果/唯一下一；hash非证明。"
-    },
-    {
-      "path": "goals/reviews/2026-10-22-actual-dga-line-moving-and-basechange-admission.md",
-      "kind": "cited",
-      "scope": "fresh/root来源0：actualgraph/framedsource、fullPan/Koszul严格协同、537/原duDlog、FF真twist与continuous正反；当前recipe旧R包装止，无classiccapacity。"
-    },
-    {
-      "path": "reviews/2026-10-22/dga-line-moving/root-consumption-scope.json",
-      "kind": "cited",
-      "scope": "主稿/三稿/fresh/controls root前件：objects/roles/norm/全源成长/原费误差/actual方向/强旧净后果/严格repair/停止及合法新几何。"
     },
     {
       "path": "notes/574-actual-adelic-cover-relative-picard-and-source-transport.md",
@@ -162,16 +143,36 @@
       "path": "reviews/2026-10-22/adelic-cover-picard/fresh-whole-review.md",
       "kind": "cited",
       "scope": "整稿fresh限定PASS，核已修idele拓扑/双frames/metric/合法Qmarker与全费；宏观瓶颈未变。"
+    },
+    {
+      "path": "notes/575-regular-cartier-cover-flat-source-and-capacity-gap.md",
+      "kind": "proved",
+      "scope": "C038/root+fresh修后：actualCartier/finite-normal精确门、全sourceflat失537、原费与analytic域；统一一轮，非capacity/Weil新正性。"
+    },
+    {
+      "path": "reviews/2026-10-22/regular-cartier-cover/finite-normal-order-and-flatness.md",
+      "kind": "proved",
+      "scope": "新normaljets/首项zeros/AP/绕数精确Z+iLambda及flat/c修补；仅固定actual smooth normal/clutch，非全Pic。"
+    },
+    {
+      "path": "reviews/2026-10-22/regular-cartier-cover/root-consumption-scope.json",
+      "kind": "cited",
+      "scope": "最终root前件/版本：对象域/idealdual符号/源成长/全部原费语义修正/actual方向/strongold/controls/合法修补/停止；hash非证明。"
+    },
+    {
+      "path": "reviews/2026-10-22/regular-cartier-cover/fresh-whole-review.md",
+      "kind": "cited",
+      "scope": "独立整稿fresh修后PASS：有限首项zeros/nonflat门、fullPan/537/原norm、bulknormal非内在/Poisson函数非finite边界几何；capacityopen。"
     }
   ],
   "pending_processes": [],
   "runtime_goal_observation": {
     "status": "absent",
-    "observed_at_utc": "2026-10-22T04:43:43Z",
-    "basis": "本轮get_goal再次null；保文件G20261014/0c4f，未创建运行实例。"
+    "observed_at_utc": "2026-10-22T06:28:05Z",
+    "basis": "本轮再次get_goal=null；同文件G20261014/0c4f，未创建实例。"
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-10-22-actual-cover-picard-574-sync.json",
+  "checkpoint": "goals/checkpoints/2026-10-22-regular-cartier-575-root-closed.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
     "commit": "62be8aa32290ce9896d85c8722b3762087361022",
@@ -183,11 +184,11 @@
     "goal_lf_sha256": "cc6046029a8e5c9fe4eae427dfd663f1d851666370637c8fd451042f340fee8b",
     "mathematical_gate": "open",
     "final_execution_gate": "not-eligible",
-    "basis": "574实际非平凡clutch子族新局部结果已审；未给非Q标签独立source/整性过滤/容量/完整identity，actualwhole/core/coupling/Xi和Goal门不变。"
+    "basis": "575真实Cartier/finite-normal局部门已闭；全primitive源为unit失537，未付独立natural源桥/分离过滤/容量/完整identity；actualwhole/core/Xi及Goal门保持。"
   },
   "historical_completion_receipts": [
     "goals/goal-completion-receipt.20261014.json",
     "goals/goal-completion-receipt.20261014-continuation.json"
   ],
-  "process_inventory_observed_on": "2026-10-22本轮四agent均完成，全部输出已root/fresh消费；无后台计算，runtimeGoalnull；研究commit62be8aa本地/远端SHA-tree匹配，metadata为同步记录。"
+  "process_inventory_observed_on": "2026-10-22本轮三分支及fresh均完成，原件/全部范围修正root消费；无后台数值，runtimeGoalnull，HEAD55dc864同步待核。"
 }

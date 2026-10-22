@@ -1,0 +1,95 @@
+{
+  "schema": "rh-weil-root-premise-closure-v1",
+  "date": "2026-10-22",
+  "contract": "C038",
+  "goal": "G20261014",
+  "goal_lf_sha256": "cc6046029a8e5c9fe4eae427dfd663f1d851666370637c8fd451042f340fee8b",
+  "baseline_commit": "0c4f3a3eb609bb1d9564138fa4a35701f05605f2",
+  "status": "root-consumed-with-scope-closed",
+  "files_lf_sha256": {
+    "notes/575-regular-cartier-cover-flat-source-and-capacity-gap.md": "f70e37cb84d4d705a3a9e6fe57c6f1b72bd8f9b02cb3d9ddeb6ac16bb184fd8e",
+    "goals/reviews/2026-10-22-regular-cartier-cover-575-settlement.md": "709d9834dfad828650850ad30475644cf96a4f3e5f5b8b03e5894c47c11f7d61",
+    "goals/contracts/C038-regular-cartier-cover-and-flat-source-admission.md": "fb618f7674d8aa81ab3b526a86cc367f4097700715d00b20a189d0f14de3d79b",
+    "reviews/2026-10-22/regular-cartier-cover/natural-sheaves-and-cartier.md": "f739eaa84d9a2d66659323ca8511f9b9859566c93bc277634e76b4763390c601",
+    "reviews/2026-10-22/regular-cartier-cover/actual-source-map-and-costs.md": "0c7b4712e0b23a567dbe64c79dc57643cef2607887fc5ac5a0b301c25690573e",
+    "reviews/2026-10-22/regular-cartier-cover/function-field-continuous-and-capacity-controls.md": "750b71f2fb12093df49a5a8b1998154e77a03fc009cca4b0c6aa6849263c1cf8",
+    "reviews/2026-10-22/regular-cartier-cover/finite-normal-order-and-flatness.md": "5156fe9bff3b2121fb513117cc2eee2ca845e5742c85379a27c66ea5b8eeb337",
+    "reviews/2026-10-22/regular-cartier-cover/fresh-whole-review.md": "99713fdd617013eb305630f4476b93f80df911d99611c371cd7802ce6cfad44f"
+  },
+  "paid_dependency_versions": {
+    "notes/367-f1-periodic-cartier-sections.md": "aaade8365ffe5212cfe3eaf895fa4374c48a65e3e097d6e4868b8249ee7ae824",
+    "notes/384-f1-finite-level-cartier-regularity.md": "ad986aff5590244ea6b01e971383b060abaa6942a688b972075b97d3c7855e6d",
+    "notes/387-f1-analytic-continuation-and-cartier-regularity.md": "9e851e3bdf9e09f0e49ba6b25f6140e6c20deb2835955a5dd9199f90d39cae1c",
+    "notes/396-f1-flat-line-enhancement-and-cartier-pullback.md": "d392ca8f0fd57e19c195b8455c620983b71d2cc4885f5b155d2d7efb11adadba",
+    "notes/401-f1-dual-cartier-ideal-and-reflexive-collapse.md": "06969e9a2009400a61396a2f782c9eac0c506e7102691a65c0a0b84b3a5c5765",
+    "notes/405-f1-adelic-restriction-moments-and-radical.md": "fe5ee4b574954e51a69c6bbbaa772bb75a1a510c91c837ba02eed8ac406cbb7d",
+    "notes/413-f1-two-place-boundaries-and-virtual-class-collapse.md": "7971b1f8f750a9a1418888bcd539297db60ee8a6b0b0cf30b7d7d1f661ff499d",
+    "notes/537-source-exact-weil-window-positive-tail-admission.md": "269a500556d37fc04a4e44efd2f0899414787743e529506dbbe7395a34eea9f8",
+    "notes/542-actual-prime-high-moments-and-strong-baseline-audit.md": "a0f510dfb427ccda165913d6beb3734f6ec003741d3e448105046df12e886203",
+    "notes/553-principal-cyclic-closure-and-cofinal-readout-fees.md": "35a40c35d1eaa7fafb462361ddef1bfb9643402b5670f832b9142aeb4b74abce",
+    "notes/555-actual-prime-weighted-schur-and-growing-weil-inertia.md": "55a3745ab8160738e2a2dde15e84290e99205df68f3b59b357d26127846a31c5",
+    "notes/557-joint-row-norm-and-gamma-arithmetic-moment-budget.md": "5abfd13af9c955b27c5a2ea8f01d2555fa05b1df450adbedbcfe20f62d327166",
+    "notes/562-generalized-rh-continuous-g-integers-and-spectral-multiplicity.md": "e3e42480b967115accabd741cdbbb220865407396908b74b25bba0c213f60c10",
+    "notes/567-function-field-positivity-origins-and-generalized-correspondence-tests.md": "96c0c5a62e4175705696a29ed28d890eb11cec6f7351dc763641b65f3fcaec8a",
+    "notes/569-dual-carrier-gamma-normalization-and-budget-cocycles.md": "5b423e7d023a413f3c3d1fb0f582073015285e84afd38b4761d9d3734f57da45",
+    "notes/574-actual-adelic-cover-relative-picard-and-source-transport.md": "b97aa1619f559e22041f5f46404a5ab09e598722e16287059e8691c555eee45d"
+  },
+  "object_domain_range_roles": {
+    "base": "Fixed actual413/574 O in (Z union infinity)^2 x R with Gamma=Z2; true invariant Wp/Wq shared bulk x, individual sides proper, whole action nonproper. Real component nonzero; not entire adeles or a proper scheme.",
+    "sheaves": "C-valued continuous local ring sheaf; explicitly chosen ambient [0,infty)xS1 smooth restriction sheaves on side spirals, compatible bulk. Not unique arithmetic structure recovered from general g distribution. Boundary normal Taylor jets are well defined, entire ambient extension is not.",
+    "Cartier_direction": "Frame ep=exp(zx)eq. Local generator hp/hq=exp(zx) defines ideal I=O(-D)=L_z; O(D)=I dual, canonical section coordinates hp,hq. Zero ambient value of hp at boundary is not zero module frame.",
+    "physical": "r=exp(u/2)f in full complex S_exp, P_c physical405 Pan (actual analytic relations, not already certified geometric principal divisors); actual positive H gives P=(D2-1/4)H. Full noncompact relation domain and 537 nonroot r0 distinct.",
+    "source_map": "A_r=integral(-infty,x)r, g_r=exp(A_r), actual additive-to-tensor but full relative coboundary; Cartier ideals (E g_r),(E) both exactly(E). Raw marks still can encode source, do not become Picard movement."
+  },
+  "new_proved_results": [
+    "Canonical invariant rho=e^x continuous boundary0 is nzd by dense bulk; single-side Cartier ideals nontrivial with Ip Iq=(rho). Every574 exponent line has continuous and ambient-smooth-flat effective Cartier ideal representative.",
+    "Normal Taylor jets of spiral restrictions independent of ambient extension via repeated periodic sequence. If hp=exp(zx)hq and at least one side not uniformly boundary-flat, both have first nonzero normal Taylor coefficient and z in Z+iLambda; converse explicit. Leading coefficients initially allowed zeros, AP and irrational zero propagation force units before winding.",
+    "Pure imaginary absolute nontrivial exponent classes can be Cartierized but all such smooth defining pairs in this gate are double-flat. Relative framed classes in iLambda not declared trivial. Common fixed tau=rho^c rebuild changes real lattice to cZ but pure imaginary gate and S_exp flatness persist; no uniform c metric or all-normal-coordinate claim.",
+    "Continuous boundary J=J^2 not(rho), quotient C/(rho) infinite length; smooth rho-adic filtration nonseparated. Flat nzd defining functions map to0 under adic completion, not a claim whole line/formal Pic zero.",
+    "Full physical primitive map gives flat boundary1 side units for ALL S_exp, hence annihilates full405 and also537; non-Q/nonzero-label formula genuine but not primitive coverage. Original C0/C1/regular bounds and domain failures paid with exact scopes."
+  ],
+  "source_and_growth_quantifiers": {
+    "fixed_and_full": "All S_exp complex r for unit/flat statement, all P_c relations incl noncompact405; same map tested on compact537 r0. Finite support[-A,A] only for original norm C0 upper; full line uniform bound not claimed.",
+    "finite_normal": "Fixed scalar z, fixed sides and chosen common rho normal structure; finite whole-circle first Taylor coefficient may vanish pointwise. Full values flat iff every normal coefficient identically0. Uniform Taylor remainders and fixed-x AP limit, no zero-location/RH premise.",
+    "repairs": "Flat commonfactor retains all exponent classes; each fixed c>0 common normal power and fixed k smoothing tested. No uniform growing c/k/A/B capacity, no restriction of all moving-support/extra-normal/semiring/derived/source-adapted objects.",
+    "source_lift": "Actual E/Fourier dual identity only actual eta source domain, does not give arbitrary physical r eta-lift. logtime x/-x not finite P/Q boundary geometry."
+  },
+  "norms_errors_and_semantic_corrections": {
+    "original": "du L2, Dlog Fourier log(2+abs t)/(2pi), full-line zero-extension domain. Fixed-support primitive C0 sharp sqrt(2A) du upper, Dlog upper sqrt(2A/log2).",
+    "normal_cost": "At bulk, ambient partial-rho extension-dependent; rho^-1 r and C(kappa,k)e^(kB) uppers only chosen theta-independent radial extension. Boundary Taylor jets independence does not imply bulk normal derivative intrinsic.",
+    "intrinsic_C1": "D_x A=r, arbitrary full ambient extension derivative along spiral rho partial-rho + (2pi/L) partial-theta. Fixed-bulk complete C1 norm must control point evaluation. Narrow bump Dlog^2=||phi||2^2 log1/eps+O(1); normalized point diverges; fixed remote probes cancel both moments with O(sqrt eps) pre-normalization cost.",
+    "zero_class": "Selected mark/representative cost is not necessary lower for all source-to-class maps; current zero Pic class can be represented by unit. Smoothing pays fixed representative uppers but remains class/ideal trivial.",
+    "layer_correction": "Natural branch rho^A means any A>0 in continuous layer, integer A>=0 or flat commonfactor in S_infty. Corrected before root consumption.",
+    "Poisson_correction": "Exact reflected-primitive identity is logtime relation only. No geometric finite-boundary involution or regular-layer transport paid; any assignment to two charts is tested as a candidate, no stronger upstream dependency used.",
+    "full_budget": "575(8): actual Gamma=Re psi(1/4+it/2)-logpi=2thetaPrime, contact psi(1/4)-logpi, ALL p^k finite term -2 and double pole2Re, all complex mixed unchanged. Two finite places do not cover all or arch finite part."
+  },
+  "controls_and_paid_escapes": {
+    "continuous": "True positive-measure g systems d=+/-1/16 with complete prime/pole and own Gamma0. Same odd double-polezero compact r has strict opposite fullQ but identical primitive Cartier/germ. No invented classical adeles for models.",
+    "free_DVR": "R_d[[t]] gives same ordinary two DVR branches/finite jets; daggers differ (branch preserving vs exchanging), so local regularity and fiber metric alone no mixed positivity. This is auxiliary free enhancement countertest, not all natural enhancements obstruction.",
+    "function_field": "Actual smooth proper curve DVR/local length/rational principal/product formula/proper H0; known genus2 degree0 twist h0(K)2 to1; curve linear RR versus square mixed RR separated. Known results consumed, not recounted new.",
+    "strong_old_geometries": "CC1603 fraction/Cartier/periodic Div and real typeII RR are true paid facilities; old367/384/387/396 perfectoid Cartier/pullback and401 nonlfg ideal retained. No actual ringed/semiringed source/norm/mixed transport to574 provided.",
+    "analytic": "Compact primitive boundary germ1 legal but trivial; full-bulk analytic excludes generic compact smooth domain. Noncompact405 P has nonzero flat tail, cannot have required analytic boundary germ. Different analytic/overconvergent/normal objects remain allowed with proof/fees."
+  },
+  "review": "Fresh independent whole review after detailed directed checks passed with scope corrections. Root reread full proof, reviews, sources and all domains/signs, not treating hash or state check as mathematical proof. No downstream consumption before corrections closed.",
+  "actual_direction_coverage_and_net": "New result is local Cartier realization and exact nonflat phase gate plus complete tested-source failure/costs; not Weil sign, negative-inertia lower or primitive capacity. Linear bounded quotient density remains old553, Q/zero labels not used to construct this map.",
+  "strongest_old_net_consequence": "542+555=>557 whole leading4/5 negative-inertia UPPER unchanged; no actual core/coupling/Xi or independent classical positivity.",
+  "unpaid": [
+    "Natural regular/fraction or extra-normal structure with full analytic P_c actual isomorphisms and537 primitive coverage, not defined by oldQ/zero labels",
+    "Nontrivial physical source to same moving/valuative object and original metric/regular norm transport",
+    "Separable local integral/valuation or controlled continuous-dimension filtration, finite evaluation kernels and same-model multiplication",
+    "Independent primitive effective/mixed RR capacity and full Gamma/all prime-powers/pole identity with all source/growth/complement coupling costs"
+  ],
+  "stop": "Stop tested primitive/smoothing, mean, oldquotient/unit relabel and analytic domain-shrink recipes; do not tune finite jets/probes/kappa/normal powers or automatically open another paper/unknown capacity contract. Preserve truly new moving support, non-scalar normal/relative/semiring/derived layers, strong variable-domain and paid infinite repairs.",
+  "local_bottleneck_changed": "Regular/Cartier existence and finite-normal phase responsibility now explicit; earlier no-Cartier description invalid.",
+  "macro_bottleneck_changed": false,
+  "settlement": {
+    "added_mathematical_iterations": 1,
+    "cadence_before": 3,
+    "cadence_after": 4,
+    "formal_cycle": "14 unchanged, no reset",
+    "extra_rounds_for_branches_sources_reviews_push": 0,
+    "mathematical_goal_gate": "open",
+    "execution_gate": "not-eligible",
+    "runtime_goal": "null observed again; not created"
+  }
+}

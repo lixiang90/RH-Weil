@@ -5,19 +5,19 @@
   "target_rounds": 6,
   "maximum_rounds": 8,
   "counting_unit": "completed research continuation iteration, not tool calls or files",
-  "rounds_since_review": 3,
+  "rounds_since_review": 4,
   "last_review": "goals/reviews/2026-10-20-general-rh-macro-review-cycle-14.md",
   "last_review_baseline_commit": "866b266bff8d549b42a361e745ad7b29a8f5c227",
   "last_review_completed_round_count": 6,
   "last_review_trigger": "566/567/568/569/570/571 six complete iterations.571 root closure settles5->6; formal cycle14 now resets6->0 once. Source/drafts/audit/checkpoint/push/review zeroextra. Same Goal and frozenbaseline.",
-  "last_completed_round": "notes/574-actual-adelic-cover-relative-picard-and-source-transport.md",
+  "last_completed_round": "notes/575-regular-cartier-cover-flat-source-and-capacity-gap.md",
   "last_completed_round_date": "2026-10-22",
   "last_completed_round_baseline_commit": "0c4f3a3eb609bb1d9564138fa4a35701f05605f2",
-  "latest_user_directed_review": "goals/reviews/2026-10-22-actual-cover-relative-picard-574-settlement.md",
+  "latest_user_directed_review": "goals/reviews/2026-10-22-regular-cartier-cover-575-settlement.md",
   "latest_user_directed_review_baseline_commit": "0c4f3a3eb609bb1d9564138fa4a35701f05605f2",
-  "latest_user_directed_review_scope": "C037/574新actualclutch精确kernel/双frames/不变metric一轮；source+Q合法repair/连续±/FF及原norm/完整Q审后收口。cadence2->3唯一结算，正式cycle14保持，独立容量和whole/core未变。",
-  "current_research_focus": "Actual cover nontrivial relative Pic family exact class/metric gate paid. Stop tested scalar/decaying/old-Q relabeling recipes; require concrete principal-compatible regular/valuative source data and original costs plus independent filtration/capacity before next contract.",
-  "weil_f1_rounds_since_historical_review": 38,
+  "latest_user_directed_review_scope": "575/C038 actualrho/非平凡Cartier/finite-normal精确门与全sourceflat/原费比较；fresh修后root闭合一次cadence3->4，cycle14保持，独立容量及actualwhole/core未变。",
+  "current_research_focus": "Actual Cartier local facilities and exact finite-normal gate paid; primitive source is full smooth unit and loses537. Stop tested recipes. Require concrete non-Q source/moving-normal-layer data, full405 transport/original norms and independent filtration/capacity before next contract.",
+  "weil_f1_rounds_since_historical_review": 39,
   "last_completed_round_note_paths": [
     "notes/524-f1-mobius-cutoff-taylor-obstruction-and-repair.md",
     "notes/525-f1-smoothed-mobius-probes-and-arithmetic-strength.md",
@@ -57,6 +57,7 @@
     "notes/571-actual-receiver-two-boundary-signed-comparison-and-growth.md",
     "notes/572-finite-euler-receiver-coherent-tail-and-original-weighted-cost.md",
     "notes/573-relative-ideal-chain-closure-and-regulator-loss.md",
-    "notes/574-actual-adelic-cover-relative-picard-and-source-transport.md"
+    "notes/574-actual-adelic-cover-relative-picard-and-source-transport.md",
+    "notes/575-regular-cartier-cover-flat-source-and-capacity-gap.md"
   ]
 }

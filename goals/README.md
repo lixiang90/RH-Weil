@@ -1,13 +1,17 @@
 # 长期研究恢复入口
 
-最新[C037/574实际覆盖相对Picard结算](reviews/2026-10-22-actual-cover-relative-picard-574-settlement.md)已adversarial/fresh限定PASS并root范围闭合。
-413真实两片上exp(zx)的absolute kernel为i[(2π/log2)Z+(2π/log3)Z]；保双边界frames核零；Γ不变正metric恰Re z=0。
-这是非Ξ底空间上的实际非平凡relative子族，不是全Pic或regular/arithmetical Pic0；旧410/420真K线仍保留。
-actual平滑源clutch虽有原费但relative平凡；mean保537却失败405全Pan；degree-only失537。
-合法非线性Q-marker能同时过Pan/537/不变metric，但只是旧完整Q坐标，非additive→tensor，无独立容量。
-连续双polezero正反和真FF h0移动已核，完整Γ/contact、所有p^k、双pole/allcomplex mixed未删。
-统一一完整轮cadence2→3、正式cycle14保持；local几何未知已缩小，宏观source→整性过滤/primitive容量瓶颈与actualwhole4/5/core/coupling/Ξ未变。
-按用户停止这些recipe，不续scalar/probe/chart。下一只验收非Q标签的具体relative Cartier/valuative源数据、405同构/537/原费及独立过滤/容量；无新数据不自动串paper。
+最新[C038/575 regular-Cartier结算](reviews/2026-10-22-regular-cartier-cover-575-settlement.md)已fresh修后限定PASS并root前件闭合。
+574实际覆盖的ρ=e^x给真实非零因子／单边非平凡Cartier理想，Ip Iq=(ρ)；所有指数线仍有continuous及smooth-flat有效代表。
+新非flat门：ambient smooth两side若有首normal Taylor项，精确z∈Z+iΛ，允许首项先有zeros；pureimag absolute非平凡类必须双flat。
+共同ρ^c只改实格cZ；completion丢flat方程而非整个Pic。边界jets独立不等于bulk法向导数内在；ideal O(-D)与dual O(D)方向保留。
+非Q primitive源g=exp(∫_-∞^x r)对全部S_exp是边界1 units，405全Pan消去、537也消失；Cartier理想恒定。
+C0原du/Dlog费可付；完整ambient C1有point反测，平滑可修representative费但仍平凡；不报所有class的必要lower。
+Poisson logtime反射未给P↔Q几何/层比较；analytic域缩小失败实际noncompact405，compact边界germ则合法平凡。
+真FF/CC周期RR/旧perfectoid Cartier及continuous±已对照，完整Γ/contact/allpp/双pole/allcomplex未删。
+统一一轮cadence3→4、正式cycle14保持；local设施前沿改变，独立source→整性/primitive容量及actualwhole4/5/core/coupling/Ξ瓶颈未变。
+停止当前primitive/smoothing/mean/旧商/analytic域recipe，不续阶/probe/核/normal实幂或paper；下一仅验收实际新层/非标签源map、405同构/537/原费及独立过滤/容量数据。
+
+574精确clutch核/双frames/metric为本轮输入；575不撤销其非平凡类。以下早期“当前/下一”为各次历史结算，实际执行仅从STATE恢复。
 
 前次actualDGA free/graph/Koszul来源门已停止，严格拼接为输入，恒Pic/det不作本轮新结果；本轮的新clutch数据按C037另准入。
 

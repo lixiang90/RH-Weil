@@ -1115,3 +1115,23 @@ actual源recipe逐门核：exp(κ*r)有原du/Dlog费但relative平凡，mean看r
 唯一下一准入是非Q标签的实物relative Cartier/valuative源数据，实际405同构、537/连续±/原metriclift及至少独立过滤或容量设施。
 备选为真曲面mixed比较或actual危险core signed新身份，须各有新输入；无输入不建unknown合同。
 宏观Goal仍open/not-eligible；现场runtimeGoalnull，未创建新实例，推送/合同完成不代Goal完成。
+
+## D20261022I：Cartier可真实实现；finite-normal相位门和全源flat反测已闭合
+
+按用户574 regular/Cartier指令，以actual rho/side圆柱/primitive新具体数据准入C038，不续C037旧预算。
+[575](../notes/575-regular-cartier-cover-flat-source-and-capacity-gap.md)和[结算](reviews/2026-10-22-regular-cartier-cover-575-settlement.md)已fresh修后限定PASS、root前件闭合，统一一轮cadence3→4，正式cycle14保持。
+实际单边Cartier非平凡、IpIq=(rho)，全部指数有continuous/smooth有效代表；不能称仍无regular设施。
+新strict门允许首normal系数zeros：指数实阶比较→AP恒等→无理零传播→unit绕数，恰Z+iLambda；pureimag absolute非平凡只能双flat。共同rho^c不修pureimag门。
+完成化只丢flat方程的嵌入像，不是整条线/Pic全零；ideal O(-D)/dual O(D)与relativeframes角色保留。
+
+actual非Q g_r=exp primitive有全源公式/加性tensor，却同层units全消Pan/r0，理想本身恒定。
+原C0费、选定radial normal导数/完整ambientC1切向point反测和平滑修补范围明确；零类可取单位，坏representative费不当所有source lower。
+边界normaljets独立不代表bulk ambientpartialrho内在；任意realA只在continuous层，S_infty须integer或flatfactor。修正先freeze未消费，fresh核闭后消费。
+actual E logtime反射不是P/Q finite边界几何协同；仅eta来源域functionidentity，不反推全物理lift。
+analytic域修补排实际noncompact405，compactgerm1合法平凡，不能偷换域。
+
+continuous正负同源双polezero反测；自由DVR/finitejets不改dagger符号。FF同对象DVR/proper/moving/squareRR、CC真periodic typeII RR和旧解析Cartier均保留，不以当前失败泛称不存在。
+完整Gamma/contact/allpp/双pole/allcomplex及原norm保留；无同源独立capacity预算。strong-old542+555→557 whole4/5上预算、core/coupling/Xi与Goal门未变。
+按用户停止本recipe，不续阶/probe/kappa/normalpower、不自动串paper或unknown C039。
+下一仅验收真正新moving/normal/regular源数据：actual405同构/537/原费及独立过滤或容量；CC/旧解析层到actual的transport或危险core新signed身份可改策，须先给实物。
+新non-scalar/semiring/derived层、强拓扑/变域/sourcefamily/有费无限修补未排。cadence达4不因本次策略复核自动归零；宏观Goal仍open/not-eligible，runtimeGoalnull未创建。
