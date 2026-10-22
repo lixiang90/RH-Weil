@@ -2,7 +2,15 @@
 
 2026-10-22更新；完整Goal、唯一动作和现场观察以STATE为准。
 固定基线0c4f3a3eb609bb1d9564138fa4a35701f05605f2（全部≤538），同G20261014。
-当前[actual restriction／relative DGA与平方RR门](reviews/2026-10-22-adelic-restriction-relative-square-and-quadratic-capacity.md)四稿/fresh限定PASS已root范围闭合。
+当前[boundary regulator门](reviews/2026-10-22-boundary-regulator-source-and-arithmetic-sections.md)主稿/四分支及fresh限定PASS已root闭合。
+更强旧409–437已恢复：410/411非零相对K及2a logp、414真实无原unitlift的酉边界、432规范HH1电荷均已付。
+432真实weighted链非闭，437最小源有限词在其合法实例可无线性共尾FP；不得把regulator/非零boundary笼统当不存在。
+本门407合法triple不推其非零；逐idele trace-norm path的topological boundary0，sourceunit exp boundary0，只约束那些recipe。
+actual Lq(p0)>0与periodization/WH关系反测明确，全Γpppole补偿不能删；point不连续≠二次prime费用不存在。
+真实曲线gluing障碍须先消并构造原metric lift；P1_Z filters/真实n²容量与detline二次量可用，未给actualprimitive source比较。
+无新classic容量/whole后果；来源0止，[root收据](../reviews/2026-10-22/boundary-regulator/root-consumption-scope.json)保原域/费用/强旧/合法逃逸，无C036/573。
+
+前次[actual restriction／relative DGA与平方RR门](reviews/2026-10-22-adelic-restriction-relative-square-and-quadratic-capacity.md)四稿/fresh限定PASS已root范围闭合。
 实际E与两字符给augmented复形，degree cocycle补成非unital Fréchet DGA；Pan全族有源null-homotopy，r0同调及作用非零。
 这是非Ξ-base的实际来源实现，cohomology/quasiiso仍是405/519旧商；原du/Dlog和源半范数费用归原坐标。
 真实2015 site square/compose保两无理乘积有理的Idε；自由complex current单射保r0却不消p，Mp(2)=π/6。

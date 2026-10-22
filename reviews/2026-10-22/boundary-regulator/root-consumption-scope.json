@@ -1,0 +1,71 @@
+{
+  "schema": "rh-weil-root-premise-closure-v1",
+  "status": "root-consumed final main and four branch drafts after independent limited PASS and compact-support fee correction",
+  "goal_epoch": "G20261014",
+  "baseline_commit": "0c4f3a3eb609bb1d9564138fa4a35701f05605f2",
+  "starting_git_head": "a34341b31fff0ce9c5fd4097935779ec4ac6a677",
+  "report": "goals/reviews/2026-10-22-boundary-regulator-source-and-arithmetic-sections.md",
+  "independent_review": "reviews/2026-10-22/boundary-regulator/fresh-scope-review.md",
+  "premise_closure": [
+    {
+      "object": "ActualDGA and source roles",
+      "domain_range": "Physical r=e^(u/2)f in F_c=S_exp,C; actualE from evenSchwartz eta with eta0=integraleta=0. C=[S->F_c+C2] with degreecocycle andPoisson dual, H0=F_c/physicalPan andH-1=0 by405/519. AllPan sourcehomotopy paid, not onlynamedp.",
+      "relation_nonroot": "h doubledegree1/4 withQ=0;537compactr0 degree0,Q>0. RawE^-1rho_v map onlyforI, omitsr0. Compactsource intersectionPan0 meanscompactrelationtests vacuous unlessFrechet/cofinal extension. Noarbitraryphysicalsource->adelicfinitearrowlift supplied.",
+      "dependencies_scope": "SourceclosedrelativeDGA oldasset; allhomotopyinvariant presentationreadouts canfactoroldcohomology; genuineintegral/filtered/metric targetstructure maystill provide newinput. No blanketquotientno-go."
+    },
+    {
+      "object": "Actualrelative triple and topological path",
+      "paid": "R=(SchwartzAdeles crossedalgQ*)+ -> B_b=C I+traceclass -> productB_id.407v=1-z aUq nonunitR, allf_b(v) invertible. Actualtriple [R,L_f(v),R]=boundary[f(v)] defined K0(f), ordinaryEuler0; relativealgebraicnonzero remainsunknown forthistriple only. Noidentificationkernelcategory withringmapfibre.",
+      "topology_quantifiers": "Eachfixedq,z,ALLidele b path1-tzrho_b(aUq),0<=t<=1 continuouslyinvertibleintraceclassnorm, henceproducttopologyK1top andconnectingboundary0. Noalgebraicpathquotient/no uniformgrowthfieldconclusion.",
+      "stronger_old_retained": "410/411 actualnonzeroboundaryKclasses/logtrace,413/414 actualtwo-placeunitaryboundarysurvive; theyaredifferentpairs.414 hasno originalA-unitizedinvertiblelift thoughmultiplierlift exists, cannot use source-unit-zero argument there."
+    },
+    {
+      "object": "Fullsource exponential recipe and actualfees",
+      "paid": "WeightedL1derivative seminormYoung gives pNm(r^*n)<=pNm(r)*pN0(r)^(n-1); fullS_exp exp_*r converges withinverse exp_*(-r). Delta isadjoinedunit. Foractual f:A->D receivingthissourceunit, exactness makes relativeboundary0 evenalgebraically. Itkillsallr includingr0. NoembeddingF_cinto407R claimed.",
+      "norm_domain_growth": "ALLr at eachfixedcompact[-L,L]: ||exp_*r-delta||Dlog<=exp(sqrt(2L)||r||du)||r||Dlog; Dlog weightlog(2+|t|). Highderivatives dependseparate pNm, notdu. Exactidentity noasymptoticerror; Lgrowthno uniformlycheap quotient. Absoluteunit/logdet canretainoldquotient butnotfiniteord."
+    },
+    {
+      "object": "Strongestoldboundary/cycle/readout closure",
+      "paid": "409 fullrationalprimepowerkernels;410/411 nonzeroK and2a logp;413/414 realtwo-placeextension,ordinaryKforgettingandliftsemantics;420/430 actualHardy/sourcealgebra;432 canonicalOmega HH1(Qsrc)->C andactualweightedchainnonclosed,finiteoldconjugationrepairfails;437 actualminimalidealfinitewordno commonlinearlyrenormalizedFP inlegalinstance.",
+      "actualsource_test": "Forcompactphysicalr chooseh_r(s)=r(-s), F_r=VU(h_r)V* inold430 domain, norm<=||V||2sqrt(2L)||r||du; Uhereoldphysicaltimeconvolution,notDGA dilation.432(8) singleterm givesF_r-uF_ru* noncompactfornonzeror includingr0. ThusnaturalweightedchainnotHH1cycle; noOmega value legitimatelyassigned. FullPanFrechetextensionnotpaid.",
+      "remaining_escape": "NoallrelativeK/secondaryzero; noallrenormalizationsno-go. Newmixededges/relativeideal,phase/averagingwithnaturalness,nonlinear/Fréchet/family methodslegal ifpaid. No431/432oldsourcepartitioncoefficientmistakenforphysicalr."
+    },
+    {
+      "object": "Actualprimeboundary source and localfilters",
+      "paid": "CCM2007Def8.2 rho_v genuinecoefficientrestriction.408finitearrow/ell1completion/ideletraceclass targetsdistinct;409-412 strongerselectionandtransversetracesretained. Rawcircleperiodization fixedwindowL2<=sqrtN L2, preservesr0atlargeprime, butactualP=Cp mean=-1/4integralCh<0, hencefailsPanforallprime.",
+      "localtrace": "Allproperpowers L_q(r)=logq sum q^-k/2(r(klogq)+r(-klogq)).405principalp0sharp andeta0 polynomialpositiveforx>=2 makeL_q(Cp0)=2logq sum p0(klogq)>0 forallfiniteq. Wholearch+sumfinite cancelsbyold405, notunknownRH. Doesnotdenyprincipaldivisorlocalordersnonzero/globalcocyclecompensation.",
+      "norm_direction": "Linearpointreadoutunboundeddu/Dlog viaepsilonbump; quadraticcorrelation <=||r||2 sofixedq fullprimeform <=2logq/(sqrtq-1)||r||2. Fixedqfee notallsignedgrowthsmallness. PeriodizationL2fee notpointfee.",
+      "filtration_scope": "Localp testfunctionsJ0 powersidempotent, statementonlycoefficientfactor,notentirecrossedproduct. Neighborhoodscale notDVRadicjets/productformula/sectionorder. Needactualintegralmodelandcomparison. FF Z/deg(v)Z onlymodulusdirection, compact/Picpartsnotdeleted."
+    },
+    {
+      "object": "Physicalhalfline secondary determinant",
+      "paid": "H_r=P+L_rP-,G_r=P-L_rP+ areHS; W_rW_s-W_r*s=-H_rG_s traceclass, trace=int0infinity u r(u)s(-u)du. A_boundary=intabsu*absr2 positive and <=L||r||du2<=L/log2||r||Dlog2 onlysupp[-L,L]. TruepositiveFredholmdet products have smalltquadraticcoefficientA, notlargenRR.",
+      "relation": "NonzeroactualP andr0 bothgiveA>0. NakedreadoutfailsP despite537visibility/actualnormfee. Notidentifiedwithrho_p. PositiveHessian differsantisymmetriccommutatorcocycle; old432 alreadyhasrelativechargeofrelatedstandardtype.",
+      "errors_scope": "Exactkernelformulas andtraceidealpermissionspaid; TaylorO(t4tracenorm2) onlysmallt. GeneralS_exp AfiniteweightedL2, noLboundwithoutsupport. Realchainsupertrace/signedcountertermslegalbutneedidentity/domain/fees."
+    },
+    {
+      "object": "Arithmeticsectionspositive/negative controls",
+      "paid": "Realcurveadeliccomplex kernelL(D),cokH1. P1 exact0->O(-2)->O(-1)->kinfty->0 makesdelta:k~H1O(-2), nonzeroboundaryisnolift. Deltazeroonlythen globallift torsorL(D-E),metriccostnotautomatic. Notclaimsameas407entirefibreacyclicity.",
+      "arithmetic_capacity": "SameP1_Z L_n=Z[X,Y]_n, integer(p^k,z^m)jetkernels and p^a z^m multiplyingfiltration, fixedtoricmetriclogsmallsections=a n(n+1)+O_a(nlogn). Coefficientmetricdetdegreeexacta n(n+1). Same determinantdiag(p^k,1)/diag(p^(k-1),p)doesnotdeterminelongmodulefilters.",
+      "controls_escape": "Continuous +/-d polynomialresolution openacyclic/effectiveboundarylength2 yetdaggertrace2absA2+2dabsB2 differssign. FF trueCxsquareRR/effectivity/multiplication/allperiodGram extra. Fixeddiscretecontinuousmapconstant onlyfixedtarget,allowscomplexcycleextension/families/degeneracy/Rdivisors/cofinalstrongtopology.",
+      "unpaid": "Noactualr->sameintegrallattice/metric/localdata withdelta0/actualglobal lift/primitiveRRcoefficient orfullWeilbudget. ChoosingmetricbyQ circular."
+    },
+    {
+      "object": "Fulltarget, netconsequence, stop",
+      "complete_weil": "Main(7) fullGammafinitepart/contact, allp^k k>=1 properpowers, bothpolemu moments andfullcomplexmixed;405/568 analyticidentityold. Noidentificationnewregulator archcapacity/localvanishing/RRdefects withsamefullbudget. Definingpairing=Qandpositiveequivalent/sufficientWeilpackage.",
+      "strongest_old_net": "542+555->557 wholeleading4/5 issuednegativeinertiaUPPER unchanged, notactualnegativeindexlower. Actualgrowthcore/lowfrequency/coupling/Xi unchanged. Sourceunit/period/WH elementarytests andoldassets nohiddennewwhole/methodboundary.",
+      "settlement": "Userdirectedboundedsourcegate source0/no573/noC036, originalcadence1/formalcycle14 same. Stopnakedexp/singlearrowdet/rawcircle/positivecompression/linearlyFPautomaticextension,notstoplongGoal.",
+      "next_admission": "Actualfilteredrelativechaincomparison preservingfullPan homotopy,r0,two degreeandoriginaldu/Dlog/cofinalcost; closedcyclebeforeOmega oractualnewedge/ideal; realintegralnonunitlift/localfilter/deltazero/metriclift primitiveRRdata. Noautomaticpaper/regulatorlabel.",
+      "long_goal": "SameGoalLFhash/frozenbaseline; liveget_goalnull notcreated. Gateopen/noteligible, macroindependentcapacityunpaid."
+    }
+  ],
+  "files": {
+    "goals/reviews/2026-10-22-boundary-regulator-source-and-arithmetic-sections.md": "3fc7273767165c2893a1442e8f2b9cd8e772a0bacc6029d0b7fa78e0753be57a",
+    "reviews/2026-10-22/boundary-regulator/fresh-scope-review.md": "2cf4044da9e4a52015d16a73c021295794d56d5b59312cf58a735f6736e55081",
+    "reviews/2026-10-22/boundary-regulator/physical-compression-boundary-test.md": "ac2c3dcf85ad3488ddc0ff49638ca56245ace057204c3c18f04386a3073aad42",
+    "reviews/2026-10-22/boundary-regulator/prime-boundary-source-and-local-orders.md": "5863240108cfd956412d89f2c0982a86be2d4b60e71c448e4bae9a574ade948c",
+    "reviews/2026-10-22/boundary-regulator/relative-k-and-secondary-class.md": "30fd9fa29e595b08c02720e913c850849251fe7a5f748791dc676791813d8879",
+    "reviews/2026-10-22/boundary-regulator/sections-filtration-capacity-and-controls.md": "236288c7fb6799936478f6c10b2d1a62b168352a39b500a87297016f7ad8dac4"
+  },
+  "scope": "LF hashes identify final reviewed versions, not proofs; root has checked domains/norm/roles/alldependencies/directions/coverage/strongest-old and independently consumed the limited conclusions."
+}

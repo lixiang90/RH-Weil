@@ -18,6 +18,10 @@
 已给非Ξ-base源定义复形、保degree乘法与全Pan同伦，但quasiiso为旧405商。
 真实P¹_Z的n²算术容量及site平方/例外复合均存在；缺口须精确为同一实际源的primitive容量与完整预算比较。
 该代数补完不自动变成新独立正性；最终阶段/审阅/root范围见STATE和本门收据，不沿旧来源标签自动续合同。
+同日[boundary regulator门](2026-10-22-boundary-regulator-source-and-arithmetic-sections.md)进一步恢复410–437的
+真非零relativeK/logtrace/HH1，核源unit指数boundary0、实际逐位主关系补偿及截面gluing门。
+不能将这些旧边界设施再列为从零构造；下一是actual physicalDGA到已给relative/闭链与filteredsections的比较，
+原度量和primitive RR/fullWeil身份仍欠。具体停止与合法修复见新报告，不自动复活旧线性有限部或新regulator标签。
 
 ## 1. 修订后的主判断
 

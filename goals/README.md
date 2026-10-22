@@ -1,6 +1,12 @@
 # 长期研究恢复入口
 
-最新用户指定的[实际adelic限制／相对DGA与平方容量检验](reviews/2026-10-22-adelic-restriction-relative-square-and-quadratic-capacity.md)已完成fresh限定PASS与root范围闭合。
+最新[boundary regulator／算术截面准入](reviews/2026-10-22-boundary-regulator-source-and-arithmetic-sections.md)主稿/四分支与fresh限定PASS已root范围闭合。
+已恢复更强409–437：真正非零relativeK、logtrace及HH1电荷存在；缺的是physical DGA到这些已给设施的闭链/filtered比较。
+407实际relative triple可定义但其代数非零未知；逐idele拓扑path及源unit指数boundary为0，不排410/411/414真实非零类。
+实际local Lq(p0)>0需完整Γ补偿；裸periodization/positive WH压缩不消全关系，原费与point读出费用分开。
+真曲线boundary可能是section lift障碍；P1_Z真实整格/过滤与n²det容量仍缺同源primitive比较。来源0停止；单cadence1/正式cycle14及宏观瓶颈未变，精确范围见STATE/fresh/root。
+
+前次用户指定的[实际adelic限制／相对DGA与平方容量检验](reviews/2026-10-22-adelic-restriction-relative-square-and-quadratic-capacity.md)已完成fresh限定PASS与root范围闭合。
 不以Ξ零除子为base的保degree二项复形和显式非unital DGA已构造，所有Pan有实际源同伦、537非根保留；
 原du/Dlog与Schwartz fixed窗费用明确，但quasiiso仍为405旧商。真实site复合保Idε例外。
 P¹_Z确有log#~a n²的真实算术容量；缺的是同源primitive RR/完整Γ、pp、pole预算的比较，不是泛称没有二次容量。

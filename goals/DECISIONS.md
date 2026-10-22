@@ -992,3 +992,39 @@ a.e.标签卷积不付diagonal有限部分。literal半环群完成失败不排c
 并给同对象局部过滤或primitive容量的可判数据；否则只保具体来源定位，不预建未知合同。
 能改变排序的另两项是穿过idele纤维acyclicity的真实boundary量、actual低频signed新比较；
 已停Sonin安全高层只回旧推论，单独已有site square亦无新信息差。
+
+## D20261022D：boundary regulator具体门停止，恢复410–437强旧而不再重造非零类
+
+用户指定从actual relativeDGA出发研究boundary regulator，故核真实ring-map triple、rho_p/source读出、
+源指数unit、物理WH次级量与真曲线boundary→sections正控制。各候选有明确公式/费用/反测，
+不是自动续前一paper或预建未知Chern合同。[主稿](reviews/2026-10-22-boundary-regulator-source-and-arithmetic-sections.md)
+与四稿/fresh最终范围见本门root收据，不能由出稿先行消费。
+
+更强旧资产必须保留：409全扇区prime-power核；410/411真实非零relative类及2a logp；
+413/414两位扩张/忘却与实际酉boundary（无相关A单位化unitlift，有multiplierlift）；
+420/430真Hardy/源域；432规范HH1电荷但weighted链不闭，有限旧共轭不修复；437合法源有限词无自动线性共尾FP。
+故当前不再问“能否构造任意非零boundary”，而问物理DGA到已有relative/closedcycle设施的同源比较。
+
+407单向族给合法K0(f_id) triple，代数非零未知；在逐ideletrace-norm product topology路径使topological boundary0。
+这个零化不推代数类0，也不排410/411/414另一个已证非零pair。全S_exp exp_*及du/Dlog费可严格给，
+但对确已在源可逆lift的unit，relativeboundary恒0，故丢r0；不能把此论证套给仅multiplier中lift的414酉。
+physicalr到407crossedproduct triple仍未定义，E^-1路线只覆盖I并漏537。原K/nonzero对象与全sourcecoverage分开。
+
+rawF_r=VU(r(-·))V*在compact原域费可付，但自然weighted链对r0仍非闭，未进入432Ω定义域。
+实际ρ_p不是任意r的函数；raw圆周periodization费可付却失Pan，405实际Lp(p0)>0对每个finiteprime成立，
+需完整Γ/contact跨位补偿。point线性费不连续不代quadraticprime费失败。testfunction局部I幂等只限p-coordinate，
+不冒称全非交换ideal；valuative filtration/算术整格不是由重复周期自动产生。
+正WH次级det真实且有fixed窗原费，却对p非零；小t二次项不代大n signedRR。
+
+真曲线connecting map可以是section拼接障碍；需先消δ，再给actualmetric lift。
+P1_Z有同对象integerjets/乘法过滤及真实n²det容量，不能否认detline二次量；同det不恢复全localmodule。
+连续±d的open可缩/effectiveboundary正反控制仍分号；FF真square有效性/RR与fullperiod身份额外付号。
+完整Γ、allpp、双pole/mixed始终保留。旧显式公式不代新arithsections的容量/消失身份；公设identity且正仍等价Weil。
+
+本轮旧资产恢复/标准recipe/直接具体反测来源0，未开573/C036；cadence1/正式cycle14及Goal版本/0c4f冻结。
+whole542+555→557 leading4/5上预算、actual低频/core/coupling/Ξ与宏观完成门不变，runtimeGoal现场null未创建。
+停止裸指数/单向det/rawperiodization/正压缩和旧线性FP自动扩域；不把finite位各自不降商升级全局协同不可能。
+下一仅准入实际filtered relative链比较/meromorphic relativeunit：全Pan同伦进入真实exact/principal变换、
+保537和双degree、原du/Dlog/cofinal费；若用432Ω，须先有真正闭链或付新边/relativeideal，非有限旧orbit修补。
+同一目标还须给整模型local过滤、消gluing障碍的lift及primitive容量/完整预算的可判数据。
+未出现不自动续regulator名称或下一paper；保phase、sourcefamily、signedtransgression、Fréchet/变域等合法修复。
