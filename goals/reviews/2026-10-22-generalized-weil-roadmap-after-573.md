@@ -6,6 +6,11 @@
 本次战略复核和标准来源首测0新增数学轮；cadence保持2、正式cycle14不重置，C036保持completed。
 已经实际执行§4的亏格二评价门，不是只写计划。未创建运行Goal或新数学合同。
 
+执行更新（同日）：§8的实际DGA模块准入现已在[本次报告](2026-10-22-actual-dga-line-moving-and-basechange-admission.md)
+执行。free graph与physical标记合法，全Pan可用Koszul严格协同、scalar base change亦成立；
+仍为旧商/derived zero-locus，未给非平凡Pic移动或独立容量。此入口来源0停止，
+不再由下文历史“下一”重启；当前状态与重准入数据以STATE和新报告为准。
+
 ## 1. 新的主判断
 
 **下一阶段的主线应从“再补一种设施”转为“取得独立正号，并证明它作用在同一实际源上”。**

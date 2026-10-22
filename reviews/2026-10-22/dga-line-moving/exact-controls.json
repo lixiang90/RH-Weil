@@ -1,0 +1,35 @@
+{
+  "scope": "formal DGA identities and finite old-model checks only",
+  "graph_projection_idempotent": true,
+  "principal_transport_invertible": true,
+  "graph_frame_transported": true,
+  "marked_defect": "q*v_(x+q) = d(eta*v_(x+q))",
+  "boundary_localization": "d(eta/q)=1; localized DGA contractible",
+  "continuous_controls": [
+    {
+      "d": "-1/16",
+      "trace_z_zdagger": "-1/8",
+      "graph_line_class": "free in both cases"
+    },
+    {
+      "d": "1/16",
+      "trace_z_zdagger": "1/8",
+      "graph_line_class": "free in both cases"
+    }
+  ],
+  "function_field_twist_control": {
+    "curve": "y^2=x^5-x+1 over F5",
+    "points": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "canonical_evaluation_determinant_mod5": 1,
+    "proof_responsibility": "RR and divisor argument, not finite ranks alone"
+  }
+}

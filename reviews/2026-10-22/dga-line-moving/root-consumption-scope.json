@@ -1,0 +1,77 @@
+{
+  "schema": "rh-weil-root-premise-closure-v1",
+  "date": "2026-10-22",
+  "goal": "G20261014",
+  "baseline": "0c4f3a3eb609bb1d9564138fa4a35701f05605f2",
+  "status": "root-consumed after independent limited PASS; current recipe stopped",
+  "outputs_lf_sha256": {
+    "goals/reviews/2026-10-22-actual-dga-line-moving-and-basechange-admission.md": "461d0fb8610acf83efc10074263124f06938e7c0b5a1fb978d493eba1114810c",
+    "reviews/2026-10-22/dga-line-moving/actual-line-and-source-map.md": "e43d22a4f24011b82c8adcfdc18e46e8e8cc96ed309c65d094a92467d2625ca8",
+    "reviews/2026-10-22/dga-line-moving/function-field-basechange-comparison.md": "1d2c6fd55ca737199f2ddf9e25f37d450a113f55107c79b9f16dbbdb06ec5ea7",
+    "reviews/2026-10-22/dga-line-moving/norms-and-positive-negative-controls.md": "34a48ef4c53fb5dac07c9f04ce9e6effa08afd67312a0f09d3575ea3a825850d",
+    "scripts/dga_line_moving_controls.py": "d7e83fb4fc884d3f9f384583a42470489b887b82b43eb61342cfb9ff0339671e",
+    "reviews/2026-10-22/dga-line-moving/exact-controls.json": "aaddb9cfdcea238fecab866e21f7d1dd5f4be162c0267b423b199d38124c768d",
+    "reviews/2026-10-22/dga-line-moving/fresh-scope-review.md": "9542e62202c07269434279851e9a84ffa1f0e99f5c5c70c8d0a3c7d46aad8244"
+  },
+  "inherited_dependencies_lf_sha256": {
+    "goals/reviews/2026-10-22-adelic-restriction-relative-square-and-quadratic-capacity.md": "f6575df97169168dc55f02974feff59dc20a79223180de15cec3a57c129d78c1",
+    "notes/405-f1-adelic-restriction-moments-and-radical.md": "fe5ee4b574954e51a69c6bbbaa772bb75a1a510c91c837ba02eed8ac406cbb7d",
+    "notes/519-f1-closed-source-image-and-degree-moments.md": "93d39e6d932c9913f5feb77bed4d1ad096c9d984ed571e894576fce6c53b124c",
+    "notes/537-source-exact-weil-window-positive-tail-admission.md": "269a500556d37fc04a4e44efd2f0899414787743e529506dbbe7395a34eea9f8",
+    "notes/553-principal-cyclic-closure-and-cofinal-readout-fees.md": "35a40c35d1eaa7fafb462361ddef1bfb9643402b5670f832b9142aeb4b74abce",
+    "notes/573-relative-ideal-chain-closure-and-regulator-loss.md": "da5ed121715fa71ce3e83c61aef7160825778ce0beeca8df39d4ae55fbb4cd93"
+  },
+  "classification": "standard module/source-gate implementation and old consequences, zero new math iteration; no574/C037",
+  "objects": {
+    "A": "unitization of actual radial nonunital DGA, A0=F+ times C2, negative S",
+    "R": "H0(A)=(F/Ic)+ times C2; no Pic(R)=0 claim",
+    "source": "physical r=e^(u/2)f, xr=(r,0,0) before Phi; H0 coords ([r],mu+,mu-)",
+    "line": "Lr=A(1,xr), framed root mark sr=xr(1,xr); ordinary line free for all r",
+    "repair": "Kr=A[epsilon], epsilon degree-1 exterior, d epsilon=xr; finite semi-free perfect object, not line",
+    "relation_role": "whole physical Pan Pc=Ec(S) intersect both moment kernels; Ic and full-Q radical distinct",
+    "FF": "genuine C/F5 genus2, M=O(2infinity), L0=O(P+Q-2infinity), P=(0,1),Q=(1,1)"
+  },
+  "source_and_growth_quantifiers": {
+    "Pan": "all q in Pc via actual unique etaq, not only one p or empty compact intersection",
+    "source_domains": "all F_exp actual algebra; compact support fees quantified separately for every fixed L",
+    "families": "finite parameter polynomial family and arbitrary algebraic scalar base change; no analytic infinite-dimensional scheme claim",
+    "growth": "no whole-growing-window positive or uniform cofinal norm theorem"
+  },
+  "paid_statements": [
+    "Unitization includes common lambda; A to R quasiiso in ordinary algebraic DG category",
+    "graph strict line transport Eq; root marks only homotopic for principal q; unit Kq(1)=etaq included",
+    "framed kernel Pc; unframed marked pairs admit extra unit rescaling r/2r, no faithful coset claim for them",
+    "Koszul principal iso epsilon(r+q) to epsilon(r)+etaq strict and additive coherent, finite semi-free derived basechange",
+    "H0Kr=R/(xr); r0 class nonzero, annihilator distinguishes from K0; graph Pic and standard det presentation constant",
+    "r0 annihilates both degree idempotents, so specified scalar mark not regular Cartier on full base; localization of exact q contracts",
+    "FF L0 nontrivial, h0M2 to h0ML01, h0L00; actual good family proper basechange, corrected Picard map glues, raw sections need not agree",
+    "continuous d+-1/16 full-source odd recipe and double pole zero give opposite primitive signs while finite module facilities persist"
+  ],
+  "norm_domain_and_errors": {
+    "representative": "Tr=diag(convolution_r,mu+,mu-) on original H_du or H_Dlog plus C2 only a degree0 representation, not R-positive quotient",
+    "compact_fee": "||Tr|| <= sqrt(2sinh L)||r||du; polezero sqrt(2L); Dlog right divide sqrt(log2); graph/mark/Eq sufficient upper bounds",
+    "negative_chain": "all etaq and Ur costs in original weighted Schwartz seminorms, not free Hilbert differential completion",
+    "actual_translation": "qv=tau_v q has invariant du/Dlog; etaqv=e^-v/2 etaq(e^-v x), q_ab exact factor e^(a-b-1/2)v for this unique actual Ec inverse only",
+    "unpaid_errors": "No new Pic-chart inverse, integral lift, filtered metric, proper analytic pushforward or growing-source error estimate; no ambient bound used as necessary actual-source fee",
+    "old553": "global continuous Hausdorff coset maps collapse; Frechet/fixed or varying domains/cofinal paid escapes retained"
+  },
+  "complete_weil_target": "Full Gamma finite part/contact, all p^k, both signed pole terms and complex mixed remain. No new identification as one geometric arch capacity/local vanishing/RR defect or independent positive coefficient.",
+  "direction_and_strongest_old": "All norms are representative upper fees; no actual negative-inertia lower. Strong-old542+555 via557 whole leading4/5 upper budget unchanged, core/complement/coupling/Xi remain unpaid.",
+  "net_consequence": "Decision information: actual lines, algebraic basechange and some strict gluing are paid, so stop calling them absent. Missing arrow is genuine movable geometric realization with independent filtered mixed capacity and full same-source comparison. No key classic bottleneck removed.",
+  "stopped_scope": "Only executed free/graph/global-unit/standard-Koszul recipes; no parameter or next-paper continuation; no claim all Pic/derived/relative methods fail.",
+  "legal_escapes": [
+    "Nonfree projectives or genuine local sheaf/stack and nonaffine geometry",
+    "New relative Pic/Cartier/correspondence family and independent metric/filtration",
+    "Stronger Frechet or varying domains, source-dependent families and paid cofinal/infinite transport",
+    "New tensor object plus independent pole theorem, or actual dangerous-core all-source signed estimate"
+  ],
+  "next_admission": "Require actual nontrivial relative object with physical map, whole Pan, r0, both degree roles, original fees and at least one independent filtration/capacity datum; absent data do not reopen recipe or create unknown RR contract.",
+  "settlement": {
+    "added_rounds": 0,
+    "cadence": 2,
+    "formal_review": "cycle14 unchanged",
+    "latest_math": "573 unchanged",
+    "runtime_goal": "null at 2026-10-22T04:01:27Z, no creation",
+    "goal_gate": "open/not-eligible"
+  }
+}

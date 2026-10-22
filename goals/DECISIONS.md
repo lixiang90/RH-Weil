@@ -1075,3 +1075,25 @@ strong-old542+555→557 wholeleading4/5上预算不改，不代actual负谱lower
 要求明确line对象/source map/overlap；只有旧指数/谱商/附加cycle即来源0止，不串paper或建未知容量合同。
 现有family/强拓扑/变域/小原始域/新非标量边与有费无限修复保留。
 来源0结算/cadence2/正式cycle14保持，strong-oldwhole4/5/core/coupling/Ξ与Goal门未改。
+
+## D20261022G：实际DGA模块门已执行；严格拼接可付，非平凡移动和容量未付
+
+按用户和新路线图§8，完成[本次实际比较](reviews/2026-10-22-actual-dga-line-moving-and-basechange-admission.md)。
+三独占稿、exact controls与fresh限定PASS已核；root按标准模块/旧推论来源0结算，原cadence2/正式cycle14保持，最新数学仍573。
+未创建C037/574或runtimeGoal，不续C036旧预算。
+
+正确单位化A给free graph Lr=A(1,xr)与framed标记sr=xr(1,xr)；全Pan以ηq给实际同伦，保537非根/双degree。
+未加frame的pair还会因unit rescaling识别r/2r，不能冒领整个Pan商的忠实参数化。
+更强Koszul Kr=A[ε],dε=xr给全Pan严格可加gauge ε→ε+ηq及semi-free derivedbasechange；因此不再把“无任何拼接”当缺口。
+但graph Pic类、Koszul det线恒平凡；A→R后只是旧[R --xr-->R]。这是合法repair仍未给新primitive容量。
+polezero的r0杀两个degree幂等，标量mark非全base regularCartier；允许primitive局部/另载体并保全pole协同责任。
+
+原du/Dlog fixed窗代表费与负次ηq的Schwartz费分开；全平移qv原norm不变而唯一E逆lift的指定半范数为e^κv倍。
+此精确费用限本实际lift，不代所有几何source下界，X代表亦不下降成R的正metric。
+真F5 genus2 L0=O(P+Q−2∞)非平凡，h0(K)2→h0(K⊗L0)1；proper goodfamily/basechange及校正Picard overlap来自真实几何。
+连续双polezero同recipe两号，而free/Koszul设施两段都成立；完整Γ/contact、allpp、双pole/mixed始终保留。
+
+因此按用户条件停止free/unit/Koszul入口，不调参数、不自动串paper/未知RR合同。
+下一须实际非平凡relative对象及physical map/全关系/原费用，并至少一项独立整性过滤或capacity数据，才重准入。
+保非自由/非仿射/新相对层、强拓扑/变域/sourcefamily/有费无限修复；不声称Pic全零或所有derived无几何。
+独立tensor对象/pole定理或actual危险core全源signed输入会改变排序；目前whole4/5/core/coupling/Ξ及宏观完成门不变。

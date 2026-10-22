@@ -1,11 +1,21 @@
 # 宏观前沿：可消费范围与最小未付箭头
 
 2026-10-22更新；完整Goal/唯一动作/现场观察以STATE为准。同G20261014，冻结0c4f/全部≤538。
+最新[actualDGA模块／line移动门](reviews/2026-10-22-actual-dga-line-moving-and-basechange-admission.md)三稿/fresh已root范围闭合。
+正确A单位化下Lr=A(1,xr)/framed标记保全Pan与537；Kr=A[ε],dε=xr的ηq严格gauge可协同，scalar/semifreebasechange已付。
+因此缺口不能继续写成无line/无任何拼接。未加framepair有unit缩放，graph Pic及Koszul det恒平凡；到R仍是旧multiplication cone。
+真genus2非平凡L0使h0(K)2→h0(K⊗L0)1，proper族/basechange/校正Picard overlap与free scalar换底不同。
+fixed窗du/Dlog代表费及Pan实际平移E逆lift的e^κv费保原量词；不降正商norm，不代所有新几何lift必要下界。
+连续双polezero正反均有同模设施，目标Weil型两号。完整Γ/contact/allpp/双pole仍欠同一算术filteredmetric/primitive容量比较。
+本门来源0止，无新574/C037，cadence2/正式cycle14不改；whole4/5/core/coupling/Ξ及宏观瓶颈未变。
+下一先验收新的实际非平凡relative对象/source map/全关系/原费与独立过滤或capacity数据；无数据不续本门或自动换paper。
+非自由/非仿射/新相对层/强拓扑/变域/有费无限修复保留；[本次报告](reviews/2026-10-22-actual-dga-line-moving-and-basechange-admission.md)及root收据保存精确范围。
+
 本次用户要求总体重排，当前战略为[573后新路线图](reviews/2026-10-22-generalized-weil-roadmap-after-573.md)，
 主稿及[genus2评价moving首门](reviews/2026-10-22-function-field-evaluation-moving-source-gate.md)已fresh限定PASS并root消费。
 函数域独立正号仍来自同一对象的有效性/RR或ample mixed交数；新主线先验收可移动的源family及原metric，
 不再把已有载体、二次容量或relative电荷本身当缺口。首门真实区分ordinary/jet/special/excess，非新RH结果。
-下一只比较MilneJVs7.6的twist/basechange正控制与actualadelicDGA模块的具体line/source/overlap；无实际新操作即止，不串paper。
+当时指定的MilneJVs7.6/twist/basechange模块比较现已在顶部实际执行来源止，不作为待执行任务。
 tensor及actual核心signed是有新输入时的备选。来源0已结算，cadence2/正式cycle14不改；宏观正性/whole/core瓶颈未变。
 
 最新数学[C036/573结算](reviews/2026-10-22-relative-ideal-573-settlement.md)与[原证明](../notes/573-relative-ideal-chain-closure-and-regulator-loss.md)已root/fresh闭合。

@@ -1,9 +1,16 @@
 # 长期研究恢复入口
 
+最新[实际DGA线对象／移动准入](reviews/2026-10-22-actual-dga-line-moving-and-basechange-admission.md)已fresh限定PASS并root范围闭合。
+具体free graph及framed源标记、全Pan同伦、Koszul严格协同和scalar base change均真实；不再泛称没有拼接。
+graph Pic类及Koszul det线恒定，换到R仍为旧source quotient的zero-locus；尚未实现函数域非平凡degree-zero移动或独立容量。
+原du/Dlog代表费与ηq源费已分开，真FF twist/连续双polezero正反控制已执行；完整Γ/pp/pole未删。
+本入口按用户停止，来源0/cadence2/正式cycle14保持，无574/C037。下一仅验收新的非平凡relative数据、actual源map/原费和独立过滤/容量，不自动串paper。
+当前完整状态、强旧后果与未排修复见STATE/前沿；宏观瓶颈未变。
+
 本轮用户要求的[573后新路线图](reviews/2026-10-22-generalized-weil-roadmap-after-573.md)已fresh限定PASS并root闭合。
 主线回到函数域独立正号：可移动同源family与mixed RR/Rosati容量；tensor/actual核心signed只在有新输入时准入。
 [真实genus2评价首门](reviews/2026-10-22-function-field-evaluation-moving-source-gate.md)已执行，区分普通重复、厚点修复、special与excess，来源0不作574。
-下一动作以STATE和新稿§8为准：twist/basechange正控制对照实际adelicDGA模块的具体line/source/overlap；无新操作即停。
+该稿§8的twist/basechange模块门已按顶部报告执行停止，不再从历史“下一”恢复重跑。
 cadence2/正式cycle14保持，宏观独立正性与whole/core瓶颈未变。
 
 最新数学[C036/573实际相对ideal闭链结算](reviews/2026-10-22-relative-ideal-573-settlement.md)已root/fresh闭合，统一一轮cadence1→2，正式cycle14保持。
