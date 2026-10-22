@@ -1241,3 +1241,19 @@ continuous±同local权而native型异号，不假报CM反例；FF两place步长
 统一一轮cadence3→4/历史44→45，formalcycle15保持，恢复/branch/fresh/推送0额外轮。局部强完成/费用门改变，经典独立primitive mixed容量、signed运输与strong-old542+555→557 whole4/5负惯性UPPER、actualq/core/coupling/Xi未变，长期门open/noteligible，runtimeGoalnull。
 
 停止本H^-2球族/S-unit-label-boundary，不续σ/levels/paper。下一仅实际同强域full-local作用/relative regulator/cycle/Green且读额外原源的具体公式，先405全principal/537及全源非根/原du-Dlog，再同对象局部过滤、截面lift/乘法与mixed RR。无实物仅一个章节级来源门即止，不建未知新合同。不同基/载体、源适应/非局部/非有界height和paid强完成均保留；等价接口允许独立证明，不以定义Q代输入。
+
+## D20261023E — full-local强域与额外Green源已付，principal／primitive仍不闭合
+
+依据C045/582、三独占原件和独立fresh最终限定PASS及root收据。用户沿581要求full-local与actual额外source；紧开Gabor具体ℓ1域/精确Cartan成本和nativecycle/β1Green源新实物准入一轮，非抽象包络或旧商换名。Feichtinger一般理论和KRY原native定理准确归前人，本轮仅认实际桥及原费/首门。
+
+A1→S0源强费36/5du，normalized球p^|j|；完整SL2 θp=maxentry精确，含2-adicchirp、强连续而非全群uniform。其他finite位保真实Bruhat/对偶格，archfixedGaussian可取Schwartz或S0；rawT*r另需指数矩，真实双polezero平移全sup e^(T/2)排du强统一而保逐源/fixedwindow。full-local稳定没有扩展generalEis/Green/cycle functor。
+
+真实λ核F0=0且Q_*F=0，有odd/even原Bruhat核；额外T*r⊗h解析注入/原Hilbert费合法，标准E却不读该腿。点/开闭过滤可协同运输，不full-Weil单一ideal；支持理想幂idempotent。chirp作用FG与逐因子作用差一个相位，Fourier换乘法/卷积，故不是自动DGA/Cartier或算术截面乘法。保tensorgraded/linecocycle及真正degreezero geometry。
+
+actualarch-only fulls righttr给φ_r(x+iv)=∫r e^(u/2)φ0(x+i ve^u)，x不缩放、保整数n。native Div_C的positiveL与negative完整2β1源积分实际，du核平方费1/(4πnv)、π/(6mv)；全vLaplace注入并找回537奇非根。405每fixed平移smallv n1 degree非零；全部x Fourier绝对收敛使constant/负频不能对所有x取消n1，因此完整family非principal某x，非以子项失号否定whole。
+
+完整M_r(.5−s)M0/constant M'_r(.5)、Γ/allpowers/端点与真实δ保留；M_P(.5−s)=s(s−1)M_H完整非constant预算仍非零。fixedheight各项原费不代全height/n容量；真实移源协同v费用e^(b/2)已核。q7 coarse SpecO_H h1给native divisor按同系数principal的degreeiso；fixedcoarse degreezero类零，不抹掉family读出、不泛称stack/higher/relative或所有λ核无几何。
+
+连续±同localstrong设施而native型异号、未接CM不假报反例；trueFF仍同C×C primitive mixed交数/实际截面乘法/RR及全returns/aliases/H0H2，两个place步长相称。552/553/579/581高频/旧商去重；新局部设施已付而经典独立principal/Green mixed容量、signedζ运输、strongold542+555→557 whole4/5负惯性UPPER与actualq/core/coupling/Xi均未改。
+
+统一一轮cadence4→5/历史45→46，formalcycle15保持，恢复/分支/fresh/发布0额外轮；Goal门open/noteligible，runtimeGoalnull未创建。停止本S0本身/λ核extra/arch-only-nativeGreen自动容量recipe，不续word/orbit/level/下一paper。下一仅同一非零primitive实际算术载体上的relativeprincipal/Green cocycle及物理源，先405全关系/537与全源非根/原du-Dlog与全部尾，再整局部过滤/截面lift乘法/mixed二次RR。没有实物只一章来源门即止，不建未知合同。不同载体、高相对、source-aware与有费非有界Green及独立证明等价接口仍保。

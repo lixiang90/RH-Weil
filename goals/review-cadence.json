@@ -5,19 +5,19 @@
   "target_rounds": 6,
   "maximum_rounds": 8,
   "counting_unit": "completed research continuation iteration, not tool calls or files",
-  "rounds_since_review": 4,
+  "rounds_since_review": 5,
   "last_review": "goals/reviews/2026-10-22-general-rh-macro-review-cycle-15.md",
   "last_review_baseline_commit": "c5c9bb16d06396371a6feae747192f58728b7c6e",
   "last_review_completed_round_count": 6,
   "last_review_trigger": "572–577 six complete research iterations.577 root closure settles5->6; formalcycle15 resets samecadence6->0 once. HistoricalWeil40->41 retained; source/branch/audit/checkpoint/review/push zeroextra. SameGoal/frozenbaseline.",
-  "last_completed_round": "notes/581-arithmetic-weighted-two-prime-completion-and-relative-capacity-gap.md",
+  "last_completed_round": "notes/582-full-local-weil-strong-domain-and-actual-green-source-gates.md",
   "last_completed_round_date": "2026-10-23",
   "last_completed_round_baseline_commit": "0c4f3a3eb609bb1d9564138fa4a35701f05605f2",
-  "latest_user_directed_review": "goals/reviews/2026-10-23-weighted-two-prime-admission.md",
+  "latest_user_directed_review": "goals/reviews/2026-10-23-full-local-weil-green-admission.md",
   "latest_user_directed_review_baseline_commit": "0c4f3a3eb609bb1d9564138fa4a35701f05605f2",
-  "latest_user_directed_review_scope": "C044/581算术H^-2双prime全源强完成/原费与完整解析像，真实Sunit scalar/两边界方向及RR缺口；fresh/root闭合统一一轮3→4/44→45，formalcycle15保持。",
-  "current_research_focus": "Arithmetic height damping pays a genuine partial-Fourier/product algebra and all-source injective analytic interface. Original Schwartz domain and actual S-unit principal/capacity fail; need same-domain arithmetic regulator/cycle/Green with extra-source data, not label conjugation.",
-  "weil_f1_rounds_since_historical_review": 45,
+  "latest_user_directed_review_scope": "C045/582 actualS0 fullSL2/A1原费、额外nativecycle/β1Green源及完整Pan/537/Γconstant/coarse门；fresh/root前件闭合一轮4→5/45→46，formalcycle15保持。",
+  "current_research_focus": "Full local Weil strong domain and extra physical-source native Green family are concrete. Principal descent and same-object primitive quadratic RR still fail; require an actual relative Green/principal source on a carrier with nonzero primitive part, with original costs and all tails.",
+  "weil_f1_rounds_since_historical_review": 46,
   "last_completed_round_note_paths": [
     "notes/524-f1-mobius-cutoff-taylor-obstruction-and-repair.md",
     "notes/525-f1-smoothed-mobius-probes-and-arithmetic-strength.md",
@@ -64,6 +64,7 @@
     "notes/578-prime-pole-signed-budget-and-selberg-control-gap.md",
     "notes/579-kry-physical-gaussian-source-and-native-primitive-obstruction.md",
     "notes/580-kry-finite-schwartz-boundary-cocycle-and-level-alias-gap.md",
-    "notes/581-arithmetic-weighted-two-prime-completion-and-relative-capacity-gap.md"
+    "notes/581-arithmetic-weighted-two-prime-completion-and-relative-capacity-gap.md",
+    "notes/582-full-local-weil-strong-domain-and-actual-green-source-gates.md"
   ]
 }

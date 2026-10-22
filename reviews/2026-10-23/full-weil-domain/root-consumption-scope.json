@@ -1,0 +1,163 @@
+{
+  "schema": "rh-weil-root-premise-closure-v2",
+  "iteration": "582",
+  "contract": "C045",
+  "status": "root-consumed-qualified-pass",
+  "consumed_at_utc": "2026-10-22T23:17:54.118106Z",
+  "goal_epoch": "G20261014",
+  "goal": "goals/GOAL.20261014.md",
+  "goal_lf_sha256": "cc6046029a8e5c9fe4eae427dfd663f1d851666370637c8fd451042f340fee8b",
+  "baseline_commit": "0c4f3a3eb609bb1d9564138fa4a35701f05605f2",
+  "fresh": "reviews/2026-10-23/full-weil-domain/fresh-whole-review.md",
+  "bindings": [
+    {
+      "path": "notes/582-full-local-weil-strong-domain-and-actual-green-source-gates.md",
+      "lf_sha256": "6d5e5711e44fad0aec44e6d95233b7898370430bc9b7b1cc8281b7d4304fdcc8"
+    },
+    {
+      "path": "goals/contracts/C045-full-local-weil-domain-and-actual-green-source.md",
+      "lf_sha256": "0fd15475efb13bf88020e098dab301b74bf009c2669f5a0c3ada4890b978f520"
+    },
+    {
+      "path": "goals/reviews/2026-10-23-full-local-weil-green-admission.md",
+      "lf_sha256": "85e5da99f5d1249c4b27fe653c0c96feb623387c86a2379cea39571903d62ffb"
+    },
+    {
+      "path": "reviews/2026-10-23/full-weil-domain/actual-regulator-cycle-and-principal-test.md",
+      "lf_sha256": "10c0cc6c5c708bb1b59c5c5887853532284c9ff55d74e3b34c7de2722b5287ea"
+    },
+    {
+      "path": "reviews/2026-10-23/full-weil-domain/fresh-whole-review.md",
+      "lf_sha256": "22cd73162f7d21fa253b972ae90b298b2af52c13180a478a34160572aaccd8b7"
+    },
+    {
+      "path": "reviews/2026-10-23/full-weil-domain/full-local-domain-and-source-fees.md",
+      "lf_sha256": "3d0ef72e9924ee74ddd962532ae057c2c5e7bc29da11d3ce8f9b98290ee0b505"
+    },
+    {
+      "path": "reviews/2026-10-23/full-weil-domain/local-filters-rr-and-controls.md",
+      "lf_sha256": "e856e771e38c2e6bdd88779c3997553c0e6d3fa1570dd4fe6f09aee3aebce93a"
+    }
+  ],
+  "dependencies": [
+    {
+      "path": "goals/GOAL.20261014.md",
+      "lf_sha256": "cc6046029a8e5c9fe4eae427dfd663f1d851666370637c8fd451042f340fee8b",
+      "payment": "existing input, not new classical positivity"
+    },
+    {
+      "path": "notes/405-f1-adelic-restriction-moments-and-radical.md",
+      "lf_sha256": "fe5ee4b574954e51a69c6bbbaa772bb75a1a510c91c837ba02eed8ac406cbb7d",
+      "payment": "existing input, not new classical positivity"
+    },
+    {
+      "path": "notes/537-source-exact-weil-window-positive-tail-admission.md",
+      "lf_sha256": "269a500556d37fc04a4e44efd2f0899414787743e529506dbbe7395a34eea9f8",
+      "payment": "existing input, not new classical positivity"
+    },
+    {
+      "path": "notes/553-principal-cyclic-closure-and-cofinal-readout-fees.md",
+      "lf_sha256": "35a40c35d1eaa7fafb462361ddef1bfb9643402b5670f832b9142aeb4b74abce",
+      "payment": "existing input, not new classical positivity"
+    },
+    {
+      "path": "notes/555-actual-prime-weighted-schur-and-growing-weil-inertia.md",
+      "lf_sha256": "55a3745ab8160738e2a2dde15e84290e99205df68f3b59b357d26127846a31c5",
+      "payment": "existing input, not new classical positivity"
+    },
+    {
+      "path": "notes/557-joint-row-norm-and-gamma-arithmetic-moment-budget.md",
+      "lf_sha256": "5abfd13af9c955b27c5a2ea8f01d2555fa05b1df450adbedbcfe20f62d327166",
+      "payment": "existing input, not new classical positivity"
+    },
+    {
+      "path": "notes/567-function-field-positivity-origins-and-generalized-correspondence-tests.md",
+      "lf_sha256": "96c0c5a62e4175705696a29ed28d890eb11cec6f7351dc763641b65f3fcaec8a",
+      "payment": "existing input, not new classical positivity"
+    },
+    {
+      "path": "notes/579-kry-physical-gaussian-source-and-native-primitive-obstruction.md",
+      "lf_sha256": "1b4506e2a1dfd311b7816e17622b45ee257295c6716822cfc424b0e93ef306f1",
+      "payment": "existing input, not new classical positivity"
+    },
+    {
+      "path": "notes/581-arithmetic-weighted-two-prime-completion-and-relative-capacity-gap.md",
+      "lf_sha256": "49685901d3aba83816a0f41f5b7d5c8d55e994764f15dbc442d784cc389aa31c",
+      "payment": "existing input, not new classical positivity"
+    },
+    {
+      "path": "reviews/2026-10-23/weighted-two-prime/root-consumption-scope.json",
+      "lf_sha256": "032ce32e56def3fccef92ec72c6cefaaf333e6b5ba339af9d603672ff6467793",
+      "payment": "existing input, not new classical positivity"
+    },
+    {
+      "path": "notes/552-radial-adelic-green-principal-and-comparison-gate.md",
+      "lf_sha256": "670c05aac61921a4f36accc89638e2844fe7221df6341e4e7ff27964fb22d887",
+      "payment": "existing input, not new classical positivity"
+    }
+  ],
+  "object_domain_range": {
+    "physical": "r=e^(u/2)f, ALLcomplex S_exp / originaldu and zero-extension Dlog. Compact537 witnesses vs fullnoncompact405 distinct",
+    "full_local": "split2/11 V=Qp² Q=-xy selfdualL, S0 exactGaborl1 actual C0/L1/L2; A1 embeds in productS0. Otherfinite restricted Bruhat/true dual lattices; realSchwartz or GaussianS0. Nu native fixed, no Haar rescaling",
+    "source_maps": "fixedarch phi* tensorF_w vs rawT*r vs Y=T*r tensor h_in_kerlambda vs arch-only righttr Green family are different maps; never transport norms/readouts for free",
+    "geometry": "native q7 Div_R/C by integern,v family (positive fixedfiniteZ(n), negative finitearch beta1 current), not integral section or K/regulator/generalcyclefunctor. q7 coarse naturalcoefficient Arakelovdivisor quotient separately typed",
+    "norms": "originaldu/Hlog; source strong exponentialmoments needed for rawarch and allfixedheight/n-sum. Exactlocal theta(g) is fixedg factor, not allg uniform height/RR cost",
+    "roles": "405 P and alltranslates genuine noncompactrelations; rstar compactpolezero Q>0 by537 nonroot; local function nonzero/Chow primitive/physicalsource roles not merged"
+  },
+  "paid": [
+    "actual Gabor atom S0=l1, C0/L1/product/convolution/dualpoint reads; normalizedballnorm p^|j| and A1->productS0 sourcefee36/5du",
+    "fullsplitSL2 exact operator theta=maxentries via no-divide2 chirp/K/Cartan, stronglycontinuous; fixedadelicg constants finite; genuinelambda fixedg reads",
+    "rawT*r allSexp legal/injective, strongGaussianfee4sqrt(nu)int|r|cosh; actualcompactpolezero translations give e^(T/2) sup lower, so not globaldu strongupper",
+    "full local lambda kernel F0=0 and Q_*F=0 nonzero odd/even; explicit extra Y_o/Y_e originalHilbertfees and standardE blindness. Covariant filters legal but supportidealpowers idempotent/fullWeil notpointproductautomorphism",
+    "actual arch-only righttr x unchanged, v->ve^u; nativepositivecycle and complete2beta1negativeGreen sourceintegrals, allvLaplace and fullMellin source injective",
+    "positive kerneldu squared1/(4pi n v), negativecomplete2beta1 squaredpi/(6mv), source-height translation actuale^(b/2)fee. IntegerFourier/qFourier factors preserved",
+    "405 eachfixedb smallv n1degree nonzero; fullx Fourier absolutelyconvergent so constant/negative cannot cancel n1 forallx; existsx wholefamily nonprincipal. FullMellin s(s-1)M_H M0 nonzero independent completebudget check",
+    "explicit odd537 source formerly c0 nowGreenL nonzero; nonroot fromold537, source choice noQ/zeros",
+    "constant Mprime_r(.5) retained, standard/righttr delta explicit, completeMellin M_r(.5-z)M0. AllGamma/primepowers/poles inherited, not Qzeta quadratic equality",
+    "q7 coarse SpecO_H fromKRY, normEuclidean11/16 givesh1; naturalreal/complexArakelovdivisor modsamecoefficientprincipal degreeiso, nativefixedcoarseprimitivezero. Doesnotkill family/relative/higher/stackpossibilities",
+    "continuous± and trueFF sameobjectmixedRR/allaliases controls; old552/553 highfrequency/boundedquotient mechanisms deducted"
+  ],
+  "quantifiers_errors": {
+    "local": "theta exact at2/11 split only; bad7 otherfinite true fixedconstants/duallattices, not exactsplitformula",
+    "fixedarch_vs_raw": "36/5du forF_w doesnotpay rawrealstrong seminorm; rawduHilbert bounded not allSchwartz/S0strongbounded",
+    "lambda": "kerlambda nonzero; 579radialsource injectivity not universalfiniteinjectivity. kernelencode doesnotimply actualnonzeroarithmeticclass",
+    "Green": "fixedn,m,v fees includea_n/Nlambda and q-exp factors, not alln totalheight. S_exp pays fixed(x,v) fullFourier absolute convergence. Fullheight/duuniform notpaid",
+    "principal": "for eachfixed405shiftb smallv existsx wholefailure, not eachx or allv sign. Constant/poles/allmodes cooperated beforeconsumption; no subterm failure usedaswholeclaim",
+    "Mellin": "initial Re z>1 absolutechange via Sexp moments, then inheritedmeromorphicidentity. Central factor rhat source-linear/signed, not HermitianQ/positivity. Mprime endpoint jets not removed",
+    "coarse": "only fixedq7 nativecoarse naturalDiv_R/C/principalspan quotient, not abstractPic tensorR/stackK/higher/framed/relative/newcarrier/family",
+    "limits": "fixedwindow/strongsource/Dprime/growing/allline and arithmeticheight/localgroupheight/frequencydistinct"
+  },
+  "coefficient_direction": "independent actual local strong-domain and linearGreen/source facility; no positive primitive quadratic capacity or signedQzeta transport. strongestold542+555->557 wholeleading4/5 negative-inertia UPPER unchanged.",
+  "unpaid": [
+    "same nonzero-primitive arithmetic carrier relativeprincipal/Green cocycle with physicalsource and all405 nullhomotopies preserving537/fullsource",
+    "general fullWeil or infinitecycle/Green/regulator same-domain extension and actualsource mixednorm/tails",
+    "schematic localvanishing filtration, integral source sections/lift/multiplication, primitive mixed quadraticRR on sameobject",
+    "signedKRY-to-completeQzeta comparison including fullGamma/powers/poles and independent unbounded or extrasource capacity",
+    "actualq disappearance, growingcore/coupling and Xi identification"
+  ],
+  "fresh_reviewed_math_main_lf_sha256": "52198de059b8cfc23565f8fcf7ecc2e93ccd07867ecd4cdfdd94922bf6e19723",
+  "final_post_fresh_changes": "main top settlement/link only; final mathematics including wholeFourier協同 and fullMellin nonzero argument independently reviewed before binding.",
+  "net": "Actual full-action domain and extra Green-family/source-cost gaps narrowed; no new completeWeil positivity, independentprimitivecapacity or strongestold actualzeta net consequence.",
+  "stop": "full-localdomain alone / lambda-kernel extra encoding / arch-onlynativeGreen auto-capacity recipes; no word/orbit/level/paper continuation",
+  "retained": [
+    "same-domain actual relative/higher regulator and Green principal cocycle",
+    "different arithmeticcarrier with nonzero primitivepart",
+    "source-aware/gradedtensor/linecocycle/transported multiplication or filters",
+    "paid unboundedGreen/height and growingframes with complete source costs",
+    "independent proof of equivalent interface"
+  ],
+  "next_admission": "concrete source->sameobject relativeprincipal/Green on nonzero-primitive carrier; first405/537/fullsource/originaldu-Dlog/alltails, then integralfilter/lift/product/mixedRR. No formula =>onechapter source review and stop.",
+  "cadence": "one582 completediteration4->5 historical45->46 formalcycle15 retained; recovery/branches/fresh/sync zeroextra",
+  "completion": "Goalopen/noteligible; runtimeGoalnull observed, notcreated/completed",
+  "publication": "current direct syncrequest plus persisted human completepublicresearch and metadataauthorization",
+  "external_primary_sources": [
+    {
+      "url": "https://comptes-rendus.academie-sciences.fr/mathematique/item/10.1016/j.crma.2018.12.004.pdf",
+      "scope": "standardS0/p-adic/adelic model, concrete splitnorm proof supplied locally"
+    },
+    {
+      "url": "https://www.math.uni-bonn.de/people/rapoport/myalggeom/preprints/tinynew.pdf",
+      "scope": "nativeKRY sections, Mellin, specialcycles/archdivisors and coarseCor5.4; no generalfullWeilcycle theorem inferred"
+    }
+  ]
+}

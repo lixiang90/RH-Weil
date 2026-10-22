@@ -7,12 +7,12 @@
   "workflow": "goals/RESEARCH_WORKFLOW.md",
   "cadence": "goals/review-cadence.json",
   "decisions": "goals/DECISIONS.md",
-  "latest_strategy": "goals/reviews/2026-10-23-weighted-two-prime-admission.md",
-  "latest_decision": "D20261023D",
+  "latest_strategy": "goals/reviews/2026-10-23-full-local-weil-green-admission.md",
+  "latest_decision": "D20261023E",
   "macro_frontier": "goals/MACRO_FRONTIER.md",
-  "macro_summary": "goals/reviews/2026-10-23-weighted-two-prime-admission.md",
+  "macro_summary": "goals/reviews/2026-10-23-full-local-weil-green-admission.md",
   "latest_macro_review": "goals/reviews/2026-10-22-general-rh-macro-review-cycle-15.md",
-  "latest_iteration": "notes/581-arithmetic-weighted-two-prime-completion-and-relative-capacity-gap.md",
+  "latest_iteration": "notes/582-full-local-weil-strong-domain-and-actual-green-source-gates.md",
   "macro_control": {
     "schema": "macro-recovery-v2",
     "goal_epoch": "G20261014",
@@ -20,8 +20,8 @@
   },
   "macro": {
     "long_objective": "保G20261014：由一般g-integer及对偶建立独立同源Weil正性/有效性/RR设施以覆盖classic；实际ζ成长core及完整谱约束仍按冻结基线验收。",
-    "unpaid_bottleneck": "有算术H^-2权/A1强完成/full解析像与原du费已付，但同球像失原Bruhat，真实Sunit预算scalar失Pan/537，反向边界全吞。仍欠同强域arithmetic principal/regulator/cycle/Green及signed运输/primitive mixed容量；actualq/core/coupling/Xi与whole4/5upper未变。",
-    "why_this_contract": "用户沿580指定有权逃逸；真实格高度/A1代数与sharp原费、全源解析像及边界方向新实物准入C044一次。fresh/root已闭合后止，不调σ/levels/paper；下一须actual同域边界公式。",
+    "unpaid_bottleneck": "A1→actual full-local S0与原du费/额外nativeGreen源已付，但全Pan仍有完整非principal输出，fixedq7coarse native primitive零。仍欠同一非零primitive载体的relative principal/Green cocycle、整过滤/截面lift乘法与mixedRR/signedζ运输；actualq/core/coupling/Xi及whole4/5upper未变。",
+    "why_this_contract": "用户沿581指定full-local/额外源；实际Gaborθ成本及nativeβ1源/全Fourier协同新实物准入C045一次。fresh/root闭合后止；只新同对象principal/Green公式重准入，不续群word/旧商/paper。",
     "paused_routes": [
       "零点比例优化",
       "无零区域优化"
@@ -34,20 +34,21 @@
       "10-23 KRY1999 source0：完整mixedGamma真在，但degree线性/signed差商未付；P1 primitive全零，574absolute torsion不排relative。只停直接抽取/廉价载体，不续level/q/paper。",
       "579/C042：actualGaussian/λ注入保Pan，nativeweight1 scalar失principal/漏奇非根；fixedrelative修复失败。保polar合法/强拓扑/非标量family；finiteEulernorm非actualq费用，不续参数。",
       "580/C043一轮止：真非标量cycles及localδ已付，finite fixedrelative失Pan/537；native单格compact注入但失Bruhat、全S_exp有Qζ>0盲源。只停指定recipe，保新边界/有权非整格/强完成。",
-      "581/C044一轮止：真H^-2/A1/full解析像已付，原Bruhat及真实Sunit principal/coverage未付；反向conjugate有费却全吞。只停指定recipe，保不同基/载体/extra-source及同域Green/regulator。"
+      "581/C044一轮止：真H^-2/A1/full解析像已付，原Bruhat及真实Sunit principal/coverage未付；反向conjugate有费却全吞。只停指定recipe，保不同基/载体/extra-source及同域Green/regulator。",
+      "582/C045一轮止：full-local强域及extraGreenfamily已付，完整Pan/primitive门仍失败；λ核编码标准E不读，fixedcoarse零类仅本模型。保真实relative/higher/非有界同对象Green。"
     ]
   },
   "primary_contract": {
-    "id": "C044",
-    "path": "goals/contracts/C044-arithmetic-weighted-two-prime-and-relative-boundary-gate.md",
+    "id": "C045",
+    "path": "goals/contracts/C045-full-local-weil-domain-and-actual-green-source.md",
     "status": "completed",
     "iteration_budget": 1,
     "settled_iterations": [
-      "notes/581-arithmetic-weighted-two-prime-completion-and-relative-capacity-gap.md"
+      "notes/582-full-local-weil-strong-domain-and-actual-green-source-gates.md"
     ],
-    "stage": "581/三分支/fresh已root闭合并统一结算；完整15源文件已发布且独立GET/同tree/local rawSHA/clean验证通过。sync元数据另child，不递归记录自身SHA。",
-    "next_action": "研究恢复仅接同强域full-local作用/实际relative regulator/cycle/Green且读额外物理源的具体公式，先405全principal/537及全源非根/原du-Dlog，再同对象局部过滤/截面lift与mixed容量。无实物仅一个章节级来源门即止，不续C044或未知合同。",
-    "stop_rule": "一轮止：仍scalar预算/零商/未知容量即止本recipe，保额外源真实边界/有费非有界及不同载体。"
+    "stage": "582/三原件/fresh最终限定PASS已root前件闭合并统一结算；正在按授权同步完整研究/元数据。",
+    "next_action": "先同步并独立验证582完整文件；恢复仅接同一非零primitive实际载体上的relativeprincipal/Green cocycle与物理源map，先405/537和全源/原du-Dlog/全部尾，再整过滤/sections/mixedRR。无实物只一章来源门即止，不续C045/未知合同。",
+    "stop_rule": "一轮止本域/源recipe；未知arithmetic桥或旧商不续参数/paper，保额外真实regulator/highercarrier及付费无界容量。"
   },
   "support_contracts": [],
   "must_not_forget": [
@@ -64,7 +65,8 @@
     "578正负continuous皆过fullLambda PNT/Selberg粗package，只排该包；最新Γ/twist identity余项actualg_RB_R及signed中心Pick未付。不同exact remainder不经运输不能互付。joint/非局部/强拓扑/变域/源适应/有费无限修补及独立证明等价接口保持。",
     "579 actualT*全S_exp→Schwartz/λ及nativec(r)Z(n)源存在，不能再泛称无源map；ν actualHaar固定。scalar失败405/537，不排高K/变化finite/relativeframe；directpolar合法不代cycles，实际Euler费不代q。",
     "580实际非标量cycle/完整δ存在但非principal；finite张满只对fixedlinear，非线性反测靠数据核。单格compact注入≠全S_exp注入；Hilbert费用≠Schwartz/height，负levels仅analytic；FF统一j0，dense双prime仅无权actual费失败。",
-    "581真A1 partialFourier/乘法/双读出/fixedgλ已付，非fullWeil/Green/cycle。J fixedarch与Ω协同不同；physical/frame共轭方向不可换。原Bruhat门/σ>1原费/全源解析注入及Ω d^-5保；actualSunit读出scalar，反向Koszul全吞，非capacity。"
+    "581真A1 partialFourier/乘法/双读出/fixedgλ已付，非fullWeil/Green/cycle。J fixedarch与Ω协同不同；physical/frame共轭方向不可换。原Bruhat门/σ>1原费/全源解析注入及Ω d^-5保；actualSunit读出scalar，反向Koszul全吞，非capacity。",
+    "582 fullSL2 S0/θ及A1原费已付，非cyclefunctor；raw强费≠fixedarchdu。λ大even/odd核不可称全S0可见；actualarchGreen x不缩放、fullFourier协同仍失Pan，constantM′不删。fixedq7coarse degreeiso不排relative/higher/family，fullgroup非点乘automorphism。"
   ],
   "evidence": [
     {
@@ -113,24 +115,9 @@
       "scope": "C041/root+fresh：完整signed与原费；新执行continuous正负皆过fullLambda Selberg/PNT而actual双polezero补偿不消，限粗package，非classic新signed。一轮。"
     },
     {
-      "path": "goals/reviews/2026-10-23-arithmetic-theta-capacity-source-admission.md",
-      "kind": "cited",
-      "scope": "KRY1999真mixed完整Gamma、线性degree与signed差商/源原费准入；P1 principal/absolute torsion旧检验，source0非新容量。"
-    },
-    {
-      "path": "reviews/2026-10-23/next-independent-input-admission/root-consumption-scope.json",
-      "kind": "cited",
-      "scope": "本次root对象/域/norm/源成长/paid依赖/误差/方向/coverage/strong-old及停止前件的最终版本绑定；hash非证明。"
-    },
-    {
       "path": "notes/579-kry-physical-gaussian-source-and-native-primitive-obstruction.md",
       "kind": "proved",
       "scope": "C042一轮actualGaussian原源/原费及nativecycle全Pan非principal与explicit537漏失；polar/finiteEuler范围闭合，非成功relative容量或新Weil正号。"
-    },
-    {
-      "path": "reviews/2026-10-23/kry-actual-source/root-consumption-scope.json",
-      "kind": "cited",
-      "scope": "579最终root对象/原域norm/完整预算/依赖误差/方向/coverage/strongest-old/停止前件的canonical版本收据；hash非证明。"
     },
     {
       "path": "notes/580-kry-finite-schwartz-boundary-cocycle-and-level-alias-gap.md",
@@ -151,16 +138,26 @@
       "path": "reviews/2026-10-23/weighted-two-prime/root-consumption-scope.json",
       "kind": "cited",
       "scope": "581最终对象/原域norm/源成长/依赖误差/方向/coverage/strongest-old/停止前件的LF版本绑定，hash非证明。"
+    },
+    {
+      "path": "notes/582-full-local-weil-strong-domain-and-actual-green-source-gates.md",
+      "kind": "proved",
+      "scope": "C045一轮：实际full-local S0/θ与A1原费；extra nativecycle/β1Green全源与完整Pan/537/Γconstant、fixedcoarse门，非primitiveRR或新经典正性。"
+    },
+    {
+      "path": "reviews/2026-10-23/full-weil-domain/root-consumption-scope.json",
+      "kind": "cited",
+      "scope": "582最终实际对象/域norm/源成长/依赖误差/方向/whole协同/coverage/strongestold/停止与LF版本，hash非证明。"
     }
   ],
   "pending_processes": [],
   "runtime_goal_observation": {
     "status": "absent",
-    "observed_at_utc": "2026-10-22T22:54:48.284760Z",
-    "basis": "发布后实际get_goal仍null；保文件G20261014/0c4f，无新建或complete实例。"
+    "observed_at_utc": "2026-10-22T23:17:54.118106Z",
+    "basis": "本轮实际get_goal=null；同文件G20261014/冻结0c4f，不创建或完成运行实例。"
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-10-23-weighted-two-prime-581-sync.json",
+  "checkpoint": "goals/checkpoints/2026-10-23-full-local-weil-green-582-root.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
     "commit": "83f68f55f8b279b1922f968b27dd558a1268afea",
@@ -172,15 +169,15 @@
     "goal_lf_sha256": "cc6046029a8e5c9fe4eae427dfd663f1d851666370637c8fd451042f340fee8b",
     "mathematical_gate": "open",
     "final_execution_gate": "not-eligible",
-    "basis": "581付独立局部强完成/原费用与准确边界门；同强域arithmetic principal/Green/cycle、mixedRR/signed运输及actualq/core/coupling/Xi未付，强旧whole4/5upper未变，Goal门open。"
+    "basis": "582付full-local域/源费用及实际Greenfamily，完整Pan与fixedcoarse primitive门未过；同对象relativeprincipal/Green mixedRR、signedζ及actualq/core/coupling/Xi仍欠，strongoldwhole4/5upper未变，Goal门open。"
   },
   "historical_completion_receipts": [
     "goals/goal-completion-receipt.20261014.json",
     "goals/goal-completion-receipt.20261014-continuation.json"
   ],
-  "process_inventory_observed_on": "三分支与fresh均completed/root已读；pending空，无后台计算。581完整源GitHub83f68f55/本地同SHA/tree/clean已核，保存同步回执child。",
+  "process_inventory_observed_on": "三分支和fresh均completed/root实际核读；pending空、无后台计算；起始HEADf7b12149，准备582完整源授权同步。",
   "publication_approval_gate": {
-    "status": "current-research-source-published-and-verified",
+    "status": "ready-for-authorized-582-complete-source-sync",
     "destination": "https://github.com/lixiang90/RH-Weil",
     "visibility": "public",
     "branch": "main",
@@ -193,6 +190,6 @@
     "published_source_commit": "83f68f55f8b279b1922f968b27dd558a1268afea",
     "verification": "reviews/2026-10-23/weighted-two-prime/remote-sync-verification.json",
     "history": "Earlier rejections retained in historical blocked/handoff checkpoints. Explicit human reply resolved scope; this is not a pending gate.",
-    "current_scope": "用户本轮沿580明确结果同步GitHub，结合既有人类完整文件公开授权；同一lixiang90/RH-Weil研究/STATE/决策/版本/检查点及后续sync回执。"
+    "current_scope": "用户本轮沿581明确结果同步GitHub，结合既有人类完整文件公开授权；同一lixiang90/RH-Weil研究/STATE/决策/版本/检查点及后续sync回执。"
   }
 }

@@ -1,14 +1,14 @@
 # 宏观前沿：可消费范围与最小未付箭头
 
-最新[C044/581算术有权双prime强完成门](reviews/2026-10-23-weighted-two-prime-admission.md)已独立fresh限定PASS、root前件闭合。
-split2/11的真实ideal-index高度H及H^-2权支付dense family原du/Dlog，保全L2/S_exp和完整解析Mellin像注入；σ2非唯一canonical选择。
-新Aβ强完成保两位partial Fourier、点乘/卷积、origin/integral和每fixed-g λ读出，σ>β≥1付原费；双读出全线sharp阈值σ>1。不是仅Hilbert换名，也非fullWeil/DGA/Green/cycle自动延拓。
-同球族任意处处非零合法权的非零源仍不属原Bruhat；compensated Ω与fixedarch J不同，实际537双polezero非根有d^-5 arch尾。
-真实S-unit imaginary-axis全s及两constant腿预算退Cw·M0；Pan全平移Cw<0、奇537读出0。physical I−T与frame方向核清；routing余charge外全尾付805/432原du。
-反向共轭是另复形，有实际Gram右逆24/5却H0=H1=0、H2=span w，不能叫成功primitive；常数S-unit支持2/11不付首levelchar7循环差。
-完整Γ/FP/contact/allpowers/双pole及continuous±/trueFF同对象mixed RR保留；FF两place步长相称，不移植densegrid。R_A新family实际费指数小归552旧机制，不重计正号。
-统一一数学轮cadence3→4/历史44→45，formalcycle15保持；强完成/费用前沿改变，独立容量、whole4/5负惯性UPPER、actualq/core/coupling/Ξ未变，Goal open。
-停止此H^-2球族/S-unit-label边界，不续σ/levels/paper；下一仅同强域full-local/实际regulator/cycle/Green且读额外源的公式，先405/537/全源/原费，再同对象mixed容量。
+最新[C045/582完整局部Weil强域与实际Green源门](reviews/2026-10-23-full-local-weil-green-admission.md)已独立fresh最终限定PASS、root前件闭合。
+split2/11紧开Gabor S0包含A1，||e_j||=p^|j|，F_w强费36/5 du；完整SL2精确作用费θp(g)=maxentries，含p2chirp，强连续不全群uniform。
+fixedarch源full-local/adelic强域已付；rawT*r另需指数矩强费，真实双polezero平移sup e^(T/2)，不能改称du统一。
+全λ核F0=0且Q_*F=0有odd/even核；额外source核腿解析注入但标准E不读。局部过滤可运输，支持ideal幂不长，Weil非点乘automorphism，不自动给DGA/Cartier或算术截面乘法。
+arch-only实际cycle/β1Green源保整数频率、全源Laplace注入和537奇非根；fixedheight原du费用1/(4πnv)、π/(6mv)完整。405每fixed平移smallv非零n1，完整x-Fourier协同仍失principal。
+完整M_r(.5−s)M0、M'_r(.5)constant及全部Γ/FP/powers/poles/δ保留；原du单项不代全height/n总费。fixedq7coarse nativeCH1 degreeiso只限本模型，保relative/higher/family。
+continuous±与trueFF同对象mixedRR/截面乘法/全aliases已对照；552/553旧机制不重计新正号。
+统一一数学轮cadence4→5/历史45→46，formalcycle15保持；局部full-action/Green设施改变，独立容量、whole4/5负惯性UPPER、actualq/core/coupling/Ξ未变，Goal open。
+停止本S0/arch-only-nativeGreen自动容量recipe，不续word/orbit/level/paper；下一须同一非零primitive载体actualprincipal/Green cocycle与源map，先405/537/fullsource/原费，再整过滤/sections/mixedRR。
 唯一动作和发布状态以STATE为准；以下“当前/下一”均为历史。
 
 2026-10-22更新；同G20261014／固定0c4f，完整Goal与唯一行动以STATE为准。
