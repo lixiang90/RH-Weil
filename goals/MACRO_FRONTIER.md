@@ -1,7 +1,14 @@
 # 宏观前沿：可消费范围与最小未付箭头
 
 2026-10-22更新；完整Goal/唯一动作/现场观察以STATE为准。同G20261014，冻结0c4f/全部≤538。
-最新[C036/573结算](reviews/2026-10-22-relative-ideal-573-settlement.md)与[原证明](../notes/573-relative-ideal-chain-closure-and-regulator-loss.md)已root/fresh闭合。
+本次用户要求总体重排，当前战略为[573后新路线图](reviews/2026-10-22-generalized-weil-roadmap-after-573.md)，
+主稿及[genus2评价moving首门](reviews/2026-10-22-function-field-evaluation-moving-source-gate.md)已fresh限定PASS并root消费。
+函数域独立正号仍来自同一对象的有效性/RR或ample mixed交数；新主线先验收可移动的源family及原metric，
+不再把已有载体、二次容量或relative电荷本身当缺口。首门真实区分ordinary/jet/special/excess，非新RH结果。
+下一只比较MilneJVs7.6的twist/basechange正控制与actualadelicDGA模块的具体line/source/overlap；无实际新操作即止，不串paper。
+tensor及actual核心signed是有新输入时的备选。来源0已结算，cadence2/正式cycle14不改；宏观正性/whole/core瓶颈未变。
+
+最新数学[C036/573结算](reviews/2026-10-22-relative-ideal-573-settlement.md)与[原证明](../notes/573-relative-ideal-chain-closure-and-regulator-loss.md)已root/fresh闭合。
 实际537窗双pole-zero非根r*的J*=<S1,δF_r*>借finite2x2Γ隔离含T/T*，commutator有限秩trace−4。
 因此固定430扩大A中原432Ω不能沿新HH1 quotient下降，任何更大同类ideal亦失败；无连续/正性假设。
 C*闭ideal=closureDsrc，灭全compact/L1 raw源（含Pan/r0）；代数J*不报全Dsrc，L1尾费不升HH域/全线du统一费。
@@ -9,7 +16,7 @@ C*闭ideal=closureDsrc，灭全compact/L1 raw源（含Pan/r0）；代数J*不报
 比旧424/427/431/432新增singledefect理想包含与闭包识别，统一一数学轮1→2/正式cycle14保持；非source0或macro完成。
 局部ideal保旧Ω未知已判失败；宏观独立primitive容量/完整Γpppole/source链、whole4/5/core/coupling/Ξ仍欠。
 保430扩大域与原最小u/E域区别、额外P/B/Γ测试边≠低费源lift；较小原域、新非标量transgression/不同pair/强拓扑/付费无限修复未排。
-本次ideal/probe/cell入口已止；下一只验收actual二层source链与异常变换律/全Pan/537/双degree原费用，再接同对象localfilters/metriclift/RR。
+本次ideal/probe/cell入口已止；当时提出的二层source比较保留为有新公式才准入的备选，当前按顶部新路线图执行。
 [root收据](../reviews/2026-10-22/relative-chain-closure/root-consumption-scope.json)保完整前件与停止范围。
 
 前次[boundary regulator门](reviews/2026-10-22-boundary-regulator-source-and-arithmetic-sections.md)主稿/四分支及fresh限定PASS已root闭合。
@@ -62,7 +69,7 @@ D_var可写完整cross-tail投影能量；在固定安全|R|≥exp(16eL)层，�
 当前没有已准入下一合同；新actual低频/Γrelative身份或global map＋独立预算到位才重准入。
 下面路线图及572结算中的“下一actual变分门”是已执行的历史指向，不得重复恢复。
 
-当前战略为[568–572后修订路线图](reviews/2026-10-20-generalized-weil-facilities-roadmap-after-572.md)。
+历史战略[568–572后修订路线图](reviews/2026-10-20-generalized-weil-facilities-roadmap-after-572.md)已被顶部新稿替代行动优先级。
 上版以来五轮及LS专题使非退化评价/Γ规范/cocycle/局部signed费用具体化，
 没有支付同一global section→jets的kernel/乘法、独立容量与完整mixed身份。
 不再把已完成的local载体/协同下降列作新主任务；其唯一变分来源门现已按上文执行收口，

@@ -1055,3 +1055,23 @@ strong-old542+555→557 wholeleading4/5上预算不改，不代actual负谱lower
 在此停止ideal/probe/cell参数；下一须实际二层source链及相对异常变换律，再核localfilters/actualmetriclift与独立capacity。
 保较小原始代数、非标量transgression、不同relativepair/regulator、强拓扑/变域/sourcefamily及付费无限传递。
 仅pair标签/旧谱商新包装或公设Q且正不准入新合同；不自动续文献或已停Sonin高层。
+
+## D20261022F：573后回到函数域独立正号，执行真实评价moving来源门
+
+用户要求总体审视与新路线图，明确以函数域Weil正性的来源为重点；此指导取代573后自动续链的短期优先级。
+[新路线图](reviews/2026-10-22-generalized-weil-roadmap-after-573.md)与
+[首门](reviews/2026-10-22-function-field-evaluation-moving-source-gate.md)已fresh限定PASS并root闭合。
+不新建Goal/C037，不把组织或标准来源核算编号574。
+
+主判断由“再补载体/平方/电荷”改为同一实际源的独立primitive正号：这些设施已有，
+缺source/全Pan→可移动filtered metric对象→独立mixed容量→完整Γpppole比较。
+实际genus2曲线上2Δ普通重复det恒0而真jet可修；branch/special有真实rankdrop，
+共有Δ分量非proper不能当有限collision。这不反驳Weil，而定位真实Picard移动/basechange/gluing责任。
+连续倍重det-square与tensor极点只是旧模型直接推论/选择审计，不冒称新classical输入。
+
+主线为实际源family与mixed RR/Rosati比较；tensor仅在有独立对象/pole定理时准入；
+分析备选需actual低频/core全源输入，不能续安全高层或model费。
+下一具体比较：MilneJVs§7 Thm7.6正控制的twist/basechange vs实际adelicDGA模块，
+要求明确line对象/source map/overlap；只有旧指数/谱商/附加cycle即来源0止，不串paper或建未知容量合同。
+现有family/强拓扑/变域/小原始域/新非标量边与有费无限修复保留。
+来源0结算/cadence2/正式cycle14保持，strong-oldwhole4/5/core/coupling/Ξ与Goal门未改。

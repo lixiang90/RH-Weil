@@ -1,0 +1,78 @@
+{
+  "schema": "rh-weil-root-premise-closure-v1",
+  "date": "2026-10-22",
+  "goal": "G20261014",
+  "baseline": "0c4f3a3eb609bb1d9564138fa4a35701f05605f2",
+  "consumption_status": "root-consumed after independent limited PASS and trace-object correction",
+  "outputs_lf_sha256": {
+    "goals/reviews/2026-10-22-generalized-weil-roadmap-after-573.md": "5ce1b8018e645b6448978977d397bc0c92498c816aecc2b91f7840daf2002d6f",
+    "goals/reviews/2026-10-22-function-field-evaluation-moving-source-gate.md": "f0dc61bc9a30479e97011728bbddb4a076a334b1cf0876ce16bd733bd27541f8",
+    "scripts/function_field_evaluation_moving_gate.py": "a21e3dc4482b1b93a3c4aedad4b127b70a7d79dfd623ddfd916c1f6b7498c9fd",
+    "reviews/2026-10-22/roadmap-after-573/evaluation-moving-controls.json": "479fb06ed7c8295af09e834c94df4112f49f41d430c88db43976fc3fe41fc65c",
+    "reviews/2026-10-22/roadmap-after-573/function-field-origins.md": "d184a906fa2a7363dfa4e667b4b0abaa6b1ab24077310dad80ae324c589b881b",
+    "reviews/2026-10-22/roadmap-after-573/positive-realization-admission.md": "b1600f187c77998b9ab42aa6193b81f21abd5bf8ef01d5ae79a493cc7b0a17b4",
+    "reviews/2026-10-22/roadmap-after-573/recent-lessons.md": "12193f84892febe00913cb13fbecd818a3f9785f6219a13c52fb644d5f9563a3",
+    "reviews/2026-10-22/roadmap-after-573/fresh-roadmap-review.md": "92f5ca2c947d4c758b9d3984f0c54923a75b4175ab08aa17e297453c23f4bf07",
+    "reviews/2026-10-22/roadmap-after-573/mixed-trace-controls.json": "330619ab4529b5c4bc65abc635574efe6b89bea9f2fbd8fd258630a0c1d54d62"
+  },
+  "classification": {
+    "roadmap": "strategy, 0 iteration",
+    "genus2_gate": "standard-source concrete local control, 0 iteration; no new global theorem",
+    "det_tensor": "direct corollaries/audit of paid 563/567 models, 0 iteration; not new method-class boundary",
+    "latest_math": "573 unchanged",
+    "cadence": "2 unchanged, formal cycle14 unchanged"
+  },
+  "object_domain_role": {
+    "curve": "smooth projective model y^2=x^5-x+1/F5; local geometric branch points may require base extension",
+    "sections": "H0(K) with omega0=dx/y, omega1=x dx/y; true restriction to length-two subscheme vs repeated ordinary evaluation",
+    "correspondence": "2Delta nonzero Jacobian [2]; self-composition 4Delta has trace16, 2Delta itself trace8",
+    "special_null_control": "P+iotaP canonical; Delta+Gamma_iota acts zero, not a nontrivial Weil positivity counterexample",
+    "physical": "r=e^(u/2)f in original compact/extended domains; no new map to geometric family constructed",
+    "relations": "405 full Pan and Q radical distinct; compact empty Pan intersection is not full relation coverage"
+  },
+  "source_growth_norm": {
+    "local_controls": "exact F5 matrices plus formal branch identity, no finite sampling extrapolation",
+    "all_coefficients": "polynomial determinant statement follows p(C)=aI+bC; no finite sampling proof",
+    "fees": "frame changes are units; no classical du/Dlog metric transport or cofinal fee paid",
+    "growth": "no new growing-window claim; no chart inverse asserted a necessary source lower bound"
+  },
+  "paid_dependencies": [
+    "567 CxC RR/effectivity/Hodge/full Gram, 307 degree, 563 certificates, 566 heat lift inherited with original scopes",
+    "Milne JVs5/7 independent relative effective divisors/base change/degree-zero twist; not classic uniform metric estimates",
+    "CCM2.3 evaluation/collision proof examined only with nonzero/proper/general-position responsibilities",
+    "573 fixed430 enlarged-A ideal obstruction and actual pair charge retained; smaller original domain and different repairs not excluded"
+  ],
+  "direct_checks": {
+    "nonbranch": "double point ordinary det0; true jet det1 in omega0 frame, b^-2 in dx frame",
+    "branch": "delta=-t^2+O(t^10); rank1 intrinsic, canonical fiber",
+    "reduced_special": "distinct conjugate points still rank1; canonical pencil",
+    "excess": "Y=2Delta, Y.Delta=-4, not finite positive collision count; full self-composition trace16 positive",
+    "continuous": "d=-1/16 doubled trace=-1/4, all real polynomial determinants squared nonnegative; d=+1/16 trace=+1/4",
+    "tensor": "even powers nonnegative both segments; direct Laplace pole test conditional/equivalent growth interface, not new independent global pole theorem"
+  },
+  "errors_and_unpaid": [
+    "Local script is not global moving/collision/RR proof",
+    "No actual physical-source line-family, overlap, original metric lift or independent primitive capacity identity",
+    "No new complete Gamma/contact, all prime powers, both pole or complex mixed identity for classical zeta",
+    "Global H1 tensor is not Deligne local lisse-sheaf Euler tensor; distribution W_C cannot be pointwise powered",
+    "Trace/tensor determinants do not restore Jordan data or faithful ordinary multiplicities"
+  ],
+  "coefficient_and_direction": {
+    "genus2": "nonzero determinant failure distinguishes representation vs intrinsic specialness, not failure of positive geometric trace",
+    "determinant": "nonnegative determinant scalar does not imply positive mixed first variation",
+    "classical": "strong-old542+555 via557 whole leading4/5 remains negative-inertia UPPER budget, not lower or RH"
+  },
+  "remaining_coverage_coupling": "all-source arithmetic positivity, growing core/complement/coupling and Xi identification open",
+  "net_consequence": "Choice/information changed: test movable same-source family before trusting local nondegeneracy. No new classical whole consequence or removal of key positivity bottleneck.",
+  "stop": "source gate closed; no genus/jet/minor or old ideal/safe-high-frequency optimization; no C037/574",
+  "unique_next": "Milne JVs7.6 twist/basechange positive control vs actual adelic relative DGA module operations: require concrete line object, physical source map and overlap. If only old exponent/marked-section/cycle recipe, source0 stop, no automatic next paper.",
+  "alternatives": [
+    "Independent actual tensor object plus pole theorem would change priority",
+    "Actual low-frequency/core all-source signed comparison beyond strong-old would change priority"
+  ],
+  "completion": {
+    "mathematical_gate": "open",
+    "execution_gate": "not-eligible",
+    "runtime_goal": "get_goal null observed this turn, no creation"
+  }
+}

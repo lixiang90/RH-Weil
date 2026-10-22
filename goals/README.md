@@ -1,6 +1,12 @@
 # 长期研究恢复入口
 
-最新[C036/573实际相对ideal闭链结算](reviews/2026-10-22-relative-ideal-573-settlement.md)已root/fresh闭合，统一一轮cadence1→2，正式cycle14保持。
+本轮用户要求的[573后新路线图](reviews/2026-10-22-generalized-weil-roadmap-after-573.md)已fresh限定PASS并root闭合。
+主线回到函数域独立正号：可移动同源family与mixed RR/Rosati容量；tensor/actual核心signed只在有新输入时准入。
+[真实genus2评价首门](reviews/2026-10-22-function-field-evaluation-moving-source-gate.md)已执行，区分普通重复、厚点修复、special与excess，来源0不作574。
+下一动作以STATE和新稿§8为准：twist/basechange正控制对照实际adelicDGA模块的具体line/source/overlap；无新操作即停。
+cadence2/正式cycle14保持，宏观独立正性与whole/core瓶颈未变。
+
+最新数学[C036/573实际相对ideal闭链结算](reviews/2026-10-22-relative-ideal-573-settlement.md)已root/fresh闭合，统一一轮cadence1→2，正式cycle14保持。
 [573](../notes/573-relative-ideal-chain-closure-and-regulator-loss.md)给537正窗双pole-zero非根r*；单δF生成代数J*含T/T*且finite-rank trace−4，432Ω不能单商下降。
 范数闭ideal准确=closureDsrc，灭compact及explicit L1 raw源；代数ideal未报全吞，HH域未自动扩展。
 实际两层pair及Ωrel可保(ζ,0)的−4；但原(c_r,y)首腿仍须闭，尚无全源source比较/整模型filteredlift。
@@ -36,7 +42,7 @@ Z[1/p]本p商为零、异位仍满而小球无限，说明非零metric／局部�
 该2602候选未给独立算术f/r→sections map及平方二次容量／完整Weil身份，来源0停止，无C036/573。
 下一仅验收区别于旧谱商包装/任意probe的新算术或relative源桥及独立费用，不自动续paper、线性RR或jets。
 宏观瓶颈和strong-old4/5未变，单cadence1/正式cycle14保持，长期Goal门仍open。
-当前战略入口是[568–572后修订路线图](reviews/2026-10-20-generalized-weil-facilities-roadmap-after-572.md)：
+历史[568–572后修订路线图](reviews/2026-10-20-generalized-weil-facilities-roadmap-after-572.md)已由顶部新稿替代行动优先级：
 旧文献路线图以来五轮数学及LS专题已对照；评价非退化、Γ规范和cocycle不是未执行容量任务。
 长期主责为同一global sections→局部评价的kernel/乘法、独立容量与完整mixed预算；
 该actual变分来源门已在[本次核查](reviews/2026-10-20-actual-variational-sonin-transport-admission.md)执行：

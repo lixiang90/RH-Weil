@@ -1,0 +1,44 @@
+{
+  "scope": "exact matrix checks of old-model corollaries; all-polynomial claim uses quadratic algebra, not finite sampling",
+  "continuous": [
+    {
+      "d": "-1/16",
+      "C_squared": [
+        [
+          "1/16",
+          "0"
+        ],
+        [
+          "0",
+          "1/16"
+        ]
+      ],
+      "doubled_Tr_CdaggerC": "-1/4"
+    },
+    {
+      "d": "1/16",
+      "C_squared": [
+        [
+          "-1/16",
+          "0"
+        ],
+        [
+          "0",
+          "-1/16"
+        ]
+      ],
+      "doubled_Tr_CdaggerC": "1/4"
+    }
+  ],
+  "F5_mixed_Gram": [
+    [
+      2,
+      -3
+    ],
+    [
+      -3,
+      10
+    ]
+  ],
+  "F5_determinant": 11
+}

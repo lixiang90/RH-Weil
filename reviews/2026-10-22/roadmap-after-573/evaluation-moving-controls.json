@@ -1,0 +1,225 @@
+{
+  "scope": "local exact checks; global RR/moving and positivity are not computed",
+  "curve": "smooth projective model of y^2=x^5-x+1 over F_5",
+  "squarefree_derivative_mod_5": 4,
+  "genus_by_separable_degree_two_cover": 2,
+  "rational_point_count_including_infinity": 11,
+  "nonbranch_double_point_controls": [
+    {
+      "point": [
+        0,
+        1
+      ],
+      "ordinary_det": 0,
+      "jet_matrix": [
+        [
+          1,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "jet_det": 1
+    },
+    {
+      "point": [
+        0,
+        4
+      ],
+      "ordinary_det": 0,
+      "jet_matrix": [
+        [
+          4,
+          0
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "jet_det": 1
+    },
+    {
+      "point": [
+        1,
+        1
+      ],
+      "ordinary_det": 0,
+      "jet_matrix": [
+        [
+          1,
+          1
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "jet_det": 1
+    },
+    {
+      "point": [
+        1,
+        4
+      ],
+      "ordinary_det": 0,
+      "jet_matrix": [
+        [
+          4,
+          4
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "jet_det": 1
+    },
+    {
+      "point": [
+        2,
+        1
+      ],
+      "ordinary_det": 0,
+      "jet_matrix": [
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "jet_det": 1
+    },
+    {
+      "point": [
+        2,
+        4
+      ],
+      "ordinary_det": 0,
+      "jet_matrix": [
+        [
+          4,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "jet_det": 1
+    },
+    {
+      "point": [
+        3,
+        1
+      ],
+      "ordinary_det": 0,
+      "jet_matrix": [
+        [
+          1,
+          3
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "jet_det": 1
+    },
+    {
+      "point": [
+        3,
+        4
+      ],
+      "ordinary_det": 0,
+      "jet_matrix": [
+        [
+          4,
+          2
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "jet_det": 1
+    },
+    {
+      "point": [
+        4,
+        1
+      ],
+      "ordinary_det": 0,
+      "jet_matrix": [
+        [
+          1,
+          4
+        ],
+        [
+          3,
+          3
+        ]
+      ],
+      "jet_det": 1
+    },
+    {
+      "point": [
+        4,
+        4
+      ],
+      "ordinary_det": 0,
+      "jet_matrix": [
+        [
+          4,
+          1
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "jet_det": 1
+    }
+  ],
+  "branch_delta_mod_t4": [
+    0,
+    0,
+    4,
+    0
+  ],
+  "branch_equation_mod_t4": [
+    0,
+    0,
+    1,
+    0
+  ],
+  "branch_length_two_jet_matrix": "[[ -2, -2*a ], [ 0, 0 ]] modulo 5",
+  "branch_jet_rank": 1,
+  "reduced_conjugate_matrix": [
+    [
+      1,
+      4
+    ],
+    [
+      0,
+      0
+    ]
+  ],
+  "reduced_conjugate_det": 0,
+  "distinct_x_control_matrix": [
+    [
+      1,
+      1
+    ],
+    [
+      0,
+      1
+    ]
+  ],
+  "distinct_x_control_det": 1
+}
