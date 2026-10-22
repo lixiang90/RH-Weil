@@ -46,8 +46,8 @@
     "settled_iterations": [
       "notes/578-prime-pole-signed-budget-and-selberg-control-gap.md"
     ],
-    "stage": "本次来源0研究/fresh/root已闭合；用户已明确授权向公开lixiang90/RH-Weil同步本轮完整研究及状态/检查点/回执。重新核远端3db65fd未变，正在准备最终精确树。",
-    "next_action": "重新暂存并导出本轮16文件，核root canonical依赖与远端基树；按明确授权创建树/提交、非force带lease更新main，独立GET SHA/tree/parent后本地同SHA导入，再保存同步回执。",
+    "stage": "KRY1999来源0及本轮完整研究/配套元数据已授权发布923ccda，独立GET核tree/parent/ref与本地同SHA/clean通过；同步回执、最终STATE和sync checkpoint由metadata子提交携带，子HEAD另现场核。",
+    "next_action": "本theta直接抽取/旧P1与absolute线入口停止，无运行数学进程。下一只接actual完整Gamma/pp/poles的独立signed差商与原净费，或非Q/零点标签relative primitive源实物；先405全关系/537非零/原du-Dlog及同对象容量。没有新公式不建C042579或串paper。恢复时核当前metadata HEAD/远端及检查点。",
     "stop_rule": "一轮止；只排本候选充分包，若需未知q消失／Weil正性即停，保更精细Γ-signed/joint/同对象RR独立实物。"
   },
   "support_contracts": [],
@@ -128,11 +128,11 @@
     "basis": "授权续轮get_goal=null；保G20261014文件目标/固定基线，未创建实例。"
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-10-23-arithmetic-theta-publication-authorized.json",
+  "checkpoint": "goals/checkpoints/2026-10-23-arithmetic-theta-source-sync.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
-    "commit": "79c24e646ae3ae512476d4af56ad4a91ff3b0eaf",
-    "basis": "本Γ/twist来源0精确12文件提交独立GET核ref/treefe8b84e/parent3813e1a；本地同raw提交SHA/refs/tree与clean已核。metadata子提交不递归写自身SHA，当前HEAD另现场核。"
+    "commit": "923ccda801914447f65870f5c98ecae768344d5f",
+    "basis": "本KRY单来源0完整16文件经明确授权创建同树c3c2d575/parent3db65fd；独立GET ref/commit和本地raw同SHA/refs/tree/clean均已核。metadata child不递归写自身SHA，最终HEAD另核。"
   },
   "completion_audit": {
     "goal": "goals/GOAL.20261014.md",
@@ -146,40 +146,20 @@
     "goals/goal-completion-receipt.20261014.json",
     "goals/goal-completion-receipt.20261014-continuation.json"
   ],
-  "process_inventory_observed_on": "所有研究分支已完成、无数学数值后台；用户外传授权已到，独立只读publication_scope_verify_1023核现有版本，根部准备发布。",
+  "process_inventory_observed_on": "研究/fresh及独立发布范围核验完成；无后台数学数值。用户明确授权后923ccda本地/远端同SHA/tree与clean已核；回执metadata子提交随后携带，当前HEAD须现场核，不以receipt自称。",
   "publication_approval_gate": {
+    "status": "authorized-source-published-and-verified",
     "destination": "https://github.com/lixiang90/RH-Weil",
-    "branch": "main",
     "visibility": "public",
-    "last_remote_head_observed": "3db65fd6ea17c79bc0eb08e4ac2f0271d58714c2",
-    "prepared_research_tree_before_block_record": "b1402057388098dbe1054350144e5480d1bb015d",
-    "prepared_files": [
-      "goals/DECISIONS.md",
-      "goals/MACRO_FRONTIER.md",
-      "goals/README.md",
-      "goals/STATE.json",
-      "goals/checkpoints/2026-10-23-arithmetic-theta-source-review.json",
-      "goals/checkpoints/2026-10-23-arithmetic-theta-source-root.json",
-      "goals/review-cadence.json",
-      "goals/reviews/2026-10-23-arithmetic-theta-capacity-source-admission.md",
-      "reviews/2026-10-23/next-independent-input-admission/capacity-and-arithmetic-hodge-candidates.md",
-      "reviews/2026-10-23/next-independent-input-admission/fresh-whole-review.md",
-      "reviews/2026-10-23/next-independent-input-admission/function-field-moving-and-source-comparison.md",
-      "reviews/2026-10-23/next-independent-input-admission/root-consumption-scope.json",
-      "reviews/2026-10-23/next-independent-input-admission/strongest-old-and-admission-debt.md",
-      "goals/checkpoints/2026-10-23-arithmetic-theta-publication-blocked.json",
-      "goals/checkpoints/2026-10-23-arithmetic-theta-publication-handoff.json",
-      "goals/checkpoints/2026-10-23-arithmetic-theta-publication-authorized.json"
-    ],
-    "reason": "Automatic approval review rejected create_tree twice: explicit authorization requested for this particular public repository and research plus internal state/checkpoint contents. Existing remote and admin/push permissions verified but rejection persisted.",
-    "remote_mutation": "none; no new tree/commit/ref successfully created",
-    "resume": "Explicit human authorization received. Re-export final staged contents, create exact tree and commit, non-force lease main at freshly observed3db65fd, independently GET ref/commit and import exact local object. Historical rejection records retained, not active blockers.",
-    "status": "explicitly-authorized",
+    "branch": "main",
     "human_authorization": {
       "observed_at_utc": "2026-10-22T17:52:37Z",
       "source": "Current direct human reply to request_user_input_async",
       "reply": "授权同步本轮完整文件",
       "scope": "Public lixiang90/RH-Weil: this research plus STATE, decisions, checkpoints, version records and subsequent sync receipts; includes authorization/handoff metadata."
-    }
+    },
+    "published_source_commit": "923ccda801914447f65870f5c98ecae768344d5f",
+    "verification": "reviews/2026-10-23/next-independent-input-admission/remote-sync-verification.json",
+    "history": "Earlier rejections retained in historical blocked/handoff checkpoints. Explicit human reply resolved scope; this is not a pending gate."
   }
 }

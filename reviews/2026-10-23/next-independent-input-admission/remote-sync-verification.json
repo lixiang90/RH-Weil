@@ -1,0 +1,49 @@
+{
+  "schema": "rh-weil-remote-sync-verification-v1",
+  "date": "2026-10-23",
+  "repository": "https://github.com/lixiang90/RH-Weil",
+  "branch": "main",
+  "source_review_commit": "923ccda801914447f65870f5c98ecae768344d5f",
+  "source_review_tree": "c3c2d575959f58fb8d31f00f716ac6758b1891c6",
+  "parent": "3db65fd6ea17c79bc0eb08e4ac2f0271d58714c2",
+  "independent_get_verified_at_utc": "2026-10-22T17:54:58Z",
+  "files": [
+    "goals/DECISIONS.md",
+    "goals/MACRO_FRONTIER.md",
+    "goals/README.md",
+    "goals/STATE.json",
+    "goals/checkpoints/2026-10-23-arithmetic-theta-source-review.json",
+    "goals/checkpoints/2026-10-23-arithmetic-theta-source-root.json",
+    "goals/review-cadence.json",
+    "goals/reviews/2026-10-23-arithmetic-theta-capacity-source-admission.md",
+    "reviews/2026-10-23/next-independent-input-admission/capacity-and-arithmetic-hodge-candidates.md",
+    "reviews/2026-10-23/next-independent-input-admission/fresh-whole-review.md",
+    "reviews/2026-10-23/next-independent-input-admission/function-field-moving-and-source-comparison.md",
+    "reviews/2026-10-23/next-independent-input-admission/root-consumption-scope.json",
+    "reviews/2026-10-23/next-independent-input-admission/strongest-old-and-admission-debt.md",
+    "goals/checkpoints/2026-10-23-arithmetic-theta-publication-blocked.json",
+    "goals/checkpoints/2026-10-23-arithmetic-theta-publication-handoff.json",
+    "goals/checkpoints/2026-10-23-arithmetic-theta-publication-authorized.json"
+  ],
+  "human_authorization": {
+    "observed_at_utc": "2026-10-22T17:52:37Z",
+    "source": "Current direct human reply to request_user_input_async",
+    "reply": "授权同步本轮完整文件",
+    "scope": "Public lixiang90/RH-Weil: this research plus STATE, decisions, checkpoints, version records and subsequent sync receipts; includes authorization/handoff metadata."
+  },
+  "checks": {
+    "remote_ref_matches": true,
+    "git_commit_parent_tree_match": true,
+    "local_same_raw_commit_object_and_refs": true,
+    "local_tree_matches": true,
+    "worktree_clean_after_source_import": true,
+    "root_versions_rechecked": true
+  },
+  "scope": "Source-admission research and authorized metadata published. This receipt, final STATE and sync checkpoint are carried by a metadata child without recursively claiming its own SHA; final child HEAD/ref/tree checked separately. Structure/hashes do not certify mathematics.",
+  "prior_approval_review": "Two earlier create_tree rejections caused no remote mutation; explicit current human authorization resolved the requested publication scope. Same destination and complete reviewed batch used.",
+  "mathematical_gate": "open/not-eligible",
+  "cadence": 1,
+  "historical_weil": 42,
+  "latest_mathematical_iteration": 578,
+  "mathematical_iterations_added": 0
+}
