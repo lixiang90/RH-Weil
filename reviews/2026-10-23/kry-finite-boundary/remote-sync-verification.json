@@ -1,0 +1,55 @@
+{
+  "schema": "rh-weil-remote-source-sync-verification-v1",
+  "verified_at_utc": "2026-10-22T22:09:49.750782Z",
+  "repository": "https://github.com/lixiang90/RH-Weil",
+  "branch": "main",
+  "source_commit": "33aac7036743d298a4059ded683fbb8013a75fce",
+  "source_tree": "cf5d2536f81b0a582a43d9b295ac311796146037",
+  "source_parent": "6ea916424ca5e49a3bb526a3dc887cfe2746d483",
+  "source_files": 14,
+  "checks": [
+    "nonforce expected-parent lease update succeeded",
+    "independent GitHub GET ref equals source commit",
+    "independent GitHub GET commit tree and ordered parent match",
+    "local staged tree identical to GitHub tree",
+    "remote raw commit reconstructed to exact SHA before local ref update",
+    "local HEAD=origin/main=source, source tree and worktree clean before metadata child",
+    "root-bound final source versions and frozen Goal kept"
+  ],
+  "bound_research_versions": [
+    {
+      "path": "notes/580-kry-finite-schwartz-boundary-cocycle-and-level-alias-gap.md",
+      "lf_sha256": "9d0b4ddb5f2b0464828097653fc69664568054a15fbdbfa0b524c118c43c9b20"
+    },
+    {
+      "path": "goals/contracts/C043-kry-finite-schwartz-and-relative-boundary-gate.md",
+      "lf_sha256": "73d2381f7c9d4a820adf67328be5fe48b0296dff33968e87178d6a525d4ed03f"
+    },
+    {
+      "path": "goals/reviews/2026-10-23-kry-finite-boundary-admission.md",
+      "lf_sha256": "0b831753bea4dbf79fdb84f3ad5f8825ced86a0e476e6a67b6b5c52fc17530f8"
+    },
+    {
+      "path": "reviews/2026-10-23/kry-finite-boundary/finite-schwartz-and-actual-cycles.md",
+      "lf_sha256": "42ae6170495912c71205ca898f2d0322d943492a4b6658d3e6b02e932288d87b"
+    },
+    {
+      "path": "reviews/2026-10-23/kry-finite-boundary/fresh-whole-review.md",
+      "lf_sha256": "4f4b001ce4b66fe904e55485e200122513d66157b8d3d5cf1b85625be7763532"
+    },
+    {
+      "path": "reviews/2026-10-23/kry-finite-boundary/joint-relative-boundary-and-principal-gate.md",
+      "lf_sha256": "a7d79b3d9c3a1d828e87c220fc5449be2b466d340012567b1c65bb39bb282591"
+    },
+    {
+      "path": "reviews/2026-10-23/kry-finite-boundary/original-norm-levels-and-controls.md",
+      "lf_sha256": "8c91f871ea0dcca442562aac0305468ff566516424e1747ec655c025be936c04"
+    }
+  ],
+  "scope": "complete580 research, all three branch proofs, fresh, root premise receipt, contract/review/STATE/README/frontier/decisions/cadence/checkpoint; no new mathematical iteration for sync",
+  "metadata_child": "this receipt, final STATE and unique sync checkpoint are published in a subsequent child. Receipt binds source commit, not recursive own SHA. Final child HEAD verified separately.",
+  "authorization": "current explicit result sync request and persisted direct human complete-file public authorization",
+  "approval_rejection_this_turn": false,
+  "mathematical_gate": "open/not-eligible; no new independent primitive capacity / complete Weil positivity / core coupling Xi consequence",
+  "cadence": "3, historical44, cycle15; settlement once only"
+}
