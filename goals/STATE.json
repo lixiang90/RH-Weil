@@ -52,8 +52,8 @@
     "settled_iterations": [
       "notes/573-relative-ideal-chain-closure-and-regulator-loss.md"
     ],
-    "stage": "C036/573及三稿、fresh核心与pair补充PASS已root闭合；统一一轮cadence1→2，正式cycle14保持。合同完成，宏观Goal未完成；准备授权GitHub同步。",
-    "next_action": "同步573/C036/结算/三稿/fresh/root与STATE、决策前沿/cadence/checkpoint；独立GET核SHA/tree/parent并本地对齐。之后仅验收actual二层source链/异常变换律/Pan/537/原费及同整模型filteredlift/primitive数据。",
+    "stage": "C036/573及三稿、fresh核心/pair补充已root结算一轮1→2；16文件研究提交已远程独立GET/本地对象核验，恢复与同步收据已保存。合同完成，宏观Goal未完成。",
+    "next_action": "仅验收实际二层source链/相对异常变换律：全Pan同伦入exact/principal变换，保537/双degree/原duDlog/cofinal费，再接同整模型localfilters/消gluing障碍的metriclift与primitiveRR。已有pair保−4但rawc首腿未闭，未知标签不准入新合同。",
     "stop_rule": "一轮；无超出424/431/432的actualideal完整反测则来源0；若成立保存573一次止，不调参数或扩大成所有relative/noRH定理。"
   },
   "support_contracts": [],
@@ -162,11 +162,11 @@
     "basis": "本轮现场get_goal=null；保G20261014/0c4f，不建未请求实例。"
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-10-22-relative-ideal-573-final.json",
+  "checkpoint": "goals/checkpoints/2026-10-22-relative-ideal-573-sync.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
-    "commit": "10ff741ac50bf6ef9421e1f4506c42a831a5cd46",
-    "basis": "本门14文件独立GET main/commit核SHA/tree54871396/parenta34341b；本地精确对象/HEAD/tree一致clean。metadata子提交另核，不递归增收据/轮。"
+    "commit": "4c206b192b326a40bf093255b8b8ccdddf595049",
+    "basis": "本轮16文件独立GET main/commit核SHA/tree31aa0067/parenta45ad19；本地精确对象/HEAD/tree一致clean。metadata子提交另核，不递归增收据或研究轮。"
   },
   "completion_audit": {
     "goal": "goals/GOAL.20261014.md",
@@ -180,5 +180,5 @@
     "goals/goal-completion-receipt.20261014.json",
     "goals/goal-completion-receipt.20261014-continuation.json"
   ],
-  "process_inventory_observed_on": "2026-10-22：三原稿与fresh含pair followup均final，root已消费；无数学/下载后台，待授权同步。"
+  "process_inventory_observed_on": "2026-10-22：三原稿/fresh及pair followup均完成，root已消费；无数学/下载后台。研究提交已核，仅同步收据metadata。"
 }

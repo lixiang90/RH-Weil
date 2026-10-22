@@ -1,0 +1,29 @@
+{
+  "schema": "rh-weil-remote-sync-verification-v1",
+  "repository": "https://github.com/lixiang90/RH-Weil",
+  "branch": "main",
+  "research_commit": "4c206b192b326a40bf093255b8b8ccdddf595049",
+  "tree": "31aa006720fd986f20d0e03e9a2553e70a9162d5",
+  "parent": "a45ad1946552eb4d1a45d122a6c15b984b2899df",
+  "verification": "Independent GET mainref/gitcommit matched SHA/tree/singleparent; local raw SHA validated before import, HEAD/tree/index exact and clean. Metadata child independently verified without recursive receipt.",
+  "files": [
+    "goals/DECISIONS.md",
+    "goals/MACRO_FRONTIER.md",
+    "goals/README.md",
+    "goals/STATE.json",
+    "goals/review-cadence.json",
+    "goals/reviews/2026-10-20-generalized-weil-facilities-roadmap-after-572.md",
+    "goals/checkpoints/2026-10-22-relative-ideal-573.json",
+    "goals/checkpoints/2026-10-22-relative-ideal-573-final.json",
+    "goals/contracts/C036-relative-ideal-closure-and-regulator-charge.md",
+    "goals/reviews/2026-10-22-relative-ideal-573-settlement.md",
+    "notes/573-relative-ideal-chain-closure-and-regulator-loss.md",
+    "reviews/2026-10-22/relative-chain-closure/new-edges-and-regulator-charge.md",
+    "reviews/2026-10-22/relative-chain-closure/enlarged-ideal-and-trace-descent.md",
+    "reviews/2026-10-22/relative-chain-closure/closed-charge-source-and-arithmetic-tests.md",
+    "reviews/2026-10-22/relative-chain-closure/fresh-scope-review.md",
+    "reviews/2026-10-22/relative-chain-closure/root-consumption-scope.json"
+  ],
+  "scope": "573/C036 exactly one mathematical iteration, cadence1->2 once/formalcycle14 unchanged. Coreideal result new, otherbranches/pair/sourcechecks noextra. NoRH/independentcapacity/whole/core/Goalcompletion.",
+  "checkpoint_recovery": "STATE current checkpoint is authoritative. Initial573 draft snapshot retained but superseded by573-final after correcting legacy mirror36->37 for this one iteration; number of note paths is not a round count. Sync checkpoint is the final current snapshot."
+}
