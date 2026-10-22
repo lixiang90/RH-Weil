@@ -1,0 +1,55 @@
+{
+  "schema": "rh-weil-remote-source-sync-verification-v1",
+  "verified_at_utc": "2026-10-22T22:54:48.284760Z",
+  "repository": "https://github.com/lixiang90/RH-Weil",
+  "branch": "main",
+  "source_commit": "83f68f55f8b279b1922f968b27dd558a1268afea",
+  "source_tree": "3885af43599e8cedef97349aaf46a391517cbf2b",
+  "source_parent": "cf9dcbc9db3287e9af7bf9074ab8d529e9746a90",
+  "source_files": 15,
+  "checks": [
+    "nonforce expected-parent lease update succeeded",
+    "independent GETref equals sourcecommit",
+    "independent GETcommit tree and ordered parent match",
+    "local staged tree identical to GitHub tree",
+    "remote raw commit reconstructed exact SHA before local refs update",
+    "HEAD=origin/main=source and worktree clean before metadata child",
+    "root-bound final source and frozen Goal hashes preserved"
+  ],
+  "bound_research_versions": [
+    {
+      "path": "notes/581-arithmetic-weighted-two-prime-completion-and-relative-capacity-gap.md",
+      "lf_sha256": "49685901d3aba83816a0f41f5b7d5c8d55e994764f15dbc442d784cc389aa31c"
+    },
+    {
+      "path": "goals/contracts/C044-arithmetic-weighted-two-prime-and-relative-boundary-gate.md",
+      "lf_sha256": "bf98e0f06f8f53504d314f6b1b67b425160d636e071e1cd475d78a3bb643300d"
+    },
+    {
+      "path": "goals/reviews/2026-10-23-weighted-two-prime-admission.md",
+      "lf_sha256": "abb8f5bc2d732049c0d163622317690fe9b460e8e8e1be11ff6d96fc619054f0"
+    },
+    {
+      "path": "reviews/2026-10-23/weighted-two-prime/arithmetic-height-and-schwartz-domain.md",
+      "lf_sha256": "a0403cd139e965c7bc6d574198a70f368d7fc5b3e56159b8ac20827ff364a85f"
+    },
+    {
+      "path": "reviews/2026-10-23/weighted-two-prime/fresh-whole-review.md",
+      "lf_sha256": "96ef6183caaa696df3a2792f9748964bd18025c0d30cea795d372ab30a383a70"
+    },
+    {
+      "path": "reviews/2026-10-23/weighted-two-prime/original-costs-controls-and-inverse.md",
+      "lf_sha256": "9a838f64270aa006d194223780c530a3642090125149857788f0fe68f0ee33d8"
+    },
+    {
+      "path": "reviews/2026-10-23/weighted-two-prime/sunit-relative-boundary-and-principal-test.md",
+      "lf_sha256": "e501ae9ea855da3b23ca9d99e7a736d667ba8ab0a2f42f061ff6d565277aff2b"
+    }
+  ],
+  "scope": "complete581 research including3branch/fresh/root, contract/review/STATE/README/frontier/decisions/cadence and both preliminary+final root checkpoints. All authorization and sync metadata included as previously authorized.",
+  "metadata_child": "this receipt/finalSTATE/unique synccheckpoint in following child; binds source, no recursive ownSHA. Final child independently verified separately.",
+  "authorization": "current explicit user result sync request plus persisted direct human complete-file public authorization",
+  "approval_rejection_this_turn": false,
+  "mathematical_gate": "open/not-eligible; new actual strong facilities and scoped route gates, no independent primitive mixedcapacity / completeWeil positivity / core-coupling-Xi consequence",
+  "cadence": "4, historical45, formalcycle15; once only, sync/review zero extra"
+}
