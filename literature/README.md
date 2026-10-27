@@ -1,5 +1,7 @@
 # RH-Weil 文献索引
 
+2026-10-28，[raw theta均值/joint结算](../goals/reviews/2026-10-28-raw-theta-mean-joint-gate.md)由项目exact Mellin分解、405/553及标准图闭包直接核闭，0数学轮。[来源/未审范围](supplements/2026-10-28-raw-theta-mean-source-scope.md)明确本轮无外部PDF页/网页/原proof新读或下载，原作者PDF身份保持本地；不虚增文献条目。下一明确未平均Pet覆盖塔仅公式准入，localevaluation证明未执行；literal与整体Theta/7.4继续冻结。
+
 2026-10-27，[明确K_g源/原费](../goals/reviews/2026-10-27-corrected-theta-source-and-pan-gate.md)由项目直接Gaussian/Fourier/Poisson、compact图及553核闭，标准0轮。[来源/未审范围](supplements/2026-10-27-corrected-theta-source-scope.md)记录root/fresh重目视PDF5真实period/F∞，无新下载/网页/原proof审计。只独立scalar源/费用重闭，literal及整体theta/7.4冻结；下一rawmean/joint test未执行，原PDF/像素本地。
 
 2026-10-27，[独立Rgeom单x Green规范](../goals/reviews/2026-10-27-negative-plane-single-green-normalization.md)由项目直接微分/log分布证明，不引用作者Prop5.1当证明。[归属/范围](supplements/2026-10-27-negative-plane-single-green-source-scope.md)记录root重目视PDF21/22、fresh另核PDF4及新180dpi算子页；复用同56页PDF，无新下载/网页/外部proof审计。仅新版本局部重闭，literal/7.4/完整K运输冻结保持，数学0轮，像素仍本地。

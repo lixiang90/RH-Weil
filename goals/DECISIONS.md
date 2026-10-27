@@ -1431,3 +1431,13 @@ cadence2/历史48/cycle16原字节不动，无C048/585。classic非零primitive�
 唯一下一不是调核/模型/ray/weight或换paper，而是恢复同一已付rawK被P0删掉的m_L(t)=e^.75t averageK。现有尾给固定leading −e^.75t／+cL^-1e^−.75t；Sraw=(ell0=integralr m,T r)的strong费、actualp_b leading和C×Hm/C∞ jointclosure尚未执行。当前T的du门不直接覆盖mean，但无du费不是escape，scalar非零不是joint全退化；±.75更不能当classic双pole±.5。先检归一化实际关系能否逼近(1,0)，再判continuousmixed coupling，保infinite closure/exact区分。metricheight本已不见常数，不能将此旧事实当新输入。
 
 这个actualtest能改变选择：若joint闭包仍被旧机制控制则0止rawrecipe；若真有新完整费用/关系信息，先actualinput/test/strongestold准合同，不预C048。它优于对已闭P0源再调参或追paper，因为保完整raw数据并具体检强源/mean coupling。其他真正source适应/不同relative/强域/cofinal/不逐层Pan正Dprime仍合法但需实物。文献复用且只记录实际PDF5复核，无新PDF/网页/后章；原件本地、metadata及证明正常GitHub同步。根证据见reviews/2026-10-27/corrected-theta-source/root-consumption-scope.json。
+
+## D20261028A — rawmean仍被联合Pan闭包覆盖；转入有公式的正逼近准入
+
+同G20261027/1793085111/原0c4f。执行Q指定rawmean，mean/joint两终稿、独立fresh和root逐式闭合：ell恰为±3/4固定Mellin加L²reader；全F强费和raw Bochner域已付。actual p_b给−Ae^.75b+c^-1Ae^−.75b+o(1)，A>0且du/Dlog/Hlog平移norm恒定；没有全线原norm统一费。该失败不自动逃逸：h_b有scalar1、du→0，结合553给actualPan图在C×L²稠密，同一序列投到各Hm/C∞，joint闭包与全源相同。只闭包非exact；连续mixed仅在实际源像第一腿连续即可迫全拉回零，不声称ambient延拓。常数metric旧根不等于常数算术类零。
+
+精确分解/标准rankone图密度与405/553直接合成，统一0数学轮；cadence2/历史48/cycle16原字节不动，无C048/585。停止fixed rawmean/boundedT，不增probe/调B/level/ray/weight/阻尼或串paper。source联合范围改变，经典primitive/整过滤/sections/mixedRR、完整signedgrowth/actualq/core/coupling/Xi和wholeleading4/5负惯性UPPER未改，Goal门open。literal失域及整体Theta/7.4/modularity/stack-index运输冻结保持。
+
+连续来源止门后不用未知几何标签续轮；当前给一个不同量词的独立正生成实物：Γ_n=Γ(N0 n!),κ3/2和restrictedunitary automorphy，原未平均Pet正交基f_nj，W=e^.75t f(ie^t)，A_n r=Σ∫r barW f，G_n=<A_n r,A_n s>_Pet。问题是每个fixed compactcomplex源G_n(r,r)→完整Qζ，不要求逐层杀noncompactPan，因此不重复fixed A精确mixed合同。下一只做compactray localevaluation的level统一du费，与已付552§5全Γ高频log|R|比较；先选fixed大R再令n∞。须付halfweight/center/quotient注入/总evaluation范数与原未平均规范，不能乘dim或暗除vol。公式与首门已保存，证明未执行，不预数学合同。
+
+选此门优于raw调参或继续未知paper：actualinput/test/net明确，能实际决定一个合法positiveapprox候选。若只是标准local均值＋旧552直接合成则0止这family；若失败定位真前件/费用再准入，不把失败upper当成功极限。vol归一化/发散level权、非局部或源适应正族、真实arithheight和不同primitive/relative输入仍合法，但须新公式与完整signed误差；真tensor全阶pole到位亦可改策，不以名称/未知membership复活。原文献只项目复用无新外部阅读/下载，库/看板/前件收据按授权正常同步main；管理与推送不complete长期Goal。

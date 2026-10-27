@@ -1,5 +1,9 @@
 # 宏观前沿：可消费范围与最小未付箭头
 
+2026-10-28，[rawmean/joint首门](reviews/2026-10-28-raw-theta-mean-joint-gate.md)已两稿/root/fresh限定闭合：mean恰为Mellin±3/4加L²reader；actualPan双leading和归一化给C×L²图稠密，joint Hm/C∞闭包同一，连续mixed拉回全零，非exact像。标准强旧0止fixed rawrecipe，cadence2／历史48／cycle16不动，无C048/585，classic主瓶颈/whole4/5UPPER未改。literal/整体theta身份冻结；下一仅[固定未平均Pet覆盖塔localnorm准入](../reviews/2026-10-27/raw-theta-mean/next-cofinal-petersson-local-norm-admission.md)，公式已冻，证明未执行；不逐层强加Pan，先扣旧552高频。文献/看板入库；同Goal/准确阶段/同步见STATE。
+
+当前最短链：已付scalarGaussian/Poisson→T全du费用；mean精确双Mellin+bounded余项→actualPan归一化→joint图闭包→连续mixed退化。原du失败不是escape，source强域也不等于新classic正号。唯一下一改用独立正逼近量词，固定principal塔和未平均Pet规范，先核局部level统一费；552全Γ高频是已付对照。任何新volume/发散权/非局部/source适应修复须另实物准入，不扩大当前否定范围。以下旧“raw未执行”等为各原日期历史。
+
 2026-10-27，[明确K_g零模／原费首门](reviews/2026-10-27-corrected-theta-source-and-pan-gate.md)已两稿/root/fresh限定闭合：selfdual Fourier负号/covol-dual、两端全部主项及fixed阶空间尾，全globaldu→Hm/C∞费用、F∞/组件均值均付。553给Pan像闭包同一，连续mixed关系根迫全拉回零，非finite exact像。标准Gaussian/Poisson＋强旧0轮止P0metric，cadence2／历史48／cycle16不动，无C048/585；classic瓶颈/whole4/5UPPER未改。仅独立R_g scalar源/费用重闭，literal及整体7.4运输冻结。下一仅[同raw K恢复mean/joint准入](../reviews/2026-10-27/corrected-theta-source/next-raw-mean-joint-source-admission.md)，actualPan leading/联合闭包未执行，±.75不代classic±.5。文献/看板入库；同Goal/阶段/同步见STATE。
 
 当前最强source链是实际修补Gaussian→全globaldu smoothing→553闭包→连续mixed退化；原费已付不能再写未知，也不等于classic正号。P0丢掉的raw空间均值带固定±3/4主项，当前T的du门未直接覆盖joint强源；下一只做该已有数据的actualPan/coupling test，先扣旧常数metric根/finite与closure机制，不自动视作逃逸。原literal失域及整体theta身份冻结保持。

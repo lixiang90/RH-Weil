@@ -1,6 +1,6 @@
 {
   "schema": "rh-weil-macro-state-v1",
-  "updated_for_client_date": "2026-10-27",
+  "updated_for_client_date": "2026-10-28",
   "baseline_commit": "0c4f3a3eb609bb1d9564138fa4a35701f05605f2",
   "historical_baseline_commit": "3a72930e9f9f554b03b41d17d8c8002f1813ca82",
   "goal": "goals/GOAL.20261027.md",
@@ -8,7 +8,7 @@
   "cadence": "goals/review-cadence.json",
   "decisions": "goals/DECISIONS.md",
   "latest_strategy": "goals/reviews/2026-10-27-general-rh-macro-review-cycle-16.md",
-  "latest_decision": "D20261027Q",
+  "latest_decision": "D20261028A",
   "macro_frontier": "goals/MACRO_FRONTIER.md",
   "macro_summary": "goals/reviews/2026-10-27-general-rh-macro-review-cycle-16.md",
   "latest_macro_review": "goals/reviews/2026-10-27-general-rh-macro-review-cycle-16.md",
@@ -20,8 +20,8 @@
   },
   "macro": {
     "long_objective": "G20261027接续G20261014完整完成门/原0c4f基线，≤582为输入；持续寻经典同源Weil正性/有效性/RR或actualsigned新输入，付全源/成长/core及谱识别。",
-    "unpaid_bottleneck": "K_g/P0smooth源与全原du费已付，553使连续mixed完整比较退化；rawmean/joint强源比较未执行，literal及整体theta身份仍冻结。classic primitive桥/整过滤/sections/mixedRR、signedgrowth/actualq/core/coupling/Xi与whole4/5UPPER未改。",
-    "why_this_contract": "P0metric已标准0止；同一已付rawK保有被删均值，固定±.75主项可能需强费，当前du门未直接覆盖joint。下一实际p_b leading/联合闭包可判是否真逃逸，先扣强旧；不是换核/paper或漏classic±.5双pole。",
+    "unpaid_bottleneck": "rawmean强费/actualPan双leading/联合闭包已付，fixed连续mixed止；literal/整体theta冻结。classicprimitive桥/整过滤/sections/mixedRR、signedgrowth/actualq/core/coupling/Xi仍欠，whole4/5UPPER未改。下一Pet正逼近尚未付局部level统一费/完整signed极限。",
+    "why_this_contract": "rawmean恰为双Mellin+L2reader且图稠密，继续调参无净值。不同量词的正Dprime备选现有固定principal塔/未平均Pet Gram实际公式；先核local统一du费对旧552高频，可具体决定此family，不逐层强加Pan或串paper。",
     "paused_routes": [
       "零点比例优化",
       "无零区域优化"
@@ -30,7 +30,7 @@
       "549–578的精确停门、paid资产及合法逃逸见MACRO_FRONTIER/各root收据；不以旧商/正锥membership/未知余项改名复活；542+555→557仅whole4/5负惯性UPPER。",
       "579–582的实际源/非标量cycles/full-local强域/Green已付，但各principal、原域、coverage或fixedcoarse primitive门失败；停止原recipe，保不同relative/higher/强拓扑/有费无界/源适应修复。",
       "10-27附件战略source0已止，无新经典J或容量；正Dprime逼近不需逐层405/ordinarytrace，须独立正序列/完整signed趋零。tensor须真对象与全阶pole。",
-      "584一轮；finite/tower/§8/MB标准0止。literalK冻结；明确Rgeom scalarK/P0全费已闭，553覆盖fixedmetric并止。下一只同rawmean/joint，不调B/level/ray/weight/阻尼/后章，保有实物cofinal/Dprime。"
+      "584一轮；finite/tower/§8/MB/P0/rawmean标准0止。literal/整体theta冻结；独立scalar及原费已闭。下一只固定未平均Pet覆盖塔localnorm对旧552，不调旧核/参数/后章，保不同有费cofinal/Dprime实物。"
     ]
   },
   "primary_contract": {
@@ -41,9 +41,9 @@
     "settled_iterations": [
       "notes/584-marked-cusp-borel-kernel-and-pan-residue-collapse.md"
     ],
-    "stage": "K_g/P0实际源/原费及553闭包两稿/fresh/root限定0轮消费；源c196bfe正常push并GitHub独立GET ref/commit/tree核同本地。回执/STATE/checkpoint由metadata child保存；P0metric已止，下一rawmean/joint未执行，literal/整体身份冻结，同Goal门open。",
-    "next_action": "仅执行 reviews/2026-10-27/corrected-theta-source/next-raw-mean-joint-source-admission.md：保同rawK，ell0与boundedT的强费/actualp_b leading及C×Hm联合闭包首门；先扣553/584/constantmetric旧根，±.75非classic±.5。未执行，不预C048/585或调核/参数/paper。",
-    "stop_rule": "C047预算耗用，P0metric已止。rawmean/joint若强旧覆盖或关系门失败则0止；不只用无du费/单腿非零报escape，不调核/model/level/ray/weight/阻尼。真新费用/wholecoupling须input/test/net另准，不预数学号。"
+    "stage": "rawmean两终稿/fresh/root及额外只读范围PASS已结算0数学轮；管理/前件收据已保存，准备Git同步。下一cofinal仅公式准入，证明未执行。",
+    "next_action": "先正常同步本次结算并独立核远端；随后仅执行 reviews/2026-10-27/raw-theta-mean/next-cofinal-petersson-local-norm-admission.md：固定未平均Pet覆盖塔compactray level统一du费对旧552完整Γ高频；localevaluation未执行，不预C048/585。",
+    "stop_rule": "C047预算已耗且rawrecipe止。下一固定Pet原规范若标准localevaluation+旧552直接合成则0止该family，不调level/ray/weight或串paper；若费失败先定位actual前件/净费用再准新合同，不强加逐层Pan，保不同volume/权/非局部实物修复。"
   },
   "support_contracts": [],
   "must_not_forget": [
@@ -119,24 +119,9 @@
       "scope": "583未限定continuous短语的nonclosed无条件扩展冻结；仅closedbase分支经fresh/root重闭，旧raw/fulltails不回滚。"
     },
     {
-      "path": "reviews/2026-10-27/mellin-bergman-source/root-consumption-scope.json",
-      "kind": "cited",
-      "scope": "本次object/domain/norm/全量词/方向/关系-商/强旧及16LF版本闭合；原Goal门open。"
-    },
-    {
       "path": "reviews/2026-10-27/classical-theta-analytic/root-consumption-scope.json",
       "kind": "cited",
       "scope": "本次对象/全v,z,格/原域norm/方向/语义freeze/强旧及17LF绑定；原Goal门open。"
-    },
-    {
-      "path": "reviews/2026-10-27/negative-plane-green/root-consumption-scope.json",
-      "kind": "cited",
-      "scope": "本次对象/∀fixedx,v/原ddcμ/方向/局部norm角色/重闭边界/强旧及18LF绑定，Goal门open。"
-    },
-    {
-      "path": "goals/reviews/2026-10-27-corrected-theta-source-and-pan-gate.md",
-      "kind": "cited",
-      "scope": "root/fresh：actualGaussian/零模/全原费用与infinitePan closure/continuousmixed，标准0止P0metric，非classic正号。"
     },
     {
       "path": "reviews/2026-10-27/corrected-theta-source/root-consumption-scope.json",
@@ -144,20 +129,25 @@
       "scope": "本次全源/空间norm/coeff/real-structure/semantic重闭及19LF绑定；literal/整体身份冻结，Goal门open。"
     },
     {
-      "path": "reviews/2026-10-27/corrected-theta-source/next-raw-mean-joint-source-admission.md",
+      "path": "reviews/2026-10-27/raw-theta-mean/root-consumption-scope.json",
+      "kind": "cited",
+      "scope": "rawmean/joint实际对象/norm/全源量词/符号/误差/graphclosure/mixed/强旧净值及19LF绑定；标准0，Goal门open。"
+    },
+    {
+      "path": "reviews/2026-10-27/raw-theta-mean/next-cofinal-petersson-local-norm-admission.md",
       "kind": "open",
-      "scope": "唯一同rawK的mean/joint实际强费/Panleading/closure准入，未执行；±.75不代classic±.5。"
+      "scope": "唯一下一固定未平均Pet正覆盖塔局部原norm对旧552；不同量词、不逐层Pan；公式已冻，证明未执行。"
     }
   ],
   "pending_processes": [],
   "runtime_goal_observation": {
     "status": "active",
-    "observed_at_utc": "2026-10-27T15:49:21.282282+00:00",
+    "observed_at_utc": "2026-10-27T16:19:55.923473+00:00",
     "created_at_unix": 1793085111,
-    "basis": "结算前现场get_goal同实例active；K_g全源/原费两稿/root-fresh实际消费，下一rawmean/joint未执行。"
+    "basis": "恢复时现场get_goal同实例active，当前rawmean/joint两稿及fresh实际终稿核读，root消费/管理执行中。"
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-10-27-corrected-theta-source-sync.json",
+  "checkpoint": "goals/checkpoints/2026-10-28-raw-theta-mean-joint.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
     "commit": "c196bfe782409e0b7ea5b7a33e4821ff1af8c060",
@@ -170,15 +160,15 @@
     "goal_lf_sha256": "b3d2acb1f962d793f45d79b6a4e67fb87dd072cd4752108a9298204b4cefa1de",
     "mathematical_gate": "open",
     "final_execution_gate": "not-eligible",
-    "basis": "K_g全费用是标准Gaussian/Poisson+553强旧合成0，fixedmetric止；无新classic primitive/完整signedgrowth/core/coupling，rawmean/joint未执行，whole4/5UPPER未改，Goal门open。"
+    "basis": "rawmean/joint是精确Mellin+boundedreader/405/553标准合成0，fixedrecipe止；未给新classicprimitive/完整signedgrowth/core/coupling，whole4/5UPPER未改。下一Pet正逼近只准入，Goal门open。"
   },
   "historical_completion_receipts": [
     "goals/goal-completion-receipt.20261014.json",
     "goals/goal-completion-receipt.20261014-continuation.json"
   ],
-  "process_inventory_observed_on": "kg_poisson/kg_fees/fresh终稿completed，root核实际版本；extra fresh三新文件只读通过未改稿，未执行rawmean，无数值/下载后台。",
+  "process_inventory_observed_on": "当前rm_source/rm_joint/fresh终稿已completed；复用rm_fresh对三新文档只读范围核查亦完成PASS，无文件改动。无证明/数值/网络后台，下一localevaluation未执行。",
   "publication_approval_gate": {
-    "status": "current-source-published-and-independently-verified",
+    "status": "current-rawmean-source-local-settled-awaiting-normal-push",
     "destination": "https://github.com/lixiang90/RH-Weil",
     "visibility": "public",
     "branch": "main",
@@ -188,7 +178,7 @@
       "reply": "每轮把进度同步到github；把文献保存在文献库中，用研究看板来记录各个路线的状况",
       "scope": "本项目研究/Goal/STATE/看板/文献元数据/审查与同步回执；论文再分发许可不明则全文仅本地。"
     },
-    "current_scope": "本次17源路径正常main同步并ref/commit/tree独立核验；metadata child仅回执/STATE/checkpoint，0额外轮。PDF/像素仅本地，无新下载，cadence原字节保持。",
+    "current_scope": "本次rawmean三稿/root/下一准入/STATE/决策/看板/文献元数据/检查点；仅正常main，PDF/缓存本地，无新下载，cadence原字节保持。当前源尚未push，旧远端回执保历史。",
     "published_source_commit": "c196bfe782409e0b7ea5b7a33e4821ff1af8c060",
     "verification": "reviews/2026-10-27/corrected-theta-source/remote-sync-verification.json"
   },
