@@ -1,0 +1,27 @@
+{
+  "schema": "rh-weil-remote-sync-verification-v1",
+  "date": "2026-10-27",
+  "repository": "https://github.com/lixiang90/RH-Weil",
+  "branch": "main",
+  "source_commit": "0b1d83f57dbe0dcc62d906358b35ab61485f4090",
+  "source_tree": "63ca18dc4d07975847d42d4c00bf871f6a1752a0",
+  "previous_head": "577193d433652dbfef0323a0c24ea994c6d838a1",
+  "normal_fast_forward_push": true,
+  "independent_remote_verification": {
+    "provider": "Connected GitHub GET independent of git push",
+    "ref_commit": "0b1d83f57dbe0dcc62d906358b35ab61485f4090",
+    "commit_tree": "63ca18dc4d07975847d42d4c00bf871f6a1752a0",
+    "tree_sha": "63ca18dc4d07975847d42d4c00bf871f6a1752a0",
+    "tree_truncated": false
+  },
+  "scope": "18 allowlisted research/root/fresh/scope-correction/next, STATE/frontier/board/library metadata/source checkpoint paths. Author PDF and rendered/text caches remain ignored local; no raw third-party fulltext published.",
+  "checks": "Independent inverse/quotient derivations and fresh repaired-limited PASS, root fifteen final LF bindings, author-PDF raw SHA/bytes/pages/title/TOC and Git-ignore verification, research_state check/checkpoint and staged whitespace exit0.",
+  "mathematical_round_increment": 0,
+  "metadata_child_additional_mathematical_rounds": 0,
+  "cadence_lf_sha256_unchanged": "abb48dba75aea0379da1de447bb0b6e7c25089314b1cdc3e913f7ce23773b689",
+  "classic_bottleneck_changed": false,
+  "semantic_scope": "583 nonclosed-base unconditional all-zero extension frozen; closed-base branch root/fresh reclosed with current overlay. Original bound files and raw/native tails/584 retained.",
+  "next_section8_body_review_executed": false,
+  "long_goal": "Same runtime createdAt1793085111 active; original completion gate open.",
+  "receipt_policy": "Binds source commit; metadata child saves receipt/STATE/checkpoint, final actual HEAD verified separately without recursive self-SHA."
+}

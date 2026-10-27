@@ -41,7 +41,7 @@
     "settled_iterations": [
       "notes/584-marked-cusp-borel-kernel-and-pan-residue-collapse.md"
     ],
-    "stage": "joint tower两稿/root/fresh及583 closed-base范围补正已限定消费，标准旧运输0轮。准备本次原件/文献元数据/恢复记录提交并远端核验；下一Kudla§8正文未执行。",
+    "stage": "joint tower两稿/root/fresh/closedbase补正限定消费0轮；source0b1d83f正常push且GitHub独立GET ref/commit/tree核同本地。回执/STATE/checkpoint由metadata child保存，下一Kudla§8正文未执行，原Goal门open。",
     "next_action": "仅执行reviews/2026-10-27/joint-oldform-tower/next-arithmetic-theta-section8-admission.md：只读已库作者PDF§8（31到32的§9前），核theta lift准确输入/输出及独立physical/primitive或signed桥，必要符号只定位引用陈述；门后止/晋级，不续§9–11/追paper，不预C048/585。",
     "stop_rule": "C047预算耗用；finite-cover与joint tower标准比较皆止，不调level/seed/序列商或连续0坐标链。下一仅具名单章source gate；无本项目新实物/净比较即停，不将source合法/height非零当经典正性。"
   },
@@ -152,12 +152,12 @@
     "basis": "结算现场get_goal同实例active；joint tower两稿/root/fresh/closedbase纠正实际消费0轮，下一Kudla§8正文未读。"
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-10-27-joint-oldform-tower-source.json",
+  "checkpoint": "goals/checkpoints/2026-10-27-joint-oldform-tower-sync.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
-    "commit": "bf8d34092cffee5f874c1c9b5e4d38a5a566e0c6",
-    "tree": "9ef5f1ad51ebbfffd909b9f312c9ad5652628c1d",
-    "basis": "独立GitHub GET ref/commit/tree与本地同；reviews/2026-10-27/finite-cover-trace/remote-sync-verification.json；metadata child actualHEAD另现场核，不递归自记SHA。"
+    "commit": "0b1d83f57dbe0dcc62d906358b35ab61485f4090",
+    "tree": "63ca18dc4d07975847d42d4c00bf871f6a1752a0",
+    "basis": "独立GitHub GET ref/commit/tree与本地一致；reviews/2026-10-27/joint-oldform-tower/remote-sync-verification.json；metadata child actualHEAD另现场核，不递归自记SHA。"
   },
   "completion_audit": {
     "goal": "goals/GOAL.20261027.md",
@@ -171,9 +171,9 @@
     "goals/goal-completion-receipt.20261014.json",
     "goals/goal-completion-receipt.20261014-continuation.json"
   ],
-  "process_inventory_observed_on": "本轮source/inverse与quotient两稿、fresh均terminal，root已核实际最终稿/closedbase补正/next限域；无数值后台，§8正文未执行。",
+  "process_inventory_observed_on": "现场list_agents三当前tower handles全部completed，root已消费15LF和scope补正；无数值后台，下一§8正文未执行。",
   "publication_approval_gate": {
-    "status": "current-source-local-awaiting-commit-and-verification",
+    "status": "current-source-published-and-independently-verified",
     "destination": "https://github.com/lixiang90/RH-Weil",
     "visibility": "public",
     "branch": "main",
@@ -183,9 +183,9 @@
       "reply": "每轮把进度同步到github；把文献保存在文献库中，用研究看板来记录各个路线的状况",
       "scope": "本项目研究/Goal/STATE/看板/文献元数据/审查与同步回执；论文再分发许可不明则全文仅本地。"
     },
-    "current_scope": "joint tower两稿/root/fresh/closedbase纠正/next§8、STATE/前沿/看板/文献manifest与原件身份/检查点；PDF全文/像素缓存仅本地，cadence未改。",
-    "published_source_commit": "bf8d34092cffee5f874c1c9b5e4d38a5a566e0c6",
-    "verification": "reviews/2026-10-27/finite-cover-trace/remote-sync-verification.json"
+    "current_scope": "本次18源路径正常main同步且ref/commit/tree独立核验；metadata child只回执/STATE/checkpoint，0额外轮。作者PDF/像素/提取缓存仅本地，公开文献metadata与范围；cadence字节保持。",
+    "published_source_commit": "0b1d83f57dbe0dcc62d906358b35ab61485f4090",
+    "verification": "reviews/2026-10-27/joint-oldform-tower/remote-sync-verification.json"
   },
   "research_board": "RESEARCH_BRANCHES.md",
   "literature_index": "literature/README.md",
