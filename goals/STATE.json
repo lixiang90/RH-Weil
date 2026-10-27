@@ -41,8 +41,8 @@
     "settled_iterations": [
       "notes/584-marked-cusp-borel-kernel-and-pan-residue-collapse.md"
     ],
-    "stage": "Pet两终稿/fresh/root和额外只读范围PASS已结算0；root前件/看板/文献范围保存，准备本轮正常Git同步。下一因果战略复核尚未执行，不预合同/cycle17。",
-    "next_action": "先正常同步本轮并独立核远端；随后仅执行 reviews/2026-10-28/cofinal-petersson/next-causal-strategy-review.md：恢复最强短链/完整完成门，比较primitive桥、正Dprime完整signed和560core实际输入；以object/formula/test/net决策，不重置cadence2、不自动新数学/局部模型/paper。",
+    "stage": "Pet两终稿/fresh/root/额外只读范围已0结算；17源路径正常push且独立ref/commit/tree核验。保存同步回执metadata child；下一因果战略复核尚未执行。",
+    "next_action": "仅执行 reviews/2026-10-28/cofinal-petersson/next-causal-strategy-review.md：恢复最强短链/完整完成门，比较primitive物理桥、正Dprime完整signed和560core的实际剩余输入；以object/formula/test/net选路。复核尚未执行，不重置cadence2、不作cycle17、不自动新合同/局部模型/paper。",
     "stop_rule": "C047/Pet已止且0结算。因果复核不作cycle17或归零；有actualinput/test/net才准新数学。仅来源则先指定单章/单命题和止损，缺新输入立即止、不顺读/追引文或复活旧raw/Pet/Kudla后章。"
   },
   "support_contracts": [],
@@ -152,12 +152,12 @@
     "basis": "本轮恢复get_goal现场同实例active；pet_local/pet_gamma/pet_fresh已实际dispatch执行STATE唯一准入，非仅规划。"
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-10-28-cofinal-petersson.json",
+  "checkpoint": "goals/checkpoints/2026-10-28-cofinal-petersson-sync.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
-    "commit": "f167562a5c7489e29605a6cb28bab16a25abc28e",
-    "tree": "33699e005c1fe2029fe75d142598c11766741b87",
-    "basis": "独立GitHub GET ref/commit/tree与本地同；reviews/2026-10-27/raw-theta-mean/remote-sync-verification.json；metadata child实际HEAD另核，不递归自记SHA。"
+    "commit": "955a8511c7d63f176c3b9eb47349750baf465475",
+    "tree": "b73fba1e04fd1bdb4750e66fd400c727c5ee01eb",
+    "basis": "独立GitHub GET ref/commit/tree与本地同；reviews/2026-10-28/cofinal-petersson/remote-sync-verification.json；metadata child实际HEAD另核，不递归自记SHA。"
   },
   "completion_audit": {
     "goal": "goals/GOAL.20261027.md",
@@ -171,9 +171,9 @@
     "goals/goal-completion-receipt.20261014.json",
     "goals/goal-completion-receipt.20261014-continuation.json"
   ],
-  "process_inventory_observed_on": "pet_local证明/短战略意见、pet_gamma单处TeX修后终稿、pet_fresh实际最终PASS及额外三文档只读范围任务均terminal；无证明/数值/网络后台；下一因果复核未执行。",
+  "process_inventory_observed_on": "当前三agent及附加只读任务均terminal；正常source push已退出且独立核验完成。无证明/数值/网络后台，下一因果战略复核未执行。metadata child仅保存同步事实。",
   "publication_approval_gate": {
-    "status": "current-pet-source-local-settled-awaiting-normal-push",
+    "status": "current-source-published-and-independently-verified",
     "destination": "https://github.com/lixiang90/RH-Weil",
     "visibility": "public",
     "branch": "main",
@@ -183,9 +183,9 @@
       "reply": "每轮把进度同步到github；把文献保存在文献库中，用研究看板来记录各个路线的状况",
       "scope": "本项目研究/Goal/STATE/看板/文献元数据/审查与同步回执；论文再分发许可不明则全文仅本地。"
     },
-    "current_scope": "本次Pet三原稿/root/因果复核任务/状态/决策/看板/文献元数据/检查点；当前尚未push，旧远端回执保历史。仅正常main，PDF/缓存本地，无新下载，cadence原字节保持。",
-    "published_source_commit": "f167562a5c7489e29605a6cb28bab16a25abc28e",
-    "verification": "reviews/2026-10-27/raw-theta-mean/remote-sync-verification.json"
+    "current_scope": "本次Pet17源路径正常main同步并独立ref/commit/tree核验；metadata child仅回执/STATE/checkpoint，实际HEAD另核。PDF/缓存本地，无新下载，cadence原字节保持。",
+    "published_source_commit": "955a8511c7d63f176c3b9eb47349750baf465475",
+    "verification": "reviews/2026-10-28/cofinal-petersson/remote-sync-verification.json"
   },
   "research_board": "RESEARCH_BRANCHES.md",
   "literature_index": "literature/README.md",

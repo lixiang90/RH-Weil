@@ -1,0 +1,19 @@
+{
+  "schema": "rh-weil-remote-sync-verification-v1",
+  "date": "2026-10-28",
+  "repository": "https://github.com/lixiang90/RH-Weil",
+  "branch": "main",
+  "published_source_commit": "955a8511c7d63f176c3b9eb47349750baf465475",
+  "published_source_tree": "b73fba1e04fd1bdb4750e66fd400c727c5ee01eb",
+  "verification": "Independent connected GitHub GET ref/heads/main, git/commits/source and git/trees/tree matched actual local sourcecommit/tree; all three succeeded, tree not truncated.",
+  "verified_at_utc": "2026-10-27T16:45:19.744630+00:00",
+  "source_files": 17,
+  "root_binding_count": 17,
+  "mathematical_iterations": 0,
+  "cadence_lf_sha256": "abb48dba75aea0379da1de447bb0b6e7c25089314b1cdc3e913f7ce23773b689",
+  "scope": "Fixed unaveragedPet family localuniformdu upper andstrongold fullGamma highfrequency samefixedsource defect only; standard0, classiccore/whole/primitive unchanged.",
+  "next_causal_strategy_review_executed": false,
+  "goal_status": "same runtime1793085111 active; mathematical gate open",
+  "third_party_pdf_or_cache_published": false,
+  "metadata_child_policy": "Receipt references alreadypublished source; child contains onlyreceipt/STATE/newcheckpoint. Verify child actualHEAD/tree afterpush withoutrecursive selfSHA."
+}
