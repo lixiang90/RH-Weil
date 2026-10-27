@@ -1,0 +1,93 @@
+{
+  "schema": "rh-weil-fixed-c2-root-consumption-v1",
+  "status": "root-consumed-limited-fixed-c2-construction-no-fullG-q0-acceptance",
+  "goal": "goals/GOAL.20261027.md",
+  "runtime_goal_created_at": 1793085111,
+  "baseline_commit": "0c4f3a3eb609bb1d9564138fa4a35701f05605f2",
+  "prior_turn_classification": "progress: actual analytic-vector certificate and authoritative state/remote changes, not plan-only",
+  "root_report": "reviews/2026-10-27/tf-reader-execution/fixed-c2-execution.md",
+  "normalized_lf_sha256": {
+    "reviews/2026-10-27/tf-reader-c2/mixed-terms.json": "5f55a5b7d7284ccc6dd7e2899129a65e6436b97c7d2a7e2a8e16217250583721",
+    "reviews/2026-10-27/tf-reader-c2/mixed-terms.md": "2f0a2d4f51c193375b5904d5f4f7b0cc8d37e2d0799166ba5afe6c5eb05e782b",
+    "reviews/2026-10-27/tf-reader-c2/next-one-trial-budget-admission.md": "30de9f34356f5720a32644402f046662a7313ce26d7ab66dad1e50d4a002dafc",
+    "reviews/2026-10-27/tf-reader-c2/tail-term.json": "85c2380c85046dbb601b60fca37c0795449b0a091c17e55a38664d017acd1b7b",
+    "reviews/2026-10-27/tf-reader-c2/tail-term.md": "a3253cefc240f30abb53c21fe60ebe820b9a6a3908d1f0e80cda83d74e670d07",
+    "reviews/2026-10-27/tf-reader-execution/fixed-c2-certificate.json": "b15e6da48c1c8e8ddf1ffc50cea38266005a05607d2bf7ef5d548e23a0183d3d",
+    "reviews/2026-10-27/tf-reader-execution/fixed-c2-execution.md": "2da19cdbc007d0105d8e2a648a21b8ea1642392cc52e3c7703f2fc2c6848bf73",
+    "reviews/2026-10-27/tf-reader-execution/lowband-step-certificate.json": "cd1b078ed4a495764e7a728c23681f9f177c03e3ab24e836c377a6e55daa3ac1",
+    "reviews/2026-10-27/tf-reader-execution/lowband-vector-input.json": "24f308d253860c35713649559eb06499431a64b6347199b1fe7ecad405a0f612",
+    "reviews/2026-10-27/tf-reader/arch-gap-certificate.json": "4c3b71637203ff10b38b91ec1b80cff4302371b0d4baceabb1b69e2429264d91",
+    "scripts/tf_reader_arch_gap_certificate.py": "c19e04e3e4ad3784add8d4473c98163f7403ed3d7ed16e0da773ac3bc33c174a",
+    "scripts/tf_reader_c2_mixed_terms.py": "5e0b9bb4848a3485235a6cd7f87bd756bd7e822510db716192e5e9c5334afad0",
+    "scripts/tf_reader_c2_tail_term.py": "c00ef23129ea699140d66148656dac1e39b28bffda95ae1d251c1193dce44659",
+    "scripts/tf_reader_fixed_c2_certificate.py": "3da7306faacfa758c4476e6db71c985105bb88844e9cd10a69ed5bae6808b65b",
+    "scripts/tf_reader_lowband_step.py": "d3c5689eec3614127c870d88383b2b7c0669ce3ee4702d2e7a540ed734a537f5",
+    "scripts/tf_reader_q0_cost_certificate.py": "479b8c29a9aecff1cee26f3a226f61cb4d946dc0cda2c88672b5b7dfeccb35a3"
+  },
+  "object_domain_norm_and_roles": {
+    "physical": "H=L2(R+,dx), h0=1_[1,2] norm1, F kernel2cos(2pi xy), U_log2 f(x)=2^-1/2 f(x/2), Hcut=1_(1,infinity)",
+    "target": "c2=<v,U_log2 v>, v=P B h0 with original fixedF8; not full-G quadratic form or Weil/J/T/E sign",
+    "exact_input": "f256 divisor steps, g384 integer endpoint sine/x terms, p*27 exact rational even coefficients, ell*=1_(0,1)(g+p*), v*=f-HcutFell*",
+    "infinite_tail": "Full physical tail retained by Plancherel/cutoff identity; only resulting exact integrals have finite domains",
+    "relations_quotients": "Actual H vectors; no new native class/principal quotient/Pan-source comparison or arithmetic filtration",
+    "coefficients": "Current fixed input real, linear-first; original five-source allcomplex convention/transpose/norm responsibility retained",
+    "five_signs": "+ f_U_f - ell_FH_Uinverse_f - ell_FH_U_f + ell_Uinverse_ell - finite_tail_product"
+  },
+  "source_growth_quantifiers": {
+    "paid": "One fixed h0/F8, physicalcutoff1, U_log2; R1 and1/2 for endpoint integrals, x0..2 for finite Fourier product, whole-H inputerror",
+    "unpaid": "No all-source/cofinal signed comparison, complete5source trace/compression table, primitiveRR or actual Xi identification"
+  },
+  "paid_dependencies_and_errors": {
+    "old_input": "Original rationalC0 gap, actual lowband/vector certificate with delta_v<1.061e-16 and true norm n interval; reused, not rerun/recounted",
+    "mixed": "180digit outward intervals, exact endpoint min+Q difference; odd half-Q parity; real smallSi Taylor+pi argument transport, largeLaplace finite geometric signed remainder; exact odd moments and all1/2/4^j factors;148715Q values,~33.05sec",
+    "tail": "260digit outward, N32 degree64,33even moments,1089monomial products; ellL1<=28.6685, full uniformcos remainder<3.719e-19 and product transport radius<6.032e-17;~0.432sec",
+    "root_input_transport": "delta_v*(2*389/1000+delta_v)<8.250e-17;389/1000 true norm bound checked against exact n_hi",
+    "conditioning": "Large endpoint/poly cancellation paid by outward scalar intervals and true Taylor/moment remainders, no finite-grid residual",
+    "fresh": "Independent replay of both new modules non-time fields exactmatch and hand Fraction total match, plus independent endpoint sweep/parity sanity; final root scope review pending"
+  },
+  "actual_outcome": {
+    "authoritative_answer": "reviews/2026-10-27/tf-reader-execution/fixed-c2-certificate.json",
+    "short_outward_c2_interval": [
+      "-0.039604989843303151",
+      "-0.039604989843302864"
+    ],
+    "true_rational_width_display": "2.8560274944286737e-16",
+    "width_target": "1/1024",
+    "target_met": true,
+    "sign_role": "Negative dilation mixed coefficient only; not Weil/J/T/E/q0 negative value or Hfin counterexample",
+    "not_executed": [
+      "Full G action",
+      "Full-G nonzero trial/J/true residual acceptance",
+      "Original5source T/E/cross",
+      "Hfin sign",
+      "Narrow q0 width1/16 acceptance"
+    ]
+  },
+  "wholeG_readmission": {
+    "status": "not-admitted-for-automatic-action",
+    "paid_comparison": "Independent exact W enumeration6561distinctratios, range[1/NF,NF], central165888/46189; fixedc2 does not cover them or b=||Gv||2. Reusing sameN32 atNF makes its sufficientcos envelope uninformative",
+    "claim_limit": "Only this fixed small-cutoff budget reuse fails; no necessarycost lower or broad analytic-method impossibility. Paid remote-tail/oscillatory/compressed/source-adapted repairs remain legal",
+    "next": "reviews/2026-10-27/tf-reader-c2/next-one-trial-budget-admission.md",
+    "concrete_test": "Consume new n/c2 as a2 with seven-prime Loewner bounds, deduct stronger old a>=n2 from n=<B*v,h0>/B normal, keep b<=u*a coupled; test frozenz=v/u_hi residual/J budget, no actualG action",
+    "stop": "One budget comparison only, no t/prime/Chebyshev expansion; insufficient budget stops this input/envelope automatic continuation; new actual globalmixed/tail or arithmetic input required"
+  },
+  "strongest_old_and_net": {
+    "strongest_old": "535/560 exact fixedwindow trace/Gram and standardreader formulas inputs;542+555->557 whole leading4/5 negative-inertiaUPPER remains",
+    "coverage_coupling": "FullGamma/contact/properpowers/doublepoles, allcomplex originaldu/Dlog, original5source/cross, growthcore and primitive source-to-sections/mixedRR remain unpaid by this c2 component",
+    "net": "Explicit analytic representation actually reads one boundedmixed coefficient with certified cost/error. No new classical whole/core/coupling/growth/primitive consequence",
+    "actual_classical_bottleneck_changed": false
+  },
+  "settlement": {
+    "mathematical_round_increment": 0,
+    "reason": "Standard constructive fixed numerical implementation/costaudit of paid exact identities, no new full-quantifier theorem or substantive method-class boundary; noC047/584",
+    "cadence_reference": "goals/review-cadence.json",
+    "long_goal": "Same active runtime, original mathematical gate open; no complete/blocked"
+  },
+  "fresh_review": {
+    "path": "reviews/2026-10-27/tf-reader-c2/fresh-audit.md",
+    "status": "limited-PASS-root-read-and-consumed",
+    "normalized_lf_sha256": "b659c06781c99e3c535120cdef094ef0c411ef183167b4718a06b076b6720d72",
+    "audited_root_draft_lf_sha256": "8c6b7822a0ee4adf2a88f4d8d6592c1745f9388183f684e8e236e3afa63fd18e",
+    "basis": "Final audit7 read exact16versions/root scope/next admission; only receipt status/fresh metadata subsequently changed."
+  }
+}

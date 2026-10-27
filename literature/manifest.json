@@ -2582,7 +2582,15 @@
       "git_included": false,
       "review_note": "supplements/2026-10-27-q0-execution-source-scope.md",
       "read_record": "../reviews/2026-10-27/tf-reader-execution/dlmf-si-source-read-record.json",
-      "status": "Standard implementation support; no new RH source route, full-G/q0/T/E result or independent arithmetic positivity."
+      "status": "Standard implementation support; no new RH source route, full-G/q0/T/E result or independent arithmetic positivity.",
+      "project_reuse_records": [
+        {
+          "used_on": "2026-10-27",
+          "review_note": "supplements/2026-10-27-c2-execution-source-scope.md",
+          "project_report": "../reviews/2026-10-27/tf-reader-execution/fixed-c2-execution.md",
+          "scope": "Existing formula inputs reused; root reread local normalized6.2.E19/6.7.E13; project derives half-integer parity and exact endpoint/moment bounds. No new external retrieval/chapter proof audit/raw download/PDF asset."
+        }
+      ]
     }
   ],
   "supplement_provenance": [

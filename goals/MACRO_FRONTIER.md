@@ -1,8 +1,8 @@
 # 宏观前沿：可消费范围与最小未付箭头
 
-2026-10-27，[固定q0执行](reviews/2026-10-27-fixed-q0-execution-and-analytic-vector.md)已root／独立审计限定消费。F原语实际97653cells，真H误差<1/32；原F8的finite B h0 exact norm及direct residual充分成本已核，非必要lower。68037频率、N26 true low-H residual与globalR0运输给||PBh0||²约0.1505358024954683；进一步提取384项g+27项有理poly的显式v*，保无限F尾，真physical H误差<1.061e−16。此前“没有显式向量”缺项已修，不能延用。
+2026-10-27，[固定c2执行](../reviews/2026-10-27/tf-reader-execution/fixed-c2-execution.md)已root/fresh限定消费。实际explicit v*的五项finitepair＋δv真H运输给c2≈−0.0396049898433030，总有理width≈2.856e−16<1/1024；mixed四项33.05秒、tail0.432秒，half-integer parity／Si真实余项／moment conditioning／完整无限tail全部保留。单个unitary mixed值为负不等于Weil/J/T/E负值；原固定q0宽1/16、fullG／T/E／Hfin未付。
 
-q0仍仅粗区间约[0.00080945,1]，未过宽1/16；fullG／J／true-G residual、五源T/E/cross、Hfin符号均未付。标准建设性0数学轮，cadence1／历史47／cycle16保持；whole4/5负惯性UPPER、classic全源／成长signed及非零primitive整过滤-截面-mixedRR主瓶颈未改。当前实现止于明确未过，不作方法不可能性。新vector仅准一次[固定c2 bounded配对](../reviews/2026-10-27/tf-reader-execution/next-fixed-pair-test.md)的实际求值／总误差门，目标宽≤1/1024；它能改变表示可执行性判断，不能领取全G／q0。无信息即止，不自动续prime／Krylov或paper；pass也重做whole-G净准入。唯一动作／同步见STATE；以下为历史。
+当前改的是一个真实analytic pair的可执行性，非全源／成长signed、非零primitive整过滤-截面-mixedRR或whole4/5负惯性UPPER。exact W有6561个distinct ratio、[1/NF,NF]，小cutoffN32包络不能免费延全；这不是必要成本或方法边界。不准自动G／Krylov。下一仅一次[n/c2→trial预算比较](../reviews/2026-10-27/tf-reader-c2/next-one-trial-budget-admission.md)：a2/rest Loewner界先扣n=<B*v,h0>与B normal给a≥n²，再保相关b≤u a；核固定z=v/u_hi残差/J门及即使免费知a时该包络的费用。弱子界改善不作whole净值，无信息止该输入/包络自动续算。建设性0数学轮，cadence1／历史47／cycle16不变；同Goal active/open。当前执行／发布只看STATE，以下为历史。
 
 2026-10-27，[CCM§6来源门](reviews/2026-10-27-ccm-geometric-correspondence-source-gate.md)两原稿／root／fresh限定闭合、来源0停止。原页有向KK/sheaf作用、pull-push identity及ordinary-cycle/Kpush的语义已校正，两P1有限反测与583同一m1 point腿限定消费。仅保明确typed derived／perfectkernel／Todd接口；无条件原6.11与自动principal下降仍冻结，非所有KK路线不可能。583不依此章，410–437既有非零relative电荷保持，不把comparison-fiber／idealK0／HH1／cone合并。
 
