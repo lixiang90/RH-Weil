@@ -1,5 +1,9 @@
 # 宏观前沿：可消费范围与最小未付箭头
 
+2026-10-27，[独立Rgeom单x Green规范](reviews/2026-10-27-negative-plane-single-green-normalization.md)已两稿/root/fresh限定闭合：一般坐标微分、原μ/ddc、Q正负、两组件单位delta及√v全项缩放相容。只重闭明确Rgeom局部current；原literalK及作者7.4/完整运输仍冻结，不回滚MB/582/583。标准修补0轮，cadence2／历史48／cycle16不动，无C048/585；classic瓶颈/whole4/5UPPER未改。下一仅[明确K_g/P0/Phi_g的零模／原费准入比较](../reviews/2026-10-27/negative-plane-green/next-corrected-kernel-source-admission.md)，未执行，先扣553不把局部代全源。文献原件复用、实际阅读入库；同Goal/阶段/同步见STATE。
+
+当前准确区分：Rgeom=2Rprint的localcurrent规范已独立重闭；literal源失域不撤销。下一是明确不同K_g的actualzero-mode/space/originalnorm test，不承袭modularity/height。没有原du费时不能借553，未来无限像只先closure，mixed还须连续性。旧“singlex未核”等为历史。
+
 2026-10-27，[classical theta literal规范首门](reviews/2026-10-27-classical-theta-literal-normalization-gate.md)已两稿/root/fresh限定闭合：原B/Q/R拼合给rank1指数，actual任意fullrank3格的正部有限/负部无限，rawK非通常函数。冻结literalSchwartz／P0／Phi／Poisson与全部原费及Pan消费；不回滚MB、582/583或独立citedTheta。标准来源纠正0轮，cadence2／历史48／cycle16不动，无C048/585；classic瓶颈/whole4/5UPPER未改。下一仅[独立Rgeom的负平面／单x Green规范一致性](../reviews/2026-10-27/classical-theta-analytic/next-negative-plane-green-normalization-admission.md)，未执行，不承袭Th7.4或完整运输。原件/阅读及语义冻结入库；同Goal/阶段/同步见STATE。
 
 本轮改变的是源类型判断：尚未定义的literalK不能靠compact性/P0或553救回。Rgeom=2Rprint为明确不同的投影规范修补，只先核singlex current系数；完整格点/空间费未付。无限目标未来仅有闭包同像，mixed退化还须连续性；不能复制finite exact像。旧“下一K/Phi只剩费用”必须携本轮纠正，历史版本保留。

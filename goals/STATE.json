@@ -8,7 +8,7 @@
   "cadence": "goals/review-cadence.json",
   "decisions": "goals/DECISIONS.md",
   "latest_strategy": "goals/reviews/2026-10-27-general-rh-macro-review-cycle-16.md",
-  "latest_decision": "D20261027O",
+  "latest_decision": "D20261027P",
   "macro_frontier": "goals/MACRO_FRONTIER.md",
   "macro_summary": "goals/reviews/2026-10-27-general-rh-macro-review-cycle-16.md",
   "latest_macro_review": "goals/reviews/2026-10-27-general-rh-macro-review-cycle-16.md",
@@ -20,8 +20,8 @@
   },
   "macro": {
     "long_objective": "G20261027接续G20261014完整完成门/原0c4f基线，≤582为输入；持续寻经典同源Weil正性/有效性/RR或actualsigned新输入，付全源/成长/core及谱识别。",
-    "unpaid_bottleneck": "literalK因R/B/Q归一化失域，Phi/空间原费/Pan未定义；明确Rgeom修补尚未核singlex current。classic非零primitive桥、整过滤/sections/mixedRR、signedgrowth/actualq/core/coupling/Xi与whole4/5UPPER未改。",
-    "why_this_contract": "实际全格反测已阻止不存在的Phi运输；下一有canonical负平面Rgeom及单x Green公式，只核ddc/μ/delta系数判同源相容，比调参数/追paper可判；不承袭作者定理或完整费用。",
+    "unpaid_bottleneck": "独立Rgeom单x current已闭，但修补K_g全格点/零模/空间原费/Pan仍未执行，literal源继续失域冻结。classic非零primitive桥、整过滤/sections/mixedRR、signedgrowth/actualq/core/coupling/Xi与whole4/5UPPER未改。",
+    "why_this_contract": "局部修补资格已核，下一有同B/L/D的明确K_g/P0/Phi_g公式，实际全零模/原费能判是否被553覆盖；优于重做singlex或换参数/paper。不承袭作者7.4或完整source成功。",
     "paused_routes": [
       "零点比例优化",
       "无零区域优化"
@@ -30,7 +30,7 @@
       "549–578的精确停门、paid资产及合法逃逸见MACRO_FRONTIER/各root收据；不以旧商/正锥membership/未知余项改名复活；542+555→557仅whole4/5负惯性UPPER。",
       "579–582的实际源/非标量cycles/full-local强域/Green已付，但各principal、原域、coverage或fixedcoarse primitive门失败；停止原recipe，保不同relative/higher/强拓扑/有费无界/源适应修复。",
       "10-27附件战略source0已止，无新经典J或容量；正Dprime逼近不需逐层405/ordinarytrace，须独立正序列/完整signed趋零。tensor须真对象与全阶pole。",
-      "584一轮已结算；finite/tower/§8/fixedMB均0止。literalclassicalK当前失域冻结，不默修/调ray/B/level/weight/阻尼或续章；仅明示Rgeom单x current门，保有实物cofinal/Dprime修复。"
+      "584一轮结算；finite/tower/§8/fixedMB均0止。literalK失域冻结，独立Rgeom仅singlex已闭；下一明示K_g零模/原费准入，不调ray/B/level/weight/阻尼或续章，保有实物cofinal/Dprime。"
     ]
   },
   "primary_contract": {
@@ -41,9 +41,9 @@
     "settled_iterations": [
       "notes/584-marked-cusp-borel-kernel-and-pan-residue-collapse.md"
     ],
-    "stage": "literalK反测/冻结两稿/fresh/root限定0轮消费；源ac1db51正常push并GitHub独立GET ref/commit/tree核同本地。回执/STATE/checkpoint由metadata child保存；下一独立Rgeom单x规范未执行，同Goal门open。",
-    "next_action": "仅执行 reviews/2026-10-27/classical-theta-analytic/next-negative-plane-green-normalization-admission.md：固定B/Q/D，Rgeom=-B(pr_minusx,pr_minusx)，核singlex ddc xi+delta与phi0 μ、Q正负及scaledv系数。未执行；不接完整K/Phi/原费或Th7.4，不预C048/585。",
-    "stop_rule": "C047预算耗用，literalK已止。singlex规范不相容即止，不调factor/model/ray/level/weight/阻尼；相容仅局部独立版本前件，完整源须另input/test/net，标准0不预新合同。"
+    "stage": "Rgeom单x两稿/fresh/root限定闭合，标准修补0轮；仅局部新版本重闭，literal/7.4/完整运输冻结，管理保存/同步中。下一K_g准入未执行。",
+    "next_action": "仅执行 reviews/2026-10-27/negative-plane-green/next-corrected-kernel-source-admission.md：同B/L/D和原物理框架的明确K_g/P0/Phi_g，先actual零模/空间/原du或强费准入，再扣553。尚未执行，不把局部current代全源，不预C048/585或继承7.4。",
+    "stop_rule": "C047预算耗用，singlex门止。K_g准入若失域/全零/强旧覆盖即0止，不调model/ray/level/weight/阻尼或续paper；真新完整源/费用须input/test/net另准，不用source0藏新数学。"
   },
   "support_contracts": [],
   "must_not_forget": [
@@ -109,11 +109,6 @@
       "scope": "584的对象/域norm/量词/全误差/方向/强旧净值及12绑定版本；math一轮，Goal仍open。"
     },
     {
-      "path": "reviews/2026-10-27/finite-cover-trace/root-consumption-scope.json",
-      "kind": "cited",
-      "scope": "本次对象/域norm/全量词/误差/方向/有限数据角色/strongold与10版本闭合；原Goal门open。"
-    },
-    {
       "path": "reviews/2026-10-27/joint-oldform-tower/root-consumption-scope.json",
       "kind": "cited",
       "scope": "实际对象/域norm/全源成长/误差/方向/两商/strongold及15LF绑定；长期Goal门open。"
@@ -127,11 +122,6 @@
       "path": "reviews/2026-10-27/arithmetic-theta-section8/root-consumption-scope.json",
       "kind": "cited",
       "scope": "本次object/domain/norm/量词/依赖/方向/coverage/strongold及16LF绑定；原Goal门open。"
-    },
-    {
-      "path": "goals/reviews/2026-10-27-mellin-bergman-source-gate.md",
-      "kind": "cited",
-      "scope": "root/fresh：原du/basis/Gram与A(Pan)=S，mixed拉回退化；553标准合成0，非所有theta边界。"
     },
     {
       "path": "reviews/2026-10-27/mellin-bergman-source/root-consumption-scope.json",
@@ -149,20 +139,30 @@
       "scope": "本次对象/全v,z,格/原域norm/方向/语义freeze/强旧及17LF绑定；原Goal门open。"
     },
     {
-      "path": "reviews/2026-10-27/classical-theta-analytic/next-negative-plane-green-normalization-admission.md",
+      "path": "goals/reviews/2026-10-27-negative-plane-single-green-normalization.md",
+      "kind": "cited",
+      "scope": "root/fresh：明确Rgeom singlex current/两组件delta/√v相容，标准0；literal及完整运输冻结。"
+    },
+    {
+      "path": "reviews/2026-10-27/negative-plane-green/root-consumption-scope.json",
+      "kind": "cited",
+      "scope": "本次对象/∀fixedx,v/原ddcμ/方向/局部norm角色/重闭边界/强旧及18LF绑定，Goal门open。"
+    },
+    {
+      "path": "reviews/2026-10-27/negative-plane-green/next-corrected-kernel-source-admission.md",
       "kind": "open",
-      "scope": "唯一明示独立Rgeom singlex Green规范门，未执行，不承袭作者定理或完整运输。"
+      "scope": "唯一明确修补K_g实际零模/原费准入比较，未执行；先扣553，不继承作者全源身份。"
     }
   ],
   "pending_processes": [],
   "runtime_goal_observation": {
     "status": "active",
-    "observed_at_utc": "2026-10-27T15:02:39.267221+00:00",
+    "observed_at_utc": "2026-10-27T15:22:29.091609+00:00",
     "created_at_unix": 1793085111,
-    "basis": "结算前现场get_goal同实例active；本轮literalK首门已实际执行/root-fresh消费，下一单x规范未执行。"
+    "basis": "结算前现场get_goal同实例active；本轮singlex current已实际两稿/root-fresh消费，下一K_g准入未执行。"
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-10-27-classical-theta-literal-normalization-sync.json",
+  "checkpoint": "goals/checkpoints/2026-10-27-negative-plane-single-green.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
     "commit": "ac1db5105c7678b33d72e97fe74f740b55fc4802",
@@ -175,15 +175,15 @@
     "goal_lf_sha256": "b3d2acb1f962d793f45d79b6a4e67fb87dd072cd4752108a9298204b4cefa1de",
     "mathematical_gate": "open",
     "final_execution_gate": "not-eligible",
-    "basis": "literalK源类型失败/规范纠正是标准0；无classic primitive/完整signedgrowth/core/coupling新输入；whole4/5UPPER未改，Goal门open。"
+    "basis": "标准singlex规范重闭0，不提供新classic primitive/完整signedgrowth/core/coupling；修补K_g全source尚未执行，whole4/5UPPER未改，Goal门open。"
   },
   "historical_completion_receipts": [
     "goals/goal-completion-receipt.20261014.json",
     "goals/goal-completion-receipt.20261014-continuation.json"
   ],
-  "process_inventory_observed_on": "现场ct_zero/ct_norm/fresh全completed，root已核最终版本；extra fresh root/next/source-scope只读通过未改稿，无数值/下载后台。",
+  "process_inventory_observed_on": "ng_off/ng_delta/fresh终稿已completed，root核最终版本；extra fresh三新文件只读通过，阅读metadata已澄清，未做K_g，无数值/下载后台。",
   "publication_approval_gate": {
-    "status": "current-source-published-and-independently-verified",
+    "status": "current-negative-plane-singlex-root-consumed-publication-pending",
     "destination": "https://github.com/lixiang90/RH-Weil",
     "visibility": "public",
     "branch": "main",
@@ -193,7 +193,7 @@
       "reply": "每轮把进度同步到github；把文献保存在文献库中，用研究看板来记录各个路线的状况",
       "scope": "本项目研究/Goal/STATE/看板/文献元数据/审查与同步回执；论文再分发许可不明则全文仅本地。"
     },
-    "current_scope": "本次18源路径正常main同步且ref/commit/tree独立核验；metadata child仅回执/STATE/checkpoint，0额外轮。PDF/像素仅本地，无新PDF，cadence原字节保持。",
+    "current_scope": "本次singlex两稿/fresh/root/下一K_g准入/文献记录及管理待正常main同步；0数学轮，cadence原字节保持，PDF/像素本地，无新下载。",
     "published_source_commit": "ac1db5105c7678b33d72e97fe74f740b55fc4802",
     "verification": "reviews/2026-10-27/classical-theta-analytic/remote-sync-verification.json"
   },
@@ -214,8 +214,9 @@
     "basis": "E/c00实际标准反例与closedbase前件经fresh/root核；旧583绑定原件保留，当前非闭base仅closure结论；raw/native全尾/584保持。"
   },
   "classical_theta_normalization_scope_correction": {
-    "status": "literal-downstream-frozen-root-fresh-counterexample-closed-independent-repair-not-reclosed",
+    "status": "literal-downstream-frozen-independent-Rgeom-singlex-root-fresh-reclosed",
     "path": "reviews/2026-10-27/classical-theta-analytic/literal-normalization-freeze.md",
-    "basis": "actualfullrank反测/来源冲突已root/fresh闭合；上一next之Schwartz/K运输冻结，旧原件保hash；MB/582/583不回滚。Rgeom明确不同且singlex未核，不能承袭作者Th7.4。"
+    "repair_record": "reviews/2026-10-27/negative-plane-green/root-consumption-scope.json",
+    "basis": "literal失域及原hash保持；仅明确Rgeom singlex局部current重闭。K_g/Phi/全格/Poisson/原费/Pan及7.4/height未付；MB/582/583不回滚。"
   }
 }

@@ -1,0 +1,47 @@
+{
+  "schema": "rh-weil-source-read-record-v1",
+  "date": "2026-10-27",
+  "source_url": "https://www.math.utoronto.ca/skudla/CDM.revised.pdf",
+  "file": "literature/local/2026-10-27-joint-tower/kudla-cdm-revised-author.pdf",
+  "bytes": 887943,
+  "sha256": "47ff2ff6f5151081dd029a1df680377b88d58fc09d6629f3a2b2c3b78bab0f54",
+  "pages": 56,
+  "downloaded_this_turn": false,
+  "git_included": false,
+  "root_actual_visual_scope": "PDF21/22 relevant beta1/mu/current and exact ddc operator order. PDF22 additionally rendered180dpi and viewed original resolution. B/Q/w/D restored from prior closed definitions; root did not newly reread wholePDF4.",
+  "fresh_visual_scope": "PDF4 B/Q/w, PDF21/22 definitions, actual stored renders; no original theorem proofs.",
+  "proof_attribution": "Project independentRgeom singlex derivative/log/delta proof, not authorProp5.1 used as theorem. SameB/Q and Rgeom=2Rprint explicit, originalliteral remains frozen.",
+  "not_consumed": "Sections9–11 or new citations; completecorrectedK/Phi, lattice/Poisson/space fees/Pan; originalmodularity/7.4/height/stack/index transfers.",
+  "new_web_search": false,
+  "private_caches": [
+    {
+      "file": "literature/local/2026-10-27-joint-tower/mb-next-definition-page21.png",
+      "bytes": 85680,
+      "sha256": "76fa0687998cbaf4f9b134838081dbfa0544d04fe8b36e13c53c0d681f21957d",
+      "git_included": false,
+      "kind": "private local PDF render; PDF4 fresh only this turn"
+    },
+    {
+      "file": "literature/local/2026-10-27-joint-tower/mb-next-definition-page22.png",
+      "bytes": 111552,
+      "sha256": "b929c10486757aee8932ec91974653847e180bdd98ac7850b360d8f6bfb583bc",
+      "git_included": false,
+      "kind": "private local PDF render; PDF4 fresh only this turn"
+    },
+    {
+      "file": "literature/local/2026-10-27-joint-tower/ng-ddc-page-22.png",
+      "bytes": 254194,
+      "sha256": "05df11729e555f4261e4f74d5fdb70ab35c58c268fdd69316849669f921571e3",
+      "git_included": false,
+      "kind": "private local PDF render; PDF4 fresh only this turn"
+    },
+    {
+      "file": "literature/local/2026-10-27-joint-tower/ct-model-page-04.png",
+      "bytes": 177757,
+      "sha256": "c1ebba5b6003342ac1e2066a0ab8a09a1ebe9d26f510288eabef1723af71f190",
+      "git_included": false,
+      "kind": "private local PDF render; PDF4 fresh only this turn"
+    }
+  ],
+  "next_corrected_source_gate_executed": false
+}

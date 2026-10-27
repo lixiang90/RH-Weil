@@ -1,5 +1,7 @@
 # RH-Weil 文献索引
 
+2026-10-27，[独立Rgeom单x Green规范](../goals/reviews/2026-10-27-negative-plane-single-green-normalization.md)由项目直接微分/log分布证明，不引用作者Prop5.1当证明。[归属/范围](supplements/2026-10-27-negative-plane-single-green-source-scope.md)记录root重目视PDF21/22、fresh另核PDF4及新180dpi算子页；复用同56页PDF，无新下载/网页/外部proof审计。仅新版本局部重闭，literal/7.4/完整K运输冻结保持，数学0轮，像素仍本地。
+
 2026-10-27，[classical theta归一化首门](../goals/reviews/2026-10-27-classical-theta-literal-normalization-gate.md)发现literal B/Q/R与Schwartz标签不相容，按实际全rank格点反测冻结K/P0/Phi运输。[来源/语义范围](supplements/2026-10-27-classical-theta-normalization-source-scope.md)追加PDF4–6、20–22、25、29–30相关定义/陈述及官方同名PDF定位；不审后章/外部proof，不下载新PDF。原件SHA/56页不变，新增像素仅本地，数学0轮，MB自身不回滚。
 
 2026-10-27，[Mellin–Bergman实际源门](../goals/reviews/2026-10-27-mellin-bergman-source-gate.md)用项目直接cusp/Gram原费及553强旧结算0轮；root公式不归作者physical桥。复用56页Kudla原PDF，无新下载；仅为下一不同无限analytic核定位并目视PDF21/22/29相关定义/陈述，未核原证明或下一运输。[阅读归属与范围](supplements/2026-10-27-mellin-bergman-source-scope.md)和逐缓存SHA已保存，原PDF/像素仍仅本地。

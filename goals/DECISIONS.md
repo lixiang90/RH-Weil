@@ -1409,3 +1409,13 @@ root现已给唯一具体physical候选：fixed holomorphic S、Petersson基f_j�
 唯一下一有实际定义Rgeom=-B(pr_minus x,pr_minus x)=2Rprint，保持同V/Q/D/μ/ddc。只核单x xi=beta1(2piRgeom)的current方程、delta及多项式系数，未执行；这是明示不同版本的规范修补，不默改原件，不承袭Th7.4或完整K/Phi费用。它优于继续不存在的Phi费用/调ray/B/level或追下一paper，因为一个局部current反测即可判修补是否同源相容。失败即止，成功仅重闭局部版本，再按强旧判完整源是否值得准入；标准确认0，不用source0藏新完整运输。
 
 改策证据仍须独立正Dprime生成与完整signed缺陷、真tensor全阶pole、或不同实际primitive source/结构净比较；来源标题、非零对象和未知domination不够。本文不续§9–11/引文，原PDF/像素仍本地，读取/语义纠正/版本随本轮正常GitHub同步。细节及root版本见reviews/2026-10-27/classical-theta-analytic/root-consumption-scope.json。
+
+## D20261027P — 独立Rgeom单x规范已闭；完整K_g须实际零模/原费再准入
+
+同G20261027/1793085111/0c4f。执行O唯一singlex门，root与off/delta/fresh独立核一般a,b,c,s,y：R=|cz²−2az−b|²/(2y²)，DeltaH R=6R+8Q，grad²=4R(R+2Q)。原ddc=(DeltaE/(4pi))dA=halfDeltaH mu与beta1链式法则给准确4pi、-1及vQ系数。Q>0两simple根各一半平面，xi=-log|z-z0|²+smooth，singularddc每点-δ；Q<0内部smooth；sqrtv只改smooth项，delta不随v乘权。两稿/fresh/root最终限定闭合，未用作者Prop5.1代证明。
+
+仅明确Rgeom=2Rprint的独立局部current前件重闭；原literalK失域、P0/Phi/费用冻结及作者7.4/modularity/height/stack/index未审责任保持，不能写回旧定义或从singlex直接消费arithmeticquotient。MB/582/583及旧语义纠正不回滚。本轮标准局部修补0数学轮，cadence2/历史48/cycle16不动，无C048/585；classic primitive/整过滤/sections/mixedRR、完整Γ/contact/properpowers/双pole、signedgrowth/actualq/core/coupling/Xi及whole4/5负惯性UPPER未改，Goal门open。
+
+唯一下一明写同B/L/D的独立K_g/P0/Phi_g实际公式，仅做完整零模/空间原费的准入比较，未执行。先验真实polynomialGaussian与dual/mainterm能否让P0去两端，判globaldu→分离Hm/energy还是只有强费；F∞及component base明示。付全du后才扣553，且无限像只能先closure，mixed延拓还需pairing连续；不能复制finite-A exact同像。若只是标准Gaussian/Poisson及强旧直接运输0止；真有新完整无限源/费用信息须actualinput/test/strongestold net先准数学合同，不用source0藏新定理。
+
+此test比再查已闭singlex或换paper/参数有具体信息差：实际修补核的globalzero-mode/原费尚未知，能决定是否被553覆盖。失域/全零/强旧覆盖即止，不调B/level/ray/weight/阻尼、不续§9–11或追引文。另有独立signed/正Dprime生成和真tensor全阶pole的实物仍可改策；名称/局部对象非零/未知domination不够。文献原件复用，仅实际阅读/渲染及版本公开记录，原PDF/像素本地；根证据见reviews/2026-10-27/negative-plane-green/root-consumption-scope.json。
