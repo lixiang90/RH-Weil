@@ -1,0 +1,29 @@
+{
+  "schema": "rh-weil-remote-sync-verification-v1",
+  "verified_for_client_date": "2026-10-27",
+  "repository": "https://github.com/lixiang90/RH-Weil",
+  "branch": "main",
+  "source_commit": "91a83ae29b4f3ff04c9d77c938de0fe1b48cbe21",
+  "source_tree": "a72dc901faeb3313fb27afc74432c09c400553bd",
+  "previous_head": "8a3b416c25fb045cca1d3c88914221ae6b2ad839",
+  "local_commit_and_tree_match": true,
+  "normal_fast_forward_push": true,
+  "independent_remote_verification": {
+    "provider": "Connected GitHub plugin GET, independent of git push output",
+    "ref_url": "https://api.github.com/repos/lixiang90/RH-Weil/git/ref/heads/main",
+    "ref_commit": "91a83ae29b4f3ff04c9d77c938de0fe1b48cbe21",
+    "commit_url": "https://api.github.com/repos/lixiang90/RH-Weil/git/commits/91a83ae29b4f3ff04c9d77c938de0fe1b48cbe21",
+    "commit_tree": "a72dc901faeb3313fb27afc74432c09c400553bd",
+    "tree_url": "https://api.github.com/repos/lixiang90/RH-Weil/git/trees/a72dc901faeb3313fb27afc74432c09c400553bd",
+    "tree_sha": "a72dc901faeb3313fb27afc74432c09c400553bd",
+    "tree_truncated": false
+  },
+  "scope": "22 allowlisted paths: actual fixed-c2 pieces/root certificate and fresh scope, source checkpoint, one correlated-trial-budget admission, STATE/frontier/board/library reuse metadata. No third-party full text or ignored formula cache committed.",
+  "checks": "Both new arithmetic modules independently replayed with exact non-time JSON matches; manual Fraction aggregation and root16-version review passed. research_state check/checkpoint and staged whitespace check passed. Fixed mixed coefficient does not determine Weil/J/T/E or q0 sign.",
+  "fixed_c2_width_target_met": true,
+  "q0_width_target_met": false,
+  "next_one_trial_budget_executed": false,
+  "mathematical_round_increment": 0,
+  "long_goal": "Same runtime createdAt1793085111 active; original mathematical completion gate open.",
+  "receipt_policy": "This receipt binds the published source commit. Later metadata child saves receipt/STATE/checkpoint and is verified against actual HEAD without recursive self-SHA recording."
+}

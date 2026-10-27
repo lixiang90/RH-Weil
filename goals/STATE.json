@@ -40,7 +40,7 @@
     "settled_iterations": [
       "notes/583-completed-modular-faber-source-and-native-green-transport.md"
     ],
-    "stage": "固定c2五项/全H输入费已actual通过并root/fresh限定结算，width≈2.856e−16；wholeG/q0未过。建设性0数学轮，当前源材料待正常GitHub同步，下一budget比较未执行。",
+    "stage": "fixedc2已root/fresh限定结算；source91a83ae正常push并GitHub独立GET ref/commit/tree核同本地。回执/STATE/checkpoint由metadata child保存，下一samev budget比较未执行，无G/q0验收。",
     "next_action": "只执行reviews/2026-10-27/tf-reader-c2/next-one-trial-budget-admission.md：新n/c2→a2/rest七prime界，a_lo先扣n_lo²强旧，保b≤u_hi*a；冻结z=v/u_hi，实际有理输出J/残差/原q0宽门，并核n_lo−a_hi/u_hi的同包络best-case费。一次不足即止输入/包络自动续算，不调t/prime/Chebyshev/Krylov，不执行fullG或重跑c2。",
     "stop_rule": "C046/583不恢复预算，fixedc2门已用不重复；下一仅一次same-v相关trial预算比较，不足止该输入/包络自动续算，须新globalmixed/远尾费用或独立算术源实物才能再准入。"
   },
@@ -151,12 +151,12 @@
     "basis": "结算现场get_goal同实例active；fixedc2 numeric/replay/root/fresh实际完成，下一one-trial-budget尚未执行。"
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-10-27-fixed-c2-source.json",
+  "checkpoint": "goals/checkpoints/2026-10-27-fixed-c2-sync.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
-    "commit": "43064191274875c8e0a266b37bc540e789780657",
-    "tree": "d8e95e702bae262ed49ab62a55e795772e3778f2",
-    "basis": "GitHub连接独立GET ref/gitcommit/gittree与本地一致；reviews/2026-10-27/tf-reader-execution/remote-sync-verification.json；metadata child实际HEAD另现场核，不递归自记SHA。"
+    "commit": "91a83ae29b4f3ff04c9d77c938de0fe1b48cbe21",
+    "tree": "a72dc901faeb3313fb27afc74432c09c400553bd",
+    "basis": "GitHub连接独立GET ref/gitcommit/gittree与本地一致；reviews/2026-10-27/tf-reader-c2/remote-sync-verification.json；metadata child实际HEAD另现场核，不递归自记SHA。"
   },
   "completion_audit": {
     "goal": "goals/GOAL.20261027.md",
@@ -172,7 +172,7 @@
   ],
   "process_inventory_observed_on": "mixed16438/tail/root合成/fresh19260全部terminal，fresh最终root稿已消费；无G/其他ratio后台，下一budget未启动。",
   "publication_approval_gate": {
-    "status": "current-c2-root-closed-awaiting-normal-push-and-independent-verification",
+    "status": "current-source-published-and-independently-verified",
     "destination": "https://github.com/lixiang90/RH-Weil",
     "visibility": "public",
     "branch": "main",
@@ -182,9 +182,9 @@
       "reply": "每轮把进度同步到github；把文献保存在文献库中，用研究看板来记录各个路线的状况",
       "scope": "本项目研究/Goal/STATE/看板/文献元数据/审查与同步回执；论文再分发许可不明则全文仅本地。"
     },
-    "current_scope": "本次fixedc2实际证书/root审查/下一samev相关budget准入及STATE看板库元数据；建设性0数学轮，无新外部全文资产。",
-    "published_source_commit": "43064191274875c8e0a266b37bc540e789780657",
-    "verification": "reviews/2026-10-27/tf-reader-execution/remote-sync-verification.json"
+    "current_scope": "本次22源路径正常main同步且ref/commit/tree独立核验；metadata child仅回执/STATE/checkpoint，0额外轮。无新外部全文资产，旧DLMF缓存仍本地。",
+    "published_source_commit": "91a83ae29b4f3ff04c9d77c938de0fe1b48cbe21",
+    "verification": "reviews/2026-10-27/tf-reader-c2/remote-sync-verification.json"
   },
   "research_board": "RESEARCH_BRANCHES.md",
   "literature_index": "literature/README.md",
