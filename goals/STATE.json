@@ -41,7 +41,7 @@
     "settled_iterations": [
       "notes/585-cofinal-sonin-fixed-source-trace-lower-and-core-error-fee.md"
     ],
-    "stage": "本轮Γsigned有限6query来源0止；两支持/fresh/root原命题/局部字典/全型缺口已闭。C048仍completed预算耗尽；下一EX准入未执行，当前待正常同步核验。",
+    "stage": "Γsigned有限六query来源0停止，两支持/fresh/root已消费且17源路径正常main同步/独立核验。C048预算耗尽；下一EX仅强旧准入未执行。metadata child实际HEAD/tree在推送后单独核，不递归自记SHA。",
     "next_action": "仅执行 reviews/2026-10-28/gamma-signed-location/next-trial-common-subtraction-admission.md：冻结同一H0/共同δ/原degreefamily，先核585已付更大空间/正交HS的strongest-old后果；若旧蕴含0止，不预C049/586或新residual数学，不续来源检索。",
     "stop_rule": "本Γsigned定位六query已止，不续Nakamura§2/引用/下一paper。EX只一次准入核账，若标准旧后果即0止本recipe，不调degree/换E/复验537，不以partial结论完成Goal。"
   },
@@ -142,17 +142,17 @@
   "pending_processes": [],
   "runtime_goal_observation": {
     "status": "active",
-    "observed_at_utc": "2026-10-27T19:39:38.262957+00:00",
+    "observed_at_utc": "2026-10-27T19:41:43.798589+00:00",
     "created_at_unix": 1793085111,
-    "basis": "本轮root现场get_goal同实例active，实际执行并消费唯一Γsigned有限定位；上一Goal轮决策/同步progress，当前未新建/暂停/完成Goal。"
+    "basis": "本轮root再次get_goal同实例active；唯一Γsigned来源已实际执行/root消费/source远端独立核验，EX准入仍未执行。"
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-10-28-gamma-signed-location.json",
+  "checkpoint": "goals/checkpoints/2026-10-28-gamma-signed-location-sync.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
-    "commit": "51eb22f8a745751ea2f38da4e39f2f9542c8bf2f",
-    "tree": "a120f42fc72fcd11580af17b5f80559e647d7c8b",
-    "basis": "Independent GitHub GET main ref/commit/tree match; reviews/2026-10-28/post-lower-causal/remote-sync-verification.json; metadata child actual HEAD/tree verified separately without recursive self SHA."
+    "commit": "ea76fd4d3d1592e6173f3fbc4b7fd1dd8dbc14fc",
+    "tree": "6fda760469ce5025c7c74108d28fca53094efcd0",
+    "basis": "Independent GitHub GET mainref/commit/tree matched source; reviews/2026-10-28/gamma-signed-location/remote-sync-verification.json; metadata child actualHEAD/tree verified separately, no recursive self SHA."
   },
   "completion_audit": {
     "goal": "goals/GOAL.20261027.md",
@@ -168,7 +168,7 @@
   ],
   "process_inventory_observed_on": "本轮两支持/fresh、六query及唯一HTML归档均terminal并root消费；无PDF/渲染/数值/其它后台，下一EX准入未执行。",
   "publication_approval_gate": {
-    "status": "current-gamma-source-location-root-settled-awaiting-normal-push",
+    "status": "current-source-published-and-independently-verified",
     "destination": "https://github.com/lixiang90/RH-Weil",
     "visibility": "public",
     "branch": "main",
@@ -178,9 +178,9 @@
       "reply": "每轮把进度同步到github；把文献保存在文献库中，用研究看板来记录各个路线的状况",
       "scope": "本项目研究/Goal/STATE/看板/文献元数据/审查与同步回执；论文再分发许可不明则全文仅本地。"
     },
-    "current_scope": "本次有限Γsigned来源/两支持/fresh/root/查询/库元数据/看板/状态检查点，0数学cadence原字节；固定HTML仅本地ignored，尚待正常main同步。",
-    "published_source_commit": "51eb22f8a745751ea2f38da4e39f2f9542c8bf2f",
-    "verification": "reviews/2026-10-28/post-lower-causal/remote-sync-verification.json"
+    "current_scope": "Γsigned有限定位17源路径正常main同步且独立核ref/commit/tree；固定HTML仅local，公开元数据/范围/原件。0数学/cadence原字节保持，metadata child仅回执/STATE/新checkpoint，实际HEAD另核；下一EX准入未执行。",
+    "published_source_commit": "ea76fd4d3d1592e6173f3fbc4b7fd1dd8dbc14fc",
+    "verification": "reviews/2026-10-28/gamma-signed-location/remote-sync-verification.json"
   },
   "research_board": "RESEARCH_BRANCHES.md",
   "literature_index": "literature/README.md",
