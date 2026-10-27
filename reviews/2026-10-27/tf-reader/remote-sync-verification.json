@@ -1,0 +1,20 @@
+{
+  "schema": "rh-weil-remote-sync-v1",
+  "date": "2026-10-27",
+  "repository": "https://github.com/lixiang90/RH-Weil",
+  "branch": "main",
+  "source_commit": "355ab0c30de0417cf5c85795f9b81b3148482b0a",
+  "source_parent": "c9cf6d8094659b2f25ec07a605ecc1b3c44c00db",
+  "source_tree": "51d08914c46897210617685e35751fbce3279993",
+  "source_paths": 20,
+  "verified_by": "Independent connected GitHub GET git/ref,git/commits,git/trees after normal proxy push; tree matches local HEAD^{tree}.",
+  "read_urls": [
+    "https://api.github.com/repos/lixiang90/RH-Weil/git/ref/heads/main",
+    "https://api.github.com/repos/lixiang90/RH-Weil/git/commits/355ab0c30de0417cf5c85795f9b81b3148482b0a",
+    "https://api.github.com/repos/lixiang90/RH-Weil/git/trees/51d08914c46897210617685e35751fbce3279993"
+  ],
+  "scope": "Standard constructive reader precheck0; C0 exact gap actually executed/replayed. q0/T/E/Hfin not computed. Original source caches local-only. Receipt metadata child does not recursively record own SHA.",
+  "cadence": "unchanged1/historical47/cycle16",
+  "goal": "same createdAt1793085111 active; completion gate open",
+  "next_action": "Implement same certified physical reader, fixedh0=1_[1,2] q0 true-H residual and width<=1/16, then original five-source matrices/crossblocks; no C047/584 or newpaper."
+}
