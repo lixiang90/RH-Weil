@@ -1,5 +1,9 @@
 # 宏观前沿：可消费范围与最小未付箭头
 
+2026-10-27，[明确K_g零模／原费首门](reviews/2026-10-27-corrected-theta-source-and-pan-gate.md)已两稿/root/fresh限定闭合：selfdual Fourier负号/covol-dual、两端全部主项及fixed阶空间尾，全globaldu→Hm/C∞费用、F∞/组件均值均付。553给Pan像闭包同一，连续mixed关系根迫全拉回零，非finite exact像。标准Gaussian/Poisson＋强旧0轮止P0metric，cadence2／历史48／cycle16不动，无C048/585；classic瓶颈/whole4/5UPPER未改。仅独立R_g scalar源/费用重闭，literal及整体7.4运输冻结。下一仅[同raw K恢复mean/joint准入](../reviews/2026-10-27/corrected-theta-source/next-raw-mean-joint-source-admission.md)，actualPan leading/联合闭包未执行，±.75不代classic±.5。文献/看板入库；同Goal/阶段/同步见STATE。
+
+当前最强source链是实际修补Gaussian→全globaldu smoothing→553闭包→连续mixed退化；原费已付不能再写未知，也不等于classic正号。P0丢掉的raw空间均值带固定±3/4主项，当前T的du门未直接覆盖joint强源；下一只做该已有数据的actualPan/coupling test，先扣旧常数metric根/finite与closure机制，不自动视作逃逸。原literal失域及整体theta身份冻结保持。
+
 2026-10-27，[独立Rgeom单x Green规范](reviews/2026-10-27-negative-plane-single-green-normalization.md)已两稿/root/fresh限定闭合：一般坐标微分、原μ/ddc、Q正负、两组件单位delta及√v全项缩放相容。只重闭明确Rgeom局部current；原literalK及作者7.4/完整运输仍冻结，不回滚MB/582/583。标准修补0轮，cadence2／历史48／cycle16不动，无C048/585；classic瓶颈/whole4/5UPPER未改。下一仅[明确K_g/P0/Phi_g的零模／原费准入比较](../reviews/2026-10-27/negative-plane-green/next-corrected-kernel-source-admission.md)，未执行，先扣553不把局部代全源。文献原件复用、实际阅读入库；同Goal/阶段/同步见STATE。
 
 当前准确区分：Rgeom=2Rprint的localcurrent规范已独立重闭；literal源失域不撤销。下一是明确不同K_g的actualzero-mode/space/originalnorm test，不承袭modularity/height。没有原du费时不能借553，未来无限像只先closure，mixed还须连续性。旧“singlex未核”等为历史。

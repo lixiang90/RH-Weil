@@ -1,5 +1,7 @@
 # RH-Weil 文献索引
 
+2026-10-27，[明确K_g源/原费](../goals/reviews/2026-10-27-corrected-theta-source-and-pan-gate.md)由项目直接Gaussian/Fourier/Poisson、compact图及553核闭，标准0轮。[来源/未审范围](supplements/2026-10-27-corrected-theta-source-scope.md)记录root/fresh重目视PDF5真实period/F∞，无新下载/网页/原proof审计。只独立scalar源/费用重闭，literal及整体theta/7.4冻结；下一rawmean/joint test未执行，原PDF/像素本地。
+
 2026-10-27，[独立Rgeom单x Green规范](../goals/reviews/2026-10-27-negative-plane-single-green-normalization.md)由项目直接微分/log分布证明，不引用作者Prop5.1当证明。[归属/范围](supplements/2026-10-27-negative-plane-single-green-source-scope.md)记录root重目视PDF21/22、fresh另核PDF4及新180dpi算子页；复用同56页PDF，无新下载/网页/外部proof审计。仅新版本局部重闭，literal/7.4/完整K运输冻结保持，数学0轮，像素仍本地。
 
 2026-10-27，[classical theta归一化首门](../goals/reviews/2026-10-27-classical-theta-literal-normalization-gate.md)发现literal B/Q/R与Schwartz标签不相容，按实际全rank格点反测冻结K/P0/Phi运输。[来源/语义范围](supplements/2026-10-27-classical-theta-normalization-source-scope.md)追加PDF4–6、20–22、25、29–30相关定义/陈述及官方同名PDF定位；不审后章/外部proof，不下载新PDF。原件SHA/56页不变，新增像素仅本地，数学0轮，MB自身不回滚。

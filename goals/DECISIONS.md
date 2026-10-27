@@ -1419,3 +1419,15 @@ root现已给唯一具体physical候选：fixed holomorphic S、Petersson基f_j�
 唯一下一明写同B/L/D的独立K_g/P0/Phi_g实际公式，仅做完整零模/空间原费的准入比较，未执行。先验真实polynomialGaussian与dual/mainterm能否让P0去两端，判globaldu→分离Hm/energy还是只有强费；F∞及component base明示。付全du后才扣553，且无限像只能先closure，mixed延拓还需pairing连续；不能复制finite-A exact同像。若只是标准Gaussian/Poisson及强旧直接运输0止；真有新完整无限源/费用信息须actualinput/test/strongestold net先准数学合同，不用source0藏新定理。
 
 此test比再查已闭singlex或换paper/参数有具体信息差：实际修补核的globalzero-mode/原费尚未知，能决定是否被553覆盖。失域/全零/强旧覆盖即止，不调B/level/ray/weight/阻尼、不续§9–11或追引文。另有独立signed/正Dprime生成和真tensor全阶pole的实物仍可改策；名称/局部对象非零/未知domination不够。文献原件复用，仅实际阅读/渲染及版本公开记录，原PDF/像素本地；根证据见reviews/2026-10-27/negative-plane-green/root-consumption-scope.json。
+
+## D20261027Q — K_g全原费已付并被553覆盖；只核同raw mean/joint是否有实际逃逸
+
+同G20261027/1793085111/0c4f。执行P的明确K_g/P0/Phi准入，两稿/fresh/root独立核Bselfdual phi=(4piX+²−1)e^-pi|X|²、Fourier=-phi、dual/covol准确Poisson。raw大−1/小+cL^-1v^-3/2均z常数，finitecompact lifts全空间/logv尾付款P0确杀主项；W=e^.75tP0K为C∞-valued S_exp。CS给全部globalL2du→eachHm/Ck/C∞及原Dlog/强费；不假P0与任意D_z交换。PDF5真实period及Γ作用核F∞，positivevolume与有向μ区分，actual两组件均值对称性另付，Hm/locconstant closedbase明示。
+
+553于是给closure(TPan)=closure(TF)=closure(TL2)，同一逼近序列对每个m还给C∞closure。没有exact同像/源强拓扑稠密/T非零假设；固定continuous mixed若消全Pan便整拉回零，E/H1及cited−E/4有实际连续性。任何同一完整Weil Gram声称与537正非根冲突；不是已经构造classic身份。实际源及全原费用已付，不能再记未知；但这都是标准Gaussian/Poisson＋553直接运输，0数学轮停止fixedP0scalar metric recipe，不用source0隐藏已付范围，也不领取新classicwhole/fullmethodboundary。
+
+cadence2/历史48/cycle16原字节不动，无C048/585。classic非零primitive桥/整过滤/sections/mixedRR、完整Γ/contact/properpowers/双pole、signedgrowth/actualq/core/coupling/Xi及whole4/5负惯性UPPER未改，Goal门open。只独立Rgeom scalarK/P0/Phi/费用重闭；原literal失域及整体arithmeticTheta/7.4/modularity/stack-index运输冻结，MB/582/583旧资产保持。
+
+唯一下一不是调核/模型/ray/weight或换paper，而是恢复同一已付rawK被P0删掉的m_L(t)=e^.75t averageK。现有尾给固定leading −e^.75t／+cL^-1e^−.75t；Sraw=(ell0=integralr m,T r)的strong费、actualp_b leading和C×Hm/C∞ jointclosure尚未执行。当前T的du门不直接覆盖mean，但无du费不是escape，scalar非零不是joint全退化；±.75更不能当classic双pole±.5。先检归一化实际关系能否逼近(1,0)，再判continuousmixed coupling，保infinite closure/exact区分。metricheight本已不见常数，不能将此旧事实当新输入。
+
+这个actualtest能改变选择：若joint闭包仍被旧机制控制则0止rawrecipe；若真有新完整费用/关系信息，先actualinput/test/strongestold准合同，不预C048。它优于对已闭P0源再调参或追paper，因为保完整raw数据并具体检强源/mean coupling。其他真正source适应/不同relative/强域/cofinal/不逐层Pan正Dprime仍合法但需实物。文献复用且只记录实际PDF5复核，无新PDF/网页/后章；原件本地、metadata及证明正常GitHub同步。根证据见reviews/2026-10-27/corrected-theta-source/root-consumption-scope.json。

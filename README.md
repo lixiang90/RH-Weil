@@ -11,7 +11,7 @@
 G20261027继承原0c4f基线和截至582的已知成果，持续研究同对象principal／Green与mixed RR、完整Weil正性及ζ/Ξ识别，不由旧成果重复验收。
 每轮保存并同步研究进度至本仓库，文献入[文献库](literature/README.md)，路线由[研究看板](RESEARCH_BRANCHES.md)跟踪；沿唯一计数每4–8完整数学轮做宏观审视，默认6轮。
 
-本次[独立负平面Green规范](goals/reviews/2026-10-27-negative-plane-single-green-normalization.md)已直接核清单x current及两组件delta系数，按标准纠正记0轮。原literal theta及完整运输仍冻结，经典瓶颈未改。下一仅核明确修补K_g的零模/原范数准入，先扣旧553，不把局部Green成立视作完整源成功。
+本次[修补K_g实际源](goals/reviews/2026-10-27-corrected-theta-source-and-pan-gate.md)已付完整零模、全空间及原du范数费用；连续mixed比较被553旧闭包机制覆盖，标准0轮停止当前P0metric方案。经典瓶颈未改。下一仅检查同raw K被删去的mean/joint数据，±3/4不代classic双pole，尚未执行。
 
 ## 研究问题
 

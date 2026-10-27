@@ -1,5 +1,7 @@
 # 长期研究恢复入口
 
+2026-10-27，[明确K_g零模／原费首门](reviews/2026-10-27-corrected-theta-source-and-pan-gate.md)已两稿/root/fresh限定闭合：selfdual Fourier负号/covol-dual、两端全部主项及fixed阶空间尾，全globaldu→Hm/C∞费用、F∞/组件均值均付。553给Pan像闭包同一，连续mixed关系根迫全拉回零，非finite exact像。标准Gaussian/Poisson＋强旧0轮止P0metric，cadence2／历史48／cycle16不动，无C048/585；classic瓶颈/whole4/5UPPER未改。仅独立R_g scalar源/费用重闭，literal及整体7.4运输冻结。下一仅[同raw K恢复mean/joint准入](../reviews/2026-10-27/corrected-theta-source/next-raw-mean-joint-source-admission.md)，actualPan leading/联合闭包未执行，±.75不代classic±.5。文献/看板入库；同Goal/阶段/同步见STATE。
+
 2026-10-27，[独立Rgeom单x Green规范](reviews/2026-10-27-negative-plane-single-green-normalization.md)已两稿/root/fresh限定闭合：一般坐标微分、原μ/ddc、Q正负、两组件单位delta及√v全项缩放相容。只重闭明确Rgeom局部current；原literalK及作者7.4/完整运输仍冻结，不回滚MB/582/583。标准修补0轮，cadence2／历史48／cycle16不动，无C048/585；classic瓶颈/whole4/5UPPER未改。下一仅[明确K_g/P0/Phi_g的零模／原费准入比较](../reviews/2026-10-27/negative-plane-green/next-corrected-kernel-source-admission.md)，未执行，先扣553不把局部代全源。文献原件复用、实际阅读入库；同Goal/阶段/同步见STATE。
 
 2026-10-27，[classical theta literal规范首门](reviews/2026-10-27-classical-theta-literal-normalization-gate.md)已两稿/root/fresh限定闭合：原B/Q/R拼合给rank1指数，actual任意fullrank3格的正部有限/负部无限，rawK非通常函数。冻结literalSchwartz／P0／Phi／Poisson与全部原费及Pan消费；不回滚MB、582/583或独立citedTheta。标准来源纠正0轮，cadence2／历史48／cycle16不动，无C048/585；classic瓶颈/whole4/5UPPER未改。下一仅[独立Rgeom的负平面／单x Green规范一致性](../reviews/2026-10-27/classical-theta-analytic/next-negative-plane-green-normalization-admission.md)，未执行，不承袭Th7.4或完整运输。原件/阅读及语义冻结入库；同Goal/阶段/同步见STATE。
