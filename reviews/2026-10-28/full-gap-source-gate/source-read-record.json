@@ -1,0 +1,52 @@
+{
+  "schema": "rh-weil-source-read-record-v1",
+  "client_date": "2026-10-28",
+  "recorded_at_utc": "2026-10-27T20:34:11.508485+00:00",
+  "status": "local-original-reused-limited-pages-root-consumed",
+  "source_url": "https://arxiv.org/abs/math/0208121v1",
+  "version": "arXiv math/0208121v1, seven-page layout",
+  "original_pdf": {
+    "file": "literature/local/2026-10-28-fixed-test-lower/burnol-sonine-0208121v1.pdf",
+    "bytes": 117262,
+    "sha256": "1890a3867e745c342be3a70eeb2948c673bfb644fc4f392f9302d0b9c96acc3b",
+    "git_included": false,
+    "pages": 7
+  },
+  "root_actual_scope": "Whole visual PDF2/3/4/5, necessary definitions/measure/norm/Lemma2 inverse and Th4/Cor5 only. UTF8 text reprint after GBK error. Adjacent deBranges/Th1/section4 not consumed; no6-7/ref.",
+  "height_actual_scope": "Whole visual same2/3/4/5; PDF4 necessary text. Only new render page4.",
+  "consumption_support_scope": "Local532/C005/560/585 and actual full-relative strip/combinedTC; no external web/PDF/numeric.",
+  "fresh_actual_scope": "Independent whole visual existing Burnolv1 PDF4/5 cache only; necessary norm/Lemma2/Th4/Cor5, not PDF2/3/6/7; no new render/download. Old local inputs as own final audit records.",
+  "raw_render_identities": [
+    {
+      "file": "tmp/pdfs/fixed-test-lower/h0-sonine-p2.png",
+      "bytes": 275477,
+      "sha256": "304bf17051f793a44d913b3b8f059ca1fadc4da1aa4d91e8c3efabe79b0bf2fb",
+      "git_included": false
+    },
+    {
+      "file": "tmp/pdfs/fixed-test-lower/h0-sonine-p3.png",
+      "bytes": 297656,
+      "sha256": "2eeb01025b51f006156124517b91a8a32b9e4229ce5a1e968a226b6b57774826",
+      "git_included": false
+    },
+    {
+      "file": "tmp/pdfs/fixed-test-lower/fullgap-sonine-p4.png",
+      "bytes": 293928,
+      "sha256": "692fcb67a1ffc9e3823ad27a624af9922247c33de1da723c7d361bdefe821862",
+      "git_included": false
+    },
+    {
+      "file": "tmp/pdfs/fixed-test-lower/h0-sonine-p5.png",
+      "bytes": 210950,
+      "sha256": "7e70d383f9b2026abdc89bda1771d33345cb386c172f8b7660ad46e075ccea09",
+      "git_included": false
+    }
+  ],
+  "new_render_count": 1,
+  "reused_render_count": 3,
+  "new_download_count": 0,
+  "scope_record": "literature/supplements/2026-10-28-full-gap-source-gate-scope.md",
+  "source_attribution_clarification": "reviews/2026-10-28/full-gap-source-gate/cutoff-scope-clarification.md",
+  "classification": "Source/standard strongest-old consumption0, not new math/whole cofinal fee.",
+  "next_causal_review_executed": false
+}

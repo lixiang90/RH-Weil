@@ -8,9 +8,9 @@
   "cadence": "goals/review-cadence.json",
   "decisions": "goals/DECISIONS.md",
   "latest_strategy": "goals/reviews/2026-10-27-general-rh-macro-review-cycle-16.md",
-  "latest_decision": "D20261028J",
+  "latest_decision": "D20261028K",
   "macro_frontier": "goals/MACRO_FRONTIER.md",
-  "macro_summary": "goals/reviews/2026-10-28-trial-common-subtraction-old-net-stop.md",
+  "macro_summary": "goals/reviews/2026-10-28-fixed-full-gap-source-gate-stop.md",
   "latest_macro_review": "goals/reviews/2026-10-27-general-rh-macro-review-cycle-16.md",
   "latest_iteration": "notes/585-cofinal-sonin-fixed-source-trace-lower-and-core-error-fee.md",
   "macro_control": {
@@ -20,8 +20,8 @@
   },
   "macro": {
     "long_objective": "G20261027接续G20261014完整完成门/原0c4f基线，≤582为输入；持续寻经典同源Weil正性/有效性/RR或actualsigned新输入，付全源/成长/core及谱识别。",
-    "unpaid_bottleneck": "原EX residual成长已由585 strict旧family/正交HS蕴含，0止；未付仍是独立净signed/corecross/primitiveRR/Xi，whole4/5UPPER未改。wholegap候选只不同实际类型，无relativecofinal费用/coverage。",
-    "why_this_contract": "EX原recipe已强旧0止，不续参数。下一仅wholegap固定Mb实际公式/旧Pb相对原费首门：旧ALLpoly witness已被扣掉，需新relative输入；只type/HS/mM或unknown命名即0止，不准数学。",
+    "unpaid_bottleneck": "Fullgap仅旧2logb边界/Ω合并TC，未有cofinal净预算；独立signed/corecross/同一非零primitiveRR/Xi仍欠，whole4/5UPPER未改。actual瓶颈本轮无新付款。",
+    "why_this_contract": "两补偿recipe已按门0止；唯一下一非formal因果投入审视，先实际input/test/strongestold净后果，再选动作。禁止第三投影/unknown余项改名或编chapter来源队列。",
     "paused_routes": [
       "零点比例优化",
       "无零区域优化"
@@ -30,7 +30,7 @@
       "549–578的精确停门、paid资产及合法逃逸见MACRO_FRONTIER/各root收据；不以旧商/正锥membership/未知余项改名复活；542+555→557仅whole4/5负惯性UPPER。",
       "579–582的实际源/非标量cycles/full-local强域/Green已付，但各principal、原域、coverage或fixedcoarse primitive门失败；停止原recipe，保不同relative/higher/强拓扑/有费无界/源适应修复。",
       "10-27附件战略source0已止，无新经典J或容量；正Dprime逼近不需逐层405/ordinarytrace，须独立正序列/完整signed趋零。tensor须真对象与全阶pole。",
-      "literal/整体theta冻结、unitary/canonicalAc/Γsigned定位均止；585止lower/sharp，finitepolyEX已由strict旧family0止。fixed整个Mb仅一次类型/原费门，未准math，不调b/H0/degree/续paper。"
+      "literal/整体theta冻结、unitary/canonicalAc/Γsigned定位0止；585止lower/sharp，EX与fixedfullgap均强旧/标准0止。不续b/H0/degree/投影/paper；paid实物再准。"
     ]
   },
   "primary_contract": {
@@ -41,9 +41,9 @@
     "settled_iterations": [
       "notes/585-cofinal-sonin-fixed-source-trace-lower-and-core-error-fee.md"
     ],
-    "stage": "EX原strict旧family/HS强旧0停止已root/fresh消费且16源路径正常main同步/独立核验；C048预算耗尽。下一fixed整个Mb仅类型/原费首门未执行。metadata child实际HEAD/tree推送后单独核，不递归自记SHA。",
-    "next_action": "仅执行 reviews/2026-10-28/trial-subtraction-admission/next-fixed-full-gap-type-and-fee-gate.md：先扣532一般cutoff/H0旧消费/旧BurnolPDF5Th4Cor5，核fixedMb同B_X/全inverse的相对kernel/原费及合并TC；若只type/HS/mM或unknown余项即0止，不预C049/586。",
-    "stop_rule": "finitepolyEX已0止，不换W修复/调cδdegree。新fullgap只一次类型/原费来源门，不能合法性代coverage；无独立同源relative费用即0止，不续b/H0/投影/paper，不以partial失败完成Goal。"
+    "stage": "本轮fixedfullgap类型/原费门已两支持/fresh/root限定闭合：原页/来源纠正及2logb合并TC为强旧标准0止，无新math；当前结算待正常main同步核远端，C048仍completed/耗尽。",
+    "next_action": "同步当前0止结算并核远端；随后唯一执行reviews/2026-10-28/full-gap-source-gate/next-causal-review-after-sonin-subtractions.md，一次非formal因果投入审视（尚未执行），须真实input/test/net才准数学，不造chapter/第三投影。",
+    "stop_rule": "EX及fullgap两个recipe均0止，不调b/H0/degree或续投影/paper。下一只因果投入选择，无独立实物保无数学准入；不formalcycle17/不归零/不completeGoal。"
   },
   "support_contracts": [],
   "must_not_forget": [
@@ -114,35 +114,30 @@
       "scope": "20LF绑定及3PDF/9页图：H0弱前件重闭/原域norm/全poly尾/符号量词/强旧净值，Goalopen。"
     },
     {
-      "path": "goals/reviews/2026-10-28-complete-gamma-signed-location-stop.md",
+      "path": "reviews/2026-10-28/full-gap-source-gate/root-consumption-scope.json",
       "kind": "cited",
-      "scope": "六query/唯一原文/局部−W合法字典及未付完整budget，无新math准入；source0止。"
+      "scope": "原页/来源归属重闭、实际relative2logb与Ω合并TC、方向/原norm/量词/强旧0止，Goalopen。"
     },
     {
-      "path": "goals/reviews/2026-10-28-trial-common-subtraction-old-net-stop.md",
+      "path": "reviews/2026-10-28/full-gap-source-gate/cutoff-scope-clarification.md",
       "kind": "cited",
-      "scope": "EX residual原阶为585 strict旧family直接蕴含0止；下一wholegap仅类型/原费准入，未执行。"
+      "scope": "532cutoff1/fixedprime与Burnol一般fixedλarch归属限定；宽读冻结，585/EX原链保持。"
     },
     {
-      "path": "reviews/2026-10-28/trial-subtraction-admission/root-consumption-scope.json",
-      "kind": "cited",
-      "scope": "21LF：同源范数/开放参数/actual投影HS/方向/强旧0/下一差异和TC限制，Goalopen。"
-    },
-    {
-      "path": "reviews/2026-10-28/trial-subtraction-admission/next-fixed-full-gap-type-and-fee-gate.md",
+      "path": "reviews/2026-10-28/full-gap-source-gate/next-causal-review-after-sonin-subtractions.md",
       "kind": "open",
-      "scope": "唯一fixed整个Mb类型/原Pb相对原费首门，未执行/未准数学；先532/旧源/TC，无独立新费即0止。"
+      "scope": "唯一下一因果投入审视，未执行/非formal17；不预新math/投影或编chapter队列。"
     }
   ],
   "pending_processes": [],
   "runtime_goal_observation": {
     "status": "active",
-    "observed_at_utc": "2026-10-27T20:07:44.720634+00:00",
+    "observed_at_utc": "2026-10-27T20:34:11.508485+00:00",
     "created_at_unix": 1793085111,
-    "basis": "本轮root再次get_goal确认同实例active；EX唯一准入已实际消费/源提交远端独立核验，下一fixed Mb首门仍未执行。"
+    "basis": "同实例root现场get_goal active；当前fullgap唯一门已实际执行且两支持/fresh/root限定消费，下一因果审视尚未执行。"
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-10-28-trial-subtraction-admission-sync.json",
+  "checkpoint": "goals/checkpoints/2026-10-28-full-gap-source-gate.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
     "commit": "fd480e19218c6dd17eba4b5021d3c24249feba91",
@@ -155,15 +150,15 @@
     "goal_lf_sha256": "b3d2acb1f962d793f45d79b6a4e67fb87dd072cd4752108a9298204b4cefa1de",
     "mathematical_gate": "open",
     "final_execution_gate": "not-eligible",
-    "basis": "EX0止为585/560直接旧后果，无新独立净signed/corecross/primitiveRR/Xi或whole付款；全gap只类型未费用/coverage，合法修复未排。Goal门open/noteligible。"
+    "basis": "Fullgap仅旧type/2logb及合并TC，Ωcofinal预算/独立signed/corecross/primitiveRR/Xi仍欠；无whole改善/关键瓶颈移除，Goal门open/noteligible。"
   },
   "historical_completion_receipts": [
     "goals/goal-completion-receipt.20261014.json",
     "goals/goal-completion-receipt.20261014-continuation.json"
   ],
-  "process_inventory_observed_on": "两EX支持/下一只读意见/fresh均terminal且root已全文消费；无外部下载/PDF/渲染/数值后台。下一fullgap首门未执行。",
+  "process_inventory_observed_on": "两本轮support与独立fresh均terminal/全文root消费；无下载/数值后台。原PDF/旧PNG复用，仅必要PDF4新一图，全部localignored。",
   "publication_approval_gate": {
-    "status": "current-source-published-and-independently-verified",
+    "status": "current-source-settled-awaiting-publication",
     "destination": "https://github.com/lixiang90/RH-Weil",
     "visibility": "public",
     "branch": "main",
@@ -173,7 +168,7 @@
       "reply": "每轮把进度同步到github；把文献保存在文献库中，用研究看板来记录各个路线的状况",
       "scope": "本项目研究/Goal/STATE/看板/文献元数据/审查与同步回执；论文再分发许可不明则全文仅本地。"
     },
-    "current_scope": "EX强旧0止16源路径正常main同步并独立核ref/commit/tree；cadence原字节保持，无新第三方原件。metadata child仅回执/STATE/新checkpoint，实际HEAD另核；下一fixed Mb首门未执行。",
+    "current_scope": "本轮fullgap0止研究/来源限定/两支持fresh/root/库看板STATE及checkpoint；无原PDF/PNG发布。下一因果审视未执行，正常main同步后独立核ref/commit/tree。",
     "published_source_commit": "fd480e19218c6dd17eba4b5021d3c24249feba91",
     "verification": "reviews/2026-10-28/trial-subtraction-admission/remote-sync-verification.json"
   },

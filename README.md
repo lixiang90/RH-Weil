@@ -11,7 +11,7 @@
 G20261027继承原0c4f基线和截至582的已知成果，持续研究同对象principal／Green与mixed RR、完整Weil正性及ζ/Ξ识别，不由旧成果重复验收。
 每轮保存并同步研究进度至本仓库，文献入[文献库](literature/README.md)，路线由[研究看板](RESEARCH_BRANCHES.md)跟踪；沿唯一计数每4–8完整数学轮做宏观审视，默认6轮。
 
-本次[EX强旧准入](goals/reviews/2026-10-28-trial-common-subtraction-old-net-stop.md)已由585 strict family/实际正交HS直接决定，原扣项仍留成长误差，0止不新建数学。下一仅[fixed fullgap类型/相对原费首门](reviews/2026-10-28/trial-subtraction-admission/next-fixed-full-gap-type-and-fee-gate.md)，未执行/未准数学；合法不同对象非已付coverage。周期3/Goal门保持。
+本次[fixed full-gap首门](goals/reviews/2026-10-28-fixed-full-gap-source-gate-stop.md)已限定核闭：同源relative的2logb边界为旧设施直接费用，合并Ω仍缺cofinal净预算，标准0止该候选。下一仅[因果投入审视](reviews/2026-10-28/full-gap-source-gate/next-causal-review-after-sonin-subtractions.md)，未执行/非formal周期重置/未准新数学。cadence3、whole4/5UPPER及Goal门保持。
 
 ## 研究问题
 

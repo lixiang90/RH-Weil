@@ -1543,3 +1543,17 @@ root另提出固定整个Sonin Mb⊂M1的实际fullgap候选：原H0共同b*>1�
 唯一下一trial-subtraction-admission/next-fixed-full-gap-type-and-fee-gate.md未执行，仅一个严格来源/类型/原费首门。先恢复532一般cutoff、560与H0旧消费，Burnol0208121v1PDF5Th4/Cor5早已定位/目视，重读非新source。核原P_b公式有无可进入同源ΠX1−ΠXb相对kernel的独立费用；旧C005已警告boundedblock逆不付逐blocktrace，log半线ArC一般非HS，须保合并TC不能∞−∞。若只nestedness/HS/mM粗费/arch公式或unknownresidual换名即0止，不续b/H0/degree/paper或新投影。实际不同对象与可判首门胜过继续无目标来源，但不降低input/test/net，不自动建math。
 
 保真正独立signed/正Dprime完整误差、同一非零primitive map+mixed容量或真tensor全阶pole实物可改策，不以此recipe失败作方法no-go或完成Goal。上一轮有限来源/原件/停止/远端同步progress；本次强旧核账和范围/下一准入改变为progress但0数学。文献只项目旧记录无新外部原件；库/看板/STATE/原件正常main同步独立核远端，管理/合同停止/推送不complete长期Goal。
+
+## D20261028K — Full-gap原页与边界费用重闭，0止设施门并回到因果投入
+
+同G20261027/1793085111/原0c4f。唯一fixed fullgap类型/原费门已实际执行，原Burnolv1PDF2–5必要定义/norm/Lemma2/Th4/Cor5与旧532/C005/560/H0经两独占支持、fresh及root限定消费。来源归属纠正：532本体cutoff1/fixedprime；一般firstfixedλ arch公式来自Burnol/C005。旧“532一般cutoff”若读作任意b/cofinalrelative已冻结，原文件/hash不改；paperP为low、π为trueSonin，原半轴norm不加2，log两腿±β非UβM1。585/finiteEX及H0原链不回滚。
+
+同一BX及inverse保持高半线，FX=BXFBX^-1原unitary involution；PiXb是Hβ∩FXHβ的真投影，完整Gram/inverse/returns不删。实际相对式PiX1−PiXb=Sβ+FXSβFX+(OX0−OXβ)，两finite-strip独立TC各β〈r,s〉，所以Trel=2logb〈r,s〉+Ω。只合并overlap差TC，不能由bounded block逆给各块trace或∞−∞。原du/zeroextensionDlog及complex源/中间向量/evaluator各保角色；fixedb、cofinalX、fixedsource和频高量词分开。
+
+2logb原du边界费独立X，却是旧C005及标准HS直接蕴含，不是新wholecofinal预算。现付仅0≤Trel≤tX1及m/M粗费、mixedCS；Ω无独立upper/有利signed相消。560同扣仍为K−CXb=Trel−QW+Ppole，全ΓFP/contact、properpowers、双pole保持；旧H0全poly/W已被新扣项收走，既不能套finiteEX反测也不推出残差小。无新primitive/coverage/corecross/Xi，whole542+555→557 leading4/5仍负惯性UPPER。
+
+故按原唯一门标准强旧0止fixed fullgap，不调b/H0/degree、实施第三投影或续paper，无C049/586；cadence3/历史49/cycle16原字节不动，C048耗尽状态保持。此停止未证明残差大小/全方法no-go，不排有费nonlocal/sourceadaptive/Gammarelative/Dprime/不同真实geometry，不completeGoal。
+
+唯一下一full-gap-source-gate/next-causal-review-after-sonin-subtractions.md尚未执行：一次非formal因果投入审视，比较连续类型/来源付款与真正独立净差、primitive/mixed、完整正Dprime责任；给一个实际动作、两条件备选与可推翻证据。只有真实独立input/test/扣最强旧净后果才准math；无实物保无数学准入/准确缺失，不造chapter/source队列，不再为同一unknown余项整理设施。它非formalcycle17/不归零3，不复读Burnol/Nakamura或第三批同词检索。
+
+上一Goal轮EX强旧停止与远端同步为progress；本轮范围纠正、准确边界账本和停止为progress但0数学。原PDF117262bytes同旧SHA复用，2/3/5旧图保留，仅必要PDF4新增一private图，无新下载/网页/数值；库/看板/STATE/研究原件正常main同步独立核远端。管理/停止/推送均不complete同实例active长期Goal。

@@ -1,5 +1,7 @@
 # 长期研究恢复入口
 
+2026-10-28，[fixed full-gap首门](reviews/2026-10-28-fixed-full-gap-source-gate-stop.md)已两支持/fresh/root限定核闭：原P低cutoff与πSonin、半轴norm/log±及532固定1来源已重闭；同B_X合并relative只付旧2logb边界，Ω无cofinal净费。标准强旧0止本候选，不调b/H0/degree/第三投影/paper；cadence3/历史49/cycle16原字节保持。下一仅[停止后的因果投入审视](../reviews/2026-10-28/full-gap-source-gate/next-causal-review-after-sonin-subtractions.md)，未执行/非formal17/无math准入。核心瓶颈与whole4/5UPPER未变，Goal门open。
+
 2026-10-28，[EX共同扣项强旧核账](reviews/2026-10-28-trial-common-subtraction-old-net-stop.md)已两支持/下一只读意见/fresh/root限定收讫：585原strict degree family已有较大W，actual正交补/有限HS给原E扣后两fixed源残差仍原阶成长。强旧直接0止，不建C049/586、不调E/c/δ、不复验537，cadence3/历史49/cycle16原字节保持。下一仅[整个fixed fullgap类型/相对原费首门](../reviews/2026-10-28/trial-subtraction-admission/next-fixed-full-gap-type-and-fee-gate.md)，未执行/未准math；旧W已在新扣项内不机械套反测，合法性非coverage。Goal门open，发布看STATE。
 
 2026-10-28，[完整Γsigned有限定位](reviews/2026-10-28-complete-gamma-signed-location-stop.md)两批6query已实际用完、两支持/fresh/root限定收讫。唯一Nakamura固定v1 HTML422428bytes本地入库：概率ratio正性非log/Weil正号；合法局部−W字典仅旧signed重编码，无实际q_R独立预算。0来源/数学，cadence3/历史49/cycle16原字节保持；止本定位/不续§2或paper，Goal门open。下一只[EX共同扣项强旧准入核账](../reviews/2026-10-28/gamma-signed-location/next-trial-common-subtraction-admission.md)，未执行/不准新math，先扣585更大poly空间/有限HS旧后果，非复验537或续lower。阶段/发布看STATE。

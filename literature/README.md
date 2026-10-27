@@ -1,5 +1,7 @@
 # RH-Weil 文献索引
 
+2026-10-28，[fixed full-gap首门](../goals/reviews/2026-10-28-fixed-full-gap-source-gate-stop.md)仅复用旧Burnolv1原PDF117262bytes同SHA，root/来源支持完整目视必要PDF2–5，消费限定义/norm/Lemma2/Th4/Cor5；2/3/5旧图复用，只新增必要PDF4一private图，无下载/新文献条目。[实际原页/未付范围](supplements/2026-10-28-full-gap-source-gate-scope.md)及source-read-record记录准确身份；532cutoff1/一般λarch来源区分已重闭。旧2logb边界费用不付合并Ω的cofinal净预算，标准0止/cadence3不动。
+
 2026-10-28，[EX强旧准入0止](../goals/reviews/2026-10-28-trial-common-subtraction-old-net-stop.md)只复用585/560等项目消费记录，无新外部原件/PDF/网页/下载/渲染/数值，不增文献条目。[实际阅读范围](supplements/2026-10-28-trial-subtraction-admission-scope.md)保strict原family/实际HS及C005分块TC限制。下一fixed fullgap只准旧Pb公式/原费用首门，原BurnolPDF5已定位/目视，不重领新来源，当前未重读原PDF。cadence3不动。
 
 2026-10-28，[完整Γsigned有限定位](../goals/reviews/2026-10-28-complete-gamma-signed-location-stop.md)两批6query止，仅新增Nakamura1504.03438v1原HTML一份422428bytes本地ignored；[版本/实际阅读/未审范围](supplements/2026-10-28-gamma-signed-location-scope.md)与查询记录绑定。只§1.2/1.3陈述和必要context，未审完整proof/追引文，无PDF/渲染。概率ratio正性、signed准Lévy及criticalRH等价性质分开；未付实际q_R预算，不续§2。来源0/cadence3不动。
