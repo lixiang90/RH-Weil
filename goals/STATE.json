@@ -38,7 +38,7 @@
     "status": "completed",
     "iteration_budget": 1,
     "settled_iterations": [],
-    "stage": "本轮modular容量三原稿/root/fresh修后限定PASS已闭合；0数学轮、不建C046。cycle16提前复盘完成，原cadence5→0一次/历史46保持；本批待正常GitHub同步。",
+    "stage": "modular容量/root/fresh限定闭合0轮；cycle16完成原5→0一次/历史46不变。17源文件f8d3366已发布并独立GET核ref/commit/tree；同步回执/恢复元数据随后续child保存。",
     "next_action": "用实际F_r=L_r(j)的cusp轮廓积分求常数/负系数source核和有限主部截断；只检新增截断Green/relative输出及全尾能否运输405真实Pan/537和原费。honest域失败已知不重查；仅旧essential/域不合法即止，无新尾/接入不准入合同。",
     "stop_rule": "只核这一指定章节及实际比较；未知桥不建C046，不串paper。新严格完整结果按cadence计，标准/旧推论0。"
   },
@@ -184,6 +184,11 @@
       "path": "literature/supplements/2026-10-27-modular-capacity-source-scope.md",
       "kind": "cited",
       "scope": "同SHA作者版§2/§4/§13核读及内部2018补注；首页日期非最后修订，所用p1输入消费不变，无新PDF。"
+    },
+    {
+      "path": "reviews/2026-10-27/modular-capacity/remote-sync-verification.json",
+      "kind": "cited",
+      "scope": "本轮17源GitHub ref/commit/tree独立核，metadata child另核HEAD；哈希非证明。"
     }
   ],
   "pending_processes": [],
@@ -194,11 +199,11 @@
     "basis": "本轮root再次get_goal核同createdAt active，无创建/重置实例；STATE指定容量比较已实际执行，数学门未闭。"
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-10-27-modular-capacity-cycle16.json",
+  "checkpoint": "goals/checkpoints/2026-10-27-modular-capacity-cycle16-sync.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
-    "commit": "0359653fe31d8fec0a610ae3d6926731915b1c7a",
-    "basis": "上一轮末次实际GET核ref/commit/tree与HEAD相等；本轮起点同SHA且clean。本批新发布另核，旧回执不代当前状态。"
+    "commit": "f8d3366ebb53bec67296381587cc0cdddd370f96",
+    "basis": "本轮17源路径remote ref/commit/tree与本地d934c2a7同tree，回执reviews/2026-10-27/modular-capacity/remote-sync-verification.json；metadata child实际HEAD另核，不递归自记SHA。"
   },
   "completion_audit": {
     "goal": "goals/GOAL.20261027.md",
@@ -212,9 +217,9 @@
     "goals/goal-completion-receipt.20261014.json",
     "goals/goal-completion-receipt.20261014-continuation.json"
   ],
-  "process_inventory_observed_on": "本轮三producer与capacity_fresh均completed且root实际读稿；无后台数学/下载进程。Goal同实例active，当前结算完成待Git同步。",
+  "process_inventory_observed_on": "四本轮agent均completed/root实际读稿，无数学或下载后台。源f8d3366远端ref/commit/tree已核，Goal同实例active；下一实际检新增截断尾/relative运输。",
   "publication_approval_gate": {
-    "status": "current-review-source-ready-sync-pending",
+    "status": "current-source-published-and-independently-verified",
     "destination": "https://github.com/lixiang90/RH-Weil",
     "visibility": "public",
     "branch": "main",
@@ -224,9 +229,9 @@
       "reply": "每轮把进度同步到github；把文献保存在文献库中，用研究看板来记录各个路线的状况",
       "scope": "本项目研究/Goal/STATE/看板/文献元数据/审查与同步回执；论文再分发许可不明则全文仅本地。"
     },
-    "current_scope": "本轮modular容量四独占稿、root主稿/cycle16、文献范围和恢复记录待正常同步main；全文仍本地，已有发布不代本批成功。",
-    "published_source_commit": "ca21cabfe80068aa8b12248042a1676dada21fa9",
-    "verification": "reviews/2026-10-27/goal-start/remote-sync-verification.json"
+    "current_scope": "本轮17源文件已正常同步main并核ref/commit/tree；回执/STATE/checkpoint随后续child保存，全文未公开提交。",
+    "published_source_commit": "f8d3366ebb53bec67296381587cc0cdddd370f96",
+    "verification": "reviews/2026-10-27/modular-capacity/remote-sync-verification.json"
   },
   "research_board": "RESEARCH_BRANCHES.md",
   "literature_index": "literature/README.md"
