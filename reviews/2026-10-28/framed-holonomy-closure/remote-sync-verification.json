@@ -1,0 +1,25 @@
+{
+  "schema": "rh-weil-remote-source-verification-v1",
+  "client_date": "2026-10-28",
+  "verified_at_utc": "2026-10-27T21:41:23.631032+00:00",
+  "status": "source-published-independently-verified",
+  "repository": "https://github.com/lixiang90/RH-Weil",
+  "branch": "main",
+  "source_commit": "fd6a20cc3c787419b24df90fb8d90ec792c734bb",
+  "source_tree": "dbc9162cad0e10eb6d3abfa9bd3dc54b29dad623",
+  "source_parent": "c86676324d8a8d4ed1440b93cd25ede68db66a0c",
+  "remote_checks": {
+    "method": "Independent connected GitHub GET mainref/gitcommit/gittree",
+    "main_ref_sha": "fd6a20cc3c787419b24df90fb8d90ec792c734bb",
+    "commit_sha": "fd6a20cc3c787419b24df90fb8d90ec792c734bb",
+    "commit_tree_sha": "dbc9162cad0e10eb6d3abfa9bd3dc54b29dad623",
+    "tree_sha": "dbc9162cad0e10eb6d3abfa9bd3dc54b29dad623",
+    "all_matched": true
+  },
+  "scope": "16 explicit source paths: original fullz family domain/norm/gauge/Pan closure, coefficientwise553 strongestold direct0 stop, noC049/586, no newmath iteration. Two scope clarifications preserve old hashes. Board/library/state/checkpoint updated; no externalraw/newPDF/numerics.",
+  "root_scope": "reviews/2026-10-28/framed-holonomy-closure/root-consumption-scope.json",
+  "cadence": "Exact LF cc6877d133b9b9fabd57f199b2433fa4d3fea02a5786b61727cd8f8479d4d2db unchanged:3/history49/cycle16",
+  "next": "No current successorcandidate/mathcontract. New mathematicalinput request submitted; only actualnewformula/theorem orcurrentuserinstruction triggers admission, no repeatedoldgate/automaticquerychain, noverifiedwait claim.",
+  "goal_gate": "Same runtime1793085111 active/open/noteligible. No independentclassic net/core/primitiveRR/Xi orwholeimprovement. Local stop/publication not Goalcompletion; no blockedstatus fromdifficulty.",
+  "metadata_child_policy": "Receipt names verifiedsource only. Metadata child exactly receipt, STATE andnew sync checkpoint. Actual child HEAD/tree checked independently afterpush outside recursive receipt."
+}
