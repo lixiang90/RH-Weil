@@ -43,7 +43,7 @@
     "settled_iterations": [
       "notes/586-theta-ground-state-spectrum-and-full-gamma-heat-defect.md"
     ],
-    "stage": "一次T_B actual公式已两终稿/fresh/root限定核闭，按globalH1/旧Pan密度的limit责任统一前置0；C049仍耗尽，无C050/587或新数学轮。当前保存原件/库/看板/STATE与发布检查点。",
+    "stage": "唯一T_B actual规则已两终稿/修后fresh/root强旧前置0止；14源路径396648d已正常main推送且独立核GitHub ref/commit/tree。metadatachild只记已核source，实际HEAD/tree现场另核。C049仍耗尽，无C050/587/新math。",
     "next_action": "自主形成真正新的同源mixed/relative实际公式或coupled输入，先写domain/range、完整目标连接/原费及可判input-test-net，再决定math准入；核total globalfiniteSobolev责任与额外无界腿真实coupling。当前未形成继任formula/proof/source章节；不改本T_B参数/添背景或重开旧query，也不等用户许可。",
     "stop_rule": "本一规则γ/c^-2/中心化/cutoff前置0已止，不改权/指数/Γ补偿或paper；仅componentH1界不替未知总型。无实际新input不造C050/587，formal17已归零不复盘重置，Goal门不缩。"
   },
@@ -124,12 +124,12 @@
     "basis": "本轮现场get_goal同实例active；单一actual构造及两支持/fresh/root已实际执行/前置0，完成门未过。"
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-10-28-coprime-additive-input-local.json",
+  "checkpoint": "goals/checkpoints/2026-10-28-coprime-additive-input-sync.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
-    "commit": "f848b3a7dceb081a3b5ee36bdac92a78eaf9f224",
-    "tree": "366fdd4b3c7c3008c5aa9275b6bf7769e497840b",
-    "basis": "Independent GitHub GET mainref/commit/tree matched source; reviews/2026-10-28/macro-cycle-17/remote-sync-verification.json; metadatachild actualHEAD/tree verified separately, no recursive selfSHA."
+    "commit": "396648da6638616da59b53caa91dc2b0e711f923",
+    "tree": "453915c14f23ae1ec52f39398e92a2c85b7d944c",
+    "basis": "Independent GitHub GET mainref/commit/tree matched source; reviews/2026-10-28/coprime-additive-input/remote-sync-verification.json; metadatachild actualHEAD/tree verified separately, no recursive selfSHA."
   },
   "completion_audit": {
     "goal": "goals/GOAL.20261027.md",
@@ -143,9 +143,9 @@
     "goals/goal-completion-receipt.20261014.json",
     "goals/goal-completion-receipt.20261014-continuation.json"
   ],
-  "process_inventory_observed_on": "本轮norm/coeff/fresh三个currenttask均最终稿终结，非零宽读已限缩；无新数学proof/研究web/PDF/数值后台，待本轮正常发布。",
+  "process_inventory_observed_on": "本轮norm/coeff/fresh三个task均最终稿终结、scope修补已闭；14源已push/独立核，无新数学proof/研究web/PDF/数值后台。metadatachild实际HEAD现场另核，不是verifiedwait。",
   "publication_approval_gate": {
-    "status": "current-source-root-consumed-local-not-yet-published",
+    "status": "current-source-published-and-independently-verified",
     "destination": "https://github.com/lixiang90/RH-Weil",
     "visibility": "public",
     "branch": "main",
@@ -155,9 +155,9 @@
       "reply": "每轮把进度同步到github；把文献保存在文献库中，用研究看板来记录各个路线的状况",
       "scope": "本项目研究/Goal/STATE/看板/文献元数据/审查与同步回执；论文再分发许可不明则全文仅本地。"
     },
-    "current_scope": "本轮唯一T_B actual公式/两支持/修后fresh/root前置0及库/看板/STATE/checkpoint本地已消费，尚未新源push核远端；无新外部全文/数学轮。",
-    "published_source_commit": "f848b3a7dceb081a3b5ee36bdac92a78eaf9f224",
-    "verification": "reviews/2026-10-28/macro-cycle-17/remote-sync-verification.json"
+    "current_scope": "本轮单一T_B构造/强旧前置0的14源路径已正常main同步并独立核ref/commit/tree；0数学/无外部新全文。metadatachild仅回执/STATE/新checkpoint，实际HEAD另核，0止/发布不完成Goal。",
+    "published_source_commit": "396648da6638616da59b53caa91dc2b0e711f923",
+    "verification": "reviews/2026-10-28/coprime-additive-input/remote-sync-verification.json"
   },
   "research_board": "RESEARCH_BRANCHES.md",
   "literature_index": "literature/README.md",
