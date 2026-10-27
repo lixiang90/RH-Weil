@@ -41,8 +41,8 @@
     "settled_iterations": [
       "notes/585-cofinal-sonin-fixed-source-trace-lower-and-core-error-fee.md"
     ],
-    "stage": "本轮外部3query/12visible/唯一primary记录已两支持/fresh/root限定来源0止，原PDF未读，无新math结算。原创全z运输公式/低阶意见仅草稿，下一前件闭合未执行；待本轮main同步核远端，C048耗尽。",
-    "next_action": "同步当前来源0止结算并核远端；随后执行 reviews/2026-10-28/independent-source-discovery/next-original-framed-holonomy-admission.md：原对象/norm/全Sexp/两端frames/Pan与最强旧闭合、消费前分类低阶草稿。未准C049/586，不续query/改B或高阶。",
+    "stage": "本轮外部三query/唯一primary范围两支持/fresh/root已来源0止并正常main同步，独立核ref/commit/tree。原创全z定义及低阶意见仅未数学消费草稿；下一前件闭合未执行，C048 completed/耗尽。",
+    "next_action": "执行 reviews/2026-10-28/independent-source-discovery/next-original-framed-holonomy-admission.md：仅闭已有草稿原对象/norm/全Sexp/两端frames/真实Pan与最强旧，并分类数学净果/轮数；未准C049/586。不重构/改B/A0/高阶或续query/paper。",
     "stop_rule": "外部来源门已耗尽0止。原创族仅一次消费前准入；第一真实必要条件失败即止，不调B/A0/frames/续高阶。若非旧完整strict反例须按实际数学计轮，不能藏source0；不以局部停止completeGoal。"
   },
   "support_contracts": [],
@@ -137,17 +137,17 @@
   "pending_processes": [],
   "runtime_goal_observation": {
     "status": "active",
-    "observed_at_utc": "2026-10-27T21:16:09.812064+00:00",
+    "observed_at_utc": "2026-10-27T21:18:06.470271+00:00",
     "created_at_unix": 1793085111,
-    "basis": "本轮root现场get_goal同实例active；唯一三query发现已真实执行/范围消费0止，原创数学草稿前件未接受，下一核账未执行。"
+    "basis": "本轮现场get_goal同实例active；唯一三query外部发现实际执行/限定消费并发布核远端；原创低阶数学草稿未root接受，下一消费前件闭合未执行。"
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-10-28-independent-source-discovery.json",
+  "checkpoint": "goals/checkpoints/2026-10-28-independent-source-discovery-sync.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
-    "commit": "b5a69bec16d557395663ea57cbb7f0f70ed375c6",
-    "tree": "dcae7ecf9ca4dc0b249214b75ed28eb92c2d1e9c",
-    "basis": "Independent GitHub GET mainref/commit/tree matched source; reviews/2026-10-28/post-subtraction-causal/remote-sync-verification.json; metadatachild actualHEAD/tree independently verified separately, no recursive selfSHA."
+    "commit": "f44e3ee7e1f96ec4ecf08624665e134040e81f5d",
+    "tree": "7abc9d9705e45b17a6c87e4af472f6628ebc3048",
+    "basis": "Independent GitHub GET mainref/commit/tree matched source; reviews/2026-10-28/independent-source-discovery/remote-sync-verification.json; metadatachild actualHEAD/tree verified separately, no recursive selfSHA."
   },
   "completion_audit": {
     "goal": "goals/GOAL.20261027.md",
@@ -163,7 +163,7 @@
   ],
   "process_inventory_observed_on": "本轮两source支持/额外原创意见及fresh均terminal/实际全文读取；数学草稿未root消费，无PDF/下载/数值后台。下一原对象/费用/frames/强旧核账未执行。",
   "publication_approval_gate": {
-    "status": "current-source-settled-awaiting-publication",
+    "status": "current-source-published-and-independently-verified",
     "destination": "https://github.com/lixiang90/RH-Weil",
     "visibility": "public",
     "branch": "main",
@@ -173,9 +173,9 @@
       "reply": "每轮把进度同步到github；把文献保存在文献库中，用研究看板来记录各个路线的状况",
       "scope": "本项目研究/Goal/STATE/看板/文献元数据/审查与同步回执；论文再分发许可不明则全文仅本地。"
     },
-    "current_scope": "本轮来源0止query/metadata/两支持fresh/root及原创定义/未数学消费意见、库看板STATE/checkpoint；raw工具缓存仅localignored。正常main同步后独立核ref/commit/tree，下一原创准入未执行。",
-    "published_source_commit": "b5a69bec16d557395663ea57cbb7f0f70ed375c6",
-    "verification": "reviews/2026-10-28/post-subtraction-causal/remote-sync-verification.json"
+    "current_scope": "本轮来源0止19源路径正常main同步，独立核GitHub ref/commit/tree；原创定义/低阶数学草稿仅交接。raw工具缓存仅local，未PDF。metadatachild仅回执/STATE/新checkpoint，实际HEAD另核。",
+    "published_source_commit": "f44e3ee7e1f96ec4ecf08624665e134040e81f5d",
+    "verification": "reviews/2026-10-28/independent-source-discovery/remote-sync-verification.json"
   },
   "research_board": "RESEARCH_BRANCHES.md",
   "literature_index": "literature/README.md",
