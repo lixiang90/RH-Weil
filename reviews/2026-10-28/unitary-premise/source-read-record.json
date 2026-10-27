@@ -1,0 +1,178 @@
+{
+  "schema": "rh-weil-source-read-record-v1",
+  "date": "2026-10-28",
+  "downloaded_this_turn": false,
+  "new_web_search": false,
+  "sources": [
+    {
+      "file": "literature/local/2026-10-28-causal-strategy/raum-2603.04282v2.pdf",
+      "bytes": 644075,
+      "sha256": "8a92b4cac23ed6a26e70575919f2a13377715e0e8e5ad38c339f771bc5d2c7eb",
+      "git_included": false
+    },
+    {
+      "file": "literature/local/2026-10-28-causal-strategy/li-liu-2006.06139v5.pdf",
+      "bytes": 1263440,
+      "sha256": "b3705e15817c142a2319660f12b07bf3871e13389d6d5557397c776809cec289",
+      "git_included": false
+    }
+  ],
+  "source_versions": [
+    "Raum2603.04282v2 10May2026 58pages",
+    "LiLiu2006.06139v5 10Apr2021 66pages"
+  ],
+  "root_actual_scope": "RaumPDF52-56 fulltext/fullvisual; LLPDF4,24,25,30,32 fullvisual andnecessarytext, old6-7 restored. OnewrongLLPDF33 textoutput notconsumed. Rootalso read432/573 actualoldcone-input segments fornextadmission.",
+  "modularity_actual_scope": "Raum52-56 fulltext/fullvisual; priorC/Def2.18/Prop1.10 statements, roadmapPDF6 visual,2.17 PDF29 definition. LL24 visual,10-11 necessarydefinitions. IncidentalwrongRaum26 first600chars notconsumed.",
+  "height_actual_scope": "LLfullvisual4-7,10,18,24-25,28,30-32; textnecessary11,13-16. Adjacentproof snippets notindependentlyaudited; no fullproofchain.",
+  "fresh_actual_scope": "Raum52-56 andLL4,6-7,24-25,30,32 fullvisual; necessarypriorstatements only, no deepnewproof/newweb.",
+  "semantic_overlay": "OriginalPDF5.6 literalallrank/nativezeromode/unitcoeff notautomaticallyconsumed; explicitnativeHodge andquotientsumSigma=d*pi overlay root/freshreclosed for modularmembership only, notheight/Pet isometry. A/B/C andexternaldeepingredients cited, PDFunaltered.",
+  "new_private_caches": [
+    {
+      "file": "literature/local/2026-10-28-causal-strategy/uh-height-30.png",
+      "bytes": 294666,
+      "sha256": "f449733233b5d977fc4605460adb0e172d14b6b9a66f9f69bb08aed686178592",
+      "git_included": false
+    },
+    {
+      "file": "literature/local/2026-10-28-causal-strategy/uh-height-31.png",
+      "bytes": 314027,
+      "sha256": "e23c681ac94ce3dd56948faeef7d149d547fa95b65cfe2cc2be1585b6a65ccdd",
+      "git_included": false
+    },
+    {
+      "file": "literature/local/2026-10-28-causal-strategy/uh-height-32.png",
+      "bytes": 244241,
+      "sha256": "96583cdc302f55f05d1cdd2e5c3a3d8fc7903b05b5a1f193e38d0c67ccf8e2c9",
+      "git_included": false
+    },
+    {
+      "file": "literature/local/2026-10-28-causal-strategy/uh-height-p28.png",
+      "bytes": 294119,
+      "sha256": "b622e95dec46a994af2eb93abb6d7fb9591458c7d84638364620fccc2d4c5103",
+      "git_included": false
+    },
+    {
+      "file": "literature/local/2026-10-28-causal-strategy/uh-lift-24.png",
+      "bytes": 212595,
+      "sha256": "c67620811ab7a7b30de183bbd346f980ca16004355d1a02b01e825d7316302e8",
+      "git_included": false
+    },
+    {
+      "file": "literature/local/2026-10-28-causal-strategy/uh-lift-25.png",
+      "bytes": 249042,
+      "sha256": "906d9ff587c40ddb1c7b913053c32459e7232d03e5110277da86d127b3a42a33",
+      "git_included": false
+    },
+    {
+      "file": "literature/local/2026-10-28-causal-strategy/uh-main-04.png",
+      "bytes": 319102,
+      "sha256": "7c5922779f6e4508b552a26a5e67e4196af893852b25c24f5465950b3e9119f7",
+      "git_included": false
+    },
+    {
+      "file": "literature/local/2026-10-28-causal-strategy/uh-main-05.png",
+      "bytes": 303430,
+      "sha256": "28719bf71ec7454bd5fc64e9f106914afd9c3ed0e2a3dc22f74c70ed6839b748",
+      "git_included": false
+    },
+    {
+      "file": "literature/local/2026-10-28-causal-strategy/uh-main-p06-180.png",
+      "bytes": 463039,
+      "sha256": "0f60927606087035b87ddfc8a3218ee6d66919720eddb726953ab3f5c2794483",
+      "git_included": false
+    },
+    {
+      "file": "literature/local/2026-10-28-causal-strategy/uh-measure-p18.png",
+      "bytes": 248358,
+      "sha256": "2e99956950d2ceff86378625a1f3bac76765021f4cd425db75d1501b0d419007",
+      "git_included": false
+    },
+    {
+      "file": "literature/local/2026-10-28-causal-strategy/uh-notation-p10.png",
+      "bytes": 257063,
+      "sha256": "da93c73d7d77ae75c45499217ff795bdb43dad26968d24adb7ed1e872b971e7d",
+      "git_included": false
+    },
+    {
+      "file": "literature/local/2026-10-28-causal-strategy/unit-modularity-li-liu-p24.png",
+      "bytes": 212595,
+      "sha256": "c67620811ab7a7b30de183bbd346f980ca16004355d1a02b01e825d7316302e8",
+      "git_included": false
+    },
+    {
+      "file": "literature/local/2026-10-28-causal-strategy/unit-modularity-raum-52.png",
+      "bytes": 263765,
+      "sha256": "062bcec49604178905cc1a2bed1ac6b511c26b5dc16522f05845e59646792726",
+      "git_included": false
+    },
+    {
+      "file": "literature/local/2026-10-28-causal-strategy/unit-modularity-raum-53.png",
+      "bytes": 229215,
+      "sha256": "c2ba9d5109cc054044df6423d845de44ee7e85ef9a8119570ebca6f4296c965a",
+      "git_included": false
+    },
+    {
+      "file": "literature/local/2026-10-28-causal-strategy/unit-modularity-raum-54.png",
+      "bytes": 212993,
+      "sha256": "a5610a68f3b4bc4004b30cf6f7562eac9612a644f2f96ca739d15a8d19343bee",
+      "git_included": false
+    },
+    {
+      "file": "literature/local/2026-10-28-causal-strategy/unit-modularity-raum-55.png",
+      "bytes": 175014,
+      "sha256": "91541a29594b04f194db1a13ab7e80c6c484f8bd3bd9a84ea7a0db6536cef860",
+      "git_included": false
+    },
+    {
+      "file": "literature/local/2026-10-28-causal-strategy/unit-modularity-raum-56.png",
+      "bytes": 228473,
+      "sha256": "cd3e4231acf3c5a9d2cf492e75aad67e5d44d556c594b6965a8ca0942ca9878b",
+      "git_included": false
+    },
+    {
+      "file": "literature/local/2026-10-28-causal-strategy/unit-modularity-raum-p06.png",
+      "bytes": 306764,
+      "sha256": "68a9375bead015e7b7c740a475b6ce11d52acb49b99fa74b4e14fda0b2335394",
+      "git_included": false
+    },
+    {
+      "file": "literature/local/2026-10-28-causal-strategy/unitary-raum-section5-52.png",
+      "bytes": 298827,
+      "sha256": "814a68f29f69c763e43669039f07aef189e2349985d6466006c0a6a42e698427",
+      "git_included": false
+    },
+    {
+      "file": "literature/local/2026-10-28-causal-strategy/unitary-raum-section5-53.png",
+      "bytes": 261053,
+      "sha256": "b28d4eb29151b41e7996e7f442d6c1da3c5a95ce5563aafc60e7f56df17bb049",
+      "git_included": false
+    },
+    {
+      "file": "literature/local/2026-10-28-causal-strategy/unitary-raum-section5-54.png",
+      "bytes": 245425,
+      "sha256": "23a16ac2e7a2164cd86d8380f20ec882ac17c1e4ab52fe3c7f3658df289e7950",
+      "git_included": false
+    },
+    {
+      "file": "literature/local/2026-10-28-causal-strategy/unitary-raum-section5-55.png",
+      "bytes": 202157,
+      "sha256": "8a96687f19e43bc841216659365cf5bb3258724978254e63066235551979acda",
+      "git_included": false
+    },
+    {
+      "file": "literature/local/2026-10-28-causal-strategy/unitary-raum-section5-56.png",
+      "bytes": 262857,
+      "sha256": "3685cc184c5a78c51a76ae04cd111a61ef7f04cb528ef675088881ea29eb1ae1",
+      "git_included": false
+    }
+  ],
+  "new_cache_count": 23,
+  "new_cache_bytes": 6098820,
+  "reused_old_caches": [
+    "li-liu-admission-06.png",
+    "li-liu-admission-07.png"
+  ],
+  "not_consumed": "FullRaum1-4/LL3-11 proofs,currentexternalstatusHyp6.6,physicalmap/originalnorms/fullclassicWeil/positiveheight ororthogonalliteral thaw.",
+  "next_cone_status": "Onlydegree1oldb1 input initiallychecked; fullhomotopy/HH0/regulator notexecuted. unit_height shortreadonlyadmissionopinion only; no newmathcontract.",
+  "scope_record": "literature/supplements/2026-10-28-unitary-premise-source-scope.md"
+}

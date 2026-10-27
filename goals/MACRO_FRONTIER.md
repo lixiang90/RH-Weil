@@ -1,5 +1,9 @@
 # 宏观前沿：可消费范围与最小未付箭头
 
+2026-10-28，[unitary§5前提门](reviews/2026-10-28-unitary-modularity-premise-settlement.md)已两稿/fresh/root限定闭合：all代数dual→有限tensor、finiteSchwartz/level qualitative运输及实际height余前提已核；原印5.6不直接作全rank/native零模/单位系数消费，按Hodge和Σ=dπ补注重闭模块成员性，非height等距。单来源0止，不续rank/level/paper；classicprimitive/完整signed/core及whole4/5UPPER未改。下一仅[实际action-cone/HH0与旧Ω比较](../reviews/2026-10-28/unitary-premise/next-action-cone-hh0-admission.md)：degree1输入已初核，高阶/HH0/charge未执行，先扣inner-homotopy，不预数学晋级。cadence2／历史48／cycle16不动；同Goal/阶段/同步见STATE。
+
+当前unitary设施不能再记只formal或未定位，但没有原physical桥/原norm及完整经典mixed。旧literal冻结不动；新的native次数/sum-vs-average补注仅限本来源当前消费。下一回到573明确保留的differentrelativepair：A_c/S1的非完成Hochschild actionCone，实际source闭性不代HH0可见性/Ω/primitive；域扩大、代数商和physical两腿要分开核。以下旧§5未执行为历史。
+
 2026-10-28，[连续theta来源链因果复核](reviews/2026-10-28-causal-strategy-after-theta-chain.md)已两支持/root/fresh限定闭合：局部源/原费已付，但primitive物理桥、正Dprime完整signed和560actualcore均无新数学输入；553/552/Pet量词不混同，whole4/5UPPER未改。停止继续自造bounded reader/正Gram。定向primary定位并本地存两PDF124页，唯一下一[Raum§5 A/B→Li–Liuv5 Hyp4.5前提门](../reviews/2026-10-28/causal-strategy/next-unitary-modularity-premise-gate.md)，陈述已读/正文未审，不承袭经典Qζ或positiveheight、不解冻literal。0数学/非cycle17，cadence2／历史48／cycle16原字节保持，同Goal/阶段/同步见STATE。
 
 当前选择已变：不是再优化强源/局部费用，而是检一个实际mixed高度设施的具体模性前提。最强经典短链及最小未付箭头见当前因果总结；来源陈述不代原证明/物理运输，有限Schwartz和全部线性泛函/level必须实际匹配。保独立完整signed和actualSonin/core两备选，须新实物才改策。正式macro仍cycle16；本非计轮因果复核不重置2，以下旧“复核未执行”为历史。

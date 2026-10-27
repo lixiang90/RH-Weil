@@ -1463,3 +1463,13 @@ L至今连续来源0有真实局部付款，却未进入经典core；不再以�
 唯一下一是reviews/2026-10-28/causal-strategy/next-unitary-modularity-premise-gate.md：只审Raum§5（PDF52–56）的A/B前提运输与必要定义/定理陈述，核Chow tensor、所有代数泛函、finiteSchwartz、signature/level和对应Hyp4.5。Li–Liu Ass1.3/pi/tempered/rootnumber/Hyp6.6与normalizedheight仍须保留，不能以CorB删掉；Lprime(pi)非完整Qζ，height非自动PSD/原Pet，physical405/537/coverage/原norm/全Γpppole仍欠。旧orthogonal literal/整体Theta冻结不被unitary新来源解冻。正文门目前未执行，不预数学晋级。
 
 此门胜过继续boundedreader/正Gram或等unknown桥，因为有一个直接指向actualmixed设施的明确前提及有限验收，可判究竟付了什么；章末若只有别的L高度设施、没有本项目可消费运输则0止，不续rank/level/weight/后章/paper，不捏cofinalheight族。两个现实备选是新的独立完整signed缺陷定理和actualSonin/core原源比较，当前无新实物。真正physical/primitive/mixed公式、Γ协同signed净估计或真tensor全阶pole可改策，名称/非零对象/未知heightnorm/既有高频不能。库/看板/短状态及本轮原件按授权正常main同步并核远端，管理与推送不complete长期Goal。
+
+## D20261028D — unitary来源按native补注限定收讫；只比较一个实际相对锥源
+
+同G20261027/1793085111/原0c4f。C指定Raum§5来源门已两终稿/fresh/root实际核读：citedC/genus1基例＋all代数dual给固定level有限tensor，finiteSchwartz为有限coset组合，level/nearby/SU-U保正确角色，不付Chownorm或原physical费用。原印5.6的literal全rank/native零模及单位系数运输先暂缓；nativeHodge额外ω^(g−k−1)、genus1零模ω与Σρ=dπρ按projectionformula/唯一gluing重闭模块成员性，d2 theta constant负对照已核，不能称averagedmap等距。PDF/SHA和height定义不改，A/B/C深证明仍cited，不宣告作者定理假；全局form/dual/selfdual measure与height精确系数不能由qualitative模性免费取得。
+
+Li–Liu余下CMfinite不分歧/dyadicsplit、π类型/tempered/最低weight、oddSπ及Hyp6.6仍在。Θ对automorphic腿anti、finitephi线性；height首linear/次anti，volnat(L)乘levelheight，C⊗Q Qell与所计算值C区分。Cr raw有符号但Fdegreeeven使Cr^[FQ]>0，不造假负号，也不因此证明PSD。Lprime(pi)、真实theta非零和physical405/537/coverage/原du-Dlog/强费/fullGamma-pp-pole身份分开。来源facility可用，但经典primitive/core/whole瓶颈未变，wholeleading4/5仍负惯性UPPER。来源/标准补注0，cadence2/历史48/cycle16原字节保持，无C048/585，Goal门open。
+
+章末停止unitary门，不续rank/level/weight/章/paper或捏cofinalheight。下一不再未知paper，而用573明确保留的differentrelativepair：A_c=C*(A_src),I_c=A_c∩S1,Q_c代数商，非Calkin/非小域；原L1 fee使全Sexp及noncompactPan的F_r入A_c。设alpha=Adq(u),D=1−alpha,M_n=C_n(Q_c)⊕C_(n−1)(Q_c),d(x,y)=(bx−Dy,−by)，J_r=(q(u*)⊗q(uF_r),qF_r)。旧b1式已初核degree1闭性；完整innerhomotopy/HH0/Ω尚未执行。此actualobject/formula/test直接检原bc_r闭链箭头，不把合法HH0腿当primitive。
+
+唯一准入reviews/2026-10-28/unitary-premise/next-action-cone-hh0-admission.md先扣inner-action标准split，核不同K0/ConnesB选择、实际HH0类及原432Ω变换；−4旧类与J_r分开，HH map不预称注入。若仅标准split/Ω物理拉回零/旧raw重编码，0止不加freefunctional或参数；真新source/charge/关系/coverage信息须强旧净审后另准，不用source0藏新数学。它胜过续paper或boundedreader，因全源公式/域norm/可判gate明确，可能改变relative主线选择；不是已宣称新primitive。unit_height只读意见同判可准窄比较，未执行后续proof。独立signed/core及强域/较小代数/非标量边等合法实物仍可改策。新阅读/23页缓存只本地，原两PDF不改；库/看板/STATE及正常main同步/独立远端核验不complete长期Goal。
