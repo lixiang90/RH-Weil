@@ -41,8 +41,8 @@
     "settled_iterations": [
       "notes/584-marked-cusp-borel-kernel-and-pan-residue-collapse.md"
     ],
-    "stage": "actionCone两稿/fresh/root标准0已结算；独立只读库存/高层语义补正均terminal并消费，准确下一定位已写；当前待正常GitHub同步核验。",
-    "next_action": "先同步本轮并核远端；随后仅执行 reviews/2026-10-28/action-cone/next-actual-core-source-location-gate.md 的一次短primary定位：实际危险core signed/cross命题先去重/冻结版本和输入输出，尚未执行，无新章/数学合同。",
+    "stage": "actionCone标准0结算及高层恢复补正已正常main同步、独立ref/commit/tree核验；metadata回执落盘。唯一下一危险core原命题定位尚未执行，无新章/数学input。",
+    "next_action": "仅执行 reviews/2026-10-28/action-cone/next-actual-core-source-location-gate.md 的一次短primary定位：实际Π_FL/ε_FL或原QL危险core signed/cross命题先去重，实际取得并冻结版本/输入输出/源norm/量词；未执行，无已命中新章或数学合同。",
     "stop_rule": "canonicalAc/S1 cone全源类0已止，不调小域/同伦/旧−4或自由functional。下一定位若只fixedF/有利高频/变分/unknownbudget即止；没有新命中不捏chapter/数学input或续paper。"
   },
   "support_contracts": [],
@@ -137,12 +137,12 @@
     "basis": "本轮现场get_goal同实例active；STATE唯一cone比较已实际执行/三稿核/root结算，非只规划或重建Goal。"
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-10-28-action-cone.json",
+  "checkpoint": "goals/checkpoints/2026-10-28-action-cone-sync.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
-    "commit": "7ccedcb583e8bd1cd5e35d730639f4392c2fd980",
-    "tree": "3d5daf34126967a259cc639102f2ab4e0ddf5524",
-    "basis": "独立GitHub GET ref/commit/tree与本地source同；reviews/2026-10-28/unitary-premise/remote-sync-verification.json；metadata child实际HEAD另核，不递归自记SHA。"
+    "commit": "af243d3281bf03bf96c2bd04a5e194c2827107f3",
+    "tree": "f7c256955d650b6f25d923f99c075703d9fb6b06",
+    "basis": "独立GitHub GET ref/commit/tree与本地source同；reviews/2026-10-28/action-cone/remote-sync-verification.json；metadata child实际HEAD另核，不递归自记SHA。"
   },
   "completion_audit": {
     "goal": "goals/GOAL.20261027.md",
@@ -158,7 +158,7 @@
   ],
   "process_inventory_observed_on": "现场三actionCone稿均terminal；unit_height新只读策略与unit_fresh新只读高层范围核查也已实际terminal并root消费。无数值/下载/渲染/网络后台。下一定位未执行。",
   "publication_approval_gate": {
-    "status": "current-cone-source-local-settled-awaiting-normal-push",
+    "status": "current-source-published-and-independently-verified",
     "destination": "https://github.com/lixiang90/RH-Weil",
     "visibility": "public",
     "branch": "main",
@@ -168,9 +168,9 @@
       "reply": "每轮把进度同步到github；把文献保存在文献库中，用研究看板来记录各个路线的状况",
       "scope": "本项目研究/Goal/STATE/看板/文献元数据/审查与同步回执；论文再分发许可不明则全文仅本地。"
     },
-    "current_scope": "本次cone三稿/root/全源边界/strongest-old分类及高层范围补正、下一短定位/库/看板/STATE/检查点；尚待push，旧远端历史保留，无第三方全文或缓存新增。",
-    "published_source_commit": "7ccedcb583e8bd1cd5e35d730639f4392c2fd980",
-    "verification": "reviews/2026-10-28/unitary-premise/remote-sync-verification.json"
+    "current_scope": "本次actionCone16源路径正常main同步并独立ref/commit/tree核验；metadata child仅回执/STATE/checkpoint，实际HEAD另核。无新外部全文/缓存，cadence原字节保持。",
+    "published_source_commit": "af243d3281bf03bf96c2bd04a5e194c2827107f3",
+    "verification": "reviews/2026-10-28/action-cone/remote-sync-verification.json"
   },
   "research_board": "RESEARCH_BRANCHES.md",
   "literature_index": "literature/README.md",

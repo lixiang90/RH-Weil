@@ -1,0 +1,19 @@
+{
+  "schema": "rh-weil-remote-sync-verification-v1",
+  "date": "2026-10-28",
+  "repository": "https://github.com/lixiang90/RH-Weil",
+  "branch": "main",
+  "published_source_commit": "af243d3281bf03bf96c2bd04a5e194c2827107f3",
+  "published_source_tree": "f7c256955d650b6f25d923f99c075703d9fb6b06",
+  "verification": "Independent connected GitHub GET ref/heads/main, git/commits/source and git/trees/tree matched actual local source commit/tree; tree not truncated.",
+  "verified_at_utc": "2026-10-27T18:14:19.694528+00:00",
+  "source_files": 16,
+  "root_binding_count": 24,
+  "mathematical_iterations": 0,
+  "cadence_lf_sha256": "abb48dba75aea0379da1de447bb0b6e7c25089314b1cdc3e913f7ce23773b689",
+  "scope": "Exact all-L1 raw finite commutator and action-cone boundary certificate; standard strongest-old synthesis0. Old minus4 preserved, physical classes allzero. Recovery correction of already-paid uniform actual Sonin safe high layer, no new classic core/whole/primitive result.",
+  "next_primary_location_executed": false,
+  "goal_status": "same runtime1793085111 active; mathematicalgate open",
+  "third_party_pdf_or_cache_published": false,
+  "metadata_child_policy": "Receipt references already published source. Child only receipt/STATE/new checkpoint; actual HEAD/tree independently verified after push, no recursive self SHA."
+}
