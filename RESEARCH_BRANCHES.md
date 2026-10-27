@@ -4,7 +4,7 @@
 
 | 路线 | 当前地位 | 可消费输入 | 仍欠的核心箭头 | 准入／停止标准 |
 |---|---|---|---|---|
-| 同对象 relative principal／Green → 截面乘法 → mixed RR | 长期几何主线，当前无math准入；仅一次原命题索引发现 | 567真实RR→Hodge机制；579–582实际源／strong域／Green；537明确非根 | 同一非零primitive载体上的实际物理源公式、全关系的principal／Green边界、整过滤与同对象mixed身份 | 先核405全关系及平移、537与全源非根、原du／Dlog和全部尾；无实物不续C045或预建未知合同；保relative／higher／有费无界修复 |
+| 同对象 relative principal／Green → 截面乘法 → mixed RR | 长期主线；索引已0止，原创明确全z运输族仅准入核账 | 567真实RR→Hodge机制；579–582实际源／strong域／Green；537明确非根 | 同一非零primitive载体上的实际物理源公式、全关系的principal／Green边界、整过滤与同对象mixed身份 | 先核405全关系及平移、537与全源非根、原du／Dlog和全部尾；无实物不续C045或预建未知合同；保relative／higher／有费无界修复 |
 | 独立正分布 → 完整经典Weil分布 | Γsigned一次6query来源0止，无新数学准入 | 577/578真Γ正层/原费/完整gR；Nakamura概率近邻已准确入库 | actualq_R或独立正Dprime完整signed消失仍欠；cf正性不代log/Weil | 不续Nakamura§2/引文或第三批query；真独立输入可改策，保逐source/Dprime范围 |
 | tensor／Deligne放大 | 条件备选；未有经典实际全族 | 567 tensor与pole机制核查；Deligne I §3 | 非平凡local tensor对象、目标谱身份与全阶global pole控制 | 低阶Euler／Γ／grading检查只作准入；普通测度乘积或ζ幂不足；合并净误差须受控，不把分项次线性当必要 |
 | actual低频core／coupling的joint signed比较 | 无新独立净差输入，条件备选 | 560全型/实际逆及安全high；585必要成长费/fixedr K/t→1 | 同源t−K+pole净方向/原范数及全cross；非单项大小 | 不续fixedfraction桥/旧scalar包络/高频；真实新joint输入可改策，EX同步二维首测仅保建议 |
@@ -22,7 +22,7 @@
 | 实际代数对应 → KK／relative比较 | CCM固定v2§6来源0已止 | typed KK／derived kernel、GRR／Todd有限修补；旧relative电荷保持 | 原字面ordinary-cycle6.11／principal下降不直接适用；没有physical有效算术lift／mixedRR | 两P1反测及m1 point腿保角色；不续§7／引用／下一paper，新input/test先扣强旧 |
 | 零点比例与无零区域优化 | 保持暂停 | 历史成果保原范围 | 不是当前Weil类比主责 | 仅用户新指令可恢复，不因文献可得或局部数字改善自动恢复 |
 
-当前理由见[D20261028L](goals/DECISIONS.md)及[因果投入结算](goals/reviews/2026-10-28-causal-investment-after-subtractions.md)。当前无新数学准入；唯一下一[一次原命题索引发现](reviews/2026-10-28/post-subtraction-causal/next-independent-source-statement-discovery.md)未执行，三query一批/最多一actual source或mixed公式，无合格locator即止，不编chapter/串paper。不是复查旧r/Pan/537或第三补偿。cadence3/历史49/cycle16、实际瓶颈和whole4/5UPPER均保持。
+当前理由见[D20261028M](goals/DECISIONS.md)及[原命题定位0止](goals/reviews/2026-10-28-independent-source-discovery-stop.md)。一次3query/唯一primary记录无合格公式locator，不续查询/章/paper；未读PDF不判全文。唯一下一[原创全z运输族准入核账](reviews/2026-10-28/independent-source-discovery/next-original-framed-holonomy-admission.md)，明确公式/低阶草稿尚待root数学前件闭合/分类，不预合同/结论/轮数。cadence3/历史49/cycle16及实际瓶颈/whole4/5UPPER保持。
 
 每个完整研究迭代完成后同步本轮研究及恢复记录到GitHub，并核远程commit与本地一致；失败须保留确切状态，不报成功。依 [唯一cadence](goals/review-cadence.json) 每4–8完整轮宏观审视、默认6，重大反例或连续来源停滞可提前；组织、下载、审查、推送和代理数量均不增加研究轮，也不重置周期。此前计数继续继承。
 

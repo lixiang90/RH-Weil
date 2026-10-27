@@ -1,0 +1,107 @@
+{
+  "schema": "rh-weil-bounded-primary-discovery-v1",
+  "client_date": "2026-10-28",
+  "status": "one-authorized-batch-executed-no-qualified-formula-locator",
+  "budget_source": "reviews/2026-10-28/post-subtraction-causal/next-independent-source-statement-discovery.md",
+  "queries": [
+    "\"Weil positivity\" \"arithmetic intersection\" \"Schwartz\"",
+    "\"explicit formula\" \"arithmetic Hodge index\" zeta",
+    "\"Riemann hypothesis\" \"Green currents\" \"principal\""
+  ],
+  "query_batch_count": 1,
+  "visible_aggregate_result_count": 12,
+  "per_query_attribution": "Tool returned an aggregate list, not individual query hit counts. No attribution or completeness inferred.",
+  "visible_results": [
+    {
+      "url": "https://zenodo.org/records/21740925",
+      "title": "A Structural Identity Program for Weil's Explicit Formula via Arithmetic Special Cycles",
+      "role": "author-deposited-primary-record",
+      "disposition": "only candidate opened: record proposes agenda/identity/conditions, no actual source or mixed formula in opened description; body/PDF not read"
+    },
+    {
+      "url": "https://github.com/dtrejopizzo/riemann/blob/main/01-context/README.md",
+      "title": "riemann/01-context/README.md",
+      "role": "independent-project-context",
+      "disposition": "search-visible-only; route summaries/equivalence and empirical claims, no target source/mixed formula locator consumed"
+    },
+    {
+      "url": "https://peerrevenue.com/papers/math.NT?before=2026-09-20_2609.23901",
+      "title": "Number Theory Papers Peer Revenue",
+      "role": "aggregator",
+      "disposition": "unrelated/secondary index; not used for technical facts"
+    },
+    {
+      "url": "https://ai.vixra.org/numth/",
+      "title": "ai.viXra Number Theory index",
+      "role": "archive-index",
+      "disposition": "search-visible-only; programme/conditional missing-surface descriptions, no actual target formula visible; no manuscript opened"
+    },
+    {
+      "url": "https://ithub.global.ssl.fastly.net/dtrejopizzo/riemann/blob/main/00-MAP.md",
+      "title": "riemann/00-MAP.md",
+      "role": "mirror-of-project-summary",
+      "disposition": "search-visible-only; not independent theorem evidence, no technical claims consumed"
+    },
+    {
+      "url": "https://github.com/Kuberwastaken/riemann/blob/main/BREAKDOWN.md",
+      "title": "riemann/BREAKDOWN.md",
+      "role": "project-summary",
+      "disposition": "search-visible-only; explanatory claims, no primary target formula consumed; do not adopt broad no-go claims"
+    },
+    {
+      "url": "https://academic.oup.com/qjmath/article/75/2/391/7645867",
+      "title": "Algebraicity of L-values for GSp4 x GL2 and GSp4 x GL2 x GL2",
+      "role": "publisher-primary-article",
+      "disposition": "search-visible-only; different L-values/local integral target, no classic physical-source/mixed bridge locator"
+    },
+    {
+      "url": "https://www.cambridge.org/core/browse-subjects/mathematics/number-theory/listing?pageNum=15",
+      "title": "Cambridge number theory listing",
+      "role": "publisher-listing",
+      "disposition": "unrelated Green-current/cohomology titles, no target formula locator; no article opened"
+    },
+    {
+      "url": "https://www.researchgate.net/post/THE_RIEMANN_HYPOTHESIS_AS_A_STABILITY_THEOREM_Weil_Positivity_Arakelov_Intersections_and_the_Arithmetic_Vacuum",
+      "title": "The Riemann Hypothesis as a Stability Theorem",
+      "role": "same-author-discussion/nearby-programme",
+      "disposition": "search-visible-only, not opened; declaration of mapping/structural bridges is not a located formula/proof; no affiliation or mathematics verified"
+    },
+    {
+      "url": "https://paperzz.com/doc/9014678/the-millennium-prize-problems",
+      "title": "The Millennium Prize Problems",
+      "role": "thirdparty-reprint",
+      "disposition": "search-visible-only; classical context, no new target formula; not used as technical primary evidence"
+    },
+    {
+      "url": "https://www.scribd.com/document/994182692/H-Gillet-C-Soule-Arithmetic-Intersection-Theory-Publ-Math",
+      "title": "Gillet-Soule Arithmetic Intersection Theory",
+      "role": "thirdparty-scan-index",
+      "disposition": "search-visible-only; generic Green-current existence is background facility, not actual classic source map; exact returned URL retained in private raw result"
+    },
+    {
+      "url": "https://paperzz.com/doc/5979142/%E8%8B%B1%E6%96%87%E3%82%B5%E3%83%9E%E3%83%AA%E9%9B%86---%E6%97%A5%E6%9C%AC%E6%95%B0%E5%AD%A6%E4%BC%9A",
+      "title": "Japanese Mathematical Society abstract collection",
+      "role": "thirdparty-index",
+      "disposition": "search-visible-only; no relevant target formula; exact encoded returned URL retained in private raw result"
+    }
+  ],
+  "opened_primary": {
+    "url": "https://zenodo.org/records/21740925",
+    "doi": "10.5281/zenodo.21740925",
+    "creator": "Michael Aksman",
+    "declared_version": "v2",
+    "declared_publication_date": "2026-08-01",
+    "resource_type_on_record": "Presentation",
+    "actual_read_scope": "landing record description and metadata only; no PDF/preview/body/theorem/proof; no citation chain",
+    "displayed_pdf": "Combined_RH_Full_Three.pdf",
+    "pdf_status": "not downloaded/not read; displayed size/checksum are remote metadata only, not local original identity",
+    "consumption": "Author's record describes a programme and conditions for an identity and definiteness; no actual source/mixed formula locator in opened scope. Does not prove absence inside unseen PDF."
+  },
+  "local_private_raw_records": [
+    "literature/local/2026-10-28-independent-source-discovery/search-batch.json",
+    "literature/local/2026-10-28-independent-source-discovery/aksman-zenodo-21740925-page.json"
+  ],
+  "external_theorem_consumed": false,
+  "new_math_admission": false,
+  "stop": "One batch and one candidate exhausted; no synonym query/PDF/chapter/next paper automatically authorized; bounded no-locator is not global nonexistence or method no-go."
+}

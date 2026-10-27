@@ -11,7 +11,7 @@
 G20261027继承原0c4f基线和截至582的已知成果，持续研究同对象principal／Green与mixed RR、完整Weil正性及ζ/Ξ识别，不由旧成果重复验收。
 每轮保存并同步研究进度至本仓库，文献入[文献库](literature/README.md)，路线由[研究看板](RESEARCH_BRANCHES.md)跟踪；沿唯一计数每4–8完整数学轮做宏观审视，默认6轮。
 
-本次[因果投入审视](goals/reviews/2026-10-28-causal-investment-after-subtractions.md)确认库存无新数学准入，停止继续扩建分析设施。下一只准[一次原命题索引发现](reviews/2026-10-28/post-subtraction-causal/next-independent-source-statement-discovery.md)：固定三query一批，寻找实际source或同对象mixed公式；未执行，无新chapter，无合格命中即止。cadence3、whole4/5UPPER及长期Goal门保持。
+本次[三query原命题定位](goals/reviews/2026-10-28-independent-source-discovery-stop.md)已来源0止，唯一已读记录未给实际公式locator；未审PDF不作全文裁决。下一仅[root原创全z运输族的准入核账](reviews/2026-10-28/independent-source-discovery/next-original-framed-holonomy-admission.md)：原对象/范数/frames/最强旧及低阶草稿尚待数学消费，不预新合同。cadence3、whole4/5UPPER及长期Goal门保持。
 
 ## 研究问题
 

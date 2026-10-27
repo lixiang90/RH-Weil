@@ -2865,6 +2865,27 @@
       "proof_status": "Originalstatementssource-audited, nocompleteproofcertification. Probabilityratio positivity notWeillogpositivity; criticalpropertyiffRH; sigma>1signedquasiLevy noindependentq_Rbudget. Off-originweighted-minusWdictionaryoldreencodingonly. No new mathadmission.",
       "scope_record": "supplements/2026-10-28-gamma-signed-location-scope.md",
       "read_record": "reviews/2026-10-28/gamma-signed-location/query-and-source-record.json"
+    },
+    {
+      "file": "local/2026-10-28-independent-source-discovery/aksman-zenodo-21740925-page.json",
+      "bytes": 5435,
+      "sha256": "758f06d4862c779492ae906589e5d937edd9ea1e848ff5d961bb95f7f0f293ce",
+      "git_included": false,
+      "identity_scope": "JSON wrapper of tool extracted response; not original HTML or PDF bytes",
+      "id": "Aksman-2026-structural-identity-21740925-record",
+      "authors": "Michael Aksman",
+      "title": "A Structural Identity Program for Weil's Explicit Formula via Arithmetic Special Cycles",
+      "version": "Zenodo record21740925 declares v2,2026-08-01",
+      "source_url": "https://zenodo.org/records/21740925",
+      "doi": "10.5281/zenodo.21740925",
+      "category": "bounded-source-discovery-primary-record-only",
+      "resource_type_on_record": "Presentation",
+      "download_status": "tool-extracted-record-text-local-only; manuscriptPDF notdownloaded/read",
+      "recorded_at_utc": "2026-10-27T21:16:09.812064+00:00",
+      "read_scope": "Record description/metadata only; no PDF/preview/TOC/body/theorem/proof. Programme/identityconditions, no actual target formula located in opened scope. Does not judge unseenPDF.",
+      "proof_status": "No external theorem/source/mixed formula consumed; no mathematicaladmission.",
+      "scope_record": "supplements/2026-10-28-independent-source-discovery-scope.md",
+      "read_record": "reviews/2026-10-28/independent-source-discovery/source-read-record.json"
     }
   ],
   "supplement_provenance": [

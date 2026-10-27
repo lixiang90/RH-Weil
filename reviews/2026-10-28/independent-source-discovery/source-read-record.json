@@ -1,0 +1,43 @@
+{
+  "schema": "rh-weil-source-read-record-v1",
+  "client_date": "2026-10-28",
+  "recorded_at_utc": "2026-10-27T21:16:09.812064+00:00",
+  "status": "one-bounded-index-batch-stopped-no-qualified-formula",
+  "queries": [
+    "\"Weil positivity\" \"arithmetic intersection\" \"Schwartz\"",
+    "\"explicit formula\" \"arithmetic Hodge index\" zeta",
+    "\"Riemann hypothesis\" \"Green currents\" \"principal\""
+  ],
+  "query_batch_count": 1,
+  "visible_aggregate_count": 12,
+  "per_query_attribution": "Unavailable; no individual hit counts inferred",
+  "opened_primary_url": "https://zenodo.org/records/21740925",
+  "declared_version": "v2",
+  "declared_publication_date": "2026-08-01",
+  "resource_type_on_record": "Presentation",
+  "actual_root_scope": "Only primary record description/metadata; all12 result snippets roles. No PDF/preview/TOC/body/proof/otherresultpage/citationchain. No external theorem consumed.",
+  "support_scope": "Both source supports read same local raw response and metadata plus local library for dedup, no additionalweb/PDF.",
+  "fresh_scope": "See own final source/handoff audit, local artifacts only; no externalproof.",
+  "local_private_response_caches": [
+    {
+      "file": "literature/local/2026-10-28-independent-source-discovery/search-batch.json",
+      "bytes": 30144,
+      "sha256": "d211cd681064471cddf7e5916a2edbdc9ddcf04c0d77377427fc5d72d3dcdd0b",
+      "git_included": false,
+      "identity_scope": "JSON wrapper of tool extracted response; not original HTML or PDF bytes"
+    },
+    {
+      "file": "literature/local/2026-10-28-independent-source-discovery/aksman-zenodo-21740925-page.json",
+      "bytes": 5435,
+      "sha256": "758f06d4862c779492ae906589e5d937edd9ea1e848ff5d961bb95f7f0f293ce",
+      "git_included": false,
+      "identity_scope": "JSON wrapper of tool extracted response; not original HTML or PDF bytes"
+    }
+  ],
+  "downloaded_pdf_count": 0,
+  "new_render_count": 0,
+  "metadata_not_original": "Displayed PDF name/size/md5 not local PDF bytes/hash/pages; original HTML bytes also not fetched. Only extracted-response representation saved.",
+  "original_candidate_scope": "Root-defined Volterra fullz family is not an external source hit; extra loworder opinion is unconsumed mathematical draft. Next only object/domain/norm/frame/strongestold closure and classification.",
+  "scope_record": "literature/supplements/2026-10-28-independent-source-discovery-scope.md",
+  "classification": "External discovery0; no new math settlement or cadence mutation. If future complete nonold strict counterexample is consumed, classify actualmath separately."
+}
