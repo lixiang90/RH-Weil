@@ -1,0 +1,33 @@
+{
+  "schema": "rh-weil-remote-source-verification-v1",
+  "client_date": "2026-10-28",
+  "verified_at_utc": "2026-10-27T22:44:21.188484+00:00",
+  "status": "source-published-independently-verified",
+  "repository": "https://github.com/lixiang90/RH-Weil",
+  "branch": "main",
+  "source_commit": "da2bfb1f0cea432176a13b10ca5f969b0a553bcf",
+  "source_tree": "a806ca418004d0a1c3844cc1db471032e8ab2df6",
+  "source_parent": "cae03c38fec93b502090b2c6ce0c4fab8534bdc1",
+  "remote_checks": {
+    "method": "Independent connected GitHub GET mainref/gitcommit/gittree",
+    "main_ref_sha": "da2bfb1f0cea432176a13b10ca5f969b0a553bcf",
+    "commit_sha": "da2bfb1f0cea432176a13b10ca5f969b0a553bcf",
+    "commit_tree_sha": "a806ca418004d0a1c3844cc1db471032e8ab2df6",
+    "tree_sha": "a806ca418004d0a1c3844cc1db471032e8ab2df6",
+    "all_matched": true
+  },
+  "scope": "20 explicit sourcepaths: C049/586 actual fixedtheta spectraldomain/two-termcount/fullheatGamma defect/compactphysical sourcecountertest, independentadmission/fresh/rootclosure, twooldreencoding attempts0, board/library/STATE/singlecadence/checkpoint. One mathround only, notRHcounterexample/wholeimprovement/keybottleneck removal. Noexternalraw/PDF/numerics.",
+  "root_scope": "reviews/2026-10-28/theta-ground-state/root-consumption-scope.json",
+  "cadence": {
+    "before_rounds_since_review": 3,
+    "after_rounds_since_review": 4,
+    "historical_before": 49,
+    "historical_after": 50,
+    "formal_cycle_retained": 16,
+    "after_lf_sha256": "b198b9d0a125aff2cc78b5280f84aa77a305e6182cc3f4243335260b1d18c752",
+    "basis": "Single actual586 mathround settled once; noreset here. Nextformal17 atallowed4 notyetexecuted."
+  },
+  "next": "Formalcycle17 macroreview compare583-586, originalfrozenbaseline/Goalstrongestassets andcoregaps before anynewC050/587/sourcequeue orparameterrepair. Reviewmustactuallycompletebeforecadencereset.",
+  "goal_gate": "Same runtime1793085111 active/open/noteligible; fixedspectrumidentityfalse islocalresult, noQzeta negative/generalconfiningboundary orkeybottleneck removed.",
+  "metadata_child_policy": "Receipt binds verifiedsource only. Exactlythisreceipt, STATE andnew synccheckpoint formmetadatachild; actualchildHEAD/tree independentlychecked afterpush outside recursive selfSHA."
+}
