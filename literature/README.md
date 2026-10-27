@@ -1,5 +1,7 @@
 # RH-Weil 文献索引
 
+2026-10-28，[EX强旧准入0止](../goals/reviews/2026-10-28-trial-common-subtraction-old-net-stop.md)只复用585/560等项目消费记录，无新外部原件/PDF/网页/下载/渲染/数值，不增文献条目。[实际阅读范围](supplements/2026-10-28-trial-subtraction-admission-scope.md)保strict原family/实际HS及C005分块TC限制。下一fixed fullgap只准旧Pb公式/原费用首门，原BurnolPDF5已定位/目视，不重领新来源，当前未重读原PDF。cadence3不动。
+
 2026-10-28，[完整Γsigned有限定位](../goals/reviews/2026-10-28-complete-gamma-signed-location-stop.md)两批6query止，仅新增Nakamura1504.03438v1原HTML一份422428bytes本地ignored；[版本/实际阅读/未审范围](supplements/2026-10-28-gamma-signed-location-scope.md)与查询记录绑定。只§1.2/1.3陈述和必要context，未审完整proof/追引文，无PDF/渲染。概率ratio正性、signed准Lévy及criticalRH等价性质分开；未付实际q_R预算，不续§2。来源0/cadence3不动。
 
 2026-10-28，[585后因果审视](../goals/reviews/2026-10-28-causal-choice-after-sonin-lower.md)只复用项目已消费记录，无新外部原文/网页/下载/渲染/数值实验，不增文献条目。[实际范围](supplements/2026-10-28-post-lower-causal-source-scope.md)保必要费/净差对象区分与支持/fresh/root消费。下一完整Γ协同signed原命题定位未执行、不预章号。审视0数学/cadence3不动，原本地PDF/Markdown/页图与SHA保持。

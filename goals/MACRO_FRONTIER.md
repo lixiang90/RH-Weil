@@ -1,5 +1,9 @@
 # 宏观前沿：可消费范围与最小未付箭头
 
+2026-10-28，[EX共同扣项强旧核账](reviews/2026-10-28-trial-common-subtraction-old-net-stop.md)已两支持/下一只读意见/fresh/root限定收讫：585原strict degree family已有较大W，actual正交补/有限HS给原E扣后两fixed源残差仍原阶成长。强旧直接0止，不建C049/586、不调E/c/δ、不复验537，cadence3/历史49/cycle16原字节保持。下一仅[整个fixed fullgap类型/相对原费首门](../reviews/2026-10-28/trial-subtraction-admission/next-fixed-full-gap-type-and-fee-gate.md)，未执行/未准math；旧W已在新扣项内不机械套反测，合法性非coverage。Goal门open，发布看STATE。
+
+当前短链：585原C1c<Δ/2 strict family→同H0/δ的已付W→原EX外正交HS→Tres原阶→560完整Kres。它已强旧蕴含，0止而非新数学。whole4/5UPPER/独立signed/primitiveRR/corecross/Xi未改。整个Mb候选有实际不同类型，但未付relativecofinal；先扣532及旧Pb/TC限制，不能以非零中间对象代coverage。
+
 2026-10-28，[完整Γsigned有限定位](reviews/2026-10-28-complete-gamma-signed-location-stop.md)两批6query已实际用完、两支持/fresh/root限定收讫。唯一Nakamura固定v1 HTML422428bytes本地入库：概率ratio正性非log/Weil正号；合法局部−W字典仅旧signed重编码，无实际q_R独立预算。0来源/数学，cadence3/历史49/cycle16原字节保持；止本定位/不续§2或paper，Goal门open。下一只[EX共同扣项强旧准入核账](../reviews/2026-10-28/gamma-signed-location/next-trial-common-subtraction-admission.md)，未执行/不准新math，先扣585更大poly空间/有限HS旧后果，非复验537或续lower。阶段/发布看STATE。
 
 最强短链仍585实际lower＋560全型→fixedr K/t→1与必要成长费，另577/578完整Γ正层/费用/signed目标均付，缺独立净号。新概率近邻允许固定σ局部重权到−W，但origin/contact及指数费用不产生新budget。有限搜索失败不排有费修复；EX仅一次原规则/强旧准入，不自动数学。whole4/5 UPPER及primitive/corecross/Xi未改。

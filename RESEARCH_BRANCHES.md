@@ -17,11 +17,12 @@
 | principal覆盖塔正Pet Gram → 逐compact源Weil极限 | 标准强旧0轮止固定未平均规范 | 全complex compactdu统一费、actualΓ/pp/poles及fixedR后n∞严格缺陷 | 本family极限失败；classic全signed/primitive仍欠；PSD Gram未自动是平移不变W_n | 不调level/ray/weight或串paper，保有实物volume/发散权/非局部修复；先因果战略复核 |
 | unitary Chow值模性 → actual算术mixed高度前提 | 来源0已止，限定native overlay | 全代数dual/有限tensor/finiteSchwartz与实际height余前提；nativeHodge、Σ=dπ补注 | 没有physical405/537/原费/fullQζ；literal5.6不直接全rank/单位系数消费 | 不续rank/level/paper/height族；A/C深proof cited，旧orthogonalliteral不解冻 |
 | 实际inner-action cone源 → HH0／432电荷 | 标准强旧0已止 | 全L1 raw在Ac中有限commutator/锥boundary，288/1442L1粗代表费；旧−4保 | 原physical源全零，Pan/537/双degree同杀；非零raw不等非零HH类 | 不调树/同伦/小域/自由functional；不同实物再准 |
-| actual Sonin固定源cofinal总迹 → 完整K费用 | C048/585止；下一仅EX共同扣项强旧准入核账 | fixedsource trace/K成长及原K/t→1；实际EX≤PiX共同C_X可定义 | 冻结原规则后先扣已付更大poly/HS旧后果，无新residual输入不准数学 | 不复验537/不调degree或换E，不续lower/sharp；若旧蕴含即0止该recipe |
+| actual Sonin固定源cofinal总迹 → 完整K费用 | C048/585止；原finite-poly EX强旧0止 | strict旧family/更大W/正交HS已蕴含原Tres/Kres成长；原norm/全型保持 | 净signed/corecross及独立primitive容量未付 | 不换W做repair/不调degree；下一whole-gap仅类型/原费核账，合法性不代coverage |
+| fixed整个大gap共同投影 → 相对核/原费 | 仅一次来源/类型首门，未执行/未准数学 | 旧H0共同Mb真实闭子空间、同有限Euler/全inverse；旧ALLpoly见证均在新扣项内 | 同源cofinal相对kernel/净费/cross未付，合法投影差非coverage | 先532/旧BurnolPDF5Th4Cor5/TC扣旧；只type/HS/mM/未知余项即0止，不调b/H0或串paper |
 | 实际代数对应 → KK／relative比较 | CCM固定v2§6来源0已止 | typed KK／derived kernel、GRR／Todd有限修补；旧relative电荷保持 | 原字面ordinary-cycle6.11／principal下降不直接适用；没有physical有效算术lift／mixedRR | 两P1反测及m1 point腿保角色；不续§7／引用／下一paper，新input/test先扣强旧 |
 | 零点比例与无零区域优化 | 保持暂停 | 历史成果保原范围 | 不是当前Weil类比主责 | 仅用户新指令可恢复，不因文献可得或局部数字改善自动恢复 |
 
-当前理由见[D20261028I](goals/DECISIONS.md)及[Γsigned来源结算](goals/reviews/2026-10-28-complete-gamma-signed-location-stop.md)。有限6query已止/无新预算；唯一下一[EX强旧准入比较](reviews/2026-10-28/gamma-signed-location/next-trial-common-subtraction-admission.md)未执行，不准C049/586或自动新math。来源0/cadence3历史49cycle16原字节不动，whole4/5UPPER与完整Goal门保持。
+当前理由见[D20261028J](goals/DECISIONS.md)及[EX强旧0止](goals/reviews/2026-10-28-trial-common-subtraction-old-net-stop.md)。唯一下一[fixed fullgap类型/相对原费首门](reviews/2026-10-28/trial-subtraction-admission/next-fixed-full-gap-type-and-fee-gate.md)未执行，不准新math；先扣532/旧Pb及合并TC责任，无新cofinal输入即0止。cadence3历史49cycle16不变，whole4/5UPPER及完整Goal门保持。
 
 每个完整研究迭代完成后同步本轮研究及恢复记录到GitHub，并核远程commit与本地一致；失败须保留确切状态，不报成功。依 [唯一cadence](goals/review-cadence.json) 每4–8完整轮宏观审视、默认6，重大反例或连续来源停滞可提前；组织、下载、审查、推送和代理数量均不增加研究轮，也不重置周期。此前计数继续继承。
 
