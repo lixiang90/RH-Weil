@@ -1321,3 +1321,13 @@ root读完该准入稿后选择唯一未执行建设性预检：L=3/2，F完整�
 535／560原trace域／Gram存在性及532／533的P/k_s是旧输入，当前只落实其标准可计算设施，统一建设性0轮，cadence1／历史47／cycle16保持，无C047/584。没有q0/T/E表、没有Hfin符号或新whole4/5UPPER／primitiveRR／actualq/core/coupling/Xi；Goal同实例active，不满足完成门。
 
 下一唯一动作是同一reader的实际实现验收：固定h0=1_[1,2]、q0=<h0,FΠ_FFh0>，产成本表、J区间及真实Hilbert residual，目标总宽≤1/16；它是reader组件验证，不替代原五源表，随后回同一N/Q/T/E和cross。若成本／误差未付，保存具体日志即止，不换源/L/F/升模式躲反例，不串另一reader/paper；不得再将同一抽象误差公式当进展。准确交接见tf-reader/execution-handoff与STATE。
+
+## D20261027G — q0实际组件已执行，原验收未过；显式vector只准一次固定mixed求值
+
+固定h0/F8/L不变。三独占执行稿、root主稿/前件收据和独立审计当前版本已root消费：Fh0原语97653cells、真physical误差<1/32；same-q0酉运输为v=PBh0，f exact norm19189712/4849845；direct residual充分degree4429773/4451不是必要成本，也未实际执行这些G迭代。低区间68037频率、N26 Legendre真H残差和R0−RN全norm误差已付，Pvnorm²认证窄界约0.1505358024954683，不能再笼统说finiteinverse未知。
+
+由已存trial实际提取ell*=g+p*、v*=f−HcutFell*：384个g端点项、27个确切有理poly，保无限Fourier尾，真全H误差<1.061e−16。这个input比scalar多；旧“没有explicit vector”描述只属此前阶段。依赖/误差/方向/域norm/全源未付/强旧净值与当前版本见root收据，hash不代证明。
+
+原q0粗区间约[0.00080945,1]未通过宽1/16，全G的非零trial/J/true-H residual及五源T/E/cross未执行、Hfin无符号。当前预检按原stop保存缺项后止，不据粗充分成本否定方法。535/560及此前reader一般式已知，本次只有标准建设性实现/固定数值组件，0数学轮、不建C047/584，单cadence1/历史47/cycle16保持。classic瓶颈与542+555→557 whole leading4/5负惯性UPPER未变，Goal同createdAt1793085111 active/open。
+
+唯一下一准入是现有actual vector的一次固定c2=<v,U_log2v>设施测试，width≤1/1024包含输入运输和finitepair求值误差。有限区间exact身份已核，但积分算术/conditioning/成本尚未付，不预称G action实现。该test成功/失败能改变此analytic表示的mixed求值可执行性判断，优于重跑scalar、无压缩word或未知source纸面接口；无信息即止，不自动续prime/Krylov/paper，pass也须重新比较whole-G所欠a/b与主Goal，不直升合同。有独立算术primitive源、完整Dprime或危险core新身份则优先改策。下步见tf-reader-execution/next-fixed-pair-test及STATE，每轮按原授权GitHub同步，不complete长期Goal。

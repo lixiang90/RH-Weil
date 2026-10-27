@@ -1,0 +1,86 @@
+{
+  "schema": "rh-weil-q0-execution-root-consumption-v1",
+  "status": "root-consumed-limited-standard-construction-no-q0-acceptance",
+  "goal": "goals/GOAL.20261027.md",
+  "runtime_goal_created_at": 1793085111,
+  "baseline_commit": "0c4f3a3eb609bb1d9564138fa4a35701f05605f2",
+  "root_report": "goals/reviews/2026-10-27-fixed-q0-execution-and-analytic-vector.md",
+  "normalized_lf_sha256": {
+    "scripts/tf_reader_arch_gap_certificate.py": "c19e04e3e4ad3784add8d4473c98163f7403ed3d7ed16e0da773ac3bc33c174a",
+    "reviews/2026-10-27/tf-reader/arch-gap-certificate.json": "4c3b71637203ff10b38b91ec1b80cff4302371b0d4baceabb1b69e2429264d91",
+    "scripts/tf_reader_step_certificate.py": "1ee87e7351cea59774f5c33f63262faf79a5174ed244bb5e7cc30e020680e2cd",
+    "reviews\\2026-10-27\\tf-reader-execution\\step-engine-record.json": "0fb69e25a1df7a8783482753adc1c9ca37192c0164d432f084859270ae04f5a9",
+    "reviews\\2026-10-27\\tf-reader-execution\\step-engine-record.md": "d472107b86a543e00e8f6f983e64d6718add3533c1ecae7af621075c7612b8be",
+    "scripts/tf_reader_q0_cost_certificate.py": "479b8c29a9aecff1cee26f3a226f61cb4d946dc0cda2c88672b5b7dfeccb35a3",
+    "reviews\\2026-10-27\\tf-reader-execution\\variational-cost-certificate.json": "54107bf48566b22f2ae8587e9dceb02f40bdd6aec25547f9e9fd42c7df4cc0b3",
+    "scripts/tf_reader_lowband_step.py": "d3c5689eec3614127c870d88383b2b7c0669ce3ee4702d2e7a540ed734a537f5",
+    "reviews\\2026-10-27\\tf-reader-execution\\lowband-step-certificate.json": "cd1b078ed4a495764e7a728c23681f9f177c03e3ab24e836c377a6e55daa3ac1",
+    "scripts/tf_reader_lowband_vector.py": "97157a0f8106a63036333953f1754a26b8665f778c33b3c667aff8d7e1dbb9f5",
+    "reviews\\2026-10-27\\tf-reader-execution\\lowband-vector-input.json": "24f308d253860c35713649559eb06499431a64b6347199b1fe7ecad405a0f612",
+    "reviews\\2026-10-27\\tf-reader-execution\\variational-strategy-and-cost.md": "642e55a246ceebcfca6c64c7f5744d0f3f83ad4292f55adef9184f61b5f9e337",
+    "reviews\\2026-10-27\\tf-reader-execution\\next-fixed-pair-test.md": "c3d9fe243e5d663801ba12739c78c282cacdc5b3b43d53ca6026ea1a6a8329b9",
+    "goals/reviews/2026-10-27-fixed-q0-execution-and-analytic-vector.md": "af3c17b7bc4cb13b974254cb1c71481f5aa90a09249d0214221b293033e377c6"
+  },
+  "object_norm_domain_roles": {
+    "physical": "H=L2(R+,dx), h0=1_[1,2], F selfadjoint unitary cosine kernel2cos(2pi xy), U_t=e^-t/2 f(e^-t x)",
+    "fixed_input": "F8=2,3,5,7,11,13,17,19; NF9699690; f=B h0 exact256 divisor steps; source halfwindow3/2 remains frozen elsewhere",
+    "projection_inverse": "L=1_(0,1), Hcut=I-L, C0=LFL, R0=(I-C0^2)^-1; P Sonin projection; G=P B*B P|RanP",
+    "oriented_identity": "FPiF F=B* P G^-1 P B; v=P B h0=F(old P B* F h0); full-H J/residual same under F transport",
+    "vector": "ell*=1_(0,1)(g+p*), g=LFf exact384 sine/x terms, p* exact27 even-monomial rational coefficients; v*=f-Hcut F ell*, full infinite Fourier tail retained",
+    "relations_quotients": "No new physical source map/principal quotient/native class or Pan relation consumption; vector is in actual physical H, not a quotient label",
+    "coefficient_direction": "All displayed inputs currently real; original five-source matrices stay linear-first c^T M bar(c), no unilateral transpose or omitted complex coverage"
+  },
+  "quantifiers": {
+    "paid": "One fixed h0, fixed F8, cutoff1, N26 and saved rational trial. Whole physical Hilbert error, not finite-grid norm.",
+    "not_claimed": "No ALL-source/cofinal-growth sign, necessary complexity lower bound, primitive capacity or actual Xi identification."
+  },
+  "paid_dependencies_and_errors": {
+    "original_gap": "Previous actual rational C0 gap certificate; M0<1e6 and true global cosine Taylor remainder retained.",
+    "step": "97653 cells; near0/infinite-tail/mesh/sine-coefficient errors; Young17/16 and17; independent exact replay. Only tolerance1/32 function-evaluation run, other tolerances planner only.",
+    "cost": "Exact normf2=19189712/4849845 by sweep and all-pair overlap; outward sqrtprime bounds and direct residual sufficient degrees4429773/4451. Degrees not executed and not necessary lower bounds.",
+    "lowband": "68037 nonzero T frequencies; small-Si rational Taylor/argument error; high-Laplace signed finite geometric remainder; N26 true shifted-Legendre-H residual squared~5.660e-205; etaR~5.476e-17; quadratic forcing transport~2.167e-16",
+    "vector": "Existing singleton trial selected exactly; reconstructed CNt coefficient intervals, rational p* representative; delta_poly~2.635e-140 and delta_v<1.061e-16; F/Hcut contractions",
+    "source_scope": "DLMF6.2.E9/E19,6.7.E13,6.12.E3 formula reading; normalized local extraction caches, no new paper/full proof audit or raw original download claim"
+  },
+  "actual_results": {
+    "physical_Fh0_error": "<0.021576245<1/32",
+    "projection_norm_squared_outer_short_display": [
+      "0.15053580249546810",
+      "0.15053580249546854"
+    ],
+    "authoritative_bounds": "Exact rational endpoints in lowband-step-certificate.json, decimal display only.",
+    "q0": "Coarse spectral interval about[0.0008094495577533444,1]; width target1/16 NOT MET.",
+    "not_executed": [
+      "Nonzero full-G trial",
+      "Full-G J interval and true-H residual",
+      "Original five-source T/E/cross table",
+      "Hfin sign"
+    ]
+  },
+  "coverage_coupling_and_strongest_old": {
+    "retained_target": "All complex source, original du/zero-extension Dlog, full Gamma/contact/properpowers/double poles remain original target; this physical h0 component does not discharge them.",
+    "strongest_old": "535/560 fixed-window positive trace/compact/pole and prior standard reader formulas were inputs. 542+555->557 whole leading4/5 negative-inertia UPPER unchanged.",
+    "net": "Actual certified fixed numerical components and a reusable analytic vector input; no new classical whole/core/coupling/primitiveRR or growth consequence.",
+    "actual_bottleneck_changed": false
+  },
+  "settlement": {
+    "mathematical_round_increment": 0,
+    "reason": "Standard constructive implementation and fixed numerical components of existing exact identities, no new all-quantifier theorem; not hiding a new complete mathematical result. No C047/584.",
+    "cadence_reference": "goals/review-cadence.json",
+    "long_goal": "same active runtime; completion gate open, no blocked/complete"
+  },
+  "next_admission": {
+    "path": "reviews\\2026-10-27\\tf-reader-execution\\next-fixed-pair-test.md",
+    "input": "Actual exact v* plus true-H error, not only scalar norm",
+    "test": "One fixed c2=<v,U_log2 v>, rational full width<=1/1024 incl input and finitepair arithmetic",
+    "changes_choice": "Whether this analytic representation actually supports one mixed bounded pair at certified cost; not full G or q0 success",
+    "stop": "No automatic prime/Krylov/paper extension; failure saves exact unpaid item; pass still requires fresh whole-G admission."
+  },
+  "fresh_review": {
+    "path": "reviews\\2026-10-27\\tf-reader-execution\\residual-cost-audit.md",
+    "status": "limited-PASS-root-read-and-consumed",
+    "normalized_lf_sha256": "580c9f11947aa37fbb4ce5cdfdc94cfed29085f70031a98755f1015e6f47700e",
+    "audited_root_draft_lf_sha256": "9533e57908ccb731d7db64ce5b994086aae7c612a9dd69b1088b484d680e9eda",
+    "basis": "Final audit10 consumed exact14versions/finitepair identity/input/test/limits; only receipt status and fresh metadata changed after review."
+  }
+}

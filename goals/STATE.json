@@ -8,7 +8,7 @@
   "cadence": "goals/review-cadence.json",
   "decisions": "goals/DECISIONS.md",
   "latest_strategy": "goals/reviews/2026-10-27-general-rh-macro-review-cycle-16.md",
-  "latest_decision": "D20261027F",
+  "latest_decision": "D20261027G",
   "macro_frontier": "goals/MACRO_FRONTIER.md",
   "macro_summary": "goals/reviews/2026-10-27-general-rh-macro-review-cycle-16.md",
   "latest_macro_review": "goals/reviews/2026-10-27-general-rh-macro-review-cycle-16.md",
@@ -21,7 +21,7 @@
   "macro": {
     "long_objective": "G20261027接续G20261014完整完成门/原0c4f基线，≤582为输入；持续寻经典同源Weil正性/有效性/RR或actualsigned新输入，付全源/成长/core及谱识别。",
     "unpaid_bottleneck": "583已付all-source模Faber及fixed复粗曲面balanced Green/current/boundary全尾；raw注入不消Pan，标准连续principal闭商杀537。仍欠同一非零primitive物理源/整过滤/截面乘法/mixedRR及完整signedζ身份，actualq/core/coupling/Xi与whole4/5UPPER未变。",
-    "why_this_contract": "535/560旧trace/Gram不重计；本轮以实际C0有理gap、source-HS exact双支撑和true-H residual落实可计算输入，0数学轮。现在必要下一步是实现并验证同一reader而非再写公式；固定h0验收服务原五源表，不替换longGoal，成本/余项不付即止。",
+    "why_this_contract": "固定q0原门未过；实际低区间证书现已给explicit v*及真H误差，这是比scalar多的新input。下一一次固定c2可判此表示的mixed求值可执行性，胜过重跑scalar或未知paper；不代fullG/q0/经典净后果，无信息即止。有独立primitive源/成长core新身份则改策。",
     "paused_routes": [
       "零点比例优化",
       "无零区域优化"
@@ -40,9 +40,9 @@
     "settled_iterations": [
       "notes/583-completed-modular-faber-source-and-native-green-transport.md"
     ],
-    "stage": "本轮reader三稿/root/fresh及C0精确证书已root建设性0轮消费；20源路径正常push main并独立GET ref/commit/tree核同本地。回执/STATE/checkpoint由metadata child保存；q0/T/E尚未执行。",
-    "next_action": "只按reviews/2026-10-27/tf-reader/execution-handoff.md实现同一physical step reader；固定h0=1_[1,2]，先输出成本/J区间/true-H residual，认证q0总宽≤1/16。通过后回原L3/2五源Ndu/NDlog/Q/T/E及cross表；未有实际误差不跑T数值。失败保存确切成本/误差，不换源/F/L或串paper，不建C047/584。",
-    "stop_rule": "一轮止本完成化recipe，不重查essential资格，不续N/rho/j常数/level/paper；无新全尾信息则降回标准范围，不强行计轮。"
+    "stage": "当前q0实施已root/fresh限定结算：F原语/Pvnorm/explicit v*已认证；q0宽1/16未过，fullG/J/真残差/T/E未付。建设性0数学轮，C046/583不重开。当前源材料待正常GitHub同步。",
+    "next_action": "只执行reviews/2026-10-27/tf-reader-execution/next-fixed-pair-test.md：用已存exact v*及δv认证一次固定c2=<v,Ulog2v>，宽≤1/1024含input与finitepair误差，保存实际成本。无信息止该表示自动扩展；pass也重做wholeG准入，不自动prime/Krylov/C047，不重跑scalar，不替代原q0及五源表。",
+    "stop_rule": "C046已结算不恢复预算。当前q0预检未过止于明确缺项；新actual vector只准一次固定c2设施测试，无信息即止，pass也不自动续G/Krylov或新合同。"
   },
   "support_contracts": [],
   "must_not_forget": [
@@ -149,19 +149,34 @@
     },
     {
       "path": "reviews/2026-10-27/tf-reader/execution-handoff.md",
+      "kind": "cited",
+      "scope": "原fixedh0/q0验收已实际尝试；当前F/Pvnorm/vector已付，q0宽门未过，未付与新下一准入由执行结算/STATE替代，勿重跑旧动作。"
+    },
+    {
+      "path": "goals/reviews/2026-10-27-fixed-q0-execution-and-analytic-vector.md",
+      "kind": "cited",
+      "scope": "root/fresh建设性0：actualF primitive/cost/Pvnorm及explicitvector真H误差；全q0宽门未过，无fullG/T/E，classic瓶颈不改。"
+    },
+    {
+      "path": "reviews\\2026-10-27\\tf-reader-execution\\root-consumption-scope.json",
+      "kind": "cited",
+      "scope": "本次实际域norm/方向/全部误差/源成长未付/strongold净值及绑定版本；非数学定理/Goal完成。"
+    },
+    {
+      "path": "reviews\\2026-10-27\\tf-reader-execution\\next-fixed-pair-test.md",
       "kind": "open",
-      "scope": "唯一未执行reader实现：固定h0 physicalstep q0真实residual宽≤1/16，随后同五源表；未付不能宣称已算。"
+      "scope": "仅新actualvector的一次固定c2 bounded配对求值/误差/成本测试，尚未执行，不自动G/Krylov/数学合同。"
     }
   ],
   "pending_processes": [],
   "runtime_goal_observation": {
     "status": "active",
-    "observed_at_utc": "2026-10-27T10:02:23.741371+00:00",
+    "observed_at_utc": "2026-10-27T10:42:57+00:00",
     "created_at_unix": 1793085111,
-    "basis": "本轮源同步后实际get_goal核同实例active；建设性预检/推送不completeGoal。"
+    "basis": "结算现场get_goal同实例active；step/cost/lowband/vector及独立审查已实际完成，下一c2尚未执行。"
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-10-27-tf-reader-sync.json",
+  "checkpoint": "goals/checkpoints/2026-10-27-q0-execution-source.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
     "commit": "355ab0c30de0417cf5c85795f9b81b3148482b0a",
@@ -174,15 +189,15 @@
     "goal_lf_sha256": "b3d2acb1f962d793f45d79b6a4e67fb87dd072cd4752108a9298204b4cefa1de",
     "mathematical_gate": "open",
     "final_execution_gate": "not-eligible",
-    "basis": "仅标准建设性reader预检及C0精确输入证书；无q0/T/E/Hfin结果、无全源/成长signed或primitiveRR/actualq/core/coupling/Xi后果，Goal门open。"
+    "basis": "建设性实施仅F/Pvnorm/vector有证书，q0宽门未过；无fullG/T/E、全源成长signed或primitiveRR/actualcore/coupling/Xi后果，原Goal门仍open。"
   },
   "historical_completion_receipts": [
     "goals/goal-completion-receipt.20261014.json",
     "goals/goal-completion-receipt.20261014-continuation.json"
   ],
-  "process_inventory_observed_on": "本轮所有agent/证书执行与push已完成，root核稳定原件与fresh；pending空。实际只C0证书/重放，无q0/T/E进程或实验；独立GitHub核20源路径，metadata回执随child保存。",
+  "process_inventory_observed_on": "step/cost/lowband/vector全部terminal，audit最终稿已消费；无exec/agent运行G或c2，下一固定c2尚未启动。",
   "publication_approval_gate": {
-    "status": "current-source-published-and-independently-verified",
+    "status": "current-execution-root-closed-awaiting-normal-push-and-independent-verification",
     "destination": "https://github.com/lixiang90/RH-Weil",
     "visibility": "public",
     "branch": "main",
@@ -192,7 +207,7 @@
       "reply": "每轮把进度同步到github；把文献保存在文献库中，用研究看板来记录各个路线的状况",
       "scope": "本项目研究/Goal/STATE/看板/文献元数据/审查与同步回执；论文再分发许可不明则全文仅本地。"
     },
-    "current_scope": "本轮20源路径正常main同步且ref/commit/tree独立核验；metadata child只保存回执/STATE/checkpoint，0额外轮。外部DLMF缓存仍仅本地。",
+    "current_scope": "本次q0执行/证书/root审查/一次c2准入及STATE看板库元数据；标准0数学轮。DLMF本地normalized缓存仍Git排除。",
     "published_source_commit": "355ab0c30de0417cf5c85795f9b81b3148482b0a",
     "verification": "reviews/2026-10-27/tf-reader/remote-sync-verification.json"
   },

@@ -2517,6 +2517,72 @@
       "read_record": "../reviews/2026-10-27/tf-reader/dlmf-source-read-record.json",
       "retrieved_on": "2026-10-27",
       "status": "Standard quadrature input only; no new independent arithmetic positivity."
+    },
+    {
+      "id": "NIST-DLMF-Si-q0-20261027",
+      "authors": "NIST Digital Library of Mathematical Functions",
+      "title": "Sine integral and auxiliary Laplace identities for the fixed q0 implementation",
+      "version": "Official formula pages accessed2026-10-27; no separate current version assertion",
+      "category": "standard-special-functions",
+      "source_url": "https://dlmf.nist.gov/6.2.E9",
+      "additional_source_urls": [
+        "https://dlmf.nist.gov/6.2.E19",
+        "https://dlmf.nist.gov/6.7.E13",
+        "https://dlmf.nist.gov/6.12.E3"
+      ],
+      "read_scope": "Only6.2.E9/E19,6.7.E13,6.12.E3 plus related remainder paragraph; no full chapter proof audit. Finite geometric remainder derived in project.",
+      "download_status": "normalized-tool-visible-formula-extractions-saved",
+      "cache_kind": "Normalized formula text, not original author TeX/HTML bytes",
+      "local_formula_caches": [
+        {
+          "equation": "6.2.E9",
+          "source_url": "https://dlmf.nist.gov/6.2.E9",
+          "file": "literature/local/2026-10-27-tf-execution/6.2.E9.tool-extract.txt",
+          "cache_kind": "normalized official web-tool formula extraction",
+          "bytes": 159,
+          "cache_sha256": "0e4f5d529720d73a830d070d348db67931202aaf9a16fa82121117b78f33d069",
+          "retrieved_at_utc": "2026-10-27T10:21:30.839490+00:00",
+          "scope": "Only sine integral/auxiliary Laplace/asymptotic identities for concrete arithmetic implementation; no new source route/chapter proof audit.",
+          "git_included": false
+        },
+        {
+          "equation": "6.2.E19",
+          "source_url": "https://dlmf.nist.gov/6.2.E19",
+          "file": "literature/local/2026-10-27-tf-execution/6.2.E19.tool-extract.txt",
+          "cache_kind": "normalized official web-tool formula extraction",
+          "bytes": 177,
+          "cache_sha256": "c1d92328a189cbbeda6b953da2a165ceda9b0df7a9e39d79a482604ddbceb31d",
+          "retrieved_at_utc": "2026-10-27T10:21:30.846881+00:00",
+          "scope": "Only sine integral/auxiliary Laplace/asymptotic identities for concrete arithmetic implementation; no new source route/chapter proof audit.",
+          "git_included": false
+        },
+        {
+          "equation": "6.7.E13",
+          "source_url": "https://dlmf.nist.gov/6.7.E13",
+          "file": "literature/local/2026-10-27-tf-execution/6.7.E13.tool-extract.txt",
+          "cache_kind": "normalized official web-tool formula extraction",
+          "bytes": 210,
+          "cache_sha256": "688a6f89d3febca1acfe4260ec6e00ea8b8d6bcf2ca939187d6537b126da0a02",
+          "retrieved_at_utc": "2026-10-27T10:21:30.854618+00:00",
+          "scope": "Only sine integral/auxiliary Laplace/asymptotic identities for concrete arithmetic implementation; no new source route/chapter proof audit.",
+          "git_included": false
+        },
+        {
+          "equation": "6.12.E3",
+          "source_url": "https://dlmf.nist.gov/6.12.E3",
+          "file": "literature/local/2026-10-27-tf-execution/6.12.E3.tool-extract.txt",
+          "cache_kind": "normalized official web-tool formula extraction",
+          "bytes": 289,
+          "cache_sha256": "2f36d77d204b2d2c5e3682e0249d1e66dc32884896e0e3e1db4cf5071966860e",
+          "retrieved_at_utc": "2026-10-27T10:21:30.862621+00:00",
+          "scope": "Only sine integral/auxiliary Laplace/asymptotic identities for concrete arithmetic implementation; no new source route/chapter proof audit.",
+          "git_included": false
+        }
+      ],
+      "git_included": false,
+      "review_note": "supplements/2026-10-27-q0-execution-source-scope.md",
+      "read_record": "../reviews/2026-10-27/tf-reader-execution/dlmf-si-source-read-record.json",
+      "status": "Standard implementation support; no new RH source route, full-G/q0/T/E result or independent arithmetic positivity."
     }
   ],
   "supplement_provenance": [

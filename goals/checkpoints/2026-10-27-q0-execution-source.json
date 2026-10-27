@@ -1,0 +1,331 @@
+{
+  "schema": "rh-weil-macro-checkpoint-v1",
+  "created_for_client_date": "2026-10-27",
+  "git_head_at_checkpoint": "182e34193bfb2c31941e68a75cdff0a816249f21",
+  "state": {
+    "schema": "rh-weil-macro-state-v1",
+    "updated_for_client_date": "2026-10-27",
+    "baseline_commit": "0c4f3a3eb609bb1d9564138fa4a35701f05605f2",
+    "historical_baseline_commit": "3a72930e9f9f554b03b41d17d8c8002f1813ca82",
+    "goal": "goals/GOAL.20261027.md",
+    "workflow": "goals/RESEARCH_WORKFLOW.md",
+    "cadence": "goals/review-cadence.json",
+    "decisions": "goals/DECISIONS.md",
+    "latest_strategy": "goals/reviews/2026-10-27-general-rh-macro-review-cycle-16.md",
+    "latest_decision": "D20261027G",
+    "macro_frontier": "goals/MACRO_FRONTIER.md",
+    "macro_summary": "goals/reviews/2026-10-27-general-rh-macro-review-cycle-16.md",
+    "latest_macro_review": "goals/reviews/2026-10-27-general-rh-macro-review-cycle-16.md",
+    "latest_iteration": "notes/583-completed-modular-faber-source-and-native-green-transport.md",
+    "macro_control": {
+      "schema": "macro-recovery-v2",
+      "goal_epoch": "G20261027",
+      "goal_lf_sha256": "b3d2acb1f962d793f45d79b6a4e67fb87dd072cd4752108a9298204b4cefa1de"
+    },
+    "macro": {
+      "long_objective": "G20261027接续G20261014完整完成门/原0c4f基线，≤582为输入；持续寻经典同源Weil正性/有效性/RR或actualsigned新输入，付全源/成长/core及谱识别。",
+      "unpaid_bottleneck": "583已付all-source模Faber及fixed复粗曲面balanced Green/current/boundary全尾；raw注入不消Pan，标准连续principal闭商杀537。仍欠同一非零primitive物理源/整过滤/截面乘法/mixedRR及完整signedζ身份，actualq/core/coupling/Xi与whole4/5UPPER未变。",
+      "why_this_contract": "固定q0原门未过；实际低区间证书现已给explicit v*及真H误差，这是比scalar多的新input。下一一次固定c2可判此表示的mixed求值可执行性，胜过重跑scalar或未知paper；不代fullG/q0/经典净后果，无信息即止。有独立primitive源/成长core新身份则改策。",
+      "paused_routes": [
+        "零点比例优化",
+        "无零区域优化"
+      ],
+      "stopped_or_downgraded": [
+        "549–578的精确停门、paid资产及合法逃逸见MACRO_FRONTIER/各root收据；不以旧商/正锥membership/未知余项改名复活；542+555→557仅whole4/5负惯性UPPER。",
+        "579–582的实际源/非标量cycles/full-local强域/Green已付，但各principal、原域、coverage或fixedcoarse primitive门失败；停止原recipe，保不同relative/higher/强拓扑/有费无界/源适应修复。",
+        "10-27附件战略source0已止，无新经典J或容量；正Dprime逼近不需逐层405/ordinarytrace，须独立正序列/完整signed趋零。tensor须真对象与全阶pole。"
+      ]
+    },
+    "primary_contract": {
+      "id": "C046",
+      "path": "goals/contracts/C046-completed-modular-faber-green-transport.md",
+      "status": "completed",
+      "iteration_budget": 1,
+      "settled_iterations": [
+        "notes/583-completed-modular-faber-source-and-native-green-transport.md"
+      ],
+      "stage": "当前q0实施已root/fresh限定结算：F原语/Pvnorm/explicit v*已认证；q0宽1/16未过，fullG/J/真残差/T/E未付。建设性0数学轮，C046/583不重开。当前源材料待正常GitHub同步。",
+      "next_action": "只执行reviews/2026-10-27/tf-reader-execution/next-fixed-pair-test.md：用已存exact v*及δv认证一次固定c2=<v,Ulog2v>，宽≤1/1024含input与finitepair误差，保存实际成本。无信息止该表示自动扩展；pass也重做wholeG准入，不自动prime/Krylov/C047，不重跑scalar，不替代原q0及五源表。",
+      "stop_rule": "C046已结算不恢复预算。当前q0预检未过止于明确缺项；新actual vector只准一次固定c2设施测试，无信息即止，pass也不自动续G/Krylov或新合同。"
+    },
+    "support_contracts": [],
+    "must_not_forget": [
+      "G20261027接续G20261014完整完成门/原0c4f基线；≤582和10-27审视都是输入，旧成果不得重验收。实际runtimeGoal active(createdAt1793085111)，新建由本轮用户直接请求。",
+      "完整Γ=2θ′/FP-contact、所有properpowers/双pole、ALLcomplex、原du及zero-extension Dlog；L/算术height/频高独立，fixed/强源/Dprime/成长不合并。",
+      "每结果保object/domain-range/关系-商-physical角色/norm、源成长量词/依赖误差/符号/coverage-coupling/strongest-old净值。语义改变先freeze/reclose，draft不代root消费。",
+      "唯一轮数读cadence；cycle16在原5完整轮处提前复盘归零一次，583后只统一加一；来源/恢复/代理/审计/推送0，默认6/允许4–8。C046预算已用，不从历史停止合同恢复。",
+      "strongold542+555→557 whole4/5是负惯性UPPER；537/538 fixed17/16不代成长/Ξ。560全fixed窗positiveTrace−compact+pole，572/高层变分不代低频core及cofinal sign。",
+      "几何主线先405全noncompact Pan及平移actual消去、537非根/全源coverage/原费，再同对象整过滤/截面乘法/mixedRR。已知410–437真实relative电荷/573反测与574–575线/Cartier不重造，精确域见前沿。",
+      "576正锥生成/alias费、577真Γ修补、578粗Selberg反测均已付；membership/缺陷消失仍open。Dprime策略可不逐层消405，不能泛化uniform原norm或ordinarytrace。",
+      "579–582源/强域/Green并非新未知；λ核标准E不读、fullWeil非点乘automorphism、fixedq7coarse primitive零；保relative/higher/family/付费强源，不泛化至所有载体。",
+      "每轮保存/root审查后同步公开lixiang90/RH-Weil main；不强推/覆写无关工作。文献全文许可不明仅本地库，来源版本SHA/阅读范围公开。网络失败可任务级10808代理；未核远端不称已同步。"
+    ],
+    "evidence": [
+      {
+        "path": "notes/537-source-exact-weil-window-positive-tail-admission.md",
+        "kind": "proved",
+        "scope": "基线fixed17/16 fullcomplex Γ/pp/pole原Dlog正性，非成长。"
+      },
+      {
+        "path": "notes/538-actual-weil-geometric-upper-and-full-inertia-gates.md",
+        "kind": "proved",
+        "scope": "基线同窗simple-even/gap，非Ξ。"
+      },
+      {
+        "path": "notes/555-actual-prime-weighted-schur-and-growing-weil-inertia.md",
+        "kind": "proved",
+        "scope": "root-consumed：ALL L/ALL原complex完整prime norm~eL；whole预算log leading≤eL，强旧record2eL；仍exp(eL)，一轮。"
+      },
+      {
+        "path": "notes/560-joint-finite-place-sonin-primepower-cancellation-and-compact-weil-bridge.md",
+        "kind": "proved",
+        "scope": "root+终审：每先fixedfiniteS实际ε∈C0、ALL原complexDlog positiveTrace−compact+完整双pole；cofinal费/sign/Ξ未付，统一一轮。"
+      },
+      {
+        "path": "notes/567-function-field-positivity-origins-and-generalized-correspondence-tests.md",
+        "kind": "proved",
+        "scope": "完整连续Π的formalgraph/transpose/composition/trace失正反测试；全曲线Gram/RR及Deligne来源恢复，单尺度增长容量RR条件预算已审，classic数据未构造。统一1轮，actual4/5/core不变。"
+      },
+      {
+        "path": "notes/582-full-local-weil-strong-domain-and-actual-green-source-gates.md",
+        "kind": "proved",
+        "scope": "C045一轮：实际full-local S0/θ与A1原费；extra nativecycle/β1Green全源与完整Pan/537/Γconstant、fixedcoarse门，非primitiveRR或新经典正性。"
+      },
+      {
+        "path": "reviews/2026-10-23/full-weil-domain/root-consumption-scope.json",
+        "kind": "cited",
+        "scope": "582最终实际对象/域norm/源成长/依赖误差/方向/whole协同/coverage/strongestold/停止与LF版本，hash非证明。"
+      },
+      {
+        "path": "reviews/2026-10-27/goal-start/borcherds-principal-source-admission.md",
+        "kind": "cited",
+        "scope": "Borcherds§13实际section/ratio及整输入/CR字面比较；compact vs全Pan资格分开，source0不排新intertwiner。"
+      },
+      {
+        "path": "goals/reviews/2026-10-27-modular-principal-part-capacity-and-legal-completions.md",
+        "kind": "cited",
+        "scope": "root+fresh限定：实际模过滤、标准Baire/Hamel及旧Γ高频；保单边lower/family/Dprime/完成化，0轮非新经典正号。"
+      },
+      {
+        "path": "goals/reviews/2026-10-27-general-rh-macro-review-cycle-16.md",
+        "kind": "cited",
+        "scope": "cycle16比较578–582五完整轮及连续来源0；提前复盘原5→0一次，原目标强度和独立容量/core缺口保留。"
+      },
+      {
+        "path": "notes/553-principal-cyclic-closure-and-cofinal-readout-fees.md",
+        "kind": "cited",
+        "scope": "最强旧全线Hlog中Pan稠密/bounded读出与cofinal原费；不得套指数增长cusp source核。历史详细前件仍在前沿/原稿。"
+      },
+      {
+        "path": "notes/583-completed-modular-faber-source-and-native-green-transport.md",
+        "kind": "proved",
+        "scope": "root/fresh限定：全S_exp Faber系数、II22逐mΨ=phase R、fixedFS balanced L1/mass及boundary尾、Nk²和Pan必要费用；raw保关系/连续principal类全零，非经典正性/RR。"
+      },
+      {
+        "path": "reviews/2026-10-27/cusp-transport/root-consumption-scope.json",
+        "kind": "cited",
+        "scope": "583 root消费的域norm/全源成长/依赖误差/方向/类角色/coverage/strongestold，fresh限定PASS；hash非证明。"
+      },
+      {
+        "path": "goals/reviews/2026-10-27-ccm-geometric-correspondence-source-gate.md",
+        "kind": "cited",
+        "scope": "root/fresh限定来源0：typed方向、两P1反测、m1 naiveK0不尊principal、limited derived修补及relative角色；未给physical输入，止§7。"
+      },
+      {
+        "path": "reviews/2026-10-27/ccm-correspondence/root-consumption-scope.json",
+        "kind": "cited",
+        "scope": "本轮对象/域degree/关系商/无原norm与classic全预算/强旧净值及语义冻结消费；hash非证明。"
+      },
+      {
+        "path": "reviews/2026-10-27/ccm-correspondence/next-input-admission.md",
+        "kind": "open",
+        "scope": "历史固定5源准入，原参数不变；其reader误差输入现已建设性预检闭合，q0/T/E执行仍待。不是新classic输入/C047。"
+      },
+      {
+        "path": "goals/reviews/2026-10-27-five-source-actual-trace-reader-precheck.md",
+        "kind": "cited",
+        "scope": "root/fresh限定标准0轮：C0有理gap实际运行、真实D_HS/全尾/全Hilbert残差及原norm/Q误差流程，尚无q0/T/E/Hfin。"
+      },
+      {
+        "path": "reviews/2026-10-27/tf-reader/root-consumption-scope.json",
+        "kind": "cited",
+        "scope": "7版本对象/域norm/量词/误差/系数/whole净值/未执行表与停止，hash非证明。"
+      },
+      {
+        "path": "reviews/2026-10-27/tf-reader/execution-handoff.md",
+        "kind": "cited",
+        "scope": "原fixedh0/q0验收已实际尝试；当前F/Pvnorm/vector已付，q0宽门未过，未付与新下一准入由执行结算/STATE替代，勿重跑旧动作。"
+      },
+      {
+        "path": "goals/reviews/2026-10-27-fixed-q0-execution-and-analytic-vector.md",
+        "kind": "cited",
+        "scope": "root/fresh建设性0：actualF primitive/cost/Pvnorm及explicitvector真H误差；全q0宽门未过，无fullG/T/E，classic瓶颈不改。"
+      },
+      {
+        "path": "reviews\\2026-10-27\\tf-reader-execution\\root-consumption-scope.json",
+        "kind": "cited",
+        "scope": "本次实际域norm/方向/全部误差/源成长未付/strongold净值及绑定版本；非数学定理/Goal完成。"
+      },
+      {
+        "path": "reviews\\2026-10-27\\tf-reader-execution\\next-fixed-pair-test.md",
+        "kind": "open",
+        "scope": "仅新actualvector的一次固定c2 bounded配对求值/误差/成本测试，尚未执行，不自动G/Krylov/数学合同。"
+      }
+    ],
+    "pending_processes": [],
+    "runtime_goal_observation": {
+      "status": "active",
+      "observed_at_utc": "2026-10-27T10:42:57+00:00",
+      "created_at_unix": 1793085111,
+      "basis": "结算现场get_goal同实例active；step/cost/lowband/vector及独立审查已实际完成，下一c2尚未执行。"
+    },
+    "goal_completion_requested": false,
+    "checkpoint": "goals/checkpoints/2026-10-27-q0-execution-source.json",
+    "last_verified_remote": {
+      "repository": "https://github.com/lixiang90/RH-Weil",
+      "commit": "355ab0c30de0417cf5c85795f9b81b3148482b0a",
+      "tree": "51d08914c46897210617685e35751fbce3279993",
+      "basis": "GitHub连接独立GET ref/gitcommit/gittree与本地一致；reviews/2026-10-27/tf-reader/remote-sync-verification.json；metadata child实际HEAD另现场核，不递归自记SHA。"
+    },
+    "completion_audit": {
+      "goal": "goals/GOAL.20261027.md",
+      "baseline_commit": "0c4f3a3eb609bb1d9564138fa4a35701f05605f2",
+      "goal_lf_sha256": "b3d2acb1f962d793f45d79b6a4e67fb87dd072cd4752108a9298204b4cefa1de",
+      "mathematical_gate": "open",
+      "final_execution_gate": "not-eligible",
+      "basis": "建设性实施仅F/Pvnorm/vector有证书，q0宽门未过；无fullG/T/E、全源成长signed或primitiveRR/actualcore/coupling/Xi后果，原Goal门仍open。"
+    },
+    "historical_completion_receipts": [
+      "goals/goal-completion-receipt.20261014.json",
+      "goals/goal-completion-receipt.20261014-continuation.json"
+    ],
+    "process_inventory_observed_on": "step/cost/lowband/vector全部terminal，audit最终稿已消费；无exec/agent运行G或c2，下一固定c2尚未启动。",
+    "publication_approval_gate": {
+      "status": "current-execution-root-closed-awaiting-normal-push-and-independent-verification",
+      "destination": "https://github.com/lixiang90/RH-Weil",
+      "visibility": "public",
+      "branch": "main",
+      "human_authorization": {
+        "observed_for_client_date": "2026-10-27",
+        "source": "本轮直接用户请求",
+        "reply": "每轮把进度同步到github；把文献保存在文献库中，用研究看板来记录各个路线的状况",
+        "scope": "本项目研究/Goal/STATE/看板/文献元数据/审查与同步回执；论文再分发许可不明则全文仅本地。"
+      },
+      "current_scope": "本次q0执行/证书/root审查/一次c2准入及STATE看板库元数据；标准0数学轮。DLMF本地normalized缓存仍Git排除。",
+      "published_source_commit": "355ab0c30de0417cf5c85795f9b81b3148482b0a",
+      "verification": "reviews/2026-10-27/tf-reader/remote-sync-verification.json"
+    },
+    "research_board": "RESEARCH_BRANCHES.md",
+    "literature_index": "literature/README.md",
+    "semantic_dependency_freeze": {
+      "scope": "CCM§6.2 ordinary-cycle6.11／自动principal下降",
+      "status": "raw-consumption-remains-frozen-limited-repair-root-closed",
+      "basis": "两P1反测及m1 point腿经fresh/root核；仅保typed proper/smooth K-oriented或perfectkernel/derived/Todd明确修补；583不依本章、410–437既有relative资产保持。"
+    }
+  },
+  "cadence_snapshot": {
+    "schema": "rh-weil-research-review-cadence-v1",
+    "user_instruction_date": "2026-10-08",
+    "minimum_rounds": 4,
+    "target_rounds": 6,
+    "maximum_rounds": 8,
+    "counting_unit": "completed research continuation iteration, not tool calls or files",
+    "rounds_since_review": 1,
+    "last_review": "goals/reviews/2026-10-27-general-rh-macro-review-cycle-16.md",
+    "last_review_baseline_commit": "0359653fe31d8fec0a610ae3d6926731915b1c7a",
+    "last_review_completed_round_count": 5,
+    "last_review_trigger": "578–582 five complete mathematical rounds plus consecutive source-only stops trigger allowed early review at5. Current modular/Baire comparison and cycle16 are standard/old synthesis, zero new math; same cadence5->0 once, historical46 unchanged. G20261027 inherits old inputs and original0c4f baseline.",
+    "last_completed_round": "notes/583-completed-modular-faber-source-and-native-green-transport.md",
+    "last_completed_round_date": "2026-10-27",
+    "last_completed_round_baseline_commit": "0c4f3a3eb609bb1d9564138fa4a35701f05605f2",
+    "latest_user_directed_review": "goals/reviews/2026-10-27-general-rh-macro-review-cycle-16.md",
+    "latest_user_directed_review_baseline_commit": "0c4f3a3eb609bb1d9564138fa4a35701f05605f2",
+    "latest_user_directed_review_scope": "持续Goal执行：模输入容量标准比较0轮，fresh/root闭合；已有5完整轮处提前cycle16，原5→0一次/历史46保持，单边lower及合法完成化保留。",
+    "current_research_focus": "Fixed q0 actual execution certified Fh0 primitive/Pvnorm and explicit analytic v* with true-H error<1.061e-16; q0 width1/16 not met, fullG/J/residual and5sourceT/E unpaid. Standard constructive0; next only one fixed c2 mixed-pair implementation test width1/1024 from actualvector, no automaticG/Krylov/C047/584 or repeatedscalar.",
+    "weil_f1_rounds_since_historical_review": 47,
+    "last_completed_round_note_paths": [
+      "notes/524-f1-mobius-cutoff-taylor-obstruction-and-repair.md",
+      "notes/525-f1-smoothed-mobius-probes-and-arithmetic-strength.md",
+      "notes/526-f1-faithful-two-weight-hilbert-quotient-and-defect.md",
+      "notes/527-weil-reflection-source-signs-and-arithmetic-sensitivity.md",
+      "notes/528-actual-prime-reflection-relative-bound-obstruction.md",
+      "notes/529-full-weil-positive-cone-semigroup-boundary.md",
+      "notes/530-archimedean-sonin-prime-compact-repair-boundary.md",
+      "notes/531-semilocal-sonin-positive-trace-and-non-hilbert-schmidt-cutoff.md",
+      "notes/532-actual-sonin-prime-symbol-and-compact-weil-bridge.md",
+      "notes/533-actual-late-prime-sonin-boundary-square.md",
+      "notes/534-actual-uniform-sonin-subterms-and-trace-consumption-gap.md",
+      "notes/535-actual-first-prime-sonin-log-resonance-and-indefinite-error.md",
+      "notes/536-compact-window-certificate-admission-and-pointwise-scope.md",
+      "notes/537-source-exact-weil-window-positive-tail-admission.md",
+      "notes/538-actual-weil-geometric-upper-and-full-inertia-gates.md",
+      "notes/539-growing-weil-prime-cost-and-constant-tail-boundary.md",
+      "notes/540-growing-constant-tail-gaussian-reward-cost.md",
+      "notes/541-native-chebyshev-variation-and-full-gamma-boundary.md",
+      "notes/542-actual-prime-high-moments-and-strong-baseline-audit.md",
+      "notes/543-full-gamma-heat-arithmetic-records-and-thermal-boundary.md",
+      "notes/545-modular-packet-norm-cusp-blindness-and-weil-transport-gate.md",
+      "notes/546-arithmetic-comb-full-weil-positivity-and-form-core-noncoverage.md",
+      "notes/549-mobius-window-norm-full-cofactor-gram-and-physical-synthesis-gap.md",
+      "notes/555-actual-prime-weighted-schur-and-growing-weil-inertia.md",
+      "notes/560-joint-finite-place-sonin-primepower-cancellation-and-compact-weil-bridge.md",
+      "notes/561-beurling-positive-measures-self-duality-and-integer-recovery.md",
+      "notes/562-generalized-rh-continuous-g-integers-and-spectral-multiplicity.md",
+      "notes/563-distribution-side-weil-certificates-and-heat-complete-monotonicity.md",
+      "notes/564-dual-pair-rh-weighted-purity-and-mellin-gauge.md",
+      "notes/565-canonical-completion-graded-identifiability-and-independent-energy.md",
+      "notes/566-source-closed-forms-and-full-weil-heat-trace-tests.md",
+      "notes/567-function-field-positivity-origins-and-generalized-correspondence-tests.md",
+      "notes/568-source-evaluation-carriers-local-jets-and-weil-capacity-gap.md",
+      "notes/569-dual-carrier-gamma-normalization-and-budget-cocycles.md",
+      "notes/570-actual-joint-sonin-signed-mixed-and-narrow-source-cost.md",
+      "notes/571-actual-receiver-two-boundary-signed-comparison-and-growth.md",
+      "notes/572-finite-euler-receiver-coherent-tail-and-original-weighted-cost.md",
+      "notes/573-relative-ideal-chain-closure-and-regulator-loss.md",
+      "notes/574-actual-adelic-cover-relative-picard-and-source-transport.md",
+      "notes/575-regular-cartier-cover-flat-source-and-capacity-gap.md",
+      "notes/576-fixed-elliptic-positive-cone-and-original-alias-cost.md",
+      "notes/577-full-gamma-positive-repairs-and-independent-budget-gap.md",
+      "notes/578-prime-pole-signed-budget-and-selberg-control-gap.md",
+      "notes/579-kry-physical-gaussian-source-and-native-primitive-obstruction.md",
+      "notes/580-kry-finite-schwartz-boundary-cocycle-and-level-alias-gap.md",
+      "notes/581-arithmetic-weighted-two-prime-completion-and-relative-capacity-gap.md",
+      "notes/582-full-local-weil-strong-domain-and-actual-green-source-gates.md",
+      "notes/583-completed-modular-faber-source-and-native-green-transport.md"
+    ]
+  },
+  "normalized_lf_sha256": {
+    "AGENTS.md": "759178cc17edb0f4c5417b485759f491373447897d0828c3ca78f06939266650",
+    "goals/DECISIONS.md": "47a0577a98a21bf81225a2e5c2bdabe1b2147e568cfb43413440f0f39eccea51",
+    "goals/GOAL.20261027.md": "b3d2acb1f962d793f45d79b6a4e67fb87dd072cd4752108a9298204b4cefa1de",
+    "goals/MACRO_FRONTIER.md": "466ea5bab78b2a54df4ae0d20fd2a0b66511d03ab104ef15fc0c05ddc821d4af",
+    "goals/RESEARCH_WORKFLOW.md": "567b238a62872505f9b29688cf4320fafb7f20b67a650c6cd7711ad56ddf95c1",
+    "goals/STATE.json": "f04b42d639675fc8ffe9a283edf434396932ea3d3bdc301fa7fcffee7819bb28",
+    "goals/contracts/C046-completed-modular-faber-green-transport.md": "071b86196ea3af59940f720e967e3e94b903f6875c561c47832828b0009ce4fd",
+    "goals/review-cadence.json": "fff0fe739134f9a327a4e92541650207edbf4f3fb843719b29ac9b72a8d5297e",
+    "goals/reviews/2026-10-27-ccm-geometric-correspondence-source-gate.md": "ad9e3805b428ef8ba58f15c19e5edd2e8379870a28301be91f9e616320008e4b",
+    "goals/reviews/2026-10-27-five-source-actual-trace-reader-precheck.md": "2a626554685e4f3a77c5f3483a68a75b16240b207d78f80a45189b771b19ed9f",
+    "goals/reviews/2026-10-27-fixed-q0-execution-and-analytic-vector.md": "af3c17b7bc4cb13b974254cb1c71481f5aa90a09249d0214221b293033e377c6",
+    "goals/reviews/2026-10-27-general-rh-macro-review-cycle-16.md": "f3f89f4d676ead653f4655709ae14dd8c3b47451ff3d27b18653ed384ea6a9de",
+    "goals/reviews/2026-10-27-modular-principal-part-capacity-and-legal-completions.md": "c5d2572e880a98d338d048e9e04ac23ea4baed577b83b0cf235c48a238263116",
+    "notes/537-source-exact-weil-window-positive-tail-admission.md": "269a500556d37fc04a4e44efd2f0899414787743e529506dbbe7395a34eea9f8",
+    "notes/538-actual-weil-geometric-upper-and-full-inertia-gates.md": "fa515b15206cc499dacfa398c8cc977b5e7d6bb3406d0f7fdae8f7a87e91a532",
+    "notes/553-principal-cyclic-closure-and-cofinal-readout-fees.md": "35a40c35d1eaa7fafb462361ddef1bfb9643402b5670f832b9142aeb4b74abce",
+    "notes/555-actual-prime-weighted-schur-and-growing-weil-inertia.md": "55a3745ab8160738e2a2dde15e84290e99205df68f3b59b357d26127846a31c5",
+    "notes/560-joint-finite-place-sonin-primepower-cancellation-and-compact-weil-bridge.md": "9c2e6cd5a9eae269ad04b332699c21eec7403a230f9557afa8b895c45d4228d3",
+    "notes/567-function-field-positivity-origins-and-generalized-correspondence-tests.md": "96c0c5a62e4175705696a29ed28d890eb11cec6f7351dc763641b65f3fcaec8a",
+    "notes/582-full-local-weil-strong-domain-and-actual-green-source-gates.md": "6d5e5711e44fad0aec44e6d95233b7898370430bc9b7b1cc8281b7d4304fdcc8",
+    "notes/583-completed-modular-faber-source-and-native-green-transport.md": "babe212467d5c41d14a20ba2d0d99b1f49722f2388bfea9dc13c6334ef3fadab",
+    "reviews/2026-10-23/full-weil-domain/root-consumption-scope.json": "167e92e7dd887fda2231a9825b7b75f3e1d02a128cae9d9c7bca9ad2d5f05fa5",
+    "reviews/2026-10-27/ccm-correspondence/next-input-admission.md": "c77ea3b1fe1b21f263b1a7e7a0aab115aa95a14cd8ee77225534761c96bffb3c",
+    "reviews/2026-10-27/ccm-correspondence/root-consumption-scope.json": "4b7cd2f7ecdb929b8c066a81b54ec4c0100a58116255d4533ea5894a64a12a18",
+    "reviews/2026-10-27/cusp-transport/root-consumption-scope.json": "b409417f8f225dde64eba506c51e6c81b9a99316329a829e590a172fa529fcd1",
+    "reviews/2026-10-27/goal-start/borcherds-principal-source-admission.md": "b1e6891a28215816389bd04f371ccd03e7330e0ba69b670df5d883cfeb3590c6",
+    "reviews/2026-10-27/tf-reader/execution-handoff.md": "6d052677352c310a45bd25589ef10bfd37ff593d82c5981bb834564c5c42d828",
+    "reviews/2026-10-27/tf-reader/root-consumption-scope.json": "b78d0b5683a9e10553ecf8882d208b0f9363f1977edb8bed5fdbbbc06571264d",
+    "reviews\\2026-10-27\\tf-reader-execution\\next-fixed-pair-test.md": "c3d9fe243e5d663801ba12739c78c282cacdc5b3b43d53ca6026ea1a6a8329b9",
+    "reviews\\2026-10-27\\tf-reader-execution\\root-consumption-scope.json": "e88a643f23f021d174276c5a67311393fc0b5ef7b7cd78f4d5264a57e2e6b562",
+    "scripts/research_state.py": "b97b434e71fe6959f5357267512cb247e4d0a79bee4d0590eeecc2682dc535b9"
+  },
+  "scope": "Structural recovery snapshot; not proof or live runtime verification"
+}

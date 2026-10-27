@@ -1,0 +1,3130 @@
+{
+  "schema": "tf-reader-lowband-analytic-vector-v1",
+  "scope": "Existing fixed h0/F8 low-band witness extracted as an explicit reusable analytic vector with true Hilbert error; not a G action or q0 acceptance.",
+  "degree": 26,
+  "precision": 260,
+  "source_files_lf_sha256": {
+    "reviews/2026-10-27/tf-reader-execution/lowband-step-certificate.json": "cd1b078ed4a495764e7a728c23681f9f177c03e3ab24e836c377a6e55daa3ac1",
+    "reviews/2026-10-27/tf-reader/arch-gap-certificate.json": "4c3b71637203ff10b38b91ec1b80cff4302371b0d4baceabb1b69e2429264d91"
+  },
+  "input_h0": "1_[1,2], physical L2 norm1",
+  "primes": [
+    2,
+    3,
+    5,
+    7,
+    11,
+    13,
+    17,
+    19
+  ],
+  "N_F": 9699690,
+  "f_B_h0_step_terms": [
+    {
+      "left": 1,
+      "right": 2,
+      "coefficient": "1"
+    },
+    {
+      "left": 2,
+      "right": 4,
+      "coefficient": "-1/2"
+    },
+    {
+      "left": 3,
+      "right": 6,
+      "coefficient": "-1/3"
+    },
+    {
+      "left": 5,
+      "right": 10,
+      "coefficient": "-1/5"
+    },
+    {
+      "left": 6,
+      "right": 12,
+      "coefficient": "1/6"
+    },
+    {
+      "left": 7,
+      "right": 14,
+      "coefficient": "-1/7"
+    },
+    {
+      "left": 10,
+      "right": 20,
+      "coefficient": "1/10"
+    },
+    {
+      "left": 11,
+      "right": 22,
+      "coefficient": "-1/11"
+    },
+    {
+      "left": 13,
+      "right": 26,
+      "coefficient": "-1/13"
+    },
+    {
+      "left": 14,
+      "right": 28,
+      "coefficient": "1/14"
+    },
+    {
+      "left": 15,
+      "right": 30,
+      "coefficient": "1/15"
+    },
+    {
+      "left": 17,
+      "right": 34,
+      "coefficient": "-1/17"
+    },
+    {
+      "left": 19,
+      "right": 38,
+      "coefficient": "-1/19"
+    },
+    {
+      "left": 21,
+      "right": 42,
+      "coefficient": "1/21"
+    },
+    {
+      "left": 22,
+      "right": 44,
+      "coefficient": "1/22"
+    },
+    {
+      "left": 26,
+      "right": 52,
+      "coefficient": "1/26"
+    },
+    {
+      "left": 30,
+      "right": 60,
+      "coefficient": "-1/30"
+    },
+    {
+      "left": 33,
+      "right": 66,
+      "coefficient": "1/33"
+    },
+    {
+      "left": 34,
+      "right": 68,
+      "coefficient": "1/34"
+    },
+    {
+      "left": 35,
+      "right": 70,
+      "coefficient": "1/35"
+    },
+    {
+      "left": 38,
+      "right": 76,
+      "coefficient": "1/38"
+    },
+    {
+      "left": 39,
+      "right": 78,
+      "coefficient": "1/39"
+    },
+    {
+      "left": 42,
+      "right": 84,
+      "coefficient": "-1/42"
+    },
+    {
+      "left": 51,
+      "right": 102,
+      "coefficient": "1/51"
+    },
+    {
+      "left": 55,
+      "right": 110,
+      "coefficient": "1/55"
+    },
+    {
+      "left": 57,
+      "right": 114,
+      "coefficient": "1/57"
+    },
+    {
+      "left": 65,
+      "right": 130,
+      "coefficient": "1/65"
+    },
+    {
+      "left": 66,
+      "right": 132,
+      "coefficient": "-1/66"
+    },
+    {
+      "left": 70,
+      "right": 140,
+      "coefficient": "-1/70"
+    },
+    {
+      "left": 77,
+      "right": 154,
+      "coefficient": "1/77"
+    },
+    {
+      "left": 78,
+      "right": 156,
+      "coefficient": "-1/78"
+    },
+    {
+      "left": 85,
+      "right": 170,
+      "coefficient": "1/85"
+    },
+    {
+      "left": 91,
+      "right": 182,
+      "coefficient": "1/91"
+    },
+    {
+      "left": 95,
+      "right": 190,
+      "coefficient": "1/95"
+    },
+    {
+      "left": 102,
+      "right": 204,
+      "coefficient": "-1/102"
+    },
+    {
+      "left": 105,
+      "right": 210,
+      "coefficient": "-1/105"
+    },
+    {
+      "left": 110,
+      "right": 220,
+      "coefficient": "-1/110"
+    },
+    {
+      "left": 114,
+      "right": 228,
+      "coefficient": "-1/114"
+    },
+    {
+      "left": 119,
+      "right": 238,
+      "coefficient": "1/119"
+    },
+    {
+      "left": 130,
+      "right": 260,
+      "coefficient": "-1/130"
+    },
+    {
+      "left": 133,
+      "right": 266,
+      "coefficient": "1/133"
+    },
+    {
+      "left": 143,
+      "right": 286,
+      "coefficient": "1/143"
+    },
+    {
+      "left": 154,
+      "right": 308,
+      "coefficient": "-1/154"
+    },
+    {
+      "left": 165,
+      "right": 330,
+      "coefficient": "-1/165"
+    },
+    {
+      "left": 170,
+      "right": 340,
+      "coefficient": "-1/170"
+    },
+    {
+      "left": 182,
+      "right": 364,
+      "coefficient": "-1/182"
+    },
+    {
+      "left": 187,
+      "right": 374,
+      "coefficient": "1/187"
+    },
+    {
+      "left": 190,
+      "right": 380,
+      "coefficient": "-1/190"
+    },
+    {
+      "left": 195,
+      "right": 390,
+      "coefficient": "-1/195"
+    },
+    {
+      "left": 209,
+      "right": 418,
+      "coefficient": "1/209"
+    },
+    {
+      "left": 210,
+      "right": 420,
+      "coefficient": "1/210"
+    },
+    {
+      "left": 221,
+      "right": 442,
+      "coefficient": "1/221"
+    },
+    {
+      "left": 231,
+      "right": 462,
+      "coefficient": "-1/231"
+    },
+    {
+      "left": 238,
+      "right": 476,
+      "coefficient": "-1/238"
+    },
+    {
+      "left": 247,
+      "right": 494,
+      "coefficient": "1/247"
+    },
+    {
+      "left": 255,
+      "right": 510,
+      "coefficient": "-1/255"
+    },
+    {
+      "left": 266,
+      "right": 532,
+      "coefficient": "-1/266"
+    },
+    {
+      "left": 273,
+      "right": 546,
+      "coefficient": "-1/273"
+    },
+    {
+      "left": 285,
+      "right": 570,
+      "coefficient": "-1/285"
+    },
+    {
+      "left": 286,
+      "right": 572,
+      "coefficient": "-1/286"
+    },
+    {
+      "left": 323,
+      "right": 646,
+      "coefficient": "1/323"
+    },
+    {
+      "left": 330,
+      "right": 660,
+      "coefficient": "1/330"
+    },
+    {
+      "left": 357,
+      "right": 714,
+      "coefficient": "-1/357"
+    },
+    {
+      "left": 374,
+      "right": 748,
+      "coefficient": "-1/374"
+    },
+    {
+      "left": 385,
+      "right": 770,
+      "coefficient": "-1/385"
+    },
+    {
+      "left": 390,
+      "right": 780,
+      "coefficient": "1/390"
+    },
+    {
+      "left": 399,
+      "right": 798,
+      "coefficient": "-1/399"
+    },
+    {
+      "left": 418,
+      "right": 836,
+      "coefficient": "-1/418"
+    },
+    {
+      "left": 429,
+      "right": 858,
+      "coefficient": "-1/429"
+    },
+    {
+      "left": 442,
+      "right": 884,
+      "coefficient": "-1/442"
+    },
+    {
+      "left": 455,
+      "right": 910,
+      "coefficient": "-1/455"
+    },
+    {
+      "left": 462,
+      "right": 924,
+      "coefficient": "1/462"
+    },
+    {
+      "left": 494,
+      "right": 988,
+      "coefficient": "-1/494"
+    },
+    {
+      "left": 510,
+      "right": 1020,
+      "coefficient": "1/510"
+    },
+    {
+      "left": 546,
+      "right": 1092,
+      "coefficient": "1/546"
+    },
+    {
+      "left": 561,
+      "right": 1122,
+      "coefficient": "-1/561"
+    },
+    {
+      "left": 570,
+      "right": 1140,
+      "coefficient": "1/570"
+    },
+    {
+      "left": 595,
+      "right": 1190,
+      "coefficient": "-1/595"
+    },
+    {
+      "left": 627,
+      "right": 1254,
+      "coefficient": "-1/627"
+    },
+    {
+      "left": 646,
+      "right": 1292,
+      "coefficient": "-1/646"
+    },
+    {
+      "left": 663,
+      "right": 1326,
+      "coefficient": "-1/663"
+    },
+    {
+      "left": 665,
+      "right": 1330,
+      "coefficient": "-1/665"
+    },
+    {
+      "left": 714,
+      "right": 1428,
+      "coefficient": "1/714"
+    },
+    {
+      "left": 715,
+      "right": 1430,
+      "coefficient": "-1/715"
+    },
+    {
+      "left": 741,
+      "right": 1482,
+      "coefficient": "-1/741"
+    },
+    {
+      "left": 770,
+      "right": 1540,
+      "coefficient": "1/770"
+    },
+    {
+      "left": 798,
+      "right": 1596,
+      "coefficient": "1/798"
+    },
+    {
+      "left": 858,
+      "right": 1716,
+      "coefficient": "1/858"
+    },
+    {
+      "left": 910,
+      "right": 1820,
+      "coefficient": "1/910"
+    },
+    {
+      "left": 935,
+      "right": 1870,
+      "coefficient": "-1/935"
+    },
+    {
+      "left": 969,
+      "right": 1938,
+      "coefficient": "-1/969"
+    },
+    {
+      "left": 1001,
+      "right": 2002,
+      "coefficient": "-1/1001"
+    },
+    {
+      "left": 1045,
+      "right": 2090,
+      "coefficient": "-1/1045"
+    },
+    {
+      "left": 1105,
+      "right": 2210,
+      "coefficient": "-1/1105"
+    },
+    {
+      "left": 1122,
+      "right": 2244,
+      "coefficient": "1/1122"
+    },
+    {
+      "left": 1155,
+      "right": 2310,
+      "coefficient": "1/1155"
+    },
+    {
+      "left": 1190,
+      "right": 2380,
+      "coefficient": "1/1190"
+    },
+    {
+      "left": 1235,
+      "right": 2470,
+      "coefficient": "-1/1235"
+    },
+    {
+      "left": 1254,
+      "right": 2508,
+      "coefficient": "1/1254"
+    },
+    {
+      "left": 1309,
+      "right": 2618,
+      "coefficient": "-1/1309"
+    },
+    {
+      "left": 1326,
+      "right": 2652,
+      "coefficient": "1/1326"
+    },
+    {
+      "left": 1330,
+      "right": 2660,
+      "coefficient": "1/1330"
+    },
+    {
+      "left": 1365,
+      "right": 2730,
+      "coefficient": "1/1365"
+    },
+    {
+      "left": 1430,
+      "right": 2860,
+      "coefficient": "1/1430"
+    },
+    {
+      "left": 1463,
+      "right": 2926,
+      "coefficient": "-1/1463"
+    },
+    {
+      "left": 1482,
+      "right": 2964,
+      "coefficient": "1/1482"
+    },
+    {
+      "left": 1547,
+      "right": 3094,
+      "coefficient": "-1/1547"
+    },
+    {
+      "left": 1615,
+      "right": 3230,
+      "coefficient": "-1/1615"
+    },
+    {
+      "left": 1729,
+      "right": 3458,
+      "coefficient": "-1/1729"
+    },
+    {
+      "left": 1785,
+      "right": 3570,
+      "coefficient": "1/1785"
+    },
+    {
+      "left": 1870,
+      "right": 3740,
+      "coefficient": "1/1870"
+    },
+    {
+      "left": 1938,
+      "right": 3876,
+      "coefficient": "1/1938"
+    },
+    {
+      "left": 1995,
+      "right": 3990,
+      "coefficient": "1/1995"
+    },
+    {
+      "left": 2002,
+      "right": 4004,
+      "coefficient": "1/2002"
+    },
+    {
+      "left": 2090,
+      "right": 4180,
+      "coefficient": "1/2090"
+    },
+    {
+      "left": 2145,
+      "right": 4290,
+      "coefficient": "1/2145"
+    },
+    {
+      "left": 2210,
+      "right": 4420,
+      "coefficient": "1/2210"
+    },
+    {
+      "left": 2261,
+      "right": 4522,
+      "coefficient": "-1/2261"
+    },
+    {
+      "left": 2310,
+      "right": 4620,
+      "coefficient": "-1/2310"
+    },
+    {
+      "left": 2431,
+      "right": 4862,
+      "coefficient": "-1/2431"
+    },
+    {
+      "left": 2470,
+      "right": 4940,
+      "coefficient": "1/2470"
+    },
+    {
+      "left": 2618,
+      "right": 5236,
+      "coefficient": "1/2618"
+    },
+    {
+      "left": 2717,
+      "right": 5434,
+      "coefficient": "-1/2717"
+    },
+    {
+      "left": 2730,
+      "right": 5460,
+      "coefficient": "-1/2730"
+    },
+    {
+      "left": 2805,
+      "right": 5610,
+      "coefficient": "1/2805"
+    },
+    {
+      "left": 2926,
+      "right": 5852,
+      "coefficient": "1/2926"
+    },
+    {
+      "left": 3003,
+      "right": 6006,
+      "coefficient": "1/3003"
+    },
+    {
+      "left": 3094,
+      "right": 6188,
+      "coefficient": "1/3094"
+    },
+    {
+      "left": 3135,
+      "right": 6270,
+      "coefficient": "1/3135"
+    },
+    {
+      "left": 3230,
+      "right": 6460,
+      "coefficient": "1/3230"
+    },
+    {
+      "left": 3315,
+      "right": 6630,
+      "coefficient": "1/3315"
+    },
+    {
+      "left": 3458,
+      "right": 6916,
+      "coefficient": "1/3458"
+    },
+    {
+      "left": 3553,
+      "right": 7106,
+      "coefficient": "-1/3553"
+    },
+    {
+      "left": 3570,
+      "right": 7140,
+      "coefficient": "-1/3570"
+    },
+    {
+      "left": 3705,
+      "right": 7410,
+      "coefficient": "1/3705"
+    },
+    {
+      "left": 3927,
+      "right": 7854,
+      "coefficient": "1/3927"
+    },
+    {
+      "left": 3990,
+      "right": 7980,
+      "coefficient": "-1/3990"
+    },
+    {
+      "left": 4199,
+      "right": 8398,
+      "coefficient": "-1/4199"
+    },
+    {
+      "left": 4290,
+      "right": 8580,
+      "coefficient": "-1/4290"
+    },
+    {
+      "left": 4389,
+      "right": 8778,
+      "coefficient": "1/4389"
+    },
+    {
+      "left": 4522,
+      "right": 9044,
+      "coefficient": "1/4522"
+    },
+    {
+      "left": 4641,
+      "right": 9282,
+      "coefficient": "1/4641"
+    },
+    {
+      "left": 4845,
+      "right": 9690,
+      "coefficient": "1/4845"
+    },
+    {
+      "left": 4862,
+      "right": 9724,
+      "coefficient": "1/4862"
+    },
+    {
+      "left": 5005,
+      "right": 10010,
+      "coefficient": "1/5005"
+    },
+    {
+      "left": 5187,
+      "right": 10374,
+      "coefficient": "1/5187"
+    },
+    {
+      "left": 5434,
+      "right": 10868,
+      "coefficient": "1/5434"
+    },
+    {
+      "left": 5610,
+      "right": 11220,
+      "coefficient": "-1/5610"
+    },
+    {
+      "left": 6006,
+      "right": 12012,
+      "coefficient": "-1/6006"
+    },
+    {
+      "left": 6270,
+      "right": 12540,
+      "coefficient": "-1/6270"
+    },
+    {
+      "left": 6545,
+      "right": 13090,
+      "coefficient": "1/6545"
+    },
+    {
+      "left": 6630,
+      "right": 13260,
+      "coefficient": "-1/6630"
+    },
+    {
+      "left": 6783,
+      "right": 13566,
+      "coefficient": "1/6783"
+    },
+    {
+      "left": 7106,
+      "right": 14212,
+      "coefficient": "1/7106"
+    },
+    {
+      "left": 7293,
+      "right": 14586,
+      "coefficient": "1/7293"
+    },
+    {
+      "left": 7315,
+      "right": 14630,
+      "coefficient": "1/7315"
+    },
+    {
+      "left": 7410,
+      "right": 14820,
+      "coefficient": "-1/7410"
+    },
+    {
+      "left": 7735,
+      "right": 15470,
+      "coefficient": "1/7735"
+    },
+    {
+      "left": 7854,
+      "right": 15708,
+      "coefficient": "-1/7854"
+    },
+    {
+      "left": 8151,
+      "right": 16302,
+      "coefficient": "1/8151"
+    },
+    {
+      "left": 8398,
+      "right": 16796,
+      "coefficient": "1/8398"
+    },
+    {
+      "left": 8645,
+      "right": 17290,
+      "coefficient": "1/8645"
+    },
+    {
+      "left": 8778,
+      "right": 17556,
+      "coefficient": "-1/8778"
+    },
+    {
+      "left": 9282,
+      "right": 18564,
+      "coefficient": "-1/9282"
+    },
+    {
+      "left": 9690,
+      "right": 19380,
+      "coefficient": "-1/9690"
+    },
+    {
+      "left": 10010,
+      "right": 20020,
+      "coefficient": "-1/10010"
+    },
+    {
+      "left": 10374,
+      "right": 20748,
+      "coefficient": "-1/10374"
+    },
+    {
+      "left": 10659,
+      "right": 21318,
+      "coefficient": "1/10659"
+    },
+    {
+      "left": 11305,
+      "right": 22610,
+      "coefficient": "1/11305"
+    },
+    {
+      "left": 12155,
+      "right": 24310,
+      "coefficient": "1/12155"
+    },
+    {
+      "left": 12597,
+      "right": 25194,
+      "coefficient": "1/12597"
+    },
+    {
+      "left": 13090,
+      "right": 26180,
+      "coefficient": "-1/13090"
+    },
+    {
+      "left": 13566,
+      "right": 27132,
+      "coefficient": "-1/13566"
+    },
+    {
+      "left": 13585,
+      "right": 27170,
+      "coefficient": "1/13585"
+    },
+    {
+      "left": 14586,
+      "right": 29172,
+      "coefficient": "-1/14586"
+    },
+    {
+      "left": 14630,
+      "right": 29260,
+      "coefficient": "-1/14630"
+    },
+    {
+      "left": 15015,
+      "right": 30030,
+      "coefficient": "-1/15015"
+    },
+    {
+      "left": 15470,
+      "right": 30940,
+      "coefficient": "-1/15470"
+    },
+    {
+      "left": 16302,
+      "right": 32604,
+      "coefficient": "-1/16302"
+    },
+    {
+      "left": 17017,
+      "right": 34034,
+      "coefficient": "1/17017"
+    },
+    {
+      "left": 17290,
+      "right": 34580,
+      "coefficient": "-1/17290"
+    },
+    {
+      "left": 17765,
+      "right": 35530,
+      "coefficient": "1/17765"
+    },
+    {
+      "left": 19019,
+      "right": 38038,
+      "coefficient": "1/19019"
+    },
+    {
+      "left": 19635,
+      "right": 39270,
+      "coefficient": "-1/19635"
+    },
+    {
+      "left": 20995,
+      "right": 41990,
+      "coefficient": "1/20995"
+    },
+    {
+      "left": 21318,
+      "right": 42636,
+      "coefficient": "-1/21318"
+    },
+    {
+      "left": 21945,
+      "right": 43890,
+      "coefficient": "-1/21945"
+    },
+    {
+      "left": 22610,
+      "right": 45220,
+      "coefficient": "-1/22610"
+    },
+    {
+      "left": 23205,
+      "right": 46410,
+      "coefficient": "-1/23205"
+    },
+    {
+      "left": 24310,
+      "right": 48620,
+      "coefficient": "-1/24310"
+    },
+    {
+      "left": 24871,
+      "right": 49742,
+      "coefficient": "1/24871"
+    },
+    {
+      "left": 25194,
+      "right": 50388,
+      "coefficient": "-1/25194"
+    },
+    {
+      "left": 25935,
+      "right": 51870,
+      "coefficient": "-1/25935"
+    },
+    {
+      "left": 27170,
+      "right": 54340,
+      "coefficient": "-1/27170"
+    },
+    {
+      "left": 29393,
+      "right": 58786,
+      "coefficient": "1/29393"
+    },
+    {
+      "left": 30030,
+      "right": 60060,
+      "coefficient": "1/30030"
+    },
+    {
+      "left": 33915,
+      "right": 67830,
+      "coefficient": "-1/33915"
+    },
+    {
+      "left": 34034,
+      "right": 68068,
+      "coefficient": "-1/34034"
+    },
+    {
+      "left": 35530,
+      "right": 71060,
+      "coefficient": "-1/35530"
+    },
+    {
+      "left": 36465,
+      "right": 72930,
+      "coefficient": "-1/36465"
+    },
+    {
+      "left": 38038,
+      "right": 76076,
+      "coefficient": "-1/38038"
+    },
+    {
+      "left": 39270,
+      "right": 78540,
+      "coefficient": "1/39270"
+    },
+    {
+      "left": 40755,
+      "right": 81510,
+      "coefficient": "-1/40755"
+    },
+    {
+      "left": 41990,
+      "right": 83980,
+      "coefficient": "-1/41990"
+    },
+    {
+      "left": 43890,
+      "right": 87780,
+      "coefficient": "1/43890"
+    },
+    {
+      "left": 46189,
+      "right": 92378,
+      "coefficient": "1/46189"
+    },
+    {
+      "left": 46410,
+      "right": 92820,
+      "coefficient": "1/46410"
+    },
+    {
+      "left": 49742,
+      "right": 99484,
+      "coefficient": "-1/49742"
+    },
+    {
+      "left": 51051,
+      "right": 102102,
+      "coefficient": "-1/51051"
+    },
+    {
+      "left": 51870,
+      "right": 103740,
+      "coefficient": "1/51870"
+    },
+    {
+      "left": 53295,
+      "right": 106590,
+      "coefficient": "-1/53295"
+    },
+    {
+      "left": 57057,
+      "right": 114114,
+      "coefficient": "-1/57057"
+    },
+    {
+      "left": 58786,
+      "right": 117572,
+      "coefficient": "-1/58786"
+    },
+    {
+      "left": 62985,
+      "right": 125970,
+      "coefficient": "-1/62985"
+    },
+    {
+      "left": 67830,
+      "right": 135660,
+      "coefficient": "1/67830"
+    },
+    {
+      "left": 72930,
+      "right": 145860,
+      "coefficient": "1/72930"
+    },
+    {
+      "left": 74613,
+      "right": 149226,
+      "coefficient": "-1/74613"
+    },
+    {
+      "left": 81510,
+      "right": 163020,
+      "coefficient": "1/81510"
+    },
+    {
+      "left": 85085,
+      "right": 170170,
+      "coefficient": "-1/85085"
+    },
+    {
+      "left": 88179,
+      "right": 176358,
+      "coefficient": "-1/88179"
+    },
+    {
+      "left": 92378,
+      "right": 184756,
+      "coefficient": "-1/92378"
+    },
+    {
+      "left": 95095,
+      "right": 190190,
+      "coefficient": "-1/95095"
+    },
+    {
+      "left": 102102,
+      "right": 204204,
+      "coefficient": "1/102102"
+    },
+    {
+      "left": 106590,
+      "right": 213180,
+      "coefficient": "1/106590"
+    },
+    {
+      "left": 114114,
+      "right": 228228,
+      "coefficient": "1/114114"
+    },
+    {
+      "left": 124355,
+      "right": 248710,
+      "coefficient": "-1/124355"
+    },
+    {
+      "left": 125970,
+      "right": 251940,
+      "coefficient": "1/125970"
+    },
+    {
+      "left": 138567,
+      "right": 277134,
+      "coefficient": "-1/138567"
+    },
+    {
+      "left": 146965,
+      "right": 293930,
+      "coefficient": "-1/146965"
+    },
+    {
+      "left": 149226,
+      "right": 298452,
+      "coefficient": "1/149226"
+    },
+    {
+      "left": 170170,
+      "right": 340340,
+      "coefficient": "1/170170"
+    },
+    {
+      "left": 176358,
+      "right": 352716,
+      "coefficient": "1/176358"
+    },
+    {
+      "left": 190190,
+      "right": 380380,
+      "coefficient": "1/190190"
+    },
+    {
+      "left": 230945,
+      "right": 461890,
+      "coefficient": "-1/230945"
+    },
+    {
+      "left": 248710,
+      "right": 497420,
+      "coefficient": "1/248710"
+    },
+    {
+      "left": 255255,
+      "right": 510510,
+      "coefficient": "1/255255"
+    },
+    {
+      "left": 277134,
+      "right": 554268,
+      "coefficient": "1/277134"
+    },
+    {
+      "left": 285285,
+      "right": 570570,
+      "coefficient": "1/285285"
+    },
+    {
+      "left": 293930,
+      "right": 587860,
+      "coefficient": "1/293930"
+    },
+    {
+      "left": 323323,
+      "right": 646646,
+      "coefficient": "-1/323323"
+    },
+    {
+      "left": 373065,
+      "right": 746130,
+      "coefficient": "1/373065"
+    },
+    {
+      "left": 440895,
+      "right": 881790,
+      "coefficient": "1/440895"
+    },
+    {
+      "left": 461890,
+      "right": 923780,
+      "coefficient": "1/461890"
+    },
+    {
+      "left": 510510,
+      "right": 1021020,
+      "coefficient": "-1/510510"
+    },
+    {
+      "left": 570570,
+      "right": 1141140,
+      "coefficient": "-1/570570"
+    },
+    {
+      "left": 646646,
+      "right": 1293292,
+      "coefficient": "1/646646"
+    },
+    {
+      "left": 692835,
+      "right": 1385670,
+      "coefficient": "1/692835"
+    },
+    {
+      "left": 746130,
+      "right": 1492260,
+      "coefficient": "-1/746130"
+    },
+    {
+      "left": 881790,
+      "right": 1763580,
+      "coefficient": "-1/881790"
+    },
+    {
+      "left": 969969,
+      "right": 1939938,
+      "coefficient": "1/969969"
+    },
+    {
+      "left": 1385670,
+      "right": 2771340,
+      "coefficient": "-1/1385670"
+    },
+    {
+      "left": 1616615,
+      "right": 3233230,
+      "coefficient": "1/1616615"
+    },
+    {
+      "left": 1939938,
+      "right": 3879876,
+      "coefficient": "-1/1939938"
+    },
+    {
+      "left": 3233230,
+      "right": 6466460,
+      "coefficient": "-1/3233230"
+    },
+    {
+      "left": 4849845,
+      "right": 9699690,
+      "coefficient": "-1/4849845"
+    },
+    {
+      "left": 9699690,
+      "right": 19399380,
+      "coefficient": "1/9699690"
+    }
+  ],
+  "f_B_h0_norm_squared_exact": "19189712/4849845",
+  "g_descriptor": {
+    "domain": "0<y<1, zero outside; removable value at0",
+    "formula": "g(y)=sum_u tau_u sin(2*pi*u*y)/(pi*y)",
+    "tau_common_denominator": 9699690,
+    "tau_scaled_integer_terms": [
+      {
+        "u": 1,
+        "numerator": -9699690
+      },
+      {
+        "u": 2,
+        "numerator": 14549535
+      },
+      {
+        "u": 3,
+        "numerator": 3233230
+      },
+      {
+        "u": 4,
+        "numerator": -4849845
+      },
+      {
+        "u": 5,
+        "numerator": 1939938
+      },
+      {
+        "u": 6,
+        "numerator": -4849845
+      },
+      {
+        "u": 7,
+        "numerator": 1385670
+      },
+      {
+        "u": 10,
+        "numerator": -2909907
+      },
+      {
+        "u": 11,
+        "numerator": 881790
+      },
+      {
+        "u": 12,
+        "numerator": 1616615
+      },
+      {
+        "u": 13,
+        "numerator": 746130
+      },
+      {
+        "u": 14,
+        "numerator": -2078505
+      },
+      {
+        "u": 15,
+        "numerator": -646646
+      },
+      {
+        "u": 17,
+        "numerator": 570570
+      },
+      {
+        "u": 19,
+        "numerator": 510510
+      },
+      {
+        "u": 20,
+        "numerator": 969969
+      },
+      {
+        "u": 21,
+        "numerator": -461890
+      },
+      {
+        "u": 22,
+        "numerator": -1322685
+      },
+      {
+        "u": 26,
+        "numerator": -1119195
+      },
+      {
+        "u": 28,
+        "numerator": 692835
+      },
+      {
+        "u": 30,
+        "numerator": 969969
+      },
+      {
+        "u": 33,
+        "numerator": -293930
+      },
+      {
+        "u": 34,
+        "numerator": -855855
+      },
+      {
+        "u": 35,
+        "numerator": -277134
+      },
+      {
+        "u": 38,
+        "numerator": -765765
+      },
+      {
+        "u": 39,
+        "numerator": -248710
+      },
+      {
+        "u": 42,
+        "numerator": 692835
+      },
+      {
+        "u": 44,
+        "numerator": 440895
+      },
+      {
+        "u": 51,
+        "numerator": -190190
+      },
+      {
+        "u": 52,
+        "numerator": 373065
+      },
+      {
+        "u": 55,
+        "numerator": -176358
+      },
+      {
+        "u": 57,
+        "numerator": -170170
+      },
+      {
+        "u": 60,
+        "numerator": -323323
+      },
+      {
+        "u": 65,
+        "numerator": -149226
+      },
+      {
+        "u": 66,
+        "numerator": 440895
+      },
+      {
+        "u": 68,
+        "numerator": 285285
+      },
+      {
+        "u": 70,
+        "numerator": 415701
+      },
+      {
+        "u": 76,
+        "numerator": 255255
+      },
+      {
+        "u": 77,
+        "numerator": -125970
+      },
+      {
+        "u": 78,
+        "numerator": 373065
+      },
+      {
+        "u": 84,
+        "numerator": -230945
+      },
+      {
+        "u": 85,
+        "numerator": -114114
+      },
+      {
+        "u": 91,
+        "numerator": -106590
+      },
+      {
+        "u": 95,
+        "numerator": -102102
+      },
+      {
+        "u": 102,
+        "numerator": 285285
+      },
+      {
+        "u": 105,
+        "numerator": 92378
+      },
+      {
+        "u": 110,
+        "numerator": 264537
+      },
+      {
+        "u": 114,
+        "numerator": 255255
+      },
+      {
+        "u": 119,
+        "numerator": -81510
+      },
+      {
+        "u": 130,
+        "numerator": 223839
+      },
+      {
+        "u": 132,
+        "numerator": -146965
+      },
+      {
+        "u": 133,
+        "numerator": -72930
+      },
+      {
+        "u": 140,
+        "numerator": -138567
+      },
+      {
+        "u": 143,
+        "numerator": -67830
+      },
+      {
+        "u": 154,
+        "numerator": 188955
+      },
+      {
+        "u": 156,
+        "numerator": -124355
+      },
+      {
+        "u": 165,
+        "numerator": 58786
+      },
+      {
+        "u": 170,
+        "numerator": 171171
+      },
+      {
+        "u": 182,
+        "numerator": 159885
+      },
+      {
+        "u": 187,
+        "numerator": -51870
+      },
+      {
+        "u": 190,
+        "numerator": 153153
+      },
+      {
+        "u": 195,
+        "numerator": 49742
+      },
+      {
+        "u": 204,
+        "numerator": -95095
+      },
+      {
+        "u": 209,
+        "numerator": -46410
+      },
+      {
+        "u": 210,
+        "numerator": -138567
+      },
+      {
+        "u": 220,
+        "numerator": -88179
+      },
+      {
+        "u": 221,
+        "numerator": -43890
+      },
+      {
+        "u": 228,
+        "numerator": -85085
+      },
+      {
+        "u": 231,
+        "numerator": 41990
+      },
+      {
+        "u": 238,
+        "numerator": 122265
+      },
+      {
+        "u": 247,
+        "numerator": -39270
+      },
+      {
+        "u": 255,
+        "numerator": 38038
+      },
+      {
+        "u": 260,
+        "numerator": -74613
+      },
+      {
+        "u": 266,
+        "numerator": 109395
+      },
+      {
+        "u": 273,
+        "numerator": 35530
+      },
+      {
+        "u": 285,
+        "numerator": 34034
+      },
+      {
+        "u": 286,
+        "numerator": 101745
+      },
+      {
+        "u": 308,
+        "numerator": -62985
+      },
+      {
+        "u": 323,
+        "numerator": -30030
+      },
+      {
+        "u": 330,
+        "numerator": -88179
+      },
+      {
+        "u": 340,
+        "numerator": -57057
+      },
+      {
+        "u": 357,
+        "numerator": 27170
+      },
+      {
+        "u": 364,
+        "numerator": -53295
+      },
+      {
+        "u": 374,
+        "numerator": 77805
+      },
+      {
+        "u": 380,
+        "numerator": -51051
+      },
+      {
+        "u": 385,
+        "numerator": 25194
+      },
+      {
+        "u": 390,
+        "numerator": -74613
+      },
+      {
+        "u": 399,
+        "numerator": 24310
+      },
+      {
+        "u": 418,
+        "numerator": 69615
+      },
+      {
+        "u": 420,
+        "numerator": 46189
+      },
+      {
+        "u": 429,
+        "numerator": 22610
+      },
+      {
+        "u": 442,
+        "numerator": 65835
+      },
+      {
+        "u": 455,
+        "numerator": 21318
+      },
+      {
+        "u": 462,
+        "numerator": -62985
+      },
+      {
+        "u": 476,
+        "numerator": -40755
+      },
+      {
+        "u": 494,
+        "numerator": 58905
+      },
+      {
+        "u": 510,
+        "numerator": -57057
+      },
+      {
+        "u": 532,
+        "numerator": -36465
+      },
+      {
+        "u": 546,
+        "numerator": -53295
+      },
+      {
+        "u": 561,
+        "numerator": 17290
+      },
+      {
+        "u": 570,
+        "numerator": -51051
+      },
+      {
+        "u": 572,
+        "numerator": -33915
+      },
+      {
+        "u": 595,
+        "numerator": 16302
+      },
+      {
+        "u": 627,
+        "numerator": 15470
+      },
+      {
+        "u": 646,
+        "numerator": 45045
+      },
+      {
+        "u": 660,
+        "numerator": 29393
+      },
+      {
+        "u": 663,
+        "numerator": 14630
+      },
+      {
+        "u": 665,
+        "numerator": 14586
+      },
+      {
+        "u": 714,
+        "numerator": -40755
+      },
+      {
+        "u": 715,
+        "numerator": 13566
+      },
+      {
+        "u": 741,
+        "numerator": 13090
+      },
+      {
+        "u": 748,
+        "numerator": -25935
+      },
+      {
+        "u": 770,
+        "numerator": -37791
+      },
+      {
+        "u": 780,
+        "numerator": 24871
+      },
+      {
+        "u": 798,
+        "numerator": -36465
+      },
+      {
+        "u": 836,
+        "numerator": -23205
+      },
+      {
+        "u": 858,
+        "numerator": -33915
+      },
+      {
+        "u": 884,
+        "numerator": -21945
+      },
+      {
+        "u": 910,
+        "numerator": -31977
+      },
+      {
+        "u": 924,
+        "numerator": 20995
+      },
+      {
+        "u": 935,
+        "numerator": 10374
+      },
+      {
+        "u": 969,
+        "numerator": 10010
+      },
+      {
+        "u": 988,
+        "numerator": -19635
+      },
+      {
+        "u": 1001,
+        "numerator": 9690
+      },
+      {
+        "u": 1020,
+        "numerator": 19019
+      },
+      {
+        "u": 1045,
+        "numerator": 9282
+      },
+      {
+        "u": 1092,
+        "numerator": 17765
+      },
+      {
+        "u": 1105,
+        "numerator": 8778
+      },
+      {
+        "u": 1122,
+        "numerator": -25935
+      },
+      {
+        "u": 1140,
+        "numerator": 17017
+      },
+      {
+        "u": 1155,
+        "numerator": -8398
+      },
+      {
+        "u": 1190,
+        "numerator": -24453
+      },
+      {
+        "u": 1235,
+        "numerator": 7854
+      },
+      {
+        "u": 1254,
+        "numerator": -23205
+      },
+      {
+        "u": 1292,
+        "numerator": -15015
+      },
+      {
+        "u": 1309,
+        "numerator": 7410
+      },
+      {
+        "u": 1326,
+        "numerator": -21945
+      },
+      {
+        "u": 1330,
+        "numerator": -21879
+      },
+      {
+        "u": 1365,
+        "numerator": -7106
+      },
+      {
+        "u": 1428,
+        "numerator": 13585
+      },
+      {
+        "u": 1430,
+        "numerator": -20349
+      },
+      {
+        "u": 1463,
+        "numerator": 6630
+      },
+      {
+        "u": 1482,
+        "numerator": -19635
+      },
+      {
+        "u": 1540,
+        "numerator": 12597
+      },
+      {
+        "u": 1547,
+        "numerator": 6270
+      },
+      {
+        "u": 1596,
+        "numerator": 12155
+      },
+      {
+        "u": 1615,
+        "numerator": 6006
+      },
+      {
+        "u": 1716,
+        "numerator": 11305
+      },
+      {
+        "u": 1729,
+        "numerator": 5610
+      },
+      {
+        "u": 1785,
+        "numerator": -5434
+      },
+      {
+        "u": 1820,
+        "numerator": 10659
+      },
+      {
+        "u": 1870,
+        "numerator": -15561
+      },
+      {
+        "u": 1938,
+        "numerator": -15015
+      },
+      {
+        "u": 1995,
+        "numerator": -4862
+      },
+      {
+        "u": 2002,
+        "numerator": -14535
+      },
+      {
+        "u": 2090,
+        "numerator": -13923
+      },
+      {
+        "u": 2145,
+        "numerator": -4522
+      },
+      {
+        "u": 2210,
+        "numerator": -13167
+      },
+      {
+        "u": 2244,
+        "numerator": 8645
+      },
+      {
+        "u": 2261,
+        "numerator": 4290
+      },
+      {
+        "u": 2310,
+        "numerator": 12597
+      },
+      {
+        "u": 2380,
+        "numerator": 8151
+      },
+      {
+        "u": 2431,
+        "numerator": 3990
+      },
+      {
+        "u": 2470,
+        "numerator": -11781
+      },
+      {
+        "u": 2508,
+        "numerator": 7735
+      },
+      {
+        "u": 2618,
+        "numerator": -11115
+      },
+      {
+        "u": 2652,
+        "numerator": 7315
+      },
+      {
+        "u": 2660,
+        "numerator": 7293
+      },
+      {
+        "u": 2717,
+        "numerator": 3570
+      },
+      {
+        "u": 2730,
+        "numerator": 10659
+      },
+      {
+        "u": 2805,
+        "numerator": -3458
+      },
+      {
+        "u": 2860,
+        "numerator": 6783
+      },
+      {
+        "u": 2926,
+        "numerator": -9945
+      },
+      {
+        "u": 2964,
+        "numerator": 6545
+      },
+      {
+        "u": 3003,
+        "numerator": -3230
+      },
+      {
+        "u": 3094,
+        "numerator": -9405
+      },
+      {
+        "u": 3135,
+        "numerator": -3094
+      },
+      {
+        "u": 3230,
+        "numerator": -9009
+      },
+      {
+        "u": 3315,
+        "numerator": -2926
+      },
+      {
+        "u": 3458,
+        "numerator": -8415
+      },
+      {
+        "u": 3553,
+        "numerator": 2730
+      },
+      {
+        "u": 3570,
+        "numerator": 8151
+      },
+      {
+        "u": 3705,
+        "numerator": -2618
+      },
+      {
+        "u": 3740,
+        "numerator": 5187
+      },
+      {
+        "u": 3876,
+        "numerator": 5005
+      },
+      {
+        "u": 3927,
+        "numerator": -2470
+      },
+      {
+        "u": 3990,
+        "numerator": 7293
+      },
+      {
+        "u": 4004,
+        "numerator": 4845
+      },
+      {
+        "u": 4180,
+        "numerator": 4641
+      },
+      {
+        "u": 4199,
+        "numerator": 2310
+      },
+      {
+        "u": 4290,
+        "numerator": 6783
+      },
+      {
+        "u": 4389,
+        "numerator": -2210
+      },
+      {
+        "u": 4420,
+        "numerator": 4389
+      },
+      {
+        "u": 4522,
+        "numerator": -6435
+      },
+      {
+        "u": 4620,
+        "numerator": -4199
+      },
+      {
+        "u": 4641,
+        "numerator": -2090
+      },
+      {
+        "u": 4845,
+        "numerator": -2002
+      },
+      {
+        "u": 4862,
+        "numerator": -5985
+      },
+      {
+        "u": 4940,
+        "numerator": 3927
+      },
+      {
+        "u": 5005,
+        "numerator": -1938
+      },
+      {
+        "u": 5187,
+        "numerator": -1870
+      },
+      {
+        "u": 5236,
+        "numerator": 3705
+      },
+      {
+        "u": 5434,
+        "numerator": -5355
+      },
+      {
+        "u": 5460,
+        "numerator": -3553
+      },
+      {
+        "u": 5610,
+        "numerator": 5187
+      },
+      {
+        "u": 5852,
+        "numerator": 3315
+      },
+      {
+        "u": 6006,
+        "numerator": 4845
+      },
+      {
+        "u": 6188,
+        "numerator": 3135
+      },
+      {
+        "u": 6270,
+        "numerator": 4641
+      },
+      {
+        "u": 6460,
+        "numerator": 3003
+      },
+      {
+        "u": 6545,
+        "numerator": -1482
+      },
+      {
+        "u": 6630,
+        "numerator": 4389
+      },
+      {
+        "u": 6783,
+        "numerator": -1430
+      },
+      {
+        "u": 6916,
+        "numerator": 2805
+      },
+      {
+        "u": 7106,
+        "numerator": -4095
+      },
+      {
+        "u": 7140,
+        "numerator": -2717
+      },
+      {
+        "u": 7293,
+        "numerator": -1330
+      },
+      {
+        "u": 7315,
+        "numerator": -1326
+      },
+      {
+        "u": 7410,
+        "numerator": 3927
+      },
+      {
+        "u": 7735,
+        "numerator": -1254
+      },
+      {
+        "u": 7854,
+        "numerator": 3705
+      },
+      {
+        "u": 7980,
+        "numerator": -2431
+      },
+      {
+        "u": 8151,
+        "numerator": -1190
+      },
+      {
+        "u": 8398,
+        "numerator": -3465
+      },
+      {
+        "u": 8580,
+        "numerator": -2261
+      },
+      {
+        "u": 8645,
+        "numerator": -1122
+      },
+      {
+        "u": 8778,
+        "numerator": 3315
+      },
+      {
+        "u": 9044,
+        "numerator": 2145
+      },
+      {
+        "u": 9282,
+        "numerator": 3135
+      },
+      {
+        "u": 9690,
+        "numerator": 3003
+      },
+      {
+        "u": 9724,
+        "numerator": 1995
+      },
+      {
+        "u": 10010,
+        "numerator": 2907
+      },
+      {
+        "u": 10374,
+        "numerator": 2805
+      },
+      {
+        "u": 10659,
+        "numerator": -910
+      },
+      {
+        "u": 10868,
+        "numerator": 1785
+      },
+      {
+        "u": 11220,
+        "numerator": -1729
+      },
+      {
+        "u": 11305,
+        "numerator": -858
+      },
+      {
+        "u": 12012,
+        "numerator": -1615
+      },
+      {
+        "u": 12155,
+        "numerator": -798
+      },
+      {
+        "u": 12540,
+        "numerator": -1547
+      },
+      {
+        "u": 12597,
+        "numerator": -770
+      },
+      {
+        "u": 13090,
+        "numerator": 2223
+      },
+      {
+        "u": 13260,
+        "numerator": -1463
+      },
+      {
+        "u": 13566,
+        "numerator": 2145
+      },
+      {
+        "u": 13585,
+        "numerator": -714
+      },
+      {
+        "u": 14212,
+        "numerator": 1365
+      },
+      {
+        "u": 14586,
+        "numerator": 1995
+      },
+      {
+        "u": 14630,
+        "numerator": 1989
+      },
+      {
+        "u": 14820,
+        "numerator": -1309
+      },
+      {
+        "u": 15015,
+        "numerator": 646
+      },
+      {
+        "u": 15470,
+        "numerator": 1881
+      },
+      {
+        "u": 15708,
+        "numerator": -1235
+      },
+      {
+        "u": 16302,
+        "numerator": 1785
+      },
+      {
+        "u": 16796,
+        "numerator": 1155
+      },
+      {
+        "u": 17017,
+        "numerator": -570
+      },
+      {
+        "u": 17290,
+        "numerator": 1683
+      },
+      {
+        "u": 17556,
+        "numerator": -1105
+      },
+      {
+        "u": 17765,
+        "numerator": -546
+      },
+      {
+        "u": 18564,
+        "numerator": -1045
+      },
+      {
+        "u": 19019,
+        "numerator": -510
+      },
+      {
+        "u": 19380,
+        "numerator": -1001
+      },
+      {
+        "u": 19635,
+        "numerator": 494
+      },
+      {
+        "u": 20020,
+        "numerator": -969
+      },
+      {
+        "u": 20748,
+        "numerator": -935
+      },
+      {
+        "u": 20995,
+        "numerator": -462
+      },
+      {
+        "u": 21318,
+        "numerator": 1365
+      },
+      {
+        "u": 21945,
+        "numerator": 442
+      },
+      {
+        "u": 22610,
+        "numerator": 1287
+      },
+      {
+        "u": 23205,
+        "numerator": 418
+      },
+      {
+        "u": 24310,
+        "numerator": 1197
+      },
+      {
+        "u": 24871,
+        "numerator": -390
+      },
+      {
+        "u": 25194,
+        "numerator": 1155
+      },
+      {
+        "u": 25935,
+        "numerator": 374
+      },
+      {
+        "u": 26180,
+        "numerator": -741
+      },
+      {
+        "u": 27132,
+        "numerator": -715
+      },
+      {
+        "u": 27170,
+        "numerator": 1071
+      },
+      {
+        "u": 29172,
+        "numerator": -665
+      },
+      {
+        "u": 29260,
+        "numerator": -663
+      },
+      {
+        "u": 29393,
+        "numerator": -330
+      },
+      {
+        "u": 30030,
+        "numerator": -969
+      },
+      {
+        "u": 30940,
+        "numerator": -627
+      },
+      {
+        "u": 32604,
+        "numerator": -595
+      },
+      {
+        "u": 33915,
+        "numerator": 286
+      },
+      {
+        "u": 34034,
+        "numerator": 855
+      },
+      {
+        "u": 34580,
+        "numerator": -561
+      },
+      {
+        "u": 35530,
+        "numerator": 819
+      },
+      {
+        "u": 36465,
+        "numerator": 266
+      },
+      {
+        "u": 38038,
+        "numerator": 765
+      },
+      {
+        "u": 39270,
+        "numerator": -741
+      },
+      {
+        "u": 40755,
+        "numerator": 238
+      },
+      {
+        "u": 41990,
+        "numerator": 693
+      },
+      {
+        "u": 42636,
+        "numerator": -455
+      },
+      {
+        "u": 43890,
+        "numerator": -663
+      },
+      {
+        "u": 45220,
+        "numerator": -429
+      },
+      {
+        "u": 46189,
+        "numerator": -210
+      },
+      {
+        "u": 46410,
+        "numerator": -627
+      },
+      {
+        "u": 48620,
+        "numerator": -399
+      },
+      {
+        "u": 49742,
+        "numerator": 585
+      },
+      {
+        "u": 50388,
+        "numerator": -385
+      },
+      {
+        "u": 51051,
+        "numerator": 190
+      },
+      {
+        "u": 51870,
+        "numerator": -561
+      },
+      {
+        "u": 53295,
+        "numerator": 182
+      },
+      {
+        "u": 54340,
+        "numerator": -357
+      },
+      {
+        "u": 57057,
+        "numerator": 170
+      },
+      {
+        "u": 58786,
+        "numerator": 495
+      },
+      {
+        "u": 60060,
+        "numerator": 323
+      },
+      {
+        "u": 62985,
+        "numerator": 154
+      },
+      {
+        "u": 67830,
+        "numerator": -429
+      },
+      {
+        "u": 68068,
+        "numerator": -285
+      },
+      {
+        "u": 71060,
+        "numerator": -273
+      },
+      {
+        "u": 72930,
+        "numerator": -399
+      },
+      {
+        "u": 74613,
+        "numerator": 130
+      },
+      {
+        "u": 76076,
+        "numerator": -255
+      },
+      {
+        "u": 78540,
+        "numerator": 247
+      },
+      {
+        "u": 81510,
+        "numerator": -357
+      },
+      {
+        "u": 83980,
+        "numerator": -231
+      },
+      {
+        "u": 85085,
+        "numerator": 114
+      },
+      {
+        "u": 87780,
+        "numerator": 221
+      },
+      {
+        "u": 88179,
+        "numerator": 110
+      },
+      {
+        "u": 92378,
+        "numerator": 315
+      },
+      {
+        "u": 92820,
+        "numerator": 209
+      },
+      {
+        "u": 95095,
+        "numerator": 102
+      },
+      {
+        "u": 99484,
+        "numerator": -195
+      },
+      {
+        "u": 102102,
+        "numerator": -285
+      },
+      {
+        "u": 103740,
+        "numerator": 187
+      },
+      {
+        "u": 106590,
+        "numerator": -273
+      },
+      {
+        "u": 114114,
+        "numerator": -255
+      },
+      {
+        "u": 117572,
+        "numerator": -165
+      },
+      {
+        "u": 124355,
+        "numerator": 78
+      },
+      {
+        "u": 125970,
+        "numerator": -231
+      },
+      {
+        "u": 135660,
+        "numerator": 143
+      },
+      {
+        "u": 138567,
+        "numerator": 70
+      },
+      {
+        "u": 145860,
+        "numerator": 133
+      },
+      {
+        "u": 146965,
+        "numerator": 66
+      },
+      {
+        "u": 149226,
+        "numerator": -195
+      },
+      {
+        "u": 163020,
+        "numerator": 119
+      },
+      {
+        "u": 170170,
+        "numerator": -171
+      },
+      {
+        "u": 176358,
+        "numerator": -165
+      },
+      {
+        "u": 184756,
+        "numerator": -105
+      },
+      {
+        "u": 190190,
+        "numerator": -153
+      },
+      {
+        "u": 204204,
+        "numerator": 95
+      },
+      {
+        "u": 213180,
+        "numerator": 91
+      },
+      {
+        "u": 228228,
+        "numerator": 85
+      },
+      {
+        "u": 230945,
+        "numerator": 42
+      },
+      {
+        "u": 248710,
+        "numerator": -117
+      },
+      {
+        "u": 251940,
+        "numerator": 77
+      },
+      {
+        "u": 255255,
+        "numerator": -38
+      },
+      {
+        "u": 277134,
+        "numerator": -105
+      },
+      {
+        "u": 285285,
+        "numerator": -34
+      },
+      {
+        "u": 293930,
+        "numerator": -99
+      },
+      {
+        "u": 298452,
+        "numerator": 65
+      },
+      {
+        "u": 323323,
+        "numerator": 30
+      },
+      {
+        "u": 340340,
+        "numerator": 57
+      },
+      {
+        "u": 352716,
+        "numerator": 55
+      },
+      {
+        "u": 373065,
+        "numerator": -26
+      },
+      {
+        "u": 380380,
+        "numerator": 51
+      },
+      {
+        "u": 440895,
+        "numerator": -22
+      },
+      {
+        "u": 461890,
+        "numerator": -63
+      },
+      {
+        "u": 497420,
+        "numerator": 39
+      },
+      {
+        "u": 510510,
+        "numerator": 57
+      },
+      {
+        "u": 554268,
+        "numerator": 35
+      },
+      {
+        "u": 570570,
+        "numerator": 51
+      },
+      {
+        "u": 587860,
+        "numerator": 33
+      },
+      {
+        "u": 646646,
+        "numerator": -45
+      },
+      {
+        "u": 692835,
+        "numerator": -14
+      },
+      {
+        "u": 746130,
+        "numerator": 39
+      },
+      {
+        "u": 881790,
+        "numerator": 33
+      },
+      {
+        "u": 923780,
+        "numerator": 21
+      },
+      {
+        "u": 969969,
+        "numerator": -10
+      },
+      {
+        "u": 1021020,
+        "numerator": -19
+      },
+      {
+        "u": 1141140,
+        "numerator": -17
+      },
+      {
+        "u": 1293292,
+        "numerator": 15
+      },
+      {
+        "u": 1385670,
+        "numerator": 21
+      },
+      {
+        "u": 1492260,
+        "numerator": -13
+      },
+      {
+        "u": 1616615,
+        "numerator": -6
+      },
+      {
+        "u": 1763580,
+        "numerator": -11
+      },
+      {
+        "u": 1939938,
+        "numerator": 15
+      },
+      {
+        "u": 2771340,
+        "numerator": -7
+      },
+      {
+        "u": 3233230,
+        "numerator": 9
+      },
+      {
+        "u": 3879876,
+        "numerator": -5
+      },
+      {
+        "u": 4849845,
+        "numerator": 2
+      },
+      {
+        "u": 6466460,
+        "numerator": -3
+      },
+      {
+        "u": 9699690,
+        "numerator": -3
+      },
+      {
+        "u": 19399380,
+        "numerator": 1
+      }
+    ]
+  },
+  "old_trial_interval_midpoints_legendre": [
+    "460180740673218657986575754059782920703840216163056204980437920910650577814928168269226157643682977124759034924905302101931561489/250000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "-2487686949890577669091114996913603885783808756464310724861396447748294142931169201949038910299008498971701456132825767833227125019/10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "-2576609896551323114356136100956625045425325688491773016764762154823005251839417735206065572942316696048701318372839349209973361881/5000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "-1783163045372470301847648355565035259966378236603518592137954210373349993280980008582836323677902733331138893563266281150422530161/25000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "629781864552722174581278179386951478031354768345631669513614856563436347744655321383094255604866109803317840690752817857162713749/5000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "1284099064534749092046593413723156439908342633161235250448256936919457963639217688702616770473830761519711058404001729889748331333/100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "-1121904025916865170483002939638330876651793941745533901964483101238368002381155506809745050324180275412166843245726149573927901183/100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "-7873371457865566760634227416677813307153124545080795042289815114533815336881159549848051126799918822946568964555554872242243989287/10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "2448702147262969966735627432262677514057850221932231449164188059952186912944317880558567120996252065014783006399337166590943196091/5000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "503794815254166483225635512916084558433665254676917618952133332152257421692918088851208017591163919627907919626673750087224678787/20000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "-1278380330008956971774243086765776285334099573887571487609323606431733107701560331342237806906558049347923144346628029788513564901/100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "-2509045135615115931028290032565983055329020662781031157469833611965527628541780080764841677160945071674260029201139287242331493691/5000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "2234728899651335221274284600100797764316910623211825114986217412059421112830249574917188302176576731580961339591322877765116630661/10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "6888079958703649234266524826821334352979484000127452544950002196537625983043194588379192568296593650142307832489990720417932532681/1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "-703087994326524798665347687751559182697577180886478189507017658838899217230286077525011383102711273141015737469196891936073869183/250000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "-86949973192105056809271890810280557198124646603351569913226069390917402318828410689600342103250821541652950012824742566504556057/1250000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "535754701957200041341695319887776306324140596030500263197249500055527055966949611640766141435416605747914165265813854503086258541/20000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "8452803336529142991369721193463391642952803227183679487812673727889847539523792576355650970546868096818926216878161899521600253/15625000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "-500812939571207786225525346651512731658678473509510314942752373935265663677427224986937804624403195842946034327646544928751464713/2500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "-134041754447041862226963187417495246577760451964449018776410144990387601728335320921859751459332034438409001188462576131561851017/40000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "1209490010625078354133838707695520992963119627654117823240300177754877801576533682289008185552565476089223035100861957566549141129/1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "1696503267357196178718472742239615969536629414794810014330279073268184872320822291788632011406015306114973344166051123774127935079/100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "-3013413398744340659288643753435902450106840535144318732569375677853246828723035045449850192446007644292717914696342721247962576329/500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "-895491040093718398054225653010724641986845350576874180300699033379967156614693945302599325583455123315238357197012976034500526333/12500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "2522951010793034530787392595546509335252757366771844945820731978767564104280441620469594036584699781149563576457628688917893490689/100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "2565284473365284060890100002697818235191808470598623963785877365466718833099623968425874576313481273156936693332609426016957319309/10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "-4501872254117864004645492956805988829003101348410073437659773594226566615563672477093938350247146238560840132983280703826157657861/50000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "-1974110599726256307642782864044952313013994981366741050677357333106076959309678230399778573453980709852737203218455383198607826697/2500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "2773117163810828093050010911722443791169808369253862975663665088073855425792892276371583464633389333236479169145852973876988882851/10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "2113586068164638863760479784635007912632992008632112308151771737114534648176432615137163062391820427262851028232317927070183573577/1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "-3724410453864204445707517003624731298599698181117554919564036444180647198736530452573818009098423914852692708773156491983228693117/5000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "-1241907200021809097651258637742283750185348835221679065702493684350663918106121993692682473796028348370978593239673402990567432017/250000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "1760753258389621818232194322288071886780950746400644464955509873954468637656005979479073725902203241038497557746903134160735338761/1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "516959681637529809683653604714567516101436627422818402543564326429956509690834920407284742229966244393113820384306831487692785769/50000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "-3691607972724991790075039802657664769070804638446651892375725686704345569446804689456318203766804509083589617439981166544675168819/1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "-479924166934931548544415731459005489485834848570826038353300068894289086138768027070469268724049436973495822802616438179995732493/25000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "3456311778608461138129346477287295911015098643202260277224542031321017278061308340834823668346428283029253056380615533010790829669/500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "3200327474522402273287651709935403860370477143367232601167579139700279134730412910040104829245077134312701224792320520608226899033/100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "-581595616537473639880249025005372226880268358323370997910468856898582363304848520151519972559143908359053775310826990546347740557/50000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "-964082769090990567533721400252061077411285960999541397834488112922130138556441439432010391948243669647069099785542201520049881883/20000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "221022977904013527000880433547316790289415869131522251765431456065847153723333207699833128665347084389957183025501633365837269733/12500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "6535786626765550137597221573286769611241729710460036504139815762118570883514729053815772111600032049830226702332102539624448833543/100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "-1224145889231809795874435066580802756163441842377923815492376981877238689382075945774258525907518845960586540118058542060194551821/50000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "-903941830982778056044416334573809923334521613847896232691251842336854444785982879843710189465070190239904509853500718069420632269/10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "1490489518768170378678053584717092089938375238012701985295699247189158223217524564379534751248060935940397535978090146174160058153/50000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "-5598998594891151625167474839124938417261124742756681049166064431837216135589814006644746409657118440944295450828499569818691481307/10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "-4386987385526316355595008608724506224552355571763448658144829915153974937227764334570101989673718885998728772024899177905400761923/100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "-7545694770672540453682942975784831040581173189387785951169631896750913399009142371037782752265712918999258650896691765649032321801/10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "-6254575053957378897843528511115509471178558327336358283236445728688669751884598451040604070789248270185899342075462505611642720303/1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "-1171482290469704571148042483701144207840859123115931806536528789017786304795988400581586711229387085372688261308046189246464128891/500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "-723723663192155080553515661563648097302644138520929693428369017010498082211783106403121913610591464204317350011184367094923089943/5000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "-1798713121907520293741758578890542282668699703871943567353279199815771867824500082573892727424514120791828411689032463969426776047/500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "-1746323419327689605574522892126740080260873498904799579954639999821137735751941827741643424683994292030901370571876178611093957327/50000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  ],
+  "old_trial_intervals_all_singletons": true,
+  "old_trial_box_contains_selected_midpoint": true,
+  "C_N_times_trial_even_monomial_intervals": [
+    [
+      "460180740673218657986575754059782920703840216163056204980437920910650577814928168269226157643682977124759034924905302101931561489/125000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "460180740673218657986575754059782920703840216163056204980437920910650577814928168269226157643682977124759034924905302101931561489/125000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    ],
+    [
+      "-1095398716188222774844743063295668555988432487522014414620686078347161249845915752745237057393262076414641575727717886148862020015051626182151567764921183692211577892074102082940973934739750270833666412324321012967249686731018135006277629661483307314035854773557/50000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "-1095398716188222774844743063295668555988432487522014414620686078347161249845915752745237057393262076414641575727717886148862020015051626182151389360585654599615868120861478684160875695144817018452597258516286685276281372741625416148853151741973139374874813994899/50000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    ],
+    [
+      "197876466073422257694896154102496694262497345631985527161068054410525878742010024396883930691868162025580796990009527310355232094678924805997853089117713460621877100723740888518445074536310175879162574691784520808488869879287724880212046417581088485084019270107/5000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "1978764660734222576948961541024966942624973456319855271610680544105258787420100243968839306918681620255807969900095273103552320946789248059979175442223707276709233230501582990044031709605799967904041855955062513082332720856441305220876159617136105998927063676677/50000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    ],
+    [
+      "-3499718476085782120713364409314231648298954214496762555822214757008264493471378199412349842930948653500312647497125855774444236254244118285879436036024301770759742405441111406399784172839102380411181485152724713737200007713600491972015354471912954809122719127711/100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "-3499718476085782120713364409314231648298954214496762555822214757008264493471378199412349842930948653500312647497125855774444236254244118285877726069762598518142244715957758238466217000512417161080880858833480093425745664100547446204660621235853774578407223995461/100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    ],
+    [
+      "1839247102247708763332496364135469526893785156179765729563657384980215752303955187866383044284877288950583333319190466623582919806279485007896722007513978339997959171305659824880858659383647624952489736633102737832696570014332474455128934909292198926042620943079/100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "459811775561927190833124091033867381723446289044941432390914346245053938075988796966595761071219322237645833329797616655895729951569871251974480054591402757577482913899221282161192640911158291362113775374900225113497536079710370907293725054882572660852831293091/25000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    ],
+    [
+      "-64024863360835717618303925464167548950038520347670864979343628416252034710041473730457049771180579366552319694054566894651221868049565260993032878465560925078557918174668462583526462980796758611761391537485090724686531628536880147446267178659009563312682807953/10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "-8003107920104464702287990683020943618754815043458858122417953552031504338755184216307131221397572420819039961756820861831402733506195657624122592596108076280693450508439697240294086305666253509045565575192432013577091222553889872568494829119388636834402901723/1250000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    ],
+    [
+      "31676151100208864399984957820420349341257197196248521633015073651214148503330085995539692583552367571454103986883940154460106100289671452792892424013917534255538606666880044556395327217726713753837227325331455562325260560881869148720959842862697099667056105607/20000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "79190377750522160999962394551050873353142992990621304082537684128035371258325214988849231458880918928635259967209850386150265250724178631982308445044548322922784465659374259721808436075652656600568756463503482608825163262078991927712010481372421926617346785127/50000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    ],
+    [
+      "-29258375568555386321866326678718300679167066370448729456324467698240310950278244245575054230503754956081919003562759938825269675987571122819939666076155320688479493255089514049223471132041087579525517268305777228103932497689004383582824024041127690650420595013/100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "-29258375568555386321866326678718300679167066370448729456324467698240310950278244245575054230503754956081919003562759938825269675987571122819906309503042902637560267976533515012093366378844140890120685256754203849762749932573647989853081621027838482656372031601/100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    ],
+    [
+      "4188453911909325682904736865700309523816010589854226648096732120416308496298854309424178662374526168766751100676516445369209315476809466886754842338104502688714114253870326911144140430439334521840082955027132239265820809943838569327374112949771083197281559661/100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "1047113477977331420726184216425077380954002647463556662024183030104077124074713577356044665593631542191687775169129111342302328869202366721690074906623651325176520121649218254434825828441078017950210879051591940288131384739518438194815963078609743344865625799/25000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    ],
+    [
+      "-29884174116195255737019374414447732258616744264795908534356748006771944462029692642333828269075583303813742088866900962343166132232596936315649749860094204416828214767692768087243002314697715547546532048275771574051780673465460436066797403697465988029876991/6250000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "-239073392929562045896154995315581858068933954118367268274853984054175555696237541138670626152604666430509936710935207698745329057860775490524847564319710569568839976444337322359702447236635122687231627103122814049709831263784977384030606174561065692001121793/50000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    ],
+    [
+      "2226785375189466051399667759383503080735428958597051635546608739271046346048643996452238664019646030971565164038744419119424326659884457317641067421133547402496465138393030857874267766913537718042398301176459757472698543772802563045921966659930354467320197/5000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "44535707503789321027993355187670061614708579171941032710932174785420926920972879929044773280392920619431303280774888382388486533197689146352893882406754660469650393807153588543421143223849474270024222477770590077909070422274011757874219281964699816637481977/100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    ],
+    [
+      "-3448343493394766374956546822806238113654825181173604808102563718831470763879077707888388886192640208061558162492500857855431488951021606240158722626903643169755929124935159505988675193717280699432901389727904213093613585642098026553758062325289346216630543/100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "-3448343493394766374956546822806238113654825181173604808102563718831470763879077707888388886192640208061558162492500857855431488951021606240152544790810028481129999000692655634703342564519581140106047529996874141039009156627961917953038446863865021605923897/100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    ],
+    [
+      "112717517597133279262610486710804814613570610599525967005438050600251351588937194085576359701809199572685056402504314084153574728682222944187291391372817389610027353279075260501946859284607367151386258777433348506730042011413428674483531508573934802968549/50000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "45087007038853311705044194684321925845428244239810386802175220240100540635574877634230543880723679829074022561001725633661429891472889177675004674792242150338777454635249947160971053736485046145394177110177527716712727134726253024009651941957648984651459/20000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    ],
+    [
+      "-3152020618929716383749287927581985748122568273740224827834741271116129281015046812083155485833921202280545470004668501727267483093000963825602494799077348900335635003813392780904724003049698299187669336389447398537440653817044799865880342540891778185283/25000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "-157601030946485819187464396379099287406128413687011241391737063555806464050752340604157774291696060114027273500233425086363374154650048191279791055800089055938523804241521904444773229306381739198735016600408496170012216977186382204658597735650138981817/1250000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    ],
+    [
+      "610071769255246692823373191705987808149138662330068913061899947285127260766492760122394349634476437921497829642424053962256483263087070490668396417868477465257532802017296709833206582005553348182233279971626957101588795830697770992098766670692363588723/100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "152517942313811673205843297926496952037284665582517228265474986821281815191623190030598587408619109480374457410606013490564120815771767622667446866487045984453425230320141908230939846579820441525696472281685082730579216028551340654326983719590710878557/25000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    ],
+    [
+      "-12894928416131699800242227837642715890528201097806719746126442075306764074274803638192522051889477553141019232098768500305979533041442761460163919308723724913596948931197773599654392437280523155823124532482700686738073363702865010042390055870194850897/50000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "-25789856832263399600484455675285431781056402195613439492252884150613528148549607276385044103778955106282038464197537000611959066082885522920264833856666447799096477417120218726214446790101348506975438062178394349998386562787248736909550314498351552999/100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    ],
+    [
+      "480311188233980050351566514719937553505600522639828305843402617101993377457097686232577983690939689945560181477572120554249695109316308534893817706079768060568362545836292561170850662730500353334981004263536209571308290914495086655696798254231861129/50000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "960622376467960100703133029439875107011201045279656611686805234203986754914195372465155967381879379891120362955144241108499390218632617069790138671573452704258512461041859755005868232024351504244037609096473053143903115250766883464574448071215976057/100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    ],
+    [
+      "-6353074915634666570368002721465965958902094065266836861998584510867988867998466864968599539926194228670341122180767828061714193284129406308373742238473475361633972088867480022109107162894575193917646588199201481731454828311947817762295078965119791/20000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "-3970671822271666606480001700916228724313808790791773038749115319292493042499041790605374712453871392918963201362979892538571370802580878942722595143092961243631615086875638691099173098682050434137903980505119462037617601259797109242785412015220177/12500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    ],
+    [
+      "938749914583704589723282619435284234941624704487525406061888380300979680638255221338885648454636450865911929765683366784376892195587698413387376940550857300812547676098171195773454379032207408748119644060418787911540610039271138319963912909928953/100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "234687478645926147430820654858821058735406176121881351515472095075244920159563805334721412113659112716477982441420841696094223048896924603347532246484805718646038586453975977186737850794425261326829552976985537335307522732274857026214877380482207/25000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    ],
+    [
+      "-498839469138330601791339399543435662690861008954649969443796545304559510726451228011107408411674003393186998768208821905738746669482804989731702639482320915020033983590287135035727757524736667486726183284413942711687831044736419549245549167593/2000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "-24941973456916530089566969977171783134543050447732498472189827265227975536322561400555370420583700169659349938410441095286937333474140249486507949696488274419062233915358835881617474397138093376538552802653989429013862683843603014730124525869119/100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    ],
+    [
+      "74874930411586453533033905217065804019425579629090761230448324840467765936529523691129849237656843190662245805346652358407642698004769377095337610106784064450664484934773376988171907790835543765058977506503013316964271297198534933805320884017/12500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "74874930411586453533033905217065804019425579629090761230448324840467765936529523691129849237656843190662245805346652358407642698004769377095581503257478077434027546855779546921482731732630171907473829167843637522001097225928729178683531479103/12500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    ],
+    [
+      "-13066017962232455726970024527490371233458450417173107008637697000563145375513324538658342645084782174036342304513981597321790015161678603965254474615976559209619276539935341106121766816218416857122418975818130998723599913397285102012476924943/100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "-13066017962232455726970024527490371233458450417173107008637697000563145375513324538658342645084782174036342304513981597321790015161678603965209786121659009478159819328711789606723605115958865183646728210898570749134031334283118931041778129299/100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    ],
+    [
+      "2080104612927212913567348938887268078661141449361364425534196400418598540017574558003562413193394605184833866210638693308175864091784906159783391744280189643939903029824036820087155554914980193020592423359206073078300427404099358178641533/800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "130006538307950807097959308680454254916321340585085276595887275026162408751098409875222650824587162824052116638164918331760991505736556634986927807150446953031842346464175122573179799950142068747431916130560674282454055767640237814080654489/50000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    ],
+    [
+      "-2369729178203286531942424257254969947861352970052261902226209664492048373731479762167374483822240485728712486895996196649665484736529785994647186653673182511691789973431143432942042763408633235192047668391036096226967751040139285880101363/50000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "-2369729178203286531942424257254969947861352970052261902226209664492048373731479762167374483822240485728712486895996196649665484736529785994638309786352645912501437004844587359424155216092269597029150036918587993925374444442777999478322951/50000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    ],
+    [
+      "3176902547033067347188015047329073242368895889828202364322595026808654183244674627539544084146390046220929858256094931459445912902025269016550530197393825020248588008940887727047256968172453241231607244270479551253086708473178987838853/4000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "79422563675826683679700376183226831059222397245705059108064875670216354581116865688488602103659751155523246456402373286486147822550631725414073702544232851061739653152131031078208612321106187954336513614966183483456048964943941803770179/100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    ],
+    [
+      "-613878049034139407867768913195757053699063136219806561398980155905019017154096763390671226470854223703190223843702139037405302432057668885438789392336825034561379171239074315715049424657491544923094488875192776549810105235699212012611/50000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "-613878049034139407867768913195757053699063136219806561398980155905019017154096763390671226470854223703190223843702139037405302432057668885436289879971708003566844411682191115194232747352157272827683894714688050373914698159140847763627/50000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    ],
+    [
+      "702507253493384569481890626043362869312230254008599521657025463327619385247897084318504237957972459911016411544206626973481365459414528849086837563716805827152033782061922753488434046224244518163697772117149721832280358624723038939/4000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "8781340668667307118523632825542035866402878175107494020712818291595242315598713553981302974474655748887705144302582837168517068242681610613622654509178482531692328346080289209777582657014830195131075428860339306283450277042774259189/50000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    ]
+  ],
+  "p_star_even_monomial_coefficients": [
+    "460180740673218657986575754059782920703840216163056204980437920910650577814928168269226157643682977124759034924905302101931561489/125000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "-273849679047055693711185765823917138997108121880503603655171519586790312461478938186309264348315519103660393931929471537215505003762906545537869640688354786478430751616947595887731203735570911160782958855075962280441382434080443894391347675432055836113833596057/12500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "3957529321468445153897923082049933885249946912639710543221361088210517574840200487937678613837363240511615939800190546207104641893578496119957706333400841882928004237738991875228482454968901726695667602872907721167221419649318554022996623792946990849767256377747/100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "-1749859238042891060356682204657115824149477107248381277911107378504132246735689099706174921465474326750156323748562927887222118127122059142939290526446725072225496780349717411216500293337879885373015585996551201790736417953536984544168993926941682346882485780793/50000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "3678494204495417526664992728270939053787570312359531459127314769960431504607910375732766088569754577901166666638380933247165839612558970015794642225879589370307890826902544953525629223028280790400944838132703638286686714333173958084303835128822489569453946115443/200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "-128049726721671435236607850928335097900077040695341729958687256832504069420082947460914099542361158733104639388109133789302443736099130521986013619234425535324105522242186040505879153426126786684125916139024546833303261408967999127994225811614118657987906021737/20000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "316761511002088643999849578204203493412571971962485216330150736512141485033300859955396925835523675714541039868839401544601061002896714527929079010158684317123261964653148742225593508239938881970323649553664243029276629328567329599028820177058329351569974098289/200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "-29258375568555386321866326678718300679167066370448729456324467698240310950278244245575054230503754956081919003562759938825269675987571122819922987789599111663019880615811514530658418755442614234823101262529990538933341215131326186717952822534483086653396313307/100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "8376907823818651365809473731400619047632021179708453296193464240832616992597708618848357324749052337533502201353032890738418630953618933773515141964599107989420194740467199928883443744203646593640926471233500000418346348901912322106637965264210056576744062857/200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "-478146785859124091792309990631163716137867908236734536549707968108351111392475082277341252305209332861019873421870415397490658115721550981050045563200464204903465694585879467057646465754216847067603883489328986642124076651508660872564985404140793596240137721/100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "89071415007578642055986710375340123229417158343882065421864349570841853841945759858089546560785841238862606561549776764776973066395378292705715230829425608519579696575014205700906498562120228630872188501299785227363041297730063018792658615163306905983885917/200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "-172417174669738318747827341140311905682741259058680240405128185941573538193953885394419444309632010403077908124625042892771574447551080312007781685442841791272148203140695378517300443955921545988473722993119458853315568556751498612669912729728859195563861/5000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "450870070388533117050441946843219258454282442398103868021752202401005406355748776342305438807236798290740225610017256336614298914728891776749606156706845530913941979734400256808748987251639965029743403105754335597023719696458122469015322726936114529194393/200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "-6304041237859432767498575855163971496245136547480449655669482542232258562030093624166310971667842404561090940009337003454534966186001927651198315915079130019106111088643830869800188589177333083162369668397617321937684993360772443959052297253894557821623/50000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "1220143538510493385646746383411975616298277324660137826123799894570254521532985520244788699268952875842995659284848107924512966526174140981338183883816661403071233723297864342756965968324835114285019169098367288023905659944903133609406701549055207102951/200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "-51579713664526799200968911350570863562112804391226878984505768301227056297099214552770088207557910212564076928395074001223918132165771045840592672474113897626290375279515765925523231664662394818621687127143795723474533290192978756994330426238741254793/200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "384248950587184040281253211775950042804480418111862644674722093681594701965678148986062386952751751956448145182057696443399756087453046827915554816746597765079047510542888975469513911497070442182799923524709094457303939415951411355193608915935939663/40000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "-63530749156346665703680027214659659589020940652668368619985845108679888679984668649685995399261942286703411221807678280617141932841294063083649472337111066757222781139342509639338920603929279442691464785036963104958214951638115962753758690947360371/200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "1877499829167409179446565238870568469883249408975050812123776760601959361276510442677771296909272901731823859531366733568753784391175396826777505926490080175396702021914075104520405782209908454055437855968360937252770700968370566424823422431857781/200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "-49883946913833060179133939954343566269086100895464996944379654530455951072645122801110740841167400339318699876820882190573874666948280498973093081670604320170063933094873192633403862273374926750874861966874686564598254236080423992192401984248769/200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "1871873260289661338325847630426645100485639490727269030761208121011694148413238092278246230941421079766556145133666308960191067450119234427386488917053276773558650397381911548870682994043321445906660083429333135487067106539090801406110654539/312500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "-13066017962232455726970024527490371233458450417173107008637697000563145375513324538658342645084782174036342304513981597321790015161678603965232130368817784343889547934323565356422685966088641020384573593358350873928815623840202016527127527121/100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "520026153231803228391837234721817019665285362340341106383549100104649635004393639500890603298348651296208466552659673327043966022946226539946779582335917611556172571656354847657254044264656661622437885181022107699695664960792895400491500603/200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "-2369729178203286531942424257254969947861352970052261902226209664492048373731479762167374483822240485728712486895996196649665484736529785994642748220012914212096613489137865396183098989750451416110598852654812045076171097741458642679212157/50000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "2481955114869583864990636755725838470600699913928283097127027364694261080659902052765268815739367223610101451762574165202692119454707241419184952460610601196374286771494581628974844320709648734142604605027002691637237760574584632808461/3125000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "-613878049034139407867768913195757053699063136219806561398980155905019017154096763390671226470854223703190223843702139037405302432057668885437539636154266519064111791460632715454641086004824408875389191794940413461862401697420029888119/50000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "35125362674669228474094531302168143465611512700429976082851273166380969262394854215925211897898622995550820577210331348674068272970726442454416248111277110742185501243708647256766016469635773344354595160649421658373909519703624491853/200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  ],
+  "p_star_unormalized_shifted_legendre_coefficients": [
+    "883220147478765611496304174975791548936667569479078753748022284000197251659780211179716443662553028868339702307984370678399988929600698098947518752883234103369262132716623148339721922707935816883991885238086931153152723512289226181910665121452966348438994068186256323436971121070907/1026558492031486408995000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "-1615358076263562461301028148406815086308476275162363721680443813403621660449000024753430487061137410392145587381850862027034493465924162851912719162841852617962098152271220377066106813419110400623937942608160925851352035404786608458225872033437128765830865109592051571524680102987599/608330958240880834960000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "325049276480119295014541193874117284050043564408994442977068944148427472859596436794151375406071629817093816338702114045618682340117397404328695224590638755306036324660944015472941122177545670528519795048671984520494175472418892757678514254020324400917427769754135474634443264591519/298635197681886955344000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "103325952398038235906950870859356334166516013657015228869166217061735331676125157688191140625147846324948224544028141321944896994025612670214786806589285578884938255300359453228252686960400781937486379199718590099438994759192325141109815027306241038054996990283553615115718068053059/146651213147355201285000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "-1024600175798071067529675732141384360367631443936343167673936817037982519392617954781300706854804015439417074124289631832584349830810705049849222663577049055181008366780204359291845733322649238881173452502067639988076779162367273758571570382085333501258940945740121868490292215091/3456425899095913835000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "-17035258909546152393192812047509053380909056927690426532208089643000219840924238001470126368253206576624052217036580307774524875113662586604981547974736172012427580468806531993755144259795058987579342283412858500147229963903426401248865711736373188903976021343282229288626748570973/298635197681886955344000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "165990466785285947407460958081085489029591940544287226928848008165075400333241855343086360988462123463895519020670827041397511175818116473647981454282734338739882131018133709549313115933291586182413917381363019314008132257921635650337522579890601461806805384870878315521381847175803/6776721793550511678960000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "12685385268632979337104210042422545293409506015020740471110674036630740417063922055900650733677800976640055425914214588475947700407349183774757330795994320885669972627928704187948150111602152053936348514556480843704433047717484164949000872541360836184588921903335136038724572484197/5383728980431795389396000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "-81486650838550562420861384782094348030995819844024934824298646538304070001730364899581654338467220942818892876252072663080475365759362921956802939212012464249220463744018825667215649070954099837195066339180889504106473974153098619322351759649237307335646768810881529978288461661303/79028535033611114138460000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "-180615824895546819464260751741919883202447741729550605269634996996297175463148234025365563762609633495133964522163523931114892334256493060029567182941599746028284652576575642723182095607659801932703247795707075403028283273716643423149933473196882784976013290217858857759595238107/3006018011957341132752000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "15045719453491803176128189235630954901125343304761314634981882917349802624347864089442783973381713702144667877058649694172273090702697873067953780482690262697987423161123381284450085061550415077823491978167055099439880632941777403212089002755527236608267068700289857708754882445999/562984230525153460719696000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "448651088902499117020020560990901203541992547431122699227835527531804776966078282999276551099976086722702151031494526008230304972837024115526209491786021527435803611156149897910950759348893972310958350139921675682579229849218898938796266778007852793101728860325086093824978177319/428357566703921111417160000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "-558311100324104986253358530066624357713728936189399139161178218942544974184275344425815680421933701446719175351873206669775616141949914690983934809714138484597187688948351625747729132091969656986738026748337941233678680922594966278880323611167208960786020334002896888483780539091/1182266884102822267511361600000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "-29467554603561122465328723757293570281941678821976778692678039176275719345128131921770377349388130378636680991654423653567736167865556765743808792164677268637135137363574615390245683969918674104789215570681170014431955995695972265987582121745834555177908613569509751901302099/2213734194852305485360000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "1159406179876040995226172777998250186809530040320678530801751309188810054032494915535449767693025304090893652425746978777433095921964157996448021475301403749423340366880838559001959229960058533102539451357690647612973152372335021729088843580349749174293831448681205985036225461/191010082553385801599376000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "21130539518828023090689087660388619401865167649079277153570078291589113802522260435771279326703291935448134943102700024901787891987649524443485886709448642881242402758719653220308867743947929238772714997779728014415278217916250089678935766336318988834951824827409388484483547/163796280469166856747852000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "-19579133323684428255451969577065371362694567377085481034714234424947072656314159393530402489403043111020744715738046020848017095685609881019026244980764729791404876936446837538434839946966517182713324695695676130380128017687802912106669658287199553762609880162003127521953821/329719785360011205141780000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "-12392873882363751321518674530067441412715344783166216302989930964730257131359782655732489575155955628422077652250214932677924831398061677348239187531519396975510757737348994342410514120582412156917940290152300546364986408692714470769633847421037291268187068237331289024504763/12573314481728427289406544000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "3471906179541287059098471854835223051228185452621575356039180011730723146133116370476285882861360027222335970330843980855389865048341912290896750267266447960997084702877928487567029118350586003939871403699113105219667439711677706665330008234509877379469120358122538953069591/7592466408830528291372880000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "19265584876268649157548808976966019506879739547893916125616589886602862113546313223353204519312270838891437424365576670510250745088766996654134482310718572823618169226877453274152979732842067953416460968048204043372583928104938899407407791820801774924860015412893324049371/3162417660637160102649318000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "-13697505845295531299642978744847606872437712240502706619162708252105331915823725197831797382649535748009479514956451494601202858698551091371018234180122117671715814632801846935567268226812964107930622161446608954036695973601267878654450012604738930789920564329191198836703753/4814202397284593848947736170000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "-14844169933479843471960613930798805441576338344955625683887294415354843873173333602766164052955113825035144032939717353716502408650267574762855227228855382766371335428278568480434523096402175793784874501106115626616594431285762269410768575001220876635938443513571669131255119/477389744698174608649142954160000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "170830841557860619834090978246074228956863218706780767192191634114340215457368892028330832842356534304595618348689961531986556907295676379505561233950882689148905127716060793109742269710894156520494994289489013678181136387676491506726544692800449659054860127103881483523139/11696728787476642832998944176000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "1738495618876770168095420989018065485198330366449766862848501720482622653308667453675960047919725921741102901729623764226680534472463627566117036500627981629974897261111372993928961433848723599728943647639894337322415141453931364906235904574024012782557494058744483607/13042308595788842857595955000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "-126718304617779772990682954383967223766070565923996113617711860938751401165873579111570924850444420244556000732584517591357839830973177984647289966702154173513003048816120016434129788420537042493809225160880881470812408605815556593236684699384327610493550541778182253409/2014105084578248447008746765000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "-98204184116671704134157196570256358990683571464665589483837638421302960638818750908052998560385044798104592695412069855159103976864449003954046899817551729086089434943846621822544845109804879380885933292849217403490589357632627810059466428606401832127178938560729597/201756931760985878145492624000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "7059417058939005032760720389994935201236688743572880790232521791767808631179538982424469858377207320081419584159182328258524844614631585198179071879001756610498577254503193198357253547468035282877076850741086197401650808029196537854165819216405176140544631901403089291267/30597980429050927275115822929840000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "7529853716977742236865337582949377821705423064970418301211972687179812782115291876691688743168568436514242909393638452965531146732927975124822596116623020338135472783466282095908803145687867922341929015275805292443171001578729931949065047127149540811787681883866444159/4914221099211209532064056409944000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "-31109635759352861599188564480292518042721272462937779662557218595503003558321624644136689305781648249626303772255004310237205737276957611154950372473564974241561627988622752406454318221495224650674051543152226278021889404484604720688319082291816925593509260719263992257/42676130598413135410029963560040000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "-148167377875442599918248524907151469914785048550929429091096583779242469763328163389703894864625989102750971815119520968290675089725520927016132013005958924426129122232468679855672274639107322622907174537345373073495823345783287321435671457360100734855216299289/35267132513062110188925581184000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "65390167378577001728406995358420736523468864311131115058348768898592742386137221253901057174306794322080839348740920002993471569390876017126161585036608632938402442933225352895129217612452005959048023089665131965836709973915738039081434666813956091098382984346758207/32609347308583145219228257708560000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "3441012120365054409612686771556254008417617651231472198092634921365200875277832545418713082637537547957393115399739482051134842842235089240504984407699880828618181456485843522091308948580789400866716657160202346367314229552252567784775583025004250026392988149/339895225166630417417298165000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "-3602263150090195743277832964808156303792341145126112966529924156641574323292093329371589908997580453390663932712562217159015984109641368964366453978630547531763248309441236641805935408036403891062626614632535922099995873310015416882192360491220436573877727761/743359362695286801687989073000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "-731624086169436222832969413168389323143580561898547898976956202720534617424421202268685578798387617061597740240292198783592466457259423188284740227326352303491208408159167897964486111905427001077876405059185433890648601688283344791265002605904054206479601077/33858545252148356479115823720000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "978797741221645817179408507626492900795430720905165410400969742830227466585018765099805338246182741744508099927679675711122857401807873248964892279619716514261496891749296281568044266985864713175441585351809329531568281540233334211496299633843869052030005141033/94390263609673933438453369613160000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "1257865256751752993915333375399581007724948164428288519129031126852876619125378822769828980223826078682895570517885414383418309304694004033749703639173689777598101893036801095087835734398870037284464605980183114211523701949461526861590854363038801644602242157/30577127648204231958935598607080000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "-840192039878913204306518625892381045211134421680132639860037766440155977546947691819096645849090462246868253218643825144108266371949485601085440709552788170791955207382775867873659202396346310181903959813043111891322882051278655659959280535256692158980949547/42462135288770612061060885121560000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "-33596378882340102705150640704993073050027372878255548478695768828142135792613881013620138721050096907783547471809968901085579366250594129798193762539633397647378369555016289037340624181290042972108038106448967869336702453800323843209898999754819116312773/477993369061791184979934560203200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "362779206667162295190924368231488875946913968753086708649007226414085457528739370234212540338447133318859434002775481726217615380619603508393145187388074674347322596470501554415727277768700423130391394445267323889058994558587561765028970984962641479927937/10708293008202464858316715796760000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "14511905882393530301678125875642291172195963604236948409313127071239608398664325366983636063504161501514342615069822106119279667960647848485255284032007930646678505496429732724256145571050634812851547730900465882280301298149493411639191299867840434141/133810217726645536204217318460000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "-750568587421233331652075947154512128599851995449263847700428861481549773656826254609387138120787484301822947206004972354163473082298389375948892770360701768595646262662651954751085968764520793005179828528695192782339748817031383969732719287158241007473/14343824585061326384288440295660000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "-46950234264842521893426328029731961710603272977861555001963248002492606220076210878047650778880098619832542385991432593504059385563002058068804890707340141082500935825569345071505766542079688391670931575170529993052506227676298334738244928573883549/312967668363445043794715454585000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "1281023687952291852745667016618301102782286627922016869323377154955782826548489243895140302919201689240109408466363247222968124769962706833792490278382088003605703757524317593009905004794518875361344648521842190278690614309928147282398624300315852367/17419412223852452966974103713431000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "7910525628404520084349071029964019169669958679099445285313852904664012400055165422520795567393607918937511633980212299402521335928074739753424234360302702496455201285761160851418119488933379969265486690375115770958975727021208512156405802189029/35980900562014495448295273885000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "-309074391103339278727021865597064542867610679357988208975408607536266316033851985823468684412014041019355529326540791119850382465025571160886342470336092221271788110821906988212403924894823033759409719199542805097724467044145545268286172805112307/3411717076885846371777121531635000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "2960772606703957944158710185413370592248553236134122297391238922626047006980618899743859821394437294200733123877282806662635616461284552977671756149883739960501455489370711698848454137279681946758639871538469888660001995480715686233133127089/38686774307098624250761435428000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "8771383574628958312183288962064336858615087003473835232548960316996809653847198076535547839924185266959903108154858005883657617096346902586953442339165425998316126051451177734105491584330203172601468346753376362387158779775575353622877192681/64392186700042771657818751020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "33858083995183974950639897869796048285872508200743686693675878991639713916866139594991785067647996220135638666108053603441754873403810592024092238267787661222035450797345675575587450357587794920050398503227627022596106144593391091349111063/14455192639569138811128106332000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "17515371930028083348654393037203238515889444094782487557590020585955667602095139690019255790011690816610095313900113911177749948607880550367259511410308641132169354882534289224172338342294219720396633516256344749401602390015143045846467163/756991000842930856297736581140000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "259423226745844088076192854655717425020643328200899057231564747070704026388644287065968932727376448481301966067409106146417750684047150078282309183814121471578824360904340262051800104205175410146109623501712044432400929857793934309291/34309851175427553962343643848000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "118999409684490235353541456829822010681456775523222401209290854484074333775038768777950696818527013567121564774102360240153545295855298130574858805091147915053182621139773772706117632141743294666912020337726246521899341088307676769/258149509084414654415244993600000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "35125362674669228474094531302168143465611512700429976082851273166380969262394854215925211897898622995550820577210331348674068272970726442454416248111277110742185501243708647256766016469635773344354595160649421658373909519703624491853/3073914268205726554092326462400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "35125362674669228474094531302168143465611512700429976082851273166380969262394854215925211897898622995550820577210331348674068272970726442454416248111277110742185501243708647256766016469635773344354595160649421658373909519703624491853/316613169625189835071509625627200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  ],
+  "p_star_formula": "p_star(y)=sum_(j=0)^26 a_j*y^(2j); coefficients are exact rationals above.",
+  "ell_app_descriptor": {
+    "formula": "ell_app(y)=1_(0,1)(y)*(g(y)+p_star(y))",
+    "true_target": "ell=R0 g, R0=(I-C0^2)^-1"
+  },
+  "v_app_descriptor": {
+    "formula": "v_app=f_B_h0 - 1_(1,infinity)*F(ell_app)",
+    "true_target": "v=P B h0",
+    "infinite_tail": "The exact cosine transform of the explicit compact analytic ell_app is retained; no physical tail truncation."
+  },
+  "error_ledger": {
+    "eta_R_upper": "547513547531420257338630929355395113799950985721080456765798196470760568778930964853/10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "g_norm_upper": "484141793739579289603149284189663166323340560418442220492578513289518188693091922559025555823285051871687054089564470493/250000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "old_true_low_Hilbert_residual_squared_upper": "5659522218776370976949471377188043809960594511009414203/10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "old_residual_norm_upper": "188074490208939071328277058148349692678229670713514243118459256694287292217629/250000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "M_N_upper": "1000000",
+    "kappa_N_upper": "999999000000000004752326292374315157285852787570802155288337527915173984431089353666913491222376283510021988777909744359/1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "resolvent_input_error_upper": "10602967639943288310233363586551930733249785539088103090597493799715852558746581717616168305205764708833/100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "trial_solve_error_upper": "376148980417878142656554116296699385356459341427028486236918513388574584435257865691/500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "coefficient_rounding_L2_error_upper": "6587285968998713600951720195070153779672242439503377632157/250000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "ell_and_v_true_Hilbert_error_upper": "53014838199716441551166817932759653666248927695440515452987468998579262793732908964229821943906966200719/500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "error_below_2e_minus16": true
+  },
+  "bounded_action_transport": "For any actually defined bounded action A, ||A v-A v_app||<=||A||*delta_v. In particular U_log2 is unitary, so transport costs no larger delta_v. Full G still requires its action/integration error certificate.",
+  "not_executed": [
+    "No scalar Si/T recomputation",
+    "No full G action",
+    "No new q0 J/residual or width1/16 acceptance",
+    "No five-source T/E/cross table"
+  ],
+  "claim_limits": "This adds an actual analytic-vector input beyond a scalar norm. It does not itself certify a future G-action computation or the long RH Goal."
+}

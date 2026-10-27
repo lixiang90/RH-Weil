@@ -7,13 +7,13 @@
 | 同对象 relative principal／Green → 截面乘法 → mixed RR | 几何主线；具体执行阶段以STATE为准 | 567真实RR→Hodge机制；579–582实际源／strong域／Green；537明确非根 | 同一非零primitive载体上的实际物理源公式、全关系的principal／Green边界、整过滤与同对象mixed身份 | 先核405全关系及平移、537与全源非根、原du／Dlog和全部尾；无实物不续C045或预建未知合同；保relative／higher／有费无界修复 |
 | 独立正分布 → 完整经典Weil分布 | 合法备选；有新构造或signed估计才晋级 | 562／563连续正源证书；576真FF正锥与原alias费；577真Γ/contact修补 | 独立生成规则及每个compact卷积平方上的完整误差消失 | D′／逐测试收敛可传正性；不强加逐层405、ordinary trace或零点收敛。未知membership／修补消失换名不准入 |
 | tensor／Deligne放大 | 条件备选；未有经典实际全族 | 567 tensor与pole机制核查；Deligne I §3 | 非平凡local tensor对象、目标谱身份与全阶global pole控制 | 低阶Euler／Γ／grading检查只作准入；普通测度乘积或ζ幂不足；合并净误差须受控，不把分项次线性当必要 |
-| actual低频core／coupling的joint signed比较 | 五源reader建设性预检0轮已闭；尚无T/E符号 | 542＋555→557 whole4/5UPPER；560 fixed窗桥；570–572费用；本轮actualC0有理gap／source-HS／true-H残差 | reader实际实现、同一5源T/E/cross及真实误差；之后仍欠成长全源signed及耦合 | 下一固定h0的q0宽≤1/16组件验收，再回原表；不以reader公式/finitepass领取RH、whole或C047 |
+| actual低频core／coupling的joint signed比较 | 固定q0实际组件已认证，原宽1/16未过；无T/E符号 | whole4/5UPPER／560桥；F原语、Pvnorm窄界与带真H误差的显式v* | fullG实际action／非零trial/J/残差，原五源T/E/cross；成长全源signed与耦合 | 现有vector仅准一次固定c2配对宽≤1/1024；无信息即止，pass仍重做wholeG准入，不自动续prime/Krylov，不领取RH/whole/C047 |
 | S0／λ核／arch-only native Green旧recipe | 已按C045／582停止 | 完整局部作用、原费、全源Green可见性与已核反测均保留 | 原recipe全Pan仍非principal，fixed q7 coarse native primitive为零 | 不续word／orbit／level／height参数；新载体或新relative公式须先过上述首门 |
 | L_r(j)／Faber／II2,2 native Green完成化 | C046／583一轮已结算；本principal recipe停止 | 全S_exp系数与fixed窗原费、逐m原lift规范、global balanced L1/mass及cusp／Nk²全尾 | raw注入保Pan；标准连续principal类商连537也杀掉；未得独立primitive／mixedRR | 不续N/radius/j常数/level/同product-paper；新relative／higher或强拓扑修复，须先给input/test/net |
 | 实际代数对应 → KK／relative比较 | CCM固定v2§6来源0已止 | typed KK／derived kernel、GRR／Todd有限修补；旧relative电荷保持 | 原字面ordinary-cycle6.11／principal下降不直接适用；没有physical有效算术lift／mixedRR | 两P1反测及m1 point腿保角色；不续§7／引用／下一paper，新input/test先扣强旧 |
 | 零点比例与无零区域优化 | 保持暂停 | 历史成果保原范围 | 不是当前Weil类比主责 | 仅用户新指令可恢复，不因文献可得或局部数字改善自动恢复 |
 
-当前路线理由以[cycle16](goals/reviews/2026-10-27-general-rh-macro-review-cycle-16.md)与[D20261027F](goals/DECISIONS.md)为准；[reader预检](goals/reviews/2026-10-27-five-source-actual-trace-reader-precheck.md)的实际C0证书、source-HS及真Hilbert误差已root/fresh闭合，0轮／cadence1保持。q0/T/E尚未计算，无C047；下一按[实施交接](reviews/2026-10-27/tf-reader/execution-handoff.md)验固定h0 reader实现和成本，再完成同一五源表，不重计535/560或循环误差公式。主瓶颈及whole4/5UPPER未改，finitepass不外推成长。唯一动作见STATE；论文及实际阅读/保存见[文献库](literature/README.md)和[manifest](literature/manifest.json)。
+当前路线理由以[cycle16](goals/reviews/2026-10-27-general-rh-macro-review-cycle-16.md)与[D20261027G](goals/DECISIONS.md)为准；[实际执行结算](goals/reviews/2026-10-27-fixed-q0-execution-and-analytic-vector.md)区分窄Pvnorm／显式vector和未通过的q0。0数学轮／cadence1保持，未建C047；当前实现记录止，下一恰一次现有vector的[固定c2实施门](reviews/2026-10-27/tf-reader-execution/next-fixed-pair-test.md)。该门只验表示的mixed求值／误差和成本，未有fullG／T/E／Hfin，不自动扩参数。主瓶颈及whole4/5UPPER未改，唯一动作见STATE；实际文献阅读／缓存见[文献库](literature/README.md)和[manifest](literature/manifest.json)。
 
 每个完整研究迭代完成后同步本轮研究及恢复记录到GitHub，并核远程commit与本地一致；失败须保留确切状态，不报成功。依 [唯一cadence](goals/review-cadence.json) 每4–8完整轮宏观审视、默认6，重大反例或连续来源停滞可提前；组织、下载、审查、推送和代理数量均不增加研究轮，也不重置周期。此前计数继续继承。
 

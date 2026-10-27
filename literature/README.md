@@ -1,5 +1,7 @@
 # RH-Weil 文献索引
 
+2026-10-27，[固定q0实际实施](../goals/reviews/2026-10-27-fixed-q0-execution-and-analytic-vector.md)只新增DLMF6.2.E9/E19、6.7.E13、6.12.E3公式核读与本地normalized缓存；[来源范围](supplements/2026-10-27-q0-execution-source-scope.md)及四公式字节/SHA记录区分tool提取和原字节下载，无新PDF／新RH论文路线。Si／Laplace余项只服务实际低区间证书，q0原门未过、五源T/E未付，不提供独立经典正性，建设性0数学轮。
+
 2026-10-27，[固定五源reader预检](../goals/reviews/2026-10-27-five-source-actual-trace-reader-precheck.md)落实原535／560/570的实际对象，新增重核仅DLMF5.7.6／5.15.1两式。[来源范围](supplements/2026-10-27-tf-reader-source-scope.md)区分官方HTML核读、原TeX下载失败与本地normalized公式缓存；未新增PDF／重读整篇论文。C0精确有理gap证书是本项目证明输入，非T/E数值；实际五源表尚待执行，不计新的经典正性或数学轮。
 
 2026-10-27，[CCM指定§6来源门](../goals/reviews/2026-10-27-ccm-geometric-correspondence-source-gate.md)已root／fresh限定闭合、0数学轮停止。复用已库math/0512138v2，实际目视PDF44–47的§6部分，止§7；[版本／阅读范围](supplements/2026-10-27-ccm-section6-source-scope.md)保存direction、derived／Todd修补和标准P¹反测的消费限制。无新全文、无新算术源或经典正性，不追引用或下一paper；原PDF及阅读缓存仍仅本地。
