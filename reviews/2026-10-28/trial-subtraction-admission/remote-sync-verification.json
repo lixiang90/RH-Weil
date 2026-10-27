@@ -1,0 +1,23 @@
+{
+  "schema": "rh-weil-remote-sync-verification-v1",
+  "date": "2026-10-28",
+  "repository": "https://github.com/lixiang90/RH-Weil",
+  "branch": "main",
+  "published_source_commit": "fd480e19218c6dd17eba4b5021d3c24249feba91",
+  "published_source_tree": "715923ea308c3cc6c8a0914952f0300b3d337722",
+  "verification": "Independent connected GitHub GET mainref, git/commits/source and git/trees/tree matched local source commit/tree; tree not truncated.",
+  "verified_at_utc": "2026-10-27T20:07:44.720634+00:00",
+  "source_files": 16,
+  "root_binding_count": 21,
+  "mathematical_iterations": 0,
+  "cadence_lf_sha256_unchanged": "cc6877d133b9b9fabd57f199b2433fa4d3fea02a5786b61727cd8f8479d4d2db",
+  "rounds_since_review": 3,
+  "historical_mathematical_iterations": 49,
+  "scope": "EX fixed-c residualgrowth already implied by585strictfamily/actualorthocomplement/finiteHS and560fullidentity: strongest-old0stop, notnewmath. Fullgap candidate onlyunexecuted type/originalfee admission, notcoverage. Whole4/5UPPER andGoalopen retained.",
+  "next_fixed_fullgap_gate_executed": false,
+  "new_projection_or_numeric_experiment_executed": false,
+  "goal_status": "Root get_goal confirmed same runtime1793085111 active; completiongate open",
+  "external_source_scope": "No newweb/PDF/HTML/download/render/upstreamproofaudit. Reusedprojectproofs/readrecords; nextPbpage onlyplanned.",
+  "third_party_fulltext_or_cache_published": false,
+  "metadata_child_policy": "Receipt refers publishedsource. Childonlyreceipt/STATE/newcheckpoint; actualHEAD/tree independentlyverified afterpush, no recursive self SHA."
+}

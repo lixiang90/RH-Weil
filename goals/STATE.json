@@ -41,7 +41,7 @@
     "settled_iterations": [
       "notes/585-cofinal-sonin-fixed-source-trace-lower-and-core-error-fee.md"
     ],
-    "stage": "EX strict旧family/实际正交HS的强旧0止已三稿及只读意见/fresh/root消费，未开新数学；C048仍completed预算耗尽。下一fixed整个Mb类型/原费门未执行，当前待正常同步。",
+    "stage": "EX原strict旧family/HS强旧0停止已root/fresh消费且16源路径正常main同步/独立核验；C048预算耗尽。下一fixed整个Mb仅类型/原费首门未执行。metadata child实际HEAD/tree推送后单独核，不递归自记SHA。",
     "next_action": "仅执行 reviews/2026-10-28/trial-subtraction-admission/next-fixed-full-gap-type-and-fee-gate.md：先扣532一般cutoff/H0旧消费/旧BurnolPDF5Th4Cor5，核fixedMb同B_X/全inverse的相对kernel/原费及合并TC；若只type/HS/mM或unknown余项即0止，不预C049/586。",
     "stop_rule": "finitepolyEX已0止，不换W修复/调cδdegree。新fullgap只一次类型/原费来源门，不能合法性代coverage；无独立同源relative费用即0止，不续b/H0/投影/paper，不以partial失败完成Goal。"
   },
@@ -137,17 +137,17 @@
   "pending_processes": [],
   "runtime_goal_observation": {
     "status": "active",
-    "observed_at_utc": "2026-10-27T20:05:17.101042+00:00",
+    "observed_at_utc": "2026-10-27T20:07:44.720634+00:00",
     "created_at_unix": 1793085111,
-    "basis": "本轮root现场get_goal同实例active，唯一EX准入已实际核strict旧family/支持/root消费；上一轮来源/原件/同步progress，未新建/暂停/完成Goal。"
+    "basis": "本轮root再次get_goal确认同实例active；EX唯一准入已实际消费/源提交远端独立核验，下一fixed Mb首门仍未执行。"
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-10-28-trial-subtraction-admission.json",
+  "checkpoint": "goals/checkpoints/2026-10-28-trial-subtraction-admission-sync.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
-    "commit": "ea76fd4d3d1592e6173f3fbc4b7fd1dd8dbc14fc",
-    "tree": "6fda760469ce5025c7c74108d28fca53094efcd0",
-    "basis": "Independent GitHub GET mainref/commit/tree matched source; reviews/2026-10-28/gamma-signed-location/remote-sync-verification.json; metadata child actualHEAD/tree verified separately, no recursive self SHA."
+    "commit": "fd480e19218c6dd17eba4b5021d3c24249feba91",
+    "tree": "715923ea308c3cc6c8a0914952f0300b3d337722",
+    "basis": "Independent GitHub GET mainref/commit/tree matched source; reviews/2026-10-28/trial-subtraction-admission/remote-sync-verification.json; metadatachild actualHEAD/tree verified separately, no recursive self SHA."
   },
   "completion_audit": {
     "goal": "goals/GOAL.20261027.md",
@@ -163,7 +163,7 @@
   ],
   "process_inventory_observed_on": "两EX支持/下一只读意见/fresh均terminal且root已全文消费；无外部下载/PDF/渲染/数值后台。下一fullgap首门未执行。",
   "publication_approval_gate": {
-    "status": "current-EX-old-net-root-settled-awaiting-normal-push",
+    "status": "current-source-published-and-independently-verified",
     "destination": "https://github.com/lixiang90/RH-Weil",
     "visibility": "public",
     "branch": "main",
@@ -173,9 +173,9 @@
       "reply": "每轮把进度同步到github；把文献保存在文献库中，用研究看板来记录各个路线的状况",
       "scope": "本项目研究/Goal/STATE/看板/文献元数据/审查与同步回执；论文再分发许可不明则全文仅本地。"
     },
-    "current_scope": "本次EX强旧0止/两支持/下一意见/fresh/root/库看板状态检查点，cadence原字节，无第三方新原件，尚待main同步。",
-    "published_source_commit": "ea76fd4d3d1592e6173f3fbc4b7fd1dd8dbc14fc",
-    "verification": "reviews/2026-10-28/gamma-signed-location/remote-sync-verification.json"
+    "current_scope": "EX强旧0止16源路径正常main同步并独立核ref/commit/tree；cadence原字节保持，无新第三方原件。metadata child仅回执/STATE/新checkpoint，实际HEAD另核；下一fixed Mb首门未执行。",
+    "published_source_commit": "fd480e19218c6dd17eba4b5021d3c24249feba91",
+    "verification": "reviews/2026-10-28/trial-subtraction-admission/remote-sync-verification.json"
   },
   "research_board": "RESEARCH_BRANCHES.md",
   "literature_index": "literature/README.md",
