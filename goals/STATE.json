@@ -41,8 +41,8 @@
     "settled_iterations": [
       "notes/584-marked-cusp-borel-kernel-and-pan-residue-collapse.md"
     ],
-    "stage": "rawmean两终稿/fresh/root及额外只读范围PASS已结算0数学轮；管理/前件收据已保存，准备Git同步。下一cofinal仅公式准入，证明未执行。",
-    "next_action": "先正常同步本次结算并独立核远端；随后仅执行 reviews/2026-10-27/raw-theta-mean/next-cofinal-petersson-local-norm-admission.md：固定未平均Pet覆盖塔compactray level统一du费对旧552完整Γ高频；localevaluation未执行，不预C048/585。",
+    "stage": "rawmean两终稿/fresh/root及只读范围PASS已结算0；17源文件已正常push并独立核ref/commit/tree。保存同步回执metadata child，下一Pet局部费证明未执行。",
+    "next_action": "仅执行 reviews/2026-10-27/raw-theta-mean/next-cofinal-petersson-local-norm-admission.md：固定Γ(N0 n!)/κ3/2/restrictedautomorphy及未平均Pet Gram；先核compactray level统一du费，对旧552全Γ高频先选fixed大R再令n∞。尚未执行，不预C048/585；标准合成0止本family，不调旧参数/串paper。",
     "stop_rule": "C047预算已耗且rawrecipe止。下一固定Pet原规范若标准localevaluation+旧552直接合成则0止该family，不调level/ray/weight或串paper；若费失败先定位actual前件/净费用再准新合同，不强加逐层Pan，保不同volume/权/非局部实物修复。"
   },
   "support_contracts": [],
@@ -147,12 +147,12 @@
     "basis": "恢复时现场get_goal同实例active，当前rawmean/joint两稿及fresh实际终稿核读，root消费/管理执行中。"
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-10-28-raw-theta-mean-joint.json",
+  "checkpoint": "goals/checkpoints/2026-10-28-raw-theta-mean-joint-sync.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
-    "commit": "c196bfe782409e0b7ea5b7a33e4821ff1af8c060",
-    "tree": "fdd489fa19f71df2300443c7322a229daadf08a8",
-    "basis": "独立GitHub GET ref/commit/tree与本地同；reviews/2026-10-27/corrected-theta-source/remote-sync-verification.json；metadata child实际HEAD另核，不递归自记SHA。"
+    "commit": "f167562a5c7489e29605a6cb28bab16a25abc28e",
+    "tree": "33699e005c1fe2029fe75d142598c11766741b87",
+    "basis": "独立GitHub GET ref/commit/tree与本地同；reviews/2026-10-27/raw-theta-mean/remote-sync-verification.json；metadata child实际HEAD另核，不递归自记SHA。"
   },
   "completion_audit": {
     "goal": "goals/GOAL.20261027.md",
@@ -166,9 +166,9 @@
     "goals/goal-completion-receipt.20261014.json",
     "goals/goal-completion-receipt.20261014-continuation.json"
   ],
-  "process_inventory_observed_on": "当前rm_source/rm_joint/fresh终稿已completed；复用rm_fresh对三新文档只读范围核查亦完成PASS，无文件改动。无证明/数值/网络后台，下一localevaluation未执行。",
+  "process_inventory_observed_on": "rm_source/rm_joint/fresh终稿和额外只读范围任务均completed；正常push已退出且独立source核验完成。无证明/数值/网络后台。下一localevaluation未执行，metadata child只是保存同步事实。",
   "publication_approval_gate": {
-    "status": "current-rawmean-source-local-settled-awaiting-normal-push",
+    "status": "current-source-published-and-independently-verified",
     "destination": "https://github.com/lixiang90/RH-Weil",
     "visibility": "public",
     "branch": "main",
@@ -178,9 +178,9 @@
       "reply": "每轮把进度同步到github；把文献保存在文献库中，用研究看板来记录各个路线的状况",
       "scope": "本项目研究/Goal/STATE/看板/文献元数据/审查与同步回执；论文再分发许可不明则全文仅本地。"
     },
-    "current_scope": "本次rawmean三稿/root/下一准入/STATE/决策/看板/文献元数据/检查点；仅正常main，PDF/缓存本地，无新下载，cadence原字节保持。当前源尚未push，旧远端回执保历史。",
-    "published_source_commit": "c196bfe782409e0b7ea5b7a33e4821ff1af8c060",
-    "verification": "reviews/2026-10-27/corrected-theta-source/remote-sync-verification.json"
+    "current_scope": "本次17源路径正常main同步且独立ref/commit/tree核验；后续metadata child仅回执/STATE/checkpoint，实际HEAD另核。PDF/缓存本地，无新下载，cadence原字节保持。",
+    "published_source_commit": "f167562a5c7489e29605a6cb28bab16a25abc28e",
+    "verification": "reviews/2026-10-27/raw-theta-mean/remote-sync-verification.json"
   },
   "research_board": "RESEARCH_BRANCHES.md",
   "literature_index": "literature/README.md",
