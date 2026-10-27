@@ -1,5 +1,9 @@
 # 宏观前沿：可消费范围与最小未付箭头
 
+2026-10-28，[原全z运输族闭合](reviews/2026-10-28-framed-holonomy-strongest-old-stop.md)已两支持/fresh/root限定强旧0止：全Sexp/全z/原费与interaction双端I已闭，必要V2,11单独du连续，旧553已决定fullPan下降失败；whole族无globaldu界不免系数责任。两宽读按补正冻结重闭，旧hash保留；不建C049/586、不调B/A0/frames/高阶。cadence3/历史49/cycle16原字节保持，数学瓶颈/whole4/5UPPER未改。当前无后继合同；[新实物到位后验收](../reviews/2026-10-28/framed-holonomy-closure/next-new-input-admission.md)，已请求具体公式/原命题，非verifiedwait/自动后继门；Goalactive/open。
+
+最短可消费链：全Pan恒I→必要Taylor系数零；a≠0旧mean失败，a0时q_B=|c|²/2∫r(G*r)且||G||1=4→globaldu连续→553 dense physicalPan迫q_B全零，与旧realbump非零矛盾；B0全源灭。明确单条Pan的Greenenergy与余项只加强见证，不改变旧wholefamily失败净果。interaction-frame语义已精确，background-only较大类不套失败。已登记来源/候选均耗用，不制造下一math/检索/宏观重复；新增实际数据再准。
+
 2026-10-28，[一次原命题定位](reviews/2026-10-28-independent-source-discovery-stop.md)已两支持/fresh/root限定来源0止：固定3query一批/12聚合visible，唯一Zenodo记录页只议程与条件，无已读actual公式locator；未读PDF不判不存在，无续查询/章/paper。另有root[原创全z运输公式准入](../reviews/2026-10-28/independent-source-discovery/next-original-framed-holonomy-admission.md)及低阶草稿，唯一下一先闭原对象/norm/frames/最强旧并分类，未数学消费/未准C049。cadence3/历史49/cycle16原字节保持，实际瓶颈/whole4/5UPPER未改，Goal门open。
 
 当前外部发现门已经耗尽；不能从有限无locator推全球无输入。原创candidate定义A0=diag(1/4,-1/4)、fixedHermitianB、Y′=zr e^(-uA0)B e^(uA0)Y、两端framed全z族；额外意见低阶系数只为未root消费草稿。下一不是再构造/重做旧locator，而是原范数/强域/gauge/真实Pan量词及最强旧闭合，确定是否新完整strict反例及真实轮数。所有Γ/幂/pole/mixed责任仍欠，不以nonlinear标签取资格。
