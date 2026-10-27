@@ -1311,3 +1311,13 @@ STATE指定章已root及两独占分支实际目视原PDF44–47§6部分，fres
 下一须新的独立实物或能改变选择的actual comparison/test/net；本轮next-input-admission先扣535/560及strongold，不能将已闭trace接口或弱旧子费重新命名准入。唯一具体动作落STATE，不串另一来源门。
 
 root读完该准入稿后选择唯一未执行建设性预检：L=3/2，F完整覆盖p<e³，对冻结的5个pole-zero compact physical源先付真实t_F矩阵的独立reader／原du-Dlog／交叉块及全部截断、投影逆残差和frequency-return尾；此输入未成之前不运行数值。535已闭的570→534纯trace修补明确撤下，560任意Gram存在性不算新结果。若只有unknown残余就止，不开C047；有输入也只允许一次冻结有限E≤0假设反证门，pass不代全源／成长或RH。具体基、全部powers与责任见本轮next-input-admission及STATE，不续source章。
+
+## D20261027F — 实际五源reader误差预检0轮闭合，下一必须实现而非再造公式
+
+三个独占原稿、root总稿／7版本消费收据与fresh限定PASS已root实际核读。固定C0的N20精确有理脚本已运行，Machin π包围、exact HHinv、两符号向外LDL及realcos Taylor global residual给gap>10^−6／R0<10^6；fresh独立重放同JSON。它只付投影输入，非T数值／RH证据。
+
+真实Π_F给支撑a=e^−L、b=1/9699690，D_r=1_[a,∞) A_rF1_[b,∞)是HS；其exactlog积分、行列无限尾及logcell S2误差允许T=Tr(D_i FΠF D_j*)独立读出。整个H上mathcalA=P B*B P+(I−P)，variational J与true-H residual给全部G逆／returns误差；finite solve残差不能代之。source完整Γ/contact、12个powers、双pole和原du/Dlog／cross坐标已对齐，linear-first四表须一并transpose。
+
+535／560原trace域／Gram存在性及532／533的P/k_s是旧输入，当前只落实其标准可计算设施，统一建设性0轮，cadence1／历史47／cycle16保持，无C047/584。没有q0/T/E表、没有Hfin符号或新whole4/5UPPER／primitiveRR／actualq/core/coupling/Xi；Goal同实例active，不满足完成门。
+
+下一唯一动作是同一reader的实际实现验收：固定h0=1_[1,2]、q0=<h0,FΠ_FFh0>，产成本表、J区间及真实Hilbert residual，目标总宽≤1/16；它是reader组件验证，不替代原五源表，随后回同一N/Q/T/E和cross。若成本／误差未付，保存具体日志即止，不换源/L/F/升模式躲反例，不串另一reader/paper；不得再将同一抽象误差公式当进展。准确交接见tf-reader/execution-handoff与STATE。

@@ -1,5 +1,9 @@
 # 宏观前沿：可消费范围与最小未付箭头
 
+2026-10-27，[固定五源actual reader预检](reviews/2026-10-27-five-source-actual-trace-reader-precheck.md)三原稿／root／fresh限定闭合。实际C0精确有理证书给gap>10^−6、R0<10^6；真实source双支撑的HS夹心／全物理尾／全Hilbert residual与完整Q原norm账本对齐，避开非Hilbert plane-wave及finite residual偷换。仅建设性0轮，原cadence1／历史47／cycle16保持；535／560旧trace/Gram不重计，无C047/584。
+
+未计算q0/T/E，未判Hfin。固定源族的reader可计算性不代全源／成长signed、primitiveRR或whole4/5UPPER改善，主瓶颈未变。下一必须实现并验固定h0 physicalstep q0的true-H residual／成本（目标宽≤1/16），随后原五源表；未付即保明确成本/误差止，不换源/F/L或再写reader公式。唯一动作与发布见STATE；以下为历史。
+
 2026-10-27，[CCM§6来源门](reviews/2026-10-27-ccm-geometric-correspondence-source-gate.md)两原稿／root／fresh限定闭合、来源0停止。原页有向KK/sheaf作用、pull-push identity及ordinary-cycle/Kpush的语义已校正，两P1有限反测与583同一m1 point腿限定消费。仅保明确typed derived／perfectkernel／Todd接口；无条件原6.11与自动principal下降仍冻结，非所有KK路线不可能。583不依此章，410–437既有非零relative电荷保持，不把comparison-fiber／idealK0／HH1／cone合并。
 
 没有新的physical／primitive／mixedRR或完整signedζ输入；原cadence1／历史47／cycle16保持，未建C047/584，不续§7／引用／下一paper。主瓶颈和whole4/5UPPER未改。下一先扣535/560与strongold作实际输入准入，不以旧trace接口换名复活；唯一动作与同步见STATE。以下为历史。

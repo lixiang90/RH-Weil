@@ -1,5 +1,7 @@
 # 长期研究恢复入口
 
+2026-10-27，[五源reader预检](reviews/2026-10-27-five-source-actual-trace-reader-precheck.md)已root/fresh限定闭合：C0有理gap证书实际执行／重放，HS／真Hilbert残差／全Q及原norm误差输入对齐；建设性0轮，cadence1／历史47／cycle16保持，无C047/584。**q0/T/E与Hfin未执行**，经典主瓶颈未改。下一必须按tf-reader/execution-handoff实现固定h0的q0认证宽≤1/16及成本，再回五源表，不再重复抽象reader公式；当前实际阶段／同Goal及发布见STATE。
+
 2026-10-27，[CCM§6](reviews/2026-10-27-ccm-geometric-correspondence-source-gate.md)指定章已root／fresh限定来源0止：原方向、推拉消去、ordinary-cycle/Kpush与principal下降须按两P1反测／m1 point腿限定；仅保typed derived／Todd修补，583及旧relative资产不回滚。无新算术源／mixedRR，cadence1／历史47／cycle16保持，不建C047/584、不续§7或下一paper。下一依本轮实际输入准入先扣强旧，当前执行与发布见STATE；旧“下一读CCM”已完成。
 
 2026-10-27，[C046／583](reviews/2026-10-27-completed-modular-cusp-583-settlement.md)已三原稿／root／独立fresh限定闭合：实际全S_exp Faber源、II2,2逐m native规范及balanced globalL1／mass尾包含cusp/Nk²；a0Φ0另保line标签。raw保Pan，标准连续principal类商杀537，经典primitiveRR／完整signedζ与whole4/5UPPER主瓶颈未改。统一一数学轮，单cadence0→1／历史46→47，cycle16不重置；C046预算已耗尽并停止同recipe。下一依独占准入审计取单门，不预建C047；当前阶段、同实例active Goal和GitHub同步以STATE为准。下方“不建C046”等均属各次历史。

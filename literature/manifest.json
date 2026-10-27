@@ -2495,6 +2495,28 @@
       "review_note": "supplements/2026-10-27-cusp-transport-source-scope.md",
       "download_receipt": "supplements/2026-10-27-cusp-source-download.json",
       "status": "Standard j/Faber background verification for C046; no new paper route or independent classical positivity input."
+    },
+    {
+      "id": "NIST-DLMF-psi-reader-20261027",
+      "authors": "NIST Digital Library of Mathematical Functions",
+      "title": "Digamma partial fractions5.7.6 and trigamma series5.15.1",
+      "version": "Page footer observed Version1.2.8, release2026-09-15; accessed2026-10-27",
+      "source_url": "https://dlmf.nist.gov/5.7.E6",
+      "additional_source_url": "https://dlmf.nist.gov/5.15.E1",
+      "category": "standard-special-functions",
+      "download_status": "tool-visible-formula-extractions-saved",
+      "read_scope": "Root/source branch rechecked only these two official formulas and their domains; derived explicit real-line Gamma bounds and quadrature errors in project. No whole chapter proof audit.",
+      "file": "local/2026-10-27-tf-reader/5.7.E6.tool-extract.txt",
+      "cache_sha256": "0f0adfbb7d0b5f2d18eb9b679d9222998796227ab8a3b65705f6568052f7daa1",
+      "additional_cache_file": "local/2026-10-27-tf-reader/5.15.E1.tool-extract.txt",
+      "additional_cache_sha256": "1d8d4927a185b732d4fb352ce8262c764f13e19a3ba73797d6e94d3a554a4e44",
+      "cache_kind": "Normalized tool-visible equations, not original author TeX bytes",
+      "raw_download_status": "TeX direct GET HTTP403 through authorized proxy; web TeX unsupported MIME. Public HTML reading succeeded. No raw original download asserted.",
+      "git_included": false,
+      "review_note": "supplements/2026-10-27-tf-reader-source-scope.md",
+      "read_record": "../reviews/2026-10-27/tf-reader/dlmf-source-read-record.json",
+      "retrieved_on": "2026-10-27",
+      "status": "Standard quadrature input only; no new independent arithmetic positivity."
     }
   ],
   "supplement_provenance": [

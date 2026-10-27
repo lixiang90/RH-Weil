@@ -1,0 +1,28 @@
+[
+  {
+    "equation": "5.7.E6",
+    "source_url": "https://dlmf.nist.gov/5.7.E6",
+    "file": "literature/local/2026-10-27-tf-reader/5.7.E6.tool-extract.txt",
+    "cache_bytes": 265,
+    "cache_sha256": "0f0adfbb7d0b5f2d18eb9b679d9222998796227ab8a3b65705f6568052f7daa1",
+    "cache_kind": "normalized tool-visible equation extraction, not original author bytes",
+    "observed_version": "DLMF page footer Version1.2.8, release2026-09-15",
+    "retrieved_at_utc": "2026-10-27T09:51:02.501882+00:00",
+    "read_scope": "Only equation partial fractions and applicability at Re z=1/4; derivatives/quadrature constants proved in project. Not a whole-chapter proof audit.",
+    "raw_tex_download": "HTTP403 via authorized proxy; web TeX fetch unsupported content-type. Public HTML formula read succeeded.",
+    "git_included": false
+  },
+  {
+    "equation": "5.15.E1",
+    "source_url": "https://dlmf.nist.gov/5.15.E1",
+    "file": "literature/local/2026-10-27-tf-reader/5.15.E1.tool-extract.txt",
+    "cache_bytes": 212,
+    "cache_sha256": "1d8d4927a185b732d4fb352ce8262c764f13e19a3ba73797d6e94d3a554a4e44",
+    "cache_kind": "normalized tool-visible equation extraction, not original author bytes",
+    "observed_version": "DLMF page footer Version1.2.8, release2026-09-15",
+    "retrieved_at_utc": "2026-10-27T09:51:02.509505+00:00",
+    "read_scope": "Only equation partial fractions and applicability at Re z=1/4; derivatives/quadrature constants proved in project. Not a whole-chapter proof audit.",
+    "raw_tex_download": "HTTP403 via authorized proxy; web TeX fetch unsupported content-type. Public HTML formula read succeeded.",
+    "git_included": false
+  }
+]

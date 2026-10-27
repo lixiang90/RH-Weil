@@ -8,7 +8,7 @@
   "cadence": "goals/review-cadence.json",
   "decisions": "goals/DECISIONS.md",
   "latest_strategy": "goals/reviews/2026-10-27-general-rh-macro-review-cycle-16.md",
-  "latest_decision": "D20261027E",
+  "latest_decision": "D20261027F",
   "macro_frontier": "goals/MACRO_FRONTIER.md",
   "macro_summary": "goals/reviews/2026-10-27-general-rh-macro-review-cycle-16.md",
   "latest_macro_review": "goals/reviews/2026-10-27-general-rh-macro-review-cycle-16.md",
@@ -21,7 +21,7 @@
   "macro": {
     "long_objective": "G20261027接续G20261014完整完成门/原0c4f基线，≤582为输入；持续寻经典同源Weil正性/有效性/RR或actualsigned新输入，付全源/成长/core及谱识别。",
     "unpaid_bottleneck": "583已付all-source模Faber及fixed复粗曲面balanced Green/current/boundary全尾；raw注入不消Pan，标准连续principal闭商杀537。仍欠同一非零primitive物理源/整过滤/截面乘法/mixedRR及完整signedζ身份，actualq/core/coupling/Xi与whole4/5UPPER未变。",
-    "why_this_contract": "CCM实际来源门无新physical输入，字面兼容语义已纠正后止；535已覆盖拟重开trace门，560涵盖Gram存在性。当前仅5个冻结实际源的t_F独立reader/误差建设性预检，比再串source章更接同源signed责任，未声称准入新数学合同。",
+    "why_this_contract": "535/560旧trace/Gram不重计；本轮以实际C0有理gap、source-HS exact双支撑和true-H residual落实可计算输入，0数学轮。现在必要下一步是实现并验证同一reader而非再写公式；固定h0验收服务原五源表，不替换longGoal，成本/余项不付即止。",
     "paused_routes": [
       "零点比例优化",
       "无零区域优化"
@@ -40,8 +40,8 @@
     "settled_iterations": [
       "notes/583-completed-modular-faber-source-and-native-green-transport.md"
     ],
-    "stage": "CCM指定章root/fresh来源0止，17源路径已正常push main并独立GET ref/commit/tree一致；回执/STATE与本checkpoint由metadata child保存。无新数学合同或实验，C046仍已completed。",
-    "next_action": "只按reviews/2026-10-27/ccm-correspondence/next-input-admission.md冻结L=3/2、5个pole-zero physical源及完整F，建设actual t_F独立可计算reader、原du/Dlog Gram/crossblock和全部截断/真实inverse residual/frequency-return尾。未付不跑数值；若仍unknown余项即止，不重复535/560、不建C047、不续source章。",
+    "stage": "三reader原稿/root总稿/7版本收据与fresh限定PASS已root实际核读，建设性标准0轮结算；C0精确证书已执行/重放，q0/T/E/Hfin仍未执行。当前准备本轮正常同步，C046仍completed，无C047/584。",
+    "next_action": "先正常同步本轮reader证据/库/看板/STATE并核远端；随后仅按tf-reader/execution-handoff.md实现同一physical step reader，对固定h0=1_[1,2] q0输出成本/J区间/true-H residual，目标总宽≤1/16。通过后回原五源N/Q/T/E/cross表，未有输入不跑T数值；失败保存确切成本/误差，不换源/F/L或串paper。",
     "stop_rule": "一轮止本完成化recipe，不重查essential资格，不续N/rho/j常数/level/paper；无新全尾信息则降回标准范围，不强行计轮。"
   },
   "support_contracts": [],
@@ -108,16 +108,6 @@
       "scope": "cycle16比较578–582五完整轮及连续来源0；提前复盘原5→0一次，原目标强度和独立容量/core缺口保留。"
     },
     {
-      "path": "reviews/2026-10-27/modular-capacity/fresh-review.md",
-      "kind": "cited",
-      "scope": "独立核有限闭层/Hlog系数方向/合法逃逸、height仅upper及下一不重查已否域资格，修后限定PASS。"
-    },
-    {
-      "path": "literature/supplements/2026-10-27-modular-capacity-source-scope.md",
-      "kind": "cited",
-      "scope": "同SHA作者版§2/§4/§13核读及内部2018补注；首页日期非最后修订，所用p1输入消费不变，无新PDF。"
-    },
-    {
       "path": "notes/553-principal-cyclic-closure-and-cofinal-readout-fees.md",
       "kind": "cited",
       "scope": "最强旧全线Hlog中Pan稠密/bounded读出与cofinal原费；不得套指数增长cusp source核。历史详细前件仍在前沿/原稿。"
@@ -133,11 +123,6 @@
       "scope": "583 root消费的域norm/全源成长/依赖误差/方向/类角色/coverage/strongestold，fresh限定PASS；hash非证明。"
     },
     {
-      "path": "reviews/2026-10-27/cusp-transport/next-action-admission.md",
-      "kind": "cited",
-      "scope": "历史0轮准入，指定CCM章现已实际执行来源0止并追加语义纠正；不再是下一动作。"
-    },
-    {
       "path": "goals/reviews/2026-10-27-ccm-geometric-correspondence-source-gate.md",
       "kind": "cited",
       "scope": "root/fresh限定来源0：typed方向、两P1反测、m1 naiveK0不尊principal、limited derived修补及relative角色；未给physical输入，止§7。"
@@ -150,18 +135,33 @@
     {
       "path": "reviews/2026-10-27/ccm-correspondence/next-input-admission.md",
       "kind": "open",
-      "scope": "未执行建设性预检：L3/2、完整F与5个pole-zero源，先付actual t_F独立reader/原norm/crossblock总误差；无新input/C047/数值实验。"
+      "scope": "历史固定5源准入，原参数不变；其reader误差输入现已建设性预检闭合，q0/T/E执行仍待。不是新classic输入/C047。"
+    },
+    {
+      "path": "goals/reviews/2026-10-27-five-source-actual-trace-reader-precheck.md",
+      "kind": "cited",
+      "scope": "root/fresh限定标准0轮：C0有理gap实际运行、真实D_HS/全尾/全Hilbert残差及原norm/Q误差流程，尚无q0/T/E/Hfin。"
+    },
+    {
+      "path": "reviews/2026-10-27/tf-reader/root-consumption-scope.json",
+      "kind": "cited",
+      "scope": "7版本对象/域norm/量词/误差/系数/whole净值/未执行表与停止，hash非证明。"
+    },
+    {
+      "path": "reviews/2026-10-27/tf-reader/execution-handoff.md",
+      "kind": "open",
+      "scope": "唯一未执行reader实现：固定h0 physicalstep q0真实residual宽≤1/16，随后同五源表；未付不能宣称已算。"
     }
   ],
   "pending_processes": [],
   "runtime_goal_observation": {
     "status": "active",
-    "observed_at_utc": "2026-10-27T09:31:32.915028+00:00",
+    "observed_at_utc": "2026-10-27T09:35:10.988762+00:00",
     "created_at_unix": 1793085111,
-    "basis": "本轮源同步后实际get_goal核同实例active；来源止/推送不completeGoal。"
+    "basis": "新轮get_goal现场同实例active；STATE指定reader预检已实际分派/读原件，无新Goal。"
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-10-27-ccm-section6-sync.json",
+  "checkpoint": "goals/checkpoints/2026-10-27-tf-reader-before-publication.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
     "commit": "ea93d4795099ca8b85d0ffadb139cf2dda778de8",
@@ -174,15 +174,15 @@
     "goal_lf_sha256": "b3d2acb1f962d793f45d79b6a4e67fb87dd072cd4752108a9298204b4cefa1de",
     "mathematical_gate": "open",
     "final_execution_gate": "not-eligible",
-    "basis": "本轮仅CCM来源接口标准校正/止门0数学轮；无新classic正性/primitiveRR/actualsigned/core/coupling/Xi，不符合Goal完成门。583资产保持。"
+    "basis": "仅标准建设性reader预检及C0精确输入证书；无q0/T/E/Hfin结果、无全源/成长signed或primitiveRR/actualq/core/coupling/Xi后果，Goal门open。"
   },
   "historical_completion_receipts": [
     "goals/goal-completion-receipt.20261014.json",
     "goals/goal-completion-receipt.20261014-continuation.json"
   ],
-  "process_inventory_observed_on": "本轮所有agent任务及正常push已完成，root已实际核稳定稿与next-input端点域小修；pending空，无数学程序或数值实验。独立GitHub核17源路径，metadata回执随child保存。",
+  "process_inventory_observed_on": "本轮3独占原稿及fresh均完成，root实际核稳定稿；C0 exactcertificate实际执行并fresh重放一致。无q0/T/E数值进程/实验，无pending数学程序，发布尚待执行。",
   "publication_approval_gate": {
-    "status": "current-source-published-and-independently-verified",
+    "status": "current-construction-precheck-settled-awaiting-publication",
     "destination": "https://github.com/lixiang90/RH-Weil",
     "visibility": "public",
     "branch": "main",
@@ -192,7 +192,7 @@
       "reply": "每轮把进度同步到github；把文献保存在文献库中，用研究看板来记录各个路线的状况",
       "scope": "本项目研究/Goal/STATE/看板/文献元数据/审查与同步回执；论文再分发许可不明则全文仅本地。"
     },
-    "current_scope": "本轮17源路径正常main同步及ref/commit/tree核验完成；此metadata child只保存同步回执/STATE/checkpoint，无数学轮。PDF/提取/页图仍仅本地。",
+    "current_scope": "本轮reader三稿/root/fresh及精确脚本/证书、库/看板/恢复记录待正常main同步，用户原授权持续有效；DLMF缓存仅本地。",
     "published_source_commit": "ea93d4795099ca8b85d0ffadb139cf2dda778de8",
     "verification": "reviews/2026-10-27/ccm-correspondence/remote-sync-verification.json"
   },
