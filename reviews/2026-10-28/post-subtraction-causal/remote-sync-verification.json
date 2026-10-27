@@ -1,0 +1,25 @@
+{
+  "schema": "rh-weil-remote-source-verification-v1",
+  "client_date": "2026-10-28",
+  "verified_at_utc": "2026-10-27T20:53:11.837538+00:00",
+  "status": "source-published-independently-verified",
+  "repository": "https://github.com/lixiang90/RH-Weil",
+  "branch": "main",
+  "source_commit": "b5a69bec16d557395663ea57cbb7f0f70ed375c6",
+  "source_tree": "dcae7ecf9ca4dc0b249214b75ed28eb92c2d1e9c",
+  "source_parent": "a60756be558d257719179d0559753131752bd027",
+  "remote_checks": {
+    "method": "Independent connected GitHub GET mainref, git commit, git tree",
+    "main_ref_sha": "b5a69bec16d557395663ea57cbb7f0f70ed375c6",
+    "commit_sha": "b5a69bec16d557395663ea57cbb7f0f70ed375c6",
+    "commit_tree_sha": "dcae7ecf9ca4dc0b249214b75ed28eb92c2d1e9c",
+    "tree_sha": "dcae7ecf9ca4dc0b249214b75ed28eb92c2d1e9c",
+    "all_matched": true
+  },
+  "scope": "15 explicit source paths: nonformal causal investment review0, two inventory supports, fresh/root scope, no current math admission; board/library/state/checkpoint. No web/PDF/raw thirdparty material or numerical result.",
+  "root_scope": "reviews/2026-10-28/post-subtraction-causal/root-consumption-scope.json",
+  "cadence": "Exact LF cc6877d133b9b9fabd57f199b2433fa4d3fea02a5786b61727cd8f8479d4d2db unchanged:3/history49/formalcycle16, no C049/586",
+  "next": "One unexecuted fixed3query/onebatch primary-statement discovery only, no present newlocator/chapter/math input; empty/oldfacilities stops without query/paper chain.",
+  "goal_gate": "Same runtime1793085111 active, open/noteligible. No new mathematical bottleneck change/whole improvement; publication not Goal completion.",
+  "metadata_child_policy": "Receipt binds verified source only; metadata child exactly receipt, STATE, new sync checkpoint. Actual child HEAD/tree verified independently after push outside recursive receipt."
+}
