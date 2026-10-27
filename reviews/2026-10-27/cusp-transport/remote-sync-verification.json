@@ -1,0 +1,20 @@
+{
+  "schema": "rh-weil-remote-sync-v1",
+  "date": "2026-10-27",
+  "repository": "https://github.com/lixiang90/RH-Weil",
+  "branch": "main",
+  "source_commit": "89aca7a36fee62aeaaec340ae07214a7c718f145",
+  "source_parent": "0c3c4dd599e7d0ed8917a63ddb3ac630d89cda15",
+  "source_tree": "1f32cdea904bbca6baa9f0343ecae33851934b26",
+  "verified_by": "Independent connected GitHub GET git/ref, git/commits and git/trees; source tree matches local git rev-parse HEAD^{tree}; normal proxy push.",
+  "root_tree_entries": 20,
+  "read_urls": [
+    "https://api.github.com/repos/lixiang90/RH-Weil/git/ref/heads/main",
+    "https://api.github.com/repos/lixiang90/RH-Weil/git/commits/89aca7a36fee62aeaaec340ae07214a7c718f145",
+    "https://api.github.com/repos/lixiang90/RH-Weil/git/trees/1f32cdea904bbca6baa9f0343ecae33851934b26"
+  ],
+  "scope": "20 source paths include583/root/fresh, contract, one cadence, board, library metadata and recovery. Third-party full texts local-only; receipt follow-up child does not recursively record own SHA.",
+  "goal_status": "Same createdAt1793085111 runtime Goal active; mathematics gate open.",
+  "next_action": "Only existing CCM fixed-v2 section6.1-6.3 PDF44-47 source review; compatibility-only => zero-round stop, noC047.",
+  "mathematical_iterations": 1
+}
