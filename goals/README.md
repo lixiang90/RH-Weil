@@ -1,6 +1,6 @@
 # 长期研究恢复入口
 
-2026-10-28，[自主构造与旧结果筛选](reviews/2026-10-28-autonomous-input-construction.md)已实际提出wind→Pic⁰和ξ曲率→纵向正谱两规则，已fresh/root限定收讫。前者小幅源送unit而537响应非零；后者丢横向权，旧模型拒通用自动身份，实际ξ身份仍未知。未形成合格core输入，不建C049/586，cadence3/历史49/cycle16原字节保持，数学瓶颈/whole4/5UPPER未改。可选用户公式请求不是唯一输入来源或授权阻塞；后续仍自主构造，当前没有已形成后继公式/新合同，不重开已止recipe/query。原[全z族停止](reviews/2026-10-28-framed-holonomy-strongest-old-stop.md)保持。当前执行只读STATE，下文为历史入口。
+2026-10-28，[C049/586固定theta谱首检](reviews/2026-10-28-theta-ground-state-586-settlement.md)已两原证明/fresh/root统一闭合：准确Dirichlet域、全n导数/严格两项count、完整Γ热缺陷log2/(2√πt)及真正fixedcompact平方不消失差。是这一实际正谱recipe的新完整反测，统一数学1，单cadence3→4/历史49→50，cycle16本次不归零。停止固定operator参数/sector/尺度/H幂/补偿；不推Qζ负、RH反例或全部confining界。全局关键瓶颈/whole4/5UPPER未改，Goalactive/open。下一先正常发布并核远端，再在允许第4轮正式cycle17宏观复盘，不建C050/587/续paper。当前只读STATE，下文为历史入口。
 
 2026-10-28，[一次原命题定位](reviews/2026-10-28-independent-source-discovery-stop.md)已两支持/fresh/root限定来源0止：固定3query一批/12聚合visible，唯一Zenodo记录页只议程与条件，无已读actual公式locator；未读PDF不判不存在，无续查询/章/paper。另有root[原创全z运输公式准入](../reviews/2026-10-28/independent-source-discovery/next-original-framed-holonomy-admission.md)及低阶草稿，唯一下一先闭原对象/norm/frames/最强旧并分类，未数学消费/未准C049。cadence3/历史49/cycle16原字节保持，实际瓶颈/whole4/5UPPER未改，Goal门open。
 

@@ -5,19 +5,19 @@
   "target_rounds": 6,
   "maximum_rounds": 8,
   "counting_unit": "completed research continuation iteration, not tool calls or files",
-  "rounds_since_review": 3,
+  "rounds_since_review": 4,
   "last_review": "goals/reviews/2026-10-27-general-rh-macro-review-cycle-16.md",
   "last_review_baseline_commit": "0359653fe31d8fec0a610ae3d6926731915b1c7a",
   "last_review_completed_round_count": 5,
   "last_review_trigger": "578–582 five complete mathematical rounds plus consecutive source-only stops trigger allowed early review at5. Current modular/Baire comparison and cycle16 are standard/old synthesis, zero new math; same cadence5->0 once, historical46 unchanged. G20261027 inherits old inputs and original0c4f baseline.",
-  "last_completed_round": "notes/585-cofinal-sonin-fixed-source-trace-lower-and-core-error-fee.md",
+  "last_completed_round": "notes/586-theta-ground-state-spectrum-and-full-gamma-heat-defect.md",
   "last_completed_round_date": "2026-10-28",
   "last_completed_round_baseline_commit": "0c4f3a3eb609bb1d9564138fa4a35701f05605f2",
   "latest_user_directed_review": "goals/reviews/2026-10-27-general-rh-macro-review-cycle-16.md",
   "latest_user_directed_review_baseline_commit": "0c4f3a3eb609bb1d9564138fa4a35701f05605f2",
   "latest_user_directed_review_scope": "持续Goal执行：模输入容量标准比较0轮，fresh/root闭合；已有5完整轮处提前cycle16，原5→0一次/历史46保持，单边lower及合法完成化保留。",
-  "current_research_focus": "C048/585 one mathround settled: actualcofinal ALLfirstfixednonzero compactcomplex trace lower andfullK positivegrowth/coredanger necessaryfee, originalnorm/Γ/allpp/bothpoles retained. Strongestoldwhole4/5 unchanged; independentpositiveprimitive/signedcoupling unpaid. Stoplower/sharp/sectionqueue; nextnonformalcausalbudgetchoiceaudit, noC049/pre586, cycle16notreset.",
-  "weil_f1_rounds_since_historical_review": 49,
+  "current_research_focus": "C049/586 one mathround root-fresh settled: actual allinteger theta halfline Dirichlet spectrum two-term count/heat Gamma defect and fixed compact source nonvanishing mismatch. Old Htail/Theta_zeta paid and deducted, noRH counterexample/whole4/5 or keybottleneck improvement. Stop fixed operator recipe. Four complete since cycle16 (583-586), next formalcycle17 review at allowed4 after continuous source/construction0; noreset before completed review, noC050/587.",
+  "weil_f1_rounds_since_historical_review": 50,
   "last_completed_round_note_paths": [
     "notes/524-f1-mobius-cutoff-taylor-obstruction-and-repair.md",
     "notes/525-f1-smoothed-mobius-probes-and-arithmetic-strength.md",
@@ -68,6 +68,7 @@
     "notes/582-full-local-weil-strong-domain-and-actual-green-source-gates.md",
     "notes/583-completed-modular-faber-source-and-native-green-transport.md",
     "notes/584-marked-cusp-borel-kernel-and-pan-residue-collapse.md",
-    "notes/585-cofinal-sonin-fixed-source-trace-lower-and-core-error-fee.md"
+    "notes/585-cofinal-sonin-fixed-source-trace-lower-and-core-error-fee.md",
+    "notes/586-theta-ground-state-spectrum-and-full-gamma-heat-defect.md"
   ]
 }

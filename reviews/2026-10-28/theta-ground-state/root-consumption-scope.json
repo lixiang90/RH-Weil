@@ -1,0 +1,83 @@
+{
+  "schema": "rh-weil-root-consumption-scope-v1",
+  "client_date": "2026-10-28",
+  "root_consumed_at_utc": "2026-10-27T22:41:34.515787+00:00",
+  "status": "root-fresh-limited-closed-new-complete-actual-spectrum-admission-countertest",
+  "goal": "goals/GOAL.20261027.md",
+  "runtime_goal_created_at": 1793085111,
+  "baseline_commit": "0c4f3a3eb609bb1d9564138fa4a35701f05605f2",
+  "decision": "D20261028Q",
+  "result": "notes/586-theta-ground-state-spectrum-and-full-gamma-heat-defect.md",
+  "object_norm_domain_roles": {
+    "arithmetic_seed": "Actual405 allinteger Htheta>0 even Sexp. OldH/rp tail/Vleading paid, not unknownpositiveH/zeroordinate selection. This scalar seed does not unfreeze unrelated arithmeticTheta literal/7.4.",
+    "operator": "x in(0,infty), L2(dx), Dirichlet at0. q=integral |fprime-Hprime f/H|^2, Dq=H1_0 intersectL2(exp4x dx); A=-D2+Hsecond/H. Closed/positive selfadjoint compactresolvent andlambda1>0 actuallypaid. H(0)>0 excludesDirichletzero mode.",
+    "comparison_roles": "D/N splits use Schrodinger energy integral|fprime|2+V|f|2, not squaredpiece forms withmissingboundary/Robin. Pureexponential phase onlyintegralcomparison, not isospectralreplacement. Fulln retained. Neumanncomparisonboundaries notcandidateparameterchanges.",
+    "physical_source": "u inR, r=e^(u/2)f fullcomplex Cc smooth/Sexp, originaldu/zeroextensionDlog. xenergy norm notphysicalnorm orWeilqL operator. PerlayerL1/fixedwindowduDlog/strong fees paid; no globaldu bound or uniformmoving-source fee."
+  },
+  "spectral_premise_closure": {
+    "tail": "Fulln relativej<=3 derivatives O(z^j exp(-3z)), z=pi exp2x; V1=4z2-22z+33/4+3/(z-3/2), Vprime eventualpositive. |V-4pi2exp4x|<=Cexp2x globally. Oldleading deducted.",
+    "domain": "Graphclosure weightedH1 withtrace0, distribution operator domain, compactembedding bylocalH1 andweightedtail, kernel onlycH incompatibleDir0.",
+    "count": "Ntheta(T2)=T/(2pi)[log(T/pi)-1]+Otheta(sqrtT(1+logT)), T>=Ttheta, fixedtheta constants. Multiplicityonce, threshold<=; no plusminus2.",
+    "errors": "fixedhead count x0T/pi+O1 versusphase x0T+O1/T; ceilgrid delta=T^-1/2,m=OsqrtTlogT; cellfloor<=1 plusmonotoneRiemann deltaT; NNtail V>=T2 and>a.e no<=state. Actual-purephase difference OsqrtT bysqrtHolder overturnunion. Pureintegral exact thenO1/T. No unpaidWKB theorem."
+  },
+  "heat_source_premise_closure": {
+    "conditional_closed": "Heat(C) is exactly final spectral2a233 count andoriginaldomain, nowrootconsumed; no remaining conditionalcount. Bothraw versions andfreshactualbytes checked.",
+    "frequency_and_trace": "nuT=sum +/-delta sqrtlambda eachonce; hatWT=2pi nuT; fullheat=2Tr exp(-tA)=4t integral T exp(-tT2)N(T2)dT. Ordinarytracefinite allfixedt>0 fromcount.",
+    "new_theta_heat": "[log1/t-gammaE-log(4pi2)]/[4sqrt(pi t)]+Otheta(t^-1/4 log(2+1/t)); psi(3/2)=psi(1/2)+2, psi(1/2)=-gammaE-2log2.",
+    "paid_target": "Old566(13)/(15): completeGammaFPcontact/allproperpowers/bothpoles, Theta_zeta=[log1/t-gammaE-log(16pi2)]/[4sqrt(pi t)]+O1, withoutRH. Not a realzero squaredspectrum assumption.",
+    "actual_direction": "Theta_theta-Theta_zeta=log2/[2sqrt(pi t)]+Otheta(t^-1/4 log(2+1/t)); limit sqrt(t) difference=log2/(2sqrtpi)>0. Ruleheat too large, not Qzeta negative.",
+    "source_and_limits": "FiniteM_T=2N(T2) L1 fees, fixedI_L du fee2L M_T andDlog 1/log2. Countpoly mass gives S-prime andfixedcomplexSexp/Cc limit, derivativeL1 tail T^(1-2m)logT. Not globaldu/moving/growingwindowuniform. No eachlayerexactPan requirement.",
+    "gaussian_transport": "Samechi_R k_t ->k_t inSchwartz/Sexp forfixedt. theta positive temperedmeasure/polycount, zeta fullGamma logmultiplier andL1+secondderiv, allpp exponentialsum andpole weight close bothsides. Dprime alone nottestnoncompact. Forconvolutions r=chi_R k_(t/2), weightedL1 seminorm closes squarecrop.",
+    "fixed_compact_witness": "Firstfixed smallt withdelta_t>0, thenfiniteR fixed r givingQtheta(r)-Qzeta(r)>delta_t/2, thenTlarge givesQT(r)-Qzeta(r)>delta_t/4. r andphysicalpreimage compact, notmoving/17over16/negativeQzeta. Allcofinaloriginalcutoffs have sameWtheta."
+  },
+  "strongest_old_and_counting": {
+    "paid": "405/10-14Htail/Vleading,565selector,566complete target andspecificgraphcounter allinputs. OldnonlocalEg/Kdiv no sameobjectequivalence payingactualAlinearT constant. New actualstrictcount/heat/fixedsource countertest notoldleadingreprint.",
+    "side_zero_attempts": "IntegerGaussianGram exact579/582sampling withpi/12 globaldu, rejectedold553/552; factorialdivisibility exact mu*log=Lambda originalprimeleg andQ, rejectedold549/555. Rootread bothfinal, standard0 no newindependentinput.",
+    "math_iterations": 1,
+    "basis": "Actualnew completefixedspectrum countertest afteroriginaldomain/strictremainder/sourceclosure/fresh/root, notadmission label/number/WKB/defaultcadence. Two proofs/fresh/sideattempts/source/Git notseparaterounds.",
+    "cadence_before_lf_sha256": "cc6877d133b9b9fabd57f199b2433fa4d3fea02a5786b61727cd8f8479d4d2db",
+    "cadence_after_lf_sha256": "b198b9d0a125aff2cc78b5280f84aa77a305e6182cc3f4243335260b1d18c752",
+    "settlement": "singlecadence3->4/history49->50, cycle16notreset; nextformal17 atallowed4 notyetexecuted"
+  },
+  "stop_coverage_coupling_net": "Stop fixedhalflinedirichlet/xscale/Hpower/+/-multiplicity/constants andcofinalcutoffrecipe; no sector/parameter/compensation fit orpaper continuation. Not allconfining/relative/nonlocal/sourcedependent rules excluded. Localcandidateidentity nowfalse, independentglobal signed/corecross/primitive mixed/Xi unpaid. Whole542+555->557 leading4/5 negativeinertiaUPPER and585necessaryfee/safehigh unchanged. No keybottleneck removal/wholeimprovement/RHcounterexample/Goalcompletion.",
+  "reviewed_draft_versions": {
+    "contract_before_status_append": {
+      "bytes": 3194,
+      "lf_sha256": "a792986a9ab25436cf492834d08ae18c29f1996fe9f0d070166b5fe3c2723e21"
+    },
+    "note_before_root_status_links": {
+      "bytes": 6098,
+      "lf_sha256": "417da8333f9940db9c3b929ae72c493e9beb2ffdcaec7f43112d56cc92537e9a"
+    },
+    "finalchanges": "Contractappendsettlement andnotestatus/receiptlinks only; auditedfixedmathematicalobjects/proofs unchanged."
+  },
+  "next_action": "Publishsource/mainandindependentlyverify then formalcycle17 macroreview of583-586 at4, frozenbaseline andGoalstrongestassets, oneprimary/realalternatives/admissionstop/counterfactualevidence. NoC050/587 orsourcequeue before review; do notresetcadencebeforeactualreviewconsumed.",
+  "source_scope": "No newexternalresearchweb/PDF/download/render/numerics. Projectinputs + originalelementaryspectral/heatproofs; libraryscope/boardupdated. GitHubAPIforsync only. Hash bindsversions notproof.",
+  "goal_gate": "Same runtime1793085111 active/open/noteligible; localcontract/push/side0 notGoalcomplete/blocked.",
+  "binding_count": 23,
+  "normalized_lf_sha256": {
+    "goals/GOAL.20261027.md": "b3d2acb1f962d793f45d79b6a4e67fb87dd072cd4752108a9298204b4cefa1de",
+    "goals/RESEARCH_WORKFLOW.md": "567b238a62872505f9b29688cf4320fafb7f20b67a650c6cd7711ad56ddf95c1",
+    "goals/contracts/C049-theta-ground-state-full-gamma-heat-gate.md": "1dac22d411f87547f18aab805d1000e6f0d2c967d20384e64bc1c05ffa3b4c88",
+    "notes/405-f1-adelic-restriction-moments-and-radical.md": "fe5ee4b574954e51a69c6bbbaa772bb75a1a510c91c837ba02eed8ac406cbb7d",
+    "reviews/2026-10-14/theta-joint-source/positive-jump-calibration-and-domain-gate.md": "55b67be3e867452cb00254dd30953ec430649fc743c97fc15b1a4af3f29c452e",
+    "notes/553-principal-cyclic-closure-and-cofinal-readout-fees.md": "35a40c35d1eaa7fafb462361ddef1bfb9643402b5670f832b9142aeb4b74abce",
+    "notes/555-actual-prime-weighted-schur-and-growing-weil-inertia.md": "55a3745ab8160738e2a2dde15e84290e99205df68f3b59b357d26127846a31c5",
+    "notes/560-joint-finite-place-sonin-primepower-cancellation-and-compact-weil-bridge.md": "9c2e6cd5a9eae269ad04b332699c21eec7403a230f9557afa8b895c45d4228d3",
+    "notes/563-distribution-side-weil-certificates-and-heat-complete-monotonicity.md": "094c11cb5909eecc7f4e17468f00b43281b9fc6299042565aa792046807a5f4c",
+    "notes/565-canonical-completion-graded-identifiability-and-independent-energy.md": "3ac5d8f6dbbd3dcfda10e74cd911c803bacfbfa8ac6aaa535b3559e7c374ea89",
+    "notes/566-source-closed-forms-and-full-weil-heat-trace-tests.md": "004f5438c918373e0ead73c0011ffb3883ef872c4977e356911dd910da177053",
+    "notes/582-full-local-weil-strong-domain-and-actual-green-source-gates.md": "6d5e5711e44fad0aec44e6d95233b7898370430bc9b7b1cc8281b7d4304fdcc8",
+    "notes/585-cofinal-sonin-fixed-source-trace-lower-and-core-error-fee.md": "5dca916d978eef599587ff4c6ce34144f814ddec0567a4c1b2314dcd71cd01af",
+    "notes/586-theta-ground-state-spectrum-and-full-gamma-heat-defect.md": "eb0334c5658d0e9950ca156542781fed2084d8ba1a941501e964779390cba3e2",
+    "reviews/2026-10-28/arithmetic-input-construction/theta-ground-state-candidate-admission.md": "a88149480173e119e429db60024f13fc9860afd78746097ccff8758efc29867c",
+    "reviews/2026-10-28/arithmetic-input-construction/theta-ground-state-admission-audit.md": "05251a4c6fa794cb1b2361eabe0af7874b3afc6fcab6b5fb9137737acfdeef1e",
+    "reviews/2026-10-28/arithmetic-input-construction/theta-candidate.md": "6b9f077a3e7ab8d4aa62f448baa7b846de05b4ac4af009647e8d6ac773f2f7f0",
+    "reviews/2026-10-28/arithmetic-input-construction/prime-candidate.md": "6f2384fae7a5bc266c0bd39a8f0d28c89e2ebfc89addfc9359a09e751c711c2a",
+    "reviews/2026-10-28/theta-ground-state/spectral-domain-and-two-term-count.md": "2a233e8b26962158d3fc7f035787c4b9a27d534919986fec398c1524d9bd879d",
+    "reviews/2026-10-28/theta-ground-state/heat-source-and-gaussian-transport.md": "0bc229396da45f449be8e0e298ee907db2c2eb34388514364c9f3ea7ec064303",
+    "reviews/2026-10-28/theta-ground-state/fresh-spectrum-heat-source-audit.md": "e4fd32aaea2fc986c5b50eab21c97e633d7538f5b341b62734111801f3c7b389",
+    "goals/reviews/2026-10-28-theta-ground-state-586-settlement.md": "68abea8d44e0b5215bd3d3a9162b35d88822d0452180bd34ea6b168448f59a28",
+    "literature/supplements/2026-10-28-theta-ground-state-586-scope.md": "3b6110dfc19d1a5ccb86444f69183f7dbd58cbfa94bf38f62a03313e24c3712b"
+  }
+}

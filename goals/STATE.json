@@ -8,11 +8,11 @@
   "cadence": "goals/review-cadence.json",
   "decisions": "goals/DECISIONS.md",
   "latest_strategy": "goals/reviews/2026-10-27-general-rh-macro-review-cycle-16.md",
-  "latest_decision": "D20261028O",
+  "latest_decision": "D20261028Q",
   "macro_frontier": "goals/MACRO_FRONTIER.md",
-  "macro_summary": "goals/reviews/2026-10-28-autonomous-input-construction.md",
+  "macro_summary": "goals/reviews/2026-10-28-theta-ground-state-586-settlement.md",
   "latest_macro_review": "goals/reviews/2026-10-27-general-rh-macro-review-cycle-16.md",
-  "latest_iteration": "notes/585-cofinal-sonin-fixed-source-trace-lower-and-core-error-fee.md",
+  "latest_iteration": "notes/586-theta-ground-state-spectrum-and-full-gamma-heat-defect.md",
   "macro_control": {
     "schema": "macro-recovery-v2",
     "goal_epoch": "G20261027",
@@ -20,8 +20,8 @@
   },
   "macro": {
     "long_objective": "G20261027接续G20261014完整完成门/原0c4f基线，≤582为输入；持续寻经典同源Weil正性/有效性/RR或actualsigned新输入，付全源/成长/core及谱识别。",
-    "unpaid_bottleneck": "独立净signed/corecross/非零primitive mixed/Xi仍欠；新wind规则杀小源，ξ曲率纵投影漏横向权而actual身份未知，均未形成coreinput。whole4/5UPPER/585必要费未改。",
-    "why_this_contract": "本轮自主生成两actual公式再由强旧前置0止，纠正只等用户的行动解释。继续构造须实际经典算术实物；当前无已形成后继公式/新math合同，不重复旧门或自动续query。",
+    "unpaid_bottleneck": "586严格排固定theta正谱的完整Γ身份；全局独立signed/corecross/非零primitive mixed/Xi仍欠，whole4/5UPPER及585必要费未改。局部候选由未付变失败，不是关键瓶颈移除。",
+    "why_this_contract": "C049新实际谱/热/compact源反测已严格闭合一轮且止；四完整583–586后全局门未改、期间连续生成0，下一应在允许第4轮formalcycle17比较投入与反事实，不续局部谱参数或预建未知合同。",
     "paused_routes": [
       "零点比例优化",
       "无零区域优化"
@@ -30,27 +30,28 @@
       "549–578的精确停门、paid资产及合法逃逸见MACRO_FRONTIER/各root收据；不以旧商/正锥membership/未知余项改名复活；542+555→557仅whole4/5负惯性UPPER。",
       "579–582的实际源/非标量cycles/full-local强域/Green已付，但各principal、原域、coverage或fixedcoarse primitive门失败；停止原recipe，保不同relative/higher/强拓扑/有费无界/源适应修复。",
       "10-27附件战略source0已止，无新经典J或容量；正Dprime逼近不需逐层405/ordinarytrace，须独立正序列/完整signed趋零。tensor须真对象与全阶pole。",
-      "literal/整体theta冻结；unitary/canonicalAc/Γsigned/EX/fullgap/三query定位及原rank2全z族均止。系数级553须先扣，不调B/A0/frames/高阶；新实物到位才再准。"
+      "literal/整体theta冻结；unitary/canonicalAc/Γsigned/EX/fullgap/三query定位及原rank2全z族均止。系数级553须先扣，不调B/A0/frames/高阶；新实物到位才再准。",
+      "586原theta半线Dirichlet/x尺度/H幂/±与cofinalcutoff谱规则完整Γ热缺陷，止该recipe；不泛排confining/relative/有新身份修复。"
     ]
   },
   "primary_contract": {
-    "id": "C048",
-    "path": "goals/contracts/C048-cofinal-sonin-fixed-source-lower-and-core-fee.md",
+    "id": "C049",
+    "path": "goals/contracts/C049-theta-ground-state-full-gamma-heat-gate.md",
     "status": "completed",
     "iteration_budget": 1,
     "settled_iterations": [
-      "notes/585-cofinal-sonin-fixed-source-trace-lower-and-core-error-fee.md"
+      "notes/586-theta-ground-state-spectrum-and-full-gamma-heat-defect.md"
     ],
-    "stage": "两actual自主构造/fresh/root限定强旧0已结算；13源文件9e1b429已正常推送并独立核GitHub ref/commit/tree。无新数学合同；正保存仅3文件metadatachild并核实际HEAD。",
-    "next_action": "自主构造一个由经典整数theta或全prime耦合实际定义的新source/mixed规则；先给公式及相对旧recipe的信息差，再用关系/小源/完整signed身份最便宜门筛选。有实物才准数学；当前尚无后继公式，不续已止recipe/query，也不等用户授权。",
-    "stop_rule": "停止原rank2及本wind/纵投影两recipe，不调阈值/载体/metric/epsilonT/横向moment或paper；无新实物不造数学合同。可自主构造新数据，不把无人回信或困难作blocked/complete理由。"
+    "stage": "两最终证明/fresh/root前件已统一闭合，586新完整实际谱反测一轮结算，C049预算耗尽；原件/库/看板/STATE待本轮正常发布与核远端。",
+    "next_action": "先同步并独立核本轮source/metadatachild；随后在当前允许第4完整轮正式作cycle17宏观审视，比较583–586/原冻结基线/最强旧与Goal门，给一主线/现实备选/准入停止及反事实改策证据；未复盘前不建C050/587或续谱参数。",
+    "stop_rule": "C049一轮耗尽；固定theta谱rule已完整反测，不改sector/x/H幂/±/常数/cofinalcutoff、补偿或续paper。formal17须实际完成才单cadence归零，局部失败不完成Goal。"
   },
   "support_contracts": [],
   "must_not_forget": [
     "G20261027接续G20261014完整完成门/原0c4f基线；≤582和10-27审视都是输入，旧成果不得重验收。实际runtimeGoal active(createdAt1793085111)，新建由本轮用户直接请求。",
     "完整Γ=2θ′/FP-contact、所有properpowers/双pole、ALLcomplex、原du及zero-extension Dlog；L/算术height/频高独立，fixed/强源/Dprime/成长不合并。",
     "每结果保object/domain-range/关系-商-physical角色/norm、源成长量词/依赖误差/符号/coverage-coupling/strongest-old净值。语义改变先freeze/reclose，draft不代root消费。",
-    "唯一cadence：cycle16原5完整轮复盘一次归零；583/584及585各统一一轮，目前3/历史49。来源/恢复/代理/审计/Git不增轮；默认6/允许4–8，当前3不formalcycle17/不归零，不恢复耗尽合同。",
+    "唯一cadence：cycle16原5→0一次；583/584/585/586各统一一轮，目前4/历史50。下一在允许4处formalcycle17，未完成前不归零；来源/构造旧重编码/恢复/代理/审计/Git不增轮，耗尽合同不恢复。",
     "strongold542+555→557 whole4/5是负惯性UPPER；537/538 fixed17/16不代成长/Ξ。560全fixed窗positiveTrace−compact+pole，572/高层变分不代低频core及cofinal sign。",
     "几何主线先405全noncompact Pan及平移actual消去、537非根/全源coverage/原费，再同对象整过滤/截面乘法/mixedRR。已知410–437真实relative电荷/573反测与574–575线/Cartier不重造，精确域见前沿。",
     "576正锥生成/alias费、577真Γ修补、578粗Selberg反测均已付；membership/缺陷消失仍open。Dprime策略可不逐层消405，不能泛化uniform原norm或ordinarytrace。",
@@ -109,20 +110,25 @@
       "scope": "whole未du界不能免必要q_B；interaction双端I与background宽读分开，旧hash保持。"
     },
     {
-      "path": "reviews/2026-10-28/autonomous-input-construction/root-consumption-scope.json",
+      "path": "notes/586-theta-ground-state-spectrum-and-full-gamma-heat-defect.md",
+      "kind": "proved",
+      "scope": "586/C049一轮：固定全整数theta Dirichlet谱两项count/完整Γ热正缺陷/fixedcompact平方非消失差；只止该谱rule，非RH反例/whole/core突破。"
+    },
+    {
+      "path": "reviews/2026-10-28/theta-ground-state/root-consumption-scope.json",
       "kind": "cited",
-      "scope": "两actual构造/fresh/root前置0：wind小源unit；ξ纵投影漏权、actual身份未知。自主研究授权非用户回信阻塞，无新core合同。"
+      "scope": "root将谱前件2a233与heat0bc/freshe4fd同链消费；原域/范数/全Γpp双pole/共同crop/最强旧及新旧分类绑定。"
     }
   ],
   "pending_processes": [],
   "runtime_goal_observation": {
     "status": "active",
-    "observed_at_utc": "2026-10-27T22:06:48.814252+00:00",
+    "observed_at_utc": "2026-10-27T22:38:40.214324+00:00",
     "created_at_unix": 1793085111,
-    "basis": "现场get_goal同实例active；两actual构造/root/fresh已执行并0结算，非等待人类；完成门未通过。"
+    "basis": "本轮现场get_goal同实例active；C049两实际证明/fresh/root已执行并一轮结算，完成门未通过。"
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-10-28-autonomous-input-construction-sync.json",
+  "checkpoint": "goals/checkpoints/2026-10-28-theta-ground-state-586-local.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
     "commit": "9e1b42904a96d246185a9240980c71306e8b6846",
@@ -135,15 +141,15 @@
     "goal_lf_sha256": "b3d2acb1f962d793f45d79b6a4e67fb87dd072cd4752108a9298204b4cefa1de",
     "mathematical_gate": "open",
     "final_execution_gate": "not-eligible",
-    "basis": "两自主构造在旧责任前止，actualξ横向身份仍未知；无独立经典净正号/corecross/primitiveRR/Xi，whole4/5UPPER未改；数学门open/noteligible。"
+    "basis": "586是一个固定实际positive谱recipe的严格完整反测，非Qζ负/全confining边界/关键瓶颈移除；独立signed/corecross/primitiveRR/Xi及whole4/5UPPER未改，Goalopen/noteligible。"
   },
   "historical_completion_receipts": [
     "goals/goal-completion-receipt.20261014.json",
     "goals/goal-completion-receipt.20261014-continuation.json"
   ],
-  "process_inventory_observed_on": "当前三support任务均已终稿/终结，无web/PDF/数值后台。13源文件已push并独立核远端；metadatachild待正常push及实际HEAD核验，无数学proof进程/verifiedwait。",
+  "process_inventory_observed_on": "当前spectral/heat/fresh三个C049任务均已最终稿并终结，root实际版本已核；无web/PDF/数值后台，待本轮正常Git发布。",
   "publication_approval_gate": {
-    "status": "current-source-published-and-independently-verified",
+    "status": "current-source-root-consumed-local-not-yet-published",
     "destination": "https://github.com/lixiang90/RH-Weil",
     "visibility": "public",
     "branch": "main",
@@ -153,7 +159,7 @@
       "reply": "每轮把进度同步到github；把文献保存在文献库中，用研究看板来记录各个路线的状况",
       "scope": "本项目研究/Goal/STATE/看板/文献元数据/审查与同步回执；论文再分发许可不明则全文仅本地。"
     },
-    "current_scope": "本轮自主构造筛选/行动解释纠正13源路径已正常main同步且独立核ref/commit/tree；无新外部原件/数学轮。metadatachild仅回执/STATE/新checkpoint，实际HEAD另核。",
+    "current_scope": "本轮C049/586两项谱/全热/compact源证明及两旧重编码0、准入/逆审/root/看板/库/STATE/cadence/checkpoint；已root消费，尚未新源push/独立远端核验。",
     "published_source_commit": "9e1b42904a96d246185a9240980c71306e8b6846",
     "verification": "reviews/2026-10-28/autonomous-input-construction/remote-sync-verification.json"
   },

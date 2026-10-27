@@ -1,5 +1,7 @@
 # RH-Weil 文献索引
 
+2026-10-28，[C049/586实际theta谱首检](../goals/reviews/2026-10-28-theta-ground-state-586-settlement.md)只用项目数据/旧消费，无新外部原件/PDF/研究网页/下载/渲染/数值，不增全文条目。[实际原件与阅读范围](supplements/2026-10-28-theta-ground-state-586-scope.md)区分旧H尾/目标热和新实际谱证明；两最终原稿/fresh/root给严格热缺陷与compact源反测，统一1数学。另整数采样/阶乘反演旧重编码0；单cadence4/历史50，下一正式cycle17尚未执行/归零。旧算术theta literal冻结不因405 scalar H解冻。
+
 2026-10-28，[自主构造筛选](../goals/reviews/2026-10-28-autonomous-input-construction.md)只用项目输入，无新外部原件/web/PDF/下载/渲染/数值，不增全文条目。[实际阅读范围](supplements/2026-10-28-autonomous-input-construction-scope.md)区分两原创规则与旧来源：wind小源单位门、ξ曲率纵投影与横向权缺失；actualξ身份未知，不把模型反测说成经典反例。已fresh/root限定消费，0数学/cadence3保持；新公式可由研究者自主提出，不转作用户权限等待。
 
 2026-10-28，[原全z族消费闭合](../goals/reviews/2026-10-28-framed-holonomy-strongest-old-stop.md)只用项目原件，无新web/PDF/下载/渲染/数值，不增条目。[实际阅读及语义范围](supplements/2026-10-28-framed-holonomy-closure-scope.md)保405physical、553系数前件和旧Dyson/gauge角色；whole未du界不免q_B责任，interaction双端frames明确。更强旧已排wholefamily，单条Green见证不另增数学轮；0止/cadence3保持，当前需新增实际输入。
