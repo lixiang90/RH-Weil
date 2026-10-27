@@ -1,0 +1,25 @@
+{
+  "schema": "rh-weil-remote-source-verification-v1",
+  "client_date": "2026-10-28",
+  "verified_at_utc": "2026-10-27T22:09:34.678449+00:00",
+  "status": "source-published-independently-verified",
+  "repository": "https://github.com/lixiang90/RH-Weil",
+  "branch": "main",
+  "source_commit": "9e1b42904a96d246185a9240980c71306e8b6846",
+  "source_tree": "5b1bf7bd12fe458961255744352ff3dd11328c9c",
+  "source_parent": "c420b3be3a879ff0e387179ff6998fcd3726af25",
+  "remote_checks": {
+    "method": "Independent connected GitHub GET mainref/gitcommit/gittree",
+    "main_ref_sha": "9e1b42904a96d246185a9240980c71306e8b6846",
+    "commit_sha": "9e1b42904a96d246185a9240980c71306e8b6846",
+    "commit_tree_sha": "5b1bf7bd12fe458961255744352ff3dd11328c9c",
+    "tree_sha": "5b1bf7bd12fe458961255744352ff3dd11328c9c",
+    "all_matched": true
+  },
+  "scope": "13 explicit sourcepaths: two autonomous formula constructions with actualnorm/quantifiers/cheapestold gates, currentfresh/root0 consumption, correction of optionalhumaninput-as-solepath, board/library/STATE/checkpoint. No newmathround/externalraw, noC049/586.",
+  "root_scope": "reviews/2026-10-28/autonomous-input-construction/root-consumption-scope.json",
+  "cadence": "Exact LF cc6877d133b9b9fabd57f199b2433fa4d3fea02a5786b61727cd8f8479d4d2db unchanged:3/history49/cycle16",
+  "next": "Autonomous construction of a genuineclassic arithmetic inputrule; no successorformula currentlyformed ornewmathcontract/queryqueue. Optionalhumanrequest notpermissionwait/externalblocked. Stop these winding/ordinateprojection recipes, do not repeatoldclosures.",
+  "goal_gate": "Same runtime1793085111 active/open/noteligible. Actualxi identity unknown, noindependent classicnet/core/primitiveRR/Xi orwholeimprovement. NoGoalcompletion/blockedfromdifficulty.",
+  "metadata_child_policy": "Receipt names verifiedsource only. Metadata child exactly thisreceipt, STATE andnew synccheckpoint. Actualchild HEAD/tree checkedindependently afterpush outside recursive receipt."
+}
