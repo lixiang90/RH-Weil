@@ -2696,6 +2696,25 @@
       "review_note": "supplements/2026-10-27-ell11-source-scope.md",
       "project_note": "../notes/584-marked-cusp-borel-kernel-and-pan-residue-collapse.md",
       "status": "Eta input only; new signedcut/Pan/fee theorem proved in project, no independentclassicpositive or arithmeticlift source."
+    },
+    {
+      "id": "Kudla-CDM-author-revised-20261027",
+      "authors": "Stephen S. Kudla",
+      "title": "Modular forms and arithmetic geometry",
+      "version": "Author CDM.revised.pdf; PDF metadata CreationDate2003-04-24, not an asserted printed revision/final publication identity",
+      "category": "arithmetic-geometry-next-source",
+      "source_url": "https://www.math.utoronto.ca/skudla/CDM.revised.pdf",
+      "pdf_url": "https://www.math.utoronto.ca/skudla/CDM.revised.pdf",
+      "file": "local/2026-10-27-joint-tower/kudla-cdm-revised-author.pdf",
+      "download_status": "downloaded-raw-author-pdf",
+      "bytes": 887943,
+      "sha256": "47ff2ff6f5151081dd029a1df680377b88d58fc09d6629f3a2b2c3b78bab0f54",
+      "pages": 56,
+      "retrieved_at_utc": "2026-10-27T13:10:09.986543+00:00",
+      "git_included": false,
+      "read_scope": "Root visual PDF1/4 title/author/TOC and tool-visible introduction; local identity extracts PDF1/3/4. Heading-only locator: section8 PDF31, section9 PDF32. No section8 body/proof consumed.",
+      "proof_status": "section8 source review not executed; no theorem consumed as classic input",
+      "scope_record": "supplements/2026-10-27-joint-tower-and-kudla-source-scope.md"
     }
   ],
   "supplement_provenance": [

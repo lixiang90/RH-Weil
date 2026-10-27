@@ -1,5 +1,9 @@
 # 宏观前沿：可消费范围与最小未付箭头
 
+2026-10-27，[joint oldform tower准入](reviews/2026-10-27-joint-oldform-tower-admission.md)已两原稿/root/fresh限定闭合：全d实际source和Dirichlet逆使tower恰为583 raw坐标自同构（E拓扑）；strong Pan闭包proper，不同于finite-principal稠密商。全source忘常数平移反测及加a0／polezero合法修复均保原角色。583旧continuous短语按[closed-base补正](../reviews/2026-10-27/joint-oldform-tower/583-principal-closed-base-correction.md)消费，非闭全零扩展冻结，原全尾/584不回滚。标准旧运输0轮，cadence2／历史48／cycle16不动，无C048/585；经典主瓶颈和whole4/5UPPER未改。停止坐标链，下一仅[已入库Kudla作者稿§8单章来源门](../reviews/2026-10-27/joint-oldform-tower/next-arithmetic-theta-section8-admission.md)，正文未执行，不续§9–11或追paper；同Goal/准确阶段/同步见STATE。
+
+Pan proper强商保537但只是519/520既有谱商完成化；physical原Fréchet商只连续忠实嵌入，不能当拓扑同构或新正号。全source忘常数失平移连续性，不排已分离双polezero域；补a0时principal闭包只{0}×E。真正几何底层map可通过旧解析商，只要有独立整结构/RR/原费用正号净后果；排除的是无新后果的形式改名。以下各“下一tower”等为已执行历史。
+
 2026-10-27，[finite-cover trace审查](reviews/2026-10-27-finite-cover-trace-admission.md)已root/fresh限定消费，标准旧推论0轮：任意给定coarse modular j-cover／全纯complexω／whole-cusp fixed masks，完整monodromy orbit筛系数并抵消1/w，subpole端点与complexjump给L¹[0,1728]读出；405旧compact-real门迫exact-Pan-descender全零。固定有限读出向量Pan像扫满源像，任意仅依同B且消全部关系的postmap常值。不是新的primitive／mixedRR或经典正性；强旧whole4/5UPPER与actualq/core/coupling/Ξ不改。cadence保持2／历史48／cycle16，无新合同/笔记号。
 
 唯一下一是[实际完整all-d oldform tower](../reviews/2026-10-27/finite-cover-trace/next-joint-oldform-tower-admission.md)的联合坐标／拓扑比较，先扣583：不挑level让单腿过Pan，先验Dirichlet反演是否纯raw重编码；fixed finiteprefix只给product密度，不报infinite exact或强Pan闭包，honest-principal闭商另列。若只是旧坐标则0止，不继续period/paper/height；额外非residue数据／源适应／不同谱与未逐层下降D′仍合法但未获新实物。该下一尚未执行；目前Goal同实例active/open，阶段与发布见STATE。下列“下一finitecover”等为已执行历史。

@@ -1367,3 +1367,13 @@ strongold542+555→557 wholeleading4/5仍负惯性UPPER；完整Γ/contact/pp/�
 下一只准已给实际公式B∞_d=CT[L_r(j)g11(q^d)]=Σc(k)a_-dk的完整all-d oldform联合比较（尚未执行）：先核degeneracy微分因子d、绝对反演及rapid-geometric拓扑，再扣583 raw注入/原finite-principal连续闭商。它能检查finite-prefix结论没有覆盖的infinite数据，优于再挑单level或空称relative。若只Dirichlet坐标重编码，0止，不续seed/period/paper。principal闭商和actualPan强商分别核；有真实不同合法数据与净后果才再准入。两个宏观备选仍为有实际完整signed缺陷消失的独立正D′规则，或非零primitive source/整过滤/mixedRR实物；当前不以未知预算或标签替代。只有这些新身份/数据会改变选择。
 
 本次无新外部全文/文献条目，原库及实际复用范围已更新；研究看板/STATE/checkpoint/原件按既有授权同步main并独立核远端，Git不另计轮。同runtime1793085111现场active，Goal门open。
+
+## D20261027L — tower是旧坐标；两商/动力学与closed-base重闭后停止坐标链
+
+同G20261027/0c4f，unique joint oldform输入已真实执行：全d typed/source/费用、Dirichlet逆指数界/双和/双向E连续及尾，经root逐式与fresh限定PASS。结果B∞=T a只是583 raw注入换坐标；E≅entire/常数。actualPan闭包proper J=q(wO)，tower为TJ，finiteprefix product稠密不代强闭包。principal有限复span在E稠密另有closedbase前提，不能以此抹去Pan商。全source忘a0失平移连续性，但加a0或doublepolezero域可修；后者仍是519/520旧谱商/增长责任。标准运输0数学轮，cadence2/历史48/cycle16不动，无C048/585，无经典whole/primitive/core净新值，Goal不complete。
+
+旧583/root的未限定continuousquotient措辞只冻结nonclosed-base无条件全零扩展，按本次独占closed-base补正/fresh/root重闭分离分支；原系数/native规范/全尾及584不回滚。非Hausdorff E/c00合法但未得分离正energy；补a0后line不冒principal且读Pan非零。底层map经过旧解析商不禁止真正独立几何/整性/RR/符号来源，不能以“不factor”为必要准入；只停无净后果的重命名。
+
+依据K已禁止连续0坐标链，此tower到此止，不调seed/level/序列权或续period。缺失仍是同一非零primitive载体的physical桥和独立整过滤/截面乘法/mixed预算；无实物不建数学合同。下一仅已实际入库的Kudla作者稿Modular forms and arithmetic geometry §8（PDF31到32的§9前）来源门：核真实theta lift输入/输出及可消费physical比较，不拿height或别的L函数当经典Weil身份，也不拿finite输入排一切单边/族。只可定位必要定义/定理陈述，不扩章或追paper；门后立即止/晋级，§8正文现未读。
+
+选它因其定位为真实算术曲面的配对设施，和刚停止raw坐标有不同的typed输出；是否给本项目可消费源仍未知。两个现实备选是独立正Dprime规则且完整signed缺陷消失，或真实tensor全阶pole族；当前没有新实物，不能拿未知预算替代。新实际结构/同源费用净比较可改策，source合法或非零旧谱商本身不够。作者原PDF56页/887943字节/SHA与标题TOC已核，仅本地全文，元数据/实际阅读范围同步。运行Goal同实例active/open。

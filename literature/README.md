@@ -1,5 +1,7 @@
 # RH-Weil 文献索引
 
+2026-10-27，[joint tower准入](../goals/reviews/2026-10-27-joint-oldform-tower-admission.md)复用405/519/520/553/583，标准坐标/两商/角色比较0轮。为下一唯一来源门，已保存Kudla作者稿56页原PDF，逐字节SHA/页数/标题TOC已核，全文仅本地；[版本／实际阅读范围](supplements/2026-10-27-joint-tower-and-kudla-source-scope.md)明确§8正文未审，metadata日期不冒正文修订日。manifest新增该实际原件，下一不自动续章或把算术lift当经典正性。
+
 2026-10-27，[finite-cover trace准入](../goals/reviews/2026-10-27-finite-cover-trace-admission.md)仅复用405/583/584及既有来源；[实际阅读／归属](supplements/2026-10-27-finite-cover-trace-source-scope.md)区分标准orbittrace/Cauchy/强旧直接合成与新算术输入。本次无新外部论文、PDF、网页或缓存，不虚增manifest条目；标准审查0数学轮，下一完整oldform tower尚未执行。
 
 2026-10-27，[C047／584](../notes/584-marked-cusp-borel-kernel-and-pan-residue-collapse.md)新增eta官方四式核读与normalized本地缓存；[来源/归属范围](supplements/2026-10-27-ell11-source-scope.md)明确DLMF只支撑eta输入，项目新证明是signedcut/Pan定量费用。无新PDF/整章proof审计，既存BY原件不重下载。actualsource/strongold/原norm/同B下降失败范围见root前件；数学统一一轮，不能将formula阅读或Schreier运行再计轮。
