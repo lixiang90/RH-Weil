@@ -1,5 +1,11 @@
 # 宏观前沿：可消费范围与最小未付箭头
 
+2026-10-27：[模输入容量与合法完成化](reviews/2026-10-27-modular-principal-part-capacity-and-legal-completions.md)及[cycle16提前宏观审视](reviews/2026-10-27-general-rh-macro-review-cycle-16.md)已root/fresh限定闭合。fixedM/k/rho honest输入为闭有限维pole层可数并，continuous全源map被Baire压入单层；exactGram甚至无需continuous已被Hamel维限制。末端原Hlog双侧误差≥1归537/552旧消费；不得否定正性所需单边lower。
+
+真实FF y-family、逐源/Dprime、先整后完成和实际L_r(j) essential-cusp完成化保合法；localdu仅已付upper不当必要height。该比较0数学轮，无新classic正号/容量/whole，actualq/core/coupling/Xi未变。已有578–582五完整轮及连续source0触发cycle16，原cadence5→0一次，历史46不增；新Goal继承旧输入不再验收。
+
+停止singleinput/Baire/poleweight细节和paper链。下一仅求实际L_r(j) Fourier source核及有限主部截断实际Green/relative输出全尾对405/537运输；honest域membership失败已结算不重做，只有新tail/relative信息才晋级。Goal同实例active，发布/阶段以STATE为准；以下为历史。
+
 2026-10-27：[新Goal启动与实际principal来源门](reviews/2026-10-27-goal-launch-and-principal-source-gate.md)已root/startupfresh限定闭合；运行G20261027现场active，继承原基线/≤582输入，启动不重置cadence。真实Borcherds§13有section/Green及同line-character ratio；任意物理源→合法模输入仍欠，literal整值复线性/arch-only CR门失败仅该recipe。7PDF326页及附件已本地库保存、原研究看板更新，正常每轮GitHub同步按本轮直接授权执行。
 
 本次来源/管理0轮，5/46/cycle15保持，classic独立primitive容量/actualq/core/coupling/Xi与whole4/5UPPER未变。下一具体信息差为本章finiteprincipalpart空间过滤与537正窗Gram的容量/Baire比较：先核actualtarget拓扑/闭有限维层/源Baire/连续线性/因子化，扣580/552/553后才准入；尚非已证结果，不串下一paper，不排新完成化/变域/relative/非线性。阶段、发布与pending以STATE为准；以下为历史前沿。

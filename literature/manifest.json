@@ -2429,9 +2429,9 @@
       "category": "weil-analogy-local-20261027",
       "authors": "Richard E. Borcherds",
       "title": "Automorphic forms with singularities on Grassmannians",
-      "version": "Author PDF: 1996-09-29, corrected1997-05-29; 64pages; journal publication1998 does not identify this byte version",
+      "version": "Title page labels 1996-09-29 / corrected1997-05-29; same 64-page bytes contain internal 2018-02-23 annotations, so title-page date is not the last file revision. Publication1998 and exact SHA distinguish roles.",
       "source_url": "https://math.berkeley.edu/~reb/papers/aut/aut.pdf",
-      "read_scope": "Goal-start first-admission worker reports section13 Theorem13.3, author PDF47-49. Archive title/page count verified; exact premise consumption and outcome belong to root source gate, not this manifest.",
+      "read_scope": "Goal-start: section13 Theorem13.3/Example13.5. Modular-capacity comparison: section2 definitions, section4 finite Weil representation (PDF13), section13 fixed honest input. Internal 2018 notes in sections5/6 checked as version qualification; p=1 section13 input consumption retained. Standard filtration/Baire synthesis is not a new classical positivity result.",
       "download_status": "downloaded",
       "status": "Local original research source; source/normalization review only, no new classical positivity result.",
       "file": "local/2026-10-27-weil/borcherds-automorphic-products-1998-author.pdf",
@@ -2443,7 +2443,8 @@
       "review_note": "supplements/2026-10-27-weil-source-library.md",
       "download_receipt": "supplements/2026-10-27-weil-source-downloads.json",
       "pdf_url": "https://math.berkeley.edu/~reb/papers/aut/aut.pdf",
-      "pages": 64
+      "pages": 64,
+      "scope_record": "literature/supplements/2026-10-27-modular-capacity-source-scope.md"
     },
     {
       "id": "Borcherds-Grassmannians-alggeom9609022v2",

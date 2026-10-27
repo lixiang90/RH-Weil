@@ -1,5 +1,7 @@
 # 长期研究恢复入口
 
+2026-10-27[有限主部容量比较](reviews/2026-10-27-modular-principal-part-capacity-and-legal-completions.md)三原稿/fresh修后限定PASS已root闭合，标准/旧推论0轮，不建C046。固定honest输入无法精确/统一双侧读全正窗，但不排单边lower、连续family、D′与完成化。[cycle16](reviews/2026-10-27-general-rh-macro-review-cycle-16.md)已在原5完整轮处提前完成，原cadence5→0一次/历史46保持，Goal同实例active。下一只检实际L_r(j)的source系数/有限主部截断Green-relative尾运输，不重查已否的honest域资格；无新信息即止。数学主瓶颈/whole4/5UPPER未变，发布与唯一动作见STATE。
+
 2026-10-27按用户明确请求，[G20261027](GOAL.20261027.md)已create/get_goal现场active，并实际执行[Borcherds§13首门](reviews/2026-10-27-goal-launch-and-principal-source-gate.md)。两独占稿/startupfresh限定PASS已root闭合：真实section/ratio不代物理源，literal整性/CR门止，不建C046。文献库实际存7PDF326页+原附件，原看板六路线更新；全文本地，来源/版本/SHA公开同步。0数学轮，5/46/cycle15继承；下一以有限principalpart真实输入做Baire/537容量比较，先扣强旧，不串paper。运行Goal不因启动/同步complete；当前发布进度与唯一动作见STATE。下列runtime null/仅本地文字均为此前日期历史。
 
 2026-10-27 用户附件的[分布化 Beurling–Weil 路线复审](reviews/2026-10-27-distribution-beurling-weil-next-research.md)已 fresh 修后限定 PASS、root 范围闭合。三处归一化已纠正；连续正例、紧修正、分布逼近与局部强域按562–582去重。主线仍是同一非零 primitive 载体的实际 principal/Green 源及 mixed RR；正 D′ 逼近无需逐层405/ordinary trace，保独立备选。附件未给新准入实物，不续 C045/下一 paper，不建 C046。来源/战略0轮，cadence5/历史46/cycle15保持；实际瓶颈与 whole4/5负惯性UPPER未变。本次本地保存，唯一下一动作见STATE。最新数学仍为下述582。

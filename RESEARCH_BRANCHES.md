@@ -11,7 +11,7 @@
 | S0／λ核／arch-only native Green旧recipe | 已按C045／582停止 | 完整局部作用、原费、全源Green可见性与已核反测均保留 | 原recipe全Pan仍非principal，fixed q7 coarse native primitive为零 | 不续word／orbit／level／height参数；新载体或新relative公式须先过上述首门 |
 | 零点比例与无零区域优化 | 保持暂停 | 历史成果保原范围 | 不是当前Weil类比主责 | 仅用户新指令可恢复，不因文献可得或局部数字改善自动恢复 |
 
-本轮路线理由见 [10-27来源／战略复审](goals/reviews/2026-10-27-distribution-beurling-weil-next-research.md)；[Goal启动与首门结算](goals/reviews/2026-10-27-goal-launch-and-principal-source-gate.md)已root/fresh限定闭合。Borcherds§13确认section/ratio机制，但literal物理源未得合法模输入，source0止、不建C046；下一为已知有限principalpart类型与537正窗的容量/Baire准入比较，尚未证明。实际主瓶颈尚未改变；whole4/5始终是负惯性上预算，fixed17/16正性不外推成长或Ξ。每轮保存证据、当前结论、未付前提、瓶颈是否改变、下一动作与停止条件；论文写入 [文献库](literature/README.md)，准确版本／SHA／保存与阅读范围写入 [manifest](literature/manifest.json)。
+当前路线理由以[cycle16宏观复盘](goals/reviews/2026-10-27-general-rh-macro-review-cycle-16.md)为准；[有限主部容量比较](goals/reviews/2026-10-27-modular-principal-part-capacity-and-legal-completions.md)与fresh已root限定闭合，标准/旧推论0轮止、不建C046。single honest输入的精确/双侧容量不足，不排单边signed下界、连续family、逐源/D′或完成化。下一仅检具体L_r(j)完成化的source系数、有限主部截断实际Green/relative输出与全尾运输，不重做已否的honest域资格。此前[Goal启动首门](goals/reviews/2026-10-27-goal-launch-and-principal-source-gate.md)保历史。实际主瓶颈尚未改变；whole4/5始终是负惯性上预算，fixed17/16正性不外推成长或Ξ。每轮保存证据、当前结论、未付前提、瓶颈是否改变、下一动作与停止条件；论文写入 [文献库](literature/README.md)，准确版本／SHA／保存与阅读范围写入 [manifest](literature/manifest.json)。
 
 每个完整研究迭代完成后同步本轮研究及恢复记录到GitHub，并核远程commit与本地一致；失败须保留确切状态，不报成功。依 [唯一cadence](goals/review-cadence.json) 每4–8完整轮宏观审视、默认6，重大反例或连续来源停滞可提前；组织、下载、审查、推送和代理数量均不增加研究轮，也不重置周期。此前计数继续继承。
 
