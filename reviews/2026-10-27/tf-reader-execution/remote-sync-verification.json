@@ -1,0 +1,28 @@
+{
+  "schema": "rh-weil-remote-sync-verification-v1",
+  "verified_for_client_date": "2026-10-27",
+  "repository": "https://github.com/lixiang90/RH-Weil",
+  "branch": "main",
+  "source_commit": "43064191274875c8e0a266b37bc540e789780657",
+  "source_tree": "d8e95e702bae262ed49ab62a55e795772e3778f2",
+  "previous_head": "182e34193bfb2c31941e68a75cdff0a816249f21",
+  "local_commit_and_tree_match": true,
+  "normal_fast_forward_push": true,
+  "independent_remote_verification": {
+    "provider": "Connected GitHub plugin GET, independent of git push output",
+    "ref_url": "https://api.github.com/repos/lixiang90/RH-Weil/git/ref/heads/main",
+    "ref_commit": "43064191274875c8e0a266b37bc540e789780657",
+    "commit_url": "https://api.github.com/repos/lixiang90/RH-Weil/git/commits/43064191274875c8e0a266b37bc540e789780657",
+    "commit_tree": "d8e95e702bae262ed49ab62a55e795772e3778f2",
+    "tree_url": "https://api.github.com/repos/lixiang90/RH-Weil/git/trees/d8e95e702bae262ed49ab62a55e795772e3778f2",
+    "tree_sha": "d8e95e702bae262ed49ab62a55e795772e3778f2",
+    "tree_truncated": false
+  },
+  "scope": "25 allowlisted paths: certified fixed-q0 components and analytic-vector input, root/fresh scope and one fixed-c2 admission, STATE/frontier/board/library metadata/source checkpoint. No third-party full text or ignored formula cache committed.",
+  "checks": "Independent step/cost/lowband/vector arithmetic replay and fresh root scope completed; research_state check/checkpoint passed; staged diff check exit0 after newline normalization. These checks do not prove q0/Hfin/RH.",
+  "mathematical_round_increment": 0,
+  "q0_width_target_met": false,
+  "c2_executed": false,
+  "long_goal": "Same runtime createdAt1793085111 active; mathematical completion gate open.",
+  "receipt_policy": "This receipt binds the published source commit. A later metadata child saves this receipt/STATE/checkpoint and is verified against actual HEAD without recursive self-SHA recording."
+}
