@@ -1,0 +1,107 @@
+{
+  "schema": "rh-weil-source-read-record-v1",
+  "date": "2026-10-28",
+  "raw_author_markdown": {
+    "file": "literature/local/2026-10-28-core-source-location/bramble-trace-rstation-2-v2.md",
+    "bytes": 61862,
+    "sha256": "541098314b2ddc5f8645babf82086e87d16c46188268cbc7ed6cfc1f98720058",
+    "git_included": false
+  },
+  "source_proof_scope": "Fixedv2 §6definitions/Lemma6.1/Th6.2lower, notupper/6.4/6.5/section7. Authorrawtextunaltered; strongerrawO1/t notconsumed, projectweakerold532sqrtlog+sameGevrey construction closesnecessaryH0.",
+  "new_pdf_identities": [
+    {
+      "file": "literature/local/2026-10-28-fixed-test-lower/burnol-two-complete-0203120v7.pdf",
+      "bytes": 321788,
+      "sha256": "cff449f51fe65cb8ae72f64b17e3dd4d9f5fb903776f9b825be77bfd75606039",
+      "git_included": false,
+      "pages": 25
+    },
+    {
+      "file": "literature/local/2026-10-28-fixed-test-lower/burnol-sonine-0208121v1.pdf",
+      "bytes": 117262,
+      "sha256": "1890a3867e745c342be3a70eeb2948c673bfb644fc4f392f9302d0b9c96acc3b",
+      "git_included": false,
+      "pages": 7
+    },
+    {
+      "file": "literature/local/2026-10-28-fixed-test-lower/mossinghoff-trudgian-yang-2212.06867v1.pdf",
+      "bytes": 616040,
+      "sha256": "127c32eb86d0aea264cc5b1ba96cc83243ef6b763451591e1560edaca1767300",
+      "git_included": false,
+      "pages": 27
+    }
+  ],
+  "total_pdf_pages": 59,
+  "total_pdf_bytes": 1055090,
+  "pdf_status": "Necessaryoriginalstatementscited, notwholeexternalproof/formalcertification. Burnol0208121 rawrestoredinnewpath matcheshistoricalSHA.",
+  "root_actual_scope": "Readallthreefinaldrafts, originalv2lower/Lemma6.1 andnecessaryold532/560norm/fullidentity; fullimageVKPDF2Th1.1, Burnolv7PDF8Prop4.3/Note9, Burnolv1PDF3nonzerospace/cosine. Adjacentpageclaimsnotconsumed. Own585proof/directions/netreconciled.",
+  "height_scope": "OriginalBurnolv7PDF5/7/8/18 necessarytext; wholevisual5/8/18. Burnolv1PDF2-3/5-6visual,1/7necessarytext/locator only. Originalwholezero-completeness/unnecessaryO1/t notaudited.",
+  "weighted_scope": "Originalv2lines525-665,necessary§6 definitions, old531/560 actualHS/range; noexternalweb. ConditionalH0preciselydeliveredthenrootreclosed.",
+  "fresh_scope": "Independentlower/Lemma6.1 andalltwofinaldrafts; Burnolv7PDF5/8/18text+PDF8visual; Burnolv1necessarycitedfromheightpages; MTYv1PDF2wholevisualTh1.1 only. Rootbumpdelta/2correctionboundinfinalH0hash.",
+  "raw_render_identities": [
+    {
+      "file": "tmp/pdfs/fixed-test-lower/h0-sonine-p2.png",
+      "bytes": 275477,
+      "sha256": "304bf17051f793a44d913b3b8f059ca1fadc4da1aa4d91e8c3efabe79b0bf2fb",
+      "git_included": false
+    },
+    {
+      "file": "tmp/pdfs/fixed-test-lower/h0-sonine-p3.png",
+      "bytes": 297656,
+      "sha256": "2eeb01025b51f006156124517b91a8a32b9e4229ce5a1e968a226b6b57774826",
+      "git_included": false
+    },
+    {
+      "file": "tmp/pdfs/fixed-test-lower/h0-sonine-p5.png",
+      "bytes": 210950,
+      "sha256": "7e70d383f9b2026abdc89bda1771d33345cb386c172f8b7660ad46e075ccea09",
+      "git_included": false
+    },
+    {
+      "file": "tmp/pdfs/fixed-test-lower/h0-sonine-p6.png",
+      "bytes": 231132,
+      "sha256": "b87bcc807a53fa08f2eeca80008ebfbe13f22c98b39d757f92c911eb3cc6dd4c",
+      "git_included": false
+    },
+    {
+      "file": "tmp/pdfs/fixed-test-lower/h0-two-p18.png",
+      "bytes": 381239,
+      "sha256": "cfcaef27bfdbbffc1ddb8efe67b5791e5514171c4afb1a882a0e72e2cc59444c",
+      "git_included": false
+    },
+    {
+      "file": "tmp/pdfs/fixed-test-lower/h0-two-p5.png",
+      "bytes": 409561,
+      "sha256": "49b88341577a6f0f32ce12764751b8ef1e760c01f19433a381b20c4d1e405b49",
+      "git_included": false
+    },
+    {
+      "file": "tmp/pdfs/fixed-test-lower/h0-two-p8.png",
+      "bytes": 392989,
+      "sha256": "957129fa99ba29230ca476d3561f8b97bb18df91896c4387d0f2d888c9f2af6e",
+      "git_included": false
+    },
+    {
+      "file": "literature/local/2026-10-28-fixed-test-lower/burnol-v7-fresh-page08.png",
+      "bytes": 307635,
+      "sha256": "f23930e9d06895cd56d4504427344bc2a78d8b42a78617bc585e355f78f1f57c",
+      "git_included": false
+    },
+    {
+      "file": "literature/local/2026-10-28-fixed-test-lower/mty-v1-page02.png",
+      "bytes": 267455,
+      "sha256": "bbfacd4b627ff10d6bb35d71466d6c091508c6c1f052933d6fbf977e9b53a4b7",
+      "git_included": false
+    }
+  ],
+  "render_count": 9,
+  "root_images": [
+    "tmp/pdfs/fixed-test-lower/h0-two-p8.png",
+    "tmp/pdfs/fixed-test-lower/h0-sonine-p3.png",
+    "literature/local/2026-10-28-fixed-test-lower/mty-v1-page02.png"
+  ],
+  "network_scope": "OnlynecessaryfixedBurnol2+MTY1 arxivversions. Initialdefaultsandboxsocketdenials repairedwithauthorizedcommand10808proxy/escalation; completed. No globalproxychange/background/numericalexperiment.",
+  "classification": "C048/585 unifiedone mathematicaliteration; downloads/restoration/H0patch/Perronstandardprerequisites/agents/audits notseparate rounds.",
+  "next_causal_review_executed": false,
+  "scope_record": "literature/supplements/2026-10-28-fixed-test-lower-source-scope.md"
+}

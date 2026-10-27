@@ -17,11 +17,11 @@
 | principal覆盖塔正Pet Gram → 逐compact源Weil极限 | 标准强旧0轮止固定未平均规范 | 全complex compactdu统一费、actualΓ/pp/poles及fixedR后n∞严格缺陷 | 本family极限失败；classic全signed/primitive仍欠；PSD Gram未自动是平移不变W_n | 不调level/ray/weight或串paper，保有实物volume/发散权/非局部修复；先因果战略复核 |
 | unitary Chow值模性 → actual算术mixed高度前提 | 来源0已止，限定native overlay | 全代数dual/有限tensor/finiteSchwartz与实际height余前提；nativeHodge、Σ=dπ补注 | 没有physical405/537/原费/fullQζ；literal5.6不直接全rank/单位系数消费 | 不续rank/level/paper/height族；A/C深proof cited，旧orthogonalliteral不解冻 |
 | 实际inner-action cone源 → HH0／432电荷 | 标准强旧0已止 | 全L1 raw在Ac中有限commutator/锥boundary，288/1442L1粗代表费；旧−4保 | 原physical源全零，Pan/537/双degree同杀；非零raw不等非零HH类 | 不调树/同伦/小域/自由functional；不同实物再准 |
-| actual Sonin固定源cofinal总迹 → 完整K费用 | 仅准固定v2 Th6.2 lower来源proof门 | 原件已存/字典与条件560全型代入；fixedsource尾可检core | 原trial/evaluation/Gevrey/cofinal误差及lower证明未审；K增长非已得/非Q符号 | 唯一6.2lower必要短链；失败即止，不续sharp6.4/6.5/后章/paper |
+| actual Sonin固定源cofinal总迹 → 完整K费用 | C048/585一轮已闭并止lower | ALLfixed非零compactcomplex actualtrace≥c_r sqrtX/logX^(2k+2)，完整K及fixedsourcecore必要费 | 有利signed净号/ALLchanging-source coupling、primitiveRR/whole未付 | 不续常数/upper/6.4/6.5/后章；只审新费对因果选择及合法修复 |
 | 实际代数对应 → KK／relative比较 | CCM固定v2§6来源0已止 | typed KK／derived kernel、GRR／Todd有限修补；旧relative电荷保持 | 原字面ordinary-cycle6.11／principal下降不直接适用；没有physical有效算术lift／mixedRR | 两P1反测及m1 point腿保角色；不续§7／引用／下一paper，新input/test先扣强旧 |
 | 零点比例与无零区域优化 | 保持暂停 | 历史成果保原范围 | 不是当前Weil类比主责 | 仅用户新指令可恢复，不因文献可得或局部数字改善自动恢复 |
 
-当前理由见[D20261028F](goals/DECISIONS.md)及[定位结算](goals/reviews/2026-10-28-core-source-location-and-admission.md)：新原命题若过proof可给实际完整K的fixedsource成长必要费，但此刻仅来源/准入0，cadence2/历史48/cycle16不变，无C048/585。下一只[Th6.2 lower证明门](reviews/2026-10-28/core-source-location/next-fixed-test-lower-proof-gate.md)，未执行；whole4/5UPPER/primitive/corecoupling未改。实际源/缺失原件见文献范围，阶段/发布仅读STATE。
+当前理由见[D20261028G](goals/DECISIONS.md)及[C048/585结算](goals/reviews/2026-10-28-cofinal-sonin-585-settlement.md)。actualcofinal必要K费已付，局部core费用瓶颈改变；whole4/5UPPER/独立primitiveRR/净signed/coupling仍欠。统一1轮cadence3/历史49/cycle16不重置；下一[新费用因果审视](reviews/2026-10-28/fixed-test-lower/next-causal-budget-review.md)尚未执行，非cycle17/不预C049。文献范围与真正发布以STATE为准。
 
 每个完整研究迭代完成后同步本轮研究及恢复记录到GitHub，并核远程commit与本地一致；失败须保留确切状态，不报成功。依 [唯一cadence](goals/review-cadence.json) 每4–8完整轮宏观审视、默认6，重大反例或连续来源停滞可提前；组织、下载、审查、推送和代理数量均不增加研究轮，也不重置周期。此前计数继续继承。
 

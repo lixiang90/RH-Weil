@@ -1495,3 +1495,15 @@ oldALLdu θ16 actualhigh小费已付。另旧coercivity rho<=(M/m)^2Clog和fixed
 唯一下一core-source-location/next-fixed-test-lower-proof-gate.md先审6.2 lower的实际poly trial、H0/evaluation/Gevrey/weighted全线norm及必需Lemma6.1 cofinal量词。lower关键前件失败即止，不用upper/sharp补洞；成功只消费足够lower并先扣强旧再决定数学结算，不预C048/585、不调参数。定位/准入0，cadence2/历史48/cycle16字节保持，classic同一非零primitive/整过滤/mixedRR、corecoupling/Xi与whole4/5UPPER均未改，Goal门open。
 
 三个历史PDF当前缺失只记现场，旧hash/read记录不抹；未来必要原件先恢复固定版本/核hash，缺失不使旧结果成为新证明。新全文仅本地，库/看板/STATE/收据正常main同步并独立核远端，组织/推送不complete长期Goal。
+
+## D20261028G — actual固定源lower与K必要费已付；一轮止后重审因果选择
+
+同G20261027/1793085111/0c4f。C048预算一轮已实际两原稿/fresh/root闭合585：每先fixed非零complexCc∞源r、k=ord0rhat，真实t_X(r)>=c_r sqrtX/logX^(2k+2)。固定大gap非零raw临界评价、旧532√log及同一Gevrey2 Bochner卷积给H0/ALLpoly域；不消费原稿更强O1/t。root消费前把具体bump收至δ/2以保strictCc，fresh绑定修后dcdf。VK固定原陈述cited，扭Perron/poly-height absolute uniform误差、全poly Legendre/矩、增长n/两个坏区/globalEuler-Gevrey全尾与实际HS基求和均付，未借upper/6.4补lower。
+
+原投影保全Gram inverse/returns、原physicaldu及zeroextensionDlog/Fourier2pi。Xn=n+.5、Ln=.5logXn对齐strictprime集合；fixedr的完整Q/pole常数，560原式K=t-Q+pole给K(r)>=cprime_r eLn/Ln^(2k+2)->+∞。fixedr的Schwartz尾压过oldcond exp(4eL/L)，每先fixedη>0外exp(ηeL)尾o1，故必要费落actual危险尺度。常数依r/η，非ALLchanging-source operator界，不定位固定零频峰。537正bump可Q>0常数而t/K共同发散，不能叫负Weil源或K全PSD。
+
+这比oldpositiveTrace合法/全H inverse下界/fixedF不定/receiver或16安全high更强，新的actualcofinalfixedsource/core必要费不能藏source0。统一一数学轮cadence2->3/历史48->49，formalcycle16不重置，H0补注/原件恢复/Perron上游/分支/审稿0另计；C048completed且预算耗尽。局部actualK必要成长费瓶颈改变；whole542+555->557 leading4/5仍负惯性UPPER，经典独立primitive整过滤/sections/mixedRR、净signed/corecoupling/normalXi仍未付。它不覆盖有费非局部/sourceadapted/Γrelative等合法修复，故长期Goal完成门仍open，不以partial边界验收。
+
+在此止本lower，不续常数/order/upper/6.4sharp/6.5/§7或下一paper。唯一下一fixed-test-lower/next-causal-budget-review.md尚未执行：只比较585新必要费究竟否定哪些无费比较，保哪些有费修复；恢复最强whole+585短链，核是否真有独立coupled signed或577正Dprime、同对象primitive预算输入。不得只把恒等重排/未知domination/正Gram改名准C049；若无实物就不预数学。此为非计轮因果审视，非formalcycle17/不归零3，不重做来源链或重验585。
+
+必要原件三PDF59页已local；Burnol0208121同旧SHA新路径恢复，历史不抹。原Markdown/PDF和页图不公开，只版本/哈希/实际阅读与研究原件按授权正常main同步核远端。相同runtimeGoal active，组织/合同完成/推送不complete长期Goal。

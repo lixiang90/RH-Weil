@@ -8,11 +8,11 @@
   "cadence": "goals/review-cadence.json",
   "decisions": "goals/DECISIONS.md",
   "latest_strategy": "goals/reviews/2026-10-27-general-rh-macro-review-cycle-16.md",
-  "latest_decision": "D20261028F",
+  "latest_decision": "D20261028G",
   "macro_frontier": "goals/MACRO_FRONTIER.md",
-  "macro_summary": "goals/reviews/2026-10-28-causal-strategy-after-theta-chain.md",
+  "macro_summary": "goals/reviews/2026-10-28-cofinal-sonin-585-settlement.md",
   "latest_macro_review": "goals/reviews/2026-10-27-general-rh-macro-review-cycle-16.md",
-  "latest_iteration": "notes/584-marked-cusp-borel-kernel-and-pan-residue-collapse.md",
+  "latest_iteration": "notes/585-cofinal-sonin-fixed-source-trace-lower-and-core-error-fee.md",
   "macro_control": {
     "schema": "macro-recovery-v2",
     "goal_epoch": "G20261027",
@@ -20,8 +20,8 @@
   },
   "macro": {
     "long_objective": "G20261027接续G20261014完整完成门/原0c4f基线，≤582为输入；持续寻经典同源Weil正性/有效性/RR或actualsigned新输入，付全源/成长/core及谱识别。",
-    "unpaid_bottleneck": "新fixedv2Th6.2 lower仅来源候选；原proof/weightedtrial/evaluation/cofinal费未审。若过门可给actual完整K固定源成长费，当前primitive/mixedRR/危险corecoupling/Xi与whole4/5UPPER均未改，安全高频已付。",
-    "why_this_contract": "短定位实际取得未审fixedsource/cofinal总迹lower，可直接条件代560完整型；胜过6.5单步/旧高频/换商。只审6.2lower必要短链，失败止；sharp/后章不自动续，不预数学晋级。",
+    "unpaid_bottleneck": "585已付actualcofinal固定源trace lower与完整K正发散/core必要费，局部费用未知已闭；未付仍是同一非零primitive/mixedRR、净signed/corecoupling/Xi，whole4/5UPPER未改。新lower不排有费/sourceadapted修复。",
+    "why_this_contract": "C048一轮耗尽即止lower；下一只按实际新必要费做因果选择审视，核真正coupled signed或独立primitive预算，优于再优化sharp/高频/源域。不是formalcycle17或归零3，无实物不预C049。",
     "paused_routes": [
       "零点比例优化",
       "无零区域优化"
@@ -30,27 +30,27 @@
       "549–578的精确停门、paid资产及合法逃逸见MACRO_FRONTIER/各root收据；不以旧商/正锥membership/未知余项改名复活；542+555→557仅whole4/5负惯性UPPER。",
       "579–582的实际源/非标量cycles/full-local强域/Green已付，但各principal、原域、coverage或fixedcoarse primitive门失败；停止原recipe，保不同relative/higher/强拓扑/有费无界/源适应修复。",
       "10-27附件战略source0已止，无新经典J或容量；正Dprime逼近不需逐层405/ordinarytrace，须独立正序列/完整signed趋零。tensor须真对象与全阶pole。",
-      "unitary/canonicalAc cone等标准0止，literal/整体theta冻结保留；旧安全actual高频已付。新仅准fixedv2Th6.2 lower来源proof，不复活小域/正Gram/旧参数或paper队列。"
+      "unitary/canonicalAc等原recipe标准0止、literal/整体theta冻结保持。585actuallower一轮已消费，停止常数/upper/6.4/6.5/后章。下一只新费用因果审视，保有实物非局部/sourceadapted/Γrelative/几何signed。"
     ]
   },
   "primary_contract": {
-    "id": "C047",
-    "path": "goals/contracts/C047-marked-cusp-borel-kernel-and-pan-gate.md",
+    "id": "C048",
+    "path": "goals/contracts/C048-cofinal-sonin-fixed-source-lower-and-core-fee.md",
     "status": "completed",
     "iteration_budget": 1,
     "settled_iterations": [
-      "notes/584-marked-cusp-borel-kernel-and-pan-residue-collapse.md"
+      "notes/585-cofinal-sonin-fixed-source-trace-lower-and-core-error-fee.md"
     ],
-    "stage": "core来源定位/限定准入已17路径正常main同步且独立ref/commit/tree核验，metadata回执落盘。唯一下一固定v2Th6.2 lower proof未执行；条件K成长不作已证。",
-    "next_action": "仅执行 reviews/2026-10-28/core-source-location/next-fixed-test-lower-proof-gate.md 的固定v2Th6.2实际fixednonzero-source lower证明首门，先真实weightedtrial/H0/evaluation/cofinal误差短链；尚未审，不自动续6.4/6.5/后章或预数学合同。",
-    "stop_rule": "只审6.2实际nonzero fixed-source lower，trial/weightednorm/cofinal关键前件失败即止；不转6.4sharp/6.5/§7/下一paper。成功先核强旧和实际后果再准数学，不拿条件K增长作已证。"
+    "stage": "C048/585两终稿/fresh/root限定数学结算，一轮预算耗尽；源/原norm/强旧/net已闭，三必要PDFlocal。下一因果审视未执行，当前待正常同步核验。",
+    "next_action": "先正常同步本轮并核远端；随后仅执行 reviews/2026-10-28/fixed-test-lower/next-causal-budget-review.md，以585actual必要费审因果选择和真实新input，不续lower或预C049。",
+    "stop_rule": "C048一轮止，不续常数/阶/upper/6.4/6.5/后章。新费不排有费非局部/sourceadapted修复；下一无actualinput/test/net不准数学，不以partial界完成长期Goal。"
   },
   "support_contracts": [],
   "must_not_forget": [
     "G20261027接续G20261014完整完成门/原0c4f基线；≤582和10-27审视都是输入，旧成果不得重验收。实际runtimeGoal active(createdAt1793085111)，新建由本轮用户直接请求。",
     "完整Γ=2θ′/FP-contact、所有properpowers/双pole、ALLcomplex、原du及zero-extension Dlog；L/算术height/频高独立，fixed/强源/Dprime/成长不合并。",
     "每结果保object/domain-range/关系-商-physical角色/norm、源成长量词/依赖误差/符号/coverage-coupling/strongest-old净值。语义改变先freeze/reclose，draft不代root消费。",
-    "唯一轮数读cadence；cycle16在原5完整轮处复盘归零一次，583/584各统一一轮，此后finitecover/tower标准0，当前2/历史48；来源/恢复/代理/审计/Git0，默认6/允许4–8，不恢复耗用合同。",
+    "唯一cadence：cycle16原5完整轮复盘一次归零；583/584及585各统一一轮，目前3/历史49。来源/恢复/代理/审计/Git不增轮；默认6/允许4–8，当前3不formalcycle17/不归零，不恢复耗尽合同。",
     "strongold542+555→557 whole4/5是负惯性UPPER；537/538 fixed17/16不代成长/Ξ。560全fixed窗positiveTrace−compact+pole，572/高层变分不代低频core及cofinal sign。",
     "几何主线先405全noncompact Pan及平移actual消去、537非根/全源coverage/原费，再同对象整过滤/截面乘法/mixedRR。已知410–437真实relative电荷/573反测与574–575线/Cartier不重造，精确域见前沿。",
     "576正锥生成/alias费、577真Γ修补、578粗Selberg反测均已付；membership/缺陷消失仍open。Dprime策略可不逐层消405，不能泛化uniform原norm或ordinarytrace。",
@@ -109,16 +109,6 @@
       "scope": "本次全源/空间norm/coeff/real-structure/semantic重闭及19LF绑定；literal/整体身份冻结，Goal门open。"
     },
     {
-      "path": "reviews/2026-10-28/causal-strategy/root-consumption-scope.json",
-      "kind": "cited",
-      "scope": "本次因果前件/strongestold/三责任/来源定位与停止及24LF绑定；0数学非cycle17，Goalopen。"
-    },
-    {
-      "path": "reviews/2026-10-28/unitary-premise/root-consumption-scope.json",
-      "kind": "cited",
-      "scope": "unitary实际域/量词/height/overlay及19LF绑定；来源0止，无经典whole/core净值。"
-    },
-    {
       "path": "reviews/2026-10-28/action-cone/root-consumption-scope.json",
       "kind": "cited",
       "scope": "24LF绑定：exactfiniteboundary/原norm/全source/strongest-old0及高层恢复，Goalopen。"
@@ -129,20 +119,30 @@
       "scope": "18LF绑定：原件/来源字典/条件K方向、fixedsource尾、未审proof与唯一准入；0数学。"
     },
     {
-      "path": "reviews/2026-10-28/core-source-location/next-fixed-test-lower-proof-gate.md",
+      "path": "notes/585-cofinal-sonin-fixed-source-trace-lower-and-core-error-fee.md",
+      "kind": "proved",
+      "scope": "C048统一1轮：ALLfirstfixed非零complexcompact source actualtrace lower、完整K/core必要正成长费；非Q负/K全PSD/净signed正性。"
+    },
+    {
+      "path": "reviews/2026-10-28/fixed-test-lower/root-consumption-scope.json",
+      "kind": "cited",
+      "scope": "20LF绑定及3PDF/9页图：H0弱前件重闭/原域norm/全poly尾/符号量词/强旧净值，Goalopen。"
+    },
+    {
+      "path": "reviews/2026-10-28/fixed-test-lower/next-causal-budget-review.md",
       "kind": "open",
-      "scope": "唯一fixedv2Th6.2 lower来源证明门，原weightedtrial/evaluation/cofinal前件未审，无数学晋级。"
+      "scope": "唯一非formal因果选择审视，按585新必要费与真实coupledinput准入；未执行，不预C049/586。"
     }
   ],
   "pending_processes": [],
   "runtime_goal_observation": {
     "status": "active",
-    "observed_at_utc": "2026-10-27T18:32:43.745097+00:00",
+    "observed_at_utc": "2026-10-27T19:02:12.273795+00:00",
     "created_at_unix": 1793085111,
-    "basis": "本轮现场get_goal同实例active；STATE唯一来源定位已实际web/归档/去重/独审/root结算，未执行下一原proof。"
+    "basis": "本轮现场get_goal同实例active；实际执行C048原proof并root消费585，非仅候选/重建Goal。"
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-10-28-core-source-location-sync.json",
+  "checkpoint": "goals/checkpoints/2026-10-28-cofinal-sonin-585.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
     "commit": "599e0c188d922c14c66a2b7e3150431de23cf407",
@@ -155,15 +155,15 @@
     "goal_lf_sha256": "b3d2acb1f962d793f45d79b6a4e67fb87dd072cd4752108a9298204b4cefa1de",
     "mathematical_gate": "open",
     "final_execution_gate": "not-eligible",
-    "basis": "来源定位/准入0，原fixedtestlower证明仍未审，K成长和core后果条件性；经典primitive/corecoupling/whole无新数学净值，Goal完整门open。"
+    "basis": "585新actual固定源trace/Kcore必要费已付，局部瓶颈改变；未移除独立Weil正号/primitiveRR/净corecoupling/Xi，合法有费修复未排，whole4/5未改。完整Goal第二/第三门仍open，不eligible。"
   },
   "historical_completion_receipts": [
     "goals/goal-completion-receipt.20261014.json",
     "goals/goal-completion-receipt.20261014-continuation.json"
   ],
-  "process_inventory_observed_on": "本次local/primary/fresh三终稿及unit_height额外只读字典意见、fresh额外root范围核查均terminal/root消费；固定download终止，无后台。下一proof未执行。",
+  "process_inventory_observed_on": "两proof终稿/fresh最终审均terminal并root消费；三个必要原件下载与9张渲染terminal，无后台。下一因果审视未执行。",
   "publication_approval_gate": {
-    "status": "current-source-published-and-independently-verified",
+    "status": "current-585-local-settled-awaiting-normal-push",
     "destination": "https://github.com/lixiang90/RH-Weil",
     "visibility": "public",
     "branch": "main",
@@ -173,7 +173,7 @@
       "reply": "每轮把进度同步到github；把文献保存在文献库中，用研究看板来记录各个路线的状况",
       "scope": "本项目研究/Goal/STATE/看板/文献元数据/审查与同步回执；论文再分发许可不明则全文仅本地。"
     },
-    "current_scope": "本次core来源定位17源路径正常main同步并独立ref/commit/tree核验；metadata child仅回执/STATE/checkpoint，实际HEAD另核。作者Markdown原文仅本地ignored，公开只版本/SHA/实际阅读/库存状态；cadence原字节保持。",
+    "current_scope": "本轮C048/585证明/独审/root/单cadence/库/看板/下一因果审视/检查点，尚待push。三PDF/9页图仅本地ignored，公开元数据/实际阅读，不递归自记SHA。",
     "published_source_commit": "599e0c188d922c14c66a2b7e3150431de23cf407",
     "verification": "reviews/2026-10-28/core-source-location/remote-sync-verification.json"
   },

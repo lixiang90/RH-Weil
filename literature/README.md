@@ -1,5 +1,7 @@
 # RH-Weil 文献索引
 
+2026-10-28，[C048／585 lower及实际K费用](../goals/reviews/2026-10-28-cofinal-sonin-585-settlement.md)已两原稿/fresh/root限定核闭，原作者较强raw O1/t不消费，旧√log＋Gevrey足够。新必要固定PDF三份共59页/1055090bytes仅本地；0208121恢复同旧SHA，新路径可取。[实际必要页/规范范围](supplements/2026-10-28-fixed-test-lower-source-scope.md)及source-read-record保9张private页图/哈希。只lower，不认证upper/6.4/6.5或上游全proof；VK仅cited，不优化暂停路线。统一一数学轮，不按下载/分支计。
+
 2026-10-28，[危险core来源定位](../goals/reviews/2026-10-28-core-source-location-and-admission.md)新增bramble_trace/rStation固定v2原作者Markdown一份，61862bytes/1221行，仅本地ignored；[实际范围与库存](supplements/2026-10-28-core-source-location-scope.md)保原SHA、陈述未审层级和三个历史PDF当前缺失。只准6.2lower下一proof门，不把自动Accept或6.5单步作证明，不新增PDF/渲染/数值验证。
 
 2026-10-28，[actionCone比较](../goals/reviews/2026-10-28-action-cone-source-boundary-gate.md)只复用项目430–432/573、405/537和最强旧稳定角，无新PDF/网页/下载/渲染。两有限链终稿/fresh保存完整对象/域及费用；[阅读范围](supplements/2026-10-28-action-cone-source-scope.md)另记后续库存的560/570/572/577/578与10-20已付高层恢复。不把原作者cited层写成本轮新审；下一危险core来源定位未执行、尚无新章。
