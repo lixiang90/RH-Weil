@@ -16,11 +16,12 @@
 | 同raw K空间mean／bounded leg联合数据 | 标准强旧0轮已止 | exact Mellin±3/4+L²reader、actualPan双leading、C×L²图及Hm/C∞联合闭包 | 连续mixed同源非零比较失败；classicprimitive/RR/全signed仍欠 | 不增probe/调核/level/ray/weight；保不同额外数据/有费强域/cofinal |
 | principal覆盖塔正Pet Gram → 逐compact源Weil极限 | 标准强旧0轮止固定未平均规范 | 全complex compactdu统一费、actualΓ/pp/poles及fixedR后n∞严格缺陷 | 本family极限失败；classic全signed/primitive仍欠；PSD Gram未自动是平移不变W_n | 不调level/ray/weight或串paper，保有实物volume/发散权/非局部修复；先因果战略复核 |
 | unitary Chow值模性 → actual算术mixed高度前提 | 来源0已止，限定native overlay | 全代数dual/有限tensor/finiteSchwartz与实际height余前提；nativeHodge、Σ=dπ补注 | 没有physical405/537/原费/fullQζ；literal5.6不直接全rank/单位系数消费 | 不续rank/level/paper/height族；A/C深proof cited，旧orthogonalliteral不解冻 |
-| 实际inner-action cone源 → HH0／432电荷 | 唯一下一具体准入比较 | 432/573原u,F及δF边界；A_c/S1精确代数域、两腿J与degree1初核 | 全chainhomotopy/HH0源类/Ω变换及Pan537/primitive尚未执行 | 先扣inner-homotopy split；标准/旧raw或Ω全零即0止，不加freefunctional |
+| 实际inner-action cone源 → HH0／432电荷 | 标准强旧0已止 | 全L1 raw在Ac中有限commutator/锥boundary，288/1442L1粗代表费；旧−4保 | 原physical源全零，Pan/537/双degree同杀；非零raw不等非零HH类 | 不调树/同伦/小域/自由functional；不同实物再准 |
+| actual Sonin危险core signed／cross原命题 | 唯一下一短定位，未命中新章 | fixed窗全型与安全高频actual ε、原du K_hi费早付 | Γ≲eL危险core／coupling仍欠，无新input即不开数学合同 | 先去重并实际冻结primary命题；仅fixedF/有利高频/unknowndomination即止 |
 | 实际代数对应 → KK／relative比较 | CCM固定v2§6来源0已止 | typed KK／derived kernel、GRR／Todd有限修补；旧relative电荷保持 | 原字面ordinary-cycle6.11／principal下降不直接适用；没有physical有效算术lift／mixedRR | 两P1反测及m1 point腿保角色；不续§7／引用／下一paper，新input/test先扣强旧 |
 | 零点比例与无零区域优化 | 保持暂停 | 历史成果保原范围 | 不是当前Weil类比主责 | 仅用户新指令可恢复，不因文献可得或局部数字改善自动恢复 |
 
-当前理由见[因果复核](goals/reviews/2026-10-28-causal-strategy-after-theta-chain.md)、[D20261028D](goals/DECISIONS.md)与[unitary门结算](goals/reviews/2026-10-28-unitary-modularity-premise-settlement.md)。模性/height实际设施与native补注已限定收讫，没有新classicprimitive/完整signed/core净输入；0数学，cadence2/历史48/cycle16不变。下一仅[actionCone/HH0准入](reviews/2026-10-28/unitary-premise/next-action-cone-hh0-admission.md)，degree1初核，高阶/HH0/Ω未执行，域/商/physical角色冻结，不续paper。文献实际阅读见[范围](literature/supplements/2026-10-28-unitary-premise-source-scope.md)，阶段/同步只读STATE。
+当前理由见[D20261028E](goals/DECISIONS.md)、[actionCone结算](goals/reviews/2026-10-28-action-cone-source-boundary-gate.md)及[已付高层补正](reviews/2026-10-28/action-cone/strongest-old-sonin-recovery-correction.md)。标准最强旧合成0，无C048/585，cadence2/历史48/cycle16保持；classicprimitive/core/coupling与whole4/5UPPER未改。下一仅[危险core原命题定位](reviews/2026-10-28/action-cone/next-actual-core-source-location-gate.md)，没有新章/数学晋级。当前阶段/发布仅读STATE。
 
 每个完整研究迭代完成后同步本轮研究及恢复记录到GitHub，并核远程commit与本地一致；失败须保留确切状态，不报成功。依 [唯一cadence](goals/review-cadence.json) 每4–8完整轮宏观审视、默认6，重大反例或连续来源停滞可提前；组织、下载、审查、推送和代理数量均不增加研究轮，也不重置周期。此前计数继续继承。
 

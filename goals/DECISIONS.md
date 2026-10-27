@@ -1473,3 +1473,13 @@ Li–Liu余下CMfinite不分歧/dyadicsplit、π类型/tempered/最低weight、o
 章末停止unitary门，不续rank/level/weight/章/paper或捏cofinalheight。下一不再未知paper，而用573明确保留的differentrelativepair：A_c=C*(A_src),I_c=A_c∩S1,Q_c代数商，非Calkin/非小域；原L1 fee使全Sexp及noncompactPan的F_r入A_c。设alpha=Adq(u),D=1−alpha,M_n=C_n(Q_c)⊕C_(n−1)(Q_c),d(x,y)=(bx−Dy,−by)，J_r=(q(u*)⊗q(uF_r),qF_r)。旧b1式已初核degree1闭性；完整innerhomotopy/HH0/Ω尚未执行。此actualobject/formula/test直接检原bc_r闭链箭头，不把合法HH0腿当primitive。
 
 唯一准入reviews/2026-10-28/unitary-premise/next-action-cone-hh0-admission.md先扣inner-action标准split，核不同K0/ConnesB选择、实际HH0类及原432Ω变换；−4旧类与J_r分开，HH map不预称注入。若仅标准split/Ω物理拉回零/旧raw重编码，0止不加freefunctional或参数；真新source/charge/关系/coverage信息须强旧净审后另准，不用source0藏新数学。它胜过续paper或boundedreader，因全源公式/域norm/可判gate明确，可能改变relative主线选择；不是已宣称新primitive。unit_height只读意见同判可准窄比较，未执行后续proof。独立signed/core及强域/较小代数/非标量边等合法实物仍可改策。新阅读/23页缓存只本地，原两PDF不改；库/看板/STATE及正常main同步/独立远端核验不complete长期Goal。
+
+## D20261028E — canonical锥源精确全零；恢复强旧高层后只定位危险core输入
+
+同G20261027/1793085111/原0c4f。D的actualCone门已两终稿/fresh/root逐式闭合：Ac=C*(430扩大Asrc)包含K，Qc=Ac/S1仍代数商；431稳定单角B0及实际rhohat只modK hom。通用树恒等式使B0和K均finitecommutator-perfect，lift后非S1紧误差再实际消去，故全L1 Fr至多24commutators，代表fee≤288L1。H/K两split的ConnesB shear、原普通迹锥延拓、旧−4/物理J不同角色明确；结合有限by=f给J=d(Z−H1y,−y)，粗代表fee≤1442L1。全noncompact405/平移、537全窗正非根及双degree一并类零，非零raw仍非紧。
+
+仅对照573已打印闭ideal会漏掉strongest-old：431实际stable角/section、430含K与通用有限交换子引理立即蕴含本证书。fresh独立判0，root及HH0作者意见reconcile0，原稿/hash不改；288/1442只是充分通用上费，非必要/严格核心费/规范线性收缩或Ω连续。统一标准直接合成0，cadence2/历史48/cycle16原字节不变，不建C048/585。停止canonicalAc/S1 cone，不加functional/同伦/树/shift/ideal，不自动换小域。较小原代数、非标量边、强拓扑/有费无限/Dprime/signed须新实物再准；不是所有relative机制不可能。classic同一非零primitive/整过滤/sections/mixedRR、完整signedgrowth/core/coupling/Xi及wholeleading4/5负惯性UPPER未改，Goal门open。
+
+只读下一库存纠正一个恢复遗漏：10-20variational原root/final早付Llarge、FL={p<e2L}、ALLabsR>=exp(16eL) actual ε统一exp(-c eL/L)及ALLdu K_hi小费，双square/全部bulk双边界returns保完整Γ/pp/poles。10-28causal root/positive§3“不运输actualSonin”的整体读法冻结并按独立复核/原绑定重闭；只限阈值以下及危险core/coupling未付，不回滚原hash或causal选择，不重开θ16/clipping/全部θ2e。补正为action-cone/strongest-old-sonin-recovery-correction.md。
+
+当前库存仍没有可立即准入的新actual mathinput。下一仅action-cone/next-actual-core-source-location-gate.md的一次短定向primary定位：实际Pi_FL/ε_FL或原QL在Γ≲eL危险core的signed/cross命题，先去重，再实际取得并冻原文/版本/量词/源norm/正确系数方向，能进入560同一全型才准单门；尚未执行且没有新章，不捏paper。fixedF/有利高频/抽象变分/unknownnegativepart止，不能续已审prolate/最低态/局部paper充数。两个现实备选仅新的twisted-Γ signed身份代入578(3)，或同一非零primitive physicalmap+独立mixed容量实物；目前均无新实物。真正新core/coupling或source/mixed/tensor全阶pole可改策。库/看板/短状态/原件按授权main同步与独立核SHA，管理/推送不complete长期Goal。

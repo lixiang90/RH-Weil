@@ -1,5 +1,7 @@
 # RH-Weil 文献索引
 
+2026-10-28，[actionCone比较](../goals/reviews/2026-10-28-action-cone-source-boundary-gate.md)只复用项目430–432/573、405/537和最强旧稳定角，无新PDF/网页/下载/渲染。两有限链终稿/fresh保存完整对象/域及费用；[阅读范围](supplements/2026-10-28-action-cone-source-scope.md)另记后续库存的560/570/572/577/578与10-20已付高层恢复。不把原作者cited层写成本轮新审；下一危险core来源定位未执行、尚无新章。
+
 2026-10-28，[unitary前提来源门](../goals/reviews/2026-10-28-unitary-modularity-premise-settlement.md)实际完整目视Raum§5 PDF52–56及Li–Liu必要hyp/def页，记录native Hodge/零模和Σ=dπ补注、全量词与height规范，来源0止。[实际范围](supplements/2026-10-28-unitary-premise-source-scope.md)保cited深proof及误定位未消费页；无新PDF/网页/下载，23新render仅本地，原124页/SHA不变。不以模性/height代classicQζ或回填旧literal；下一cone比较只用旧432/573数据。
 
 2026-10-28，[因果战略复核](../goals/reviews/2026-10-28-causal-strategy-after-theta-chain.md)按三条实际缺口定向primary检索，新增Raum2603.04282v2与Li–Liu2006.06139v5原PDF共124页，仅本地；[版本/实际范围](supplements/2026-10-28-causal-strategy-source-scope.md)保存bytes/SHA、引言陈述与目视PDF3/6–7。Raum§5正文前提运输未执行，不把模性或别的L′高度当经典Weil正性；v4HTML定位/动态Date与固定v5分开。0数学轮，不重置周期，不公开原文/像素。
