@@ -1,5 +1,9 @@
 # 宏观前沿：可消费范围与最小未付箭头
 
+2026-10-28，[两补偿停止后的因果审视](reviews/2026-10-28-causal-investment-after-subtractions.md)已两支持/fresh/root限定闭合：库存无新math输入，原geometry/Pan/非根比较已判，signed/单素数/heat设施不付joint净预算。停止分析设施扩建；唯一下一[一次原命题索引发现](../reviews/2026-10-28/post-subtraction-causal/next-independent-source-statement-discovery.md)，未执行/非数学，固定3query一批/最多一actual source或mixed公式；无合格locator即止，不编chapter/串paper。cadence3/历史49/cycle16原字节保持，实际瓶颈/whole4/5UPPER未改，Goal门open。
+
+当前最短链及投入边界：585+560已知t/K同阶必要费；EX严格旧family与fullgap2logb+Ω只付指定旧停止。573–584的source/relative/整过滤/mixed设施未串同一非零primitive；577正层/Γ费未付实际signed消失。当前没有尚待执行且扣旧可改策的旧比较，不能把缺失map/Ωupper换名input。只准一次新原命题索引发现，不是sourceproof队列；实际新locator再冻结原前提决定准入。
+
 2026-10-28，[fixed full-gap首门](reviews/2026-10-28-fixed-full-gap-source-gate-stop.md)已两支持/fresh/root限定核闭：原P低cutoff与πSonin、半轴norm/log±及532固定1来源已重闭；同B_X合并relative只付旧2logb边界，Ω无cofinal净费。标准强旧0止本候选，不调b/H0/degree/第三投影/paper；cadence3/历史49/cycle16原字节保持。下一仅[停止后的因果投入审视](../reviews/2026-10-28/full-gap-source-gate/next-causal-review-after-sonin-subtractions.md)，未执行/非formal17/无math准入。核心瓶颈与whole4/5UPPER未变，Goal门open。
 
 当前可消费短链：旧C005因果FX＋双gap→实际嵌套projection→两个finite-strip各β原duHS费→Trel=2β〈r,s〉+Ω合并TC；560同扣完整全型仍欠Ω上界/净号，合法性未变成coverage。532一般cutoff宽读按本轮限定冻结；585和EX旧结果保持。连续设施首门已止，下一须比较真实input/test/net，不把未知余项改名续轮。

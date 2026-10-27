@@ -8,9 +8,9 @@
   "cadence": "goals/review-cadence.json",
   "decisions": "goals/DECISIONS.md",
   "latest_strategy": "goals/reviews/2026-10-27-general-rh-macro-review-cycle-16.md",
-  "latest_decision": "D20261028K",
+  "latest_decision": "D20261028L",
   "macro_frontier": "goals/MACRO_FRONTIER.md",
-  "macro_summary": "goals/reviews/2026-10-28-fixed-full-gap-source-gate-stop.md",
+  "macro_summary": "goals/reviews/2026-10-28-causal-investment-after-subtractions.md",
   "latest_macro_review": "goals/reviews/2026-10-27-general-rh-macro-review-cycle-16.md",
   "latest_iteration": "notes/585-cofinal-sonin-fixed-source-trace-lower-and-core-error-fee.md",
   "macro_control": {
@@ -20,8 +20,8 @@
   },
   "macro": {
     "long_objective": "G20261027接续G20261014完整完成门/原0c4f基线，≤582为输入；持续寻经典同源Weil正性/有效性/RR或actualsigned新输入，付全源/成长/core及谱识别。",
-    "unpaid_bottleneck": "Fullgap仅旧2logb边界/Ω合并TC，未有cofinal净预算；独立signed/corecross/同一非零primitiveRR/Xi仍欠，whole4/5UPPER未改。actual瓶颈本轮无新付款。",
-    "why_this_contract": "两补偿recipe已按门0止；唯一下一非formal因果投入审视，先实际input/test/strongestold净后果，再选动作。禁止第三投影/unknown余项改名或编chapter来源队列。",
+    "unpaid_bottleneck": "本轮库存无新独立signed/corecross/同一非零primitiveRR/Xi输入；全型/原费/正设施不能串接。actual瓶颈未改，whole4/5UPPER保持。",
+    "why_this_contract": "旧map/r-Pan/537比较已判，Γ定位/EX/fullgap均止，继续设施无新信息差。下一只固定3query一次非math原命题发现；无actual新source/mixed公式即止，不编chapter/串paper。",
     "paused_routes": [
       "零点比例优化",
       "无零区域优化"
@@ -30,7 +30,7 @@
       "549–578的精确停门、paid资产及合法逃逸见MACRO_FRONTIER/各root收据；不以旧商/正锥membership/未知余项改名复活；542+555→557仅whole4/5负惯性UPPER。",
       "579–582的实际源/非标量cycles/full-local强域/Green已付，但各principal、原域、coverage或fixedcoarse primitive门失败；停止原recipe，保不同relative/higher/强拓扑/有费无界/源适应修复。",
       "10-27附件战略source0已止，无新经典J或容量；正Dprime逼近不需逐层405/ordinarytrace，须独立正序列/完整signed趋零。tensor须真对象与全阶pole。",
-      "literal/整体theta冻结、unitary/canonicalAc/Γsigned定位0止；585止lower/sharp，EX与fixedfullgap均强旧/标准0止。不续b/H0/degree/投影/paper；paid实物再准。"
+      "literal/整体theta冻结、unitary/canonicalAc/Γsigned定位0止；585止lower，EX/fullgap0止。当前库存无math准入，停止analysis扩建；只一次不同责任索引发现，实际新输入再准。"
     ]
   },
   "primary_contract": {
@@ -41,9 +41,9 @@
     "settled_iterations": [
       "notes/585-cofinal-sonin-fixed-source-trace-lower-and-core-error-fee.md"
     ],
-    "stage": "本轮fullgap类型/原费门两支持/fresh/root限定闭合，来源/强旧标准0止；研究源已正常main推送并独立核ref/commit/tree。C048 completed/耗尽，唯一下一因果审视未执行。",
-    "next_action": "执行 reviews/2026-10-28/full-gap-source-gate/next-causal-review-after-sonin-subtractions.md：一次非formal因果投入审视（尚未执行），须真实input/test/strongestold净后果才准数学；不造chapter/第三投影或续paper。",
-    "stop_rule": "EX及fullgap两个recipe均0止，不调b/H0/degree或续投影/paper。下一只因果投入选择，无独立实物保无数学准入；不formalcycle17/不归零/不completeGoal。"
+    "stage": "本轮因果投入审视两支持/fresh/root限定闭合，库存无新math输入/瓶颈未改；选择一次非math索引发现（未执行）。当前结算待正常main同步核远端，C048仍completed/耗尽。",
+    "next_action": "同步本轮因果结算核远端；随后执行 reviews/2026-10-28/post-subtraction-causal/next-independent-source-statement-discovery.md（尚未执行）：固定三query一批，最多一primary实际source/mixed公式；无合格locator即止，不编chapter或续查询/paper。",
+    "stop_rule": "当前无math准入，EX/fullgap及旧geometry/signed设施不续。索引发现仅一次三query，空/重复/只有设施即止；新实际原命题/公式才重议，不formal17/不归零/不completeGoal。"
   },
   "support_contracts": [],
   "must_not_forget": [
@@ -124,20 +124,25 @@
       "scope": "532cutoff1/fixedprime与Burnol一般fixedλarch归属限定；宽读冻结，585/EX原链保持。"
     },
     {
-      "path": "reviews/2026-10-28/full-gap-source-gate/next-causal-review-after-sonin-subtractions.md",
+      "path": "reviews/2026-10-28/post-subtraction-causal/root-consumption-scope.json",
+      "kind": "cited",
+      "scope": "两路线实际库存/最强旧/原norm量词/覆盖耦合/瓶颈不变及有限发现选择；0数学/Goalopen。"
+    },
+    {
+      "path": "reviews/2026-10-28/post-subtraction-causal/next-independent-source-statement-discovery.md",
       "kind": "open",
-      "scope": "唯一下一因果投入审视，未执行/非formal17；不预新math/投影或编chapter队列。"
+      "scope": "唯一下一一次非math索引发现，未执行；三query一批/最多一actual公式，无命中即止，无新chapter/math。"
     }
   ],
   "pending_processes": [],
   "runtime_goal_observation": {
     "status": "active",
-    "observed_at_utc": "2026-10-27T20:36:03.101415+00:00",
+    "observed_at_utc": "2026-10-27T20:51:19.883853+00:00",
     "created_at_unix": 1793085111,
-    "basis": "本轮root现场get_goal同实例active；fullgap唯一动作实际执行/消费/0止及远端已核，下一因果审视未执行。"
+    "basis": "同实例root现场get_goal active；唯一post-subtraction因果审视已实际读库存并两支持/fresh/root消费，下一三query发现未执行。"
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-10-28-full-gap-source-gate-sync.json",
+  "checkpoint": "goals/checkpoints/2026-10-28-post-subtraction-causal.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
     "commit": "e6b48e53687ad521e356fa04677533a3d072fa57",
@@ -150,15 +155,15 @@
     "goal_lf_sha256": "b3d2acb1f962d793f45d79b6a4e67fb87dd072cd4752108a9298204b4cefa1de",
     "mathematical_gate": "open",
     "final_execution_gate": "not-eligible",
-    "basis": "Fullgap仅旧type/2logb及合并TC，Ωcofinal预算/独立signed/corecross/primitiveRR/Xi仍欠；无whole改善/关键瓶颈移除，Goal门open/noteligible。"
+    "basis": "当前库存无新数学准入/独立净signed/corecross/primitiveRR/Xi，whole4/5UPPER未改；仅因果选择/发现计划，不满足长期完成门。open/noteligible。"
   },
   "historical_completion_receipts": [
     "goals/goal-completion-receipt.20261014.json",
     "goals/goal-completion-receipt.20261014-continuation.json"
   ],
-  "process_inventory_observed_on": "两本轮support与独立fresh均terminal/全文root消费；无下载/数值后台。原PDF/旧PNG复用，仅必要PDF4新一图，全部localignored。",
+  "process_inventory_observed_on": "本轮两独占支持及fresh均terminal，完整root消费；无web/PDF/下载/渲染/数值后台。下一索引发现未执行。",
   "publication_approval_gate": {
-    "status": "current-source-published-and-independently-verified",
+    "status": "current-source-settled-awaiting-publication",
     "destination": "https://github.com/lixiang90/RH-Weil",
     "visibility": "public",
     "branch": "main",
@@ -168,7 +173,7 @@
       "reply": "每轮把进度同步到github；把文献保存在文献库中，用研究看板来记录各个路线的状况",
       "scope": "本项目研究/Goal/STATE/看板/文献元数据/审查与同步回执；论文再分发许可不明则全文仅本地。"
     },
-    "current_scope": "本轮fullgap0止18源路径正常main同步，独立核GitHub ref/commit/tree；原PDF/PNG仅local。metadata child仅回执/STATE/新checkpoint，实际HEAD另核；下一因果审视未执行。",
+    "current_scope": "本轮非formal因果投入/无math准入/有限索引发现选择、两支持fresh/root、库看板STATE/checkpoint正常main同步；无第三方新原件。下一发现未执行。",
     "published_source_commit": "e6b48e53687ad521e356fa04677533a3d072fa57",
     "verification": "reviews/2026-10-28/full-gap-source-gate/remote-sync-verification.json"
   },
@@ -194,7 +199,7 @@
     "repair_record": "reviews/2026-10-27/corrected-theta-source/root-consumption-scope.json",
     "basis": "literal失域/原hash保持；明确Rgeom scalar源/零模/全原费/F∞及conditionalPan消费重闭；整体Theta/7.4/modularity/stack-index未付，MB/582/583保持。"
   },
-  "latest_causal_review": "goals/reviews/2026-10-28-causal-choice-after-sonin-lower.md",
+  "latest_causal_review": "goals/reviews/2026-10-28-causal-investment-after-subtractions.md",
   "unitary_source_scope_audit": {
     "status": "native-hodge-zero-and-quotientsum-overlay-root-fresh-reclosed",
     "path": "goals/reviews/2026-10-28-unitary-modularity-premise-settlement.md",

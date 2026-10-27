@@ -1,5 +1,7 @@
 # 长期研究恢复入口
 
+2026-10-28，[两补偿停止后的因果审视](reviews/2026-10-28-causal-investment-after-subtractions.md)已两支持/fresh/root限定闭合：库存无新math输入，原geometry/Pan/非根比较已判，signed/单素数/heat设施不付joint净预算。停止分析设施扩建；唯一下一[一次原命题索引发现](../reviews/2026-10-28/post-subtraction-causal/next-independent-source-statement-discovery.md)，未执行/非数学，固定3query一批/最多一actual source或mixed公式；无合格locator即止，不编chapter/串paper。cadence3/历史49/cycle16原字节保持，实际瓶颈/whole4/5UPPER未改，Goal门open。
+
 2026-10-28，[fixed full-gap首门](reviews/2026-10-28-fixed-full-gap-source-gate-stop.md)已两支持/fresh/root限定核闭：原P低cutoff与πSonin、半轴norm/log±及532固定1来源已重闭；同B_X合并relative只付旧2logb边界，Ω无cofinal净费。标准强旧0止本候选，不调b/H0/degree/第三投影/paper；cadence3/历史49/cycle16原字节保持。下一仅[停止后的因果投入审视](../reviews/2026-10-28/full-gap-source-gate/next-causal-review-after-sonin-subtractions.md)，未执行/非formal17/无math准入。核心瓶颈与whole4/5UPPER未变，Goal门open。
 
 2026-10-28，[EX共同扣项强旧核账](reviews/2026-10-28-trial-common-subtraction-old-net-stop.md)已两支持/下一只读意见/fresh/root限定收讫：585原strict degree family已有较大W，actual正交补/有限HS给原E扣后两fixed源残差仍原阶成长。强旧直接0止，不建C049/586、不调E/c/δ、不复验537，cadence3/历史49/cycle16原字节保持。下一仅[整个fixed fullgap类型/相对原费首门](../reviews/2026-10-28/trial-subtraction-admission/next-fixed-full-gap-type-and-fee-gate.md)，未执行/未准math；旧W已在新扣项内不机械套反测，合法性非coverage。Goal门open，发布看STATE。

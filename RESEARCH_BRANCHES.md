@@ -4,7 +4,7 @@
 
 | 路线 | 当前地位 | 可消费输入 | 仍欠的核心箭头 | 准入／停止标准 |
 |---|---|---|---|---|
-| 同对象 relative principal／Green → 截面乘法 → mixed RR | 几何主线；具体执行阶段以STATE为准 | 567真实RR→Hodge机制；579–582实际源／strong域／Green；537明确非根 | 同一非零primitive载体上的实际物理源公式、全关系的principal／Green边界、整过滤与同对象mixed身份 | 先核405全关系及平移、537与全源非根、原du／Dlog和全部尾；无实物不续C045或预建未知合同；保relative／higher／有费无界修复 |
+| 同对象 relative principal／Green → 截面乘法 → mixed RR | 长期几何主线，当前无math准入；仅一次原命题索引发现 | 567真实RR→Hodge机制；579–582实际源／strong域／Green；537明确非根 | 同一非零primitive载体上的实际物理源公式、全关系的principal／Green边界、整过滤与同对象mixed身份 | 先核405全关系及平移、537与全源非根、原du／Dlog和全部尾；无实物不续C045或预建未知合同；保relative／higher／有费无界修复 |
 | 独立正分布 → 完整经典Weil分布 | Γsigned一次6query来源0止，无新数学准入 | 577/578真Γ正层/原费/完整gR；Nakamura概率近邻已准确入库 | actualq_R或独立正Dprime完整signed消失仍欠；cf正性不代log/Weil | 不续Nakamura§2/引文或第三批query；真独立输入可改策，保逐source/Dprime范围 |
 | tensor／Deligne放大 | 条件备选；未有经典实际全族 | 567 tensor与pole机制核查；Deligne I §3 | 非平凡local tensor对象、目标谱身份与全阶global pole控制 | 低阶Euler／Γ／grading检查只作准入；普通测度乘积或ζ幂不足；合并净误差须受控，不把分项次线性当必要 |
 | actual低频core／coupling的joint signed比较 | 无新独立净差输入，条件备选 | 560全型/实际逆及安全high；585必要成长费/fixedr K/t→1 | 同源t−K+pole净方向/原范数及全cross；非单项大小 | 不续fixedfraction桥/旧scalar包络/高频；真实新joint输入可改策，EX同步二维首测仅保建议 |
@@ -18,11 +18,11 @@
 | unitary Chow值模性 → actual算术mixed高度前提 | 来源0已止，限定native overlay | 全代数dual/有限tensor/finiteSchwartz与实际height余前提；nativeHodge、Σ=dπ补注 | 没有physical405/537/原费/fullQζ；literal5.6不直接全rank/单位系数消费 | 不续rank/level/paper/height族；A/C深proof cited，旧orthogonalliteral不解冻 |
 | 实际inner-action cone源 → HH0／432电荷 | 标准强旧0已止 | 全L1 raw在Ac中有限commutator/锥boundary，288/1442L1粗代表费；旧−4保 | 原physical源全零，Pan/537/双degree同杀；非零raw不等非零HH类 | 不调树/同伦/小域/自由functional；不同实物再准 |
 | actual Sonin固定源cofinal总迹 → 完整K费用 | C048/585止；finite-poly EX强旧0止 | strict旧family/更大W/正交HS已蕴含原Tres/Kres成长；原norm/全型保持 | 净signed/corecross及独立primitive容量未付 | 不调degree/W，fullgap亦0止；新独立净差实物可重议 |
-| fixed整个大gap共同投影 → 相对核/原费 | 标准强旧0止此candidate | 原norm/log±/全inverse/实际relative；两finite-strip合计2logb，Ω仅合并TC | Ω的cofinalupper/净signed/corecross仍欠；合法投影差非coverage | 不调b/H0/degree或第三投影/paper；先因果投入审视，独立input/test/net才能另准 |
+| fixed整个大gap共同投影 → 相对核/原费 | 标准强旧0止此candidate | 原norm/log±/全inverse/实际relative；两finite-strip合计2logb，Ω仅合并TC | Ω的cofinalupper/净signed/corecross仍欠；合法投影差非coverage | 不调b/H0/degree或第三投影/paper；因果审视无math准入，独立input/test/net才能另准 |
 | 实际代数对应 → KK／relative比较 | CCM固定v2§6来源0已止 | typed KK／derived kernel、GRR／Todd有限修补；旧relative电荷保持 | 原字面ordinary-cycle6.11／principal下降不直接适用；没有physical有效算术lift／mixedRR | 两P1反测及m1 point腿保角色；不续§7／引用／下一paper，新input/test先扣强旧 |
 | 零点比例与无零区域优化 | 保持暂停 | 历史成果保原范围 | 不是当前Weil类比主责 | 仅用户新指令可恢复，不因文献可得或局部数字改善自动恢复 |
 
-当前理由见[D20261028K](goals/DECISIONS.md)及[fullgap0止](goals/reviews/2026-10-28-fixed-full-gap-source-gate-stop.md)。唯一下一[因果投入审视](reviews/2026-10-28/full-gap-source-gate/next-causal-review-after-sonin-subtractions.md)未执行/非formal17/不准新math；停止继续为同一unknown余项付类型设施，须真正input/test/强旧净后果。cadence3历史49cycle16不变，whole4/5UPPER及Goal门保持。
+当前理由见[D20261028L](goals/DECISIONS.md)及[因果投入结算](goals/reviews/2026-10-28-causal-investment-after-subtractions.md)。当前无新数学准入；唯一下一[一次原命题索引发现](reviews/2026-10-28/post-subtraction-causal/next-independent-source-statement-discovery.md)未执行，三query一批/最多一actual source或mixed公式，无合格locator即止，不编chapter/串paper。不是复查旧r/Pan/537或第三补偿。cadence3/历史49/cycle16、实际瓶颈和whole4/5UPPER均保持。
 
 每个完整研究迭代完成后同步本轮研究及恢复记录到GitHub，并核远程commit与本地一致；失败须保留确切状态，不报成功。依 [唯一cadence](goals/review-cadence.json) 每4–8完整轮宏观审视、默认6，重大反例或连续来源停滞可提前；组织、下载、审查、推送和代理数量均不增加研究轮，也不重置周期。此前计数继续继承。
 

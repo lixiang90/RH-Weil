@@ -1,5 +1,7 @@
 # RH-Weil 文献索引
 
+2026-10-28，[两补偿后的因果投入审视](../goals/reviews/2026-10-28-causal-investment-after-subtractions.md)仅复用项目原件与旧文献索引，无新外网/PDF/下载/渲染/数值，不增条目。[实际阅读范围](supplements/2026-10-28-post-subtraction-causal-scope.md)区分root/两支持与原文未重审；旧Jacobian仅路径存在核验，非本轮原页阅读。下一只一次固定三query原命题索引发现，尚未执行/未有新chapter；没有实物即止，不自动来源队列。0数学/cadence3保持。
+
 2026-10-28，[fixed full-gap首门](../goals/reviews/2026-10-28-fixed-full-gap-source-gate-stop.md)仅复用旧Burnolv1原PDF117262bytes同SHA，root/来源支持完整目视必要PDF2–5，消费限定义/norm/Lemma2/Th4/Cor5；2/3/5旧图复用，只新增必要PDF4一private图，无下载/新文献条目。[实际原页/未付范围](supplements/2026-10-28-full-gap-source-gate-scope.md)及source-read-record记录准确身份；532cutoff1/一般λarch来源区分已重闭。旧2logb边界费用不付合并Ω的cofinal净预算，标准0止/cadence3不动。
 
 2026-10-28，[EX强旧准入0止](../goals/reviews/2026-10-28-trial-common-subtraction-old-net-stop.md)只复用585/560等项目消费记录，无新外部原件/PDF/网页/下载/渲染/数值，不增文献条目。[实际阅读范围](supplements/2026-10-28-trial-subtraction-admission-scope.md)保strict原family/实际HS及C005分块TC限制。下一fixed fullgap只准旧Pb公式/原费用首门，原BurnolPDF5已定位/目视，不重领新来源，当前未重读原PDF。cadence3不动。
