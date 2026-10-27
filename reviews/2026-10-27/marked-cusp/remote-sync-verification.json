@@ -1,0 +1,30 @@
+{
+  "schema": "rh-weil-remote-sync-verification-v1",
+  "verified_for_client_date": "2026-10-27",
+  "repository": "https://github.com/lixiang90/RH-Weil",
+  "branch": "main",
+  "source_commit": "ef6ded0046cb5b0a0edcd771222c170797bfa374",
+  "source_tree": "5ef6dd3846a022eca043eca5b750ba530375f70f",
+  "previous_head": "0fd450ea6b3bf9507abcb27c47c829d7655f7738",
+  "local_commit_and_tree_match": true,
+  "normal_fast_forward_push": true,
+  "independent_remote_verification": {
+    "provider": "Connected GitHub plugin GET, independent of git push output",
+    "ref_url": "https://api.github.com/repos/lixiang90/RH-Weil/git/ref/heads/main",
+    "ref_commit": "ef6ded0046cb5b0a0edcd771222c170797bfa374",
+    "commit_url": "https://api.github.com/repos/lixiang90/RH-Weil/git/commits/ef6ded0046cb5b0a0edcd771222c170797bfa374",
+    "commit_tree": "5ef6dd3846a022eca043eca5b750ba530375f70f",
+    "tree_url": "https://api.github.com/repos/lixiang90/RH-Weil/git/trees/5ef6dd3846a022eca043eca5b750ba530375f70f",
+    "tree_sha": "5ef6dd3846a022eca043eca5b750ba530375f70f",
+    "tree_truncated": false
+  },
+  "scope": "21 allowlisted paths: C047/584 proof and root/fresh source records, exact controls, contract/source checkpoint, next family-admission comparison, STATE/frontier/board/library metadata. Normalized DLMF formula caches remain local ignored; no new external PDF.",
+  "checks": "Independent source-control exact replay, full analytic branch/Pan proof audit, all12root LF bindings, same-B scope correction/reclosure, research_state check/checkpoint and staged whitespace check passed.",
+  "mathematical_round_increment": 1,
+  "cadence_authority": "goals/review-cadence.json",
+  "metadata_child_additional_mathematical_rounds": 0,
+  "classic_bottleneck_changed": false,
+  "next_finite_cover_gate_executed": false,
+  "long_goal": "Same runtime createdAt1793085111 active; original mathematical completion gate open.",
+  "receipt_policy": "This receipt binds the published source commit. Metadata child saves receipt/STATE/checkpoint and is verified against actual HEAD without recursive self-SHA recording."
+}

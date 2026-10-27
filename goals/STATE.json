@@ -41,7 +41,7 @@
     "settled_iterations": [
       "notes/584-marked-cusp-borel-kernel-and-pan-residue-collapse.md"
     ],
-    "stage": "C047/584 root/fresh最终限定结算；source控件/Borel全源/Pan1728费用已付，sameB任意消Pan后处理常值。统一一数学轮，当前源材料待GitHub同步；下一family准入门未执行。",
+    "stage": "C047/584一轮已root/fresh结算；sourceef6ded0正常push并GitHub独立GET ref/commit/tree核同本地。回执/STATE/checkpoint由metadata child保存；下一finitecover准入未执行，原Goal门仍open。",
     "next_action": "只执行reviews/2026-10-27/marked-cusp/next-finite-cover-trace-admission.md：actual finite-indexΓ的j-cover/holomorphicω/wholecuspmask，核完整cusp-monodromy orbit trace的width>1系数/∞衰减/端点complexL1与原费用，再扣405旧compact-real lemma。先判是否标准直接合成0审查，不预C048，不换N找正例；不推Dprime/未逐层Pan的family极限失败。",
     "stop_rule": "C047一轮预算已用，fixedℓ11/sameB数据下降停止；下一仅class trace准入比较，若标准旧合成0止，不自动level/cusp/参数/paper，不以合法中间trace当coverage或primitive。"
   },
@@ -157,12 +157,12 @@
     "basis": "结算现场get_goal同实例active；C047主体/12绑定/root/fresh已最终消费，下一family准入尚未执行。"
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-10-27-marked-cusp-584-source.json",
+  "checkpoint": "goals/checkpoints/2026-10-27-marked-cusp-584-sync.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
-    "commit": "042e2b3d0f0363d8bb8ed3243c6f1740222e1644",
-    "tree": "d78c7f22f12a579560b35572c929e940c56212ab",
-    "basis": "GitHub连接独立GET ref/gitcommit/gittree与本地一致；reviews/2026-10-27/after-reader/remote-sync-verification.json；metadata child实际HEAD另现场核，不递归自记SHA。"
+    "commit": "ef6ded0046cb5b0a0edcd771222c170797bfa374",
+    "tree": "5ef6dd3846a022eca043eca5b750ba530375f70f",
+    "basis": "GitHub连接独立GET ref/gitcommit/gittree与本地一致；reviews/2026-10-27/marked-cusp/remote-sync-verification.json；metadata child实际HEAD另现场核，不递归自记SHA。"
   },
   "completion_audit": {
     "goal": "goals/GOAL.20261027.md",
@@ -178,7 +178,7 @@
   ],
   "process_inventory_observed_on": "source代码/两稳定证明稿/fresh实际审查均terminal，scope纠正已root重闭；无旧reader或新family门后台。",
   "publication_approval_gate": {
-    "status": "current584-root-closed-awaiting-normal-push-and-independent-verification",
+    "status": "current-source-published-and-independently-verified",
     "destination": "https://github.com/lixiang90/RH-Weil",
     "visibility": "public",
     "branch": "main",
@@ -188,9 +188,9 @@
       "reply": "每轮把进度同步到github；把文献保存在文献库中，用研究看板来记录各个路线的状况",
       "scope": "本项目研究/Goal/STATE/看板/文献元数据/审查与同步回执；论文再分发许可不明则全文仅本地。"
     },
-    "current_scope": "C047/584一数学轮及所有source/fresh/状态看板库/nextclassgate元数据；DLMF缓存仍本地，未新增外部PDF。",
-    "published_source_commit": "042e2b3d0f0363d8bb8ed3243c6f1740222e1644",
-    "verification": "reviews/2026-10-27/after-reader/remote-sync-verification.json"
+    "current_scope": "本次21源路径正常main同步且ref/commit/tree独立核验；metadata child仅回执/STATE/checkpoint，0额外轮。DLMF四公式缓存仅本地，无新外部PDF。",
+    "published_source_commit": "ef6ded0046cb5b0a0edcd771222c170797bfa374",
+    "verification": "reviews/2026-10-27/marked-cusp/remote-sync-verification.json"
   },
   "research_board": "RESEARCH_BRANCHES.md",
   "literature_index": "literature/README.md",
