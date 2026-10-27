@@ -1,0 +1,25 @@
+{
+  "schema": "rh-weil-remote-source-verification-v1",
+  "client_date": "2026-10-28",
+  "verified_at_utc": "2026-10-27T20:36:03.101415+00:00",
+  "status": "source-published-independently-verified",
+  "repository": "https://github.com/lixiang90/RH-Weil",
+  "branch": "main",
+  "source_commit": "e6b48e53687ad521e356fa04677533a3d072fa57",
+  "source_tree": "fa971e2aa95c7595dedeeba2ae8a8498178d585b",
+  "source_parent": "832b459c2fc83e38a47f4d72507e1a27475f82b3",
+  "remote_checks": {
+    "method": "Independent connected GitHub GET ref, git commit and git tree",
+    "main_ref_sha": "e6b48e53687ad521e356fa04677533a3d072fa57",
+    "commit_sha": "e6b48e53687ad521e356fa04677533a3d072fa57",
+    "commit_tree_sha": "fa971e2aa95c7595dedeeba2ae8a8498178d585b",
+    "tree_sha": "fa971e2aa95c7595dedeeba2ae8a8498178d585b",
+    "all_matched": true
+  },
+  "scope": "18 explicit source paths, fixedfullgap original/type/boundaryfee audit and source-standard0 stop. No new cofinalnet/sign/primitive/coupling or whole improvement. No thirdparty PDF/PNG committed.",
+  "root_scope": "reviews/2026-10-28/full-gap-source-gate/root-consumption-scope.json",
+  "cadence": "unchanged exact LF cc6877d133b9b9fabd57f199b2433fa4d3fea02a5786b61727cd8f8479d4d2db; 3/history49/formalcycle16; no C049/586",
+  "next": "Only unexecuted nonformal causal investment review in next-causal-review-after-sonin-subtractions.md",
+  "goal_gate": "Same runtime1793085111 active, open/noteligible; stops/publication do not complete Goal.",
+  "metadata_child_policy": "This receipt names verified source only. Normal metadata child contains exactly receipt, STATE and new sync checkpoint; actual child HEAD/tree verified separately after push, no recursive selfSHA."
+}
