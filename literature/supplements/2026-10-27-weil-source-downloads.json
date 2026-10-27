@@ -1,0 +1,158 @@
+{
+  "retrieved_on": "2026-10-27",
+  "scope": "Exact original local bytes only; redistribution rights not established; acquisition is not mathematical review.",
+  "entries": [
+    {
+      "id": "HL-Beurling-math0410270v1",
+      "file": "literature/local/2026-10-27-weil/hilberdink-lapidus-beurling-math0410270v1.pdf",
+      "source_url": "https://arxiv.org/pdf/math/0410270v1",
+      "download_status": "downloaded",
+      "attempts": [
+        {
+          "method": "direct",
+          "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+        },
+        {
+          "method": "http10808",
+          "error": "<urlopen error [WinError 10013] 以一种访问权限不允许的方式做了一个访问套接字的尝试。>"
+        }
+      ],
+      "resolved_url": "https://arxiv.org/pdf/math/0410270v1",
+      "bytes": 335463,
+      "sha256": "34fe75bc30bbcc68f8d94ddc9d9e7ab84d62a41e50924475ccc5d7aaaad22f08",
+      "content_type": "application/pdf",
+      "method": "http10808-escalated",
+      "pages": 31,
+      "inspection": "PDF parsed for page count and first-page title metadata; no full mathematical audit."
+    },
+    {
+      "id": "CC-WeilArch-2006.13771v1",
+      "file": "literature/local/2026-10-27-weil/connes-consani-weil-arch-2006.13771v1.pdf",
+      "source_url": "https://arxiv.org/pdf/2006.13771v1",
+      "download_status": "downloaded",
+      "attempts": [
+        {
+          "method": "direct",
+          "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+        },
+        {
+          "method": "http10808",
+          "error": "<urlopen error [WinError 10013] 以一种访问权限不允许的方式做了一个访问套接字的尝试。>"
+        }
+      ],
+      "resolved_url": "https://arxiv.org/pdf/2006.13771v1",
+      "bytes": 1213504,
+      "sha256": "b8e0b54ade8535cf3ca633d1ef325bfc5c793b407da577a83d111726935b58e0",
+      "content_type": "application/pdf",
+      "method": "http10808-escalated",
+      "pages": 57,
+      "inspection": "PDF parsed for page count and first-page title metadata; no full mathematical audit."
+    },
+    {
+      "id": "Milne-RH-FiniteFields-2015",
+      "file": "literature/local/2026-10-27-weil/milne-riemann-hypothesis-finite-fields-2015.pdf",
+      "source_url": "https://jmilne.org/math/xnotes/pRH.pdf",
+      "download_status": "downloaded",
+      "attempts": [
+        {
+          "method": "direct",
+          "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+        },
+        {
+          "method": "http10808",
+          "error": "<urlopen error [WinError 10013] 以一种访问权限不允许的方式做了一个访问套接字的尝试。>"
+        }
+      ],
+      "resolved_url": "https://jmilne.org/math/xnotes/pRH.pdf",
+      "bytes": 3254740,
+      "sha256": "ef20a49d04363c99baff2eeae0a9cb864ca817ecf17f4c5722d3f90cea493de3",
+      "content_type": "application/pdf",
+      "method": "http10808-escalated",
+      "pages": 67,
+      "inspection": "PDF parsed for page count and first-page title metadata; no full mathematical audit."
+    },
+    {
+      "id": "Deligne-WeilI-1974",
+      "file": "literature/local/2026-10-27-weil/deligne-weil-i-1974.pdf",
+      "source_url": "https://www.numdam.org/item/PMIHES_1974__43__273_0.pdf",
+      "download_status": "downloaded",
+      "attempts": [
+        {
+          "method": "direct",
+          "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+        },
+        {
+          "method": "http10808",
+          "error": "<urlopen error [WinError 10013] 以一种访问权限不允许的方式做了一个访问套接字的尝试。>"
+        }
+      ],
+      "resolved_url": "https://www.numdam.org/item/PMIHES_1974__43__273_0.pdf",
+      "bytes": 3582172,
+      "sha256": "8392b345d4854e6dc55fb42cfc0b616d941935983723627237239a87348f42e5",
+      "content_type": "application/pdf",
+      "method": "http10808-escalated",
+      "pages": 36,
+      "inspection": "PDF parsed for page count and first-page title metadata; no full mathematical audit."
+    },
+    {
+      "id": "Katz-Deligne-ICM1978",
+      "file": "literature/local/2026-10-27-weil/katz-work-of-deligne-icm1978.pdf",
+      "source_url": "https://web.math.princeton.edu/~nmk/old/katzWorkofPDicm1978.pdf",
+      "download_status": "downloaded",
+      "attempts": [
+        {
+          "method": "direct",
+          "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+        },
+        {
+          "method": "http10808",
+          "error": "<urlopen error [WinError 10013] 以一种访问权限不允许的方式做了一个访问套接字的尝试。>"
+        }
+      ],
+      "resolved_url": "https://web.math.princeton.edu/~nmk/old/katzWorkofPDicm1978.pdf",
+      "bytes": 590573,
+      "sha256": "8c1ad2a8c6a1688f0f82e2a0de80f9c0e1b60b9eb44df454618a4fd290f704d6",
+      "content_type": "application/pdf",
+      "method": "http10808-escalated",
+      "pages": 6,
+      "inspection": "PDF parsed for page count and first-page title metadata; no full mathematical audit."
+    },
+    {
+      "id": "User-DistributionBeurlingWeil-20261027",
+      "file": "literature/local/2026-10-27-weil/user-distribution-beurling-weil-original.md",
+      "download_status": "copied-user-attachment",
+      "bytes": 31170,
+      "sha256": "23d203de066b16e6f11ddba4cf0350e3d2cd27fec732067b0768d8b050edef74",
+      "source_url": null,
+      "method": "local-byte-copy"
+    },
+    {
+      "id": "Borcherds-AutomorphicProducts-1998-author",
+      "file": "literature/local/2026-10-27-weil/borcherds-automorphic-products-1998-author.pdf",
+      "source_url": "https://math.berkeley.edu/~reb/papers/aut/aut.pdf",
+      "download_status": "downloaded",
+      "attempts": [],
+      "resolved_url": "https://math.berkeley.edu/~reb/papers/aut/aut.pdf",
+      "bytes": 448471,
+      "sha256": "93618b64a0c07f68a085b0b520079b1062a98ff7672159f34f77b1463e0724d2",
+      "content_type": "application/pdf",
+      "method": "http10808-escalated",
+      "pages": 64,
+      "inspection": "PDF parsed for page count and first-page title metadata; no full mathematical audit."
+    },
+    {
+      "id": "Borcherds-Grassmannians-alggeom9609022v2",
+      "file": "literature/local/2026-10-27-weil/borcherds-grassmannians-alggeom9609022v2.pdf",
+      "source_url": "https://arxiv.org/pdf/alg-geom/9609022v2",
+      "download_status": "downloaded",
+      "attempts": [],
+      "resolved_url": "https://arxiv.org/pdf/alg-geom/9609022v2",
+      "bytes": 504616,
+      "sha256": "f0e76c70f57e63bb145b36ca97635312bb906787f4c521015acc03781c7702ba",
+      "content_type": "application/pdf",
+      "method": "http10808-escalated",
+      "pages": 65,
+      "inspection": "PDF parsed for page count and first-page title metadata; no full mathematical audit."
+    }
+  ]
+}

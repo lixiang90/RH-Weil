@@ -1,5 +1,22 @@
 # 研究分支看板
 
+2026-10-27，按用户明确要求继续研究并启动 [Goal G20261027](goals/GOAL.20261027.md)。新运行 Goal 继承 G20261014 的长期目标、0c4f 冻结基线及截至582的已付成果；旧结果作为输入，不重新计作本Goal的新增结果。运行 Goal 已实测 active；启动首门 A20261027 已实际执行 Borcherds §13 来源准入，最终消费阶段、唯一当前动作和 pending 只读 [STATE](goals/STATE.json)。本看板不另设计轮器，也不把局部合同完成视为长期Goal完成。
+
+| 路线 | 当前地位 | 可消费输入 | 仍欠的核心箭头 | 准入／停止标准 |
+|---|---|---|---|---|
+| 同对象 relative principal／Green → 截面乘法 → mixed RR | 几何主线；具体执行阶段以STATE为准 | 567真实RR→Hodge机制；579–582实际源／strong域／Green；537明确非根 | 同一非零primitive载体上的实际物理源公式、全关系的principal／Green边界、整过滤与同对象mixed身份 | 先核405全关系及平移、537与全源非根、原du／Dlog和全部尾；无实物不续C045或预建未知合同；保relative／higher／有费无界修复 |
+| 独立正分布 → 完整经典Weil分布 | 合法备选；有新构造或signed估计才晋级 | 562／563连续正源证书；576真FF正锥与原alias费；577真Γ/contact修补 | 独立生成规则及每个compact卷积平方上的完整误差消失 | D′／逐测试收敛可传正性；不强加逐层405、ordinary trace或零点收敛。未知membership／修补消失换名不准入 |
+| tensor／Deligne放大 | 条件备选；未有经典实际全族 | 567 tensor与pole机制核查；Deligne I §3 | 非平凡local tensor对象、目标谱身份与全阶global pole控制 | 低阶Euler／Γ／grading检查只作准入；普通测度乘积或ζ幂不足；合并净误差须受控，不把分项次线性当必要 |
+| actual低频core／coupling的joint signed比较 | 有新实际输入时可优先重排 | 542＋555→557 whole4/5负惯性UPPER；560 fixed窗完整正迹−compact；570–572实际joint费用 | 成长低频／core／补空间的同域signed运输及量化净后果 | 扣最强旧后须确有新净费用或覆盖；有利高频子费、紧性或更大固定窗不自动晋级 |
+| S0／λ核／arch-only native Green旧recipe | 已按C045／582停止 | 完整局部作用、原费、全源Green可见性与已核反测均保留 | 原recipe全Pan仍非principal，fixed q7 coarse native primitive为零 | 不续word／orbit／level／height参数；新载体或新relative公式须先过上述首门 |
+| 零点比例与无零区域优化 | 保持暂停 | 历史成果保原范围 | 不是当前Weil类比主责 | 仅用户新指令可恢复，不因文献可得或局部数字改善自动恢复 |
+
+本轮路线理由见 [10-27来源／战略复审](goals/reviews/2026-10-27-distribution-beurling-weil-next-research.md)；[Goal启动与首门结算](goals/reviews/2026-10-27-goal-launch-and-principal-source-gate.md)已root/fresh限定闭合。Borcherds§13确认section/ratio机制，但literal物理源未得合法模输入，source0止、不建C046；下一为已知有限principalpart类型与537正窗的容量/Baire准入比较，尚未证明。实际主瓶颈尚未改变；whole4/5始终是负惯性上预算，fixed17/16正性不外推成长或Ξ。每轮保存证据、当前结论、未付前提、瓶颈是否改变、下一动作与停止条件；论文写入 [文献库](literature/README.md)，准确版本／SHA／保存与阅读范围写入 [manifest](literature/manifest.json)。
+
+每个完整研究迭代完成后同步本轮研究及恢复记录到GitHub，并核远程commit与本地一致；失败须保留确切状态，不报成功。依 [唯一cadence](goals/review-cadence.json) 每4–8完整轮宏观审视、默认6，重大反例或连续来源停滞可提前；组织、下载、审查、推送和代理数量均不增加研究轮，也不重置周期。此前计数继续继承。
+
+## 历史记录（以下10-13／10-12及更早各“当前／下一”只表示其原日期，不代STATE）
+
 按用户要求，每4–8轮研究做一次俯瞰复盘，默认每6轮。
 见[复盘规范](goals/REVIEW_PROTOCOL.md)、[轮数记录](goals/review-cadence.json)
 和[第六周期复盘及下一周期方向](goals/reviews/2026-10-11-original-route-review-cycle-6.md)。
@@ -11,7 +28,7 @@
 C001已开始固定参数的原核／成对素数原子负对照，
 启动[有限原件](reviews/2026-10-13/goal-start-pilot/README.md)仅作探索，不登记数学轮或新算术结论。
 
-## 当前研究方向（2026-10-12，用户指定的等价条件反思与 Connes 前沿核查）
+## 历史研究方向（2026-10-12，用户指定的等价条件反思与 Connes 前沿核查）
 
 研究重心转回无零区域与近期比例优化之前的 Weil 类比、F₁ 和实际算术来源。
 [历史复盘](goals/reviews/2026-10-11-weil-f1-retrospective.md)覆盖001–437，

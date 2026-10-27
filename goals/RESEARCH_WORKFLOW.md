@@ -117,3 +117,11 @@ checkpoint记核心原件的规范LF版本及快照，不证明结论。按授�
 官方[Goals](https://developers.openai.com/cookbook/examples/codex/using_goals_in_codex)
 说明Goal是线程运行状态并需具体证据验收；[memory／compaction示例](https://developers.openai.com/cookbook/examples/agents_sdk/building_reliable_agents_memory_compaction)
 示范用工作区文件保存长任务依据。采用平台memory或压缩钩子须核真实配置；文件规程本身不证明这些能力已启用，也不保证永久记忆。
+
+## 8. G20261027的每轮交付
+
+按用户2026-10-27直接请求，[当前Goal](GOAL.20261027.md)实际运行后，每轮root结算均更新现有[研究看板](../RESEARCH_BRANCHES.md)及[literature文献库](../literature/README.md)，再把研究原件、审查、Goal/STATE/决策/单cadence/看板/文献元数据和检查点正常提交同步至公开lixiang90/RH-Weil main，并独立核远端SHA/tree。启动与来源0审查也保存有价值决策，不制造数学轮。
+
+文献实际全文保本地；再分发许可未明则由literature/.gitignore排除全文，只同步来源/版本/字节/SHA/实际阅读章节，不能将下载成功当原证明已核或许可已付。遇网络失败可使用用户授权10808代理，按命令级配置。同步失败保本地与准确待办，不能写已发布；同步回执不递归记自身SHA。
+
+本版继承原cadence5/历史46/cycle15，默认下一完整数学轮达6后复盘，4可提前、8必须。新运行实例与目标文件版本不得重置轮数；管理交付成功不complete数学Goal。旧Goal的null运行观察为历史，当前实例始终以root实际get_goal核验。

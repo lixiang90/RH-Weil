@@ -4,11 +4,12 @@
 
 **完整黎曼猜想尚未证明。** 当前成果分别有明确的适用范围；抽象存在性判据、有限数值、条件推论和引用外部结果的证明均单独标记。
 
-当前长期研究从[宏观Goal](goals/GOAL.20261014.md)、[短状态](goals/STATE.json)和
+当前长期研究从[宏观Goal](goals/GOAL.20261027.md)、[短状态](goals/STATE.json)和
 [宏观前沿](goals/MACRO_FRONTIER.md)恢复；[跨轮总结](goals/reviews/2026-10-14-cross-round-macro-summary.md)
 说明截至538的资产、方法边界与未付责任。完整Weil型半窗17/16的全复源正性及真正单重偶最低态
 已按实际完整误差/补空间/整数证书核验，见[538](notes/538-actual-weil-geometric-upper-and-full-inertia-gates.md)。
-新Goal从该固定窗资产继续研究成长域费用与ζ/Ξ识别，不由旧成果重复验收。
+G20261027继承原0c4f基线和截至582的已知成果，持续研究同对象principal／Green与mixed RR、完整Weil正性及ζ/Ξ识别，不由旧成果重复验收。
+每轮保存并同步研究进度至本仓库，文献入[文献库](literature/README.md)，路线由[研究看板](RESEARCH_BRANCHES.md)跟踪；沿唯一计数每4–8完整数学轮做宏观审视，默认6轮。
 
 ## 研究问题
 

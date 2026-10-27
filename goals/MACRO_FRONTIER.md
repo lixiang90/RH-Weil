@@ -1,5 +1,17 @@
 # 宏观前沿：可消费范围与最小未付箭头
 
+2026-10-27：[新Goal启动与实际principal来源门](reviews/2026-10-27-goal-launch-and-principal-source-gate.md)已root/startupfresh限定闭合；运行G20261027现场active，继承原基线/≤582输入，启动不重置cadence。真实Borcherds§13有section/Green及同line-character ratio；任意物理源→合法模输入仍欠，literal整值复线性/arch-only CR门失败仅该recipe。7PDF326页及附件已本地库保存、原研究看板更新，正常每轮GitHub同步按本轮直接授权执行。
+
+本次来源/管理0轮，5/46/cycle15保持，classic独立primitive容量/actualq/core/coupling/Xi与whole4/5UPPER未变。下一具体信息差为本章finiteprincipalpart空间过滤与537正窗Gram的容量/Baire比较：先核actualtarget拓扑/闭有限维层/源Baire/连续线性/因子化，扣580/552/553后才准入；尚非已证结果，不串下一paper，不排新完成化/变域/relative/非线性。阶段、发布与pending以STATE为准；以下为历史前沿。
+
+2026-10-27：[用户附件来源／战略复核](reviews/2026-10-27-distribution-beurling-weil-next-research.md)与两独占稿、fresh修后限定PASS已root核读。附件改善任务分层，未给新的经典输入；proper-power权、Mellin对合和Frobenius行列式三归一化先纠正。
+
+最强短链保持：542+555→557 whole leading4/5是负惯性UPPER；560给ALLfixedL完整positiveTrace−compact+双pole，非cofinal sign；582给实际full-local强域/全源Green，未消principal且fixedcoarse primitive零。当前最小缺口是同一非零primitive载体上实际源/relativeprincipal/Green→整过滤/section乘法/mixedRR及完整signedζ运输。
+
+优先几何主责，但未有新X/pair/family和物理源公式，不准入C046，不复活C045或串下一paper。正D′逼近为独立备选：逐compact卷积平方收敛足传正性，不须逐层消noncompact405、普通trace或零点收敛；其独立选择规则/完整signed缺陷消失仍欠。tensor仅实际低阶对象+全阶pole定理到位重排；Deligne合并净误差条件是充分门，不能把分项o(k)误作必要。
+
+本次标准纠错/旧资产重组0轮，cadence5/历史46/cycle15不变，actualq/core/coupling/Ξ及独立容量主瓶颈未变；主稿§8保前件闭合范围。本次仅本地保存，无pending数学进程。以下最新数学结算仍为582；行动以STATE为准。
+
 最新[C045/582完整局部Weil强域与实际Green源门](reviews/2026-10-23-full-local-weil-green-admission.md)已独立fresh最终限定PASS、root前件闭合。
 split2/11紧开Gabor S0包含A1，||e_j||=p^|j|，F_w强费36/5 du；完整SL2精确作用费θp(g)=maxentries，含p2chirp，强连续不全群uniform。
 fixedarch源full-local/adelic强域已付；rawT*r另需指数矩强费，真实双polezero平移sup e^(T/2)，不能改称du统一。

@@ -1257,3 +1257,23 @@ actualarch-only fulls righttr给φ_r(x+iv)=∫r e^(u/2)φ0(x+i ve^u)，x不缩�
 连续±同localstrong设施而native型异号、未接CM不假报反例；trueFF仍同C×C primitive mixed交数/实际截面乘法/RR及全returns/aliases/H0H2，两个place步长相称。552/553/579/581高频/旧商去重；新局部设施已付而经典独立principal/Green mixed容量、signedζ运输、strongold542+555→557 whole4/5负惯性UPPER与actualq/core/coupling/Xi均未改。
 
 统一一轮cadence4→5/历史45→46，formalcycle15保持，恢复/分支/fresh/发布0额外轮；Goal门open/noteligible，runtimeGoalnull未创建。停止本S0本身/λ核extra/arch-only-nativeGreen自动容量recipe，不续word/orbit/level/下一paper。下一仅同一非零primitive实际算术载体上的relativeprincipal/Green cocycle及物理源，先405全关系/537与全源非根/原du-Dlog与全部尾，再整局部过滤/截面lift乘法/mixed二次RR。没有实物只一章来源门即止，不建未知合同。不同载体、高相对、source-aware与有费非有界Green及独立证明等价接口仍保。
+
+## D20261027A — 附件分布化Weil框架复核，源／正号责任去重后0轮停止
+
+依据用户附件、10-27主稿、两独占审读与fresh修后限定PASS；root实际核读并对齐前件。附件的解析包络/证明核分层保留，三字面公式先纠正：λ=u tildeπ、Mellin对合与中心匹配、Frobenius只归一化一次并保H1分子。连续positive primitive的已付正段仅1/4≤c≤1/2；Deligne分项o(k)为方便充分条件，实际合并净误差可抵消。
+
+562–563连续正源证书、560紧修正、567同对象RR、576–577正锥/真Γ费用、582full-local/Green均为输入，不能重开同名任务。主线保实际非零primitive载体的physical源与relativeprincipal/Green公式，先全405及平移/537非根/全源可见/原du-Dlog和全尾，再整过滤/截面lift乘法/mixed二次RR；全complex与完整endpoint必须覆盖，surface维数型接口不自动套算术log#。
+
+独立正Wj→完整Wζ的D′/逐测试逼近仍为合法备选，中间层不必逐层消noncompact405，也不需先有ordinarytrace、行列式或零点收敛。它欠独立选系数及完整signed缺陷消失；未标记membership是目标责任。若有该新实物、真tensor族及全阶pole定理，或实际低频core/coupling新净费用，先比较改策；未知J/height/capacity换名不准入。
+
+本附件来源门在此结束，不自动续paper/S0/arch-only参数，不复活C045，不预建C046。统一0数学轮，单cadence5/历史46/cycle15保持，同G20261014/冻结0c4f；runtimeGoal现场null。strongoldwhole4/5仍负惯性UPPER，实际容量、q/core/coupling/Ξ瓶颈未变，Goal门open。四稿与STATE等仅本地保存，无发布动作。
+
+## D20261027B — 用户明确启动新运行Goal，文献／看板与Borcherds首门实际执行
+
+G20261027文件与create/get_goal已实际active(createdAt1793085111，同rootthread)，由本轮用户直接请求；继承G20261014完整完成门、原0c4f冻结基线及≤582全部输入。每轮正常同步公开lixiang90/RH-Weil main、保存文献并用既有RESEARCH_BRANCHES看板；用户补充10808代理授权。无需重复确认，不另开chat/定时器，不设token预算。原Goal未被complete。
+
+A20261027实际核Borcherds作者64页稿§13 Thm13.3/Example13.5，保1997修订日与1998刊年区别。新来源有真section/Green/ratio，但weight/character未付时不自动principal；字面整值复线性及582arch-only→J输入分别失整性/CR。537compact非根未成合法输入，noncompactPan负模态双指数尾亦未付。按标准/旧Laplace直接消费source0止，不建C046，不排新intertwiner/整源后复化/relative/有费修复。
+
+文献库实际保存7PDF326页+附件原字节；全文由literature/.gitignore保护，本地SHA/版本/页数/字节核验，来源/阅读范围/manifest公开同步。既有看板更新六路线，不另造计轮器。原稿、文献看板与startupfresh限定PASS已root实际读稿，未新增经典正性/容量，strongold4/5UPPER与actualq/core/coupling/Xi未变。
+
+唯一下一比较来自本章实际有限principalpart输入：固定lattice/weight/Weil表示的poleorder过滤、Hausdorff闭有限维层与源Frechet/Baire条件，能否限制连续线性全正窗Gram因子化；先扣580/552/553。该比较尚待执行，不以未知拓扑/身份开合同，不串paper或重复CR。单cadence5/历史46/cycle15保持，默认下一完整数学轮达6后宏观复盘；启动/source/fresh/同步0，Goal保持active。

@@ -1,5 +1,7 @@
 # RH-Weil 文献索引
 
+2026-10-27按用户要求，将 Weil 类比复审与 Goal 启动首门的直接原件保存入库，详见[本批来源／保存范围](supplements/2026-10-27-weil-source-library.md)与[下载版本回执](supplements/2026-10-27-weil-source-downloads.json)。本批为7份PDF共326页，另保存用户附件原始Markdown；准确版本、原始SHA、阅读范围及Git保存状态已追加现有[manifest](manifest.json)。作者Borcherds64页稿与arXivv2的65页稿分别保存，不混淆刊年、版本、分页或SHA。全文仅本地缓存并由literature/.gitignore排除Git；公开同步索引／URL／版本／SHA／阅读范围，不因可公开读取便推定再分发许可。下载与编目不是数学研究轮，旧日期统计保留原范围。当前路线与各分支状态见[研究看板](../RESEARCH_BRANCHES.md)，唯一当前行动仍见[STATE](../goals/STATE.json)。
+
 2026-10-20按用户要求，回顾旧路线图后的568–572及LS专题，形成
 [修订路线图](../goals/reviews/2026-10-20-generalized-weil-facilities-roadmap-after-572.md)。
 它更新九设施缺口、实际Sonin来源门、global评价/容量主责及连续/函数域/数域验证责任；
