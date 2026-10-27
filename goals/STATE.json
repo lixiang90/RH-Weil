@@ -41,7 +41,7 @@
     "settled_iterations": [
       "notes/584-marked-cusp-borel-kernel-and-pan-residue-collapse.md"
     ],
-    "stage": "§8两稿/root/fresh来源限定消费0轮，必要外部定理证明保持cited；下一Mellin–Bergman source尚未执行。准备本次原件/阅读元数据/恢复记录提交并独立核远端，不恢复C047预算。",
+    "stage": "§8两稿/root/fresh来源0限定消费；source533d1b4正常push并GitHub独立GET ref/commit/tree核同本地。回执/STATE/checkpoint由metadata child保存，下一Mellin–Bergman端点/原费/Pan未执行；同Goal门open。",
     "next_action": "仅执行reviews/2026-10-27/arithmetic-theta-section8/next-mellin-bergman-source-admission.md：fixed holomorphic S、W_j=e^(3t/4)f_j(ie^t)、A_r积分公式，先basis/typed/cusp0∞及原du-Dlog费用和实际像，再扣553全Pan cyclic旧门。纯旧合成0止，不预C048/585或续paper。",
     "stop_rule": "C047预算耗用，§8来源已止。下一仅此实际Mellin–Bergman首门；若bounded finite同像被553覆盖即0止，不调ray/basis/B/level/阻尼，不泛排nonholomorphic/cofinal/Dprime。"
   },
@@ -162,12 +162,12 @@
     "basis": "结算现场get_goal同实例active；实际§8两稿/root/fresh来源0消费，下一A_r端点/原费/Pan未执行。"
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-10-27-arithmetic-theta-section8-source.json",
+  "checkpoint": "goals/checkpoints/2026-10-27-arithmetic-theta-section8-sync.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
-    "commit": "0b1d83f57dbe0dcc62d906358b35ab61485f4090",
-    "tree": "63ca18dc4d07975847d42d4c00bf871f6a1752a0",
-    "basis": "独立GitHub GET ref/commit/tree与本地一致；reviews/2026-10-27/joint-oldform-tower/remote-sync-verification.json；metadata child actualHEAD另现场核，不递归自记SHA。"
+    "commit": "533d1b4fb6ffc52c62b4e93c69c386902c62f633",
+    "tree": "864d3fc12e04a47f2b1d2188d86c637ab0c978bf",
+    "basis": "独立GitHub GET ref/commit/tree与本地同；reviews/2026-10-27/arithmetic-theta-section8/remote-sync-verification.json；metadata child actualHEAD另现场核，不递归自记SHA。"
   },
   "completion_audit": {
     "goal": "goals/GOAL.20261027.md",
@@ -183,7 +183,7 @@
   ],
   "process_inventory_observed_on": "现场list_agents当前§8三个handle全部completed，root核实际最终版/16LF；无数值后台，下一Mellin–Bergman未执行。",
   "publication_approval_gate": {
-    "status": "current-source-local-awaiting-commit-and-verification",
+    "status": "current-source-published-and-independently-verified",
     "destination": "https://github.com/lixiang90/RH-Weil",
     "visibility": "public",
     "branch": "main",
@@ -193,9 +193,9 @@
       "reply": "每轮把进度同步到github；把文献保存在文献库中，用研究看板来记录各个路线的状况",
       "scope": "本项目研究/Goal/STATE/看板/文献元数据/审查与同步回执；论文再分发许可不明则全文仅本地。"
     },
-    "current_scope": "§8两稿/root/fresh/next/读记录、STATE/前沿/决策/看板/文献阅读范围/检查点；无新下载/全文发布，cadence未改。",
-    "published_source_commit": "0b1d83f57dbe0dcc62d906358b35ab61485f4090",
-    "verification": "reviews/2026-10-27/joint-oldform-tower/remote-sync-verification.json"
+    "current_scope": "本次17源路径正常main同步且ref/commit/tree独立核验；metadata child只回执/STATE/checkpoint，0额外轮。PDF/像素/提取缓存仅本地，文献阅读状态已更新，无新下载；cadence字节保持。",
+    "published_source_commit": "533d1b4fb6ffc52c62b4e93c69c386902c62f633",
+    "verification": "reviews/2026-10-27/arithmetic-theta-section8/remote-sync-verification.json"
   },
   "research_board": "RESEARCH_BRANCHES.md",
   "literature_index": "literature/README.md",
