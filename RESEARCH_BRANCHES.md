@@ -9,9 +9,10 @@
 | tensor／Deligne放大 | 条件备选；未有经典实际全族 | 567 tensor与pole机制核查；Deligne I §3 | 非平凡local tensor对象、目标谱身份与全阶global pole控制 | 低阶Euler／Γ／grading检查只作准入；普通测度乘积或ζ幂不足；合并净误差须受控，不把分项次线性当必要 |
 | actual低频core／coupling的joint signed比较 | 有新实际输入时可优先重排 | 542＋555→557 whole4/5负惯性UPPER；560 fixed窗完整正迹−compact；570–572实际joint费用 | 成长低频／core／补空间的同域signed运输及量化净后果 | 扣最强旧后须确有新净费用或覆盖；有利高频子费、紧性或更大固定窗不自动晋级 |
 | S0／λ核／arch-only native Green旧recipe | 已按C045／582停止 | 完整局部作用、原费、全源Green可见性与已核反测均保留 | 原recipe全Pan仍非principal，fixed q7 coarse native primitive为零 | 不续word／orbit／level／height参数；新载体或新relative公式须先过上述首门 |
+| L_r(j)／Faber／II2,2 native Green完成化 | C046／583一轮已结算；本principal recipe停止 | 全S_exp系数与fixed窗原费、逐m原lift规范、global balanced L1/mass及cusp／Nk²全尾 | raw注入保Pan；标准连续principal类商连537也杀掉；未得独立primitive／mixedRR | 不续N/radius/j常数/level/同product-paper；新relative／higher或强拓扑修复，须先给input/test/net |
 | 零点比例与无零区域优化 | 保持暂停 | 历史成果保原范围 | 不是当前Weil类比主责 | 仅用户新指令可恢复，不因文献可得或局部数字改善自动恢复 |
 
-当前路线理由以[cycle16宏观复盘](goals/reviews/2026-10-27-general-rh-macro-review-cycle-16.md)为准；[有限主部容量比较](goals/reviews/2026-10-27-modular-principal-part-capacity-and-legal-completions.md)与fresh已root限定闭合，标准/旧推论0轮止、不建C046。single honest输入的精确/双侧容量不足，不排单边signed下界、连续family、逐源/D′或完成化。下一仅检具体L_r(j)完成化的source系数、有限主部截断实际Green/relative输出与全尾运输，不重做已否的honest域资格。此前[Goal启动首门](goals/reviews/2026-10-27-goal-launch-and-principal-source-gate.md)保历史。实际主瓶颈尚未改变；whole4/5始终是负惯性上预算，fixed17/16正性不外推成长或Ξ。每轮保存证据、当前结论、未付前提、瓶颈是否改变、下一动作与停止条件；论文写入 [文献库](literature/README.md)，准确版本／SHA／保存与阅读范围写入 [manifest](literature/manifest.json)。
+当前路线理由以[cycle16宏观复盘](goals/reviews/2026-10-27-general-rh-macro-review-cycle-16.md)与[D20261027D](goals/DECISIONS.md)为准；[583结算](goals/reviews/2026-10-27-completed-modular-cusp-583-settlement.md)已付新增全源/native全尾运输，原cadence0→1／历史46→47一次，停止本principal完成化recipe。前次[有限主部容量比较](goals/reviews/2026-10-27-modular-principal-part-capacity-and-legal-completions.md)仍为0轮旧输入；single honest精确／双侧不足不排单边lower／family／D′。下一依[单门准入审计](reviews/2026-10-27/cusp-transport/next-action-admission.md)，无新input/test/net不建C047；唯一执行见STATE。实际主瓶颈未改，whole4/5是负惯性UPPER，fixed17/16正性不外推成长或Ξ。每轮保存证据、结论、未付前件、瓶颈变化、下一动作和停止；论文存[文献库](literature/README.md)，版本／SHA／实际阅读见[manifest](literature/manifest.json)。
 
 每个完整研究迭代完成后同步本轮研究及恢复记录到GitHub，并核远程commit与本地一致；失败须保留确切状态，不报成功。依 [唯一cadence](goals/review-cadence.json) 每4–8完整轮宏观审视、默认6，重大反例或连续来源停滞可提前；组织、下载、审查、推送和代理数量均不增加研究轮，也不重置周期。此前计数继续继承。
 

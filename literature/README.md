@@ -1,5 +1,7 @@
 # RH-Weil 文献索引
 
+2026-10-27，[583全源模／nativeGreen运输](../notes/583-completed-modular-faber-source-and-native-green-transport.md)复核既存Borcherds Th13.3／Example13.5／Problem16.5，并新增本地保存Duke–Jenkins Bristol2014作者讲义（27页），仅核题名及printed2–3的j／Faber标准背景。[来源范围](supplements/2026-10-27-cusp-transport-source-scope.md)与[下载回执](supplements/2026-10-27-cusp-source-download.json)记录原SHA／字节／实际阅读；全文保持本地。数学净值是本项目实际系数与balanced全尾证明，不是该背景讲义给出经典正性。
+
 2026-10-27有限主部容量比较复用既存Borcherds原件，无新增PDF；[来源范围与内部2018注记](supplements/2026-10-27-modular-capacity-source-scope.md)补充§2/§4/§13实际阅读与首页日期的限制。有限维/Baire及原norm结论是标准/旧资产合成，非新经典正性来源；全文仍仅本地。
 
 2026-10-27按用户要求，将 Weil 类比复审与 Goal 启动首门的直接原件保存入库，详见[本批来源／保存范围](supplements/2026-10-27-weil-source-library.md)与[下载版本回执](supplements/2026-10-27-weil-source-downloads.json)。本批为7份PDF共326页，另保存用户附件原始Markdown；准确版本、原始SHA、阅读范围及Git保存状态已追加现有[manifest](manifest.json)。作者Borcherds64页稿与arXivv2的65页稿分别保存，不混淆刊年、版本、分页或SHA。全文仅本地缓存并由literature/.gitignore排除Git；公开同步索引／URL／版本／SHA／阅读范围，不因可公开读取便推定再分发许可。下载与编目不是数学研究轮，旧日期统计保留原范围。当前路线与各分支状态见[研究看板](../RESEARCH_BRANCHES.md)，唯一当前行动仍见[STATE](../goals/STATE.json)。

@@ -1893,7 +1893,8 @@
       "read_scope": "PDF1标题／作者／版本视觉核对；全文未核读。实际原件58页，arXiv comments写52页。 408: Hilbert read fixed v2 PDF8-9,23-24,26,29,32; topological tensor products and continuous multilinear forms specified, not a particular Banach completion.",
       "status": "上游原件归档，首页及元数据已核验；未认证全文证明。",
       "pdf_parse_status": "PDF opens, title page checked; 58 actual pages.",
-      "review_408": "../reviews/2026-09-20/f1-orbit-completion-source-review.md"
+      "review_408": "../reviews/2026-09-20/f1-orbit-completion-source-review.md",
+      "next_admission_location_20261027": "Existing original hash rechecked. Zero-round next-action audit located PDF44-47 section6.1-6.3, equations6.1/6.2 and Prop6.1/6.11; chapter proof not yet read/consumed. Stop before section7. See ../reviews/2026-10-27/cusp-transport/next-action-admission.md."
     },
     {
       "id": "Simon-1977-determinants",
@@ -2444,7 +2445,8 @@
       "download_receipt": "supplements/2026-10-27-weil-source-downloads.json",
       "pdf_url": "https://math.berkeley.edu/~reb/papers/aut/aut.pdf",
       "pages": 64,
-      "scope_record": "literature/supplements/2026-10-27-modular-capacity-source-scope.md"
+      "scope_record": "literature/supplements/2026-10-27-modular-capacity-source-scope.md",
+      "additional_read_scope_20261027_c046": "Root rechecked Th13.3 statement/product printed47-48, Example13.5 printed50, Problem16.5 printed61; native/fresh checked source normalization. No general Hecke equivariance assumed. Scope record supplements/2026-10-27-cusp-transport-source-scope.md."
     },
     {
       "id": "Borcherds-Grassmannians-alggeom9609022v2",
@@ -2466,6 +2468,27 @@
       "download_receipt": "supplements/2026-10-27-weil-source-downloads.json",
       "pdf_url": "https://arxiv.org/pdf/alg-geom/9609022v2",
       "pages": 65
+    },
+    {
+      "id": "Duke-Jenkins-Singular-Moduli-Bristol-2014",
+      "category": "weil-analogy-local-20261027",
+      "authors": "William Duke and Paul Jenkins; assistant Yingkun Li",
+      "title": "Singular Moduli and Modular Forms",
+      "version": "Author-hosted Bristol course notes; title page July2014; 27-page PDF",
+      "source_url": "https://www.math.ucla.edu/~wdduke/preprints/notes_Bristol.pdf",
+      "pdf_url": "https://www.math.ucla.edu/~wdduke/preprints/notes_Bristol.pdf",
+      "file": "local/2026-10-27-cusp/duke-jenkins-bristol-2014.pdf",
+      "bytes": 371947,
+      "pages": 27,
+      "sha256": "c6046de1d02d7fb7e254161473a222949d464a100f4214e8f3c41cd003067345",
+      "retrieved_on": "2026-10-27",
+      "download_status": "downloaded",
+      "git_included": false,
+      "publication_policy": "Full text local-only; redistribution permission not established. Metadata and project proof only public.",
+      "read_scope": "Title/date and printed2-3 only: Eisenstein expansion, Delta/j definitions, integer monic Faber basis and generating function; no later trace/Maass proof consumed",
+      "review_note": "supplements/2026-10-27-cusp-transport-source-scope.md",
+      "download_receipt": "supplements/2026-10-27-cusp-source-download.json",
+      "status": "Standard j/Faber background verification for C046; no new paper route or independent classical positivity input."
     }
   ],
   "supplement_provenance": [
