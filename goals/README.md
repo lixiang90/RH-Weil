@@ -1,5 +1,7 @@
 # 长期研究恢复入口
 
+2026-10-28，[连续theta来源链因果复核](reviews/2026-10-28-causal-strategy-after-theta-chain.md)已两支持/root/fresh限定闭合：局部源/原费已付，但primitive物理桥、正Dprime完整signed和560actualcore均无新数学输入；553/552/Pet量词不混同，whole4/5UPPER未改。停止继续自造bounded reader/正Gram。定向primary定位并本地存两PDF124页，唯一下一[Raum§5 A/B→Li–Liuv5 Hyp4.5前提门](../reviews/2026-10-28/causal-strategy/next-unitary-modularity-premise-gate.md)，陈述已读/正文未审，不承袭经典Qζ或positiveheight、不解冻literal。0数学/非cycle17，cadence2／历史48／cycle16原字节保持，同Goal/阶段/同步见STATE。
+
 2026-10-28，[固定未平均Pet覆盖塔首门](reviews/2026-10-28-cofinal-petersson-local-norm-gate.md)已两稿/root/fresh限定闭合：实际Γ/halfweight/共同disk与Riesz总evaluation付level统一compactdu费；旧552全Γlog高频在先选fixedR后n∞给严格不消失缺陷，止此family。PSD Gram不冒单变量正分布，不逐层强加Pan，保volume/发散权/非局部等未排实物修复。标准强旧0，cadence2／历史48／cycle16不动，无C048/585，classic瓶颈/whole4/5UPPER未改。下一仅[连续来源投入的因果战略复核](../reviews/2026-10-28/cofinal-petersson/next-causal-strategy-review.md)，未执行，不作cycle17/归零或再续局部模型；同Goal/阶段/同步见STATE。
 
 2026-10-28，[rawmean/joint首门](reviews/2026-10-28-raw-theta-mean-joint-gate.md)已两稿/root/fresh限定闭合：mean恰为Mellin±3/4加L²reader；actualPan双leading和归一化给C×L²图稠密，joint Hm/C∞闭包同一，连续mixed拉回全零，非exact像。标准强旧0止fixed rawrecipe，cadence2／历史48／cycle16不动，无C048/585，classic主瓶颈/whole4/5UPPER未改。literal/整体theta身份冻结；下一仅[固定未平均Pet覆盖塔localnorm准入](../reviews/2026-10-27/raw-theta-mean/next-cofinal-petersson-local-norm-admission.md)，公式已冻，证明未执行；不逐层强加Pan，先扣旧552高频。文献/看板入库；同Goal/准确阶段/同步见STATE。

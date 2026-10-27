@@ -15,10 +15,11 @@
 | classical theta → P0 analytic Green源 | K_g实际源/原费标准0已闭，fixedP0metric止 | actualFourier/dual全零模、globaldu→Hm/C∞、F∞/组件；553只closure同像 | 未给全Pan兼容非零Weil Gram，classicprimitive/RR/完整signed未付 | 不调B/level/ray/weight/阻尼；literal/7.4冻结，仅独立scalar版本重闭 |
 | 同raw K空间mean／bounded leg联合数据 | 标准强旧0轮已止 | exact Mellin±3/4+L²reader、actualPan双leading、C×L²图及Hm/C∞联合闭包 | 连续mixed同源非零比较失败；classicprimitive/RR/全signed仍欠 | 不增probe/调核/level/ray/weight；保不同额外数据/有费强域/cofinal |
 | principal覆盖塔正Pet Gram → 逐compact源Weil极限 | 标准强旧0轮止固定未平均规范 | 全complex compactdu统一费、actualΓ/pp/poles及fixedR后n∞严格缺陷 | 本family极限失败；classic全signed/primitive仍欠；PSD Gram未自动是平移不变W_n | 不调level/ray/weight或串paper，保有实物volume/发散权/非局部修复；先因果战略复核 |
+| unitary Chow值模性 → actual算术mixed高度前提 | 唯一下一单章来源门；身份/陈述已核，§5未审 | Raumv2 A/B、Li–Liuv5 Th1.7/Hyp4.5固定原件124页本地入库 | 全代数泛函/finiteSchwartz/level与剩余6.6及height规范运输；physical/完整Qζ仍欠 | 只审Raum§5及必要前置陈述；无经典可消费净运输章末止，不续rank/level/paper，不解冻旧literal |
 | 实际代数对应 → KK／relative比较 | CCM固定v2§6来源0已止 | typed KK／derived kernel、GRR／Todd有限修补；旧relative电荷保持 | 原字面ordinary-cycle6.11／principal下降不直接适用；没有physical有效算术lift／mixedRR | 两P1反测及m1 point腿保角色；不续§7／引用／下一paper，新input/test先扣强旧 |
 | 零点比例与无零区域优化 | 保持暂停 | 历史成果保原范围 | 不是当前Weil类比主责 | 仅用户新指令可恢复，不因文献可得或局部数字改善自动恢复 |
 
-当前理由见[cycle16](goals/reviews/2026-10-27-general-rh-macro-review-cycle-16.md)、[D20261028B](goals/DECISIONS.md)与[Pet门结算](goals/reviews/2026-10-28-cofinal-petersson-local-norm-gate.md)。全局fixed连续桥与cofinal未平均Pet分别按Pan闭包/Γ高频停止，原费用不再记未知；标准0，cadence2/历史48/cycle16不动，classic主瓶颈及whole4/5UPPER未改。下一仅[因果战略复核](reviews/2026-10-28/cofinal-petersson/next-causal-strategy-review.md)，尚未执行，非正式cycle17，不自动挑新局部模型。文献实际范围见[记录](literature/supplements/2026-10-28-cofinal-petersson-source-scope.md)，同Goal/阶段/发布读STATE。
+当前理由见[因果复核](goals/reviews/2026-10-28-causal-strategy-after-theta-chain.md)、[D20261028C](goals/DECISIONS.md)与正式[cycle16](goals/reviews/2026-10-27-general-rh-macro-review-cycle-16.md)。局部设施/原费已付，classicprimitive物理桥、完整signed/actualcore无新数学输入，whole4/5UPPER未改；0数学、cadence2/历史48不动、非cycle17。唯一下一[Raum§5前提运输](reviews/2026-10-28/causal-strategy/next-unitary-modularity-premise-gate.md)正文尚未执行，陈述不代Qζ/positiveheight，literal冻结保持；新文献/实际阅读见[来源记录](literature/supplements/2026-10-28-causal-strategy-source-scope.md)，阶段/同步读STATE。
 
 每个完整研究迭代完成后同步本轮研究及恢复记录到GitHub，并核远程commit与本地一致；失败须保留确切状态，不报成功。依 [唯一cadence](goals/review-cadence.json) 每4–8完整轮宏观审视、默认6，重大反例或连续来源停滞可提前；组织、下载、审查、推送和代理数量均不增加研究轮，也不重置周期。此前计数继续继承。
 

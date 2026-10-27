@@ -1,5 +1,9 @@
 # 宏观前沿：可消费范围与最小未付箭头
 
+2026-10-28，[连续theta来源链因果复核](reviews/2026-10-28-causal-strategy-after-theta-chain.md)已两支持/root/fresh限定闭合：局部源/原费已付，但primitive物理桥、正Dprime完整signed和560actualcore均无新数学输入；553/552/Pet量词不混同，whole4/5UPPER未改。停止继续自造bounded reader/正Gram。定向primary定位并本地存两PDF124页，唯一下一[Raum§5 A/B→Li–Liuv5 Hyp4.5前提门](../reviews/2026-10-28/causal-strategy/next-unitary-modularity-premise-gate.md)，陈述已读/正文未审，不承袭经典Qζ或positiveheight、不解冻literal。0数学/非cycle17，cadence2／历史48／cycle16原字节保持，同Goal/阶段/同步见STATE。
+
+当前选择已变：不是再优化强源/局部费用，而是检一个实际mixed高度设施的具体模性前提。最强经典短链及最小未付箭头见当前因果总结；来源陈述不代原证明/物理运输，有限Schwartz和全部线性泛函/level必须实际匹配。保独立完整signed和actualSonin/core两备选，须新实物才改策。正式macro仍cycle16；本非计轮因果复核不重置2，以下旧“复核未执行”为历史。
+
 2026-10-28，[固定未平均Pet覆盖塔首门](reviews/2026-10-28-cofinal-petersson-local-norm-gate.md)已两稿/root/fresh限定闭合：实际Γ/halfweight/共同disk与Riesz总evaluation付level统一compactdu费；旧552全Γlog高频在先选fixedR后n∞给严格不消失缺陷，止此family。PSD Gram不冒单变量正分布，不逐层强加Pan，保volume/发散权/非局部等未排实物修复。标准强旧0，cadence2／历史48／cycle16不动，无C048/585，classic瓶颈/whole4/5UPPER未改。下一仅[连续来源投入的因果战略复核](../reviews/2026-10-28/cofinal-petersson/next-causal-strategy-review.md)，未执行，不作cycle17/归零或再续局部模型；同Goal/阶段/同步见STATE。
 
 当前须分清两个已付门：globaldu连续fixed桥的全Pan-root退化，和当前cofinal Gram的compactlevel统一du费对完整Γ高频反测；二者均不排有费无界/源适应/非逐层Pan正Dprime。local设施/规范原费已付款，欠的是同一非零primitive物理桥与mixed身份，或独立完整signed/core新输入。连续标准0后先复核因果选择，不再用正模型或未知预算标签续轮；以下旧“Pet未执行”为历史。

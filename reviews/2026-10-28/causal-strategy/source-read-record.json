@@ -1,0 +1,66 @@
+{
+  "schema": "rh-weil-source-read-record-v1",
+  "date": "2026-10-28",
+  "downloaded_this_turn": true,
+  "download_method": "curl official fixedversion URLs, commandlevel http://127.0.0.1:10808 proxy; originalPDF bytes checked bypypdf header/pages andrawSHA, no globalproxy change",
+  "new_web_search": true,
+  "search_scope": "Primary-only gap-directed search forprimitive/mixed orfullsigned/core inputs; Connes recent/old geometry andcompactpositivity hits deduplicated against10-12/10-20 localreviews, notreadasnewfullpapers. Newunitarymixed-premise source pairselected. Nootherpapersdownloaded.",
+  "sources": [
+    {
+      "file": "literature/local/2026-10-28-causal-strategy/raum-2603.04282v2.pdf",
+      "bytes": 644075,
+      "sha256": "8a92b4cac23ed6a26e70575919f2a13377715e0e8e5ad38c339f771bc5d2c7eb",
+      "git_included": false,
+      "id": "Raum-2026-unitary-kudla-v2",
+      "authors": "Martin Raum",
+      "title": "The Geometric Unitary Kudla Conjecture",
+      "version": "arXiv:2603.04282v2; 2026-05-10",
+      "pages": 58,
+      "source_url": "https://arxiv.org/abs/2603.04282v2",
+      "pdf_url": "https://arxiv.org/pdf/2603.04282v2",
+      "read_scope": "Root HTML abstract/intro/TOC and TheoremA/CorollaryB statements, full visual PDF3; allpages text onlylocator. Section5 PDF52-56 identified but application/premise audit unexecuted. Sections1-4 proofs not audited."
+    },
+    {
+      "file": "literature/local/2026-10-28-causal-strategy/li-liu-2006.06139v5.pdf",
+      "bytes": 1263440,
+      "sha256": "b3705e15817c142a2319660f12b07bf3871e13389d6d5557397c776809cec289",
+      "git_included": false,
+      "id": "Li-Liu-2021-unitary-chow-v5",
+      "authors": "Chao Li; Yifeng Liu",
+      "title": "Chow groups and L-derivatives of automorphic motives for unitary groups",
+      "version": "arXiv:2006.06139v5; 2021-04-10",
+      "pages": 66,
+      "source_url": "https://arxiv.org/abs/2006.06139v5",
+      "pdf_url": "https://arxiv.org/pdf/2006.06139v5",
+      "read_scope": "Root officialabstract/version andv5 HTML intro/TOC, Theorem1.7/Hyp4.5 statementlocator; full visual PDF6-7. No originalproof audit. Earlier v4 HTML intro opened forlocator, not finalversion consumption; v4PDF notdownloaded."
+    }
+  ],
+  "private_caches": [
+    {
+      "file": "literature/local/2026-10-28-causal-strategy/raum-admission-p03.png",
+      "bytes": 366669,
+      "sha256": "3ed8fe19d6aa384364b5254195b006a17ffeb95be5f518a8644283b4d3eac400",
+      "git_included": false
+    },
+    {
+      "file": "literature/local/2026-10-28-causal-strategy/li-liu-admission-06.png",
+      "bytes": 282965,
+      "sha256": "50b36eb3022d35c1a162dee1c0bbc391128fd17554879557f1c41474c7b26abe",
+      "git_included": false
+    },
+    {
+      "file": "literature/local/2026-10-28-causal-strategy/li-liu-admission-07.png",
+      "bytes": 302179,
+      "sha256": "5903aa2d13c012c90b41c9420e64b9ab43a1b08338b82242561f6e8a904df210",
+      "git_included": false
+    }
+  ],
+  "raw_pdf_total_bytes": 1907515,
+  "raw_pdf_total_pages": 124,
+  "root_actual_visual_scope": "RaumPDF3 andLiLiuPDF6-7 complete pages; unitarytensor/A/B andmixedheight statements only. Section5 not read.",
+  "fresh_external_scope": "No newexternalpages/proof read; actualtwoPDF rawbytes/SHA checked only plusfullprojectdraft audits.",
+  "version_control": "v5 PDFheader arXiv10Apr2021; paperDate13Apr2021 distinct. Raumv2 PDFheader10May2026. DynamicHTML Date24Aug2026 not revisionidentity. v4HTMLintro locator not consumedasv5.",
+  "next_section5_gate_executed": false,
+  "not_consumed": "RaumSections1-4 proof/Section5 application notaudited; LiLiuallproofs notaudited. No theoremphysicalbridge, fullclassicQzeta, positiveheight orliteral/overallTheta7.4 thaw.",
+  "scope_record": "literature/supplements/2026-10-28-causal-strategy-source-scope.md"
+}
