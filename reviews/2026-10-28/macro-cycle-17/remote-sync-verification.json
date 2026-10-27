@@ -1,0 +1,33 @@
+{
+  "schema": "rh-weil-remote-source-verification-v1",
+  "client_date": "2026-10-28",
+  "verified_at_utc": "2026-10-27T23:08:50.792902+00:00",
+  "status": "source-published-independently-verified",
+  "repository": "https://github.com/lixiang90/RH-Weil",
+  "branch": "main",
+  "source_commit": "f848b3a7dceb081a3b5ee36bdac92a78eaf9f224",
+  "source_tree": "366fdd4b3c7c3008c5aa9275b6bf7769e497840b",
+  "source_parent": "3357b755271358526ece45b0c7174cefe1357103",
+  "remote_checks": {
+    "method": "Independent connected GitHub GET mainref/gitcommit/gittree",
+    "main_ref_sha": "f848b3a7dceb081a3b5ee36bdac92a78eaf9f224",
+    "commit_sha": "f848b3a7dceb081a3b5ee36bdac92a78eaf9f224",
+    "commit_tree_sha": "366fdd4b3c7c3008c5aa9275b6bf7769e497840b",
+    "tree_sha": "366fdd4b3c7c3008c5aa9275b6bf7769e497840b",
+    "all_matched": true
+  },
+  "scope": "14 explicitsourcepaths: formalcycle17 review/twosupports/fresh/root closure, exactsinglecadence4->0/history50/latestmath586 unchanged, mixedidentity priority/onlyonefutureinputformation, board/library/STATE/checkpoint. Zero newmath, no newformula/input/C050/587 orsourcequeue, noexternalfulltext/numeric.",
+  "root_scope": "reviews/2026-10-28/macro-cycle-17/root-consumption-scope.json",
+  "cadence": {
+    "formal_cycle": 17,
+    "rounds_before": 4,
+    "rounds_after": 0,
+    "historical_before_and_after": 50,
+    "latest_math": "notes/586-theta-ground-state-spectrum-and-full-gamma-heat-defect.md",
+    "after_lf_sha256": "ddb2aa4a96e6de050602302659b21e0debcd1bb0fbcd7e0719e416c52c81a111",
+    "basis": "Reviewroot-fresh actuallyconsumed then one reset. Review/support/Git0math, originalGoal/baseline unchanged."
+  },
+  "next": "Oneautonomous actualtwo-source formulaformation fromfinite orderedcoprime a+b=c<=B andallvaluations. Data/intent notinput, noformula currentlyformed. Exactoldfiber/coefficientdedup first, no proofbudget/sourcequeue/pausedoptimizationrestart.",
+  "goal_gate": "Same runtime1793085111 active/open/noteligible. Fourlocalassets notRHproof/keyindependentnet orcriticalpremiseweakening combinedevidence/coremethodclassboundarycoveringlegalrepairs. Whole4/5UPPER/globalkeybottleneck unchanged.",
+  "metadata_child_policy": "Receipt bindsverifiedsource only. Exactlyreceipt, STATE andnew synccheckpoint formmetadatachild; actualchildHEAD/tree independentlycheckedafterpush separately,no recursiveselfSHA."
+}

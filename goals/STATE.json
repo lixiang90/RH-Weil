@@ -42,7 +42,7 @@
     "settled_iterations": [
       "notes/586-theta-ground-state-spectrum-and-full-gamma-heat-defect.md"
     ],
-    "stage": "C049仍完成耗尽；formalcycle17已两支持/fresh/root限定消费0数学，原4→0一次/history50/latest586保持。原件/看板/库/STATE与新checkpoint待本轮正常发布。",
+    "stage": "formalcycle17已两支持/fresh/root完成0数学，原4→0一次/history50/latest586保持；14源路径f848b3a已正常main推送并独立核GitHub ref/commit/tree。metadatachild只记录已核source，实际HEAD/tree现场另核。C049仍耗尽，无新math合同。",
     "next_action": "执行一次T_B={a+b=c<=B,gcd(a,b)=1}+全v_p双源公式构造，输出reviews/2026-10-28/coprime-additive-input/actual-two-source-candidate.md；先actual公式/域/原费与finite系数-fiber去重(036/080–096/549/578)，仅旧重编码或无公式即止本尝试。当前无新input/C050/587，不重开paper/参数或暂停优化。",
     "stop_rule": "formal17已完成，禁止重复归零/旧复盘；下一只是至多一份公式形成，不授proof预算。无信息差如实止；C049 sector/x/H幂/±/补偿及其他已止recipe/query不复活，Goal门不缩。"
   },
@@ -118,12 +118,12 @@
     "basis": "本轮现场get_goal同实例active；formalcycle17两支持/独立审查/root已实际执行并0数学消费，完成门未通过。"
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-10-28-macro-cycle-17-local.json",
+  "checkpoint": "goals/checkpoints/2026-10-28-macro-cycle-17-sync.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
-    "commit": "da2bfb1f0cea432176a13b10ca5f969b0a553bcf",
-    "tree": "a806ca418004d0a1c3844cc1db471032e8ab2df6",
-    "basis": "Independent GitHub GET mainref/commit/tree matched source; reviews/2026-10-28/theta-ground-state/remote-sync-verification.json; metadatachild actualHEAD/tree verified separately, no recursive selfSHA."
+    "commit": "f848b3a7dceb081a3b5ee36bdac92a78eaf9f224",
+    "tree": "366fdd4b3c7c3008c5aa9275b6bf7769e497840b",
+    "basis": "Independent GitHub GET mainref/commit/tree matched source; reviews/2026-10-28/macro-cycle-17/remote-sync-verification.json; metadatachild actualHEAD/tree verified separately, no recursive selfSHA."
   },
   "completion_audit": {
     "goal": "goals/GOAL.20261027.md",
@@ -137,9 +137,9 @@
     "goals/goal-completion-receipt.20261014.json",
     "goals/goal-completion-receipt.20261014-continuation.json"
   ],
-  "process_inventory_observed_on": "本轮geometry/signed/fresh三个宏观task均最终稿终结；未执行下一三元组构造，无新数学proof/研究web/PDF/数值后台。",
+  "process_inventory_observed_on": "本轮geometry/signed/fresh三个宏观task均最终稿终结；14源已push/独立核，未执行下一三元组构造，无新数学proof/研究web/PDF/数值后台。metadatachild实际HEAD现场另核，不是verifiedwait。",
   "publication_approval_gate": {
-    "status": "current-review-root-consumed-local-not-yet-published",
+    "status": "current-source-published-and-independently-verified",
     "destination": "https://github.com/lixiang90/RH-Weil",
     "visibility": "public",
     "branch": "main",
@@ -149,9 +149,9 @@
       "reply": "每轮把进度同步到github；把文献保存在文献库中，用研究看板来记录各个路线的状况",
       "scope": "本项目研究/Goal/STATE/看板/文献元数据/审查与同步回执；论文再分发许可不明则全文仅本地。"
     },
-    "current_scope": "当前正式cycle17原件/两支持/fresh/root/看板/库/STATE/cadence/checkpoint已消费，尚待正常main发布及远端核验。0新数学/无新外部全文，先前586源da2及metadata3357仍历史已核。",
-    "published_source_commit": "da2bfb1f0cea432176a13b10ca5f969b0a553bcf",
-    "verification": "reviews/2026-10-28/theta-ground-state/remote-sync-verification.json"
+    "current_scope": "正式cycle17的14源路径已正常main同步并独立核ref/commit/tree；0新数学/无新外部全文。metadatachild仅回执/STATE/新checkpoint，实际HEAD另核，复盘与发布不完成Goal。",
+    "published_source_commit": "f848b3a7dceb081a3b5ee36bdac92a78eaf9f224",
+    "verification": "reviews/2026-10-28/macro-cycle-17/remote-sync-verification.json"
   },
   "research_board": "RESEARCH_BRANCHES.md",
   "literature_index": "literature/README.md",
