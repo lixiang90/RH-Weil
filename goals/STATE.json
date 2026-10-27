@@ -41,7 +41,7 @@
     "settled_iterations": [
       "notes/584-marked-cusp-borel-kernel-and-pan-residue-collapse.md"
     ],
-    "stage": "literalK type门两稿/fresh/root最终闭合：actualfullrank发散及下游冻结，标准来源0轮；管理保存/同步中。下一仅独立Rgeom单x规范，未执行。",
+    "stage": "literalK反测/冻结两稿/fresh/root限定0轮消费；源ac1db51正常push并GitHub独立GET ref/commit/tree核同本地。回执/STATE/checkpoint由metadata child保存；下一独立Rgeom单x规范未执行，同Goal门open。",
     "next_action": "仅执行 reviews/2026-10-27/classical-theta-analytic/next-negative-plane-green-normalization-admission.md：固定B/Q/D，Rgeom=-B(pr_minusx,pr_minusx)，核singlex ddc xi+delta与phi0 μ、Q正负及scaledv系数。未执行；不接完整K/Phi/原费或Th7.4，不预C048/585。",
     "stop_rule": "C047预算耗用，literalK已止。singlex规范不相容即止，不调factor/model/ray/level/weight/阻尼；相容仅局部独立版本前件，完整源须另input/test/net，标准0不预新合同。"
   },
@@ -162,12 +162,12 @@
     "basis": "结算前现场get_goal同实例active；本轮literalK首门已实际执行/root-fresh消费，下一单x规范未执行。"
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-10-27-classical-theta-literal-normalization.json",
+  "checkpoint": "goals/checkpoints/2026-10-27-classical-theta-literal-normalization-sync.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
-    "commit": "df01105f9c96f9a16e508f6d54a768ac31371cc5",
-    "tree": "acba9f644a3307660c8a222891ced81ba4e9aada",
-    "basis": "独立GitHub GET ref/commit/tree与本地同；reviews/2026-10-27/mellin-bergman-source/remote-sync-verification.json；metadata child实际HEAD另现场核，不递归自记SHA。"
+    "commit": "ac1db5105c7678b33d72e97fe74f740b55fc4802",
+    "tree": "ca9ee06b30aaf6405016a6d4bc8e16d84d889743",
+    "basis": "独立GitHub GET ref/commit/tree与本地同；reviews/2026-10-27/classical-theta-analytic/remote-sync-verification.json；metadata child实际HEAD另核，不递归自记SHA。"
   },
   "completion_audit": {
     "goal": "goals/GOAL.20261027.md",
@@ -183,7 +183,7 @@
   ],
   "process_inventory_observed_on": "现场ct_zero/ct_norm/fresh全completed，root已核最终版本；extra fresh root/next/source-scope只读通过未改稿，无数值/下载后台。",
   "publication_approval_gate": {
-    "status": "current-classical-theta-normalization-root-consumed-publication-pending",
+    "status": "current-source-published-and-independently-verified",
     "destination": "https://github.com/lixiang90/RH-Weil",
     "visibility": "public",
     "branch": "main",
@@ -193,9 +193,9 @@
       "reply": "每轮把进度同步到github；把文献保存在文献库中，用研究看板来记录各个路线的状况",
       "scope": "本项目研究/Goal/STATE/看板/文献元数据/审查与同步回执；论文再分发许可不明则全文仅本地。"
     },
-    "current_scope": "本次literal归一化两稿/fresh/root/freeze/下一规范准入及文献管理待正常main同步；0数学轮，cadence字节保持，PDF/像素仅本地，无新PDF下载。",
-    "published_source_commit": "df01105f9c96f9a16e508f6d54a768ac31371cc5",
-    "verification": "reviews/2026-10-27/mellin-bergman-source/remote-sync-verification.json"
+    "current_scope": "本次18源路径正常main同步且ref/commit/tree独立核验；metadata child仅回执/STATE/checkpoint，0额外轮。PDF/像素仅本地，无新PDF，cadence原字节保持。",
+    "published_source_commit": "ac1db5105c7678b33d72e97fe74f740b55fc4802",
+    "verification": "reviews/2026-10-27/classical-theta-analytic/remote-sync-verification.json"
   },
   "research_board": "RESEARCH_BRANCHES.md",
   "literature_index": "literature/README.md",

@@ -1,0 +1,23 @@
+{
+  "schema": "rh-weil-remote-sync-verification-v1",
+  "verified_at_utc": "2026-10-27 15:04:42 UTC",
+  "repository": "https://github.com/lixiang90/RH-Weil",
+  "branch": "main",
+  "published_source_commit": "ac1db5105c7678b33d72e97fe74f740b55fc4802",
+  "published_source_tree": "ca9ee06b30aaf6405016a6d4bc8e16d84d889743",
+  "independent_verification": {
+    "provider": "connected GitHub fetch",
+    "ref_commit": "ac1db5105c7678b33d72e97fe74f740b55fc4802",
+    "commit_sha": "ac1db5105c7678b33d72e97fe74f740b55fc4802",
+    "commit_tree": "ca9ee06b30aaf6405016a6d4bc8e16d84d889743",
+    "tree_sha": "ca9ee06b30aaf6405016a6d4bc8e16d84d889743",
+    "tree_truncated": false,
+    "matched_local_commit_and_tree": true
+  },
+  "scope": "18 reviewed research/state/board/literature paths; literal normalization counterexample and exact downstream freeze, explicit unexecuted singlex Green repair gate. Third-party PDF/renders remain ignored and local.",
+  "transport": "Normal main fast-forward push with command-scoped http://127.0.0.1:10808 proxy; no force.",
+  "mathematical_round_increment": 0,
+  "cadence_unchanged": true,
+  "goal_status": "same runtime1793085111 active; mathematical completion gate open",
+  "metadata_child_policy": "Receipt/STATE/new sync checkpoint saved in a metadata child; actual child HEAD/tree independently verified after push, without recursively embedding that child SHA in this receipt."
+}
