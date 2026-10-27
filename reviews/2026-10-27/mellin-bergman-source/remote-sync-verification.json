@@ -1,0 +1,23 @@
+{
+  "schema": "rh-weil-remote-sync-verification-v1",
+  "verified_at_utc": "2026-10-27T14:41:35.880063+00:00",
+  "repository": "https://github.com/lixiang90/RH-Weil",
+  "branch": "main",
+  "published_source_commit": "df01105f9c96f9a16e508f6d54a768ac31371cc5",
+  "published_source_tree": "acba9f644a3307660c8a222891ced81ba4e9aada",
+  "independent_verification": {
+    "provider": "connected GitHub fetch",
+    "ref_commit": "df01105f9c96f9a16e508f6d54a768ac31371cc5",
+    "commit_sha": "df01105f9c96f9a16e508f6d54a768ac31371cc5",
+    "commit_tree": "acba9f644a3307660c8a222891ced81ba4e9aada",
+    "tree_sha": "acba9f644a3307660c8a222891ced81ba4e9aada",
+    "tree_truncated": false,
+    "matched_local_commit_and_tree": true
+  },
+  "scope": "17 reviewed research/state/board/literature metadata paths. Actual source/Pan/fresh/root closures and definition-only next candidate. Third-party PDF/renders ignored and not published.",
+  "transport": "Normal main fast-forward push, command-scoped http://127.0.0.1:10808 proxy. No force push.",
+  "mathematical_round_increment": 0,
+  "cadence_unchanged": true,
+  "goal_status": "same runtime1793085111 active; mathematical completion gate open",
+  "metadata_child_policy": "Receipt/STATE/new sync checkpoint are committed in a metadata child. Its actual HEAD/tree are independently verified after push, without recursively writing that child SHA into this receipt."
+}
