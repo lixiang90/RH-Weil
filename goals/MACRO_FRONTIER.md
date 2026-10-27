@@ -1,5 +1,9 @@
 # 宏观前沿：可消费范围与最小未付箭头
 
+2026-10-27，[finite-cover trace审查](reviews/2026-10-27-finite-cover-trace-admission.md)已root/fresh限定消费，标准旧推论0轮：任意给定coarse modular j-cover／全纯complexω／whole-cusp fixed masks，完整monodromy orbit筛系数并抵消1/w，subpole端点与complexjump给L¹[0,1728]读出；405旧compact-real门迫exact-Pan-descender全零。固定有限读出向量Pan像扫满源像，任意仅依同B且消全部关系的postmap常值。不是新的primitive／mixedRR或经典正性；强旧whole4/5UPPER与actualq/core/coupling/Ξ不改。cadence保持2／历史48／cycle16，无新合同/笔记号。
+
+唯一下一是[实际完整all-d oldform tower](../reviews/2026-10-27/finite-cover-trace/next-joint-oldform-tower-admission.md)的联合坐标／拓扑比较，先扣583：不挑level让单腿过Pan，先验Dirichlet反演是否纯raw重编码；fixed finiteprefix只给product密度，不报infinite exact或强Pan闭包，honest-principal闭商另列。若只是旧坐标则0止，不继续period/paper/height；额外非residue数据／源适应／不同谱与未逐层下降D′仍合法但未获新实物。该下一尚未执行；目前Goal同实例active/open，阶段与发布见STATE。下列“下一finitecover”等为已执行历史。
+
 2026-10-27，[C047／584](reviews/2026-10-27-marked-cusp-584-settlement.md)已root/fresh限定消费。g11 typed/exact48Schreier及原费、same583小φ共同ε控制付清；新K属于真实signedL1[0,1728] Laplace类，selected∞width1 monodromy、subpoleendpoint与Cauchy方向逐项闭合，actualPan p_b全b公式给ℓ11(p_b)~C e^(1728b)/√b>0及原norm必要费。不是把旧a0正性偷运到带g符号核，也不是numericalb0。
 
 同cusp两腿B=(ell,−ell)，Pan复倍数已扫满B(S_exp)，任何仅依同B且消Pan/base不变的postmap（含非线性）都常值；同reader不能靠换商/非线性改名保537。停止fixedsinglecusp/lift/height/level/cusp/补偿/paper自动续造，保携带额外实际数据/不同source-map的relative/nonlinear/source-adaptive修复。compact-realmeasure annihilator为405+标准Laplace唯一性的强旧推论，不重计。新本体为K的全Borel/端点sharp费用；统一一数学轮cadence1→2/历史47→48，cycle16保持。经典primitiveRR、完整signedgrowth/core/coupling/Xi和whole4/5UPPER未改，Goal同实例active/open。

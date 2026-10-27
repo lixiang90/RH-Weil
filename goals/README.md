@@ -1,5 +1,7 @@
 # 长期研究恢复入口
 
+2026-10-27，[finite-cover whole-cusp准入](reviews/2026-10-27-finite-cover-trace-admission.md)已root／fresh限定闭合：coarse PSL₂、width>1的完整orbit与1/w、complex L¹ jump／留数方向及原du-Dlog费用均付清。它只是584 Cauchy＋标准trace→405旧唯一性的直接合成；固定有限B有B(Pan)=B(source)，同B后消全部关系则常值。0数学轮，cadence2／历史48／cycle16不动；无C048/585，classic主瓶颈和whole4/5UPPER未改。下一仅[完整oldform tower的联合数据／583坐标比较](../reviews/2026-10-27/finite-cover-trace/next-joint-oldform-tower-admission.md)，未执行；finite prefix/product稠密不代infinite强商，principal闭商不代Pan闭商。停止finite residue换level/cusp/mask，保额外实际数据和未逐层Pan的D′。同Goal／准确阶段／同步见STATE。
+
 2026-10-27，[C047／584](reviews/2026-10-27-marked-cusp-584-settlement.md)已root/fresh限定结算：fixedℓ11的signedL1 cut[0,1728]、真实Pan全平移公式及正向C e^(1728b)/√b必要费闭合；同小φ控制族仍为537非根。单∞读出不消Pan，同两腿B的Pan像扫满源像，故只依赖同B的任何下降读出全像常值。本recipe一轮止，不造lift/height或调N/cusp；classic主瓶颈/whole4/5UPPER未改。统一一数学轮，cadence1→2／历史47→48，cycle16不重置。下一仅[finitecover cusp-orbit trace类准入比较](../reviews/2026-10-27/marked-cusp/next-finite-cover-trace-admission.md)，先扣旧compact-real lemma，不预C048、不重复ℓ11；阶段/同Goal/发布只看STATE。
 
 2026-10-27，[CCM§6](reviews/2026-10-27-ccm-geometric-correspondence-source-gate.md)指定章已root／fresh限定来源0止：原方向、推拉消去、ordinary-cycle/Kpush与principal下降须按两P1反测／m1 point腿限定；仅保typed derived／Todd修补，583及旧relative资产不回滚。无新算术源／mixedRR，cadence1／历史47／cycle16保持，不建C047/584、不续§7或下一paper。下一依本轮实际输入准入先扣强旧，当前执行与发布见STATE；旧“下一读CCM”已完成。

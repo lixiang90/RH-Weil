@@ -1,5 +1,7 @@
 # RH-Weil 文献索引
 
+2026-10-27，[finite-cover trace准入](../goals/reviews/2026-10-27-finite-cover-trace-admission.md)仅复用405/583/584及既有来源；[实际阅读／归属](supplements/2026-10-27-finite-cover-trace-source-scope.md)区分标准orbittrace/Cauchy/强旧直接合成与新算术输入。本次无新外部论文、PDF、网页或缓存，不虚增manifest条目；标准审查0数学轮，下一完整oldform tower尚未执行。
+
 2026-10-27，[C047／584](../notes/584-marked-cusp-borel-kernel-and-pan-residue-collapse.md)新增eta官方四式核读与normalized本地缓存；[来源/归属范围](supplements/2026-10-27-ell11-source-scope.md)明确DLMF只支撑eta输入，项目新证明是signedcut/Pan定量费用。无新PDF/整章proof审计，既存BY原件不重下载。actualsource/strongold/原norm/同B下降失败范围见root前件；数学统一一轮，不能将formula阅读或Schreier运行再计轮。
 
 2026-10-27，[reader预算与来源类型结算](../goals/reviews/2026-10-27-reader-budget-stop-and-marked-source-admission.md)保存Bruinier–Yang两份原始PDF共102页：arXivv1与作者更正版分别SHA/页数核验，全文仅本地忽略。[回执](supplements/2026-10-27-by-cm-source-download.json)和[阅读范围](supplements/2026-10-27-by-cm-source-scope.md)区分版本、root目视p1/19/25–26、statement定位和未审整体证明；不消费一般totalheight或classicWeil身份。同原carrier shadow门已标准止，下一marked-cusp候选只是源泛函关系门。

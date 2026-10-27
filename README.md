@@ -11,6 +11,8 @@
 G20261027继承原0c4f基线和截至582的已知成果，持续研究同对象principal／Green与mixed RR、完整Weil正性及ζ/Ξ识别，不由旧成果重复验收。
 每轮保存并同步研究进度至本仓库，文献入[文献库](literature/README.md)，路线由[研究看板](RESEARCH_BRANCHES.md)跟踪；沿唯一计数每4–8完整数学轮做宏观审视，默认6轮。
 
+本次[有限覆盖尖点读出检查](goals/reviews/2026-10-27-finite-cover-trace-admission.md)已按标准旧推论0轮保存：固定有限数据未给非零关系下降，经典核心瓶颈未变。下一仅检查完整oldform tower是否只是583已有源的坐标重编码；不将有限前缀结论外推为无限强商结论。
+
 ## 研究问题
 
 有限域上的 Weil 机制把迹公式、Frobenius、Lefschetz 分解及 Hodge–Riemann 正性连接起来，约束特征值的绝对值。本项目尝试把这些关系转移到数域：构造算术来源、对应与周期读出，并证明足以产生中心线结论的正性或存在性。
