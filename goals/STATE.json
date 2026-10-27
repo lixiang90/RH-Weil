@@ -8,7 +8,7 @@
   "cadence": "goals/review-cadence.json",
   "decisions": "goals/DECISIONS.md",
   "latest_strategy": "goals/reviews/2026-10-27-general-rh-macro-review-cycle-16.md",
-  "latest_decision": "D20261028E",
+  "latest_decision": "D20261028F",
   "macro_frontier": "goals/MACRO_FRONTIER.md",
   "macro_summary": "goals/reviews/2026-10-28-causal-strategy-after-theta-chain.md",
   "latest_macro_review": "goals/reviews/2026-10-27-general-rh-macro-review-cycle-16.md",
@@ -20,8 +20,8 @@
   },
   "macro": {
     "long_objective": "G20261027接续G20261014完整完成门/原0c4f基线，≤582为输入；持续寻经典同源Weil正性/有效性/RR或actualsigned新输入，付全源/成长/core及谱识别。",
-    "unpaid_bottleneck": "canonicalAc锥源精确全零，标准0止；classicphysical→同一非零primitive/整过滤/sections/mixedRR、危险低频core/coupling/Xi仍欠，whole4/5UPPER未改。安全高频actualSonin运输早付，不能再记整体未知。",
-    "why_this_contract": "unitary和canonicalCone均已止，库存无新数学input。下一只短定向定位真实Π_FL/ε_FL在危险core的primary signed/cross命题；先扣已付安全高频，不再换商/小域/正Gram或串paper。无实际命中不开数学合同。",
+    "unpaid_bottleneck": "新fixedv2Th6.2 lower仅来源候选；原proof/weightedtrial/evaluation/cofinal费未审。若过门可给actual完整K固定源成长费，当前primitive/mixedRR/危险corecoupling/Xi与whole4/5UPPER均未改，安全高频已付。",
+    "why_this_contract": "短定位实际取得未审fixedsource/cofinal总迹lower，可直接条件代560完整型；胜过6.5单步/旧高频/换商。只审6.2lower必要短链，失败止；sharp/后章不自动续，不预数学晋级。",
     "paused_routes": [
       "零点比例优化",
       "无零区域优化"
@@ -30,7 +30,7 @@
       "549–578的精确停门、paid资产及合法逃逸见MACRO_FRONTIER/各root收据；不以旧商/正锥membership/未知余项改名复活；542+555→557仅whole4/5负惯性UPPER。",
       "579–582的实际源/非标量cycles/full-local强域/Green已付，但各principal、原域、coverage或fixedcoarse primitive门失败；停止原recipe，保不同relative/higher/强拓扑/有费无界/源适应修复。",
       "10-27附件战略source0已止，无新经典J或容量；正Dprime逼近不需逐层405/ordinarytrace，须独立正序列/完整signed趋零。tensor须真对象与全阶pole。",
-      "584后来源/标准门含unitary及canonicalAc actionCone均0止；全source边界不代primitive。literal/整体theta冻结保持；安全高频actual运输已付。下一只定位危险core新原命题，不复活参数/旧paper，保有实物强域/非标量/Dprime/signed。"
+      "unitary/canonicalAc cone等标准0止，literal/整体theta冻结保留；旧安全actual高频已付。新仅准fixedv2Th6.2 lower来源proof，不复活小域/正Gram/旧参数或paper队列。"
     ]
   },
   "primary_contract": {
@@ -41,9 +41,9 @@
     "settled_iterations": [
       "notes/584-marked-cusp-borel-kernel-and-pan-residue-collapse.md"
     ],
-    "stage": "actionCone标准0结算及高层恢复补正已正常main同步、独立ref/commit/tree核验；metadata回执落盘。唯一下一危险core原命题定位尚未执行，无新章/数学input。",
-    "next_action": "仅执行 reviews/2026-10-28/action-cone/next-actual-core-source-location-gate.md 的一次短primary定位：实际Π_FL/ε_FL或原QL危险core signed/cross命题先去重，实际取得并冻结版本/输入输出/源norm/量词；未执行，无已命中新章或数学合同。",
-    "stop_rule": "canonicalAc/S1 cone全源类0已止，不调小域/同伦/旧−4或自由functional。下一定位若只fixedF/有利高频/变分/unknownbudget即止；没有新命中不捏chapter/数学input或续paper。"
+    "stage": "core定位两稿/fresh/root限定结算0；固定Markdown已存并ignored，条件字典/endpoint/fixedsource尾核完。下一6.2lower proof未执行，当前待正常同步核验。",
+    "next_action": "先保存/正常同步本次定位并核远端；随后仅执行 reviews/2026-10-28/core-source-location/next-fixed-test-lower-proof-gate.md 的固定v2Th6.2 lower来源proof及必要短链，尚未审/未预数学合同。",
+    "stop_rule": "只审6.2实际nonzero fixed-source lower，trial/weightednorm/cofinal关键前件失败即止；不转6.4sharp/6.5/§7/下一paper。成功先核强旧和实际后果再准数学，不拿条件K增长作已证。"
   },
   "support_contracts": [],
   "must_not_forget": [
@@ -124,20 +124,25 @@
       "scope": "24LF绑定：exactfiniteboundary/原norm/全source/strongest-old0及高层恢复，Goalopen。"
     },
     {
-      "path": "reviews/2026-10-28/action-cone/next-actual-core-source-location-gate.md",
+      "path": "reviews/2026-10-28/core-source-location/root-consumption-scope.json",
+      "kind": "cited",
+      "scope": "18LF绑定：原件/来源字典/条件K方向、fixedsource尾、未审proof与唯一准入；0数学。"
+    },
+    {
+      "path": "reviews/2026-10-28/core-source-location/next-fixed-test-lower-proof-gate.md",
       "kind": "open",
-      "scope": "唯一短primary定位，真实危险core signed/cross；尚未执行，无已命中新章或数学晋级。"
+      "scope": "唯一fixedv2Th6.2 lower来源证明门，原weightedtrial/evaluation/cofinal前件未审，无数学晋级。"
     }
   ],
   "pending_processes": [],
   "runtime_goal_observation": {
     "status": "active",
-    "observed_at_utc": "2026-10-27T18:12:27.570903+00:00",
+    "observed_at_utc": "2026-10-27T18:32:43.745097+00:00",
     "created_at_unix": 1793085111,
-    "basis": "本轮现场get_goal同实例active；STATE唯一cone比较已实际执行/三稿核/root结算，非只规划或重建Goal。"
+    "basis": "本轮现场get_goal同实例active；STATE唯一来源定位已实际web/归档/去重/独审/root结算，未执行下一原proof。"
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-10-28-action-cone-sync.json",
+  "checkpoint": "goals/checkpoints/2026-10-28-core-source-location.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
     "commit": "af243d3281bf03bf96c2bd04a5e194c2827107f3",
@@ -150,15 +155,15 @@
     "goal_lf_sha256": "b3d2acb1f962d793f45d79b6a4e67fb87dd072cd4752108a9298204b4cefa1de",
     "mathematical_gate": "open",
     "final_execution_gate": "not-eligible",
-    "basis": "canonicalCone标准最强旧合成0止，恢复已付安全高层亦0；经典primitive/危险core/coupling/whole无新净值，剩余实物修复未排，完整Goal门open。"
+    "basis": "来源定位/准入0，原fixedtestlower证明仍未审，K成长和core后果条件性；经典primitive/corecoupling/whole无新数学净值，Goal完整门open。"
   },
   "historical_completion_receipts": [
     "goals/goal-completion-receipt.20261014.json",
     "goals/goal-completion-receipt.20261014-continuation.json"
   ],
-  "process_inventory_observed_on": "现场三actionCone稿均terminal；unit_height新只读策略与unit_fresh新只读高层范围核查也已实际terminal并root消费。无数值/下载/渲染/网络后台。下一定位未执行。",
+  "process_inventory_observed_on": "本次local/primary/fresh三终稿及unit_height额外只读字典意见、fresh额外root范围核查均terminal/root消费；固定download终止，无后台。下一proof未执行。",
   "publication_approval_gate": {
-    "status": "current-source-published-and-independently-verified",
+    "status": "current-core-location-local-settled-awaiting-normal-push",
     "destination": "https://github.com/lixiang90/RH-Weil",
     "visibility": "public",
     "branch": "main",
@@ -168,7 +173,7 @@
       "reply": "每轮把进度同步到github；把文献保存在文献库中，用研究看板来记录各个路线的状况",
       "scope": "本项目研究/Goal/STATE/看板/文献元数据/审查与同步回执；论文再分发许可不明则全文仅本地。"
     },
-    "current_scope": "本次actionCone16源路径正常main同步并独立ref/commit/tree核验；metadata child仅回执/STATE/checkpoint，实际HEAD另核。无新外部全文/缓存，cadence原字节保持。",
+    "current_scope": "本次新来源定位/三个独占稿/root/next/文献元数据和阅读/库存记录/看板/STATE/检查点；原Markdown全文仅本地ignored，当前待push。",
     "published_source_commit": "af243d3281bf03bf96c2bd04a5e194c2827107f3",
     "verification": "reviews/2026-10-28/action-cone/remote-sync-verification.json"
   },

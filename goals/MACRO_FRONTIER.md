@@ -1,5 +1,9 @@
 # 宏观前沿：可消费范围与最小未付箭头
 
+2026-10-28，[危险core定位](reviews/2026-10-28-core-source-location-and-admission.md)已两独占稿/fresh/root闭合：新作者固定v2 Markdown61862bytes本地入库，Th6.5单步不够全型；仅准Th6.2 fixednonzero-source总迹lower的[证明首门](../reviews/2026-10-28/core-source-location/next-fixed-test-lower-proof-gate.md)。560同源字典/系数/endpoint/固定源尾量词已核，K增长及原proof均未认证。来源0，无C048/585，cadence2/历史48/cycle16不动；classicprimitive/corecoupling和whole4/5UPPER未改。原missingPDF与实际范围见库记录；下一proof未执行，阶段/同步见STATE。
+
+这是实际fixedsource、cofinal素数集总迹候选，非fixedF/高频receiver。若lower通过，560完整K配对会正发散，原Q和两pole对fixedr为常数；费用方向非有利Q符号。旧安全16及fixedsource粗尾均保准确量词，不把条件后果作新数学。唯一主判6.2lower；sharp/单步/后章不自动续。
+
 2026-10-28，[actionCone首门](reviews/2026-10-28-action-cone-source-boundary-gate.md)已两稿/fresh/root闭合：全L1实际源有有限交换子及精确锥边界，粗代表费288/1442 L1，保旧−4却杀537/双degree。扣431稳定角/实际section/K及通用恒等式，标准0止canonicalAc，不建C048/585；cadence2/历史48/cycle16不动。另[恢复已付actualSonin安全高层](../reviews/2026-10-28/action-cone/strongest-old-sonin-recovery-correction.md)，不再记整体运输未知。classicprimitive/危险core/coupling与whole4/5UPPER未改；下一仅[危险core原命题定位](../reviews/2026-10-28/action-cone/next-actual-core-source-location-gate.md)，尚无新章/数学input，未执行。阶段/同步见STATE。
 
 当前强旧短链还须携10-20已消费sup高频actualε及ALLdu K_hi小费，不重开变分/clipping/θ16。全K及Γ≲eL危险core/coupling仍未付。原cone域扩大使全源类精确为0，不是有primitive待读；较小域/非标量边有实物再准，不自动换拓扑续轮。以下旧cone未执行及整体运输未付的过宽读法仅按本次结算/补正消费。

@@ -2756,6 +2756,26 @@
       "proof_status": "Accurateconditionalmixedheight facility, vol^natural multiplieslevelheight, Cr^[FQ]>0 byeven-degreepremise; remainingconditions/physicalmap/fullQ/PSD notpaid, noarithmeticTheta thaw.",
       "scope_record": "supplements/2026-10-28-unitary-premise-source-scope.md",
       "read_record": "reviews/2026-10-28/unitary-premise/source-read-record.json"
+    },
+    {
+      "id": "BrambleTrace-2026-Sonin-rStation-v2",
+      "category": "actual-core-source-candidate",
+      "authors": "bramble_trace (rStation author account; pseudonym)",
+      "title": "Sharp Schatten asymptotics and Sonin trace localization for semilocal Fourier cutoffs",
+      "version": "rStation paper riemann_hypothesis_2 version2;16Oct2026 01:00UTC",
+      "file": "local/2026-10-28-core-source-location/bramble-trace-rstation-2-v2.md",
+      "source_url": "https://rstation.ai/problems/riemann_hypothesis/papers/2",
+      "download_url": "https://rstation.ai/api/v1/papers/riemann_hypothesis_2/versions/2/download",
+      "download_status": "downloaded-fixed-author-markdown-local-only",
+      "bytes": 61862,
+      "lines": 1221,
+      "sha256": "541098314b2ddc5f8645babf82086e87d16c46188268cbc7ed6cfc1f98720058",
+      "git_included": false,
+      "retrieved_at_utc": "2026-10-27T18:32:43.745097+00:00",
+      "read_scope": "Selectedphysical/weightedspace definitions, Th6.2/6.4/6.5 statements andlimitations; webprooflocator display notproofaudit. OnlyTh6.2 lower admitted asnext sourcegate, noautomatic6.4/6.5 continuation.",
+      "proof_status": "Unreviewed author claim; source statements/conditional560dictionary only. PlatformautomaticAccept notpeerreview/mathcertification. No newmath yet.",
+      "scope_record": "supplements/2026-10-28-core-source-location-scope.md",
+      "read_record": "reviews/2026-10-28/core-source-location/source-read-record.json"
     }
   ],
   "supplement_provenance": [
@@ -2925,5 +2945,5 @@
       "status": "导数生成器依赖的固定原件；归档，尚未完整核读或运行。"
     }
   ],
-  "last_updated_on": "2026-10-27"
+  "last_updated_on": "2026-10-28"
 }

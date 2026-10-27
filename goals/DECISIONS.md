@@ -1483,3 +1483,15 @@ Li–Liu余下CMfinite不分歧/dyadicsplit、π类型/tempered/最低weight、o
 只读下一库存纠正一个恢复遗漏：10-20variational原root/final早付Llarge、FL={p<e2L}、ALLabsR>=exp(16eL) actual ε统一exp(-c eL/L)及ALLdu K_hi小费，双square/全部bulk双边界returns保完整Γ/pp/poles。10-28causal root/positive§3“不运输actualSonin”的整体读法冻结并按独立复核/原绑定重闭；只限阈值以下及危险core/coupling未付，不回滚原hash或causal选择，不重开θ16/clipping/全部θ2e。补正为action-cone/strongest-old-sonin-recovery-correction.md。
 
 当前库存仍没有可立即准入的新actual mathinput。下一仅action-cone/next-actual-core-source-location-gate.md的一次短定向primary定位：实际Pi_FL/ε_FL或原QL在Γ≲eL危险core的signed/cross命题，先去重，再实际取得并冻原文/版本/量词/源norm/正确系数方向，能进入560同一全型才准单门；尚未执行且没有新章，不捏paper。fixedF/有利高频/抽象变分/unknownnegativepart止，不能续已审prolate/最低态/局部paper充数。两个现实备选仅新的twisted-Γ signed身份代入578(3)，或同一非零primitive physicalmap+独立mixed容量实物；目前均无新实物。真正新core/coupling或source/mixed/tensor全阶pole可改策。库/看板/短状态/原件按授权main同步与独立核SHA，管理/推送不complete长期Goal。
+
+## D20261028F — 固定作者原件已定位；只审Th6.2 actual fixed-source lower
+
+同G20261027/1793085111/0c4f。E唯一短primary定位已执行，两独占稿/fresh/root核本地排重、实际原作者稿和条件全型字典。root三批6query与primary分支三批9query，未串旧prolate/最低态paper；root新命中bramble_trace rStation v2 2026-10-16，固定version2 Markdown已本地存61862bytes/SHA541098…/1221lines。作者账户及平台自动Accept不代数学认证；浏览器text/markdown不支持，默认socket权限失败后以授权10808命令proxy下载成功，无后台。新稿原proof尚未审。
+
+6.5 actualS_<p单prime varying-source增量不足560(2)整窗coverage，不准其whole门。真正选中的单命题是6.2：先fixed非零complexcompact物理r、k=ord0rhat，总迹T_X>=c_r sqrtX/logX^(2k+2)。DX是原BF非inverse，真实正交range同则SX=BP G^-1 PB*；不把embedding当酉，无额外2pi。冻结Xn=n+1/2,Ln=.5logXn，strict/≤prime同集exact；560完整式K(r)=T_X(r)-Q_W(r)+完整pole(r)，fixedr后两项常数。若lower通过，会给actual完整K正发散必要费，不是Q负、K整体PSD、whole改善或有利signed。
+
+oldALLdu θ16 actualhigh小费已付。另旧coercivity rho<=(M/m)^2Clog和fixedsource Schwartz尾可在每先fixedη>0的exp(ηeL)外付o1，常数依r/η；故候选增长若核实可定位actual危险尺度，非ALLchanging-source uniform或Dlog图域/compact Fourierpiece。local/primary旧对照未给相同actualcofinalfixedsource lower，不能用560任意H inverse lower或fixedS23替代。精确条件字典/只准单门经fresh短核，原稿6.4sharp只待审可选，6.5/§7/另一paper不自动续。
+
+唯一下一core-source-location/next-fixed-test-lower-proof-gate.md先审6.2 lower的实际poly trial、H0/evaluation/Gevrey/weighted全线norm及必需Lemma6.1 cofinal量词。lower关键前件失败即止，不用upper/sharp补洞；成功只消费足够lower并先扣强旧再决定数学结算，不预C048/585、不调参数。定位/准入0，cadence2/历史48/cycle16字节保持，classic同一非零primitive/整过滤/mixedRR、corecoupling/Xi与whole4/5UPPER均未改，Goal门open。
+
+三个历史PDF当前缺失只记现场，旧hash/read记录不抹；未来必要原件先恢复固定版本/核hash，缺失不使旧结果成为新证明。新全文仅本地，库/看板/STATE/收据正常main同步并独立核远端，组织/推送不complete长期Goal。

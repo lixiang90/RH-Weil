@@ -1,5 +1,7 @@
 # RH-Weil 文献索引
 
+2026-10-28，[危险core来源定位](../goals/reviews/2026-10-28-core-source-location-and-admission.md)新增bramble_trace/rStation固定v2原作者Markdown一份，61862bytes/1221行，仅本地ignored；[实际范围与库存](supplements/2026-10-28-core-source-location-scope.md)保原SHA、陈述未审层级和三个历史PDF当前缺失。只准6.2lower下一proof门，不把自动Accept或6.5单步作证明，不新增PDF/渲染/数值验证。
+
 2026-10-28，[actionCone比较](../goals/reviews/2026-10-28-action-cone-source-boundary-gate.md)只复用项目430–432/573、405/537和最强旧稳定角，无新PDF/网页/下载/渲染。两有限链终稿/fresh保存完整对象/域及费用；[阅读范围](supplements/2026-10-28-action-cone-source-scope.md)另记后续库存的560/570/572/577/578与10-20已付高层恢复。不把原作者cited层写成本轮新审；下一危险core来源定位未执行、尚无新章。
 
 2026-10-28，[unitary前提来源门](../goals/reviews/2026-10-28-unitary-modularity-premise-settlement.md)实际完整目视Raum§5 PDF52–56及Li–Liu必要hyp/def页，记录native Hodge/零模和Σ=dπ补注、全量词与height规范，来源0止。[实际范围](supplements/2026-10-28-unitary-premise-source-scope.md)保cited深proof及误定位未消费页；无新PDF/网页/下载，23新render仅本地，原124页/SHA不变。不以模性/height代classicQζ或回填旧literal；下一cone比较只用旧432/573数据。
