@@ -1,6 +1,6 @@
 # 长期研究恢复入口
 
-2026-10-28，[原全z运输族闭合](reviews/2026-10-28-framed-holonomy-strongest-old-stop.md)已两支持/fresh/root限定强旧0止：全Sexp/全z/原费与interaction双端I已闭，必要V2,11单独du连续，旧553已决定fullPan下降失败；whole族无globaldu界不免系数责任。两宽读按补正冻结重闭，旧hash保留；不建C049/586、不调B/A0/frames/高阶。cadence3/历史49/cycle16原字节保持，数学瓶颈/whole4/5UPPER未改。当前无后继合同；[新实物到位后验收](../reviews/2026-10-28/framed-holonomy-closure/next-new-input-admission.md)，已请求具体公式/原命题，非verifiedwait/自动后继门；Goalactive/open。
+2026-10-28，[自主构造与旧结果筛选](reviews/2026-10-28-autonomous-input-construction.md)已实际提出wind→Pic⁰和ξ曲率→纵向正谱两规则，已fresh/root限定收讫。前者小幅源送unit而537响应非零；后者丢横向权，旧模型拒通用自动身份，实际ξ身份仍未知。未形成合格core输入，不建C049/586，cadence3/历史49/cycle16原字节保持，数学瓶颈/whole4/5UPPER未改。可选用户公式请求不是唯一输入来源或授权阻塞；后续仍自主构造，当前没有已形成后继公式/新合同，不重开已止recipe/query。原[全z族停止](reviews/2026-10-28-framed-holonomy-strongest-old-stop.md)保持。当前执行只读STATE，下文为历史入口。
 
 2026-10-28，[一次原命题定位](reviews/2026-10-28-independent-source-discovery-stop.md)已两支持/fresh/root限定来源0止：固定3query一批/12聚合visible，唯一Zenodo记录页只议程与条件，无已读actual公式locator；未读PDF不判不存在，无续查询/章/paper。另有root[原创全z运输公式准入](../reviews/2026-10-28/independent-source-discovery/next-original-framed-holonomy-admission.md)及低阶草稿，唯一下一先闭原对象/norm/frames/最强旧并分类，未数学消费/未准C049。cadence3/历史49/cycle16原字节保持，实际瓶颈/whole4/5UPPER未改，Goal门open。
 

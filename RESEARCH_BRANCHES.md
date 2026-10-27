@@ -2,10 +2,12 @@
 
 2026-10-27，按用户明确要求继续研究并启动 [Goal G20261027](goals/GOAL.20261027.md)。新运行 Goal 继承 G20261014 的长期目标、0c4f 冻结基线及截至582的已付成果；旧结果作为输入，不重新计作本Goal的新增结果。运行 Goal 已实测 active；启动首门 A20261027 已实际执行 Borcherds §13 来源准入，最终消费阶段、唯一当前动作和 pending 只读 [STATE](goals/STATE.json)。本看板不另设计轮器，也不把局部合同完成视为长期Goal完成。
 
+2026-10-28，[自主构造筛选](goals/reviews/2026-10-28-autonomous-input-construction.md)提出两actual规则，已fresh/root限定收讫：wind整数源被小幅度非根门拒，ξ曲率边际仍欠横向权和完整经典身份。没有合格新core输入；不计数学轮，不改变whole4/5UPPER。持续研究的授权包含自行提出公式，用户输入请求为可选渠道；当前无已形成后继合同，不续这两recipe或已耗来源查询。
+
 | 路线 | 当前地位 | 可消费输入 | 仍欠的核心箭头 | 准入／停止标准 |
 |---|---|---|---|---|
-| 同对象 relative principal／Green → 截面乘法 → mixed RR | 长期主线；登记source/candidate均止，当前无后继math准入 | 567真实RR→Hodge机制；579–582实际源／strong域／Green；537明确非根 | 同一非零primitive载体上的实际物理源公式、全关系的principal／Green边界、整过滤与同对象mixed身份 | 先核405全关系及平移、537与全源非根、原du／Dlog和全部尾；无实物不续C045或预建未知合同；保relative／higher／有费无界修复 |
-| 独立正分布 → 完整经典Weil分布 | Γsigned一次6query来源0止，无新数学准入 | 577/578真Γ正层/原费/完整gR；Nakamura概率近邻已准确入库 | actualq_R或独立正Dprime完整signed消失仍欠；cf正性不代log/Weil | 不续Nakamura§2/引文或第三批query；真独立输入可改策，保逐source/Dprime范围 |
+| 同对象 relative principal／Green → 截面乘法 → mixed RR | 长期主线；新增wind构造在旧非根门前止，尚无后继math准入 | 567真实RR→Hodge机制；579–582实际源／strong域／Green；537明确非根 | 同一非零primitive载体上的实际物理源公式、全关系的principal／Green边界、整过滤与同对象mixed身份 | 先核405全关系及平移、537与全源非根、原du／Dlog和全部尾；无实物不续C045或预建未知合同；保relative／higher／有费无界修复 |
+| 独立正分布 → 完整经典Weil分布 | Γsigned定位止；新增ξ曲率正层仅保纵坐标，无新数学准入 | 577/578真Γ正层/原费/完整gR；Nakamura概率近邻已准确入库 | actualq_R或独立正Dprime完整signed消失仍欠；曲率正性不付横向权／完整身份 | 不续Nakamura§2/引文或第三批query；真独立输入可改策，保逐source/Dprime范围 |
 | tensor／Deligne放大 | 条件备选；未有经典实际全族 | 567 tensor与pole机制核查；Deligne I §3 | 非平凡local tensor对象、目标谱身份与全阶global pole控制 | 低阶Euler／Γ／grading检查只作准入；普通测度乘积或ζ幂不足；合并净误差须受控，不把分项次线性当必要 |
 | actual低频core／coupling的joint signed比较 | 无新独立净差输入，条件备选 | 560全型/实际逆及安全high；585必要成长费/fixedr K/t→1 | 同源t−K+pole净方向/原范数及全cross；非单项大小 | 不续fixedfraction桥/旧scalar包络/高频；真实新joint输入可改策，EX同步二维首测仅保建议 |
 | S0／λ核／arch-only native Green旧recipe | 已按C045／582停止 | 完整局部作用、原费、全源Green可见性与已核反测均保留 | 原recipe全Pan仍非principal，fixed q7 coarse native primitive为零 | 不续word／orbit／level／height参数；新载体或新relative公式须先过上述首门 |

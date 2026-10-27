@@ -1,8 +1,8 @@
 # 宏观前沿：可消费范围与最小未付箭头
 
-2026-10-28，[原全z运输族闭合](reviews/2026-10-28-framed-holonomy-strongest-old-stop.md)已两支持/fresh/root限定强旧0止：全Sexp/全z/原费与interaction双端I已闭，必要V2,11单独du连续，旧553已决定fullPan下降失败；whole族无globaldu界不免系数责任。两宽读按补正冻结重闭，旧hash保留；不建C049/586、不调B/A0/frames/高阶。cadence3/历史49/cycle16原字节保持，数学瓶颈/whole4/5UPPER未改。当前无后继合同；[新实物到位后验收](../reviews/2026-10-28/framed-holonomy-closure/next-new-input-admission.md)，已请求具体公式/原命题，非verifiedwait/自动后继门；Goalactive/open。
+2026-10-28，[自主构造与旧结果筛选](reviews/2026-10-28-autonomous-input-construction.md)已实际提出wind→Pic⁰和ξ曲率→纵向正谱两规则，已fresh/root限定收讫。前者小幅源送unit而537响应非零；后者丢横向权，旧模型拒通用自动身份，实际ξ身份仍未知。未形成合格core输入，不建C049/586，cadence3/历史49/cycle16原字节保持，数学瓶颈/whole4/5UPPER未改。可选用户公式请求不是唯一输入来源或授权阻塞；后续仍自主构造，当前没有已形成后继公式/新合同，不重开已止recipe/query。原[全z族停止](reviews/2026-10-28-framed-holonomy-strongest-old-stop.md)保持。当前执行只读STATE，下文为历史入口。
 
-最短可消费链：全Pan恒I→必要Taylor系数零；a≠0旧mean失败，a0时q_B=|c|²/2∫r(G*r)且||G||1=4→globaldu连续→553 dense physicalPan迫q_B全零，与旧realbump非零矛盾；B0全源灭。明确单条Pan的Greenenergy与余项只加强见证，不改变旧wholefamily失败净果。interaction-frame语义已精确，background-only较大类不套失败。已登记来源/候选均耗用，不制造下一math/检索/宏观重复；新增实际数据再准。
+最强后果链保持542+555→557 whole leading4/5负惯性UPPER；585+560给fixed源t/K必要同阶费用，非净正号。原全z族全Pan恒I→必要q_B零→q_B的globaldu连续加553稠密迫全零，与旧bump矛盾；整个strong map不免系数责任。新增两生成尝试只在已有非根/横向权责任前止步，未新增独立算术primitive、完整signed或corecross。当前精确缺口是尚无可准的新算术公式；自主提出实物与准入数学合同分开，不伪称已有下一proof，也不把困难或无人回信当blocked。
 
 2026-10-28，[一次原命题定位](reviews/2026-10-28-independent-source-discovery-stop.md)已两支持/fresh/root限定来源0止：固定3query一批/12聚合visible，唯一Zenodo记录页只议程与条件，无已读actual公式locator；未读PDF不判不存在，无续查询/章/paper。另有root[原创全z运输公式准入](../reviews/2026-10-28/independent-source-discovery/next-original-framed-holonomy-admission.md)及低阶草稿，唯一下一先闭原对象/norm/frames/最强旧并分类，未数学消费/未准C049。cadence3/历史49/cycle16原字节保持，实际瓶颈/whole4/5UPPER未改，Goal门open。
 

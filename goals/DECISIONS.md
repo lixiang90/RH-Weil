@@ -1599,3 +1599,15 @@ root另提出固定整个Sonin Mb⊂M1的实际fullgap候选：原H0共同b*>1�
 当前登记来源及candidate均已耗用，无新的math合同/有效未执行旧比较；不制造另一source/宏观总结或未知预算合同。root已提交新具体source/Green/截面公式或原命题输入请求，未收到新增实物。唯一下一framed-holonomy-closure/next-new-input-admission.md只是新数据到位后的验收口径，不是已存在candidate/待执行proof或verifiedwait进程。新实际数据或用户新指令到位后按原norm、全405/537或适用Dprime及strongestold再准，准入前不强求完整RH，亦不把标签当输入。
 
 上一来源定位/原创定义交接及远端同步为progress，本轮原前件/系数强旧链/范围纠正与停止为progress但0数学/非formal17。cadence3/历史49/cycle16原字节保持，C048仍耗尽，不由局部停止/组织/推送complete或因研究困难blocked长期Goal。无外网/PDF/下载/渲染/数值，新阅读范围入库，看板/STATE/原件正常main同步独立核远端，同实例active/完成门open/noteligible。
+
+## D20261028O — 自主提出公式与核心数学准入分开
+
+同G20261027/runtime1793085111/原0c4f。上一Goal轮仅复核状态而无进展；不能把“需要新的实物”解释成只能等待人类提供公式。持续研究已授权自行构造，可选用户输入请求不构成approval/verifiedwait/真实外部阻塞。原N的数学停止与系数553责任保持，不重开原B/A0/frames、高阶、来源查询或耗尽C048。
+
+本轮实际生成两个明确规则并经当前两终稿/fresh/root限定消费：wind(1+r)→固定genus1非torsion Pic0线，强p_N,1/gap费用合法却在||εr||∞<1时unit，而537全complex窗的同一εr二次响应严格非零；因此J-only mixed输入在旧574/575非根责任前止。未消费q′ exactPan或继续finite-difference winding，任取proper曲线不是独立经典算术input。另从通常ξ的二维κeps=eps²|ξ′|²/[π(|ξ|²+eps²)²]显式产生纵向正谱；局部m重数、cutoff边界、先ε后T及每层原norm费用闭合，但丢σ−1/2。旧562/578 c3/16模型投影2δ0/native2cosh，结合564责任已否通用自动Weil身份；actualξ是否身份仍未知，不宣称已知不等，不冒经典Γ反例。
+
+两者是实际构造的准入前筛选，未形成新的core数学input或承担核心比较的新strict边界；统一强旧0有上述具体链，不是因为工具简单或没RH结果。不建C049/586，不改阈值/曲线/metric/εT/横向moment或paper。原physical、全complex、405noncompact/平移、du-zeroextensionDlog、完整ΓFPcontact/全部pp/双pole及source/growth量词保持；Dprime不额外要求逐层Pan。
+
+独立净signed/corecross/非零primitive mixed和Xi未新付，whole542+555→557 leading4/5仍负惯性UPPER，585/safehigh保持，实际瓶颈未变。cadence3/历史49/cycle16原LF字节不变，非formal17。下一仍自主寻找与实际经典算术数据相连的可检验生成规则；尚未形成后继公式，故没有可执行新math合同或来源队列。自主构造阶段不能伪称已有proof准入，也不转交为用户权限等待。唯一执行与下一动作只读STATE；Goal同实例active/open/noteligible，不因困难/两失败/发布标blocked或complete。
+
+本轮无外部web/PDF/下载/数值；原件/阅读范围/看板/STATE按真实0结算保存，正常main同步后独立核ref/commit/tree，源与metadatachild分开验收。

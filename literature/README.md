@@ -1,5 +1,7 @@
 # RH-Weil 文献索引
 
+2026-10-28，[自主构造筛选](../goals/reviews/2026-10-28-autonomous-input-construction.md)只用项目输入，无新外部原件/web/PDF/下载/渲染/数值，不增全文条目。[实际阅读范围](supplements/2026-10-28-autonomous-input-construction-scope.md)区分两原创规则与旧来源：wind小源单位门、ξ曲率纵投影与横向权缺失；actualξ身份未知，不把模型反测说成经典反例。已fresh/root限定消费，0数学/cadence3保持；新公式可由研究者自主提出，不转作用户权限等待。
+
 2026-10-28，[原全z族消费闭合](../goals/reviews/2026-10-28-framed-holonomy-strongest-old-stop.md)只用项目原件，无新web/PDF/下载/渲染/数值，不增条目。[实际阅读及语义范围](supplements/2026-10-28-framed-holonomy-closure-scope.md)保405physical、553系数前件和旧Dyson/gauge角色；whole未du界不免q_B责任，interaction双端frames明确。更强旧已排wholefamily，单条Green见证不另增数学轮；0止/cadence3保持，当前需新增实际输入。
 
 2026-10-28，[一次原命题定位](../goals/reviews/2026-10-28-independent-source-discovery-stop.md)已3query一批/12聚合visible，唯一打开[Aksman Zenodo21740925](https://zenodo.org/records/21740925)description/meta；[实际范围与缓存](supplements/2026-10-28-independent-source-discovery-scope.md)区分工具JSON表示与原文。原PDF未下载/未读，远端大小/md5不作本地身份；新条目仅记录页元数据/工具文本缓存，未给actualsource/mixed公式locator，来源0止。不跟其他结果/章/paper，原创候选完全另列、非外部成果；cadence3保持。
