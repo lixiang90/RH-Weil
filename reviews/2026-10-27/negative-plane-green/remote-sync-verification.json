@@ -1,0 +1,23 @@
+{
+  "schema": "rh-weil-remote-sync-verification-v1",
+  "verified_at_utc": "2026-10-27 15:24:32 UTC",
+  "repository": "https://github.com/lixiang90/RH-Weil",
+  "branch": "main",
+  "published_source_commit": "aea084cf8269d0eabb75b01ae44ac98cf7c8b14f",
+  "published_source_tree": "2db61a1d32d726a1dd12bcb5cb13f03902d838a1",
+  "independent_verification": {
+    "provider": "connected GitHub fetch",
+    "ref_commit": "aea084cf8269d0eabb75b01ae44ac98cf7c8b14f",
+    "commit_sha": "aea084cf8269d0eabb75b01ae44ac98cf7c8b14f",
+    "commit_tree": "2db61a1d32d726a1dd12bcb5cb13f03902d838a1",
+    "tree_sha": "2db61a1d32d726a1dd12bcb5cb13f03902d838a1",
+    "tree_truncated": false,
+    "matched_local_commit_and_tree": true
+  },
+  "scope": "17 reviewed proof/state/board/literature paths; independentRgeom singlex current normalization only, literal and complete-source transports remain frozen, next correctedK admission unexecuted. Third-party PDF/renders remain local and ignored.",
+  "transport": "Normal main fast-forward push with command-scoped http://127.0.0.1:10808 proxy; no force.",
+  "mathematical_round_increment": 0,
+  "cadence_unchanged": true,
+  "goal_status": "same runtime1793085111 active; mathematical completion gate open",
+  "metadata_child_policy": "Receipt/STATE/new sync checkpoint saved in a metadata child; actual child HEAD/tree independently verified after push, without recursively embedding that child SHA in this receipt."
+}
