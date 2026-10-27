@@ -1,5 +1,7 @@
 # RH-Weil 文献索引
 
+2026-10-27，[reader预算与来源类型结算](../goals/reviews/2026-10-27-reader-budget-stop-and-marked-source-admission.md)保存Bruinier–Yang两份原始PDF共102页：arXivv1与作者更正版分别SHA/页数核验，全文仅本地忽略。[回执](supplements/2026-10-27-by-cm-source-download.json)和[阅读范围](supplements/2026-10-27-by-cm-source-scope.md)区分版本、root目视p1/19/25–26、statement定位和未审整体证明；不消费一般totalheight或classicWeil身份。同原carrier shadow门已标准止，下一marked-cusp候选只是源泛函关系门。
+
 2026-10-27，[固定c2实际求值](../reviews/2026-10-27/tf-reader-execution/fixed-c2-execution.md)复用已库DLMF四式；[消费范围](supplements/2026-10-27-c2-execution-source-scope.md)区分本地normalized缓存重读、项目half-integer parity/余项推导和新外部原件审查。本次无新PDF/TeX/论文检索，旧缓存字节/SHA保持本地。c2实际通过不支付fullG/q0/T/E或独立经典正性，建设性0数学轮。
 
 2026-10-27，[固定q0实际实施](../goals/reviews/2026-10-27-fixed-q0-execution-and-analytic-vector.md)只新增DLMF6.2.E9/E19、6.7.E13、6.12.E3公式核读与本地normalized缓存；[来源范围](supplements/2026-10-27-q0-execution-source-scope.md)及四公式字节/SHA记录区分tool提取和原字节下载，无新PDF／新RH论文路线。Si／Laplace余项只服务实际低区间证书，q0原门未过、五源T/E未付，不提供独立经典正性，建设性0数学轮。

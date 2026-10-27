@@ -7,13 +7,14 @@
 | 同对象 relative principal／Green → 截面乘法 → mixed RR | 几何主线；具体执行阶段以STATE为准 | 567真实RR→Hodge机制；579–582实际源／strong域／Green；537明确非根 | 同一非零primitive载体上的实际物理源公式、全关系的principal／Green边界、整过滤与同对象mixed身份 | 先核405全关系及平移、537与全源非根、原du／Dlog和全部尾；无实物不续C045或预建未知合同；保relative／higher／有费无界修复 |
 | 独立正分布 → 完整经典Weil分布 | 合法备选；有新构造或signed估计才晋级 | 562／563连续正源证书；576真FF正锥与原alias费；577真Γ/contact修补 | 独立生成规则及每个compact卷积平方上的完整误差消失 | D′／逐测试收敛可传正性；不强加逐层405、ordinary trace或零点收敛。未知membership／修补消失换名不准入 |
 | tensor／Deligne放大 | 条件备选；未有经典实际全族 | 567 tensor与pole机制核查；Deligne I §3 | 非平凡local tensor对象、目标谱身份与全阶global pole控制 | 低阶Euler／Γ／grading检查只作准入；普通测度乘积或ζ幂不足；合并净误差须受控，不把分项次线性当必要 |
-| actual低频core／coupling的joint signed比较 | 固定c2实际通过；fullG/q0宽1/16未过，无T/E符号 | whole4/5UPPER／560桥；explicit v*真H误差及actual mixedc2 width≈2.856e−16 | 全ratio/G非零trial/J/真残差，五源T/E/cross及成长耦合 | 不自动G；仅一次新n/c2→相关trial预算比较，先扣强旧a≥n²，若不足止输入/包络自动续算，不调prime/t/Krylov或领取RH/whole |
+| actual低频core／coupling的joint signed比较 | b≤u a scalar包络已止，q0宽1/16未过 | actualv*/n/c2；合法exact-v trial/J/true-H residual充分上界；fixedq0lower≈0.00126005 | 实际Gv/tight b/a、五源T/E/cross及成长signed耦合 | 不调t/prime/Krylov或重跑c2；须新真实globalmixed/远尾费用才再准入，不据粗上界报方法不可能 |
 | S0／λ核／arch-only native Green旧recipe | 已按C045／582停止 | 完整局部作用、原费、全源Green可见性与已核反测均保留 | 原recipe全Pan仍非principal，fixed q7 coarse native primitive为零 | 不续word／orbit／level／height参数；新载体或新relative公式须先过上述首门 |
 | L_r(j)／Faber／II2,2 native Green完成化 | C046／583一轮已结算；本principal recipe停止 | 全S_exp系数与fixed窗原费、逐m原lift规范、global balanced L1/mass及cusp／Nk²全尾 | raw注入保Pan；标准连续principal类商连537也杀掉；未得独立primitive／mixedRR | 不续N/radius/j常数/level/同product-paper；新relative／higher或强拓扑修复，须先给input/test/net |
+| fixedmarked-cusp／harmonic-shadow源候选 | 只准一次ℓ11 functional构造/关系首门，无数学合同 | g11解析q乘积、583source系数及Cauchy强源fee；BY原II22零shadow门已止 | typedg11/ρ、全实际Pan及原537、Maass/lift/relativePic/Green尾与mixed身份 | 固定∞/0一腿cut；任一域内Pan非零即止，不换N/调cusp/造height；rank1合法泛函不代coverage或primitive |
 | 实际代数对应 → KK／relative比较 | CCM固定v2§6来源0已止 | typed KK／derived kernel、GRR／Todd有限修补；旧relative电荷保持 | 原字面ordinary-cycle6.11／principal下降不直接适用；没有physical有效算术lift／mixedRR | 两P1反测及m1 point腿保角色；不续§7／引用／下一paper，新input/test先扣强旧 |
 | 零点比例与无零区域优化 | 保持暂停 | 历史成果保原范围 | 不是当前Weil类比主责 | 仅用户新指令可恢复，不因文献可得或局部数字改善自动恢复 |
 
-当前路线理由以[cycle16](goals/reviews/2026-10-27-general-rh-macro-review-cycle-16.md)与[D20261027H](goals/DECISIONS.md)为准；[固定c2结算](reviews/2026-10-27/tf-reader-execution/fixed-c2-execution.md)实际付五项＋输入误差，negative mixed不是Weil型负值。该pair门已用，fullG尚不准自动继续：6561ratio／原投影残差仍未付。下一只准[一次相关trial预算比较](reviews/2026-10-27/tf-reader-c2/next-one-trial-budget-admission.md)，由新n/c2扣a≥n²强旧后测实际包络费用，不扩prime/t/Krylov。建设性0数学轮／cadence1保持，whole4/5UPPER及经典瓶颈未改；唯一动作见STATE，文献实际消费见[库索引](literature/README.md)。
+当前路线理由见[cycle16](goals/reviews/2026-10-27-general-rh-macro-review-cycle-16.md)、[D20261027I](goals/DECISIONS.md)及[本轮结算](goals/reviews/2026-10-27-reader-budget-stop-and-marked-source-admission.md)。reader包络已actual止，trial/J已付但残差不足，classic瓶颈未变。下一只测[固定单尖点ℓ11源泛函](reviews/2026-10-27/after-reader/next-marked-cusp-functional-admission.md)；不同boundary map须重新核Pan/原537和强费用，尚不是算术lift，不自动数学合同/C047。0轮/cadence1保持，当前执行/发布以STATE为准；实际两版本文献保存与阅读范围见[文献库](literature/README.md)。
 
 每个完整研究迭代完成后同步本轮研究及恢复记录到GitHub，并核远程commit与本地一致；失败须保留确切状态，不报成功。依 [唯一cadence](goals/review-cadence.json) 每4–8完整轮宏观审视、默认6，重大反例或连续来源停滞可提前；组织、下载、审查、推送和代理数量均不增加研究轮，也不重置周期。此前计数继续继承。
 

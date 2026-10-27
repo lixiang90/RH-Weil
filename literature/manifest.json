@@ -2591,6 +2591,46 @@
           "scope": "Existing formula inputs reused; root reread local normalized6.2.E19/6.7.E13; project derives half-integer parity and exact endpoint/moment bounds. No new external retrieval/chapter proof audit/raw download/PDF asset."
         }
       ]
+    },
+    {
+      "id": "BY-CM-heights-arxiv08070502v1",
+      "authors": "Jan Hendrik Bruinier; Tonghai Yang",
+      "title": "Faltings heights of CM cycles and derivatives of L-functions",
+      "category": "weil-analogy-arithmetic-source",
+      "version": "arXiv0807.0502v1,2008-07-03",
+      "source_url": "https://arxiv.org/pdf/0807.0502v1",
+      "file": "local/2026-10-27-by-cm-gate/by-cm-heights-arxiv0807.0502v1.pdf",
+      "resolved_pdf_url": "https://arxiv.org/pdf/0807.0502v1",
+      "download_status": "downloaded-original-pdf",
+      "bytes": 572196,
+      "sha256": "05b41e5197a694448a43f7132c4305d577238b26c279cebf936a9d240aef7b07",
+      "pages": 50,
+      "retrieved_at_utc": "2026-10-27T11:27:19.531854+00:00",
+      "git_included": false,
+      "read_scope": "Abstract/metadata and first-page extraction only; mathproof not rechecked",
+      "read_note": "supplements/2026-10-27-by-cm-source-scope.md",
+      "download_receipt": "supplements/2026-10-27-by-cm-source-download.json",
+      "status": "Source/type locator gate only; same oldII22 shadowtarget0, rawessential outsideHk; no newphysical primitive or general totalheight claim."
+    },
+    {
+      "id": "BY-CM-heights-corrected-20100407",
+      "authors": "Jan Hendrik Bruinier; Tonghai Yang",
+      "title": "Faltings heights of CM cycles and derivatives of L-functions",
+      "category": "weil-analogy-arithmetic-source",
+      "version": "Author corrected Invent177(2009),631–681; first-page date2010-04-07",
+      "source_url": "https://people.math.wisc.edu/~tonghaiyang/CMGreenFinal.pdf",
+      "file": "local/2026-10-27-by-cm-gate/by-cm-heights-author-corrected.pdf",
+      "resolved_pdf_url": "https://people.math.wisc.edu/~tonghaiyang/CMGreenFinal.pdf",
+      "download_status": "downloaded-original-pdf",
+      "bytes": 457390,
+      "sha256": "950e16d3936d11d909acd8797eb0f5efc19b0b641cb491a42ccc0489fa66af17",
+      "pages": 52,
+      "retrieved_at_utc": "2026-10-27T11:27:18.225877+00:00",
+      "git_included": false,
+      "read_scope": "Root rendered/viewedp1/19/25–26: designatedxi/domain/Th4.7statement plus context, not fullproof/finiteplaceaudit",
+      "read_note": "supplements/2026-10-27-by-cm-source-scope.md",
+      "download_receipt": "supplements/2026-10-27-by-cm-source-download.json",
+      "status": "Source/type locator gate only; same oldII22 shadowtarget0, rawessential outsideHk; no newphysical primitive or general totalheight claim."
     }
   ],
   "supplement_provenance": [

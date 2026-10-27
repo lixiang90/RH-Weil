@@ -1339,3 +1339,13 @@ root读完该准入稿后选择唯一未执行建设性预检：L=3/2，F完整�
 只改变一个bounded mixed求值的实际可执行性；全G/q0宽1/16/五源表/成长core及primitiveRR未付，classic瓶颈与whole leading4/5负惯性UPPER未改。标准建设性数值/成本0数学轮，无C047/584，单cadence1/历史47/cycle16不动；同runtimeGoal1793085111 active，完成门open。无新外部论文或PDF，复用既库DLMF公式和本项目推导，不串paper。
 
 wholeG不准自动继续：W有6561不同ratio、[1/NF,NF]，当前N32在小cutoff的充分余项不能免费延全；不是必要成本下界/方法不可能。唯一下一是一次cheap、有理的same-v trial准入比较：a2=(3/2)n−sqrt2*c2、rest七prime Loewner界；必须先扣n=<B*v,h0>/B normal给a≥n²，而非只改弱dn或p2lower。保b≤u_hi a相关性，在固定z=v/u_hi核r²包络/J及原门；另核即使free exacta时此包络的best-case预算。upper对fixedq0弱界作用与残差瓶颈分开，不泛称c2全无用途。此test有实际新n/c2输入、能量化净付费/决定是否再算，不是G action许可。若不够，止该输入/包络自动续算，不调t/prime/Chebyshev/Krylov；下一需新实际globalmixed/远尾费用或独立算术源。
+
+## D20261027I — 相关reader包络实际止；原shadow零目标后只准新marked源泛函首门
+
+一次预算实际有理执行/root/fresh消费：a_lower仍取强旧n²，p2 lower无净改善；a_upper给fixedq0lower≈0.00126005而非旧≈0.00080945，宽门仍未过。合法非零exact-v trial、J区间和true-H residual充分上界已经支付，未执行是Gv/actual残差/tight b/a，不沿旧“没有trial/J”。冻结包络r²hi≈0.150414，free-a同包络最优下端≈0.0538327，均远超d/32；不是actualres lower/实质方法边界。按stop止该input/envelope的t/prime/Chebyshev/Krylov自动续算。
+
+BY原件两版本实际本地保存（v1/50页、authorwithcorrection/52页），root目视p1/19/25–26；实际Th4.7 archCM式，4.8是Remark，一般totalheight未消费。原II22/k0/trivialρ shadowtargetS2(SL2Z)=0，finiteFaber weakholomorphic；rawessential不在原H_k域。该指定来源门已标准止，不能再把“读同章/换harmonic名字”当next。原carrier零目标不排不同relative/noncuspidal完成化，也不授予新算术输入。
+
+独立审视后唯一新可判门：固定marked pair X0(11),{∞,0}，显式g11=q∏(1−q^n)²(1−q^11n)²与原source coeff给ℓ11(r)=Σa_-m(r)c11(m)=∫r CT(e^(u j)g11)du；standardCauchy给强S_exp费用，尚未测关系/原537。selected∞一腿cut不同于全cusp pullback，是新boundary-source操作，非调level序列；typedg11与originalρ、P_m/ξ反线性/Green全尾/relativePic均未付。先typed/fee，再核实际全Pan与原537；每个Pan先核强域，未覆盖不能空过。域内任一Pan非零即止当前singlecusp自动下降，不造lift、换N/cusp或顺下一paper。pass也只重新审actualinput/test/net，不领取primitiveRR。
+
+strongold542+555→557 wholeleading4/5仍负惯性UPPER；完整Γ/contact/pp/双pole、allcomplex原du/Dlog和growth/coupling责任保持。本轮固定预算/来源类型/准入组织0数学轮，cadence1/历史47/cycle16不动，无C047/584；同Goal1793085111 active/open。全文仅本地，元数据/实际范围与研究看板按原授权正常GitHub同步。

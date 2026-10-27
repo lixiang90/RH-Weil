@@ -1,6 +1,6 @@
 # 长期研究恢复入口
 
-2026-10-27，[固定c2实际执行](../reviews/2026-10-27/tf-reader-execution/fixed-c2-execution.md)已root/fresh限定闭合：c2真实有理区间约[−0.039604989843303151,−0.039604989843302864]，width≈2.856e−16<1/1024；五项及真H输入费均付，negative mixed不代Weil/J/T/E负值。全G／q0宽1/16／五源表仍未付，classic瓶颈未变。建设性0轮，cadence1／历史47／cycle16保持，无C047/584。该pair门已停止重复；下一只做一次[trial预算准入](../reviews/2026-10-27/tf-reader-c2/next-one-trial-budget-admission.md)：新n/c2→p2/rest界，先扣旧a≥n²，保b≤u a相关包络，不自动G／ratio／Krylov。阶段、同Goal和发布仅STATE。
+2026-10-27，[reader预算结算](reviews/2026-10-27-reader-budget-stop-and-marked-source-admission.md)已root/fresh限定闭合：合法非零exact-v trial／J／true-H residual上界已付，q0只到[0.001260053521478990,1]，宽门未过；b≤u a标量包络停止自动续算。BY指定来源门同原II22 shadow零目标/原finiteprincipal域已标准止，两版本PDF实际本地保存。下一仅[固定单尖点ℓ11源泛函](../reviews/2026-10-27/after-reader/next-marked-cusp-functional-admission.md)的typed构造／实际Pan与原537首门，不是Maass／relativePic或算术lift；不重复旧章、调t/prime/N。建设性/来源0轮，cadence1／历史47／cycle16保持，无C047/584，classic瓶颈未变。阶段/同Goal/发布以STATE为准。
 
 2026-10-27，[CCM§6](reviews/2026-10-27-ccm-geometric-correspondence-source-gate.md)指定章已root／fresh限定来源0止：原方向、推拉消去、ordinary-cycle/Kpush与principal下降须按两P1反测／m1 point腿限定；仅保typed derived／Todd修补，583及旧relative资产不回滚。无新算术源／mixedRR，cadence1／历史47／cycle16保持，不建C047/584、不续§7或下一paper。下一依本轮实际输入准入先扣强旧，当前执行与发布见STATE；旧“下一读CCM”已完成。
 
