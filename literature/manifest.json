@@ -2836,6 +2836,27 @@
       "proof_status": "Necessaryexternalstatementscited; projectH0/Perrontransportclosedindependently. Notwholepaper/newexternaltheorem.",
       "scope_record": "supplements/2026-10-28-fixed-test-lower-source-scope.md",
       "read_record": "reviews/2026-10-28/fixed-test-lower/source-read-record.json"
+    },
+    {
+      "id": "Nakamura-2015-complete-zeta-distribution-v1-html",
+      "authors": "Takashi Nakamura",
+      "title": "A complete Riemann zeta distribution and the Riemann hypothesis",
+      "version": "arXiv:1504.03438v1",
+      "submitted_at_utc": "2015-04-14T07:14:51Z",
+      "journal_reference": "Bernoulli 2015, 21(1), 604-617",
+      "doi": "10.3150/13-BEJ581",
+      "source_url": "https://arxiv.org/abs/1504.03438",
+      "html_url": "https://arxiv.org/html/1504.03438v1",
+      "file": "local/2026-10-28-gamma-signed-location/nakamura-1504.03438v1.html",
+      "bytes": 422428,
+      "sha256": "8f7227f22d1c3c849b7ec6fa3c8a0ee1bcbdee53fb5482d3b0bb27074de46f0d",
+      "git_included": false,
+      "download_status": "fixed-original-html-local-only",
+      "recorded_at_utc": "2026-10-27T19:39:38.262957+00:00",
+      "read_scope": "Rootabs/versionhistory+fixedHTML1.2definitions/1.3Th1.1-1.4; incidentalbrowser2.1/start2.2context notcompleteproofaudit. Modularitylocal1.2/1.3only, heightmetadata/rawhashonly; noPDF/render/referencechain.",
+      "proof_status": "Originalstatementssource-audited, nocompleteproofcertification. Probabilityratio positivity notWeillogpositivity; criticalpropertyiffRH; sigma>1signedquasiLevy noindependentq_Rbudget. Off-originweighted-minusWdictionaryoldreencodingonly. No new mathadmission.",
+      "scope_record": "supplements/2026-10-28-gamma-signed-location-scope.md",
+      "read_record": "reviews/2026-10-28/gamma-signed-location/query-and-source-record.json"
     }
   ],
   "supplement_provenance": [

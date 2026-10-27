@@ -1,0 +1,115 @@
+{
+  "schema": "rh-weil-finite-primary-location-v1",
+  "date": "2026-10-28",
+  "gate": "reviews/2026-10-28/post-lower-causal/next-complete-gamma-signed-source-location.md",
+  "search_budget": {
+    "max_batches": 2,
+    "max_queries_each": 3,
+    "actual_batches": 2,
+    "actual_queries": 6,
+    "completed": true
+  },
+  "batches": [
+    {
+      "queries": [
+        {
+          "q": "\"Weil\" \"positivity\" \"explicit formula\" \"gamma\" \"prime\" \"inequality\"",
+          "domains": [
+            "arxiv.org"
+          ]
+        },
+        {
+          "q": "\"Riemann zeta\" \"truncated explicit formula\" \"negative part\"",
+          "domains": [
+            "arxiv.org"
+          ]
+        },
+        {
+          "q": "\"Weil positivity\" \"twisted\" \"Selberg\"",
+          "domains": [
+            "arxiv.org"
+          ]
+        }
+      ],
+      "outcome": "No results returned."
+    },
+    {
+      "queries": [
+        {
+          "q": "Weil explicit formula positivity prime sums archimedean inequalities",
+          "domains": [
+            "arxiv.org"
+          ]
+        },
+        {
+          "q": "Riemann zeta positive definite distribution truncation gamma prime sums",
+          "domains": [
+            "arxiv.org"
+          ]
+        },
+        {
+          "q": "Weil positivity signed estimate twisted prime sum gamma term",
+          "domains": [
+            "arxiv.org"
+          ]
+        }
+      ],
+      "outcome": "Seven visible results; no eligible independent full-Gamma signed premise."
+    }
+  ],
+  "results": [
+    {
+      "url": "https://arxiv.org/pdf/1910.14368.pdf",
+      "title": "The Scaling Hamiltonian",
+      "disposition": "Existing Connes/Consani framework; dedup by project records, no new whole signed premise from this result. Search excerpt only, not newly opened PDF."
+    },
+    {
+      "url": "https://arxiv.org/abs/2006.13771",
+      "title": "Weil positivity and Trace formula, the archimedean place",
+      "disposition": "Existing C004/small-support Sonin comparison, not new cofinal/full-Gamma q_R budget; search result plus old records only."
+    },
+    {
+      "url": "https://arxiv.org/abs/2009.13791",
+      "title": "Accurate estimation of sums over zeros of the Riemann zeta-function",
+      "disposition": "Numerical weighted ordinate sums, not target independent signed/full-source premise; not opened."
+    },
+    {
+      "url": "https://arxiv.org/pdf/1605.04343",
+      "title": "A Relatively Small Turing Machine Whose Behavior Is Independent",
+      "disposition": "Equivalent-statement encoding; not target premise; not opened."
+    },
+    {
+      "url": "https://arxiv.org/abs/1504.03438",
+      "title": "A complete Riemann zeta distribution and the Riemann hypothesis",
+      "disposition": "Only near candidate inspected in original fixed v1; probability positivity/log-signed distinction and RH-equivalent critical property do not supply target budget."
+    },
+    {
+      "url": "https://arxiv.org/abs/1108.1524",
+      "title": "The Distribution of Weighted Sums of the Liouville Function and Pólya's Conjecture",
+      "disposition": "Search abstract conditional on RH/other hypotheses and different observable; not opened."
+    },
+    {
+      "url": "https://arxiv.org/pdf/2501.16468",
+      "title": "Unrelated generalized-gamma physical-distribution hit",
+      "disposition": "Unrelated; not opened or consumed."
+    }
+  ],
+  "opened_primary_urls": [
+    "https://arxiv.org/abs/1504.03438",
+    "https://arxiv.org/html/1504.03438v1"
+  ],
+  "fixed_original": {
+    "file": "literature/local/2026-10-28-gamma-signed-location/nakamura-1504.03438v1.html",
+    "bytes": 422428,
+    "sha256": "8f7227f22d1c3c849b7ec6fa3c8a0ee1bcbdee53fb5482d3b0bb27074de46f0d",
+    "git_included": false,
+    "version": "1504.03438v1",
+    "submitted_utc": "2015-04-14 07:14:51",
+    "journal_reference": "Bernoulli 2015, 21(1), 604–617"
+  },
+  "read_scope": "Root original abstract and fixed HTML sections1.2/1.3 definitions and Theorems1.1-1.4; browser response also displayed2.1 andstart2.2 as context, no complete proof audit. One HTML original archived, no PDF download/render or external reference-chain proof. Local support scopes recorded separately.",
+  "network_scope": "Fixed original HTML downloaded with command-only127.0.0.1:10808 proxy, explicit escalation, terminal; no globalproxy change.",
+  "mathematical_iterations": 0,
+  "cadence": "3/history49/cycle16 unchanged",
+  "admission": "No eligible new independent full-Gamma signed premise; stop this finite location, not proof of nonexistence."
+}

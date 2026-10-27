@@ -1,5 +1,7 @@
 # 长期研究恢复入口
 
+2026-10-28，[完整Γsigned有限定位](reviews/2026-10-28-complete-gamma-signed-location-stop.md)两批6query已实际用完、两支持/fresh/root限定收讫。唯一Nakamura固定v1 HTML422428bytes本地入库：概率ratio正性非log/Weil正号；合法局部−W字典仅旧signed重编码，无实际q_R独立预算。0来源/数学，cadence3/历史49/cycle16原字节保持；止本定位/不续§2或paper，Goal门open。下一只[EX共同扣项强旧准入核账](../reviews/2026-10-28/gamma-signed-location/next-trial-common-subtraction-admission.md)，未执行/不准新math，先扣585更大poly空间/有限HS旧后果，非复验537或续lower。阶段/发布看STATE。
+
 2026-10-28，[585后因果审视](reviews/2026-10-28-causal-choice-after-sonin-lower.md)已两支持/fresh/root限定闭合：fixedr K/t→1直接排原始固定fraction＋有界余项桥，保有费共同扣项/movingrank/正Dprime；所核库存仍无独立净signed/corecross或primitive预算。0数学/非cycle17，cadence3/历史49/cycle16原字节保持，C048不续。下一仅[完整Γ协同signed原命题一次定位](../reviews/2026-10-28/post-lower-causal/next-complete-gamma-signed-source-location.md)，未执行/未有新章，不预C049/586；不是继续lower/sharp或二维trial诊断。Goal门open，库/看板/阶段/同步见STATE。
 
 2026-10-28，[C048／585](reviews/2026-10-28-cofinal-sonin-585-settlement.md)已两稿/fresh/root限定闭合：ALL先fixed非零compact complex源的actual cofinal Sonin迹lower及完整K正发散必要费；共同H0/全poly/全部tail、原范数和完整Γpp双pole均付。统一一轮cadence2→3/历史48→49，cycle16不重置，预算耗尽即止lower，不续6.4/6.5/后章。局部actualcore费用瓶颈改变，独立正号/primitiveRR/coupling/whole4/5UPPER未改，Goal仍open。下一仅[新费用后的因果选择审视](../reviews/2026-10-28/fixed-test-lower/next-causal-budget-review.md)，未执行，非formalcycle17/不归零3/不预C049。库/阶段/同步见STATE。

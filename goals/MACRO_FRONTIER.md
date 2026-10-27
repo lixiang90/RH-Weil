@@ -1,5 +1,9 @@
 # 宏观前沿：可消费范围与最小未付箭头
 
+2026-10-28，[完整Γsigned有限定位](reviews/2026-10-28-complete-gamma-signed-location-stop.md)两批6query已实际用完、两支持/fresh/root限定收讫。唯一Nakamura固定v1 HTML422428bytes本地入库：概率ratio正性非log/Weil正号；合法局部−W字典仅旧signed重编码，无实际q_R独立预算。0来源/数学，cadence3/历史49/cycle16原字节保持；止本定位/不续§2或paper，Goal门open。下一只[EX共同扣项强旧准入核账](../reviews/2026-10-28/gamma-signed-location/next-trial-common-subtraction-admission.md)，未执行/不准新math，先扣585更大poly空间/有限HS旧后果，非复验537或续lower。阶段/发布看STATE。
+
+最强短链仍585实际lower＋560全型→fixedr K/t→1与必要成长费，另577/578完整Γ正层/费用/signed目标均付，缺独立净号。新概率近邻允许固定σ局部重权到−W，但origin/contact及指数费用不产生新budget。有限搜索失败不排有费修复；EX仅一次原规则/强旧准入，不自动数学。whole4/5 UPPER及primitive/corecross/Xi未改。
+
 2026-10-28，[585后因果审视](reviews/2026-10-28-causal-choice-after-sonin-lower.md)已两支持/fresh/root限定闭合：fixedr K/t→1直接排原始固定fraction＋有界余项桥，保有费共同扣项/movingrank/正Dprime；所核库存仍无独立净signed/corecross或primitive预算。0数学/非cycle17，cadence3/历史49/cycle16原字节保持，C048不续。下一仅[完整Γ协同signed原命题一次定位](../reviews/2026-10-28/post-lower-causal/next-complete-gamma-signed-source-location.md)，未执行/未有新章，不预C049/586；不是继续lower/sharp或二维trial诊断。Goal门open，库/看板/阶段/同步见STATE。
 
 当前短链：585实际t下界＋560全型→fixedr K=t+常数及K/t→1；只排原两腿的无费/固定fraction桥，非已付净正号。577/578已有完整Γ正层/原费及gR=Γ+J+S，缺独立signed预算。保actualEX同步扣项测试为未执行条件备选，不据合法投影宣告新核心输入。最强whole仍542+555→557的4/5 UPPER；已付安全high不重开。
