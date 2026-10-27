@@ -1,5 +1,9 @@
 # 宏观前沿：可消费范围与最小未付箭头
 
+2026-10-27，[固定Mellin–Bergman源](reviews/2026-10-27-mellin-bergman-source-gate.md)已两稿/root/fresh限定闭合：cusp0∞／basis／全du-Dlog费用及实际A(F)=S成立；553使A(Pan)=S，mixed关系根条件迫整拉回为零，未迫J对象零。标准强旧合成0轮，cadence2／历史48／cycle16不动，无C048/585；classic主瓶颈与whole4/5UPPER未改。停止该fixed holomorphic源及ray/level/阻尼调参；下一仅[actual classical theta的无限analytic源type首门](../reviews/2026-10-27/mellin-bergman-source/next-classical-theta-analytic-source-admission.md)，核定义/零模/空间原费，运输尚未执行。原PDF复用、定义页与未审范围已入库；同Goal／阶段／同步见STATE。
+
+当前区别：有限holomorphic source的mixed退化已由553结清，不排所有theta。下一保实际K的无限analytic目标；P0仅字面杀x0，全部smallv零模/空间Dirichlet和component能量核还未付，不凭Poisson直觉或compact性套du门。底层factor旧解析商并非自动失败，仍以新增独立结构/完整signed净后果为准。下方旧“下一MB未执行”等均为历史。
+
 2026-10-27，[Kudla§8来源门](reviews/2026-10-27-arithmetic-theta-section8-source-gate.md)已两稿/root/fresh限定闭合：实际weight3/2 Petersson算术lift及holomorphic时MWtilde⊕Vert0定位，非pureMW/nonnull/经典Weil身份。bar、mean-zero、7.4的half及未审stack/index依赖保cited；没有原physical源桥或原费。来源0，cadence2／历史48／cycle16不动，classic主瓶颈/whole4/5UPPER未改，无C048/585。§8到此止，不续§9–11/引文。下一仅[已给Mellin–Bergman物理source公式](../reviews/2026-10-27/arithmetic-theta-section8/next-mellin-bergman-source-admission.md)的basis/cusp端点/原du费/Pan首门，先扣553，尚未执行；同Goal/阶段/同步见STATE。
 
 本次不是“没有primitive设施”：真实算术目标及orthogonal组件存在且按来源cited；缺的是本项目r同源桥、非零／原费与完整mixed经典比较。fixed holomorphic有限输入不排单边/族/非holomorphic/Dprime，底层factor旧解析商也不排新增独立结构。以下“下一§8未读”均属旧状态。

@@ -1387,3 +1387,13 @@ strongold542+555→557 wholeleading4/5仍负惯性UPPER；完整Γ/contact/pp/�
 root现已给唯一具体physical候选：fixed holomorphic S、Petersson基f_j、W_j(t)=e^(3t/4)f_j(i e^t)，A_r=Σ∫r barW_j · f_j，再接chapterTheta。下一只核basis/typed、0/∞ cusp及全du-Dlog费用和实际像，然后先扣553真实Pan cyclic密度；不是又一个raw坐标或下一paper。若finite bounded同像已被旧门迫trivial，则0止不换ray/basis/level/阻尼。此公式、端点、费用与Pan测试目前尚未执行，不预数学合同，不先借arithmeticheight正号或MW非零。它可决定一个明确源桥是否值得继续，比空等unknown插值有信息差。
 
 独立正Dprime生成规则且完整signed缺陷消失，以及真tensor全阶pole族仍为两个有实物才重排的备选；当前无新实物，不以membership/未知预算改名。新的独立结构/原费/同对象signed净比较可以改策，来源论文名称与局部对象非零本身不够。文献原PDF复用无新下载，实际§8和必要陈述阅读/未审责任入库并同步公开metadata；原文/像素缓存仅本地。
+
+## D20261027N — 停止固定holomorphic有界源；只验实际无限analytic核的类型/零模/原费
+
+同Goal1793085111/原0c4f。本次固定Mellin–Bergman公式的半整数cusp0∞、basis、allS_exp右逆及全du/Dlog费用已由两稿/fresh/root对齐；553真实Pan密度加有限维闭像直接给A(Pan)=A(F)=S。接citedTheta后同像保持，不需ambientCH Hausdorff或Theta非零。全Pan若只落mixed根仍迫整个pullback为零，允许J本身非零isotropic；不能匹配537同源非根。窄global同F PSDlower旁注不排fixedwindow/变域/signed误差。标准强旧合成0轮，cadence2/历史48/cycle16原字节不动，无C048/585，Goal数学门open；whole4/5UPPER、actualq/core/coupling/Xi及独立primitive/RR主瓶颈未变。
+
+停止这个fixed holomorphic source，不改ray/basis/B/level/阻尼、不再probe。下一已非unknown paper或raw坐标：同已库Kudla作者PDF21/22/29实际polynomialGaussian与classicalK定义，保P0K的无限nonholomorphic analyticGreen目标，Phi_r=int r(t)e^(3t/4)P0K(i e^t,z)dt。nativeK无外加v^(3/4)，phi0须乘exp(-2piQ)才成Schwartz coefficient；literalx0被P0杀不等于所有smallv零模消去。当前只定位定义、未支付全源运输/两端/空间H1/Dirichlet或非零性，component能量核必须明示。
+
+唯一下一是该actualformula的type/zero-mode/原费首门，先判全du还是只强源费，再扣553；不预数学合同。如果仅标准旧运输0止；若确有新完整无限源/费用信息，须先以actualinput/test/strongestold净后果准入，不用source0藏新结果。失域/全零/旧门覆盖即止，不调模型/weight/后章/引文。此门比重跑finite A或等待未知插值有可核的信息差：目标无限维且原smallv空间费用尚未知。可推翻选择的是独立正Dprime生成及完整signed误差、真tensor全阶pole或不同实际source/结构净比较；名称或对象非零不够。
+
+来源仅复用同56页PDF并追加定义定位，未下载新论文或读§9–11。正文及像素本地，版本/阅读/审查范围公开同步；原CCM与583closedbase语义冻结/限定消费保持。研究细节与版本绑定见reviews/2026-10-27/mellin-bergman-source/root-consumption-scope.json。

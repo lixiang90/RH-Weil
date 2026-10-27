@@ -8,7 +8,7 @@
   "cadence": "goals/review-cadence.json",
   "decisions": "goals/DECISIONS.md",
   "latest_strategy": "goals/reviews/2026-10-27-general-rh-macro-review-cycle-16.md",
-  "latest_decision": "D20261027M",
+  "latest_decision": "D20261027N",
   "macro_frontier": "goals/MACRO_FRONTIER.md",
   "macro_summary": "goals/reviews/2026-10-27-general-rh-macro-review-cycle-16.md",
   "latest_macro_review": "goals/reviews/2026-10-27-general-rh-macro-review-cycle-16.md",
@@ -20,8 +20,8 @@
   },
   "macro": {
     "long_objective": "G20261027接续G20261014完整完成门/原0c4f基线，≤582为输入；持续寻经典同源Weil正性/有效性/RR或actualsigned新输入，付全源/成长/core及谱识别。",
-    "unpaid_bottleneck": "§8已定位cited真实算术lift/holomorphic primitive-type设施，但没有本项目r→模输入、全Pan/同源非根/原费与完整mixed经典桥。独立整过滤/sections/signedgrowth、actualq/core/coupling/Xi和whole4/5UPPER仍未改。",
-    "why_this_contract": "§8来源门已止，不续章或paper。下一已有明确Mellin–Bergman A_r公式，先核fixedholomorphic类型/cusp0∞/原du费用再扣553实际Pan同像；能否给非trivial下降可判，纯旧合成0止。",
+    "unpaid_bottleneck": "固定holomorphic A的原du费已付，但553迫Pan同像、mixed拉回退化；没有非零classic primitive桥。实际无限analyticK源的全零模/空间费未付；独立整过滤/sections/mixedRR、signedgrowth/actualq/core/coupling/Xi与whole4/5UPPER未改。",
+    "why_this_contract": "有限A已标准0止。下一有同PDF实际K/Phi公式和无限nonholomorphic目标，能具体判完整零模/空间H1与globaldu费；先扣553。比调ray/level或未知paper有信息差，只有定义定位未运输。",
     "paused_routes": [
       "零点比例优化",
       "无零区域优化"
@@ -30,7 +30,7 @@
       "549–578的精确停门、paid资产及合法逃逸见MACRO_FRONTIER/各root收据；不以旧商/正锥membership/未知余项改名复活；542+555→557仅whole4/5负惯性UPPER。",
       "579–582的实际源/非标量cycles/full-local强域/Green已付，但各principal、原域、coverage或fixedcoarse primitive门失败；停止原recipe，保不同relative/higher/强拓扑/有费无界/源适应修复。",
       "10-27附件战略source0已止，无新经典J或容量；正Dprime逼近不需逐层405/ordinarytrace，须独立正序列/完整signed趋零。tensor须真对象与全阶pole。",
-      "584/fixedfinite及tower坐标链已止；§8直接移植source0止，citedprimitive设施不代physical桥。下一只准一个实际A_r首门，不调level/seed/ray/阻尼或串后章；保非holomorphic/变域/Dprime有实物修复。"
+      "584已一轮结算；finite/tower坐标链、§8直接移植及fixedholomorphicMB均0止；后者全du有界且Pan同像。下一仅实际无限analyticK的type/零模/原费，不改ray/B/level/阻尼或续章；保cofinal/Dprime有实物修复。"
     ]
   },
   "primary_contract": {
@@ -41,9 +41,9 @@
     "settled_iterations": [
       "notes/584-marked-cusp-borel-kernel-and-pan-residue-collapse.md"
     ],
-    "stage": "§8两稿/root/fresh来源0限定消费；source533d1b4正常push并GitHub独立GET ref/commit/tree核同本地。回执/STATE/checkpoint由metadata child保存，下一Mellin–Bergman端点/原费/Pan未执行；同Goal门open。",
-    "next_action": "仅执行reviews/2026-10-27/arithmetic-theta-section8/next-mellin-bergman-source-admission.md：fixed holomorphic S、W_j=e^(3t/4)f_j(ie^t)、A_r积分公式，先basis/typed/cusp0∞及原du-Dlog费用和实际像，再扣553全Pan cyclic旧门。纯旧合成0止，不预C048/585或续paper。",
-    "stop_rule": "C047预算耗用，§8来源已止。下一仅此实际Mellin–Bergman首门；若bounded finite同像被553覆盖即0止，不调ray/basis/B/level/阻尼，不泛排nonholomorphic/cofinal/Dprime。"
+    "stage": "C047/584已结算；MB两稿/fresh/root最终限定闭合，标准旧合成0轮，正在保存管理/同步。下一K源仅定义定位、未执行运输。",
+    "next_action": "仅执行 reviews/2026-10-27/mellin-bergman-source/next-classical-theta-analytic-source-admission.md：固定actualK/P0/Phi的type、全部零模/两端/空间H1-Dirichlet原费；先判globaldu或强源，再扣553。未准数学合同，不改模型/ray/weight/阻尼、不续§9–11。",
+    "stop_rule": "C047预算已耗，fixedMB已止。下一K型首门失域/全零/旧门覆盖即止；标准运输0，真实新无限源/费用须另actualinput/test/net准入；不预C048/585，保其他有实物修复。"
   },
   "support_contracts": [],
   "must_not_forget": [
@@ -149,20 +149,30 @@
       "scope": "本次object/domain/norm/量词/依赖/方向/coverage/strongold及16LF绑定；原Goal门open。"
     },
     {
-      "path": "reviews/2026-10-27/arithmetic-theta-section8/next-mellin-bergman-source-admission.md",
+      "path": "goals/reviews/2026-10-27-mellin-bergman-source-gate.md",
+      "kind": "cited",
+      "scope": "root/fresh：原du/basis/Gram与A(Pan)=S，mixed拉回退化；553标准合成0，非所有theta边界。"
+    },
+    {
+      "path": "reviews/2026-10-27/mellin-bergman-source/root-consumption-scope.json",
+      "kind": "cited",
+      "scope": "本次object/domain/norm/全量词/方向/关系-商/强旧及16LF版本闭合；原Goal门open。"
+    },
+    {
+      "path": "reviews/2026-10-27/mellin-bergman-source/next-classical-theta-analytic-source-admission.md",
       "kind": "open",
-      "scope": "唯一有公式Mellin–Bergman物理首门，basis/cusp尾/原费与Pan尚未执行；先扣553，不预新合同。"
+      "scope": "唯一实际无限analytic K/Phi type/零模/空间原费门；仅定义定位，运输/费用/非零/Pan未执行。"
     }
   ],
   "pending_processes": [],
   "runtime_goal_observation": {
     "status": "active",
-    "observed_at_utc": "2026-10-27T13:54:21+00:00",
+    "observed_at_utc": "2026-10-27T14:38:31.201897+00:00",
     "created_at_unix": 1793085111,
-    "basis": "结算现场get_goal同实例active；实际§8两稿/root/fresh来源0消费，下一A_r端点/原费/Pan未执行。"
+    "basis": "运行此保存前现场get_goal同实例active；实际执行MB两稿/fresh/root首门，不是仅计划。"
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-10-27-arithmetic-theta-section8-sync.json",
+  "checkpoint": "goals/checkpoints/2026-10-27-mellin-bergman-source.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
     "commit": "533d1b4fb6ffc52c62b4e93c69c386902c62f633",
@@ -175,15 +185,15 @@
     "goal_lf_sha256": "b3d2acb1f962d793f45d79b6a4e67fb87dd072cd4752108a9298204b4cefa1de",
     "mathematical_gate": "open",
     "final_execution_gate": "not-eligible",
-    "basis": "§8仅来源设施定位，没有新的classicphysical primitive桥/完整signedgrowth或core/coupling；原whole4/5UPPER未改，Goal门open。"
+    "basis": "MB原费成立但Pan同像/mixed退化是553旧合成；无新classic primitive/完整signedgrowth/core/coupling；whole4/5UPPER未改，Goal门open。"
   },
   "historical_completion_receipts": [
     "goals/goal-completion-receipt.20261014.json",
     "goals/goal-completion-receipt.20261014-continuation.json"
   ],
-  "process_inventory_observed_on": "现场list_agents当前§8三个handle全部completed，root核实际最终版/16LF；无数值后台，下一Mellin–Bergman未执行。",
+  "process_inventory_observed_on": "实际mb_source/mb_pan/fresh终稿均completed，root已核；extra fresh只读root/next/scope也通过且未改文件；无数值/下载后台。",
   "publication_approval_gate": {
-    "status": "current-source-published-and-independently-verified",
+    "status": "current-mellin-bergman-source-root-consumed-publication-pending",
     "destination": "https://github.com/lixiang90/RH-Weil",
     "visibility": "public",
     "branch": "main",
@@ -193,7 +203,7 @@
       "reply": "每轮把进度同步到github；把文献保存在文献库中，用研究看板来记录各个路线的状况",
       "scope": "本项目研究/Goal/STATE/看板/文献元数据/审查与同步回执；论文再分发许可不明则全文仅本地。"
     },
-    "current_scope": "本次17源路径正常main同步且ref/commit/tree独立核验；metadata child只回执/STATE/checkpoint，0额外轮。PDF/像素/提取缓存仅本地，文献阅读状态已更新，无新下载；cadence字节保持。",
+    "current_scope": "本次两稿/fresh/root/下一准入/来源读记录/管理待正常main同步；0数学轮，cadence字节保持。PDF/像素仅本地，上一已核source回执保历史。",
     "published_source_commit": "533d1b4fb6ffc52c62b4e93c69c386902c62f633",
     "verification": "reviews/2026-10-27/arithmetic-theta-section8/remote-sync-verification.json"
   },

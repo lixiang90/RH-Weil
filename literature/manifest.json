@@ -2712,10 +2712,10 @@
       "pages": 56,
       "retrieved_at_utc": "2026-10-27T13:10:09.986543+00:00",
       "git_included": false,
-      "read_scope": "2026-10-27 section8 PDF31–32 complete, stop section9; necessary definitions/statements PDF7,23–26,30 only. Root visuals31/32/7/25/30. Original theorem proofs/sections9–11 not audited.",
-      "proof_status": "Source/input/output audit only: cited primitive-type facility, holomorphic qualifiers, no physical bridge/classicWeil proof; Mellin–Bergman next map not executed.",
-      "scope_record": "supplements/2026-10-27-theta-section8-source-scope.md",
-      "read_record": "reviews/2026-10-27/arithmetic-theta-section8/source-read-record.json"
+      "read_scope": "Section8 PDF31–32 and prior necessary statements retained. Additionally next-candidate definitions/statements only PDF21 Eq5.3/Prop5.1,22 Eq5.7/5.8,29 Eq7.22/7.23; root/Pan/fresh visually checked related formulas. No original proofs/sections9–11 audited.",
+      "proof_status": "Current project Mellin–Bergman source directly checked,553 finite-image consequence standard0; not author physical bridge. Next infiniteanalytic Phi two-end/spatial/Dirichlet transport, nonzero and Pan tests not executed.",
+      "scope_record": "supplements/2026-10-27-mellin-bergman-source-scope.md",
+      "read_record": "reviews/2026-10-27/mellin-bergman-source/source-read-record.json"
     }
   ],
   "supplement_provenance": [

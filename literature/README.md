@@ -1,5 +1,7 @@
 # RH-Weil 文献索引
 
+2026-10-27，[Mellin–Bergman实际源门](../goals/reviews/2026-10-27-mellin-bergman-source-gate.md)用项目直接cusp/Gram原费及553强旧结算0轮；root公式不归作者physical桥。复用56页Kudla原PDF，无新下载；仅为下一不同无限analytic核定位并目视PDF21/22/29相关定义/陈述，未核原证明或下一运输。[阅读归属与范围](supplements/2026-10-27-mellin-bergman-source-scope.md)和逐缓存SHA已保存，原PDF/像素仍仅本地。
+
 2026-10-27，[Kudla§8来源门](../goals/reviews/2026-10-27-arithmetic-theta-section8-source-gate.md)已完整核读PDF31–32相关节及必要前置陈述，正文阅读状态已更新；[范围/未审责任](supplements/2026-10-27-theta-section8-source-scope.md)保留holomorphic、MW/Vert0、bar、mean-zero、half及stack依赖。复用原56页PDF，无新下载或外部定理proof审计；来源0轮，不自动续章。下一Mellin–Bergman公式为root提出的未执行候选，不归作者已付physical桥。
 
 2026-10-27，[joint tower准入](../goals/reviews/2026-10-27-joint-oldform-tower-admission.md)复用405/519/520/553/583，标准坐标/两商/角色比较0轮。为下一唯一来源门，已保存Kudla作者稿56页原PDF，逐字节SHA/页数/标题TOC已核，全文仅本地；[版本／实际阅读范围](supplements/2026-10-27-joint-tower-and-kudla-source-scope.md)明确§8正文未审，metadata日期不冒正文修订日。manifest新增该实际原件，下一不自动续章或把算术lift当经典正性。
