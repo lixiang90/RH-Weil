@@ -41,8 +41,8 @@
     "settled_iterations": [
       "notes/585-cofinal-sonin-fixed-source-trace-lower-and-core-error-fee.md"
     ],
-    "stage": "C048/585两终稿/fresh/root限定数学结算，一轮预算耗尽；源/原norm/强旧/net已闭，三必要PDFlocal。下一因果审视未执行，当前待正常同步核验。",
-    "next_action": "先正常同步本轮并核远端；随后仅执行 reviews/2026-10-28/fixed-test-lower/next-causal-budget-review.md，以585actual必要费审因果选择和真实新input，不续lower或预C049。",
+    "stage": "C048/585两终稿/fresh/root限定结算，一轮预算耗尽；20源路径已正常main推送且独立远端核。metadata child待发布核实际HEAD，下一因果审视未执行。",
+    "next_action": "仅执行 reviews/2026-10-28/fixed-test-lower/next-causal-budget-review.md，以585实际必要费审因果选择与真实coupled input；不续lower/upper/sharp或预C049/586，不formalcycle17/不归零3。",
     "stop_rule": "C048一轮止，不续常数/阶/upper/6.4/6.5/后章。新费不排有费非局部/sourceadapted修复；下一无actualinput/test/net不准数学，不以partial界完成长期Goal。"
   },
   "support_contracts": [],
@@ -137,17 +137,17 @@
   "pending_processes": [],
   "runtime_goal_observation": {
     "status": "active",
-    "observed_at_utc": "2026-10-27T19:02:12.273795+00:00",
+    "observed_at_utc": "2026-10-27T19:05:14.822215+00:00",
     "created_at_unix": 1793085111,
-    "basis": "本轮现场get_goal同实例active；实际执行C048原proof并root消费585，非仅候选/重建Goal。"
+    "basis": "Root现场get_goal确认同实例active；已实际执行并root消费C048/585，source远端独立核验。子代理get_goal作用域null不替代root现场。"
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-10-28-cofinal-sonin-585.json",
+  "checkpoint": "goals/checkpoints/2026-10-28-cofinal-sonin-585-sync.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
-    "commit": "599e0c188d922c14c66a2b7e3150431de23cf407",
-    "tree": "5f5c1c5633ff1a6aeb5b6db82c17d32041610553",
-    "basis": "独立GitHub GET ref/commit/tree与本地source同；reviews/2026-10-28/core-source-location/remote-sync-verification.json；metadata child实际HEAD另核，不递归自记SHA。"
+    "commit": "ed3cb2bf646cf9d9980eb39a61a08157b08f7613",
+    "tree": "3be5866524445a1e132f8e3470029d91cc8e08b2",
+    "basis": "Independent connected GitHub GET ref/commit/tree matched source; reviews/2026-10-28/fixed-test-lower/remote-sync-verification.json; metadata child actual HEAD/tree verified separately, no recursive self SHA."
   },
   "completion_audit": {
     "goal": "goals/GOAL.20261027.md",
@@ -161,9 +161,9 @@
     "goals/goal-completion-receipt.20261014.json",
     "goals/goal-completion-receipt.20261014-continuation.json"
   ],
-  "process_inventory_observed_on": "两proof终稿/fresh最终审均terminal并root消费；三个必要原件下载与9张渲染terminal，无后台。下一因果审视未执行。",
+  "process_inventory_observed_on": "两证明/fresh及只读结算核审均terminal；必要原件/渲染均完成，无后台。下一因果审视未执行。",
   "publication_approval_gate": {
-    "status": "current-585-local-settled-awaiting-normal-push",
+    "status": "current-source-published-and-independently-verified",
     "destination": "https://github.com/lixiang90/RH-Weil",
     "visibility": "public",
     "branch": "main",
@@ -173,9 +173,9 @@
       "reply": "每轮把进度同步到github；把文献保存在文献库中，用研究看板来记录各个路线的状况",
       "scope": "本项目研究/Goal/STATE/看板/文献元数据/审查与同步回执；论文再分发许可不明则全文仅本地。"
     },
-    "current_scope": "本轮C048/585证明/独审/root/单cadence/库/看板/下一因果审视/检查点，尚待push。三PDF/9页图仅本地ignored，公开元数据/实际阅读，不递归自记SHA。",
-    "published_source_commit": "599e0c188d922c14c66a2b7e3150431de23cf407",
-    "verification": "reviews/2026-10-28/core-source-location/remote-sync-verification.json"
+    "current_scope": "C048/585共20源路径正常main同步且独立ref/commit/tree核验；本metadata child仅回执/STATE/新checkpoint，实际HEAD另核。三PDF/9页图仅本地，数学统一1轮/cadence3，下一因果审视未执行。",
+    "published_source_commit": "ed3cb2bf646cf9d9980eb39a61a08157b08f7613",
+    "verification": "reviews/2026-10-28/fixed-test-lower/remote-sync-verification.json"
   },
   "research_board": "RESEARCH_BRANCHES.md",
   "literature_index": "literature/README.md",
