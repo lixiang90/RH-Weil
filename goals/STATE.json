@@ -8,9 +8,9 @@
   "cadence": "goals/review-cadence.json",
   "decisions": "goals/DECISIONS.md",
   "latest_strategy": "goals/reviews/2026-10-27-general-rh-macro-review-cycle-16.md",
-  "latest_decision": "D20261028G",
+  "latest_decision": "D20261028H",
   "macro_frontier": "goals/MACRO_FRONTIER.md",
-  "macro_summary": "goals/reviews/2026-10-28-cofinal-sonin-585-settlement.md",
+  "macro_summary": "goals/reviews/2026-10-28-causal-choice-after-sonin-lower.md",
   "latest_macro_review": "goals/reviews/2026-10-27-general-rh-macro-review-cycle-16.md",
   "latest_iteration": "notes/585-cofinal-sonin-fixed-source-trace-lower-and-core-error-fee.md",
   "macro_control": {
@@ -20,8 +20,8 @@
   },
   "macro": {
     "long_objective": "G20261027接续G20261014完整完成门/原0c4f基线，≤582为输入；持续寻经典同源Weil正性/有效性/RR或actualsigned新输入，付全源/成长/core及谱识别。",
-    "unpaid_bottleneck": "585已付actualcofinal固定源trace lower与完整K正发散/core必要费，局部费用未知已闭；未付仍是同一非零primitive/mixedRR、净signed/corecoupling/Xi，whole4/5UPPER未改。新lower不排有费/sourceadapted修复。",
-    "why_this_contract": "C048一轮耗尽即止lower；下一只按实际新必要费做因果选择审视，核真正coupled signed或独立primitive预算，优于再优化sharp/高频/源域。不是formalcycle17或归零3，无实物不预C049。",
+    "unpaid_bottleneck": "585必要费/fixedr K/t→1已付；同源净signed/corecross及独立primitive整过滤/mixedRR/Xi仍欠，whole4/5 UPPER未改。577/578已有真Γ正层/原费/完整gR，未有实际q_R独立预算；两种K不混。",
+    "why_this_contract": "0因果审视已闭，下一仅一次完整Γsigned原命题定位：577/578具体全型与费用已付，缺口比无实物primitive多段更集中；不续lower/sharp/二维trial诊断，不把未知预算改名准数学。",
     "paused_routes": [
       "零点比例优化",
       "无零区域优化"
@@ -41,9 +41,9 @@
     "settled_iterations": [
       "notes/585-cofinal-sonin-fixed-source-trace-lower-and-core-error-fee.md"
     ],
-    "stage": "C048/585两终稿/fresh/root限定结算，一轮预算耗尽；20源路径已正常main推送且独立远端核。metadata child待发布核实际HEAD，下一因果审视未执行。",
-    "next_action": "仅执行 reviews/2026-10-28/fixed-test-lower/next-causal-budget-review.md，以585实际必要费审因果选择与真实coupled input；不续lower/upper/sharp或预C049/586，不formalcycle17/不归零3。",
-    "stop_rule": "C048一轮止，不续常数/阶/upper/6.4/6.5/后章。新费不排有费非局部/sourceadapted修复；下一无actualinput/test/net不准数学，不以partial界完成长期Goal。"
+    "stage": "C048一轮预算耗尽保持completed；585后非formal因果审视两支持/fresh/root限定闭合，0数学。唯一下一Γsigned定位尚未执行，当前源记录待正常同步核验。",
+    "next_action": "仅执行 reviews/2026-10-28/post-lower-causal/next-complete-gamma-signed-source-location.md：主靶578完整gR的独立Γ/twisted signed原命题，一次有限定位/冻一项或止；未有新章，不预C049/586，不续C048或formalcycle17/归零3。",
+    "stop_rule": "C048及lower/sharp/后章均止。下一定位无actual独立原命题即止，不串paper/旧参数；EX二维建议保留未执行，真实joint输入或primitive map+mixed预算可改策；不以partial界完成长期Goal。"
   },
   "support_contracts": [],
   "must_not_forget": [
@@ -104,19 +104,9 @@
       "scope": "583未限定continuous短语的nonclosed无条件扩展冻结；仅closedbase分支经fresh/root重闭，旧raw/fulltails不回滚。"
     },
     {
-      "path": "reviews/2026-10-27/corrected-theta-source/root-consumption-scope.json",
-      "kind": "cited",
-      "scope": "本次全源/空间norm/coeff/real-structure/semantic重闭及19LF绑定；literal/整体身份冻结，Goal门open。"
-    },
-    {
       "path": "reviews/2026-10-28/action-cone/root-consumption-scope.json",
       "kind": "cited",
       "scope": "24LF绑定：exactfiniteboundary/原norm/全source/strongest-old0及高层恢复，Goalopen。"
-    },
-    {
-      "path": "reviews/2026-10-28/core-source-location/root-consumption-scope.json",
-      "kind": "cited",
-      "scope": "18LF绑定：原件/来源字典/条件K方向、fixedsource尾、未审proof与唯一准入；0数学。"
     },
     {
       "path": "notes/585-cofinal-sonin-fixed-source-trace-lower-and-core-error-fee.md",
@@ -129,20 +119,30 @@
       "scope": "20LF绑定及3PDF/9页图：H0弱前件重闭/原域norm/全poly尾/符号量词/强旧净值，Goalopen。"
     },
     {
-      "path": "reviews/2026-10-28/fixed-test-lower/next-causal-budget-review.md",
+      "path": "goals/reviews/2026-10-28-causal-choice-after-sonin-lower.md",
+      "kind": "cited",
+      "scope": "585后因果消费/固定r K/t及有费合法修复/库存无新净差input/唯一Γsigned来源选择；0数学。"
+    },
+    {
+      "path": "reviews/2026-10-28/post-lower-causal/root-consumption-scope.json",
+      "kind": "cited",
+      "scope": "26LF绑定，兩支持/独审/root reconcile与strongestold/符号量词/EX建议未选/Goalopen。"
+    },
+    {
+      "path": "reviews/2026-10-28/post-lower-causal/next-complete-gamma-signed-source-location.md",
       "kind": "open",
-      "scope": "唯一非formal因果选择审视，按585新必要费与真实coupledinput准入；未执行，不预C049/586。"
+      "scope": "唯一完整Γsigned有限primary原命题定位，尚未执行/无新章/不预数学，0来源计轮。"
     }
   ],
   "pending_processes": [],
   "runtime_goal_observation": {
     "status": "active",
-    "observed_at_utc": "2026-10-27T19:05:14.822215+00:00",
+    "observed_at_utc": "2026-10-27T19:20:05.936870+00:00",
     "created_at_unix": 1793085111,
-    "basis": "Root现场get_goal确认同实例active；已实际执行并root消费C048/585，source远端独立核验。子代理get_goal作用域null不替代root现场。"
+    "basis": "Root本轮现场get_goal同实例active；实际执行STATE唯一因果审视并root消费，上一Goal轮585与远端同步属progress，非新建/暂停/完成。"
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-10-28-cofinal-sonin-585-sync.json",
+  "checkpoint": "goals/checkpoints/2026-10-28-post-lower-causal.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
     "commit": "ed3cb2bf646cf9d9980eb39a61a08157b08f7613",
@@ -155,15 +155,15 @@
     "goal_lf_sha256": "b3d2acb1f962d793f45d79b6a4e67fb87dd072cd4752108a9298204b4cefa1de",
     "mathematical_gate": "open",
     "final_execution_gate": "not-eligible",
-    "basis": "585新actual固定源trace/Kcore必要费已付，局部瓶颈改变；未移除独立Weil正号/primitiveRR/净corecoupling/Xi，合法有费修复未排，whole4/5未改。完整Goal第二/第三门仍open，不eligible。"
+    "basis": "585actual必要费已付，本次只直接消费K/t与因果选择0；完整净signed/corecoupling、独立primitiveRR/Xi/whole无新数学输入，合法修复未排。Goal门open/noteligible。"
   },
   "historical_completion_receipts": [
     "goals/goal-completion-receipt.20261014.json",
     "goals/goal-completion-receipt.20261014-continuation.json"
   ],
-  "process_inventory_observed_on": "两证明/fresh及只读结算核审均terminal；必要原件/渲染均完成，无后台。下一因果审视未执行。",
+  "process_inventory_observed_on": "本次两支持/fresh均terminal且root已消费；无外部下载/渲染/数值或其它后台。下一来源定位未执行。",
   "publication_approval_gate": {
-    "status": "current-source-published-and-independently-verified",
+    "status": "current-causal-review-root-settled-awaiting-normal-push",
     "destination": "https://github.com/lixiang90/RH-Weil",
     "visibility": "public",
     "branch": "main",
@@ -173,7 +173,7 @@
       "reply": "每轮把进度同步到github；把文献保存在文献库中，用研究看板来记录各个路线的状况",
       "scope": "本项目研究/Goal/STATE/看板/文献元数据/审查与同步回执；论文再分发许可不明则全文仅本地。"
     },
-    "current_scope": "C048/585共20源路径正常main同步且独立ref/commit/tree核验；本metadata child仅回执/STATE/新checkpoint，实际HEAD另核。三PDF/9页图仅本地，数学统一1轮/cadence3，下一因果审视未执行。",
+    "current_scope": "本次585后因果审视/两支持/fresh/root/决策/库与看板/检查点，0数学/cadence原字节保持，尚待正常main同步；无第三方原文或页图。",
     "published_source_commit": "ed3cb2bf646cf9d9980eb39a61a08157b08f7613",
     "verification": "reviews/2026-10-28/fixed-test-lower/remote-sync-verification.json"
   },
@@ -199,7 +199,7 @@
     "repair_record": "reviews/2026-10-27/corrected-theta-source/root-consumption-scope.json",
     "basis": "literal失域/原hash保持；明确Rgeom scalar源/零模/全原费/F∞及conditionalPan消费重闭；整体Theta/7.4/modularity/stack-index未付，MB/582/583保持。"
   },
-  "latest_causal_review": "goals/reviews/2026-10-28-causal-strategy-after-theta-chain.md",
+  "latest_causal_review": "goals/reviews/2026-10-28-causal-choice-after-sonin-lower.md",
   "unitary_source_scope_audit": {
     "status": "native-hodge-zero-and-quotientsum-overlay-root-fresh-reclosed",
     "path": "goals/reviews/2026-10-28-unitary-modularity-premise-settlement.md",

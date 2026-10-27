@@ -1507,3 +1507,15 @@ oldALLdu θ16 actualhigh小费已付。另旧coercivity rho<=(M/m)^2Clog和fixed
 在此止本lower，不续常数/order/upper/6.4sharp/6.5/§7或下一paper。唯一下一fixed-test-lower/next-causal-budget-review.md尚未执行：只比较585新必要费究竟否定哪些无费比较，保哪些有费修复；恢复最强whole+585短链，核是否真有独立coupled signed或577正Dprime、同对象primitive预算输入。不得只把恒等重排/未知domination/正Gram改名准C049；若无实物就不预数学。此为非计轮因果审视，非formalcycle17/不归零3，不重做来源链或重验585。
 
 必要原件三PDF59页已local；Burnol0208121同旧SHA新路径恢复，历史不抹。原Markdown/PDF和页图不公开，只版本/哈希/实际阅读与研究原件按授权正常main同步核远端。相同runtimeGoal active，组织/合同完成/推送不complete长期Goal。
+
+## D20261028H — 原两腿比值迫共同相消；下一只定位完整Γ协同signed输入
+
+同G20261027/1793085111/原0c4f。585后唯一非formal因果审视已两支持/fresh/root实际核消费：585总迹lower与560完整身份直接给每fixed非零compactcomplex r的K/t→1，除原K有界小费外，也排raw K≤(1−δ)t+O_r1（δ先fixed正）的固定fraction桥。固定读出kernel反测与movingrank1逻辑控制均仅标准/强旧直接消费，0新数学；不是changing-source统一quadratic下界、K全PSD或Q负例。原du/zeroextensionDlog、全部Γ/contact/powers/双pole保留，安全16 ALLdu尾与每fixedr/η更低阈值尾量词不混。
+
+所核库存无另一独立input已付t−K+pole净差/危险corecross。保有费nonlocal/sourceadapted/Γrelative/movingrank及正Dprime，不把SoninK混成577q_R；几何source/Green/relative电荷/native模性和整格容量各已付却未串同一非零primitive/mixed桥。最强542+555→557 whole4/5负惯性UPPER未改，585局部必要费仍为新输入，本审视不再次计它。0数学/非cycle17，cadence3/历史49/cycle16原字节保持，Goal门open，C048耗尽不续，无C049/586。
+
+支持提实际EX≤PiX同步扣C_X及r0/r0prime二维residual测试，root保为真实合法未执行建议而不称失败；投影序/重排只旧合法性，当前无独立residual估计，这两源完整Q又早537正，未有危险core/全cross净后果，因此当前不选择其局部诊断。真同核mixed费/扩展机制可推翻排序。
+
+唯一下一post-lower-causal/next-complete-gamma-signed-source-location.md尚未执行：主靶578(3)完整g_R=Γ+J_R+S_R的一次有限primary原命题定位，最多两批各3query、只冻一项actual独立signed/Γtwisted命题及原前件；未取原文不编chapter。它优于续Sonin单项sharp及当前还欠map+primitive+整过滤+mixed多段的重试，因为577真Γ正层/全部原费及578实际signed对象已付，缺口集中可判，但需要estimate本身不算新input。无合格命中即止不串paper，不重开PNT绝对/ordinarySelberg/旧最低态/参数；不预数学。
+
+actualSonin真实joint净差输入与physical→非零primitive+独立mixed容量实物为两条件备选，任何一项到位可改策，真tensor全阶pole亦可。不是所有方法不可能，不缩长期完成门。上一Goal轮585及远端同步为progress；本轮改变当前准入选择而不造数学轮。无新PDF/web/下载/渲染，上游不重审；库/看板/状态与原件正常main同步/独立核远端，管理和推送不completeGoal。

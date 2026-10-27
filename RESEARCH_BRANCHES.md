@@ -5,9 +5,9 @@
 | 路线 | 当前地位 | 可消费输入 | 仍欠的核心箭头 | 准入／停止标准 |
 |---|---|---|---|---|
 | 同对象 relative principal／Green → 截面乘法 → mixed RR | 几何主线；具体执行阶段以STATE为准 | 567真实RR→Hodge机制；579–582实际源／strong域／Green；537明确非根 | 同一非零primitive载体上的实际物理源公式、全关系的principal／Green边界、整过滤与同对象mixed身份 | 先核405全关系及平移、537与全源非根、原du／Dlog和全部尾；无实物不续C045或预建未知合同；保relative／higher／有费无界修复 |
-| 独立正分布 → 完整经典Weil分布 | 合法备选；有新构造或signed估计才晋级 | 562／563连续正源证书；576真FF正锥与原alias费；577真Γ/contact修补 | 独立生成规则及每个compact卷积平方上的完整误差消失 | D′／逐测试收敛可传正性；不强加逐层405、ordinary trace或零点收敛。未知membership／修补消失换名不准入 |
+| 独立正分布 → 完整经典Weil分布 | 当前唯一下一为完整Γsigned原命题定位，未执行 | 576正原料；577真Γ/contact正层和原费；578完整gR=Γ+J+S | 同一actual q_R的独立signed消失预算，未有新输入 | 只一次有限primary定位/冻单命题；未知q_R消失/RH/普通Selberg不准数学，不逐层强加405 |
 | tensor／Deligne放大 | 条件备选；未有经典实际全族 | 567 tensor与pole机制核查；Deligne I §3 | 非平凡local tensor对象、目标谱身份与全阶global pole控制 | 低阶Euler／Γ／grading检查只作准入；普通测度乘积或ζ幂不足；合并净误差须受控，不把分项次线性当必要 |
-| actual低频core／coupling的joint signed比较 | b≤u a scalar包络已止，q0宽1/16未过 | actualv*/n/c2；合法exact-v trial/J/true-H residual充分上界；fixedq0lower≈0.00126005 | 实际Gv/tight b/a、五源T/E/cross及成长signed耦合 | 不调t/prime/Krylov或重跑c2；须新真实globalmixed/远尾费用才再准入，不据粗上界报方法不可能 |
+| actual低频core／coupling的joint signed比较 | 无新独立净差输入，条件备选 | 560全型/实际逆及安全high；585必要成长费/fixedr K/t→1 | 同源t−K+pole净方向/原范数及全cross；非单项大小 | 不续fixedfraction桥/旧scalar包络/高频；真实新joint输入可改策，EX同步二维首测仅保建议 |
 | S0／λ核／arch-only native Green旧recipe | 已按C045／582停止 | 完整局部作用、原费、全源Green可见性与已核反测均保留 | 原recipe全Pan仍非principal，fixed q7 coarse native primitive为零 | 不续word／orbit／level／height参数；新载体或新relative公式须先过上述首门 |
 | L_r(j)／Faber／II2,2 native Green完成化 | C046／583一轮已结算；本principal recipe停止 | 全S_exp系数与fixed窗原费、逐m原lift规范、global balanced L1/mass及cusp／Nk²全尾 | raw注入保Pan；标准连续principal类商连537也杀掉；未得独立primitive／mixedRR | 不续N/radius/j常数/level/同product-paper；新relative／higher或强拓扑修复，须先给input/test/net |
 | marked-cusp／whole-cusp及完整oldform tower | 584结算；finite-cover/tower标准0审查均止 | signedcut/Pan必要费；tower T:E自同构；proper Pan强闭包与polezero合法动作 | raw/旧谱商非独立primitive；principal完成化另有closedbase责任 | 不再调level/seed/序列商；§8来源门已完成，当前仅STATE指定实际源门 |
@@ -17,11 +17,11 @@
 | principal覆盖塔正Pet Gram → 逐compact源Weil极限 | 标准强旧0轮止固定未平均规范 | 全complex compactdu统一费、actualΓ/pp/poles及fixedR后n∞严格缺陷 | 本family极限失败；classic全signed/primitive仍欠；PSD Gram未自动是平移不变W_n | 不调level/ray/weight或串paper，保有实物volume/发散权/非局部修复；先因果战略复核 |
 | unitary Chow值模性 → actual算术mixed高度前提 | 来源0已止，限定native overlay | 全代数dual/有限tensor/finiteSchwartz与实际height余前提；nativeHodge、Σ=dπ补注 | 没有physical405/537/原费/fullQζ；literal5.6不直接全rank/单位系数消费 | 不续rank/level/paper/height族；A/C深proof cited，旧orthogonalliteral不解冻 |
 | 实际inner-action cone源 → HH0／432电荷 | 标准强旧0已止 | 全L1 raw在Ac中有限commutator/锥boundary，288/1442L1粗代表费；旧−4保 | 原physical源全零，Pan/537/双degree同杀；非零raw不等非零HH类 | 不调树/同伦/小域/自由functional；不同实物再准 |
-| actual Sonin固定源cofinal总迹 → 完整K费用 | C048/585一轮已闭并止lower | ALLfixed非零compactcomplex actualtrace≥c_r sqrtX/logX^(2k+2)，完整K及fixedsourcecore必要费 | 有利signed净号/ALLchanging-source coupling、primitiveRR/whole未付 | 不续常数/upper/6.4/6.5/后章；只审新费对因果选择及合法修复 |
+| actual Sonin固定源cofinal总迹 → 完整K费用 | C048/585已闭止；后因果审视0已闭 | fixedsource actualtrace/K成长及原K/t→1；合法共同扣项/费用范围已核 | 完整净signed/corecoupling/primitiveRR/whole未付 | 不续lower/upper/6.4/6.5/后章；不把K发散运输成577q_R失败 |
 | 实际代数对应 → KK／relative比较 | CCM固定v2§6来源0已止 | typed KK／derived kernel、GRR／Todd有限修补；旧relative电荷保持 | 原字面ordinary-cycle6.11／principal下降不直接适用；没有physical有效算术lift／mixedRR | 两P1反测及m1 point腿保角色；不续§7／引用／下一paper，新input/test先扣强旧 |
 | 零点比例与无零区域优化 | 保持暂停 | 历史成果保原范围 | 不是当前Weil类比主责 | 仅用户新指令可恢复，不因文献可得或局部数字改善自动恢复 |
 
-当前理由见[D20261028G](goals/DECISIONS.md)及[C048/585结算](goals/reviews/2026-10-28-cofinal-sonin-585-settlement.md)。actualcofinal必要K费已付，局部core费用瓶颈改变；whole4/5UPPER/独立primitiveRR/净signed/coupling仍欠。统一1轮cadence3/历史49/cycle16不重置；下一[新费用因果审视](reviews/2026-10-28/fixed-test-lower/next-causal-budget-review.md)尚未执行，非cycle17/不预C049。文献范围与真正发布以STATE为准。
+当前理由见[D20261028H](goals/DECISIONS.md)及[585后因果审视](goals/reviews/2026-10-28-causal-choice-after-sonin-lower.md)。主动作仅[完整Γ协同signed一次定位](reviews/2026-10-28/post-lower-causal/next-complete-gamma-signed-source-location.md)，未执行/无预数学；actualSonin净差及primitive map+独立mixed预算为条件备选。审视0/cadence3历史49cycle16不变，whole4/5仍UPPER，Goalopen。
 
 每个完整研究迭代完成后同步本轮研究及恢复记录到GitHub，并核远程commit与本地一致；失败须保留确切状态，不报成功。依 [唯一cadence](goals/review-cadence.json) 每4–8完整轮宏观审视、默认6，重大反例或连续来源停滞可提前；组织、下载、审查、推送和代理数量均不增加研究轮，也不重置周期。此前计数继续继承。
 

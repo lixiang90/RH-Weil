@@ -1,5 +1,9 @@
 # 宏观前沿：可消费范围与最小未付箭头
 
+2026-10-28，[585后因果审视](reviews/2026-10-28-causal-choice-after-sonin-lower.md)已两支持/fresh/root限定闭合：fixedr K/t→1直接排原始固定fraction＋有界余项桥，保有费共同扣项/movingrank/正Dprime；所核库存仍无独立净signed/corecross或primitive预算。0数学/非cycle17，cadence3/历史49/cycle16原字节保持，C048不续。下一仅[完整Γ协同signed原命题一次定位](../reviews/2026-10-28/post-lower-causal/next-complete-gamma-signed-source-location.md)，未执行/未有新章，不预C049/586；不是继续lower/sharp或二维trial诊断。Goal门open，库/看板/阶段/同步见STATE。
+
+当前短链：585实际t下界＋560全型→fixedr K=t+常数及K/t→1；只排原两腿的无费/固定fraction桥，非已付净正号。577/578已有完整Γ正层/原费及gR=Γ+J+S，缺独立signed预算。保actualEX同步扣项测试为未执行条件备选，不据合法投影宣告新核心输入。最强whole仍542+555→557的4/5 UPPER；已付安全high不重开。
+
 2026-10-28，[C048／585](reviews/2026-10-28-cofinal-sonin-585-settlement.md)已两稿/fresh/root限定闭合：ALL先fixed非零compact complex源的actual cofinal Sonin迹lower及完整K正发散必要费；共同H0/全poly/全部tail、原范数和完整Γpp双pole均付。统一一轮cadence2→3/历史48→49，cycle16不重置，预算耗尽即止lower，不续6.4/6.5/后章。局部actualcore费用瓶颈改变，独立正号/primitiveRR/coupling/whole4/5UPPER未改，Goal仍open。下一仅[新费用后的因果选择审视](../reviews/2026-10-28/fixed-test-lower/next-causal-budget-review.md)，未执行，非formalcycle17/不归零3/不预C049。库/阶段/同步见STATE。
 
 最强新短链：fixedlargegap非零raw评价＋旧532√log→Gevrey共同H0/ALLpoly域；VK扭Perron→cofinalEuler权gap＋全poly entropy/全尾→dim n actualtrace lower→560原全型→fixedr K必要增长。K是需相消的正误差，非Q负或全KPSD。旧16安全ALLdu尾已付；本次fixedr/η尾能落危险尺度，但不提升uniform/corecoupling。保有费非局部/source-adaptive/Γrelative修复，不以partial方法边界完成长期Goal。
