@@ -1,0 +1,36 @@
+{
+  "schema": "rh-weil-root-premise-closure-v1",
+  "date": "2026-10-27",
+  "stage": "root-consumed-after-fresh-limited-PASS",
+  "goal": "G20261027",
+  "baseline": "0c4f3a3eb609bb1d9564138fa4a35701f05605f2",
+  "source_gate": "CCM fixed math/0512138v2 section6.1-6.3 PDF44-47 stop before7",
+  "source_sha256": "68f9c8eaa5e9b46790e5adad0e8cd910da43566e7bc339ea5ecc81ab1f3fe601",
+  "object_domain_range": "Given smooth proper/K-oriented geometric correspondence to directed KK; corrected smooth proper complex ambient Perf kernel to K-action/convolution. No actual physical source or inverse effective arithmetic lift.",
+  "norms_growth": "No physical du/Dlog/strong S_exp or height/cofinal budget supplied; no continuity on583 L1/current-mass quotient assumed.",
+  "paid_dependencies_errors": "Actual fixed source text and root page renders44-47 section6 only. Own standard finite P1 tests; no numerical theorem steps. References15/16/24/44 not pursued; general comparator hypotheses remain explicit.",
+  "coefficient_direction": "6.1 K(X)->K(Y),6.6 reverse needs transpose; mod2 KK parity not Chow grading. Derived tensor/Tor and Todd preserve signed virtual data, no positivity/effectivity.",
+  "relation_quotient_physical": "No given Green/current->KK descent. m1 diag-B1-B2 is CH1/principal zero but naive component O_Z assignment=-O_point; thus nonzero lower leg not primitive quotient image. GeneralD formula only whole Cartier convention, not allm freecycle reader. Existing410/411 ideal-boundaryK0,432HH1,573cone,CCM comparisonfiber distinguished.",
+  "coverage_coupling_open": "Same-object source/principal/fullPan/537 map, arithmetic metric/sections/mixedRR, complete Gamma/contact/allpp/two poles and actualq/core/coupling/Xi unchanged.",
+  "strongest_old_net": "Only source interface correction/freeze and strict stop. 583 global tails and older nonzero relative charges retained as inputs;542+555->557 whole4/5 negative-inertia UPPER unchanged.",
+  "semantic_freeze": "Unconditional ordinary-cycle6.11 and automaticprincipal descent not consumable; corrected Kkernel/GRR conditional on stated domains.583 does not depend onCCM and remains intact.",
+  "math_iterations": 0,
+  "cadence_action": "No increment or reset; same1/historical47/cycle16.",
+  "stop": "NoC047/584, nosection7/references/nextpaper chain. Different actual derived/relative/metric input remains legal after concrete admission.",
+  "versions": [
+    {
+      "path": "goals/reviews/2026-10-27-ccm-geometric-correspondence-source-gate.md",
+      "sha256_lf": "ad9e3805b428ef8ba58f15c19e5edd2e8379870a28301be91f9e616320008e4b"
+    },
+    {
+      "path": "reviews/2026-10-27/ccm-correspondence/source-domain-composition.md",
+      "sha256_lf": "4f52b2922fdd7a5a707991e4a3e6ac2d7b0f4b4fa3565be6314a826ddc236f4b"
+    },
+    {
+      "path": "reviews/2026-10-27/ccm-correspondence/roles-principal-relative-and-coverage.md",
+      "sha256_lf": "482a5eb7b26c75ea3000c763682bca63a819e23a2e8f23654851b85d0e464b36"
+    }
+  ],
+  "root_consumed_at_utc": "2026-10-27T09:22:55.906218+00:00",
+  "fresh_review": "reviews/2026-10-27/ccm-correspondence/fresh-review.md"
+}

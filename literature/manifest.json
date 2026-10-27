@@ -1890,11 +1890,17 @@
       "sha256": "68f9c8eaa5e9b46790e5adad0e8cd910da43566e7bc339ea5ecc81ab1f3fe601",
       "pages": 58,
       "retrieved_at_utc": "2026-09-20T13:03:13.087512+00:00",
-      "read_scope": "PDF1标题／作者／版本视觉核对；全文未核读。实际原件58页，arXiv comments写52页。 408: Hilbert read fixed v2 PDF8-9,23-24,26,29,32; topological tensor products and continuous multilinear forms specified, not a particular Banach completion.",
+      "read_scope": "PDF1标题／作者／版本视觉核对；全文未核读。实际原件58页，arXiv comments写52页。 408: Hilbert read fixed v2 PDF8-9,23-24,26,29,32; topological tensor products and continuous multilinear forms specified, not a particular Banach completion. 2026-10-27: section6.1-6.3 PDF44-47 top diagram visually checked; actual source0 restrictions and finite P1 corrections in section6_review_20261027. Section7/references not consumed.",
       "status": "上游原件归档，首页及元数据已核验；未认证全文证明。",
       "pdf_parse_status": "PDF opens, title page checked; 58 actual pages.",
       "review_408": "../reviews/2026-09-20/f1-orbit-completion-source-review.md",
-      "next_admission_location_20261027": "Existing original hash rechecked. Zero-round next-action audit located PDF44-47 section6.1-6.3, equations6.1/6.2 and Prop6.1/6.11; chapter proof not yet read/consumed. Stop before section7. See ../reviews/2026-10-27/cusp-transport/next-action-admission.md."
+      "next_admission_location_20261027": "Historical admission executed and stopped; see section6_review_20261027. Not a pending chapter action.",
+      "section6_review_20261027": {
+        "scope": "Root and independent agents visually checked PDF44-46 section6.1-6.3 and top of47 exact diagram only; stop before7. Eqs6.1-6.14/Prop6.1 direction, smooth/perfect/derived/Todd and relative-role limits. No references15/16/24/44 pursued.",
+        "result": "Source-only stop; raw pull-push identity and unmodified ordinary-cycle6.11 not consumed. Standard P1 tests; correct limited kernel/GRR repair retained. No physical primitive or arithmetic positivity input.",
+        "record": "supplements/2026-10-27-ccm-section6-source-scope.md",
+        "root_review": "../goals/reviews/2026-10-27-ccm-geometric-correspondence-source-gate.md"
+      }
     },
     {
       "id": "Simon-1977-determinants",

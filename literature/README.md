@@ -1,5 +1,7 @@
 # RH-Weil 文献索引
 
+2026-10-27，[CCM指定§6来源门](../goals/reviews/2026-10-27-ccm-geometric-correspondence-source-gate.md)已root／fresh限定闭合、0数学轮停止。复用已库math/0512138v2，实际目视PDF44–47的§6部分，止§7；[版本／阅读范围](supplements/2026-10-27-ccm-section6-source-scope.md)保存direction、derived／Todd修补和标准P¹反测的消费限制。无新全文、无新算术源或经典正性，不追引用或下一paper；原PDF及阅读缓存仍仅本地。
+
 2026-10-27，[583全源模／nativeGreen运输](../notes/583-completed-modular-faber-source-and-native-green-transport.md)复核既存Borcherds Th13.3／Example13.5／Problem16.5，并新增本地保存Duke–Jenkins Bristol2014作者讲义（27页），仅核题名及printed2–3的j／Faber标准背景。[来源范围](supplements/2026-10-27-cusp-transport-source-scope.md)与[下载回执](supplements/2026-10-27-cusp-source-download.json)记录原SHA／字节／实际阅读；全文保持本地。数学净值是本项目实际系数与balanced全尾证明，不是该背景讲义给出经典正性。
 
 2026-10-27有限主部容量比较复用既存Borcherds原件，无新增PDF；[来源范围与内部2018注记](supplements/2026-10-27-modular-capacity-source-scope.md)补充§2/§4/§13实际阅读与首页日期的限制。有限维/Baire及原norm结论是标准/旧资产合成，非新经典正性来源；全文仍仅本地。

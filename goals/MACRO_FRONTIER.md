@@ -1,5 +1,11 @@
 # 宏观前沿：可消费范围与最小未付箭头
 
+2026-10-27，[CCM§6来源门](reviews/2026-10-27-ccm-geometric-correspondence-source-gate.md)两原稿／root／fresh限定闭合、来源0停止。原页有向KK/sheaf作用、pull-push identity及ordinary-cycle/Kpush的语义已校正，两P1有限反测与583同一m1 point腿限定消费。仅保明确typed derived／perfectkernel／Todd接口；无条件原6.11与自动principal下降仍冻结，非所有KK路线不可能。583不依此章，410–437既有非零relative电荷保持，不把comparison-fiber／idealK0／HH1／cone合并。
+
+没有新的physical／primitive／mixedRR或完整signedζ输入；原cadence1／历史47／cycle16保持，未建C047/584，不续§7／引用／下一paper。主瓶颈和whole4/5UPPER未改。下一先扣535/560与strongold作实际输入准入，不以旧trace接口换名复活；唯一动作与同步见STATE。以下为历史。
+
+本轮准入审计现已root接受为未执行建设性预检：冻结I=(-3/2,3/2)、完整F和5个pole-zero实际源，仅先建设actual t_F的可计算独立reader／same-norm crossblock与总误差；未成不跑数值，不认560极化为新输入。570→534纯trace门已由535覆盖，明确撤下。有限E≤0假设只作一次可反驳诊断，pass不外推全源／成长；若没有实际误差输入就止、无C047。它替代下一source章，准确公式见next-input-admission/STATE。
+
 2026-10-27，[C046／583结算](reviews/2026-10-27-completed-modular-cusp-583-settlement.md)三原稿、root总稿／前件收据与fresh限定PASS已root闭合。新增同一ALLcomplex S_exp的实际Faber源核、II2,2逐m规范和fixed P¹_C×P¹_C的balanced Green L1／current-mass全尾，连cusp boundary／Nk²全部付款。全source用强半范数，fixed源窗原du／Dlog另列；固定a0Φ0仍是原line/metric标签，不并入未估global norm。
 
 raw解析/current注入同时保非零Pan与537；标准连续full principal类商全部杀掉，未得primitive容量。真实Pan大正平移constant≥c exp744b给必要全线费用，每个FaberN保同缺陷。局部运输设施改变，完整signedζ／算术整模型／同源整过滤-截面乘法-mixedRR、actualq/core/coupling/Xi与strongold542+555→557 whole4/5负惯性UPPER未改。

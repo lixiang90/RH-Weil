@@ -1,5 +1,7 @@
 # 长期研究恢复入口
 
+2026-10-27，[CCM§6](reviews/2026-10-27-ccm-geometric-correspondence-source-gate.md)指定章已root／fresh限定来源0止：原方向、推拉消去、ordinary-cycle/Kpush与principal下降须按两P1反测／m1 point腿限定；仅保typed derived／Todd修补，583及旧relative资产不回滚。无新算术源／mixedRR，cadence1／历史47／cycle16保持，不建C047/584、不续§7或下一paper。下一依本轮实际输入准入先扣强旧，当前执行与发布见STATE；旧“下一读CCM”已完成。
+
 2026-10-27，[C046／583](reviews/2026-10-27-completed-modular-cusp-583-settlement.md)已三原稿／root／独立fresh限定闭合：实际全S_exp Faber源、II2,2逐m native规范及balanced globalL1／mass尾包含cusp/Nk²；a0Φ0另保line标签。raw保Pan，标准连续principal类商杀537，经典primitiveRR／完整signedζ与whole4/5UPPER主瓶颈未改。统一一数学轮，单cadence0→1／历史46→47，cycle16不重置；C046预算已耗尽并停止同recipe。下一依独占准入审计取单门，不预建C047；当前阶段、同实例active Goal和GitHub同步以STATE为准。下方“不建C046”等均属各次历史。
 
 2026-10-27[有限主部容量比较](reviews/2026-10-27-modular-principal-part-capacity-and-legal-completions.md)三原稿/fresh修后限定PASS已root闭合，标准/旧推论0轮，不建C046。固定honest输入无法精确/统一双侧读全正窗，但不排单边lower、连续family、D′与完成化。[cycle16](reviews/2026-10-27-general-rh-macro-review-cycle-16.md)已在原5完整轮处提前完成，原cadence5→0一次/历史46保持，Goal同实例active。下一只检实际L_r(j)的source系数/有限主部截断Green-relative尾运输，不重查已否的honest域资格；无新信息即止。数学主瓶颈/whole4/5UPPER未变，发布与唯一动作见STATE。
