@@ -1377,3 +1377,13 @@ strongold542+555→557 wholeleading4/5仍负惯性UPPER；完整Γ/contact/pp/�
 依据K已禁止连续0坐标链，此tower到此止，不调seed/level/序列权或续period。缺失仍是同一非零primitive载体的physical桥和独立整过滤/截面乘法/mixed预算；无实物不建数学合同。下一仅已实际入库的Kudla作者稿Modular forms and arithmetic geometry §8（PDF31到32的§9前）来源门：核真实theta lift输入/输出及可消费physical比较，不拿height或别的L函数当经典Weil身份，也不拿finite输入排一切单边/族。只可定位必要定义/定理陈述，不扩章或追paper；门后立即止/晋级，§8正文现未读。
 
 选它因其定位为真实算术曲面的配对设施，和刚停止raw坐标有不同的typed输出；是否给本项目可消费源仍未知。两个现实备选是独立正Dprime规则且完整signed缺陷消失，或真实tensor全阶pole族；当前没有新实物，不能拿未知预算替代。新实际结构/同源费用净比较可改策，source合法或非零旧谱商本身不够。作者原PDF56页/887943字节/SHA与标题TOC已核，仅本地全文，元数据/实际阅读范围同步。运行Goal同实例active/open。
+
+## D20261027M — §8实际设施限定收讫；只准一个有公式的物理source首门
+
+同G20261027/0c4f，unique Kudla作者§8已实际完整目视/两原稿/root/fresh限定核。Petersson输入weight3/2、半整数automorphy；f·bar(theta)、first-linear/height-second-antilinear；holomorphic子类才到MWtilde⊕Vert0，mean-zero非compact，7.4标量half及stack/index外部证明均cited。这里有真实算术primitive-type设施，但不等于pureMW/nonnull/strictheight或经典Weil身份。章节没给本项目r桥，不能称一个实际r-map已过/失败Pan；输入合法也未付原norm/全尾/成长。source/强旧0轮，cadence2/历史48/cycle16不动，无C048/585，Goal同实例active/open。
+
+§8到此止，不续§9–11、引文证明、B/level或unknown插值。旧g11 weight2与Faber weight0/essential不能硬塞成weight3/2，582局部Weil源也非global arithmeticfunctor。fixed holomorphic有限性不排单边lower/移动族/非holomorphic/非逐层Pan的Dprime；底层map经过旧商不排新增独立几何结构。强旧whole4/5UPPER、actualq/core/coupling/Xi与同源mixed责任均未改。
+
+root现已给唯一具体physical候选：fixed holomorphic S、Petersson基f_j、W_j(t)=e^(3t/4)f_j(i e^t)，A_r=Σ∫r barW_j · f_j，再接chapterTheta。下一只核basis/typed、0/∞ cusp及全du-Dlog费用和实际像，然后先扣553真实Pan cyclic密度；不是又一个raw坐标或下一paper。若finite bounded同像已被旧门迫trivial，则0止不换ray/basis/level/阻尼。此公式、端点、费用与Pan测试目前尚未执行，不预数学合同，不先借arithmeticheight正号或MW非零。它可决定一个明确源桥是否值得继续，比空等unknown插值有信息差。
+
+独立正Dprime生成规则且完整signed缺陷消失，以及真tensor全阶pole族仍为两个有实物才重排的备选；当前无新实物，不以membership/未知预算改名。新的独立结构/原费/同对象signed净比较可以改策，来源论文名称与局部对象非零本身不够。文献原PDF复用无新下载，实际§8和必要陈述阅读/未审责任入库并同步公开metadata；原文/像素缓存仅本地。

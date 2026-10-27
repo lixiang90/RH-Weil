@@ -1,5 +1,9 @@
 # 宏观前沿：可消费范围与最小未付箭头
 
+2026-10-27，[Kudla§8来源门](reviews/2026-10-27-arithmetic-theta-section8-source-gate.md)已两稿/root/fresh限定闭合：实际weight3/2 Petersson算术lift及holomorphic时MWtilde⊕Vert0定位，非pureMW/nonnull/经典Weil身份。bar、mean-zero、7.4的half及未审stack/index依赖保cited；没有原physical源桥或原费。来源0，cadence2／历史48／cycle16不动，classic主瓶颈/whole4/5UPPER未改，无C048/585。§8到此止，不续§9–11/引文。下一仅[已给Mellin–Bergman物理source公式](../reviews/2026-10-27/arithmetic-theta-section8/next-mellin-bergman-source-admission.md)的basis/cusp端点/原du费/Pan首门，先扣553，尚未执行；同Goal/阶段/同步见STATE。
+
+本次不是“没有primitive设施”：真实算术目标及orthogonal组件存在且按来源cited；缺的是本项目r同源桥、非零／原费与完整mixed经典比较。fixed holomorphic有限输入不排单边/族/非holomorphic/Dprime，底层factor旧解析商也不排新增独立结构。以下“下一§8未读”均属旧状态。
+
 2026-10-27，[joint oldform tower准入](reviews/2026-10-27-joint-oldform-tower-admission.md)已两原稿/root/fresh限定闭合：全d实际source和Dirichlet逆使tower恰为583 raw坐标自同构（E拓扑）；strong Pan闭包proper，不同于finite-principal稠密商。全source忘常数平移反测及加a0／polezero合法修复均保原角色。583旧continuous短语按[closed-base补正](../reviews/2026-10-27/joint-oldform-tower/583-principal-closed-base-correction.md)消费，非闭全零扩展冻结，原全尾/584不回滚。标准旧运输0轮，cadence2／历史48／cycle16不动，无C048/585；经典主瓶颈和whole4/5UPPER未改。停止坐标链，下一仅[已入库Kudla作者稿§8单章来源门](../reviews/2026-10-27/joint-oldform-tower/next-arithmetic-theta-section8-admission.md)，正文未执行，不续§9–11或追paper；同Goal/准确阶段/同步见STATE。
 
 Pan proper强商保537但只是519/520既有谱商完成化；physical原Fréchet商只连续忠实嵌入，不能当拓扑同构或新正号。全source忘常数失平移连续性，不排已分离双polezero域；补a0时principal闭包只{0}×E。真正几何底层map可通过旧解析商，只要有独立整结构/RR/原费用正号净后果；排除的是无新后果的形式改名。以下各“下一tower”等为已执行历史。

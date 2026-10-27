@@ -2712,9 +2712,10 @@
       "pages": 56,
       "retrieved_at_utc": "2026-10-27T13:10:09.986543+00:00",
       "git_included": false,
-      "read_scope": "Root visual PDF1/4 title/author/TOC and tool-visible introduction; local identity extracts PDF1/3/4. Heading-only locator: section8 PDF31, section9 PDF32. No section8 body/proof consumed.",
-      "proof_status": "section8 source review not executed; no theorem consumed as classic input",
-      "scope_record": "supplements/2026-10-27-joint-tower-and-kudla-source-scope.md"
+      "read_scope": "2026-10-27 section8 PDF31–32 complete, stop section9; necessary definitions/statements PDF7,23–26,30 only. Root visuals31/32/7/25/30. Original theorem proofs/sections9–11 not audited.",
+      "proof_status": "Source/input/output audit only: cited primitive-type facility, holomorphic qualifiers, no physical bridge/classicWeil proof; Mellin–Bergman next map not executed.",
+      "scope_record": "supplements/2026-10-27-theta-section8-source-scope.md",
+      "read_record": "reviews/2026-10-27/arithmetic-theta-section8/source-read-record.json"
     }
   ],
   "supplement_provenance": [

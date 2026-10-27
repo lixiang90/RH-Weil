@@ -1,0 +1,67 @@
+{
+  "schema": "rh-weil-source-read-record-v1",
+  "date": "2026-10-27",
+  "source_url": "https://www.math.utoronto.ca/skudla/CDM.revised.pdf",
+  "file": "literature/local/2026-10-27-joint-tower/kudla-cdm-revised-author.pdf",
+  "bytes": 887943,
+  "sha256": "47ff2ff6f5151081dd029a1df680377b88d58fc09d6629f3a2b2c3b78bab0f54",
+  "pages": 56,
+  "downloaded_this_turn": false,
+  "git_included": false,
+  "primary_read": "root and both branches/fresh complete section8: PDF31 after section8 title through PDF32 before section9 title, equations8.1–8.6.",
+  "root_visual_pages": [
+    31,
+    32,
+    7,
+    25,
+    30
+  ],
+  "necessary_statement_definition_locators": "PDF7 §2 arithCH/height/stack footnote; PDF23–25 Th6.3 statement and mean-zero/Prop7.1; PDF26 Th7.2 statement; PDF30 Th7.4 statement. These are cited, proofs not audited.",
+  "not_consumed": "section9–11 and cited original proofs; no unconditional new stack index/norm/nonnull or classicWeil theorem.",
+  "normalization_controls": "bar on theta, source first-linear/height second-antilinear; holomorphic condition for MWtilde⊕Vert0; mean-zero not compact-support; Theorem7.4 half-factor, zero relation only.",
+  "private_caches": [
+    {
+      "file": "literature/local/2026-10-27-joint-tower/section8-only-local-extract.txt",
+      "bytes": 1459,
+      "sha256": "01412d51d4880158034c08dbb0f2c746f979a93252da1f41c18c85fdcab57353",
+      "git_included": false,
+      "kind": "local pypdf section-only extract, not author source bytes"
+    },
+    {
+      "file": "literature/local/2026-10-27-joint-tower/section8-page31.png",
+      "bytes": 126522,
+      "sha256": "6b66db6fc6c3953974f219c7ac36096cf2c8f7583f82c99992da06563befd46a",
+      "git_included": false,
+      "kind": "local PDF render"
+    },
+    {
+      "file": "literature/local/2026-10-27-joint-tower/section8-page32.png",
+      "bytes": 166158,
+      "sha256": "db794351cef22135f751526f75a6551219ffe97c45609a6768d5e977aec2e273",
+      "git_included": false,
+      "kind": "local PDF render"
+    },
+    {
+      "file": "literature/local/2026-10-27-joint-tower/section8-ref-page7.png",
+      "bytes": 146046,
+      "sha256": "8bf71966170627be35ffab75e41e3e747a7f3d0a25d65abaa5ece96a33ac559f",
+      "git_included": false,
+      "kind": "local PDF render"
+    },
+    {
+      "file": "literature/local/2026-10-27-joint-tower/section8-ref-page25.png",
+      "bytes": 124118,
+      "sha256": "d48dcf89b5b4736665bd950be1a177653dfd1507a618904452dfabd8ab95e0d7",
+      "git_included": false,
+      "kind": "local PDF render"
+    },
+    {
+      "file": "literature/local/2026-10-27-joint-tower/section8-ref-page30.png",
+      "bytes": 140387,
+      "sha256": "f992b74b0d71c3d1c73e59175a10e2e57f08ac3c4b2c5794be583761527ca16c",
+      "git_included": false,
+      "kind": "local PDF render"
+    }
+  ],
+  "next_map": "Mellin–Bergman formula proposed by root only; source endpoints/fees/Pan test not executed."
+}
