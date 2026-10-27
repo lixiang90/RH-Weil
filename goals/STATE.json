@@ -7,11 +7,11 @@
   "workflow": "goals/RESEARCH_WORKFLOW.md",
   "cadence": "goals/review-cadence.json",
   "decisions": "goals/DECISIONS.md",
-  "latest_strategy": "goals/reviews/2026-10-27-general-rh-macro-review-cycle-16.md",
-  "latest_decision": "D20261028Q",
+  "latest_strategy": "goals/reviews/2026-10-28-general-rh-macro-review-cycle-17.md",
+  "latest_decision": "D20261028R",
   "macro_frontier": "goals/MACRO_FRONTIER.md",
-  "macro_summary": "goals/reviews/2026-10-28-theta-ground-state-586-settlement.md",
-  "latest_macro_review": "goals/reviews/2026-10-27-general-rh-macro-review-cycle-16.md",
+  "macro_summary": "goals/reviews/2026-10-28-general-rh-macro-review-cycle-17.md",
+  "latest_macro_review": "goals/reviews/2026-10-28-general-rh-macro-review-cycle-17.md",
   "latest_iteration": "notes/586-theta-ground-state-spectrum-and-full-gamma-heat-defect.md",
   "macro_control": {
     "schema": "macro-recovery-v2",
@@ -20,8 +20,8 @@
   },
   "macro": {
     "long_objective": "G20261027接续G20261014完整完成门/原0c4f基线，≤582为输入；持续寻经典同源Weil正性/有效性/RR或actualsigned新输入，付全源/成长/core及谱识别。",
-    "unpaid_bottleneck": "586严格排固定theta正谱的完整Γ身份；全局独立signed/corecross/非零primitive mixed/Xi仍欠，whole4/5UPPER及585必要费未改。局部候选由未付变失败，不是关键瓶颈移除。",
-    "why_this_contract": "C049新实际谱/热/compact源反测已严格闭合一轮且止；四完整583–586后全局门未改、期间连续生成0，下一应在允许第4轮formalcycle17比较投入与反事实，不续局部谱参数或预建未知合同。",
+    "unpaid_bottleneck": "同一非零primitive/mixed与完整signed/corecross/Xi仍欠；585fixed净差常数早付，所欠独立净号/成长coupling；586只固定rule失败。四轮局部增量未改whole4/5UPPER或关键门。",
+    "why_this_contract": "formal17已比较583–586和最强启动资产，停止默认新增PSD/源设施预算。唯一下一是一次T_B+全赋值的实际双源公式形成与早期系数去重，当前无formula/math准入；新actualjoint/primitive实物可改策。",
     "paused_routes": [
       "零点比例优化",
       "无零区域优化"
@@ -42,16 +42,16 @@
     "settled_iterations": [
       "notes/586-theta-ground-state-spectrum-and-full-gamma-heat-defect.md"
     ],
-    "stage": "C049/586两最终证明/fresh/root已统一一轮结算，预算耗尽；20源路径da2bfb1已正常main推送且独立核GitHub ref/commit/tree。metadatachild只记录已核source，实际HEAD/tree另作现场核验，不递归写selfSHA。",
-    "next_action": "在当前允许第4完整轮正式作cycle17宏观审视，比较583–586/原冻结基线/最强旧及Goal完成门，给一主线/现实备选/准入停止与反事实改策证据；完成并消费该复盘后才将单cadence归零一次。未复盘前不建C050/587、续谱参数或新source队列。",
-    "stop_rule": "C049一轮耗尽；固定theta谱rule已完整反测，不改sector/x/H幂/±/常数/cofinalcutoff、补偿或续paper。formal17须实际完成才单cadence归零，局部失败不完成Goal。"
+    "stage": "C049仍完成耗尽；formalcycle17已两支持/fresh/root限定消费0数学，原4→0一次/history50/latest586保持。原件/看板/库/STATE与新checkpoint待本轮正常发布。",
+    "next_action": "执行一次T_B={a+b=c<=B,gcd(a,b)=1}+全v_p双源公式构造，输出reviews/2026-10-28/coprime-additive-input/actual-two-source-candidate.md；先actual公式/域/原费与finite系数-fiber去重(036/080–096/549/578)，仅旧重编码或无公式即止本尝试。当前无新input/C050/587，不重开paper/参数或暂停优化。",
+    "stop_rule": "formal17已完成，禁止重复归零/旧复盘；下一只是至多一份公式形成，不授proof预算。无信息差如实止；C049 sector/x/H幂/±/补偿及其他已止recipe/query不复活，Goal门不缩。"
   },
   "support_contracts": [],
   "must_not_forget": [
     "G20261027接续G20261014完整完成门/原0c4f基线；≤582和10-27审视都是输入，旧成果不得重验收。实际runtimeGoal active(createdAt1793085111)，新建由本轮用户直接请求。",
     "完整Γ=2θ′/FP-contact、所有properpowers/双pole、ALLcomplex、原du及zero-extension Dlog；L/算术height/频高独立，fixed/强源/Dprime/成长不合并。",
     "每结果保object/domain-range/关系-商-physical角色/norm、源成长量词/依赖误差/符号/coverage-coupling/strongest-old净值。语义改变先freeze/reclose，draft不代root消费。",
-    "唯一cadence：cycle16原5→0一次；583/584/585/586各统一一轮，目前4/历史50。下一在允许4处formalcycle17，未完成前不归零；来源/构造旧重编码/恢复/代理/审计/Git不增轮，耗尽合同不恢复。",
+    "唯一cadence：formalcycle17已在583–586四完整后原4→0一次，历史50/latestmath586保持；默认6/允许4–8。复盘/来源/构造旧重编码/恢复/代理/审计/Git不增数学轮，不能重复归零或恢复耗尽合同。",
     "strongold542+555→557 whole4/5是负惯性UPPER；537/538 fixed17/16不代成长/Ξ。560全fixed窗positiveTrace−compact+pole，572/高层变分不代低频core及cofinal sign。",
     "几何主线先405全noncompact Pan及平移actual消去、537非根/全源coverage/原费，再同对象整过滤/截面乘法/mixedRR。已知410–437真实relative电荷/573反测与574–575线/Cartier不重造，精确域见前沿。",
     "576正锥生成/alias费、577真Γ修补、578粗Selberg反测均已付；membership/缺陷消失仍open。Dprime策略可不逐层消405，不能泛化uniform原norm或ordinarytrace。",
@@ -75,11 +75,6 @@
       "scope": "root+终审：每先fixedfiniteS实际ε∈C0、ALL原complexDlog positiveTrace−compact+完整双pole；cofinal费/sign/Ξ未付，统一一轮。"
     },
     {
-      "path": "goals/reviews/2026-10-27-general-rh-macro-review-cycle-16.md",
-      "kind": "cited",
-      "scope": "cycle16比较578–582五完整轮及连续来源0；提前复盘原5→0一次，原目标强度和独立容量/core缺口保留。"
-    },
-    {
       "path": "notes/583-completed-modular-faber-source-and-native-green-transport.md",
       "kind": "proved",
       "scope": "583原raw/全尾设施；continuousprincipal全零仅携当前closed-base补正消费，非闭扩展冻结；非经典正性/RR。"
@@ -95,19 +90,9 @@
       "scope": "C048统一1轮：ALLfirstfixed非零complexcompact source actualtrace lower、完整K/core必要正成长费；非Q负/K全PSD/净signed正性。"
     },
     {
-      "path": "reviews/2026-10-28/fixed-test-lower/root-consumption-scope.json",
-      "kind": "cited",
-      "scope": "20LF绑定及3PDF/9页图：H0弱前件重闭/原域norm/全poly尾/符号量词/强旧净值，Goalopen。"
-    },
-    {
       "path": "reviews/2026-10-28/framed-holonomy-closure/root-consumption-scope.json",
       "kind": "cited",
       "scope": "原域/费用/frames/Pan系数及更强553链重闭，标准强旧0止；非新方法类定理，Goalopen。"
-    },
-    {
-      "path": "reviews/2026-10-28/framed-holonomy-closure/coefficient-and-gauge-scope-clarification.md",
-      "kind": "cited",
-      "scope": "whole未du界不能免必要q_B；interaction双端I与background宽读分开，旧hash保持。"
     },
     {
       "path": "notes/586-theta-ground-state-spectrum-and-full-gamma-heat-defect.md",
@@ -118,17 +103,22 @@
       "path": "reviews/2026-10-28/theta-ground-state/root-consumption-scope.json",
       "kind": "cited",
       "scope": "root将谱前件2a233与heat0bc/freshe4fd同链消费；原域/范数/全Γpp双pole/共同crop/最强旧及新旧分类绑定。"
+    },
+    {
+      "path": "goals/reviews/2026-10-28-general-rh-macro-review-cycle-17.md",
+      "kind": "cited",
+      "scope": "正式cycle17两支持/fresh/root0数学，4→0/history50；双基准/四净后果与Goal门，mixed身份先于PSD设施，下一仅一次双源公式形成，尚无新input。"
     }
   ],
   "pending_processes": [],
   "runtime_goal_observation": {
     "status": "active",
-    "observed_at_utc": "2026-10-27T22:38:40.214324+00:00",
+    "observed_at_utc": "2026-10-27T23:03:03.935115+00:00",
     "created_at_unix": 1793085111,
-    "basis": "本轮现场get_goal同实例active；C049两实际证明/fresh/root已执行并一轮结算，完成门未通过。"
+    "basis": "本轮现场get_goal同实例active；formalcycle17两支持/独立审查/root已实际执行并0数学消费，完成门未通过。"
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-10-28-theta-ground-state-586-sync.json",
+  "checkpoint": "goals/checkpoints/2026-10-28-macro-cycle-17-local.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
     "commit": "da2bfb1f0cea432176a13b10ca5f969b0a553bcf",
@@ -141,15 +131,15 @@
     "goal_lf_sha256": "b3d2acb1f962d793f45d79b6a4e67fb87dd072cd4752108a9298204b4cefa1de",
     "mathematical_gate": "open",
     "final_execution_gate": "not-eligible",
-    "basis": "586是一个固定实际positive谱recipe的严格完整反测，非Qζ负/全confining边界/关键瓶颈移除；独立signed/corecross/primitiveRR/Xi及whole4/5UPPER未改，Goalopen/noteligible。"
+    "basis": "formal17核四轮局部后果未付三项Goal门：无RH/关键独立净果或严格前件弱化合并证据/覆盖合法修复的实质核心边界。whole4/5UPPER及关键signed/core/primitive缺口未改，open/noteligible。"
   },
   "historical_completion_receipts": [
     "goals/goal-completion-receipt.20261014.json",
     "goals/goal-completion-receipt.20261014-continuation.json"
   ],
-  "process_inventory_observed_on": "当前spectral/heat/fresh三个C049任务均终稿终结，无web/PDF/数值后台；20源已push并独立核。metadatachild当前HEAD按现场另核，不是数学proof进程或verifiedwait。",
+  "process_inventory_observed_on": "本轮geometry/signed/fresh三个宏观task均最终稿终结；未执行下一三元组构造，无新数学proof/研究web/PDF/数值后台。",
   "publication_approval_gate": {
-    "status": "current-source-published-and-independently-verified",
+    "status": "current-review-root-consumed-local-not-yet-published",
     "destination": "https://github.com/lixiang90/RH-Weil",
     "visibility": "public",
     "branch": "main",
@@ -159,7 +149,7 @@
       "reply": "每轮把进度同步到github；把文献保存在文献库中，用研究看板来记录各个路线的状况",
       "scope": "本项目研究/Goal/STATE/看板/文献元数据/审查与同步回执；论文再分发许可不明则全文仅本地。"
     },
-    "current_scope": "本轮C049/586一数学轮20源路径已正常main同步并独立核ref/commit/tree；无新外部全文。metadatachild仅回执/STATE/新checkpoint，实际HEAD另核；数学与发布不完成Goal。",
+    "current_scope": "当前正式cycle17原件/两支持/fresh/root/看板/库/STATE/cadence/checkpoint已消费，尚待正常main发布及远端核验。0新数学/无新外部全文，先前586源da2及metadata3357仍历史已核。",
     "published_source_commit": "da2bfb1f0cea432176a13b10ca5f969b0a553bcf",
     "verification": "reviews/2026-10-28/theta-ground-state/remote-sync-verification.json"
   },
@@ -185,7 +175,7 @@
     "repair_record": "reviews/2026-10-27/corrected-theta-source/root-consumption-scope.json",
     "basis": "literal失域/原hash保持；明确Rgeom scalar源/零模/全原费/F∞及conditionalPan消费重闭；整体Theta/7.4/modularity/stack-index未付，MB/582/583保持。"
   },
-  "latest_causal_review": "goals/reviews/2026-10-28-causal-investment-after-subtractions.md",
+  "latest_causal_review": "goals/reviews/2026-10-28-general-rh-macro-review-cycle-17.md",
   "unitary_source_scope_audit": {
     "status": "native-hodge-zero-and-quotientsum-overlay-root-fresh-reclosed",
     "path": "goals/reviews/2026-10-28-unitary-modularity-premise-settlement.md",

@@ -1,8 +1,8 @@
 # 宏观前沿：可消费范围与最小未付箭头
 
-2026-10-28，[C049/586固定theta谱首检](reviews/2026-10-28-theta-ground-state-586-settlement.md)已两原证明/fresh/root统一闭合：准确Dirichlet域、全n导数/严格两项count、完整Γ热缺陷log2/(2√πt)及真正fixedcompact平方不消失差。是这一实际正谱recipe的新完整反测，统一数学1，单cadence3→4/历史49→50，cycle16本次不归零。停止固定operator参数/sector/尺度/H幂/补偿；不推Qζ负、RH反例或全部confining界。全局关键瓶颈/whole4/5UPPER未改，Goalactive/open。下一先正常发布并核远端，再在允许第4轮正式cycle17宏观复盘，不建C050/587/续paper。当前只读STATE，下文为历史入口。
+2026-10-28，[正式cycle17宏观复盘](reviews/2026-10-28-general-rh-macro-review-cycle-17.md)已两支持/fresh/root限定消费，0新数学；原四完整583–586后单cadence4→0一次，历史50/latestmath586与Goal基线保持。四轮真增量未移除关键signed/corecross/primitive mixed/Xi，whole4/5仍仅负惯性UPPER；585fixed净差常数本已付，586只止固定谱规则。执行优先转同对象mixed身份/早期系数，唯一下一是T_B互素加法三元组+全赋值上的一份双源公式形成；当前无formula/input/C050/587，不造PSD/paper/旧参数队列。Goalactive/open，当前执行只读STATE，下方均历史入口。
 
-最短新链：405全整数Hθ＋全n导数/原Dirichlet域→Schr D/N floor与单调Riemann严格余项→actual phase与纯指数积分→Nθ线性T项→±2普通heat→旧566完整Γ两项→正归一化缺陷→共同Gaussian/compact平方运输→fixed源差不消失。旧H/Vleading、目标热及旧图已经扣，未误用Dprime测试非compact。局部候选身份由未付变false；全局独立signed/corecross/非零primitive mixed/Xi未付。最强542+555→557 whole4/5仅负惯性UPPER，585必要费/safehigh仍已付。四完整583–586与连续来源/构造0使当前正式复盘优于再造局部正模型；不能拼局部失败代Goal完成。
+最强可消费后果不变：542+555→557 wholeleading4/5 UPPER；560 exactQ=t−K+pole，585付每fixed源t/K同阶必要增长而非净号；586付固定theta谱完整Γ热缺陷及compact平方反测。583/584付全源完成化/全尾与actualPan费用，但583类商仅closedbase collapse、强Pan闭包另算，没有同一非零primitive mixed桥。当前缺独立共同身份，不缺另一个正载体。T_B与valuations只是原始数据选择，不是已有公式/新input；先构造再exactfiber/系数去重，不能把计划重述为数学进展。actualjoint净signed或非零primitive新relative/mixed实物出现即改策，合法Dprime/强拓扑/源适应逃逸未整体排除。
 
 2026-10-28，[一次原命题定位](reviews/2026-10-28-independent-source-discovery-stop.md)已两支持/fresh/root限定来源0止：固定3query一批/12聚合visible，唯一Zenodo记录页只议程与条件，无已读actual公式locator；未读PDF不判不存在，无续查询/章/paper。另有root[原创全z运输公式准入](../reviews/2026-10-28/independent-source-discovery/next-original-framed-holonomy-admission.md)及低阶草稿，唯一下一先闭原对象/norm/frames/最强旧并分类，未数学消费/未准C049。cadence3/历史49/cycle16原字节保持，实际瓶颈/whole4/5UPPER未改，Goal门open。
 

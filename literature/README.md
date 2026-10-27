@@ -1,5 +1,7 @@
 # RH-Weil 文献索引
 
+2026-10-28，[正式cycle17宏观复盘](../goals/reviews/2026-10-28-general-rh-macro-review-cycle-17.md)只复用已消费项目原件，无新外部全文/研究网页/PDF/下载/渲染/数值，不增文献条目。[实际阅读范围](supplements/2026-10-28-macro-cycle-17-scope.md)区分四结算/583closedbase/两支持/fresh全文与旧Farey等rg定位，未宣称重审全部旧论文。复盘0数学，原4→0一次/历史50/latest586保持；下一数据选择尚无双源公式/input/合同，不自动续paper。
+
 2026-10-28，[C049/586实际theta谱首检](../goals/reviews/2026-10-28-theta-ground-state-586-settlement.md)只用项目数据/旧消费，无新外部原件/PDF/研究网页/下载/渲染/数值，不增全文条目。[实际原件与阅读范围](supplements/2026-10-28-theta-ground-state-586-scope.md)区分旧H尾/目标热和新实际谱证明；两最终原稿/fresh/root给严格热缺陷与compact源反测，统一1数学。另整数采样/阶乘反演旧重编码0；单cadence4/历史50，下一正式cycle17尚未执行/归零。旧算术theta literal冻结不因405 scalar H解冻。
 
 2026-10-28，[自主构造筛选](../goals/reviews/2026-10-28-autonomous-input-construction.md)只用项目输入，无新外部原件/web/PDF/下载/渲染/数值，不增全文条目。[实际阅读范围](supplements/2026-10-28-autonomous-input-construction-scope.md)区分两原创规则与旧来源：wind小源单位门、ξ曲率纵投影与横向权缺失；actualξ身份未知，不把模型反测说成经典反例。已fresh/root限定消费，0数学/cadence3保持；新公式可由研究者自主提出，不转作用户权限等待。
