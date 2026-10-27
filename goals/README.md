@@ -1,5 +1,7 @@
 # 长期研究恢复入口
 
+2026-10-27，[classical theta literal规范首门](reviews/2026-10-27-classical-theta-literal-normalization-gate.md)已两稿/root/fresh限定闭合：原B/Q/R拼合给rank1指数，actual任意fullrank3格的正部有限/负部无限，rawK非通常函数。冻结literalSchwartz／P0／Phi／Poisson与全部原费及Pan消费；不回滚MB、582/583或独立citedTheta。标准来源纠正0轮，cadence2／历史48／cycle16不动，无C048/585；classic瓶颈/whole4/5UPPER未改。下一仅[独立Rgeom的负平面／单x Green规范一致性](../reviews/2026-10-27/classical-theta-analytic/next-negative-plane-green-normalization-admission.md)，未执行，不承袭Th7.4或完整运输。原件/阅读及语义冻结入库；同Goal/阶段/同步见STATE。
+
 2026-10-27，[固定Mellin–Bergman源](reviews/2026-10-27-mellin-bergman-source-gate.md)已两稿/root/fresh限定闭合：cusp0∞／basis／全du-Dlog费用及实际A(F)=S成立；553使A(Pan)=S，mixed关系根条件迫整拉回为零，未迫J对象零。标准强旧合成0轮，cadence2／历史48／cycle16不动，无C048/585；classic主瓶颈与whole4/5UPPER未改。停止该fixed holomorphic源及ray/level/阻尼调参；下一仅[actual classical theta的无限analytic源type首门](../reviews/2026-10-27/mellin-bergman-source/next-classical-theta-analytic-source-admission.md)，核定义/零模/空间原费，运输尚未执行。原PDF复用、定义页与未审范围已入库；同Goal／阶段／同步见STATE。
 
 2026-10-27，[Kudla§8来源门](reviews/2026-10-27-arithmetic-theta-section8-source-gate.md)已两稿/root/fresh限定闭合：实际weight3/2 Petersson算术lift及holomorphic时MWtilde⊕Vert0定位，非pureMW/nonnull/经典Weil身份。bar、mean-zero、7.4的half及未审stack/index依赖保cited；没有原physical源桥或原费。来源0，cadence2／历史48／cycle16不动，classic主瓶颈/whole4/5UPPER未改，无C048/585。§8到此止，不续§9–11/引文。下一仅[已给Mellin–Bergman物理source公式](../reviews/2026-10-27/arithmetic-theta-section8/next-mellin-bergman-source-admission.md)的basis/cusp端点/原du费/Pan首门，先扣553，尚未执行；同Goal/阶段/同步见STATE。

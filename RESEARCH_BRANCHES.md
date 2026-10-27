@@ -12,11 +12,11 @@
 | L_r(j)／Faber／II2,2 native Green完成化 | C046／583一轮已结算；本principal recipe停止 | 全S_exp系数与fixed窗原费、逐m原lift规范、global balanced L1/mass及cusp／Nk²全尾 | raw注入保Pan；标准连续principal类商连537也杀掉；未得独立primitive／mixedRR | 不续N/radius/j常数/level/同product-paper；新relative／higher或强拓扑修复，须先给input/test/net |
 | marked-cusp／whole-cusp及完整oldform tower | 584结算；finite-cover/tower标准0审查均止 | signedcut/Pan必要费；tower T:E自同构；proper Pan强闭包与polezero合法动作 | raw/旧谱商非独立primitive；principal完成化另有closedbase责任 | 不再调level/seed/序列商；§8来源门已完成，当前仅STATE指定实际源门 |
 | 算术theta／固定holomorphic Mellin–Bergman | §8及实际A_r首门0轮已止 | cited实际Theta；A(F)=S及全du费；553迫A(Pan)=S，mixed拉回退化 | 原费不等于height费；未得独立primitive／完整classic signed | 不改ray/B/level/basis/阻尼；保不同nonholomorphic无限实际源及未逐层Pan的Dprime |
-| classical theta → 无限analytic Green源 | 唯一下一formula/type准入，尚未运输 | 已定位真实K／polynomialGaussian／P0及Phi公式，native与物理框架分明 | 全零模、两端及空间H1/Dirichlet原费用、component base、全Pan及classic比较未付 | 仅此实际kernel门；全du有界才扣553，只有强费不能偷用；失域/全零/强旧覆盖即止，不预C048 |
+| classical theta → 无限analytic Green源 | literal规范0轮失域止，运输冻结 | 原B/Q/R的rank1指数及actual全格反测；Rgeom投影factor定位 | P0/Phi未定义，非已付du后Pan失败；完整Green/current及空间原费未付 | 下一仅明确Rgeom的singlex ddc/μ/delta门；不默修/调模型/继承7.4；无限像只许closure结论 |
 | 实际代数对应 → KK／relative比较 | CCM固定v2§6来源0已止 | typed KK／derived kernel、GRR／Todd有限修补；旧relative电荷保持 | 原字面ordinary-cycle6.11／principal下降不直接适用；没有physical有效算术lift／mixedRR | 两P1反测及m1 point腿保角色；不续§7／引用／下一paper，新input/test先扣强旧 |
 | 零点比例与无零区域优化 | 保持暂停 | 历史成果保原范围 | 不是当前Weil类比主责 | 仅用户新指令可恢复，不因文献可得或局部数字改善自动恢复 |
 
-当前理由见[cycle16](goals/reviews/2026-10-27-general-rh-macro-review-cycle-16.md)、[D20261027N](goals/DECISIONS.md)与[本次结算](goals/reviews/2026-10-27-mellin-bergman-source-gate.md)。fixed A原du费成立但Pan同像；mixed pullback退化不等于对象J必零。标准旧合成0轮，cadence2/历史48/cycle16不动，经典主瓶颈和whole4/5UPPER未改。下一仅[实际无限analytic K源type门](reviews/2026-10-27/mellin-bergman-source/next-classical-theta-analytic-source-admission.md)，未执行运输；不因无限维名称跳过原费。阶段见STATE，阅读/未审证明见[文献记录](literature/supplements/2026-10-27-mellin-bergman-source-scope.md)。
+当前理由见[cycle16](goals/reviews/2026-10-27-general-rh-macro-review-cycle-16.md)、[D20261027O](goals/DECISIONS.md)与[本次规范结算](goals/reviews/2026-10-27-classical-theta-literal-normalization-gate.md)。literalK的实际格点和不成立，故P0/Phi/费用/Pan冻结，MB自身保持。标准来源纠正0轮，cadence2/历史48/cycle16不动，classic主瓶颈和whole4/5UPPER未改。下一仅[独立负平面/单x Green规范门](reviews/2026-10-27/classical-theta-analytic/next-negative-plane-green-normalization-admission.md)，未执行，不以factor修补偷运作者定理或完整K。阶段见STATE，原件/阅读/未审范围见[文献记录](literature/supplements/2026-10-27-classical-theta-normalization-source-scope.md)。
 
 每个完整研究迭代完成后同步本轮研究及恢复记录到GitHub，并核远程commit与本地一致；失败须保留确切状态，不报成功。依 [唯一cadence](goals/review-cadence.json) 每4–8完整轮宏观审视、默认6，重大反例或连续来源停滞可提前；组织、下载、审查、推送和代理数量均不增加研究轮，也不重置周期。此前计数继续继承。
 

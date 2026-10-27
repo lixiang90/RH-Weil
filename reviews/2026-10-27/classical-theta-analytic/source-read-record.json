@@ -1,0 +1,87 @@
+{
+  "schema": "rh-weil-source-read-record-v1",
+  "date": "2026-10-27",
+  "source_url": "https://www.math.utoronto.ca/skudla/CDM.revised.pdf",
+  "file": "literature/local/2026-10-27-joint-tower/kudla-cdm-revised-author.pdf",
+  "bytes": 887943,
+  "sha256": "47ff2ff6f5151081dd029a1df680377b88d58fc09d6629f3a2b2c3b78bab0f54",
+  "pages": 56,
+  "downloaded_this_turn": false,
+  "git_included": false,
+  "root_actual_visual_scope": "PDF4/5/6 related B/Q/w/model/orbifold and proper first paragraph; PDF20 Dx definition only; PDF21/22 R/phi/mu/majorant; PDF25 Eq7.6; PDF29 K/pairing; PDF30 Eq7.24/Th7.4 statements. Full relevant pages visually inspected, only named statements consumed.",
+  "root_text_scope": "pypdf related definitions inPDF4/5/6/20/21/22/29, stdout only; no new persisted fulltext extract.",
+  "not_consumed": "p-adic uniformization and cycle computations; external theorem proofs/sections9–11; no author-theorem transfer to Rgeom, no corrected K/Phi transport.",
+  "source_semantic_correction": "PDF4 B/Q plusPDF21 literalR makePDF22 majorant rank1 and phi notSchwartz; actualfullrank lattice divergence proved in project. Previous next literal-Schwartz consumption frozen with old original hashes preserved.",
+  "web_verification": {
+    "url": "https://www.math.toronto.edu/skudla/CDM.revised.pdf",
+    "method": "official-domain primary-source search and PDF open",
+    "pages": 56,
+    "scope": "same-title published definitions located; not new raw-byte download/SHA or revision-date verification"
+  },
+  "private_caches": [
+    {
+      "file": "literature/local/2026-10-27-joint-tower/ct-model-page-04.png",
+      "bytes": 177757,
+      "sha256": "c1ebba5b6003342ac1e2066a0ab8a09a1ebe9d26f510288eabef1723af71f190",
+      "git_included": false,
+      "kind": "private local PDF render"
+    },
+    {
+      "file": "literature/local/2026-10-27-joint-tower/ct-model-page-05.png",
+      "bytes": 185289,
+      "sha256": "d5e7de05083e28e42d0aee0d4cf41af1d438333f2ec6cc8cbb44465e2e159e26",
+      "git_included": false,
+      "kind": "private local PDF render"
+    },
+    {
+      "file": "literature/local/2026-10-27-joint-tower/ct-model-page-06.png",
+      "bytes": 215836,
+      "sha256": "9cd8e93abd05751a62c662774a667d7d14978a9acf91e0bc4c2c301ab24800f0",
+      "git_included": false,
+      "kind": "private local PDF render"
+    },
+    {
+      "file": "literature/local/2026-10-27-joint-tower/ct-geometry-page-20.png",
+      "bytes": 213219,
+      "sha256": "68b3a7d81b7d782114851be8c36bbc33034dffa8f4a28e3128889fb8733b1179",
+      "git_included": false,
+      "kind": "private local PDF render"
+    },
+    {
+      "file": "literature/local/2026-10-27-joint-tower/mb-next-definition-page21.png",
+      "bytes": 85680,
+      "sha256": "76fa0687998cbaf4f9b134838081dbfa0544d04fe8b36e13c53c0d681f21957d",
+      "git_included": false,
+      "kind": "private local PDF render"
+    },
+    {
+      "file": "literature/local/2026-10-27-joint-tower/mb-next-definition-page22.png",
+      "bytes": 111552,
+      "sha256": "b929c10486757aee8932ec91974653847e180bdd98ac7850b360d8f6bfb583bc",
+      "git_included": false,
+      "kind": "private local PDF render"
+    },
+    {
+      "file": "literature/local/2026-10-27-joint-tower/mb-next-definition-page29.png",
+      "bytes": 132007,
+      "sha256": "96951671e1d2be51cf8b20cb518e5aaf8c831f3bfd52d3c2047cdb5e5890099f",
+      "git_included": false,
+      "kind": "private local PDF render"
+    },
+    {
+      "file": "literature/local/2026-10-27-joint-tower/section8-ref-page25.png",
+      "bytes": 124118,
+      "sha256": "d48dcf89b5b4736665bd950be1a177653dfd1507a618904452dfabd8ab95e0d7",
+      "git_included": false,
+      "kind": "private local PDF render"
+    },
+    {
+      "file": "literature/local/2026-10-27-joint-tower/section8-ref-page30.png",
+      "bytes": 140387,
+      "sha256": "f992b74b0d71c3d1c73e59175a10e2e57f08ac3c4b2c5794be583761527ca16c",
+      "git_included": false,
+      "kind": "private local PDF render"
+    }
+  ],
+  "next_local_green_gate_executed": false
+}

@@ -11,7 +11,7 @@
 G20261027继承原0c4f基线和截至582的已知成果，持续研究同对象principal／Green与mixed RR、完整Weil正性及ζ/Ξ识别，不由旧成果重复验收。
 每轮保存并同步研究进度至本仓库，文献入[文献库](literature/README.md)，路线由[研究看板](RESEARCH_BRANCHES.md)跟踪；沿唯一计数每4–8完整数学轮做宏观审视，默认6轮。
 
-本次[固定Mellin–Bergman源检查](goals/reviews/2026-10-27-mellin-bergman-source-gate.md)已结清原范数费用及Pan同像门；mixed关系兼容时配对整体退化，按553强旧合成记0轮。下一仅核已定位classical theta无限analytic源的定义、零模和空间费用，不顺读后章或调参数；经典主瓶颈未改。
+本次[classical theta规范首门](goals/reviews/2026-10-27-classical-theta-literal-normalization-gate.md)发现原字面B/Q/R不能给Schwartz核，实际格点和失域；已冻结后续运输，0数学轮。前轮MB及独立Green资产保留，经典瓶颈未改。下一仅核明确修补版本的单x Green方程规范，不承袭完整theta或height身份。
 
 ## 研究问题
 

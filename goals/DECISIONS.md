@@ -1397,3 +1397,15 @@ root现已给唯一具体physical候选：fixed holomorphic S、Petersson基f_j�
 唯一下一是该actualformula的type/zero-mode/原费首门，先判全du还是只强源费，再扣553；不预数学合同。如果仅标准旧运输0止；若确有新完整无限源/费用信息，须先以actualinput/test/strongestold净后果准入，不用source0藏新结果。失域/全零/旧门覆盖即止，不调模型/weight/后章/引文。此门比重跑finite A或等待未知插值有可核的信息差：目标无限维且原smallv空间费用尚未知。可推翻选择的是独立正Dprime生成及完整signed误差、真tensor全阶pole或不同实际source/结构净比较；名称或对象非零不够。
 
 来源仅复用同56页PDF并追加定义定位，未下载新论文或读§9–11。正文及像素本地，版本/阅读/审查范围公开同步；原CCM与583closedbase语义冻结/限定消费保持。研究细节与版本绑定见reviews/2026-10-27/mellin-bergman-source/root-consumption-scope.json。
+
+## D20261027O — literal theta核失域即冻结；先核独立负平面/单x Green规范
+
+同G20261027/1793085111/0c4f。执行N给出的actualK/P0/Phi门，先从PDF4 B/Q/w及21/22 R/phi直接核式，发现literalR=a²+u²、Q=d²-a²-u²，majorant仅2d²，native项的Gaussian只沿d。root与三分支独立一致，actual任意fullrank3 L用covering-radius近kerd有单项趋负无穷；正部受正定Gaussian可和而负部无限。实搬运对每个z成立，不假设division格含split rational ray，也不改模型。rawK通常和失域，P0不能自动regularize，Phi及du/Dlog/强源/Hm/Dirichlet/全部零模/Pan均未定义未付；不能套553报当前mixed退化。
+
+冻结上一MBnext及summary/source-scope中接受literalSchwartz和后续K运输的消费，保旧hash并追加当前overlay。MB本身只用cusps/Gram/du/553不回滚；582/583独立Green、§8独立citedTheta及旧CCM/closedbase限定保持，不报整个算术theta理论失败。未来无限目标若另付globaldu费用，只给Pan像closure同一；mixed延拓需pairing连续和component closedbase，不能借finite exact像。
+
+本轮来源规范/标准格点反测0数学轮；原cadence2/历史48/cycle16不动，无C048/585。来源选择改变，但classic独立primitive/整过滤/sections/mixedRR、完整Γ/contact/properpowers/双pole、signedgrowth/actualq/core/coupling/Xi和whole4/5负惯性UPPER不变，长期Goal仍open。
+
+唯一下一有实际定义Rgeom=-B(pr_minus x,pr_minus x)=2Rprint，保持同V/Q/D/μ/ddc。只核单x xi=beta1(2piRgeom)的current方程、delta及多项式系数，未执行；这是明示不同版本的规范修补，不默改原件，不承袭Th7.4或完整K/Phi费用。它优于继续不存在的Phi费用/调ray/B/level或追下一paper，因为一个局部current反测即可判修补是否同源相容。失败即止，成功仅重闭局部版本，再按强旧判完整源是否值得准入；标准确认0，不用source0藏新完整运输。
+
+改策证据仍须独立正Dprime生成与完整signed缺陷、真tensor全阶pole、或不同实际primitive source/结构净比较；来源标题、非零对象和未知domination不够。本文不续§9–11/引文，原PDF/像素仍本地，读取/语义纠正/版本随本轮正常GitHub同步。细节及root版本见reviews/2026-10-27/classical-theta-analytic/root-consumption-scope.json。
