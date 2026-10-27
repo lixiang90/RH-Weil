@@ -10,11 +10,11 @@
 | actual低频core／coupling的joint signed比较 | b≤u a scalar包络已止，q0宽1/16未过 | actualv*/n/c2；合法exact-v trial/J/true-H residual充分上界；fixedq0lower≈0.00126005 | 实际Gv/tight b/a、五源T/E/cross及成长signed耦合 | 不调t/prime/Krylov或重跑c2；须新真实globalmixed/远尾费用才再准入，不据粗上界报方法不可能 |
 | S0／λ核／arch-only native Green旧recipe | 已按C045／582停止 | 完整局部作用、原费、全源Green可见性与已核反测均保留 | 原recipe全Pan仍非principal，fixed q7 coarse native primitive为零 | 不续word／orbit／level／height参数；新载体或新relative公式须先过上述首门 |
 | L_r(j)／Faber／II2,2 native Green完成化 | C046／583一轮已结算；本principal recipe停止 | 全S_exp系数与fixed窗原费、逐m原lift规范、global balanced L1/mass及cusp／Nk²全尾 | raw注入保Pan；标准连续principal类商连537也杀掉；未得独立primitive／mixedRR | 不续N/radius/j常数/level/同product-paper；新relative／higher或强拓扑修复，须先给input/test/net |
-| fixedmarked-cusp／harmonic-shadow源候选 | 只准一次ℓ11 functional构造/关系首门，无数学合同 | g11解析q乘积、583source系数及Cauchy强源fee；BY原II22零shadow门已止 | typedg11/ρ、全实际Pan及原537、Maass/lift/relativePic/Green尾与mixed身份 | 固定∞/0一腿cut；任一域内Pan非零即止，不换N/调cusp/造height；rank1合法泛函不代coverage或primitive |
+| fixedmarked-cusp／harmonic-shadow源候选 | C047／584一轮已结算，fixedsinglecusp/同B下降停止 | typedg11、全S_exp signedcut[0,1728]与actualPan全b公式/1728必要费；same537控制族可见 | 单∞不消Pan；B(Pan)=B(source)，同数据后处理全退化；actualMaass/primitiveRR未得 | 不造lift/height/换N/cusp/补偿；仅准finitecover whole-cusp orbittrace类比较，扣旧real-Laplace门，不预C048 |
 | 实际代数对应 → KK／relative比较 | CCM固定v2§6来源0已止 | typed KK／derived kernel、GRR／Todd有限修补；旧relative电荷保持 | 原字面ordinary-cycle6.11／principal下降不直接适用；没有physical有效算术lift／mixedRR | 两P1反测及m1 point腿保角色；不续§7／引用／下一paper，新input/test先扣强旧 |
 | 零点比例与无零区域优化 | 保持暂停 | 历史成果保原范围 | 不是当前Weil类比主责 | 仅用户新指令可恢复，不因文献可得或局部数字改善自动恢复 |
 
-当前路线理由见[cycle16](goals/reviews/2026-10-27-general-rh-macro-review-cycle-16.md)、[D20261027I](goals/DECISIONS.md)及[本轮结算](goals/reviews/2026-10-27-reader-budget-stop-and-marked-source-admission.md)。reader包络已actual止，trial/J已付但残差不足，classic瓶颈未变。下一只测[固定单尖点ℓ11源泛函](reviews/2026-10-27/after-reader/next-marked-cusp-functional-admission.md)；不同boundary map须重新核Pan/原537和强费用，尚不是算术lift，不自动数学合同/C047。0轮/cadence1保持，当前执行/发布以STATE为准；实际两版本文献保存与阅读范围见[文献库](literature/README.md)。
+当前路线理由见[cycle16](goals/reviews/2026-10-27-general-rh-macro-review-cycle-16.md)、[D20261027J](goals/DECISIONS.md)与[C047结算](goals/reviews/2026-10-27-marked-cusp-584-settlement.md)。584给实际signedcut/Pan定量费用，同B后非线性也不能修下降；classic瓶颈与whole4/5UPPER不变。统一一数学轮后cadence2/历史48，cycle16不重置。下一只做[finitecover cusp-orbit trace准入比较](reviews/2026-10-27/marked-cusp/next-finite-cover-trace-admission.md)，先审全型transport/强旧是否立即蕴含，不选择新level找正例、不预C048；Dprime/额外实际数据逃逸保持。阶段和发布见STATE，文献实际公式缓存/范围见[库索引](literature/README.md)。
 
 每个完整研究迭代完成后同步本轮研究及恢复记录到GitHub，并核远程commit与本地一致；失败须保留确切状态，不报成功。依 [唯一cadence](goals/review-cadence.json) 每4–8完整轮宏观审视、默认6，重大反例或连续来源停滞可提前；组织、下载、审查、推送和代理数量均不增加研究轮，也不重置周期。此前计数继续继承。
 

@@ -8,11 +8,11 @@
   "cadence": "goals/review-cadence.json",
   "decisions": "goals/DECISIONS.md",
   "latest_strategy": "goals/reviews/2026-10-27-general-rh-macro-review-cycle-16.md",
-  "latest_decision": "D20261027I",
+  "latest_decision": "D20261027J",
   "macro_frontier": "goals/MACRO_FRONTIER.md",
   "macro_summary": "goals/reviews/2026-10-27-general-rh-macro-review-cycle-16.md",
   "latest_macro_review": "goals/reviews/2026-10-27-general-rh-macro-review-cycle-16.md",
-  "latest_iteration": "notes/583-completed-modular-faber-source-and-native-green-transport.md",
+  "latest_iteration": "notes/584-marked-cusp-borel-kernel-and-pan-residue-collapse.md",
   "macro_control": {
     "schema": "macro-recovery-v2",
     "goal_epoch": "G20261027",
@@ -20,8 +20,8 @@
   },
   "macro": {
     "long_objective": "G20261027接续G20261014完整完成门/原0c4f基线，≤582为输入；持续寻经典同源Weil正性/有效性/RR或actualsigned新输入，付全源/成长/core及谱识别。",
-    "unpaid_bottleneck": "583已付all-source模Faber及fixed复粗曲面balanced Green/current/boundary全尾；raw注入不消Pan，标准连续principal闭商杀537。仍欠同一非零primitive物理源/整过滤/截面乘法/mixedRR及完整signedζ身份，actualq/core/coupling/Xi与whole4/5UPPER未变。",
-    "why_this_contract": "Reader b≤u a包络实际止，BY原II22 shadow目标零已止。新候选有显式g11 q乘积/原sourcecoeff及轮廓K：单∞边界ℓ11不同于fullpullback，可直接以实际Pan/原537否决；强源fee有Cauchy输入，不是unknownheight，尚不代Maass/relativePic或primitive。",
+    "unpaid_bottleneck": "584已给fixedℓ11全S_exp signedcut/端点费用及actualPan反例；同boundary数据Panimage扫满source像，尚无非零primitive物理源/整过滤/截面乘法/mixedRR与完整signedζ。actualq/core/coupling/Xi和whole4/5UPPER未改。",
+    "why_this_contract": "fixedℓ11已止。新Borel机制给actualfinite modularcover/holomorphicω/wholecuspmask的具体orbittrace比较，核width>1与complexL1后扣405compact-real旧门；不是换level找正例或unknownheight，先判断是否仅标准合成，不预C048。",
     "paused_routes": [
       "零点比例优化",
       "无零区域优化"
@@ -29,20 +29,21 @@
     "stopped_or_downgraded": [
       "549–578的精确停门、paid资产及合法逃逸见MACRO_FRONTIER/各root收据；不以旧商/正锥membership/未知余项改名复活；542+555→557仅whole4/5负惯性UPPER。",
       "579–582的实际源/非标量cycles/full-local强域/Green已付，但各principal、原域、coverage或fixedcoarse primitive门失败；停止原recipe，保不同relative/higher/强拓扑/有费无界/源适应修复。",
-      "10-27附件战略source0已止，无新经典J或容量；正Dprime逼近不需逐层405/ordinarytrace，须独立正序列/完整signed趋零。tensor须真对象与全阶pole。"
+      "10-27附件战略source0已止，无新经典J或容量；正Dprime逼近不需逐层405/ordinarytrace，须独立正序列/完整signed趋零。tensor须真对象与全阶pole。",
+      "584 fixedsinglecusp及仅依同B的postmap已止：Pan复倍数扫满全像；不造lift/height、不换N/cusp/补偿/paper。额外实际数据/不同source-map逃逸另准入。"
     ]
   },
   "primary_contract": {
-    "id": "C046",
-    "path": "goals/contracts/C046-completed-modular-faber-green-transport.md",
+    "id": "C047",
+    "path": "goals/contracts/C047-marked-cusp-borel-kernel-and-pan-gate.md",
     "status": "completed",
     "iteration_budget": 1,
     "settled_iterations": [
-      "notes/583-completed-modular-faber-source-and-native-green-transport.md"
+      "notes/584-marked-cusp-borel-kernel-and-pan-residue-collapse.md"
     ],
-    "stage": "预算止及BY来源类型门已root/fresh结算；source042e2b3正常push并GitHub独立GET ref/commit/tree核同本地。回执/STATE/checkpoint由metadata child保存；下一ell11关系门未执行，无G后台。",
-    "next_action": "只执行reviews/2026-10-27/after-reader/next-marked-cusp-functional-admission.md：固定g11/∞与0两cusp，复用583a_-m及Cauchy强费构造ℓ11=∫r CT(e^(u j)g11)du，核typedq数据/归一化后测405真实Pan平移与原537；逐Pan先核强域/运输，任一域内Pan非零即止singlecusp，不造P_m/Green/height、不换N。未有新全关系/尾实物不建C047，不恢复reader t/prime/Krylov。",
-    "stop_rule": "C046/583及reader scalar包络已止，不复用旧预算。唯一fixedsinglecusp functional门，若域/关系/原537/费用失败即止该source，不换N/cusp/补偿/paper；pass仅重新input/test/net准入，不代primitive/mixedRR。"
+    "stage": "C047/584 root/fresh最终限定结算；source控件/Borel全源/Pan1728费用已付，sameB任意消Pan后处理常值。统一一数学轮，当前源材料待GitHub同步；下一family准入门未执行。",
+    "next_action": "只执行reviews/2026-10-27/marked-cusp/next-finite-cover-trace-admission.md：actual finite-indexΓ的j-cover/holomorphicω/wholecuspmask，核完整cusp-monodromy orbit trace的width>1系数/∞衰减/端点complexL1与原费用，再扣405旧compact-real lemma。先判是否标准直接合成0审查，不预C048，不换N找正例；不推Dprime/未逐层Pan的family极限失败。",
+    "stop_rule": "C047一轮预算已用，fixedℓ11/sameB数据下降停止；下一仅class trace准入比较，若标准旧合成0止，不自动level/cusp/参数/paper，不以合法中间trace当coverage或primitive。"
   },
   "support_contracts": [],
   "must_not_forget": [
@@ -129,19 +130,34 @@
     },
     {
       "path": "reviews/2026-10-27/after-reader/next-marked-cusp-functional-admission.md",
+      "kind": "cited",
+      "scope": "C047已实际执行并成584，本singlecusp/同B source门耗用止，不按旧准入重跑或改N。"
+    },
+    {
+      "path": "notes/584-marked-cusp-borel-kernel-and-pan-residue-collapse.md",
+      "kind": "proved",
+      "scope": "root/fresh限定：signedL1cut/单值与1728actualPan全平移必要费，sameφcontrol与同B数据下降退化；非classic正性。"
+    },
+    {
+      "path": "reviews/2026-10-27/marked-cusp/root-consumption-scope.json",
+      "kind": "cited",
+      "scope": "584的对象/域norm/量词/全误差/方向/强旧净值及12绑定版本；math一轮，Goal仍open。"
+    },
+    {
+      "path": "reviews/2026-10-27/marked-cusp/next-finite-cover-trace-admission.md",
       "kind": "open",
-      "scope": "唯一新fixedboundaryfunctional的typed/fee及实际Pan/原537门，尚未执行，非height/lift/mathcontract。"
+      "scope": "唯一finitecover wholecusporbittrace类transport/强旧比较门，未执行，不预C048/所有curve边界。"
     }
   ],
   "pending_processes": [],
   "runtime_goal_observation": {
     "status": "active",
-    "observed_at_utc": "2026-10-27T11:42:24+00:00",
+    "observed_at_utc": "2026-10-27T12:30:33+00:00",
     "created_at_unix": 1793085111,
-    "basis": "结算现场get_goal同实例active；预算/root/fresh/BY指定源类型门均完成，ell11关系门尚未执行。"
+    "basis": "结算现场get_goal同实例active；C047主体/12绑定/root/fresh已最终消费，下一family准入尚未执行。"
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-10-27-reader-budget-stop-sync.json",
+  "checkpoint": "goals/checkpoints/2026-10-27-marked-cusp-584-source.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
     "commit": "042e2b3d0f0363d8bb8ed3243c6f1740222e1644",
@@ -154,15 +170,15 @@
     "goal_lf_sha256": "b3d2acb1f962d793f45d79b6a4e67fb87dd072cd4752108a9298204b4cefa1de",
     "mathematical_gate": "open",
     "final_execution_gate": "not-eligible",
-    "basis": "fixedtrial/J/粗真H误差已认证但q0宽门未过；新primitive/globalgrowthsigned未付，BY来源门只类型止，ell11尚未测关系，原Goal门open。"
+    "basis": "584只闭新source模型全Borel/Pan费用与停止，classic非零primitive/RR/全源成长signed及actualq/core/coupling仍未付；whole4/5UPPER不改，原Goal门open。"
   },
   "historical_completion_receipts": [
     "goals/goal-completion-receipt.20261014.json",
     "goals/goal-completion-receipt.20261014-continuation.json"
   ],
-  "process_inventory_observed_on": "budget/fresh数字重算/source审视/PDF保存目视均terminal，freshroot稿已消费；无G或ell11新门后台。",
+  "process_inventory_observed_on": "source代码/两稳定证明稿/fresh实际审查均terminal，scope纠正已root重闭；无旧reader或新family门后台。",
   "publication_approval_gate": {
-    "status": "current-source-published-and-independently-verified",
+    "status": "current584-root-closed-awaiting-normal-push-and-independent-verification",
     "destination": "https://github.com/lixiang90/RH-Weil",
     "visibility": "public",
     "branch": "main",
@@ -172,7 +188,7 @@
       "reply": "每轮把进度同步到github；把文献保存在文献库中，用研究看板来记录各个路线的状况",
       "scope": "本项目研究/Goal/STATE/看板/文献元数据/审查与同步回执；论文再分发许可不明则全文仅本地。"
     },
-    "current_scope": "本次19源路径正常main同步且ref/commit/tree独立核验；metadata child仅回执/STATE/checkpoint，0额外轮。两原PDF共102页仅本地，公开只来源/版本/字节SHA/阅读范围。",
+    "current_scope": "C047/584一数学轮及所有source/fresh/状态看板库/nextclassgate元数据；DLMF缓存仍本地，未新增外部PDF。",
     "published_source_commit": "042e2b3d0f0363d8bb8ed3243c6f1740222e1644",
     "verification": "reviews/2026-10-27/after-reader/remote-sync-verification.json"
   },
@@ -182,5 +198,9 @@
     "scope": "CCM§6.2 ordinary-cycle6.11／自动principal下降",
     "status": "raw-consumption-remains-frozen-limited-repair-root-closed",
     "basis": "两P1反测及m1 point腿经fresh/root核；仅保typed proper/smooth K-oriented或perfectkernel/derived/Todd明确修补；583不依本章、410–437既有relative资产保持。"
+  },
+  "source_control_correction": {
+    "status": "reclosed-common-control-and-sameB-image-scope",
+    "basis": "537为全窗无唯一sample；commonε2^-20同583φ族同时保旧a0/新ell，573χ未评。B(Pan)=B(source)已重闭，sameB后非线性不属逃逸；旧537/583未回滚。"
   }
 }

@@ -1,6 +1,6 @@
 # 长期研究恢复入口
 
-2026-10-27，[reader预算结算](reviews/2026-10-27-reader-budget-stop-and-marked-source-admission.md)已root/fresh限定闭合：合法非零exact-v trial／J／true-H residual上界已付，q0只到[0.001260053521478990,1]，宽门未过；b≤u a标量包络停止自动续算。BY指定来源门同原II22 shadow零目标/原finiteprincipal域已标准止，两版本PDF实际本地保存。下一仅[固定单尖点ℓ11源泛函](../reviews/2026-10-27/after-reader/next-marked-cusp-functional-admission.md)的typed构造／实际Pan与原537首门，不是Maass／relativePic或算术lift；不重复旧章、调t/prime/N。建设性/来源0轮，cadence1／历史47／cycle16保持，无C047/584，classic瓶颈未变。阶段/同Goal/发布以STATE为准。
+2026-10-27，[C047／584](reviews/2026-10-27-marked-cusp-584-settlement.md)已root/fresh限定结算：fixedℓ11的signedL1 cut[0,1728]、真实Pan全平移公式及正向C e^(1728b)/√b必要费闭合；同小φ控制族仍为537非根。单∞读出不消Pan，同两腿B的Pan像扫满源像，故只依赖同B的任何下降读出全像常值。本recipe一轮止，不造lift/height或调N/cusp；classic主瓶颈/whole4/5UPPER未改。统一一数学轮，cadence1→2／历史47→48，cycle16不重置。下一仅[finitecover cusp-orbit trace类准入比较](../reviews/2026-10-27/marked-cusp/next-finite-cover-trace-admission.md)，先扣旧compact-real lemma，不预C048、不重复ℓ11；阶段/同Goal/发布只看STATE。
 
 2026-10-27，[CCM§6](reviews/2026-10-27-ccm-geometric-correspondence-source-gate.md)指定章已root／fresh限定来源0止：原方向、推拉消去、ordinary-cycle/Kpush与principal下降须按两P1反测／m1 point腿限定；仅保typed derived／Todd修补，583及旧relative资产不回滚。无新算术源／mixedRR，cadence1／历史47／cycle16保持，不建C047/584、不续§7或下一paper。下一依本轮实际输入准入先扣强旧，当前执行与发布见STATE；旧“下一读CCM”已完成。
 

@@ -1,8 +1,10 @@
 # 宏观前沿：可消费范围与最小未付箭头
 
-2026-10-27，[一次reader预算](reviews/2026-10-27-reader-budget-stop-and-marked-source-admission.md)已root/fresh限定消费。same exact-v非零trial/J/true-H residual充分上界现已付，不沿用旧“没有trial/J”；新q0 lower≈0.00126005但宽仍≈0.99874。p2 lower仍输强旧a≥n²；res包络≈0.150414及free-a包络诊断都远超d/32。停止这个b≤u a scalar envelope自动t/prime/Chebyshev/Krylov，不据此报告actualres lower或方法不可能。classic全源/成长、whole4/5UPPER及primitiveRR主瓶颈未变，0数学轮、cadence1/历史47/cycle16保持。
+2026-10-27，[C047／584](reviews/2026-10-27-marked-cusp-584-settlement.md)已root/fresh限定消费。g11 typed/exact48Schreier及原费、same583小φ共同ε控制付清；新K属于真实signedL1[0,1728] Laplace类，selected∞width1 monodromy、subpoleendpoint与Cauchy方向逐项闭合，actualPan p_b全b公式给ℓ11(p_b)~C e^(1728b)/√b>0及原norm必要费。不是把旧a0正性偷运到带g符号核，也不是numericalb0。
 
-BY作者更正版指定§3/Th4.7来源域已定位：原II22/k0/trivialρ的S2(SL2Z)目标零；rawessential又出H_k有限主部域，原carrier recipe已标准止，general totalheight未消费。下一只准[fixedmarked-cusp ℓ11](../reviews/2026-10-27/after-reader/next-marked-cusp-functional-admission.md)构造/typed输入与全实际Pan/原537首门：g11明确q乘积、K=CT(e^(u j)g11)、Cauchy强源费用为实物；selected∞腿不同于全cusp pullback，principal关系必须重测。这个C值rank1泛函不等于实际Maass/ρ运输、relativePic、Green全尾或容量；任何域内Pan非零即止singlecusp，不自动换N或造height。原费用/未覆盖源明确保留。唯一动作/同步只看STATE；以下为历史。
+同cusp两腿B=(ell,−ell)，Pan复倍数已扫满B(S_exp)，任何仅依同B且消Pan/base不变的postmap（含非线性）都常值；同reader不能靠换商/非线性改名保537。停止fixedsinglecusp/lift/height/level/cusp/补偿/paper自动续造，保携带额外实际数据/不同source-map的relative/nonlinear/source-adaptive修复。compact-realmeasure annihilator为405+标准Laplace唯一性的强旧推论，不重计。新本体为K的全Borel/端点sharp费用；统一一数学轮cadence1→2/历史47→48，cycle16保持。经典primitiveRR、完整signedgrowth/core/coupling/Xi和whole4/5UPPER未改，Goal同实例active/open。
+
+下一只准[actualfinite modularcover/holomorphicω/wholecuspmask的orbittrace transport比较](../reviews/2026-10-27/marked-cusp/next-finite-cover-trace-admission.md)，核width>1与complexL1密度后先扣强旧；若只是标准合成0审查，不预C048/泛称所有curve不可能。Dprime中间层不必逐层消Pan，complex/unbounded/新数据及未逐层下降的family极限保持合法。实际行动/发布以STATE为准；以下为历史。
 
 2026-10-27，[CCM§6来源门](reviews/2026-10-27-ccm-geometric-correspondence-source-gate.md)两原稿／root／fresh限定闭合、来源0停止。原页有向KK/sheaf作用、pull-push identity及ordinary-cycle/Kpush的语义已校正，两P1有限反测与583同一m1 point腿限定消费。仅保明确typed derived／perfectkernel／Todd接口；无条件原6.11与自动principal下降仍冻结，非所有KK路线不可能。583不依此章，410–437既有非零relative电荷保持，不把comparison-fiber／idealK0／HH1／cone合并。
 

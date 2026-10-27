@@ -1,0 +1,771 @@
+{
+  "schema": "ell11-source-typed-controls-v1",
+  "scope": "One fixed q-analytic marked-cusp functional, typed eta-product and exact local/source-norm controls only; no Pan relation or arithmetic lift.",
+  "implementation_lf_sha256": "1e628c47378e2c789c45d2ca34684da13b2d7cae4604f0b33e744be3060b0f24",
+  "q_degree": 12,
+  "q_times_j_coefficients": [
+    1,
+    744,
+    196884,
+    21493760,
+    864299970,
+    20245856256,
+    333202640600,
+    4252023300096,
+    44656994071935,
+    401490886656000,
+    3176440229784420,
+    22567393309593600,
+    146211911499519294
+  ],
+  "g11_q_coefficients": [
+    0,
+    1,
+    -2,
+    -1,
+    2,
+    1,
+    2,
+    -2,
+    0,
+    -2,
+    -2,
+    1,
+    -2
+  ],
+  "K11_derivatives_at0": [
+    0,
+    1,
+    1486,
+    2246795,
+    3482858050,
+    5498946380951,
+    8798951375453834,
+    14221365350085011284,
+    23164637504378567935200,
+    37965714709436594543600215,
+    62537078219079043013599167586,
+    103440111876224278782368204635448,
+    171695665755355340737922004762046166
+  ],
+  "constant_kernel_derivatives_at0": [
+    1,
+    744,
+    947304,
+    1355202240,
+    2042124031080,
+    3169342733223744,
+    5013246606424410816,
+    8036056704954645582336,
+    13008589100166071977563240,
+    21217516123115628145439522880,
+    34814223673373739517987732202304,
+    57402242997850035106430864815719936,
+    95027388708579861507687528257148947136
+  ],
+  "eta_modularity": {
+    "coset_count": 12,
+    "representatives": [
+      [
+        1,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        -1,
+        1,
+        0
+      ],
+      [
+        0,
+        -1,
+        1,
+        1
+      ],
+      [
+        0,
+        -1,
+        1,
+        2
+      ],
+      [
+        0,
+        -1,
+        1,
+        3
+      ],
+      [
+        0,
+        -1,
+        1,
+        4
+      ],
+      [
+        0,
+        -1,
+        1,
+        5
+      ],
+      [
+        0,
+        -1,
+        1,
+        6
+      ],
+      [
+        0,
+        -1,
+        1,
+        7
+      ],
+      [
+        0,
+        -1,
+        1,
+        8
+      ],
+      [
+        0,
+        -1,
+        1,
+        9
+      ],
+      [
+        0,
+        -1,
+        1,
+        10
+      ]
+    ],
+    "Schreier_relations": [
+      {
+        "representative_index": 0,
+        "right_generator": "S",
+        "target_index": 1,
+        "Gamma0_matrix": [
+          1,
+          0,
+          0,
+          1
+        ],
+        "eta_product_phase_over_2pi": "0"
+      },
+      {
+        "representative_index": 0,
+        "right_generator": "T",
+        "target_index": 0,
+        "Gamma0_matrix": [
+          1,
+          1,
+          0,
+          1
+        ],
+        "eta_product_phase_over_2pi": "1"
+      },
+      {
+        "representative_index": 0,
+        "right_generator": "S_inverse",
+        "target_index": 1,
+        "Gamma0_matrix": [
+          1,
+          0,
+          0,
+          1
+        ],
+        "eta_product_phase_over_2pi": "0"
+      },
+      {
+        "representative_index": 0,
+        "right_generator": "T_inverse",
+        "target_index": 0,
+        "Gamma0_matrix": [
+          1,
+          -1,
+          0,
+          1
+        ],
+        "eta_product_phase_over_2pi": "-1"
+      },
+      {
+        "representative_index": 1,
+        "right_generator": "S",
+        "target_index": 0,
+        "Gamma0_matrix": [
+          1,
+          0,
+          0,
+          1
+        ],
+        "eta_product_phase_over_2pi": "0"
+      },
+      {
+        "representative_index": 1,
+        "right_generator": "T",
+        "target_index": 2,
+        "Gamma0_matrix": [
+          1,
+          0,
+          0,
+          1
+        ],
+        "eta_product_phase_over_2pi": "0"
+      },
+      {
+        "representative_index": 1,
+        "right_generator": "S_inverse",
+        "target_index": 0,
+        "Gamma0_matrix": [
+          1,
+          0,
+          0,
+          1
+        ],
+        "eta_product_phase_over_2pi": "0"
+      },
+      {
+        "representative_index": 1,
+        "right_generator": "T_inverse",
+        "target_index": 11,
+        "Gamma0_matrix": [
+          1,
+          0,
+          11,
+          1
+        ],
+        "eta_product_phase_over_2pi": "-1"
+      },
+      {
+        "representative_index": 2,
+        "right_generator": "S",
+        "target_index": 11,
+        "Gamma0_matrix": [
+          -10,
+          -1,
+          11,
+          1
+        ],
+        "eta_product_phase_over_2pi": "-2"
+      },
+      {
+        "representative_index": 2,
+        "right_generator": "T",
+        "target_index": 3,
+        "Gamma0_matrix": [
+          1,
+          0,
+          0,
+          1
+        ],
+        "eta_product_phase_over_2pi": "0"
+      },
+      {
+        "representative_index": 2,
+        "right_generator": "S_inverse",
+        "target_index": 11,
+        "Gamma0_matrix": [
+          -10,
+          -1,
+          11,
+          1
+        ],
+        "eta_product_phase_over_2pi": "-2"
+      },
+      {
+        "representative_index": 2,
+        "right_generator": "T_inverse",
+        "target_index": 1,
+        "Gamma0_matrix": [
+          1,
+          0,
+          0,
+          1
+        ],
+        "eta_product_phase_over_2pi": "0"
+      },
+      {
+        "representative_index": 3,
+        "right_generator": "S",
+        "target_index": 6,
+        "Gamma0_matrix": [
+          -5,
+          -1,
+          11,
+          2
+        ],
+        "eta_product_phase_over_2pi": "-1"
+      },
+      {
+        "representative_index": 3,
+        "right_generator": "T",
+        "target_index": 4,
+        "Gamma0_matrix": [
+          1,
+          0,
+          0,
+          1
+        ],
+        "eta_product_phase_over_2pi": "0"
+      },
+      {
+        "representative_index": 3,
+        "right_generator": "S_inverse",
+        "target_index": 6,
+        "Gamma0_matrix": [
+          -5,
+          -1,
+          11,
+          2
+        ],
+        "eta_product_phase_over_2pi": "-1"
+      },
+      {
+        "representative_index": 3,
+        "right_generator": "T_inverse",
+        "target_index": 2,
+        "Gamma0_matrix": [
+          1,
+          0,
+          0,
+          1
+        ],
+        "eta_product_phase_over_2pi": "0"
+      },
+      {
+        "representative_index": 4,
+        "right_generator": "S",
+        "target_index": 8,
+        "Gamma0_matrix": [
+          -7,
+          -1,
+          22,
+          3
+        ],
+        "eta_product_phase_over_2pi": "-1"
+      },
+      {
+        "representative_index": 4,
+        "right_generator": "T",
+        "target_index": 5,
+        "Gamma0_matrix": [
+          1,
+          0,
+          0,
+          1
+        ],
+        "eta_product_phase_over_2pi": "0"
+      },
+      {
+        "representative_index": 4,
+        "right_generator": "S_inverse",
+        "target_index": 8,
+        "Gamma0_matrix": [
+          -7,
+          -1,
+          22,
+          3
+        ],
+        "eta_product_phase_over_2pi": "-1"
+      },
+      {
+        "representative_index": 4,
+        "right_generator": "T_inverse",
+        "target_index": 3,
+        "Gamma0_matrix": [
+          1,
+          0,
+          0,
+          1
+        ],
+        "eta_product_phase_over_2pi": "0"
+      },
+      {
+        "representative_index": 5,
+        "right_generator": "S",
+        "target_index": 9,
+        "Gamma0_matrix": [
+          -8,
+          -1,
+          33,
+          4
+        ],
+        "eta_product_phase_over_2pi": "-1"
+      },
+      {
+        "representative_index": 5,
+        "right_generator": "T",
+        "target_index": 6,
+        "Gamma0_matrix": [
+          1,
+          0,
+          0,
+          1
+        ],
+        "eta_product_phase_over_2pi": "0"
+      },
+      {
+        "representative_index": 5,
+        "right_generator": "S_inverse",
+        "target_index": 9,
+        "Gamma0_matrix": [
+          -8,
+          -1,
+          33,
+          4
+        ],
+        "eta_product_phase_over_2pi": "-1"
+      },
+      {
+        "representative_index": 5,
+        "right_generator": "T_inverse",
+        "target_index": 4,
+        "Gamma0_matrix": [
+          1,
+          0,
+          0,
+          1
+        ],
+        "eta_product_phase_over_2pi": "0"
+      },
+      {
+        "representative_index": 6,
+        "right_generator": "S",
+        "target_index": 3,
+        "Gamma0_matrix": [
+          -2,
+          -1,
+          11,
+          5
+        ],
+        "eta_product_phase_over_2pi": "0"
+      },
+      {
+        "representative_index": 6,
+        "right_generator": "T",
+        "target_index": 7,
+        "Gamma0_matrix": [
+          1,
+          0,
+          0,
+          1
+        ],
+        "eta_product_phase_over_2pi": "0"
+      },
+      {
+        "representative_index": 6,
+        "right_generator": "S_inverse",
+        "target_index": 3,
+        "Gamma0_matrix": [
+          -2,
+          -1,
+          11,
+          5
+        ],
+        "eta_product_phase_over_2pi": "0"
+      },
+      {
+        "representative_index": 6,
+        "right_generator": "T_inverse",
+        "target_index": 5,
+        "Gamma0_matrix": [
+          1,
+          0,
+          0,
+          1
+        ],
+        "eta_product_phase_over_2pi": "0"
+      },
+      {
+        "representative_index": 7,
+        "right_generator": "S",
+        "target_index": 10,
+        "Gamma0_matrix": [
+          -9,
+          -1,
+          55,
+          6
+        ],
+        "eta_product_phase_over_2pi": "-1"
+      },
+      {
+        "representative_index": 7,
+        "right_generator": "T",
+        "target_index": 8,
+        "Gamma0_matrix": [
+          1,
+          0,
+          0,
+          1
+        ],
+        "eta_product_phase_over_2pi": "0"
+      },
+      {
+        "representative_index": 7,
+        "right_generator": "S_inverse",
+        "target_index": 10,
+        "Gamma0_matrix": [
+          -9,
+          -1,
+          55,
+          6
+        ],
+        "eta_product_phase_over_2pi": "-1"
+      },
+      {
+        "representative_index": 7,
+        "right_generator": "T_inverse",
+        "target_index": 6,
+        "Gamma0_matrix": [
+          1,
+          0,
+          0,
+          1
+        ],
+        "eta_product_phase_over_2pi": "0"
+      },
+      {
+        "representative_index": 8,
+        "right_generator": "S",
+        "target_index": 4,
+        "Gamma0_matrix": [
+          -3,
+          -1,
+          22,
+          7
+        ],
+        "eta_product_phase_over_2pi": "0"
+      },
+      {
+        "representative_index": 8,
+        "right_generator": "T",
+        "target_index": 9,
+        "Gamma0_matrix": [
+          1,
+          0,
+          0,
+          1
+        ],
+        "eta_product_phase_over_2pi": "0"
+      },
+      {
+        "representative_index": 8,
+        "right_generator": "S_inverse",
+        "target_index": 4,
+        "Gamma0_matrix": [
+          -3,
+          -1,
+          22,
+          7
+        ],
+        "eta_product_phase_over_2pi": "0"
+      },
+      {
+        "representative_index": 8,
+        "right_generator": "T_inverse",
+        "target_index": 7,
+        "Gamma0_matrix": [
+          1,
+          0,
+          0,
+          1
+        ],
+        "eta_product_phase_over_2pi": "0"
+      },
+      {
+        "representative_index": 9,
+        "right_generator": "S",
+        "target_index": 5,
+        "Gamma0_matrix": [
+          -4,
+          -1,
+          33,
+          8
+        ],
+        "eta_product_phase_over_2pi": "0"
+      },
+      {
+        "representative_index": 9,
+        "right_generator": "T",
+        "target_index": 10,
+        "Gamma0_matrix": [
+          1,
+          0,
+          0,
+          1
+        ],
+        "eta_product_phase_over_2pi": "0"
+      },
+      {
+        "representative_index": 9,
+        "right_generator": "S_inverse",
+        "target_index": 5,
+        "Gamma0_matrix": [
+          -4,
+          -1,
+          33,
+          8
+        ],
+        "eta_product_phase_over_2pi": "0"
+      },
+      {
+        "representative_index": 9,
+        "right_generator": "T_inverse",
+        "target_index": 8,
+        "Gamma0_matrix": [
+          1,
+          0,
+          0,
+          1
+        ],
+        "eta_product_phase_over_2pi": "0"
+      },
+      {
+        "representative_index": 10,
+        "right_generator": "S",
+        "target_index": 7,
+        "Gamma0_matrix": [
+          -6,
+          -1,
+          55,
+          9
+        ],
+        "eta_product_phase_over_2pi": "0"
+      },
+      {
+        "representative_index": 10,
+        "right_generator": "T",
+        "target_index": 11,
+        "Gamma0_matrix": [
+          1,
+          0,
+          0,
+          1
+        ],
+        "eta_product_phase_over_2pi": "0"
+      },
+      {
+        "representative_index": 10,
+        "right_generator": "S_inverse",
+        "target_index": 7,
+        "Gamma0_matrix": [
+          -6,
+          -1,
+          55,
+          9
+        ],
+        "eta_product_phase_over_2pi": "0"
+      },
+      {
+        "representative_index": 10,
+        "right_generator": "T_inverse",
+        "target_index": 9,
+        "Gamma0_matrix": [
+          1,
+          0,
+          0,
+          1
+        ],
+        "eta_product_phase_over_2pi": "0"
+      },
+      {
+        "representative_index": 11,
+        "right_generator": "S",
+        "target_index": 2,
+        "Gamma0_matrix": [
+          -1,
+          -1,
+          11,
+          10
+        ],
+        "eta_product_phase_over_2pi": "1"
+      },
+      {
+        "representative_index": 11,
+        "right_generator": "T",
+        "target_index": 1,
+        "Gamma0_matrix": [
+          -1,
+          0,
+          11,
+          -1
+        ],
+        "eta_product_phase_over_2pi": "0"
+      },
+      {
+        "representative_index": 11,
+        "right_generator": "S_inverse",
+        "target_index": 2,
+        "Gamma0_matrix": [
+          -1,
+          -1,
+          11,
+          10
+        ],
+        "eta_product_phase_over_2pi": "1"
+      },
+      {
+        "representative_index": 11,
+        "right_generator": "T_inverse",
+        "target_index": 10,
+        "Gamma0_matrix": [
+          1,
+          0,
+          0,
+          1
+        ],
+        "eta_product_phase_over_2pi": "0"
+      }
+    ],
+    "all_eta_product_multipliers_equal1": true
+  },
+  "cusp_orders": {
+    "infinity": 1,
+    "zero": 1,
+    "Fricke_W11_eigenvalue": -1,
+    "character": "trivial"
+  },
+  "contour_source_bounds": {
+    "s": "1/1024",
+    "R": "1/512",
+    "j_s_upper": "3749100079634469163634838409641795718800366592/1884024876289927119406247416201782574292631",
+    "j_R_upper": "70710663304036833161953393002375097056230912/40306925933881268025443862918058947137023",
+    "g_R_upper": "633825300114114700748351602687/323248422332953432353476349261312",
+    "series_ratio": "1/2",
+    "series_functional_multiplier": "633825300114114700748351602687/323248422332953432353476349261312",
+    "p_A_definition": "integral |r(u)| exp(A |u|)du, as in583",
+    "direct_contour_bound": "|K11^(k)(u)|<=g_R_upper*j_R_upper^k*exp(j_R_upper*|u|)",
+    "fixed_source_du_bound": "|ell11(r)|<=g_R_upper*sqrt(2L)*exp(j_R_upper*L)*||r||L2 for supp r subset[-L,L]",
+    "Dlog_bound": "multiply the du bound by(log2)^(-1/2), using the original zero-extension Dlog norm"
+  },
+  "common_small_537_control_family": {
+    "epsilon_upper": "1/1048576",
+    "family": "r_phi=(D^2-1/4)(u phi), phi>=0 nonzero even smooth compact supported in(-epsilon,epsilon)",
+    "original_record": "reviews/2026-10-27/cusp-transport/principal-relations-and-nonroot-test.md(15)--(17)",
+    "H_prime_at0": "8987179/4",
+    "H_prime_variation_upper": "473160432363620802123751912269596480177735491112004705870291749073871974316314670493050138957550351008703228746442879754563851899957473363391545069269618633345309354763119992738074230672089694595585/26670245098661914824873082822319416701455172816093513444226430541686541687770234501479232788525757780188998510785703850039305068347427550125572062139141721210536978518756533856008831007680989164",
+    "old_V_prime_at0": "1355202054",
+    "old_V_prime_variation_upper": "48828088046450191826952217632763656469928713078568378647648944451373160999110070026260132893604094198813027864106743771250030531251880314383553909758691555027342468467392640/5396615330163798688538912095484905668988180063028273560951911748878915746833138129294339579362430588980045466113346172634838073376062005297859609303686358811507863551",
+    "both_positive_for_common_epsilon": true,
+    "consequence": "For every phi in this common sufficiently-small subfamily, the same actual source has ell11(r_phi)>0, olda0(r_phi)>0, doublepolezero and Qzeta(r_phi)>0 by537.",
+    "not_claimed": "No unique old numerical waveform was fixed by537 or583. The separate573 even-chi source has not been evaluated."
+  },
+  "not_claimed": [
+    "All Pan annihilation",
+    "Pan counterexample",
+    "Actual harmonic Maass source/lift",
+    "Weil-rho transport",
+    "Petersson/xi normalization",
+    "Relative Picard/arithmetic Green or mixedRR",
+    "All-source coverage or RH positivity"
+  ],
+  "display_only": {
+    "j_s_upper": 1989.9419199906206,
+    "j_R_upper": 1754.3055359773477,
+    "g_R_upper": 0.0019607993614931237,
+    "H_prime0": 2246794.75,
+    "H_prime_variation": 17741.135509375577,
+    "old_V_prime0": 1355202054.0,
+    "old_V_prime_variation": 9047909.672851957
+  }
+}

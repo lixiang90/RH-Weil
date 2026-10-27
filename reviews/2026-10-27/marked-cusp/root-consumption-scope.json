@@ -1,0 +1,76 @@
+{
+  "schema": "rh-weil-marked-cusp-584-root-consumption-v1",
+  "status": "root-consumed-limited-new-marked-borel-pan-fee-one-math-round",
+  "goal": "goals/GOAL.20261027.md",
+  "runtime_goal_created_at": 1793085111,
+  "baseline_commit": "0c4f3a3eb609bb1d9564138fa4a35701f05605f2",
+  "contract": "goals/contracts/C047-marked-cusp-borel-kernel-and-pan-gate.md",
+  "root_note": "notes/584-marked-cusp-borel-kernel-and-pan-residue-collapse.md",
+  "settlement": "goals/reviews/2026-10-27-marked-cusp-584-settlement.md",
+  "normalized_lf_sha256": {
+    "notes/584-marked-cusp-borel-kernel-and-pan-residue-collapse.md": "63a2a438666cc859d543503715a16bb7c58c2de80e0a5bd8a22e2a36997c96a0",
+    "goals/reviews/2026-10-27-marked-cusp-584-settlement.md": "4d2a7bda90a7275f77b8e309892b9140cda0ec38b96183134485b81c3e5af08f",
+    "reviews/2026-10-27/marked-cusp/next-finite-cover-trace-admission.md": "c2363abf8a080164cc06f6804df844bab881e0e8b6aa2651494e270cc7f1d40a",
+    "goals/contracts/C047-marked-cusp-borel-kernel-and-pan-gate.md": "902922f06c652aa37d495c6453b21e121e224a69beda704016bb8e3c2325bff4",
+    "scripts/ell11_source_controls.py": "1e628c47378e2c789c45d2ca34684da13b2d7cae4604f0b33e744be3060b0f24",
+    "reviews/2026-10-27/marked-cusp/source-controls.json": "8d8495f4aad1b5f6be4a02b27b958a82391e7cf96291b1479306d74679406cf1",
+    "reviews/2026-10-27/marked-cusp/source-kernel-and-typed-controls.md": "2f539af310fdef071a019c6942d9e7cc5b44fd09496eb643af07143be650ff0d",
+    "reviews/2026-10-27/marked-cusp/pan-relation-test.md": "6a68cf1bfd7861cabb80dd0bdd41e09756293e9071ef870a2ff1715463874367",
+    "reviews/2026-10-27/marked-cusp/eta-source-read-record.json": "b4bb9ac297499482fbacb76abb46d479da0eaf67b03fdf1a382ea2343b4831a5",
+    "notes/405-f1-adelic-restriction-moments-and-radical.md": "fe5ee4b574954e51a69c6bbbaa772bb75a1a510c91c837ba02eed8ac406cbb7d",
+    "notes/579-kry-physical-gaussian-source-and-native-primitive-obstruction.md": "1b4506e2a1dfd311b7816e17622b45ee257295c6716822cfc424b0e93ef306f1",
+    "reviews/2026-10-27/cusp-transport/principal-relations-and-nonroot-test.md": "9b61e33b5a7a6df9f7d0a59c23cbfa9ad2a842c248273a74357ad6591096eea7"
+  },
+  "object_norm_domain_roles": {
+    "physical": "ALLcomplex r=e^(u/2)f inS_exp with all sup exp(N|u|)|D^kr| finite; fixedcompact originaldu/Dlog separate",
+    "geometric": "FixedX0(11),cusps∞/0, g11=eta²eta(11tau)² typedS2trivialchar; omega=g dq/q holomorphic/nozeros; j-map degree12 with finitebranch0/1728, width1/11",
+    "source": "ell(r)=CT(F_r g)=sum a_-m(r)c_g(m)=integral rK; selected∞local residue, complexlinear, rank1, not originalWeilrho/Maass/shadow/Pic/arithmeticclass",
+    "Borel": "h=omega/dj selected∞width1 branch, h~−z^-2; analyticCminus[0,1728] by monodromy fixing selectedsheet, NOT by simpleconnectivity",
+    "jump": "nu=(hplus−hminus)/(2pi i)=Imhplus/pi real signedL1; h=−int nu/(z−t), K=int exp(tu)nu; q->j orientation reverses, no endpointatoms",
+    "boundary": "fullresidue image=(ell,−ell); one nonzeroPan plus allcomplex multiples gives B(Pan)=B(S_exp)=C(1,−1). Fixedlinear quotient killingonePan killsall; anysame-data postmap sendingallPan tobase is constant onsourceimage. Not broadrelative/Maass impossibility",
+    "norm": "Dlog²=(2pi)^−1 int log(2+|t|)|rhat|²; >=log2du². Hlog has extra1, not exactsame norm"
+  },
+  "quantifiers_and_paid_errors": {
+    "source": "AllS_exp, fixeds<R absoluteCauchy coefficient/contour/interchange; actual rational s1/1024,R1/512 fees. Not globaluniformdu",
+    "typed": "Actual48Schreier phases and exactq/source-control JSON executed/replayed. Eta officialproduct/transform and all-r Dedekind sum onlyexternalinput; no unreviewedetaquotientcriterion",
+    "branch": "cutcomplement pi1=Z, entirecutmonodromy=∞ fixeswidth1sheet; finitebranchramification3/2 yields subpole2/3,1/2 and L1jump; Schwarzreflection; A=g(qi)/(2qi sqrt(jqq(qi)/2))>0",
+    "Pan": "Original405 actualeta/Poisson H>0,S_exp, p=(D²−1/4)H nonzero radical; all fixedtranslations remainstrongdomain. M_H(t)=xi(t+.5)/2>0real fromH, noRH",
+    "all_b_formula": "ell(p_b)=int_[0,a] exp(bt)(t²−1/4)M_H(t)nu(t)dt for everyrealb, a1728; allnoncompact source tails paid by compactt/Fubini/IBP",
+    "growth": "ell(p_b)~A/sqrtpi*(a²−1/4)M_H(a)*exp(ab)/sqrtb>0 for all sufficientlylarge positiveb; strictthreshold inequality given, no numericb0 evaluated",
+    "kernel_growth": "K^(k)(u)~A a^k exp(au)/(sqrtpi sqrtu) fixedk; truepositivetype1728 not reverseCauchyupper; normtranslationinvariant =>necessarylackofglobaluniformdu/Dlog",
+    "error_scope": "Analytic exactidentity/endpoint O(1),Laplace O(1/b)vsleading1/sqrtb, leftoverL1 exponentiallysmall. No float/sourcegrid usedasPanproof"
+  },
+  "control_correction": {
+    "old": "537isallcomplexfixed17/16theorem, no unique numericwaveform. 583control is small-evenphi family;573fixedchi is separate andunevaluated",
+    "reclosed": "Sameeveryphi in583family, epsilon<=2^-20 actualrationalvariationcertificate. Kjets0..3=0,1,1486,2246795, V11prime0=8987179/4; olda0 andnewell bothpositive, Qzeta>0 anddoublepolezero",
+    "freeze_resolution": "Onlyunexecutedunique-sample wording corrected; old537/583assets unchanged; no pretend573evaluation"
+  },
+  "strongest_old_and_net": {
+    "old_direct_lemma": "405Hpositive + standardcompactLaplaceuniqueness: fixedfinitecomplexmeasurecompactreal reader annihilatingall p_b has measure supported±.5, so doublepolezero reads0; L1type zero. This is notnewmath or sourceadaptive/complex/unbounded classification",
+    "not_sufficient_before": "583rawinjection doesnotgive sign/nonannihilation forselectedscalar;553Hilbertboundeddoor not applicabletoexponentialstrongfeekernel",
+    "new_net": "NewactualsignedBorelidentity forK11 and quantified1728 Pan/necessarynormgrowth; confirms sourcekeepnonroot but relationfails. Standardtyped/Cauchy/rank/supportlemma andtwoleglinearalgebra notextra rounds",
+    "classic": "542+555->557 wholeleading4/5 negative-inertiaUPPER unchanged; completeGamma/contact/properpowers/doublepoles, allcomplex originaldu/Dlog, actualq/core/coupling/Xi andprimitiveRR remainunpaid",
+    "actual_classical_bottleneck_changed": false
+  },
+  "settlement_count": {
+    "planned_mathematical_round_increment": 1,
+    "reason": "C047actualnewallsource Borel+quantitativeactualPan/feeinformation, not source0; onlyrootfinalconsumptionsettlescadenceonce",
+    "cadence": "goals/review-cadence.json",
+    "formal_cycle": "unchanged16",
+    "long_goal": "sameactive, mathematicalgateopen; notcomplete/blocked"
+  },
+  "stop": "Fixedsinglecusp andsamefullboundary-data readers stop; nolevel/cusp/compensation/P_m/height/paperautomaticcontinuation. Nonlinear/source-adaptive repair needs extraactualdata or differentsource-map; sameB postcomposition cannotescape. Differentactualrelative/nonlocal/complex/unbounded inputs and Dprimeintermediates remainlegal under actualscope",
+  "next_admission": {
+    "path": "reviews/2026-10-27/marked-cusp/next-finite-cover-trace-admission.md",
+    "input": "actualfinite modularcover pi/holomorphicomega/fixedwholecuspmask source-residueformula; orbittrace whenwidth>1",
+    "test": "Verifytrace singlevaluedsubpole-L1typeand normalizedcoeffs/sourcefee, then deductoldcompactreal lemma; noarbitrarysheetmask/extra meromorphicpole free",
+    "net_gate": "FirstdecideifonlyC047plusstandardtraceimmediatecorollary: then0standardreview,noC048. Any genuinelynewfullclassboundaryrequiresactualcontract/netscope. PreserveDprime/unbounded/sourceadaptiveescape"
+  },
+  "fresh_review": {
+    "path": "reviews/2026-10-27/marked-cusp/fresh-audit.md",
+    "status": "limited-PASS-root-read-and-consumed",
+    "normalized_lf_sha256": "94aac6224e1d4e9b509eac9890070408873245d4d96914bdefc624ebc5942558",
+    "audited_root_draft_lf_sha256": "1d387f28346666d9e08ede21b448e1931648e07894336e035a3f6605ce3cc23e",
+    "basis": "Finalaudit9 read exact12bindings and actualroot/nextscope, including sameB arbitrarypostmap correction; onlyreceiptstatus/freshmetadata changed after review."
+  }
+}

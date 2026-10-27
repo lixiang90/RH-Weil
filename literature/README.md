@@ -1,5 +1,7 @@
 # RH-Weil 文献索引
 
+2026-10-27，[C047／584](../notes/584-marked-cusp-borel-kernel-and-pan-residue-collapse.md)新增eta官方四式核读与normalized本地缓存；[来源/归属范围](supplements/2026-10-27-ell11-source-scope.md)明确DLMF只支撑eta输入，项目新证明是signedcut/Pan定量费用。无新PDF/整章proof审计，既存BY原件不重下载。actualsource/strongold/原norm/同B下降失败范围见root前件；数学统一一轮，不能将formula阅读或Schreier运行再计轮。
+
 2026-10-27，[reader预算与来源类型结算](../goals/reviews/2026-10-27-reader-budget-stop-and-marked-source-admission.md)保存Bruinier–Yang两份原始PDF共102页：arXivv1与作者更正版分别SHA/页数核验，全文仅本地忽略。[回执](supplements/2026-10-27-by-cm-source-download.json)和[阅读范围](supplements/2026-10-27-by-cm-source-scope.md)区分版本、root目视p1/19/25–26、statement定位和未审整体证明；不消费一般totalheight或classicWeil身份。同原carrier shadow门已标准止，下一marked-cusp候选只是源泛函关系门。
 
 2026-10-27，[固定c2实际求值](../reviews/2026-10-27/tf-reader-execution/fixed-c2-execution.md)复用已库DLMF四式；[消费范围](supplements/2026-10-27-c2-execution-source-scope.md)区分本地normalized缓存重读、项目half-integer parity/余项推导和新外部原件审查。本次无新PDF/TeX/论文检索，旧缓存字节/SHA保持本地。c2实际通过不支付fullG/q0/T/E或独立经典正性，建设性0数学轮。
