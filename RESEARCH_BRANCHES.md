@@ -2,14 +2,14 @@
 
 2026-10-27，按用户明确要求继续研究并启动 [Goal G20261027](goals/GOAL.20261027.md)。新运行 Goal 继承 G20261014 的长期目标、0c4f 冻结基线及截至582的已付成果；旧结果作为输入，不重新计作本Goal的新增结果。运行 Goal 已实测 active；启动首门 A20261027 已实际执行 Borcherds §13 来源准入，最终消费阶段、唯一当前动作和 pending 只读 [STATE](goals/STATE.json)。本看板不另设计轮器，也不把局部合同完成视为长期Goal完成。
 
-2026-10-28，[正式cycle17](goals/reviews/2026-10-28-general-rh-macro-review-cycle-17.md)已两支持/fresh/root完成，原4→0一次/历史50/latest586保持，0新数学。四轮局部后果未改whole4/5UPPER或关键正号/primitive门。执行优先转实际双源公式/系数形成，唯一下一T_B互素加法数据+全v_p，目前无formula/input/新合同；不再默认先造PSD谱/Gram再补完整身份。
+2026-10-28，[单一互素加法规则前置核账](goals/reviews/2026-10-28-coprime-additive-source-gate-stop.md)已两支持/fresh/root强旧0止。原式真实形成，globalH1极限按405/553/537旧身份门排除；有限ratio与未证极限非零不作反证。boundedcorrection另带无界腿仍需独立identity，未被泛排。cadence0/历史50/latest586/formal17保持，无新input/C050/587/后继proof或source章节；继续自主新同源实物形成，关键门未改。
 
 | 路线 | 当前地位 | 可消费输入 | 仍欠的核心箭头 | 准入／停止标准 |
 |---|---|---|---|---|
 | 同对象 relative principal／Green → 截面乘法 → mixed RR | 长期主责；无新几何proof，执行先实际mixed公式形成 | 567真实RR→Hodge机制；579–582实际源／strong域／Green；537明确非根 | 同一非零primitive载体上的实际物理源公式、全关系的principal／Green边界、整过滤与同对象mixed身份 | 先核405全关系及平移、537与全源非根、原du／Dlog和全部尾；无实物不续C045或预建未知合同；保relative／higher／有费无界修复 |
 | 独立正分布 → 完整经典Weil分布 | 条件备选；C049/586谱规则已止，需新完整signed身份 | 577/578真Γ正层/原费/完整gR；Nakamura概率近邻已准确入库 | actualq_R或独立正Dprime完整signed消失仍欠；曲率正性不付横向权／完整身份 | 不续Nakamura§2/引文或第三批query；真独立输入可改策，保逐source/Dprime范围 |
 | 固定theta基态半线Dirichlet正谱 | C049/586一轮新反测，预算耗尽 | 全n原势/准确域/strictcount、热Γ缺陷、共同crop及fixedcompact平方差 | 不给完整Wζ身份、全局signed/corecross或primitive容量 | 不改sector/x/H幂/±/常数/cofinalcutoff或补偿拟合；不同实物另准，不泛排confining类 |
-| 互素加法三元组＋全赋值 → 双源公式 | 唯一下一输入形成；尚未执行/无math准入 | 仅有限有序T_B及v_p(a,b,c)原始数据，不是已有新input | 当前无公式、原source/range/费用及完整Γpp-pole共同身份 | 至多一规则，先扣旧Farey/fiber/ratio/μ系数；仅重编码/未知预算即止，不授C050/587或重开优化/来源 |
+| 互素加法三元组＋log-linear赋值 → mixed规则 | 已实际形成，强旧前置0止 | finiteB du/Dlog费；cofinal全局H1型norm界与q1/corner完整fiber | 本身作完整reader被旧Pan密度排；另有无界腿的correction仍无同源identity/净预算 | 不改γ/c^-2/中心化/cutoff或添Γ拟合；不从finite atoms/ζ常数/未证非零作反证，不泛排其他additive机制 |
 | tensor／Deligne放大 | 条件备选；未有经典实际全族 | 567 tensor与pole机制核查；Deligne I §3 | 非平凡local tensor对象、目标谱身份与全阶global pole控制 | 低阶Euler／Γ／grading检查只作准入；普通测度乘积或ζ幂不足；合并净误差须受控，不把分项次线性当必要 |
 | actual低频core／coupling的joint signed比较 | 无新独立净差输入，条件备选 | 560全型/实际逆及安全high；585必要成长费/fixedr K/t→1 | 独立净号/成长全源cross；fixed t−K恰为常数早已付，非新O1门 | 不续fixedfraction桥/旧scalar包络/高频；真实新joint输入可改策，EX同步二维首测仅保建议 |
 | S0／λ核／arch-only native Green旧recipe | 已按C045／582停止 | 完整局部作用、原费、全源Green可见性与已核反测均保留 | 原recipe全Pan仍非principal，fixed q7 coarse native primitive为零 | 不续word／orbit／level／height参数；新载体或新relative公式须先过上述首门 |

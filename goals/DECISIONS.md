@@ -1643,3 +1643,15 @@ root另提出固定整个Sonin Mb⊂M1的实际fullgap候选：原H0共同b*>1�
 唯一下一只一次输入构造：固定有序T_B={a+b=c<=B,gcd(a,b)=1}和全v_p坐标，尝试至多一份finiteB双源signed/mixed公式。当前无该formula、独立input或C050/587预算。必须先写源/range/系数/原费再做finitefiber/coefficient或fixed源检查，扣036/080–096/549–550/578和Farey/ratio/μ旧重编码；只读c/旧ζ比/μ*log=Λ/未知Γ或净预算即0止，不调参数再造。旧系数去重不恢复暂停比例或zero-free。未来新实物再准，不预要求完成RH；现在的数据/意图不是新candidate。
 
 正式复盘没有移除关键瓶颈，也无第2门严格弱化前件+非空实际范围+量化净后果的合并证据，未覆盖第3门实质核心方法类的合法修复；Goal同实例active/open/noteligible。文献只项目已消费范围，无新外部原件/PDF/数值，库/看板/STATE/检查点及原件正常main同步后核远端。数学与组织/推送分开，复盘不complete/blocked长期Goal。
+
+## D20261028S — 互素加法actual公式前置强旧0止，保limit与补正角色
+
+同G20261027/1793085111/原0c4f。执行formal17唯一数据构造后，已一次写出C_B=Σc>=2 c^-2 E_c((logc+logx+log1−x)J_x)，J_x为两个平移差的Hermitian signedcross，不是PSD或primitive。两独占支持/fresh/root逐式闭合：finite-B全complexdu/Dlog费、H1端点/AC/BV、含R1=−∫的Möbius-grid、同productcutoff/logd及剔dq1后的+∫ellJ。筛腿cofinal化ζ2/ζ′2常数但ordinarygrid仍有整数内容，不能只凭两个constants或finite ratio判断classic。
+
+真正强旧链是globalH1型norm收敛：假compact平方趋Qζ→Hermitian极化→共同crop按H1与Sexp延到真实C(Pan)→405完整Weil根→553§2明确已付H1 cyclic密度→第一腿全零，冲突537。不是从L2密度升级，不要求每个finite B消Pan、不裁关系或用compact交零，不用finite atoms偷判Dprime。旧552的log高频也不能凭H1界直接套。cofinalC∞是否非零不需消费，原coeff3f70…未经见证的宽读在root消费前已冻结，由b308…限缩，未追加test。
+
+故按标准/强旧前置0消费此一固定γ/c^-2/中心化/cutoff规则，不建C050/587、不改指数权或添Γ拟合/paper续造。没有新独立mixed/signed/core输入；这不是新的核心完整方法类边界。若只把C∞作某个另含无界Γ/pole/其他腿的correction，不能把单件H1界套到未知总型；这项角色仍可能合法，但本次未给实际同源身份/净预算，不能失败后自动变第二候选。
+
+formal17 cadence0/历史50/latest586原LF ddb2aa4a…保持，不重复复盘/归零。全局关键signed/corecross/primitive mixed/Xi与whole4/5UPPER未改，585/safehigh/586保持。当前没有已形成继任公式/可执行proof或source章节；下一继续自主形成真正新同源mixed/relative实物并先给input/test/net，特别核total的globalfiniteSobolev责任与额外无界腿的真实coupling，合法中间件不是coverage。无新实物不预建合同/重跑本门或等用户许可，亦不因困难/0止complete或blocked长期Goal。
+
+本次实际formula与审查是可核执行，非计划重述；数学0的理由是上述具体更强旧后果。无外部新论文/PDF/数值，文献实际阅读、看板/STATE/checkpoint随原件正常main同步并独立核源与metadata当前HEAD。

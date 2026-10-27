@@ -1,0 +1,76 @@
+{
+  "schema": "rh-weil-root-consumption-scope-v1",
+  "client_date": "2026-10-28",
+  "root_consumed_at_utc": "2026-10-27T23:40:18.866217+00:00",
+  "status": "root-fresh-limited-closed-pre-admission-strongest-old-zero",
+  "goal": "goals/GOAL.20261027.md",
+  "runtime_goal_created_at": 1793085111,
+  "baseline_commit": "0c4f3a3eb609bb1d9564138fa4a35701f05605f2",
+  "decision": "D20261028S",
+  "review": "goals/reviews/2026-10-28-coprime-additive-source-gate-stop.md",
+  "executed_scope": "OneactualfiniteB two-sourceformula fromformal17 selectedcoprimeadditivedata, fixedgamma/c^-2/empirical-uniformcentering once. Twocurrentraws/fresh/rootchecked. Notnewmathcontract orsecondcandidate. Noexternalresearchweb/PDF/numerics.",
+  "object_domain_roles": {
+    "raw_data": "Ordered a+b=c<=B,gcd(a,b)=1 withallthreeprimevaluations. Gamma_T=sum(vpa+vpb-vpc)logp=log(ab/c) isexplicitlog-linearcontraction, notfullvaluationtensor. x=a/c andordinarygrid retainintegerarithmetic.",
+    "sources": "r=e^(u/2)f,s=e^(u/2)g fullcomplexphysical u anddu. T_a unitarysource translations. J_x=Hermitiansignedcross ofTlogx-I andTlog(1-x)-I; noPSD/primitivecycle assumed.",
+    "output": "C_B scalar sesquilinear form, finiteB L2boundedselfadjointrepresentation possible. CofinalH1form notunconditionallyanL2operator/Sexpoutput. CenteringLebesguecomparison notWGamma/FPcontact/pole."
+  },
+  "paid_definition_norm_errors": {
+    "finite_B": "|Jx|<=4||r||2||s||2; finiteBC_B<=8sum phi(c)(1+logc)c^-2 du product =O(log²B), Dlogtwolegs /log2. NoBuniformduclaim.",
+    "endpoint": "H1 originalphysicalderivative: Jx=O(min(x,1-x)), |Jprime|<=4||r||H1||s||H1; Gc endpoints0/AC/BV,TV<= (4logc+12)H1products. NotL2endpointstatement orDloguniform.",
+    "grid_and_tail": "R_q(F)=sum internalgrid-q integral, F1=0 pays|Rq|<=TV inclq1. Ec=Mobius sum divisor R, hence|EcGc|<=tau(c)(4logc+12)H1products; uniformglobalH1formnorm/cofinalabsoluteconvergence withtail O((1+logB)^2/B). StrongSexpinputviaexplicitp_N,0/p_N,1; no moving/growthwindowWeilclaim.",
+    "old_scope": "080incidence/085primitivefrequency andordinarygrid facilities standard; old085h/rFourierfrequency notidenticalcurrenta/c logsourceparameter. No inheritingoldParsevalpositivity orNymancriticalleakage estimate."
+  },
+  "coefficient_fiber_closure": {
+    "fourshift": "j_x=delta0+1/2[delta±(A-B)-delta±A-delta±B], A=logx,B=log(1-x). Midpointx1/2 addsratio0contact, candidatecontact notclassicGamma. Allsigns/orderpointmultiplicity retained.",
+    "finite_ratio_test": "B3 atom±log3/2=log3/2 /9; B5 addslog6/5 /25. Finitebookkeepingonly, notlimitRadon/atomnonzero/Dprimecounterproof.",
+    "exact_fiber": "Ec(F)=sum_d|c mu(d)R_c/d(F), R1=-integralF. Gc staysc-dependent. Productcutoff2<=dq<=B, log(dq)=logd+logq allretained.",
+    "cofinal": "A0=sum q^-2 Rq(J); A1=sumq^-2[(logq)RqJ+Rq(ellJ)]; Cinf=A1/zeta2+zetaprime2 A0/zeta2²+integralellJ. Pluszetaprime sign (zetaprime itselfnegative), corner(d,q)1 excluded ->plusintegralellJ. Doubleabsoluteconvergenceactuallypaidbynormraw.",
+    "limits_of_representation": "Onlycoprimesieve/logd rolecollapses to2Eulerconstants; ordinarygridfunctionalsstillnontrivialdependallr/s/integergrids. Do notinferclassicfailureorwholeCinf fromtwonumbers alone."
+  },
+  "strongest_old_fullreader_chain": {
+    "hypothesis": "IfallcompactcomplexsquaresC_B->Qzeta (orclaimedDprimecompleteWidentity), H1formnormlimitCinfandHermitianpolarizationgivecompactmixedidentity.",
+    "transport": "Commoncompactcrop onr/s Sexp convergesbothH1andSexp. Cinf H1continuous, fullBzeta Sexpcontinuous by405/fullGamma pp bothpoles, soequalityextends toactualnoncompactSexp. Croppedrelations notdeclaredPan; firstBlimitfixedcompactthenRlimitfixedglobal.",
+    "radical": "Pphys=Cphysical(P_an), Cphysical:f->exp(u/2)f. Old405fullWeilradical givesBzeta(p,s)=0 fortruephysicalPan/translates andfixedSexp s. No bare/physicalswap, no kerJ=Pan assumption.",
+    "density": "553section2 explicitlypayscycliccomplexphysicalPan span denseineveryfixedfiniteSobolev,inparticularH1, notfromL2densityupgrade. Fixeds scalarfunctionalCinf(.,s) H1continuous ->allzero ->537nonzero compactpositivewindowcontradiction. ScalarCtargetclosed, no unprovedPSD/energyquotient assumption.",
+    "consequence": "Completefullreaderidentity alreadyruledbystrongeroldscope. Not requiringeachfiniteBPan; notfiniteatoms, not552loghighfreqfromH1bound. Do notneedCinfnonzero.",
+    "component_role": "IfCinfonlyaboundedH1signedcorrectiontoanotherunboundedGamma/pole/otherleg expression, cannotapplycomponentnormboundtounknowntotal. Suchrolelegallyopenbutno actualsameobjectidentity/netbudgetgiven, noautomaticsecondcandidate/addbackground."
+  },
+  "semantic_scope_correction": {
+    "old_reviewed_coeff_bytes": 10817,
+    "old_reviewed_coeff_lf_sha256": "3f70efb0d4dd5deb1222be4e412548a5baa2f0211e7f45447917cc7c2945bfd4",
+    "frozen_reading": "UnpaidCinfnonzeroassertionnotrootconsumed; finiteatomnotproof. Revisedb308narrowedheaderandappendedrecord, nonewtest. Mainnorm/fiber/limitfailurechainindependentofwhetheractualCinfzero."
+  },
+  "classification_net_and_stop": "Actualformulaandgateexecuted, butstandarddefinition/BV/incidenceandold553fullreaderresponsibilityalreadydecidewholeidentitynet. Pre-admission0, noC050/587, notnewcoremethodclassboundary orhiddennewmathbecauseelementary/noRH. Stopfixedgamma/c^-2/centering/cutoff/compensation/paper; notalladditive/nonlocal/relative/signedcorrection classes. Globalmixed/core/Xiandwhole4/5UPPERunchanged,585necessaryfee/safehigh/586retained.",
+  "next_action": "Autonomouslyformgenuinelynewactualsame-source mixed/relativeorcoupledinput withdomain/range,targetroles/fees andconcreteinput-test-net beforemathadmission. CheckglobalfiniteSobolevtotalreader orrealcouplingofadditionalunboundedlegs; legalintermediateobjectnotcoverage. No currentsuccessorformula/proof/sourcechapter, no oldparameter/queryrestart orhardhumanpermissionwait.",
+  "cadence_lf_sha256_unchanged": "ddb2aa4a96e6de050602302659b21e0debcd1bb0fbcd7e0719e416c52c81a111",
+  "cadence_scope": "0/history50/cycle17/latestmath586 exactunchanged; no newround/reset/formalreview. C049remainsspent.",
+  "reviewed_candidate_before_status_links": {
+    "bytes": 4988,
+    "lf_sha256": "d9ad2d01d5aba206293c2c19477e1c900a6783e7db1756b7dc23cabe994b0cc2",
+    "finalchange": "Onlyrootconsumedstatus/links appended, mathematicalrule/frozenparametersnotchanged."
+  },
+  "goal_gate": "same runtimeactive/open/noteligible; noRH/keyinput/combinedpremiseweakening/coremethodclasscoverage. Difficulty/0stop/pushnotGoalcompleteorblocked.",
+  "source_read_scope": "Rootreadcandidate/tworaws/fresh and553/405necessaryoriginalsections/537scope; 080/081/085definitions,036/549/578responsibility excerpts. Notentire080-096proofchain/externalcitations reverified. Libraryscopeaccurate, no newexternalfulltext.",
+  "binding_count": 19,
+  "normalized_lf_sha256": {
+    "goals/GOAL.20261027.md": "b3d2acb1f962d793f45d79b6a4e67fb87dd072cd4752108a9298204b4cefa1de",
+    "goals/RESEARCH_WORKFLOW.md": "567b238a62872505f9b29688cf4320fafb7f20b67a650c6cd7711ad56ddf95c1",
+    "goals/reviews/2026-10-28-general-rh-macro-review-cycle-17.md": "fccbe767ea32be14951df7400fd9cd6aaeae58d5f7cc4f561279b26fe9aa66c9",
+    "goals/contracts/C049-theta-ground-state-full-gamma-heat-gate.md": "1dac22d411f87547f18aab805d1000e6f0d2c967d20384e64bc1c05ffa3b4c88",
+    "notes/036-max-kernel-prime-square.md": "3a7f691437b4a6219867b615766c9ef50231cadd6ef92a3a0a10bf988987c946",
+    "notes/080-divisibility-incidence-green-hodge.md": "d0e5fd6956f95d462116a84ece12e323c1ebedf3fcbb45e74a27c00125f3f249",
+    "notes/081-mellin-division-nyman-beurling-hodge.md": "9674636567be2e3be6d8ece3dbb76557fd139482a66b92a1401454f2b2def5da",
+    "notes/085-farey-boundary-large-sieve-hodge.md": "45361f30709c934039c6a996ef037fb827e3d79e6556ede61258d3ec95da0bf9",
+    "notes/405-f1-adelic-restriction-moments-and-radical.md": "fe5ee4b574954e51a69c6bbbaa772bb75a1a510c91c837ba02eed8ac406cbb7d",
+    "notes/537-source-exact-weil-window-positive-tail-admission.md": "269a500556d37fc04a4e44efd2f0899414787743e529506dbbe7395a34eea9f8",
+    "notes/553-principal-cyclic-closure-and-cofinal-readout-fees.md": "35a40c35d1eaa7fafb462361ddef1bfb9643402b5670f832b9142aeb4b74abce",
+    "notes/549-mobius-window-norm-full-cofactor-gram-and-physical-synthesis-gap.md": "3c887d0366db52ed191918df234626af41054b31d1c0e35f66a25aa7c96b9041",
+    "notes/578-prime-pole-signed-budget-and-selberg-control-gap.md": "d600adfc0fa857623f585af2ec809840296659b737afbcf5cb745eba740e0901",
+    "goals/reviews/2026-10-28-coprime-additive-source-gate-stop.md": "5d6066c3bce04cc7baffd3991c8170fc285d926182689a36f5701476ea0faeb1",
+    "literature/supplements/2026-10-28-coprime-additive-input-scope.md": "18701d40cb69a1f9be119defc169eded93c5bad48c3e6feba363574bc1eccd7f",
+    "reviews/2026-10-28/coprime-additive-input/actual-two-source-candidate.md": "cb9cce66d17dfbef0004ff870b289488253612bd1f095eaddc9fa0b9ba21aad6",
+    "reviews/2026-10-28/coprime-additive-input/source-norm-and-farey-factorization.md": "2639c943906396e5ca05972b6dd7d258b060e5bca4b4cd934bcd6af8387dab7b",
+    "reviews/2026-10-28/coprime-additive-input/coefficient-fiber-and-old-net.md": "b3088d51d578bec892b63ceea6f823cbd584b3fb0450051103979bed0ce9f3ba",
+    "reviews/2026-10-28/coprime-additive-input/fresh-input-gate-audit.md": "19bc7fcd9d1433693052bb0b8d6fa4db103996b745003ba6b0cdebbb4760a2aa"
+  }
+}

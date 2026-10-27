@@ -1,8 +1,8 @@
 # 宏观前沿：可消费范围与最小未付箭头
 
-2026-10-28，[正式cycle17宏观复盘](reviews/2026-10-28-general-rh-macro-review-cycle-17.md)已两支持/fresh/root限定消费，0新数学；原四完整583–586后单cadence4→0一次，历史50/latestmath586与Goal基线保持。四轮真增量未移除关键signed/corecross/primitive mixed/Xi，whole4/5仍仅负惯性UPPER；585fixed净差常数本已付，586只止固定谱规则。执行优先转同对象mixed身份/早期系数，唯一下一是T_B互素加法三元组+全赋值上的一份双源公式形成；当前无formula/input/C050/587，不造PSD/paper/旧参数队列。Goalactive/open，当前执行只读STATE，下方均历史入口。
+2026-10-28，[互素加法双源前置核账](reviews/2026-10-28-coprime-additive-source-gate-stop.md)已实际形成单一C_B并两支持/fresh/root强旧0止：q1/corner/ζ′符号与globalH1型norm极限闭合，假完整compact身份经共同crop→405真实Pan根→553明确H1稠密→全零，冲突537。不是逐层Pan、有限ratio原子或ζ2常数反证；不消费C∞非零。仅作补正且另有无界Γ/pole的总型角色保未付。停止本γ/c^-2/中心化/cutoff，不造C050/587/新source或改参数。cadence0/历史50/latest586与formal17保持，关键门/whole4/5UPPER未改；Goalactive。当前无继任公式/proof/章节，继续自主新同源mixed实物形成，执行只读STATE，下方历史。
 
-最强可消费后果不变：542+555→557 wholeleading4/5 UPPER；560 exactQ=t−K+pole，585付每fixed源t/K同阶必要增长而非净号；586付固定theta谱完整Γ热缺陷及compact平方反测。583/584付全源完成化/全尾与actualPan费用，但583类商仅closedbase collapse、强Pan闭包另算，没有同一非零primitive mixed桥。当前缺独立共同身份，不缺另一个正载体。T_B与valuations只是原始数据选择，不是已有公式/新input；先构造再exactfiber/系数去重，不能把计划重述为数学进展。actualjoint净signed或非零primitive新relative/mixed实物出现即改策，合法Dprime/强拓扑/源适应逃逸未整体排除。
+本次最短消费链：固定J_x端点/导数→G_c AC/BV→含q1 Möbius-grid→globalH1绝对cofinal界→假compact平方完整身份→极化/共同H1与Sexp crop→405全Weil真实关系根→553每fixed有限Sobolev密度→537矛盾。总型读出与另有无界腿的有界correction分开，普通grid仍含整数算术；旧085的Fourier h/r不与本x=a/c混同。新增公式本身不是新独立signed/primitive输入，实际whole后果由强旧已决定，0不藏新完整核心反测。最强542+555→557 whole4/5仅UPPER，585 fixed净差常数早付/必要增长及586固定谱范围保持；全局mixed/core/Xi未付，不把局部停止拼Goal门。
 
 2026-10-28，[一次原命题定位](reviews/2026-10-28-independent-source-discovery-stop.md)已两支持/fresh/root限定来源0止：固定3query一批/12聚合visible，唯一Zenodo记录页只议程与条件，无已读actual公式locator；未读PDF不判不存在，无续查询/章/paper。另有root[原创全z运输公式准入](../reviews/2026-10-28/independent-source-discovery/next-original-framed-holonomy-admission.md)及低阶草稿，唯一下一先闭原对象/norm/frames/最强旧并分类，未数学消费/未准C049。cadence3/历史49/cycle16原字节保持，实际瓶颈/whole4/5UPPER未改，Goal门open。
 
