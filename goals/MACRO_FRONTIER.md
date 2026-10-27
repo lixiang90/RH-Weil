@@ -1,5 +1,9 @@
 # 宏观前沿：可消费范围与最小未付箭头
 
+2026-10-28，[固定未平均Pet覆盖塔首门](reviews/2026-10-28-cofinal-petersson-local-norm-gate.md)已两稿/root/fresh限定闭合：实际Γ/halfweight/共同disk与Riesz总evaluation付level统一compactdu费；旧552全Γlog高频在先选fixedR后n∞给严格不消失缺陷，止此family。PSD Gram不冒单变量正分布，不逐层强加Pan，保volume/发散权/非局部等未排实物修复。标准强旧0，cadence2／历史48／cycle16不动，无C048/585，classic瓶颈/whole4/5UPPER未改。下一仅[连续来源投入的因果战略复核](../reviews/2026-10-28/cofinal-petersson/next-causal-strategy-review.md)，未执行，不作cycle17/归零或再续局部模型；同Goal/阶段/同步见STATE。
+
+当前须分清两个已付门：globaldu连续fixed桥的全Pan-root退化，和当前cofinal Gram的compactlevel统一du费对完整Γ高频反测；二者均不排有费无界/源适应/非逐层Pan正Dprime。local设施/规范原费已付款，欠的是同一非零primitive物理桥与mixed身份，或独立完整signed/core新输入。连续标准0后先复核因果选择，不再用正模型或未知预算标签续轮；以下旧“Pet未执行”为历史。
+
 2026-10-28，[rawmean/joint首门](reviews/2026-10-28-raw-theta-mean-joint-gate.md)已两稿/root/fresh限定闭合：mean恰为Mellin±3/4加L²reader；actualPan双leading和归一化给C×L²图稠密，joint Hm/C∞闭包同一，连续mixed拉回全零，非exact像。标准强旧0止fixed rawrecipe，cadence2／历史48／cycle16不动，无C048/585，classic主瓶颈/whole4/5UPPER未改。literal/整体theta身份冻结；下一仅[固定未平均Pet覆盖塔localnorm准入](../reviews/2026-10-27/raw-theta-mean/next-cofinal-petersson-local-norm-admission.md)，公式已冻，证明未执行；不逐层强加Pan，先扣旧552高频。文献/看板入库；同Goal/准确阶段/同步见STATE。
 
 当前最短链：已付scalarGaussian/Poisson→T全du费用；mean精确双Mellin+bounded余项→actualPan归一化→joint图闭包→连续mixed退化。原du失败不是escape，source强域也不等于新classic正号。唯一下一改用独立正逼近量词，固定principal塔和未平均Pet规范，先核局部level统一费；552全Γ高频是已付对照。任何新volume/发散权/非局部/source适应修复须另实物准入，不扩大当前否定范围。以下旧“raw未执行”等为各原日期历史。

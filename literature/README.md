@@ -1,5 +1,7 @@
 # RH-Weil 文献索引
 
+2026-10-28，[固定未平均Pet覆盖塔](../goals/reviews/2026-10-28-cofinal-petersson-local-norm-gate.md)由项目实际Γ位移/holomorphic均值/Riesz和旧552完整Γ高频直接核闭，标准0数学轮。[来源范围](supplements/2026-10-28-cofinal-petersson-source-scope.md)明确无外部PDF/网页/原proof新读、下载或渲染，不增重复文献条目；原Kudla身份背景沿旧记录，root覆盖塔公式不归作者。下一因果战略复核未执行，不预新paper，literal/整体Theta冻结保持。
+
 2026-10-28，[raw theta均值/joint结算](../goals/reviews/2026-10-28-raw-theta-mean-joint-gate.md)由项目exact Mellin分解、405/553及标准图闭包直接核闭，0数学轮。[来源/未审范围](supplements/2026-10-28-raw-theta-mean-source-scope.md)明确本轮无外部PDF页/网页/原proof新读或下载，原作者PDF身份保持本地；不虚增文献条目。下一明确未平均Pet覆盖塔仅公式准入，localevaluation证明未执行；literal与整体Theta/7.4继续冻结。
 
 2026-10-27，[明确K_g源/原费](../goals/reviews/2026-10-27-corrected-theta-source-and-pan-gate.md)由项目直接Gaussian/Fourier/Poisson、compact图及553核闭，标准0轮。[来源/未审范围](supplements/2026-10-27-corrected-theta-source-scope.md)记录root/fresh重目视PDF5真实period/F∞，无新下载/网页/原proof审计。只独立scalar源/费用重闭，literal及整体theta/7.4冻结；下一rawmean/joint test未执行，原PDF/像素本地。
