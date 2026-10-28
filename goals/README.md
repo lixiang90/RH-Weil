@@ -1,5 +1,7 @@
 # 长期研究恢复入口
 
+2026-10-28，[simplepole旧覆盖闭合](reviews/2026-10-28-simple-pole-old-classification-closure.md)已两独占稿/fresh/root核闭：正M单位、横坐标1/A正、完整移线±A与全部Gaussian、μ_A/A及{1}质量给A=1/N整数/Z=ζ，Pi及仅givenP恢复。更强直接正N无需Euler/freegeneration；实际ζ非空基例及旧增长定位已核。只是旧合成0，停止明示simplepole/Γ/FE/strip域的model selection，未给Weil正号/core净费，whole4/5UPPER未改。cadence0/历史50/latest586/formal17不动，无C050/587。下一仅因果投入审视，未执行/非formal18，无新candidate/proof/章节；Goalactive。
+
 2026-10-28，[精确Γ signed替换一次定位](reviews/2026-10-28-signed-replacement-primary-locator-stop.md)已固定3query/16聚合visible、唯一Watkinsv0.5原页及两咨询/fresh/root来源0止。Ma恰旧561且违反unitgap；旧正连续乘积反测只付同Γ/doublepole，非原经典simple双pole。原页第一桥按位置宽读冻结，不泛判加强版/整页；HTML125665b/d12ce1df仅ignoredlocal实存，库有版本/范围。无C050/587/math，cadence0/历史50/latest586/formal17保持，core/whole4/5UPPER未改。下一只明示simplepole/±A/strip衰减的旧覆盖比较，尚未执行，不续query/章/paper；Goalactive。
 
 2026-10-28，[Euler修改强旧准入](reviews/2026-10-28-euler-modification-old-consequence-gate.md)已两独立咨询/当前fresh/root限定核闭：Möbius双源精确旧重编码；有限rational(s)及任意正Euler增量按405＋测度唯一性/Landau旧链0止，primitive全repeats子类仅entire已排。两类不能合并一般正Π，signed删减/重排/joint仍欠。无新C050/587或math，cadence0/历史50/latest586/formal17原字节保持；whole4/5UPPER与核心瓶颈未改。唯一下一为一次固定三query精确Γ的signed替换原命题locator，尚未执行，没合格locator即止；Goalactive。

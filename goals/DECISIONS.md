@@ -1699,3 +1699,15 @@ Ma与旧561例子逐项同规范，a!=1即min(a,1/a)<1正质量使unitgap失败�
 本来源/强旧0止，不准C050/587，无math计轮；cadence原ddb2aa...保持0/history50/latest586/formal17，核心/whole4/5UPPER未改。停止本query/原页/spacing/coset/boundederror/Hamburger后章，不串另一paper。唯一下一是reviews/2026-10-28/signed-replacement-source-location/next-simple-pole-old-classification-admission.md具体旧覆盖比较，尚未执行：正Π真实M、原simplepole±A与明示strip exp衰减，先付Mellin/residue/μ_A，再看561是否已校准A/分类。它可决定该增长域是否还有model-selection价值，先扣旧且不准新math；拟theta/A>0/A=1当前皆未消费，范围外/joint/Dprime保留。
 
 按每轮授权同步研究原件、根绑定/来源SHA/库/看板/STATE/checkpoint，HTML全文继续本地。源与metadata实际HEAD分别独立核，Goal同实例active/open/noteligible，不能以来源/纠错/推送完成长期门。
+
+## D20261028X — Simple-pole旧链已分类到正N，停止同域model selection
+
+同G20261027/runtime1793085111/原0c4f。唯一next旧覆盖实际执行，两独占稿/最新root/fresh按同M/N/A/c重闭，16原件绑定：加权exp给M单位1、正Laplace边界给α_M=1/A实正；Gamma inverse s2w核2/π/ds与绝对Fubini，原uniform strip exp界给完整矩形尾，留数At^-1/2与−A给全fixedt校正theta。μ_A/A进入旧561，之后才以x1单位质量校准A=1/N普通整数/Z=ζ。原Pi及仅另given正P全repeats时唯一读回，全部properpowers保留。
+
+最强旧覆盖比正Pi更宽：直接正N支持[1∞)、N{1}=1、有一个Mellinweight和相同Gamma/FE/实际simplepoles/strip界就足够，不需Eulerproduct、Pi正或freegeneration。经典ζσ0=3/2,c2与旧EM/Stirling记录给非空实际基例，无新web/增长定理/数值C/N。所给exp strip前件不从finiteorder/FE免费推出，Watkins按pole位置的宽读继续冻结，仅本明示simplepole/质量分支重闭。
+
+按强旧完整合成0，不准C050/587/新数学轮；cadence原LF ddb2aa...保持0/history50/latest586/formal17。停止本明示域的nonclassicalmodel search、UD/coset/A设施或为造模型先弱化growth/pole背景。不同growth/pole/Γ、onlylimitFE/entire和joint/Dprime不被泛排，也不因未排自动有效。
+
+识别ζ没有移除独立乘法Weil正性、primitive/mixed、危险core/coupling或Ξ的关键瓶颈，whole4/5UPPER保持，Goal仍active/open/noteligible。下一只reviews/2026-10-28/simple-pole-old-coverage/next-post-classification-investment-review.md因果投入审视，未执行/非formal18，不归零counter，不预建新candidate/proof/章节；比较同对象relative/higher mixed与不逐层Pan的独立正Dprime/jointsigned实物，先真正input/test/net。
+
+库仅记录旧阅读/归属，不重复新增全文条目；看板/前沿/STATE/根绑定/checkpoint与源/metadata正常main同步各自核验。分类、审稿和推送不完成长期Goal。

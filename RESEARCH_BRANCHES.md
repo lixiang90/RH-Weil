@@ -1,5 +1,7 @@
 # 研究分支看板
 
+2026-10-28，[simplepole旧覆盖闭合](goals/reviews/2026-10-28-simple-pole-old-classification-closure.md)已两独占稿/fresh/root核闭：正M单位、横坐标1/A正、完整移线±A与全部Gaussian、μ_A/A及{1}质量给A=1/N整数/Z=ζ，Pi及仅givenP恢复。更强直接正N无需Euler/freegeneration；实际ζ非空基例及旧增长定位已核。只是旧合成0，停止明示simplepole/Γ/FE/strip域的model selection，未给Weil正号/core净费，whole4/5UPPER未改。cadence0/历史50/latest586/formal17不动，无C050/587。下一仅因果投入审视，未执行/非formal18，无新candidate/proof/章节；Goalactive。
+
 2026-10-28，[精确Γ signed替换一次定位](goals/reviews/2026-10-28-signed-replacement-primary-locator-stop.md)已固定3query/16聚合visible、唯一Watkinsv0.5原页及两咨询/fresh/root来源0止。Ma恰旧561且违反unitgap；旧正连续乘积反测只付同Γ/doublepole，非原经典simple双pole。原页第一桥按位置宽读冻结，不泛判加强版/整页；HTML125665b/d12ce1df仅ignoredlocal实存，库有版本/范围。无C050/587/math，cadence0/历史50/latest586/formal17保持，core/whole4/5UPPER未改。下一只明示simplepole/±A/strip衰减的旧覆盖比较，尚未执行，不续query/章/paper；Goalactive。
 
 2026-10-28，[Euler修改强旧准入](goals/reviews/2026-10-28-euler-modification-old-consequence-gate.md)已两独立咨询/当前fresh/root限定核闭：Möbius双源精确旧重编码；有限rational(s)及任意正Euler增量按405＋测度唯一性/Landau旧链0止，primitive全repeats子类仅entire已排。两类不能合并一般正Π，signed删减/重排/joint仍欠。无新C050/587或math，cadence0/历史50/latest586/formal17原字节保持；whole4/5UPPER与核心瓶颈未改。唯一下一为一次固定三query精确Γ的signed替换原命题locator，尚未执行，没合格locator即止；Goalactive。
@@ -14,6 +16,7 @@
 
 | 路线 | 当前地位 | 可消费输入 | 仍欠的核心箭头 | 准入／停止标准 |
 |---|---|---|---|---|
+| 明示simplepole/Γ/FE/strip的正N分类 | 更强旧应用0闭合，停止本域model selection | M单位/α=1/A正、真实Mellin与±A/全尾；μ_A/A＋561＋{1}质量A1/N整数 | 识别ζ仍不付独立乘法Weil号、primitive/mixed或core净费 | 不续UD/coset/A设施/弱化增长造模型；下一因果投入审视，域外/onlylimitDprime/joint保留 |
 | 精确Γ signed替换primary定位 | 固定三query/一原页来源0止，预算耗尽 | Watkinsv0.5实际HTML、Ma同旧561/gap与Gaussian强旧、doublepole连续反测 | 无actualsigned负部生成或完整mixed；完整simplepole/留数/增长桥未消费 | 不续spacing/coset/boundederror/章/query；下一仅明示±A和strip界的旧覆盖比较，不把分类当Weil正性 |
 | 精确经典Γ下的Euler修改 | 强旧应用0止finiteF/monotone增量；非一般类失败 | 405实ξ>0、加权测度唯一性、正Borel边界；任意正Δ及primitive全repeats精确范围 | 一般正Π的signed删减/重排、actual经典mixed/完整signed仍未付 | 不续finiteF量化或正增量设施；下一只固定三query一次实际locator，无合格即止，不泛排joint/relative/Dprime |
 | Suzuki Θω/causal Hankel → canonical系统 | 1204v2§2来源0止；非方法全类失败 | 原PDF/乘法域及固定安全ω cited系统；边界与因果原条件、det级数 | 小ω因果/inner/非退化、a∞端点及完整physical双源运输没有新独立输入 | 不先续HS/临界紧致性/后章proof/另paper；真实新算术估计或完整signed输入才准，正Dprime不逐层强加Pan |

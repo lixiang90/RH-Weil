@@ -1,0 +1,106 @@
+{
+  "schema": "rh-weil-root-premise-closure-v1",
+  "client_date": "2026-10-28",
+  "status": "root-consumed-simplepole-old-classification0-fresh-limited-pass",
+  "goal": "goals/GOAL.20261027.md",
+  "runtime_goal_created_at": 1793085111,
+  "baseline_commit": "0c4f3a3eb609bb1d9564138fa4a35701f05605f2",
+  "root_consumed_at_utc": "2026-10-28T02:46:14.811619+00:00",
+  "object_domain_range": "PositivePi on(0,infinity) with one exponential moment -> actual M=expPi -> x=exp(u) positive N on[1,infinity), unitN{1}=1 -> mu_A=A delta0+N+reflectedN. Stronger directpositiveN statement only needs one Mellin weight and unit/support, not Pi/Euler/free generation. No physical/principal/quotient role inferred.",
+  "original_growth_quantifiers": "Actual Lambda=pi^(-s/2)Gamma(s/2)Z germ meromorphicglobally with FE and actual simple poles only0/1, residues-A,A; one fixedc>max(sigma0,1), C,N0,T0,eta>0 uniform onALLrealpart[1-c,c] andALL|tau|>=T0:poly*exp(-eta|tau|). Not inferred from finiteorder orpositivePi. ALLfixedt>0 exacttransport; no moving-source uniformnorm.",
+  "paid_dependencies": "Old561 weighted exponential/Gaussian-Hermite/positive unitgap; old063/261/283 positiveBorel Laplace boundary. Actual Gaussian inverse derives Gamma via Schwartz Fourier, then absolute Fubini and complete rectangular contour under givenstrip. OldHL provides transport-role background only, not a silently broadened measure theorem.",
+  "actual_coefficients_errors": "M{0}=1. alpha_M=1 and A>0 independentof theta. Gamma s=2w yields Theta_N=(1/2pii)integral Lambda(s)t^(-s/2)ds. Horizontalbound (2c-1)C Kt(1+T)^N0exp(-etaT), verticaltails integrable; residues At^(-1/2),-A. Corrected theta gives mu_A/A Gaussian/unitgap; compareN{1}=1 onlyafteroldclassification toforceA=1.",
+  "consumable_consequences": [
+    "A=1, N=ordinaryintegercount, M=logintegermeasure, Z=zeta in givenclass. Strongestcoveredclassis directpositiveN withunit/support/Mellinweight andsamecompletion/growth, evenwithoutEulerpositivity.",
+    "IfactualPi given, normalizedrightlog and weighted Fourieruniqueness recover allproperpower1/j atoms. IfpositiveprimitiveP separately given withALLrepeats, P<=Pi giveslog2gap and compactfinite Mobiusinverse recoversordinaryprimeatoms. No primitive existence fromPipositive alone."
+  ],
+  "nonempty_actual_scope": "Classical zeta takes sigma0=3/2,c=2. Old10-11 f1analysis§3 alreadyconsumed fixedstrip zeta polynomial bound viaDLMF25.2.10; old003/10-20 standardGamma record supplies uniformStirling via5.11.9, so weakereta=pi/8 valid. Onlyinternalrecordsreread; no newweb/externalproof or numeric C/N invented.",
+  "coverage_coupling": "Classification onlyidentifiesactualzeta andstopsnonclassicalmodelselection in thisexplicitdomain. Doesnottransportadditivex Fourierpositivity to multiplicativephysical log Weilform, no newprimitive/mixedRR oractualsigned/corecoupling budget. Differentpole/background/growth andonlylimitFE/entireDprime/joint repairs remain unclassified.",
+  "semantic_reclosure": "Watkins firstbridge pole-location broadreading remainsfrozen. Onlyexplicit actualsimplepoles±A/strip branch reclosed; doubledpolepositivecontinuous countercheck isoutsideit. Existing literaltheta/ordinarycycle freezes not thawed.",
+  "strongest_old_net": "Standard strongestold composition0, notnew independent arithmetic input, wholebound improvement orcore methodclass completion. Whole542+555->557 leading4/5 negative-inertia UPPER andkeyWeilpositive bottleneck unchanged. Do not report weakerfiniteF/monotonePi result asstrongestcoverage.",
+  "cadence": "ExactLF ddb2aa4a96e6de050602302659b21e0debcd1bb0fbcd7e0719e416c52c81a111 unchanged0/history50/latest586/formal17. No C050/587 ornewmathround/reset.",
+  "next": "reviews/2026-10-28/simple-pole-old-coverage/next-post-classification-investment-review.md, notexecuted: causalopportunity review after modelselection closure, nonformal18/nosourcequeue. No formed newcandidate/proof/chapter.",
+  "goal_gate": "Same runtimeactive/open/noteligible. Identificationofzeta isnotRH, independentWeilpositivity, corebottleneckremoval orcomplete substantivecore-method boundary.",
+  "version_bindings": [
+    {
+      "path": "reviews/2026-10-28/simple-pole-old-coverage/root-old-coverage.md",
+      "raw_bytes": 6682,
+      "lf_sha256": "c97afdce49dcef3b4a6539d7413fc17cdd552ddcdc879ba8a66834fb343731de"
+    },
+    {
+      "path": "reviews/2026-10-28/simple-pole-old-coverage/positive-germ-and-residue.md",
+      "raw_bytes": 9645,
+      "lf_sha256": "5d25e86c84c640baf61e2c87770c351acfbc8d32ce81a554170259c131aa196c"
+    },
+    {
+      "path": "reviews/2026-10-28/simple-pole-old-coverage/mellin-theta-and-classification.md",
+      "raw_bytes": 8187,
+      "lf_sha256": "3e7cde1a948acd303e44ec8d563f0ee857ca2bcb9b1c9afc70a323b6268f9ccf"
+    },
+    {
+      "path": "reviews/2026-10-28/simple-pole-old-coverage/fresh-old-coverage-audit.md",
+      "raw_bytes": 8261,
+      "lf_sha256": "79cee143be8f762c9e459e3e29c3b6dd06e66f740cbca41af14958cfe486efee"
+    },
+    {
+      "path": "reviews/2026-10-28/simple-pole-old-coverage/next-post-classification-investment-review.md",
+      "raw_bytes": 2056,
+      "lf_sha256": "2fb307912fa42024661c84de6a78b47238d4050626909840516af66d8ea3b2df"
+    },
+    {
+      "path": "reviews/2026-10-28/signed-replacement-source-location/next-simple-pole-old-classification-admission.md",
+      "raw_bytes": 2467,
+      "lf_sha256": "f6dd70c1d7198348a68a8bee70fc434ff8cbb4b5560889187f6583f920d65e27"
+    },
+    {
+      "path": "notes/561-beurling-positive-measures-self-duality-and-integer-recovery.md",
+      "raw_bytes": 9246,
+      "lf_sha256": "2494d9b2305979836670d32f3a7558f058e57be361c27edb948ec2ed037571e7"
+    },
+    {
+      "path": "notes/063-one-point-abel-moment-criterion.md",
+      "raw_bytes": 10655,
+      "lf_sha256": "c38ce029f6fa4a26f177e452f13ae324d5fc2045df86c0883aa5dcc75fb0fb1a"
+    },
+    {
+      "path": "notes/261-abel-mass-oscillation-and-prime-atom-obstruction.md",
+      "raw_bytes": 16930,
+      "lf_sha256": "7d4b530804839120a39651ea539d68dbfa152b3a63141e9b389e9a85c95d262f"
+    },
+    {
+      "path": "notes/283-fixed-cutoff-abel-mass-oscillation.md",
+      "raw_bytes": 18168,
+      "lf_sha256": "00c96923a98f1052157c5e1f5e93d1678a1147af5293a0e8c615b4b2a4189f0a"
+    },
+    {
+      "path": "reviews/2026-10-20/grh-dual-pairs/hilberdink-lapidus-primary-source-audit.md",
+      "raw_bytes": 6322,
+      "lf_sha256": "e580fea89efb0ff62ee9718059f856a53d5ee691160d076d72d6f45b08e4302d"
+    },
+    {
+      "path": "reviews/2026-10-11/f1-mellin-source-analysis-review.md",
+      "raw_bytes": 9159,
+      "lf_sha256": "2a7af818f660f159ddb555c65dbd2d4bda32610f09569e57ac6d5b37d401eb68"
+    },
+    {
+      "path": "notes/003-sources.md",
+      "raw_bytes": 34762,
+      "lf_sha256": "3e45022fcb5979bf2a15eb16c0214f4f0edba2c6cd80c560553c31b2b7651887"
+    },
+    {
+      "path": "reviews/2026-10-20/grh-canonical/canonical-completion-source-and-uniqueness.md",
+      "raw_bytes": 12086,
+      "lf_sha256": "d597a4578148f53e0cea0578a95f019721b03d7985186719d2061bf0408149ae"
+    },
+    {
+      "path": "goals/review-cadence.json",
+      "raw_bytes": 5852,
+      "lf_sha256": "ddb2aa4a96e6de050602302659b21e0debcd1bb0fbcd7e0719e416c52c81a111"
+    },
+    {
+      "path": "goals/GOAL.20261027.md",
+      "raw_bytes": 9679,
+      "lf_sha256": "b3d2acb1f962d793f45d79b6a4e67fb87dd072cd4752108a9298204b4cefa1de"
+    }
+  ]
+}
