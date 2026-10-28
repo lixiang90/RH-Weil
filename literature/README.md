@@ -1,5 +1,7 @@
 # RH-Weil 文献索引
 
+2026-10-28，[固定Tate双源Cartier首门](../goals/reviews/2026-10-28-tate-biextension-source-gate-stop.md)已两支持/fresh/root强旧前置0止：ℓ₁的actualPan值3/8ξ(3/2)经合法倍数送非零半周期，旧属一RR排principal；同点数据另漏537正窗kernel。标签无globalSobolev界，不误套553；line family不冒scalarheight，extra frames/总型保未付。不改evaluation/period/添Green或RR续算，无C050/587/新math；cadence0/历史50/latest586/formal17不变，核心门与whole4/5UPPER未改。下一优先实际两源身份或signed净量而非再造有限坐标载体，当前无继任公式/proof/source章节；Goalactive。
+
 2026-10-28，[互素加法输入前置核账](../goals/reviews/2026-10-28-coprime-additive-source-gate-stop.md)只用项目原件，无外部新文献/PDF/研究网页/下载/渲染/数值，不增全文条目。[实际阅读与审中scope](supplements/2026-10-28-coprime-additive-input-scope.md)区分冻结规则、两终稿/fresh与旧080–096必要段落；q1/corner补项、H1旧密度及共同crop核闭，未证非零宽读已冻结。一次actual构造按更强旧0止，cadence0/历史50/latest586不变；无后继proof/source章节或再次复盘。
 
 2026-10-28，[正式cycle17宏观复盘](../goals/reviews/2026-10-28-general-rh-macro-review-cycle-17.md)只复用已消费项目原件，无新外部全文/研究网页/PDF/下载/渲染/数值，不增文献条目。[实际阅读范围](supplements/2026-10-28-macro-cycle-17-scope.md)区分四结算/583closedbase/两支持/fresh全文与旧Farey等rg定位，未宣称重审全部旧论文。复盘0数学，原4→0一次/历史50/latest586保持；下一数据选择尚无双源公式/input/合同，不自动续paper。

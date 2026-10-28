@@ -4,8 +4,11 @@
 
 2026-10-28，[单一互素加法规则前置核账](goals/reviews/2026-10-28-coprime-additive-source-gate-stop.md)已两支持/fresh/root强旧0止。原式真实形成，globalH1极限按405/553/537旧身份门排除；有限ratio与未证极限非零不作反证。boundedcorrection另带无界腿仍需独立identity，未被泛排。cadence0/历史50/latest586/formal17保持，无新input/C050/587/后继proof或source章节；继续自主新同源实物形成，关键门未改。
 
+2026-10-28，[固定Tate双源Cartier首门](goals/reviews/2026-10-28-tate-biextension-source-gate-stop.md)已两支持/fresh/root强旧前置0止：ℓ₁的actualPan值3/8ξ(3/2)经合法倍数送非零半周期，旧属一RR排principal；同点数据另漏537正窗kernel。标签无globalSobolev界，不误套553；line family不冒scalarheight，extra frames/总型保未付。不改evaluation/period/添Green或RR续算，无C050/587/新math；cadence0/历史50/latest586/formal17不变，核心门与whole4/5UPPER未改。下一优先实际两源身份或signed净量而非再造有限坐标载体，当前无继任公式/proof/source章节；Goalactive。
+
 | 路线 | 当前地位 | 可消费输入 | 仍欠的核心箭头 | 准入／停止标准 |
 |---|---|---|---|---|
+| Tate E₂单Mellin源 → Cartier／Poincaré型两源族 | 已形成并强旧前置0止fixed source | 原du/强域、actualPan非零半周期、属一RR及onlypoint kernel责任 | 真principal下降／全源mixed及完整Γpp双pole身份未给；family line非高度 | 不换evaluation/period/添Green或RR续预算；不泛排extra raw frames、非局部/relative/正Dprime；先给实际同源identity或signed净量 |
 | 同对象 relative principal／Green → 截面乘法 → mixed RR | 长期主责；无新几何proof，执行先实际mixed公式形成 | 567真实RR→Hodge机制；579–582实际源／strong域／Green；537明确非根 | 同一非零primitive载体上的实际物理源公式、全关系的principal／Green边界、整过滤与同对象mixed身份 | 先核405全关系及平移、537与全源非根、原du／Dlog和全部尾；无实物不续C045或预建未知合同；保relative／higher／有费无界修复 |
 | 独立正分布 → 完整经典Weil分布 | 条件备选；C049/586谱规则已止，需新完整signed身份 | 577/578真Γ正层/原费/完整gR；Nakamura概率近邻已准确入库 | actualq_R或独立正Dprime完整signed消失仍欠；曲率正性不付横向权／完整身份 | 不续Nakamura§2/引文或第三批query；真独立输入可改策，保逐source/Dprime范围 |
 | 固定theta基态半线Dirichlet正谱 | C049/586一轮新反测，预算耗尽 | 全n原势/准确域/strictcount、热Γ缺陷、共同crop及fixedcompact平方差 | 不给完整Wζ身份、全局signed/corecross或primitive容量 | 不改sector/x/H幂/±/常数/cofinalcutoff或补偿拟合；不同实物另准，不泛排confining类 |

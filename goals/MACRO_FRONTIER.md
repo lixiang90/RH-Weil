@@ -1,5 +1,7 @@
 # 宏观前沿：可消费范围与最小未付箭头
 
+2026-10-28，[固定Tate双源Cartier首门](reviews/2026-10-28-tate-biextension-source-gate-stop.md)已两支持/fresh/root强旧前置0止：ℓ₁的actualPan值3/8ξ(3/2)经合法倍数送非零半周期，旧属一RR排principal；同点数据另漏537正窗kernel。标签无globalSobolev界，不误套553；line family不冒scalarheight，extra frames/总型保未付。不改evaluation/period/添Green或RR续算，无C050/587/新math；cadence0/历史50/latest586/formal17不变，核心门与whole4/5UPPER未改。下一优先实际两源身份或signed净量而非再造有限坐标载体，当前无继任公式/proof/source章节；Goalactive。
+
 2026-10-28，[互素加法双源前置核账](reviews/2026-10-28-coprime-additive-source-gate-stop.md)已实际形成单一C_B并两支持/fresh/root强旧0止：q1/corner/ζ′符号与globalH1型norm极限闭合，假完整compact身份经共同crop→405真实Pan根→553明确H1稠密→全零，冲突537。不是逐层Pan、有限ratio原子或ζ2常数反证；不消费C∞非零。仅作补正且另有无界Γ/pole的总型角色保未付。停止本γ/c^-2/中心化/cutoff，不造C050/587/新source或改参数。cadence0/历史50/latest586与formal17保持，关键门/whole4/5UPPER未改；Goalactive。当前无继任公式/proof/章节，继续自主新同源mixed实物形成，执行只读STATE，下方历史。
 
 本次最短消费链：固定J_x端点/导数→G_c AC/BV→含q1 Möbius-grid→globalH1绝对cofinal界→假compact平方完整身份→极化/共同H1与Sexp crop→405全Weil真实关系根→553每fixed有限Sobolev密度→537矛盾。总型读出与另有无界腿的有界correction分开，普通grid仍含整数算术；旧085的Fourier h/r不与本x=a/c混同。新增公式本身不是新独立signed/primitive输入，实际whole后果由强旧已决定，0不藏新完整核心反测。最强542+555→557 whole4/5仅UPPER，585 fixed净差常数早付/必要增长及586固定谱范围保持；全局mixed/core/Xi未付，不把局部停止拼Goal门。

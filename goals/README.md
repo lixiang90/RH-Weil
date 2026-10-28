@@ -1,5 +1,7 @@
 # 长期研究恢复入口
 
+2026-10-28，[固定Tate双源Cartier首门](reviews/2026-10-28-tate-biextension-source-gate-stop.md)已两支持/fresh/root强旧前置0止：ℓ₁的actualPan值3/8ξ(3/2)经合法倍数送非零半周期，旧属一RR排principal；同点数据另漏537正窗kernel。标签无globalSobolev界，不误套553；line family不冒scalarheight，extra frames/总型保未付。不改evaluation/period/添Green或RR续算，无C050/587/新math；cadence0/历史50/latest586/formal17不变，核心门与whole4/5UPPER未改。下一优先实际两源身份或signed净量而非再造有限坐标载体，当前无继任公式/proof/source章节；Goalactive。
+
 2026-10-28，[互素加法双源前置核账](reviews/2026-10-28-coprime-additive-source-gate-stop.md)已实际形成单一C_B并两支持/fresh/root强旧0止：q1/corner/ζ′符号与globalH1型norm极限闭合，假完整compact身份经共同crop→405真实Pan根→553明确H1稠密→全零，冲突537。不是逐层Pan、有限ratio原子或ζ2常数反证；不消费C∞非零。仅作补正且另有无界Γ/pole的总型角色保未付。停止本γ/c^-2/中心化/cutoff，不造C050/587/新source或改参数。cadence0/历史50/latest586与formal17保持，关键门/whole4/5UPPER未改；Goalactive。当前无继任公式/proof/章节，继续自主新同源mixed实物形成，执行只读STATE，下方历史。
 
 2026-10-28，[一次原命题定位](reviews/2026-10-28-independent-source-discovery-stop.md)已两支持/fresh/root限定来源0止：固定3query一批/12聚合visible，唯一Zenodo记录页只议程与条件，无已读actual公式locator；未读PDF不判不存在，无续查询/章/paper。另有root[原创全z运输公式准入](../reviews/2026-10-28/independent-source-discovery/next-original-framed-holonomy-admission.md)及低阶草稿，唯一下一先闭原对象/norm/frames/最强旧并分类，未数学消费/未准C049。cadence3/历史49/cycle16原字节保持，实际瓶颈/whole4/5UPPER未改，Goal门open。
