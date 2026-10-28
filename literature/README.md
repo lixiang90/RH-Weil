@@ -1,5 +1,7 @@
 # RH-Weil 文献索引
 
+2026-10-28，[Gaussian pulse/exp localgain旧消费](../goals/reviews/2026-10-28-gaussian-pulse-universality-and-local-gain-old-scope.md)只核项目560/585真实评价、589localization及576/577/421范围，无新外部web/PDF页/下载/数值；2410.20758拟来源因10-20已读而在执行前撤回。Manifest130原字节保持；[实际范围](supplements/2026-10-28-gaussian-pulse-and-gain-old-scope.md)保Gaussian非Sonintrial、TV与conditional正谱、positiveDprime拓扑桥/必要gain及无有效算法预算。
+
 2026-10-28，[positive polynomial filter旧消费](../goals/reviews/2026-10-28-positive-polynomial-filter-old-boundary.md)只核项目587actualGram及589原uniform proof/537测试，重读用户既有附件8.1–8.2作动机。无新外部web/PDF页/章节/下载/数值，130项manifest原字节保持；[实际范围](supplements/2026-10-28-positive-polynomial-filter-old-scope.md)区分movingcoeff、strongSprime与degree→∞必要性，不把直接旧后果作新math或全文。
 
 2026-10-28，[phase两源旧首检/未形成](../goals/reviews/2026-10-28-phase-mixed-old-test-and-no-input-stop.md)只核项目560/关系/净费字典及本地130项metadata/later scope，无新web/PDF页/章节/下载/数值；[实际范围](supplements/2026-10-28-phase-mixed-no-input-source-scope.md)保GS未取页、有限locator结论与作者旧proof归属。Manifest原字节保持，不把phase重编码登记为新数学/文献。

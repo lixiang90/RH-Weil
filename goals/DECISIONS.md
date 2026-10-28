@@ -1897,3 +1897,19 @@ AQ实际规则2973b/root3991b、uniform9735b/oldscope10553b及currentfresh最终
 最强旧不只scalar fixedpair：d0 fullstrongSprime也由更强paid证明恢复；任意finite-degree族若fullDprime逼近，degree必须趋∞而非仅unbounded，因boundeddegree子列反证。无growth率/统一growingdegree估计或排除，非poly/nonlocal/signed/逐源或不同primitive保留。目标只需Dprime，不从pole单项断整体temperateness。
 
 Strongold标准直接0，无独立算术/几何新input，不建C053/590，不续C050/C052或degree/rank/rate/source。Cadence3/history53/latest589/formal17字节不动，不造formal18。真实核心signed正部/cross与primitive/principal/mixed/Xi、whole4/5UPPER未变，Goal同实例active/open/noteligible。Capacity错误同任务已恢复成功，不是外部阻塞。下一只先本次已核证据/看板/库/STATE两段发布与独立核actualHEAD；通过后不重发，degree→∞必要性不是已准后继。
+
+## D20261028AS — 实际Gaussian-pulse滤波只先核TV与经典target选择缺口
+
+前poly源6a9b801/metadata5537f6f actualref/commit/tree已核，恢复树干净；前轮为实际严格旧边界/发布进展，不是等待。拟查2410.20758在本地发现10-20已读指定定理，来源在执行前撤回，无新web/PDF/query。当前不再做source库存，root形成同actualrho的不同nonpoly/nonlocal规则。
+
+μ_X=e^-t²rho_X，固定bounded rational shift字典，finiteL²(μ)投影f_X=sqrt(σ/μdensity)，H_jk=∫bar(e_j)e_k、v_j=∫bar(e_j)f、c=H^-1v。冻结前纠正一次dispatch指数约定混搭；H不同于EulerG。只准两具体审rho ae正性/Gaussian指数矩/字典完整/finiteH与TV，和已知positive σ匹配g/gprime却在primeatom失败的actualtest/strongold。
+
+若TV运输可付，允许M无上界但不付complexity/condition/系数强费；Gaussian为output/sourcefilter，不作为Sonintrial。Chosenpositive target及其更强正谱cone闭包必须扣576/563旧membership责任，不能以制造正分布作为经典独立input，不预C053/590或新轮。原Goalcadence3/history53/latest589/formal17不动；不续polydegree/rank/rate/phase或来源队列。
+
+## D20261028AT — Actual Gaussian运输、boundedmass atom门与fullDprime必要gain旧0
+
+AS rule3548/root7145、actualTV15246/target11659/topology11371和不同currentfresh12251均terminal/root全文核，根收据正式解除draft条件。ρ全谱ae正/外层H与TV、knownpositive谱conditional运输闭；chosenσ匹配full q0/qfull，但mass≤m使一个fixed log2 atomtest全X gap≥log2/(2sqrt2)。Third稿eq5的q1为qlow，不与full q1误同值。Full有限正谱逼近须mass→∞，不排mass成长。
+
+Positive Dprime收敛经fixed D_K UBP/调制平方/谱polynomialmoment/唯一Sprime延拓-vague按任意realX sequence核闭，不预假targettemp。Full qgprime>0迫fixedaway0正谱质量，589actual局部化给任意共同positive acweight的esssup_J w≥Cexp(c√X/logX)所有大X必要费；覆盖growingdegree/M/nonlocal/内部signed但最终同commonpositive density。Gaussian原sourceL2 norm付平方根费，无same-scaleupper/sharp/不可达，也不排更高gain/其它carrier/singular谱/source非线性。
+
+先扣更强exact ratio σ/rho输出可达；finiteGaussian只特殊有限Schwartz实现/TV，不提供classicpositive target。全链标准强旧0，不建C053/590或gain/target/degree/rank/source优化预算。真实key signed/corecross与primitive/principal/mixed/Xi、whole4/5UPPER未改，Goalactive/open/noteligible；cadence3/history53/latest589/formal17字节不动，不造formal18。下一只本次证据/看板/库/STATE两段发布及核actualHEAD，通过不重发；必要费用和未排escape不是后继授权。

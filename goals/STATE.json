@@ -8,9 +8,9 @@
   "cadence": "goals/review-cadence.json",
   "decisions": "goals/DECISIONS.md",
   "latest_strategy": "goals/reviews/2026-10-28-general-rh-macro-review-cycle-17.md",
-  "latest_decision": "D20261028AR",
+  "latest_decision": "D20261028AT",
   "macro_frontier": "goals/MACRO_FRONTIER.md",
-  "macro_summary": "goals/reviews/2026-10-28-positive-polynomial-filter-old-boundary.md",
+  "macro_summary": "goals/reviews/2026-10-28-gaussian-pulse-universality-and-local-gain-old-scope.md",
   "latest_macro_review": "goals/reviews/2026-10-28-general-rh-macro-review-cycle-17.md",
   "latest_iteration": "notes/589-sonin-zero-mean-upper-and-scalar-rank-one-limit.md",
   "macro_control": {
@@ -20,8 +20,8 @@
   },
   "macro": {
     "long_objective": "G20261027接续G20261014完整完成门/原0c4f基线，≤582为输入；持续寻经典同源Weil正性/有效性/RR或actualsigned新输入，付全源/成长/core及谱识别。",
-    "unpaid_bottleneck": "固定degree正filter仍只剩均值，growth必要但未付；K不利正部/T-pole-cross、同一非零primitive/principal/mixed/Xi未付，whole4/5UPPER未改。",
-    "why_this_contract": "不同actual正poly预处理已核全Schwartz/强Sprime和非零gprime缺陷，最强旧0止；现在只发布准确边界，不做degree或scalar优化。",
+    "unpaid_bottleneck": "Actualrho正filter full逼近需exp局部gain且有限谱mass须∞，但高gain逃逸未排；独立完整target/signed corecross、非零primitive/principal/mixed/Xi仍欠，whole4/5UPPER未改。",
+    "why_this_contract": "Different Gaussian/nonlocal actualrule及原normTV已核，fixedfinite目标止atom；更强fullDprime谱桥与必要exp gain也按强旧0消费。现在只发布准确范围，不做target/gain优化。",
     "paused_routes": [
       "零点比例优化",
       "无零区域优化"
@@ -43,8 +43,8 @@
     "settled_iterations": [
       "notes/589-sonin-zero-mean-upper-and-scalar-rank-one-limit.md"
     ],
-    "stage": "Polyfilter旧边界/root0及source17files已发布3GET核实；C052仍耗尽，metadata actualHEAD匹配后发布完成，不续固定degree族。",
-    "next_action": "完成本metadata三文件child commit/push与独立3GET核actualHEAD；匹配不重发/不续degree或C050/C052。当前无已准math/source；degree必须→∞只是必要性，不是后继预算。",
+    "stage": "Gaussian三终稿/currentfresh12251/root旧0已实际消费：TV/finiteσ atom/positiveDprime谱桥/exp局部gain必要费闭；source发布待执行，无新math合同。",
+    "next_action": "核根收据/冻结版本/Goal-cadence-manifest不变和sourcecheckpoint，发布本次旧消费并3GET；再仅receipt+STATE+新synccheckpoint child/核actualHEAD。通过不重发，不以mass或gain必要性授后继预算。",
     "stop_rule": "一完整门；任何实际uniform/domain/tail断点准确未证止，不换源/α/window或续source；pure scalar不冒全部消失权/正Dprime。"
   },
   "support_contracts": [],
@@ -81,40 +81,30 @@
       "scope": "C048统一1轮：ALLfirstfixed非零complexcompact source actualtrace lower、完整K/core必要正成长费；非Q负/K全PSD/净signed正性。"
     },
     {
-      "path": "notes/587-actual-sonin-moment-spread-and-growing-source-rank-necessity.md",
-      "kind": "proved",
-      "scope": "C050一轮：每先fixed d actual导数源共同lower√X/log^(3d+2)、𝔇√X/log8；boundedfixedsource残差需source-rank→∞。非growingdegree/rankrate/Q正号/whole改善。"
-    },
-    {
-      "path": "notes/588-common-support-sonin-weak-coercivity-and-local-anchor-barrier.md",
-      "kind": "proved",
-      "scope": "C051一轮：commoncompact du弱非零moving源发散；fixed-coercive-anchor最佳inf窗外∞/Mosco localQ或∞/广义strongresolvent，非成长anchor或全signed边界。"
-    },
-    {
       "path": "notes/589-sonin-zero-mean-upper-and-scalar-rank-one-limit.md",
       "kind": "proved",
       "scope": "C052一轮：每fixed meanzero smooth源actual upper o(√X/log²X)，全部fixed-pair scalar归一化均值rank1；固定完整q1缺陷，非全Dprime/一般消失权边界。"
     },
     {
-      "path": "reviews/2026-10-28/quiet-source-spectrum/root-consumption-scope.json",
-      "kind": "proved",
-      "scope": "旧0根消费：冻结空间uniform quiet、source norm1/strong0、完整K allM增长负阈值；负K有利，非Q负/whole改善。"
-    },
-    {
       "path": "reviews/2026-10-28/polynomial-filter-admission/root-consumption-scope.json",
       "kind": "cited",
       "scope": "旧0：任意fixed degree移动coeff正poly校准后strongSprime谱delta0/physical常数，gprime缺陷；真fullDprime需degree→∞，无率/未排成长。"
+    },
+    {
+      "path": "reviews/2026-10-28/gaussian-pulse-admission/root-consumption-scope.json",
+      "kind": "cited",
+      "scope": "旧0：actualGauss TV/knownpositive谱运输，finiteσ atomgap；positiveDprime→vague，full同rho正filter需exp局部gain，mass需∞。非sharp/不可达/核心新input。"
     }
   ],
   "pending_processes": [],
   "runtime_goal_observation": {
     "status": "active",
     "created_at_unix": 1793085111,
-    "observed_at_utc": "2026-10-28T12:31:07.124387+00:00",
-    "basis": "本次现场get_goal同实例active，polyfilter当前actualfamily/终稿/fresh/root0及source发布已核，原完成门open。"
+    "observed_at_utc": "2026-10-28T13:37:45.583841+00:00",
+    "basis": "现场get_goal同实例active；AS actualrule/三稿/currentfresh/root旧0已执行消费，非新round或Goal完成。"
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-10-28-positive-polynomial-filter-old-sync.json",
+  "checkpoint": "goals/checkpoints/2026-10-28-gaussian-pulse-gain-old-source.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
     "commit": "6a9b8016395f0a204ee922758c3a8138050a65ca",
@@ -127,11 +117,11 @@
     "goal_lf_sha256": "b3d2acb1f962d793f45d79b6a4e67fb87dd072cd4752108a9298204b4cefa1de",
     "mathematical_gate": "open",
     "final_execution_gate": "not-eligible",
-    "basis": "Fixed-degree polyfilter旧边界和degree→∞必要性未覆盖成长/nonlocal/jointsigned或付核心新input，Goalopen/noteligible。"
+    "basis": "Necessaryexp gain及同rho正模型不付classic target/keysigned，actual高gain/mass成长逃逸未排；Goalopen/noteligible。"
   },
-  "process_inventory_observed_on": "当前polyfilter两审/fresh/抽象topology均terminal；sourcepush exit0/3GET匹配，无agent/web/numeric后台；metadata显式commit/push待执行。",
+  "process_inventory_observed_on": "当前三Gaussian/gain作者和独立fresh全部terminal，live tree仅root running，无web/numeric/shell/git后台。",
   "publication_approval_gate": {
-    "status": "polynomial-filter-old-zero-source-verified-metadata-finalization",
+    "status": "gaussian-pulse-gain-old-zero-root-consumed-source-pending",
     "destination": "https://github.com/lixiang90/RH-Weil",
     "visibility": "public",
     "branch": "main",
@@ -141,9 +131,7 @@
       "reply": "每轮把进度同步到github；把文献保存在文献库中，用研究看板来记录各个路线的状况",
       "scope": "本项目研究/Goal/STATE/看板/文献元数据/审查与同步回执；论文再分发许可不明则全文仅本地。"
     },
-    "current_scope": "Polyfilter旧0 source17files已push/独立3GET；仅receipt+STATE+新synccheckpoint三文件child，推后核actualHEAD。",
-    "published_source_commit": "6a9b8016395f0a204ee922758c3a8138050a65ca",
-    "verification": "reviews/2026-10-28/polynomial-filter-admission/remote-sync-verification.json"
+    "current_scope": "当前六原件/根收据/AT/summary/入口/看板/libraryscope/STATE/两个running与新sourcecheckpoint；后仅receipt+STATE+新synccheckpoint三文件。"
   },
   "research_board": "RESEARCH_BRANCHES.md",
   "literature_index": "literature/README.md",
@@ -217,5 +205,9 @@
   "polynomial_filter_scope": {
     "path": "reviews/2026-10-28/polynomial-filter-admission/root-consumption-scope.json",
     "status": "root-fresh-closed-direct-old-zero-strong-Sprime-fixed-degree-degree-must-diverge"
+  },
+  "gaussian_pulse_gain_scope": {
+    "path": "reviews/2026-10-28/gaussian-pulse-admission/root-consumption-scope.json",
+    "status": "root-fresh-closed-direct-old-zero-transport-atom-required-exponential-local-gain"
   }
 }
