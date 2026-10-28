@@ -8,7 +8,7 @@
   "cadence": "goals/review-cadence.json",
   "decisions": "goals/DECISIONS.md",
   "latest_strategy": "goals/reviews/2026-10-28-general-rh-macro-review-cycle-18.md",
-  "latest_decision": "D20261028AZ",
+  "latest_decision": "D20261029A",
   "macro_frontier": "goals/MACRO_FRONTIER.md",
   "macro_summary": "goals/reviews/2026-10-28-general-rh-macro-review-cycle-18.md",
   "latest_macro_review": "goals/reviews/2026-10-28-general-rh-macro-review-cycle-18.md",
@@ -21,7 +21,7 @@
   "macro": {
     "long_objective": "G20261027接续G20261014完整完成门/原0c4f基线，≤582为输入；持续寻经典同源Weil正性/有效性/RR或actualsigned新输入，付全源/成长/core及谱识别。",
     "unpaid_bottleneck": "独立同非零arithmeticprimitive的physical/Pan537下降→principal/整截面/mixed与完整signed危险corecross/targetmembership/Xi仍欠；590只止canonicalinverseEuler scalar族，whole4/5UPPER未改。",
-    "why_this_contract": "四轮局部修补边界真实进展但key/whole未改；formal18已及时审视并停止权参数枚举，保主线primitive关系/mixed与实际signedcore备选。当前无合格新实物，先准确发布，不用空形成/未知章续预算。",
+    "why_this_contract": "固定h/B已扣081/082、553/421强旧0；意外091前件反例已κ有限域重闭，一般δ及SL/SP整链消费仍冻。没有新primitive/signed输入，先发布，不授空形成或参数后继。",
     "paused_routes": [
       "零点比例优化",
       "无零区域优化"
@@ -43,8 +43,8 @@
     "settled_iterations": [
       "notes/590-inverse-euler-filter-growing-moment-and-normalized-spectral-escape.md"
     ],
-    "stage": "590/formal18的36file source2aaebb5已push并独立3GET核实；现在只metadata三文件child，actualHEAD条件匹配即发布完成。C053耗尽/cadence0-history54-latest590。",
-    "next_action": "仅receipt+STATE+新synccheckpoint三文件child commit/push并独立3GET核actualHEAD；若匹配则发布完成、不重推。无C054/math/source后继；重准须actual新input/已执行可改选择test。",
+    "stage": "C053耗尽；当前固定h/B两支持/fresh8208/root旧0及091有限筛纠错已消费，SL/SP整链仍冻；待本次授权发布。",
+    "next_action": "只本次证据/看板/文献/STATE/sourcecheckpoint正常main发布并独立3GET；再receipt+STATE+新synccheckpoint child及actualHEAD核。匹配不重推，无新math/source后继。",
     "stop_rule": "一完整数学迭代；Riesz/bump/alln或growing-tail断点准确未证止，禁止参数/源/norm/来源救题；旧已蕴含则旧0。"
   },
   "support_contracts": [],
@@ -96,11 +96,6 @@
       "scope": "旧0：actualGauss TV/knownpositive谱运输，finiteσ atomgap；positiveDprime→vague，full同rho正filter需exp局部gain，mass需∞。非sharp/不可达/核心新input。"
     },
     {
-      "path": "reviews/2026-10-28/inverse-euler-filter-admission/root-admission-consumption-scope.json",
-      "kind": "cited",
-      "scope": "当前old/fresh准入0闭：bare rawmeasure strongSprime0已付；只准C053一次全n actualmoment lower，未证，不消费conditionalratio∞。"
-    },
-    {
       "path": "notes/590-inverse-euler-filter-growing-moment-and-normalized-spectral-escape.md",
       "kind": "proved",
       "scope": "C053one math: actualRiesz物理边界/alln lower+growingGramnorm，inverseEuler Sg subexp且matchingg后fixedgprime∞；仅本weight/scalar族，非RH/core/whole改善。"
@@ -109,17 +104,22 @@
       "path": "reviews/2026-10-28/macro-cycle-18/root-consumption-scope.json",
       "kind": "cited",
       "scope": "formal18两支持/不同currentfresh/root0数学闭：唯一4→0/history54/latest590保持；主线/备选非新合同，无C054/source后继。"
+    },
+    {
+      "path": "reviews/2026-10-29/fractional-part-old-comparison/root-consumption-scope.json",
+      "kind": "cited",
+      "scope": "固定h/B旧0与091κ局部语义纠错；SL/SP整链仍冻，非新math/source。"
     }
   ],
   "pending_processes": [],
   "runtime_goal_observation": {
     "status": "active",
     "created_at_unix": 1793085111,
-    "observed_at_utc": "2026-10-28T16:02:58.017920+00:00",
-    "basis": "跨日现场get_goal同1793085111active；实际590/root与formal18/current6973fresh/root均已核，数学与宏观结算后只发布。"
+    "observed_at_utc": "2026-10-28T16:20:14.738621+00:00",
+    "basis": "现场get_goal同实例active；本轮实际固定h/B去重已执行，非研究合同。"
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-10-29-inverse-euler-590-cycle18-sync.json",
+  "checkpoint": "goals/checkpoints/2026-10-29-fractional-part-old0-sieve-correction-root.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
     "commit": "2aaebb5cf4aadba923fe569cb612d44f774007d1",
@@ -132,11 +132,11 @@
     "goal_lf_sha256": "b3d2acb1f962d793f45d79b6a4e67fb87dd072cd4752108a9298204b4cefa1de",
     "mathematical_gate": "open",
     "final_execution_gate": "not-eligible",
-    "basis": "Formal18逐门核：590只排本inverseEuler族；无RH/新independent关键输入或实质核心方法类实际全部修复覆盖；Goalopen/noteligible，whole/核心未变。"
+    "basis": "Formal18完成门保持；本次旧0/091局部纠错无独立关键输入/完整核心类边界，Goalopen/noteligible，whole与核心未变。"
   },
-  "process_inventory_observed_on": "全部agent terminal/root消费，无后台web/numeric/git session；source2aaebb5正常push/独立3GET匹配。Metadata三文件待显式commit/push及actualHEAD核。",
+  "process_inventory_observed_on": "两作者及不同fresh本次均terminal/root全文消费，无后台web/git/numeric；只待授权源/metadata两段发布。",
   "publication_approval_gate": {
-    "status": "590-formal18-source-verified-metadata-finalization",
+    "status": "fractional-part-old0-sieve-correction-ready-source",
     "destination": "https://github.com/lixiang90/RH-Weil",
     "visibility": "public",
     "branch": "main",
@@ -146,7 +146,7 @@
       "reply": "每轮把进度同步到github；把文献保存在文献库中，用研究看板来记录各个路线的状况",
       "scope": "本项目研究/Goal/STATE/看板/文献元数据/审查与同步回执；论文再分发许可不明则全文仅本地。"
     },
-    "current_scope": "590/formal18 source36files已核；仅remote receipt+STATE+新synccheckpoint三文件metadata child，同授权main正常push/独立核actualHEAD。",
+    "current_scope": "本次固定核旧0/091纠错、原件/fresh/root/索引/STATE/检查点，不含新第三方全文。",
     "published_source_commit": "2aaebb5cf4aadba923fe569cb612d44f774007d1",
     "verification": "reviews/2026-10-28/macro-cycle-18/remote-sync-verification.json"
   },
@@ -155,7 +155,8 @@
   "semantic_dependency_freeze": {
     "scope": "CCM§6.2 ordinary-cycle6.11／自动principal下降",
     "status": "raw-consumption-remains-frozen-limited-repair-root-closed",
-    "basis": "两P1反测及m1 point腿经fresh/root核；仅保typed proper/smooth K-oriented或perfectkernel/derived/Todd明确修补；583不依本章、410–437既有relative资产保持。"
+    "basis": "两P1反测及m1 point腿经fresh/root核；仅保typed proper/smooth K-oriented或perfectkernel/derived/Todd明确修补；583不依本章、410–437既有relative资产保持。",
+    "shared_gcd_091": "reviews/2026-10-29/fractional-part-old-comparison/091-shared-gcd-scope-correction.md：κ/反例/root-fresh有限重闭；一般δ错误θ/even-g及093SL/094SP整链消费冻结，exactT_g/δ±1免本缺陷保留。"
   },
   "source_control_correction": {
     "status": "reclosed-common-control-and-sameB-image-scope",

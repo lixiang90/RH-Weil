@@ -1965,3 +1965,11 @@ Currentmoment13693/transport12520/rootdraft4827与不同newmathfresh10261全部t
 主线同非零算术primitive的真实关系下降/mixed身份；actual完整signed/core独立净信息为现实备选。405/51820谱商乘法/全部Jordan及579–583实际source/fullGreen本已paid；closedbase/a0/同B/relative−4/canonicalexact0/CCM多输入各守原型，不再造正carrier冒桥。两支持/root未形成新q/B/signed/target或preciseprimarylocator，故不建C054/sourcequeue/空泛形成任务，不续filterα/norm/degree或耗尽chapter。新实际input或已执行能改选择test才重准。
 
 Goal三原门均open/noteligible；gate3限所声称核心类及实际允许修复覆盖，不额外要求排所有世界方法。运行Goal同1793085111active，不因数学困难/复盘/发布complete或blocked。下一唯一先590＋formal18源与metadata两段授权发布/独立核actualHEAD，匹配不重推；暂无已准数学/来源后继。
+
+## D20261029A — 固定fractional-part去重，091一般δ前件纠错
+
+本轮具体h/B与081/082原核酉等同；全R任意源dense无条件，整数半群target距离消失仍RH。405/553的actualPan与421有限质量atom门已更强旧拒本完整目标角色，mixed非零不付新RR/signed身份，故旧0止，不建C054/591。
+
+当前两独占支持7150/7934、不同fresh8208及root均核；091 g2/a3/b5/δ2 primitive反例及helper[0]/δ1[]闭。κ_p在p|δ时1否则2；只重闭有限筛/δ±1避免本缺陷，冻结一般δ错误θ/even-g及093SL/094SP整定理当前消费。fixedD局部C_D不冒整链复核，保原稿和其它资产。Schur按normdistance²消费。
+
+数学/来源0，原cadence0/history54/latest590/formal18字节不动；同Goal1793085111active/open/noteligible，whole4/5UPPER与核心primitive/mixed/signedcross未改。下一只本次证据正常main发布/独立核source及metadata actualHEAD，匹配不重推。没有已准参数/数学/source后继，不重跑固定核旧门或未知paper队列。新独立actual内容或已执行能改选择test方重准。原件与具体冻结见goals/reviews/2026-10-29-fractional-part-old-comparison-and-sieve-correction.md及当前root收据。

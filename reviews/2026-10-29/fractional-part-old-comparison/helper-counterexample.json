@@ -1,0 +1,23 @@
+{
+  "schema": "rh-weil-existing-helper-counterexample-v1",
+  "date": "2026-10-29",
+  "input": {
+    "g": 2,
+    "a": 3,
+    "b": 5,
+    "delta": 2,
+    "h": 1,
+    "hprime": 1
+  },
+  "actual_helper": "scripts/qw_matrix.py:squarefree_shared_gcd_allowed_residues",
+  "allowed_residues": [
+    0
+  ],
+  "control_delta_1_allowed": [],
+  "exact_equation": 2,
+  "primitive_gcds": [
+    1,
+    1
+  ],
+  "meaning": "Counterexample to general-delta even-g empty claim, not a general proof, numerical approximation, RH consequence or new research iteration."
+}

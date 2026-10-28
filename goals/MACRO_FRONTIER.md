@@ -1,5 +1,7 @@
 # 宏观前沿：可消费范围与最小未付箭头
 
+2026-10-29，[固定fractional-part旧去重与091纠错](reviews/2026-10-29-fractional-part-old-comparison-and-sieve-correction.md)已两支持/不同8208fresh/root闭：同081/082原核，任意全R稠密非整数半群RH距离；本global有界J不消405Pan且finite-mass有421完整atomgap，净旧0。091一般δ禁残基重合反例已核，κ局部重闭/δ±1与exactT_g保留，093SL/094SP整链消费继续冻结。无C054/591/source后继；原cadence0/history54/latest590/formal18保持，核心与whole4/5UPPER未改，Goalactive。
+
 2026-10-29，[590＋formal18已结算](reviews/2026-10-28-general-rh-macro-review-cycle-18.md)：inverseEuler实际Riesz全n矩/Gram运输已不同数学fresh/root闭，matching-g后fixedgprime∞，仅止本nonlocal/growingF权族。587–590四完整轮已及时宏观审视，两支持/当前macro fresh/root核；唯一cadence4→0一次/history54/latest590保持。核心primitive/principal/mixed/signedcross与whole4/5UPPER未改，停止继续枚举filter参数；无C054/source后继预算，当前先同步本轮证据。Goal同实例active。
 
 2026-10-28，[CCM cooling单章类型门](reviews/2026-10-28-ccm-cooling-cyclic-source-gate-stop.md)已oldscope/source/不同currentfresh及root来源0闭合：π为algebra map，partial trace确有多输入cyclic公式，D为Λ-coker；合法源若仅经δ像再入商则类为0，非D=0。本范围未给内部产品下降/非零physical primitive，4.26后置proof及5.1域未核；不搬canonical cone exact0/§6冻结。既有PDF已tracked本轮不增改，新缓存ignored，130条库更新准确scope。核心与whole4/5UPPER未改，cadence3/history53/latest589/formal17保持，Goalactive；本门止/无后继预算。
