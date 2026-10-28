@@ -1,5 +1,7 @@
 # 研究分支看板
 
+2026-10-28，[分类后因果投入审视](goals/reviews/2026-10-28-post-classification-causal-investment.md)已两库存/HNF另稿/fresh/root0闭合，非formal18/cadence不动。577独立正层已付，缺完整signed消失；Green设施已付而principal/primitive/mixed缺，Sonin相消/safehigh也旧。当前无新核心input。HNF族同583全Hecke矩阵/G函数非新raw，仅准下一一次marked两源公式形成/强旧自筛，尚无r,s公式/证明预算。raw因子化一概拒绝宽读冻结，实际新functional另判；exact/cofinal分开。关键瓶颈/whole4/5UPPER未改，0/历史50/latest586/formal17保持，Goalactive。
+
 2026-10-28，[simplepole旧覆盖闭合](goals/reviews/2026-10-28-simple-pole-old-classification-closure.md)已两独占稿/fresh/root核闭：正M单位、横坐标1/A正、完整移线±A与全部Gaussian、μ_A/A及{1}质量给A=1/N整数/Z=ζ，Pi及仅givenP恢复。更强直接正N无需Euler/freegeneration；实际ζ非空基例及旧增长定位已核。只是旧合成0，停止明示simplepole/Γ/FE/strip域的model selection，未给Weil正号/core净费，whole4/5UPPER未改。cadence0/历史50/latest586/formal17不动，无C050/587。下一仅因果投入审视，未执行/非formal18，无新candidate/proof/章节；Goalactive。
 
 2026-10-28，[精确Γ signed替换一次定位](goals/reviews/2026-10-28-signed-replacement-primary-locator-stop.md)已固定3query/16聚合visible、唯一Watkinsv0.5原页及两咨询/fresh/root来源0止。Ma恰旧561且违反unitgap；旧正连续乘积反测只付同Γ/doublepole，非原经典simple双pole。原页第一桥按位置宽读冻结，不泛判加强版/整页；HTML125665b/d12ce1df仅ignoredlocal实存，库有版本/范围。无C050/587/math，cadence0/历史50/latest586/formal17保持，core/whole4/5UPPER未改。下一只明示simplepole/±A/strip衰减的旧覆盖比较，尚未执行，不续query/章/paper；Goalactive。
@@ -16,13 +18,14 @@
 
 | 路线 | 当前地位 | 可消费输入 | 仍欠的核心箭头 | 准入／停止标准 |
 |---|---|---|---|---|
+| marked-HNF同对象两源读出 | 仅一次原公式形成/自筛资格，尚未执行 | 原HNF/Gram/Smith同583矩阵；23绑定因果审视，raw非新input | 当前无r,s公式、原norm/完整Γpp双pole身份或独立净量 | 先扣583完整native/norm与实际适用强旧；同raw不拒新functional，失败不调参数，不准先建C050/587 |
 | 明示simplepole/Γ/FE/strip的正N分类 | 更强旧应用0闭合，停止本域model selection | M单位/α=1/A正、真实Mellin与±A/全尾；μ_A/A＋561＋{1}质量A1/N整数 | 识别ζ仍不付独立乘法Weil号、primitive/mixed或core净费 | 不续UD/coset/A设施/弱化增长造模型；下一因果投入审视，域外/onlylimitDprime/joint保留 |
 | 精确Γ signed替换primary定位 | 固定三query/一原页来源0止，预算耗尽 | Watkinsv0.5实际HTML、Ma同旧561/gap与Gaussian强旧、doublepole连续反测 | 无actualsigned负部生成或完整mixed；完整simplepole/留数/增长桥未消费 | 不续spacing/coset/boundederror/章/query；下一仅明示±A和strip界的旧覆盖比较，不把分类当Weil正性 |
 | 精确经典Γ下的Euler修改 | 强旧应用0止finiteF/monotone增量；非一般类失败 | 405实ξ>0、加权测度唯一性、正Borel边界；任意正Δ及primitive全repeats精确范围 | 一般正Π的signed删减/重排、actual经典mixed/完整signed仍未付 | 不续finiteF量化或正增量设施；下一只固定三query一次实际locator，无合格即止，不泛排joint/relative/Dprime |
 | Suzuki Θω/causal Hankel → canonical系统 | 1204v2§2来源0止；非方法全类失败 | 原PDF/乘法域及固定安全ω cited系统；边界与因果原条件、det级数 | 小ω因果/inner/非退化、a∞端点及完整physical双源运输没有新独立输入 | 不先续HS/临界紧致性/后章proof/另paper；真实新算术估计或完整signed输入才准，正Dprime不逐层强加Pan |
 | Tate E₂单Mellin源 → Cartier／Poincaré型两源族 | 已形成并强旧前置0止fixed source | 原du/强域、actualPan非零半周期、属一RR及onlypoint kernel责任 | 真principal下降／全源mixed及完整Γpp双pole身份未给；family line非高度 | 不换evaluation/period/添Green或RR续预算；不泛排extra raw frames、非局部/relative/正Dprime；先给实际同源identity或signed净量 |
 | 同对象 relative principal／Green → 截面乘法 → mixed RR | 长期主责；无新几何proof，执行先实际mixed公式形成 | 567真实RR→Hodge机制；579–582实际源／strong域／Green；537明确非根 | 同一非零primitive载体上的实际物理源公式、全关系的principal／Green边界、整过滤与同对象mixed身份 | 先核405全关系及平移、537与全源非根、原du／Dlog和全部尾；无实物不续C045或预建未知合同；保relative／higher／有费无界修复 |
-| 独立正分布 → 完整经典Weil分布 | 条件备选；C049/586谱规则已止，需新完整signed身份 | 577/578真Γ正层/原费/完整gR；Nakamura概率近邻已准确入库 | actualq_R或独立正Dprime完整signed消失仍欠；曲率正性不付横向权／完整身份 | 不续Nakamura§2/引文或第三批query；真独立输入可改策，保逐source/Dprime范围 |
+| 独立正分布 → 完整经典Weil分布 | 577独立正层已给；缺新的完整signed消失信息 | 577/578真Γ正层/原费/完整gR；Nakamura概率近邻已准确入库 | actualq_R或独立正Dprime完整signed消失仍欠；曲率正性不付横向权／完整身份 | 不续Nakamura§2/引文或第三批query；真独立输入可改策，保逐source/Dprime范围 |
 | 固定theta基态半线Dirichlet正谱 | C049/586一轮新反测，预算耗尽 | 全n原势/准确域/strictcount、热Γ缺陷、共同crop及fixedcompact平方差 | 不给完整Wζ身份、全局signed/corecross或primitive容量 | 不改sector/x/H幂/±/常数/cofinalcutoff或补偿拟合；不同实物另准，不泛排confining类 |
 | 互素加法三元组＋log-linear赋值 → mixed规则 | 已实际形成，强旧前置0止 | finiteB du/Dlog费；cofinal全局H1型norm界与q1/corner完整fiber | 本身作完整reader被旧Pan密度排；另有无界腿的correction仍无同源identity/净预算 | 不改γ/c^-2/中心化/cutoff或添Γ拟合；不从finite atoms/ζ常数/未证非零作反证，不泛排其他additive机制 |
 | tensor／Deligne放大 | 条件备选；未有经典实际全族 | 567 tensor与pole机制核查；Deligne I §3 | 非平凡local tensor对象、目标谱身份与全阶global pole控制 | 低阶Euler／Γ／grading检查只作准入；普通测度乘积或ζ幂不足；合并净误差须受控，不把分项次线性当必要 |

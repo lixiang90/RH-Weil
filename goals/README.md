@@ -1,5 +1,7 @@
 # 长期研究恢复入口
 
+2026-10-28，[分类后因果投入审视](reviews/2026-10-28-post-classification-causal-investment.md)已两库存/HNF另稿/fresh/root0闭合，非formal18/cadence不动。577独立正层已付，缺完整signed消失；Green设施已付而principal/primitive/mixed缺，Sonin相消/safehigh也旧。当前无新核心input。HNF族同583全Hecke矩阵/G函数非新raw，仅准下一一次marked两源公式形成/强旧自筛，尚无r,s公式/证明预算。raw因子化一概拒绝宽读冻结，实际新functional另判；exact/cofinal分开。关键瓶颈/whole4/5UPPER未改，0/历史50/latest586/formal17保持，Goalactive。
+
 2026-10-28，[simplepole旧覆盖闭合](reviews/2026-10-28-simple-pole-old-classification-closure.md)已两独占稿/fresh/root核闭：正M单位、横坐标1/A正、完整移线±A与全部Gaussian、μ_A/A及{1}质量给A=1/N整数/Z=ζ，Pi及仅givenP恢复。更强直接正N无需Euler/freegeneration；实际ζ非空基例及旧增长定位已核。只是旧合成0，停止明示simplepole/Γ/FE/strip域的model selection，未给Weil正号/core净费，whole4/5UPPER未改。cadence0/历史50/latest586/formal17不动，无C050/587。下一仅因果投入审视，未执行/非formal18，无新candidate/proof/章节；Goalactive。
 
 2026-10-28，[精确Γ signed替换一次定位](reviews/2026-10-28-signed-replacement-primary-locator-stop.md)已固定3query/16聚合visible、唯一Watkinsv0.5原页及两咨询/fresh/root来源0止。Ma恰旧561且违反unitgap；旧正连续乘积反测只付同Γ/doublepole，非原经典simple双pole。原页第一桥按位置宽读冻结，不泛判加强版/整页；HTML125665b/d12ce1df仅ignoredlocal实存，库有版本/范围。无C050/587/math，cadence0/历史50/latest586/formal17保持，core/whole4/5UPPER未改。下一只明示simplepole/±A/strip衰减的旧覆盖比较，尚未执行，不续query/章/paper；Goalactive。

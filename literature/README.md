@@ -1,5 +1,7 @@
 # RH-Weil 文献索引
 
+2026-10-28，[分类后因果审视](../goals/reviews/2026-10-28-post-classification-causal-investment.md)只核旧项目原件/根记录，无新web/PDF/下载/数值，manifest130项保持。[来源消费范围](supplements/2026-10-28-post-classification-investment-source-scope.md)分root直接段落与三consult范围；HNF已同583全Hecke矩阵/native尾，Gram非新raw或不变量。577正层已付与缺signed消失分别保留，下一仅原公式形成且尚未执行，不添未知paper/章节或证明归属。
+
 2026-10-28，[simplepole旧覆盖](../goals/reviews/2026-10-28-simple-pole-old-classification-closure.md)仅重读项目561/063/HL与旧增长消费记录，无新web/论文/PDF/下载或数值，manifest130项不增。[本轮实际归属](supplements/2026-10-28-simple-pole-old-coverage-source-scope.md)明确DLMF25.2.10/5.11.9只由旧内部locator核非空基例，未新审网页；Gamma inverse由Schwartz Fourier直接核。positiveN分类只是旧应用0，非新Weil正性；下一因果审视未执行，旧HTML全文仍ignoredlocal。
 
 2026-10-28，[精确Γ signed替换一次定位](../goals/reviews/2026-10-28-signed-replacement-primary-locator-stop.md)实际执行3query一批，仅保存Watkins v0.5研究原页HTML（125665bytes/rawSHAd12ce1df…），全文仅ignoredlocal，manifest新增第130项。[实际版本/阅读范围](supplements/2026-10-28-signed-replacement-source-scope.md)限定metadata/§3.4，未追引用/后章。Ma及Gaussian为旧561；doublepole宽读与经典simplepole背景分开，来源0止。下一simplepole旧覆盖比较未执行，无新外部论文proof审计或数学轮。
