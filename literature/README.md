@@ -1,5 +1,7 @@
 # RH-Weil 文献索引
 
+2026-10-29，[算术Koszul标准旧0读取范围](supplements/2026-10-29-arithmetic-koszul-old-scope.md)：只核项目080/581及旧通用positive-D′谱桥/537等明确scope，无新外部primary/query/PDF/下载/数值；manifest131原字节保持。两原稿/不同限定fresh/root已闭，canonical闭域、coprimeF H0、fixed源operatornorm与无界trace的旧谱桥分开；无C056/593，cadence2/history56/latest592/formal18不动。
+
 2026-10-29，[592/C055正周期图读取范围](supplements/2026-10-29-positive-graph-prime-period-scope.md)：只用项目078/079/565/566/404和560/577既有范围、自含finiteword/primitive/diffuse计算；新外部primary/query/PDF/下载/数值0，manifest131原字节保持。两原件/不同数学fresh/root已闭，统一一数学轮至2/history56/latest592/formal18。Origin-only contact在off0桥内覆盖，long/diffuse等实际修复保留，不付Weil PSD或核心正性。
 
 2026-10-29，[Deninger既有消费漏登修复](supplements/2026-10-29-deninger-prior-consumption-catalogue-repair.md)：10-20同章最终消费已找回，非新算术输入/首次primary；manifest补永久条目130→131，原PDF24页/304644字节仅ignored本地，SHA/制作日期与出版日期/实际局部读页分开。当前one-title query/新归档不计数学轮，cadence1/history55/latest591/formal18原字节保持。同章来源门已撤销为旧0，不追后章/引用。
