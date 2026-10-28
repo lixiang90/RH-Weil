@@ -1,5 +1,7 @@
 # RH-Weil 文献索引
 
+2026-10-28，[quiet移动源谱旧消费](../goals/reviews/2026-10-28-quiet-source-spectrum-old-consequence.md)核项目589实际uniform weight/kernel、560/587/588和535/570范围，无新外部web/PDF/下载/数值。Manifest130原字节保持；[实际readscope](supplements/2026-10-28-quiet-source-spectrum-old-scope.md)区分作者旧proof与本地标准Gevrey/frame/minmax消费，最强all-M增长K负阈值不作新数学轮或完整Q负惯性。
+
 2026-10-28，[quarter E*强旧比较](../goals/reviews/2026-10-28-quarter-eisenstein-old-transport-stop.md)只读项目545/C016及旧DIRECT／completion记录，无新外部PDF/web/下载，manifest130原字节保持。[实际readscope](supplements/2026-10-28-quarter-eisenstein-old-scope.md)保noncompact threshold、局部延拓和全部cusp尾，不把旧theta组合或cofinal式首次写出计为新来源／新数学轮。
 
 2026-10-28，[C052／589零均值upper](../goals/reviews/2026-10-28-scalar-upper-589-settlement.md)核既存bramble_trace固定v2的Th6.3(6.11)必要链及旧Burnol PDF6/Th8原norm；无新web/下载/数值，全文原字节保持ignoredlocal，manifest仍130项。[准确readscope](supplements/2026-10-28-sonin-zero-mean-upper-source-scope.md)与两现存条目追加记录区分oldlower、新upper、未消费sharp及原作者归属。

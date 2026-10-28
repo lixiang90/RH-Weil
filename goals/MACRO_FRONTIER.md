@@ -1,5 +1,7 @@
 # 宏观前沿：可消费范围与最小未付箭头
 
+2026-10-28，[quiet移动源最强旧谱](reviews/2026-10-28-quiet-source-spectrum-old-consequence.md)已两具体稿/currentfresh/root旧0核闭：同I0/du冻结g与4/6频带，uniform ε≤Ce^(-c log²X)，source低谱λ_M≤ε、resolvent strong0而norm→1。完整exact Γ分解给all M=floor(log⁶X/(4π))个K负方向、阈值2loglogX，强于polefree弱子界；negativeK在Q中有利，非Q负谱/whole改善。589实际uniform设施直接后果，不建C053/590；cadence3/history53/latest589/formal17字节不动。核心不利正部/cross/primitive-mixed与whole4/5UPPER未改，Goalactive。停止冻结比较，无已准参数/来源后继。
+
 2026-10-28，[quarter E*旧运输](reviews/2026-10-28-quarter-eisenstein-old-transport-stop.md)已两具体审/currentfresh/root0闭：同545 quarter参数，去p bounded输入但有非compact threshold；旧FE/theta/DIRECT局部延拓及coset尾给G_Y=μ_-⊗μ_- logY+O1，scalar校准polefree fixed源→0而完整Q>0。不是fixedY界误套/half-point消pole免域。只止该族，非新C053/590/来源预算；cadence3/history53/latest589/formal17字节保持，核心/whole4/5UPPER未改，Goalactive。下一先本轮发布，无已准后继。
 
 2026-10-28，[C052／589](reviews/2026-10-28-scalar-upper-589-settlement.md)已upper/local/currentfresh/root闭合：每fixed meanzero smooth源actual T=o(√X/log²X)；配旧r0lower/Cauchy给全部fixed源对normalized均值rank1，拒绝任意scalar校准r0的完整Weil逼近，r0prime缺陷趋完整q1>0。原norm/Gram/2π/fullΓpp双pole保；非Dprime全拓扑或全部消失权边界。局部选择改变，核心signed/primitive-mixed/whole4/5UPPER未改。统一一轮2→3/历史52→53/latest589/formal17保持，C052耗尽，Goalactive；下一先本轮发布。

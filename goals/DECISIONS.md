@@ -1847,3 +1847,21 @@ Gaussian仅receiver witness，smallδ/cδ由非零weaklimit一次固定不改候
 同一旧FE/DIRECT经hhat=F_r Z(3/2−it)，Gamma/theta与Jacobi给threshold尾；compact h_N/wholeL2 fixedY连续性和coset e^-c/v domination闭局部延拓，非identity cusp Gaussian sum付全尾。实际G_Y(r,s)=μ_-r overlineμ_-s logY+O1，原r0 scalar校准只剩pole-rank1，固定r*完整q*>0而normalized值0。点wise E*(1/2)相消不使F_r(t−i/2)Z(1+it)的1/t系数L2；μ_-条件保留。Restriction与ΛYwhole norm区别、geometric μ_-3/2与actual双pole角色保持。
 
 这份cofinal式未在545逐字打印，但当前全部短旧组合前件已实际闭，属于最强旧直接应用0。停止此literal族，不准C053/590、新cusp估计/来源续查或改s/r/Y；不泛排不同seed/非紧/joint signed等合法修复。原cadence3/history53/latest589/formal17完整字节保持，非formal18。关键primitive/principal/mixed、signed/core/Xi与whole4/5UPPER未改，Goalactive/open。看板/libraryscope/根绑定/STATE/checkpoint按授权main两段同步并独立核实际HEAD，发布后当前无已准后继，只认真新actual机制/不同具体test。
+
+## D20261028AM — 固定quiet-band的actual移动源谱比较，只先核旧量词
+
+同G20261027/runtime1793085111/原0c4f。Quarter旧0已发布实际HEAD3f311c8，不续C052/quarter/source。Root给实际E_X=span{g exp(i(ell4+2pi j)u)}，M=floor ell6/(4pi)，同I0/du；V_X再交两pole kernel。它直接测试源T算子的growing低能空间与completeK负压缩，而非再造positiveGram/调scalar或C050degree。
+
+只准两个具体proofbearing准入审：period1 du frame/Gevrey/三段uniformtail，以及最强旧/conditional source minmax/K符号消费。589 headline fixed-f不能套moving源，须回到旧6.10 δ1/B6和commutator arbitrary-measurable权的实际量词。535/570 fixedS无限两号与norm化gap→0不能冒当前cofinal fixedthreshold。若更强旧uniform设施已直接付全scope，明确旧0，不以首次写谱结论计新轮；若真有新未付proof工作则root另冻结唯一预算，不预C053/590。
+
+候选成功方向为T在同窗moving空间小、K在polefree空间负；negativeK在Q=T-K+P中有利，不是Q负或whole4/5UPPER改善。sourceoperator/receiverprojection/Q谱分开，强resolvent0不代norm0。参数4/6/g/I0冻结不优化，无新source/web/PDF/数值。原cadence3/history53/latest589/formal17、Goal完成门保持。
+
+## D20261028AN — Quiet最强旧源谱与完整K增长负阈值，根0消费后停止
+
+同G20261027/runtime1793085111/原0c4f。两具体稿10575b/10114b、root最终6786b和currentfresh10761b均实际全文核且版本对齐。589 paid measurable-weight domination、actual δ1/B6 kernel和central mass，加literal g Gevrey2及period1原du frame给全部moving coefficients的T_X≤ε_X du²。源𝒜_X直接在I0关联，λ_M≤ε→0，resolvent strong0而norm→1；不能套fixed-f或大J restriction。
+
+最强旧比较不能停在polefree κ/2、M−2：560完整两个恒等式exact消P给K=T−qΓ+S_visible，冻结空间低Fourier泄漏付全Γ的4loglogX下界，故all M=floor(log⁶X/(4π))个K负方向在阈值2loglogX以下。原两pole kernel弱界正确但更弱。587 first-fixed正谱count仍发散、无growth-index统一率；source/receiver/K/Q谱分开，negativeK是Q中有利号。
+
+作为已付uniform设施的直接旧0恢复，不建C053/590，不增cadence3/history53/latest589/formal17或formal18，不以首次列出谱结论充新输入。它改变强旧可消费谱说明，未改变核心signed正部/cross/primitive-mixed/Xi及whole4/5UPPER，Goalactive/open/noteligible。若arbitrary-measurable actual block前件有语义修正，冻结全部quiet下游并重闭；fixed-f upper不足保留moving族。
+
+停止这份g/I0/4/6比较，不优化频率/rank/指数、续source或C052。不同actual signed/非局部/成长physical窗与primitive机制保持开放。下一先源和metadata两段授权发布及独立核actualHEAD；通过后不重推，当前无已准后继，重准入须新actual输入或不同已执行可改选择的具体比较。无新外部source，manifest130/Goal/cadence字节保持。
