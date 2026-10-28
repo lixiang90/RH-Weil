@@ -43,8 +43,8 @@
     "settled_iterations": [
       "notes/590-inverse-euler-filter-growing-moment-and-normalized-spectral-escape.md"
     ],
-    "stage": "590一数学轮/正式18零数学复盘均root结算，Goalactive；跨日29仅同步。C053耗尽/0since18-history54-latest590，当前无后台。",
-    "next_action": "完成590/formal18当前显式allowlist源提交/push/独立ref-commit-tree核；再receipt+STATE+新synccheckpoint三文件child并核actualHEAD。匹配不重发；无C054/新math/source后继，重准须actual新input/可改选择test。",
+    "stage": "590/formal18的36file source2aaebb5已push并独立3GET核实；现在只metadata三文件child，actualHEAD条件匹配即发布完成。C053耗尽/cadence0-history54-latest590。",
+    "next_action": "仅receipt+STATE+新synccheckpoint三文件child commit/push并独立3GET核actualHEAD；若匹配则发布完成、不重推。无C054/math/source后继；重准须actual新input/已执行可改选择test。",
     "stop_rule": "一完整数学迭代；Riesz/bump/alln或growing-tail断点准确未证止，禁止参数/源/norm/来源救题；旧已蕴含则旧0。"
   },
   "support_contracts": [],
@@ -119,12 +119,12 @@
     "basis": "跨日现场get_goal同1793085111active；实际590/root与formal18/current6973fresh/root均已核，数学与宏观结算后只发布。"
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-10-28-general-rh-cycle18-root.json",
+  "checkpoint": "goals/checkpoints/2026-10-29-inverse-euler-590-cycle18-sync.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
-    "commit": "237948024e762ac0677067a01945079e9cd30222",
-    "tree": "71609523ab48803f65a8fc04513dcf95e2c7794c",
-    "basis": "CCM17file sourcepushterminalexit0＋independent3GET ref/commit/tree matched; endomotive-cooling-admission/remote-sync-verification.json。Metadata actualHEAD另核，不递归自SHA。"
+    "commit": "2aaebb5cf4aadba923fe569cb612d44f774007d1",
+    "tree": "bdaab3b780c0a51a858fd4b7a95af2b9cbcaed48",
+    "basis": "590/formal18 source36files proxy push terminalexit0＋independent3GET ref/commit/tree matched; macro-cycle-18/remote-sync-verification.json。Metadata actualHEAD另核，不递归自身SHA。"
   },
   "completion_audit": {
     "goal": "goals/GOAL.20261027.md",
@@ -134,9 +134,9 @@
     "final_execution_gate": "not-eligible",
     "basis": "Formal18逐门核：590只排本inverseEuler族；无RH/新independent关键输入或实质核心方法类实际全部修复覆盖；Goalopen/noteligible，whole/核心未变。"
   },
-  "process_inventory_observed_on": "跨日现场list_agents核仅root running，其余当前数学/宏观任务均terminal；无source/web/numeric/git后台session。当前只执行590＋formal18正常两段发布。",
+  "process_inventory_observed_on": "全部agent terminal/root消费，无后台web/numeric/git session；source2aaebb5正常push/独立3GET匹配。Metadata三文件待显式commit/push及actualHEAD核。",
   "publication_approval_gate": {
-    "status": "590-formal18-root-settled-ready-source-publication",
+    "status": "590-formal18-source-verified-metadata-finalization",
     "destination": "https://github.com/lixiang90/RH-Weil",
     "visibility": "public",
     "branch": "main",
@@ -146,9 +146,9 @@
       "reply": "每轮把进度同步到github；把文献保存在文献库中，用研究看板来记录各个路线的状况",
       "scope": "本项目研究/Goal/STATE/看板/文献元数据/审查与同步回执；论文再分发许可不明则全文仅本地。"
     },
-    "current_scope": "590全部准入/proof/currentfresh/root/contract、formal18两支持/draft/final/fresh/root、看板/库/STATE/原cadence与checkpoints；自含项目新math，无新primary/全文/页图。",
-    "published_source_commit": "237948024e762ac0677067a01945079e9cd30222",
-    "verification": "reviews/2026-10-28/endomotive-cooling-admission/remote-sync-verification.json"
+    "current_scope": "590/formal18 source36files已核；仅remote receipt+STATE+新synccheckpoint三文件metadata child，同授权main正常push/独立核actualHEAD。",
+    "published_source_commit": "2aaebb5cf4aadba923fe569cb612d44f774007d1",
+    "verification": "reviews/2026-10-28/macro-cycle-18/remote-sync-verification.json"
   },
   "research_board": "RESEARCH_BRANCHES.md",
   "literature_index": "literature/README.md",
