@@ -2948,6 +2948,29 @@
       "proof_status": "Working-programme locator, not independent signed input; exact Ma/Gaussian already561. Doublepole qualification is old continuous-domain countercheck, not classical minimal-background model.",
       "scope_record": "supplements/2026-10-28-signed-replacement-source-scope.md",
       "read_record": "reviews/2026-10-28/signed-replacement-source-location/source-read-record.json"
+    },
+    {
+      "id": "Deninger-1998-ICM-foliated-analogy",
+      "category": "f1",
+      "authors": "Christopher Deninger",
+      "title": "Some analogies between number theory and dynamical systems on foliated spaces",
+      "version": "Documenta Mathematica, Extra Volume ICM1998 I, 163-186; DOI 10.4171/DMS/1-1/2; publisher PDF27103 (24pages). PDF production metadata2018 not publication date.",
+      "file": "local/deninger-icm1998/deninger-analogies-icm1998.pdf",
+      "source_url": "https://ems.press/books/dms/246/4682",
+      "pdf_url": "https://ems.press/content/book-chapter-files/27103?nt=1",
+      "resolved_pdf_url": "https://ems.press/content/book-chapter-files/27103?nt=1",
+      "download_status": "downloaded-local-ignored-not-redistributed",
+      "bytes": 304644,
+      "sha256": "0e99b0df27251838b64be07618cf3e0e600a13a79257bd831a3c3f05fc1ba050",
+      "retrieved_at_utc": "2026-10-28T18:48:30.397616+00:00",
+      "pages": 24,
+      "pdf_parse_status": "selected pages6-7 and14-21 extracted; not all pages parsed",
+      "status": "Previously root-consumed primary source on2026-10-20; permanent manifest entry added2026-10-29 to repair catalogue omission. Not a new arithmetic input or first primary reading.",
+      "read_scope": "Historical: reviews/2026-10-20/grh-literature-roadmap/weil-deninger-facility-audit.md section4.1 records ICM1998 section3 pp168-174 and section4 pp176-183; final independent/root bindings recovered. Current partial recheck only: displayed text PDF6-7,14-19 and extraction-end PDF20-21 (F-system/section5 opening), visual PDF18/printed180. No full section4 or section5 re-audit; no assertion later cited papers were re-read.",
+      "review_note": "../reviews/2026-10-29/deninger-flow-source-gate/root-old-scope-correction.md",
+      "historical_consumption": "../reviews/2026-10-20/grh-literature-roadmap/root-consumption-scope.json",
+      "redistribution": "No new redistribution permission established; original PDF/text/render cache kept in git-ignored literature/local. Public source/version/hash/read scope only.",
+      "documented_prior_primary_consumption_date": "2026-10-20 (verified final/root consumption; not asserted as the first project reading, earlier003 citation retained)"
     }
   ],
   "supplement_provenance": [
@@ -3117,5 +3140,5 @@
       "status": "导数生成器依赖的固定原件；归档，尚未完整核读或运行。"
     }
   ],
-  "last_updated_on": "2026-10-28"
+  "last_updated_on": "2026-10-29"
 }

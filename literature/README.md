@@ -1,5 +1,7 @@
 # RH-Weil 文献索引
 
+2026-10-29，[Deninger既有消费漏登修复](supplements/2026-10-29-deninger-prior-consumption-catalogue-repair.md)：10-20同章最终消费已找回，非新算术输入/首次primary；manifest补永久条目130→131，原PDF24页/304644字节仅ignored本地，SHA/制作日期与出版日期/实际局部读页分开。当前one-title query/新归档不计数学轮，cadence1/history55/latest591/formal18原字节保持。同章来源门已撤销为旧0，不追后章/引用。
+
 2026-10-29，[591/C054证明读取范围](supplements/2026-10-29-connected-occupation-three-test-scope.md)：本轮只用项目旧537/560/C052 actual Tail与localization、自含Gevrey上界及新joint证明，无外部primary/PDF/query/下载/数值。两原proof/不同数学fresh/root已闭，统一一数学轮至1/history55/latest591/formal18；manifest130与原字节保持。高gain必要费不作可达性/算子normlower，核心仍未付。
 
 以下为各日期的历史读取记录，当前执行只读STATE。

@@ -2007,3 +2007,13 @@ C054两原proof16555/11649、域澄清1177及不同数学fresh10103 PASS已termi
 唯一cadence已实核原0/history54/latest590后统一消费一轮为1/history55/latest591，formal18/原冻结0c4f/同runtime1793085111保持；证明作者/澄清/fresh/结算/推送不另计。新primary/PDF/query/download/numeric0，manifest130及原字节不改，文献scope补充。高gain/成长混合、非occupation/逐源不同R/其它signed几何是合法未排修复，Goal完成门仍open/noteligible，不缩成已证子类。
 
 C054一轮耗尽，不续ψ/a/δ/gain率/未知source，无已准C055。当前唯一下一为本轮源证据/单cadence/看板/文献/STATE/checkpoint正常main发布，独立3GET核source；回执+STATE+新sync检查点metadata child再核实际HEAD/tree/parent，条件成立不重推。后续研究须具体新actual input或能改变选择的已执行比较，不能以必要费换名续局部优化。结算见goals/reviews/2026-10-29-connected-occupation-591-settlement.md及当前根收据。
+
+## D20261029F — Deninger同章强旧恢复：撤销阅读信息差，补永久目录而不重计
+
+上轮source3012f4a/actualmetadata b084a78/parent/tree和clean已现场独立3GET，条件成立不重推。Root拟以002/003弱概述和manifest130缺条重核Deninger ICM1998 §4，single exact-title query及局部复核已执行；并行旧账发现10-20同§3/§4专题/独立终审/root更强消费已在。旧账9126和不同限定fresh4768 PASS均terminal/root全文核，原准入信息差已撤销，旧0止；不把manifest缺条当未读、不从新下载授C055/592或后章/引用预算。
+
+恢复的最强设施包括实际可能无限维的正Hodge与actual rational-Witt flow，各自适用类、packet/定常点、群/域和完整trace仍不能免费拼接。079只止prime-local正常全纯极限，不排所有normal算子/global cohomology。主缺口仍同一非零arithmetic primitive的physical源/全405下降/537非根与coverage、principal/sections/mixed及完整Γpp双pole；核心与whole4/5负惯性UPPER、591的局部数学范围均未改。并非新的数学输入或独立正性。
+
+永久文献条目补漏130→131，原PDF24页/304644bytes/SHA仅ignored本地；actual partial复核页和只有PDF18视觉明确，不冒全§4/5。10-20改记有文档的既有消费日期，不断言首次项目阅读日；fresh要求的字段修复已实际通过。唯一cadence1/history55/latest591/formal18原字节不动，来源/归档/两审/推送0数学，不重验旧Goal。
+
+当前仅发布纠错/旧范围/看板/文献/STATE/checkpoint，独立核source和三metadata child实际HEAD。无已准后继数学/source合同，不串下篇/另paper或续591参数；下一预算须新的actual公式或已执行具体比较的input/test/net记录，不能用旧Hodge/tempered条件改名。Goal同1793085111active/open/noteligible，既不降低完成门，也不因难题未知而blocked。科学范围与执行见goals/reviews/2026-10-29-deninger-hodge-prior-scope-recovery.md及本次根收据。

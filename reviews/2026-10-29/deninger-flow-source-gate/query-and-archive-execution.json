@@ -1,0 +1,26 @@
+{
+  "schema": "rh-weil-source-execution-v1",
+  "client_date": "2026-10-29",
+  "query_batch_count": 1,
+  "query_count": 1,
+  "exact_query": "Deninger \"Some analogies between number theory\" \"foliated spaces\"",
+  "selected_source": "https://ems.press/books/dms/246/4682",
+  "selected_pdf": "https://ems.press/content/book-chapter-files/27103?nt=1",
+  "publisher_publication_date": "1998-01-01 (publisher page)",
+  "doi": "10.4171/DMS/1-1/2",
+  "selection": "Same previously consumed1998 primary identified; no unrelated search results consumed and no second query/paper. Web find is locator-only except displayed excerpts; no assertion full PDF was read.",
+  "download": {
+    "local_relative_path": "literature/local/deninger-icm1998/deninger-analogies-icm1998.pdf",
+    "bytes": 304644,
+    "sha256": "0e99b0df27251838b64be07618cf3e0e600a13a79257bd831a3c3f05fc1ba050",
+    "pages": 24,
+    "proxy": "http://127.0.0.1:10808 (command scoped, user authorized)",
+    "sandbox_attempt": "curl exit1: could not connect over proxy; dependent extract then failed with missing file, no success claimed",
+    "authorized_escalated_attempt": "curl terminal exit0, raw file metadata/hash verified",
+    "redistribution": "Not established. Actual git check-ignore passed for PDF/extracted text/render. No fulltext/cache/image staged."
+  },
+  "actual_current_read_scope": "Displayed local text PDF6-7 and14-19; extraction-end20-21 (F-system/section5 opening). Visual PDF18/printed180 only. Singlefile render requested18-19 and wrote only first page; no false second-page visual claim. Not a full section4/5 re-audit. Web find locators outside this scope are not proof reads.",
+  "semantic_correction": "Initial information-gap premise ignored stronger2026-10-20 exact same section consumption. It is withdrawn in root-old-scope-correction.md. Historical source/final/root records inspected before consumption; no new math admission or recursive chapter/paper queue.",
+  "catalogue": "One previously consumed but permanently unlisted source entry130->131. New local archive copy1; first project primary reading0; new actual arithmetic input0.",
+  "cadence": "math0/source-old0, original1/history55/latest591/formal18 unchanged"
+}
