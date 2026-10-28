@@ -2971,6 +2971,30 @@
       "historical_consumption": "../reviews/2026-10-20/grh-literature-roadmap/root-consumption-scope.json",
       "redistribution": "No new redistribution permission established; original PDF/text/render cache kept in git-ignored literature/local. Public source/version/hash/read scope only.",
       "documented_prior_primary_consumption_date": "2026-10-20 (verified final/root consumption; not asserted as the first project reading, earlier003 citation retained)"
+    },
+    {
+      "id": "VanDerGeer-Schoof-1999-arakelov-theta-RR-v3",
+      "category": "f1",
+      "authors": "Gerard van der Geer; René Schoof",
+      "title": "Effectivity of Arakelov divisors and the theta divisor of a number field",
+      "version": "arXiv:math/9802121v3,1999-06-29; SelectaMath6(2000)377-398. PDFproduction2024 distinguished fromversion.",
+      "file": "local/arakelov-theta-rr-source-gate/van-der-geer-schoof-math-9802121v3.pdf",
+      "source_url": "https://arxiv.org/abs/math/9802121v3",
+      "pdf_url": "https://arxiv.org/pdf/math/9802121v3",
+      "resolved_pdf_url": "https://arxiv.org/pdf/math/9802121v3",
+      "download_status": "downloaded-local-ignored-not-redistributed",
+      "bytes": 405773,
+      "sha256": "39ddc65d010a2f568f46de7e5418ea0be3f995f6eb98dca2a850a0ac8ed52111",
+      "retrieved_at_utc": "2026-10-28T22:07:41.108368+00:00",
+      "pages": 21,
+      "pdf_parse_status": "Machine pdftotext layout generated21pages; actualrootselectedtext/visual scopes separately recorded, not fullpaper review.",
+      "status": "Selected section3 sourcegate root/differentfresh closed. Classical thetaRR confirmed with precise correction; no actual samephysical source/mixed bridge, source0stop notnewmath.",
+      "read_scope": "PDF2-8 text; consume only required section2 definitions/section3 effectivity,h0,Proposition1,Example1 Q atPDF7-8opening; variants/otherexamples not consumed; Complete PDF5/6/7 rendered and visually inspected; keyformulas legible despite font warnings on5/6",
+      "review_note": "../reviews/2026-10-29/arakelov-theta-rr-source-gate/root-consumption-scope.json",
+      "semantic_warning": "v3 PDF7 literal different*I^-1 sum index frozen; correct inverse-different*I^-1/canonical ideal/complexconjugation scope root-fresh reclosed. Q unaffected; no originalPDF edit.",
+      "prior_scope": "Exacttitle/author/id direct older chapter consumption not found, historicalfirst reading unknown; do not assertfirstever.",
+      "redistribution": "Redistribution permission not established; fulltext/text/pageimages in ignored literature/local; gitcheckignore confirmed",
+      "journal_catalogue_url": "https://dare.uva.nl/id/90c8096b-5a90-42f5-b497-52ebc88a7243"
     }
   ],
   "supplement_provenance": [

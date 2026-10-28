@@ -1,0 +1,28 @@
+{
+  "url": "https://arxiv.org/pdf/math/9802121v3",
+  "resolved_url": "https://arxiv.org/pdf/math/9802121v3",
+  "bytes": 405773,
+  "sha256": "39ddc65d010a2f568f46de7e5418ea0be3f995f6eb98dca2a850a0ac8ed52111",
+  "retrieved_at_utc": "2026-10-28T22:07:41.108368+00:00",
+  "path": "literature/local/arakelov-theta-rr-source-gate/van-der-geer-schoof-math-9802121v3.pdf",
+  "arxiv_version": "math/9802121v3",
+  "version_date": "1999-06-29",
+  "journal_publication_year": 2000,
+  "pages": 21,
+  "pdf_title": "arXiv:math/9802121v3 [math.AG] 29 Jun 1999",
+  "pdf_creation_date_raw": "D:20241126160350-05'00'",
+  "pdf_creation_date_role": "PDF production metadata only; not mathematical version/publication date",
+  "text_extraction": "TeXLive pdftotext -layout; bundled pdftotext absent, bundledpdfinfo/pdftoppm used",
+  "root_read_scope": "PDF2-8 text; consume only required section2 definitions/section3 effectivity,h0,Proposition1,Example1 Q atPDF7-8opening; variants/otherexamples not consumed",
+  "root_visual_scope": "Complete PDF5/6/7 rendered and visually inspected; keyformulas legible despite font warnings on5/6",
+  "license_and_git": "Redistribution permission not established; fulltext/text/pageimages in ignored literature/local; gitcheckignore confirmed",
+  "query_record": {
+    "query": "\"Effectivity of Arakelov divisors\" \"theta\" arxiv",
+    "batches": 1,
+    "opened_primary_abstract": "https://arxiv.org/abs/math/9802121",
+    "other_body_chapters_read": false
+  },
+  "semantic_warning": "v3 PDF7 literal different*I^-1 sum index frozen; correct inverse-different*I^-1/canonical ideal/complexconjugation scope root-fresh reclosed. Q unaffected; no originalPDF edit.",
+  "fresh_read_scope": "PDF2-3 necessarydefs/PDF5-7 full/PDF8Qopening; complete5/6/7visual, no laterchapter",
+  "source_gate_status": "Two terminal originals/differentfresh/root closed; source0stop"
+}

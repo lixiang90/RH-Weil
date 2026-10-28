@@ -1,5 +1,7 @@
 # RH-Weil 文献索引
 
+2026-10-29，[van der Geer–Schoof theta-RR读页](supplements/2026-10-29-arakelov-theta-rr-source-scope.md)：固定math/9802121v3实际21pages/405773bytes原件仅ignored本地，manifest去重131→132。只消费必要§2定义/§3 RR Proposition1及Q例子，root/source/fresh整页视觉核5–7；未读后章。保theta-h0与smallsection区别、inverse-different下标校勘及真实tensor角色，不作新mixed正性或首次历史阅读断言。来源0，cadence2/history56/latest592/formal18不动。
+
 2026-10-29，[Möbius–Green旧来源范围](supplements/2026-10-29-mobius-green-old-scope.md)：只核项目405/518–520/522/525/526与080–082的具体接口，标准Jensen/RvM/Laplace域门自含补明；无新外部primary/query/PDF/下载/数值，manifest131原字节保持。两原稿/不同fresh/root闭，恢复同域旧0，不续μ增长/权/完成/source，不计数学轮，关键瓶颈与whole4/5UPPER未改。
 
 2026-10-29，[算术Koszul标准旧0读取范围](supplements/2026-10-29-arithmetic-koszul-old-scope.md)：只核项目080/581及旧通用positive-D′谱桥/537等明确scope，无新外部primary/query/PDF/下载/数值；manifest131原字节保持。两原稿/不同限定fresh/root已闭，canonical闭域、coprimeF H0、fixed源operatornorm与无界trace的旧谱桥分开；无C056/593，cadence2/history56/latest592/formal18不动。

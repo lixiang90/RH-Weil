@@ -1,5 +1,7 @@
 # 长期研究恢复入口
 
+2026-10-29，[theta算术RR一章来源0止](reviews/2026-10-29-arakelov-theta-rr-source-gate-stop.md)：van der Geer–Schoof v3原件实际归档132；两原稿/不同fresh/root闭。保真实principal/格/整数tensor及theta-h0 RR，区别smallsection log#，不从norm乘法偷渡Gaussian权/无碰撞mixed。PDF7 literal generalF下标冻结，inverse-different/canonical ideal有限重闭，Q不受影响；finiteB非module仅非平凡情形。本文所核页未给r→D/Pan537/mixed桥，非全paper/全部Arakelov失败；无后章/引用/参数续批，无C056/593。关键瓶颈与whole4/5负惯性UPPER未改，cadence2/history56/latest592/formal18不动，Goalactive；当前准确范围发布。
+
 2026-10-29，[Möbius–Green同域旧0](reviews/2026-10-29-mobius-green-critical-domain-old-stop.md)：两原稿/不同fresh/root闭，实际V正是518/525反射半密度逆。全I响应L²，故裸商丢两个degree；每非零compact源的普通criticalL²响应不有限，由旧pole/Jensen/RvM/Laplace直接得，不付临界增长。只证ambient非Hausdorff，conditional左Jordan不假离线存在；不排NB或全部Green。关键primitive/principal/mixed/corecross/Ξ与whole4/5负惯性UPPER未改；cadence2/history56/latest592/formal18及manifest131不动，Goalactive。当前只本门准确范围发布，无C056/593/来源续批。
 
 2026-10-29，[Koszul谐和源准入0止](reviews/2026-10-29-arithmetic-koszul-harmonic-source-old-stop.md)：两原稿/不同限定fresh/root闭，canonical整数/exterior纤维D²=rI、gap1/真实h域可付；finiteF/full整数H0保coprimeF，全prime才vacuum。每fixed ArP有operator-norm滤波，任意合法gain/rank正谱的fullsource反测另由旧UBP/Schwartz尾付，只留meanrank1，与537正源冲突。标准分辨率＋旧通用谱桥直接组合0，无C056/593；不把different080/581/旧cone借成同pair，不否定其它Hodge/Green/source/clock/完成。实际瓶颈与whole4/5UPPER未改，cadence2/history56/latest592/formal18原字节保持，Goalactive/open。当前先本次范围发布，无已准后继。

@@ -1,0 +1,143 @@
+{
+  "schema": "rh-weil-root-premise-closure-v1",
+  "date": "2026-10-29",
+  "status": "root-fresh-closed-single-theta-RR-source-gate-stop-no-new-math",
+  "goal": "goals/GOAL.20261027.md",
+  "runtime_created_at": 1793085111,
+  "baseline_commit": "0c4f3a3eb609bb1d9564138fa4a35701f05605f2",
+  "root_consumption": "Both terminal prior7322/source6557, different limitedfresh7091 PASS, root independent draft and actualPDF scope full-read/consumed by root. Fresh four frozen inputs unchanged. Initial unread/pending language in prototypes is historical, discharged here. One chapter source0, no C056/593 or new math count.",
+  "primary_source_raw": {
+    "path": "literature/local/arakelov-theta-rr-source-gate/van-der-geer-schoof-math-9802121v3.pdf",
+    "url": "https://arxiv.org/pdf/math/9802121v3",
+    "bytes": 405773,
+    "sha256": "39ddc65d010a2f568f46de7e5418ea0be3f995f6eb98dca2a850a0ac8ed52111",
+    "pages": 21,
+    "hash_mode": "raw binary; never LF-normalize PDF",
+    "version": "arXivv3 revised1999-06-29; journal2000; production metadata2024 distinguished",
+    "read_scope": "Root/source textPDF2-8, consumptiononly requiredsection2 definitions/section3 effectivity,theta-h0,Proposition1 andQExample1 at7-8opening. Root/source/fresh completevisual5/6/7. Fresh text2-3/5-7/8opening; no later chapters,variants,otherexamples consumed asrepair.",
+    "local_only": "PDF/text/pageimages in ignoredliterature/local. Actual checkignore passed; redistribution permission not established, only public metadata/hash/scopes."
+  },
+  "object_norm_domain_roles": {
+    "arithmetic_object": "D finiteinteger coefficients atfiniteprimes andreal atarch, I_D productP^-xP, metric perreal/complexsource conventions; degree/productformula and genuineprincipal(a). Multiplicationa maps I_(D+(a))=a^-1I_D isometrically toI_D. Theta-h0 is nonlinear Pic invariant; it is not itself a linear principal charge.",
+    "section_statistics": "Sourcep5 recalls finite smallsections log# thenp6 explicitly replaces with infiniteadditive latticeI_D and Gaussian weightedtheta log. Q L_x=(Z,e^-x|n|): hhat=log(2floor(e^x)+1), Phi=log sumZ exp(-pi n²e^-2x); x<0 hhat0 butPhi>0. Phi0>0 merelyzero-class basevalue, notnonzero principaldivisorclass.",
+    "RR": "Correctcanonical ideal inverse-different; degkappa=log|Delta|, covolI=sqrt|Delta|/N(D), Poisson factorN(D)/sqrt|Delta|. Full dualidentity htheta(D)-htheta(kappa-D)=degD-.5log|Delta|. Q kappa0/Delta1 givesPhi(x)-Phi(-x)=x. This is genuineclassical arithmeticRR/Poisson, notsurface signedmixedRR, independentH1 orclassicWeil positivity.",
+    "integer_multiplication": "Q Z tensor_Z Z ->Z via m tensor n->mn is genuineisomorphism and puretensor norm exact forL_x tensorL_y=L_(x+y). FiniteB_x set multiplication isdifferent, x=y=log2 misses±3 andhascollisions; B0 pairsize9 target3 forbidsfreecountlower. Finite B_x nonmodule onlyfornontrivialx>=0; x<0 B_x={0} zero-module exception explicitly consumed byfresh/root.",
+    "Gaussian_weight": "Atfixedx=y0 w1=e^-pi: w(1*1)>w1², w(2*2)<w2²; rootvaryingx examplealso correct. No uniformweight-character transport frompuretensor norm. Theta_x Theta_y=Theta_(orthogonaldirectsum), notTheta_(rank1tensor). IntegerTheta powers notGoal true localtensor/globalallorderpole input.",
+    "source_norm_quantifiers": "Actualstandalone divisor/section formulas forfixedF,D andallrealQ scales. No actual complexphysical r->D/family, nooriginaldu/zeroextensionDlog orstrongsourcefees, nofullsource/growingwindow uniform bounds orsameobjectmixedcoupling. Complexformal integration notanintegerdivisor construction.",
+    "relation_primitive_roles": "Sourceprincipal a inF* genuine, but notidentified with405 allnoncompactPan/translates.537 nonroot/fullpositivewindow coverage nottransported; Pic0Q trivialonlyforordinarydegree0Q Pic target, notallrelative/highergeometry. Fixedfiniteparameter Hessian conditionallyhasnonzerocommonkernel byold537, notallsourceadaptive/growing/nonlocalmaps."
+  },
+  "semantic_reclosure": {
+    "literal_freeze": "v3 PDF7 displays Poisson sum index different*I^-1, incompatible withsamepagecanonical ideal. Do notconsume literal generalF index; originalPDF unmodified.",
+    "correct_branch": "I_(kappa-D)=inverse-different*I^-1 bysameidealdefinition; trace dual {a:Tr(aI)subsetZ} equals thatideal. Complexcoordinate conjugation isometry identifiesEuclideandual and preservesGaussian sum. Togethercovolume givescorrectPoisson/RR; fresh/rootreclosed withinselectedscope.",
+    "unaffected": "Q different1, soallactualrank1/product/countertests unaffected. DoesnotinvalidateRR orchangeexistingCCM/KRY/583freezes.",
+    "finite_set_wording": "Sourceunqualified finiteBx-notmodule sentence notconsumed universally; fresh/rootrestrictionx>=0 adopted. x<0 zero-module explicitly retained, noaffectedcountertest."
+  },
+  "paid_dependencies_errors": "One exacttitle query/arXivabstract andfixedPDFdownload; actualclassicaldefinitions/Poisson dualnorm andelementarysection/productcomparisons. No numeric experiment, no hiddenh1 theorem, no furtherpaper/chapter.573P1_Z integerfiltration,307functionfieldRR,552/553 andcorrectedscalarPoissonfees citedaspaidoldtypeassets; notborrowed asphysicalbridge ornew proof.",
+  "strongest_old_net": {
+    "classification": "single-chapter primarysource scope/typed-semantics andlimitedcitation correction; no new independent arithmeticpositivity ormathestimate",
+    "actual_bottleneck_changed": false,
+    "whole": "542+555->557 leading4/5 negativeinertiaUPPER unchanged; no lower/proportion/positivity claim",
+    "stop": "No C056/593, Q/rank/theta weight, nextchapter/two-variable/references/paperqueue. Different actualinput/test/net required."
+  },
+  "remaining_coverage_coupling": "Same nonzero arithmeticprimitive->actualprincipal/Green->integerfilteredsections/multiplication->mixedRR andcompleteclassicWeil signedidentity still unpaid. AllGamma/contact/properpowers/doublepole, physicalnorm/strongfees andgrowingdangerouscorecross/Xi notclosed bythetaRR. Differentrelative/higher/paidnorm/sourceadaptive/signed mechanisms notrefuted andnotfunded automatically.",
+  "runtime_gate": "Same1793085111active verified atroot actualexecution/consumption, open/noteligible; noGoal completion,pause,block orbaseline rollover",
+  "observations": {
+    "cadence": {
+      "path": "goals/review-cadence.json",
+      "bytes_lf": 6559,
+      "sha256_lf": "ea44d838ee01c575b03fab5a1aa3986134ee5f8e55e7fd55d7b5cbbe2eef714d",
+      "scope": "Unchanged2/history56/latest592/formal18; historicalobservation notfuturelivebinding"
+    },
+    "manifest": {
+      "path": "literature/manifest.json",
+      "before_entries": 131,
+      "after_entries": 132,
+      "old131preserved": true,
+      "bytes_lf": 200620,
+      "sha256_lf": "6028541b787e0e1791ed30d82f4c30fa302078fa51b8c25d6ada6c0e8566d303",
+      "scope": "Onlyoneactualnewprimaryfile/metadata. Historicalafter-observation, futurearchivegrowth allowed."
+    }
+  },
+  "bindings": [
+    {
+      "path": "goals/GOAL.20261027.md",
+      "bytes_lf": 9679,
+      "sha256_lf": "b3d2acb1f962d793f45d79b6a4e67fb87dd072cd4752108a9298204b4cefa1de"
+    },
+    {
+      "path": "goals/reviews/2026-10-28-general-rh-macro-review-cycle-18.md",
+      "bytes_lf": 11357,
+      "sha256_lf": "1dcfe4889d812ceaf1c6c82536b149f1bd8c54fc2602f8bd2cc0c0f77f3b8463"
+    },
+    {
+      "path": "notes/307-odd-polarization-and-elliptic-degree-benchmark.md",
+      "bytes_lf": 8142,
+      "sha256_lf": "8949a102ba6aa69d23173ae0895c7bd4d1fb4e1c0955c562e37bd17679c855f9"
+    },
+    {
+      "path": "notes/537-source-exact-weil-window-positive-tail-admission.md",
+      "bytes_lf": 8155,
+      "sha256_lf": "269a500556d37fc04a4e44efd2f0899414787743e529506dbbe7395a34eea9f8"
+    },
+    {
+      "path": "notes/552-radial-adelic-green-principal-and-comparison-gate.md",
+      "bytes_lf": 9192,
+      "sha256_lf": "670c05aac61921a4f36accc89638e2844fe7221df6341e4e7ff27964fb22d887"
+    },
+    {
+      "path": "notes/553-principal-cyclic-closure-and-cofinal-readout-fees.md",
+      "bytes_lf": 6613,
+      "sha256_lf": "35a40c35d1eaa7fafb462361ddef1bfb9643402b5670f832b9142aeb4b74abce"
+    },
+    {
+      "path": "notes/573-relative-ideal-chain-closure-and-regulator-loss.md",
+      "bytes_lf": 13719,
+      "sha256_lf": "da5ed121715fa71ce3e83c61aef7160825778ce0beeca8df39d4ae55fbb4cd93"
+    },
+    {
+      "path": "reviews/2026-10-27/corrected-theta-source/root-consumption-scope.json",
+      "bytes_lf": 8442,
+      "sha256_lf": "1b0e31036e9b07ca64ea32ebe2a7ba3ed3d9db3b0aec92edcab2ebc523696365"
+    },
+    {
+      "path": "reviews/2026-10-29/arakelov-theta-rr-source-gate/root-locator-and-one-chapter-admission.md",
+      "bytes_lf": 3826,
+      "sha256_lf": "01e454c9f00d8b01ac6512a0d65ed02eae0c35b3d821d3a7e257603c07828088"
+    },
+    {
+      "path": "reviews/2026-10-29/arakelov-theta-rr-source-gate/root-section-and-mixed-interface-draft.md",
+      "bytes_lf": 7177,
+      "sha256_lf": "53f194c763bb464d220478ecd15b34ca9ef98aedabb8beebdf339849ae641616"
+    },
+    {
+      "path": "reviews/2026-10-29/arakelov-theta-rr-source-gate/prior-chapter-scope.md",
+      "bytes_lf": 7322,
+      "sha256_lf": "be776e2171c81e7b86a8204dccd84f8d0ea68c945d2a51c896e54670844b0b5f"
+    },
+    {
+      "path": "reviews/2026-10-29/arakelov-theta-rr-source-gate/rr-source-and-integral-product-audit.md",
+      "bytes_lf": 6557,
+      "sha256_lf": "bc72865bc0c630d415704f4c6d32bcb1a3da32fb79d7bd496a2731cba56f14aa"
+    },
+    {
+      "path": "reviews/2026-10-29/arakelov-theta-rr-source-gate/fresh-rr-and-source-scope-audit.md",
+      "bytes_lf": 7091,
+      "sha256_lf": "d9b6218bccd6a75c17d43306221408619f99f6df1a664b333bf0e5baa6826adc"
+    },
+    {
+      "path": "reviews/2026-10-29/arakelov-theta-rr-source-gate/download-metadata.json",
+      "bytes_lf": 1882,
+      "sha256_lf": "ce6e2af96086c796d046c15daa5a17f13b18324912fe46d0d46939bd9daf22e4"
+    },
+    {
+      "path": "goals/reviews/2026-10-29-arakelov-theta-rr-source-gate-stop.md",
+      "bytes_lf": 3346,
+      "sha256_lf": "1118738f711962f9619a31481b177eec6ca337d7fe25cadad4c202db3a9f4f37"
+    },
+    {
+      "path": "literature/supplements/2026-10-29-arakelov-theta-rr-source-scope.md",
+      "bytes_lf": 2260,
+      "sha256_lf": "fbf8bcebb655c3aeb737fdc51ee3c5dc9857369cb883d696a510e1955e1d1e88"
+    }
+  ]
+}
