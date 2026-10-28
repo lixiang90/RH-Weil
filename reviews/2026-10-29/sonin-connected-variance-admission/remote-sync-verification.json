@@ -1,0 +1,32 @@
+{
+  "schema": "rh-weil-remote-source-verification-v1",
+  "client_date": "2026-10-29",
+  "repository": "https://github.com/lixiang90/RH-Weil",
+  "branch": "main",
+  "source_commit": "c9e28a941329314e43fac302e2a93c2256ad4dc2",
+  "source_tree": "6b8b02b18aafd644a29a3614d974a18c7e892a0a",
+  "source_parent": "72024ee9cc5a7341edc94babbde08524788bf28a",
+  "source_push": {
+    "normal_fast_forward": true,
+    "command_scoped_proxy": "127.0.0.1:10808",
+    "terminal_exit_code": 0
+  },
+  "independent_github_gets": {
+    "urls": [
+      "https://api.github.com/repos/lixiang90/RH-Weil/git/ref/heads/main",
+      "https://api.github.com/repos/lixiang90/RH-Weil/git/commits/c9e28a941329314e43fac302e2a93c2256ad4dc2",
+      "https://api.github.com/repos/lixiang90/RH-Weil/git/trees/6b8b02b18aafd644a29a3614d974a18c7e892a0a"
+    ],
+    "observed_at_utc": "2026-10-28T17:51:34.256Z",
+    "ref_commit_tree_parent_all_match": true
+  },
+  "scope": "16 project research/admission/review/board/library/state/checkpoint files; legal actual joint rule, quantitative cofinal input unformed, no mathematical failure claim; zero new math/source budget/foreign fulltext.",
+  "metadata_child": {
+    "allowed_paths": [
+      "reviews/2026-10-29/sonin-connected-variance-admission/remote-sync-verification.json",
+      "goals/STATE.json",
+      "goals/checkpoints/2026-10-29-sonin-connected-variance-admission0-sync.json"
+    ],
+    "postcondition": "Normal child push then independent ref/gitcommit/tree validation of actualHEAD/tree/parent. Receipt binds source only, no recursive child SHA."
+  }
+}

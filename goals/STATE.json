@@ -43,8 +43,8 @@
     "settled_iterations": [
       "notes/590-inverse-euler-filter-growing-moment-and-normalized-spectral-escape.md"
     ],
-    "stage": "C053耗尽；Vjoint两支持/fresh5658/root准入0消费已闭，未定V成败；old2logb边界paid/Ωcofinal未付。待本次发布。",
-    "next_action": "只本次Vjoint证据/看板/文献/STATE/sourcecheckpoint正常main发布并独立3GET；再receipt+STATE+新synccheckpoint child/actualHEAD核。匹配不重推，无math/source后继。",
+    "stage": "Vjoint准入0 sourcec9e28a9的16files已正常push/独立GitHub3GET ref/commit/tree/parent核；仅三文件metadata child待actualHEAD核；C053耗尽/cadence0。",
+    "next_action": "仅receipt+STATE+新synccheckpoint三文件child commit/push并独立3GET核actualHEAD/tree/parent；若匹配则本次发布完成、不重推。无math/source后继；须actual量化sameΠ双频输入或不同已完成fixedtest才重准。",
     "stop_rule": "一完整数学迭代；Riesz/bump/alln或growing-tail断点准确未证止，禁止参数/源/norm/来源救题；旧已蕴含则旧0。"
   },
   "support_contracts": [],
@@ -129,12 +129,12 @@
     "basis": "Root现场get_goal同实例active；实际Vjoint规则已固定/派两支持，尚非新数学合同。"
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-10-29-sonin-connected-variance-admission0-root.json",
+  "checkpoint": "goals/checkpoints/2026-10-29-sonin-connected-variance-admission0-sync.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
-    "commit": "cf7f774307c66e7dcc933307db11d687378a464d",
-    "tree": "db91b3c50b24e0f719d3dbcce2b55ee972b44c90",
-    "basis": "C2本次15files source正常push terminal0＋独立GitHub3GET ref/gitcommit/gittree匹配；finite-monodromy-tensor-admission/remote-sync-verification.json。Metadata实际HEAD另核，不递归自身SHA。"
+    "commit": "c9e28a941329314e43fac302e2a93c2256ad4dc2",
+    "tree": "6b8b02b18aafd644a29a3614d974a18c7e892a0a",
+    "basis": "Vjoint16files source正常push terminal0＋独立GitHub3GET ref/gitcommit/gittree匹配；sonin-connected-variance-admission/remote-sync-verification.json。Metadata实际HEAD另核，不递归自身SHA。"
   },
   "completion_audit": {
     "goal": "goals/GOAL.20261027.md",
@@ -144,9 +144,9 @@
     "final_execution_gate": "not-eligible",
     "basis": "Formal18完成门保持；当前合法joint规则/条件门未给独立cofinal净输入或完整核心类边界，Goalopen/noteligible，whole与核心未变。"
   },
-  "process_inventory_observed_on": "当前Vjoint两作者与不同fresh本次均terminal/root全文消费，代数child不代总审；无后台web/git/numeric，只待发布。",
+  "process_inventory_observed_on": "Vjoint两作者/不同fresh本次全部terminal/root消费；sourcec9e28a9 push terminal0/独立3GET已核，无后台session。仅metadata child/actualHEAD待核。",
   "publication_approval_gate": {
-    "status": "sonin-connected-variance-admission0-ready-source",
+    "status": "sonin-connected-variance-admission0-source-verified-metadata-finalization",
     "destination": "https://github.com/lixiang90/RH-Weil",
     "visibility": "public",
     "branch": "main",
@@ -156,9 +156,9 @@
       "reply": "每轮把进度同步到github；把文献保存在文献库中，用研究看板来记录各个路线的状况",
       "scope": "本项目研究/Goal/STATE/看板/文献元数据/审查与同步回执；论文再分发许可不明则全文仅本地。"
     },
-    "current_scope": "当前Vjoint实际规则/核账/强旧/条件门/gap/准入0原件、fresh/root与看板/文献scope/STATE/checkpoint，同原授权main，不含第三方全文。",
-    "published_source_commit": "cf7f774307c66e7dcc933307db11d687378a464d",
-    "verification": "reviews/2026-10-29/finite-monodromy-tensor-admission/remote-sync-verification.json"
+    "current_scope": "本次source16files已核；仅receipt+STATE+新synccheckpoint三文件metadata child，原授权main正常push并独立核actualHEAD。",
+    "published_source_commit": "c9e28a941329314e43fac302e2a93c2256ad4dc2",
+    "verification": "reviews/2026-10-29/sonin-connected-variance-admission/remote-sync-verification.json"
   },
   "research_board": "RESEARCH_BRANCHES.md",
   "literature_index": "literature/README.md",
