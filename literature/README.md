@@ -1,5 +1,9 @@
 # RH-Weil 文献索引
 
+2026-10-29，[591/C054证明读取范围](supplements/2026-10-29-connected-occupation-three-test-scope.md)：本轮只用项目旧537/560/C052 actual Tail与localization、自含Gevrey上界及新joint证明，无外部primary/PDF/query/下载/数值。两原proof/不同数学fresh/root已闭，统一一数学轮至1/history55/latest591/formal18；manifest130与原字节保持。高gain必要费不作可达性/算子normlower，核心仍未付。
+
+以下为各日期的历史读取记录，当前执行只读STATE。
+
 2026-10-29，[Sonin connected-variance准入scope](supplements/2026-10-29-sonin-connected-variance-admission-scope.md)：只核项目actualΠ/HS及旧fullgap三范围，未新读外部primary/PDF/query/下载/数值。Manifest130原字节保持；同norm/全G逆/complex核账与条件Cauchy门分开，2logb旧边界paid/Ωcofinal未付。当前准入0止，非V数学失败/新输入，Goalactive。
 
 2026-10-29，[fixedC2 tensor旧比较范围](supplements/2026-10-29-fixed-c2-tensor-old-scope.md)：附件仅§6.1–6.2/项目001002073及KRY旧scope，自含标准C2/integralfiber/Γ端点账，未新读外部primary/PDF/query或下载/数值。Manifest130原字节保持，localα/global谱消费分开；0数学/0source，完整physical桥仍欠。

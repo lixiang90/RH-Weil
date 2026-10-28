@@ -1989,3 +1989,21 @@ Goal三原门均open/noteligible；gate3限所声称核心类及实际允许修�
 Rootfixedg及明确v±给polezero rτ、Q~logτ；若actualfullX同normCauchy核界成立则V原du统一，先fixed大τ再X∞可反测；该界尚未证/未判假，不凭modelspace名或抽象酉同构取得。正确双gap传播给V≤Trel/C≥T_X,b；另恢复强旧Trel=2logb du+Ω，两strip边界已paid，剩combinedΩ cofinal上/signed费未付。旧b≤b*与当前b>eL分开，532cutoff1不升级任意b/cofinal。
 
 当前无实际量化推导或已完成fixedtest，故准入0停止，不建C054/591/source或参数/未知paper后继；不是V数学失败或全joint边界。核心/whole4/5UPPER未改，cadence0/history54/latest590/formal18原字节不动，同Goal1793085111active/open/noteligible。下一只本次证据/状态/看板/文献/checkpoint正常main发布/独立核source与metadata actualHEAD，匹配不重推。原件见goals/reviews/2026-10-29-sonin-connected-variance-admission-stop.md及当前root收据。
+
+## D20261029D — C054准入：实际三fixed源joint不等式与absolute tail接口
+
+上轮C准入止及sourcec9e28a9/actualmetadata1c38e61发布条件已过，不重推。Root新实际推得V_R(gprime)≤2δ²V_R(g)+32平移异常+8tail，固定ψ/g/τ_.5g/gprime，含R≤Π的jump+killing；已逐点核NN/NF/FF constants并实际读旧C052 allfixedB localization及全线(Tail)。Gevrey源与T=log^4X给absolute tail有明确可执行链，不借未证Cauchy或Ω号。此是新的actual量化第一步，不把notcovered/正carrier/未知残差名当输入。
+
+仅准C054一个完整数学迭代，两当前独占proof任务核三fixedtestgap与actualtail/强旧。目前未root消费新定理，不预591/Goal完成，cadence0/history54/latest590/formal18结算前不动。全Gram、原du/zeroextensionDlog、Γcontact/allpp/indefinite双pole保。主class commonpositivecontraction≤actualΠ，允许rank/非局部/按固定三源共同选择；外部高gain若破坏加权tail、非common/source非线性或别的signed几何保持未排，不泛判全部joint。
+
+若tail/常数/occupation前件断或更强旧已付则按合同准确止/旧0，不换ψ/a/源/field/primary救题。下一只两proof腿→不同fresh→root前件闭合/统一结算；C053及旧Cauchy/fullgap/source预算仍耗尽。Goal同1793085111active，实际执行已核，不新建Goal。
+
+## D20261029E — 591结算：共同occupation三固定测试已拒绝，高gain仅付必要费
+
+C054两原proof16555/11649、域澄清1177及不同数学fresh10103 PASS已terminal/root全文消费；最终591与结算文字另只读一致性PASS。严格夹源HS、一般R的jump+killing、2/32/8 joint不等式与actual绝对tail全部闭，非草稿状态升级。固定g/τ_.5g/gprime与537完整正目标给全部充分大real X/全部共同0≤R≤actualΠ的统一ε gap，含任意rank/合法无限维/非局部及按整组三源适应；失败索引可随X/R改变。原du/Dlog、所有Γ/contact/properpowers与indefinite双pole保持，R一般时完整差额须保T_Π−T_R。
+
+新量化耦合扣旧560/537/C052及单频/quiet/anchor后确实改变occupation路线，故不是旧0或来源整理。外部βV_R／共同正混合若匹配，必要能量系数／总权至少c exp[b*(logX)²]；非sharp/充分/实际operatornormlower，不排高gain，不把V_(βR)当βV_R。局部瓶颈变化与独立算术关键瓶颈未移除分别报告：whole542+555→557 leading4/5仍负惯性UPPER，primitive/principal/整截面/mixed及signed危险core/cross/Ξ仍欠。
+
+唯一cadence已实核原0/history54/latest590后统一消费一轮为1/history55/latest591，formal18/原冻结0c4f/同runtime1793085111保持；证明作者/澄清/fresh/结算/推送不另计。新primary/PDF/query/download/numeric0，manifest130及原字节不改，文献scope补充。高gain/成长混合、非occupation/逐源不同R/其它signed几何是合法未排修复，Goal完成门仍open/noteligible，不缩成已证子类。
+
+C054一轮耗尽，不续ψ/a/δ/gain率/未知source，无已准C055。当前唯一下一为本轮源证据/单cadence/看板/文献/STATE/checkpoint正常main发布，独立3GET核source；回执+STATE+新sync检查点metadata child再核实际HEAD/tree/parent，条件成立不重推。后续研究须具体新actual input或能改变选择的已执行比较，不能以必要费换名续局部优化。结算见goals/reviews/2026-10-29-connected-occupation-591-settlement.md及当前根收据。

@@ -1,5 +1,8 @@
 # 研究分支看板
 
+2026-10-29，[591/C054当前已结算](goals/reviews/2026-10-29-connected-occupation-591-settlement.md)：两原proof/不同数学fresh/root闭合，任意共同0≤R_X≤actualΠ_X在g、τ_.5g、gprime三固定完整Weil目标上有统一ε gap，含任意rank/无限维/非局部及整组三源适应。新2/32/8 joint比较＋actual绝对tail改变occupation路线；外部能量gain或正混合总权若匹配，必要≥c exp[b*(logX)²]，非充分/算子normlower，高gain及其它signed几何未排。一般R保未占据正项；严格trace sandwich重闭，bare循环S1仍冻结。whole4/5负惯性UPPER及primitive/principal/mixed/corecross/Ξ未改，Goal同实例active/open。唯一cadence已一次0→1/history54→55/latest591/formal18保持，C054耗尽/无已准后继；当前先按授权发布并独立核actualHEAD。
+
+以下日期条目保当时的已付范围与决策；旧“无C054/591/下一”均是历史，唯一当前阶段及动作读STATE。
 2026-10-29，[actual Sonin connected variance准入](goals/reviews/2026-10-29-sonin-connected-variance-admission-stop.md)已两支持/不同5658fresh/root核：δ=(1−Π)M_rhatΠ合法S2、V=T−C≥0及complex双差核/2pi闭；完整差C−K+indefinitepole未付。FullX Cauchy界仅条件，双gap支配只搬Trel费；旧2logb原du边界已付，剩Ωcofinal上费未知。不误套单频/anchor/quiet，也不判V数学失败；当前准入0止/无C054/591/source后继，cadence0/history54/latest590/formal18、核心及whole4/5UPPER保持，Goalactive。
 
 2026-10-29，[fixedC2算术全tensor旧比较](goals/reviews/2026-10-29-fixed-c2-tensor-local-global-old-comparison.md)已两支持/不同4776fresh/root闭：Ksqrt−7全n的raw7单闭点与normalization m=2^(n−1)点分开，genericarch完成raw两端pole1/m，不免费同FE；norm恢复FE但仅ζ_K^m。FullRepC2/Adams只变ζ/Lχ重数，localtensor不付globalzero桥；属002/073强旧0，非全部Deligne边界。原du/Pan537/mixed/核心及whole4/5UPPER不改，cadence0/history54/latest590/formal18保持；无C054/591/source后继，Goalactive。

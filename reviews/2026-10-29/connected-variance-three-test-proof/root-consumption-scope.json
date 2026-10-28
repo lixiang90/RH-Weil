@@ -1,0 +1,147 @@
+{
+  "schema": "rh-weil-root-premise-closure-v1",
+  "date": "2026-10-29",
+  "status": "root-fresh-closed-new-three-fixed-test-occupation-barrier-one-iteration",
+  "goal": "goals/GOAL.20261027.md",
+  "runtime_created_at": 1793085111,
+  "baseline_commit": "0c4f3a3eb609bb1d9564138fa4a35701f05605f2",
+  "root_consumption": "Both final original proofs (16555/11649 LF), strict domain correction1177, corrected contract4874 and different mathematical fresh10103 PASS terminal/full-read by root. Root derivation/draft preserved as frozen history: their tail/fresh pending conditions discharged by these exact final proofs and this receipt. Fresh auxiliary row check is not substituted for full independent mathematical review. Final591 and settlement summary root-consumed.",
+  "object_norm_domain_roles": {
+    "projection": "Actual Pi_X=B_X P (P B_X*B_X P|RanP)^-1 P B_X*, all Gram inverse/returns. B=M_DX is not unitary. H=L2(dt/(2pi)), Fourier minusit, first slot linear. Original physical r=e^(u/2)bare, du and zero-extension Dlog unchanged.",
+    "occupation": "All common positive contractions 0<=R_X<=Pi_X; arbitrary real X dependence, rank/infinite rank, nonlocal or selected after knowledge of the entire fixed test trio. Same R for all tests at each X. No per-layer stationarity/Pan condition.",
+    "strict_trace": "T_R(r,s)=Tr(M_f R M_h*), C_R=Tr(R M_f R M_h*), V=T-C. Feature (1-R)^1/2 M_f R^1/2 is S2. Products/polarization justify S1. R itself need not be trace class; literal bare R M_f M_h* S1 remains frozen. Correct sandwich is reclosed by both proofs/fresh/root; initial running checkpoint is historical only.",
+    "kernel": "RKHS k_R(t,v)=<R e_v,e_t>, diagonal<=k_Pi=2pi rho_X; row integral |k_R|^2 dmu=k_(R^2)(t,t)<=k_R(t,t), killing ell=k_Rdiag-k_(R^2)diag>=0. R^2 denotes operator square, not numerical diagonal square. No pointwise |k_R|<=|k_Pi| claim.",
+    "jump_killing": "V=1/2 double integral (f(t)-f(v)) overline(h(t)-h(v)) |k_R|^2 dmu^2 + integral f overline(h) ell dmu. All compact complex sources in paid HS domain.",
+    "full_target": "All Gamma/contact, Lambda(p^k)=log p, indefinite pole P=2Re(mu+ overline(mu-))=2|ell_c|^2-2|ell_s|^2 retained. Translation mu+- -> exp(+-a/2)mu+- is Lorentz boost preserving P, not sum of endpoint absolute squares.",
+    "general_residual": "Q-V_R=(T_Pi-T_R)+C_R-K_Pi+P; T_Pi-T_R>=0 must be kept. R=Pi reduces C_Pi-K_Pi+P. Operator order R<=Pi does not imply V_R<=V_Pi."
+  },
+  "fixed_sources_and_quantifiers": {
+    "sources": "psi=c exp[-1/(1-(16u)^2)] on |u|<1/16, zero outside, integral1. g=psi*psi#, G=|psihat|^2, a=1/2. Trio g,tau_a g,gprime is fixed independently of X/R/unknown zeros. All supports in 537 window; q0=Q(g)=Q(tau_a g)>0, q1=Q(gprime)>0. g is L1-normalized convolution, not 587 du-unit bump; gprime meanzero but not polefree.",
+    "joint_bound": "For every first-fixed 0<delta<=1, A_R=V(tau_a g)-V(g)=integral G(t)G(v)(1-cos((t-v)/2))|k_R|^2 dmu^2>=0; V(gprime)<=2delta^2 V(g)+32 A_R+8 B_Pi,X(delta). Near/far row combined before diagonal domination; killing retained. Coefficients 2/32/8 independently verified.",
+    "absolute_tail": "B=integral_|t|>delta t^2G^2 rho_X dt. Old C052 actual localized strongTail and all-fixed-B polylog away-zero bound plus self-contained fixed Gevrey2 upper give B<=||gprime||du^2 exp(-c_delta A/2)+Cpsi(sqrtX+1)exp[-gamma(logX)^2]->0; A=sqrtX/logX, c_delta=4-4/sqrt(1+4delta^2)>0, gamma=log4/(4sqrt512). T=(logX)^4. Actual |D|^2Q=2pi rho, not bare inverseEuler. Absolute, not relative little-o; delta fixed before X limit.",
+    "gap": "delta=min(1/2,sqrt(q1/[16(q0+1)])), epsilon=min(1/2,q1/260)>0. Choose X0 with B<=q1/64. For all real X>=X0 and all common R<=Pi, max of trio target errors>epsilon. Error index may vary with X/R; no single-index eventual failure claimed.",
+    "gain": "If external positive beta_X V_R or legal common positive mixture with finite total weight W_X matches all three values, liminf beta_X B (respectively W_X B)>=q1/16. With b*=gamma/2, necessarily eventual beta or W>=c_delta exp[b*(logX)^2]. Necessary only, not sharp/sufficient; high gain remains legal. beta/W is energy coefficient/total weight; feature external factor sqrt(beta). Not actual du->HS operator-norm lower. Do not identify beta V_R with V_(beta R) or a mixture with covariance of a single R."
+  },
+  "strongest_old_and_net": {
+    "paid_inputs": "537 full fixed positive window;560 actual projection/HS/full target;C052 actual all-fixed-B localization and strong measurable weighted Tail; standard Gevrey upper. These old results not re-counted.",
+    "new": "Actual derivative energy--translation anomaly joint inequality plus absolute tail gives uniform three-fixed-test rejection for entire common positive occupation class and necessary positive-weight tail fee. Old V<=T, single-frequency scalar/poly/inverseEuler, source anchor, moving quiet and gap domination do not directly imply this coupled fixed-trio conclusion. No world priority claim.",
+    "local_method_bottleneck_changed": true,
+    "key_independent_arithmetic_bottleneck_removed": false,
+    "whole": "542+555->557 leading4/5 negative inertia UPPER unchanged, not positivity/proportion/lower. Independent nonzero arithmetic primitive/principal/sections/mixed and dangerous signed core/cross/Xi remain unpaid.",
+    "legal_escapes": "High external gain/growing mixture weight, nonoccupation/signed or other arithmetic geometry, and per-source different R remain unexcluded. Arbitrary common R adaptivity is covered, but does not cover all scale/joint-signed repairs. No completion of Goal gate3 from a necessary gain fee."
+  },
+  "source_and_cadence": {
+    "math_iterations": 1,
+    "new_primary": 0,
+    "web_queries": 0,
+    "downloads": 0,
+    "numerics": 0,
+    "manifest_entries": 130,
+    "manifest_lf_sha256_unchanged": "788b45dc8b663cdf443f5941e835c532417b93143fb41f2e210060dc8d1d83fc",
+    "cadence_lf_sha256_before": "7edcfcedd4a37a3ec34019eb3941045944f513db5dd88a5f53d2bc9070e775b9",
+    "cadence_lf_sha256_after": "7ac71ae721e352746db7b172281c1001370cd51063709b68965e3dab5d6840c1",
+    "before": "0/history54/latest590/formal18",
+    "after": "1/history55/latest591/formal18",
+    "settlement_checkpoint": "goals/checkpoints/2026-10-29-connected-occupation-591-settlement.json",
+    "binding_policy": "Live cadence deliberately excluded from frozen proof version_bindings. Historical before/after hashes and immutable settlement checkpoint preserve this one consumption; future valid settlements may change live cadence."
+  },
+  "completion": {
+    "runtime_same_instance_active": true,
+    "mathematical_gate": "open",
+    "final_execution_gate": "not-eligible",
+    "basis": "Local occupation class boundary and necessary scale fee do not cover legal high-gain/signed/core repairs; full independent arithmetic bottleneck and original Goal strength retained."
+  },
+  "stop_and_next": "C054 one iteration exhausted, no parameter/source/gain-rate continuation or admitted successor. Publish source then receipt/STATE/new sync checkpoint metadata child and independently verify actual HEAD/tree/parent. Conditional success requires no repush. Later research requires new actual input or concrete choice-changing comparison.",
+  "version_bindings": [
+    {
+      "path": "reviews/2026-10-29/connected-variance-three-test-proof/jump-inequality-and-three-test-gap.md",
+      "lf_bytes": 16555,
+      "lf_sha256": "b3d6a60f537debb303af13b90f23de9b8c45163fa6a6bc57978303a3b51b0ffe"
+    },
+    {
+      "path": "reviews/2026-10-29/connected-variance-three-test-proof/actual-gevery-tail-and-premise-closure.md",
+      "lf_bytes": 11649,
+      "lf_sha256": "dfe9e617fa984bdcca1c0d0aa83906092339d18a2b25bfdbd8005c8274afedee"
+    },
+    {
+      "path": "reviews/2026-10-29/connected-variance-three-test-proof/fresh-connected-occupation-three-test-audit.md",
+      "lf_bytes": 10103,
+      "lf_sha256": "e18a2edf0205079cd426746cb66a4844f064c7db0c80438fe539a18e27124a15"
+    },
+    {
+      "path": "reviews/2026-10-29/connected-variance-three-test-proof/trace-domain-clarification.md",
+      "lf_bytes": 1177,
+      "lf_sha256": "a6c65587e133b145dce65487534e96eceba88d6c67764c3510eea8afb7a565a0"
+    },
+    {
+      "path": "reviews/2026-10-29/connected-variance-three-test-proof/root-three-source-derivation.md",
+      "lf_bytes": 2655,
+      "lf_sha256": "ee2fd4ea01d564359996bb4178f1474d4b254010b0e3f8b218c9d80fcd095a4e"
+    },
+    {
+      "path": "reviews/2026-10-29/connected-variance-three-test-proof/root-591-consumption-draft.md",
+      "lf_bytes": 4256,
+      "lf_sha256": "fe73c535fb7c3e6866f01a065e148806144ec5a8e1251582011e77ba93ade7ef"
+    },
+    {
+      "path": "goals/contracts/C054-connected-variance-three-fixed-test-barrier.md",
+      "lf_bytes": 4874,
+      "lf_sha256": "7e95d495b356df3dd9ff8c554ed98f6441ee03c7517d65fd226582e24d6fd7d2"
+    },
+    {
+      "path": "goals/GOAL.20261027.md",
+      "lf_bytes": 9679,
+      "lf_sha256": "b3d2acb1f962d793f45d79b6a4e67fb87dd072cd4752108a9298204b4cefa1de"
+    },
+    {
+      "path": "reviews/2026-10-28/sonin-scalar-normalization/source-upper-and-tail-proof-audit.md",
+      "lf_bytes": 10211,
+      "lf_sha256": "bab769113b4ce8c858dfd4b7a83dea6abd8808436a599d2206ea9a9bf0915fff"
+    },
+    {
+      "path": "reviews/2026-10-28/sonin-scalar-normalization/source-localization-proof-audit.md",
+      "lf_bytes": 11459,
+      "lf_sha256": "809bc7ffc6f1fbf4dd24af0d710af05fb7ca1bc259992430c3fd6760912ffcb1"
+    },
+    {
+      "path": "notes/537-source-exact-weil-window-positive-tail-admission.md",
+      "lf_bytes": 8155,
+      "lf_sha256": "269a500556d37fc04a4e44efd2f0899414787743e529506dbbe7395a34eea9f8"
+    },
+    {
+      "path": "notes/560-joint-finite-place-sonin-primepower-cancellation-and-compact-weil-bridge.md",
+      "lf_bytes": 9263,
+      "lf_sha256": "9c2e6cd5a9eae269ad04b332699c21eec7403a230f9557afa8b895c45d4228d3"
+    },
+    {
+      "path": "literature/manifest.json",
+      "lf_bytes": 196141,
+      "lf_sha256": "788b45dc8b663cdf443f5941e835c532417b93143fb41f2e210060dc8d1d83fc"
+    },
+    {
+      "path": "notes/591-connected-occupation-covariance-three-fixed-test-barrier.md",
+      "lf_bytes": 5974,
+      "lf_sha256": "5a6d6e221369a1a9bce668d56c9fe574aeca0a295fdb7d0ccd31e4fcd03eaa7c"
+    },
+    {
+      "path": "goals/reviews/2026-10-29-connected-occupation-591-settlement.md",
+      "lf_bytes": 4242,
+      "lf_sha256": "866adc7b7a912e05d1c17faba7782d0307174e9128ec567aed9bdb958e05532b"
+    },
+    {
+      "path": "literature/supplements/2026-10-29-connected-occupation-three-test-scope.md",
+      "lf_bytes": 2061,
+      "lf_sha256": "34ebda3aaf68a7c5626611d4c3c30e892e71a150c7d0169ce354f1ab6ea3b618"
+    },
+    {
+      "path": "reviews/2026-10-29/sonin-connected-variance-admission/actual-kernel-and-cofinal-test.md",
+      "lf_bytes": 8830,
+      "lf_sha256": "df200f68f9f533933f821b19de53c46674baf4def33eb0115967a3634eff275d"
+    },
+    {
+      "path": "reviews/2026-10-29/sonin-connected-variance-admission/strongest-old-domain-and-net.md",
+      "lf_bytes": 8815,
+      "lf_sha256": "fb4bcced16659c81fd5601452d568aab1e89f87fb82eb276114058ac1eb37eae"
+    }
+  ]
+}
