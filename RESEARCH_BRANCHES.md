@@ -1,5 +1,8 @@
 # 研究分支看板
 
+2026-10-28，[固定HH/cyclic定位](goals/reviews/2026-10-28-homological-primary-locator-empty-stop.md)已实际原样三query/arxiv一批，聚合空，0primary页/0新正文/0全文下载。raw585b/hash及两具体审/当前fresh/root范围独立保存；不是逐query或全网不存在结论。一次预算耗尽，当前无已准后继，不重查/串paper/泛形成或另排因果审来造next。重新准入只认真新actual内容或不同已执行且能改变选择的比较。来源/数学0，cadence0/history50/latest586/formal17、关键瓶颈与whole4/5UPPER保持，Goal同实例active/open。
+
+以下日期记录保当时阶段；其中“下一/未执行”是历史，当前执行只读STATE。
 2026-10-28，[post-cone因果投入](goals/reviews/2026-10-28-post-cone-causal-investment-and-locator-admission.md)已核两库存和旧查询scope：无合格新math/input，停止无独立机制的载体试造/泛形成循环。保canonical任意a/B unreduced exact0及paidGreen/trace/正层。旧查询3+6+3均止；只据后来新增exact/原norm门与未查HH/cyclic源机制的有限内容差，下一仅原样三query一批/最多一primary locator，未执行、非Gamma第三批/非新input。cadence0/history50/latest586/formal17、核心/whole4/5UPPER保持，Goalactive。
 
 2026-10-28，[inclusion-cone精确源类零](goals/reviews/2026-10-28-inclusion-cone-exact-source-zero-stop.md)已完成原存活test：e_eta误差<=3sqrtη/2外，同闭C*ideal显式B=EC及finite tensor给actual exact primitive，费<=6L1，故unreduced也零，不只closure。任意同型z(a,B)的class读出均零，纯class totalmodel失败537；非全cone/C*/higher无效。标准强旧0止原pair/norm，不续unreduced/norm修补，cadence0/history50/latest586/formal17保持。下一仅未执行post-cone因果选择，无新math/source队列；核心/whole4/5UPPER未改，Goalactive。
@@ -26,13 +29,14 @@
 
 | 路线 | 当前地位 | 可消费输入 | 仍欠的核心箭头 | 准入／停止标准 |
 |---|---|---|---|---|
-| marked-HNF同对象两源读出 | 仅一次原公式形成/自筛资格，尚未执行 | 原HNF/Gram/Smith同583矩阵；23绑定因果审视，raw非新input | 当前无r,s公式、原norm/完整Γpp双pole身份或独立净量 | 先扣583完整native/norm与实际适用强旧；同raw不拒新functional，失败不调参数，不准先建C050/587 |
+| HH/cyclic实际源机制定位 | 唯一固定三query已耗尽，aggregate空，当前无已准后继 | raw585b/原串及两具体审/fresh/root；0primary/0正文 | 未取得actual源式/命题，不增强canonical exact数学边界 | 不递归续批/换词/串paper/泛形成/另因果审；真新内容或不同已执行选择性比较才再准 |
+| marked-HNF同对象两源读出 | 固定sqrtT热rule已强旧0止；原资格耗尽 | 原HNF/Gram/Smith同583矩阵；23绑定因果审视，raw非新input | 当前无r,s公式、原norm/完整Γpp双pole身份或独立净量 | 先扣583完整native/norm与实际适用强旧；同raw不拒新functional，失败不调参数，不准先建C050/587 |
 | 明示simplepole/Γ/FE/strip的正N分类 | 更强旧应用0闭合，停止本域model selection | M单位/α=1/A正、真实Mellin与±A/全尾；μ_A/A＋561＋{1}质量A1/N整数 | 识别ζ仍不付独立乘法Weil号、primitive/mixed或core净费 | 不续UD/coset/A设施/弱化增长造模型；下一因果投入审视，域外/onlylimitDprime/joint保留 |
 | 精确Γ signed替换primary定位 | 固定三query/一原页来源0止，预算耗尽 | Watkinsv0.5实际HTML、Ma同旧561/gap与Gaussian强旧、doublepole连续反测 | 无actualsigned负部生成或完整mixed；完整simplepole/留数/增长桥未消费 | 不续spacing/coset/boundederror/章/query；下一仅明示±A和strip界的旧覆盖比较，不把分类当Weil正性 |
 | 精确经典Γ下的Euler修改 | 强旧应用0止finiteF/monotone增量；非一般类失败 | 405实ξ>0、加权测度唯一性、正Borel边界；任意正Δ及primitive全repeats精确范围 | 一般正Π的signed删减/重排、actual经典mixed/完整signed仍未付 | 不续finiteF量化或正增量设施；下一只固定三query一次实际locator，无合格即止，不泛排joint/relative/Dprime |
 | Suzuki Θω/causal Hankel → canonical系统 | 1204v2§2来源0止；非方法全类失败 | 原PDF/乘法域及固定安全ω cited系统；边界与因果原条件、det级数 | 小ω因果/inner/非退化、a∞端点及完整physical双源运输没有新独立输入 | 不先续HS/临界紧致性/后章proof/另paper；真实新算术估计或完整signed输入才准，正Dprime不逐层强加Pan |
 | Tate E₂单Mellin源 → Cartier／Poincaré型两源族 | 已形成并强旧前置0止fixed source | 原du/强域、actualPan非零半周期、属一RR及onlypoint kernel责任 | 真principal下降／全源mixed及完整Γpp双pole身份未给；family line非高度 | 不换evaluation/period/添Green或RR续预算；不泛排extra raw frames、非局部/relative/正Dprime；先给实际同源identity或signed净量 |
-| 同对象 relative principal／Green → 截面乘法 → mixed RR | 长期主责；无新几何proof，执行先实际mixed公式形成 | 567真实RR→Hodge机制；579–582实际源／strong域／Green；537明确非根 | 同一非零primitive载体上的实际物理源公式、全关系的principal／Green边界、整过滤与同对象mixed身份 | 先核405全关系及平移、537与全源非根、原du／Dlog和全部尾；无实物不续C045或预建未知合同；保relative／higher／有费无界修复 |
+| 同对象 relative principal／Green → 截面乘法 → mixed RR | 长期主责；无新几何proof/已准后继，泛形成已止 | 567真实RR→Hodge机制；579–582实际源／strong域／Green；537明确非根 | 同一非零primitive载体上的实际物理源公式、全关系的principal／Green边界、整过滤与同对象mixed身份 | 先核405全关系及平移、537与全源非根、原du／Dlog和全部尾；无实物不续C045或预建未知合同；保relative／higher／有费无界修复 |
 | 独立正分布 → 完整经典Weil分布 | 577独立正层已给；缺新的完整signed消失信息 | 577/578真Γ正层/原费/完整gR；Nakamura概率近邻已准确入库 | actualq_R或独立正Dprime完整signed消失仍欠；曲率正性不付横向权／完整身份 | 不续Nakamura§2/引文或第三批query；真独立输入可改策，保逐source/Dprime范围 |
 | 固定theta基态半线Dirichlet正谱 | C049/586一轮新反测，预算耗尽 | 全n原势/准确域/strictcount、热Γ缺陷、共同crop及fixedcompact平方差 | 不给完整Wζ身份、全局signed/corecross或primitive容量 | 不改sector/x/H幂/±/常数/cofinalcutoff或补偿拟合；不同实物另准，不泛排confining类 |
 | 互素加法三元组＋log-linear赋值 → mixed规则 | 已实际形成，强旧前置0止 | finiteB du/Dlog费；cofinal全局H1型norm界与q1/corner完整fiber | 本身作完整reader被旧Pan密度排；另有无界腿的correction仍无同源identity/净预算 | 不改γ/c^-2/中心化/cutoff或添Γ拟合；不从finite atoms/ζ常数/未证非零作反证，不泛排其他additive机制 |

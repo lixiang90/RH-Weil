@@ -1,5 +1,8 @@
 # 宏观前沿：可消费范围与最小未付箭头
 
+2026-10-28，[固定HH/cyclic定位](reviews/2026-10-28-homological-primary-locator-empty-stop.md)已实际原样三query/arxiv一批，聚合空，0primary页/0新正文/0全文下载。raw585b/hash及两具体审/当前fresh/root范围独立保存；不是逐query或全网不存在结论。一次预算耗尽，当前无已准后继，不重查/串paper/泛形成或另排因果审来造next。重新准入只认真新actual内容或不同已执行且能改变选择的比较。来源/数学0，cadence0/history50/latest586/formal17、关键瓶颈与whole4/5UPPER保持，Goal同实例active/open。
+
+以下日期记录保当时阶段；其中“下一/未执行”是历史，当前执行只读STATE。
 2026-10-28，[post-cone因果投入](reviews/2026-10-28-post-cone-causal-investment-and-locator-admission.md)已核两库存和旧查询scope：无合格新math/input，停止无独立机制的载体试造/泛形成循环。保canonical任意a/B unreduced exact0及paidGreen/trace/正层。旧查询3+6+3均止；只据后来新增exact/原norm门与未查HH/cyclic源机制的有限内容差，下一仅原样三query一批/最多一primary locator，未执行、非Gamma第三批/非新input。cadence0/history50/latest586/formal17、核心/whole4/5UPPER保持，Goalactive。
 
 2026-10-28，[inclusion-cone精确源类零](reviews/2026-10-28-inclusion-cone-exact-source-zero-stop.md)已完成原存活test：e_eta误差<=3sqrtη/2外，同闭C*ideal显式B=EC及finite tensor给actual exact primitive，费<=6L1，故unreduced也零，不只closure。任意同型z(a,B)的class读出均零，纯class totalmodel失败537；非全cone/C*/higher无效。标准强旧0止原pair/norm，不续unreduced/norm修补，cadence0/history50/latest586/formal17保持。下一仅未执行post-cone因果选择，无新math/source队列；核心/whole4/5UPPER未改，Goalactive。

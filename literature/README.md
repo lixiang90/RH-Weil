@@ -1,5 +1,7 @@
 # RH-Weil 文献索引
 
+2026-10-28，[固定同调定位](../goals/reviews/2026-10-28-homological-primary-locator-empty-stop.md)已执行一批三query，工具仅aggregate空；0候选页/0新正文/0全文下载，manifest仍130条。[实际范围](supplements/2026-10-28-homological-locator-empty-scope.md)绑定585b本地raw与公开查询记录，不虚造论文条目/逐query计数/一般不存在。预算耗尽，当前无已准source后继；以下旧“未执行/下一”均为当时历史。
+
 2026-10-28，[post-cone因果审视](../goals/reviews/2026-10-28-post-cone-causal-investment-and-locator-admission.md)仅核项目原件和旧实际queries，未新web/PDF/下载或数值，130条保持。[实际readscope](supplements/2026-10-28-post-cone-investment-source-scope.md)恢复旧3+6+3定位及later scope，不能重开已审Meyer/Γ signed等门。下一HH/cyclic仅有新exact排重门下的一次窄locator资格，尚未执行/没有新原件，不把非C*标签或计划当数学input。
 
 2026-10-28，[inclusion-cone精确源类零](../goals/reviews/2026-10-28-inclusion-cone-exact-source-zero-stop.md)只复用573/537等旧原件并实际推导C*因子化/finite tensor boundary，无新web/PDF/下载/数值，130项保持。[实际readscope](supplements/2026-10-28-inclusion-cone-exact-source-scope.md)区分两种独立因子化、raw原费与pureclass目标；更强unreduced exact零按标准旧应用0，不以closure冒边界或报新算术输入。下一仅未执行的因果选择，无来源队列。

@@ -8,9 +8,9 @@
   "cadence": "goals/review-cadence.json",
   "decisions": "goals/DECISIONS.md",
   "latest_strategy": "goals/reviews/2026-10-28-general-rh-macro-review-cycle-17.md",
-  "latest_decision": "D20261028AC",
+  "latest_decision": "D20261028AD",
   "macro_frontier": "goals/MACRO_FRONTIER.md",
-  "macro_summary": "goals/reviews/2026-10-28-post-cone-causal-investment-and-locator-admission.md",
+  "macro_summary": "goals/reviews/2026-10-28-homological-primary-locator-empty-stop.md",
   "latest_macro_review": "goals/reviews/2026-10-28-general-rh-macro-review-cycle-17.md",
   "latest_iteration": "notes/586-theta-ground-state-spectrum-and-full-gamma-heat-defect.md",
   "macro_control": {
@@ -21,7 +21,7 @@
   "macro": {
     "long_objective": "G20261027接续G20261014完整完成门/原0c4f基线，≤582为输入；持续寻经典同源Weil正性/有效性/RR或actualsigned新输入，付全源/成长/core及谱识别。",
     "unpaid_bottleneck": "577独立正层已付，完整signed消失仍欠；Green已付而同一非零primitive/principal/mixed缺，Sonin危险core/cross仍欠；whole4/5UPPER未改。",
-    "why_this_contract": "Post-cone因果0已闭：无现成新input，停止无机制载体/泛形成循环。只据后来已执行任意z(a,B) exact/原norm门与所核旧3+6+3未定向HH的有限内容差，下一一次窄primary locator；未执行/非新input。",
+    "why_this_contract": "AC唯一固定HH/cyclic一批已执行aggregate空，原门耗尽/无新actual input；两具体审/当前fresh/root闭来源0。当前无已准后继，不以空结果递归续预算。",
     "paused_routes": [
       "零点比例优化",
       "无零区域优化"
@@ -32,7 +32,7 @@
       "已止：MB/修正scalar theta/rawmean/Pet、unitary/canonicalAc、Γsigned定位、EX/fullgap、原rank2ODE/wind、586固定谱、T_B固定中心化、Tate固定ell/点line及Suzuki§2。准确recipe/范数/量词只按原根收据，不调参数或顺读旧章/query；非总类失败。",
       "Möbius/finiteF/正Euler增量/Watkins及simplepole正N同域model search已止，不能拼成域外一般Π分类。Meyer§5/Th5.8已10-20核角色，撤重复source；stronger旧范围见专属recovery字段/原件。",
       "HNF sqrtT概率热rule按421门fixed源ALLB差13/64止；原573fibercone首边界失败。当前inclusioncone canonical z(a,B)有finite exact primitive，费3||a||||B||/原源6L1，unreduced及失连续class读出亦零；止原pair/norm/source，非全cone/higher边界。",
-      "Post-cone不续无独立机制的carrier/闭代表试造或泛形成。旧3+6+3查询各止；下一仅新exact比较支持的一次HH/cyclic primary locator，失败不递归续批/换名，非Gamma第三批/非数学资格。"
+      "无新机制不续carrier/闭代表或泛形成。旧3+6+3查询及本次HH/cyclic3query均耗尽，aggregate空不生新比较/续批；当前无已准后继，真新actual内容或不同已执行选择性比较才再准。"
     ]
   },
   "primary_contract": {
@@ -43,8 +43,8 @@
     "settled_iterations": [
       "notes/586-theta-ground-state-spectrum-and-full-gamma-heat-defect.md"
     ],
-    "stage": "post-cone因果0及一次窄locator资格已结算，source39d9890已独立核远端；当前metadata子提交另推送核实际HEAD，不递归填本身SHA。下一定位尚未执行。",
-    "next_action": "当前metadata子提交同步核验后，只执行post-cone-investment/next-noncanonical-homological-primary-locator.md固定三query一批/arxiv primary/最多一候选；先manifest/later scope去重，失败不递归续批。",
+    "stage": "C049/586耗尽；当前HH/cyclic一批已实际执行aggregate空，0primary/正文/下载，两具体审/当前fresh/root终态消费，来源0结算；待本轮发布。",
+    "next_action": "先完成本轮source与metadata同步并各自独立核远端；其后当前无已准研究后继，仅对真新actual内容或不同已执行且改变选择的具体比较判准入，不重查/泛形成/另造因果复盘。",
     "stop_rule": "无合格source-defined原式/命题locator即0止，不同义续批/跟PDF引用/串paper/泛形成；本批失败不成新比较，不递归同一exact理由。非C*非必要/窄非空域合法；无actualinput不准章/C050/587，不重开Gamma第三批或旧norm/pair。"
   },
   "support_contracts": [],
@@ -96,20 +96,20 @@
       "scope": "586/C049一轮：固定全整数theta Dirichlet谱两项count/完整Γ热正缺陷/fixedcompact平方非消失差；只止该谱rule，非RH反例/whole/core突破。"
     },
     {
-      "path": "reviews/2026-10-28/post-cone-investment/root-consumption-scope.json",
+      "path": "reviews/2026-10-28/homological-primary-locator/root-consumption-scope.json",
       "kind": "cited",
-      "scope": "因果0：paid设施/新exact门与旧3+6+3真实scope分开；无新input。仅一次更窄HH primary locator admitted未执行，失败非递归，不授章/math。"
+      "scope": "AC固定三query已实际聚合空，原预算耗尽；两具体审/当前fresh/root仅来源0，0primary/正文/下载，无已准后继/递归资格。"
     }
   ],
   "pending_processes": [],
   "runtime_goal_observation": {
     "status": "active",
-    "observed_at_utc": "2026-10-28T05:17:43.703515+00:00",
+    "observed_at_utc": "2026-10-28T05:32:56.405618+00:00",
     "created_at_unix": 1793085111,
-    "basis": "get_goal root刚核同1793085111 active；当前因果审视/新资格审已执行，下一三query locator未执行。"
+    "basis": "get_goal现场同createdAt1793085111 active；当前三query动作已执行返回，local raw及两审root核，非新Goal/数学轮。"
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-10-28-post-cone-investment-sync.json",
+  "checkpoint": "goals/checkpoints/2026-10-28-homological-locator-empty-source.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
     "commit": "39d9890d496fad2c4596c16699dc28836910070f",
@@ -122,11 +122,11 @@
     "goal_lf_sha256": "b3d2acb1f962d793f45d79b6a4e67fb87dd072cd4752108a9298204b4cefa1de",
     "mathematical_gate": "open",
     "final_execution_gate": "not-eligible",
-    "basis": "因果0与一次locator资格没有新增完整Weil/primitive/signed/core净输入或实质核心方法类边界，whole4/5UPPER/关键门未变，三门open/noteligible。"
+    "basis": "有限locator0没有新RH/关键独立输入/核心方法类边界；无已准后继不是hard外阻/Goal终态。whole4/5UPPER/关键门未变。"
   },
-  "process_inventory_observed_on": "geometry16287b/signed13940b/fresh11942b均当前终态/root全文读；无研究web/PDF/query/numeric/math后台。下一locator未执行/无原命题/无新章队列。",
+  "process_inventory_observed_on": "三query已返回，raw585b实存ignored；两具体审和当前fresh均终态/root全文消费。无web/primary/PDF/numeric/math进程/候选或source队列；仅本轮发布待执行。",
   "publication_approval_gate": {
-    "status": "source-published-independently-verified-metadata-recorded",
+    "status": "current-homological-locator-source-ready-not-yet-published",
     "destination": "https://github.com/lixiang90/RH-Weil",
     "visibility": "public",
     "branch": "main",
@@ -136,7 +136,7 @@
       "reply": "每轮把进度同步到github；把文献保存在文献库中，用研究看板来记录各个路线的状况",
       "scope": "本项目研究/Goal/STATE/看板/文献元数据/审查与同步回执；论文再分发许可不明则全文仅本地。"
     },
-    "current_scope": "当前post-cone因果/两库存与旧queryscope/fresh/root、唯一未执行locator next、summary/STATE/看板/库readscope/根绑定/checkpoint；无新全文/web/query/math/章。",
+    "current_scope": "本次实际固定3query聚合空、两审/当前fresh/root来源0、无后继守卫、库实际范围/看板/STATE/AD/checkpoint；无新math/全文/章节/续批。",
     "published_source_commit": "39d9890d496fad2c4596c16699dc28836910070f",
     "verification": "reviews/2026-10-28/post-cone-investment/remote-sync-verification.json"
   },
@@ -180,7 +180,9 @@
   },
   "homological_locator_admission": {
     "path": "reviews/2026-10-28/post-cone-investment/next-noncanonical-homological-primary-locator.md",
-    "status": "one-batch-admitted-unexecuted-locator-only",
-    "basis": "旧宽标准不新；later universal exact/原norm门+所核旧queries无HH机制定向才支持一次更窄locator。非C*非必要，来源可窄非空；失败不以同一比较递归续批，无章/proof/input预认。"
+    "status": "one-fixed-batch-executed-exhausted-empty-no-locator-no-recursive-successor",
+    "basis": "本次3query/arxiv一批aggregate空，raw585b/dfc313bc保存ignored；0primary页/无source原式。非全网不存在，空结果不成新增比较/续预算，须另真新actual内容才再准。",
+    "execution_record": "reviews/2026-10-28/homological-primary-locator/query-execution-record.json",
+    "consumption": "reviews/2026-10-28/homological-primary-locator/root-consumption-scope.json"
   }
 }

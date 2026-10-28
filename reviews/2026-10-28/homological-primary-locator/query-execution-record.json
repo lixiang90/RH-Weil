@@ -1,0 +1,49 @@
+{
+  "schema": "rh-weil-bounded-homological-locator-execution-v1",
+  "client_date": "2026-10-28",
+  "observed_at_utc": "2026-10-28T05:27:25.997244+00:00",
+  "status": "one-frozen-batch-executed-exhausted-empty-aggregate-no-locator",
+  "authority": "reviews/2026-10-28/post-cone-investment/next-noncanonical-homological-primary-locator.md",
+  "queries": [
+    {
+      "q": "\"Riemann hypothesis\" \"Hochschild\" correspondences",
+      "domains": [
+        "arxiv.org"
+      ]
+    },
+    {
+      "q": "\"Weil\" \"cyclic cohomology\" \"regulator\"",
+      "domains": [
+        "arxiv.org"
+      ]
+    },
+    {
+      "q": "\"zeta\" \"relative cyclic homology\" \"trace\"",
+      "domains": [
+        "arxiv.org"
+      ]
+    }
+  ],
+  "batches_executed": 1,
+  "query_count_executed": 3,
+  "visible_aggregate_result_count": 0,
+  "per_query_attribution": "Tool returned one aggregate empty response. No per-query counts, rankings, completeness or worldwide nonexistence inferred.",
+  "tool_response": "Empty search results\nNo results were found for the provided queries",
+  "network_error_observed": false,
+  "candidate_pages_opened": 0,
+  "new_primary_documents_read": 0,
+  "new_fulltexts_downloaded": 0,
+  "new_math_input": false,
+  "new_chapter_admission": false,
+  "raw_record": {
+    "path": "literature/local/2026-10-28-homological-locator/search-batch.json",
+    "bytes": 585,
+    "raw_sha256": "dfc313bcfe9b91ea7a4b6c6c1fe5fa3550e40d885e4cad174b4a858c9d55a00e",
+    "git_included": false,
+    "ignore_rule": "literature/.gitignore:4 /local/",
+    "scope": "Original complete tool response for this exact batch; not instructions and not a paper full text."
+  },
+  "stop": "Batch exhausted. No synonym/new query, second batch, candidate-page fishing, references/PDF/chapter/paper queue or generic formation. Empty result is not a new mathematical comparison that can recursively renew this same exact-gate budget.",
+  "successor": "No actual source formula/proposition locator from this execution. No new math/source successor admitted; any later admission needs genuinely new actual content or a different executed choice-changing comparison, not this empty result or a new label.",
+  "cadence": "No mathematical iteration/formal18/reset; canonical cadence remains0/history50/latest586/formal17."
+}
