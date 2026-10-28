@@ -1,5 +1,7 @@
 # 研究分支看板
 
+2026-10-28，[Sonin cofinal概率平均比较](goals/reviews/2026-10-28-sonin-convex-old-consequence-stop.md)已执行一项具体不等式并独立旧审/root消费：585每fixed非零源发散直接迫bare正迹概率平均发散。fixed I与低层可见prime缺项C_n已闭，barC→0非逐j0，完整K/pole相消保持。只是更强旧的直接后果0，不改变选择/关键瓶颈/whole4/5UPPER，不授新来源/合同/后继；cadence0/history50/latest586/formal17与Goalactive保持。
+
 2026-10-28，[固定HH/cyclic定位](goals/reviews/2026-10-28-homological-primary-locator-empty-stop.md)已实际原样三query/arxiv一批，聚合空，0primary页/0新正文/0全文下载。raw585b/hash及两具体审/当前fresh/root范围独立保存；不是逐query或全网不存在结论。一次预算耗尽，当前无已准后继，不重查/串paper/泛形成或另排因果审来造next。重新准入只认真新actual内容或不同已执行且能改变选择的比较。来源/数学0，cadence0/history50/latest586/formal17、关键瓶颈与whole4/5UPPER保持，Goal同实例active/open。
 
 以下日期记录保当时阶段；其中“下一/未执行”是历史，当前执行只读STATE。
@@ -29,6 +31,7 @@
 
 | 路线 | 当前地位 | 可消费输入 | 仍欠的核心箭头 | 准入／停止标准 |
 |---|---|---|---|---|
+| cofinal Sonin bare正迹概率平均 | 585直接旧0止；非新math/类边界 | 每fixed非零r的t_n→∞、t_n≥0及有限权质量逃逸 | 完整K同量级相消仍需signed净号；并未证明正Dprime一般失败 | 只限题定bare概率/cofinal规则，fixed I保有限prefix缺项；不以旧0重开query/权重/来源或新合同 |
 | HH/cyclic实际源机制定位 | 唯一固定三query已耗尽，aggregate空，当前无已准后继 | raw585b/原串及两具体审/fresh/root；0primary/0正文 | 未取得actual源式/命题，不增强canonical exact数学边界 | 不递归续批/换词/串paper/泛形成/另因果审；真新内容或不同已执行选择性比较才再准 |
 | marked-HNF同对象两源读出 | 固定sqrtT热rule已强旧0止；原资格耗尽 | 原HNF/Gram/Smith同583矩阵；23绑定因果审视，raw非新input | 当前无r,s公式、原norm/完整Γpp双pole身份或独立净量 | 先扣583完整native/norm与实际适用强旧；同raw不拒新functional，失败不调参数，不准先建C050/587 |
 | 明示simplepole/Γ/FE/strip的正N分类 | 更强旧应用0闭合，停止本域model selection | M单位/α=1/A正、真实Mellin与±A/全尾；μ_A/A＋561＋{1}质量A1/N整数 | 识别ζ仍不付独立乘法Weil号、primitive/mixed或core净费 | 不续UD/coset/A设施/弱化增长造模型；下一因果投入审视，域外/onlylimitDprime/joint保留 |

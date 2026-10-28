@@ -1,5 +1,7 @@
 # RH-Weil 文献索引
 
+2026-10-28，[Sonin概率平均强旧比较](../goals/reviews/2026-10-28-sonin-convex-old-consequence-stop.md)只消费560/585及原范围记录，未读新外部原件/web/PDF/下载，manifest仍130条。[实际readscope](supplements/2026-10-28-sonin-convex-old-scope.md)保fixed I/低层C_n与完整K/Γpp双pole，不把标准凸性旧推论或本地数学记为新全文/新来源门。
+
 2026-10-28，[固定同调定位](../goals/reviews/2026-10-28-homological-primary-locator-empty-stop.md)已执行一批三query，工具仅aggregate空；0候选页/0新正文/0全文下载，manifest仍130条。[实际范围](supplements/2026-10-28-homological-locator-empty-scope.md)绑定585b本地raw与公开查询记录，不虚造论文条目/逐query计数/一般不存在。预算耗尽，当前无已准source后继；以下旧“未执行/下一”均为当时历史。
 
 2026-10-28，[post-cone因果审视](../goals/reviews/2026-10-28-post-cone-causal-investment-and-locator-admission.md)仅核项目原件和旧实际queries，未新web/PDF/下载或数值，130条保持。[实际readscope](supplements/2026-10-28-post-cone-investment-source-scope.md)恢复旧3+6+3定位及later scope，不能重开已审Meyer/Γ signed等门。下一HH/cyclic仅有新exact排重门下的一次窄locator资格，尚未执行/没有新原件，不把非C*标签或计划当数学input。
