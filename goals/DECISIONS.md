@@ -2047,3 +2047,13 @@ C055一轮耗尽，不续prime/graph/connector rate/capacity/source。当前唯�
 实际数学瓶颈与whole4/5负惯性UPPER、primitive/Pan537/principal/sections/mixed/signedcorecross/Ξ均未改。唯一cadence2/history56/latest592/formal18原LF字节保持，manifest131保持，无外部新primary/query/PDF/download/numeric；作者/标准比较/审查/发布0数学。Goal同1793085111active/open/noteligible，不以本候选停止完成或blocked。
 
 当前只本次根范围/原件/看板/文献/STATE/checkpoint正常main发布，独立核source；回执+STATE+新synccheckpoint三metadata child再核actualHEAD/tree/parent，匹配不重推不重计。本recipe一门止，不续F/prime/weight/metric/clock/新复形/source队列；之后数学仍须不同actual input/test/net。范围见goals/reviews/2026-10-29-arithmetic-koszul-harmonic-source-old-stop.md与本次根收据。
+
+## D20261029J — Möbius–Green普通临界域：同一旧逆与度数损失，不重启增长
+
+恢复actual551b054的ref/commit/tree/parent及clean后未重推。Root给出具体V_r=Σμ(n)n^(-1/2)r(logn−t)，两原稿10389/13383、不同fresh7579 PASS与根独立稿均terminal/root全文消费。它精确为518／525同一θ/W逆的反射半密度运输，原Eη因子2、bare/physical平移及L²范数全部保；actual卷积逆只是080同机制，不是算术principal。
+
+519全I响应都有有限L²能量，故裸mod L²类消去整个I，丢405两个degree和Gaussian完整B。全部非零compact源的原响应不L²：causal Laplace商、Jensen O(T)对ζ右半／边界计重数TlogT、内部和边界pole分别拒绝。此端点lemma不是旧文逐字命题，却是同一525 pole接口＋标准计数／Laplace的直接域比较，不付旧临界ε增长。522商增长、526忠实多权／退化仍是更强旧；不据新记号授C056/593。
+
+Ambient商稠密只在所列ambient局部拓扑成立，不偷换restricted response商；conditional左Jordan说明不能认kernel=I/Pan，不假离线零点存在。081NB是feature/target residual closure，080 finite acyclic仍保Green逆；本门不排它们或全部Green/Hodge/relative/higher/signed/有费强域。完整Γ/contact/properpowers/双pole保原目标，没有新正平方身份、principal/sections/mixed或signed corecross/Ξ。实际关键瓶颈与whole4/5负惯性UPPER未改，数学0、cadence2/history56/latest592/formal18及manifest131原LF保持，Goal同1793085111active/open/noteligible。
+
+本门停止，不续μ增长、damping、truncation、metric/clock/完成化或source队列。新数学仍须不同actual input/test/net，未知几何映射名称不通过。当前只根前件/原件/看板/文献scope/STATE/checkpoint正常main发布，独立核source后回执＋STATE＋新sync checkpoint三metadata child再核actualHEAD/tree/parent/clean；条件成立不重推不重计。范围见goals/reviews/2026-10-29-mobius-green-critical-domain-old-stop.md及reviews/2026-10-29/mobius-green-admission/root-consumption-scope.json。

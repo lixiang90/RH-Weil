@@ -1,5 +1,7 @@
 # RH-Weil 文献索引
 
+2026-10-29，[Möbius–Green旧来源范围](supplements/2026-10-29-mobius-green-old-scope.md)：只核项目405/518–520/522/525/526与080–082的具体接口，标准Jensen/RvM/Laplace域门自含补明；无新外部primary/query/PDF/下载/数值，manifest131原字节保持。两原稿/不同fresh/root闭，恢复同域旧0，不续μ增长/权/完成/source，不计数学轮，关键瓶颈与whole4/5UPPER未改。
+
 2026-10-29，[算术Koszul标准旧0读取范围](supplements/2026-10-29-arithmetic-koszul-old-scope.md)：只核项目080/581及旧通用positive-D′谱桥/537等明确scope，无新外部primary/query/PDF/下载/数值；manifest131原字节保持。两原稿/不同限定fresh/root已闭，canonical闭域、coprimeF H0、fixed源operatornorm与无界trace的旧谱桥分开；无C056/593，cadence2/history56/latest592/formal18不动。
 
 2026-10-29，[592/C055正周期图读取范围](supplements/2026-10-29-positive-graph-prime-period-scope.md)：只用项目078/079/565/566/404和560/577既有范围、自含finiteword/primitive/diffuse计算；新外部primary/query/PDF/下载/数值0，manifest131原字节保持。两原件/不同数学fresh/root已闭，统一一数学轮至2/history56/latest592/formal18。Origin-only contact在off0桥内覆盖，long/diffuse等实际修复保留，不付Weil PSD或核心正性。

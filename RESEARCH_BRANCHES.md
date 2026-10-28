@@ -1,5 +1,7 @@
 # 研究分支看板
 
+2026-10-29，[Möbius–Green同域旧0](goals/reviews/2026-10-29-mobius-green-critical-domain-old-stop.md)：两原稿/不同fresh/root已闭。V为518/525原逆的物理运输；全I响应L²但裸类丢两个degree，非零compact响应普通criticalL²不可积。此为旧pole接口＋标准域后果，不付principal/临界增长；ambient与restricted商分开，NB/其它Green未排。实际关键瓶颈与whole4/5负惯性UPPER未改，cadence2/history56/latest592/formal18、manifest131保持，Goalactive。只发布本门，不续μ增长/参数/source；新预算须不同actual input/test/net。
+
 2026-10-29，[Koszul谐和源准入0止](goals/reviews/2026-10-29-arithmetic-koszul-harmonic-source-old-stop.md)：两原稿/不同限定fresh/root闭，canonical整数/exterior纤维D²=rI、gap1/真实h域可付；finiteF/full整数H0保coprimeF，全prime才vacuum。每fixed ArP有operator-norm滤波，任意合法gain/rank正谱的fullsource反测另由旧UBP/Schwartz尾付，只留meanrank1，与537正源冲突。标准分辨率＋旧通用谱桥直接组合0，无C056/593；不把different080/581/旧cone借成同pair，不否定其它Hodge/Green/source/clock/完成。实际瓶颈与whole4/5UPPER未改，cadence2/history56/latest592/formal18原字节保持，Goalactive/open。当前先本次范围发布，无已准后继。
 
 2026-10-29，[592/C055当前已结算](goals/reviews/2026-10-29-positive-graph-592-settlement.md)：两原件/不同数学fresh/root闭；任意countable正edge-additive周期图的exactprime支持迫循环SCC单prime标签。Cofinal marked两prime活动权共同lower时，每fixedC最优短返回activity sup→0；primitive阶梯及off0 fullfixed复源桥含任意origin contacts已付，不假near0mass/自动延拓。实际long/diffuse强连通图仍可fullsigned逼近，不付PSD/总容量/算子norm；一般signed/flow/higher逃逸保留。局部选择改变，primitive/principal/mixed/corecross/Ξ与whole4/5负惯性UPPER未改，Goal同实例active/open。单cadence已一次1→2/history55→56/latest592/formal18保持，C055耗尽/无已准后继；当前先授权发布核actualHEAD。
