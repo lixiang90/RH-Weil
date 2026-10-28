@@ -1,0 +1,35 @@
+{
+  "schema": "rh-weil-primary-read-scope-v1",
+  "client_date": "2026-10-28",
+  "observed_at_utc": "2026-10-28T00:17:22Z",
+  "id": "Suzuki-1204.1827v2-canonical-system",
+  "title": "A canonical system of differential equations arising from the Riemann zeta-function",
+  "authors": "Masatoshi Suzuki",
+  "source_url": "https://arxiv.org/abs/1204.1827v2",
+  "download_url": "https://arxiv.org/pdf/1204.1827v2",
+  "html_url": "https://arxiv.org/html/1204.1827v2",
+  "local_pdf": "literature/local/2026-10-28/suzuki-canonical-system-1204.1827v2.pdf",
+  "bytes": 432186,
+  "raw_sha256": "2c4cf2aa7a5bca731e0f1ac356deaa082eb6137a07c465fdfe09198acc82ef38",
+  "pages": 28,
+  "download_status": "saved-actual-PDF-bytes-through-command-local-10808-proxy",
+  "git_included": false,
+  "git_exclusion": "literature/.gitignore /local/ confirmed by git check-ignore",
+  "version_observations": {
+    "arxiv_version": "1204.1827v2; arXiv page and PDF sidebar say23Sep2016",
+    "local_pdf_printed_date": "Version of September13,2018",
+    "local_pdf_creation_date": "D:20181029133215-04'00'",
+    "html_displayed_date": "Version of August24,2026",
+    "consumption_rule": "Keep observations separate. Fixed-v2 URL returned raw PDF SHA is normative for this review; render dates are not treated as new author versions or proof that HTML and PDF revisions coincide."
+  },
+  "root_read": {
+    "main_gate": "Section2 definitions2.1-2.6, Proposition2.1, Theorems2.2/2.3 and adjacent parameter/end-limit discussion; PDFpages6-9",
+    "necessary_context": "PDF6 section1.7 Watson-versus-causal distinction; PDF9 section3.1 explicit Mellin factorization; PDF14 section4.2 determinant definitions4.7-4.10 only",
+    "visual_pages": [6, 7, 8, 9, 14],
+    "method": "pypdf text extraction and local bundled Poppler rendering; root viewed full page images. fitz unavailable, used existing Poppler, no dependency install.",
+    "not_read_or_certified": "No complete Section3 proof, Section4 proof, Section5 or AppendixA review; no reproof of cited external functional analysis. No numeric or small-omega experiment. OtherSuzuki2606screw paper not consumed as this construction."
+  },
+  "proof_status": "Source-gate/cited statements with original hypotheses, not new project theorem or independent critical input.",
+  "role_scope": "Original multiplicative L2(dx), cutoff(0,a), shifted Mellin high-line identity; boundary unimodular multiplier distinct from causal arithmetic kernel absent innerness. Classical continuous-kernel Fredholm series, not silently ordinary operator traceclass determinant/det2. All-omega innerness and large-a endpoint remain separate from fixed safe-omega Hamiltonian.",
+  "public_scope": "Metadata/versions/hashes/read record and research analysis only; redistribution permission not inferred from public access. PDF and rendered pages stay ignored locally."
+}

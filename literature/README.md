@@ -1,5 +1,7 @@
 # RH-Weil 文献索引
 
+2026-10-28，新增 **Suzuki-1204.1827v2 — A canonical system of differential equations arising from the Riemann zeta-function**，Masatoshi Suzuki，[固定来源](https://arxiv.org/abs/1204.1827v2)。原PDF28页/432186bytes/rawSHA2c4cf2aa…已本地保存，仅元数据和[实际阅读范围](supplements/2026-10-28-hankel-section2-source-scope.md)公开；PDF/页图在ignored local库。Root与fresh实际核PDF6–9/14，主要§2及必要定义，不重审整篇proof。因果/边界、ω分层、a∞和det定义精确归位，来源0止，无新数学input；不把HTML/印页日期差异当新作者版本。
+
 2026-10-28，[固定Tate双源Cartier首门](../goals/reviews/2026-10-28-tate-biextension-source-gate-stop.md)已两支持/fresh/root强旧前置0止：ℓ₁的actualPan值3/8ξ(3/2)经合法倍数送非零半周期，旧属一RR排principal；同点数据另漏537正窗kernel。标签无globalSobolev界，不误套553；line family不冒scalarheight，extra frames/总型保未付。不改evaluation/period/添Green或RR续算，无C050/587/新math；cadence0/历史50/latest586/formal17不变，核心门与whole4/5UPPER未改。下一优先实际两源身份或signed净量而非再造有限坐标载体，当前无继任公式/proof/source章节；Goalactive。
 
 2026-10-28，[互素加法输入前置核账](../goals/reviews/2026-10-28-coprime-additive-source-gate-stop.md)只用项目原件，无外部新文献/PDF/研究网页/下载/渲染/数值，不增全文条目。[实际阅读与审中scope](supplements/2026-10-28-coprime-additive-input-scope.md)区分冻结规则、两终稿/fresh与旧080–096必要段落；q1/corner补项、H1旧密度及共同crop核闭，未证非零宽读已冻结。一次actual构造按更强旧0止，cadence0/历史50/latest586不变；无后继proof/source章节或再次复盘。

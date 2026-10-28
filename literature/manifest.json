@@ -2886,6 +2886,26 @@
       "proof_status": "No external theorem/source/mixed formula consumed; no mathematicaladmission.",
       "scope_record": "supplements/2026-10-28-independent-source-discovery-scope.md",
       "read_record": "reviews/2026-10-28/independent-source-discovery/source-read-record.json"
+    },
+    {
+      "id": "Suzuki-1204.1827v2-canonical-system",
+      "authors": "Masatoshi Suzuki",
+      "title": "A canonical system of differential equations arising from the Riemann zeta-function",
+      "version": "arXiv:1204.1827v2; sidebar23Sep2016; printedDate13Sep2018 separately observed",
+      "source_url": "https://arxiv.org/abs/1204.1827v2",
+      "download_url": "https://arxiv.org/pdf/1204.1827v2",
+      "file": "local/2026-10-28/suzuki-canonical-system-1204.1827v2.pdf",
+      "bytes": 432186,
+      "sha256": "2c4cf2aa7a5bca731e0f1ac356deaa082eb6137a07c465fdfe09198acc82ef38",
+      "pages": 28,
+      "git_included": false,
+      "download_status": "actual-PDF-saved-local-only",
+      "category": "bounded-chapter-source-admission",
+      "recorded_at_utc": "2026-10-28T00:17:22Z",
+      "read_scope": "RootPDF6-9 and14 rendered/read:mainSection2, necessary1.7Watson,9Mellin and14det definitions; notfullSection3/4proofs,5 orAppendix. Sourcecited statements, notnewprojectproof.",
+      "proof_status": "Noindependentcritical/fullWeil input admitted; fresh/root review recorded separately.",
+      "scope_record": "supplements/2026-10-28-hankel-section2-source-scope.md",
+      "read_record": "reviews/2026-10-28/hankel-source-admission/source-read-record.json"
     }
   ],
   "supplement_provenance": [

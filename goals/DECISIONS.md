@@ -1665,3 +1665,13 @@ formal17 cadence0/历史50/latest586原LF ddb2aa4a…保持，不重复复盘/�
 固定E₂/ℓ₁/D/B源到此止，不换evaluation/period/frame或添Green/RR。extra actual raw数据/路径/非固定relativeframe、其他无界腿未被泛排，但本次没有其独立coupling，不自动变第二候选。全部Γ/contact/pp双pole、同一非零primitive mixed、signed/corecross/Xi与whole4/5UPPER保持未改。
 
 formal17 cadence0/history50/latest586原LF ddb2aa4a…保持；C049耗尽，不建C050/587，不复盘归零或完成Goal。下一仍自主形成实际两源identity或signed净量，先写原域/range、独立生成、完整连接及input/test/net；不再先造有限标签载体/metric，再把未知身份当input。当前没有继任公式/proof/指定新source章节，不重开本族/旧query或等待用户许可。两份支持与独立审稿均当前任务终稿，原件/看板/库/STATE/检查点正常main同步后独立核源和metadata当前HEAD。
+
+## D20261028U — 一次明确Hankel原核来源止，因果与目标责任不由边界正性代付
+
+同G20261027/1793085111/原0c4f。自主实物形成库存先命中旧174准确1204.1827 locator，按连续来源后准入规程只核§2及必要定义依赖。原PDF固定v2/432186b/raw2c4cf2aa，ignoredlocal实存；root/fresh实际核PDF6–9/14，两preprimary咨询保持当时未读primary范围。版本侧栏2016、PDF Date2018及HTML Date2026各自保留，不混消费或认新作者版本。
+
+原对象是L2(dx)、hω(xy)、P_a(0,a)，physical酉换元核带e^((u+w)/2)。Th2.2的causal全L2／支持身份有inner等价前件，实轴边界模1/Watson involution不代付它；Th2.3完整显式Hamiltonian只按ω>1引用，ω>1/2 HS/可逆和预期系统推广分开；a∞ endpoint即使ω>1仍open。det按PDF14经典连续核Fredholm级数，不从HS推traceclass/改det2。形式−2xi'/xi非critical核极限，全部Γ/contact/pp/双pole及未移位同源mixed运输仍欠。
+
+原章只恢复旧174路线的精确设施和未付箭头，没有新独立critical/完整signed输入。单章来源0止，不建C050/587、小ω可逆/HS延拓/紧致性或后章proof，不续§5/Appendix/另一paper，不恢复暂停的比例/无零区优化。不是全部Hankel失败，也不以等价性拒绝真实独立算术证明；正Dprime无需逐层Pan，553只扣实际total原global范数前件。
+
+formal17 cadence0/history50/latest586原字节保持；whole4/5UPPER、585/safehigh/586及primitive/mixed/corecross/Xi主瓶颈未改，Goalactive/open/noteligible。下一自主形成实际两源identity或独立signed净量，先原域/range/独立生成/完整目标连接与input-test-net；当前无继任formula/proof/source章节，不将本门未付条件改名input或续来源队列，也不等待用户许可。旧可选用户新输入提问保历史，不作为当前执行阻塞项。按每轮授权同步原件/元数据/库/看板/STATE/checkpoint并独立核源与metadata当前HEAD。

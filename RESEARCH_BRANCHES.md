@@ -6,8 +6,11 @@
 
 2026-10-28，[固定Tate双源Cartier首门](goals/reviews/2026-10-28-tate-biextension-source-gate-stop.md)已两支持/fresh/root强旧前置0止：ℓ₁的actualPan值3/8ξ(3/2)经合法倍数送非零半周期，旧属一RR排principal；同点数据另漏537正窗kernel。标签无globalSobolev界，不误套553；line family不冒scalarheight，extra frames/总型保未付。不改evaluation/period/添Green或RR续算，无C050/587/新math；cadence0/历史50/latest586/formal17不变，核心门与whole4/5UPPER未改。下一优先实际两源身份或signed净量而非再造有限坐标载体，当前无继任公式/proof/source章节；Goalactive。
 
+2026-10-28，[Suzuki1204v2原核单章首门](goals/reviews/2026-10-28-hankel-section2-source-gate.md)已两preprimary咨询/原PDF五页核读/fresh/root限定来源0止。乘法dx与log外因子、causal核/边界inner前件、ω>1显式系统及a∞open、经典Fredholm级数定义已定位；非新critical/完整Weil输入，不扩小ω/HS/紧致性或后章。PDF432186b/2c4cf2aa仅存ignoredlocal，日期观察分开。cadence0/历史50/latest586/formal17不动；核心门与whole4/5UPPER未改。当前无继任formula/proof/章节，下一仍须实际两源identity或独立signed净量及input/test/net；Goalactive。
+
 | 路线 | 当前地位 | 可消费输入 | 仍欠的核心箭头 | 准入／停止标准 |
 |---|---|---|---|---|
+| Suzuki Θω/causal Hankel → canonical系统 | 1204v2§2来源0止；非方法全类失败 | 原PDF/乘法域及固定安全ω cited系统；边界与因果原条件、det级数 | 小ω因果/inner/非退化、a∞端点及完整physical双源运输没有新独立输入 | 不先续HS/临界紧致性/后章proof/另paper；真实新算术估计或完整signed输入才准，正Dprime不逐层强加Pan |
 | Tate E₂单Mellin源 → Cartier／Poincaré型两源族 | 已形成并强旧前置0止fixed source | 原du/强域、actualPan非零半周期、属一RR及onlypoint kernel责任 | 真principal下降／全源mixed及完整Γpp双pole身份未给；family line非高度 | 不换evaluation/period/添Green或RR续预算；不泛排extra raw frames、非局部/relative/正Dprime；先给实际同源identity或signed净量 |
 | 同对象 relative principal／Green → 截面乘法 → mixed RR | 长期主责；无新几何proof，执行先实际mixed公式形成 | 567真实RR→Hodge机制；579–582实际源／strong域／Green；537明确非根 | 同一非零primitive载体上的实际物理源公式、全关系的principal／Green边界、整过滤与同对象mixed身份 | 先核405全关系及平移、537与全源非根、原du／Dlog和全部尾；无实物不续C045或预建未知合同；保relative／higher／有费无界修复 |
 | 独立正分布 → 完整经典Weil分布 | 条件备选；C049/586谱规则已止，需新完整signed身份 | 577/578真Γ正层/原费/完整gR；Nakamura概率近邻已准确入库 | actualq_R或独立正Dprime完整signed消失仍欠；曲率正性不付横向权／完整身份 | 不续Nakamura§2/引文或第三批query；真独立输入可改策，保逐source/Dprime范围 |
