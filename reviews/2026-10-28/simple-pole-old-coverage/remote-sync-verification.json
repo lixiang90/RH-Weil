@@ -1,0 +1,25 @@
+{
+  "schema": "rh-weil-remote-source-verification-v1",
+  "client_date": "2026-10-28",
+  "verified_at_utc": "2026-10-28T02:49:55.306679+00:00",
+  "status": "source-published-independently-verified",
+  "repository": "https://github.com/lixiang90/RH-Weil",
+  "branch": "main",
+  "source_commit": "e5153bdcc1a135c14191881d3d3898062f459a45",
+  "source_tree": "a21783ee8a45ed9dc21fedefad23773cb951cecc",
+  "source_parent": "b5382156daef0c452e8c0bcfa6c5a5bbe3e04c49",
+  "remote_checks": {
+    "method": "Independent connected GitHub GET mainref/gitcommit/gittree",
+    "main_ref_sha": "e5153bdcc1a135c14191881d3d3898062f459a45",
+    "commit_sha": "e5153bdcc1a135c14191881d3d3898062f459a45",
+    "commit_tree_sha": "a21783ee8a45ed9dc21fedefad23773cb951cecc",
+    "tree_sha": "a21783ee8a45ed9dc21fedefad23773cb951cecc",
+    "all_matched": true
+  },
+  "scope": "15 explicit sourcefiles: twoactual old-coverage legs, rootproof includingnonempty andstrongerpositiveN scope, fresh/root16dependencybindings, nextcausaladmission; summary/STATE/decisions/README/frontier/board/literature readscope andsourcecheckpoint. No newexternalfulltext, web research/numerics/mathcontract orcadenceincrement.",
+  "root_scope": "reviews/2026-10-28/simple-pole-old-coverage/root-consumption-scope.json",
+  "cadence": "ExactLF ddb2aa4a96e6de050602302659b21e0debcd1bb0fbcd7e0719e416c52c81a111 unchanged0/history50/formal17/latest586; strongestoldcomposition0, no C050/587/reset.",
+  "next": "reviews/2026-10-28/simple-pole-old-coverage/next-post-classification-investment-review.md: causal reviewonly, notexecuted/nonformal18. Noformed newcandidate/proof/sourcechapter; compareactual mixed/relative andindependentDprime/jointsigned beforemathadmission.",
+  "goal_gate": "Same runtime1793085111 active freshlyobserved, open/noteligible. PositiveN classification under actualGamma/FE/simplepoles/explicitstrip calibratesA1andidentifieszeta, doesnotpay multiplicativeWeilpositivity/primitive-mixed/corecoupling orGoalcoremethodgate; whole4/5UPPER unchanged.",
+  "metadata_child_policy": "Receipt binds verifiedsource only. Exactlyreceipt, STATE andnewsynccheckpoint formmetadatachild; actualchildHEAD/tree checkedafterpush separately, no recursive selfSHA."
+}
