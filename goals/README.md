@@ -1,5 +1,7 @@
 # 长期研究恢复入口
 
+2026-10-29，[592/C055当前已结算](reviews/2026-10-29-positive-graph-592-settlement.md)：两原件/不同数学fresh/root闭；任意countable正edge-additive周期图的exactprime支持迫循环SCC单prime标签。Cofinal marked两prime活动权共同lower时，每fixedC最优短返回activity sup→0；primitive阶梯及off0 fullfixed复源桥含任意origin contacts已付，不假near0mass/自动延拓。实际long/diffuse强连通图仍可fullsigned逼近，不付PSD/总容量/算子norm；一般signed/flow/higher逃逸保留。局部选择改变，primitive/principal/mixed/corecross/Ξ与whole4/5负惯性UPPER未改，Goal同实例active/open。单cadence已一次1→2/history55→56/latest592/formal18保持，C055耗尽/无已准后继；当前先授权发布核actualHEAD。
+
 2026-10-29，[Deninger同章强旧恢复](reviews/2026-10-29-deninger-hodge-prior-scope-recovery.md)：10-20专题/终审/root已消费同一ICM1998 §3/§4；本次据弱002/manifest缺条拟准入的阅读信息差已撤销，旧0停止，不造C055/592或顺读后篇。恢复已付无限维正Hodge与actualWitt flow，二者类别/算术membership/同源完整trace仍不能免费拼接。补漏登文献130→131及ignored原件/实际partial范围，10-20不冒首次阅读日。数学瓶颈、whole4/5UPPER及591保持；唯一cadence1/history55/latest591/formal18原字节不动，Goalactive/open。当前纠错审结后发布，无已准research/source后继。
 
 2026-10-29，[591/C054当前已结算](reviews/2026-10-29-connected-occupation-591-settlement.md)：两原proof/不同数学fresh/root闭合，任意共同0≤R_X≤actualΠ_X在g、τ_.5g、gprime三固定完整Weil目标上有统一ε gap，含任意rank/无限维/非局部及整组三源适应。新2/32/8 joint比较＋actual绝对tail改变occupation路线；外部能量gain或正混合总权若匹配，必要≥c exp[b*(logX)²]，非充分/算子normlower，高gain及其它signed几何未排。一般R保未占据正项；严格trace sandwich重闭，bare循环S1仍冻结。whole4/5负惯性UPPER及primitive/principal/mixed/corecross/Ξ未改，Goal同实例active/open。唯一cadence已一次0→1/history54→55/latest591/formal18保持，C054耗尽/无已准后继；当前先按授权发布并独立核actualHEAD。
