@@ -2089,3 +2089,13 @@ C056 norm8380／strongold8264／复用handle当前affine7310及不同数学fresh
 Root已守卫原单cadence2/history56/latest592后仅一次变3/history57/latest593，formal18保持；3未触发4–8正式宏观审视范围，不造counter/review。所有作者/原型/affine/fresh/readonly/root/发布不另计。无外部新primary/query/PDF/下载/数值，manifest132原字节保持。C056一轮耗尽，不续head-rate/degree/selector/source；无已准继任math/source，重准须不同actual input/test/net。
 
 当前只593证据/根前件/STATE/单cadence/看板/文献scope/checkpoint正常main发布并独立核source，再回执＋STATE＋新sync checkpoint三metadata child核actualHEAD/tree/parent/clean；条件成立不重推不重计。原件与完整范围见goals/reviews/2026-10-29-nyman-head-affine-593-settlement.md和reviews/2026-10-29/nyman-head-tail-admission/root-consumption-scope.json。
+
+## D20261029N — 同源商自导子为标准旧推论，不以新标签续预算
+
+2026-10-29；实际候选 J_delta(r)=delta([exp(-u/2)r])，delta:A->A 为任意 C-linear algebraic Leibniz 导子，A=F/Pan。代数6245/最强旧9923/不同限定fresh7052原件均terminal/root全文核且版本绑定。520实际逐零点函数经有限Hermite给e_rho，519联合jets/双矩核认证有限角代数；非幺delta(e)=0及char0 delta(t^m)给delta(A)落516 value-radical。无需连续性、F提升、globalunit或无限谱包稠密。完整mixed B/T零，537/552非根test失败；degree恢复只可改B双曲项，不改physicalQ=T零。
+
+不是旧文逐字已有命题，但实际输入、代数、局部函数与完整配对均已支付，剩余为标准有限代数，故old0，不新开C057/594。HH¹(A,A)不冒HH₁/Ω/其它module消失；有限局部幂零不冒globalnilpotent/nilradical。源自适应、任意实际finite signed/A组装及原强商收敛极限保持根；不同module/regulator/nonLeibniz/relative/higher/正Dprime仍须独立准入，不据未排逃逸换名授预算。
+
+选择是停止同A内部自导子产生非根primitive的提案，而非完成几何主线。关键primitive/principal/sections/mixed、危险signedcorecross/成长Xi与whole542+555->557 leading4/5负惯性UPPER未改；长期Goal同1793085111active/open/noteligible。单cadence3/history57/latest593/formal18及manifest132原字节保持，没有新增来源/数学轮。当前唯一动作为准确范围正常main发布、独立source与metadatachild actualHEAD/tree/parent核验；无已准后继math/source。不重开C056短窗预算，不串HH/cyclic旧query。重准须不同actual source/pair或已执行且扣最强旧后能改变选择的具体test；仅改值域名称不够。
+
+完整结算及根前件见 goals/reviews/2026-10-29-source-derivation-standard-old-stop.md 与 reviews/2026-10-29/source-derivation-admission/root-consumption-scope.json。

@@ -1,5 +1,7 @@
 # RH-Weil 文献索引
 
+2026-10-29，[源商自导子旧来源scope](supplements/2026-10-29-source-derivation-old-scope.md)：核心只用项目405/516/519/520与537/552，402/430–432/573仅核HH类型；有限Hermite/非幺幂等元/char0局部计算自含。两原稿/不同限定7052-byte fresh/root已闭，old0不建C057/594，cadence3/history57/latest593/formal18保持。无新primary/web/query/PDF/下载/数值，manifest132原字节不动，不把内部标准后果添成新文献。
+
 2026-10-29，[C056 Nyman head／affine旧来源scope](supplements/2026-10-29-nyman-head-affine-scope.md)：只用项目081–088与095–111相关actual域、525(6)旧经典Mertens输入，自含floor/pulse／PNT端点积分／parallelogram；无新外部primary/query/PDF/下载/数值，manifest132原字节保持。三原件/不同数学fresh7986/root已闭，一数学轮至3/history57/latest593/formal18保持；不偷原Weil身份或optimizer距离结论，不续head-rate/degree/selector/source。
 
 2026-10-29，[van der Geer–Schoof theta-RR读页](supplements/2026-10-29-arakelov-theta-rr-source-scope.md)：固定math/9802121v3实际21pages/405773bytes原件仅ignored本地，manifest去重131→132。只消费必要§2定义/§3 RR Proposition1及Q例子，root/source/fresh整页视觉核5–7；未读后章。保theta-h0与smallsection区别、inverse-different下标校勘及真实tensor角色，不作新mixed正性或首次历史阅读断言。来源0，cadence2/history56/latest592/formal18不动。

@@ -1,5 +1,7 @@
 # 宏观前沿：可消费范围与最小未付箭头
 
+2026-10-29，[同源商自导子旧0边界](reviews/2026-10-29-source-derivation-standard-old-stop.md)已两原稿/不同限定fresh/root闭：任意C-linear algebraic δ:F/Pan→F/Pan经实际有限幂等块落value-radical，fullmixed B/T零；degree修复可改B双曲项但不改physical Q=T零，失败537非根。此为405/516/519/520与标准有限代数直接合成，不是独立算术/成长输入，不建C057/594；非HH₁/Ω/其它module或relative/higher全零，N非已知全局nilpotent/nilradical。只止本候选及同目标内sourceadaptive/合法signed组装与原商拓扑极限。关键primitive/principal/sections/mixed/signedcorecross/Ξ、whole4/5负惯性UPPER不变；单cadence3/history57/latest593/formal18与manifest132保持，Goalactive/open，无已准后继。
+
 2026-10-29，[593/C056短窗真实边界](reviews/2026-10-29-nyman-head-affine-593-settlement.md)三原件/不同数学fresh/root闭：doubleconstraint三项moving源full/head必要logenergy loss、subpowerphysicalhead失真与正下密度cofinal Möbiusfullrank域；sameχ实际affinepair head都0而maxfull liminf≥1，非optimizer距离界。新的局部免费norm/候选验收被拒，111allmeans/088actualleakage/fullparabolic/targetaligned/有费growth保留；原NB norm非新fullWeil身份。关键primitive/principal/sections/mixed/signedcorecross/Ξ及whole4/5UPPER未改。数学一次至3/history57/latest593，formal18保持，manifest132不动；C056耗尽，不续head-rate/degree/selector/source，Goalactive/open。
 
 2026-10-29，[theta算术RR来源门](reviews/2026-10-29-arakelov-theta-rr-source-gate-stop.md)两原稿/不同fresh/root0闭：真实Arakelov principal/整数格/metric tensor存在，theta-h0的RR保dual两端，但不是smallsection log#或mixed容量。PDF7 generalF literal下标冻结／正确inverse-different有限重闭；Q counterchecks不受影响。未形成same physical r→primitive/Pan537/sections/mixed桥，不否定其它relative/higher；停止这一命题/Q例子，不续paper后章/参数。新原件库131→132，数学0/cadence2/history56/latest592/formal18不动；核心与whole4/5负惯性UPPER未改，Goalactive。

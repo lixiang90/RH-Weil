@@ -1,5 +1,7 @@
 # 研究分支看板
 
+2026-10-29，[源商自导子标准旧0止](goals/reviews/2026-10-29-source-derivation-standard-old-stop.md)：两原稿/不同限定fresh/root已闭。任意同A=F/Pan的代数自导子像落Weil根，含sourceadaptive选择、有限signed/A组装及实际强商极限，fullmixed Q零而不能保537非根。实际有限块/双degree已旧，余为标准计算，故不建C057/594或计数学轮。HH¹与HH₁/其它module分开，different regulator/relative/higher不据此排除也不自动授预算。关键primitive/principal/mixed/corecross/Ξ和whole4/5负惯性UPPER未改；cadence3/history57/latest593/formal18、manifest132保持，Goalactive。当前准确范围发布，无已准后继。
+
 2026-10-29，[593/C056 Nyman短窗验收边界](goals/reviews/2026-10-29-nyman-head-affine-593-settlement.md)：三原件/不同数学fresh/root已闭。合法双约束三项源full/head能量loss~logN，unitdefect／subpowerhead失真；sameχ候选pair head同时趋0但maxfull liminf≥1。只止免费norm-only／同candidate验收，不判最优逼近/RH；087实际affinebase与tangent分域，111allmeans/088optimizer/targetalignment/fullmetric/有费growth保留。局部选择变，关键primitive/principal/mixed/corecross/Ξ与whole4/5UPPER不变；唯一cadence一次3/history57/latest593/formal18保持，manifest132不动，Goalactive。合同耗尽不续head/degree/selector/source，当前授权发布核actualHEAD。
 
 2026-10-29，[theta算术RR单章来源0止](goals/reviews/2026-10-29-arakelov-theta-rr-source-gate-stop.md)：两原稿/不同fresh/root闭；实际principal/整数格和tensor norm保留，theta-h0≠smallsection log#，Gaussian权及有限计数不由乘法自动给mixed容量。一般数域原印dual下标冻结并按inverse-different重闭，Q不受影响；实际源/Pan537/mixed桥未给。只止本章，不排全Arakelov/relative/higher，不续后章/引用/Q或rank参数。文献实际131→132，数学0/cadence2/history56/latest592/formal18不动，关键瓶颈及whole4/5UPPER保持，Goalactive；当前授权发布。
