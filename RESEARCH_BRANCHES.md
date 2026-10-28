@@ -1,5 +1,7 @@
 # 研究分支看板
 
+2026-10-28，[quarter E*旧运输](goals/reviews/2026-10-28-quarter-eisenstein-old-transport-stop.md)已两具体审/currentfresh/root0闭：同545 quarter参数，去p bounded输入但有非compact threshold；旧FE/theta/DIRECT局部延拓及coset尾给G_Y=μ_-⊗μ_- logY+O1，scalar校准polefree fixed源→0而完整Q>0。不是fixedY界误套/half-point消pole免域。只止该族，非新C053/590/来源预算；cadence3/history53/latest589/formal17字节保持，核心/whole4/5UPPER未改，Goalactive。下一先本轮发布，无已准后继。
+
 2026-10-28，[C052／589](goals/reviews/2026-10-28-scalar-upper-589-settlement.md)已upper/local/currentfresh/root闭合：每fixed meanzero smooth源actual T=o(√X/log²X)；配旧r0lower/Cauchy给全部fixed源对normalized均值rank1，拒绝任意scalar校准r0的完整Weil逼近，r0prime缺陷趋完整q1>0。原norm/Gram/2π/fullΓpp双pole保；非Dprime全拓扑或全部消失权边界。局部选择改变，核心signed/primitive-mixed/whole4/5UPPER未改。统一一轮2→3/历史52→53/latest589/formal17保持，C052耗尽，Goalactive；下一先本轮发布。
 
 2026-10-28，[C051／588](goals/reviews/2026-10-28-local-anchor-588-settlement.md)已主proof/域/currentfresh/root闭合：commoncompact du弱非零moving源实际T发散；fixed-coercive-anchor内任意rank/合法infinite/sourceadaptive正分解的最佳inf在fixed窗外源趋∞。closed minimum/Mosco localQ或∞/广义强resolvent前件均付，非Dprime或norm收敛。局部方法瓶颈改变，成长anchor/消失迹权/unboundedcross及完整signed/primitive-mixed/whole4/5UPPER未改。统一一轮1→2/历史51→52/latest588/formal17保持，C051耗尽，Goalactive；下一先本轮发布，不预后继。

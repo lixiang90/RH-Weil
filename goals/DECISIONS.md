@@ -1839,3 +1839,11 @@ Gaussian仅receiver witness，smallδ/cδ由非零weaklimit一次固定不改候
 新付款为zero-mean actual T=o(√X/log²X)，配585 r0lower及PSD Cauchy给全部fixed smoothcomplex源对的normalized mean-rank1极限。任意source-independent scalar校准r0非零完整q0均在r1给0，而完整q1>0，故有固定非消失缺陷。强于只判一个ratio；不自动有Dprime全拓扑/6.4sharp/receiverstronglimit，不泛排一般消失权/不同正族/成长anchor/joint signed。
 
 统一一数学轮2→3/历史52→53/latest589，formal17保持。C052耗尽，局部scalar可行性瓶颈改变；完整signed/corecoupling/primitive/principal/sectionmultiplication/mixed/Xi及whole4/5负惯性UPPER未变，原Goal总体门未通过。原source/旧lower不重计；无新web/download/numerics，130条库只加既有原件readscope。下一先source及metadata actualHEAD核验，不预C053/后章/查询；后继必须真新actual机制或不同choicechanging test。
+
+## D20261028AL — Quarter E*族由旧theta运输决定，0止而非再开cusp合同
+
+同G20261027/runtime1793085111/原0c4f。589发布完成后root提出具体V_r=∫F_r E*(1/4+it/2)/(2π)、G_Y restriction Gram及polefree r* test。两current审/fresh/root实际核得quarter参数本是545/C016；去p只bounded输入，fixed-Y全L2域旧付，非compact h不在旧compact uniformY前件。未凭标题、紧性或‘half pole可去’宣判。
+
+同一旧FE/DIRECT经hhat=F_r Z(3/2−it)，Gamma/theta与Jacobi给threshold尾；compact h_N/wholeL2 fixedY连续性和coset e^-c/v domination闭局部延拓，非identity cusp Gaussian sum付全尾。实际G_Y(r,s)=μ_-r overlineμ_-s logY+O1，原r0 scalar校准只剩pole-rank1，固定r*完整q*>0而normalized值0。点wise E*(1/2)相消不使F_r(t−i/2)Z(1+it)的1/t系数L2；μ_-条件保留。Restriction与ΛYwhole norm区别、geometric μ_-3/2与actual双pole角色保持。
+
+这份cofinal式未在545逐字打印，但当前全部短旧组合前件已实际闭，属于最强旧直接应用0。停止此literal族，不准C053/590、新cusp估计/来源续查或改s/r/Y；不泛排不同seed/非紧/joint signed等合法修复。原cadence3/history53/latest589/formal17完整字节保持，非formal18。关键primitive/principal/mixed、signed/core/Xi与whole4/5UPPER未改，Goalactive/open。看板/libraryscope/根绑定/STATE/checkpoint按授权main两段同步并独立核实际HEAD，发布后当前无已准后继，只认真新actual机制/不同具体test。

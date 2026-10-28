@@ -1,5 +1,7 @@
 # RH-Weil 文献索引
 
+2026-10-28，[quarter E*强旧比较](../goals/reviews/2026-10-28-quarter-eisenstein-old-transport-stop.md)只读项目545/C016及旧DIRECT／completion记录，无新外部PDF/web/下载，manifest130原字节保持。[实际readscope](supplements/2026-10-28-quarter-eisenstein-old-scope.md)保noncompact threshold、局部延拓和全部cusp尾，不把旧theta组合或cofinal式首次写出计为新来源／新数学轮。
+
 2026-10-28，[C052／589零均值upper](../goals/reviews/2026-10-28-scalar-upper-589-settlement.md)核既存bramble_trace固定v2的Th6.3(6.11)必要链及旧Burnol PDF6/Th8原norm；无新web/下载/数值，全文原字节保持ignoredlocal，manifest仍130项。[准确readscope](supplements/2026-10-28-sonin-zero-mean-upper-source-scope.md)与两现存条目追加记录区分oldlower、新upper、未消费sharp及原作者归属。
 
 2026-10-28，[C051／588弱源与anchor边界](../goals/reviews/2026-10-28-local-anchor-588-settlement.md)仅消费项目537/560/585/587及本轮本地proof/域/fresh，无新外部web/PDF/下载，manifest仍130项。[实际readscope](supplements/2026-10-28-local-anchor-weak-source-scope.md)保原norm/全部Γpp双pole与fixed-anchor范围，不把本地新数学登记成新全文。
