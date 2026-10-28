@@ -1,5 +1,7 @@
 # 宏观前沿：可消费范围与最小未付箭头
 
+2026-10-29，[fixedC2算术全tensor旧比较](reviews/2026-10-29-fixed-c2-tensor-local-global-old-comparison.md)已两支持/不同4776fresh/root闭：Ksqrt−7全n的raw7单闭点与normalization m=2^(n−1)点分开，genericarch完成raw两端pole1/m，不免费同FE；norm恢复FE但仅ζ_K^m。FullRepC2/Adams只变ζ/Lχ重数，localtensor不付globalzero桥；属002/073强旧0，非全部Deligne边界。原du/Pan537/mixed/核心及whole4/5UPPER不改，cadence0/history54/latest590/formal18保持；无C054/591/source后继，Goalactive。
+
 2026-10-29，[固定fractional-part旧去重与091纠错](reviews/2026-10-29-fractional-part-old-comparison-and-sieve-correction.md)已两支持/不同8208fresh/root闭：同081/082原核，任意全R稠密非整数半群RH距离；本global有界J不消405Pan且finite-mass有421完整atomgap，净旧0。091一般δ禁残基重合反例已核，κ局部重闭/δ±1与exactT_g保留，093SL/094SP整链消费继续冻结。无C054/591/source后继；原cadence0/history54/latest590/formal18保持，核心与whole4/5UPPER未改，Goalactive。
 
 2026-10-29，[590＋formal18已结算](reviews/2026-10-28-general-rh-macro-review-cycle-18.md)：inverseEuler实际Riesz全n矩/Gram运输已不同数学fresh/root闭，matching-g后fixedgprime∞，仅止本nonlocal/growingF权族。587–590四完整轮已及时宏观审视，两支持/当前macro fresh/root核；唯一cadence4→0一次/history54/latest590保持。核心primitive/principal/mixed/signedcross与whole4/5UPPER未改，停止继续枚举filter参数；无C054/source后继预算，当前先同步本轮证据。Goal同实例active。

@@ -1973,3 +1973,11 @@ Goal三原门均open/noteligible；gate3限所声称核心类及实际允许修�
 当前两独占支持7150/7934、不同fresh8208及root均核；091 g2/a3/b5/δ2 primitive反例及helper[0]/δ1[]闭。κ_p在p|δ时1否则2；只重闭有限筛/δ±1避免本缺陷，冻结一般δ错误θ/even-g及093SL/094SP整定理当前消费。fixedD局部C_D不冒整链复核，保原稿和其它资产。Schur按normdistance²消费。
 
 数学/来源0，原cadence0/history54/latest590/formal18字节不动；同Goal1793085111active/open/noteligible，whole4/5UPPER与核心primitive/mixed/signedcross未改。下一只本次证据正常main发布/独立核source及metadata actualHEAD，匹配不重推。没有已准参数/数学/source后继，不重跑固定核旧门或未知paper队列。新独立actual内容或已执行能改选择test方重准。原件与具体冻结见goals/reviews/2026-10-29-fractional-part-old-comparison-and-sieve-correction.md及当前root收据。
+
+## D20261029B — 固定C2全tensor：实际局部/Γ/端点闭，全球谱桥仍旧未付
+
+固定Ksqrt−7 ordinaryA_n/R_n/normY_n，当前两支持7539/9113、不同fresh4776/root全文核五冻结版本。Bad7 raw一点/normm点给rawζ=ζK^m(1−7^-s)^(m−1)；genericarch完成raw端点1/m不继承同FE，orderdisc的非零exp不修；norm回ΛK^m只重复divisor。FullRepC2/Schur/Adams/allfinite-rank-adaptive仍ζ^aLχ^b，单位ArtinL本已ζ，localfiberunit1不等全球zero实现。
+
+附件6.1字面localα保持，002/073更强旧已要求独立globaltrace/cohomological桥；当前标准具体算术核账按旧0，不冒新独立输入/实质核心类边界。保lax/relative/graded/RΓ及其它monodromy/新global对象，未排不授预算；pole阶成长不泛判Deligne弱界全部不可用。无physical源/Pan537/原duDlog/mixed新费，whole4/5UPPER与核心不变。
+
+原cadence0/history54/latest590/formal18字节保持，无C054/591/source后继/新Goal。Root同1793085111active/open/noteligible，childget_goal null不改root状态。下一只本次证据/看板/文献/STATE/checkpoint正常main发布并独立核source及metadata actualHEAD，匹配不重推。原件与范围见goals/reviews/2026-10-29-fixed-c2-tensor-local-global-old-comparison.md及当前root收据，不重跑ordinaryC2/field/Adams参数或未知paper队列。

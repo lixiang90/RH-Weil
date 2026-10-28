@@ -1,5 +1,7 @@
 # RH-Weil 文献索引
 
+2026-10-29，[fixedC2 tensor旧比较范围](supplements/2026-10-29-fixed-c2-tensor-old-scope.md)：附件仅§6.1–6.2/项目001002073及KRY旧scope，自含标准C2/integralfiber/Γ端点账，未新读外部primary/PDF/query或下载/数值。Manifest130原字节保持，localα/global谱消费分开；0数学/0source，完整physical桥仍欠。
+
 2026-10-29，[fractional-part旧核与shared-gcd纠错范围](supplements/2026-10-29-fractional-part-and-shared-gcd-old-scope.md)：只核项目原件，无新外部primary/PDF/query/下载；manifest130原字节保持。Root/fresh精确整数helper两case一致，非浮点/渐近实验。081整数半群distance与全R稠密分开，091一般δ宽消费冻结，κ及保留子域重闭，093SL/094SP整链未重验。0数学，Goalactive。
 
 2026-10-29，[590＋formal18](../goals/reviews/2026-10-28-general-rh-macro-review-cycle-18.md)已经数学/宏观两个不同currentfresh及root核闭，复盘0数学、原4→0/history54/latest590保持。本轮全程项目内自含推导与已存proof复核，无新web/PDF/primary/query/下载/数值，manifest未改/130项；[readscope](supplements/2026-10-28-inverse-euler-filter-admission-scope.md)携带actual物理Riesz链、未用辅助和严格局部边界，未产生独立arithmetic正号。
