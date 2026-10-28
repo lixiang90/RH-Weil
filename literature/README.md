@@ -1,5 +1,7 @@
 # RH-Weil 文献索引
 
+2026-10-29，[Sonin connected-variance准入scope](supplements/2026-10-29-sonin-connected-variance-admission-scope.md)：只核项目actualΠ/HS及旧fullgap三范围，未新读外部primary/PDF/query/下载/数值。Manifest130原字节保持；同norm/全G逆/complex核账与条件Cauchy门分开，2logb旧边界paid/Ωcofinal未付。当前准入0止，非V数学失败/新输入，Goalactive。
+
 2026-10-29，[fixedC2 tensor旧比较范围](supplements/2026-10-29-fixed-c2-tensor-old-scope.md)：附件仅§6.1–6.2/项目001002073及KRY旧scope，自含标准C2/integralfiber/Γ端点账，未新读外部primary/PDF/query或下载/数值。Manifest130原字节保持，localα/global谱消费分开；0数学/0source，完整physical桥仍欠。
 
 2026-10-29，[fractional-part旧核与shared-gcd纠错范围](supplements/2026-10-29-fractional-part-and-shared-gcd-old-scope.md)：只核项目原件，无新外部primary/PDF/query/下载；manifest130原字节保持。Root/fresh精确整数helper两case一致，非浮点/渐近实验。081整数半群distance与全R稠密分开，091一般δ宽消费冻结，κ及保留子域重闭，093SL/094SP整链未重验。0数学，Goalactive。

@@ -1,5 +1,7 @@
 # 长期研究恢复入口
 
+2026-10-29，[actual Sonin connected variance准入](reviews/2026-10-29-sonin-connected-variance-admission-stop.md)已两支持/不同5658fresh/root核：δ=(1−Π)M_rhatΠ合法S2、V=T−C≥0及complex双差核/2pi闭；完整差C−K+indefinitepole未付。FullX Cauchy界仅条件，双gap支配只搬Trel费；旧2logb原du边界已付，剩Ωcofinal上费未知。不误套单频/anchor/quiet，也不判V数学失败；当前准入0止/无C054/591/source后继，cadence0/history54/latest590/formal18、核心及whole4/5UPPER保持，Goalactive。
+
 2026-10-29，[fixedC2算术全tensor旧比较](reviews/2026-10-29-fixed-c2-tensor-local-global-old-comparison.md)已两支持/不同4776fresh/root闭：Ksqrt−7全n的raw7单闭点与normalization m=2^(n−1)点分开，genericarch完成raw两端pole1/m，不免费同FE；norm恢复FE但仅ζ_K^m。FullRepC2/Adams只变ζ/Lχ重数，localtensor不付globalzero桥；属002/073强旧0，非全部Deligne边界。原du/Pan537/mixed/核心及whole4/5UPPER不改，cadence0/history54/latest590/formal18保持；无C054/591/source后继，Goalactive。
 
 2026-10-29，[固定fractional-part旧去重与091纠错](reviews/2026-10-29-fractional-part-old-comparison-and-sieve-correction.md)已两支持/不同8208fresh/root闭：同081/082原核，任意全R稠密非整数半群RH距离；本global有界J不消405Pan且finite-mass有421完整atomgap，净旧0。091一般δ禁残基重合反例已核，κ局部重闭/δ±1与exactT_g保留，093SL/094SP整链消费继续冻结。无C054/591/source后继；原cadence0/history54/latest590/formal18保持，核心与whole4/5UPPER未改，Goalactive。

@@ -1981,3 +1981,11 @@ Goal三原门均open/noteligible；gate3限所声称核心类及实际允许修�
 附件6.1字面localα保持，002/073更强旧已要求独立globaltrace/cohomological桥；当前标准具体算术核账按旧0，不冒新独立输入/实质核心类边界。保lax/relative/graded/RΓ及其它monodromy/新global对象，未排不授预算；pole阶成长不泛判Deligne弱界全部不可用。无physical源/Pan537/原duDlog/mixed新费，whole4/5UPPER与核心不变。
 
 原cadence0/history54/latest590/formal18字节保持，无C054/591/source后继/新Goal。Root同1793085111active/open/noteligible，childget_goal null不改root状态。下一只本次证据/看板/文献/STATE/checkpoint正常main发布并独立核source及metadata actualHEAD，匹配不重推。原件与范围见goals/reviews/2026-10-29-fixed-c2-tensor-local-global-old-comparison.md及当前root收据，不重跑ordinaryC2/field/Adams参数或未知paper队列。
+
+## D20261029C — Actual connected variance：合法joint坐标不代cofinal定量输入
+
+固定actual全逆Π_X，δ=(1−Π)M_rhatΠ S2，V=T−C及fullcomplex双差核/2pi已两支持8815/8830、不同fresh5658/root核六冻结版本。完整差C−K+Ppole保indefinite两端点/Γcontact/allpp。旧单频、sourceanchor、uniformreader和movingquiet门未直接定此两频allfixedpair，但notcovered不自动准C054。
+
+Rootfixedg及明确v±给polezero rτ、Q~logτ；若actualfullX同normCauchy核界成立则V原du统一，先fixed大τ再X∞可反测；该界尚未证/未判假，不凭modelspace名或抽象酉同构取得。正确双gap传播给V≤Trel/C≥T_X,b；另恢复强旧Trel=2logb du+Ω，两strip边界已paid，剩combinedΩ cofinal上/signed费未付。旧b≤b*与当前b>eL分开，532cutoff1不升级任意b/cofinal。
+
+当前无实际量化推导或已完成fixedtest，故准入0停止，不建C054/591/source或参数/未知paper后继；不是V数学失败或全joint边界。核心/whole4/5UPPER未改，cadence0/history54/latest590/formal18原字节不动，同Goal1793085111active/open/noteligible。下一只本次证据/状态/看板/文献/checkpoint正常main发布/独立核source与metadata actualHEAD，匹配不重推。原件见goals/reviews/2026-10-29-sonin-connected-variance-admission-stop.md及当前root收据。
