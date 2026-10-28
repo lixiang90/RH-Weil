@@ -1,0 +1,43 @@
+{
+  "schema": "rh-weil-remote-sync-verification-v1",
+  "date": "2026-10-29",
+  "repository": "https://github.com/lixiang90/RH-Weil",
+  "branch": "main",
+  "visibility": "public",
+  "status": "source-verified-metadata-child-conditional",
+  "source_commit": "3012f4a4fe8575a80f61d494f4708be9919f3af6",
+  "source_tree": "22a794459f809a7e8585707259d36fcaa1eeb304",
+  "source_parent": "1c38e61c9b2e90404069b37a876f5a96dd12a7a0",
+  "source_scope": "C054/591: 21 allowlisted research/control/library-scope files; original proofs, independent math fresh, strict trace correction and root consumption. One math iteration settled 0->1/history54->55/latest591; formal18 and original Goal/baseline unchanged.",
+  "source_push": {
+    "command": "git -c http.proxy=http://127.0.0.1:10808 -c https.proxy=http://127.0.0.1:10808 push origin main",
+    "terminal_exit_code": 0
+  },
+  "independent_verification": {
+    "method": "independent connected GitHub GET ref/gitcommit/gittree",
+    "observed_at_utc": "2026-10-28T18:41:51.759Z",
+    "urls": [
+      "https://api.github.com/repos/lixiang90/RH-Weil/git/ref/heads/main",
+      "https://api.github.com/repos/lixiang90/RH-Weil/git/commits/3012f4a4fe8575a80f61d494f4708be9919f3af6",
+      "https://api.github.com/repos/lixiang90/RH-Weil/git/trees/22a794459f809a7e8585707259d36fcaa1eeb304"
+    ],
+    "ref_sha_matches": true,
+    "commit_tree_matches": true,
+    "commit_parent_matches": true,
+    "tree_object_matches": true
+  },
+  "premise_closure": "reviews/2026-10-29/connected-variance-three-test-proof/root-consumption-scope.json",
+  "immutable_settlement_checkpoint": "goals/checkpoints/2026-10-29-connected-occupation-591-settlement.json",
+  "metadata_child": {
+    "files": [
+      "reviews/2026-10-29/connected-variance-three-test-proof/remote-sync-verification.json",
+      "goals/STATE.json",
+      "goals/checkpoints/2026-10-29-connected-occupation-591-sync.json"
+    ],
+    "required_parent": "3012f4a4fe8575a80f61d494f4708be9919f3af6",
+    "verification_condition": "After normal terminal0 push, independently GET actual main ref, its git commit and tree. Actual HEAD/tree/parent must match local and parent source; worktree clean. When true, publication is complete without rewriting a recursive receipt/self SHA or re-pushing."
+  },
+  "research_scope": "Uniform fixed-trio barrier for common 0<=R<=actualPi and necessary superpolynomial external energy gain/positive-mixture weight only. No RH proof, no key independent arithmetic bottleneck removed, no whole4/5 UPPER improvement, high gain/signed/nonoccupation repairs unexcluded. Goal same active instance1793085111/open/not-eligible.",
+  "source_and_privacy": "No new external primary/query/PDF/download/numerics. Manifest130 unchanged; no new third-party fulltexts or credentials. Command-scoped user-authorized10808 proxy.",
+  "next_action": "Commit/push exactly three metadata files and verify actual child condition. Once satisfied do not republish or re-count C054. No admitted mathematical/source successor; fresh concrete input/test/net-consequence admission required before further math."
+}

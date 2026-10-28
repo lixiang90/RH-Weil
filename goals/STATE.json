@@ -43,8 +43,8 @@
     "settled_iterations": [
       "notes/591-connected-occupation-covariance-three-fixed-test-barrier.md"
     ],
-    "stage": "591两proof/不同mathfresh/root已闭并统一一轮结算；source/metadata发布尚待执行。",
-    "next_action": "按allowlist提交C054/591及root/STATE/唯一cadence/看板/文献/settlementcheckpoint；正常main推送并独立核source/ref/tree，再三文件metadata child核actualHEAD。已匹配不重推；无已准数学/source后继。",
+    "stage": "591已root闭/统一一轮/21files source3012f4a已正常push且独立3GET核；metadata三文件尚待提交核actualHEAD。",
+    "next_action": "仅提交/push本回执＋STATE＋2026-10-29-connected-occupation-591-sync.json三文件；独立3GET核实际HEAD/tree/parent=source3012f4a并clean。条件已成立则发布完成不重推不重计；无已准proof/source后继，后续先新actual input/test/net准入，禁续C054参数。",
     "stop_rule": "一个完整证明迭代；tail/jump/occupation断点准确止，旧已蕴含则0；不改ψ/a/源/参数/来源救题。"
   },
   "support_contracts": [],
@@ -119,12 +119,12 @@
     "basis": "本次root get_goal核同实例active；两当前proof16555/11649与不同fresh10103 PASS terminal/fullread，591为真实已执行研究，非Goal状态自证。"
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-10-29-connected-occupation-591-settlement.json",
+  "checkpoint": "goals/checkpoints/2026-10-29-connected-occupation-591-sync.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
-    "commit": "c9e28a941329314e43fac302e2a93c2256ad4dc2",
-    "tree": "6b8b02b18aafd644a29a3614d974a18c7e892a0a",
-    "basis": "Vjoint16files source正常push terminal0＋独立GitHub3GET ref/gitcommit/gittree匹配；sonin-connected-variance-admission/remote-sync-verification.json。Metadata实际HEAD另核，不递归自身SHA。"
+    "commit": "3012f4a4fe8575a80f61d494f4708be9919f3af6",
+    "tree": "22a794459f809a7e8585707259d36fcaa1eeb304",
+    "basis": "C054/591 source正常push terminal0，独立GitHub3GET ref/gitcommit/gittree已匹配；当前metadata child实际HEAD条件另核，回执不递归自身SHA。"
   },
   "completion_audit": {
     "goal": "goals/GOAL.20261027.md",
@@ -134,9 +134,9 @@
     "final_execution_gate": "not-eligible",
     "basis": "591新共同occupation类边界/必要gain费已闭；高gain、非occupation/signed及独立primitive/core仍未覆盖，Goalopen/noteligible，whole4/5UPPER未改。"
   },
-  "process_inventory_observed_on": "C054两作者/不同数学fresh均terminal/root全读；最终591/结算文字只读一致性PASS亦terminal，不另计；无web/numeric后台，root当前结算发布。",
+  "process_inventory_observed_on": "C054两proof/不同数学fresh/结算文字只读核均terminal；sourcepush terminal0/独立3GET通过，无研究后台；当前root执行metadata三文件发布。",
   "publication_approval_gate": {
-    "status": "c054-591-root-settled-source-pending",
+    "status": "c054-591-source-verified-metadata-child-conditional",
     "destination": "https://github.com/lixiang90/RH-Weil",
     "visibility": "public",
     "branch": "main",
@@ -146,9 +146,9 @@
       "reply": "每轮把进度同步到github；把文献保存在文献库中，用研究看板来记录各个路线的状况",
       "scope": "本项目研究/Goal/STATE/看板/文献元数据/审查与同步回执；论文再分发许可不明则全文仅本地。"
     },
-    "current_scope": "C054/591原proof/数学fresh/root/STATE/单cadence/看板/文献scope与检查点；前轮actual1c38e61已核，不重推旧轮。",
-    "published_source_commit": "c9e28a941329314e43fac302e2a93c2256ad4dc2",
-    "verification": "reviews/2026-10-29/sonin-connected-variance-admission/remote-sync-verification.json"
+    "current_scope": "591 source已核，当前只正常发布三metadata文件并核actualHEAD；条件成立即不重推，不递归回执SHA。",
+    "published_source_commit": "3012f4a4fe8575a80f61d494f4708be9919f3af6",
+    "verification": "reviews/2026-10-29/connected-variance-three-test-proof/remote-sync-verification.json"
   },
   "research_board": "RESEARCH_BRANCHES.md",
   "literature_index": "literature/README.md",
