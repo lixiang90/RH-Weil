@@ -43,8 +43,8 @@
     "settled_iterations": [
       "notes/591-connected-occupation-covariance-three-fixed-test-barrier.md"
     ],
-    "stage": "Deninger同章准入已撤销为旧0；旧账9126/不同fresh4768 PASS/root闭，manifest补旧漏登131，cadence原字节不变；当前source发布待执行。",
-    "next_action": "按allowlist提交本次Deninger旧scope纠错/看板/文献131/STATE/sourcecheckpoint，正常main push并独立3GET；再回执+STATE+新synccheckpoint三metadata child核实际HEAD。前轮b084a78条件已过不重推；无C055/592/source后继，禁顺读或续591参数。",
+    "stage": "旧0纠错/文献131/root范围已消费；source d209228已正常push且独立3GET核，三metadata child待核actualHEAD。C054耗尽保持，未增轮。",
+    "next_action": "仅提交/push deninger-flow-source-gate回执＋STATE＋deninger-prior-scope-sync.json三文件；独立核actualHEAD/tree/parent=d209228且clean。若已匹配则发布完成不重推不重计；无已准research/source后继，下一预算须实际新公式/具体比较input-test-net，不续同章或591参数。",
     "stop_rule": "一个完整证明迭代；tail/jump/occupation断点准确止，旧已蕴含则0；不改ψ/a/源/参数/来源救题。"
   },
   "support_contracts": [],
@@ -124,12 +124,12 @@
     "basis": "当前root再次get_goal核同1793085111active；实际source动作/旧账更强记录及纠错均已执行，非新Goal启动。"
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-10-29-deninger-prior-scope-recovery.json",
+  "checkpoint": "goals/checkpoints/2026-10-29-deninger-prior-scope-sync.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
-    "commit": "b084a78cdd88a50dacc260fb4fd1135329bdb5b6",
-    "tree": "89fed3c268d3f82570bb5ed789066a4e3d347fd4",
-    "basis": "本轮独立3GET实际main/commit/tree匹配，parent3012f4a，clean；前轮metadata条件已过，不重推。"
+    "commit": "d209228f3804b986982715ab3cbd9fdfaf85cabc",
+    "tree": "ab29aa36df0c89e947fc7901c12e1683fd66afc8",
+    "basis": "Deninger旧0纠错16files source正常push terminal0，独立GitHub3GET ref/commit/tree/parent匹配；metadata child实际HEAD另核，不递归回执自身SHA。"
   },
   "completion_audit": {
     "goal": "goals/GOAL.20261027.md",
@@ -139,9 +139,9 @@
     "final_execution_gate": "not-eligible",
     "basis": "591新共同occupation类边界/必要gain费已闭；高gain、非occupation/signed及独立primitive/core仍未覆盖，Goalopen/noteligible，whole4/5UPPER未改。"
   },
-  "process_inventory_observed_on": "本次旧账9126/不同限定fresh4768均terminal/root全文读，日期元数据最小修复已核；PDF下载/渲染终止，无研究后台，root当前正常发布。",
+  "process_inventory_observed_on": "旧账/不同fresh均terminal/root全读，sourcepush terminal0/独立3GET通过，无研究后台；root当前执行三metadata发布。",
   "publication_approval_gate": {
-    "status": "deninger-oldscope-root-consumed-source-pending",
+    "status": "deninger-oldscope-source-verified-metadata-conditional",
     "destination": "https://github.com/lixiang90/RH-Weil",
     "visibility": "public",
     "branch": "main",
@@ -151,9 +151,9 @@
       "reply": "每轮把进度同步到github；把文献保存在文献库中，用研究看板来记录各个路线的状况",
       "scope": "本项目研究/Goal/STATE/看板/文献元数据/审查与同步回执；论文再分发许可不明则全文仅本地。"
     },
-    "current_scope": "旧0纠错/旧primary漏登元数据/看板/STATE/checkpoints；PDF与缓存ignored不公开。前轮b084a78已核，无重推。",
-    "published_source_commit": "3012f4a4fe8575a80f61d494f4708be9919f3af6",
-    "verification": "reviews/2026-10-29/connected-variance-three-test-proof/remote-sync-verification.json"
+    "current_scope": "来源旧0 source已核；当前三metadata child正常发布并核actualHEAD；条件成立不重推，无全文公开。",
+    "published_source_commit": "d209228f3804b986982715ab3cbd9fdfaf85cabc",
+    "verification": "reviews/2026-10-29/deninger-flow-source-gate/remote-sync-verification.json"
   },
   "research_board": "RESEARCH_BRANCHES.md",
   "literature_index": "literature/README.md",

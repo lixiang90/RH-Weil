@@ -1,0 +1,42 @@
+{
+  "schema": "rh-weil-remote-sync-verification-v1",
+  "date": "2026-10-29",
+  "repository": "https://github.com/lixiang90/RH-Weil",
+  "branch": "main",
+  "visibility": "public",
+  "status": "source-verified-metadata-child-conditional",
+  "source_commit": "d209228f3804b986982715ab3cbd9fdfaf85cabc",
+  "source_tree": "ab29aa36df0c89e947fc7901c12e1683fd66afc8",
+  "source_parent": "b084a78cdd88a50dacc260fb4fd1135329bdb5b6",
+  "source_push": {
+    "terminal_exit_code": 0,
+    "proxy": "http://127.0.0.1:10808 (command scoped, user authorized)"
+  },
+  "source_scope": "16 allowlisted files: withdrawal of duplicate Deninger chapter admission, stronger prior-consumption recovery, limited independent PASS, catalogue omission repair131, board/control/checkpoint. Zero mathematics; original cadence1/history55/latest591/formal18 unchanged.",
+  "independent_verification": {
+    "method": "Connected GitHub GET ref/gitcommit/gittree independent of git push",
+    "observed_at_utc": "2026-10-28T19:02:57.508Z",
+    "urls": [
+      "https://api.github.com/repos/lixiang90/RH-Weil/git/ref/heads/main",
+      "https://api.github.com/repos/lixiang90/RH-Weil/git/commits/d209228f3804b986982715ab3cbd9fdfaf85cabc",
+      "https://api.github.com/repos/lixiang90/RH-Weil/git/trees/ab29aa36df0c89e947fc7901c12e1683fd66afc8"
+    ],
+    "ref_matches": true,
+    "commit_tree_parent_match": true,
+    "tree_object_matches": true
+  },
+  "root_scope": "reviews/2026-10-29/deninger-flow-source-gate/root-consumption-scope.json",
+  "source_checkpoint": "goals/checkpoints/2026-10-29-deninger-prior-scope-recovery.json",
+  "metadata_child": {
+    "files": [
+      "reviews/2026-10-29/deninger-flow-source-gate/remote-sync-verification.json",
+      "goals/STATE.json",
+      "goals/checkpoints/2026-10-29-deninger-prior-scope-sync.json"
+    ],
+    "required_parent": "d209228f3804b986982715ab3cbd9fdfaf85cabc",
+    "completion_condition": "Normal child push terminal0, independent GET actual main/commit/tree match local HEAD/tree and parent source, clean worktree. If true publication complete without recursive own-SHA receipt rewrite or repeated push."
+  },
+  "source_and_privacy": "One already-consumed primary source permanent catalogue entry added; original130 entries unchanged.24-page304644-byte PDF and text/page caches actually ignored and not staged; no new redistribution permission claimed. Documented prior consumption date not asserted first project reading.",
+  "mathematical_status": "No new arithmetic input or bottleneck change.591 preserved; whole4/5 negative inertia UPPER unchanged. Same runtime1793085111 active/open/noteligible; no C055/592 or successor chapter/paper/parameter budget.",
+  "next_action": "Publish exactly three metadata files and verify actual child condition. Once met do not republish/recount. Further math needs new actual formula or executed input/test/net comparison; duplicate Hodge/source-only naming does not pass admission."
+}
