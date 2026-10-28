@@ -8,11 +8,11 @@
   "cadence": "goals/review-cadence.json",
   "decisions": "goals/DECISIONS.md",
   "latest_strategy": "goals/reviews/2026-10-28-general-rh-macro-review-cycle-17.md",
-  "latest_decision": "D20261028AE",
+  "latest_decision": "D20261028AG",
   "macro_frontier": "goals/MACRO_FRONTIER.md",
-  "macro_summary": "goals/reviews/2026-10-28-sonin-convex-old-consequence-stop.md",
+  "macro_summary": "goals/reviews/2026-10-28-sonin-moment-587-settlement.md",
   "latest_macro_review": "goals/reviews/2026-10-28-general-rh-macro-review-cycle-17.md",
-  "latest_iteration": "notes/586-theta-ground-state-spectrum-and-full-gamma-heat-defect.md",
+  "latest_iteration": "notes/587-actual-sonin-moment-spread-and-growing-source-rank-necessity.md",
   "macro_control": {
     "schema": "macro-recovery-v2",
     "goal_epoch": "G20261027",
@@ -20,8 +20,8 @@
   },
   "macro": {
     "long_objective": "G20261027接续G20261014完整完成门/原0c4f基线，≤582为输入；持续寻经典同源Weil正性/有效性/RR或actualsigned新输入，付全源/成长/core及谱识别。",
-    "unpaid_bottleneck": "577独立正层已付，完整signed消失仍欠；Green已付而同一非零primitive/principal/mixed缺，Sonin危险core/cross仍欠；whole4/5UPPER未改。",
-    "why_this_contract": "当前执行一个具体概率平均与585强旧比较，已根消费旧0；不改变AD后选择，无新actual输入或后继预算，不重开source链。",
+    "unpaid_bottleneck": "587已付fixed-degree actual源uniform/cross费，固定上限源rank无效；成长rank/无限秩完整signed净号、同一非零primitive/principal/mixed及Xi仍欠，whole4/5UPPER未改。",
+    "why_this_contract": "C050已闭actual𝔇与最强先fixed d源共同下界，一轮耗尽；下一先发布核验，不续degree/rank/log优化。谱截断仅旧非空逃逸，尚无另准独立净input。",
     "paused_routes": [
       "零点比例优化",
       "无零区域优化"
@@ -32,27 +32,27 @@
       "已止：MB/修正scalar theta/rawmean/Pet、unitary/canonicalAc、Γsigned定位、EX/fullgap、原rank2ODE/wind、586固定谱、T_B固定中心化、Tate固定ell/点line及Suzuki§2。准确recipe/范数/量词只按原根收据，不调参数或顺读旧章/query；非总类失败。",
       "Möbius/finiteF/正Euler增量/Watkins及simplepole正N同域model search已止，不能拼成域外一般Π分类。Meyer§5/Th5.8已10-20核角色，撤重复source；stronger旧范围见专属recovery字段/原件。",
       "HNF sqrtT概率热rule按421门fixed源ALLB差13/64止；原573fibercone首边界失败。当前inclusioncone canonical z(a,B)有finite exact primitive，费3||a||||B||/原源6L1，unreduced及失连续class读出亦零；止原pair/norm/source，非全cone/higher边界。",
-      "无新机制不续carrier/闭代表或泛形成。旧3+6+3查询及本次HH/cyclic3query均耗尽，aggregate空不生新比较/续批；当前无已准后继，真新actual内容或不同已执行选择性比较才再准。"
+      "原source3+6+3及HH/cyclic查询均耗尽；C050/587仅fixed-degree共同费闭合，不续优化。源补偿rank须→∞，非receiver rank；真正新actual成长rank/signed/primitive实物或不同choicechanging比较才再准。"
     ]
   },
   "primary_contract": {
-    "id": "C049",
-    "path": "goals/contracts/C049-theta-ground-state-full-gamma-heat-gate.md",
+    "id": "C050",
+    "path": "goals/contracts/C050-sonin-three-source-moment-spread.md",
     "status": "completed",
     "iteration_budget": 1,
     "settled_iterations": [
-      "notes/586-theta-ground-state-spectrum-and-full-gamma-heat-defect.md"
+      "notes/587-actual-sonin-moment-spread-and-growing-source-rank-necessity.md"
     ],
-    "stage": "当前cofinal概率bare trace旧比较已root结算0；source9141c15已发布并独立核远端。metadata回执登记，actualchildHEAD推送后另核；研究无已准后继。",
-    "next_action": "本轮metadata独立核验后仍无已准研究后继；只有真新actual内容或不同已执行且改变选择的比较才再准。本次585强旧已覆盖，不授下一平均/参数/source/query/泛形成/因果审。",
-    "stop_rule": "无合格source-defined原式/命题locator即0止，不同义续批/跟PDF引用/串paper/泛形成；本批失败不成新比较，不递归同一exact理由。非C*非必要/窄非空域合法；无actualinput不准章/C050/587，不重开Gamma第三批或旧norm/pair。"
+    "stage": "两proof12142/13009及fresh9957已root全文核，最强fixed-degree/𝔇原norm链闭合，587统一一轮0→1/历史51，C050耗尽；本轮source发布待执行。",
+    "next_action": "先完成本轮source及metadata同步独立核验；其后仅对真新actual成长rank/无限秩signed或primitive净输入/不同choicechanging比较判准入。无另准合同，不续C050或旧source/query/degree优化。",
+    "stop_rule": "C050预算耗尽。固定d不冒成长d_X/全部finite-rank；不调源/norm/degree/log或串source。真正新input/test/net先另准，不从587自动预C051。"
   },
   "support_contracts": [],
   "must_not_forget": [
     "G20261027接续G20261014完整完成门/原0c4f基线；≤582和10-27审视都是输入，旧成果不得重验收。实际runtimeGoal active(createdAt1793085111)，新建由本轮用户直接请求。",
     "完整Γ=2θ′/FP-contact、所有properpowers/双pole、ALLcomplex、原du及zero-extension Dlog；L/算术height/频高独立，fixed/强源/Dprime/成长不合并。",
     "每结果保object/domain-range/关系-商-physical角色/norm、源成长量词/依赖误差/符号/coverage-coupling/strongest-old净值。语义改变先freeze/reclose，draft不代root消费。",
-    "唯一cadence：formalcycle17已在583–586四完整后原4→0一次，历史50/latestmath586保持；默认6/允许4–8。复盘/来源/构造旧重编码/恢复/代理/审计/Git不增数学轮，不能重复归零或恢复耗尽合同。",
+    "唯一cadence：formal17原4→0只一次；587本次统一0→1/历史50→51/latest587，不再归零。默认6/允许4–8；准入/来源/代理/审稿/Git不另计，耗尽合同不续。",
     "strongold542+555→557 whole4/5是负惯性UPPER；537/538 fixed17/16不代成长/Ξ。560全fixed窗positiveTrace−compact+pole，572/高层变分不代低频core及cofinal sign。",
     "几何主线先405全noncompact Pan及平移actual消去、537非根/全源coverage/原费，再同对象整过滤/截面乘法/mixedRR。已知410–437真实relative电荷/573反测与574–575线/Cartier不重造，精确域见前沿。",
     "576正锥生成/alias费、577真Γ修补、578粗Selberg反测均已付；membership/缺陷消失仍open。Dprime策略可不逐层消405，不能泛化uniform原norm或ordinarytrace。",
@@ -99,17 +99,22 @@
       "path": "reviews/2026-10-28/sonin-convex-mixture/root-consumption-scope.json",
       "kind": "cited",
       "scope": "585＋560直接迫cofinal概率bare迹平均发散；fixed I/低层C_n/完整K/pole保留，独立旧审/root仅旧0，无新choice或后继预算。"
+    },
+    {
+      "path": "notes/587-actual-sonin-moment-spread-and-growing-source-rank-necessity.md",
+      "kind": "proved",
+      "scope": "C050一轮：每先fixed d actual导数源共同lower√X/log^(3d+2)、𝔇√X/log8；boundedfixedsource残差需source-rank→∞。非growingdegree/rankrate/Q正号/whole改善。"
     }
   ],
   "pending_processes": [],
   "runtime_goal_observation": {
     "status": "active",
-    "observed_at_utc": "2026-10-28T05:58:31.251769+00:00",
+    "observed_at_utc": "2026-10-28T07:19:59.187407+00:00",
     "created_at_unix": 1793085111,
-    "basis": "get_goal root刚核同createdAt1793085111 active；具体平均不等式及fixedI/低层C已实际执行/root旧0，不是新math或Choice。"
+    "basis": "get_goal现场同1793085111 active；C050实际两proof/fresh已终态，root待消费，不新建/重启。"
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-10-28-sonin-convex-old-sync.json",
+  "checkpoint": "goals/checkpoints/2026-10-28-sonin-moment-587-source.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
     "commit": "9141c152fda5755809bd7bda0f8f3569a74c0750",
@@ -122,11 +127,11 @@
     "goal_lf_sha256": "b3d2acb1f962d793f45d79b6a4e67fb87dd072cd4752108a9298204b4cefa1de",
     "mathematical_gate": "open",
     "final_execution_gate": "not-eligible",
-    "basis": "具体概率平均已由强旧蕴含，不能给新RH/关键独立输入/实质core类边界；关键门及whole4/5UPPER未变，Goalopen/noteligible。"
+    "basis": "587只闭fixed-degree费用与固定上限源rank边界；成长rank谱截断非空，完整signed/primitive/whole/Xi未闭，不通过原核心类总体门。Goalopen/noteligible。"
   },
-  "process_inventory_observed_on": "具体旧比较/旧审/root均终态；sourcepush98577已exit0并GET核一致，非live。无研究web/source/math/候选队列；metadatachild待推送核actualHEAD。",
+  "process_inventory_observed_on": "list_agents三current C050 proof/fresh均terminal/root全文读，587已消费；无web/source/PDF/numeric/math后台，仅本轮发布待执行。",
   "publication_approval_gate": {
-    "status": "source-published-independently-verified-metadata-recorded",
+    "status": "sonin-moment-587-source-ready-not-yet-published",
     "destination": "https://github.com/lixiang90/RH-Weil",
     "visibility": "public",
     "branch": "main",
@@ -136,7 +141,7 @@
       "reply": "每轮把进度同步到github；把文献保存在文献库中，用研究看板来记录各个路线的状况",
       "scope": "本项目研究/Goal/STATE/看板/文献元数据/审查与同步回执；论文再分发许可不明则全文仅本地。"
     },
-    "current_scope": "本次单具体旧比较/独立审/root绑定/AE/STATE/看板/库readscope/checkpoint；无新source/query/math/全文/后继。",
+    "current_scope": "C050/587两准入/两proof/fresh/root/完整前件、单cadence一次结算、AG/summary/看板/库readscope/checkpoints；无新第三方全文或已准后继。",
     "published_source_commit": "9141c152fda5755809bd7bda0f8f3569a74c0750",
     "verification": "reviews/2026-10-28/sonin-convex-mixture/remote-sync-verification.json"
   },
@@ -188,5 +193,9 @@
   "sonin_convex_old_scope": {
     "path": "reviews/2026-10-28/sonin-convex-mixture/root-consumption-scope.json",
     "status": "direct-old-zero-no-choice-change-no-successor"
+  },
+  "sonin_moment_scope": {
+    "path": "reviews/2026-10-28/sonin-moment-proof/root-consumption-scope.json",
+    "status": "root-fresh-proved-c050-one-round-exhausted-source-rank-must-grow"
   }
 }

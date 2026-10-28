@@ -1,5 +1,9 @@
 # 长期研究恢复入口
 
+2026-10-28，[C050／587](reviews/2026-10-28-sonin-moment-587-settlement.md)已两proof/currentfresh/root闭合：每先fixed d的actual导数源Gram共同lower c_d√X/log^(3d+2)，三源𝔇≥c√X/log8。共同源补偿有界fixed-source residual要求rank→∞；源rank不同receiver rank，成长rank/无限秩与完整signed净号仍open。局部费用瓶颈改变，whole4/5UPPER/primitive-mixed核心门未改。统一一数学轮0→1/历史50→51/latest587/formal17不重置，C050耗尽/不续优化，Goalactive。
+
+2026-10-28，[actual三源moment门](reviews/2026-10-28-sonin-moment-spread-admission.md)已核两准入稿/root：E2 movingrank1是偶性＋585旧0；E3 actual𝔇/原norm uniform未付，twoatom仅弱前件反测。只准C050一proof迭代，两腿执行Gaussian辅助全线norm/真实frame逆运输与Jacobi tracegap，尚无已消费新估计。非概率平均/来源续批；完整型/主Goal保持，cadence0/history50/latest586/formal17在结算前不动。
+
 2026-10-28，[Sonin cofinal概率平均比较](reviews/2026-10-28-sonin-convex-old-consequence-stop.md)已执行一项具体不等式并独立旧审/root消费：585每fixed非零源发散直接迫bare正迹概率平均发散。fixed I与低层可见prime缺项C_n已闭，barC→0非逐j0，完整K/pole相消保持。只是更强旧的直接后果0，不改变选择/关键瓶颈/whole4/5UPPER，不授新来源/合同/后继；cadence0/history50/latest586/formal17与Goalactive保持。
 
 2026-10-28，[固定HH/cyclic定位](reviews/2026-10-28-homological-primary-locator-empty-stop.md)已实际原样三query/arxiv一批，聚合空，0primary页/0新正文/0全文下载。raw585b/hash及两具体审/当前fresh/root范围独立保存；不是逐query或全网不存在结论。一次预算耗尽，当前无已准后继，不重查/串paper/泛形成或另排因果审来造next。重新准入只认真新actual内容或不同已执行且能改变选择的比较。来源/数学0，cadence0/history50/latest586/formal17、关键瓶颈与whole4/5UPPER保持，Goal同实例active/open。

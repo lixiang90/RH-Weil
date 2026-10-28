@@ -1,0 +1,142 @@
+{
+  "schema": "rh-weil-root-consumption-v1",
+  "client_date": "2026-10-28",
+  "status": "root-consumed-proved-one-iteration-c050-exhausted",
+  "goal": "goals/GOAL.20261027.md",
+  "runtime_goal_created_at": 1793085111,
+  "baseline_commit": "0c4f3a3eb609bb1d9564138fa4a35701f05605f2",
+  "actual_completed_action": "Actual C050 two current terminal proofs12142b/1ce4ebc0 and13009b/e76fefa4, currentfresh9957b/a1359cc4 fully read byroot after runtime/workingtree recovery; no restart from oldrunning state. Root aligned U/T, domains, tails, constants and exact source roles before consuming587.",
+  "strongest_consumable_consequence": "For every firstfixed finite d, actual trace on E_(d+1)=span{r0,...,r0^(d)} uniformly for ALL complex coefficients >=c_d sqrtX/log^(3d+2)*coefficientnorm2. Degree fixed, coefficients may move. d2 gives actual determinant ratio>=c sqrtX/log8. Same fixed-degree lemma gives originaldu/Dlog K compression lower c_d sqrtX/log^(3d+2)-C_d, positive eigenvalue minmax consequences, and excludes a bounded-rank subsequence for any common sourcecorrection with allfixedsource boundedresidual: rankmusttendinfinity, withoutgrowthrate.",
+  "object_domain_norm_roles": "Actual physical H=L2du, r=exp(u/2)f, A_r and Pi_X with fullfiniteEuler Gram inverse/returns. Explicit r0 normalizedeven bump support[-1,1], all derivatives in fixedI=(-17/16,17/16) andzeroextensionDlog. Original Fourier dt/(2pi) inHilbert/trialnorm; actualtrace int|rhat|2 rho_X dt has rho normalization unchanged. Fixedderivativebasis Gram positive definite; constants maydependd. Relation/quotient/primitive map notadded.",
+  "gaussian_premise_closure": "mu_G=w_X exp(-t2)dt/(2pi) onlyauxiliary polynomialnorm, neverSonin vector or actualrho. mu_H=w_X|H0|2dt/(2pi) realtrialnorm, actual vectors D_Euler pH0. OldH0/allpoly membership/W/P/U paid; newGaussian/Gevrey all-line tails plus t2 middle X4 and outer independent Gaussian absorption yield uniformfullnorm equivalence degree<=N+2. Delta,c fixed; no source/rank/degree parameter loop.",
+  "jacobi_premise_closure": "Exact Eulerlog allprimepowers gives globalabsVsecond<=Lambda=C sqrtX logX. Chebyshevupper enough. All Gaussianmoments/linear-growthVprime close ordinaryIBP and finiteprojection kernelHSdomains. IBPentry n/a_n and kernelpointwiseLip yield a_n2>=n/Lambda without abstractoperatorLip. Normleg weightedt2tail gives a_n2<=C0 throughN+1. Mandatoryupedge rowfactor and boundedunipotent inverse for each fixedd give N(N/Lambda)^d; j<N-d keepsdeg(Pp_j)<N, no N+d newpremise.",
+  "actual_transport_and_errors": "FiniteactualframeV Hframe^-1 V*<=Pi retains fullGram inverse; Hframe uniformlyboundedpositive. Positive trace finitePSD comparison and h=rhat0 fixedcorelower transfer polynomialgap to actual t_X. All integrations/globaltails/payments were in originalnorm, no surrogatebasis replacement. ForlargeX allvisibleprimepowers covered; KGram=traceGram-QGram+PGram fixedfiniteQ/P, only O_d1 loss. LowX completeidentity notclaimed.",
+  "signs_fulltarget": "FullGamma=2thetaPrime/FPcontact/allLambda(p^k)=logp/bothpoles/tails kept. Poleform +2|cosh moment|2-2|sinh moment|2; oddpole remainsnegative. K compressionpositiveeventually on each fixedderivativeE, notallK PSD/allQpositive. No Qnegativecounterexample, ordinaryXi/determinant or zero-location conclusion.",
+  "coverage_coupling_and_legal_escapes": "Common Hermitian SOURCErank with a firstfixed upperboundd, arbitrarymoving/nonlocal range, signedcoeffs andunboundednorm covered. Fixed finitepolarization tests turn claimed allfixedsource residualbound into finiteD matrixbound, so movingkernelwitness doesnotmisapply scalar585. Each-X finitebutgrowingrank notexcluded. OldcompactK spectralcut|lambda|>1 yields actualfinite-rank residualnorm<=1 onfixedI, itsrank necessarilygrows; dependsK itself, notindependentpositiveinput. Nonzero finiteRECEIVERprojection induces generally infinite sourceformrank, shown by positive spectralweight andentireh; cannotapplysource-rank no-go toEX/fullgap. Nonlinearper-source choices notformingcommonHermitianform anddifferentpositiveDprime/paidinfinite-rank remainunpaid.",
+  "strongest_old_comparison": "585 scalarfixedsource bounds, actualevenness and E2 movingrank1 directold0 preserved. EX specifictrial residual two diagonal growth isnot a min-eigen/allmovingcoefficient bound. Twoatom evenmodel satisfies weakpointwise lower but Dbounded; it doesnotfalsify actualSonin or strongeroldALLpoly proofassets. New net is actualsource-uniform spread/cross using newnorm+Jacobi chain. Newprojectresult, no externalpriorityclaim. Whole542+555->557 leading4/5 remains negativeinertiaUPPER unchanged.",
+  "bottleneck_and_goal_audit": "Localactual finiteD spread and boundedsource-rank loophole changed. Core complete net signed positivity, growingrank/infiniterank independentcoupled input, primitive/principal/sectionmultiplication/mixed andXi remainopen. OriginalGoal proof/keyindependentarithmeticinput/substantivecoremethodboundary gate notclosed: retainedcore repairs have actualnonemptygrowrank escapes. Same runtime1793085111 active/open/noteligible, no complete/pause/blocked.",
+  "cadence_settlement": {
+    "counted_iterations": 1,
+    "contract": "C050",
+    "evidence": "notes/587-actual-sonin-moment-spread-and-growing-source-rank-necessity.md",
+    "before_lf_sha256": "ddb2aa4a96e6de050602302659b21e0debcd1bb0fbcd7e0719e416c52c81a111",
+    "after_lf_sha256": "545ca82f4274f9797b6fdf625c1c9b6041d2878d7bdd3e9058688a6e62f1e6e1",
+    "transition": "roundssinceformal17 0->1, historical50->51, latest586->587; formal17/notreset. Existinghistoricalpathlist retained exactly then587 appendedonce; pathcount isnotrecomputed asroundcount.",
+    "nonrounds": "Admission/oldE2/model/helperlemmas/fresh/root/files/tools/recovery/publication notextraiterations."
+  },
+  "current_review_version_note": "Freshbinds root5063b/b277ff81 andoriginalC0504469b/075ac97f. Finalroot onlydischarges actuallymatchedU/T andrecords samefixeddegree strongestconsequence; contract appendedsettlement. Root additionally consumes elementarysubsequence/minmax/compact-spectralescape andreceiver/source-rank scopecorollaries without newproofbudget.",
+  "library_and_publication": "Manifest130 unchanged; no newweb/search/primary/PDF/fulltext/numerics. Existingreadscope/board/state/decisions andcheckpoint updated. Sourcepush andmetadatachild independentlyverified onlyafteractualpush, rootreceipt no recursive ownSHA.",
+  "stop_and_next": "C050 complete/exhausted, no log/degree/rank optimization/source/query/formation queue. Firstfinish source+metadata publication. Furthermath onlywith genuinely newactual independent growingrank/fullsigned/primitive input or another executed choicechangingcomparison; current587 itself notpositivegeneration anddoesnotrenewstoppedrecipes. No C051/newmathbudget preadmitted.",
+  "version_bindings": [
+    {
+      "path": "reviews/2026-10-28/sonin-moment-proof/gaussian-trial-norm-and-physical-transport.md",
+      "raw_bytes": 12142,
+      "lf_sha256": "1ce4ebc02ba8790d21b83642683cf910d8102802af5769f640b6dc1192603ed4"
+    },
+    {
+      "path": "reviews/2026-10-28/sonin-moment-proof/jacobi-commutator-and-three-source-gap.md",
+      "raw_bytes": 13009,
+      "lf_sha256": "e76fefa49913f09754a9a68c4a661bc20ef59089bfd375e80563f473eecb187c"
+    },
+    {
+      "path": "reviews/2026-10-28/sonin-moment-proof/fresh-moment-spread-audit.md",
+      "raw_bytes": 9957,
+      "lf_sha256": "a1359cc4023f87bf58568c5f23a600596680ba9dc63b441979279ac0cbcf94de"
+    },
+    {
+      "path": "reviews/2026-10-28/sonin-moment-proof/root-proof-reconciliation.md",
+      "raw_bytes": 6000,
+      "lf_sha256": "cf9ac4be66b8832bed289539e1a06aedf996ab878234fe03e383482b3bb0fd3f"
+    },
+    {
+      "path": "reviews/2026-10-28/sonin-moment-rank/old-coverage-and-rank-admission.md",
+      "raw_bytes": 12607,
+      "lf_sha256": "a0fd3bba19167e58e59e3e9cd39a1f0d0f13d1419f96952f7e3619acc28ed0b0"
+    },
+    {
+      "path": "reviews/2026-10-28/sonin-moment-rank/moment-matrix-and-premise-separation.md",
+      "raw_bytes": 11338,
+      "lf_sha256": "eff1c95cea21671b88f20210a1ad27b7979de2dd3bd487aff24a883cb35635e0"
+    },
+    {
+      "path": "reviews/2026-10-28/sonin-moment-rank/root-parity-and-determinant-admission.md",
+      "raw_bytes": 4346,
+      "lf_sha256": "a926c6dba7423370358ded1fa6482ae44c425b9b94e46903c4f8d66603eba74e"
+    },
+    {
+      "path": "notes/587-actual-sonin-moment-spread-and-growing-source-rank-necessity.md",
+      "raw_bytes": 8681,
+      "lf_sha256": "e4d30cfb6d07299386014cb4c4e3e3979ab5111264355dfb37b24629f121ac82"
+    },
+    {
+      "path": "notes/560-joint-finite-place-sonin-primepower-cancellation-and-compact-weil-bridge.md",
+      "raw_bytes": 9263,
+      "lf_sha256": "9c2e6cd5a9eae269ad04b332699c21eec7403a230f9557afa8b895c45d4228d3"
+    },
+    {
+      "path": "notes/585-cofinal-sonin-fixed-source-trace-lower-and-core-error-fee.md",
+      "raw_bytes": 7857,
+      "lf_sha256": "5dca916d978eef599587ff4c6ce34144f814ddec0567a4c1b2314dcd71cd01af"
+    },
+    {
+      "path": "reviews/2026-10-14/joint-sonin-cross/full-inverse-carrier-error.md",
+      "raw_bytes": 12893,
+      "lf_sha256": "0db8a2f5acaf6ba4a4655b944f99b450e4af114e9480d4f661cb9e3a7da1c7c2"
+    },
+    {
+      "path": "reviews/2026-10-28/fixed-test-lower/common-sonin-vector-and-polynomial-domain.md",
+      "raw_bytes": 16348,
+      "lf_sha256": "dcdf8e91b408423e3647f116f8bd72e040feaf24cf80f9b92db30d776398af85"
+    },
+    {
+      "path": "reviews/2026-10-28/fixed-test-lower/weighted-polynomial-trial-lower.md",
+      "raw_bytes": 9829,
+      "lf_sha256": "1206390454a52188d508f6cdc1377c736795d4514b6cd7e4ba5385301536c2ba"
+    },
+    {
+      "path": "reviews/2026-10-28/post-lower-causal/necessary-fee-and-legal-repairs.md",
+      "raw_bytes": 12803,
+      "lf_sha256": "4a68d2276b18796911fc60ede0933c5af3d87914c57c40e72a0e38afbeced53a"
+    },
+    {
+      "path": "reviews/2026-10-28/trial-subtraction-admission/actual-residual-trace-and-old-net.md",
+      "raw_bytes": 8080,
+      "lf_sha256": "dca74c77a3980f073a77087b73807da9caa7c22fe5e59b7e360364975a314fd1"
+    },
+    {
+      "path": "reviews/2026-10-28/full-gap-source-gate/actual-relative-expression-and-fees.md",
+      "raw_bytes": 8427,
+      "lf_sha256": "ef6e5f6ecc8ea28da3c384f03bcd27dcd08e652bfab8c9c0b8ca659cc86f8eb7"
+    },
+    {
+      "path": "goals/contracts/C050-sonin-three-source-moment-spread.md",
+      "raw_bytes": 5290,
+      "lf_sha256": "ae543be97c044f24bb0a23e21d2952d7672fadd36f5130b706f54d3f01aa0232"
+    },
+    {
+      "path": "goals/GOAL.20261027.md",
+      "raw_bytes": 9679,
+      "lf_sha256": "b3d2acb1f962d793f45d79b6a4e67fb87dd072cd4752108a9298204b4cefa1de"
+    },
+    {
+      "path": "goals/review-cadence.json",
+      "raw_bytes": 6000,
+      "lf_sha256": "545ca82f4274f9797b6fdf625c1c9b6041d2878d7bdd3e9058688a6e62f1e6e1"
+    },
+    {
+      "path": "goals/reviews/2026-10-28-general-rh-macro-review-cycle-17.md",
+      "raw_bytes": 9782,
+      "lf_sha256": "fccbe767ea32be14951df7400fd9cd6aaeae58d5f7cc4f561279b26fe9aa66c9"
+    },
+    {
+      "path": "literature/manifest.json",
+      "raw_bytes": 193704,
+      "lf_sha256": "f78c289acf774053fe44123638b7bdc6f67bab26414f6960e309f01a8ddc541d"
+    },
+    {
+      "path": "literature/supplements/2026-10-28-sonin-moment-proof-source-scope.md",
+      "raw_bytes": 1452,
+      "lf_sha256": "e90293b7608367c9d61b90357e9d5f409579aacaed70a7a0c300349a27b21a6c"
+    }
+  ]
+}
