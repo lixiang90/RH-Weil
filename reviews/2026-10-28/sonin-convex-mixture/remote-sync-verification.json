@@ -1,0 +1,26 @@
+{
+  "schema": "rh-weil-remote-source-verification-v1",
+  "client_date": "2026-10-28",
+  "verified_at_utc": "2026-10-28T05:58:31.251769+00:00",
+  "status": "source-published-independently-verified",
+  "repository": "https://github.com/lixiang90/RH-Weil",
+  "branch": "main",
+  "source_commit": "9141c152fda5755809bd7bda0f8f3569a74c0750",
+  "source_tree": "23348e5c85b605a931bd9fc375ef3d8bbf0ae7ba",
+  "source_parent": "601d51b2756fd8f91e9ecfde5a305107c1edb743",
+  "remote_checks": {
+    "method": "Independent connected GitHub GET main ref, git commit, git tree",
+    "main_ref_sha": "9141c152fda5755809bd7bda0f8f3569a74c0750",
+    "commit_sha": "9141c152fda5755809bd7bda0f8f3569a74c0750",
+    "commit_tree_sha": "23348e5c85b605a931bd9fc375ef3d8bbf0ae7ba",
+    "tree_sha": "23348e5c85b605a931bd9fc375ef3d8bbf0ae7ba",
+    "all_matched": true
+  },
+  "scope": "12 explicit source files: one concrete bareSonin cofinalprobability comparison, current independent oldconsequenceaudit/root/premisebindings, AE/summary/STATE/entrypoints/board/library readscope/sourcecheckpoint. No newweb/query/primary/PDF/numeric/mathcontract/fulltext.",
+  "root_scope": "reviews/2026-10-28/sonin-convex-mixture/root-consumption-scope.json",
+  "actual_consequence": "585 already implies every firstfixednonzero source baretrace diverges; nonnegative finiteprobability massescape directly preservesdivergence. Old0, no choicechange, keybottleneckremoval or newwhole result. FixedI/allcutoff K and finiteprefix missingprime C retained; barC->0 not everyj exact0; fullcorrected form not rejected.",
+  "cadence": "ExactLF ddb2aa4a96e6de050602302659b21e0debcd1bb0fbcd7e0719e416c52c81a111 unchanged0/history50/latest586/formal17; old0/nonformal18/no reset. Library130 unchanged.",
+  "next": "No admitted successor from this directold consequence. No nextaverage/parameter/source/search/formation/causalinventory budget; only genuinely newactual content or a different executed choicechangingcomparison could support admission.",
+  "goal_gate": "Same root runtime1793085111 freshly active/open/noteligible; no RH proof/keyindependentinput/substantivecore methodboundary. Whole4/5 negativeinertiaUPPER and actualkeybottleneck unchanged.",
+  "metadata_child_policy": "This receipt binds source only. Exactly receipt, STATE and new sync checkpoint form metadatachild; independently verify actualchildHEAD/tree after push without ownSHA recursion."
+}
