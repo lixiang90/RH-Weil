@@ -1,5 +1,7 @@
 # RH-Weil 文献索引
 
+2026-10-28，[phase两源旧首检/未形成](../goals/reviews/2026-10-28-phase-mixed-old-test-and-no-input-stop.md)只核项目560/关系/净费字典及本地130项metadata/later scope，无新web/PDF页/章节/下载/数值；[实际范围](supplements/2026-10-28-phase-mixed-no-input-source-scope.md)保GS未取页、有限locator结论与作者旧proof归属。Manifest原字节保持，不把phase重编码登记为新数学/文献。
+
 2026-10-28，[quiet移动源谱旧消费](../goals/reviews/2026-10-28-quiet-source-spectrum-old-consequence.md)核项目589实际uniform weight/kernel、560/587/588和535/570范围，无新外部web/PDF/下载/数值。Manifest130原字节保持；[实际readscope](supplements/2026-10-28-quiet-source-spectrum-old-scope.md)区分作者旧proof与本地标准Gevrey/frame/minmax消费，最强all-M增长K负阈值不作新数学轮或完整Q负惯性。
 
 2026-10-28，[quarter E*强旧比较](../goals/reviews/2026-10-28-quarter-eisenstein-old-transport-stop.md)只读项目545/C016及旧DIRECT／completion记录，无新外部PDF/web/下载，manifest130原字节保持。[实际readscope](supplements/2026-10-28-quarter-eisenstein-old-scope.md)保noncompact threshold、局部延拓和全部cusp尾，不把旧theta组合或cofinal式首次写出计为新来源／新数学轮。
