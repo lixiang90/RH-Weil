@@ -1,0 +1,25 @@
+{
+  "schema": "rh-weil-remote-source-verification-v1",
+  "client_date": "2026-10-28",
+  "verified_at_utc": "2026-10-28T02:27:29.356574+00:00",
+  "status": "source-published-independently-verified",
+  "repository": "https://github.com/lixiang90/RH-Weil",
+  "branch": "main",
+  "source_commit": "12bfa24d44b58061ba13caa31e3083c5f094b2d6",
+  "source_tree": "ff59f29f81354add6fe0f13bcd266994c949c1fe",
+  "source_parent": "ce2b04a3c0761c36fa17483418d3d737454d6b20",
+  "remote_checks": {
+    "method": "Independent connected GitHub GET mainref/gitcommit/gittree",
+    "main_ref_sha": "12bfa24d44b58061ba13caa31e3083c5f094b2d6",
+    "commit_sha": "12bfa24d44b58061ba13caa31e3083c5f094b2d6",
+    "commit_tree_sha": "ff59f29f81354add6fe0f13bcd266994c949c1fe",
+    "tree_sha": "ff59f29f81354add6fe0f13bcd266994c949c1fe",
+    "all_matched": true
+  },
+  "scope": "18 explicit source files: frozen3query/16aggregated visible index, one actual Watkinspage/read record, twoconsults/fresh/root and13dependency bindings; nextsimplepole admission notexecuted; library130thentry/metadata only, board/summary/decisions/STATE/sourcecheckpoint. Original125665byteHTML/rawd12ce1df remains ignoredlocal; no external full text published.",
+  "root_scope": "reviews/2026-10-28/signed-replacement-source-location/root-consumption-scope.json",
+  "cadence": "ExactLF ddb2aa4a96e6de050602302659b21e0debcd1bb0fbcd7e0719e416c52c81a111 unchanged:0/history50/formal17/latest586. Source0/no new C050/587 orcounter/reset.",
+  "next": "reviews/2026-10-28/signed-replacement-source-location/next-simple-pole-old-classification-admission.md: one explicit simplepoles/residueA/expstrip old-coverage comparison, not yetexecuted. No newquery/paper/proofcontract; proposedtheta, A>0/A=1 not consumed.",
+  "goal_gate": "Same runtime1793085111 active freshly observed; open/noteligible. Ma old/gap, continuous doublepole correction does not pay classical simplepole background or independent signed/core/primitive/mixed. Whole4/5UPPER andkeybottleneck unchanged.",
+  "metadata_child_policy": "Receipt binds verified source only. Exactly receipt, STATE and new sync checkpoint form metadata child; actual child HEAD/tree independently verified after normal push, separately without recursive self SHA."
+}
