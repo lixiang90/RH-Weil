@@ -1,5 +1,7 @@
 # RH-Weil 文献索引
 
+2026-10-28，[inclusion-cone精确源类零](../goals/reviews/2026-10-28-inclusion-cone-exact-source-zero-stop.md)只复用573/537等旧原件并实际推导C*因子化/finite tensor boundary，无新web/PDF/下载/数值，130项保持。[实际readscope](supplements/2026-10-28-inclusion-cone-exact-source-scope.md)区分两种独立因子化、raw原费与pureclass目标；更强unreduced exact零按标准旧应用0，不以closure冒边界或报新算术输入。下一仅未执行的因果选择，无来源队列。
+
 2026-10-28，[独立mixed未形成/强旧核角色恢复](../goals/reviews/2026-10-28-independent-mixed-unformed-and-old-trace-recovery.md)只核项目原件，无新web/PDF/下载/渲染/数值，130条保持。[实际范围](supplements/2026-10-28-independent-mixed-unformed-source-scope.md)记录573原cone断点与10-20已核Meyer§5/Th5.8，纠正manifest较弱10-11范围被误作最新的风险。拟重复source门已撤销/未执行；旧全文248788b/raw60be6001…本次只stat/hash。下一inclusion-cone完成化test尚未执行，无新math/source预算。
 
 2026-10-28，[marked-HNF实际规则自筛](../goals/reviews/2026-10-28-marked-hnf-heat-rule-old-gate-stop.md)仅用项目583/578/421等原件和标准Gaussian/Poisson，无新web/PDF/下载或数值，manifest130项保持。[阅读/归属范围](supplements/2026-10-28-marked-hnf-formula-source-scope.md)区分准备稿、9375b实式、8669b具体审与fresh/root；旧原子门给fixed两源13/64，标准应用0，非一般HNF/theta边界。后继没有合格analytic输入/未用章节，下一独立mixed形成尚无实式/预算；全文许可/本地忽略规则不变。

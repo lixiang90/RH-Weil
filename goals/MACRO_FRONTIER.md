@@ -1,5 +1,7 @@
 # 宏观前沿：可消费范围与最小未付箭头
 
+2026-10-28，[inclusion-cone精确源类零](reviews/2026-10-28-inclusion-cone-exact-source-zero-stop.md)已完成原存活test：e_eta误差<=3sqrtη/2外，同闭C*ideal显式B=EC及finite tensor给actual exact primitive，费<=6L1，故unreduced也零，不只closure。任意同型z(a,B)的class读出均零，纯class totalmodel失败537；非全cone/C*/higher无效。标准强旧0止原pair/norm，不续unreduced/norm修补，cadence0/history50/latest586/formal17保持。下一仅未执行post-cone因果选择，无新math/source队列；核心/whole4/5UPPER未改，Goalactive。
+
 2026-10-28，[独立mixed形成与强旧核角色恢复](reviews/2026-10-28-independent-mixed-unformed-and-old-trace-recovery.md)已准确未成新全源式：573原fiber-cone第二腿不修旧r*首边界，−4仅relative HH1非Hodge primitive。Meyer拟新章门被10-20已核§5/Th5.8更强旧撤销，未重读/未执行；库修later read scope仍130条。下一只有已给inclusion-cone闭代表z_r及原raw费，completed-projective reduced存活test未执行，先扣强旧、不准C050/587。0/history50/latest586/formal17保持，核心/whole4/5UPPER未改，Goalactive。
 
 2026-10-28，[marked-HNF热实式首门](reviews/2026-10-28-marked-hnf-heat-rule-old-gate-stop.md)已actual稿/具体old审/fresh/root限定0止。冻结sqrtT/全theta给ALL B密度[-1,2]，旧421原子门以一对fixed窄源给完整目标差>=13/64，明确排本rule的cofinal身份；非finiteB误判、非全HNF/正Dprime边界。无新math/C050/587，cadence0/history50/latest586/formal17保持，关键瓶颈/whole4/5UPPER未改。analytic后继无合格input/未耗尽locator，下一仅一次独立mixed实物形成或准确未形成，尚无新J/公式/proof；Goalactive。
