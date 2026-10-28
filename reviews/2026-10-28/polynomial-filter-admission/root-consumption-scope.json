@@ -1,0 +1,171 @@
+{
+  "schema": "rh-weil-root-premise-closure-v1",
+  "client_date": "2026-10-28",
+  "status": "root-fresh-closed-direct-old-zero-positive-polynomial-filter-boundary",
+  "goal": "goals/GOAL.20261027.md",
+  "runtime_created_at": 1793085111,
+  "baseline_commit": "0c4f3a3eb609bb1d9564138fa4a35701f05605f2",
+  "root_consumption": {
+    "actual_action": "AQ actual family2973 and root3991, uniform9735 and oldscope10553 all terminal/full-read; current independentfresh final8877/27bca2ee terminal/full-read, limitedPASS without mandatory corrections. Root consumes these exact final versions now.",
+    "draft_conditions": "Root3991 immutable awaitingfresh language historical; final8877 and this receipt discharge conditions. No modification of fresh-bound four originals.",
+    "handles": "Current scalar/moment polynomial proof tasks and rational currentpolyfresh all terminal. Fresh nested abstract topology check terminal with no output file; main fresh has full explicit proof, root consumption does not substitute an imported unchecked premise.",
+    "runtime_recovery": "Same runtime active1793085111 verified now. Priorphase source3b111e6/metadatabadd00f publication completed, not repushed. Prior turn progress was actual phase test and stop publication, not wait/no-progress.",
+    "capacity_event": "Scalar one turn failed modelcapacity; same task/path retried after checking actual no output, recovered and completed9735 without model/budget change. Not mathematical or user/external blocker."
+  },
+  "actual_family_object_domain": {
+    "rule": "For every firstfixed integer d>=0, all realpolynomial w_X nonnegative on entire realaxis with deg<=2d. Coefficients/roots arbitrary with X, source-independent. Actual X->infinity realcutoff; arbitrary cofinal sequences allowed.",
+    "source": "Original physical r=e^(u/2)bare, du and zeroextension Dlog; use Cc-infinity or Schwartz sources for new polyweight. Poly can increase natural form domain, no free extension to all originalDlog and no globaldu bounded filter assumed.",
+    "density": "Same actual ordinary finite-Euler Sonin rho_X with full inverse/returns. nu_X=w_X rho_X dt positive tempered measure for each X, possibly infinite totalmass. T_X[r]=integral |rhat|² rho_Xdt, receiverk=2pi rho_X; no extra2pi.",
+    "maps_roles": "r -> h_X(-iD)r -> actual positive trace for fixedX. h polynomial is physical differential preprocessor, not receiverprojection/source-rank/primitive map. Finite derivative space coefficients differ from receiver rank.",
+    "calibration": "Literal587 du-norm1 positive flatbump g support[-1,1], m=|integral g|²>0, fullq0=Q_W[g]>0; nu_X(|ghat|²)->q0. Only eventual upper is needed, no exactperX normalization required. Constants depend fixedd/g/q0; startingX may depend on calibration speed."
+  },
+  "factor_and_original_coefficient_cost": {
+    "factor": "Every whole-real nonnegative realpoly deg<=2d factors as |h_X|² for one complexpoly deg<=d; realroots even, conjugatepairs split; zero/lowdegree handled by zero coefficients. No evenweight, w(0)>0 or continuousroot choice required.",
+    "actual_source": "h_X=sum a_j t^j -> h_X(-iD)g=sum (-i)^j a_j g^(j), Fourier=h_X ghat. Each is original Cc-infinity/ordinarytrace domain, phasesunitary on coefficient Euclidean norm.",
+    "paid_lower": "587 actual derivative Gram >= c_d sqrtX/ell^(3d+2) sum|a_j|² for all moving complexcoefficients, ell=logX. Not585fixedsource lower or auxiliaryGaussian norm.",
+    "coefficient_bound": "sum|a_j|² <= C_d ell^(3d+2)/sqrtX. This is squared coefficient norm, not same rate for unsquared norm. Hence w_X(t)<=(d+1)C_d ell^(3d+2)/sqrtX (1+|t|)^(2d). All coefficient dependence paid, no growingd uniformity."
+  },
+  "uniform_measure_and_error_closure": {
+    "global": "Paid589 actual projection-square/positivecommutator/Tonelli arbitrary nonnegative measurable outputW: integral W rho_X<=C integral W(sqrtX+log(2+|t|)), independent X/W/source; boundedcompact truncations thenmonotone. Fixed-f headline alone insufficient.",
+    "middle_kernel": "Paid589 actualfull-Gram localization every firstfixeddelta>0/B=1: rho_X<=C_delta exp(-c_delta sqrtX/ell) on delta<=|t|<=ell. No movingdelta, no trialkernel or allheight extrapolation.",
+    "outer": "For any Schwartzphi, N=5d+6: integral_|t|>ell |phi|dnu_X <= C_d p_N(phi) ell^-3(1+logell)->0. Coeff bound/globalmajorant pay all moving coefficients; nu_X totalmass need not be finite.",
+    "middle": "For fixed delta: integral_delta<=|t|<=ell |phi|dnu_X <= C_(d,delta)p0(phi) ell^(5d+3)/sqrtX exp(-c_delta sqrtX/ell)->0. Delta fixed before X limit.",
+    "core": "f0=|ghat|² Schwartz/f0(0)=m>0. Choose fixed neighborhood with f0>=m0>0; positivity/calibration give nu_X(neighborhood)<=B0/m0 uniformly. Do not multiply crude centralmass by coefficient bound and call it bounded.",
+    "all_test_identity": "psi=phi-phi(0)f0/m vanishesat0. Core boundedmass times sup_|t|<=delta |psi|, plus middle/outer, first X->infinity then delta->0 gives nu_X(psi)->0. Calibration yields nu_X(phi)->q0 phi(0)/m for every Schwartzphi.",
+    "strong_topology": "For every bounded subset ofSchwartzS, phi->psi is continuouslinear, so pN/p0/firstderivative sup jointly bounded; tail/middle uniform, core<=C_B delta and calibrationerror*sup_B|phi(0)|->0. Thus convergence uniform on each Sboundedset, i.e. strongdual S-prime. Not an automatic upgrade from fixed-pair or weak convergence."
+  },
+  "physical_transport_and_fulltarget_test": {
+    "definition": "Physical mathfrakW_X(f)=nu_X(fhat) with fhat(t)=integral f(u)e^(-itu)du. It takes r*s-star to integral rhat conj(shat)dnu_X and is stationaryHermitian positive-type tempered.",
+    "fourier": "hat(mathfrakW_X)=2pi check(nu_X), checknu(phi)=nu(phi(-dot)); keep reflection for nonevenweights. Physical limit is Cdu, C=q0/m, not physicalDirac and no extra2pi inthisdefinition. Fourier transports bounded-set uniformity.",
+    "fixed_pair": "All firstfixed compact smooth complexpairs W_X(r,s)->C(integral r)conj(integral s). In particular W_X[gprime]->0 since frequencytest t²|ghat|² vanishesat0.",
+    "full_target": "Original537 q1=Q_W[gprime]>=2^-49162 ||gprime||du²>0; fullfixed-square defect tendsq1. OriginalGamma/FP-contact/allLambda(p^k)=logp/doublepole retained inq0/q1. Mean0 notpolefree. No Qnegative source, RHcounterexample or newpositivity.",
+    "target_topology": "Only fullWeil D-prime compacttest is needed to reject approximation. No assumption or conclusion on globaltemperateness of fullWzeta; cannot infer it from one exponentialpole term.",
+    "nonempty_actual_scope": "For each fixed j>=1, w_X=q0 t^(2j)/T_X[g^(j)] is nonconstant and exactly calibrated for g. T finite fromCc-infinity andstrictpositive fromfixed-X no-kernel/highfrequencyrho/entire source. It is an instance ofsame family, not a new candidate or parameter optimization."
+  },
+  "strongest_old_net_and_degree_necessity": {
+    "classification": "Direct stronger old587/589 facilities plus elementaryfactor/finiteCauchy/Schwartz/calibration,0newmath. No independent arithmetic/geometricinput or unpaiduniform source estimate. Firstexplicit polynomialmovingcoeff/strongSprime does not createC053/590.",
+    "strongest_restoration": "Includes d=0 scalar fullstrong S-prime/physicalD-prime limit. C052 fixed-pair restriction was accurate history; this explicit stronger proof recovers topology from actualuniform sourceproof, not by renaming oldheadline.",
+    "necessary_growth": "If arbitrary finite-degree nonnegativepolyweights give fullWeilDprime approximation asrealX->infinity, degree must tendinfinity, notmerelyunbounded. Otherwise fixedD/cofinalsequence deg<=2D retains gcalibration andgprimepositive target, contradicting same fixedD result alongsequence.",
+    "growth_scope": "No rate, no uniform estimates for d_X->infinity and no exclusion ofthisescape. This is boundeddegree-subsequence necessarycondition only, not a Deligne tensor mechanism or growing-order proof.",
+    "bottleneck_changed": false,
+    "remaining": "K unfavorablepositivepart/T-pole-cross andsame nonzero primitive/principal/section multiplication/mixedRR/Xi unfilled. Source-dependent/nonpoly/nonlocal/signed/growingdegree or differentprimitive mechanisms preserved. No newbudget from unexcluded possibilities.",
+    "whole_baseline": "542+555->557 wholeleading4/5 remains negative-inertiaUPPER unchanged. Boundeddegree filter boundary doesnot cover substantive wholecoremethod legalrepairs required byGoalcompletion."
+  },
+  "semantic_dependency": "If587actual coefficient lower or589 arbitrarymeasurable actualblock/fixeddelta localization is changed, freeze allcurrentdistribution/filter/degree consumption and reclose; fixed-f headlines alone cannot retain these consequences.",
+  "cadence_settlement": {
+    "counted_iterations": 0,
+    "lf_sha256_before": "96b2b8ead795cae90d3f4ea59fdc49e5b41fbc5c64b455197f017819ad0b5745",
+    "lf_sha256_after": "96b2b8ead795cae90d3f4ea59fdc49e5b41fbc5c64b455197f017819ad0b5745",
+    "invariant": "Original3sinceformal17/history53/latest589 byteidentical, noformal18/reset/C053/590. Twoaudits/fresh/nestedtopology/root/oldcorollary/Git not rounds."
+  },
+  "goal_audit": {
+    "runtime_same_instance_active": true,
+    "created_at": 1793085111,
+    "mathematical_gate": "open",
+    "final_execution_gate": "not-eligible",
+    "basis": "No RHproof/newkeyindependentinput/substantivecoreclassboundary coveringgrowingdegree/nonlocal/jointsigned. Finiteorderboundary/directold0/publication cannotcompleteGoal."
+  },
+  "library": {
+    "manifest_entries": 130,
+    "manifest_lf_sha256_before": "803c1ae339aa5f3dadfd1c2c785847a6d2c3afd5df2fc6d6981f4792233fcc16",
+    "manifest_lf_sha256_after": "803c1ae339aa5f3dadfd1c2c785847a6d2c3afd5df2fc6d6981f4792233fcc16",
+    "scope": "literature/supplements/2026-10-28-positive-polynomial-filter-old-scope.md",
+    "external_web_queries": 0,
+    "new_pdf_pages_or_chapters": 0,
+    "fulltext_downloads": 0,
+    "numerics": 0,
+    "user_attachment": "ExistingUser-DistributionBeurlingWeil-20261027 reread8.1-8.2 asdata/motivation, original31170bytes raw/LF23d203de066b16e6f11ddba4cf0350e3d2cd27fec732067b0768d8b050edef74 unchanged; no instructions taken asauthorization.",
+    "publication_policy": "Fulltexts remainlocalignored; publicproject proofs/sourceversion/readscope only."
+  },
+  "stop_and_next": {
+    "stop": "Frozen fixeddegree nonnegative sourceindependentpolynomialfamily fully consumedold0; no degree/rank/rate/coefficient/frequency/source/chapter optimization, no C050/C052 continuation. Growingdegree necessary condition not admitted successor.",
+    "next": "Publish savedroot/AR/entrypoints/board/libraryscope/STATE and sourcecheckpoint; independentremote3GET then exactlyreceipt+STATE+new synccheckpoint metadatachild/actualHEAD verification; after truepostcondition no repush. No admitted futuremath/source queue."
+  },
+  "version_bindings": [
+    {
+      "path": "reviews/2026-10-28/polynomial-filter-admission/root-positive-filter-and-schwartz-test.md",
+      "lf_bytes": 2973,
+      "lf_sha256": "32483f5eab0e992e1826cd5c6706bb62f98bba314aa799ef284c4834a0e84076"
+    },
+    {
+      "path": "reviews/2026-10-28/polynomial-filter-admission/root-filter-old-consumption-draft.md",
+      "lf_bytes": 3991,
+      "lf_sha256": "108e20f057f9451b80d4372245252fdc3b9c3e45550cf362045f606cd608e36d"
+    },
+    {
+      "path": "reviews/2026-10-28/polynomial-filter-admission/uniform-measure-and-domain-proof.md",
+      "lf_bytes": 9735,
+      "lf_sha256": "275a18e512cd9368e42399ac191c998cfbe44208e3458c89928107bd933fadde"
+    },
+    {
+      "path": "reviews/2026-10-28/polynomial-filter-admission/strongest-old-and-filter-scope.md",
+      "lf_bytes": 10553,
+      "lf_sha256": "200f5f096a446eed23ec1137bd7f0e19a6e1c07bb5c9313c2da5b2596b13961e"
+    },
+    {
+      "path": "reviews/2026-10-28/polynomial-filter-admission/fresh-positive-polynomial-filter-audit.md",
+      "lf_bytes": 8877,
+      "lf_sha256": "27bca2eeb8f4959f6c8ec50a57442a410118158e43c86d94f4e6b5321b5b6151"
+    },
+    {
+      "path": "goals/GOAL.20261027.md",
+      "lf_bytes": 9679,
+      "lf_sha256": "b3d2acb1f962d793f45d79b6a4e67fb87dd072cd4752108a9298204b4cefa1de"
+    },
+    {
+      "path": "goals/review-cadence.json",
+      "lf_bytes": 6161,
+      "lf_sha256": "96b2b8ead795cae90d3f4ea59fdc49e5b41fbc5c64b455197f017819ad0b5745"
+    },
+    {
+      "path": "literature/manifest.json",
+      "lf_bytes": 194715,
+      "lf_sha256": "803c1ae339aa5f3dadfd1c2c785847a6d2c3afd5df2fc6d6981f4792233fcc16"
+    },
+    {
+      "path": "goals/reviews/2026-10-28-positive-polynomial-filter-old-boundary.md",
+      "lf_bytes": 3652,
+      "lf_sha256": "9c7b4a8e395fa591f88ae4da4c7e23ab8b9e240ecaf0b64295c0b289c7d96936"
+    },
+    {
+      "path": "literature/supplements/2026-10-28-positive-polynomial-filter-old-scope.md",
+      "lf_bytes": 1995,
+      "lf_sha256": "4f4dd5ceed1f1c9e960aeb5278ef5025d9a023533ddfe2ed96803d3394d966f8"
+    },
+    {
+      "path": "notes/537-source-exact-weil-window-positive-tail-admission.md",
+      "lf_bytes": 8155,
+      "lf_sha256": "269a500556d37fc04a4e44efd2f0899414787743e529506dbbe7395a34eea9f8"
+    },
+    {
+      "path": "notes/560-joint-finite-place-sonin-primepower-cancellation-and-compact-weil-bridge.md",
+      "lf_bytes": 9263,
+      "lf_sha256": "9c2e6cd5a9eae269ad04b332699c21eec7403a230f9557afa8b895c45d4228d3"
+    },
+    {
+      "path": "notes/587-actual-sonin-moment-spread-and-growing-source-rank-necessity.md",
+      "lf_bytes": 8681,
+      "lf_sha256": "e4d30cfb6d07299386014cb4c4e3e3979ab5111264355dfb37b24629f121ac82"
+    },
+    {
+      "path": "notes/588-common-support-sonin-weak-coercivity-and-local-anchor-barrier.md",
+      "lf_bytes": 7320,
+      "lf_sha256": "7a40114f3247c9da55e81098f9d0878273807a3b1e6b20dacfcf39e2fec6deb0"
+    },
+    {
+      "path": "notes/589-sonin-zero-mean-upper-and-scalar-rank-one-limit.md",
+      "lf_bytes": 7185,
+      "lf_sha256": "c491012226713baf0eecff045338563d4e440c6a1bde9eea0d9ccf661b958bc5"
+    },
+    {
+      "path": "reviews/2026-10-28/sonin-scalar-normalization/source-upper-and-tail-proof-audit.md",
+      "lf_bytes": 10211,
+      "lf_sha256": "bab769113b4ce8c858dfd4b7a83dea6abd8808436a599d2206ea9a9bf0915fff"
+    },
+    {
+      "path": "reviews/2026-10-28/sonin-scalar-normalization/source-localization-proof-audit.md",
+      "lf_bytes": 11459,
+      "lf_sha256": "809bc7ffc6f1fbf4dd24af0d710af05fb7ca1bc259992430c3fd6760912ffcb1"
+    }
+  ]
+}

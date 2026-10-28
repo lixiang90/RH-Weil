@@ -8,9 +8,9 @@
   "cadence": "goals/review-cadence.json",
   "decisions": "goals/DECISIONS.md",
   "latest_strategy": "goals/reviews/2026-10-28-general-rh-macro-review-cycle-17.md",
-  "latest_decision": "D20261028AP",
+  "latest_decision": "D20261028AR",
   "macro_frontier": "goals/MACRO_FRONTIER.md",
-  "macro_summary": "goals/reviews/2026-10-28-phase-mixed-old-test-and-no-input-stop.md",
+  "macro_summary": "goals/reviews/2026-10-28-positive-polynomial-filter-old-boundary.md",
   "latest_macro_review": "goals/reviews/2026-10-28-general-rh-macro-review-cycle-17.md",
   "latest_iteration": "notes/589-sonin-zero-mean-upper-and-scalar-rank-one-limit.md",
   "macro_control": {
@@ -20,8 +20,8 @@
   },
   "macro": {
     "long_objective": "G20261027接续G20261014完整完成门/原0c4f基线，≤582为输入；持续寻经典同源Weil正性/有效性/RR或actualsigned新输入，付全源/成长/core及谱识别。",
-    "unpaid_bottleneck": "Phase精确旧Q/K重编码无独立净量；K不利正部/T-pole-cross、同一非零primitive/principal/mixed/Xi未付，whole4/5UPPER未改。",
-    "why_this_contract": "实际phase两源式的非空place test已exact0自筛，几何/source准确未形成；当前只保存停止证据，不再用同一缺口续预算。",
+    "unpaid_bottleneck": "固定degree正filter仍只剩均值，growth必要但未付；K不利正部/T-pole-cross、同一非零primitive/principal/mixed/Xi未付，whole4/5UPPER未改。",
+    "why_this_contract": "不同actual正poly预处理已核全Schwartz/强Sprime和非零gprime缺陷，最强旧0止；现在只发布准确边界，不做degree或scalar优化。",
     "paused_routes": [
       "零点比例优化",
       "无零区域优化"
@@ -43,8 +43,8 @@
     "settled_iterations": [
       "notes/589-sonin-zero-mean-upper-and-scalar-rank-one-limit.md"
     ],
-    "stage": "Phase首检/有限未形成已root旧0消费并source15files发布3GET核实；C052耗尽，metadata actualHEAD匹配后发布完成，不续phase。",
-    "next_action": "完成本metadata三文件child commit/push与独立3GET核actualHEAD；匹配不重发/不续phase或C052。当前无已准math/source；须不同actual输入或已执行可改选择比较，不再库存/换名未知费。",
+    "stage": "Polyfilter两终稿/当前fresh8877/root旧0已实际消费：strongSprime/Cdu及degree必须→∞，无新math合同，source发布待执行。",
+    "next_action": "核根收据/冻结版本/Goal-cadence-manifest不变与新sourcecheckpoint，发布本次旧边界并3GET；再仅receipt+STATE+新synccheckpoint child/核actualHEAD。通过不重发，不以degree→∞授后继预算。",
     "stop_rule": "一完整门；任何实际uniform/domain/tail断点准确未证止，不换源/α/window或续source；pure scalar不冒全部消失权/正Dprime。"
   },
   "support_contracts": [],
@@ -101,20 +101,20 @@
       "scope": "旧0根消费：冻结空间uniform quiet、source norm1/strong0、完整K allM增长负阈值；负K有利，非Q负/whole改善。"
     },
     {
-      "path": "reviews/2026-10-28/post-quiet-core-admission/root-consumption-scope.json",
+      "path": "reviews/2026-10-28/polynomial-filter-admission/root-consumption-scope.json",
       "kind": "cited",
-      "scope": "实际phase双源旧0首检：全pp/Γ/pole/原Dlog，混合增量0而一阶非零，精确旧Q/K；geometry/source仅有限未形成/无locator。"
+      "scope": "旧0：任意fixed degree移动coeff正poly校准后strongSprime谱delta0/physical常数，gprime缺陷；真fullDprime需degree→∞，无率/未排成长。"
     }
   ],
   "pending_processes": [],
   "runtime_goal_observation": {
     "status": "active",
     "created_at_unix": 1793085111,
-    "observed_at_utc": "2026-10-28T11:52:53.745045+00:00",
-    "basis": "现场get_goal同实例active；本轮单一phase式/实际test及有限geometry/source/currentfresh/root0已执行消费，非新math或Goal完成。"
+    "observed_at_utc": "2026-10-28T12:28:33.308637+00:00",
+    "basis": "现场get_goal同实例active；当前polyfamily/两proof/独立fresh终态/root旧0已执行消费，非新round或Goal完成。"
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-10-28-phase-mixed-no-input-sync.json",
+  "checkpoint": "goals/checkpoints/2026-10-28-positive-polynomial-filter-old-source.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
     "commit": "3b111e6f968f1734e105b177497d6eef131bc9a2",
@@ -127,11 +127,11 @@
     "goal_lf_sha256": "b3d2acb1f962d793f45d79b6a4e67fb87dd072cd4752108a9298204b4cefa1de",
     "mathematical_gate": "open",
     "final_execution_gate": "not-eligible",
-    "basis": "本轮phase精确旧式/有限未形成不付核心新input、实质方法类边界或RH；Goalopen/noteligible，不能按无input暂停/阻塞。"
+    "basis": "Fixed-degree polyfilter旧边界和degree→∞必要性未覆盖成长/nonlocal/jointsigned或付核心新input，Goalopen/noteligible。"
   },
-  "process_inventory_observed_on": "post-quiet当前三稿/fresh均terminal；sourcepush exit0/3GET匹配，无agent/web/numeric后台；metadata当前显式commit/push待执行。",
+  "process_inventory_observed_on": "当前两polyproof/独立fresh及其抽象topology子审全部terminal，无agent/web/numeric/shell/git后台。",
   "publication_approval_gate": {
-    "status": "phase-no-input-source-verified-metadata-finalization",
+    "status": "polynomial-filter-old-zero-root-consumed-source-pending",
     "destination": "https://github.com/lixiang90/RH-Weil",
     "visibility": "public",
     "branch": "main",
@@ -141,9 +141,7 @@
       "reply": "每轮把进度同步到github；把文献保存在文献库中，用研究看板来记录各个路线的状况",
       "scope": "本项目研究/Goal/STATE/看板/文献元数据/审查与同步回执；论文再分发许可不明则全文仅本地。"
     },
-    "current_scope": "Phase旧0 source15files已push/独立3GET；仅receipt+STATE+新synccheckpoint三文件child，推后核actualHEAD。",
-    "published_source_commit": "3b111e6f968f1734e105b177497d6eef131bc9a2",
-    "verification": "reviews/2026-10-28/post-quiet-core-admission/remote-sync-verification.json"
+    "current_scope": "当前五原件/根收据/AR/summary/入口/看板/libraryscope/STATE/两个running与新sourcecheckpoint；后仅receipt+STATE+新synccheckpoint三文件。"
   },
   "research_board": "RESEARCH_BRANCHES.md",
   "literature_index": "literature/README.md",
@@ -213,5 +211,9 @@
   "post_quiet_phase_admission": {
     "path": "reviews/2026-10-28/post-quiet-core-admission/root-consumption-scope.json",
     "status": "root-fresh-closed-old-zero-no-independent-input-no-successor"
+  },
+  "polynomial_filter_scope": {
+    "path": "reviews/2026-10-28/polynomial-filter-admission/root-consumption-scope.json",
+    "status": "root-fresh-closed-direct-old-zero-strong-Sprime-fixed-degree-degree-must-diverge"
   }
 }

@@ -1881,3 +1881,19 @@ AO三独占终稿6797b/8116b/10176b、root3912b及不同currentfresh9084b全部t
 几何未形成不同actual sameprimitive两源规则；本地130项相关metadata/later scope无合格新locator，非未读全文/全球不存在。GS只stat/hash与旧scope，outline缺pypdf未取页/未安装下载，不构成研究外部阻塞；普通product即使定位也不补source桥，不准章门。405/537/553、canonical exact零及closed-base修正各保准确域，未来不同actual数据开放但无预算。
 
 强旧直接0，不建C053/590/第二candidate/source/query，不续phase或quiet/C052。Cadence3/history53/latest589/formal17原字节不动，关键signed正部/cross与primitive/principal/mixed/Xi、whole4/5UPPER未改，Goal同实例active/open/noteligible。本turn有已执行实式与停止证据，非等待/状态重述；不把无新数学input说成外部blocker。下一只先证据两段发布和独立核actualHEAD；完成后不重发，当前无已准后继，重准入须不同actual输入或已执行可改选择比较，不再泛库存/换名未知净费。
+
+## D20261028AQ — 不同实际positive polynomial filter，先核强旧Sprime量词
+
+前phase源3b111e6及metadata badd00f实际ref/commit/tree已核，当前恢复树干净，前轮是实际首检/停止证据发布进展而非等待。既有phase/quiet/C050/C052预算不续。本轮root实际形成ν_X=w_Xρ_Xdt：任意先fixed d、w_X≥0 realpoly deg≤2d，系数任意随X而source-independent；同587g校准非零完整q0，fixed gprime检验完整q1>0。
+
+与pure scalar不同的是有限阶微分预处理；不是degree/rank/rate优化。只准两具体old-premise审：587实际derivativeGram下界能否付factorh_X系数，589 arbitrarymeasurable/global和firstfixedδ/B1能否付全部Schwartz test的uniform尾与near0质量，得到谱δ0/physical constant的Sprime/Dprime结论。不能只用fixedpair headline或free Dlog域，不把Sprime标签当新输入。若强旧直接付全scope，准确旧0；否则根另冻结真未付proof预算，不预C053/590或新source。
+
+此门有actualfamily/test/net，成功仅判固定degree的任意移动系数正filter；不排成长d/非多项式/非局部/signed/primitive，不给Q负或whole4/5改善。Goalopen，cadence3/history53/latest589/formal17字节保持，不造formal18/第二counter。
+
+## D20261028AR — 正polyfilter的strongSprime旧极限，次数必须趋∞而未排该逃逸
+
+AQ实际规则2973b/root3991b、uniform9735b/oldscope10553b及currentfresh最终8877b全部terminal/root全文读，根收据正式解除草稿前件。非负poly单complexfactor的actual derivativeGram给平方coeff norm≤C_d ell^(3d+2)/sqrtX；589任意measurable全线/firstfixeddeltaB1付全部Schwartz尾，中段和校准near0质量。对S有界集同估计统一，ν→Cdelta0与physical Cdu于strongSprime，非偶权保2pi反射且不免费扩全Dlog。gprime完整q1>0缺陷闭。
+
+最强旧不只scalar fixedpair：d0 fullstrongSprime也由更强paid证明恢复；任意finite-degree族若fullDprime逼近，degree必须趋∞而非仅unbounded，因boundeddegree子列反证。无growth率/统一growingdegree估计或排除，非poly/nonlocal/signed/逐源或不同primitive保留。目标只需Dprime，不从pole单项断整体temperateness。
+
+Strongold标准直接0，无独立算术/几何新input，不建C053/590，不续C050/C052或degree/rank/rate/source。Cadence3/history53/latest589/formal17字节不动，不造formal18。真实核心signed正部/cross与primitive/principal/mixed/Xi、whole4/5UPPER未变，Goal同实例active/open/noteligible。Capacity错误同任务已恢复成功，不是外部阻塞。下一只先本次已核证据/看板/库/STATE两段发布与独立核actualHEAD；通过后不重发，degree→∞必要性不是已准后继。
