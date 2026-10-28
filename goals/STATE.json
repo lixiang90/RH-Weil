@@ -8,9 +8,9 @@
   "cadence": "goals/review-cadence.json",
   "decisions": "goals/DECISIONS.md",
   "latest_strategy": "goals/reviews/2026-10-28-general-rh-macro-review-cycle-17.md",
-  "latest_decision": "D20261028AB",
+  "latest_decision": "D20261028AC",
   "macro_frontier": "goals/MACRO_FRONTIER.md",
-  "macro_summary": "goals/reviews/2026-10-28-inclusion-cone-exact-source-zero-stop.md",
+  "macro_summary": "goals/reviews/2026-10-28-post-cone-causal-investment-and-locator-admission.md",
   "latest_macro_review": "goals/reviews/2026-10-28-general-rh-macro-review-cycle-17.md",
   "latest_iteration": "notes/586-theta-ground-state-spectrum-and-full-gamma-heat-defect.md",
   "macro_control": {
@@ -21,7 +21,7 @@
   "macro": {
     "long_objective": "G20261027接续G20261014完整完成门/原0c4f基线，≤582为输入；持续寻经典同源Weil正性/有效性/RR或actualsigned新输入，付全源/成长/core及谱识别。",
     "unpaid_bottleneck": "577独立正层已付，完整signed消失仍欠；Green已付而同一非零primitive/principal/mixed缺，Sonin危险core/cross仍欠；whole4/5UPPER未改。",
-    "why_this_contract": "原inclusioncone存活test由同C*ideal实际因子化/finite tensor给更强exact零，unreduced也闭；标准强旧0止原pair/norm。下一只post-cone因果选择，未有合格新input/proof/source章。",
+    "why_this_contract": "Post-cone因果0已闭：无现成新input，停止无机制载体/泛形成循环。只据后来已执行任意z(a,B) exact/原norm门与所核旧3+6+3未定向HH的有限内容差，下一一次窄primary locator；未执行/非新input。",
     "paused_routes": [
       "零点比例优化",
       "无零区域优化"
@@ -31,7 +31,8 @@
       "579–584的实际源/强域/Green/native全尾均paid，各principal/coarse primitive/原域/coverage停门见前沿。literal/整体theta冻结，583principal仅closed-base分支，584同B；不泛排differentrelative/higher/有费强源。",
       "已止：MB/修正scalar theta/rawmean/Pet、unitary/canonicalAc、Γsigned定位、EX/fullgap、原rank2ODE/wind、586固定谱、T_B固定中心化、Tate固定ell/点line及Suzuki§2。准确recipe/范数/量词只按原根收据，不调参数或顺读旧章/query；非总类失败。",
       "Möbius/finiteF/正Euler增量/Watkins及simplepole正N同域model search已止，不能拼成域外一般Π分类。Meyer§5/Th5.8已10-20核角色，撤重复source；stronger旧范围见专属recovery字段/原件。",
-      "HNF sqrtT概率热rule按421门fixed源ALLB差13/64止；原573fibercone首边界失败。当前inclusioncone canonical z(a,B)有finite exact primitive，费3||a||||B||/原源6L1，unreduced及失连续class读出亦零；止原pair/norm/source，非全cone/higher边界。"
+      "HNF sqrtT概率热rule按421门fixed源ALLB差13/64止；原573fibercone首边界失败。当前inclusioncone canonical z(a,B)有finite exact primitive，费3||a||||B||/原源6L1，unreduced及失连续class读出亦零；止原pair/norm/source，非全cone/higher边界。",
+      "Post-cone不续无独立机制的carrier/闭代表试造或泛形成。旧3+6+3查询各止；下一仅新exact比较支持的一次HH/cyclic primary locator，失败不递归续批/换名，非Gamma第三批/非数学资格。"
     ]
   },
   "primary_contract": {
@@ -42,9 +43,9 @@
     "settled_iterations": [
       "notes/586-theta-ground-state-spectrum-and-full-gamma-heat-defect.md"
     ],
-    "stage": "当前canonical cone source exact零/6L1及标准旧0已结算，source4a99533已独立核远端；当前metadata子提交另推送核实际HEAD，不递归填本身SHA。",
-    "next_action": "当前metadata子提交同步核验后，只执行inclusion-cone-survival/next-post-cone-causal-review.md一次限定因果选择；exact存活test已止不重做，不改norm/pair/source续预算，非formal18。",
-    "stop_rule": "停止原inclusioncone canonical source存活门，unreduced也exact零不续；不改trace-norm/pair/source/metric/regulator续预算。下一因果选择只认新actual input/test/net或未耗尽locator，不泛形成/旧source队列，不准C050/587。"
+    "stage": "两当前库存/旧queryscope/fresh/root因果0已结算；仅一次窄HH primary locator获资格但未执行，无新source/章/proof。待本轮main同步。",
+    "next_action": "先完成post-cone-investment当前source/metadata同步核验；随后只执行next-noncanonical-homological-primary-locator.md固定三query一批/arxiv primary/最多一候选，先actual/later-scope去重。",
+    "stop_rule": "无合格source-defined原式/命题locator即0止，不同义续批/跟PDF引用/串paper/泛形成；本批失败不成新比较，不递归同一exact理由。非C*非必要/窄非空域合法；无actualinput不准章/C050/587，不重开Gamma第三批或旧norm/pair。"
   },
   "support_contracts": [],
   "must_not_forget": [
@@ -95,20 +96,20 @@
       "scope": "586/C049一轮：固定全整数theta Dirichlet谱两项count/完整Γ热正缺陷/fixedcompact平方非消失差；只止该谱rule，非RH反例/whole/core突破。"
     },
     {
-      "path": "reviews/2026-10-28/inclusion-cone-survival/root-consumption-scope.json",
+      "path": "reviews/2026-10-28/post-cone-investment/root-consumption-scope.json",
       "kind": "cited",
-      "scope": "标准强旧0：actual e_eta后同norm闭C*factorization给finite exact primitive/6L1，canonical source unreduced也零；仅此类/纯class目标，不代全cone或核心边界。"
+      "scope": "因果0：paid设施/新exact门与旧3+6+3真实scope分开；无新input。仅一次更窄HH primary locator admitted未执行，失败非递归，不授章/math。"
     }
   ],
   "pending_processes": [],
   "runtime_goal_observation": {
     "status": "active",
-    "observed_at_utc": "2026-10-28T04:50:50.115856+00:00",
+    "observed_at_utc": "2026-10-28T05:14:04.102697+00:00",
     "created_at_unix": 1793085111,
-    "basis": "get_goal root刚核同1793085111 active；当前exact源类零test/更强消费已执行，下一因果选择未执行。"
+    "basis": "get_goal root核同1793085111 active；本轮因果动作与资格审实际执行，下一三query locator尚未执行。"
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-10-28-inclusion-cone-exact-sync.json",
+  "checkpoint": "goals/checkpoints/2026-10-28-post-cone-investment-source.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
     "commit": "4a99533c33ea6dc3a3f12d5b1f31a5145982746f",
@@ -121,11 +122,11 @@
     "goal_lf_sha256": "b3d2acb1f962d793f45d79b6a4e67fb87dd072cd4752108a9298204b4cefa1de",
     "mathematical_gate": "open",
     "final_execution_gate": "not-eligible",
-    "basis": "canonical source同norm exact零是旧573结构+标准factorization/链恒等式直接0，未给完整Weil/primitive/signed/core净输入；局部停门非实质核心类边界，whole4/5UPPER不动，三门open。"
+    "basis": "因果0与一次locator资格没有新增完整Weil/primitive/signed/core净输入或实质核心方法类边界，whole4/5UPPER/关键门未变，三门open/noteligible。"
   },
-  "process_inventory_observed_on": "actual7328b/独立right8368b/fresh8682b/事实consult5892b均当前终态/root全文读；无web/PDF/数值/proof后台或source队列。下一post-cone因果选择未执行。",
+  "process_inventory_observed_on": "geometry16287b/signed13940b/fresh11942b均当前终态/root全文读；无研究web/PDF/query/numeric/math后台。下一locator未执行/无原命题/无新章队列。",
   "publication_approval_gate": {
-    "status": "source-published-independently-verified-metadata-recorded",
+    "status": "root-settled-awaiting-source-and-metadata-publication",
     "destination": "https://github.com/lixiang90/RH-Weil",
     "visibility": "public",
     "branch": "main",
@@ -135,7 +136,7 @@
       "reply": "每轮把进度同步到github；把文献保存在文献库中，用研究看板来记录各个路线的状况",
       "scope": "本项目研究/Goal/STATE/看板/文献元数据/审查与同步回执；论文再分发许可不明则全文仅本地。"
     },
-    "current_scope": "当前唯一cone存活test/独立exact审/fresh/root/事实consult/未执行因果next、summary/STATE/看板/库readscope/根绑定/checkpoint，无新全文/math/C050/587。",
+    "current_scope": "当前post-cone因果/两库存与旧queryscope/fresh/root、唯一未执行locator next、summary/STATE/看板/库readscope/根绑定/checkpoint；无新全文/web/query/math/章。",
     "published_source_commit": "4a99533c33ea6dc3a3f12d5b1f31a5145982746f",
     "verification": "reviews/2026-10-28/inclusion-cone-survival/remote-sync-verification.json"
   },
@@ -161,7 +162,7 @@
     "repair_record": "reviews/2026-10-27/corrected-theta-source/root-consumption-scope.json",
     "basis": "literal失域/原hash保持；明确Rgeom scalar源/零模/全原费/F∞及conditionalPan消费重闭；整体Theta/7.4/modularity/stack-index未付，MB/582/583保持。"
   },
-  "latest_causal_review": "goals/reviews/2026-10-28-post-classification-causal-investment.md",
+  "latest_causal_review": "goals/reviews/2026-10-28-post-cone-causal-investment-and-locator-admission.md",
   "sonin_high_scope_recovery": {
     "path": "reviews/2026-10-28/action-cone/strongest-old-sonin-recovery-correction.md",
     "status": "old-paid-safe-high-range-recovered-root-fresh-limited",
@@ -176,5 +177,10 @@
     "path": "reviews/2026-10-28/inclusion-cone-survival/root-consumption-scope.json",
     "status": "source-exact-boundary-in-unreduced-fixed-domain-root-fresh-closed",
     "basis": "任意a∈A/B∈闭J同型z有finite primitive，3||a||||B||；原源6L1。此前仅reduced未判unreduced入口现exact关闭，不声称全cone零/linear contraction/回到trace-norm。"
+  },
+  "homological_locator_admission": {
+    "path": "reviews/2026-10-28/post-cone-investment/next-noncanonical-homological-primary-locator.md",
+    "status": "one-batch-admitted-unexecuted-locator-only",
+    "basis": "旧宽标准不新；later universal exact/原norm门+所核旧queries无HH机制定向才支持一次更窄locator。非C*非必要，来源可窄非空；失败不以同一比较递归续批，无章/proof/input预认。"
   }
 }

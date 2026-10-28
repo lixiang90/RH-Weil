@@ -1,5 +1,7 @@
 # 研究分支看板
 
+2026-10-28，[post-cone因果投入](goals/reviews/2026-10-28-post-cone-causal-investment-and-locator-admission.md)已核两库存和旧查询scope：无合格新math/input，停止无独立机制的载体试造/泛形成循环。保canonical任意a/B unreduced exact0及paidGreen/trace/正层。旧查询3+6+3均止；只据后来新增exact/原norm门与未查HH/cyclic源机制的有限内容差，下一仅原样三query一批/最多一primary locator，未执行、非Gamma第三批/非新input。cadence0/history50/latest586/formal17、核心/whole4/5UPPER保持，Goalactive。
+
 2026-10-28，[inclusion-cone精确源类零](goals/reviews/2026-10-28-inclusion-cone-exact-source-zero-stop.md)已完成原存活test：e_eta误差<=3sqrtη/2外，同闭C*ideal显式B=EC及finite tensor给actual exact primitive，费<=6L1，故unreduced也零，不只closure。任意同型z(a,B)的class读出均零，纯class totalmodel失败537；非全cone/C*/higher无效。标准强旧0止原pair/norm，不续unreduced/norm修补，cadence0/history50/latest586/formal17保持。下一仅未执行post-cone因果选择，无新math/source队列；核心/whole4/5UPPER未改，Goalactive。
 
 2026-10-28，[独立mixed形成与强旧核角色恢复](goals/reviews/2026-10-28-independent-mixed-unformed-and-old-trace-recovery.md)已准确未成新全源式：573原fiber-cone第二腿不修旧r*首边界，−4仅relative HH1非Hodge primitive。Meyer拟新章门被10-20已核§5/Th5.8更强旧撤销，未重读/未执行；库修later read scope仍130条。下一只有已给inclusion-cone闭代表z_r及原raw费，completed-projective reduced存活test未执行，先扣强旧、不准C050/587。0/history50/latest586/formal17保持，核心/whole4/5UPPER未改，Goalactive。

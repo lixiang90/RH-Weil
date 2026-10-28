@@ -1765,3 +1765,17 @@ Root拟Meyer后章source时用较弱10-11scope被新old审否定：10-20 reposit
 旧573闭ideal/raw归属与原费用，加标准C*精确因子化/普通Hochschild恒等式，直接决定本准入；两稿明确补实际前件和常数，没有新独立算术/几何输入或whole/core净改善。按直接强旧0止pair/norm/source，不因exact/differentcone标签预发C050/587，也不只以初等/局部为计0理由。原cadence LF ddb2aa4a…保持0/history50/latest586/formal17，无formal18/归零。
 
 当前post-test事实consult未核到合格未停actual input/test/net或未耗尽章节；不编sourcequeue/换norm复活或泛形成计划。唯一下一reviews/2026-10-28/inclusion-cone-survival/next-post-cone-causal-review.md一次限定因果投入审视，尚未执行/非formal18，support事实不代root选择。局部source存活由open变exact失败，关键primitive/principal/mixed、577完整signed消失、actualcore/cross/Xi和whole4/5UPPER未改。Goal同实例active/open/noteligible；库130/看板/STATE/根绑定/checkpoint按每轮授权同步并独立核source与metadata实际HEAD。
+
+## D20261028AC — Post-cone停止无机制载体循环，仅一次更窄同调primary定位
+
+同G20261027/1793085111/原0c4f。AB保存的因果动作已执行，两实际支持/旧queryscope/fresh/root核。任意canonical z(a,B)、a∈A/B∈闭J已有同norm finite exact primitive、费3||a||||B||，原源6L1/unreduced也零，不保较弱reduced问题续算。573原fiber非闭源与新inclusion exact零不拼成一个非零primitive；−4仅HH1，非全C*/higher无效。
+
+几何库存410–437/573–575/582–584的真类/线/Cartier/fullsource/Green/native尾，Meyer10-20§5/Th5.8及577独立正层/Γ小费、560/585/safehigh均paid，不能再列缺设施。当前没有合格未停actual primitive/mixed或signed/core/Dprime输入，未知qR/K/Omega、secondary/filling/positive RR改名不准。改变默认投入：不再无新独立机制自主造carrier/metric/闭代表、泛形成新mixed，再向其索要完整目标身份；止原norm/pair/source修补，不回滚其它实际强域/真不同source合法性。
+
+旧查询实际3+6+3逐串恢复：几何intersection/Hodge/Green一次三条，完整Γ signed两批六条，Beurling/FE/Hamburger替换一次三条，各已耗尽。旧宽discovery成功标准本已要求source/mixed超canonicalAc，名称noncanonical/HH/非C*本身不新。新可判信息差仅为旧批次后闭合的任意z(a,B) exact/原norm/非根门，以及旧strings未定向查Hochschild/cyclic/relative源公式；不能借“或signed”恢复Γ第三批。
+
+因此只保reviews/2026-10-28/post-cone-investment/next-noncanonical-homological-primary-locator.md一批固定三query/arxiv primary、最多一实际候选定位资格，未执行/无locator/无新source输入。先manifest/later scope去重，有actual对象/原式/命题定位才再冻一个章节；只有标题/非C*/secondary/unknowncompletion则0止，不换同义串/跟PDF引用/串paper。原命题可窄非空，非C*不是数学必要条件；同C*真不同source/higher类未被AB排除。定位不要求先解RH，但后续405/537/全源/du-Dlog/完整Γcontact/pp双pole/coupling均另付。
+
+两现实责任入口仍为同一非零primitive的真实relative/higher mixed，或实际独立signed/core/Dprime净量；真新实物出现应优先于尚未发现命题的同调定位。该预算来自新具体排重比较的有限内容差，非仅字符串不同/自动续source，不背书成功概率，也不授C050/587/math或未知章节。
+
+本轮0因果/非formal18，原cadence LF ddb2aa4a…保持0/history50/latest586/formal17。关键primitive/principal/mixed、577完整signed消失、actual危险core/cross/Xi与whole4/5负惯性UPPER未改。Goal同实例active/open/noteligible；当前无新web/全文，库130/看板/STATE/根绑定/检查点按每轮授权main同步并独立核source及metadata实际HEAD。
