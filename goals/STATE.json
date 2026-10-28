@@ -47,8 +47,8 @@
     "settled_iterations": [
       "notes/586-theta-ground-state-spectrum-and-full-gamma-heat-defect.md"
     ],
-    "stage": "本次三consult/root/fresh及23依赖已统一因果0结算；库/看板/决策已更新，尚无新r,s公式，C049耗尽，仅待source/metadata发布。",
-    "next_action": "完成本轮source/metadata同步及独立实际HEAD核验后，执行reviews/2026-10-28/post-classification-investment/next-marked-hnf-formula-formation.md唯一一次形成/强旧自筛；尚未执行，不准math。",
+    "stage": "因果0/fresh/root已结算，sourcee95461b已独立核ref/commit/tree；仅三文件metadata同步待办，尚无r,s新公式/math。",
+    "next_action": "当前metadata child正常push及独立实际HEAD核验后，执行reviews/2026-10-28/post-classification-investment/next-marked-hnf-formula-formation.md唯一一次形成/强旧自筛；尚未执行，不准math。",
     "stop_rule": "无实际formula/input-test-net不准C050/587；HNFraw旧而新functional须实际判，exact/cofinal分开；旧/无式即止，不调权/cutoff/norm/level/source或续paper，不改Goal/cadence。"
   },
   "support_contracts": [],
@@ -153,17 +153,17 @@
   "pending_processes": [],
   "runtime_goal_observation": {
     "status": "active",
-    "observed_at_utc": "2026-10-28T02:53:34.536252+00:00",
+    "observed_at_utc": "2026-10-28T03:27:40.466197+00:00",
     "created_at_unix": 1793085111,
-    "basis": "get_goal同1793085111 active；两本轮咨询真实启动。"
+    "basis": "get_goal同1793085111 active；当前咨询/root/fresh及源同步真实完成，长期门未过。"
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-10-28-post-classification-investment-source.json",
+  "checkpoint": "goals/checkpoints/2026-10-28-post-classification-investment-sync.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
-    "commit": "e5153bdcc1a135c14191881d3d3898062f459a45",
-    "tree": "a21783ee8a45ed9dc21fedefad23773cb951cecc",
-    "basis": "Independent GET ref/commit/tree matched SOURCE; reviews/2026-10-28/simple-pole-old-coverage/remote-sync-verification.json; metadata actualHEAD checked separately, no recursive ownSHA."
+    "commit": "e95461bafbc589ea3da1ba71d699afb62ae30a67",
+    "tree": "9165e752fb3fb64b228ee857442bfae01b1c82ab",
+    "basis": "Independent GET ref/commit/tree matched SOURCE; reviews/2026-10-28/post-classification-investment/remote-sync-verification.json; metadata actualHEAD checked separately, no recursive ownSHA."
   },
   "completion_audit": {
     "goal": "goals/GOAL.20261027.md",
@@ -173,9 +173,9 @@
     "final_execution_gate": "not-eligible",
     "basis": "本次只因果库存及下一形成选择，无新核心input或r,s公式；577正层已付不等signed消失，主primitive/mixed/core缺，whole4/5UPPER保持，三完成门未过。"
   },
-  "process_inventory_observed_on": "两个库存task、另行HNFtask及当前fresh均终态/root实际读完；无web/proof/数值后台，下一原形成未执行。",
+  "process_inventory_observed_on": "三consult及当前fresh终态/root读完，source独立3GET匹配；metadata即时提交无后台。下一HNF形成未执行，无web/proof/数值pending。",
   "publication_approval_gate": {
-    "status": "current-source-local-in-progress",
+    "status": "source-published-independently-verified",
     "destination": "https://github.com/lixiang90/RH-Weil",
     "visibility": "public",
     "branch": "main",
@@ -186,8 +186,8 @@
       "scope": "本项目研究/Goal/STATE/看板/文献元数据/审查与同步回执；论文再分发许可不明则全文仅本地。"
     },
     "current_scope": "本轮因果审视/三consult/HNF准入/fresh/root23绑定、库/看板/STATE/checkpoint；无新全文/math，非formal18。",
-    "published_source_commit": "e5153bdcc1a135c14191881d3d3898062f459a45",
-    "verification": "reviews/2026-10-28/simple-pole-old-coverage/remote-sync-verification.json"
+    "published_source_commit": "e95461bafbc589ea3da1ba71d699afb62ae30a67",
+    "verification": "reviews/2026-10-28/post-classification-investment/remote-sync-verification.json"
   },
   "research_board": "RESEARCH_BRANCHES.md",
   "literature_index": "literature/README.md",

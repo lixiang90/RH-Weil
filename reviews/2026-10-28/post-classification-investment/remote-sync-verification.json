@@ -1,0 +1,25 @@
+{
+  "schema": "rh-weil-remote-source-verification-v1",
+  "client_date": "2026-10-28",
+  "verified_at_utc": "2026-10-28T03:27:40.466197+00:00",
+  "status": "source-published-independently-verified",
+  "repository": "https://github.com/lixiang90/RH-Weil",
+  "branch": "main",
+  "source_commit": "e95461bafbc589ea3da1ba71d699afb62ae30a67",
+  "source_tree": "9165e752fb3fb64b228ee857442bfae01b1c82ab",
+  "source_parent": "73c38b740553d04c37159607bd8d72010f0d5a10",
+  "remote_checks": {
+    "method": "Independent connected GitHub GET mainref/gitcommit/gittree",
+    "main_ref_sha": "e95461bafbc589ea3da1ba71d699afb62ae30a67",
+    "commit_sha": "e95461bafbc589ea3da1ba71d699afb62ae30a67",
+    "commit_tree_sha": "9165e752fb3fb64b228ee857442bfae01b1c82ab",
+    "tree_sha": "9165e752fb3fb64b228ee857442bfae01b1c82ab",
+    "all_matched": true
+  },
+  "scope": "16explicit sourcefiles: twoinventory consults, HNF strongestoldpreconsult, rootcausalreview/currentfresh/23scopebindings, oneunexecuted formulaformationadmission, summary/STATE/decisions/README/frontier/board/literature readscope/sourcecheckpoint. No newexternalfulltext/mathcontract/formal18/cadenceincrement oractualr,sreader.",
+  "root_scope": "reviews/2026-10-28/post-classification-investment/root-consumption-scope.json",
+  "cadence": "ExactLF ddb2aa4a96e6de050602302659b21e0debcd1bb0fbcd7e0719e416c52c81a111 unchanged0/history50/formal17/latest586. Causal0/no reset orcopiedcounter.",
+  "next": "reviews/2026-10-28/post-classification-investment/next-marked-hnf-formula-formation.md: oneactualmarkedHNF two-sourceformula OR accurateunformed record; notexecuted/no existingreader/newinput/mathqualification. Dedup583fullnative/norm andotheractualold consequences, not mereuseofoldrawindices; protectexact/cofinalquantifiers; failure stopswithoutparameter/sourcequeue.",
+  "goal_gate": "Same runtime1793085111 active freshlyobserved, open/noteligible. 577 independentpositivelayergenerator alreadypaid; newcomplete signeddisappearance/primitive-mixed/corecoupling stillunpaid. HNFrawalready583/Gfunctiononly. Whole4/5UPPER unchanged.",
+  "metadata_child_policy": "Receiptbinds verifiedsourceonly. Exactlyreceipt, STATE andnewsynccheckpoint formmetadatachild; actualchildHEAD/tree independentlycheckedafterpush separately, no recursive selfSHA."
+}
