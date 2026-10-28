@@ -1,5 +1,7 @@
 # RH-Weil 文献索引
 
+2026-10-28，[C051／588弱源与anchor边界](../goals/reviews/2026-10-28-local-anchor-588-settlement.md)仅消费项目537/560/585/587及本轮本地proof/域/fresh，无新外部web/PDF/下载，manifest仍130项。[实际readscope](supplements/2026-10-28-local-anchor-weak-source-scope.md)保原norm/全部Γpp双pole与fixed-anchor范围，不把本地新数学登记成新全文。
+
 2026-10-28，[C050／587实际矩量证明](../goals/reviews/2026-10-28-sonin-moment-587-settlement.md)仅复用560/585/H₀/ALLpoly等项目原件，无新web/PDF/下载/外部原证明核读，manifest仍130条。[实际readscope](supplements/2026-10-28-sonin-moment-proof-source-scope.md)记录Gaussian只辅助norm、完整t²尾/真实frame逆/Jacobi及source-rank范围；不重复登记外部文献或把新增本地证明算全文下载。
 
 2026-10-28，[Sonin概率平均强旧比较](../goals/reviews/2026-10-28-sonin-convex-old-consequence-stop.md)只消费560/585及原范围记录，未读新外部原件/web/PDF/下载，manifest仍130条。[实际readscope](supplements/2026-10-28-sonin-convex-old-scope.md)保fixed I/低层C_n与完整K/Γpp双pole，不把标准凸性旧推论或本地数学记为新全文/新来源门。

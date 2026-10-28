@@ -1,5 +1,7 @@
 # 长期研究恢复入口
 
+2026-10-28，[C051／588](reviews/2026-10-28-local-anchor-588-settlement.md)已主proof/域/currentfresh/root闭合：commoncompact du弱非零moving源实际T发散；fixed-coercive-anchor内任意rank/合法infinite/sourceadaptive正分解的最佳inf在fixed窗外源趋∞。closed minimum/Mosco localQ或∞/广义强resolvent前件均付，非Dprime或norm收敛。局部方法瓶颈改变，成长anchor/消失迹权/unboundedcross及完整signed/primitive-mixed/whole4/5UPPER未改。统一一轮1→2/历史51→52/latest588/formal17保持，C051耗尽，Goalactive；下一先本轮发布，不预后继。
+
 2026-10-28，[C050／587](reviews/2026-10-28-sonin-moment-587-settlement.md)已两proof/currentfresh/root闭合：每先fixed d的actual导数源Gram共同lower c_d√X/log^(3d+2)，三源𝔇≥c√X/log8。共同源补偿有界fixed-source residual要求rank→∞；源rank不同receiver rank，成长rank/无限秩与完整signed净号仍open。局部费用瓶颈改变，whole4/5UPPER/primitive-mixed核心门未改。统一一数学轮0→1/历史50→51/latest587/formal17不重置，C050耗尽/不续优化，Goalactive。
 
 2026-10-28，[actual三源moment门](reviews/2026-10-28-sonin-moment-spread-admission.md)已核两准入稿/root：E2 movingrank1是偶性＋585旧0；E3 actual𝔇/原norm uniform未付，twoatom仅弱前件反测。只准C050一proof迭代，两腿执行Gaussian辅助全线norm/真实frame逆运输与Jacobi tracegap，尚无已消费新估计。非概率平均/来源续批；完整型/主Goal保持，cadence0/history50/latest586/formal17在结算前不动。
