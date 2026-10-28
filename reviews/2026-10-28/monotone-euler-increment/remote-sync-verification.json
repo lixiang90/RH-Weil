@@ -1,0 +1,25 @@
+{
+  "schema": "rh-weil-remote-source-verification-v1",
+  "client_date": "2026-10-28",
+  "verified_at_utc": "2026-10-28T02:02:45.769542+00:00",
+  "status": "source-published-independently-verified",
+  "repository": "https://github.com/lixiang90/RH-Weil",
+  "branch": "main",
+  "source_commit": "a6f309c5510c19477e213e2715b97421a3753d09",
+  "source_tree": "f663debf9c8e2534ff40faf0b837fee2d431bf80",
+  "source_parent": "c94186a17074f888d19c4f44ffa7401561270eb8",
+  "remote_checks": {
+    "method": "Independent connected GitHub GET mainref/gitcommit/gittree",
+    "main_ref_sha": "a6f309c5510c19477e213e2715b97421a3753d09",
+    "commit_sha": "a6f309c5510c19477e213e2715b97421a3753d09",
+    "commit_tree_sha": "f663debf9c8e2534ff40faf0b837fee2d431bf80",
+    "tree_sha": "f663debf9c8e2534ff40faf0b837fee2d431bf80",
+    "all_matched": true
+  },
+  "scope": "19 explicit source files: actual Mobius candidate and strongest-old duplicate check; finite-rational(s) admissions/correction; arbitrary positive Euler increment root old-consequence proof, fresh review and20 dependency bindings; exactly frozen next locator; summary/STATE/decisions/README/frontier/board/literature read-scope and source checkpoint. No new external full text, math contract, numerical result or independent core input.",
+  "root_scope": "reviews/2026-10-28/monotone-euler-increment/root-consumption-scope.json",
+  "cadence": "ExactLF ddb2aa4a96e6de050602302659b21e0debcd1bb0fbcd7e0719e416c52c81a111 unchanged:0/history50/formal17/latestmath586; old-application0, no reset.",
+  "next": "reviews/2026-10-28/monotone-euler-increment/next-signed-replacement-source-location.md: one fixed three-query primary locator batch, at most one actual formula/statement and chapter. Not yet executed; stop if no qualified signed replacement rather than extra queries or paper queue.",
+  "goal_gate": "Same runtime createdAt1793085111 active, open/noteligible. Finite rational and monotone measure classes cannot be combined into general positivePi. Whole4/5UPPER and primitive/mixed/signed-core/coupling bottlenecks unchanged.",
+  "metadata_child_policy": "This receipt binds only verified source. Exactly receipt, STATE and new sync checkpoint form metadata child; actual child HEAD/tree independently checked after push separately, no recursive self SHA."
+}
