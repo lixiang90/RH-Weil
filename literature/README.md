@@ -1,5 +1,7 @@
 # RH-Weil 文献索引
 
+2026-10-28，[marked-HNF实际规则自筛](../goals/reviews/2026-10-28-marked-hnf-heat-rule-old-gate-stop.md)仅用项目583/578/421等原件和标准Gaussian/Poisson，无新web/PDF/下载或数值，manifest130项保持。[阅读/归属范围](supplements/2026-10-28-marked-hnf-formula-source-scope.md)区分准备稿、9375b实式、8669b具体审与fresh/root；旧原子门给fixed两源13/64，标准应用0，非一般HNF/theta边界。后继没有合格analytic输入/未用章节，下一独立mixed形成尚无实式/预算；全文许可/本地忽略规则不变。
+
 2026-10-28，[分类后因果审视](../goals/reviews/2026-10-28-post-classification-causal-investment.md)只核旧项目原件/根记录，无新web/PDF/下载/数值，manifest130项保持。[来源消费范围](supplements/2026-10-28-post-classification-investment-source-scope.md)分root直接段落与三consult范围；HNF已同583全Hecke矩阵/native尾，Gram非新raw或不变量。577正层已付与缺signed消失分别保留，下一仅原公式形成且尚未执行，不添未知paper/章节或证明归属。
 
 2026-10-28，[simplepole旧覆盖](../goals/reviews/2026-10-28-simple-pole-old-classification-closure.md)仅重读项目561/063/HL与旧增长消费记录，无新web/论文/PDF/下载或数值，manifest130项不增。[本轮实际归属](supplements/2026-10-28-simple-pole-old-coverage-source-scope.md)明确DLMF25.2.10/5.11.9只由旧内部locator核非空基例，未新审网页；Gamma inverse由Schwartz Fourier直接核。positiveN分类只是旧应用0，非新Weil正性；下一因果审视未执行，旧HTML全文仍ignoredlocal。

@@ -1723,3 +1723,17 @@ Root所考察HNF族先被强旧去重：583全Hecke/isogeny矩阵与gcd/squareal
 唯一下一为reviews/2026-10-28/post-classification-investment/next-marked-hnf-formula-formation.md一次原创marked两源规则形成/自筛，尚未执行，无C050/587/数学或carrier预算。选择仅因finite明确索引有便宜fiber/target门，不因为已见算术成功/新数据。原公式须带实际source槽/共轭、原domain/norm/全部量词及完整目标承担项；先扣583完整native而非弱σ1。若旧count/ζproduct/μ/primeleg/原T_B或holonomy/无identity PSD或未付completion则止，不调权/cutoff/norm/level/source域或paper链；exact vs cofinal Dprime责任分开，finiteB不符不自动排limit。
 
 真正新relative/higher J或独立signed/Dprime/core量出现应优先。当前没新净输入，关键Weil/primitive/mixed/corecoupling/Xi瓶颈及whole4/5UPPER未改，Goal三门open，同实例active。库130条不虚增，看板/STATE/根绑定/checkpoint按授权main同步，源与metadata独立核，不以选择/数据/推送完成Goal。
+
+## D20261028Z — 固定HNF热实式按旧原子门止，独立mixed输入仍须真实形成
+
+同G20261027/1793085111/原0c4f。Y的一次形成已真实执行：原3067b/b2aba545…冻结即含sqrtT、全格Theta、偶化及ad<=B等权，完整稿9375b/cbd1739b…、实际旧审8669b/098f7ff0…和当前fresh/root限定通过。准备稿只保历史，不拿它替具体式审核；没有中途加权修补。
+
+ALL H/v/B的-1<=kappa<=2来自标准shifted Gaussian计数/Poisson；C_B global L1×L1、fixed窗原du/Dlog，total B只在原Gamma型域且pole可积。旧421§6/9 uniform L1-test预算不能逼孤立原子已支付一般拒绝机制。固定epsilon1/256的两窄source在log2精确留原P权一份log2/sqrt2，H双pole保留、同Gamma/FP/contact相消，ALL B真实差>=13/64；cofinal和全部compact平方身份失败。所有properpowers按support处理而非删去，finiteB不符没有被泛升极限。
+
+实际新规则/费用计算保存，但净停止是强旧直接前置应用0，不建C050/587或新数学轮，不借工具初等/候选局部本身作0理由。583完整raw/native/norm/全尾已扣，同索引本身不拒新functional；未套其非闭base或553缺前件的全线norm，finite索引不代finite物理rank。停止此F1–F3与原平均/target，不调heat/weight/cutoff/norm/source域/level或Gamma外腿；不泛排预算发散/有费奇异/relative/joint/正Dprime或全部HNF/theta。
+
+当前独占后继咨询已核560/570–572/585、EX/fullgap及actualsafehigh，没有现成可准的新core比较或未耗尽章节locator。fixed t-K常数/Kt1、全returns/receiver角色保留；未知Omega/K/q_R domination不能改名input，不重复库存/PSD/Green/safehigh、重开旧query/章节或再造paper队列。
+
+唯一下一为reviews/2026-10-28/marked-hnf-formula/next-independent-mixed-input-formation.md限定自主实物形成，尚未执行/未选新J/公式/proof。至多一份同一非零primitive的actual relative/higher两源源映射/身份，或准确未形成；先原域/角色/费用与完整目标具体承担项、实际input/test/net，再做一个最便宜强旧门。新真实signed/core实式若有信息差可优先，但规格不冒存在。没有formula/只旧/unknowncompletion即止形成，不先付carrier/metric或恢复耗尽C049。
+
+原cadence LF ddb2aa4a…保持0/history50/latest586/formal17，不计稿件/审查/推送、不formal18/归零。关键primitive/mixed、完整signed消失及dangerouscore/cross仍欠，whole4/5UPPER不变，Goal同实例active/open/noteligible。库130无新外部全文；看板/STATE/根绑定/checkpoint正常main同步后独立核source及metadata实际HEAD。

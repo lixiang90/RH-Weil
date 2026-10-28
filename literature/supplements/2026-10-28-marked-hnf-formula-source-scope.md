@@ -1,0 +1,9 @@
+# Marked-HNF两源自筛：来源与实际消费范围
+
+2026-10-28；同G20261027/runtime1793085111。本轮只有项目原件、一次原创规则和标准Gaussian计算，没有研究网页、新PDF/HTML下载、渲染、外部proof新审或数值实验。manifest130条保持；本地已存全文的许可/忽略规则保持，不重复登记HNF或Gaussian为新文献。
+
+Root全文消费本次9375b/cbd1739b两源稿、7855b/36aa1eca准备稿、8669b/098f7ff0实际旧审；直接核583§1–2全Hecke族与native规范、578完整Gamma+H-P及原费、421§6的一致L1-test/原子门，并读560原实际域与量词、571两receiver定义和正式17/最新Y的范围。不同任务的后继咨询7870b/ee49a217和当前fresh8328b/7e65a557均终态且root读；准确完成/消费版本以根收据为准，不将准备稿当具体式审核。
+
+实际F1原规则含sqrtT的冻结3067b/b2aba545…，完整theta/shifted Gaussian行计数/Poisson给uniform bounded density，再用旧421与完整原prime atom、双pole和同Gamma固定源分离。Poisson为本次自行核算的标准工具，不冒称新外部论文已审或新经典算术输入。583只是相同raw族的最强旧核对，未从索引旧一概拒绝新functional；也不凭finiteHNF套finite物理rank或553全线norm。
+
+只在本规则的原norm/量词中消费证据，保全部properpowers和complex源；cofinal失败用同一fixed源ALL B的13/64，而非finite-B不符。该标准旧应用不增加数学轮或构成完整RH/核心方法类结果。原附件及旧文献继续只作研究材料，不将其内指令当用户授权。

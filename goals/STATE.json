@@ -8,9 +8,9 @@
   "cadence": "goals/review-cadence.json",
   "decisions": "goals/DECISIONS.md",
   "latest_strategy": "goals/reviews/2026-10-28-general-rh-macro-review-cycle-17.md",
-  "latest_decision": "D20261028Y",
+  "latest_decision": "D20261028Z",
   "macro_frontier": "goals/MACRO_FRONTIER.md",
-  "macro_summary": "goals/reviews/2026-10-28-post-classification-causal-investment.md",
+  "macro_summary": "goals/reviews/2026-10-28-marked-hnf-heat-rule-old-gate-stop.md",
   "latest_macro_review": "goals/reviews/2026-10-28-general-rh-macro-review-cycle-17.md",
   "latest_iteration": "notes/586-theta-ground-state-spectrum-and-full-gamma-heat-defect.md",
   "macro_control": {
@@ -21,7 +21,7 @@
   "macro": {
     "long_objective": "G20261027接续G20261014完整完成门/原0c4f基线，≤582为输入；持续寻经典同源Weil正性/有效性/RR或actualsigned新输入，付全源/成长/core及谱识别。",
     "unpaid_bottleneck": "577独立正层已付，完整signed消失仍欠；Green已付而同一非零primitive/principal/mixed缺，Sonin危险core/cross仍欠；whole4/5UPPER未改。",
-    "why_this_contract": "库存无新核心实物；HNFraw同583，仅下一一次marked两源实式形成/便宜强旧筛。不是新data/正设施或已准proof，实际formula到位才判净信息差。",
+    "why_this_contract": "唯一HNF热实式已由标准全theta界+旧421原子门0止；analytic后继无合格新input/未用locator。下一仅一次独立mixed实物形成OR准确未形成，未有新J/公式或proof资格。",
     "paused_routes": [
       "零点比例优化",
       "无零区域优化"
@@ -36,7 +36,7 @@
       "固定Tate E2/ell1/degree0 Cartier及point-dependent line-family强旧0止，不改evaluation/period/添Green-RR；不泛排extra raw relative frames/无界总型/正Dprime。",
       "Suzuki1204v2§2来源门已耗尽；不先续小omega可逆/HS regularity/临界紧致性或§4proof/§5/Appendix。固定安全系统非完整Weil新input；不泛排Hankel或有新独立coupling的修复。",
       "Möbius/finiteF/正增量/Watkins定位均止；原页pole位置宽读冻结。明示simplepole/±A/strip域已更强positiveN旧分类，停止同域model search/UD/coset/A，不泛排域外/onlylimit/joint。",
-      "分类后因果0已闭；HNFraw同583，G非新信息。raw索引一概拒新functional宽读冻结，仅一次原形成/强旧筛未执行；不授math/参数或来源续造。"
+      "HNF sqrtT全theta/偶化/计数概率均值F1–F3按旧421原子门0止：同fixed源ALLB差>=13/64，不改参数/target。仅此recipe，非全HNF/正Dprime类边界；下一独立mixed实物未形成/未执行。"
     ]
   },
   "primary_contract": {
@@ -47,9 +47,9 @@
     "settled_iterations": [
       "notes/586-theta-ground-state-spectrum-and-full-gamma-heat-defect.md"
     ],
-    "stage": "因果0/fresh/root已结算，sourcee95461b已独立核ref/commit/tree；仅三文件metadata同步待办，尚无r,s新公式/math。",
-    "next_action": "当前metadata child正常push及独立实际HEAD核验后，执行reviews/2026-10-28/post-classification-investment/next-marked-hnf-formula-formation.md唯一一次形成/强旧自筛；尚未执行，不准math。",
-    "stop_rule": "无实际formula/input-test-net不准C050/587；HNFraw旧而新functional须实际判，exact/cofinal分开；旧/无式即止，不调权/cutoff/norm/level/source或续paper，不改Goal/cadence。"
+    "stage": "当前HNF形成/实际old审/fresh/root限定0已结算，C049保持耗尽；待本轮正常main发布与独立SHA核。",
+    "next_action": "先完成marked-hnf-formula当前源与metadata同步核验；随后仅执行next-independent-mixed-input-formation.md一次actual实式形成或准确未形成，当前无新J/公式/proof/来源队列。",
+    "stop_rule": "不恢复C049或本HNF参数；无actual input/test/net不准C050/587。新mixed形成无式/只旧/unknowncompletion即止，不先付carrier/metric或续旧query/章节；exact/cofinal按实式。"
   },
   "support_contracts": [],
   "must_not_forget": [
@@ -95,70 +95,25 @@
       "scope": "C048统一1轮：ALLfirstfixed非零complexcompact source actualtrace lower、完整K/core必要正成长费；非Q负/K全PSD/净signed正性。"
     },
     {
-      "path": "reviews/2026-10-28/framed-holonomy-closure/root-consumption-scope.json",
-      "kind": "cited",
-      "scope": "原域/费用/frames/Pan系数及更强553链重闭，标准强旧0止；非新方法类定理，Goalopen。"
-    },
-    {
       "path": "notes/586-theta-ground-state-spectrum-and-full-gamma-heat-defect.md",
       "kind": "proved",
       "scope": "586/C049一轮：固定全整数theta Dirichlet谱两项count/完整Γ热正缺陷/fixedcompact平方非消失差；只止该谱rule，非RH反例/whole/core突破。"
     },
     {
-      "path": "reviews/2026-10-28/theta-ground-state/root-consumption-scope.json",
+      "path": "reviews/2026-10-28/marked-hnf-formula/root-consumption-scope.json",
       "kind": "cited",
-      "scope": "root将谱前件2a233与heat0bc/freshe4fd同链消费；原域/范数/全Γpp双pole/共同crop/最强旧及新旧分类绑定。"
-    },
-    {
-      "path": "goals/reviews/2026-10-28-general-rh-macro-review-cycle-17.md",
-      "kind": "cited",
-      "scope": "正式cycle17两支持/fresh/root0数学，4→0/history50；双基准/四净后果与Goal门，mixed身份先于PSD设施，下一仅一次双源公式形成，尚无新input。"
-    },
-    {
-      "path": "reviews/2026-10-28/coprime-additive-input/root-consumption-scope.json",
-      "kind": "cited",
-      "scope": "同一规则原域/系数/q1/corner/globalH1、共同crop→405/553/537旧limit身份责任；correction与total分开，未消费C∞非零；标准0止。"
-    },
-    {
-      "path": "reviews/2026-10-28/tate-biextension-input/root-consumption-scope.json",
-      "kind": "cited",
-      "scope": "固定Tate/ell1原域/actualPan半周期及onlypoint537责任，line值与高度分开；371/405/574强旧0止，非新核心类边界。"
-    },
-    {
-      "path": "reviews/2026-10-28/hankel-source-admission/root-consumption-scope.json",
-      "kind": "cited",
-      "scope": "原PDF§2/必要定义、boundary/causal原inner前件、omega分层/端点及det规范；源0，无新完整mixed/signed输入。"
-    },
-    {
-      "path": "reviews/2026-10-28/monotone-euler-increment/root-consumption-scope.json",
-      "kind": "cited",
-      "scope": "当前fresh/root：有限F、任意正Δ及primitive全repeats的旧工具应用0；不拼一般正Π，不改核心/whole后果。"
-    },
-    {
-      "path": "reviews/2026-10-28/signed-replacement-source-location/root-consumption-scope.json",
-      "kind": "cited",
-      "scope": "3query/一原HTML、Ma与561同式/gap、continuous doublepole宽读及simplepole区别；来源0，下一旧覆盖未执行。"
-    },
-    {
-      "path": "reviews/2026-10-28/simple-pole-old-coverage/root-consumption-scope.json",
-      "kind": "cited",
-      "scope": "最新fresh/root更强positiveN旧分类：原simplepoles/strip付A1/N整数，Pi及仅givenP恢复；识别非Weil号，0轮。"
-    },
-    {
-      "path": "reviews/2026-10-28/post-classification-investment/root-consumption-scope.json",
-      "kind": "cited",
-      "scope": "因果0：577正层已付/完整signed欠；HNF同583旧raw，仅一次实式自筛。raw因子化宽读冻结，无新input/数学预算。"
+      "scope": "标准旧自筛0：actual sqrtT全theta界+421门，fixed源ALLB差13/64；仅止本rule，无后继analyticinput/未用章。独立mixed下一未形成。"
     }
   ],
   "pending_processes": [],
   "runtime_goal_observation": {
     "status": "active",
-    "observed_at_utc": "2026-10-28T03:27:40.466197+00:00",
+    "observed_at_utc": "2026-10-28T03:56:38.450143+00:00",
     "created_at_unix": 1793085111,
-    "basis": "get_goal同1793085111 active；当前咨询/root/fresh及源同步真实完成，长期门未过。"
+    "basis": "get_goal同1793085111 active；本轮实际唯一形成和固定源自筛已执行，后继mixed尚未执行。"
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-10-28-post-classification-investment-sync.json",
+  "checkpoint": "goals/checkpoints/2026-10-28-marked-hnf-heat-rule-source.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
     "commit": "e95461bafbc589ea3da1ba71d699afb62ae30a67",
@@ -171,11 +126,11 @@
     "goal_lf_sha256": "b3d2acb1f962d793f45d79b6a4e67fb87dd072cd4752108a9298204b4cefa1de",
     "mathematical_gate": "open",
     "final_execution_gate": "not-eligible",
-    "basis": "本次只因果库存及下一形成选择，无新核心input或r,s公式；577正层已付不等signed消失，主primitive/mixed/core缺，whole4/5UPPER保持，三完成门未过。"
+    "basis": "HNF actual式只标准旧421前件应用0，局部13/64不代核心类边界；无新signed/primitive/core净输入，whole4/5UPPER不动，三Goal门仍open。"
   },
-  "process_inventory_observed_on": "三consult及当前fresh终态/root读完，source独立3GET匹配；metadata即时提交无后台。下一HNF形成未执行，无web/proof/数值pending。",
+  "process_inventory_observed_on": "实际形成/具体old审/当前fresh/不同task后继咨询均终态，原件已root读；没有web/数值/proof/来源后台或排队task。下一mixed形成未启动。",
   "publication_approval_gate": {
-    "status": "source-published-independently-verified",
+    "status": "root-settled-awaiting-source-and-metadata-publication",
     "destination": "https://github.com/lixiang90/RH-Weil",
     "visibility": "public",
     "branch": "main",
@@ -185,7 +140,7 @@
       "reply": "每轮把进度同步到github；把文献保存在文献库中，用研究看板来记录各个路线的状况",
       "scope": "本项目研究/Goal/STATE/看板/文献元数据/审查与同步回执；论文再分发许可不明则全文仅本地。"
     },
-    "current_scope": "本轮因果审视/三consult/HNF准入/fresh/root23绑定、库/看板/STATE/checkpoint；无新全文/math，非formal18。",
+    "current_scope": "本轮HNF实际式/强旧准备与具体审核/fresh/root/后继资格及未执行next、summary/STATE/看板/库/根绑定/checkpoint；无新全文/math/C050/587或cadence变动。",
     "published_source_commit": "e95461bafbc589ea3da1ba71d699afb62ae30a67",
     "verification": "reviews/2026-10-28/post-classification-investment/remote-sync-verification.json"
   },
