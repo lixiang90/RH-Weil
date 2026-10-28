@@ -1,5 +1,7 @@
 # RH-Weil 文献索引
 
+2026-10-28，[C052／589零均值upper](../goals/reviews/2026-10-28-scalar-upper-589-settlement.md)核既存bramble_trace固定v2的Th6.3(6.11)必要链及旧Burnol PDF6/Th8原norm；无新web/下载/数值，全文原字节保持ignoredlocal，manifest仍130项。[准确readscope](supplements/2026-10-28-sonin-zero-mean-upper-source-scope.md)与两现存条目追加记录区分oldlower、新upper、未消费sharp及原作者归属。
+
 2026-10-28，[C051／588弱源与anchor边界](../goals/reviews/2026-10-28-local-anchor-588-settlement.md)仅消费项目537/560/585/587及本轮本地proof/域/fresh，无新外部web/PDF/下载，manifest仍130项。[实际readscope](supplements/2026-10-28-local-anchor-weak-source-scope.md)保原norm/全部Γpp双pole与fixed-anchor范围，不把本地新数学登记成新全文。
 
 2026-10-28，[C050／587实际矩量证明](../goals/reviews/2026-10-28-sonin-moment-587-settlement.md)仅复用560/585/H₀/ALLpoly等项目原件，无新web/PDF/下载/外部原证明核读，manifest仍130条。[实际readscope](supplements/2026-10-28-sonin-moment-proof-source-scope.md)记录Gaussian只辅助norm、完整t²尾/真实frame逆/Jacobi及source-rank范围；不重复登记外部文献或把新增本地证明算全文下载。

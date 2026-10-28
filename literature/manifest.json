@@ -2773,10 +2773,18 @@
       "sha256": "541098314b2ddc5f8645babf82086e87d16c46188268cbc7ed6cfc1f98720058",
       "git_included": false,
       "retrieved_at_utc": "2026-10-27T18:32:43.745097+00:00",
-      "read_scope": "Original§6definitions,Lemma6.1,Th6.2lower andnecessaryrefs only; wholepoly/n/fulltail/HS verified. StrongerrawO1/t notused, oldsqrtlog+Gevrey sufficient. Originalbytesunchanged.",
-      "proof_status": "Th6.2lower root/fresh verified withprojectweakerraw-evaluation premise andstrictsupportH0patch; originalrawO1/t unconsumed. Upper/6.4/6.5/section7 notcertified. Actualcofinalfixedsource/Knecessaryfee oneC048iteration, noRH/wholepositiveclaim.",
+      "read_scope": "C048 historical:§6definitions/Lemma6.1/Th6.2lower. C052 current:necessaryupper667-782/localization784-869 plusweightedkernel355-375/range510-523; no6.9lower/receiverstronglimit/6.4sharp/6.5/§7consumption. Original61862bytesunchanged.",
+      "proof_status": "C048 Th6.2lower paid with weaker sqrtlog raw evaluation andstrict-gap H0patch; originalrawO1/t remainsunconsumed. C052 root/currentfresh verified Th6.3(6.11)upper necessarychain andfixed-pair mean-rank1 scalar consequence. Noexternalpriority/RH/fullDprime topology claim;6.4sharp/6.5/section7unconsumed.",
       "scope_record": "supplements/2026-10-28-fixed-test-lower-source-scope.md",
-      "read_record": "reviews/2026-10-28/fixed-test-lower/source-read-record.json"
+      "read_record": "reviews/2026-10-28/fixed-test-lower/source-read-record.json",
+      "additional_read_scopes": [
+        {
+          "date": "2026-10-28",
+          "scope": "C052 sourceupper/localization two terminalprooflegs/currentfresh/root; weighteduniformevaluation/actualcentralmass/fulltail/Remez andfixedδ; originalv2 unchanged.",
+          "scope_record": "supplements/2026-10-28-sonin-zero-mean-upper-source-scope.md",
+          "read_record": "reviews/2026-10-28/sonin-scalar-normalization/source-read-record.json"
+        }
+      ]
     },
     {
       "file": "local/2026-10-28-fixed-test-lower/burnol-two-complete-0203120v7.pdf",
@@ -2823,6 +2831,12 @@
           "scope": "Fullgap gate: root/height wholevisualPDF2/3/4/5; consumed only necessary definitions/halfline norm/Lemma2/Th4/Cor5. Generalfirstfixedlambda arch not532cofinal. Old2/3/5PNG reused, onlyp4newrender; no neworiginal.",
           "scope_record": "supplements/2026-10-28-full-gap-source-gate-scope.md",
           "read_record": "reviews/2026-10-28/full-gap-source-gate/source-read-record.json"
+        },
+        {
+          "date": "2026-10-28",
+          "scope": "C052 upperleg actualPDF6Th8/nearbystructuredefinitions only, original117262bytes unchanged. CompletedE/raw-entire evaluator growth role, notwholepaper/newtheorem.",
+          "scope_record": "supplements/2026-10-28-sonin-zero-mean-upper-source-scope.md",
+          "read_record": "reviews/2026-10-28/sonin-scalar-normalization/source-read-record.json"
         }
       ]
     },

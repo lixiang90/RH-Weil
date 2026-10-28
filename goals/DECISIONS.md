@@ -1823,3 +1823,19 @@ Gaussian仅receiver witness，smallδ/cδ由非零weaklimit一次固定不改候
 最强类边界是inf_(q∈V_A){T_X[r_a−iq]+Q[q]}→∞，固定r_a=τ₄r₀且完整Q[r_a]=Q[r₀]≥κ>0；任意rank/合法infinite/source-adaptive nonlinear均含，只依共同coercive anchor与两项非负。最佳值有实际mixed minimum/closedform，Mosco限域iV_A非稠密，极限localQ/其余∞；源resolvent strong0与最佳值的广义strong i(A_Q+1)^−1i*已闭，不声称norm收敛/λ_X→∞/stationary Dprime。
 
 统一一轮1→2/历史51→52/latest588，formal17不重置；C051耗尽不续rank/rate/anchor参数。局部方法瓶颈改变；成长/漂移anchor、消失迹权/unboundedcross及完整signed净号/primitive/principal/mixed/Xi仍欠，whole4/5仅负惯性UPPER未改，不通过原Goal总体门。无新source/query/fulltext/数值，文献130/readscope/看板/STATE/root收据按授权main两段发布核验；没有已准C052/来源后继，后续仅认真新实物或不同choicechanging test。
+
+## D20261028AJ — 不同消失迹权实式，只准零均值上界原证明首门
+
+588 source及metadata实际HEAD42777954已核，C051不续。Root形成alpha_X=Q[r0]/T_X[r0]、W_X=alphaT实际stationary正型tempered分布；fixed r1=r0prime完整Q>0要求T1/T0→q1/q0。585/587两个lower不能相除，588弱源发散也不判比值；553缺全Pan精确消去/全域统一界，不能旧0冒套。两current具体咨询已经分别确认类型/必要test与fixedv2准确locator，独占终稿root收讫后绑定。
+
+因此只准一个新用途的原命题proof首门：固定bramble_trace v2 SHA541098…的Th6.3(6.11) zero-mean little-o及其必要6.2 upper/tail/6.8/6.10支链，见sonin-scalar-normalization/next-zero-mean-upper-proof-gate.md。不是因未审自动续C048，不审6.4sharp下界/6.5/后章/别paper，不调源/归一化或要求先证明RH。若proof域/upper/tail不闭，准确未证止，不以原稿标签认证。
+
+成功将判此不同消失迹权纯scalar规则，扣已付r0lower后可能有新actual相对费用信息；未付证明不作输入，不预C052/589或数学轮。cadence2/history52/latest588/formal17保持，完整signed/成长非局部primitive门及whole4/5UPPER未改，Goalactive/open。当前只执行这一具体sourceproof，不复活其它已止预算。
+
+## D20261028AK — 589 actual zero-mean upper闭合，纯scalar修复趋均值rank1
+
+同G20261027/runtime1793085111/原0c4f。AJ不同actual alphaT规则有fixedr0prime完整test；C052两proof/currentfresh/root全文核后消费固定原作者v2 (6.11)必要upper链。统一weighted评价去m^-1、actual全Gram等距/centralmass、正差商核/Tonelli全尾与Remez/Cauchy/fixedδ量词均闭，不据作者平台标签、未审lower或Gaussiantrial反推整个Pi。
+
+新付款为zero-mean actual T=o(√X/log²X)，配585 r0lower及PSD Cauchy给全部fixed smoothcomplex源对的normalized mean-rank1极限。任意source-independent scalar校准r0非零完整q0均在r1给0，而完整q1>0，故有固定非消失缺陷。强于只判一个ratio；不自动有Dprime全拓扑/6.4sharp/receiverstronglimit，不泛排一般消失权/不同正族/成长anchor/joint signed。
+
+统一一数学轮2→3/历史52→53/latest589，formal17保持。C052耗尽，局部scalar可行性瓶颈改变；完整signed/corecoupling/primitive/principal/sectionmultiplication/mixed/Xi及whole4/5负惯性UPPER未变，原Goal总体门未通过。原source/旧lower不重计；无新web/download/numerics，130条库只加既有原件readscope。下一先source及metadata actualHEAD核验，不预C053/后章/查询；后继必须真新actual机制或不同choicechanging test。
