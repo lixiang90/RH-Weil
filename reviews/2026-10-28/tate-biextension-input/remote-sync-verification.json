@@ -1,0 +1,25 @@
+{
+  "schema": "rh-weil-remote-source-verification-v1",
+  "client_date": "2026-10-28",
+  "verified_at_utc": "2026-10-28T00:05:29Z",
+  "status": "source-published-independently-verified",
+  "repository": "https://github.com/lixiang90/RH-Weil",
+  "branch": "main",
+  "source_commit": "453a6b136e81a3708749efebf465f4d85baad177",
+  "source_tree": "8bd20381557e5094baad63def64462b607b581b9",
+  "source_parent": "b953a90c8107b35a994e1856b76aa74e1f05fe9e",
+  "remote_checks": {
+    "method": "Independent connected GitHub GET mainref/gitcommit/gittree",
+    "main_ref_sha": "453a6b136e81a3708749efebf465f4d85baad177",
+    "commit_sha": "453a6b136e81a3708749efebf465f4d85baad177",
+    "commit_tree_sha": "8bd20381557e5094baad63def64462b607b581b9",
+    "tree_sha": "8bd20381557e5094baad63def64462b607b581b9",
+    "all_matched": true
+  },
+  "scope": "14 explicit source paths: one fixed Tate E2/ell1/degree0 Cartier source and line-valued mixed family, norm/inventory current originals, independent fresh, root strongest-old0 scope and board/library/STATE/checkpoint. No new external original paper/PDF/numerics, C050/587 or mathematical round. Actual Pan nonzero halfperiod excludes principal by old371/405/574; onlypointdata misses 537 kernel. No misuse of 553 global norm or line fiber as scalar height.",
+  "root_scope": "reviews/2026-10-28/tate-biextension-input/root-consumption-scope.json",
+  "cadence": "ExactLF ddb2aa4a96e6de050602302659b21e0debcd1bb0fbcd7e0719e416c52c81a111 unchanged:0/history50/formal17/latestmath586. No newround/reset.",
+  "next": "Autonomously form actual same-source two-source identity or signed net quantity with original domain/range, independent generation and full target coupling before mathematical admission. Do not first build another finite-coordinate carrier/metric. No successor formula/proof/sourcechapter currently formed; no stopped Tate/T_B parameter or old query restart, no hard human permission wait.",
+  "goal_gate": "Same runtime1793085111 re-observed active at 2026-10-28T00:05:29Z; open/noteligible. No RH/key independent net input/combined critical-premise weakening/core method-class coverage. Whole4/5UPPER and global key bottleneck unchanged.",
+  "metadata_child_policy": "Receipt binds verified source only. Exactly receipt, STATE and new sync checkpoint form metadata child; actual child HEAD/tree independently checked after push separately, no recursive self SHA."
+}
