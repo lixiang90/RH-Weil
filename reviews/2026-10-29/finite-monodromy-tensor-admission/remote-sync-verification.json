@@ -1,0 +1,32 @@
+{
+  "schema": "rh-weil-remote-source-verification-v1",
+  "client_date": "2026-10-29",
+  "repository": "https://github.com/lixiang90/RH-Weil",
+  "branch": "main",
+  "source_commit": "cf7f774307c66e7dcc933307db11d687378a464d",
+  "source_tree": "db91b3c50b24e0f719d3dbcce2b55ee972b44c90",
+  "source_parent": "58a89578c432fbbdbb5065918d7f7d6c525d74be",
+  "source_push": {
+    "normal_fast_forward": true,
+    "command_scoped_proxy": "127.0.0.1:10808",
+    "terminal_exit_code": 0
+  },
+  "independent_github_gets": {
+    "urls": [
+      "https://api.github.com/repos/lixiang90/RH-Weil/git/ref/heads/main",
+      "https://api.github.com/repos/lixiang90/RH-Weil/git/commits/cf7f774307c66e7dcc933307db11d687378a464d",
+      "https://api.github.com/repos/lixiang90/RH-Weil/git/trees/db91b3c50b24e0f719d3dbcce2b55ee972b44c90"
+    ],
+    "observed_at_utc": "2026-10-28T17:08:08.102Z",
+    "ref_commit_tree_parent_all_match": true
+  },
+  "scope": "15 project research/review/board/library/state/checkpoint files; fixed C2 ordinary tensor old0, no new math/source budget or foreign fulltext.",
+  "metadata_child": {
+    "allowed_paths": [
+      "reviews/2026-10-29/finite-monodromy-tensor-admission/remote-sync-verification.json",
+      "goals/STATE.json",
+      "goals/checkpoints/2026-10-29-fixed-c2-tensor-old0-sync.json"
+    ],
+    "postcondition": "Normal child commit/push then independent ref/gitcommit/tree check of actualHEAD/tree/parent. Source-only receipt does not recursively store its own child SHA."
+  }
+}
