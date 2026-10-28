@@ -1,5 +1,7 @@
 # 研究分支看板
 
+2026-10-28，[Euler修改强旧准入](goals/reviews/2026-10-28-euler-modification-old-consequence-gate.md)已两独立咨询/当前fresh/root限定核闭：Möbius双源精确旧重编码；有限rational(s)及任意正Euler增量按405＋测度唯一性/Landau旧链0止，primitive全repeats子类仅entire已排。两类不能合并一般正Π，signed删减/重排/joint仍欠。无新C050/587或math，cadence0/历史50/latest586/formal17原字节保持；whole4/5UPPER与核心瓶颈未改。唯一下一为一次固定三query精确Γ的signed替换原命题locator，尚未执行，没合格locator即止；Goalactive。
+
 2026-10-27，按用户明确要求继续研究并启动 [Goal G20261027](goals/GOAL.20261027.md)。新运行 Goal 继承 G20261014 的长期目标、0c4f 冻结基线及截至582的已付成果；旧结果作为输入，不重新计作本Goal的新增结果。运行 Goal 已实测 active；启动首门 A20261027 已实际执行 Borcherds §13 来源准入，最终消费阶段、唯一当前动作和 pending 只读 [STATE](goals/STATE.json)。本看板不另设计轮器，也不把局部合同完成视为长期Goal完成。
 
 2026-10-28，[单一互素加法规则前置核账](goals/reviews/2026-10-28-coprime-additive-source-gate-stop.md)已两支持/fresh/root强旧0止。原式真实形成，globalH1极限按405/553/537旧身份门排除；有限ratio与未证极限非零不作反证。boundedcorrection另带无界腿仍需独立identity，未被泛排。cadence0/历史50/latest586/formal17保持，无新input/C050/587/后继proof或source章节；继续自主新同源实物形成，关键门未改。
@@ -10,6 +12,7 @@
 
 | 路线 | 当前地位 | 可消费输入 | 仍欠的核心箭头 | 准入／停止标准 |
 |---|---|---|---|---|
+| 精确经典Γ下的Euler修改 | 强旧应用0止finiteF/monotone增量；非一般类失败 | 405实ξ>0、加权测度唯一性、正Borel边界；任意正Δ及primitive全repeats精确范围 | 一般正Π的signed删减/重排、actual经典mixed/完整signed仍未付 | 不续finiteF量化或正增量设施；下一只固定三query一次实际locator，无合格即止，不泛排joint/relative/Dprime |
 | Suzuki Θω/causal Hankel → canonical系统 | 1204v2§2来源0止；非方法全类失败 | 原PDF/乘法域及固定安全ω cited系统；边界与因果原条件、det级数 | 小ω因果/inner/非退化、a∞端点及完整physical双源运输没有新独立输入 | 不先续HS/临界紧致性/后章proof/另paper；真实新算术估计或完整signed输入才准，正Dprime不逐层强加Pan |
 | Tate E₂单Mellin源 → Cartier／Poincaré型两源族 | 已形成并强旧前置0止fixed source | 原du/强域、actualPan非零半周期、属一RR及onlypoint kernel责任 | 真principal下降／全源mixed及完整Γpp双pole身份未给；family line非高度 | 不换evaluation/period/添Green或RR续预算；不泛排extra raw frames、非局部/relative/正Dprime；先给实际同源identity或signed净量 |
 | 同对象 relative principal／Green → 截面乘法 → mixed RR | 长期主责；无新几何proof，执行先实际mixed公式形成 | 567真实RR→Hodge机制；579–582实际源／strong域／Green；537明确非根 | 同一非零primitive载体上的实际物理源公式、全关系的principal／Green边界、整过滤与同对象mixed身份 | 先核405全关系及平移、537与全源非根、原du／Dlog和全部尾；无实物不续C045或预建未知合同；保relative／higher／有费无界修复 |
