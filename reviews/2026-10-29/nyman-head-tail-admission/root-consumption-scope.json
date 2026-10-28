@@ -1,0 +1,192 @@
+{
+  "schema": "rh-weil-root-premise-closure-v1",
+  "date": "2026-10-29",
+  "status": "root-fresh-closed-C056-one-math-iteration-593",
+  "goal": "goals/GOAL.20261027.md",
+  "runtime_created_at": 1793085111,
+  "baseline_commit": "0c4f3a3eb609bb1d9564138fa4a35701f05605f2",
+  "root_consumption": "Norm8380/strongold8264/currentreusedaffine7310/differentfresh7986 PASS all terminal and full-read byroot. Root independently derivedfloor/norm/affine proofs. Sevenfresh inputs verified, exact593draft5331 archived beforefinal intro/lowerdensity wording change. No remaining mandatory repair; drafts pending language historical dischargedhere.",
+  "object_norm_domain_roles": {
+    "object": "H=L2((0,infinity),dx), rho_n(x)=fractionalpart(1/(nx)), chi=indicator(0,1), finitecoefficient synthesis g_b. AllN>=6, X=N+2. ActualNB carrier, notoriginalphysical r=e^(u/2)f orWeil du/Dlog norm.",
+    "head": "Reciprocaly=1/x, P_Y=integral0^Y |g(1/y)|²dy/y². First-X integercells meansY=X+1; oldlocal regiony<=X distinguished. IfA=sum b_n/n=0, sourceconstantperintegercell andphysicaltailx>1 zero. HeadGram finitepositive fromlowertriangularfloor matrix, notinvalidexistence.",
+    "constraints": "A=0 compactifiesx-infinity; sum b=0 separatelyis087boundarymean tangent. Neitheris405 allnoncompactPan, norWeilpolemoments. Originaltwo-term onlyA0/sumb1/N, not087tangent. Three-term h_N hasbothzero. Realvectors complexifywithinH, noarithmeticalintegerline construction claimed.",
+    "actual_full_norm": "h_N=((N-1)/N)rho_(N-1)-2rho_N+((N+1)/N)rho_(N+1). Early k<=K=floor((N-2)/2) separatedpulses amplitudes-(N-1)/N,+(N+1)/N, eachenergy2/(kN²). Globally|h(1/y)|<=2 paysfulltail<=4/[K(N+1)]<=16/N². Fullenergy=(2logN+O1)/N², first-Xhead=2/N² exactly, leadingconstant2 verifiedwithoutzeta-meanvalue/numerics.",
+    "transport_direction": "EnergyLoewner dominationfull<=C_N head requiresC_N>=logN-O1, notbestconstantupper. Correspondingnormoperatorloss at leastsqrt(logN). Originalh Dirichletcoeffbounded, normalizedv=N h/sqrt(2logN) coefficientnormgrows; fullenergyv->1/head=1/logN->0/supportshrinks givesweak0. Do notmergeboundedcoeff ratio withgrowingcoeff unitdefect.",
+    "growth": "AnyY_N>=N+3 withlog(Y_N/N)=o(logN), evenadaptivewithinthatbound, captureso(fullenergy) onh_N. UsesJ=ceil(Y/(N+1))<=K earlypulse formula. Quadraticsizehead for thiswitness retains1-O(1/logN) energy; noallcoeffupper, noaffinebase formula forarbitrarylargerY.",
+    "Möbius_domain": "Triple-squarefree N-1,N,N+1 haspositive LOWERdensity/cofinal viaN=2mod4, oddp threebadclasses, count>=K_T(4-3pi²/8)-O(sqrtT), lowerdensity>=1-3pi²/32>0. Noassertionnaturaldensitylimit existence.087QT fullVandermonde withcutoffX=N+2 representsh ininteriornonzeroµ support andsumzero tangent. NotfixedR/boundedjetcoordinates/interpolationfee theorem; no091general-delta sieve used.",
+    "target_comparison": "Old082 z_n=(logn+1-gamma)/n gives<h_N,chi>=N^-1log(1-N^-2)=O(N^-3); boundaryresponse0. Thisalone doesnotproveoptimizer leakage/distance lower; actualbasecross remainsunlessseparatelyhandled.",
+    "affine_pair": "m1(X)=sumµ/n->0 byold525classicalMertensbound, partialsum anddominatedEuler integralatsigma1. a_n=µn-Xm1*1_n=X, R_X=chi+sum a_nrho_n hasA0 andonlyheadcell[X,X+1) valueXm1. vheadonly[N-1,N+1), soF±=R±v head EXACTsame X/(X+1)|m1|²+1/logN->0.",
+    "signed_basecross": "Fullparallelogram averageE(F±)=||R||²+||v||²>=||v||²->1 retainsunknownbasecross withoutassumingitsmall. liminfmax>=1 andatleastonefixedsignlimsup>=1; nopredeterminedsignliminf/noall-signfailure/noactualselector. EachcandidatefiniteNB residualwith1-zetaA Mellinidentity, notoptimaldistance assertion.",
+    "affine_scope": "a_X generallynonzero/notsquarefreesupport, sum a=M(X)-Xm1 generallynot-2. PaironlyoriginalNB A0class, vpreservesbaseexistingmean; not087prescribedmean/endpointaffinebase. Growingv/aX coefficients allowedfiniteNB butnotboundedcoefficientball claim. No numericalGram/sign selection executed."
+  },
+  "paid_dependencies_errors": "Exactintegerfloor/pulses/Lebesgue integrals payallnorm/head tails, classicPNTfixedoldinput paysm1 limit withoutcriticalRH bound, headcross exactlyzero/fullcross eliminatedonlyforpair. No hiddentruncatedcoefficientnorm orsampledGram, nofinitecalibrationupgraded tofullWeil. Strongold082/083/087/088/096/097/099/104/111 boundedinterfaces compared,093/094frozenSP notconsumed.",
+  "strongest_old_net": {
+    "classification": "Newactualarithmetical moving-domain asymptoticnorm-loss andsamechi affinecounter, oneprojectmathiteration, notfirstNBcarrier/equivalence/world-priority claim",
+    "local_method_bottleneck_changed": true,
+    "long_goal_key_bottleneck_changed": false,
+    "whole": "542+555->557 leading4/5 negativeinertiaUPPER unchanged, no positivity/proportion/lower bound",
+    "why_not_oldzero": "082PL givescoefficientnorm smallspectrum;096localonly wasfinite diagnostic/conditionaleta;097exactformula didnotpaythismovingpulse harmonic asymptotic/domain oractualaffinepair. Newnecessaryuniformloss notmerelyweakeroldwhole bound.111allmeans notshortphysicalhead.",
+    "preserved": "NBoptimaldistance/RH possible,087actualoptimizer/088easyoptimizerleakage,095/098targetresponsealignment,fullparabolic/allmeans andpaidgrowth repairs. Quadratichead survivesforwitness, othercoefficient restrictions unruled."
+  },
+  "remaining_coverage_coupling": "No newclassicfullWeil positiveidentity orsameprimitive/Pan537/principal/integersections/mixedRR, originaldu/Dlog/strongfees orcofinaldangeroussignedcorecross/Xi. FullGamma/contact/properpowers/doublepole notdiscarded toclaimcomparison. Thislocalmethodclassboundary doesnotcoveroriginalGoal fullcompletiongate; open/noteligible/active.",
+  "fresh_snapshot_mapping": {
+    "reviewed_path": "notes/593-nyman-short-head-norm-loss-and-affine-residual-defect.md",
+    "frozen_copy": "reviews/2026-10-29/nyman-head-tail-admission/593-fresh-review-input.md",
+    "bytes_lf": 5331,
+    "sha256_lf": "93b3fd832798e71dee39438ed283708a1c55f5aeca406779c9a1376ad14242f6",
+    "final_note_changes": "Onlyintro status andexplicitpositiveLOWERdensity/cofinal scope adoptedfromfresh; no enlarged theorem. Other sixfreshinputs unchanged."
+  },
+  "readonly_subaudit": "Actualagent /root/nb_head_affine_fresh/sf_domain_readonly terminal, nofilewrites; independentAP/QT proof reconciled infresh/root, noextra round.",
+  "cadence_settlement": {
+    "authority": "goals/review-cadence.json",
+    "before_checkpoint": "goals/checkpoints/2026-10-29-nyman-head-affine-reviewing.json",
+    "after_checkpoint": "goals/checkpoints/2026-10-29-nyman-head-affine-593-settled.json",
+    "before_rounds": 2,
+    "after_rounds": 3,
+    "before_history": 56,
+    "after_history": 57,
+    "before_sha256_lf": "ea44d838ee01c575b03fab5a1aa3986134ee5f8e55e7fd55d7b5cbbe2eef714d",
+    "after_sha256_lf": "58318260166ae36d6c3d42bf212de54c94e69e546cb38823ed9f5a72386e4ae2",
+    "scope": "Oneguardedmathsettlement, includesoriginals/affine/root/fresh/readonly audit. Latest593/formal18, default6/min4/max8 retained; thisisimmutableeventobservation notsecondmutablecounter."
+  },
+  "stop_and_next": "C056oneiterationexhausted, noheadrate/degree/selector/sourcequeue orsuccessor admitted. Currentaccurateproof/board/library/state/checkpoint publicationandindependentactualHEAD verification. Completepublication doesnotcompleteGoal.",
+  "literature_observation": {
+    "path": "literature/manifest.json",
+    "entries": 132,
+    "bytes_lf": 200620,
+    "sha256_lf": "6028541b787e0e1791ed30d82f4c30fa302078fa51b8c25d6ada6c0e8566d303",
+    "scope": "Unchanged throughoutC056, no newquery/primary/PDF/download/numerics. Historicalcurrent observation notfuturegrowth constraint."
+  },
+  "bindings": [
+    {
+      "path": "goals/GOAL.20261027.md",
+      "bytes_lf": 9679,
+      "sha256_lf": "b3d2acb1f962d793f45d79b6a4e67fb87dd072cd4752108a9298204b4cefa1de"
+    },
+    {
+      "path": "goals/reviews/2026-10-28-general-rh-macro-review-cycle-18.md",
+      "bytes_lf": 11357,
+      "sha256_lf": "1dcfe4889d812ceaf1c6c82536b149f1bd8c54fc2602f8bd2cc0c0f77f3b8463"
+    },
+    {
+      "path": "notes/081-mellin-division-nyman-beurling-hodge.md",
+      "bytes_lf": 10221,
+      "sha256_lf": "9674636567be2e3be6d8ece3dbb76557fd139482a66b92a1401454f2b2def5da"
+    },
+    {
+      "path": "notes/082-beurling-log-toeplitz-feshbach.md",
+      "bytes_lf": 8417,
+      "sha256_lf": "c24ac8dec4987a2c76e1758dce73633930d68b5acc9d7d83690d2204f722a340"
+    },
+    {
+      "path": "notes/083-mobius-mollifier-almost-prime-hodge-filtration.md",
+      "bytes_lf": 8105,
+      "sha256_lf": "530af5d77c29584d65c1ecec5a894c17169ba6deed5503f61caff181b474d8c9"
+    },
+    {
+      "path": "notes/087-constrained-nyman-capacity-feshbach.md",
+      "bytes_lf": 9015,
+      "sha256_lf": "847eedfda8e668f36a7837e4ca4cd5b2c14cb3c6a898b40b99bdfdf28d6c2730"
+    },
+    {
+      "path": "notes/088-local-parabolic-far-hodge-leakage.md",
+      "bytes_lf": 9833,
+      "sha256_lf": "e91852f5809d77b16007e3bf7b648165cc7da75b20715c30bb32d3db4d4f161c"
+    },
+    {
+      "path": "notes/095-response-aligned-riesz-leverage.md",
+      "bytes_lf": 7516,
+      "sha256_lf": "71260c15040f68f183432c3efd246c44381f1c53d0d4769906976fe96936ebee"
+    },
+    {
+      "path": "notes/096-localized-leverage-shortening.md",
+      "bytes_lf": 7982,
+      "sha256_lf": "ff99e1a7e8ca687efd209790109bb39c0e51681b69080d99fafe818f0c3196b6"
+    },
+    {
+      "path": "notes/097-exact-parabolic-spatial-gram.md",
+      "bytes_lf": 7443,
+      "sha256_lf": "d891d172426229a49bb7a92208338ac39634745e49bb5dc8fd0a0e7f4c3decea"
+    },
+    {
+      "path": "notes/098-shell-endpoint-coercivity.md",
+      "bytes_lf": 7800,
+      "sha256_lf": "933bfcfb1d12dcea4565a6dcb1f9de4b47b10e43c633401ce866052da03c7e9c"
+    },
+    {
+      "path": "notes/099-two-sided-periodic-hodge-sandwich.md",
+      "bytes_lf": 7405,
+      "sha256_lf": "56a43850e30000afc3e468ebb5d30fbca5d86f7ed5bbc8f1fcca11dd0f985492"
+    },
+    {
+      "path": "notes/104-incidence-vandermonde-polylog-coercivity.md",
+      "bytes_lf": 8948,
+      "sha256_lf": "c6c52dcccc5d10458c63a7901df9bf4ccd01dfffd2c076dc174c0da764f3c44f"
+    },
+    {
+      "path": "notes/111-uniform-unit-cell-tail-reduction.md",
+      "bytes_lf": 7506,
+      "sha256_lf": "6b5e583fdb9a05f2b6e176f732a8a615272a3f9c66c88a06eb6fde81033bea2f"
+    },
+    {
+      "path": "notes/525-f1-smoothed-mobius-probes-and-arithmetic-strength.md",
+      "bytes_lf": 12014,
+      "sha256_lf": "c3145456a28fd2f776430a8028b6b1095d719c95daf6e3a12a88d3a5e9541041"
+    },
+    {
+      "path": "goals/contracts/C056-nyman-physical-head-and-affine-residual.md",
+      "bytes_lf": 4040,
+      "sha256_lf": "7301bf48cae763e5111afb78ef390744ad326c74f815481a7738ba88efc878ec"
+    },
+    {
+      "path": "reviews/2026-10-29/nyman-head-tail-admission/593-fresh-review-input.md",
+      "bytes_lf": 5331,
+      "sha256_lf": "93b3fd832798e71dee39438ed283708a1c55f5aeca406779c9a1376ad14242f6"
+    },
+    {
+      "path": "reviews/2026-10-29/nyman-head-tail-admission/adjacent-source-exact-head-and-full.md",
+      "bytes_lf": 8380,
+      "sha256_lf": "e5fd028a679685b29cd567e66ec31900c01fe800163a9fc76715b9499806c43f"
+    },
+    {
+      "path": "reviews/2026-10-29/nyman-head-tail-admission/strongest-old-head-full-scope.md",
+      "bytes_lf": 8264,
+      "sha256_lf": "1ff882489ec6eebd5c378fe1b0e9fb106da45c043a3f2e595c9ab46a10345e10"
+    },
+    {
+      "path": "reviews/2026-10-29/nyman-head-tail-admission/affine-target-head-small-and-full-defect.md",
+      "bytes_lf": 7310,
+      "sha256_lf": "e03f1ba61286ec87bd1046752b80a185cd428daf809234e41a9b7660f7e98cd3"
+    },
+    {
+      "path": "reviews/2026-10-29/nyman-head-tail-admission/root-integer-cell-and-adjacent-test.md",
+      "bytes_lf": 5855,
+      "sha256_lf": "465986c951e4ad463877e988610f283d9907ece47da772ab5ddf2a0fa5474034"
+    },
+    {
+      "path": "reviews/2026-10-29/nyman-head-tail-admission/root-affine-pair-draft.md",
+      "bytes_lf": 3650,
+      "sha256_lf": "797bf4a9e9e071ed8f0e3c4f0e828d53d6632396a9310e053f6c411624b4cc13"
+    },
+    {
+      "path": "reviews/2026-10-29/nyman-head-tail-admission/fresh-math-and-consumption-audit.md",
+      "bytes_lf": 7986,
+      "sha256_lf": "1edc777b6d3e8c0b964a2565d098f1488be8fc8e56edc7684f4afa40b1be18d3"
+    },
+    {
+      "path": "notes/593-nyman-short-head-norm-loss-and-affine-residual-defect.md",
+      "bytes_lf": 5439,
+      "sha256_lf": "311f9f3984e5c54b37af956e025891647c5beda77dd93214b8919c1bb570444c"
+    },
+    {
+      "path": "goals/reviews/2026-10-29-nyman-head-affine-593-settlement.md",
+      "bytes_lf": 3534,
+      "sha256_lf": "e0832b31532defdd1747a25aa9a53dfbf749ac8da4d5bdfdf63adec91365d05d"
+    },
+    {
+      "path": "literature/supplements/2026-10-29-nyman-head-affine-scope.md",
+      "bytes_lf": 1781,
+      "sha256_lf": "aaa025cd82fe0c6ace3f3a3e13786d3f605f5c771a8d0caac65a5dc15f233d97"
+    }
+  ]
+}

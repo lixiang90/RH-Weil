@@ -2069,3 +2069,23 @@ Ambient商稠密只在所列ambient局部拓扑成立，不偷换restricted resp
 所核页没有actual physical r→same primitive/D_r、405全noncompact Pan／平移、537非根/coverage与两槽mixed源桥。固定有限linear参数Hessian若另提议已有537共同kernel强旧反测；不排growing/sourceadaptive/relative/higher/强域，也不由未排授预算。573的P¹_Z整数过滤、307真函数域RR、552/553和correctedscalar theta的既有metric/Poisson/源费保留。来源语义／版本／局部校勘是本轮净值，关键primitive/principal/sections/mixed、signed corecross/Ξ及whole4/5负惯性UPPER未改。
 
 结算一章source0，不建C056/593、不续Q/rank/theta参数或本文后章／两变量／引用paper队列。唯一cadence2/history56/latest592/formal18原LF保持，Goal同1793085111active/open/noteligible。当前根前件/原件/看板/文献元数据/STATE/checkpoint正常main发布，独立核source后恰三metadata child再核actualHEAD/tree/parent/clean，条件满足不重推不重计。无已准继任math/source，重准须不同actual input/test/net。范围见goals/reviews/2026-10-29-arakelov-theta-rr-source-gate-stop.md及其根收据。
+
+## D20261029L — C056准入：实际Nyman短窗／全范数与同χ候选pair
+
+前metadata actual6a7bb0e已独立核不重推。Root实际执行movinginteger pulse比较，两8380/8264原稿terminal/root全文读：三项h_N满足A=Σb/n=0和Σb=0，full=(2logN+O1)/N²而first-Xhead=2/N²，合法cofinal tripleSF可进入087fullgrowingVandermonde。旧082小谱／096finite诊断／097exactformula未给此同域渐近necessary loss，111保allmeans不是physicalhead；有具体新test/net而非继续纸名／参数试探，故准C056一个数学迭代，cadence在不同fresh/root结算前保持2/history56/latest592。
+
+必须扣旧targetalignment：<h_N,χ>=N^-1log(1−N^-2)极小，不因此判optimizer失败。当前只另核已形成affinepair：M1 boundary修正给sameχ first-Xhead→0，加入±归一化v_N后head仍→0，parallelogram保证至少一列full不趋0；原base不冒087额外prescribedmean。这个actual候选反例只止短窗norm-only运输，保responsealigned／实际optimizer、fullparabolic/allmeans、paidgrowth与其它signed修复。经典PNT仅固定旧输入，不优化暂停路线；完整Weil/core/primitivemixed和whole4/5UPPER未改，不缩Goal门。
+
+下一仅current reused agent新affine输出→不同fresh→root域/强旧前件闭合，若新比较成立统一一数学轮后止，不续N/degree/headrate/selector/source。原范数稿不改，复用handle必须核新path。当前无新外部primary/query/PDF/下载/数值，manifest132原字节保持，Goal同1793085111active/open/noteligible。
+
+## D20261029M — 593结算：真实短窗验收边界已闭，最优逼近与关键核心仍开放
+
+C056 norm8380／strongold8264／复用handle当前affine7310及不同数学fresh7986 PASS均terminal/root全文消费，只读SF子核terminal无写入。七fresh输入版本匹配，593草稿5331原样保存快照，最终note只改结算状态及明确正下密度/cofinal范围，不另断自然密度极限。双约束三项源actual全energy=(2logN+O1)/N²，first-X cells=2/N²；source/window/growingfullrank域与系数成长均闭，full≤C_Nhead必要C_N≥logN−O1，非最优C upper，原two-term非mean tangent未越域。
+
+实际sameχ两候选head精确相等且→0；boundary-correctedµ基点与v_N head支撑分离，parallelogram处理完整未知basecross使maxfull liminf≥1，至少一fixedsign limsup≥1。未选sign、未跑数值，不声称预定sign liminf、087额外affinebase、targetoptimaldistance或RH失败。PNT仅固定旧Mertens输入；tripleSF正下密度属合法域，不做暂停零点比例／无零区优化。
+
+较082qualitative小谱／096finite诊断／097generic公式有新的actual渐近necessary费与同χcandidate反例，故一个完整数学迭代而非来源0。111保allmeans、099fullparabolic、088actualoptimizer leakage与095/098targetalignment均保留；不消费093/094已冻结下游。局部“免费短physicalhead norm/候选验收”选择改变；sameprimitive/principal/sections/mixed、dangeroussignedcorecross/Ξ与whole4/5负惯性UPPER未改。此方法边界未涵盖原Goal完整方法类，Goal同1793085111active/open/noteligible。
+
+Root已守卫原单cadence2/history56/latest592后仅一次变3/history57/latest593，formal18保持；3未触发4–8正式宏观审视范围，不造counter/review。所有作者/原型/affine/fresh/readonly/root/发布不另计。无外部新primary/query/PDF/下载/数值，manifest132原字节保持。C056一轮耗尽，不续head-rate/degree/selector/source；无已准继任math/source，重准须不同actual input/test/net。
+
+当前只593证据/根前件/STATE/单cadence/看板/文献scope/checkpoint正常main发布并独立核source，再回执＋STATE＋新sync checkpoint三metadata child核actualHEAD/tree/parent/clean；条件成立不重推不重计。原件与完整范围见goals/reviews/2026-10-29-nyman-head-affine-593-settlement.md和reviews/2026-10-29/nyman-head-tail-admission/root-consumption-scope.json。

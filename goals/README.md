@@ -1,5 +1,7 @@
 # 长期研究恢复入口
 
+2026-10-29，[593/C056已结算](reviews/2026-10-29-nyman-head-affine-593-settlement.md)：actual Nyman三项双约束源full/shorthead energy比~logN，unitdefect与subpowerhead成长反测、合法cofinal fullrank域已闭；同χ显式候选pair的head同时→0而maxfull liminf≥1，jointbasecross由parallelogram处理。三原件/不同数学fresh/root已核，不判最优distance/RH失败，不打111allmeans或088actualoptimizer；保fullmetric/aligned/有费growth。局部免费短窗验收选择改变，关键primitive/principal/mixed/corecross/Ξ与whole4/5负惯性UPPER未改。唯一cadence一次2→3/history56→57/latest593/formal18保持，manifest132原字节不动，Goalactive/open。C056耗尽不续head-rate/degree/selector/source；当前授权发布并核actualHEAD。
+
 2026-10-29，[theta算术RR一章来源0止](reviews/2026-10-29-arakelov-theta-rr-source-gate-stop.md)：van der Geer–Schoof v3原件实际归档132；两原稿/不同fresh/root闭。保真实principal/格/整数tensor及theta-h0 RR，区别smallsection log#，不从norm乘法偷渡Gaussian权/无碰撞mixed。PDF7 literal generalF下标冻结，inverse-different/canonical ideal有限重闭，Q不受影响；finiteB非module仅非平凡情形。本文所核页未给r→D/Pan537/mixed桥，非全paper/全部Arakelov失败；无后章/引用/参数续批，无C056/593。关键瓶颈与whole4/5负惯性UPPER未改，cadence2/history56/latest592/formal18不动，Goalactive；当前准确范围发布。
 
 2026-10-29，[Möbius–Green同域旧0](reviews/2026-10-29-mobius-green-critical-domain-old-stop.md)：两原稿/不同fresh/root闭，实际V正是518/525反射半密度逆。全I响应L²，故裸商丢两个degree；每非零compact源的普通criticalL²响应不有限，由旧pole/Jensen/RvM/Laplace直接得，不付临界增长。只证ambient非Hausdorff，conditional左Jordan不假离线存在；不排NB或全部Green。关键primitive/principal/mixed/corecross/Ξ与whole4/5负惯性UPPER未改；cadence2/history56/latest592/formal18及manifest131不动，Goalactive。当前只本门准确范围发布，无C056/593/来源续批。

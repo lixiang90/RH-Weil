@@ -1,5 +1,7 @@
 # 宏观前沿：可消费范围与最小未付箭头
 
+2026-10-29，[593/C056短窗真实边界](reviews/2026-10-29-nyman-head-affine-593-settlement.md)三原件/不同数学fresh/root闭：doubleconstraint三项moving源full/head必要logenergy loss、subpowerphysicalhead失真与正下密度cofinal Möbiusfullrank域；sameχ实际affinepair head都0而maxfull liminf≥1，非optimizer距离界。新的局部免费norm/候选验收被拒，111allmeans/088actualleakage/fullparabolic/targetaligned/有费growth保留；原NB norm非新fullWeil身份。关键primitive/principal/sections/mixed/signedcorecross/Ξ及whole4/5UPPER未改。数学一次至3/history57/latest593，formal18保持，manifest132不动；C056耗尽，不续head-rate/degree/selector/source，Goalactive/open。
+
 2026-10-29，[theta算术RR来源门](reviews/2026-10-29-arakelov-theta-rr-source-gate-stop.md)两原稿/不同fresh/root0闭：真实Arakelov principal/整数格/metric tensor存在，theta-h0的RR保dual两端，但不是smallsection log#或mixed容量。PDF7 generalF literal下标冻结／正确inverse-different有限重闭；Q counterchecks不受影响。未形成same physical r→primitive/Pan537/sections/mixed桥，不否定其它relative/higher；停止这一命题/Q例子，不续paper后章/参数。新原件库131→132，数学0/cadence2/history56/latest592/formal18不动；核心与whole4/5负惯性UPPER未改，Goalactive。
 
 2026-10-29，[Möbius–Green同域旧0](reviews/2026-10-29-mobius-green-critical-domain-old-stop.md)：两原稿/不同fresh/root闭，V=518/525同一逆，非新principal。全I响应L²，裸商丢两个degree；所有非零compact源普通criticalL²响应不有限仅旧pole＋标准域推论，不支付critical增长。Ambient稠密不代restricted商，左Jordan仅conditional。080真实Green/081NB/522/526强旧保留；其它relative/higher/signed未排。核心与whole4/5负惯性UPPER未改，cadence2/history56/latest592/formal18、manifest131不动，Goalactive；当前准确范围发布，不续μ增长/权/完成/来源。
