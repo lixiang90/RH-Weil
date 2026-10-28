@@ -45,7 +45,7 @@
     "settled_iterations": [
       "notes/586-theta-ground-state-spectrum-and-full-gamma-heat-defect.md"
     ],
-    "stage": "1204v2单章原核/两咨询/独立PDF审稿已root限定消费，来源0止；16源路径本地结算待正常main同步。C049耗尽，无C050/587。",
+    "stage": "1204v2原核单章/两咨询/fresh/root已限定来源0止；16源38850e4已正常main推送并独立核GitHub ref/commit/tree。metadatachild只记已核source，实际HEAD/tree现场另核；C049耗尽，无C050/587。",
     "next_action": "自主形成实际双源identity或独立signed净量，先写原域/range、独立生成规则、完整目标连接及input/test/net；本Hankel章及旧Tate/T_B已止，当前无继任formula/proof/source章节，不改未付条件名字或续来源队列，不等用户许可。",
     "stop_rule": "无新实际input或可改变选择的具体test不准C050/587；不先建有限坐标/正metric/Hankel设施，不续原omega/domain regularity或后章，不复制counter/归零formal17或缩Goal门。"
   },
@@ -136,12 +136,12 @@
     "basis": "本轮get_goal同实例active；实际原核来源动作与root限定消费完成，长期完成门未过。"
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-10-28-hankel-section2-local.json",
+  "checkpoint": "goals/checkpoints/2026-10-28-hankel-section2-sync.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
-    "commit": "453a6b136e81a3708749efebf465f4d85baad177",
-    "tree": "8bd20381557e5094baad63def64462b607b581b9",
-    "basis": "Independent GitHub GET ref/commit/tree matched source; reviews/2026-10-28/tate-biextension-input/remote-sync-verification.json; metadata actualHEAD separately verified, no recursive selfSHA."
+    "commit": "38850e44d3766abb261ac585a9e4c157251a6214",
+    "tree": "badb586015af63bb706423d00d34d3ef912cc67e",
+    "basis": "Independent GitHub GET ref/commit/tree matched source; reviews/2026-10-28/hankel-source-admission/remote-sync-verification.json; metadata actualHEAD verified separately, no recursive selfSHA."
   },
   "completion_audit": {
     "goal": "goals/GOAL.20261027.md",
@@ -155,9 +155,9 @@
     "goals/goal-completion-receipt.20261014.json",
     "goals/goal-completion-receipt.20261014-continuation.json"
   ],
-  "process_inventory_observed_on": "两preprimary咨询与fresh当前task均final且root已全文消费；PDF/五页图本地实存，无数学proof/数值/外网producer后台。待本轮Git同步/远端核验。",
+  "process_inventory_observed_on": "两preprimary咨询/fresh当前task均final/root消费；16源已push/独立核。PDF/五页图实存ignoredlocal，无数学proof/数值/外网producer后台；metadata当前HEAD另核。",
   "publication_approval_gate": {
-    "status": "current-source-local-ready-for-normal-push",
+    "status": "current-source-published-and-independently-verified",
     "destination": "https://github.com/lixiang90/RH-Weil",
     "visibility": "public",
     "branch": "main",
@@ -167,9 +167,9 @@
       "reply": "每轮把进度同步到github；把文献保存在文献库中，用研究看板来记录各个路线的状况",
       "scope": "本项目研究/Goal/STATE/看板/文献元数据/审查与同步回执；论文再分发许可不明则全文仅本地。"
     },
-    "current_scope": "本轮16源路径：1204v2单章source/read版本/两咨询/fresh/root及库/manifest/看板/STATE/checkpoint；PDF/页图仅ignoredlocal，无新math。待正常main发布并核远端。",
-    "published_source_commit": "453a6b136e81a3708749efebf465f4d85baad177",
-    "verification": "reviews/2026-10-28/tate-biextension-input/remote-sync-verification.json"
+    "current_scope": "本轮16源路径已正常main同步并独立核ref/commit/tree；PDF/五页图仅ignoredlocal，无新math。metadatachild仅回执/STATE/新checkpoint，实际HEAD另核，发布不完成Goal。",
+    "published_source_commit": "38850e44d3766abb261ac585a9e4c157251a6214",
+    "verification": "reviews/2026-10-28/hankel-source-admission/remote-sync-verification.json"
   },
   "research_board": "RESEARCH_BRANCHES.md",
   "literature_index": "literature/README.md",
