@@ -1,5 +1,7 @@
 # RH-Weil 文献索引
 
+2026-10-29，[590＋formal18](../goals/reviews/2026-10-28-general-rh-macro-review-cycle-18.md)已经数学/宏观两个不同currentfresh及root核闭，复盘0数学、原4→0/history54/latest590保持。本轮全程项目内自含推导与已存proof复核，无新web/PDF/primary/query/下载/数值，manifest未改/130项；[readscope](supplements/2026-10-28-inverse-euler-filter-admission-scope.md)携带actual物理Riesz链、未用辅助和严格局部边界，未产生独立arithmetic正号。
+
 2026-10-28，[CCM cooling／cyclic coker类型来源门](../goals/reviews/2026-10-28-ccm-cooling-cyclic-source-gate-stop.md)核既存0512138v2 PDF22–29及30-before4.4，保408既读重叠范围；π／真实多输入trace／Λcoker已分层，未付quotient内部产品及nonzero physical source。4.26后置proof／5.1未读与root误crop视觉曝光均如实限定。原PDF已tracked不增改，新页图/提取ignored；只一次固定URL metadata核，无新下载/query/numerics。[准确readscope](supplements/2026-10-28-ccm-cooling-source-scope.md)／当前root+fresh闭合沿已有CCM条目，130项不增，不声称manifest字节不变。
 
 2026-10-28，[Gaussian pulse/exp localgain旧消费](../goals/reviews/2026-10-28-gaussian-pulse-universality-and-local-gain-old-scope.md)只核项目560/585真实评价、589localization及576/577/421范围，无新外部web/PDF页/下载/数值；2410.20758拟来源因10-20已读而在执行前撤回。Manifest130原字节保持；[实际范围](supplements/2026-10-28-gaussian-pulse-and-gain-old-scope.md)保Gaussian非Sonintrial、TV与conditional正谱、positiveDprime拓扑桥/必要gain及无有效算法预算。

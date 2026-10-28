@@ -1,18 +1,18 @@
 {
   "schema": "rh-weil-macro-state-v1",
-  "updated_for_client_date": "2026-10-28",
+  "updated_for_client_date": "2026-10-29",
   "baseline_commit": "0c4f3a3eb609bb1d9564138fa4a35701f05605f2",
   "historical_baseline_commit": "3a72930e9f9f554b03b41d17d8c8002f1813ca82",
   "goal": "goals/GOAL.20261027.md",
   "workflow": "goals/RESEARCH_WORKFLOW.md",
   "cadence": "goals/review-cadence.json",
   "decisions": "goals/DECISIONS.md",
-  "latest_strategy": "goals/reviews/2026-10-28-general-rh-macro-review-cycle-17.md",
-  "latest_decision": "D20261028AV",
+  "latest_strategy": "goals/reviews/2026-10-28-general-rh-macro-review-cycle-18.md",
+  "latest_decision": "D20261028AZ",
   "macro_frontier": "goals/MACRO_FRONTIER.md",
-  "macro_summary": "goals/reviews/2026-10-28-ccm-cooling-cyclic-source-gate-stop.md",
-  "latest_macro_review": "goals/reviews/2026-10-28-general-rh-macro-review-cycle-17.md",
-  "latest_iteration": "notes/589-sonin-zero-mean-upper-and-scalar-rank-one-limit.md",
+  "macro_summary": "goals/reviews/2026-10-28-general-rh-macro-review-cycle-18.md",
+  "latest_macro_review": "goals/reviews/2026-10-28-general-rh-macro-review-cycle-18.md",
+  "latest_iteration": "notes/590-inverse-euler-filter-growing-moment-and-normalized-spectral-escape.md",
   "macro_control": {
     "schema": "macro-recovery-v2",
     "goal_epoch": "G20261027",
@@ -20,8 +20,8 @@
   },
   "macro": {
     "long_objective": "G20261027接续G20261014完整完成门/原0c4f基线，≤582为输入；持续寻经典同源Weil正性/有效性/RR或actualsigned新输入，付全源/成长/core及谱识别。",
-    "unpaid_bottleneck": "Cooling cyclic coker未付非零physical primitive/内部mixed；原同对象principal/整截面/mixed/Xi及完整signed corecross仍欠。Actualrho正filter必要exp gain/mass∞旧资产保持，whole4/5UPPER未改。",
-    "why_this_contract": "实际CCM map类型及q=[δx]首检已按source0闭合，既有多输入trace保留却未给quotientmixed。此门停止；现在只发布准确readscope/纠正，不顺读后章或续旧局部优化。",
+    "unpaid_bottleneck": "独立同非零arithmeticprimitive的physical/Pan537下降→principal/整截面/mixed与完整signed危险corecross/targetmembership/Xi仍欠；590只止canonicalinverseEuler scalar族，whole4/5UPPER未改。",
+    "why_this_contract": "四轮局部修补边界真实进展但key/whole未改；formal18已及时审视并停止权参数枚举，保主线primitive关系/mixed与实际signedcore备选。当前无合格新实物，先准确发布，不用空形成/未知章续预算。",
     "paused_routes": [
       "零点比例优化",
       "无零区域优化"
@@ -36,23 +36,23 @@
     ]
   },
   "primary_contract": {
-    "id": "C052",
-    "path": "goals/contracts/C052-sonin-zero-mean-upper-and-scalar-normalization.md",
+    "id": "C053",
+    "path": "goals/contracts/C053-inverse-euler-growing-moment-and-normalized-escape.md",
     "status": "completed",
     "iteration_budget": 1,
     "settled_iterations": [
-      "notes/589-sonin-zero-mean-upper-and-scalar-rank-one-limit.md"
+      "notes/590-inverse-euler-filter-growing-moment-and-normalized-spectral-escape.md"
     ],
-    "stage": "CCM来源0/root/fresh及17文件source2379480已push/独立3GET核实；现在只metadata三文件child，实际HEAD匹配后发布完成，C052仍耗尽。",
-    "next_action": "完成receipt+STATE+新synccheckpoint三文件child commit/push并独立3GET核actualHEAD；若匹配即发布完成，不重推。无已准math/source后继；本cooling/Test/5.1/4.26proof/4.4预算止。",
-    "stop_rule": "一完整门；任何实际uniform/domain/tail断点准确未证止，不换源/α/window或续source；pure scalar不冒全部消失权/正Dprime。"
+    "stage": "590一数学轮/正式18零数学复盘均root结算，Goalactive；跨日29仅同步。C053耗尽/0since18-history54-latest590，当前无后台。",
+    "next_action": "完成590/formal18当前显式allowlist源提交/push/独立ref-commit-tree核；再receipt+STATE+新synccheckpoint三文件child并核actualHEAD。匹配不重发；无C054/新math/source后继，重准须actual新input/可改选择test。",
+    "stop_rule": "一完整数学迭代；Riesz/bump/alln或growing-tail断点准确未证止，禁止参数/源/norm/来源救题；旧已蕴含则旧0。"
   },
   "support_contracts": [],
   "must_not_forget": [
     "G20261027接续G20261014完整完成门/原0c4f基线；≤582和10-27审视都是输入，旧成果不得重验收。实际runtimeGoal active(createdAt1793085111)，新建由本轮用户直接请求。",
     "完整Γ=2θ′/FP-contact、所有properpowers/双pole、ALLcomplex、原du及zero-extension Dlog；L/算术height/频高独立，fixed/强源/Dprime/成长不合并。",
     "每结果保object/domain-range/关系-商-physical角色/norm、源成长量词/依赖误差/符号/coverage-coupling/strongest-old净值。语义改变先freeze/reclose，draft不代root消费。",
-    "唯一cadence：formal17原4→0一次；589统一2→3/历史52→53/latest589，不归零。默认6/允许4–8；准入/来源/代理/审稿/Git不另计，耗尽合同不续。",
+    "唯一cadence：590统一3→4/历史53→54/latest590；formal18原4→0一次，历史不归零。默认6/允许4–8；准入/来源/代理/审稿/宏观/Git不另计，耗尽合同不续。",
     "strongold542+555→557 whole4/5是负惯性UPPER；537/538 fixed17/16不代成长/Ξ。560全fixed窗positiveTrace−compact+pole，572/高层变分不代低频core及cofinal sign。",
     "几何主线先405全noncompact Pan及平移actual消去、537非根/全源coverage/原费，再同对象整过滤/截面乘法/mixedRR。已知410–437真实relative电荷/573反测与574–575线/Cartier不重造，精确域见前沿。",
     "576正锥/577完整Γ修补/578原费已付；membership/signed消失仍欠。Dprime逼近不逐层要求Pan/ordinarytrace。",
@@ -94,17 +94,32 @@
       "path": "reviews/2026-10-28/gaussian-pulse-admission/root-consumption-scope.json",
       "kind": "cited",
       "scope": "旧0：actualGauss TV/knownpositive谱运输，finiteσ atomgap；positiveDprime→vague，full同rho正filter需exp局部gain，mass需∞。非sharp/不可达/核心新input。"
+    },
+    {
+      "path": "reviews/2026-10-28/inverse-euler-filter-admission/root-admission-consumption-scope.json",
+      "kind": "cited",
+      "scope": "当前old/fresh准入0闭：bare rawmeasure strongSprime0已付；只准C053一次全n actualmoment lower，未证，不消费conditionalratio∞。"
+    },
+    {
+      "path": "notes/590-inverse-euler-filter-growing-moment-and-normalized-spectral-escape.md",
+      "kind": "proved",
+      "scope": "C053one math: actualRiesz物理边界/alln lower+growingGramnorm，inverseEuler Sg subexp且matchingg后fixedgprime∞；仅本weight/scalar族，非RH/core/whole改善。"
+    },
+    {
+      "path": "reviews/2026-10-28/macro-cycle-18/root-consumption-scope.json",
+      "kind": "cited",
+      "scope": "formal18两支持/不同currentfresh/root0数学闭：唯一4→0/history54/latest590保持；主线/备选非新合同，无C054/source后继。"
     }
   ],
   "pending_processes": [],
   "runtime_goal_observation": {
     "status": "active",
     "created_at_unix": 1793085111,
-    "observed_at_utc": "2026-10-28T14:14:55.078983+00:00",
-    "basis": "同createdAt1793085111 active现场核；当前AU指定CCM正文/页图已实际执行且source终稿root读，非只启动管理。"
+    "observed_at_utc": "2026-10-28T16:02:58.017920+00:00",
+    "basis": "跨日现场get_goal同1793085111active；实际590/root与formal18/current6973fresh/root均已核，数学与宏观结算后只发布。"
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-10-28-ccm-cooling-source-sync.json",
+  "checkpoint": "goals/checkpoints/2026-10-28-general-rh-cycle18-root.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
     "commit": "237948024e762ac0677067a01945079e9cd30222",
@@ -117,11 +132,11 @@
     "goal_lf_sha256": "b3d2acb1f962d793f45d79b6a4e67fb87dd072cd4752108a9298204b4cefa1de",
     "mathematical_gate": "open",
     "final_execution_gate": "not-eligible",
-    "basis": "CCM单章来源角色核闭但无新非零primitive/internalmixed或signed核心输入；whole旧UPPER未变，完成门open/noteligible。"
+    "basis": "Formal18逐门核：590只排本inverseEuler族；无RH/新independent关键输入或实质核心方法类实际全部修复覆盖；Goalopen/noteligible，whole/核心未变。"
   },
-  "process_inventory_observed_on": "当前三agent均terminal；source2379480 proxy push exit0/independent3GET全部匹配，无后台session；metadata三文件待显式commit/push，之后actualHEAD条件核。",
+  "process_inventory_observed_on": "跨日现场list_agents核仅root running，其余当前数学/宏观任务均terminal；无source/web/numeric/git后台session。当前只执行590＋formal18正常两段发布。",
   "publication_approval_gate": {
-    "status": "ccm-cooling-source-zero-verified-metadata-finalization",
+    "status": "590-formal18-root-settled-ready-source-publication",
     "destination": "https://github.com/lixiang90/RH-Weil",
     "visibility": "public",
     "branch": "main",
@@ -131,7 +146,7 @@
       "reply": "每轮把进度同步到github；把文献保存在文献库中，用研究看板来记录各个路线的状况",
       "scope": "本项目研究/Goal/STATE/看板/文献元数据/审查与同步回执；论文再分发许可不明则全文仅本地。"
     },
-    "current_scope": "CCM17file源已核；仅remote receipt+STATE+新synccheckpoint三文件child，同授权main正常推送/独立核actualHEAD。",
+    "current_scope": "590全部准入/proof/currentfresh/root/contract、formal18两支持/draft/final/fresh/root、看板/库/STATE/原cadence与checkpoints；自含项目新math，无新primary/全文/页图。",
     "published_source_commit": "237948024e762ac0677067a01945079e9cd30222",
     "verification": "reviews/2026-10-28/endomotive-cooling-admission/remote-sync-verification.json"
   },
@@ -157,7 +172,7 @@
     "repair_record": "reviews/2026-10-27/corrected-theta-source/root-consumption-scope.json",
     "basis": "literal/整体theta冻结；明确scalar源/P0/Phi/原费已重闭，算术7.4/stack-index未付；MB/582/583保持。"
   },
-  "latest_causal_review": "goals/reviews/2026-10-28-post-cone-causal-investment-and-locator-admission.md",
+  "latest_causal_review": "goals/reviews/2026-10-28-general-rh-macro-review-cycle-18.md",
   "sonin_high_scope_recovery": {
     "path": "reviews/2026-10-28/action-cone/strongest-old-sonin-recovery-correction.md",
     "status": "old-paid-safe-high-range-recovered-root-fresh-limited",
@@ -180,14 +195,6 @@
     "execution_record": "reviews/2026-10-28/homological-primary-locator/query-execution-record.json",
     "consumption": "reviews/2026-10-28/homological-primary-locator/root-consumption-scope.json"
   },
-  "sonin_moment_scope": {
-    "path": "reviews/2026-10-28/sonin-moment-proof/root-consumption-scope.json",
-    "status": "root-fresh-proved-c050-one-round-exhausted-source-rank-must-grow"
-  },
-  "local_anchor_scope": {
-    "path": "reviews/2026-10-28/local-anchor-proof/root-consumption-scope.json",
-    "status": "root-fresh-proved-c051-one-round-exhausted-fixed-anchor-optimal-boundary"
-  },
   "sonin_scalar_scope": {
     "path": "reviews/2026-10-28/sonin-scalar-normalization/root-consumption-scope.json",
     "status": "root-fresh-proved-c052-one-round-exhausted-zero-mean-upper-scalar-rank1"
@@ -195,10 +202,5 @@
   "gaussian_pulse_gain_scope": {
     "path": "reviews/2026-10-28/gaussian-pulse-admission/root-consumption-scope.json",
     "status": "root-fresh-closed-direct-old-zero-transport-atom-required-exponential-local-gain"
-  },
-  "ccm_cooling_scope": {
-    "path": "reviews/2026-10-28/endomotive-cooling-admission/root-consumption-scope.json",
-    "status": "root-fresh-closed-source-zero-typed-cyclic-coker-not-internal-mixed-no-successor",
-    "correction": "publication-readscope-correction.md撤销原PDFignored错句，existingtracked不增改；legalδdomain guard保持。"
   }
 }

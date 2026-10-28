@@ -1,5 +1,7 @@
 # 宏观前沿：可消费范围与最小未付箭头
 
+2026-10-29，[590＋formal18已结算](reviews/2026-10-28-general-rh-macro-review-cycle-18.md)：inverseEuler实际Riesz全n矩/Gram运输已不同数学fresh/root闭，matching-g后fixedgprime∞，仅止本nonlocal/growingF权族。587–590四完整轮已及时宏观审视，两支持/当前macro fresh/root核；唯一cadence4→0一次/history54/latest590保持。核心primitive/principal/mixed/signedcross与whole4/5UPPER未改，停止继续枚举filter参数；无C054/source后继预算，当前先同步本轮证据。Goal同实例active。
+
 2026-10-28，[CCM cooling单章类型门](reviews/2026-10-28-ccm-cooling-cyclic-source-gate-stop.md)已oldscope/source/不同currentfresh及root来源0闭合：π为algebra map，partial trace确有多输入cyclic公式，D为Λ-coker；合法源若仅经δ像再入商则类为0，非D=0。本范围未给内部产品下降/非零physical primitive，4.26后置proof及5.1域未核；不搬canonical cone exact0/§6冻结。既有PDF已tracked本轮不增改，新缓存ignored，130条库更新准确scope。核心与whole4/5UPPER未改，cadence3/history53/latest589/formal17保持，Goalactive；本门止/无后继预算。
 
 2026-10-28，[Gaussian运输/必要gain旧消费](reviews/2026-10-28-gaussian-pulse-universality-and-local-gain-old-scope.md)已三稿/currentfresh/root0闭：同actualrho finiteGaussian字典可TV运输chosen正谱并过g/gprime，但fixed有限mass有全X primeatom缺陷；full有限谱逼近mass须→∞。Positive Dprime→谱vague桥已付，任意同rho共同正density滤波full逼近必须在一个fixed away0 band有w≥Cexp(c√X/logX)增益，原source multipliernorm有平方根费。Exactσ/rho更强旧可达性先扣；无upper/sharp/不可达，保质量/指数gain成长及其它carrier。核心与whole4/5UPPER未改，cadence3/history53/latest589/formal17不动，Goalactive。
