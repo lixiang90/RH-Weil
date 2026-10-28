@@ -1,0 +1,43 @@
+{
+  "schema": "rh-weil-remote-sync-verification-v1",
+  "date": "2026-10-29",
+  "repository": "https://github.com/lixiang90/RH-Weil",
+  "branch": "main",
+  "visibility": "public",
+  "status": "source-verified-metadata-child-conditional",
+  "source_commit": "c575db9b1b476fd1fd71927f7c540bc048d4637f",
+  "source_tree": "ca5f867d33db3d5c6030d429d426f9496d392357",
+  "source_parent": "00924c894ffe594f2941671e92cbfb7278bb6085",
+  "source_scope": "C055/592:20 allowlisted files, two final originals/independent mathematical PASS/root closure, source/control/board/library scope/checkpoints. One complete math iteration1->2/history55->56/latest592; formal18/original0c4f/Goal strength unchanged.",
+  "source_push": {
+    "terminal_exit_code": 0,
+    "proxy": "http://127.0.0.1:10808 (command scoped, user authorized)"
+  },
+  "independent_verification": {
+    "method": "Connected GitHub GET ref/gitcommit/gittree independent of git push",
+    "observed_at_utc": "2026-10-28T20:31:59.963Z",
+    "urls": [
+      "https://api.github.com/repos/lixiang90/RH-Weil/git/ref/heads/main",
+      "https://api.github.com/repos/lixiang90/RH-Weil/git/commits/c575db9b1b476fd1fd71927f7c540bc048d4637f",
+      "https://api.github.com/repos/lixiang90/RH-Weil/git/trees/ca5f867d33db3d5c6030d429d426f9496d392357"
+    ],
+    "ref_matches": true,
+    "commit_tree_parent_match": true,
+    "tree_object_matches": true
+  },
+  "root_scope": "reviews/2026-10-29/positive-graph-prime-periods/root-consumption-scope.json",
+  "source_checkpoint": "goals/checkpoints/2026-10-29-positive-graph-592-settlement.json",
+  "metadata_child": {
+    "files": [
+      "reviews/2026-10-29/positive-graph-prime-periods/remote-sync-verification.json",
+      "goals/STATE.json",
+      "goals/checkpoints/2026-10-29-positive-graph-592-sync.json"
+    ],
+    "required_parent": "c575db9b1b476fd1fd71927f7c540bc048d4637f",
+    "completion_condition": "Normal child push terminal0; independent GET actual main/commit/tree match local HEAD/tree with parent source; worktree clean. When true publication complete without recursive receipt own-SHA rewrite or repeated push."
+  },
+  "mathematical_scope": "Exact prime-supported positive edge-additive SCC separation; cofinal marked-visible bounded-return activity sup must vanish; off0 fullfixed complex Weil bridge covers arbitrary origin contacts. Actual long/diffuse strongly-connected fullsigned approximations remain; not allgraph failure, PSD, core/whole improvement or Goal completion.",
+  "source_and_privacy": "No new external primary/query/PDF/download/numerics; manifest131 unchanged. No new third-party fulltext, cache, page images or credentials staged.",
+  "runtime_goal": "Same active instance1793085111/open/noteligible; independent primitive/principal/mixed/signedcorecross/Xi unpaid, whole4/5 negative inertia UPPER unchanged.",
+  "next_action": "Publish exactly3 metadata files and verify actual child condition. Once passed do not republish/recount C055. No admitted C056/source successor; further math needs new actual input/test/net, no graph/prime/return-rate/capacity continuation."
+}

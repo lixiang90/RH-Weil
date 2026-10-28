@@ -43,8 +43,8 @@
     "settled_iterations": [
       "notes/592-positive-graph-prime-period-separation-and-communication-cost.md"
     ],
-    "stage": "592两原件/不同数学fresh/root全闭并统一一次结算；source/metadata发布待执行。",
-    "next_action": "按allowlist提交592/原件/根/STATE/单cadence/看板/文献/settlementcheckpoint；正常main push独立核source/ref/tree，再三metadata child核actualHEAD。已匹配不重推；无已准数学/source后继。",
+    "stage": "592已root闭/统一一轮/20files sourcec575db9已正常push且独立3GET核，三metadata child待核actualHEAD。",
+    "next_action": "仅提交/push positive-graph-prime-periods回执＋STATE＋positive-graph-592-sync.json三文件；独立核actualHEAD/tree/parent=sourcec575db9且clean。已匹配即发布完成不重推不重计；无C056/source后继，下一预算须新actual input/test/net，不续graph/prime/return-rate/capacity参数。",
     "stop_rule": "一个完整数学迭代；强旧已蕴含则0，否则按实际证据结算一次。成功/失败均不续graph/prime/fee-rate/source预算，不冒完整Goal边界。"
   },
   "support_contracts": [],
@@ -119,12 +119,12 @@
     "basis": "当前root get_goal核同1793085111active；两当前原件15836/15038与不同mathfresh10211 terminal/root全文消费，592为实际研究结果。"
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-10-29-positive-graph-592-settlement.json",
+  "checkpoint": "goals/checkpoints/2026-10-29-positive-graph-592-sync.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
-    "commit": "00924c894ffe594f2941671e92cbfb7278bb6085",
-    "tree": "21e612b993716164447a5772c54048706bacad42",
-    "basis": "本轮独立3GET actualmain/commit/tree,parentd209228及本地clean核；前metadata条件已过，不重推。"
+    "commit": "c575db9b1b476fd1fd71927f7c540bc048d4637f",
+    "tree": "ca5f867d33db3d5c6030d429d426f9496d392357",
+    "basis": "C055/592 source正常push terminal0，独立GitHub3GET ref/commit/tree/parent匹配；metadata child实际HEAD另核，不递归回执自身SHA。"
   },
   "completion_audit": {
     "goal": "goals/GOAL.20261027.md",
@@ -134,9 +134,9 @@
     "final_execution_gate": "not-eligible",
     "basis": "592正周期图局部通信边界已闭，actual long/diffuse fullsigned逃逸存活，PSD/独立primitive/core未付；未覆盖原Goal完整方法类，open/noteligible，whole4/5UPPER保持。"
   },
-  "process_inventory_observed_on": "C055两当前作者及不同mathfresh全部terminal/root全读，无研究/web/numeric后台；root一次结算后发布。",
+  "process_inventory_observed_on": "两原件/不同mathfresh均terminal/root全读；sourcepush terminal0/独立3GET通过，无研究后台；root当前三metadata发布。",
   "publication_approval_gate": {
-    "status": "c055-592-root-settled-source-pending",
+    "status": "c055-592-source-verified-metadata-conditional",
     "destination": "https://github.com/lixiang90/RH-Weil",
     "visibility": "public",
     "branch": "main",
@@ -146,9 +146,9 @@
       "reply": "每轮把进度同步到github；把文献保存在文献库中，用研究看板来记录各个路线的状况",
       "scope": "本项目研究/Goal/STATE/看板/文献元数据/审查与同步回执；论文再分发许可不明则全文仅本地。"
     },
-    "current_scope": "C055/592已审原件/fresh/根/单cadence/STATE/看板/文献scope/checkpoints；前00924c8已核不重推，无新第三方全文。",
-    "published_source_commit": "d209228f3804b986982715ab3cbd9fdfaf85cabc",
-    "verification": "reviews/2026-10-29/deninger-flow-source-gate/remote-sync-verification.json"
+    "current_scope": "592 source已核；当前只三metadata child正常发布并核actualHEAD，条件成立不重推，无第三方新全文。",
+    "published_source_commit": "c575db9b1b476fd1fd71927f7c540bc048d4637f",
+    "verification": "reviews/2026-10-29/positive-graph-prime-periods/remote-sync-verification.json"
   },
   "research_board": "RESEARCH_BRANCHES.md",
   "literature_index": "literature/README.md",
