@@ -1913,3 +1913,21 @@ AS rule3548/root7145、actualTV15246/target11659/topology11371和不同currentfr
 Positive Dprime收敛经fixed D_K UBP/调制平方/谱polynomialmoment/唯一Sprime延拓-vague按任意realX sequence核闭，不预假targettemp。Full qgprime>0迫fixedaway0正谱质量，589actual局部化给任意共同positive acweight的esssup_J w≥Cexp(c√X/logX)所有大X必要费；覆盖growingdegree/M/nonlocal/内部signed但最终同commonpositive density。Gaussian原sourceL2 norm付平方根费，无same-scaleupper/sharp/不可达，也不排更高gain/其它carrier/singular谱/source非线性。
 
 先扣更强exact ratio σ/rho输出可达；finiteGaussian只特殊有限Schwartz实现/TV，不提供classicpositive target。全链标准强旧0，不建C053/590或gain/target/degree/rank/source优化预算。真实key signed/corecross与primitive/principal/mixed/Xi、whole4/5UPPER未改，Goalactive/open/noteligible；cadence3/history53/latest589/formal17字节不动，不造formal18。下一只本次证据/看板/库/STATE两段发布及核actualHEAD，通过不重发；必要费用和未排escape不是后继授权。
+
+## D20261028AU — CCM cooling余核只准一次实际两源类型来源门
+
+前AT source cd6f4f6/metadata e32217c独立核实际HEAD后已完成发布，不复推。目录定位实际取固定0512138v2 PDF1–3，确认§4.2/4.3；408旧稿全文核已有23/24/26/29/32选择页，不能被早title-only覆盖。新增信息差只问actual cooling/cyclic coker是否给内部两源乘法/下降及physical源桥，而非重复topological completion或非零谱module。
+
+按root-source-gate.md只准PDF22–29 §4.2–4.3，止4.4；不续§6/§5 positivity/§7或查询链。先区分π algebra map、trace cyclic map、closed-image coker及external convolution module action；generic trace反例不能代actual image test。canonical ideal cone exact0与CCM coker无已付比较，不免费互搬。若仅谱/模/RH等价接口，准确来源0止，无新math/合同/后继。405全关系、537非根、原du/Dlog及全Γpp双pole/coverage费用仍须实际付。
+
+本门有固定primary与可改选择test，优于延续已停Gaussian/degree/rank优化或抽象载体换名；成功只可能准另一个明确proof门，非自动新输入。当前Goalactive/open/noteligible，核心及whole4/5UPPER未改；cadence3/history53/latest589/formal17字节保持，不造formal18。详见reviews/2026-10-28/endomotive-cooling-admission/root-source-gate.md。
+
+## D20261028AV — Cooling多输入是cyclic像关系，未形成商上mixed输入，单来源门0止
+
+AU实际固定v2 PDF22–29及30-before4.4经oldscope10046/source13735/currentfresh10298/root收据闭合。π为上游algebra map，Prop4.7真实Tr(T0…Tn)多输入不能漏；只有chain在受限δ合法domain才作D的image关系。Def4.13是Λ-coker：q=[δx]=0只止source-through-image，非D=0/全部physical类或HC零。ExternalHol作用/continuousdual/character不代internalmixed；未给imageideal/两槽closure下降定理，也没有实际反证所有下降。
+
+4.26 generalBC tail proof延后未读，Prop4.12按assuming保前提；0下标5.1未读，不从compactstrip资格补全τ域。Remark4.14的generatedsubalgebra/twisted field保其不同target，非无条件Morita或产品修补。扣408/405/518–520/Meyer强旧；canonicalC*cone exact0和§6ordinarycycle冻结无实际map不互搬。原du/Dlog/fullΓpp双pole、nonzero primitive/principal/整截面/mixed/Xi及signedcorecross仍欠，whole4/5负惯性UPPER未改。
+
+Root firstcrop误露p30后半已单列/隔离，不消费4.4/HC0/Prop4.15；source/fresh仅正确prefix。实际git核另纠正两冻结稿原PDFignored错句：publication-readscope-correction.md1359b已在根收据显式取代，原PDF本轮前tracked且无diff，新缓存ignored，不增第三方全文/不删既有文件或改历史。Manifest130更新同CCM条目准确范围，不能报字节不变。
+
+本门来源/强旧角色0止，无C053/590、新math/formal18或后继source/Test预算，cadence3/history53/latest589/formal17原字节保持，Goal同1793085111active/open/noteligible。Source拟relation×targetprobe只提议未执行，不续5.1/4.26后置proof/4.4/§5/§7/未知paper。不同实际q/B或独立signed净量须有可改选择的原费/非零/下降test再准；未排higher/derived/有费逃逸本身非input。当前唯一下一为本次证据/板/库/STATE两段授权发布及独立核actualHEAD，匹配后不重发。

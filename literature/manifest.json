@@ -1890,7 +1890,7 @@
       "sha256": "68f9c8eaa5e9b46790e5adad0e8cd910da43566e7bc339ea5ecc81ab1f3fe601",
       "pages": 58,
       "retrieved_at_utc": "2026-09-20T13:03:13.087512+00:00",
-      "read_scope": "PDF1标题／作者／版本视觉核对；全文未核读。实际原件58页，arXiv comments写52页。 408: Hilbert read fixed v2 PDF8-9,23-24,26,29,32; topological tensor products and continuous multilinear forms specified, not a particular Banach completion. 2026-10-27: section6.1-6.3 PDF44-47 top diagram visually checked; actual source0 restrictions and finite P1 corrections in section6_review_20261027. Section7/references not consumed.",
+      "read_scope": "PDF1标题／作者／版本视觉核对；全文未核读。实际原件58页，arXiv comments写52页。 408: Hilbert read fixed v2 PDF8-9,23-24,26,29,32; topological tensor products and continuous multilinear forms specified, not a particular Banach completion. 2026-10-27: section6.1-6.3 PDF44-47 top diagram visually checked; actual source0 restrictions and finite P1 corrections in section6_review_20261027. Section7/references not consumed. 2026-10-28: actual cooling/distillation type audit PDF22-29 and PDF30 before4.4 (Def4.13/Remark4.14), overlapping earlier408 pages expressly retained; exact accidental visual exposure and unconsumed dependencies in cooling_review_20261028. Not whole-paper certification.",
       "status": "上游原件归档，首页及元数据已核验；未认证全文证明。",
       "pdf_parse_status": "PDF opens, title page checked; 58 actual pages.",
       "review_408": "../reviews/2026-09-20/f1-orbit-completion-source-review.md",
@@ -1900,6 +1900,14 @@
         "result": "Source-only stop; raw pull-push identity and unmodified ordinary-cycle6.11 not consumed. Standard P1 tests; correct limited kernel/GRR repair retained. No physical primitive or arithmetic positivity input.",
         "record": "supplements/2026-10-27-ccm-section6-source-scope.md",
         "root_review": "../goals/reviews/2026-10-27-ccm-geometric-correspondence-source-gate.md"
+      },
+      "cooling_review_20261028": {
+        "scope": "Root TOC/intro PDF1-3; primary+visual22-29 and30 before4.4. Initial crop accidentally exposed full30; extra4.4/Prop4.15 quarantined, no consumption/expansion. Current source/fresh prefix only.",
+        "located": "Eqs4.8-4.32, Props4.4/4.7/4.12, Def4.13; algebra pi vs multiinput partial-trace cyclic delta and Lambda-coker. Hol multiplier action external; no internal-product descent supplied in scope.",
+        "unpaid": "4.26 proof afterLemma4.17 and5.1 subscript0 not read; no actualimageideal failure/theorem, nonzero physical primitive, originaldu norm transport or independent mixed positivity.",
+        "record": "supplements/2026-10-28-ccm-cooling-source-scope.md",
+        "root_scope": "../reviews/2026-10-28/endomotive-cooling-admission/root-consumption-scope.json",
+        "publication_scope": "Existing original PDF already git-tracked before this turn, unchanged; this turn adds no thirdparty fulltext/pages, only project notes/metadata. New extraction/images ignored under literature/local; root publication-readscope-correction.md corrects frozen draft local-only claim."
       }
     },
     {

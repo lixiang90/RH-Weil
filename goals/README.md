@@ -1,5 +1,7 @@
 # 长期研究恢复入口
 
+2026-10-28，[CCM cooling单章类型门](reviews/2026-10-28-ccm-cooling-cyclic-source-gate-stop.md)已oldscope/source/不同currentfresh及root来源0闭合：π为algebra map，partial trace确有多输入cyclic公式，D为Λ-coker；合法源若仅经δ像再入商则类为0，非D=0。本范围未给内部产品下降/非零physical primitive，4.26后置proof及5.1域未核；不搬canonical cone exact0/§6冻结。既有PDF已tracked本轮不增改，新缓存ignored，130条库更新准确scope。核心与whole4/5UPPER未改，cadence3/history53/latest589/formal17保持，Goalactive；本门止/无后继预算。
+
 2026-10-28，[Gaussian运输/必要gain旧消费](reviews/2026-10-28-gaussian-pulse-universality-and-local-gain-old-scope.md)已三稿/currentfresh/root0闭：同actualrho finiteGaussian字典可TV运输chosen正谱并过g/gprime，但fixed有限mass有全X primeatom缺陷；full有限谱逼近mass须→∞。Positive Dprime→谱vague桥已付，任意同rho共同正density滤波full逼近必须在一个fixed away0 band有w≥Cexp(c√X/logX)增益，原source multipliernorm有平方根费。Exactσ/rho更强旧可达性先扣；无upper/sharp/不可达，保质量/指数gain成长及其它carrier。核心与whole4/5UPPER未改，cadence3/history53/latest589/formal17不动，Goalactive。
 
 2026-10-28，[正polyfilter旧边界](reviews/2026-10-28-positive-polynomial-filter-old-boundary.md)已两稿/currentfresh/root0闭：每first-fixed degree上界、任意移动coeff的非负w_X校准同g后，ν_X→Cδ0/physical Cdu于strong S′；gprime完整缺陷趋q1>0。587actualGram系数费＋589更强uniform设施直接后果，含d0拓扑恢复；full D′逼近若成立degree必须趋∞，非仅unbounded，无率/未排growth。原域/非偶2pi/Γpp双pole保持，不建C053/590；cadence3/history53/latest589/formal17字节不动，核心与whole4/5UPPER未改，Goalactive。
