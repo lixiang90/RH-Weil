@@ -1,0 +1,43 @@
+{
+  "schema": "rh-weil-remote-sync-verification-v1",
+  "date": "2026-10-29",
+  "repository": "https://github.com/lixiang90/RH-Weil",
+  "branch": "main",
+  "visibility": "public",
+  "status": "source-verified-metadata-child-conditional",
+  "source_commit": "615e91f59ae90cf940d5060b0406d45d7569c2f7",
+  "source_tree": "242f15cdfbd31a0ff268e90d7095f63a03efcaaf",
+  "source_parent": "2b352cb116caca0b47c5d6331b96ce61a6fdf2f7",
+  "source_scope": "16 allowlisted files: canonical arithmetic Koszul actualmodel/domain/source test, stronger-old positive-spectrum closure, different limited PASS, root standardold0 stop, board/library scope/control/checkpoints. Zero mathematics; cadence2/history56/latest592/formal18 unchanged; noC056/593.",
+  "source_push": {
+    "terminal_exit_code": 0,
+    "proxy": "http://127.0.0.1:10808 (command scoped, user authorized)"
+  },
+  "independent_verification": {
+    "method": "Connected GitHub GET ref/gitcommit/gittree independent of git push",
+    "observed_at_utc": "2026-10-28T21:19:43.022Z",
+    "urls": [
+      "https://api.github.com/repos/lixiang90/RH-Weil/git/ref/heads/main",
+      "https://api.github.com/repos/lixiang90/RH-Weil/git/commits/615e91f59ae90cf940d5060b0406d45d7569c2f7",
+      "https://api.github.com/repos/lixiang90/RH-Weil/git/trees/242f15cdfbd31a0ff268e90d7095f63a03efcaaf"
+    ],
+    "ref_matches": true,
+    "commit_tree_parent_match": true,
+    "tree_object_matches": true
+  },
+  "root_scope": "reviews/2026-10-29/arithmetic-koszul-admission/root-consumption-scope.json",
+  "source_checkpoint": "goals/checkpoints/2026-10-29-arithmetic-koszul-old-stop.json",
+  "metadata_child": {
+    "files": [
+      "reviews/2026-10-29/arithmetic-koszul-admission/remote-sync-verification.json",
+      "goals/STATE.json",
+      "goals/checkpoints/2026-10-29-arithmetic-koszul-sync.json"
+    ],
+    "required_parent": "615e91f59ae90cf940d5060b0406d45d7569c2f7",
+    "completion_condition": "Normal child push terminal0, independent GET actual main/commit/tree match local HEAD/tree and parent source, clean worktree. If true publication complete without recursive receipt own-SHA rewrite or repeated push."
+  },
+  "mathematical_scope": "Canonical Hilbert Koszul/rhat(L) source is legitimate but fullsource result is standard exactresolution+oldpositive spectrum bridge+537. FiniteF retains coprimeF states; fixed-source filtered operatornorm is not arbitrarytraceweight control. Fullpointwise positive source limit only meanrank1, not completeWeil. Differentclock/nonstationaryGram/changedcompletion/Green and secondarysource models unexcluded.",
+  "source_and_privacy": "No new external primary/query/PDF/download/numerics; manifest131 unchanged. No third-party fulltext, caches, images or credentials staged.",
+  "runtime_goal": "Same active1793085111/open/noteligible, actualbottleneck andwhole4/5 negativeinertiaUPPER unchanged.",
+  "next_action": "Publish exactly3 metadata files and verify actual child condition. Once passed do not republish or count as math. No admitted successor; no F/prime/weight/metric/clock/nextcomplex/source queue."
+}

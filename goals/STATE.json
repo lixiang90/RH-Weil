@@ -43,8 +43,8 @@
     "settled_iterations": [
       "notes/592-positive-graph-prime-period-separation-and-communication-cost.md"
     ],
-    "stage": "Koszul两原稿11229/11962及不同限定fresh10194 PASS均terminal/root全文消费；standardold0止，无C056/593/计轮，当前源范围发布待执行。",
-    "next_action": "按allowlist提交本次Koszul old0原件/根范围/看板/文献/STATE/oldstop checkpoint，正常main push并独立3GET；再回执+STATE+新synccheckpoint三metadata child核actualHEAD。前2b352cb已核不重推；无后继数学/source预算。",
+    "stage": "Koszul old0根已消费/source615e91f正常push且独立3GET核，三metadata child待核actualHEAD；cadence2/history56/latest592不动，无C056/593。",
+    "next_action": "仅提交/push arithmetic-koszul-admission回执＋STATE＋arithmetic-koszul-sync.json三文件；独立核actualHEAD/tree/parent=source615e91f且clean。匹配即发布完成不重推不重计；无后继数学/source预算，不续本recipe参数/新复形。",
     "stop_rule": "一个完整数学迭代；强旧已蕴含则0，否则按实际证据结算一次。成功/失败均不续graph/prime/fee-rate/source预算，不冒完整Goal边界。"
   },
   "support_contracts": [],
@@ -124,12 +124,12 @@
     "basis": "当前root再次get_goal核同1793085111active；本轮实物/两终稿/不同限定fresh10194均实际执行并消费，标准old0非新Goal或数学轮。"
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-10-29-arithmetic-koszul-old-stop.json",
+  "checkpoint": "goals/checkpoints/2026-10-29-arithmetic-koszul-sync.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
-    "commit": "2b352cb116caca0b47c5d6331b96ce61a6fdf2f7",
-    "tree": "17579fa18f16e235ee396a093c879ad0ef10374e",
-    "basis": "本轮独立3GET actualmain/commit/tree、parentc575db9及本地clean核，前metadata条件已过，不重推。"
+    "commit": "615e91f59ae90cf940d5060b0406d45d7569c2f7",
+    "tree": "242f15cdfbd31a0ff268e90d7095f63a03efcaaf",
+    "basis": "Koszul standardold0 source正常push terminal0，独立GitHub3GET ref/commit/tree/parent匹配；metadata child实际HEAD另核，不递归回执自身SHA。"
   },
   "completion_audit": {
     "goal": "goals/GOAL.20261027.md",
@@ -139,9 +139,9 @@
     "final_execution_gate": "not-eligible",
     "basis": "592正周期图局部通信边界已闭，actual long/diffuse fullsigned逃逸存活，PSD/独立primitive/core未付；未覆盖原Goal完整方法类，open/noteligible，whole4/5UPPER保持。"
   },
-  "process_inventory_observed_on": "本次两当前作者与不同限定fresh全terminal/root全文核，helper仅辅助；无研究/web/numeric后台，root当前old0发布。",
+  "process_inventory_observed_on": "两原稿/不同限定fresh均terminal/root全读，sourcepush terminal0/独立3GET通过，无研究后台；root当前三metadata发布。",
   "publication_approval_gate": {
-    "status": "koszul-oldzero-root-consumed-source-pending",
+    "status": "koszul-oldzero-source-verified-metadata-conditional",
     "destination": "https://github.com/lixiang90/RH-Weil",
     "visibility": "public",
     "branch": "main",
@@ -151,9 +151,9 @@
       "reply": "每轮把进度同步到github；把文献保存在文献库中，用研究看板来记录各个路线的状况",
       "scope": "本项目研究/Goal/STATE/看板/文献元数据/审查与同步回执；论文再分发许可不明则全文仅本地。"
     },
-    "current_scope": "Koszul standardold0原件/准确domain/看板/文献scope/STATE/checkpoints；前2b352cb实际HEAD已核不重推，无新第三方全文。",
-    "published_source_commit": "c575db9b1b476fd1fd71927f7c540bc048d4637f",
-    "verification": "reviews/2026-10-29/positive-graph-prime-periods/remote-sync-verification.json"
+    "current_scope": "Koszul standardold0 source已核；当前三metadata child正常发布核actualHEAD，条件成立不重推，无新数学或第三方全文。",
+    "published_source_commit": "615e91f59ae90cf940d5060b0406d45d7569c2f7",
+    "verification": "reviews/2026-10-29/arithmetic-koszul-admission/remote-sync-verification.json"
   },
   "research_board": "RESEARCH_BRANCHES.md",
   "literature_index": "literature/README.md",
