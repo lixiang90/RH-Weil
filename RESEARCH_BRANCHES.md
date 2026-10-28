@@ -1,5 +1,7 @@
 # 研究分支看板
 
+2026-10-28，[精确Γ signed替换一次定位](goals/reviews/2026-10-28-signed-replacement-primary-locator-stop.md)已固定3query/16聚合visible、唯一Watkinsv0.5原页及两咨询/fresh/root来源0止。Ma恰旧561且违反unitgap；旧正连续乘积反测只付同Γ/doublepole，非原经典simple双pole。原页第一桥按位置宽读冻结，不泛判加强版/整页；HTML125665b/d12ce1df仅ignoredlocal实存，库有版本/范围。无C050/587/math，cadence0/历史50/latest586/formal17保持，core/whole4/5UPPER未改。下一只明示simplepole/±A/strip衰减的旧覆盖比较，尚未执行，不续query/章/paper；Goalactive。
+
 2026-10-28，[Euler修改强旧准入](goals/reviews/2026-10-28-euler-modification-old-consequence-gate.md)已两独立咨询/当前fresh/root限定核闭：Möbius双源精确旧重编码；有限rational(s)及任意正Euler增量按405＋测度唯一性/Landau旧链0止，primitive全repeats子类仅entire已排。两类不能合并一般正Π，signed删减/重排/joint仍欠。无新C050/587或math，cadence0/历史50/latest586/formal17原字节保持；whole4/5UPPER与核心瓶颈未改。唯一下一为一次固定三query精确Γ的signed替换原命题locator，尚未执行，没合格locator即止；Goalactive。
 
 2026-10-27，按用户明确要求继续研究并启动 [Goal G20261027](goals/GOAL.20261027.md)。新运行 Goal 继承 G20261014 的长期目标、0c4f 冻结基线及截至582的已付成果；旧结果作为输入，不重新计作本Goal的新增结果。运行 Goal 已实测 active；启动首门 A20261027 已实际执行 Borcherds §13 来源准入，最终消费阶段、唯一当前动作和 pending 只读 [STATE](goals/STATE.json)。本看板不另设计轮器，也不把局部合同完成视为长期Goal完成。
@@ -12,6 +14,7 @@
 
 | 路线 | 当前地位 | 可消费输入 | 仍欠的核心箭头 | 准入／停止标准 |
 |---|---|---|---|---|
+| 精确Γ signed替换primary定位 | 固定三query/一原页来源0止，预算耗尽 | Watkinsv0.5实际HTML、Ma同旧561/gap与Gaussian强旧、doublepole连续反测 | 无actualsigned负部生成或完整mixed；完整simplepole/留数/增长桥未消费 | 不续spacing/coset/boundederror/章/query；下一仅明示±A和strip界的旧覆盖比较，不把分类当Weil正性 |
 | 精确经典Γ下的Euler修改 | 强旧应用0止finiteF/monotone增量；非一般类失败 | 405实ξ>0、加权测度唯一性、正Borel边界；任意正Δ及primitive全repeats精确范围 | 一般正Π的signed删减/重排、actual经典mixed/完整signed仍未付 | 不续finiteF量化或正增量设施；下一只固定三query一次实际locator，无合格即止，不泛排joint/relative/Dprime |
 | Suzuki Θω/causal Hankel → canonical系统 | 1204v2§2来源0止；非方法全类失败 | 原PDF/乘法域及固定安全ω cited系统；边界与因果原条件、det级数 | 小ω因果/inner/非退化、a∞端点及完整physical双源运输没有新独立输入 | 不先续HS/临界紧致性/后章proof/另paper；真实新算术估计或完整signed输入才准，正Dprime不逐层强加Pan |
 | Tate E₂单Mellin源 → Cartier／Poincaré型两源族 | 已形成并强旧前置0止fixed source | 原du/强域、actualPan非零半周期、属一RR及onlypoint kernel责任 | 真principal下降／全源mixed及完整Γpp双pole身份未给；family line非高度 | 不换evaluation/period/添Green或RR续预算；不泛排extra raw frames、非局部/relative/正Dprime；先给实际同源identity或signed净量 |

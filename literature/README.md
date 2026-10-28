@@ -1,5 +1,7 @@
 # RH-Weil 文献索引
 
+2026-10-28，[精确Γ signed替换一次定位](../goals/reviews/2026-10-28-signed-replacement-primary-locator-stop.md)实际执行3query一批，仅保存Watkins v0.5研究原页HTML（125665bytes/rawSHAd12ce1df…），全文仅ignoredlocal，manifest新增第130项。[实际版本/阅读范围](supplements/2026-10-28-signed-replacement-source-scope.md)限定metadata/§3.4，未追引用/后章。Ma及Gaussian为旧561；doublepole宽读与经典simplepole背景分开，来源0止。下一simplepole旧覆盖比较未执行，无新外部论文proof审计或数学轮。
+
 2026-10-28，[Euler修改准入](../goals/reviews/2026-10-28-euler-modification-old-consequence-gate.md)只复用项目405/561/261/283/063及强旧原件，无新外部PDF、网页、下载或数值，不增manifest条目。[实际来源消费范围](supplements/2026-10-28-euler-modification-source-scope.md)区分root直接读、独立咨询及未重审的外部proof；正Borel版与primitive全repeats责任已核。旧工具应用0，非经典新正性；下一三query尚未执行，不把待定位文献登记成已获取。
 
 2026-10-28，新增 **Suzuki-1204.1827v2 — A canonical system of differential equations arising from the Riemann zeta-function**，Masatoshi Suzuki，[固定来源](https://arxiv.org/abs/1204.1827v2)。原PDF28页/432186bytes/rawSHA2c4cf2aa…已本地保存，仅元数据和[实际阅读范围](supplements/2026-10-28-hankel-section2-source-scope.md)公开；PDF/页图在ignored local库。Root与fresh实际核PDF6–9/14，主要§2及必要定义，不重审整篇proof。因果/边界、ω分层、a∞和det定义精确归位，来源0止，无新数学input；不把HTML/印页日期差异当新作者版本。

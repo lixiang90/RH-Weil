@@ -2906,6 +2906,25 @@
       "proof_status": "Noindependentcritical/fullWeil input admitted; fresh/root review recorded separately.",
       "scope_record": "supplements/2026-10-28-hankel-section2-source-scope.md",
       "read_record": "reviews/2026-10-28/hankel-source-admission/source-read-record.json"
+    },
+    {
+      "id": "Watkins-prime-evolution-v05-2026-html",
+      "authors": "Matthew R. Watkins; page also credits Sol/ChatGPT and Claude Fable 5",
+      "title": "Prime evolution revisited: arithmetic equilibrium, Beurling flows and zeta thermodynamics",
+      "version": "page self-reported v0.5, August2026; rawHTML identity fixed by retrieval SHA",
+      "source_url": "https://empslocal.ex.ac.uk/people/staff/mrwatkin/isoc/evolutionnotes2026.htm",
+      "download_url": "https://empslocal.ex.ac.uk/people/staff/mrwatkin/isoc/evolutionnotes2026.htm",
+      "file": "local/2026-10-28/watkins-prime-evolution-v05.html",
+      "bytes": 125665,
+      "sha256": "d12ce1df08409809a44bd14275dfb46e09f7cd6ca2791fc00467762ac8d4d6a3",
+      "git_included": false,
+      "download_status": "actual-HTML-saved-local-only",
+      "category": "bounded-primary-locator-source0",
+      "recorded_at_utc": "2026-10-28T02:06:50.770575+00:00",
+      "read_scope": "Root web returned lines0-176/567; active audit local metadata and raw329-368 Section3.4(a) including staged chain/M_a, plus3.4(b) problem-status only. No reference clicks, external Hamburger/Lev-Olevskii originals, later chapters or Appendix read.",
+      "proof_status": "Working-programme locator, not independent signed input; exact Ma/Gaussian already561. Doublepole qualification is old continuous-domain countercheck, not classical minimal-background model.",
+      "scope_record": "supplements/2026-10-28-signed-replacement-source-scope.md",
+      "read_record": "reviews/2026-10-28/signed-replacement-source-location/source-read-record.json"
     }
   ],
   "supplement_provenance": [

@@ -1687,3 +1687,15 @@ formal17 cadence0/history50/latest586原字节保持；whole4/5UPPER、585/safeh
 实际瓶颈、whole4/5UPPER与长期完成门未改；cadence原LF ddb2aa4a96e6de050602302659b21e0debcd1bb0fbcd7e0719e416c52c81a111保持0/history50/latest586/formal17，不因新范围/稿/推送计轮。停止Möbius参数、finiteF量化和正增量设施。唯一下一为reviews/2026-10-28/monotone-euler-increment/next-signed-replacement-source-location.md中一次固定三query primary定位，尚未执行：仅一个明确实际formula/命题locator才冻一个章节，无合格即止、不加query/猜章/串paper。它可能引入未覆盖的signed替换实物，优于继续支付辅助刚性；若只换Γ、Γ0、旧gap分类或RH等价则不准。
 
 按原每轮公开main授权同步原件/根收据/STATE/库/看板/checkpoint，全文库本轮无新下载，源与metadata实际HEAD分别独立核验。Goal同实例active/open/noteligible，无hard human权限等待或完成请求。
+
+## D20261028W — 三query单页来源止，先恢复simplepole留数的旧覆盖
+
+同G20261027/1793085111/原0c4f。按V固定3query一批实际执行，16聚合visible，只打开/本地保存一个Watkins v0.5原HTML125665b/rawd12ce1df。页内版本/协作标签仅作自述，不作执行授权或证明背书。两独立consult/当前fresh/root限定PASS，原页仅metadata/3.4审，未读引用/后章，不因无locator宣称一般模型不存在。
+
+Ma与旧561例子逐项同规范，a!=1即min(a,1/a)<1正质量使unitgap失败，非新合法Beurling integer或signedΠ实物。旧561已经用正测度＋固定全Gaussian/Fourier＋unitgap恢复整数，毋需新增uniformdiscreteness/finitecoset乘法分类；Gaussian/Hermite段亦旧。
+
+第一FE→theta短句仅列pole位置0/1的宽读冻结：旧561 c3/16 Fc与ζ乘积保正连续primitive/repeats、原Γ/FE，却有double0/1 poles/log缺陷；xiFc非entire，minimal清极点需s²(s−1)²。反测不在原经典simple双pole或离散free-generator背景，不能冒称578完整背景countermodel。不泛判补齐simplepoles/留数/增长的加强桥或未读整页。识别ζ仍不提供独立乘法Weil正型。
+
+本来源/强旧0止，不准C050/587，无math计轮；cadence原ddb2aa...保持0/history50/latest586/formal17，核心/whole4/5UPPER未改。停止本query/原页/spacing/coset/boundederror/Hamburger后章，不串另一paper。唯一下一是reviews/2026-10-28/signed-replacement-source-location/next-simple-pole-old-classification-admission.md具体旧覆盖比较，尚未执行：正Π真实M、原simplepole±A与明示strip exp衰减，先付Mellin/residue/μ_A，再看561是否已校准A/分类。它可决定该增长域是否还有model-selection价值，先扣旧且不准新math；拟theta/A>0/A=1当前皆未消费，范围外/joint/Dprime保留。
+
+按每轮授权同步研究原件、根绑定/来源SHA/库/看板/STATE/checkpoint，HTML全文继续本地。源与metadata实际HEAD分别独立核，Goal同实例active/open/noteligible，不能以来源/纠错/推送完成长期门。

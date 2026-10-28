@@ -1,5 +1,7 @@
 # 长期研究恢复入口
 
+2026-10-28，[精确Γ signed替换一次定位](reviews/2026-10-28-signed-replacement-primary-locator-stop.md)已固定3query/16聚合visible、唯一Watkinsv0.5原页及两咨询/fresh/root来源0止。Ma恰旧561且违反unitgap；旧正连续乘积反测只付同Γ/doublepole，非原经典simple双pole。原页第一桥按位置宽读冻结，不泛判加强版/整页；HTML125665b/d12ce1df仅ignoredlocal实存，库有版本/范围。无C050/587/math，cadence0/历史50/latest586/formal17保持，core/whole4/5UPPER未改。下一只明示simplepole/±A/strip衰减的旧覆盖比较，尚未执行，不续query/章/paper；Goalactive。
+
 2026-10-28，[Euler修改强旧准入](reviews/2026-10-28-euler-modification-old-consequence-gate.md)已两独立咨询/当前fresh/root限定核闭：Möbius双源精确旧重编码；有限rational(s)及任意正Euler增量按405＋测度唯一性/Landau旧链0止，primitive全repeats子类仅entire已排。两类不能合并一般正Π，signed删减/重排/joint仍欠。无新C050/587或math，cadence0/历史50/latest586/formal17原字节保持；whole4/5UPPER与核心瓶颈未改。唯一下一为一次固定三query精确Γ的signed替换原命题locator，尚未执行，没合格locator即止；Goalactive。
 
 2026-10-28，[Suzuki1204v2原核单章首门](reviews/2026-10-28-hankel-section2-source-gate.md)已两preprimary咨询/原PDF五页核读/fresh/root限定来源0止。乘法dx与log外因子、causal核/边界inner前件、ω>1显式系统及a∞open、经典Fredholm级数定义已定位；非新critical/完整Weil输入，不扩小ω/HS/紧致性或后章。PDF432186b/2c4cf2aa仅存ignoredlocal，日期观察分开。cadence0/历史50/latest586/formal17不动；核心门与whole4/5UPPER未改。当前无继任formula/proof/章节，下一仍须实际两源identity或独立signed净量及input/test/net；Goalactive。
