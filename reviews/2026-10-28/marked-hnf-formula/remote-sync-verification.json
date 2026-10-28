@@ -1,0 +1,26 @@
+{
+  "schema": "rh-weil-remote-source-verification-v1",
+  "client_date": "2026-10-28",
+  "verified_at_utc": "2026-10-28T03:58:54.186508+00:00",
+  "status": "source-published-independently-verified",
+  "repository": "https://github.com/lixiang90/RH-Weil",
+  "branch": "main",
+  "source_commit": "181ceb5b08baae69052e1405088983d8d49b231f",
+  "source_tree": "03690bf50142b4bc3d3427a926baa2835132d12f",
+  "source_parent": "053a8e7e1a91a1e57831c88f44a9d392afd00b48",
+  "remote_checks": {
+    "method": "Independent connectedGitHub GET mainref/gitcommit/gittree",
+    "main_ref_sha": "181ceb5b08baae69052e1405088983d8d49b231f",
+    "commit_sha": "181ceb5b08baae69052e1405088983d8d49b231f",
+    "commit_tree_sha": "03690bf50142b4bc3d3427a926baa2835132d12f",
+    "tree_sha": "03690bf50142b4bc3d3427a926baa2835132d12f",
+    "all_matched": true
+  },
+  "scope": "17explicit sourcefiles: frozenactualHNF formula, preparedgate andconcreteold/fresh/root, 16premisebindings, separate actualnextadmission consult, oneunexecutedindependentmixedformation gate, summary/STATE/decisions/entrypoints/board/libraryreadscope/sourcecheckpoint. No newexternalfulltext/mathcontract/C050/587/cadencechange.",
+  "root_scope": "reviews/2026-10-28/marked-hnf-formula/root-consumption-scope.json",
+  "actual_consequence": "SamefixedCc sourcepair givesALLB mixederror>=13/64; standardGaussian+paid421 atomicgate0, onlythisheatprobabilityrule stopped, noallHNF/theta/positiveDprime no-go. Actualkeybottleneck/whole4/5UPPER unchanged.",
+  "cadence": "LF ddb2aa4a96e6de050602302659b21e0debcd1bb0fbcd7e0719e416c52c81a111 unchanged0/history50/latest586/formal17; noformal18/reset.",
+  "next": "next-independent-mixed-input-formation.md: oneactualrelative/higher mixedsource/identity OR accurateunformed; notexecuted/noselectednewJ/formula/proof/sourcebudget. Analyticconsult foundnoqualifiednewcomparison/unusedchapter; no stoppedparameter orpaperqueue.",
+  "goal_gate": "Same runtime1793085111 active/open/noteligible; noRHproof/keynewindependentinput/coremethodboundary.",
+  "metadata_child_policy": "Thisreceiptbinds verifiedsourceonly. Exactlyreceipt, STATE andnew synccheckpoint formmetadatachild; actualchildHEAD/tree independentlycheckafterpush separately, no recursive ownSHA."
+}

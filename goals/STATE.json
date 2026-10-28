@@ -47,8 +47,8 @@
     "settled_iterations": [
       "notes/586-theta-ground-state-spectrum-and-full-gamma-heat-defect.md"
     ],
-    "stage": "当前HNF形成/实际old审/fresh/root限定0已结算，C049保持耗尽；待本轮正常main发布与独立SHA核。",
-    "next_action": "先完成marked-hnf-formula当前源与metadata同步核验；随后仅执行next-independent-mixed-input-formation.md一次actual实式形成或准确未形成，当前无新J/公式/proof/来源队列。",
+    "stage": "HNF实际形成/old/fresh/root标准旧0已结算且source181ceb5已独立核远端；当前metadata子提交单独推送核实际HEAD，不递归填本身SHA。",
+    "next_action": "当前metadata子提交同步核验后，只执行marked-hnf-formula/next-independent-mixed-input-formation.md一次actual实式形成或准确未形成；当前无新J/公式/proof/来源队列。",
     "stop_rule": "不恢复C049或本HNF参数；无actual input/test/net不准C050/587。新mixed形成无式/只旧/unknowncompletion即止，不先付carrier/metric或续旧query/章节；exact/cofinal按实式。"
   },
   "support_contracts": [],
@@ -113,12 +113,12 @@
     "basis": "get_goal同1793085111 active；本轮实际唯一形成和固定源自筛已执行，后继mixed尚未执行。"
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-10-28-marked-hnf-heat-rule-source.json",
+  "checkpoint": "goals/checkpoints/2026-10-28-marked-hnf-heat-rule-sync.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
-    "commit": "e95461bafbc589ea3da1ba71d699afb62ae30a67",
-    "tree": "9165e752fb3fb64b228ee857442bfae01b1c82ab",
-    "basis": "Independent GET ref/commit/tree matched SOURCE; reviews/2026-10-28/post-classification-investment/remote-sync-verification.json; metadata actualHEAD checked separately, no recursive ownSHA."
+    "commit": "181ceb5b08baae69052e1405088983d8d49b231f",
+    "tree": "03690bf50142b4bc3d3427a926baa2835132d12f",
+    "basis": "Independent GET ref/commit/tree matchedSOURCE; marked-hnf-formula/remote-sync-verification.json. MetadataactualHEAD checkedseparately, no recursiveownSHA."
   },
   "completion_audit": {
     "goal": "goals/GOAL.20261027.md",
@@ -130,7 +130,7 @@
   },
   "process_inventory_observed_on": "实际形成/具体old审/当前fresh/不同task后继咨询均终态，原件已root读；没有web/数值/proof/来源后台或排队task。下一mixed形成未启动。",
   "publication_approval_gate": {
-    "status": "root-settled-awaiting-source-and-metadata-publication",
+    "status": "source-published-independently-verified-metadata-recorded",
     "destination": "https://github.com/lixiang90/RH-Weil",
     "visibility": "public",
     "branch": "main",
@@ -141,8 +141,8 @@
       "scope": "本项目研究/Goal/STATE/看板/文献元数据/审查与同步回执；论文再分发许可不明则全文仅本地。"
     },
     "current_scope": "本轮HNF实际式/强旧准备与具体审核/fresh/root/后继资格及未执行next、summary/STATE/看板/库/根绑定/checkpoint；无新全文/math/C050/587或cadence变动。",
-    "published_source_commit": "e95461bafbc589ea3da1ba71d699afb62ae30a67",
-    "verification": "reviews/2026-10-28/post-classification-investment/remote-sync-verification.json"
+    "published_source_commit": "181ceb5b08baae69052e1405088983d8d49b231f",
+    "verification": "reviews/2026-10-28/marked-hnf-formula/remote-sync-verification.json"
   },
   "research_board": "RESEARCH_BRANCHES.md",
   "literature_index": "literature/README.md",
