@@ -1,0 +1,36 @@
+{
+  "schema": "rh-weil-remote-source-verification-v1",
+  "client_date": "2026-10-29",
+  "repository": "https://github.com/lixiang90/RH-Weil",
+  "branch": "main",
+  "source_commit": "254eb1dbabb5dc2a51a8e01ddb93cd6ebb48a58f",
+  "source_tree": "4b2da0c2adeb23e51c1d7a4c789ae577a621a17f",
+  "source_parent": "70790f3bbb4d59da1f7def03b78ac33cb0a915e2",
+  "source_push": {
+    "command": "normal main fast-forward using command-scoped 10808 proxy",
+    "terminal_exit_code": 0
+  },
+  "independent_github_gets": {
+    "urls": [
+      "https://api.github.com/repos/lixiang90/RH-Weil/git/ref/heads/main",
+      "https://api.github.com/repos/lixiang90/RH-Weil/git/commits/254eb1dbabb5dc2a51a8e01ddb93cd6ebb48a58f",
+      "https://api.github.com/repos/lixiang90/RH-Weil/git/trees/4b2da0c2adeb23e51c1d7a4c789ae577a621a17f"
+    ],
+    "observed_at_utc": "2026-10-28T16:41:40.328Z",
+    "checks": [
+      "ref",
+      "git commit/tree/parent",
+      "git tree"
+    ],
+    "all_match": true
+  },
+  "scope": "17 research/board/library/state/checkpoint files; fixed-kernel old0 and limited091 correction. No new foreign fulltext, no math/cadence increment.",
+  "metadata_child": {
+    "allowed_paths": [
+      "reviews/2026-10-29/fractional-part-old-comparison/remote-sync-verification.json",
+      "goals/STATE.json",
+      "goals/checkpoints/2026-10-29-fractional-part-old0-sieve-correction-sync.json"
+    ],
+    "postcondition": "Normal child push then independent ref/gitcommit/tree validation of actual child HEAD/tree/parent. Receipt binds published source only; child SHA not recursively stored here."
+  }
+}

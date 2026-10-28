@@ -43,8 +43,8 @@
     "settled_iterations": [
       "notes/590-inverse-euler-filter-growing-moment-and-normalized-spectral-escape.md"
     ],
-    "stage": "C053耗尽；当前固定h/B两支持/fresh8208/root旧0及091有限筛纠错已消费，SL/SP整链仍冻；待本次授权发布。",
-    "next_action": "只本次证据/看板/文献/STATE/sourcecheckpoint正常main发布并独立3GET；再receipt+STATE+新synccheckpoint child及actualHEAD核。匹配不重推，无新math/source后继。",
+    "stage": "固定h/B旧0/091κ纠错source254eb1d已正常push并独立3GET核ref/commit/tree/parent；仅三文件metadata child待核实际HEAD；C053耗尽/cadence0。",
+    "next_action": "仅receipt+STATE+新synccheckpoint三文件child commit/push并独立3GET核actualHEAD/tree/parent；若匹配则本次发布完成、不重推。无math/source后继；须actual新input/不同已执行choicechangingtest重准。",
     "stop_rule": "一完整数学迭代；Riesz/bump/alln或growing-tail断点准确未证止，禁止参数/源/norm/来源救题；旧已蕴含则旧0。"
   },
   "support_contracts": [],
@@ -119,12 +119,12 @@
     "basis": "现场get_goal同实例active；本轮实际固定h/B去重已执行，非研究合同。"
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-10-29-fractional-part-old0-sieve-correction-root.json",
+  "checkpoint": "goals/checkpoints/2026-10-29-fractional-part-old0-sieve-correction-sync.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
-    "commit": "2aaebb5cf4aadba923fe569cb612d44f774007d1",
-    "tree": "bdaab3b780c0a51a858fd4b7a95af2b9cbcaed48",
-    "basis": "590/formal18 source36files proxy push terminalexit0＋independent3GET ref/commit/tree matched; macro-cycle-18/remote-sync-verification.json。Metadata actualHEAD另核，不递归自身SHA。"
+    "commit": "254eb1dbabb5dc2a51a8e01ddb93cd6ebb48a58f",
+    "tree": "4b2da0c2adeb23e51c1d7a4c789ae577a621a17f",
+    "basis": "本次17files source正常push terminal0＋独立GitHub3GET ref/gitcommit/gittree匹配；当前remote-sync-verification.json。Metadata实际HEAD另核，不递归自身SHA。"
   },
   "completion_audit": {
     "goal": "goals/GOAL.20261027.md",
@@ -134,9 +134,9 @@
     "final_execution_gate": "not-eligible",
     "basis": "Formal18完成门保持；本次旧0/091局部纠错无独立关键输入/完整核心类边界，Goalopen/noteligible，whole与核心未变。"
   },
-  "process_inventory_observed_on": "两作者及不同fresh本次均terminal/root全文消费，无后台web/git/numeric；只待授权源/metadata两段发布。",
+  "process_inventory_observed_on": "两作者/不同fresh本次全部terminal/root消费；source254eb1d push terminal0/独立3GET已核，无后台session。只待三文件metadata child/actualHEAD核。",
   "publication_approval_gate": {
-    "status": "fractional-part-old0-sieve-correction-ready-source",
+    "status": "fractional-part-old0-sieve-source-verified-metadata-finalization",
     "destination": "https://github.com/lixiang90/RH-Weil",
     "visibility": "public",
     "branch": "main",
@@ -146,9 +146,9 @@
       "reply": "每轮把进度同步到github；把文献保存在文献库中，用研究看板来记录各个路线的状况",
       "scope": "本项目研究/Goal/STATE/看板/文献元数据/审查与同步回执；论文再分发许可不明则全文仅本地。"
     },
-    "current_scope": "本次固定核旧0/091纠错、原件/fresh/root/索引/STATE/检查点，不含新第三方全文。",
-    "published_source_commit": "2aaebb5cf4aadba923fe569cb612d44f774007d1",
-    "verification": "reviews/2026-10-28/macro-cycle-18/remote-sync-verification.json"
+    "current_scope": "本次source17files已核；仅receipt+STATE+新synccheckpoint三文件metadata child，原授权main正常push/独立核actualHEAD。",
+    "published_source_commit": "254eb1dbabb5dc2a51a8e01ddb93cd6ebb48a58f",
+    "verification": "reviews/2026-10-29/fractional-part-old-comparison/remote-sync-verification.json"
   },
   "research_board": "RESEARCH_BRANCHES.md",
   "literature_index": "literature/README.md",
