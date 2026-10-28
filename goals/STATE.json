@@ -43,8 +43,8 @@
     "settled_iterations": [
       "notes/589-sonin-zero-mean-upper-and-scalar-rank-one-limit.md"
     ],
-    "stage": "Polyfilter两终稿/当前fresh8877/root旧0已实际消费：strongSprime/Cdu及degree必须→∞，无新math合同，source发布待执行。",
-    "next_action": "核根收据/冻结版本/Goal-cadence-manifest不变与新sourcecheckpoint，发布本次旧边界并3GET；再仅receipt+STATE+新synccheckpoint child/核actualHEAD。通过不重发，不以degree→∞授后继预算。",
+    "stage": "Polyfilter旧边界/root0及source17files已发布3GET核实；C052仍耗尽，metadata actualHEAD匹配后发布完成，不续固定degree族。",
+    "next_action": "完成本metadata三文件child commit/push与独立3GET核actualHEAD；匹配不重发/不续degree或C050/C052。当前无已准math/source；degree必须→∞只是必要性，不是后继预算。",
     "stop_rule": "一完整门；任何实际uniform/domain/tail断点准确未证止，不换源/α/window或续source；pure scalar不冒全部消失权/正Dprime。"
   },
   "support_contracts": [],
@@ -110,16 +110,16 @@
   "runtime_goal_observation": {
     "status": "active",
     "created_at_unix": 1793085111,
-    "observed_at_utc": "2026-10-28T12:28:33.308637+00:00",
-    "basis": "现场get_goal同实例active；当前polyfamily/两proof/独立fresh终态/root旧0已执行消费，非新round或Goal完成。"
+    "observed_at_utc": "2026-10-28T12:31:07.124387+00:00",
+    "basis": "本次现场get_goal同实例active，polyfilter当前actualfamily/终稿/fresh/root0及source发布已核，原完成门open。"
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-10-28-positive-polynomial-filter-old-source.json",
+  "checkpoint": "goals/checkpoints/2026-10-28-positive-polynomial-filter-old-sync.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
-    "commit": "3b111e6f968f1734e105b177497d6eef131bc9a2",
-    "tree": "2674c331b1bdd57fdddbf506962cfcd59fa67b4c",
-    "basis": "Phase old0 source pushterminal+independent3GET matched; post-quiet-core-admission/remote-sync-verification.json. Metadata actualHEAD separatelyverify, no ownSHArecursion."
+    "commit": "6a9b8016395f0a204ee922758c3a8138050a65ca",
+    "tree": "c6d372265876edf0196618e3c5eaf35ae2c50808",
+    "basis": "Positivepolyfilter old0 sourcepushterminal+independent3GET matched; polynomial-filter-admission/remote-sync-verification.json. Metadata actualHEAD separatelyverify,noownSHA recursion."
   },
   "completion_audit": {
     "goal": "goals/GOAL.20261027.md",
@@ -129,9 +129,9 @@
     "final_execution_gate": "not-eligible",
     "basis": "Fixed-degree polyfilter旧边界和degree→∞必要性未覆盖成长/nonlocal/jointsigned或付核心新input，Goalopen/noteligible。"
   },
-  "process_inventory_observed_on": "当前两polyproof/独立fresh及其抽象topology子审全部terminal，无agent/web/numeric/shell/git后台。",
+  "process_inventory_observed_on": "当前polyfilter两审/fresh/抽象topology均terminal；sourcepush exit0/3GET匹配，无agent/web/numeric后台；metadata显式commit/push待执行。",
   "publication_approval_gate": {
-    "status": "polynomial-filter-old-zero-root-consumed-source-pending",
+    "status": "polynomial-filter-old-zero-source-verified-metadata-finalization",
     "destination": "https://github.com/lixiang90/RH-Weil",
     "visibility": "public",
     "branch": "main",
@@ -141,7 +141,9 @@
       "reply": "每轮把进度同步到github；把文献保存在文献库中，用研究看板来记录各个路线的状况",
       "scope": "本项目研究/Goal/STATE/看板/文献元数据/审查与同步回执；论文再分发许可不明则全文仅本地。"
     },
-    "current_scope": "当前五原件/根收据/AR/summary/入口/看板/libraryscope/STATE/两个running与新sourcecheckpoint；后仅receipt+STATE+新synccheckpoint三文件。"
+    "current_scope": "Polyfilter旧0 source17files已push/独立3GET；仅receipt+STATE+新synccheckpoint三文件child，推后核actualHEAD。",
+    "published_source_commit": "6a9b8016395f0a204ee922758c3a8138050a65ca",
+    "verification": "reviews/2026-10-28/polynomial-filter-admission/remote-sync-verification.json"
   },
   "research_board": "RESEARCH_BRANCHES.md",
   "literature_index": "literature/README.md",

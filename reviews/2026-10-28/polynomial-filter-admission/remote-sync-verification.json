@@ -1,0 +1,28 @@
+{
+  "schema": "rh-weil-remote-source-verification-v1",
+  "client_date": "2026-10-28",
+  "verified_at_utc": "2026-10-28T12:31:07.124387+00:00",
+  "status": "source-published-independently-verified",
+  "repository": "https://github.com/lixiang90/RH-Weil",
+  "branch": "main",
+  "source_commit": "6a9b8016395f0a204ee922758c3a8138050a65ca",
+  "source_tree": "c6d372265876edf0196618e3c5eaf35ae2c50808",
+  "source_parent": "badd00f48492002b68f9ce61b942302997a363ee",
+  "remote_checks": {
+    "method": "Independent connected GitHub GET mainref/gitcommit/gittree afterpushterminal exit0",
+    "main_ref_sha": "6a9b8016395f0a204ee922758c3a8138050a65ca",
+    "commit_sha": "6a9b8016395f0a204ee922758c3a8138050a65ca",
+    "commit_tree_sha": "c6d372265876edf0196618e3c5eaf35ae2c50808",
+    "tree_sha": "c6d372265876edf0196618e3c5eaf35ae2c50808",
+    "all_matched": true
+  },
+  "scope": "17explicit files: AQ/AR, rule/rootdraft/twoproofs/currentfresh/rootclosure, summary/entrypoints/board/libraryscope/STATE/two running snapshots/sourcecheckpoint. No newcontract/note590/fulltext.",
+  "root_scope": "reviews/2026-10-28/polynomial-filter-admission/root-consumption-scope.json",
+  "actual_consequence": "All firstfixed degree bounds and arbitrary movingcoeff whole-real nonnegative sourceindependent polynomialweights calibrated atliteral g: nu_X->Cdelta0 andphysicalW_X->Cdu instrongdualSprime. AllSchwartz boundedsets verified by587actualGram coefficients/589global arbitraryW+fixeddelta localization/near0calibration. gprimefullDprime defect tendsq1>0. Includesd0 topologyrestoration. Anyfinite-degree fullDprime approximant must have degree->infinity, notmerelyunbounded; no rate/growingdegreeestimate/exclusion.",
+  "scope_limits": "Polyweight can increaseformdomain, notallDlog; w noneven allowed andFourier2pi reflectionretained. No targettemperateness assumption/inference fromsinglepole. FullGamma/contact/allpp/doublepole preservedin q0/q1. No Qnegative source or classicalpositivity.",
+  "bottleneck_and_goal": "Stronger olddirectcombination0, no independent keyarithmetic/geometricinput. K unfavorablepositivepart/T-pole-cross, same nonzero primitive/principal/mixed/Xi andwhole4/5negativeinertiaUPPER unchanged. Same runtime1793085111active/open/noteligible.",
+  "cadence": "Originalfile byteidentical3sinceformal17/history53/latest589.0newmath,noformal18/reset/C053/590; proofs/fresh/nestedtopology/oldcorollary/publicationnot rounds.",
+  "library": "Manifest130/rawbytesunchanged SHA803c1ae339aa5f3dadfd1c2c785847a6d2c3afd5df2fc6d6981f4792233fcc16. Existinguserattachment31170b/SHA23d203de... unchanged,reread8.1-8.2 asdata. No newweb/PDF/chapter/download/numerics,fulltextsremainignoredlocal.",
+  "next": "Frozenfamily oldboundary stopped,no degree/rank/rate/coeff/sourcecontinuation or successorbudget fromnecessarydegreegrowth. Metadata actualHEAD verification finishespublicationonly; after truepostcondition no repush.",
+  "metadata_child_policy": "Exactlyreceipt+STATE+new synccheckpointchild, then independentlyverifyactualchildHEAD/ref/commit/tree; sourceSHA receipt only,no recursiveownSHA."
+}
