@@ -1737,3 +1737,17 @@ ALL H/v/B的-1<=kappa<=2来自标准shifted Gaussian计数/Poisson；C_B global 
 唯一下一为reviews/2026-10-28/marked-hnf-formula/next-independent-mixed-input-formation.md限定自主实物形成，尚未执行/未选新J/公式/proof。至多一份同一非零primitive的actual relative/higher两源源映射/身份，或准确未形成；先原域/角色/费用与完整目标具体承担项、实际input/test/net，再做一个最便宜强旧门。新真实signed/core实式若有信息差可优先，但规格不冒存在。没有formula/只旧/unknowncompletion即止形成，不先付carrier/metric或恢复耗尽C049。
 
 原cadence LF ddb2aa4a…保持0/history50/latest586/formal17，不计稿件/审查/推送、不formal18/归零。关键primitive/mixed、完整signed消失及dangerouscore/cross仍欠，whole4/5UPPER不变，Goal同实例active/open/noteligible。库130无新外部全文；看板/STATE/根绑定/checkpoint正常main同步后独立核source及metadata实际HEAD。
+
+## D20261028AA — 准确未形成，核角色更强旧撤重复source；下一只检具体闭源完成化
+
+同G20261027/1793085111/原0c4f。Z保存的单次独立mixed形成已执行，actual7788b/66fcceb8与具体审4222b/b7a6c1a9、当前fresh/root限定消费。573既有R_n=C_n(Q)⊕C_(n+1)(QJ)、d=(bx,πx−by)和−4 HH1 relative类保留；它非Hodge primitive，旧r*的b c_r非零，原方向第二腿不修首分量。准确没有新的全源closed-map/两独立源乘法/完整mixed身份，不以未知y或RR正号当formula。只标准旧首门0，非新核心类边界。
+
+Raw F_r的L1/fixeddu-Dlog费是链代表费用，不代regulator/section/mixed，也未通过full405/coverage或完整Gamma/contact/properpowers/双pole。411的2a logp轴迹、418全周期、432 Ω和573–575/582–584均保paid，不称缺logp/Green/非零relative类。553实际global有限norm前件不泛套强Sexp/无界/onlyDprime，不将另一cone方向bc+i y纳入原失败范围。
+
+Root拟Meyer后章source时用较弱10-11scope被新old审否定：10-20 repository-and-source-bridge-audit§2和当时root收据已actual primary核同v3§5/Th5.8并消费nuclear character/显式公式，非positive Hilbert。新source资格即时冻结撤销，未读PDF正文/未执行，草稿加纠正保历史。不是捏造旧后章禁令；manifest同一条目补later read scope，10-11当日记录保留。库130无新全文，不重复谱/核迹/酉化或paperqueue。
+
+当前仅一个具体next，reviews/2026-10-28/independent-mixed-formation/next-canonical-inclusion-cone-admission.md：旧Abar/Jbar包含全部raw F_r，选Jbar→Abar的inclusion-cone S_n=C_n(Abar)⊕C_n-1(Jbar)，D=(bx+i y,−by)，实际z_r=(u*⊗uF_r,−δF_r)确闭、raw费<=6||r||1。闭代表不代存活/primitive/两源型。尚未执行test是其原completed-projective reduced同调存活；固定明确e_(eta,r)核actual boundary及原norm，先扣573闭ideal吞raw。不给未证excision/非闭商免费；不由closure推出unreduced零。
+
+这不同于对原fiber-cone再换第二腿，是真实differentpair上已有明确源代表和可判比较；若标准强旧已决定则前置0止本pair/norm，不改trace-norm/源域调参续造。只有真非旧后果再另冻结数学预算/计轮，不从本next自行授C050/587。不同有费强域/无界/actualrelative修复各自须新input/原费/coupling，不能以未排就获预算。
+
+本轮0数学/非formal18，原cadence LF ddb2aa4a…保持0/history50/latest586/formal17；actual关键primitive/mixed/signed/corecross/Xi与whole4/5UPPER未改。Goal同实例active/open/noteligible，形成失败/更强旧恢复/库/推送不能complete。原件/根绑定/STATE/看板/库/检查点正常main同步后分别独立核源与metadata当前HEAD。

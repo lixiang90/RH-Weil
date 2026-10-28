@@ -1,5 +1,7 @@
 # 长期研究恢复入口
 
+2026-10-28，[独立mixed形成与强旧核角色恢复](reviews/2026-10-28-independent-mixed-unformed-and-old-trace-recovery.md)已准确未成新全源式：573原fiber-cone第二腿不修旧r*首边界，−4仅relative HH1非Hodge primitive。Meyer拟新章门被10-20已核§5/Th5.8更强旧撤销，未重读/未执行；库修later read scope仍130条。下一只有已给inclusion-cone闭代表z_r及原raw费，completed-projective reduced存活test未执行，先扣强旧、不准C050/587。0/history50/latest586/formal17保持，核心/whole4/5UPPER未改，Goalactive。
+
 2026-10-28，[marked-HNF热实式首门](reviews/2026-10-28-marked-hnf-heat-rule-old-gate-stop.md)已actual稿/具体old审/fresh/root限定0止。冻结sqrtT/全theta给ALL B密度[-1,2]，旧421原子门以一对fixed窄源给完整目标差>=13/64，明确排本rule的cofinal身份；非finiteB误判、非全HNF/正Dprime边界。无新math/C050/587，cadence0/history50/latest586/formal17保持，关键瓶颈/whole4/5UPPER未改。analytic后继无合格input/未耗尽locator，下一仅一次独立mixed实物形成或准确未形成，尚无新J/公式/proof；Goalactive。
 
 2026-10-28，[分类后因果投入审视](reviews/2026-10-28-post-classification-causal-investment.md)已两库存/HNF另稿/fresh/root0闭合，非formal18/cadence不动。577独立正层已付，缺完整signed消失；Green设施已付而principal/primitive/mixed缺，Sonin相消/safehigh也旧。当前无新核心input。HNF族同583全Hecke矩阵/G函数非新raw，仅准下一一次marked两源公式形成/强旧自筛，尚无r,s公式/证明预算。raw因子化一概拒绝宽读冻结，实际新functional另判；exact/cofinal分开。关键瓶颈/whole4/5UPPER未改，0/历史50/latest586/formal17保持，Goalactive。

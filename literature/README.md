@@ -1,5 +1,7 @@
 # RH-Weil 文献索引
 
+2026-10-28，[独立mixed未形成/强旧核角色恢复](../goals/reviews/2026-10-28-independent-mixed-unformed-and-old-trace-recovery.md)只核项目原件，无新web/PDF/下载/渲染/数值，130条保持。[实际范围](supplements/2026-10-28-independent-mixed-unformed-source-scope.md)记录573原cone断点与10-20已核Meyer§5/Th5.8，纠正manifest较弱10-11范围被误作最新的风险。拟重复source门已撤销/未执行；旧全文248788b/raw60be6001…本次只stat/hash。下一inclusion-cone完成化test尚未执行，无新math/source预算。
+
 2026-10-28，[marked-HNF实际规则自筛](../goals/reviews/2026-10-28-marked-hnf-heat-rule-old-gate-stop.md)仅用项目583/578/421等原件和标准Gaussian/Poisson，无新web/PDF/下载或数值，manifest130项保持。[阅读/归属范围](supplements/2026-10-28-marked-hnf-formula-source-scope.md)区分准备稿、9375b实式、8669b具体审与fresh/root；旧原子门给fixed两源13/64，标准应用0，非一般HNF/theta边界。后继没有合格analytic输入/未用章节，下一独立mixed形成尚无实式/预算；全文许可/本地忽略规则不变。
 
 2026-10-28，[分类后因果审视](../goals/reviews/2026-10-28-post-classification-causal-investment.md)只核旧项目原件/根记录，无新web/PDF/下载/数值，manifest130项保持。[来源消费范围](supplements/2026-10-28-post-classification-investment-source-scope.md)分root直接段落与三consult范围；HNF已同583全Hecke矩阵/native尾，Gram非新raw或不变量。577正层已付与缺signed消失分别保留，下一仅原公式形成且尚未执行，不添未知paper/章节或证明归属。

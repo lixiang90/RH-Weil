@@ -2296,8 +2296,8 @@
       "title": "A spectral interpretation for the zeros of the Riemann zeta function",
       "version": "arXiv:math/0412277v3; 2013-08-27",
       "download_status": "downloaded",
-      "status": "Original closed radial source and nuclear Frechet spectral mechanism; local source/spectrum comparison, no new RH theorem or full character audit.",
-      "read_scope": "PDF pages2-8 definitions; focus pages5-8 Mobius/Poisson interface, Theorem3.3 and proof, Theorem4.1 and proof, Corollary4.2 and proof. Later summability/nuclear character computation not audited.",
+      "status": "10-11 record: Original closed radial source and nuclear Frechet spectral mechanism; local source/spectrum comparison, no new RH theorem or full character audit at that date. 2026-10-28 stronger-old recovery: §5/Th5.8 already source-consumed on10-20; reject proposed duplicate chapter admission, no new positivity result.",
+      "read_scope": "2026-10-11: PDF pages2-8 definitions; focus pages5-8 Mobius/Poisson interface, Theorem3.3 and proof, Theorem4.1 and proof, Corollary4.2 and proof. Later summability/nuclear character computation not audited. 2026-10-20 actual root source audit additionally reopened primary §§2–3, Cor4.2, §5 nuclear operators and Theorem5.8: nuclear character recovers explicit formula, not positive Hilbert spectrum; repository-and-source-bridge-audit.md §2 and its root receipt. 2026-10-28 recovery verified that later record and local bytes/hash only; no new PDF body read. The preceding 10-11 unreviewed scope is historical, not current global read status.",
       "file": "f1/meyer-zeta-spectrum-math-0412277v3.pdf",
       "source_url": "https://arxiv.org/abs/math/0412277v3",
       "pdf_url": "https://arxiv.org/pdf/math/0412277v3",
@@ -2305,7 +2305,8 @@
       "sha256": "60be6001f5eb1e37a5d0bcb85431930b52929e90fc0d78e792ad26db9e3f2d40",
       "pages": 15,
       "retrieved_on": "2026-10-11",
-      "review_note": "supplements/2026-10-11-meyer-radial-source-and-spectrum-audit.md"
+      "review_note": "supplements/2026-10-11-meyer-radial-source-and-spectrum-audit.md",
+      "later_read_scope_receipt": "../reviews/2026-10-20/grh-literature-roadmap/repository-and-source-bridge-audit.md"
     },
     {
       "id": "HL-Beurling-math0410270v1",
