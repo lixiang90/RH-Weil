@@ -1,0 +1,20 @@
+{
+  "schema": "rh-weil-publication-verification-v1",
+  "date": "2026-10-30",
+  "repository": "https://github.com/lixiang90/RH-Weil",
+  "branch": "main",
+  "status": "source-publication-pending",
+  "source_parent": "597289e7298880966fad92d72fa6f0c4f298bb7b",
+  "authorization": "Userdirectper-roundpublicmain sync/Goal§5/command10808proxy.",
+  "scope": "ONEFRS4.3specifiedsourcegate/inventory13494/source11691/different10895/root16publicbindings+localignoredprimaryPDF. ConditionalMCpolecriterion/limitedFErepair only; literal24linefrozen. Library140->141 actualPDFmetadata/hash/readscope; no fullPDFpublication. Cadence6813rawunchanged0/history66/latest602/formal21/noC066603/mathround; keycore/whole4/5UPPER/all3Goalgatesopen/sameactive.",
+  "source_verification": null,
+  "metadata_child_condition": {
+    "exact_paths": [
+      "goals/STATE.json",
+      "goals/checkpoints/2026-10-30-frs-single-sign-sync.json",
+      "reviews/2026-10-30/meanperiodic-single-sign-source/remote-sync-verification.json"
+    ],
+    "condition": "Afteractualsource ref/commit/tree/localHEAD/soleparent/sourcepaths/clean/checkpoint/16publicpins+localPDF verified, ONEexact3metadatachild. Thenindependentactualfinalref/commit/tree/localHEAD/soleparent/exact3/clean/checkpoint/16publicpins+PDF651244raw/cadence6813raw0history66latest602formal21/library141manifest220261raw. No selfSHA/recursivepush.",
+    "on_match": "ActualmatchingchildSHA finalHEAD/currentpublicationcomplete. SameGoalactive/C065exhausted; noautomatic§5/6/ref/paper/modelsuccessor. Newactualinput/test/strongoldnetbeforeanycontract/count; missingarithsignnotexternalblockorGoalcompletion."
+  }
+}

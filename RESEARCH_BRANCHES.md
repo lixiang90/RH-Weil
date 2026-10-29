@@ -1,5 +1,12 @@
 # 研究分支看板
 
+2026-10-30，[FRS单号指定章来源门source0](goals/reviews/2026-10-30-meanperiodic-single-sign-source-stop.md)：库存13494/原文核查11691/不同10895/root16公开bindings＋本地PDF核闭。0803.2821v2实际Prop4.10把tail single-sign与右侧实区间无MC极点列为前提，结论全部MC复极点条带；所核页未付经典ζ独立sign或完整无抵消zero-pole桥。PDF24重复-s FE字面行冻结，只按原2.16＋独立boundary字符移位有限重闭中心反射，不改physical du；Remark4.9只取pole-set typing，不取c0符号。不泛排FRS/meanperiodic，不自动读§5/6/ref或新模型。库140→141，原件651244bytes/45p/SHA89d9…09c0f只本地ignored。原cadence6813字节保持0/history66/latest602/formal21，无C066/603/macro22。关键principal/mixed/signedcorecross/成长Ξ及whole4/5负惯性UPPER未变，三Goal门open、同实例active。当前只准确发布核actualHEAD；后继须不同actualinput-test-strongoldnet，旧下列执行位置为历史。
+
+| 当前来源路线 | 状态 | 重准入/停止 |
+|---|---|---|
+| FRS boundary tail single-sign | 所核4.3条件极点准则，source0 | 实际经典h独立sign＋全部zero-pole桥后再准入；不自动后章 |
+| principal/mixed / coherent signed核心 | 关键输入仍open | actual对象/源/原费用及负对照，扣强旧净后果 |
+
 2026-10-30，[单一Euler-inner/Clark建设首检0止](goals/reviews/2026-10-30-euler-inner-clark-admission-old-stop.md)：两实际终稿13385/14858、不同12625及root19bindings闭。真实canonical Clark权2π/φ′和原du源映射合法，但B_X→0/H→1、谱measure趋dt，逐fixed复L²/Dlog配对仅得恒等型（不授SOT/norm/成长）；全部α及正相位混合、共同正scalar不能匹配旧132/136非恒定germ与560完整非flat Q。标准＋强旧直接后果，不建C066/603，不加轮。原cadence6813字节保持0/history66/latest602/formal21，库140/manifest218597不动，无新外部原文/章/数值。停止此未修正规范构造，不自动续clock/权/参数/第二构造/来源队列；其它relative/signed/global修复未排也未准入。关键principal/mixed/corecross/成长Ξ和whole4/5负惯性UPPER未改，三Goal门open、同实例active。当前只准确发布核actualHEAD；后继须不同实际input-test-strongoldnet。以下旧执行位置为历史，唯一当前见STATE。
 
 | 本次路线 | 状态 | 停止/重准入 |
