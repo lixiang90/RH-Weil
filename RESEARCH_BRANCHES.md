@@ -1,5 +1,7 @@
 # 研究分支看板
 
+2026-10-29，[第601轮后两核心公式强旧0止](goals/reviews/2026-10-29-post601-core-formula-old-stop.md)：两实际原稿12821/12755、不同fresh14986/root24bindings闭：framed Hecke F_r/H0精确旧519全jets，忘frame全平凡；actual connected-prime Möbius差分合法，但Γ/全部pp/pole系数及±log²均为560/535/570强旧直接后果，无新core估计。当前两门0止，cadence7009原字节保持3/history65/latest601/formal20，无C065/602/macro21。库140/manifest218597原字节不变，无新primary/PDF/章。仅保存4340-byte conditional nextgate：同fixedr0、actualempty-base singleprime fullreturns uniform-p强化率与585/589whole量级比较；率及manyprime净lower未执行/未证。前驱telescoping不等empty-base onebody。关键principal/mixed/corecross/Ξ和whole4/5UPPER未变，Goalactive/open。先准确发布，下一只此全返回首检，不串rank/frame/p/精度或来源。
+
 2026-10-29，[601/C064有限仿射门完整结算](goals/reviews/2026-10-29-haran-affine-601-settlement.md)：601/C064已root/fresh闭：Haran2007完整tensor公理迫Hom(F(Z),C)在全部矩阵层至多一元；selfpushout由F(Z)两id直接实现，fold同构。严格忠实零约定下的一般allpairs存在性冻结，selfcase独立重闭；正确Spec投影/对角反变方向及初⊗误写更正保原记录。仅ordinary affine，不判紧化边界/所有F1。两原件12921/11645、不同fresh16122/root24bindings闭；两初formula强旧/typing0。一个新完整有限准入反例统一2→3/history65/latest601/formal20保持，非macro21。库140/论文localignored与限定页范围；核心principal/mixed/corecross/成长Ξ及whole4/5负惯性UPPER未改，Goalactive/open。停止本族/后章/参数续链；先准确发布，后继须actual不同input-test-strongoldnet。
 
 | 本轮路线 | 状态 | 已付 / 未付与重准入 |

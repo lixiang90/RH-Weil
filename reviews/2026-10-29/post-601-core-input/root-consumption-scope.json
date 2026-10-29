@@ -1,0 +1,201 @@
+{
+  "schema": "rh-weil-root-premise-closure-v1",
+  "date": "2026-10-29",
+  "observed_at_utc": "2026-10-29T12:33:35.347956+00:00",
+  "runtime_goal_created_at": 1793085111,
+  "baseline": "0c4f3a3eb609bb1d9564138fa4a35701f05605f2",
+  "status": "root-consumed-limited-old0-PASS",
+  "bindings": [
+    {
+      "path": "reviews/2026-10-29/post-601-core-input/principal-actual-formula.md",
+      "bytes": 12821,
+      "sha256": "5449ad97e57faea997bb6e05b6ce87dd1b65ab9d7e94fb9be07a348bd4c1744d",
+      "consumption": "Root fullread terminal raw, independently checked typedformulas/roles/strongestold; admission onlyconditionalnextgate notexecuteduniformp."
+    },
+    {
+      "path": "reviews/2026-10-29/post-601-core-input/signed-actual-formula.md",
+      "bytes": 12755,
+      "sha256": "620829f35d9c7a585b077cc4aca6ba99cc5ecd61d6cd53f94699000db1a11de3",
+      "consumption": "Root fullread terminal raw, independently checked typedformulas/roles/strongestold; admission onlyconditionalnextgate notexecuteduniformp."
+    },
+    {
+      "path": "reviews/2026-10-29/post-601-core-input/fresh-two-formula-audit.md",
+      "bytes": 14986,
+      "sha256": "3495c9264d2a30e65f7f32cc64ac25f0eb5d97c82d43d14b569bee60ae86ca96",
+      "consumption": "Root fullread terminal raw, independently checked typedformulas/roles/strongestold; admission onlyconditionalnextgate notexecuteduniformp."
+    },
+    {
+      "path": "reviews/2026-10-29/post-601-core-input/cofinal-onebody-first-gate-admission.md",
+      "bytes": 4340,
+      "sha256": "fad417627223fd636047793c182348c08179293d8b50b1c65eb691a458148a8f",
+      "consumption": "Root fullread terminal raw, independently checked typedformulas/roles/strongestold; admission onlyconditionalnextgate notexecuteduniformp."
+    },
+    {
+      "path": "reviews/2026-10-29/post-601-core-input/execution-start.json",
+      "bytes": 1063,
+      "sha256": "ed16c85cfc1b9fb4a36bad6d387dbebe90bb48ed883f858421a85f582be22716",
+      "consumption": "Root actualrecovery priorpublication/noprogressclassification/cadenceguard; previous601progress, notnewmath."
+    },
+    {
+      "path": "goals/GOAL.20261027.md",
+      "bytes": 9679,
+      "sha256": "b3d2acb1f962d793f45d79b6a4e67fb87dd072cd4752108a9298204b4cefa1de",
+      "consumption": "Root fullread samecompletiongate/baseline/version, no shrink/newGoal."
+    },
+    {
+      "path": "goals/contracts/C064-haran-integer-affine-fold.md",
+      "bytes": 2047,
+      "sha256": "765aa6546b77297a475a0003ce6c4a362736915ae36eb014874d3f3d21971399",
+      "consumption": "Root fullread stopped priorbudget; not resumed."
+    },
+    {
+      "path": "reviews/2026-10-29/post-600-new-input/root-consumption-scope.json",
+      "bytes": 13629,
+      "sha256": "3386ca38e3cfc218c108dbe7bde425151e3dde7182e068029929a6563cff5279",
+      "consumption": "Prior601 rootpaid/24bindings separatelyreverified, not recounted."
+    },
+    {
+      "path": "notes/405-f1-adelic-restriction-moments-and-radical.md",
+      "bytes": 14633,
+      "sha256": "fe5ee4b574954e51a69c6bbbaa772bb75a1a510c91c837ba02eed8ac406cbb7d",
+      "consumption": "Existingpaid actualGaussian H0/Pan/degree/coreidentity; author/fresh scopechecked; no allnested reaudit."
+    },
+    {
+      "path": "notes/516-f1-global-mixed-radical-and-mellin-jets.md",
+      "bytes": 9569,
+      "sha256": "d21496da1ee280a0f733f322baddf46eb4cac4b50242494ae76b0d464533bbbd",
+      "consumption": "Existingpaid actualpartner/value vsfulljets; no freepositivepairing."
+    },
+    {
+      "path": "notes/519-f1-closed-source-image-and-degree-moments.md",
+      "bytes": 5766,
+      "sha256": "93d39e6d932c9913f5feb77bed4d1ad096c9d984ed571e894576fce6c53b124c",
+      "consumption": "Root fullread actualI=J=allm-1jets, raw/physical andtwodegrees."
+    },
+    {
+      "path": "notes/520-f1-source-quotient-spectrum-and-centered-growth.md",
+      "bytes": 6311,
+      "sha256": "81a05708dfd2139d374d9fac7f631e66ea4449d502cf9fb0c52f53b900dc9651",
+      "consumption": "Root fullread wholeFréchet spectrum/Jordan/unknowngrowth; newframedmapreexpressesoldquotient only."
+    },
+    {
+      "path": "notes/553-principal-cyclic-closure-and-cofinal-readout-fees.md",
+      "bytes": 6613,
+      "sha256": "35a40c35d1eaa7fafb462361ddef1bfb9643402b5670f832b9142aeb4b74abce",
+      "consumption": "Existingpaid strongtopology vsdu/singlecoordinategrowth; notglobaljointnorm ornewreadout."
+    },
+    {
+      "path": "notes/537-source-exact-weil-window-positive-tail-admission.md",
+      "bytes": 8155,
+      "sha256": "269a500556d37fc04a4e44efd2f0899414787743e529506dbbe7395a34eea9f8",
+      "consumption": "Existingpaid fixed17/16 positiveforcompactcomplexsource, sourceusedwithoutnewnumeric/reaudit."
+    },
+    {
+      "path": "notes/560-joint-finite-place-sonin-primepower-cancellation-and-compact-weil-bridge.md",
+      "bytes": 9263,
+      "sha256": "9c2e6cd5a9eae269ad04b332699c21eec7403a230f9557afa8b895c45d4228d3",
+      "consumption": "Root fullread actualP/B/Ginverse/strictHS/fullΓpppole/finiteF C0; exactMobius onlyoldlinearcombination."
+    },
+    {
+      "path": "notes/535-actual-first-prime-sonin-log-resonance-and-indefinite-error.md",
+      "bytes": 9910,
+      "sha256": "e83c3e080d19c2534425fb3c0e469367012f6c566a470b3baba703fb6def146f",
+      "consumption": "Root fullread actualSi kernels/fullreturnS1/fixedp constants; no uniformp upgrade."
+    },
+    {
+      "path": "notes/570-actual-joint-sonin-signed-mixed-and-narrow-source-cost.md",
+      "bytes": 12411,
+      "sha256": "6c787848770f78a9f535e381ba512352d46e84eb365f49b29d10097c00ff3315",
+      "consumption": "Existingpaid oldg±/actual23sign/fullnorm; fresh fullread, root alignedboundedsubtractions andexactoldnet."
+    },
+    {
+      "path": "notes/585-cofinal-sonin-fixed-source-trace-lower-and-core-error-fee.md",
+      "bytes": 7857,
+      "sha256": "5dca916d978eef599587ff4c6ce34144f814ddec0567a4c1b2314dcd71cd01af",
+      "consumption": "Root fullread alreadyactualfixedr cofinallower; futureconditionalcomparison notnewlowernow."
+    },
+    {
+      "path": "notes/587-actual-sonin-moment-spread-and-growing-source-rank-necessity.md",
+      "bytes": 8681,
+      "sha256": "e4d30cfb6d07299386014cb4c4e3e3979ab5111264355dfb37b24629f121ac82",
+      "consumption": "Root fullread originalnormalizedsmooth r0/allfinitefixedsourcefacilities; no repeatmoment/samev calculation."
+    },
+    {
+      "path": "notes/589-sonin-zero-mean-upper-and-scalar-rank-one-limit.md",
+      "bytes": 7185,
+      "sha256": "c491012226713baf0eecff045338563d4e440c6a1bde9eea0d9ccf661b958bc5",
+      "consumption": "Oldpaidwholeupper recoveredthroughactualtelescoping record/freshfullread; no weakerlowercallednewwhole."
+    },
+    {
+      "path": "reviews/2026-10-29/same-source-telescoping/source-and-update-coverage.md",
+      "bytes": 12084,
+      "sha256": "22921e747890d05d3ff4975a2e004ae27e8becc461da2a51c2bd4bd6ba4d111a",
+      "consumption": "Root directedfull §§1-7 andfreshfull: actualpredecessor vsnewemptybase, common-sourcewholeupperH andfullproperpowers."
+    },
+    {
+      "path": "reviews/2026-10-29/weil-9-8-physical-lower-gate/root-consumption-scope.json",
+      "bytes": 15115,
+      "sha256": "c0c0daa055990605e6fc361df00bc3ce5f19079d25a60a93ec4b72d022c496fb",
+      "consumption": "Strongestsame595 physicalchain/fullQpoint/gap alreadypaid; no samev/leg recalculation."
+    },
+    {
+      "path": "literature/manifest.json",
+      "bytes": 218597,
+      "sha256": "dec7cfaf6b9e198e756971a2e5fbbe79c9c668500a85649595f179741cadcd31",
+      "consumption": "Whole218597raw bytes unchanged140entries; no newexternalprimary/PDF/authorchapter."
+    },
+    {
+      "path": "goals/reviews/2026-10-29-post601-core-formula-old-stop.md",
+      "bytes": 2796,
+      "sha256": "9b3eb17ba0c2efed1308c5426e82c214b87fe021e666634deda140c19cc71cbb",
+      "consumption": "Root0settlement/causalnextconditionalgate, no newmathcontract/count."
+    }
+  ],
+  "principal": {
+    "object_map_roles": "physicalr S_exp,C -> rawf=e^-u/2r -> F_r(s); H0=xi/2 actualGaussian; g=F/H0; framedlatticeT_r O_rho² rightcoset. NotintegralCartier/divisor orindependent arithmetic spectrum.",
+    "premises": "Allm_rho Laurentparts invertibletriangular oldjets; fullPantranslationg=e^((s-.5)b)s(s-1) entire; twoµzero. Kernelwithµ=old519P_an, value-radicalnotfulljets whenmultiplezero.",
+    "gauge_coverage": "537fixednonroot retainedwithframebyold405/519; unframedexplicitT^-1 onU0 trivializesallcurrentbundles. No arbitraryprincipalparts-product surjectivity or∞height assumed.",
+    "norm_sign": "Singlecoordinates S_exp continuous/dufixedL costold553; no globaldu/allheight/jointnorm. Actual1-conjrhopartner fullWeil notPSD sumjets. No independentmixed/RR."
+  },
+  "signed": {
+    "object": "ActualΠ_B finiteEuler withfullGinverse, independentfiniteMobius C_A; sourcec_A=Tr(A_r C_A A_s*) fixedI fullcomplexDlog firstlinear.",
+    "domain_errors": "EachA_rΠ_B HS; mixedsandwich product S1; finiteS1sum legal. No ambientcompact/S1claim; no uniform|A|/p fee. Exactfinitecoefficients zeroerrors.",
+    "coefficients": "For|A|>=2, Gamma/contact andeveryp allpowers coefficientzero; commonfullLorentzpolealsozero. EpsilonfiniteC0sum ->fixedsourcewindow compact only. Möbius reverseexactold560.",
+    "strongest_old_net": "535actualsinglep Si/fullreturn boundedon570g± shortdifference support. E2/E3/EemptyO(1) ->connected23 old±C23 log²+O(log);duunit ηlog²->0. No newcofinalestimate/Qnegative/corelower."
+  },
+  "next_admission": {
+    "path": "reviews/2026-10-29/post-601-core-input/cofinal-onebody-first-gate-admission.md",
+    "status": "typing-and-conditional-net-only-PASS-not-executed",
+    "actual_object": "J_X=Π_X−P−Σ(Π_{p}−P), j_X samefixedr stricttrace, all>=2connected sum; notpredecessorΔtelescoping.",
+    "unpaid_test": "Need actualuniform-p fullreturn t_p[r]−t0[r] rate strongerthanoldO(p^-1/2), e.gO_r(log^A p/p); guessedrate notconsumed. Fixedp C0/barephasegap notenough.",
+    "actual_old_quantities": "585lower/589upper whole t_X[r0] alreadyorder√X/log²X; old common-sourceupper anddifferentprefixΔ alsoalreadyknown. BasicnormO(q) sumO√X/logX insufficient.",
+    "if_proved_only": "Subtractactualonebody polylog fromalreadyjointgrowth ->newmanyprime attribution atsamefixedr0; no newwholebudget/PSD/keyRHbottleneckremoved.",
+    "choice_reason": "Oneexact arithmeticfullreturn test canchangeactualconnectedcore responsibility; beatsanotherxi-jet repack orunknownsourcechapter. Stopifactualratefails/unpaid orwholeoldalreadycontains; no parameterqueue."
+  },
+  "cadence": {
+    "math_iterations": 0,
+    "before_and_after_bytes": 7009,
+    "before_and_after_sha256": "7d6c12281caa1317b3f8dc30569c3d0151441798f09339e8b4448a1bbb01744d",
+    "state": "3/history65/latest601/formal20 unchanged",
+    "basis": "Currentfullconsequences alreadycontainedby519/520/553/560/535/570; notnewcompleteunknownclass hidden0. Nextactualrate unexecuted."
+  },
+  "literature": {
+    "entries": 140,
+    "manifest_bytes": 218597,
+    "manifest_sha256": "dec7cfaf6b9e198e756971a2e5fbbe79c9c668500a85649595f179741cadcd31",
+    "new_external_sources": 0,
+    "author_read_scope_expanded": false
+  },
+  "strongest_classical_and_goal": {
+    "same595": "v->Bc v->Gamma^-1/2raw Vintv/(18Cw),all224Legendre/Dlog/rootFraction alreadypaid:Llow(2^-62,2^-61),P0(-2^-67,-2^-68),fullQpoint/gap>2^-62. No new samev diagnostics.",
+    "whole": "542+555->557 leading4/5negative-inertiaUPPER unchanged, notPSD;537fixednotgrowing.",
+    "key_bottleneck_changed": false,
+    "mathematical_completion_gates": "all3open/sameactive/noteligible"
+  },
+  "context_read_not_consumed_for_new_result": [
+    "notes/131-positive-real-boundary-impedance-weil.md",
+    "notes/132-shifted-passivity-abel-resonance.md"
+  ],
+  "pending_processes": [],
+  "publication": "Pendingaccuratecurrentold0scope/conditionalnextgate; prior601219a7aa alreadyindependentlyreverified, notrepushed."
+}

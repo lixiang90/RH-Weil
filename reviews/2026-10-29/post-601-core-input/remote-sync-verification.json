@@ -1,0 +1,21 @@
+{
+  "schema": "rh-weil-publication-verification-v1",
+  "date": "2026-10-29",
+  "repository": "https://github.com/lixiang90/RH-Weil",
+  "branch": "main",
+  "status": "source-pending-not-yet-verified",
+  "source_parent": "219a7aa269eb87c40385dde124c1d916c9629139",
+  "authorization": "Userdirectper-roundpublicmain sync/Goal§5 andcommand10808proxy.",
+  "scope": "Post601actualprincipal/signedformula old0/fullfresh/root24bindings; conditional4340onebodyfirstgate unexecuted; solecadence7009raw3history65latest601formal20 unchanged; board/library140manifest218597unchanged/no newexternalprimary/PDF. No C065/602/keycore/Goalcompletion.",
+  "source_verification": null,
+  "metadata_child_condition": {
+    "parent": "TO_BE_BOUND_AFTER_INDEPENDENT_SOURCE_VERIFY",
+    "exact_paths": [
+      "goals/STATE.json",
+      "goals/checkpoints/2026-10-29-post601-core-old0-sync.json",
+      "reviews/2026-10-29/post-601-core-input/remote-sync-verification.json"
+    ],
+    "condition": "ONE metadatachild aftersourceverified. Independentcurrentref/commit/tree/localHEAD/tree/soleparent/exact3paths/clean/checkpoint plus24rawbindings/cadence7009raw3history65latest601formal20/library140manifest218597raw unchanged ->publicationcomplete. No selfSHA/recursivepush.",
+    "on_match": "ActualmatchingchildSHA isfinalHEAD; currentold0 publicationcomplete. Goalactive/C064stopped; nextONLYactualsingleprime large-delay FULLRETURNS test in4340admission, no guessedrate/cofinalnet/C065/602/sourcequeue."
+  }
+}
