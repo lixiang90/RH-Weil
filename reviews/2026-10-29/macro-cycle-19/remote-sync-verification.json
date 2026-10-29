@@ -1,0 +1,27 @@
+{
+  "schema": "rh-weil-remote-sync-v1",
+  "client_date": "2026-10-29",
+  "repository": "https://github.com/lixiang90/RH-Weil",
+  "branch": "main",
+  "source_commit": "1454fdd928a786d2e3c6c1579fbb868ad3020b41",
+  "source_tree": "3b6f97b0baeb5772ef2ccaada516b38b4ed9a4d9",
+  "source_parent": "8d2ec62145fb982e85259e06bf4f6dd4140f3d1c",
+  "source_verified_at_utc": "2026-10-29T00:26:47.358Z",
+  "source_push": "Normalfastforward main push exit0 with command-scoped http.proxy=http://127.0.0.1:10808. IndependentconnectedGitHub ref/commit/tree/parent matched exactlocal source.",
+  "source_checkpoint": "goals/checkpoints/2026-10-29-594-macro19-settled.json",
+  "metadata_child": {
+    "files": [
+      "reviews/2026-10-29/macro-cycle-19/remote-sync-verification.json",
+      "goals/STATE.json",
+      "goals/checkpoints/2026-10-29-594-macro19-sync.json"
+    ],
+    "required_parent": "1454fdd928a786d2e3c6c1579fbb868ad3020b41",
+    "completion_condition": "Normalchild push exit0, independentGET actualmain/commit/tree match localactualHEAD/tree andrequiredsourceparent; cleanworktree andstate check --checkpoint. Iftrue publicationcomplete, no recursiveownSHA rewrite/repeatedpush/mathcount."
+  },
+  "mathematical_scope": "594/C057 exactlyone newlocalmath iteration: ordinaryselfadjointS1 infiniteH/movingrank/norm signedprime-linear sourcecofinal->rank1HS rounding/fixedpairproductHS0 withoutpureexact. <=28fixedsourceerror delta yields Opq(delta^1/4). NativeHilbertmetriconly; nogrowingcollective/corepositiveconsequence. Normalclock fullfixedsigned escape retained.",
+  "macro_scope": "Formal19 two supports11256/10466/currentdifferentfresh8370/root auditedactual591-594 andoriginalGoalthreegates; coreprimitive/principal/mixed/signedcross/Xi andwhole4/5negativeinertiaUPPER unchanged. 8007draftsnapshot and16macrobindings; mathfresh8339/root17bindings preserved.",
+  "cadence": "594 guardedonce3->4/history57->58/latest594, thenformal19 zero-math4->0once/history58/latest594. Canonicalafterformal19 LFsha c91d0eb7e8f6377c50dd701d1b48e0961acf9183f880d67f3fcddf408c440a8b. Frozenaftermath andmacro snapshots areobservations, notadditionalcounters.",
+  "source_and_privacy": "No newexternalprimary/web/query/PDF/download/numeric. Manifest132 original200620 LFbytes/sha6028541b787e0e1791ed30d82f4c30fa302078fa51b8c25d6ada6c0e8566d303 preserved. No thirdpartyfulltext/caches staged.",
+  "goal_scope": "Same1793085111 active/open/noteligible; original0c4f baseline and9679-byte Goalversion unchanged. Publication/macro notGoalcompletion.",
+  "next_action": "Publish exactlythree metadatafiles andverifyactualchild condition; onmatch no repush/recount. C057exhausted, no successor math/source admitted; newresearch requiresdifferentactual input/test/net, noemptyformation/oldquery/parameterqueue."
+}
