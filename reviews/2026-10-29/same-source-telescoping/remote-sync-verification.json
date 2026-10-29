@@ -3,13 +3,27 @@
   "date": "2026-10-29",
   "repository": "https://github.com/lixiang90/RH-Weil",
   "branch": "main",
-  "status": "source-preparing-not-yet-published",
+  "status": "scientific-source-independently-verified-metadata-child-condition-armed",
   "source_parent": "af7d171e3f0de35b61dbc7d347f9689c03601980",
   "authorization": "Userdirecteachiterationsync, Goalsection5; no new permission needed.",
   "scope": "Zero-math actualsame-source admission andstrongoldscope, no sourcefulltext/cadence/manifest/596changes. SameGoalactive/open.",
-  "source_verification": null,
+  "source_verification": {
+    "observed_at_utc": "2026-10-29T06:13:13.205013+00:00",
+    "commit": "2fc1757e77aac6f4bf1bb840788124a8480a29a9",
+    "tree": "52032701bea1320524094d6255dac8cd14a7fd1e",
+    "sole_parent": "af7d171e3f0de35b61dbc7d347f9689c03601980",
+    "staged_paths": 15,
+    "normal_push": "af7d171..2fc1757 main->main exit0, commandproxy10808",
+    "independent_method": "ConnectedGitHub3GET mainref/gitcommit/gittree parsedandmatched localactualsource/soleparent; tree truncatedfalse.",
+    "urls": [
+      "https://api.github.com/repos/lixiang90/RH-Weil/git/ref/heads/main",
+      "https://api.github.com/repos/lixiang90/RH-Weil/git/commits/2fc1757e77aac6f4bf1bb840788124a8480a29a9",
+      "https://api.github.com/repos/lixiang90/RH-Weil/git/trees/52032701bea1320524094d6255dac8cd14a7fd1e"
+    ],
+    "checks": "17rawinputbindings; threefrozenoriginals bytepreservedinstage; standalonecachedcheck0/sourcecheckpointcheck0; cadence/manifest/596 unchanged, nofulltext; sameGoalactive1793085111."
+  },
   "metadata_child_condition": {
-    "parent": "to be resolved after scientificsource independentverification",
+    "parent": "2fc1757e77aac6f4bf1bb840788124a8480a29a9",
     "exact_paths": [
       "goals/STATE.json",
       "goals/checkpoints/2026-10-29-same-source-telescoping-sync.json",
