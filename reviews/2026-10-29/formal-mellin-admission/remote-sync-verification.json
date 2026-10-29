@@ -3,18 +3,30 @@
   "date": "2026-10-29",
   "repository": "https://github.com/lixiang90/RH-Weil",
   "branch": "main",
-  "status": "scientific-source-preparing",
+  "status": "source-verified-metadata-child-condition-armed",
   "source_parent": "d3f9372a5ef228d06d80a27612e3801f2dfe9ece",
   "authorization": "Userdirecteachiterationsync/Goalsection5, no new permission required.",
   "scope": "597/C060oneactualmathfailure, threeproof/fresh/root/repair+escape, solecadence/STATE/board/libraryscope/checkpoint/newunprovedfullimageadmission. No rawPDF/Goal/596changes.",
-  "source_verification": null,
+  "source_verification": {
+    "commit": "ffea0d81fb71a29499fcda791a7f5d467f0f82fa",
+    "tree": "a345546f3948e0d7cf2a21950974cc6651155dc0",
+    "sole_parent": "d3f9372a5ef228d06d80a27612e3801f2dfe9ece",
+    "source_changed_paths": 20,
+    "observed_at_utc": "2026-10-29T07:45:55.443576+00:00",
+    "basis": "Independent connected GitHub main ref / git commit / git tree GETs match actual local source HEAD/tree/sole parent. Local clean and source checkpoint passed.",
+    "root_input_bindings": 16,
+    "cadence": "3/history61/latest597 once/formal19",
+    "library_entries": 137,
+    "publication_audit": "Additional read-only fm597_publication_audit PASS; no file changes/new math."
+  },
   "metadata_child_condition": {
-    "parent": "resolveaftersourceindependentverification",
+    "parent": "ffea0d81fb71a29499fcda791a7f5d467f0f82fa",
     "exact_paths": [
       "goals/STATE.json",
       "goals/checkpoints/2026-10-29-formal-mellin-597-sync.json",
       "reviews/2026-10-29/formal-mellin-admission/remote-sync-verification.json"
     ],
-    "condition": "One normalmetadatachild; independentlyactualmainref/commit/tree matchlocalHEAD/tree/soleparent/exact3paths/clean/checkpoint. Onmatchcompletepublication/no selfSHAwrite/repeatpush; nextonlyfixedfull-image-moment admission."
+    "condition": "One normalmetadatachild; independentlyactualmainref/commit/tree matchlocalHEAD/tree/soleparent/exact3paths/clean/checkpoint. Onmatchcompletepublication/no selfSHAwrite/repeatpush; nextonlyfixedfull-image-moment admission.",
+    "on_match": "Publication complete for597; no further metadata self-SHA write/repeat push. Actual independently verified child is final HEAD. Resume only next-full-image-moment-admission.md; its surjectivity remains unpaid."
   }
 }
