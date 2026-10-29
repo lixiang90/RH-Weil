@@ -42,8 +42,8 @@
     "settled_iterations": [
       "notes/595-full-weil-9-8-fixed-comparison-negative-certificate.md"
     ],
-    "stage": "595 rootconsumed independentnegative witness81bf/fresh8182 andscope10348; actualevenK/P0 nonPSD, Qunknown/oddnotrun. Onecompletedfailedresearchiteration settled cadence once0->1/history59/latest595/formal19. C058 exhausted; publicationpending.",
-    "next_action": "Publish595 normalmain andverifyactualremote; thenonlylimitedadmission in reviews/2026-10-29/weil-9-8-admission/next-physical-lower-comparison-admission.md: oldscopefirst, sameactualv->physicalsource scalar forLlow withpaiderror. Notexecutedyet/noC059; noC058parameterresume.",
+    "stage": "595/C058 rootsettled stopped/oneiteration; sourcee208ace actualpublished/independentref-tree-parent verified. Threefilemetadatachild conditionawaitingactualHEAD observation. No pendingresearchprocess.",
+    "next_action": "VerifyactualmetadatachildHEAD/tree/parent/exact3paths/clean/checkpoint; ifconditionpasses no repush. Thenonlyunexecuted next-physical-lower-comparison-admission.md: strongoldfirst, samev physicalLlow scalarwithpaiderror; noC058resume/noC059 yet.",
     "stop_rule": "OnefixedL9/8/Omega256/N448/mu1/8/theta2^-48 fullcertificate. PreserveNONPASS; noL/weight/degree/precision sweep; implementationbug record/freeze/reclose. Finitewindow neverlongGoalcomplete."
   },
   "support_contracts": [],
@@ -99,16 +99,16 @@
   "runtime_goal_observation": {
     "status": "active",
     "created_at_unix": 1793085111,
-    "observed_at_utc": "2026-10-29T01:47:00.695550+00:00",
-    "basis": "Liveget_goal sameactive beforeC058 actualmoments/tailslaunch; actualsessions71000/8975 observedrunning."
+    "observed_at_utc": "2026-10-29T02:39:54.060848+00:00",
+    "basis": "Liveget_goal sameactive atfinalpublication; 595executed/settled/sourcepublished, fullGoalopen."
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-10-29-weil-9-8-fixed-failure-source.json",
+  "checkpoint": "goals/checkpoints/2026-10-29-weil-9-8-fixed-failure-sync.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
-    "commit": "08a02d2b4fe414939480515ea7d6d245083298fb",
-    "tree": "c9d466624e7dc070a30c43df154ce5716d8c93d8",
-    "basis": "RecoveryindependentGitHub ref/commit/tree/parent andclean verifiedprior metadata condition; no repush."
+    "commit": "e208aced3bb59b68de56562ccd1ddd68edc295ec",
+    "tree": "7225c32dcccc73ef8f4c80d4b1ce53da9903a25e",
+    "basis": "595source normal10808proxypush exit0; independentGithub3GET ref/commit/tree/parent matched. Metadatachild completioncondition inremote-sync-verification; verifyactualHEAD, do notcallsourcesha currentchild."
   },
   "completion_audit": {
     "goal": "goals/GOAL.20261027.md",
@@ -118,9 +118,9 @@
     "final_execution_gate": "not-eligible",
     "basis": "595 exactnegative finite sufficientP0, notactualQnegative orpositivewindow. No newkeyprimitive/mixed/growingcore input orsubstantialcoreclassboundary. ThreeGoal gatesopen/noteligible; whole4/5UPPER unchanged."
   },
-  "process_inventory_observed_on": "AllC058 exec andagents terminal/rootconsumed; no pendingprocess. OneactualGram NONPASS preserved; independentinteger compactwitness verifier exit0.",
+  "process_inventory_observed_on": "AllC058agents/exec terminal/rootconsumed; no pendingprocess. Publicationmetadatachild finalcondition only; nextphysicaltest notexecuted.",
   "publication_approval_gate": {
-    "status": "595-root-settled-local-awaiting-normal-publication",
+    "status": "595-source-verified-metadata-child-condition-pending-observation",
     "destination": "https://github.com/lixiang90/RH-Weil",
     "visibility": "public",
     "branch": "main",
@@ -130,9 +130,9 @@
       "reply": "每轮把进度同步到github；把文献保存在文献库中，用研究看板来记录各个路线的状况",
       "scope": "本项目研究/Goal/STATE/看板/文献元数据/审查与同步回执；论文再分发许可不明则全文仅本地。"
     },
-    "current_scope": "595 fixedcomparisonfailure/source-inverse assets/currentfresh/root; library133 andboard. Publiconlymetadata/originalcode/compactgeneratedwitness, fulltexts/largetargetsignored. Actualremoteverification pending.",
-    "verification": "reviews/2026-10-29/sonin-determinant-line-admission/remote-sync-verification.json",
-    "published_source_commit": "0332f7bbb3054e2444436e83ad08415987f02dd5"
+    "current_scope": "Scientificsource44files published/independentlyverified. Only3metadatachild paths allowed; successwhenremoteactualHEAD/tree/parent/clean/checkpoint matchcondition. Do notrepushonmatchingcondition.",
+    "verification": "reviews/2026-10-29/weil-9-8-admission/remote-sync-verification.json",
+    "published_source_commit": "e208aced3bb59b68de56562ccd1ddd68edc295ec"
   },
   "research_board": "RESEARCH_BRANCHES.md",
   "literature_index": "literature/README.md",

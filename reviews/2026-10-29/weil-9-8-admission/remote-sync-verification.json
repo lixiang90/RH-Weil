@@ -1,0 +1,51 @@
+{
+  "schema": "rh-weil-c058-remote-sync-v1",
+  "observed_at_utc": "2026-10-29 02:39:52 UTC",
+  "repository": "https://github.com/lixiang90/RH-Weil",
+  "branch": "main",
+  "source_commit": "e208aced3bb59b68de56562ccd1ddd68edc295ec",
+  "source_tree": "7225c32dcccc73ef8f4c80d4b1ce53da9903a25e",
+  "source_parent": "08a02d2b4fe414939480515ea7d6d245083298fb",
+  "normal_proxy_push_exit_code": 0,
+  "independent_github_observations": [
+    {
+      "url": "https://api.github.com/repos/lixiang90/RH-Weil/git/ref/heads/main",
+      "ref": "refs/heads/main",
+      "object_sha": "e208aced3bb59b68de56562ccd1ddd68edc295ec"
+    },
+    {
+      "url": "https://api.github.com/repos/lixiang90/RH-Weil/git/commits/e208aced3bb59b68de56562ccd1ddd68edc295ec",
+      "sha": "e208aced3bb59b68de56562ccd1ddd68edc295ec",
+      "tree_sha": "7225c32dcccc73ef8f4c80d4b1ce53da9903a25e",
+      "parents": [
+        "08a02d2b4fe414939480515ea7d6d245083298fb"
+      ]
+    },
+    {
+      "url": "https://api.github.com/repos/lixiang90/RH-Weil/git/trees/7225c32dcccc73ef8f4c80d4b1ce53da9903a25e",
+      "sha": "7225c32dcccc73ef8f4c80d4b1ce53da9903a25e",
+      "tree_entries": 20
+    }
+  ],
+  "source_verified": true,
+  "scope": "595 fixed sufficient comparison exact failure; not a full Q sign result. Literature133/board/cadence1/history59/formal19 and complete proof records published. No third-party fulltext or large numeric packet.",
+  "metadata_completion_condition": {
+    "remote_ref_must_equal_actual_local_HEAD": true,
+    "actual_HEAD_parent_must_equal_source_commit": true,
+    "changed_paths_exactly": [
+      "goals/STATE.json",
+      "goals/checkpoints/2026-10-29-weil-9-8-fixed-failure-sync.json",
+      "reviews/2026-10-29/weil-9-8-admission/remote-sync-verification.json"
+    ],
+    "actual_HEAD_tree_must_match_independent_Github_commit_and_tree": true,
+    "working_tree_clean_and_state_checkpoint_valid": true,
+    "no_repush_or_recursive_own_sha_when_condition_passes": true
+  },
+  "next_action_after_condition_passes": "Only the unexecuted physical lower-operator admission recorded in next-physical-lower-comparison-admission.md; oldscope first, no C058 parameter continuation/no C059 yet.",
+  "runtime_goal": {
+    "status": "active",
+    "created_at": 1793085111,
+    "completion_gate": "open/noteligible"
+  },
+  "self_reference_policy": "This receipt records the verified scientific source and an exact three-file metadata-child condition; it does not claim its own commit SHA."
+}
