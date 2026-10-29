@@ -3,13 +3,23 @@
   "date": "2026-10-29",
   "repository": "https://github.com/lixiang90/RH-Weil",
   "branch": "main",
-  "status": "source-pending-not-yet-verified",
+  "status": "source-verified-metadata-child-condition-armed",
   "source_parent": "61d46e94891e96ee7c915b9a132cabf8dad6da9c",
   "authorization": "Userdirectper-roundpublicmain sync/Goalsection5; command10808proxy authorized.",
   "scope": "601limitedHaran2007wholematrix/selfpushout affinefold; generalfaithfulzero/Spec/tensor corrections; twoinitialformula duplicate/typing0; root24bindings/C064stopped/solecadence3history65formal20/board/library140. PDFfulltextignored/actuallimitedreadscope. No keycore/wholeGoalcompletion.",
-  "source_verification": null,
+  "source_verification": {
+    "commit": "bd63f4d453400b72c3ec0b0b67274f11466de24d",
+    "tree": "de3326d68ba11dd84bbdf4280a002295222d2642",
+    "sole_parent": "61d46e94891e96ee7c915b9a132cabf8dad6da9c",
+    "source_changed_paths": 26,
+    "observed_at_utc": "2026-10-29T12:09:34.309285+00:00",
+    "basis": "Independent connectedGitHub actualmainref/gitcommit/gittree matchedlocalHEAD/tree/soleparent; clean/sourcecheckpoint PASS.",
+    "bindings": "24rootraw inputs includinglocalignoredPDF;23publicrootbindings exactrawstage match. Fouroriginals+fresh/corrections preserved; Goal/595-600/formal20 unchanged.",
+    "cadence_literature": "ONE601finiteadmission2->3/history65/latest601/formal20held;140entries/newPDFonlylocalignored/actuallimitedreadscope",
+    "new_key_or_whole_improvement": false
+  },
   "metadata_child_condition": {
-    "parent": "TO_BE_BOUND_AFTER_INDEPENDENT_SOURCE_VERIFY",
+    "parent": "bd63f4d453400b72c3ec0b0b67274f11466de24d",
     "exact_paths": [
       "goals/STATE.json",
       "goals/checkpoints/2026-10-29-haran-affine-601-sync.json",
