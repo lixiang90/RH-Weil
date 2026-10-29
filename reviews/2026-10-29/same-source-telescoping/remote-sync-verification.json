@@ -1,0 +1,20 @@
+{
+  "schema": "rh-weil-publication-verification-v1",
+  "date": "2026-10-29",
+  "repository": "https://github.com/lixiang90/RH-Weil",
+  "branch": "main",
+  "status": "source-preparing-not-yet-published",
+  "source_parent": "af7d171e3f0de35b61dbc7d347f9689c03601980",
+  "authorization": "Userdirecteachiterationsync, Goalsection5; no new permission needed.",
+  "scope": "Zero-math actualsame-source admission andstrongoldscope, no sourcefulltext/cadence/manifest/596changes. SameGoalactive/open.",
+  "source_verification": null,
+  "metadata_child_condition": {
+    "parent": "to be resolved after scientificsource independentverification",
+    "exact_paths": [
+      "goals/STATE.json",
+      "goals/checkpoints/2026-10-29-same-source-telescoping-sync.json",
+      "reviews/2026-10-29/same-source-telescoping/remote-sync-verification.json"
+    ],
+    "condition": "One normalmetadatachild, independentactualref/commit/tree andlocalHEAD/tree/soleparent/exact3paths/clean/checkpoint allmatch. Onmatch no selfSHAwrite/repeatpush; proceedonlySTATE nonformalcore-inputchoice."
+  }
+}

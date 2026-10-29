@@ -1,0 +1,162 @@
+{
+  "schema": "rh-weil-root-consumption-v1",
+  "date": "2026-10-29",
+  "goal": "goals/GOAL.20261027.md",
+  "runtime_goal_created_at": 1793085111,
+  "baseline_commit": "0c4f3a3eb609bb1d9564138fa4a35701f05605f2",
+  "decision": "D20261029Z",
+  "status": "root-consumed-standard-old-admission-stop",
+  "math_iterations": 0,
+  "result": "goals/reviews/2026-10-29-same-source-telescoping-admission-stop.md",
+  "inputs": [
+    {
+      "path": "goals/GOAL.20261027.md",
+      "bytes": 9679,
+      "sha256": "b3d2acb1f962d793f45d79b6a4e67fb87dd072cd4752108a9298204b4cefa1de",
+      "utf8_lf": true
+    },
+    {
+      "path": "goals/contracts/C059-critical-prime-sonin-covariance.md",
+      "bytes": 2011,
+      "sha256": "376a3bc8f3504e2d071d8c30ad81579c78c7488cb2d2b93c80d7dee008972be8",
+      "utf8_lf": true
+    },
+    {
+      "path": "goals/reviews/2026-10-29-critical-prime-596-settlement.md",
+      "bytes": 3721,
+      "sha256": "811b56c38cb38061c8831aaff8f06aeeabebfe8fae1628a00c0e032ef70b2130",
+      "utf8_lf": true
+    },
+    {
+      "path": "reviews/2026-10-29/critical-prime-covariance-proof/root-consumption-scope.json",
+      "bytes": 12083,
+      "sha256": "80d5ec2ddc9d6e134640e581cbd8123d723f252708f163678b3d0daac9bb3f63",
+      "utf8_lf": true
+    },
+    {
+      "path": "reviews/2026-10-29/critical-prime-covariance-proof/toeplitz-trace-and-transport.md",
+      "bytes": 24003,
+      "sha256": "3946f4d843f86e7d2991b39db8ba4acf31ab1d9bb666c0a57b2e4eabddd6a977",
+      "utf8_lf": true
+    },
+    {
+      "path": "notes/555-actual-prime-weighted-schur-and-growing-weil-inertia.md",
+      "bytes": 6167,
+      "sha256": "55a3745ab8160738e2a2dde15e84290e99205df68f3b59b357d26127846a31c5",
+      "utf8_lf": true
+    },
+    {
+      "path": "notes/557-joint-row-norm-and-gamma-arithmetic-moment-budget.md",
+      "bytes": 6491,
+      "sha256": "5abfd13af9c955b27c5a2ea8f01d2555fa05b1df450adbedbcfe20f62d327166",
+      "utf8_lf": true
+    },
+    {
+      "path": "notes/560-joint-finite-place-sonin-primepower-cancellation-and-compact-weil-bridge.md",
+      "bytes": 9263,
+      "sha256": "9c2e6cd5a9eae269ad04b332699c21eec7403a230f9557afa8b895c45d4228d3",
+      "utf8_lf": true
+    },
+    {
+      "path": "notes/585-cofinal-sonin-fixed-source-trace-lower-and-core-error-fee.md",
+      "bytes": 7857,
+      "sha256": "5dca916d978eef599587ff4c6ce34144f814ddec0567a4c1b2314dcd71cd01af",
+      "utf8_lf": true
+    },
+    {
+      "path": "notes/587-actual-sonin-moment-spread-and-growing-source-rank-necessity.md",
+      "bytes": 8681,
+      "sha256": "e4d30cfb6d07299386014cb4c4e3e3979ab5111264355dfb37b24629f121ac82",
+      "utf8_lf": true
+    },
+    {
+      "path": "notes/589-sonin-zero-mean-upper-and-scalar-rank-one-limit.md",
+      "bytes": 7185,
+      "sha256": "c491012226713baf0eecff045338563d4e440c6a1bde9eea0d9ccf661b958bc5",
+      "utf8_lf": true
+    },
+    {
+      "path": "notes/591-connected-occupation-covariance-three-fixed-test-barrier.md",
+      "bytes": 5974,
+      "sha256": "5a6d6e221369a1a9bce668d56c9fe574aeca0a295fdb7d0ccd31e4fcd03eaa7c",
+      "utf8_lf": true
+    },
+    {
+      "path": "notes/596-critical-prime-sonin-covariance-and-signed-increment.md",
+      "bytes": 9094,
+      "sha256": "b609b8e5a820ca259c1a02fce134ca5b788d4c3373b933b6e1d2c3094cc4a782",
+      "utf8_lf": true
+    },
+    {
+      "path": "goals/review-cadence.json",
+      "bytes": 6749,
+      "sha256": "a5cfcd0ca0f2a4ad63f6c7b60d55c83024ebb86387f0a12a0b7b167e6f3cf600",
+      "utf8_lf": true
+    },
+    {
+      "path": "reviews/2026-10-29/same-source-telescoping/source-and-update-coverage.md",
+      "bytes": 12084,
+      "sha256": "22921e747890d05d3ff4975a2e004ae27e8becc461da2a51c2bd4bd6ba4d111a",
+      "utf8_lf": true
+    },
+    {
+      "path": "reviews/2026-10-29/same-source-telescoping/strongest-old-and-whole-consequence.md",
+      "bytes": 11861,
+      "sha256": "695398d0e2efd46ee5dc03bdfbdae7dceace2ab8eb1a2ddf88fb32e649463441",
+      "utf8_lf": true
+    },
+    {
+      "path": "reviews/2026-10-29/same-source-telescoping/fresh-alignment-and-net-audit.md",
+      "bytes": 13460,
+      "sha256": "ad40d315fd0d3fa55865191ed896d1597c075ea82abfee22de56672a121b7de5",
+      "utf8_lf": true
+    }
+  ],
+  "actual_consumption": "Root fullyread bothfrozenoriginals12084/11861 anddifferentfresh13460, rehashed beforeconsumption. Independentlyreconstructed exactsameI finiteidentity, generalW HSfactor8tau, sourceFouriernonrange, positivecompressionendpoint bound, old587embedding/minmax andfinite-dimensionalnonimplication.",
+  "premise_closure": {
+    "objects": "ActualphysicalPi_F/epsilon_F compressionK_(F,I), originaldu/zeroextensionDlog; reflectedreceiverdt/(2pi). Eulerfactorboundedbijectionnotunitary; no newarithmeticclass/principal/quotientrole.",
+    "source_quantifiers": "Allfixedcomplexh, terminalP grows; f_P=J_Ph. CommonI_P foreachP/allq<=P; allqsteps cofinalF_<q. No movingh_(q,P) uniformity from596.",
+    "common_space": "560 globalC0 multiplier compressions compatible withzeroextension I_q toI_P; finiteoperator sumtelescopes legitimately, no newlimit.",
+    "strict_trace": "For W_g anycompactsmoothtest, tau=Tr(SW_gS)=HSsquare; X=(SsqrtW)[sqrtW B_q S-sqrtW S B_q S] S1<=8tau. ExactDelta t=-a_qTr(XG_q^-1), fullinverse/cyclicitypaid; bareW_gS S1 remainsunconsumed.",
+    "source_range": "Fixednonnegativeevenpsi support(-.01,.01); h=(D²-1/4)psi doublepolezero/nonzero, butnotmean0. At t_q=pi/logq, hat f_P nonzero and J_q multipliersimplezero, so f_P notinJ_q L2 range. Finitepolarization/shift donotfix.",
+    "legal_escape": "J_q range dense/nonclosed; paidapproximation permitted, boundedpreimage exactlimit impossibleinthisexample. Norm/strongseminorm/errortransport/limitorder notpaidby596, no costrate orclasswidefailure."
+  },
+  "strongest_consumable_old_consequences": {
+    "chain": "560actualpositive trace + |1+phase|²<=4 +589fixed-hupper; 560sameepsilon compression +587fixedsmallwindowminmax.",
+    "common_source": "For allfiniteF/P, 0<=t_F[J_Ph]<=4t_F[h]. X->infinity gives sup_P t_<=X[J_Ph]=O_h(s_X), mean0 o_h(s_X), s_X=sqrtX/log²X.",
+    "cumulative": "abs(sum_q<=P Delta t_q[f_P]) <=4(t_<=P[h]+t_empty[h])=O_h(s_P+1), mean0 o(s_P)+O1. Not sum_q abs(Delta t).",
+    "partial_K": "K_<=P[f_P]=P_<=P[f_P]+O_h(s_P+1), viauniformqGammaabsolute bound; mean0 sharperasabove. No substitutionofper-qresonantmainterms.",
+    "whole_positive_spectrum": "587fixedI0 everyfixedj lower c_j sqrtP/log(P)^(3j-1)-C_j ->infinity transports toI_P viaactualepsiloncompression/minmax. Strongerthananywhole-K shrinkingcountclaim; distinctfrom596 DeltaKnewresult."
+  },
+  "sign_fullness_errors": {
+    "source_arithmetic": "R_fP(v)=2R_h(v)+R_h(v-logP)+R_h(v+logP). q=P terminalresonance cannot beassignedtoeveryq<P; allproperpowers retained, q>Pmayvisible. F<=P ispartialnotfullQ.",
+    "signed_direction": "Kpositive adverse in Q=t-K+pole, notQnegative. FiniteGrampositive directionsmove; elementarydiag counterexampleinvalidatesaddinginertias, notactualSonincountermodel.",
+    "complete_normalization": "Gamma=2thetaPrime/FPcontact, allLambda(q^k)=logq/two correlations/duand2pi maintained; same-sourceGamma/pole cancellationnotdeletion."
+  },
+  "net_consequence": {
+    "new_mathematics": false,
+    "local_decision_changed": true,
+    "key_bottleneck_changed": false,
+    "retained_596": "Actualcofinalsingleprime/fixedfiniteGram/shrinkingthresholdcount remainsnewpaidonce; no rollback/recount.",
+    "whole": "No wholebudget/improvedfullQsign; strongest542+555->557 leading4/5negativeinertiaUPPER unchanged. SafehighALLdu transportpaid.",
+    "unpaid": "Actualarithmeticprimitive/principal/sections/mixed, dangeroussignedcorecross/growingXi/fullnetcomparison remains. Missingcriterion mustbeat alreadyknownendpoint/partialK and587wholebounds."
+  },
+  "cadence_library": {
+    "cadence_unchanged": {
+      "path": "goals/review-cadence.json",
+      "bytes": 6749,
+      "sha256": "a5cfcd0ca0f2a4ad63f6c7b60d55c83024ebb86387f0a12a0b7b167e6f3cf600",
+      "utf8_lf": true
+    },
+    "current": "2/history60/latest596/formal19, notformal20/noreset",
+    "manifest_count": 135,
+    "manifest_sha256_unchanged": "de8f3f9b497fc6cd7ede01b5bde430a24cfba6da0cd19fc726f6dc46a1db623c",
+    "primary_reading": "No newexternalprimary/readscope/download; onlyexistingnotesandproofs. LocalmanifestRRZ/Jacobianlocator comparedwithstrong10-20review, no newPDFpages orsourcegate."
+  },
+  "stop": "Directsum596 admission exhausted. No C060/597, prime-sum proof, PNTendpointasymptotic, remarkexponent/delta/rankgrowth/sourcequeue. Differentpaidjoint/resummation andgeometric/Dprime escapes preserved.",
+  "next_action": {
+    "type": "nonformalcore-input opportunitychoice only, no cadence reset",
+    "scope": "Use new596 plusrecoveredstrongold endpoint/K=P+O(s+1)/587wholebaseline tocomparemainprimitiveedge, independentpositiveDprime, actualsignedcore. Produce atmostone concretecandidatewithactualsourceformula, cheapestfalsifiablegate andstrongold-subtractedfullnet.",
+    "admission": "No mathbudget withoutactualinput/test/net. A sourcecandidate mustrecoverrealoldscope andfreezeonechapter/stop; no recursiveoldquery, stoppedSonin/PNTorunpaidcrossrenaming."
+  }
+}

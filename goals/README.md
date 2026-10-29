@@ -1,5 +1,7 @@
 # 长期研究恢复入口
 
+2026-10-29，[同源telescoping准入旧0止](reviews/2026-10-29-same-source-telescoping-admission-stop.md)：两稿12084/11861、不同fresh13460/root闭。Exact同I相加/一般源严格HS合法，596的J_qh不能免费换J_Ph；实际双pole-zero源无J_q的L²原像，有费稠密逃逸保留。不能遗漏强旧：t_F[J_Ph]≤4t_F[h]、abs(ΣΔt)=O_h(sP+1)、K_≤P[fP]=P_≤P[fP]+同余项，587固定小窗嵌入已给wholeK每fixed正特征值→∞。故无新whole净量，不重领弱后果；properpowers/q>P可见项/fullQ仍须全保。596新邻接结果保持，关键瓶颈及whole4/5负惯性UPPER不变，Goalactive/open。Cadence6749bytes原SHA保持2/history60/latest596/formal19，库135不动，无C060/597/prime-sum/exponent/source后继。发布后只做一次非formal核心投入选择，先实际input/test/fullnet准入，不归零。具体执行见STATE。
+
 2026-10-29，[596/C059已root结算](reviews/2026-10-29-critical-prime-596-settlement.md)：两原稿14467/24003、不同fresh16582/root闭，actual全前驱Sonin与moving双脉冲得signed ΔK主项2(logp)/√p||h||du²、相对余项O_h((logp)^(-1/10))；有限fixed Gram与任意fixed m的收缩阈值正计数同链已消费。严格positive-compression/HS和完整逆闭合，paper q6.19未认证，实际运输用560。统一一个数学迭代，唯一cadence一次1→2/history59→60/latest596/formal19不变；库135，无新全文。局部leading项未被trace吸收，但primitive/principal/mixed、危险core/cross/成长Ξ及whole4/5负惯性UPPER未改，Goal同实例active/open。C059耗尽；发布后仅一次同源telescoping覆盖准入，不预准prime-sum/exponent/rank/source后继。准确执行/发布见STATE。
 
 2026-10-29，[核心输入机会成本审视已完成](reviews/2026-10-29-core-input-opportunity-review.md)：arith12203/signed11433/differentfresh12326/root闭，非formal0数学轮，非formal20/cadence不重置。没有新算术J_r/principal/mixed或独立正Dprime输入；只准既存bramble v2 Th6.5必要covariance proof门：actual前驱prime集合+moving双脉冲与560 SoninDeltaK已statement对齐，速率仍未审。Statement已读不再当下一动作，proof尚未执行；无C059/596预准，不续6.4/§7/参数。分圆resultant新primary已归档135，但natural fullprincipal类首门旧0拒，不成第二队列。核心及whole4/5负惯性UPPER不变，Goal同实例active/open；实际发布与next见STATE。
