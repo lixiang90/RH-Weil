@@ -1,5 +1,7 @@
 # RH-Weil 文献索引
 
+2026-10-29，[Sonin Gram determinant读取范围](supplements/2026-10-29-sonin-gram-determinant-old-scope.md)：仅项目560/591夹源域与406/410/569既有角色；Simon/Segal–Wilson/Gillet–Soulé条目只核原scope，未新开PDF/网页/章节或query/下载/数值。两原稿/不同限定fresh7294/root闭old0，含centeredscalar C²与holomorphic Gram消费限义；manifest132原字节及cadence0/history58/latest594/formal19保持，不加内部证明为新文献。
+
 2026-10-29，[594／formal19读取范围](supplements/2026-10-29-selfadjoint-euler-source-scope.md)：仅项目078/079/565/566/592及完整目标/四轮根记录，signedatom/自伴S₁谱舍入/HS量化自含；无新primary/web/query/PDF/下载/数值，manifest132原字节不动。数学fresh8339与宏观fresh8370分别核闭/root消费；594统一一轮至4/history58后formal19零数学原counter4→0一次，latest594保持。Standard exactnormal/signed换基与旧longclock不重复计功，不把局部HS净量升为关键算术输入。
 
 2026-10-29，[源商自导子旧来源scope](supplements/2026-10-29-source-derivation-old-scope.md)：核心只用项目405/516/519/520与537/552，402/430–432/573仅核HH类型；有限Hermite/非幺幂等元/char0局部计算自含。两原稿/不同限定7052-byte fresh/root已闭，old0不建C057/594，cadence3/history57/latest593/formal18保持。无新primary/web/query/PDF/下载/数值，manifest132原字节不动，不把内部标准后果添成新文献。

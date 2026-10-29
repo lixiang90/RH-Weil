@@ -2121,3 +2121,11 @@ Math8488/strongold9159/differentfresh8339 PASS均terminal/root全文读，五fre
 591共同occupation、592正周期图、593Nyman shorthead、594ordinarytrace自伴S1 fixedpairHS均有真局部新量词；norm/domain/growth/coverage不同，不能相加为完整Q独立净号。Whole最强542+555→557 leading4/5仍负惯性UPPER，primitive/principal/sections/mixed及dangerouscorecross/成长Xi未付。594 localpureexact弱化+非空prime-lines+28源quant不等于原关键前件移除；fixedpairHS不决定全局集体/quotient，同class内核心责任也未完成。原Goal三门open/noteligible，同1793085111active，非缩为当前容易的子类。
 
 主线同一非零primitive真实边/两槽mixed；现实备选为旧exact之外core净signed比较或独立正Dprime完整缺陷消失。只有实际不同input/pair/已执行choicechangingtest扣强旧后重准，不派空库存/泛形成/未知paper。Paused比例/零自由区与各旧停止域保持，C057不续moment/metric/gain/source，normalclock/longdiffuse/highgain/optimizer等原合法逃逸不被汇总抹除。当前唯一先594+formal19准确范围main授权发布、独立source与3metadatachild actualHEAD/tree/parent/clean核验；匹配不重推不重计，无已准继任数学/来源。
+
+## D20261029R — 自然Sonin Gram行列式归旧V_R，不以line标签续预算
+
+Domain8158/strongold7948/currentdifferentfresh7294 PASS均terminal/root全文核，三实际输入匹配；readonlyC2子核terminal无写入。Root重推fixedF density/receiver2pi、weightedL1强源下strictsandwichS1、ordinaryFredholm与Gram purification/PD、mixedLevi=591V_R无factor2。Holomorphic scalar log|tau|²局部平坦不能当Gram正曲率，detline/dual Chern号明确；本自然共同R类的三fixed-testgap与positiveweight必要费完全由591强旧直接给，old0，不建C058/595、不推进cadence0/history58/latest594/formal19或manifest132。
+
+Domain§5 C2句仅中心化scalarF链式法则，rawGram任意nonholomorphic同tangent仍可加2Re(a)ell(h)项；只消费自然holomorphic Gram分支，任何更宽C2不变读法不消费。共同op零自由ball不付cofinalS1/高阶费用，pointwise nonlinear极限不交换Levi。406 principal/Green正则单位可非零arch分量；不以裸metric失配排所有算术线。Signedrelative/virtualtensor、新nonholomorphicmetric/feature、够高gain及真实principalGreen协同保留，但不据未付预算安排后继。
+
+实际关键primitive/principal/sections/mixed、dangerouscorecross/成长Xi与whole4/5负惯性UPPER未改，原Goal同1793085111active/open/noteligible。当前唯一先准确范围normalmain发布及独立source/3metadatachild actualHEAD/tree/parent/clean；匹配不重推不重计。C057仍原已完合同，不续本tau/frame/normalization/relative预算或旧source章，无继任数学/source已准。无新primary/web/query/PDF/下载/数值；具体根范围见goals/reviews/2026-10-29-sonin-gram-determinant-old-stop.md。

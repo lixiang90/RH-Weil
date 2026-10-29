@@ -1,5 +1,7 @@
 # 研究分支看板
 
+2026-10-29，[Sonin Gram determinant旧0止](goals/reviews/2026-10-29-sonin-gram-determinant-old-stop.md)：两原稿/不同限定fresh/root已闭，ordinary夹心S₁与Gram PD合法，但自然source的mixed Levi精确为旧V_R，直接受591三测试及正weight必要费约束。Scalarτ全纯平坦/Gram度量/dual号分清；nonholomorphic新metric、pointwise非线性、relative signed、principal Green补偿仍未排。仅停止本自然curvature提案，不当全部detline失败；关键primitive/mixed/corecross/Ξ与whole4/5UPPER不变，数学0/cadence0/history58/latest594/formal19及manifest132保持。当前准确范围授权发布，无C058/595或已准继任预算。
+
 2026-10-29，[594＋formal19已闭](goals/reviews/2026-10-29-general-rh-macro-review-cycle-19.md)：普通trace自伴S₁的signed共同源，无pureexact/无uniform维数秩范数，fixedsource迫nativeHS rank1舍入/fixedprimepair产品趋0；≤28源误差给δ^(1/4)界。Normal-clock、集体growth、非linear/relative/singular等实际范围保留；不付完整Q独立正号。两数学原稿/不同fresh/root及两宏观支持/不同macrofresh/root核闭，四轮591–594后原counter4→0一次/history58/latest594/formal19；manifest132保持。关键primitive/principal/mixed/corecross/Ξ及whole4/5UPPER不变，Goalactive。主线实际非零primitive边，备选core净号/独立正D′；当前无新实物/继任预算，不续C057矩/metric/gain/source，先准确范围发布。
 
 2026-10-29，[源商自导子标准旧0止](goals/reviews/2026-10-29-source-derivation-standard-old-stop.md)：两原稿/不同限定fresh/root已闭。任意同A=F/Pan的代数自导子像落Weil根，含sourceadaptive选择、有限signed/A组装及实际强商极限，fullmixed Q零而不能保537非根。实际有限块/双degree已旧，余为标准计算，故不建C057/594或计数学轮。HH¹与HH₁/其它module分开，different regulator/relative/higher不据此排除也不自动授预算。关键primitive/principal/mixed/corecross/Ξ和whole4/5负惯性UPPER未改；cadence3/history57/latest593/formal18、manifest132保持，Goalactive。当前准确范围发布，无已准后继。

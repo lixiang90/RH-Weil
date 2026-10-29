@@ -1,5 +1,7 @@
 # 长期研究恢复入口
 
+2026-10-29，[Sonin Gram行列式old0止](reviews/2026-10-29-sonin-gram-determinant-old-stop.md)：ordinary夹源S₁强域和真实Gram metric已两原稿/不同限定fresh/root核，mixed Levi逐层恰591的V_R，三fixed-test及positiveweight必要费直接旧消费。Scalar全纯τ局部曲率0与Gram/dual号分开；非全纯C²重参数、pointwise极限不换Levi、principal非零Green等范围均保。无新算术mixed输入，不建C058/595；关键瓶颈及whole4/5负惯性UPPER未改，cadence0/history58/latest594/formal19、manifest132不动，Goalactive。当前准确范围发布核actualHEAD，不续τ/frame/relative预算/旧章，无已准继任。
+
 2026-10-29，[594＋formal19已结算](reviews/2026-10-29-general-rh-macro-review-cycle-19.md)：自伴ordinaryS₁ prime-linear共同源在fullfixedcomplex匹配下，无pureexact/无uniformrankdimnorm仍迫rank1HS舍入/fixedpairHS退耦；≤28fixed源误差δ给O_pq(δ^1/4)。两原稿/不同数学fresh/root及两宏观支持/不同macrofresh/root均闭。NativeH_j范数与du分开，normalclock/fullgrowing集体混合逃逸保留。591–594四轮及时复盘，同counter先数学3→4/history58/latest594，再formal19零数学4→0一次；manifest132不动。局部选择改变，关键primitive/principal/mixed/corecross/Ξ与whole4/5负惯性UPPER未改，Goal同实例active/open。C057耗尽，不续矩/metric/gain/source；当前先本轮准确范围授权发布核actualHEAD，无已准继任。
 
 2026-10-29，[源商自导子标准旧0止](reviews/2026-10-29-source-derivation-standard-old-stop.md)：两原稿/不同限定fresh/root闭。405/519/520的实际有限幂等块加标准char0计算给任意代数δ:A→A的像落516 value-radical，完整mixed Q恒零，无法保537非根；无continuity/lift/unit/谱包稠密前件。保重根高jets与HH¹≠HH₁/其它module，不称全局nilradical/全部几何失败。属最强旧直接后果，不建C057/594；关键瓶颈及whole4/5负惯性UPPER未改，cadence3/history57/latest593/formal18与manifest132不动，Goal同实例active。当前先本门准确范围发布核actualHEAD，无已准后继。
