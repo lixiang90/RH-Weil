@@ -2099,3 +2099,25 @@ Root已守卫原单cadence2/history56/latest592后仅一次变3/history57/latest
 选择是停止同A内部自导子产生非根primitive的提案，而非完成几何主线。关键primitive/principal/sections/mixed、危险signedcorecross/成长Xi与whole542+555->557 leading4/5负惯性UPPER未改；长期Goal同1793085111active/open/noteligible。单cadence3/history57/latest593/formal18及manifest132原字节保持，没有新增来源/数学轮。当前唯一动作为准确范围正常main发布、独立source与metadatachild actualHEAD/tree/parent核验；无已准后继math/source。不重开C056短窗预算，不串HH/cyclic旧query。重准须不同actual source/pair或已执行且扣最强旧后能改变选择的具体test；仅改值域名称不够。
 
 完整结算及根前件见 goals/reviews/2026-10-29-source-derivation-standard-old-stop.md 与 reviews/2026-10-29/source-derivation-admission/root-consumption-scope.json。
+
+## D20261029O — 准入C057：自伴signed源的rank-free Hilbert退耦
+
+Root全文消费当前math8488/strongold9159原稿的准入信息，实际fixedatom/二至四矩谱舍入/产品HS证明已形成。Signed两投影/exact-pure normal归旧；去掉逐层pureexact并允许ordinaryS1无限H、无uniformdimension/rank/norm后的selfadjoint fixedsource→rank1HS/fixedpair乘积HS消失，079/592强旧不直接支付。故准一个C057完整数学迭代，594草稿/同字节fresh快照已形成；尚未不同fresh/root最终消费，不提前计轮。
+
+全Γ/contact/properpowers/双pole及原fixedcompact complex域保持；signed测度不借正TV。Normal共用clock为实际合法范围反例，nativeH_j范数不免费运回du/Euclidean；不是全normal或全signed边界。关键primitive/principal/mixed/corecross/Xi、whole4/5负惯性UPPER及Goal完成门未动。当前先不同mathfresh，闭合后最多统一cadence3→4/history57→58/latest594；达到4时连续非核心/来源投入做formal19，复盘完成才同counter4→0一次。支持/原型/审查/来源与复盘0数学；无新外部source/query/PDF/numeric。
+
+## D20261029P — 594一次结算，自伴HS新后果与核心责任分开
+
+Math8488/strongold9159/differentfresh8339 PASS均terminal/root全文读，五fresh输入版本及6714快照匹配。Root独立核ordinaryS1无限H、signed fixedatom双槽、spectralrounding及nativeHS产品量化，消费594。无逐层pureexact/无uniformrankdimensionnorm的selfadjoint fixedsource→rank1HS/fixedpair产品HS0为真新局部净后果；28fixedsource误差delta给O_pq(delta^1/4)，不另计轮。Signedtoy/exactnormal/旧longclock不重计；normalclock保持fullfixedsigned实际逃逸，Euclidean需合法识别/conditionnumber。
+
+原单cadence3/history57/latest593只一次变4/history58/latest594，formal18暂保持。原型/两作者/fresh/root/宏观准备/发布不另计；C057一轮耗尽，不续moment/metric/gain/source。四轮591–594与连续非核心/source记录触发用户4–8内的提前formal19；当前两支持仍条件准备，后续需macrofresh/root再正式reset同counter4→0一次，不能提前。
+
+新必要退耦改变本prime-linear ordinarytrace自伴class选择；全Γ/H在atom差中扣除，不给独立正号。关键primitive/principal/sections/mixed、dangeroussignedcorecross/成长Xi及whole4/5负惯性UPPER未改；Goal同1793085111active/open/noteligible，不把localweakening+nonempty+quant词组替代原关键责任。当前唯一下一macro19根审与发布，无继任math/source已准。完整记录见goals/reviews/2026-10-29-selfadjoint-euler-594-settlement.md。
+
+## D20261029Q — formal19执行：四轮局部净值不替代原核心完成门
+
+两宏观支持11256/10466、不同当前macrofresh8370 PASS和actual594 root全部terminal/root全文核。8007宏观draft七项输入及数学17bindings已匹配；支持稿历史3/pending594由actualmath8339fresh/root结算解除。Root守卫当前4/history58/latest594后仅一次formal19归零4→0，history/latest594及原0c4f基线/Goal不动，复盘0数学。
+
+591共同occupation、592正周期图、593Nyman shorthead、594ordinarytrace自伴S1 fixedpairHS均有真局部新量词；norm/domain/growth/coverage不同，不能相加为完整Q独立净号。Whole最强542+555→557 leading4/5仍负惯性UPPER，primitive/principal/sections/mixed及dangerouscorecross/成长Xi未付。594 localpureexact弱化+非空prime-lines+28源quant不等于原关键前件移除；fixedpairHS不决定全局集体/quotient，同class内核心责任也未完成。原Goal三门open/noteligible，同1793085111active，非缩为当前容易的子类。
+
+主线同一非零primitive真实边/两槽mixed；现实备选为旧exact之外core净signed比较或独立正Dprime完整缺陷消失。只有实际不同input/pair/已执行choicechangingtest扣强旧后重准，不派空库存/泛形成/未知paper。Paused比例/零自由区与各旧停止域保持，C057不续moment/metric/gain/source，normalclock/longdiffuse/highgain/optimizer等原合法逃逸不被汇总抹除。当前唯一先594+formal19准确范围main授权发布、独立source与3metadatachild actualHEAD/tree/parent/clean核验；匹配不重推不重计，无已准继任数学/来源。

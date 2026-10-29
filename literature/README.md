@@ -1,5 +1,7 @@
 # RH-Weil 文献索引
 
+2026-10-29，[594／formal19读取范围](supplements/2026-10-29-selfadjoint-euler-source-scope.md)：仅项目078/079/565/566/592及完整目标/四轮根记录，signedatom/自伴S₁谱舍入/HS量化自含；无新primary/web/query/PDF/下载/数值，manifest132原字节不动。数学fresh8339与宏观fresh8370分别核闭/root消费；594统一一轮至4/history58后formal19零数学原counter4→0一次，latest594保持。Standard exactnormal/signed换基与旧longclock不重复计功，不把局部HS净量升为关键算术输入。
+
 2026-10-29，[源商自导子旧来源scope](supplements/2026-10-29-source-derivation-old-scope.md)：核心只用项目405/516/519/520与537/552，402/430–432/573仅核HH类型；有限Hermite/非幺幂等元/char0局部计算自含。两原稿/不同限定7052-byte fresh/root已闭，old0不建C057/594，cadence3/history57/latest593/formal18保持。无新primary/web/query/PDF/下载/数值，manifest132原字节不动，不把内部标准后果添成新文献。
 
 2026-10-29，[C056 Nyman head／affine旧来源scope](supplements/2026-10-29-nyman-head-affine-scope.md)：只用项目081–088与095–111相关actual域、525(6)旧经典Mertens输入，自含floor/pulse／PNT端点积分／parallelogram；无新外部primary/query/PDF/下载/数值，manifest132原字节保持。三原件/不同数学fresh7986/root已闭，一数学轮至3/history57/latest593/formal18保持；不偷原Weil身份或optimizer距离结论，不续head-rate/degree/selector/source。
