@@ -1,0 +1,150 @@
+{
+  "schema": "rh-weil-macro-root-consumption-v1",
+  "date": "2026-10-29",
+  "runtime_goal_created_at": 1793085111,
+  "goal": "goals/GOAL.20261027.md",
+  "baseline_commit": "0c4f3a3eb609bb1d9564138fa4a35701f05605f2",
+  "status": "formal20-root-consumed-limited",
+  "decision": "D20261029AE",
+  "formal_review": "goals/reviews/2026-10-29-general-rh-macro-review-cycle-20.md",
+  "observed_at_utc": "2026-10-29T08:22:25.974677+00:00",
+  "inputs": [
+    {
+      "path": "goals/GOAL.20261027.md",
+      "bytes": 9679,
+      "sha256": "b3d2acb1f962d793f45d79b6a4e67fb87dd072cd4752108a9298204b4cefa1de",
+      "role": "scope-bound-current-input"
+    },
+    {
+      "path": "goals/reviews/2026-10-29-general-rh-macro-review-cycle-19.md",
+      "bytes": 8844,
+      "sha256": "4c5ba18e38efc169ddbea072c34a1c08ca254728f1042e8dd1f7c6f020ad9eea",
+      "role": "scope-bound-current-input"
+    },
+    {
+      "path": "notes/595-full-weil-9-8-fixed-comparison-negative-certificate.md",
+      "bytes": 6376,
+      "sha256": "58ed6abd08bc410b5d3ddbad90248cf29bc4bda34a507c6d179853fc0af1edc0",
+      "role": "scope-bound-current-input"
+    },
+    {
+      "path": "notes/596-critical-prime-sonin-covariance-and-signed-increment.md",
+      "bytes": 9094,
+      "sha256": "b609b8e5a820ca259c1a02fce134ca5b788d4c3373b933b6e1d2c3094cc4a782",
+      "role": "scope-bound-current-input"
+    },
+    {
+      "path": "notes/597-formal-mellin-source-boundary-rank-obstruction.md",
+      "bytes": 7886,
+      "sha256": "51f2e19bb06515d248a310430f0b612ba844c4f7bf9fddf784c0d0dab6251c75",
+      "role": "scope-bound-current-input"
+    },
+    {
+      "path": "notes/598-countable-mellin-full-pan-image-and-same-data-collapse.md",
+      "bytes": 5748,
+      "sha256": "b0aff3ce513a6c95f5bc8bfc8d2c5d946025a0d0da161242b227a4851397b9f8",
+      "role": "scope-bound-current-input"
+    },
+    {
+      "path": "notes/557-joint-row-norm-and-gamma-arithmetic-moment-budget.md",
+      "bytes": 6491,
+      "sha256": "5abfd13af9c955b27c5a2ea8f01d2555fa05b1df450adbedbcfe20f62d327166",
+      "role": "scope-bound-current-input"
+    },
+    {
+      "path": "notes/587-actual-sonin-moment-spread-and-growing-source-rank-necessity.md",
+      "bytes": 8681,
+      "sha256": "e4d30cfb6d07299386014cb4c4e3e3979ab5111264355dfb37b24629f121ac82",
+      "role": "scope-bound-current-input"
+    },
+    {
+      "path": "reviews/2026-10-29/same-source-telescoping/root-consumption-scope.json",
+      "bytes": 9177,
+      "sha256": "9e5282b068f4ce52479472ec50beaaaec442fc021ef9bd12986acecc5e8cc272",
+      "role": "scope-bound-current-input"
+    },
+    {
+      "path": "reviews/2026-10-29/full-image-moment/root-consumption-scope.json",
+      "bytes": 7802,
+      "sha256": "022c5e757d37d3556817f97dc4a0a7e97ee362094a1fa540d541a9e91da4aca1",
+      "role": "scope-bound-current-input"
+    },
+    {
+      "path": "reviews/2026-10-29/full-image-moment/fresh-complete-image-audit.md",
+      "bytes": 12070,
+      "sha256": "4f363a666b6eaa87d33431e3521408904ef00d169d0d0cd3fe863789386b9d76",
+      "role": "scope-bound-current-input"
+    },
+    {
+      "path": "reviews/2026-10-29/macro-cycle-20/causal-frontier-and-next-input.md",
+      "bytes": 14280,
+      "sha256": "08e177c283feaf063bf4493edb39433a380fd87cbd81ad86fc3cce58c2fe1f3e",
+      "role": "scope-bound-current-input"
+    },
+    {
+      "path": "reviews/2026-10-29/macro-cycle-20/completion-gates-and-opportunity-cost.md",
+      "bytes": 14367,
+      "sha256": "f5dbc6bb5b28ffb2014370a1b65f87c6fc87375832efb89cf1d89058102434a7",
+      "role": "scope-bound-current-input"
+    },
+    {
+      "path": "reviews/2026-10-29/macro-cycle-20/review-draft.md",
+      "bytes": 6488,
+      "sha256": "179bd54efffffaa1662f5dbc034d80243f2e3ff9b127a71773180112d10ba8e1",
+      "role": "scope-bound-current-input"
+    },
+    {
+      "path": "reviews/2026-10-29/macro-cycle-20/next-untraced-integral-source-locator.md",
+      "bytes": 2857,
+      "sha256": "5126969541e74d56e06125135d4f17f4b021461700b6175bd4fdfa8729317b47",
+      "role": "scope-bound-current-input"
+    },
+    {
+      "path": "reviews/2026-10-29/macro-cycle-20/fresh-macro-and-completion-audit.md",
+      "bytes": 10810,
+      "sha256": "8f857bec4145bfc7709298ef57cbfc38655681c507fa46826206c4408f0e9bba",
+      "role": "scope-bound-current-input"
+    },
+    {
+      "path": "reviews/2026-10-29/macro-cycle-20/draft-negation-correction.json",
+      "bytes": 866,
+      "sha256": "3b8d6f5765a4e69edd365255f75db5a6b29615b1312661b3d2f1d9c5d67f7366",
+      "role": "scope-bound-current-input"
+    },
+    {
+      "path": "reviews/2026-10-29/macro-cycle-20/review-draft-before-negation-correction.md",
+      "bytes": 6485,
+      "sha256": "da4fd25c1702278ba32d6495c2e27e34bb0e22d10cbf3ed7e9ca3221f8df4c76",
+      "role": "superseded-nonconsumable-history"
+    }
+  ],
+  "nested_math_inputs_verified": 13,
+  "root_read": "All2supports/current6488draft/10810differentfresh fullread and595-598 realnotes, Goal/strongestold/scope independentlyreconciled. Original6485 omittednegation frozennotconsumable; corrected6488fresh/rootreclosed beforeanyformal reset.",
+  "math_iteration": "598oneactualfullcountable image andallset/mixed/index consequences. Mathematical3->4 transition alreadyinmathroot ledger, notmadebymacro.",
+  "cadence_before": {
+    "bytes": 6772,
+    "sha256": "0ffa0b47ef59be21d6eaa89cb5b57f7aa137c019df7118c73912db44e8264457",
+    "rounds": 4,
+    "historical": 62,
+    "latest": 598,
+    "formal": 19
+  },
+  "macro_transition": "Originalcounter4->0 ONCE; historical62/latest598/historyarrayunchanged/formal20. Macro/support/fresh/locator/publication0math.",
+  "strongest_consumable_chain": "542 allkband +555originaldurow ->557leading4/5negativeinertiaUPPER unchanged;596signedincrementnotwhole endpoint+587strongold deducted.",
+  "boundary_scope": "598samefixedB exact/mixed/pointwise collapse includesnonlinear/nonlocal/adaptive/unboundedfees; eachstageexactincludesjointgrowth, merelypointwisenouniformrate. Additionalactualdata/domain/Panresponsibility andindependentDprime genuineescapes.",
+  "completion_audit": {
+    "RH": "open",
+    "independent_key_input": "open",
+    "substantive_core_method_class_boundary": "open",
+    "whole_improvement": false,
+    "key_bottleneck_removed": false,
+    "basis": "Fixedad-hocB notallcorefactorization, no positiveprincipal/mixed/corecross/growingXi; noGoalcomplete/paused/blocked."
+  },
+  "next_admission": {
+    "path": "reviews/2026-10-29/macro-cycle-20/next-untraced-integral-source-locator.md",
+    "status": "unexecuted-nonmath-onebatch-only",
+    "basis": "New598executedfullimage comparison afteroldexhaustedlocators; notkeywordrenaming oralreadynewsource.",
+    "limits": "Exactly3frozenprimaryqueries/onebatch/atmost1locatedprimarypage; dedupoldBO/Jacobian/KRY; noautomaticPDF/references/chapter/secondbatch/math; empty/old0stop. Firstcompletecurrentpublication."
+  },
+  "processes": "Allproof/support/fresh andreadonlychild terminal; no other background/source/numerical process."
+}

@@ -1,5 +1,8 @@
 # RH-Weil 文献索引
 
+2026-10-29：598同一S_exp的完整可数Mellin/Pan全像已root闭，三角/实际Schwartz原像为本项目推导；无新paper/PDF/web，库137保持。既有Osipov作者主proof仍未审，不把598same-data边界当独立正性。详见[supplement](supplements/2026-10-29-countable-mellin-full-image-scope.md)；正式宏观20已不同审稿/root闭，下一locator尚未执行/非新来源。
+
+
 2026-10-29，[597定义使用范围](supplements/2026-10-29-formal-mellin-boundary-rank-scope.md)：库137不增。固定OsipovPDF8491958e…100cc不改/ignored，只用既付§2(6)–(8)field/hat与普通tensor，domain复核PDF6缓存，无新数学页/§3/4/Example/来源。实际Φ尾读出、405反测/finiteQrank修补边界由本项目独立推导，不归作者主theorem。597统一一数学轮/cadence3/history61/formal19，cofinal尾趋0逃逸保；新countablemoment插值未导入，只列下一准入。
 
 2026-10-29，[新两份来源的准确scope](supplements/2026-10-29-post-increment-core-choice-source-scope.md)：库135→137，实际固定PDF Osipov1801.02282v2 267569bytes/21p/SHA8491958e…100cc，Jensen1902.07321v2 216634bytes/11p/SHAe3cac568…908fd，全文均ignored。Osipov定位修正后仅必要§2defs/Thm2.1statement cited，root额外返回曝光未消费，proof未审；Jensen消费PNAS §1 statement与v2归档分开，不核两版proof等同。两候选无新core输入，source0；root新Mellin候选独立未准入。Cadence2/history60/formal19不写。

@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-29",
+  "runtime_goal_created_at": 1793085111,
+  "prior_goal_turn": "progress:597 actual obstruction settled and publication independently verified",
+  "prior_publication": {
+    "head": "269b391fe01c7211076b096f604bb5e9d8e3aaa9",
+    "tree": "585d8402a8b63ab18931af8523e0b2cfd0fc6369",
+    "sole_parent": "ffea0d81fb71a29499fcda791a7f5d467f0f82fa",
+    "exact_metadata_paths": 3,
+    "independent_connected_github_ref_commit_tree": true,
+    "local_clean_checkpoint": true
+  },
+  "admission": "reviews/2026-10-29/formal-mellin-admission/next-full-image-moment-admission.md",
+  "admission_bytes": 2559,
+  "admission_sha256": "51c90b825f563424db54e8ab8d946fc5baa0855c1aa65cfcb069c8199a3357f0",
+  "cadence_before": {
+    "bytes": 6799,
+    "sha256": "064629faacf6df1db8cfd1ef660d54d2fdbf33c166bf33a894ceb666e17d7b99",
+    "rounds": 3,
+    "historical": 61,
+    "latest": 597,
+    "formal": 19
+  },
+  "actual_action": "One fixed triangular-bump full-image necessary proof test plus strongest-old dedup; not restarted C060, no C061/598 budget granted. Drafts not root-consumed.",
+  "observed_at_utc": "2026-10-29T07:50:21.357576+00:00"
+}

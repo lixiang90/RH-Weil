@@ -1,0 +1,17 @@
+{
+  "status": "superseded-draft-negation-typo-corrected-before-consumption",
+  "reported_by": "/root/macro20_fresh",
+  "old": {
+    "path": "reviews/2026-10-29/macro-cycle-20/review-draft-before-negation-correction.md",
+    "bytes": 6485,
+    "sha256": "da4fd25c1702278ba32d6495c2e27e34bb0e22d10cbf3ed7e9ca3221f8df4c76",
+    "consumable": false
+  },
+  "corrected": {
+    "path": "reviews/2026-10-29/macro-cycle-20/review-draft.md",
+    "bytes": 6488,
+    "sha256": "179bd54efffffaa1662f5dbc034d80243f2e3ff9b127a71773180112d10ba8e1"
+  },
+  "change": "可相加成 -> 不可相加成. Original draft omitted negation inconsistent with its own scope/Goal conclusion.",
+  "freeze_and_reclose": "No formal20/root consumption or cadence reset had occurred. All downstream macro consumption waits for different fresh re-audit of corrected6488 bytes. Proof598 unchanged."
+}

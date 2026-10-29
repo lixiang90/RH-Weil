@@ -1,0 +1,20 @@
+{
+  "schema": "rh-weil-publication-verification-v1",
+  "date": "2026-10-29",
+  "repository": "https://github.com/lixiang90/RH-Weil",
+  "branch": "main",
+  "status": "scientific-source-preparing",
+  "source_parent": "269b391fe01c7211076b096f604bb5e9d8e3aaa9",
+  "authorization": "Userdirectper-roundsync andGoalsection5 publicmain, no new permission required.",
+  "scope": "598oneactualmath +formal20zeromath, proof/root/correction/cadence/state/board/libraryscope/frozenunexecutedlocator/checkpoint. No rawPDF/Goal/595-597changes.",
+  "source_verification": null,
+  "metadata_child_condition": {
+    "parent": "resolveaftersourceindependentverification",
+    "exact_paths": [
+      "goals/STATE.json",
+      "goals/checkpoints/2026-10-29-full-image-598-macro20-sync.json",
+      "reviews/2026-10-29/full-image-moment/remote-sync-verification.json"
+    ],
+    "condition": "One normalmetadatachild; independentlyactualmainref/commit/tree matchlocalHEAD/tree/soleparent/exact3paths/clean/checkpoint. Onmatchpublicationcomplete/no selfSHAwrite/repeatpush; nextonlyfrozenuntracedintegral nonmathlocator."
+  }
+}
