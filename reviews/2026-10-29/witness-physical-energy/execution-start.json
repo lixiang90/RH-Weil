@@ -1,0 +1,63 @@
+{
+  "date": "2026-10-29",
+  "runtime_goal_created_at": 1793085111,
+  "prior_goal_turn": "progress: actualfrozenlocator empty0stop andverifiedpublication; notnewmath",
+  "prior_final_publication": {
+    "head": "488ce4a5cff5fe5981397fca9b1d14c33331323e",
+    "tree": "935c0a892998fbe6f3594c60bfce80bfa38dc747",
+    "sole_parent": "bce5ed4031b0d779258df4d2f09a35e047acabf3",
+    "exact_metadata_paths": 3,
+    "connected_github_ref_commit_tree": true,
+    "clean_checkpoint": true
+  },
+  "admission": {
+    "path": "reviews/2026-10-29/witness-physical-energy/admission.md",
+    "bytes": 2209,
+    "sha256": "1e66fab0dabad3a367493e8a7df19fa1d2959252f651e8705d785218806e2cc0"
+  },
+  "cadence_guard": {
+    "bytes": 6686,
+    "sha256": "df084f1fd7652cefa1c1d18243416c6a5c51b6df31970ec1d8bbde3f01d4f187",
+    "rounds": 0,
+    "historical": 62,
+    "latest": 598,
+    "formal": 20
+  },
+  "state_compaction": {
+    "prior_bytes": 15812,
+    "prior_sha256": "22af6519c229f4c5ab99a38a38d248f5dcafe256081a72761d8bf89867c38d75",
+    "old_evidence_paths": [
+      "notes/537-source-exact-weil-window-positive-tail-admission.md",
+      "notes/555-actual-prime-weighted-schur-and-growing-weil-inertia.md",
+      "notes/560-joint-finite-place-sonin-primepower-cancellation-and-compact-weil-bridge.md",
+      "notes/594-selfadjoint-signed-euler-source-hilbert-decoupling.md",
+      "notes/595-full-weil-9-8-fixed-comparison-negative-certificate.md",
+      "notes/596-critical-prime-sonin-covariance-and-signed-increment.md",
+      "reviews/2026-10-29/critical-prime-covariance-proof/root-consumption-scope.json",
+      "reviews/2026-10-29/same-source-telescoping/root-consumption-scope.json",
+      "reviews/2026-10-29/post-increment-core-choice/root-consumption-scope.json",
+      "notes/597-formal-mellin-source-boundary-rank-obstruction.md",
+      "reviews/2026-10-29/formal-mellin-admission/root-consumption-scope.json",
+      "notes/598-countable-mellin-full-pan-image-and-same-data-collapse.md",
+      "reviews/2026-10-29/full-image-moment/root-consumption-scope.json",
+      "reviews/2026-10-29/macro-cycle-20/root-consumption-scope.json",
+      "reviews/2026-10-29/untraced-integral-locator/root-consumption-scope.json"
+    ],
+    "kept_evidence_paths": [
+      "notes/537-source-exact-weil-window-positive-tail-admission.md",
+      "notes/555-actual-prime-weighted-schur-and-growing-weil-inertia.md",
+      "notes/560-joint-finite-place-sonin-primepower-cancellation-and-compact-weil-bridge.md",
+      "reviews/2026-10-29/critical-prime-covariance-proof/root-consumption-scope.json",
+      "reviews/2026-10-29/full-image-moment/root-consumption-scope.json",
+      "reviews/2026-10-29/macro-cycle-20/root-consumption-scope.json",
+      "reviews/2026-10-29/untraced-integral-locator/root-consumption-scope.json"
+    ],
+    "scope": "Onlydetailedhistoricalevidence links shortenedinSTATE; alloriginalproofs remaininfrontier/formal20/evidence/Git. No Goal/baseline/cadence/completiongate/scopefreeze change."
+  },
+  "old_candidates_rejected_without_contract": [
+    "545/quarter-eisenstein actualincompletepacket alreadypaid",
+    "566globalL2 closability alreadypaid"
+  ],
+  "current_action": "Onlyonefixed595negativewitness nativephysical-map andalreadygenerateddata fullenergy/slack diagnosis; no neworacle/Gram/trial/precision/source. Draftsnotconsumed/noC062/599/mathpregrant.",
+  "observed_at_utc": "2026-10-29T09:00:55.165402+00:00"
+}

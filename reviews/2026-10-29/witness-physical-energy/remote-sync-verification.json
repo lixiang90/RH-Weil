@@ -1,0 +1,20 @@
+{
+  "schema": "rh-weil-publication-verification-v1",
+  "date": "2026-10-29",
+  "repository": "https://github.com/lixiang90/RH-Weil",
+  "branch": "main",
+  "status": "scientific-source-preparing",
+  "source_parent": "488ce4a5cff5fe5981397fca9b1d14c33331323e",
+  "authorization": "Userdirectpublicmain per-roundsync/Goalsection5.",
+  "scope": "Duplicatewitness admissionwithdrawal andstrongoldrecovery/audit/root/STATEshortening/board/libraryscope/checkpoint. No newmath/scalar/oracle/Goal/cadence/manifest/oldproof changes.",
+  "source_verification": null,
+  "metadata_child_condition": {
+    "parent": "resolveaftersourceindependentverification",
+    "exact_paths": [
+      "goals/STATE.json",
+      "goals/checkpoints/2026-10-29-witness-physical-old-recovery-sync.json",
+      "reviews/2026-10-29/witness-physical-energy/remote-sync-verification.json"
+    ],
+    "condition": "One normalmetadatachild; independentlyactualmainref/commit/tree/localHEAD/tree/soleparent/exact3paths/clean/checkpoint matchthenpublicationcomplete, no selfSHA/repeatpush. No admittedsuccessor; genuinelynewactualinput-test-net required."
+  }
+}

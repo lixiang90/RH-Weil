@@ -1,0 +1,94 @@
+{
+  "schema": "rh-weil-root-consumption-v1",
+  "date": "2026-10-29",
+  "runtime_goal_created_at": 1793085111,
+  "goal": "goals/GOAL.20261027.md",
+  "baseline_commit": "0c4f3a3eb609bb1d9564138fa4a35701f05605f2",
+  "decision": "D20261029AG",
+  "status": "root-consumed-strongest-old-recovery-withdrawn-duplicate-zero-stop",
+  "inputs": [
+    {
+      "path": "goals/GOAL.20261027.md",
+      "bytes": 9679,
+      "sha256": "b3d2acb1f962d793f45d79b6a4e67fb87dd072cd4752108a9298204b4cefa1de",
+      "role": "current-scopebound-input"
+    },
+    {
+      "path": "reviews/2026-10-29/witness-physical-energy/admission.md",
+      "bytes": 2209,
+      "sha256": "1e66fab0dabad3a367493e8a7df19fa1d2959252f651e8705d785218806e2cc0",
+      "role": "withdrawn-not-executable-admission-history"
+    },
+    {
+      "path": "reviews/2026-10-29/witness-physical-energy/admission-withdrawal.md",
+      "bytes": 2491,
+      "sha256": "9683270215ed291a97879b0b530ef6485fd199379064bae3f9a03afec872bbd6",
+      "role": "current-scopebound-input"
+    },
+    {
+      "path": "reviews/2026-10-29/witness-physical-energy/execution-start.json",
+      "bytes": 3430,
+      "sha256": "de88108b0206352d3a45f9833124b68ac344c854197976e560fac5cd787b9176",
+      "role": "current-scopebound-input"
+    },
+    {
+      "path": "reviews/2026-10-29/witness-physical-energy/strongest-old-and-admission-scope.md",
+      "bytes": 9491,
+      "sha256": "34771f0606618083862b70d39b57ec5b944f63927f2de313515680150043030a",
+      "role": "current-scopebound-input"
+    },
+    {
+      "path": "reviews/2026-10-29/weil-9-8-physical-lower-gate/root-consumption-scope.json",
+      "bytes": 15115,
+      "sha256": "c0c0daa055990605e6fc361df00bc3ce5f19079d25a60a93ec4b72d022c496fb",
+      "role": "current-scopebound-input"
+    },
+    {
+      "path": "reviews/2026-10-29/weil-9-8-physical-lower-gate/actual-replay-and-scope.md",
+      "bytes": 7961,
+      "sha256": "5fd3e23ef5dbc3d7198024e3fe3a006f9c0dd402069d8b1a85e5257f84c8aca9",
+      "role": "current-scopebound-input"
+    },
+    {
+      "path": "reviews/2026-10-29/weil-9-8-physical-lower-gate/root-physical-map-and-error.md",
+      "bytes": 4251,
+      "sha256": "aac385e1b5456111955fe5e766d7015f05448e58ed144452841a6a46760d4740",
+      "role": "current-scopebound-input"
+    },
+    {
+      "path": "notes/595-full-weil-9-8-fixed-comparison-negative-certificate.md",
+      "bytes": 6376,
+      "sha256": "58ed6abd08bc410b5d3ddbad90248cf29bc4bda34a507c6d179853fc0af1edc0",
+      "role": "current-scopebound-input"
+    }
+  ],
+  "old_public_bindings_verified": 9,
+  "root_read": "Current9491independentaudit/withdrawal fullread; oldphysical-map4251/actual-replay7961 androotmathematicalscope read,9publicbindings rehashed. Notnew48largepin orscalar arithmeticreplay.",
+  "correction": "Initial2209admission wronglytreatedsamevfullcomparison asunpaid. ExistingrootalreadygivesstrongsamephyspositiveLlow/Q andnegativeP0/gap. Withdrawnbeforeanynewcomputation; no downstreammathbudget/resultconsumption. Rawq has8(4i+1); Bc isnotraw.",
+  "short_paid_chain": "v->Bc v->Gamma^-1/2raw x=Vintv/(18Cw), native224fullsupportLegendre/Dlog -> old48pin+rawWrFraction independentreplay -> oldrootstrictpoint/gap.",
+  "strongest_consumable_consequence": {
+    "Llow": "samephysnorm strict(2^-62,2^-61)",
+    "P0": "samephysnorm strict(-2^-67,-2^-68)",
+    "Q": "singlemappedsource lower>(2^-62+tau)||f||², tau2^-49162",
+    "direct_local": "combinedgap>2^-62 andfixedP0HermitianPSDrepairnorm>2^-68 alreadypaid",
+    "not_paid": "No whole9/8sign, singlelegattribution, principal/mixed/core/wholegain."
+  },
+  "scope_precision": "TailU onlylower notfulltail. Schur/Ritz C-P0 includes epsilon_D; bareD0notPSD. NativeGamma/du transport mandatory; no lowdegree inferencefromsparsecontractv.",
+  "agents": {
+    "witness_physical_transport": "capacityerror terminal, outputfileabsent, messagesnotconsumed asoriginal; norestartneeded becauseoldrecords suffice",
+    "witness_strong_old": "current9491actualfileterminal/fullread/rehashed; independentoldscopeonly"
+  },
+  "cadence_preserved": {
+    "bytes": 6686,
+    "sha256": "df084f1fd7652cefa1c1d18243416c6a5c51b6df31970ec1d8bbde3f01d4f187",
+    "rounds": 0,
+    "historical": 62,
+    "latest": 598,
+    "formal": 20
+  },
+  "library": "137andmanifest rawunchanged/no newauthorpaperpages; onlyprojectscope recovery.",
+  "counting": "0additionalmath/0formal21/reset; recoveringoldstrongerconsequence andwithdrawingduplicate notnewdiagnosis/theorem.",
+  "stop": "Oldsame-v/inverseleg/stepwiseloss/N/mu/theta/precisionchainstillstopped; no scalar/source/trial/Gram/nextchapter/mathsuccessor.",
+  "completion": "FullGoalgatesopen/sameactive/noteligible; no newindependentkeyinput orwhole4/5UPPERgain.",
+  "observed_at_utc": "2026-10-29T09:11:01.382464+00:00"
+}

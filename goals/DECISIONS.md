@@ -2254,3 +2254,14 @@ New598executedfullimagecomparison afteroldexhaustedintersection/HH/adelelocator 
 Originalcadence6686bytes/SHA df084f1fd7652cefa1c1d18243416c6a5c51b6df31970ec1d8bbde3f01d4f187 unchanged0/history62/latest598/formal20; manifest137 originalrawunchanged. No599/C062/formal21/reset. OldBO/Jacobian/KRY/Borcherds projectscope onlydedup, no newpaperpages. Emptyresult notnewactualcomparison; no synonym/secondbatch/primarypagefishing/PDF/references/oldchapterqueue orrecursive598qualification.
 
 No independentphysicalprincipal/section/mixed orjointsigneddangerouscore input formed; whole4/5negative-inertiaUPPER unchanged, threeGoalgatesopen/sameactive/noteligible. Stop isnotGoalcompleted/blocked. Currentonlypublicationofaccurateexecution/scope. No admittedmath/source successor: firstrequire actualnewformula/preciseunreadprimarychapter orfixedactualcorecomparison andinput-test-net, notescape/inventory/newkeywords. Missinginput recorded explicitly, no emptyqueue budget.
+
+
+## D20261029AG - Withdraw duplicate physical witness gate and restore strongest old consequence
+
+2026-10-29. SameGoal1793085111/0c4f; prioractual488ce4a ref/commit/tree/soleparent/exact3paths/clean/checkpoint reverified. InitialEisenstein andglobalclosableideas already545/quarter/566, notnewbudgets. Root2209fixedsamev physicalenergyadmission thenfoundcompletedphysical-lower-gate beforeanynewcomputation. Current9491independentoldscope/root9currentbindings+9oldpublicpins confirmfullsamevtest alreadypaid. Admissionwithdrawn, newresult/compute/contract consumptionfrozen; no C062/599.
+
+Recoverhighestoldchain v->Bc->Gamma^-1/2raw Vintv/(18Cw), q=8(4i+1), all224nativeLegendre/Dlog; oldFraction/rawWr androotstrictLlow(2^-62,2^-61), P0(-2^-67,-2^-68), Qsinglepoint>(2^-62+tau), combinedgap>2^-62/localP0repairnorm>2^-68 allpaid. TailU onlylower/bareD0requires epsilon_D; no whole9/8sign orsinglelegattribution. Oldsame-v/leg/N/mu/theta/precisionchainstopped; no rerunscalar/source/trial/compiler/Gram or48largepins.
+
+Transportagentcapacityfailedterminal/nofile; itsmessages notactualoriginal orsecondreview. Rootdirectoldrecords/current9491 suffice, no restart. STATEhistoricalevidence linksshortenonly; fullhistoryinfrontier/originals/Git, strongestphysicalshortchainexplicitlyrestored. Goal/baseline/semanticfreezesunchanged. Cadence6686SHA df084f1f rawunchanged0/history62/latest598/formal20;manifest137rawunchanged. Recovery/withdrawal/publication0math/nonformal21, no newkey/wholeinput/Goalcompletion.
+
+Firstpublishaccuratecurrentrecords andindependentlyactualfinalHEAD checks. No admittedmath/source successor; needgenuinelydifferentactualformula/preciseunreadchapter orfixedwhole-signed corecomparison input-test-net beyondthispaidpoint/gap. Do notrenameinventory/legdiagnosis/escape tograntbudget.

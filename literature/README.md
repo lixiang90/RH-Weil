@@ -1,5 +1,8 @@
 # RH-Weil 文献索引
 
+2026-10-29：恢复595同向量的最强旧物理比较并撤销重复门，独立9491/root核，未新算scalar/原论文/PDF页/下载，库137与manifest原字节保持。[使用范围](supplements/2026-10-29-physical-witness-strongest-old-recovery.md)区分旧48pin重放与本轮文档hash、transport容量失败无原件；恢复不增数学轮。
+
+
 2026-10-29：formal20冻结的未trace整数源三query一批返回聚合空且工具未报告错误，0候选页/原文/下载/新章，库137及manifest原字节保持。只加[检索范围说明](supplements/2026-10-29-untraced-integral-locator-empty-scope.md)，不登记计划/工具回复为新文献，不据空结果续批或推全网不存在。
 
 

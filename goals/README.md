@@ -1,5 +1,8 @@
 # 长期研究恢复入口
 
+2026-10-29，[595物理强旧恢复/重复门撤销0止](reviews/2026-10-29-witness-strongest-old-recovery-stop.md)：当前2209门在新运算前发现已被physical-lower-gate完整覆盖，独立9491/root9当前bindings及9旧公开pins核闭。旧短链v→Bc→Γ^-1/2raw→全224Legendre/Dlog→Fraction重放/root，samephys Llow∈(2^-62,2^-61)、P0∈(-2^-67,-2^-68)、Q点态下界与gap/局部repair费均早付；不能只恢复弱P0≤C或再分腿。Transport容量失败无file不消费，未重算scalar/oracle/Gram/48pins。状态历史链接压短且补回强旧链，Goal/基线/语义冻结不变；cadence6686bytes保持0/history62/latest598/formal20，库137/manifest原字节不动。无新数学/core/whole4/5UPPER改善，Goalactive/open；先准确范围发布，无已准继任，不续same-v/参数或空来源队列。
+
+
 2026-10-29，[未trace整数源locator已0止](reviews/2026-10-29-untraced-integral-locator-empty-stop.md)：598支持的原样三query/一批已实际执行，connected工具聚合空/isError=false，无报告网络错；完整162raw本地ignored、1942执行记录/不同8631审查/root7bindings闭。0页/0新primary/0全文/0章/0数学，不推全网无输入。预算耗尽，不换词/二批/PDF/引用/后章，不以空结果递归续资格。原cadence6686bytes保持0/history62/latest598/formal20，manifest137原字节不动。关键primitive/principal/mixed/corecross/Ξ及whole4/5负惯性UPPER未改，Goalactive/open。先准确范围发布；此后无已准继任，须先新actual公式/明确未审章或固定核心比较input-test-net，不把escape/库存改名。执行及缺失输入见STATE。
 
 
