@@ -42,8 +42,8 @@
     "settled_iterations": [
       "notes/595-full-weil-9-8-fixed-comparison-negative-certificate.md"
     ],
-    "stage": "C058 remains stopped at595. Same-source scalar/different224 rawWr replay/settlementfresh root-consumed as newpointdiagnosis0; no C059, no whole sign or inverse-only attribution. Allagents terminal.",
-    "next_action": "Publish pointdiagnosis evidence/library134/board/STATE and independentlyverify source then exact3metadata child actualHEAD. After matching condition resume only reviews/2026-10-29/weil-9-8-physical-lower-gate/next-heegner-principal-source-admission.md: BO §5.1 M37 Delta1 source gate, unexecuted; no samev/loss/parameter continuation.",
+    "stage": "Same-source diagnosis0 fully root-consumed; all22 sourcefiles published andindependentlyverified at0d66e9e. Only3metadatachild pending. No C059/cadencechange; BOchapterunexecuted.",
+    "next_action": "Verify actualmetadataHEAD/tree/soleparent0d66e9e/exact3paths/clean/checkpoint; matchingcondition requiresno repush. Then only reviews/2026-10-29/weil-9-8-physical-lower-gate/next-heegner-principal-source-admission.md: fixed BO §5.1 M37 Delta1 sourcegate, unexecuted. Stop samev/loss/parameterchain.",
     "stop_rule": "OnefixedL9/8/Omega256/N448/mu1/8/theta2^-48 fullcertificate. PreserveNONPASS; noL/weight/degree/precision sweep; implementationbug record/freeze/reclose. Finitewindow neverlongGoalcomplete."
   },
   "support_contracts": [],
@@ -108,12 +108,12 @@
     "basis": "Live get_goal after compaction same instance; actual scalar/replay files consumed, not just summary."
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-10-29-physical-point-source.json",
+  "checkpoint": "goals/checkpoints/2026-10-29-physical-point-sync.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
-    "commit": "7c430cafd1003069e52118ad9ef262226a46764e",
-    "tree": "44345835282837bf93c0b70e3f170c944ccf809a",
-    "basis": "Newturnactual3GET/localparent/exact3metadata paths/clean/checkpoint matched595 completioncondition; do notrepush."
+    "commit": "0d66e9ea628d398e6526ff9305e337f50e588f75",
+    "tree": "1a62873d5200b04d306fd0ca636c4f860b14a4fc",
+    "basis": "Current scientific source independently verified by connected GitHub ref/commit/tree, parent7c43/localclean. Metadata child completion condition in new receipt; verify actualHEAD after push."
   },
   "completion_audit": {
     "goal": "goals/GOAL.20261027.md",
@@ -125,7 +125,7 @@
   },
   "process_inventory_observed_on": "Actualreplay andcurrentsettlement-consistency agents terminal; originalread/rootconsumed. No numeric session; transporttwicecapacityfailure neverconsumed, root+code/replay paid. No pendingprocess.",
   "publication_approval_gate": {
-    "status": "point-diagnosis-source-ready",
+    "status": "point-source-verified-metadata-condition-pending",
     "destination": "https://github.com/lixiang90/RH-Weil",
     "visibility": "public",
     "branch": "main",
@@ -135,8 +135,9 @@
       "reply": "每轮把进度同步到github；把文献保存在文献库中，用研究看板来记录各个路线的状况",
       "scope": "本项目研究/Goal/STATE/看板/文献元数据/审查与同步回执；论文再分发许可不明则全文仅本地。"
     },
-    "current_scope": "Newpoint originaldata/script/math/reviews/rootreceipt, oneunexecutedHeegneradmission, existingbook/STATE/library metadata. Fulltext/images ignored. Normalmain sourcepush thenindependentref/commit/tree; exact3metadatachild receipt+STATE+synccheckpoint, no recursiveownSHA.",
-    "verification": "reviews/2026-10-29/weil-9-8-physical-lower-gate/remote-sync-verification.json"
+    "current_scope": "Scientificsource22files independentlyverified. Only receipt+STATE+new synccheckpoint metadatachild; exactcondition in receipt, no ownSHArecursion or repeatpush aftermatch.",
+    "verification": "reviews/2026-10-29/weil-9-8-physical-lower-gate/remote-sync-verification.json",
+    "published_source_commit": "0d66e9ea628d398e6526ff9305e337f50e588f75"
   },
   "research_board": "RESEARCH_BRANCHES.md",
   "literature_index": "literature/README.md",

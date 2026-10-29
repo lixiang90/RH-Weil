@@ -1,0 +1,31 @@
+{
+  "schema": "rh-weil-source-publication-and-metadata-condition-v1",
+  "date": "2026-10-29",
+  "repository": "https://github.com/lixiang90/RH-Weil",
+  "branch": "main",
+  "source": {
+    "commit": "0d66e9ea628d398e6526ff9305e337f50e588f75",
+    "tree": "1a62873d5200b04d306fd0ca636c4f860b14a4fc",
+    "parent": "7c430cafd1003069e52118ad9ef262226a46764e",
+    "independently_verified_by": "Connected GitHub API ref, git commit and tree: all exact; local clean main agrees",
+    "changed_paths": 22
+  },
+  "source_read_urls": [
+    "https://api.github.com/repos/lixiang90/RH-Weil/git/refs/heads/main",
+    "https://api.github.com/repos/lixiang90/RH-Weil/git/commits/0d66e9ea628d398e6526ff9305e337f50e588f75",
+    "https://api.github.com/repos/lixiang90/RH-Weil/git/trees/1a62873d5200b04d306fd0ca636c4f860b14a4fc"
+  ],
+  "source_scope": "New same-source point diagnosis0, original scalar/fresh/root/scope evidence, stopped local chain, unexecuted single BO2010 source admission, library134 metadata; no third-party fulltext/pixels.",
+  "metadata_child_completion_condition": {
+    "parent_must_equal": "0d66e9ea628d398e6526ff9305e337f50e588f75",
+    "changed_paths_exactly": [
+      "goals/STATE.json",
+      "goals/checkpoints/2026-10-29-physical-point-sync.json",
+      "reviews/2026-10-29/weil-9-8-physical-lower-gate/remote-sync-verification.json"
+    ],
+    "required": "After normal fast-forward push, independent connected GitHub ref/commit/tree must match actual local HEAD/tree, its sole parent source above, exact3metadata diff, clean worktree and fresh checkpoint. No own-SHA recursion. If matched next recovery must not repush.",
+    "next_action_when_matched": "Only execute fixed BO2010 §5.1 M37 Delta1 source admission; math chapter not executed at publication."
+  },
+  "cadence_unchanged": "1/history59/latest595/formal19; canonical LF SHA256 73ef5152185e3213a7b076a76a656c0a5a0acf9ace994c612def2de270584f4b",
+  "goal": "Same active runtime1793085111; no mathematical completion."
+}
