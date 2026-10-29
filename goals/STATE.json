@@ -8,11 +8,11 @@
   "cadence": "goals/review-cadence.json",
   "decisions": "goals/DECISIONS.md",
   "latest_strategy": "goals/reviews/2026-10-29-general-rh-macro-review-cycle-20.md",
-  "latest_decision": "D20261029AH",
+  "latest_decision": "D20261029AI",
   "macro_frontier": "goals/MACRO_FRONTIER.md",
-  "macro_summary": "goals/reviews/2026-10-29-prime-ising-599-settlement.md",
+  "macro_summary": "goals/reviews/2026-10-29-rank-two-period-600-settlement.md",
   "latest_macro_review": "goals/reviews/2026-10-29-general-rh-macro-review-cycle-20.md",
-  "latest_iteration": "notes/599-prime-weighted-critical-ising-positive-spectrum-and-weil-gap.md",
+  "latest_iteration": "notes/600-rank-two-eisenstein-period-positive-cone-and-weil-separator.md",
   "macro_control": {
     "schema": "macro-recovery-v2",
     "goal_epoch": "G20261027",
@@ -20,8 +20,8 @@
   },
   "macro": {
     "long_objective": "G20261027接续G20261014完整完成门/原0c4f基线，≤582为输入；持续寻经典同源Weil正性/有效性/RR或actualsigned新输入，付全源/成长/core及谱识别。",
-    "unpaid_bottleneck": "Actualprimitive/principal/sections/mixed,dangeroussignedcorecross/growingXi unpaid;599 explicitcriticalIsing positiveDprime family hasfixedcompact targetgap, not newcoreinput. Whole4/5negative-inertiaUPPER unchanged.",
-    "why_this_contract": "Newexplicitspin sourceformula passeduniformcomplex/fullzeroDprime gates thenfailedfullWeil ononeexactdoublepolecompact source. Strongold objects distinct; onecompletefamilyfailure consumed599. Not globalLeeYang/positiveDprime failure.",
+    "unpaid_bottleneck": "Actualprimitive/principal/sections/mixed,dangeroussignedcorecross/growingXi unpaid;600 actualrank2positiveperiodcone globallyseparatedfromfullWeil. Keycoreinput andwhole4/5negative-inertiaUPPER unchanged.",
+    "why_this_contract": "Actualnew arithmeticperiod formula after13733/14149 inventorychoice gavefullzero/whole-positivecone test. All-a compactification/strictPhi nowrootclosed600; 132HB oldpaid. Modelchoicechanged, noGoalcompletion ornewrank/sourcequeue.",
     "paused_routes": [
       "零点比例优化",
       "无零区域优化"
@@ -35,23 +35,23 @@
     ]
   },
   "primary_contract": {
-    "id": "C062",
-    "path": "goals/contracts/C062-prime-ising-critical-positive-distribution.md",
+    "id": "C063",
+    "path": "goals/contracts/C063-rank-two-period-positive-cone.md",
     "status": "stopped",
     "iteration_budget": 1,
     "settled_iterations": [
-      "notes/599-prime-weighted-critical-ising-positive-spectrum-and-weil-gap.md"
+      "notes/600-rank-two-eisenstein-period-positive-cone-and-weil-separator.md"
     ],
-    "stage": "599/C062 rootsettled; sourcec4ee9b6 independentref/commit/tree/soleparent/26paths/clean/checkpoint PASS. Oneexact3metadatachild conditionarmed; onactualmatch publicationcomplete, proof/cadence1history63formal20 unchanged.",
-    "next_action": "Execute/verify ONEexact3metadatachild under599receipt: actualfinalref/commit/tree/localHEAD/soleparentc4ee9b6/exact3paths/clean/checkpoint/rootpins/cadence1history63latest599formal20/library138. Onmatchno morepublication edits; recover sameGoal with C062 stopped/no admittedsuccessor. Next research requires genuinelydifferent actualinput-test-net, not lambda/scale/oldpaper/emptylocator.",
-    "stop_rule": "C062 budget1 exhausted; compactlambda/scale/tails/order/mixed/positiveadd/signednecessarycost allconsumedonce. No automaticescape budget; allGoalcompletion gatesopen."
+    "stage": "600 rootconsumed3originals13204/18714/18875+differentfresh17551; exactsourcePDF1-4/local139. Wholeall-a positivecone separator/positiveaddvanishing/signedcost allsamechain; cadenceonce1->2/history64/latest600/formal20held.",
+    "next_action": "Publish600 proof/root/STATE/onecadence/board/library139metadata andsourcecheckpoint toauthorizedpublicmain; independentlyverify source thenoneexact3metadatachild finalHEAD/tree/parent/clean/checkpoint. Aftermatch no admittedsuccessor: genuinelydifferentactualprincipal/mixed/coherentsignedcore input-test-net required. No T/phase/clock/rank/authorchapter/ref orrepeatoldinventory/sourcequery.",
+    "stop_rule": "C063budget1 exhausted; all-a/normalization/cone/mixed/repair/cost samechain consumedonce. Extraactualdata/true signed/clock/domain escapes preserved withoutbudget; allGoalcompletion gatesopen."
   },
   "support_contracts": [],
   "must_not_forget": [
     "G20261027接续G20261014完整完成门/原0c4f基线；≤582和10-27审视都是输入，旧成果不得重验收。实际runtimeGoal active(createdAt1793085111)，新建由本轮用户直接请求。",
     "完整Γ=2θ′/FP-contact、所有properpowers/双pole、ALLcomplex、原du及zero-extension Dlog；L/算术height/频高独立，fixed/强源/Dprime/成长不合并。",
     "每结果保object/domain-range/关系-商-physical角色/norm、源成长量词/依赖误差/符号/coverage-coupling/strongest-old净值。语义改变先freeze/reclose，draft不代root消费。",
-    "Solecadence599 onecompletefamilyfailure0->1/history63/latest599/formal20held; source/standardconsequences/agents/audit/sync0. Keep4-8default6; no copiedcounter/reset orGoalcompletion.",
+    "Solecadence600 onecompleteactualperiodfailure1->2/history64/latest600/formal20held; source/standardcorollaries/agents/audit/sync0. Keep4-8default6; no reset/newGoal.",
     "strongold542+555→557 whole4/5是负惯性UPPER；537/538 fixed17/16不代成长/Ξ。560全fixed窗positiveTrace−compact+pole，572/高层变分不代低频core及cofinal sign。",
     "几何主线先405全noncompact Pan及平移actual消去、537非根/全源coverage/原费，再同对象整过滤/截面乘法/mixedRR。已知410–437真实relative电荷/573反测与574–575线/Cartier不重造，精确域见前沿。",
     "576正锥/577完整Γ修补/578原费已付；membership/signed消失仍欠。Dprime逼近不逐层要求Pan/ordinarytrace。",
@@ -90,40 +90,35 @@
       "scope": "Formal20rootclosed18bindings/13nestedmath; threeGoal gatesopen/strongold/cadenceonce; newlocatornonmathunexecuted."
     },
     {
-      "path": "reviews/2026-10-29/untraced-integral-locator/root-consumption-scope.json",
-      "kind": "cited",
-      "scope": "7rawbindings/exact3queryaggregateempty/noerror/0primary/auditrootclosed0stop; no newmath/source/successor."
-    },
-    {
       "path": "reviews/2026-10-29/weil-9-8-physical-lower-gate/root-consumption-scope.json",
       "kind": "proved",
       "scope": "Strongestoldsame595v actualphysicaltransport andstrictpositiveLlow/Q point vsnegativeP0/gap; no same-v/leg recalculation ornewround."
     },
     {
-      "path": "reviews/2026-10-29/witness-physical-energy/root-consumption-scope.json",
-      "kind": "cited",
-      "scope": "9currentbindings+9oldpublicpins; duplicatewithdrawn/no scalar, strongestoldphyspositivepoint vsP0/gap recovered0; failedtransportnofile notconsumed."
-    },
-    {
       "path": "reviews/2026-10-29/prime-ising-critical/root-consumption-scope.json",
       "kind": "obstruction",
       "scope": "Allpositivefinite source/HSuniform/fullzeroSprime-Dprime/ODE-RvM actualPan+fixedexactdegreeprobe root/freshclosed; retainedmasspositivegap andsignednecessaryresponse, notkeycore/Goalcompletion."
+    },
+    {
+      "path": "reviews/2026-10-29/rank-two-period/root-consumption-scope.json",
+      "kind": "obstruction",
+      "scope": "ActualI/G all-a phase/fullzeroSprime+2delta0/strictcompactcommoncone separator; positiveaddmustperiodvanish/signednormconditional. Notnewkeycore/Goalcompletion."
     }
   ],
   "pending_processes": [],
   "runtime_goal_observation": {
     "status": "active",
     "created_at_unix": 1793085111,
-    "observed_at_utc": "2026-10-29T10:05:49.609209+00:00",
-    "basis": "Liveget_goal sameinstance thisrecovery; actualcurrentfinite/HS/zero/old/fresh executed androotconsumed599, not resumingstoppedC061."
+    "observed_at_utc": "2026-10-29T10:56:27.126952+00:00",
+    "basis": "Liveget_goal sameinstance duringactualcurrentrank2math execution; allnewproofs/source andfreshactuallyexecuted/rootconsumed, notresumedoldC062."
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-10-29-prime-ising-599-sync.json",
+  "checkpoint": "goals/checkpoints/2026-10-29-rank-two-period-600-source.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
-    "commit": "c4ee9b6302ad746c13e7e42f5e85616a69f3c221",
-    "tree": "794a1e3141b7190d4cc95afb7a756f485f49292a",
-    "basis": "Independentactualsource ref/commit/tree/soleparentce1a85e/26paths/clean/source-readycheckpoint PASS. Conditionaloneexact3metadatachild finalHEAD rule in599receipt; do notcallsource finalafterchild."
+    "commit": "32ac6301f92673d8661116064b3576c119067e96",
+    "tree": "d47187675e8ce106a289ba6ee25b280a5244e43f",
+    "basis": "Thisturn independentactualmainref/gitcommit/gittree matchlocalHEAD; soleparentc4ee9b6/exact3metadata paths/clean/checkpoint reverified.599publicationcomplete; no repush."
   },
   "completion_audit": {
     "goal": "goals/GOAL.20261027.md",
@@ -131,11 +126,11 @@
     "goal_lf_sha256": "b3d2acb1f962d793f45d79b6a4e67fb87dd072cd4752108a9298204b4cefa1de",
     "mathematical_gate": "open",
     "final_execution_gate": "not-eligible",
-    "basis": "599 limitedcriticalrankone family/fullpositive-repair failure addsno newkeyprimitive/mixed/core/wholeinput; allGoal3gatesopen/4/5UPPERunchanged, sameactive/noteligible."
+    "basis": "600 limitedactualrank2periodcone failure doesnotcoverfullcoremethodresponsibility; all3Goal gatesopen/keyprincipal/mixed/corecross/Xi/whole4/5UPPERunchanged, sameactive/noteligible."
   },
-  "process_inventory_observed_on": "2026-10-29T10:03:11.530916+00:00 all four current proof/scope/fresh outputs terminal; root fullread complete, no shell/background process.",
+  "process_inventory_observed_on": "2026-10-29T10:54:08.275572+00:00 all3originals/fullfresh andreadonlynestedcheck terminal; no background/source/numericprocess.",
   "publication_approval_gate": {
-    "status": "599-source-verified-metadata-child-condition-armed",
+    "status": "600-root-settled-source-publication-preparing",
     "destination": "https://github.com/lixiang90/RH-Weil",
     "visibility": "public",
     "branch": "main",
@@ -145,8 +140,8 @@
       "reply": "每轮把进度同步到github；把文献保存在文献库中，用研究看板来记录各个路线的状况",
       "scope": "本项目研究/Goal/STATE/看板/文献元数据/审查与同步回执；论文再分发许可不明则全文仅本地。"
     },
-    "current_scope": "All599proof/root/onecadence/board/library138 sourcepublished/independentlyverified. Oneexact3metadatachild condition; afteractualmatch publicationcomplete withactualchild finalHEAD, no recursive selfSHA.",
-    "verification": "reviews/2026-10-29/prime-ising-critical/remote-sync-verification.json"
+    "current_scope": "One600 actualrank2period fullspectrum/wholepositivecone boundary withallrepairscopes/root/onecadence/board/library139 metadata; publicmain authorization unchanged.",
+    "verification": "reviews/2026-10-29/rank-two-period/remote-sync-verification.json"
   },
   "research_board": "RESEARCH_BRANCHES.md",
   "literature_index": "literature/README.md",
@@ -173,7 +168,7 @@
     "repair_record": "reviews/2026-10-27/corrected-theta-source/root-consumption-scope.json",
     "basis": "Rawtheta frozen; scalarK/P0/Phi/fees reclosed, arithmetic7.4/stackindex unpaid. MB/582/583 unchanged."
   },
-  "latest_causal_review": "goals/reviews/2026-10-29-prime-ising-599-settlement.md",
+  "latest_causal_review": "goals/reviews/2026-10-29-rank-two-period-600-settlement.md",
   "sonin_high_scope_recovery": {
     "path": "reviews/2026-10-28/action-cone/strongest-old-sonin-recovery-correction.md",
     "status": "old-paid-safe-high-range-recovered-root-fresh-limited",

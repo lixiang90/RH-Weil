@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-29",
+  "previous_goal_turn": "progress:599 actualpositiveDprime/fulltarget failure/root/singlecadence/board/library/publication changed authoritative state andnextchoice",
+  "runtime_goal_created_at": 1793085111,
+  "prior_actual_final": "32ac6301f92673d8661116064b3576c119067e96",
+  "prior_ref_commit_tree_parent_exact3_clean_checkpoint_reverified": true,
+  "cadence_guard": {
+    "bytes": 6822,
+    "sha256": "498878728ef6d05ea16a3453f31ca5aa9a1034dceeed818d37e338b3048c5f0c",
+    "position": "1/history63/latest599/formal20"
+  },
+  "admission": "Bounded nonformal choice only; no actualinput admitted, no C063/600/sourcequery orpaper succession",
+  "current_tasks": [
+    "principal-actual-input.md",
+    "signed-core-actual-comparison.md"
+  ],
+  "observed_at_utc": "2026-10-29T10:15:12.257673+00:00"
+}

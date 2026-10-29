@@ -1,5 +1,7 @@
 # RH-Weil：从 Weil 猜想类比研究黎曼猜想
 
+2026-10-29，[600/C063完整结算](goals/reviews/2026-10-29-rank-two-period-600-settlement.md)：600/C063已root结算：实际rank2截断Eisenstein积分G_a的无RH全零轴/simple/全a谱尾闭，V_a=W_a/(1+a)在a∞趋2δ0。余乘积与实轴x^(3/4)反测给405Pan全a泄漏；同一compact差平方Φ严格分离整个共同正混合锥，任意正归一化亦失败。非负添加若fullmatch须period加权质量→0；逐源适应不跨源借质量，signed负响应/差测试及原du范数实现条件分清。三原稿13204/18714/18875、不同fresh17551/root26bindings闭，一完整失败轮1→2/history64/latest600/formal20保持，非macro21。132passivity旧paid，作者后章proof未审；新PDF仅本地库139/前四页实际范围。核心principal/mixed/corecross/Ξ及whole4/5负惯性UPPER未改，Goalactive/open。停止T/phase/clock/rank/后章续链；先准确发布，无已准继任，须新actual核心input-test-net。
+
 2026-10-29，[599/C062完整结算](goals/reviews/2026-10-29-prime-ising-599-settlement.md)：599/C062已root结算：实际素数权critical rankone自旋规则的有限正零轴、HS全复统一极限及完整无限零谱S′/D′均闭；ODE重数≤2＋RvM＋405真实Pan给同一compact精确双pole反测。先给K,m0再选probe，最终≥m0质量实际落在K且大cutoff时，任意正混合/逐源非负添加仍有gap；signed成功须不消失负响应，du norm仅明确bounded Hermitian实现。四原件/不同fresh19749/root20bindings闭，一完整失败轮0→1/history63/latest599/formal20保持，不是macro21。模型选择改变，关键principal/mixed/corecross/Ξ及whole4/5负惯性UPPER未改，Goal同实例active/open。库138新增仅metadata，无作者PDF/证明页。停止本族参数/scale/纸链；先准确发布，无已准继任，须新actual input-test-net。
 
 本项目研究：能否从素数、显式公式与数域几何自然构造一种 Weil 型结构，使黎曼 zeta 函数及相关 L 函数的零点被迫位于中心线？仓库保存结构归约、实际算术模型、机制障碍、形式化蓝图和可复现的有限检查。
