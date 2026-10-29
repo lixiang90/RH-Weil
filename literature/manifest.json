@@ -2438,7 +2438,14 @@
       "git_included": false,
       "publication_policy": "Full text local-only; redistribution permission not established. Public index/URLs/version/hash/read-scope only.",
       "review_note": "supplements/2026-10-27-weil-source-library.md",
-      "download_receipt": "supplements/2026-10-27-weil-source-downloads.json"
+      "download_receipt": "supplements/2026-10-27-weil-source-downloads.json",
+      "research_updates": [
+        {
+          "date": "2026-10-29",
+          "scope": "Rootrevisitedfirst68lines currentrequestedfile byteidenticaltooldarchive; mathematics only/no instructionsauthorization. Oldnormalizations notnewinput.",
+          "scope_record": "supplements/2026-10-29-core-input-portfolio-scope.md"
+        }
+      ]
     },
     {
       "id": "Borcherds-AutomorphicProducts-1998-author",
@@ -2724,7 +2731,14 @@
       "read_scope": "Prior actual section8/definition/period visual scopes retained in originalrecords. CurrentfixedPet tower turn uses projectproofs/old552/537 only, no newexternalPDF/web/render/originalpaperproof read.",
       "proof_status": "Rootdefined unaveragedPet principal-tower Gram localuniformdu fee andoldfullGamma highfrequency directlychecked, standard0 stopthisfamily; notauthorarithmeticTheta/height construction. Literal/overallTheta7.4 transfer remainfrozen. Next causalstrategyreview unexecuted.",
       "scope_record": "supplements/2026-10-28-cofinal-petersson-source-scope.md",
-      "read_record": "reviews/2026-10-28/cofinal-petersson/source-read-record.json"
+      "read_record": "reviews/2026-10-28/cofinal-petersson/source-read-record.json",
+      "research_updates": [
+        {
+          "date": "2026-10-29",
+          "scope": "Arithmeticportfolio onlyPDF32-36heading/statementlocator,visual34/36; §9localdichotomy/§10doubling notphysicalbridge, noproof/newchapterbudget.",
+          "scope_record": "supplements/2026-10-29-core-input-portfolio-scope.md"
+        }
+      ]
     },
     {
       "file": "local/2026-10-28-causal-strategy/raum-2603.04282v2.pdf",
@@ -2791,6 +2805,12 @@
           "scope": "C052 sourceupper/localization two terminalprooflegs/currentfresh/root; weighteduniformevaluation/actualcentralmass/fulltail/Remez andfixedδ; originalv2 unchanged.",
           "scope_record": "supplements/2026-10-28-sonin-zero-mean-upper-source-scope.md",
           "read_record": "reviews/2026-10-28/sonin-scalar-normalization/source-read-record.json"
+        },
+        {
+          "date": "2026-10-29",
+          "scope": "Nonformalportfolio re-read completeTh6.5statement959-989 andoldV/§1dictionary; statementalreadyread10-28, proofunreviewed. Exact560SoninDeltaKcandidate, nextonlynecessarycovarianceproofgate, notC059/596.",
+          "scope_record": "supplements/2026-10-29-core-input-portfolio-scope.md",
+          "root_record": "../reviews/2026-10-29/core-input-portfolio/root-consumption-scope.json"
         }
       ]
     },
@@ -3063,6 +3083,24 @@
           "mathematical_rounds_added": 0
         }
       ]
+    },
+    {
+      "id": "Louboutin-Cyclotomic-Resultants-1997",
+      "authors": "Stéphane Louboutin",
+      "title": "Resultants of cyclotomic polynomials",
+      "version": "Publ. Math. Debrecen50/1-2(1997),75-77; fixedpublisherPDF3pages",
+      "source_url": "https://publi.math.unideb.hu/paper/348/download/10_5486_PMD_1997_1721.pdf",
+      "file": "local/2026-10-29-cyclotomic-resultant/louboutin-1997-resultants.pdf",
+      "bytes": 202191,
+      "sha256": "dd47d31757c7097a03a64b26814db6795a70cdb7cfd6a767145eb16ff1b254d6",
+      "pdf_pages": 3,
+      "retrieved_at_utc": "2026-10-29T04:43:19.960849+00:00",
+      "download_status": "downloaded-fixed-publisher-pdf-byte-verified",
+      "git_included": false,
+      "read_scope": "Primarywebfirstpagetheorem andlocalmetadata/theoremvisual only; m>n>1 primepowerratio resultants. No proof/laterpage/sourcecoefficient-asymptotics orfullarithintersection consumed.",
+      "proof_status": "Citedcandidatefiniteprimepiece; naturalfullprincipalpair onP1 rejectedbydirectoldprincipalrole. No newprimitive/wholeWeilinput orsecondsourcequeue.",
+      "scope_record": "supplements/2026-10-29-core-input-portfolio-scope.md",
+      "metadata_receipt": "../reviews/2026-10-29/core-input-portfolio/louboutin-locator-metadata.json"
     }
   ],
   "supplement_provenance": [

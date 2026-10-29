@@ -1,6 +1,6 @@
 # 长期研究恢复入口
 
-2026-10-29，[fixed-field高度共同Gram旧比较已止](reviews/2026-10-29-heegner-fixed-field-rank-old-stop.md)：field10093/Gram11360/differentfresh8403/root闭；Delta1 trace由CMfield+共轭降Q，实际类进固定MW空间，不用退化sigma或曲线维数。共同有界总feature的height-pair不能cofinal逐项恢复537全mixed正Gram；属537+标准matrix直接旧消费0，不是全部非线性对角/连续family/Green路线边界。无C059/596，cadence1/history59/latest595/formal19原字节保持，文献134。关键primitive/mixed/growingcore与whole4/5负惯性UPPER不变，Goalactive/open；唯一下一为非formal核心输入/机会成本审视，未执行、不重置计数，不续field/class/Gram或来源参数链。当前发布及准确动作见STATE。
+2026-10-29，[核心输入机会成本审视已完成](reviews/2026-10-29-core-input-opportunity-review.md)：arith12203/signed11433/differentfresh12326/root闭，非formal0数学轮，非formal20/cadence不重置。没有新算术J_r/principal/mixed或独立正Dprime输入；只准既存bramble v2 Th6.5必要covariance proof门：actual前驱prime集合+moving双脉冲与560 SoninDeltaK已statement对齐，速率仍未审。Statement已读不再当下一动作，proof尚未执行；无C059/596预准，不续6.4/§7/参数。分圆resultant新primary已归档135，但natural fullprincipal类首门旧0拒，不成第二队列。核心及whole4/5负惯性UPPER不变，Goal同实例active/open；实际发布与next见STATE。
 
 2026-10-29，[Sonin Gram行列式old0止](reviews/2026-10-29-sonin-gram-determinant-old-stop.md)：ordinary夹源S₁强域和真实Gram metric已两原稿/不同限定fresh/root核，mixed Levi逐层恰591的V_R，三fixed-test及positiveweight必要费直接旧消费。Scalar全纯τ局部曲率0与Gram/dual号分开；非全纯C²重参数、pointwise极限不换Levi、principal非零Green等范围均保。无新算术mixed输入，不建C058/595；关键瓶颈及whole4/5负惯性UPPER未改，cadence0/history58/latest594/formal19、manifest132不动，Goalactive。当前准确范围发布核actualHEAD，不续τ/frame/relative预算/旧章，无已准继任。
 
