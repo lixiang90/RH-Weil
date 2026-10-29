@@ -1,0 +1,31 @@
+{
+  "schema": "rh-weil-source-publication-and-metadata-condition-v1",
+  "date": "2026-10-29",
+  "repository": "https://github.com/lixiang90/RH-Weil",
+  "branch": "main",
+  "source": {
+    "commit": "946f6b635d479a6b7f2ca524a9128bf84edea777",
+    "tree": "5c6c4c9623d63e8be9fc492b75674e17de5b6c44",
+    "parent": "aecf676b9251a7f14b39489f08f99e78fdfda5ad",
+    "changed_paths": 16,
+    "independently_verified_by": "Connected GitHub ref/gitcommit/tree and local clean main match exactly."
+  },
+  "source_read_urls": [
+    "https://api.github.com/repos/lixiang90/RH-Weil/git/ref/heads/main",
+    "https://api.github.com/repos/lixiang90/RH-Weil/git/commits/946f6b635d479a6b7f2ca524a9128bf84edea777",
+    "https://api.github.com/repos/lixiang90/RH-Weil/git/trees/5c6c4c9623d63e8be9fc492b75674e17de5b6c44"
+  ],
+  "source_scope": "Bounded BO2010 chapter gate source0 stop; exactsource/physical/differentfresh/root originals and unexecuted fixedfield height-rank comparison; book/STATE/library134 readscope. Fulltext/pixels/text ignored.",
+  "metadata_child_completion_condition": {
+    "parent_must_equal": "946f6b635d479a6b7f2ca524a9128bf84edea777",
+    "changed_paths_exactly": [
+      "goals/STATE.json",
+      "goals/checkpoints/2026-10-29-heegner-principal-sync.json",
+      "reviews/2026-10-29/heegner-principal-source/remote-sync-verification.json"
+    ],
+    "required": "Normal fast-forward main push, independent connected GitHub3GET actualHEAD/tree/soleparent/source/clean/checkpoint/exact3paths all match. Do not write receipt-ownSHA recursively. On next matching recovery do not repush.",
+    "next_action_when_matched": "Only execute next-fixed-field-height-rank-comparison.md, currently unexecuted. No C059/newsourcechapter/parameter search."
+  },
+  "cadence_unchanged": "1/history59/latest595/formal19; LF SHA25673ef5152185e3213a7b076a76a656c0a5a0acf9ace994c612def2de270584f4b",
+  "goal": "Same runtime1793085111 active; mathematics completion gates open/noteligible."
+}
