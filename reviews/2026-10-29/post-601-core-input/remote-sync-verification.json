@@ -3,13 +3,24 @@
   "date": "2026-10-29",
   "repository": "https://github.com/lixiang90/RH-Weil",
   "branch": "main",
-  "status": "source-pending-not-yet-verified",
+  "status": "source-verified-metadata-child-condition-armed",
   "source_parent": "219a7aa269eb87c40385dde124c1d916c9629139",
   "authorization": "Userdirectper-roundpublicmain sync/Goal§5 andcommand10808proxy.",
   "scope": "Post601actualprincipal/signedformula old0/fullfresh/root24bindings; conditional4340onebodyfirstgate unexecuted; solecadence7009raw3history65latest601formal20 unchanged; board/library140manifest218597unchanged/no newexternalprimary/PDF. No C065/602/keycore/Goalcompletion.",
-  "source_verification": null,
+  "source_verification": {
+    "commit": "bc138bd497132202bfd95709158c9083a45fc7d9",
+    "tree": "3d59f0cf983ee4f7f480f69912c4ed17ce842513",
+    "sole_parent": "219a7aa269eb87c40385dde124c1d916c9629139",
+    "source_changed_paths": 17,
+    "observed_at_utc": "2026-10-29T12:36:47.080459+00:00",
+    "basis": "IndependentconnectedGitHub actualmainref/gitcommit/gittree=localHEAD/tree/soleparent; exact17/clean/sourcecheckpoint PASS.",
+    "bindings": "24rootraw inputs exactrawstage;12821/12755/14986/final4340 frozen; no newprimary/PDF.",
+    "cadence_literature": "Cadence7009rawSHA7d6c1228 unchanged3/history65/latest601/formal20;manifest218597rawSHAdec7cfaf unchanged140.",
+    "new_key_or_whole_improvement": false,
+    "next_gate_executed": false
+  },
   "metadata_child_condition": {
-    "parent": "TO_BE_BOUND_AFTER_INDEPENDENT_SOURCE_VERIFY",
+    "parent": "bc138bd497132202bfd95709158c9083a45fc7d9",
     "exact_paths": [
       "goals/STATE.json",
       "goals/checkpoints/2026-10-29-post601-core-old0-sync.json",
