@@ -3,18 +3,30 @@
   "date": "2026-10-29",
   "repository": "https://github.com/lixiang90/RH-Weil",
   "branch": "main",
-  "status": "scientific-source-preparing",
+  "status": "source-verified-metadata-child-condition-armed",
   "source_parent": "488ce4a5cff5fe5981397fca9b1d14c33331323e",
   "authorization": "Userdirectpublicmain per-roundsync/Goalsection5.",
   "scope": "Duplicatewitness admissionwithdrawal andstrongoldrecovery/audit/root/STATEshortening/board/libraryscope/checkpoint. No newmath/scalar/oracle/Goal/cadence/manifest/oldproof changes.",
-  "source_verification": null,
+  "source_verification": {
+    "commit": "68cb0758ee1cf14e5f72ebed77ac4de897993db5",
+    "tree": "ceb5011f515219aebf828178e8af9f83b4e86747",
+    "sole_parent": "488ce4a5cff5fe5981397fca9b1d14c33331323e",
+    "source_changed_paths": 16,
+    "observed_at_utc": "2026-10-29T09:13:51.687688+00:00",
+    "basis": "Independent connectedGitHub mainref/gitcommit/gittree matchactualsourceHEAD/tree/soleparent; clean/sourcecheckpoint passed.",
+    "bindings": "9current+9oldpublic immutable pins",
+    "cadence_manifest": "rawunchanged0/history62/latest598/formal20 and137entries",
+    "new_math_or_numeric": false,
+    "failed_transport": "terminal/nofile/notconsumed"
+  },
   "metadata_child_condition": {
-    "parent": "resolveaftersourceindependentverification",
+    "parent": "68cb0758ee1cf14e5f72ebed77ac4de897993db5",
     "exact_paths": [
       "goals/STATE.json",
       "goals/checkpoints/2026-10-29-witness-physical-old-recovery-sync.json",
       "reviews/2026-10-29/witness-physical-energy/remote-sync-verification.json"
     ],
-    "condition": "One normalmetadatachild; independentlyactualmainref/commit/tree/localHEAD/tree/soleparent/exact3paths/clean/checkpoint matchthenpublicationcomplete, no selfSHA/repeatpush. No admittedsuccessor; genuinelynewactualinput-test-net required."
+    "condition": "One normalmetadatachild; independentlyactualmainref/commit/tree/localHEAD/tree/soleparent/exact3paths/clean/checkpoint matchthenpublicationcomplete, no selfSHA/repeatpush. No admittedsuccessor; genuinelynewactualinput-test-net required.",
+    "on_match": "Publicationcomplete foroldscope recovery/withdrawal; actualindependentlyverifiedchildisfinalHEAD. No selfSHAedit/repeatpush; no admittedsuccessor, newactualinput-test-net required."
   }
 }
