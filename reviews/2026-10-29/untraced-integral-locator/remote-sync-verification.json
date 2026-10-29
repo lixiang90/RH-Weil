@@ -3,18 +3,29 @@
   "date": "2026-10-29",
   "repository": "https://github.com/lixiang90/RH-Weil",
   "branch": "main",
-  "status": "scientific-source-preparing",
+  "status": "source-verified-metadata-child-condition-armed",
   "source_parent": "72401b74cf1f5d13ad5e05b334b27c3451f6ad98",
   "authorization": "Userdirectper-round publicmain sync/Goalsection5.",
   "scope": "Untracedlocator exactexecution/dedup/root/STATE/board/librarysearchscope/checkpoint;0math/cadence/manifest unchanged, rawtool localignored.",
-  "source_verification": null,
+  "source_verification": {
+    "commit": "bce5ed4031b0d779258df4d2f09a35e047acabf3",
+    "tree": "a43d90a86f211536837545cb5f9d33565c115b40",
+    "sole_parent": "72401b74cf1f5d13ad5e05b334b27c3451f6ad98",
+    "source_changed_paths": 15,
+    "observed_at_utc": "2026-10-29T08:41:28.087772+00:00",
+    "basis": "Independent connectedGitHub mainref/gitcommit/gittree matchactualsourceHEAD/tree/soleparent; clean/sourcecheckpoint passed.",
+    "bindings": 7,
+    "cadence_manifest": "Originalrawunchanged0/history62/latest598/formal20 and137entries.",
+    "new_source_math": false
+  },
   "metadata_child_condition": {
-    "parent": "resolveaftersourceindependentverification",
+    "parent": "bce5ed4031b0d779258df4d2f09a35e047acabf3",
     "exact_paths": [
       "goals/STATE.json",
       "goals/checkpoints/2026-10-29-untraced-integral-locator-sync.json",
       "reviews/2026-10-29/untraced-integral-locator/remote-sync-verification.json"
     ],
-    "condition": "One normalmetadatachild; independentlyactualmainref/commit/tree/localHEAD/tree/soleparent/exact3paths/clean/checkpoint matchthenpublicationcomplete, no selfSHAedit/repeatpush. No admittedmath/source successor; actualnewinput-test-net required."
+    "condition": "One normalmetadatachild; independentlyactualmainref/commit/tree/localHEAD/tree/soleparent/exact3paths/clean/checkpoint matchthenpublicationcomplete, no selfSHAedit/repeatpush. No admittedmath/source successor; actualnewinput-test-net required.",
+    "on_match": "Publication complete forthisbounded0stop; actualindependentlyverifiedchildisfinalHEAD. No recursive selfSHAedit/repeatpush; locatorstopped/no admittedsuccessor, actualnewformula/chapter/corecomparison input-test-net required."
   }
 }
