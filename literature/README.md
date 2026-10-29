@@ -1,5 +1,7 @@
 # RH-Weil 文献索引
 
+2026-10-30：单一Euler-inner/Clark公式建设的标准/旧germ首检已两稿/不同审查/root闭，0数学轮、无新外部paper/PDF/作者章。文献140条与manifest218597原字节保持；[实际使用范围](supplements/2026-10-30-euler-inner-clark-scope.md)区分内部正载体推导与完整Weil目标，不把Clark名称当新增原文阅读或文献项。
+
 2026-10-29：602＋正式宏观21已root闭，原计数一次归零/history66/latest602；仅项目证明/强旧恢复与宏观范围核查，无新外部来源。140条manifest原字节保持；[使用范围](supplements/2026-10-29-onebody-whole-source-budget-scope.md)区分新whole fixed-I norm与旧fixed-smooth/finite-E，不升级成长/符号或作者阅读。
 
 2026-10-29：602全fixed-I单位球单素数compact费用由项目自含两证明/不同终审/root闭合；恢复533固定smooth强旧，不重计。无新paper/PDF/作者章，库140与manifest218597原字节保持。详见[准确使用范围](supplements/2026-10-29-onebody-whole-source-budget-scope.md)，不把内部证明登记成外部文献；macro21审查不扩大阅读范围。
