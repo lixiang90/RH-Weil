@@ -1,0 +1,20 @@
+{
+  "schema": "rh-weil-publication-verification-v1",
+  "date": "2026-10-29",
+  "repository": "https://github.com/lixiang90/RH-Weil",
+  "branch": "main",
+  "status": "scientific-source-preparing",
+  "source_parent": "1605990fdf9945d2606f2ed09c05fa55776d5f08",
+  "authorization": "Userdirecteachiterationsync/Goalsection5; no newpermissionrequired.",
+  "scope": "Nonformalchoice0/source0,citeddomainandexplicitunexecutedMellinproposal,library137metadataonly. No rawPDF/cadence/Goal/596 changes.",
+  "source_verification": null,
+  "metadata_child_condition": {
+    "parent": "to resolveafteractualsourceverification",
+    "exact_paths": [
+      "goals/STATE.json",
+      "goals/checkpoints/2026-10-29-post-increment-core-choice-sync.json",
+      "reviews/2026-10-29/post-increment-core-choice/remote-sync-verification.json"
+    ],
+    "condition": "One normalmetadatachild; independentlyfetchactualmainref/commit/tree. MatchlocalHEAD/tree/soleparent/exact3paths/clean/checkpoint, thencompletepublication/no selfSHAwrite/repeatpush. ResearchnextonlyfixedformalMellinnecessaryadmission."
+  }
+}

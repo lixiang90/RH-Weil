@@ -1,0 +1,37 @@
+{
+  "attempts": "Defaultsandboxcurl proxyconnectfailure; samefixedcommands withauthorizednetworkescalation both exit0, certificateverificationkept",
+  "sources": [
+    {
+      "path": "literature/local/2026-10-29-core-input-choice/osipov-1801.02282v2.pdf",
+      "bytes": 267569,
+      "pages": 21,
+      "sha256": "8491958ec6ff552aa1d3915ecb7f29a8a1bed4069292acac76a3b79c7b8100cc",
+      "url": "https://arxiv.org/pdf/1801.02282v2",
+      "retrieved_at_utc": "2026-10-29T06:28:39.730444+00:00",
+      "git_ignored": true,
+      "content_read_scope": "Seeosipov-source-read-record.json; corrected§2statement/defs, proofexposureunconsumed."
+    },
+    {
+      "path": "literature/local/2026-10-29-core-input-choice/gorz-1902.07321v2.pdf",
+      "bytes": 216634,
+      "pages": 11,
+      "sha256": "e3cac568f996d050786c1e5cfc1420483db581de1fdf98fef4d5f1b73a9908fd",
+      "url": "https://arxiv.org/pdf/1902.07321v2",
+      "retrieved_at_utc": "2026-10-29T06:28:39.814865+00:00",
+      "git_ignored": true,
+      "content_read_scope": "Metadata/pagecount only byroot; no extraction/display ofproof."
+    }
+  ],
+  "scope": "Publicfixedsourcearchive metadata; Osipovreadscope exactin osipov-source-read-record, Jensenpublishedstatementandv2archive separate. No thirdpartyfulltexttracked.",
+  "source_pages": {
+    "Osipov": "https://arxiv.org/abs/1801.02282v2",
+    "Jensen_arxiv": "https://arxiv.org/abs/1902.07321v2",
+    "Jensen_consumed_statement": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6561287/"
+  },
+  "prior_manifest": {
+    "commit": "1605990fdf9945d2606f2ed09c05fa55776d5f08",
+    "entries": 135,
+    "sha256": "de8f3f9b497fc6cd7ede01b5bde430a24cfba6da0cd19fc726f6dc46a1db623c"
+  },
+  "registered_entries": 137
+}

@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-29",
+  "source": "literature/local/2026-10-29-core-input-choice/osipov-1801.02282v2.pdf",
+  "bytes": 267569,
+  "sha256": "8491958ec6ff552aa1d3915ecb7f29a8a1bed4069292acac76a3b79c7b8100cc",
+  "initial_gate": "next-osipov-arithmetic-quotient-source-gate.md 2649bytes preserved",
+  "initial_consumption": "Root PDF1-3 complete, PDF4 Introductionbefore§2; visualPDF1-3. Actualintro saysmainTheorem2.1 notformulatedhere. Equations2/3 areclassicalnumberfield/surface-kanalogues, notthearithmeticmainexactseq.",
+  "correction": "osipov-source-location-correction.md 1853bytes/SHA745c9abe341462a2e6bd1c7ead186bb37302478696d172c6dd726d6a526ccb68 frozenbefore§2math; samepaper/statementtarget only, nopaper/proofqueue.",
+  "corrected_consumption": "Root PDF4§2hypotheses, PDF5-6immediatedefs(4)-(10), PDF7throughTheorem2.1(11)/mapconventions. VisualPDF5/6/7, plus earlier1-3. AuthorTheorem2.1 usedascitedstatement; proofnotcertified.",
+  "overbroad_return_exposure": "One root pypdf call printedfullPDF7 tail(Remark2.2/Example2.3/§3heading) andfirst1000charsPDF8 (adelic-complexpreliminaries) duebadprefixfallback. These areexposed/unconsumed, no proof/dependency/inference takenfromthem; nofurtherreading§3/4/reference. PDF7visualalsoexposedtail. Exactreportpreservesmistake ratherthancallingallunread.",
+  "source_result": "Definitionsgivecanonical VInfinity->Phi, v|->[(0,v)], finite/archlegsdiagonal01 and02distinct. Missingisphysicalr->validv with405compatibility/537nonroot/fullnorm, notabsenceofarchquotientmap. Onlygiven-sheaf quotient/statement paidascited; no actualprincipal/mixedWeilbridge suppliedinreadscope.",
+  "baseline": "P1_Z/F O(-2)/C infinity meetslisted§2normalintegral/projectivesurjective/horizontalreduced/affineU/locallyfreehypotheses; nonef/polarizationassumed.",
+  "not_consumed": "Mainproof§3, H1protorusproof§4, fullExample2.3calculation,2022surface-kRR,othersources.",
+  "independent_audit": {
+    "path": "source-gate-location-and-domain-audit.md",
+    "bytes": 12603,
+    "sha256": "82d2231ceb82b2a90cf07bf25bba068f1bb1efcea79ad3c2ec59e7d7ed76027b",
+    "root_consumed": "Fullfrozenoriginalread; canonicalarchmap/missingphysicalmap/fixedschemehypotheses/citedstatus aligned. Source0stop."
+  },
+  "next_candidate": "next-formal-mellin-source-admission.md isrootseparatenoncanonicalproposal, notauthorinput/notexecuted/notmathcontract."
+}

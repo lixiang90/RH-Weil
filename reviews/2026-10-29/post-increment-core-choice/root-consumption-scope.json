@@ -1,0 +1,258 @@
+{
+  "schema": "rh-weil-root-consumption-v1",
+  "date": "2026-10-29",
+  "goal": "goals/GOAL.20261027.md",
+  "runtime_goal_created_at": 1793085111,
+  "baseline_commit": "0c4f3a3eb609bb1d9564138fa4a35701f05605f2",
+  "decisions": [
+    "D20261029AA",
+    "D20261029AB"
+  ],
+  "status": "root-consumed-nonformal-choice-and-source0-stop",
+  "math_iterations": 0,
+  "formal_review_cycle": 19,
+  "result": "goals/reviews/2026-10-29-post-increment-core-choice.md",
+  "inputs": [
+    {
+      "path": "goals/GOAL.20261027.md",
+      "bytes": 9679,
+      "sha256": "b3d2acb1f962d793f45d79b6a4e67fb87dd072cd4752108a9298204b4cefa1de",
+      "utf8_lf": true
+    },
+    {
+      "path": "goals/contracts/C059-critical-prime-sonin-covariance.md",
+      "bytes": 2011,
+      "sha256": "376a3bc8f3504e2d071d8c30ad81579c78c7488cb2d2b93c80d7dee008972be8",
+      "utf8_lf": true
+    },
+    {
+      "path": "reviews/2026-10-29/same-source-telescoping/root-consumption-scope.json",
+      "bytes": 9177,
+      "sha256": "9e5282b068f4ce52479472ec50beaaaec442fc021ef9bd12986acecc5e8cc272",
+      "utf8_lf": true
+    },
+    {
+      "path": "notes/405-f1-adelic-restriction-moments-and-radical.md",
+      "bytes": 14633,
+      "sha256": "fe5ee4b574954e51a69c6bbbaa772bb75a1a510c91c837ba02eed8ac406cbb7d",
+      "utf8_lf": true
+    },
+    {
+      "path": "notes/519-f1-closed-source-image-and-degree-moments.md",
+      "bytes": 5766,
+      "sha256": "93d39e6d932c9913f5feb77bed4d1ad096c9d984ed571e894576fce6c53b124c",
+      "utf8_lf": true
+    },
+    {
+      "path": "notes/520-f1-source-quotient-spectrum-and-centered-growth.md",
+      "bytes": 6311,
+      "sha256": "81a05708dfd2139d374d9fac7f631e66ea4449d502cf9fb0c52f53b900dc9651",
+      "utf8_lf": true
+    },
+    {
+      "path": "notes/552-radial-adelic-green-principal-and-comparison-gate.md",
+      "bytes": 9192,
+      "sha256": "670c05aac61921a4f36accc89638e2844fe7221df6341e4e7ff27964fb22d887",
+      "utf8_lf": true
+    },
+    {
+      "path": "notes/576-fixed-elliptic-positive-cone-and-original-alias-cost.md",
+      "bytes": 15924,
+      "sha256": "cbf32034c1e63518ef124ba89e1a46093b55da1086868532d8e5a1e0576595bd",
+      "utf8_lf": true
+    },
+    {
+      "path": "notes/577-full-gamma-positive-repairs-and-independent-budget-gap.md",
+      "bytes": 13925,
+      "sha256": "cf80354ab3bb3c7ca2a2bae7e2aa4083adc47d01da5c984146fb285d7551f55f",
+      "utf8_lf": true
+    },
+    {
+      "path": "notes/578-prime-pole-signed-budget-and-selberg-control-gap.md",
+      "bytes": 11814,
+      "sha256": "d600adfc0fa857623f585af2ec809840296659b737afbcf5cb745eba740e0901",
+      "utf8_lf": true
+    },
+    {
+      "path": "notes/582-full-local-weil-strong-domain-and-actual-green-source-gates.md",
+      "bytes": 14027,
+      "sha256": "6d5e5711e44fad0aec44e6d95233b7898370430bc9b7b1cc8281b7d4304fdcc8",
+      "utf8_lf": true
+    },
+    {
+      "path": "notes/583-completed-modular-faber-source-and-native-green-transport.md",
+      "bytes": 11644,
+      "sha256": "babe212467d5c41d14a20ba2d0d99b1f49722f2388bfea9dc13c6334ef3fadab",
+      "utf8_lf": true
+    },
+    {
+      "path": "notes/584-marked-cusp-borel-kernel-and-pan-residue-collapse.md",
+      "bytes": 8856,
+      "sha256": "63a2a438666cc859d543503715a16bb7c58c2de80e0a5bd8a22e2a36997c96a0",
+      "utf8_lf": true
+    },
+    {
+      "path": "notes/587-actual-sonin-moment-spread-and-growing-source-rank-necessity.md",
+      "bytes": 8681,
+      "sha256": "e4d30cfb6d07299386014cb4c4e3e3979ab5111264355dfb37b24629f121ac82",
+      "utf8_lf": true
+    },
+    {
+      "path": "notes/591-connected-occupation-covariance-three-fixed-test-barrier.md",
+      "bytes": 5974,
+      "sha256": "5a6d6e221369a1a9bce668d56c9fe574aeca0a295fdb7d0ccd31e4fcd03eaa7c",
+      "utf8_lf": true
+    },
+    {
+      "path": "notes/594-selfadjoint-signed-euler-source-hilbert-decoupling.md",
+      "bytes": 7731,
+      "sha256": "1f3dde7dfca350b062dbbe3763cd55e9322a694e5438ad6aae9f75f848121f9b",
+      "utf8_lf": true
+    },
+    {
+      "path": "notes/596-critical-prime-sonin-covariance-and-signed-increment.md",
+      "bytes": 9094,
+      "sha256": "b609b8e5a820ca259c1a02fce134ca5b788d4c3373b933b6e1d2c3094cc4a782",
+      "utf8_lf": true
+    },
+    {
+      "path": "literature/local/2026-10-29-core-input-choice/osipov-1801.02282v2.pdf",
+      "bytes": 267569,
+      "sha256": "8491958ec6ff552aa1d3915ecb7f29a8a1bed4069292acac76a3b79c7b8100cc",
+      "utf8_lf": false
+    },
+    {
+      "path": "literature/local/2026-10-29-core-input-choice/gorz-1902.07321v2.pdf",
+      "bytes": 216634,
+      "sha256": "e3cac568f996d050786c1e5cfc1420483db581de1fdf98fef4d5f1b73a9908fd",
+      "utf8_lf": false
+    },
+    {
+      "path": "reviews/2026-10-29/post-increment-core-choice/next-formal-mellin-source-admission.md",
+      "bytes": 2723,
+      "sha256": "4bd4483a700f1ab67c784d92f0723fd8cd1f76028be5674b78aa63163094b21f",
+      "utf8_lf": true
+    },
+    {
+      "path": "reviews/2026-10-29/post-increment-core-choice/osipov-source-read-record.json",
+      "bytes": 2389,
+      "sha256": "1588c2db9b07e14d0e34f5b7b6e0fb8221c966d9530efb07736d36ee59e8763d",
+      "utf8_lf": true
+    },
+    {
+      "path": "goals/review-cadence.json",
+      "bytes": 6749,
+      "sha256": "a5cfcd0ca0f2a4ad63f6c7b60d55c83024ebb86387f0a12a0b7b167e6f3cf600",
+      "utf8_lf": true
+    },
+    {
+      "path": "reviews/2026-10-29/post-increment-core-choice/arithmetic-input-candidate.md",
+      "bytes": 11154,
+      "sha256": "099e07320bce1a8d54d80bbab861b10994b5a5cebfed63a5fe9a8cdd3016ca0e",
+      "utf8_lf": true
+    },
+    {
+      "path": "reviews/2026-10-29/post-increment-core-choice/positive-and-signed-candidate.md",
+      "bytes": 13312,
+      "sha256": "32e26680d5810174deec0f45d6583722164aa7a4a70574d73e549bd24404d2c2",
+      "utf8_lf": true
+    },
+    {
+      "path": "reviews/2026-10-29/post-increment-core-choice/fresh-core-choice-audit.md",
+      "bytes": 13057,
+      "sha256": "b437301c274943306a88cf398e69146e8573d361b8a38b4e168e7c174f1f782c",
+      "utf8_lf": true
+    },
+    {
+      "path": "reviews/2026-10-29/post-increment-core-choice/source-gate-location-and-domain-audit.md",
+      "bytes": 12603,
+      "sha256": "82d2231ceb82b2a90cf07bf25bba068f1bb1efcea79ad3c2ec59e7d7ed76027b",
+      "utf8_lf": true
+    },
+    {
+      "path": "reviews/2026-10-29/post-increment-core-choice/next-osipov-arithmetic-quotient-source-gate.md",
+      "bytes": 2649,
+      "sha256": "6082558a873052bb568c57326979db645967ee72b2d81b2a142b24044f71ac52",
+      "utf8_lf": true
+    },
+    {
+      "path": "reviews/2026-10-29/post-increment-core-choice/osipov-source-location-correction.md",
+      "bytes": 1853,
+      "sha256": "745c9abe341462a2e6bd1c7ead186bb37302478696d172c6dd726d6a526ccb68",
+      "utf8_lf": true
+    }
+  ],
+  "root_actual_consumption": "Twofrozenproposals11154/13312, differentchoicefresh13057 andnewsource-domain12603 allroot-full-read/rehashed. Rootindependentlyreadfixedsourceintro andcorrecteddefs/Theorem2.1statement; separatefreshnewscope cannotbe replacedbyoldchoicePASS.",
+  "choice": {
+    "core_gate": "No independentactualprincipal/mixed/positiveDprime/fullsignednet inputformedbyauthorsoroldassets. Rawrootnoncanonicalformula laterformedonlyforadmission, no mathematicalcontract.",
+    "arithmetic_pair": "Finitecyclotomicprincipal sum +differentGreen leavespurearchclass, old552/582/583. Finiteprincipal0notallnonclosedinfinitecompletions0; purearchlegalnotzero.",
+    "positive_pair": "ActualJensenrealroots givefinitepositivecosspectrum onphysicaldu, butprimaryPNASfixeddegree/largeshift/HermitemodelstatementnotclassicalXi/fullWeiltarget. 576rawpositiveconealreadystrong; no parameter/proofqueue.",
+    "signed": "591scopeand594nativeHSbarrierswithnormal/nonlinear/growingescape retained; 596newadjacentDeltaK retained; endpoint/partialK/587wholealreadystrongold, notnewnet."
+  },
+  "source_location_closure": {
+    "old_gate": {
+      "path": "reviews/2026-10-29/post-increment-core-choice/next-osipov-arithmetic-quotient-source-gate.md",
+      "bytes": 2649,
+      "sha256": "6082558a873052bb568c57326979db645967ee72b2d81b2a142b24044f71ac52",
+      "utf8_lf": true
+    },
+    "actual_mismatch": "§1 intro explicitlydoesnotformulateTheorem2.1; equations2/3areanalogues, notmainarithmeticstatement.",
+    "correction": {
+      "path": "reviews/2026-10-29/post-increment-core-choice/osipov-source-location-correction.md",
+      "bytes": 1853,
+      "sha256": "745c9abe341462a2e6bd1c7ead186bb37302478696d172c6dd726d6a526ccb68",
+      "utf8_lf": true
+    },
+    "order": "Correction frozenbefore§2mathread; onlynecessary§2defsandTheorem2.1statement PDF4tail-7, proofnotread. Oldchoice/gatefingerprintsunchanged.",
+    "exposure": "RootfullPDF7return andvisual exposedRemark/Example/§3heading, plusbadprefixfallback exposedfirst1000charsPDF8prelim; allunconsumed. Independentfreshcropped/split excludesExample/proof/8. Exactscope inreadrecord; no downstreamusesofexposedextra."
+  },
+  "object_domain_norm_roles": {
+    "arithmetic_basis": "X=P1_Z,C=infinityhorizontal,U=A1_Z,F=O(-2) satisfieslistednormal/integral/projective/surjective/affine/locallyfreeconditions; nonef/metric/positivecapacityassumed.",
+    "infinity": "VInfinity=A_XQ(F_Q)completedtensor_QR, formalLaurentQ((t))->R((t)), notarbitrarysmoooth/physicalL2/receiver. Negativepowersfinite, positiveformal infinite.",
+    "natural_map": "Actual iInfinity:VInfinity->Phi, v->[(0,v)] existsbydirectsum/quotientdefinition. Missingphysicalr->v/405compatiblechain, notarchmapitself.",
+    "boundary": "01embeddeddiagonally finite+arch;02containsfiniteA02plusgenericF_eta tensorR; theseareadditivesubgroupsnotalreadyCCMPan/principalGreenpairs. Papereta genericpointnotSchwartzeta.",
+    "exactseq": "Theorem2.1citedstatement 0->G1->Phi->G2->0; Phi notG2; rightdenominator A_C itself +(A_UQ tensorR), notA_C tensorR. A_C direct_n/inverse_m<n limits distinctfromintroH1protorusclaim.",
+    "norm": "No du/Dlog/complexHilbert/positiveHodge/mixedorfullGamma-pp-poleidentityfromthiscarrierstatement. Allsource/growthnorms remainunpaid."
+  },
+  "source_stop": "Authorstatement/definition source0; doesnotgivephysicalr/finitelegs/405Pan and537nonroot chain inreadscope. Stop§3proof/§4/Example2.3/reference/2022RR/fielddegreequeue. Notauthorproof-failure orwholemethodboundary.",
+  "new_root_candidate_admission": {
+    "path": "reviews/2026-10-29/post-increment-core-choice/next-formal-mellin-source-admission.md",
+    "formula": "Realphysicalr inS_exp; M_r(s)=integralr(u)exp((s-.5)u)du; a_r(t)=sum_j>=0 M_r(j+2)t^j dt oninfinitybranch forrelativecanonicalF, otherarchbranches0; proposedJr=[(0,v_r)]inPhi.",
+    "role": "Rootnoncanonicalproposal, notpaperinput/sourcePASS; membership/frame/actualquotient/finitejetperiod/405 realPan testunexecuted. Realnecessarygate cannotreplaceallcomplexgoal.",
+    "first_gate": "Dedup519/520strongold; thenactualfinitejetreadoutwithperiodlattice/finitelegs, test405explicitsourceandscalars/537nonroot. Onefailure/oldimplicationstopsamepair, no point/frame/degree/sourceweight changes.",
+    "pay_if_success": "Couldnewlyformphysicalprincipaledge/nonzeroprimitive beforeanyallcomplex/norm/mixedcontract; no promisednet/newmathnow."
+  },
+  "strongest_old": {
+    "whole": "542+555->557 leading4/5negativeinertiaUPPER unchanged.",
+    "cofinal": "AllF/P t_F[J_Ph]<=4t_F[h]; abs(sumDeltaT)=O_h(sP+1) notsumabs;K=P+samefee; 587wholeeveryfixedpositiveeigenvalue->infinity. 596adjacentnewresultnotrecounted/rolledback.",
+    "geometric": "552legalpurearchPanrefutation/582fullsourceGreen/583completedprincipalroles andclosedvsnonclosedscope retained.",
+    "net": "Thischoice/source addsno keybottleneck orwholebudget consequence; onlyboundednextactualformula/test choicechanged."
+  },
+  "library": {
+    "old_manifest": {
+      "commit": "1605990fdf9945d2606f2ed09c05fa55776d5f08",
+      "entries": 135,
+      "sha256": "de8f3f9b497fc6cd7ede01b5bde430a24cfba6da0cd19fc726f6dc46a1db623c"
+    },
+    "new_manifest_entries": 137,
+    "archives": "TwoactualfixedPDFs rawhashverifiedignored; onlymetadata/readscopepublic. PNASpublishedstatementvsarxivv2proofversionnotidentified.",
+    "queries": "Rootonepreregistered2querybatch for2Dsource; positivesupportonequerybatchJensen. No recursivechain/others consumed. Capacityerrorresumed samehandlewithoutqueriesrepeat."
+  },
+  "cadence": {
+    "raw_unchanged": {
+      "path": "goals/review-cadence.json",
+      "bytes": 6749,
+      "sha256": "a5cfcd0ca0f2a4ad63f6c7b60d55c83024ebb86387f0a12a0b7b167e6f3cf600",
+      "utf8_lf": true
+    },
+    "state": "2/history60/latest596/formal19, notformal20/noreset",
+    "rule": "Choice/source/locatorcorrection/archives/proposals/fresh/push0math. No C060/597 ormathbudget."
+  },
+  "completion": {
+    "mathematical_gate": "open",
+    "final_execution_gate": "not-eligible",
+    "key_bottleneck_changed": false,
+    "basis": "Actualarithmeticprimitive/principal/mixed, dangerouscorecross/growingXi stillunpaid; rawcandidateadmissionunexecuted. SameGoalactive/fullstrengthpreserved."
+  },
+  "next_action": "Afterauthorizedpublication andactualremotecondition, executeonly next-formal-mellin-source-admission.md firstnecessarydedup/membership/finitejet/Pan test. No authorproof/sourceexpansion/mathcontract untilactualinput/test/net closes."
+}

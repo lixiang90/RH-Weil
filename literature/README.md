@@ -1,5 +1,7 @@
 # RH-Weil 文献索引
 
+2026-10-29，[新两份来源的准确scope](supplements/2026-10-29-post-increment-core-choice-source-scope.md)：库135→137，实际固定PDF Osipov1801.02282v2 267569bytes/21p/SHA8491958e…100cc，Jensen1902.07321v2 216634bytes/11p/SHAe3cac568…908fd，全文均ignored。Osipov定位修正后仅必要§2defs/Thm2.1statement cited，root额外返回曝光未消费，proof未审；Jensen消费PNAS §1 statement与v2归档分开，不核两版proof等同。两候选无新core输入，source0；root新Mellin候选独立未准入。Cadence2/history60/formal19不写。
+
 2026-10-29，[同源telescoping实际范围](supplements/2026-10-29-same-source-telescoping-scope.md)：只核已有560/585/587/589/591/596及555/557/strict-domain记录，无新外部全文/章节/下载；manifest135原字节不写。两原稿/不同fresh/root消费旧共同源endpoint费与wholeK强谱，直接sum596准入0止，不新增数学或C060/597。RR-Z/Jacobian只做既有题录/强旧范围定位，不冒新源阅读。Cadence2/history60/formal19原字节不动。
 
 2026-10-29，[Th6.5实际proof限定范围](supplements/2026-10-29-critical-prime-covariance-source-scope.md)：固定bramble v2原件61862bytes/SHA541098…0058未改/ignored，文献135不增。新审proof991–1100及必要旧定义，两个proof/不同fresh/root闭；不消费6.4sharp、§7或1102–1119曝光备注。Strict HS取代bare迹shorthand，不认证paper q6.19，actualΔK由560独立运输。C059/596协方差/有限Gram/收缩阈值计数统一一数学轮，cadence2/history60/formal19；不升级whole/Q/RH。
