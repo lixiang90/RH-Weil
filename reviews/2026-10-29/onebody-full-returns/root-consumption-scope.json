@@ -1,0 +1,192 @@
+{
+  "schema": "rh-weil-root-premise-closure-v2",
+  "date": "2026-10-29",
+  "runtime_goal_created_at": 1793085111,
+  "baseline_commit": "0c4f3a3eb609bb1d9564138fa4a35701f05605f2",
+  "status": "root-consumed-limited-proved",
+  "root_reading": "Root fullread twoindependentnewproofs16385/13097, differentfinalaudit16049, 1964direction/correction/readmission. Old533/direct/source/reverse/534 rootfullreadearlierthislogicaliteration asoldpinsrecord; versionchecksnotnewtheoremcertification. No externalprimary/PDFnewread.",
+  "proof_chain": [
+    "WholeL2 T=HS*HS gives S1<=W||r||du² withoutsource derivatives",
+    "Paid535/c007 strictordinaryoverlap plusfixedarchgap yields fullresolventTaylor; no finiteangle substitute",
+    "Firsttraceinput C1 fromfixedF/R, secondtraceoutput C1 fromhC0; axis strip andactualFλ opseries/paylowreverse",
+    "532/560 sourcecompact identity andsmoothdensity/realstructure givewholecomplexoperatornorm; Chebyshevsum"
+  ],
+  "object_domain_norm": "ActualH=L2(dx), unitarylog; samecoefficientg=r, sourceL2(I,du), originalDlog/smoothordinarytrace; lowC_p distinctsourceK_p,I.",
+  "quantifiers": "ALLfixedboundedI, ALLcomplexL2unitball/frequency/p-or-Xadaptedsource; ALLp>=pκ independentI. C_I finitefixedI, growsunpaid. No p²normasympt orsumactualnormdivergence.",
+  "coefficient_direction": "Ep=sourcecompactKp. ||Kp-K0||<=C_I(1+logp)/p forp>=pκ includingvisiblep; actualtdiff=-Pp+this. Onlylogp>W killsALLproperpowers. AllΓ/contact/pp/polesoriginalnormpreserved.",
+  "paid_errors": "Taylor remainder CκW/p||r||² withfullreturns; hightrace sum Σn(1+nlogp)/p^n; lowreverse coeff1/p onactualfinite rectangles; finitehead p<pκ oldboundedsourcecompact.",
+  "net_consequence": "WholefixedI ||K_≤1(X,I)|| and||K_FX,I-K_J(X,I)||<=C_I(1+logX); mixedsourcepair includedbyoperatornorm, notnewarithmeticmixedRR.",
+  "strongest_old": "533allfixedsmoothp^-2/sumabs paid despite534wholegap. 533+585589 j=t+O_r1/ratio1 andpolarizedfixedbasis+587entirefixedE lower/fixedpositivej/rank old0; oldD20261028L explicitlycontrasted. Newwholeunitballproofnotdeduciblefromthosefinite/smoothquantifiers orold534paidsubterms.",
+  "semantic_freeze": "4340/post601root/fresh/AKunpaid-fixedsmooth/newattributiondiagnosis remainsfrozen; originalsunchanged. Correction/rootoldreclosuredoesnotrollbacktwoformulaold0/601.",
+  "bottleneck_change": {
+    "local_whole_onebody_fixedI": "closeduniformabsolutebudget",
+    "key_goal_bottleneck": "unchanged: principal/sections/mixed/fullgrowingI/Xi/corecross andK_Jsign stillunpaid"
+  },
+  "completion_gates": {
+    "RH_proof": "open",
+    "independent_key_core_input": "open",
+    "substantial_core_method_boundary": "open",
+    "runtime_goal": "sameactive; no terminaltool"
+  },
+  "counting": "OnecompleteC065responsibility:3->4/history65->66/latest602/formal20held. Old533recovery/audits/files/sync0extra. Macro21notyetconsumed/reset.",
+  "bindings": [
+    {
+      "path": "goals/GOAL.20261027.md",
+      "bytes": 9679,
+      "sha256": "b3d2acb1f962d793f45d79b6a4e67fb87dd072cd4752108a9298204b4cefa1de"
+    },
+    {
+      "path": "goals/contracts/C065-whole-window-onebody-return-budget.md",
+      "bytes": 2164,
+      "sha256": "f61a822da11878e951c4307328862f162ff04f26e3150d241b389fc562e46f3e"
+    },
+    {
+      "path": "reviews/2026-10-29/onebody-full-returns/533-fixed-source-scope-correction.md",
+      "bytes": 3417,
+      "sha256": "9141d264aa9c24fa2829ea5997deeb99b775141496f518e2f4ebfe24167ee45e"
+    },
+    {
+      "path": "reviews/2026-10-29/onebody-full-returns/compact-error-versus-trace-direction.md",
+      "bytes": 1964,
+      "sha256": "13d70ac72dc578d7987f68829e8a5d801e72a69c55a6a7654656e997189e174f"
+    },
+    {
+      "path": "reviews/2026-10-29/onebody-full-returns/contract-admission-original.md",
+      "bytes": 1510,
+      "sha256": "278597785ba4de1a6d1fdacb7134dd172f246a6797db0d50a5f133b3d0b6eea0"
+    },
+    {
+      "path": "reviews/2026-10-29/onebody-full-returns/cosine-return-large-delay.md",
+      "bytes": 16385,
+      "sha256": "670c91b0d06bde3255ffb7aa43fa250f2f9c0f6ba728b8e7e78d9f9f8373f9b7"
+    },
+    {
+      "path": "reviews/2026-10-29/onebody-full-returns/execution-start.json",
+      "bytes": 1415,
+      "sha256": "d534867cfc87837c8401b697a7e68fdf152b2fd95f50536d30dc961cf3dd41c5"
+    },
+    {
+      "path": "reviews/2026-10-29/onebody-full-returns/fresh-uniform-source-budget-audit.md",
+      "bytes": 16049,
+      "sha256": "b633ae282ea798533c680a75b8658f3e378730df3fd3f66f36ab0e7e344ab19e"
+    },
+    {
+      "path": "reviews/2026-10-29/onebody-full-returns/old533-root-status-pins.json",
+      "bytes": 2258,
+      "sha256": "10c24520feafe339bf4e4a375e00a2c51bd5bc952d5ae3b93f98cab6f1886caa"
+    },
+    {
+      "path": "reviews/2026-10-29/onebody-full-returns/operator-first-variation.md",
+      "bytes": 12150,
+      "sha256": "1c1f5ed54b9030e866c886fae819091413e81090698f17ce9517ebd4c0f13599"
+    },
+    {
+      "path": "reviews/2026-10-29/onebody-full-returns/uniform-traceclass-cross-check.md",
+      "bytes": 13097,
+      "sha256": "709df9ed1bad8f08cb71b15d6c63d685ad78c17a9ae86e3bbc1a5815eddcbe7a"
+    },
+    {
+      "path": "reviews/2026-10-29/onebody-full-returns/whole-window-onebody-readmission.md",
+      "bytes": 3499,
+      "sha256": "b4f8a8f913c76e8d5ca3fe60d4382151d4068d0d4c5920afd81aaf4d9399c2ff"
+    },
+    {
+      "path": "notes/532-actual-sonin-prime-symbol-and-compact-weil-bridge.md",
+      "bytes": 8516,
+      "sha256": "dc9ff79c622ed692edfd393c2851e5cc7fcab0a7f5fe41cce82ba69b45a82f09"
+    },
+    {
+      "path": "notes/533-actual-late-prime-sonin-boundary-square.md",
+      "bytes": 9978,
+      "sha256": "3b15593b57a0b5dab22409df4baac440fc04491fcff1b2f10b6451404b7ca478"
+    },
+    {
+      "path": "notes/534-actual-uniform-sonin-subterms-and-trace-consumption-gap.md",
+      "bytes": 8097,
+      "sha256": "19fa13a6fda7d3deaf84c78a2794d759ca784c3e0248fa7f904adca60d554c28"
+    },
+    {
+      "path": "notes/535-actual-first-prime-sonin-log-resonance-and-indefinite-error.md",
+      "bytes": 9910,
+      "sha256": "e83c3e080d19c2534425fb3c0e469367012f6c566a470b3baba703fb6def146f"
+    },
+    {
+      "path": "notes/560-joint-finite-place-sonin-primepower-cancellation-and-compact-weil-bridge.md",
+      "bytes": 9263,
+      "sha256": "9c2e6cd5a9eae269ad04b332699c21eec7403a230f9557afa8b895c45d4228d3"
+    },
+    {
+      "path": "reviews/2026-10-14/c007-sign/trace-domain-proof.md",
+      "bytes": 5507,
+      "sha256": "bae082f91a0f01a44fa3e3d1e9e0685bfa28e63a8dca32b822f395ad7b306094"
+    },
+    {
+      "path": "reviews/2026-10-14/c006-late-prime/direct-increment-audit.md",
+      "bytes": 10415,
+      "sha256": "8ee99cdcc4bba7d7da565169bfc38bf6d1469192c73db7ea715251d3f6294ee9"
+    },
+    {
+      "path": "reviews/2026-10-14/c006-late-prime/source-increment-audit.md",
+      "bytes": 9867,
+      "sha256": "4debf4faa72f8ac7e166e5949c457927d7a4edab1d402c0580696cc7974f8788"
+    },
+    {
+      "path": "reviews/2026-10-14/c006-late-prime/reverse-audit.md",
+      "bytes": 12203,
+      "sha256": "21df5f2bfab6986a64562af957b23d66b7fd9384537c9cb96234492575915e75"
+    },
+    {
+      "path": "reviews/2026-10-14/c006-uniform/source-budget-audit.md",
+      "bytes": 9039,
+      "sha256": "0931ae5bedd5d0d1e57b4a9eac7e2bbe0397268bbc04b2f39257ccd4d31775ba"
+    },
+    {
+      "path": "reviews/2026-10-14/c006-uniform/direct-budget-audit.md",
+      "bytes": 12054,
+      "sha256": "f5493d2f2b1a3b2bb612943d9d1ae73471f2c5573ee3aecf13cb32b8e16dd039"
+    },
+    {
+      "path": "notes/585-cofinal-sonin-fixed-source-trace-lower-and-core-error-fee.md",
+      "bytes": 7857,
+      "sha256": "5dca916d978eef599587ff4c6ce34144f814ddec0567a4c1b2314dcd71cd01af"
+    },
+    {
+      "path": "notes/587-actual-sonin-moment-spread-and-growing-source-rank-necessity.md",
+      "bytes": 8681,
+      "sha256": "e4d30cfb6d07299386014cb4c4e3e3979ab5111264355dfb37b24629f121ac82"
+    },
+    {
+      "path": "notes/589-sonin-zero-mean-upper-and-scalar-rank-one-limit.md",
+      "bytes": 7185,
+      "sha256": "c491012226713baf0eecff045338563d4e440c6a1bde9eea0d9ccf661b958bc5"
+    },
+    {
+      "path": "reviews/2026-10-29/post-601-core-input/cofinal-onebody-first-gate-admission.md",
+      "bytes": 4340,
+      "sha256": "fad417627223fd636047793c182348c08179293d8b50b1c65eb691a458148a8f"
+    },
+    {
+      "path": "goals/reviews/2026-10-29-general-rh-macro-review-cycle-20.md",
+      "bytes": 7594,
+      "sha256": "45c1bedce9d8bf0cd94fd4e0d0e951ef22e22ff3b9c5822eb771513eb5767121"
+    },
+    {
+      "path": "notes/602-whole-window-sonin-onebody-return-budget.md",
+      "bytes": 4966,
+      "sha256": "09daf7df96092e17a80ded1d5b645715a07608e6f0e0410918209d5f5690a739"
+    },
+    {
+      "path": "literature/manifest.json",
+      "bytes": 218597,
+      "sha256": "dec7cfaf6b9e198e756971a2e5fbbe79c9c668500a85649595f179741cadcd31"
+    }
+  ],
+  "cadence_before": {
+    "bytes": 7009,
+    "sha256": "7d6c12281caa1317b3f8dc30569c3d0151441798f09339e8b4448a1bbb01744d",
+    "rounds": 3,
+    "history": 65,
+    "formal": 20
+  },
+  "publication": "pending; currentproofsnotyetcommitted; parent73228ef07ded9930cbebea9b248cdc1bf6af4a88"
+}

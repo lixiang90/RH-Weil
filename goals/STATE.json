@@ -7,12 +7,12 @@
   "workflow": "goals/RESEARCH_WORKFLOW.md",
   "cadence": "goals/review-cadence.json",
   "decisions": "goals/DECISIONS.md",
-  "latest_strategy": "goals/reviews/2026-10-29-general-rh-macro-review-cycle-20.md",
-  "latest_decision": "D20261029AK",
+  "latest_strategy": "goals/reviews/2026-10-29-general-rh-macro-review-cycle-21.md",
+  "latest_decision": "D20261029AN",
   "macro_frontier": "goals/MACRO_FRONTIER.md",
-  "macro_summary": "goals/reviews/2026-10-29-post601-core-formula-old-stop.md",
-  "latest_macro_review": "goals/reviews/2026-10-29-general-rh-macro-review-cycle-20.md",
-  "latest_iteration": "notes/601-haran-integer-matrix-affine-self-pushout-collapse.md",
+  "macro_summary": "reviews/2026-10-29/macro-cycle-21/root-consumption-scope.json",
+  "latest_macro_review": "goals/reviews/2026-10-29-general-rh-macro-review-cycle-21.md",
+  "latest_iteration": "notes/602-whole-window-sonin-onebody-return-budget.md",
   "macro_control": {
     "schema": "macro-recovery-v2",
     "goal_epoch": "G20261027",
@@ -20,8 +20,8 @@
   },
   "macro": {
     "long_objective": "G20261027接续G20261014完整完成门/原0c4f基线，≤582为输入；持续寻经典同源Weil正性/有效性/RR或actualsigned新输入，付全源/成长/core及谱识别。",
-    "unpaid_bottleneck": "Actualprimitive/principal/sections/mixed,dangeroussignedcorecross/growingXi unpaid.601 closesonlyHaran2007ordinaryaffine twointeger-slot independence; keycoreinput andwhole4/5negative-inertiaUPPER unchanged.",
-    "why_this_contract": "Twoactualformulagates nowold0root/freshclosed, no newcoreinput. OnlynextconditionalJ_X onebody-vs-manyprime test hasactualfullreturn gap andpaid585/589 netcomparison; rate notexecuted/notproved. No sourceinventory queue.",
+    "unpaid_bottleneck": "LocalfixedI wholeonebodyabsolute budgetclosed602; actualprincipal/sections/mixed, K_Jfavorablesignedcorecross/growingI/Xi andwhole4/5negative-inertiaUPPERunchanged.",
+    "why_this_contract": "602closedwholefixedI componentbudget; timelyformal21rootclosedafter4. No independentnewprincipal/mixed/coherentcoreinputcurrently; publishaccuratelythenactualformula/test/strongoldnetadmission, noautomaticlocalrate/sourcequeue.",
     "paused_routes": [
       "零点比例优化",
       "无零区域优化"
@@ -35,23 +35,23 @@
     ]
   },
   "primary_contract": {
-    "id": "C064",
-    "path": "goals/contracts/C064-haran-integer-affine-fold.md",
-    "status": "stopped",
+    "id": "C065",
+    "path": "goals/contracts/C065-whole-window-onebody-return-budget.md",
+    "status": "completed",
     "iteration_budget": 1,
     "settled_iterations": [
-      "notes/601-haran-integer-matrix-affine-self-pushout-collapse.md"
+      "notes/602-whole-window-sonin-onebody-return-budget.md"
     ],
-    "stage": "Currenttwoformula-old0 rootclosed/sourcepublished independentlyverifiedbc138bd(tree3d59f0cf,parent219a7aa);24bindings/cadence7009/manifest218597 preserved. ONEexact3metadatachild armed; onmatchpublicationcomplete, C064remainsstopped/Goalactive.",
-    "next_action": "VerifyONEactualmetadatachild mainref/commit/tree=localHEAD/tree, soleparentbc138bd/exact3STATE-synccheckpoint-receipt/clean/checkpoint+24pins/cadence7009raw3-history65-latest601-formal20/manifest218597raw140. Onmatchpublicationcomplete. THEN execute ONLY4340 cofinal-onebody-first-gate-admission.md: samefixedr0 actualsingleprime large-delay FULLRETURNS uniform-p rate versusstrongestold. No guessedrate/cofinalnet/C065/602/source orparameterqueue.",
-    "stop_rule": "C064finitefoldbudget1 exhausted; allGoal gatesopen. Do notresume C063/oldformula/inventory or splitfinitecorollaries. Compactifiedboundary/differentcategory/actualsigned/Dprime escapes preserved withoutbudget."
+    "stage": "602rootsettled/formal21two supports13412/12773+different14108/rootclosed; original4->0once/history66/latest602held. Publicationactualnext; no automaticmath/source.",
+    "next_action": "Publish602+formal21accuratescope withboard/library/checkpoint, normalmainpushverifyactualsourcecommit/tree; oneexact3metadatachildthenverifyactualfinalHEAD/parent/paths/clean/checkpoint/bindings. Afterpublishonlysingleactualformula-constructionadmissionbeforeanynewcontract/count.",
+    "stop_rule": "Onecompletewhole-normresponsibility only; fixedsmoothp^-2/Jr0/finiteE areold0. Ifnewuniformtrace/kernelpremisefailsorwholeboundalreadyold, stopaccurately. No silentgrowingI/du-summability/sourcequeue/Goalcompletion."
   },
   "support_contracts": [],
   "must_not_forget": [
     "G20261027接续G20261014完整完成门/原0c4f基线；≤582和10-27审视都是输入，旧成果不得重验收。实际runtimeGoal active(createdAt1793085111)，新建由本轮用户直接请求。",
     "完整Γ=2θ′/FP-contact、所有properpowers/双pole、ALLcomplex、原du及zero-extension Dlog；L/算术height/频高独立，fixed/强源/Dprime/成长不合并。",
     "每结果保object/domain-range/关系-商-physical角色/norm、源成长量词/依赖误差/符号/coverage-coupling/strongest-old净值。语义改变先freeze/reclose，draft不代root消费。",
-    "Solecadence601 onecompleteactualHaran-affineadmission2->3/history65/latest601/formal20held; twoformula duplicate/typing,sources/agents/audits/sync0extra. Keep4-8default6; no reset/newGoal.",
+    "Solecadence602onecomplete3->4/history66/latest602; formal21rootclosedoriginal4->0once/latest602/history66held. Recovery/audits/agents/files/publication0math; keep4-8default6.",
     "strongold542+555→557 whole4/5是负惯性UPPER；537/538 fixed17/16不代成长/Ξ。560全fixed窗positiveTrace−compact+pole，572/高层变分不代低频core及cofinal sign。",
     "几何主线先405全noncompact Pan及平移actual消去、537非根/全源coverage/原费，再同对象整过滤/截面乘法/mixedRR。已知410–437真实relative电荷/573反测与574–575线/Cartier不重造，精确域见前沿。",
     "576正锥/577完整Γ修补/578原费已付；membership/signed消失仍欠。Dprime逼近不逐层要求Pan/ordinarytrace。",
@@ -75,40 +75,35 @@
       "scope": "root+终审：每先fixedfiniteS实际ε∈C0、ALL原complexDlog positiveTrace−compact+完整双pole；cofinal费/sign/Ξ未付，统一一轮。"
     },
     {
-      "path": "reviews/2026-10-29/macro-cycle-20/root-consumption-scope.json",
-      "kind": "cited",
-      "scope": "Formal20rootclosed18bindings/13nestedmath; threeGoal gatesopen/strongold/cadenceonce; newlocatornonmathunexecuted."
-    },
-    {
       "path": "reviews/2026-10-29/weil-9-8-physical-lower-gate/root-consumption-scope.json",
       "kind": "proved",
       "scope": "Strongestoldsame595v actualphysicaltransport andstrictpositiveLlow/Q point vsnegativeP0/gap; no same-v/leg recalculation ornewround."
     },
     {
-      "path": "reviews/2026-10-29/post-600-new-input/root-consumption-scope.json",
-      "kind": "obstruction",
-      "scope": "Root/freshclosed wholematrix Hom(FZ,C)<=1/selfpushout affineiso; generalfaithfulzero frozen+selfcase direct; corrected Spec direction. One601, no keycore/wholeGoalgain; twoformula oldtyping0."
+      "path": "reviews/2026-10-29/onebody-full-returns/533-fixed-source-scope-correction.md",
+      "kind": "cited",
+      "scope": "Rootfullread533/direct/source/reverse+534: samephysicalallfixedsmoothp^-2/fullreturns paid; wholeL2 budgetdifferent. Strongold j_X/finiteE directchain recovered, no602."
     },
     {
-      "path": "reviews/2026-10-29/post-601-core-input/root-consumption-scope.json",
-      "kind": "cited",
-      "scope": "CurrentactualHecke fulljets/frame andMobius stricttrace/old535570sign rootfreshclosed0. New4340 nextgate conditional/unexecuted; no keycore/wholegain."
+      "path": "notes/602-whole-window-sonin-onebody-return-budget.md",
+      "kind": "proved",
+      "scope": "RootclosedwholefixedI Kp-K0 normC_Ilogp/p allp>=pκ; onebodywholeO_IlogX, nofavorableKJ/growingI."
     }
   ],
   "pending_processes": [],
   "runtime_goal_observation": {
     "status": "active",
     "created_at_unix": 1793085111,
-    "observed_at_utc": "2026-10-29T12:36:47.080459+00:00",
-    "basis": "Liveget_goal sameinstance afteractualcurrenttwoformulagates/rootold0. Conditionalnext4340fullreturns gate notyetexecuted; no newGoal/budget."
+    "observed_at_utc": "2026-10-29T13:28:38.642658+00:00",
+    "basis": "Liveget_goal sameactive1793085111; C065actualproofs/freshfile exist, currentrootreading executed."
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-10-29-post601-core-old0-sync.json",
+  "checkpoint": "goals/checkpoints/2026-10-29-onebody-602-macro21-source.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
-    "commit": "bc138bd497132202bfd95709158c9083a45fc7d9",
-    "tree": "3d59f0cf983ee4f7f480f69912c4ed17ce842513",
-    "basis": "Independent source actualref/commit/tree/localHEAD/soleparent219a7aa andexact17/clean/checkpoint PASS. ONE exact3metadatachild conditional; actualmatchingchildSHA isfinalHEAD, notsource mislabeled currentchild."
+    "commit": "73228ef07ded9930cbebea9b248cdc1bf6af4a88",
+    "tree": "91cbd8671a9b81d50f24878c8ce2f6c9307dd50b",
+    "basis": "Thisturn independentactualfinalref/commit/tree/localHEAD/soleparentbc138bd/exact3/clean/checkpoint/24pins reverified; priorold0publicationcomplete, no repush."
   },
   "completion_audit": {
     "goal": "goals/GOAL.20261027.md",
@@ -116,11 +111,11 @@
     "goal_lf_sha256": "b3d2acb1f962d793f45d79b6a4e67fb87dd072cd4752108a9298204b4cefa1de",
     "mathematical_gate": "open",
     "final_execution_gate": "not-eligible",
-    "basis": "Currenttwoformulaexactold0 no newmathematicalcompletion; nextuniform-p rate/cofinalconnectednet unexecuted. Keyprincipal/mixed/corecross/Xi/whole4/5UPPERunchanged, all3Goal gatesopen/sameactive."
+    "basis": "Formal21rootdifferentfreshclosed:602fixedIwholeonebodycomponentnew; no actualprincipal/mixed, favorableKJ, fullgrowingI/Xi/coreboundary. All3Goalgatesopen/sameactive."
   },
-  "process_inventory_observed_on": "2026-10-29T12:31:43.117046+00:00 allmatchingauthors/fresh terminal; no livebackground/source/numeric/session process.",
+  "process_inventory_observed_on": "2026-10-29T13:44:32.597055+00:00 Macroauthors/freshactualterminalfilesfullyconsumed; no pendingtools/shell. No oldhandlecontinuation.",
   "publication_approval_gate": {
-    "status": "post601-old0-source-verified-metadata-child-condition-armed",
+    "status": "602-formal21-rootclosed-source-publication-pending",
     "destination": "https://github.com/lixiang90/RH-Weil",
     "visibility": "public",
     "branch": "main",
@@ -130,8 +125,8 @@
       "reply": "每轮把进度同步到github；把文献保存在文献库中，用研究看板来记录各个路线的状况",
       "scope": "本项目研究/Goal/STATE/看板/文献元数据/审查与同步回执；论文再分发许可不明则全文仅本地。"
     },
-    "current_scope": "Currentold0proof/root/board/library140unchanged/conditional4340nextgate sourceverifiedbc138bd. ONEexact3metadatachild; independentactualref/commit/tree/localHEAD/soleparentsource/exact3paths/clean/checkpoint/rawguards matchclosespublication atactualchildHEAD. No recursive selfSHA/push.",
-    "verification": "reviews/2026-10-29/post-601-core-input/remote-sync-verification.json"
+    "current_scope": "602wholefixedIunitball/fullreturnproofs+533correction/explicitreadmission+formal21/board/library140. Sourceandfinalmetadatachildnotyetpublished.",
+    "verification": "reviews/2026-10-29/onebody-full-returns/remote-sync-verification.json"
   },
   "research_board": "RESEARCH_BRANCHES.md",
   "literature_index": "literature/README.md",
@@ -146,6 +141,11 @@
       "status": "raw-tensor-and-spec-label-frozen-limited-selfcase-root-fresh-reclosed",
       "path": "reviews/2026-10-29/post-600-new-input/haran-faithful-zero-and-selfcase-scope-closure.md",
       "scope": "Initialmodule tensor frozen: actualcircledcirc. Literalstrictfaithful generalallpairs7.1 cannotunconditionallyconsume; selfpair idcocone directproof reclosed. Spec(i) projection/Spec(d) diagonal correctappendix only; fullcompactified/physicalbridge unconsumed. Fullledger preserves source/exposure andoldlocatorcorrection."
+    },
+    "onebody_fixed_smooth_rate": {
+      "status": "raw-unpaid-fixedsmooth-and-new-attribution-frozen-old533-limited-reclosed",
+      "path": "reviews/2026-10-29/onebody-full-returns/533-fixed-source-scope-correction.md",
+      "scope": "Original4340/post601root/fresh/AKunpaid-fixedsmooth/newcredit frozen; 533oldfixedp^-2/abs+585589587reclosed. DifferentC065wholeunitball compactnorm602nowrootclosed, notnewfixedrnet."
     }
   },
   "source_control_correction": {
@@ -163,7 +163,7 @@
     "repair_record": "reviews/2026-10-27/corrected-theta-source/root-consumption-scope.json",
     "basis": "Rawtheta frozen; scalarK/P0/Phi/fees reclosed, arithmetic7.4/stackindex unpaid. MB/582/583 unchanged."
   },
-  "latest_causal_review": "goals/reviews/2026-10-29-post601-core-formula-old-stop.md",
+  "latest_causal_review": "goals/reviews/2026-10-29-general-rh-macro-review-cycle-21.md",
   "sonin_high_scope_recovery": {
     "path": "reviews/2026-10-28/action-cone/strongest-old-sonin-recovery-correction.md",
     "status": "old-paid-safe-high-range-recovered-root-fresh-limited",

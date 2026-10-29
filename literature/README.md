@@ -1,5 +1,9 @@
 # RH-Weil 文献索引
 
+2026-10-29：602＋正式宏观21已root闭，原计数一次归零/history66/latest602；仅项目证明/强旧恢复与宏观范围核查，无新外部来源。140条manifest原字节保持；[使用范围](supplements/2026-10-29-onebody-whole-source-budget-scope.md)区分新whole fixed-I norm与旧fixed-smooth/finite-E，不升级成长/符号或作者阅读。
+
+2026-10-29：602全fixed-I单位球单素数compact费用由项目自含两证明/不同终审/root闭合；恢复533固定smooth强旧，不重计。无新paper/PDF/作者章，库140与manifest218597原字节保持。详见[准确使用范围](supplements/2026-10-29-onebody-whole-source-budget-scope.md)，不把内部证明登记成外部文献；macro21审查不扩大阅读范围。
+
 2026-10-29：第601轮后两份实际核心公式只使用既有项目证据，没有新paper/PDF/作者章节；库140与manifest原字节保持。[范围说明](supplements/2026-10-29-post601-core-formula-scope.md)区分旧完整jets的Hecke重呈现、合法connected-prime重组与尚未证明的uniform-p全返回首检，不扩大原文阅读范围。
 
 2026-10-29：库139→140，Haran2007出版PDF已本地ignored归档，71页/版本/hash核；消费§7.1/7.2 printed671–675、必要Def2.1/2.9 printed627–628和Example1 printed632。初⊗误写冻结/更正为⊚，附带§8等曝光准确记录。项目两独立wholematrix证明及不同fresh/root闭合整数自pushout fold同构，统一601；一般allpairs存在性的strictfaithful零约定冻结，selfpair独立泛性质重闭，Spec投影/对角方向纠正。只限ordinary affine，无physicalprincipal/mixed/Weil桥，作者后章未审。详见[supplement](supplements/2026-10-29-haran-fibred-sum-source-scope.md)，不将项目推导冒归作者定理或原文全文已审。

@@ -1,0 +1,46 @@
+{
+  "schema": "rh-weil-old-scope-recovery-pins-v1",
+  "date": "2026-10-29",
+  "scope": "Rootfullread533/534 andthreeoriginalaudits; oldcheckpointonlyprimary/evidence/pins inspectedforversion/status, nottheoremcertification. No externalprimaryread.",
+  "assets": [
+    {
+      "path": "notes/533-actual-late-prime-sonin-boundary-square.md",
+      "bytes": 9978,
+      "sha256": "3b15593b57a0b5dab22409df4baac440fc04491fcff1b2f10b6451404b7ca478"
+    },
+    {
+      "path": "notes/534-actual-uniform-sonin-subterms-and-trace-consumption-gap.md",
+      "bytes": 8097,
+      "sha256": "19fa13a6fda7d3deaf84c78a2794d759ca784c3e0248fa7f904adca60d554c28"
+    },
+    {
+      "path": "reviews/2026-10-14/c006-late-prime/direct-increment-audit.md",
+      "bytes": 10415,
+      "sha256": "8ee99cdcc4bba7d7da565169bfc38bf6d1469192c73db7ea715251d3f6294ee9"
+    },
+    {
+      "path": "reviews/2026-10-14/c006-late-prime/source-increment-audit.md",
+      "bytes": 9867,
+      "sha256": "4debf4faa72f8ac7e166e5949c457927d7a4edab1d402c0580696cc7974f8788"
+    },
+    {
+      "path": "reviews/2026-10-14/c006-late-prime/reverse-audit.md",
+      "bytes": 12203,
+      "sha256": "21df5f2bfab6986a64562af957b23d66b7fd9384537c9cb96234492575915e75"
+    },
+    {
+      "path": "goals/checkpoints/2026-10-14-c006-first-cycle8-settled.json",
+      "bytes": 23724,
+      "sha256": "ddc1a9e5f6449c7e9ea98c449c0930bebc53d2ced287f9bbe788ac6b73f2434d"
+    },
+    {
+      "path": "goals/checkpoints/2026-10-14-c006-stopped-c007-ready.json",
+      "bytes": 23441,
+      "sha256": "515b01c8e58f6e01998f41ed26b62b12f3f211afefcec694a89b3563a72995db"
+    }
+  ],
+  "old_status": "533 provedfixedsmoothp^-2/fullreturns/sumabs.534 separatelyproveduniformsubterms/tracegap;doesnotrollbacksmooth533. CurrentrawnotesmatcholdcheckpointLFpins.",
+  "prior_decision": "D20261028L alreadyexplicitly533single-parchbase summability vs585jointdivergence directold0.",
+  "strongest_chain": "533 samephysicalg=r -> allfixedsmoothonebodysumconverges -> allfixedfiniteGram bounded ->585/589 j_X/t_X->1 and587fixedE commonlower/fixedpositivej/rank implications olddirect.",
+  "not_paid_by_this_recovery": "Whole fixedI sourceunitballoperatornormsum; growingI/Xi; favorablefullsignedcore oractualprincipal/mixed."
+}

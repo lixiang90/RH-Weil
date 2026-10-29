@@ -1,5 +1,16 @@
 # 研究分支看板
 
+2026-10-29，[602＋正式宏观21已闭](goals/reviews/2026-10-29-general-rh-macro-review-cycle-21.md)：whole fixed-I复L²单位球的compact差norm≤C_I(1+logp)/p，whole onebody及K_X−K_J差O_I(logX)已两证明/不同审稿/root闭；旧533固定smooth p^-2、finite-Gram/J后果完整恢复为old0，原4340/post601/AK相应诊断冻结。两宏观支持13412/12773、不同14108/root16bindings闭，原数学3→4/history66/latest602后，正式21零数学仅原4→0一次。C(W)充分上费可取O(1+W+e^(3W/2))，自然成长比较仍未付；大upper非必要lower。局部onebody绝对费闭，关键primitive/principal/sections/mixed、signed corecross/成长Ξ与whole4/5负惯性UPPER未改，三Goal门open、同实例active。库140/manifest218597原字节不动，无新外部原文/章。当前唯一准确发布并核actualHEAD；其后无已准继任，先一个有止点的actual公式建设/input-test-strongoldnet准入，不自动续rate/window/base/rank/source队列。下列pending宏观与旧下一动作均为历史，当前只读STATE。
+
+| 当前路线 | 状态与准确范围 | 下一准入/停止 |
+|---|---|---|
+| 602 whole fixed-I onebody | 统一绝对norm闭，非成长/符号 | C065耗尽；不续p-rate/base/window |
+| 实际principal/sections/mixed | 核心未付 | 新actual对象/source map，先405/537/coverage及原费用 |
+| coherent signed core / 独立正D′ | 合法备选，无新已准实物 | 独立全source身份/生成式和便宜负对照，扣强旧净后果 |
+| 执行与复盘 | formal21已闭，cadence0/history66 | 当前准确发布；之后单一公式建设准入，不建空合同 |
+
+[602完整消费](notes/602-whole-window-sonin-onebody-return-budget.md)：2026-10-29，602/C065已root结算：两独立全返回证明16385/13097、不同终审16049及root30bindings闭。整个fixed-I复L²单位球上，source compact差Kp−K0的norm≤C_I(1+logp)/p（p≥pκ、阈值独立I），whole onebody及K_X−K_J范数O_I(1+logX)。实际trace差另保−Pp；全部pp相关零才与compact差相同。533固定smooth p^-2/绝对可和及固定finite-E后果早付，4340/post601/AK相应未付与新归因诊断冻结，原件不改。局部whole-onebody费用闭；principal/mixed/corecross/成长Ξ和whole4/5负惯性UPPER未改，三Goal门open、同实例active。统一一次3→4/history66/latest602/formal20保持，进入及时macro21审查，尚未归零。库140/manifest218597原字节不动，无新外部原文/章。当前动作只读STATE；旧下列“无C065/602/下一4340”均为历史。
+
 2026-10-29，[第601轮后两核心公式强旧0止](goals/reviews/2026-10-29-post601-core-formula-old-stop.md)：两实际原稿12821/12755、不同fresh14986/root24bindings闭：framed Hecke F_r/H0精确旧519全jets，忘frame全平凡；actual connected-prime Möbius差分合法，但Γ/全部pp/pole系数及±log²均为560/535/570强旧直接后果，无新core估计。当前两门0止，cadence7009原字节保持3/history65/latest601/formal20，无C065/602/macro21。库140/manifest218597原字节不变，无新primary/PDF/章。仅保存4340-byte conditional nextgate：同fixedr0、actualempty-base singleprime fullreturns uniform-p强化率与585/589whole量级比较；率及manyprime净lower未执行/未证。前驱telescoping不等empty-base onebody。关键principal/mixed/corecross/Ξ和whole4/5UPPER未变，Goalactive/open。先准确发布，下一只此全返回首检，不串rank/frame/p/精度或来源。
 
 2026-10-29，[601/C064有限仿射门完整结算](goals/reviews/2026-10-29-haran-affine-601-settlement.md)：601/C064已root/fresh闭：Haran2007完整tensor公理迫Hom(F(Z),C)在全部矩阵层至多一元；selfpushout由F(Z)两id直接实现，fold同构。严格忠实零约定下的一般allpairs存在性冻结，selfcase独立重闭；正确Spec投影/对角反变方向及初⊗误写更正保原记录。仅ordinary affine，不判紧化边界/所有F1。两原件12921/11645、不同fresh16122/root24bindings闭；两初formula强旧/typing0。一个新完整有限准入反例统一2→3/history65/latest601/formal20保持，非macro21。库140/论文localignored与限定页范围；核心principal/mixed/corecross/成长Ξ及whole4/5负惯性UPPER未改，Goalactive/open。停止本族/后章/参数续链；先准确发布，后继须actual不同input-test-strongoldnet。
