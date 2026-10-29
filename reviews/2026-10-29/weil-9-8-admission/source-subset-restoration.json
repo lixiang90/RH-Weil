@@ -1,0 +1,190 @@
+{
+  "schema": "fixed-source-subset-restoration-v1",
+  "source_repository": "https://github.com/luciferyu666/certified-weil-positivity",
+  "commit": "b6cd2183c1e79c6c27a34267812a7b2d73ed1b59",
+  "fetched_at": "2026-10-29T01:14:21.166Z",
+  "restored_files": [
+    {
+      "path": "frozen-source/publication/manuscript.tex",
+      "local_path": "literature/local/2026-10-29-weil-9-8/source/frozen-source/publication/manuscript.tex",
+      "bytes": 80006,
+      "git_blob_sha": "641b5163df0752981c53eddeb5b304975824e3c6",
+      "sha256": "f8b0576c9321b00edf2c939b9ee0bad0f49624e1ec963fe94d1c4e572951eded",
+      "old_release_inventory_sha_match": true
+    },
+    {
+      "path": "frozen-source/reproduction/README.md",
+      "local_path": "literature/local/2026-10-29-weil-9-8/source/frozen-source/reproduction/README.md",
+      "bytes": 6396,
+      "git_blob_sha": "34ec66df6cd26be483262f35b097ed291bd50325",
+      "sha256": "09dbf92fe6e1a1274f1af4cac83c603744852b878457b9fda2875f3b3ad54dfd",
+      "old_release_inventory_sha_match": true
+    },
+    {
+      "path": "frozen-source/reproduction/driver-manifest.json",
+      "local_path": "literature/local/2026-10-29-weil-9-8/source/frozen-source/reproduction/driver-manifest.json",
+      "bytes": 1306,
+      "git_blob_sha": "2da34f4afeb20e0a097658492aec74e9ef90b3c9",
+      "sha256": "fa3fde4b2a4bc25477925fd21906e0f70ef39ce22fd8f1e9a99da9ba273515c7",
+      "old_release_inventory_sha_match": true
+    },
+    {
+      "path": "frozen-source/reproduction/reproduce.py",
+      "local_path": "literature/local/2026-10-29-weil-9-8/source/frozen-source/reproduction/reproduce.py",
+      "bytes": 8285,
+      "git_blob_sha": "741810c4c8e7f05f8150236f858bb208282998dc",
+      "sha256": "2a62787a1d8e20b6f3224903c36bfb19489aef220530581e55059770f9eed0e7",
+      "old_release_inventory_sha_match": true
+    },
+    {
+      "path": "frozen-source/reproduction/run.py",
+      "local_path": "literature/local/2026-10-29-weil-9-8/source/frozen-source/reproduction/run.py",
+      "bytes": 11447,
+      "git_blob_sha": "716328bd4d3df94e973455b28dbf30732b113d14",
+      "sha256": "eed13da745b339ea6fd33d6ea588b83f7a02c92bbcfac58044163eaf53f06cd2",
+      "old_release_inventory_sha_match": true
+    },
+    {
+      "path": "frozen-source/reproduction/scalar.py",
+      "local_path": "literature/local/2026-10-29-weil-9-8/source/frozen-source/reproduction/scalar.py",
+      "bytes": 8155,
+      "git_blob_sha": "cbb8531e509790f4df23c59303804025826f16e7",
+      "sha256": "3aaeb526c7e63c09f40e287137afb732826bf9cc02ea5c756c8be11d156722d1",
+      "old_release_inventory_sha_match": true
+    },
+    {
+      "path": "frozen-source/reproduction/source-manifest.json",
+      "local_path": "literature/local/2026-10-29-weil-9-8/source/frozen-source/reproduction/source-manifest.json",
+      "bytes": 4251,
+      "git_blob_sha": "cd64c620212097181bb7e6c9efe613b603118c69",
+      "sha256": "c9b0a1fd4db32a17889cd2860ac41e5fe7ce9c2839a0d6d2658f5eb9129486b2",
+      "old_release_inventory_sha_match": true
+    },
+    {
+      "path": "frozen-source/reproduction/source/01-check.py",
+      "local_path": "literature/local/2026-10-29-weil-9-8/source/frozen-source/reproduction/source/01-check.py",
+      "bytes": 19504,
+      "git_blob_sha": "7a5f415d290a24463a5fc4f692ef8de0829fe7c5",
+      "sha256": "4ed7661f1f869ed6d37d7bc52f1a0889a8d305a790663dc0ae43d76f2ea0e356",
+      "old_release_inventory_sha_match": true
+    },
+    {
+      "path": "frozen-source/reproduction/source/02-produce.py",
+      "local_path": "literature/local/2026-10-29-weil-9-8/source/frozen-source/reproduction/source/02-produce.py",
+      "bytes": 8633,
+      "git_blob_sha": "a2826e5c6b17065fa73d19e09955ddd60e6048fc",
+      "sha256": "0b338cf043e8bcf2c22e3f9cd26914d3b39a00b03f13070b0de02b7a9210556a",
+      "old_release_inventory_sha_match": true
+    },
+    {
+      "path": "frozen-source/reproduction/source/03-core_checker.py",
+      "local_path": "literature/local/2026-10-29-weil-9-8/source/frozen-source/reproduction/source/03-core_checker.py",
+      "bytes": 1436,
+      "git_blob_sha": "da343be2cf9898d70192d6f6e5bf39df4ff5abc9",
+      "sha256": "f90e1b3b63fc9ee1ed2b78a8293ef6a2a82f43500f1fb5d202e345eaa8a5707d",
+      "old_release_inventory_sha_match": true
+    },
+    {
+      "path": "frozen-source/reproduction/source/04-core_producer.py",
+      "local_path": "literature/local/2026-10-29-weil-9-8/source/frozen-source/reproduction/source/04-core_producer.py",
+      "bytes": 1582,
+      "git_blob_sha": "c898d41f4fa74d86e1790c8e4a2645fb6c5e8c0c",
+      "sha256": "9a47422f4614a6e2ffa30e5ff63bef6aa78ab101b2ebd09efec04d183de6e52d",
+      "old_release_inventory_sha_match": true
+    },
+    {
+      "path": "frozen-source/reproduction/source/05-shift_checker.py",
+      "local_path": "literature/local/2026-10-29-weil-9-8/source/frozen-source/reproduction/source/05-shift_checker.py",
+      "bytes": 4443,
+      "git_blob_sha": "1257507e00e8a7851e14656e83d12b46a83ebdb5",
+      "sha256": "684e22365f06070f6e0e1cc6234b1dc0f5f3c8fc7f3d21247da74c84e3614db7",
+      "old_release_inventory_sha_match": true
+    },
+    {
+      "path": "frozen-source/reproduction/source/06-shift_producer.py",
+      "local_path": "literature/local/2026-10-29-weil-9-8/source/frozen-source/reproduction/source/06-shift_producer.py",
+      "bytes": 2004,
+      "git_blob_sha": "e5fd65fbfb0d493eeb4372b85b247d4d46bb48f6",
+      "sha256": "0d2841fdf9c5cb6a237651d833113e24f40281c33d9d71a9d28b9dc4fc14e4a3",
+      "old_release_inventory_sha_match": true
+    },
+    {
+      "path": "frozen-source/reproduction/source/07-check.py",
+      "local_path": "literature/local/2026-10-29-weil-9-8/source/frozen-source/reproduction/source/07-check.py",
+      "bytes": 26727,
+      "git_blob_sha": "be72f1f178cb313c0d8c51cb07190d4bcb809d1b",
+      "sha256": "bee8f860c1919059e8888be3e8941bfd6dd592f467165d53ef8ec04fcd532635",
+      "old_release_inventory_sha_match": true
+    },
+    {
+      "path": "frozen-source/reproduction/source/08-produce.py",
+      "local_path": "literature/local/2026-10-29-weil-9-8/source/frozen-source/reproduction/source/08-produce.py",
+      "bytes": 13345,
+      "git_blob_sha": "6e443ae96cf71319e577b365ab2cbb76e09ee13d",
+      "sha256": "7b980b6dd8ff7a8dd0163cef970f3bf8ac9dff8bddb6b2762d56669e2723680d",
+      "old_release_inventory_sha_match": true
+    },
+    {
+      "path": "frozen-source/reproduction/source/09-st4_checker.py",
+      "local_path": "literature/local/2026-10-29-weil-9-8/source/frozen-source/reproduction/source/09-st4_checker.py",
+      "bytes": 6438,
+      "git_blob_sha": "b301f76e36438bfe60c2b33476ac90898df09e04",
+      "sha256": "6b7b601b0d3cab6f633958ad67532dd826df9b0ba96bdf212538c07b910cc154",
+      "old_release_inventory_sha_match": true
+    },
+    {
+      "path": "frozen-source/reproduction/source/10-st4_producer.py",
+      "local_path": "literature/local/2026-10-29-weil-9-8/source/frozen-source/reproduction/source/10-st4_producer.py",
+      "bytes": 5241,
+      "git_blob_sha": "5d53cf01540553a45e66909be8767a07fa4124ed",
+      "sha256": "dfb6ff3b6a56b90db04cf0a86e9ab62cee4bde0719bce7f6287d45da71c55ec8",
+      "old_release_inventory_sha_match": true
+    },
+    {
+      "path": "frozen-source/reproduction/source/11-checker_quotient.py",
+      "local_path": "literature/local/2026-10-29-weil-9-8/source/frozen-source/reproduction/source/11-checker_quotient.py",
+      "bytes": 8059,
+      "git_blob_sha": "620a4f8d64efb61498da86c91c5ba8abdecc959e",
+      "sha256": "c951ce0d4075c3b93739901f6aa938421841ab183b816172b2685ffac5bbce8a",
+      "old_release_inventory_sha_match": true
+    },
+    {
+      "path": "frozen-source/reproduction/source/12-raw_column_producer.py",
+      "local_path": "literature/local/2026-10-29-weil-9-8/source/frozen-source/reproduction/source/12-raw_column_producer.py",
+      "bytes": 5581,
+      "git_blob_sha": "9e9ab971ea33b5f2e6d75868c6e776170f4a8434",
+      "sha256": "6342dca29469c61034aa39c5a648285691244ef6863a4fe9f2de3a0af07f516e",
+      "old_release_inventory_sha_match": true
+    },
+    {
+      "path": "frozen-source/reproduction/source/13-ru_checker.py",
+      "local_path": "literature/local/2026-10-29-weil-9-8/source/frozen-source/reproduction/source/13-ru_checker.py",
+      "bytes": 4174,
+      "git_blob_sha": "1306bf9fbb23e88756674c44f6ebefb6b809466d",
+      "sha256": "eb87e46820ca1043c2880e06afb1aef122e831dcbf46dcd34a4d13062179618f",
+      "old_release_inventory_sha_match": true
+    },
+    {
+      "path": "frozen-source/reproduction/source/14-ru_producer.py",
+      "local_path": "literature/local/2026-10-29-weil-9-8/source/frozen-source/reproduction/source/14-ru_producer.py",
+      "bytes": 4280,
+      "git_blob_sha": "c19c9bbcd26d8343ce8aef496ec3757da226eff5",
+      "sha256": "f6af8f29d0b6f27bfb23698e4600e2fa9add84e0bb9cc63a70f780835e19a907",
+      "old_release_inventory_sha_match": true
+    },
+    {
+      "path": "frozen-source/reproduction/stage.py",
+      "local_path": "literature/local/2026-10-29-weil-9-8/source/frozen-source/reproduction/stage.py",
+      "bytes": 18286,
+      "git_blob_sha": "2de474706ea2023c026db66e2c444d31b133aea1",
+      "sha256": "9e2f5d76572c615273c6e7cad7c54935d6aba1e5d7aca1a967fbe247b63eefa5",
+      "old_release_inventory_sha_match": true
+    }
+  ],
+  "restored_file_count": 22,
+  "restored_total_bytes": 249579,
+  "all_current_bytes_reverified": true,
+  "old_release_receipt": "reviews/2026-10-14/c009-tail/source-receipt.json",
+  "scope": "22 scientific/TeX source files only; old 634659625-byte archive not redownloaded; no PDF restored; no upstream code executed by restoration",
+  "fulltexts_git_included": false
+}

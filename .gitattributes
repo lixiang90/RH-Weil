@@ -97,3 +97,12 @@ notes/503-ninth-span-reward-and-feedback-interface-barrier.md -text
 
 /reviews/2026-10-14/joint-sonin-cross/** -text whitespace=cr-at-eol
 /notes/560-joint-finite-place-sonin-primepower-cancellation-and-compact-weil-bridge.md -text whitespace=cr-at-eol
+
+# C058 exact data, code and root-consumption hashes are byte identities.
+/reviews/2026-10-29/weil-9-8-admission/** -text whitespace=cr-at-eol
+/scripts/weil_9_8_*.py -text whitespace=cr-at-eol
+/scripts/check_weil_9_8_negative_witness.py -text whitespace=cr-at-eol
+/goals/contracts/C058-full-weil-9-8-single-certificate.md -text whitespace=cr-at-eol
+/notes/595-full-weil-9-8-fixed-comparison-negative-certificate.md -text whitespace=cr-at-eol
+# The immutable JSON witness retains its original whitespace and recorded SHA.
+/reviews/2026-10-29/weil-9-8-admission/negative-direction-independent-replay.json -text whitespace=-blank-at-eol,-blank-at-eof

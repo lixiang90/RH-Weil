@@ -1,5 +1,7 @@
 # 研究分支看板
 
+2026-10-29，[595/C058：固定9/8充分比较失败](goals/reviews/2026-10-29-weil-9-8-fixed-comparison-settlement.md)：1024moments、15/225/151200矩阵、896尾列及所有oracle/controls通过；全解析/新inverse和两224-sector完整compiler闭。Actual even Kcert有独立105-entry/14-coordinate整数负witness，故本P0非PSD，Q/真实bounded型符号未知，odd Gram未执行。一次完整失败研究0→1/history59/latest595/formal19，文献133。停止本actual配置，不续Gram精度/factor或L/mu/theta/N参数；源/误差资产保留，主primitive/mixed/corecross/Xi及whole4/5UPPER不变，Goalactive。当前本轮发布核actualHEAD，无继任已准。
+
 2026-10-29，[Sonin Gram determinant旧0止](goals/reviews/2026-10-29-sonin-gram-determinant-old-stop.md)：两原稿/不同限定fresh/root已闭，ordinary夹心S₁与Gram PD合法，但自然source的mixed Levi精确为旧V_R，直接受591三测试及正weight必要费约束。Scalarτ全纯平坦/Gram度量/dual号分清；nonholomorphic新metric、pointwise非线性、relative signed、principal Green补偿仍未排。仅停止本自然curvature提案，不当全部detline失败；关键primitive/mixed/corecross/Ξ与whole4/5UPPER不变，数学0/cadence0/history58/latest594/formal19及manifest132保持。当前准确范围授权发布，无C058/595或已准继任预算。
 
 2026-10-29，[594＋formal19已闭](goals/reviews/2026-10-29-general-rh-macro-review-cycle-19.md)：普通trace自伴S₁的signed共同源，无pureexact/无uniform维数秩范数，fixedsource迫nativeHS rank1舍入/fixedprimepair产品趋0；≤28源误差给δ^(1/4)界。Normal-clock、集体growth、非linear/relative/singular等实际范围保留；不付完整Q独立正号。两数学原稿/不同fresh/root及两宏观支持/不同macrofresh/root核闭，四轮591–594后原counter4→0一次/history58/latest594/formal19；manifest132保持。关键primitive/principal/mixed/corecross/Ξ及whole4/5UPPER不变，Goalactive。主线实际非零primitive边，备选core净号/独立正D′；当前无新实物/继任预算，不续C057矩/metric/gain/source，先准确范围发布。

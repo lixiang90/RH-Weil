@@ -1,0 +1,296 @@
+{
+  "schema": "weil-9-8-actual-core-failure-verification-v1",
+  "observed_at": "2026-10-29T02:22:12.515849+00:00",
+  "status": "FIXED_SUFFICIENT_COMPARISON_FAILED_NOT_Q_NEGATIVE",
+  "completed_stages": [
+    {
+      "stage": "isolation-test",
+      "receipt": {
+        "configurationSHA256": "c315a040c3412694f7010f81131d76c4ac808cef9e19a7b0214bcc9d3c86d290",
+        "coreManifestSHA256": "5974885eba88831106d3395adf908f73a8c3180671457a7233aff3e44d2b239f",
+        "elapsedSeconds": 0.005713500082492828,
+        "finishedAt": "2026-10-29T01:54:51.708073+00:00",
+        "fullQCertified": false,
+        "inputSHA256": {
+          "D:\\codex-build\\RH-Weil\\literature\\local\\2026-10-29-weil-9-8\\pilot\\core-run-02\\manifest.json": "5974885eba88831106d3395adf908f73a8c3180671457a7233aff3e44d2b239f",
+          "D:\\codex-build\\RH-Weil\\literature\\local\\2026-10-29-weil-9-8\\pilot\\source-manifest.json": "15ae30f087481a40d9c9d6bf3ff517ea1e50aba04b3899fcdd049c55364511e4",
+          "D:\\codex-build\\RH-Weil\\reviews\\2026-10-29\\weil-9-8-admission\\new-inverse-threshold-admission.md": "e60800f4b36e737d3bd13efa0bd57bcd0d799a79ac81a0e9313f20b73450af42",
+          "D:\\codex-build\\RH-Weil\\scripts\\weil_9_8_core_pilot.py": "d9ac746c3d56199ea65385f9883390c19a64b06ba8397f52ad96201d20485961",
+          "D:\\codex-build\\RH-Weil\\scripts\\weil_9_8_source_pilot.py": "7589b854cbcd2f1c2fcdf0ecce60b614af7e1d73992b6f64719e1624a0ad0961"
+        },
+        "networkUsed": false,
+        "noParameterSearch": true,
+        "outputs": {},
+        "requiresRootAnalyticPremiseClosure": true,
+        "results": {
+          "controls": [
+            {
+              "name": "outside-read",
+              "rejected": true
+            },
+            {
+              "name": "socket",
+              "rejected": true
+            },
+            {
+              "name": "subprocess",
+              "rejected": true
+            }
+          ]
+        },
+        "schema": "RH_WEIL_9_8_FINITE_COMPARISON_V1",
+        "sourceManifestSHA256": "15ae30f087481a40d9c9d6bf3ff517ea1e50aba04b3899fcdd049c55364511e4",
+        "sourceOnlyReceiptsDoNotPayAnalyticFees": true,
+        "stage": "isolation-test",
+        "startedAt": "2026-10-29T01:54:51.702355+00:00",
+        "status": "FINITE_STAGE_PASS_NOT_FULL_Q",
+        "workerSHA256": "d9ac746c3d56199ea65385f9883390c19a64b06ba8397f52ad96201d20485961"
+      },
+      "receipt_sha256": "5db69d12420ee28356b6ce76cecaa3fb7284e5d27b29428cc9e37d860321ec0c",
+      "audit": {
+        "limit": "Python audit for reviewed code, not an OS syscall sandbox",
+        "observedOpenPaths": {
+          "D:\\codex-build\\RH-Weil\\literature\\local\\2026-10-29-weil-9-8\\pilot\\core-run-02\\isolation-test-receipt.json | read": 1,
+          "D:\\codex-build\\RH-Weil\\literature\\local\\2026-10-29-weil-9-8\\pilot\\core-run-02\\isolation-test-receipt.json | write": 1,
+          "D:\\codex-build\\RH-Weil\\literature\\local\\2026-10-29-weil-9-8\\pilot\\core-run-02\\manifest.json | read": 2,
+          "D:\\codex-build\\RH-Weil\\literature\\local\\2026-10-29-weil-9-8\\pilot\\forbidden-core.json | read": 1,
+          "D:\\codex-build\\RH-Weil\\literature\\local\\2026-10-29-weil-9-8\\pilot\\source-manifest.json | read": 2,
+          "D:\\codex-build\\RH-Weil\\reviews\\2026-10-29\\weil-9-8-admission\\new-inverse-threshold-admission.md | read": 2,
+          "D:\\codex-build\\RH-Weil\\scripts\\weil_9_8_core_pilot.py | read": 2,
+          "D:\\codex-build\\RH-Weil\\scripts\\weil_9_8_source_pilot.py | read": 2
+        },
+        "policy": "Exact pinned inputs, exclusive outputs, stdlib; network/process/ctypes denied",
+        "violations": [
+          {
+            "event": "open",
+            "path": "D:\\codex-build\\RH-Weil\\literature\\local\\2026-10-29-weil-9-8\\pilot\\forbidden-core.json",
+            "writing": false
+          },
+          {
+            "event": "socket.__new__"
+          },
+          {
+            "event": "subprocess.Popen"
+          }
+        ]
+      }
+    },
+    {
+      "stage": "trial",
+      "receipt": {
+        "configurationSHA256": "c315a040c3412694f7010f81131d76c4ac808cef9e19a7b0214bcc9d3c86d290",
+        "coreManifestSHA256": "5974885eba88831106d3395adf908f73a8c3180671457a7233aff3e44d2b239f",
+        "elapsedSeconds": 21.540723300073296,
+        "finishedAt": "2026-10-29T02:01:46.031003+00:00",
+        "fullQCertified": false,
+        "inputSHA256": {
+          "D:\\codex-build\\RH-Weil\\literature\\local\\2026-10-29-weil-9-8\\pilot\\core-run-02\\manifest.json": "5974885eba88831106d3395adf908f73a8c3180671457a7233aff3e44d2b239f",
+          "D:\\codex-build\\RH-Weil\\literature\\local\\2026-10-29-weil-9-8\\pilot\\run-01\\certificates\\moments.json": "2d166f7ae457fd61826329d31365564e25f1cfc6bc19d09aef22d2ec89c6bbd9",
+          "D:\\codex-build\\RH-Weil\\literature\\local\\2026-10-29-weil-9-8\\pilot\\run-01\\certificates\\source-matrices.json": "a5486fea38c3c8f91dcf4bb77c7677e734efe2ac9cbf59ddabc4674739fdb2f2",
+          "D:\\codex-build\\RH-Weil\\literature\\local\\2026-10-29-weil-9-8\\pilot\\run-01\\certificates\\tail-columns.json": "d714fa8d717a8f39d8b3b57cc6292e3f14844041b83802cf57ee47aa03c65a0e",
+          "D:\\codex-build\\RH-Weil\\literature\\local\\2026-10-29-weil-9-8\\pilot\\run-01\\receipts\\matrices.json": "5d3542181b4f8ddc386a4d86290a574221b751a8857994d0d8e742c164e68984",
+          "D:\\codex-build\\RH-Weil\\literature\\local\\2026-10-29-weil-9-8\\pilot\\run-01\\receipts\\moments.json": "2a602f637455b95c256be2579f280af09bd26d069de58d48d5979f4e1eb3460b",
+          "D:\\codex-build\\RH-Weil\\literature\\local\\2026-10-29-weil-9-8\\pilot\\run-01\\receipts\\tails.json": "d3a30a58eea7beb08371a3ebe97b684957ef95ca6a164a3283ee6c3118ebf953",
+          "D:\\codex-build\\RH-Weil\\literature\\local\\2026-10-29-weil-9-8\\pilot\\source-manifest.json": "15ae30f087481a40d9c9d6bf3ff517ea1e50aba04b3899fcdd049c55364511e4",
+          "D:\\codex-build\\RH-Weil\\reviews\\2026-10-29\\weil-9-8-admission\\new-inverse-threshold-admission.md": "e60800f4b36e737d3bd13efa0bd57bcd0d799a79ac81a0e9313f20b73450af42",
+          "D:\\codex-build\\RH-Weil\\scripts\\weil_9_8_core_pilot.py": "d9ac746c3d56199ea65385f9883390c19a64b06ba8397f52ad96201d20485961",
+          "D:\\codex-build\\RH-Weil\\scripts\\weil_9_8_source_pilot.py": "7589b854cbcd2f1c2fcdf0ecce60b614af7e1d73992b6f64719e1624a0ad0961"
+        },
+        "networkUsed": false,
+        "noParameterSearch": true,
+        "outputs": {
+          "even-trial.json": "5c77c19b7af6f36a281d3f7c1ad4dd2fa91613f9955eeefbd8662ae099c282b0",
+          "odd-trial.json": "a3885efe93abe43ab047af6eb6bc6d06749e48532c296064421dc78ee2dd38a0"
+        },
+        "requiresRootAnalyticPremiseClosure": true,
+        "results": {
+          "even": {
+            "packet": "even-trial.json",
+            "status": "GENERATED_AND_CHECKED_NOT_FULL_Q"
+          },
+          "odd": {
+            "packet": "odd-trial.json",
+            "status": "GENERATED_AND_CHECKED_NOT_FULL_Q"
+          }
+        },
+        "schema": "RH_WEIL_9_8_FINITE_COMPARISON_V1",
+        "sourceManifestSHA256": "15ae30f087481a40d9c9d6bf3ff517ea1e50aba04b3899fcdd049c55364511e4",
+        "sourceOnlyReceiptsDoNotPayAnalyticFees": true,
+        "stage": "trial",
+        "startedAt": "2026-10-29T02:01:24.490647+00:00",
+        "status": "FINITE_STAGE_PASS_NOT_FULL_Q",
+        "workerSHA256": "d9ac746c3d56199ea65385f9883390c19a64b06ba8397f52ad96201d20485961"
+      },
+      "receipt_sha256": "c8f268ad4a1555bb66dbe7dc4814e65ffcf12a7b28f10c7d30ea2dc26abbeead",
+      "audit": {
+        "limit": "Python audit for reviewed code, not an OS syscall sandbox",
+        "observedOpenPaths": {
+          "D:\\codex-build\\RH-Weil\\literature\\local\\2026-10-29-weil-9-8\\pilot\\core-run-02\\even-trial.json | read": 2,
+          "D:\\codex-build\\RH-Weil\\literature\\local\\2026-10-29-weil-9-8\\pilot\\core-run-02\\even-trial.json | write": 1,
+          "D:\\codex-build\\RH-Weil\\literature\\local\\2026-10-29-weil-9-8\\pilot\\core-run-02\\manifest.json | read": 2,
+          "D:\\codex-build\\RH-Weil\\literature\\local\\2026-10-29-weil-9-8\\pilot\\core-run-02\\odd-trial.json | read": 2,
+          "D:\\codex-build\\RH-Weil\\literature\\local\\2026-10-29-weil-9-8\\pilot\\core-run-02\\odd-trial.json | write": 1,
+          "D:\\codex-build\\RH-Weil\\literature\\local\\2026-10-29-weil-9-8\\pilot\\core-run-02\\trial-receipt.json | read": 1,
+          "D:\\codex-build\\RH-Weil\\literature\\local\\2026-10-29-weil-9-8\\pilot\\core-run-02\\trial-receipt.json | write": 1,
+          "D:\\codex-build\\RH-Weil\\literature\\local\\2026-10-29-weil-9-8\\pilot\\run-01\\certificates\\moments.json | read": 5,
+          "D:\\codex-build\\RH-Weil\\literature\\local\\2026-10-29-weil-9-8\\pilot\\run-01\\certificates\\source-matrices.json | read": 4,
+          "D:\\codex-build\\RH-Weil\\literature\\local\\2026-10-29-weil-9-8\\pilot\\run-01\\certificates\\tail-columns.json | read": 4,
+          "D:\\codex-build\\RH-Weil\\literature\\local\\2026-10-29-weil-9-8\\pilot\\run-01\\receipts\\matrices.json | read": 3,
+          "D:\\codex-build\\RH-Weil\\literature\\local\\2026-10-29-weil-9-8\\pilot\\run-01\\receipts\\moments.json | read": 3,
+          "D:\\codex-build\\RH-Weil\\literature\\local\\2026-10-29-weil-9-8\\pilot\\run-01\\receipts\\tails.json | read": 3,
+          "D:\\codex-build\\RH-Weil\\literature\\local\\2026-10-29-weil-9-8\\pilot\\source-manifest.json | read": 2,
+          "D:\\codex-build\\RH-Weil\\reviews\\2026-10-29\\weil-9-8-admission\\new-inverse-threshold-admission.md | read": 2,
+          "D:\\codex-build\\RH-Weil\\scripts\\weil_9_8_core_pilot.py | read": 2,
+          "D:\\codex-build\\RH-Weil\\scripts\\weil_9_8_source_pilot.py | read": 2
+        },
+        "policy": "Exact pinned inputs, exclusive outputs, stdlib; network/process/ctypes denied",
+        "violations": []
+      }
+    },
+    {
+      "stage": "compile",
+      "receipt": {
+        "configurationSHA256": "c315a040c3412694f7010f81131d76c4ac808cef9e19a7b0214bcc9d3c86d290",
+        "coreManifestSHA256": "5974885eba88831106d3395adf908f73a8c3180671457a7233aff3e44d2b239f",
+        "elapsedSeconds": 206.86797310016118,
+        "finishedAt": "2026-10-29T02:07:03.493119+00:00",
+        "fullQCertified": false,
+        "inputSHA256": {
+          "D:\\codex-build\\RH-Weil\\literature\\local\\2026-10-29-weil-9-8\\pilot\\core-run-02\\even-trial.json": "5c77c19b7af6f36a281d3f7c1ad4dd2fa91613f9955eeefbd8662ae099c282b0",
+          "D:\\codex-build\\RH-Weil\\literature\\local\\2026-10-29-weil-9-8\\pilot\\core-run-02\\manifest.json": "5974885eba88831106d3395adf908f73a8c3180671457a7233aff3e44d2b239f",
+          "D:\\codex-build\\RH-Weil\\literature\\local\\2026-10-29-weil-9-8\\pilot\\core-run-02\\odd-trial.json": "a3885efe93abe43ab047af6eb6bc6d06749e48532c296064421dc78ee2dd38a0",
+          "D:\\codex-build\\RH-Weil\\literature\\local\\2026-10-29-weil-9-8\\pilot\\core-run-02\\trial-receipt.json": "c8f268ad4a1555bb66dbe7dc4814e65ffcf12a7b28f10c7d30ea2dc26abbeead",
+          "D:\\codex-build\\RH-Weil\\literature\\local\\2026-10-29-weil-9-8\\pilot\\run-01\\certificates\\moments.json": "2d166f7ae457fd61826329d31365564e25f1cfc6bc19d09aef22d2ec89c6bbd9",
+          "D:\\codex-build\\RH-Weil\\literature\\local\\2026-10-29-weil-9-8\\pilot\\run-01\\certificates\\source-matrices.json": "a5486fea38c3c8f91dcf4bb77c7677e734efe2ac9cbf59ddabc4674739fdb2f2",
+          "D:\\codex-build\\RH-Weil\\literature\\local\\2026-10-29-weil-9-8\\pilot\\run-01\\certificates\\tail-columns.json": "d714fa8d717a8f39d8b3b57cc6292e3f14844041b83802cf57ee47aa03c65a0e",
+          "D:\\codex-build\\RH-Weil\\literature\\local\\2026-10-29-weil-9-8\\pilot\\run-01\\receipts\\matrices.json": "5d3542181b4f8ddc386a4d86290a574221b751a8857994d0d8e742c164e68984",
+          "D:\\codex-build\\RH-Weil\\literature\\local\\2026-10-29-weil-9-8\\pilot\\run-01\\receipts\\moments.json": "2a602f637455b95c256be2579f280af09bd26d069de58d48d5979f4e1eb3460b",
+          "D:\\codex-build\\RH-Weil\\literature\\local\\2026-10-29-weil-9-8\\pilot\\run-01\\receipts\\tails.json": "d3a30a58eea7beb08371a3ebe97b684957ef95ca6a164a3283ee6c3118ebf953",
+          "D:\\codex-build\\RH-Weil\\literature\\local\\2026-10-29-weil-9-8\\pilot\\source-manifest.json": "15ae30f087481a40d9c9d6bf3ff517ea1e50aba04b3899fcdd049c55364511e4",
+          "D:\\codex-build\\RH-Weil\\reviews\\2026-10-29\\weil-9-8-admission\\new-inverse-threshold-admission.md": "e60800f4b36e737d3bd13efa0bd57bcd0d799a79ac81a0e9313f20b73450af42",
+          "D:\\codex-build\\RH-Weil\\scripts\\weil_9_8_core_pilot.py": "d9ac746c3d56199ea65385f9883390c19a64b06ba8397f52ad96201d20485961",
+          "D:\\codex-build\\RH-Weil\\scripts\\weil_9_8_source_pilot.py": "7589b854cbcd2f1c2fcdf0ecce60b614af7e1d73992b6f64719e1624a0ad0961"
+        },
+        "networkUsed": false,
+        "noParameterSearch": true,
+        "outputs": {
+          "even-target.json": "14dcbebe5b553d7fa30e5e0d2ded203c32d75693cc3f2e39525fc236673f6401",
+          "odd-target.json": "847fa3a860460571de45201b977bf10ad7a2077d6f573a29c6b5f10651d3a1e3"
+        },
+        "requiresRootAnalyticPremiseClosure": true,
+        "results": {
+          "even": {
+            "packet": "even-target.json",
+            "status": "GENERATED_AND_CHECKED_NOT_FULL_Q"
+          },
+          "odd": {
+            "packet": "odd-target.json",
+            "status": "GENERATED_AND_CHECKED_NOT_FULL_Q"
+          }
+        },
+        "schema": "RH_WEIL_9_8_FINITE_COMPARISON_V1",
+        "sourceManifestSHA256": "15ae30f087481a40d9c9d6bf3ff517ea1e50aba04b3899fcdd049c55364511e4",
+        "sourceOnlyReceiptsDoNotPayAnalyticFees": true,
+        "stage": "compile",
+        "startedAt": "2026-10-29T02:03:36.628702+00:00",
+        "status": "FINITE_STAGE_PASS_NOT_FULL_Q",
+        "workerSHA256": "d9ac746c3d56199ea65385f9883390c19a64b06ba8397f52ad96201d20485961"
+      },
+      "receipt_sha256": "988771c0b99a2bc2f4f8badd882904b00d4c482144c4e5ea94050844db4feafd",
+      "audit": {
+        "limit": "Python audit for reviewed code, not an OS syscall sandbox",
+        "observedOpenPaths": {
+          "D:\\codex-build\\RH-Weil\\literature\\local\\2026-10-29-weil-9-8\\pilot\\core-run-02\\compile-receipt.json | read": 1,
+          "D:\\codex-build\\RH-Weil\\literature\\local\\2026-10-29-weil-9-8\\pilot\\core-run-02\\compile-receipt.json | write": 1,
+          "D:\\codex-build\\RH-Weil\\literature\\local\\2026-10-29-weil-9-8\\pilot\\core-run-02\\even-target.json | read": 2,
+          "D:\\codex-build\\RH-Weil\\literature\\local\\2026-10-29-weil-9-8\\pilot\\core-run-02\\even-target.json | write": 1,
+          "D:\\codex-build\\RH-Weil\\literature\\local\\2026-10-29-weil-9-8\\pilot\\core-run-02\\even-trial.json | read": 4,
+          "D:\\codex-build\\RH-Weil\\literature\\local\\2026-10-29-weil-9-8\\pilot\\core-run-02\\manifest.json | read": 2,
+          "D:\\codex-build\\RH-Weil\\literature\\local\\2026-10-29-weil-9-8\\pilot\\core-run-02\\odd-target.json | read": 2,
+          "D:\\codex-build\\RH-Weil\\literature\\local\\2026-10-29-weil-9-8\\pilot\\core-run-02\\odd-target.json | write": 1,
+          "D:\\codex-build\\RH-Weil\\literature\\local\\2026-10-29-weil-9-8\\pilot\\core-run-02\\odd-trial.json | read": 4,
+          "D:\\codex-build\\RH-Weil\\literature\\local\\2026-10-29-weil-9-8\\pilot\\core-run-02\\trial-receipt.json | read": 4,
+          "D:\\codex-build\\RH-Weil\\literature\\local\\2026-10-29-weil-9-8\\pilot\\run-01\\certificates\\moments.json | read": 5,
+          "D:\\codex-build\\RH-Weil\\literature\\local\\2026-10-29-weil-9-8\\pilot\\run-01\\certificates\\source-matrices.json | read": 4,
+          "D:\\codex-build\\RH-Weil\\literature\\local\\2026-10-29-weil-9-8\\pilot\\run-01\\certificates\\tail-columns.json | read": 4,
+          "D:\\codex-build\\RH-Weil\\literature\\local\\2026-10-29-weil-9-8\\pilot\\run-01\\receipts\\matrices.json | read": 3,
+          "D:\\codex-build\\RH-Weil\\literature\\local\\2026-10-29-weil-9-8\\pilot\\run-01\\receipts\\moments.json | read": 3,
+          "D:\\codex-build\\RH-Weil\\literature\\local\\2026-10-29-weil-9-8\\pilot\\run-01\\receipts\\tails.json | read": 3,
+          "D:\\codex-build\\RH-Weil\\literature\\local\\2026-10-29-weil-9-8\\pilot\\source-manifest.json | read": 2,
+          "D:\\codex-build\\RH-Weil\\reviews\\2026-10-29\\weil-9-8-admission\\new-inverse-threshold-admission.md | read": 2,
+          "D:\\codex-build\\RH-Weil\\scripts\\weil_9_8_core_pilot.py | read": 2,
+          "D:\\codex-build\\RH-Weil\\scripts\\weil_9_8_source_pilot.py | read": 2
+        },
+        "policy": "Exact pinned inputs, exclusive outputs, stdlib; network/process/ctypes denied",
+        "violations": []
+      }
+    }
+  ],
+  "gram": {
+    "failure": {
+      "configurationSHA256": "c315a040c3412694f7010f81131d76c4ac808cef9e19a7b0214bcc9d3c86d290",
+      "error": "FINITE_GRAM_PROPOSAL_INCONCLUSIVE:even",
+      "errorType": "ValueError",
+      "finishedAt": "2026-10-29T02:08:13.676651+00:00",
+      "finiteFailureDoesNotEstablishNegativeQ": true,
+      "fullQCertified": false,
+      "partialOutputs": {},
+      "schema": "RH_WEIL_9_8_FINITE_COMPARISON_V1",
+      "stage": "gram",
+      "startedAt": "2026-10-29T02:08:12.373178+00:00",
+      "status": "NONPASS",
+      "workerSHA256": "d9ac746c3d56199ea65385f9883390c19a64b06ba8397f52ad96201d20485961"
+    },
+    "proposal_kind": "inconclusive",
+    "reason": "GRAM_DECIMAL_NONPOSITIVE_PIVOT",
+    "zero_based_pivot": 13,
+    "target_scale_bits": 2849,
+    "packet_path": "literature/local/2026-10-29-weil-9-8/pilot/core-run-02/even-gram.json",
+    "packet_sha256": "37f2063826e9c61c0141337d56de4a8113436f52a5855d7005e45b46eae5c4e7",
+    "stored_exact_numerator_negative": true,
+    "odd_gram_executed": false,
+    "complete_positive_residual_executed": false,
+    "positive_factor_mutation_executed": false,
+    "access": {
+      "limit": "Python audit for reviewed code, not an OS syscall sandbox",
+      "observedOpenPaths": {
+        "D:\\codex-build\\RH-Weil\\<unknown> | read": 1,
+        "D:\\codex-build\\RH-Weil\\literature\\local\\2026-10-29-weil-9-8\\pilot\\core-run-02\\compile-receipt.json | read": 2,
+        "D:\\codex-build\\RH-Weil\\literature\\local\\2026-10-29-weil-9-8\\pilot\\core-run-02\\even-gram.json | read": 1,
+        "D:\\codex-build\\RH-Weil\\literature\\local\\2026-10-29-weil-9-8\\pilot\\core-run-02\\even-gram.json | write": 1,
+        "D:\\codex-build\\RH-Weil\\literature\\local\\2026-10-29-weil-9-8\\pilot\\core-run-02\\even-target.json | read": 3,
+        "D:\\codex-build\\RH-Weil\\literature\\local\\2026-10-29-weil-9-8\\pilot\\core-run-02\\even-trial.json | read": 1,
+        "D:\\codex-build\\RH-Weil\\literature\\local\\2026-10-29-weil-9-8\\pilot\\core-run-02\\gram-failure.json | read": 1,
+        "D:\\codex-build\\RH-Weil\\literature\\local\\2026-10-29-weil-9-8\\pilot\\core-run-02\\gram-failure.json | write": 1,
+        "D:\\codex-build\\RH-Weil\\literature\\local\\2026-10-29-weil-9-8\\pilot\\core-run-02\\manifest.json | read": 1,
+        "D:\\codex-build\\RH-Weil\\literature\\local\\2026-10-29-weil-9-8\\pilot\\core-run-02\\odd-target.json | read": 1,
+        "D:\\codex-build\\RH-Weil\\literature\\local\\2026-10-29-weil-9-8\\pilot\\core-run-02\\odd-trial.json | read": 1,
+        "D:\\codex-build\\RH-Weil\\literature\\local\\2026-10-29-weil-9-8\\pilot\\core-run-02\\trial-receipt.json | read": 1,
+        "D:\\codex-build\\RH-Weil\\literature\\local\\2026-10-29-weil-9-8\\pilot\\run-01\\certificates\\moments.json | read": 4,
+        "D:\\codex-build\\RH-Weil\\literature\\local\\2026-10-29-weil-9-8\\pilot\\run-01\\certificates\\source-matrices.json | read": 3,
+        "D:\\codex-build\\RH-Weil\\literature\\local\\2026-10-29-weil-9-8\\pilot\\run-01\\certificates\\tail-columns.json | read": 3,
+        "D:\\codex-build\\RH-Weil\\literature\\local\\2026-10-29-weil-9-8\\pilot\\run-01\\receipts\\matrices.json | read": 2,
+        "D:\\codex-build\\RH-Weil\\literature\\local\\2026-10-29-weil-9-8\\pilot\\run-01\\receipts\\moments.json | read": 2,
+        "D:\\codex-build\\RH-Weil\\literature\\local\\2026-10-29-weil-9-8\\pilot\\run-01\\receipts\\tails.json | read": 2,
+        "D:\\codex-build\\RH-Weil\\literature\\local\\2026-10-29-weil-9-8\\pilot\\source-manifest.json | read": 1,
+        "D:\\codex-build\\RH-Weil\\reviews\\2026-10-29\\weil-9-8-admission\\new-inverse-threshold-admission.md | read": 1,
+        "D:\\codex-build\\RH-Weil\\scripts\\weil_9_8_core_pilot.py | read": 2,
+        "D:\\codex-build\\RH-Weil\\scripts\\weil_9_8_source_pilot.py | read": 1
+      },
+      "policy": "Exact pinned inputs, exclusive outputs, stdlib; network/process/ctypes denied",
+      "violations": [
+        {
+          "event": "open",
+          "path": "D:\\codex-build\\RH-Weil\\<unknown>",
+          "writing": false
+        }
+      ]
+    },
+    "audit_qualifier": "One denied <unknown> read; aggregate access lacks time/stack. Control flow and separately reproduced Python exception formatting suggest reporting mechanism, not a directly localized actual call. Independent integer replay below does not depend on this read."
+  },
+  "independent_negative_witness": "reviews/2026-10-29/weil-9-8-admission/negative-direction-independent-replay.json",
+  "independent_negative_witness_sha256": "81bf3deaee393796bdf8b5a165904e188c657ff16176eaa9cb5eab1c22a0bab9",
+  "all_large_numeric_packets_git_included": false,
+  "full_weil_sign": "NOT_ESTABLISHED",
+  "same_target_any_positive_gram_certificate_impossible_if_independent_replay_confirmed": true
+}

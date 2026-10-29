@@ -1,0 +1,53 @@
+{
+  "schema": "weil-9-8-analytic-scalar-reclosure-v1",
+  "checks": {
+    "tail-new-remainder": true,
+    "Lagrange-weight-and-exponent": true,
+    "tail-tau": true,
+    "tail-nondegeneracy": true,
+    "tail-rank-two-C": true,
+    "tail-column-norms": true,
+    "rank-two-column-transport": true,
+    "exponential-upper": true,
+    "new-ellipse-r": true,
+    "pole-Taylor": true,
+    "pole-exponential": true,
+    "complement-positive": true,
+    "Binet-actual-remainder": true,
+    "kernel-new-Taylor": true,
+    "kernel-new-conditional-budget": true,
+    "band-new-Taylor": true,
+    "Machin-error": true,
+    "raw-column-normalization": true,
+    "conditional-total-column": true,
+    "raw-tail-new-factors": true,
+    "conditional-primitive-padding": true
+  },
+  "all_specified_scalar_leaves_passed": true,
+  "parameters": {
+    "L": "9/8",
+    "Omega": 256,
+    "N": 448,
+    "qCount": 1024,
+    "momentOutputBits": 1152,
+    "momentRadiusBits": 1098,
+    "m": "15/64",
+    "b": "433/64",
+    "rPower": -85,
+    "polePower": -440
+  },
+  "paid_scope": "Exact rational leaves of stated analytic bounds only",
+  "conditional_inputs": [
+    "New 1024 moment intervals independently contained and radius <=2^-1098",
+    "New primitive true-center errors <=2^-2048, 15 shifts and absolute mass <11",
+    "All new matrix weighted rows and tail coordinate errors independently paid",
+    "Upstream integral/operator proof transport and root premise closure"
+  ],
+  "unpaid": [
+    "new inverse/congruence/full Gram signs",
+    "full complement/cross finite target"
+  ],
+  "source_intervals_generated": false,
+  "full_weil_positivity": "NOT_ESTABLISHED",
+  "script_sha256": "047578601ac7980085f1fb092a646607ee585c4a20504b75e28c174c9aeba388"
+}

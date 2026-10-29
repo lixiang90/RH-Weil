@@ -1,0 +1,250 @@
+{
+  "schema": "weil-9-8-root-consumption-v1",
+  "consumed_at": "2026-10-29T02:30:58.290711+00:00",
+  "runtime_goal_created_at": 1793085111,
+  "runtime_goal_status_observed": "active",
+  "goal": "goals/GOAL.20261027.md",
+  "goal_lf_sha256": "b3d2acb1f962d793f45d79b6a4e67fb87dd072cd4752108a9298204b4cefa1de",
+  "baseline": "0c4f3a3eb609bb1d9564138fa4a35701f05605f2",
+  "classification": "one complete failed fixed actual-Weil comparison experiment; exact finite target obstruction, not Q sign",
+  "object_norm_domain": {
+    "physical": "Full classical Q on I=(-9/8,9/8), original L2(du;C)/zero-extension Dlog, fullGamma2theta-prime/contact/pp/indefinitepole",
+    "finite": "Actualsource/trial W and P0, Kcert=T0*18^2*Cw^2*Bc*P0*Bc withpositiveT0/nonsingularBc. Congruence coordinates not physical sources.",
+    "quantifiers": "Singlefixed L/Omega256/N448/mu1/8/theta2^-48/configuration; allcomplex domain transport conditionalonfinitecriterion, no cofinalgrowth claim"
+  },
+  "paid_dependencies": [
+    "Fixedb6cd2183 22originalbyteverified source subset, nooldwrapperPASScopy",
+    "Cosh norm beta209/64/m15/64/b433/64; r2^-85,p2^-440 andfullcomplexdelta/ranktwo",
+    "Actualnew1024true-moments1152/4controls; 15shifts225pairs/151200intervals/448rows eachmatrix/9controls;896tailcoords448zeros/4controls",
+    "True-moment Binetonce576kernel, mass<11/eta truecenters andrawpadding, Gamma18/tail36/sigma; fullanalyticfresh13990 rootread",
+    "Newmu1/8 arbitrarytrial inverse/positivecongruence6coeff; differentmathfresh10226 andcorecodefresh8651 rootread",
+    "Actualtrial nativeFrobenius y8 each224sector; bothcompletecompiler50176entryequal andcaps/sourcehashchains",
+    "Independentuppertriangle exactnegative replay, serialized105entry/14coordinate witness androotstandaloneverifier; scopefresh10348 rootread"
+  ],
+  "actual_error_fees": {
+    "epsilonA_B": "2^-220",
+    "epsilonH": "2^-204+2^-220",
+    "sigma": "9*2^-512",
+    "r": "2^-85",
+    "pole": "2^-440",
+    "cross_e": "1389r+p",
+    "complement_lower_n": "896r^2+p",
+    "complement_norm_h": "11696r^2+p",
+    "alpha0": "2^-122",
+    "beta0": "2^-22",
+    "lambda0": "2^-122+2^-204+2^-220+465*2^-247+2^-462+9*2^-512"
+  },
+  "actual_direction": {
+    "sector": "even",
+    "dimension": 224,
+    "nonzero_support_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "target_sha256": "14dcbebe5b553d7fa30e5e0d2ded203c32d75693cc3f2e39525fc236673f6401",
+    "target_bits": 2849,
+    "integer_quadratic_negative": true,
+    "integer_quadratic_bits": 3851,
+    "integer_quadratic_numerator_sha256": "ef10199df62e18072e62d9d4836d14b5807ba549232d94bf24f70d8d0ef00a47",
+    "vector_denominator_power_two": 512,
+    "quad_denominator_power_two": 1024,
+    "witness_sha256": "81bf3deaee393796bdf8b5a165904e188c657ff16176eaa9cb5eab1c22a0bab9",
+    "direction_role": "Sparseonlyincongruencecoordinates; Bc*v notclaimedlowdegreephysicalsource"
+  },
+  "strongest_consumable_consequence": "ActualKcert nonPSD ->actualP0 nonPSD bypositivecongruence. AnypositiveGram certificate ofsameK impossible. Sufficientcriterionfails; no converse toactualM+Kcompact+U orQnegative.",
+  "coverage_coupling_remaining": "No9/8coercivity; oddGram notexecuted; noalltrial/family/methodclass exclusion. Originalprimitive/principal/sections/mixed/growingcorecross/Xi unpaid.",
+  "audit_qualifier": "Three source/trial/compilezero violations. Gramaggregate1denied<unknown>read, nopertinenttime/stack; reporting attribution consistentwithcontrolflow/toyPythonformatting only. Exactnegative replay independentofthatread; notautoapprovalrejection.",
+  "historical_not_consumed_as_current_math": [
+    "Old21scalar single-Binet wording withdrawn; currentcorrected22 true-moment object only",
+    "13/4 FAILED, oldq/mu reusefailed; new209/64 andmu1/8 separatelypaid",
+    "Oldcore-run01 upper/lowerreader prepareonly; correctedcurrent02 used, no scientific rerun",
+    "595-draft-before-fresh pendinglanguage historical; finalnote scientificscope fresh/rootclosed"
+  ],
+  "settlement": {
+    "note": "notes/595-full-weil-9-8-fixed-comparison-negative-certificate.md",
+    "contract": "C058",
+    "status": "stopped-budget-exhausted",
+    "completed_research_iterations": 1,
+    "counter_transition": "one0->1, historicalcounter58->59, latest594->595, formal19 retained",
+    "cadence_before_lf_sha256": "c91d0eb7e8f6377c50dd701d1b48e0961acf9183f880d67f3fcddf408c440a8b",
+    "cadence_after_lf_sha256": "73ef5152185e3213a7b076a76a656c0a5a0acf9ace994c612def2de270584f4b",
+    "path_list_lengths_before_after": [
+      59,
+      60
+    ],
+    "path_list_note": "Historicalreference list offsetpreserved; notanotheriterationcounter. Initialguard rejectedbeforewrite; onlythissingle transitionexecuted."
+  },
+  "strongest_old_net": "537/538 fixed17/16 remains; no newpositivewindow. Whole542+555->557 leading4/5negativeinertiaUPPER unchanged. Newexactfailurechangeslocalchoiceonly, noRHkeybottleneckremoval.",
+  "completion_gate": "AllthreeoriginalGoal gatesopen/noteligible; runtimeactive, notcomplete/paused/blocked",
+  "stop": "NooddGram/factor/precision/L/N/mu/theta/weight continuation; differentactualinput/test required before successor.",
+  "publication": "Authorizednormalmain publicationpending; fulltexts/largedataignored, generatedcompactnegativewitness/publicmetadata/newcode only. Bytepreservationattributes keepauditedhashes acrosscheckout.",
+  "bindings": [
+    {
+      "path": "reviews/2026-10-29/weil-9-8-admission/595-draft-before-fresh.md",
+      "bytes": 5498,
+      "sha256": "550643897f80b657b9ba16dc1f4c33965afd9137033d663029a5b3dcbdde77c7"
+    },
+    {
+      "path": "reviews/2026-10-29/weil-9-8-admission/analytic-scalar-reclosure-true-moment.json",
+      "bytes": 1999,
+      "sha256": "af09d25bcb68928beaf5ca361f8998168e03822dd0d45a9c458de6deaea286cb"
+    },
+    {
+      "path": "reviews/2026-10-29/weil-9-8-admission/analytic-scalar-reclosure.json",
+      "bytes": 1791,
+      "sha256": "fb2655c8bf77fd5d6a84fd6fa349b80aae6e45754a2188a32617207717fad8e9"
+    },
+    {
+      "path": "reviews/2026-10-29/weil-9-8-admission/analytic-transport-and-parameter-stop.md",
+      "bytes": 9598,
+      "sha256": "6a4d8ff1d9a67e853219b2313bbc68389f5e577f26cad524393eaec012ea37d1"
+    },
+    {
+      "path": "reviews/2026-10-29/weil-9-8-admission/core-stage-verification.json",
+      "bytes": 21860,
+      "sha256": "53225c62a898ca9aef69f072efa349043de8d6e652e5be99f5e6849a1eac0d2d"
+    },
+    {
+      "path": "reviews/2026-10-29/weil-9-8-admission/core-worker-design.md",
+      "bytes": 7991,
+      "sha256": "54e2b7c82aa6c8846c535708e6ea0d5e8a309a3eba62570ba0abb3c984489ce6"
+    },
+    {
+      "path": "reviews/2026-10-29/weil-9-8-admission/core-worker-fresh.md",
+      "bytes": 8651,
+      "sha256": "388cdac83ac7cab9f27d882347bfb001c497fc9caefa6e2219e341438defefd5"
+    },
+    {
+      "path": "reviews/2026-10-29/weil-9-8-admission/cosh-row-first-gate.json",
+      "bytes": 62586,
+      "sha256": "9856d2acc3e4b23fbf4ef8e144b5a8f2df1a7b0ed21220bc51d35f7b9c0a37d1"
+    },
+    {
+      "path": "reviews/2026-10-29/weil-9-8-admission/fixed-configuration-failure-scope.md",
+      "bytes": 10348,
+      "sha256": "ac3619cd6c8a9a3035dbd7df0e16adf4447628cff2f26d2a41e226a7519958f0"
+    },
+    {
+      "path": "reviews/2026-10-29/weil-9-8-admission/fixed-target-negative-direction-fresh.md",
+      "bytes": 8182,
+      "sha256": "5ea711897f1434ef9ca41b7c7f4f3d274bf0afc195611d0baf3e6f209ab936bd"
+    },
+    {
+      "path": "reviews/2026-10-29/weil-9-8-admission/full-weil-analytic-transfer-fresh.md",
+      "bytes": 13990,
+      "sha256": "0cdb4173b7664b73b47fd8789c0629f0535a208ad9af2a4af8eb86422c64a466"
+    },
+    {
+      "path": "reviews/2026-10-29/weil-9-8-admission/inverse-scalars-root.json",
+      "bytes": 1096,
+      "sha256": "bee8293f3b7bff613439f400b15dbd955d6af66233d064f42a89c9af3d052fab"
+    },
+    {
+      "path": "reviews/2026-10-29/weil-9-8-admission/negative-direction-independent-replay.json",
+      "bytes": 101277,
+      "sha256": "81bf3deaee393796bdf8b5a165904e188c657ff16176eaa9cb5eab1c22a0bab9"
+    },
+    {
+      "path": "reviews/2026-10-29/weil-9-8-admission/new-inverse-congruence-fresh.md",
+      "bytes": 10226,
+      "sha256": "b7a335a87cead9aa109f399d3637556df00b6c460b45abdd405854b438ef2333"
+    },
+    {
+      "path": "reviews/2026-10-29/weil-9-8-admission/new-inverse-threshold-admission.md",
+      "bytes": 11349,
+      "sha256": "e60800f4b36e737d3bd13efa0bd57bcd0d799a79ac81a0e9313f20b73450af42"
+    },
+    {
+      "path": "reviews/2026-10-29/weil-9-8-admission/root-pre-sign-admission.json",
+      "bytes": 7735,
+      "sha256": "63aaf132e579b5ff291d38e1175c46b76c57f48c6bd622dda21d52b81d1038d0"
+    },
+    {
+      "path": "reviews/2026-10-29/weil-9-8-admission/scalar-gate-fresh.md",
+      "bytes": 10063,
+      "sha256": "7bad27cd861f38ae08aee2fed8f7097e72a043508d606bb07214fe93a4ecc9f9"
+    },
+    {
+      "path": "reviews/2026-10-29/weil-9-8-admission/scientific-code-and-precision-gate.md",
+      "bytes": 10273,
+      "sha256": "5c9fc9009c6300c4eb2cc45934705288cc12222d26949cd49e349f15abcf707a"
+    },
+    {
+      "path": "reviews/2026-10-29/weil-9-8-admission/source-stage-verification.json",
+      "bytes": 14179,
+      "sha256": "dbb31208d0568feac7c9adff27722d5b55d08381002d23e0a4e35f150b1472c1"
+    },
+    {
+      "path": "reviews/2026-10-29/weil-9-8-admission/source-subset-restoration.json",
+      "bytes": 9836,
+      "sha256": "17213188dcb3cc2866834baceed8242cf435a27c1ef92fd1567f74b6481a2d05"
+    },
+    {
+      "path": "reviews/2026-10-29/weil-9-8-admission/source-worker-design.md",
+      "bytes": 6637,
+      "sha256": "f6f1b62f2e5b42598bf467b4e45a68eb499a72254775a96aa90d8049082ecb56"
+    },
+    {
+      "path": "reviews/2026-10-29/weil-9-8-admission/source-worker-fresh.md",
+      "bytes": 10471,
+      "sha256": "4be28800defc6e64ff9362dd95e66d619c9355a6abe0719c61ad861bc6dcbd75"
+    },
+    {
+      "path": "reviews/2026-10-29/weil-9-8-admission/strongest-old-and-full-window-scope.md",
+      "bytes": 8562,
+      "sha256": "698871aee304448d99d2eecf0702f7a8749c9d3a63458f694ac085f25199ad9f"
+    },
+    {
+      "path": "notes/595-full-weil-9-8-fixed-comparison-negative-certificate.md",
+      "bytes": 6376,
+      "sha256": "58ed6abd08bc410b5d3ddbad90248cf29bc4bda34a507c6d179853fc0af1edc0"
+    },
+    {
+      "path": "goals/GOAL.20261027.md",
+      "bytes": 9679,
+      "sha256": "b3d2acb1f962d793f45d79b6a4e67fb87dd072cd4752108a9298204b4cefa1de"
+    },
+    {
+      "path": "goals/contracts/C058-full-weil-9-8-single-certificate.md",
+      "bytes": 4561,
+      "sha256": "b84156bf926c3506d39cdfe7f7e0409276803bc0657bd8f611923105f95fcf72"
+    },
+    {
+      "path": "scripts/weil_9_8_cosh_row_gate.py",
+      "bytes": 6715,
+      "sha256": "d1250bc3e5f2eeebed2b94dbe58110fb06f76fb9bb6bb5f7529fd4cf36256feb"
+    },
+    {
+      "path": "scripts/weil_9_8_analytic_scalar_gate.py",
+      "bytes": 5678,
+      "sha256": "2cdb9523b99eb6a9355c18382273e6c9907747d12623c00514603b67904c754b"
+    },
+    {
+      "path": "scripts/weil_9_8_source_pilot.py",
+      "bytes": 29746,
+      "sha256": "7589b854cbcd2f1c2fcdf0ecce60b614af7e1d73992b6f64719e1624a0ad0961"
+    },
+    {
+      "path": "scripts/weil_9_8_core_pilot.py",
+      "bytes": 29732,
+      "sha256": "d9ac746c3d56199ea65385f9883390c19a64b06ba8397f52ad96201d20485961"
+    },
+    {
+      "path": "scripts/check_weil_9_8_negative_witness.py",
+      "bytes": 2499,
+      "sha256": "2c49298b178cae6d82e5d5744e8a578c0492539f0d20cc942fdb4411e9a39472"
+    }
+  ]
+}

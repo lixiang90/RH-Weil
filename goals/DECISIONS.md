@@ -2129,3 +2129,11 @@ Domain8158/strongold7948/currentdifferentfresh7294 PASS均terminal/root全文核
 Domain§5 C2句仅中心化scalarF链式法则，rawGram任意nonholomorphic同tangent仍可加2Re(a)ell(h)项；只消费自然holomorphic Gram分支，任何更宽C2不变读法不消费。共同op零自由ball不付cofinalS1/高阶费用，pointwise nonlinear极限不交换Levi。406 principal/Green正则单位可非零arch分量；不以裸metric失配排所有算术线。Signedrelative/virtualtensor、新nonholomorphicmetric/feature、够高gain及真实principalGreen协同保留，但不据未付预算安排后继。
 
 实际关键primitive/principal/sections/mixed、dangerouscorecross/成长Xi与whole4/5负惯性UPPER未改，原Goal同1793085111active/open/noteligible。当前唯一先准确范围normalmain发布及独立source/3metadatachild actualHEAD/tree/parent/clean；匹配不重推不重计。C057仍原已完合同，不续本tau/frame/normalization/relative预算或旧source章，无继任数学/source已准。无新primary/web/query/PDF/下载/数值；具体根范围见goals/reviews/2026-10-29-sonin-gram-determinant-old-stop.md。
+
+## D20261029S — 一次固定9/8完整经典Weil证书准入
+
+依据[C058](contracts/C058-full-weil-9-8-single-certificate.md)及[新inverse原件](../reviews/2026-10-29/weil-9-8-admission/new-inverse-threshold-admission.md)。Actual完整Q的新pp9/15shifts/225pairs是可改变旧17/16覆盖的具体test，非NB短窗或Sonin Gram旧0续批。Root执行13/4失败与209/64成功、当前22 true-moment scalar/fresh，并重导mu1/8与新raw正congruence；旧mu29/32只旧模板门。一个固定L/Omega/N/mu/theta/精度的完整source→inverse→allrowsGram认证，source执行待codefresh，任一实质门NONPASS保留停止，不扫参数。源/finite sign尚未付，准入0数学，原cadence0/history58/latest594/formal19保持；固定窗成功也不消primitive/mixed/corecross/Xi关键门，Goal同实例active/open。当前由STATE唯一指定stage/action，不以旧C057停止句代当前。
+
+## D20261029T — 595结算：actual固定P0严格失败，停止同目标Gram投入
+
+依据[595](../notes/595-full-weil-9-8-fixed-comparison-negative-certificate.md)、[根消费](../reviews/2026-10-29/weil-9-8-admission/root-consumption-scope.json)与[本轮结算](reviews/2026-10-29-weil-9-8-fixed-comparison-settlement.md)。新source/全解析/新mu/inverse与两completecompilers已付，独立整数负方向证明actualKcert/P0非PSD，只否定这个充分目标；Q与其它trial/完整方法类未排。一个完整失败研究按workflow一次0→1/history59/latest595，formal19保持；源/代码/fresh/push不另计。C058耗尽不续odd/factor/precision/window/degree/weight/mu/theta，长期primitive/mixed/corecross/Xi及whole4/5UPPER不变，Goal同实例active/open。当前保存看板/库/STATE/checkpoint并授权正常main发布核actualHEAD，继任须不同actual输入或可改策test，不从已停预算恢复。

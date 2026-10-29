@@ -1,0 +1,319 @@
+{
+  "schema": "weil-9-8-source-stage-verification-v1",
+  "observed_at": "2026-10-29T01:54:16.780159+00:00",
+  "scope": "All three actual fresh source-only stages root inspected; independent oracle, controls, hashes and no audit violations. No finite sign or full Q certification.",
+  "stages": [
+    {
+      "stage": "moments",
+      "receipt": {
+        "analyticErrorFeesPaid": false,
+        "checkedMoments": 1024,
+        "completeIndependentContainment": true,
+        "configurationSHA256": "8e4e59c11469cf35e5ad2e85a433660e6720ebd322d7ffd5c87d805cf2c0d364",
+        "coreStageAdmitted": false,
+        "elapsedSeconds": 114.04327769996598,
+        "finishedAt": "2026-10-29T01:48:15.644114+00:00",
+        "fullQCertified": false,
+        "historicalNumericalInputsRead": false,
+        "inputSHA256": {
+          "D:\\codex-build\\RH-Weil\\literature\\local\\2026-10-29-weil-9-8\\pilot\\source-manifest.json": "15ae30f087481a40d9c9d6bf3ff517ea1e50aba04b3899fcdd049c55364511e4",
+          "D:\\codex-build\\RH-Weil\\scripts\\weil_9_8_source_pilot.py": "7589b854cbcd2f1c2fcdf0ecce60b614af7e1d73992b6f64719e1624a0ad0961"
+        },
+        "mutationControls": [
+          {
+            "name": "missing_last_row",
+            "reason": "exactly 1024 rows required",
+            "status": "REJECTED"
+          },
+          {
+            "name": "changed_last_q_to_1024",
+            "reason": "row q is not exact canonical order",
+            "status": "REJECTED"
+          },
+          {
+            "name": "row0_real_interval_1024_1025",
+            "reason": "row outside source consistency guard",
+            "status": "REJECTED"
+          },
+          {
+            "name": "row0_shift_2_pow_224_output_units",
+            "reason": "reported row does not contain complete independent interval",
+            "status": "REJECTED"
+          }
+        ],
+        "networkUsed": false,
+        "outputSHA256": "2d166f7ae457fd61826329d31365564e25f1cfc6bc19d09aef22d2ec89c6bbd9",
+        "parameters": {
+          "L": "9/8",
+          "beta": "7/2",
+          "binetTerms": 256,
+          "checkerBits": 6400,
+          "omega": 256,
+          "outputBits": 1152,
+          "producerBits": 6144,
+          "qMax": 1023,
+          "qMin": 0,
+          "radiusBits": 1098,
+          "shift": 256
+        },
+        "schema": "RH_WEIL_9_8_SOURCE_PILOT_V1",
+        "sourceCodeSHA256": {
+          "01-check.py": "8d2e73a49846272f7fadeb037e1efa44daeb84318354f5c53c502c44d28bb288",
+          "02-produce.py": "792ee1c93291459ca903b6f4f5e3c4f051f2463a1a020eac756b13fa6b913337",
+          "07-check.py": "85fcaaefd2d752a8401b9f7686c1c8779282c2cc21504129aabda7d1e37a83de",
+          "08-produce.py": "ae0f487544c203905faecbb78b30f94fb16fe4f2f63c6b9846ca13ea673ba2b7",
+          "11-checker_quotient.py": "ea6f8ed0e2780aa2835bb75f1a7e08fd807220ac4eb1b14f8c6aa0834e331af3",
+          "12-raw_column_producer.py": "a8a67b4e08d540f51e152fe05bd19d77ae69fc618e4d6c08cb24c730b3afbb9c"
+        },
+        "sourceManifestSHA256": "15ae30f087481a40d9c9d6bf3ff517ea1e50aba04b3899fcdd049c55364511e4",
+        "stage": "moments",
+        "startedAt": "2026-10-29T01:46:21.603136+00:00",
+        "status": "SOURCE_ONLY_NOT_FULL_Q",
+        "workerSHA256": "7589b854cbcd2f1c2fcdf0ecce60b614af7e1d73992b6f64719e1624a0ad0961"
+      },
+      "receipt_sha256": "2a602f637455b95c256be2579f280af09bd26d069de58d48d5979f4e1eb3460b",
+      "packet_path": "literature/local/2026-10-29-weil-9-8/pilot/run-01/certificates/moments.json",
+      "packet_bytes": 734638,
+      "access_receipt_sha256": "03577319c88e1bcdb6fbc436c558b47828a4a0a0be2dbdf775669d812f473a9b",
+      "audit_violation_count": 0
+    },
+    {
+      "stage": "matrices",
+      "receipt": {
+        "analyticErrorFeesPaid": false,
+        "completeIndependentContainment": true,
+        "configurationSHA256": "8e4e59c11469cf35e5ad2e85a433660e6720ebd322d7ffd5c87d805cf2c0d364",
+        "coreStageAdmitted": false,
+        "elapsedSeconds": 115.47423609998077,
+        "finishedAt": "2026-10-29T01:50:48.147690+00:00",
+        "fullQCertified": false,
+        "historicalNumericalInputsRead": false,
+        "inputSHA256": {
+          "D:\\codex-build\\RH-Weil\\literature\\local\\2026-10-29-weil-9-8\\pilot\\run-01\\certificates\\moments.json": "2d166f7ae457fd61826329d31365564e25f1cfc6bc19d09aef22d2ec89c6bbd9",
+          "D:\\codex-build\\RH-Weil\\literature\\local\\2026-10-29-weil-9-8\\pilot\\run-01\\receipts\\moments.json": "2a602f637455b95c256be2579f280af09bd26d069de58d48d5979f4e1eb3460b",
+          "D:\\codex-build\\RH-Weil\\literature\\local\\2026-10-29-weil-9-8\\pilot\\source-manifest.json": "15ae30f087481a40d9c9d6bf3ff517ea1e50aba04b3899fcdd049c55364511e4",
+          "D:\\codex-build\\RH-Weil\\scripts\\weil_9_8_source_pilot.py": "7589b854cbcd2f1c2fcdf0ecce60b614af7e1d73992b6f64719e1624a0ad0961"
+        },
+        "matrixChecks": {
+          "A": {
+            "bound": "2^-220",
+            "checkedRows": 448,
+            "denominator": "2084257606271691517624277730156382341358859723981530152710236512142436333518848",
+            "maxWeightedWidthNumerator": "2405760",
+            "status": "PASS"
+          },
+          "B": {
+            "bound": "2^-220",
+            "checkedRows": 448,
+            "denominator": "2084257606271691517624277730156382341358859723981530152710236512142436333518848",
+            "maxWeightedWidthNumerator": "2405760",
+            "status": "PASS"
+          },
+          "J0": {
+            "bound": "2^-220",
+            "checkedRows": 448,
+            "denominator": "2084257606271691517624277730156382341358859723981530152710236512142436333518848",
+            "maxWeightedWidthNumerator": "2405760",
+            "status": "PASS"
+          }
+        },
+        "matrixIntervals": 151200,
+        "momentSHA256": "2d166f7ae457fd61826329d31365564e25f1cfc6bc19d09aef22d2ec89c6bbd9",
+        "mutationControls": [
+          {
+            "name": "missing_matrix_row",
+            "reason": "matrix must contain 50400 entries",
+            "status": "REJECTED"
+          },
+          {
+            "name": "wrong_index_or_parity",
+            "reason": "matrix index/order/parity mismatch",
+            "status": "REJECTED"
+          },
+          {
+            "name": "missing_prime_center",
+            "reason": "all 15 prime centers required",
+            "status": "REJECTED"
+          },
+          {
+            "name": "missing_ordered_prime_pair",
+            "reason": "source convention or ordered-pair count mismatch",
+            "status": "REJECTED"
+          },
+          {
+            "name": "zero_nonzero_prime_weight",
+            "reason": "prime center domain/weight",
+            "status": "REJECTED"
+          },
+          {
+            "name": "wrong_overlap_convention",
+            "reason": "source convention or ordered-pair count mismatch",
+            "status": "REJECTED"
+          },
+          {
+            "name": "omitted_error_budget",
+            "reason": "error allowance omitted or mis-scaled",
+            "status": "REJECTED"
+          },
+          {
+            "name": "mis_scaled_error_budget",
+            "reason": "error allowance omitted or mis-scaled",
+            "status": "REJECTED"
+          },
+          {
+            "name": "same_width_shift_2_pow_minus_200",
+            "reason": "matrix interval fails complete independent containment",
+            "status": "REJECTED"
+          }
+        ],
+        "networkUsed": false,
+        "orderedPairCensus": {
+          "A_shifts": 15,
+          "emptyPairs": 86,
+          "nonemptyPairs": 139,
+          "orderedPairs": 225
+        },
+        "outputSHA256": "a5486fea38c3c8f91dcf4bb77c7677e734efe2ac9cbf59ddabc4674739fdb2f2",
+        "overlapFixture": {
+          "exactO00": "5/4",
+          "mutationStatus": "REJECTED",
+          "reason": "overlap fixture rejects 7/4",
+          "status": "PASS",
+          "wrongO00": "7/4"
+        },
+        "parameters": {
+          "L": "9/8",
+          "N": 448,
+          "beta": "7/2",
+          "centerBits": 2048,
+          "checkerBits": 3328,
+          "epsilonBits": 220,
+          "kernelSourceBits": 204,
+          "omega": 256,
+          "outputBits": 256,
+          "producerBits": 3072,
+          "qMax": 1023,
+          "sourceEntryPower": -2021
+        },
+        "primeCenters": 15,
+        "schema": "RH_WEIL_9_8_SOURCE_PILOT_V1",
+        "sourceCodeSHA256": {
+          "01-check.py": "8d2e73a49846272f7fadeb037e1efa44daeb84318354f5c53c502c44d28bb288",
+          "02-produce.py": "792ee1c93291459ca903b6f4f5e3c4f051f2463a1a020eac756b13fa6b913337",
+          "07-check.py": "85fcaaefd2d752a8401b9f7686c1c8779282c2cc21504129aabda7d1e37a83de",
+          "08-produce.py": "ae0f487544c203905faecbb78b30f94fb16fe4f2f63c6b9846ca13ea673ba2b7",
+          "11-checker_quotient.py": "ea6f8ed0e2780aa2835bb75f1a7e08fd807220ac4eb1b14f8c6aa0834e331af3",
+          "12-raw_column_producer.py": "a8a67b4e08d540f51e152fe05bd19d77ae69fc618e4d6c08cb24c730b3afbb9c"
+        },
+        "sourceManifestSHA256": "15ae30f087481a40d9c9d6bf3ff517ea1e50aba04b3899fcdd049c55364511e4",
+        "stage": "matrices",
+        "startedAt": "2026-10-29T01:48:52.675789+00:00",
+        "status": "SOURCE_ONLY_NOT_FULL_Q",
+        "workerSHA256": "7589b854cbcd2f1c2fcdf0ecce60b614af7e1d73992b6f64719e1624a0ad0961"
+      },
+      "receipt_sha256": "5d3542181b4f8ddc386a4d86290a574221b751a8857994d0d8e742c164e68984",
+      "packet_path": "literature/local/2026-10-29-weil-9-8/pilot/run-01/certificates/source-matrices.json",
+      "packet_bytes": 23377672,
+      "access_receipt_sha256": "8ae29f43dcff201f87c0ca2df7eed44d7a9ffdfc2fe0283164b99dca6bdc7ed2",
+      "audit_violation_count": 0
+    },
+    {
+      "stage": "tails",
+      "receipt": {
+        "analyticErrorFeesPaid": false,
+        "configurationSHA256": "8e4e59c11469cf35e5ad2e85a433660e6720ebd322d7ffd5c87d805cf2c0d364",
+        "coordinateReplay": {
+          "RH_certified": false,
+          "checkedCoordinates": 896,
+          "checkedParityZeros": 448,
+          "fullQTransfer": "NOT_ESTABLISHED",
+          "normalizedColumnErrorPower": null,
+          "parameters": {
+            "LDenominator": 8,
+            "LNumerator": 9,
+            "deltaPower": 49158,
+            "dimension": 448,
+            "machinTerms": 160,
+            "omega": 256,
+            "outputBits": 640,
+            "terms": 1024,
+            "workingBits": 2048
+          },
+          "rankTwoErrorPower": null,
+          "rawCoordinateErrorPower": -524,
+          "schema": "RH_WEIL_9_8_RAW_TAIL_COLUMN_REPLAY_V1",
+          "status": "TAIL_COLUMNS_REPLAY_PASS_NOT_FULL_Q",
+          "synthetic": false
+        },
+        "coreStageAdmitted": false,
+        "elapsedSeconds": 173.0901714998763,
+        "finishedAt": "2026-10-29T01:49:14.690081+00:00",
+        "fullQCertified": false,
+        "historicalNumericalInputsRead": false,
+        "inputSHA256": {
+          "D:\\codex-build\\RH-Weil\\literature\\local\\2026-10-29-weil-9-8\\pilot\\source-manifest.json": "15ae30f087481a40d9c9d6bf3ff517ea1e50aba04b3899fcdd049c55364511e4",
+          "D:\\codex-build\\RH-Weil\\scripts\\weil_9_8_source_pilot.py": "7589b854cbcd2f1c2fcdf0ecce60b614af7e1d73992b6f64719e1624a0ad0961"
+        },
+        "mutationControls": [
+          {
+            "name": "missing-coordinate",
+            "reason": "COMPLETE_SHAPE",
+            "rejected": true
+          },
+          {
+            "name": "changed-midpoint",
+            "reason": "DECLARED_INTERVAL",
+            "rejected": true
+          },
+          {
+            "name": "nonzero-parity-coordinate",
+            "reason": "EXACT_PARITY_ZERO",
+            "rejected": true
+          },
+          {
+            "name": "same-width-shift",
+            "reason": "INDEPENDENT_ENCLOSURE_NOT_CONTAINED",
+            "rejected": true
+          }
+        ],
+        "networkUsed": false,
+        "normalizedColumnErrorClaimed": false,
+        "outputSHA256": "d714fa8d717a8f39d8b3b57cc6292e3f14844041b83802cf57ee47aa03c65a0e",
+        "parameters": {
+          "LDenominator": 8,
+          "LNumerator": 9,
+          "deltaPower": 49158,
+          "dimension": 448,
+          "machinTerms": 160,
+          "omega": 256,
+          "outputBits": 640,
+          "terms": 1024,
+          "workingBits": 2048
+        },
+        "rankTwoErrorClaimed": false,
+        "schema": "RH_WEIL_9_8_SOURCE_PILOT_V1",
+        "sourceCodeSHA256": {
+          "01-check.py": "8d2e73a49846272f7fadeb037e1efa44daeb84318354f5c53c502c44d28bb288",
+          "02-produce.py": "792ee1c93291459ca903b6f4f5e3c4f051f2463a1a020eac756b13fa6b913337",
+          "07-check.py": "85fcaaefd2d752a8401b9f7686c1c8779282c2cc21504129aabda7d1e37a83de",
+          "08-produce.py": "ae0f487544c203905faecbb78b30f94fb16fe4f2f63c6b9846ca13ea673ba2b7",
+          "11-checker_quotient.py": "ea6f8ed0e2780aa2835bb75f1a7e08fd807220ac4eb1b14f8c6aa0834e331af3",
+          "12-raw_column_producer.py": "a8a67b4e08d540f51e152fe05bd19d77ae69fc618e4d6c08cb24c730b3afbb9c"
+        },
+        "sourceManifestSHA256": "15ae30f087481a40d9c9d6bf3ff517ea1e50aba04b3899fcdd049c55364511e4",
+        "stage": "tails",
+        "startedAt": "2026-10-29T01:46:21.603421+00:00",
+        "status": "SOURCE_ONLY_NOT_FULL_Q",
+        "tailCoordinates": 896,
+        "workerSHA256": "7589b854cbcd2f1c2fcdf0ecce60b614af7e1d73992b6f64719e1624a0ad0961"
+      },
+      "receipt_sha256": "d3a30a58eea7beb08371a3ebe97b684957ef95ca6a164a3283ee6c3118ebf953",
+      "packet_path": "literature/local/2026-10-29-weil-9-8/pilot/run-01/certificates/tail-columns.json",
+      "packet_bytes": 296046,
+      "access_receipt_sha256": "ff0489bab4c5a6cf60ba1565a129687eb0673b7e1e2be7492aadbb0baeb21836",
+      "audit_violation_count": 0
+    }
+  ],
+  "full_weil_positivity": "NOT_ESTABLISHED",
+  "numerical_packets_git_included": false
+}

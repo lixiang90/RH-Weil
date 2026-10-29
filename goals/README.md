@@ -1,5 +1,7 @@
 # 长期研究恢复入口
 
+2026-10-29，[595/C058固定完整窗比较已结算](reviews/2026-10-29-weil-9-8-fixed-comparison-settlement.md)：新9/8全source/解析/inverse/两完整compiler均付，但actual even Kcert有独立整数负证书，仅本实际P0非PSD，不判Q负或9/8不可正；odd Gram未执行。自足105-entry witness/root/fresh闭，C058耗尽不续参数。唯一cadence一次0→1/history59/latest595/formal19保持，文献133/原全文本地，关键瓶颈及whole4/5负惯性UPPER未改，Goal同实例active/open。当前先本轮授权发布核actualHEAD；无继任已准，不能恢复C058停止预算。
+
 2026-10-29，[Sonin Gram行列式old0止](reviews/2026-10-29-sonin-gram-determinant-old-stop.md)：ordinary夹源S₁强域和真实Gram metric已两原稿/不同限定fresh/root核，mixed Levi逐层恰591的V_R，三fixed-test及positiveweight必要费直接旧消费。Scalar全纯τ局部曲率0与Gram/dual号分开；非全纯C²重参数、pointwise极限不换Levi、principal非零Green等范围均保。无新算术mixed输入，不建C058/595；关键瓶颈及whole4/5负惯性UPPER未改，cadence0/history58/latest594/formal19、manifest132不动，Goalactive。当前准确范围发布核actualHEAD，不续τ/frame/relative预算/旧章，无已准继任。
 
 2026-10-29，[594＋formal19已结算](reviews/2026-10-29-general-rh-macro-review-cycle-19.md)：自伴ordinaryS₁ prime-linear共同源在fullfixedcomplex匹配下，无pureexact/无uniformrankdimnorm仍迫rank1HS舍入/fixedpairHS退耦；≤28fixed源误差δ给O_pq(δ^1/4)。两原稿/不同数学fresh/root及两宏观支持/不同macrofresh/root均闭。NativeH_j范数与du分开，normalclock/fullgrowing集体混合逃逸保留。591–594四轮及时复盘，同counter先数学3→4/history58/latest594，再formal19零数学4→0一次；manifest132不动。局部选择改变，关键primitive/principal/mixed/corecross/Ξ与whole4/5负惯性UPPER未改，Goal同实例active/open。C057耗尽，不续矩/metric/gain/source；当前先本轮准确范围授权发布核actualHEAD，无已准继任。
