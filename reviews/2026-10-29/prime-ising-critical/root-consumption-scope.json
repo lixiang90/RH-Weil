@@ -1,0 +1,171 @@
+{
+  "schema": "rh-weil-root-premise-closure-v1",
+  "date": "2026-10-29",
+  "observed_at_utc": "2026-10-29T10:05:49.609209+00:00",
+  "runtime_goal_created_at": 1793085111,
+  "baseline": "0c4f3a3eb609bb1d9564138fa4a35701f05605f2",
+  "status": "root-consumed-limited-PASS",
+  "note": "notes/599-prime-weighted-critical-ising-positive-spectrum-and-weil-gap.md",
+  "contract": "goals/contracts/C062-prime-ising-critical-positive-distribution.md",
+  "bindings": [
+    {
+      "path": "reviews/2026-10-29/prime-ising-critical/admission.md",
+      "bytes": 3362,
+      "sha256": "cd09b0678e05b89ee728b372a7572697359b4bddcb351fa69c9f400ad8c0f997",
+      "consumption": "root fullread, reconstructed and reconciled"
+    },
+    {
+      "path": "reviews/2026-10-29/prime-ising-critical/finite-positive-zero-source.md",
+      "bytes": 3741,
+      "sha256": "3bf8fb0d1234a635bfc98fa733a90993c630adf1d568cf28eee94bd5ad2e24bb",
+      "consumption": "root fullread, reconstructed and reconciled"
+    },
+    {
+      "path": "reviews/2026-10-29/prime-ising-critical/hubbard-stratonovich-and-uniform-limit.md",
+      "bytes": 12586,
+      "sha256": "743b5c011bb4c3a65be115e175bb7d06a4b82ea4b4040f5aed498bb9dbe9825f",
+      "consumption": "root fullread, reconstructed and reconciled"
+    },
+    {
+      "path": "reviews/2026-10-29/prime-ising-critical/positive-zero-distribution-and-weil-target.md",
+      "bytes": 15907,
+      "sha256": "a81dda0f1f5ab745a689db39ae0c303a6b15efdf037a2e8d7f4bf4c95c8260b7",
+      "consumption": "root fullread, reconstructed and reconciled"
+    },
+    {
+      "path": "reviews/2026-10-29/prime-ising-critical/strongest-old-and-core-admission.md",
+      "bytes": 15208,
+      "sha256": "386d1a2b388e634f184e5d5cf168fd335fb6bf4329fab4f59af7fc3b8acd1d45",
+      "consumption": "root fullread, reconstructed and reconciled"
+    },
+    {
+      "path": "reviews/2026-10-29/prime-ising-critical/fresh-full-source-and-target-audit.md",
+      "bytes": 19749,
+      "sha256": "844f2472f29a9d5172988f93e0cfa929bba1763c5b70307f2bbece118ea71bd4",
+      "consumption": "root fullread, reconstructed and reconciled"
+    },
+    {
+      "path": "reviews/2026-10-29/prime-ising-critical/execution-start.json",
+      "bytes": 1812,
+      "sha256": "3207e77db56f74a23b9b1fac9478bc7b9be5ba7fd68cb5b809d6dd272d3f3c8f",
+      "consumption": "historical actual execution/access; pending labels superseded only by this root consumption"
+    },
+    {
+      "path": "reviews/2026-10-29/prime-ising-critical/source-access-and-positive-reclosure.json",
+      "bytes": 1398,
+      "sha256": "a7de8af0c964208e26466babb950f78ff3c70f2b5e760d8fff97b5aa23a01974",
+      "consumption": "historical actual execution/access; pending labels superseded only by this root consumption"
+    },
+    {
+      "path": "goals/GOAL.20261027.md",
+      "bytes": 9679,
+      "sha256": "b3d2acb1f962d793f45d79b6a4e67fb87dd072cd4752108a9298204b4cefa1de",
+      "consumption": "scope-limited paid dependency/strongest-old comparison as detailed in original scope and full fresh; not new author-PDF audit"
+    },
+    {
+      "path": "notes/405-f1-adelic-restriction-moments-and-radical.md",
+      "bytes": 14633,
+      "sha256": "fe5ee4b574954e51a69c6bbbaa772bb75a1a510c91c837ba02eed8ac406cbb7d",
+      "consumption": "scope-limited paid dependency/strongest-old comparison as detailed in original scope and full fresh; not new author-PDF audit"
+    },
+    {
+      "path": "notes/553-principal-cyclic-closure-and-cofinal-readout-fees.md",
+      "bytes": 6613,
+      "sha256": "35a40c35d1eaa7fafb462361ddef1bfb9643402b5670f832b9142aeb4b74abce",
+      "consumption": "scope-limited paid dependency/strongest-old comparison as detailed in original scope and full fresh; not new author-PDF audit"
+    },
+    {
+      "path": "notes/563-distribution-side-weil-certificates-and-heat-complete-monotonicity.md",
+      "bytes": 11777,
+      "sha256": "094c11cb5909eecc7f4e17468f00b43281b9fc6299042565aa792046807a5f4c",
+      "consumption": "scope-limited paid dependency/strongest-old comparison as detailed in original scope and full fresh; not new author-PDF audit"
+    },
+    {
+      "path": "notes/565-canonical-completion-graded-identifiability-and-independent-energy.md",
+      "bytes": 12584,
+      "sha256": "3ac5d8f6dbbd3dcfda10e74cd911c803bacfbfa8ac6aaa535b3559e7c374ea89",
+      "consumption": "scope-limited paid dependency/strongest-old comparison as detailed in original scope and full fresh; not new author-PDF audit"
+    },
+    {
+      "path": "notes/566-source-closed-forms-and-full-weil-heat-trace-tests.md",
+      "bytes": 10582,
+      "sha256": "004f5438c918373e0ead73c0011ffb3883ef872c4977e356911dd910da177053",
+      "consumption": "scope-limited paid dependency/strongest-old comparison as detailed in original scope and full fresh; not new author-PDF audit"
+    },
+    {
+      "path": "notes/576-fixed-elliptic-positive-cone-and-original-alias-cost.md",
+      "bytes": 15924,
+      "sha256": "cbf32034c1e63518ef124ba89e1a46093b55da1086868532d8e5a1e0576595bd",
+      "consumption": "scope-limited paid dependency/strongest-old comparison as detailed in original scope and full fresh; not new author-PDF audit"
+    },
+    {
+      "path": "notes/577-full-gamma-positive-repairs-and-independent-budget-gap.md",
+      "bytes": 13925,
+      "sha256": "cf80354ab3bb3c7ca2a2bae7e2aa4083adc47d01da5c984146fb285d7551f55f",
+      "consumption": "scope-limited paid dependency/strongest-old comparison as detailed in original scope and full fresh; not new author-PDF audit"
+    },
+    {
+      "path": "notes/586-theta-ground-state-spectrum-and-full-gamma-heat-defect.md",
+      "bytes": 6554,
+      "sha256": "eb0334c5658d0e9950ca156542781fed2084d8ba1a941501e964779390cba3e2",
+      "consumption": "scope-limited paid dependency/strongest-old comparison as detailed in original scope and full fresh; not new author-PDF audit"
+    },
+    {
+      "path": "notes/592-positive-graph-prime-period-separation-and-communication-cost.md",
+      "bytes": 6273,
+      "sha256": "a9e612c6d47d7a2cfd116d59a9c1045019f91908b3edbc049c9b5aef849ef7e9",
+      "consumption": "scope-limited paid dependency/strongest-old comparison as detailed in original scope and full fresh; not new author-PDF audit"
+    },
+    {
+      "path": "notes/594-selfadjoint-signed-euler-source-hilbert-decoupling.md",
+      "bytes": 7731,
+      "sha256": "1f3dde7dfca350b062dbbe3763cd55e9322a694e5438ad6aae9f75f848121f9b",
+      "consumption": "scope-limited paid dependency/strongest-old comparison as detailed in original scope and full fresh; not new author-PDF audit"
+    },
+    {
+      "path": "reviews/2026-10-29/post-increment-core-choice/positive-and-signed-candidate.md",
+      "bytes": 13312,
+      "sha256": "32e26680d5810174deec0f45d6583722164aa7a4a70574d73e549bd24404d2c2",
+      "consumption": "scope-limited paid dependency/strongest-old comparison as detailed in original scope and full fresh; not new author-PDF audit"
+    }
+  ],
+  "original_fullread": [
+    "finite3741",
+    "HS12586",
+    "zero15907",
+    "old15208",
+    "differentfresh19749"
+  ],
+  "closure": {
+    "object_domain_range": "Actual positive log-prime weighted finite rankone Ising partition functions Z, realcompact lambda/positive compact frequency scale b -> ALL imaginary zeros with full multiplicity -> positive W_X on Schwartz/physical Cc infinity, Fourier hat(phi)=integral phi exp(-itv). Internal HS coordinate is not du norm transport.",
+    "roles": "Model positive carrier is not classical Euler trace/principal map/quotient. Old actual physical P is a true noncompact Pan relation; cutoff/exactdegree corrected r is compact and generally NOT Pan.",
+    "quantifiers": "Every nonempty fixed compact K in R x positive scales and m0>0, THEN one r=r(K,m0), qK>0, X0. All theta inK and cutoff>=X0 have Q>qK/2. Source-adaptive mixtures covered only when on THIS r eventually mass>=m0 actually lies in (K,cutoff>=X0); per-label cofinal alone not enough.",
+    "paid_dependencies": "Finite unequal-field positive-zero lemma selfcontained3741 via bidisk contraction; HS exact negativeGaussian, delta->0 byBertrand and allaxis majorant; Hadamard/Rouche/inverse² fulltail; quartic realgrowth/order4/3; ODE gives multiplicity<=2; old405/553 actualPan plus unconditionalRvM; separate S_exp Qzeta and uniformSchwartz model continuity. No RH assumption.",
+    "errors": "Complexcompact fixed z/lambda derivative errors O(delta²), delta⁴=O(1/logX); finite variance includes -epsilon. Uniform spectral tail CK sup_|t|>R t²|hatphi(t)|. No effective qK/probe/X0 or zero-convergence rate claimed.",
+    "sign_coefficient": "Qmodel=sum_ALLgamma |hat r(gamma)|²>=0; W=F^-1(2pi mu). qK=minQtheta(P)>0; exact doubledegree r gives |Qzeta(r)|<m0qK/8 and base>=m0qK/2; positive total-target gap>3m0qK/8. Full Gamma/contact/primepowers/dualpole kept; pole vanishes only on this exactmoment source.",
+    "norm": "Schwartz seminorm estimates and fixedphysical source only. Signed repair necessary A(r)<-m0qK/4 eventually; originaldu operatornorm>m0qK/(4||r||du²) ONLY if actual boundedHermitian realization A=<r,Tr> separately holds. No native/internal norm swap.",
+    "repair_coverage": "Arbitrary positive mixtures, continuous/many components/no rank or massupper or fee restrictions and arbitrary nonnegative per-source additions; commonlinear case excludesDprime, sourceadaptive nonlinear case only allfixedenergy matching. Fullcomplex/mixed includes diagonal. Any stagewise zero-free factor leaves zeros, not changed Zsecondderivative identity.",
+    "remaining": "Massvanishing/no compact retained mass, escaping lambda/b including b0/infty, nonLindeberg/noncritical/nonrankone, actual negative signed/coherentcross, different actual domains/targets/data preserved. No automatic successor. No growingwindow/whole sign/corecoupling fee.",
+    "strongest_old_net": "565/566 positiveidentity,576 cone,577 windows,586 thetaoperator,592 orbit-time graph,594 ordinarytrace Eulerpencil andGORZfixeddegree are distinct actual objects; not source-isomorphic to this partitionzero divisor. New net ONE explicit actual positiveDprime construction plus fullWeil/retainedmass-positive-repair failure. Classical lemmas, Pan, ODE, RvM, mixing and audit not separate rounds.",
+    "bottleneck": "Key primitive/principal/sections/mixedRR/dangerouscorecross/growingXi unchanged; whole542+555->557 leading4/5 negative-inertiaUPPER unchanged. Limited candidatefamily doesnot pass Goal3 by name. All Goal gatesopen/sameactive."
+  },
+  "cadence_consumption": {
+    "before_bytes": 6686,
+    "before_sha256": "df084f1fd7652cefa1c1d18243416c6a5c51b6df31970ec1d8bbde3f01d4f187",
+    "one_math_iteration": true,
+    "before": "0/history62/latest598/formal20",
+    "after": "1/history63/latest599/formal20",
+    "macro_reset": false
+  },
+  "unchanged_guards": {
+    "goals/GOAL.20261027.md": "b3d2acb1f962d793f45d79b6a4e67fb87dd072cd4752108a9298204b4cefa1de",
+    "notes/595-full-weil-9-8-fixed-comparison-negative-certificate.md": "58ed6abd08bc410b5d3ddbad90248cf29bc4bda34a507c6d179853fc0af1edc0",
+    "notes/596-critical-prime-sonin-covariance-and-signed-increment.md": "b609b8e5a820ca259c1a02fce134ca5b788d4c3373b933b6e1d2c3094cc4a782",
+    "notes/597-formal-mellin-source-boundary-rank-obstruction.md": "51f2e19bb06515d248a310430f0b612ba844c4f7bf9fddf784c0d0dab6251c75",
+    "notes/598-countable-mellin-full-pan-image-and-same-data-collapse.md": "b0aff3ce513a6c95f5bc8bfc8d2c5d946025a0d0da161242b227a4851397b9f8",
+    "goals/reviews/2026-10-29-general-rh-macro-review-cycle-20.md": "45c1bedce9d8bf0cd94fd4e0d0e951ef22e22ff3b9c5822eb771513eb5767121"
+  },
+  "literature": "138entries; newLiebSokal1981 metadataonly. No authorPDF/proofpages,1162HTMLresponse localignored. Finite theorem dependency selfcontained, not sourced from unread author general theorem.",
+  "processes": "All original/fresh currenttasks terminal, rootfullyread; no source/numeric/background process",
+  "next": "Publish exactscope and independentlyverify actual finalHEAD first. C062stopped. No admittedresearch successor; genuinelydifferent input/test/net required, not lambda/scale/oldchapter/emptylocator."
+}

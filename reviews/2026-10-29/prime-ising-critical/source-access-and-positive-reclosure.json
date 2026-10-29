@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-29",
+  "paper": "Lieb-Sokal1981 CMP80,153-179, DOI10.1007/BF01213009",
+  "publisher_url": "https://link.springer.com/article/10.1007/BF01213009",
+  "public_archive_url": "https://projecteuclid.org/euclid.cmp/1103919874",
+  "read_scope": "Bibliographicmetadata/publisherabstract only; no paperpages/theorem/proof read.",
+  "access_outcomes": [
+    "Euclid returned security/service notice",
+    "Publisher issubscriptionpreview",
+    "Proxyordinarypublicdownloadendpoint HTTP200 butHTMLnotPDF; signaturecheck stopped",
+    "Knownauthorpage returned502; no furtherpaper chain"
+  ],
+  "response": {
+    "path": "literature/local/2026-10-29-prime-ising-critical/lieb-sokal-1981.response",
+    "bytes": 1162,
+    "sha256": "df550429b0e894513ee9d729d429a65dcd516efc44d78e3f4da2c5e30b42918d",
+    "is_pdf": false,
+    "is_paper_fulltext": false,
+    "git_included": false
+  },
+  "replacement_dependency": {
+    "path": "reviews/2026-10-29/prime-ising-critical/finite-positive-zero-source.md",
+    "bytes": 3741,
+    "sha256": "3bf8fb0d1234a635bfc98fa733a90993c630adf1d568cf28eee94bd5ad2e24bb",
+    "status": "root-selfcontained-specialcase-proof-awaiting-current-independent-audit",
+    "scope": "Finitepositivepair graph/positiveunequal scalarfields via elementarybidiskcontraction, no unreadauthor theoremconsumption."
+  },
+  "observed_at_utc": "2026-10-29T09:36:30.452230+00:00"
+}

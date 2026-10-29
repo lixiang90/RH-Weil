@@ -1,5 +1,7 @@
 # 研究分支看板
 
+2026-10-29，[599/C062完整结算](goals/reviews/2026-10-29-prime-ising-599-settlement.md)：599/C062已root结算：实际素数权critical rankone自旋规则的有限正零轴、HS全复统一极限及完整无限零谱S′/D′均闭；ODE重数≤2＋RvM＋405真实Pan给同一compact精确双pole反测。先给K,m0再选probe，最终≥m0质量实际落在K且大cutoff时，任意正混合/逐源非负添加仍有gap；signed成功须不消失负响应，du norm仅明确bounded Hermitian实现。四原件/不同fresh19749/root20bindings闭，一完整失败轮0→1/history63/latest599/formal20保持，不是macro21。模型选择改变，关键principal/mixed/corecross/Ξ及whole4/5负惯性UPPER未改，Goal同实例active/open。库138新增仅metadata，无作者PDF/证明页。停止本族参数/scale/纸链；先准确发布，无已准继任，须新actual input-test-net。
+
 2026-10-29，[595物理强旧恢复/重复门撤销0止](goals/reviews/2026-10-29-witness-strongest-old-recovery-stop.md)：当前2209门在新运算前发现已被physical-lower-gate完整覆盖，独立9491/root9当前bindings及9旧公开pins核闭。旧短链v→Bc→Γ^-1/2raw→全224Legendre/Dlog→Fraction重放/root，samephys Llow∈(2^-62,2^-61)、P0∈(-2^-67,-2^-68)、Q点态下界与gap/局部repair费均早付；不能只恢复弱P0≤C或再分腿。Transport容量失败无file不消费，未重算scalar/oracle/Gram/48pins。状态历史链接压短且补回强旧链，Goal/基线/语义冻结不变；cadence6686bytes保持0/history62/latest598/formal20，库137/manifest原字节不动。无新数学/core/whole4/5UPPER改善，Goalactive/open；先准确范围发布，无已准继任，不续same-v/参数或空来源队列。
 
 

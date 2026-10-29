@@ -1,5 +1,7 @@
 # RH-Weil：从 Weil 猜想类比研究黎曼猜想
 
+2026-10-29，[599/C062完整结算](goals/reviews/2026-10-29-prime-ising-599-settlement.md)：599/C062已root结算：实际素数权critical rankone自旋规则的有限正零轴、HS全复统一极限及完整无限零谱S′/D′均闭；ODE重数≤2＋RvM＋405真实Pan给同一compact精确双pole反测。先给K,m0再选probe，最终≥m0质量实际落在K且大cutoff时，任意正混合/逐源非负添加仍有gap；signed成功须不消失负响应，du norm仅明确bounded Hermitian实现。四原件/不同fresh19749/root20bindings闭，一完整失败轮0→1/history63/latest599/formal20保持，不是macro21。模型选择改变，关键principal/mixed/corecross/Ξ及whole4/5负惯性UPPER未改，Goal同实例active/open。库138新增仅metadata，无作者PDF/证明页。停止本族参数/scale/纸链；先准确发布，无已准继任，须新actual input-test-net。
+
 本项目研究：能否从素数、显式公式与数域几何自然构造一种 Weil 型结构，使黎曼 zeta 函数及相关 L 函数的零点被迫位于中心线？仓库保存结构归约、实际算术模型、机制障碍、形式化蓝图和可复现的有限检查。
 
 **完整黎曼猜想尚未证明。** 当前成果分别有明确的适用范围；抽象存在性判据、有限数值、条件推论和引用外部结果的证明均单独标记。

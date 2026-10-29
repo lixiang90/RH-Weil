@@ -1,5 +1,8 @@
 # RH-Weil 文献索引
 
+2026-10-29：素数权rank-one铁磁实际候选新增Lieb–Sokal1981书目背景，库137→138，仅publishermetadata/摘要，本地wrapper保字节/hash；未取得PDF/作者定理proof，HTTP200 response为HTML非全文。有限不等权正性由项目自含bidisk证明核，[准确范围](supplements/2026-10-29-prime-ising-positive-source-scope.md)不把元数据当数学输入；完整D′/target现经不同fresh19749/root闭合并统一结算599：本critical族有共同compact双pole-zero缺陷，正修补范围有明确保留质量条件；不增加作者阅读范围。
+
+
 2026-10-29：恢复595同向量的最强旧物理比较并撤销重复门，独立9491/root核，未新算scalar/原论文/PDF页/下载，库137与manifest原字节保持。[使用范围](supplements/2026-10-29-physical-witness-strongest-old-recovery.md)区分旧48pin重放与本轮文档hash、transport容量失败无原件；恢复不增数学轮。
 
 
