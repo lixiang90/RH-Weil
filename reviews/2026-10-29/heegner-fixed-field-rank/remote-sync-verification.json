@@ -1,0 +1,31 @@
+{
+  "schema": "rh-weil-source-publication-and-metadata-condition-v1",
+  "date": "2026-10-29",
+  "repository": "https://github.com/lixiang90/RH-Weil",
+  "branch": "main",
+  "source": {
+    "commit": "8084a236ef885cee59b40addf816794be64f1e2b",
+    "tree": "59f173988fb91973419107b714e89e53dff0583d",
+    "parent": "0f5eb977da532fdcd755d02ae9fe3d84ca6556de",
+    "changed_paths": 16,
+    "independently_verified_by": "Connected GitHub ref/gitcommit/tree, local clean main/soleparent all exact."
+  },
+  "source_read_urls": [
+    "https://api.github.com/repos/lixiang90/RH-Weil/git/ref/heads/main",
+    "https://api.github.com/repos/lixiang90/RH-Weil/git/commits/8084a236ef885cee59b40addf816794be64f1e2b",
+    "https://api.github.com/repos/lixiang90/RH-Weil/git/trees/59f173988fb91973419107b714e89e53dff0583d"
+  ],
+  "source_scope": "ActualDelta1 Qfield andstandarddirectold commonfiniteheightGram comparison0; mixed-only scope, diagonal/growingfamily/Green escapes, two originals/differentfresh/root andunexecutednonformalcore-input review. Library134, PDF/images/text ignored.",
+  "metadata_child_completion_condition": {
+    "parent_must_equal": "8084a236ef885cee59b40addf816794be64f1e2b",
+    "changed_paths_exactly": [
+      "goals/STATE.json",
+      "goals/checkpoints/2026-10-29-heegner-fixed-field-sync.json",
+      "reviews/2026-10-29/heegner-fixed-field-rank/remote-sync-verification.json"
+    ],
+    "required": "Normalmain metadatachild push, independently read actualref/commit/tree matching localHEAD/tree/soleparentsource, exact3paths, clean worktree andfreshcheckpoint. No receipt-ownSHA recursion. Next matching recovery do not repush.",
+    "next_action_when_matched": "Only execute next-core-input-portfolio-review.md, nonformal core-input opportunity review unexecuted; no fixedfield/class/Gram/parameter ornewmath/source budget."
+  },
+  "cadence_unchanged": "1/history59/latest595/formal19; LF SHA256 73ef5152185e3213a7b076a76a656c0a5a0acf9ace994c612def2de270584f4b",
+  "goal": "Same runtime1793085111 active; keybottleneck/whole4/5UPPER unchanged, mathematical completionopen/noteligible."
+}
