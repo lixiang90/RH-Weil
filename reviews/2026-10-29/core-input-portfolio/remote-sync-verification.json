@@ -1,0 +1,31 @@
+{
+  "schema": "rh-weil-source-publication-and-metadata-condition-v1",
+  "date": "2026-10-29",
+  "repository": "https://github.com/lixiang90/RH-Weil",
+  "branch": "main",
+  "source": {
+    "commit": "60655044e64e95de59e89163a38850aba7f0b5b9",
+    "tree": "f5d72c729d2db1cf9ecfdf51117a75c79d3caed8",
+    "parent": "6899954fac0df43f1ca5de8d44752774287bea1c",
+    "changed_paths": 17,
+    "independently_verified_by": "ConnectedGitHub ref/gitcommit/tree exact withlocalcleanmain/soleparent."
+  },
+  "source_read_urls": [
+    "https://api.github.com/repos/lixiang90/RH-Weil/git/ref/heads/main",
+    "https://api.github.com/repos/lixiang90/RH-Weil/git/commits/60655044e64e95de59e89163a38850aba7f0b5b9",
+    "https://api.github.com/repos/lixiang90/RH-Weil/git/trees/f5d72c729d2db1cf9ecfdf51117a75c79d3caed8"
+  ],
+  "source_scope": "Nonformalportfolio0math/notformal20, threeoriginals/root/4739byte uniqueTh6.5proofgate, statementread/proofunexecuted; source135 Louboutinlocator archivedandrejectedprincipalold0; books/STATE/librarymetadata only, fulltexts/images ignored.",
+  "metadata_child_completion_condition": {
+    "parent_must_equal": "60655044e64e95de59e89163a38850aba7f0b5b9",
+    "changed_paths_exactly": [
+      "goals/STATE.json",
+      "goals/checkpoints/2026-10-29-core-input-portfolio-sync.json",
+      "reviews/2026-10-29/core-input-portfolio/remote-sync-verification.json"
+    ],
+    "required": "Normalmain metadatachildpush thenindependentactualref/commit/tree=localHEAD/tree/soleparentsource, exact3paths/clean/freshcheckpoint. No receipt-ownSHArecursion; next matchingrecovery do notrepush.",
+    "next_action_when_matched": "Execute only next-critical-prime-covariance-proof-gate.md. Proofunexecuted; no C059/596pregrant/new6.4or§7queue."
+  },
+  "cadence_unchanged": "1/history59/latest595/formal19; LF SHA25673ef5152185e3213a7b076a76a656c0a5a0acf9ace994c612def2de270584f4b",
+  "goal": "Sameactive1793085111, allmathematicalcompletiongatesopen/noteligible; key/wholeunchanged, executionchoicechanged."
+}
