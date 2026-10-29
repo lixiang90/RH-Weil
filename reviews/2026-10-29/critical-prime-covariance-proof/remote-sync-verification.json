@@ -1,0 +1,23 @@
+{
+  "schema": "rh-weil-publication-verification-v1",
+  "date": "2026-10-29",
+  "repository": "https://github.com/lixiang90/RH-Weil",
+  "branch": "main",
+  "visibility": "public",
+  "authorization": "User direct instruction each research iteration sync GitHub; Goal section5 preserved. No new publication permission needed.",
+  "status": "scientific-source-preparing-not-yet-published",
+  "source_parent": "da8bf3effa123ba81fec321eb4be5b95a3809eb4",
+  "source_scope": "C059/596 and three frozen proof/fresh originals, root/read/settlement audit, singlecadence, state/frontier/decision/board/library135, narrowattributes/checkpoint; originalthirdpartyfulltextignored.",
+  "mathematical_scope": "Oneactualnewmathiteration, cofinalmoving-source signedDeltaK andfiniteGram/shrinkingcount only; no keybottleneck orwhole4/5UPPER change, sameGoalactive.",
+  "proxy": "Command-scoped http://127.0.0.1:10808, no global proxy/credential changes.",
+  "source_verification": null,
+  "metadata_child_condition": {
+    "parent": "verified scientific source commit, to be filled after actual independent fetch",
+    "exact_paths": [
+      "goals/STATE.json",
+      "goals/checkpoints/2026-10-29-critical-prime-596-sync.json",
+      "reviews/2026-10-29/critical-prime-covariance-proof/remote-sync-verification.json"
+    ],
+    "remote_condition": "After one normalmetadata childpush, independentlyfetch actualmainref/commit/tree; localactualHEAD/tree andsoleparent match; diff exactly3paths; clean andcheckpointcheck pass. No ownSHA recursion/repeatpush."
+  }
+}

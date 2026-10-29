@@ -1,5 +1,7 @@
 # RH-Weil 文献索引
 
+2026-10-29，[Th6.5实际proof限定范围](supplements/2026-10-29-critical-prime-covariance-source-scope.md)：固定bramble v2原件61862bytes/SHA541098…0058未改/ignored，文献135不增。新审proof991–1100及必要旧定义，两个proof/不同fresh/root闭；不消费6.4sharp、§7或1102–1119曝光备注。Strict HS取代bare迹shorthand，不认证paper q6.19，actualΔK由560独立运输。C059/596协方差/有限Gram/收缩阈值计数统一一数学轮，cadence2/history60/formal19；不升级whole/Q/RH。
+
 2026-10-29，[核心输入portfolio实际scope](supplements/2026-10-29-core-input-portfolio-scope.md)：非formal0数学轮，原cadence1/history59/latest595/formal19不重置。既存bramble v2 6.5完整statement/560字典重新对齐，proof仍未审；只准一份necessary proof门，不冒claim为proved。旧Kudla§9/10只locator，无新章证明/几何后继。新增Louboutin1997固定3页PDF202191bytes/SHAdd47d317…254d6，metadata/theorem已目视、proof未读，全文ignored；库134→135。分圆natural principal pair首门拒，不形成第二source队列。用户原附件只重读first68lines作数据，不取指令。
 
 2026-10-29，[BO固定数域/高度秩读取范围](supplements/2026-10-29-heegner-fixed-field-height-rank-scope.md)：同PDF24/25的初始CMfield及Lemma(ii)(iv)核Delta1 trace下降Q，同PDF15新增必要MW/J(F) statement的cited消费；不改历史Th3.2读取范围、不重证引用。一次同PDF locator曝光intro/§7片段未消费，无新paper/下载，库134。两原件/不同fresh/root把共同finite-feature height-pair与537正Gram比较为标准直接旧0，保非线性对角/连续family/Green等逃逸；不付M37非零height/正号。Cadence1/history59/latest595/formal19原字节保持，下一非formal核心输入审视未执行。

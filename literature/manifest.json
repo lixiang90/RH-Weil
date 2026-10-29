@@ -2795,8 +2795,8 @@
       "sha256": "541098314b2ddc5f8645babf82086e87d16c46188268cbc7ed6cfc1f98720058",
       "git_included": false,
       "retrieved_at_utc": "2026-10-27T18:32:43.745097+00:00",
-      "read_scope": "C048 historical:§6definitions/Lemma6.1/Th6.2lower. C052 current:necessaryupper667-782/localization784-869 plusweightedkernel355-375/range510-523; no6.9lower/receiverstronglimit/6.4sharp/6.5/§7consumption. Original61862bytesunchanged.",
-      "proof_status": "C048 Th6.2lower paid with weaker sqrtlog raw evaluation andstrict-gap H0patch; originalrawO1/t remainsunconsumed. C052 root/currentfresh verified Th6.3(6.11)upper necessarychain andfixed-pair mean-rank1 scalar consequence. Noexternalpriority/RH/fullDprime topology claim;6.4sharp/6.5/section7unconsumed.",
+      "read_scope": "C048 historical:§6definitions/Lemma6.1/Th6.2lower. C052 current:necessaryupper667-782/localization784-869 plusweightedkernel355-375/range510-523; no6.9lower/receiverstronglimit/6.4sharp/6.5/§7consumption. Original61862bytesunchanged. 2026-10-29 C059:actualnecessaryTh6.5proof991-1100 and§1/6.1/paidC052defs; source1102-1119 exposureonly/unconsumed;6.4sharp/section7stillunconsumed.",
+      "proof_status": "C048 Th6.2lower paid with weaker sqrtlog raw evaluation andstrict-gap H0patch; originalrawO1/t remainsunconsumed. C052 root/currentfresh verified Th6.3(6.11)upper necessarychain andfixed-pair mean-rank1 scalar consequence. Noexternalpriority/RH/fullDprime topology claim;6.4sharp/section7unconsumed. C059 root/differentfresh closed necessarycovariance6.17/18 usingstrictHS/positivecompression andselfcontaineduniformToeplitz/shrinkinglocalization. Paperwholeq6.19 notcertified; actualK uses560, 596finiteGram/shrinkingcount directsame-result. No wholeQ/RH claim.",
       "scope_record": "supplements/2026-10-28-fixed-test-lower-source-scope.md",
       "read_record": "reviews/2026-10-28/fixed-test-lower/source-read-record.json",
       "additional_read_scopes": [
@@ -2811,6 +2811,13 @@
           "scope": "Nonformalportfolio re-read completeTh6.5statement959-989 andoldV/§1dictionary; statementalreadyread10-28, proofunreviewed. Exact560SoninDeltaKcandidate, nextonlynecessarycovarianceproofgate, notC059/596.",
           "scope_record": "supplements/2026-10-29-core-input-portfolio-scope.md",
           "root_record": "../reviews/2026-10-29/core-input-portfolio/root-consumption-scope.json"
+        },
+        {
+          "date": "2026-10-29",
+          "scope": "C059 necessaryTh6.5proof991-1100 rootclosed; strictpositivecompression/HS, actualunweightedToeplitzkernel/uniformcommutator/LOC, DeltaKvia560 notpaperq6.19. Fixedcomplexh/movingJph, finiteGram/shrinkingcount sameiteration. No6.4sharp/section7/remarkoptimization.",
+          "scope_record": "supplements/2026-10-29-critical-prime-covariance-source-scope.md",
+          "read_record": "../reviews/2026-10-29/critical-prime-covariance-proof/source-read-record.json",
+          "root_record": "../reviews/2026-10-29/critical-prime-covariance-proof/root-consumption-scope.json"
         }
       ]
     },

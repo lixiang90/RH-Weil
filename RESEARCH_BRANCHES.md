@@ -1,5 +1,7 @@
 # 研究分支看板
 
+2026-10-29，[596/C059已root结算](goals/reviews/2026-10-29-critical-prime-596-settlement.md)：两原稿14467/24003、不同fresh16582/root闭，actual全前驱Sonin与moving双脉冲得signed ΔK主项2(logp)/√p||h||du²、相对余项O_h((logp)^(-1/10))；有限fixed Gram与任意fixed m的收缩阈值正计数同链已消费。严格positive-compression/HS和完整逆闭合，paper q6.19未认证，实际运输用560。统一一个数学迭代，唯一cadence一次1→2/history59→60/latest596/formal19不变；库135，无新全文。局部leading项未被trace吸收，但primitive/principal/mixed、危险core/cross/成长Ξ及whole4/5负惯性UPPER未改，Goal同实例active/open。C059耗尽；发布后仅一次同源telescoping覆盖准入，不预准prime-sum/exponent/rank/source后继。准确执行/发布见STATE。
+
 2026-10-29，[核心输入机会成本非formal审视](goals/reviews/2026-10-29-core-input-opportunity-review.md)已arith12203/signed11433/differentfresh12326/root闭。战略保同一primitive主线，执行只准一份fixed bramble v2 Th6.5 covariance proof门：actualcofinal前驱+moving源的DeltaK statement已核，速率proof未审，不预准C059/596；若真新严格数学结果须计一次，不能藏source0。停止geometry/field/class/Gram/滤波/参数续链；正Dprime仍无独立完整生成规则。分圆primary入库135但natural fullprincipal pair旧0拒，不排所有differentrelative方法。当前关键primitive/principal/sections/mixed/growingcorecross/Xi及whole4/5UPPER未变，Goalactive；cadence1/history59/latest595/formal19不重置，当前实际发布与下一动作见STATE。
 
 2026-10-29，[Sonin Gram determinant旧0止](goals/reviews/2026-10-29-sonin-gram-determinant-old-stop.md)：两原稿/不同限定fresh/root已闭，ordinary夹心S₁与Gram PD合法，但自然source的mixed Levi精确为旧V_R，直接受591三测试及正weight必要费约束。Scalarτ全纯平坦/Gram度量/dual号分清；nonholomorphic新metric、pointwise非线性、relative signed、principal Green补偿仍未排。仅停止本自然curvature提案，不当全部detline失败；关键primitive/mixed/corecross/Ξ与whole4/5UPPER不变，数学0/cadence0/history58/latest594/formal19及manifest132保持。当前准确范围授权发布，无C058/595或已准继任预算。

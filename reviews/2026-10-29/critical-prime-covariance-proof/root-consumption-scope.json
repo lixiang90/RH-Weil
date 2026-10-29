@@ -1,0 +1,213 @@
+{
+  "schema": "rh-weil-root-consumption-v1",
+  "date": "2026-10-29",
+  "goal": "goals/GOAL.20261027.md",
+  "runtime_goal_created_at": 1793085111,
+  "baseline_commit": "0c4f3a3eb609bb1d9564138fa4a35701f05605f2",
+  "decision": "D20261029Y",
+  "contract": "C059",
+  "result": "notes/596-critical-prime-sonin-covariance-and-signed-increment.md",
+  "status": "root-consumed-limited-proved",
+  "provenance": {
+    "preregistration": "Published4739-byte D20261029X gate frozen before proof; C059 registered at consumption, not a second admission/iteration.",
+    "root_actual_reads": "Localization14467 allread before recovery; domain24003 read complete in bounded chunks; differentfresh16582 read complete. All actual raw hashes rechecked before consumption; messages not substituted for drafts.",
+    "root_reconstruction": "Independently reconstructed phase/two-way Hardy membership, rank-two blocks, HS factors and exact G update, weighted small-set/Taylor budgets, 560 primepower transport, finite polarization/minmax."
+  },
+  "inputs": [
+    {
+      "path": "reviews/2026-10-29/critical-prime-covariance-proof/localization-and-rate-proof.md",
+      "bytes": 14467,
+      "sha256": "3a5c61a0aacdd6aa7815387e666939d086d0f4da01d939d9df7b52b5d1a2bf36",
+      "utf8_lf": true
+    },
+    {
+      "path": "reviews/2026-10-29/critical-prime-covariance-proof/toeplitz-trace-and-transport.md",
+      "bytes": 24003,
+      "sha256": "3946f4d843f86e7d2991b39db8ba4acf31ab1d9bb666c0a57b2e4eabddd6a977",
+      "utf8_lf": true
+    },
+    {
+      "path": "reviews/2026-10-29/critical-prime-covariance-proof/fresh-covariance-proof-audit.md",
+      "bytes": 16582,
+      "sha256": "8a824d2471dd55b5e21f3940ba424b17f91f4ed11b830d1f7425f6b4a986c70a",
+      "utf8_lf": true
+    },
+    {
+      "path": "reviews/2026-10-29/core-input-portfolio/next-critical-prime-covariance-proof-gate.md",
+      "bytes": 4739,
+      "sha256": "ede94f14a3430afbd100d907ca3649929aaef1138cd065dc896513311b616f33",
+      "utf8_lf": true
+    },
+    {
+      "path": "literature/local/2026-10-28-core-source-location/bramble-trace-rstation-2-v2.md",
+      "bytes": 61862,
+      "sha256": "541098314b2ddc5f8645babf82086e87d16c46188268cbc7ed6cfc1f98720058",
+      "utf8_lf": true
+    },
+    {
+      "path": "notes/560-joint-finite-place-sonin-primepower-cancellation-and-compact-weil-bridge.md",
+      "bytes": 9263,
+      "sha256": "9c2e6cd5a9eae269ad04b332699c21eec7403a230f9557afa8b895c45d4228d3",
+      "utf8_lf": true
+    },
+    {
+      "path": "goals/GOAL.20261027.md",
+      "bytes": 9679,
+      "sha256": "b3d2acb1f962d793f45d79b6a4e67fb87dd072cd4752108a9298204b4cefa1de",
+      "utf8_lf": true
+    },
+    {
+      "path": "notes/585-cofinal-sonin-fixed-source-trace-lower-and-core-error-fee.md",
+      "bytes": 7857,
+      "sha256": "5dca916d978eef599587ff4c6ce34144f814ddec0567a4c1b2314dcd71cd01af",
+      "utf8_lf": true
+    },
+    {
+      "path": "notes/587-actual-sonin-moment-spread-and-growing-source-rank-necessity.md",
+      "bytes": 8681,
+      "sha256": "e4d30cfb6d07299386014cb4c4e3e3979ab5111264355dfb37b24629f121ac82",
+      "utf8_lf": true
+    },
+    {
+      "path": "notes/589-sonin-zero-mean-upper-and-scalar-rank-one-limit.md",
+      "bytes": 7185,
+      "sha256": "c491012226713baf0eecff045338563d4e440c6a1bde9eea0d9ccf661b958bc5",
+      "utf8_lf": true
+    },
+    {
+      "path": "notes/591-connected-occupation-covariance-three-fixed-test-barrier.md",
+      "bytes": 5974,
+      "sha256": "5a6d6e221369a1a9bce668d56c9fe574aeca0a295fdb7d0ccd31e4fcd03eaa7c",
+      "utf8_lf": true
+    },
+    {
+      "path": "reviews/2026-10-28/sonin-scalar-normalization/root-consumption-scope.json",
+      "bytes": 9076,
+      "sha256": "75612a326db9c1144e43fd56fa5922d408425e891a25b2f7930812b3b068c54e",
+      "utf8_lf": true
+    },
+    {
+      "path": "reviews/2026-10-28/sonin-scalar-normalization/source-localization-proof-audit.md",
+      "bytes": 11459,
+      "sha256": "809bc7ffc6f1fbf4dd24af0d710af05fb7ca1bc259992430c3fd6760912ffcb1",
+      "utf8_lf": true
+    }
+  ],
+  "object_domain_norm_roles": {
+    "receiver": "Actual Pi_F=B_F P G_F^-1 P B_F*, unweighted L2(dy); reflected boundary L2(dt/(2pi)). Finite Euler B_F is invertible, never asserted unitary.",
+    "source": "Physical complex h in C_c-infinity(du); bare multiplicative source exp(-u/2)h, not raw entire evaluation vector.",
+    "maps": "Both physical support conditions identify actual reflected Sonin range kerT_(bar uInfinity/D_F^+); equality in original boundary norm. Cayley weighted composition is a separate genuine unitary.",
+    "compact_error": "K_(F,I)=1_I F_unit* M_epsilonF F_unit 1_I from560, selfadjointcompact for each finiteF/I; DeltaK uses exactly same I at each p.",
+    "relation_quotient_role": "No new arithmetic class or principal map, no quotient recognition/primitive coverage claimed."
+  },
+  "quantifiers": {
+    "fixed": "All fixed complex h; each fixed finite family under polarization. Constants may depend on that h/family and finite Schwartz seminorms.",
+    "growing": "p ranges through all sufficiently large primes; predecessor includes all q<p. Jp h=h+U_logp h, support/logp grows, physical du norm eventually exactly doubled.",
+    "interval": "For finite family supported(-1,1), use common I_p=(-logp-2,logp+2), same for both prime sets and all family members.",
+    "not_uniform": "No arbitrary moving h_p, expanding Dlog ball, fullL2 operator convergence, m(p) rate or uniform exponential source seminorm bound."
+  },
+  "premise_closure": [
+    {
+      "id": "LOC",
+      "paid_by": "localization-and-rate-proof.md + paidC052 weighted evaluation",
+      "closure": "AllfiniteF weighted entire evaluation exp(CRlog(R+2)); refined twisted PNT O_B(A/L); small-set interpolation factor without nlogn; R=A/(logA)^3,n=ceil3A/logA; actualkernel <=exp(-cA delta²) ondelta<=abs(t)<=L^b; omit-p rerun same weighted unit ball. No angle assumption."
+    },
+    {
+      "id": "D1",
+      "paid_by": "toeplitz-trace-and-transport.md sections2-3",
+      "closure": "Cosine Mellin phase fixes M(CJg)(-t)=uInfinity barf. Two supports give K0=kerT_barU; D_F^+ and inverseHInfinity give two-way actualK_F. Fullboundary forward/backward blocks eachrank<=1/norm<=1; uniform S1commutator2 at every Cayley scale."
+    },
+    {
+      "id": "D2",
+      "paid_by": "domain sections4 and paid560/589",
+      "closure": "Positivecompression tau_u=Tr_SH(SuS)=HSsquare=integral u k dt/(2pi), k=2pi rho. Tonelli on ONbasis; no literal bare uS S1."
+    },
+    {
+      "id": "D3",
+      "paid_by": "domain sections4-5",
+      "closure": "G=S D*D S|SH >=(1-a)^2 I; bounded inverse uniform p>=2. Two HS factors make SW(I-S)BS S1 before rates. Source traces defined positivecompressions/HS."
+    },
+    {
+      "id": "D4",
+      "paid_by": "domain sections4,6 + LOC",
+      "closure": "Center delta=L^-2/5 gives L^.9; middle to2L covered b2 with L exp(-cA delta²); tail fixedN4 gives L^-2. All constants fixed-h only."
+    },
+    {
+      "id": "UPDATE",
+      "paid_by": "domain section5",
+      "closure": "Sprime=D S G^-1 S D*, use isometryD S G^-1/2 and positiveA=SWS. S D*WDS=A G-aX; cyclicity only afterA,X S1, yieldingDelta t=-a Tr(XG^-1)."
+    },
+    {
+      "id": "TRANSPORT",
+      "paid_by": "old560 exact(1), domain section7",
+      "closure": "Use actual qGamma-P_F+K, not paperq6.19. Same I/source cancels qGamma. Allproperpowers retained; forJp h, R(+-L)=norm², k>=2 exact0, so P_p=2La norm². Fullpole cancels in same-source decompositiondifference; optional (D²-1/4)psi kills both moments."
+    },
+    {
+      "id": "GRAM-MINMAX",
+      "paid_by": "allfixedcomplexh theorem + finite polarization; freshsection7/root",
+      "closure": "Fixedfinite Gram DeltaK[Jphi,Jphj]/w_p ->2<hi,hj>. Polezero orthonormal compact disjoint h_j; E_p=J_p/sqrt2 isisometry. Compression->I_m, actualcompact selfadjoint minmax gives Nplus(DeltaK;w_p/2)>=m eventually. Same theorem, no separateiteration."
+    }
+  ],
+  "results": {
+    "covariance": "C_p=O_h((logp)^(9/10)); exactDelta t_p[Jph]=-p^-1/2 C_p.",
+    "actual_increment": "<Jph,DeltaK_p Jph>=2(logp)/sqrtp ||h||du²+O_h(p^-1/2(logp)^.9). RelativeRayleigh errorO_h((logp)^-.1).",
+    "strongest_direct_consequence": "Everyfixedm eventuallyatleastm eigenvalues>w_p/2 in samegrowingI_p; thresholdw_p=logp/sqrtp->0, no fixedthreshold or rankgrowthrate."
+  },
+  "sign_and_fees": {
+    "coefficient": "Two opposite physical autocorrelations give exact leading2; Plancherel1/(2pi) neverchangesdu coefficient.",
+    "direction": "Kpositive is adverse in Q=t-K+pole; DeltaKpositive on tests doesnotprove Qnegative or wholeKpositive.",
+    "error": "O_h(aL^.9)=o(w_p); localization remainder Lexp(-c sqrtp/L^1.8), tailL^-2 insidecovariance, G inverseuniform; no missing source/anglecost withinfixedh scope."
+  },
+  "semantic_repairs": {
+    "frozen": "Paper literal bareTr(WS),Tr(WSprime),Tr(uS) as bareproductS1 notconsumed. Paper entireq6.19 normalization notcertified.",
+    "reclosed": "Strictpositivecompression/HSsandwich and exactupdate prove sameactualtraces; old560 gives actualK independently. No rawsource mutation and no otherdownstreammeaningchange."
+  },
+  "strongest_old_comparison": {
+    "585": "Fixedsource wholeK lower/divergence doesnotbound signedadjacentdifference on Jph.",
+    "587": "Fixedfamily wholeK eigenvalue/rank lower cannotbesubtracted toderive DeltaK shrinkingcount.",
+    "589": "Anchor normalized fixedpair meanrank1 anduniformweighted evaluation reusedasinput; notsingleprimeo(w_p)update.",
+    "591": "Commonpositiveoccupation three-test gap/necessarygain notthis actualsignedneighborupdate.",
+    "560": "ExactDeltaK identity alone old; newpaidinputisuniformcovariance smallfee, not identityrenaming.",
+    "net": "New localcofinal moving-source signedincrement and its finiteGram/minmax consequence; no duplicateweakerresult later."
+  },
+  "remaining_coverage_coupling": {
+    "unpaid": "Sameactual arithmeticprimitive/principal/sections/mixed, dangeroussignedcorecross/growingXi, fullQcoercivity, common-source prime-sum/cross fees.",
+    "whole": "542+555->557 leading4/5 negativeinertiaUPPER unchanged. Safe-highactualdu transportalready paid, notrewrittenunknown.",
+    "escapes": "Growing source/rank, signed joint/nonlocal resummation, different Green/relative arithmetic input remain legal; no classwidefailure."
+  },
+  "completion": {
+    "mathematical_gate": "open",
+    "final_execution_gate": "not-eligible",
+    "bottleneck_changed": false,
+    "local_choice_changed": true,
+    "basis": "Scalar/cofinal actual newmath but doesnotremove akeywhole-growth premise orpay broadmethod-classboundary. No runtimeGoalcompletion."
+  },
+  "settlement": {
+    "math_iterations": 1,
+    "before_cadence_sha256": "73ef5152185e3213a7b076a76a656c0a5a0acf9ace994c612def2de270584f4b",
+    "before": {
+      "rounds_since_review": 1,
+      "historical": 59,
+      "latest": "595",
+      "formal_cycle": 19
+    },
+    "after": {
+      "rounds_since_review": 2,
+      "historical": 60,
+      "latest": "596",
+      "formal_cycle": 19
+    },
+    "rule": "One guard+one write of solecadence; agents/prooflegs/source/polarization/minmax/sync noextra. Notformal20/noreset."
+  },
+  "next_action": {
+    "scope": "zero-math same-source telescoping admission only",
+    "test": "For fixedterminalP andfixedphysicalf_P=J_Ph onI_P, write K_<=P-K_empty=sum_q<=P DeltaK_(q,I_P). Compare theorem596 inputJ_qh to requiredf_P forq<P. Identify exactsame-source/mixed estimate paidorunpaid beforeanyprime-sum claim.",
+    "stop": "If onlyunpaidjoint/cross remains, stop admission; no automaticC060, prime-sum proof, sourcechapter, exponent/rank/parameter successor."
+  },
+  "settlement_consistency_consumed": {
+    "path": "reviews/2026-10-29/critical-prime-covariance-proof/settlement-consistency.md",
+    "bytes": 6141,
+    "sha256": "73914f0561a2bd674982025d861ddf94dda34dbd580849bc9d8f52182bed8e40",
+    "root_read": "Full original read; two exposition fixes applied before finalfreeze; no mathematicalpremisechange. LimitedPASS, actualpublication stillroot duty."
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "schema": "rh-weil-source-read-record-v1",
+  "date": "2026-10-29",
+  "source": {
+    "path": "literature/local/2026-10-28-core-source-location/bramble-trace-rstation-2-v2.md",
+    "bytes": 61862,
+    "sha256": "541098314b2ddc5f8645babf82086e87d16c46188268cbc7ed6cfc1f98720058",
+    "utf8_lf": true
+  },
+  "scope": "Statement959-989 alreadyread; new necessaryproof991-1100 with§1/6.1 andpaidC0526.3 definitions. Source1102-1119 exposed only, notconsumed; no6.4sharp/section7 ornewreferences.",
+  "audit_outputs": [
+    {
+      "path": "reviews/2026-10-29/critical-prime-covariance-proof/localization-and-rate-proof.md",
+      "bytes": 14467,
+      "sha256": "3a5c61a0aacdd6aa7815387e666939d086d0f4da01d939d9df7b52b5d1a2bf36",
+      "utf8_lf": true
+    },
+    {
+      "path": "reviews/2026-10-29/critical-prime-covariance-proof/toeplitz-trace-and-transport.md",
+      "bytes": 24003,
+      "sha256": "3946f4d843f86e7d2991b39db8ba4acf31ab1d9bb666c0a57b2e4eabddd6a977",
+      "utf8_lf": true
+    },
+    {
+      "path": "reviews/2026-10-29/critical-prime-covariance-proof/fresh-covariance-proof-audit.md",
+      "bytes": 16582,
+      "sha256": "8a824d2471dd55b5e21f3940ba424b17f91f4ed11b830d1f7425f6b4a986c70a",
+      "utf8_lf": true
+    }
+  ],
+  "consumption": "root-consumption-scope.json",
+  "source_unchanged": true,
+  "excluded": "Paperq6.19 wholeform notcertified; actualK uses560. No priority/RH claim; no remarkexponentoptimization.",
+  "local_fulltext_git_included": false
+}
