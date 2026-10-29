@@ -1,5 +1,7 @@
 # RH-Weil 文献索引
 
+2026-10-29，[597定义使用范围](supplements/2026-10-29-formal-mellin-boundary-rank-scope.md)：库137不增。固定OsipovPDF8491958e…100cc不改/ignored，只用既付§2(6)–(8)field/hat与普通tensor，domain复核PDF6缓存，无新数学页/§3/4/Example/来源。实际Φ尾读出、405反测/finiteQrank修补边界由本项目独立推导，不归作者主theorem。597统一一数学轮/cadence3/history61/formal19，cofinal尾趋0逃逸保；新countablemoment插值未导入，只列下一准入。
+
 2026-10-29，[新两份来源的准确scope](supplements/2026-10-29-post-increment-core-choice-source-scope.md)：库135→137，实际固定PDF Osipov1801.02282v2 267569bytes/21p/SHA8491958e…100cc，Jensen1902.07321v2 216634bytes/11p/SHAe3cac568…908fd，全文均ignored。Osipov定位修正后仅必要§2defs/Thm2.1statement cited，root额外返回曝光未消费，proof未审；Jensen消费PNAS §1 statement与v2归档分开，不核两版proof等同。两候选无新core输入，source0；root新Mellin候选独立未准入。Cadence2/history60/formal19不写。
 
 2026-10-29，[同源telescoping实际范围](supplements/2026-10-29-same-source-telescoping-scope.md)：只核已有560/585/587/589/591/596及555/557/strict-domain记录，无新外部全文/章节/下载；manifest135原字节不写。两原稿/不同fresh/root消费旧共同源endpoint费与wholeK强谱，直接sum596准入0止，不新增数学或C060/597。RR-Z/Jacobian只做既有题录/强旧范围定位，不冒新源阅读。Cadence2/history60/formal19原字节不动。

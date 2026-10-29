@@ -1,0 +1,194 @@
+{
+  "schema": "rh-weil-root-consumption-v1",
+  "date": "2026-10-29",
+  "goal": "goals/GOAL.20261027.md",
+  "runtime_goal_created_at": 1793085111,
+  "baseline_commit": "0c4f3a3eb609bb1d9564138fa4a35701f05605f2",
+  "decision": "D20261029AC",
+  "contract": "C060",
+  "result": "notes/597-formal-mellin-source-boundary-rank-obstruction.md",
+  "status": "root-consumed-limited-proved-obstruction",
+  "inputs": [
+    {
+      "path": "goals/GOAL.20261027.md",
+      "bytes": 9679,
+      "sha256": "b3d2acb1f962d793f45d79b6a4e67fb87dd072cd4752108a9298204b4cefa1de",
+      "utf8_lf": true
+    },
+    {
+      "path": "reviews/2026-10-29/post-increment-core-choice/next-formal-mellin-source-admission.md",
+      "bytes": 2723,
+      "sha256": "4bd4483a700f1ab67c784d92f0723fd8cd1f76028be5674b78aa63163094b21f",
+      "utf8_lf": true
+    },
+    {
+      "path": "reviews/2026-10-29/post-increment-core-choice/source-gate-location-and-domain-audit.md",
+      "bytes": 12603,
+      "sha256": "82d2231ceb82b2a90cf07bf25bba068f1bb1efcea79ad3c2ec59e7d7ed76027b",
+      "utf8_lf": true
+    },
+    {
+      "path": "literature/local/2026-10-29-core-input-choice/osipov-1801.02282v2.pdf",
+      "bytes": 267569,
+      "sha256": "8491958ec6ff552aa1d3915ecb7f29a8a1bed4069292acac76a3b79c7b8100cc",
+      "utf8_lf": false
+    },
+    {
+      "path": "notes/405-f1-adelic-restriction-moments-and-radical.md",
+      "bytes": 14633,
+      "sha256": "fe5ee4b574954e51a69c6bbbaa772bb75a1a510c91c837ba02eed8ac406cbb7d",
+      "utf8_lf": true
+    },
+    {
+      "path": "notes/519-f1-closed-source-image-and-degree-moments.md",
+      "bytes": 5766,
+      "sha256": "93d39e6d932c9913f5feb77bed4d1ad096c9d984ed571e894576fce6c53b124c",
+      "utf8_lf": true
+    },
+    {
+      "path": "notes/520-f1-source-quotient-spectrum-and-centered-growth.md",
+      "bytes": 6311,
+      "sha256": "81a05708dfd2139d374d9fac7f631e66ea4449d502cf9fb0c52f53b900dc9651",
+      "utf8_lf": true
+    },
+    {
+      "path": "notes/537-source-exact-weil-window-positive-tail-admission.md",
+      "bytes": 8155,
+      "sha256": "269a500556d37fc04a4e44efd2f0899414787743e529506dbbe7395a34eea9f8",
+      "utf8_lf": true
+    },
+    {
+      "path": "notes/552-radial-adelic-green-principal-and-comparison-gate.md",
+      "bytes": 9192,
+      "sha256": "670c05aac61921a4f36accc89638e2844fe7221df6341e4e7ff27964fb22d887",
+      "utf8_lf": true
+    },
+    {
+      "path": "notes/582-full-local-weil-strong-domain-and-actual-green-source-gates.md",
+      "bytes": 14027,
+      "sha256": "6d5e5711e44fad0aec44e6d95233b7898370430bc9b7b1cc8281b7d4304fdcc8",
+      "utf8_lf": true
+    },
+    {
+      "path": "notes/583-completed-modular-faber-source-and-native-green-transport.md",
+      "bytes": 11644,
+      "sha256": "babe212467d5c41d14a20ba2d0d99b1f49722f2388bfea9dc13c6334ef3fadab",
+      "utf8_lf": true
+    },
+    {
+      "path": "notes/584-marked-cusp-borel-kernel-and-pan-residue-collapse.md",
+      "bytes": 8856,
+      "sha256": "63a2a438666cc859d543503715a16bb7c58c2de80e0a5bd8a22e2a36997c96a0",
+      "utf8_lf": true
+    },
+    {
+      "path": "notes/596-critical-prime-sonin-covariance-and-signed-increment.md",
+      "bytes": 9094,
+      "sha256": "b609b8e5a820ca259c1a02fce134ca5b788d4c3373b933b6e1d2c3094cc4a782",
+      "utf8_lf": true
+    },
+    {
+      "path": "reviews/2026-10-29/formal-mellin-admission/domain-period-and-readout.md",
+      "bytes": 13380,
+      "sha256": "96d0346ca071eaf9ae895e6655254d4010cc92b2e6934db80fb799f6c215b5a9",
+      "utf8_lf": true
+    },
+    {
+      "path": "reviews/2026-10-29/formal-mellin-admission/pan-moments-and-old-consequence.md",
+      "bytes": 14816,
+      "sha256": "a259650e7427965b34cb25e53be81112b97908c8a1467bbeb9b12ced5ead7e18",
+      "utf8_lf": true
+    },
+    {
+      "path": "reviews/2026-10-29/formal-mellin-admission/fresh-boundary-rank-audit.md",
+      "bytes": 13982,
+      "sha256": "da3ff039989fa8a62ef8d8d8282f2d3386bb98e84e5dc47eab31f0ca9edd711a",
+      "utf8_lf": true
+    }
+  ],
+  "provenance": "Samepre-frozen2723-byte necessaryadmission, notnewpoints/frame/degree/C059budget. Domain13380/Pan14816/differentfresh13982 allrootactualfullread/rehashed; rootindependentlyreconstructedcoefficientlemma/Eulertransport/repair/escape. C060 registeredonlyatconsumption foroneactualmathresult.",
+  "object_domain_norm_roles": {
+    "actual_target": "X=P1_Z,C=infinity,F=relativecanonicalomega~O(-2),rationalt=1/z,dtframe. ActualAar=Afinite+VInfinity; Phi=quotientbyexact01+02, no closure/realspancompletion silentlyadded.",
+    "ambient_vs_boundary": "VInfinitycompletedtensor permitsR((t))fullformalpositive tail. 01 C∞projection isQ((t))dt;02genericpart F_eta tensor_QR isordinary finite sumreal multiplesofQ(z)dz.",
+    "source": "Realphysical r=e^u/2 rawf inS_exp; M_r(s)=rawM_f(s). Rvectorrealfirstnecessarycounter sufficesallcomplexfailure; no complexHilbertstructure/du norm onPhi asserted.",
+    "raw_map": "a_r=sum_j>=0 M_r(j+2)t^j dt onC∞ only, otherarchandfinite0; membershipformal/restrictedproductclosedusingcompletedlattice; noanalyticradiuscondition.",
+    "relation_role": "PhysicalPan=e^u/2 P_an from405 actualSchwartzrestriction source; additive01/02 boundary notdefinedtobePan, actualnonmembership computed. No arithmeticprincipalGreenidentification presumed."
+  },
+  "premise_closure": [
+    {
+      "id": "MEMBERSHIP",
+      "paid": "EachmomentabsboundN>j+1.5, completedR[[t]]lattice, onebranchintegral supportslegalV∞. Fréchetmomentboundperj only, notwholedu/Hilbertcost."
+    },
+    {
+      "id": "FINITEJET",
+      "paid": "Genericdifferentialsumrealb_jt^jdt inordinaryF_etatensorR suppliesanyfiniteC∞jet as02boundarywithotherbrancheskept. Barefinitejet/modZnotawell-definednonzeroreadout; notsourcefailureitself."
+    },
+    {
+      "id": "TAIL",
+      "paid": "FinQ=image(Q((t))tensor_QR inR((t))) iffcoefficientvalues finiteQspan;02finitealgebraictensor/01rationalcoef⇒boundaryprojection⊂FinQ. DirectPhi->R((t))dt/FinQdt additivehom; independentofG2/period/globalintersection/reciprocityproof. Positive-sequenceB_fin equivalentbecausefinitenegativepart."
+    },
+    {
+      "id": "ACTUALPAN",
+      "paid": "405 h=Eeta, p_raw=(D²+D)h=Eeta0 actualP_an, rawMellin=s(s-1)xi(s)/2. PhysicalP=e^u/2p_raw=(D²-.25)H realnoncompactS_exp, bothphysicalexponentialmoments0. Correctsignandhalfdensityclosed."
+    },
+    {
+      "id": "TRANSCENDENTCOEFFICIENT",
+      "paid": "M_P(2m)=q_m pi^m, q_m=absB2m*2^(2m-3)*(2m)^2*(2m-1)^2*(m-1)!/(2m)! positiveQ. Eulerformula+pi transcendencestandardindependentfacts, notζzeroassumption. InfiniteQrank forP/allnonzerorealscalars."
+    },
+    {
+      "id": "NONBOUNDARY",
+      "paid": "rho(J(lambdaP))≠0 ⇒actualPhi classnonzero. OneactualrealP violatesrequiredfullPan, no need537test; J onthisPanRline additiveinjective."
+    },
+    {
+      "id": "REPAIRS",
+      "paid": "Detectorignoresallfinitelegs/otherarchbranches; anyper-source finiteQrankC∞repairrho0, no uniformrank/linearity/sourceadaptivityrestriction. AlllambdaP remainnonzeroateachactualstage. CorrectionnotnecessarilyboundaryorPhiclassunchanged; onlyrho unchanged."
+    },
+    {
+      "id": "ASYMPTOTIC_ESCAPE",
+      "paid": "d_N C∞=-trunc_N a_P, other0; legalFinQrepair, everystage rho/Jnonzero butrawformaltail->0. Ifnaturalquotientmapcontinuous,Phiclasses->0. No exact-stage theoremupgrade to no cofinalapproximation. Similartailcollapseforallfixedrdoesnotpreserve537orpositivecapacity."
+    }
+  ],
+  "root_scope_clarifications": {
+    "Pan_end_sentence": "Pan§7末句differentfinitelegs不能解释为sametarget/same∞encoder有救；(10a)已排allfinitelegs. Legitdifferentmechanism requireschanged∞infiniteQrank/target/otheractualdata.",
+    "topology": "FinQ/Bfin dense formal/producttopology; targetnonHausdorff algebraicreadout only, notcontinuousseparatedpositiveHilbert/normerror. No distance/du/Dlog/inertia/mixed/Weilsign consequence.",
+    "unreviewed_source": "OnlyoldpaidOsipov§2defs6-8/PDF6distinction; no newPDFpages/Thmproof/§3/4/Example2.3 used."
+  },
+  "quantifiers": {
+    "fixed": "SameP1_Z/omega/infinity/rationalframe, samej+2moments, sameactualunshifted405P.",
+    "sources": "AllrealS_exprawmaplegal; obstructiononefixednoncompactPanP andalllambda!=0. Fullsourcegoalnotshrunk, realnecessarygatefails.",
+    "repairs": "Anyfiniteadeliclegs/otherarchbranches; C∞correctioneachactualelement finiteQrank, rankcanvaryarbitrarilywithsource/aux/nonlinear. Each-stageexactnonannihilation only.",
+    "not_claimed": "Notalltranslations (pi*exp2b mayalgebraic), notallinfiniteQrank∞corrections/closure/completed02, notcofinalasymptoticnonvanishing."
+  },
+  "strongest_old_net": {
+    "405_519_520": "OldactualPan/off-zero evaluationnonzero alone cannotshowPhi classnonzero; finitejetisnotsubquotientreadout. Newtypedfulltailrho andinfinitepi-power transport closeactualtargetfailure.",
+    "584": "Oldcompact-realLaplace/sameBone-dimensionalimagecollapse notthisunboundedcountablefullformalencoder. No countablemoment-surjectivityfoundalready paid; NOTassumed/proved/imported here.",
+    "net": "Newactualsourcepaircompletefailedresearch +same-readoutmaxexactrepaircorollary, one mathiteration; notsource0/labelcount.",
+    "remaining": "Principal/mixedpositivebridge, dangerouscorecross/growingXi/fullcomplexsourcecoverage/normcomparison unpaid. Whole542+555->557 leading4/5negativeinertiaUPPER unchanged, 596retained."
+  },
+  "settlement": {
+    "math_iterations": 1,
+    "before_cadence": {
+      "path": "goals/review-cadence.json",
+      "bytes": 6749,
+      "sha256": "a5cfcd0ca0f2a4ad63f6c7b60d55c83024ebb86387f0a12a0b7b167e6f3cf600",
+      "utf8_lf": true
+    },
+    "before": "2/history60/latest596/formal19",
+    "after": "3/history61/latest597/formal19",
+    "rule": "Guardrawonceandwriteonlysolecadenceonce. Domains/prooflegs/fresh/Euler/linearalgebra/repairs/escape/syncnoextra. No formal20/reset."
+  },
+  "completion": {
+    "mathematical_gate": "open",
+    "final_execution_gate": "not-eligible",
+    "key_bottleneck_changed": false,
+    "local_choice_changed": true,
+    "basis": "Fixedencoderexactrepairclass boundary, notsubstantialallmethodscope; explicitsame-targetcofinalescape. No independentpositivecore/principalinput orwholebudgetgain. SameGoalactive/fullstrength."
+  },
+  "next_admission": {
+    "path": "reviews/2026-10-29/formal-mellin-admission/next-full-image-moment-admission.md",
+    "status": "unproved-construction-only-not597premise",
+    "reason": "Potentialsame-data nonlinearpostmapescape requiresfullimagePan=source, notinferredfromonecounter. Explicittriangularshiftedbumpformula givesdifferentconcretewhole-image test; no newpoints/frame/sourcepaper.",
+    "gate": "Firstdedupoldcountableinterpolation; thenS_expconvergence/allmoments/physicalconvolution-Pan closure; no C061/598/mathbudgetbeforeactualnet.",
+    "stop": "Anyoldimplication/premisegapstopno parameter/sourcequeue; C060alreadyexhausted."
+  }
+}
