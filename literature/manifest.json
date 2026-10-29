@@ -3044,10 +3044,19 @@
       "retrieved_at_utc": "2026-10-29T03:28:31.531406+00:00",
       "download_status": "downloaded-fixed-publisher-PDF-byte-verified",
       "git_included": false,
-      "read_scope": "Publisher metadata/abstract and web locator snippets; local visual PDF1 cover/PDF2 article2135. No local mathematical chapter proof read or consumed.",
-      "proof_status": "Locator only; fixed M37 Delta1 §5.1 source gate unexecuted; no physical principal/Green, Pan537, norm, coverage or mixed theorem consumed.",
-      "scope_record": "supplements/2026-10-29-physical-point-and-heegner-locator-scope.md",
-      "metadata_receipt": "../reviews/2026-10-29/weil-9-8-physical-lower-gate/heegner-source-metadata.json"
+      "read_scope": "Root/source/fresh independently visual PDF15 Th3.2statement;24/25 defs5.1-5.4;28/29 §5.1 Th5.4/5.5 localproof/Remark14;30Remark14 top only. Adjacent source exposure recorded, no§6/7/8 proof or citedreference audit.",
+      "proof_status": "CitedtypedMaass->degree0Heegner/canonicaleta/conditionalprincipal andDelta1 sufficientcusps. Actualsampler Maasslift/positive-square algebraicity/fullPan537/du/height/mixed unpaid. Sourcegate0 stopped, noC059; unexecutedfixedfieldrank comparison separate.",
+      "scope_record": "supplements/2026-10-29-heegner-principal-chapter-scope.md",
+      "metadata_receipt": "../reviews/2026-10-29/weil-9-8-physical-lower-gate/heegner-source-metadata.json",
+      "research_updates": [
+        {
+          "date": "2026-10-29",
+          "scope": "Root/source/fresh independently visual PDF15 Th3.2statement;24/25 defs5.1-5.4;28/29 §5.1 Th5.4/5.5 localproof/Remark14;30Remark14 top only. Adjacent source exposure recorded, no§6/7/8 proof or citedreference audit.",
+          "root_record": "../reviews/2026-10-29/heegner-principal-source/root-consumption-scope.json",
+          "settlement": "../goals/reviews/2026-10-29-heegner-principal-source-gate-stop.md",
+          "mathematical_rounds_added": 0
+        }
+      ]
     }
   ],
   "supplement_provenance": [

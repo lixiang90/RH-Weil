@@ -1,5 +1,7 @@
 # RH-Weil 文献索引
 
+2026-10-29，[BO2010指定Heegner章实际读取](supplements/2026-10-29-heegner-principal-chapter-scope.md)：同一固定PDF不增版本/库134；root/source/fresh各自目视PDF15/24/25/28/29及30顶部Remark14，核§5.1与必要defs/Th3.2，原eta负号/Delta1 constant/cusp条件准确保留。邻页/§6曝光范围如实记录，未消费后章或追引用。只付typedcycle/conditionalprincipal，未付physical全Pan537/du/height/mixed桥，来源0止/无C059，cadence1/history59/latest595/formal19原字节不动。下一fixed-field height-rank准入比较尚未执行，全文和页图仍ignored本地。
+
 2026-10-29，[同源点态诊断与Heegner定位范围](supplements/2026-10-29-physical-point-and-heegner-locator-scope.md)：Liu旧版本不变，实际224源/48pins重放只给Llow正/P0负同源分离，0新增数学轮，cadence1/history59/latest595/formal19原字节保持。新增Bruinier–Ono Annals2010固定publisher PDF，本地1642204bytes/50PDF页/文章47页，SHA及下载回执公开，全文页图ignored；manifest133→134。只读metadata/abstract/web locator与本地PDF1–2，§5.1数学章门尚未执行，不冒认principal/Green/height或physical全Pan桥已付。
 
 2026-10-29，[Liu固定来源恢复与595实际读取](supplements/2026-10-29-weil-9-8-fixed-source-scope.md)：同b6cd2183原TeX/科学代码22文件249579bytes按Git blob/旧release SHA核，132→133补登历史来源；全文/副本本地ignored，无PDF/archive重下。新9/8的全部source/解析/inverse/两完整compiler已付，但actualevenK/P0有独立整数负witness，原Q正负未知，oddGram未执行。一次完整失败研究1/history59/latest595/formal19；库不冒认新paper/version/全证明重验。
