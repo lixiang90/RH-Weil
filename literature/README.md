@@ -1,5 +1,7 @@
 # RH-Weil 文献索引
 
+2026-10-29，[同源点态诊断与Heegner定位范围](supplements/2026-10-29-physical-point-and-heegner-locator-scope.md)：Liu旧版本不变，实际224源/48pins重放只给Llow正/P0负同源分离，0新增数学轮，cadence1/history59/latest595/formal19原字节保持。新增Bruinier–Ono Annals2010固定publisher PDF，本地1642204bytes/50PDF页/文章47页，SHA及下载回执公开，全文页图ignored；manifest133→134。只读metadata/abstract/web locator与本地PDF1–2，§5.1数学章门尚未执行，不冒认principal/Green/height或physical全Pan桥已付。
+
 2026-10-29，[Liu固定来源恢复与595实际读取](supplements/2026-10-29-weil-9-8-fixed-source-scope.md)：同b6cd2183原TeX/科学代码22文件249579bytes按Git blob/旧release SHA核，132→133补登历史来源；全文/副本本地ignored，无PDF/archive重下。新9/8的全部source/解析/inverse/两完整compiler已付，但actualevenK/P0有独立整数负witness，原Q正负未知，oddGram未执行。一次完整失败研究1/history59/latest595/formal19；库不冒认新paper/version/全证明重验。
 
 2026-10-29，[Sonin Gram determinant读取范围](supplements/2026-10-29-sonin-gram-determinant-old-scope.md)：仅项目560/591夹源域与406/410/569既有角色；Simon/Segal–Wilson/Gillet–Soulé条目只核原scope，未新开PDF/网页/章节或query/下载/数值。两原稿/不同限定fresh7294/root闭old0，含centeredscalar C²与holomorphic Gram消费限义；manifest132原字节及cadence0/history58/latest594/formal19保持，不加内部证明为新文献。

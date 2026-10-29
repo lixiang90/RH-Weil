@@ -1,6 +1,6 @@
 # 研究分支看板
 
-2026-10-29，[595/C058：固定9/8充分比较失败](goals/reviews/2026-10-29-weil-9-8-fixed-comparison-settlement.md)：1024moments、15/225/151200矩阵、896尾列及所有oracle/controls通过；全解析/新inverse和两224-sector完整compiler闭。Actual even Kcert有独立105-entry/14-coordinate整数负witness，故本P0非PSD，Q/真实bounded型符号未知，odd Gram未执行。一次完整失败研究0→1/history59/latest595/formal19，文献133。停止本actual配置，不续Gram精度/factor或L/mu/theta/N参数；源/误差资产保留，主primitive/mixed/corecross/Xi及whole4/5UPPER不变，Goalactive。当前本轮发布核actualHEAD，无继任已准。
+2026-10-29，[595后同源点态诊断](goals/reviews/2026-10-29-physical-lower-point-diagnostic-stop.md)：actual Llow在595 mapped source严格正而本P0严格负，224系数/48pins由不同rawWr重放闭；仅确认合并比较损失与固定目标局部修补必要费，不判whole PSD/全窗coercivity或单独inverse归因。新point诊断0新增数学轮，C058停止/无C059，same-v/逐腿损失/参数链停止。原cadence1/history59/latest595/formal19不动；主primitive/principal/sections/mixed/growingcorecross/Xi及whole4/5负惯性UPPER不变。BO2010固定PDF本地入库134，唯一后继M37/Delta1的一个Heegner主除子来源章门尚未执行；全Pan537/du/成长/mixed仍须实物核验。Goalactive，当前发布阶段见STATE。
 
 2026-10-29，[Sonin Gram determinant旧0止](goals/reviews/2026-10-29-sonin-gram-determinant-old-stop.md)：两原稿/不同限定fresh/root已闭，ordinary夹心S₁与Gram PD合法，但自然source的mixed Levi精确为旧V_R，直接受591三测试及正weight必要费约束。Scalarτ全纯平坦/Gram度量/dual号分清；nonholomorphic新metric、pointwise非线性、relative signed、principal Green补偿仍未排。仅停止本自然curvature提案，不当全部detline失败；关键primitive/mixed/corecross/Ξ与whole4/5UPPER不变，数学0/cadence0/history58/latest594/formal19及manifest132保持。当前准确范围授权发布，无C058/595或已准继任预算。
 
