@@ -3,10 +3,29 @@
   "date": "2026-10-29",
   "repository": "https://github.com/lixiang90/RH-Weil",
   "branch": "main",
-  "status": "source-preparing",
+  "status": "source-verified-metadata-child-condition-armed",
   "source_parent": "ce1a85e846b0ea3e892b679b994460c1bb75806d",
   "authorization": "User direct per-round publicmain sync /Goalsection5; commandproxy10808 allowed.",
   "scope": "599 explicit primecritical positiveDprime family/fullWeilgap/allstrongdirect positive-repair andsignednecessaryresponse scopes, 4proofs+differentfresh/root, C062/stopped, cadenceONCE0->1/history63/latest599/formal20, board/library138metadataonly; no authorPDF orcore/wholeGoalcompletion.",
-  "source_verification": null,
-  "metadata_child_condition": null
+  "source_verification": {
+    "commit": "c4ee9b6302ad746c13e7e42f5e85616a69f3c221",
+    "tree": "794a1e3141b7190d4cc95afb7a756f485f49292a",
+    "sole_parent": "ce1a85e846b0ea3e892b679b994460c1bb75806d",
+    "source_changed_paths": 26,
+    "observed_at_utc": "2026-10-29T10:10:14.159839+00:00",
+    "basis": "Independent connectedGitHub actualmainref/gitcommit/gittree matchlocalHEAD/tree/soleparent; source-ready checkpoint andclean passed.",
+    "bindings": "20 immutable root inputbindings; all4originals+differentfresh19749 byteexact staged; Goal/595-598/formal20 guardsunchanged",
+    "cadence_literature": "One599math0->1/history63/latest599/formal20 held; library138metadataonly/noauthorPDF",
+    "new_key_or_whole_improvement": false
+  },
+  "metadata_child_condition": {
+    "parent": "c4ee9b6302ad746c13e7e42f5e85616a69f3c221",
+    "exact_paths": [
+      "goals/STATE.json",
+      "goals/checkpoints/2026-10-29-prime-ising-599-sync.json",
+      "reviews/2026-10-29/prime-ising-critical/remote-sync-verification.json"
+    ],
+    "condition": "One normalmetadatachild; independently actualmainref/gitcommit/gittree/localHEAD/tree/soleparent/exact3changedpaths/clean/checkpoint +rootbindings/cadence1history63latest599formal20/library138 match =>publicationcomplete. No selfSHA/repeatpush.",
+    "on_match": "This child actualverifiedSHA isfinalHEAD. All599 proof/scope/counter/board/librarypublication complete; sameGoalactive/open. C062stopped; no admittedresearchsuccessor, genuinelydifferentactual input-test-net required, no lambda/scale/source queue."
+  }
 }
