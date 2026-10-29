@@ -3,11 +3,22 @@
   "date": "2026-10-30",
   "repository": "https://github.com/lixiang90/RH-Weil",
   "branch": "main",
-  "status": "source-publication-pending",
+  "status": "source-verified-metadata-child-condition-armed",
   "source_parent": "e02515dd63da310fca43f00423c5263087226451",
   "authorization": "Userdirectper-roundpublicmain sync/Goal§5/command10808proxy.",
   "scope": "SinglecanonicalEuler-innerClark actualconstruction/directstandard+oldgerm0stop,13385/14858/different12625/root19bindings; onlyfixedL2pair/WOT noSOT/norm/growing; noC066/603/newmath/keycoreimprovement. Solecadence6813originalraw0history66latest602formal21/library140manifest218597unchanged; no newexternalprimaryPDFchapter. All3Goalgatesopen/sameactive.",
-  "source_verification": null,
+  "source_verification": {
+    "commit": "1d97a4886c17db774de9a9538340999da31ee7d3",
+    "tree": "6836da43cc049802e825a44f0cdfa0204411ef45",
+    "sole_parent": "e02515dd63da310fca43f00423c5263087226451",
+    "source_changed_paths": 16,
+    "observed_at_utc": "2026-10-29T18:13:38.783711+00:00",
+    "basis": "IndependentconnectedGitHub actualmainref/gitcommit/gittree=localHEAD/tree/soleparent,exact16/clean/sourcecheckpoint PASS. Actualall16indexraw and19rootbindings exact.",
+    "cadence_literature": "Cadence6813rawSHA0bd41adf...unchanged0/history66/latest602/formal21; manifest218597rawSHAdec7cfaf...unchanged140; no newexternalprimaryPDFchapter.",
+    "new_key_or_whole_improvement": false,
+    "new_math_iterations": 0,
+    "goal_gates": "all3open/sameactive1793085111"
+  },
   "metadata_child_condition": {
     "exact_paths": [
       "goals/STATE.json",
@@ -15,6 +26,7 @@
       "reviews/2026-10-30/euler-inner-clark-admission/remote-sync-verification.json"
     ],
     "condition": "AfterindependentactualsourceHEAD/ref/commit/tree/soleparent/sourcepaths/clean/checkpoint/19rawbindings, ONEexact3metadatachild thenindependentactualfinalref/commit/tree/localHEAD/soleparent/exact3/clean/checkpoint/19pins/cadence6813originalraw0history66latest602formal21/library140manifest218597raw. No selfSHA/recursivepush.",
-    "on_match": "ActualmatchingchildSHA finalHEAD; currentpublicationcomplete. SameGoalactive/C065exhausted/noC066603; noautomaticclock/parameter/secondconstruction/sourcequeue; differentactualinput-test-strongoldnetbeforeanynewcontract/count."
+    "on_match": "ActualmatchingchildSHA finalHEAD; currentpublicationcomplete. SameGoalactive/C065exhausted/noC066603; noautomaticclock/parameter/secondconstruction/sourcequeue; differentactualinput-test-strongoldnetbeforeanynewcontract/count.",
+    "parent": "1d97a4886c17db774de9a9538340999da31ee7d3"
   }
 }
