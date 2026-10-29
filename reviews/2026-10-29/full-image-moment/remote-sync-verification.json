@@ -3,18 +3,30 @@
   "date": "2026-10-29",
   "repository": "https://github.com/lixiang90/RH-Weil",
   "branch": "main",
-  "status": "scientific-source-preparing",
+  "status": "source-verified-metadata-child-condition-armed",
   "source_parent": "269b391fe01c7211076b096f604bb5e9d8e3aaa9",
   "authorization": "Userdirectper-roundsync andGoalsection5 publicmain, no new permission required.",
   "scope": "598oneactualmath +formal20zeromath, proof/root/correction/cadence/state/board/libraryscope/frozenunexecutedlocator/checkpoint. No rawPDF/Goal/595-597changes.",
-  "source_verification": null,
+  "source_verification": {
+    "commit": "6de936a346c0d0f41cc240c5e75c1f6d93aeb5ef",
+    "tree": "0308a01edbaec5510563c81cde818ad6602f684f",
+    "sole_parent": "269b391fe01c7211076b096f604bb5e9d8e3aaa9",
+    "source_changed_paths": 29,
+    "observed_at_utc": "2026-10-29T08:25:26.240481+00:00",
+    "basis": "Independent connected GitHub GET main ref/git commit/git tree matchactual local source HEAD/tree/soleparent; localclean/sourcecheckpoint passed.",
+    "raw_bindings": "13math+18macro (28unique indexbytes verified)",
+    "cadence": "math3->4/history62/latest598 thenmacro4->0once/formal20; latest598once",
+    "library_entries": 137,
+    "locator": "Unexecuted, no newsource ormathbudget."
+  },
   "metadata_child_condition": {
-    "parent": "resolveaftersourceindependentverification",
+    "parent": "6de936a346c0d0f41cc240c5e75c1f6d93aeb5ef",
     "exact_paths": [
       "goals/STATE.json",
       "goals/checkpoints/2026-10-29-full-image-598-macro20-sync.json",
       "reviews/2026-10-29/full-image-moment/remote-sync-verification.json"
     ],
-    "condition": "One normalmetadatachild; independentlyactualmainref/commit/tree matchlocalHEAD/tree/soleparent/exact3paths/clean/checkpoint. Onmatchpublicationcomplete/no selfSHAwrite/repeatpush; nextonlyfrozenuntracedintegral nonmathlocator."
+    "condition": "One normalmetadatachild; independentlyactualmainref/commit/tree matchlocalHEAD/tree/soleparent/exact3paths/clean/checkpoint. Onmatchpublicationcomplete/no selfSHAwrite/repeatpush; nextonlyfrozenuntracedintegral nonmathlocator.",
+    "on_match": "Publication complete for598+formal20; actualindependentlyverifiedchildisfinalHEAD. No recursive selfSHA edits/repeatpush; resumeonlyfrozen3query untracedintegral nonmathlocator."
   }
 }
