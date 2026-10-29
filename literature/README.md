@@ -1,5 +1,7 @@
 # RH-Weil 文献索引
 
+2026-10-29，[BO固定数域/高度秩读取范围](supplements/2026-10-29-heegner-fixed-field-height-rank-scope.md)：同PDF24/25的初始CMfield及Lemma(ii)(iv)核Delta1 trace下降Q，同PDF15新增必要MW/J(F) statement的cited消费；不改历史Th3.2读取范围、不重证引用。一次同PDF locator曝光intro/§7片段未消费，无新paper/下载，库134。两原件/不同fresh/root把共同finite-feature height-pair与537正Gram比较为标准直接旧0，保非线性对角/连续family/Green等逃逸；不付M37非零height/正号。Cadence1/history59/latest595/formal19原字节保持，下一非formal核心输入审视未执行。
+
 2026-10-29，[BO2010指定Heegner章实际读取](supplements/2026-10-29-heegner-principal-chapter-scope.md)：同一固定PDF不增版本/库134；root/source/fresh各自目视PDF15/24/25/28/29及30顶部Remark14，核§5.1与必要defs/Th3.2，原eta负号/Delta1 constant/cusp条件准确保留。邻页/§6曝光范围如实记录，未消费后章或追引用。只付typedcycle/conditionalprincipal，未付physical全Pan537/du/height/mixed桥，来源0止/无C059，cadence1/history59/latest595/formal19原字节不动。下一fixed-field height-rank准入比较尚未执行，全文和页图仍ignored本地。
 
 2026-10-29，[同源点态诊断与Heegner定位范围](supplements/2026-10-29-physical-point-and-heegner-locator-scope.md)：Liu旧版本不变，实际224源/48pins重放只给Llow正/P0负同源分离，0新增数学轮，cadence1/history59/latest595/formal19原字节保持。新增Bruinier–Ono Annals2010固定publisher PDF，本地1642204bytes/50PDF页/文章47页，SHA及下载回执公开，全文页图ignored；manifest133→134。只读metadata/abstract/web locator与本地PDF1–2，§5.1数学章门尚未执行，不冒认principal/Green/height或physical全Pan桥已付。

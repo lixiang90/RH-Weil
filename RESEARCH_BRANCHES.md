@@ -1,6 +1,6 @@
 # 研究分支看板
 
-2026-10-29，[Heegner指定章来源门已止](goals/reviews/2026-10-29-heegner-principal-source-gate-stop.md)：真实degree0 cycle/规范第三类微分及条件性principal可引用，M37/Delta1形式cycle可校型；physicalMaass/Pan537/du/height/mixed仍欠。两原稿/不同fresh/root已核，finiteX同采样类消全Pan即消全source是405直接旧消费；不排cofinal/额外Green/relative。来源0止/无C059，不续章、引用或参数；cadence1/history59/latest595/formal19原字节保持，文献134本地全文。唯一下一为actual fixed-field height-rank与537正Gram的准入比较，尚未执行，不先报边界已证。主primitive/principal/sections/mixed/growingcorecross/Xi及whole4/5负惯性UPPER不变，595/P0与同源Llow点态结论原范围保，Goalactive；当前发布见STATE。
+2026-10-29，[fixed-field共同高度Gram旧0止](goals/reviews/2026-10-29-heegner-fixed-field-rank-old-stop.md)：实际Delta1 trace降Q与固定MW目标已核，field10093/Gram11360/differentfresh8403/root闭。共同有界总feature的height-pair不能逐项恢复537完整mixed正Gram；不排非线性对角、growing/连续通道、额外Green/relative或变field/level，不付height正号。0新增数学轮/无C059/596，cadence1/history59/latest595/formal19原字节保持，文献134。核心primitive/principal/sections/mixed/growingcorecross/Xi及whole4/5负惯性UPPER未改。下一仅非formal核心输入/机会成本审视，未执行、不重置计数；停止field/class/Gram/参数链。Goalactive，准确发布见STATE。
 
 2026-10-29，[Sonin Gram determinant旧0止](goals/reviews/2026-10-29-sonin-gram-determinant-old-stop.md)：两原稿/不同限定fresh/root已闭，ordinary夹心S₁与Gram PD合法，但自然source的mixed Levi精确为旧V_R，直接受591三测试及正weight必要费约束。Scalarτ全纯平坦/Gram度量/dual号分清；nonholomorphic新metric、pointwise非线性、relative signed、principal Green补偿仍未排。仅停止本自然curvature提案，不当全部detline失败；关键primitive/mixed/corecross/Ξ与whole4/5UPPER不变，数学0/cadence0/history58/latest594/formal19及manifest132保持。当前准确范围授权发布，无C058/595或已准继任预算。
 
