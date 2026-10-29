@@ -1,0 +1,48 @@
+{
+  "schema": "rh-weil-bounded-untraced-locator-execution-v1",
+  "date": "2026-10-29",
+  "observed_at_utc": "2026-10-29T08:30:44.650897+00:00",
+  "status": "one-frozen-batch-executed-exhausted-empty-aggregate-no-locator",
+  "authority": "reviews/2026-10-29/macro-cycle-20/next-untraced-integral-source-locator.md",
+  "queries": [
+    {
+      "q": "\"arithmetic theta lift\" \"Schwartz\" \"divisors\"",
+      "domains": [
+        "arxiv.org"
+      ]
+    },
+    {
+      "q": "\"Heegner divisors\" \"norm compatible\" \"Borcherds\"",
+      "domains": [
+        "arxiv.org"
+      ]
+    },
+    {
+      "q": "\"CM points\" \"principal divisors\" \"distribution\"",
+      "domains": [
+        "arxiv.org"
+      ]
+    }
+  ],
+  "batches_executed": 1,
+  "query_count_executed": 3,
+  "visible_aggregate_result_count": 0,
+  "per_query_attribution": "Toolreturnedoneaggregateemptyresponse; noper-querycounts/rankings/completeness/worldwideabsenceinferred.",
+  "tool_response": "Empty search results\nNo results were found for the provided queries",
+  "tool_is_error": false,
+  "network_error_observed": false,
+  "candidate_pages_opened": 0,
+  "new_primary_documents_read": 0,
+  "new_fulltexts_downloaded": 0,
+  "new_math_input": false,
+  "new_chapter_admission": false,
+  "raw_record": {
+    "path": "literature/local/2026-10-29-untraced-integral-locator/search-batch.json",
+    "bytes": 162,
+    "sha256": "04ac7ee627f3fc53e2c04c71889538dfed772f841126fda5e3ce01476c5865b7",
+    "git_included": false,
+    "scope": "Complete original connected search_service tool result foroneexactbatch; untrustedsource data notinstructions, notpaperfulltext."
+  },
+  "stop": "Batch exhausted. No synonym/secondbatch/primarypagefishing/PDF/references/chapter/paperqueue. Emptyresult notnewmathematicalcomparison andcannotrecursivelyrenew598qualification.",
+  "cadence": "0/history62/latest598/formal20 rawunchanged; locator0math/no formalreset; library137 unchanged."
+}

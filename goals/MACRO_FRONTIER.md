@@ -1,5 +1,8 @@
 # 宏观前沿：可消费范围与最小未付箭头
 
+2026-10-29，[未trace整数源locator已0止](reviews/2026-10-29-untraced-integral-locator-empty-stop.md)：598支持的原样三query/一批已实际执行，connected工具聚合空/isError=false，无报告网络错；完整162raw本地ignored、1942执行记录/不同8631审查/root7bindings闭。0页/0新primary/0全文/0章/0数学，不推全网无输入。预算耗尽，不换词/二批/PDF/引用/后章，不以空结果递归续资格。原cadence6686bytes保持0/history62/latest598/formal20，manifest137原字节不动。关键primitive/principal/mixed/corecross/Ξ及whole4/5负惯性UPPER未改，Goalactive/open。先准确范围发布；此后无已准继任，须先新actual公式/明确未审章或固定核心比较input-test-net，不把escape/库存改名。执行及缺失输入见STATE。
+
+
 2026-10-29，[598＋formal20已结算](reviews/2026-10-29-general-rh-macro-review-cycle-20.md)：同S_exp/actualJ完整可数Pan全像及sameB exact/mixed/pointwise退化已三稿/root闭；两macro支持14280/14367、修正6488、不同10810/root闭，原6485否定笔误保不可消费并重闭。595–598四数学轮先原3→4/history62/latest598，再正式20仅原4→0一次，复盘0数学。关键primitive/principal/mixed/corecross/Ξ与whole4/5负惯性UPPER未改，三Goal门open，同实例active。停止编码/selector/增量求和/充分target及旧章自动续造；extraactualdata/实际域/独立Dprime保。唯一下一先准确范围发布核actualHEAD，再新598比较所支持的一批三query非数学untraced整数源locator，尚未执行/非sourcePASS/无C062或599。库137无新原文，详细因果及执行见STATE。
 
 

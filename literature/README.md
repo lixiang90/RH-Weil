@@ -1,5 +1,8 @@
 # RH-Weil 文献索引
 
+2026-10-29：formal20冻结的未trace整数源三query一批返回聚合空且工具未报告错误，0候选页/原文/下载/新章，库137及manifest原字节保持。只加[检索范围说明](supplements/2026-10-29-untraced-integral-locator-empty-scope.md)，不登记计划/工具回复为新文献，不据空结果续批或推全网不存在。
+
+
 2026-10-29：598同一S_exp的完整可数Mellin/Pan全像已root闭，三角/实际Schwartz原像为本项目推导；无新paper/PDF/web，库137保持。既有Osipov作者主proof仍未审，不把598same-data边界当独立正性。详见[supplement](supplements/2026-10-29-countable-mellin-full-image-scope.md)；正式宏观20已不同审稿/root闭，下一locator尚未执行/非新来源。
 
 

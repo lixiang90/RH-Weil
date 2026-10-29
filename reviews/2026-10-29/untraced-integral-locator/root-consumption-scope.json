@@ -1,0 +1,70 @@
+{
+  "schema": "rh-weil-root-consumption-v1",
+  "date": "2026-10-29",
+  "runtime_goal_created_at": 1793085111,
+  "goal": "goals/GOAL.20261027.md",
+  "baseline_commit": "0c4f3a3eb609bb1d9564138fa4a35701f05605f2",
+  "decision": "D20261029AF",
+  "status": "root-consumed-bounded-locator-empty-zero-stop",
+  "inputs": [
+    {
+      "path": "goals/GOAL.20261027.md",
+      "bytes": 9679,
+      "sha256": "b3d2acb1f962d793f45d79b6a4e67fb87dd072cd4752108a9298204b4cefa1de",
+      "scope": "actualcurrentinput"
+    },
+    {
+      "path": "goals/reviews/2026-10-29-general-rh-macro-review-cycle-20.md",
+      "bytes": 7594,
+      "sha256": "45c1bedce9d8bf0cd94fd4e0d0e951ef22e22ff3b9c5822eb771513eb5767121",
+      "scope": "actualcurrentinput"
+    },
+    {
+      "path": "reviews/2026-10-29/macro-cycle-20/next-untraced-integral-source-locator.md",
+      "bytes": 2857,
+      "sha256": "5126969541e74d56e06125135d4f17f4b021461700b6175bd4fdfa8729317b47",
+      "scope": "actualcurrentinput"
+    },
+    {
+      "path": "reviews/2026-10-29/untraced-integral-locator/execution-start.json",
+      "bytes": 1126,
+      "sha256": "799eb87e26077869e6fa195247753c17f70431bf4c127faf319e7e042ac16826",
+      "scope": "actualcurrentinput"
+    },
+    {
+      "path": "reviews/2026-10-29/untraced-integral-locator/query-execution-record.json",
+      "bytes": 1942,
+      "sha256": "da35672a2fc82a66cda195618ee4556cfa5bbd4d461527bbdfd6e622bedb7b3a",
+      "scope": "actualcurrentinput"
+    },
+    {
+      "path": "reviews/2026-10-29/untraced-integral-locator/old-scope-and-candidate-audit.md",
+      "bytes": 8631,
+      "sha256": "94194e60f34809052e270f68d43906f758b4ec049eeebdee3ed4ad37460996b4",
+      "scope": "actualcurrentinput"
+    },
+    {
+      "path": "literature/local/2026-10-29-untraced-integral-locator/search-batch.json",
+      "bytes": 162,
+      "sha256": "04ac7ee627f3fc53e2c04c71889538dfed772f841126fda5e3ce01476c5865b7",
+      "scope": "ignored-local-complete-toolresponse"
+    }
+  ],
+  "root_read": "Current2857authority/execution1126/query1942/raw162 anddifferent8631audit fullread/hashchecked; prioractual72401b74 finalpublication independentlyreverified; sameGoalactive rootlive.",
+  "actual_execution": "Onebatch exact3frozenqueries connectedsearch_service, aggregateempty/isErrorfalse/no reportednetworkerror. No retry/candidatepage/primary/fulltext/chapter.",
+  "classification": "0mathematicaliterations, noformal21/reset. No newsource/input; doesnotprove worldwideabsence, mathematicalfailure orperqueryexhaustiveness.",
+  "norm_domain_consequence": "No new r->actualprincipal/mixed/positive/core bridge orsource/norm theorem. 598sameB fullimage andallstrongold unchanged; no whole/keybottleneckgain.",
+  "cadence_preserved": {
+    "bytes": 6686,
+    "sha256": "df084f1fd7652cefa1c1d18243416c6a5c51b6df31970ec1d8bbde3f01d4f187",
+    "rounds": 0,
+    "historical": 62,
+    "latest": 598,
+    "formal": 20
+  },
+  "library": "137entries/manifest rawunchanged, onlysearchscope explanation. No paperpages/download/newentry.",
+  "stop": "Batchexhausted; no synonym/secondbatch/PDF/references/chapter/oldpaperqueue. Emptyresult notnewcomparisontorenew598qualification.",
+  "successor": "No admittedmath/source successor. Mustfirstproduceactualnewformula/preciseunreadprimarychapter orfixedactualcomparison withnewcoreinput-test-net beforeexecution; cannotrenameescape/inventory/emptyresult/keywords.",
+  "completion": "SameGoalactive, fullthreegatesopen/noteligible; locatorstop noGoalcomplete/paused/blocked.",
+  "observed_at_utc": "2026-10-29T08:38:46.136850+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-29",
+  "runtime_goal_created_at": 1793085111,
+  "prior_turn": "progress:598 exactfullimage andformal20 rootsettled/published independentlyverified",
+  "prior_final_publication": {
+    "head": "72401b74cf1f5d13ad5e05b334b27c3451f6ad98",
+    "tree": "4f63a5dfe2c010a6a69a7ae2d9162a3fd118c6e3",
+    "sole_parent": "6de936a346c0d0f41cc240c5e75c1f6d93aeb5ef",
+    "exact_metadata_paths": 3,
+    "independent_connected_github_ref_commit_tree": true,
+    "clean_checkpoint": true
+  },
+  "authority": {
+    "path": "reviews/2026-10-29/macro-cycle-20/next-untraced-integral-source-locator.md",
+    "bytes": 2857,
+    "sha256": "5126969541e74d56e06125135d4f17f4b021461700b6175bd4fdfa8729317b47"
+  },
+  "cadence_guard": {
+    "bytes": 6686,
+    "sha256": "df084f1fd7652cefa1c1d18243416c6a5c51b6df31970ec1d8bbde3f01d4f187",
+    "rounds": 0,
+    "historical": 62,
+    "latest": 598,
+    "formal": 20
+  },
+  "observed_at_utc": "2026-10-29T08:29:31.552454+00:00",
+  "action": "Only exact3query onebatch nonmath primarylocator; atmost1locatedprimarypage/no automaticPDF/chapter/math. Old/empty0stop, norecursivebatch."
+}
