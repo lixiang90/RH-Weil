@@ -1,0 +1,209 @@
+{
+  "schema": "rh-weil-root-premise-closure-v1",
+  "date": "2026-10-29",
+  "observed_at_utc": "2026-10-29T12:05:30.373686+00:00",
+  "runtime_goal_created_at": 1793085111,
+  "baseline": "0c4f3a3eb609bb1d9564138fa4a35701f05605f2",
+  "status": "root-consumed-limited-PASS",
+  "note": "notes/601-haran-integer-matrix-affine-self-pushout-collapse.md",
+  "contract": "goals/contracts/C064-haran-integer-affine-fold.md",
+  "bindings": [
+    {
+      "path": "reviews/2026-10-29/post-600-new-input/principal-formula-and-first-gate.md",
+      "bytes": 10689,
+      "sha256": "2a56cb4b3ef85171fda744061140069d49a0c6ca6f977f4fd61d6957bb3a619d",
+      "consumption": "Root fulltext read, independent finite calculation and role/scope reconciliation; exact terminal raw version; no later author/source pages imported."
+    },
+    {
+      "path": "reviews/2026-10-29/post-600-new-input/joint-core-formula-and-first-gate.md",
+      "bytes": 14869,
+      "sha256": "2a1324748fe0810c5f0145798e4554ec2d7783a19991e0e0589a4772cd6e07dc",
+      "consumption": "Root fulltext read, independent finite calculation and role/scope reconciliation; exact terminal raw version; no later author/source pages imported."
+    },
+    {
+      "path": "reviews/2026-10-29/post-600-new-input/haran-additive-collapse-check.md",
+      "bytes": 12921,
+      "sha256": "57a726ce1909564a6ffa8b974e0de642ed5fefa360956981bc4d732d02e095ce",
+      "consumption": "Root fulltext read, independent finite calculation and role/scope reconciliation; exact terminal raw version; no later author/source pages imported."
+    },
+    {
+      "path": "reviews/2026-10-29/post-600-new-input/haran-fold-countercheck.md",
+      "bytes": 11645,
+      "sha256": "76e6e31c0e550b21e53fd160b6ec659b9baf582779214da6febda277eefcb549",
+      "consumption": "Root fulltext read, independent finite calculation and role/scope reconciliation; exact terminal raw version; no later author/source pages imported."
+    },
+    {
+      "path": "reviews/2026-10-29/post-600-new-input/fresh-formula-and-haran-source-audit.md",
+      "bytes": 16122,
+      "sha256": "1d1cdaa4bd23250426b42ad87a05faf25229beb108dbbfe052b8a3971dd915d7",
+      "consumption": "Root fulltext read, independent finite calculation and role/scope reconciliation; exact terminal raw version; no later author/source pages imported."
+    },
+    {
+      "path": "reviews/2026-10-29/post-600-new-input/haran-faithful-zero-and-selfcase-scope-closure.md",
+      "bytes": 3009,
+      "sha256": "c964dea0c2f44eb0f4c58e22f1bc37e72f5ff3b9d42e9d514b269569b716e07f",
+      "consumption": "Root fulltext read, independent finite calculation and role/scope reconciliation; exact terminal raw version; no later author/source pages imported."
+    },
+    {
+      "path": "reviews/2026-10-29/post-600-new-input/execution-start.json",
+      "bytes": 929,
+      "sha256": "007b61a6d289d5c7e338401c151464f57c462e76cbedf79d08ff3e5c48774f80",
+      "consumption": "Root original admission/recovery/correction fullread; initial tensor object frozen; source and round pregrants not inferred."
+    },
+    {
+      "path": "reviews/2026-10-29/post-600-new-input/haran-section72-source-admission.md",
+      "bytes": 2454,
+      "sha256": "a982d99e4fabe4801ab4cb3322735aa960dbc0fd537113dc2c79a4f33310d327",
+      "consumption": "Root original admission/recovery/correction fullread; initial tensor object frozen; source and round pregrants not inferred."
+    },
+    {
+      "path": "reviews/2026-10-29/post-600-new-input/haran-locator-scope-correction.md",
+      "bytes": 2463,
+      "sha256": "8f577f3e3ddd606d02c1a6ab99d17026c5875baf772c1d425266fa4d1ceb80e3",
+      "consumption": "Root original admission/recovery/correction fullread; initial tensor object frozen; source and round pregrants not inferred."
+    },
+    {
+      "path": "reviews/2026-10-29/post-600-new-input/haran-fold-first-gate-admission.md",
+      "bytes": 1814,
+      "sha256": "9d48d6f60269d6ae80f47f45328bd4faf69c1632b429519dc72e95e3769c67c2",
+      "consumption": "Root original admission/recovery/correction fullread; initial tensor object frozen; source and round pregrants not inferred."
+    },
+    {
+      "path": "literature/local/2026-10-29-haran-section72/haran-non-additive-2007.pdf",
+      "bytes": 1032382,
+      "sha256": "1befc0e1fa8465d29a452d75bbcf02ded93a50b12c179a0b48303570ca60570f",
+      "consumption": "Actual rawPDF metadata/TOC, text627-628 Def2.1/2.9,632 Example1,671-675 section7.1/7.2; root visual1/627/628/671/674/675. Extra6tail/8/Example2 exposed unconsumed. Fulltext ignored; no allauthorproof audit."
+    },
+    {
+      "path": "goals/GOAL.20261027.md",
+      "bytes": 9679,
+      "sha256": "b3d2acb1f962d793f45d79b6a4e67fb87dd072cd4752108a9298204b4cefa1de",
+      "consumption": "Root fullread unchanged completion gate/baseline/runtime identity; no completion."
+    },
+    {
+      "path": "goals/contracts/C063-rank-two-period-positive-cone.md",
+      "bytes": 1517,
+      "sha256": "e242d79457f2721ac77aa50d9666456e3ea77b6d7597937b4b93f061188271cb",
+      "consumption": "Root fullread stopped prior budget, not resumed."
+    },
+    {
+      "path": "goals/contracts/C064-haran-integer-affine-fold.md",
+      "bytes": 2047,
+      "sha256": "765aa6546b77297a475a0003ce6c4a362736915ae36eb014874d3f3d21971399",
+      "consumption": "Root finite actualadmission responsibility registration; settled once601, not retrospective pregrant."
+    },
+    {
+      "path": "notes/601-haran-integer-matrix-affine-self-pushout-collapse.md",
+      "bytes": 6695,
+      "sha256": "3bedc8604ee09d49432a04bf692200603723bff60688e2cb78fd2210da934a3c",
+      "consumption": "Root independent final synthesis, exact typed maps/matrix word/faithfulzero/strongestold/limitedscope."
+    },
+    {
+      "path": "notes/363-f1-arithmetic-geometry-and-existence-audit.md",
+      "bytes": 15561,
+      "sha256": "be7d7668a14ba28cdb0c021651ccf019fd284ee67b1d90278bc8557a6b64b18c",
+      "consumption": "Root directed source-map and section5 Borger/Lorscheid comparison; differentcategory, notsameHaranfold paid."
+    },
+    {
+      "path": "notes/553-principal-cyclic-closure-and-cofinal-readout-fees.md",
+      "bytes": 6613,
+      "sha256": "35a40c35d1eaa7fafb462361ddef1bfb9643402b5670f832b9142aeb4b74abce",
+      "consumption": "Existing paid actualPan L2dense/continuous necessary coefficient; used only0 duplicate gate."
+    },
+    {
+      "path": "notes/560-joint-finite-place-sonin-primepower-cancellation-and-compact-weil-bridge.md",
+      "bytes": 9263,
+      "sha256": "9c2e6cd5a9eae269ad04b332699c21eec7403a230f9557afa8b895c45d4228d3",
+      "consumption": "Existing paid actualSonin/wholefiniteEuler inverse and fixedpositiveinterval carrier; fresh fullread/root formula reconciled; no coregain."
+    },
+    {
+      "path": "reviews/2026-10-28/framed-holonomy-closure/pan-coefficients-and-strongest-old-closure.md",
+      "bytes": 8361,
+      "sha256": "37b4f87afaa5b18306792633d56d26f933b3fd675bead37ab40fda79cacea284",
+      "consumption": "Existing paid exact second coefficient/actual405Pan; fresh fullread, root newcoefficient exact comparison."
+    },
+    {
+      "path": "reviews/2026-10-28/framed-holonomy-closure/root-consumption-scope.json",
+      "bytes": 8397,
+      "sha256": "5f5043bdc3842584e16888c2c7dc38be9ba9abdf946a93d0796a7b591fce1ec0",
+      "consumption": "Existing root-closed coefficient/gauge scope, no reauditing every nestedfile."
+    },
+    {
+      "path": "reviews/2026-10-29/rank-two-period/root-consumption-scope.json",
+      "bytes": 14835,
+      "sha256": "f80aaa83d8c63e5b87702c31386ba3613f778f3536c38ca85b47e9a480a71aa6",
+      "consumption": "Prior600 paid fulla spectrum/cone baseline, not recounted; publication separately reverified."
+    },
+    {
+      "path": "reviews/2026-10-29/weil-9-8-physical-lower-gate/root-consumption-scope.json",
+      "bytes": 15115,
+      "sha256": "c0c0daa055990605e6fc361df00bc3ce5f19079d25a60a93ec4b72d022c496fb",
+      "consumption": "Strongest consumable same595 physicalchain/gap alreadypaid, no samev/core recomputation."
+    },
+    {
+      "path": "goals/reviews/2026-10-29-general-rh-macro-review-cycle-20.md",
+      "bytes": 7594,
+      "sha256": "45c1bedce9d8bf0cd94fd4e0d0e951ef22e22ff3b9c5822eb771513eb5767121",
+      "consumption": "Unchanged latest formalreview; no cycle21/reset."
+    },
+    {
+      "path": "goals/reviews/2026-10-29-haran-affine-601-settlement.md",
+      "bytes": 2744,
+      "sha256": "664b7acc27bd7a2599a440b9472c20054ad9996357abcb10da9b46c37f84d71e",
+      "consumption": "Root settlement/causal scope and stop; next input admission required."
+    }
+  ],
+  "object_domain_range_roles": {
+    "haran": "M=Mat(Z) all finite matrix morphisms; arbitrary literal2007 F-ring C with fulltensor bifunctor. Maps fi:M->C fixedF/operationpreserving; no targetpreadditivity assumed. Hom(M,C)<=1 not Hom(C,M); F initial, F->M epi.",
+    "selfpair": "M withtwoid directly representspushout. B=M circledcirc_F M,i:M->B,d:B->M inverse. Spec(i):SpecB->SpecM projection; Spec(d):SpecM->SpecB diagonal. Neither genericmodule tensor nor fullcompactifiedsquare.",
+    "physical_roles": "No actualphysical r->D_r in Haran gate; legal affine object notcoverage. Initialprincipal S_exp framedconnection readscomplexbilinear C=.5 rKr; newGram physicalpointwiseMr distinctoldreceiverMhatr, auxiliaryHilbertvectors notWeilsources."
+  },
+  "source_growth_norm_quantifiers": {
+    "haran": "Alltarget C andallfinite X,Y integer matrices; finite exactwords, noapproximation/norm/growth. No physicaldu/Dlog transport.",
+    "principal0": "Wholemap controlledS_exp/fixedL fee e^(L/2)sqrt(2L); necessaryC globalducontinuous, actualPan alltranslations C>0. No globalwholeholonomydu bound.",
+    "gram0": "Onefixedrealcompact smooth balancedr forEVERY firstfixed finiteF containing2 and0<abs(tau)<2pi; receiverpatch/threshold maydependF. No uniformF rate/core norm transport; relativeD-I noncompact, no finiteSchattendet."
+  },
+  "paid_dependency_chain": [
+    "Actual Def2.1 fullmixedtensor+Def2.9 fixedF -> common sigma/delta -> commonintegers -> typed finiteword allmatrices -> Hom uniqueness -> selfpushoutfold iso.",
+    "LiteralfaithfulF distinguishes0/id; Example1 MatF2/MatF3 legal -> no commoncocone. Generalallpairsstatement frozen; selfidcocone independent.",
+    "Old holonomy C and405Pan/density alreadyrootpaid -> principalnewpresentation duplicate0.",
+    "Old560 positiveinterval carrier + exactfiniteEuler shiftalgebra -> rawgaugeGram domainfail0; no fullWeilHessian identity."
+  ],
+  "semantic_corrections": {
+    "tensor_locator": "Initialsource-admission raw preserved, module tensor invalid carrier frozen; actualcircledcirc used.",
+    "faithfulzero": "Do notconsume general7.1 allpairs literalexistence; no conclusion about fullpaper convention/compactifiedQcharts. Selfpair directly reclosed without7.1.",
+    "spec_direction": "Root3009 record preserves initialprojection mislabeledfold andappended directionalcorrection; fresh16122 checked final3009. Only corrected Spec(i) projection/Spec(d) diagonal consumed."
+  },
+  "sign_errors_and_coverage": {
+    "haran": "Exactfinite equality, zeroerrors. No physicalHermitian sign/Γ/contact/pp/poles orsourcecoverage/coupling paid. No equality entirecompactification/correspondence vanish claimed.",
+    "principal": "C bilinear notHermitian oncomplex; positiveonactualrealPan ->fails principalrelation in fixedframes; removingframes changescategory/loses537.",
+    "gram": "essnorm>=2^-1/2|exp(itau)-1|/(1+2^-1/2)^2 forF2; anyfiniteFcontains2 hasnonzero log2coefficient. Thisauxiliaryessnorm notcore K/sourcecost. Full560 t-K+indefinitepole untouched."
+  },
+  "strongest_old_and_net": {
+    "haran_new": "363 standardLambda-Z initiality differentcategory notactualHaran wholematrix; finiteaffinecarrier independence rejection newlypaid, stops specificcandidate.",
+    "old_classical": "542+555->557 wholeleading4/5 negative-inertiaUPPER unchanged; 537 fixed17/16 positive notgrowing; no RHproof.",
+    "strongest_same595": "v->Bc v->Gamma^-1/2raw Vintv/(18Cw),all224Legendre/Dlog/rootFraction alreadypaid; Llow in(2^-62,2^-61),P0 in(-2^-67,-2^-68),fullQpoint andgap>2^-62. No samev orleg recalculation.",
+    "key_bottleneck_changed": false,
+    "model_choice_changed": true,
+    "goal_mathematical_gates": "all3open/sameactive/noteligible"
+  },
+  "cadence_consumption": {
+    "classification": "ONE whole newfiniteHaran affineadmission failure601; twoinitialformula0; sources/proofs/corrections/audits/publication no extra",
+    "before": {
+      "bytes": 6899,
+      "sha256": "a3d188ea46b270f9c34ce88ef463aa282e7e9d44fb59babc00fa151f20e029be",
+      "position": "2/history64/latest600/formal20"
+    },
+    "after": {
+      "bytes": 7009,
+      "sha256": "7d6c12281caa1317b3f8dc30569c3d0151441798f09339e8b4448a1bbb01744d",
+      "rounds_since_review": 3,
+      "historical": 65,
+      "latest": "notes/601-haran-integer-matrix-affine-self-pushout-collapse.md",
+      "formal_review": "20 unchanged"
+    },
+    "basis": "Actual finiteadmission1814 fixed falsifiablewholematrix/fold criterion beforetest; actualsourcecategory notpaidby363. Workflow counts newcompleteadmission evenstandardtools/noRH. No math hidden source0."
+  },
+  "stop_and_reentry": "C064onebudget exhausted. Stopthisfold/rank/frames/det2/parameter/sourcechapter/2022/2024/ref sequence. Extraactualdata/differentcategory/compactifiedboundary/bulksubtracted or nonSchatten/Dprime notexcluded, noautomaticbudget. Publishaccuratescope first; furtherresearch requiresactualdifferent principal/mixed/fullsignedcore input-test-strongoldnet.",
+  "pending_processes": []
+}

@@ -1,5 +1,14 @@
 # 研究分支看板
 
+2026-10-29，[601/C064有限仿射门完整结算](goals/reviews/2026-10-29-haran-affine-601-settlement.md)：601/C064已root/fresh闭：Haran2007完整tensor公理迫Hom(F(Z),C)在全部矩阵层至多一元；selfpushout由F(Z)两id直接实现，fold同构。严格忠实零约定下的一般allpairs存在性冻结，selfcase独立重闭；正确Spec投影/对角反变方向及初⊗误写更正保原记录。仅ordinary affine，不判紧化边界/所有F1。两原件12921/11645、不同fresh16122/root24bindings闭；两初formula强旧/typing0。一个新完整有限准入反例统一2→3/history65/latest601/formal20保持，非macro21。库140/论文localignored与限定页范围；核心principal/mixed/corecross/成长Ξ及whole4/5负惯性UPPER未改，Goalactive/open。停止本族/后章/参数续链；先准确发布，后继须actual不同input-test-strongoldnet。
+
+| 本轮路线 | 状态 | 已付 / 未付与重准入 |
+|---|---|---|
+| Haran2007整数普通仿射两槽 | 完整有限准入反例，601停止 | 全矩阵唯一性与fold同构已付；紧化边界/physical源/mixedRR未付，不顺读后章 |
+| 秩三framed连接 | exact强旧0撤销 | 必要中央系数等于旧Green C；不调rank/frames重授 |
+| pointwise Euler gauge Gram | raw det域typing0止 | 同fixed源/每finiteF含2非紧；不同bulk/nonSchatten方案未排且无预算 |
+| 长期核心 | 继续开放 | 须actual principal/mixed/fullsignedcore公式及能改变选择的测试；cadence3，默认6轮复盘、8上限 |
+
 2026-10-29，[600/C063完整结算](goals/reviews/2026-10-29-rank-two-period-600-settlement.md)：600/C063已root结算：实际rank2截断Eisenstein积分G_a的无RH全零轴/simple/全a谱尾闭，V_a=W_a/(1+a)在a∞趋2δ0。余乘积与实轴x^(3/4)反测给405Pan全a泄漏；同一compact差平方Φ严格分离整个共同正混合锥，任意正归一化亦失败。非负添加若fullmatch须period加权质量→0；逐源适应不跨源借质量，signed负响应/差测试及原du范数实现条件分清。三原稿13204/18714/18875、不同fresh17551/root26bindings闭，一完整失败轮1→2/history64/latest600/formal20保持，非macro21。132passivity旧paid，作者后章proof未审；新PDF仅本地库139/前四页实际范围。核心principal/mixed/corecross/Ξ及whole4/5负惯性UPPER未改，Goalactive/open。停止T/phase/clock/rank/后章续链；先准确发布，无已准继任，须新actual核心input-test-net。
 
 2026-10-29，[599/C062完整结算](goals/reviews/2026-10-29-prime-ising-599-settlement.md)：599/C062已root结算：实际素数权critical rankone自旋规则的有限正零轴、HS全复统一极限及完整无限零谱S′/D′均闭；ODE重数≤2＋RvM＋405真实Pan给同一compact精确双pole反测。先给K,m0再选probe，最终≥m0质量实际落在K且大cutoff时，任意正混合/逐源非负添加仍有gap；signed成功须不消失负响应，du norm仅明确bounded Hermitian实现。四原件/不同fresh19749/root20bindings闭，一完整失败轮0→1/history63/latest599/formal20保持，不是macro21。模型选择改变，关键principal/mixed/corecross/Ξ及whole4/5负惯性UPPER未改，Goal同实例active/open。库138新增仅metadata，无作者PDF/证明页。停止本族参数/scale/纸链；先准确发布，无已准继任，须新actual input-test-net。

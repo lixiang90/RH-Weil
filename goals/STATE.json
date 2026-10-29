@@ -8,11 +8,11 @@
   "cadence": "goals/review-cadence.json",
   "decisions": "goals/DECISIONS.md",
   "latest_strategy": "goals/reviews/2026-10-29-general-rh-macro-review-cycle-20.md",
-  "latest_decision": "D20261029AI",
+  "latest_decision": "D20261029AJ",
   "macro_frontier": "goals/MACRO_FRONTIER.md",
-  "macro_summary": "goals/reviews/2026-10-29-rank-two-period-600-settlement.md",
+  "macro_summary": "goals/reviews/2026-10-29-haran-affine-601-settlement.md",
   "latest_macro_review": "goals/reviews/2026-10-29-general-rh-macro-review-cycle-20.md",
-  "latest_iteration": "notes/600-rank-two-eisenstein-period-positive-cone-and-weil-separator.md",
+  "latest_iteration": "notes/601-haran-integer-matrix-affine-self-pushout-collapse.md",
   "macro_control": {
     "schema": "macro-recovery-v2",
     "goal_epoch": "G20261027",
@@ -20,8 +20,8 @@
   },
   "macro": {
     "long_objective": "G20261027接续G20261014完整完成门/原0c4f基线，≤582为输入；持续寻经典同源Weil正性/有效性/RR或actualsigned新输入，付全源/成长/core及谱识别。",
-    "unpaid_bottleneck": "Actualprimitive/principal/sections/mixed,dangeroussignedcorecross/growingXi unpaid;600 actualrank2positiveperiodcone globallyseparatedfromfullWeil. Keycoreinput andwhole4/5negative-inertiaUPPER unchanged.",
-    "why_this_contract": "Actualnew arithmeticperiod formula after13733/14149 inventorychoice gavefullzero/whole-positivecone test. All-a compactification/strictPhi nowrootclosed600; 132HB oldpaid. Modelchoicechanged, noGoalcompletion ornewrank/sourcequeue.",
+    "unpaid_bottleneck": "Actualprimitive/principal/sections/mixed,dangeroussignedcorecross/growingXi unpaid.601 closesonlyHaran2007ordinaryaffine twointeger-slot independence; keycoreinput andwhole4/5negative-inertiaUPPER unchanged.",
+    "why_this_contract": "Corrected actualsourcecircledcirc suppliedfalsifiablefinitefold criterion. Wholematrix uniqueness/selfpushout nowroot/freshclosed; 363Lambda category different. Onecompletefiniteadmission, no Goalcompletion/compactified orsourcequeue.",
     "paused_routes": [
       "零点比例优化",
       "无零区域优化"
@@ -35,23 +35,23 @@
     ]
   },
   "primary_contract": {
-    "id": "C063",
-    "path": "goals/contracts/C063-rank-two-period-positive-cone.md",
+    "id": "C064",
+    "path": "goals/contracts/C064-haran-integer-affine-fold.md",
     "status": "stopped",
     "iteration_budget": 1,
     "settled_iterations": [
-      "notes/600-rank-two-eisenstein-period-positive-cone-and-weil-separator.md"
+      "notes/601-haran-integer-matrix-affine-self-pushout-collapse.md"
     ],
-    "stage": "600/C063rootsettled; sourceb225617 independentref/commit/tree/soleparent/27paths/clean/sourcecheckpoint PASS. Oneexact3metadatachild conditionarmed; onmatchpublicationcomplete, proof/cadence2history64formal20 unchanged.",
-    "next_action": "Execute/verifyONE exact3metadatachild under600receipt: actualfinalref/commit/tree/localHEAD/soleparentb225617/exact3paths/clean/checkpoint/26rootpins/cadence2history64latest600formal20/library139/localPDFignored. Onmatchno morepublication edits; sameGoal/C063stopped/no admittedsuccessor. Newresearchrequiresgenuinelydifferent actualprincipal/mixed/coherentsignedcoreinput-test-net; no T/phase/clock/rank/authorchapter/ref oroldinventory/sourcequery.",
-    "stop_rule": "C063budget1 exhausted; all-a/normalization/cone/mixed/repair/cost samechain consumedonce. Extraactualdata/true signed/clock/domain escapes preserved withoutbudget; allGoalcompletion gatesopen."
+    "stage": "601root24bindings/fouroriginals/differentfresh/zeroandSpec reclosure/C064stopped/onecadence3history65formal20/library140/board complete; allactualagents terminal. Preflightpassed; sourcepublication next.",
+    "next_action": "Publish601/root/corrections/board/library140 accurately, then independent actualfinalHEAD/ref/commit/tree/soleparent/exactmetadatachildpaths/clean/checkpoint. After publication require a genuinelydifferent actualprincipal/mixed or fullsignedcore formula + falsifiabletest + strongest-oldnet before anymath/source successor; no automaticchapter/parameter queue.",
+    "stop_rule": "C064finitefoldbudget1 exhausted; allGoal gatesopen. Do notresume C063/oldformula/inventory or splitfinitecorollaries. Compactifiedboundary/differentcategory/actualsigned/Dprime escapes preserved withoutbudget."
   },
   "support_contracts": [],
   "must_not_forget": [
     "G20261027接续G20261014完整完成门/原0c4f基线；≤582和10-27审视都是输入，旧成果不得重验收。实际runtimeGoal active(createdAt1793085111)，新建由本轮用户直接请求。",
     "完整Γ=2θ′/FP-contact、所有properpowers/双pole、ALLcomplex、原du及zero-extension Dlog；L/算术height/频高独立，fixed/强源/Dprime/成长不合并。",
     "每结果保object/domain-range/关系-商-physical角色/norm、源成长量词/依赖误差/符号/coverage-coupling/strongest-old净值。语义改变先freeze/reclose，draft不代root消费。",
-    "Solecadence600 onecompleteactualperiodfailure1->2/history64/latest600/formal20held; source/standardcorollaries/agents/audit/sync0. Keep4-8default6; no reset/newGoal.",
+    "Solecadence601 onecompleteactualHaran-affineadmission2->3/history65/latest601/formal20held; twoformula duplicate/typing,sources/agents/audits/sync0extra. Keep4-8default6; no reset/newGoal.",
     "strongold542+555→557 whole4/5是负惯性UPPER；537/538 fixed17/16不代成长/Ξ。560全fixed窗positiveTrace−compact+pole，572/高层变分不代低频core及cofinal sign。",
     "几何主线先405全noncompact Pan及平移actual消去、537非根/全源coverage/原费，再同对象整过滤/截面乘法/mixedRR。已知410–437真实relative电荷/573反测与574–575线/Cartier不重造，精确域见前沿。",
     "576正锥/577完整Γ修补/578原费已付；membership/signed消失仍欠。Dprime逼近不逐层要求Pan/ordinarytrace。",
@@ -75,16 +75,6 @@
       "scope": "root+终审：每先fixedfiniteS实际ε∈C0、ALL原complexDlog positiveTrace−compact+完整双pole；cofinal费/sign/Ξ未付，统一一轮。"
     },
     {
-      "path": "reviews/2026-10-29/critical-prime-covariance-proof/root-consumption-scope.json",
-      "kind": "proved",
-      "scope": "Root13inputbindings LOC+D1-D4/strictHS/560 coefficient+sign/fixedfiniteGram; whole/keygateopen, oneiteration."
-    },
-    {
-      "path": "reviews/2026-10-29/full-image-moment/root-consumption-scope.json",
-      "kind": "proved",
-      "scope": "13rawbindings; physicalactualJ/absoluteallmoment/strongold/newnet/exact-vs-pointwisegrowth fullclosure."
-    },
-    {
       "path": "reviews/2026-10-29/macro-cycle-20/root-consumption-scope.json",
       "kind": "cited",
       "scope": "Formal20rootclosed18bindings/13nestedmath; threeGoal gatesopen/strongold/cadenceonce; newlocatornonmathunexecuted."
@@ -95,30 +85,25 @@
       "scope": "Strongestoldsame595v actualphysicaltransport andstrictpositiveLlow/Q point vsnegativeP0/gap; no same-v/leg recalculation ornewround."
     },
     {
-      "path": "reviews/2026-10-29/prime-ising-critical/root-consumption-scope.json",
+      "path": "reviews/2026-10-29/post-600-new-input/root-consumption-scope.json",
       "kind": "obstruction",
-      "scope": "Allpositivefinite source/HSuniform/fullzeroSprime-Dprime/ODE-RvM actualPan+fixedexactdegreeprobe root/freshclosed; retainedmasspositivegap andsignednecessaryresponse, notkeycore/Goalcompletion."
-    },
-    {
-      "path": "reviews/2026-10-29/rank-two-period/root-consumption-scope.json",
-      "kind": "obstruction",
-      "scope": "ActualI/G all-a phase/fullzeroSprime+2delta0/strictcompactcommoncone separator; positiveaddmustperiodvanish/signednormconditional. Notnewkeycore/Goalcompletion."
+      "scope": "Root/freshclosed wholematrix Hom(FZ,C)<=1/selfpushout affineiso; generalfaithfulzero frozen+selfcase direct; corrected Spec direction. One601, no keycore/wholeGoalgain; twoformula oldtyping0."
     }
   ],
   "pending_processes": [],
   "runtime_goal_observation": {
     "status": "active",
     "created_at_unix": 1793085111,
-    "observed_at_utc": "2026-10-29T10:56:27.126952+00:00",
-    "basis": "Liveget_goal sameinstance duringactualcurrentrank2math execution; allnewproofs/source andfreshactuallyexecuted/rootconsumed, notresumedoldC062."
+    "observed_at_utc": "2026-10-29T12:07:35.058275+00:00",
+    "basis": "Liveget_goal same1793085111 active afteractual601 rootsettlement; currentfinitegate/fresh andonecadence executed, notoldC063 resumed."
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-10-29-rank-two-period-600-sync.json",
+  "checkpoint": "goals/checkpoints/2026-10-29-haran-affine-601-source.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
-    "commit": "b2256172f5d622f055eeff30797d2cbd4da27d5c",
-    "tree": "4ae9fbe2491f590c11c0b6690663ec0c66eeb4be",
-    "basis": "Independentactualsource ref/commit/tree/soleparent32ac630/27paths/clean/sourcecheckpoint PASS. ONEexact3metadatachild condition in600receipt determinesactualfinalHEAD, notsourceSHA afterchild."
+    "commit": "61d46e94891e96ee7c915b9a132cabf8dad6da9c",
+    "tree": "f96f8764d8e05f4ecea3d83f5ee7bfcc4ae67cfa",
+    "basis": "Thisturn independentactualmainref/gitcommit/gittree/localHEAD/soleparentb225617/exact3paths/clean/checkpoint reverified;600publicationcomplete, no repush."
   },
   "completion_audit": {
     "goal": "goals/GOAL.20261027.md",
@@ -126,11 +111,11 @@
     "goal_lf_sha256": "b3d2acb1f962d793f45d79b6a4e67fb87dd072cd4752108a9298204b4cefa1de",
     "mathematical_gate": "open",
     "final_execution_gate": "not-eligible",
-    "basis": "600 limitedactualrank2periodcone failure doesnotcoverfullcoremethodresponsibility; all3Goal gatesopen/keyprincipal/mixed/corecross/Xi/whole4/5UPPERunchanged, sameactive/noteligible."
+    "basis": "601 finiteaffinecarrier admissionfailure limiteddoesnotcoverfullcoremethodresponsibility; all3Goal gatesopen/keyprincipal/mixed/corecross/Xi/whole4/5UPPERunchanged, sameactive/noteligible."
   },
-  "process_inventory_observed_on": "2026-10-29T10:54:08.275572+00:00 all3originals/fullfresh andreadonlynestedcheck terminal; no background/source/numericprocess.",
+  "process_inventory_observed_on": "2026-10-29T12:05:30.373686+00:00 allmatchingauthors/fullfresh terminal/rootconsumed; no background/numeric/shell/source process.",
   "publication_approval_gate": {
-    "status": "600-source-verified-metadata-child-condition-armed",
+    "status": "601-root-consumed-pending-source-publication",
     "destination": "https://github.com/lixiang90/RH-Weil",
     "visibility": "public",
     "branch": "main",
@@ -140,8 +125,8 @@
       "reply": "每轮把进度同步到github；把文献保存在文献库中，用研究看板来记录各个路线的状况",
       "scope": "本项目研究/Goal/STATE/看板/文献元数据/审查与同步回执；论文再分发许可不明则全文仅本地。"
     },
-    "current_scope": "All600 proof/root/onecadence/board/library139 sourcepublished andindependentlyverified. Oneexact3metadatachild condition; afteractualmatchpublicationcomplete withactualchildfinalHEAD, no recursive selfSHA.",
-    "verification": "reviews/2026-10-29/rank-two-period/remote-sync-verification.json"
+    "current_scope": "601finiteaffinefold/onecadence3history65formal20/library140 andsourcecorrections; exactsource then ONE3metadatachild, independentlyverify actualchildHEAD. No PDFfulltext or Goalcompletion.",
+    "verification": "reviews/2026-10-29/post-600-new-input/remote-sync-verification.json"
   },
   "research_board": "RESEARCH_BRANCHES.md",
   "literature_index": "literature/README.md",
@@ -151,7 +136,12 @@
     "basis": "RawCCMordinarycycle frozen; onlytypedKK/perfectkernel/Todd repairs rootclosed. No automaticprincipaldescent; originalscope inMACRO_FRONTIER.",
     "shared_gcd_091": "reviews/2026-10-29/fractional-part-old-comparison/091-shared-gcd-scope-correction.md：κ/反例/root-fresh有限重闭；一般δ错误θ/even-g及093SL/094SP整链消费冻结，exactT_g/δ±1免本缺陷保留。",
     "c054_trace_domain": "reviews/2026-10-29/connected-variance-three-test-proof/trace-domain-clarification.md：literal bare R MfMg* S1仍冻结；strictsandwich/HS、jump+killing已两终稿/不同fresh/root全部重闭，初始checkpoint仅历史。",
-    "vdgs_rr_poisson_index": "Literal v3 PDF7 different*I^-1 stays frozen; correct inverse-different*I^-1/canonical ideal/complex conjugation scope fresh-root reclosed, Q unaffected. Fullrecord: reviews/2026-10-29/arakelov-theta-rr-source-gate/root-consumption-scope.json"
+    "vdgs_rr_poisson_index": "Literal v3 PDF7 different*I^-1 stays frozen; correct inverse-different*I^-1/canonical ideal/complex conjugation scope fresh-root reclosed, Q unaffected. Fullrecord: reviews/2026-10-29/arakelov-theta-rr-source-gate/root-consumption-scope.json",
+    "haran_tensor_locator": {
+      "status": "raw-tensor-and-spec-label-frozen-limited-selfcase-root-fresh-reclosed",
+      "path": "reviews/2026-10-29/post-600-new-input/haran-faithful-zero-and-selfcase-scope-closure.md",
+      "scope": "Initialmodule tensor frozen: actualcircledcirc. Literalstrictfaithful generalallpairs7.1 cannotunconditionallyconsume; selfpair idcocone directproof reclosed. Spec(i) projection/Spec(d) diagonal correctappendix only; fullcompactified/physicalbridge unconsumed. Fullledger preserves source/exposure andoldlocatorcorrection."
+    }
   },
   "source_control_correction": {
     "status": "584oldscope-and598fixedcompleteB-fullimage-rootfreshclosed",
@@ -168,7 +158,7 @@
     "repair_record": "reviews/2026-10-27/corrected-theta-source/root-consumption-scope.json",
     "basis": "Rawtheta frozen; scalarK/P0/Phi/fees reclosed, arithmetic7.4/stackindex unpaid. MB/582/583 unchanged."
   },
-  "latest_causal_review": "goals/reviews/2026-10-29-rank-two-period-600-settlement.md",
+  "latest_causal_review": "goals/reviews/2026-10-29-haran-affine-601-settlement.md",
   "sonin_high_scope_recovery": {
     "path": "reviews/2026-10-28/action-cone/strongest-old-sonin-recovery-correction.md",
     "status": "old-paid-safe-high-range-recovered-root-fresh-limited",

@@ -1,5 +1,7 @@
 # RH-Weil 文献索引
 
+2026-10-29：库139→140，Haran2007出版PDF已本地ignored归档，71页/版本/hash核；消费§7.1/7.2 printed671–675、必要Def2.1/2.9 printed627–628和Example1 printed632。初⊗误写冻结/更正为⊚，附带§8等曝光准确记录。项目两独立wholematrix证明及不同fresh/root闭合整数自pushout fold同构，统一601；一般allpairs存在性的strictfaithful零约定冻结，selfpair独立泛性质重闭，Spec投影/对角方向纠正。只限ordinary affine，无physicalprincipal/mixed/Weil桥，作者后章未审。详见[supplement](supplements/2026-10-29-haran-fibred-sum-source-scope.md)，不将项目推导冒归作者定理或原文全文已审。
+
 2026-10-29：库138→139，新增Lagarias–Suzuki math/0412039v4实际PDF本地ignored归档，23页/版本/签名/hash已核；只消费PDF1–4 §1必要积分公式和Thm1–2 statement，未审作者RH/简单性proof、后章或引用。准确范围见[supplement](supplements/2026-10-29-rank-two-period-source-scope.md)。现由项目自含positive13204/target18714与不同fresh17551/root闭合全a零谱及完整Weil的共同正锥分离，统一结算600；这不升级作者后章为已审，也不额外计来源轮。
 
 2026-10-29：素数权rank-one铁磁实际候选新增Lieb–Sokal1981书目背景，库137→138，仅publishermetadata/摘要，本地wrapper保字节/hash；未取得PDF/作者定理proof，HTTP200 response为HTML非全文。有限不等权正性由项目自含bidisk证明核，[准确范围](supplements/2026-10-29-prime-ising-positive-source-scope.md)不把元数据当数学输入；完整D′/target现经不同fresh19749/root闭合并统一结算599：本critical族有共同compact双pole-zero缺陷，正修补范围有明确保留质量条件；不增加作者阅读范围。
