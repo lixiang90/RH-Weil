@@ -1,0 +1,42 @@
+{
+  "schema": "rh-weil-proof-admission-source-sync-v1",
+  "status": "SOURCE_NOT_YET_PUBLISHED",
+  "repository": "https://github.com/lixiang90/RH-Weil",
+  "branch": "main",
+  "previous_verified_head": "bf0765df794dc906a6a268f0084ca9e8713d9d80",
+  "scope": "Proof-onlywholeadmission/oldfee recovery/CODE_PREPonly;0math/noC068/noactualsource/sign",
+  "source_commit": null,
+  "source_tree": null,
+  "metadata_child_condition": "AfteractualsourceAPI/local/pins/checkpointverify, ONE child changesexactly STATE+uniquesynccheckpoint+thisreceipt. VerifyactualfinalHEAD, no recursiveownSHA receipt",
+  "source_changed_paths": [
+    ".gitattributes",
+    "RESEARCH_BRANCHES.md",
+    "goals/DECISIONS.md",
+    "goals/MACRO_FRONTIER.md",
+    "goals/README.md",
+    "goals/STATE.json",
+    "goals/checkpoints/2026-11-01-retained-tail-whole-admission-source.json",
+    "goals/reviews/2026-11-01-retained-tail-whole-proof-admission.md",
+    "literature/README.md",
+    "literature/supplements/2026-11-01-retained-tail-whole-admission-scope.md",
+    "reviews/2026-11-01/retained-tail-whole-admission/candidate-preparation.json",
+    "reviews/2026-11-01/retained-tail-whole-admission/complement-schur-comparison.md",
+    "reviews/2026-11-01/retained-tail-whole-admission/execution-start.json",
+    "reviews/2026-11-01/retained-tail-whole-admission/mixed-source-feasibility.md",
+    "reviews/2026-11-01/retained-tail-whole-admission/next-code-preparation.md",
+    "reviews/2026-11-01/retained-tail-whole-admission/old-fee-recovery-fresh.md",
+    "reviews/2026-11-01/retained-tail-whole-admission/old-fee-recovery.json",
+    "reviews/2026-11-01/retained-tail-whole-admission/positive-m-augmented-comparison.md",
+    "reviews/2026-11-01/retained-tail-whole-admission/recover-paid-source-fees.py",
+    "reviews/2026-11-01/retained-tail-whole-admission/remote-sync-verification.json",
+    "reviews/2026-11-01/retained-tail-whole-admission/root-consumed.md",
+    "reviews/2026-11-01/retained-tail-whole-admission/root-consumption-scope.json",
+    "reviews/2026-11-01/retained-tail-whole-admission/selected-target-fresh.md",
+    "reviews/2026-11-01/retained-tail-whole-admission/selected-whole-certificate.md"
+  ],
+  "metadata_child_exact_paths": [
+    "goals/STATE.json",
+    "goals/checkpoints/2026-11-01-retained-tail-whole-admission-sync.json",
+    "reviews/2026-11-01/retained-tail-whole-admission/remote-sync-verification.json"
+  ]
+}

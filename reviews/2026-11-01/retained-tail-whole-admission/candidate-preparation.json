@@ -1,0 +1,35 @@
+{
+  "schema": "RH_WEIL_WHOLE_CANDIDATE_PREPARATION_V1",
+  "runtimeGoalCreatedAt": 1793085111,
+  "status": "PROOF_COMPARISON_PENDING_ROOT_AND_SELECTED_TARGET_FRESH",
+  "canonical_math": "selected-whole-certificate.md",
+  "numericalExecutionAuthorized": false,
+  "formalC068Admitted": false,
+  "object": "ONE fixed covariance-floor/joint-Gram sufficient whole certificate T_whole for actual Lret",
+  "fixed": {
+    "L": "9/8", "N": 448, "eta": 1, "omega": 256,
+    "m": "15/64", "b": "433/64", "c": "32/209",
+    "alpha": "2^-122", "d": "m-n-e^2/alpha >7/32",
+    "sourceVAndGError": "2^-226", "headSourceBeta": "2^-224",
+    "jointGramPadding": "2^-221", "coefficientMapFeeNu": "2^-216",
+    "prospectiveJointArithmeticPower": -230, "prospectiveRawOutputBits": 256,
+    "prospectiveSeedBits": 8192, "prospectiveContractionBits": 1024,
+    "prospectiveFiniteSignBits": 1024
+  },
+  "sourcePacketMeaning": "Model CX=Xhat*Xhat and Zc=(Mc E)*Xhat, SAME accepted Vhat/head/exactinfinite logtail; true-source fees added only in their specified consumer",
+  "stages": [
+    "FIRST necessary whole prerequisite Hpre=Chat-(alpha+beta+nu)I, exact native/raw metric, ONE fixed predicate; no C067 margin/precision rerun",
+    "ONLYif separately admitted first stage strictly passes: same fixed joint CX/Z packet with complete native arithmetic230/oldactualsource fees and endpointlog tail",
+    "Source-paid T_whole with finite Hraw solve/sign arithmetic; optional predeclared U2 actualboundedLret negative control from SAME packet"
+  ],
+  "budget": {"proposedCombinedCapSeconds": 7200, "proposedOutputCapBytes": 67108864, "frozenForExecution": false, "basis": "Unmeasured hard-stop proposal; full code/protocol/pins/error predicates must close before any run"},
+  "outcomeRoles": {
+    "negativePrerequisite": "Only this fixed sufficient whole recipe fails for every valid later Gram; not Cret/Lret/Q negative",
+    "positivePrerequisite": "Only necessary admission, no whole sign; no separately settled head margin",
+    "positiveWholeTarget": "Actual Lret>=0 allH and fullQ>=tau on allfixed9/8Dlog; no growingXi/RH/Goalcompletion",
+    "negativeU2": "Actual boundedLret nonPSD with nonzero H-source; not Q negative",
+    "negativeLowerOrUnresolved": "No broader method failure; stop fixed budget, no alternate alpha/precision/rank/window/eta/route/source queue"
+  },
+  "nextPreparationOnly": "Prepare ONE new staged whole-candidate prerequisite driver plus complete protocol; independently review exact source/metric/whole-target predicates and final code before a separately explicit new whole budget. No original driver/result modification.",
+  "mathIterationsAtThisProofStage": 0
+}

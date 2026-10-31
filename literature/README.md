@@ -1,5 +1,7 @@
 # RH-Weil 文献索引
 
+2026-11-01：whole proof-only比较/旧费用恢复经独立审查root闭；没有source/matrix/Gram/逆/符号运行，0新数学。无新web/primary/PDF/下载，库143/manifest223850不变。[使用范围](supplements/2026-11-01-retained-tail-whole-admission-scope.md)区别原已付TRUE-source依赖、model CX/Z与未付whole符号；只授代码准备，全文/原packets仍local-only。
+
 2026-11-01：604/C067新retained-tail严格head及同一448维复源完整Q正性已root消费，ONE数学；wholeH/成长门未付。无新web/primary/作者章/PDF/下载，库143和manifest223850不变。[使用范围](supplements/2026-11-01-retained-tail-signed-head-scope.md)区分内部源包local-only与公开本仓代码/metadata/896pivot证书；r/f与closed反标签限定明确。
 
 2026-11-01：同一retained-tail中心的完整H值源证书已实际799.384s通过并经root+不同终态审查消费；旧区间核验STOP/旧框truth不变，新独立范数为权威。无新web/primary/下载/作者章，库143与manifest223850原字节保持。[使用范围](supplements/2026-11-01-retained-tail-center-certificate-scope.md)区分内部源证书与未付signed whole；原源/新范数流继续local-only，公开代码与结果/hash/精确scope。

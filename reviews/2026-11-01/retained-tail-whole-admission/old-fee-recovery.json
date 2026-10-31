@@ -1,0 +1,54 @@
+{
+  "status": "EXACT_SCALAR_OLD_FEE_RECOVERY_PASS_PENDING_ROOT_SCOPE",
+  "method": "Read old reported exact Fractions only; no matrix/source/Gram/inverse rerun",
+  "inputPins": {
+    "reviews/2026-10-31/retained-tail-center-admission/center-certificate-result.json": "3eb9e77d71f92ead44775bfbafb7499a7ff0fd2e5bc81ac00095332a4f912739",
+    "reviews/2026-10-29/weil-9-8-admission/source-stage-verification.json": "dbb31208d0568feac7c9adff27722d5b55d08381002d23e0a4e35f150b1472c1",
+    "reviews/2026-10-29/weil-9-8-admission/full-weil-analytic-transfer-fresh.md": "0cdb4173b7664b73b47fd8789c0629f0535a208ad9af2a4af8eb86422c64a466",
+    "reviews/2026-11-01/retained-tail-signed-head/head-result.json": "ba31ccef92293cdc1f308ea05bdd507b5d2fb4695cbfab6c341aa74718d4ea4e"
+  },
+  "oldMatrixRowMetadata": {
+    "A": {
+      "bound": "2^-220",
+      "checkedRows": 448,
+      "denominator": "2084257606271691517624277730156382341358859723981530152710236512142436333518848",
+      "maxWeightedWidthNumerator": "2405760",
+      "status": "PASS"
+    },
+    "B": {
+      "bound": "2^-220",
+      "checkedRows": 448,
+      "denominator": "2084257606271691517624277730156382341358859723981530152710236512142436333518848",
+      "maxWeightedWidthNumerator": "2405760",
+      "status": "PASS"
+    },
+    "J0": {
+      "bound": "2^-220",
+      "checkedRows": 448,
+      "denominator": "2084257606271691517624277730156382341358859723981530152710236512142436333518848",
+      "maxWeightedWidthNumerator": "2405760",
+      "status": "PASS"
+    }
+  },
+  "bounds": {
+    "bandOperatorPower": -265,
+    "finiteNativeHSRoundingPower": -239,
+    "VAndGOperatorPower": -226,
+    "VFullHSPower": -221,
+    "oldA_B_JroundConservativePower": -237,
+    "C0SourcePower": -235,
+    "DhSourcePower": -233,
+    "CretCenterSourcePower": -224,
+    "wholeUApproximationPower": -216,
+    "oldImpliedCretLowerPower": -202
+  },
+  "prospectiveOnly": {
+    "integrationArithmeticPower": -256,
+    "jointGramEnvelopePower": -221,
+    "actualCX_ZValuesPaid": false
+  },
+  "oldIssued203_198_204_220_193BoundsRemainTrue": true,
+  "newMathematicalIterations": 0,
+  "runtimeGoalCreatedAt": 1793085111,
+  "scope": "Root must consume the original operator/norm/domain and true-enclosure premises; status labels alone prove none of them"
+}
