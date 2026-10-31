@@ -1,0 +1,19 @@
+{
+  "schema": "RH_WEIL_C068_ONE_WHOLE_ATTEMPT_INTENT_V1",
+  "contractId": "C068",
+  "runtimeGoalCreatedAt": 1793085111,
+  "targetId": "RH_WEIL_FIXED_9_8_COVARIANCE_JOINT_GRAM_T_WHOLE_V1",
+  "currentStage": "stage-01-prefix",
+  "createdUTC": "2026-10-31T19:44:02.499886+00:00",
+  "oneAttemptOnly": true,
+  "producerControllerCutoffSeconds": 450,
+  "stageCapSeconds": 600,
+  "stageCapBytes": 4194304,
+  "aggregateCapSeconds": 7200,
+  "aggregateCapBytes": 67108864,
+  "laterStagesAuthorized": false,
+  "soleWitnessOnly": true,
+  "scope": "Necessary Hpre for selected whole sufficient recipe; no actualnegativeCret/Lret/Q claim",
+  "externalFullPhaseObservationRequired": true,
+  "noStartupReserveProof": true
+}

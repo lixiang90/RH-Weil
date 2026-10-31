@@ -8,11 +8,11 @@
   "cadence": "goals/review-cadence.json",
   "decisions": "goals/DECISIONS.md",
   "latest_strategy": "goals/reviews/2026-10-29-general-rh-macro-review-cycle-21.md",
-  "latest_decision": "D20261101D",
+  "latest_decision": "D20261101E",
   "macro_frontier": "goals/MACRO_FRONTIER.md",
-  "macro_summary": "reviews/2026-11-01/retained-tail-whole-prefix/root-consumption-scope.json",
+  "macro_summary": "reviews/2026-11-01/retained-tail-whole-execution/root-consumption-scope.json",
   "latest_macro_review": "goals/reviews/2026-10-29-general-rh-macro-review-cycle-21.md",
-  "latest_iteration": "notes/604-retained-tail-fixed448-head-positivity.md",
+  "latest_iteration": "notes/605-retained-tail-fixed-young-whole-recipe-rejection.md",
   "macro_control": {
     "schema": "macro-recovery-v2",
     "goal_epoch": "G20261027",
@@ -21,7 +21,7 @@
   "macro": {
     "long_objective": "G20261027 inheritsG20261014/0c4f/all<=582 inputs: actualsameobject fullclassicalWeilpositivity/growingspectralconstraint; nooldresultrecompletion.",
     "unpaid_bottleneck": "LocalfixedI wholeonebodyabsolute budgetclosed602; actualprincipal/sections/mixed, K_Jfavorablesignedcorecross/growingI/Xi andwhole4/5negative-inertiaUPPERunchanged.",
-    "why_this_contract": "Whole-prefix CODE_PREP root closed: c4a470/38053, math6789/protocol6783 and AST18193. Concrete necessary sign test can reject selected recipe before unbuilt SAME CX/Z; actual whole sign unpaid.",
+    "why_this_contract": "605rootclosed: actualheadsource Cret<alpha122 stops selectedcovariance andoldfixedalpha positiveM. Preserving actual directional K E correlation is next proof-only input/error/test admission; definition aloneold0/noC069/data.",
     "paused_routes": [
       "零点比例优化",
       "无零区域优化"
@@ -33,23 +33,23 @@
     ]
   },
   "primary_contract": {
-    "id": "C067",
-    "path": "goals/contracts/C067-retained-tail-signed-head-positive.md",
+    "id": "C068",
+    "path": "goals/contracts/C068-retained-tail-whole-covariance-candidate.md",
     "status": "completed",
     "iteration_budget": 1,
     "settled_iterations": [
-      "notes/604-retained-tail-fixed448-head-positivity.md"
+      "notes/605-retained-tail-fixed-young-whole-recipe-rejection.md"
     ],
-    "stage": "CODE_PREP root closed and source d2d1cf3/81d162/soleb9c/exact24/checkpoint/39pub7local verified; only exact3 metadata child final verification remains.",
-    "next_action": "Verify actual-final exact3 metadata child, then next-whole-execution-admission.md: formally admit ONE C068 whole responsibility, exact source/code/reviews/contract/root gate/freeze, and ONLY stage01 launch under external600s/4MiB acceptance. No actualrun yet; stage02/03 unapproved.",
-    "stop_rule": "C067strictheadONEspent; no densitytowhole/allDlog/growingXi oroldprecision/v/P0/budget reuse."
+    "stage": "605/C068 root+fresh+fixedheadcorollary closed ONCE; actualproducer/checker/scalar terminal,133s and bounded complete4MiB ledger PASS. Publication pending.",
+    "next_action": "Finish complete output ledger and publish/verify actualfinal. Then ONLY next-directional-remainder-admission.md: fullK E supplier/originalnorm errors/strongold/nettest proof gate; unexecuted/noC069/numerical/parameters.",
+    "stop_rule": "C068 ONE budget spent; both fixedalpha122 recipes stop. No retry/alpha/precision/rank/window/eta/consumer/source queue; actual Cret/Lret/Q negative not proved."
   },
   "support_contracts": [],
   "must_not_forget": [
     "G20261027接续G20261014完整完成门/原0c4f基线；≤582和10-27审视都是输入，旧成果不得重验收。实际runtimeGoal active(createdAt1793085111)，新建由本轮用户直接请求。",
     "完整Γ=2θ′/FP-contact、所有properpowers/双pole、ALLcomplex、原du及zero-extension Dlog；L/算术height/频高独立，fixed/强源/Dprime/成长不合并。",
     "每结果保object/domain-range/关系-商-physical角色/norm、源成长量词/依赖误差/符号/coverage-coupling/strongest-old净值。语义改变先freeze/reclose，draft不代root消费。",
-    "SOLEcadence7036:2/history68/latest604/formal21. 603/604eachsettledonce; source/recovery/prep/publication0math; reviews4-8/default6.",
+    "SOLEcadence:3/history69/latest605/formal21. 603/604/605 eachsettledonce; no macro22/reset. Source/prep/review/publication0math, reviews4-8/default6.",
     "strongold542+555→557 whole4/5是负惯性UPPER；537/538 fixed17/16不代成长/Ξ。560全fixed窗positiveTrace−compact+pole，572/高层变分不代低频core及cofinal sign。",
     "几何主线先405全noncompact Pan及平移actual消去、537非根/全源coverage/原费，再同对象整过滤/截面乘法/mixedRR。已知410–437真实relative电荷/573反测与574–575线/Cartier不重造，精确域见前沿。",
     "576正锥/577完整Γ修补/578原费已付；membership/signed消失仍欠。Dprime逼近不逐层要求Pan/ordinarytrace。",
@@ -106,22 +106,27 @@
       "path": "reviews/2026-11-01/retained-tail-whole-admission/selected-whole-certificate.md",
       "kind": "conditional",
       "scope": "ROOTproofeligiblewholeT withjointGram/nativefees; actualCXZ/finiteSignunpaid. Oldop226/U216/head202 recovered0; CODE_PREPonly/noC068."
+    },
+    {
+      "path": "notes/605-retained-tail-fixed-young-whole-recipe-rejection.md",
+      "kind": "obstruction",
+      "scope": "SAMEactualsource fixedalpha122 covariance/oldpositiveM sufficientrecipes fail; native/raw/head<122 witholdpositive202. NoactualnegativeQ/wholepositive/growth; ONE605."
     }
   ],
   "pending_processes": [],
   "runtime_goal_observation": {
     "status": "active",
     "created_at_unix": 1793085111,
-    "observed_at_utc": "2026-10-31T19:22:04.255365+00:00",
-    "basis": "Live same active at final preparation/root consumption; actual code/synthetic action executed, no research source run"
+    "observed_at_utc": "2026-10-31T19:44:02.499886+00:00",
+    "basis": "Live sameGoal at root execution admission; saved C068 actual gate/freeze inspected, science launch next"
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-11-01-retained-tail-whole-prefix-sync.json",
+  "checkpoint": "goals/checkpoints/2026-11-01-retained-tail-whole-rejection-source.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
-    "commit": "d2d1cf3c44d709871b2ccd5f538e7d1674130549",
-    "tree": "81d1620b36b43bf8271fe48b35f073afb18ed539",
-    "basis": "Actual API ref/commit/tree+local soleb9c/exact24/clean/checkpoint/39pub7local/guards; final exact3 child condition in current receipt, no selfSHA loop"
+    "commit": "0daa60d209817a745c351d0569ea90f85cc20a39",
+    "tree": "f87dbacb3674088d16056dceb0740d0fec11ed80",
+    "basis": "Recovered actual final API/local sole d2d1/exact3/clean/checkpoint/39pub7local before mutation"
   },
   "completion_audit": {
     "goal": "goals/GOAL.20261027.md",
@@ -129,11 +134,11 @@
     "goal_lf_sha256": "b3d2acb1f962d793f45d79b6a4e67fb87dd072cd4752108a9298204b4cefa1de",
     "mathematical_gate": "open",
     "final_execution_gate": "not-eligible",
-    "basis": "Codepreparation/static reviews/AST synthetic only; actual whole/keyprincipal/mixed/growth andall3 Goal gates open."
+    "basis": "605fixedalpha sufficientrecipe rejection andoldpositiveM corollary only; no wholepositive/keyprincipal/mixed/growth or any3Goalgate."
   },
-  "process_inventory_observed_on": "Final matching agent outputs frozen/completed; no live numerical process; private whole attempt absent.",
+  "process_inventory_observed_on": "All producer/checker/scalar processes and matching review tasks terminal; no pending scientific process.",
   "publication_approval_gate": {
-    "status": "authorized-source-verified-final-exact3-child-armed",
+    "status": "authorized-C068-605-root-settled-publication-pending",
     "destination": "https://github.com/lixiang90/RH-Weil",
     "visibility": "public",
     "branch": "main",
@@ -143,8 +148,8 @@
       "reply": "每轮把进度同步到github；把文献保存在文献库中，用研究看板来记录各个路线的状况",
       "scope": "Publicresearch/state/board/librarymetadata/reviews; unlicensedfulltextlocalonly."
     },
-    "current_scope": "CODE_PREP c4a4 + AST18193 only; no numerical attempt/C068. Final exact3 metadata child is publication bookkeeping.",
-    "verification": "reviews/2026-11-01/retained-tail-whole-prefix/remote-sync-verification.json",
+    "current_scope": "605actualfixedrecipe rejection, ONEpairedruntime/corollary, noactualnegativeQ/wholepositive/C069.",
+    "verification": "reviews/2026-11-01/retained-tail-whole-execution/remote-sync-verification.json",
     "metadata_child_condition": "ONE child with soleparentd2d1cf3c44d709871b2ccd5f538e7d1674130549 and ONLY metadata_child_exact_paths. After push verify actual FINAL API ref/commit/tree/local soleparent/exact3/clean/checkpoint/39pub7local/guards; no ownSHA recursion."
   },
   "research_board": "RESEARCH_BRANCHES.md",
@@ -192,7 +197,7 @@
       "scope": "Old203/193boundsstilltrue; exactoldoperatorpremisesyield226/U216/head202. No193>205methodbarrier; wholecoupling/signstillunpaid."
     }
   },
-  "latest_causal_review": "goals/reviews/2026-11-01-retained-tail-whole-prefix-preparation.md",
+  "latest_causal_review": "goals/reviews/2026-11-01-retained-tail-whole-rejection-605.md",
   "sonin_high_scope_recovery": {
     "path": "reviews/2026-10-28/action-cone/strongest-old-sonin-recovery-correction.md",
     "status": "old-safe-high-range-rootfresh-recovered",

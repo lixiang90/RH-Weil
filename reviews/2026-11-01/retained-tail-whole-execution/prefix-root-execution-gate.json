@@ -1,0 +1,120 @@
+{
+  "contractId": "C068",
+  "runtimeGoalCreatedAt": 1793085111,
+  "targetId": "RH_WEIL_FIXED_9_8_COVARIANCE_JOINT_GRAM_T_WHOLE_V1",
+  "currentStage": "stage-01-prefix",
+  "codeSHA256": "c4a470a4e7aa887f51d3b37edc200cc0c9a129534d3d0a46ab3a6f5e34b25c4b",
+  "sourceMathPins": {
+    "literature/local/2026-10-29-weil-9-8/pilot/run-01/certificates/source-matrices.json": "a5486fea38c3c8f91dcf4bb77c7677e734efe2ac9cbf59ddabc4674739fdb2f2",
+    "literature/local/2026-10-29-weil-9-8/pilot/run-01/certificates/tail-columns.json": "d714fa8d717a8f39d8b3b57cc6292e3f14844041b83802cf57ee47aa03c65a0e",
+    "literature/local/2026-10-31-retained-tail-source/run-01/finite-columns.jsonl": "d841d307d2b22367570e594c1bc9e3b64c8a4ffef88691382acf5d6fbeeaf080",
+    "literature/local/2026-10-31-retained-tail-center-certificate/run-01/result.json": "3eb9e77d71f92ead44775bfbafb7499a7ff0fd2e5bc81ac00095332a4f912739",
+    "reviews/2026-10-31/retained-tail-center-admission/root-consumption-scope.json": "6e0df0fed60465622f8b95551e4e361203a8de9b199bf167c38709caf4caaac3",
+    "reviews/2026-10-29/weil-9-8-admission/source-stage-verification.json": "dbb31208d0568feac7c9adff27722d5b55d08381002d23e0a4e35f150b1472c1",
+    "reviews/2026-10-29/weil-9-8-admission/full-weil-analytic-transfer-fresh.md": "0cdb4173b7664b73b47fd8789c0629f0535a208ad9af2a4af8eb86422c64a466",
+    "reviews/2026-11-01/retained-tail-whole-admission/selected-whole-certificate.md": "0328afa478fce4f73873776dc22e702f849233468f3afad09fc2d078a0a98ea7",
+    "reviews/2026-11-01/retained-tail-whole-admission/candidate-preparation.json": "d9eb014c9769a9f00eeb09b66aeb043a7ff7415fb495f15d63d4fa9abf6f6950",
+    "reviews/2026-11-01/retained-tail-whole-admission/root-consumed.md": "577685f4ea977ee686f9e6c09fa16527184e40b6f0933a28b0c7290a45d585ee",
+    "reviews/2026-11-01/retained-tail-whole-admission/root-consumption-scope.json": "07884950934555087e3a1efbdc9c0d529c302f852dfb47efd12e4344c93057de",
+    "reviews/2026-11-01/retained-tail-whole-admission/selected-target-fresh.md": "b37f3beea0eb6cbee29b2d57ee5dbf9444eb3ecf297ae6c42fb75703922b2519",
+    "reviews/2026-11-01/retained-tail-whole-admission/old-fee-recovery.json": "1b07b329e390089f34d86777ecbf6b257b40ab3636a7123fe08023317c98c344",
+    "reviews/2026-11-01/retained-tail-whole-admission/old-fee-recovery-fresh.md": "a77888cd710f41a7abba87687e2724de009dbc6500bce5eddac16b3771895fc1",
+    "reviews/2026-11-01/retained-tail-whole-admission/recover-paid-source-fees.py": "63e428ebeaeed3ffd3ed90d8ca54079e21d2efe2d9a1177853c8b62adc08682c",
+    "reviews/2026-11-01/retained-tail-whole-admission/next-code-preparation.md": "3ecd7b4753f540ee92034b14094d2f840d369c4825e7b40c4b764b3af208b3ed",
+    "reviews/2026-11-01/retained-tail-whole-prefix/prefix-math-admission.md": "ce8e3d793881c2849aeb19abcaaa16d3d72de5d0870f86097dd5446d63dee984",
+    "reviews/2026-11-01/retained-tail-signed-head/math-admission.md": "6547b2ff0e0b2a4deeeb88ae549930cb51d7a16b99a77c6053e9c30413e04c95",
+    "goals/GOAL.20261027.md": "b3d2acb1f962d793f45d79b6a4e67fb87dd072cd4752108a9298204b4cefa1de",
+    "goals/review-cadence.json": "712195abe82736fd5f8dbb79a7fec509f36fe3cf6222e8981adc9b286b8abdb9",
+    "literature/manifest.json": "3223cffd0205b9a1f8660445ac33d0f3cec13b3bd1fa5e7799ed8abfb2746d42"
+  },
+  "parameters": {
+    "L": "9/8",
+    "N": 448,
+    "sectorDimension": 224,
+    "eta": 1,
+    "omega": 256,
+    "intervalBits": 1024,
+    "lambdaPowers": [
+      122,
+      224,
+      216
+    ],
+    "capSeconds": 600,
+    "capBytes": 4194304,
+    "maxStoredIntegerBits": 16384,
+    "sectorOrder": [
+      "even",
+      "odd"
+    ],
+    "ordinarySectorUnresolvedPolicy": "continue_other_prescheduled_sector_with_same_budget",
+    "ldlPassesPerSector": 1,
+    "maxWitnessProposals": 1,
+    "witnessBits": 1024,
+    "witnessTieRule": "nearest_ties_toward_positive_infinity",
+    "inverseComputed": false,
+    "exactMatmulsPerSector": 3,
+    "autoStage2Dispatch": false
+  },
+  "stagedBudget": {
+    "aggregateCapSeconds": 7200,
+    "stageCapSeconds": [
+      600,
+      3000,
+      3600
+    ],
+    "stageCapBytes": [
+      4194304,
+      50331648,
+      12582912
+    ],
+    "laterStagesAuthorized": false
+  },
+  "contractPin": {
+    "path": "goals/contracts/C068-retained-tail-whole-covariance-candidate.md",
+    "sha256": "bf6c639cf5a671ad0960ca69d41364d75e613c6847e61b20383bc392471a360a"
+  },
+  "protocolPin": {
+    "path": "reviews/2026-11-01/retained-tail-whole-prefix/staged-whole-protocol.md",
+    "sha256": "3a4c11e8f39d9e5a00af8050afe31df67a0173bae9b90e6e4a2cc877ba25a316"
+  },
+  "protocolDesignPin": {
+    "path": "reviews/2026-11-01/retained-tail-whole-prefix/prefix-design.json",
+    "sha256": "b8af33f8c0e77df4328d59409afadc377067a23f4a6dc2f4c1eb7cee53d55009"
+  },
+  "reviewPins": {
+    "reviews/2026-11-01/retained-tail-whole-prefix/code-math-fresh.md": "398e31ef38a272eff1d7ff7cc20f56e5097fdb0a59524d75fad57a6f504e8a1e",
+    "reviews/2026-11-01/retained-tail-whole-prefix/code-protocol-fresh.md": "170867bb6d1de4e0609ff852b7a61c0fe54bad87dd7226131ad70214a822426f"
+  },
+  "authorization": "ROOT_EXPLICIT_C068_WHOLE_PREFIX_EXECUTION",
+  "numericalExecutionAuthorized": true,
+  "laterStagesAuthorized": false,
+  "oneAttemptOnly": true,
+  "chargedMetadataPins": {
+    "reviews/2026-11-01/retained-tail-whole-execution/attempt-intent.json": "50148f4c77ddc05973be36be33a2cc7b8811b93018cfa63a9ce36d1b4dcdb73e",
+    "reviews/2026-11-01/retained-tail-whole-execution/execution-start.json": "32604d0ce3f5975926525554f321b08c7481372433e61c6769515e9b063a52a0"
+  },
+  "schema": "RH_WEIL_WHOLE_PREFIX_ROOT_EXECUTION_GATE_V1",
+  "status": "ROOT_EXPLICIT_PREFIX_EXECUTION_APPROVED",
+  "processControl": {
+    "controllerPin": {
+      "path": "reviews/2026-11-01/retained-tail-whole-execution/observe-process-once.py",
+      "sha256": "2add01261a2b3f9a4d74cadb556c35b54c33d6e0c24cfd0e367bacd7c28b4df5"
+    },
+    "phase": "producer",
+    "cutoffSeconds": 450,
+    "noAutomaticNextProcess": true
+  },
+  "executionAdmissionReviewPin": {
+    "path": "reviews/2026-11-01/retained-tail-whole-execution/execution-admission-fresh.md",
+    "sha256": "66a84917d86c5c54cd0fbd98f67a5a11967b4d5fb2ff62189aab8436fe2dca71"
+  },
+  "terminalReplayMathReviewPin": {
+    "path": "reviews/2026-11-01/retained-tail-whole-execution/terminal-replay-math-fresh.md",
+    "sha256": "120c5b38f5fe7339e1f6b8a348b2a5d1ea719f3b62599697c99e66dc492dfb59"
+  },
+  "futureVerifierPin": {
+    "path": "reviews/2026-11-01/retained-tail-whole-execution/verify-prefix-terminal.py",
+    "sha256": "09eb48ca46bdd67a4e01798c0df3da4b5f7fe8db3a713f896c3a1513da6d8360"
+  },
+  "rootBasis": "Same active Goal; actual final recovery, exact code/source/proof/norm/budget/stop reviews consumed; stage01 ONLY"
+}

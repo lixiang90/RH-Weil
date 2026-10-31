@@ -1,5 +1,7 @@
 # RH-Weil 文献索引
 
+2026-11-01：605/C068一个固定whole候选已实际生产/独立重放及root/fresh消费，统一一轮；所选和旧fixed-alpha122充分式停止，实际head正性保持。无新web/primary/作者章/PDF/下载，库143/manifest223850原字节不变。[使用范围](supplements/2026-11-01-retained-tail-whole-rejection-scope.md)区分源包local-only、公开自有精确证书及未执行的方向性余项准入；未证明实际Weil型负或RH。
+
 2026-11-01：whole必要prefix代码准备及数学/协议审已root消费，隔离AST合成18193检查通过；实际源/矩阵/Gram/符号未运行，0数学。无新web/primary/作者章/PDF/下载，库143/manifest223850原字节不变。[使用范围](supplements/2026-11-01-retained-tail-whole-prefix-preparation-scope.md)区分旧源依赖、合成测试与尚未执行的whole判定；全文/原packets继续local-only。
 
 2026-11-01：whole proof-only比较/旧费用恢复经独立审查root闭；没有source/matrix/Gram/逆/符号运行，0新数学。无新web/primary/PDF/下载，库143/manifest223850不变。[使用范围](supplements/2026-11-01-retained-tail-whole-admission-scope.md)区别原已付TRUE-source依赖、model CX/Z与未付whole符号；只授代码准备，全文/原packets仍local-only。

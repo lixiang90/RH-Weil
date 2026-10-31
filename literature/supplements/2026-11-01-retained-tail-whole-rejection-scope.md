@@ -1,0 +1,7 @@
+# Literature scope: C068/605 fixed whole recipe rejection
+
+2026-11-01. No new web/primary source/author chapter/PDF/download; library143 and manifest223850 bytes remain unchanged. This iteration uses existing595 analytic/source transfer, accepted SAME-center source/fees,604 head positivity and the already reviewed whole/positive-M facilities. Re-reading an old identity grants no new source authority.
+
+ONE fixed whole-candidate necessary test and ONE independently reviewed direct saved-witness verifier actually ran. Full source arrays remain ignored/local-only. Public numerical copies are our prefix result and independent replay report, exact hashes, source/coverage/norm interpretation and process-budget records. Count both private originals and public copies against the same stage output budget. Third-party texts and imported packets are not redistributed.
+
+The result is strict failure of a fixed isotropic head-loss whole certificate, compatible with actual Cret positivity. It is not a negative full-Weil certificate, RH proof, growth result or blanket failure of geometric/relative/positive-M methods. Saved exact scalar readout and old paid source224 connect the modeled head to actual Cret; full Q has no upper bound from that readout. Raw B0z can have all even224 coefficients despite pivot degree84. Future directional-remainder source admission is unexecuted, not a new literature entry or automatically paid supplier.

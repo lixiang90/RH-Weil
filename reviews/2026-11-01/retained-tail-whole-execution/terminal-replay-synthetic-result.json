@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "checks": 12,
+  "codeSHA256": "0a10ceb8199eeb58a05ec8020116efdd60ed996efe945664ae6393a9117736f6",
+  "ASTSelectedNames": [
+    "IntegerWidthError",
+    "checked",
+    "direct_replay",
+    "frac",
+    "fraction",
+    "integer",
+    "need",
+    "width_diagnostic"
+  ],
+  "checkerImported": false,
+  "authorizeOrMainCalled": false,
+  "actualResearchSourcesRead": false,
+  "syntheticDimension": 3,
+  "independentTruth": "original Chat with exact3x3 inverse on synthetic inputs ONLY",
+  "bothOriginalParityMetrics": true,
+  "noncommutingGrawAndD": true,
+  "wrongSavedScalarRejected": true,
+  "normalWidthAndBoundedFailureDiagnostics": true,
+  "newMathematicalIterations": 0
+}

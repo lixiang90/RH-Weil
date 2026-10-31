@@ -2507,3 +2507,14 @@ This closes preparation, not whole sign or a new mathematical bound. Hpre strict
 Next after actual-final publication verification: root formal admission of ONE NEW C068 whole responsibility and a separate exactcode/source/contract/review/protocol gate+freeze, then ONLY600s/4MiB stage01 with externally observed full lifetime/output/checker charges. Follow reviews/2026-11-01/retained-tail-whole-prefix/next-whole-execution-admission.md. Stage02/03 unimplemented/unapproved; no auto dispatch or reset/transfer, no alpha/precision/direction/rank/window/eta/route/source successor. Negative or positive prefix changes the local candidate gate, not the long completion gate.
 
 Preparation0math; solecadence7036 stays2/history68/latest604/formal21. Goal9679/library143manifest223850 unchanged; no new literature/macro22/reset. Publish actual scope, keep same runtime active.
+
+
+## D20261101E - Stop both fixed-alpha122 whole certificates on one exact original-norm witness
+
+2026-11-01. SameGoal1793085111/baseline0c4f. C068 actually launched ONEproducer c4a4/session24385/terminal0/56.414s and ONEsame-witness independent checker09eb/terminal0/7.451s. Root/fresh5992 plus pure-order corollary3752 closed. Evenpivot42/43closedrows, fullsource29/41pins and exact rawB0z/qK/n/qpre closed; external scientific process envelope82+46+5=133s, complete output ledger remains authoritative.
+
+Newactualsource has ChatRayleigh in[2^-123,2^-122), qpreRayleigh in(-2^-123,-2^-124]; paid224source gives trueCret<alpha122 while old>202 retained. Chosen isotropicheadloss cannot fit; sourcefee/precision improvement cannot repair it. JbarPSD rejects selectedT forALLvalidlaterGram. Strongest old positiveM fixedalpha Pi<=Cret-alphaI also fails forALLvalidQbar/trial/Gram, with no alternateconsumer run. No actualnegativeCret/Lret/Q, allalpha/allmethod failure, wholepositive/core/growth/Goalgate.
+
+ONE605 responsibility settles C068; solecadence2->3/history68->69/latest605/formal21 unchanged/noformal22/reset. Preserve raw7036 oldguard snapshot before authorizedcadence transition; actual41pins closed BEFORE that update. Goal9679/library143manifest223850 unchanged.
+
+Publish/verifyactualfinal, then ONLY next-directional-remainder-admission.md: from actual K=Kcompact+Uold recover fullH Y=(I-P)KE supplier, originalnorm errors and actualdirectionaljointtest, first deduct strongestold. Retain actualcross instead of lost isotropic alpha, but definition/blockalgebra alone isold0; supplier/nettest absent=>stop0/noC069/data. No parameter/route/sourcepaper queue or positiveM alpha122 fallback. This next admission is unexecuted; longGoal remainsactive/all3open.

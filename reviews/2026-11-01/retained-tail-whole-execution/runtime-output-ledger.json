@@ -1,0 +1,289 @@
+{
+  "schema": "rh-weil-C068-complete-runtime-output-ledger-v1",
+  "status": "BASE_FROZEN_SUCCESS_TRANSIENTS_AND_PUBLICATION_RESERVE_BOUNDED",
+  "contractId": "C068",
+  "runtimeGoalCreatedAt": 1793085111,
+  "stage": "stage-01-prefix",
+  "stageCapBytes": 4194304,
+  "aggregateCapBytes": 67108864,
+  "stageCapSeconds": 600,
+  "aggregateCapSeconds": 7200,
+  "scientificFullProcessUpperSeconds": 133,
+  "phaseEnvelopeSeconds": [
+    82,
+    46,
+    5
+  ],
+  "childSecondsAlreadyEnclosed": [
+    56.41403529999661,
+    7.451463499994134
+  ],
+  "baseChargedFiles": [
+    {
+      "path": ".gitattributes",
+      "bytes": 9752,
+      "sha256": "24c8de2600d35fcae80b9bd7ab25b8391fec7b792055df4dcd82361805e90d9d"
+    },
+    {
+      "path": "RESEARCH_BRANCHES.md",
+      "bytes": 303155,
+      "sha256": "c04a5c3be66325dc1e1a989a331fcebefa38a97aa499c7f829fe96ff1c8dc300"
+    },
+    {
+      "path": "goals/DECISIONS.md",
+      "bytes": 373732,
+      "sha256": "25318725782204b9744c5fc9f509be94e08a93e54c19736bab785bcbf462fe39"
+    },
+    {
+      "path": "goals/MACRO_FRONTIER.md",
+      "bytes": 129209,
+      "sha256": "0bb71fe434752261c99b8aaddb562d7bfd3f13e1a788c9d09f685ea6fed4d014"
+    },
+    {
+      "path": "goals/README.md",
+      "bytes": 93136,
+      "sha256": "43c5ccf56545faf49697b4fa11a76b6c1a5077971c6e8815a46528554381a1bd"
+    },
+    {
+      "path": "goals/contracts/C068-retained-tail-whole-covariance-candidate.md",
+      "bytes": 5704,
+      "sha256": "bf6c639cf5a671ad0960ca69d41364d75e613c6847e61b20383bc392471a360a"
+    },
+    {
+      "path": "goals/review-cadence.json",
+      "bytes": 7197,
+      "sha256": "c57d42559b05b25c37fca829c7c4cd60c050dfff21be46f2909e79d5c582b8d4"
+    },
+    {
+      "path": "goals/reviews/2026-11-01-retained-tail-whole-rejection-605.md",
+      "bytes": 1934,
+      "sha256": "4e328d990711802e799511dae7dd4b2eb8af2f9c6941f4680c8e07d349dfbadb"
+    },
+    {
+      "path": "literature/README.md",
+      "bytes": 151333,
+      "sha256": "9cd350b42d462183b87b2ee56223ec0db4eaf6f9999d98c8096f3982b504e0ba"
+    },
+    {
+      "path": "literature/local/2026-11-01-retained-tail-whole-candidate/run-01/run-lock.json",
+      "bytes": 917,
+      "sha256": "88ec046de325e85ff5b2880278540b0ec2841c251d75305b257dfcfe35ab3d96"
+    },
+    {
+      "path": "literature/local/2026-11-01-retained-tail-whole-candidate/run-01/stage-01-prefix/independent-negative-verifier/checker-result.json",
+      "bytes": 27044,
+      "sha256": "32299c4c720caf2d1b4380a7cd01bf4a20611ad3ed81dcbb65536fe7b59ef30d"
+    },
+    {
+      "path": "literature/local/2026-11-01-retained-tail-whole-candidate/run-01/stage-01-prefix/pivots.jsonl",
+      "bytes": 31567,
+      "sha256": "0c510709b47a90f3d5b2f10bd49d14d9102d37317cb117a4d51c939744287335"
+    },
+    {
+      "path": "literature/local/2026-11-01-retained-tail-whole-candidate/run-01/stage-01-prefix/progress.json",
+      "bytes": 1471,
+      "sha256": "5423d904b38e2d89afdcdb51a91b20538f3b20af0dc0fac89cab03238c94dcf6"
+    },
+    {
+      "path": "literature/local/2026-11-01-retained-tail-whole-candidate/run-01/stage-01-prefix/result.json",
+      "bytes": 121199,
+      "sha256": "3dd3a82946a07c38fa80f18422af215de7e9d1a0c2b5b2e0dc817bfc0acb7e6c"
+    },
+    {
+      "path": "literature/supplements/2026-11-01-retained-tail-whole-rejection-scope.md",
+      "bytes": 1440,
+      "sha256": "06afa66f1836f85ab2e092315304684ad4c548da04e454212df62cbb06f95e37"
+    },
+    {
+      "path": "notes/605-retained-tail-fixed-young-whole-recipe-rejection.md",
+      "bytes": 4190,
+      "sha256": "c0a391943560599374fc80716aa5efe96821751817ee498378001b6bdac61116"
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-whole-execution/attempt-intent.json",
+      "bytes": 727,
+      "sha256": "50148f4c77ddc05973be36be33a2cc7b8811b93018cfa63a9ce36d1b4dcdb73e"
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-whole-execution/cadence-before-settlement.json",
+      "bytes": 7036,
+      "sha256": "712195abe82736fd5f8dbb79a7fec509f36fe3cf6222e8981adc9b286b8abdb9"
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-whole-execution/check-terminal-replay-synthetic.py",
+      "bytes": 4992,
+      "sha256": "c7c2522ff13b3a4be0500710ded0cca8bd9f36119cf8e21a2746a0a660624b97"
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-whole-execution/checker-launch.json",
+      "bytes": 781,
+      "sha256": "7d4b0874819095c105b03003da74f596d5983b40764dc4f2bf8d94a775f77053"
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-whole-execution/checker-stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-whole-execution/checker-stdout.txt",
+      "bytes": 326,
+      "sha256": "ff02cc67bb40c7be84aa1a0435cbf9f2cfa6ed171a4dd847311ecbbaa4d0b588"
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-whole-execution/checker-terminal.json",
+      "bytes": 1102,
+      "sha256": "3be17c1df3c5809cf3a3a4c34adcb260fa37445084c23e5ed704a4451f604cf9"
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-whole-execution/execution-admission-design.json",
+      "bytes": 6083,
+      "sha256": "d20d8fa549a4b2458edeecd639d3fca58fe1631e30f449a068d6f9d306d69626"
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-whole-execution/execution-admission-fresh.md",
+      "bytes": 8731,
+      "sha256": "66a84917d86c5c54cd0fbd98f67a5a11967b4d5fb2ff62189aab8436fe2dca71"
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-whole-execution/execution-start.json",
+      "bytes": 760,
+      "sha256": "32604d0ce3f5975926525554f321b08c7481372433e61c6769515e9b063a52a0"
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-whole-execution/fixed-head-loss-corollary-fresh.md",
+      "bytes": 3752,
+      "sha256": "98c41bfc67003530073cfa98ddc4de2e7ae45c0abb19c4a13986f23f5f623988"
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-whole-execution/next-directional-remainder-admission.md",
+      "bytes": 3899,
+      "sha256": "56e37edcdb4c74b99602efce1c7ff3c1c710e9df68c681007028c8f9e12e67a8"
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-whole-execution/observe-process-once.py",
+      "bytes": 5940,
+      "sha256": "2add01261a2b3f9a4d74cadb556c35b54c33d6e0c24cfd0e367bacd7c28b4df5"
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-whole-execution/prefix-execution-freeze.json",
+      "bytes": 5892,
+      "sha256": "bb52421785dd5409fd1367c7630249f255f4875149203df022e706de4e92d9be"
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-whole-execution/prefix-result.json",
+      "bytes": 121199,
+      "sha256": "3dd3a82946a07c38fa80f18422af215de7e9d1a0c2b5b2e0dc817bfc0acb7e6c"
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-whole-execution/prefix-root-execution-gate.json",
+      "bytes": 6850,
+      "sha256": "563b133fea9fbae1253ff8d1cd3f4387380d80396f4eebf0f1fe7c78e97309d0"
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-whole-execution/producer-launch.json",
+      "bytes": 783,
+      "sha256": "1d6fd44de42aa009742c2b66957949ab5477c01cf4a02f4452940d5179480910"
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-whole-execution/producer-stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-whole-execution/producer-stdout.txt",
+      "bytes": 258,
+      "sha256": "1f6fdd5348c8dc0bfe19e2443914217fbc0efa1db8ad9a846b85b915e421fe31"
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-whole-execution/producer-terminal.json",
+      "bytes": 1106,
+      "sha256": "abb4338aa9f7d759deeab6d65517024d79bc79193ecc2002ae872be9271ebfbc"
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-whole-execution/root-checker-observed.json",
+      "bytes": 653,
+      "sha256": "4c8645496e4eef805ef8645c836541fa6f9d424661438cfd965cd031481849dd"
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-whole-execution/root-consumed.md",
+      "bytes": 6605,
+      "sha256": "5febf46e5746c6931b1bd0a7b10a3e6a20cb96b61ec038ec93a6cee3e7bfc914"
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-whole-execution/root-producer-observation-start.json",
+      "bytes": 242,
+      "sha256": "e24c66a37361cb87424435568bf60fc3617def71c9e3213b1906fb366f164a60"
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-whole-execution/root-producer-observed.json",
+      "bytes": 674,
+      "sha256": "bbcbc759c3cb07c815de152866f530216038de3fc64529c8436db7cf08ab4ed0"
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-whole-execution/root-scalar-consumption.json",
+      "bytes": 10956,
+      "sha256": "78534866762476619eaf553d8247b2d67d8b4fd2d9bbfd9337fae9b4001a04ae"
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-whole-execution/root-scalar-observed.json",
+      "bytes": 427,
+      "sha256": "7692c70d162606ac692888a2057be5e57d66adcef94cb828833bb462f778302b"
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-whole-execution/root-stage01-admission.json",
+      "bytes": 1837,
+      "sha256": "51a9af39eab605940bc29c56482d79bd89b74539050e649db1e5f4b05b1a8dd8"
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-whole-execution/terminal-replay-gate.json",
+      "bytes": 6393,
+      "sha256": "53c7c2791506d2a25139c27fb8b1ca382a31b857cd230a5e9ec917702b20c978"
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-whole-execution/terminal-replay-math-fresh.md",
+      "bytes": 6880,
+      "sha256": "120c5b38f5fe7339e1f6b8a348b2a5d1ea719f3b62599697c99e66dc492dfb59"
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-whole-execution/terminal-replay-result.json",
+      "bytes": 27044,
+      "sha256": "32299c4c720caf2d1b4380a7cd01bf4a20611ad3ed81dcbb65536fe7b59ef30d"
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-whole-execution/terminal-replay-synthetic-final.json",
+      "bytes": 719,
+      "sha256": "867fd4c08556749c54c3c1dd70404466b4de45e07b6094695a7c2e2175c89410"
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-whole-execution/terminal-replay-synthetic-result.json",
+      "bytes": 719,
+      "sha256": "f9978da215b3ddb16a9e6f4fe3f83c61a9253c1be424ebf380c85a775300873d"
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-whole-execution/terminal-result-fresh.md",
+      "bytes": 5992,
+      "sha256": "76b4e7da7657f76a580d9743fbd9cf20f405201f7fb44e22f776af4dbc3e1f65"
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-whole-execution/verify-prefix-terminal.py",
+      "bytes": 33763,
+      "sha256": "09eb48ca46bdd67a4e01798c0df3da4b5f7fe8db3a713f896c3a1513da6d8360"
+    }
+  ],
+  "baseChargedBytes": 1546101,
+  "successPathTransientUpperBytes": 524288,
+  "successPathTransientDerivedBoundBytes": 405937,
+  "transientDerivation": "43 forced-pivot progress rows charged by actual row bytes+2048 each;2 other forced4096;<=22 ordinary3s updates4096 in actual<60s;8192 terminalprogress; extra fullresult121199/checker27044/log31567 rename/tmp allowances. No failed/retried process. Includes discarded progress, not deletion credit.",
+  "futurePublicationReserveBytes": 1048576,
+  "futurePublicationExactAllowedPaths": [
+    "reviews/2026-11-01/retained-tail-whole-execution/runtime-output-ledger.json",
+    "reviews/2026-11-01/retained-tail-whole-execution/root-consumption-scope.json",
+    "reviews/2026-11-01/retained-tail-whole-execution/remote-sync-verification.json",
+    "goals/STATE.json",
+    "goals/checkpoints/2026-11-01-retained-tail-whole-rejection-source.json",
+    "goals/checkpoints/2026-11-01-retained-tail-whole-rejection-sync.json"
+  ],
+  "completeOutputUpperBytes": 3118965,
+  "futureBytesRequireActualFinalVerification": true,
+  "notes": "All private originals AND public copies, authorization/locks/launch/stdout/terminal/root/scalar/reviews counted. Full pre-existing third-party/source inputs are read-only and not copied. Source Git transport is not a numerical producer. This ledger has no own-SHA cycle; own bytes use the bounded future reserve."
+}

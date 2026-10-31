@@ -1,0 +1,11 @@
+{
+  "schema": "rh-weil-external-scalar-consumption-observation-v1",
+  "rootBeforeProcessUTC": "2026-10-31 19:49:17 UTC",
+  "rootAfterProcessUTC": "2026-10-31 19:49:20 UTC",
+  "fullProcessUpperSeconds": 5.0,
+  "roundingReserveSeconds": 2,
+  "priorProducerCheckerEnvelopeSeconds": 128,
+  "totalScientificProcessUpperSeconds": 133.0,
+  "onlySavedScalarAndOpaquePinConsumption": true,
+  "noNewSourceOrDirection": true
+}

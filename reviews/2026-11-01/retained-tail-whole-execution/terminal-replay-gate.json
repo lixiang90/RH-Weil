@@ -1,0 +1,88 @@
+{
+  "schema": "RH_WEIL_C068_TERMINAL_REPLAY_GATE_V1",
+  "authorization": "ROOT_EXPLICIT_C068_TERMINAL_REPLAY",
+  "contractId": "C068",
+  "runtimeGoalCreatedAt": 1793085111,
+  "targetId": "RH_WEIL_FIXED_9_8_COVARIANCE_JOINT_GRAM_T_WHOLE_V1",
+  "currentStage": "stage-01-prefix",
+  "numericalExecutionAuthorized": true,
+  "laterStagesAuthorized": false,
+  "oneAttemptOnly": true,
+  "verifierPin": {
+    "path": "reviews/2026-11-01/retained-tail-whole-execution/verify-prefix-terminal.py",
+    "sha256": "09eb48ca46bdd67a4e01798c0df3da4b5f7fe8db3a713f896c3a1513da6d8360"
+  },
+  "producerCodePin": {
+    "path": "reviews/2026-11-01/retained-tail-whole-prefix/whole-prerequisite.py",
+    "sha256": "c4a470a4e7aa887f51d3b37edc200cc0c9a129534d3d0a46ab3a6f5e34b25c4b"
+  },
+  "resultPin": {
+    "path": "literature/local/2026-11-01-retained-tail-whole-candidate/run-01/stage-01-prefix/result.json",
+    "sha256": "3dd3a82946a07c38fa80f18422af215de7e9d1a0c2b5b2e0dc817bfc0acb7e6c"
+  },
+  "freezePin": {
+    "path": "reviews/2026-11-01/retained-tail-whole-execution/prefix-execution-freeze.json",
+    "sha256": "bb52421785dd5409fd1367c7630249f255f4875149203df022e706de4e92d9be"
+  },
+  "rootGatePin": {
+    "path": "reviews/2026-11-01/retained-tail-whole-execution/prefix-root-execution-gate.json",
+    "sha256": "563b133fea9fbae1253ff8d1cd3f4387380d80396f4eebf0f1fe7c78e97309d0"
+  },
+  "pivotLogPin": {
+    "path": "literature/local/2026-11-01-retained-tail-whole-candidate/run-01/stage-01-prefix/pivots.jsonl",
+    "sha256": "0c510709b47a90f3d5b2f10bd49d14d9102d37317cb117a4d51c939744287335"
+  },
+  "outerLockPin": {
+    "path": "literature/local/2026-11-01-retained-tail-whole-candidate/run-01/run-lock.json",
+    "sha256": "88ec046de325e85ff5b2880278540b0ec2841c251d75305b257dfcfe35ab3d96"
+  },
+  "reviewPins": {
+    "reviews/2026-11-01/retained-tail-whole-execution/terminal-replay-math-fresh.md": "120c5b38f5fe7339e1f6b8a348b2a5d1ea719f3b62599697c99e66dc492dfb59",
+    "reviews/2026-11-01/retained-tail-whole-execution/execution-admission-fresh.md": "66a84917d86c5c54cd0fbd98f67a5a11967b4d5fb2ff62189aab8436fe2dca71"
+  },
+  "sourceMathPins": {
+    "literature/local/2026-10-29-weil-9-8/pilot/run-01/certificates/source-matrices.json": "a5486fea38c3c8f91dcf4bb77c7677e734efe2ac9cbf59ddabc4674739fdb2f2",
+    "literature/local/2026-10-29-weil-9-8/pilot/run-01/certificates/tail-columns.json": "d714fa8d717a8f39d8b3b57cc6292e3f14844041b83802cf57ee47aa03c65a0e",
+    "literature/local/2026-10-31-retained-tail-source/run-01/finite-columns.jsonl": "d841d307d2b22367570e594c1bc9e3b64c8a4ffef88691382acf5d6fbeeaf080",
+    "literature/local/2026-10-31-retained-tail-center-certificate/run-01/result.json": "3eb9e77d71f92ead44775bfbafb7499a7ff0fd2e5bc81ac00095332a4f912739",
+    "reviews/2026-10-31/retained-tail-center-admission/root-consumption-scope.json": "6e0df0fed60465622f8b95551e4e361203a8de9b199bf167c38709caf4caaac3",
+    "reviews/2026-10-29/weil-9-8-admission/source-stage-verification.json": "dbb31208d0568feac7c9adff27722d5b55d08381002d23e0a4e35f150b1472c1",
+    "reviews/2026-10-29/weil-9-8-admission/full-weil-analytic-transfer-fresh.md": "0cdb4173b7664b73b47fd8789c0629f0535a208ad9af2a4af8eb86422c64a466",
+    "reviews/2026-11-01/retained-tail-whole-admission/selected-whole-certificate.md": "0328afa478fce4f73873776dc22e702f849233468f3afad09fc2d078a0a98ea7",
+    "reviews/2026-11-01/retained-tail-whole-admission/candidate-preparation.json": "d9eb014c9769a9f00eeb09b66aeb043a7ff7415fb495f15d63d4fa9abf6f6950",
+    "reviews/2026-11-01/retained-tail-whole-admission/root-consumed.md": "577685f4ea977ee686f9e6c09fa16527184e40b6f0933a28b0c7290a45d585ee",
+    "reviews/2026-11-01/retained-tail-whole-admission/root-consumption-scope.json": "07884950934555087e3a1efbdc9c0d529c302f852dfb47efd12e4344c93057de",
+    "reviews/2026-11-01/retained-tail-whole-admission/selected-target-fresh.md": "b37f3beea0eb6cbee29b2d57ee5dbf9444eb3ecf297ae6c42fb75703922b2519",
+    "reviews/2026-11-01/retained-tail-whole-admission/old-fee-recovery.json": "1b07b329e390089f34d86777ecbf6b257b40ab3636a7123fe08023317c98c344",
+    "reviews/2026-11-01/retained-tail-whole-admission/old-fee-recovery-fresh.md": "a77888cd710f41a7abba87687e2724de009dbc6500bce5eddac16b3771895fc1",
+    "reviews/2026-11-01/retained-tail-whole-admission/recover-paid-source-fees.py": "63e428ebeaeed3ffd3ed90d8ca54079e21d2efe2d9a1177853c8b62adc08682c",
+    "reviews/2026-11-01/retained-tail-whole-admission/next-code-preparation.md": "3ecd7b4753f540ee92034b14094d2f840d369c4825e7b40c4b764b3af208b3ed",
+    "reviews/2026-11-01/retained-tail-whole-prefix/prefix-math-admission.md": "ce8e3d793881c2849aeb19abcaaa16d3d72de5d0870f86097dd5446d63dee984",
+    "reviews/2026-11-01/retained-tail-signed-head/math-admission.md": "6547b2ff0e0b2a4deeeb88ae549930cb51d7a16b99a77c6053e9c30413e04c95",
+    "goals/GOAL.20261027.md": "b3d2acb1f962d793f45d79b6a4e67fb87dd072cd4752108a9298204b4cefa1de",
+    "goals/review-cadence.json": "712195abe82736fd5f8dbb79a7fec509f36fe3cf6222e8981adc9b286b8abdb9",
+    "literature/manifest.json": "3223cffd0205b9a1f8660445ac33d0f3cec13b3bd1fa5e7799ed8abfb2746d42"
+  },
+  "processControl": {
+    "controllerPin": {
+      "path": "reviews/2026-11-01/retained-tail-whole-execution/observe-process-once.py",
+      "sha256": "2add01261a2b3f9a4d74cadb556c35b54c33d6e0c24cfd0e367bacd7c28b4df5"
+    },
+    "phase": "checker",
+    "cutoffSeconds": 100,
+    "noAutomaticNextProcess": true
+  },
+  "stageAccounting": {
+    "priorProcessSecondsUpper": "82",
+    "remainingSeconds": "518",
+    "priorChargedBytesUpper": 242110,
+    "remainingBytes": 3952194,
+    "priorReceiptPins": {
+      "reviews/2026-11-01/retained-tail-whole-execution/producer-terminal.json": "abb4338aa9f7d759deeab6d65517024d79bc79193ecc2002ae872be9271ebfbc",
+      "reviews/2026-11-01/retained-tail-whole-execution/root-producer-observed.json": "bbcbc759c3cb07c815de152866f530216038de3fc64529c8436db7cf08ab4ed0",
+      "reviews/2026-11-01/retained-tail-whole-execution/root-producer-observation-start.json": "e24c66a37361cb87424435568bf60fc3617def71c9e3213b1906fb366f164a60"
+    }
+  },
+  "rootScope": "ONE direct saved-witness replay only; sameC068 stage01 budget, no new direction/LDL/matmul/inverse/source/alpha queue",
+  "createdUTC": "2026-10-31T19:46:40.048875+00:00"
+}

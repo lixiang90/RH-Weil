@@ -1,0 +1,15 @@
+{
+  "schema": "rh-weil-external-phase-observation-v1",
+  "phase": "producer",
+  "sessionId": 24385,
+  "observedActualTerminal": true,
+  "controllerExitCode": 0,
+  "rootBeforeToolUTC": "2026-10-31 19:44:25 UTC",
+  "rootAfterTerminalUTC": "2026-10-31 19:45:45 UTC",
+  "fullControllerPhaseUpperSeconds": 82.0,
+  "roundingReserveSeconds": 2,
+  "childMeasuredLifetimeUpperSeconds": 56.41403529999661,
+  "budgetMeaning": "Sequential administrative-controller phase envelope includes scientific child and all overhead ONCE; not double-added",
+  "producerResultSHA256": "3dd3a82946a07c38fa80f18422af215de7e9d1a0c2b5b2e0dc817bfc0acb7e6c",
+  "noRuntimeRestart": true
+}

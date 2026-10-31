@@ -1,0 +1,19 @@
+{
+  "authorizationFile": "reviews\\2026-11-01\\retained-tail-whole-execution\\prefix-execution-freeze.json",
+  "authorizationSHA256": "bb52421785dd5409fd1367c7630249f255f4875149203df022e706de4e92d9be",
+  "childCutoffSeconds": 450,
+  "command": [
+    "C:\\Python314\\python.exe",
+    "D:\\codex-build\\RH-Weil\\reviews\\2026-11-01\\retained-tail-whole-prefix\\whole-prerequisite.py",
+    "--freeze-file",
+    "D:\\codex-build\\RH-Weil\\reviews\\2026-11-01\\retained-tail-whole-execution\\prefix-execution-freeze.json"
+  ],
+  "contractId": "C068",
+  "controllerPID": 36540,
+  "mayBeRemoved": false,
+  "oneAttemptOnly": true,
+  "phase": "producer",
+  "runtimeGoalCreatedAt": 1793085111,
+  "schema": "RH_WEIL_C068_PROCESS_LAUNCH_V1",
+  "startedUTC": "2026-10-31T19:44:27.045930+00:00"
+}

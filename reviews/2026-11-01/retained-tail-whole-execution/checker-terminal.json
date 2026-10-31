@@ -1,0 +1,33 @@
+{
+  "GoalComplete": false,
+  "RHCertified": false,
+  "actualControllerFullLifetimeRequiresExternalRootObservation": true,
+  "childLifetimeUpperSeconds": 7.451463499994134,
+  "childObservedExitedUTC": "2026-10-31T19:46:49.791791+00:00",
+  "childPID": 36104,
+  "childStartedUTC": "2026-10-31T19:46:42.340410+00:00",
+  "contractId": "C068",
+  "controllerElapsedBeforeReceiptSeconds": 7.703571599995485,
+  "cutoffSeconds": 100,
+  "exitCode": 0,
+  "files": [
+    {
+      "bytes": 326,
+      "path": "reviews\\2026-11-01\\retained-tail-whole-execution\\checker-stdout.txt",
+      "sha256": "ff02cc67bb40c7be84aa1a0435cbf9f2cfa6ed171a4dd847311ecbbaa4d0b588"
+    },
+    {
+      "bytes": 0,
+      "path": "reviews\\2026-11-01\\retained-tail-whole-execution\\checker-stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "noAutomaticNextProcess": true,
+  "outputCapStop": false,
+  "phase": "checker",
+  "runtimeGoalCreatedAt": 1793085111,
+  "schema": "RH_WEIL_C068_PROCESS_TERMINAL_V1",
+  "terminal": true,
+  "timedOut": false,
+  "wholeQCertified": false
+}

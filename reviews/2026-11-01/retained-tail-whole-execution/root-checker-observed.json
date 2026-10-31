@@ -1,0 +1,17 @@
+{
+  "schema": "rh-weil-external-phase-observation-v1",
+  "phase": "checker",
+  "observedActualTerminal": true,
+  "controllerExitCode": 0,
+  "rootBeforeToolUTC": "2026-10-31 19:46:40 UTC",
+  "rootAfterTerminalUTC": "2026-10-31 19:47:24 UTC",
+  "fullControllerPhaseUpperSeconds": 46.0,
+  "roundingReserveSeconds": 2,
+  "childMeasuredLifetimeUpperSeconds": 7.451463499994134,
+  "priorProducerEnvelopeSeconds": 82,
+  "combinedEnvelopeSeconds": 128.0,
+  "sameStageCapSeconds": 600,
+  "noDoubleAdditionOfEnclosedChild": true,
+  "verifierResultSHA256": "32299c4c720caf2d1b4380a7cd01bf4a20611ad3ed81dcbb65536fe7b59ef30d",
+  "noRestart": true
+}

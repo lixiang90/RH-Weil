@@ -1,0 +1,630 @@
+{
+  "schema": "rh-weil-C068-root-consumption-v1",
+  "date": "2026-11-01",
+  "runtimeGoalCreatedAt": 1793085111,
+  "baseline": "0c4f3a3eb609bb1d9564138fa4a35701f05605f2",
+  "status": "ROOT_CONSUMED_605_STRICT_FIXED_HEAD_LOSS_RECIPE_REJECTION",
+  "root_report": "reviews/2026-11-01/retained-tail-whole-execution/root-consumed.md",
+  "settledNote": "notes/605-retained-tail-fixed-young-whole-recipe-rejection.md",
+  "executed_action": {
+    "previousGoalTurn": "PROGRESS/codepreparation completed andpublished",
+    "producerSession": 24385,
+    "producerPID": 40744,
+    "producerExit": 0,
+    "producerSeconds": 56.41403529999661,
+    "checkerPID": 36104,
+    "checkerExit": 0,
+    "checkerSeconds": 7.451463499994134,
+    "producerStatus": "FIXED_WHOLE_RECIPE_REJECTED",
+    "checkerStatus": "NEGATIVE_FIXED_WHOLE_RECIPE_CERTIFICATE_VERIFIED",
+    "sector": "even",
+    "zeroBasedPivot": 42,
+    "pivotOriginalDegree": 84,
+    "rawPhysicalSourceCanHaveAllEven224Coefficients": true,
+    "pivotRows": 43,
+    "pivotBytes": 31567,
+    "pivotClosed": true,
+    "producerInputPins": 29,
+    "checkerConsumedPins": 41,
+    "actualNewSourceRegeneration": false,
+    "CX_Z_Produced": false,
+    "laterStageDispatched": false
+  },
+  "premise_closure": {
+    "objectNormDomain": "Complex f-du H fixed9/8; E448 native, rawDjj9/[4(2j+1)]; a=B0z and nativeu=D^.5a; physicalr=exp(u/2)f weightedexp(-u)du, originalzero-extensionDlog",
+    "sourceGrowthQuantifiers": "SAMEacceptedcenters, E448->wholeH source226; completeGamma/contact/allpp/bothpoles paid; no R on allH/growingI/Xi",
+    "paidDependenciesErrors": "Oldtrue-enclosure/nativeoperator proof givesop226/head224/wholeU216/head202. Fixedlambda alpha122+beta224+nu216 once; noextraEPS. Actualcheckerexactsource/rawmetric reconstruction and41pins beforecadence settlement.",
+    "coefficientDirection": "Ppre=B0*(Chat_raw-lambdaD)B0; a=B0z, B0=D^-1(Graw+D), not wholeB=AG. n=a*Da; directqK=a*(C+Graw)a-z*Grawz-(Grawz)*D^-1(Grawz).",
+    "coverageCoupling": "One realphysicalsource incomplexE448 strictlyrejects fixedT forALLvalidlaterGram; nofullpositivecoverage/CXZvalues neededfornegativebranch. Actualwholepositive/growthnotclosed.",
+    "strongestOldNet": "NewactualheadRayleigh upper<alpha122 whileoldpositive202 retained. Currentcovariance andoldfixedalpha positiveM sufficientfamilies fail; no actualnegativeCret/Lret/Q or allalpha/allmethodbound. Old604 andwhole4/5 negativeinertiaUPPER unchanged.",
+    "otherExactDecomposition": "FixedpositiveM Pi<=Cret-alphaI viaQbar^-1<=(E*Nbar^-1E)^-1<=E*NbarE andNbar<=Ntrue,betaD_N>=0. SAME605 immediatepure-order corollary, noalternateconsumer/secondround. RawinverseD Qraw^-1D.",
+    "remaining": "Whole9/8positivity,principal/sections/mixed,signedcorecross/growingXi andall3longGoalgatesopen"
+  },
+  "rootScalarReadout": {
+    "chatRayleighPowers": [
+      -123,
+      -122
+    ],
+    "negativePrerequisiteMagnitudePowers": [
+      -124,
+      -123
+    ],
+    "trueCretOldLowerPower": -202,
+    "trueCretStrictUpperPower": -122,
+    "noFullQUpper": true
+  },
+  "budget": {
+    "stageSecondsUpper": 133,
+    "stageSecondsCap": 600,
+    "aggregateSecondsCap": 7200,
+    "ledger": "reviews/2026-11-01/retained-tail-whole-execution/runtime-output-ledger.json",
+    "baseBytes": 1546101,
+    "successTransientUpperBytes": 524288,
+    "publicationReserveBytes": 1048576,
+    "completeBytesUpper": 3118965,
+    "stageByteCap": 4194304,
+    "aggregateByteCap": 67108864,
+    "actualFutureBytesMustPassAtFinalPublication": true,
+    "noDoubleChildCharging": true,
+    "noResetOrTransfer": true
+  },
+  "cadenceTransition": {
+    "beforeBytes": 7036,
+    "beforeSHA256": "712195abe82736fd5f8dbb79a7fec509f36fe3cf6222e8981adc9b286b8abdb9",
+    "preservedAt": "reviews/2026-11-01/retained-tail-whole-execution/cadence-before-settlement.json",
+    "afterBytes": 7197,
+    "afterSHA256": "c57d42559b05b25c37fca829c7c4cd60c050dfff21be46f2909e79d5c582b8d4",
+    "authorizedAfterAll41RuntimePinsRootConsumed": true,
+    "newMathematicalIterations": 1,
+    "roundsSinceReview": [
+      2,
+      3
+    ],
+    "historyField": [
+      68,
+      69
+    ],
+    "latest": 605,
+    "formalCycle": 21,
+    "noReset": true
+  },
+  "classification": {
+    "fixedCandidateDecisionChanged": true,
+    "wholePositiveBudgetImproved": false,
+    "keyBottleneckRemoved": false,
+    "newLiterature": 0,
+    "GoalStatus": "sameactive",
+    "GoalComplete": false
+  },
+  "nextAdmission": {
+    "path": "reviews/2026-11-01/retained-tail-whole-execution/next-directional-remainder-admission.md",
+    "status": "UNEXECUTED_PROOF_ONLY_INPUT_ERROR_TEST_ADMISSION",
+    "newC069": false,
+    "numericalExecutionAuthorized": false,
+    "noParameterOrSourceQueue": true
+  },
+  "public_bindings": [
+    {
+      "path": ".gitattributes",
+      "raw_bytes": 9752,
+      "sha256_raw": "24c8de2600d35fcae80b9bd7ab25b8391fec7b792055df4dcd82361805e90d9d",
+      "sha256_lf": "695383e8f9199116f705f3e17ed3da2e9e9ab0ee47ca417e91f0d3ed5186b0e5",
+      "raw_git_required": false
+    },
+    {
+      "path": "RESEARCH_BRANCHES.md",
+      "raw_bytes": 303155,
+      "sha256_raw": "c04a5c3be66325dc1e1a989a331fcebefa38a97aa499c7f829fe96ff1c8dc300",
+      "sha256_lf": "10840f334d1e417173e3788b679b69249e020fe6dc4cc4965fd6b9eb9d8832ff",
+      "raw_git_required": false
+    },
+    {
+      "path": "goals/DECISIONS.md",
+      "raw_bytes": 373732,
+      "sha256_raw": "25318725782204b9744c5fc9f509be94e08a93e54c19736bab785bcbf462fe39",
+      "sha256_lf": "960b5d10002c7a05e60676a34eb49713d45d67dd1b69cd8f359eeebd1a68371b",
+      "raw_git_required": false
+    },
+    {
+      "path": "goals/GOAL.20261027.md",
+      "raw_bytes": 9679,
+      "sha256_raw": "b3d2acb1f962d793f45d79b6a4e67fb87dd072cd4752108a9298204b4cefa1de",
+      "sha256_lf": "b3d2acb1f962d793f45d79b6a4e67fb87dd072cd4752108a9298204b4cefa1de",
+      "raw_git_required": false
+    },
+    {
+      "path": "goals/MACRO_FRONTIER.md",
+      "raw_bytes": 129209,
+      "sha256_raw": "0bb71fe434752261c99b8aaddb562d7bfd3f13e1a788c9d09f685ea6fed4d014",
+      "sha256_lf": "51d48d8aa08cb133d4ef7682b8d545076c0c1873b094895232d526077bc0a4a0",
+      "raw_git_required": false
+    },
+    {
+      "path": "goals/README.md",
+      "raw_bytes": 93136,
+      "sha256_raw": "43c5ccf56545faf49697b4fa11a76b6c1a5077971c6e8815a46528554381a1bd",
+      "sha256_lf": "c6d7727f0468b379e1afd6b9acc8d33fd65c8543d72e5ae01e064f9d5e7c399a",
+      "raw_git_required": false
+    },
+    {
+      "path": "goals/RESEARCH_WORKFLOW.md",
+      "raw_bytes": 10509,
+      "sha256_raw": "567b238a62872505f9b29688cf4320fafb7f20b67a650c6cd7711ad56ddf95c1",
+      "sha256_lf": "567b238a62872505f9b29688cf4320fafb7f20b67a650c6cd7711ad56ddf95c1",
+      "raw_git_required": false
+    },
+    {
+      "path": "goals/contracts/C068-retained-tail-whole-covariance-candidate.md",
+      "raw_bytes": 5704,
+      "sha256_raw": "bf6c639cf5a671ad0960ca69d41364d75e613c6847e61b20383bc392471a360a",
+      "sha256_lf": "bf6c639cf5a671ad0960ca69d41364d75e613c6847e61b20383bc392471a360a",
+      "raw_git_required": false
+    },
+    {
+      "path": "goals/review-cadence.json",
+      "raw_bytes": 7197,
+      "sha256_raw": "c57d42559b05b25c37fca829c7c4cd60c050dfff21be46f2909e79d5c582b8d4",
+      "sha256_lf": "feec2c5d2ab8fc910ff63a1a191b0625061c6bbf2bb0c8fadf14a62008931bc1",
+      "raw_git_required": false
+    },
+    {
+      "path": "goals/reviews/2026-11-01-retained-tail-whole-rejection-605.md",
+      "raw_bytes": 1934,
+      "sha256_raw": "4e328d990711802e799511dae7dd4b2eb8af2f9c6941f4680c8e07d349dfbadb",
+      "sha256_lf": "4e328d990711802e799511dae7dd4b2eb8af2f9c6941f4680c8e07d349dfbadb",
+      "raw_git_required": false
+    },
+    {
+      "path": "literature/README.md",
+      "raw_bytes": 151333,
+      "sha256_raw": "9cd350b42d462183b87b2ee56223ec0db4eaf6f9999d98c8096f3982b504e0ba",
+      "sha256_lf": "f139f06b7d5334ca878f63cc1455e4b8de2b6c0e26e26e11df44489165b87fa3",
+      "raw_git_required": false
+    },
+    {
+      "path": "literature/manifest.json",
+      "raw_bytes": 223850,
+      "sha256_raw": "3223cffd0205b9a1f8660445ac33d0f3cec13b3bd1fa5e7799ed8abfb2746d42",
+      "sha256_lf": "3223cffd0205b9a1f8660445ac33d0f3cec13b3bd1fa5e7799ed8abfb2746d42",
+      "raw_git_required": false
+    },
+    {
+      "path": "literature/supplements/2026-11-01-retained-tail-whole-rejection-scope.md",
+      "raw_bytes": 1440,
+      "sha256_raw": "06afa66f1836f85ab2e092315304684ad4c548da04e454212df62cbb06f95e37",
+      "sha256_lf": "06afa66f1836f85ab2e092315304684ad4c548da04e454212df62cbb06f95e37",
+      "raw_git_required": false
+    },
+    {
+      "path": "notes/605-retained-tail-fixed-young-whole-recipe-rejection.md",
+      "raw_bytes": 4190,
+      "sha256_raw": "c0a391943560599374fc80716aa5efe96821751817ee498378001b6bdac61116",
+      "sha256_lf": "c0a391943560599374fc80716aa5efe96821751817ee498378001b6bdac61116",
+      "raw_git_required": false
+    },
+    {
+      "path": "reviews/2026-10-29/weil-9-8-admission/full-weil-analytic-transfer-fresh.md",
+      "raw_bytes": 13990,
+      "sha256_raw": "0cdb4173b7664b73b47fd8789c0629f0535a208ad9af2a4af8eb86422c64a466",
+      "sha256_lf": "0cdb4173b7664b73b47fd8789c0629f0535a208ad9af2a4af8eb86422c64a466",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-10-29/weil-9-8-admission/source-stage-verification.json",
+      "raw_bytes": 14179,
+      "sha256_raw": "dbb31208d0568feac7c9adff27722d5b55d08381002d23e0a4e35f150b1472c1",
+      "sha256_lf": "f423c3525f52a7ea71a5ae3517ea1a86daaa4b58cc22a8125fafcab6e568f00f",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-10-31/retained-tail-center-admission/root-consumption-scope.json",
+      "raw_bytes": 20127,
+      "sha256_raw": "6e0df0fed60465622f8b95551e4e361203a8de9b199bf167c38709caf4caaac3",
+      "sha256_lf": "377bf8dc98028913e7c127b39652b6a1279e697f7322972cc4d896a4b53bc145",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-signed-head/math-admission.md",
+      "raw_bytes": 16224,
+      "sha256_raw": "6547b2ff0e0b2a4deeeb88ae549930cb51d7a16b99a77c6053e9c30413e04c95",
+      "sha256_lf": "6547b2ff0e0b2a4deeeb88ae549930cb51d7a16b99a77c6053e9c30413e04c95",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-whole-admission/candidate-preparation.json",
+      "raw_bytes": 2674,
+      "sha256_raw": "d9eb014c9769a9f00eeb09b66aeb043a7ff7415fb495f15d63d4fa9abf6f6950",
+      "sha256_lf": "d9eb014c9769a9f00eeb09b66aeb043a7ff7415fb495f15d63d4fa9abf6f6950",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-whole-admission/next-code-preparation.md",
+      "raw_bytes": 2208,
+      "sha256_raw": "3ecd7b4753f540ee92034b14094d2f840d369c4825e7b40c4b764b3af208b3ed",
+      "sha256_lf": "3ecd7b4753f540ee92034b14094d2f840d369c4825e7b40c4b764b3af208b3ed",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-whole-admission/old-fee-recovery-fresh.md",
+      "raw_bytes": 4974,
+      "sha256_raw": "a77888cd710f41a7abba87687e2724de009dbc6500bce5eddac16b3771895fc1",
+      "sha256_lf": "a77888cd710f41a7abba87687e2724de009dbc6500bce5eddac16b3771895fc1",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-whole-admission/old-fee-recovery.json",
+      "raw_bytes": 2341,
+      "sha256_raw": "1b07b329e390089f34d86777ecbf6b257b40ab3636a7123fe08023317c98c344",
+      "sha256_lf": "41a8478a72c78431a6566b3a4a4c46ebf52173aa8da73c7c4745cbbd279fbbb9",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-whole-admission/positive-m-augmented-comparison.md",
+      "raw_bytes": 12455,
+      "sha256_raw": "3cee59dd69586e9d7b20dcec007a3713d29352c7006695cbeb366ebd3d196a2f",
+      "sha256_lf": "3cee59dd69586e9d7b20dcec007a3713d29352c7006695cbeb366ebd3d196a2f",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-whole-admission/recover-paid-source-fees.py",
+      "raw_bytes": 4358,
+      "sha256_raw": "63e428ebeaeed3ffd3ed90d8ca54079e21d2efe2d9a1177853c8b62adc08682c",
+      "sha256_lf": "63e428ebeaeed3ffd3ed90d8ca54079e21d2efe2d9a1177853c8b62adc08682c",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-whole-admission/root-consumed.md",
+      "raw_bytes": 5245,
+      "sha256_raw": "577685f4ea977ee686f9e6c09fa16527184e40b6f0933a28b0c7290a45d585ee",
+      "sha256_lf": "577685f4ea977ee686f9e6c09fa16527184e40b6f0933a28b0c7290a45d585ee",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-whole-admission/root-consumption-scope.json",
+      "raw_bytes": 17751,
+      "sha256_raw": "07884950934555087e3a1efbdc9c0d529c302f852dfb47efd12e4344c93057de",
+      "sha256_lf": "8d154e4b9ae3b827df43bfbca37d9121f20281143b057442a174fa4b28471634",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-whole-admission/selected-target-fresh.md",
+      "raw_bytes": 5975,
+      "sha256_raw": "b37f3beea0eb6cbee29b2d57ee5dbf9444eb3ecf297ae6c42fb75703922b2519",
+      "sha256_lf": "b37f3beea0eb6cbee29b2d57ee5dbf9444eb3ecf297ae6c42fb75703922b2519",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-whole-admission/selected-whole-certificate.md",
+      "raw_bytes": 9364,
+      "sha256_raw": "0328afa478fce4f73873776dc22e702f849233468f3afad09fc2d078a0a98ea7",
+      "sha256_lf": "0328afa478fce4f73873776dc22e702f849233468f3afad09fc2d078a0a98ea7",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-whole-execution/attempt-intent.json",
+      "raw_bytes": 727,
+      "sha256_raw": "50148f4c77ddc05973be36be33a2cc7b8811b93018cfa63a9ce36d1b4dcdb73e",
+      "sha256_lf": "53ed263c00fa77d61366ea7de4813185a22b986abd33e093aaf98f86f663e828",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-whole-execution/cadence-before-settlement.json",
+      "raw_bytes": 7036,
+      "sha256_raw": "712195abe82736fd5f8dbb79a7fec509f36fe3cf6222e8981adc9b286b8abdb9",
+      "sha256_lf": "38a8d129b0bb4fb1b9a3298758c8e51994a0cbe08bb209278b9f2f4af67d721a",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-whole-execution/check-terminal-replay-synthetic.py",
+      "raw_bytes": 4992,
+      "sha256_raw": "c7c2522ff13b3a4be0500710ded0cca8bd9f36119cf8e21a2746a0a660624b97",
+      "sha256_lf": "c7c2522ff13b3a4be0500710ded0cca8bd9f36119cf8e21a2746a0a660624b97",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-whole-execution/checker-launch.json",
+      "raw_bytes": 781,
+      "sha256_raw": "7d4b0874819095c105b03003da74f596d5983b40764dc4f2bf8d94a775f77053",
+      "sha256_lf": "7d4b0874819095c105b03003da74f596d5983b40764dc4f2bf8d94a775f77053",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-whole-execution/checker-stderr.txt",
+      "raw_bytes": 0,
+      "sha256_raw": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sha256_lf": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-whole-execution/checker-stdout.txt",
+      "raw_bytes": 326,
+      "sha256_raw": "ff02cc67bb40c7be84aa1a0435cbf9f2cfa6ed171a4dd847311ecbbaa4d0b588",
+      "sha256_lf": "2bbabdccfe3bccb2e76f09009937e6f735466c0c7da048284fa224a7a79263c2",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-whole-execution/checker-terminal.json",
+      "raw_bytes": 1102,
+      "sha256_raw": "3be17c1df3c5809cf3a3a4c34adcb260fa37445084c23e5ed704a4451f604cf9",
+      "sha256_lf": "3be17c1df3c5809cf3a3a4c34adcb260fa37445084c23e5ed704a4451f604cf9",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-whole-execution/execution-admission-design.json",
+      "raw_bytes": 6083,
+      "sha256_raw": "d20d8fa549a4b2458edeecd639d3fca58fe1631e30f449a068d6f9d306d69626",
+      "sha256_lf": "a8968120b16225a3a737d7edc36b2059c7e04a80a13832904ac91d0ef90b8619",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-whole-execution/execution-admission-fresh.md",
+      "raw_bytes": 8731,
+      "sha256_raw": "66a84917d86c5c54cd0fbd98f67a5a11967b4d5fb2ff62189aab8436fe2dca71",
+      "sha256_lf": "66a84917d86c5c54cd0fbd98f67a5a11967b4d5fb2ff62189aab8436fe2dca71",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-whole-execution/execution-start.json",
+      "raw_bytes": 760,
+      "sha256_raw": "32604d0ce3f5975926525554f321b08c7481372433e61c6769515e9b063a52a0",
+      "sha256_lf": "26a7d5931b839e62f047334e885a0732691698f184d5b1b64f0c706b27ba83dd",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-whole-execution/fixed-head-loss-corollary-fresh.md",
+      "raw_bytes": 3752,
+      "sha256_raw": "98c41bfc67003530073cfa98ddc4de2e7ae45c0abb19c4a13986f23f5f623988",
+      "sha256_lf": "98c41bfc67003530073cfa98ddc4de2e7ae45c0abb19c4a13986f23f5f623988",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-whole-execution/next-directional-remainder-admission.md",
+      "raw_bytes": 3899,
+      "sha256_raw": "56e37edcdb4c74b99602efce1c7ff3c1c710e9df68c681007028c8f9e12e67a8",
+      "sha256_lf": "56e37edcdb4c74b99602efce1c7ff3c1c710e9df68c681007028c8f9e12e67a8",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-whole-execution/observe-process-once.py",
+      "raw_bytes": 5940,
+      "sha256_raw": "2add01261a2b3f9a4d74cadb556c35b54c33d6e0c24cfd0e367bacd7c28b4df5",
+      "sha256_lf": "2add01261a2b3f9a4d74cadb556c35b54c33d6e0c24cfd0e367bacd7c28b4df5",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-whole-execution/prefix-execution-freeze.json",
+      "raw_bytes": 5892,
+      "sha256_raw": "bb52421785dd5409fd1367c7630249f255f4875149203df022e706de4e92d9be",
+      "sha256_lf": "4fccc6b53dafd17ba0473bda891598d0872486e8364c5c5ba21c16a2207657f9",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-whole-execution/prefix-result.json",
+      "raw_bytes": 121199,
+      "sha256_raw": "3dd3a82946a07c38fa80f18422af215de7e9d1a0c2b5b2e0dc817bfc0acb7e6c",
+      "sha256_lf": "3dd3a82946a07c38fa80f18422af215de7e9d1a0c2b5b2e0dc817bfc0acb7e6c",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-whole-execution/prefix-root-execution-gate.json",
+      "raw_bytes": 6850,
+      "sha256_raw": "563b133fea9fbae1253ff8d1cd3f4387380d80396f4eebf0f1fe7c78e97309d0",
+      "sha256_lf": "f3591c42675fe185297550bfe2a140f24cce891f297a77d2a28da16566a80a35",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-whole-execution/producer-launch.json",
+      "raw_bytes": 783,
+      "sha256_raw": "1d6fd44de42aa009742c2b66957949ab5477c01cf4a02f4452940d5179480910",
+      "sha256_lf": "1d6fd44de42aa009742c2b66957949ab5477c01cf4a02f4452940d5179480910",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-whole-execution/producer-stderr.txt",
+      "raw_bytes": 0,
+      "sha256_raw": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sha256_lf": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-whole-execution/producer-stdout.txt",
+      "raw_bytes": 258,
+      "sha256_raw": "1f6fdd5348c8dc0bfe19e2443914217fbc0efa1db8ad9a846b85b915e421fe31",
+      "sha256_lf": "cb361715e7a43dfe58e25846817b9ebb0bcc5126fdbaa97fa5c056bddadbe56a",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-whole-execution/producer-terminal.json",
+      "raw_bytes": 1106,
+      "sha256_raw": "abb4338aa9f7d759deeab6d65517024d79bc79193ecc2002ae872be9271ebfbc",
+      "sha256_lf": "abb4338aa9f7d759deeab6d65517024d79bc79193ecc2002ae872be9271ebfbc",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-whole-execution/root-checker-observed.json",
+      "raw_bytes": 653,
+      "sha256_raw": "4c8645496e4eef805ef8645c836541fa6f9d424661438cfd965cd031481849dd",
+      "sha256_lf": "15d03cad2a724a272ca390db0dc85394106304799370c8501b0884c1615bc21d",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-whole-execution/root-consumed.md",
+      "raw_bytes": 6605,
+      "sha256_raw": "5febf46e5746c6931b1bd0a7b10a3e6a20cb96b61ec038ec93a6cee3e7bfc914",
+      "sha256_lf": "5febf46e5746c6931b1bd0a7b10a3e6a20cb96b61ec038ec93a6cee3e7bfc914",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-whole-execution/root-producer-observation-start.json",
+      "raw_bytes": 242,
+      "sha256_raw": "e24c66a37361cb87424435568bf60fc3617def71c9e3213b1906fb366f164a60",
+      "sha256_lf": "d60df00e15ba996fbbc870ef9f9ae4ef8401ede60cca0fb453977c49bb5ebd7d",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-whole-execution/root-producer-observed.json",
+      "raw_bytes": 674,
+      "sha256_raw": "bbcbc759c3cb07c815de152866f530216038de3fc64529c8436db7cf08ab4ed0",
+      "sha256_lf": "15f222f7d81694fb272c8e42e3efbe9adb595bd8b844510880e7a4b9981b4f49",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-whole-execution/root-scalar-consumption.json",
+      "raw_bytes": 10956,
+      "sha256_raw": "78534866762476619eaf553d8247b2d67d8b4fd2d9bbfd9337fae9b4001a04ae",
+      "sha256_lf": "d5894499b4a7c04aedb5ebd1624dd27d319890d5a91f110dcb4aad1f2931044e",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-whole-execution/root-scalar-observed.json",
+      "raw_bytes": 427,
+      "sha256_raw": "7692c70d162606ac692888a2057be5e57d66adcef94cb828833bb462f778302b",
+      "sha256_lf": "aa7ca0ecf2daf35428e094ae707701daa5318dcf8578a0f7ebcbf9dc26c4d0ae",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-whole-execution/root-stage01-admission.json",
+      "raw_bytes": 1837,
+      "sha256_raw": "51a9af39eab605940bc29c56482d79bd89b74539050e649db1e5f4b05b1a8dd8",
+      "sha256_lf": "10380c85b5b3a0f2e2a38fac36c5fc4908aff08134cc8a0afc7a457403bd905c",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-whole-execution/runtime-output-ledger.json",
+      "raw_bytes": 12419,
+      "sha256_raw": "3651aefa39737babf580b3f740c981c18e7ce8a8bf660a18468ead759c74f4c8",
+      "sha256_lf": "1a6359af80ed6ffecb7f22f483ed3c285193616c35a9fd5495e109aaa495daec",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-whole-execution/terminal-replay-gate.json",
+      "raw_bytes": 6393,
+      "sha256_raw": "53c7c2791506d2a25139c27fb8b1ca382a31b857cd230a5e9ec917702b20c978",
+      "sha256_lf": "6b9b8744fdfdb2f6ef699213dd581553b588a9ada614776bf227575fb2cf1b3f",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-whole-execution/terminal-replay-math-fresh.md",
+      "raw_bytes": 6880,
+      "sha256_raw": "120c5b38f5fe7339e1f6b8a348b2a5d1ea719f3b62599697c99e66dc492dfb59",
+      "sha256_lf": "120c5b38f5fe7339e1f6b8a348b2a5d1ea719f3b62599697c99e66dc492dfb59",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-whole-execution/terminal-replay-result.json",
+      "raw_bytes": 27044,
+      "sha256_raw": "32299c4c720caf2d1b4380a7cd01bf4a20611ad3ed81dcbb65536fe7b59ef30d",
+      "sha256_lf": "32299c4c720caf2d1b4380a7cd01bf4a20611ad3ed81dcbb65536fe7b59ef30d",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-whole-execution/terminal-replay-synthetic-final.json",
+      "raw_bytes": 719,
+      "sha256_raw": "867fd4c08556749c54c3c1dd70404466b4de45e07b6094695a7c2e2175c89410",
+      "sha256_lf": "584e0e4a5f73dcfcbb15c3810e7f6d281ac3ecd450b58355e7f2cce7361227f9",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-whole-execution/terminal-replay-synthetic-result.json",
+      "raw_bytes": 719,
+      "sha256_raw": "f9978da215b3ddb16a9e6f4fe3f83c61a9253c1be424ebf380c85a775300873d",
+      "sha256_lf": "7a09ab49f8e727a4587838493a425c2f09223c7adfe9c6c1be284f7ddbff0c98",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-whole-execution/terminal-result-fresh.md",
+      "raw_bytes": 5992,
+      "sha256_raw": "76b4e7da7657f76a580d9743fbd9cf20f405201f7fb44e22f776af4dbc3e1f65",
+      "sha256_lf": "76b4e7da7657f76a580d9743fbd9cf20f405201f7fb44e22f776af4dbc3e1f65",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-whole-execution/verify-prefix-terminal.py",
+      "raw_bytes": 33763,
+      "sha256_raw": "09eb48ca46bdd67a4e01798c0df3da4b5f7fe8db3a713f896c3a1513da6d8360",
+      "sha256_lf": "09eb48ca46bdd67a4e01798c0df3da4b5f7fe8db3a713f896c3a1513da6d8360",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-whole-prefix/prefix-math-admission.md",
+      "raw_bytes": 6791,
+      "sha256_raw": "ce8e3d793881c2849aeb19abcaaa16d3d72de5d0870f86097dd5446d63dee984",
+      "sha256_lf": "ce8e3d793881c2849aeb19abcaaa16d3d72de5d0870f86097dd5446d63dee984",
+      "raw_git_required": true
+    }
+  ],
+  "local_bindings": [
+    {
+      "path": "D:/codex-build/RH-Weil/literature/local/2026-11-01-retained-tail-signed-head/run-01/pivots.jsonl",
+      "bytes": 636836,
+      "sha256": "0198a20e06349bcc8f2a53a9a38e35d44bd79d45382a163d4b5c2f13d2ee5366",
+      "ignored": true
+    },
+    {
+      "path": "D:/codex-build/RH-Weil/literature/local/2026-11-01-retained-tail-signed-head/run-01/progress.json",
+      "bytes": 429,
+      "sha256": "74a8506153617c6fd774fdd547f950d47e8d9fc4c62bba7c75f88d76a5110a3e",
+      "ignored": true
+    },
+    {
+      "path": "D:/codex-build/RH-Weil/literature/local/2026-11-01-retained-tail-signed-head/run-01/result.json",
+      "bytes": 5676,
+      "sha256": "ba31ccef92293cdc1f308ea05bdd507b5d2fb4695cbfab6c341aa74718d4ea4e",
+      "ignored": true
+    },
+    {
+      "path": "literature/local/2026-10-29-weil-9-8/pilot/run-01/certificates/source-matrices.json",
+      "bytes": 23377672,
+      "sha256": "a5486fea38c3c8f91dcf4bb77c7677e734efe2ac9cbf59ddabc4674739fdb2f2",
+      "ignored": true
+    },
+    {
+      "path": "literature/local/2026-10-29-weil-9-8/pilot/run-01/certificates/tail-columns.json",
+      "bytes": 296046,
+      "sha256": "d714fa8d717a8f39d8b3b57cc6292e3f14844041b83802cf57ee47aa03c65a0e",
+      "ignored": true
+    },
+    {
+      "path": "literature/local/2026-10-31-retained-tail-center-certificate/run-01/result.json",
+      "bytes": 70183,
+      "sha256": "3eb9e77d71f92ead44775bfbafb7499a7ff0fd2e5bc81ac00095332a4f912739",
+      "ignored": true
+    },
+    {
+      "path": "literature/local/2026-10-31-retained-tail-source/run-01/finite-columns.jsonl",
+      "bytes": 73598411,
+      "sha256": "d841d307d2b22367570e594c1bc9e3b64c8a4ffef88691382acf5d6fbeeaf080",
+      "ignored": true
+    },
+    {
+      "path": "literature/local/2026-11-01-retained-tail-whole-candidate/run-01/run-lock.json",
+      "bytes": 917,
+      "sha256": "88ec046de325e85ff5b2880278540b0ec2841c251d75305b257dfcfe35ab3d96",
+      "ignored": true
+    },
+    {
+      "path": "literature/local/2026-11-01-retained-tail-whole-candidate/run-01/stage-01-prefix/pivots.jsonl",
+      "bytes": 31567,
+      "sha256": "0c510709b47a90f3d5b2f10bd49d14d9102d37317cb117a4d51c939744287335",
+      "ignored": true
+    },
+    {
+      "path": "literature/local/2026-11-01-retained-tail-whole-candidate/run-01/stage-01-prefix/progress.json",
+      "bytes": 1471,
+      "sha256": "5423d904b38e2d89afdcdb51a91b20538f3b20af0dc0fac89cab03238c94dcf6",
+      "ignored": true
+    },
+    {
+      "path": "literature/local/2026-11-01-retained-tail-whole-candidate/run-01/stage-01-prefix/result.json",
+      "bytes": 121199,
+      "sha256": "3dd3a82946a07c38fa80f18422af215de7e9d1a0c2b5b2e0dc817bfc0acb7e6c",
+      "ignored": true
+    },
+    {
+      "path": "literature/local/2026-11-01-retained-tail-whole-candidate/run-01/stage-01-prefix/independent-negative-verifier/checker-result.json",
+      "bytes": 27044,
+      "sha256": "32299c4c720caf2d1b4380a7cd01bf4a20611ad3ed81dcbb65536fe7b59ef30d",
+      "ignored": true
+    }
+  ]
+}

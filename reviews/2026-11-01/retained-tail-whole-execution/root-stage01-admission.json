@@ -1,0 +1,33 @@
+{
+  "schema": "rh-weil-C068-root-stage01-admission-v1",
+  "status": "ROOT_EXPLICIT_STAGE01_EXECUTION_ADMITTED",
+  "contractId": "C068",
+  "runtimeGoalCreatedAt": 1793085111,
+  "createdUTC": "2026-10-31T19:44:02.499886+00:00",
+  "previousGoalTurn": "PROGRESS",
+  "rootConsumedReviewPins": {
+    "reviews/2026-11-01/retained-tail-whole-execution/execution-admission-fresh.md": "66a84917d86c5c54cd0fbd98f67a5a11967b4d5fb2ff62189aab8436fe2dca71",
+    "reviews/2026-11-01/retained-tail-whole-execution/terminal-replay-math-fresh.md": "120c5b38f5fe7339e1f6b8a348b2a5d1ea719f3b62599697c99e66dc492dfb59"
+  },
+  "producerGatePin": {
+    "path": "reviews/2026-11-01/retained-tail-whole-execution/prefix-root-execution-gate.json",
+    "sha256": "563b133fea9fbae1253ff8d1cd3f4387380d80396f4eebf0f1fe7c78e97309d0"
+  },
+  "producerFreezePin": {
+    "path": "reviews/2026-11-01/retained-tail-whole-execution/prefix-execution-freeze.json",
+    "sha256": "bb52421785dd5409fd1367c7630249f255f4875149203df022e706de4e92d9be"
+  },
+  "sourcePinsVerified": 21,
+  "contractPin": {
+    "path": "goals/contracts/C068-retained-tail-whole-covariance-candidate.md",
+    "sha256": "bf6c639cf5a671ad0960ca69d41364d75e613c6847e61b20383bc392471a360a"
+  },
+  "originalNorm": "f-du; physical r=exp(u/2)f weighted exp(-u)du",
+  "strongestOld": "604/head202 alreadypaid; no new math at admission",
+  "negativeConsequence": "Only fixed sufficient whole recipe fails for ALL valid laterGram; no negativeCret/Lret/Q",
+  "timeAccounting": "Full externally observed sequential controller phase envelope includes child+overhead ONCE. Sum all scientific phases/checkers under600s/4MiB; measured remainder before checker",
+  "actualScienceStarted": false,
+  "mathematicalSettlements": 0,
+  "laterStagesAuthorized": false,
+  "allGoalGates": "open"
+}

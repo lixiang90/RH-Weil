@@ -1,0 +1,19 @@
+{
+  "authorizationFile": "reviews\\2026-11-01\\retained-tail-whole-execution\\terminal-replay-gate.json",
+  "authorizationSHA256": "53c7c2791506d2a25139c27fb8b1ca382a31b857cd230a5e9ec917702b20c978",
+  "childCutoffSeconds": 100,
+  "command": [
+    "C:\\Python314\\python.exe",
+    "D:\\codex-build\\RH-Weil\\reviews\\2026-11-01\\retained-tail-whole-execution\\verify-prefix-terminal.py",
+    "--gate-file",
+    "D:\\codex-build\\RH-Weil\\reviews\\2026-11-01\\retained-tail-whole-execution\\terminal-replay-gate.json"
+  ],
+  "contractId": "C068",
+  "controllerPID": 37464,
+  "mayBeRemoved": false,
+  "oneAttemptOnly": true,
+  "phase": "checker",
+  "runtimeGoalCreatedAt": 1793085111,
+  "schema": "RH_WEIL_C068_PROCESS_LAUNCH_V1",
+  "startedUTC": "2026-10-31T19:46:42.338443+00:00"
+}
