@@ -3,10 +3,56 @@
   "date": "2026-11-01",
   "repository": "https://github.com/lixiang90/RH-Weil",
   "branch": "main",
-  "status": "pending-source-publication",
+  "status": "source-verified-metadata-child-condition-armed",
   "source_parent": "824dda5ec9c62d3111da5394d9b757b9fdc2fc56",
   "scope": "Actualsame-FINAL-center SOURCEcertificate rooted; op203/HS198/G203/fullH+infinite-tail/newnormauthority; oldboxtruth/STOP unchanged;0math/nohead/whole/Goalgate.",
-  "source_verification": null,
+  "source_verification": {
+    "commit": "94e5a674fb1fba89be42b0724c6a9a91928ec0d8",
+    "tree": "1e22b50c79b9d2e8aa3f1e0b35da5d28a1e00a3e",
+    "sole_parent": "824dda5ec9c62d3111da5394d9b757b9fdc2fc56",
+    "observed_at_utc": "2026-10-31T16:25:55.389917+00:00",
+    "source_changed_paths": [
+      ".gitattributes",
+      "RESEARCH_BRANCHES.md",
+      "goals/DECISIONS.md",
+      "goals/MACRO_FRONTIER.md",
+      "goals/README.md",
+      "goals/STATE.json",
+      "goals/checkpoints/2026-11-01-retained-tail-center-source.json",
+      "goals/reviews/2026-11-01-retained-tail-center-certificate.md",
+      "literature/README.md",
+      "literature/supplements/2026-11-01-retained-tail-center-certificate-scope.md",
+      "reviews/2026-10-31/retained-tail-center-admission/acceptance-obligation-audit.md",
+      "reviews/2026-10-31/retained-tail-center-admission/center-admission-fresh.md",
+      "reviews/2026-10-31/retained-tail-center-admission/center-certificate-admission.md",
+      "reviews/2026-10-31/retained-tail-center-admission/center-certificate-result.json",
+      "reviews/2026-10-31/retained-tail-center-admission/center-code-fresh.md",
+      "reviews/2026-10-31/retained-tail-center-admission/center-freeze.json",
+      "reviews/2026-10-31/retained-tail-center-admission/center-protocol-fresh.md",
+      "reviews/2026-10-31/retained-tail-center-admission/center-result-fresh.md",
+      "reviews/2026-10-31/retained-tail-center-admission/code-root-closure.json",
+      "reviews/2026-10-31/retained-tail-center-admission/execution-start.json",
+      "reviews/2026-10-31/retained-tail-center-admission/native-center-error-proof.md",
+      "reviews/2026-10-31/retained-tail-center-admission/next-signed-head-admission.md",
+      "reviews/2026-10-31/retained-tail-center-admission/proof-root-closure.json",
+      "reviews/2026-10-31/retained-tail-center-admission/remote-sync-verification.json",
+      "reviews/2026-10-31/retained-tail-center-admission/root-comparison.md",
+      "reviews/2026-10-31/retained-tail-center-admission/root-consumption-scope.json",
+      "reviews/2026-10-31/retained-tail-center-admission/scalar-denominator-clarification.md",
+      "reviews/2026-10-31/retained-tail-center-admission/source-centers-consumed.md",
+      "reviews/2026-10-31/retained-tail-center-admission/terminal-observation.json",
+      "reviews/2026-10-31/retained-tail-center-admission/verify-centers.py"
+    ],
+    "basis": "ActualconnectedGitHubAPIref/gitcommit/gittree MATCH localHEAD/tree/soleparent; exact30paths/clean/checkpoint/36committedpublicraw+LF/14ignoredlocal/3rawguards PASS.",
+    "math_iterations": 0,
+    "new_signed_certificate": false,
+    "source_centers_consumed": true,
+    "source_box_truth_consumed": false,
+    "source_scope": "SAMEE448->H V/G errors op203/HS198/G203, NEWnormauthority/fullinfinite-tail; actual799.384s+root/fresh; oldSTOP unchanged.",
+    "cadence_literature": "Goal9679/cadence6905raw1history67latest603formal21/library143manifest223850 held; noreset/formal22/newmath.",
+    "goal_gates": "all3open/sameactive1793085111",
+    "next_gate": "ONE NEWCret data/source+finiteerror/budget/stop freeze beforetest; no oldC0/P0/v/precisionqueue orwhole sign."
+  },
   "metadata_child_condition": {
     "exact_paths": [
       "goals/STATE.json",
@@ -14,6 +60,7 @@
       "reviews/2026-10-31/retained-tail-center-admission/remote-sync-verification.json"
     ],
     "condition": "AfteractualsourceindependentAPIref/commit/tree/localHEAD/soleparent/exactpaths/clean/checkpoint/36publicraw+LF/14local/3rawguards verified, ONEexact3metadatachild. Thenindependentlyverifyactualfinalref/commit/tree/localHEAD/soleparent/exact3/clean/checkpoint/pins/guards; noownSHA/recursivepush.",
-    "on_match": "Publicationonly. SameGoalactive/C066spent; nextONEnewCret gate data/errors/budget/stopfreeze pernextadmission, notoldC0/P0precision orwholeclaim."
+    "on_match": "Publicationonly. SameGoalactive/C066spent; nextONEnewCret gate data/errors/budget/stopfreeze pernextadmission, notoldC0/P0precision orwholeclaim.",
+    "parent": "94e5a674fb1fba89be42b0724c6a9a91928ec0d8"
   }
 }
