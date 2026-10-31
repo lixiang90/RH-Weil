@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "checks": 9,
+  "codeSHA256": "c0d4978db5909258279a9ba3017c46336e756b196f19d9f9331a98c953d9854f",
+  "ASTSelectedNames": [
+    "need",
+    "sqrt_grid"
+  ],
+  "helperImported": false,
+  "mainOrRunCalled": false,
+  "oldDataRead": false,
+  "newProbeComputed": false,
+  "scope": "Synthetic exact rational square containment at fixed1024 grid",
+  "newMathIterations": 0
+}

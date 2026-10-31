@@ -1,0 +1,18 @@
+{
+  "schema": "rh-weil-directional-remainder-admission-recovery-v1",
+  "runtimeGoalCreatedAt": 1793085111,
+  "recoveredFinal": "ac4ccb9d8df67ffb942d9c2c979e9b17e6ea4df0",
+  "recoveredTree": "089b45913a5597f17eb1f5c17f44f58052ee9689",
+  "soleParent": "23c60ebdbb6232f81af4937df9cb4ace1f04df87",
+  "exact3": true,
+  "cleanBeforeAgentOutputs": true,
+  "publicBindings": 64,
+  "localBindings": 12,
+  "checkpointAndLedgerVerified": true,
+  "previousGoalTurnClassification": "PROGRESS: actual605/countercertificate+samewitnessreplay+corollary settled once",
+  "currentAction": "ONE proof-only actual K E supplier/error/strongestold/wholeconsumer/test admission",
+  "newMathematicalIterations": 0,
+  "numericalExecutionAuthorized": false,
+  "newC069": false,
+  "observedUTC": "2026-10-31T20:21:30.162315+00:00"
+}

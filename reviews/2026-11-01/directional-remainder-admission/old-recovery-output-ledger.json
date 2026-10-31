@@ -1,0 +1,148 @@
+{
+  "schema": "rh-weil-old-recovery-complete-output-ledger-v1",
+  "status": "CLOSED_IMMUTABLE_BASE_PLUS_BOUNDED_SETTLEMENT_RESERVE",
+  "scope": "Conservatively charge all new admission/scalar outputs, both private/public result copies and new proof/review/helper/notes; preexisting project histories charge ONLY added payload measured in administrative-delta-accounting.json. No new source/matrix/Gram/solve produced.",
+  "capSeconds": 60,
+  "helperExternalUpperSeconds": 4,
+  "emittedScalarReadoutUpperSeconds": 4,
+  "totalScientificProcessUpperSeconds": 8,
+  "capBytes": 1048576,
+  "immutableBaseFiles": [
+    {
+      "path": "goals/reviews/2026-11-01-directional-remainder-admission.md",
+      "bytes": 1827,
+      "sha256": "5947cae836a1b9b3de0d7e924e5757c8b8c5f538bfeb7a4e33a67984640eb7c1"
+    },
+    {
+      "path": "literature/local/2026-11-01-directional-remainder-old-norm/run-01/attempt.json",
+      "bytes": 96,
+      "sha256": "12108a0d4c218929c236915bfc9f813d780ba7e0cb3130324c2da81dcef74689"
+    },
+    {
+      "path": "literature/local/2026-11-01-directional-remainder-old-norm/run-01/result.json",
+      "bytes": 14351,
+      "sha256": "51c6dc77a88db04906b3382b7b3ea3f0bab4ce0d04c9b52e5a5cc3dac5daad18"
+    },
+    {
+      "path": "literature/supplements/2026-11-01-directional-remainder-admission-scope.md",
+      "bytes": 1300,
+      "sha256": "a292f6b91c5f1b102660c4fc80eebebf59fbf6e042811d926eee9d60fbfd5fc6"
+    },
+    {
+      "path": "reviews/2026-11-01/directional-remainder-admission/administrative-delta-accounting.json",
+      "bytes": 716,
+      "sha256": "046b12d6d8a939688c34a9416fea980fa82613f635cb0fec0dd0b50f9102b399"
+    },
+    {
+      "path": "reviews/2026-11-01/directional-remainder-admission/execution-start.json",
+      "bytes": 824,
+      "sha256": "119ac555e4a1c5c99efc065a06c282882dd8f1e60bd8f2a96474dffff6783b17"
+    },
+    {
+      "path": "reviews/2026-11-01/directional-remainder-admission/full-k-column-supplier.md",
+      "bytes": 12135,
+      "sha256": "5bfd27fc7bed256367b8ed83a2be4eb972791718ec1fc844dde7ebb250cfa96a"
+    },
+    {
+      "path": "reviews/2026-11-01/directional-remainder-admission/global-joint-code-admission.md",
+      "bytes": 4784,
+      "sha256": "452a5e406027509acf70804ffe8e07b26c17a487b7fefb7ac1ffbef573ae67fc"
+    },
+    {
+      "path": "reviews/2026-11-01/directional-remainder-admission/next-global-code-preparation.md",
+      "bytes": 4888,
+      "sha256": "984b53a57a28ffd47b3b9a85cafb3cf56d65fcc0f915ce9952ad4c5d2acbe5f7"
+    },
+    {
+      "path": "reviews/2026-11-01/directional-remainder-admission/old-scalar-observed.json",
+      "bytes": 842,
+      "sha256": "95b4e15025fd188c3e098e70f0cc774c602cd0b42297f146a7cdd7869b1b3173"
+    },
+    {
+      "path": "reviews/2026-11-01/directional-remainder-admission/old-scalar-precheck-admission.md",
+      "bytes": 2548,
+      "sha256": "03f00945fa9a05c33253336d9e30cd6479e07f6867a64507caff071e43278c6f"
+    },
+    {
+      "path": "reviews/2026-11-01/directional-remainder-admission/old-scalar-precheck-fresh.md",
+      "bytes": 3871,
+      "sha256": "b4605149315d32d696561c831e03440f07422a3889a713e38b68c9cca4c8176b"
+    },
+    {
+      "path": "reviews/2026-11-01/directional-remainder-admission/old-scalar-recovery-freeze.json",
+      "bytes": 2548,
+      "sha256": "543529c463b02cef82fc58b5e979784317f6292823b477d759ec7bf8aa3bd70e"
+    },
+    {
+      "path": "reviews/2026-11-01/directional-remainder-admission/old-scalar-result.json",
+      "bytes": 14351,
+      "sha256": "51c6dc77a88db04906b3382b7b3ea3f0bab4ce0d04c9b52e5a5cc3dac5daad18"
+    },
+    {
+      "path": "reviews/2026-11-01/directional-remainder-admission/old-sqrt-synthetic-check.json",
+      "bytes": 404,
+      "sha256": "15b7a4bdb4c00efe73d6e3c90593b6cba4139b4839714cc90e3e669f1f09ae74"
+    },
+    {
+      "path": "reviews/2026-11-01/directional-remainder-admission/old-upper-consequence-fresh.md",
+      "bytes": 2888,
+      "sha256": "1a05800d3398f7fe9383dd2ee3bbd35cb8927f99787d5cb74439f8b9b2e4a403"
+    },
+    {
+      "path": "reviews/2026-11-01/directional-remainder-admission/probe-row-source-design.md",
+      "bytes": 6901,
+      "sha256": "2d3e038d775b13d2eabc378cac6a57c0aa2539ac3e17fdbe9b79f230fc889189"
+    },
+    {
+      "path": "reviews/2026-11-01/directional-remainder-admission/recover-old-cross-norm-bound.py",
+      "bytes": 6730,
+      "sha256": "c0d4978db5909258279a9ba3017c46336e756b196f19d9f9331a98c953d9854f"
+    },
+    {
+      "path": "reviews/2026-11-01/directional-remainder-admission/root-consumed.md",
+      "bytes": 6233,
+      "sha256": "5a4c962d4ab3020fd06c7418302e22e34450be1f74f984027431104b62e2a06a"
+    },
+    {
+      "path": "reviews/2026-11-01/directional-remainder-admission/root-old-upper-consumption.json",
+      "bytes": 11025,
+      "sha256": "3136ce3d0449c8346c82aead3e98c71f9da0a28d691bb2b61ea3d924e638a32d"
+    },
+    {
+      "path": "reviews/2026-11-01/directional-remainder-admission/selected-global-preparation.json",
+      "bytes": 8525,
+      "sha256": "c3bda91eeee0c83993e2d2b5d6efeb2a959eb1a3817d34d77c3764b611f54984"
+    },
+    {
+      "path": "reviews/2026-11-01/directional-remainder-admission/selected-probe-preparation.json",
+      "bytes": 8562,
+      "sha256": "39d512ebc9dfa82319799dd53c7752a62998154c2c02ba4dcd7858ecfdf7fb52"
+    },
+    {
+      "path": "reviews/2026-11-01/directional-remainder-admission/strong-old-input-and-net-audit.md",
+      "bytes": 8859,
+      "sha256": "c30d32b03a0375aabd57115476a2f8d34ebddbe7684c760588fe6cce70cd0f41"
+    },
+    {
+      "path": "reviews/2026-11-01/directional-remainder-admission/whole-directional-consumer.md",
+      "bytes": 9997,
+      "sha256": "051797ca8a1db1f1e041de31b79e5ae18ab2096df9ba3f482d1c1b004c1e6555"
+    }
+  ],
+  "adminIncrementalBytes": 5381,
+  "baseBytes": 140586,
+  "futureReceiptReserveBytes": 262144,
+  "futureExactAllowedPaths": [
+    "reviews\\2026-11-01\\directional-remainder-admission\\old-recovery-output-ledger.json",
+    "reviews\\2026-11-01\\directional-remainder-admission\\root-consumption-scope.json",
+    "reviews\\2026-11-01\\directional-remainder-admission\\remote-sync-verification.json",
+    "goals/STATE.json",
+    "goals/checkpoints/2026-11-01-directional-remainder-admission-source.json",
+    "goals/checkpoints/2026-11-01-directional-remainder-admission-sync.json"
+  ],
+  "completeOutputUpperBytes": 402730,
+  "guard": "At source and final verify ALL immutable hashes, exact private inventory/no extra files, actual future bytes <= reserve; do not mutate this ledger or create another scientific attempt.",
+  "pendingScientificProcesses": [],
+  "sourceOrHelperRerun": false,
+  "newMathematicalIterations": 0
+}

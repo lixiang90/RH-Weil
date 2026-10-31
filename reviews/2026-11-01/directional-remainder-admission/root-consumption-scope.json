@@ -1,0 +1,487 @@
+{
+  "schema": "rh-weil-directional-admission-root-consumption-v1",
+  "date": "2026-11-01",
+  "runtimeGoalCreatedAt": 1793085111,
+  "baseline": "0c4f3a3eb609bb1d9564138fa4a35701f05605f2",
+  "status": "PROOF_ADMISSION_CLOSED_GLOBAL_CODE_PREP_ONLY",
+  "root_report": "reviews\\2026-11-01\\directional-remainder-admission\\root-consumed.md",
+  "recovered_previous_final": {
+    "schema": "rh-weil-directional-remainder-admission-recovery-v1",
+    "runtimeGoalCreatedAt": 1793085111,
+    "recoveredFinal": "ac4ccb9d8df67ffb942d9c2c979e9b17e6ea4df0",
+    "recoveredTree": "089b45913a5597f17eb1f5c17f44f58052ee9689",
+    "soleParent": "23c60ebdbb6232f81af4937df9cb4ace1f04df87",
+    "exact3": true,
+    "cleanBeforeAgentOutputs": true,
+    "publicBindings": 64,
+    "localBindings": 12,
+    "checkpointAndLedgerVerified": true,
+    "previousGoalTurnClassification": "PROGRESS: actual605/countercertificate+samewitnessreplay+corollary settled once",
+    "currentAction": "ONE proof-only actual K E supplier/error/strongestold/wholeconsumer/test admission",
+    "newMathematicalIterations": 0,
+    "numericalExecutionAuthorized": false,
+    "newC069": false,
+    "observedUTC": "2026-10-31T20:21:30.162315+00:00"
+  },
+  "executed_action": "Full K E source/error, whole consumer and strongest-old root admission; ONE separately frozen old-A/B scalar recovery plus emitted-ratio readout. No new source/row/Gram/LDL/inverse/whole data.",
+  "premise_closure": {
+    "object_norm_domain": "Complex f in L2((-9/8,9/8),du), E448 nativeC448->H, P=EE*, Q=I-P, raw Djj=9/[4(2j+1)]. Physical r=exp(u/2)f norm integral exp(-u)|r|^2du; full Gamma/contact/pp/poles/zero-extension Dlog retain original domain.",
+    "map_roles": "Bounded K=Kcompact+Uold, Y=QKE; unbounded Rtail defined on E with V=Rtail E in H, G=E*V not V*V; F=QME, X=QV. Head/quotient/complement and physical roles not interchanged.",
+    "source_growth_quantifiers": "Only FIXED9/8 source and full448 complex head. Old same605 result covers c*u for every c complex and ALL v in QH, not other447 head directions/global Lret/Q or growingXi.",
+    "supplier": "Full moment1024 signed-pole Kstar plus full2047 h640 centered Uhat36; exact degree2046 polynomial. Normalized h weights81/27 are not raw36. Old full-H error gives Ysource264; finiteJ0/headh not a full supplier. V-model cancellation keeps finite rho239.",
+    "paid_errors": "OLD nativeV/G226, U216, true covarianceDh233, Chat201/Cret202, headcenter beta224, Ysource264, Fstar column1008; band265/U512. Global prospective joint native230/row222/pad221/mapnu216/finitezeta216 still code/run obligations.",
+    "actual_coefficient_direction": "N=F+XB+Y, B=(I+G)^-1 G. Lret bottom >=dI+cFF*+XAX*, d=m-nK, c=32/209. J auxiliary inverse ONLY active[F,X], Y coefficient0, no addedYY*. OriginalrawD3/dual metrics and LrawB0=[B0;B0-I;B0].",
+    "strongest_old_chain": "OldA/B ratios->Fupper, same605 exact U=t+beta224 ->hlo=U-2beta224; Nupper=Fupper+(9/5)(Bupper+225)+e, d0=15/64-nK; Delta=hlo-Nupper^2/d0 in[2^-124,2^-123).",
+    "consumable_consequence": "For all c in C, v in QH, <cEu+v,Lret(cEu+v)> >=Delta|c|^2||u||^2+d0||v+cNu/d0||^2. Computed lower certificate upper bracket is NOT an upper on actual Schur. Same-head completions positive; no new whole bound or inertia claim.",
+    "remaining_coupling": "Global five blocks CX/FX/FY/XY/YY, finite active solve/certified sign remain unpaid. Principal/sections/mixed/signedcorecross/growingXi and whole4/5 negative-inertiaUPPER unchanged.",
+    "strongest_old_net": "Recovery0: complete function/error capability old; samehead+allcomplement positivity already implied by old assets changes admissible candidate, not new theorem/round. Stop p448 beforecode and any samehead negative completion queue."
+  },
+  "oldRecovery": {
+    "freeze": {
+      "path": "reviews/2026-11-01/directional-remainder-admission/old-scalar-recovery-freeze.json",
+      "bytes": 2548,
+      "sha256": "543529c463b02cef82fc58b5e979784317f6292823b477d759ec7bf8aa3bd70e"
+    },
+    "result": {
+      "path": "reviews/2026-11-01/directional-remainder-admission/old-scalar-result.json",
+      "bytes": 14351,
+      "sha256": "51c6dc77a88db04906b3382b7b3ea3f0bab4ce0d04c9b52e5a5cc3dac5daad18"
+    },
+    "upper_consumption": {
+      "path": "reviews/2026-11-01/directional-remainder-admission/root-old-upper-consumption.json",
+      "bytes": 11025,
+      "sha256": "3136ce3d0449c8346c82aead3e98c71f9da0a28d691bb2b61ea3d924e638a32d"
+    },
+    "helperStatus": "INCONCLUSIVE lower NONZERO; upper consumer independently closes samehead positive",
+    "processUpperSeconds": 8,
+    "capSeconds": 60,
+    "ledger": {
+      "path": "reviews/2026-11-01/directional-remainder-admission/old-recovery-output-ledger.json",
+      "bytes": 6650,
+      "sha256": "30f63a3372d85151b227561c31b615c87dbc826dcfbb0fd0f2a936fb4ac62cc4"
+    },
+    "noRerun": true
+  },
+  "classification": {
+    "newMathematicalIterations": 0,
+    "cadence": "3/history69/latest605/formal21 unchanged raw7197",
+    "formalMacroReview": "No22/noreset; after next completed mathematical responsibility reaches4, macroreview before further samefamily math",
+    "runtimeGoal": "sameactive1793085111",
+    "completionGates": "all3open",
+    "wholeLretPositiveClaim": false,
+    "GoalComplete": false
+  },
+  "nextAdmission": {
+    "action": "reviews\\2026-11-01\\directional-remainder-admission\\next-global-code-preparation.md",
+    "spec": "reviews\\2026-11-01\\directional-remainder-admission\\selected-global-preparation.json",
+    "stage": "CODE_PREPARATION_ONLY",
+    "newC069": false,
+    "numericalExecutionAuthorized": false,
+    "newBlocks": [
+      "CX",
+      "FX",
+      "FY",
+      "XY",
+      "YY"
+    ],
+    "newProspectiveCap": "7200s/64MiB, source+indepverifier3600s/48MiB and finite+indepverifier3600s/16MiB; no transfer/reset",
+    "why": "Global mixed values can change actual whole comparison; sameheadnegative impossible/oldheadprefix alreadypaid. Format230/finite216/width/runtime/code/reviews/gates unachieved.",
+    "stop": "If actual executable source/independentverification/finite obligations cannot close, stop BEFORE data; no automatic sourcepaper/parameter/precision/rank/window/eta/alpha/otherconsumer queue."
+  },
+  "pendingScientificProcesses": [],
+  "public_bindings": [
+    {
+      "path": ".gitattributes",
+      "raw_bytes": 9834,
+      "sha256_raw": "2098033dcca14af7cf9d9983b5768d12b65e60a892b6219c149d2b686e5b6086",
+      "sha256_lf": "bbacc27d0bd65a0586b92efe9c5e1cf422be897b4ee47c4182376fe5d0ac56da",
+      "raw_git_required": false
+    },
+    {
+      "path": "RESEARCH_BRANCHES.md",
+      "raw_bytes": 304015,
+      "sha256_raw": "602b67fc9b8262389c702ec12727e7e9c9736cc40f266c4b04971a5d75d38acb",
+      "sha256_lf": "c30918678c334567ad5947fbb1780fa384cb51cf23dc1ba0209ffe1f0f91f350",
+      "raw_git_required": false
+    },
+    {
+      "path": "goals/DECISIONS.md",
+      "raw_bytes": 375988,
+      "sha256_raw": "067449d22d3802494a6981aab40e1dc1957c31782e7b0c19bac435f47da18ee7",
+      "sha256_lf": "da408484a653e526f559dbbd1669ee02ac181bee60489d717ac434b9f9bfc886",
+      "raw_git_required": false
+    },
+    {
+      "path": "goals/GOAL.20261027.md",
+      "raw_bytes": 9679,
+      "sha256_raw": "b3d2acb1f962d793f45d79b6a4e67fb87dd072cd4752108a9298204b4cefa1de",
+      "sha256_lf": "b3d2acb1f962d793f45d79b6a4e67fb87dd072cd4752108a9298204b4cefa1de",
+      "raw_git_required": false
+    },
+    {
+      "path": "goals/MACRO_FRONTIER.md",
+      "raw_bytes": 130063,
+      "sha256_raw": "3f0b354ea0fb67e1a6ebe917c6c2c84930043047ab03f62abcf8fa967c627c6f",
+      "sha256_lf": "45ed83358113e73bff6f92b35e68e15c10d1b7cba6628558e0a9953b1e2ff82d",
+      "raw_git_required": false
+    },
+    {
+      "path": "goals/README.md",
+      "raw_bytes": 93990,
+      "sha256_raw": "776357c10840f7ffe117f405ea560fbd11d628bbc39b15ec9087ac0742a686fa",
+      "sha256_lf": "493f41262e0948950c22b87597214626901709cd41beef41103075c4ed81e3eb",
+      "raw_git_required": false
+    },
+    {
+      "path": "goals/RESEARCH_WORKFLOW.md",
+      "raw_bytes": 10509,
+      "sha256_raw": "567b238a62872505f9b29688cf4320fafb7f20b67a650c6cd7711ad56ddf95c1",
+      "sha256_lf": "567b238a62872505f9b29688cf4320fafb7f20b67a650c6cd7711ad56ddf95c1",
+      "raw_git_required": false
+    },
+    {
+      "path": "goals/review-cadence.json",
+      "raw_bytes": 7197,
+      "sha256_raw": "c57d42559b05b25c37fca829c7c4cd60c050dfff21be46f2909e79d5c582b8d4",
+      "sha256_lf": "feec2c5d2ab8fc910ff63a1a191b0625061c6bbf2bb0c8fadf14a62008931bc1",
+      "raw_git_required": false
+    },
+    {
+      "path": "goals/reviews/2026-11-01-directional-remainder-admission.md",
+      "raw_bytes": 1827,
+      "sha256_raw": "5947cae836a1b9b3de0d7e924e5757c8b8c5f538bfeb7a4e33a67984640eb7c1",
+      "sha256_lf": "5947cae836a1b9b3de0d7e924e5757c8b8c5f538bfeb7a4e33a67984640eb7c1",
+      "raw_git_required": false
+    },
+    {
+      "path": "literature/README.md",
+      "raw_bytes": 151808,
+      "sha256_raw": "48ef23644df97125d52c89c2a66cdd7bbce5d1e89840f8c75b5e6d8a573eb420",
+      "sha256_lf": "b0ebdeddffabd6ad9040f1db22cb7a7c053c2eee69c0b7f2c94b771a6b47c2b4",
+      "raw_git_required": false
+    },
+    {
+      "path": "literature/manifest.json",
+      "raw_bytes": 223850,
+      "sha256_raw": "3223cffd0205b9a1f8660445ac33d0f3cec13b3bd1fa5e7799ed8abfb2746d42",
+      "sha256_lf": "3223cffd0205b9a1f8660445ac33d0f3cec13b3bd1fa5e7799ed8abfb2746d42",
+      "raw_git_required": false
+    },
+    {
+      "path": "literature/supplements/2026-11-01-directional-remainder-admission-scope.md",
+      "raw_bytes": 1300,
+      "sha256_raw": "a292f6b91c5f1b102660c4fc80eebebf59fbf6e042811d926eee9d60fbfd5fc6",
+      "sha256_lf": "a292f6b91c5f1b102660c4fc80eebebf59fbf6e042811d926eee9d60fbfd5fc6",
+      "raw_git_required": false
+    },
+    {
+      "path": "reviews/2026-10-29/weil-9-8-admission/full-weil-analytic-transfer-fresh.md",
+      "raw_bytes": 13990,
+      "sha256_raw": "0cdb4173b7664b73b47fd8789c0629f0535a208ad9af2a4af8eb86422c64a466",
+      "sha256_lf": "0cdb4173b7664b73b47fd8789c0629f0535a208ad9af2a4af8eb86422c64a466",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-10-31/retained-tail-center-admission/center-certificate-result.json",
+      "raw_bytes": 70183,
+      "sha256_raw": "3eb9e77d71f92ead44775bfbafb7499a7ff0fd2e5bc81ac00095332a4f912739",
+      "sha256_lf": "3eb9e77d71f92ead44775bfbafb7499a7ff0fd2e5bc81ac00095332a4f912739",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-10-31/retained-tail-center-admission/native-center-error-proof.md",
+      "raw_bytes": 16648,
+      "sha256_raw": "bca1ff76f9ef94e25a10fdbc6597641b682ae7174cc0e4c952e4edbb39ce188b",
+      "sha256_lf": "bca1ff76f9ef94e25a10fdbc6597641b682ae7174cc0e4c952e4edbb39ce188b",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-10-31/retained-tail-center-admission/root-consumption-scope.json",
+      "raw_bytes": 20127,
+      "sha256_raw": "6e0df0fed60465622f8b95551e4e361203a8de9b199bf167c38709caf4caaac3",
+      "sha256_lf": "377bf8dc98028913e7c127b39652b6a1279e697f7322972cc4d896a4b53bc145",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-10-31/retained-tail-center-admission/source-centers-consumed.md",
+      "raw_bytes": 4973,
+      "sha256_raw": "a823cabb902b1fd0270fd210db0d2efa4a0085d7918b49ec3afb79739178a4a6",
+      "sha256_lf": "a823cabb902b1fd0270fd210db0d2efa4a0085d7918b49ec3afb79739178a4a6",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/directional-remainder-admission/administrative-delta-accounting.json",
+      "raw_bytes": 716,
+      "sha256_raw": "046b12d6d8a939688c34a9416fea980fa82613f635cb0fec0dd0b50f9102b399",
+      "sha256_lf": "7e48dc958842fa8bb940d2af2f61cec3472a7215ce019f408366f52b3af14f0a",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/directional-remainder-admission/execution-start.json",
+      "raw_bytes": 824,
+      "sha256_raw": "119ac555e4a1c5c99efc065a06c282882dd8f1e60bd8f2a96474dffff6783b17",
+      "sha256_lf": "fe9d662fc64643da6d89f76f75d6d6947d1aea4aa81fabdd1cf5e8d98461428f",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/directional-remainder-admission/full-k-column-supplier.md",
+      "raw_bytes": 12135,
+      "sha256_raw": "5bfd27fc7bed256367b8ed83a2be4eb972791718ec1fc844dde7ebb250cfa96a",
+      "sha256_lf": "5bfd27fc7bed256367b8ed83a2be4eb972791718ec1fc844dde7ebb250cfa96a",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/directional-remainder-admission/global-joint-code-admission.md",
+      "raw_bytes": 4784,
+      "sha256_raw": "452a5e406027509acf70804ffe8e07b26c17a487b7fefb7ac1ffbef573ae67fc",
+      "sha256_lf": "452a5e406027509acf70804ffe8e07b26c17a487b7fefb7ac1ffbef573ae67fc",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/directional-remainder-admission/next-global-code-preparation.md",
+      "raw_bytes": 4888,
+      "sha256_raw": "984b53a57a28ffd47b3b9a85cafb3cf56d65fcc0f915ce9952ad4c5d2acbe5f7",
+      "sha256_lf": "984b53a57a28ffd47b3b9a85cafb3cf56d65fcc0f915ce9952ad4c5d2acbe5f7",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/directional-remainder-admission/old-recovery-output-ledger.json",
+      "raw_bytes": 6650,
+      "sha256_raw": "30f63a3372d85151b227561c31b615c87dbc826dcfbb0fd0f2a936fb4ac62cc4",
+      "sha256_lf": "30f63a3372d85151b227561c31b615c87dbc826dcfbb0fd0f2a936fb4ac62cc4",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/directional-remainder-admission/old-scalar-observed.json",
+      "raw_bytes": 842,
+      "sha256_raw": "95b4e15025fd188c3e098e70f0cc774c602cd0b42297f146a7cdd7869b1b3173",
+      "sha256_lf": "11797c3be341c70b6852ccd7e50736eaa3c7cb042a8e965a11326d1b0dc1f576",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/directional-remainder-admission/old-scalar-precheck-admission.md",
+      "raw_bytes": 2548,
+      "sha256_raw": "03f00945fa9a05c33253336d9e30cd6479e07f6867a64507caff071e43278c6f",
+      "sha256_lf": "03f00945fa9a05c33253336d9e30cd6479e07f6867a64507caff071e43278c6f",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/directional-remainder-admission/old-scalar-precheck-fresh.md",
+      "raw_bytes": 3871,
+      "sha256_raw": "b4605149315d32d696561c831e03440f07422a3889a713e38b68c9cca4c8176b",
+      "sha256_lf": "b4605149315d32d696561c831e03440f07422a3889a713e38b68c9cca4c8176b",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/directional-remainder-admission/old-scalar-recovery-freeze.json",
+      "raw_bytes": 2548,
+      "sha256_raw": "543529c463b02cef82fc58b5e979784317f6292823b477d759ec7bf8aa3bd70e",
+      "sha256_lf": "40f23a1c0b503efd5b6af9fccad9f6dbc73ca484cc639da9defbdfed1eca0313",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/directional-remainder-admission/old-scalar-result.json",
+      "raw_bytes": 14351,
+      "sha256_raw": "51c6dc77a88db04906b3382b7b3ea3f0bab4ce0d04c9b52e5a5cc3dac5daad18",
+      "sha256_lf": "51c6dc77a88db04906b3382b7b3ea3f0bab4ce0d04c9b52e5a5cc3dac5daad18",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/directional-remainder-admission/old-sqrt-synthetic-check.json",
+      "raw_bytes": 404,
+      "sha256_raw": "15b7a4bdb4c00efe73d6e3c90593b6cba4139b4839714cc90e3e669f1f09ae74",
+      "sha256_lf": "0d6a37ea3038168e51ee2c4b22a0785e805f33cb15c8446243cd54aa03948b33",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/directional-remainder-admission/old-upper-consequence-fresh.md",
+      "raw_bytes": 2888,
+      "sha256_raw": "1a05800d3398f7fe9383dd2ee3bbd35cb8927f99787d5cb74439f8b9b2e4a403",
+      "sha256_lf": "1a05800d3398f7fe9383dd2ee3bbd35cb8927f99787d5cb74439f8b9b2e4a403",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/directional-remainder-admission/probe-row-source-design.md",
+      "raw_bytes": 6901,
+      "sha256_raw": "2d3e038d775b13d2eabc378cac6a57c0aa2539ac3e17fdbe9b79f230fc889189",
+      "sha256_lf": "2d3e038d775b13d2eabc378cac6a57c0aa2539ac3e17fdbe9b79f230fc889189",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/directional-remainder-admission/recover-old-cross-norm-bound.py",
+      "raw_bytes": 6730,
+      "sha256_raw": "c0d4978db5909258279a9ba3017c46336e756b196f19d9f9331a98c953d9854f",
+      "sha256_lf": "c0d4978db5909258279a9ba3017c46336e756b196f19d9f9331a98c953d9854f",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/directional-remainder-admission/root-consumed.md",
+      "raw_bytes": 6233,
+      "sha256_raw": "5a4c962d4ab3020fd06c7418302e22e34450be1f74f984027431104b62e2a06a",
+      "sha256_lf": "5a4c962d4ab3020fd06c7418302e22e34450be1f74f984027431104b62e2a06a",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/directional-remainder-admission/root-old-upper-consumption.json",
+      "raw_bytes": 11025,
+      "sha256_raw": "3136ce3d0449c8346c82aead3e98c71f9da0a28d691bb2b61ea3d924e638a32d",
+      "sha256_lf": "613adc50eda2d9e0b7627482eb5b4e981a13e766a79242a3c14c8655e46d2645",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/directional-remainder-admission/selected-global-preparation.json",
+      "raw_bytes": 8525,
+      "sha256_raw": "c3bda91eeee0c83993e2d2b5d6efeb2a959eb1a3817d34d77c3764b611f54984",
+      "sha256_lf": "cce439e2ab87af6611c41540576c0ab31abdf2f7ecfbf3790c6c93bb7e043ea8",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/directional-remainder-admission/selected-probe-preparation.json",
+      "raw_bytes": 8562,
+      "sha256_raw": "39d512ebc9dfa82319799dd53c7752a62998154c2c02ba4dcd7858ecfdf7fb52",
+      "sha256_lf": "0373076946c2188d462510601b04293f37829b2a1779a1e7ebf826cab0b25194",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/directional-remainder-admission/strong-old-input-and-net-audit.md",
+      "raw_bytes": 8859,
+      "sha256_raw": "c30d32b03a0375aabd57115476a2f8d34ebddbe7684c760588fe6cce70cd0f41",
+      "sha256_lf": "c30d32b03a0375aabd57115476a2f8d34ebddbe7684c760588fe6cce70cd0f41",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/directional-remainder-admission/whole-directional-consumer.md",
+      "raw_bytes": 9997,
+      "sha256_raw": "051797ca8a1db1f1e041de31b79e5ae18ab2096df9ba3f482d1c1b004c1e6555",
+      "sha256_lf": "051797ca8a1db1f1e041de31b79e5ae18ab2096df9ba3f482d1c1b004c1e6555",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-signed-head/head-result.json",
+      "raw_bytes": 5676,
+      "sha256_raw": "ba31ccef92293cdc1f308ea05bdd507b5d2fb4695cbfab6c341aa74718d4ea4e",
+      "sha256_lf": "ba31ccef92293cdc1f308ea05bdd507b5d2fb4695cbfab6c341aa74718d4ea4e",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-signed-head/math-admission.md",
+      "raw_bytes": 16224,
+      "sha256_raw": "6547b2ff0e0b2a4deeeb88ae549930cb51d7a16b99a77c6053e9c30413e04c95",
+      "sha256_lf": "6547b2ff0e0b2a4deeeb88ae549930cb51d7a16b99a77c6053e9c30413e04c95",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-signed-head/root-consumed.md",
+      "raw_bytes": 3487,
+      "sha256_raw": "a3f8ce2b815cc0150c7db27b850fba82dc2536a909f7a47f0b2e35c3d80ecca9",
+      "sha256_lf": "a3f8ce2b815cc0150c7db27b850fba82dc2536a909f7a47f0b2e35c3d80ecca9",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-whole-admission/mixed-source-feasibility.md",
+      "raw_bytes": 12956,
+      "sha256_raw": "03a08d7699194b37c724fb6160e2d368b5398e8a97aed5e70029167a6c79be6f",
+      "sha256_lf": "03a08d7699194b37c724fb6160e2d368b5398e8a97aed5e70029167a6c79be6f",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-whole-admission/old-fee-recovery-fresh.md",
+      "raw_bytes": 4974,
+      "sha256_raw": "a77888cd710f41a7abba87687e2724de009dbc6500bce5eddac16b3771895fc1",
+      "sha256_lf": "a77888cd710f41a7abba87687e2724de009dbc6500bce5eddac16b3771895fc1",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-whole-admission/old-fee-recovery.json",
+      "raw_bytes": 2341,
+      "sha256_raw": "1b07b329e390089f34d86777ecbf6b257b40ab3636a7123fe08023317c98c344",
+      "sha256_lf": "41a8478a72c78431a6566b3a4a4c46ebf52173aa8da73c7c4745cbbd279fbbb9",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-whole-execution/prefix-result.json",
+      "raw_bytes": 121199,
+      "sha256_raw": "3dd3a82946a07c38fa80f18422af215de7e9d1a0c2b5b2e0dc817bfc0acb7e6c",
+      "sha256_lf": "3dd3a82946a07c38fa80f18422af215de7e9d1a0c2b5b2e0dc817bfc0acb7e6c",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-whole-execution/root-consumption-scope.json",
+      "raw_bytes": 29377,
+      "sha256_raw": "899a9098dc3a944125b9ff314208706e1b164401a17a70583011911167e058cf",
+      "sha256_lf": "4e89fdca520b5023d7831557d48a1133b4a6dbb01ed34c94f03f23a31af5dd90",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-whole-execution/root-scalar-consumption.json",
+      "raw_bytes": 10956,
+      "sha256_raw": "78534866762476619eaf553d8247b2d67d8b4fd2d9bbfd9337fae9b4001a04ae",
+      "sha256_lf": "d5894499b4a7c04aedb5ebd1624dd27d319890d5a91f110dcb4aad1f2931044e",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-whole-execution/terminal-replay-result.json",
+      "raw_bytes": 27044,
+      "sha256_raw": "32299c4c720caf2d1b4380a7cd01bf4a20611ad3ed81dcbb65536fe7b59ef30d",
+      "sha256_lf": "32299c4c720caf2d1b4380a7cd01bf4a20611ad3ed81dcbb65536fe7b59ef30d",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews\\2026-11-01\\directional-remainder-admission\\old-recovery-output-ledger.json",
+      "raw_bytes": 6650,
+      "sha256_raw": "30f63a3372d85151b227561c31b615c87dbc826dcfbb0fd0f2a936fb4ac62cc4",
+      "sha256_lf": "30f63a3372d85151b227561c31b615c87dbc826dcfbb0fd0f2a936fb4ac62cc4",
+      "raw_git_required": false
+    }
+  ],
+  "local_bindings": [
+    {
+      "path": "literature/local/2026-10-29-weil-9-8/pilot/run-01/certificates/moments.json",
+      "bytes": 734638,
+      "sha256": "2d166f7ae457fd61826329d31365564e25f1cfc6bc19d09aef22d2ec89c6bbd9",
+      "ignored": true
+    },
+    {
+      "path": "literature/local/2026-10-29-weil-9-8/pilot/run-01/certificates/source-matrices.json",
+      "bytes": 23377672,
+      "sha256": "a5486fea38c3c8f91dcf4bb77c7677e734efe2ac9cbf59ddabc4674739fdb2f2",
+      "ignored": true
+    },
+    {
+      "path": "literature/local/2026-10-29-weil-9-8/pilot/source/07-check.py",
+      "bytes": 19517,
+      "sha256": "85fcaaefd2d752a8401b9f7686c1c8779282c2cc21504129aabda7d1e37a83de",
+      "ignored": true
+    },
+    {
+      "path": "literature/local/2026-10-29-weil-9-8/pilot/source/08-produce.py",
+      "bytes": 9863,
+      "sha256": "ae0f487544c203905faecbb78b30f94fb16fe4f2f63c6b9846ca13ea673ba2b7",
+      "ignored": true
+    },
+    {
+      "path": "literature/local/2026-10-31-retained-tail-source/run-01/finite-columns.jsonl",
+      "bytes": 73598411,
+      "sha256": "d841d307d2b22367570e594c1bc9e3b64c8a4ffef88691382acf5d6fbeeaf080",
+      "ignored": true
+    },
+    {
+      "path": "literature/local/2026-10-31-retained-tail-source/run-01/h-columns.jsonl",
+      "bytes": 233458,
+      "sha256": "37f2c0410beb1b1c43b9f8d2df24d72fce3170b5f359d089c198742f1eee4e74",
+      "ignored": true
+    },
+    {
+      "path": "literature/local/2026-11-01-directional-remainder-old-norm/run-01/attempt.json",
+      "bytes": 96,
+      "sha256": "12108a0d4c218929c236915bfc9f813d780ba7e0cb3130324c2da81dcef74689",
+      "ignored": true
+    },
+    {
+      "path": "literature/local/2026-11-01-directional-remainder-old-norm/run-01/result.json",
+      "bytes": 14351,
+      "sha256": "51c6dc77a88db04906b3382b7b3ea3f0bab4ce0d04c9b52e5a5cc3dac5daad18",
+      "ignored": true
+    }
+  ]
+}

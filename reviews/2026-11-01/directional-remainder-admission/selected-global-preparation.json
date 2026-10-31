@@ -1,0 +1,136 @@
+{
+  "schema": "RH_WEIL_DIRECTIONAL_GLOBAL_JOINT_CODE_PREPARATION_V1",
+  "status": "ROOT_ADMITTED_CODE_PREPARATION_ONLY",
+  "numericalExecutionAuthorized": false,
+  "formalC069Admitted": false,
+  "prospectiveContractId": "C069",
+  "runtimeGoalCreatedAt": 1793085111,
+  "targetId": "RH_WEIL_FIXED_9_8_EXACT_YSTAR_GLOBAL_SCHUR_V1",
+  "physicalSpace": "f-du complexL2 fixed9/8; r=exp(u/2)f weightedexp(-u)du; nativeE448/rawDjj9/[4(2j+1)]",
+  "sourceModel": {
+    "Fstar": "(I-P)Mc E; exactold2048-bit shift/weight centers, nativecolumn error1008",
+    "Xstar": "(I-P)Vhat; SAMEaccepted finite Vcenters+EXACTinfiniteendpointlogtail, source226",
+    "Ystar": "(I-P)Kstar E; EXACTrationaldegree2046 kernel+fullh640 model, source264; interval coefficient errors stay inside Gram arithmetic, not an unreported roundedYmodel",
+    "Dh": "OLD Bhat-Ahat^2 native covariance approximation with true-source233, not forced to equalFstar*Fstar",
+    "Kstar": "Full original band+SIGNEDpoles plus Uhat36 from unnormalized FULLSp0/Sp1; old896hhead maynot replacefull2047",
+    "modelValueGenerationAuthorized": false
+  },
+  "newBlocks": [
+    "CX=Xstar*Xstar",
+    "FX=Fstar*Xstar",
+    "FY=Fstar*Ystar",
+    "XY=Xstar*Ystar",
+    "YY=Ystar*Ystar"
+  ],
+  "parameters": {
+    "L": "9/8",
+    "N": 448,
+    "sectorDimension": 224,
+    "Omega": 256,
+    "eta": 1,
+    "polynomialDegree": 2046,
+    "coefficientBits": 8192,
+    "contractionBits": 1024,
+    "rawCenterBits": 256,
+    "wholeFiniteBits": 1024,
+    "eachMatrixNativeArithmeticErrorPower": -230,
+    "DhSourcePower": -233,
+    "headSourceBetaPower": -224,
+    "coefficientMapNuPower": -216,
+    "finiteConsumerErrorZetaPower": -216,
+    "jointGramPaddingPower": -221,
+    "activeInverse": "[F,X] ONLY, dimension896 overall/448 perparity; Ypositiveenergy coefficientZERO",
+    "parityOrder": [
+      "even",
+      "odd"
+    ],
+    "newHeadPrefix": false
+  },
+  "wholeTarget": "T=Chat-(2^-224+2^-216+2^-216)I-Lhat*JbarLhat; Lhat=[I;I-(I+Ghat)^-1;I]",
+  "rawRoles": "D3=diag(D,D,D); padetaD3; Hactive_raw=diag(c^-1D,Graw+(1+eps)D)+KbarUUraw/d; LrawB0=[B0;B0-I;B0], B0=D^-1(Graw+D)",
+  "packet": {
+    "exactCenterRows": 401856,
+    "threeNonsymmetricParityRectangles": 301056,
+    "twoHermitianParityTriangles": 100800,
+    "canonicalRecord": "[twoLetterBlock, i, j, signedIntegerString] newline; rawcenter /2^256",
+    "maximumCanonicalRecordBytesExclusive": 100,
+    "maximumCenterIntegerBits": 262,
+    "maximumCenterPayloadBytes": 40185600,
+    "oneCanonicalPacketOnly": true,
+    "fullYArrayOutput": false,
+    "denseInverseOutput": false,
+    "packetCopyOutsideBudgetAllowed": false,
+    "oppositeParity": "Exactzero, no missing sameparity values",
+    "CXInfiniteOffdiagonalTailRequired": true
+  },
+  "budget": {
+    "aggregateCapSeconds": 7200,
+    "aggregateCapBytes": 67108864,
+    "stages": [
+      {
+        "name": "source-plus-independent-verification",
+        "capSeconds": 3600,
+        "capBytes": 50331648
+      },
+      {
+        "name": "finite-whole-plus-independent-verification",
+        "capSeconds": 3600,
+        "capBytes": 16777216
+      }
+    ],
+    "allScientificProcessLifetimesSummed": true,
+    "allNumericalCopiesGatesReceiptsTmpFailuresCharged": true,
+    "noTransferOrReset": true,
+    "oldC068BudgetReused": false,
+    "measuredFeasibilityProved": false
+  },
+  "sourceInputs": {
+    "literature/local/2026-10-29-weil-9-8/pilot/run-01/certificates/source-matrices.json": "a5486fea38c3c8f91dcf4bb77c7677e734efe2ac9cbf59ddabc4674739fdb2f2",
+    "literature/local/2026-10-29-weil-9-8/pilot/run-01/certificates/moments.json": "2d166f7ae457fd61826329d31365564e25f1cfc6bc19d09aef22d2ec89c6bbd9",
+    "literature/local/2026-10-31-retained-tail-source/run-01/h-columns.jsonl": "37f2c0410beb1b1c43b9f8d2df24d72fce3170b5f359d089c198742f1eee4e74",
+    "literature/local/2026-10-31-retained-tail-source/run-01/finite-columns.jsonl": "d841d307d2b22367570e594c1bc9e3b64c8a4ffef88691382acf5d6fbeeaf080"
+  },
+  "rootProofPins": {
+    "reviews/2026-11-01/directional-remainder-admission/full-k-column-supplier.md": "5bfd27fc7bed256367b8ed83a2be4eb972791718ec1fc844dde7ebb250cfa96a",
+    "reviews/2026-11-01/directional-remainder-admission/whole-directional-consumer.md": "051797ca8a1db1f1e041de31b79e5ae18ab2096df9ba3f482d1c1b004c1e6555",
+    "reviews/2026-11-01/directional-remainder-admission/strong-old-input-and-net-audit.md": "c30d32b03a0375aabd57115476a2f8d34ebddbe7684c760588fe6cce70cd0f41",
+    "reviews/2026-11-01/directional-remainder-admission/old-upper-consequence-fresh.md": "1a05800d3398f7fe9383dd2ee3bbd35cb8927f99787d5cb74439f8b9b2e4a403",
+    "reviews/2026-11-01/directional-remainder-admission/global-joint-code-admission.md": "452a5e406027509acf70804ffe8e07b26c17a487b7fefb7ac1ffbef573ae67fc",
+    "reviews/2026-11-01/directional-remainder-admission/root-old-upper-consumption.json": "3136ce3d0449c8346c82aead3e98c71f9da0a28d691bb2b61ea3d924e638a32d"
+  },
+  "stopRules": [
+    "Do not run another head gate: oldChat201 alreadypays noalphaheadprerequisite",
+    "Do not retry p448/anotheroutput/complementprofile ofsame605source: oldallcomplementcompletionpositive",
+    "Do not collectnewGram before exactproducer/checker/consumer code+finiteerrors/reviews/newcontract/rootgates",
+    "Source/width/model/norm/tail/time/bytes/signfailure stopsone admittedresponsibility, no parameter/precision/rank/window/eta/alpha/consumer/sourcequeue",
+    "A positivefutureT givesfixed9/8wholeLret/Qonly, notgrowingXi/RH/Goalcomplete",
+    "A negativefutureT refutesONLY thissufficientfloor; noactualnegativeLret/Q withoutseparatepaiduppertrial",
+    "Codepreparation ifunclosed stopsbeforedata, no C069 fabricated"
+  ],
+  "futureNamespace": "literature/local/2026-11-01-directional-remainder-whole/run-01",
+  "remaining": [
+    "source/verifier code and canonical packet/schema/pins",
+    "complete fullnative230 endpoint-to-finalcenter validation EACHblock",
+    "finiteactiveHsolve/assembly/sign code and actualzeta216 certificate",
+    "separate complete newresponsibility contract and perstage ROOTgate/freeze",
+    "exact fulltime/byte/overflow/once/failure protocol and actualrun",
+    "globaljointvalues/globalSchurmargin"
+  ],
+  "macro": "Currentpreparation/recovery0; cadence3/history69/latest605/formal21 unchanged. Afteranother complete mathematicalresponsibility reaches4, reviewmacrochoice beforemore samefamily math; noreset untilactualformalreview.",
+  "paidInputAuthorityPins": {
+    "reviews/2026-10-29/weil-9-8-admission/full-weil-analytic-transfer-fresh.md": "0cdb4173b7664b73b47fd8789c0629f0535a208ad9af2a4af8eb86422c64a466",
+    "reviews/2026-10-31/retained-tail-center-admission/native-center-error-proof.md": "bca1ff76f9ef94e25a10fdbc6597641b682ae7174cc0e4c952e4edbb39ce188b",
+    "reviews/2026-10-31/retained-tail-center-admission/source-centers-consumed.md": "a823cabb902b1fd0270fd210db0d2efa4a0085d7918b49ec3afb79739178a4a6",
+    "reviews/2026-10-31/retained-tail-center-admission/center-certificate-result.json": "3eb9e77d71f92ead44775bfbafb7499a7ff0fd2e5bc81ac00095332a4f912739",
+    "reviews/2026-10-31/retained-tail-center-admission/root-consumption-scope.json": "6e0df0fed60465622f8b95551e4e361203a8de9b199bf167c38709caf4caaac3",
+    "reviews/2026-11-01/retained-tail-whole-admission/old-fee-recovery.json": "1b07b329e390089f34d86777ecbf6b257b40ab3636a7123fe08023317c98c344",
+    "reviews/2026-11-01/retained-tail-whole-admission/old-fee-recovery-fresh.md": "a77888cd710f41a7abba87687e2724de009dbc6500bce5eddac16b3771895fc1",
+    "reviews/2026-11-01/retained-tail-whole-admission/mixed-source-feasibility.md": "03a08d7699194b37c724fb6160e2d368b5398e8a97aed5e70029167a6c79be6f",
+    "reviews/2026-11-01/retained-tail-signed-head/head-result.json": "ba31ccef92293cdc1f308ea05bdd507b5d2fb4695cbfab6c341aa74718d4ea4e",
+    "reviews/2026-11-01/retained-tail-signed-head/root-consumed.md": "a3f8ce2b815cc0150c7db27b850fba82dc2536a909f7a47f0b2e35c3d80ecca9",
+    "reviews/2026-11-01/retained-tail-signed-head/math-admission.md": "6547b2ff0e0b2a4deeeb88ae549930cb51d7a16b99a77c6053e9c30413e04c95",
+    "goals/GOAL.20261027.md": "b3d2acb1f962d793f45d79b6a4e67fb87dd072cd4752108a9298204b4cefa1de",
+    "goals/review-cadence.json": "c57d42559b05b25c37fca829c7c4cd60c050dfff21be46f2909e79d5c582b8d4",
+    "literature/manifest.json": "3223cffd0205b9a1f8660445ac33d0f3cec13b3bd1fa5e7799ed8abfb2746d42"
+  }
+}

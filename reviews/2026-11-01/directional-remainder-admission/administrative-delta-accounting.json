@@ -1,0 +1,31 @@
+{
+  "schema": "rh-weil-proof-admission-admin-incremental-bytes-v1",
+  "scope": "Only newly added textual view/decision payload; preexisting project history not a new scalar recovery product",
+  "addedPayloads": [
+    {
+      "path": ".gitattributes",
+      "addedBytes": 82
+    },
+    {
+      "path": "goals/README.md",
+      "addedBytes": 854
+    },
+    {
+      "path": "goals/MACRO_FRONTIER.md",
+      "addedBytes": 854
+    },
+    {
+      "path": "RESEARCH_BRANCHES.md",
+      "addedBytes": 860
+    },
+    {
+      "path": "literature/README.md",
+      "addedBytes": 475
+    },
+    {
+      "path": "goals/DECISIONS.md",
+      "addedBytes": 2256
+    }
+  ],
+  "totalAddedBytes": 5381
+}

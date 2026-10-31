@@ -1,0 +1,54 @@
+{
+  "schema": "RH_WEIL_OLD605_NORM_BOUND_RECOVERY_V1",
+  "authorization": "ROOT_EXPLICIT_OLD_ASSET_SCALAR_RECOVERY_ONLY",
+  "numericalExecutionAuthorized": true,
+  "newC069": false,
+  "runtimeGoalCreatedAt": 1793085111,
+  "capSeconds": 60,
+  "capBytes": 1048576,
+  "internalDeadlineSeconds": 50,
+  "externalChildWatchdogSeconds": 55,
+  "oneAttemptOnly": true,
+  "codeSHA256": "c0d4978db5909258279a9ba3017c46336e756b196f19d9f9331a98c953d9854f",
+  "reviewPin": {
+    "path": "reviews/2026-11-01/directional-remainder-admission/old-scalar-precheck-fresh.md",
+    "sha256": "b4605149315d32d696561c831e03440f07422a3889a713e38b68c9cca4c8176b"
+  },
+  "createdUTC": "2026-10-31T20:46:47.162499+00:00",
+  "inputPins": {
+    "matrices": {
+      "path": "literature/local/2026-10-29-weil-9-8/pilot/run-01/certificates/source-matrices.json",
+      "sha256": "a5486fea38c3c8f91dcf4bb77c7677e734efe2ac9cbf59ddabc4674739fdb2f2"
+    },
+    "point": {
+      "path": "reviews/2026-11-01/retained-tail-whole-execution/prefix-result.json",
+      "sha256": "3dd3a82946a07c38fa80f18422af215de7e9d1a0c2b5b2e0dc817bfc0acb7e6c"
+    },
+    "pointReplay": {
+      "path": "reviews/2026-11-01/retained-tail-whole-execution/terminal-replay-result.json",
+      "sha256": "32299c4c720caf2d1b4380a7cd01bf4a20611ad3ed81dcbb65536fe7b59ef30d"
+    },
+    "headUpper": {
+      "path": "reviews/2026-11-01/retained-tail-whole-execution/root-scalar-consumption.json",
+      "sha256": "78534866762476619eaf553d8247b2d67d8b4fd2d9bbfd9337fae9b4001a04ae"
+    },
+    "feesProof": {
+      "path": "reviews/2026-11-01/retained-tail-whole-admission/old-fee-recovery-fresh.md",
+      "sha256": "a77888cd710f41a7abba87687e2724de009dbc6500bce5eddac16b3771895fc1"
+    },
+    "geometryProof": {
+      "path": "reviews/2026-10-29/weil-9-8-admission/full-weil-analytic-transfer-fresh.md",
+      "sha256": "0cdb4173b7664b73b47fd8789c0629f0535a208ad9af2a4af8eb86422c64a466"
+    },
+    "retainedSource": {
+      "path": "reviews/2026-10-31/retained-tail-center-admission/source-centers-consumed.md",
+      "sha256": "a823cabb902b1fd0270fd210db0d2efa4a0085d7918b49ec3afb79739178a4a6"
+    },
+    "pointScope": {
+      "path": "reviews/2026-11-01/retained-tail-whole-execution/root-consumption-scope.json",
+      "sha256": "899a9098dc3a944125b9ff314208706e1b164401a17a70583011911167e058cf"
+    }
+  },
+  "scope": "Only old A/B quadratic and same605 exactnorm/bhat; no newsourceentry/row/Gram/inverse/LDL/candidate data, oldrecovery0",
+  "noRetry": true
+}

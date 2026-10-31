@@ -1,0 +1,23 @@
+{
+  "schema": "rh-weil-boundedold-recovery-observation-v1",
+  "status": "OLD_RECOVERY_ROOT_UPPER_CONSUMED",
+  "runtimeGoalCreatedAt": 1793085111,
+  "helperExitCode": 0,
+  "helperInternalSeconds": 0.43298569999751635,
+  "helperExternalUpperSeconds": 4.0,
+  "emittedScalarReadoutUpperSeconds": 4.0,
+  "totalSecondsUpper": 8.0,
+  "capSeconds": 60,
+  "capBytes": 1048576,
+  "allCurrentAdmissionAndRecoveryBytes": 103202,
+  "remainingRootReceiptReserveBytes": 262144,
+  "completeByteUpperAtCheckpoint": 365346,
+  "rootStartUTC": "2026-10-31 20:46:49 UTC",
+  "helperTerminalUTC": "2026-10-31 20:46:51 UTC",
+  "readoutStartUTC": "2026-10-31 20:52:33 UTC",
+  "readoutTerminalUTC": "2026-10-31 20:52:35 UTC",
+  "helperRerun": false,
+  "newRowsComputed": false,
+  "newMathematicalIterations": 0,
+  "noNegativeFullQClaim": true
+}
