@@ -1,11 +1,11 @@
 {
   "schema": "rh-weil-605-whole-rejection-sync-v1",
-  "status": "SOURCE_PUBLICATION_PENDING",
+  "status": "SOURCE_VERIFIED_EXACT3_METADATA_CHILD_ARMED",
   "repository": "https://github.com/lixiang90/RH-Weil",
   "branch": "main",
   "previous_verified_head": "0daa60d209817a745c351d0569ea90f85cc20a39",
-  "source_commit": null,
-  "source_tree": null,
+  "source_commit": "23c60ebdbb6232f81af4937df9cb4ace1f04df87",
+  "source_tree": "d03758cff06c331be196c5e81c955d60ca5c97e3",
   "scope": "605 ONE fixedalpha wholecandidate rejection+oldfixedalpha corollary; noactualnegativeQ/wholepositive/growth/Goalcompletion",
   "source_changed_paths": [
     ".gitattributes",
@@ -64,6 +64,26 @@
     "goals/checkpoints/2026-11-01-retained-tail-whole-rejection-sync.json",
     "reviews/2026-11-01/retained-tail-whole-execution/remote-sync-verification.json"
   ],
-  "metadata_child_condition": "ONE exact3 child of independentlyverifiedsource, then verifyactualFINAL ref/commit/tree/soleparent/localexactpaths/clean/checkpoint/64public12local/outputledger. No ownSHA loop.",
-  "source_checks": null
+  "metadata_child_condition": "ONE child soleparent23c60ebdbb6232f81af4937df9cb4ace1f04df87 changing ONLY metadata_child_exact_paths. After push verify ACTUAL FINAL APIref/commit/tree/localsoleparent/exact3/clean/checkpoint/64pub12local/currentfuturebytes+transients<4MiB. No ownSHA/recursive commit.",
+  "source_checks": {
+    "publicBindings": 64,
+    "localBindings": 12,
+    "sourcePaths": 50,
+    "newMathematicalIterations": 1,
+    "settlement": "C068/605 only",
+    "cadence": "2->3/history68->69/latest605/formal21 noreset",
+    "producerSeconds": 56.41403529999661,
+    "checkerSeconds": 7.451463499994134,
+    "scientificFullProcessUpperSeconds": 133,
+    "actualFutureBytesAtSourceCheck": 87086,
+    "completeCurrentOutputUpperAtSourceCheck": 2157475,
+    "completeReservedOutputUpper": 3118965,
+    "stageByteCap": 4194304,
+    "noLiveScientificProcess": true,
+    "allGoalGates": "open/sameactive1793085111",
+    "nextAdmission": "directionalK E supplier/error/test proof-only unexecuted/noC069/data"
+  },
+  "source_sole_parent": "0daa60d209817a745c351d0569ea90f85cc20a39",
+  "verifiedAtUTC": "2026-10-31T20:07:04.540170+00:00",
+  "verification": "Actual GitHub ref/commit/tree matched local sole0daa/exact50/clean/checkpoint/64public rawLF+Git/12local/Goal9679-manifest223850/cadence7197 and runtime output ledger"
 }

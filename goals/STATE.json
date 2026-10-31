@@ -40,8 +40,8 @@
     "settled_iterations": [
       "notes/605-retained-tail-fixed-young-whole-recipe-rejection.md"
     ],
-    "stage": "605/C068 root+fresh+fixedheadcorollary closed ONCE; actualproducer/checker/scalar terminal,133s and bounded complete4MiB ledger PASS. Publication pending.",
-    "next_action": "Finish complete output ledger and publish/verify actualfinal. Then ONLY next-directional-remainder-admission.md: fullK E supplier/originalnorm errors/strongold/nettest proof gate; unexecuted/noC069/numerical/parameters.",
+    "stage": "605/C068 rootclosed/spent; source23c60eb/d03758/sole0daa/exact50/64pub12local/ledger/checkpoint verified. Only exact3 metadata child finalverification remains.",
+    "next_action": "Verify actualfinal exact3 child+all bindings/outputledger; then ONLY next-directional-remainder-admission.md proof gate: actualfullK E supplier/normfee/strongold/newnettest, unexecuted/noC069/data/parameter queue.",
     "stop_rule": "C068 ONE budget spent; both fixedalpha122 recipes stop. No retry/alpha/precision/rank/window/eta/consumer/source queue; actual Cret/Lret/Q negative not proved."
   },
   "support_contracts": [],
@@ -121,12 +121,12 @@
     "basis": "Live sameGoal at root execution admission; saved C068 actual gate/freeze inspected, science launch next"
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-11-01-retained-tail-whole-rejection-source.json",
+  "checkpoint": "goals/checkpoints/2026-11-01-retained-tail-whole-rejection-sync.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
-    "commit": "0daa60d209817a745c351d0569ea90f85cc20a39",
-    "tree": "f87dbacb3674088d16056dceb0740d0fec11ed80",
-    "basis": "Recovered actual final API/local sole d2d1/exact3/clean/checkpoint/39pub7local before mutation"
+    "commit": "23c60ebdbb6232f81af4937df9cb4ace1f04df87",
+    "tree": "d03758cff06c331be196c5e81c955d60ca5c97e3",
+    "basis": "Actual sourceAPI/localsole0daa/exact50/clean/checkpoint/64pub12local/guards/ledger; finalexact3 condition in current receipt, no selfSHA recursion"
   },
   "completion_audit": {
     "goal": "goals/GOAL.20261027.md",
@@ -138,7 +138,7 @@
   },
   "process_inventory_observed_on": "All producer/checker/scalar processes and matching review tasks terminal; no pending scientific process.",
   "publication_approval_gate": {
-    "status": "authorized-C068-605-root-settled-publication-pending",
+    "status": "authorized-605-source-verified-exact3-child-armed",
     "destination": "https://github.com/lixiang90/RH-Weil",
     "visibility": "public",
     "branch": "main",
@@ -150,7 +150,7 @@
     },
     "current_scope": "605actualfixedrecipe rejection, ONEpairedruntime/corollary, noactualnegativeQ/wholepositive/C069.",
     "verification": "reviews/2026-11-01/retained-tail-whole-execution/remote-sync-verification.json",
-    "metadata_child_condition": "ONE child with soleparentd2d1cf3c44d709871b2ccd5f538e7d1674130549 and ONLY metadata_child_exact_paths. After push verify actual FINAL API ref/commit/tree/local soleparent/exact3/clean/checkpoint/39pub7local/guards; no ownSHA recursion."
+    "metadata_child_condition": "ONE child soleparent23c60ebdbb6232f81af4937df9cb4ace1f04df87 changing ONLY metadata_child_exact_paths. After push verify ACTUAL FINAL APIref/commit/tree/localsoleparent/exact3/clean/checkpoint/64pub12local/currentfuturebytes+transients<4MiB. No ownSHA/recursive commit."
   },
   "research_board": "RESEARCH_BRANCHES.md",
   "literature_index": "literature/README.md",
