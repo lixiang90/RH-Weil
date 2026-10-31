@@ -3,10 +3,39 @@
   "date": "2026-10-31",
   "repository": "https://github.com/lixiang90/RH-Weil",
   "branch": "main",
-  "status": "pending-source-publication",
+  "status": "source-verified-metadata-child-condition-armed",
   "source_parent": "dbeacf77e29d3f1632c92e38222f31641c02ff93",
   "scope": "OneboundedGSzero current+originalnote old/input0. Root4722/6213/6220/different4631;18pubpins+2localignoredsources; no newmath/Goalcompletion.",
-  "source_verification": null,
+  "source_verification": {
+    "commit": "631d373d63dce548c1db5a7542c813449ba685c5",
+    "tree": "66597c4026e0c1ac824713a179dfaa29a1d6e842",
+    "sole_parent": "dbeacf77e29d3f1632c92e38222f31641c02ff93",
+    "observed_at_utc": "2026-10-31T11:44:57.753336+00:00",
+    "basis": "IndependentconnectedGitHub actualref/gitcommit/gittree matchedlocalHEAD/tree/soleparent. Exact17 sourcepaths/stagedfiltercanonical/all18committedrawpins+2localignoredsources/clean/checkpoint/3rawguards PASS.",
+    "source_changed_paths": [
+      ".gitattributes",
+      "RESEARCH_BRANCHES.md",
+      "goals/DECISIONS.md",
+      "goals/MACRO_FRONTIER.md",
+      "goals/README.md",
+      "goals/STATE.json",
+      "goals/checkpoints/2026-10-31-gs-packet-admission-source-v2.json",
+      "goals/reviews/2026-10-31-gs-packet-original-note-admission-stop.md",
+      "literature/README.md",
+      "literature/supplements/2026-10-31-gs-packet-original-note-scope.md",
+      "reviews/2026-10-31/gs-packet-admission/execution-start.json",
+      "reviews/2026-10-31/gs-packet-admission/fresh-scope-review.md",
+      "reviews/2026-10-31/gs-packet-admission/independent-old-comparison.md",
+      "reviews/2026-10-31/gs-packet-admission/original-note-core-admission.md",
+      "reviews/2026-10-31/gs-packet-admission/remote-sync-verification.json",
+      "reviews/2026-10-31/gs-packet-admission/root-comparison.md",
+      "reviews/2026-10-31/gs-packet-admission/root-consumption-scope.json"
+    ],
+    "cadence_literature": "6813raw unchanged0/history66/latest602/formal21; library143manifest223850raw unchanged; originalGoal9679raw unchanged.",
+    "new_math_iterations": 0,
+    "new_key_or_whole_improvement": false,
+    "goal_gates": "all3open/sameactive1793085111"
+  },
   "metadata_child_condition": {
     "exact_paths": [
       "goals/STATE.json",
@@ -14,6 +43,7 @@
       "reviews/2026-10-31/gs-packet-admission/remote-sync-verification.json"
     ],
     "condition": "Afteractualsource ref/commit/tree/localHEAD/soleparent/exactsourcepaths/clean/checkpoint/18rawpubpins+2ignoredsources/guardsverified, ONEexact3metadatachild. Independentlyverifyactualfinalref/gitcommit/gittree/localHEAD/soleparent/exact3/clean/checkpoint/18pins+2localsources/all3guards. No ownSHA orrecursivepush.",
-    "on_match": "Actualmatchingfinalchild completepublication only. SameGoalactive/C065exhausted; no nextmath/source/parameter admitted withoutdifferentactualcoreinput/test/strongoldnet."
+    "on_match": "Actualmatchingfinalchild completepublication only. SameGoalactive/C065exhausted; no nextmath/source/parameter admitted withoutdifferentactualcoreinput/test/strongoldnet.",
+    "parent": "631d373d63dce548c1db5a7542c813449ba685c5"
   }
 }
