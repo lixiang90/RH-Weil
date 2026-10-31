@@ -40,8 +40,8 @@
     "settled_iterations": [
       "notes/604-retained-tail-fixed448-head-positivity.md"
     ],
-    "stage": "CODE_PREP root consumed; no actualrun/C068/freeze/attempt. Final publication pending.",
-    "next_action": "Publish/verify actualfinal CODE_PREP, then next-whole-execution-admission.md: admit ONE new C068 whole responsibility, exact pins/root gate/freeze and ONLY stage01 launch with external600s/4MiB acceptance. No stage02/03 or parameter queue.",
+    "stage": "CODE_PREP root closed and source d2d1cf3/81d162/soleb9c/exact24/checkpoint/39pub7local verified; only exact3 metadata child final verification remains.",
+    "next_action": "Verify actual-final exact3 metadata child, then next-whole-execution-admission.md: formally admit ONE C068 whole responsibility, exact source/code/reviews/contract/root gate/freeze, and ONLY stage01 launch under external600s/4MiB acceptance. No actualrun yet; stage02/03 unapproved.",
     "stop_rule": "C067strictheadONEspent; no densitytowhole/allDlog/growingXi oroldprecision/v/P0/budget reuse."
   },
   "support_contracts": [],
@@ -116,12 +116,12 @@
     "basis": "Live same active at final preparation/root consumption; actual code/synthetic action executed, no research source run"
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-11-01-retained-tail-whole-prefix-source.json",
+  "checkpoint": "goals/checkpoints/2026-11-01-retained-tail-whole-prefix-sync.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
-    "commit": "b9c6478a289a1042ced94c88b1dd59c5cef280e0",
-    "tree": "1085dd63e142ac4b3a817ee7f0a329e2f640d749",
-    "basis": "RecoveredactualfinalAPI/local/sole3a76/exact3/clean/checkpoint/34public7local/3guards beforethisturnmutation"
+    "commit": "d2d1cf3c44d709871b2ccd5f538e7d1674130549",
+    "tree": "81d1620b36b43bf8271fe48b35f073afb18ed539",
+    "basis": "Actual API ref/commit/tree+local soleb9c/exact24/clean/checkpoint/39pub7local/guards; final exact3 child condition in current receipt, no selfSHA loop"
   },
   "completion_audit": {
     "goal": "goals/GOAL.20261027.md",
@@ -133,7 +133,7 @@
   },
   "process_inventory_observed_on": "Final matching agent outputs frozen/completed; no live numerical process; private whole attempt absent.",
   "publication_approval_gate": {
-    "status": "authorized-code-preparation-root-consumed-publication-pending",
+    "status": "authorized-source-verified-final-exact3-child-armed",
     "destination": "https://github.com/lixiang90/RH-Weil",
     "visibility": "public",
     "branch": "main",
@@ -143,9 +143,9 @@
       "reply": "每轮把进度同步到github；把文献保存在文献库中，用研究看板来记录各个路线的状况",
       "scope": "Publicresearch/state/board/librarymetadata/reviews; unlicensedfulltextlocalonly."
     },
-    "current_scope": "NEW stagedwhole prerequisite driver/protocol CODE_PREPonly; no numericalfreeze/C068/source run",
+    "current_scope": "CODE_PREP c4a4 + AST18193 only; no numerical attempt/C068. Final exact3 metadata child is publication bookkeeping.",
     "verification": "reviews/2026-11-01/retained-tail-whole-prefix/remote-sync-verification.json",
-    "metadata_child_condition": "New source push then independently verified sole-parent exact3 metadata child; no ownSHA recursion."
+    "metadata_child_condition": "ONE child with soleparentd2d1cf3c44d709871b2ccd5f538e7d1674130549 and ONLY metadata_child_exact_paths. After push verify actual FINAL API ref/commit/tree/local soleparent/exact3/clean/checkpoint/39pub7local/guards; no ownSHA recursion."
   },
   "research_board": "RESEARCH_BRANCHES.md",
   "literature_index": "literature/README.md",

@@ -1,12 +1,12 @@
 {
   "schema": "rh-weil-code-preparation-sync-v1",
-  "status": "SOURCE_PUBLICATION_PENDING",
+  "status": "SOURCE_VERIFIED_EXACT3_METADATA_CHILD_ARMED",
   "repository": "https://github.com/lixiang90/RH-Weil",
   "branch": "main",
   "previous_verified_head": "b9c6478a289a1042ced94c88b1dd59c5cef280e0",
   "scope": "CODE_PREPARATION only; AST18193, no actualsource/matrix/sign,0math/noC068",
-  "source_commit": null,
-  "source_tree": null,
+  "source_commit": "d2d1cf3c44d709871b2ccd5f538e7d1674130549",
+  "source_tree": "81d1620b36b43bf8271fe48b35f073afb18ed539",
   "source_changed_paths": [
     ".gitattributes",
     "RESEARCH_BRANCHES.md",
@@ -38,6 +38,20 @@
     "goals/checkpoints/2026-11-01-retained-tail-whole-prefix-sync.json",
     "reviews/2026-11-01/retained-tail-whole-prefix/remote-sync-verification.json"
   ],
-  "metadata_child_condition": "ONE child of actually verified source changing ONLY exact3 paths; verify actual final ref/commit/tree/local/checkpoint/bindings; no ownSHA loop",
-  "source_checks": null
+  "metadata_child_condition": "ONE child with soleparentd2d1cf3c44d709871b2ccd5f538e7d1674130549 and ONLY metadata_child_exact_paths. After push verify actual FINAL API ref/commit/tree/local soleparent/exact3/clean/checkpoint/39pub7local/guards; no ownSHA recursion.",
+  "source_checks": {
+    "publicBindings": 39,
+    "localBindings": 7,
+    "exactSourcePaths": 24,
+    "codeSHA256": "c4a470a4e7aa887f51d3b37edc200cc0c9a129534d3d0a46ab3a6f5e34b25c4b",
+    "ASTSyntheticChecks": 18193,
+    "cadence": "unchanged2/history68/latest604/formal21",
+    "actualNumericalRun": false,
+    "newMathIterations": 0,
+    "formalC068": false,
+    "allGoalGates": "open/sameactive1793085111"
+  },
+  "source_sole_parent": "b9c6478a289a1042ced94c88b1dd59c5cef280e0",
+  "verifiedAtUTC": "2026-10-31T19:25:32.062898+00:00",
+  "verification": "Actual GitHub ref/gitcommit/gittree matched local HEAD/tree/soleparent/exact24/clean/checkpoint/39public rawLF+Git/7local and Goal9679-cadence7036-manifest223850 guards"
 }
