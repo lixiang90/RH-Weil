@@ -1,0 +1,59 @@
+{
+  "schema": "RH_WEIL_C069_ROOT_ADMINISTRATIVE_RESERVE_PLAN_V1",
+  "status": "ROOT_PREPAID_CURRENT_C069_MUTABLE_ADMINISTRATIVE_OUTPUTS",
+  "runtimeGoalCreatedAt": 1793085111,
+  "contractId": "C069",
+  "targetId": "RH_WEIL_FIXED_9_8_EXACT_YSTAR_GLOBAL_SCHUR_V1",
+  "stage": "source",
+  "phase": "source-produce",
+  "prechargedBytes": 1048576,
+  "nonRefundable": true,
+  "preInstrumentationUpperBytes": 524288,
+  "preInstrumentationBasis": "Nonrefundable bounded cumulative nonjournal currentC069 prep/draft/final/control/helper-stdout exports (including agent finalization) <=524288: artifacts<=131072, retired prep rewrites<=196608, early STATE<=32768, actual helper stdout/export copies<=65536, spare98304; independently audit before resourcePASS. No full chat transcript export created.",
+  "scientificPrior": {
+    "sourceMilliseconds": 0,
+    "finiteMilliseconds": 0,
+    "phaseLifetimes": [],
+    "retainedPreviousScienceInventory": {}
+  },
+  "journalPath": "reviews/2026-11-01/global-joint-execution/root-admin-write-log.jsonl",
+  "mutableExactPaths": [
+    "goals/STATE.json",
+    "goals/checkpoints/2026-11-01-global-joint-execution-source.json",
+    "goals/checkpoints/2026-11-01-global-joint-execution-sync.json"
+  ],
+  "mutablePrefixes": [
+    "reviews/2026-11-01/global-joint-execution/source-produce/"
+  ],
+  "scope": "ROOT mutableSTATE/checkpoint/liveobservation/copies/log/tmp/retired administrative versions and new smallcontrol/admission input artifact bytes; actual sourcecoefficients/packet/controllerwrites never counted asROOTadmin.",
+  "disjointCoverage": "Immutableauthorization/contract/ARM/prior/claim/READY/finalgate/freezes in childchargedMetadataPins are charged there; exactfiveobserveroutputs charged bytheirprepaidmaxima. Rootjournalentriesforprepaidexternaldest chargeonly journaloverhead, not contentagain. Reserveplan ownfile chargedimmutable. ActualROOTadmin<=1MiB mustbecheckedseparately; no retainedsize refund.",
+  "guard": "AllpostinstrumentationROOTmutablewrites areprecharged/cumulativelyjournaled; ownjournalbytescount. Anyunknown/omitted/overcap coverage forbidsresourcePASS andsameC069responsibilitystops. No owncurrentSHAcycle.",
+  "actualARMStarted": false,
+  "createdUTC": "2026-10-31T22:49:29.732851+00:00",
+  "mutablePathPolicy": {
+    "exactPaths": [
+      "goals/STATE.json",
+      "goals/checkpoints/2026-11-01-global-joint-execution-source.json",
+      "goals/checkpoints/2026-11-01-global-joint-execution-sync.json"
+    ],
+    "prefixes": [
+      "reviews/2026-11-01/global-joint-execution/source-produce/"
+    ],
+    "canonicalRelativeOnly": true,
+    "prepaidContentExemption": {
+      "path": "literature/local/2026-11-01-directional-remainder-whole-observer/run-01/source-produce/root-observed.json",
+      "maxBytes": 131072,
+      "authority": "observer ARM exact externalOutputPaths prepaid maximum",
+      "freshOnce": true
+    },
+    "separateImmutablePins": "All builder/gates/priors/auth/contract/live/claim/READY are additionally charged by exact immutable path bindings; no STATE pin."
+  },
+  "cumulativeWritePolicy": {
+    "preInstrumentationUpperBytes": 524288,
+    "scope": "Bounded nonjournal admission preparation artifacts/draft rewrites and actual exported metadata/helper stdout copies; no full chat transcript export exists.",
+    "afterInstrumentation": "Every ROOT mutable content write plus own JSONL entry bytes is precharged via root-admin-write.py; tmp->rename counted once; failed/retired versions never refunded.",
+    "unrecordedAdmissionPrep": "All nonjournal preparation versions and exported stdout copies also consume the preInstrumentationUpperBytes partition; ROOT must audit the cumulative bound before resource PASS.",
+    "capBytes": 1048576,
+    "noReclaim": true
+  }
+}

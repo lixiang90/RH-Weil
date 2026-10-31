@@ -1,5 +1,7 @@
 # 研究分支看板
 
+2026-11-01，[606技术止与正式宏观22已root闭合](goals/reviews/2026-11-01-general-rh-macro-review-cycle-22.md)：原会话63808/24788在科学child前等待交接耗尽，默认PID访问失败、host恢复时效拒绝；无source/矩阵/whole符号，非数学no-go。ONE责任3→4/history70/latest606后，宏观0轮仅4→0/formal22一次。最强旧whole17/16、9/8有限头/同605全补空间正完成及whole4/5负惯性UPPER不变；principal/sections/mixed/成长Ξ与三Goal门open，同Goalactive。C069 spent不重试。准确发布核实际finalHEAD后，唯一下一为ONE惰性host→host可见性/时效首检（120s/64KiB/≤20s交接），不授科学或新合同；失败即停工程链。Goal原字节、库143/manifest223850保持。当前执行只读STATE；旧下列下一均历史。
+
 2026-11-01，[全局联合证书代码准备已root闭合](goals/reviews/2026-11-01-global-joint-code-preparation.md)：完整五块源、独立原值重算、active有限消费及不同组织的signedAug核验均已实现并终审；实际PID的ARM/READY观察器和累计费用/一次性/大日志接口已重闭。旧8d50异常计费版仍冻结，现88d54只闭代码责任。尚无C069/实际ARM/新源行或Gram/solve；source230/finite216/7200s64MiB可行性和whole9/8符号仍待实际验收，不报RH或Goal完成。0数学；原cadence7197保持3/history69/latest605/formal21，Goal9679/库143manifest223850不变，同Goalactive/三门open。准确发布核actualfinal后，唯一下一是新C069一责任准入，先source-produce，后续各阶段单独root门；下个完整数学到4后先宏观审视。当前执行只读STATE，旧CODE_PREP下一为已完成历史。
 
 2026-11-01，[方向余项准入/最强旧已root消费](goals/reviews/2026-11-01-directional-remainder-admission.md)：完整K E/Y函数与264原norm误差是强旧能力，五块方向数值/全局Schur符号仍欠。一次旧A/B标量复核及仅既有输出的upper消费共8s<60；旧数据给Delta∈[2^-124,2^-123)，同一605头方向加任意补空间修正均正。拟议p448在CODE前撤回，不换行/方向；不报全Lret/Q正性或新惯性预算。来源恢复/旧推论/准入0数学，cadence7197保持3/history69/latest605/formal21，Goal9679/库143manifest223850不变，同Goalactive/三门open。只准新的全局五块source/verifier/active-consumer CODE_PREP，7200s/64MiB仅前瞻、无C069/data/solve，不再复验旧head门；下一完整数学到4后先宏观审视。当前动作只读STATE，旧p448下一为已停历史。

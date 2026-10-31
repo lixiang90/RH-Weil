@@ -1,0 +1,45 @@
+{
+  "schema": "RH_WEIL_C069_ROOT_SOURCE_METADATA_AUTHORIZATION_V1",
+  "status": "ROOT_AUTHORIZED_ONE_SOURCE_PRODUCE_METADATA_GRAPH",
+  "runtimeGoalCreatedAt": 1793085111,
+  "contractId": "C069",
+  "targetId": "RH_WEIL_FIXED_9_8_EXACT_YSTAR_GLOBAL_SCHUR_V1",
+  "rootAdmissionNonce": "C069-e8cd0e4ce267a197fd8f9b992607b0471ded19ad",
+  "rootRuntimeGoalCheckedActive": true,
+  "codePreparationActualFinalVerified": true,
+  "contractPin": {
+    "path": "goals/contracts/C069-global-exact-directional-whole.md",
+    "bytes": 8973,
+    "sha256": "778323b7fdfaa701f651237e0b7e426bbee8982d5ed4ce653dc903e8a9d7a1b4"
+  },
+  "codeClosurePin": {
+    "path": "reviews/2026-11-01/global-joint-code-preparation/root-code-closure.json",
+    "bytes": 3071,
+    "sha256": "899d42fb847865e5dafb901f29d0583e78bcab2e4eb098c6eb158639c6b604c3"
+  },
+  "rootAdministrativeReservePlanPin": {
+    "path": "reviews/2026-11-01/global-joint-execution/root-administrative-reserve-plan.json",
+    "bytes": 3766,
+    "sha256": "3682b5c2429885b1a932b18c1b8050cab2fe611ee97bb18512ada20b8f3ad6f9"
+  },
+  "extraChargedMetadataPins": {
+    "reviews/2026-11-01/global-joint-execution/execution-start.json": {
+      "path": "reviews/2026-11-01/global-joint-execution/execution-start.json",
+      "bytes": 798,
+      "sha256": "b5a3513739fa1e2f46772aaa7a413c80ed6fe1881effb2046548c6489ff0bc3a"
+    },
+    "reviews/2026-11-01/global-joint-execution/root-admin-write.py": {
+      "path": "reviews/2026-11-01/global-joint-execution/root-admin-write.py",
+      "bytes": 3463,
+      "sha256": "0a2ea8eeb0bdc20ce517e1f30a451e9d1a3aecb90416225640994ca8547f8283"
+    },
+    "reviews/2026-11-01/global-joint-execution/root-source-consumption-plan.md": {
+      "path": "reviews/2026-11-01/global-joint-execution/root-source-consumption-plan.md",
+      "bytes": 25091,
+      "sha256": "bb581617b28210ed44ba3c419269a8321e2366c6ccd4d8739f388f82f0205cc4"
+    }
+  },
+  "observedUTC": "2026-10-31T22:55:28.089335+00:00",
+  "actualPublishedFinal": "0f21af3ca61de81f589c206b797cf88e96460a13",
+  "scope": "ROOT consumed independent static admission audit; only first source-produce metadata graph. This file itself launches no process; actual live READY and final scientific freeze still required."
+}

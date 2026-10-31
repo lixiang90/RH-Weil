@@ -1,5 +1,7 @@
 # RH-Weil 文献索引
 
+2026-11-01，606/C069科学child前技术止、正式宏观22已root消费；无新数学primary/PDF，库143及manifest223850保持。[本次使用范围](supplements/2026-11-01-global-joint-admission-stop-macro22-scope.md)保自有metadata与原文local-only界限。source/whole符号未测，三Goal门open；仅下一惰性执行边界首检，非新数学合同。
+
 2026-11-01，全局五块代码准备/独立终审已归档：[范围与软件实现来源](supplements/2026-11-01-global-joint-code-preparation-scope.md)。无新数学primary/PDF；库143与manifest223850原字节保持。原source264/226/Dh233为旧输入，实际五块230/有限216与whole符号未计算。Microsoft原始API文档仅支持观察器实现，链接/阅核范围保存在补充记录，不增加数学前件或假称全文已存。计0数学，下一仅新责任/source-produce准入，同Goalactive。
 
 2026-11-01：方向余项函数/范数/whole准入及最强旧审查完成；旧A/B的有界复核与upper消费证明同一605头的全部补空间completion正，p448在code前撤回。0新数学/0新source行；无新web/primary/作者章/PDF/下载，库143/manifest223850保持。[使用范围](supplements/2026-11-01-directional-remainder-admission-scope.md)区分旧完整函数能力、旧推论与未执行的全局五块数据；全文/导入源仍local-only。

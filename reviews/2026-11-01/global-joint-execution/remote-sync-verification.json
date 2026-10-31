@@ -1,0 +1,17 @@
+{
+  "schema": "RH_WEIL_606_MACRO22_REMOTE_SYNC_V1",
+  "status": "PUBLICATION_PREPARED_NOT_YET_PUSHED",
+  "repository": "https://github.com/lixiang90/RH-Weil",
+  "branch": "main",
+  "previous_verified_head": "0f21af3ca61de81f589c206b797cf88e96460a13",
+  "source_commit": null,
+  "source_tree": null,
+  "scope": "606one admittedpre-childtechnicalstop+formal22; no source/finite/sign/RH/Goalcompletion; nextoneinertgateonlyafterfinalverify",
+  "metadata_child_exact_paths": [
+    "goals/STATE.json",
+    "goals/checkpoints/2026-11-01-global-joint-execution-sync.json",
+    "reviews/2026-11-01/global-joint-execution/remote-sync-verification.json",
+    "reviews/2026-11-01/global-joint-execution/root-admin-write-log.jsonl"
+  ],
+  "metadata_child_condition": "ONEsoleparentSOURCE child exact4, including actualcumulativeadminjournal; no ownSHAloop; actualFINALmustbeindependentlyverified"
+}

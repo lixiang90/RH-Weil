@@ -1,0 +1,13 @@
+{
+  "schema": "RH_WEIL_C069_ROOT_BEFORE_ARM_OBSERVATION_V1",
+  "runtimeGoalCreatedAt": 1793085111,
+  "contractId": "C069",
+  "targetId": "RH_WEIL_FIXED_9_8_EXACT_YSTAR_GLOBAL_SCHUR_V1",
+  "phase": "source-produce",
+  "rootBeforeArmUTC": "2026-10-31T22:58:32.392662+00:00",
+  "rootClockOutwardAllowanceMs": 2000,
+  "rootGoalActuallyObservedActive": true,
+  "actualExecCommand": "python -B reviews/2026-11-01/global-joint-code-preparation/observe-global-once.py source-produce --root-arm-file reviews/2026-11-01/global-joint-execution/source-produce/observer-arm.json",
+  "priorScienceTimesMs": 0,
+  "scope": "UTC captured before actual ARM invocation; after-exit observation still required; no future PID/session invented."
+}

@@ -1,0 +1,43 @@
+{
+  "schema": "RH_WEIL_C069_ROOT_AFTER_EXIT_OBSERVATION_V1",
+  "runtimeGoalCreatedAt": 1793085111,
+  "contractId": "C069",
+  "targetId": "RH_WEIL_FIXED_9_8_EXACT_YSTAR_GLOBAL_SCHUR_V1",
+  "phase": "source-produce",
+  "sessionId": 63808,
+  "actualToolSessionExitCode": 1,
+  "actualToolSessionTerminal": true,
+  "rootAfterObserverExitUTC": "2026-10-31T23:00:36.714079+00:00",
+  "rootClockOutwardAllowanceMs": 2000,
+  "observerPID": 24788,
+  "observerTerminalPin": {
+    "path": "literature/local/2026-11-01-directional-remainder-whole-observer/run-01/source-produce/terminal.json",
+    "bytes": 1014,
+    "sha256": "f44ee2ae473cef9422bda261ad446a50ff2981f250139af0313bdddabccdc6a2"
+  },
+  "readyPin": {
+    "path": "literature/local/2026-11-01-directional-remainder-whole-observer/run-01/source-produce/ready.json",
+    "bytes": 2655,
+    "sha256": "1d727544b9a2b68545b1a61b31305275919738a10a73664d32bdce34309de646"
+  },
+  "firstHandoff": {
+    "permissionContext": "defaultisolatedexec",
+    "exitCode": 1,
+    "reason": "READY_PID_NOT_OPENABLE",
+    "noFilesWritten": true
+  },
+  "observationRecovery": {
+    "permissionContext": "hostescalatedexec",
+    "sameSessionOnly": true,
+    "exitCode": 1,
+    "reason": "FRESH_ACTUAL_READY_HANDSHAKE_REQUIRED",
+    "noFilesWritten": true
+  },
+  "absent": {
+    "scienceOuter": true,
+    "rootLive": true,
+    "finalGate": true,
+    "finalFreeze": true
+  },
+  "scope": "Actual original observer session ended; no authorized scientific child/fiveblock values. PID host inventory still separate; terminal copied verbatim separately."
+}

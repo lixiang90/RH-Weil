@@ -1,0 +1,80 @@
+{
+  "schema": "RH_WEIL_MACRO22_ROOT_CONSUMPTION_V1",
+  "status": "ROOT_CONSUMED_FORMAL_MACRO22",
+  "runtimeGoalCreatedAt": 1793085111,
+  "baseline": "0c4f3a3eb609bb1d9564138fa4a35701f05605f2",
+  "goalPin": {
+    "path": "goals/GOAL.20261027.md",
+    "bytes": 9679,
+    "sha256": "b3d2acb1f962d793f45d79b6a4e67fb87dd072cd4752108a9298204b4cefa1de"
+  },
+  "libraryManifestPin": {
+    "path": "literature/manifest.json",
+    "bytes": 223850,
+    "sha256": "3223cffd0205b9a1f8660445ac33d0f3cec13b3bd1fa5e7799ed8abfb2746d42"
+  },
+  "inputPins": [
+    {
+      "path": "goals/reviews/2026-11-01-general-rh-macro-review-cycle-22.md",
+      "bytes": 6690,
+      "sha256": "5e898336014ade5bfedbea9249d376a3c0ee5ca160c58bca39ab8b1e13598fc9"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-execution/macro22-strategy-support.md",
+      "bytes": 7253,
+      "sha256": "7065a34845385cb1a5dcf87358eb03c2d78bf6b6d33573b442873d2b08a1306b"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-execution/macro22-alternative-support.md",
+      "bytes": 4443,
+      "sha256": "b7102f2cd515f62b0951500433f56a6dde7fca5d850b6e117955ac3c31d4b4c3"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-execution/macro22-independent-review.md",
+      "bytes": 5345,
+      "sha256": "de156eee319be6c925689b1933b91d22c2076219718509f60b8dbce0de3640b1"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-execution/macro22-final-review.md",
+      "bytes": 1706,
+      "sha256": "7baa3ea0341c926b9c692de2d37393ddb36e6182d369934b3ff9d189ccdfb859"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-execution/source-produce/root-observed.raw.json",
+      "bytes": 9648,
+      "sha256": "4f192af873370c20905e2e91ac3470c6c07c5bb8d1752e70a900dccc1f205342"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-execution/c069-technical-stop-review.md",
+      "bytes": 11545,
+      "sha256": "0ef19606e2807bcd08c092503c2108e4a2564b9acf98c2f486b94f97ef4661dc"
+    }
+  ],
+  "cadenceBeforePin": {
+    "path": "goals/review-cadence.json",
+    "bytes": 7001,
+    "sha256": "498fbabb42f735859f99b5d65261def8b4454b9af660a5377c6c08b0bff76d93"
+  },
+  "transition": {
+    "completedCycle": [
+      603,
+      604,
+      605,
+      606
+    ],
+    "before": 4,
+    "after": 0,
+    "history": 70,
+    "latest": 606,
+    "formalBefore": 21,
+    "formalAfter": 22,
+    "reviewAddsMathematicalRounds": 0
+  },
+  "mathematicalBottleneckChanged": false,
+  "strongestConsumableConsequence": "Unchanged strongestold whole17/16/head9/8/same605ALLcomplementpositive/whole4/5negative-inertiaUPPER; actualnewwhole9/8/source230/finite216/growingcore/principal/mixedopen.",
+  "singleNextGate": "Afteractualpublication/finalHEADverify onlyONEinert hostlaunch->hostobserve pairing;120s64KiB includingfullclosure/copies, latency<=20s. PASS onlyruntimepremise; no science/C069retry/C070. FAIL/unknown stopengineering andreturnactualcoreinput admission.",
+  "runtimeGoalStatus": "active",
+  "allThreeGoalGates": "open",
+  "preflightActuallyExecuted": false,
+  "recordedUTC": "2026-10-31T23:10:50.075797+00:00"
+}
