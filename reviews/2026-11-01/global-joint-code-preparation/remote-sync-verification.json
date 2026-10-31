@@ -1,11 +1,11 @@
 {
   "schema": "rh-weil-global-code-preparation-remote-sync-v1",
-  "status": "SOURCE_PUBLICATION_PENDING",
+  "status": "SOURCE_VERIFIED_EXACT3_METADATA_CHILD_ARMED",
   "repository": "https://github.com/lixiang90/RH-Weil",
   "branch": "main",
   "previous_verified_head": "cf1ec1b9e085998120cfdf17ad8a66a0ff60dd6b",
-  "source_commit": null,
-  "source_tree": null,
+  "source_commit": "b841326e7a62c4b6f3b9aa22f784746c2eaee729",
+  "source_tree": "d344086bffb93558b5d4266fd48adfc7acd06150",
   "scope": "Finalcode/reviews/corrections/synthetics closeCODE_PREP0; noactualC069/ARM/data/230/216/whole sign/Goalcompletion",
   "source_changed_paths": [
     ".gitattributes",
@@ -71,5 +71,27 @@
     "reviews/2026-11-01/global-joint-code-preparation/remote-sync-verification.json"
   ],
   "metadata_child_condition": "AfteractualverifiedSOURCE ONE soleparentSOURCE child changesONLYthese3; verify actualFINAL API/local/exact3/clean/checkpoint/93public9local/finalcode/rawguards/noactualC069ARMdata. No ownSHAloop.",
-  "source_checks": null
+  "source_checks": {
+    "head": "b841326e7a62c4b6f3b9aa22f784746c2eaee729",
+    "tree": "d344086bffb93558b5d4266fd48adfc7acd06150",
+    "parents": [
+      "cf1ec1b9e085998120cfdf17ad8a66a0ff60dd6b"
+    ],
+    "exactSourcePaths": 56,
+    "clean": true,
+    "checkpoint": true,
+    "publicBindings": 93,
+    "localBindings": 9,
+    "finalCodePins": 9,
+    "rawGuards": "PASS:Goal9679/cadence7197/manifest223850-library143",
+    "newMathIterations": 0,
+    "cadence": "3/history69/latest605/formal21",
+    "noActualC069ARMData": true,
+    "pendingScientificProcesses": [],
+    "allGoalGates": "open",
+    "next": "NEWonewhole/source-produceadmissiononly"
+  },
+  "source_sole_parent": "cf1ec1b9e085998120cfdf17ad8a66a0ff60dd6b",
+  "verifiedAtUTC": "2026-10-31T22:34:59.185574+00:00",
+  "verification": "IndependentactualGitHubAPIref/commit/tree + localsoleparent/exact56/clean/checkpoint/93public9local/final9codepins/3rawguards/noC069ARMdata; oneexact3childfinalcondition notownSHA."
 }
