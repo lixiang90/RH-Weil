@@ -1,5 +1,7 @@
 # RH-Weil 文献索引
 
+2026-10-31：native relative-K单位公式经5802/14394/读出限定1095/不同7132/root标准强旧0止。仅已有519/520、574/575和标准卷积指数/relative exactness，无新paper/作者章/PDF/下载；库142、manifest221943原字节保持。[准确范围](supplements/2026-10-31-native-relative-k-old-scope.md)区别native与额外entire ambient，不升级任意jet/norm/metric结论。
+
 2026-10-31：库141→142，Newton–Thorne1912.11261v3原件101p/1249898bytes/SHA6d50b558…2f379实际本地ignored归档。仅PDF1–2 local定义/必要context/TheoremA statement，作者proof/后章/II未审；standard cusp L解析/非零引用另标。标准比较9757/独立14227/不同11991/root闭为source0/old0：真实alltensor pole族可用但未付全球ζ定位，非普遍no-go、0数学轮。[精确范围](supplements/2026-10-31-su2-tensor-source-scope.md)。
 
 2026-10-30：文献140→141，新增FRS0803.2821v2固定45页PDF651244bytes/SHA89d9…09c0f，本地ignored。只核§4.3 Prop4.10/必要定义与有限FE依赖；source11691/不同10895/root闭为条件pole准则，未付经典ζ独立single-sign/完整zero-pole桥，source0/no新数学轮。PDF24原印FE冻结而有限移位更正分开；[精确阅读/曝光范围](supplements/2026-10-30-meanperiodic-single-sign-source-scope.md)不升级作者后章或全篇证明。
