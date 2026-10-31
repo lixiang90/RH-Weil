@@ -1,5 +1,7 @@
 # 研究分支看板
 
+2026-10-31，[全对称幂tensor来源首检0止](goals/reviews/2026-10-31-su2-tensor-source-admission-stop.md)：Newton–Thorne1912.11261v3实际TheoremA给level1全Sym cuspidal automorphy；root9757/独立14227/不同11991/root核闭。真实Δ族含新Sym因子，非固定C2两因子复制；ζ零点同位置保留至少Catalan重数，但local偶幂＋pole的Landau提纯只控localα，未付全球目标定位/谱放大。整性仅pole至多，exact另付line1非零；完整Γ parity核闭，degree/Catalan非必要净费lower/no普遍no-go。新来源库141→142/PDF101p1249898bytes只本地ignored；原cadence6813raw保持0/history66/latest602/formal21，无C066603/macro22。关键principal/mixed/signedcorecross/成长Ξ及whole4/5负惯性UPPER未变，三Goal门open/同实例active。当前只准确发布核actualHEAD；不续proof/II/ref/level/rank/n，后继须实际不同global-target输入/test/strongoldnet。旧下列执行位置为历史，当前只读STATE。
+
 2026-10-30，[FRS单号指定章来源门source0](goals/reviews/2026-10-30-meanperiodic-single-sign-source-stop.md)：库存13494/原文核查11691/不同10895/root16公开bindings＋本地PDF核闭。0803.2821v2实际Prop4.10把tail single-sign与右侧实区间无MC极点列为前提，结论全部MC复极点条带；所核页未付经典ζ独立sign或完整无抵消zero-pole桥。PDF24重复-s FE字面行冻结，只按原2.16＋独立boundary字符移位有限重闭中心反射，不改physical du；Remark4.9只取pole-set typing，不取c0符号。不泛排FRS/meanperiodic，不自动读§5/6/ref或新模型。库140→141，原件651244bytes/45p/SHA89d9…09c0f只本地ignored。原cadence6813字节保持0/history66/latest602/formal21，无C066/603/macro22。关键principal/mixed/signedcorecross/成长Ξ及whole4/5负惯性UPPER未变，三Goal门open、同实例active。当前只准确发布核actualHEAD；后继须不同actualinput-test-strongoldnet，旧下列执行位置为历史。
 
 | 当前来源路线 | 状态 | 重准入/停止 |
