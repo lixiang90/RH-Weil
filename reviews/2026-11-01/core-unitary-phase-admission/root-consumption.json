@@ -1,0 +1,55 @@
+{
+  "schema": "RH_WEIL_UNITARY_PHASE_ROOT_CONSUMPTION_V1",
+  "status": "ROOT_CONSUMED_SCOPE_RESTRICTED_INPUT0_NO_CONTRACT",
+  "runtimeGoalCreatedAt": 1793085111,
+  "baseline": "0c4f3a3eb609bb1d9564138fa4a35701f05605f2",
+  "inputPins": [
+    {
+      "path": "reviews/2026-11-01/core-unitary-phase-admission/unitary-phase-formula-admission.md",
+      "bytes": 8099,
+      "sha256": "6e7273654c3d185ad5ed1cdfc18fe2dccd61c4ac25eb738ccd781e829a0cdaa7"
+    },
+    {
+      "path": "reviews/2026-11-01/core-unitary-phase-admission/unitary-phase-strong-old-audit.md",
+      "bytes": 7552,
+      "sha256": "98c7c10c57791522ce31aa8967842dcca906efef85318891b21d73581a935409"
+    },
+    {
+      "path": "reviews/2026-11-01/core-unitary-phase-admission/fresh-unitary-phase-admission-review.md",
+      "bytes": 5811,
+      "sha256": "511bc326bdba0335d1a70ef0387fdc28e5ab2f078bd419985f81fd0b7194ae89"
+    },
+    {
+      "path": "reviews/2026-11-01/core-unitary-phase-admission/source-role-consumption-clarification.md",
+      "bytes": 1923,
+      "sha256": "e1a2785e62fa0f3c7541ba95d29d5fda32c7413ff414eb5b3f32a74f0b9b5ee6"
+    }
+  ],
+  "object": "FiniteEulerA=product(1-p^-1/2 exp(-itlogp)); scalarFourierU=A/conjA onfullL2du; sourcecases keptdistinct.",
+  "caseA": {
+    "source": "SAME actualordinaryconvolutionsource z",
+    "norm": "L2du/Planchereldt2pi",
+    "result": "CompletecorrelationandthereforefullWeilW pairingunchanged; naturalGramidentity. Oldstandardconsequence, notnewsign.",
+    "domain": "Compactinputcorrelationstayssamecompacttest evenifindividualfilteredpolefactorsundefined."
+  },
+  "caseB": {
+    "source": "nativef withordinaryphysicalr=Mhalf f target",
+    "map": "V=Mhalf U Mminus-half; Vp=(I-Ta)(I-p^-1T_-a)^-1",
+    "norm": "Onlye^-u du unitary; notordinaryr-du",
+    "paid": "finiteXgeometricexp-tailformuladomainlegal withX-dependentfees",
+    "unpaid": "Fullphysicaltargetmatching/sign/corecoverage/uniformX/growingnorm; no exactinvariance granted",
+    "ordinaryUncompressedGram": "LegalpositiveGram, NOTexcluded. FixedIinputnormequivalence doesNOTboundglobaloutputuniformX."
+  },
+  "boundedGramCountertestScope": "OnlyPI U PI/native-weightedGram or separatelyBOTH-ENDcompressedV withfixedIconstants, usingold560unboundedGammahighfreq; NOTuncompressedordinaryVGram.",
+  "oldClark": "U=e^-itTheta B exactly; sameoldcenteredsignedprimepowers, nonSchur; oldBflatlimitnottransported.",
+  "rootSemanticFreeze": "AnystrongerBglobalGram/fullQunchanged/no-unitarymethodclaimFROZEN. RestrictandcloseonlytheaboveAandboundedGramresults.",
+  "mathematicalRoundsAdded": 0,
+  "newCoreInputAccepted": false,
+  "newC070Created": false,
+  "scientificWork": false,
+  "strongestOldNetConsequence": "Unchanged whole17/16/head9/8/same605ALLcomplementpositive/whole4/5negative-inertiaUPPER; principal/mixed/growingXi/whole9/8open.",
+  "mathematicalBottleneckChanged": false,
+  "allThreeGoalGates": "open",
+  "nextOnly": "One Bost-Charlesv2 section7.2 SOURCEGATE; localPDFstored, bodyUNREAD; no newmathcontract orpaperqueue.",
+  "recordedUTC": "2026-10-31T23:53:12.919269+00:00"
+}

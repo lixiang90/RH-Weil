@@ -1,0 +1,98 @@
+{
+  "schema": "RH_WEIL_INERT_HOST_ROOT_CONSUMPTION_V1",
+  "status": "ROOT_CONSUMED_OPERATIONAL_FAIL_ZERO_MATH",
+  "runtimeGoalCreatedAt": 1793085111,
+  "priorGoalTurnClassification": "PROGRESS:606settled+macro22+actuala6fcpublicationrecovered",
+  "inputPins": [
+    {
+      "path": "reviews/2026-11-01/inert-host-preflight/inert-context.py",
+      "bytes": 7186,
+      "sha256": "f46cd81ce819465f934310686bbe133c84879605212dd8df6c35a4afeddf2ac7"
+    },
+    {
+      "path": "reviews/2026-11-01/inert-host-preflight/plan.json",
+      "bytes": 1298,
+      "sha256": "527ead060a20b7d50e4722f56ad696df37c596865157d8eacc6870671fad8a15"
+    },
+    {
+      "path": "reviews/2026-11-01/inert-host-preflight/root-before.json",
+      "bytes": 266,
+      "sha256": "7e95b813ef7ba6df484725b34642bebe6b22ae810ace198b46005bc99ffe56d9"
+    },
+    {
+      "path": "reviews/2026-11-01/inert-host-preflight/root-receipt.json",
+      "bytes": 1392,
+      "sha256": "d70287fb818a95802c2f52f97bfecf854b591abd8f30c2d7a73e46115cc040ae"
+    },
+    {
+      "path": "reviews/2026-11-01/inert-host-preflight/operational-state-provenance.json",
+      "bytes": 487,
+      "sha256": "39d65e91515f5aa0d46956a0689c3454700d8b52e97d075c51248da02c2cb8f0"
+    },
+    {
+      "path": "reviews/2026-11-01/inert-host-preflight/inert-terminal-review.md",
+      "bytes": 3005,
+      "sha256": "e96954a2be0a55de3f56813cd0b4c34d9670b0424f05f9795339902ee4b98b85"
+    },
+    {
+      "path": "reviews/2026-11-01/inert-host-preflight/once/check-claim.json",
+      "bytes": 76,
+      "sha256": "77bf66ff013e30853e68e28e02cb589cafb388fbf621f625aaf162045d2c6240"
+    },
+    {
+      "path": "reviews/2026-11-01/inert-host-preflight/once/checked.json",
+      "bytes": 410,
+      "sha256": "b28973f62de9cae6bc3c3f819ebcad303caa173873a45a3f99b192b0eb3bb3c3"
+    },
+    {
+      "path": "reviews/2026-11-01/inert-host-preflight/once/claim.json",
+      "bytes": 72,
+      "sha256": "e4d3a128a7d5d61544ee032bd70c343a34ac2ff16580bf80ee63e96440c60d0b"
+    },
+    {
+      "path": "reviews/2026-11-01/inert-host-preflight/once/ready.json",
+      "bytes": 460,
+      "sha256": "dd6a902a2fe37ce93faebf8d8e7873b640e46551b4f46295243b7b6cad2b779a"
+    },
+    {
+      "path": "reviews/2026-11-01/inert-host-preflight/once/terminal.json",
+      "bytes": 186,
+      "sha256": "b3b3001607d43c8526f8eda2a5727441c617ebef8f4cb6618ec30222f5fc601b"
+    }
+  ],
+  "actualSession": 16102,
+  "actualPID": 21256,
+  "actualProbeToolTerminalExit": 0,
+  "actualCheckerToolTerminalExit": 1,
+  "actualRootClockImmediatelyAfterToolClosureUTC": "2026-10-31T23:29:47Z",
+  "retainedChosenLaterWindowUpperMs": 194898,
+  "timeCapCertified": false,
+  "readyLatencyMs": 24217.951,
+  "latencyCapMs": 20000,
+  "hostPIDRightsEstablished": false,
+  "sourceScienceOrGramStarted": false,
+  "operationalUpperBytesNonRefundable": 65432,
+  "hardBytesCap": 65536,
+  "threeStateWritesPaid": true,
+  "retiredProgramVersionsPaid": true,
+  "mathematicalRoundsAdded": 0,
+  "GoalPin": {
+    "path": "goals/GOAL.20261027.md",
+    "bytes": 9679,
+    "sha256": "b3d2acb1f962d793f45d79b6a4e67fb87dd072cd4752108a9298204b4cefa1de"
+  },
+  "cadencePinUnchanged": {
+    "path": "goals/review-cadence.json",
+    "bytes": 6938,
+    "sha256": "74968571c8d0c6a51662ac37602ac241c1a84add09938b1b6c27bdaa697adfb0"
+  },
+  "libraryManifestPinUnchanged": {
+    "path": "literature/manifest.json",
+    "bytes": 223850,
+    "sha256": "3223cffd0205b9a1f8660445ac33d0f3cec13b3bd1fa5e7799ed8abfb2746d42"
+  },
+  "mathematicalBottleneckChanged": false,
+  "netConsequence": "Onlyprecisedeclaredhost-hosttimelyhandoffgatefailed. ItdoesnotprovePIDaccessfailure, universalbackendfailure ormathno-go. Stopthisengineeringworkflow; no fallback/retry/C070/science.",
+  "nextSingleAdmission": "ExplicitfiniteEulerphaseU_X=A_X/conjA_X ondeclaredsource; canonicalvsweightedphysicalroles, oldClarkcenteredphase/594scope/completeWeilfixedsourcecomparison. Input/type/strongold gate only, no mathematicalcontract.",
+  "recordedUTC": "2026-10-31T23:42:04.624710+00:00"
+}

@@ -1,0 +1,311 @@
+{
+  "schema": "RH_WEIL_INERT_UNITARY_PUBLICATION_INPUTS_V1",
+  "runtimeGoalCreatedAt": 1793085111,
+  "publicBindings": [
+    {
+      "path": ".gitattributes",
+      "bytes": 10012,
+      "sha256": "79c3ddbcdc11bc78738204479729a3369fb1eb5940c73c9ed583855e8fb28661"
+    },
+    {
+      "path": "RESEARCH_BRANCHES.md",
+      "bytes": 304947,
+      "sha256": "83bd253a8934599fc8a6d0951b0cb139cf75a4ff504038a936760952951db8a6"
+    },
+    {
+      "path": "goals/DECISIONS.md",
+      "bytes": 379692,
+      "sha256": "5aeedb4b3ae0fbfa4e58678d1110a0fb6b5a66f6ef8003d43c9fbbffdfdbe902"
+    },
+    {
+      "path": "goals/GOAL.20261027.md",
+      "bytes": 9679,
+      "sha256": "b3d2acb1f962d793f45d79b6a4e67fb87dd072cd4752108a9298204b4cefa1de"
+    },
+    {
+      "path": "goals/MACRO_FRONTIER.md",
+      "bytes": 132092,
+      "sha256": "9535432aca26618d2b5fbff4c2be68d81976879e57aef30330cd0cd7de1c860c"
+    },
+    {
+      "path": "goals/README.md",
+      "bytes": 96262,
+      "sha256": "fb826118522e991ab39a8622d73e64fdd137ed00cc62839893235e5e42f61983"
+    },
+    {
+      "path": "goals/review-cadence.json",
+      "bytes": 6938,
+      "sha256": "74968571c8d0c6a51662ac37602ac241c1a84add09938b1b6c27bdaa697adfb0"
+    },
+    {
+      "path": "goals/reviews/2026-11-01-inert-stop-unitary-input-admission.md",
+      "bytes": 2228,
+      "sha256": "4763f7f2469ec16cf7ab5c8c972c8dba9c9f69bc4374c9c1d33238f4e1ff8b60"
+    },
+    {
+      "path": "literature/README.md",
+      "bytes": 151751,
+      "sha256": "b4d3a785572026d62e00167d6a9f8331aa4ac4f16cf27b90dc39339723a731a6"
+    },
+    {
+      "path": "literature/manifest.json",
+      "bytes": 225264,
+      "sha256": "6beee3834b2cfc570bf4640c36971e1242c31d63f9928ed35f7cab7d89e880d5"
+    },
+    {
+      "path": "literature/supplements/2026-11-01-inert-unitary-formal-analytic-scope.md",
+      "bytes": 1889,
+      "sha256": "079a0e366ea773a50abd0b1f4ae32073cb13beb29efe127aea33001b1f21c62b"
+    },
+    {
+      "path": "reviews/2026-11-01/core-unitary-phase-admission/README.md",
+      "bytes": 1409,
+      "sha256": "3d67b8c0712b87902219140188b0b6da5b9cd3932cf246aef425e654ffbd6189"
+    },
+    {
+      "path": "reviews/2026-11-01/core-unitary-phase-admission/fresh-unitary-phase-admission-review.md",
+      "bytes": 5811,
+      "sha256": "511bc326bdba0335d1a70ef0387fdc28e5ab2f078bd419985f81fd0b7194ae89"
+    },
+    {
+      "path": "reviews/2026-11-01/core-unitary-phase-admission/next-formal-analytic-source-gate.md",
+      "bytes": 3882,
+      "sha256": "1696649610727e47da39b16d14731cb576c815be43d5698cf7eaf004aa1cfe8a"
+    },
+    {
+      "path": "reviews/2026-11-01/core-unitary-phase-admission/root-consumption.json",
+      "bytes": 3076,
+      "sha256": "4cb4c2699cee5ade94b41aee410169bfb8c2056b05c714d219e06e0272f866d8"
+    },
+    {
+      "path": "reviews/2026-11-01/core-unitary-phase-admission/source-role-consumption-clarification.md",
+      "bytes": 1923,
+      "sha256": "e1a2785e62fa0f3c7541ba95d29d5fda32c7413ff414eb5b3f32a74f0b9b5ee6"
+    },
+    {
+      "path": "reviews/2026-11-01/core-unitary-phase-admission/unitary-phase-formula-admission.md",
+      "bytes": 8099,
+      "sha256": "6e7273654c3d185ad5ed1cdfc18fe2dccd61c4ac25eb738ccd781e829a0cdaa7"
+    },
+    {
+      "path": "reviews/2026-11-01/core-unitary-phase-admission/unitary-phase-strong-old-audit.md",
+      "bytes": 7552,
+      "sha256": "98c7c10c57791522ce31aa8967842dcca906efef85318891b21d73581a935409"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/finite-independent-inputs.py",
+      "bytes": 8400,
+      "sha256": "05bb27e4fb457aa29d7cae57115260dc4ca716d4899f1019feea274876cf5a97"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/finite-whole-consumer.py",
+      "bytes": 47909,
+      "sha256": "6919ea1306ba9539520851634f0fa68980499a479bd529e73cf4b36a5116ab17"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/independent-finite-checker.py",
+      "bytes": 36234,
+      "sha256": "4cdbc6fcb9ae52cf1766ddbd71bf5e7f579a91f7d331939779448c9075539602"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/observe-global-once.py",
+      "bytes": 44215,
+      "sha256": "88d54d68d5119aff6eacc6581a3de56d53f9121ffacc3a6c17e7f87df8c4637d"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/runtime-protocol.md",
+      "bytes": 8747,
+      "sha256": "fe70954d6716290bc5b8421fa236d775aefb99e3f3819d777ec72e9ca89c7161"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/source-model.py",
+      "bytes": 27057,
+      "sha256": "89bb4eb23264b6f7d1bd56459e2d7825b94ec5a02e5ff7c36e6cc0bfa1237975"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/source-stage-controller.py",
+      "bytes": 36959,
+      "sha256": "0188ebfe2a0565bcfa53687a82b4dad068b57aae4413d3ff2aed18f8e7a7c9d9"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/verify-finite-augmented.py",
+      "bytes": 8210,
+      "sha256": "3ef31ca2255ed7a0aa4bc17cac979d49f93c95e43fb3ca18c8a67bd95f0ba6f9"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/verify-source-model.py",
+      "bytes": 26778,
+      "sha256": "2b1c1de335e2412c2f6e1cec7a219f3bd496561df6f4d134a5c87ea42a7603db"
+    },
+    {
+      "path": "reviews/2026-11-01/inert-host-preflight/README.md",
+      "bytes": 1314,
+      "sha256": "93ecea3fb7dfb6b3a39504f6579140237488239d55b1aa171a57e28f4c857e77"
+    },
+    {
+      "path": "reviews/2026-11-01/inert-host-preflight/inert-context.py",
+      "bytes": 7186,
+      "sha256": "f46cd81ce819465f934310686bbe133c84879605212dd8df6c35a4afeddf2ac7"
+    },
+    {
+      "path": "reviews/2026-11-01/inert-host-preflight/inert-terminal-review.md",
+      "bytes": 3005,
+      "sha256": "e96954a2be0a55de3f56813cd0b4c34d9670b0424f05f9795339902ee4b98b85"
+    },
+    {
+      "path": "reviews/2026-11-01/inert-host-preflight/once/check-claim.json",
+      "bytes": 76,
+      "sha256": "77bf66ff013e30853e68e28e02cb589cafb388fbf621f625aaf162045d2c6240"
+    },
+    {
+      "path": "reviews/2026-11-01/inert-host-preflight/once/checked.json",
+      "bytes": 410,
+      "sha256": "b28973f62de9cae6bc3c3f819ebcad303caa173873a45a3f99b192b0eb3bb3c3"
+    },
+    {
+      "path": "reviews/2026-11-01/inert-host-preflight/once/claim.json",
+      "bytes": 72,
+      "sha256": "e4d3a128a7d5d61544ee032bd70c343a34ac2ff16580bf80ee63e96440c60d0b"
+    },
+    {
+      "path": "reviews/2026-11-01/inert-host-preflight/once/ready.json",
+      "bytes": 460,
+      "sha256": "dd6a902a2fe37ce93faebf8d8e7873b640e46551b4f46295243b7b6cad2b779a"
+    },
+    {
+      "path": "reviews/2026-11-01/inert-host-preflight/once/terminal.json",
+      "bytes": 186,
+      "sha256": "b3b3001607d43c8526f8eda2a5727441c617ebef8f4cb6618ec30222f5fc601b"
+    },
+    {
+      "path": "reviews/2026-11-01/inert-host-preflight/operational-state-provenance.json",
+      "bytes": 487,
+      "sha256": "39d65e91515f5aa0d46956a0689c3454700d8b52e97d075c51248da02c2cb8f0"
+    },
+    {
+      "path": "reviews/2026-11-01/inert-host-preflight/plan.json",
+      "bytes": 1298,
+      "sha256": "527ead060a20b7d50e4722f56ad696df37c596865157d8eacc6870671fad8a15"
+    },
+    {
+      "path": "reviews/2026-11-01/inert-host-preflight/root-before.json",
+      "bytes": 266,
+      "sha256": "7e95b813ef7ba6df484725b34642bebe6b22ae810ace198b46005bc99ffe56d9"
+    },
+    {
+      "path": "reviews/2026-11-01/inert-host-preflight/root-consumption.json",
+      "bytes": 4019,
+      "sha256": "aca0c3b2843fa2dc8662a9fcbe41f33efc3ff8436a359e6e906e2eeaeb09964f"
+    },
+    {
+      "path": "reviews/2026-11-01/inert-host-preflight/root-receipt.json",
+      "bytes": 1392,
+      "sha256": "d70287fb818a95802c2f52f97bfecf854b591abd8f30c2d7a73e46115cc040ae"
+    }
+  ],
+  "localOnlyBindings": [
+    {
+      "bytes": 734638,
+      "path": "literature/local/2026-10-29-weil-9-8/pilot/run-01/certificates/moments.json",
+      "sha256": "2d166f7ae457fd61826329d31365564e25f1cfc6bc19d09aef22d2ec89c6bbd9"
+    },
+    {
+      "bytes": 23377672,
+      "path": "literature/local/2026-10-29-weil-9-8/pilot/run-01/certificates/source-matrices.json",
+      "sha256": "a5486fea38c3c8f91dcf4bb77c7677e734efe2ac9cbf59ddabc4674739fdb2f2"
+    },
+    {
+      "bytes": 73598411,
+      "path": "literature/local/2026-10-31-retained-tail-source/run-01/finite-columns.jsonl",
+      "sha256": "d841d307d2b22367570e594c1bc9e3b64c8a4ffef88691382acf5d6fbeeaf080"
+    },
+    {
+      "bytes": 233458,
+      "path": "literature/local/2026-10-31-retained-tail-source/run-01/h-columns.jsonl",
+      "sha256": "37f2c0410beb1b1c43b9f8d2df24d72fce3170b5f359d089c198742f1eee4e74"
+    },
+    {
+      "path": "literature/local/2026-11-01-directional-remainder-whole-observer/run-01/source-produce/claim.json",
+      "bytes": 522,
+      "sha256": "f8ef017195dd9fbf23ce10634115237095d149b19a32b601f72d45848759167f"
+    },
+    {
+      "path": "literature/local/2026-11-01-directional-remainder-whole-observer/run-01/source-produce/ready.json",
+      "bytes": 2655,
+      "sha256": "1d727544b9a2b68545b1a61b31305275919738a10a73664d32bdce34309de646"
+    },
+    {
+      "path": "literature/local/2026-11-01-directional-remainder-whole-observer/run-01/source-produce/terminal.json",
+      "bytes": 1014,
+      "sha256": "f44ee2ae473cef9422bda261ad446a50ff2981f250139af0313bdddabccdc6a2"
+    },
+    {
+      "path": "literature/local/2026-11-01-directional-remainder-whole-observer/run-01/source-produce/root-observed.json",
+      "bytes": 9648,
+      "sha256": "4f192af873370c20905e2e91ac3470c6c07c5bb8d1752e70a900dccc1f205342"
+    },
+    {
+      "path": "literature/local/2026-11-01-formal-analytic-source/bost-charles-2206.14242v2.pdf",
+      "bytes": 1907786,
+      "sha256": "fc8eef2982b7e4fbcb14e7a175671afaef0802ad358ba5ce1169a80cab5d2480"
+    }
+  ],
+  "excludedMutable": [
+    "goals/STATE.json",
+    "reviews/2026-11-01/core-unitary-phase-admission/publication-inputs.json",
+    "reviews/2026-11-01/core-unitary-phase-admission/remote-sync-verification.json"
+  ],
+  "unchangedOldScientificCodePins": [
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/source-model.py",
+      "bytes": 27057,
+      "sha256": "89bb4eb23264b6f7d1bd56459e2d7825b94ec5a02e5ff7c36e6cc0bfa1237975"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/verify-source-model.py",
+      "bytes": 26778,
+      "sha256": "2b1c1de335e2412c2f6e1cec7a219f3bd496561df6f4d134a5c87ea42a7603db"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/source-stage-controller.py",
+      "bytes": 36959,
+      "sha256": "0188ebfe2a0565bcfa53687a82b4dad068b57aae4413d3ff2aed18f8e7a7c9d9"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/finite-whole-consumer.py",
+      "bytes": 47909,
+      "sha256": "6919ea1306ba9539520851634f0fa68980499a479bd529e73cf4b36a5116ab17"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/independent-finite-checker.py",
+      "bytes": 36234,
+      "sha256": "4cdbc6fcb9ae52cf1766ddbd71bf5e7f579a91f7d331939779448c9075539602"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/verify-finite-augmented.py",
+      "bytes": 8210,
+      "sha256": "3ef31ca2255ed7a0aa4bc17cac979d49f93c95e43fb3ca18c8a67bd95f0ba6f9"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/finite-independent-inputs.py",
+      "bytes": 8400,
+      "sha256": "05bb27e4fb457aa29d7cae57115260dc4ca716d4899f1019feea274876cf5a97"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/observe-global-once.py",
+      "bytes": 44215,
+      "sha256": "88d54d68d5119aff6eacc6581a3de56d53f9121ffacc3a6c17e7f87df8c4637d"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/runtime-protocol.md",
+      "bytes": 8747,
+      "sha256": "fe70954d6716290bc5b8421fa236d775aefb99e3f3819d777ec72e9ca89c7161"
+    }
+  ],
+  "cadence": "0/history70/latest606/formal22 RAWunchanged",
+  "libraryNewEntriesOnly": [
+    "BC-2022-formal-analytic-v2"
+  ],
+  "allPrior143EntriesEqualHEAD": true,
+  "scope": "Currentpublicationbindings; historicalARM/rootrecords keeptimeofissuance semantics. Newpaperbodyunread, no newmathcounter/contract."
+}

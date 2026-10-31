@@ -1,0 +1,15 @@
+# Independent inert preflight terminal review
+
+2026-11-01; reviewer /root/inert_preflight_audit. Post-terminal research archive; no probe, WinAPI, code repair, STATE or Goal changes by this reviewer.
+
+Disposition: FAIL the ONE declared operational gate; stop its dependent workflow. Actual host rights remain UNTESTED. C069 remains spent; no retry, fallback, C070, mathematics or Goal completion follows.
+
+Bound witnesses match: plan nonce inert-ac28547a3e51aced221d4fbc24f86b8b, READY/claim/self-terminal PID21256, checked/root receipt session16102, and READY exact raw pin. Program7186/f46cd81ce819465f934310686bbe133c84879605212dd8df6c35a4afeddf2ac7 and plan1298/527ead060a20b7d50e4722f56ad696df37c596865157d8eacc6870671fad8a15 are unchanged. ROOT reports original probe tool terminal0 and checker tool terminal1. These actual external handle observations remain ROOT's premises, not independent facts established by JSON.
+
+checked.json410/b28973f62de9cae6bc3c3f819ebcad303caa173873a45a3f99b192b0eb3bb3c3 records READY_LATENCY24217.951ms >20000. In the frozen code this failure occurs BEFORE OpenProcess and identity query. Self-process creation metadata in READY does not establish cross-context SYNCHRONIZE access. Self-terminal ended23:29:44.394049UTC with scientificWork=false; no child or scientific import exists in this program. Missing SYNC/QUERY success fields are expected untested branches, not negative rights results.
+
+ROOT retained before23:29:03.290821 and later after-both-tools-closed23:30:36.739672UTC. Difference plus4000ms outward allowance, rounded up, is97449ms; chosen multiplicity2 gives194898ms >120000. Thus the selected accounting upper does not certify the time cap. Preserve it; an earlier reported clock is not used to refund this charge. This upper is not a necessary elapsed-time lower bound or evidence every host workflow exceeds120s.
+
+All seven operational dynamic files total2862B <=6144 and satisfy their individual caps; no extra file/tmp was found. Current terminal STATE10077B<=11000, with C069 stopped and no pending handle. ROOT's observed initial STATE9983B and the exact checker's <=11000 writer bound cover the middle version. Two program writes13375B (retired version provenance supplied by ROOT), plan1298B and these state/dynamic bounds, plus declared10240B console/prep-copy allowance give58835B, dominated by the prepaid65432B <=65536. This cumulative closure retains retired versions and reserves; it is not a retained-size refund. Complete actual console/export coverage remains ROOT's scoped provenance premise. This review is outside the already closed operational envelope.
+
+Goal9679, library manifest223850 and cadence raw pins match the published bindings; cadence0/history70/latest606/formal22. Zero new mathematical consequence or round607. Original whole/core/growing/principal/mixed gaps remain open. The next admissible research step requires an actual core input/formula/test and strongest-old comparison, not another engineering attempt.

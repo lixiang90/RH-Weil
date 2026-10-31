@@ -1,0 +1,10 @@
+{
+  "schema": "RH_WEIL_INERT_OPERATIONAL_STATE_WRITE_PROVENANCE_V1",
+  "scope": "Postterminal research archival. Original operational thirdSTATE snapshot before nextresearch update; not extra operationalSTATEwrite.",
+  "thirdStateRawBytes": 10077,
+  "thirdStateSHA256": "a39834876bb8ba06bcf21dc94d7e7328a7836cc5e1e94c6c8822216d7e88683a",
+  "firstStateRawBytes": 9983,
+  "middleStateWriterBound": 11000,
+  "operationalStateWriteCount": 3,
+  "retiredPlusCurrentProgramWriteBytes": 13375
+}

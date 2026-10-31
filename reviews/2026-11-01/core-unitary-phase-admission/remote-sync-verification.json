@@ -1,0 +1,16 @@
+{
+  "schema": "RH_WEIL_INERT_UNITARY_SOURCE_SYNC_V1",
+  "status": "PUBLICATION_PREPARED_NOT_YET_PUSHED",
+  "repository": "https://github.com/lixiang90/RH-Weil",
+  "branch": "main",
+  "previous_verified_head": "a6fc37a17a1d7d828d6e4d3ece2a755e6a52ae8b",
+  "source_commit": null,
+  "source_tree": null,
+  "scope": "OneinertFAIL+scopedunitaryINPUT0=0math; library144/BCv2PDFarchived, section7.2UNREAD; no newcontract/whole/RH/Goalcompletion",
+  "metadata_child_exact_paths": [
+    "goals/STATE.json",
+    "goals/checkpoints/2026-11-01-inert-unitary-admission-sync.json",
+    "reviews/2026-11-01/core-unitary-phase-admission/remote-sync-verification.json"
+  ],
+  "condition": "One soleparentSOURCE metadatachild exact3; independentlyverifyactualfinalAPI/local/tree/paths/clean/checkpoint/pins. No ownSHAloop."
+}
