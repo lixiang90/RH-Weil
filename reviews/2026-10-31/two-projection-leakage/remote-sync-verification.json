@@ -3,10 +3,45 @@
   "date": "2026-10-31",
   "repository": "https://github.com/lixiang90/RH-Weil",
   "branch": "main",
-  "status": "pending-source-publication",
+  "status": "source-verified-metadata-child-condition-armed",
   "source_parent": "2887385e72882d75bd3221163adec8a0fe7baec7",
   "scope": "603/C066 oneactualmathcrossprojectionlower/root7777/full12601/different7213;21pubpins+1ignoredinheritedsource. Solecadenceonce; noGoalcompletion/key/wholeclaim.",
-  "source_verification": null,
+  "source_verification": {
+    "commit": "73f1b63d31520e7d466caa8e3c726d38e4a8d979",
+    "tree": "e2e6c81a603acd414e2e5437b0ebec9f7d4a2a19",
+    "sole_parent": "2887385e72882d75bd3221163adec8a0fe7baec7",
+    "observed_at_utc": "2026-10-31T12:34:50.812425+00:00",
+    "source_changed_paths": [
+      ".gitattributes",
+      "RESEARCH_BRANCHES.md",
+      "goals/DECISIONS.md",
+      "goals/MACRO_FRONTIER.md",
+      "goals/README.md",
+      "goals/STATE.json",
+      "goals/checkpoints/2026-10-31-two-cutoff-603-source.json",
+      "goals/contracts/C066-two-cutoff-leakage-phase-misalignment.md",
+      "goals/review-cadence.json",
+      "goals/reviews/2026-10-31-two-cutoff-leakage-603-settlement.md",
+      "literature/README.md",
+      "literature/supplements/2026-10-31-two-cutoff-leakage-scope.md",
+      "notes/603-two-cutoff-sonin-leakage-phase-misalignment.md",
+      "reviews/2026-10-31/two-projection-leakage/admission-root.json",
+      "reviews/2026-10-31/two-projection-leakage/domain-admission.md",
+      "reviews/2026-10-31/two-projection-leakage/execution-start.json",
+      "reviews/2026-10-31/two-projection-leakage/fresh-proof-audit.md",
+      "reviews/2026-10-31/two-projection-leakage/full-proof.md",
+      "reviews/2026-10-31/two-projection-leakage/overlap-admission.md",
+      "reviews/2026-10-31/two-projection-leakage/remote-sync-verification.json",
+      "reviews/2026-10-31/two-projection-leakage/root-consumption-scope.json",
+      "reviews/2026-10-31/two-projection-leakage/root-proof.md"
+    ],
+    "basis": "IndependentconnectedGitHub actualmainref/gitcommit/gittree matchedlocalHEAD/tree/soleparent. Exact22sourcepaths/stagedfiltercanonical/21committedrawpins+ignoredlocal61862/clean/checkpoint/3afterguards PASS.",
+    "cadence_literature": "SOLEmath0->1/history66->67/latest603/formal21 held; cadence6905rawSHA4e556b9a84fd365a3a55bc4c345dc3dbe0f6e0543394dcca04093387a77560de. Goal9679 andlibrary143manifest223850 rawheld.",
+    "math_iterations": 1,
+    "key_bottleneck_removed": false,
+    "whole_improvement": false,
+    "goal_gates": "all3open/sameactive1793085111"
+  },
   "metadata_child_condition": {
     "exact_paths": [
       "goals/STATE.json",
@@ -14,6 +49,7 @@
       "reviews/2026-10-31/two-projection-leakage/remote-sync-verification.json"
     ],
     "condition": "Afteractualsource independentref/gitcommit/gittree/localHEAD/soleparent/exactsourcepaths/clean/checkpoint/21rawpubpins+1ignoredsource/guards verify, ONEexact3metadatachild. Independentlyverifyactualfinalref/commit/tree/localHEAD/soleparent/exact3/clean/checkpoint/21pins+local61862/Goal9679/cadence6905newraw1history67latest603formal21/manifest223850library143. No ownSHA/recursivepush.",
-    "on_match": "Matchingactualfinalchild completespublication only; C066exhausted/sameGoalactive. No exponent/gain/rank/window/source successor; actualdifferentcoreinput/test/strongoldnetonly."
+    "on_match": "Matchingactualfinalchild completespublication only; C066exhausted/sameGoalactive. No exponent/gain/rank/window/source successor; actualdifferentcoreinput/test/strongoldnetonly.",
+    "parent": "73f1b63d31520e7d466caa8e3c726d38e4a8d979"
   }
 }
