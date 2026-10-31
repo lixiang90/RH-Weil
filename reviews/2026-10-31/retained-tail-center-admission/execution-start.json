@@ -1,0 +1,28 @@
+{
+  "schema": "rh-weil-center-admission-start-v1",
+  "atUTC": "2026-10-31T14:41:57.728165+00:00",
+  "runtimeGoalCreatedAt": 1793085111,
+  "previousGoalTurn": "PROGRESS: actualONEproducer/replay plusrecordedh0:1660STOP changed next action;0math/notGoalgate",
+  "priorFinalVerification": {
+    "commit": "824dda5ec9c62d3111da5394d9b757b9fdc2fc56",
+    "tree": "4081984811c171ba3350db77c7d62117b61e2ac1",
+    "soleParent": "b68f5793b9867229de01f78a232f00e74e13c54a",
+    "basis": "ThisturnactualconnectedAPIref/commit/tree+localHEAD/soleparent/exact3/clean/checkpoint/27public+11local/3guards beforemutation PASS"
+  },
+  "guards": {
+    "goals/GOAL.20261027.md": {
+      "bytes": 9679,
+      "sha256": "b3d2acb1f962d793f45d79b6a4e67fb87dd072cd4752108a9298204b4cefa1de"
+    },
+    "goals/review-cadence.json": {
+      "bytes": 6905,
+      "sha256": "4e556b9a84fd365a3a55bc4c345dc3dbe0f6e0543394dcca04093387a77560de"
+    },
+    "literature/manifest.json": {
+      "bytes": 223850,
+      "sha256": "3223cffd0205b9a1f8660445ac33d0f3cec13b3bd1fa5e7799ed8abfb2746d42"
+    }
+  },
+  "oneAction": "Proof-onlyBE FINAL-center fullh/V/G/infinite-tail SAMEoriginalnorm acceptance comparison. NOarrays/replayimplementation/science/newcontract untilseparateexplicitpremiseclosure.",
+  "oldFrozenGate": "Producer05f395 completed/ONEchecker1d36d3STOPPED; originalfiles/packets/stop preserve, newV/G stillunconsumed."
+}

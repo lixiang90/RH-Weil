@@ -1,0 +1,80 @@
+{
+  "schema": "RH_WEIL_FINAL_CENTER_FREEZE_V1",
+  "authorization": "ROOT_EXPLICIT_FREEZE_AND_VERIFY_CENTERS",
+  "runtimeGoalCreatedAt": 1793085111,
+  "atUTC": "2026-10-31T15:36:32.489173+00:00",
+  "verifierSHA256": "0e8418fb5b02e89e774bb1282a70fd0313c12d622cac7083491efb559b81ea28",
+  "parameters": {
+    "sourceParameters": {
+      "L": "9/8",
+      "omega": 256,
+      "eta": 1,
+      "N": 448,
+      "D": 2046,
+      "qDegree": 576,
+      "qCoefficients": 577,
+      "bandTerms": 1024,
+      "sincTerms": 1024,
+      "workingBits": 3072,
+      "outputBits": 256,
+      "hOutputBits": 640,
+      "deltaPower": 49158,
+      "tauPower": 49162,
+      "sourceCapSeconds": 1800,
+      "sourceCapBytes": 167772160
+    },
+    "workingBits": 3072,
+    "criterion": "MAX_DISTANCE_TO_SAME_FINAL_CENTERS",
+    "certificateCapSeconds": 1800,
+    "certificateCapBytes": 4194304,
+    "authoritativeNormBits": 256,
+    "oldBoxTruthConsumed": false,
+    "oldProducerInternalDistanceConsumed": false
+  },
+  "pins": {
+    "literature/local/2026-10-29-weil-9-8/pilot/run-01/certificates/moments.json": "2d166f7ae457fd61826329d31365564e25f1cfc6bc19d09aef22d2ec89c6bbd9",
+    "literature/local/2026-10-29-weil-9-8/pilot/run-01/certificates/tail-columns.json": "d714fa8d717a8f39d8b3b57cc6292e3f14844041b83802cf57ee47aa03c65a0e",
+    "literature/local/2026-10-29-weil-9-8/pilot/source/02-produce.py": "792ee1c93291459ca903b6f4f5e3c4f051f2463a1a020eac756b13fa6b913337",
+    "literature/local/2026-10-29-weil-9-8/pilot/source/08-produce.py": "ae0f487544c203905faecbb78b30f94fb16fe4f2f63c6b9846ca13ea673ba2b7",
+    "literature/local/2026-10-29-weil-9-8/pilot/source/11-checker_quotient.py": "ea6f8ed0e2780aa2835bb75f1a7e08fd807220ac4eb1b14f8c6aa0834e331af3",
+    "literature/local/2026-10-29-weil-9-8/pilot/source/12-raw_column_producer.py": "a8a67b4e08d540f51e152fe05bd19d77ae69fc618e4d6c08cb24c730b3afbb9c",
+    "reviews/2026-10-29/weil-9-8-admission/full-weil-analytic-transfer-fresh.md": "0cdb4173b7664b73b47fd8789c0629f0535a208ad9af2a4af8eb86422c64a466",
+    "reviews/2026-10-31/retained-tail-source/source-design.md": "55373dda47da0f18e01fd6c0d75e71bb91cac0091cf199ed843d951911a16e2c",
+    "reviews/2026-10-31/retained-tail-source/representation-proof.md": "d710b9ea3a094d37907965552dd132890fd930478595906a0545e2d3dbe511f4",
+    "reviews/2026-10-31/retained-tail-source/produce-source.py": "05f395038a4e2a75027b69996f990e1978d6e09c799dfbd43fd41fa1add8d45b",
+    "reviews/2026-10-31/retained-tail-source/check-source.py": "1d36d353cdeaccb9cfa63529bebb08d6a5f09cdf7e2b280b53f287d64ba54753",
+    "reviews/2026-10-31/retained-tail-source/producer-freeze.json": "833f360a8f1edde9c69a7287fc1f921c1585aa590cc1904ee481b6c4c9013975",
+    "reviews/2026-10-31/retained-tail-source/replay-freeze.json": "910c09a29f0b6142f22ae8aa8b1b7e2678b050d731dca0a68ebd0e32f3aa73e6",
+    "literature/local/2026-10-31-retained-tail-source/run-01/result.json": "a9fb5f5150bc17f56ebc3bd9e981ce0ec421c8efdf5612554ccc3a751eff6de5",
+    "literature/local/2026-10-31-retained-tail-source/run-01/replay-result.json": "5155ba3e55e0ce06d01136c15677f213a8734303b630227f04fb3f1d02d9303e",
+    "literature/local/2026-10-31-retained-tail-source/run-01/h-columns.jsonl": "37f2c0410beb1b1c43b9f8d2df24d72fce3170b5f359d089c198742f1eee4e74",
+    "literature/local/2026-10-31-retained-tail-source/run-01/finite-columns.jsonl": "d841d307d2b22367570e594c1bc9e3b64c8a4ffef88691382acf5d6fbeeaf080",
+    "literature/local/2026-10-31-retained-tail-source/run-01/column-norms.jsonl": "0506bf585a562d2585cbf8aa0b2ca3e8106ab5816f7f09db84245a235525b1cf",
+    "reviews/2026-10-31/retained-tail-center-admission/native-center-error-proof.md": "bca1ff76f9ef94e25a10fdbc6597641b682ae7174cc0e4c952e4edbb39ce188b",
+    "reviews/2026-10-31/retained-tail-center-admission/acceptance-obligation-audit.md": "bbe3e1d05230c200ebf969cc76a5e9d5ae39c056948bde3f2925d807d1ba20ef",
+    "reviews/2026-10-31/retained-tail-center-admission/scalar-denominator-clarification.md": "3ae3f5fb8bbf9215715d92cfce6ad4418b98969b97e6d7f6580677d9f5287126",
+    "reviews/2026-10-31/retained-tail-center-admission/center-admission-fresh.md": "2601e309b40c418f3db5181a39f5d9ac0d88576e20e53c0a82aaa8b8ce262249",
+    "reviews/2026-10-31/retained-tail-center-admission/root-comparison.md": "19bc010654b0538c87a1510a68a83aeda7e9b793288d7cce41db96a0ac8142e1",
+    "reviews/2026-10-31/retained-tail-center-admission/center-certificate-admission.md": "603a0d3702eb9825495b02cb8cae696b9630ea9bebdab1fa9fec42a63f40fdf2",
+    "reviews/2026-10-31/retained-tail-center-admission/proof-root-closure.json": "7a381d0037f27c82ec3372537172ad29707dc16dfd6d2cea48185689e9624576"
+  },
+  "rootCodeReview": {
+    "path": "reviews/2026-10-31/retained-tail-center-admission/code-root-closure.json",
+    "bytes": 1681,
+    "sha256": "ec3054cfcafd557de77398f97f41a061d6c20725cd3e10d9767d8a2cc6b52d48",
+    "atUTC": "2026-10-31T15:36:32.489173+00:00",
+    "reviews": [
+      {
+        "path": "reviews/2026-10-31/retained-tail-center-admission/center-code-fresh.md",
+        "bytes": 12192,
+        "sha256": "55ae4911ed7e41b573fe6bb02be523ddea29cde8650be6472cec68ec198a8840"
+      },
+      {
+        "path": "reviews/2026-10-31/retained-tail-center-admission/center-protocol-fresh.md",
+        "bytes": 11291,
+        "sha256": "24bde6dbd3316266b938d74a78a6490ec6a0bf1afae02dd8bb97adb2aa3cbdbd"
+      }
+    ]
+  },
+  "scope": "ONE separately admitted same-FINAL-center certificate, old source and checker STOP preserved; same original targets. No actual source accepted until terminal PASS/root closure."
+}

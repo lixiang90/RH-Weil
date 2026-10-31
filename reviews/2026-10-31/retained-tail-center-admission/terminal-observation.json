@@ -1,0 +1,37 @@
+{
+  "schema": "rh-weil-center-terminal-observation-v1",
+  "atUTC": "2026-10-31T15:58:30.843973+00:00",
+  "runtimeGoalCreatedAt": 1793085111,
+  "process": {
+    "handle": 90933,
+    "exitCode": 0,
+    "seconds": 799.3840885999962,
+    "status": "CENTER_ONLY_FULL_H_SOURCE_VERIFIED_PENDING_ROOT"
+  },
+  "result": {
+    "path": "literature/local/2026-10-31-retained-tail-center-certificate/run-01/result.json",
+    "bytes": 70183,
+    "sha256": "3eb9e77d71f92ead44775bfbafb7499a7ff0fd2e5bc81ac00095332a4f912739"
+  },
+  "newNormStream": {
+    "bytes": 493767,
+    "complete": true,
+    "file": "model-norms.jsonl",
+    "rows": 448,
+    "sha256": "d53dff47a93f02985114f28c697c0bc9e5cdad59abdbbcb7125e5db035d7c61c"
+  },
+  "checks": "Actual25pins/self/freeze/parameters; allreportedh/V/scalar/nativeweight thresholds; independentglobalfees;448NEWnormmetadata/sqrttransport;samecenters; oldSTOP andboxtruthscope;3rawguards;actualcaps/completeoutputs PASS. No source/oracle/verifier rerun.",
+  "exactReportedComplementHSCoarseInterval": [
+    "1774/1000",
+    "1775/1000"
+  ],
+  "actualVHSNormUpper": "<24",
+  "originalTargets": {
+    "Vop": "<2^-203",
+    "VHS": "<2^-198",
+    "Gop": "<2^-203"
+  },
+  "rootConsumption": "Awaitmatchingfreshreconciliation; thisis terminalobservation, notwhole/sign/Goalgate.",
+  "mathIterations": 0,
+  "newSignedMargin": false
+}

@@ -1,0 +1,432 @@
+{
+  "schema": "rh-weil-final-center-root-consumption-v1",
+  "date": "2026-11-01",
+  "atUTC": "2026-10-31T16:15:48.677352+00:00",
+  "runtimeGoalCreatedAt": 1793085111,
+  "baseline": "0c4f3a3eb609bb1d9564138fa4a35701f05605f2",
+  "status": "ROOT_CONSUMED_SAME_FINAL_CENTER_FULL_H_SOURCE_NOT_OLD_BOX_TRUTH",
+  "root_report": "reviews/2026-10-31/retained-tail-center-admission/source-centers-consumed.md",
+  "actual_execution": {
+    "handle": 90933,
+    "exitCode": 0,
+    "elapsedSeconds": 799.3840885999962,
+    "resultSHA256": "3eb9e77d71f92ead44775bfbafb7499a7ff0fd2e5bc81ac00095332a4f912739",
+    "newNorms": {
+      "bytes": 493767,
+      "complete": true,
+      "file": "model-norms.jsonl",
+      "rows": 448,
+      "sha256": "d53dff47a93f02985114f28c697c0bc9e5cdad59abdbbcb7125e5db035d7c61c"
+    },
+    "newAttemptCount": 1,
+    "sourceRegenerationCount": 0,
+    "oldCheckerRerunCount": 0,
+    "pendingProcesses": []
+  },
+  "premise_closure": {
+    "object": "R=Ttail-tau-Uold; V=RE448:C448->H; G_R=E*V. WusesSAMEstoredh640/contact/ppi/moment-midpointkernel, raww_ij=sqrtgj<p_i,W_j>.",
+    "norm_domain": "OriginalcomplexL2((-9/8,9/8),du), physicalr=e^(u/2)bare/Fourierdt/(2pi); nativegi=9/[4(2i+1)]; EsubsetD(R), Dlogunchanged.",
+    "quantifiers": "FixedL9/8/Omega256/eta1/E448/allcomplex448inputs; completeH-valuedcolumns withEXACTinfinitelogtail; no growingwindow/Xi/wholeRboundedness.",
+    "paid": "Old595completeGamma/contact/ppincl9/oddpole/fullDlog/M/tail/cross facilities; rootclosedrealspaceq576/fullglobalband/sinc; actualnewscalar/contactdistance/fullhMAXdistances/nativeVHSsum/25pins/newnormauthority.",
+    "errors": {
+      "hPolyRounding": "<2^-520",
+      "hTrueError": "<2^-512",
+      "UoldApprox": "<9*2^-512",
+      "qOperator": "<2^-227",
+      "bandOperator": "<2^-204",
+      "contactCenter": "<2^-600",
+      "finiteVArithmeticHS": "<=2^-220",
+      "Vop": "<2^-203",
+      "VHS": "<2^-198",
+      "Gop": "<2^-203"
+    },
+    "actual_reported_stronger_thresholds": {
+      "h0Square": "<2^-1264",
+      "h1Square": "<2^-1262",
+      "finiteVArithmeticSquare": "<2^-479",
+      "contactCenterRadius": "<2^-751"
+    },
+    "coefficient_direction": "q/band/Uoldsubtracted; rawU36; gcongruenceONCE; pp/poles remaininLlow/Q. BoundfeesareUPPER, Xnormnotnegativeinertia.",
+    "coverage_coupling": "Full2047h/458528V/countboth100352head with50400unique; exactanalyticb_ij aboveD2046; actualXHSin(1.774,1.775), VHS<24. GsameheadnotV*V; no fullCx/Z/inversemixed data.",
+    "unpaid": "Cret/head/inverse finitearithmetic/sign andwholeSret mixedMV/Gram/M10-correlation; oldpolynomialshiftfees notendpointlogMV; principal/sections/mixed/growingXi.",
+    "strongest_old_net": "Rpositive/tinyfloor/domain/shorting alreadyold0. NewusableACTUAL V/G+complementinput, no newwhole9/8sign/coreconstraint/growingbudget;53717/16 and542+555->557whole4/5negative-inertiaUPPER unchanged."
+  },
+  "source_authority": {
+    "sourceCentersConsumed": true,
+    "authoritativeNorms": "literature/local/2026-10-31-retained-tail-center-certificate/run-01/model-norms.jsonl",
+    "oldScalarBoxTruthConsumed": false,
+    "oldCoefficientBoxTruthConsumed": false,
+    "oldNormBoxTruthConsumed": false,
+    "oldHalfwidthAndInternalDistanceAuthority": false,
+    "oldCheckerSTOPPreserved": true,
+    "oldSourceFilesChanged": false,
+    "machinePendingRootResultUnchanged": true
+  },
+  "classification": {
+    "mathIterations": 0,
+    "formalReview": false,
+    "soleCadence": "1/history67/latest603/formal21;raw6905held",
+    "newExternalSources": 0,
+    "libraryEntries": 143,
+    "localSourceAcceptanceBottleneckChanged": "CLOSED",
+    "keyLongGoalBottleneckChanged": false,
+    "wholeBudgetImproved": false,
+    "newSignedMargin": false,
+    "goalGates": "all3open/sameactive"
+  },
+  "nextAction": "reviews/2026-10-31/retained-tail-center-admission/next-signed-head-admission.md: freezeONEnewCret actualdata/source+finiteerrors/budget/stopthenexecuteifadmitted; nooldC0/P0/v/parameter/precisionqueue, headnotwhole.",
+  "public_bindings": [
+    {
+      "path": ".gitattributes",
+      "raw_bytes": 9435,
+      "sha256_raw": "6474d0c12ddab80c447eec0f239840e654312468ce924e45cc34279610ff2fc3",
+      "sha256_lf": "b4f575acffcea1257c328d65f36f55454ecbbc8e0ae0ebb003b2edb256fe6b97",
+      "raw_git_required": false
+    },
+    {
+      "path": "RESEARCH_BRANCHES.md",
+      "raw_bytes": 299602,
+      "sha256_raw": "54976d1a4918f8db5cfae9bd77f636735c88107bac08820832bcf75579219496",
+      "sha256_lf": "7809bb2dc4910899948e43f973efadcf6e095cdcec702ba8fb151ac07ffd5deb",
+      "raw_git_required": false
+    },
+    {
+      "path": "goals/DECISIONS.md",
+      "raw_bytes": 365647,
+      "sha256_raw": "d457042e331910ae3bf1dbac3be0879e1b57e535ce78c2d8cea647df7f1bd8e6",
+      "sha256_lf": "b6a7e57d2218a8e14087413c2610018a4fc012cbc66c8bae85a6a83a08778903",
+      "raw_git_required": false
+    },
+    {
+      "path": "goals/GOAL.20261027.md",
+      "raw_bytes": 9679,
+      "sha256_raw": "b3d2acb1f962d793f45d79b6a4e67fb87dd072cd4752108a9298204b4cefa1de",
+      "sha256_lf": "b3d2acb1f962d793f45d79b6a4e67fb87dd072cd4752108a9298204b4cefa1de",
+      "raw_git_required": false
+    },
+    {
+      "path": "goals/MACRO_FRONTIER.md",
+      "raw_bytes": 125680,
+      "sha256_raw": "48cae95287793a3510b066b47a725e0b15d60d693a139ad2d71df3237d9de1a7",
+      "sha256_lf": "59d418360849b7c94b3355eca27a1aae99d5dec8bbb9ee8534838e544b5e7a8b",
+      "raw_git_required": false
+    },
+    {
+      "path": "goals/README.md",
+      "raw_bytes": 89607,
+      "sha256_raw": "4504fed1eb20ec0cdf48499d2721bda814e35c1f69a1e11f2a05f0d90871de6e",
+      "sha256_lf": "9ac58cc659eab1def8a3399447ded226de032f4c376adadbed8da6e1028463ac",
+      "raw_git_required": false
+    },
+    {
+      "path": "goals/review-cadence.json",
+      "raw_bytes": 6905,
+      "sha256_raw": "4e556b9a84fd365a3a55bc4c345dc3dbe0f6e0543394dcca04093387a77560de",
+      "sha256_lf": "4e556b9a84fd365a3a55bc4c345dc3dbe0f6e0543394dcca04093387a77560de",
+      "raw_git_required": false
+    },
+    {
+      "path": "goals/reviews/2026-11-01-retained-tail-center-certificate.md",
+      "raw_bytes": 1587,
+      "sha256_raw": "1f263037b9812411b923245bcb4794d4149f5919fb4455c8bb170373d51d7d71",
+      "sha256_lf": "1f263037b9812411b923245bcb4794d4149f5919fb4455c8bb170373d51d7d71",
+      "raw_git_required": false
+    },
+    {
+      "path": "literature/README.md",
+      "raw_bytes": 149647,
+      "sha256_raw": "6e709ef7762532f283ea5f741731b1025a28a334d90f367a94b76c05771641b0",
+      "sha256_lf": "e82583dd4638b0c3e76f428ec87d17a11bcd7d227198fc1222c36ab5c66c19ee",
+      "raw_git_required": false
+    },
+    {
+      "path": "literature/manifest.json",
+      "raw_bytes": 223850,
+      "sha256_raw": "3223cffd0205b9a1f8660445ac33d0f3cec13b3bd1fa5e7799ed8abfb2746d42",
+      "sha256_lf": "3223cffd0205b9a1f8660445ac33d0f3cec13b3bd1fa5e7799ed8abfb2746d42",
+      "raw_git_required": false
+    },
+    {
+      "path": "literature/supplements/2026-11-01-retained-tail-center-certificate-scope.md",
+      "raw_bytes": 1262,
+      "sha256_raw": "84f1a615689ae0664bca00a95af92eb6d45ea687c825117305f362fae67b3ef8",
+      "sha256_lf": "84f1a615689ae0664bca00a95af92eb6d45ea687c825117305f362fae67b3ef8",
+      "raw_git_required": false
+    },
+    {
+      "path": "reviews/2026-10-29/weil-9-8-admission/full-weil-analytic-transfer-fresh.md",
+      "raw_bytes": 13990,
+      "sha256_raw": "0cdb4173b7664b73b47fd8789c0629f0535a208ad9af2a4af8eb86422c64a466",
+      "sha256_lf": "0cdb4173b7664b73b47fd8789c0629f0535a208ad9af2a4af8eb86422c64a466",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-10-31/retained-tail-center-admission/acceptance-obligation-audit.md",
+      "raw_bytes": 16119,
+      "sha256_raw": "bbe3e1d05230c200ebf969cc76a5e9d5ae39c056948bde3f2925d807d1ba20ef",
+      "sha256_lf": "bbe3e1d05230c200ebf969cc76a5e9d5ae39c056948bde3f2925d807d1ba20ef",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-10-31/retained-tail-center-admission/center-admission-fresh.md",
+      "raw_bytes": 11159,
+      "sha256_raw": "2601e309b40c418f3db5181a39f5d9ac0d88576e20e53c0a82aaa8b8ce262249",
+      "sha256_lf": "2601e309b40c418f3db5181a39f5d9ac0d88576e20e53c0a82aaa8b8ce262249",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-10-31/retained-tail-center-admission/center-certificate-admission.md",
+      "raw_bytes": 6440,
+      "sha256_raw": "603a0d3702eb9825495b02cb8cae696b9630ea9bebdab1fa9fec42a63f40fdf2",
+      "sha256_lf": "603a0d3702eb9825495b02cb8cae696b9630ea9bebdab1fa9fec42a63f40fdf2",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-10-31/retained-tail-center-admission/center-certificate-result.json",
+      "raw_bytes": 70183,
+      "sha256_raw": "3eb9e77d71f92ead44775bfbafb7499a7ff0fd2e5bc81ac00095332a4f912739",
+      "sha256_lf": "3eb9e77d71f92ead44775bfbafb7499a7ff0fd2e5bc81ac00095332a4f912739",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-10-31/retained-tail-center-admission/center-code-fresh.md",
+      "raw_bytes": 12192,
+      "sha256_raw": "55ae4911ed7e41b573fe6bb02be523ddea29cde8650be6472cec68ec198a8840",
+      "sha256_lf": "55ae4911ed7e41b573fe6bb02be523ddea29cde8650be6472cec68ec198a8840",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-10-31/retained-tail-center-admission/center-freeze.json",
+      "raw_bytes": 5574,
+      "sha256_raw": "afc0c9e81073eb41386514c3984f1c507ffdf93a07f47393093676733ed19e2a",
+      "sha256_lf": "afc0c9e81073eb41386514c3984f1c507ffdf93a07f47393093676733ed19e2a",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-10-31/retained-tail-center-admission/center-protocol-fresh.md",
+      "raw_bytes": 11291,
+      "sha256_raw": "24bde6dbd3316266b938d74a78a6490ec6a0bf1afae02dd8bb97adb2aa3cbdbd",
+      "sha256_lf": "24bde6dbd3316266b938d74a78a6490ec6a0bf1afae02dd8bb97adb2aa3cbdbd",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-10-31/retained-tail-center-admission/center-result-fresh.md",
+      "raw_bytes": 13031,
+      "sha256_raw": "4f3de8a8b01c20d1998c19f1d9e4b13ed86c20228baffe0a5ec8f523be5a0566",
+      "sha256_lf": "4f3de8a8b01c20d1998c19f1d9e4b13ed86c20228baffe0a5ec8f523be5a0566",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-10-31/retained-tail-center-admission/code-root-closure.json",
+      "raw_bytes": 1681,
+      "sha256_raw": "ec3054cfcafd557de77398f97f41a061d6c20725cd3e10d9767d8a2cc6b52d48",
+      "sha256_lf": "f4db4544a439668f1fd0898a8653bf9c55207151337a4abedeb32282781403eb",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-10-31/retained-tail-center-admission/execution-start.json",
+      "raw_bytes": 1427,
+      "sha256_raw": "2a4c20257adcc40c54f49e53e5500c2119ff93f0660732a959a1011f34552c85",
+      "sha256_lf": "025124e466c95c995444cfdc15977b006ae473900cfbd948f1350f2ba96e8e29",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-10-31/retained-tail-center-admission/native-center-error-proof.md",
+      "raw_bytes": 16648,
+      "sha256_raw": "bca1ff76f9ef94e25a10fdbc6597641b682ae7174cc0e4c952e4edbb39ce188b",
+      "sha256_lf": "bca1ff76f9ef94e25a10fdbc6597641b682ae7174cc0e4c952e4edbb39ce188b",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-10-31/retained-tail-center-admission/next-signed-head-admission.md",
+      "raw_bytes": 4160,
+      "sha256_raw": "3449a74e67fc71a9c5d0cb20430ddf420071ad803af50deb9af7bf644b5e2a56",
+      "sha256_lf": "3449a74e67fc71a9c5d0cb20430ddf420071ad803af50deb9af7bf644b5e2a56",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-10-31/retained-tail-center-admission/proof-root-closure.json",
+      "raw_bytes": 2327,
+      "sha256_raw": "7a381d0037f27c82ec3372537172ad29707dc16dfd6d2cea48185689e9624576",
+      "sha256_lf": "82d77cb9bb84b1c763787fac4eb29a3a6353f01e15b134444a3892e6614813ff",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-10-31/retained-tail-center-admission/root-comparison.md",
+      "raw_bytes": 8193,
+      "sha256_raw": "19bc010654b0538c87a1510a68a83aeda7e9b793288d7cce41db96a0ac8142e1",
+      "sha256_lf": "d47faca0ba90a7b5c4b32454da3c975606d027c5cdd8f9e75529585d8d57b135",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-10-31/retained-tail-center-admission/scalar-denominator-clarification.md",
+      "raw_bytes": 2951,
+      "sha256_raw": "3ae3f5fb8bbf9215715d92cfce6ad4418b98969b97e6d7f6580677d9f5287126",
+      "sha256_lf": "3ae3f5fb8bbf9215715d92cfce6ad4418b98969b97e6d7f6580677d9f5287126",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-10-31/retained-tail-center-admission/source-centers-consumed.md",
+      "raw_bytes": 4973,
+      "sha256_raw": "a823cabb902b1fd0270fd210db0d2efa4a0085d7918b49ec3afb79739178a4a6",
+      "sha256_lf": "a823cabb902b1fd0270fd210db0d2efa4a0085d7918b49ec3afb79739178a4a6",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-10-31/retained-tail-center-admission/terminal-observation.json",
+      "raw_bytes": 1391,
+      "sha256_raw": "8cf171313a8d6689129a5cb7553bde2d93d8e3caac6b88b7c6b033a329d941b1",
+      "sha256_lf": "827b922d7397e162f18be340912e2fbb6c93849c154056f92c57a0d99c6a1fa9",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-10-31/retained-tail-center-admission/verify-centers.py",
+      "raw_bytes": 53596,
+      "sha256_raw": "0e8418fb5b02e89e774bb1282a70fd0313c12d622cac7083491efb559b81ea28",
+      "sha256_lf": "0e8418fb5b02e89e774bb1282a70fd0313c12d622cac7083491efb559b81ea28",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-10-31/retained-tail-source/check-source.py",
+      "raw_bytes": 35948,
+      "sha256_raw": "1d36d353cdeaccb9cfa63529bebb08d6a5f09cdf7e2b280b53f287d64ba54753",
+      "sha256_lf": "1d36d353cdeaccb9cfa63529bebb08d6a5f09cdf7e2b280b53f287d64ba54753",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-10-31/retained-tail-source/produce-source.py",
+      "raw_bytes": 34788,
+      "sha256_raw": "05f395038a4e2a75027b69996f990e1978d6e09c799dfbd43fd41fa1add8d45b",
+      "sha256_lf": "05f395038a4e2a75027b69996f990e1978d6e09c799dfbd43fd41fa1add8d45b",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-10-31/retained-tail-source/producer-freeze.json",
+      "raw_bytes": 3000,
+      "sha256_raw": "833f360a8f1edde9c69a7287fc1f921c1585aa590cc1904ee481b6c4c9013975",
+      "sha256_lf": "1e3f8382b749eac430bc389f3f1c92d3c63752f10de5787502b665f184580a00",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-10-31/retained-tail-source/replay-freeze.json",
+      "raw_bytes": 2712,
+      "sha256_raw": "910c09a29f0b6142f22ae8aa8b1b7e2678b050d731dca0a68ebd0e32f3aa73e6",
+      "sha256_lf": "0106b6da98b047da4c34a3336a1f31884b0f81936c4c4c261a950f9415b555a7",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-10-31/retained-tail-source/representation-proof.md",
+      "raw_bytes": 10736,
+      "sha256_raw": "d710b9ea3a094d37907965552dd132890fd930478595906a0545e2d3dbe511f4",
+      "sha256_lf": "d710b9ea3a094d37907965552dd132890fd930478595906a0545e2d3dbe511f4",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-10-31/retained-tail-source/source-design.md",
+      "raw_bytes": 10986,
+      "sha256_raw": "55373dda47da0f18e01fd6c0d75e71bb91cac0091cf199ed843d951911a16e2c",
+      "sha256_lf": "55373dda47da0f18e01fd6c0d75e71bb91cac0091cf199ed843d951911a16e2c",
+      "raw_git_required": true
+    }
+  ],
+  "local_bindings": [
+    {
+      "path": "literature/local/2026-10-29-weil-9-8/pilot/run-01/certificates/moments.json",
+      "bytes": 734638,
+      "sha256": "2d166f7ae457fd61826329d31365564e25f1cfc6bc19d09aef22d2ec89c6bbd9",
+      "ignored": true,
+      "role": "immutable-source-or-new-certificate-data"
+    },
+    {
+      "path": "literature/local/2026-10-29-weil-9-8/pilot/run-01/certificates/tail-columns.json",
+      "bytes": 296046,
+      "sha256": "d714fa8d717a8f39d8b3b57cc6292e3f14844041b83802cf57ee47aa03c65a0e",
+      "ignored": true,
+      "role": "immutable-source-or-new-certificate-data"
+    },
+    {
+      "path": "literature/local/2026-10-29-weil-9-8/pilot/source/02-produce.py",
+      "bytes": 6946,
+      "sha256": "792ee1c93291459ca903b6f4f5e3c4f051f2463a1a020eac756b13fa6b913337",
+      "ignored": true,
+      "role": "immutable-source-or-new-certificate-data"
+    },
+    {
+      "path": "literature/local/2026-10-29-weil-9-8/pilot/source/08-produce.py",
+      "bytes": 9863,
+      "sha256": "ae0f487544c203905faecbb78b30f94fb16fe4f2f63c6b9846ca13ea673ba2b7",
+      "ignored": true,
+      "role": "immutable-source-or-new-certificate-data"
+    },
+    {
+      "path": "literature/local/2026-10-29-weil-9-8/pilot/source/11-checker_quotient.py",
+      "bytes": 7899,
+      "sha256": "ea6f8ed0e2780aa2835bb75f1a7e08fd807220ac4eb1b14f8c6aa0834e331af3",
+      "ignored": true,
+      "role": "immutable-source-or-new-certificate-data"
+    },
+    {
+      "path": "literature/local/2026-10-29-weil-9-8/pilot/source/12-raw_column_producer.py",
+      "bytes": 5460,
+      "sha256": "a8a67b4e08d540f51e152fe05bd19d77ae69fc618e4d6c08cb24c730b3afbb9c",
+      "ignored": true,
+      "role": "immutable-source-or-new-certificate-data"
+    },
+    {
+      "path": "literature/local/2026-10-31-retained-tail-center-certificate/run-01/model-norms.jsonl",
+      "bytes": 493767,
+      "sha256": "d53dff47a93f02985114f28c697c0bc9e5cdad59abdbbcb7125e5db035d7c61c",
+      "ignored": true,
+      "role": "immutable-source-or-new-certificate-data"
+    },
+    {
+      "path": "literature/local/2026-10-31-retained-tail-center-certificate/run-01/result.json",
+      "bytes": 70183,
+      "sha256": "3eb9e77d71f92ead44775bfbafb7499a7ff0fd2e5bc81ac00095332a4f912739",
+      "ignored": true,
+      "role": "immutable-source-or-new-certificate-data"
+    },
+    {
+      "path": "literature/local/2026-10-31-retained-tail-center-preparation/verify-centers.737a.py",
+      "bytes": 46586,
+      "sha256": "737a5c90e3852ae6dd01bec9aacbdadc21f134f774f4805d21662e4312db5f82",
+      "ignored": true,
+      "role": "preparationcodehistory-not-sourceauthority"
+    },
+    {
+      "path": "literature/local/2026-10-31-retained-tail-source/run-01/column-norms.jsonl",
+      "bytes": 303201,
+      "sha256": "0506bf585a562d2585cbf8aa0b2ca3e8106ab5816f7f09db84245a235525b1cf",
+      "ignored": true,
+      "role": "immutable-source-or-new-certificate-data"
+    },
+    {
+      "path": "literature/local/2026-10-31-retained-tail-source/run-01/finite-columns.jsonl",
+      "bytes": 73598411,
+      "sha256": "d841d307d2b22367570e594c1bc9e3b64c8a4ffef88691382acf5d6fbeeaf080",
+      "ignored": true,
+      "role": "immutable-source-or-new-certificate-data"
+    },
+    {
+      "path": "literature/local/2026-10-31-retained-tail-source/run-01/h-columns.jsonl",
+      "bytes": 233458,
+      "sha256": "37f2c0410beb1b1c43b9f8d2df24d72fce3170b5f359d089c198742f1eee4e74",
+      "ignored": true,
+      "role": "immutable-source-or-new-certificate-data"
+    },
+    {
+      "path": "literature/local/2026-10-31-retained-tail-source/run-01/replay-result.json",
+      "bytes": 1287,
+      "sha256": "5155ba3e55e0ce06d01136c15677f213a8734303b630227f04fb3f1d02d9303e",
+      "ignored": true,
+      "role": "immutable-source-or-new-certificate-data"
+    },
+    {
+      "path": "literature/local/2026-10-31-retained-tail-source/run-01/result.json",
+      "bytes": 61030,
+      "sha256": "a9fb5f5150bc17f56ebc3bd9e981ce0ec421c8efdf5612554ccc3a751eff6de5",
+      "ignored": true,
+      "role": "immutable-source-or-new-certificate-data"
+    }
+  ]
+}

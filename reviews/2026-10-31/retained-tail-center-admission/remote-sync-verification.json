@@ -1,0 +1,19 @@
+{
+  "schema": "rh-weil-publication-verification-v1",
+  "date": "2026-11-01",
+  "repository": "https://github.com/lixiang90/RH-Weil",
+  "branch": "main",
+  "status": "pending-source-publication",
+  "source_parent": "824dda5ec9c62d3111da5394d9b757b9fdc2fc56",
+  "scope": "Actualsame-FINAL-center SOURCEcertificate rooted; op203/HS198/G203/fullH+infinite-tail/newnormauthority; oldboxtruth/STOP unchanged;0math/nohead/whole/Goalgate.",
+  "source_verification": null,
+  "metadata_child_condition": {
+    "exact_paths": [
+      "goals/STATE.json",
+      "goals/checkpoints/2026-11-01-retained-tail-center-sync.json",
+      "reviews/2026-10-31/retained-tail-center-admission/remote-sync-verification.json"
+    ],
+    "condition": "AfteractualsourceindependentAPIref/commit/tree/localHEAD/soleparent/exactpaths/clean/checkpoint/36publicraw+LF/14local/3rawguards verified, ONEexact3metadatachild. Thenindependentlyverifyactualfinalref/commit/tree/localHEAD/soleparent/exact3/clean/checkpoint/pins/guards; noownSHA/recursivepush.",
+    "on_match": "Publicationonly. SameGoalactive/C066spent; nextONEnewCret gate data/errors/budget/stopfreeze pernextadmission, notoldC0/P0precision orwholeclaim."
+  }
+}

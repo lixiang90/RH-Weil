@@ -1,0 +1,32 @@
+{
+  "schema": "rh-weil-center-code-root-closure-v1",
+  "atUTC": "2026-10-31T15:36:32.489173+00:00",
+  "runtimeGoalCreatedAt": 1793085111,
+  "status": "EXACT_CODE_REVIEWED_ELIGIBLE_FOR_SEPARATE_FREEZE",
+  "verifier": {
+    "path": "reviews/2026-10-31/retained-tail-center-admission/verify-centers.py",
+    "bytes": 53596,
+    "sha256": "0e8418fb5b02e89e774bb1282a70fd0313c12d622cac7083491efb559b81ea28"
+  },
+  "rootRead": "Full46586 baseline+entireactualcontext-onlydiff to53596, ASTonly; exactALL25 source/proofpins read/hashed andCERT_PARAMETERS staticallyextracted. No targetimport/function/science.",
+  "reviews": [
+    {
+      "path": "reviews/2026-10-31/retained-tail-center-admission/center-code-fresh.md",
+      "bytes": 12192,
+      "sha256": "55ae4911ed7e41b573fe6bb02be523ddea29cde8650be6472cec68ec198a8840"
+    },
+    {
+      "path": "reviews/2026-10-31/retained-tail-center-admission/center-protocol-fresh.md",
+      "bytes": 11291,
+      "sha256": "24bde6dbd3316266b938d74a78a6490ec6a0bf1afae02dd8bb97adb2aa3cbdbd"
+    }
+  ],
+  "sourceObject": "SAMEimmutableFINALh640/V256/contact/Machin160/endpointtail; nativew_ij=sqrtgj<p_i,W_j>",
+  "newAuthority": "IndependentTRUEenclosures/MAXdistances/fullnativeh-Vsums and NEW independentlybounded SAME-center norms. Oldboxtruth/halfwidth/internaldistance unconsumed; oldSTOPpreserved.",
+  "numericRunPerformed": false,
+  "actualSumsAccepted": false,
+  "allowedAfterFreeze": "ONEBF3072-bit/1800s/4MiB center-onlycertificate, separateignoredOUT; no sourceproducer/recenter/retry/parameter successor",
+  "mathIterations": 0,
+  "keyBottleneckChanged": false,
+  "goalGates": "all3open/sameactive"
+}

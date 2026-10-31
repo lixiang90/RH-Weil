@@ -1,5 +1,7 @@
 # RH-Weil 文献索引
 
+2026-11-01：同一retained-tail中心的完整H值源证书已实际799.384s通过并经root+不同终态审查消费；旧区间核验STOP/旧框truth不变，新独立范数为权威。无新web/primary/下载/作者章，库143与manifest223850原字节保持。[使用范围](supplements/2026-11-01-retained-tail-center-certificate-scope.md)区分内部源证书与未付signed whole；原源/新范数流继续local-only，公开代码与结果/hash/精确scope。
+
 2026-10-31：retained-tail内部源门ONE生产/ONE独立重放已实际执行，后者h0/1660包含性失败，完整V/G未消费；只读诊断及条件whole责任保存。无新web/primary/下载/作者章，库143与manifest223850原字节保持。[使用范围](supplements/2026-10-31-retained-tail-source-stop-scope.md)区分内部推导、未验收源包与旧595资产；所有完整packet继续local-only。
 
 2026-10-31：direct-Q9/8强旧输入审查、一次原448actualLlow浮点谱未决及retained-tail公式/domain标准0闭；无新primary/web/下载/作者后章，库143/manifest223850原字节保持。[scope](supplements/2026-10-31-direct-weil-core-retained-tail-scope.md)区分rawdu/Dlog/actualC/P0/fullQ与新尾源V/G_R尚未执行；旧source packet全文仍local-only，仅公开新实验脚本/观测/hash。
