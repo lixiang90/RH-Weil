@@ -1,11 +1,11 @@
 {
   "schema": "rh-weil-directional-admission-remote-sync-v1",
-  "status": "SOURCE_PUBLICATION_PENDING",
+  "status": "SOURCE_VERIFIED_EXACT3_METADATA_CHILD_ARMED",
   "repository": "https://github.com/lixiang90/RH-Weil",
   "branch": "main",
   "previous_verified_head": "ac4ccb9d8df67ffb942d9c2c979e9b17e6ea4df0",
-  "source_commit": null,
-  "source_tree": null,
+  "source_commit": "0af85f2d88eb618e67be939c0e9c89ba6440cc7f",
+  "source_tree": "52e7c8b5b33019abb61785c495263909621a114c",
   "scope": "OLDsame605head+ALLcomplement positivity/recovery0; p448withdrawn beforecode; globalfiveblock CODE_PREPonly/noC069/data/whole sign/Goal completion",
   "source_changed_paths": [
     ".gitattributes",
@@ -48,5 +48,26 @@
     "reviews/2026-11-01/directional-remainder-admission/remote-sync-verification.json"
   ],
   "metadata_child_condition": "After verified SOURCE, ONE child changes ONLY these3, soleparentSOURCE; verify actualFINAL API/local ref/commit/tree/soleparent/exact3/clean/checkpoint/49public8local/oldrecoveryledger/rawguards. No ownSHA loop.",
-  "source_checks": null
+  "source_checks": {
+    "head": "0af85f2d88eb618e67be939c0e9c89ba6440cc7f",
+    "tree": "52e7c8b5b33019abb61785c495263909621a114c",
+    "parents": [
+      "ac4ccb9d8df67ffb942d9c2c979e9b17e6ea4df0"
+    ],
+    "exactChangedPaths": 33,
+    "clean": true,
+    "checkpoint": true,
+    "publicBindings": 49,
+    "localBindings": 8,
+    "actualFutureBytes": 74977,
+    "currentCompleteOutputBytes": 215563,
+    "reservedCompleteOutputBytes": 402730,
+    "scientificSecondsUpper": 8,
+    "newMathIterations": 0,
+    "noNewDataNamespace": true,
+    "rawGuards": "PASS"
+  },
+  "source_sole_parent": "ac4ccb9d8df67ffb942d9c2c979e9b17e6ea4df0",
+  "verifiedAtUTC": "2026-10-31T21:12:46.786773+00:00",
+  "verification": "Actual independent GitHub API ref/commit/tree + local soleparent/exact33/clean/checkpoint/49public8local/rawGuards/completeoldledger; sameGoalactive1793085111. Final child remains subject to actual-final condition."
 }

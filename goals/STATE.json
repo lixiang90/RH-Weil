@@ -40,8 +40,8 @@
     "settled_iterations": [
       "notes/605-retained-tail-fixed-young-whole-recipe-rejection.md"
     ],
-    "stage": "C068 spent605; directional proof/OLD recovery rootclosed0. Samehead-allcompletion Delta>=124, p448withdrawn. GlobalCODE_PREPonly selected; SOURCEpublication ready, noC069/data.",
-    "next_action": "Publish/verifyactualfinal, then ONLY next-global-code-preparation.md: standalone fiveblock source+indepverifier+activefiniteconsumer code/protocol, AST/synthetic controls/freshreviews/rootclosure. No actualcoefficients/Gram/solve before NEWcontract/gates.",
+    "stage": "C068 spent605; directional proof+OLDrecovery rootclosed0, samehead-allcompletionpositive/p448withdrawn. SOURCE0af85f2verified; exact3childarmed. Afteractualfinal ONLYglobalCODE_PREP(unstarted), noC069/data.",
+    "next_action": "Verifyactualfinal metadatachild, then ONLY next-global-code-preparation.md: standalone fiveblock source+indepverifier+activefiniteconsumer code/protocol, isolatedsynthetic/freshreviews/rootclosure. No actualcoefficients/Gram/solve before NEWcontract/gates.",
     "stop_rule": "C068spent; fixedalpha/p448/sameheadcomplementnegative searches stopped. GlobalCODE_PREPonly/noC069/data now; no headrecheck/precision/rank/window/eta/alpha/consumer/sourcequeue. Macroreviewafter nextmath reaches4."
   },
   "support_contracts": [],
@@ -117,16 +117,16 @@
   "runtime_goal_observation": {
     "status": "active",
     "created_at_unix": 1793085111,
-    "observed_at_utc": "2026-10-31T21:05:46.132781+00:00",
-    "basis": "Rootlive sameGoal recovery; actualproof+ONEoldhelper+emittedupper action consumed. No globaldata/C069started."
+    "observed_at_utc": "2026-10-31T21:12:46.786773+00:00",
+    "basis": "Rootget_goal sameactive atSOURCE verification; currentproof/recoveryexecuted, globalCODE_PREP/data notstarted."
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-11-01-directional-remainder-admission-source.json",
+  "checkpoint": "goals/checkpoints/2026-11-01-directional-remainder-admission-sync.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
-    "commit": "ac4ccb9d8df67ffb942d9c2c979e9b17e6ea4df0",
-    "tree": "089b45913a5597f17eb1f5c17f44f58052ee9689",
-    "basis": "Actualfinal API/localsole23c/exact3/clean/checkpoint/64pub12local/ledger beforethisadmissionmutation"
+    "commit": "0af85f2d88eb618e67be939c0e9c89ba6440cc7f",
+    "tree": "52e7c8b5b33019abb61785c495263909621a114c",
+    "basis": "ActualSOURCE API/local soleac4/exact33/clean/checkpoint/49pub8local/oldledger/rawguards verified; ONE exact3 metadatachild final independently verified afterpush, not self-SHA recorded."
   },
   "completion_audit": {
     "goal": "goals/GOAL.20261027.md",
@@ -138,7 +138,7 @@
   },
   "process_inventory_observed_on": "All proof/review agents terminal; oldscalarhelper andemittedscalarreadout terminal; no newrow/probe/Gram/solve process ornamespace.",
   "publication_approval_gate": {
-    "status": "authorized-directional-admission-source-publication-ready",
+    "status": "authorized-directional-source-verified-exact3-metadata-child-armed",
     "destination": "https://github.com/lixiang90/RH-Weil",
     "visibility": "public",
     "branch": "main",
@@ -150,7 +150,7 @@
     },
     "current_scope": "Proof/source-recovery0, oldscalar8s/sameheadpositivecompletion; fixedp448withdrawn; globalCODE_PREPonly/noC069/data.",
     "verification": "reviews/2026-11-01/directional-remainder-admission/remote-sync-verification.json",
-    "metadata_child_condition": "New source commit then ONE exact3 metadata child, independentlyverifyactualfinal; no ownSHA loop."
+    "metadata_child_condition": "SOURCE0af85f2/52e7c8verified; ONE soleparentSOURCE child changes ONLY STATE, directional-sync-checkpoint, directional-remote receipt. Verify actualFINAL API/local/exact3/clean/checkpoint/49pub8local/ledger/rawguards afterpush; no ownSHA loop."
   },
   "research_board": "RESEARCH_BRANCHES.md",
   "literature_index": "literature/README.md",
