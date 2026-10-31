@@ -1,5 +1,7 @@
 # RH-Weil 文献索引
 
+2026-10-31：603/C066实际双cutoff泄漏经root7777/独立12601/不同7213/root闭，新增一数学责任。只调用既有585/589/C052/560/537输入，无新web/primary/作者后章/数值；库143/manifest223850原字节保持。[本次scope](supplements/2026-10-31-two-cutoff-leakage-scope.md)区分whole weighted-Q与actual k=wQ、native trial与原源范数；全文仍local-only。
+
 2026-10-31：GS零项current源公式与原附件回读经4722/6213/6220/不同4631/root旧0闭；仅重读GS PDF4及原附件既有范围，无新primary/download/作者后章，库143/manifest223850原字节保持。[实读范围](supplements/2026-10-31-gs-packet-original-note-scope.md)区别常数current坐标费与未付算术pair/height；本次不增数学轮或合同。
 
 2026-10-31：库142→143，新增Garcia–Sankaran作者更新PDF90p/838416bytes/SHA27b36f4d…34625，本地ignored，更新library日期。只核PDF1及§1.1主结果PDF2–6，source8109/不同6749/root6180闭为citedGreen/星积/localARCH设施，SOURCE0无新经典源桥或数学轮。κ通知、退化次数、正文proof及2026世界进展各守未消费范围。[准确scope](supplements/2026-10-31-gs-main-results-source-scope.md)。

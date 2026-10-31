@@ -1,0 +1,40 @@
+{
+  "schema": "rh-weil-core-admission-execution-v1",
+  "date": "2026-10-31",
+  "observed_at_utc": "2026-10-31T12:04:07.348867+00:00",
+  "runtime_goal_created_at": 1793085111,
+  "baseline": "0c4f3a3eb609bb1d9564138fa4a35701f05605f2",
+  "previous_turn_classification": "progress: actualGSzero current formula+originalnote rootclosed/published withchangedstopchoice; 0newmath, notGoalcompletion",
+  "prior_publication": {
+    "final": "2887385e72882d75bd3221163adec8a0fe7baec7",
+    "tree": "495ab8ed27cb0dd877429e64933e9f9345764b50",
+    "sole_parent": "631d373d63dce548c1db5a7542c813449ba685c5",
+    "basis": "Thisturn independentGitHubref/commit/tree+localHEAD/parent/exact3/clean/checkpoint/18pins+2ignoredsources verified beforemutation"
+  },
+  "candidate": "ONE actualtwo-cutoff energy E_X=||(I-Pi_X2) A_r Pi_X||HS²; Pi fullGram, originalphysicalsource. SAMEprojection isexact591 andnotreadmitted. No newpaper/parameters/counter/contract pregrant.",
+  "guards": {
+    "goals/GOAL.20261027.md": {
+      "bytes": 9679,
+      "sha256": "b3d2acb1f962d793f45d79b6a4e67fb87dd072cd4752108a9298204b4cefa1de"
+    },
+    "goals/review-cadence.json": {
+      "bytes": 6813,
+      "sha256": "0bd41adf77ca1d22895c9a42e808ef3e627c929bc639cce0f782ceaee4aa2041"
+    },
+    "literature/manifest.json": {
+      "bytes": 223850,
+      "sha256": "3223cffd0205b9a1f8660445ac33d0f3cec13b3bd1fa5e7799ed8abfb2746d42"
+    }
+  },
+  "cadence": "0/history66/latest602/formal21 unchanged atadmission",
+  "agents": [
+    {
+      "handle": "/root/two_projection_domain_admission",
+      "output": "domain-admission.md"
+    },
+    {
+      "handle": "/root/two_projection_overlap_admission",
+      "output": "overlap-admission.md"
+    }
+  ]
+}
