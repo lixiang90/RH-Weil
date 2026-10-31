@@ -40,8 +40,8 @@
     "settled_iterations": [
       "notes/606-global-joint-first-admission-technical-stop.md"
     ],
-    "stage": "606technicalstop+macro22/root/independentreviews closed; sourcepublicationbindings checked. No actualpreflight/science. Publishnow.",
-    "next_action": "Commit/pushsource thenverifyAPI/blob/checkpoint/57-ishpublic8local9code, thenone exact4metadatachild andverifyactualFINAL. Onlyafterthat ONEinert host-host120s64KiB/20s gate.",
+    "stage": "606technicalstop+formal22closed; SOURCE8f3e306/1263e15 verifiedAPI+independent55public8local9code. Oneexact4metadatachild condition nowarmed. No preflight/science.",
+    "next_action": "Require actualFINAL API/local/soleSOURCE/exact4/clean/checkpoint55public8local9code condition, then ONLYone inert host-host120s64KiB20slatency gate; noC069retry/C070/science.",
     "stop_rule": "Onewhole7200s64MiB source+indep3600/48 finite+indep3600/16, noreset/C068reuse. Admittedterminalfailure consumesSAMEone responsibility; no source0/retry/parameter/consumerqueue. Nextsettledmath reaches4=>macrofirst."
   },
   "support_contracts": [],
@@ -117,16 +117,16 @@
   "runtime_goal_observation": {
     "status": "active",
     "created_at_unix": 1793085111,
-    "observed_at_utc": "2026-10-31T23:07:28.714293+00:00",
-    "basis": "Rootactualget_goal SAME1793085111 active aftertechnicalterminal; nextmandatorymacro, not science."
+    "observed_at_utc": "2026-10-31T23:16:37.929968+00:00",
+    "basis": "RootactualsameGoalactive observation beforemetadatachild;606/macro22closed, onlyinertgateafteractualfinalverification."
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-11-01-global-joint-execution-source.json",
+  "checkpoint": "goals/checkpoints/2026-11-01-global-joint-execution-sync.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
-    "commit": "0f21af3ca61de81f589c206b797cf88e96460a13",
-    "tree": "52ccaedf10dc0d9567bb6845eeb3f142ebdf661f",
-    "basis": "Actualfinal0f21 API/localsoleb841/exact3/cleaninitial/checkpoint/93pub9local/9code verified beforeC069creation."
+    "commit": "8f3e306db2274366293b2326164fdbddea321a17",
+    "tree": "1263e15c815dc7329dc0a12ef13d13a5c5d4e245",
+    "basis": "ActualSOURCE APIref/commit/tree/soleparent +independent55public8local9code/23checkpoint/rawguards/sourceclean. Finalmetadatachildrequires exact4condition; recoveractualFINAL ratherthan treatsourceSHA asfinal."
   },
   "completion_audit": {
     "goal": "goals/GOAL.20261027.md",
@@ -138,7 +138,7 @@
   },
   "process_inventory_observed_on": "SAMEexec63808 terminal1/nochild; hostobserver24788 absentafterexit. Allmatchingreviewsdelivered/rootconsumed. No scientificsession pending; preflight NOT executed.",
   "publication_approval_gate": {
-    "status": "authorized-606-macro22-source-ready-for-main-sync",
+    "status": "source-verified-exact4-metadata-child-condition-armed",
     "destination": "https://github.com/lixiang90/RH-Weil",
     "visibility": "public",
     "branch": "main",
