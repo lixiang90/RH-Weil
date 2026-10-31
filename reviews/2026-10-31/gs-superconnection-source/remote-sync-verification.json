@@ -3,10 +3,22 @@
   "date": "2026-10-31",
   "repository": "https://github.com/lixiang90/RH-Weil",
   "branch": "main",
-  "status": "root-closed-source-publication-pending",
+  "status": "source-verified-metadata-child-condition-armed",
   "source_parent": "ce7d4a8aa3749906973326c947d54522ef281392",
   "scope": "ONEGS1.1newcitedfacilitySOURCE0 root6180/source8109/different6749/14pubpins+ignoredPDF838416. Library142->143 metadataonly; originalcadenceheld/no keymath/Goalcompletion.",
-  "source_verification": null,
+  "source_verification": {
+    "commit": "2cf79cd565f3fd9fc5b5663a7e9cfb8af19037bb",
+    "tree": "d96a4e27564803a8abe36a6136d857da7b72ce47",
+    "sole_parent": "ce7d4a8aa3749906973326c947d54522ef281392",
+    "source_changed_paths": 18,
+    "observed_at_utc": "2026-10-31T11:13:22.384636+00:00",
+    "basis": "IndependentconnectedGitHub actualmainref/gitcommit/gittree matchedlocalHEAD/tree/soleparent; exact18staged thenall18committedraw/clean/checkpoint/14pubpins+localignoredPDF838416/guards PASS.",
+    "local_primary": "90p838416bytes/SHA27b36f4de90f66a9bd28dae2054f43ec5f89ad62cee27e767653c69b39434625 actuallocalraw/ignoreverified; metadataonlypublic.",
+    "cadence_literature": "Originalcadence6813rawSHA0bd41adf77ca1d22895c9a42e808ef3e627c929bc639cce0f782ceaee4aa2041 held0/history66/latest602/formal21; library143manifest223850rawSHA3223cffd0205b9a1f8660445ac33d0f3cec13b3bd1fa5e7799ed8abfb2746d42. First142entriesunchanged; onlynewentry+last_updated_on.",
+    "new_math_iterations": 0,
+    "new_key_or_whole_improvement": false,
+    "goal_gates": "all3open/sameactive1793085111"
+  },
   "metadata_child_condition": {
     "exact_paths": [
       "goals/STATE.json",
@@ -14,6 +26,7 @@
       "reviews/2026-10-31/gs-superconnection-source/remote-sync-verification.json"
     ],
     "condition": "Afteractualsource independentref/commit/tree/localHEAD/parent/exactsourcepaths/clean/checkpoint/14rawpubpins+localignoredPDF/guards verified, ONEexact3metadatachild. Independentlyverify actualfinalref/commit/tree/localHEAD/soleparent/exact3/clean/checkpoint/14pins+PDF838416/cadence6813raw0history66latest602formal21/library143manifestfinalraw. No ownSHA/recursivepush.",
-    "on_match": "Matchingactualchild finalHEAD/publicationcomplete; sameGoalactive/C065exhausted. No2/4/5κ/ref/parameter/sourcequeue. Differentactualcoreinput/test/strongoldnetbeforemath; notexternalblock/Goalcompletion."
+    "on_match": "Matchingactualchild finalHEAD/publicationcomplete; sameGoalactive/C065exhausted. No2/4/5κ/ref/parameter/sourcequeue. Differentactualcoreinput/test/strongoldnetbeforemath; notexternalblock/Goalcompletion.",
+    "parent": "2cf79cd565f3fd9fc5b5663a7e9cfb8af19037bb"
   }
 }
