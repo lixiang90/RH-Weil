@@ -2496,3 +2496,14 @@ Concretechoice: M spectrum guaranteesDM>=mI+(32/209)FF*. FixedYoungalpha122/d>7/
 NextONLYCODE_PREP ONEnewstagedwholeprerequisitedriver+fullprotocol pernext-code-preparation.md. Hprestrictnegative stopsTHISsufficientrecipe forALLvalidlaterGram, notCret/Lret/Q; positiveonlynecessary/notseparateheadmarginround. Newwholebudget/exactcode/pins/source-and-finitefees/fresh/rootfreezebeforeANYrun. NoC067reuse/C068605now, noalpha/precision/direction/rank/window/eta/route/source successors. Ifcodecannotcloseconcreteinput/test/net/budget, stopwithoutblindGram.
 
 0newmath/solecadence7036 stays2/history68/latest604/formal21/noformal22/reset. Goal9679/library143manifest223850 unchanged/no newexternaltext. Localfee/consumerdefinitionadmissionclosed; actualCX/Z/wholemargin,keyprincipal/sections/mixed/corecross/growingXi/whole4/5negative-inertiaUPPER andall3Goalgatesopen/sameactive. Publishaccurateproof-onlyscopeandverifyactualfinalHEAD; preparation/pushdonotcompleteGoal.
+
+
+## D20261101D - Close fixed whole-prefix code preparation; admit the whole responsibility next
+
+2026-11-01. Same Goal1793085111/baseline0c4f. Final driver38053/c4a470 and math6789/protocol6783 reviews, protocol20837/spec6909, root AST-only18193 synthetic checks consumed. Fraction numerator/denominator width guard and separate bounded failure diagnostics repaired before any actual attempt. No source/matrix/Gram/inverse/LDL/sign run, C068, numerical freeze or private OUTER. Historical67c0/18168 and NOTPASSED findings retain their scope.
+
+This closes preparation, not whole sign or a new mathematical bound. Hpre strict negative would reject only the selected sufficient whole recipe for all valid later Gram; positive is necessary/partial only. Original f-du/weighted r norm and globalONE witness preserved. CX/Z/finite solve/whole sign, principal/sections/mixed/growingXi, whole4/5 negative-inertiaUPPER/all3 Goal gates remain open. Strong old226/U216/head202 remains old.
+
+Next after actual-final publication verification: root formal admission of ONE NEW C068 whole responsibility and a separate exactcode/source/contract/review/protocol gate+freeze, then ONLY600s/4MiB stage01 with externally observed full lifetime/output/checker charges. Follow reviews/2026-11-01/retained-tail-whole-prefix/next-whole-execution-admission.md. Stage02/03 unimplemented/unapproved; no auto dispatch or reset/transfer, no alpha/precision/direction/rank/window/eta/route/source successor. Negative or positive prefix changes the local candidate gate, not the long completion gate.
+
+Preparation0math; solecadence7036 stays2/history68/latest604/formal21. Goal9679/library143manifest223850 unchanged; no new literature/macro22/reset. Publish actual scope, keep same runtime active.

@@ -1,0 +1,39 @@
+{
+  "status": "PASS",
+  "codeSHA256": "c4a470a4e7aa887f51d3b37edc200cc0c9a129534d3d0a46ab3a6f5e34b25c4b",
+  "checks": 18193,
+  "pureASTSelectedNames": [
+    "IV",
+    "IntegerWidthError",
+    "checked",
+    "evaluate_prefix",
+    "frac",
+    "integer_width_diagnostic",
+    "nearest",
+    "need",
+    "prerequisite_ldl",
+    "sole_prefix_witness",
+    "up"
+  ],
+  "driverImported": false,
+  "freezeOrMainCalled": false,
+  "actualResearchSourcesRead": false,
+  "actualResearchMatrixComputed": false,
+  "syntheticDimension": 3,
+  "lambdaExact": [
+    "5070602400912917605986812821761",
+    "26959946667150639794667015087019630673637144422540572481103610249216"
+  ],
+  "scopeControls": [
+    "Chat positive with Hpre negative",
+    "minus lambda without extra source EPS",
+    "both original parity metrics",
+    "zero pivot unresolved",
+    "Fraction numerator and denominator width limits; bounded signed overflow evidence",
+    "ordinary unresolved continues only other prescheduled sector",
+    "global one proposal and failed proposal immediate terminal"
+  ],
+  "wholeQCertified": false,
+  "formalC068Admitted": false,
+  "newMathematicalIterations": 0
+}

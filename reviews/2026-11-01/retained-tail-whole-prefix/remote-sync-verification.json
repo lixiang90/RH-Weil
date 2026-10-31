@@ -1,0 +1,43 @@
+{
+  "schema": "rh-weil-code-preparation-sync-v1",
+  "status": "SOURCE_PUBLICATION_PENDING",
+  "repository": "https://github.com/lixiang90/RH-Weil",
+  "branch": "main",
+  "previous_verified_head": "b9c6478a289a1042ced94c88b1dd59c5cef280e0",
+  "scope": "CODE_PREPARATION only; AST18193, no actualsource/matrix/sign,0math/noC068",
+  "source_commit": null,
+  "source_tree": null,
+  "source_changed_paths": [
+    ".gitattributes",
+    "RESEARCH_BRANCHES.md",
+    "goals/DECISIONS.md",
+    "goals/MACRO_FRONTIER.md",
+    "goals/README.md",
+    "goals/STATE.json",
+    "goals/checkpoints/2026-11-01-retained-tail-whole-prefix-source.json",
+    "goals/reviews/2026-11-01-retained-tail-whole-prefix-preparation.md",
+    "literature/README.md",
+    "literature/supplements/2026-11-01-retained-tail-whole-prefix-preparation-scope.md",
+    "reviews/2026-11-01/retained-tail-whole-prefix/check-prefix-arithmetic.py",
+    "reviews/2026-11-01/retained-tail-whole-prefix/code-math-fresh.md",
+    "reviews/2026-11-01/retained-tail-whole-prefix/code-protocol-fresh.md",
+    "reviews/2026-11-01/retained-tail-whole-prefix/execution-start.json",
+    "reviews/2026-11-01/retained-tail-whole-prefix/next-whole-execution-admission.md",
+    "reviews/2026-11-01/retained-tail-whole-prefix/prefix-arithmetic-check-final.json",
+    "reviews/2026-11-01/retained-tail-whole-prefix/prefix-arithmetic-check-result.json",
+    "reviews/2026-11-01/retained-tail-whole-prefix/prefix-design.json",
+    "reviews/2026-11-01/retained-tail-whole-prefix/prefix-math-admission.md",
+    "reviews/2026-11-01/retained-tail-whole-prefix/remote-sync-verification.json",
+    "reviews/2026-11-01/retained-tail-whole-prefix/root-consumed.md",
+    "reviews/2026-11-01/retained-tail-whole-prefix/root-consumption-scope.json",
+    "reviews/2026-11-01/retained-tail-whole-prefix/staged-whole-protocol.md",
+    "reviews/2026-11-01/retained-tail-whole-prefix/whole-prerequisite.py"
+  ],
+  "metadata_child_exact_paths": [
+    "goals/STATE.json",
+    "goals/checkpoints/2026-11-01-retained-tail-whole-prefix-sync.json",
+    "reviews/2026-11-01/retained-tail-whole-prefix/remote-sync-verification.json"
+  ],
+  "metadata_child_condition": "ONE child of actually verified source changing ONLY exact3 paths; verify actual final ref/commit/tree/local/checkpoint/bindings; no ownSHA loop",
+  "source_checks": null
+}

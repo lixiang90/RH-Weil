@@ -1,5 +1,7 @@
 # RH-Weil 文献索引
 
+2026-11-01：whole必要prefix代码准备及数学/协议审已root消费，隔离AST合成18193检查通过；实际源/矩阵/Gram/符号未运行，0数学。无新web/primary/作者章/PDF/下载，库143/manifest223850原字节不变。[使用范围](supplements/2026-11-01-retained-tail-whole-prefix-preparation-scope.md)区分旧源依赖、合成测试与尚未执行的whole判定；全文/原packets继续local-only。
+
 2026-11-01：whole proof-only比较/旧费用恢复经独立审查root闭；没有source/matrix/Gram/逆/符号运行，0新数学。无新web/primary/PDF/下载，库143/manifest223850不变。[使用范围](supplements/2026-11-01-retained-tail-whole-admission-scope.md)区别原已付TRUE-source依赖、model CX/Z与未付whole符号；只授代码准备，全文/原packets仍local-only。
 
 2026-11-01：604/C067新retained-tail严格head及同一448维复源完整Q正性已root消费，ONE数学；wholeH/成长门未付。无新web/primary/作者章/PDF/下载，库143和manifest223850不变。[使用范围](supplements/2026-11-01-retained-tail-signed-head-scope.md)区分内部源包local-only与公开本仓代码/metadata/896pivot证书；r/f与closed反标签限定明确。

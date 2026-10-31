@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "codeSHA256": "67c0a0ce56f3b659e403f554d016497514b23eefaf59ccdad236f819d9e5be34",
+  "checks": 18168,
+  "pureASTSelectedNames": [
+    "IV",
+    "checked",
+    "evaluate_prefix",
+    "frac",
+    "nearest",
+    "need",
+    "prerequisite_ldl",
+    "sole_prefix_witness",
+    "up"
+  ],
+  "driverImported": false,
+  "freezeOrMainCalled": false,
+  "actualResearchSourcesRead": false,
+  "actualResearchMatrixComputed": false,
+  "syntheticDimension": 3,
+  "lambdaExact": [
+    "5070602400912917605986812821761",
+    "26959946667150639794667015087019630673637144422540572481103610249216"
+  ],
+  "scopeControls": [
+    "Chat positive with Hpre negative",
+    "minus lambda without extra source EPS",
+    "both original parity metrics",
+    "zero pivot unresolved",
+    "ordinary unresolved continues only other prescheduled sector",
+    "global one proposal and failed proposal immediate terminal"
+  ],
+  "wholeQCertified": false,
+  "formalC068Admitted": false,
+  "newMathematicalIterations": 0
+}

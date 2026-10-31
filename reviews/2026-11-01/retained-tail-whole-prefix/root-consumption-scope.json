@@ -1,0 +1,495 @@
+{
+  "schema": "rh-weil-whole-prefix-code-preparation-root-v1",
+  "date": "2026-11-01",
+  "runtimeGoalCreatedAt": 1793085111,
+  "baseline": "0c4f3a3eb609bb1d9564138fa4a35701f05605f2",
+  "status": "ROOT_CODE_PREPARATION_CLOSED_NO_NUMERICAL_EXECUTION",
+  "root_report": "reviews/2026-11-01/retained-tail-whole-prefix/root-consumed.md",
+  "executed_action": {
+    "driverImported": false,
+    "mainOrFreezeCalled": false,
+    "actualSourceArraysParsed": false,
+    "actualResearchMatricesComputed": false,
+    "opaqueOldFileHashesAuthenticated": true,
+    "ASTSyntheticChecks": 18193,
+    "syntheticDimension": 3,
+    "actualRunDirectoryExists": false,
+    "formalC068": false,
+    "codeSHA256": "c4a470a4e7aa887f51d3b37edc200cc0c9a129534d3d0a46ab3a6f5e34b25c4b",
+    "codeBytes": 38053,
+    "historicalSyntheticReceipt": "18168 on67c0; preserved, not final validation"
+  },
+  "premise_closure": {
+    "objectNormDomain": "H=f-du complex L2 fixed9/8; raw E448 Djj9/[4(2j+1)]; physical r=exp(u/2)f with weighted r norm; old zero-extension form/operator domains",
+    "sourceGrowthQuantifiers": "SAME accepted center/head source E448->whole H, not all-H source R; no growing-I/Xi transport",
+    "paidDependencies": "Original Gamma/contact/allpp/bothpole/source226/head224; true-enclosure/native proof pins; old226/U216/head202 already implied, not new results",
+    "errors": "Fixed alpha122+beta224+nu216 already inside lambda; no extra EPS; P1024 exact directed finite algorithm reviewed, not actually run",
+    "coefficientDirection": "Raw B0=D^-1(Graw+D) invertible; Ppre=B0*(Chat_raw-lambda D)B0; a=B0z; n=a*Da; qpre=qK-lambda*n",
+    "coverageCoupling": "Both real224 sectors cover complex448 head only; Jbar PSD gives necessary Hpre for all valid future Gram; actualCXZ/whole consumer/sign unpaid",
+    "strongestOldNet": "No new whole bound/theorem; preparation/test admission closes only local code gap, old604/allfinite202 and whole4/5 negative-inertiaUPPER remain",
+    "remainingGoalGates": "All3 open; principal/sections/mixed/signed corecross/growingXi unchanged"
+  },
+  "diagnosticClosure": {
+    "normalSavedIntegerLimitBits": 16384,
+    "exactFractionPartsChecked": true,
+    "diagnosticOnlySignedHexCapBits": 65536,
+    "largerValueOmittedExplicitly": true,
+    "noSignFromDiagnostics": true,
+    "emergencyRecordLessThanBytes": 131072
+  },
+  "admission": {
+    "numericalExecutionAuthorized": false,
+    "laterStagesAuthorized": false,
+    "nextAction": "reviews/2026-11-01/retained-tail-whole-prefix/next-whole-execution-admission.md",
+    "newWholeContractRequired": true,
+    "externalFullProcessAcceptanceRequired": true,
+    "stageSeconds": [
+      600,
+      3000,
+      3600
+    ],
+    "stageBytes": [
+      4194304,
+      50331648,
+      12582912
+    ],
+    "aggregateSeconds": 7200,
+    "aggregateBytes": 67108864,
+    "nontransferable": true
+  },
+  "classification": {
+    "newMathematicalIterations": 0,
+    "soleCadence": "unchanged2/history68/latest604/formal21",
+    "localPreparationBottleneckChanged": true,
+    "actualWholeCouplingBottleneckChanged": false,
+    "GoalActive": true,
+    "GoalComplete": false,
+    "newLiterature": 0
+  },
+  "sourceMathPinsAuthenticated": [
+    {
+      "path": "literature/local/2026-10-29-weil-9-8/pilot/run-01/certificates/source-matrices.json",
+      "bytes": 23377672,
+      "sha256": "a5486fea38c3c8f91dcf4bb77c7677e734efe2ac9cbf59ddabc4674739fdb2f2"
+    },
+    {
+      "path": "literature/local/2026-10-29-weil-9-8/pilot/run-01/certificates/tail-columns.json",
+      "bytes": 296046,
+      "sha256": "d714fa8d717a8f39d8b3b57cc6292e3f14844041b83802cf57ee47aa03c65a0e"
+    },
+    {
+      "path": "literature/local/2026-10-31-retained-tail-source/run-01/finite-columns.jsonl",
+      "bytes": 73598411,
+      "sha256": "d841d307d2b22367570e594c1bc9e3b64c8a4ffef88691382acf5d6fbeeaf080"
+    },
+    {
+      "path": "literature/local/2026-10-31-retained-tail-center-certificate/run-01/result.json",
+      "bytes": 70183,
+      "sha256": "3eb9e77d71f92ead44775bfbafb7499a7ff0fd2e5bc81ac00095332a4f912739"
+    },
+    {
+      "path": "reviews/2026-10-31/retained-tail-center-admission/root-consumption-scope.json",
+      "bytes": 20127,
+      "sha256": "6e0df0fed60465622f8b95551e4e361203a8de9b199bf167c38709caf4caaac3"
+    },
+    {
+      "path": "reviews/2026-10-29/weil-9-8-admission/source-stage-verification.json",
+      "bytes": 14179,
+      "sha256": "dbb31208d0568feac7c9adff27722d5b55d08381002d23e0a4e35f150b1472c1"
+    },
+    {
+      "path": "reviews/2026-10-29/weil-9-8-admission/full-weil-analytic-transfer-fresh.md",
+      "bytes": 13990,
+      "sha256": "0cdb4173b7664b73b47fd8789c0629f0535a208ad9af2a4af8eb86422c64a466"
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-whole-admission/selected-whole-certificate.md",
+      "bytes": 9364,
+      "sha256": "0328afa478fce4f73873776dc22e702f849233468f3afad09fc2d078a0a98ea7"
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-whole-admission/candidate-preparation.json",
+      "bytes": 2674,
+      "sha256": "d9eb014c9769a9f00eeb09b66aeb043a7ff7415fb495f15d63d4fa9abf6f6950"
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-whole-admission/root-consumed.md",
+      "bytes": 5245,
+      "sha256": "577685f4ea977ee686f9e6c09fa16527184e40b6f0933a28b0c7290a45d585ee"
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-whole-admission/root-consumption-scope.json",
+      "bytes": 17751,
+      "sha256": "07884950934555087e3a1efbdc9c0d529c302f852dfb47efd12e4344c93057de"
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-whole-admission/selected-target-fresh.md",
+      "bytes": 5975,
+      "sha256": "b37f3beea0eb6cbee29b2d57ee5dbf9444eb3ecf297ae6c42fb75703922b2519"
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-whole-admission/old-fee-recovery.json",
+      "bytes": 2341,
+      "sha256": "1b07b329e390089f34d86777ecbf6b257b40ab3636a7123fe08023317c98c344"
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-whole-admission/old-fee-recovery-fresh.md",
+      "bytes": 4974,
+      "sha256": "a77888cd710f41a7abba87687e2724de009dbc6500bce5eddac16b3771895fc1"
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-whole-admission/recover-paid-source-fees.py",
+      "bytes": 4358,
+      "sha256": "63e428ebeaeed3ffd3ed90d8ca54079e21d2efe2d9a1177853c8b62adc08682c"
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-whole-admission/next-code-preparation.md",
+      "bytes": 2208,
+      "sha256": "3ecd7b4753f540ee92034b14094d2f840d369c4825e7b40c4b764b3af208b3ed"
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-whole-prefix/prefix-math-admission.md",
+      "bytes": 6791,
+      "sha256": "ce8e3d793881c2849aeb19abcaaa16d3d72de5d0870f86097dd5446d63dee984"
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-signed-head/math-admission.md",
+      "bytes": 16224,
+      "sha256": "6547b2ff0e0b2a4deeeb88ae549930cb51d7a16b99a77c6053e9c30413e04c95"
+    },
+    {
+      "path": "goals/GOAL.20261027.md",
+      "bytes": 9679,
+      "sha256": "b3d2acb1f962d793f45d79b6a4e67fb87dd072cd4752108a9298204b4cefa1de"
+    },
+    {
+      "path": "goals/review-cadence.json",
+      "bytes": 7036,
+      "sha256": "712195abe82736fd5f8dbb79a7fec509f36fe3cf6222e8981adc9b286b8abdb9"
+    },
+    {
+      "path": "literature/manifest.json",
+      "bytes": 223850,
+      "sha256": "3223cffd0205b9a1f8660445ac33d0f3cec13b3bd1fa5e7799ed8abfb2746d42"
+    }
+  ],
+  "public_bindings": [
+    {
+      "path": ".gitattributes",
+      "raw_bytes": 9671,
+      "sha256_raw": "079adc6fc4e5827a88b616c49fae49eeb28756ba12c6532f92e014a6bd123f9c",
+      "sha256_lf": "69dce72d81ad0cb95cda32cb3df87e23196f8888f786f8c05cb6c8109e508d4f",
+      "raw_git_required": false
+    },
+    {
+      "path": "RESEARCH_BRANCHES.md",
+      "raw_bytes": 302226,
+      "sha256_raw": "41aac8925099869b1cf2efee9eb5940bd38accc047e2f523f0e7062b7c23d046",
+      "sha256_lf": "92514dc0e14f5a7f1848975097d903ff707022780263faaf0737c9af802b88bb",
+      "raw_git_required": false
+    },
+    {
+      "path": "goals/DECISIONS.md",
+      "raw_bytes": 371961,
+      "sha256_raw": "6bbf77565af5ee44a254374e89f3bc404fd231486caff66d42746f3d994f7741",
+      "sha256_lf": "8fd5e8531f8c1a3c7b559a74dba9c4414b59fb6b96eb5e7304fe9d355902aa7d",
+      "raw_git_required": false
+    },
+    {
+      "path": "goals/GOAL.20261027.md",
+      "raw_bytes": 9679,
+      "sha256_raw": "b3d2acb1f962d793f45d79b6a4e67fb87dd072cd4752108a9298204b4cefa1de",
+      "sha256_lf": "b3d2acb1f962d793f45d79b6a4e67fb87dd072cd4752108a9298204b4cefa1de",
+      "raw_git_required": false
+    },
+    {
+      "path": "goals/MACRO_FRONTIER.md",
+      "raw_bytes": 128286,
+      "sha256_raw": "a9346e41e46eca7ca7a5f4927479905113748446cfd1fc372e1a9f423a7c1cdb",
+      "sha256_lf": "db96c3deb8d4d47c0239cf404871732382aafd45276303e371b5302ecb2dff41",
+      "raw_git_required": false
+    },
+    {
+      "path": "goals/README.md",
+      "raw_bytes": 92213,
+      "sha256_raw": "71f31bd9493c849eaa9d7940f6e5deab3ca2e3f238a7121a25daf2fb0363c7ee",
+      "sha256_lf": "9d32b29e28f92ad78dc94841cc1902da597b0fdae3ef1744f08383bb4fdea631",
+      "raw_git_required": false
+    },
+    {
+      "path": "goals/RESEARCH_WORKFLOW.md",
+      "raw_bytes": 10509,
+      "sha256_raw": "567b238a62872505f9b29688cf4320fafb7f20b67a650c6cd7711ad56ddf95c1",
+      "sha256_lf": "567b238a62872505f9b29688cf4320fafb7f20b67a650c6cd7711ad56ddf95c1",
+      "raw_git_required": false
+    },
+    {
+      "path": "goals/contracts/C067-retained-tail-signed-head-positive.md",
+      "raw_bytes": 1965,
+      "sha256_raw": "12c0d3956020d3b2205cadd367223e16c42791b0eb3d1b1ac461aa59fe2c068b",
+      "sha256_lf": "12c0d3956020d3b2205cadd367223e16c42791b0eb3d1b1ac461aa59fe2c068b",
+      "raw_git_required": false
+    },
+    {
+      "path": "goals/review-cadence.json",
+      "raw_bytes": 7036,
+      "sha256_raw": "712195abe82736fd5f8dbb79a7fec509f36fe3cf6222e8981adc9b286b8abdb9",
+      "sha256_lf": "38a8d129b0bb4fb1b9a3298758c8e51994a0cbe08bb209278b9f2f4af67d721a",
+      "raw_git_required": false
+    },
+    {
+      "path": "goals/reviews/2026-11-01-retained-tail-whole-prefix-preparation.md",
+      "raw_bytes": 1705,
+      "sha256_raw": "09a62dae132e54fe88d75e362e1d8e3ac098fb8fe4df146ddc60b66e052b8d9d",
+      "sha256_lf": "badb3842e7b9893cdc1fd06eac07c440b7d8f93f60f0ac510d0a6280450b64fd",
+      "raw_git_required": false
+    },
+    {
+      "path": "literature/README.md",
+      "raw_bytes": 150873,
+      "sha256_raw": "9d69d1bcc8308fac4ab47bc1f50d5a9d1cb93947d72cece1ba2150a271589cd9",
+      "sha256_lf": "017b7c24380995a7c54ab206ac7fcf6288f99c8c23d2782ab77ba8580a98e6d2",
+      "raw_git_required": false
+    },
+    {
+      "path": "literature/manifest.json",
+      "raw_bytes": 223850,
+      "sha256_raw": "3223cffd0205b9a1f8660445ac33d0f3cec13b3bd1fa5e7799ed8abfb2746d42",
+      "sha256_lf": "3223cffd0205b9a1f8660445ac33d0f3cec13b3bd1fa5e7799ed8abfb2746d42",
+      "raw_git_required": false
+    },
+    {
+      "path": "literature/supplements/2026-11-01-retained-tail-whole-prefix-preparation-scope.md",
+      "raw_bytes": 1308,
+      "sha256_raw": "0b3f392ebdc8cc46d586cd979befb524e434495d780072df6b9c9e88b7fc477f",
+      "sha256_lf": "0b3f392ebdc8cc46d586cd979befb524e434495d780072df6b9c9e88b7fc477f",
+      "raw_git_required": false
+    },
+    {
+      "path": "notes/604-retained-tail-fixed448-head-positivity.md",
+      "raw_bytes": 5010,
+      "sha256_raw": "d751ae30ea053482e29d1954109871a66c89f174b7e0875d22acc6d0b335013d",
+      "sha256_lf": "d751ae30ea053482e29d1954109871a66c89f174b7e0875d22acc6d0b335013d",
+      "raw_git_required": false
+    },
+    {
+      "path": "reviews/2026-10-29/weil-9-8-admission/full-weil-analytic-transfer-fresh.md",
+      "raw_bytes": 13990,
+      "sha256_raw": "0cdb4173b7664b73b47fd8789c0629f0535a208ad9af2a4af8eb86422c64a466",
+      "sha256_lf": "0cdb4173b7664b73b47fd8789c0629f0535a208ad9af2a4af8eb86422c64a466",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-10-29/weil-9-8-admission/source-stage-verification.json",
+      "raw_bytes": 14179,
+      "sha256_raw": "dbb31208d0568feac7c9adff27722d5b55d08381002d23e0a4e35f150b1472c1",
+      "sha256_lf": "f423c3525f52a7ea71a5ae3517ea1a86daaa4b58cc22a8125fafcab6e568f00f",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-10-31/retained-tail-center-admission/root-consumption-scope.json",
+      "raw_bytes": 20127,
+      "sha256_raw": "6e0df0fed60465622f8b95551e4e361203a8de9b199bf167c38709caf4caaac3",
+      "sha256_lf": "377bf8dc98028913e7c127b39652b6a1279e697f7322972cc4d896a4b53bc145",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-signed-head/math-admission.md",
+      "raw_bytes": 16224,
+      "sha256_raw": "6547b2ff0e0b2a4deeeb88ae549930cb51d7a16b99a77c6053e9c30413e04c95",
+      "sha256_lf": "6547b2ff0e0b2a4deeeb88ae549930cb51d7a16b99a77c6053e9c30413e04c95",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-whole-admission/candidate-preparation.json",
+      "raw_bytes": 2674,
+      "sha256_raw": "d9eb014c9769a9f00eeb09b66aeb043a7ff7415fb495f15d63d4fa9abf6f6950",
+      "sha256_lf": "d9eb014c9769a9f00eeb09b66aeb043a7ff7415fb495f15d63d4fa9abf6f6950",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-whole-admission/next-code-preparation.md",
+      "raw_bytes": 2208,
+      "sha256_raw": "3ecd7b4753f540ee92034b14094d2f840d369c4825e7b40c4b764b3af208b3ed",
+      "sha256_lf": "3ecd7b4753f540ee92034b14094d2f840d369c4825e7b40c4b764b3af208b3ed",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-whole-admission/old-fee-recovery-fresh.md",
+      "raw_bytes": 4974,
+      "sha256_raw": "a77888cd710f41a7abba87687e2724de009dbc6500bce5eddac16b3771895fc1",
+      "sha256_lf": "a77888cd710f41a7abba87687e2724de009dbc6500bce5eddac16b3771895fc1",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-whole-admission/old-fee-recovery.json",
+      "raw_bytes": 2341,
+      "sha256_raw": "1b07b329e390089f34d86777ecbf6b257b40ab3636a7123fe08023317c98c344",
+      "sha256_lf": "41a8478a72c78431a6566b3a4a4c46ebf52173aa8da73c7c4745cbbd279fbbb9",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-whole-admission/recover-paid-source-fees.py",
+      "raw_bytes": 4358,
+      "sha256_raw": "63e428ebeaeed3ffd3ed90d8ca54079e21d2efe2d9a1177853c8b62adc08682c",
+      "sha256_lf": "63e428ebeaeed3ffd3ed90d8ca54079e21d2efe2d9a1177853c8b62adc08682c",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-whole-admission/root-consumed.md",
+      "raw_bytes": 5245,
+      "sha256_raw": "577685f4ea977ee686f9e6c09fa16527184e40b6f0933a28b0c7290a45d585ee",
+      "sha256_lf": "577685f4ea977ee686f9e6c09fa16527184e40b6f0933a28b0c7290a45d585ee",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-whole-admission/root-consumption-scope.json",
+      "raw_bytes": 17751,
+      "sha256_raw": "07884950934555087e3a1efbdc9c0d529c302f852dfb47efd12e4344c93057de",
+      "sha256_lf": "8d154e4b9ae3b827df43bfbca37d9121f20281143b057442a174fa4b28471634",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-whole-admission/selected-target-fresh.md",
+      "raw_bytes": 5975,
+      "sha256_raw": "b37f3beea0eb6cbee29b2d57ee5dbf9444eb3ecf297ae6c42fb75703922b2519",
+      "sha256_lf": "b37f3beea0eb6cbee29b2d57ee5dbf9444eb3ecf297ae6c42fb75703922b2519",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-whole-admission/selected-whole-certificate.md",
+      "raw_bytes": 9364,
+      "sha256_raw": "0328afa478fce4f73873776dc22e702f849233468f3afad09fc2d078a0a98ea7",
+      "sha256_lf": "0328afa478fce4f73873776dc22e702f849233468f3afad09fc2d078a0a98ea7",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-whole-prefix/check-prefix-arithmetic.py",
+      "raw_bytes": 9317,
+      "sha256_raw": "1d18bbd44eadcd3c33a7c868fe26c1113bc2282542618b77c46584d4cdfe2c53",
+      "sha256_lf": "1d18bbd44eadcd3c33a7c868fe26c1113bc2282542618b77c46584d4cdfe2c53",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-whole-prefix/code-math-fresh.md",
+      "raw_bytes": 6789,
+      "sha256_raw": "398e31ef38a272eff1d7ff7cc20f56e5097fdb0a59524d75fad57a6f504e8a1e",
+      "sha256_lf": "398e31ef38a272eff1d7ff7cc20f56e5097fdb0a59524d75fad57a6f504e8a1e",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-whole-prefix/code-protocol-fresh.md",
+      "raw_bytes": 6783,
+      "sha256_raw": "170867bb6d1de4e0609ff852b7a61c0fe54bad87dd7226131ad70214a822426f",
+      "sha256_lf": "170867bb6d1de4e0609ff852b7a61c0fe54bad87dd7226131ad70214a822426f",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-whole-prefix/execution-start.json",
+      "raw_bytes": 1091,
+      "sha256_raw": "6d4e2b30779a2acaadffe5bcf7202bdddcccedb4de30ed9cf08e8e2056c761b0",
+      "sha256_lf": "6d4e2b30779a2acaadffe5bcf7202bdddcccedb4de30ed9cf08e8e2056c761b0",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-whole-prefix/next-whole-execution-admission.md",
+      "raw_bytes": 5331,
+      "sha256_raw": "8a684c3e3807c628650b86c7b7a9a5d36abd9a923dac23c27bcf13e76fbdf659",
+      "sha256_lf": "8a684c3e3807c628650b86c7b7a9a5d36abd9a923dac23c27bcf13e76fbdf659",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-whole-prefix/prefix-arithmetic-check-final.json",
+      "raw_bytes": 1195,
+      "sha256_raw": "d30cacc1c01ad15d71c457f2ec2e0fbb9044ef3d5e0e711eb4fbd4f7208bbe28",
+      "sha256_lf": "4c6804c9c795dc86073b8feee3e4ced22b0e5a6271d83d7f5ddce9e84922a5db",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-whole-prefix/prefix-arithmetic-check-result.json",
+      "raw_bytes": 1046,
+      "sha256_raw": "57d79e1ed076db80285aea8c04f22c843648c1915352c7b96f272d15163bea18",
+      "sha256_lf": "db6f3204c0d4f770b0c704eac5021713e77695a878615bbcbd79e8def35d1d2d",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-whole-prefix/prefix-design.json",
+      "raw_bytes": 6909,
+      "sha256_raw": "b8af33f8c0e77df4328d59409afadc377067a23f4a6dc2f4c1eb7cee53d55009",
+      "sha256_lf": "b8af33f8c0e77df4328d59409afadc377067a23f4a6dc2f4c1eb7cee53d55009",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-whole-prefix/prefix-math-admission.md",
+      "raw_bytes": 6791,
+      "sha256_raw": "ce8e3d793881c2849aeb19abcaaa16d3d72de5d0870f86097dd5446d63dee984",
+      "sha256_lf": "ce8e3d793881c2849aeb19abcaaa16d3d72de5d0870f86097dd5446d63dee984",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-whole-prefix/root-consumed.md",
+      "raw_bytes": 6051,
+      "sha256_raw": "0ba1b22ca7f7b6689eb19f79d7f6bc21dd37fb915dec49a70d06e68842b28437",
+      "sha256_lf": "8694bbc103c15bf0b044f05ff6b6ac35434ab60a5d1b81de713f2dc82af8aa21",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-whole-prefix/staged-whole-protocol.md",
+      "raw_bytes": 20837,
+      "sha256_raw": "3a4c11e8f39d9e5a00af8050afe31df67a0173bae9b90e6e4a2cc877ba25a316",
+      "sha256_lf": "3a4c11e8f39d9e5a00af8050afe31df67a0173bae9b90e6e4a2cc877ba25a316",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-whole-prefix/whole-prerequisite.py",
+      "raw_bytes": 38053,
+      "sha256_raw": "c4a470a4e7aa887f51d3b37edc200cc0c9a129534d3d0a46ab3a6f5e34b25c4b",
+      "sha256_lf": "c4a470a4e7aa887f51d3b37edc200cc0c9a129534d3d0a46ab3a6f5e34b25c4b",
+      "raw_git_required": true
+    }
+  ],
+  "local_bindings": [
+    {
+      "path": "D:/codex-build/RH-Weil/literature/local/2026-11-01-retained-tail-signed-head/run-01/pivots.jsonl",
+      "bytes": 636836,
+      "sha256": "0198a20e06349bcc8f2a53a9a38e35d44bd79d45382a163d4b5c2f13d2ee5366",
+      "ignored": true
+    },
+    {
+      "path": "D:/codex-build/RH-Weil/literature/local/2026-11-01-retained-tail-signed-head/run-01/progress.json",
+      "bytes": 429,
+      "sha256": "74a8506153617c6fd774fdd547f950d47e8d9fc4c62bba7c75f88d76a5110a3e",
+      "ignored": true
+    },
+    {
+      "path": "D:/codex-build/RH-Weil/literature/local/2026-11-01-retained-tail-signed-head/run-01/result.json",
+      "bytes": 5676,
+      "sha256": "ba31ccef92293cdc1f308ea05bdd507b5d2fb4695cbfab6c341aa74718d4ea4e",
+      "ignored": true
+    },
+    {
+      "path": "literature/local/2026-10-29-weil-9-8/pilot/run-01/certificates/source-matrices.json",
+      "bytes": 23377672,
+      "sha256": "a5486fea38c3c8f91dcf4bb77c7677e734efe2ac9cbf59ddabc4674739fdb2f2",
+      "ignored": true
+    },
+    {
+      "path": "literature/local/2026-10-29-weil-9-8/pilot/run-01/certificates/tail-columns.json",
+      "bytes": 296046,
+      "sha256": "d714fa8d717a8f39d8b3b57cc6292e3f14844041b83802cf57ee47aa03c65a0e",
+      "ignored": true
+    },
+    {
+      "path": "literature/local/2026-10-31-retained-tail-center-certificate/run-01/result.json",
+      "bytes": 70183,
+      "sha256": "3eb9e77d71f92ead44775bfbafb7499a7ff0fd2e5bc81ac00095332a4f912739",
+      "ignored": true
+    },
+    {
+      "path": "literature/local/2026-10-31-retained-tail-source/run-01/finite-columns.jsonl",
+      "bytes": 73598411,
+      "sha256": "d841d307d2b22367570e594c1bc9e3b64c8a4ffef88691382acf5d6fbeeaf080",
+      "ignored": true
+    }
+  ]
+}
