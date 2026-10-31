@@ -1,5 +1,7 @@
 # RH-Weil 文献索引
 
+2026-10-31：库142→143，新增Garcia–Sankaran作者更新PDF90p/838416bytes/SHA27b36f4d…34625，本地ignored，更新library日期。只核PDF1及§1.1主结果PDF2–6，source8109/不同6749/root6180闭为citedGreen/星积/localARCH设施，SOURCE0无新经典源桥或数学轮。κ通知、退化次数、正文proof及2026世界进展各守未消费范围。[准确scope](supplements/2026-10-31-gs-main-results-source-scope.md)。
+
 2026-10-31：global-theta接口比较仅用既有项目范围，4440/7967/不同4129/root类型/强旧0闭；无新web/作者PDF页/外部章/下载或书目，库142/manifest221943原字节不动。[实读scope](supplements/2026-10-31-global-theta-interface-old-scope.md)区分三域、exact与closure、rawmean联合费，不解冻overall算术7.4，不增数学轮。
 
 2026-10-31：native relative-K单位公式经5802/14394/读出限定1095/不同7132/root标准强旧0止。仅已有519/520、574/575和标准卷积指数/relative exactness，无新paper/作者章/PDF/下载；库142、manifest221943原字节保持。[准确范围](supplements/2026-10-31-native-relative-k-old-scope.md)区别native与额外entire ambient，不升级任意jet/norm/metric结论。

@@ -1,0 +1,31 @@
+{
+  "schema": "rh-weil-specified-green-source-gate-v1",
+  "date": "2026-10-31",
+  "runtime_goal_created_at": 1793085111,
+  "previous_turn_classification": "progress: actualglobaltheta-source comparison/strongoldscope/decision/libraryscope/publication,0newmath",
+  "prior_final": {
+    "commit": "ce7d4a8aa3749906973326c947d54522ef281392",
+    "tree": "3cbc99cf4af19cafdaa81dad095420e34cfb60f9",
+    "parent": "ea642f7516be573b9eed43e1e15852a04bdbc88e",
+    "verification": "Independentactualref/commit/tree/localHEAD/exact3/clean/checkpoint/16pubpins/guards reverifiedbeforemutation, no repush"
+  },
+  "actual_input": "ONEnewprimary Garcia-Sankaran authorcorrected gfaswPDF,90p/838416/SHA27b36f4d...34625. PDF1metadata/TOC/authorcorrectionnotice read, bodyNOTyetrootconsumed. Published2019/relatedarXiv1808.09313v1 distinctfromcurrentauthorbytes; compilationmetadata2020notnewpublicationdate.",
+  "specified_scope": "ONE§1.1mainresults PDF2-6/necessarycontinuationbefore1.2 ifneeded; Theorems1.1.1/1.1.2andtheirdefinitions. Noauthorproof2/4/5orκ5.2.11/citationexpansion.",
+  "test": "DoesactualhigherdimGreen/starproductconstruction give new r->sameobject principal/mixed map orindependentnorm/sign, vslocalarchheightonly? KeepSchwartzinputs,Greenforms/cycles/class/current/modexact roles, fullheightfinitefees andoriginaldu/ALLsourcecoverage distinct. Ifonlynewfacilitybutunpaidtargetbridge, source0stop/noC066603; no metadata-as-proof.",
+  "conditional_net": "Actualindependentglobalmixed/principal/capacity input canchangecorechoice; broaderGreenidentity alone mayusefulcitedfacilitybutnotnewGoalcompletion. Compareold582globalGreen/CDM§8 exactly, notKoszulkeyword.",
+  "guard_before": {
+    "goals/GOAL.20261027.md": {
+      "bytes": 9679,
+      "sha256": "b3d2acb1f962d793f45d79b6a4e67fb87dd072cd4752108a9298204b4cefa1de"
+    },
+    "goals/review-cadence.json": {
+      "bytes": 6813,
+      "sha256": "0bd41adf77ca1d22895c9a42e808ef3e627c929bc639cce0f782ceaee4aa2041"
+    },
+    "literature/manifest.json": {
+      "bytes": 221943,
+      "sha256": "8d0e293f87c7828d1d6d733b5c967fd3793b06759a730ce26ab5115ed551aac1"
+    }
+  },
+  "observed_at_utc": "2026-10-31T10:52:19.858296+00:00"
+}

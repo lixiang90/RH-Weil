@@ -1,0 +1,19 @@
+{
+  "schema": "rh-weil-publication-verification-v1",
+  "date": "2026-10-31",
+  "repository": "https://github.com/lixiang90/RH-Weil",
+  "branch": "main",
+  "status": "root-closed-source-publication-pending",
+  "source_parent": "ce7d4a8aa3749906973326c947d54522ef281392",
+  "scope": "ONEGS1.1newcitedfacilitySOURCE0 root6180/source8109/different6749/14pubpins+ignoredPDF838416. Library142->143 metadataonly; originalcadenceheld/no keymath/Goalcompletion.",
+  "source_verification": null,
+  "metadata_child_condition": {
+    "exact_paths": [
+      "goals/STATE.json",
+      "goals/checkpoints/2026-10-31-gs-mainresults-sync.json",
+      "reviews/2026-10-31/gs-superconnection-source/remote-sync-verification.json"
+    ],
+    "condition": "Afteractualsource independentref/commit/tree/localHEAD/parent/exactsourcepaths/clean/checkpoint/14rawpubpins+localignoredPDF/guards verified, ONEexact3metadatachild. Independentlyverify actualfinalref/commit/tree/localHEAD/soleparent/exact3/clean/checkpoint/14pins+PDF838416/cadence6813raw0history66latest602formal21/library143manifestfinalraw. No ownSHA/recursivepush.",
+    "on_match": "Matchingactualchild finalHEAD/publicationcomplete; sameGoalactive/C065exhausted. No2/4/5κ/ref/parameter/sourcequeue. Differentactualcoreinput/test/strongoldnetbeforemath; notexternalblock/Goalcompletion."
+  }
+}
