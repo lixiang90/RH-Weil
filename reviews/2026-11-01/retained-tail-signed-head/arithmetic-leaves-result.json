@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "codeSHA256": "ed32fa2749c11c1dd1adae3bb078a331c5206a9d79f975a23c45e7df5f2fb7c3",
+  "checks": 18150,
+  "method": "AST-selected pure scalar functions and three-dimensional synthetic matrices only",
+  "actualResearchSourcesRead": false,
+  "actualCretComputed": false,
+  "driverImported": false,
+  "arithmeticFamilies": [
+    "rational conversion",
+    "signed subtraction",
+    "four product corners",
+    "square crossing zero",
+    "positive-denominator signed division",
+    "point midpoint ties",
+    "positive LDL",
+    "negative exact witness",
+    "source-band ambiguity",
+    "zero pivot refusal"
+  ]
+}

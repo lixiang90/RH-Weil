@@ -1,0 +1,389 @@
+{
+  "schema": "retained-tail-signed-head-root-consumption-v1",
+  "date": "2026-11-01",
+  "runtimeGoalCreatedAt": 1793085111,
+  "baseline": "0c4f3a3eb609bb1d9564138fa4a35701f05605f2",
+  "status": "ROOT_CONSUMED_STRICT_FINITE448_HEAD_AND_FINITE_COMPLETE_WEIL_COROLLARY",
+  "root_report": "reviews/2026-11-01/retained-tail-signed-head/root-consumed.md",
+  "actual_execution": {
+    "session": 80570,
+    "exit_code": 0,
+    "seconds": 248.6810276000033,
+    "status": "POSITIVE_HEAD_ONLY",
+    "pivot_rows": 896,
+    "input_pins": 22,
+    "bytes": 642941,
+    "retry": false
+  },
+  "premise_closure": {
+    "object": "Cret=C0+G(I+G)^-1G, V=RE448, G=E*V>=0; not V*V/old inverse-M Gram",
+    "domain_range": "E:C448->H=L2((-9/8,9/8),du;C) isometry; zero-extended Legendre sources in paid Dlog/D(R); R not asserted bounded on allH",
+    "source_map": "f_a=sum a_jP_j(u/L)=Ex; r_a=e^(u/2)f_a; native x=D^(1/2)a",
+    "norm": "||f_a||du^2=a*Da=||x||^2=int e^-u|r_a|^2du; Djj=9/[4(2j+1)]; never replace by unweighted r-du",
+    "quantifiers": "ALL complex448 coefficients, FIXED L9/8/Omega256/eta1; no source-adaptive center/error; not allDlog or growingrank/window",
+    "dependencies": "Old595 completeGamma/contact/pp2,3,4,5,7,8,9/two poles/domain/M/cross bridge; root-consumed SAME V/G source203; new exactcode/math/protocol/freshroot receipts",
+    "source_error": "epsC=2^-204+2*2^-220+9*2^-512; epsG=2^-203; noncommuting f error<3epsG; s=epsC+3epsG<beta201. Old/new h centers separately paid, no exactcancellation",
+    "finite_error": "Exact integer3matmul per224, K denominator81*2^1792; direct P1024outward LDL encloses K+-betaT. No inverse/float/guessed arithmeticfee",
+    "congruence": "S=Graw+D>0, B=D^-1S, K=B*ChatrawB, T=B*DB>0. Originalsource fee Loewner+-betaD transports to+-betaT; physical norm z*Tz of f_(Bz)",
+    "actual_direction": "BOTH224 lower targets strictlyPD; Chat>betaI; trueCret>(beta-s)I>2^-205I. Strict LOWER, not upper-only/negative-lower/float sign",
+    "strongest_consumable_consequence": "ForALLnonzero f=E448x, Q_W(f)>(tau+2^-205)||f||du^2, tau2^-49162; exacthead E*Q E=Cret+tauI+G(I+G)^-1",
+    "short_chain": "Paid fullQ=Llow+tau+R and Uret<=R; actualG source+exactcongruence+4x224 positivepivots ->strictCret lower ->finitefullQ corollary",
+    "coverage_coupling": "ALLcomplex448head paid; wholeH/Dlog/Sret/M10/mixedMV/CX/inverse unpaid; complementnorm1.774... objectsize noterror",
+    "strongest_old_net": "Old17/16allsource doesnotcover9/8polynomials; old595onepoint/P0fail/tinyfloor/C0floatunresolved do notimply448sign. Newfiniteclassonly, no newwhole/growing consequence"
+  },
+  "metadata_closure": {
+    "original_pivotLog_closed": false,
+    "literal_flag_authority": "UNCONSUMED_INVERTED_LABEL",
+    "basis": "Actualexit0, finishflush/fsync/close thenrename, no.part/tmp, independentlyverified896orderedstrictpositivepivots/bytes/SHA; originalsunchanged",
+    "scope": "See2790clarification+7756fresh+root terminal observation; metadata qualification doesnotchange arithmetic"
+  },
+  "classification": {
+    "mathematical_iterations": 1,
+    "contract": "C067",
+    "note": "notes/604-retained-tail-fixed448-head-positivity.md",
+    "cadence": "1->2/history67->68/formal21unchanged; solecounter updatedonce afterrootconsumption",
+    "goal_gates": "all3open/sameactive",
+    "actual_bottleneck_changed": "headsignCLOSED locally; wholecorrelation/keyprincipal/mixed/growingXi unchanged"
+  },
+  "terminal_pin_history": "22terminalpins allmatched beforemathsettlement. Solecadence subsequently updatedonce; its original6905bytes/SHA4e556b9a...60de recover exactly from verified6dfae369:goals/review-cadence.json. No copiedcounter/no rerun. Current publicbindings bindpostsettlementcadence.",
+  "nextAction": "Afteraccuratepublication/actualfinalHEADverify, ONE proof-only wholeSchur premise/error/netadmission in next-whole-admission.md; no newsource/inverse/Gram/parameter/C068 execution",
+  "public_bindings": [
+    {
+      "path": ".gitattributes",
+      "raw_bytes": 9512,
+      "sha256_raw": "5936cdaf9708d6061bfe0b4a78fc27f393de70ae8599f7a38f599843e540b384",
+      "sha256_lf": "a195fcbccb0f08f3ca09d7ee9b3dc260a86b6c8aa592a3426a29fef26ee9e3a4",
+      "raw_git_required": false
+    },
+    {
+      "path": "RESEARCH_BRANCHES.md",
+      "raw_bytes": 300540,
+      "sha256_raw": "29b33e1cbabf1061fb0858291c7680f49f5946d1fab1781f336e2996ecc17d5e",
+      "sha256_lf": "20cb57cf4c363f3ccc751b8a4ee95e293ef40185a05e15546629dd1ae5abe6dd",
+      "raw_git_required": false
+    },
+    {
+      "path": "goals/DECISIONS.md",
+      "raw_bytes": 367838,
+      "sha256_raw": "f4c003b639b377970be3b3720c7febe0f2f1d85d4852dc24f9128e14e7467b98",
+      "sha256_lf": "1c2aa26566efb91b23f3eb34d0d0909c7f55da2fdd0d49dfe2dbd1b5b317fc47",
+      "raw_git_required": false
+    },
+    {
+      "path": "goals/GOAL.20261027.md",
+      "raw_bytes": 9679,
+      "sha256_raw": "b3d2acb1f962d793f45d79b6a4e67fb87dd072cd4752108a9298204b4cefa1de",
+      "sha256_lf": "b3d2acb1f962d793f45d79b6a4e67fb87dd072cd4752108a9298204b4cefa1de",
+      "raw_git_required": false
+    },
+    {
+      "path": "goals/MACRO_FRONTIER.md",
+      "raw_bytes": 126612,
+      "sha256_raw": "bdbc60f9519ea69d9ebaad863b5a2aa3788506bbe174fa1c2d30d3b9ed03cf08",
+      "sha256_lf": "7b44af9a13d3420bfccb2f541de6ee600ba39ccb98cfce802124e91324ac0137",
+      "raw_git_required": false
+    },
+    {
+      "path": "goals/README.md",
+      "raw_bytes": 90539,
+      "sha256_raw": "f2b9120c704c18d301cac007ddd34b1562724a0166e082bae06fe6d70dfd7f59",
+      "sha256_lf": "f4170bef98f4b6fad8419b1c573fcd0f1e56c615d01a19659304a5587c5a1d73",
+      "raw_git_required": false
+    },
+    {
+      "path": "goals/RESEARCH_WORKFLOW.md",
+      "raw_bytes": 10509,
+      "sha256_raw": "567b238a62872505f9b29688cf4320fafb7f20b67a650c6cd7711ad56ddf95c1",
+      "sha256_lf": "567b238a62872505f9b29688cf4320fafb7f20b67a650c6cd7711ad56ddf95c1",
+      "raw_git_required": false
+    },
+    {
+      "path": "goals/checkpoints/2026-11-01-retained-tail-signed-head-execution.json",
+      "raw_bytes": 24152,
+      "sha256_raw": "2270a6583458c627bbeabe26b0b365bdb93e67dda6186354d8113cfccee75d47",
+      "sha256_lf": "2270a6583458c627bbeabe26b0b365bdb93e67dda6186354d8113cfccee75d47",
+      "raw_git_required": false
+    },
+    {
+      "path": "goals/contracts/C067-retained-tail-signed-head-positive.md",
+      "raw_bytes": 1965,
+      "sha256_raw": "12c0d3956020d3b2205cadd367223e16c42791b0eb3d1b1ac461aa59fe2c068b",
+      "sha256_lf": "12c0d3956020d3b2205cadd367223e16c42791b0eb3d1b1ac461aa59fe2c068b",
+      "raw_git_required": false
+    },
+    {
+      "path": "goals/review-cadence.json",
+      "raw_bytes": 7036,
+      "sha256_raw": "712195abe82736fd5f8dbb79a7fec509f36fe3cf6222e8981adc9b286b8abdb9",
+      "sha256_lf": "38a8d129b0bb4fb1b9a3298758c8e51994a0cbe08bb209278b9f2f4af67d721a",
+      "raw_git_required": false
+    },
+    {
+      "path": "goals/reviews/2026-11-01-retained-tail-signed-head-604.md",
+      "raw_bytes": 2051,
+      "sha256_raw": "c2a1fd79a780a5ab861d767958376ff566a624fa4dab3981fe3f177619e9fa32",
+      "sha256_lf": "c2a1fd79a780a5ab861d767958376ff566a624fa4dab3981fe3f177619e9fa32",
+      "raw_git_required": false
+    },
+    {
+      "path": "literature/README.md",
+      "raw_bytes": 150043,
+      "sha256_raw": "70c40d78a37897942813e70a682e4a7c2b2d2243ca09e84fa3405324486a5eac",
+      "sha256_lf": "0fc08c2b56eacbe96d28836e64f38ac843a208cac080619b66c0d43b4dfea5d0",
+      "raw_git_required": false
+    },
+    {
+      "path": "literature/manifest.json",
+      "raw_bytes": 223850,
+      "sha256_raw": "3223cffd0205b9a1f8660445ac33d0f3cec13b3bd1fa5e7799ed8abfb2746d42",
+      "sha256_lf": "3223cffd0205b9a1f8660445ac33d0f3cec13b3bd1fa5e7799ed8abfb2746d42",
+      "raw_git_required": false
+    },
+    {
+      "path": "literature/supplements/2026-11-01-retained-tail-signed-head-scope.md",
+      "raw_bytes": 1137,
+      "sha256_raw": "340f2d5fa56569438921ffb32d187d9a9e006ec0ba68b4af28ec26e827cb7272",
+      "sha256_lf": "340f2d5fa56569438921ffb32d187d9a9e006ec0ba68b4af28ec26e827cb7272",
+      "raw_git_required": false
+    },
+    {
+      "path": "notes/604-retained-tail-fixed448-head-positivity.md",
+      "raw_bytes": 5010,
+      "sha256_raw": "d751ae30ea053482e29d1954109871a66c89f174b7e0875d22acc6d0b335013d",
+      "sha256_lf": "d751ae30ea053482e29d1954109871a66c89f174b7e0875d22acc6d0b335013d",
+      "raw_git_required": false
+    },
+    {
+      "path": "reviews/2026-10-29/weil-9-8-admission/full-weil-analytic-transfer-fresh.md",
+      "raw_bytes": 13990,
+      "sha256_raw": "0cdb4173b7664b73b47fd8789c0629f0535a208ad9af2a4af8eb86422c64a466",
+      "sha256_lf": "0cdb4173b7664b73b47fd8789c0629f0535a208ad9af2a4af8eb86422c64a466",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-10-29/weil-9-8-admission/source-stage-verification.json",
+      "raw_bytes": 14179,
+      "sha256_raw": "dbb31208d0568feac7c9adff27722d5b55d08381002d23e0a4e35f150b1472c1",
+      "sha256_lf": "f423c3525f52a7ea71a5ae3517ea1a86daaa4b58cc22a8125fafcab6e568f00f",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-10-31/retained-tail-center-admission/next-signed-head-admission.md",
+      "raw_bytes": 4160,
+      "sha256_raw": "3449a74e67fc71a9c5d0cb20430ddf420071ad803af50deb9af7bf644b5e2a56",
+      "sha256_lf": "3449a74e67fc71a9c5d0cb20430ddf420071ad803af50deb9af7bf644b5e2a56",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-10-31/retained-tail-center-admission/root-consumption-scope.json",
+      "raw_bytes": 20127,
+      "sha256_raw": "6e0df0fed60465622f8b95551e4e361203a8de9b199bf167c38709caf4caaac3",
+      "sha256_lf": "377bf8dc98028913e7c127b39652b6a1279e697f7322972cc4d896a4b53bc145",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-10-31/retained-tail-center-admission/source-centers-consumed.md",
+      "raw_bytes": 4973,
+      "sha256_raw": "a823cabb902b1fd0270fd210db0d2efa4a0085d7918b49ec3afb79739178a4a6",
+      "sha256_lf": "a823cabb902b1fd0270fd210db0d2efa4a0085d7918b49ec3afb79739178a4a6",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-signed-head/algorithm-design.md",
+      "raw_bytes": 13223,
+      "sha256_raw": "b545e7fdc5bcdce6bcc091be381c46bf3fddb23084559b6c9e9db0b515472eda",
+      "sha256_lf": "b545e7fdc5bcdce6bcc091be381c46bf3fddb23084559b6c9e9db0b515472eda",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-signed-head/arithmetic-leaves-result.json",
+      "raw_bytes": 633,
+      "sha256_raw": "484e563a193c03a4b7785bcbfeac996f4dfc1716c8ee3258c2c3c4994fb60cbf",
+      "sha256_lf": "484e563a193c03a4b7785bcbfeac996f4dfc1716c8ee3258c2c3c4994fb60cbf",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-signed-head/check-arithmetic-leaves.py",
+      "raw_bytes": 4290,
+      "sha256_raw": "79ae4013fe0e4542072641cd2aafee63de23a404ea8986be2ecebd1b74b36853",
+      "sha256_lf": "79ae4013fe0e4542072641cd2aafee63de23a404ea8986be2ecebd1b74b36853",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-signed-head/code-math-fresh.md",
+      "raw_bytes": 6431,
+      "sha256_raw": "d4af24ccd3ed021de8f0ac411cd729a1f050159a40cd6a133bbfc8a0380bb082",
+      "sha256_lf": "d4af24ccd3ed021de8f0ac411cd729a1f050159a40cd6a133bbfc8a0380bb082",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-signed-head/code-protocol-fresh.md",
+      "raw_bytes": 6967,
+      "sha256_raw": "efbbf44396323e9feb0d6827a4467daf518c87742559d24b31ff757108463414",
+      "sha256_lf": "efbbf44396323e9feb0d6827a4467daf518c87742559d24b31ff757108463414",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-signed-head/congruence-fresh.md",
+      "raw_bytes": 10548,
+      "sha256_raw": "6dc809f6c5c46e63ab8f08ae00a11a9521ad42d32d3d316dd30cd126a07e0694",
+      "sha256_lf": "6dc809f6c5c46e63ab8f08ae00a11a9521ad42d32d3d316dd30cd126a07e0694",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-signed-head/design-freeze.json",
+      "raw_bytes": 1554,
+      "sha256_raw": "4c2bdb0bd298d36e6d59ae781595441beb666848c67ee53c9b5287fae35148a9",
+      "sha256_lf": "4c2bdb0bd298d36e6d59ae781595441beb666848c67ee53c9b5287fae35148a9",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-signed-head/execution-start.json",
+      "raw_bytes": 1012,
+      "sha256_raw": "8222e378fc254270413919e52cbfed101a0dc2ed38310aeec99b6f76d32259b3",
+      "sha256_lf": "8222e378fc254270413919e52cbfed101a0dc2ed38310aeec99b6f76d32259b3",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-signed-head/head-pivots.jsonl",
+      "raw_bytes": 636836,
+      "sha256_raw": "0198a20e06349bcc8f2a53a9a38e35d44bd79d45382a163d4b5c2f13d2ee5366",
+      "sha256_lf": "0198a20e06349bcc8f2a53a9a38e35d44bd79d45382a163d4b5c2f13d2ee5366",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-signed-head/head-result.json",
+      "raw_bytes": 5676,
+      "sha256_raw": "ba31ccef92293cdc1f308ea05bdd507b5d2fb4695cbfab6c341aa74718d4ea4e",
+      "sha256_lf": "ba31ccef92293cdc1f308ea05bdd507b5d2fb4695cbfab6c341aa74718d4ea4e",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-signed-head/math-admission.md",
+      "raw_bytes": 16224,
+      "sha256_raw": "6547b2ff0e0b2a4deeeb88ae549930cb51d7a16b99a77c6053e9c30413e04c95",
+      "sha256_lf": "6547b2ff0e0b2a4deeeb88ae549930cb51d7a16b99a77c6053e9c30413e04c95",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-signed-head/next-whole-admission.md",
+      "raw_bytes": 2140,
+      "sha256_raw": "685f0c47dae67e1f5a4623c923989e1d5d80124f25384233cc78f7151fa0ed5a",
+      "sha256_lf": "685f0c47dae67e1f5a4623c923989e1d5d80124f25384233cc78f7151fa0ed5a",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-signed-head/pivot-log-status-clarification.md",
+      "raw_bytes": 2790,
+      "sha256_raw": "6c5b798d0ef76a888d75fc24a45b58a5f44931cce0f66b64bc1c0d396dc3649d",
+      "sha256_lf": "6c5b798d0ef76a888d75fc24a45b58a5f44931cce0f66b64bc1c0d396dc3649d",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-signed-head/result-fresh.md",
+      "raw_bytes": 7756,
+      "sha256_raw": "9829f96e97c016348240767b984f596bc538674494a79ff5f3c64b80d32bb851",
+      "sha256_lf": "9829f96e97c016348240767b984f596bc538674494a79ff5f3c64b80d32bb851",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-signed-head/root-admission.md",
+      "raw_bytes": 4590,
+      "sha256_raw": "f75c4cf526a1ae5cfac512937a4f08424edbb4f3f41cfc64591757b75668b436",
+      "sha256_lf": "f75c4cf526a1ae5cfac512937a4f08424edbb4f3f41cfc64591757b75668b436",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-signed-head/root-code-closure.json",
+      "raw_bytes": 2483,
+      "sha256_raw": "a9ca0e917e6609255e908565e1c050220932c66149781ba563ac14e4e7460b1d",
+      "sha256_lf": "a9ca0e917e6609255e908565e1c050220932c66149781ba563ac14e4e7460b1d",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-signed-head/root-consumed.md",
+      "raw_bytes": 3487,
+      "sha256_raw": "a3f8ce2b815cc0150c7db27b850fba82dc2536a909f7a47f0b2e35c3d80ecca9",
+      "sha256_lf": "a3f8ce2b815cc0150c7db27b850fba82dc2536a909f7a47f0b2e35c3d80ecca9",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-signed-head/run-freeze.json",
+      "raw_bytes": 4021,
+      "sha256_raw": "f9801fa8506a3b860888abafdba18419293028c7b3cf5e6a2150fa6f77fbaafd",
+      "sha256_lf": "7f8297f908d81b9403c3739f33e088b6942affb3559aef9705ae4228867e8e63",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-signed-head/settlement-consistency.md",
+      "raw_bytes": 4615,
+      "sha256_raw": "9673f2b5d910a336e19d6b751d339203143ce774ecd2b72a362bfaaa38c1ffcf",
+      "sha256_lf": "9673f2b5d910a336e19d6b751d339203143ce774ecd2b72a362bfaaa38c1ffcf",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-signed-head/signed-head-gate.py",
+      "raw_bytes": 23940,
+      "sha256_raw": "ed32fa2749c11c1dd1adae3bb078a331c5206a9d79f975a23c45e7df5f2fb7c3",
+      "sha256_lf": "ed32fa2749c11c1dd1adae3bb078a331c5206a9d79f975a23c45e7df5f2fb7c3",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-signed-head/terminal-observation.json",
+      "raw_bytes": 1885,
+      "sha256_raw": "b74b8a7a2a28bbc45686f743e58d4e5626538a1229666c6b4f03731ad43d3037",
+      "sha256_lf": "148ee39a1abaaf75e1374480d65570951e923ecb5130514bbf811c7dbf07a2a9",
+      "raw_git_required": true
+    }
+  ],
+  "local_bindings": [
+    {
+      "path": "D:/codex-build/RH-Weil/literature/local/2026-11-01-retained-tail-signed-head/run-01/pivots.jsonl",
+      "bytes": 636836,
+      "sha256": "0198a20e06349bcc8f2a53a9a38e35d44bd79d45382a163d4b5c2f13d2ee5366",
+      "ignored": true
+    },
+    {
+      "path": "D:/codex-build/RH-Weil/literature/local/2026-11-01-retained-tail-signed-head/run-01/progress.json",
+      "bytes": 429,
+      "sha256": "74a8506153617c6fd774fdd547f950d47e8d9fc4c62bba7c75f88d76a5110a3e",
+      "ignored": true
+    },
+    {
+      "path": "D:/codex-build/RH-Weil/literature/local/2026-11-01-retained-tail-signed-head/run-01/result.json",
+      "bytes": 5676,
+      "sha256": "ba31ccef92293cdc1f308ea05bdd507b5d2fb4695cbfab6c341aa74718d4ea4e",
+      "ignored": true
+    },
+    {
+      "path": "literature/local/2026-10-29-weil-9-8/pilot/run-01/certificates/source-matrices.json",
+      "bytes": 23377672,
+      "sha256": "a5486fea38c3c8f91dcf4bb77c7677e734efe2ac9cbf59ddabc4674739fdb2f2",
+      "ignored": true
+    },
+    {
+      "path": "literature/local/2026-10-29-weil-9-8/pilot/run-01/certificates/tail-columns.json",
+      "bytes": 296046,
+      "sha256": "d714fa8d717a8f39d8b3b57cc6292e3f14844041b83802cf57ee47aa03c65a0e",
+      "ignored": true
+    },
+    {
+      "path": "literature/local/2026-10-31-retained-tail-center-certificate/run-01/result.json",
+      "bytes": 70183,
+      "sha256": "3eb9e77d71f92ead44775bfbafb7499a7ff0fd2e5bc81ac00095332a4f912739",
+      "ignored": true
+    },
+    {
+      "path": "literature/local/2026-10-31-retained-tail-source/run-01/finite-columns.jsonl",
+      "bytes": 73598411,
+      "sha256": "d841d307d2b22367570e594c1bc9e3b64c8a4ffef88691382acf5d6fbeeaf080",
+      "ignored": true
+    }
+  ],
+  "settlement_consistency": {
+    "path": "reviews/2026-11-01/retained-tail-signed-head/settlement-consistency.md",
+    "bytes": 4615,
+    "sha256": "9673f2b5d910a336e19d6b751d339203143ce774ecd2b72a362bfaaa38c1ffcf",
+    "root_consumed": true
+  }
+}

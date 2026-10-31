@@ -1,0 +1,19 @@
+{
+  "schema": "retained-tail-signed-head-root-code-closure-v1",
+  "runtimeGoalCreatedAt": 1793085111,
+  "codeSHA256": "ed32fa2749c11c1dd1adae3bb078a331c5206a9d79f975a23c45e7df5f2fb7c3",
+  "codeBytes": 23940,
+  "status": "ROOT_CONSUMED_CODE_AND_MATH_PREPARATION_ONE_INPUT_GATE_ADMITTED",
+  "rootReading": "Full code435lines plus final7line pin/context additions; math16224/algorithm13223/congruence10548/root4590 and both final code audits6431/6967 fully read and reconciled",
+  "independentReviews": {
+    "code-math-fresh.md": "d4af24ccd3ed021de8f0ac411cd729a1f050159a40cd6a133bbfc8a0380bb082",
+    "code-protocol-fresh.md": "efbbf44396323e9feb0d6827a4467daf518c87742559d24b31ff757108463414"
+  },
+  "rootValidation": {"staticInputPins": 17, "allActualHashesMatch": true, "actualOutputDirectoryAbsent": true, "isolatedFractionAndSyntheticChecks": 18150, "testStatus": "PASS", "driverImportedByTest": false, "researchSourcesReadByTest": false, "actualMatrixTestExecuted": false},
+  "premises": "C0 native source fee epsC<2^-203; SAME newG op<2^-203; noncommuting resolvent gives combined<2^-201. RawD and B congruence transport source fee to epsT. Exact integer3matmul assembly and outward1024-bit LDL do not silently charge new rounding to the source bound.",
+  "finiteProof": "All interval sign cases checked; Schur leading column remains untouched; proposed midpoint-L direction has fixed ties rule and no sign authority until exact rational qK+eps*physicalnorm<0. Source/raw/native conventions and whole Gamma/pp/poles preserved.",
+  "protocol": "ONE x-created ignored run01; fixed even/odd and upper/conditional-lower; P1024/eps201/1800s8MiB/MAXBITS16384; globallyONE witness and failed proposal terminal; all inputs/reviews/self/freeze/log checked at end. Final progress RUNNING label is not process or sign authority.",
+  "predeclaredSettlement": "Strict actual physical negative or both-sector lower-positive theorem: one math iteration only after result fresh/root consumption. Mere source/arithmetic/budget unresolved: experiment0, not bounded-candidate failure. No formal C067 admitted here.",
+  "scope": "Negative stops only bounded Lret PSD, not Q. Positive head necessary only. Whole Schur/M10/mixedMV/CX/inverse, principal/sections/mixed/growingXi and all three Goal gates open; same active Goal.",
+  "authorization": "Root authorizes final exact-code freeze and ONE input-gate execution under existing user long-research authorization; no repeat permission needed."
+}

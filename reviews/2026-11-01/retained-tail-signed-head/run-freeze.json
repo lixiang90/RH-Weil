@@ -1,0 +1,58 @@
+{
+  "schema": "RH_WEIL_SIGNED_HEAD_FREEZE_V1",
+  "authorization": "ROOT_EXPLICIT_FREEZE_AND_RUN_SIGNED_HEAD",
+  "runtimeGoalCreatedAt": 1793085111,
+  "atUTC": "2026-10-31T17:03:39.798778+00:00",
+  "codeSHA256": "ed32fa2749c11c1dd1adae3bb078a331c5206a9d79f975a23c45e7df5f2fb7c3",
+  "parameters": {
+    "L": "9/8",
+    "N": 448,
+    "sectorDimension": 224,
+    "eta": 1,
+    "omega": 256,
+    "intervalBits": 1024,
+    "sourceErrorPower": 201,
+    "capSeconds": 1800,
+    "capBytes": 8388608,
+    "maxStoredIntegerBits": 16384,
+    "sectorOrder": [
+      "even",
+      "odd"
+    ],
+    "phaseOrder": [
+      "upper",
+      "conditional-lower"
+    ],
+    "maxWitnessProposals": 1,
+    "witnessBits": 1024,
+    "witnessTieRule": "nearest_ties_toward_positive_infinity",
+    "inverseComputed": false,
+    "exactMatmulsPerSector": 3
+  },
+  "pins": {
+    "literature/local/2026-10-29-weil-9-8/pilot/run-01/certificates/source-matrices.json": "a5486fea38c3c8f91dcf4bb77c7677e734efe2ac9cbf59ddabc4674739fdb2f2",
+    "literature/local/2026-10-29-weil-9-8/pilot/run-01/certificates/tail-columns.json": "d714fa8d717a8f39d8b3b57cc6292e3f14844041b83802cf57ee47aa03c65a0e",
+    "literature/local/2026-10-31-retained-tail-source/run-01/finite-columns.jsonl": "d841d307d2b22367570e594c1bc9e3b64c8a4ffef88691382acf5d6fbeeaf080",
+    "literature/local/2026-10-31-retained-tail-center-certificate/run-01/result.json": "3eb9e77d71f92ead44775bfbafb7499a7ff0fd2e5bc81ac00095332a4f912739",
+    "reviews/2026-10-31/retained-tail-center-admission/root-consumption-scope.json": "6e0df0fed60465622f8b95551e4e361203a8de9b199bf167c38709caf4caaac3",
+    "reviews/2026-10-31/retained-tail-center-admission/source-centers-consumed.md": "a823cabb902b1fd0270fd210db0d2efa4a0085d7918b49ec3afb79739178a4a6",
+    "reviews/2026-10-31/retained-tail-center-admission/next-signed-head-admission.md": "3449a74e67fc71a9c5d0cb20430ddf420071ad803af50deb9af7bf644b5e2a56",
+    "reviews/2026-10-29/weil-9-8-admission/source-stage-verification.json": "dbb31208d0568feac7c9adff27722d5b55d08381002d23e0a4e35f150b1472c1",
+    "reviews/2026-10-29/weil-9-8-admission/full-weil-analytic-transfer-fresh.md": "0cdb4173b7664b73b47fd8789c0629f0535a208ad9af2a4af8eb86422c64a466",
+    "reviews/2026-11-01/retained-tail-signed-head/algorithm-design.md": "b545e7fdc5bcdce6bcc091be381c46bf3fddb23084559b6c9e9db0b515472eda",
+    "reviews/2026-11-01/retained-tail-signed-head/design-freeze.json": "4c2bdb0bd298d36e6d59ae781595441beb666848c67ee53c9b5287fae35148a9",
+    "reviews/2026-11-01/retained-tail-signed-head/math-admission.md": "6547b2ff0e0b2a4deeeb88ae549930cb51d7a16b99a77c6053e9c30413e04c95",
+    "reviews/2026-11-01/retained-tail-signed-head/root-admission.md": "f75c4cf526a1ae5cfac512937a4f08424edbb4f3f41cfc64591757b75668b436",
+    "reviews/2026-11-01/retained-tail-signed-head/congruence-fresh.md": "6dc809f6c5c46e63ab8f08ae00a11a9521ad42d32d3d316dd30cd126a07e0694",
+    "goals/GOAL.20261027.md": "b3d2acb1f962d793f45d79b6a4e67fb87dd072cd4752108a9298204b4cefa1de",
+    "goals/review-cadence.json": "4e556b9a84fd365a3a55bc4c345dc3dbe0f6e0543394dcca04093387a77560de",
+    "literature/manifest.json": "3223cffd0205b9a1f8660445ac33d0f3cec13b3bd1fa5e7799ed8abfb2746d42"
+  },
+  "reviewPins": {
+    "reviews/2026-11-01/retained-tail-signed-head/root-code-closure.json": "a9ca0e917e6609255e908565e1c050220932c66149781ba563ac14e4e7460b1d",
+    "reviews/2026-11-01/retained-tail-signed-head/code-math-fresh.md": "d4af24ccd3ed021de8f0ac411cd729a1f050159a40cd6a133bbfc8a0380bb082",
+    "reviews/2026-11-01/retained-tail-signed-head/code-protocol-fresh.md": "efbbf44396323e9feb0d6827a4467daf518c87742559d24b31ff757108463414",
+    "reviews/2026-11-01/retained-tail-signed-head/check-arithmetic-leaves.py": "79ae4013fe0e4542072641cd2aafee63de23a404ea8986be2ecebd1b74b36853",
+    "reviews/2026-11-01/retained-tail-signed-head/arithmetic-leaves-result.json": "484e563a193c03a4b7785bcbfeac996f4dfc1716c8ee3258c2c3c4994fb60cbf"
+  }
+}

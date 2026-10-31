@@ -1,0 +1,41 @@
+{
+  "schema": "retained-tail-signed-head-terminal-observation-v1",
+  "atUTC": "2026-10-31T17:12:18.512082+00:00",
+  "runtimeGoalCreatedAt": 1793085111,
+  "actualExecSession": 80570,
+  "actualExitCode": 0,
+  "elapsedSeconds": 248.6810276000033,
+  "status": "POSITIVE_HEAD_ONLY",
+  "inputPinsRechecked": 22,
+  "pivotRowsRechecked": 896,
+  "strictPositiveLowerEndpoints": 896,
+  "phaseCoverage": "evenupper224/evenlower224/oddupper224/oddlower224",
+  "sourceSlackGreaterThan2PowerMinus205": true,
+  "sourceSlack": [
+    "521465295598063324912173124000860110962292694181654165035893860187461031635509795714932670455",
+    "13407807929942597099574024998205846127479365820592393377723561443721764030073546976801874298166903427690031858186486050853753882811946569946433649006084096"
+  ],
+  "actualFiles": [
+    {
+      "path": "literature/local/2026-11-01-retained-tail-signed-head/run-01/pivots.jsonl",
+      "bytes": 636836,
+      "sha256": "0198a20e06349bcc8f2a53a9a38e35d44bd79d45382a163d4b5c2f13d2ee5366"
+    },
+    {
+      "path": "literature/local/2026-11-01-retained-tail-signed-head/run-01/progress.json",
+      "bytes": 429,
+      "sha256": "74a8506153617c6fd774fdd547f950d47e8d9fc4c62bba7c75f88d76a5110a3e"
+    },
+    {
+      "path": "literature/local/2026-11-01-retained-tail-signed-head/run-01/result.json",
+      "bytes": 5676,
+      "sha256": "ba31ccef92293cdc1f308ea05bdd507b5d2fb4695cbfab6c341aa74718d4ea4e"
+    }
+  ],
+  "totalOutputBytes": 642941,
+  "originalPivotClosedFlag": false,
+  "originalFlagConsumedAsAuthority": false,
+  "externalLogClosure": "Actualterminalexit0; finish flush/fsync/close before rename; actual no part/tmp;896orderedpositivepivots and reported size/hash exactly match. See separate inverted-label clarification; originals immutable.",
+  "scienceRerun": false,
+  "rootConsumption": "PENDING_RESULT_FRESH"
+}

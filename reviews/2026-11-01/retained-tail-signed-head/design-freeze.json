@@ -1,0 +1,12 @@
+{
+  "schema": "retained-tail-signed-head-design-v1",
+  "runtime_goal_created_at": 1793085111,
+  "scope": "NEW actual Cret from root-consumed E448 eta1 source, not old C0/P0/v continuation",
+  "authorization": "Code preparation only; final code/root/fresh freeze required before numerical execution",
+  "parameters": {"L": "9/8", "N": 448, "eta": 1, "omega": 256, "interval_bits": 1024, "source_error_power": 201, "cap_seconds": 1800, "cap_bytes": 8388608},
+  "algebra": ["S=Graw+D; B=D^-1 S; H=C0raw+Graw-D", "K=B* H B+S=B* Chat B; T=B* D B", "q=2^257; c=2^1282 C0raw; g=q Graw; w_i=2i+1; b=9*2^255", "Bint=bI+diag(w)g; j=g diag(w)g; dK=81*2^1792", "Kint=Bint* (c+2^1025g) Bint-81*2^1535g-9*2^1280j", "T=D+2g/q+j/(9*2^512)"],
+  "arithmetic": "Exact integer matrix assembly; all subsequent finite interval rounding outward. No inverse or eigensolver. Final negative vector checked by exact rational quadratic and physical norm.",
+  "order": "even then odd, upper K+2^-201T first; lower K-2^-201T only if upper strictly positive. Sector unresolved may continue the other fixed sector; exact negative certificate stops immediately.",
+  "stops": "At most one midpoint-L dyadic witness proposal; failed exact negative verification is terminal unresolved. Zero-crossing pivot/budget/guard failure never triggers a new precision/direction/rank/window/eta/source run.",
+  "consequences": "Both lower sectors positive => finite head only. Exact negative upper quadratic => bounded Lret fails PSD, not Q. Otherwise unresolved. Whole Schur/Goal gates unchanged."
+}

@@ -8,11 +8,11 @@
   "cadence": "goals/review-cadence.json",
   "decisions": "goals/DECISIONS.md",
   "latest_strategy": "goals/reviews/2026-10-29-general-rh-macro-review-cycle-21.md",
-  "latest_decision": "D20261101A",
+  "latest_decision": "D20261101B",
   "macro_frontier": "goals/MACRO_FRONTIER.md",
-  "macro_summary": "reviews/2026-10-31/retained-tail-center-admission/root-consumption-scope.json",
+  "macro_summary": "reviews/2026-11-01/retained-tail-signed-head/root-consumption-scope.json",
   "latest_macro_review": "goals/reviews/2026-10-29-general-rh-macro-review-cycle-21.md",
-  "latest_iteration": "notes/603-two-cutoff-sonin-leakage-phase-misalignment.md",
+  "latest_iteration": "notes/604-retained-tail-fixed448-head-positivity.md",
   "macro_control": {
     "schema": "macro-recovery-v2",
     "goal_epoch": "G20261027",
@@ -21,7 +21,7 @@
   "macro": {
     "long_objective": "G20261027 inheritsG20261014/0c4f/all<=582 inputs: actualsameobject fullclassicalWeilpositivity/growingspectralconstraint; nooldresultrecompletion.",
     "unpaid_bottleneck": "LocalfixedI wholeonebodyabsolute budgetclosed602; actualprincipal/sections/mixed, K_Jfavorablesignedcorecross/growingI/Xi andwhole4/5negative-inertiaUPPERunchanged.",
-    "why_this_contract": "Actual25pin/799scenter-certificate ROOTclosed SAMEV/G andcomplementdata; newCret=C0+f(G) canchangechoice vsoldP0. Needsource/finitearithmetic/stopfreeze beforeONEsignedheadtest; wholecorrelation unpaid.",
+    "why_this_contract": "NEWactualG+ONEinversefree strictgate now604: Cret>2^-205 ALLcomplexE448, finitefullQ sameclass positive; headCLOSED, wholecorrelation stillUNPAID. Nextoneproof-onlySchur/input/error/netadmission beatsblindGramproduction.",
     "paused_routes": [
       "零点比例优化",
       "无零区域优化"
@@ -33,16 +33,16 @@
     ]
   },
   "primary_contract": {
-    "id": "C066",
-    "path": "goals/contracts/C066-two-cutoff-leakage-phase-misalignment.md",
+    "id": "C067",
+    "path": "goals/contracts/C067-retained-tail-signed-head-positive.md",
     "status": "completed",
     "iteration_budget": 1,
     "settled_iterations": [
-      "notes/603-two-cutoff-sonin-leakage-phase-misalignment.md"
+      "notes/604-retained-tail-fixed448-head-positivity.md"
     ],
-    "stage": "CenterSOURCErootclosed; source94e5a67verifiedAPI/local36pub+14local/guards/checkpoint. Exact3finalchildcondition closespublicationONLY.",
-    "next_action": "Afterfinalexact3verify: freezeONE NEWCret data/source+finiteerror/budget/stop pernext-admission, thenexecuteifadmitted. No oldC0/P0/v/precisionqueue; headnotwhole.",
-    "stop_rule": "C066oneY=X²budgetspent; noautomaticexponent/gain/rank/window/source successors orGoalgate."
+    "stage": "ROOTconsumed604/C067 +settlement4615; 41public+7local bindings frozen. ONEcadence2/history68/formal21; sourcepublicationready.",
+    "next_action": "Commit/push exact37sourcepaths, verifyactualsource ref/commit/tree/local/41public+7local/guards/checkpoint, thenONEexact3metadatachild. Onlyafteractualfinalverify nextproof-onlywholegate.",
+    "stop_rule": "C067strictheadONEspent; no densitytowhole/allDlog/growingXi oroldprecision/v/P0/budget reuse."
   },
   "support_contracts": [],
   "must_not_forget": [
@@ -96,22 +96,27 @@
       "path": "reviews/2026-10-31/retained-tail-center-admission/root-consumption-scope.json",
       "kind": "proved",
       "scope": "SOURCE-ONLY exactdirected SAMEE448 H-valuedcenters op203/HS198/G203 rootclosed; no Cret/whole sign,0math."
+    },
+    {
+      "path": "notes/604-retained-tail-fixed448-head-positivity.md",
+      "kind": "proved",
+      "scope": "NEWALLcomplexE448 L9/8 f-du Cret>2^-205; finitecompleteQ>tau+205 viaunusedpositiveG/(1+G). Headonly/notallH/growth. ONErootmath."
     }
   ],
   "pending_processes": [],
   "runtime_goal_observation": {
     "status": "active",
     "created_at_unix": 1793085111,
-    "observed_at_utc": "2026-10-31T16:12:55.526757+00:00",
-    "basis": "Liveget_goal sameinstance AFTERactualcenterterminal/fullfresh/rootclosure. No signedwhole/Goalgate."
+    "observed_at_utc": "2026-10-31T17:23:48.973358+00:00",
+    "basis": "Liveget_goal SAMEactive1793085111 afteractual604rootmathsettlement; allGoalgatesopen"
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-11-01-retained-tail-center-sync.json",
+  "checkpoint": "goals/checkpoints/2026-11-01-retained-tail-signed-head-source.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
-    "commit": "94e5a674fb1fba89be42b0724c6a9a91928ec0d8",
-    "tree": "1e22b50c79b9d2e8aa3f1e0b35da5d28a1e00a3e",
-    "basis": "ActualsourceAPI/local/soleparent/exact30/clean/checkpoint/36pub+14local/guards PASS; exact3finalchild perreceipt."
+    "commit": "6dfae369dc4153d882a941355243a31ee4bf3b81",
+    "tree": "04ec4a57e48eed404a8a72f1b77e89342634aacf",
+    "basis": "Thisturnrecoveredactualfinal APIref/gitcommit/gittree/sole94e/exact3/localclean/checkpoint/36public+14local/guards beforefirstmutation; notcurrent604publicationyet"
   },
   "completion_audit": {
     "goal": "goals/GOAL.20261027.md",
@@ -119,11 +124,11 @@
     "goal_lf_sha256": "b3d2acb1f962d793f45d79b6a4e67fb87dd072cd4752108a9298204b4cefa1de",
     "mathematical_gate": "open",
     "final_execution_gate": "not-eligible",
-    "basis": "CompletecenterSOURCEonly; no Cret/head/wholeSret sign, no keycore/growthremoval. All3open/sameactive."
+    "basis": "604finite448head/fullQclasspositiveONLY; wholeSchur/keyprincipal/mixed/growth/all3Goalgatesopen. No Goalcompletion."
   },
-  "process_inventory_observed_on": "2026-10-31T16:12:55.526757+00:0090933terminal0; allagents completed orredundantstandbyinterrupted; no activeexec/shell.",
+  "process_inventory_observed_on": "80570terminal0; allnewagentscomplete; no pendingexec/shell/agent. Frozen604publication only.",
   "publication_approval_gate": {
-    "status": "source-verified-metadata-child-condition-armed",
+    "status": "authorized-exact-source-ready",
     "destination": "https://github.com/lixiang90/RH-Weil",
     "visibility": "public",
     "branch": "main",
@@ -133,9 +138,9 @@
       "reply": "每轮把进度同步到github；把文献保存在文献库中，用研究看板来记录各个路线的状况",
       "scope": "Publicresearch/state/board/librarymetadata/reviews; unlicensedfulltextlocalonly."
     },
-    "current_scope": "94e5sourcecentersverified; ONLYexact3metadatachildpending; no signedwhole/Goalgate.",
-    "verification": "reviews/2026-10-31/retained-tail-center-admission/remote-sync-verification.json",
-    "metadata_child_condition": "ONEexact3afteractualsourceverify; see receipt."
+    "current_scope": "604/C067 finitecomplex448headpositive proof/code/pivotcertificate+scope/state/board/librarymetadata; no thirdpartyfulltext.",
+    "verification": "reviews/2026-11-01/retained-tail-signed-head/remote-sync-verification.json",
+    "metadata_child_condition": "Afteractualsourceverify ONEexact3 STATE+uniquecheckpoint+remoteverification child only."
   },
   "research_board": "RESEARCH_BRANCHES.md",
   "literature_index": "literature/README.md",
@@ -174,25 +179,10 @@
     "retained_tail_boxes": {
       "status": "oldboxtruth-frozen/newcenter-source-rootclosed",
       "path": "reviews/2026-10-31/retained-tail-center-admission/source-centers-consumed.md",
-      "scope": "OnlySAMEcenters+newnormauthority consumed; oldSTOP/boxclaims unchanged. Noautomatichead/whole sign."
+      "scope": "OnlySAMEcenters+NEWnormauthority sourceconsumed; oldSTOP/boxtruthunchanged. 604head/finiteQ now separatelyrootclosed, notwhole."
     }
   },
-  "source_control_correction": {
-    "status": "584finiteB/598fullB-scope-rootclosed",
-    "basis": "584differentfiniteB vs598samefullB exactallsource/mixedcollapse; extra data/domain/Dprime retained. See598rootledger."
-  },
-  "principal_completion_scope_correction": {
-    "status": "nonclosed-extension-frozen/closed-reclosed",
-    "path": "reviews/2026-10-27/joint-oldform-tower/583-principal-closed-base-correction.md",
-    "basis": "Closedbase reclosed; nonclosed onlyclosure. Exactscope inlinkedcorrection."
-  },
-  "classical_theta_normalization_scope_correction": {
-    "status": "literal-frozen/correctedscalar-reclosed/ariththeorem-unpaid",
-    "path": "reviews/2026-10-27/classical-theta-analytic/literal-normalization-freeze.md",
-    "repair_record": "reviews/2026-10-27/corrected-theta-source/root-consumption-scope.json",
-    "basis": "Literalraw frozen; correctedscalar/sourcefees reclosed, overallarith7.4/stackindex unpaid. MB/582/583 unchanged; seeoriginalrecord."
-  },
-  "latest_causal_review": "goals/reviews/2026-11-01-retained-tail-center-certificate.md",
+  "latest_causal_review": "goals/reviews/2026-11-01-retained-tail-signed-head-604.md",
   "sonin_high_scope_recovery": {
     "path": "reviews/2026-10-28/action-cone/strongest-old-sonin-recovery-correction.md",
     "status": "old-safe-high-range-rootfresh-recovered",
