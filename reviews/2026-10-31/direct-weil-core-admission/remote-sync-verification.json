@@ -3,10 +3,43 @@
   "date": "2026-10-31",
   "repository": "https://github.com/lixiang90/RH-Weil",
   "branch": "main",
-  "status": "pending-source-publication",
+  "status": "source-verified-metadata-child-condition-armed",
   "source_parent": "6e472102f7c84f0768a51d1888ea2eeb7cce9aab",
   "scope": "Boundedoldinput0+ONEactualC floatunresolved+retained-tailDOMAINstandard0. 21pubpins+2ignoredoldsourcepackets; no newmath/Goalgate/newsourcepacket execution.",
-  "source_verification": null,
+  "source_verification": {
+    "commit": "69f07a222b620abda8618ab2a1050212ee54e098",
+    "tree": "bd6434abfc02e61b1735242bab2ab18056940858",
+    "sole_parent": "6e472102f7c84f0768a51d1888ea2eeb7cce9aab",
+    "observed_at_utc": "2026-10-31T13:23:38.526129+00:00",
+    "source_changed_paths": [
+      ".gitattributes",
+      "RESEARCH_BRANCHES.md",
+      "goals/DECISIONS.md",
+      "goals/MACRO_FRONTIER.md",
+      "goals/README.md",
+      "goals/STATE.json",
+      "goals/checkpoints/2026-10-31-direct-weil-core-source.json",
+      "goals/reviews/2026-10-31-direct-weil-core-input-stop.md",
+      "literature/README.md",
+      "literature/supplements/2026-10-31-direct-weil-core-retained-tail-scope.md",
+      "reviews/2026-10-31/direct-weil-core-admission/actual-lowlow-spectrum-pilot.json",
+      "reviews/2026-10-31/direct-weil-core-admission/actual-lowlow-spectrum-pilot.py",
+      "reviews/2026-10-31/direct-weil-core-admission/execution-start.json",
+      "reviews/2026-10-31/direct-weil-core-admission/matrix-input-audit.md",
+      "reviews/2026-10-31/direct-weil-core-admission/pilot-scope.md",
+      "reviews/2026-10-31/direct-weil-core-admission/remote-sync-verification.json",
+      "reviews/2026-10-31/direct-weil-core-admission/retained-tail-next-admission.md",
+      "reviews/2026-10-31/direct-weil-core-admission/root-comparison.md",
+      "reviews/2026-10-31/direct-weil-core-admission/root-consumption-scope.json",
+      "reviews/2026-10-31/direct-weil-core-admission/strongest-old-and-whole-gate.md"
+    ],
+    "basis": "IndependentconnectedGitHub actualref/gitcommit/gittree matchedlocalHEAD/tree/parent. Exact20paths/stagedfiltercanonical/21committedrawpins+2localignoredpackets/clean/checkpoint/3rawguards PASS.",
+    "math_iterations": 0,
+    "new_signed_certificate": false,
+    "cadence_literature": "Goal9679/cadence6905raw1history67latest603formal21/library143manifest223850 rawheld; no reset ornewmath.",
+    "goal_gates": "all3open/sameactive1793085111",
+    "next_gate": "ONLYfixedE448/eta1 retained-tailV/G_Rsourcepacket/errors/(I-P)V gate UNEXECUTED; no pilotprecision/oldcontract/newmathbudget."
+  },
   "metadata_child_condition": {
     "exact_paths": [
       "goals/STATE.json",
@@ -14,6 +47,7 @@
       "reviews/2026-10-31/direct-weil-core-admission/remote-sync-verification.json"
     ],
     "condition": "Afteractualsource independentref/gitcommit/gittree/localHEAD/soleparent/exactsourcepaths/clean/checkpoint/21rawpubpins+2ignoredsourcepackets/3guards verified, ONEexact3metadatachild. Independentlyverifyactualfinalref/commit/tree/localHEAD/soleparent/exact3/clean/checkpoint/21pins+2localpackets/Goal9679-cadence6905raw1history67latest603formal21-manifest223850library143. No ownSHA/recursivepush.",
-    "on_match": "Matchingactualfinalchild completespublicationonly. SameGoalactive/C066exhausted; nextONLYtypedunexecutedretained-tailV/G_Rsource gate per6166, freezeerrors/stopfirst, no mathcontract/pilotprecision/sourcequeue."
+    "on_match": "Matchingactualfinalchild completespublicationonly. SameGoalactive/C066exhausted; nextONLYtypedunexecutedretained-tailV/G_Rsource gate per6166, freezeerrors/stopfirst, no mathcontract/pilotprecision/sourcequeue.",
+    "parent": "69f07a222b620abda8618ab2a1050212ee54e098"
   }
 }

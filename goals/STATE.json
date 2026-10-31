@@ -40,8 +40,8 @@
     "settled_iterations": [
       "notes/603-two-cutoff-sonin-leakage-phase-misalignment.md"
     ],
-    "stage": "C066exhausted/603unchanged. DirectQ7563/6803+ONEactual448C floatpilotunresolved; retained-tail6166 DOMAINstandard0 rootclosed. NoC067604/math. Publishpending.",
-    "next_action": "Publishsource+ONEexact3metadatachild/independentfinalverify21pins+2ignoredpackets/guards. ThenONLYtypedretained-tailV=RE448/G_Rsourcepacket/errors/(I-P)V gate per6166 UNEXECUTED; no newmathbudget orpilot/oldinverse retry.",
+    "stage": "C066exhausted/603latest. DirectQinput0/actualCfloatunresolved/retained-tailDOMAINstandard0 rootclosed. Source69f07a22/treebd6434ab/exact20 independentlyverified; ONEexact3metadatachild recording.",
+    "next_action": "Verifyactualfinalref/commit/tree/localHEAD/soleparent69f07a22/exact3/clean/checkpoint/21pins+2localpackets/3rawguards. OnmatchONLYtheUNEXECUTEDfixedE448/eta1 retained-tailV/G_Rsourcegate per6166; freezeerrors/stopfirst, no C067604/mathbudget orpilot/oldinverse retry.",
     "stop_rule": "OnefixedY=X² actualcrossprojection responsibility. Ifpremisesfail/oldnetonly, stopaccurately; no exponent/gain/source/rank successors. No Goalgate claim."
   },
   "support_contracts": [],
@@ -97,16 +97,16 @@
   "runtime_goal_observation": {
     "status": "active",
     "created_at_unix": 1793085111,
-    "observed_at_utc": "2026-10-31T13:18:06.273653+00:00",
-    "basis": "Liveget_goal sameinstance afteractualnewpilot/audits/domainfinals; nextsourcepacket notexecuted/no mathcontract."
+    "observed_at_utc": "2026-10-31T13:23:38.526129+00:00",
+    "basis": "Liveget_goal sameinstance afteractualaudits/pilot/domainrootclosure andsourcepublicationverification; newsourcepacket unexecuted."
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-10-31-direct-weil-core-source.json",
+  "checkpoint": "goals/checkpoints/2026-10-31-direct-weil-core-sync.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
-    "commit": "6e472102f7c84f0768a51d1888ea2eeb7cce9aab",
-    "tree": "bfbc0e9285d0cd511c8894b77df94849b990d5b6",
-    "basis": "Thisturn independentGitHubref/commit/tree/localHEAD/parent/exact3/clean/checkpoint/21pins+ignored61862 PASS; new executionreceipt."
+    "commit": "69f07a222b620abda8618ab2a1050212ee54e098",
+    "tree": "bd6434abfc02e61b1735242bab2ab18056940858",
+    "basis": "Actualsource69f07a22 verifiedref/gitcommit/gittree/localHEAD/soleparent6e472102/exact20/clean/checkpoint/21pins+2localpackets/3guards. ActualfinalHEAD iffONEexact3metadatachild independentlymatches; sourceSHAnotfuturefinal."
   },
   "completion_audit": {
     "goal": "goals/GOAL.20261027.md",
@@ -116,9 +116,9 @@
     "final_execution_gate": "not-eligible",
     "basis": "Oldinput0/numsignunresolved/newsource-domainfacilitystandard0; no actualnewsignedwhole/coremargin orGoalgate. All3open/sameactive."
   },
-  "process_inventory_observed_on": "2026-10-31T13:18:06.273653+00:00 allcurrentaudit/pilot/retained-domain andreadonlychildren terminal/rootconsumed. Noexec/shell.",
+  "process_inventory_observed_on": "2026-10-31T13:23:38.526129+00:00 allmatchingcurrentaudit/pilot/domain tasks+children terminal/rootconsumed; noexec/shell. Finalmetadataverificationnext.",
   "publication_approval_gate": {
-    "status": "pending-source-publication",
+    "status": "source-verified-metadata-child-condition-armed",
     "destination": "https://github.com/lixiang90/RH-Weil",
     "visibility": "public",
     "branch": "main",
@@ -128,9 +128,9 @@
       "reply": "每轮把进度同步到github；把文献保存在文献库中，用研究看板来记录各个路线的状况",
       "scope": "Publicresearch/Goal/STATE/board/librarymetadata/reviews/receipts; unlicensedfulltext localonly."
     },
-    "current_scope": "Boundedoldinput0+actualC experimentunresolved+retained-tailstandard0. No newmath/Goalgate; 21pins+2oldlocalpackets.",
+    "current_scope": "Input0/experimentunresolved/retained-tailstandard0 source69f07a22 verified20paths; finaliffONEexact3metadatachild actualref/tree/parent/paths/checkpoint/21pins+2local/guardsmatches. 0math.",
     "verification": "reviews/2026-10-31/direct-weil-core-admission/remote-sync-verification.json",
-    "metadata_child_condition": "Newsourcepending; ONEexact3condition inreceipt."
+    "metadata_child_condition": "reviews/2026-10-31/direct-weil-core-admission/remote-sync-verification.json"
   },
   "research_board": "RESEARCH_BRANCHES.md",
   "literature_index": "literature/README.md",
