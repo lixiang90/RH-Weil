@@ -3,10 +3,53 @@
   "date": "2026-10-31",
   "repository": "https://github.com/lixiang90/RH-Weil",
   "branch": "main",
-  "status": "pending-source-publication",
+  "status": "source-verified-metadata-child-condition-armed",
   "source_parent": "a459f2908e85f8d7decf6dd752689ff487f7f6e6",
   "scope": "ONEproducer completed/ONEindependenth0:1660containmentSTOP; actualnewV/G+feesUNCONSUMED; readonlydiagnosis/conditionalwholeexit;0math/nogoalgate.",
-  "source_verification": null,
+  "source_verification": {
+    "commit": "b68f5793b9867229de01f78a232f00e74e13c54a",
+    "tree": "9e98c7bda82192c0b3f13a431ecf453ffc25f30c",
+    "sole_parent": "a459f2908e85f8d7decf6dd752689ff487f7f6e6",
+    "observed_at_utc": "2026-10-31T14:37:20.727254+00:00",
+    "source_changed_paths": [
+      ".gitattributes",
+      "RESEARCH_BRANCHES.md",
+      "goals/DECISIONS.md",
+      "goals/MACRO_FRONTIER.md",
+      "goals/README.md",
+      "goals/STATE.json",
+      "goals/checkpoints/2026-10-31-retained-tail-source-source.json",
+      "goals/reviews/2026-10-31-retained-tail-source-stop.md",
+      "literature/README.md",
+      "literature/supplements/2026-10-31-retained-tail-source-stop-scope.md",
+      "reviews/2026-10-31/retained-tail-source/analytic-controls.json",
+      "reviews/2026-10-31/retained-tail-source/check-source.py",
+      "reviews/2026-10-31/retained-tail-source/checker-review.md",
+      "reviews/2026-10-31/retained-tail-source/design-fresh-check.md",
+      "reviews/2026-10-31/retained-tail-source/execution-start.json",
+      "reviews/2026-10-31/retained-tail-source/failure-analysis.md",
+      "reviews/2026-10-31/retained-tail-source/post-source-next-admission.md",
+      "reviews/2026-10-31/retained-tail-source/preregistration.md",
+      "reviews/2026-10-31/retained-tail-source/produce-source.py",
+      "reviews/2026-10-31/retained-tail-source/producer-freeze.json",
+      "reviews/2026-10-31/retained-tail-source/production-observation.json",
+      "reviews/2026-10-31/retained-tail-source/remote-sync-verification.json",
+      "reviews/2026-10-31/retained-tail-source/replay-freeze.json",
+      "reviews/2026-10-31/retained-tail-source/replay-stop.json",
+      "reviews/2026-10-31/retained-tail-source/representation-proof.md",
+      "reviews/2026-10-31/retained-tail-source/root-consumption-scope.json",
+      "reviews/2026-10-31/retained-tail-source/root-source-stop.md",
+      "reviews/2026-10-31/retained-tail-source/source-design.md"
+    ],
+    "basis": "IndependentconnectedGitHubactualref/gitcommit/gittree matchedlocalHEAD/tree/soleparent; exact28paths/clean/checkpoint/public27raw+LF/local11/3rawguards PASS.",
+    "math_iterations": 0,
+    "new_signed_certificate": false,
+    "new_source_values_consumed": false,
+    "scope": "ONEproducerPASS/ONEindependenth0:1660containmentSTOP; allnewV/Gfrozen, readonlydiagnosis only; no retry.",
+    "cadence_literature": "Goal9679/cadence6905raw1history67latest603formal21/library143manifest223850 held.",
+    "goal_gates": "all3open/sameactive1793085111",
+    "next_gate": "ONLYproof-onlyBE FINAL-center originalnormcertificate comparison; no newarrays/replay/head/MV/mathcontract beforeseparateclosure."
+  },
   "metadata_child_condition": {
     "exact_paths": [
       "goals/STATE.json",
@@ -14,6 +57,7 @@
       "reviews/2026-10-31/retained-tail-source/remote-sync-verification.json"
     ],
     "condition": "AfteractualsourceAPIref/commit/tree/localHEAD/soleparent/exactpaths/clean/checkpoint/27pub+11localpins/3rawguards verified, ONEexact3metadatachild. ThenverifyactualfinalAPIref/commit/tree/localHEAD/soleparent/exact3/clean/checkpoint/pins/guards; no ownSHA/recursivepush.",
-    "on_match": "Publicationonly. SameGoalactive, C066spent/sourcegateSTOP; nextproof-onlyBEacceptancecomparison notnumericalretry."
+    "on_match": "Publicationonly. SameGoalactive, C066spent/sourcegateSTOP; nextproof-onlyBEacceptancecomparison notnumericalretry.",
+    "parent": "b68f5793b9867229de01f78a232f00e74e13c54a"
   }
 }

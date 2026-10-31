@@ -40,8 +40,8 @@
     "settled_iterations": [
       "notes/603-two-cutoff-sonin-leakage-phase-misalignment.md"
     ],
-    "stage": "C066spent/603latest; rootsettledONEsourcegateSTOP:32245pass/69254containmentfail; diagnosisclosed, newV/Gfrozen. Preparingaccuratepublicsync.",
-    "next_action": "Publish+verifyexactSTOP. ThenONEproof-onlyadmission perBE: FINAL-center fullh/V/G/infinite-tail nativeerror vsnesting; NOarrays/replay/head/MV/C067604 withoutnewpremiseclosure.",
+    "stage": "SourcegateSTOP/rootclosed; sourceb68f579 verifiedAPI/local27pub+11local/guards/checkpoint. Exact3finalchild condition closespublicationONLY.",
+    "next_action": "Afterfinalexact3verify: ONEproof-onlyBE FINAL-center fullh/V/G/infinite-tail nativeerror admissionvsnesting. NOarrays/replay/head/MV/C067604 withoutnewpremiseclosure.",
     "stop_rule": "C066oneY=X²budgetspent; noautomaticexponent/gain/rank/window/source successors orGoalgate."
   },
   "support_contracts": [],
@@ -106,12 +106,12 @@
     "basis": "Liveget_goal sameinstance AFTERactualproducer140.544s/replay383.651sSTOP; sourceunconsumed, noGoalgate."
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-10-31-retained-tail-source-source.json",
+  "checkpoint": "goals/checkpoints/2026-10-31-retained-tail-source-sync.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
-    "commit": "a459f2908e85f8d7decf6dd752689ff487f7f6e6",
-    "tree": "b8693d13f90b5012028943b1cb9f17db577366c3",
-    "basis": "ActualAPI+localparent/exact3/clean/checkpoint/21pub+2local PASS; execution-start."
+    "commit": "b68f5793b9867229de01f78a232f00e74e13c54a",
+    "tree": "9e98c7bda82192c0b3f13a431ecf453ffc25f30c",
+    "basis": "ActualsourceAPIref/commit/tree+soleparent/exact28/clean/checkpoint/27pub+11local/guards; exact3finalchild onreceiptcondition."
   },
   "completion_audit": {
     "goal": "goals/GOAL.20261027.md",
@@ -123,7 +123,7 @@
   },
   "process_inventory_observed_on": "2026-10-31T14:32:31.551302+00:0032245terminal0/69254terminal1; allmatchingagents terminal; no shell/science.",
   "publication_approval_gate": {
-    "status": "source-ready-scope-stopped",
+    "status": "source-verified-metadata-child-condition-armed",
     "destination": "https://github.com/lixiang90/RH-Weil",
     "visibility": "public",
     "branch": "main",
@@ -133,7 +133,7 @@
       "reply": "每轮把进度同步到github；把文献保存在文献库中，用研究看板来记录各个路线的状况",
       "scope": "Publicresearch/state/board/librarymetadata/reviews; unlicensedfulltextlocalonly."
     },
-    "current_scope": "PublishnewsourceverificationSTOP/conditionalanalysis/code/hashes; V/Gunconsumed;0math.",
+    "current_scope": "b68sourceSTOPscopeverified; ONLYexact3metadatachildpending, notnewsourcePASS.",
     "verification": "reviews/2026-10-31/retained-tail-source/remote-sync-verification.json",
     "metadata_child_condition": "ONEexact3afteractualsourceverify; see receipt."
   },
