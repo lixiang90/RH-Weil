@@ -1,5 +1,7 @@
 # RH-Weil 文献索引
 
+2026-10-31：GS零项current源公式与原附件回读经4722/6213/6220/不同4631/root旧0闭；仅重读GS PDF4及原附件既有范围，无新primary/download/作者后章，库143/manifest223850原字节保持。[实读范围](supplements/2026-10-31-gs-packet-original-note-scope.md)区别常数current坐标费与未付算术pair/height；本次不增数学轮或合同。
+
 2026-10-31：库142→143，新增Garcia–Sankaran作者更新PDF90p/838416bytes/SHA27b36f4d…34625，本地ignored，更新library日期。只核PDF1及§1.1主结果PDF2–6，source8109/不同6749/root6180闭为citedGreen/星积/localARCH设施，SOURCE0无新经典源桥或数学轮。κ通知、退化次数、正文proof及2026世界进展各守未消费范围。[准确scope](supplements/2026-10-31-gs-main-results-source-scope.md)。
 
 2026-10-31：global-theta接口比较仅用既有项目范围，4440/7967/不同4129/root类型/强旧0闭；无新web/作者PDF页/外部章/下载或书目，库142/manifest221943原字节不动。[实读scope](supplements/2026-10-31-global-theta-interface-old-scope.md)区分三域、exact与closure、rawmean联合费，不解冻overall算术7.4，不增数学轮。

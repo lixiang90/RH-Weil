@@ -1,0 +1,43 @@
+{
+  "schema": "rh-weil-bounded-core-admission-start-v1",
+  "date": "2026-10-31",
+  "runtime_goal_created_at": 1793085111,
+  "runtime_status": "live-active-same-instance",
+  "observed_at_utc": "2026-10-31T11:31:57.666904+00:00",
+  "frozen_baseline": "0c4f3a3eb609bb1d9564138fa4a35701f05605f2",
+  "prior_publication": {
+    "final_commit": "dbeacf77e29d3f1632c92e38222f31641c02ff93",
+    "tree": "0facc9137799b55a05ed3f9f09ccf40f875585e8",
+    "sole_parent": "2cf79cd565f3fd9fc5b5663a7e9cfb8af19037bb",
+    "basis": "Thisturn connectedGitHub ref/gitcommit/gittree matchedlocalHEAD/parent/tree/exact3metadata/clean/checkpoint/14pubpins+ignoredPDF838416/all3guards beforemutation."
+  },
+  "admission": "One literal GS R1 zero-mode scaling packet and independent original usernote strongest-old audit. No nondegenerate packet/beta/authorproof/newsource queue; mathonly if actualnewcore input-test-net.",
+  "guards": {
+    "goals/GOAL.20261027.md": {
+      "bytes": 9679,
+      "sha256": "b3d2acb1f962d793f45d79b6a4e67fb87dd072cd4752108a9298204b4cefa1de"
+    },
+    "goals/review-cadence.json": {
+      "bytes": 6813,
+      "sha256": "0bd41adf77ca1d22895c9a42e808ef3e627c929bc639cce0f782ceaee4aa2041"
+    },
+    "literature/manifest.json": {
+      "bytes": 223850,
+      "sha256": "3223cffd0205b9a1f8660445ac33d0f3cec13b3bd1fa5e7799ed8abfb2746d42"
+    }
+  },
+  "cadence": "0/history66/latest602/formal21; no mathcount or counterreset",
+  "source_scope": "RootactualPDF4text+page04image (1.1.12); originalnote8-10 text. Independent actors separately scope their reading.",
+  "agents": [
+    {
+      "handle": "/root/gs_scale_old_admission",
+      "task": "GS current-only formula vs405/574/582/rawtheta",
+      "output": "independent-old-comparison.md"
+    },
+    {
+      "handle": "/root/original_note_core_formula",
+      "task": "Originalnote ONE concretecoreformula vs strongest-old",
+      "output": "original-note-core-admission.md"
+    }
+  ]
+}
