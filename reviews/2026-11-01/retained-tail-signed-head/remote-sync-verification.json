@@ -1,14 +1,14 @@
 {
   "schema": "rh-weil-source-and-metadata-child-verification-v1",
-  "status": "SOURCE_NOT_YET_PUBLISHED",
+  "status": "SOURCE_VERIFIED_EXACT3_METADATA_CHILD_ARMED",
   "repository": "https://github.com/lixiang90/RH-Weil",
   "branch": "main",
   "scope": "604 finite448head/fullQclass positive; whole and Goal gates open",
   "previous_verified_head": "6dfae369dc4153d882a941355243a31ee4bf3b81",
-  "source_commit": null,
-  "source_tree": null,
-  "verification": "Pending actual source commit/push/ref/gitcommit/gittree/local checkpoint/pins/guards",
-  "metadata_child_condition": "Only after actual source verification, ONE child changes exactly goals/STATE.json, a unique new synchronization checkpoint, and this receipt; verify actual final ref/commit/tree locally and remotely, no recursive receipt commit",
+  "source_commit": "d634f1bf11daef3f486879f64933bffe6989f968",
+  "source_tree": "c7d015b47ca4f7d9ed2532cd2f707dddd6af0402",
+  "verification": "ActualGitHubref/gitcommit/gittree SHA/tree/soleparent +localHEAD/clean/exact37/canonicalindex41publicrawLF/7local/Goal9679-cadence7036-manifest223850/checkpoint allPASS; source mathematically604finite448 ONLY",
+  "metadata_child_condition": "ONE child with soleparentd634f1bf11daef3f486879f64933bffe6989f968 and exactmetadata_child_exact_paths ONLY; afterpush independentlyverifyactualFINAL ref/commit/tree/localclean/checkpoint/41public+7local/guards; doNOTrecordownSHA orrecursivecommit",
   "source_changed_paths": [
     ".gitattributes",
     "RESEARCH_BRANCHES.md",
@@ -52,5 +52,19 @@
     "goals/STATE.json",
     "goals/checkpoints/2026-11-01-retained-tail-signed-head-sync.json",
     "reviews/2026-11-01/retained-tail-signed-head/remote-sync-verification.json"
-  ]
+  ],
+  "verifiedAtUTC": "2026-10-31T17:29:35.976892+00:00",
+  "source_sole_parent": "6dfae369dc4153d882a941355243a31ee4bf3b81",
+  "source_checks": {
+    "actualRemoteRef": true,
+    "actualRemoteGitCommit": true,
+    "actualRemoteGitTree": true,
+    "localExact37": true,
+    "localClean": true,
+    "checkpoint": true,
+    "publicBindings": 41,
+    "localBindings": 7,
+    "cadence": "2/history68/latest604/formal21",
+    "allGoalGates": "open/sameactive1793085111"
+  }
 }
