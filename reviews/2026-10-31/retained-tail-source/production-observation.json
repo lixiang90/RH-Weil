@@ -1,0 +1,61 @@
+{
+  "schema": "rh-weil-retained-source-production-observation-v1",
+  "at_utc": "2026-10-31T14:18:00.465684+00:00",
+  "runtime_goal_created_at": 1793085111,
+  "handle": "exec_command:32245",
+  "terminal_exit_code": 0,
+  "elapsed_seconds": 140.54429049999453,
+  "producer_status": "SOURCE_PACKET_PRODUCED_PENDING_INDEPENDENT_REPLAY",
+  "result": {
+    "path": "literature/local/2026-10-31-retained-tail-source/run-01/result.json",
+    "bytes": 61030,
+    "sha256": "a9fb5f5150bc17f56ebc3bd9e981ce0ec421c8efdf5612554ccc3a751eff6de5"
+  },
+  "streams": [
+    {
+      "bytes": 233458,
+      "complete": true,
+      "file": "h-columns.jsonl",
+      "rows": 2047,
+      "sha256": "37f2c0410beb1b1c43b9f8d2df24d72fce3170b5f359d089c198742f1eee4e74"
+    },
+    {
+      "bytes": 73598411,
+      "complete": true,
+      "file": "finite-columns.jsonl",
+      "rows": 458528,
+      "sha256": "d841d307d2b22367570e594c1bc9e3b64c8a4ffef88691382acf5d6fbeeaf080"
+    },
+    {
+      "bytes": 303201,
+      "complete": true,
+      "file": "column-norms.jsonl",
+      "rows": 448,
+      "sha256": "0506bf585a562d2585cbf8aa0b2ca3e8106ab5816f7f09db84245a235525b1cf"
+    }
+  ],
+  "producer_sha256": "05f395038a4e2a75027b69996f990e1978d6e09c799dfbd43fd41fa1add8d45b",
+  "producer_freeze_sha256": "833f360a8f1edde9c69a7287fc1f921c1585aa590cc1904ee481b6c4c9013975",
+  "root_checks": "Actualterminalresult;3actualstreamSHA/bytes/countmetadata; frozenproducer/prereg/inputpins. Independentreplay androotconsumption notyetpaid.",
+  "source_errors_after_future_replay": {
+    "V_op": "<2^-203",
+    "V_HS": "<2^-198",
+    "G_op": "<2^-203"
+  },
+  "model_squared_HS_bounds_2m256": {
+    "actualComplementErrorHSBoundPower": -198,
+    "actualComplementInterpretation": "norm differs by <=2^-198 from represented complement; finite rows448..2046 plus exact symbolic infinite tail",
+    "nativeModelComplementHSSquared": [
+      "364497045002792737614366474521306537507215114859127862343989040210342861798189",
+      "364497045002792737614366474521306537507215114859127862343989040210342861798190"
+    ],
+    "nativeModelHSSquared": [
+      "65611823232682542432926846805799334262077458712525257744255268641018079979264700",
+      "65611823232682542432926846805799334262077458712525257744255268641018079979264701"
+    ],
+    "squaredNormOutputBits": 256
+  },
+  "math_iterations": 0,
+  "whole_schur_margin": null,
+  "key_bottleneck_changed": false
+}

@@ -1,0 +1,37 @@
+{
+  "schema": "rh-weil-retained-source-analytic-controls-v1",
+  "at_utc": "2026-10-31T14:04:46.416408+00:00",
+  "scope": "Exact integer/Fraction checks of frozen standard/global source bounds; NOactual448 source arrays or numerical sign; 0math. Proof/prerequisites in bound records.",
+  "checks": {
+    "q_degree576_global_operator_lt_2m227": true,
+    "sameband_global_operator_lt_2m204": true,
+    "sinc_taylor_global_operator_lt_2m513_using_pi_gt3": true,
+    "gamma_binet_real_remainder_lt_2m1500": true,
+    "ranktwo_full_h_error_factor_lt9": true,
+    "op_fee_total_lt_2m203": true,
+    "hs_fee_total_lt_2m198_using_sqrt448_lt22": true,
+    "full_parity_rectangle_count": true
+  },
+  "bindings": [
+    {
+      "path": "reviews/2026-10-31/retained-tail-source/representation-proof.md",
+      "bytes": 10736,
+      "sha256": "d710b9ea3a094d37907965552dd132890fd930478595906a0545e2d3dbe511f4"
+    },
+    {
+      "path": "reviews/2026-10-31/retained-tail-source/source-design.md",
+      "bytes": 10986,
+      "sha256": "55373dda47da0f18e01fd6c0d75e71bb91cac0091cf199ed843d951911a16e2c"
+    },
+    {
+      "path": "reviews/2026-10-31/retained-tail-source/design-fresh-check.md",
+      "bytes": 12636,
+      "sha256": "cf25135ffce76d93d1c90b158494a6002b0e158407e21bd80d9d2b2bebcc1eed"
+    },
+    {
+      "path": "reviews/2026-10-31/retained-tail-source/preregistration.md",
+      "bytes": 5532,
+      "sha256": "43e71892740e015d2b93982d865d28dd9e3b59157eece89cdfc6a9b43629077b"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "schema": "RH_WEIL_RETAINED_SOURCE_FREEZE_V1",
+  "authorization": "ROOT_EXPLICIT_FREEZE_AND_RUN",
+  "runtimeGoalCreatedAt": 1793085111,
+  "runtimeStatusObserved": "active/sameinstance beforefreeze",
+  "atUTC": "2026-10-31T14:08:20.845983+00:00",
+  "parameters": {
+    "L": "9/8",
+    "omega": 256,
+    "eta": 1,
+    "N": 448,
+    "D": 2046,
+    "qDegree": 576,
+    "qCoefficients": 577,
+    "bandTerms": 1024,
+    "sincTerms": 1024,
+    "workingBits": 3072,
+    "outputBits": 256,
+    "hOutputBits": 640,
+    "deltaPower": 49158,
+    "tauPower": 49162,
+    "sourceCapSeconds": 1800,
+    "sourceCapBytes": 167772160
+  },
+  "producerSHA256": "05f395038a4e2a75027b69996f990e1978d6e09c799dfbd43fd41fa1add8d45b",
+  "inputs": {
+    "literature/local/2026-10-29-weil-9-8/pilot/run-01/certificates/moments.json": "2d166f7ae457fd61826329d31365564e25f1cfc6bc19d09aef22d2ec89c6bbd9",
+    "literature/local/2026-10-29-weil-9-8/pilot/run-01/certificates/tail-columns.json": "d714fa8d717a8f39d8b3b57cc6292e3f14844041b83802cf57ee47aa03c65a0e",
+    "literature/local/2026-10-29-weil-9-8/pilot/source/02-produce.py": "792ee1c93291459ca903b6f4f5e3c4f051f2463a1a020eac756b13fa6b913337",
+    "literature/local/2026-10-29-weil-9-8/pilot/source/08-produce.py": "ae0f487544c203905faecbb78b30f94fb16fe4f2f63c6b9846ca13ea673ba2b7",
+    "literature/local/2026-10-29-weil-9-8/pilot/source/11-checker_quotient.py": "ea6f8ed0e2780aa2835bb75f1a7e08fd807220ac4eb1b14f8c6aa0834e331af3",
+    "literature/local/2026-10-29-weil-9-8/pilot/source/12-raw_column_producer.py": "a8a67b4e08d540f51e152fe05bd19d77ae69fc618e4d6c08cb24c730b3afbb9c",
+    "reviews/2026-10-29/weil-9-8-admission/full-weil-analytic-transfer-fresh.md": "0cdb4173b7664b73b47fd8789c0629f0535a208ad9af2a4af8eb86422c64a466",
+    "reviews/2026-10-31/retained-tail-source/source-design.md": "55373dda47da0f18e01fd6c0d75e71bb91cac0091cf199ed843d951911a16e2c",
+    "reviews/2026-10-31/retained-tail-source/representation-proof.md": "d710b9ea3a094d37907965552dd132890fd930478595906a0545e2d3dbe511f4"
+  },
+  "rootRead": "Full34151 then finalstaticdiff34788: flushdurability/scalar-prefix budgetchecks/exactnormconsistency. Noformula/modelchange. Fullrepresentation/design/fresh/prereg read.",
+  "proofBindings": [
+    {
+      "path": "reviews/2026-10-31/retained-tail-source/preregistration.md",
+      "bytes": 5532,
+      "sha256": "43e71892740e015d2b93982d865d28dd9e3b59157eece89cdfc6a9b43629077b"
+    },
+    {
+      "path": "reviews/2026-10-31/retained-tail-source/design-fresh-check.md",
+      "bytes": 12636,
+      "sha256": "cf25135ffce76d93d1c90b158494a6002b0e158407e21bd80d9d2b2bebcc1eed"
+    },
+    {
+      "path": "reviews/2026-10-31/retained-tail-source/analytic-controls.json",
+      "bytes": 1527,
+      "sha256": "605cc282be8b9284ef1b232d322f8d229d0c9ee317948d5b4185a18c284849bb"
+    }
+  ],
+  "scope": "ONEsourceattempt; rootconsumption onlyafterindependentreplay; 0math/notwholemargin/notGoalgate"
+}

@@ -1,0 +1,41 @@
+{
+  "schema": "rh-weil-retained-source-execution-start-v1",
+  "date": "2026-10-31",
+  "observed_at_utc": "2026-10-31T13:33:44.044300+00:00",
+  "runtime_goal_created_at": 1793085111,
+  "baseline": "0c4f3a3eb609bb1d9564138fa4a35701f05605f2",
+  "previous_goal_turn": "PROGRESS: actual448C pilotperformed/unresolved andtypedRtaildomain/sourceinfo changednextaction;0math/notGoalcompletion",
+  "prior_publication": {
+    "final": "a459f2908e85f8d7decf6dd752689ff487f7f6e6",
+    "tree": "b8693d13f90b5012028943b1cb9f17db577366c3",
+    "sole_parent": "69f07a222b620abda8618ab2a1050212ee54e098",
+    "basis": "Thisturn independentGitHubref/commit/tree+localHEAD/soleparent/exact3/clean/checkpoint/21pubpins+2ignoredpackets beforemutation"
+  },
+  "unique_gate": "PreviouslysavedONE actualretained-tail sourcepacket V=RE448/G_R=E*V, L9/8 Omega256 eta1, strictdu columnerrors/outsideheadcoupling. Standarddomain/nonzero/shorting/tinyfloor alreadyold0, noC067604pregrant.",
+  "current_action": "Validateendpointlog+analyticq realspaceGamma representation andexecutablealgorithm; freezeONE representation/errors/stop BEFOREanyproducer. No oldC/P0 precision ornewsourcequeue.",
+  "guards": {
+    "goals/GOAL.20261027.md": {
+      "bytes": 9679,
+      "sha256": "b3d2acb1f962d793f45d79b6a4e67fb87dd072cd4752108a9298204b4cefa1de"
+    },
+    "goals/review-cadence.json": {
+      "bytes": 6905,
+      "sha256": "4e556b9a84fd365a3a55bc4c345dc3dbe0f6e0543394dcca04093387a77560de"
+    },
+    "literature/manifest.json": {
+      "bytes": 223850,
+      "sha256": "3223cffd0205b9a1f8660445ac33d0f3cec13b3bd1fa5e7799ed8abfb2746d42"
+    }
+  },
+  "agents": [
+    {
+      "handle": "/root/retained_tail_representation",
+      "output": "representation-proof.md"
+    },
+    {
+      "handle": "/root/retained_tail_source_design",
+      "output": "source-design.md"
+    }
+  ],
+  "cadence": "1/history67/latest603/formal21 held6905raw untilactualnewmathresponsibility rootsettled"
+}

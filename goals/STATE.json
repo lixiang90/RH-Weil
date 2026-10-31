@@ -8,9 +8,9 @@
   "cadence": "goals/review-cadence.json",
   "decisions": "goals/DECISIONS.md",
   "latest_strategy": "goals/reviews/2026-10-29-general-rh-macro-review-cycle-21.md",
-  "latest_decision": "D20261031BD",
+  "latest_decision": "D20261031BE",
   "macro_frontier": "goals/MACRO_FRONTIER.md",
-  "macro_summary": "reviews/2026-10-31/direct-weil-core-admission/root-consumption-scope.json",
+  "macro_summary": "reviews/2026-10-31/retained-tail-source/root-consumption-scope.json",
   "latest_macro_review": "goals/reviews/2026-10-29-general-rh-macro-review-cycle-21.md",
   "latest_iteration": "notes/603-two-cutoff-sonin-leakage-phase-misalignment.md",
   "macro_control": {
@@ -19,9 +19,9 @@
     "goal_lf_sha256": "b3d2acb1f962d793f45d79b6a4e67fb87dd072cd4752108a9298204b4cefa1de"
   },
   "macro": {
-    "long_objective": "G20261027接续G20261014完整完成门/原0c4f基线，≤582为输入；持续寻经典同源Weil正性/有效性/RR或actualsigned新输入，付全源/成长/core及谱识别。",
+    "long_objective": "G20261027 inheritsG20261014/0c4f/all<=582 inputs: actualsameobject fullclassicalWeilpositivity/growingspectralconstraint; nooldresultrecompletion.",
     "unpaid_bottleneck": "LocalfixedI wholeonebodyabsolute budgetclosed602; actualprincipal/sections/mixed, K_Jfavorablesignedcorecross/growingI/Xi andwhole4/5negative-inertiaUPPERunchanged.",
-    "why_this_contract": "595whole9/8 analyticbridge ALREADYpaid; existingrawhead/residualnotnewinput. ONEactualC floatprobeunresolved/no sign. Differentretained-tailV/G_Roperator-domainstandard0closed; actualnewcolumns/duerrors/wholecoupling valuesnextsourcegate, notunknownSchurrename.",
+    "why_this_contract": "ActualONEsource/replay found h0:1660 nestingSTOP atstoredzeroendpoint. NewV/G remainunconsumed. ONEproof-only acceptance comparison may decideifSAMEoriginalnorm targets havea completecenter-distancecertificate; noarrays/retry/contract.",
     "paused_routes": [
       "零点比例优化",
       "无零区域优化"
@@ -40,9 +40,9 @@
     "settled_iterations": [
       "notes/603-two-cutoff-sonin-leakage-phase-misalignment.md"
     ],
-    "stage": "C066exhausted/603latest. DirectQinput0/actualCfloatunresolved/retained-tailDOMAINstandard0 rootclosed. Source69f07a22/treebd6434ab/exact20 independentlyverified; ONEexact3metadatachild recording.",
-    "next_action": "Verifyactualfinalref/commit/tree/localHEAD/soleparent69f07a22/exact3/clean/checkpoint/21pins+2localpackets/3rawguards. OnmatchONLYtheUNEXECUTEDfixedE448/eta1 retained-tailV/G_Rsourcegate per6166; freezeerrors/stopfirst, no C067604/mathbudget orpilot/oldinverse retry.",
-    "stop_rule": "OnefixedY=X² actualcrossprojection responsibility. Ifpremisesfail/oldnetonly, stopaccurately; no exponent/gain/source/rank successors. No Goalgate claim."
+    "stage": "C066spent/603latest; rootsettledONEsourcegateSTOP:32245pass/69254containmentfail; diagnosisclosed, newV/Gfrozen. Preparingaccuratepublicsync.",
+    "next_action": "Publish+verifyexactSTOP. ThenONEproof-onlyadmission perBE: FINAL-center fullh/V/G/infinite-tail nativeerror vsnesting; NOarrays/replay/head/MV/C067604 withoutnewpremiseclosure.",
+    "stop_rule": "C066oneY=X²budgetspent; noautomaticexponent/gain/rank/window/source successors orGoalgate."
   },
   "support_contracts": [],
   "must_not_forget": [
@@ -91,22 +91,27 @@
       "path": "reviews/2026-10-31/direct-weil-core-admission/root-consumption-scope.json",
       "kind": "experiment",
       "scope": "ONEactualC floatheadunresolved; 595wholebridgepaid recovered, retained-tailV/G_RdataUNEXECUTED;0math."
+    },
+    {
+      "path": "reviews/2026-10-31/retained-tail-source/root-consumption-scope.json",
+      "kind": "experiment",
+      "scope": "ONEproducerPASS/independentreplayh0:1660STOP; newV/G anderrorfees frozen/unconsumed,0math."
     }
   ],
   "pending_processes": [],
   "runtime_goal_observation": {
     "status": "active",
     "created_at_unix": 1793085111,
-    "observed_at_utc": "2026-10-31T13:23:38.526129+00:00",
-    "basis": "Liveget_goal sameinstance afteractualaudits/pilot/domainrootclosure andsourcepublicationverification; newsourcepacket unexecuted."
+    "observed_at_utc": "2026-10-31T14:32:31.551302+00:00",
+    "basis": "Liveget_goal sameinstance AFTERactualproducer140.544s/replay383.651sSTOP; sourceunconsumed, noGoalgate."
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-10-31-direct-weil-core-sync.json",
+  "checkpoint": "goals/checkpoints/2026-10-31-retained-tail-source-source.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
-    "commit": "69f07a222b620abda8618ab2a1050212ee54e098",
-    "tree": "bd6434abfc02e61b1735242bab2ab18056940858",
-    "basis": "Actualsource69f07a22 verifiedref/gitcommit/gittree/localHEAD/soleparent6e472102/exact20/clean/checkpoint/21pins+2localpackets/3guards. ActualfinalHEAD iffONEexact3metadatachild independentlymatches; sourceSHAnotfuturefinal."
+    "commit": "a459f2908e85f8d7decf6dd752689ff487f7f6e6",
+    "tree": "b8693d13f90b5012028943b1cb9f17db577366c3",
+    "basis": "ActualAPI+localparent/exact3/clean/checkpoint/21pub+2local PASS; execution-start."
   },
   "completion_audit": {
     "goal": "goals/GOAL.20261027.md",
@@ -114,11 +119,11 @@
     "goal_lf_sha256": "b3d2acb1f962d793f45d79b6a4e67fb87dd072cd4752108a9298204b4cefa1de",
     "mathematical_gate": "open",
     "final_execution_gate": "not-eligible",
-    "basis": "Oldinput0/numsignunresolved/newsource-domainfacilitystandard0; no actualnewsignedwhole/coremargin orGoalgate. All3open/sameactive."
+    "basis": "ONEsourceverificationSTOP; allnewV/G unconsumed; no signedwhole/coremargin. All3open/sameactive."
   },
-  "process_inventory_observed_on": "2026-10-31T13:23:38.526129+00:00 allmatchingcurrentaudit/pilot/domain tasks+children terminal/rootconsumed; noexec/shell. Finalmetadataverificationnext.",
+  "process_inventory_observed_on": "2026-10-31T14:32:31.551302+00:0032245terminal0/69254terminal1; allmatchingagents terminal; no shell/science.",
   "publication_approval_gate": {
-    "status": "source-verified-metadata-child-condition-armed",
+    "status": "source-ready-scope-stopped",
     "destination": "https://github.com/lixiang90/RH-Weil",
     "visibility": "public",
     "branch": "main",
@@ -126,11 +131,11 @@
       "observed_for_client_date": "2026-10-27",
       "source": "本轮直接用户请求",
       "reply": "每轮把进度同步到github；把文献保存在文献库中，用研究看板来记录各个路线的状况",
-      "scope": "Publicresearch/Goal/STATE/board/librarymetadata/reviews/receipts; unlicensedfulltext localonly."
+      "scope": "Publicresearch/state/board/librarymetadata/reviews; unlicensedfulltextlocalonly."
     },
-    "current_scope": "Input0/experimentunresolved/retained-tailstandard0 source69f07a22 verified20paths; finaliffONEexact3metadatachild actualref/tree/parent/paths/checkpoint/21pins+2local/guardsmatches. 0math.",
-    "verification": "reviews/2026-10-31/direct-weil-core-admission/remote-sync-verification.json",
-    "metadata_child_condition": "reviews/2026-10-31/direct-weil-core-admission/remote-sync-verification.json"
+    "current_scope": "PublishnewsourceverificationSTOP/conditionalanalysis/code/hashes; V/Gunconsumed;0math.",
+    "verification": "reviews/2026-10-31/retained-tail-source/remote-sync-verification.json",
+    "metadata_child_condition": "ONEexact3afteractualsourceverify; see receipt."
   },
   "research_board": "RESEARCH_BRANCHES.md",
   "literature_index": "literature/README.md",
@@ -144,12 +149,12 @@
     "haran_tensor_locator": {
       "status": "raw-tensor-and-spec-label-frozen-limited-selfcase-root-fresh-reclosed",
       "path": "reviews/2026-10-29/post-600-new-input/haran-faithful-zero-and-selfcase-scope-closure.md",
-      "scope": "Initialmodule tensor frozen: actualcircledcirc. Literalstrictfaithful generalallpairs7.1 cannotunconditionallyconsume; selfpair idcocone directproof reclosed. Spec(i) projection/Spec(d) diagonal correctappendix only; fullcompactified/physicalbridge unconsumed. Fullledger preserves source/exposure andoldlocatorcorrection."
+      "scope": "Rawtensor/generalallpairs remainfrozen; selfpair idcocone reclosed; Speci projection/Specd diagonal only. Fullroles/history inlinkedrecord."
     },
     "onebody_fixed_smooth_rate": {
       "status": "raw-unpaid-fixedsmooth-and-new-attribution-frozen-old533-limited-reclosed",
       "path": "reviews/2026-10-29/onebody-full-returns/533-fixed-source-scope-correction.md",
-      "scope": "Original4340/post601root/fresh/AKunpaid-fixedsmooth/newcredit frozen; 533oldfixedp^-2/abs+585589587reclosed. DifferentC065wholeunitball compactnorm602nowrootclosed, notnewfixedrnet."
+      "scope": "Rawunpaid/newcredit attributions frozen. Old533fixedsmooth/finiteE reclosed; different602wholeunitballpaid. Exactscope inlinkedcorrection."
     },
     "frs_printed_fe": {
       "status": "literal-PDF24-FE-frozen-limited-corrected-reflection-root-fresh-reclosed",
@@ -169,20 +174,20 @@
   },
   "source_control_correction": {
     "status": "584oldscope-and598fixedcompleteB-fullimage-rootfreshclosed",
-    "basis": "584differentfiniteB and598samepositive-realcountableB scopes distinct. 598allonlyB exact/mixed/pointwise collapse consumed; extraactualdata/domain/Dprime preserved. See598rootledger."
+    "basis": "584differentfiniteB vs598samefullB exactallsource/mixedcollapse; extra data/domain/Dprime retained. See598rootledger."
   },
   "principal_completion_scope_correction": {
     "status": "nonclosed-unconditional-extension-frozen-closed-branch-root-fresh-reclosed",
     "path": "reviews/2026-10-27/joint-oldform-tower/583-principal-closed-base-correction.md",
-    "basis": "583closedbasebranch reclosed; nonclosed onlyclosure, raw/native/584 unchanged."
+    "basis": "Closedbase reclosed; nonclosed onlyclosure. Exactscope inlinkedcorrection."
   },
   "classical_theta_normalization_scope_correction": {
     "status": "literal-frozen-corrected-scalar-K-P0-Phi-and-fees-root-fresh-reclosed-arithmetic-theorem-unpaid",
     "path": "reviews/2026-10-27/classical-theta-analytic/literal-normalization-freeze.md",
     "repair_record": "reviews/2026-10-27/corrected-theta-source/root-consumption-scope.json",
-    "basis": "Rawtheta frozen; scalarK/P0/Phi/fees reclosed, arithmetic7.4/stackindex unpaid. MB/582/583 unchanged."
+    "basis": "Literalraw frozen; correctedscalar/sourcefees reclosed, overallarith7.4/stackindex unpaid. MB/582/583 unchanged; seeoriginalrecord."
   },
-  "latest_causal_review": "goals/reviews/2026-10-31-direct-weil-core-input-stop.md",
+  "latest_causal_review": "goals/reviews/2026-10-31-retained-tail-source-stop.md",
   "sonin_high_scope_recovery": {
     "path": "reviews/2026-10-28/action-cone/strongest-old-sonin-recovery-correction.md",
     "status": "old-paid-safe-high-range-recovered-root-fresh-limited",
@@ -191,12 +196,12 @@
   "inclusion_cone_exact_scope": {
     "path": "reviews/2026-10-28/inclusion-cone-survival/root-consumption-scope.json",
     "status": "source-exact-boundary-in-unreduced-fixed-domain-root-fresh-closed",
-    "basis": "任意a∈A/B∈闭J同型z有finite primitive，3||a||||B||；原源6L1。此前仅reduced未判unreduced入口现exact关闭，不声称全cone零/linear contraction/回到trace-norm。"
+    "basis": "Unreducedactualsame-domain primitive exists,3||a||||B||/original6L1; notallhigher/linearcontraction. Exactscope inlinkedrecord."
   },
   "homological_locator_admission": {
     "path": "reviews/2026-10-28/post-cone-investment/next-noncanonical-homological-primary-locator.md",
     "status": "one-fixed-batch-executed-exhausted-empty-no-locator-no-recursive-successor",
-    "basis": "固定3query/arxiv aggregate空，0primary/全文；预算耗尽，不作全网不存在/递归续查依据。",
+    "basis": "Fixedbatch3queries empty/exhausted; no primary/fulltext, no allwebnonexistence/recursivequery claim.",
     "execution_record": "reviews/2026-10-28/homological-primary-locator/query-execution-record.json",
     "consumption": "reviews/2026-10-28/homological-primary-locator/root-consumption-scope.json"
   },

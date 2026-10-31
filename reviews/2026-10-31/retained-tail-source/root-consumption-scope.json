@@ -1,0 +1,314 @@
+{
+  "schema": "rh-weil-retained-source-root-consumption-v1",
+  "date": "2026-10-31",
+  "at_utc": "2026-10-31T14:33:31.965271+00:00",
+  "runtime_goal_created_at": 1793085111,
+  "baseline": "0c4f3a3eb609bb1d9564138fa4a35701f05605f2",
+  "status": "SOURCE_VERIFICATION_STOP_ROOT_CONSUMED_NOT_SOURCE_VALUES",
+  "root_report": "reviews/2026-10-31/retained-tail-source/root-source-stop.md",
+  "actual_execution": {
+    "producer": {
+      "handle": 32245,
+      "exit_code": 0,
+      "seconds": 140.54429049999453,
+      "status": "SOURCE_PACKET_PRODUCED_PENDING_INDEPENDENT_REPLAY"
+    },
+    "replay": {
+      "handle": 69254,
+      "exit_code": 1,
+      "seconds": 383.65088509999623,
+      "status": "STOPPED_NO_RETRY",
+      "reason": "INDEPENDENT_CONTAINMENT: h:0:1660"
+    },
+    "retry_count": 0,
+    "pending_processes": []
+  },
+  "premise_closure": {
+    "object": "R=Ttail-tau-Uold; V=RE448:C^448->originalH; G_R=E*V notV*V/oldinverseM",
+    "norm_domain": "L2((-9/8,9/8),du;C), physicalr=e^(u/2)bare, Fourierdt/(2pi); e_j inD(R); Dlogunchanged",
+    "quantifiers": "FixedL9/8/Omega256/E448/eta1; complexlinearcolumns; no growingwindow/Xi",
+    "paid": "Old595fullGamma/contact/ppincl9/negativeoddpole/domain/infiniteranktail/M/cross/source; Rpositive/tinyfloor/shorting standardold0. NewrealspaceGamma/q/logrepresentation standardfacilityreviewed.",
+    "unpaid": "ALLactualnewfullh/V/G certification stopped; conditionalop2^-203/HS2^-198/G2^-203 notconsumable. No numericretshorting/inverse/head/wholemargin.",
+    "coefficient_direction": "qconvolutionnegative; rawU36; endpointlogtailpositiveoffdiag; uppererrorfees notnegative lower. Failureisintervalpredicate notQsign.",
+    "coverage_coupling": "2047h/458528finiteV/448norms produced plusanalyticinfinitelogtail; independentreplaystoppedh0:1660 beforecompleteh/V/G/norms. ConditionalwholeSchur needsM10/mixedMV/Gram orwholeinverse.",
+    "strongest_old_net": "No newwhole9/8sign/core/growingXi. Old53717/16fullsource and542+555->557whole4/5negative-inertiaUPPER retain exactscope; old595bridge notrolledback.",
+    "freeze": "NewV/G+fees/complementnorm unconsumed. OnlysourceverificationSTOP consumed. No partial-to-full promotion."
+  },
+  "diagnosis": {
+    "stored_interval": "h0degree1660 [0,1]/2^640",
+    "actual_replay_endpoints_saved": false,
+    "conditional_range": "Reviewedformula bound placesreplayendpoints|.|<2^-1625; hencezerolowerside undercodepremises. No actualsource sign/truth proof.",
+    "no_science_rerun": true
+  },
+  "classification": {
+    "math_iterations": 0,
+    "formal_review": false,
+    "cadence": "soleunchanged1/history67/latest603/formal21",
+    "new_external_sources": 0,
+    "library_entries": 143,
+    "new_signed_certificate": false,
+    "key_bottleneck_changed": false,
+    "local_execution_gap": "acceptancerelation andcompleteindependentnewsourcecertification",
+    "goal_gates": "all3open/sameactive"
+  },
+  "next_action": "Accuratepublication thenONEproof-onlyadmission comparisonofsamefullnativeFINAL-centererrorsvsnesting. Noproduction/replay/head/MV/parameter/mathsuccessor beforeseparateclosure. Ifnoactualcompletecomparison,stop/noqueue.",
+  "public_bindings": [
+    {
+      "path": ".gitattributes",
+      "raw_bytes": 9353,
+      "sha256_lf": "ebdc0115064068c4ea51ff9ed49d53f4028a9fa1694f5c80e54029aab130f989",
+      "sha256_raw": "43365a357dbed5f17dcc1a39efc074b07e5e0e890a3bc883fb01af7bfbdacddd",
+      "raw_git_required": false
+    },
+    {
+      "path": "RESEARCH_BRANCHES.md",
+      "raw_bytes": 298649,
+      "sha256_lf": "e7b93a0f9fd899532827492a12df95839b57ea3edbc01d0cf5559128db635dae",
+      "sha256_raw": "d3443c869ceda69c96fb4b1f1d58e2a1fb7ab27ff04077a9f36749caeb1c51f3",
+      "raw_git_required": false
+    },
+    {
+      "path": "goals/DECISIONS.md",
+      "raw_bytes": 361595,
+      "sha256_lf": "17f16662515eb93392c78582d9977c932f4c656d753fd9b05d2f5aafa7af36eb",
+      "sha256_raw": "105c2da949a6837a9705aa7c8e232db1203b5036ed48ecb21c3c39c6a92b765e",
+      "raw_git_required": false
+    },
+    {
+      "path": "goals/GOAL.20261027.md",
+      "raw_bytes": 9679,
+      "sha256_lf": "b3d2acb1f962d793f45d79b6a4e67fb87dd072cd4752108a9298204b4cefa1de",
+      "sha256_raw": "b3d2acb1f962d793f45d79b6a4e67fb87dd072cd4752108a9298204b4cefa1de",
+      "raw_git_required": false
+    },
+    {
+      "path": "goals/MACRO_FRONTIER.md",
+      "raw_bytes": 124733,
+      "sha256_lf": "ad555bb6e010216f5b88181f601ea653c7f78e3ae2aafc3abb9d05d2c4a71ff2",
+      "sha256_raw": "c654758212cfcda3b0e6c968b05f9e78b50629f9d586c6b7c643b237424bc72b",
+      "raw_git_required": false
+    },
+    {
+      "path": "goals/README.md",
+      "raw_bytes": 88660,
+      "sha256_lf": "7be967a250059b4fe85464328f7487e125e87e37c9428e7f4b6f8013aa3d0841",
+      "sha256_raw": "a910bfd23a3e2b74e0c43f6298502207d5fb1306c3ec41c8d608da477465e7f4",
+      "raw_git_required": false
+    },
+    {
+      "path": "goals/review-cadence.json",
+      "raw_bytes": 6905,
+      "sha256_lf": "4e556b9a84fd365a3a55bc4c345dc3dbe0f6e0543394dcca04093387a77560de",
+      "sha256_raw": "4e556b9a84fd365a3a55bc4c345dc3dbe0f6e0543394dcca04093387a77560de",
+      "raw_git_required": false
+    },
+    {
+      "path": "goals/reviews/2026-10-31-retained-tail-source-stop.md",
+      "raw_bytes": 1496,
+      "sha256_lf": "e9ad816347f98d1fdffd24c04099ae68314a972d660ded616e5c31137faf94c9",
+      "sha256_raw": "e9ad816347f98d1fdffd24c04099ae68314a972d660ded616e5c31137faf94c9",
+      "raw_git_required": false
+    },
+    {
+      "path": "literature/README.md",
+      "raw_bytes": 149173,
+      "sha256_lf": "0e0e5c899d64b27b75a2b14649d41e80f49ad8b5fe6770db043bc28648cf70ba",
+      "sha256_raw": "6368a91d998d4407c67b0e085720a5ba315e04df81c46bdb78b845ee0e4da17c",
+      "raw_git_required": false
+    },
+    {
+      "path": "literature/manifest.json",
+      "raw_bytes": 223850,
+      "sha256_lf": "3223cffd0205b9a1f8660445ac33d0f3cec13b3bd1fa5e7799ed8abfb2746d42",
+      "sha256_raw": "3223cffd0205b9a1f8660445ac33d0f3cec13b3bd1fa5e7799ed8abfb2746d42",
+      "raw_git_required": false
+    },
+    {
+      "path": "literature/supplements/2026-10-31-retained-tail-source-stop-scope.md",
+      "raw_bytes": 1125,
+      "sha256_lf": "e78eecc18d68d21cbf669f7d825d25c2e9f382c065ef559479737f7821d6dda7",
+      "sha256_raw": "e78eecc18d68d21cbf669f7d825d25c2e9f382c065ef559479737f7821d6dda7",
+      "raw_git_required": false
+    },
+    {
+      "path": "reviews/2026-10-31/retained-tail-source/analytic-controls.json",
+      "raw_bytes": 1527,
+      "sha256_lf": "b4ce69f4119fba03aee201902717a7d8802bb8b8ad97634e3a7bf5304133669c",
+      "sha256_raw": "605cc282be8b9284ef1b232d322f8d229d0c9ee317948d5b4185a18c284849bb",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-10-31/retained-tail-source/check-source.py",
+      "raw_bytes": 35948,
+      "sha256_lf": "1d36d353cdeaccb9cfa63529bebb08d6a5f09cdf7e2b280b53f287d64ba54753",
+      "sha256_raw": "1d36d353cdeaccb9cfa63529bebb08d6a5f09cdf7e2b280b53f287d64ba54753",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-10-31/retained-tail-source/checker-review.md",
+      "raw_bytes": 8555,
+      "sha256_lf": "b06da75d5e7bd7d60ef65193176661c1fcd172cabb804fdc97617c540b4e3842",
+      "sha256_raw": "b06da75d5e7bd7d60ef65193176661c1fcd172cabb804fdc97617c540b4e3842",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-10-31/retained-tail-source/design-fresh-check.md",
+      "raw_bytes": 12636,
+      "sha256_lf": "cf25135ffce76d93d1c90b158494a6002b0e158407e21bd80d9d2b2bebcc1eed",
+      "sha256_raw": "cf25135ffce76d93d1c90b158494a6002b0e158407e21bd80d9d2b2bebcc1eed",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-10-31/retained-tail-source/execution-start.json",
+      "raw_bytes": 1992,
+      "sha256_lf": "7efd4ef7a791d511804ce151c38bd4bcb85cbf9ddd2b57bbb6dd1ea3bf1fcacd",
+      "sha256_raw": "c6f36f00932108c0be722c9e5bbb0fef1df39963b4032cecb8d4e614f4e0db64",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-10-31/retained-tail-source/failure-analysis.md",
+      "raw_bytes": 6318,
+      "sha256_lf": "21531a9d6edf9b470c7ef99e93dda016211d695156304f95b04437d0f4916219",
+      "sha256_raw": "21531a9d6edf9b470c7ef99e93dda016211d695156304f95b04437d0f4916219",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-10-31/retained-tail-source/post-source-next-admission.md",
+      "raw_bytes": 12051,
+      "sha256_lf": "b8b99142994438698aa0da74f0ea645f632a08924a6095ba96b1ae066de3edef",
+      "sha256_raw": "b8b99142994438698aa0da74f0ea645f632a08924a6095ba96b1ae066de3edef",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-10-31/retained-tail-source/preregistration.md",
+      "raw_bytes": 5532,
+      "sha256_lf": "43e71892740e015d2b93982d865d28dd9e3b59157eece89cdfc6a9b43629077b",
+      "sha256_raw": "43e71892740e015d2b93982d865d28dd9e3b59157eece89cdfc6a9b43629077b",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-10-31/retained-tail-source/produce-source.py",
+      "raw_bytes": 34788,
+      "sha256_lf": "05f395038a4e2a75027b69996f990e1978d6e09c799dfbd43fd41fa1add8d45b",
+      "sha256_raw": "05f395038a4e2a75027b69996f990e1978d6e09c799dfbd43fd41fa1add8d45b",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-10-31/retained-tail-source/producer-freeze.json",
+      "raw_bytes": 3000,
+      "sha256_lf": "1e3f8382b749eac430bc389f3f1c92d3c63752f10de5787502b665f184580a00",
+      "sha256_raw": "833f360a8f1edde9c69a7287fc1f921c1585aa590cc1904ee481b6c4c9013975",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-10-31/retained-tail-source/production-observation.json",
+      "raw_bytes": 2474,
+      "sha256_lf": "88a4776ab03166bdb7e965f99ab221328ca602ff38f655a011baa5fa079d15e0",
+      "sha256_raw": "ccec88a2f28975fb8c61dca9a6f25bd1a82e91a5d6f6d51b12bcb5bd7989c4ae",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-10-31/retained-tail-source/replay-freeze.json",
+      "raw_bytes": 2712,
+      "sha256_lf": "0106b6da98b047da4c34a3336a1f31884b0f81936c4c4c261a950f9415b555a7",
+      "sha256_raw": "910c09a29f0b6142f22ae8aa8b1b7e2678b050d731dca0a68ebd0e32f3aa73e6",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-10-31/retained-tail-source/replay-stop.json",
+      "raw_bytes": 1287,
+      "sha256_lf": "5155ba3e55e0ce06d01136c15677f213a8734303b630227f04fb3f1d02d9303e",
+      "sha256_raw": "5155ba3e55e0ce06d01136c15677f213a8734303b630227f04fb3f1d02d9303e",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-10-31/retained-tail-source/representation-proof.md",
+      "raw_bytes": 10736,
+      "sha256_lf": "d710b9ea3a094d37907965552dd132890fd930478595906a0545e2d3dbe511f4",
+      "sha256_raw": "d710b9ea3a094d37907965552dd132890fd930478595906a0545e2d3dbe511f4",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-10-31/retained-tail-source/root-source-stop.md",
+      "raw_bytes": 4342,
+      "sha256_lf": "9665a5c69b1267ce0fbcaae3729332ae77a3363b7bd3565400a3da29445e9fad",
+      "sha256_raw": "716610ac74405c8250532c29e71e738e6ccf00daf666b2e2fd7660f084669477",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-10-31/retained-tail-source/source-design.md",
+      "raw_bytes": 10986,
+      "sha256_lf": "55373dda47da0f18e01fd6c0d75e71bb91cac0091cf199ed843d951911a16e2c",
+      "sha256_raw": "55373dda47da0f18e01fd6c0d75e71bb91cac0091cf199ed843d951911a16e2c",
+      "raw_git_required": true
+    }
+  ],
+  "local_bindings": [
+    {
+      "path": "literature/local/2026-10-29-weil-9-8/pilot/run-01/certificates/moments.json",
+      "bytes": 734638,
+      "sha256": "2d166f7ae457fd61826329d31365564e25f1cfc6bc19d09aef22d2ec89c6bbd9",
+      "ignored": true
+    },
+    {
+      "path": "literature/local/2026-10-29-weil-9-8/pilot/run-01/certificates/tail-columns.json",
+      "bytes": 296046,
+      "sha256": "d714fa8d717a8f39d8b3b57cc6292e3f14844041b83802cf57ee47aa03c65a0e",
+      "ignored": true
+    },
+    {
+      "path": "literature/local/2026-10-29-weil-9-8/pilot/source/02-produce.py",
+      "bytes": 6946,
+      "sha256": "792ee1c93291459ca903b6f4f5e3c4f051f2463a1a020eac756b13fa6b913337",
+      "ignored": true
+    },
+    {
+      "path": "literature/local/2026-10-29-weil-9-8/pilot/source/08-produce.py",
+      "bytes": 9863,
+      "sha256": "ae0f487544c203905faecbb78b30f94fb16fe4f2f63c6b9846ca13ea673ba2b7",
+      "ignored": true
+    },
+    {
+      "path": "literature/local/2026-10-29-weil-9-8/pilot/source/11-checker_quotient.py",
+      "bytes": 7899,
+      "sha256": "ea6f8ed0e2780aa2835bb75f1a7e08fd807220ac4eb1b14f8c6aa0834e331af3",
+      "ignored": true
+    },
+    {
+      "path": "literature/local/2026-10-29-weil-9-8/pilot/source/12-raw_column_producer.py",
+      "bytes": 5460,
+      "sha256": "a8a67b4e08d540f51e152fe05bd19d77ae69fc618e4d6c08cb24c730b3afbb9c",
+      "ignored": true
+    },
+    {
+      "path": "literature/local/2026-10-31-retained-tail-source/run-01/h-columns.jsonl",
+      "bytes": 233458,
+      "sha256": "37f2c0410beb1b1c43b9f8d2df24d72fce3170b5f359d089c198742f1eee4e74",
+      "ignored": true
+    },
+    {
+      "path": "literature/local/2026-10-31-retained-tail-source/run-01/finite-columns.jsonl",
+      "bytes": 73598411,
+      "sha256": "d841d307d2b22367570e594c1bc9e3b64c8a4ffef88691382acf5d6fbeeaf080",
+      "ignored": true
+    },
+    {
+      "path": "literature/local/2026-10-31-retained-tail-source/run-01/column-norms.jsonl",
+      "bytes": 303201,
+      "sha256": "0506bf585a562d2585cbf8aa0b2ca3e8106ab5816f7f09db84245a235525b1cf",
+      "ignored": true
+    },
+    {
+      "path": "literature/local/2026-10-31-retained-tail-source/run-01/result.json",
+      "bytes": 61030,
+      "sha256": "a9fb5f5150bc17f56ebc3bd9e981ce0ec421c8efdf5612554ccc3a751eff6de5",
+      "ignored": true
+    },
+    {
+      "path": "literature/local/2026-10-31-retained-tail-source/run-01/replay-result.json",
+      "bytes": 1287,
+      "sha256": "5155ba3e55e0ce06d01136c15677f213a8734303b630227f04fb3f1d02d9303e",
+      "ignored": true
+    }
+  ]
+}
