@@ -1,0 +1,234 @@
+{
+  "schema": "RH_WEIL_FINITE_PROTOCOL_CORRECTION_CARRYFORWARD_V1",
+  "owner": "/root/global_finite_consumer",
+  "date": "2026-11-01",
+  "status": "PROTOCOL_CORRECTION_IMPLEMENTED_FINAL_REVIEW_PENDING",
+  "runtimeGoalCreatedAt": 1793085111,
+  "baseline": "0c4f3a3eb609bb1d9564138fa4a35701f05605f2",
+  "oldConsumer": {
+    "bytes": 36426,
+    "sha256": "05b493e8dd371735c3229133f49a885cfa8a78612f47fc4e90361d6df2866c8c",
+    "oldNotes": "reviews/2026-11-01/global-joint-code-preparation/finite-implementation-notes.md"
+  },
+  "newConsumer": {
+    "path": "reviews/2026-11-01/global-joint-code-preparation/finite-whole-consumer.py",
+    "bytes": 47909,
+    "sha256": "6919ea1306ba9539520851634f0fa68980499a479bd529e73cf4b36a5116ab17"
+  },
+  "newIndependentReplayController": {
+    "path": "reviews/2026-11-01/global-joint-code-preparation/independent-finite-checker.py",
+    "bytes": 36234,
+    "sha256": "4cdbc6fcb9ae52cf1766ddbd71bf5e7f579a91f7d331939779448c9075539602"
+  },
+  "unchangedFunctionASTs": {
+    "add": {
+      "old": "86f9a68a410979d85cf82ce274e837e1614ccc44a818172f9b4891b35f0ed865",
+      "new": "86f9a68a410979d85cf82ce274e837e1614ccc44a818172f9b4891b35f0ed865",
+      "equal": true
+    },
+    "assembled_target": {
+      "old": "33fc37ad2fb9828ddabeb86c324f1559509d396f8dbdab36cf652d744c498e1b",
+      "new": "33fc37ad2fb9828ddabeb86c324f1559509d396f8dbdab36cf652d744c498e1b",
+      "equal": true
+    },
+    "ceildiv": {
+      "old": "61f6c9c635d3d9a1fba7177604198ac8dd682d3d617c14736259a012ac5b1d81",
+      "new": "61f6c9c635d3d9a1fba7177604198ac8dd682d3d617c14736259a012ac5b1d81",
+      "equal": true
+    },
+    "checked": {
+      "old": "964d273b0313eb71843716b4f27cb2d9dfdb4c48f5c8f2eaa8ac34a8e85a74d3",
+      "new": "964d273b0313eb71843716b4f27cb2d9dfdb4c48f5c8f2eaa8ac34a8e85a74d3",
+      "equal": true
+    },
+    "decode": {
+      "old": "4d73dbb685c20bd8e2e9be8de1d87ecdf84aaf59de02a70ae20f291595467066",
+      "new": "4d73dbb685c20bd8e2e9be8de1d87ecdf84aaf59de02a70ae20f291595467066",
+      "equal": true
+    },
+    "digest": {
+      "old": "bd18d7b3154ff142742f1a322332cd90646fec58f94b3e95de1037f7bfd61c7a",
+      "new": "bd18d7b3154ff142742f1a322332cd90646fec58f94b3e95de1037f7bfd61c7a",
+      "equal": true
+    },
+    "divpos": {
+      "old": "1dd06f3dfc556c2f1c1093a4aaac975c1d09c1abed4f9579e51372984944ba2d",
+      "new": "1dd06f3dfc556c2f1c1093a4aaac975c1d09c1abed4f9579e51372984944ba2d",
+      "equal": true
+    },
+    "exact_product": {
+      "old": "80b254696563460f7bad1e39d1c4e01d984a256043ad5020c53adbf971093cc5",
+      "new": "80b254696563460f7bad1e39d1c4e01d984a256043ad5020c53adbf971093cc5",
+      "equal": true
+    },
+    "file_hash": {
+      "old": "447df46be89f98e6c8691923d9a8dbe7b810736278e23f94211ca7471b6f4c07",
+      "new": "447df46be89f98e6c8691923d9a8dbe7b810736278e23f94211ca7471b6f4c07",
+      "equal": true
+    },
+    "integer": {
+      "old": "4e28070555580902eacf7375920efb138f6cc68855ddcfaa36cd4b7a42c542f3",
+      "new": "4e28070555580902eacf7375920efb138f6cc68855ddcfaa36cd4b7a42c542f3",
+      "equal": true
+    },
+    "intersect": {
+      "old": "6aeb3bc097fa68970d27be55ff2bb416bb9cd6142f322407c3085ba8a5129305",
+      "new": "6aeb3bc097fa68970d27be55ff2bb416bb9cd6142f322407c3085ba8a5129305",
+      "equal": true
+    },
+    "interval_ldl": {
+      "old": "091c4becf188f369fe48df16080c780335c19c37a44ca981dc69d66b56523a36",
+      "new": "091c4becf188f369fe48df16080c780335c19c37a44ca981dc69d66b56523a36",
+      "equal": true
+    },
+    "interval_solve": {
+      "old": "a49ac5dff86f585d0804ea0480906b181ca63e96cc0ac62e8a78e853ad27b089",
+      "new": "a49ac5dff86f585d0804ea0480906b181ca63e96cc0ac62e8a78e853ad27b089",
+      "equal": true
+    },
+    "iv_product": {
+      "old": "4cf49a5a5968a5fecf22e836a06689abfaade42ec76ea05d55005fbab2ac12e0",
+      "new": "4cf49a5a5968a5fecf22e836a06689abfaade42ec76ea05d55005fbab2ac12e0",
+      "equal": true
+    },
+    "load_centers": {
+      "old": "57228a8ac4e494fa7ccaf19f4418ed8f7426c0dfaca2b6e5818ea457aa495432",
+      "new": "57228a8ac4e494fa7ccaf19f4418ed8f7426c0dfaca2b6e5818ea457aa495432",
+      "equal": true
+    },
+    "main": {
+      "old": "bc101c2d630a27d66379c6eaa2650c8e01daae4077d8db151711c4860c5acec6",
+      "new": "bc101c2d630a27d66379c6eaa2650c8e01daae4077d8db151711c4860c5acec6",
+      "equal": true
+    },
+    "mul": {
+      "old": "429fe63e7479c4c4e86962cac977d441b2e2211c89ae881487c162ded5bf033e",
+      "new": "429fe63e7479c4c4e86962cac977d441b2e2211c89ae881487c162ded5bf033e",
+      "equal": true
+    },
+    "need": {
+      "old": "a06f923ac6223241a70d80105c35b555016a9dccf5d416b0bf2596566ce088dd",
+      "new": "a06f923ac6223241a70d80105c35b555016a9dccf5d416b0bf2596566ce088dd",
+      "equal": true
+    },
+    "neg": {
+      "old": "db872f26f7b8031f6dfb31741e09a8ce6109624703ed827ecd6ebc9896d9fe25",
+      "new": "db872f26f7b8031f6dfb31741e09a8ce6109624703ed827ecd6ebc9896d9fe25",
+      "equal": true
+    },
+    "old_head_and_covariance": {
+      "old": "9019733458c67047e607889b60fe3006061efd6da66e3d6219d02de2a4963b95",
+      "new": "9019733458c67047e607889b60fe3006061efd6da66e3d6219d02de2a4963b95",
+      "equal": true
+    },
+    "packed": {
+      "old": "d0032356eaeb1349140021b9fe9b1023dfca28e76fee841d67e480140ba12b25",
+      "new": "d0032356eaeb1349140021b9fe9b1023dfca28e76fee841d67e480140ba12b25",
+      "equal": true
+    },
+    "packet_expected": {
+      "old": "38327bb1115637b25ab93854651dafefe05425a0909b7083506769000aabe272",
+      "new": "38327bb1115637b25ab93854651dafefe05425a0909b7083506769000aabe272",
+      "equal": true
+    },
+    "point": {
+      "old": "8225b6dd4f3bbf14f5640f539e5d969b2f95fc89b0047afa4a7fdea555740ba5",
+      "new": "8225b6dd4f3bbf14f5640f539e5d969b2f95fc89b0047afa4a7fdea555740ba5",
+      "equal": true
+    },
+    "read_pin": {
+      "old": "29fc0130401fda348ec79bcae93175b439a179c938dfbe7df02dd407544a3bcd",
+      "new": "29fc0130401fda348ec79bcae93175b439a179c938dfbe7df02dd407544a3bcd",
+      "equal": true
+    },
+    "read_shared_packet": {
+      "old": "b0ea5e9bb7b5fa8b31f71c18b3ac7991c7aca856063bdf8271ad9e06aa0522bf",
+      "new": "b0ea5e9bb7b5fa8b31f71c18b3ac7991c7aca856063bdf8271ad9e06aa0522bf",
+      "equal": true
+    },
+    "relative_path": {
+      "old": "8dff2bcee5007ccbdc414a70b2292b49a2f948ab13c58fe22a8ab5b3e0c35f60",
+      "new": "8dff2bcee5007ccbdc414a70b2292b49a2f948ab13c58fe22a8ab5b3e0c35f60",
+      "equal": true
+    },
+    "square": {
+      "old": "d25bcdedd89cd99fc0e9a309112a92f7d7b0aeb53b604f3b42307c679945c198",
+      "new": "d25bcdedd89cd99fc0e9a309112a92f7d7b0aeb53b604f3b42307c679945c198",
+      "equal": true
+    },
+    "sub": {
+      "old": "f9bb9b80bceff601fd04823093de51de7a9ba60a179280ad7f35c73a57241415",
+      "new": "f9bb9b80bceff601fd04823093de51de7a9ba60a179280ad7f35c73a57241415",
+      "equal": true
+    },
+    "symmetrize": {
+      "old": "7e91162a88e6db990e8500e05fe11c2cb2406aa70c671e57a04a0e34a23bb06f",
+      "new": "7e91162a88e6db990e8500e05fe11c2cb2406aa70c671e57a04a0e34a23bb06f",
+      "equal": true
+    },
+    "transpose": {
+      "old": "68aa05d2d3bda1bdbfb2a776a805794c804a8adae647970cb50e2b59e2feead8",
+      "new": "68aa05d2d3bda1bdbfb2a776a805794c804a8adae647970cb50e2b59e2feead8",
+      "equal": true
+    },
+    "unique": {
+      "old": "f5e2ac94bdcdd83652aa01faae1e9e57f9cc62f138a2b2bee7f89ccd2fc6a78f",
+      "new": "f5e2ac94bdcdd83652aa01faae1e9e57f9cc62f138a2b2bee7f89ccd2fc6a78f",
+      "equal": true
+    },
+    "width_diagnostic": {
+      "old": "ce31bac1dec6b0e6d38ffb0b45c5e67296a075c418b9889ee25a71b2601ac129",
+      "new": "ce31bac1dec6b0e6d38ffb0b45c5e67296a075c418b9889ee25a71b2601ac129",
+      "equal": true
+    }
+  },
+  "unchangedFunctionCount": 32,
+  "changes": [
+    "Gate/freezerepeatchargedMetadataPins, externalruntimepaths andallactualprior/oncepins",
+    "PinnedROOTactualprioraccounting binds source/finite time + exactoriginaloutputinventories tobudget; currentphasebyteschargedseparately",
+    "ExplicitwholelocksameGoal/C069/target/schema/rootAdmissionNonce/noRetry + exactpath/hash/inventorycharge",
+    "Minimalself+distinctROOTgate+actualcontract+immutableROOTexternalattempt beforeexclusiveownphaseclaim",
+    "Fullpreflight/controlledstartupfailure preservesboundedterminal/onceownership; no retry/terminaloverwrite",
+    "Declaredmath+protocolreviewKinds and distinctowners/exactcode required",
+    "Replay: independentaugmentedkernel+ownoriginalinputadapter only; producerwidth216 andindependentsign explicitlyseparate",
+    "Replay: actualclosedproducerresult/log/terminal/rootwidthconsumption required; technicalproducercannot dispatchchecker",
+    "Replay: actualremainingfinite/aggregatecost and outputinventory guard; no nominalreset",
+    "ExecuteandCLIsetintegerstringlimit20000 beforeparsers",
+    "P5 retain actualinventory<=PAIDupper; requireactualnonretainedchargeauthority; no source/finite costreset",
+    "P5 monotoneowncreatedwritecounter, prechargedfundedatomic/tmp/log writes, no rewrite/IOfailurerefund; permanentexternalhelperreserve + rootactualcumulativeaudit",
+    "P6 closedproducerlog streamedhash/line/count withinpermitted5.5MiB, not2MiBmetadataJSONlimit"
+  ],
+  "validation": {
+    "oldMathSyntheticAssertions": 3219,
+    "newOncePreflightMockedControls": 12,
+    "newReplayEligibilityAndOutcomeSyntheticControls": 17,
+    "ASTParse": true,
+    "actualNumericalDataUsed": false,
+    "sourceOrModelRowsGenerated": false,
+    "actualProducerOrCheckerInvoked": false,
+    "monotonicPaidUpperSyntheticControls": 19,
+    "closedLogStreamingSyntheticControls": 5
+  },
+  "fixedMathematicalTarget": "Chat-(2^-224+2^-216+2^-216)I-Lhat*JbarLhat; active[F,X] only/Ypositivecoefficient0, rawD/B0/sourcefees unchanged",
+  "scope": "These are control/codepreparation facilities, not newsource/modeltruth/actualwholepositive/growth/RH/Goalcompletion. Existing05b4mathrecords remainhistorical; finalreviewofnewprotocol stillneeded.",
+  "newMathematicalIterations": 0,
+  "cadence": "3/history69/latest605/formal21 unchanged",
+  "formalC069Admitted": false,
+  "numericalExecutionAuthorized": false,
+  "privateCandidateNamespaceCreated": false,
+  "remaining": [
+    "Exactfinalmath/protocolreviews ofnewwrapper+bothindependentlibraries andcorrectedconsumer",
+    "Newresponsibilityandallactualsource/finite/replayrootgates/freezes/independentresults",
+    "Actualexternalphase-lifetime andfulloutputaccounting",
+    "Actualsource230/finite216/globaltargetsign"
+  ],
+  "protocolReviewFindings": {
+    "oldCandidates": [
+      "70af4c577b94eef87e177dc40c56aa34a0f1509173a7ad2efb0ddb6881b76d88",
+      "675bc8c300727ed2f5691984dff9080989a4bdaaba5ab0520cc01bd9f5a2c54b"
+    ],
+    "P5": "retained-versus-monotonic-paid/outputrewrites fixed",
+    "P6": "permittedproducerlog>2MiB metadata-limit mismatch fixed",
+    "scope": "No actual data/run/failure budgetreset"
+  }
+}

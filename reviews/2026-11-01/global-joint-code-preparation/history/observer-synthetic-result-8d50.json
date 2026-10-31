@@ -1,0 +1,50 @@
+{
+  "status": "AST_ISOLATED_OBSERVER_METADATA_AND_WINDOWS_JOB_CONTROLS_PASS",
+  "observerSHA256": "8d50ff53fb20e9d7cda4366a1daa48a80d578ad410429715de5735be35bcac93",
+  "controls": 33,
+  "syntheticGoal": 42,
+  "actualARMOrC069OrScientificNamespaceCreated": false,
+  "actualScientificSourceOrKernelReadOrExecuted": false,
+  "observerImported": false,
+  "nativeWindowsJobListExecuted": true,
+  "harmlessOSFixtures": [
+    {
+      "fixture": "normal",
+      "reason": null,
+      "exitCode": 0,
+      "maximumJobProcesses": 2,
+      "activeAfterKill": 0,
+      "stdoutBytesSaved": 17,
+      "stderrBytesSaved": 15
+    },
+    {
+      "fixture": "sleep",
+      "reason": "timeout",
+      "exitCode": 49257,
+      "maximumJobProcesses": 2,
+      "activeAfterKill": 0,
+      "stdoutBytesSaved": 0,
+      "stderrBytesSaved": 0
+    },
+    {
+      "fixture": "spam",
+      "reason": "capture-cap",
+      "exitCode": 49257,
+      "maximumJobProcesses": 2,
+      "activeAfterKill": 0,
+      "stdoutBytesSaved": 1000,
+      "stderrBytesSaved": 0
+    },
+    {
+      "fixture": "grandchild",
+      "reason": "descendant",
+      "exitCode": 49257,
+      "maximumJobProcesses": 3,
+      "activeAfterKill": 0,
+      "stdoutBytesSaved": 0,
+      "stderrBytesSaved": 0
+    }
+  ],
+  "temporaryDirectoryScopeCheckedBeforeCleanup": true,
+  "dataExecutionAuthorized": false
+}

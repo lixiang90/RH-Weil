@@ -1,0 +1,32 @@
+{
+  "schema": "rh-weil-global-code-draft-transition-v1",
+  "status": "DRAFTS_EMITTED_REVIEW_AND_INTEGRATION_UNCLOSED",
+  "runtimeGoalCreatedAt": 1793085111,
+  "newMathematicalIterations": 0,
+  "numericalExecutionAuthorized": false,
+  "actualSourceRead": false,
+  "actualGramRun": false,
+  "code": {
+    "source-model.py": {
+      "bytes": 26295,
+      "sha256": "996d221a8cf7be4bf8b6c4d81c17dda5d31210d820223ca5136bf9628e3b97e0"
+    },
+    "verify-source-model.py": {
+      "bytes": 26778,
+      "sha256": "2b1c1de335e2412c2f6e1cec7a219f3bd496561df6f4d134a5c87ea42a7603db"
+    },
+    "finite-whole-consumer.py": {
+      "bytes": 36426,
+      "sha256": "05b493e8dd371735c3229133f49a885cfa8a78612f47fc4e90361d6df2866c8c"
+    },
+    "verify-finite-augmented.py": {
+      "bytes": 8210,
+      "sha256": "3ef31ca2255ed7a0aa4bc17cac979d49f93c95e43fb3ca18c8a67bd95f0ba6f9"
+    },
+    "finite-independent-inputs.py": {
+      "bytes": 8104,
+      "sha256": "8ea17a5abc713b7d070e54cef69e5f93f6cddb3d2305d8ae879f3b2c7db88c3d"
+    }
+  },
+  "observedUTC": "2026-10-31T21:30:15.457324+00:00"
+}

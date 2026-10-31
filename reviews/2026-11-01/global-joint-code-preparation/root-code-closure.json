@@ -1,0 +1,72 @@
+{
+  "schema": "rh-weil-global-code-preparation-final-closure-v1",
+  "status": "CODE_PREPARATION_CLOSED_ELIGIBLE_FOR_NEW_RESPONSIBILITY_ADMISSION",
+  "runtimeGoalCreatedAt": 1793085111,
+  "baseline": "0c4f3a3eb609bb1d9564138fa4a35701f05605f2",
+  "codePins": [
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/source-model.py",
+      "bytes": 27057,
+      "sha256": "89bb4eb23264b6f7d1bd56459e2d7825b94ec5a02e5ff7c36e6cc0bfa1237975"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/verify-source-model.py",
+      "bytes": 26778,
+      "sha256": "2b1c1de335e2412c2f6e1cec7a219f3bd496561df6f4d134a5c87ea42a7603db"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/source-stage-controller.py",
+      "bytes": 36959,
+      "sha256": "0188ebfe2a0565bcfa53687a82b4dad068b57aae4413d3ff2aed18f8e7a7c9d9"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/finite-whole-consumer.py",
+      "bytes": 47909,
+      "sha256": "6919ea1306ba9539520851634f0fa68980499a479bd529e73cf4b36a5116ab17"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/independent-finite-checker.py",
+      "bytes": 36234,
+      "sha256": "4cdbc6fcb9ae52cf1766ddbd71bf5e7f579a91f7d331939779448c9075539602"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/verify-finite-augmented.py",
+      "bytes": 8210,
+      "sha256": "3ef31ca2255ed7a0aa4bc17cac979d49f93c95e43fb3ca18c8a67bd95f0ba6f9"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/finite-independent-inputs.py",
+      "bytes": 8400,
+      "sha256": "05bb27e4fb457aa29d7cae57115260dc4ca716d4899f1019feea274876cf5a97"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/observe-global-once.py",
+      "bytes": 44215,
+      "sha256": "88d54d68d5119aff6eacc6581a3de56d53f9121ffacc3a6c17e7f87df8c4637d"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/runtime-protocol.md",
+      "bytes": 8747,
+      "sha256": "fe70954d6716290bc5b8421fa236d775aefb99e3f3819d777ec72e9ca89c7161"
+    }
+  ],
+  "numericalExecutionAuthorized": false,
+  "formalC069Created": false,
+  "actualARMStarted": false,
+  "actualSourceValuesEvaluated": false,
+  "actualGramOrSolveRun": false,
+  "newMathematicalIterations": 0,
+  "cadence": "3/history69/latest605/formal21 unchanged",
+  "pendingScientificProcesses": [],
+  "scope": "Implemented/reviewed exactselectedmodel andsame-target independentalgorithms+runtimeguards, NOTactual230/216/cap/sign/whole/RH certificate",
+  "unpaid": [
+    "sameactiveGoal beforefutureadmission",
+    "genuineNEWC069onewholecontract+stagedROOTgates",
+    "actualfundedARM/READY/livehandle/finalfreeze",
+    "actualfiveblock401856packet+independentsource230",
+    "actualproducer216+independentaugmentedtargetsign",
+    "completepostphaseUTC/processmultiplicity/monotonicwrites/copies/capconsumption",
+    "wholefixed9/8 sign and allgrowing/arithmeticGoal gates"
+  ],
+  "observedUTC": "2026-10-31T22:23:29.065288+00:00"
+}

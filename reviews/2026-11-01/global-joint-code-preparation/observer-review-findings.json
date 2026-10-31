@@ -1,0 +1,37 @@
+{
+  "schema": "rh-weil-observer-independent-findings-v1",
+  "status": "OLD_8D50_COST_CONSUMPTION_FROZEN_FINAL_88D54_IMPLEMENTATION_RECLOSED",
+  "runtimeGoalCreatedAt": 1793085111,
+  "oldCodeSHA256": "8d50ff53fb20e9d7cda4366a1daa48a80d578ad410429715de5735be35bcac93",
+  "findings": [
+    {
+      "id": "O1",
+      "scope": "Exception path unknown descendants/accounting",
+      "finding": "Classification/query orcap error can bypass ordinary descendant flag while counts observes extra historical processes; multiplier1 undercharges overlapping unknownscience.",
+      "required": "Conservative unknown classification; query finalhistorical count afterkill ifpossible; historicalmultiplicity or explicitlyunknownunconsumablecost, never1 compliance."
+    },
+    {
+      "id": "O2",
+      "scope": "Finite ARM-to-child output amount bridge",
+      "finding": "Matching outputpaths does not fund finite prechargedexternal amount against exactARMmaxima.",
+      "required": "ChildexternalRuntimeChargedUpperBytes >= ARMsummaxima or explicitstronger enforcedfunding."
+    },
+    {
+      "id": "O3",
+      "scope": "ActualpostARM time handoff",
+      "finding": "Actualwait canclipwatchdog below scientificinternalcutoff+10s despitefrozenlimits passing; don'tstart underfundedscience.",
+      "required": "Check actualclippedtimeout >= internalcutoff+10000 beforeprocesscreation or equivalentexplicitfunding."
+    }
+  ],
+  "mathematicalKernelsAffected": false,
+  "numericalExecutionAuthorized": false,
+  "actualARMOrSourceStarted": false,
+  "newMathematicalIterations": 0,
+  "observedUTC": "2026-10-31T22:11:42.760407+00:00",
+  "correctedCodeSHA256": "88d54d68d5119aff6eacc6581a3de56d53f9121ffacc3a6c17e7f87df8c4637d",
+  "closure": "Rootread finalcode+46scopedcontrols andtwo finalindependentreviews; O1 stablepostkillcount/unknownnull, O2 fullprepaidmax, O3 actualfundedwindowbeforecreate/resume. Actual resource compliance stillrequiresfuturephaseevidence.",
+  "closureReviews": [
+    "observer-final-protocol-review.md",
+    "reference-and-observer-code-review.md"
+  ]
+}

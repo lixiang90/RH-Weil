@@ -1,0 +1,25 @@
+{
+  "status": "AST_ISOLATED_SYNTHETIC_SOURCE_CONTROLS_PASS",
+  "producerSHA256": "89bb4eb23264b6f7d1bd56459e2d7825b94ec5a02e5ff7c36e6cc0bfa1237975",
+  "checkedContainments": 201,
+  "syntheticN": 4,
+  "syntheticDegree": 6,
+  "syntheticWorkBits": 192,
+  "syntheticContractionBits": 128,
+  "plainShiftArguments": [
+    "1/2",
+    "1",
+    "3/2"
+  ],
+  "logShiftArguments": [
+    "1/2",
+    "1",
+    "3/2"
+  ],
+  "fullSignedPoleAndFullH36Checked": true,
+  "infiniteCXOffdiagonalChecked": true,
+  "actualSourceFilesRead": false,
+  "producerImported": false,
+  "actual230Certificate": false,
+  "actualRowsGramOrSolveComputed": false
+}

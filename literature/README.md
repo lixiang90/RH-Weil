@@ -1,5 +1,7 @@
 # RH-Weil 文献索引
 
+2026-11-01，全局五块代码准备/独立终审已归档：[范围与软件实现来源](supplements/2026-11-01-global-joint-code-preparation-scope.md)。无新数学primary/PDF；库143与manifest223850原字节保持。原source264/226/Dh233为旧输入，实际五块230/有限216与whole符号未计算。Microsoft原始API文档仅支持观察器实现，链接/阅核范围保存在补充记录，不增加数学前件或假称全文已存。计0数学，下一仅新责任/source-produce准入，同Goalactive。
+
 2026-11-01：方向余项函数/范数/whole准入及最强旧审查完成；旧A/B的有界复核与upper消费证明同一605头的全部补空间completion正，p448在code前撤回。0新数学/0新source行；无新web/primary/作者章/PDF/下载，库143/manifest223850保持。[使用范围](supplements/2026-11-01-directional-remainder-admission-scope.md)区分旧完整函数能力、旧推论与未执行的全局五块数据；全文/导入源仍local-only。
 
 2026-11-01：605/C068一个固定whole候选已实际生产/独立重放及root/fresh消费，统一一轮；所选和旧fixed-alpha122充分式停止，实际head正性保持。无新web/primary/作者章/PDF/下载，库143/manifest223850原字节不变。[使用范围](supplements/2026-11-01-retained-tail-whole-rejection-scope.md)区分源包local-only、公开自有精确证书及未执行的方向性余项准入；未证明实际Weil型负或RH。

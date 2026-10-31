@@ -1,0 +1,786 @@
+{
+  "schema": "rh-weil-global-code-preparation-root-scope-v1",
+  "date": "2026-11-01",
+  "runtimeGoalCreatedAt": 1793085111,
+  "baseline": "0c4f3a3eb609bb1d9564138fa4a35701f05605f2",
+  "status": "CODE_PREPARATION_ROOT_CLOSED_NEW_RESPONSIBILITY_ADMISSION_ONLY",
+  "root_report": "reviews/2026-11-01/global-joint-code-preparation/root-consumed.md",
+  "code_closure": "reviews/2026-11-01/global-joint-code-preparation/root-code-closure.json",
+  "recovered_previous_final": {
+    "schema": "rh-weil-global-code-preparation-start-v1",
+    "runtimeGoalCreatedAt": 1793085111,
+    "status": "CODE_PREPARATION_RUNNING_NO_DATA",
+    "recoveredActualFinal": "cf1ec1b9e085998120cfdf17ad8a66a0ff60dd6b",
+    "tree": "b752f54e47b155a377cb3d279dd74aff6ef56a00",
+    "soleParent": "0af85f2d88eb618e67be939c0e9c89ba6440cc7f",
+    "recovery": "ActualAPI ref/commit/tree/localHEAD/soleparent/exact3/cleaninitial/checkpoint/49pub8local/oldledger",
+    "previousTurnClassification": "PROGRESS: strongest-old recovery changed candidate, withdrew p448 and published exactnext",
+    "currentAction": "Selected global source+independent verifier+active finite consumer CODE_PREP, original source/error/budget",
+    "newNumericalExecutionAuthorized": false,
+    "C069": false,
+    "newMathematicalIterations": 0,
+    "noPrivateDataNamespace": true,
+    "observedUTC": "2026-10-31T21:16:20.395108+00:00"
+  },
+  "executed_action": "Implemented nine finalcode/protocol modules, independent fullmathematical model/target/guard reviews and scoped synthetic/OS controls; root correctionsconsumed. No actualmodel source evaluation or data/ARM attempt.",
+  "premise_closure": {
+    "object_norm": "Complex originalf-du L2 fixed(-9/8,9/8); nativeE448/rawDjj9/[4(2j+1)]; physicalr=exp(u/2)f weightedexp(-u)du.",
+    "roles": "F=QME,X=QV,Y=QKE C448->QH; G=E*V NOTV*V; unboundedRtail distinctboundedK; scalar-product forms notcoefficientmaps/physical quotient.",
+    "source_quantifiers": "Fixed9/8/allcomplex448head and fullQH floor; originalGamma/contact/ALLpp2..9/signedpoles/zeroextensionDlog; NOgrowth/Xi.",
+    "paid": "OLDsourceF1008/VG226/Y264/Dhtrue233/headbeta224/mapnu216/head201-Cret202; strongold same605head ALLcomplementpositive old0.",
+    "unpaid": "ACTUAL fivefullnativeGram230 each withbothtriangles, source/rootacceptance, producerfinite216, independentexactTsign, completeactualstartup/lifetimes/multiplicity/monotonicwrites/tmp/copies/caps, whole9/8/growth/core.",
+    "coefficient_direction": "N=F+XB+Y; bottomdI+cFF*+XAX*, YcoefficientZERO; onlyactive[F,X]. Jbar native/rawD3 dual metrics; WrawB0=[B0;B0-I;B0], feesbeta+nu+zetaONCE.",
+    "exact_independent_target": "Aug=[[-H,R],[R*,Base]], active448negative then224targetpositive perparity; exactsameTcongruence, no alternateconsumer orproducerinverse/resultmatrixoracle.",
+    "error_transport": "EachactualblockfinalradiusHS230 -> jointrow222/pad221; Dh approximatesTRUEcovariancenotliteralFstarGram; produceractual216width andindependentexactsign bothrequired.",
+    "coverage_sign": "PositivefutureT provesALLH boundedLret>=0/fullfixed9/8 DlogQ>=tau ONLY; negativeT onlyfloorrejection, NOTactualnegativeCret/Lret/Q. Legalmodel/finitecarrierisnotwholecoverage alone.",
+    "strongest_old_net": "OldKstar/Y andsameheadpositivecompletionalreadyavailable. Thisturnclosesimplementation/review responsibility, not newmathbound. Actualcoupling/keyarithmetical/growing bottleneckunchanged."
+  },
+  "classification": {
+    "previousGoalTurn": "PROGRESS: oldupperrecovery changedcandidate",
+    "thisGoalTurn": "PROGRESS: actualcode+independentreviews/corrections closepreviousunimplementedtestpreparation",
+    "newMathematicalIterations": 0,
+    "cadence": "3/history69/latest605/formal21 unchanged raw7197",
+    "formalMacroReview": "No22/reset; after nextcompletemathreaches4 macrobeforefurtherthisfamily",
+    "runtimeGoal": "sameactive1793085111",
+    "allGoalGates": "open",
+    "wholePositiveClaim": false,
+    "GoalComplete": false
+  },
+  "nextAdmission": {
+    "path": "reviews/2026-11-01/global-joint-code-preparation/next-source-execution-admission.md",
+    "action": "Afteractualfinalpublicationverify, admitONE NEWC069whole responsibility, firstSOURCE-PRODUCE only withseparateARM/READY/finalROOTgates.",
+    "C069CurrentlyCreated": false,
+    "numericalExecutionAuthorized": false,
+    "newBudget": "7200s/64MiB, source+indep3600/48, finite+indep3600/16; actualremaining,noreset/transfer/C068reuse",
+    "stop": "Anyactualsource/width/time/byte/technical/signfailure terminalSAMEresponsibility; no parameter/source/head/same605negative/otherconsumerqueue"
+  },
+  "verification_scope": {
+    "opaqueOldSourceHashing": true,
+    "actualSourceValuesEvaluated": false,
+    "actualPacketGramOrSolveRun": false,
+    "actualARMStarted": false,
+    "nativeOSFixtures": "4harmlesssmallGoal42 JOB_LIST mechanisms only/final46controls",
+    "source201": "rootrerunfinal89bb afterconsumedbytepatch",
+    "rootControls": "250augmentation+14format; noactualdata",
+    "independentReports": "Exactfinalversions consumed, author/reviewer scoped counts notresearchrounds"
+  },
+  "pending_processes": [],
+  "public_bindings": [
+    {
+      "path": ".gitattributes",
+      "raw_bytes": 9914,
+      "sha256_raw": "68d9aa02ae8bc6afd56683716774089c7d9194627c0f22491b9540d548f47d23",
+      "sha256_lf": "a9581c2231a5ebcec162a313361dffe0dce9f4b4c69ceeb1b00ca5bc59ecc9e1",
+      "raw_git_required": false
+    },
+    {
+      "path": "RESEARCH_BRANCHES.md",
+      "raw_bytes": 304902,
+      "sha256_raw": "54f20371b751f3815c79db1aaae246a2002ddc497bed1709af37306b737ae425",
+      "sha256_lf": "c853fc3347b410801edd50a6a3bb61e18a1461c228f60032cbb1b607e504fe3d",
+      "raw_git_required": false
+    },
+    {
+      "path": "goals/DECISIONS.md",
+      "raw_bytes": 378226,
+      "sha256_raw": "3a427a15d07fa787bda7442279bedc3164590a12e40ad9d51cff93e9379dc251",
+      "sha256_lf": "07c804c79f20fda4663b4ff62e8d4d8423fdee7be1ccd835baff14878dc13860",
+      "raw_git_required": false
+    },
+    {
+      "path": "goals/GOAL.20261027.md",
+      "raw_bytes": 9679,
+      "sha256_raw": "b3d2acb1f962d793f45d79b6a4e67fb87dd072cd4752108a9298204b4cefa1de",
+      "sha256_lf": "b3d2acb1f962d793f45d79b6a4e67fb87dd072cd4752108a9298204b4cefa1de",
+      "raw_git_required": false
+    },
+    {
+      "path": "goals/MACRO_FRONTIER.md",
+      "raw_bytes": 130944,
+      "sha256_raw": "4f94d7cda88ac7e09fabeef7cca3f3bab453c697f7e8b7a604c52c61e6880b9e",
+      "sha256_lf": "7ba382ac549cf0926d9f610c3403e1b1fb17bc42e727c886a75a9ee2a19fa9d0",
+      "raw_git_required": false
+    },
+    {
+      "path": "goals/README.md",
+      "raw_bytes": 94871,
+      "sha256_raw": "21c7d4606e78621afc611ee17e6cc25bdeb56cf3de6f664e3c752b656cab09da",
+      "sha256_lf": "e463c0075fb24bd118e4a8f64b7774e480fca641b199c4b2de8b23dcd79f74aa",
+      "raw_git_required": false
+    },
+    {
+      "path": "goals/RESEARCH_WORKFLOW.md",
+      "raw_bytes": 10509,
+      "sha256_raw": "567b238a62872505f9b29688cf4320fafb7f20b67a650c6cd7711ad56ddf95c1",
+      "sha256_lf": "567b238a62872505f9b29688cf4320fafb7f20b67a650c6cd7711ad56ddf95c1",
+      "raw_git_required": false
+    },
+    {
+      "path": "goals/review-cadence.json",
+      "raw_bytes": 7197,
+      "sha256_raw": "c57d42559b05b25c37fca829c7c4cd60c050dfff21be46f2909e79d5c582b8d4",
+      "sha256_lf": "feec2c5d2ab8fc910ff63a1a191b0625061c6bbf2bb0c8fadf14a62008931bc1",
+      "raw_git_required": false
+    },
+    {
+      "path": "goals/reviews/2026-11-01-global-joint-code-preparation.md",
+      "raw_bytes": 2317,
+      "sha256_raw": "175bff65a1ef87913fe74d4aa44b9e117a798a1ca2e31c2fec0d24b776f37fa5",
+      "sha256_lf": "175bff65a1ef87913fe74d4aa44b9e117a798a1ca2e31c2fec0d24b776f37fa5",
+      "raw_git_required": false
+    },
+    {
+      "path": "literature/README.md",
+      "raw_bytes": 152331,
+      "sha256_raw": "159646253c040fb54ad26d8eadda038e9c6ea761b43d4aec773c6cc7a93030da",
+      "sha256_lf": "db4bfaa064d7223f4df214a111aa69d9e256f854b6a15cd42db40dd95ce54148",
+      "raw_git_required": false
+    },
+    {
+      "path": "literature/manifest.json",
+      "raw_bytes": 223850,
+      "sha256_raw": "3223cffd0205b9a1f8660445ac33d0f3cec13b3bd1fa5e7799ed8abfb2746d42",
+      "sha256_lf": "3223cffd0205b9a1f8660445ac33d0f3cec13b3bd1fa5e7799ed8abfb2746d42",
+      "raw_git_required": false
+    },
+    {
+      "path": "literature/supplements/2026-11-01-global-joint-code-preparation-scope.md",
+      "raw_bytes": 3111,
+      "sha256_raw": "07e82f3aad0c4570b864db5905cf74e00108c1242fb3f9906c1699dbdc94ffc8",
+      "sha256_lf": "07e82f3aad0c4570b864db5905cf74e00108c1242fb3f9906c1699dbdc94ffc8",
+      "raw_git_required": false
+    },
+    {
+      "path": "reviews/2026-10-29/weil-9-8-admission/full-weil-analytic-transfer-fresh.md",
+      "raw_bytes": 13990,
+      "sha256_raw": "0cdb4173b7664b73b47fd8789c0629f0535a208ad9af2a4af8eb86422c64a466",
+      "sha256_lf": "0cdb4173b7664b73b47fd8789c0629f0535a208ad9af2a4af8eb86422c64a466",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-10-31/retained-tail-center-admission/center-certificate-result.json",
+      "raw_bytes": 70183,
+      "sha256_raw": "3eb9e77d71f92ead44775bfbafb7499a7ff0fd2e5bc81ac00095332a4f912739",
+      "sha256_lf": "3eb9e77d71f92ead44775bfbafb7499a7ff0fd2e5bc81ac00095332a4f912739",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-10-31/retained-tail-center-admission/native-center-error-proof.md",
+      "raw_bytes": 16648,
+      "sha256_raw": "bca1ff76f9ef94e25a10fdbc6597641b682ae7174cc0e4c952e4edbb39ce188b",
+      "sha256_lf": "bca1ff76f9ef94e25a10fdbc6597641b682ae7174cc0e4c952e4edbb39ce188b",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-10-31/retained-tail-center-admission/root-consumption-scope.json",
+      "raw_bytes": 20127,
+      "sha256_raw": "6e0df0fed60465622f8b95551e4e361203a8de9b199bf167c38709caf4caaac3",
+      "sha256_lf": "377bf8dc98028913e7c127b39652b6a1279e697f7322972cc4d896a4b53bc145",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-10-31/retained-tail-center-admission/source-centers-consumed.md",
+      "raw_bytes": 4973,
+      "sha256_raw": "a823cabb902b1fd0270fd210db0d2efa4a0085d7918b49ec3afb79739178a4a6",
+      "sha256_lf": "a823cabb902b1fd0270fd210db0d2efa4a0085d7918b49ec3afb79739178a4a6",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/directional-remainder-admission/administrative-delta-accounting.json",
+      "raw_bytes": 716,
+      "sha256_raw": "046b12d6d8a939688c34a9416fea980fa82613f635cb0fec0dd0b50f9102b399",
+      "sha256_lf": "7e48dc958842fa8bb940d2af2f61cec3472a7215ce019f408366f52b3af14f0a",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/directional-remainder-admission/execution-start.json",
+      "raw_bytes": 824,
+      "sha256_raw": "119ac555e4a1c5c99efc065a06c282882dd8f1e60bd8f2a96474dffff6783b17",
+      "sha256_lf": "fe9d662fc64643da6d89f76f75d6d6947d1aea4aa81fabdd1cf5e8d98461428f",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/directional-remainder-admission/full-k-column-supplier.md",
+      "raw_bytes": 12135,
+      "sha256_raw": "5bfd27fc7bed256367b8ed83a2be4eb972791718ec1fc844dde7ebb250cfa96a",
+      "sha256_lf": "5bfd27fc7bed256367b8ed83a2be4eb972791718ec1fc844dde7ebb250cfa96a",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/directional-remainder-admission/global-joint-code-admission.md",
+      "raw_bytes": 4784,
+      "sha256_raw": "452a5e406027509acf70804ffe8e07b26c17a487b7fefb7ac1ffbef573ae67fc",
+      "sha256_lf": "452a5e406027509acf70804ffe8e07b26c17a487b7fefb7ac1ffbef573ae67fc",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/directional-remainder-admission/next-global-code-preparation.md",
+      "raw_bytes": 4888,
+      "sha256_raw": "984b53a57a28ffd47b3b9a85cafb3cf56d65fcc0f915ce9952ad4c5d2acbe5f7",
+      "sha256_lf": "984b53a57a28ffd47b3b9a85cafb3cf56d65fcc0f915ce9952ad4c5d2acbe5f7",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/directional-remainder-admission/old-recovery-output-ledger.json",
+      "raw_bytes": 6650,
+      "sha256_raw": "30f63a3372d85151b227561c31b615c87dbc826dcfbb0fd0f2a936fb4ac62cc4",
+      "sha256_lf": "30f63a3372d85151b227561c31b615c87dbc826dcfbb0fd0f2a936fb4ac62cc4",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/directional-remainder-admission/old-scalar-observed.json",
+      "raw_bytes": 842,
+      "sha256_raw": "95b4e15025fd188c3e098e70f0cc774c602cd0b42297f146a7cdd7869b1b3173",
+      "sha256_lf": "11797c3be341c70b6852ccd7e50736eaa3c7cb042a8e965a11326d1b0dc1f576",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/directional-remainder-admission/old-scalar-precheck-admission.md",
+      "raw_bytes": 2548,
+      "sha256_raw": "03f00945fa9a05c33253336d9e30cd6479e07f6867a64507caff071e43278c6f",
+      "sha256_lf": "03f00945fa9a05c33253336d9e30cd6479e07f6867a64507caff071e43278c6f",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/directional-remainder-admission/old-scalar-precheck-fresh.md",
+      "raw_bytes": 3871,
+      "sha256_raw": "b4605149315d32d696561c831e03440f07422a3889a713e38b68c9cca4c8176b",
+      "sha256_lf": "b4605149315d32d696561c831e03440f07422a3889a713e38b68c9cca4c8176b",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/directional-remainder-admission/old-scalar-recovery-freeze.json",
+      "raw_bytes": 2548,
+      "sha256_raw": "543529c463b02cef82fc58b5e979784317f6292823b477d759ec7bf8aa3bd70e",
+      "sha256_lf": "40f23a1c0b503efd5b6af9fccad9f6dbc73ca484cc639da9defbdfed1eca0313",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/directional-remainder-admission/old-scalar-result.json",
+      "raw_bytes": 14351,
+      "sha256_raw": "51c6dc77a88db04906b3382b7b3ea3f0bab4ce0d04c9b52e5a5cc3dac5daad18",
+      "sha256_lf": "51c6dc77a88db04906b3382b7b3ea3f0bab4ce0d04c9b52e5a5cc3dac5daad18",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/directional-remainder-admission/old-sqrt-synthetic-check.json",
+      "raw_bytes": 404,
+      "sha256_raw": "15b7a4bdb4c00efe73d6e3c90593b6cba4139b4839714cc90e3e669f1f09ae74",
+      "sha256_lf": "0d6a37ea3038168e51ee2c4b22a0785e805f33cb15c8446243cd54aa03948b33",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/directional-remainder-admission/old-upper-consequence-fresh.md",
+      "raw_bytes": 2888,
+      "sha256_raw": "1a05800d3398f7fe9383dd2ee3bbd35cb8927f99787d5cb74439f8b9b2e4a403",
+      "sha256_lf": "1a05800d3398f7fe9383dd2ee3bbd35cb8927f99787d5cb74439f8b9b2e4a403",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/directional-remainder-admission/probe-row-source-design.md",
+      "raw_bytes": 6901,
+      "sha256_raw": "2d3e038d775b13d2eabc378cac6a57c0aa2539ac3e17fdbe9b79f230fc889189",
+      "sha256_lf": "2d3e038d775b13d2eabc378cac6a57c0aa2539ac3e17fdbe9b79f230fc889189",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/directional-remainder-admission/recover-old-cross-norm-bound.py",
+      "raw_bytes": 6730,
+      "sha256_raw": "c0d4978db5909258279a9ba3017c46336e756b196f19d9f9331a98c953d9854f",
+      "sha256_lf": "c0d4978db5909258279a9ba3017c46336e756b196f19d9f9331a98c953d9854f",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/directional-remainder-admission/root-consumed.md",
+      "raw_bytes": 6233,
+      "sha256_raw": "5a4c962d4ab3020fd06c7418302e22e34450be1f74f984027431104b62e2a06a",
+      "sha256_lf": "5a4c962d4ab3020fd06c7418302e22e34450be1f74f984027431104b62e2a06a",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/directional-remainder-admission/root-consumption-scope.json",
+      "raw_bytes": 24229,
+      "sha256_raw": "18237b766e0f8f6aa3f022fd8fd64e187ed322d42d15c33b5fd6fc4a69713392",
+      "sha256_lf": "18237b766e0f8f6aa3f022fd8fd64e187ed322d42d15c33b5fd6fc4a69713392",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/directional-remainder-admission/root-old-upper-consumption.json",
+      "raw_bytes": 11025,
+      "sha256_raw": "3136ce3d0449c8346c82aead3e98c71f9da0a28d691bb2b61ea3d924e638a32d",
+      "sha256_lf": "613adc50eda2d9e0b7627482eb5b4e981a13e766a79242a3c14c8655e46d2645",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/directional-remainder-admission/selected-global-preparation.json",
+      "raw_bytes": 8525,
+      "sha256_raw": "c3bda91eeee0c83993e2d2b5d6efeb2a959eb1a3817d34d77c3764b611f54984",
+      "sha256_lf": "cce439e2ab87af6611c41540576c0ab31abdf2f7ecfbf3790c6c93bb7e043ea8",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/directional-remainder-admission/selected-probe-preparation.json",
+      "raw_bytes": 8562,
+      "sha256_raw": "39d512ebc9dfa82319799dd53c7752a62998154c2c02ba4dcd7858ecfdf7fb52",
+      "sha256_lf": "0373076946c2188d462510601b04293f37829b2a1779a1e7ebf826cab0b25194",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/directional-remainder-admission/strong-old-input-and-net-audit.md",
+      "raw_bytes": 8859,
+      "sha256_raw": "c30d32b03a0375aabd57115476a2f8d34ebddbe7684c760588fe6cce70cd0f41",
+      "sha256_lf": "c30d32b03a0375aabd57115476a2f8d34ebddbe7684c760588fe6cce70cd0f41",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/directional-remainder-admission/whole-directional-consumer.md",
+      "raw_bytes": 9997,
+      "sha256_raw": "051797ca8a1db1f1e041de31b79e5ae18ab2096df9ba3f482d1c1b004c1e6555",
+      "sha256_lf": "051797ca8a1db1f1e041de31b79e5ae18ab2096df9ba3f482d1c1b004c1e6555",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/README.md",
+      "raw_bytes": 674,
+      "sha256_raw": "347f46df2bbce09c1ed0a88b21709f70cc3460d97b87b443dcec7271ebd5712f",
+      "sha256_lf": "347f46df2bbce09c1ed0a88b21709f70cc3460d97b87b443dcec7271ebd5712f",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/check-finite-augmentation-synthetic.py",
+      "raw_bytes": 8744,
+      "sha256_raw": "647055687eb6745d6a62a8f640e567c09e613bd1e11d187561e3adc925b2beb7",
+      "sha256_lf": "647055687eb6745d6a62a8f640e567c09e613bd1e11d187561e3adc925b2beb7",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/drafts-emitted-not-root-consumed.json",
+      "raw_bytes": 1080,
+      "sha256_raw": "f0a6ec91bdbb6850a95ab627466184e03d0c379c98aed7d5f8aabf9689e5bee2",
+      "sha256_lf": "f0a6ec91bdbb6850a95ab627466184e03d0c379c98aed7d5f8aabf9689e5bee2",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/execution-start.json",
+      "raw_bytes": 882,
+      "sha256_raw": "76b973fcfa8fa53f6b05277d94bf3766be35c9b32af63176f60bd8968c32fc1a",
+      "sha256_lf": "76b973fcfa8fa53f6b05277d94bf3766be35c9b32af63176f60bd8968c32fc1a",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/final-code-math-review.md",
+      "raw_bytes": 11975,
+      "sha256_raw": "03f190a83adc4e38d33d164ad7cc5f241e2bc0ecb892adb4e9d146d4bdd26f8e",
+      "sha256_lf": "03f190a83adc4e38d33d164ad7cc5f241e2bc0ecb892adb4e9d146d4bdd26f8e",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/final-code-protocol-review.md",
+      "raw_bytes": 20814,
+      "sha256_raw": "d96e070d03d2c436420162c93c926d68bf8158fd1f1541bb3ff0a17ed4db8942",
+      "sha256_lf": "d96e070d03d2c436420162c93c926d68bf8158fd1f1541bb3ff0a17ed4db8942",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/finite-augmentation-math-review.md",
+      "raw_bytes": 8277,
+      "sha256_raw": "eaabd26cadbb74a133369cabd55443b4e36d6bbc306b768195fdc1ddb5fb4289",
+      "sha256_lf": "eaabd26cadbb74a133369cabd55443b4e36d6bbc306b768195fdc1ddb5fb4289",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/finite-augmentation-synthetic-result.json",
+      "raw_bytes": 698,
+      "sha256_raw": "0b158fd3df074aa59671ab939decb22d540d0caec5b5f8aebcdba22102794a39",
+      "sha256_lf": "0b158fd3df074aa59671ab939decb22d540d0caec5b5f8aebcdba22102794a39",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/finite-implementation-notes.md",
+      "raw_bytes": 11437,
+      "sha256_raw": "6d18f959d08b86dd6f53d83d3ee083e412afa243d2576f9723c2f90170029691",
+      "sha256_lf": "6d18f959d08b86dd6f53d83d3ee083e412afa243d2576f9723c2f90170029691",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/finite-independent-inputs.py",
+      "raw_bytes": 8400,
+      "sha256_raw": "05bb27e4fb457aa29d7cae57115260dc4ca716d4899f1019feea274876cf5a97",
+      "sha256_lf": "05bb27e4fb457aa29d7cae57115260dc4ca716d4899f1019feea274876cf5a97",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/finite-protocol-correction-record.json",
+      "raw_bytes": 10840,
+      "sha256_raw": "58c766567c77f68b66b36f577572844d4a25c4ad626ffbd086c47d01c686a005",
+      "sha256_lf": "58c766567c77f68b66b36f577572844d4a25c4ad626ffbd086c47d01c686a005",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/finite-replay-final-code-review.md",
+      "raw_bytes": 14784,
+      "sha256_raw": "d0b7ad1a0c6f71d1d216853ddd715b23c7a73cfe03cb99c6db9f8936610456e4",
+      "sha256_lf": "d0b7ad1a0c6f71d1d216853ddd715b23c7a73cfe03cb99c6db9f8936610456e4",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/finite-whole-consumer.py",
+      "raw_bytes": 47909,
+      "sha256_raw": "6919ea1306ba9539520851634f0fa68980499a479bd529e73cf4b36a5116ab17",
+      "sha256_lf": "6919ea1306ba9539520851634f0fa68980499a479bd529e73cf4b36a5116ab17",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/history/observe-global-once-8d50.py",
+      "raw_bytes": 39816,
+      "sha256_raw": "8d50ff53fb20e9d7cda4366a1daa48a80d578ad410429715de5735be35bcac93",
+      "sha256_lf": "8d50ff53fb20e9d7cda4366a1daa48a80d578ad410429715de5735be35bcac93",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/history/observer-synthetic-result-8d50.json",
+      "raw_bytes": 1401,
+      "sha256_raw": "fb9bca9ad235cc8434be8588d73de2579c233513bf38191c9347c9607df40e77",
+      "sha256_lf": "e2131ba495ffeb1679ba1d65fe29dd2f321b28840f61bf32f601b52d081636e9",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/history/source-controller-synthetic-result-55d3.json",
+      "raw_bytes": 500,
+      "sha256_raw": "47011ec374aa077d859c85260cd385db3ca49f4e36f1461033097e95a8674188",
+      "sha256_lf": "2849db5c8bda3b8ccf3b8d3cdd6ab8c7edcf0007917d943ca65e21ec1413b398",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/history/source-stage-controller-55d3.py",
+      "raw_bytes": 36456,
+      "sha256_raw": "55d3d5fd5bd8a797c55a2dc5e115d53100a3753aed5d386d534ff5d40e67c4dd",
+      "sha256_lf": "55d3d5fd5bd8a797c55a2dc5e115d53100a3753aed5d386d534ff5d40e67c4dd",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/independent-finite-checker-notes.md",
+      "raw_bytes": 17294,
+      "sha256_raw": "794ed8dbfb6604af1aa725afa64b9578177e105db7fa511188e83e043518ef91",
+      "sha256_lf": "794ed8dbfb6604af1aa725afa64b9578177e105db7fa511188e83e043518ef91",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/independent-finite-checker.py",
+      "raw_bytes": 36234,
+      "sha256_raw": "4cdbc6fcb9ae52cf1766ddbd71bf5e7f579a91f7d331939779448c9075539602",
+      "sha256_lf": "4cdbc6fcb9ae52cf1766ddbd71bf5e7f579a91f7d331939779448c9075539602",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/next-source-execution-admission.md",
+      "raw_bytes": 4533,
+      "sha256_raw": "194b55a1497fa4b0c2934b795b1ae73dbc1538ebe71c7ffbcb3be2347b4f13e8",
+      "sha256_lf": "194b55a1497fa4b0c2934b795b1ae73dbc1538ebe71c7ffbcb3be2347b4f13e8",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/observe-global-once.py",
+      "raw_bytes": 44215,
+      "sha256_raw": "88d54d68d5119aff6eacc6581a3de56d53f9121ffacc3a6c17e7f87df8c4637d",
+      "sha256_lf": "88d54d68d5119aff6eacc6581a3de56d53f9121ffacc3a6c17e7f87df8c4637d",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/observer-final-protocol-review.md",
+      "raw_bytes": 14087,
+      "sha256_raw": "8cfa1cc1ab56be2544a2231b232efcb55d003a63ff5cd9d2042c93d0b8de61cc",
+      "sha256_lf": "8cfa1cc1ab56be2544a2231b232efcb55d003a63ff5cd9d2042c93d0b8de61cc",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/observer-notes.md",
+      "raw_bytes": 17765,
+      "sha256_raw": "d4358abd318c177cb69db18a1674adf68328e04912364ec2f63b910cc20a3c5b",
+      "sha256_lf": "d4358abd318c177cb69db18a1674adf68328e04912364ec2f63b910cc20a3c5b",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/observer-review-findings.json",
+      "raw_bytes": 2068,
+      "sha256_raw": "67ecb4e8ffdd2a0af79ed5e0049f63751279a1a0dcc15f12e4c46eed75a8240d",
+      "sha256_lf": "67ecb4e8ffdd2a0af79ed5e0049f63751279a1a0dcc15f12e4c46eed75a8240d",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/observer-synthetic-result.json",
+      "raw_bytes": 1401,
+      "sha256_raw": "55b8caa01e2c3fe2a39d3277afde6771815994cb3d25672fea0e809975efc610",
+      "sha256_lf": "078fdf58172087b9ee23f723276724344d860b043f8fe90c315023e7690a13b1",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/observer-synthetic.py",
+      "raw_bytes": 13127,
+      "sha256_raw": "bae4d119139dafac907328d913b44c13a27f7dc7ac4a165c6f7fb89c67fa3dca",
+      "sha256_lf": "bae4d119139dafac907328d913b44c13a27f7dc7ac4a165c6f7fb89c67fa3dca",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/packet-format-synthetic-result.json",
+      "raw_bytes": 380,
+      "sha256_raw": "77346eac7a57ae11447ab62e42b20f52c9442d553ee74a195215c3235dbf4d78",
+      "sha256_lf": "77346eac7a57ae11447ab62e42b20f52c9442d553ee74a195215c3235dbf4d78",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/packet-format.py",
+      "raw_bytes": 4283,
+      "sha256_raw": "23d7c8f5379a7e7f4c97f2737a95dc5dc5b82f6b969be77679d46995a439c837",
+      "sha256_lf": "23d7c8f5379a7e7f4c97f2737a95dc5dc5b82f6b969be77679d46995a439c837",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/reference-and-observer-code-review.md",
+      "raw_bytes": 14940,
+      "sha256_raw": "ebf3522ad73161bd5eb59f1bd9554a5772dbeaf34177360a625904e0c75acde5",
+      "sha256_lf": "ebf3522ad73161bd5eb59f1bd9554a5772dbeaf34177360a625904e0c75acde5",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/root-code-closure.json",
+      "raw_bytes": 3071,
+      "sha256_raw": "899d42fb847865e5dafb901f29d0583e78bcab2e4eb098c6eb158639c6b604c3",
+      "sha256_lf": "899d42fb847865e5dafb901f29d0583e78bcab2e4eb098c6eb158639c6b604c3",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/root-consumed.md",
+      "raw_bytes": 9867,
+      "sha256_raw": "057c9ad710e6b9e590c0c1890fe051af79ff0212213d1fd12a1b50cd732d5069",
+      "sha256_lf": "057c9ad710e6b9e590c0c1890fe051af79ff0212213d1fd12a1b50cd732d5069",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/root-core-consumption.md",
+      "raw_bytes": 7058,
+      "sha256_raw": "b479d05b0ad8a3e6f79a3116e889259b85b454bc381089f1a1cd76f697f63a82",
+      "sha256_lf": "b479d05b0ad8a3e6f79a3116e889259b85b454bc381089f1a1cd76f697f63a82",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/runtime-protocol.md",
+      "raw_bytes": 8747,
+      "sha256_raw": "fe70954d6716290bc5b8421fa236d775aefb99e3f3819d777ec72e9ca89c7161",
+      "sha256_lf": "fe70954d6716290bc5b8421fa236d775aefb99e3f3819d777ec72e9ca89c7161",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/source-controller-notes.md",
+      "raw_bytes": 13948,
+      "sha256_raw": "a32e7414bebd9e5d6a0a494f175fcb1fd38fbe14d2a97151c7d936d1c5fadc6a",
+      "sha256_lf": "a32e7414bebd9e5d6a0a494f175fcb1fd38fbe14d2a97151c7d936d1c5fadc6a",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/source-controller-synthetic-result.json",
+      "raw_bytes": 500,
+      "sha256_raw": "3a9618b6ae51271d247c5a92ba272d53f01ec14399374618d288c7dc70d79b07",
+      "sha256_lf": "4a531756fe66b4729321da15c24b799025164f2de7736c663690628a6c1748d8",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/source-controller-synthetic.py",
+      "raw_bytes": 10005,
+      "sha256_raw": "9eb9c044eebb03fbdacc22e8488aba2beb3e949e9f7266aa4840c64ee9b413dc",
+      "sha256_lf": "9eb9c044eebb03fbdacc22e8488aba2beb3e949e9f7266aa4840c64ee9b413dc",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/source-implementation-notes.md",
+      "raw_bytes": 9643,
+      "sha256_raw": "7cfa9f899e82adbac63fe93031c60d61cf6c7056025ae0015d75333ab16e0990",
+      "sha256_lf": "7cfa9f899e82adbac63fe93031c60d61cf6c7056025ae0015d75333ab16e0990",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/source-model-synthetic-result.json",
+      "raw_bytes": 654,
+      "sha256_raw": "1222f99609607d6b74e06fa1bb1a5d72a86a81b1f194a48f650b2f339f46967c",
+      "sha256_lf": "db369783e3fc1eaac67b6c910b1bf3b64aa7eab65abc2d457fe80ef2d0878597",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/source-model-synthetic.py",
+      "raw_bytes": 8468,
+      "sha256_raw": "8fe23c59599552884f9804428ae2daee621a526ba5bdda1c634c799792e0f406",
+      "sha256_lf": "8fe23c59599552884f9804428ae2daee621a526ba5bdda1c634c799792e0f406",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/source-model.py",
+      "raw_bytes": 27057,
+      "sha256_raw": "89bb4eb23264b6f7d1bd56459e2d7825b94ec5a02e5ff7c36e6cc0bfa1237975",
+      "sha256_lf": "89bb4eb23264b6f7d1bd56459e2d7825b94ec5a02e5ff7c36e6cc0bfa1237975",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/source-stage-controller.py",
+      "raw_bytes": 36959,
+      "sha256_raw": "0188ebfe2a0565bcfa53687a82b4dad068b57aae4413d3ff2aed18f8e7a7c9d9",
+      "sha256_lf": "0188ebfe2a0565bcfa53687a82b4dad068b57aae4413d3ff2aed18f8e7a7c9d9",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/verifier-implementation-notes.md",
+      "raw_bytes": 9947,
+      "sha256_raw": "586bf8a5a6f0cbc6355dfdefee85584497f41eb8d2e1914e5cefc03f69b1aaae",
+      "sha256_lf": "586bf8a5a6f0cbc6355dfdefee85584497f41eb8d2e1914e5cefc03f69b1aaae",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/verify-finite-augmented.py",
+      "raw_bytes": 8210,
+      "sha256_raw": "3ef31ca2255ed7a0aa4bc17cac979d49f93c95e43fb3ca18c8a67bd95f0ba6f9",
+      "sha256_lf": "3ef31ca2255ed7a0aa4bc17cac979d49f93c95e43fb3ca18c8a67bd95f0ba6f9",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/verify-source-model.py",
+      "raw_bytes": 26778,
+      "sha256_raw": "2b1c1de335e2412c2f6e1cec7a219f3bd496561df6f4d134a5c87ea42a7603db",
+      "sha256_lf": "2b1c1de335e2412c2f6e1cec7a219f3bd496561df6f4d134a5c87ea42a7603db",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-signed-head/head-result.json",
+      "raw_bytes": 5676,
+      "sha256_raw": "ba31ccef92293cdc1f308ea05bdd507b5d2fb4695cbfab6c341aa74718d4ea4e",
+      "sha256_lf": "ba31ccef92293cdc1f308ea05bdd507b5d2fb4695cbfab6c341aa74718d4ea4e",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-signed-head/math-admission.md",
+      "raw_bytes": 16224,
+      "sha256_raw": "6547b2ff0e0b2a4deeeb88ae549930cb51d7a16b99a77c6053e9c30413e04c95",
+      "sha256_lf": "6547b2ff0e0b2a4deeeb88ae549930cb51d7a16b99a77c6053e9c30413e04c95",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-signed-head/root-consumed.md",
+      "raw_bytes": 3487,
+      "sha256_raw": "a3f8ce2b815cc0150c7db27b850fba82dc2536a909f7a47f0b2e35c3d80ecca9",
+      "sha256_lf": "a3f8ce2b815cc0150c7db27b850fba82dc2536a909f7a47f0b2e35c3d80ecca9",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-whole-admission/mixed-source-feasibility.md",
+      "raw_bytes": 12956,
+      "sha256_raw": "03a08d7699194b37c724fb6160e2d368b5398e8a97aed5e70029167a6c79be6f",
+      "sha256_lf": "03a08d7699194b37c724fb6160e2d368b5398e8a97aed5e70029167a6c79be6f",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-whole-admission/old-fee-recovery-fresh.md",
+      "raw_bytes": 4974,
+      "sha256_raw": "a77888cd710f41a7abba87687e2724de009dbc6500bce5eddac16b3771895fc1",
+      "sha256_lf": "a77888cd710f41a7abba87687e2724de009dbc6500bce5eddac16b3771895fc1",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-whole-admission/old-fee-recovery.json",
+      "raw_bytes": 2341,
+      "sha256_raw": "1b07b329e390089f34d86777ecbf6b257b40ab3636a7123fe08023317c98c344",
+      "sha256_lf": "41a8478a72c78431a6566b3a4a4c46ebf52173aa8da73c7c4745cbbd279fbbb9",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-whole-execution/prefix-result.json",
+      "raw_bytes": 121199,
+      "sha256_raw": "3dd3a82946a07c38fa80f18422af215de7e9d1a0c2b5b2e0dc817bfc0acb7e6c",
+      "sha256_lf": "3dd3a82946a07c38fa80f18422af215de7e9d1a0c2b5b2e0dc817bfc0acb7e6c",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-whole-execution/root-consumption-scope.json",
+      "raw_bytes": 29377,
+      "sha256_raw": "899a9098dc3a944125b9ff314208706e1b164401a17a70583011911167e058cf",
+      "sha256_lf": "4e89fdca520b5023d7831557d48a1133b4a6dbb01ed34c94f03f23a31af5dd90",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-whole-execution/root-scalar-consumption.json",
+      "raw_bytes": 10956,
+      "sha256_raw": "78534866762476619eaf553d8247b2d67d8b4fd2d9bbfd9337fae9b4001a04ae",
+      "sha256_lf": "d5894499b4a7c04aedb5ebd1624dd27d319890d5a91f110dcb4aad1f2931044e",
+      "raw_git_required": true
+    },
+    {
+      "path": "reviews/2026-11-01/retained-tail-whole-execution/terminal-replay-result.json",
+      "raw_bytes": 27044,
+      "sha256_raw": "32299c4c720caf2d1b4380a7cd01bf4a20611ad3ed81dcbb65536fe7b59ef30d",
+      "sha256_lf": "32299c4c720caf2d1b4380a7cd01bf4a20611ad3ed81dcbb65536fe7b59ef30d",
+      "raw_git_required": true
+    }
+  ],
+  "local_bindings": [
+    {
+      "path": "literature/local/2026-10-29-weil-9-8/pilot/run-01/certificates/moments.json",
+      "bytes": 734638,
+      "sha256": "2d166f7ae457fd61826329d31365564e25f1cfc6bc19d09aef22d2ec89c6bbd9",
+      "ignored": true,
+      "scope": "Read-only old inputs/recovery; opaque hashing only thisturn"
+    },
+    {
+      "path": "literature/local/2026-10-29-weil-9-8/pilot/run-01/certificates/source-matrices.json",
+      "bytes": 23377672,
+      "sha256": "a5486fea38c3c8f91dcf4bb77c7677e734efe2ac9cbf59ddabc4674739fdb2f2",
+      "ignored": true,
+      "scope": "Read-only old inputs/recovery; opaque hashing only thisturn"
+    },
+    {
+      "path": "literature/local/2026-10-29-weil-9-8/pilot/run-01/certificates/tail-columns.json",
+      "bytes": 296046,
+      "sha256": "d714fa8d717a8f39d8b3b57cc6292e3f14844041b83802cf57ee47aa03c65a0e",
+      "ignored": true,
+      "scope": "Read-only old inputs/recovery; opaque hashing only thisturn"
+    },
+    {
+      "path": "literature/local/2026-10-29-weil-9-8/pilot/source/07-check.py",
+      "bytes": 19517,
+      "sha256": "85fcaaefd2d752a8401b9f7686c1c8779282c2cc21504129aabda7d1e37a83de",
+      "ignored": true,
+      "scope": "Read-only old inputs/recovery; opaque hashing only thisturn"
+    },
+    {
+      "path": "literature/local/2026-10-29-weil-9-8/pilot/source/08-produce.py",
+      "bytes": 9863,
+      "sha256": "ae0f487544c203905faecbb78b30f94fb16fe4f2f63c6b9846ca13ea673ba2b7",
+      "ignored": true,
+      "scope": "Read-only old inputs/recovery; opaque hashing only thisturn"
+    },
+    {
+      "path": "literature/local/2026-10-31-retained-tail-source/run-01/finite-columns.jsonl",
+      "bytes": 73598411,
+      "sha256": "d841d307d2b22367570e594c1bc9e3b64c8a4ffef88691382acf5d6fbeeaf080",
+      "ignored": true,
+      "scope": "Read-only old inputs/recovery; opaque hashing only thisturn"
+    },
+    {
+      "path": "literature/local/2026-10-31-retained-tail-source/run-01/h-columns.jsonl",
+      "bytes": 233458,
+      "sha256": "37f2c0410beb1b1c43b9f8d2df24d72fce3170b5f359d089c198742f1eee4e74",
+      "ignored": true,
+      "scope": "Read-only old inputs/recovery; opaque hashing only thisturn"
+    },
+    {
+      "path": "literature/local/2026-11-01-directional-remainder-old-norm/run-01/attempt.json",
+      "bytes": 96,
+      "sha256": "12108a0d4c218929c236915bfc9f813d780ba7e0cb3130324c2da81dcef74689",
+      "ignored": true,
+      "scope": "Read-only old inputs/recovery; opaque hashing only thisturn"
+    },
+    {
+      "path": "literature/local/2026-11-01-directional-remainder-old-norm/run-01/result.json",
+      "bytes": 14351,
+      "sha256": "51c6dc77a88db04906b3382b7b3ea3f0bab4ce0d04c9b52e5a5cc3dac5daad18",
+      "ignored": true,
+      "scope": "Read-only old inputs/recovery; opaque hashing only thisturn"
+    }
+  ]
+}

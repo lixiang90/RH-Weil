@@ -1,0 +1,16 @@
+{
+  "schema": "rh-weil-global-code-preparation-start-v1",
+  "runtimeGoalCreatedAt": 1793085111,
+  "status": "CODE_PREPARATION_RUNNING_NO_DATA",
+  "recoveredActualFinal": "cf1ec1b9e085998120cfdf17ad8a66a0ff60dd6b",
+  "tree": "b752f54e47b155a377cb3d279dd74aff6ef56a00",
+  "soleParent": "0af85f2d88eb618e67be939c0e9c89ba6440cc7f",
+  "recovery": "ActualAPI ref/commit/tree/localHEAD/soleparent/exact3/cleaninitial/checkpoint/49pub8local/oldledger",
+  "previousTurnClassification": "PROGRESS: strongest-old recovery changed candidate, withdrew p448 and published exactnext",
+  "currentAction": "Selected global source+independent verifier+active finite consumer CODE_PREP, original source/error/budget",
+  "newNumericalExecutionAuthorized": false,
+  "C069": false,
+  "newMathematicalIterations": 0,
+  "noPrivateDataNamespace": true,
+  "observedUTC": "2026-10-31T21:16:20.395108+00:00"
+}
