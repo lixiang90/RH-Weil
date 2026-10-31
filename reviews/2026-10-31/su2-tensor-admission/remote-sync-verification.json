@@ -3,11 +3,23 @@
   "date": "2026-10-31",
   "repository": "https://github.com/lixiang90/RH-Weil",
   "branch": "main",
-  "status": "root-closed-source-publication-pending",
+  "status": "source-verified-metadata-child-condition-armed",
   "source_parent": "c0cc79a07c0baab386fcc1236ecaef0d5b858c91",
   "authorization": "Userdirectper-roundpublicmain sync/Goal§5/command10808proxy",
   "scope": "ONE NT1912.11261v3introTheoremAsource0/standardold0; root9757/independent14227/different11991/16pubpins+localPDF1249898. Library141->142 metadataonly; originalcadence0/history66/latest602/formal21. NoC066603/newkeynet/Goalcompletion.",
-  "source_verification": null,
+  "source_verification": {
+    "commit": "e11e170b8a08a7c186aafd12515a91b96a4b83ea",
+    "tree": "dd93f519a64163ab2d626df285a5f5b1d13b0c86",
+    "sole_parent": "c0cc79a07c0baab386fcc1236ecaef0d5b858c91",
+    "source_changed_paths": 18,
+    "observed_at_utc": "2026-10-31T09:54:45.253705+00:00",
+    "basis": "IndependentconnectedGitHub actualmainref/gitcommit/gittree matchedlocalHEAD/tree/soleparent; stagedexact18thenactual18committedraw/clean/sourcecheckpoint PASS. All16rootpubbindings exact; noPDFinGit.",
+    "local_primary": "PDF1249898bytes/SHA6d50b558...2f379/101p localraw+ignoreverified. Publicmetadata/hashonly.",
+    "cadence_literature": "Originalcadence6813rawSHA0bd41adf...unchanged0/history66/latest602/formal21; library142manifest221943rawSHA8d0e293f87c7828d1d6d733b5c967fd3793b06759a730ce26ab5115ed551aac1. First141entriesandothertopfields unchanged.",
+    "new_math_iterations": 0,
+    "new_key_or_whole_improvement": false,
+    "goal_gates": "all3open/sameactive1793085111"
+  },
   "metadata_child_condition": {
     "exact_paths": [
       "goals/STATE.json",
@@ -15,6 +27,7 @@
       "reviews/2026-10-31/su2-tensor-admission/remote-sync-verification.json"
     ],
     "condition": "Afteractualsource ref/commit/tree/localHEAD/soleparent/exactsourcepaths/clean/checkpoint/16publicpins+localignoredPDF/guards verified, ONEexact3metadatachild. Independentlyverify actualfinalref/gitcommit/gittree/localHEAD/soleparent/exact3/clean/checkpoint/16pins+localPDF/cadence6813raw/library142manifestfinalraw. No ownSHA/recursivepush.",
-    "on_match": "ActualmatchingchildSHA finalHEAD/currentpublicationcomplete. SameGoalactive/C065exhausted; noautomaticproof/II/ref/level/rank/n/sourcequeue. Newactualglobaltargetinput-test-strongoldnetbeforecontract/count; mathematicaldifficulty notexternalblock/completion."
+    "on_match": "ActualmatchingchildSHA finalHEAD/currentpublicationcomplete. SameGoalactive/C065exhausted; noautomaticproof/II/ref/level/rank/n/sourcequeue. Newactualglobaltargetinput-test-strongoldnetbeforecontract/count; mathematicaldifficulty notexternalblock/completion.",
+    "parent": "e11e170b8a08a7c186aafd12515a91b96a4b83ea"
   }
 }
