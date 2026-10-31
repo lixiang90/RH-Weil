@@ -1,0 +1,41 @@
+{
+  "schema": "rh-weil-core-input-admission-start-v1",
+  "date": "2026-10-31",
+  "observed_at_utc": "2026-10-31T12:46:41.767384+00:00",
+  "runtime_goal_created_at": 1793085111,
+  "baseline": "0c4f3a3eb609bb1d9564138fa4a35701f05605f2",
+  "previous_goal_turn": "PROGRESS:603actualnewcrosslower/sharedrepairfailure fullyrootconsumed+published, solemathone; notGoalcompletion",
+  "prior_publication": {
+    "final": "6e472102f7c84f0768a51d1888ea2eeb7cce9aab",
+    "tree": "bfbc0e9285d0cd511c8894b77df94849b990d5b6",
+    "sole_parent": "73f1b63d31520e7d466caa8e3c726d38e4a8d979",
+    "basis": "Thisturn independentGitHubref/commit/tree+localHEAD/parent/exact3/clean/checkpoint/21rawpins+ignored61862 beforemutation"
+  },
+  "candidate": "DIRECTactualfullQ fixed9/8 allsource signedhead-tail input admission, NOT603leakage/oldparameter orsame595v/inverseleg. No C067604pregrant.",
+  "why": "Actualtargetsignedcore canchangepositiveproofresponsibility ifNEWwholematrix+legalcoupling mechanism exists; moreleakageparametersorunknowngeometrynames cannot. Finitehead/oldpoint/oldinverseSchur/unknownmargin only =>entry0stop.",
+  "guards": {
+    "goals/GOAL.20261027.md": {
+      "bytes": 9679,
+      "sha256": "b3d2acb1f962d793f45d79b6a4e67fb87dd072cd4752108a9298204b4cefa1de"
+    },
+    "goals/review-cadence.json": {
+      "bytes": 6905,
+      "sha256": "4e556b9a84fd365a3a55bc4c345dc3dbe0f6e0543394dcca04093387a77560de"
+    },
+    "literature/manifest.json": {
+      "bytes": 223850,
+      "sha256": "3223cffd0205b9a1f8660445ac33d0f3cec13b3bd1fa5e7799ed8abfb2746d42"
+    }
+  },
+  "agents": [
+    {
+      "handle": "/root/whole_weil_core_admission",
+      "output": "strongest-old-and-whole-gate.md"
+    },
+    {
+      "handle": "/root/whole_weil_matrix_input",
+      "output": "matrix-input-audit.md"
+    }
+  ],
+  "cadence": "sole1/history67/latest603/formal21 unchangedatadmission"
+}
