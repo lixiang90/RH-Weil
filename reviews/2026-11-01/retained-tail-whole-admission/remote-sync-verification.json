@@ -1,13 +1,13 @@
 {
   "schema": "rh-weil-proof-admission-source-sync-v1",
-  "status": "SOURCE_NOT_YET_PUBLISHED",
+  "status": "SOURCE_VERIFIED_EXACT3_METADATA_CHILD_ARMED",
   "repository": "https://github.com/lixiang90/RH-Weil",
   "branch": "main",
   "previous_verified_head": "bf0765df794dc906a6a268f0084ca9e8713d9d80",
   "scope": "Proof-onlywholeadmission/oldfee recovery/CODE_PREPonly;0math/noC068/noactualsource/sign",
-  "source_commit": null,
-  "source_tree": null,
-  "metadata_child_condition": "AfteractualsourceAPI/local/pins/checkpointverify, ONE child changesexactly STATE+uniquesynccheckpoint+thisreceipt. VerifyactualfinalHEAD, no recursiveownSHA receipt",
+  "source_commit": "3a76b1a8e6a0af179bddef8dd0efd8120c82f338",
+  "source_tree": "370721600720cd70ef5ecee9fa397f90bd067eaf",
+  "metadata_child_condition": "ONE child with soleparent3a76b1a8e6a0af179bddef8dd0efd8120c82f338 and ONLY metadata_child_exact_paths. Afterpush verifyactualFINAL GitHubref/commit/tree/localexact3/clean/checkpoint/34pub7local/guards; no ownSHA/recursivecommit",
   "source_changed_paths": [
     ".gitattributes",
     "RESEARCH_BRANCHES.md",
@@ -38,5 +38,19 @@
     "goals/STATE.json",
     "goals/checkpoints/2026-11-01-retained-tail-whole-admission-sync.json",
     "reviews/2026-11-01/retained-tail-whole-admission/remote-sync-verification.json"
-  ]
+  ],
+  "verifiedAtUTC": "2026-10-31T18:35:37.232977+00:00",
+  "source_sole_parent": "bf0765df794dc906a6a268f0084ca9e8713d9d80",
+  "verification": "ActualGitHubref/gitcommit/gittree +localHEAD/solebf0765/exact24/clean/checkpoint/34publicrawLF/7local/Goal9679-cadence7036-manifest223850 unchanged ALLPASS",
+  "source_checks": {
+    "publicBindings": 34,
+    "localBindings": 7,
+    "exactSourcePaths": 24,
+    "cadence": "UNCHANGED2/history68/latest604/formal21",
+    "numericalRun": false,
+    "newMathIterations": 0,
+    "authorizationNow": "CODE_PREPARATION_ONLY",
+    "formalC068": false,
+    "allGoalGates": "open/sameactive1793085111"
+  }
 }
