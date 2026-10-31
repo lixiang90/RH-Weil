@@ -3,10 +3,21 @@
   "date": "2026-10-31",
   "repository": "https://github.com/lixiang90/RH-Weil",
   "branch": "main",
-  "status": "root-closed-source-publication-pending",
+  "status": "source-verified-metadata-child-condition-armed",
   "source_parent": "a6483f992f2a6539abb1e0d726b666acbf8ddfe5",
   "scope": "ONEglobaltheta interfaceold/type0, root4440/independent7967/different4129/16pubpins. No newexternalinput/math/keynet; originalcadence/libraryrawheld.",
-  "source_verification": null,
+  "source_verification": {
+    "commit": "ea642f7516be573b9eed43e1e15852a04bdbc88e",
+    "tree": "9eff471d2a971550f1d514c1ca59d685a9ea2621",
+    "sole_parent": "a6483f992f2a6539abb1e0d726b666acbf8ddfe5",
+    "source_changed_paths": 16,
+    "observed_at_utc": "2026-10-31T10:40:15.474806+00:00",
+    "basis": "IndependentconnectedGitHub actualmainref/gitcommit/gittree matchedlocalHEAD/tree/soleparent; exact16staged thenall16committedraw/clean/checkpoint/16rootpubpins/guards PASS. No newauthorPDF/source.",
+    "cadence_literature": "Originalcadence6813rawSHA0bd41adf77ca1d22895c9a42e808ef3e627c929bc639cce0f782ceaee4aa2041 held0/history66/latest602/formal21; library142manifest221943rawSHA8d0e293f87c7828d1d6d733b5c967fd3793b06759a730ce26ab5115ed551aac1 unchanged.",
+    "new_math_iterations": 0,
+    "new_key_or_whole_improvement": false,
+    "goal_gates": "all3open/sameactive1793085111"
+  },
   "metadata_child_condition": {
     "exact_paths": [
       "goals/STATE.json",
@@ -14,6 +25,7 @@
       "reviews/2026-10-31/global-theta-core-admission/remote-sync-verification.json"
     ],
     "condition": "Afteractualsource independentref/commit/tree/localHEAD/parent/exactsourcepaths/clean/checkpoint/16rawpubpins/guards verified, ONEexact3metadatachild. Independentlyverify actualfinalref/commit/tree/localHEAD/soleparent/exact3/clean/checkpoint/16pins/cadence6813raw0history66latest602formal21/library142manifest221943raw. No ownSHA/recursivepush.",
-    "on_match": "Matchingactualchild finalHEAD/publicationcomplete. SameGoalactive/C065exhausted/noautomaticKtype/level/weight/rank/oldchapter/sourcequeue. Differentactualcoreinput/test/strongoldnetbeforemath; notexternalblock/Goalcompletion."
+    "on_match": "Matchingactualchild finalHEAD/publicationcomplete. SameGoalactive/C065exhausted/noautomaticKtype/level/weight/rank/oldchapter/sourcequeue. Differentactualcoreinput/test/strongoldnetbeforemath; notexternalblock/Goalcompletion.",
+    "parent": "ea642f7516be573b9eed43e1e15852a04bdbc88e"
   }
 }
