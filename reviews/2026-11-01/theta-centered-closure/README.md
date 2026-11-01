@@ -1,0 +1,9 @@
+# Strongest-old centered-Theta and closed-output recovery
+
+2026-11-01. Final authority is [root-consumption.json](root-consumption.json), with [D20261101AB causal review](../../../goals/reviews/2026-11-01-theta-centered-closed-output-recovery.md) and [limited escape-scope refinement](prior-escape-scope-refinement.md). ROOT fully read/pinned terminal norm12957 and output12980, both independently PASS on its complete10447 direct proof. The Deninger9667 dedup support was also terminal/full-read; no new primary body or paper/chapter sequel.
+
+Actual T0=Theta-(3/pi)mu_-1 has ||T0r||²=2||P_+r||² in the ORIGINAL physicaldu norm, with bounded extension of exact normsqrt(2) and closed supplied range. The proof uses paid fullMS/scalarMellin/residue/absoluteunfolding, not an imported automorphicPlancherel theorem. General centered S_exp sources have a constant cusp model; ordinary integrals suffice and no raw residue is used. The degree functional and uncenteredTheta are not globallydu bounded.
+
+Old553 then gives closureTheta(P_c)=RanT0. With BOTH degrees retained, closurePhi(P_c)={0}² directsum RanT0. Closed Hilbert quotients or individually continuous output readouts with exact whole-coset invariance lose all centered source information, including537's pole-free nonroot. Only supplied image is classified; ambient cusps/full-spectrum completeness is not claimed. GeneralDprime, stronger/nonclosed/unbounded outputs, different/raw-extra source data and signed/indefinite mechanisms outside these premises remain legal.
+
+This is standard-old recovery/input0, zero mathematical-round increment and no new classical whole/core consequence. Goal/C070/C071/cadence0-history70-latest606-formal22/library149manifest RAWheld,14local9code held. All3longGoal gates remain OPEN and SAMEGoal1793085111 active. No607/C072, sciencecode/numeric or admitted source/math successor.
