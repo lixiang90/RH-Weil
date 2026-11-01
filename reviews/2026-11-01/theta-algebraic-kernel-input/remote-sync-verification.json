@@ -1,6 +1,6 @@
 {
   "schema": "RH_WEIL_THETA_ALGEBRAIC_KERNEL_SYNC_V1",
-  "status": "PREPARED_SOURCE_TRANSPORT_CORRECTION_NOT_PUSHED",
+  "status": "SOURCE_VERIFIED_EXACT3_METADATA_CHILD_ARMED",
   "repository": "https://github.com/lixiang90/RH-Weil",
   "branch": "main",
   "previous_verified_head": "ce1599f392c12458deda02992d656959c5a1ee58",
@@ -32,5 +32,69 @@
     ]
   },
   "source_correction_expected_parent": "09a064ffe3b60cc67e42b94256dd77dfe17c6aab",
-  "git_binding_semantics": "publicBindings androotInputs bindworkingRAW; publicGitBlobBindings bindsactualGitobjects. OnehistoricalJSONworkingCRLF/GitLFsamecontent, originalproofbytesunchanged. UsecanonicalGitbindingsforremoteverification, nevernormalizeissuedproofs."
+  "git_binding_semantics": "publicBindings androotInputs bindworkingRAW; publicGitBlobBindings bindsactualGitobjects. OnehistoricalJSONworkingCRLF/GitLFsamecontent, originalproofbytesunchanged. UsecanonicalGitbindingsforremoteverification, nevernormalizeissuedproofs.",
+  "source_commit": "945bf1a0521f2356f2eec5dca36a9a11592b74e2",
+  "source_tree": "433245760094fa26ec3ddee73af5771062a4e13f",
+  "source_sole_parent": "09a064ffe3b60cc67e42b94256dd77dfe17c6aab",
+  "source_lineage": [
+    "ce1599f392c12458deda02992d656959c5a1ee58",
+    "09a064ffe3b60cc67e42b94256dd77dfe17c6aab",
+    "945bf1a0521f2356f2eec5dca36a9a11592b74e2"
+  ],
+  "source_changed_paths": [
+    ".gitattributes",
+    "RESEARCH_BRANCHES.md",
+    "goals/DECISIONS.md",
+    "goals/MACRO_FRONTIER.md",
+    "goals/README.md",
+    "goals/STATE.json",
+    "goals/checkpoints/2026-11-01-theta-algebraic-kernel-coverage-source.json",
+    "goals/checkpoints/2026-11-01-theta-algebraic-kernel-source-transport-repair.json",
+    "goals/reviews/2026-11-01-theta-algebraic-kernel-coverage-stop.md",
+    "literature/README.md",
+    "literature/manifest.json",
+    "literature/supplements/2026-11-01-theta-algebraic-kernel-source-scope.md",
+    "reviews/2026-11-01/theta-algebraic-kernel-input/README.md",
+    "reviews/2026-11-01/theta-algebraic-kernel-input/formation-and-admission-test.md",
+    "reviews/2026-11-01/theta-algebraic-kernel-input/fresh-algebraic-coverage-review.md",
+    "reviews/2026-11-01/theta-algebraic-kernel-input/kernel-source-verification.md",
+    "reviews/2026-11-01/theta-algebraic-kernel-input/prior-output-escape-scope-refinement.md",
+    "reviews/2026-11-01/theta-algebraic-kernel-input/publication-inputs.json",
+    "reviews/2026-11-01/theta-algebraic-kernel-input/remote-sync-verification.json",
+    "reviews/2026-11-01/theta-algebraic-kernel-input/root-consumption.json",
+    "reviews/2026-11-01/theta-algebraic-kernel-input/root-old-criterion-application.md",
+    "reviews/2026-11-01/theta-algebraic-kernel-input/strong-old-and-proof-admission.md",
+    "reviews/2026-11-01/theta-algebraic-kernel-input/zero-background-download.json"
+  ],
+  "source_correction_changed_paths": [
+    "goals/STATE.json",
+    "goals/checkpoints/2026-11-01-theta-algebraic-kernel-source-transport-repair.json",
+    "reviews/2026-11-01/theta-algebraic-kernel-input/publication-inputs.json",
+    "reviews/2026-11-01/theta-algebraic-kernel-input/remote-sync-verification.json"
+  ],
+  "source_verification": {
+    "api_ref_commit_rootTree": true,
+    "local_commit_tree_sole_attempt_and_attempt_sole_previous": true,
+    "first_source_transport_issue_closed": true,
+    "workingRawBindings": 130,
+    "actualCanonicalGitBlobPins": 130,
+    "publicBindings": 130,
+    "localOnlyBindings": 15,
+    "unchangedScientificCode": 9,
+    "rootInputs": 17,
+    "checkpointLFpins": 20,
+    "libraryEntries": 150,
+    "prior149EntriesDeeplyUnchanged": true,
+    "GoalCadenceC070C071RawUnchanged": true,
+    "worktree_clean_before_metadata": true,
+    "sameRuntimeGoal": "Actualget_goalACTIVE1793085111 afteractualtest/terminalreviews/ROOTsettlement",
+    "actualQualification": "rstaractualjointPhi-kernel/fullWeilmixedNONroot; allstrongsamePhioutputlossalgebraic; old516/520application0",
+    "mathematicalRounds": 0,
+    "new607": false,
+    "newC072": false,
+    "coreBottleneckChanged": false,
+    "allThreeGoalGates": "OPEN",
+    "noLiveProofProcessOrAdmittedSuccessor": true
+  },
+  "verified_at_utc": "2026-11-01T08:54:09.737243+00:00"
 }
