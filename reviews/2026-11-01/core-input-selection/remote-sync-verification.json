@@ -1,11 +1,11 @@
 {
   "schema": "RH_WEIL_CORE_INPUT_SELECTION_SYNC_V1",
-  "status": "LOCAL_SOURCE_READY_NOT_YET_PUBLISHED",
+  "status": "SOURCE_VERIFIED_EXACT3_METADATA_CHILD_ARMED",
   "repository": "https://github.com/lixiang90/RH-Weil",
   "branch": "main",
   "previous_verified_head": "c3f66b751df2e1d51f6d304ac8c7dfd79311f2b4",
-  "source_commit": null,
-  "source_tree": null,
+  "source_commit": "c3369a6a8fa988c974ab71322f4e058db0ab7499",
+  "source_tree": "ae62c9267a8d5db78950c9aa90beab3bf3c12e5f",
   "scope": "ActualONEboundedcoreselectionNONE andfreshscopeclosed;0strategyrounds/newmath/test/run/externalprimary/search. Nextunique3query/5locatorprimarydiscoveryUNEXECUTED;locatornotpaidtheorem.",
   "metadata_child_exact_paths": [
     "goals/STATE.json",
@@ -15,5 +15,42 @@
   "condition": "OneverifiedSOURCE andonesoleparentSOURCEexact3metadatachild; independentlyverifyactualFINAL API/local/tree/paths/clean/checkpoint/pins. NoownSHAloop.",
   "public_bindings_count": 40,
   "local_only_bindings_count": 9,
-  "unchanged_scientific_code_pins": 9
+  "unchanged_scientific_code_pins": 9,
+  "source_changed_paths": [
+    ".gitattributes",
+    "RESEARCH_BRANCHES.md",
+    "goals/DECISIONS.md",
+    "goals/MACRO_FRONTIER.md",
+    "goals/README.md",
+    "goals/STATE.json",
+    "goals/checkpoints/2026-11-01-core-input-selection-source.json",
+    "goals/reviews/2026-11-01-core-input-selection-none.md",
+    "literature/README.md",
+    "literature/supplements/2026-11-01-core-input-selection-scope.md",
+    "reviews/2026-11-01/core-input-selection/README.md",
+    "reviews/2026-11-01/core-input-selection/execution-start.json",
+    "reviews/2026-11-01/core-input-selection/fresh-selection-review.md",
+    "reviews/2026-11-01/core-input-selection/next-primary-input-discovery.md",
+    "reviews/2026-11-01/core-input-selection/positive-distribution-signed-core-nomination.md",
+    "reviews/2026-11-01/core-input-selection/principal-geometry-nomination.md",
+    "reviews/2026-11-01/core-input-selection/publication-inputs.json",
+    "reviews/2026-11-01/core-input-selection/remote-sync-verification.json",
+    "reviews/2026-11-01/core-input-selection/root-consumption.json",
+    "reviews/2026-11-01/core-input-selection/root-selection-decision-draft.md"
+  ],
+  "source_verification": {
+    "api_ref_commit_tree": true,
+    "local_commit_tree_and_sole_parent": true,
+    "worktree_clean_before_metadata": true,
+    "publicBindings": 40,
+    "localOnlyBindings": 9,
+    "unchangedScientificCode": 9,
+    "checkpointLFpins": 20,
+    "libraryEntries": 144,
+    "GoalCadenceManifestRawUnchanged": true,
+    "runtimeGoal": "SAMEactive1793085111",
+    "nextDiscovery": "UNEXECUTED unique3query/5locator; locatorclaimsUNREVIEWED/no math automatic",
+    "mathematicalBottleneckChanged": false
+  },
+  "verified_at_utc": "2026-11-01T01:01:13.293785+00:00"
 }

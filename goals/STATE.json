@@ -40,8 +40,8 @@
     "settled_iterations": [
       "notes/606-global-joint-first-admission-technical-stop.md"
     ],
-    "stage": "ONEcore-inputselection ROOTconsumed NONE6973/8907/fresh9591;0strategy/no math/test/run/newcontract. NextprimarydiscoverycardUNEXECUTED; publicationnext.",
-    "next_action": "Publish/verifyactualFINAL first; thenONLYONEboundedprimarydiscovery perreviews/2026-11-01/core-input-selection/next-primary-input-discovery.md unique3querybatch/144dedup/5locators/onecandidateorNONEstop. LocatorUNREVIEWED,no math/sourcechapterautomatic.",
+    "stage": "ONEcoreselectionNONE ROOTclosed0strategy;SOURCEc3369a6/ae62verified40pub9local9code/library144/clean. Exact3metadatachild armed; uniqueprimarydiscoveryUNEXECUTED/no math admitted.",
+    "next_action": "VerifyactualFINAL API/local/tree/soleSOURCEc336/exact3/clean/checkpoint40pub9local9code first; thenONLYunique3query/5locatorprimarydiscovery perreviews/2026-11-01/core-input-selection/next-primary-input-discovery.md. OneUNREVIEWEDcandidatecardorNONEstop; no PDF/proof/secondbatch/math automatic.",
     "stop_rule": "C069606/inert/BC72/Frspentstopped; internalONEselectionNONEdone/norepeat. Discoveryuniqueonebatch endsatonecandidateorcap/NONE; no automaticquery/paper/variant/engineering/C070607."
   },
   "support_contracts": [],
@@ -107,16 +107,16 @@
   "runtime_goal_observation": {
     "status": "active",
     "created_at_unix": 1793085111,
-    "observed_at_utc": "2026-11-01T00:48:24.282192+00:00",
-    "basis": "Actualget_goal SAMEactive1793085111; uniqueformula-firstselectionactionactuallystartedafterpublicationrecovery."
+    "observed_at_utc": "2026-11-01T01:01:13.294920+00:00",
+    "basis": "Actualget_goal SAMEactive afterSOURCEpublication; ONEcoreselectionNONEactuallyexecuted/rootclosed, uniqueprimarydiscoveryUNEXECUTED."
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-11-01-core-input-selection-source.json",
+  "checkpoint": "goals/checkpoints/2026-11-01-core-input-selection-sync.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
-    "commit": "c3f66b751df2e1d51f6d304ac8c7dfd79311f2b4",
-    "tree": "6afd279234295dedad458576b66aff5bdb4718d0",
-    "basis": "API/local/sole7284/exact3/clean/checkpoint19/35public9local9code beforecurrentselection."
+    "commit": "c3369a6a8fa988c974ab71322f4e058db0ab7499",
+    "tree": "ae62c9267a8d5db78950c9aa90beab3bf3c12e5f",
+    "basis": "ActualSOURCE API/ref/commit/tree/solec3f66/localclean40pub9local9code/checkpoint20pins;Goal/cadence/manifestRAWheld. ActualFINAL mustsatisfy exact3childcondition; recoveractualref."
   },
   "completion_audit": {
     "goal": "goals/GOAL.20261027.md",
@@ -128,7 +128,7 @@
   },
   "process_inventory_observed_on": "CURRENTprincipal/positive/freshselection tasks terminal,actualfilesROOTread; no scientificprocess/search. NextboundedprimarydiscoveryUNEXECUTED.",
   "publication_approval_gate": {
-    "status": "authorized-core-selection-NONE-source-preparing",
+    "status": "authorized-core-selection-SOURCE-verified-exact3-metadata-child-armed",
     "destination": "https://github.com/lixiang90/RH-Weil",
     "visibility": "public",
     "branch": "main",
