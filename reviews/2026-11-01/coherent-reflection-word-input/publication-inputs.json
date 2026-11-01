@@ -1,0 +1,468 @@
+{
+  "schema": "RH_WEIL_REFLECTION_WORD_ADMISSION_PUBLICATION_V1",
+  "runtimeGoalCreatedAt": 1793085111,
+  "publicBindings": [
+    {
+      "path": ".gitattributes",
+      "bytes": 11350,
+      "sha256": "4b2aa7c50f994f701fdb44cc162aaf7e33de075ab812d86f21302e192bce2458"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 4053,
+      "sha256": "759178cc17edb0f4c5417b485759f491373447897d0828c3ca78f06939266650"
+    },
+    {
+      "path": "RESEARCH_BRANCHES.md",
+      "bytes": 315700,
+      "sha256": "8c3943f982f4c7b83ca0c8f68973c725c41ceae9c08325db0b9e4cacae85eabd"
+    },
+    {
+      "path": "goals/DECISIONS.md",
+      "bytes": 404109,
+      "sha256": "d12f885ffc29b70e56e99e03d1da5e23dee26ad43024f04180a177f137d3e477"
+    },
+    {
+      "path": "goals/GOAL.20261027.md",
+      "bytes": 9679,
+      "sha256": "b3d2acb1f962d793f45d79b6a4e67fb87dd072cd4752108a9298204b4cefa1de"
+    },
+    {
+      "path": "goals/MACRO_FRONTIER.md",
+      "bytes": 142785,
+      "sha256": "63df4adc406536966a022549b292d970954dc02a30cc88ee973517f02f0df90e"
+    },
+    {
+      "path": "goals/README.md",
+      "bytes": 106955,
+      "sha256": "cdd4584b05e3d8f685383a2eb018dbeaef6d816a20a7f3a8d78520f03b6ccd1d"
+    },
+    {
+      "path": "goals/RESEARCH_WORKFLOW.md",
+      "bytes": 10509,
+      "sha256": "567b238a62872505f9b29688cf4320fafb7f20b67a650c6cd7711ad56ddf95c1"
+    },
+    {
+      "path": "goals/contracts/C070-joint-hermite-commutator-three-test.md",
+      "bytes": 5228,
+      "sha256": "18882f7cfeb252382707e3a69baeee020dc2984289c6614aaca176c115e1e336"
+    },
+    {
+      "path": "goals/contracts/C071-coherent-reflection-word-three-test.md",
+      "bytes": 5246,
+      "sha256": "65e819f08ce57817e323ab80792d0747c7dc36f176e7a57ddf49a715704a9ed7"
+    },
+    {
+      "path": "goals/review-cadence.json",
+      "bytes": 6938,
+      "sha256": "74968571c8d0c6a51662ac37602ac241c1a84add09938b1b6c27bdaa697adfb0"
+    },
+    {
+      "path": "goals/reviews/2026-11-01-coherent-reflection-word-admission.md",
+      "bytes": 2810,
+      "sha256": "5dc830bc2b7e0d71f76c8bab0637c35e589c19a2d146bb487b1159ac7a04ce83"
+    },
+    {
+      "path": "goals/reviews/2026-11-01-deninger-witt-relative-correspondence-stop.md",
+      "bytes": 3018,
+      "sha256": "2ea8517c534bb849a5522af86b9783942cbbdb6c32d42f970f80fc99c82b421a"
+    },
+    {
+      "path": "goals/reviews/2026-11-01-flach-morin-line-and-tate-admission-stop.md",
+      "bytes": 3699,
+      "sha256": "72cb70a20e286183db94bebd264ebbdf504483496e5ff787513525d5d2f6a523"
+    },
+    {
+      "path": "goals/reviews/2026-11-01-general-rh-macro-review-cycle-22.md",
+      "bytes": 6690,
+      "sha256": "5e898336014ade5bfedbea9249d376a3c0ee5ca160c58bca39ab8b1e13598fc9"
+    },
+    {
+      "path": "literature/README.md",
+      "bytes": 157035,
+      "sha256": "d1bfca7da779b7bc9c9c18f95d88bb711d229b7d9329ba5e07da6055c83b9575"
+    },
+    {
+      "path": "literature/manifest.json",
+      "bytes": 234350,
+      "sha256": "09fd757b65d1f6fbe3abb391ade61e7690fea5323dfa4a50bc53923f18d598be"
+    },
+    {
+      "path": "literature/supplements/2026-11-01-coherent-reflection-word-input-scope.md",
+      "bytes": 1130,
+      "sha256": "be16018719af8bcb3c67a31db80c39f4a71d91c84aa394c4baf892eabac3554b"
+    },
+    {
+      "path": "literature/supplements/2026-11-01-deninger-witt-correspondence-scope.md",
+      "bytes": 3572,
+      "sha256": "4d9842c7f0d089d3bcc3ab9e13f9ead22023e89cc5a31478810aec25abe98879"
+    },
+    {
+      "path": "literature/supplements/2026-11-01-flach-morin-fundamental-line-scope.md",
+      "bytes": 1797,
+      "sha256": "68851f3b3d92ba83a5c7e12952b22078aa48479d24216ec666e46dc1e221f2e1"
+    },
+    {
+      "path": "notes/537-source-exact-weil-window-positive-tail-admission.md",
+      "bytes": 8155,
+      "sha256": "269a500556d37fc04a4e44efd2f0899414787743e529506dbbe7395a34eea9f8"
+    },
+    {
+      "path": "notes/574-actual-adelic-cover-relative-picard-and-source-transport.md",
+      "bytes": 11880,
+      "sha256": "b97aa1619f559e22041f5f46404a5ab09e598722e16287059e8691c555eee45d"
+    },
+    {
+      "path": "notes/591-connected-occupation-covariance-three-fixed-test-barrier.md",
+      "bytes": 5974,
+      "sha256": "5a6d6e221369a1a9bce668d56c9fe574aeca0a295fdb7d0ccd31e4fcd03eaa7c"
+    },
+    {
+      "path": "reviews/2026-11-01/coherent-reflection-word-input/README.md",
+      "bytes": 1899,
+      "sha256": "6a88b58838b394a6621821f576eb0bc1b282cd0393e00939f3aafd77b8585feb"
+    },
+    {
+      "path": "reviews/2026-11-01/coherent-reflection-word-input/actual-family-and-test.md",
+      "bytes": 12277,
+      "sha256": "c23ec31821d794a873c65cc1dd6d7fdff28cd63d5eef3e2541dad1e10eef5a1b"
+    },
+    {
+      "path": "reviews/2026-11-01/coherent-reflection-word-input/consumption-wording-limits.md",
+      "bytes": 1675,
+      "sha256": "2451568791d32309205da1091b52ab9ff636a90d6552974454afe672d12657f4"
+    },
+    {
+      "path": "reviews/2026-11-01/coherent-reflection-word-input/fresh-admission-review.md",
+      "bytes": 10289,
+      "sha256": "431956a087e8f4af9f00fa196fb6389abf9a750ad05b22b4e7a2237baa7b9ccb"
+    },
+    {
+      "path": "reviews/2026-11-01/coherent-reflection-word-input/root-consumption.json",
+      "bytes": 5510,
+      "sha256": "aca6dc509dc9ca68196d53457f9e2e890ff9e8cc2f496c9f322e250fc8e72729"
+    },
+    {
+      "path": "reviews/2026-11-01/coherent-reflection-word-input/root-proposal-and-admission-gate.md",
+      "bytes": 4739,
+      "sha256": "1e3195291fed9a8ecaee4dd8eca7d02b2f31f2379136781134c53d9c5db43244"
+    },
+    {
+      "path": "reviews/2026-11-01/coherent-reflection-word-input/strongest-old-and-admission.md",
+      "bytes": 9263,
+      "sha256": "d68fe788e20962f52c36ac0ae1d092fc8bcb32c4a379b2cbf32f86b7f7b41663"
+    },
+    {
+      "path": "reviews/2026-11-01/deninger-witt-correspondence-source/README.md",
+      "bytes": 2864,
+      "sha256": "3256134b368724049e67d994f49dfe9f9f4b7236fa88cb100b342db5a5a1656c"
+    },
+    {
+      "path": "reviews/2026-11-01/deninger-witt-correspondence-source/final-scope-review.md",
+      "bytes": 7802,
+      "sha256": "365153a5e922f7f95eb6de72db37d6bc23d5ff7bc6e31fb37a0f55559c7f12f0"
+    },
+    {
+      "path": "reviews/2026-11-01/deninger-witt-correspondence-source/historicalArchiveOnly-download.json",
+      "bytes": 548,
+      "sha256": "38c41fdaff693ec9c89284718a07e63f851138b6c3b25dea4f48a38d2f722def"
+    },
+    {
+      "path": "reviews/2026-11-01/deninger-witt-correspondence-source/moment-source-admission-review.md",
+      "bytes": 9366,
+      "sha256": "b908d8c51420d19018675e2052a2cb1e0cace386b634b03fddbded817dea4d85"
+    },
+    {
+      "path": "reviews/2026-11-01/deninger-witt-correspondence-source/native-identification-review.md",
+      "bytes": 7085,
+      "sha256": "9c8bbb43dfcaf93f1ad14bb555876804adf37aaf0cd78ef6f677d29be9149e08"
+    },
+    {
+      "path": "reviews/2026-11-01/deninger-witt-correspondence-source/newPrimary-download.json",
+      "bytes": 477,
+      "sha256": "0d0cd159bc3b98a401fb3680c749477d34f621c4f1ff2e3cd96f2ce8b3e9d326"
+    },
+    {
+      "path": "reviews/2026-11-01/deninger-witt-correspondence-source/root-actual-moment-proposal.md",
+      "bytes": 4320,
+      "sha256": "5bc5fa389257e4b46c28737af5d7cd1b2e0adfd06c0f47ba094292a18f5c8f29"
+    },
+    {
+      "path": "reviews/2026-11-01/deninger-witt-correspondence-source/root-consumption.json",
+      "bytes": 6021,
+      "sha256": "96f695268ff983ac5d97b84a4d47355b2838694493ad67dc1b5f304f5d8ab11f"
+    },
+    {
+      "path": "reviews/2026-11-01/deninger-witt-correspondence-source/root-native-consumption.json",
+      "bytes": 3610,
+      "sha256": "5d42a37261128e45b6caa720cc21b4c081164217e8bbbb7810c3c389aea50f4c"
+    },
+    {
+      "path": "reviews/2026-11-01/deninger-witt-correspondence-source/scope-and-admission.md",
+      "bytes": 2284,
+      "sha256": "ceda50d769b2c070ac659f6fb0354aeaba27006b5654b1e66512e3ce1e0075aa"
+    },
+    {
+      "path": "reviews/2026-11-01/deninger-witt-correspondence-source/zero-section-domain-clarification.md",
+      "bytes": 2059,
+      "sha256": "10c3a613f204fef71ab16017b143204b7185fce82e4fef7c5ae981fe50423220"
+    },
+    {
+      "path": "reviews/2026-11-01/flach-morin-fundamental-line-source/README.md",
+      "bytes": 1345,
+      "sha256": "34e6b20be9ff62da5a5c1cabd3c01fa4d339f4ea708ca5c55ff1324e71a1fce1"
+    },
+    {
+      "path": "reviews/2026-11-01/flach-morin-fundamental-line-source/diagonal-tate-moment-admission.md",
+      "bytes": 3729,
+      "sha256": "d0c9449db95d898cda4443d9c2f0886ae14739a46e6d61c33ee7556a10e62536"
+    },
+    {
+      "path": "reviews/2026-11-01/flach-morin-fundamental-line-source/diagonal-tate-moment-check.md",
+      "bytes": 2822,
+      "sha256": "834544db22d90d59d862a15ad6d2dba3a12fcb5a09b5088396bdf239a62dfbbb"
+    },
+    {
+      "path": "reviews/2026-11-01/flach-morin-fundamental-line-source/diagonal-tate-principal-scope.md",
+      "bytes": 2146,
+      "sha256": "422359bddf1b2b09cb12e5fef035fd607d4afde605cf59922133e222d0c50583"
+    },
+    {
+      "path": "reviews/2026-11-01/flach-morin-fundamental-line-source/download-receipt.json",
+      "bytes": 510,
+      "sha256": "4e9dd512b09a2f22fde275b68f401efdb9e4656c379e98d494e30e258fafedd2"
+    },
+    {
+      "path": "reviews/2026-11-01/flach-morin-fundamental-line-source/fresh-review.md",
+      "bytes": 4121,
+      "sha256": "4c9d70c942b955ff6cff6571ba492dd4caec5249475e83ab73cf293ed2ca2faa"
+    },
+    {
+      "path": "reviews/2026-11-01/flach-morin-fundamental-line-source/minimal-assumption-locator-correction.json",
+      "bytes": 1071,
+      "sha256": "6669819b77c470091973bac431963cd326035f1f2b178a99211fac0ce3aa9a04"
+    },
+    {
+      "path": "reviews/2026-11-01/flach-morin-fundamental-line-source/native-line-and-assumptions.md",
+      "bytes": 6450,
+      "sha256": "de79c5b6d56a356de7d45d705985512513f88783c66aa5be3b8b8f07d93fb26d"
+    },
+    {
+      "path": "reviews/2026-11-01/flach-morin-fundamental-line-source/physical-source-and-old-comparison.md",
+      "bytes": 6305,
+      "sha256": "afef1b2c76401c19d9a2bd47d8a8463b75ab686ccd4c7a4a48de744bdadf2852"
+    },
+    {
+      "path": "reviews/2026-11-01/flach-morin-fundamental-line-source/root-consumption.json",
+      "bytes": 9798,
+      "sha256": "42cf5d3858633c1c1e8eb52b41b03ac901a1763a55f19d55b19e4db2b4412952"
+    },
+    {
+      "path": "reviews/2026-11-01/flach-morin-fundamental-line-source/root-source-consumption.json",
+      "bytes": 3505,
+      "sha256": "1d81b60462764d7bbe321d02f88d7fb46e2e599aac8ceedf1e0b7bbc8860c0d9"
+    },
+    {
+      "path": "reviews/2026-11-01/flach-morin-fundamental-line-source/root-typed-closure-and-specZ-probe.md",
+      "bytes": 6420,
+      "sha256": "c73232ef2c677bd97c44e7ef26d57a4c5bbea4346eb05150f81c2d594cce01eb"
+    },
+    {
+      "path": "reviews/2026-11-01/flach-morin-fundamental-line-source/scope-card.json",
+      "bytes": 2309,
+      "sha256": "6856e762c123931fa5962d350cc75a8727e2afddaf1ffa9b38f59c8d253c361b"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/finite-independent-inputs.py",
+      "bytes": 8400,
+      "sha256": "05bb27e4fb457aa29d7cae57115260dc4ca716d4899f1019feea274876cf5a97"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/finite-whole-consumer.py",
+      "bytes": 47909,
+      "sha256": "6919ea1306ba9539520851634f0fa68980499a479bd529e73cf4b36a5116ab17"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/independent-finite-checker.py",
+      "bytes": 36234,
+      "sha256": "4cdbc6fcb9ae52cf1766ddbd71bf5e7f579a91f7d331939779448c9075539602"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/observe-global-once.py",
+      "bytes": 44215,
+      "sha256": "88d54d68d5119aff6eacc6581a3de56d53f9121ffacc3a6c17e7f87df8c4637d"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/runtime-protocol.md",
+      "bytes": 8747,
+      "sha256": "fe70954d6716290bc5b8421fa236d775aefb99e3f3819d777ec72e9ca89c7161"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/source-model.py",
+      "bytes": 27057,
+      "sha256": "89bb4eb23264b6f7d1bd56459e2d7825b94ec5a02e5ff7c36e6cc0bfa1237975"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/source-stage-controller.py",
+      "bytes": 36959,
+      "sha256": "0188ebfe2a0565bcfa53687a82b4dad068b57aae4413d3ff2aed18f8e7a7c9d9"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/verify-finite-augmented.py",
+      "bytes": 8210,
+      "sha256": "3ef31ca2255ed7a0aa4bc17cac979d49f93c95e43fb3ca18c8a67bd95f0ba6f9"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/verify-source-model.py",
+      "bytes": 26778,
+      "sha256": "2b1c1de335e2412c2f6e1cec7a219f3bd496561df6f4d134a5c87ea42a7603db"
+    },
+    {
+      "path": "reviews/2026-11-01/joint-hermite-commutator-three-test/root-consumption.json",
+      "bytes": 8373,
+      "sha256": "cb9ef5350dddcaf9828682ed3c23f2b3bca596729f1edd1541500b102628c4ea"
+    },
+    {
+      "path": "reviews/2026-11-01/primitive-fock-input/publication-inputs.json",
+      "bytes": 12617,
+      "sha256": "3ca6310b871e0871872f7ffc7314638fab9bf8ec1efd87ac8272b3a5ca2a3ef1"
+    },
+    {
+      "path": "reviews/2026-11-01/primitive-fock-input/root-consumption.json",
+      "bytes": 6903,
+      "sha256": "2240aa9b1fcd6bfc898f4564cbfeba88362463877d07bc8a048a51f1156d9780"
+    },
+    {
+      "path": "scripts/research_state.py",
+      "bytes": 12338,
+      "sha256": "b97b434e71fe6959f5357267512cb247e4d0a79bee4d0590eeecc2682dc535b9"
+    }
+  ],
+  "localOnlyBindings": [
+    {
+      "bytes": 734638,
+      "path": "literature/local/2026-10-29-weil-9-8/pilot/run-01/certificates/moments.json",
+      "sha256": "2d166f7ae457fd61826329d31365564e25f1cfc6bc19d09aef22d2ec89c6bbd9"
+    },
+    {
+      "bytes": 23377672,
+      "path": "literature/local/2026-10-29-weil-9-8/pilot/run-01/certificates/source-matrices.json",
+      "sha256": "a5486fea38c3c8f91dcf4bb77c7677e734efe2ac9cbf59ddabc4674739fdb2f2"
+    },
+    {
+      "bytes": 73598411,
+      "path": "literature/local/2026-10-31-retained-tail-source/run-01/finite-columns.jsonl",
+      "sha256": "d841d307d2b22367570e594c1bc9e3b64c8a4ffef88691382acf5d6fbeeaf080"
+    },
+    {
+      "bytes": 233458,
+      "path": "literature/local/2026-10-31-retained-tail-source/run-01/h-columns.jsonl",
+      "sha256": "37f2c0410beb1b1c43b9f8d2df24d72fce3170b5f359d089c198742f1eee4e74"
+    },
+    {
+      "path": "literature/local/2026-11-01-directional-remainder-whole-observer/run-01/source-produce/claim.json",
+      "bytes": 522,
+      "sha256": "f8ef017195dd9fbf23ce10634115237095d149b19a32b601f72d45848759167f"
+    },
+    {
+      "path": "literature/local/2026-11-01-directional-remainder-whole-observer/run-01/source-produce/ready.json",
+      "bytes": 2655,
+      "sha256": "1d727544b9a2b68545b1a61b31305275919738a10a73664d32bdce34309de646"
+    },
+    {
+      "path": "literature/local/2026-11-01-directional-remainder-whole-observer/run-01/source-produce/terminal.json",
+      "bytes": 1014,
+      "sha256": "f44ee2ae473cef9422bda261ad446a50ff2981f250139af0313bdddabccdc6a2"
+    },
+    {
+      "path": "literature/local/2026-11-01-directional-remainder-whole-observer/run-01/source-produce/root-observed.json",
+      "bytes": 9648,
+      "sha256": "4f192af873370c20905e2e91ac3470c6c07c5bb8d1752e70a900dccc1f205342"
+    },
+    {
+      "path": "literature/local/2026-11-01-formal-analytic-source/bost-charles-2206.14242v2.pdf",
+      "bytes": 1907786,
+      "sha256": "fc8eef2982b7e4fbcb14e7a175671afaef0802ad358ba5ce1169a80cab5d2480"
+    },
+    {
+      "path": "literature/local/2026-11-01-native-bc-witt-source/connes-consani-emss64.pdf",
+      "bytes": 3328150,
+      "sha256": "72a0bb1785f593cb447435812278379db471ce4b17944ed02fb85a2011465d60"
+    },
+    {
+      "path": "literature/local/2026-11-01-flach-morin/flach-morin-dm23-2018.pdf",
+      "bytes": 970098,
+      "sha256": "6bec18d3f87c7c1270df4ddfb11f3009e665b193b8cff169ecb1d0a1f5d07f5a"
+    },
+    {
+      "path": "literature/local/2026-11-01-deninger-witt-sheaves/2508.05329v1.pdf",
+      "bytes": 437874,
+      "sha256": "19870cbdddbde82526939eb801c2ce14707dc7b48e54a7bc81f4a84400505002"
+    },
+    {
+      "path": "literature/local/2026-11-01-deninger-flow-archive/1807.06400v4.pdf",
+      "bytes": 1144247,
+      "sha256": "edd0bc8c2efb601ed7574e8eceae40e8cde21d0e4b2bc8c4ce7e60d8e1f82a09"
+    }
+  ],
+  "unchangedOldScientificCodePins": [
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/source-model.py",
+      "bytes": 27057,
+      "sha256": "89bb4eb23264b6f7d1bd56459e2d7825b94ec5a02e5ff7c36e6cc0bfa1237975"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/verify-source-model.py",
+      "bytes": 26778,
+      "sha256": "2b1c1de335e2412c2f6e1cec7a219f3bd496561df6f4d134a5c87ea42a7603db"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/source-stage-controller.py",
+      "bytes": 36959,
+      "sha256": "0188ebfe2a0565bcfa53687a82b4dad068b57aae4413d3ff2aed18f8e7a7c9d9"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/finite-whole-consumer.py",
+      "bytes": 47909,
+      "sha256": "6919ea1306ba9539520851634f0fa68980499a479bd529e73cf4b36a5116ab17"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/independent-finite-checker.py",
+      "bytes": 36234,
+      "sha256": "4cdbc6fcb9ae52cf1766ddbd71bf5e7f579a91f7d331939779448c9075539602"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/verify-finite-augmented.py",
+      "bytes": 8210,
+      "sha256": "3ef31ca2255ed7a0aa4bc17cac979d49f93c95e43fb3ca18c8a67bd95f0ba6f9"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/finite-independent-inputs.py",
+      "bytes": 8400,
+      "sha256": "05bb27e4fb457aa29d7cae57115260dc4ca716d4899f1019feea274876cf5a97"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/observe-global-once.py",
+      "bytes": 44215,
+      "sha256": "88d54d68d5119aff6eacc6581a3de56d53f9121ffacc3a6c17e7f87df8c4637d"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/runtime-protocol.md",
+      "bytes": 8747,
+      "sha256": "fe70954d6716290bc5b8421fa236d775aefb99e3f3819d777ec72e9ca89c7161"
+    }
+  ],
+  "excludedMutable": [
+    "goals/STATE.json",
+    "reviews/2026-11-01/coherent-reflection-word-input/publication-inputs.json",
+    "reviews/2026-11-01/coherent-reflection-word-input/remote-sync-verification.json",
+    "goals/checkpoints/2026-11-01-reflection-word-admission-source.json",
+    "goals/checkpoints/2026-11-01-reflection-word-admission-sync.json"
+  ],
+  "cadence": "RAW0/history70/latest606/formal22",
+  "libraryEntries": 148,
+  "libraryManifestRawUnchangedFrom": "3ae11b961eb831e2071da231ecc87c1512e99ea5",
+  "GoalCadenceC070RawUnchangedFrom": "3ae11b961eb831e2071da231ecc87c1512e99ea5",
+  "newContract": "C071ready/ONEfutureproofresponsibility/no attemptyet",
+  "scope": "Actualorderedallprime reflectionwordsource formed;3terminalreviews/qualifiedROOTnarrowcandidatePASS. StandardHS/kernel/fees/archpostprocessing/C1nonzero only0math; cofinaltail/denominator/ratiosOPEN. No newclassicalinput/keybottleneckchange/607; all3GoalgatesOPEN/SAMEGoalactive. No sciencecode/data/numeric/externalsource."
+}

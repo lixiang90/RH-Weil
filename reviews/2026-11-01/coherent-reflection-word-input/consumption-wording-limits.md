@@ -1,0 +1,8 @@
+# ROOT wording limits before admission
+
+2026-11-01; the original formation and old-comparison drafts remain byte-preserved. Fresh review supplies two qualifications governing every downstream use.
+
+1. The rule is independently **generated** from known primes and actual Sonin projections, without unknown zero positions or target positivity. It is not an already proved independent classical positivity/arithmetic/primitive input. HS positivity, bounded archimedean-feature postprocessing and a new formula do not themselves pay a classical consequence or a Goal gate.
+2. The product order is frozen and every mixed term is retained. Pairwise noncommutation of the actual different-prime V_p factors has **not** been proved. Raw wording that calls these actual factors/products noncommuting is frozen; consume only an ordered/coherent product for which no commutation or old-class reduction has yet been established. The generic product of two reflections can be nonselfadjoint, but that generic fact is not a proof of the actual different-prime relation. If an old reduction is later established, use its strongest whole consequence rather than claiming new work from the notation.
+
+The exact formula, HS/kernel representation, initial C1(g)>0 and fixed-test specification are unaffected. The commutator is an actual positive jump form and is a source-independent HS superoperator applied to the old archimedean commutator. Its coherent terms are not an independently signed Weil kernel. The original591 quiet row-tail, eventual denominator and cofinal ratio comparison remain unpaid. This correction is part of admission0, not a new mathematical result or a cofinal proof.

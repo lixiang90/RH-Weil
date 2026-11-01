@@ -1,0 +1,74 @@
+{
+  "schema": "RH_WEIL_REFLECTION_WORD_INPUT_ADMISSION_ROOT_V1",
+  "runtimeGoalCreatedAt": 1793085111,
+  "status": "ROOT-CONSUMED narrowcandidatePASS/C071READY; no cofinalproof executed",
+  "rootConsumedAtUtc": "2026-11-01T05:59:49.994907+00:00",
+  "terminalTasks": [
+    "/root/reflection_word_formation",
+    "/root/reflection_word_old_compare",
+    "/root/reflection_word_fresh_admission"
+  ],
+  "inputs": [
+    {
+      "path": "reviews/2026-11-01/coherent-reflection-word-input/root-proposal-and-admission-gate.md",
+      "bytes": 4739,
+      "sha256": "1e3195291fed9a8ecaee4dd8eca7d02b2f31f2379136781134c53d9c5db43244"
+    },
+    {
+      "path": "reviews/2026-11-01/coherent-reflection-word-input/actual-family-and-test.md",
+      "bytes": 12277,
+      "sha256": "c23ec31821d794a873c65cc1dd6d7fdff28cd63d5eef3e2541dad1e10eef5a1b"
+    },
+    {
+      "path": "reviews/2026-11-01/coherent-reflection-word-input/strongest-old-and-admission.md",
+      "bytes": 9263,
+      "sha256": "d68fe788e20962f52c36ac0ae1d092fc8bcb32c4a379b2cbf32f86b7f7b41663"
+    },
+    {
+      "path": "reviews/2026-11-01/coherent-reflection-word-input/fresh-admission-review.md",
+      "bytes": 10289,
+      "sha256": "431956a087e8f4af9f00fa196fb6389abf9a750ad05b22b4e7a2237baa7b9ccb"
+    },
+    {
+      "path": "reviews/2026-11-01/coherent-reflection-word-input/consumption-wording-limits.md",
+      "bytes": 1675,
+      "sha256": "2451568791d32309205da1091b52ab9ff636a90d6552974454afe672d12657f4"
+    },
+    {
+      "path": "goals/contracts/C071-coherent-reflection-word-three-test.md",
+      "bytes": 5246,
+      "sha256": "65e819f08ce57817e323ab80792d0747c7dc36f176e7a57ddf49a715704a9ed7"
+    }
+  ],
+  "rootRead": "Fullread all3 terminaloutputs, original actual560/591/594/602 and limitedunitarycase; independent sourceformula/fee/kernel/nonzero/graph checks reconciled. Issuedbytespreserved; governing wordinglimits appended.",
+  "premiseClosure": {
+    "objectDomainRange": "H=L2(dy) orL2dt/2pi. ExactfullGramPi_p, Rp=2Pi_p-I, Vp=RpR0. W_j ALLp<=exp(j), ascendingwrittenorder/rightmostlargestactsfirst. Physicalr=e^(u/2)f, A_r=M_rhat, HScommutator toS2; reflectionaverage first-slotlinear, daggerdistinct. OnlyHSinnerproduct trace, no ordinarysource traceofA_rW_j/I.",
+    "sourceNormAndGrowth": "Allcompactcomplex andeachfixedwindow zeroextensionDlog. h(q)=q+(3q+q²)(1+q)/(1-q)² and144(sumh)²M0I finitej upperpaid; no uniformj/L/derivative-freedu bound, no fullS_exp domain. Physicalr-du not f-du. No infiniteword/no new numericalerrors.",
+    "paidDependencies": "560 source/Gram/RKHS/actualdensity, standardfiniteproductderivation/HSideal, actual591normalizedg/q0/q1. ContinuouskernelofW-I, exactcoherentjumpdensity, D_j=T_j([P,A_r]) paidstandard. InitialC1(g)>0 followsactualrho2!=rho0 plusnonconstantanalyticG; NOTcofinalanchor.",
+    "coefficientsRole": "Crossinnerproducts retained; wholeC_j positivejump withallcrossinside|K_j|², not independentlysignedWeilkernel. Complex-linearcheck andadjointW*correct. ActualpairwiseVp noncommutationUNPROVED; notpremise. Independentgenerationwithoutunknownzeros isnot paidclassicalinput.",
+    "oldComparison": "591needsactualR<=Pi_X/source trace/quietrow; graphdilationI/2diagonal failsdominationandordinaryHS.603actualoutputPi_X²and594selfadjointS1prime-linearpencil differ.602wholeonebodyKerror notwordcross; scalarFourierphase differssource slot; C070fullPi_XrightHermite notthisword. No generalunitary/occupationequivalence excluded. Otherstrongoldreductionifprovedmustbeconsumed.",
+    "actualNewResponsibility": "C071ONLYfuturecofinalactualword kernel/rowtail+eventualdenominator/three591ratio comparison. Fixedeta=old591delta; no rho_X domination/lowerb_j orTaillimitgranted. Commonfinitec_j>=0 allowedunbounded. ZeroInfbranch orstrictlimsuprejectsfixedwordonly; ratioPASS onlynecessarygate. Kernel/PSD/upperunknown notnewresult.",
+    "remainingCoverageCoupling": "No allsource/mixedstationarity/Dprime/formula/fullGamma-contact-properpowers-bothpoles/principal405/537allcoverage/sections/mixedRR/growingcore-coupling/Xi paid. PerlayernoncompactPanannihilation not requiredforcompactlimit.",
+    "strongestOldNet": "Currentformationoldstandard0; whole17/16,finite9/8,ONE605head+ALLcomplementpositivecompletion,560602wholeidentity,whole4/5negative-inertiaUPPER unchanged. ActualnewcofinalcomparisonNONEyet, no independentclassicalcoreinput orGoal-gatepass."
+  },
+  "decision": {
+    "candidateAdmission": "NARROWPASS ONEfutureproofresponsibility",
+    "contract": "goals/contracts/C071-coherent-reflection-word-three-test.md",
+    "status": "ready-afteraccuratepublication",
+    "iterationBudget": 1,
+    "proofExecution": "NOTSTARTED",
+    "C070": "SPENT/stopped/oldratiosOPEN/contractRAWheld; no budgettransfer",
+    "stop": "Oneactualproofattempt; onlyold/standard/unknown=>spentstop. No order/cutoff/phase/source/gain/receiver/basis/numeric/code/source/engineering queue."
+  },
+  "settlement": {
+    "mathematicalRounds": 0,
+    "cadence": "RAW0/history70/latest606/formal22",
+    "newNote607": false,
+    "independentClassicalInputAccepted": false,
+    "bottleneckChanged": false,
+    "allThreeGoalGates": "OPEN",
+    "sameRuntimeGoal": "ACTIVE1793085111; no newGoal/statusupdate"
+  },
+  "library": "148manifest234350 RAWunchanged from3ae;13oldlocal/9oldsciencecodepins unchanged; no newexternalprimary/PDF/query",
+  "nextAction": "Publish/verifyactualFINAL; then execute uniqueC071actualcofinalrowtail/denominator comparison, notagainformation/kernellegality."
+}

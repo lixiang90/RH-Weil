@@ -1,0 +1,9 @@
+# Ordered relative-reflection input and narrow admission
+
+2026-11-01; same G20261027/runtime1793085111, original0c4f. ROOT governing receipt: root-consumption.json; governing role limits: consumption-wording-limits.md. Current status is candidatePASS/C071 ready after publication, NOT cofinal proof executed or new classical core input.
+
+The actual physical source acts by A_r convolution. The all-prime fixed ordered product Vp=(2Pi_p-I)(2P-I), with full native Gram inverses, yields the reflection-averaged HS commutator form. Exact finite-j domain/fees/kernel and C1(g)>0 are paid standard formation. The full kernel is a positive jump kernel with prime interference inside |K|², and is a specific bounded HS postprocessing of old[P,A_r]. Actual pairwise noncommutation is unproved and is not a premise.
+
+The two original terminal memos and fresh review were fully ROOT consumed with bytepins. A graph projection does not supply old591's actual occupation domination or ordinary sourceHS;603/594/602/oldunitaryphase/C070 also have different paid premises. This leaves a concrete actual cofinalcomparison, not an already paid positivity theorem. The unique future responsibility uses exactly591g/shiftg/gprime and permits arbitrary common finite nonnegative calibration sequences, including unbounded ones. Initial nonzero does not supply eventual denominator; kernel/PSD/unknowntail alone is not a new result.
+
+No cofinal proof, new sciencecode/data/numeric run or new external source was executed. C070 remains spent. All three Goal gates and the actualprincipal/sections/mixed/growingcore-coupling bottleneck remain open. Cadence0/history70/latest606/formal22 and Goal bytes are held; library148manifest and existingfulltexts held. No source/parameter/engineering queue. Next after verifiedpublication is C071's actualrowtail/denominator comparison; the readycontract alone is not proofstart.
