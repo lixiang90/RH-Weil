@@ -1,6 +1,6 @@
 {
   "schema": "RH_WEIL_THETA_ALGEBRAIC_KERNEL_SYNC_V1",
-  "status": "PREPARED_SOURCE_NOT_PUSHED",
+  "status": "PREPARED_SOURCE_TRANSPORT_CORRECTION_NOT_PUSHED",
   "repository": "https://github.com/lixiang90/RH-Weil",
   "branch": "main",
   "previous_verified_head": "ce1599f392c12458deda02992d656959c5a1ee58",
@@ -10,8 +10,27 @@
     "goals/checkpoints/2026-11-01-theta-algebraic-kernel-coverage-sync.json",
     "reviews/2026-11-01/theta-algebraic-kernel-input/remote-sync-verification.json"
   ],
-  "condition": "VerifySOURCE/APIref/commit/tree/localsoleprevious/pins/clean thenONEexact3soleSOURCEmetadatachild; verifyactualFINAL/ref/tree/parent/exact3/pins/clean. No ownSHAloop.",
+  "condition": "VerifycorrectedSOURCE/API/tree/sole09a+09asolece/130workingRAW+130canonicalGit/15local9code17root/checkpoint/clean, thenONEexact3soleSOURCEchild andactualFINALverify. No ownSHAloop.",
   "public_bindings_count": 130,
   "local_only_bindings_count": 15,
-  "unchanged_scientific_code_pins": 9
+  "unchanged_scientific_code_pins": 9,
+  "first_source_attempt": {
+    "commit": "09a064ffe3b60cc67e42b94256dd77dfe17c6aab",
+    "tree": "36b6d880fe40f7f33059de6faca11451ee0d53bc",
+    "sole_parent": "ce1599f392c12458deda02992d656959c5a1ee58",
+    "api_ref_commit_rootTree": true,
+    "raw_git_verification": "FAILED thenDIAGNOSED onehistoricalJSON CRLF/LF equality; no proofmutations",
+    "differences": [
+      {
+        "path": "reviews/2026-10-29/source-derivation-admission/root-consumption-scope.json",
+        "workingRawBytes": 9560,
+        "workingRawSha256": "9018e077bc581d335fd187892188f9bd06bed77d8717694217e382cd53986831",
+        "gitBlobBytes": 9419,
+        "gitBlobSha256": "bcc084cfbff7d2ddea98c6326cd96e552b79a0b694befdac3d36a8929d18ef73",
+        "normalizedLFEqual": true
+      }
+    ]
+  },
+  "source_correction_expected_parent": "09a064ffe3b60cc67e42b94256dd77dfe17c6aab",
+  "git_binding_semantics": "publicBindings androotInputs bindworkingRAW; publicGitBlobBindings bindsactualGitobjects. OnehistoricalJSONworkingCRLF/GitLFsamecontent, originalproofbytesunchanged. UsecanonicalGitbindingsforremoteverification, nevernormalizeissuedproofs."
 }
