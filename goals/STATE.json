@@ -40,8 +40,8 @@
     "settled_iterations": [
       "notes/606-global-joint-first-admission-technical-stop.md"
     ],
-    "stage": "InertFAIL+scopedunitaryINPUT0 ROOTclosed0math; library144/localBCPDF/next§7.2card saved; publication40public9local9code ready.",
-    "next_action": "Publishsource/verifyAPI/checkpoint40public9local9code, thenONEexact3metadatachild+actualfinalverify; nextONLYBCv2§7.2/PDF130-138 minimaldefs orSOURCE0stop.",
+    "stage": "InertFAIL+scopedunitaryINPUT0 closed0math; SOURCE1b29844/cb0477 verified40public9local9code/library144. Exact3metadatachild conditionarmed. BCbodyunread.",
+    "next_action": "Require actualFINAL API/local/soleSOURCE/exact3/clean/checkpoint40public9local9code; then ONLYBCv2§7.2 PDF130-138/printed106-113 +minimaldefs; inputtestorSOURCE0stop, noC070/engineering.",
     "stop_rule": "C069ONE606spent, noreset/retry. Onlymacro22inertgate allowed; FAIL/unknown stopsengineering; PASS onlyruntimepremise, notscienceadmission."
   },
   "support_contracts": [],
@@ -97,16 +97,16 @@
   "runtime_goal_observation": {
     "status": "active",
     "created_at_unix": 1793085111,
-    "observed_at_utc": "2026-10-31T23:56:59.770993+00:00",
-    "basis": "Actualrootget_goal SAMEactive afterinertFAIL/unitaryINPUT0; no source/contract, nextboundedBCsection7.2unread."
+    "observed_at_utc": "2026-11-01T00:00:35.545439+00:00",
+    "basis": "Rootactualget_goal SAMEactive beforemetadatachild; inertFAIL/unitaryINPUT0, nextsingleBCsourcegateunread."
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-11-01-inert-unitary-admission-source.json",
+  "checkpoint": "goals/checkpoints/2026-11-01-inert-unitary-admission-sync.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
-    "commit": "a6fc37a17a1d7d828d6e4d3ece2a755e6a52ae8b",
-    "tree": "76fa832cee6d47d1c324ea4e9121d53dccc1e4ee",
-    "basis": "ActualAPI/localsole8f3/exact4/clean/checkpoint/55public8local9code/rawguards recoveredbeforeinertprep."
+    "commit": "1b29844711b39ff4f32b79982f0997223e0f8ba7",
+    "tree": "cb0477fc920c45baf7658e230a5b629b9a414877",
+    "basis": "ActualSOURCE API/ref/tree/solea6fc +40publicWorkingHEAD/9local/9code/19checkpoint/clean/library144. ActualFINAL mustsatisfy exact3childcondition; recoveractualref."
   },
   "completion_audit": {
     "goal": "goals/GOAL.20261027.md",
@@ -118,7 +118,7 @@
   },
   "process_inventory_observed_on": "Actualinertsession16102 terminal0/checkerterminal1; allmatchingunitaryreviewsdelivered/rootconsumed. No activeprobe/science; BCbodyunread.",
   "publication_approval_gate": {
-    "status": "authorized-inert-unitary-source-ready-for-main-sync",
+    "status": "source-verified-exact3-metadata-child-condition-armed",
     "destination": "https://github.com/lixiang90/RH-Weil",
     "visibility": "public",
     "branch": "main",
