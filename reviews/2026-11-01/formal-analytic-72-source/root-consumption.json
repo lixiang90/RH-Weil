@@ -1,0 +1,68 @@
+{
+  "schema": "RH_WEIL_BC72_ROOT_CONSUMPTION_V1",
+  "status": "ROOT_CONSUMED_CHAPTER_SOURCE0_NO_CLASSICAL_INPUT",
+  "runtimeGoalCreatedAt": 1793085111,
+  "baseline": "0c4f3a3eb609bb1d9564138fa4a35701f05605f2",
+  "sourcePin": {
+    "path": "literature/local/2026-11-01-formal-analytic-source/bost-charles-2206.14242v2.pdf",
+    "bytes": 1907786,
+    "sha256": "fc8eef2982b7e4fbcb14e7a175671afaef0802ad358ba5ce1169a80cab5d2480"
+  },
+  "inputPins": [
+    {
+      "path": "reviews/2026-11-01/formal-analytic-72-source/primary-section72-reading.md",
+      "bytes": 9290,
+      "sha256": "4f5353ca20d5c41703df9f80b99b62a7e440c2398cf6232e5dc0fe21c9124fba"
+    },
+    {
+      "path": "reviews/2026-11-01/formal-analytic-72-source/strong-old-transport-audit.md",
+      "bytes": 10136,
+      "sha256": "6c76777d85aa7051e2645a7c0b73da6b05472631556b8c859038be284ff61e1d"
+    },
+    {
+      "path": "reviews/2026-11-01/formal-analytic-72-source/fresh-source-gate-review.md",
+      "bytes": 8177,
+      "sha256": "e58ec18ad5d54a048ea80e555ef4528167826aa65868fc543d0d92d0c693acdb"
+    },
+    {
+      "path": "reviews/2026-11-01/formal-analytic-72-source/literal-consumption-restrictions.md",
+      "bytes": 2183,
+      "sha256": "55ee13364a3c1832ed776ec9381dcef83f666e10b4c526ab8444abeb55ca6b32"
+    }
+  ],
+  "nativeScope": "Actualsmoothformal/analyticO_Ksurface, legalnonconstantmorphismtointegralnormalarithmeticsurface; REALcompactGreen/native mixedintersection; nP->nQ forfixedalpha.",
+  "citedFacility": "I(alpha,g_eq)=e degreeNormal+E_fin+sumALLsigmaE_arch; floor>=e degreeNormal, NOTunconditionalPSD. Nativeglobalfinite+archfacilitygenuine, notonlyarchGreen.",
+  "unpaidRootPremises": [
+    "ALLcomplexphysicalr->legalintegral/formal/analyticdata",
+    "full405noncompactP_an+translationsprincipalwhile537nonroot/fullsourcevisible",
+    "originaldu/weightedr/zeroextensionDlognormandtailablegrowth",
+    "sameobjectcomplexHermitianmixed/sections/filtration",
+    "actualfullGamma/contact/allprimepowercoefficients/BOTHsignedpoles/growingcoupling"
+  ],
+  "literalFrozen": [
+    "7.2.19quantitativecoefficient",
+    "6.2.13extremalsign"
+  ],
+  "integrality72_5": "Fullstatementcited; printedproofonlyweaknonzero>=log2, notindependentlyprovedfullintegrality.",
+  "readScope": "ROOTtext+visualPDF130-137/top138before7.3; min6.1.1/6.2/7.1. Adjacent7.3openingand6.1.2/7.1.2exposed, notadditionalresultconsumption. No3/4/5proofrepair/otheredition/laterchapter/ref.",
+  "strongestOldNet": "Unchanged whole17/16/head9/8/same605ALLcomplementpositive/whole4/5negative-inertiaUPPER. Old573-575/GSfacilitiesnotrecreated; theirparticularobstructionsnottransplanted.",
+  "mathematicalBottleneckChanged": false,
+  "mathematicalRoundsAdded": 0,
+  "newC070": false,
+  "noScientificWork": true,
+  "allThreeGoalGates": "open",
+  "nextCardPin": {
+    "path": "reviews/2026-11-01/formal-analytic-72-source/next-relative-green-construction-admission.md",
+    "bytes": 4451,
+    "sha256": "07d6fe9280fa4976551f8d464f861dfce9ca5d7842b88e61e4d32e72cdbc47ed"
+  },
+  "nextScope": "ONEexplicitrelativeGreenformulaconstruction ADMISSION, notproofornewcontract. Checkactual405p andoldkernelcriterion; stopold/input0 ifnonewnet. No furtherbookchapter/paper/engineering.",
+  "recordedUTC": "2026-11-01T00:25:17.338524+00:00",
+  "nextCardScopeReview": {
+    "agent": "/root/bc72_fresh_review",
+    "kind": "message-only admission scope review; no proof/test",
+    "outcome": "Scope passes; ROOT explicitlydefinedD=D(0,1) andlimitedfixed-targetrequirementtothiscandidate. FullPan/translations/537coverage unpaid evenifone405testpasses.",
+    "oldFreshPinUnchanged": true,
+    "constructionExecuted": false
+  }
+}

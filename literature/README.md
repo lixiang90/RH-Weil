@@ -1,5 +1,7 @@
 # RH-Weil 文献索引
 
+2026-11-01，Bost–Charles2206.14242v2 §7.2来源门SOURCE0：库144不增条目／全文原字节保持，只更新实际正文与必要定义阅读范围；[本轮使用范围](supplements/2026-11-01-formal-analytic72-source-scope.md)区分native全局设施、未付经典物理桥及两处字面消费限制。下一显式relative Green构造仅准入卡、未执行；不续书章或文献队列。0数学，原cadence／Goal保持。
+
 2026-11-01，惰性交接FAIL、单一酉相位限定INPUT0：0数学，完整源槽/Gram纠正见[使用范围](supplements/2026-11-01-inert-unitary-formal-analytic-scope.md)。新增Bost–Charles2206.14242v2本地全文，库143→144；189页/原SHA已核，仅前置定位，§7.2正文未审。许可/版本不据公开可读推定；全文ignored，只同步metadata与一个有止点的来源门。
 
 2026-11-01，606/C069科学child前技术止、正式宏观22已root消费；无新数学primary/PDF，库143及manifest223850保持。[本次使用范围](supplements/2026-11-01-global-joint-admission-stop-macro22-scope.md)保自有metadata与原文local-only界限。source/whole符号未测，三Goal门open；仅下一惰性执行边界首检，非新数学合同。

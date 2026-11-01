@@ -1,0 +1,19 @@
+{
+  "schema": "RH_WEIL_BC72_SOURCE_SYNC_V1",
+  "status": "LOCAL_SOURCE_READY_NOT_YET_PUBLISHED",
+  "repository": "https://github.com/lixiang90/RH-Weil",
+  "branch": "main",
+  "previous_verified_head": "42261844292877b476f88edca2022ea440c7533e",
+  "source_commit": null,
+  "source_tree": null,
+  "scope": "Chapter7.2genuinecitednativefacility/physicalSOURCE0, literalconsumptionlimits, ONEunexecutedrelativeGreenadmissioncard;0math/newcode/contract/Goalcompletion.",
+  "metadata_child_exact_paths": [
+    "goals/STATE.json",
+    "goals/checkpoints/2026-11-01-formal-analytic72-source-sync.json",
+    "reviews/2026-11-01/formal-analytic-72-source/remote-sync-verification.json"
+  ],
+  "condition": "AfterverifiedSOURCE one soleparentSOURCE exact3metadatachild; independentlyverifyactualfinalAPI/local/tree/paths/clean/checkpoint/pins. No ownSHAloop.",
+  "public_bindings_count": 28,
+  "local_only_bindings_count": 9,
+  "unchanged_scientific_code_pins": 9
+}

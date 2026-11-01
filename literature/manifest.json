@@ -3299,11 +3299,12 @@
       "retrieved_at_utc": "2026-10-31T23:46:25.082552+00:00",
       "retrieval_timestamp_basis": "localPDFmtime afteractualHTTPdownload",
       "pages": 189,
-      "pdf_parse_status": "pdfinfo andtext extractionPDF1-6 only; visualTOC PDF3-4",
-      "read_scope": "Cover/version, abstract, TOC PDF1-4; introduction0.1-0.2 PDF5-6 exposed. Chapter7.2 printed106-113/PDF130-138 selected NEXT butUNREAD. No new theorem/transport consumed.",
-      "status": "archived; one chapter-specific source gate pending, no math contract",
+      "pdf_parse_status": "pdfinfo189; selective7.2/necessarydefinitiontext+visualreview; no fullbookaudit",
+      "read_scope": "Read§7.2 printed106-113+114top/PDF130-137+138top; ROOTandindependentvisualallrelevantpages. Neededdefs6.1.1/PDF108-109,6.2/PDF113-115,7.1/PDF127-129. Adjacent7.3opening/6.1.2/7.1.2exposedbutnotconsumed. Nochapters3-5proofrepair/7.3+/otheredition.",
+      "status": "SOURCE0forclassicalphysicalinput; genuinenativeglobalfacilitycited, no newmathcontract",
       "redistribution": "fulltext local/ignored; publicmetadata only",
-      "review_note": "../reviews/2026-11-01/core-unitary-phase-admission/next-formal-analytic-source-gate.md"
+      "review_note": "../reviews/2026-11-01/formal-analytic-72-source/root-consumption.json",
+      "consumption_limits": "7.2.19quantitativeand6.2.13extremalsignfrozen; full7.2.5integralitycitednotindependentlyproved; nofullWeil/source/norm/mixed/growingtransport."
     }
   ],
   "supplement_provenance": [
