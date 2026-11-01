@@ -1,0 +1,114 @@
+{
+  "schema": "RH_WEIL_POINCARE_PRINCIPAL_INPUT_ROOT_V1",
+  "runtimeGoalCreatedAt": 1793085111,
+  "status": "ROOT-CONSUMED standard-old/input0; actualTheta-positiveGram/fixedfinite-rankrecipeSTOPPED",
+  "rootConsumedAtUtc": "2026-11-01T07:33:45.442018+00:00",
+  "actualExecution": "RecoveredactualFINAL50c97/solebe7435/exact3/clean/checkpoint22/91pub14local9code andSAMEactive1793085111. AfterSOURCE0 formedONEactualTheta_r physicalmap/test, ROOT8716 directcalculation, independent10549 finalformula/scopePASS and13379 strongoldadmission. No paper/application/sourcequeue or C071retry.",
+  "inputs": [
+    {
+      "path": "reviews/2026-11-01/poincare-principal-input/formation-and-test.md",
+      "bytes": 3296,
+      "sha256": "8cd27f98ef177e52dc264d35d1b96cd897ed51cc7ad8b429e6a991061c5aa41c"
+    },
+    {
+      "path": "reviews/2026-11-01/poincare-principal-input/root-direct-calculation.md",
+      "bytes": 8716,
+      "sha256": "a41d15e1abf7df6eb446d7246ac7c6f84d3659bef3691a984cb7e587e414401a"
+    },
+    {
+      "path": "reviews/2026-11-01/poincare-principal-input/native-map-and-principal-check.md",
+      "bytes": 10549,
+      "sha256": "3e68c485c329f94620b5574ac7c7b1267028715b1c60a206f33519d52760f5ae"
+    },
+    {
+      "path": "reviews/2026-11-01/poincare-principal-input/strong-old-and-admission.md",
+      "bytes": 13379,
+      "sha256": "e0771e56fe6da0b12f242f7ce0ecdbe7327a71e4857f0210a0a5266e553673d5"
+    },
+    {
+      "path": "notes/405-f1-adelic-restriction-moments-and-radical.md",
+      "bytes": 14633,
+      "sha256": "fe5ee4b574954e51a69c6bbbaa772bb75a1a510c91c837ba02eed8ac406cbb7d"
+    },
+    {
+      "path": "notes/545-modular-packet-norm-cusp-blindness-and-weil-transport-gate.md",
+      "bytes": 13140,
+      "sha256": "25b778a2c1d1b9360ff2dd553f853a33c0dda7575740ab3aeac6ec46f555acfa"
+    },
+    {
+      "path": "notes/553-principal-cyclic-closure-and-cofinal-readout-fees.md",
+      "bytes": 6613,
+      "sha256": "35a40c35d1eaa7fafb462361ddef1bfb9643402b5670f832b9142aeb4b74abce"
+    },
+    {
+      "path": "notes/574-actual-adelic-cover-relative-picard-and-source-transport.md",
+      "bytes": 11880,
+      "sha256": "b97aa1619f559e22041f5f46404a5ab09e598722e16287059e8691c555eee45d"
+    },
+    {
+      "path": "notes/537-source-exact-weil-window-positive-tail-admission.md",
+      "bytes": 8155,
+      "sha256": "269a500556d37fc04a4e44efd2f0899414787743e529506dbbe7395a34eea9f8"
+    },
+    {
+      "path": "reviews/2026-11-01/regularized-rankin-source/root-consumption.json",
+      "bytes": 7721,
+      "sha256": "7c2a142c08895c492e9495908f604129fb3e74f653de7770ef68365f1a7bcdde"
+    },
+    {
+      "path": "goals/contracts/C071-coherent-reflection-word-three-test.md",
+      "bytes": 5246,
+      "sha256": "65e819f08ce57817e323ab80792d0747c7dc36f176e7a57ddf49a715704a9ed7"
+    }
+  ],
+  "rootRead": "BothCURRENTterminal10549/13379 fullreadandrawpinned, ROOT8716 matchedindependentPASS, formation3296 read. Actualold405/545/553/574 necessarysectionsread; no newprimaryPDF/bodyreadscope. Drafts were not ROOTresults.",
+  "taskOutputRoles": [
+    {
+      "task": "/root/poincare_principal_formula",
+      "output": "native-map-and-principal-check.md",
+      "role": "currentterminal10549 independentformula+fullROOT8716scopecheckPASS"
+    },
+    {
+      "task": "/root/poincare_principal_old",
+      "output": "strong-old-and-admission.md",
+      "role": "currentterminal13379 boundedlocaldedup/strongestoldnet"
+    }
+  ],
+  "premiseClosure": {
+    "objectDomainNorm": "ActualcomplexlinearTheta_r fromh_r(y)=sqrt(y)r(logy) onPSL2Z\\H, width1 dxdy/y². ALLcompactcomplex smoothphysicalr=e^(u/2)f plusS_expstrongextension. SeednormEXACT||r||du, notf-du. Fixedsupport[-L,L]overlapN_L<=1+6exp(3L/2) upper; Dlogzeroextensioncontrolsdu. No uniformglobaldu/growingLfee; S_exp->rapid/L2 continuousFréchet only.",
+    "oldExactReduction": "Old545seed y^(3/4)f(-logy/2), f_r(u)=exp(u/2)r(-2u), isEXACT h_r. OldoverlapN_(L/2)/unfoldingalreadyimpliesoriginalnorm. DoNOTcomparewithweakeroldboundtoreportnewwholefee, ortransplantoldDIRECTcompensateduniformLboundtothisTheta.",
+    "nativeAndPairingRoles": "S_expseedallpowerdecaybothends=>nonidentitycuspO_N(y^(1-N)) viad/csum; allNrapidTheta. Productsnativephi0, RN=ordinarypositivefirstlinearL2Gram. NotautomaticallL2representativepointwisenative. PriorNON-L2negative-squareirrelevanthere; legality/positiveGramnotcoverage/principal.",
+    "paidPrincipalSource": "Old405 h=Eeta, M_h=xi/2, p=(D²+D)h actualPan, M_p=s(s-1)xi/2, doublemoments0, M_p2pi/6, sharpinvariant. PhysicalP=e^(u/2)p even/inS_exp; actualfullQzeta(P,all)=0 fromcomplete405identity/553physicalroles. Not405BrenamedQ.",
+    "actualCoefficientAndWitness": "AbsoluteTonelliwithpositiveE(z,s) forreal s>1 permitsunfold L_r=M_r(s-.5)+phi(s)M_r(.5-s), phi=Lambda(2s-1)/Lambda2s>0. L_P2=(1+phi2)pi/6>0=>Theta_Pnonzero=>positiveGram(P)>0 despiteQ(P)=0. Bilinear integrableE2 witnessNOTuntruncatedE L2/trace/normlower. OrdinarymeanThetaP=M_p0=0; degree/constantprojectiondoesnotrepair.",
+    "fullTranslationRank": "Physicaltau_aP corresponds exp(-a/2)tau_a p inPan. L_a=M_p(s)[exp(a(s-.5))+phi(s)exp(-a(s-.5))]. Forreal s>=2 beta+zeta give0<phi<=3pi/4. Largestnonnegativeexponentialtest=>ALLdistinctnonnegativea imageslinearlyindependent. No uniformnormlower/translatedsource-costestimate supplied.",
+    "fixedRankAndExtension": "ANYfixedfinite-ranklinearR:S_exp->L2 cannotmakeTheta+R killALLphysicalPan, evenwithglobaldu-unbounded/discontinuouscoefficients. ForcompactALLWeilGramidentityfailure viaNONcompactP additionallyrequireR Fréchetcontinuous (ThetaandfullQalreadyare); donotextenddiscontinuousR. ForidentitydirectonS_exp scalarpositiveforceskernel; scalar0fails537nonzero. No perlayerPanrequirementforDprime.",
+    "dependenciesAndErrors": "405actualmoment/translation/Pan +545exactTheta/unfolding/overlap +574Mellinmarker/553domain +elementarylargestexponentiallinearalgebra. Allsourceidentitiesexact, but no newarithmetic/signed/growinginput/errorgain. Explicitnotationnotverbatimold doesnotmakenewmathresponsibility.",
+    "remainingCoverageCoupling": "No completeGamma-contact/allproperpowers/bothpoles physicalmixedidentity, actualprincipalgeometry/537fullcoverage/integralsections/mixedRR/growingcore-couplingXi. A legalmapwithnonzeroprincipalimage isnotprincipalbridge.",
+    "strongestOldNet": "Strongoldwhole17/16,finite9/8E448,605ONEhead+ALLcomplementpositivecompletion,560602wholeidentities,whole4/5negative-inertiaUPPER remainunchanged. No newclassicalnet/corebottleneckremoval. Positivecarrierprincipaldefectlocaldiagnosticonly."
+  },
+  "settlement": {
+    "actualMap": "exists/legal; failsfullprincipal; mean0repairfails; fixedfinite-rankclassfails",
+    "qualification": "standard-old/input0 shortpaidchain; no newindependentcoreinput",
+    "mathematicalIncrement": 0,
+    "cadence": "RAW0/history70/latest606/formal22",
+    "coreBottleneckChanged": false,
+    "allThreeGoalGates": "OPEN",
+    "runtimeGoal": "SAMEACTIVE1793085111",
+    "C071": "SPENT/mainratiosOPEN",
+    "new607": false,
+    "newC072": false,
+    "newScienceCodeOrNumericalRun": false
+  },
+  "library": {
+    "entries": 149,
+    "manifestBytes": 236799,
+    "manifestSha256": "00d8d7cc876f7ffdab3b8ed3f3d70a9d261c925a0f3e6e0ababa0663b83cb194",
+    "RAWheldFrom": "50c97f17d8cb575564a1f8d620cfa0fe0f243123",
+    "newExternalPrimaryOrReadScope": false,
+    "localBindings": 14,
+    "unchangedScientificCode": 9,
+    "GoalCadenceC070C071": "RAWheld"
+  },
+  "stopAndLegalEscapes": "StopTHISTheta/RNpositiveGram+FIXEDfinite-rankadditiverecipe. No seed/weight/rank/parameter/source/ref/audit/mathqueue. DoesNOTexclude growingrank/changingdomain/sourceadaptation/nonlinear/infinitequotient/indefiniteHodge/relativehigher/signed/Dprime. DifferentactualinputORconcretesameobjecttestwhichchangeschoice+originalnorm/fullWeilresponsibility/strongoldnet requiredbeforeadmission.",
+  "nextAction": "Save/syncandverifyactualFINAL; thenunadmittedcorefrontier. No stoppedbudgetresume/admittedsuccessor. LongGoalactive/notcomplete."
+}

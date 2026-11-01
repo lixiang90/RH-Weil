@@ -1,5 +1,7 @@
 # RH-Weil 文献索引
 
+2026-11-01，[实际Θ主关系测试的旧资料使用](supplements/2026-11-01-poincare-principal-input-scope.md)：只消费405实际p/Mellin/平移、545不完全Eisenstein/unfolding/原norm、553域/闭包及574实际marker。无新external primary/PDF/query/readscope，库149/manifest236799 bytes/SHA00d8d7原字节保持。实际源合法但不消405关系，fixedfinite-rank修补也失败；按精确强旧短链standardold/input0/0数学，不泛排Dprime/成长秩/不定配对。14local/9oldsciencecode及Goal/cadence/C070-C071版本保持。
+
 2026-11-01，[Zagier 非快速衰减 Rankin–Selberg 来源](supplements/2026-11-01-regularized-rankin-source-scope.md)：新增实际作者版23页/797019 bytes/SHA40185a，库148→149，前148项深等。仅审 printed419 主定理、420–424直接证明、415–416定义及424–425的RN(29)–(32)，四终态与ROOT收据已核。保原域、边界负号、极点与RN符号限制；native CITED/classical SOURCE0，不是物理/fullWeil/mixed桥。全文和页面本地忽略，公开元数据与自有分析；0数学、核心瓶颈未变，不续应用/后章/引用队列。旧1981 Zagier与Garrett正文未重读。
 
 2026-11-01，[C071实际证明资料使用](supplements/2026-11-01-coherent-reflection-word-proof-scope.md)：只读旧532全interval/单primechain、560/591及低cutoffgap原件。无新external primary/PDF/query/readscope；库148/manifest234350、全文原字节保持。全层分母非零及O(j)upper为强旧qualification，主normalizedratioOPEN，C071SPENT/0数学/no607。

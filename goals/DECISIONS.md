@@ -2,6 +2,10 @@
 
 只记选择、停止与重新准入理由；STATE引用最近项，证据留在原件。
 
+## D20261101AA - Stop the actual incomplete-Eisenstein principal recipe by its paid witness
+
+2026-11-01；[具体输入/测试结算](reviews/2026-11-01-poincare-principal-input-stop.md)与[ROOT前件闭合](../reviews/2026-11-01/poincare-principal-input/root-consumption.json)。SOURCE0后未续paper，实际构成h_r=√y r(logy)、Θ_r与RN Gram；ROOT8716/独立公式10549/强旧13379终态全文核/pin。S_exp像rapid，RN=ordinary正Gram；405双矩零P在E2的见证=(1+φ2)π/6>0，meanΘP=0，因此原Gram不消principal且常数投影不修复。全部非负平移像独立，固定有限秩加法R不能消ALL关系；compact-only恒等式延到P另须R的Fréchet连续性，不偷套不连续R。旧545精确种子变换、405实际矩/平移及574marker/553域加初等指数独立已蕴含，standardold/input0/0数学/no607/C072；不假装未知源或新core输入。库149manifest236799及Goal/cadence0history70latest606formal22/C070-C071 RAWheld，14local/9code不变，无external primary/readscope/numeric。核心瓶颈/最强旧/三Goal门OPEN不变，同Goalactive。停止该实际正Gram与fixedrankadditive精确下降配方，不排成长秩/Dprime/indefinite/relative/signed/变域。先保存同步核actualFINAL；之后无种子/权/秩/参数/来源/审计/数学后继，不续C071。不同actualinput或能改变选择的具体同对象test、原norm/fullWeil责任与强旧净值才改策。
+
 ## D20261101Z - Stop the nonrapid Rankin native gate without a physical bridge
 
 2026-11-01；[来源门结算](reviews/2026-11-01-regularized-rankin-source-stop.md)及[ROOT前件闭合](../reviews/2026-11-01/regularized-rankin-source/root-consumption.json)。旧545已付fullmixed MS/directpacket/原norm，先去重不重读；不同非快速衰减原件主定理、直接证明及RN定义实际读/pin，四当前终态10678/12710/11985/5541全文ROOT消费。Native finitepower/log+ALLN类、signed boundary和RN是真实CITED设施；无actualphysical/fullWeil/principal/norm/mixedcore桥，classical SOURCE0。R极点可消Λ零点，不能升级整cofactor；RN负平方只拒全类自动HilbertGram，不泛排不定Hodge/primitive/relative/signed/unbounded。库149旧148深等，全文本地忽略；0新数学/no607/C072/cadence reset，Goal/C070/C071字节保持，C071仍SPENT。实际核心瓶颈/最强旧/三Goal门OPEN不变，同Goalactive。先保存同步核actualFINAL；之后未准入核心前沿，没有应用/章节/引用/paper/参数/审计/数学后继。不同actual输入或可改变选择的具体同对象测试，附原norm、完整Weil责任和扣强旧净值，才改变停止决策。来源0不是一般no-go或外部blocked。

@@ -1,0 +1,9 @@
+# Actual incomplete-Eisenstein input: principal test stopped
+
+2026-11-01. ROOT fully consumed current terminal formula/scope10549 and strong-old13379, with its own8716 direct calculation and the3296 formation record. See [root-consumption.json](root-consumption.json) for exact raw pins, native/domain/norm roles, old dependencies, remaining coverage and settlement; [causal decision](../../../goals/reviews/2026-11-01-poincare-principal-input-stop.md) is D20261101AA.
+
+The actual complex-linear map h_r(y)=sqrt(y)r(log y), Theta_r=Poincare(h_r), is legal on compact sources and the strong S_exp extension. Its image is rapid, so native RN is ordinary positive Gram there. A real E2 absolute-unfolding witness shows the actual405 physical principal P has NONzero Theta image, despite ordinary mean zero. All distinct nonnegative translated principal images are linearly independent. No fixed finite-rank additive linear correction into L2 can make the map annihilate ALL relations. To extend a compact-only full-Weil identity to the noncompact test, the correction must additionally be Fréchet-continuous; no discontinuous extension is assumed.
+
+This is an exact application of old405/545/553/574 and elementary finite-exponential independence, standard-old/input0, zero new mathematical rounds. It supplies no independent principal/full-Weil/signed-core bridge, new classical whole consequence or long-Goal completion. Growing rank/Dprime/indefinite/relative/signed/source-adaptive routes are not excluded. C071 stays spent; no C072/607 or source/parameter/math successor is admitted. Same Goal remains active and all three gates stay open.
+
+Library149/manifest236799 bytes remains RAW held from actualFINAL50c97; no external primary/PDF/readscope, code or numerical run. Goal/cadence0-history70-latest606-formal22/C070/C071 and14local/9oldsciencecodepins remain held. Publication contains our own records and existing-source usage metadata only.
