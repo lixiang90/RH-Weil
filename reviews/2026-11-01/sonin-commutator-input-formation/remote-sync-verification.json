@@ -1,6 +1,6 @@
 {
   "schema": "RH_WEIL_JOINT_HERMITE_ADMISSION_SYNC_V1",
-  "status": "PREPARED_NOT_YET_PUBLISHED",
+  "status": "SOURCE_VERIFIED_EXACT3_METADATA_CHILD_ARMED",
   "repository": "https://github.com/lixiang90/RH-Weil",
   "branch": "main",
   "previous_verified_head": "162e90c708fbaf34968c5eff1d6c578eafc64b9f",
@@ -13,5 +13,42 @@
   "condition": "OneverifiedSOURCE thenoneexact3soleSOURCEmetadatachild; independentactualFINAL/APIref/commit/tree/local/soleparent/exact3/clean/checkpoint/bindings. NoownSHAloop.",
   "public_bindings_count": 34,
   "local_only_bindings_count": 10,
-  "unchanged_scientific_code_pins": 9
+  "unchanged_scientific_code_pins": 9,
+  "source_commit": "a653cc92c9e96c8a09e009c543164ed5a0729fd1",
+  "source_tree": "451beb793442dcfd15bbf9b331aadc8b01b7497b",
+  "source_changed_paths": [
+    ".gitattributes",
+    "RESEARCH_BRANCHES.md",
+    "goals/DECISIONS.md",
+    "goals/MACRO_FRONTIER.md",
+    "goals/README.md",
+    "goals/STATE.json",
+    "goals/checkpoints/2026-11-01-joint-hermite-admission-source.json",
+    "goals/contracts/C070-joint-hermite-commutator-three-test.md",
+    "goals/reviews/2026-11-01-joint-hermite-commutator-admission.md",
+    "literature/README.md",
+    "literature/supplements/2026-11-01-joint-hermite-commutator-admission-scope.md",
+    "reviews/2026-11-01/sonin-commutator-input-formation/README.md",
+    "reviews/2026-11-01/sonin-commutator-input-formation/actual-family-and-three-test-spec.md",
+    "reviews/2026-11-01/sonin-commutator-input-formation/execution-start.json",
+    "reviews/2026-11-01/sonin-commutator-input-formation/publication-inputs.json",
+    "reviews/2026-11-01/sonin-commutator-input-formation/remote-sync-verification.json",
+    "reviews/2026-11-01/sonin-commutator-input-formation/root-consumption.json"
+  ],
+  "source_verification": {
+    "api_ref_commit_rootTree": true,
+    "local_commit_tree_and_sole_parent": true,
+    "worktree_clean_before_metadata": true,
+    "publicBindings": 34,
+    "localOnlyBindings": 10,
+    "unchangedScientificCode": 9,
+    "checkpointLFpins": 25,
+    "libraryEntries": 145,
+    "GoalCadenceManifestRawUnchanged": true,
+    "runtimeGoal": "SAMEactive1793085111 verifiedafteractualformation/admission/SOURCEpublication",
+    "C070": "ready/NEWbudget1/settledempty/proofUNEXECUTED/no607/no proofprocess",
+    "mathematicalBottleneckChanged": false,
+    "classicalCoreInputAccepted": false
+  },
+  "verified_at_utc": "2026-11-01T03:03:59.029676+00:00"
 }
