@@ -1,5 +1,7 @@
 # RH-Weil 文献索引
 
+2026-11-01，[本次prime-Fock候选资料使用](supplements/2026-11-01-prime-fock-input-scope.md)：仅已有自有566/576/577/578范围及当前构造/复核；无新外部原件、PDF、科学query/readscope、数据或代码。库145manifest/本地全文原字节保持；候选按强旧NONE/0数学停止。
+
 2026-11-01，C070实际proof attempt停止未决：[使用范围](supplements/2026-11-01-c070-proof-attempt-scope.md)。三个数学稿/ROOT/独立终审实际执行，强旧C059 FULL movingLOC已恢复；o(j)弱于既有O(j^3/5)推论，不记新数学轮。仅重读自有旧证明/消费，无新外部全文/PDF/web/source；库145与manifest原字节保持。实际anchor/ratio仍OPEN，C070预算spent/no607，无自动来源或参数后继。
 
 

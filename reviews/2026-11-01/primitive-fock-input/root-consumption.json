@@ -1,0 +1,104 @@
+{
+  "schema": "RH_WEIL_ACTUAL_PRIME_FOCK_INPUT_ROOT_V1",
+  "runtimeGoalCreatedAt": 1793085111,
+  "status": "ROOT_CONSUMED_ONE_INPUT_FORMATION_NONE_OLD_JUMP_NO_NEW_NET",
+  "previousVerifiedFinal": "da035a7a220bad72665a91cfb96c9df1c4d58234",
+  "previousGoalTurnClassification": "PROGRESS: actualC070proof+independentreview/rootsettlement andverifiedpublication; notwait/completion. MainactualratiosOPEN.",
+  "actualExecution": "ONEdistinctexplicitprimeFockcandidate formed;10111author+5653ROOTcomparison+4080independentreview terminal/ROOTfullread/pinned. No newmathcontract/variant/source/numeric/code.",
+  "currentInputPins": [
+    {
+      "path": "reviews/2026-11-01/primitive-fock-input/explicit-input-or-none.md",
+      "bytes": 10111,
+      "sha256": "ee50b2c90dc1c7ca9beb201657f803d6ecd463157ec04ecebd0d828c56f26987"
+    },
+    {
+      "path": "reviews/2026-11-01/primitive-fock-input/root-thermal-jump-comparison.md",
+      "bytes": 5653,
+      "sha256": "b8ee7a969e9fab01a8b85dbf4cb17e1a6e8d36cef31f18263d6cd52bc4764ad4"
+    },
+    {
+      "path": "reviews/2026-11-01/primitive-fock-input/fresh-review.md",
+      "bytes": 4080,
+      "sha256": "8c508ac4110fdf1c9b258e4f95f3d7d2dbee8751fe35bfdad7e0975eaafb51cf"
+    }
+  ],
+  "oldPremisePins": [
+    {
+      "path": "notes/566-source-closed-forms-and-full-weil-heat-trace-tests.md",
+      "bytes": 10582,
+      "sha256": "004f5438c918373e0ead73c0011ffb3883ef872c4977e356911dd910da177053"
+    },
+    {
+      "path": "reviews/2026-10-20/grh-heat-forms/root-consumption-scope.json",
+      "bytes": 9007,
+      "sha256": "75803cb722aa113c99c51b16cce6700a294ce72dabef8867df6fe22a6ada52cd"
+    },
+    {
+      "path": "notes/576-fixed-elliptic-positive-cone-and-original-alias-cost.md",
+      "bytes": 15924,
+      "sha256": "cbf32034c1e63518ef124ba89e1a46093b55da1086868532d8e5a1e0576595bd"
+    },
+    {
+      "path": "notes/577-full-gamma-positive-repairs-and-independent-budget-gap.md",
+      "bytes": 13925,
+      "sha256": "cf80354ab3bb3c7ca2a2bae7e2aa4083adc47d01da5c984146fb285d7551f55f"
+    },
+    {
+      "path": "reviews/2026-10-22/gamma-retaining-positive-approximation/root-consumption-scope.json",
+      "bytes": 11173,
+      "sha256": "e26fd541c732ced3d4edb97156f2a401af8c83cf0771cfffd1f7c3f4900e8b9e"
+    },
+    {
+      "path": "notes/578-prime-pole-signed-budget-and-selberg-control-gap.md",
+      "bytes": 11814,
+      "sha256": "d600adfc0fa857623f585af2ec809840296659b737afbcf5cb745eba740e0901"
+    },
+    {
+      "path": "reviews/2026-10-22/prime-pole-signed-admission/root-consumption-scope.json",
+      "bytes": 11248,
+      "sha256": "8dfe4e70e3930c0c4cdb001583acf571059d6c294b2360138505d71b920411d3"
+    },
+    {
+      "path": "reviews/2026-11-01/joint-hermite-commutator-three-test/root-consumption.json",
+      "bytes": 8373,
+      "sha256": "cb9ef5350dddcaf9828682ed3c23f2b3bca596729f1edd1541500b102628c4ea"
+    }
+  ],
+  "independentReview": {
+    "handle": "/root/prime_fock_fresh_review",
+    "status": "terminal/ROOTfullread/consumed",
+    "verdict": "PASSscopedformulas/NONEadmission; no substantive correction. Finite-Sthermalcarrier andjump-carrier restrictions govern.",
+    "otherRepairs": "OtherKMSstates/relative/nonlocal/supersymmetry unexamined/unexcluded; notsourceadmission."
+  },
+  "premiseClosure": {
+    "objectDomainRange": "ActualH=ell2N He_n=logn e_n=maximalselfadjointdGamma(logp), primeoccupationbasis. r=e^(u/2)f ALLcomplexCcInfinity ->rhat(H); sourceinvolutionreflection-conjugation andfirst-linearconvrepresentation.",
+    "thermalSourceAndNorm": "Ordinarythermalrho=e^-betaH/Z onlybeta>1. Positiveform=sum n^-beta |rhat(logn)|²/Z; fixed[-L,L] <=2L||r||du², notuniformL/full-lineDlog/nativeisometry. Fourierenergylogn atoms areNOTphysicalprimeatoms orzetazeros.",
+    "carrierTransport": "FiniteS beta>0 Eulertrace belongsrestrictedGamma_s(ell2S)/S-smoothintegerbasis. Connected-extractedfeature livesdirectsumL2du, notautomaticallyFockprimitiveorthogonalcompression. No transport/intertwinerpaid.",
+    "sourceGrowthAndCoefficients": "Safeabsoluteconvergentlogratio thennegativebeta derivative gives(logp)p^-kbeta forALLproperpowers. MINUStwiceReal givespositivejump. finiteS ALLk vsfinite-n grouping consistent; fixedL afterScontainsallp<=exp2L allvisiblepowerskept. No exchangefixedwindow/growingL/globalDprime.",
+    "exactComparisonAndErrors": "E_betaS=c_betaS||r||²-P_betaS(r*r*), c=2sumlogp/(p^beta-1). Atbeta1/2 Qzeta=E+QGamma+QH-c||r||² EXACT/zeroerror onfixedcompactsource onceallvisiblep retained. Mixedbyfirst-linearpolarization; actualGamma=Repsi(1/4+it/2)-logpi/FP/contact, QH=2Remu+conjmu-, bothpoles/odd retained.",
+    "criticalDomain": "c_S diverges; L2translationcorrelationC0 impliescriticalinfinitepositivefeature finite-energydomain{0}. Compactlatejumps exactly2||r||². Legalfinitecountertermcancellation doesNOTtransportpositiveformsign.",
+    "paidOldDependency": "566§2/7 androotconsumption alreadypositivejump/subtraction/domain0;578§3 separatesEulerpositive/cumulants fromfullsignedtarget;577§6/9 alreadystrongeractualGamma-retainingpositivefamily withfixed-window/strong-sourceerrors, actualq_R budgetunpaid.576membership/quantitylimits notnewinput.",
+    "coverageCoupling": "No405principaldescent/nonrootfullcoverage/sections/multiplication/mixedRR/capacity, noactualsignedresidualsmallness/growingcore/cross/Ξ. No actual C070ratios/denominator verdict.",
+    "strongestConsumableOld": "Classicalwholefixed17/16;fixed9/8E448;ONEsame605head+ALLcomplementpositivecompletion;whole4/5negative-inertiaUPPER unchanged. C070oldLOC->O(j^3/5) stillonlyupper/notratio.3GoalgatesOPEN."
+  },
+  "targetOutcome": {
+    "inputAdmission": "NONE",
+    "mathematicalContract": "NONE/noC071",
+    "newClassicalNet": "NONE",
+    "bottleneckChanged": false,
+    "generalFockOrKMSNoGo": "NOTproved",
+    "C070": "SPENT/stopped/mainactualratiosOPEN"
+  },
+  "classificationBasis": "ExplicitordinaryFock/unique-factorization/thermalseries andconnectedoperation reduce toconsumed566jump and577578signedresponsibility;0newmathbecauseoldstandardshortchain/noindependentnet, notbecausenoRH orno actualwork.",
+  "settlement": {
+    "newMathematicalIterations": 0,
+    "newNote607": false,
+    "C070SettledIterations": [],
+    "oneFormation": "SPENT/NONE/stop; noautomaticvariant orsuccessor",
+    "cadence": "RAW0/history70/latest606/formal22/noreset/formal23",
+    "library": "145manifestRAW/no newexternalprimary/PDF/readscope/scientificweb",
+    "Goal": "SAMEactive1793085111/notcomplete/pause/blocked",
+    "actualBottleneckChanged": false
+  },
+  "nextAction": "Save/publish/verifyactualFINAL; thereafterunadmittedcorefrontier/no scheduledsuccessor/liveprocess. Need genuinelydifferentactualphysicalsource->primitiveor signedcoreinput+falsifiabletest+strongestoldnet beforeanotherresponsibility. No C070reuse/Focktemperature-cutoff-fermion-unknownprojection/KMS/source/auditchain byname."
+}
