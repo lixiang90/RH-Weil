@@ -1,0 +1,27 @@
+# Independent analytic scope review: nonrapid Rankin source gate
+
+2026-11-01; /root/rankin_final_scope. This replacement task writes ONLY this output. The earlier regularized_rankin_fresh task was reported live after initial inventory uncertainty; its fresh-source-review.md is left untouched. This is a bounded independent ANALYTIC SCOPE review of the five current records below, not an independent transcription or visual reading of the primary PDF. ROOT and the native reader's primary inspection remain the evidence for exact printed formulas. No new source, numerical run, mathematics contract, state/cadence or authority edit is made.
+
+## Evidence actually read
+
+I read in full scope-and-source-gate.md (3360 bytes), native-theorem-and-regularization.md (10678), old-scope-and-bridge-obligations.md (12710), root-typed-controls.md (5368), and download-receipt.json (578), in this folder. I checked their premises against each other and independently recomputed the elementary native controls. I did not reread old545 or either old PDF; their consumed status and exact strong-old consequences below are taken from the explicit old-scope evidence, not claimed as my own new primary proof. This task has no network use and no body/application/reference expansion.
+
+## Logical and normalization checks
+
+1. The native domain is continuous invariant F on PSL2(Z)\H, invariant measure dxdy/y^2 and width-one cusp, with a FINITE power/log model and a remainder O(y^(-N)) for EVERY N. Finite power/log models have polynomial growth (with logs); multiplying two such remainders by either model still gives an all-N remainder after increasing N. Thus product/conjugation closure is valid for already admitted functions. It does not admit arbitrary physical wavepackets or give uniform constants for a family.
+
+2. R is linear in F, R*=Lambda(2s)R is its meromorphic completion, and RN is a finite-part scalar functional. None is an ordinary positive Hilbert Gram by definition. Lambda(w)=pi^(-w/2)Gamma(w/2)zeta(w) is meromorphic and differs from entire xi. A pole of R at rho/2 may cancel a zero of Lambda(2s). Therefore the multiplication identity does not give an entire cofactor or zeta-zero divisibility of R*. The old diagonal entire-cofactor theorem has its own different family and cannot repair this step by name. The s-reflection induces w->2-w under w=2s; the zeta critical line is Re s=1/4.
+
+3. Taking the primary formulas as transcribed in the native record, equation27 keeps BOTH minus boundary terms and the full phi*e subtraction. In the general residue statement the alpha0 correction has plus sign with (-1)^n, while the alpha1 correction has minus sign. The special no-alpha0/1 residue formula cannot be used on F=1. Primitive normalization must come from native30, with derivative phi/y^2; an arbitrary additive constant would change RN and is not allowed.
+
+4. For F=1 the records give a0=phi=1, hence R=R*=0, while hatphi=-1/T. Since area(D_T)=pi/3-1/T, RN=pi/3. Adding the prescribed alpha0 term Lambda(2s)/(s-1) has residue Lambda(2)=pi/6=RN/2. This independently checks the constant example's sign, factor and role distinction; it does not independently transcribe the whole primary residue formula.
+
+5. The cusp-square control is valid. Choose a smooth cutoff chi vanishing at/below2 and equal to1 at/above4, with 0<=chi<=1. The embedded cusp permits H=y*chi(y), extended by zero to the quotient. Its exact tail is y and F=|H|^2 has exact tail y^2. The native primitive is hatphi(T)=T. For T>=4, subtracting T from the integral gives integral_2^4 chi(y)^2dy-4. Continuity at2 makes chi<1 on an interval of positive length; hence this value is strictly below -2. No source-size limit or interchange is used. H is not L2. This rejects automatic positivity on the WHOLE native nonrapid class, and nothing stronger.
+
+## Scope verdict
+
+There is no internal sign/domain/logic defect requiring a change to the proposed native-CITED/classical-SOURCE0 consumption. Exact primary transcription remains governed by the native and original fresh primary readers plus ROOT. The negative square does not exclude indefinite Hodge forms, primitive/sign-corrected restrictions, relative/signed/unbounded constructions, or an actual physical image that avoids it. RN agrees with ordinary integration on integrable admitted functions, so it does not invalidate old545's ordinary bounded direct-packet image. SOURCE0 rests on the missing physical/full-Weil bridge, not a general no-go.
+
+The unfilled arrows are substantive: actual physical r->native objects, full405 principal handling where required, 537 nonroot/full-source coverage, original du/zero-extension Dlog and growing-source transport, complete Gamma/contact/all proper powers/both poles, and a same-object signed mixed/core identity with its errors and coupling. The current source does not pay them. Old545's complete mixed Maass-Selberg and direct-packet scope, its qualified diagonal factor, and the strongest whole/finite-head consequences named in the old-scope record must remain deducted before any new net claim.
+
+Recommendation: settle this ONE source gate after ROOT reconciliation as genuine native CITED facility / classical SOURCE0 / zero mathematics-round increment. No C072/607, application/chapter/source/parameter sequence, new proof budget or long-Goal completion follows. Same long Goal stays active; its three gates and the principal/sections/mixed/growing-core bottleneck remain open. This output is terminal for my task and still requires ROOT consumption.

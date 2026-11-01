@@ -1,0 +1,123 @@
+{
+  "schema": "RH_WEIL_REGULARIZED_RANKIN_SOURCE_ROOT_V1",
+  "runtimeGoalCreatedAt": 1793085111,
+  "status": "ROOT-CONSUMED nativeCITED/classicalSOURCE0; sourcegateSTOPPED",
+  "rootConsumedAtUtc": "2026-11-01T07:15:35.417387+00:00",
+  "actualExecution": "ActualFINALfcab/sole73cd/exact3/clean/checkpoint21 recovered, SAMEactive1793085111 observed. One DIFFERENT named author source downloaded/pinned/visually read afterold545dedup; no oldPDFbodyrereview or C071retry.",
+  "inputs": [
+    {
+      "path": "reviews/2026-11-01/regularized-rankin-source/scope-and-source-gate.md",
+      "bytes": 3360,
+      "sha256": "5dda0c05c50c8f360d1bd23e4dc4465ce1650927408921b6b8588deac2950845"
+    },
+    {
+      "path": "reviews/2026-11-01/regularized-rankin-source/download-receipt.json",
+      "bytes": 578,
+      "sha256": "0eea70cbb016842932c8807c5e26495f06ca87f330b1c8166fe4ab4a381a694b"
+    },
+    {
+      "path": "reviews/2026-11-01/regularized-rankin-source/native-theorem-and-regularization.md",
+      "bytes": 10678,
+      "sha256": "8c2dbc6d6a6c98884f951db370ec49d76e37b18c1bf53ef73448c1a8eac067dd"
+    },
+    {
+      "path": "reviews/2026-11-01/regularized-rankin-source/old-scope-and-bridge-obligations.md",
+      "bytes": 12710,
+      "sha256": "eff1dd7dfde9459eab1eb9ed2d6c9e7abd0f52d7007c0da555ddb5eef681e9a4"
+    },
+    {
+      "path": "reviews/2026-11-01/regularized-rankin-source/root-typed-controls.md",
+      "bytes": 5368,
+      "sha256": "8606827179166a228c5b63148a94e8b1e8aea92f5c1899d8e9623a17306171d3"
+    },
+    {
+      "path": "reviews/2026-11-01/regularized-rankin-source/fresh-source-review.md",
+      "bytes": 11985,
+      "sha256": "945f18fbf561390f3c0fc7ea7fd5f844bc37a397f5247fac166bfa42163dfba8"
+    },
+    {
+      "path": "reviews/2026-11-01/regularized-rankin-source/replacement-scope-review.md",
+      "bytes": 5541,
+      "sha256": "c8277f6466f2a734f75b8632e1835d2ad6426309728c5519f69729c8a0b345a6"
+    },
+    {
+      "path": "notes/545-modular-packet-norm-cusp-blindness-and-weil-transport-gate.md",
+      "bytes": 13140,
+      "sha256": "25b778a2c1d1b9360ff2dd553f853a33c0dda7575740ab3aeac6ec46f555acfa"
+    },
+    {
+      "path": "reviews/2026-10-14/c015-admission/sources/macro-primary-source-receipt.json",
+      "bytes": 1739,
+      "sha256": "8d172cdf08daa1e1a764d259108e686f7d3ed9947ebc072a79ed433f6660db42"
+    },
+    {
+      "path": "goals/contracts/C071-coherent-reflection-word-three-test.md",
+      "bytes": 5246,
+      "sha256": "65e819f08ce57817e323ab80792d0747c7dc36f176e7a57ddf49a715704a9ed7"
+    },
+    {
+      "path": "literature/local/2026-11-01-zagier-regularized-rankin/zagier-regularized-rankin-author.pdf",
+      "bytes": 797019,
+      "sha256": "40185aae600eebeca965d39de504c5468179fdfdb7db19fae0f03b1f66a640b1"
+    }
+  ],
+  "rootRead": "All4 terminal current native/oldscope/fresh/replacement artifacts fully read and rawpinned, plus ROOTcontrols/scope. ROOT primaryimages0,1,4-10 read; intro2-3 exposureonly. Native independentlyimages0,1,4-10; fresh independently0,1,4,8,9,10; replacement analyticreviewonly. Upstreamcited proofnotrecreated.",
+  "currentTaskRoles": [
+    {
+      "task": "/root/regularized_rankin_native",
+      "output": "native-theorem-and-regularization.md",
+      "role": "terminal nativeprimaryproofreader10678"
+    },
+    {
+      "task": "/root/regularized_rankin_old_scope",
+      "output": "old-scope-and-bridge-obligations.md",
+      "role": "terminal localoldscope12710; no newprimarybodyclaim"
+    },
+    {
+      "task": "/root/regularized_rankin_fresh",
+      "output": "fresh-source-review.md",
+      "role": "terminal independentprimaryscope11985; delayedmessage recoveredactualtask"
+    },
+    {
+      "task": "/root/rankin_final_scope",
+      "output": "replacement-scope-review.md",
+      "role": "terminal supplementaryanalyticscope5541; redirectedexclusiveoutputbeforewriting,no collision"
+    }
+  ],
+  "premiseClosure": {
+    "objectNormDomain": "Continuouscomplex invariantF onPSL2Z\\H, width1 dmu=dxdy/y². FINITEpower/logphi=sum c_i y^alpha_i log^n_i/n_i!; F-phi=O(y^-N) forEVERYN. Terms/remainderconstants dependF; nouniformphysicalfamilyfee. Admittedproducts/conjugates remainnative, notcoverage.",
+    "sourceScope": "AuthorPDF23pages797019/SHA40185a. Main419/PDF4eq13-19; directproof420-424/PDF5-9through28; defs415-416/PDF0-1eq1-8; RN29-32on424bottom425/PDF9-10. Introplots417-418exposureonly; PDF11renderednotread. Noapplications/ref/laterchapters.",
+    "citedDependenciesAndErrors": "Eisensteincontinuation/completeconstantterm/nonconstantdecay remainCITED. Displayeddirectunfolding/boundaryproofread; no newnormerror/growingfamilylimitbound. Exactnativeidentitydoesnotpayclassicalcoupling.",
+    "actualCoefficientDirection": "Eq27 has BOTHminusLambda(2s)hT(s) andminusLambda(2s-1)hT(1-s), fullphi*e retained. RNnativeprimitive fixesderivativephi/y². Generalresiduealpha0PLUSwith(-1)^n, alpha1MINUS; no-alpha0/1simplificationonly.",
+    "rolesAndPoleTransport": "RlinearMellin vsR*=Lambda2s R vsRNfinitepart vsordinaryGram. Lambda meromorphicNOTentirexi; rawRmaypoleatrho/2, so completioncanCANCELpole anddoesNOTgiveentirecofactor/zerodivisibility. FEw=2s isw->2-w; quarterlinegateold545.",
+    "constantControl": "F1 givesR=R*=0 butnativeRN=pi/3. hatphi=-1/T, areaDT=pi/3-1/T; alpha0correctedresidueLambda2=pi/6=RN/2. Notphysicalprincipaldescent.",
+    "nativeSquareControl": "SmoothH=ychi incuspy>2, chi0<=2/1>=4, zerooutside; F=|H|² tailphi=y²/hatphi=T. RN=integral2to4chi²-4<-2. ActualnativeNON-L2square; onlyautomaticWHOLEclasspositiveHilbertGramfails. NotWeilnegative, indefiniteHodge/primitive/relative/signed/unboundedno-go oroldordinarypacketfailure.",
+    "oldDeduction": "Old545 alreadyfullmixedfourtermMS/quarterline/completedpacket/directNONcompactuniformoriginalL2packet/fullcuspsubtraction+blindband andqualifiedDIAGONALentirecofactor. DifferentnewnonrapidR notoldcofactorfamily. No oldfacilityreissued.",
+    "remainingCoverageCoupling": "No actualphysicalr=e^(u/2)f->F_r, full405principal whereclaimed/537nonroot+ALLsourcecoverage/originaldu-zeroextensionDlog/growingnorm/fullGamma-contact-allproperpowers-bothpoles orsameobjectsignedmixedcore. Dprime route neednotperlayerkillnoncompactPan.",
+    "strongestOldNet": "No newclassicalnet afterwhole17/16,finite9/8E448,605ONEhead+ALLcomplementpositivecompletion,560602wholeidentities andwhole4/5negative-inertiaUPPER. NotwholePSD/negative-inertiaLOWER; actualprincipal/sections/mixed/growingcore-couplingXiunchanged."
+  },
+  "settlement": {
+    "native": "genuineCITED facility, exactscopeonly",
+    "classical": "SOURCE0",
+    "mathematicalIncrement": 0,
+    "cadence": "RAW0/history70/latest606/formal22",
+    "coreBottleneckChanged": false,
+    "allThreeGoalGates": "OPEN",
+    "runtimeGoal": "SAMEACTIVE1793085111",
+    "C071": "SPENT/stopped/mainratiosOPEN",
+    "new607": false,
+    "newC072": false,
+    "newScienceCodeOrNumeric": false
+  },
+  "library": {
+    "entries": 149,
+    "priorEntries": 148,
+    "priorEntriesDeeplyUnchangedFrom": "fcabfcebd9d53e37633bcd0efb49edc6ffb52477",
+    "newPrimary": "Zagier-1982-nonrapid-regularized-Rankin",
+    "fulltext": "local-onlyignored/rightsnotassumed",
+    "otherLocal13AndOldScientific9": "RAWheld",
+    "GoalCadenceC070C071": "RAWheld"
+  },
+  "stopAndReadmission": "StopONEsourcegate. No applications/chapter/references/paper/parameter/audit/mathqueue or C071renewal. Needdifferentactualprimitive/mixedinput OR concretecomparisonwhichcanchangeselection, originalnorm/fullWeiltest/strongestoldnet before newadmission. Source0notgeneralno-go/externalblocked.",
+  "nextAction": "Save/syncandverifyactualFINAL; thenunadmittedcorefrontier, no admittedsource/mathsuccessor. LongGoalnotcomplete."
+}
