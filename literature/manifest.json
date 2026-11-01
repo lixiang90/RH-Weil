@@ -3329,6 +3329,28 @@
       "resolved_pdf_url": "https://ems.press/content/serial-article-files/37042?nt=1",
       "downloaded_at_utc": "2026-11-01T01:22:15.902545+00:00",
       "parser_warning": "Poppler xref333 missing/reconstructed; original PDF unchanged, relevant formulas visually checked."
+    },
+    {
+      "id": "Flach-Morin-DM23-2018-fundamental-line",
+      "category": "weil-etale-global-arithmetic-fundamental-line",
+      "authors": "Matthias Flach; Baptiste Morin",
+      "title": "Weil-Étale Cohomology and Zeta-Values of Proper Regular Arithmetic Schemes",
+      "version": "Documenta Mathematica23(2018),1425-1560; revised2017-11-30, officialpublisherPDF",
+      "source_url": "https://ems.press/journals/dm/articles/8965580",
+      "doi": "10.4171/dm/651",
+      "pdf_url": "https://ems.press/content/serial-article-files/26429",
+      "file": "local/2026-11-01-flach-morin/flach-morin-dm23-2018.pdf",
+      "bytes": 970098,
+      "sha256": "6bec18d3f87c7c1270df4ddfb11f3009e665b193b8cff169ecb1d0a1f5d07f5a",
+      "pages": 136,
+      "download_status": "DOWNLOADED actualpublisherPDF/local-onlyignored",
+      "read_scope": "Frozen §5.2 Def5.1/Prop5.2 PDF56/printed1481 andminimumdirect(53)/(64)/deriveddeRham/assumption definitions: PDF14,15top,16Bstatement,24-25,44-45,50-52,55; PDF78first5.8.3paragraph known-numberringqualification only. OriginalB14locator corrected by separateminimal-assumption-locator-correction. Shared-page adjacentproofs/whole-source headingfind snippets merelyexposed/notconsumed. No later5.8proof/Appendix/ref/otheredition. Three drafts+4121freshreview ROOTread/pinned/consumed; nativeCITED/classicalSOURCE0 sourcegateSTOPPED.",
+      "status": "ROOT-CONSUMED nativeCITED/classicalSOURCE0;sourcegateSTOPPED; ROOTdiagonalproposalNONE/oldstandard0math",
+      "review_note": "../reviews/2026-11-01/flach-morin-fundamental-line-source/root-consumption.json",
+      "redistribution": "Notverified; fulltext/localextracts/pages remainignored; metadata+ownanalysesonlypublic.",
+      "downloaded_at_utc": "2026-11-01T04:19:27.017988+00:00",
+      "parser_warning": "pypdf layout extraction malformed/hugeglyphcodes; originalPDFunchanged. Popplertext partialglyphloss, relevantformulas checkedvia pageimages.",
+      "consumption_limits": "All6450+6305+6420+4121 fullread/pinned; ROOTcriticalpageimages independentlychecked. NativeDelta=detWc tensor detD; theta(a,b)->(0,a) exactoncohomology NOTacyclicunderlying; [-2]even keepsdetD; determinantcanonical independentnoncanonicalintegralArcones. Bperfectreal notpositiveHermitian;unitregulator sumtrace genuine. Numberrings L/B/AVknownCITED notunpaidSpecZpremise. native6450 noHilbertnorm onlyno physical/geometric-source Hilbert implementation; lambda DOESinduce1Dnorm. SpecZdRfactor0forn<=0orZforn>0, detunitboth/retainvirtualdegree, notwholeWtrivial. No actualphysicalrmap/full405test/537coverage/originaldu-Dlog/mixedcompleteWeil supplied. Old537finite-line ranktest onlystandard; no transferoldcarrier failures/generalno-go. ActualROOTdiagonalMellinproposal evaluated separately:finitePhi_j(P)nonzero viaold574, compactshiftgap>=cosh(1/2) excludescommoncalibration byold591. NotnativeB/offdiagonalcoupledmethodfailure."
     }
   ],
   "supplement_provenance": [

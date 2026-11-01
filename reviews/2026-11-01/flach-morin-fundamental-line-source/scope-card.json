@@ -1,0 +1,37 @@
+{
+  "schema": "RH_WEIL_FLACH_MORIN_ONE_CHAPTER_SOURCE_GATE_V1",
+  "runtimeGoalCreatedAt": 1793085111,
+  "date": "2026-11-01",
+  "source": "Flach-Morin, DocumentaMath23(2018)1425-1560, DOI10.4171/dm/651",
+  "url": "https://ems.press/content/serial-article-files/26429",
+  "pdf": {
+    "path": "literature/local/2026-11-01-flach-morin/flach-morin-dm23-2018.pdf",
+    "bytes": 970098,
+    "sha256": "6bec18d3f87c7c1270df4ddfb11f3009e665b193b8cff169ecb1d0a1f5d07f5a",
+    "pages": 136,
+    "redistribution": "unverified/local-onlyignored"
+  },
+  "oneMainSection": "5.2 Definition5.1/Proposition5.2/printed1481/PDFindex56",
+  "minimalDependencies": {
+    "proof": "Definition4.1/theta exactsequence(53) PDF44-45; compact-support triangle(64) PDF50-52; deriveddeRham quotient§5.1 PDF55",
+    "assumptions": "B(X,n) statement PDF14; L/AV andknowncase qualifications PDF24-25; §5.8.3firstparagraph PDF78 ONLYknownnumberringassumptions, no laterproof"
+  },
+  "frozenLocalPageIndices": [
+    14,
+    24,
+    25,
+    44,
+    45,
+    50,
+    51,
+    52,
+    55,
+    56,
+    78
+  ],
+  "primaryTest": "What ACTUAL fixedinteger(X,n)->Delta andlambda_infty aredefined/proved, underwhichpremises? Does source furnish physicalr->primitive/globalcomplex map and full405relations/537nonroot+all-source coverage+du-Dlog/mixedcompleteWeil comparison? Ifonlyspecialvalues/integerweights/conditionalfacility withnoactualsourcebridge=>SOURCE0 stop, no mathcontract.",
+  "scopeLimits": "No full §5.3/5.5/5.8proof/Appendix/reference/otherpaper followup. Directlambda construction only; no globalcohomologyproofclaims. Missing bridge notclaim ofimpossibility orfailure of nativeobject.",
+  "exposure": "ONEname-titleprimaryquery exposed relatedindexed abstracts/intro/TOCs only. PublisherPDF openabstract+TOC. Locatorfind autoexposed §5.8.3firstparagraph, adjacent §5.8.1/.2 fragments, Appendixlocators/ref; notbodyproofreview. Shared-page neighbouring §5.3 etc exposed/notconsumed.",
+  "previousResult": "ActualprimeFockNONE andC070SPENT remainstopped; thisdifferentnativeglobalarithmeticcomplex onechapterfallback, no KMS/temperature/sourcequeue byname.",
+  "settlement": "Source-only admission,0math unless genuinelynewstrictresponsibility separatelyadmitted. Existingcadence0/history70/latest606/formal22 andGoal unchanged."
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "RH_WEIL_FM_LINE_TATE_ADMISSION_SYNC_V1",
+  "status": "PREPARED_NOT_YET_SOURCE_VERIFIED",
+  "repository": "https://github.com/lixiang90/RH-Weil",
+  "branch": "main",
+  "previous_verified_head": "a349cd557fa58f2049a41d295183d472c095a26f",
+  "scope": "ONEFMpublisherPDF local-only/native5.2+directdefs6450/6305/6420/4121 ROOTconsumedCITED/SOURCE0; thenactualdiagonalTate-Mellin3729+2146+2822precheck ROOTNONE viaold574591standardshift/principal gates.0newmath/no607/C071/bottleneckunchanged; C070SPENT/ratiosOPEN. SAMEactiveGoal1793085111/3gatesOPEN/cadenceRAW0history70latest606formal22. Library145->146 onlyONEactualPDF,first145deepunchanged; no scientificdata/numeric/code orsourcefollowup.",
+  "metadata_child_exact_paths": [
+    "goals/STATE.json",
+    "goals/checkpoints/2026-11-01-flach-morin-tate-stop-sync.json",
+    "reviews/2026-11-01/flach-morin-fundamental-line-source/remote-sync-verification.json"
+  ],
+  "condition": "OneverifiedSOURCE thenoneexact3soleSOURCEmetadatachild; actualFINAL/APIref/commit/tree/local/soleparent/exact3/clean/checkpoint/bindings required. NoownSHAloop.",
+  "public_bindings_count": 44,
+  "local_only_bindings_count": 11,
+  "unchanged_scientific_code_pins": 9
+}
