@@ -1,5 +1,7 @@
 # RH-Weil 文献索引
 
+2026-11-01，相对Green配方的旧关系首检INPUT0；[使用范围](supplements/2026-11-01-relative-green-admission-scope.md)只复用既有405／573–575与已读BC native direct-image设施，无新外部primary／PDF／书章。库144及manifest原字节保持；实际解析检查不等于新数学轮或全Weil身份。下一仅未执行的核心输入选择决策，不串来源队列。
+
 2026-11-01，Bost–Charles2206.14242v2 §7.2来源门SOURCE0：库144不增条目／全文原字节保持，只更新实际正文与必要定义阅读范围；[本轮使用范围](supplements/2026-11-01-formal-analytic72-source-scope.md)区分native全局设施、未付经典物理桥及两处字面消费限制。下一显式relative Green构造仅准入卡、未执行；不续书章或文献队列。0数学，原cadence／Goal保持。
 
 2026-11-01，惰性交接FAIL、单一酉相位限定INPUT0：0数学，完整源槽/Gram纠正见[使用范围](supplements/2026-11-01-inert-unitary-formal-analytic-scope.md)。新增Bost–Charles2206.14242v2本地全文，库143→144；189页/原SHA已核，仅前置定位，§7.2正文未审。许可/版本不据公开可读推定；全文ignored，只同步metadata与一个有止点的来源门。

@@ -1,0 +1,286 @@
+{
+  "schema": "RH_WEIL_RELATIVE_GREEN_ADMISSION_PUBLICATION_V1",
+  "runtimeGoalCreatedAt": 1793085111,
+  "publicBindings": [
+    {
+      "path": ".gitattributes",
+      "bytes": 10206,
+      "sha256": "3cbb9fcceffb911893850087237c9d448465bab99bbdf3afe95b6d145ae3a6a7"
+    },
+    {
+      "path": "RESEARCH_BRANCHES.md",
+      "bytes": 306802,
+      "sha256": "69483e6e40579492dd63195716b3a50b805e22e1dff56b41eac857bfddeaaa80"
+    },
+    {
+      "path": "goals/DECISIONS.md",
+      "bytes": 382104,
+      "sha256": "587c9645a9581bf8b51ab3f872c6ef463863d38d033b5be5d0cc84b14589622b"
+    },
+    {
+      "path": "goals/GOAL.20261027.md",
+      "bytes": 9679,
+      "sha256": "b3d2acb1f962d793f45d79b6a4e67fb87dd072cd4752108a9298204b4cefa1de"
+    },
+    {
+      "path": "goals/MACRO_FRONTIER.md",
+      "bytes": 133935,
+      "sha256": "514a59f8eed8a4e019687c19f00b91374bfb52d8b12f5423a824ced91dc3cc58"
+    },
+    {
+      "path": "goals/README.md",
+      "bytes": 98105,
+      "sha256": "6dc27de277f92c78fb1a2545067fc5339be011b7097c385596f8ab7430c92440"
+    },
+    {
+      "path": "goals/review-cadence.json",
+      "bytes": 6938,
+      "sha256": "74968571c8d0c6a51662ac37602ac241c1a84add09938b1b6c27bdaa697adfb0"
+    },
+    {
+      "path": "goals/reviews/2026-11-01-relative-green-old-admission-stop.md",
+      "bytes": 1724,
+      "sha256": "4183a5c0f7da2370e3a070adbfd5f5475dba51d3c35486f2b1d51d61f33feece"
+    },
+    {
+      "path": "literature/README.md",
+      "bytes": 152594,
+      "sha256": "d86e25805ac60eac1d5a2cd3db018bc391ef7424947752d101b59353da21407f"
+    },
+    {
+      "path": "literature/manifest.json",
+      "bytes": 225541,
+      "sha256": "ebecf42e6362810ef463c741ca35b6b30ad733c90d8867d91a8784241cfe6f20"
+    },
+    {
+      "path": "literature/supplements/2026-11-01-relative-green-admission-scope.md",
+      "bytes": 2032,
+      "sha256": "7eb96d871321753fe48b24372e351ea4942a5179272893ecd849c5c46634c9f0"
+    },
+    {
+      "path": "notes/405-f1-adelic-restriction-moments-and-radical.md",
+      "bytes": 14633,
+      "sha256": "fe5ee4b574954e51a69c6bbbaa772bb75a1a510c91c837ba02eed8ac406cbb7d"
+    },
+    {
+      "path": "notes/573-relative-ideal-chain-closure-and-regulator-loss.md",
+      "bytes": 13719,
+      "sha256": "da5ed121715fa71ce3e83c61aef7160825778ce0beeca8df39d4ae55fbb4cd93"
+    },
+    {
+      "path": "notes/574-actual-adelic-cover-relative-picard-and-source-transport.md",
+      "bytes": 11880,
+      "sha256": "b97aa1619f559e22041f5f46404a5ab09e598722e16287059e8691c555eee45d"
+    },
+    {
+      "path": "notes/575-regular-cartier-cover-flat-source-and-capacity-gap.md",
+      "bytes": 13160,
+      "sha256": "f70e37cb84d4d705a3a9e6fe57c6f1b72bd8f9b02cb3d9ddeb6ac16bb184fd8e"
+    },
+    {
+      "path": "reviews/2026-11-01/formal-analytic-72-source/next-relative-green-construction-admission.md",
+      "bytes": 4451,
+      "sha256": "07d6fe9280fa4976551f8d464f861dfce9ca5d7842b88e61e4d32e72cdbc47ed"
+    },
+    {
+      "path": "reviews/2026-11-01/formal-analytic-72-source/root-consumption.json",
+      "bytes": 3669,
+      "sha256": "55b6c30dee04d8563a97a6a7886b3782a59179dd67e4f58dfdde0f90de6f94c5"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/finite-independent-inputs.py",
+      "bytes": 8400,
+      "sha256": "05bb27e4fb457aa29d7cae57115260dc4ca716d4899f1019feea274876cf5a97"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/finite-whole-consumer.py",
+      "bytes": 47909,
+      "sha256": "6919ea1306ba9539520851634f0fa68980499a479bd529e73cf4b36a5116ab17"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/independent-finite-checker.py",
+      "bytes": 36234,
+      "sha256": "4cdbc6fcb9ae52cf1766ddbd71bf5e7f579a91f7d331939779448c9075539602"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/observe-global-once.py",
+      "bytes": 44215,
+      "sha256": "88d54d68d5119aff6eacc6581a3de56d53f9121ffacc3a6c17e7f87df8c4637d"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/runtime-protocol.md",
+      "bytes": 8747,
+      "sha256": "fe70954d6716290bc5b8421fa236d775aefb99e3f3819d777ec72e9ca89c7161"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/source-model.py",
+      "bytes": 27057,
+      "sha256": "89bb4eb23264b6f7d1bd56459e2d7825b94ec5a02e5ff7c36e6cc0bfa1237975"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/source-stage-controller.py",
+      "bytes": 36959,
+      "sha256": "0188ebfe2a0565bcfa53687a82b4dad068b57aae4413d3ff2aed18f8e7a7c9d9"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/verify-finite-augmented.py",
+      "bytes": 8210,
+      "sha256": "3ef31ca2255ed7a0aa4bc17cac979d49f93c95e43fb3ca18c8a67bd95f0ba6f9"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/verify-source-model.py",
+      "bytes": 26778,
+      "sha256": "2b1c1de335e2412c2f6e1cec7a219f3bd496561df6f4d134a5c87ea42a7603db"
+    },
+    {
+      "path": "reviews/2026-11-01/relative-green-construction-admission/README.md",
+      "bytes": 1548,
+      "sha256": "e1fdd7c573087f4711a3e040c7868cd8f738b75356c343f34eca892dbc5a97f2"
+    },
+    {
+      "path": "reviews/2026-11-01/relative-green-construction-admission/analytic-legality-and-relation-check.md",
+      "bytes": 8053,
+      "sha256": "15136bb68507cd19d2811d8e8f7fc1ea51b3f7b08d46cbcc013d1c9e05746c43"
+    },
+    {
+      "path": "reviews/2026-11-01/relative-green-construction-admission/consumption-clarifications.md",
+      "bytes": 3090,
+      "sha256": "e5270aa007e28c98bea938a31fe7015eae7d46b681fb138fd74405104b327214"
+    },
+    {
+      "path": "reviews/2026-11-01/relative-green-construction-admission/execution-start.json",
+      "bytes": 539,
+      "sha256": "afbf9171ca0093e0c2cdff4d2b532a4346d1c056f8a49012dd74762649a195d6"
+    },
+    {
+      "path": "reviews/2026-11-01/relative-green-construction-admission/fresh-admission-review.md",
+      "bytes": 7954,
+      "sha256": "79454d10294f83fdb813d18d80d8ce80f7e32b0d84a047300838fcbf46701a9c"
+    },
+    {
+      "path": "reviews/2026-11-01/relative-green-construction-admission/next-core-admission-selection.md",
+      "bytes": 2580,
+      "sha256": "58b14bb8d598e181eb5b350be2799bc2256e1c64ad5d6cd64a2ed79c85038fe2"
+    },
+    {
+      "path": "reviews/2026-11-01/relative-green-construction-admission/root-consumption.json",
+      "bytes": 6092,
+      "sha256": "ac7004f2a7858d66e8155a337356cb0eed1c689f06c9642b243799d9238f1206"
+    },
+    {
+      "path": "reviews/2026-11-01/relative-green-construction-admission/root-minimal-comparison.md",
+      "bytes": 3921,
+      "sha256": "876c92a79b80f79ff8e7b069dd518e9e173def10822274009b94f8840a8131be"
+    },
+    {
+      "path": "reviews/2026-11-01/relative-green-construction-admission/strongest-old-net-admission.md",
+      "bytes": 8910,
+      "sha256": "b290142928f148b2418be48c126fab9d1746c566fe6791f394d69d0237aa47f9"
+    }
+  ],
+  "localOnlyBindings": [
+    {
+      "bytes": 734638,
+      "path": "literature/local/2026-10-29-weil-9-8/pilot/run-01/certificates/moments.json",
+      "sha256": "2d166f7ae457fd61826329d31365564e25f1cfc6bc19d09aef22d2ec89c6bbd9"
+    },
+    {
+      "bytes": 23377672,
+      "path": "literature/local/2026-10-29-weil-9-8/pilot/run-01/certificates/source-matrices.json",
+      "sha256": "a5486fea38c3c8f91dcf4bb77c7677e734efe2ac9cbf59ddabc4674739fdb2f2"
+    },
+    {
+      "bytes": 73598411,
+      "path": "literature/local/2026-10-31-retained-tail-source/run-01/finite-columns.jsonl",
+      "sha256": "d841d307d2b22367570e594c1bc9e3b64c8a4ffef88691382acf5d6fbeeaf080"
+    },
+    {
+      "bytes": 233458,
+      "path": "literature/local/2026-10-31-retained-tail-source/run-01/h-columns.jsonl",
+      "sha256": "37f2c0410beb1b1c43b9f8d2df24d72fce3170b5f359d089c198742f1eee4e74"
+    },
+    {
+      "path": "literature/local/2026-11-01-directional-remainder-whole-observer/run-01/source-produce/claim.json",
+      "bytes": 522,
+      "sha256": "f8ef017195dd9fbf23ce10634115237095d149b19a32b601f72d45848759167f"
+    },
+    {
+      "path": "literature/local/2026-11-01-directional-remainder-whole-observer/run-01/source-produce/ready.json",
+      "bytes": 2655,
+      "sha256": "1d727544b9a2b68545b1a61b31305275919738a10a73664d32bdce34309de646"
+    },
+    {
+      "path": "literature/local/2026-11-01-directional-remainder-whole-observer/run-01/source-produce/terminal.json",
+      "bytes": 1014,
+      "sha256": "f44ee2ae473cef9422bda261ad446a50ff2981f250139af0313bdddabccdc6a2"
+    },
+    {
+      "path": "literature/local/2026-11-01-directional-remainder-whole-observer/run-01/source-produce/root-observed.json",
+      "bytes": 9648,
+      "sha256": "4f192af873370c20905e2e91ac3470c6c07c5bb8d1752e70a900dccc1f205342"
+    },
+    {
+      "path": "literature/local/2026-11-01-formal-analytic-source/bost-charles-2206.14242v2.pdf",
+      "bytes": 1907786,
+      "sha256": "fc8eef2982b7e4fbcb14e7a175671afaef0802ad358ba5ce1169a80cab5d2480"
+    }
+  ],
+  "unchangedOldScientificCodePins": [
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/source-model.py",
+      "bytes": 27057,
+      "sha256": "89bb4eb23264b6f7d1bd56459e2d7825b94ec5a02e5ff7c36e6cc0bfa1237975"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/verify-source-model.py",
+      "bytes": 26778,
+      "sha256": "2b1c1de335e2412c2f6e1cec7a219f3bd496561df6f4d134a5c87ea42a7603db"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/source-stage-controller.py",
+      "bytes": 36959,
+      "sha256": "0188ebfe2a0565bcfa53687a82b4dad068b57aae4413d3ff2aed18f8e7a7c9d9"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/finite-whole-consumer.py",
+      "bytes": 47909,
+      "sha256": "6919ea1306ba9539520851634f0fa68980499a479bd529e73cf4b36a5116ab17"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/independent-finite-checker.py",
+      "bytes": 36234,
+      "sha256": "4cdbc6fcb9ae52cf1766ddbd71bf5e7f579a91f7d331939779448c9075539602"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/verify-finite-augmented.py",
+      "bytes": 8210,
+      "sha256": "3ef31ca2255ed7a0aa4bc17cac979d49f93c95e43fb3ca18c8a67bd95f0ba6f9"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/finite-independent-inputs.py",
+      "bytes": 8400,
+      "sha256": "05bb27e4fb457aa29d7cae57115260dc4ca716d4899f1019feea274876cf5a97"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/observe-global-once.py",
+      "bytes": 44215,
+      "sha256": "88d54d68d5119aff6eacc6581a3de56d53f9121ffacc3a6c17e7f87df8c4637d"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/runtime-protocol.md",
+      "bytes": 8747,
+      "sha256": "fe70954d6716290bc5b8421fa236d775aefb99e3f3819d777ec72e9ca89c7161"
+    }
+  ],
+  "excludedMutable": [
+    "goals/STATE.json",
+    "reviews/2026-11-01/relative-green-construction-admission/publication-inputs.json",
+    "reviews/2026-11-01/relative-green-construction-admission/remote-sync-verification.json",
+    "goals/checkpoints/2026-11-01-relative-green-admission-source.json",
+    "goals/checkpoints/2026-11-01-relative-green-admission-sync.json"
+  ],
+  "cadence": "0/history70/latest606/formal22 RAWunchanged",
+  "libraryEntries": 144,
+  "GoalCadenceManifestRawEqual975bd33": true,
+  "scope": "Actualstandard/nativeanalyticchecks; ONEoldactualrelation/zero-classtestINPUT0 old-consequenceadmission0round; no independentnewboundary/strictfee/all-sourcefaithfulness/newprimary/numericrun. NextcoreselectiondecisionUNEXECUTED."
+}
