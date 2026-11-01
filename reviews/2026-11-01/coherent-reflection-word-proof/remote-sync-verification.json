@@ -1,0 +1,17 @@
+{
+  "schema": "RH_WEIL_C071_PROOF_STOP_SYNC_V1",
+  "status": "PREPARED_NOT_YET_PUBLISHED",
+  "repository": "https://github.com/lixiang90/RH-Weil",
+  "branch": "main",
+  "previous_verified_head": "dd7aa30007a27e5e7b4112dde9fd3edf6adec4a9",
+  "scope": "C071ONEactualproofattemptSPENT/stopped after2proofs+2reversechecks+ROOTconsumption. Provedstandardoldalljdenominatorpositive/receiver>=2/pmax/wholecandidateupperO(j); normalizedB/b+mainratiosOPEN, neitherPASSnorcofinalrejection.0newmath/no607/C072/corebottleneckunchanged/3gatesOPEN/SAMEGoalactive. No newscientificdata/numeric/code/source.",
+  "metadata_child_exact_paths": [
+    "goals/STATE.json",
+    "goals/checkpoints/2026-11-01-reflection-word-proof-stop-sync.json",
+    "reviews/2026-11-01/coherent-reflection-word-proof/remote-sync-verification.json"
+  ],
+  "condition": "VerifySOURCE/APIref/commit/tree/localsoleprevious/pins/clean thenONEexact3soleSOURCEmetadatachild; verifyactualFINAL/ref/tree/parent/exact3/pins/clean. No ownSHAloop.",
+  "public_bindings_count": 78,
+  "local_only_bindings_count": 13,
+  "unchanged_scientific_code_pins": 9
+}

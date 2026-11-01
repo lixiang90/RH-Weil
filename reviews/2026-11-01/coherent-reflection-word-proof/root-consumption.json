@@ -1,0 +1,104 @@
+{
+  "schema": "RH_WEIL_C071_PROOF_STOP_ROOT_V1",
+  "runtimeGoalCreatedAt": 1793085111,
+  "status": "ROOT-CONSUMED C071SPENT/STOPPED; provedstandard-old qualifications/mainratiosOPEN",
+  "rootConsumedAtUtc": "2026-11-01T06:26:19.547359+00:00",
+  "actualExecution": "AfteractualFINALdd7/sole18b/exact3/clean/checkpoint23/67pub13local9code andSAMEactiveGoal recovery, C071ONEproofattemptactuallyexecuted byROOTand2parallelproofs, then2differentrole reversechecks. Notonlyformation/admission.",
+  "inputs": [
+    {
+      "path": "reviews/2026-11-01/coherent-reflection-word-proof/root-row-identity-and-normalized-test.md",
+      "bytes": 5294,
+      "sha256": "a88f2635da058b53c2d40883962028d55afaa35632027f2fdd0baf04297fa8d4"
+    },
+    {
+      "path": "reviews/2026-11-01/coherent-reflection-word-proof/whole-word-cofinal-comparison.md",
+      "bytes": 10132,
+      "sha256": "02fdaea24327722a146a759501ac8c627982c2591e180efb0e873d581663ee79"
+    },
+    {
+      "path": "reviews/2026-11-01/coherent-reflection-word-proof/actual-rowtail-and-ratios.md",
+      "bytes": 11607,
+      "sha256": "1abe0ea7d18ea826050ab969c78157810728f02f1765bd122836f40059e8c8c0"
+    },
+    {
+      "path": "reviews/2026-11-01/coherent-reflection-word-proof/largest-prime-boundary-reverse-review.md",
+      "bytes": 9999,
+      "sha256": "a76ad5b6f9282ae7949b2d0a7a63b4906364f2e34062a8d7ea89d2ef6dbbcb24"
+    },
+    {
+      "path": "reviews/2026-11-01/coherent-reflection-word-proof/enlarged-receiver-fee-reverse-review.md",
+      "bytes": 6736,
+      "sha256": "9c040cbfccac7f48839f7001b19adfef8c44d8a088428686f77e933ff7fd0d12"
+    },
+    {
+      "path": "goals/contracts/C071-coherent-reflection-word-three-test.md",
+      "bytes": 5246,
+      "sha256": "65e819f08ce57817e323ab80792d0747c7dc36f176e7a57ddf49a715704a9ed7"
+    },
+    {
+      "path": "reviews/2026-11-01/coherent-reflection-word-input/root-consumption.json",
+      "bytes": 5510,
+      "sha256": "aca6dc509dc9ca68196d53457f9e2e890ff9e8cc2f496c9f322e250fc8e72729"
+    },
+    {
+      "path": "notes/532-actual-sonin-prime-symbol-and-compact-weil-bridge.md",
+      "bytes": 8516,
+      "sha256": "dc9ff79c622ed692edfd393c2851e5cc7fcab0a7f5fe41cce82ba69b45a82f09"
+    },
+    {
+      "path": "reviews/2026-10-14/joint-sonin-cross/full-inverse-carrier-error.md",
+      "bytes": 12893,
+      "sha256": "0db8a2f5acaf6ba4a4655b944f99b450e4af114e9480d4f661cb9e3a7da1c7c2"
+    }
+  ],
+  "taskOutputRoles": [
+    {
+      "task": "/root/c071_word_algebra_proof",
+      "output": "whole-word-cofinal-comparison.md",
+      "role": "originalterminalproof10132/02fd preserved"
+    },
+    {
+      "task": "/root/c071_rowtail_proof",
+      "output": "actual-rowtail-and-ratios.md",
+      "role": "terminalactualrowproof11607/1abe"
+    },
+    {
+      "task": "/root/c071_largest_prime_reverse",
+      "output": "largest-prime-boundary-reverse-review.md",
+      "role": "terminalindependentlargestboundaryreview9999/a76a"
+    },
+    {
+      "task": "/root/c071_word_algebra_proof",
+      "output": "enlarged-receiver-fee-reverse-review.md",
+      "role": "explicitfollowupcurrenttask terminal6736/9c04; notoldhandlecompletion reusedblindly"
+    }
+  ],
+  "rootRead": "All4terminalartifacts fullread/bytepinned. ROOTindependentlyrederivedupperboundarystronglimit/inversegap/geometriccorner/fixedsourcequalitativeimplication, rowunitarity/nearfar constants andcommonreceiver/Mellinnormalequations. Old532§2-4 andcarrier§1 actualquantifiers checked.",
+  "premiseClosure": {
+    "objectSourceNorm": "ExactC071fixedascending allprimeword W_j overphysicalH andfullGramPi_p. Physicalr=e^(u/2)f, A_r=M_rhat, firstslotlinear reflectionaverageHSform, originalfixedwindowzeroextensionDlog; r-du differsf-du. No newS_expoperator domain.",
+    "receiverBoundaryProof": "ForEACHfixedfiniteF, oldALLinterval532clipping onJ+Gamma(R) givesS_R*P S_R->E_- strong. ChoosephaseclusteronlyforfixedF; retainfullambientC=P B*BP+I-P inverse withgap(1-q)^2. Exactmodelrange<=logp; topstrip(logp_prev,logpmax) killsallsmallerrelativefactors. Halflinecomplementh(y)=baralpha h(y+l) givesPi compressionq²I. Modelword-I corner=-2/pmax; strongnormsemicontinuity givesACTUALreceiver||W_F-I||op>=2/pmax.",
+    "actualCoefficientDirection": "Negativecorner -2/pmax inreceiverMODEL; positiveLOWER onACTUALreceiveroperator distance. NOTWeilquadraticnegative/PSDsign orfixedsourceenergyLOWER. ForF_j bound>=2exp(-j), no uniformR,j modelrate/exchangedlimits.",
+    "denominator": "ContinuousactualK_j plusanalyticnonconstantG givesC_j(g)>0ALLj; infinitelyzero branch FALSE. Alsoalpha_j>0eachj bynullaliaslines. Qualitativeonly: S_R*A_g S_R=A_(exp(-iRdot)g), sohighreceivercorner doesNOTboundoriginalb_j size, normalizedalpha orcofinalratio.",
+    "actualRowAndStrongOldFee": "K=W-I normal, KK*=-(K+K*) yieldsm=-Re[K(t,t)+K(-t,-t)]. AllP/Pi_p<=Q_X physicalcutoff1/Fcutoff1/X. K=QKQ,||K||<=2=>m<=4dQ. N_X=U_((logX)/2)M_(X^-1/2), Mellindiagonalunchanged. Oldkappa gap/lowGramnormal eqs yielddQ<=3d0+6logX+192/(1-kappa)^2. WHOLEcandidateC_j<=48t0+[96logX+3072/(1-kappa)^2]||r||physicaldu²<=C(1+j)Dlog², actualB_j(delta)=O(j+1). No newwhole-Qbudget; thisstrongoldcommonrange boundmustdeductweakerformationH_j².",
+    "normalizationAndOpenTest": "Actualpurejump normalizationd<=2delta²b+32alpha+16B. R=q1/q0 givesDelta>=[R-2delta²-16B/b]+/33; matching=>liminfB/b>=(R-2delta²)/16>=7R/128. Conditionalstandardoldsupport, NOTactualcofinalupper. AbsoluteupperB=O(j) andpositiveb doNOTgiveB/b upper orsource-energy-size.",
+    "remainingCoverageCoupling": "MainC071ratios/normalizedtailOPEN: neitherPASSnorcofinalrejection. Commonfinitec_j>=0 mayunbounded. No perlayernoncompactPan requirement; no fullmixed/allsource/Dprime/fullGamma-contact-pp-bothpoles/principal405/537fullcoverage/sections/mixedRR/growingKJcore-coupling/Xi paid.",
+    "strongestOldNet": "Provedqualification/currentclosedoldchain only: actual532ALLinterval+oldsingleprimechain+routineboundedfunctionalcalculus/largeststrip andoldSonincommonreceiver. No newanalytic/sourcecofinal estimate/classicalnet; formationweakfee notrightcomparator. Originalwhole17/16,finite9/8,ONE605head+ALLcomplementpositivecompletion,560602wholeidentity,whole4/5negative-inertiaUPPER unchanged."
+  },
+  "settlement": {
+    "mathematicalIncrement": 0,
+    "cadence": "RAW0/history70/latest606/formal22",
+    "C071": "ONEactualproofattemptSPENT/stopped; settled[]doesnotmeanunusedbudget",
+    "mainGate": "OPEN/unresolved, notPASS/no-go",
+    "newNote607": false,
+    "newContractC072": false,
+    "localGateChanged": "All-layerdenominatornonzero/zero-branchremoved; no quantitativesize orratioanchor",
+    "coreBottleneckChanged": false,
+    "independentClassicalInputAccepted": false,
+    "allThreeGoalGates": "OPEN",
+    "sameRuntimeGoal": "ACTIVE1793085111; no create/statusupdate"
+  },
+  "stopAndReadmission": "No C071renewal/order/cutoff/phase/gain/source/receiver/basis/numeric/code/engineering/source/audit queue. Differentactualindependentprimitive/mixedcoupledinput+originalnorm/fullWeiltest+strongestoldnet requiredbeforenewresponsibility. Openratio/harderconstant isnotnewinput.",
+  "library": "148/manifest234350 RAWheld fromdd7;13localbindings9oldsciencecodepinsheld. No newexternalprimary/PDF/query/readscope; newownmathusagerecord only.",
+  "stateHistory": "Twohistoricalsource-only activeevidence links prunedsolelyfor16KB; originalreceipts/frontier/checkpoints retained, no semantic/cadencechange.",
+  "nextAction": "Save/syncandverifyactualFINAL; thereafterunadmittedcorefrontier, no admittedmath/source successor. No stoppedcontractbudget resume."
+}

@@ -1,5 +1,7 @@
 # RH-Weil 文献索引
 
+2026-11-01，[C071实际证明资料使用](supplements/2026-11-01-coherent-reflection-word-proof-scope.md)：只读旧532全interval/单primechain、560/591及低cutoffgap原件。无新external primary/PDF/query/readscope；库148/manifest234350、全文原字节保持。全层分母非零及O(j)upper为强旧qualification，主normalizedratioOPEN，C071SPENT/0数学/no607。
+
 2026-11-01，[本轮有序反射词资料使用](supplements/2026-11-01-coherent-reflection-word-input-scope.md)：仅旧560/591/594/602/603及受限unitary/C070原件，无新external primary/PDF/query或readscope。库148/manifest234350及全文原字节保持。actualformula/三审/ROOT只准入C071未来共尾门，0数学，非新经典正性。
 
 2026-11-01，[Deninger有理Witt相对对应与旧flow归档范围](supplements/2026-11-01-deninger-witt-correspondence-scope.md)：库146→148，旧146深等；新2508v1 §5实际审读31页PDF，正常整环CITED/classicalSOURCE0，raw不连通quotient冻结限定重闭。1807v4只补存119页旧全文，旧§10页码未新核。本轮actualmoment源准入INPUT0/standardold0数学；全文/extracts/pages均local-only。
