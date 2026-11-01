@@ -1,0 +1,17 @@
+{
+  "schema": "RH_WEIL_C070_PROOF_STOP_SYNC_V1",
+  "status": "PREPARED_NOT_YET_SOURCE_VERIFIED",
+  "repository": "https://github.com/lixiang90/RH-Weil",
+  "branch": "main",
+  "previous_verified_head": "f6f7001ed5a3c4e3cdb0030457379a45dc325955",
+  "scope": "ActualC070ONEproofattempt3cuts+ROOT+independentreview rootconsumed; stoppedUNRESOLVED/oldstrongerLOC+standardconditional-supportonly,0newmath/no607/noactualratio. SAMEactiveGoal1793085111/3gatesOPEN/bottleneckunchanged; cadenceRAW0history70latest606formal22/library145manifestRAW. No newexternal/PDF/source/numeric/code/variant.",
+  "metadata_child_exact_paths": [
+    "goals/STATE.json",
+    "goals/checkpoints/2026-11-01-c070-proof-stop-sync.json",
+    "reviews/2026-11-01/joint-hermite-commutator-three-test/remote-sync-verification.json"
+  ],
+  "condition": "OneverifiedSOURCE thenoneexact3soleSOURCEmetadatachild; actualFINAL/APIref/commit/tree/local/soleparent/exact3/clean/checkpoint/bindings required. NoownSHAloop.",
+  "public_bindings_count": 41,
+  "local_only_bindings_count": 10,
+  "unchanged_scientific_code_pins": 9
+}

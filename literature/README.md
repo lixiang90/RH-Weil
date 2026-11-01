@@ -1,5 +1,8 @@
 # RH-Weil 文献索引
 
+2026-11-01，C070实际proof attempt停止未决：[使用范围](supplements/2026-11-01-c070-proof-attempt-scope.md)。三个数学稿/ROOT/独立终审实际执行，强旧C059 FULL movingLOC已恢复；o(j)弱于既有O(j^3/5)推论，不记新数学轮。仅重读自有旧证明/消费，无新外部全文/PDF/web/source；库145与manifest原字节保持。实际anchor/ratio仍OPEN，C070预算spent/no607，无自动来源或参数后继。
+
+
 2026-11-01，实际有限Hermite交换子源族形成/严格准入：[使用范围](supplements/2026-11-01-joint-hermite-commutator-admission-scope.md)。仅复用560/591/603/594与自有scope记录，无新PDF/web/primary/章节；库145和manifest原字节保持。C070 ready只授固定X=e^j,N=j²的三源必要门，证明/test未执行；0数学/无新经典净后果，不把新PSD定义记成数学结果。
 
 

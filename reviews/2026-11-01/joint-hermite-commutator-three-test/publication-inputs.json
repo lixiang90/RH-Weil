@@ -1,0 +1,324 @@
+{
+  "schema": "RH_WEIL_C070_PROOF_STOP_PUBLICATION_V1",
+  "runtimeGoalCreatedAt": 1793085111,
+  "publicBindings": [
+    {
+      "path": ".gitattributes",
+      "bytes": 10852,
+      "sha256": "36f3e66bfa2cc0ac6c15c8491b8cfbf69c7f97fc6f27936c130a79bba48555db"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 4053,
+      "sha256": "759178cc17edb0f4c5417b485759f491373447897d0828c3ca78f06939266650"
+    },
+    {
+      "path": "RESEARCH_BRANCHES.md",
+      "bytes": 313534,
+      "sha256": "cc66df8884dfa72aa618ce9e6636d6f835439a51a6757e1232c452df51d29f50"
+    },
+    {
+      "path": "goals/DECISIONS.md",
+      "bytes": 394393,
+      "sha256": "442a1d7a106bae14c187d36fafbcc9da59c4325ef3bc99d7b6c028d8df297a22"
+    },
+    {
+      "path": "goals/GOAL.20261027.md",
+      "bytes": 9679,
+      "sha256": "b3d2acb1f962d793f45d79b6a4e67fb87dd072cd4752108a9298204b4cefa1de"
+    },
+    {
+      "path": "goals/MACRO_FRONTIER.md",
+      "bytes": 140625,
+      "sha256": "37dd2aa18a055b113a70e65b80d3a3e2a18eb381c3cc4000379e9e0550a63003"
+    },
+    {
+      "path": "goals/README.md",
+      "bytes": 104795,
+      "sha256": "fd9c8c1a91fc76c9dc00d2479ba00a1e871636a13531359fb4bbf3331139c6a5"
+    },
+    {
+      "path": "goals/RESEARCH_WORKFLOW.md",
+      "bytes": 10509,
+      "sha256": "567b238a62872505f9b29688cf4320fafb7f20b67a650c6cd7711ad56ddf95c1"
+    },
+    {
+      "path": "goals/contracts/C070-joint-hermite-commutator-three-test.md",
+      "bytes": 5228,
+      "sha256": "18882f7cfeb252382707e3a69baeee020dc2984289c6614aaca176c115e1e336"
+    },
+    {
+      "path": "goals/review-cadence.json",
+      "bytes": 6938,
+      "sha256": "74968571c8d0c6a51662ac37602ac241c1a84add09938b1b6c27bdaa697adfb0"
+    },
+    {
+      "path": "goals/reviews/2026-11-01-general-rh-macro-review-cycle-22.md",
+      "bytes": 6690,
+      "sha256": "5e898336014ade5bfedbea9249d376a3c0ee5ca160c58bca39ab8b1e13598fc9"
+    },
+    {
+      "path": "goals/reviews/2026-11-01-joint-hermite-commutator-unresolved-stop.md",
+      "bytes": 3110,
+      "sha256": "4e27d4dd96e5776d566a467a8f6bb4ec5e4984d472a3b664e5a81c49507022d7"
+    },
+    {
+      "path": "literature/README.md",
+      "bytes": 155541,
+      "sha256": "31b3ef05be48ba8a444e7aeaa3ad6cfc2dcf20d1faf02af1016afb4ab74191c5"
+    },
+    {
+      "path": "literature/manifest.json",
+      "bytes": 227992,
+      "sha256": "aa4f95b0ca75cdb27d891b5ac66d18336ecc2e6c607c0f6dcb5a88637cbe21e7"
+    },
+    {
+      "path": "literature/supplements/2026-11-01-c070-proof-attempt-scope.md",
+      "bytes": 1173,
+      "sha256": "eede458ca6457de2f12af127604ee4f87d341156810541c1546ca7923302f8e0"
+    },
+    {
+      "path": "notes/560-joint-finite-place-sonin-primepower-cancellation-and-compact-weil-bridge.md",
+      "bytes": 9263,
+      "sha256": "9c2e6cd5a9eae269ad04b332699c21eec7403a230f9557afa8b895c45d4228d3"
+    },
+    {
+      "path": "notes/591-connected-occupation-covariance-three-fixed-test-barrier.md",
+      "bytes": 5974,
+      "sha256": "5a6d6e221369a1a9bce668d56c9fe574aeca0a295fdb7d0ccd31e4fcd03eaa7c"
+    },
+    {
+      "path": "notes/603-two-cutoff-sonin-leakage-phase-misalignment.md",
+      "bytes": 5519,
+      "sha256": "abc0d5ebfa2be3916b9bcad042ac97cfc2bff7fd136c8055fae9aa8ef764853c"
+    },
+    {
+      "path": "reviews/2026-10-29/connected-variance-three-test-proof/actual-gevery-tail-and-premise-closure.md",
+      "bytes": 11649,
+      "sha256": "dfe9e617fa984bdcca1c0d0aa83906092339d18a2b25bfdbd8005c8274afedee"
+    },
+    {
+      "path": "reviews/2026-10-29/critical-prime-covariance-proof/localization-and-rate-proof.md",
+      "bytes": 14467,
+      "sha256": "3a5c61a0aacdd6aa7815387e666939d086d0f4da01d939d9df7b52b5d1a2bf36"
+    },
+    {
+      "path": "reviews/2026-10-29/critical-prime-covariance-proof/root-consumption-scope.json",
+      "bytes": 12083,
+      "sha256": "80d5ec2ddc9d6e134640e581cbd8123d723f252708f163678b3d0daac9bb3f63"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/finite-independent-inputs.py",
+      "bytes": 8400,
+      "sha256": "05bb27e4fb457aa29d7cae57115260dc4ca716d4899f1019feea274876cf5a97"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/finite-whole-consumer.py",
+      "bytes": 47909,
+      "sha256": "6919ea1306ba9539520851634f0fa68980499a479bd529e73cf4b36a5116ab17"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/independent-finite-checker.py",
+      "bytes": 36234,
+      "sha256": "4cdbc6fcb9ae52cf1766ddbd71bf5e7f579a91f7d331939779448c9075539602"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/observe-global-once.py",
+      "bytes": 44215,
+      "sha256": "88d54d68d5119aff6eacc6581a3de56d53f9121ffacc3a6c17e7f87df8c4637d"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/runtime-protocol.md",
+      "bytes": 8747,
+      "sha256": "fe70954d6716290bc5b8421fa236d775aefb99e3f3819d777ec72e9ca89c7161"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/source-model.py",
+      "bytes": 27057,
+      "sha256": "89bb4eb23264b6f7d1bd56459e2d7825b94ec5a02e5ff7c36e6cc0bfa1237975"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/source-stage-controller.py",
+      "bytes": 36959,
+      "sha256": "0188ebfe2a0565bcfa53687a82b4dad068b57aae4413d3ff2aed18f8e7a7c9d9"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/verify-finite-augmented.py",
+      "bytes": 8210,
+      "sha256": "3ef31ca2255ed7a0aa4bc17cac979d49f93c95e43fb3ca18c8a67bd95f0ba6f9"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/verify-source-model.py",
+      "bytes": 26778,
+      "sha256": "2b1c1de335e2412c2f6e1cec7a219f3bd496561df6f4d134a5c87ea42a7603db"
+    },
+    {
+      "path": "reviews/2026-11-01/joint-hermite-commutator-three-test/README.md",
+      "bytes": 1375,
+      "sha256": "07b44e74d69fb47a41523fab5f64d35b4d9f443f543080e4485c52438db2cb48"
+    },
+    {
+      "path": "reviews/2026-11-01/joint-hermite-commutator-three-test/cofinal-anchor-and-relative-remainder.md",
+      "bytes": 10905,
+      "sha256": "8256b79d4eea9c6aac2e9b7bec8f0ff985a9921c2aa93ab191405ebf363357a5"
+    },
+    {
+      "path": "reviews/2026-11-01/joint-hermite-commutator-three-test/execution-start.json",
+      "bytes": 773,
+      "sha256": "d7b6375656465f7ec89dc801bd60d53c2997bbe0586018045550d8376334c074"
+    },
+    {
+      "path": "reviews/2026-11-01/joint-hermite-commutator-three-test/finite-column-and-coherent-cutoff.md",
+      "bytes": 9800,
+      "sha256": "c5f2c5c76fcd27d0aeb6e5cf767ca0f7e2bc2c19b841490ee18ab36c20dc5e95"
+    },
+    {
+      "path": "reviews/2026-11-01/joint-hermite-commutator-three-test/fresh-joint-cutoff-math-review.md",
+      "bytes": 14376,
+      "sha256": "180350a62be349f8e2ef7a73a941da9e9a57b6c93049da6588f0434b19849e20"
+    },
+    {
+      "path": "reviews/2026-11-01/joint-hermite-commutator-three-test/independent-three-ratio-analysis.md",
+      "bytes": 12230,
+      "sha256": "49a1b8e5f9db4eaadee7d6f9b3c81b70aef6540e1c5d6d630d104ac4b2270da6"
+    },
+    {
+      "path": "reviews/2026-11-01/joint-hermite-commutator-three-test/root-consumption.json",
+      "bytes": 8373,
+      "sha256": "cb9ef5350dddcaf9828682ed3c23f2b3bca596729f1edd1541500b102628c4ea"
+    },
+    {
+      "path": "reviews/2026-11-01/joint-hermite-commutator-three-test/root-relative-comparison-attempt.md",
+      "bytes": 3863,
+      "sha256": "9bc0c41870f8e674bff4326cdb52916d8c6ad40e12438d3b93cd63ce3134ae8e"
+    },
+    {
+      "path": "reviews/2026-11-01/joint-hermite-commutator-three-test/stronger-old-loc-and-consumption-limits.md",
+      "bytes": 4506,
+      "sha256": "8ee27f589d2872bdf69826dd2b4cb23d1d4a5fe634c4489c109453e424f4f262"
+    },
+    {
+      "path": "reviews/2026-11-01/sonin-commutator-input-formation/actual-family-and-three-test-spec.md",
+      "bytes": 5531,
+      "sha256": "ca012bc6b572be2a767bcd924cf20d0b40e788f733f50e8c6e7bfe6d050130ba"
+    },
+    {
+      "path": "reviews/2026-11-01/sonin-commutator-input-formation/publication-inputs.json",
+      "bytes": 11769,
+      "sha256": "33431f9359e74e38876061bb9f09039d434d501019b4d9684ec8fc66ba51332c"
+    }
+  ],
+  "localOnlyBindings": [
+    {
+      "bytes": 734638,
+      "path": "literature/local/2026-10-29-weil-9-8/pilot/run-01/certificates/moments.json",
+      "sha256": "2d166f7ae457fd61826329d31365564e25f1cfc6bc19d09aef22d2ec89c6bbd9"
+    },
+    {
+      "bytes": 23377672,
+      "path": "literature/local/2026-10-29-weil-9-8/pilot/run-01/certificates/source-matrices.json",
+      "sha256": "a5486fea38c3c8f91dcf4bb77c7677e734efe2ac9cbf59ddabc4674739fdb2f2"
+    },
+    {
+      "bytes": 73598411,
+      "path": "literature/local/2026-10-31-retained-tail-source/run-01/finite-columns.jsonl",
+      "sha256": "d841d307d2b22367570e594c1bc9e3b64c8a4ffef88691382acf5d6fbeeaf080"
+    },
+    {
+      "bytes": 233458,
+      "path": "literature/local/2026-10-31-retained-tail-source/run-01/h-columns.jsonl",
+      "sha256": "37f2c0410beb1b1c43b9f8d2df24d72fce3170b5f359d089c198742f1eee4e74"
+    },
+    {
+      "path": "literature/local/2026-11-01-directional-remainder-whole-observer/run-01/source-produce/claim.json",
+      "bytes": 522,
+      "sha256": "f8ef017195dd9fbf23ce10634115237095d149b19a32b601f72d45848759167f"
+    },
+    {
+      "path": "literature/local/2026-11-01-directional-remainder-whole-observer/run-01/source-produce/ready.json",
+      "bytes": 2655,
+      "sha256": "1d727544b9a2b68545b1a61b31305275919738a10a73664d32bdce34309de646"
+    },
+    {
+      "path": "literature/local/2026-11-01-directional-remainder-whole-observer/run-01/source-produce/terminal.json",
+      "bytes": 1014,
+      "sha256": "f44ee2ae473cef9422bda261ad446a50ff2981f250139af0313bdddabccdc6a2"
+    },
+    {
+      "path": "literature/local/2026-11-01-directional-remainder-whole-observer/run-01/source-produce/root-observed.json",
+      "bytes": 9648,
+      "sha256": "4f192af873370c20905e2e91ac3470c6c07c5bb8d1752e70a900dccc1f205342"
+    },
+    {
+      "path": "literature/local/2026-11-01-formal-analytic-source/bost-charles-2206.14242v2.pdf",
+      "bytes": 1907786,
+      "sha256": "fc8eef2982b7e4fbcb14e7a175671afaef0802ad358ba5ce1169a80cab5d2480"
+    },
+    {
+      "path": "literature/local/2026-11-01-native-bc-witt-source/connes-consani-emss64.pdf",
+      "bytes": 3328150,
+      "sha256": "72a0bb1785f593cb447435812278379db471ce4b17944ed02fb85a2011465d60"
+    }
+  ],
+  "unchangedOldScientificCodePins": [
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/source-model.py",
+      "bytes": 27057,
+      "sha256": "89bb4eb23264b6f7d1bd56459e2d7825b94ec5a02e5ff7c36e6cc0bfa1237975"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/verify-source-model.py",
+      "bytes": 26778,
+      "sha256": "2b1c1de335e2412c2f6e1cec7a219f3bd496561df6f4d134a5c87ea42a7603db"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/source-stage-controller.py",
+      "bytes": 36959,
+      "sha256": "0188ebfe2a0565bcfa53687a82b4dad068b57aae4413d3ff2aed18f8e7a7c9d9"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/finite-whole-consumer.py",
+      "bytes": 47909,
+      "sha256": "6919ea1306ba9539520851634f0fa68980499a479bd529e73cf4b36a5116ab17"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/independent-finite-checker.py",
+      "bytes": 36234,
+      "sha256": "4cdbc6fcb9ae52cf1766ddbd71bf5e7f579a91f7d331939779448c9075539602"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/verify-finite-augmented.py",
+      "bytes": 8210,
+      "sha256": "3ef31ca2255ed7a0aa4bc17cac979d49f93c95e43fb3ca18c8a67bd95f0ba6f9"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/finite-independent-inputs.py",
+      "bytes": 8400,
+      "sha256": "05bb27e4fb457aa29d7cae57115260dc4ca716d4899f1019feea274876cf5a97"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/observe-global-once.py",
+      "bytes": 44215,
+      "sha256": "88d54d68d5119aff6eacc6581a3de56d53f9121ffacc3a6c17e7f87df8c4637d"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/runtime-protocol.md",
+      "bytes": 8747,
+      "sha256": "fe70954d6716290bc5b8421fa236d775aefb99e3f3819d777ec72e9ca89c7161"
+    }
+  ],
+  "excludedMutable": [
+    "goals/STATE.json",
+    "reviews/2026-11-01/joint-hermite-commutator-three-test/publication-inputs.json",
+    "reviews/2026-11-01/joint-hermite-commutator-three-test/remote-sync-verification.json",
+    "goals/checkpoints/2026-11-01-c070-proof-stop-source.json",
+    "goals/checkpoints/2026-11-01-c070-proof-stop-sync.json",
+    "goals/checkpoints/2026-11-01-c070-proof-stop-source-settled.json"
+  ],
+  "cadence": "0/history70/latest606/formal22 RAWunchanged",
+  "libraryBefore": 145,
+  "libraryAfter": 145,
+  "libraryManifestRawUnchangedFrom": "f6f7001ed5a3c4e3cdb0030457379a45dc325955",
+  "C070ContractRawUnchangedFrom": "f6f7001ed5a3c4e3cdb0030457379a45dc325955",
+  "scope": "ActualC070ONEproofattempt3cuts+ROOT+independentreview rootconsumed; stoppedUNRESOLVED/oldstrongerLOC+standardconditional-supportonly,0newmath/no607/noactualratio. SAMEactiveGoal1793085111/3gatesOPEN/bottleneckunchanged; cadenceRAW0history70latest606formal22/library145manifestRAW. No newexternal/PDF/source/numeric/code/variant."
+}
