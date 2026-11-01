@@ -1,5 +1,8 @@
 # RH-Weil 文献索引
 
+2026-11-01，固定native C2前商提案NONE：[本轮使用范围](supplements/2026-11-01-native-c2-proposal-scope.md)。仅复用已消费§3自有审读，无新PDF/页面/章节/web/source；库145与manifest原字节保持。本提案未形成physical/core比较，无新证明/数学轮/经典净后果；不续pair、公式或来源。
+
+
 2026-11-01，CC native BC/Witt来源门已审：库145只更新既有145th entry，实际官方PDF29页/3328150bytes/SHA72a0…d60本地保存，原字节不改；[使用范围](supplements/2026-11-01-native-bc-witt-source-scope.md)记录§3实际阅读、相邻曝光与cited/unital/enriched限制。native tau/F/V真实，经典physical/principal/mixed入口SOURCE0；无新数学/关键瓶颈变化，不续章节/引用/检索。旧下列UNREVIEWED文字为历史。
 
 

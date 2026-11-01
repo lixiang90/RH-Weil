@@ -1,0 +1,292 @@
+{
+  "schema": "RH_WEIL_NATIVE_C2_NONE_PUBLICATION_V1",
+  "runtimeGoalCreatedAt": 1793085111,
+  "publicBindings": [
+    {
+      "path": ".gitattributes",
+      "bytes": 10557,
+      "sha256": "365a0a4a7a4bc494184314344032dbb460501b2adeb4b5b564a3ef6700d53800"
+    },
+    {
+      "path": "RESEARCH_BRANCHES.md",
+      "bytes": 310647,
+      "sha256": "f42b1519d48be892751e0aa6d8bde64e8a6126d12b7f8808ad72f09d8784c738"
+    },
+    {
+      "path": "goals/DECISIONS.md",
+      "bytes": 388266,
+      "sha256": "0d2f85af85fb538bb80fd9015e6e696d502efd5cdbb6c2ebd0a0de6927cf29c3"
+    },
+    {
+      "path": "goals/GOAL.20261027.md",
+      "bytes": 9679,
+      "sha256": "b3d2acb1f962d793f45d79b6a4e67fb87dd072cd4752108a9298204b4cefa1de"
+    },
+    {
+      "path": "goals/MACRO_FRONTIER.md",
+      "bytes": 137756,
+      "sha256": "6f2f88e7767d4c47e7f7a82c96e20be2f6b187afed73f00720821e02805830a8"
+    },
+    {
+      "path": "goals/README.md",
+      "bytes": 101926,
+      "sha256": "fc0c51643b968ccace4f7666fd38ff4791e29d823f1378148461f18515f561cb"
+    },
+    {
+      "path": "goals/review-cadence.json",
+      "bytes": 6938,
+      "sha256": "74968571c8d0c6a51662ac37602ac241c1a84add09938b1b6c27bdaa697adfb0"
+    },
+    {
+      "path": "goals/reviews/2026-11-01-native-c2-proposal-none.md",
+      "bytes": 3067,
+      "sha256": "497bb2418758dcd0230b3bb35aa10cf94719fa46ef9dd233618834d643f37041"
+    },
+    {
+      "path": "literature/README.md",
+      "bytes": 154228,
+      "sha256": "2b0a0a70a42b00ee8086d4e66337b94a4c39d105e68edbc5a2b4db78440d9f15"
+    },
+    {
+      "path": "literature/manifest.json",
+      "bytes": 227992,
+      "sha256": "aa4f95b0ca75cdb27d891b5ac66d18336ecc2e6c607c0f6dcb5a88637cbe21e7"
+    },
+    {
+      "path": "literature/supplements/2026-11-01-native-c2-proposal-scope.md",
+      "bytes": 917,
+      "sha256": "4cfca06f6980850566430c29c9eafca27f4cb5aa73dbd1219ded460596415edf"
+    },
+    {
+      "path": "notes/405-f1-adelic-restriction-moments-and-radical.md",
+      "bytes": 14633,
+      "sha256": "fe5ee4b574954e51a69c6bbbaa772bb75a1a510c91c837ba02eed8ac406cbb7d"
+    },
+    {
+      "path": "notes/560-joint-finite-place-sonin-primepower-cancellation-and-compact-weil-bridge.md",
+      "bytes": 9263,
+      "sha256": "9c2e6cd5a9eae269ad04b332699c21eec7403a230f9557afa8b895c45d4228d3"
+    },
+    {
+      "path": "notes/574-actual-adelic-cover-relative-picard-and-source-transport.md",
+      "bytes": 11880,
+      "sha256": "b97aa1619f559e22041f5f46404a5ab09e598722e16287059e8691c555eee45d"
+    },
+    {
+      "path": "notes/577-full-gamma-positive-repairs-and-independent-budget-gap.md",
+      "bytes": 13925,
+      "sha256": "cf80354ab3bb3c7ca2a2bae7e2aa4083adc47d01da5c984146fb285d7551f55f"
+    },
+    {
+      "path": "notes/578-prime-pole-signed-budget-and-selberg-control-gap.md",
+      "bytes": 11814,
+      "sha256": "d600adfc0fa857623f585af2ec809840296659b737afbcf5cb745eba740e0901"
+    },
+    {
+      "path": "notes/602-whole-window-sonin-onebody-return-budget.md",
+      "bytes": 4966,
+      "sha256": "09daf7df96092e17a80ded1d5b645715a07608e6f0e0410918209d5f5690a739"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/finite-independent-inputs.py",
+      "bytes": 8400,
+      "sha256": "05bb27e4fb457aa29d7cae57115260dc4ca716d4899f1019feea274876cf5a97"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/finite-whole-consumer.py",
+      "bytes": 47909,
+      "sha256": "6919ea1306ba9539520851634f0fa68980499a479bd529e73cf4b36a5116ab17"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/independent-finite-checker.py",
+      "bytes": 36234,
+      "sha256": "4cdbc6fcb9ae52cf1766ddbd71bf5e7f579a91f7d331939779448c9075539602"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/observe-global-once.py",
+      "bytes": 44215,
+      "sha256": "88d54d68d5119aff6eacc6581a3de56d53f9121ffacc3a6c17e7f87df8c4637d"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/runtime-protocol.md",
+      "bytes": 8747,
+      "sha256": "fe70954d6716290bc5b8421fa236d775aefb99e3f3819d777ec72e9ca89c7161"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/source-model.py",
+      "bytes": 27057,
+      "sha256": "89bb4eb23264b6f7d1bd56459e2d7825b94ec5a02e5ff7c36e6cc0bfa1237975"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/source-stage-controller.py",
+      "bytes": 36959,
+      "sha256": "0188ebfe2a0565bcfa53687a82b4dad068b57aae4413d3ff2aed18f8e7a7c9d9"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/verify-finite-augmented.py",
+      "bytes": 8210,
+      "sha256": "3ef31ca2255ed7a0aa4bc17cac979d49f93c95e43fb3ca18c8a67bd95f0ba6f9"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/verify-source-model.py",
+      "bytes": 26778,
+      "sha256": "2b1c1de335e2412c2f6e1cec7a219f3bd496561df6f4d134a5c87ea42a7603db"
+    },
+    {
+      "path": "reviews/2026-11-01/native-bc-witt-proposal/README.md",
+      "bytes": 1033,
+      "sha256": "55b59588741d16e7b5d0b2801db257a10037642755f9081154a9fa3a4cf34377"
+    },
+    {
+      "path": "reviews/2026-11-01/native-bc-witt-proposal/execution-start.json",
+      "bytes": 757,
+      "sha256": "2e063f699c62c541abaa58842236a1c2ef4fab2d41be21063ab420cbea9e9a1a"
+    },
+    {
+      "path": "reviews/2026-11-01/native-bc-witt-proposal/input-proposal.md",
+      "bytes": 5874,
+      "sha256": "779dc3a01b4936cbf9b18d513df38ebc2bacc8173ad0bd87bb198693e8d2e63f"
+    },
+    {
+      "path": "reviews/2026-11-01/native-bc-witt-proposal/post-source-chain-causal-audit.md",
+      "bytes": 1871,
+      "sha256": "8a9dcde26516a1afef34d616d2792cfceccd083c8f943bc17bfbb25d961140c8"
+    },
+    {
+      "path": "reviews/2026-11-01/native-bc-witt-proposal/root-consumption.json",
+      "bytes": 5097,
+      "sha256": "ed27b1e12ac54d4af66552fd108c99ab5c2170b89b184e4b746d021c18ecc204"
+    },
+    {
+      "path": "reviews/2026-11-01/native-bc-witt-source/next-input-proposal-admission.md",
+      "bytes": 2648,
+      "sha256": "4625606629e63263181ba812d4754372329819c594791fa0ef000026392fc21f"
+    },
+    {
+      "path": "reviews/2026-11-01/native-bc-witt-source/publication-inputs.json",
+      "bytes": 15042,
+      "sha256": "2f4fc38f7eaf01d0f4bf09f5a042799abf067b8cbff8e919c0899d80144e30da"
+    },
+    {
+      "path": "reviews/2026-11-01/native-bc-witt-source/root-consumption.json",
+      "bytes": 9458,
+      "sha256": "f420cf3128973f5c269662d029daacda5ddc96ff68cca8393788b7195d51def0"
+    },
+    {
+      "path": "reviews/2026-11-01/native-bc-witt-source/root-native-consumption-limits.md",
+      "bytes": 3804,
+      "sha256": "02d85beda799338dcda0f36a096516bfb4f259da8e7326b320f73a0ca2153709"
+    }
+  ],
+  "localOnlyBindings": [
+    {
+      "bytes": 734638,
+      "path": "literature/local/2026-10-29-weil-9-8/pilot/run-01/certificates/moments.json",
+      "sha256": "2d166f7ae457fd61826329d31365564e25f1cfc6bc19d09aef22d2ec89c6bbd9"
+    },
+    {
+      "bytes": 23377672,
+      "path": "literature/local/2026-10-29-weil-9-8/pilot/run-01/certificates/source-matrices.json",
+      "sha256": "a5486fea38c3c8f91dcf4bb77c7677e734efe2ac9cbf59ddabc4674739fdb2f2"
+    },
+    {
+      "bytes": 73598411,
+      "path": "literature/local/2026-10-31-retained-tail-source/run-01/finite-columns.jsonl",
+      "sha256": "d841d307d2b22367570e594c1bc9e3b64c8a4ffef88691382acf5d6fbeeaf080"
+    },
+    {
+      "bytes": 233458,
+      "path": "literature/local/2026-10-31-retained-tail-source/run-01/h-columns.jsonl",
+      "sha256": "37f2c0410beb1b1c43b9f8d2df24d72fce3170b5f359d089c198742f1eee4e74"
+    },
+    {
+      "path": "literature/local/2026-11-01-directional-remainder-whole-observer/run-01/source-produce/claim.json",
+      "bytes": 522,
+      "sha256": "f8ef017195dd9fbf23ce10634115237095d149b19a32b601f72d45848759167f"
+    },
+    {
+      "path": "literature/local/2026-11-01-directional-remainder-whole-observer/run-01/source-produce/ready.json",
+      "bytes": 2655,
+      "sha256": "1d727544b9a2b68545b1a61b31305275919738a10a73664d32bdce34309de646"
+    },
+    {
+      "path": "literature/local/2026-11-01-directional-remainder-whole-observer/run-01/source-produce/terminal.json",
+      "bytes": 1014,
+      "sha256": "f44ee2ae473cef9422bda261ad446a50ff2981f250139af0313bdddabccdc6a2"
+    },
+    {
+      "path": "literature/local/2026-11-01-directional-remainder-whole-observer/run-01/source-produce/root-observed.json",
+      "bytes": 9648,
+      "sha256": "4f192af873370c20905e2e91ac3470c6c07c5bb8d1752e70a900dccc1f205342"
+    },
+    {
+      "path": "literature/local/2026-11-01-formal-analytic-source/bost-charles-2206.14242v2.pdf",
+      "bytes": 1907786,
+      "sha256": "fc8eef2982b7e4fbcb14e7a175671afaef0802ad358ba5ce1169a80cab5d2480"
+    },
+    {
+      "path": "literature/local/2026-11-01-native-bc-witt-source/connes-consani-emss64.pdf",
+      "bytes": 3328150,
+      "sha256": "72a0bb1785f593cb447435812278379db471ce4b17944ed02fb85a2011465d60"
+    }
+  ],
+  "unchangedOldScientificCodePins": [
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/source-model.py",
+      "bytes": 27057,
+      "sha256": "89bb4eb23264b6f7d1bd56459e2d7825b94ec5a02e5ff7c36e6cc0bfa1237975"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/verify-source-model.py",
+      "bytes": 26778,
+      "sha256": "2b1c1de335e2412c2f6e1cec7a219f3bd496561df6f4d134a5c87ea42a7603db"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/source-stage-controller.py",
+      "bytes": 36959,
+      "sha256": "0188ebfe2a0565bcfa53687a82b4dad068b57aae4413d3ff2aed18f8e7a7c9d9"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/finite-whole-consumer.py",
+      "bytes": 47909,
+      "sha256": "6919ea1306ba9539520851634f0fa68980499a479bd529e73cf4b36a5116ab17"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/independent-finite-checker.py",
+      "bytes": 36234,
+      "sha256": "4cdbc6fcb9ae52cf1766ddbd71bf5e7f579a91f7d331939779448c9075539602"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/verify-finite-augmented.py",
+      "bytes": 8210,
+      "sha256": "3ef31ca2255ed7a0aa4bc17cac979d49f93c95e43fb3ca18c8a67bd95f0ba6f9"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/finite-independent-inputs.py",
+      "bytes": 8400,
+      "sha256": "05bb27e4fb457aa29d7cae57115260dc4ca716d4899f1019feea274876cf5a97"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/observe-global-once.py",
+      "bytes": 44215,
+      "sha256": "88d54d68d5119aff6eacc6581a3de56d53f9121ffacc3a6c17e7f87df8c4637d"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/runtime-protocol.md",
+      "bytes": 8747,
+      "sha256": "fe70954d6716290bc5b8421fa236d775aefb99e3f3819d777ec72e9ca89c7161"
+    }
+  ],
+  "excludedMutable": [
+    "goals/STATE.json",
+    "reviews/2026-11-01/native-bc-witt-proposal/publication-inputs.json",
+    "reviews/2026-11-01/native-bc-witt-proposal/remote-sync-verification.json",
+    "goals/checkpoints/2026-11-01-native-c2-proposal-source.json",
+    "goals/checkpoints/2026-11-01-native-c2-proposal-sync.json"
+  ],
+  "cadence": "0/history70/latest606/formal22 RAWunchanged",
+  "libraryBefore": 145,
+  "libraryAfter": 145,
+  "libraryManifestRawUnchangedFrom": "3fe6398a253dc1db3ad2937e3dd395e20cc74129",
+  "scope": "ActualONEfixedC2prequotient proposal5874 ROOTconsumedNONE/STOP; noactualphysicalcoremap/test/newnet/math. Nativefinitechecks preserved; Goal/cadence/library145manifestRAWunchanged. NextcausalJ-QauditUNEXECUTED/no successor math/source/formulaadmitted."
+}
