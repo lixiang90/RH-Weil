@@ -1,5 +1,8 @@
 # RH-Weil 文献索引
 
+2026-11-01，J–Q来源链因果审计完成，当前core准入NONE：[使用范围](supplements/2026-11-01-source-chain-causal-audit-scope.md)。只核既有自有ROOT/澄清/强旧链，无新PDF/web/primary/章节；库145与manifest原字节保持。BC72/global mixed与nativeBC设施保真实范围；旧relativeGreen二阶导记号消费限定纠正，不重证或扩大方法边界。0数学，无自动来源/公式/候选后继。
+
+
 2026-11-01，固定native C2前商提案NONE：[本轮使用范围](supplements/2026-11-01-native-c2-proposal-scope.md)。仅复用已消费§3自有审读，无新PDF/页面/章节/web/source；库145与manifest原字节保持。本提案未形成physical/core比较，无新证明/数学轮/经典净后果；不续pair、公式或来源。
 
 

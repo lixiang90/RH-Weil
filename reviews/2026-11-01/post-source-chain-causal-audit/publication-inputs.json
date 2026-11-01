@@ -1,0 +1,327 @@
+{
+  "schema": "RH_WEIL_SOURCE_CHAIN_CAUSAL_PUBLICATION_V1",
+  "runtimeGoalCreatedAt": 1793085111,
+  "publicBindings": [
+    {
+      "path": ".gitattributes",
+      "bytes": 10653,
+      "sha256": "b954e21cbf0654a5304752f4190a4c5289ff709e8f6d9d512c98c1d249b72bc9"
+    },
+    {
+      "path": "RESEARCH_BRANCHES.md",
+      "bytes": 311607,
+      "sha256": "00563de63f2d24c1a81ca13e9ddff8080a78f2692f568a6f0d6c726913f84adc"
+    },
+    {
+      "path": "goals/DECISIONS.md",
+      "bytes": 390376,
+      "sha256": "3e457262bfd6e058c0b814bdc807fa40f3508227ac0b0fa8bfdaff158c9f197b"
+    },
+    {
+      "path": "goals/GOAL.20261027.md",
+      "bytes": 9679,
+      "sha256": "b3d2acb1f962d793f45d79b6a4e67fb87dd072cd4752108a9298204b4cefa1de"
+    },
+    {
+      "path": "goals/MACRO_FRONTIER.md",
+      "bytes": 138710,
+      "sha256": "b131a01a9fa45776d5c62531778abdd60bdbae2e122279fcbbe055849e025231"
+    },
+    {
+      "path": "goals/README.md",
+      "bytes": 102880,
+      "sha256": "9347a596440c753d599ae39ed93d1ec49122b6f5c1c9ee6c2c1df8dd7d96c8bf"
+    },
+    {
+      "path": "goals/review-cadence.json",
+      "bytes": 6938,
+      "sha256": "74968571c8d0c6a51662ac37602ac241c1a84add09938b1b6c27bdaa697adfb0"
+    },
+    {
+      "path": "goals/reviews/2026-11-01-source-chain-causal-admission-none.md",
+      "bytes": 2669,
+      "sha256": "3860c582ff3183528e108cada55435880ec55ec300e3d496d7eac5114e2cbd35"
+    },
+    {
+      "path": "literature/README.md",
+      "bytes": 154671,
+      "sha256": "60ba2c1a05e07da2a12b222c2dee3d97a46ac2ca47573f05b57aff576442988a"
+    },
+    {
+      "path": "literature/manifest.json",
+      "bytes": 227992,
+      "sha256": "aa4f95b0ca75cdb27d891b5ac66d18336ecc2e6c607c0f6dcb5a88637cbe21e7"
+    },
+    {
+      "path": "literature/supplements/2026-11-01-source-chain-causal-audit-scope.md",
+      "bytes": 1158,
+      "sha256": "53eeffa8d50dbd3e515a7f2aeace01102b9b0649503a7a5fe7a9065029fdd643"
+    },
+    {
+      "path": "notes/537-source-exact-weil-window-positive-tail-admission.md",
+      "bytes": 8155,
+      "sha256": "269a500556d37fc04a4e44efd2f0899414787743e529506dbbe7395a34eea9f8"
+    },
+    {
+      "path": "notes/557-joint-row-norm-and-gamma-arithmetic-moment-budget.md",
+      "bytes": 6491,
+      "sha256": "5abfd13af9c955b27c5a2ea8f01d2555fa05b1df450adbedbcfe20f62d327166"
+    },
+    {
+      "path": "notes/604-retained-tail-fixed448-head-positivity.md",
+      "bytes": 5010,
+      "sha256": "d751ae30ea053482e29d1954109871a66c89f174b7e0875d22acc6d0b335013d"
+    },
+    {
+      "path": "reviews/2026-11-01/core-input-selection/root-consumption.json",
+      "bytes": 6567,
+      "sha256": "64eead65adb8244052f990dddbf5c7c951d366e272f3b0aa1464e9c30f675056"
+    },
+    {
+      "path": "reviews/2026-11-01/core-unitary-phase-admission/root-consumption.json",
+      "bytes": 3076,
+      "sha256": "4cb4c2699cee5ade94b41aee410169bfb8c2056b05c714d219e06e0272f866d8"
+    },
+    {
+      "path": "reviews/2026-11-01/core-unitary-phase-admission/source-role-consumption-clarification.md",
+      "bytes": 1923,
+      "sha256": "e1a2785e62fa0f3c7541ba95d29d5fda32c7413ff414eb5b3f32a74f0b9b5ee6"
+    },
+    {
+      "path": "reviews/2026-11-01/directional-remainder-admission/root-old-upper-consumption.json",
+      "bytes": 11025,
+      "sha256": "3136ce3d0449c8346c82aead3e98c71f9da0a28d691bb2b61ea3d924e638a32d"
+    },
+    {
+      "path": "reviews/2026-11-01/formal-analytic-72-source/literal-consumption-restrictions.md",
+      "bytes": 2183,
+      "sha256": "55ee13364a3c1832ed776ec9381dcef83f666e10b4c526ab8444abeb55ca6b32"
+    },
+    {
+      "path": "reviews/2026-11-01/formal-analytic-72-source/root-consumption.json",
+      "bytes": 3669,
+      "sha256": "55b6c30dee04d8563a97a6a7886b3782a59179dd67e4f58dfdde0f90de6f94c5"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/finite-independent-inputs.py",
+      "bytes": 8400,
+      "sha256": "05bb27e4fb457aa29d7cae57115260dc4ca716d4899f1019feea274876cf5a97"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/finite-whole-consumer.py",
+      "bytes": 47909,
+      "sha256": "6919ea1306ba9539520851634f0fa68980499a479bd529e73cf4b36a5116ab17"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/independent-finite-checker.py",
+      "bytes": 36234,
+      "sha256": "4cdbc6fcb9ae52cf1766ddbd71bf5e7f579a91f7d331939779448c9075539602"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/observe-global-once.py",
+      "bytes": 44215,
+      "sha256": "88d54d68d5119aff6eacc6581a3de56d53f9121ffacc3a6c17e7f87df8c4637d"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/runtime-protocol.md",
+      "bytes": 8747,
+      "sha256": "fe70954d6716290bc5b8421fa236d775aefb99e3f3819d777ec72e9ca89c7161"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/source-model.py",
+      "bytes": 27057,
+      "sha256": "89bb4eb23264b6f7d1bd56459e2d7825b94ec5a02e5ff7c36e6cc0bfa1237975"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/source-stage-controller.py",
+      "bytes": 36959,
+      "sha256": "0188ebfe2a0565bcfa53687a82b4dad068b57aae4413d3ff2aed18f8e7a7c9d9"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/verify-finite-augmented.py",
+      "bytes": 8210,
+      "sha256": "3ef31ca2255ed7a0aa4bc17cac979d49f93c95e43fb3ca18c8a67bd95f0ba6f9"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/verify-source-model.py",
+      "bytes": 26778,
+      "sha256": "2b1c1de335e2412c2f6e1cec7a219f3bd496561df6f4d134a5c87ea42a7603db"
+    },
+    {
+      "path": "reviews/2026-11-01/inert-host-preflight/root-consumption.json",
+      "bytes": 4019,
+      "sha256": "aca0c3b2843fa2dc8662a9fcbe41f33efc3ff8436a359e6e906e2eeaeb09964f"
+    },
+    {
+      "path": "reviews/2026-11-01/native-bc-witt-proposal/post-source-chain-causal-audit.md",
+      "bytes": 1871,
+      "sha256": "8a9dcde26516a1afef34d616d2792cfceccd083c8f943bc17bfbb25d961140c8"
+    },
+    {
+      "path": "reviews/2026-11-01/native-bc-witt-proposal/publication-inputs.json",
+      "bytes": 11750,
+      "sha256": "a60c6cb97dd20d2aafb263a5219b97e7fc62b2ad360357110d02c4e0053a863f"
+    },
+    {
+      "path": "reviews/2026-11-01/native-bc-witt-proposal/root-consumption.json",
+      "bytes": 5097,
+      "sha256": "ed27b1e12ac54d4af66552fd108c99ab5c2170b89b184e4b746d021c18ecc204"
+    },
+    {
+      "path": "reviews/2026-11-01/native-bc-witt-source/root-consumption.json",
+      "bytes": 9458,
+      "sha256": "f420cf3128973f5c269662d029daacda5ddc96ff68cca8393788b7195d51def0"
+    },
+    {
+      "path": "reviews/2026-11-01/post-source-chain-causal-audit/README.md",
+      "bytes": 1156,
+      "sha256": "804770508471e3379fca7504c29deffa120d76661614d95897dc5f91b09ff1c2"
+    },
+    {
+      "path": "reviews/2026-11-01/post-source-chain-causal-audit/execution-start.json",
+      "bytes": 646,
+      "sha256": "daf4043b1eddd43034398554eaa0c361e7cf8414e575c862ed5d9723642b119b"
+    },
+    {
+      "path": "reviews/2026-11-01/post-source-chain-causal-audit/root-audit.md",
+      "bytes": 10685,
+      "sha256": "bf59437965b4ee19b3cc0d8a879d6b45a59dc3c1e1a67afd5bf8bb446b59b44b"
+    },
+    {
+      "path": "reviews/2026-11-01/post-source-chain-causal-audit/root-consumption.json",
+      "bytes": 9514,
+      "sha256": "a4417d0bae2a421be544a84dbb483b2f72a78e515ad477fdeb1328e6777ba224"
+    },
+    {
+      "path": "reviews/2026-11-01/primary-input-discovery/root-consumption.json",
+      "bytes": 6124,
+      "sha256": "4d92ca9666af3f272e4a899272d90ebb4fa218063ba2937e1b384cf477ec9170"
+    },
+    {
+      "path": "reviews/2026-11-01/relative-green-construction-admission/consumption-clarifications.md",
+      "bytes": 3090,
+      "sha256": "e5270aa007e28c98bea938a31fe7015eae7d46b681fb138fd74405104b327214"
+    },
+    {
+      "path": "reviews/2026-11-01/relative-green-construction-admission/root-consumption.json",
+      "bytes": 6092,
+      "sha256": "ac7004f2a7858d66e8155a337356cb0eed1c689f06c9642b243799d9238f1206"
+    },
+    {
+      "path": "reviews/2026-11-01/relative-green-construction-admission/root-minimal-comparison.md",
+      "bytes": 3921,
+      "sha256": "876c92a79b80f79ff8e7b069dd518e9e173def10822274009b94f8840a8131be"
+    }
+  ],
+  "localOnlyBindings": [
+    {
+      "bytes": 734638,
+      "path": "literature/local/2026-10-29-weil-9-8/pilot/run-01/certificates/moments.json",
+      "sha256": "2d166f7ae457fd61826329d31365564e25f1cfc6bc19d09aef22d2ec89c6bbd9"
+    },
+    {
+      "bytes": 23377672,
+      "path": "literature/local/2026-10-29-weil-9-8/pilot/run-01/certificates/source-matrices.json",
+      "sha256": "a5486fea38c3c8f91dcf4bb77c7677e734efe2ac9cbf59ddabc4674739fdb2f2"
+    },
+    {
+      "bytes": 73598411,
+      "path": "literature/local/2026-10-31-retained-tail-source/run-01/finite-columns.jsonl",
+      "sha256": "d841d307d2b22367570e594c1bc9e3b64c8a4ffef88691382acf5d6fbeeaf080"
+    },
+    {
+      "bytes": 233458,
+      "path": "literature/local/2026-10-31-retained-tail-source/run-01/h-columns.jsonl",
+      "sha256": "37f2c0410beb1b1c43b9f8d2df24d72fce3170b5f359d089c198742f1eee4e74"
+    },
+    {
+      "path": "literature/local/2026-11-01-directional-remainder-whole-observer/run-01/source-produce/claim.json",
+      "bytes": 522,
+      "sha256": "f8ef017195dd9fbf23ce10634115237095d149b19a32b601f72d45848759167f"
+    },
+    {
+      "path": "literature/local/2026-11-01-directional-remainder-whole-observer/run-01/source-produce/ready.json",
+      "bytes": 2655,
+      "sha256": "1d727544b9a2b68545b1a61b31305275919738a10a73664d32bdce34309de646"
+    },
+    {
+      "path": "literature/local/2026-11-01-directional-remainder-whole-observer/run-01/source-produce/terminal.json",
+      "bytes": 1014,
+      "sha256": "f44ee2ae473cef9422bda261ad446a50ff2981f250139af0313bdddabccdc6a2"
+    },
+    {
+      "path": "literature/local/2026-11-01-directional-remainder-whole-observer/run-01/source-produce/root-observed.json",
+      "bytes": 9648,
+      "sha256": "4f192af873370c20905e2e91ac3470c6c07c5bb8d1752e70a900dccc1f205342"
+    },
+    {
+      "path": "literature/local/2026-11-01-formal-analytic-source/bost-charles-2206.14242v2.pdf",
+      "bytes": 1907786,
+      "sha256": "fc8eef2982b7e4fbcb14e7a175671afaef0802ad358ba5ce1169a80cab5d2480"
+    },
+    {
+      "path": "literature/local/2026-11-01-native-bc-witt-source/connes-consani-emss64.pdf",
+      "bytes": 3328150,
+      "sha256": "72a0bb1785f593cb447435812278379db471ce4b17944ed02fb85a2011465d60"
+    }
+  ],
+  "unchangedOldScientificCodePins": [
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/source-model.py",
+      "bytes": 27057,
+      "sha256": "89bb4eb23264b6f7d1bd56459e2d7825b94ec5a02e5ff7c36e6cc0bfa1237975"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/verify-source-model.py",
+      "bytes": 26778,
+      "sha256": "2b1c1de335e2412c2f6e1cec7a219f3bd496561df6f4d134a5c87ea42a7603db"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/source-stage-controller.py",
+      "bytes": 36959,
+      "sha256": "0188ebfe2a0565bcfa53687a82b4dad068b57aae4413d3ff2aed18f8e7a7c9d9"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/finite-whole-consumer.py",
+      "bytes": 47909,
+      "sha256": "6919ea1306ba9539520851634f0fa68980499a479bd529e73cf4b36a5116ab17"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/independent-finite-checker.py",
+      "bytes": 36234,
+      "sha256": "4cdbc6fcb9ae52cf1766ddbd71bf5e7f579a91f7d331939779448c9075539602"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/verify-finite-augmented.py",
+      "bytes": 8210,
+      "sha256": "3ef31ca2255ed7a0aa4bc17cac979d49f93c95e43fb3ca18c8a67bd95f0ba6f9"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/finite-independent-inputs.py",
+      "bytes": 8400,
+      "sha256": "05bb27e4fb457aa29d7cae57115260dc4ca716d4899f1019feea274876cf5a97"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/observe-global-once.py",
+      "bytes": 44215,
+      "sha256": "88d54d68d5119aff6eacc6581a3de56d53f9121ffacc3a6c17e7f87df8c4637d"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/runtime-protocol.md",
+      "bytes": 8747,
+      "sha256": "fe70954d6716290bc5b8421fa236d775aefb99e3f3819d777ec72e9ca89c7161"
+    }
+  ],
+  "excludedMutable": [
+    "goals/STATE.json",
+    "reviews/2026-11-01/post-source-chain-causal-audit/publication-inputs.json",
+    "reviews/2026-11-01/post-source-chain-causal-audit/remote-sync-verification.json",
+    "goals/checkpoints/2026-11-01-source-chain-causal-source.json",
+    "goals/checkpoints/2026-11-01-source-chain-causal-sync.json"
+  ],
+  "cadence": "0/history70/latest606/formal22 RAWunchanged",
+  "libraryBefore": 145,
+  "libraryAfter": 145,
+  "libraryManifestRawUnchangedFrom": "2f2630f6ddd79de0d45a6272240fa715a6be6a44",
+  "scope": "ActualONEJ-Qcausalaudit/8ROOTrecords/current2cuts+fresh consumedNONE; actualREALFrmap recognized/oldD²Frecordreclosed/WHENDEFINEDGramrestricted.0math/Goalgatesopen/bottleneckunchanged/145manifestRAW. No scheduledmath/source successor/automaticauditstocksourcequeue."
+}
