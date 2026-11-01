@@ -1,0 +1,36 @@
+{
+  "schema": "RH_WEIL_DENINGER2508_NATIVE_ROOT_V1",
+  "runtimeGoalCreatedAt": 1793085111,
+  "status": "ROOT-CONSUMED nativeCITED/classicalSOURCE0; explicit proposal independently reviewing",
+  "source": {
+    "url": "https://arxiv.org/pdf/2508.05329v1",
+    "path": "literature/local/2026-11-01-deninger-witt-sheaves/2508.05329v1.pdf",
+    "bytes": 437874,
+    "sha256": "19870cbdddbde82526939eb801c2ce14707dc7b48e54a7bc81f4a84400505002",
+    "pages": 31,
+    "scope": "§5 Thm5.1/Prop5.2/directproof and ending End/cycle diagram; §1 definition plus1.6c/1.8 statements only. PDFindices2,5,6,26-28, criticalimages checked. Otherproofs only sharedpage exposure."
+  },
+  "reviewConsumed": {
+    "path": "reviews/2026-11-01/deninger-witt-correspondence-source/native-identification-review.md",
+    "bytes": 7085,
+    "sha256": "9c8bbb43dfcaf93f1ad14bb555876804adf37aaf0cd78ef6f677d29be9149e08",
+    "terminalTask": "/root/witt2508_native",
+    "rootRead": "Fulltext plus independent critical original-page image checks; terminal task matches current output."
+  },
+  "premiseClosure": {
+    "objectDomainRange": "Normal Noetherian affine X, coefficientA=O(X); Wrat(A) to UNDERLINED reducedCorr(X,A1_Z), actual raw universally integral proper relative dimension0 cycles overX. Not Corr(X,X)/Chow/Pic/Hilbert. Domain components treated separately.",
+    "quotientAndProductRole": "Only ZGamma0 ideal killed. Product m_*c from target multiplication, graph a*b->ab. Zero is series1, Wittunit1-T. Ordinary endocorrespondence composition/target addition not the selected product.",
+    "coefficientsDirection": "Integral cyclemultiplicities, [a]=1-aT; ghosts -T dlog givea^k/Trphi^k. F_N=piNpush ringmap; V_N=piNpull additiveonly; FN VN=N, no normalization/metricadjoint.",
+    "dependenciesPaidOrCited": "Source directproof read; upstream1.6c/1.8/SV/MVW/Stacks10.136.14 and Almkvist retainedCITED, not independentlyreproved. GeneralY/nonaffine/perfect/higher comparison explicitly a futurequestion.",
+    "literalCorrection": "Printedp28 A(T)/(P(T)) is frozen literal; consume only preceding explicit finiteflat A[T]/(P(T)) reciprocal construction. No theorem extension/rejection. Native reversed written graphcomposition order unused; no ordinary endocomposition transported.",
+    "principal": "NativeGamma2-Gamma3 principalCartier remains (1-2T)/(1-3T)nonzero. This distinguishes nativequotient, not physical405 no-go.",
+    "sourceGrowthNormErrors": "No physicalr map, no originaldu-Dlog/sourcegrowth transport, no finite-to-infinite error budget. Native theorem exactalgebraic, not positiveHermitian. C-baseextension of separateproposal cannot payarithmetic descent.",
+    "coverageCoupling": "No full405/principal annihilation/537nonroot+allsourcecoverage/sections/multiplication/mixedRR/fullGamma/contact/properpowers/bothpoles/whole signedcore or growingcoupling input.",
+    "strongestOldNet": "Genuine new-to-review geometric identification, classicalSOURCE0. No change to537whole17/16,604finite9/8,ONE605head+ALLcomplementpositivecompletion,560/602wholeidentity orwhole4/5negative-inertiaUPPER. No newquantitativeclassical consequence or keybottleneckremoval."
+  },
+  "archiveRepair": "1807.06400v4 newlydownloaded119pages/1144247bytes, metadatafirstpagev4/2024-02-07verified. Historical10-20 Intro/§10scope prevents duplicateinput; oldpp62-64locator not reverified against this119pagecopy and not newlyconsumed. ArchiveONLY, no newbodyreview/theorem.",
+  "mathematicalRounds": 0,
+  "cadence": "RAWheld0/history70/latest606/formal22",
+  "classicalBottleneckChanged": false,
+  "longGoalCompletion": false
+}

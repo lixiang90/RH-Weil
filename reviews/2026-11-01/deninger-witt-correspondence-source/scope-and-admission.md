@@ -1,0 +1,11 @@
+# One native relative-correspondence source gate
+
+Same G20261027/runtime1793085111, original0c4f baseline, C070 remains spent/stopped. This source gate is not a successor mathematics contract. All three long Goal gates remain open.
+
+Selected input: Christopher Deninger, *Rational Witt vectors and associated sheaves*, arXiv2508.05329v1 (2025-08-07), specifically §5 Theorem5.1/Proposition5.2 and their direct proof/definitions; §1 definition of Wrat, Theorem1.6(c)/Proposition1.8 statements are minimum cited background. Native PDF31pages/437874bytes/SHA19870cbdddbde82526939eb801c2ce14707dc7b48e54a7bc81f4a84400505002. Local critical page images preserve underlined reduced Corr notation lost in text extraction. No §2–4 proof review, reference recursion or other paper queue.
+
+Why this beats a repeated source name: the abstract supplies a precise normal-domain ring identification with universally integral finite relative correspondences. The gate checks whether that actual object supplies a previously unpaid primitive/principal/mixed input. The earlier arithmetic-flow paper1807.06400v4 Introduction/§10 was already consumed on10-20; this turn repairs its missing catalogue/local archive only and does not review it again. Its newly archived fulltext is not a new input.
+
+Test the native domain/range, zero-section quotient, target-multiplication product, integral F/V normalization and principal role first. A concrete candidate source is the exponential of physical exponential moments, tested against the already paid nonnegative smooth compact source591g. This is an admission check, not an assumption that arbitrary smooth sources are finite cycles. Compare the strongest old finite-End/Witt and physical574/591 assets. If only native facilities remain, stop at SOURCE0; no new chapter/paper, completion, renaming of unpaid source coverage, or C071/607 follows.
+
+Independent outputs: native-identification-review.md and moment-source-admission-review.md. An emitted draft is not ROOT consumption. Exact source/norm/growth/role/remaining coupling and old-net classification must be reconciled at ROOT before settlement. Finite-dimensionality alone does not exclude source-dependent growing approximations, formal completions, relative/higher objects or D′ limits.
