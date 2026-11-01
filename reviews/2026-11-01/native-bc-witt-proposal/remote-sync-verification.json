@@ -1,6 +1,6 @@
 {
   "schema": "RH_WEIL_NATIVE_C2_NONE_SYNC_V1",
-  "status": "PREPARED_NOT_YET_PUBLISHED",
+  "status": "SOURCE_VERIFIED_EXACT3_METADATA_CHILD_ARMED",
   "repository": "https://github.com/lixiang90/RH-Weil",
   "branch": "main",
   "previous_verified_head": "3fe6398a253dc1db3ad2937e3dd395e20cc74129",
@@ -13,5 +13,41 @@
   "condition": "OneverifiedSOURCE thenonesoleSOURCEexact3metadatachild; verifyactualFINALref/commit/tree/localparent/exact3/clean/checkpoint/pins. NoownSHAloop.",
   "public_bindings_count": 35,
   "local_only_bindings_count": 10,
-  "unchanged_scientific_code_pins": 9
+  "unchanged_scientific_code_pins": 9,
+  "source_commit": "1058b0ea7df4611556cd5ce2a170b14e917406b4",
+  "source_tree": "49f98b2871cfc6dbf8753afb0f3d5628a14370d9",
+  "source_changed_paths": [
+    ".gitattributes",
+    "RESEARCH_BRANCHES.md",
+    "goals/DECISIONS.md",
+    "goals/MACRO_FRONTIER.md",
+    "goals/README.md",
+    "goals/STATE.json",
+    "goals/checkpoints/2026-11-01-native-c2-proposal-source.json",
+    "goals/reviews/2026-11-01-native-c2-proposal-none.md",
+    "literature/README.md",
+    "literature/supplements/2026-11-01-native-c2-proposal-scope.md",
+    "reviews/2026-11-01/native-bc-witt-proposal/README.md",
+    "reviews/2026-11-01/native-bc-witt-proposal/execution-start.json",
+    "reviews/2026-11-01/native-bc-witt-proposal/input-proposal.md",
+    "reviews/2026-11-01/native-bc-witt-proposal/post-source-chain-causal-audit.md",
+    "reviews/2026-11-01/native-bc-witt-proposal/publication-inputs.json",
+    "reviews/2026-11-01/native-bc-witt-proposal/remote-sync-verification.json",
+    "reviews/2026-11-01/native-bc-witt-proposal/root-consumption.json"
+  ],
+  "source_verification": {
+    "api_ref_commit_tree": true,
+    "local_commit_tree_and_sole_parent": true,
+    "worktree_clean_before_metadata": true,
+    "publicBindings": 35,
+    "localOnlyBindings": 10,
+    "unchangedScientificCode": 9,
+    "checkpointLFpins": 23,
+    "libraryEntries": 145,
+    "GoalCadenceManifestRawUnchanged": true,
+    "runtimeGoal": "SAMEactive1793085111 verifiedafterSOURCEpublication",
+    "mathematicalBottleneckChanged": false,
+    "nextCausalAudit": "UNEXECUTED/existingJ-Qonly/notnewmath/source/formula/selectionqueue/formalreset"
+  },
+  "verified_at_utc": "2026-11-01T02:20:56.049287+00:00"
 }
