@@ -1,5 +1,7 @@
 # RH-Weil 文献索引
 
+2026-11-01，ONE固定primary发现结束，新增CC-BC-WITT-EMSS64-2023-locator，库144→145仅metadata：[使用范围](supplements/2026-11-01-primary-discovery-bc-witt-scope.md)。publisher-indexed声明仍UNREVIEWED，无PDF／SHA／页数／proof消费；先原件pin／named-result定位再决定native来源设施。其余命中仅旧work／报告／bib曝光，不给第二门；本轮0数学。
+
 2026-11-01，ONE核心输入选择合并NONE：[本轮使用范围](supplements/2026-11-01-core-input-selection-scope.md)。只复用405／573–578／560／602等实际库存作强旧扣除，无新外部原文、检索或PDF；库144及manifest原字节保持。下一唯一primary发现卡未执行，最多5个原始locator／1待审来源卡或NONE止；检索声明不是已审定理或数学准入。
 
 2026-11-01，相对Green配方的旧关系首检INPUT0；[使用范围](supplements/2026-11-01-relative-green-admission-scope.md)只复用既有405／573–575与已读BC native direct-image设施，无新外部primary／PDF／书章。库144及manifest原字节保持；实际解析检查不等于新数学轮或全Weil身份。下一仅未执行的核心输入选择决策，不串来源队列。

@@ -1,0 +1,76 @@
+{
+  "schema": "RH_WEIL_PRIMARY_DISCOVERY_QUERY_EXECUTION_V1",
+  "status": "ONE_BATCH_EXECUTED_LOCATOR_DEDUP_ELIGIBILITY_PENDING",
+  "queries": [
+    "\"Weil positivity\" \"Riemann\" \"trace formula\"",
+    "\"Riemann zeta\" \"positive definite\" \"approximation\"",
+    "\"arithmetic\" \"Riemann-Roch\" \"Weil explicit formula\""
+  ],
+  "domains": [
+    "arxiv.org",
+    "numdam.org",
+    "ems.press",
+    "annals.math.princeton.edu"
+  ],
+  "queryBatchesUsed": 1,
+  "furtherQueryBatchAllowed": false,
+  "epistemicScope": "Searchengineindexedmetadata/excerpts, not independentlyopenedfullsource/proof. No source theorem consumed.",
+  "conservativeLocatorSlotsUsed": 5,
+  "additionalDirectPageOpens": 0,
+  "distinctBudgetAccounting": "Conservativelycharge the5distinctabstract/author-statement locators exposed inONEsearchresult; duplicates samework/report do notaddslots. No further page opens permitted inthis discovery.",
+  "incidentalExposure": "Searchautomaticallyreturned indexedPDFabstract/intro/report excerpts beforemanualdedup. NoPDFopen/download/bodyaudit. EMS37042 sameworkas slot1 and46852?nt sameas slot4. EMS44477 andnumdam10.5802/mrr.12 yielded bibliography/metadata snippets only; notfollowed orconsumedasnewsourceclaims.",
+  "primaryLocators": [
+    {
+      "slot": 1,
+      "title": "BC-system, absolute cyclotomy and the quantized calculus",
+      "authors": "Alain Connes; Caterina Consani",
+      "url": "https://ems.press/journals/emss/articles/12949497",
+      "doi": "10.4171/EMSS/64",
+      "version_scope": "EMS Surv.Math.Sci.9(2022),447-475; primary-index published2023-10-25; no PDF bytes/version fetched",
+      "read_scope": "OnebatchindexedPRIMARYabstract only; no page/PDF opened",
+      "candidate_status": "potential partial arithmetic comparison locator; dedup/eligibility pending"
+    },
+    {
+      "slot": 2,
+      "title": "Weil positivity and Trace formula, the archimedean place",
+      "authors": "Alain Connes; Caterina Consani",
+      "url": "https://arxiv.org/abs/2006.13771",
+      "read_scope": "Onebatchindexedabstract; same-work prior version dedup pending; no new version body read",
+      "candidate_status": "known archimedean/semilocal background, not a new full-target comparison"
+    },
+    {
+      "slot": 3,
+      "title": "The Scaling Hamiltonian",
+      "authors": "Alain Connes; Caterina Consani",
+      "url": "https://arxiv.org/pdf/1910.14368.pdf",
+      "read_scope": "SEARCH-indexed abstract/intro snippet exposure only, PDF NOT opened/downloaded",
+      "candidate_status": "prior-scope dedup pending; indexed description offers framework/limit analysis, not a verified new full-target formula"
+    },
+    {
+      "slot": 4,
+      "title": "Quantized calculus and Weil positivity (OWR2020-17 contribution)",
+      "authors": "Alain Connes, joint work with Caterina Consani",
+      "url": "https://ems.press/content/serial-article-files/46852",
+      "read_scope": "SEARCH-indexed author-statement excerpt only; report PDF NOT opened/downloaded",
+      "candidate_status": "known restricted archimedean statement; no body or cited reference consumed"
+    },
+    {
+      "slot": 5,
+      "title": "UV prolate/spectral discussion (OWR2022-35 contribution)",
+      "authors": "Connes-related report contribution; exact report authorship not independently opened",
+      "url": "https://ems.press/content/serial-article-files/46970?nt=1",
+      "read_scope": "SEARCH-indexed statement excerpt only; report PDF NOT opened/downloaded",
+      "candidate_status": "asymptotic/archimedean spectral locator; no complete classical comparison claimed by ROOT"
+    }
+  ],
+  "stopStatus": "ONEbatch/five-locator capexhausted. Onlyreconcileexistingreturnedmetadata with144priorrecords; atmostoneUNREVIEWEDcandidatecardorNONE, no newquery/page/proof.",
+  "claimRecord": {
+    "sourceSlot": 1,
+    "sourceClaimOnly": "BC-system is described via a universal Witt ring/K-theory of endomorphisms over the absolute base; a kernel invariant yields a Schwarzian derivative. Weil connections are surveyed.",
+    "verifiedTheorem": false
+  },
+  "mathematicalRoundsAdded": 0,
+  "PDFsDownloaded": 0,
+  "scientificRuns": 0,
+  "recordedAtUTC": "2026-11-01T01:07:27.794408+00:00"
+}

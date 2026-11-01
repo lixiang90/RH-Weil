@@ -1,0 +1,290 @@
+{
+  "schema": "RH_WEIL_PRIMARY_DISCOVERY_PUBLICATION_V1",
+  "runtimeGoalCreatedAt": 1793085111,
+  "publicBindings": [
+    {
+      "path": ".gitattributes",
+      "bytes": 10381,
+      "sha256": "4a2e251a89945a829ac83047625295bb5fc02dcae30c6710820cc94c5926946c"
+    },
+    {
+      "path": "RESEARCH_BRANCHES.md",
+      "bytes": 308872,
+      "sha256": "6dca97d8a638ad8cbc0770c51aa2d410b6b6c95a81a4319bfa77aa0673bdc39f"
+    },
+    {
+      "path": "goals/DECISIONS.md",
+      "bytes": 384530,
+      "sha256": "8b8dc97c7fde4caa1747bf33d0f32e7534cd8f52a9c61aa423966db70d2362c6"
+    },
+    {
+      "path": "goals/GOAL.20261027.md",
+      "bytes": 9679,
+      "sha256": "b3d2acb1f962d793f45d79b6a4e67fb87dd072cd4752108a9298204b4cefa1de"
+    },
+    {
+      "path": "goals/MACRO_FRONTIER.md",
+      "bytes": 135993,
+      "sha256": "658fa5bc8645542e46e419b27865aa47a33ba68daf509c96ec002303daea9c22"
+    },
+    {
+      "path": "goals/README.md",
+      "bytes": 100163,
+      "sha256": "1dcf970fcc20ba46ffcffe146a977ab22ddd7fa676028a725b7ddfe8cd02ff5d"
+    },
+    {
+      "path": "goals/review-cadence.json",
+      "bytes": 6938,
+      "sha256": "74968571c8d0c6a51662ac37602ac241c1a84add09938b1b6c27bdaa697adfb0"
+    },
+    {
+      "path": "goals/reviews/2026-11-01-primary-discovery-bc-witt-locator.md",
+      "bytes": 1845,
+      "sha256": "506acf592eee6354afcd93bd45ef6d427a0947a58ef7596ffa8c2463dbdfb4e8"
+    },
+    {
+      "path": "literature/README.md",
+      "bytes": 153410,
+      "sha256": "ce1731cd50ec8939d81233420b5ba116c9babc5d431d4b30e147ba7a2187c1bf"
+    },
+    {
+      "path": "literature/manifest.json",
+      "bytes": 226963,
+      "sha256": "a5f3dae79aa401fabd3a2b4030fe496aeba313d5e4160881ec105a0abfd028d4"
+    },
+    {
+      "path": "literature/supplements/2026-11-01-primary-discovery-bc-witt-scope.md",
+      "bytes": 2389,
+      "sha256": "9d78929b365330ef96524edb76611334e250ec187fffee532d2da8862e6ee15b"
+    },
+    {
+      "path": "notes/363-f1-arithmetic-geometry-and-existence-audit.md",
+      "bytes": 15561,
+      "sha256": "be7d7668a14ba28cdb0c021651ccf019fd284ee67b1d90278bc8557a6b64b18c"
+    },
+    {
+      "path": "notes/365-f1-rational-comparison-and-witt-coefficients.md",
+      "bytes": 8335,
+      "sha256": "dd9b99a92cec80df3a6fd3395ecb5d283e6c0e04e679771c81339b5b7a793fe9"
+    },
+    {
+      "path": "reviews/2026-10-20/grh-literature-roadmap/weil-deninger-facility-audit.md",
+      "bytes": 17211,
+      "sha256": "49f447da8e889bd48edc00556a04084dff0e1de5abe9a7bc07328377b31d4e8b"
+    },
+    {
+      "path": "reviews/2026-10-31/global-core-readmission/readout-consumption-clarification.md",
+      "bytes": 1095,
+      "sha256": "46bfcce0253bff68e083957ac6d1ab24a6ce661b56eb8a44fe1461984e639041"
+    },
+    {
+      "path": "reviews/2026-11-01/core-input-selection/next-primary-input-discovery.md",
+      "bytes": 3821,
+      "sha256": "bff37536a97ce714dfd725bbef7ad9a61d86436dcb849854d0a8b563bf7ce083"
+    },
+    {
+      "path": "reviews/2026-11-01/core-input-selection/root-consumption.json",
+      "bytes": 6567,
+      "sha256": "64eead65adb8244052f990dddbf5c7c951d366e272f3b0aa1464e9c30f675056"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/finite-independent-inputs.py",
+      "bytes": 8400,
+      "sha256": "05bb27e4fb457aa29d7cae57115260dc4ca716d4899f1019feea274876cf5a97"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/finite-whole-consumer.py",
+      "bytes": 47909,
+      "sha256": "6919ea1306ba9539520851634f0fa68980499a479bd529e73cf4b36a5116ab17"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/independent-finite-checker.py",
+      "bytes": 36234,
+      "sha256": "4cdbc6fcb9ae52cf1766ddbd71bf5e7f579a91f7d331939779448c9075539602"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/observe-global-once.py",
+      "bytes": 44215,
+      "sha256": "88d54d68d5119aff6eacc6581a3de56d53f9121ffacc3a6c17e7f87df8c4637d"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/runtime-protocol.md",
+      "bytes": 8747,
+      "sha256": "fe70954d6716290bc5b8421fa236d775aefb99e3f3819d777ec72e9ca89c7161"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/source-model.py",
+      "bytes": 27057,
+      "sha256": "89bb4eb23264b6f7d1bd56459e2d7825b94ec5a02e5ff7c36e6cc0bfa1237975"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/source-stage-controller.py",
+      "bytes": 36959,
+      "sha256": "0188ebfe2a0565bcfa53687a82b4dad068b57aae4413d3ff2aed18f8e7a7c9d9"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/verify-finite-augmented.py",
+      "bytes": 8210,
+      "sha256": "3ef31ca2255ed7a0aa4bc17cac979d49f93c95e43fb3ca18c8a67bd95f0ba6f9"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/verify-source-model.py",
+      "bytes": 26778,
+      "sha256": "2b1c1de335e2412c2f6e1cec7a219f3bd496561df6f4d134a5c87ea42a7603db"
+    },
+    {
+      "path": "reviews/2026-11-01/primary-input-discovery/README.md",
+      "bytes": 1592,
+      "sha256": "d909b61a2decab84d78365115eb8a138f811f5a8fe4d855b23d4b0251740766f"
+    },
+    {
+      "path": "reviews/2026-11-01/primary-input-discovery/candidate-native-bc-witt-source-gate.md",
+      "bytes": 4935,
+      "sha256": "3ee60ea1aa7bce5e67f40a2ba6147a8715fde0567fca85c964617a2776ccac08"
+    },
+    {
+      "path": "reviews/2026-11-01/primary-input-discovery/dedup-and-prior-scope.md",
+      "bytes": 7615,
+      "sha256": "0bcdeeb7238eaf14c71c4be4083c32d4665f6b6e89cbb2d60a8e94ba902e0795"
+    },
+    {
+      "path": "reviews/2026-11-01/primary-input-discovery/execution-start.json",
+      "bytes": 1095,
+      "sha256": "1fd28a0bc072cc6de7c9ada8d3d09fbb9b678a27f8afe3386f2eaaf664dfb66a"
+    },
+    {
+      "path": "reviews/2026-11-01/primary-input-discovery/fresh-discovery-review.md",
+      "bytes": 9881,
+      "sha256": "970c51cac7bb5e9bc236d1aafeb5ccf1709a0278c383da15b604f08ee3786454"
+    },
+    {
+      "path": "reviews/2026-11-01/primary-input-discovery/locator-eligibility-and-old-comparison.md",
+      "bytes": 9566,
+      "sha256": "8fc0d9faed5e2cae2bf32ae84ee5dad93a7957bd406b1947189eaf3f2a60d2d0"
+    },
+    {
+      "path": "reviews/2026-11-01/primary-input-discovery/query-execution-and-locators.json",
+      "bytes": 4215,
+      "sha256": "02b9f812f0c95f678fd73e6134221be9bd87fb05949c725777262f73617a1633"
+    },
+    {
+      "path": "reviews/2026-11-01/primary-input-discovery/root-consumption.json",
+      "bytes": 6124,
+      "sha256": "4d92ca9666af3f272e4a899272d90ebb4fa218063ba2937e1b384cf477ec9170"
+    },
+    {
+      "path": "reviews/2026-11-01/primary-input-discovery/root-discovery-decision-draft.md",
+      "bytes": 3343,
+      "sha256": "52650e4e2a235635aa78cc62e4f501f0728a0fdff071ad6e03e735a5cdbcaec8"
+    }
+  ],
+  "localOnlyBindings": [
+    {
+      "bytes": 734638,
+      "path": "literature/local/2026-10-29-weil-9-8/pilot/run-01/certificates/moments.json",
+      "sha256": "2d166f7ae457fd61826329d31365564e25f1cfc6bc19d09aef22d2ec89c6bbd9"
+    },
+    {
+      "bytes": 23377672,
+      "path": "literature/local/2026-10-29-weil-9-8/pilot/run-01/certificates/source-matrices.json",
+      "sha256": "a5486fea38c3c8f91dcf4bb77c7677e734efe2ac9cbf59ddabc4674739fdb2f2"
+    },
+    {
+      "bytes": 73598411,
+      "path": "literature/local/2026-10-31-retained-tail-source/run-01/finite-columns.jsonl",
+      "sha256": "d841d307d2b22367570e594c1bc9e3b64c8a4ffef88691382acf5d6fbeeaf080"
+    },
+    {
+      "bytes": 233458,
+      "path": "literature/local/2026-10-31-retained-tail-source/run-01/h-columns.jsonl",
+      "sha256": "37f2c0410beb1b1c43b9f8d2df24d72fce3170b5f359d089c198742f1eee4e74"
+    },
+    {
+      "path": "literature/local/2026-11-01-directional-remainder-whole-observer/run-01/source-produce/claim.json",
+      "bytes": 522,
+      "sha256": "f8ef017195dd9fbf23ce10634115237095d149b19a32b601f72d45848759167f"
+    },
+    {
+      "path": "literature/local/2026-11-01-directional-remainder-whole-observer/run-01/source-produce/ready.json",
+      "bytes": 2655,
+      "sha256": "1d727544b9a2b68545b1a61b31305275919738a10a73664d32bdce34309de646"
+    },
+    {
+      "path": "literature/local/2026-11-01-directional-remainder-whole-observer/run-01/source-produce/terminal.json",
+      "bytes": 1014,
+      "sha256": "f44ee2ae473cef9422bda261ad446a50ff2981f250139af0313bdddabccdc6a2"
+    },
+    {
+      "path": "literature/local/2026-11-01-directional-remainder-whole-observer/run-01/source-produce/root-observed.json",
+      "bytes": 9648,
+      "sha256": "4f192af873370c20905e2e91ac3470c6c07c5bb8d1752e70a900dccc1f205342"
+    },
+    {
+      "path": "literature/local/2026-11-01-formal-analytic-source/bost-charles-2206.14242v2.pdf",
+      "bytes": 1907786,
+      "sha256": "fc8eef2982b7e4fbcb14e7a175671afaef0802ad358ba5ce1169a80cab5d2480"
+    }
+  ],
+  "unchangedOldScientificCodePins": [
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/source-model.py",
+      "bytes": 27057,
+      "sha256": "89bb4eb23264b6f7d1bd56459e2d7825b94ec5a02e5ff7c36e6cc0bfa1237975"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/verify-source-model.py",
+      "bytes": 26778,
+      "sha256": "2b1c1de335e2412c2f6e1cec7a219f3bd496561df6f4d134a5c87ea42a7603db"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/source-stage-controller.py",
+      "bytes": 36959,
+      "sha256": "0188ebfe2a0565bcfa53687a82b4dad068b57aae4413d3ff2aed18f8e7a7c9d9"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/finite-whole-consumer.py",
+      "bytes": 47909,
+      "sha256": "6919ea1306ba9539520851634f0fa68980499a479bd529e73cf4b36a5116ab17"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/independent-finite-checker.py",
+      "bytes": 36234,
+      "sha256": "4cdbc6fcb9ae52cf1766ddbd71bf5e7f579a91f7d331939779448c9075539602"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/verify-finite-augmented.py",
+      "bytes": 8210,
+      "sha256": "3ef31ca2255ed7a0aa4bc17cac979d49f93c95e43fb3ca18c8a67bd95f0ba6f9"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/finite-independent-inputs.py",
+      "bytes": 8400,
+      "sha256": "05bb27e4fb457aa29d7cae57115260dc4ca716d4899f1019feea274876cf5a97"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/observe-global-once.py",
+      "bytes": 44215,
+      "sha256": "88d54d68d5119aff6eacc6581a3de56d53f9121ffacc3a6c17e7f87df8c4637d"
+    },
+    {
+      "path": "reviews/2026-11-01/global-joint-code-preparation/runtime-protocol.md",
+      "bytes": 8747,
+      "sha256": "fe70954d6716290bc5b8421fa236d775aefb99e3f3819d777ec72e9ca89c7161"
+    }
+  ],
+  "excludedMutable": [
+    "goals/STATE.json",
+    "reviews/2026-11-01/primary-input-discovery/publication-inputs.json",
+    "reviews/2026-11-01/primary-input-discovery/remote-sync-verification.json",
+    "goals/checkpoints/2026-11-01-primary-discovery-source.json",
+    "goals/checkpoints/2026-11-01-primary-discovery-sync.json"
+  ],
+  "cadence": "0/history70/latest606/formal22 RAWunchanged",
+  "libraryBefore": 144,
+  "libraryAfter": 145,
+  "allPrior144EntriesDeepEqual4e298e0": true,
+  "newEntries": [
+    "CC-BC-WITT-EMSS64-2023-locator"
+  ],
+  "scope": "ActualONEfixed3querydiscovery/5indexedslotscapclosed;oneUNREVIEWEDnativearithmeticlocator,metadata-only145/0pagePDFproof/math; sourcegateUNEXECUTED. Notpaidtheorem/Weilinput."
+}

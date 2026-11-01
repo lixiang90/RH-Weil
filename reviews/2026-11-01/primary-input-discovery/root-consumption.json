@@ -1,0 +1,121 @@
+{
+  "schema": "RH_WEIL_PRIMARY_DISCOVERY_ROOT_V1",
+  "status": "ROOT_CONSUMED_ONE_UNREVIEWED_NATIVE_SOURCE_LOCATOR",
+  "runtimeGoalCreatedAt": 1793085111,
+  "baseline": "0c4f3a3eb609bb1d9564138fa4a35701f05605f2",
+  "previousTurnClassification": "PROGRESS: actualcoreselectionNONE/rootclosed/published4e298e0;0newmath",
+  "actualExecution": "SAMEactiveGoal andactual4e298e0recovered; exactONEtools.web__run batch3literalqueries executed; no query replay. Two currentterminalreviews+fresh scope audit actuallyread.",
+  "inputPins": [
+    {
+      "path": "reviews/2026-11-01/primary-input-discovery/dedup-and-prior-scope.md",
+      "bytes": 7615,
+      "sha256": "0bcdeeb7238eaf14c71c4be4083c32d4665f6b6e89cbb2d60a8e94ba902e0795"
+    },
+    {
+      "path": "reviews/2026-11-01/primary-input-discovery/locator-eligibility-and-old-comparison.md",
+      "bytes": 9566,
+      "sha256": "8fc0d9faed5e2cae2bf32ae84ee5dad93a7957bd406b1947189eaf3f2a60d2d0"
+    },
+    {
+      "path": "reviews/2026-11-01/primary-input-discovery/fresh-discovery-review.md",
+      "bytes": 9881,
+      "sha256": "970c51cac7bb5e9bc236d1aafeb5ccf1709a0278c383da15b604f08ee3786454"
+    },
+    {
+      "path": "reviews/2026-11-01/primary-input-discovery/query-execution-and-locators.json",
+      "bytes": 4215,
+      "sha256": "02b9f812f0c95f678fd73e6134221be9bd87fb05949c725777262f73617a1633"
+    },
+    {
+      "path": "reviews/2026-11-01/primary-input-discovery/candidate-native-bc-witt-source-gate.md",
+      "bytes": 4935,
+      "sha256": "3ee60ea1aa7bce5e67f40a2ba6147a8715fde0567fca85c964617a2776ccac08"
+    },
+    {
+      "path": "reviews/2026-11-01/primary-input-discovery/root-discovery-decision-draft.md",
+      "bytes": 3343,
+      "sha256": "52650e4e2a235635aa78cc62e4f501f0728a0fdff071ad6e03e735a5cdbcaec8"
+    },
+    {
+      "path": "reviews/2026-11-01/core-input-selection/next-primary-input-discovery.md",
+      "bytes": 3821,
+      "sha256": "bff37536a97ce714dfd725bbef7ad9a61d86436dcb849854d0a8b563bf7ce083"
+    }
+  ],
+  "budgetAndExposure": {
+    "batchesUsed": 1,
+    "literalQueries": "in frozen unique card and actualqueryreceipt",
+    "conservativelyChargedDistinctIndexedLocatorSlots": 5,
+    "directPrimaryPageOpens": 0,
+    "PDFOpensOrDownloads": 0,
+    "proofsOrReferenceFollows": 0,
+    "incidentalExposure": "SearchindexreturnedPDFabstract/intro/report/referenceexcerpts; documentednotbodyconsumption. DuplicateURL andbib-only snippets do notreceiveadditionaleligible-sourcegates. Capspent/no more page/query.",
+    "reviewerScope": "Fresh audit conditionalonROOTactualsearchreceipt; didnotpersonallyreplayweb/readprimarypages."
+  },
+  "selection": {
+    "candidateCount": 1,
+    "libraryId": "CC-BC-WITT-EMSS64-2023-locator",
+    "claimStatus": "UNREVIEWED indexed-primarydeclarationONLY; no verifiedBC=K0End theorem",
+    "declaredObjectFingerprint": "NativeBC/universalWitt/endomorphism-Kcomparison overabsolute-base object; exactKdegree/category/coefficient/completion notyetknown.",
+    "source": "https://ems.press/journals/emss/articles/12949497",
+    "notSelected": "Schwarzian/Weilsurvey/spectraltripleproofs; otherknown-work/report/biblocators"
+  },
+  "strongestOldClosure": "365complexgroupalgebramovingcharacters/2,3,6;DeningerrationalWittflow;ordinaryunitK1->relativeK0 andKKdifferentcategories. No automaticold0transplant ornewcapacityfromKname.574Qmarker/577PSD/fullsignedgap andwholeassetsremainstronger-classicalcontrols.",
+  "paidScopePins": [
+    {
+      "path": "notes/363-f1-arithmetic-geometry-and-existence-audit.md",
+      "bytes": 15561,
+      "sha256": "be7d7668a14ba28cdb0c021651ccf019fd284ee67b1d90278bc8557a6b64b18c"
+    },
+    {
+      "path": "notes/365-f1-rational-comparison-and-witt-coefficients.md",
+      "bytes": 8335,
+      "sha256": "dd9b99a92cec80df3a6fd3395ecb5d283e6c0e04e679771c81339b5b7a793fe9"
+    },
+    {
+      "path": "reviews/2026-10-20/grh-literature-roadmap/weil-deninger-facility-audit.md",
+      "bytes": 17211,
+      "sha256": "49f447da8e889bd48edc00556a04084dff0e1de5abe9a7bc07328377b31d4e8b"
+    },
+    {
+      "path": "reviews/2026-10-31/global-core-readmission/readout-consumption-clarification.md",
+      "bytes": 1095,
+      "sha256": "46bfcce0253bff68e083957ac6d1ab24a6ce661b56eb8a44fe1461984e639041"
+    },
+    {
+      "path": "reviews/2026-11-01/core-input-selection/root-consumption.json",
+      "bytes": 6567,
+      "sha256": "64eead65adb8244052f990dddbf5c7c951d366e272f3b0aa1464e9c30f675056"
+    }
+  ],
+  "nextSourceGateStatus": "UNEXECUTED namedidentificationresult+minimumdefs/maps/directproof ONLYafteractualfinalpublicationrecovery andactualdownload/version/bytes/SHA/pagespin+exactsectionfreezebeforeproof.",
+  "sourceGateStopRules": [
+    "No explicitlylocatable identification result oronlyexternal-proofpointer=>stop, no unknownchapter/refexpansion.",
+    "Onlynativefacilitywithoutdifferentactualphysicalentry=>SOURCE0forclassicalcore; preserve true native scope, no automaticC070/formula/paper."
+  ],
+  "unpaid": [
+    "actualrho=e^.5f/ALLcomplexsource->legalEndclass",
+    "full405noncompactrelations/translationsprincipalAND537/fullcoverage",
+    "originaldu/zeroextensionDlog,strongfees/tails/growingquantifiers",
+    "sameintegerfiltration/sections/mixedcapacity/fullGamma/contact/ALLpp/BOTHsignedpoles/corecoupling"
+  ],
+  "strongestClassicalNet": "Unchangedwhole17/16/head9/8andsame605ALLcomplementpositivecompletion;whole4/5negative-inertiaUPPER. No newclassicalinequality/input/source-matchingpaid.",
+  "mathematicalBottleneckChanged": false,
+  "mathematicalRoundsAdded": 0,
+  "newFormalMacroCycle": false,
+  "newMathContractOrScientificRun": false,
+  "allThreeGoalGates": "open",
+  "library": {
+    "before": 144,
+    "after": 145,
+    "allPrior144EntriesDeepEqual4e298e0": true,
+    "newEntry": "metadata-only;NOfile/bytes/SHA/pagesinvented",
+    "newPDFs": 0
+  },
+  "nextCardPin": {
+    "path": "reviews/2026-11-01/primary-input-discovery/candidate-native-bc-witt-source-gate.md",
+    "bytes": 4935,
+    "sha256": "3ee60ea1aa7bce5e67f40a2ba6147a8715fde0567fca85c964617a2776ccac08"
+  },
+  "recordedAtUTC": "2026-11-01T01:15:00.250218+00:00"
+}

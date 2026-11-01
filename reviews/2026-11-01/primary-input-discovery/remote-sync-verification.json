@@ -1,0 +1,19 @@
+{
+  "schema": "RH_WEIL_PRIMARY_DISCOVERY_SYNC_V1",
+  "status": "LOCAL_SOURCE_READY_NOT_YET_PUBLISHED",
+  "repository": "https://github.com/lixiang90/RH-Weil",
+  "branch": "main",
+  "previous_verified_head": "4e298e02c31d5e5362f8d77bbfe6c1b5c96494b3",
+  "source_commit": null,
+  "source_tree": null,
+  "scope": "ActualONEfixed3querydiscovery/5indexedslotscapclosed;oneUNREVIEWEDnativearithmeticlocator,metadata-only145/0pagePDFproof/math; sourcegateUNEXECUTED. Notpaidtheorem/Weilinput.",
+  "metadata_child_exact_paths": [
+    "goals/STATE.json",
+    "goals/checkpoints/2026-11-01-primary-discovery-sync.json",
+    "reviews/2026-11-01/primary-input-discovery/remote-sync-verification.json"
+  ],
+  "condition": "OneverifiedSOURCE+onesoleparentSOURCEexact3metadatachild; independentlyverifyactualFINAL API/local/tree/paths/clean/checkpoint/pins. NoownSHAloop.",
+  "public_bindings_count": 35,
+  "local_only_bindings_count": 9,
+  "unchanged_scientific_code_pins": 9
+}

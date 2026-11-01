@@ -1,0 +1,26 @@
+{
+  "schema": "RH_WEIL_PRIMARY_DISCOVERY_START_V1",
+  "runtimeGoalCreatedAt": 1793085111,
+  "actualSameGoalActive": true,
+  "previousTurnClassification": "PROGRESS: actualONEcoreselectionNONE/rootclosed/published4e298e0;0strategy/newmath",
+  "previousFinal": "4e298e02c31d5e5362f8d77bbfe6c1b5c96494b3",
+  "previousTree": "b248f93f73f06957b3257b3f2aa43bdc430110b4",
+  "previousRecovered": "API/local/solec336/exact3/clean/checkpoint20/40pub9local9code",
+  "uniqueCard": "reviews/2026-11-01/core-input-selection/next-primary-input-discovery.md",
+  "literalQueries": [
+    "\"Weil positivity\" \"Riemann\" \"trace formula\"",
+    "\"Riemann zeta\" \"positive definite\" \"approximation\"",
+    "\"arithmetic\" \"Riemann-Roch\" \"Weil explicit formula\""
+  ],
+  "primaryDomains": [
+    "arxiv.org",
+    "numdam.org",
+    "ems.press",
+    "annals.math.princeton.edu"
+  ],
+  "maxDistinctPrimaryLocatorPages": 5,
+  "searchExecuted": true,
+  "noMathContractOrRun": true,
+  "recordedUTC": "2026-11-01T01:03:55.519864+00:00",
+  "actualSearchOperation": "ONEexact3querybatch tools.web__run/search_query"
+}
