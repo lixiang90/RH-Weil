@@ -1,5 +1,7 @@
 # RH-Weil 文献索引
 
+2026-11-01，[Θ显式零核的旧判据与背景归档](supplements/2026-11-01-theta-algebraic-kernel-source-scope.md)：旧405/T₀核及516完整VALUEradical/519jets/520实际重数分离支撑完整非根检验，未重开inverse证明或primaryPDF。库149→150只补旧261/276/C019已引NIST25.10(i)前两段基础事实的实际HTML70416bytes/SHA9255d5本地归档；旧149条深等。其余Riemann–Siegel/数值/比例仅曝光不用，暂停路线不动；未审参考证明。旧14local9code保持，HTML为第15local。实际kernel/nonroot/任意同Φ全强源输出失真按强旧application0消费，compact-only/Dprime限制保留；无607/C072或新独立算术input。
+
 2026-11-01，[中心化Θ强旧恢复的资料范围](supplements/2026-11-01-theta-centered-closed-output-scope.md)：只用旧545完整MS/常数项/留数与405/553实际关系、537非根及基本Mellin/unfolding；未引入未审automorphicPlancherel。Deninger1807闭轨道packet及Yuan2013 Hodge设施去重已付，未读PDF正文；两query仅曝光primary locators，不续不同版本/后书。库149/manifest236799 bytes/SHA00d8d7 RAW保持，无新primarybody/readscope/数值/code。T0 exactnorm√2/closedoutput结果按强旧短链recovery0消费，14local9code、Goal/cadence/C070-C071保持；更强拓扑/非闭商/generalDprime仍另列。
 
 2026-11-01，[实际Θ主关系测试的旧资料使用](supplements/2026-11-01-poincare-principal-input-scope.md)：只消费405实际p/Mellin/平移、545不完全Eisenstein/unfolding/原norm、553域/闭包及574实际marker。无新external primary/PDF/query/readscope，库149/manifest236799 bytes/SHA00d8d7原字节保持。实际源合法但不消405关系，fixedfinite-rank修补也失败；按精确强旧短链standardold/input0/0数学，不泛排Dprime/成长秩/不定配对。14local/9oldsciencecode及Goal/cadence/C070-C071版本保持。
