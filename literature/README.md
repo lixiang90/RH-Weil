@@ -1,5 +1,7 @@
 # RH-Weil 文献索引
 
+2026-11-01，ONE核心输入选择合并NONE：[本轮使用范围](supplements/2026-11-01-core-input-selection-scope.md)。只复用405／573–578／560／602等实际库存作强旧扣除，无新外部原文、检索或PDF；库144及manifest原字节保持。下一唯一primary发现卡未执行，最多5个原始locator／1待审来源卡或NONE止；检索声明不是已审定理或数学准入。
+
 2026-11-01，相对Green配方的旧关系首检INPUT0；[使用范围](supplements/2026-11-01-relative-green-admission-scope.md)只复用既有405／573–575与已读BC native direct-image设施，无新外部primary／PDF／书章。库144及manifest原字节保持；实际解析检查不等于新数学轮或全Weil身份。下一仅未执行的核心输入选择决策，不串来源队列。
 
 2026-11-01，Bost–Charles2206.14242v2 §7.2来源门SOURCE0：库144不增条目／全文原字节保持，只更新实际正文与必要定义阅读范围；[本轮使用范围](supplements/2026-11-01-formal-analytic72-source-scope.md)区分native全局设施、未付经典物理桥及两处字面消费限制。下一显式relative Green构造仅准入卡、未执行；不续书章或文献队列。0数学，原cadence／Goal保持。

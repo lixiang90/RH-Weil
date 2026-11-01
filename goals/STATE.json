@@ -8,9 +8,9 @@
   "cadence": "goals/review-cadence.json",
   "decisions": "goals/DECISIONS.md",
   "latest_strategy": "goals/reviews/2026-11-01-general-rh-macro-review-cycle-22.md",
-  "latest_decision": "D20261101M",
+  "latest_decision": "D20261101N",
   "macro_frontier": "goals/MACRO_FRONTIER.md",
-  "macro_summary": "reviews/2026-11-01/relative-green-construction-admission/root-consumption.json",
+  "macro_summary": "reviews/2026-11-01/core-input-selection/root-consumption.json",
   "latest_macro_review": "goals/reviews/2026-11-01-general-rh-macro-review-cycle-22.md",
   "latest_iteration": "notes/606-global-joint-first-admission-technical-stop.md",
   "macro_control": {
@@ -21,7 +21,7 @@
   "macro": {
     "long_objective": "G20261027 inheritsG20261014/0c4f/all<=582 inputs: actualsameobject fullclassicalWeilpositivity/growingspectralconstraint; nooldresultrecompletion.",
     "unpaid_bottleneck": "LocalfixedI wholeonebodyabsolute budgetclosed602; actualprincipal/sections/mixed, K_Jfavorablesignedcorecross/growingI/Xi andwhole4/5negative-inertiaUPPERunchanged.",
-    "why_this_contract": "RelativeGreenoldmean/standardzero-classteststopsrecipe. Consecutiveold/source-onlygatesrequireONEformula-firstcoreinputselectiondecision withactualnominee/test/strong-oldnetorNONE, notanotherunpaidmapname.",
+    "why_this_contract": "ONEclosedstockselectionactualNONE onbothsides. Oneboundedexternalprimarylocator discoverycanintroducenewinformation; repeatinginternalNONE/Fr/engineeringwouldnot. Locatorunreviewed/notcoremath.",
     "paused_routes": [
       "零点比例优化",
       "无零区域优化"
@@ -40,9 +40,9 @@
     "settled_iterations": [
       "notes/606-global-joint-first-admission-technical-stop.md"
     ],
-    "stage": "RelativeGreenold-consequenceINPUT0 ROOTclosed;SOURCE7284651/be995verified35public9local9code/library144/clean. Exact3metadatachild armed; no successor math admitted/strategicselectionUNEXECUTED.",
-    "next_action": "VerifyactualFINAL API/local/tree/soleSOURCE7284/exact3/clean/checkpoint35pub9local9code first; thenONLYONEformula-firstcoreinputselectiondecision perrelative-green/next-core-admission-selection.md: ACTUALnominee+test+strong-oldnet orNONE. No math/newchapter/engineering successor admitted.",
-    "stop_rule": "C069ONE606spent/inertFAILengineeringstopped/BC72SOURCE0stopped/Fr-relative-metricINPUT0stopped. Noautomaticvariant/sourcequeue/C070607. Newmathrequiresactualindependentinput/test/strong-oldnet."
+    "stage": "ONEcore-inputselection ROOTconsumed NONE6973/8907/fresh9591;0strategy/no math/test/run/newcontract. NextprimarydiscoverycardUNEXECUTED; publicationnext.",
+    "next_action": "Publish/verifyactualFINAL first; thenONLYONEboundedprimarydiscovery perreviews/2026-11-01/core-input-selection/next-primary-input-discovery.md unique3querybatch/144dedup/5locators/onecandidateorNONEstop. LocatorUNREVIEWED,no math/sourcechapterautomatic.",
+    "stop_rule": "C069606/inert/BC72/Frspentstopped; internalONEselectionNONEdone/norepeat. Discoveryuniqueonebatch endsatonecandidateorcap/NONE; no automaticquery/paper/variant/engineering/C070607."
   },
   "support_contracts": [],
   "must_not_forget": [
@@ -96,22 +96,27 @@
       "path": "reviews/2026-11-01/relative-green-construction-admission/root-consumption.json",
       "kind": "obstruction",
       "scope": "OnlyfixedrelativeFr recipefailsoldactual405relation bystandard/native checks;0old-consequenceadmission/notnewmethodboundary."
+    },
+    {
+      "path": "reviews/2026-11-01/core-input-selection/root-consumption.json",
+      "kind": "open",
+      "scope": "ActualONEcoreselectionNONE inboundedstock; no newmath/generalboundary. Uniqueprimarydiscovery nextUNEXECUTED."
     }
   ],
   "pending_processes": [],
   "runtime_goal_observation": {
     "status": "active",
     "created_at_unix": 1793085111,
-    "observed_at_utc": "2026-11-01T00:46:12.199642+00:00",
-    "basis": "Actualget_goal SAMEactive afterSOURCEpublication; relativeGreenold-consequenceadmissionexecuted/rootclosed, nextstrategicselectionUNEXECUTED."
+    "observed_at_utc": "2026-11-01T00:48:24.282192+00:00",
+    "basis": "Actualget_goal SAMEactive1793085111; uniqueformula-firstselectionactionactuallystartedafterpublicationrecovery."
   },
   "goal_completion_requested": false,
-  "checkpoint": "goals/checkpoints/2026-11-01-relative-green-admission-sync.json",
+  "checkpoint": "goals/checkpoints/2026-11-01-core-input-selection-source.json",
   "last_verified_remote": {
     "repository": "https://github.com/lixiang90/RH-Weil",
-    "commit": "7284651f681ceb10cfe0a111de2fa29fb5a315ea",
-    "tree": "be995f74fe53cee71e7cc765bdf669192e7236ed",
-    "basis": "ActualSOURCE API/ref/commit/tree/sole975b/localclean35pub9local9code/checkpoint19pins; Goal/cadence/manifestRAWheld. ActualFINAL mustsatisfy exact3childcondition; recoveractualref."
+    "commit": "c3f66b751df2e1d51f6d304ac8c7dfd79311f2b4",
+    "tree": "6afd279234295dedad458576b66aff5bdb4718d0",
+    "basis": "API/local/sole7284/exact3/clean/checkpoint19/35public9local9code beforecurrentselection."
   },
   "completion_audit": {
     "goal": "goals/GOAL.20261027.md",
@@ -119,11 +124,11 @@
     "goal_lf_sha256": "b3d2acb1f962d793f45d79b6a4e67fb87dd072cd4752108a9298204b4cefa1de",
     "mathematical_gate": "open",
     "final_execution_gate": "not-eligible",
-    "basis": "RelativeGreenoldactualrelationfailure addsnoindependentclassicalinput; actualprincipal/sections/mixed/growingcore/coupling/Xi andall3Goalgatesopen."
+    "basis": "CurrentboundedselectionNONE suppliesnoindependentcapacity/signedcoreinput;actualprincipal/sections/mixed/growthand3Goalgatesopen; noexternalblocker inferred."
   },
-  "process_inventory_observed_on": "Allthree CURRENTrelativeGreenanalytic/strongold/fresh agenttasks deliveredterminal andROOTread. No scientificnumericprocess orruntimeprobe; nextstrategicselectionUNEXECUTED.",
+  "process_inventory_observed_on": "CURRENTprincipal/positive/freshselection tasks terminal,actualfilesROOTread; no scientificprocess/search. NextboundedprimarydiscoveryUNEXECUTED.",
   "publication_approval_gate": {
-    "status": "authorized-relativeGreen-SOURCE-verified-exact3-metadata-child-armed",
+    "status": "authorized-core-selection-NONE-source-preparing",
     "destination": "https://github.com/lixiang90/RH-Weil",
     "visibility": "public",
     "branch": "main",
@@ -133,8 +138,8 @@
       "reply": "每轮把进度同步到github；把文献保存在文献库中，用研究看板来记录各个路线的状况",
       "scope": "Publicresearch/state/board/librarymetadata/reviews; unlicensedfulltextlocalonly."
     },
-    "current_scope": "ONEold-consequencerelativeGreenadmission/source144unchanged/limits/nextUNEXECUTEDstrategycard;0math/newprimary/fulltext/scientificrun.",
-    "verification": "reviews/2026-11-01/relative-green-construction-admission/remote-sync-verification.json",
+    "current_scope": "ONE0roundselectionNONE/boardlibraryscope/nextuniqueUNEXECUTEDprimarydiscovery;no newprimary/fulltext/math/contract/run.",
+    "verification": "reviews/2026-11-01/core-input-selection/remote-sync-verification.json",
     "metadata_child_condition": "AfterverifiedSOURCE one exact3metadatachild STATE,newsync-checkpoint,remote-receipt; finalAPI/tree/soleSOURCE/exact3/pins/clean. No ownSHAloop."
   },
   "research_board": "RESEARCH_BRANCHES.md",
@@ -195,5 +200,5 @@
       "scope": "No physicalnormalization/sign transported; nativecited7.2.13 floorindependent, full7.2.5integralitynotreproved."
     }
   },
-  "latest_causal_review": "goals/reviews/2026-11-01-relative-green-old-admission-stop.md"
+  "latest_causal_review": "goals/reviews/2026-11-01-core-input-selection-none.md"
 }

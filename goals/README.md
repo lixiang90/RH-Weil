@@ -1,5 +1,7 @@
 # 长期研究恢复入口
 
+2026-11-01，[一次核心输入选择已root闭合为NONE](reviews/2026-11-01-core-input-selection-none.md)：两实际侧稿6973/8907及fresh9591核毕；几何先扣405商／574完整Q-marker强控制，正层先扣577已实际PSD生成／578signed缺口及560/602 whole身份费用，没有不同独立capacity／signed-core输入获提名。NONE只限本次实际库存，不是一般no-go／外部blocked；实际瓶颈与最强旧／三Goal门不变。策略0轮，原cadence0/history70/latest606/formal22、Goal9679及库144manifest原字节保持。准确发布核actualfinal后，唯一下一为一份已冻结的primary发现卡：ONE固定3-query batch／144去重／最多5个原始摘要statement-locator，1待审候选或NONE即止；尚未执行，无PDF／证明／引用递归／第二batch／数学自动准入。Locator声明不作已审输入，不再重复内部NONE选择／Fr变体／工程。当前执行只读STATE；旧下列下一均历史。
+
 2026-11-01，[相对Green显式配方准入已root停止](reviews/2026-11-01-relative-green-old-admission-stop.md)：解析／formal相合及native Green合法性实际核验后，旧574已付的405物理关系负mean给Fr二阶系数<0；本目标Hermitian零类却迫归一化Fr=id。固定recipe不实现principal下降，按强旧直接准入INPUT0／0轮消费；不把一般全源单射／537保留、新严格费或方法边界免费升级。最强旧及actual principal/sections/mixed/growing core/coupling/Ξ瓶颈未变，三Goal门open。原cadence0/history70/latest606/formal22、Goal9679／库144manifest原字节保持。准确发布核actualfinal后，唯一下一为一份formula-first核心输入选择决策：actual nominee＋可证伪test＋强旧净值或NONE；尚未执行／无继任数学准入，不续Fr变体、书章／论文或工程，不另计宏观周期。当前执行只读STATE；旧下列下一均历史。
 
 2026-11-01，[BC§7.2来源门已root消费](reviews/2026-11-01-formal-analytic72-source-stop.md)：实际全局交数含有限与全部无穷位overflow，native实mixed设施真实；下界含normaldegree，不是无条件正性。全physical源→principal／完整Weil同对象桥仍欠，关键瓶颈未变。7.2.19定量系数与6.2.13极值符号消费留置，7.2.5完整整性只cited。库144仅更新§7.2与最少定义实际阅读范围；SOURCE0／0数学，cadence0/history70/latest606/formal22与Goal原字节保持，三完成门open。准确发布核actualfinal后，唯一下一为同一A1_Z上的显式relative Green构造准入：先合法性／强N2费用与405实际非compact关系principal测试，扣573–575强旧；旧推论或无净input即止。构造未执行，无C070／607，不续后章、论文或工程。当前执行只读STATE，旧下列下一均历史。

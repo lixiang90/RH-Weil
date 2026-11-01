@@ -1,0 +1,19 @@
+{
+  "schema": "RH_WEIL_CORE_INPUT_SELECTION_SYNC_V1",
+  "status": "LOCAL_SOURCE_READY_NOT_YET_PUBLISHED",
+  "repository": "https://github.com/lixiang90/RH-Weil",
+  "branch": "main",
+  "previous_verified_head": "c3f66b751df2e1d51f6d304ac8c7dfd79311f2b4",
+  "source_commit": null,
+  "source_tree": null,
+  "scope": "ActualONEboundedcoreselectionNONE andfreshscopeclosed;0strategyrounds/newmath/test/run/externalprimary/search. Nextunique3query/5locatorprimarydiscoveryUNEXECUTED;locatornotpaidtheorem.",
+  "metadata_child_exact_paths": [
+    "goals/STATE.json",
+    "goals/checkpoints/2026-11-01-core-input-selection-sync.json",
+    "reviews/2026-11-01/core-input-selection/remote-sync-verification.json"
+  ],
+  "condition": "OneverifiedSOURCE andonesoleparentSOURCEexact3metadatachild; independentlyverifyactualFINAL API/local/tree/paths/clean/checkpoint/pins. NoownSHAloop.",
+  "public_bindings_count": 40,
+  "local_only_bindings_count": 9,
+  "unchanged_scientific_code_pins": 9
+}
