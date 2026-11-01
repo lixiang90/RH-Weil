@@ -1,0 +1,20 @@
+{
+  "schema": "RH_WEIL_NATIVE_BC_WITT_READING_FREEZE_V1",
+  "status": "FROZEN_BEFORE_PROOF_READING",
+  "sourcePath": "literature/local/2026-11-01-native-bc-witt-source/connes-consani-emss64.pdf",
+  "bytes": 3328150,
+  "sha256": "72a0bb1785f593cb447435812278379db471ce4b17944ed02fb85a2011465d60",
+  "pages": 29,
+  "nativeResult": "Theorem3.11 andTheorem3.12; section3 TheconceptualmeaningofBCsystem",
+  "mainReadScope": "PhysicalPDF7 bottom(section3heading) throughPDF14 +PDF15top beforesection4heading. Printed453bottom-461top. Section3.1-3.4 definitions/maps/directproof; Theorem3.1 is a cited dependency, no externalproofsearch.",
+  "minimumBCDefinitionScope": "Section2 onlythe algebraicBCgenerator/relations/coefficient/Frobenius-transfer definitions onPDF4bottom-7beforesection3. Onlyminimumdefinition paragraphs/displays needed by3.12, notthe analytic/Weil-role survey asindependentresult.",
+  "alreadyRead": "PublisherHTMLmetadata/abstract; PDFfirstpage visual+text. Automaticheadinglocator wholePDFexposes section/theoremheadinglines only, notproofconsumption.",
+  "excluded": "Section1beyondfirstpage introduction; section2role/analyticexpansion beyondneededdefs; section4+proof/Schwarzian/spectraltriples/references/otheredition. Adjacentpagefragments mayexpose headings butnotconsumed.",
+  "stopRules": [
+    "Ifnamedcomparisonabsentoronlyexternalproofpointerstopwithoutfollowingrefs.",
+    "Nativefacilitywithoutdifferentactualphysicalsourceentry=>SOURCE0classicalcorestop; no newformula/C070607/queue."
+  ],
+  "PDFParserWarning": "pdftotext xref333 reconstructionwarning exit0; retainoriginalbytes andvisuallycheck everyrelevantformula page.",
+  "mathematicalContractStarted": false,
+  "recordedAtUTC": "2026-11-01T01:24:18.394297+00:00"
+}

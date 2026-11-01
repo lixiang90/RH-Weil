@@ -1,0 +1,18 @@
+{
+  "schema": "RH_WEIL_NATIVE_BC_WITT_SOURCE_PIN_V1",
+  "source_url": "https://ems.press/journals/emss/articles/12949497",
+  "requested_pdf_url": "https://ems.press/content/serial-article-files/37042?nt=1",
+  "resolved_pdf_url": "https://ems.press/content/serial-article-files/37042?nt=1",
+  "HTTPstatus": 200,
+  "path": "literature/local/2026-11-01-native-bc-witt-source/connes-consani-emss64.pdf",
+  "bytes": 3328150,
+  "sha256": "72a0bb1785f593cb447435812278379db471ce4b17944ed02fb85a2011465d60",
+  "publisher_metadata_verified": "DOI10.4171/EMSS/64;9(2022)447-475;published2023-10-25;CC-BY-4.0 page",
+  "PDFpages": 29,
+  "downloaded_at_utc": "2026-11-01T01:22:15.902545+00:00",
+  "parserWarning": "Poppler pdftotext reports missing xref333 and reconstructs, exit0. OriginalPDFnotrewritten; formula pages require visual checking.",
+  "proof_read_at_pin_time": false,
+  "PDFidentityVerifiedAtPinTime": "Firstpage DOI/title/authors/journal/CCBY match;29pages3328150bytes. Onlyfirstpage+automaticheadings sofar.",
+  "final_read_scope": "Frozen native section3/3.11/3.12+minimumdefs only; actual reading/exposure/cited limits in root-consumption.json.",
+  "final_status": "ROOT_CONSUMED_SOURCE0_CLASSICAL_CORE; native coefficient/operations source facility retained."
+}

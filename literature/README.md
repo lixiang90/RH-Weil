@@ -1,5 +1,8 @@
 # RH-Weil 文献索引
 
+2026-11-01，CC native BC/Witt来源门已审：库145只更新既有145th entry，实际官方PDF29页/3328150bytes/SHA72a0…d60本地保存，原字节不改；[使用范围](supplements/2026-11-01-native-bc-witt-source-scope.md)记录§3实际阅读、相邻曝光与cited/unital/enriched限制。native tau/F/V真实，经典physical/principal/mixed入口SOURCE0；无新数学/关键瓶颈变化，不续章节/引用/检索。旧下列UNREVIEWED文字为历史。
+
+
 2026-11-01，ONE固定primary发现结束，新增CC-BC-WITT-EMSS64-2023-locator，库144→145仅metadata：[使用范围](supplements/2026-11-01-primary-discovery-bc-witt-scope.md)。publisher-indexed声明仍UNREVIEWED，无PDF／SHA／页数／proof消费；先原件pin／named-result定位再决定native来源设施。其余命中仅旧work／报告／bib曝光，不给第二门；本轮0数学。
 
 2026-11-01，ONE核心输入选择合并NONE：[本轮使用范围](supplements/2026-11-01-core-input-selection-scope.md)。只复用405／573–578／560／602等实际库存作强旧扣除，无新外部原文、检索或PDF；库144及manifest原字节保持。下一唯一primary发现卡未执行，最多5个原始locator／1待审来源卡或NONE止；检索声明不是已审定理或数学准入。

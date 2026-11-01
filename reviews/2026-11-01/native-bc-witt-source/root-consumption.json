@@ -1,0 +1,83 @@
+{
+  "schema": "RH_WEIL_NATIVE_BC_WITT_ROOT_CONSUMPTION_V1",
+  "runtimeGoalCreatedAt": 1793085111,
+  "status": "ROOT_CONSUMED_SOURCE0_CLASSICAL_CORE",
+  "previousVerifiedFinal": "bf59573fdc0fc176dc24288e1f174479831bb2a7",
+  "source": {
+    "authors": "Alain Connes; Caterina Consani",
+    "title": "BC-system, absolute cyclotomy and the quantized calculus",
+    "doi": "10.4171/EMSS/64",
+    "journalVolumeDate": "9(2022), no.2,447-475",
+    "publisherPublishedDate": "2023-10-25",
+    "publisher": "https://ems.press/journals/emss/articles/12949497",
+    "pdf": "https://ems.press/content/serial-article-files/37042?nt=1",
+    "localPath": "literature/local/2026-11-01-native-bc-witt-source/connes-consani-emss64.pdf",
+    "bytes": 3328150,
+    "sha256": "72a0bb1785f593cb447435812278379db471ce4b17944ed02fb85a2011465d60",
+    "physicalPages": 29,
+    "originalBytesUnchanged": true,
+    "redistribution": "Publisher CC-BY4.0 checked; repository retains this original PDF local-only/ignored and publishes metadata/read scope."
+  },
+  "rootReadTerminalInputs": [
+    {
+      "path": "reviews/2026-11-01/native-bc-witt-source/reading-scope-freeze.json",
+      "bytes": 1753,
+      "sha256": "bfe2d8de0c39b2854e6d80ea43f454022422c1e04d1e436b1a975140bcc12159"
+    },
+    {
+      "path": "reviews/2026-11-01/native-bc-witt-source/native-identification-primary-reading.md",
+      "bytes": 9156,
+      "sha256": "92d09976fe49e32e241c31abc252c123493218e78bb2c542244061ca0bb9e371"
+    },
+    {
+      "path": "reviews/2026-11-01/native-bc-witt-source/typed-operations-and-strong-old-audit.md",
+      "bytes": 11111,
+      "sha256": "10b5fc010616b9b3ea693ce1aeb00f045b94f87040540ab29c4c974106fd8cba"
+    },
+    {
+      "path": "reviews/2026-11-01/native-bc-witt-source/fresh-native-source-review.md",
+      "bytes": 9906,
+      "sha256": "aeffa15d06b1240a30458a8d84c8c94dc46c85be2248103de82f74776a4296f6"
+    }
+  ],
+  "rootReadAndReconciled": "ROOT read all three current terminal memos, frozen section3 text and relevant rendered formula pages; root-native-consumption-limits.md governs first consumption. Issued root-source-decision-draft.md remains historical pending-review draft, not authority.",
+  "reading": {
+    "consumed": "One native identification scope: Theorems3.11/3.12 and section3.1-3.4 minimum definitions/maps/direct proof, PDF7bottom-14/15top (printed453bottom-461top); firstpage identity and minimum section2 Hecke/algebraic definitions only.",
+    "citedDependencies": "Theorem3.1 and upstream Almkvist facts cited; no external proof/reference opened. Theorem3.11 local cycle/Fourier argument checked within its usual unital convention. Theorem3.12 enriched-system assertion cited; arbitrary Hecke-presentation faithfulness not reconstructed.",
+    "exposure": "Automatic whole-PDF heading index exposed outside labels only. Whole extracted/rendered4-7 exposed adjacent intro/section2/scaling/RR survey; only needed definitions/native7bottom consumed. Initial15 extraction/full-page agent render exposed section4 opening and first-map prefix; root/reviewer15 crop includes section4 heading/partial opening line. None of those section4 claims consumed; no section4 proof, later body, references or other edition read.",
+    "parser": "Poppler xref333 missing/reconstructed, exit0. Original PDF never repaired/rewritten; relevant formulas visually checked."
+  },
+  "premiseClosure": {
+    "objectDomainRange": "A=S[M], M=(Q/Z)_+, A[X]=X smash M. Finite free pointed A[F] endomorphisms have at most one nonzero matrix entry PER COLUMN, zero columns allowed. Absorbing basepoint differs from unit e(0). Native End composition differs from invariant-ring tensor multiplication.",
+    "relationQuotientPhysical": "Def3.8 W0(A) uses stable-image trimming, wedge addition, relative-smash multiplication and specified fieldwise similarity. General matrix bimodule differs from sparse End monoid. Def3.6 invertibility is tested after all allowed field extensions; Fourier inverse W/n is not a native End unit or integral-unimodular/physical basis change. No Quillen/higher/relative-K identification or physical r assigned.",
+    "nativeCoefficientDirection": "Prop3.9 tau is the nonzero-eigenvalue divisor in abstract root labels. Theorem3.11 identifies W0(A) with Z[Q/Z] by trim/weighted-cycle/rescaling/finite Fourier argument. Theorem3.1 is the different Aut(Q/Z)-invariant subring for W0(S). Not ordinary algebraic integers.",
+    "unitalRestriction": "Def3.8 displayed conditions do not separately print chi([e(0)])=1 while3.11 proof uses beta in R units. Retain cited source theorem/usual unital-target convention; no independent universal theorem for arbitrary nonunital functions, erratum or repair consumed.",
+    "operations": "F_n(E,T)=(E,T^n); tau F_n=sigma_n tau, sigma_n e(a)=e(na). Additive n-block cyclic V_n has tau V_n=rhoTilde_n tau, rhoTilde_n e(a)=sum_(nb=a)e(b), NO1/n. F_n V_n=n Id; V_n F_n is kernel-root-sum action, not Id. On actual[e(0)], V2 gives e(0)+e(1/2), F2V2 gives2e(0). These check source normalization, not new physical prime-power weights.",
+    "enrichedComparison": "Theorem3.12 integral BC SYSTEM versus W0(A) ENDOWEDWITH F/V is CITED. Not bare noncommutative H_Z equals commutative W0 ring, complete arbitrary Hecke faithfulness, C*-completion, KMS/time evolution or analytic-norm equivalence.",
+    "sourceGrowthNorm": "Only finite native objects supplied. No actual all-complex physical r=e^(u/2)f, S_exp/Dlog or positive-Dprime generator. No original du/weightedr/zero-extension Dlog, strong-source/height/frequency/tail/growth quantifier or error transportation paid by finite Fourier similarity.",
+    "coverageCouplingSignedBudget": "Full noncompact405 Pan+translations principal descent,537 nonroot/full-source coverage, integral filtration/sections/multiplication, independent mixed capacity and complete classical Gamma/contact/all properpowers/both poles/growing signed core/coupling/Xi identity remain unpaid. Actual finite eigenvalue divisors are not already Cartier/principal data for physical sources."
+  },
+  "strongestOldComparison": {
+    "differentObjectsPreserved": "365 C[R_+^x] moving-character/scalarization, Deninger rational-Witt flow and ordinary liftable-unit K1-to-relativeK0 connecting-zero are different; no supplied functor transports their zero to current native End invariant. Conversely K terminology does not construct nonliftable physical data.",
+    "strongOldInputs": "405 full relations;573 charge/ideal;574 fullQ-marker local gates;575 Cartier/filter;577 actual positive layers/Gamma fee;578 signed gap;560 complete fixed-window trace-minus-compact+bothpoles;602 whole fixed-I onebody O_I(logX). These are stronger than merely a legal carrier/eigenvalue/positive auxiliary object.",
+    "strongestClassicalConsequence": "Whole fixed17/16 full-complexDlog; fixed9/8 E448 head604; same605-head ALL-complement positive completion from Delta in[2^-124,2^-123);542+555->557 wholeleading4/5 NEGATIVE-INERTIA UPPER. No current source changes any of them.",
+    "netConsequence": "Genuine typed native arithmetic facility saved as cited source asset; ZERO new whole classical inequality, principal/mixed/capacity input or favorable signed-core bound. Not a general Witt/BC/relative/higher/source-adaptive no-go."
+  },
+  "prospectiveLocalLookups": {
+    "status": "Message-only prior-record lookups, not admitted/executed proofs or source queries.",
+    "frobeniusGlobalization": "No exact old all-n inversivization computation located; without physical source/norm/mixed input it is not a qualifying successor. No colimit theorem/value derived.",
+    "cyclotomicSection": "Same P1_Z cyclotomic Cartier carrier/principal-plus-arch decomposition already in core-input-portfolio and post-increment-core-choice/arithmetic-input-candidate.md section2. No exact psi_n->T=1/n=1 framed bridge consumption found; do not invent it or extend m>n>1 resultants. Primeweight relabel alone does not pay different physical/relative/mixed data. No new formula/intersection proof executed."
+  },
+  "settlement": {
+    "mathematicalIterationsAdded": 0,
+    "cadence": "RAW unchanged0/history70/latest606/formal22; no reset/formal23/C070/607",
+    "library": "145 remains145; only existing145th locator entry updated to actual PDF/read scope; prior144 entries deep-equal bf59573.",
+    "actualBottleneckChanged": false,
+    "allThreeGoalGates": "OPEN",
+    "runtimeGoal": "SAMEactive1793085111; not complete/paused/blocked",
+    "stop": "This named source gate STOPPED. No section4/ref/other edition/search batch/automatic formula or math contract successor. C069 remains stopped/spent; no numerical run."
+  },
+  "nextActionState": "After exactpublication+actualFINALverify, ONE UNEXECUTED C(2)/Delta(2)/Fourier-intertwiner prequotient proposal-construction per next-input-proposal-admission.md; nominee+actualtest+strongoldnet orNONE. No successor math admitted; standard denominator/det/SNF-only stop; no automatic source/formula chain.",
+  "settlementScopeReview": "Current reused /root/bc72_fresh_review separate message-only task terminal; agrees SOURCE0/currentmathNONE and permits only fixed-pair proposal construction. No newsource/math/proof/calculation/files from that task.",
+  "finalSettlementScopeAudit": "Separate current transport-agent read of root record/goal source-stop/nextcard PASS scope; message-only terminal, noPDF/proof/calculation/files. Scope only, not independent new math."
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "RH_WEIL_NATIVE_BC_WITT_SYNC_V1",
+  "status": "PREPARED_NOT_YET_PUBLISHED",
+  "repository": "https://github.com/lixiang90/RH-Weil",
+  "branch": "main",
+  "previous_verified_head": "bf59573fdc0fc176dc24288e1f174479831bb2a7",
+  "scope": "ActualpublisherPDF29p pinned; native section3/Theorems3.11/3.12 scopedCITEDfacility/unnormalizedFV; SOURCE0classicalcore/0math/no keybottleneckchange. Existing145thentryupdated; nextfixedC2prequotientproposalUNEXECUTED/currentmathNONE.",
+  "metadata_child_exact_paths": [
+    "goals/STATE.json",
+    "goals/checkpoints/2026-11-01-native-bc-witt-source-sync.json",
+    "reviews/2026-11-01/native-bc-witt-source/remote-sync-verification.json"
+  ],
+  "condition": "OneverifiedSOURCE thenoneexact3soleparentSOURCEmetadatachild; independentlyverifyactualFINAL/API/local/tree/paths/clean/checkpoint/bindings. NoownSHAloop.",
+  "public_bindings_count": 51,
+  "local_only_bindings_count": 10,
+  "unchanged_scientific_code_pins": 9
+}
