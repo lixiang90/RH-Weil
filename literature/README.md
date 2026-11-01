@@ -1,5 +1,8 @@
 # RH-Weil 文献索引
 
+2026-11-01，实际有限Hermite交换子源族形成/严格准入：[使用范围](supplements/2026-11-01-joint-hermite-commutator-admission-scope.md)。仅复用560/591/603/594与自有scope记录，无新PDF/web/primary/章节；库145和manifest原字节保持。C070 ready只授固定X=e^j,N=j²的三源必要门，证明/test未执行；0数学/无新经典净后果，不把新PSD定义记成数学结果。
+
+
 2026-11-01，J–Q来源链因果审计完成，当前core准入NONE：[使用范围](supplements/2026-11-01-source-chain-causal-audit-scope.md)。只核既有自有ROOT/澄清/强旧链，无新PDF/web/primary/章节；库145与manifest原字节保持。BC72/global mixed与nativeBC设施保真实范围；旧relativeGreen二阶导记号消费限定纠正，不重证或扩大方法边界。0数学，无自动来源/公式/候选后继。
 
 
